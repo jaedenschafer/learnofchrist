@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: #1a1a2e;
+  --gold: #d4a574;
+  --cream: #faf8f5;
+  --sage: #8b9e8b;
+  --brown: #5c4033;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #faf8f5;
+  color: #1a1a2e;
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, Garamond, serif;
+}
+
+.scripture-quote {
+  font-family: Georgia, Garamond, serif;
+  font-style: italic;
+  color: #1a1a2e;
+}
+
+.btn-primary {
+  background-color: #d4a574;
+  color: #1a1a2e;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.2s duration;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.btn-secondary {
+  background-color: #1a1a2e;
+  color: #faf8f5;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.2s duration;
+}
+
+.btn-secondary:hover {
+  opacity: 0.9;
+}
+
+.btn-outline {
+  border: 2px solid #1a1a2e;
+  color: #1a1a2e;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: all 0.2s duration;
+}
+
+.btn-outline:hover {
+  background-color: #1a1a2e;
+  color: #faf8f5;
+}
+
+.btn-outline:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1a1a2e, #1a1a2e, #5c4033);
+  color: #faf8f5;
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  transition: box-shadow 0.3s duration;
+}
+
+.card:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.breadcrumb {
+  font-size: 0.875rem;
+  color: #8b9e8b;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.breadcrumb a {
+  transition: color 0.2s;
+}
+
+.breadcrumb a:hover {
+  color: #1a1a2e;
+}
+
+.breadcrumb span {
+  color: #d4a574;
+}
+
+.nav-active {
+  color: #d4a574;
+  border-bottom: 2px solid #d4a574;
+}
