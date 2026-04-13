@@ -1,100 +1,124 @@
 import type { MetadataRoute } from 'next';
-import { getAllBooks } from '@/data/books';
-import { getAllTopics } from '@/data/topics';
-import { getAllQuestions } from '@/data/questions';
-import { getAllBlogPosts } from '@/data/blog-posts';
-import { getAllStudyPlans } from '@/data/study-plans';
+import { bibleBooks } from '@/data/books';
+import { topics } from '@/data/topics';
+import { questions } from '@/data/questions';
+import { blogPosts } from '@/data/blog-posts';
+import { studyPlans } from '@/data/study-plans';
 import { verseExplanations } from '@/data/verse-explanations';
+
+const BASE_URL = 'https://learnofchrist.com';
 
 function bookNameToSlug(name: string): string {
   return name.toLowerCase().replace(/\s+/g, '-').replace(/'/g, '');
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://learnofchrist.com';
-  const books = getAllBooks();
+  const entries: MetadataRoute.Sitemap = [];
 
-  // Static pages
-  const staticPages: MetadataRoute.Sitemap = [
-    { url: baseUrl, lastModified: new Date(), changeFrequency: 'weekly', priority: 1.0 },
-    { url: `${baseUrl}/bible`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.9 },
-    { url: `${baseUrl}/topics`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/questions`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/study-plans`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.7 },
-    { url: `${baseUrl}/blog`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.7 },
-    { url: `${baseUrl}/about`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
-    { url: `${baseUrl}/family`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
-    { url: `${baseUrl}/privacy`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.2 },
-    { url: `${baseUrl}/terms`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.2 },
+  // ── Homepage ──
+  entries.push({
+    url: BASE_URL,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 1.0,
+  });
+
+  // ── Static pages ──
+  const staticPages = [
+    { path: '/bible', priority: 0.9, freq: 'weekly' as const },
+    { path: '/study-plans', priority: 0.7, freq: 'weekly' as const },
+    { path: '/topics', priority: 0.7, freq: 'weekly' as const },
+    { path: '/questions', priority: 0.7, freq: 'weekly' as const },
+    { path: '/blog', priority: 0.7, freq: 'weekly' as const },
+    { path: '/family', priority: 0.5, freq: 'monthly' as const },
+    { path: '/about', priority: 0.3, freq: 'monthly' as const },
+    { path: '/privacy', priority: 0.1, freq: 'yearly' as const },
+    { path: '/terms', priority: 0.1, freq: 'yearly' as const },
   ];
 
-  // Book pages (66 books)
-  const bookPages: MetadataRoute.Sitemap = books.map((book) => ({
-    url: `${baseUrl}/bible/${bookNameToSlug(book.name)}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
-    priority: 0.7,
-  }));
+  for (const page of staticPages) {
+    entries.push({
+      url: `${BASE_URL}${page.path}`,
+      lastModified: new Date(),
+      changeFrequency: page.freq,
+      priority: page.priority,
+    });
+  }
 
-  // Chapter pages (1,189 chapters)
-  const chapterPages: MetadataRoute.Sitemap = [];
-  for (const book of books) {
+  // ── Bible book pages (72 books) ──
+  for (const book of bibleBooks) {
+    const slug = bookNameToSlug(book.name);
+    entries.push({
+      url: `${BASE_URL}/bible/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    });
+  }
+
+  // ── Bible chapter pages (1,189 chapters) ──
+  for (const book of bibleBooks) {
     const slug = bookNameToSlug(book.name);
     for (let ch = 1; ch <= book.chapters; ch++) {
-      // Higher priority for chapters with rich study content
-      const hasRichContent = (
-        (slug === 'john') ||
-        (slug === 'genesis' && ch <= 12) ||
-        (slug === 'psalms' && [1, 23, 46, 91, 119, 139].includes(ch))
-      );
-      chapterPages.push({
-        url: `${baseUrl}/bible/${slug}/${ch}`,
+      entries.push({
+        url: `${BASE_URL}/bible/${slug}/${ch}`,
         lastModified: new Date(),
-        changeFrequency: 'monthly' as const,
-        priority: hasRichContent ? 0.8 : 0.6,
+        changeFrequency: 'monthly',
+        priority: 0.8,
       });
     }
   }
 
-  // Topic pages
-  const topicPages: MetadataRoute.Sitemap = getAllTopics().map((topic) => ({
-    url: `${baseUrl}/topics/${topic.id}`,
-    lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }));
+  // ── Individual verse explanation pages ──
+  for (const key of Object.keys(verseExplanations)) {
+    const [bookSlug, chapter, verse] = key.split('/');
+    entries.push({
+      url: `${BASE_URL}/bible/${bookSlug}/${chapter}/${verse}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    });
+  }
 
-  // Question pages
-  const questionPages: MetadataRoute.Sitemap = getAllQuestions().map((q) => ({
-    url: `${baseUrl}/questions/${q.id}`,
-    lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }));
+  // ── Topics ──
+  for (const topic of topics) {
+    entries.push({
+      url: `${BASE_URL}/topics/${topic.id}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    });
+  }
 
-  // Blog posts
-  const blogPages: MetadataRoute.Sitemap = getAllBlogPosts().map((post) => ({
-    url: `${baseUrl}/blog/${post.id}`,
-    lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }));
+  // ── Questions ──
+  for (const question of questions) {
+    entries.push({
+      url: `${BASE_URL}/questions/${question.id}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    });
+  }
 
-  // Study plan pages
-  const studyPlanPages: MetadataRoute.Sitemap = getAllStudyPlans().map((plan) => ({
-    url: `${baseUrl}/study-plans/${plan.id}`,
-    lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }));
+  // ── Study Plans ──
+  for (const plan of studyPlans) {
+    entries.push({
+      url: `${BASE_URL}/study-plans/${plan.id}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    });
+  }
 
-  // Verse explanation pages (high priority — most searched)
-  const versePages: MetadataRoute.Sitemap = Object.keys(verseExplanations).map((key) => ({
-    url: `${baseUrl}/bible/${key}`,
-    lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.9,
-  }));
+  // ── Blog Posts ──
+  for (const post of blogPosts) {
+    entries.push({
+      url: `${BASE_URL}/blog/${post.id}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    });
+  }
 
-  return [...staticPages, ...bookPages, ...chapterPages, ...topicPages, ...questionPages, ...blogPages, ...studyPlanPages, ...versePages];
+  return entries;
 }
