@@ -1,0 +1,146 @@
+import Link from 'next/link';
+import { getAllStudyPlans, getStudyPlanById } from '@/data/study-plans';
+import BreadcrumbNav from '@/components/BreadcrumbNav';
+
+interface StudyPlanPageProps {
+  params: Promise<{ id: string }>;
+}
+
+export async function generateStaticParams() {
+  return getAllStudyPlans().map((plan) => ({ id: plan.id }));
+}
+
+export async function generateMetadata({ params }: StudyPlanPageProps) {
+  const { id } = await params;
+  const plan = getStudyPlanById(id);
+  if (!plan) {
+    return { title: 'Plan Not Found - Learn of Christ' };
+  }
+  return {
+    title: `${plan.name} - Study Plans - Learn of Christ`,
+    description: plan.description,
+    openGraph: {
+      title: `${plan.name} - Study Plans - Learn of Christ`,
+      description: plan.description,
+    },
+  };
+}
+
+const difficultyLabel: Record<string, string> = {
+  beginner: 'Beginner',
+  intermediate: 'Intermediate',
+  advanced: 'Advanced',
+};
+
+export default async function StudyPlanPage({ params }: StudyPlanPageProps) {
+  const { id } = await params;
+  const plan = getStudyPlanById(id);
+
+  if (!plan) {
+    return (
+      <div className="page-container">
+        <div className="max-w-3xl mx-auto text-center py-20">
+          <h1 className="font-serif text-3xl font-bold text-navy mb-3">Plan Not Found</h1>
+          <p className="text-sm text-navy/50 mb-6">The study plan you are looking for does not exist.</p>
+          <Link href="/study-plans" className="btn-primary">Back to Study Plans</Link>
+        </div>
+      </div>
+    );
+  }
+
+  const totalDays = plan.days.length;
+
+  return (
+    <div className="page-container">
+      <div className="max-w-3xl mx-auto">
+        <BreadcrumbNav items={[{ label: 'Study Plans', href: '/study-plans' }, { label: plan.name, href: '#' }]} />
+
+        {/* Plan Header */}
+        <div className="card mb-4">
+          <div className="flex items-start gap-3 mb-3">
+            <span className="text-3xl">{plan.icon}</span>
+            <div className="flex-1">
+              <h1 className="font-serif text-2xl sm:text-3xl font-bold text-navy mb-1">{plan.name}</h1>
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="text-[0.65rem] font-semibold text-gold uppercase tracking-wide">{plan.duration}</span>
+                <span className="text-navy/20">|</span>
+                <span className="text-[0.65rem] font-semibold text-navy/40 uppercase tracking-wide">{plan.category}</span>
+                <span className="pill-sage">{difficultyLabel[plan.difficulty]}</span>
+              </div>
+            </div>
+          </div>
+          <p className="text-sm text-navy/55 leading-relaxed">{plan.description}</p>
+        </div>
+
+        {/* Progress Indicator */}
+        <div className="card mb-4 bg-gold/[0.04] border-l-[3px] border-gold/50">
+          <div className="flex items-center justify-between mb-2">
+            <p className="section-header !mb-0">Your Progress</p>
+            <span className="text-xs font-semibold text-navy/40">0 / {totalDays} days</span>
+          </div>
+          <div className="w-full h-2 bg-navy/[0.06] rounded-full overflow-hidden">
+            <div className="h-full bg-gold/60 rounded-full transition-all duration-500" style={{ width: '0%' }}></div>
+          </div>
+          <p className="text-xs text-navy/35 mt-2">Start reading to track your progress.</p>
+        </div>
+
+        {/* Day-by-Day List */}
+        <div className="mb-4">
+          <h2 className="font-sans text-base font-semibold text-navy mb-3">Daily Readings</h2>
+          <div className="card-grouped">
+            {plan.days.map((studyDay) => (
+              <div key={studyDay.day} className="card-grouped-item">
+                <div className="flex items-start gap-3">
+                  <div className="step-number flex-shrink-0">{studyDay.day}</div>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="font-sans text-sm font-semibold text-navy mb-0.5">{studyDay.title}</h3>
+                    <Link
+                      href={studyDay.readingLink}
+                      className="inline-flex items-center gap-1 text-xs font-semibold text-gold hover:text-gold/80 transition-colors mb-1.5"
+                    >
+                      {studyDay.reading}
+                      <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </Link>
+                    <p className="text-xs text-navy/45 leading-relaxed">{studyDay.focus}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* CTA */}
+        <div className="cta-banner mt-6">
+          <h2 className="font-serif text-2xl font-bold mb-3">Ready to Begin?</h2>
+          <p className="text-sm text-cream/55 max-w-sm mx-auto mb-6">
+            Start with Day 1 and let God&apos;s Word transform your understanding one chapter at a time.
+          </p>
+          <Link href={plan.days[0].readingLink} className="btn-primary">
+            Start Day 1: {plan.days[0].reading}
+          </Link>
+        </div>
+
+        {/* Navigation */}
+        <div className="card mt-4">
+          <h2 className="font-sans text-base font-semibold text-navy mb-3">Continue Exploring</h2>
+          <div className="card-grouped">
+            <Link href="/study-plans" className="card-grouped-item flex items-center gap-3 group">
+              <span className="font-sans text-sm font-medium text-navy group-hover:text-gold transition-colors flex-1">View All Study Plans</span>
+              <svg className="w-4 h-4 text-navy/20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+            </Link>
+            <Link href="/bible" className="card-grouped-item flex items-center gap-3 group">
+              <span className="font-sans text-sm font-medium text-navy group-hover:text-gold transition-colors flex-1">Explore the Bible</span>
+              <svg className="w-4 h-4 text-navy/20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+            </Link>
+            <Link href="/topics" className="card-grouped-item flex items-center gap-3 group">
+              <span className="font-sans text-sm font-medium text-navy group-hover:text-gold transition-colors flex-1">Browse Topics</span>
+              <svg className="w-4 h-4 text-navy/20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
