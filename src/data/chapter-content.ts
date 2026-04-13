@@ -17,6 +17,11 @@ import { lukeChapters } from './chapters/luke';
 import { revelationChapters } from './chapters/revelation';
 import { actsChapters } from './chapters/acts';
 import { proverbsChapters } from './chapters/proverbs';
+import { firstCorinthiansChapters } from './chapters/1-corinthians';
+import { ephesiansChapters } from './chapters/ephesians';
+import { philippiansChapters } from './chapters/philippians';
+import { exodusChapters } from './chapters/exodus';
+import { isaiahChapters } from './chapters/isaiah';
 
 export const chapterContent: Record<string, ChapterContent> = {
   ...johnChapters,
@@ -29,6 +34,11 @@ export const chapterContent: Record<string, ChapterContent> = {
   ...revelationChapters,
   ...actsChapters,
   ...proverbsChapters,
+  ...firstCorinthiansChapters,
+  ...ephesiansChapters,
+  ...philippiansChapters,
+  ...exodusChapters,
+  ...isaiahChapters,
 };
 
 export function getChapterContent(
