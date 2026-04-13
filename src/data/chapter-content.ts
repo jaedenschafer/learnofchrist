@@ -33,6 +33,12 @@ import { judeChapters } from './chapters/jude';
 import { leviticusChapters } from './chapters/leviticus';
 import { joshuaChapters } from './chapters/joshua';
 import { firstKingsChapters } from './chapters/1-kings';
+import { numbersChapters } from './chapters/numbers';
+import { judgesChapters } from './chapters/judges';
+import { ruthChapters } from './chapters/ruth';
+import { secondKingsChapters } from './chapters/2-kings';
+import { ezraChapters } from './chapters/ezra';
+import { nehemiahChapters } from './chapters/nehemiah';
 
 export const chapterContent: Record<string, ChapterContent> = {
   ...johnChapters,
@@ -61,6 +67,12 @@ export const chapterContent: Record<string, ChapterContent> = {
   ...leviticusChapters,
   ...joshuaChapters,
   ...firstKingsChapters,
+  ...numbersChapters,
+  ...judgesChapters,
+  ...ruthChapters,
+  ...secondKingsChapters,
+  ...ezraChapters,
+  ...nehemiahChapters,
 };
 
 export function getChapterContent(
