@@ -109,56 +109,56 @@ export default async function VersePage({ params }: VersePageProps) {
           <blockquote className="font-serif text-lg sm:text-xl text-navy/85 leading-relaxed italic border-l-[3px] border-gold/40 pl-4">
             &ldquo;{explanation.kjvText}&rdquo;
           </blockquote>
-          <p className="text-xs text-navy/40 mt-3">King James Version (KJV)</p>
+          <p className="text-sm text-navy/40 mt-3">King James Version (KJV)</p>
         </div>
 
         {/* Translation Switcher note */}
         <div className="card mb-4 bg-sage/[0.04] !py-3">
           <div className="flex items-center justify-between">
-            <p className="text-xs text-navy/50">
+            <p className="text-sm text-navy/50">
               Read this verse in context with translation switching:
             </p>
-            <Link href={`/bible/${book}/${chapter}`} className="text-xs font-semibold text-gold hover:text-gold/80 transition-colors">
+            <Link href={`/bible/${book}/${chapter}`} className="text-sm font-semibold text-gold hover:text-gold/80 transition-colors">
               Read Full Chapter &rarr;
             </Link>
           </div>
         </div>
 
-        <div className="space-y-3">
+        <div className="space-y-4">
           {/* Context */}
           <div className="card">
-            <h2 className="font-sans text-base font-semibold text-navy mb-3">Context</h2>
-            <p className="text-sm text-navy/60 leading-[1.8]">{explanation.context}</p>
+            <h2 className="font-sans text-lg font-semibold text-navy mb-3">Context</h2>
+            <p className="text-base text-navy/70 leading-[1.8]">{explanation.context}</p>
           </div>
 
           {/* Explanation */}
           <div className="card">
-            <h2 className="font-sans text-base font-semibold text-navy mb-4">What Does {explanation.reference} Mean?</h2>
+            <h2 className="font-sans text-lg font-semibold text-navy mb-4">What Does {explanation.reference} Mean?</h2>
             <div className="space-y-4">
               {explanation.explanation.map((paragraph, i) => (
-                <p key={i} className="text-sm sm:text-[0.9375rem] text-navy/70 leading-[1.8]">{paragraph}</p>
+                <p key={i} className="text-base text-navy/70 leading-[1.8]">{paragraph}</p>
               ))}
             </div>
           </div>
 
           {/* Original Language */}
           <div className="card bg-navy/[0.02]">
-            <h2 className="font-sans text-base font-semibold text-navy mb-3">Original Language Insight</h2>
-            <p className="text-sm text-navy/60 leading-[1.8]">{explanation.originalLanguage}</p>
+            <h2 className="font-sans text-lg font-semibold text-navy mb-3">Original Language Insight</h2>
+            <p className="text-base text-navy/70 leading-[1.8]">{explanation.originalLanguage}</p>
           </div>
 
           {/* Cross References */}
           {explanation.crossReferences.length > 0 && (
             <div className="card">
-              <h2 className="font-sans text-base font-semibold text-navy mb-4">Cross References</h2>
+              <h2 className="font-sans text-lg font-semibold text-navy mb-4">Cross References</h2>
               <div className="space-y-3">
                 {explanation.crossReferences.map((ref, i) => (
                   <Link key={i} href={ref.link} className="block group">
                     <div className="bg-gold/[0.04] border-l-[3px] border-gold/30 rounded-r-xl p-4 group-hover:border-gold/50 transition-colors">
-                      <p className="font-serif text-sm text-navy/70 leading-relaxed italic mb-1">
+                      <p className="font-serif text-base text-navy/70 leading-relaxed italic mb-1">
                         &ldquo;{ref.text}&rdquo;
                       </p>
-                      <p className="text-xs font-semibold text-gold/70 group-hover:text-gold transition-colors">&mdash; {ref.reference}</p>
+                      <p className="text-sm font-semibold text-gold/70 group-hover:text-gold transition-colors">&mdash; {ref.reference}</p>
                     </div>
                   </Link>
                 ))}
@@ -168,14 +168,14 @@ export default async function VersePage({ params }: VersePageProps) {
 
           {/* Application */}
           <div className="card bg-sage/[0.06]">
-            <h2 className="font-sans text-base font-semibold text-navy mb-3">Application</h2>
-            <p className="text-sm text-navy/60 leading-[1.8]">{explanation.application}</p>
+            <h2 className="font-sans text-lg font-semibold text-navy mb-3">Application</h2>
+            <p className="text-base text-navy/70 leading-[1.8]">{explanation.application}</p>
           </div>
 
           {/* Related Verse Explanations */}
           {explanation.relatedVerses.length > 0 && (
             <div className="card">
-              <h2 className="font-sans text-base font-semibold text-navy mb-3">Related Verse Explanations</h2>
+              <h2 className="font-sans text-lg font-semibold text-navy mb-3">Related Verse Explanations</h2>
               <div className="card-grouped">
                 {explanation.relatedVerses.map((key) => {
                   const related = getVerseExplanation(
@@ -190,8 +190,8 @@ export default async function VersePage({ params }: VersePageProps) {
                       href={`/bible/${key}`}
                       className="card-grouped-item flex items-center gap-3 group"
                     >
-                      <span className="pill pill-gold text-[10px]">{related.reference}</span>
-                      <span className="text-xs text-navy/50 flex-1 truncate">{related.kjvText.slice(0, 60)}...</span>
+                      <span className="pill pill-gold text-xs">{related.reference}</span>
+                      <span className="text-sm text-navy/50 flex-1 truncate">{related.kjvText.slice(0, 60)}...</span>
                       <svg className="w-4 h-4 text-navy/20 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
                     </Link>
                   );
@@ -203,7 +203,7 @@ export default async function VersePage({ params }: VersePageProps) {
           {/* Read Full Chapter CTA */}
           <div className="cta-banner">
             <h2 className="font-serif text-xl sm:text-2xl font-bold mb-3">Read the Full Chapter</h2>
-            <p className="text-sm text-cream/60 max-w-md mx-auto mb-5">
+            <p className="text-base text-cream/60 max-w-md mx-auto mb-5">
               Read {book_obj.name} {chapter} in KJV, ASV, or WEB with study guide and key themes.
             </p>
             <Link href={`/bible/${book}/${chapter}`} className="btn-primary">

@@ -11,6 +11,14 @@ interface VerseDisplayProps {
   explainedVerses?: number[];  // verse numbers that have explanation pages
 }
 
+/** Strip formatting tags like <FI>…<Fi> from source text and trim extra spaces */
+function cleanVerseText(text: string): string {
+  return text
+    .replace(/<\/?FI>/gi, '')   // remove <FI> and <Fi> (and </FI> just in case)
+    .replace(/\s{2,}/g, ' ')    // collapse double-spaces left behind
+    .trim();
+}
+
 export default function VerseDisplay({ bookSlug, chapter, initialVerses, explainedVerses = [] }: VerseDisplayProps) {
   const { currentTranslation } = useTranslation();
   const [verses, setVerses] = useState<Verse[]>(initialVerses);
@@ -90,7 +98,7 @@ export default function VerseDisplay({ bookSlug, chapter, initialVerses, explain
                   {verse.verse_number}
                 </span>
               )}
-              {verse.text}
+              {cleanVerseText(verse.text)}
             </p>
           );
         })}

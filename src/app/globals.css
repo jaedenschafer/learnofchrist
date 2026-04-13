@@ -31,6 +31,8 @@ body {
   background-color: #ffffff;
   color: var(--color-navy);
   font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -389,14 +391,14 @@ h1, h2, h3, h4, h5, h6 {
   background-color: white;
   border-radius: 16px;
   box-shadow: 0 0.5px 0 rgba(0,0,0,0.04), 0 1px 3px rgba(0,0,0,0.04), 0 2px 8px rgba(0,0,0,0.03);
-  padding: 1.25rem;
+  padding: 1.5rem;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   border: 0.5px solid rgba(0, 0, 0, 0.06);
 }
 
 @media (min-width: 640px) {
   .card {
-    padding: 1.5rem;
+    padding: 2rem;
   }
 }
 

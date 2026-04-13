@@ -146,7 +146,7 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
         <div className="card mb-4">
           <span className="pill pill-sage mb-2 inline-block">{book_obj.name}</span>
           <h1 className="font-serif text-3xl sm:text-4xl font-bold text-navy mb-2">Chapter {chapter}</h1>
-          <p className="text-sm text-navy/50">
+          <p className="text-base text-navy/50">
             {hasVerses
               ? `${initialVerses.length} verses — switch translations with the toolbar below.`
               : 'A study guide to understand this chapter and its connection to Christ.'}
@@ -157,7 +157,7 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
         {hasVerses && <TranslationSwitcher />}
 
         {/* Content Sections */}
-        <div className="space-y-3 mt-4">
+        <div className="space-y-4 mt-4">
 
           {/* Real Bible Text */}
           {hasVerses && (
@@ -173,10 +173,10 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
           {content && (
             <div className="card bg-gold/[0.04] border-gold/20">
               <div className="flex items-center gap-2 mb-2">
-                <span className="pill pill-gold text-xs">Key Verse</span>
-                <span className="text-xs font-medium text-navy/40">{content.keyVerse.reference}</span>
+                <span className="pill pill-gold text-sm">Key Verse</span>
+                <span className="text-sm font-medium text-navy/40">{content.keyVerse.reference}</span>
               </div>
-              <p className="font-serif text-base text-navy/80 leading-relaxed italic">
+              <p className="font-serif text-lg text-navy/80 leading-relaxed italic">
                 &ldquo;{content.keyVerse.text}&rdquo;
               </p>
             </div>
@@ -184,8 +184,8 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
 
           {/* Overview */}
           <div className="card">
-            <h2 className="font-sans text-base font-semibold text-navy mb-3">Overview</h2>
-            <p className="text-sm text-navy/60 leading-relaxed">
+            <h2 className="font-sans text-lg font-semibold text-navy mb-3">Overview</h2>
+            <p className="text-base text-navy/70 leading-relaxed">
               {content
                 ? content.overview
                 : `${book_obj.name} Chapter ${chapter} continues the biblical narrative and provides important insights into God's character and His plan for redemption. As you study this chapter, discover themes of faith, obedience, grace, and God's unfailing love.`}
@@ -194,8 +194,8 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
 
           {/* Key Themes */}
           <div className="card">
-            <h2 className="font-sans text-base font-semibold text-navy mb-3">Key Themes</h2>
-            <div className="space-y-3">
+            <h2 className="font-sans text-lg font-semibold text-navy mb-3">Key Themes</h2>
+            <div className="space-y-4">
               {(content
                 ? content.themes
                 : [
@@ -207,8 +207,8 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
                 <div key={i} className="flex gap-3">
                   <div className="step-number">{i + 1}</div>
                   <div>
-                    <h3 className="font-sans text-sm font-semibold text-navy">{theme.title}</h3>
-                    <p className="text-xs text-navy/50 mt-0.5 leading-relaxed">{theme.desc}</p>
+                    <h3 className="font-sans text-base font-semibold text-navy">{theme.title}</h3>
+                    <p className="text-sm text-navy/60 mt-0.5 leading-relaxed">{theme.desc}</p>
                   </div>
                 </div>
               ))}
@@ -217,8 +217,8 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
 
           {/* Study Questions */}
           <div className="card">
-            <h2 className="font-sans text-base font-semibold text-navy mb-3">Study Questions</h2>
-            <div className="space-y-2.5">
+            <h2 className="font-sans text-lg font-semibold text-navy mb-3">Study Questions</h2>
+            <div className="space-y-3">
               {(content
                 ? content.questions
                 : [
@@ -230,8 +230,8 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
                   ]
               ).map((q, i) => (
                 <div key={i} className="flex gap-3 items-start">
-                  <span className="text-xs font-bold text-gold mt-0.5">{i + 1}.</span>
-                  <p className="text-sm text-navy/60 leading-relaxed">{q}</p>
+                  <span className="text-sm font-bold text-gold mt-0.5">{i + 1}.</span>
+                  <p className="text-base text-navy/70 leading-relaxed">{q}</p>
                 </div>
               ))}
             </div>
@@ -239,15 +239,15 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
 
           {/* Connection to Christ */}
           <div className="card">
-            <h2 className="font-sans text-base font-semibold text-navy mb-3">Connection to Christ</h2>
-            <p className="text-sm text-navy/60 leading-relaxed mb-3">
+            <h2 className="font-sans text-lg font-semibold text-navy mb-3">Connection to Christ</h2>
+            <p className="text-base text-navy/70 leading-relaxed mb-3">
               {content
                 ? content.christConnection
                 : 'Every passage ultimately points to Jesus through prophecy, typology, or thematic connection.'}
             </p>
             {!content && (
               <div className="bg-gold/[0.06] border-l-[3px] border-gold/40 rounded-r-xl p-4">
-                <p className="scripture-quote text-sm text-navy/70 leading-relaxed">
+                <p className="scripture-quote text-base text-navy/70 leading-relaxed">
                   Jesus is the true source of faithfulness, the perfect response to God&apos;s word, and the embodiment of all spiritual truths presented throughout Scripture.
                 </p>
               </div>
@@ -256,8 +256,8 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
 
           {/* Personal Reflection */}
           <div className="card bg-sage/[0.06]">
-            <h2 className="font-sans text-base font-semibold text-navy mb-2">Personal Reflection</h2>
-            <p className="text-sm text-navy/55 leading-relaxed">
+            <h2 className="font-sans text-lg font-semibold text-navy mb-2">Personal Reflection</h2>
+            <p className="text-base text-navy/65 leading-relaxed">
               Take time to journal or meditate on what God is teaching you through {book_obj.name} {chapter}. How can these truths transform your thinking and actions today?
             </p>
           </div>
