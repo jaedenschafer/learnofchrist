@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { getAllBooks, getBookByName } from '@/data/books';
+import { getChapterContent } from '@/data/chapter-content';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 import ChapterNav from '@/components/ChapterNav';
 import TranslationSwitcher from '@/components/TranslationSwitcher';
@@ -45,8 +46,11 @@ export async function generateMetadata({ params }: ChapterPageProps): Promise<Me
     return { title: 'Chapter Not Found | Learn of Christ' };
   }
 
+  const content = getChapterContent(book, chapter);
   const title = `${book_obj.name} ${chapter} - Bible Study & Commentary | Learn of Christ`;
-  const description = `Read ${book_obj.name} Chapter ${chapter} with study guide, key themes, and connection to Christ. Compare KJV, ASV, and WEB translations side by side.`;
+  const description = content
+    ? `${content.overview.slice(0, 155)}... Compare KJV, ASV, and WEB translations.`
+    : `Read ${book_obj.name} Chapter ${chapter} with study guide, key themes, and connection to Christ. Compare KJV, ASV, and WEB translations side by side.`;
 
   return {
     title,
@@ -85,6 +89,9 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
   // Fetch real KJV verses from Supabase at build/request time
   const initialVerses = await getVerses(book, chapter, 'kjv');
   const hasVerses = initialVerses.length > 0;
+
+  // Get chapter-specific study content (or fall back to generic)
+  const content = getChapterContent(book, chapter);
 
   const previousChapter = chapter > 1 ? chapter - 1 : null;
   const nextChapter = chapter < book_obj.chapters ? chapter + 1 : null;
@@ -155,14 +162,26 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
             />
           )}
 
+          {/* Key Verse highlight (if chapter-specific content exists) */}
+          {content && (
+            <div className="card bg-gold/[0.04] border-gold/20">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="pill pill-gold text-xs">Key Verse</span>
+                <span className="text-xs font-medium text-navy/40">{content.keyVerse.reference}</span>
+              </div>
+              <p className="font-serif text-base text-navy/80 leading-relaxed italic">
+                &ldquo;{content.keyVerse.text}&rdquo;
+              </p>
+            </div>
+          )}
+
           {/* Overview */}
           <div className="card">
             <h2 className="font-sans text-base font-semibold text-navy mb-3">Overview</h2>
-            <p className="text-sm text-navy/60 leading-relaxed mb-3">
-              {book_obj.name} Chapter {chapter} continues the biblical narrative and provides important insights into God&apos;s character and His plan for redemption.
-            </p>
             <p className="text-sm text-navy/60 leading-relaxed">
-              As you study this chapter, you&apos;ll discover themes of faith, obedience, grace, and God&apos;s unfailing love. Pay attention to how events and teachings illuminate the person and work of Jesus Christ.
+              {content
+                ? content.overview
+                : `${book_obj.name} Chapter ${chapter} continues the biblical narrative and provides important insights into God's character and His plan for redemption. As you study this chapter, discover themes of faith, obedience, grace, and God's unfailing love.`}
             </p>
           </div>
 
@@ -170,11 +189,14 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
           <div className="card">
             <h2 className="font-sans text-base font-semibold text-navy mb-3">Key Themes</h2>
             <div className="space-y-3">
-              {[
-                { title: "God's Faithfulness", desc: "God's consistent character and His commitment to covenant promises." },
-                { title: "Human Response", desc: "Various responses to God's word — showing consequences of belief and doubt." },
-                { title: "Spiritual Truth", desc: "Spiritual principles applicable to our faith journey today." },
-              ].map((theme, i) => (
+              {(content
+                ? content.themes
+                : [
+                    { title: "God's Faithfulness", desc: "God's consistent character and His commitment to covenant promises." },
+                    { title: "Human Response", desc: "Various responses to God's word — showing consequences of belief and doubt." },
+                    { title: "Spiritual Truth", desc: "Spiritual principles applicable to our faith journey today." },
+                  ]
+              ).map((theme, i) => (
                 <div key={i} className="flex gap-3">
                   <div className="step-number">{i + 1}</div>
                   <div>
@@ -190,13 +212,16 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
           <div className="card">
             <h2 className="font-sans text-base font-semibold text-navy mb-3">Study Questions</h2>
             <div className="space-y-2.5">
-              {[
-                'What are the main events or teachings described in this chapter?',
-                'How do the characters respond to God in this passage?',
-                'What challenges are presented, and how are they resolved?',
-                'What does this chapter reveal about God\'s character?',
-                'What spiritual lessons can you apply to your own life?',
-              ].map((q, i) => (
+              {(content
+                ? content.questions
+                : [
+                    'What are the main events or teachings described in this chapter?',
+                    'How do the characters respond to God in this passage?',
+                    'What challenges are presented, and how are they resolved?',
+                    'What does this chapter reveal about God\'s character?',
+                    'What spiritual lessons can you apply to your own life?',
+                  ]
+              ).map((q, i) => (
                 <div key={i} className="flex gap-3 items-start">
                   <span className="text-xs font-bold text-gold mt-0.5">{i + 1}.</span>
                   <p className="text-sm text-navy/60 leading-relaxed">{q}</p>
@@ -209,20 +234,24 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
           <div className="card">
             <h2 className="font-sans text-base font-semibold text-navy mb-3">Connection to Christ</h2>
             <p className="text-sm text-navy/60 leading-relaxed mb-3">
-              Every passage ultimately points to Jesus through prophecy, typology, or thematic connection.
+              {content
+                ? content.christConnection
+                : 'Every passage ultimately points to Jesus through prophecy, typology, or thematic connection.'}
             </p>
-            <div className="bg-gold/[0.06] border-l-[3px] border-gold/40 rounded-r-xl p-4">
-              <p className="scripture-quote text-sm text-navy/70 leading-relaxed">
-                Jesus is the true source of faithfulness, the perfect response to God&apos;s word, and the embodiment of all spiritual truths presented throughout Scripture.
-              </p>
-            </div>
+            {!content && (
+              <div className="bg-gold/[0.06] border-l-[3px] border-gold/40 rounded-r-xl p-4">
+                <p className="scripture-quote text-sm text-navy/70 leading-relaxed">
+                  Jesus is the true source of faithfulness, the perfect response to God&apos;s word, and the embodiment of all spiritual truths presented throughout Scripture.
+                </p>
+              </div>
+            )}
           </div>
 
           {/* Personal Reflection */}
           <div className="card bg-sage/[0.06]">
             <h2 className="font-sans text-base font-semibold text-navy mb-2">Personal Reflection</h2>
             <p className="text-sm text-navy/55 leading-relaxed">
-              Take time to journal or meditate on what God is teaching you. How can these truths transform your thinking and actions?
+              Take time to journal or meditate on what God is teaching you through {book_obj.name} {chapter}. How can these truths transform your thinking and actions today?
             </p>
           </div>
         </div>
