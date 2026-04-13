@@ -1,7 +1,10 @@
 'use client';
 
 import { useStudyLevel } from '@/lib/StudyLevelContext';
+import { useDenomination } from '@/lib/DenominationContext';
+import { getDenominationPerspective } from '@/data/denomination-perspectives';
 import StudyLevelSwitcher from './StudyLevelSwitcher';
+import DenominationSwitcher from './DenominationSwitcher';
 
 interface StudyGuideProps {
   bookName: string;
@@ -17,6 +20,8 @@ interface StudyGuideProps {
 
 export default function StudyGuide({ bookName, chapter, content }: StudyGuideProps) {
   const { level } = useStudyLevel();
+  const { denomination, currentDenomination } = useDenomination();
+  const perspective = getDenominationPerspective(denomination);
 
   const genericOverview = `${bookName} Chapter ${chapter} continues the biblical narrative and provides important insights into God's character and His plan for redemption. As you study this chapter, discover themes of faith, obedience, grace, and God's unfailing love.`;
 
@@ -43,7 +48,25 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
 
   return (
     <>
-      <StudyLevelSwitcher />
+      {/* Controls Row */}
+      <div className="space-y-2">
+        <StudyLevelSwitcher />
+        <DenominationSwitcher />
+      </div>
+
+      {/* Denomination Lens Banner — when active */}
+      {perspective && (
+        <div className="bg-[#5856D6]/[0.04] border-l-[3px] border-[#5856D6]/30 rounded-2xl p-5">
+          <div className="flex items-center gap-2 mb-2">
+            <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-[0.6875rem] font-semibold bg-[#5856D6]/[0.1] text-[#5856D6]">
+              {currentDenomination.label} Lens
+            </span>
+          </div>
+          <p className="text-[0.8125rem] text-[#1D1D1F]/70 leading-relaxed">
+            {perspective.approach}
+          </p>
+        </div>
+      )}
 
       {/* Key Verse — all levels */}
       {content && (
@@ -78,6 +101,43 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      )}
+
+      {/* Denomination Emphasis — when active, intermediate & deep */}
+      {perspective && (level === 'intermediate' || level === 'deep') && (
+        <div className="bg-white rounded-2xl p-6 border border-[#5856D6]/10">
+          <div className="flex items-center gap-2 mb-3">
+            <div className="w-7 h-7 rounded-lg bg-[#5856D6]/[0.1] flex items-center justify-center">
+              <svg className="w-3.5 h-3.5 text-[#5856D6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+              </svg>
+            </div>
+            <h2 className="font-sans text-base font-semibold text-[#1D1D1F]">{currentDenomination.label} Emphasis</h2>
+          </div>
+          <p className="text-[0.875rem] text-[#86868B] leading-relaxed mb-4">{perspective.emphasis}</p>
+
+          {/* Study Tip */}
+          <div className="bg-[#5856D6]/[0.04] rounded-xl p-4 mb-4">
+            <p className="text-[0.75rem] font-semibold text-[#5856D6] mb-1">Study Tip</p>
+            <p className="text-[0.8125rem] text-[#1D1D1F]/70 leading-relaxed">{perspective.studyTip}</p>
+          </div>
+
+          {/* Additional Reading */}
+          <div>
+            <p className="text-[0.75rem] font-semibold text-[#86868B] mb-2">Suggested Reading</p>
+            <div className="space-y-1.5">
+              {perspective.additionalReading.map((reading, i) => (
+                <div key={i} className="flex items-start gap-2">
+                  <svg className="w-3.5 h-3.5 text-[#5856D6] mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                  </svg>
+                  <p className="text-[0.8125rem] text-[#1D1D1F]/70 leading-snug">{reading}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       )}
