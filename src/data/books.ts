@@ -1,7 +1,7 @@
 export interface BibleBook {
   id: string;
   name: string;
-  testament: 'old' | 'new';
+  testament: 'old' | 'new' | 'apocrypha';
   chapters: number;
   description: string;
   abbreviation: string;
@@ -99,6 +99,14 @@ export const bibleBooks: BibleBook[] = [
 
   // New Testament - Revelation
   { id: '66', name: 'Revelation', testament: 'new', chapters: 22, abbreviation: 'Rev', description: 'Visions of the end times and Jesus\' ultimate triumph.' },
+
+  // Apocrypha / Deuterocanonical (DRA only)
+  { id: '67', name: 'Tobit', testament: 'apocrypha', chapters: 14, abbreviation: 'Tob', description: 'A story of faith, prayer, and God\'s providence in the life of a righteous family.' },
+  { id: '68', name: 'Judith', testament: 'apocrypha', chapters: 16, abbreviation: 'Jdt', description: 'A courageous woman delivers Israel from the Assyrian army.' },
+  { id: '69', name: 'Wisdom of Solomon', testament: 'apocrypha', chapters: 19, abbreviation: 'Wis', description: 'A meditation on divine wisdom and its role in salvation history.' },
+  { id: '70', name: 'Sirach', testament: 'apocrypha', chapters: 51, abbreviation: 'Sir', description: 'Practical wisdom for living a faithful and moral life.' },
+  { id: '71', name: '1 Maccabees', testament: 'apocrypha', chapters: 16, abbreviation: '1Ma', description: 'The Jewish revolt against Seleucid oppression and the rededication of the Temple.' },
+  { id: '72', name: '2 Maccabees', testament: 'apocrypha', chapters: 15, abbreviation: '2Ma', description: 'A theological reflection on the Maccabean revolt and God\'s faithfulness.' },
 ];
 
 export function getBookById(id: string): BibleBook | undefined {
@@ -119,4 +127,8 @@ export function getOldTestamentBooks(): BibleBook[] {
 
 export function getNewTestamentBooks(): BibleBook[] {
   return bibleBooks.filter(book => book.testament === 'new');
+}
+
+export function getApocryphaBooks(): BibleBook[] {
+  return bibleBooks.filter(book => book.testament === 'apocrypha');
 }
