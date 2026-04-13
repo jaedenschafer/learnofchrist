@@ -45,6 +45,34 @@ import { deuteronomyChapters } from './chapters/deuteronomy';
 import { secondSamuelChapters } from './chapters/2-samuel';
 import { firstChroniclesChapters } from './chapters/1-chronicles';
 import { secondChroniclesChapters } from './chapters/2-chronicles';
+import { jeremiahChapters } from './chapters/jeremiah';
+import { ezekielChapters } from './chapters/ezekiel';
+import { danielChapters } from './chapters/daniel';
+import { hoseaChapters } from './chapters/hosea';
+import { joelChapters } from './chapters/joel';
+import { amosChapters } from './chapters/amos';
+import { obadiahChapters } from './chapters/obadiah';
+import { jonahChapters } from './chapters/jonah';
+import { micahChapters } from './chapters/micah';
+import { nahumChapters } from './chapters/nahum';
+import { habakkukChapters } from './chapters/habakkuk';
+import { zephaniahChapters } from './chapters/zephaniah';
+import { haggaiChapters } from './chapters/haggai';
+import { zechariahChapters } from './chapters/zechariah';
+import { malachiChapters } from './chapters/malachi';
+import { secondCorinthiansChapters } from './chapters/2-corinthians';
+import { galatiansChapters } from './chapters/galatians';
+import { colossiansChapters } from './chapters/colossians';
+import { firstThessaloniansChapters } from './chapters/1-thessalonians';
+import { secondThessaloniansChapters } from './chapters/2-thessalonians';
+import { firstTimothyChapters } from './chapters/1-timothy';
+import { secondTimothyChapters } from './chapters/2-timothy';
+import { titusChapters } from './chapters/titus';
+import { philemonChapters } from './chapters/philemon';
+import { jobChapters } from './chapters/job';
+import { ecclesiastesChapters } from './chapters/ecclesiastes';
+import { songOfSolomonChapters } from './chapters/song-of-solomon';
+import { lamentationsChapters } from './chapters/lamentations';
 
 export const chapterContent: Record<string, ChapterContent> = {
   ...johnChapters,
@@ -85,6 +113,34 @@ export const chapterContent: Record<string, ChapterContent> = {
   ...secondSamuelChapters,
   ...firstChroniclesChapters,
   ...secondChroniclesChapters,
+  ...jeremiahChapters,
+  ...ezekielChapters,
+  ...danielChapters,
+  ...hoseaChapters,
+  ...joelChapters,
+  ...amosChapters,
+  ...obadiahChapters,
+  ...jonahChapters,
+  ...micahChapters,
+  ...nahumChapters,
+  ...habakkukChapters,
+  ...zephaniahChapters,
+  ...haggaiChapters,
+  ...zechariahChapters,
+  ...malachiChapters,
+  ...secondCorinthiansChapters,
+  ...galatiansChapters,
+  ...colossiansChapters,
+  ...firstThessaloniansChapters,
+  ...secondThessaloniansChapters,
+  ...firstTimothyChapters,
+  ...secondTimothyChapters,
+  ...titusChapters,
+  ...philemonChapters,
+  ...jobChapters,
+  ...ecclesiastesChapters,
+  ...songOfSolomonChapters,
+  ...lamentationsChapters,
 };
 
 export function getChapterContent(
