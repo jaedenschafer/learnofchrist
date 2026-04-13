@@ -3,8 +3,6 @@
 import { useStudyLevel } from '@/lib/StudyLevelContext';
 import { useDenomination } from '@/lib/DenominationContext';
 import { getDenominationPerspective } from '@/data/denomination-perspectives';
-import StudyLevelSwitcher from './StudyLevelSwitcher';
-import DenominationSwitcher from './DenominationSwitcher';
 
 interface StudyGuideProps {
   bookName: string;
@@ -48,12 +46,6 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
 
   return (
     <>
-      {/* Controls Row */}
-      <div className="space-y-2">
-        <StudyLevelSwitcher />
-        <DenominationSwitcher />
-      </div>
-
       {/* Denomination Lens Banner — when active */}
       {perspective && (
         <div className="bg-[#5856D6]/[0.04] border-l-[3px] border-[#5856D6]/30 rounded-2xl p-5">

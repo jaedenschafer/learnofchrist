@@ -4,7 +4,7 @@ import { getAllBooks, getBookByName } from '@/data/books';
 import { getChapterContent } from '@/data/chapter-content';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 import ChapterNav from '@/components/ChapterNav';
-import TranslationSwitcher from '@/components/TranslationSwitcher';
+import StudyFilters from '@/components/StudyFilters';
 import VerseDisplay from '@/components/VerseDisplay';
 import StudyGuide from '@/components/StudyGuide';
 import { getVerses } from '@/lib/supabase';
@@ -154,8 +154,8 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
           </p>
         </div>
 
-        {/* Translation Switcher - sticky toolbar */}
-        {hasVerses && <TranslationSwitcher />}
+        {/* Study Filters — sticky toolbar with translation, level, denomination */}
+        <StudyFilters />
 
         {/* Content Sections */}
         <div className="space-y-4 mt-4">
