@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import { getAllBooks, getBookByName } from '@/data/books';
+import { getAllBooks, getBookByName, type BibleBook } from '@/data/books';
 import { getChapterContent } from '@/data/chapter-content';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 import ChapterNav from '@/components/ChapterNav';
@@ -88,8 +88,9 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
     );
   }
 
-  // Fetch real KJV verses from Supabase at build/request time
-  const initialVerses = await getVerses(book, chapter, 'kjv');
+  // Fetch initial verses — DRA for Apocrypha books, KJV for everything else
+  const defaultTranslation = book_obj.testament === 'apocrypha' ? 'dra' : 'kjv';
+  const initialVerses = await getVerses(book, chapter, defaultTranslation);
   const hasVerses = initialVerses.length > 0;
 
   // Get chapter-specific study content (or fall back to generic)
@@ -167,6 +168,7 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
               chapter={chapter}
               initialVerses={initialVerses}
               explainedVerses={explainedVerses}
+              defaultTranslation={defaultTranslation}
             />
           )}
 

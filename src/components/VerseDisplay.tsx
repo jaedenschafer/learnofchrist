@@ -10,6 +10,7 @@ interface VerseDisplayProps {
   chapter: number;
   initialVerses: Verse[];
   explainedVerses?: number[];
+  defaultTranslation?: string;
 }
 
 function cleanVerseText(text: string): string {
@@ -25,19 +26,19 @@ const FONT_SIZE_CLASSES = {
   large: 'text-[1.3125rem] leading-[1.9]',
 };
 
-export default function VerseDisplay({ bookSlug, chapter, initialVerses, explainedVerses = [] }: VerseDisplayProps) {
+export default function VerseDisplay({ bookSlug, chapter, initialVerses, explainedVerses = [], defaultTranslation = 'kjv' }: VerseDisplayProps) {
   const { currentTranslation } = useTranslation();
   const { fontSize, readingMode } = useReadingPrefs();
   const [verses, setVerses] = useState<Verse[]>(initialVerses);
   const [loading, setLoading] = useState(false);
-  const [loadedTranslation, setLoadedTranslation] = useState('kjv');
+  const [loadedTranslation, setLoadedTranslation] = useState(defaultTranslation);
 
   useEffect(() => {
     if (currentTranslation === loadedTranslation) return;
 
-    if (currentTranslation === 'kjv' && initialVerses.length > 0) {
+    if (currentTranslation === defaultTranslation && initialVerses.length > 0) {
       setVerses(initialVerses);
-      setLoadedTranslation('kjv');
+      setLoadedTranslation(defaultTranslation);
       return;
     }
 
@@ -48,19 +49,26 @@ export default function VerseDisplay({ bookSlug, chapter, initialVerses, explain
       if (!cancelled) {
         if (newVerses.length > 0) {
           setVerses(newVerses);
+        } else if (initialVerses.length > 0) {
+          // If the selected translation has no verses (e.g. KJV for Apocrypha), keep showing initial
+          setVerses(initialVerses);
         }
-        setLoadedTranslation(currentTranslation);
+        setLoadedTranslation(newVerses.length > 0 ? currentTranslation : defaultTranslation);
         setLoading(false);
       }
     });
 
     return () => { cancelled = true; };
-  }, [currentTranslation, bookSlug, chapter, loadedTranslation, initialVerses]);
+  }, [currentTranslation, bookSlug, chapter, loadedTranslation, initialVerses, defaultTranslation]);
 
   if (verses.length === 0) {
     return (
       <div className="bg-white rounded-2xl text-center py-16">
-        <p className="text-[#AEAEB2] text-[0.9375rem]">No verses available for this chapter yet.</p>
+        <p className="text-[#AEAEB2] text-[0.9375rem]">
+          {defaultTranslation === 'dra'
+            ? 'This book is available in the Douay-Rheims (DRA) translation. Switch to DRA to read.'
+            : 'No verses available for this chapter yet.'}
+        </p>
       </div>
     );
   }
