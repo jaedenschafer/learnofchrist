@@ -5,6 +5,7 @@ import { questions } from '@/data/questions';
 import { blogPosts } from '@/data/blog-posts';
 import { studyPlans } from '@/data/study-plans';
 import { verseExplanations } from '@/data/verse-explanations';
+import { translations } from '@/data/translations';
 
 const BASE_URL = 'https://learnofchrist.com';
 
@@ -107,6 +108,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.6,
+    });
+  }
+
+  // ── Translation landing pages ──
+  entries.push({
+    url: `${BASE_URL}/bible/translations`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  });
+
+  for (const t of translations) {
+    entries.push({
+      url: `${BASE_URL}/bible/translations/${t.id}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
     });
   }
 
