@@ -8,14 +8,14 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 10);
+    const handleScroll = () => setScrolled(window.scrollY > 8);
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   const navLinks = [
     { href: '/bible', label: 'Bible' },
-    { href: '/study-plans', label: 'Study Plans' },
+    { href: '/study-plans', label: 'Plans' },
     { href: '/topics', label: 'Topics' },
     { href: '/questions', label: 'Questions' },
     { href: '/blog', label: 'Blog' },
@@ -24,53 +24,42 @@ export default function Navbar() {
   return (
     <nav className={`sticky top-0 z-50 transition-all duration-300 ${
       scrolled
-        ? 'bg-white/90 backdrop-blur-xl shadow-[0_1px_0_rgba(0,0,0,0.06)]'
-        : 'bg-transparent backdrop-blur-sm'
+        ? 'glass-heavy border-b border-black/[0.06] shadow-sm'
+        : 'bg-[#F5F5F7]/60 backdrop-blur-md'
     }`}>
-      <div className="max-w-5xl mx-auto px-5 sm:px-6">
-        <div className="flex justify-between items-center h-14 sm:h-16">
+      <div className="max-w-4xl mx-auto px-5">
+        <div className="flex justify-between items-center h-12">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2.5 group">
-            <div className="w-8 h-8 bg-black rounded-xl flex items-center justify-center">
-              <svg className="w-4.5 h-4.5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-              </svg>
-            </div>
-            <span className="text-base font-medium text-black tracking-tight" style={{ fontFamily: 'Outfit, sans-serif' }}>
+          <Link href="/" className="flex items-center gap-2">
+            <span className="text-[1.0625rem] font-semibold tracking-tight text-[#1D1D1F]">
               Learn of Christ
             </span>
           </Link>
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex items-center gap-1">
+          <div className="hidden md:flex items-center gap-0.5">
             {navLinks.map(({ href, label }) => (
               <Link
                 key={href}
                 href={href}
-                className="px-3.5 py-2 rounded-lg text-[0.85rem] font-normal text-black/50 hover:text-black hover:bg-black/[0.04] transition-all"
+                className="px-3 py-1.5 rounded-full text-[0.8125rem] font-medium text-[#86868B] hover:text-[#1D1D1F] hover:bg-black/[0.04] transition-all"
               >
                 {label}
               </Link>
             ))}
-            <Link
-              href="/bible"
-              className="ml-3 px-5 py-2 rounded-full text-[0.85rem] font-normal bg-[#EBFFB1] text-black border border-[#ADE900] hover:bg-[#d4f97a] transition-all"
-            >
-              Start Reading
-            </Link>
           </div>
 
           {/* Mobile hamburger */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 rounded-lg text-black/40 hover:bg-black/5 transition-colors active:scale-95"
+            className="md:hidden w-9 h-9 rounded-full flex items-center justify-center text-[#86868B] hover:bg-black/[0.04] transition-colors active:scale-95"
             aria-label="Toggle menu"
           >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               {isOpen ? (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" />
               ) : (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M4 6h16M4 12h16M4 18h16" />
               )}
             </svg>
           </button>
@@ -81,24 +70,17 @@ export default function Navbar() {
       <div className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
         isOpen ? 'max-h-[400px]' : 'max-h-0'
       }`}>
-        <div className="px-4 py-3 space-y-1 bg-white border-t border-black/[0.04]">
+        <div className="px-4 py-2 space-y-0.5 border-t border-black/[0.04]">
           {navLinks.map(({ href, label }) => (
             <Link
               key={href}
               href={href}
-              className="block px-4 py-3 rounded-xl text-[0.95rem] text-black/50 hover:text-black hover:bg-black/[0.03] transition-all font-normal"
+              className="block px-4 py-3 rounded-2xl text-[0.9375rem] font-medium text-[#86868B] hover:text-[#1D1D1F] hover:bg-black/[0.03] transition-all"
               onClick={() => setIsOpen(false)}
             >
               {label}
             </Link>
           ))}
-          <Link
-            href="/bible"
-            className="block mx-4 mt-2 py-3 rounded-full text-center text-[0.95rem] font-normal bg-[#EBFFB1] text-black border border-[#ADE900]"
-            onClick={() => setIsOpen(false)}
-          >
-            Start Reading
-          </Link>
         </div>
       </div>
     </nav>

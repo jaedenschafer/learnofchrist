@@ -8,14 +8,13 @@ interface VerseDisplayProps {
   bookSlug: string;
   chapter: number;
   initialVerses: Verse[];
-  explainedVerses?: number[];  // verse numbers that have explanation pages
+  explainedVerses?: number[];
 }
 
-/** Strip formatting tags like <FI>…<Fi> from source text and trim extra spaces */
 function cleanVerseText(text: string): string {
   return text
-    .replace(/<\/?FI>/gi, '')   // remove <FI> and <Fi> (and </FI> just in case)
-    .replace(/\s{2,}/g, ' ')    // collapse double-spaces left behind
+    .replace(/<\/?FI>/gi, '')
+    .replace(/\s{2,}/g, ' ')
     .trim();
 }
 
@@ -26,10 +25,8 @@ export default function VerseDisplay({ bookSlug, chapter, initialVerses, explain
   const [loadedTranslation, setLoadedTranslation] = useState('kjv');
 
   useEffect(() => {
-    // Skip if already on the correct translation
     if (currentTranslation === loadedTranslation) return;
 
-    // If switching back to KJV, use initial verses
     if (currentTranslation === 'kjv' && initialVerses.length > 0) {
       setVerses(initialVerses);
       setLoadedTranslation('kjv');
@@ -44,7 +41,6 @@ export default function VerseDisplay({ bookSlug, chapter, initialVerses, explain
         if (newVerses.length > 0) {
           setVerses(newVerses);
         }
-        // If no verses for this translation, keep showing current
         setLoadedTranslation(currentTranslation);
         setLoading(false);
       }
@@ -55,17 +51,17 @@ export default function VerseDisplay({ bookSlug, chapter, initialVerses, explain
 
   if (verses.length === 0) {
     return (
-      <div className="card text-center py-12">
-        <p className="text-navy/40 text-sm">No verses available for this chapter yet.</p>
+      <div className="bg-white rounded-2xl text-center py-16">
+        <p className="text-[#AEAEB2] text-[0.9375rem]">No verses available for this chapter yet.</p>
       </div>
     );
   }
 
   return (
-    <div className="card relative">
+    <div className="bg-white rounded-2xl p-5 sm:p-7 relative">
       {loading && (
-        <div className="absolute inset-0 bg-white/60 backdrop-blur-sm rounded-2xl flex items-center justify-center z-10">
-          <div className="flex items-center gap-2 text-sm text-navy/40">
+        <div className="absolute inset-0 glass rounded-2xl flex items-center justify-center z-10">
+          <div className="flex items-center gap-2 text-[0.875rem] text-[#86868B]">
             <svg className="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24">
               <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
               <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"></path>
@@ -75,9 +71,9 @@ export default function VerseDisplay({ bookSlug, chapter, initialVerses, explain
         </div>
       )}
 
-      <div className="flex items-center justify-between mb-6">
-        <h2 className="font-sans text-base font-semibold text-navy">Scripture Text</h2>
-        <span className="pill pill-gold !text-[0.6rem]">{loadedTranslation.toUpperCase()}</span>
+      <div className="flex items-center justify-between mb-5">
+        <h2 className="text-[1.0625rem] font-semibold text-[#1D1D1F]">Scripture</h2>
+        <span className="text-[0.6875rem] font-semibold text-[#007AFF] bg-[#007AFF]/[0.08] px-2.5 py-1 rounded-lg">{loadedTranslation.toUpperCase()}</span>
       </div>
 
       <div className="scripture-body">

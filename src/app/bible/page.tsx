@@ -33,42 +33,41 @@ export default function BiblePage() {
       <div className="max-w-4xl mx-auto">
         <div className="page-header">
           <h1>Bible Study Hub</h1>
-          <div className="section-divider mt-3"></div>
           <p>All 66 books, 1,189 chapters, and 31,000+ verses with real-time translation switching between KJV, ASV, and WEB.</p>
         </div>
 
         {/* Quick Stats */}
         <div className="grid grid-cols-3 gap-3 mb-8">
-          <div className="card text-center !py-4">
-            <p className="font-serif text-2xl font-bold text-gold">66</p>
-            <p className="text-xs text-navy/50 mt-0.5">Books</p>
+          <div className="bg-white rounded-2xl p-4 text-center">
+            <p className="text-2xl font-bold text-[#007AFF]">66</p>
+            <p className="text-xs text-[#86868B] mt-0.5">Books</p>
           </div>
-          <div className="card text-center !py-4">
-            <p className="font-serif text-2xl font-bold text-gold">1,189</p>
-            <p className="text-xs text-navy/50 mt-0.5">Chapters</p>
+          <div className="bg-white rounded-2xl p-4 text-center">
+            <p className="text-2xl font-bold text-[#007AFF]">1,189</p>
+            <p className="text-xs text-[#86868B] mt-0.5">Chapters</p>
           </div>
-          <div className="card text-center !py-4">
-            <p className="font-serif text-2xl font-bold text-gold">3</p>
-            <p className="text-xs text-navy/50 mt-0.5">Translations</p>
+          <div className="bg-white rounded-2xl p-4 text-center">
+            <p className="text-2xl font-bold text-[#007AFF]">3</p>
+            <p className="text-xs text-[#86868B] mt-0.5">Translations</p>
           </div>
         </div>
 
         {/* Featured Studies */}
         <section className="mb-10">
           <div className="flex items-center gap-3 mb-4 px-1">
-            <h2 className="font-sans text-lg font-semibold text-navy">Featured Studies</h2>
-            <span className="pill bg-gold/10 text-gold/80 text-xs">In-Depth Content</span>
+            <h2 className="font-sans text-lg font-bold text-[#1D1D1F]">Featured Studies</h2>
+            <span className="pill bg-[#007AFF]/[0.08] text-[#007AFF] text-xs">In-Depth Content</span>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
             {FEATURED_STUDIES.map((study) => (
               <Link
                 key={`${study.book}/${study.chapter}`}
                 href={`/bible/${study.book}/${study.chapter}`}
-                className="card group !p-4 hover:border-gold/30 transition-all"
+                className="bg-white rounded-2xl p-4 group hover:shadow-md transition-all"
               >
-                <span className="pill pill-gold text-[10px] mb-2 inline-block">{study.badge}</span>
-                <h3 className="font-serif text-base font-bold text-navy group-hover:text-gold transition-colors">{study.title}</h3>
-                <p className="text-xs text-navy/50 mt-0.5">{study.subtitle}</p>
+                <span className="pill bg-[#007AFF]/[0.08] text-[#007AFF] text-[10px] mb-2 inline-block">{study.badge}</span>
+                <h3 className="text-base font-bold text-[#1D1D1F] group-hover:text-[#007AFF] transition-colors">{study.title}</h3>
+                <p className="text-xs text-[#86868B] mt-0.5">{study.subtitle}</p>
               </Link>
             ))}
           </div>
@@ -77,8 +76,8 @@ export default function BiblePage() {
         {/* Old Testament */}
         <section className="mb-10">
           <div className="flex items-center gap-3 mb-4 px-1">
-            <h2 className="font-sans text-lg font-semibold text-navy">Old Testament</h2>
-            <span className="pill pill-gold">{oldTestament.length} books</span>
+            <h2 className="font-sans text-lg font-bold text-[#1D1D1F]">Old Testament</h2>
+            <span className="pill bg-[#007AFF]/[0.08] text-[#007AFF]">{oldTestament.length} books</span>
           </div>
           <BookGrid books={oldTestament} />
         </section>
@@ -86,8 +85,8 @@ export default function BiblePage() {
         {/* New Testament */}
         <section>
           <div className="flex items-center gap-3 mb-4 px-1">
-            <h2 className="font-sans text-lg font-semibold text-navy">New Testament</h2>
-            <span className="pill pill-sage">{newTestament.length} books</span>
+            <h2 className="font-sans text-lg font-bold text-[#1D1D1F]">New Testament</h2>
+            <span className="pill bg-[#007AFF]/[0.08] text-[#007AFF]">{newTestament.length} books</span>
           </div>
           <BookGrid books={newTestament} />
         </section>

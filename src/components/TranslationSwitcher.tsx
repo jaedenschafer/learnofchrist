@@ -6,18 +6,19 @@ export default function TranslationSwitcher() {
   const { currentTranslation, setTranslation, availableTranslations } = useTranslation();
 
   return (
-    <div className="sticky top-12 sm:top-14 z-40 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2.5 bg-white/80 backdrop-blur-xl border-b border-black/[0.06]">
+    <div className="sticky top-12 z-40 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2 glass border-b border-black/[0.04]">
       <div className="max-w-3xl mx-auto flex items-center gap-2">
-        <span className="text-[0.65rem] font-semibold text-navy/35 uppercase tracking-wider mr-1 hidden sm:inline">Translation</span>
-        <div className="flex gap-1.5 flex-1">
+        <span className="text-[0.6875rem] font-semibold text-[#86868B] mr-1 hidden sm:inline">Translation</span>
+        {/* iOS Segmented Control style */}
+        <div className="flex bg-black/[0.04] rounded-xl p-0.5 gap-0.5">
           {availableTranslations.map((t) => (
             <button
               key={t.abbreviation}
               onClick={() => setTranslation(t.abbreviation)}
-              className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all active:scale-95 ${
+              className={`px-3.5 py-1.5 rounded-[10px] text-[0.75rem] font-semibold transition-all ${
                 currentTranslation === t.abbreviation
-                  ? 'bg-navy text-cream shadow-sm'
-                  : 'bg-black/[0.04] text-navy/50 hover:bg-black/[0.07] hover:text-navy/70'
+                  ? 'bg-white text-[#1D1D1F] shadow-sm'
+                  : 'text-[#86868B] hover:text-[#1D1D1F]'
               }`}
               title={t.name}
             >
@@ -25,7 +26,7 @@ export default function TranslationSwitcher() {
             </button>
           ))}
         </div>
-        <span className="text-[0.6rem] text-navy/30 hidden sm:inline">
+        <span className="text-[0.6875rem] text-[#AEAEB2] ml-auto hidden sm:inline">
           {availableTranslations.find(t => t.abbreviation === currentTranslation)?.name}
         </span>
       </div>
