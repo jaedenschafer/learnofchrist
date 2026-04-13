@@ -15,6 +15,8 @@ import { markChapters } from './chapters/mark';
 import { matthewChapters } from './chapters/matthew';
 import { lukeChapters } from './chapters/luke';
 import { revelationChapters } from './chapters/revelation';
+import { actsChapters } from './chapters/acts';
+import { proverbsChapters } from './chapters/proverbs';
 
 export const chapterContent: Record<string, ChapterContent> = {
   ...johnChapters,
@@ -25,6 +27,8 @@ export const chapterContent: Record<string, ChapterContent> = {
   ...matthewChapters,
   ...lukeChapters,
   ...revelationChapters,
+  ...actsChapters,
+  ...proverbsChapters,
 };
 
 export function getChapterContent(
