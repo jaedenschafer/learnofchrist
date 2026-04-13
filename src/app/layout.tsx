@@ -28,6 +28,23 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="flex flex-col min-h-screen">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'WebSite',
+              name: 'Learn of Christ',
+              url: 'https://learnofchrist.com',
+              description: 'Bible study platform with KJV, ASV, and WEB translations, chapter-by-chapter study guides, and Christ-centered commentary.',
+              potentialAction: {
+                '@type': 'SearchAction',
+                target: 'https://learnofchrist.com/bible?q={search_term_string}',
+                'query-input': 'required name=search_term_string',
+              },
+            }),
+          }}
+        />
         <TranslationProvider>
           <Navbar />
           <main className="flex-grow">
