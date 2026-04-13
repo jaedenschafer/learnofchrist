@@ -2401,6 +2401,486 @@ export const psalmsChapters: Record<string, ChapterContent> = {
     },
   },
 
+  "psalms/76": {
+    overview:
+      "Psalm 76 is a song of Asaph celebrating God's mighty victory in Zion. God is known in Judah and has established His tabernacle in Salem and His dwelling place in Zion. There He broke the arrows of the bow, the shield, the sword, and the battle. The stouthearted are spoiled and the men of might cannot find their hands. At God's rebuke, both chariot and horse are cast into a dead sleep. The earth feared and was still when God arose to judgment to save the meek.",
+    themes: [
+      {
+        title: "God's Glorious Victory",
+        desc: "God has decisively defeated every instrument of war and every mighty warrior — His power renders human military strength utterly useless.",
+      },
+      {
+        title: "God Known Through His Judgments",
+        desc: "God reveals Himself through His acts of judgment — He is known in Judah not abstractly but through His mighty deeds on behalf of His people.",
+      },
+      {
+        title: "The Fear of God Among the Nations",
+        desc: "When God arises in judgment, the whole earth grows still — even the fiercest enemies are reduced to silence before His awesome power.",
+      },
+    ],
+    questions: [
+      "What does it mean that God is 'known' in Judah (v. 1)? How does God make Himself known through His mighty works?",
+      "How does the image of warriors unable to 'find their hands' (v. 5) illustrate the totality of God's victory?",
+      "What does verse 10 mean when it says 'Surely the wrath of man shall praise thee'?",
+      "How does this psalm encourage believers facing overwhelming opposition?",
+      "Why does the psalmist call God 'more glorious and excellent than the mountains of prey' (v. 4)?",
+    ],
+    christConnection:
+      "Christ is the one who has ultimately broken every weapon of the enemy. Through His cross and resurrection, He disarmed principalities and powers, triumphing over them openly. He is the greater dwelling place of God — the true temple — in whom God's glory and saving power are fully revealed.",
+    keyVerse: {
+      reference: "Psalm 76:10",
+      text: "Surely the wrath of man shall praise thee: the remainder of wrath shalt thou restrain.",
+    },
+  },
+
+  "psalms/77": {
+    overview:
+      "Psalm 77 is a deeply personal psalm of Asaph expressing spiritual anguish and the struggle to find comfort. In the night he cries out to God, his soul refusing to be comforted. He wonders whether God has cast him off forever and whether His mercy is clean gone. But then he resolves to remember the works of the LORD and meditate on His mighty deeds of old — particularly the exodus, when God led His people through the sea like a flock by the hand of Moses and Aaron.",
+    themes: [
+      {
+        title: "Honest Spiritual Struggle",
+        desc: "The psalmist does not hide his pain or doubt but brings his raw questions and sleepless anguish directly to God in prayer.",
+      },
+      {
+        title: "Remembering God's Past Faithfulness",
+        desc: "The turning point comes when the psalmist deliberately shifts from introspection to remembrance — choosing to recall God's mighty works as an anchor for present faith.",
+      },
+      {
+        title: "God's Way Through the Sea",
+        desc: "God's path through the Red Sea — unseen yet mighty — becomes the ultimate picture of divine faithfulness, even when His footsteps are not known.",
+      },
+    ],
+    questions: [
+      "Have you experienced the kind of spiritual darkness described in verses 1-9? What did you learn through it?",
+      "What is the significance of the psalmist's deliberate choice to remember God's works (vv. 10-12)?",
+      "How does the statement 'Thy footsteps are not known' (v. 19) teach us about trusting God's unseen guidance?",
+      "Why does the psalmist turn specifically to the exodus as the foundation for renewed faith?",
+      "How does this psalm model honest faith — faith that wrestles with doubt yet ultimately rests in God?",
+    ],
+    christConnection:
+      "As God led Israel through the sea on a path no one could see, so Christ leads His people through suffering and death into resurrection life. His ways are often hidden, yet He is always faithful. Jesus Himself walked through the darkest night of Gethsemane and the cross, trusting the Father whose footsteps were not visible — and God proved faithful in the resurrection.",
+    keyVerse: {
+      reference: "Psalm 77:19",
+      text: "Thy way is in the sea, and thy path in the great waters, and thy footsteps are not known.",
+    },
+  },
+
+  "psalms/78": {
+    overview:
+      "Psalm 78 is a lengthy historical psalm of Asaph recounting Israel's history from the exodus through the establishment of David's throne. It rehearses God's mighty works — the plagues in Egypt, the parting of the Red Sea, manna from heaven, water from the rock — alongside Israel's persistent rebellion, forgetfulness, and ingratitude. Despite God's repeated mercy, the people continually tested Him, provoked Him, and turned to idolatry. Yet God, in His compassion, did not destroy them but chose David as shepherd over His people and Zion as His dwelling place.",
+    themes: [
+      {
+        title: "Teaching the Next Generation",
+        desc: "The psalm opens with a call to pass God's mighty deeds to the next generation so they will not repeat the faithlessness of their fathers.",
+      },
+      {
+        title: "Israel's Cycle of Rebellion and Forgetfulness",
+        desc: "Despite witnessing God's greatest miracles, Israel repeatedly forgot His works, tested His patience, and turned to sin — revealing the deep depravity of the human heart.",
+      },
+      {
+        title: "God's Persistent Mercy",
+        desc: "Though provoked again and again, God remembered that His people were but flesh and repeatedly turned from wrath to compassion, ultimately choosing David and Zion.",
+      },
+    ],
+    questions: [
+      "Why does the psalmist begin by emphasizing the need to teach God's works to future generations (vv. 1-8)?",
+      "How could Israel witness miracles like the parting of the sea and manna from heaven yet still rebel? What does this reveal about human nature?",
+      "What does it mean that God 'being full of compassion, forgave their iniquity, and destroyed them not' (v. 38)?",
+      "Why does God choose David and Zion at the end of this long history of failure (vv. 68-72)?",
+      "How does this psalm serve as a warning to the church today about presuming on God's grace?",
+    ],
+    christConnection:
+      "Christ is the greater David, the true Shepherd whom God has chosen to feed His people. He is also the true bread from heaven (John 6:32), the rock that gives living water (1 Corinthians 10:4), and the one who brings the ultimate exodus — deliverance not merely from Egypt but from sin and death. Where Israel failed, Christ succeeded in perfect faithfulness.",
+    keyVerse: {
+      reference: "Psalm 78:72",
+      text: "So he fed them according to the integrity of his heart; and guided them by the skilfulness of his hands.",
+    },
+  },
+
+  "psalms/79": {
+    overview:
+      "Psalm 79 is a communal lament of Asaph mourning the destruction of Jerusalem and the temple. The heathen have invaded God's inheritance, defiled the holy temple, and laid Jerusalem in heaps. The bodies of God's servants have been given to the birds and beasts, and their blood has been poured out like water with none to bury them. The psalmist cries out for God's compassion, asks how long His anger will burn, and pleads for deliverance and vengeance against the nations that have devoured Jacob.",
+    themes: [
+      {
+        title: "Grief Over the Desolation of God's House",
+        desc: "The destruction of the temple and Jerusalem is not merely a national tragedy but a spiritual catastrophe — God's holy place has been defiled by the heathen.",
+      },
+      {
+        title: "A Plea for God's Compassion and Forgiveness",
+        desc: "The psalmist does not claim innocence but acknowledges sin and pleads for God's mercy to outweigh His just anger against His people.",
+      },
+      {
+        title: "Vindication of God's Name Among the Nations",
+        desc: "The deepest concern is not merely Israel's suffering but God's reputation — 'Why should the heathen say, Where is their God?'",
+      },
+    ],
+    questions: [
+      "How does the defilement of the temple reflect the seriousness of national sin (v. 1)?",
+      "What does the cry 'How long, LORD?' (v. 5) teach us about persevering prayer in dark times?",
+      "Why does the psalmist appeal to God's name and glory rather than Israel's merit (v. 9)?",
+      "How should Christians understand prayers for divine vengeance in psalms like this?",
+      "What does this psalm teach about the relationship between national sin and national calamity?",
+    ],
+    christConnection:
+      "Jesus wept over Jerusalem, foreseeing its destruction just as this psalm mourns. He is the true temple destroyed and raised again in three days. Through His blood, the reproach of sin is removed and God's name is glorified among all nations. He is the Shepherd who gathers the scattered sheep of God's pasture.",
+    keyVerse: {
+      reference: "Psalm 79:9",
+      text: "Help us, O God of our salvation, for the glory of thy name: and deliver us, and purge away our sins, for thy name's sake.",
+    },
+  },
+
+  "psalms/80": {
+    overview:
+      "Psalm 80 is a communal prayer of Asaph pleading for God to restore Israel. The psalmist calls upon the Shepherd of Israel who leads Joseph like a flock and dwells between the cherubims to shine forth. Three times the refrain cries, 'Turn us again, O God, and cause thy face to shine; and we shall be saved.' A striking vine metaphor describes how God brought a vine out of Egypt, planted it in Canaan where it flourished, but then broke down its walls so that boars and beasts ravage it. The psalm closes with a plea for the man of God's right hand, the son of man whom God has strengthened.",
+    themes: [
+      {
+        title: "God as Shepherd of Israel",
+        desc: "The psalm opens with an appeal to God as the Shepherd who leads and feeds His people, calling Him to shine forth in saving power.",
+      },
+      {
+        title: "The Vine Uprooted",
+        desc: "Israel is pictured as a vine God planted and nurtured, but He has now broken its hedges — a painful image of divine discipline and apparent abandonment.",
+      },
+      {
+        title: "The Refrain of Restoration",
+        desc: "The threefold cry for God to turn and cause His face to shine reveals that Israel's only hope is not in self-reform but in God's gracious turning toward them.",
+      },
+    ],
+    questions: [
+      "What is the significance of asking God to 'shine forth' (v. 1)? What does it mean for God's face to shine on His people?",
+      "How does the vine metaphor (vv. 8-16) illustrate both God's past care and present discipline?",
+      "Who is 'the man of thy right hand' and 'the son of man' in verse 17, and how might this point beyond Israel?",
+      "What does the threefold refrain (vv. 3, 7, 19) teach us about persistence in prayer?",
+      "How does this psalm balance lament over present suffering with hope in God's power to restore?",
+    ],
+    christConnection:
+      "Jesus declared, 'I am the true vine' (John 15:1), fulfilling the vine imagery of this psalm. He is the Son of Man at God's right hand whom the Father has strengthened. Where Israel as God's vine failed and was broken, Christ as the true vine bears fruit eternally. Through Him, God's face shines upon His people and salvation comes.",
+    keyVerse: {
+      reference: "Psalm 80:19",
+      text: "Turn us again, O LORD God of hosts, cause thy face to shine; and we shall be saved.",
+    },
+  },
+
+  "psalms/81": {
+    overview:
+      "Psalm 81 is a festive psalm of Asaph calling Israel to joyful worship, likely associated with the Feast of Tabernacles. It begins with a summons to sing aloud, blow the trumpet, and make a joyful noise. God then speaks directly, reminding Israel of His deliverance from Egypt and His faithfulness — 'I am the LORD thy God, which brought thee out of the land of Egypt: open thy mouth wide, and I will fill it.' Yet Israel would not listen, so God gave them over to their own hearts' lust. The psalm closes with God's poignant lament: 'Oh that my people had hearkened unto me!'",
+    themes: [
+      {
+        title: "A Call to Joyful Worship",
+        desc: "The psalm opens with an enthusiastic summons to praise God with instruments, singing, and celebration — worship is to be full of joy and energy.",
+      },
+      {
+        title: "God's Desire to Bless",
+        desc: "God yearns to fill His people with good things — 'Open thy mouth wide, and I will fill it' — yet they refuse and turn to their own ways.",
+      },
+      {
+        title: "The Tragedy of Stubbornness",
+        desc: "God's deepest grief is not His people's weakness but their willful refusal to listen — and He allows them to experience the consequences of their own choices.",
+      },
+    ],
+    questions: [
+      "What does the command 'Open thy mouth wide, and I will fill it' (v. 10) reveal about God's generosity?",
+      "Why does God give people over to their own stubbornness (v. 12)? What does this reveal about divine judgment?",
+      "How does God's lament 'Oh that my people had hearkened unto me!' (v. 13) reveal His heart?",
+      "What is the significance of connecting worship (vv. 1-5) with obedience (vv. 8-16)?",
+      "How does this psalm challenge our own tendency to resist God's best for us?",
+    ],
+    christConnection:
+      "Jesus echoed the sorrow of this psalm when He wept over Jerusalem: 'How often would I have gathered thy children together, even as a hen gathereth her chickens under her wings, and ye would not!' (Matthew 23:37). Christ is the one who opened His mouth in teaching and His arms on the cross, longing to fill His people with every blessing.",
+    keyVerse: {
+      reference: "Psalm 81:10",
+      text: "I am the LORD thy God, which brought thee out of the land of Egypt: open thy mouth wide, and I will fill it.",
+    },
+  },
+
+  "psalms/82": {
+    overview:
+      "Psalm 82 is a brief but powerful psalm of Asaph depicting God standing in the divine assembly to judge unjust rulers. God rebukes those who judge unjustly and show partiality to the wicked, commanding them to defend the poor, the fatherless, the afflicted, and the needy. These rulers walk in darkness and the foundations of the earth are shaken. Though called 'gods' and 'children of the most High,' they shall die like men and fall like princes. The psalm closes with a plea for God Himself to arise and judge the earth.",
+    themes: [
+      {
+        title: "God Judges the Judges",
+        desc: "No human authority is exempt from divine accountability — God stands in the assembly of rulers and holds them to account for their injustice.",
+      },
+      {
+        title: "The Call to Defend the Vulnerable",
+        desc: "God's standard for those in authority is clear: defend the poor, the fatherless, and the oppressed — failure to do so is a grave offense against God Himself.",
+      },
+      {
+        title: "The Mortality of Human Authority",
+        desc: "Though earthly rulers are given great power, they are mortal and will face the same judgment as every other human being.",
+      },
+    ],
+    questions: [
+      "What does it mean that God 'standeth in the congregation of the mighty' (v. 1)?",
+      "How does God define justice for rulers (vv. 3-4), and how does this apply to leaders today?",
+      "Jesus quoted verse 6 in John 10:34. What was His point in doing so?",
+      "What does the statement 'ye shall die like men' (v. 7) communicate to those who abuse power?",
+      "Why does the psalm end with a plea for God to judge the whole earth (v. 8)?",
+    ],
+    christConnection:
+      "Jesus quoted this psalm in John 10:34-36 to defend His claim to deity. If human judges could be called 'gods' by virtue of their office, how much more is the one whom the Father sanctified and sent into the world truly the Son of God? Christ is the righteous Judge who will ultimately arise and judge the earth with perfect justice.",
+    keyVerse: {
+      reference: "Psalm 82:8",
+      text: "Arise, O God, judge the earth: for thou shalt inherit all nations.",
+    },
+  },
+
+  "psalms/83": {
+    overview:
+      "Psalm 83 is the final psalm attributed to Asaph and is an urgent prayer for God to act against a coalition of nations conspiring to destroy Israel. The enemies have taken crafty counsel and formed an alliance with one purpose: 'Come, and let us cut them off from being a nation; that the name of Israel may be no more in remembrance.' The psalmist calls on God to deal with them as He dealt with Midian, Sisera, and Jabin — to make them like the whirling dust and stubble before the wind, that they may know the LORD is Most High over all the earth.",
+    themes: [
+      {
+        title: "A Conspiracy Against God's People",
+        desc: "The nations unite not merely against Israel but against God Himself — they conspire against His 'hidden ones' and seek to erase His people from memory.",
+      },
+      {
+        title: "Appealing to God's Past Victories",
+        desc: "The psalmist grounds his plea in God's historical track record of defeating Israel's enemies, trusting that the same God acts in the present.",
+      },
+      {
+        title: "That All May Know the LORD",
+        desc: "The ultimate purpose of the prayer is not mere vengeance but the revelation of God's supremacy — that the nations may know the LORD is Most High.",
+      },
+    ],
+    questions: [
+      "What does the conspiracy to wipe out Israel (vv. 2-8) teach about the spiritual dimension of opposition against God's people?",
+      "Why does the psalmist rehearse God's past victories over Midian and Sisera (vv. 9-12)?",
+      "How does the psalm's ultimate purpose — 'that men may know that thou...art the most high' (v. 18) — reframe prayers for deliverance?",
+      "How should Christians pray when facing organized opposition today?",
+      "What does it mean that the enemies have 'consulted together with one consent' (v. 5) against God?",
+    ],
+    christConnection:
+      "The nations raged against Christ at the cross — Herod, Pilate, Gentiles, and Israel conspired together (Acts 4:27). Yet God turned their conspiracy into the means of salvation. Christ is the one through whom God's name is exalted above all the earth, and at His return every knee will bow and every tongue confess that He is Lord.",
+    keyVerse: {
+      reference: "Psalm 83:18",
+      text: "That men may know that thou, whose name alone is JEHOVAH, art the most high over all the earth.",
+    },
+  },
+
+  "psalms/84": {
+    overview:
+      "Psalm 84 is a psalm of the sons of Korah expressing deep longing for God's dwelling place. The psalmist's soul longs, even faints, for the courts of the LORD. Even the sparrow has found a house near God's altars. Blessed are those who dwell in God's house and those whose strength is in Him, passing through the valley of Baca (weeping) and making it a well. A day in God's courts is better than a thousand elsewhere, and the psalmist would rather be a doorkeeper in the house of God than dwell in the tents of wickedness. The LORD is a sun and shield, giving grace and glory.",
+    themes: [
+      {
+        title: "Longing for God's Presence",
+        desc: "The psalm expresses an aching desire for closeness to God — not merely religious obligation but genuine soul-hunger for the living God.",
+      },
+      {
+        title: "Blessing Through the Valley of Weeping",
+        desc: "Those whose strength is in God transform the valley of Baca into a place of springs — sorrow becomes a pathway to deeper blessing when traveled with God.",
+      },
+      {
+        title: "The Supreme Value of God's Presence",
+        desc: "One day in God's courts surpasses a thousand elsewhere — even the lowest position in God's house is better than the highest in the world.",
+      },
+    ],
+    questions: [
+      "What does the sparrow finding a home near God's altar (v. 3) teach about God's welcoming nature?",
+      "How does the 'valley of Baca' (v. 6) become a well? What does this teach about suffering in the life of faith?",
+      "Why does the psalmist say a day in God's courts is better than a thousand elsewhere (v. 10)?",
+      "What does it mean that God is both 'a sun and shield' (v. 11)?",
+      "How does this psalm challenge us to evaluate what we truly long for most deeply?",
+    ],
+    christConnection:
+      "Jesus is the true dwelling place of God — in Him the fullness of the Godhead dwells bodily. He passed through the valley of weeping on the way to the cross and turned it into a wellspring of salvation. Through Christ, believers have access to God's presence not merely in a temple but in Spirit and truth, and He is the sun of righteousness and the shield of His people.",
+    keyVerse: {
+      reference: "Psalm 84:10",
+      text: "For a day in thy courts is better than a thousand. I had rather be a doorkeeper in the house of my God, than to dwell in the tents of wickedness.",
+    },
+  },
+
+  "psalms/85": {
+    overview:
+      "Psalm 85 is a psalm of the sons of Korah celebrating God's past favor toward Israel and pleading for renewed revival. The psalmist recalls that God has been favorable to the land, brought back the captivity of Jacob, and forgiven iniquity. Yet he now asks: 'Wilt thou not revive us again: that thy people may rejoice in thee?' The psalm reaches a magnificent climax: mercy and truth are met together; righteousness and peace have kissed each other. Truth springs out of the earth, and righteousness looks down from heaven.",
+    themes: [
+      {
+        title: "Remembering Past Restoration",
+        desc: "The psalmist begins by recalling God's past acts of forgiveness and favor, using them as the basis for renewed hope.",
+      },
+      {
+        title: "A Prayer for Revival",
+        desc: "The cry 'Wilt thou not revive us again?' acknowledges that spiritual renewal is entirely God's work — the people can only ask and receive.",
+      },
+      {
+        title: "Mercy and Truth United",
+        desc: "The meeting of mercy and truth, the kiss of righteousness and peace — these attributes that seem to conflict are perfectly reconciled in God's salvation.",
+      },
+    ],
+    questions: [
+      "How does remembering God's past faithfulness (vv. 1-3) fuel prayer for present revival?",
+      "What does genuine revival look like according to this psalm (vv. 6-7)?",
+      "How can mercy and truth 'meet together' and righteousness and peace 'kiss' (v. 10)? Don't these sometimes seem opposed?",
+      "What does it mean that 'truth shall spring out of the earth, and righteousness shall look down from heaven' (v. 11)?",
+      "How does this psalm model praying for spiritual renewal in our own time?",
+    ],
+    christConnection:
+      "The cross of Christ is where mercy and truth met together, where righteousness and peace kissed each other. God's truth demanded judgment for sin, yet His mercy provided a substitute. In Christ, God is both just and the justifier of sinners. He is the revival God sends — the one in whom truth springs from the earth (incarnation) and righteousness looks down from heaven.",
+    keyVerse: {
+      reference: "Psalm 85:10",
+      text: "Mercy and truth are met together; righteousness and peace have kissed each other.",
+    },
+  },
+
+  "psalms/86": {
+    overview:
+      "Psalm 86 is a prayer of David — the only psalm in Book III attributed to him. He cries out from affliction, calling himself poor and needy, and asks God to preserve his soul, be merciful, and rejoice his soul. He affirms that the Lord is good, ready to forgive, and plenteous in mercy to all who call upon Him. Among the gods there is none like the LORD. David asks God to teach him His way so he can walk in truth, and to unite his heart to fear God's name. He celebrates God's great mercy toward him and asks for a token for good.",
+    themes: [
+      {
+        title: "A Poor and Needy Cry",
+        desc: "David comes to God not with claims of strength or merit but as one who is poor and needy — modeling the humble dependence God honors.",
+      },
+      {
+        title: "God's Character as the Ground of Prayer",
+        desc: "David's petitions are anchored in who God is — good, ready to forgive, plenteous in mercy, great in power — making theology the fuel of prayer.",
+      },
+      {
+        title: "An Undivided Heart",
+        desc: "The prayer to 'unite my heart to fear thy name' reveals the struggle of a divided heart and the need for God to bring inner wholeness.",
+      },
+    ],
+    questions: [
+      "Why does David identify himself as 'poor and needy' (v. 1)? How does poverty of spirit relate to effective prayer?",
+      "What does it mean to ask God to 'unite my heart to fear thy name' (v. 11)?",
+      "How does David's understanding of God's character shape his prayers throughout this psalm?",
+      "What is the significance of David saying 'there is none like unto thee, O Lord' (v. 8) among the gods?",
+      "How can this psalm teach us to pray from theology rather than merely from emotion?",
+    ],
+    christConnection:
+      "Jesus is the one who perfectly embodied humility before the Father, crying out in dependence and walking in undivided devotion. He taught His disciples to pray with the same spirit this psalm models. Christ is the demonstration of God's character — that the Lord is indeed good, ready to forgive, and plenteous in mercy to all who call upon Him.",
+    keyVerse: {
+      reference: "Psalm 86:11",
+      text: "Teach me thy way, O LORD; I will walk in thy truth: unite my heart to fear thy name.",
+    },
+  },
+
+  "psalms/87": {
+    overview:
+      "Psalm 87 is a short but profound psalm of the sons of Korah celebrating Zion as the city of God. The LORD loves the gates of Zion more than all the dwellings of Jacob, and glorious things are spoken of the city of God. Remarkably, the psalm envisions peoples from Rahab (Egypt), Babylon, Philistia, Tyre, and Ethiopia being counted as born in Zion. The LORD Himself shall count the peoples and record that 'this man was born there.' The psalm closes with joyful singing: 'All my springs are in thee.'",
+    themes: [
+      {
+        title: "Zion as God's Beloved City",
+        desc: "God's special love for Zion is declared — it is the place He has chosen above all others, and glorious things are spoken of it.",
+      },
+      {
+        title: "The Nations Born in Zion",
+        desc: "In a stunning prophetic vision, peoples from hostile nations are counted as native-born citizens of Zion — foreshadowing the ingathering of the Gentiles.",
+      },
+      {
+        title: "All Springs in God",
+        desc: "The psalm's closing declaration — 'All my springs are in thee' — confesses that every source of life, joy, and refreshment is found in God and His city.",
+      },
+    ],
+    questions: [
+      "What does it mean that God loves the gates of Zion 'more than all the dwellings of Jacob' (v. 2)?",
+      "How does the inclusion of Egypt, Babylon, and other nations (vv. 4-6) foreshadow the gospel?",
+      "What does it mean to be 'born' in Zion, and how does this relate to new birth in Christ?",
+      "What does the phrase 'All my springs are in thee' (v. 7) express about the believer's life?",
+      "How does this psalm expand our understanding of God's purposes beyond one nation?",
+    ],
+    christConnection:
+      "This psalm foreshadows the new birth — being born not of flesh but of the Spirit into the city of God. Through Christ, people from every nation are made citizens of the heavenly Jerusalem (Galatians 4:26, Hebrews 12:22). Jesus made the way for Gentiles and enemies alike to be counted among God's people, fulfilling the vision of nations born in Zion.",
+    keyVerse: {
+      reference: "Psalm 87:3",
+      text: "Glorious things are spoken of thee, O city of God. Selah.",
+    },
+  },
+
+  "psalms/88": {
+    overview:
+      "Psalm 88 is the darkest psalm in the Psalter, written by Heman the Ezrahite. It is a sustained cry of anguish with no resolution or word of praise at the end. The psalmist feels on the verge of death, cut off from God's hand, laid in the lowest pit and in darkness. He has been afflicted from youth and is overwhelmed with God's terrors. Friends and loved ones have been put far from him, and darkness is his only companion. The psalm ends not with hope but with the word 'darkness.'",
+    themes: [
+      {
+        title: "Unrelenting Suffering",
+        desc: "The psalmist describes suffering that has lasted from youth and only intensified — there is no moment of relief or lightening of the burden in this psalm.",
+      },
+      {
+        title: "Feeling Abandoned by God",
+        desc: "The deepest pain is not the suffering itself but the sense that God has caused it and is hiding His face — the psalmist feels cast off and forgotten.",
+      },
+      {
+        title: "Faith in the Darkness",
+        desc: "Despite receiving no answer, the psalmist keeps praying — calling out day and night. The act of addressing God is itself an expression of faith.",
+      },
+    ],
+    questions: [
+      "Why is a psalm this dark included in Scripture? What does its presence teach us about honest prayer?",
+      "How does the psalmist maintain the discipline of prayer when he receives no comfort or answer?",
+      "What does the statement 'Lover and friend hast thou put far from me, and mine acquaintance into darkness' (v. 18) reveal about the depths of isolation?",
+      "How should we minister to those who are in a 'Psalm 88 season' of unrelieved spiritual darkness?",
+      "Does this psalm offer any implicit hope, or is the darkness its deliberate final word?",
+    ],
+    christConnection:
+      "Psalm 88 finds its ultimate fulfillment in Christ on the cross, who cried 'My God, my God, why hast thou forsaken me?' Jesus entered the deepest darkness and desolation so that no believer would ever be truly abandoned. He descended into the lowest pit and was laid among the dead — yet God raised Him up. Because Christ endured the unrelieved darkness, His people will always find light beyond it.",
+    keyVerse: {
+      reference: "Psalm 88:1",
+      text: "O LORD God of my salvation, I have cried day and night before thee.",
+    },
+  },
+
+  "psalms/89": {
+    overview:
+      "Psalm 89 is a maskil of Ethan the Ezrahite that begins with magnificent praise of God's faithfulness and the Davidic covenant, then turns to anguished lament over its apparent failure. The psalm celebrates God's mercy, faithfulness, and power — His sovereignty over the raging sea, His covenant with David that his throne would endure forever, and the promise that God would not break His covenant. But then the tone shifts dramatically: God seems to have cast off His anointed, broken the covenant, and brought David's throne to ruin. The psalm ends with the unanswered question: 'Lord, where are thy former lovingkindnesses?'",
+    themes: [
+      {
+        title: "God's Covenant Faithfulness",
+        desc: "The psalm extols God's unbreakable covenant with David — His promise to establish David's throne forever and never withdraw His lovingkindness.",
+      },
+      {
+        title: "The Apparent Failure of God's Promises",
+        desc: "The devastating lament arises from the gap between God's magnificent promises and present reality — the throne seems ruined and the covenant broken.",
+      },
+      {
+        title: "Holding God to His Word",
+        desc: "The psalmist does not abandon faith but holds God accountable to His own promises — a bold, reverent wrestling that refuses to let go.",
+      },
+    ],
+    questions: [
+      "How does the psalmist's celebration of God's faithfulness (vv. 1-37) make the lament (vv. 38-51) even more painful?",
+      "What does it mean to hold God to His promises in prayer without being presumptuous?",
+      "How does the Davidic covenant described here (vv. 3-4, 29, 34-37) find its fulfillment?",
+      "What does this psalm teach about living in the tension between God's promises and present circumstances?",
+      "How does the brevity of human life (vv. 47-48) add urgency to the psalmist's plea?",
+    ],
+    christConnection:
+      "The Davidic covenant that seemed to fail finds its ultimate fulfillment in Jesus Christ — the Son of David whose throne is established forever. The angel Gabriel told Mary, 'The Lord God shall give unto him the throne of his father David: and of his kingdom there shall be no end' (Luke 1:32-33). Every promise in Psalm 89 finds its 'Yes and Amen' in Christ.",
+    keyVerse: {
+      reference: "Psalm 89:1",
+      text: "I will sing of the mercies of the LORD for ever: with my mouth will I make known thy faithfulness to all generations.",
+    },
+  },
+
+  "psalms/90": {
+    overview:
+      "Psalm 90 is a prayer of Moses — the oldest psalm in the collection — contrasting God's eternity with the brevity of human life. Before the mountains were brought forth or the earth was formed, God existed from everlasting to everlasting. Human life, by contrast, is like grass that grows up in the morning and is cut down by evening. Our years are threescore and ten, or by reason of strength fourscore, yet they are soon cut off and we fly away. Moses asks God to teach us to number our days and to establish the work of our hands. He pleads for God's mercy in the morning and the beauty of the Lord upon His people.",
+    themes: [
+      {
+        title: "God's Eternity and Human Frailty",
+        desc: "The psalm places God's timeless existence alongside the brief, fragile span of human life, creating a profound sense of perspective and humility.",
+      },
+      {
+        title: "The Weight of God's Wrath Against Sin",
+        desc: "Human suffering and mortality are linked to God's anger against sin — our secret sins are set in the light of His countenance.",
+      },
+      {
+        title: "Numbering Our Days in Wisdom",
+        desc: "The prayer to 'number our days' is a plea for the wisdom to live with an awareness of life's brevity, investing each day in what truly matters.",
+      },
+    ],
+    questions: [
+      "What does it mean that God has been our 'dwelling place in all generations' (v. 1)?",
+      "How should the comparison of human life to grass (vv. 5-6) shape our priorities?",
+      "What does Moses mean by 'Teach us to number our days, that we may apply our hearts unto wisdom' (v. 12)?",
+      "How does the prayer for God to 'establish the work of our hands' (v. 17) express hope in the midst of frailty?",
+      "Why does Moses connect human mortality specifically to God's anger against sin (vv. 7-11)?",
+    ],
+    christConnection:
+      "Christ is the eternal God who entered human frailty — the one who existed before the mountains yet became a man whose days were numbered. He numbered His days perfectly, living each one in the Father's will. Through His death and resurrection, He has given believers eternal life, overcoming the curse of mortality that Moses mourned. He is the beauty of the Lord established upon His people.",
+    keyVerse: {
+      reference: "Psalm 90:12",
+      text: "So teach us to number our days, that we may apply our hearts unto wisdom.",
+    },
+  },
+
   "psalms/91": {
     overview:
       "Psalm 91 promises extraordinary protection to those who dwell in the secret place of the Most High and abide under the shadow of the Almighty. The psalmist declares that God will deliver from the snare, the pestilence, the terror by night, and the arrow by day. A thousand may fall at your side and ten thousand at your right hand, but it shall not come near you. Angels are given charge over the faithful. The psalm closes with God Himself speaking, promising long life and salvation to those who set their love upon Him.",
@@ -2430,6 +2910,870 @@ export const psalmsChapters: Record<string, ChapterContent> = {
     keyVerse: {
       reference: "Psalm 91:1-2",
       text: "He that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty. I will say of the LORD, He is my refuge and my fortress: my God; in him will I trust.",
+    },
+  },
+
+  "psalms/92": {
+    overview:
+      "Psalm 92 is designated as a song for the Sabbath day. It declares that it is a good thing to give thanks to the LORD and to sing praises to His name. God's lovingkindness in the morning and His faithfulness every night are celebrated. The psalmist marvels at the greatness of God's works and the depth of His thoughts, which the brutish cannot understand. Though the wicked spring up like grass, they will be destroyed forever. The righteous, by contrast, flourish like the palm tree and grow like the cedar in Lebanon, still bearing fruit in old age.",
+    themes: [
+      {
+        title: "The Goodness of Praise",
+        desc: "The psalm opens with the simple declaration that thanksgiving and praise are good — worship is not a burden but the most fitting and satisfying activity of the soul.",
+      },
+      {
+        title: "The Shortsightedness of the Wicked",
+        desc: "The wicked may flourish temporarily, but they lack the understanding to see that their prosperity is momentary and their destruction is eternal.",
+      },
+      {
+        title: "The Flourishing Righteous",
+        desc: "The righteous are like palm trees and cedars — deeply rooted, enduring, and fruitful even in old age, planted in the house of the LORD.",
+      },
+    ],
+    questions: [
+      "Why is this psalm specifically designated for the Sabbath day? What is the connection between rest and praise?",
+      "What does it mean that God's thoughts are 'very deep' (v. 5) and the brutish cannot understand them?",
+      "How does the contrast between grass (wicked) and palm trees/cedars (righteous) shape our understanding of lasting versus fleeting success?",
+      "What does it mean to be 'planted in the house of the LORD' (v. 13)?",
+      "How does the promise of fruitfulness in old age (v. 14) encourage perseverance in faith?",
+    ],
+    christConnection:
+      "Jesus is the righteous one who perfectly flourished in the Father's will. He is the true vine and the tree of life whose fruit never fails. Through His resurrection, He demonstrated that righteousness bears fruit even beyond death. Believers planted in Christ flourish eternally, drawing life from Him as branches draw from the vine.",
+    keyVerse: {
+      reference: "Psalm 92:12",
+      text: "The righteous shall flourish like the palm tree: he shall grow like a cedar in Lebanon.",
+    },
+  },
+
+  "psalms/93": {
+    overview:
+      "Psalm 93 is a brief, majestic hymn declaring the LORD's sovereign reign over all creation. The LORD reigns, clothed with majesty and strength. The world is established and cannot be moved. God's throne is established from of old; He is from everlasting. The floods lift up their voice and their waves, but the LORD on high is mightier than the noise of many waters and the mighty waves of the sea. His testimonies are very sure, and holiness adorns His house forever.",
+    themes: [
+      {
+        title: "The LORD Reigns",
+        desc: "The psalm opens with the great declaration that the LORD is King — He is robed in majesty and girded with strength, and His reign is unshakable.",
+      },
+      {
+        title: "God's Power Over Chaos",
+        desc: "The raging floods and mighty waters symbolize chaos and opposition, yet God is mightier than them all — no force can challenge His authority.",
+      },
+      {
+        title: "The Sureness of God's Word",
+        desc: "God's testimonies are very sure — His word is as unshakable as His throne, and holiness characterizes His presence forever.",
+      },
+    ],
+    questions: [
+      "What does it mean that the LORD is 'clothed with majesty' and 'girded with strength' (v. 1)?",
+      "How does the image of God being mightier than 'many waters' and 'mighty waves' (v. 4) bring comfort?",
+      "What is the connection between God's sovereign reign and the sureness of His testimonies (v. 5)?",
+      "How does this psalm address the fear that the world is spinning out of control?",
+      "Why does the psalm end with the statement that 'holiness becometh thine house' (v. 5)?",
+    ],
+    christConnection:
+      "Jesus demonstrated His sovereignty over chaotic waters when He stilled the storm on the Sea of Galilee. He is the Lord who reigns from everlasting, whose throne cannot be moved. His words are the sure testimonies that will never pass away, and He is building a holy house — His church — that the gates of hell cannot prevail against.",
+    keyVerse: {
+      reference: "Psalm 93:4",
+      text: "The LORD on high is mightier than the noise of many waters, yea, than the mighty waves of the sea.",
+    },
+  },
+
+  "psalms/94": {
+    overview:
+      "Psalm 94 is a cry for divine justice against wicked oppressors. The psalmist calls on the God of vengeance to shine forth and render a reward to the proud. The wicked break in pieces God's people, slay the widow and stranger, and murder the fatherless, smugly saying, 'The LORD shall not see.' But the psalmist declares that He who planted the ear hears, and He who formed the eye sees. God chastens the nations and teaches man knowledge. Blessed is the man whom God chastens, for God will not cast off His people. In the end, the LORD is the psalmist's defense and the rock of his refuge, and God shall cut off the wicked.",
+    themes: [
+      {
+        title: "A Cry for Divine Justice",
+        desc: "The psalm openly calls for God to avenge the blood of the oppressed, reflecting a righteous longing for God to right the wrongs of the world.",
+      },
+      {
+        title: "God Sees and Knows",
+        desc: "The wicked claim God does not see, but He who made the ear and the eye certainly hears and sees every act of injustice.",
+      },
+      {
+        title: "Blessing Through Divine Discipline",
+        desc: "Blessed is the one whom God chastens — divine discipline is a sign of love and leads to rest and righteousness.",
+      },
+    ],
+    questions: [
+      "Is it appropriate to pray for God's vengeance? How does this psalm guide that kind of prayer?",
+      "What does the argument in verses 9-10 — that the Creator of eyes and ears sees and hears — teach about God's awareness of injustice?",
+      "How is divine chastening a blessing (v. 12)?",
+      "What comfort does the promise that God 'will not cast off his people' (v. 14) provide?",
+      "How does this psalm balance the tension between waiting for God's justice and trusting His timing?",
+    ],
+    christConnection:
+      "Jesus is the righteous Judge to whom all vengeance belongs. He exposed the hypocrisy of those who oppressed the vulnerable and promised that every hidden thing would be brought to light. He also bore divine discipline in our place on the cross, so that the chastening we deserved might become a pathway to blessing rather than destruction.",
+    keyVerse: {
+      reference: "Psalm 94:22",
+      text: "But the LORD is my defence; and my God is the rock of my refuge.",
+    },
+  },
+
+  "psalms/95": {
+    overview:
+      "Psalm 95 opens with a joyful call to worship — 'O come, let us sing unto the LORD: let us make a joyful noise to the rock of our salvation' — then moves into a solemn warning against hardening the heart. The psalm celebrates God as the great King above all gods, in whose hand are the depths of the earth and the heights of the mountains. He made the sea and the dry land. The people are called to kneel before the LORD their maker. But then the tone shifts as God speaks directly, warning them not to harden their hearts as Israel did at Meribah and Massah, where they tested God for forty years and were barred from entering His rest.",
+    themes: [
+      {
+        title: "Joyful Worship of the Creator King",
+        desc: "The psalm summons God's people to worship with exuberance — singing, shouting, kneeling — because He is the great God who made all things and shepherds His people.",
+      },
+      {
+        title: "The Danger of a Hardened Heart",
+        desc: "The abrupt shift from praise to warning reveals that worship without obedience leads to a hard heart — the same generation that saw God's miracles failed to enter His rest.",
+      },
+      {
+        title: "Today, If You Will Hear His Voice",
+        desc: "The urgency of 'today' signals that the opportunity to respond to God is always present and always perishable — delay is itself a form of refusal.",
+      },
+    ],
+    questions: [
+      "Why does the psalm place joyful worship (vv. 1-7) alongside a stern warning (vv. 8-11)?",
+      "How does a heart become hardened, and what are the warning signs?",
+      "Hebrews 3-4 extensively quotes this psalm. What does the New Testament application reveal about its ongoing relevance?",
+      "What does it mean to enter God's rest, and how do we miss it?",
+      "How does the phrase 'Today if ye will hear his voice' (v. 7) create urgency for the listener?",
+    ],
+    christConnection:
+      "The book of Hebrews applies this psalm directly to believers in Christ, warning them not to fall short of the rest that remains for God's people. Jesus is the greater Joshua who leads His people into true rest — not merely a promised land but eternal fellowship with God. He is the rock of salvation and the shepherd of His people, and 'today' is always the day to hear His voice.",
+    keyVerse: {
+      reference: "Psalm 95:7-8",
+      text: "For he is our God; and we are the people of his pasture, and the sheep of his hand. To day if ye will hear his voice, Harden not your heart, as in the provocation, and as in the day of temptation in the wilderness.",
+    },
+  },
+
+  "psalms/96": {
+    overview:
+      "Psalm 96 is a magnificent call for all the earth to sing a new song to the LORD. God's salvation is to be proclaimed daily, His glory declared among the heathen, and His wonders among all people. The LORD is great and greatly to be praised, to be feared above all gods, for all the gods of the nations are idols but the LORD made the heavens. Honour, majesty, strength, and beauty are in His sanctuary. The psalm calls on all creation — the heavens, earth, sea, fields, and trees — to rejoice before the LORD, for He comes to judge the earth with righteousness and truth.",
+    themes: [
+      {
+        title: "A New Song for All the Earth",
+        desc: "This is not a private or national worship — the whole earth is summoned to sing a new song, declaring God's salvation among all peoples.",
+      },
+      {
+        title: "The Emptiness of Idols",
+        desc: "All the gods of the nations are idols — worthless nothings — while the LORD made the heavens. True worship requires rejecting every counterfeit.",
+      },
+      {
+        title: "Creation Rejoicing at God's Coming",
+        desc: "The psalm envisions all creation — sea, fields, and forests — breaking into joy because the LORD is coming to judge the earth righteously.",
+      },
+    ],
+    questions: [
+      "What makes this song 'new' (v. 1), and why does God call for new songs?",
+      "How does the declaration that other gods are 'idols' (v. 5) challenge modern forms of idolatry?",
+      "Why does the psalm call on creation itself to rejoice (vv. 11-12)?",
+      "What does it mean that God comes to 'judge the earth' and why is this presented as good news?",
+      "How does this psalm expand worship from a personal or national act to a global, cosmic event?",
+    ],
+    christConnection:
+      "The 'new song' anticipates the gospel — the good news proclaimed to all nations. Christ is the King who came and is coming again to judge the earth with righteousness. At His second coming, creation itself will be liberated from its bondage to decay (Romans 8:21). He is the glory to be declared among the nations and the salvation to be shown forth day by day.",
+    keyVerse: {
+      reference: "Psalm 96:3",
+      text: "Declare his glory among the heathen, his wonders among all people.",
+    },
+  },
+
+  "psalms/97": {
+    overview:
+      "Psalm 97 proclaims the LORD's reign with majestic imagery of clouds, darkness, fire, and lightning. The LORD reigns and the earth rejoices. Clouds and darkness surround Him, and righteousness and judgment are the foundation of His throne. Fire goes before Him and burns up His enemies. His lightnings enlighten the world, the earth trembles, and the mountains melt like wax. The heavens declare His righteousness and all the people see His glory. Those who worship graven images are confounded. Zion is glad because of God's judgments. Light is sown for the righteous and gladness for the upright in heart.",
+    themes: [
+      {
+        title: "The Awesome Majesty of God's Reign",
+        desc: "God's reign is accompanied by terrifying natural phenomena — fire, lightning, trembling earth — revealing that His kingship is mighty and unapproachable.",
+      },
+      {
+        title: "The Destruction of Idolatry",
+        desc: "All who worship images are put to shame — the gods themselves are commanded to worship the LORD, exposing every idol as inferior and false.",
+      },
+      {
+        title: "Light Sown for the Righteous",
+        desc: "Though the present may be dark, light is sown like seed for the righteous — joy will spring up in its season for those who are upright in heart.",
+      },
+    ],
+    questions: [
+      "What does it mean that 'clouds and darkness are round about him' yet 'righteousness and judgment are the habitation of his throne' (v. 2)?",
+      "How does the psalm's imagery of fire and melting mountains communicate God's power?",
+      "What does 'Light is sown for the righteous' (v. 11) teach about seasons of darkness?",
+      "Why does the psalm command God's people to 'hate evil' (v. 10)?",
+      "How does the rejoicing of Zion at God's judgments (v. 8) differ from how the world views divine judgment?",
+    ],
+    christConnection:
+      "Christ came in clouds of glory at His ascension and will return the same way. He is the light sown for the righteous that sprung up in resurrection glory. At the transfiguration, His face shone and His garments became white as light — a foretaste of the glory this psalm proclaims. He is the righteous King whose throne is founded on justice.",
+    keyVerse: {
+      reference: "Psalm 97:11",
+      text: "Light is sown for the righteous, and gladness for the upright in heart.",
+    },
+  },
+
+  "psalms/98": {
+    overview:
+      "Psalm 98 calls for a new song to the LORD because He has done marvelous things. His right hand and holy arm have gotten Him the victory. He has made known His salvation and revealed His righteousness in the sight of the heathen. He has remembered His mercy and truth toward the house of Israel, and all the ends of the earth have seen the salvation of our God. The psalm summons instruments — harps, trumpets, cornets — and all of creation to make a joyful noise before the LORD the King, for He comes to judge the earth with righteousness.",
+    themes: [
+      {
+        title: "God's Marvelous Salvation",
+        desc: "God has won the victory by His own right hand — salvation is entirely His work, not human achievement, and it is displayed before the watching world.",
+      },
+      {
+        title: "Salvation Revealed to All Nations",
+        desc: "God's salvation is not hidden — it is made known before the heathen, and all the ends of the earth have seen it, fulfilling His covenant promises.",
+      },
+      {
+        title: "All Creation Worships",
+        desc: "Rivers clap their hands and hills are joyful together — the whole created order joins in worship of the coming King.",
+      },
+    ],
+    questions: [
+      "What 'marvelous things' has the LORD done (v. 1), and how does His 'right hand' accomplish salvation?",
+      "How has God 'remembered his mercy and his truth toward the house of Israel' (v. 3)?",
+      "Why is music so prominent in this psalm's call to worship (vv. 4-6)?",
+      "What does it mean that 'all the ends of the earth have seen the salvation of our God' (v. 3)?",
+      "How does the image of creation worshipping (vv. 7-8) expand our understanding of praise?",
+    ],
+    christConnection:
+      "Simeon, holding the infant Jesus in the temple, echoed this psalm when he said he had seen God's salvation 'which thou hast prepared before the face of all people' (Luke 2:30-31). Christ is the marvelous thing God has done — the victory won by His right hand. His salvation has gone to the ends of the earth, and at His return all creation will rejoice.",
+    keyVerse: {
+      reference: "Psalm 98:1",
+      text: "O sing unto the LORD a new song; for he hath done marvellous things: his right hand, and his holy arm, hath gotten him the victory.",
+    },
+  },
+
+  "psalms/99": {
+    overview:
+      "Psalm 99 celebrates the LORD who reigns from Zion as holy, just, and accessible. The LORD reigns and the people tremble; He sits between the cherubims and the earth is moved. He is great in Zion and high above all people. The psalm calls for praise of His great and terrible name, for it is holy. The King loves justice and establishes equity. Moses, Aaron, and Samuel called upon the LORD and He answered them, speaking from the cloudy pillar. He was a God who forgave them yet took vengeance on their wrongdoing. The refrain 'he is holy' echoes three times.",
+    themes: [
+      {
+        title: "The Holiness of God",
+        desc: "Three times the psalm declares God's holiness — He is set apart, pure, and awesome, demanding reverence from all who approach Him.",
+      },
+      {
+        title: "Justice and Equity",
+        desc: "God's reign is characterized by perfect justice — He loves what is right and establishes equity among His people.",
+      },
+      {
+        title: "A God Who Answers and Forgives",
+        desc: "Despite His terrifying holiness, God answers those who call upon Him and forgives their sin — He is both just and merciful.",
+      },
+    ],
+    questions: [
+      "What does the threefold declaration of God's holiness (vv. 3, 5, 9) communicate?",
+      "How does the psalm hold together God's holiness and His willingness to answer prayer (v. 6)?",
+      "What does it mean that God 'forgavest them, though thou tookest vengeance of their inventions' (v. 8)?",
+      "Why are Moses, Aaron, and Samuel highlighted as examples of those who called upon God?",
+      "How should the reality of God's holiness shape our worship and prayer life?",
+    ],
+    christConnection:
+      "Jesus is the Holy One of Israel who sits enthroned yet draws near to sinners. In Him, God's holiness and mercy are perfectly united — He forgives sin without compromising justice. Christ is the mediator greater than Moses, Aaron, and Samuel — the one through whom we approach the holy God with boldness and confidence.",
+    keyVerse: {
+      reference: "Psalm 99:9",
+      text: "Exalt the LORD our God, and worship at his holy hill; for the LORD our God is holy.",
+    },
+  },
+
+  "psalms/100": {
+    overview:
+      "Psalm 100 is one of the most beloved and well-known psalms — a brief, exuberant call to worship. All the earth is summoned to make a joyful noise unto the LORD, to serve Him with gladness, and to come before His presence with singing. The psalm declares the foundational truth: 'Know ye that the LORD he is God: it is he that hath made us, and not we ourselves; we are his people, and the sheep of his pasture.' The people are to enter His gates with thanksgiving and His courts with praise. The LORD is good, His mercy is everlasting, and His truth endures to all generations.",
+    themes: [
+      {
+        title: "Universal Call to Joyful Worship",
+        desc: "All lands and peoples are summoned to worship God with gladness, singing, and thanksgiving — worship is meant to be joyful, not joyless.",
+      },
+      {
+        title: "We Are His — He Made Us",
+        desc: "The psalm declares that we belong to God as Creator and Shepherd — we did not make ourselves, and we are the sheep of His pasture.",
+      },
+      {
+        title: "God's Everlasting Goodness and Faithfulness",
+        desc: "The LORD is good, His mercy is everlasting, and His truth endures through every generation — this is the unchanging foundation of praise.",
+      },
+    ],
+    questions: [
+      "What does it mean to 'make a joyful noise' (v. 1) and to 'serve the LORD with gladness' (v. 2)?",
+      "How does the declaration 'it is he that hath made us, and not we ourselves' (v. 3) challenge human pride and autonomy?",
+      "What is the significance of entering God's gates with thanksgiving and courts with praise (v. 4)?",
+      "How does knowing that 'the LORD is good' (v. 5) serve as the basis for all worship?",
+      "Why is this short psalm one of the most enduring and universal expressions of praise in all of Scripture?",
+    ],
+    christConnection:
+      "Jesus is the Good Shepherd who knows His sheep and lays down His life for them. Through Him, all nations are invited to enter God's presence with joy. He is the gate through which we enter the Father's courts. The everlasting mercy and enduring truth celebrated in this psalm are embodied in Christ, who is the same yesterday, today, and forever.",
+    keyVerse: {
+      reference: "Psalm 100:3",
+      text: "Know ye that the LORD he is God: it is he that hath made us, and not we ourselves; we are his people, and the sheep of his pasture.",
+    },
+  },
+
+  "psalms/101": {
+    overview:
+      "Psalm 101 is a psalm of David declaring his personal commitment to integrity and righteousness, likely written as a royal pledge at the beginning of his reign. David vows to sing of mercy and judgment, to behave wisely in a perfect way, and to walk within his house with a perfect heart. He will set no wicked thing before his eyes, hate the work of those who turn aside, and cut off slanderers, the proud, and deceitful workers. He will favor the faithful and employ those who walk in a perfect way. Every morning he will destroy the wicked from the land.",
+    themes: [
+      {
+        title: "Personal Integrity in Leadership",
+        desc: "David sets a standard for his own conduct first — walking in integrity within his own house before governing others.",
+      },
+      {
+        title: "Guarding What Enters the Heart",
+        desc: "The commitment to 'set no wicked thing before mine eyes' recognizes that what we gaze upon shapes our character and decisions.",
+      },
+      {
+        title: "Surrounding Yourself with the Faithful",
+        desc: "David deliberately chooses faithful companions and servants while cutting off the deceitful — leadership requires intentional relationships.",
+      },
+    ],
+    questions: [
+      "What does David mean by 'I will walk within my house with a perfect heart' (v. 2)?",
+      "How does the vow to 'set no wicked thing before mine eyes' (v. 3) apply in our media-saturated age?",
+      "Why does David start with personal integrity before addressing public justice?",
+      "What does this psalm teach about the kind of people leaders should surround themselves with?",
+      "How realistic is this standard, and what does it reveal about David's dependence on God?",
+    ],
+    christConnection:
+      "Jesus is the King who perfectly fulfilled every vow of Psalm 101. He walked in complete integrity, set nothing wicked before His eyes, surrounded Himself with the faithful, and exposed the hypocritical. He is the ruler whose kingdom is founded on righteousness and who will ultimately purge all evil from the land.",
+    keyVerse: {
+      reference: "Psalm 101:2",
+      text: "I will behave myself wisely in a perfect way. O when wilt thou come unto me? I will walk within my house with a perfect heart.",
+    },
+  },
+
+  "psalms/102": {
+    overview:
+      "Psalm 102 is titled 'A Prayer of the afflicted, when he is overwhelmed.' The psalmist pours out his grief — his days consume like smoke, his bones are burned, his heart is withered like grass, and he is like a pelican of the wilderness. He eats ashes like bread and mingles his drink with weeping. He feels cast aside by God. Yet he turns to hope: the LORD shall endure forever and will arise to have mercy upon Zion when the set time has come. God will regard the prayer of the destitute. The psalm declares that though the heavens and earth shall perish, God remains the same and His years have no end.",
+    themes: [
+      {
+        title: "The Overwhelmed Soul Before God",
+        desc: "The psalmist holds nothing back — his physical, emotional, and spiritual anguish are poured out in vivid imagery of isolation and decay.",
+      },
+      {
+        title: "God's Eternal Permanence",
+        desc: "Though the psalmist wastes away and even creation will perish, God remains the same — His years have no end, providing ultimate security.",
+      },
+      {
+        title: "Hope for Zion's Restoration",
+        desc: "Even in personal despair, the psalmist trusts that God will arise and have mercy on Zion at the appointed time — individual suffering does not cancel God's larger purposes.",
+      },
+    ],
+    questions: [
+      "What do the vivid images of suffering (smoke, withered grass, pelican in the wilderness) communicate about the psalmist's experience?",
+      "How does the psalmist shift from personal lament to hope for Zion's restoration (vv. 12-22)?",
+      "Hebrews 1:10-12 applies verses 25-27 to Christ. What does this reveal about who is speaking in this psalm?",
+      "What comfort does the statement 'thou art the same, and thy years shall have no end' (v. 27) provide?",
+      "How does this psalm model holding together personal suffering and trust in God's eternal purposes?",
+    ],
+    christConnection:
+      "Hebrews 1:10-12 directly attributes the creation language of this psalm to Christ — He laid the foundation of the earth, and though they perish, He remains the same. Jesus is the unchanging God who entered the suffering described in this psalm. He was afflicted, overwhelmed, and forsaken on the cross, yet He endures forever and His kingdom shall never end.",
+    keyVerse: {
+      reference: "Psalm 102:27",
+      text: "But thou art the same, and thy years shall have no end.",
+    },
+  },
+
+  "psalms/103": {
+    overview:
+      "Psalm 103 is David's magnificent hymn of praise calling his soul to bless the LORD and forget not all His benefits. God forgives all iniquities, heals all diseases, redeems life from destruction, and crowns with lovingkindness and tender mercies. He satisfies the mouth with good things so that youth is renewed like the eagle's. The LORD is merciful and gracious, slow to anger and plenteous in mercy. He has not dealt with us after our sins. As far as the east is from the west, so far has He removed our transgressions. As a father pities his children, so the LORD pities those who fear Him. He remembers that we are dust. Man's days are as grass, but God's mercy is from everlasting to everlasting.",
+    themes: [
+      {
+        title: "Comprehensive Forgiveness and Healing",
+        desc: "God's benefits are total — He forgives all iniquity, heals all diseases, redeems from destruction, and satisfies with good things. Nothing is left undone.",
+      },
+      {
+        title: "The Immeasurable Distance of Removed Sin",
+        desc: "As far as the east is from the west — an infinite distance — so far has God removed the guilt of sin from those who fear Him.",
+      },
+      {
+        title: "God's Fatherly Compassion",
+        desc: "God's mercy is not cold or distant but tenderly fatherly — He pities His children because He remembers they are dust, fragile and fleeting.",
+      },
+    ],
+    questions: [
+      "Why does David address his own soul ('Bless the LORD, O my soul') rather than just praising God directly?",
+      "What does it mean that God removes our transgressions 'as far as the east is from the west' (v. 12)?",
+      "How does the fatherly compassion of God (v. 13) deepen our understanding of His mercy?",
+      "What does it mean that God 'remembereth that we are dust' (v. 14)?",
+      "How does this psalm serve as a corrective to the tendency to forget God's benefits (v. 2)?",
+    ],
+    christConnection:
+      "Every benefit listed in this psalm is secured through Christ. He is the one through whom all iniquity is forgiven, all disease will ultimately be healed, and life is redeemed from destruction. The infinite removal of sin that David celebrated is accomplished at the cross. Jesus reveals God as Father and shows the tender compassion that pities His children.",
+    keyVerse: {
+      reference: "Psalm 103:12",
+      text: "As far as the east is from the west, so far hath he removed our transgressions from us.",
+    },
+  },
+
+  "psalms/104": {
+    overview:
+      "Psalm 104 is a grand creation hymn celebrating God's wisdom and power in sustaining all life. The psalmist praises God who covers Himself with light, stretches out the heavens like a curtain, and makes the clouds His chariot. He laid the foundations of the earth, set boundaries for the waters, and causes grass to grow for cattle and food for man. He made the moon for seasons and the sun knows its going down. The sea is full of His creatures, and all living things look to Him for food. When He opens His hand, they are filled with good; when He hides His face, they are troubled. The psalm celebrates the sustaining providence of God over every creature.",
+    themes: [
+      {
+        title: "God's Glory in Creation",
+        desc: "Creation is a display of God's glory — from the heavens stretched like a curtain to the creatures of the deep, everything declares His wisdom and power.",
+      },
+      {
+        title: "God's Sustaining Providence",
+        desc: "All living things depend moment by moment on God for breath and food — He opens His hand and they are filled; He hides His face and they perish.",
+      },
+      {
+        title: "Order and Wisdom in the Natural World",
+        desc: "The psalm marvels at the intricate design of creation — water boundaries, seasons, day and night, food chains — all reflecting the manifold wisdom of God.",
+      },
+    ],
+    questions: [
+      "How does this psalm's view of creation compare with a materialistic or impersonal view of nature?",
+      "What does it mean that all creatures 'wait upon thee; that thou mayest give them their meat in due season' (v. 27)?",
+      "How does the statement 'thou sendest forth thy spirit, they are created' (v. 30) connect creation to the Holy Spirit?",
+      "What does the detailed attention to animals, plants, and natural processes reveal about God's character?",
+      "How should this psalm shape our attitude toward the natural world and our responsibility within it?",
+    ],
+    christConnection:
+      "Colossians 1:16-17 declares that all things were created by Christ and for Christ, and in Him all things hold together. The sustaining power this psalm attributes to God is exercised through the Son. Jesus demonstrated His authority over creation — calming storms, multiplying bread, walking on water — revealing Himself as the Creator who entered His creation.",
+    keyVerse: {
+      reference: "Psalm 104:24",
+      text: "O LORD, how manifold are thy works! in wisdom hast thou made them all: the earth is full of thy riches.",
+    },
+  },
+
+  "psalms/105": {
+    overview:
+      "Psalm 105 is a historical psalm calling God's people to give thanks and remember His wonderful works. It traces God's covenant with Abraham, Isaac, and Jacob, and His faithfulness in fulfilling those promises. The psalm recounts Joseph's journey to Egypt, the sending of Moses and Aaron, the ten plagues against Egypt, the exodus, God's provision of cloud, fire, quail, and water in the wilderness, and the gift of the promised land. The purpose of all these mighty acts was that Israel might observe God's statutes and keep His laws.",
+    themes: [
+      {
+        title: "Remembering God's Covenant Faithfulness",
+        desc: "The psalm rehearses God's covenant from Abraham through the promised land, showing that God remembers His word for a thousand generations.",
+      },
+      {
+        title: "God's Sovereign Hand in History",
+        desc: "From Joseph's slavery to the plagues of Egypt, God orchestrated every event to fulfill His purposes — nothing in history is outside His control.",
+      },
+      {
+        title: "Salvation Leading to Obedience",
+        desc: "The psalm concludes by connecting God's saving acts to the call for obedience — He saved them so they might keep His statutes.",
+      },
+    ],
+    questions: [
+      "Why does the psalm emphasize remembering and seeking God's face (vv. 1-5)?",
+      "How does the story of Joseph (vv. 17-22) illustrate God's sovereign use of suffering for greater purposes?",
+      "What does it mean that God 'remembered his holy promise' to Abraham (v. 42)?",
+      "Why does the psalm conclude with a call to obedience (v. 45)?",
+      "How does rehearsing God's past faithfulness strengthen present faith?",
+    ],
+    christConnection:
+      "Every act of deliverance in this psalm points to the greater deliverance in Christ. He is the true seed of Abraham through whom all nations are blessed, the greater Moses who leads God's people out of bondage, and the bread from heaven who sustains in the wilderness. The promised land points to the eternal inheritance secured in Christ.",
+    keyVerse: {
+      reference: "Psalm 105:8",
+      text: "He hath remembered his covenant for ever, the word which he commanded to a thousand generations.",
+    },
+  },
+
+  "psalms/106": {
+    overview:
+      "Psalm 106 is the companion to Psalm 105, but where 105 celebrated God's faithfulness, 106 confesses Israel's persistent unfaithfulness. It opens with praise and a cry for mercy, then recounts Israel's sins: they forgot God's works at the Red Sea, lusted in the wilderness, envied Moses, made the golden calf, despised the pleasant land, murmured in their tents, joined themselves to Baal-peor, and provoked God at the waters of strife. Despite all this, God remembered His covenant and relented according to His mercies. The psalm closes with a plea for God to gather His scattered people.",
+    themes: [
+      {
+        title: "A Litany of Unfaithfulness",
+        desc: "The psalm catalogs Israel's repeated sins — ingratitude, idolatry, rebellion, and forgetfulness — painting an unflinching portrait of human depravity.",
+      },
+      {
+        title: "God's Relentless Mercy",
+        desc: "Despite Israel's chronic rebellion, God repeatedly relented, remembered His covenant, and showed compassion — His mercy outlasts human sin.",
+      },
+      {
+        title: "Corporate Confession of Sin",
+        desc: "The psalmist identifies with the sins of the nation, saying 'We have sinned with our fathers' — true repentance acknowledges shared guilt.",
+      },
+    ],
+    questions: [
+      "Why does the psalmist confess 'we have sinned with our fathers' (v. 6)? What does corporate confession of sin look like?",
+      "What patterns of rebellion do you see repeated in Israel's history as told in this psalm?",
+      "How does God's response to Israel's sin — repeatedly showing mercy — reveal His character?",
+      "What does it mean that they 'soon forgat his works' (v. 13)? How do we guard against spiritual amnesia?",
+      "How does this psalm serve as a mirror for the church today?",
+    ],
+    christConnection:
+      "Where Israel failed at every turn, Christ succeeded perfectly. He faced every temptation Israel faced — hunger, testing God, idolatry — and overcame them all. The mercy God showed despite Israel's sin points to the ultimate mercy shown at the cross, where God dealt with the full weight of human rebellion through His Son.",
+    keyVerse: {
+      reference: "Psalm 106:1",
+      text: "Praise ye the LORD. O give thanks unto the LORD; for he is good: for his mercy endureth for ever.",
+    },
+  },
+
+  "psalms/107": {
+    overview:
+      "Psalm 107 opens Book V of the Psalter with a call to give thanks to the LORD whose mercy endures forever. It describes four groups of people in desperate situations: those wandering lost in the wilderness, those sitting in darkness and prison, those suffering from foolish rebellion, and those tossed on stormy seas. In each case, 'they cried unto the LORD in their trouble, and he delivered them out of their distresses.' The psalm celebrates God as the one who satisfies the longing soul, breaks chains, heals, and calms storms. It concludes by praising God who turns wilderness into pools of water and blesses the hungry with fruitfulness.",
+    themes: [
+      {
+        title: "God Delivers Those Who Cry Out",
+        desc: "Four times the pattern repeats — distress, crying out, deliverance — showing that God consistently rescues those who call upon Him in their trouble.",
+      },
+      {
+        title: "Human Foolishness and Divine Rescue",
+        desc: "Some suffering comes from foolish choices and rebellion, yet God still delivers when people cry out — His mercy extends even to the self-afflicted.",
+      },
+      {
+        title: "The Steadfast Love of the LORD",
+        desc: "The refrain 'Oh that men would praise the LORD for his goodness' reveals that the proper response to deliverance is wonder and thanksgiving.",
+      },
+    ],
+    questions: [
+      "What do the four scenarios (wilderness, prison, sickness, storm) have in common, and what do they represent?",
+      "Why does the psalm emphasize that 'they cried unto the LORD' as the turning point in each case?",
+      "How does the refrain 'Oh that men would praise the LORD for his goodness' (vv. 8, 15, 21, 31) challenge us?",
+      "What does it mean that God 'satisfieth the longing soul, and filleth the hungry soul with goodness' (v. 9)?",
+      "How does this psalm encourage those who are currently in a desperate situation?",
+    ],
+    christConnection:
+      "Jesus fulfilled every deliverance described in this psalm. He is the way for the lost, the light for those in darkness, the healer of the sick, and the calmer of storms. He literally stilled the sea and freed captives. His mercy endures forever, and He satisfies the longing soul — 'I am the bread of life: he that cometh to me shall never hunger' (John 6:35).",
+    keyVerse: {
+      reference: "Psalm 107:1",
+      text: "O give thanks unto the LORD, for he is good: for his mercy endureth for ever.",
+    },
+  },
+
+  "psalms/108": {
+    overview:
+      "Psalm 108 is a psalm of David combining portions of Psalm 57 and Psalm 60 into a unified song of praise and confident prayer. David's heart is fixed and he will sing and give praise with his glory. He calls on the psaltery and harp to awake the dawn and vows to praise God among the people and nations. God's mercy is great above the heavens and His truth reaches to the clouds. David then asks God to be exalted and to deliver with His right hand. God has spoken in His holiness about dividing the land, and David asks who will bring him into the strong city if not God. He acknowledges that through God they shall do valiantly.",
+    themes: [
+      {
+        title: "A Fixed Heart in Praise",
+        desc: "David's heart is steadfast and resolved — his praise is not casual or wavering but arises from deep-seated trust and determination.",
+      },
+      {
+        title: "God's Mercy Above the Heavens",
+        desc: "God's lovingkindness transcends the heavens and His truth reaches the clouds — His character is the ground of David's confidence.",
+      },
+      {
+        title: "Victory Through God Alone",
+        desc: "David acknowledges that human help is vain — only through God can they do valiantly and gain victory over their enemies.",
+      },
+    ],
+    questions: [
+      "What does it mean to have a 'fixed' or steadfast heart (v. 1)?",
+      "Why does David combine portions of two earlier psalms into this new composition?",
+      "How does David's declaration that God's mercy is 'above the heavens' (v. 4) shape his prayers?",
+      "What does the confession 'vain is the help of man' (v. 12) teach about misplaced trust?",
+      "How does this psalm demonstrate the relationship between worship and warfare?",
+    ],
+    christConnection:
+      "Christ is the one with a perfectly fixed heart who did valiantly against sin and death. He demonstrated that victory comes not through human power but through God alone. His mercy, which is above the heavens, was demonstrated most fully at the cross where divine love reached down to the lowest depth of human need.",
+    keyVerse: {
+      reference: "Psalm 108:13",
+      text: "Through God we shall do valiantly: for he it is that shall tread down our enemies.",
+    },
+  },
+
+  "psalms/109": {
+    overview:
+      "Psalm 109 is one of the strongest imprecatory psalms, where David calls down God's judgment on a treacherous enemy who has repaid love with hatred and good with evil. The enemy has spoken against David with lying tongues and fought against him without cause. David calls for his accuser to be condemned, his days to be few, his office taken by another, and his children to be fatherless. Yet David also acknowledges his own poverty and need, asking God to help and save him. He trusts that God will stand at the right hand of the poor to save him from those who condemn his soul.",
+    themes: [
+      {
+        title: "Betrayal and Unjust Accusation",
+        desc: "David's pain stems from being repaid evil for good — his love was met with hatred and his kindness with lies and false accusations.",
+      },
+      {
+        title: "Imprecatory Prayer for Justice",
+        desc: "The fierce curses against the enemy express a desire for God's justice to fall on the unrepentant wicked — entrusting vengeance to God rather than taking it personally.",
+      },
+      {
+        title: "God as Defender of the Poor",
+        desc: "Amid the curses, David's deepest trust is that God stands at the right hand of the needy to deliver them from unjust accusers.",
+      },
+    ],
+    questions: [
+      "How should Christians understand and apply the imprecatory language of this psalm?",
+      "What does it mean that David's love was met with hatred (v. 5)?",
+      "Acts 1:20 applies verse 8 to Judas Iscariot. How does this shape our reading of the psalm?",
+      "Why does David turn from cursing his enemies to declaring his own need (vv. 21-25)?",
+      "What does the promise that God 'shall stand at the right hand of the poor' (v. 31) mean for the oppressed?",
+    ],
+    christConnection:
+      "Peter applied this psalm to Judas Iscariot in Acts 1:20, connecting David's experience of betrayal to Christ's. Jesus was the one who loved perfectly yet was rewarded with betrayal, false accusation, and hatred. He is also the one who stands at the right hand of the Father, interceding for the poor and needy.",
+    keyVerse: {
+      reference: "Psalm 109:31",
+      text: "For he shall stand at the right hand of the poor, to save him from those that condemn his soul.",
+    },
+  },
+
+  "psalms/110": {
+    overview:
+      "Psalm 110 is the most frequently quoted psalm in the New Testament and one of the most important messianic prophecies in all of Scripture. David records the LORD's declaration to his Lord: 'Sit thou at my right hand, until I make thine enemies thy footstool.' The Messiah will rule from Zion in the midst of His enemies, and His people will volunteer freely in the day of His power. The LORD has sworn and will not repent: 'Thou art a priest for ever after the order of Melchizedek.' The Lord at God's right hand will strike through kings in the day of His wrath and judge among the nations.",
+    themes: [
+      {
+        title: "The Messiah Enthroned at God's Right Hand",
+        desc: "David's Lord is invited to sit at the place of supreme honor and authority — sharing God's throne until all enemies are subdued.",
+      },
+      {
+        title: "A Priest-King After Melchizedek's Order",
+        desc: "The Messiah is uniquely both king and priest — not from Aaron's temporary priesthood but from the eternal order of Melchizedek, combining royalty and intercession.",
+      },
+      {
+        title: "Willing Volunteers in the Day of Power",
+        desc: "The Messiah's people will offer themselves willingly in the beauty of holiness — His kingdom is built not by coercion but by the joyful surrender of transformed hearts.",
+      },
+    ],
+    questions: [
+      "Jesus used this psalm to challenge the Pharisees about the Messiah's identity (Matthew 22:44). What was His point?",
+      "What does it mean for the Messiah to be a priest 'after the order of Melchizedek' (v. 4)? How does Hebrews 7 develop this?",
+      "How does the image of sitting at God's right hand communicate the Messiah's authority?",
+      "What does it mean that His people will be 'willing in the day of thy power' (v. 3)?",
+      "How does this psalm unite the offices of prophet, priest, and king in one person?",
+    ],
+    christConnection:
+      "This psalm is explicitly and repeatedly applied to Jesus in the New Testament. He is the Lord who sat down at the Father's right hand after His ascension (Hebrews 1:13). He is the eternal priest after the order of Melchizedek (Hebrews 5-7). He is the King whose enemies will be made His footstool. No other person in history fulfills David's vision of one who is both David's son and David's Lord.",
+    keyVerse: {
+      reference: "Psalm 110:4",
+      text: "The LORD hath sworn, and will not repent, Thou art a priest for ever after the order of Melchizedek.",
+    },
+  },
+
+  "psalms/111": {
+    overview:
+      "Psalm 111 is an acrostic psalm of praise, with each half-verse beginning with a successive letter of the Hebrew alphabet. The psalmist praises the LORD with his whole heart and declares that His works are great, sought out by all who delight in them. God's work is honourable and glorious, His righteousness endures forever, and He has made His wonderful works to be remembered. He is gracious and full of compassion, providing food for those who fear Him and remembering His covenant forever. He sent redemption to His people and His name is holy and reverend. The fear of the LORD is the beginning of wisdom.",
+    themes: [
+      {
+        title: "The Greatness of God's Works",
+        desc: "God's works are not merely powerful but worthy of study and meditation — they reveal His honourable, glorious, and enduring character.",
+      },
+      {
+        title: "God's Covenant Faithfulness",
+        desc: "God remembers His covenant forever — He sent redemption to His people and commanded His covenant to stand for all time.",
+      },
+      {
+        title: "The Fear of the LORD as Wisdom's Beginning",
+        desc: "True wisdom begins with reverential awe before God — those who practice His commandments have good understanding.",
+      },
+    ],
+    questions: [
+      "What does it mean to praise the LORD 'with my whole heart' (v. 1)?",
+      "How should we 'seek out' God's works (v. 2)?",
+      "What does it mean that God 'hath made his wonderful works to be remembered' (v. 4)?",
+      "How is the fear of the LORD the 'beginning of wisdom' (v. 10)?",
+      "How does this psalm connect God's character to His actions?",
+    ],
+    christConnection:
+      "Christ is the ultimate demonstration of God's honourable and glorious work. He is the redemption God sent to His people and the full revelation of God's covenant faithfulness. In Christ, the fear of the Lord and wisdom are united — He is the wisdom of God (1 Corinthians 1:24) and the one in whom all the treasures of wisdom are hidden.",
+    keyVerse: {
+      reference: "Psalm 111:10",
+      text: "The fear of the LORD is the beginning of wisdom: a good understanding have all they that do his commandments: his praise endureth for ever.",
+    },
+  },
+
+  "psalms/112": {
+    overview:
+      "Psalm 112 is the companion to Psalm 111 — also an acrostic — but shifts focus from God's character to the character of the person who fears the LORD. The man who fears God and delights in His commandments is blessed: his seed shall be mighty, wealth and riches shall be in his house, and his righteousness endures forever. He is gracious, full of compassion, and righteous. He is not afraid of evil tidings because his heart is fixed, trusting in the LORD. He has dispersed and given to the poor, and his horn shall be exalted. The wicked see it and are grieved.",
+    themes: [
+      {
+        title: "Blessedness Through the Fear of God",
+        desc: "The God-fearing person is blessed in family, resources, reputation, and righteousness — godliness is its own reward and yields lasting fruit.",
+      },
+      {
+        title: "Generosity and Compassion",
+        desc: "The righteous person is characterized by generosity — gracious, lending, giving to the poor — mirroring the character of the God described in Psalm 111.",
+      },
+      {
+        title: "Steadfast Heart in Trouble",
+        desc: "The righteous are not afraid of evil tidings because their heart is established and trusting in the LORD — security comes from faith, not circumstances.",
+      },
+    ],
+    questions: [
+      "How does Psalm 112 mirror Psalm 111 — what attributes of God are reflected in the godly person?",
+      "What does it mean that the righteous person 'shall not be afraid of evil tidings' (v. 7)?",
+      "How does generosity to the poor (v. 9) relate to fearing God?",
+      "What does 'his heart is fixed, trusting in the LORD' (v. 7) look like practically?",
+      "How does this psalm challenge the notion that godliness and prosperity are unrelated?",
+    ],
+    christConnection:
+      "Jesus perfectly embodies the righteous man described here — gracious, compassionate, generous, fearless before evil tidings, and with a heart perfectly fixed on the Father. Paul quotes verse 9 in 2 Corinthians 9:9 to describe the generous, cheerful giving that characterizes those who follow Christ. In Him, the blessedness of the God-fearer is fully realized.",
+    keyVerse: {
+      reference: "Psalm 112:7",
+      text: "He shall not be afraid of evil tidings: his heart is fixed, trusting in the LORD.",
+    },
+  },
+
+  "psalms/113": {
+    overview:
+      "Psalm 113 begins the Egyptian Hallel (Psalms 113-118), sung at Passover and other festivals. It opens with a triple call to praise the name of the LORD — now and forevermore, from the rising of the sun to its going down. The LORD is high above all nations, His glory above the heavens. Yet this transcendent God humbles Himself to behold the things in heaven and earth. He raises the poor out of the dust, lifts the needy from the dunghill, and sets them among princes. He makes the barren woman to be a joyful mother of children. Praise ye the LORD.",
+    themes: [
+      {
+        title: "Universal and Eternal Praise",
+        desc: "God's name is to be praised in every place and every time — from sunrise to sunset, now and forevermore.",
+      },
+      {
+        title: "God's Condescending Grace",
+        desc: "The LORD is so high that He must humble Himself even to look at heaven — yet He stoops to lift the poorest and lowest to places of honor.",
+      },
+      {
+        title: "Reversal of Fortune",
+        desc: "God specializes in reversals — raising beggars to sit with princes and giving barren women the joy of children.",
+      },
+    ],
+    questions: [
+      "What does it mean that God 'humbleth himself to behold the things that are in heaven, and in the earth' (v. 6)?",
+      "How does God's raising of the poor from the dust (v. 7) reflect His character?",
+      "Why is this psalm associated with Passover? How does it connect to the exodus?",
+      "How does the image of the barren woman becoming a joyful mother (v. 9) illustrate God's transforming power?",
+      "How does this psalm's vision of God challenge both distant views of God and overly casual ones?",
+    ],
+    christConnection:
+      "Christ is the supreme expression of God humbling Himself — Philippians 2:5-8 describes Jesus, who was equal with God, humbling Himself to become a servant and die on a cross. He raised the spiritually poor from the dust and seated them in heavenly places. Mary's Magnificat (Luke 1:46-55) echoes this psalm, celebrating how God lifts the humble.",
+    keyVerse: {
+      reference: "Psalm 113:5-6",
+      text: "Who is like unto the LORD our God, who dwelleth on high, Who humbleth himself to behold the things that are in heaven, and in the earth!",
+    },
+  },
+
+  "psalms/114": {
+    overview:
+      "Psalm 114 is a brief, vivid retelling of the exodus using dramatic personification of nature. When Israel went out of Egypt, the sea saw it and fled; Jordan was driven back. The mountains skipped like rams and the little hills like lambs. The psalmist asks, 'What ailed thee, O thou sea, that thou fleddest?' and answers: 'Tremble, thou earth, at the presence of the Lord, at the presence of the God of Jacob, which turned the rock into a standing water, the flint into a fountain of waters.'",
+    themes: [
+      {
+        title: "Creation Trembles Before Its Creator",
+        desc: "The sea, river, mountains, and hills respond with awe to God's presence — nature itself recognizes and flees before its Maker.",
+      },
+      {
+        title: "The Power of God's Presence",
+        desc: "The exodus miracles were not merely natural phenomena but the direct result of God's personal presence — everything changes when God shows up.",
+      },
+      {
+        title: "God Transforms the Impossible",
+        desc: "The God who turned rock into water and flint into fountains can transform any impossible situation into a source of life and provision.",
+      },
+    ],
+    questions: [
+      "What effect does the personification of the sea, Jordan, and mountains create in the psalm?",
+      "What does the question 'What ailed thee, O thou sea?' (v. 5) accomplish rhetorically?",
+      "How does the psalm connect the exodus to God's ongoing power in the world?",
+      "What does it mean for the earth to 'tremble at the presence of the Lord' (v. 7)?",
+      "How can remembering God's past mighty acts (like the exodus) strengthen our faith in present difficulties?",
+    ],
+    christConnection:
+      "Christ is the presence of God before whom all creation trembles. At His death, the earth quaked and rocks split. He is the rock struck in the wilderness from whom living water flows (1 Corinthians 10:4). Through His greater exodus — the cross and resurrection — He leads His people from bondage to freedom.",
+    keyVerse: {
+      reference: "Psalm 114:7-8",
+      text: "Tremble, thou earth, at the presence of the Lord, at the presence of the God of Jacob; Which turned the rock into a standing water, the flint into a fountain of waters.",
+    },
+  },
+
+  "psalms/115": {
+    overview:
+      "Psalm 115 contrasts the living God of Israel with the dead idols of the nations. The psalm begins with a plea that glory be given to God's name, not to Israel, for the sake of His mercy and truth. The nations ask 'Where is now their God?' but Israel's God is in the heavens and does whatever He pleases. The idols of the nations are silver and gold — they have mouths but speak not, eyes but see not, ears but hear not, and those who make them become like them. Israel is called to trust in the LORD, who is their help and shield. He will bless those who fear Him, both small and great.",
+    themes: [
+      {
+        title: "The Living God vs. Dead Idols",
+        desc: "The contrast between the sovereign God who does whatever He pleases and lifeless idols that cannot speak, see, or hear could not be sharper.",
+      },
+      {
+        title: "Becoming Like What We Worship",
+        desc: "Those who make and trust idols become like them — spiritually blind, deaf, and mute. We are shaped by what we worship.",
+      },
+      {
+        title: "Trust in the LORD as Help and Shield",
+        desc: "Three times Israel is called to trust in the LORD — He is the help and shield of all who fear Him, from the greatest to the smallest.",
+      },
+    ],
+    questions: [
+      "What does the opening prayer 'Not unto us, O LORD, not unto us, but unto thy name give glory' (v. 1) teach about the purpose of God's blessings?",
+      "How does the principle of becoming like what we worship (v. 8) apply to modern forms of idolatry?",
+      "What does it mean that God 'hath done whatsoever he hath pleased' (v. 3)?",
+      "Why does the psalm repeat the call to trust three times (vv. 9-11)?",
+      "How does this psalm challenge the believer to examine what they are truly trusting in?",
+    ],
+    christConnection:
+      "Christ is the image of the invisible God — the exact opposite of dead idols. He is the living one who speaks, sees, hears, and acts. Through Him, those who were dead in idolatry are made alive. He is the help and shield of His people, and through His name — not our own — God's glory is displayed among the nations.",
+    keyVerse: {
+      reference: "Psalm 115:1",
+      text: "Not unto us, O LORD, not unto us, but unto thy name give glory, for thy mercy, and for thy truth's sake.",
+    },
+  },
+
+  "psalms/116": {
+    overview:
+      "Psalm 116 is a deeply personal song of thanksgiving from one who has been delivered from the brink of death. The psalmist declares, 'I love the LORD, because he hath heard my voice and my supplications.' The sorrows of death compassed him and the pains of hell got hold of him, but he called upon the name of the LORD and was delivered. He asks, 'What shall I render unto the LORD for all his benefits toward me?' and answers by taking the cup of salvation, calling upon God's name, and paying his vows. He declares, 'Precious in the sight of the LORD is the death of his saints.'",
+    themes: [
+      {
+        title: "Love Born from Answered Prayer",
+        desc: "The psalmist's love for God is not abstract but deeply personal — rooted in the experience of crying out in distress and being heard and delivered.",
+      },
+      {
+        title: "Gratitude's Response",
+        desc: "The question 'What shall I render unto the LORD?' reveals that true gratitude seeks a way to respond — and the answer is worship, testimony, and faithfulness.",
+      },
+      {
+        title: "The Preciousness of Saints' Lives",
+        desc: "God does not view the death of His faithful ones lightly — their lives are precious in His sight, and He guards them with great care.",
+      },
+    ],
+    questions: [
+      "What does it mean to say 'I love the LORD, because he hath heard my voice' (v. 1)? Is love a proper response to answered prayer?",
+      "How does the psalmist answer his own question about what to render to the LORD (vv. 13-14)?",
+      "What does 'Precious in the sight of the LORD is the death of his saints' (v. 15) mean?",
+      "What is 'the cup of salvation' (v. 13)?",
+      "How does this psalm model a life of ongoing thanksgiving rather than a single moment of gratitude?",
+    ],
+    christConnection:
+      "Jesus took the cup of salvation at the Last Supper — the Passover meal during which this psalm would have been sung. He is the one who faced the sorrows of death and the pains of hell, yet was delivered through resurrection. His death was indeed precious in the Father's sight, and through it, He renders to God what we could never render ourselves.",
+    keyVerse: {
+      reference: "Psalm 116:15",
+      text: "Precious in the sight of the LORD is the death of his saints.",
+    },
+  },
+
+  "psalms/117": {
+    overview:
+      "Psalm 117 is the shortest chapter in the Bible — just two verses — yet it carries a universal message. It calls upon all nations and all people to praise the LORD, for His merciful kindness is great toward us and His truth endures forever. Despite its brevity, this psalm expresses the global reach of God's salvation and the inclusiveness of His praise.",
+    themes: [
+      {
+        title: "Universal Praise",
+        desc: "All nations and all peoples are called to praise the LORD — worship is not limited to Israel but extends to the entire human race.",
+      },
+      {
+        title: "Great Merciful Kindness",
+        desc: "God's mercy is not merely adequate but 'great' — overwhelming, abundant, and more than sufficient for all who receive it.",
+      },
+      {
+        title: "Enduring Truth",
+        desc: "God's truth stands forever — it is not subject to change, erosion, or cultural revision.",
+      },
+    ],
+    questions: [
+      "Why is the shortest chapter in the Bible a call for universal praise?",
+      "What does it mean that God's merciful kindness is 'great toward us' (v. 2)?",
+      "Paul quotes this psalm in Romans 15:11 as evidence that God always intended to include the Gentiles. How does this shape our understanding?",
+      "How do mercy and truth work together in this psalm?",
+      "What can we learn from the fact that God can say something so profound in so few words?",
+    ],
+    christConnection:
+      "Paul cites this psalm in Romans 15:11 as proof that the inclusion of Gentiles was always God's plan. Through Christ, the barrier between Jew and Gentile is broken down, and all nations are invited to praise the LORD. Jesus is the great mercy of God toward us and the truth that endures forever — He is full of grace and truth.",
+    keyVerse: {
+      reference: "Psalm 117:1-2",
+      text: "O praise the LORD, all ye nations: praise him, all ye people. For his merciful kindness is great toward us: and the truth of the LORD endureth for ever. Praise ye the LORD.",
+    },
+  },
+
+  "psalms/118": {
+    overview:
+      "Psalm 118 is the climactic conclusion of the Egyptian Hallel, likely the last psalm Jesus sang with His disciples at the Last Supper before going to the cross. It celebrates God's steadfast love and deliverance. The psalmist was pushed hard and about to fall, but the LORD helped him. He will not fear what man can do. It is better to trust in the LORD than to put confidence in man or princes. The LORD chastened him severely but did not give him over to death. The gate of the LORD is opened for the righteous. The stone which the builders refused has become the head stone of the corner — 'This is the day which the LORD hath made; we will rejoice and be glad in it.'",
+    themes: [
+      {
+        title: "The Steadfast Love of the LORD",
+        desc: "The psalm opens and closes with the declaration that God's mercy endures forever — His covenant love is the unshakeable foundation of all praise.",
+      },
+      {
+        title: "The Rejected Stone Made the Cornerstone",
+        desc: "The stone rejected by the builders becomes the head of the corner — the most important stone in the building — a dramatic reversal accomplished by God.",
+      },
+      {
+        title: "Trusting God Over Human Power",
+        desc: "It is better to trust in the LORD than in man or princes — no human alliance or power can provide what God alone offers.",
+      },
+    ],
+    questions: [
+      "Jesus applied 'the stone which the builders refused' (v. 22) to Himself. How does this transform our reading of the psalm?",
+      "What does 'This is the day which the LORD hath made' (v. 24) mean in its original context and in Christian worship?",
+      "Why is trusting God said to be 'better' than trusting in man or princes (vv. 8-9)?",
+      "How does the cry 'Blessed is he that cometh in the name of the LORD' (v. 26) connect to Palm Sunday?",
+      "If Jesus sang this psalm on the night of His betrayal, what would these words have meant to Him?",
+    ],
+    christConnection:
+      "This is one of the most directly messianic psalms. Jesus is the stone the builders rejected who became the chief cornerstone (Matthew 21:42, Acts 4:11, 1 Peter 2:7). The crowd on Palm Sunday sang verse 26: 'Blessed is he that cometh in the name of the LORD.' Jesus sang this psalm at the Last Supper, going to the cross as both the rejected stone and the cornerstone of God's new temple.",
+    keyVerse: {
+      reference: "Psalm 118:22-23",
+      text: "The stone which the builders refused is become the head stone of the corner. This is the LORD's doing; it is marvellous in our eyes.",
     },
   },
 
@@ -2465,6 +3809,614 @@ export const psalmsChapters: Record<string, ChapterContent> = {
     },
   },
 
+  "psalms/120": {
+    overview:
+      "Psalm 120 is the first of the Songs of Ascents (Psalms 120-134), traditionally sung by pilgrims traveling up to Jerusalem for the annual feasts. The psalmist cries out to the LORD in distress, asking to be delivered from lying lips and a deceitful tongue. He compares the damage of deceit to sharp arrows of the mighty and coals of juniper. He laments dwelling among those who hate peace — in Mesech and the tents of Kedar. When he speaks for peace, they are for war.",
+    themes: [
+      {
+        title: "Crying Out from Hostile Territory",
+        desc: "The psalmist feels surrounded by deceivers and warmongers — his spiritual journey begins from a place of distress and alienation.",
+      },
+      {
+        title: "The Destructive Power of Deceit",
+        desc: "Lying lips and deceitful tongues are compared to weapons of war — sharp arrows and burning coals — revealing the devastating power of dishonesty.",
+      },
+      {
+        title: "Longing for Peace",
+        desc: "The psalmist is a man of peace dwelling among those who love war — his pilgrimage to Jerusalem is driven by a longing for the peace found in God's presence.",
+      },
+    ],
+    questions: [
+      "Why does the pilgrim journey to Jerusalem begin with a psalm of distress (v. 1)?",
+      "How does the comparison of lying to 'sharp arrows' and 'coals of juniper' (v. 4) illustrate the harm of deceit?",
+      "What does it mean to dwell in 'Mesech' and 'Kedar' (v. 5)? Are these literal or metaphorical?",
+      "How does the contrast between desiring peace and living among the warlike resonate today?",
+      "What does this psalm teach about the starting point of spiritual pilgrimage?",
+    ],
+    christConnection:
+      "Jesus knew what it meant to dwell among the deceitful and those who hated peace. He was surrounded by lying tongues throughout His ministry and trial. Yet He is the Prince of Peace who leads His people on the ultimate pilgrimage — from the distress of this world to the heavenly Jerusalem.",
+    keyVerse: {
+      reference: "Psalm 120:1",
+      text: "In my distress I cried unto the LORD, and he heard me.",
+    },
+  },
+
+  "psalms/121": {
+    overview:
+      "Psalm 121 is one of the most beloved psalms of trust and assurance. The pilgrim lifts his eyes to the hills and asks where his help comes from. The answer is immediate and certain: 'My help cometh from the LORD, which made heaven and earth.' The LORD who keeps Israel will not slumber or sleep. He is the shade upon the right hand; the sun shall not smite by day nor the moon by night. The LORD shall preserve from all evil, preserving the soul and keeping the going out and coming in from this time forth and forevermore.",
+    themes: [
+      {
+        title: "Help from the Creator",
+        desc: "The psalmist's help does not come from the hills themselves but from the LORD who made the hills — and made heaven and earth. The Creator is the helper.",
+      },
+      {
+        title: "The Unsleeping Keeper",
+        desc: "Israel's keeper never slumbers or sleeps — unlike the false gods of the nations, the LORD is always alert, always watching, always protecting.",
+      },
+      {
+        title: "Comprehensive, Eternal Preservation",
+        desc: "God's keeping is total — He preserves from all evil, keeps the soul, guards every departure and return, now and forevermore.",
+      },
+    ],
+    questions: [
+      "What does the pilgrim see when he lifts his eyes to the hills (v. 1)? Why does he look there?",
+      "Why is it significant that the LORD 'shall neither slumber nor sleep' (v. 4)?",
+      "What does it mean that God is 'thy shade upon thy right hand' (v. 5)?",
+      "How does the promise that God preserves 'thy going out and thy coming in' (v. 8) apply to daily life?",
+      "How does this psalm provide comfort for those facing an uncertain journey?",
+    ],
+    christConnection:
+      "Jesus is the Lord who made heaven and earth and who never sleeps in His watchful care. He told His disciples, 'I am with you alway, even unto the end of the world' (Matthew 28:20). He is the shade from the scorching heat of judgment and the keeper of our souls. Through Him, our going out into death and our coming in to resurrection life are eternally secured.",
+    keyVerse: {
+      reference: "Psalm 121:1-2",
+      text: "I will lift up mine eyes unto the hills, from whence cometh my help. My help cometh from the LORD, which made heaven and earth.",
+    },
+  },
+
+  "psalms/122": {
+    overview:
+      "Psalm 122 is a psalm of David expressing joy at going up to the house of the LORD. 'I was glad when they said unto me, Let us go into the house of the LORD.' The pilgrim's feet now stand within the gates of Jerusalem, the city that is compact together, where the tribes go up to give thanks. Thrones of judgment are set there for the house of David. The psalm calls for prayer for the peace of Jerusalem — 'they shall prosper that love thee.' For the sake of brethren and companions, and for the house of the LORD our God, the psalmist will seek Jerusalem's good.",
+    themes: [
+      {
+        title: "Joy in Corporate Worship",
+        desc: "The psalmist is genuinely glad to be invited to worship — gathering with God's people in God's house is a source of deep joy, not obligation.",
+      },
+      {
+        title: "Jerusalem as the Center of Unity",
+        desc: "Jerusalem is the place where the scattered tribes unite in worship and where God's justice is administered — it represents the unity of God's people.",
+      },
+      {
+        title: "Praying for Peace",
+        desc: "The call to pray for the peace of Jerusalem connects the prosperity of God's people to the faithfulness of their prayers.",
+      },
+    ],
+    questions: [
+      "What made the psalmist 'glad' about going to the house of the LORD (v. 1)?",
+      "What does Jerusalem represent as a city 'compact together' (v. 3)?",
+      "Why does the psalm command prayer for the 'peace of Jerusalem' (v. 6)?",
+      "How do Christians apply this psalm's call to pray for Jerusalem today?",
+      "What does this psalm teach about the communal dimension of faith?",
+    ],
+    christConnection:
+      "Jesus loved Jerusalem and wept over it. He went up to the temple for the feasts and cleansed it as His Father's house. The church is the new Jerusalem, the spiritual house where believers gather in Christ's name. He is the peace of the new Jerusalem, and in Him all the tribes of spiritual Israel are united.",
+    keyVerse: {
+      reference: "Psalm 122:1",
+      text: "I was glad when they said unto me, Let us go into the house of the LORD.",
+    },
+  },
+
+  "psalms/123": {
+    overview:
+      "Psalm 123 is a brief Song of Ascents lifting the eyes to God in humble dependence. As servants look to the hand of their masters and a maiden to the hand of her mistress, so the people of God look to the LORD until He has mercy upon them. The psalmist cries for mercy because the people are exceedingly filled with contempt from the proud and the scorning of those who are at ease.",
+    themes: [
+      {
+        title: "Looking Upward in Dependence",
+        desc: "The posture of looking to God as a servant watches a master's hand is one of humble, attentive dependence — waiting for the slightest gesture of direction or provision.",
+      },
+      {
+        title: "Enduring Contempt from the Proud",
+        desc: "God's people face the scorn and contempt of the comfortable and proud — the psalm acknowledges this pain without minimizing it.",
+      },
+      {
+        title: "Pleading for Mercy",
+        desc: "The only response to contempt and oppression is to plead for God's mercy — not to retaliate or despair but to look upward.",
+      },
+    ],
+    questions: [
+      "What does the image of servants watching their master's hand (v. 2) teach about our posture before God?",
+      "Why is the contempt of the proud especially painful (vv. 3-4)?",
+      "How does looking to God rather than at circumstances change our experience of suffering?",
+      "What does this psalm teach about patience in waiting for God to act?",
+      "How does this psalm encourage persecuted or marginalized believers?",
+    ],
+    christConnection:
+      "Jesus was despised and rejected — scorned by the proud and religious elite. Yet He continually looked to the Father, living in perfect dependence. He taught His followers to look upward in prayer, trusting the Father's mercy even amid persecution. He is the Lord to whom our eyes look for mercy.",
+    keyVerse: {
+      reference: "Psalm 123:2",
+      text: "Behold, as the eyes of servants look unto the hand of their masters, and as the eyes of a maiden unto the hand of her mistress; so our eyes wait upon the LORD our God, until that he have mercy upon us.",
+    },
+  },
+
+  "psalms/124": {
+    overview:
+      "Psalm 124 is a psalm of David celebrating God's deliverance with vivid imagery. 'If it had not been the LORD who was on our side,' the psalmist declares twice, then the enemies would have swallowed them alive, the flood would have swept them away, and their soul would have been caught in the fowler's snare. 'But blessed be the LORD, who hath not given us as a prey to their teeth.' The snare is broken and the people are escaped. Their help is in the name of the LORD, who made heaven and earth.",
+    themes: [
+      {
+        title: "What If God Had Not Been There?",
+        desc: "The psalm invites reflection on what would have happened without God's intervention — making His deliverance vivid by imagining its absence.",
+      },
+      {
+        title: "Vivid Images of Danger and Rescue",
+        desc: "Enemies swallowing alive, floods overwhelming, teeth tearing, snares trapping — each image heightens the sense of how close destruction was.",
+      },
+      {
+        title: "Escape Through God Alone",
+        desc: "The snare is broken and the people are free — but the breaking is God's work. Help is in the name of the LORD who made heaven and earth.",
+      },
+    ],
+    questions: [
+      "Why does the psalm begin with the counterfactual 'If it had not been the LORD' (v. 1)?",
+      "What do the images of being swallowed, flooded, and snared communicate about the nature of evil?",
+      "How does remembering past deliverance build faith for future challenges?",
+      "What does the declaration 'Our help is in the name of the LORD' (v. 8) mean practically?",
+      "When have you experienced a deliverance that would not have happened apart from God?",
+    ],
+    christConnection:
+      "Without Christ, humanity would be swallowed alive by sin and death. He broke the snare of the grave and set captives free. His resurrection is the ultimate 'what if' — without it, all would be lost. Our help is in His name, the name above every name, who made heaven and earth.",
+    keyVerse: {
+      reference: "Psalm 124:8",
+      text: "Our help is in the name of the LORD, who made heaven and earth.",
+    },
+  },
+
+  "psalms/125": {
+    overview:
+      "Psalm 125 compares those who trust in the LORD to Mount Zion, which cannot be removed but abides forever. As the mountains surround Jerusalem, so the LORD surrounds His people from this time forth and forever. The rod of the wicked shall not rest upon the lot of the righteous, lest the righteous put forth their hands unto iniquity. The psalm asks God to do good to those who are good and upright in their hearts, while those who turn aside to crooked ways shall be led forth with the workers of iniquity. Peace shall be upon Israel.",
+    themes: [
+      {
+        title: "Unshakeable Trust",
+        desc: "Those who trust in the LORD are like Mount Zion — immovable, permanent, and secure. Trust in God produces an unshakeable life.",
+      },
+      {
+        title: "God Surrounds His People",
+        desc: "As mountains encircle Jerusalem, providing a natural fortress, so the LORD encircles His people with His protective presence.",
+      },
+      {
+        title: "Protection from Moral Compromise",
+        desc: "God limits the power of the wicked over the righteous — not allowing wickedness to rest so long upon them that they are tempted to join in evil.",
+      },
+    ],
+    questions: [
+      "What does the comparison to Mount Zion (v. 1) teach about the stability of the trusting life?",
+      "How does the image of mountains surrounding Jerusalem (v. 2) illustrate God's protection?",
+      "Why does God limit the 'rod of the wicked' over the righteous (v. 3)?",
+      "What warning is given to those who 'turn aside unto their crooked ways' (v. 5)?",
+      "How does this psalm encourage perseverance in righteousness during difficult seasons?",
+    ],
+    christConnection:
+      "Christ is the foundation that cannot be moved — the rock upon which God builds His church. He surrounds His people with His presence and intercession. He bore the rod of the wicked on the cross so that it would not rest permanently upon His people. In Him, the peace promised to Israel extends to all who trust in God.",
+    keyVerse: {
+      reference: "Psalm 125:2",
+      text: "As the mountains are round about Jerusalem, so the LORD is round about his people from henceforth even for ever.",
+    },
+  },
+
+  "psalms/126": {
+    overview:
+      "Psalm 126 celebrates the joy of restoration from captivity and prays for its completion. 'When the LORD turned again the captivity of Zion, we were like them that dream.' The mouths of the returned exiles were filled with laughter and their tongues with singing. Even the heathen said, 'The LORD hath done great things for them.' The psalmist then prays for further restoration, like streams returning to the dry south. Those who sow in tears shall reap in joy — the one who goes forth weeping, bearing precious seed, shall doubtless come again with rejoicing, bringing his sheaves with him.",
+    themes: [
+      {
+        title: "Dreamlike Joy at Restoration",
+        desc: "The return from captivity was so overwhelming that it seemed like a dream — God's deliverance exceeded what the people dared to hope for.",
+      },
+      {
+        title: "God's Testimony Among the Nations",
+        desc: "Even the surrounding nations recognized that God had done great things for Israel — divine deliverance becomes a testimony to the world.",
+      },
+      {
+        title: "Sowing in Tears, Reaping in Joy",
+        desc: "The psalm promises that faithful, tearful sowing will result in a joyful harvest — weeping is not the end but the seedbed of future rejoicing.",
+      },
+    ],
+    questions: [
+      "What does it mean to be 'like them that dream' (v. 1) when God restores?",
+      "Why did even the heathen acknowledge what God had done (v. 2)?",
+      "How does the image of streams in the south (v. 4) picture restoration?",
+      "What does the promise of sowing in tears and reaping in joy (vv. 5-6) teach about faithfulness in hard seasons?",
+      "Where in your life are you sowing in tears, and how does this psalm encourage you?",
+    ],
+    christConnection:
+      "Jesus is the one who went forth weeping, bearing the precious seed of His own life, and returned in resurrection joy, bringing His harvest with Him. He sowed in tears at Gethsemane and on the cross, but He reaped in the joy of resurrection. Through Him, every tear of the faithful will be turned to rejoicing.",
+    keyVerse: {
+      reference: "Psalm 126:5-6",
+      text: "They that sow in tears shall reap in joy. He that goeth forth and weepeth, bearing precious seed, shall doubtless come again with rejoicing, bringing his sheaves with him.",
+    },
+  },
+
+  "psalms/127": {
+    overview:
+      "Psalm 127 is a psalm of Solomon declaring that all human labor is futile without the LORD's blessing. 'Except the LORD build the house, they labour in vain that build it: except the LORD keep the city, the watchman waketh but in vain.' It is vain to rise up early and sit up late, eating the bread of sorrows, for God gives His beloved sleep. The psalm then turns to children, declaring them a heritage from the LORD and the fruit of the womb His reward. Children are like arrows in the hand of a mighty man — blessed is the man whose quiver is full of them.",
+    themes: [
+      {
+        title: "The Futility of Labor Without God",
+        desc: "Building, guarding, and striving are all in vain unless the LORD is the builder and keeper — human effort without divine blessing is fruitless anxiety.",
+      },
+      {
+        title: "God Gives His Beloved Rest",
+        desc: "Instead of anxious toil, God gives His beloved sleep — rest is a gift of grace, not a reward for overwork.",
+      },
+      {
+        title: "Children as God's Heritage",
+        desc: "Children are not burdens but blessings — a heritage and reward from the LORD, like arrows that extend a father's influence into the future.",
+      },
+    ],
+    questions: [
+      "What does it mean practically that 'except the LORD build the house, they labour in vain' (v. 1)?",
+      "How does this psalm challenge our culture of overwork and anxious striving?",
+      "What does it mean that God 'giveth his beloved sleep' (v. 2)?",
+      "How does viewing children as 'arrows' (v. 4) shape parenting and family life?",
+      "How does this psalm redefine success from a divine perspective?",
+    ],
+    christConnection:
+      "Jesus is the master builder whom God sent to build His house — the church. He rebuked anxious toil, saying, 'Take no thought for your life.' He invited the weary and heavy laden to come to Him for rest. He blessed the children and declared that the kingdom of heaven belongs to such. In Christ, the vain striving ends and the true building begins.",
+    keyVerse: {
+      reference: "Psalm 127:1",
+      text: "Except the LORD build the house, they labour in vain that build it: except the LORD keep the city, the watchman waketh but in vain.",
+    },
+  },
+
+  "psalms/128": {
+    overview:
+      "Psalm 128 describes the blessedness of the one who fears the LORD and walks in His ways. He will eat the labor of his hands — happy and prosperous. His wife will be like a fruitful vine by the sides of his house, and his children like olive plants around his table. This is how the man who fears the LORD shall be blessed. The psalm closes with a prayer for blessing out of Zion and the promise of seeing Jerusalem's good all the days of one's life, and children's children. Peace upon Israel.",
+    themes: [
+      {
+        title: "Blessing Through the Fear of God",
+        desc: "The psalm connects reverence for God and walking in His ways to tangible blessings — fruitful work, family, and peace.",
+      },
+      {
+        title: "The Beauty of a Godly Home",
+        desc: "The images of a fruitful vine and olive plants describe a home filled with life, growth, and abundance — the fruit of a God-honoring family.",
+      },
+      {
+        title: "Generational Blessing",
+        desc: "The blessing extends beyond one lifetime — seeing children's children and the peace of Jerusalem represents lasting, multigenerational faithfulness.",
+      },
+    ],
+    questions: [
+      "What does it mean to 'fear the LORD' and 'walk in his ways' (v. 1)?",
+      "How do the images of the vine and olive plants (v. 3) describe family life?",
+      "How does this psalm's vision of blessing relate to the reality that godly people sometimes suffer?",
+      "What does the promise of seeing 'children's children' (v. 6) teach about generational faithfulness?",
+      "How does this psalm shape our vision of the good life?",
+    ],
+    christConnection:
+      "Jesus is the true vine and His people are the branches who bear fruit. The peaceful, fruitful home described here reflects the household of faith that Christ builds. He feared the Lord perfectly and walked in His ways completely, securing blessing not just for one family but for all who are grafted into Him by faith.",
+    keyVerse: {
+      reference: "Psalm 128:1",
+      text: "Blessed is every one that feareth the LORD; that walketh in his ways.",
+    },
+  },
+
+  "psalms/129": {
+    overview:
+      "Psalm 129 recounts Israel's history of persecution — 'Many a time have they afflicted me from my youth,' Israel is called to say, 'yet they have not prevailed against me.' The plowers plowed upon Israel's back and made long furrows, but the righteous LORD has cut asunder the cords of the wicked. The psalm calls for those who hate Zion to be put to shame and to wither like grass on the housetops, which withers before it grows up and yields no harvest.",
+    themes: [
+      {
+        title: "Persecution from Youth",
+        desc: "Israel's history is one of persistent affliction from the very beginning — yet the nation survives because God preserves it.",
+      },
+      {
+        title: "God Cuts the Cords of the Wicked",
+        desc: "The LORD is righteous and has cut the ropes that bound Israel — deliverance comes from God's justice, not human strength.",
+      },
+      {
+        title: "The Withering of Persecutors",
+        desc: "Those who hate Zion are like rooftop grass — rootless, fruitless, and destined to wither. Persecution does not ultimately prosper.",
+      },
+    ],
+    questions: [
+      "What does the image of plowing upon the back (v. 3) communicate about the severity of Israel's suffering?",
+      "How has Israel survived despite centuries of persecution? What does this reveal about God?",
+      "What does it mean that the LORD 'hath cut asunder the cords of the wicked' (v. 4)?",
+      "How does the image of rooftop grass (vv. 6-7) illustrate the futility of opposing God's people?",
+      "How should persecuted Christians draw comfort from this psalm?",
+    ],
+    christConnection:
+      "Christ's back was plowed with the scourge — He bore the furrows of affliction that Israel endured throughout its history. Yet death did not prevail against Him. He cut the cords of sin and death through His resurrection. Those who persecute His people will wither, but His church will endure until He returns.",
+    keyVerse: {
+      reference: "Psalm 129:4",
+      text: "The LORD is righteous: he hath cut asunder the cords of the wicked.",
+    },
+  },
+
+  "psalms/130": {
+    overview:
+      "Psalm 130 is one of the seven penitential psalms — a cry from the depths. 'Out of the depths have I cried unto thee, O LORD.' The psalmist pleads for God to hear his voice and asks, 'If thou, LORD, shouldest mark iniquities, O Lord, who shall stand?' But there is forgiveness with God, that He may be feared. The psalmist waits for the LORD more than watchmen wait for the morning. Israel is called to hope in the LORD, for with Him is mercy and plenteous redemption, and He shall redeem Israel from all his iniquities.",
+    themes: [
+      {
+        title: "Crying from the Depths",
+        desc: "The psalm begins from the lowest point — the depths of guilt, despair, and need — and directs that cry upward to God.",
+      },
+      {
+        title: "Forgiveness That Produces Fear",
+        desc: "God's forgiveness does not produce casualness but reverent fear — the knowledge that God forgives when He could justly condemn inspires awe and worship.",
+      },
+      {
+        title: "Waiting and Hoping in the LORD",
+        desc: "The psalmist waits for God with the eager anticipation of watchmen waiting for dawn — certain that morning will come.",
+      },
+    ],
+    questions: [
+      "What are the 'depths' from which the psalmist cries (v. 1)?",
+      "Why does forgiveness produce the fear of God rather than presumption (v. 4)?",
+      "What does it mean to wait for the Lord 'more than they that watch for the morning' (v. 6)?",
+      "How does the promise of 'plenteous redemption' (v. 7) provide hope for the deeply burdened?",
+      "How does this psalm guide someone who feels overwhelmed by guilt or despair?",
+    ],
+    christConnection:
+      "Christ descended to the depths of human suffering and divine wrath so that we might be lifted from our depths. He is the plenteous redemption who redeems from all iniquity. If God marked iniquities, none could stand — but through Christ's blood, forgiveness is offered freely. He is the morning that the watchmen wait for, the dawn that breaks after the darkest night.",
+    keyVerse: {
+      reference: "Psalm 130:3-4",
+      text: "If thou, LORD, shouldest mark iniquities, O Lord, who shall stand? But there is forgiveness with thee, that thou mayest be feared.",
+    },
+  },
+
+  "psalms/131": {
+    overview:
+      "Psalm 131 is a brief, tender psalm of David expressing humble contentment before God. David declares that his heart is not haughty, his eyes are not lofty, and he does not exercise himself in matters too great or too high for him. Instead, he has calmed and quieted his soul like a weaned child with his mother — not demanding but resting. He closes with a call for Israel to hope in the LORD from this time forth and forevermore.",
+    themes: [
+      {
+        title: "Humble Contentment",
+        desc: "David has deliberately chosen not to pursue what is beyond him — not out of laziness but out of humble trust in God's wisdom and timing.",
+      },
+      {
+        title: "A Quieted Soul",
+        desc: "Like a weaned child who no longer demands the breast but rests contentedly with its mother, David has learned to rest in God without grasping.",
+      },
+      {
+        title: "Hope in the LORD",
+        desc: "The psalm moves from personal contentment to a corporate call — Israel too should hope in the LORD with the same quiet trust.",
+      },
+    ],
+    questions: [
+      "What does it mean that David's heart is 'not haughty' and his eyes 'not lofty' (v. 1)?",
+      "How does the image of a weaned child (v. 2) illustrate spiritual maturity?",
+      "What is the difference between a nursing child and a weaned child as a picture of trust?",
+      "How does this psalm challenge our culture's emphasis on ambition and restless striving?",
+      "What would it look like to 'quiet your soul' before God today?",
+    ],
+    christConnection:
+      "Jesus embodied perfect humility — 'I am meek and lowly in heart' (Matthew 11:29). He did not grasp at equality with God but emptied Himself. He entrusted Himself to the Father in every moment, resting in the Father's will rather than demanding His own. Through Christ, believers learn the contentment of a weaned child resting in the Father's arms.",
+    keyVerse: {
+      reference: "Psalm 131:2",
+      text: "Surely I have behaved and quieted myself, as a child that is weaned of his mother: my soul is even as a weaned child.",
+    },
+  },
+
+  "psalms/132": {
+    overview:
+      "Psalm 132 recalls David's passionate desire to find a dwelling place for the LORD — he would not rest or sleep until he found a place for the Mighty One of Jacob. The ark of the covenant was found in the fields of the wood, and the people go up to worship at God's footstool. The psalm then recounts God's oath to David: 'Of the fruit of thy body will I set upon thy throne.' If David's children keep God's covenant, their children shall also sit upon the throne forever. The LORD has chosen Zion for His habitation, promising to satisfy her poor with bread, clothe her priests with salvation, and make the horn of David to bud.",
+    themes: [
+      {
+        title: "David's Zeal for God's Dwelling",
+        desc: "David's restless determination to find a resting place for the ark reveals a heart consumed with God's glory and presence — he would not rest until God rested.",
+      },
+      {
+        title: "God's Oath to David",
+        desc: "God swore an irrevocable oath to David — a descendant would sit on his throne forever, connecting the Davidic covenant to the eternal purposes of God.",
+      },
+      {
+        title: "God's Choice of Zion",
+        desc: "The LORD chose Zion as His permanent dwelling — He will bless it abundantly, satisfy its poor, and cause David's horn to flourish there.",
+      },
+    ],
+    questions: [
+      "What does David's restlessness until God had a dwelling place (vv. 3-5) teach about spiritual priorities?",
+      "How does God's oath to David (vv. 11-12) connect to the coming of Christ?",
+      "What does it mean that God 'desired' Zion for His habitation (v. 13)?",
+      "How does the promise to 'satisfy her poor with bread' (v. 15) anticipate the gospel?",
+      "What does this psalm teach about the relationship between human devotion and divine promise?",
+    ],
+    christConnection:
+      "Christ is the fruit of David's body who sits on David's throne forever — the horn of David that buds and flourishes. He is the true temple, the dwelling place of God among men. He satisfies the poor with the bread of life and clothes His priests with the garments of salvation. Every promise in this psalm finds its eternal fulfillment in Jesus.",
+    keyVerse: {
+      reference: "Psalm 132:11",
+      text: "The LORD hath sworn in truth unto David; he will not turn from it; Of the fruit of thy body will I set upon thy throne.",
+    },
+  },
+
+  "psalms/133": {
+    overview:
+      "Psalm 133 is a brief, beautiful psalm of David celebrating the goodness and pleasantness of unity among God's people. Brotherly unity is compared to the precious ointment poured upon Aaron's head that ran down his beard and to the garments of his robes — and to the dew of Hermon descending upon the mountains of Zion. For there the LORD commanded the blessing — life forevermore.",
+    themes: [
+      {
+        title: "The Beauty of Unity",
+        desc: "Unity among brethren is not merely useful but beautiful — good and pleasant in God's sight and in the experience of His people.",
+      },
+      {
+        title: "Unity Like Anointing Oil",
+        desc: "The precious anointing oil that consecrated Aaron pictures unity as something sacred, costly, and flowing from the head downward — from leadership to the whole body.",
+      },
+      {
+        title: "Unity as the Place of Blessing",
+        desc: "Where brothers dwell in unity, God commands His blessing — unity is not the result of blessing but the condition in which blessing flows.",
+      },
+    ],
+    questions: [
+      "Why does David call unity both 'good' and 'pleasant' (v. 1)?",
+      "What does the comparison to Aaron's anointing oil (v. 2) teach about the source and flow of unity?",
+      "How does the dew of Hermon (v. 3) picture the refreshing nature of unity?",
+      "What does it mean that God 'commanded the blessing' in the place of unity?",
+      "How can Christians pursue the kind of unity this psalm celebrates?",
+    ],
+    christConnection:
+      "Jesus prayed for the unity of His followers in John 17 — 'that they may be one, even as we are one.' He is the anointed one (Christ) from whom the oil of the Spirit flows down to the whole body. The unity He creates is not mere human agreement but the supernatural bond of the Spirit, and in that unity, God commands eternal blessing.",
+    keyVerse: {
+      reference: "Psalm 133:1",
+      text: "Behold, how good and how pleasant it is for brethren to dwell together in unity!",
+    },
+  },
+
+  "psalms/134": {
+    overview:
+      "Psalm 134 is the final Song of Ascents — a brief, nighttime benediction. It calls upon the servants of the LORD who stand by night in the house of the LORD to lift up their hands in the sanctuary and bless the LORD. The psalm then responds with a blessing: 'The LORD that made heaven and earth bless thee out of Zion.' It serves as a fitting conclusion to the pilgrim collection, ending the journey with worship in God's house.",
+    themes: [
+      {
+        title: "Nighttime Worship",
+        desc: "God's servants praise Him even in the night — worship is not limited to daylight hours but continues around the clock in faithful devotion.",
+      },
+      {
+        title: "Mutual Blessing",
+        desc: "The worshippers bless the LORD, and the LORD blesses them from Zion — worship creates a circle of blessing between God and His people.",
+      },
+      {
+        title: "The Completion of Pilgrimage",
+        desc: "As the final Song of Ascents, this psalm marks the arrival at God's house — the pilgrimage that began in distress (Psalm 120) ends in joyful worship.",
+      },
+    ],
+    questions: [
+      "Why is nighttime worship highlighted in this psalm (v. 1)?",
+      "What does it mean to 'lift up your hands in the sanctuary' (v. 2)?",
+      "How does this psalm serve as the conclusion to the Songs of Ascents (Psalms 120-134)?",
+      "What does the mutual blessing between God and His people teach about the nature of worship?",
+      "How does the journey from Psalm 120's distress to Psalm 134's worship reflect the spiritual life?",
+    ],
+    christConnection:
+      "Jesus stood in the night watches — praying all night before choosing His apostles and agonizing in the garden of Gethsemane. He is the high priest who ever lives to make intercession, blessing His people from the heavenly Zion. Through Him, our worship ascends to the Father and the Father's blessing descends to us.",
+    keyVerse: {
+      reference: "Psalm 134:3",
+      text: "The LORD that made heaven and earth bless thee out of Zion.",
+    },
+  },
+
+  "psalms/135": {
+    overview:
+      "Psalm 135 is a vibrant hymn of praise calling on the servants of the LORD to praise His name. The LORD is good and He has chosen Jacob for Himself and Israel for His peculiar treasure. He does whatever pleases Him in heaven, earth, seas, and depths. The psalm recounts His mighty acts — sending signs and wonders against Egypt, defeating Sihon and Og, and giving their land as a heritage to Israel. It contrasts the living God with dead idols of silver and gold that have mouths but speak not. The psalm closes with a call for all Israel and those who fear the LORD to bless Him out of Zion.",
+    themes: [
+      {
+        title: "God's Sovereign Choice",
+        desc: "God chose Israel as His special treasure — election is an act of grace, not merit, and calls forth praise from those who receive it.",
+      },
+      {
+        title: "God's Sovereignty Over All Things",
+        desc: "The LORD does whatever pleases Him in every realm — heaven, earth, and sea. Nothing is outside His control or authority.",
+      },
+      {
+        title: "The Living God vs. Dead Idols",
+        desc: "The contrast between the mighty God who acts and speaks and lifeless idols that cannot do anything exposes the absurdity of idol worship.",
+      },
+    ],
+    questions: [
+      "What does it mean to be God's 'peculiar treasure' (v. 4)?",
+      "How does the declaration that God 'hath done whatsoever he pleased' (v. 6) shape our theology?",
+      "Why does the psalm rehearse God's acts in Egypt and the wilderness?",
+      "How does the contrast between God and idols (vv. 15-18) apply to contemporary culture?",
+      "Why does the psalm close with a call from multiple groups to bless the LORD (vv. 19-21)?",
+    ],
+    christConnection:
+      "Christ is the one through whom God chose His people before the foundation of the world. He is the living Word who speaks, acts, and saves — the ultimate contrast to dead idols. Through Him, believers become God's peculiar treasure, a chosen generation and a royal priesthood, called to show forth His praises.",
+    keyVerse: {
+      reference: "Psalm 135:6",
+      text: "Whatsoever the LORD pleased, that did he in heaven, and in earth, in the seas, and all deep places.",
+    },
+  },
+
+  "psalms/136": {
+    overview:
+      "Psalm 136 is the Great Hallel — a responsive hymn in which every verse ends with the refrain 'for his mercy endureth for ever.' It praises God as the God of gods and Lord of lords who alone does great wonders. It traces His works from creation — making the heavens, stretching out the earth, creating the sun, moon, and stars — through the exodus — smiting Egypt's firstborn, dividing the Red Sea, leading Israel through the wilderness — to the conquest of Canaan. Even in their low estate, God remembered His people. He gives food to all flesh. His mercy endures forever.",
+    themes: [
+      {
+        title: "Enduring Mercy as History's Refrain",
+        desc: "Twenty-six times the psalm declares 'his mercy endureth for ever' — making it the recurring theme of creation, redemption, and providence.",
+      },
+      {
+        title: "God as Creator and Redeemer",
+        desc: "The same God who made the heavens also parted the Red Sea and defeated kings — creation and salvation flow from the same merciful hand.",
+      },
+      {
+        title: "God Remembers the Lowly",
+        desc: "In their lowest condition, God remembered His people and rescued them — His mercy reaches to the deepest depths of human need.",
+      },
+    ],
+    questions: [
+      "Why is the refrain 'for his mercy endureth for ever' repeated in every verse? What does this accomplish?",
+      "How does the psalm connect creation (vv. 4-9) with redemption (vv. 10-22)?",
+      "What does it mean that God 'remembered us in our low estate' (v. 23)?",
+      "How does the ending — God giving food to all flesh (v. 25) — connect His mercy to daily provision?",
+      "How can this psalm shape our understanding of all of human history?",
+    ],
+    christConnection:
+      "Every act of mercy in this psalm finds its climax in Christ. He is the Word through whom all things were made, the Passover Lamb whose blood delivers, and the one who leads His people through death into the promised inheritance. His mercy endures forever because His sacrifice is once for all and His intercession never ceases.",
+    keyVerse: {
+      reference: "Psalm 136:1",
+      text: "O give thanks unto the LORD; for he is good: for his mercy endureth for ever.",
+    },
+  },
+
+  "psalms/137": {
+    overview:
+      "Psalm 137 is a haunting lament of the exiles in Babylon. By the rivers of Babylon they sat down and wept when they remembered Zion. They hung their harps on the willows because their captors demanded songs of Zion — 'How shall we sing the LORD's song in a strange land?' The psalmist vows never to forget Jerusalem, declaring 'If I forget thee, O Jerusalem, let my right hand forget her cunning.' The psalm closes with a fierce imprecation against Babylon and Edom, including the disturbing wish that Babylon's children be dashed against the stones.",
+    themes: [
+      {
+        title: "Grief in Exile",
+        desc: "The exiles' weeping by Babylon's rivers expresses the deep sorrow of being separated from God's presence, city, and temple.",
+      },
+      {
+        title: "Remembering Jerusalem",
+        desc: "The vow never to forget Jerusalem reveals that God's city represents the deepest longing of the believer's heart — to be in God's presence.",
+      },
+      {
+        title: "The Agony of Imposed Silence",
+        desc: "The captors' demand for sacred songs as entertainment is a cruel mockery — worship cannot be performed as entertainment for those who despise God.",
+      },
+    ],
+    questions: [
+      "Why could the exiles not sing the LORD's song in Babylon (v. 4)?",
+      "What does the vow to remember Jerusalem (vv. 5-6) teach about the priority of worship?",
+      "How should Christians interpret the imprecatory ending (vv. 7-9)?",
+      "What is the 'Babylon' that believers live in today, and how do we sing the Lord's song there?",
+      "How does this psalm express the tension between living in a hostile world and longing for God's city?",
+    ],
+    christConnection:
+      "Jesus wept over Jerusalem as the exiles wept in Babylon. He is the one who brings the captives home from exile — not to an earthly city but to the heavenly Jerusalem. The judgment pronounced upon Babylon is fulfilled in Revelation, where Babylon the Great falls and God's people are delivered. Christ is the song His people carry in every exile.",
+    keyVerse: {
+      reference: "Psalm 137:4",
+      text: "How shall we sing the LORD's song in a strange land?",
+    },
+  },
+
+  "psalms/138": {
+    overview:
+      "Psalm 138 is a psalm of David offering wholehearted thanksgiving before kings and before the gods. David praises God's name for His lovingkindness and truth, declaring that God has magnified His word above all His name. In the day David cried out, God answered and strengthened his soul. All the kings of the earth shall praise God when they hear His words, for great is the glory of the LORD. Though the LORD is high, He has regard for the lowly and knows the proud from afar. Though David walks through trouble, God revives him, stretches forth His hand against his enemies, and will perfect that which concerns him. The LORD's mercy endures forever, and He will not forsake the work of His hands.",
+    themes: [
+      {
+        title: "Wholehearted Praise",
+        desc: "David praises God with his whole heart — not half-hearted or distracted, but fully engaged in worship and thanksgiving.",
+      },
+      {
+        title: "God's Word Magnified",
+        desc: "God has magnified His word above all His name — the highest revelation of God's character is found in what He has spoken and promised.",
+      },
+      {
+        title: "God Perfects What Concerns Us",
+        desc: "The LORD will not leave His work unfinished — He will perfect and complete everything that concerns His people, never forsaking the work of His hands.",
+      },
+    ],
+    questions: [
+      "What does it mean that God has 'magnified thy word above all thy name' (v. 2)?",
+      "How does God answer prayer with 'strength in my soul' (v. 3)?",
+      "What does the statement that God 'hath respect unto the lowly' but knows the proud 'afar off' (v. 6) teach?",
+      "What does the promise 'the LORD will perfect that which concerneth me' (v. 8) mean for believers?",
+      "How does the declaration that God will 'not forsake the works of thine own hands' (v. 8) provide security?",
+    ],
+    christConnection:
+      "Christ is the Word that God magnified above all His name — the living Word through whom God's character and purposes are fully revealed. Jesus was perfected through suffering (Hebrews 2:10) and He perfects those who trust in Him. He will not forsake the work of His hands — those the Father gave Him, He will lose none.",
+    keyVerse: {
+      reference: "Psalm 138:8",
+      text: "The LORD will perfect that which concerneth me: thy mercy, O LORD, endureth for ever: forsake not the works of thine own hands.",
+    },
+  },
+
   "psalms/139": {
     overview:
       "David marvels at the all-knowing, ever-present God who has searched him and known him completely. God knows his thoughts, his words before he speaks them, and every step he takes. There is nowhere David can flee from God's presence — not in heaven, not in Sheol, not at the farthest sea. David reflects on being fearfully and wonderfully made in his mother's womb, with every day of his life written in God's book before one of them existed. He closes by inviting God to search his heart and lead him in the everlasting way.",
@@ -2494,6 +4446,358 @@ export const psalmsChapters: Record<string, ChapterContent> = {
     keyVerse: {
       reference: "Psalm 139:14",
       text: "I will praise thee; for I am fearfully and wonderfully made: marvellous are thy works; and that my soul knoweth right well.",
+    },
+  },
+
+  "psalms/140": {
+    overview:
+      "Psalm 140 is a prayer of David for deliverance from violent and evil men. He asks the LORD to preserve him from those who imagine mischiefs, who have sharpened their tongues like a serpent, and whose lips carry the poison of asps. The wicked have laid snares and spread nets for his feet. David affirms that the LORD is his God and calls on Him to hear his plea. He trusts that God maintains the cause of the afflicted and the right of the poor, and that the upright shall dwell in God's presence.",
+    themes: [
+      {
+        title: "The Danger of Evil Speech",
+        desc: "The enemies' primary weapon is their tongue — sharp as a serpent's and poisonous as an asp's, revealing that words can be instruments of deadly violence.",
+      },
+      {
+        title: "Prayer as the Believer's Weapon",
+        desc: "David does not take vengeance into his own hands but brings his enemies before God in prayer, trusting the LORD to act on his behalf.",
+      },
+      {
+        title: "God as Champion of the Afflicted",
+        desc: "The LORD maintains the cause of the afflicted and the right of the poor — He is the ultimate defender of those who cannot defend themselves.",
+      },
+    ],
+    questions: [
+      "How does the serpent imagery (v. 3) connect to the broader biblical narrative of the serpent and evil?",
+      "What does it look like to entrust our enemies to God rather than retaliating?",
+      "How does David's prayer model responding to slander and false accusation?",
+      "What does it mean that God 'maintains the cause of the afflicted' (v. 12)?",
+      "How does the assurance that 'the upright shall dwell in thy presence' (v. 13) provide ultimate comfort?",
+    ],
+    christConnection:
+      "Jesus was attacked by the serpent's tongue throughout His ministry — slandered, falsely accused, and plotted against. He is the seed of the woman who crushes the serpent's head (Genesis 3:15). He maintains the cause of the afflicted and has secured the right of the poor in spirit to dwell in God's presence forever.",
+    keyVerse: {
+      reference: "Psalm 140:12",
+      text: "I know that the LORD will maintain the cause of the afflicted, and the right of the poor.",
+    },
+  },
+
+  "psalms/141": {
+    overview:
+      "Psalm 141 is an evening prayer of David asking God to set a watch before his mouth and keep the door of his lips. He asks that his prayer be set before God as incense and the lifting of his hands as the evening sacrifice. He prays not to be drawn into wickedness or eat the dainties of the wicked. He would rather receive the faithful wounds of the righteous than the flattery of the wicked. He looks to God as his refuge and asks not to be left destitute while the wicked fall into their own nets.",
+    themes: [
+      {
+        title: "Guarding the Mouth",
+        desc: "David asks God to control what he says — recognizing that the tongue needs divine restraint and that careless words can lead to moral compromise.",
+      },
+      {
+        title: "Prayer as Incense",
+        desc: "David's prayer ascending to God is compared to incense and the evening sacrifice — worship and prayer are pleasing offerings before the LORD.",
+      },
+      {
+        title: "Preferring Righteous Correction to Wicked Flattery",
+        desc: "David values the painful honesty of the righteous over the sweet deceptions of the wicked — truth hurts but heals, while flattery destroys.",
+      },
+    ],
+    questions: [
+      "What does the prayer 'Set a watch, O LORD, before my mouth' (v. 3) teach about the power of words?",
+      "How is prayer compared to incense and the evening sacrifice (v. 2)?",
+      "Why does David prefer the rebuke of the righteous to the kindness of the wicked (v. 5)?",
+      "What are the 'dainties' of evil men (v. 4) that believers should avoid?",
+      "How does this psalm connect speech, prayer, and moral integrity?",
+    ],
+    christConnection:
+      "Jesus is the true evening sacrifice whose life was a fragrant offering to God. He spoke only what the Father gave Him, perfectly guarding His mouth. In the heavenly temple, His intercession rises before the Father like incense (Revelation 8:3-4). Through Him, our prayers become an acceptable offering before God.",
+    keyVerse: {
+      reference: "Psalm 141:3",
+      text: "Set a watch, O LORD, before my mouth; keep the door of my lips.",
+    },
+  },
+
+  "psalms/142": {
+    overview:
+      "Psalm 142 is a maskil of David, written when he was in the cave — likely the cave of Adullam or En-gedi. David cries aloud to the LORD, pouring out his complaint and declaring his trouble. He feels utterly alone: 'no man cared for my soul.' He looks on his right hand and there is no one who acknowledges him; refuge has failed him. He cries to the LORD, 'Thou art my refuge and my portion in the land of the living.' He asks God to bring his soul out of prison so he can praise God's name, trusting that the righteous will surround him when God deals bountifully with him.",
+    themes: [
+      {
+        title: "Isolation and Abandonment",
+        desc: "David is utterly alone — no one cares, no one helps, no refuge is available. The psalm captures the pain of complete human abandonment.",
+      },
+      {
+        title: "God as the Only Refuge",
+        desc: "When every human support is gone, David declares the LORD to be his refuge and portion — God is enough when everything else fails.",
+      },
+      {
+        title: "Prayer from the Prison of Circumstances",
+        desc: "David asks God to bring his soul out of prison — whether literal or metaphorical, the sense of being trapped drives him to cry out for freedom.",
+      },
+    ],
+    questions: [
+      "How does knowing David was in a cave shape our reading of this psalm?",
+      "What does it feel like to have 'no man cared for my soul' (v. 4)? How does God respond?",
+      "What does it mean to call God 'my portion in the land of the living' (v. 5)?",
+      "How does the psalm move from isolation (v. 4) to anticipated community (v. 7)?",
+      "How can this psalm comfort someone who feels trapped and alone?",
+    ],
+    christConnection:
+      "Jesus experienced ultimate abandonment — forsaken by His disciples and, on the cross, crying out in the experience of divine separation. Yet even in that darkness, He committed His spirit to the Father. He was imprisoned in the tomb but brought out in resurrection. Through Him, every believer who feels trapped and abandoned finds a refuge and a portion.",
+    keyVerse: {
+      reference: "Psalm 142:5",
+      text: "I cried unto thee, O LORD: I said, Thou art my refuge and my portion in the land of the living.",
+    },
+  },
+
+  "psalms/143": {
+    overview:
+      "Psalm 143 is the last of the seven penitential psalms, a prayer of David pleading for God's faithfulness and righteousness. He asks God not to enter into judgment with him, for no living person is righteous before God. The enemy has crushed his life to the ground and made him dwell in darkness. David's spirit is overwhelmed and his heart within him is desolate. He remembers the days of old, meditates on God's works, and stretches out his hands to God. He asks God to hear him speedily, not to hide His face, to teach him God's way, and to lead him by the Spirit into the land of uprightness.",
+    themes: [
+      {
+        title: "No One Righteous Before God",
+        desc: "David acknowledges that no living person can stand righteous in God's judgment — his plea is based on God's faithfulness, not his own merit.",
+      },
+      {
+        title: "Remembering and Meditating in Darkness",
+        desc: "When overwhelmed, David turns to remembering God's past works and meditating on His deeds — memory and meditation become lifelines in despair.",
+      },
+      {
+        title: "Teach Me, Lead Me",
+        desc: "David asks God to teach him His way and lead him by the Spirit — dependence on divine guidance is the path out of desolation.",
+      },
+    ],
+    questions: [
+      "What does the admission 'in thy sight shall no man living be justified' (v. 2) teach about human righteousness?",
+      "How does meditating on God's past works (v. 5) help in times of spiritual darkness?",
+      "What does it mean to 'stretch forth my hands unto thee' (v. 6)?",
+      "How does the prayer 'teach me to do thy will' (v. 10) express true discipleship?",
+      "How does this psalm connect to the doctrine of justification by faith?",
+    ],
+    christConnection:
+      "Paul echoes verse 2 in Romans 3:20 — 'by the deeds of the law there shall no flesh be justified in his sight.' Christ is the answer to the dilemma of this psalm: how can a sinful person stand before a righteous God? Through Christ's righteousness imputed to believers, they are justified — not by their own works but by faith in His finished work.",
+    keyVerse: {
+      reference: "Psalm 143:10",
+      text: "Teach me to do thy will; for thou art my God: thy spirit is good; lead me into the land of uprightness.",
+    },
+  },
+
+  "psalms/144": {
+    overview:
+      "Psalm 144 is a psalm of David blending praise for God as his fortress and deliverer with a meditation on the smallness of man. David blesses the LORD who trains his hands for war and his fingers for battle. He asks, 'LORD, what is man, that thou takest knowledge of him!' Man's days are as a shadow. David calls on God to bow the heavens, cast forth lightning, deliver him from the hand of strangers whose mouths speak vanity. He envisions a blessed nation — sons like strong plants, daughters like polished palace pillars, full barns, and flourishing flocks. Happy is the people whose God is the LORD.",
+    themes: [
+      {
+        title: "God as Warrior and Fortress",
+        desc: "David praises God as the one who trains him for battle and serves as his fortress, shield, and deliverer — all military skill is God's gift.",
+      },
+      {
+        title: "The Wonder of God's Attention to Man",
+        desc: "Given the vastness of God and the fleeting nature of human life, the fact that God takes knowledge of man at all is astonishing.",
+      },
+      {
+        title: "The Blessing of a God-Centered Nation",
+        desc: "The psalm envisions a flourishing society — strong families, abundant resources, and peace — all flowing from having the LORD as God.",
+      },
+    ],
+    questions: [
+      "How does God 'train hands for war and fingers for battle' (v. 1)?",
+      "What does the question 'What is man, that thou takest knowledge of him?' (v. 3) reveal?",
+      "How does the psalm move from warfare imagery to a vision of domestic prosperity (vv. 12-14)?",
+      "What does 'Happy is that people, whose God is the LORD' (v. 15) mean for understanding national blessing?",
+      "How does this psalm connect military dependence on God with everyday life blessings?",
+    ],
+    christConnection:
+      "Jesus is the one who bows the heavens and comes down — He descended from glory to deliver His people from the hand of the enemy. He is the one through whom God took ultimate knowledge of man, becoming flesh and dwelling among us. Through Christ, God's people enjoy the full blessedness of having the LORD as their God.",
+    keyVerse: {
+      reference: "Psalm 144:15",
+      text: "Happy is that people, that is in such a case: yea, happy is that people, whose God is the LORD.",
+    },
+  },
+
+  "psalms/145": {
+    overview:
+      "Psalm 145 is David's grand acrostic hymn of praise — the only psalm specifically titled 'A Psalm of Praise.' David vows to extol God as his King and bless His name forever. Every day he will bless the LORD, and His greatness is unsearchable. One generation shall praise God's works to another. The LORD is gracious, full of compassion, slow to anger, and of great mercy. He is good to all, and His tender mercies are over all His works. His kingdom is an everlasting kingdom. The LORD upholds all that fall, opens His hand and satisfies every living thing, is near to all who call upon Him in truth, and preserves all who love Him.",
+    themes: [
+      {
+        title: "The Unsearchable Greatness of God",
+        desc: "God's greatness cannot be fully measured or comprehended — generation after generation will praise His works and still not exhaust His glory.",
+      },
+      {
+        title: "God's Universal Goodness and Mercy",
+        desc: "The LORD is good to all and His tender mercies extend over all His works — His compassion is not limited but reaches every creature.",
+      },
+      {
+        title: "God's Nearness to Those Who Call",
+        desc: "The LORD is near to all who call upon Him in truth — the infinite, unsearchable God is also the intimate, accessible God.",
+      },
+    ],
+    questions: [
+      "Why is this the only psalm titled 'A Psalm of Praise,' and what sets it apart?",
+      "What does it mean that God's greatness is 'unsearchable' (v. 3)?",
+      "How do the descriptions of God's character — gracious, compassionate, slow to anger, great in mercy (v. 8) — shape our view of Him?",
+      "What does it mean that the LORD 'satisfiest the desire of every living thing' (v. 16)?",
+      "How does the psalm move from God's greatness to God's nearness? Why are both important?",
+    ],
+    christConnection:
+      "Jesus is the fullest revelation of the God described here — gracious, compassionate, slow to anger, and abounding in love. He opens His hands to feed the multitudes and satisfies the deepest desires of the soul. He is the King of the everlasting kingdom and the one who is near to all who call upon Him in truth. In Christ, God's unsearchable greatness becomes intimately personal.",
+    keyVerse: {
+      reference: "Psalm 145:18",
+      text: "The LORD is nigh unto all them that call upon him, to all that call upon him in truth.",
+    },
+  },
+
+  "psalms/146": {
+    overview:
+      "Psalm 146 begins the final Hallel section of the Psalter (Psalms 146-150), each psalm opening and closing with 'Praise ye the LORD.' The psalmist resolves to praise God as long as he lives. He warns against trusting in princes or mortal men, whose plans perish when they die. Happy is the one whose help is the God of Jacob, who made heaven and earth, keeps truth forever, executes judgment for the oppressed, gives food to the hungry, opens the eyes of the blind, raises the bowed down, loves the righteous, preserves the strangers, and relieves the fatherless and widow. The LORD shall reign forever.",
+    themes: [
+      {
+        title: "Trust God, Not Princes",
+        desc: "Human leaders, no matter how powerful, are mortal and their plans die with them — only God is eternally dependable.",
+      },
+      {
+        title: "God's Heart for the Vulnerable",
+        desc: "The psalm catalogs God's care for the oppressed, hungry, blind, bowed down, strangers, fatherless, and widows — revealing His passionate concern for the marginalized.",
+      },
+      {
+        title: "Lifelong Praise",
+        desc: "The psalmist commits to praise God as long as he lives — praise is not seasonal but the lifelong posture of the faithful.",
+      },
+    ],
+    questions: [
+      "Why does the psalm warn against trusting in princes (vv. 3-4)?",
+      "How does the list of God's actions (vv. 7-9) reveal His priorities?",
+      "What does it mean that God 'openeth the eyes of the blind' and 'raiseth them that are bowed down' (v. 8)?",
+      "How does this psalm speak to political engagement and where Christians place their ultimate trust?",
+      "What does it look like to praise God 'while I have any being' (v. 2)?",
+    ],
+    christConnection:
+      "Jesus fulfills every action listed in this psalm — He gave sight to the blind, fed the hungry, raised the bowed down, and showed compassion to strangers, orphans, and widows. When John the Baptist asked if Jesus was the Messiah, Jesus pointed to these very works as evidence (Luke 7:22). He is the eternal King whose reign shall never end.",
+    keyVerse: {
+      reference: "Psalm 146:5",
+      text: "Happy is he that hath the God of Jacob for his help, whose hope is in the LORD his God.",
+    },
+  },
+
+  "psalms/147": {
+    overview:
+      "Psalm 147 praises God as both the cosmic sovereign and the tender healer. He builds up Jerusalem and gathers the outcasts of Israel. He heals the brokenhearted and binds up their wounds. He counts the number of the stars and calls them all by name — His understanding is infinite. The LORD lifts up the meek and casts the wicked down. He covers the heavens with clouds, prepares rain for the earth, makes grass grow, and gives food to the beasts. He does not delight in the strength of horses or the legs of a man, but in those who fear Him and hope in His mercy. He sends His word and commandment swiftly to the earth.",
+    themes: [
+      {
+        title: "The God Who Heals and Numbers Stars",
+        desc: "The same God who counts and names every star also heals broken hearts and binds wounds — infinite power and tender compassion coexist perfectly in God.",
+      },
+      {
+        title: "God Delights in the Humble",
+        desc: "God does not delight in military might or human strength but in those who fear Him and hope in His mercy — He values faith over force.",
+      },
+      {
+        title: "God's Word Governs All Things",
+        desc: "God sends His word and it accomplishes His purposes — commanding snow, frost, ice, and wind, and declaring His statutes to His people.",
+      },
+    ],
+    questions: [
+      "How does the juxtaposition of counting stars and healing broken hearts (vv. 3-4) reveal God's character?",
+      "Why does God delight not in physical strength but in those who fear Him (vv. 10-11)?",
+      "What does it mean that God's 'understanding is infinite' (v. 5)?",
+      "How does this psalm's view of nature differ from both deism and pantheism?",
+      "How does the power of God's word over creation (vv. 15-18) relate to the power of His word in our lives?",
+    ],
+    christConnection:
+      "Jesus is the Word sent forth that runs swiftly — the eternal Word made flesh who governs all creation. He healed broken hearts and bound up wounds during His earthly ministry. He numbered His disciples by name and knows every one of His sheep. He delights not in human achievement but in faith and humble trust.",
+    keyVerse: {
+      reference: "Psalm 147:3",
+      text: "He healeth the broken in heart, and bindeth up their wounds.",
+    },
+  },
+
+  "psalms/148": {
+    overview:
+      "Psalm 148 is a magnificent cosmic hymn calling on all creation — from the highest heavens to the deepest seas — to praise the LORD. Angels, sun, moon, stars, heavens of heavens, and waters above the heavens are summoned to praise. Then the earth joins: sea creatures, fire, hail, snow, vapour, stormy wind, mountains, hills, trees, beasts, creeping things, and birds. Kings, princes, young men, maidens, old men, and children — all are to praise the name of the LORD, for His name alone is excellent and His glory is above the earth and heaven. He has exalted the horn of His people.",
+    themes: [
+      {
+        title: "Universal Praise from All Creation",
+        desc: "Every level of creation — heavenly, natural, animal, and human — is summoned to praise the LORD. Nothing in existence is exempt from the call to worship.",
+      },
+      {
+        title: "God's Name Alone Is Excellent",
+        desc: "The reason for universal praise is singular: God's name alone is excellent and His glory transcends heaven and earth.",
+      },
+      {
+        title: "Creation Exists to Praise",
+        desc: "The psalm reveals that praise is not merely a human activity but the fundamental purpose of all created things — everything exists to glorify its Creator.",
+      },
+    ],
+    questions: [
+      "How can non-sentient creation (sun, moon, mountains, storms) 'praise' the LORD?",
+      "What does it mean that God's name 'alone is excellent' (v. 13)?",
+      "Why does the psalm include every category of human being — kings to children, men and women (vv. 11-12)?",
+      "How does this psalm reshape our understanding of the purpose of creation?",
+      "What does it mean for God to exalt 'the horn of his people' (v. 14)?",
+    ],
+    christConnection:
+      "All things were created by Christ, through Christ, and for Christ (Colossians 1:16). The universal praise this psalm envisions will be fully realized when every knee bows and every tongue confesses that Jesus Christ is Lord (Philippians 2:10-11). He is the name above all names, the excellent one before whom all creation worships.",
+    keyVerse: {
+      reference: "Psalm 148:13",
+      text: "Let them praise the name of the LORD: for his name alone is excellent; his glory is above the earth and heaven.",
+    },
+  },
+
+  "psalms/149": {
+    overview:
+      "Psalm 149 calls for a new song to the LORD in the congregation of saints. Israel is to rejoice in their Maker, and the children of Zion are to be joyful in their King. They praise with dance, timbrel, and harp, for the LORD takes pleasure in His people and beautifies the meek with salvation. The saints are to sing aloud on their beds and hold a two-edged sword in their hand — to execute vengeance upon the heathen, bind kings with chains, and execute upon them the written judgment. This honour have all His saints.",
+    themes: [
+      {
+        title: "Joy in the King",
+        desc: "God's people are called to rejoice in their Maker and King — worship is marked by exuberant, physical, joyful celebration.",
+      },
+      {
+        title: "God Beautifies the Meek",
+        desc: "The LORD takes pleasure in His people and beautifies the humble with salvation — He adorns the lowly with His own glory.",
+      },
+      {
+        title: "Praise and the Sword Together",
+        desc: "The saints hold praise on their lips and a sword in their hands — worship and spiritual warfare are inseparable in the life of God's people.",
+      },
+    ],
+    questions: [
+      "What does it mean that God 'beautifieth the meek with salvation' (v. 4)?",
+      "How do praise and warfare go together in this psalm (vv. 6-9)?",
+      "What is the 'two-edged sword' in the believer's hand (v. 6)?",
+      "How does the idea of 'executing the judgment written' (v. 9) apply to spiritual warfare?",
+      "What does it mean that this honour belongs to 'all his saints' (v. 9)?",
+    ],
+    christConnection:
+      "Jesus is the King in whom His people rejoice. He beautifies the meek with salvation and clothes them in His righteousness. The two-edged sword is the Word of God (Hebrews 4:12, Revelation 19:15), which proceeds from Christ's mouth to execute judgment. The final victory over all enemies belongs to Christ, and His saints share in that triumph.",
+    keyVerse: {
+      reference: "Psalm 149:4",
+      text: "For the LORD taketh pleasure in his people: he will beautify the meek with salvation.",
+    },
+  },
+
+  "psalms/150": {
+    overview:
+      "Psalm 150 is the grand finale of the entire Psalter — a thunderous, all-encompassing call to praise. Praise God in His sanctuary and in the firmament of His power. Praise Him for His mighty acts and according to His excellent greatness. Praise Him with trumpet, psaltery, harp, timbrel, dance, stringed instruments, organs, loud cymbals, and high sounding cymbals. Let everything that hath breath praise the LORD. The book of Psalms, which began with the blessedness of the righteous man (Psalm 1), ends with the universal chorus of all breathing creation joining in praise to God.",
+    themes: [
+      {
+        title: "Praise in Every Place",
+        desc: "Praise fills both the sanctuary and the heavens — there is no place where God should not be praised, from the gathered assembly to the expanse of creation.",
+      },
+      {
+        title: "Praise with Every Instrument",
+        desc: "The psalm names every family of instrument — wind, string, and percussion — declaring that every form of musical expression should be consecrated to God's praise.",
+      },
+      {
+        title: "Everything That Has Breath",
+        desc: "The final verse is the Psalter's ultimate conclusion: every breathing creature exists to praise the LORD. Praise is the purpose of existence.",
+      },
+    ],
+    questions: [
+      "Why does the Psalter end with this psalm rather than another type of psalm?",
+      "What does the variety of instruments (vv. 3-5) teach about diversity in worship?",
+      "What does it mean to praise God 'according to his excellent greatness' (v. 2)?",
+      "How does the final verse — 'Let every thing that hath breath praise the LORD' (v. 6) — serve as the summary of the entire book of Psalms?",
+      "How does the journey from Psalm 1's blessed man to Psalm 150's universal praise form a complete picture of the spiritual life?",
+    ],
+    christConnection:
+      "Christ is the reason every breath becomes praise. Through His redemptive work, the fallen creation that groaned under the curse is restored to its original purpose — worshipping God. He is the one praised by every instrument and every voice. The book of Psalms, which testified to Him throughout, fittingly ends with the universal praise that His kingdom will bring — when every tongue confesses and every breath glorifies the LORD.",
+    keyVerse: {
+      reference: "Psalm 150:6",
+      text: "Let every thing that hath breath praise the LORD. Praise ye the LORD.",
     },
   },
 };
