@@ -18,10 +18,16 @@ export function useTranslation() {
   return useContext(TranslationContext);
 }
 
+// All public domain translations — order matters (shown in UI)
 const PUBLIC_DOMAIN_TRANSLATIONS = [
   { abbreviation: 'kjv', name: 'King James Version' },
+  { abbreviation: 'jst', name: 'Joseph Smith Translation' },
+  { abbreviation: 'bsb', name: 'Berean Standard Bible' },
   { abbreviation: 'asv', name: 'American Standard Version' },
   { abbreviation: 'web', name: 'World English Bible' },
+
+  { abbreviation: 'lsv', name: 'Literal Standard Version' },
+  { abbreviation: 'dra', name: 'Douay-Rheims American' },
 ];
 
 export function TranslationProvider({ children }: { children: ReactNode }) {
