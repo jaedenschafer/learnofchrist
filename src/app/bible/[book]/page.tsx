@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { getAllBooks, getBookByName } from '@/data/books';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 
@@ -17,9 +18,31 @@ function bookNameToSlug(name: string): string {
 
 export async function generateStaticParams() {
   const books = getAllBooks();
-  return books
-    .filter(book => book.name === 'Genesis' || book.name === 'John')
-    .map((book) => ({ book: bookNameToSlug(book.name) }));
+  return books.map((book) => ({ book: bookNameToSlug(book.name) }));
+}
+
+export async function generateMetadata({ params }: BookPageProps): Promise<Metadata> {
+  const { book } = await params;
+  const bookName = slugToBookName(book);
+  const book_obj = getBookByName(bookName);
+
+  if (!book_obj) {
+    return { title: 'Book Not Found | Learn of Christ' };
+  }
+
+  const testament = book_obj.testament === 'old' ? 'Old Testament' : 'New Testament';
+  return {
+    title: `${book_obj.name} - ${testament} Bible Study | Learn of Christ`,
+    description: `${book_obj.description} Study all ${book_obj.chapters} chapters of ${book_obj.name} with commentary, key themes, and connections to Christ.`,
+    openGraph: {
+      title: `${book_obj.name} — Bible Study Guide`,
+      description: book_obj.description,
+      url: `https://learnofchrist.com/bible/${book}`,
+    },
+    alternates: {
+      canonical: `https://learnofchrist.com/bible/${book}`,
+    },
+  };
 }
 
 export default async function BookPage({ params }: BookPageProps) {

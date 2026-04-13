@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { getAllBooks, getBookByName } from '@/data/books';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 import ChapterNav from '@/components/ChapterNav';
@@ -22,15 +23,45 @@ function bookNameToSlug(name: string): string {
 export async function generateStaticParams() {
   const books = getAllBooks();
   const params = [];
-  const genesisBook = books.find(b => b.name === 'Genesis');
-  if (genesisBook) {
-    for (let i = 1; i <= 3; i++) params.push({ book: bookNameToSlug(genesisBook.name), chapter: i.toString() });
+
+  // Pre-render every chapter of every book (we have all 31,102 KJV verses)
+  for (const book of books) {
+    const slug = bookNameToSlug(book.name);
+    for (let i = 1; i <= book.chapters; i++) {
+      params.push({ book: slug, chapter: i.toString() });
+    }
   }
-  const johnBook = books.find(b => b.name === 'John');
-  if (johnBook) {
-    for (let i = 1; i <= 3; i++) params.push({ book: bookNameToSlug(johnBook.name), chapter: i.toString() });
-  }
+
   return params;
+}
+
+export async function generateMetadata({ params }: ChapterPageProps): Promise<Metadata> {
+  const { book, chapter: chapterStr } = await params;
+  const bookName = slugToBookName(book);
+  const book_obj = getBookByName(bookName);
+  const chapter = parseInt(chapterStr, 10);
+
+  if (!book_obj) {
+    return { title: 'Chapter Not Found | Learn of Christ' };
+  }
+
+  const title = `${book_obj.name} ${chapter} - Bible Study & Commentary | Learn of Christ`;
+  const description = `Read ${book_obj.name} Chapter ${chapter} with study guide, key themes, and connection to Christ. Compare KJV, ASV, and WEB translations side by side.`;
+
+  return {
+    title,
+    description,
+    keywords: `${book_obj.name} ${chapter}, ${book_obj.name} chapter ${chapter}, Bible study, ${book_obj.name} commentary, scripture study, Jesus Christ`,
+    openGraph: {
+      title: `${book_obj.name} ${chapter} — Study Guide`,
+      description,
+      url: `https://learnofchrist.com/bible/${book}/${chapter}`,
+      type: 'article',
+    },
+    alternates: {
+      canonical: `https://learnofchrist.com/bible/${book}/${chapter}`,
+    },
+  };
 }
 
 export default async function ChapterPage({ params }: ChapterPageProps) {
@@ -58,8 +89,39 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
   const previousChapter = chapter > 1 ? chapter - 1 : null;
   const nextChapter = chapter < book_obj.chapters ? chapter + 1 : null;
 
+  // Schema.org structured data for SEO
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: `${book_obj.name} Chapter ${chapter} — Bible Study Guide`,
+    description: `Study ${book_obj.name} Chapter ${chapter} with commentary, key themes, and connection to Christ.`,
+    url: `https://learnofchrist.com/bible/${book}/${chapter}`,
+    publisher: {
+      '@type': 'Organization',
+      name: 'Learn of Christ',
+      url: 'https://learnofchrist.com',
+    },
+    isPartOf: {
+      '@type': 'Book',
+      name: 'The Holy Bible',
+      author: { '@type': 'Organization', name: 'Various Authors' },
+    },
+    breadcrumb: {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Bible', item: 'https://learnofchrist.com/bible' },
+        { '@type': 'ListItem', position: 2, name: book_obj.name, item: `https://learnofchrist.com/bible/${book}` },
+        { '@type': 'ListItem', position: 3, name: `Chapter ${chapter}`, item: `https://learnofchrist.com/bible/${book}/${chapter}` },
+      ],
+    },
+  };
+
   return (
     <div className="page-container">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="max-w-3xl mx-auto">
         <BreadcrumbNav items={[
           { label: 'Bible', href: '/bible' },
