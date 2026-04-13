@@ -17,7 +17,7 @@ const config: Config = {
       },
       fontFamily: {
         'sans': ['Inter', 'sans-serif'],
-        'serif': ['Georgia', 'Garamond', 'serif'],
+        'serif': ['Playfair Display', 'Georgia', 'Garamond', 'serif'],
       },
     },
   },
