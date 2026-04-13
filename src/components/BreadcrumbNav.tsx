@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 interface BreadcrumbItem {
   label: string;
-  href: string;
+  href?: string;
 }
 
 interface BreadcrumbNavProps {
