@@ -21,7 +21,7 @@ export default function BreadcrumbNav({ items = [] }: BreadcrumbNavProps) {
           {index === items.length - 1 ? (
             <span>{item.label}</span>
           ) : (
-            <Link href={item.href}>{item.label}</Link>
+            <Link href={item.href ?? '#'}>{item.label}</Link>
           )}
         </div>
       ))}
