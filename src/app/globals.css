@@ -782,3 +782,245 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: calc(2rem + env(safe-area-inset-bottom));
   }
 }
+
+/* ═══════════════════════════════════════════════════════
+   Base44-inspired Homepage Styles
+   ═══════════════════════════════════════════════════════ */
+
+/* ── Hero ── */
+.b44-hero {
+  padding: 7rem 1rem 6rem;
+  background-color: #FAF9F7;
+}
+
+@media (min-width: 640px) {
+  .b44-hero {
+    padding: 9rem 1rem 7rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .b44-hero {
+    padding: 11rem 1rem 8rem;
+  }
+}
+
+.b44-hero-title {
+  font-family: var(--font-serif);
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--color-navy);
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .b44-hero-title {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .b44-hero-title {
+    font-size: 4.25rem;
+  }
+}
+
+.b44-hero-sub {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: rgba(26, 26, 46, 0.55);
+  max-width: 36rem;
+  margin: 0 auto 2.5rem;
+}
+
+@media (min-width: 640px) {
+  .b44-hero-sub {
+    font-size: 1.25rem;
+  }
+}
+
+/* ── Prompt Card (chat-box style) ── */
+.b44-prompt-card {
+  max-width: 32rem;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+  padding: 1.25rem 1.5rem;
+  text-align: left;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+/* ── Chips (quick-start links inside prompt card) ── */
+.b44-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.9rem;
+  border-radius: 100px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-navy);
+  background-color: #F0EEEB;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  transition: all 0.2s;
+}
+
+.b44-chip:hover {
+  background-color: var(--color-navy);
+  color: #ffffff;
+}
+
+/* ── General Card ── */
+.b44-card {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+}
+
+/* ── Section ── */
+.b44-section {
+  padding: 5rem 0;
+}
+
+@media (min-width: 640px) {
+  .b44-section {
+    padding: 6rem 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .b44-section {
+    padding: 7rem 0;
+  }
+}
+
+.b44-section-title {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-navy);
+  line-height: 1.15;
+}
+
+@media (min-width: 640px) {
+  .b44-section-title {
+    font-size: 2.75rem;
+  }
+}
+
+/* ── Feature Row (numbered: 01/04, 02/04…) ── */
+.b44-feature-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 24px;
+  padding: 2rem;
+  transition: box-shadow 0.3s;
+}
+
+.b44-feature-row:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+@media (min-width: 768px) {
+  .b44-feature-row {
+    grid-template-columns: 1fr 1fr;
+    padding: 2.5rem;
+    gap: 2.5rem;
+  }
+}
+
+.b44-feature-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.b44-feature-num {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgba(26, 26, 46, 0.3);
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.05em;
+}
+
+.b44-feature-heading {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-navy);
+  line-height: 1.2;
+  margin-bottom: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .b44-feature-heading {
+    font-size: 1.75rem;
+  }
+}
+
+.b44-feature-desc {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: rgba(26, 26, 46, 0.55);
+  margin-bottom: 1.25rem;
+}
+
+.b44-feature-link {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-gold-dark);
+  transition: color 0.2s;
+}
+
+.b44-feature-link:hover {
+  color: var(--color-gold);
+}
+
+.b44-feature-visual {
+  border-radius: 16px;
+  padding: 1.25rem;
+  min-height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* ── FAQ Row ── */
+.b44-faq-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+  padding: 1.25rem 1.5rem;
+  transition: all 0.25s;
+}
+
+.b44-faq-row:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  transform: translateY(-1px);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+/* ── CTA Block ── */
+.b44-cta {
+  position: relative;
+  overflow: hidden;
+  border-radius: 28px;
+  background: linear-gradient(135deg, #1a1a2e 0%, #2a2444 50%, #3d2a1e 100%);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .b44-cta {
+    padding: 5rem 3rem;
+  }
+}
