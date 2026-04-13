@@ -589,6 +589,47 @@ h1, h2, h3, h4, h5, h6 {
   pointer-events: none;
 }
 
+/* ─── Scripture Body (chapter verse text) ─── */
+.scripture-body {
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  font-size: 1.125rem;    /* 18px — matches churchofjesuschrist.org */
+  line-height: 1.75;      /* 31.5px — generous for readability */
+  color: var(--color-navy);
+}
+
+.scripture-verse {
+  margin-bottom: 0.875rem;  /* 14px spacing between verses */
+  text-indent: 0;
+}
+
+.scripture-verse:last-child {
+  margin-bottom: 0;
+}
+
+.scripture-verse-num {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;        /* 12px */
+  font-weight: 700;
+  color: var(--color-gold-dark);
+  margin-right: 0.25rem;
+  vertical-align: super;
+  line-height: 0;
+  user-select: none;
+}
+
+.scripture-verse-link {
+  color: var(--color-gold-dark);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: rgba(184, 134, 78, 0.4);
+  cursor: pointer;
+}
+
+.scripture-verse-link:hover {
+  color: var(--color-gold);
+  text-decoration-color: var(--color-gold);
+}
+
 /* ─── Stat Counter ─── */
 .stat-item {
   text-align: center;

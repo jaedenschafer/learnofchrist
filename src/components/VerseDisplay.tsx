@@ -67,34 +67,31 @@ export default function VerseDisplay({ bookSlug, chapter, initialVerses, explain
         </div>
       )}
 
-      <div className="flex items-center justify-between mb-4">
+      <div className="flex items-center justify-between mb-6">
         <h2 className="font-sans text-base font-semibold text-navy">Scripture Text</h2>
         <span className="pill pill-gold !text-[0.6rem]">{loadedTranslation.toUpperCase()}</span>
       </div>
 
-      <div className="space-y-0">
+      <div className="scripture-body">
         {verses.map((verse) => {
           const hasExplanation = explainedVerses.includes(verse.verse_number);
           return (
-            <span key={verse.verse_number} className="inline">
+            <p key={verse.verse_number} className="scripture-verse">
               {hasExplanation ? (
                 <a
                   href={`/bible/${bookSlug}/${chapter}/${verse.verse_number}`}
-                  className="text-[0.6rem] font-bold text-gold mr-0.5 select-none hover:text-gold/90 cursor-pointer underline decoration-gold/30 decoration-dotted"
+                  className="scripture-verse-num scripture-verse-link"
                   title={`Read explanation of verse ${verse.verse_number}`}
-                  style={{ verticalAlign: 'super' }}
                 >
                   {verse.verse_number}
                 </a>
               ) : (
-                <sup className="text-[0.6rem] font-bold text-gold/70 mr-0.5 select-none">
+                <span className="scripture-verse-num">
                   {verse.verse_number}
-                </sup>
+                </span>
               )}
-              <span className="text-sm text-navy/75 leading-[1.85]">
-                {verse.text}{' '}
-              </span>
-            </span>
+              {verse.text}
+            </p>
           );
         })}
       </div>
