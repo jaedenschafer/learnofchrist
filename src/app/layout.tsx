@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import { TranslationProvider } from '@/lib/TranslationContext';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://learnofchrist.com'),
@@ -15,13 +16,7 @@ export const metadata: Metadata = {
     url: 'https://learnofchrist.com',
     title: 'Learn of Christ',
     description: 'Deepen your understanding of Jesus Christ through scripture study',
-    images: [
-      {
-        url: '/og-image.png',
-        width: 1200,
-        height: 630,
-      },
-    ],
+    images: [{ url: '/og-image.png', width: 1200, height: 630 }],
   },
 };
 
@@ -33,11 +28,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="flex flex-col min-h-screen">
-        <Navbar />
-        <main className="flex-grow">
-          {children}
-        </main>
-        <Footer />
+        <TranslationProvider>
+          <Navbar />
+          <main className="flex-grow">
+            {children}
+          </main>
+          <Footer />
+        </TranslationProvider>
       </body>
     </html>
   );

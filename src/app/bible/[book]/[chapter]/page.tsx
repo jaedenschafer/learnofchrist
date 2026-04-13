@@ -2,6 +2,9 @@ import Link from 'next/link';
 import { getAllBooks, getBookByName } from '@/data/books';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 import ChapterNav from '@/components/ChapterNav';
+import TranslationSwitcher from '@/components/TranslationSwitcher';
+import VerseDisplay from '@/components/VerseDisplay';
+import { getVerses } from '@/lib/supabase';
 
 interface ChapterPageProps {
   params: Promise<{ book: string; chapter: string }>;
@@ -48,6 +51,10 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
     );
   }
 
+  // Fetch real KJV verses from Supabase at build/request time
+  const initialVerses = await getVerses(book, chapter, 'kjv');
+  const hasVerses = initialVerses.length > 0;
+
   const previousChapter = chapter > 1 ? chapter - 1 : null;
   const nextChapter = chapter < book_obj.chapters ? chapter + 1 : null;
 
@@ -64,11 +71,29 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
         <div className="card mb-4">
           <span className="pill pill-sage mb-2 inline-block">{book_obj.name}</span>
           <h1 className="font-serif text-3xl sm:text-4xl font-bold text-navy mb-2">Chapter {chapter}</h1>
-          <p className="text-sm text-navy/50">A study guide to understand this chapter and its connection to Christ.</p>
+          <p className="text-sm text-navy/50">
+            {hasVerses
+              ? `${initialVerses.length} verses — switch translations with the toolbar below.`
+              : 'A study guide to understand this chapter and its connection to Christ.'}
+          </p>
         </div>
 
+        {/* Translation Switcher - sticky toolbar */}
+        {hasVerses && <TranslationSwitcher />}
+
         {/* Content Sections */}
-        <div className="space-y-3">
+        <div className="space-y-3 mt-4">
+
+          {/* Real Bible Text */}
+          {hasVerses && (
+            <VerseDisplay
+              bookSlug={book}
+              chapter={chapter}
+              initialVerses={initialVerses}
+            />
+          )}
+
+          {/* Overview */}
           <div className="card">
             <h2 className="font-sans text-base font-semibold text-navy mb-3">Overview</h2>
             <p className="text-sm text-navy/60 leading-relaxed mb-3">
@@ -79,6 +104,7 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
             </p>
           </div>
 
+          {/* Key Themes */}
           <div className="card">
             <h2 className="font-sans text-base font-semibold text-navy mb-3">Key Themes</h2>
             <div className="space-y-3">
@@ -98,22 +124,7 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
             </div>
           </div>
 
-          <div className="card">
-            <h2 className="font-sans text-base font-semibold text-navy mb-3">Verse Highlights</h2>
-            <div className="space-y-3">
-              {[
-                { range: 'Verses 1-5', note: 'Opening verses establish context and introduce main characters or events.' },
-                { range: 'Verses 6-10', note: 'Central action or teaching — notice the turning point.' },
-                { range: 'Verses 11-End', note: 'Resolution or questions pointing toward the next chapter.' },
-              ].map((v, i) => (
-                <div key={i} className="border-l-[3px] border-gold/60 pl-3.5 py-1">
-                  <p className="font-sans text-xs font-semibold text-navy">{v.range}</p>
-                  <p className="text-xs text-navy/50 mt-0.5 leading-relaxed">{v.note}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-
+          {/* Study Questions */}
           <div className="card">
             <h2 className="font-sans text-base font-semibold text-navy mb-3">Study Questions</h2>
             <div className="space-y-2.5">
@@ -132,6 +143,7 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
             </div>
           </div>
 
+          {/* Connection to Christ */}
           <div className="card">
             <h2 className="font-sans text-base font-semibold text-navy mb-3">Connection to Christ</h2>
             <p className="text-sm text-navy/60 leading-relaxed mb-3">
@@ -144,6 +156,7 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
             </div>
           </div>
 
+          {/* Personal Reflection */}
           <div className="card bg-sage/[0.06]">
             <h2 className="font-sans text-base font-semibold text-navy mb-2">Personal Reflection</h2>
             <p className="text-sm text-navy/55 leading-relaxed">
