@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import { TranslationProvider } from '@/lib/TranslationContext';
 import { StudyLevelProvider } from '@/lib/StudyLevelContext';
 import { DenominationProvider } from '@/lib/DenominationContext';
+import { ReadingPrefsProvider } from '@/lib/ReadingPrefsContext';
 
 export const viewport: Viewport = {
   themeColor: '#F5F5F7',
@@ -57,11 +58,13 @@ export default function RootLayout({
         <TranslationProvider>
           <StudyLevelProvider>
             <DenominationProvider>
-              <Navbar />
-              <main className="flex-grow">
-                {children}
-              </main>
-              <Footer />
+              <ReadingPrefsProvider>
+                <Navbar />
+                <main className="flex-grow">
+                  {children}
+                </main>
+                <Footer />
+              </ReadingPrefsProvider>
             </DenominationProvider>
           </StudyLevelProvider>
         </TranslationProvider>
