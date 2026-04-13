@@ -3,6 +3,8 @@ import { getAllBooks } from '@/data/books';
 import { getAllTopics } from '@/data/topics';
 import { getAllQuestions } from '@/data/questions';
 import { getAllBlogPosts } from '@/data/blog-posts';
+import { getAllStudyPlans } from '@/data/study-plans';
+import { verseExplanations } from '@/data/verse-explanations';
 
 function bookNameToSlug(name: string): string {
   return name.toLowerCase().replace(/\s+/g, '-').replace(/'/g, '');
@@ -78,5 +80,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...bookPages, ...chapterPages, ...topicPages, ...questionPages, ...blogPages];
+  // Study plan pages
+  const studyPlanPages: MetadataRoute.Sitemap = getAllStudyPlans().map((plan) => ({
+    url: `${baseUrl}/study-plans/${plan.id}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
+
+  // Verse explanation pages (high priority — most searched)
+  const versePages: MetadataRoute.Sitemap = Object.keys(verseExplanations).map((key) => ({
+    url: `${baseUrl}/bible/${key}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.9,
+  }));
+
+  return [...staticPages, ...bookPages, ...chapterPages, ...topicPages, ...questionPages, ...blogPages, ...studyPlanPages, ...versePages];
 }
