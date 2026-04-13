@@ -26,6 +26,7 @@ const PUBLIC_DOMAIN_TRANSLATIONS = [
   { abbreviation: 'asv', name: 'American Standard Version' },
   { abbreviation: 'web', name: 'World English Bible' },
 
+  { abbreviation: 'nwt', name: 'New World Translation' },
   { abbreviation: 'lsv', name: 'Literal Standard Version' },
   { abbreviation: 'dra', name: 'Douay-Rheims American' },
 ];

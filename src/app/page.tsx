@@ -160,7 +160,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-10">
             <h2 className="text-[1.75rem] sm:text-[2.125rem] font-bold tracking-tight text-[#1D1D1F]">Browse the Bible</h2>
-            <p className="text-[#86868B] mt-2">All 72 books across 7 translations.</p>
+            <p className="text-[#86868B] mt-2">All 72 books across 8 translations.</p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">

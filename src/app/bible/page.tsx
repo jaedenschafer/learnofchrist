@@ -4,7 +4,7 @@ import BookGrid from '@/components/BookGrid';
 
 export const metadata = {
   title: 'Bible Study Hub — Read & Study All 72 Books | Learn of Christ',
-  description: 'Read every chapter of the Bible with 7 translations including KJV, JST, BSB, ASV, WEB, LSV, and DRA. Study guides, key themes, and connections to Christ.',
+  description: 'Read every chapter of the Bible with 8 translations including KJV, JST, NWT, BSB, ASV, WEB, LSV, and DRA. Study guides, key themes, and connections to Christ.',
   openGraph: {
     title: 'Bible Study Hub — Learn of Christ',
     description: 'Read every chapter of the Bible with study guides and real-time translation switching.',
@@ -34,7 +34,7 @@ export default function BiblePage() {
       <div className="max-w-4xl mx-auto">
         <div className="page-header">
           <h1>Bible Study Hub</h1>
-          <p>All 66 books plus 6 Deuterocanonical books, with real-time translation switching between 7 translations including KJV, JST, BSB, and DRA.</p>
+          <p>All 66 books plus 6 Deuterocanonical books, with real-time translation switching between 8 translations including KJV, JST, NWT, BSB, and DRA.</p>
         </div>
 
         {/* Quick Stats */}
@@ -48,7 +48,7 @@ export default function BiblePage() {
             <p className="text-xs text-[#86868B] mt-0.5">Chapters</p>
           </div>
           <div className="bg-white rounded-2xl p-4 text-center">
-            <p className="text-2xl font-bold text-[#007AFF]">7</p>
+            <p className="text-2xl font-bold text-[#007AFF]">8</p>
             <p className="text-xs text-[#86868B] mt-0.5">Translations</p>
           </div>
         </div>
