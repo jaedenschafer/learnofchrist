@@ -6,14 +6,19 @@
 @theme {
   --color-navy: #1a1a2e;
   --color-gold: #d4a574;
+  --color-gold-dark: #b8864e;
   --color-gold-light: #e8c9a4;
   --color-cream: #faf8f5;
   --color-sage: #8b9e8b;
   --color-brown: #5c4033;
   --color-warm-white: #fffdf9;
+  --color-warm-gray: #f7f6f3;
 
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-serif: 'Playfair Display', Georgia, serif;
+
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.03);
+  --shadow-card-hover: 0 4px 12px rgba(0,0,0,0.06), 0 12px 28px rgba(0,0,0,0.06);
 }
 
 /* ─── Base ─── */
@@ -23,7 +28,7 @@ html {
 }
 
 body {
-  background-color: #f2f1ed;
+  background-color: #ffffff;
   color: var(--color-navy);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
@@ -34,83 +39,161 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-serif);
 }
 
-/* ─── iOS-style Page Container ─── */
-.page-container {
+/* ─── Section Block ─── */
+.section-block {
+  padding: 4rem 0;
+}
+
+@media (min-width: 640px) {
+  .section-block {
+    padding: 5rem 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-block {
+    padding: 6rem 0;
+  }
+}
+
+.bg-warm-gray {
+  background-color: var(--color-warm-gray);
+}
+
+/* ─── Hero (Home — clean white) ─── */
+.hero-home {
+  padding: 6rem 1rem 5rem;
+  background: linear-gradient(180deg, #ffffff 0%, var(--color-warm-gray) 100%);
+}
+
+@media (min-width: 640px) {
+  .hero-home {
+    padding: 8rem 1rem 6rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-home {
+    padding: 10rem 1rem 7rem;
+  }
+}
+
+/* ─── Dark Hero (for inner pages if needed) ─── */
+.hero-section {
   min-height: 100vh;
-  padding: 1rem 1rem 3rem;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(160deg, #0f0f1e 0%, #1a1a2e 30%, #2a1f2e 50%, #3d2a1e 80%, #5c4033 100%);
+  color: var(--color-cream);
+  padding: 1rem;
 }
 
-@media (min-width: 640px) {
-  .page-container {
-    padding: 2rem 1.5rem 4rem;
-  }
-}
-
-/* ─── Page Header (iOS large title style) ─── */
-.page-header {
-  padding: 1.5rem 0 1rem;
-  text-align: center;
-}
-
-.page-header h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--color-navy);
-  line-height: 1.2;
-  margin-bottom: 0.5rem;
-}
-
-.page-header p {
-  font-size: 0.95rem;
-  color: rgba(26, 26, 46, 0.55);
-  line-height: 1.5;
-  max-width: 32rem;
-  margin: 0 auto;
-}
-
-@media (min-width: 640px) {
-  .page-header {
-    padding: 2rem 0 1.5rem;
-  }
-  .page-header h1 {
-    font-size: 2.5rem;
-  }
-  .page-header p {
-    font-size: 1.05rem;
-  }
-}
-
-@media (min-width: 768px) {
-  .page-header h1 {
-    font-size: 3rem;
-  }
-  .page-header p {
-    font-size: 1.125rem;
-  }
-}
-
-/* ─── Section Header ─── */
-.section-header {
-  font-family: var(--font-sans);
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: rgba(26, 26, 46, 0.4);
-  padding: 0 0.25rem;
-  margin-bottom: 0.75rem;
-}
-
-/* ─── Section Divider ─── */
-.section-divider {
-  width: 48px;
-  height: 3px;
-  background: linear-gradient(90deg, var(--color-gold), var(--color-gold-light));
-  border-radius: 2px;
-  margin: 0 auto 1.5rem;
+.hero-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(212, 165, 116, 0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 80% 80%, rgba(92, 64, 51, 0.15) 0%, transparent 50%);
+  pointer-events: none;
 }
 
 /* ─── Buttons ─── */
+.btn-dark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  background-color: var(--color-navy);
+  color: #ffffff;
+  padding: 0.85rem 2rem;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.01em;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 8px rgba(26, 26, 46, 0.15);
+}
+
+.btn-dark:hover {
+  background-color: #2a2a4e;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(26, 26, 46, 0.2);
+}
+
+.btn-dark:active {
+  transform: scale(0.98);
+}
+
+.btn-outline-soft {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  border: 1.5px solid rgba(26, 26, 46, 0.12);
+  color: var(--color-navy);
+  padding: 0.85rem 2rem;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  background: transparent;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-outline-soft:hover {
+  background-color: rgba(26, 26, 46, 0.04);
+  border-color: rgba(26, 26, 46, 0.2);
+}
+
+.btn-outline-soft:active {
+  transform: scale(0.98);
+}
+
+.btn-white {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  background-color: #ffffff;
+  color: var(--color-navy);
+  padding: 0.85rem 2rem;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-white:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.btn-outline-white {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+  padding: 0.85rem 2rem;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  background: transparent;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-outline-white:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Legacy buttons (used by inner pages) */
 .btn-primary {
   display: inline-flex;
   align-items: center;
@@ -135,7 +218,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-primary:active {
   transform: scale(0.98);
-  box-shadow: 0 1px 4px rgba(212, 165, 116, 0.2);
 }
 
 .btn-secondary {
@@ -193,7 +275,116 @@ h1, h2, h3, h4, h5, h6 {
   cursor: not-allowed;
 }
 
-/* ─── iOS-style Cards ─── */
+/* Testament Pill */
+.btn-testament {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 1rem;
+  border-radius: 100px;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.01em;
+}
+
+/* ─── Feature Cards (home page grid) ─── */
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 1.5rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.feature-card:hover {
+  box-shadow: var(--shadow-card-hover);
+  transform: translateY(-3px);
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+.feature-card-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+/* ─── Book Pills (Bible browser) ─── */
+.book-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--color-navy);
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  transition: all 0.2s;
+}
+
+.book-pill:hover {
+  background-color: var(--color-navy);
+  color: #ffffff;
+  border-color: var(--color-navy);
+}
+
+/* ─── Topic Cards (home page) ─── */
+.topic-card {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  padding: 1.25rem;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.topic-card:hover {
+  box-shadow: var(--shadow-card-hover);
+  transform: translateY(-2px);
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+/* ─── Question Rows ─── */
+.question-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  padding: 1.25rem 1.5rem;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.question-row:hover {
+  box-shadow: var(--shadow-card-hover);
+  transform: translateY(-1px);
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+/* ─── CTA Banner (new dark style) ─── */
+.cta-banner-new {
+  position: relative;
+  overflow: hidden;
+  border-radius: 24px;
+  background: linear-gradient(135deg, #1a1a2e 0%, #2a2444 50%, #3d2a1e 100%);
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .cta-banner-new {
+    padding: 4rem 2.5rem;
+    border-radius: 28px;
+  }
+}
+
+/* ─── Legacy Cards (inner pages) ─── */
 .card {
   background-color: white;
   border-radius: 16px;
@@ -214,7 +405,6 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(-2px);
 }
 
-/* iOS Grouped Card (no individual hover, used for stacked sections) */
 .card-grouped {
   background-color: white;
   border-radius: 16px;
@@ -243,7 +433,44 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* ─── iOS-style Pill / Tag ─── */
+/* ─── Page Headers (inner pages) ─── */
+.page-header {
+  padding: 1.5rem 0 1rem;
+  text-align: center;
+}
+
+.page-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-navy);
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+}
+
+.page-header p {
+  font-size: 0.95rem;
+  color: rgba(26, 26, 46, 0.55);
+  line-height: 1.5;
+  max-width: 32rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 640px) {
+  .page-header {
+    padding: 2rem 0 1.5rem;
+  }
+  .page-header h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .page-header h1 {
+    font-size: 3rem;
+  }
+}
+
+/* ─── Pills / Tags ─── */
 .pill {
   display: inline-flex;
   align-items: center;
@@ -265,37 +492,44 @@ h1, h2, h3, h4, h5, h6 {
   color: #5a6e5a;
 }
 
-/* ─── Hero Section ─── */
-.hero-section {
-  min-height: 100vh;
-  min-height: 100dvh;
+/* ─── Section Divider ─── */
+.section-divider {
+  width: 48px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-gold), var(--color-gold-light));
+  border-radius: 2px;
+  margin: 0 auto 1.5rem;
+}
+
+/* ─── Section Header ─── */
+.section-header {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(26, 26, 46, 0.4);
+  padding: 0 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
+/* ─── Feature Icon (inner pages) ─── */
+.feature-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  overflow: hidden;
-  background: linear-gradient(160deg, #0f0f1e 0%, #1a1a2e 30%, #2a1f2e 50%, #3d2a1e 80%, #5c4033 100%);
-  color: var(--color-cream);
-  padding: 1rem;
+  flex-shrink: 0;
 }
 
-.hero-section::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(212, 165, 116, 0.08) 0%, transparent 60%),
-    radial-gradient(ellipse 60% 40% at 80% 80%, rgba(92, 64, 51, 0.15) 0%, transparent 50%);
-  pointer-events: none;
-}
-
-.hero-section::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23d4a574' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  opacity: 0.5;
-  pointer-events: none;
+@media (min-width: 640px) {
+  .feature-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 14px;
+  }
 }
 
 /* ─── Scripture Quote ─── */
@@ -387,22 +621,21 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
-/* ─── Feature Icon (iOS style) ─── */
-.feature-icon {
-  width: 48px;
-  height: 48px;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
+/* ─── CTA Banner (legacy) ─── */
+.cta-banner {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #1a1a2e 0%, #2a1f2e 50%, #5c4033 100%);
+  color: var(--color-cream);
+  padding: 2.5rem 1.5rem;
+  text-align: center;
 }
 
 @media (min-width: 640px) {
-  .feature-icon {
-    width: 52px;
-    height: 52px;
-    border-radius: 14px;
+  .cta-banner {
+    padding: 3.5rem 2.5rem;
+    border-radius: 24px;
   }
 }
 
@@ -430,7 +663,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.25rem;
 }
 
-/* ─── Numbered Step (iOS style) ─── */
+/* ─── Numbered Step ─── */
 .step-number {
   width: 28px;
   height: 28px;
@@ -445,21 +678,15 @@ h1, h2, h3, h4, h5, h6 {
   flex-shrink: 0;
 }
 
-/* ─── CTA Banner ─── */
-.cta-banner {
-  position: relative;
-  overflow: hidden;
-  border-radius: 20px;
-  background: linear-gradient(135deg, #1a1a2e 0%, #2a1f2e 50%, #5c4033 100%);
-  color: var(--color-cream);
-  padding: 2.5rem 1.5rem;
-  text-align: center;
+/* ─── Page Container ─── */
+.page-container {
+  min-height: 100vh;
+  padding: 1rem 1rem 3rem;
 }
 
 @media (min-width: 640px) {
-  .cta-banner {
-    padding: 3.5rem 2.5rem;
-    border-radius: 24px;
+  .page-container {
+    padding: 2rem 1.5rem 4rem;
   }
 }
 
