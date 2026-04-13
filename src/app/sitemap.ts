@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { getAllBooks } from '@/data/books';
 import { getAllTopics } from '@/data/topics';
 import { getAllQuestions } from '@/data/questions';
+import { getAllBlogPosts } from '@/data/blog-posts';
 
 function bookNameToSlug(name: string): string {
   return name.toLowerCase().replace(/\s+/g, '-').replace(/'/g, '');
@@ -69,5 +70,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...bookPages, ...chapterPages, ...topicPages, ...questionPages];
+  // Blog posts
+  const blogPages: MetadataRoute.Sitemap = getAllBlogPosts().map((post) => ({
+    url: `${baseUrl}/blog/${post.id}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...bookPages, ...chapterPages, ...topicPages, ...questionPages, ...blogPages];
 }
