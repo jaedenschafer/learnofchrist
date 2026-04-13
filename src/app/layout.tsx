@@ -3,6 +3,7 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { TranslationProvider } from '@/lib/TranslationContext';
+import { StudyLevelProvider } from '@/lib/StudyLevelContext';
 
 export const viewport: Viewport = {
   themeColor: '#F5F5F7',
@@ -53,11 +54,13 @@ export default function RootLayout({
           }}
         />
         <TranslationProvider>
-          <Navbar />
-          <main className="flex-grow">
-            {children}
-          </main>
-          <Footer />
+          <StudyLevelProvider>
+            <Navbar />
+            <main className="flex-grow">
+              {children}
+            </main>
+            <Footer />
+          </StudyLevelProvider>
         </TranslationProvider>
       </body>
     </html>

@@ -6,6 +6,7 @@ import BreadcrumbNav from '@/components/BreadcrumbNav';
 import ChapterNav from '@/components/ChapterNav';
 import TranslationSwitcher from '@/components/TranslationSwitcher';
 import VerseDisplay from '@/components/VerseDisplay';
+import StudyGuide from '@/components/StudyGuide';
 import { getVerses } from '@/lib/supabase';
 import { verseExplanations } from '@/data/verse-explanations';
 
@@ -169,98 +170,18 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
             />
           )}
 
-          {/* Key Verse highlight (if chapter-specific content exists) */}
-          {content && (
-            <div className="bg-[#007AFF]/[0.04] border-l-[3px] border-[#007AFF]/30 rounded-2xl p-6">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="pill bg-[#007AFF]/[0.08] text-[#007AFF] text-sm">Key Verse</span>
-                <span className="text-sm font-medium text-[#AEAEB2]">{content.keyVerse.reference}</span>
-              </div>
-              <p className="text-lg text-[#1D1D1F]/80 leading-relaxed italic">
-                &ldquo;{content.keyVerse.text}&rdquo;
-              </p>
-            </div>
-          )}
-
-          {/* Overview */}
-          <div className="bg-white rounded-2xl p-6">
-            <h2 className="font-sans text-lg font-bold text-[#1D1D1F] mb-3">Overview</h2>
-            <p className="text-base text-[#86868B] leading-relaxed">
-              {content
-                ? content.overview
-                : `${book_obj.name} Chapter ${chapter} continues the biblical narrative and provides important insights into God's character and His plan for redemption. As you study this chapter, discover themes of faith, obedience, grace, and God's unfailing love.`}
-            </p>
-          </div>
-
-          {/* Key Themes */}
-          <div className="bg-white rounded-2xl p-6">
-            <h2 className="font-sans text-lg font-bold text-[#1D1D1F] mb-3">Key Themes</h2>
-            <div className="space-y-4">
-              {(content
-                ? content.themes
-                : [
-                    { title: "God's Faithfulness", desc: "God's consistent character and His commitment to covenant promises." },
-                    { title: "Human Response", desc: "Various responses to God's word — showing consequences of belief and doubt." },
-                    { title: "Spiritual Truth", desc: "Spiritual principles applicable to our faith journey today." },
-                  ]
-              ).map((theme, i) => (
-                <div key={i} className="flex gap-3">
-                  <div className="step-number">{i + 1}</div>
-                  <div>
-                    <h3 className="font-sans text-base font-semibold text-[#1D1D1F]">{theme.title}</h3>
-                    <p className="text-sm text-[#86868B] mt-0.5 leading-relaxed">{theme.desc}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Study Questions */}
-          <div className="bg-white rounded-2xl p-6">
-            <h2 className="font-sans text-lg font-bold text-[#1D1D1F] mb-3">Study Questions</h2>
-            <div className="space-y-3">
-              {(content
-                ? content.questions
-                : [
-                    'What are the main events or teachings described in this chapter?',
-                    'How do the characters respond to God in this passage?',
-                    'What challenges are presented, and how are they resolved?',
-                    'What does this chapter reveal about God\'s character?',
-                    'What spiritual lessons can you apply to your own life?',
-                  ]
-              ).map((q, i) => (
-                <div key={i} className="flex gap-3 items-start">
-                  <span className="text-sm font-bold text-[#007AFF] mt-0.5">{i + 1}.</span>
-                  <p className="text-base text-[#86868B] leading-relaxed">{q}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Connection to Christ */}
-          <div className="bg-white rounded-2xl p-6">
-            <h2 className="font-sans text-lg font-bold text-[#1D1D1F] mb-3">Connection to Christ</h2>
-            <p className="text-base text-[#86868B] leading-relaxed mb-3">
-              {content
-                ? content.christConnection
-                : 'Every passage ultimately points to Jesus through prophecy, typology, or thematic connection.'}
-            </p>
-            {!content && (
-              <div className="bg-[#007AFF]/[0.04] border-l-[3px] border-[#007AFF]/30 rounded-r-xl p-4">
-                <p className="scripture-quote text-base text-[#86868B] leading-relaxed">
-                  Jesus is the true source of faithfulness, the perfect response to God&apos;s word, and the embodiment of all spiritual truths presented throughout Scripture.
-                </p>
-              </div>
-            )}
-          </div>
-
-          {/* Personal Reflection */}
-          <div className="bg-[#F5F5F7] rounded-2xl p-6">
-            <h2 className="font-sans text-lg font-bold text-[#1D1D1F] mb-2">Personal Reflection</h2>
-            <p className="text-base text-[#86868B] leading-relaxed">
-              Take time to journal or meditate on what God is teaching you through {book_obj.name} {chapter}. How can these truths transform your thinking and actions today?
-            </p>
-          </div>
+          {/* Study Guide — level-aware client component */}
+          <StudyGuide
+            bookName={book_obj.name}
+            chapter={chapter}
+            content={content ? {
+              overview: content.overview,
+              themes: [...content.themes],
+              questions: [...content.questions],
+              christConnection: content.christConnection,
+              keyVerse: content.keyVerse,
+            } : null}
+          />
         </div>
 
         <ChapterNav
