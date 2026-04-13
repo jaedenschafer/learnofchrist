@@ -8,9 +8,10 @@ interface VerseDisplayProps {
   bookSlug: string;
   chapter: number;
   initialVerses: Verse[];
+  explainedVerses?: number[];  // verse numbers that have explanation pages
 }
 
-export default function VerseDisplay({ bookSlug, chapter, initialVerses }: VerseDisplayProps) {
+export default function VerseDisplay({ bookSlug, chapter, initialVerses, explainedVerses = [] }: VerseDisplayProps) {
   const { currentTranslation } = useTranslation();
   const [verses, setVerses] = useState<Verse[]>(initialVerses);
   const [loading, setLoading] = useState(false);
@@ -72,16 +73,30 @@ export default function VerseDisplay({ bookSlug, chapter, initialVerses }: Verse
       </div>
 
       <div className="space-y-0">
-        {verses.map((verse) => (
-          <span key={verse.verse_number} className="inline">
-            <sup className="text-[0.6rem] font-bold text-gold/70 mr-0.5 select-none">
-              {verse.verse_number}
-            </sup>
-            <span className="text-sm text-navy/75 leading-[1.85]">
-              {verse.text}{' '}
+        {verses.map((verse) => {
+          const hasExplanation = explainedVerses.includes(verse.verse_number);
+          return (
+            <span key={verse.verse_number} className="inline">
+              {hasExplanation ? (
+                <a
+                  href={`/bible/${bookSlug}/${chapter}/${verse.verse_number}`}
+                  className="text-[0.6rem] font-bold text-gold mr-0.5 select-none hover:text-gold/90 cursor-pointer underline decoration-gold/30 decoration-dotted"
+                  title={`Read explanation of verse ${verse.verse_number}`}
+                  style={{ verticalAlign: 'super' }}
+                >
+                  {verse.verse_number}
+                </a>
+              ) : (
+                <sup className="text-[0.6rem] font-bold text-gold/70 mr-0.5 select-none">
+                  {verse.verse_number}
+                </sup>
+              )}
+              <span className="text-sm text-navy/75 leading-[1.85]">
+                {verse.text}{' '}
+              </span>
             </span>
-          </span>
-        ))}
+          );
+        })}
       </div>
     </div>
   );

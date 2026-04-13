@@ -7,6 +7,7 @@ import ChapterNav from '@/components/ChapterNav';
 import TranslationSwitcher from '@/components/TranslationSwitcher';
 import VerseDisplay from '@/components/VerseDisplay';
 import { getVerses } from '@/lib/supabase';
+import { verseExplanations } from '@/data/verse-explanations';
 
 interface ChapterPageProps {
   params: Promise<{ book: string; chapter: string }>;
@@ -93,6 +94,11 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
   // Get chapter-specific study content (or fall back to generic)
   const content = getChapterContent(book, chapter);
 
+  // Find which verses in this chapter have explanation pages
+  const explainedVerses = Object.keys(verseExplanations)
+    .filter((key) => key.startsWith(`${book}/${chapter}/`))
+    .map((key) => parseInt(key.split('/')[2]));
+
   const previousChapter = chapter > 1 ? chapter - 1 : null;
   const nextChapter = chapter < book_obj.chapters ? chapter + 1 : null;
 
@@ -159,6 +165,7 @@ export default async function ChapterPage({ params }: ChapterPageProps) {
               bookSlug={book}
               chapter={chapter}
               initialVerses={initialVerses}
+              explainedVerses={explainedVerses}
             />
           )}
 
