@@ -41,6 +41,10 @@ import { ezraChapters } from './chapters/ezra';
 import { nehemiahChapters } from './chapters/nehemiah';
 import { firstSamuelChapters } from './chapters/1-samuel';
 import { estherChapters } from './chapters/esther';
+import { deuteronomyChapters } from './chapters/deuteronomy';
+import { secondSamuelChapters } from './chapters/2-samuel';
+import { firstChroniclesChapters } from './chapters/1-chronicles';
+import { secondChroniclesChapters } from './chapters/2-chronicles';
 
 export const chapterContent: Record<string, ChapterContent> = {
   ...johnChapters,
@@ -77,6 +81,10 @@ export const chapterContent: Record<string, ChapterContent> = {
   ...nehemiahChapters,
   ...firstSamuelChapters,
   ...estherChapters,
+  ...deuteronomyChapters,
+  ...secondSamuelChapters,
+  ...firstChroniclesChapters,
+  ...secondChroniclesChapters,
 };
 
 export function getChapterContent(
