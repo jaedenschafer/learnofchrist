@@ -11,20 +11,17 @@ function bookNameToSlug(name: string): string {
 
 export default function BookGrid({ books }: BookGridProps) {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2.5 sm:gap-3">
       {books.map((book) => {
         const slug = bookNameToSlug(book.name);
         return (
           <Link
             key={book.id}
             href={`/bible/${slug}`}
-            className="card hover:scale-105 transition-transform duration-200 cursor-pointer"
+            className="card text-center py-4 px-3 group active:scale-[0.97] transition-all"
           >
-            <div className="text-center">
-              <h3 className="font-serif text-lg font-bold text-navy mb-2">{book.name}</h3>
-              <p className="text-sm text-sage mb-3">{book.chapters} chapters</p>
-              <p className="text-xs text-cream/60 bg-sage/20 rounded px-2 py-1 inline-block">{book.testament === 'old' ? 'Old Testament' : 'New Testament'}</p>
-            </div>
+            <h3 className="font-sans text-sm font-semibold text-navy mb-1 group-hover:text-gold transition-colors">{book.name}</h3>
+            <p className="text-xs text-navy/40">{book.chapters} chapters</p>
           </Link>
         );
       })}

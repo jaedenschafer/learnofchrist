@@ -11,29 +11,26 @@ export default function BiblePage() {
   const newTestament = getNewTestamentBooks();
 
   return (
-    <div className="bg-cream min-h-screen py-12">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="text-center mb-12">
-          <h1 className="font-serif text-5xl font-bold text-navy mb-4">Bible Study Hub</h1>
-          <p className="text-xl text-navy/80 max-w-2xl mx-auto">
-            Navigate all 66 books of the Bible with detailed study guides, key themes, and insights on how each passage points to Christ.
-          </p>
+    <div className="page-container">
+      <div className="max-w-4xl mx-auto">
+        <div className="page-header">
+          <h1>Bible Study Hub</h1>
+          <div className="section-divider mt-3"></div>
+          <p>Navigate all 66 books with study guides, key themes, and insights pointing to Christ.</p>
         </div>
 
-        {/* Old Testament */}
-        <section className="mb-16">
-          <div className="flex items-center gap-4 mb-8">
-            <h2 className="font-serif text-3xl font-bold text-navy">Old Testament</h2>
-            <div className="text-sm bg-gold text-navy px-3 py-1 rounded-full font-medium">{oldTestament.length} books</div>
+        <section className="mb-10">
+          <div className="flex items-center gap-3 mb-4 px-1">
+            <h2 className="font-sans text-lg font-semibold text-navy">Old Testament</h2>
+            <span className="pill pill-gold">{oldTestament.length} books</span>
           </div>
           <BookGrid books={oldTestament} />
         </section>
 
-        {/* New Testament */}
         <section>
-          <div className="flex items-center gap-4 mb-8">
-            <h2 className="font-serif text-3xl font-bold text-navy">New Testament</h2>
-            <div className="text-sm bg-sage text-white px-3 py-1 rounded-full font-medium">{newTestament.length} books</div>
+          <div className="flex items-center gap-3 mb-4 px-1">
+            <h2 className="font-sans text-lg font-semibold text-navy">New Testament</h2>
+            <span className="pill pill-sage">{newTestament.length} books</span>
           </div>
           <BookGrid books={newTestament} />
         </section>

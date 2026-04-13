@@ -14,37 +14,29 @@ export default function NewsletterSignup() {
   };
 
   return (
-    <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-navy via-navy to-brown p-10 md:p-14 text-cream">
-      {/* Decorative elements */}
-      <div className="absolute top-0 right-0 w-64 h-64 bg-gold/5 rounded-full -translate-y-1/2 translate-x-1/2"></div>
-      <div className="absolute bottom-0 left-0 w-48 h-48 bg-gold/5 rounded-full translate-y-1/2 -translate-x-1/2"></div>
-
+    <div className="cta-banner">
       <div className="relative z-10">
-        <div className="text-center mb-8">
-          <p className="text-xs tracking-[0.2em] uppercase text-gold font-semibold mb-3">Newsletter</p>
-          <h3 className="font-serif text-3xl font-bold mb-3">Stay in the Word</h3>
-          <p className="text-cream/70 max-w-md mx-auto">Get weekly Bible study insights and devotionals delivered straight to your inbox.</p>
-        </div>
+        <p className="text-[0.65rem] tracking-[0.2em] uppercase text-gold/80 font-semibold mb-2">Newsletter</p>
+        <h3 className="font-serif text-2xl sm:text-3xl font-bold mb-2 text-cream">Stay in the Word</h3>
+        <p className="text-cream/55 text-sm max-w-sm mx-auto mb-6">Weekly Bible study insights and devotionals delivered to your inbox.</p>
 
-        <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto">
+        <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2.5 max-w-sm mx-auto">
           <input
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Enter your email"
-            className="flex-1 px-5 py-3.5 rounded-xl text-navy placeholder-navy/40 focus:outline-none focus:ring-2 focus:ring-gold/50 transition-all"
+            className="flex-1 px-4 py-3 rounded-xl text-navy text-sm placeholder-navy/35 focus:outline-none focus:ring-2 focus:ring-gold/40 transition-all"
             required
           />
-          <button type="submit" className="btn-primary whitespace-nowrap shadow-lg">
-            Subscribe
-          </button>
+          <button type="submit" className="btn-primary !shadow-lg whitespace-nowrap">Subscribe</button>
         </form>
 
         {submitted && (
-          <p className="text-gold text-sm mt-4 text-center animate-fade-in">Thank you! Check your email to confirm your subscription.</p>
+          <p className="text-gold text-xs mt-3 text-center animate-fade-in">Thank you! Check your email to confirm.</p>
         )}
 
-        <p className="text-cream/40 text-xs text-center mt-4">No spam, ever. Unsubscribe anytime.</p>
+        <p className="text-cream/30 text-[0.65rem] text-center mt-3">No spam, ever. Unsubscribe anytime.</p>
       </div>
     </div>
   );

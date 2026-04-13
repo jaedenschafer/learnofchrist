@@ -2,150 +2,100 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Family Resources - Learn of Christ',
-  description: 'Resources for families to study the Bible together, including Come Follow Me guides and kids lessons.',
+  description: 'Resources for families to study the Bible together.',
 };
 
 export default function FamilyPage() {
   return (
-    <div className="bg-cream min-h-screen py-12">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="text-center mb-12">
-          <h1 className="font-serif text-5xl font-bold text-navy mb-4">Family Resources</h1>
-          <p className="text-xl text-navy/80 max-w-2xl mx-auto">
-            Bring your family closer to Christ with study guides, lesson plans, and devotionals designed for every age.
-          </p>
+    <div className="page-container">
+      <div className="max-w-3xl mx-auto">
+        <div className="page-header">
+          <h1>Family Resources</h1>
+          <div className="section-divider mt-3"></div>
+          <p>Bring your family closer to Christ with study guides, lesson plans, and devotionals for every age.</p>
         </div>
 
         {/* Main Sections */}
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
-          {/* Come Follow Me */}
-          <div className="card hover:shadow-xl transition-shadow duration-300">
-            <div className="text-5xl mb-4">❤️</div>
-            <h3 className="font-serif text-2xl font-bold text-navy mb-3">Come Follow Me</h3>
-            <p className="text-navy/80 mb-4">
-              A comprehensive year-long study designed to help families grow together in their understanding of Jesus Christ. This program includes weekly lessons, discussion questions, and family activities.
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
+          <div className="card">
+            <div className="feature-icon bg-rose-50 text-rose-600 mb-3">
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
+            </div>
+            <h3 className="font-sans text-base font-semibold text-navy mb-1">Come Follow Me</h3>
+            <span className="text-[0.65rem] font-semibold text-gold uppercase tracking-wide">52 weeks</span>
+            <p className="text-sm text-navy/50 mt-2 leading-relaxed mb-4">
+              A year-long study to help families grow together in understanding Jesus Christ.
             </p>
-            <p className="text-sm text-sage font-medium mb-6">52 weeks of guided learning</p>
-            <button className="btn-primary w-full">
-              Explore Study Guides
-            </button>
+            <button className="btn-primary text-sm w-full !py-2.5">Explore Study Guides</button>
           </div>
 
-          {/* Kids Lessons */}
-          <div className="card hover:shadow-xl transition-shadow duration-300">
-            <div className="text-5xl mb-4">🎨</div>
-            <h3 className="font-serif text-2xl font-bold text-navy mb-3">Kids Lessons</h3>
-            <p className="text-navy/80 mb-4">
-              Age-appropriate Bible lessons and activities that help children understand Jesus and develop their own relationship with God. Includes coloring pages, games, and memory verses.
+          <div className="card">
+            <div className="feature-icon bg-cyan-50 text-cyan-600 mb-3">
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
+            </div>
+            <h3 className="font-sans text-base font-semibold text-navy mb-1">Kids Lessons</h3>
+            <span className="text-[0.65rem] font-semibold text-gold uppercase tracking-wide">Ages 3-12</span>
+            <p className="text-sm text-navy/50 mt-2 leading-relaxed mb-4">
+              Age-appropriate Bible lessons with activities, coloring pages, and memory verses.
             </p>
-            <p className="text-sm text-sage font-medium mb-6">Resources for ages 3-12</p>
-            <button className="btn-primary w-full">
-              View Lessons
-            </button>
+            <button className="btn-primary text-sm w-full !py-2.5">View Lessons</button>
           </div>
         </div>
 
-        {/* Featured Resources */}
-        <section className="mb-16">
-          <h2 className="font-serif text-3xl font-bold text-navy mb-8 text-center">Popular Family Resources</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* Popular Resources */}
+        <div className="px-1 mb-2">
+          <p className="section-header">Popular Resources</p>
+        </div>
+        <div className="card-grouped mb-8">
+          {[
+            { title: 'Family Devotional Guide', desc: '15-minute daily devotionals', color: 'bg-amber-50 text-amber-600' },
+            { title: 'Scripture Memory for Kids', desc: 'Fun activities for memorizing verses', color: 'bg-green-50 text-green-600' },
+            { title: 'Bible Story Coloring Book', desc: 'Interactive coloring with lessons', color: 'bg-pink-50 text-pink-600' },
+            { title: 'Discussion Question Cards', desc: 'Conversation starters for study', color: 'bg-blue-50 text-blue-600' },
+            { title: 'Character Lessons', desc: 'Study biblical characters', color: 'bg-violet-50 text-violet-600' },
+            { title: 'Holiday Bible Studies', desc: 'Christmas, Easter, and more', color: 'bg-orange-50 text-orange-600' },
+          ].map((resource) => (
+            <div key={resource.title} className="card-grouped-item flex items-center gap-3">
+              <div className={`w-9 h-9 rounded-xl ${resource.color} flex items-center justify-center flex-shrink-0`}>
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
+              </div>
+              <div className="flex-1 min-w-0">
+                <h3 className="font-sans text-sm font-semibold text-navy">{resource.title}</h3>
+                <p className="text-xs text-navy/40 mt-0.5">{resource.desc}</p>
+              </div>
+              <svg className="w-4 h-4 text-navy/20 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+            </div>
+          ))}
+        </div>
+
+        {/* Tips */}
+        <div className="card bg-gold/[0.04] mb-6">
+          <h2 className="font-sans text-base font-semibold text-navy mb-4">Tips for Family Bible Study</h2>
+          <div className="space-y-3">
             {[
-              {
-                title: 'Family Devotional Guide',
-                description: '15-minute daily devotionals for families to study together',
-                icon: '📚',
-              },
-              {
-                title: 'Scripture Memory for Kids',
-                description: 'Fun activities and rewards system for memorizing Bible verses',
-                icon: '🧠',
-              },
-              {
-                title: 'Bible Story Coloring Book',
-                description: 'Interactive coloring pages with Bible stories and lessons',
-                icon: '🎨',
-              },
-              {
-                title: 'Discussion Question Cards',
-                description: 'Conversation starters to deepen family Bible study discussions',
-                icon: '💬',
-              },
-              {
-                title: 'Character Lessons',
-                description: 'Study biblical characters and their lessons for modern life',
-                icon: '🌟',
-              },
-              {
-                title: 'Holiday Bible Studies',
-                description: 'Special studies for Christmas, Easter, and other holidays',
-                icon: '🎉',
-              },
-            ].map((resource, index) => (
-              <div key={index} className="card text-center hover:shadow-lg transition-shadow">
-                <div className="text-4xl mb-3">{resource.icon}</div>
-                <h3 className="font-serif font-bold text-navy mb-2">{resource.title}</h3>
-                <p className="text-sm text-navy/80 mb-4">{resource.description}</p>
-                <button className="btn-outline text-sm w-full">
-                  Learn More
-                </button>
+              { title: 'Set a Regular Time', desc: 'Build a consistent habit, whether daily or weekly.' },
+              { title: 'Make It Interactive', desc: 'Use activities, games, and discussions for all ages.' },
+              { title: 'Ask Good Questions', desc: 'Open-ended questions help everyone think deeply.' },
+              { title: 'Connect to Life', desc: 'Show how Bible truths apply to daily challenges.' },
+              { title: 'Pray Together', desc: 'Begin and end with prayer to invite the Holy Spirit.' },
+            ].map((tip, i) => (
+              <div key={i} className="flex gap-3">
+                <div className="step-number">{i + 1}</div>
+                <div>
+                  <h3 className="font-sans text-sm font-semibold text-navy">{tip.title}</h3>
+                  <p className="text-xs text-navy/50 mt-0.5">{tip.desc}</p>
+                </div>
               </div>
             ))}
           </div>
-        </section>
+        </div>
 
-        {/* Tips Section */}
-        <section className="mb-16">
-          <div className="card bg-gold/10">
-            <h2 className="font-serif text-3xl font-bold text-navy mb-6">Tips for Family Bible Study</h2>
-            <div className="space-y-4">
-              <div className="flex gap-4">
-                <div className="text-2xl flex-shrink-0">1</div>
-                <div>
-                  <h3 className="font-bold text-navy mb-1">Set a Regular Time</h3>
-                  <p className="text-navy/80 text-sm">Establish a consistent time for family Bible study, whether daily or weekly, to build the habit.</p>
-                </div>
-              </div>
-              <div className="flex gap-4">
-                <div className="text-2xl flex-shrink-0">2</div>
-                <div>
-                  <h3 className="font-bold text-navy mb-1">Make It Interactive</h3>
-                  <p className="text-navy/80 text-sm">Use activities, games, and discussions to keep everyone engaged, regardless of age.</p>
-                </div>
-              </div>
-              <div className="flex gap-4">
-                <div className="text-2xl flex-shrink-0">3</div>
-                <div>
-                  <h3 className="font-bold text-navy mb-1">Ask Good Questions</h3>
-                  <p className="text-navy/80 text-sm">Help your family think deeply about Scripture with thoughtful, open-ended questions.</p>
-                </div>
-              </div>
-              <div className="flex gap-4">
-                <div className="text-2xl flex-shrink-0">4</div>
-                <div>
-                  <h3 className="font-bold text-navy mb-1">Connect to Life</h3>
-                  <p className="text-navy/80 text-sm">Help family members see how Bible truths apply to their daily lives and challenges.</p>
-                </div>
-              </div>
-              <div className="flex gap-4">
-                <div className="text-2xl flex-shrink-0">5</div>
-                <div>
-                  <h3 className="font-bold text-navy mb-1">Pray Together</h3>
-                  <p className="text-navy/80 text-sm">Begin and end your study time with prayer to invite God's Holy Spirit into your study.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* CTA */}
-        <div className="bg-gradient-to-br from-navy to-brown text-cream rounded-lg p-8 text-center">
-          <h2 className="font-serif text-3xl font-bold mb-4">Start Your Family's Journey</h2>
-          <p className="text-cream/90 mb-6 max-w-2xl mx-auto">
-            Strengthen your family's bond and spiritual foundation by studying the Bible together.
+        <div className="cta-banner">
+          <h2 className="font-serif text-2xl font-bold mb-3">Start Your Family&apos;s Journey</h2>
+          <p className="text-sm text-cream/55 max-w-sm mx-auto mb-6">
+            Strengthen your family&apos;s bond and spiritual foundation together.
           </p>
-          <Link href="/study-plans" className="btn-primary">
-            Explore Study Plans
-          </Link>
+          <Link href="/study-plans" className="btn-primary">Explore Study Plans</Link>
         </div>
       </div>
     </div>

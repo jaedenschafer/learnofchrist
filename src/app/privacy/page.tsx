@@ -5,37 +5,43 @@ export const metadata = {
 
 export default function PrivacyPage() {
   return (
-    <div className="bg-cream min-h-screen py-12">
-      <div className="max-w-4xl mx-auto px-4">
-        <h1 className="font-serif text-5xl font-bold text-navy mb-8">Privacy Policy</h1>
-        
-        <div className="card space-y-6">
-          <div>
-            <h2 className="font-serif text-2xl font-bold text-navy mb-3">Introduction</h2>
-            <p className="text-navy/90">
-              At Learn of Christ, we are committed to protecting your privacy. This Privacy Policy explains how we handle your information when you visit our website.
+    <div className="page-container">
+      <div className="max-w-3xl mx-auto">
+        <div className="page-header !text-left">
+          <h1>Privacy Policy</h1>
+        </div>
+
+        <div className="space-y-3">
+          <div className="card">
+            <h2 className="font-sans text-base font-semibold text-navy mb-2">Introduction</h2>
+            <p className="text-sm text-navy/55 leading-relaxed">
+              At Learn of Christ, we are committed to protecting your privacy. This policy explains how we handle your information when you visit our website.
             </p>
           </div>
 
-          <div>
-            <h2 className="font-serif text-2xl font-bold text-navy mb-3">Information We Collect</h2>
-            <p className="text-navy/90 mb-3">
+          <div className="card">
+            <h2 className="font-sans text-base font-semibold text-navy mb-2">Information We Collect</h2>
+            <p className="text-sm text-navy/55 leading-relaxed">
               When you subscribe to our newsletter, we collect your email address. We do not collect or store any other personal information without your explicit consent.
             </p>
           </div>
 
-          <div>
-            <h2 className="font-serif text-2xl font-bold text-navy mb-3">How We Use Your Information</h2>
-            <p className="text-navy/90 mb-3">We use your information solely for:</p>
-            <ul className="list-disc list-inside text-navy/90 space-y-1">
-              <li>Sending you Bible study resources and insights</li>
-              <li>Improving our website and user experience</li>
+          <div className="card">
+            <h2 className="font-sans text-base font-semibold text-navy mb-2">How We Use Your Information</h2>
+            <p className="text-sm text-navy/55 leading-relaxed mb-2">We use your information solely for:</p>
+            <ul className="space-y-1.5">
+              <li className="flex gap-2 items-start text-sm text-navy/55">
+                <svg className="w-4 h-4 text-gold flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" /></svg>
+                Sending you Bible study resources and insights
+              </li>
+              <li className="flex gap-2 items-start text-sm text-navy/55">
+                <svg className="w-4 h-4 text-gold flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" /></svg>
+                Improving our website and user experience
+              </li>
             </ul>
           </div>
 
-          <div className="border-t border-cream pt-6">
-            <p className="text-sm text-sage">Last updated: March 2026</p>
-          </div>
+          <div className="text-xs text-navy/30 px-1 mt-4">Last updated: March 2026</div>
         </div>
       </div>
     </div>

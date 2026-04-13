@@ -7,146 +7,97 @@ export const metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="bg-cream min-h-screen py-12">
-      <div className="max-w-4xl mx-auto px-4">
-        {/* Hero */}
-        <div className="text-center mb-12">
-          <h1 className="font-serif text-5xl font-bold text-navy mb-4">About Learn of Christ</h1>
-          <p className="text-xl text-navy/80">
-            Our mission is to help you develop a deeper, more meaningful relationship with Jesus Christ through Scripture.
-          </p>
+    <div className="page-container">
+      <div className="max-w-3xl mx-auto">
+        <div className="page-header">
+          <h1>About Learn of Christ</h1>
+          <div className="section-divider mt-3"></div>
+          <p>Our mission is to help you develop a deeper, more meaningful relationship with Jesus Christ through Scripture.</p>
         </div>
 
-        {/* Mission */}
-        <div className="card mb-8">
-          <h2 className="font-serif text-3xl font-bold text-navy mb-4">Our Mission</h2>
-          <p className="text-navy/90 leading-relaxed mb-4">
-            At Learn of Christ, we believe that understanding Jesus Christ is the foundation of a vibrant spiritual life. Our mission is to provide accessible, biblically-grounded resources that help individuals and families grow in their knowledge of Christ and apply His teachings to their daily lives.
-          </p>
-          <p className="text-navy/90 leading-relaxed">
-            We are committed to presenting Scripture with clarity, reverence, and depth—helping people see how every passage of the Bible points to Jesus Christ and reveals God's redemptive plan for humanity.
-          </p>
-        </div>
+        <div className="space-y-3">
+          {/* Mission */}
+          <div className="card">
+            <h2 className="font-sans text-base font-semibold text-navy mb-3">Our Mission</h2>
+            <p className="text-sm text-navy/55 leading-relaxed mb-3">
+              At Learn of Christ, we believe that understanding Jesus Christ is the foundation of a vibrant spiritual life. Our mission is to provide accessible, biblically-grounded resources for individuals and families.
+            </p>
+            <p className="text-sm text-navy/55 leading-relaxed">
+              We present Scripture with clarity, reverence, and depth &mdash; helping people see how every passage points to Jesus Christ and reveals God&apos;s redemptive plan.
+            </p>
+          </div>
 
-        {/* Core Values */}
-        <section className="mb-8">
-          <h2 className="font-serif text-3xl font-bold text-navy mb-6 text-center">Our Core Values</h2>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="card">
-              <h3 className="font-serif text-xl font-bold text-navy mb-3">Biblical Fidelity</h3>
-              <p className="text-navy/80">
-                We are committed to presenting Scripture accurately and faithfully, allowing God's Word to speak for itself.
-              </p>
-            </div>
-            <div className="card">
-              <h3 className="font-serif text-xl font-bold text-navy mb-3">Accessibility</h3>
-              <p className="text-navy/80">
-                We create resources that are easy to understand and applicable to people of all backgrounds and ages.
-              </p>
-            </div>
-            <div className="card">
-              <h3 className="font-serif text-xl font-bold text-navy mb-3">Christ-Centered</h3>
-              <p className="text-navy/80">
-                Every resource points to Jesus Christ as the center of Scripture and the hope of the Gospel.
-              </p>
-            </div>
-            <div className="card">
-              <h3 className="font-serif text-xl font-bold text-navy mb-3">Transformative</h3>
-              <p className="text-navy/80">
-                We aim to help people apply Biblical truths that lead to genuine spiritual transformation and growth.
-              </p>
+          {/* Core Values */}
+          <div className="px-1 mt-6 mb-2">
+            <p className="section-header">Core Values</p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {[
+              { title: 'Biblical Fidelity', desc: 'Presenting Scripture accurately and faithfully, allowing God\'s Word to speak for itself.', color: 'bg-amber-50 text-amber-600' },
+              { title: 'Accessibility', desc: 'Resources that are easy to understand for people of all backgrounds and ages.', color: 'bg-blue-50 text-blue-600' },
+              { title: 'Christ-Centered', desc: 'Every resource points to Jesus as the center of Scripture and the hope of the Gospel.', color: 'bg-emerald-50 text-emerald-600' },
+              { title: 'Transformative', desc: 'Helping people apply Biblical truths that lead to genuine spiritual transformation.', color: 'bg-violet-50 text-violet-600' },
+            ].map((value) => (
+              <div key={value.title} className="card">
+                <div className={`feature-icon ${value.color} mb-3`}>
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                </div>
+                <h3 className="font-sans text-sm font-semibold text-navy mb-1">{value.title}</h3>
+                <p className="text-xs text-navy/50 leading-relaxed">{value.desc}</p>
+              </div>
+            ))}
+          </div>
+
+          {/* What We Offer */}
+          <div className="px-1 mt-6 mb-2">
+            <p className="section-header">What We Offer</p>
+          </div>
+          <div className="card-grouped">
+            {[
+              { title: 'Chapter-by-Chapter Study Guides', desc: 'Detailed explorations of every chapter with key themes and study questions.', icon: 'bg-amber-50 text-amber-600' },
+              { title: 'Structured Study Plans', desc: 'Reading plans to help you engage with Scripture consistently.', icon: 'bg-blue-50 text-blue-600' },
+              { title: 'Topical Resources', desc: 'Explore biblical themes with key verses and cross-references.', icon: 'bg-emerald-50 text-emerald-600' },
+              { title: 'Questions and Answers', desc: 'Biblical answers to common questions about Jesus and faith.', icon: 'bg-purple-50 text-purple-600' },
+              { title: 'Family Resources', desc: 'Tools for families to study Scripture together.', icon: 'bg-rose-50 text-rose-600' },
+            ].map((item) => (
+              <div key={item.title} className="card-grouped-item flex items-center gap-3">
+                <div className={`w-9 h-9 rounded-xl ${item.icon} flex items-center justify-center flex-shrink-0`}>
+                  <svg className="w-4.5 h-4.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
+                </div>
+                <div>
+                  <h3 className="font-sans text-sm font-semibold text-navy">{item.title}</h3>
+                  <p className="text-xs text-navy/45 mt-0.5">{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Commitment */}
+          <div className="card bg-gold/[0.04] mt-4">
+            <h2 className="font-sans text-base font-semibold text-navy mb-3">Our Commitment</h2>
+            <div className="space-y-2.5">
+              {[
+                'All resources are free and available to anyone.',
+                'We respect all Christian traditions while remaining faithful to Biblical truths.',
+                'We continuously improve resources based on your feedback.',
+                'Your privacy is important — we never share personal information.',
+              ].map((item, i) => (
+                <div key={i} className="flex gap-2.5 items-start">
+                  <svg className="w-4 h-4 text-gold flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" /></svg>
+                  <p className="text-sm text-navy/55">{item}</p>
+                </div>
+              ))}
             </div>
           </div>
-        </section>
-
-        {/* What We Offer */}
-        <section className="mb-8">
-          <h2 className="font-serif text-3xl font-bold text-navy mb-6 text-center">What We Offer</h2>
-          <div className="space-y-4">
-            <div className="card flex gap-4">
-              <div className="text-3xl flex-shrink-0">📖</div>
-              <div>
-                <h3 className="font-bold text-navy mb-2">Chapter-by-Chapter Study Guides</h3>
-                <p className="text-navy/80 text-sm">
-                  Detailed explorations of every chapter in the Bible with key themes, verse highlights, study questions, and connections to Christ.
-                </p>
-              </div>
-            </div>
-            <div className="card flex gap-4">
-              <div className="text-3xl flex-shrink-0">📚</div>
-              <div>
-                <h3 className="font-bold text-navy mb-2">Structured Study Plans</h3>
-                <p className="text-navy/80 text-sm">
-                  Designed reading plans and study programs to help you engage with Scripture consistently and meaningfully.
-                </p>
-              </div>
-            </div>
-            <div className="card flex gap-4">
-              <div className="text-3xl flex-shrink-0">🎯</div>
-              <div>
-                <h3 className="font-bold text-navy mb-2">Topical Resources</h3>
-                <p className="text-navy/80 text-sm">
-                  Explore biblical themes like faith, grace, forgiveness, and peace with key verses and cross-references.
-                </p>
-              </div>
-            </div>
-            <div className="card flex gap-4">
-              <div className="text-3xl flex-shrink-0">❓</div>
-              <div>
-                <h3 className="font-bold text-navy mb-2">Questions and Answers</h3>
-                <p className="text-navy/80 text-sm">
-                  Thoughtful biblical answers to common questions about Jesus, faith, salvation, and Christian living.
-                </p>
-              </div>
-            </div>
-            <div className="card flex gap-4">
-              <div className="text-3xl flex-shrink-0">👨‍👩‍👧‍👦</div>
-              <div>
-                <h3 className="font-bold text-navy mb-2">Family Resources</h3>
-                <p className="text-navy/80 text-sm">
-                  Tools for families to study Scripture together, including guides, lesson plans, and activities for all ages.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Our Commitment */}
-        <div className="card bg-gold/10">
-          <h2 className="font-serif text-2xl font-bold text-navy mb-4">Our Commitment to You</h2>
-          <ul className="space-y-3">
-            <li className="flex gap-3">
-              <span className="text-gold font-bold flex-shrink-0">✓</span>
-              <p className="text-navy/80">All resources are free and available to anyone who wants to study the Bible.</p>
-            </li>
-            <li className="flex gap-3">
-              <span className="text-gold font-bold flex-shrink-0">✓</span>
-              <p className="text-navy/80">We respect all Christian traditions while remaining faithful to core Biblical truths.</p>
-            </li>
-            <li className="flex gap-3">
-              <span className="text-gold font-bold flex-shrink-0">✓</span>
-              <p className="text-navy/80">We continuously add new resources and improve existing ones based on your feedback.</p>
-            </li>
-            <li className="flex gap-3">
-              <span className="text-gold font-bold flex-shrink-0">✓</span>
-              <p className="text-navy/80">Your privacy is important to us—we never share personal information.</p>
-            </li>
-          </ul>
         </div>
 
         {/* CTA */}
-        <div className="mt-12 text-center">
-          <h2 className="font-serif text-3xl font-bold text-navy mb-4">Ready to Begin?</h2>
-          <p className="text-navy/80 mb-8 max-w-2xl mx-auto">
-            Start your journey to a deeper understanding of Jesus Christ today.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/bible" className="btn-primary">
-              Explore the Bible
-            </Link>
-            <Link href="/study-plans" className="btn-secondary">
-              View Study Plans
-            </Link>
+        <div className="mt-10 text-center">
+          <h2 className="font-serif text-2xl font-bold text-navy mb-3">Ready to Begin?</h2>
+          <p className="text-sm text-navy/45 mb-6">Start your journey to a deeper understanding of Jesus Christ.</p>
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <Link href="/bible" className="btn-primary">Explore the Bible</Link>
+            <Link href="/study-plans" className="btn-secondary">View Study Plans</Link>
           </div>
         </div>
       </div>
