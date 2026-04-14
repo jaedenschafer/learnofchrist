@@ -34,7 +34,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '8 min read',
     image: 'https://images.unsplash.com/photo-1504052434569-70ad5836ab65?w=1200&q=80',
     imageAlt: 'Open Bible with warm light illuminating the pages',
-    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '/images/logo-avatar.png' },
+    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '' },
     sections: [
       { heading: 'The Master Teacher\'s Method', content: 'Jesus Christ was the greatest teacher who ever lived, and His preferred method of instruction was the parable — a simple story drawn from everyday life that reveals a profound spiritual truth. The Gospels record over 30 parables, each one a window into the nature of God\'s kingdom, the human heart, and the call to discipleship.\n\nBut why did Jesus speak in parables? In Matthew 13:10-13, the disciples asked this very question. Jesus explained that parables serve a dual purpose: they illuminate truth for those who seek it with open hearts, while concealing it from those who have hardened their hearts against God. A parable is like a key — it only works if you\'re willing to turn it.' },
       { heading: 'The Parable of the Sower', content: 'Consider the Parable of the Sower in Matthew 13. A farmer scatters seed on four types of ground: the wayside, rocky places, among thorns, and good soil. The seed is the Word of God, and the soils represent different conditions of the human heart. This parable challenges us to honestly examine our own receptivity. Are we the good soil that hears, understands, and bears fruit?', image: 'https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&q=80', imageAlt: 'Seeds being scattered on soil in golden light' },
@@ -68,7 +68,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '7 min read',
     image: 'https://images.unsplash.com/photo-1507692049790-de58290a4334?w=1200&q=80',
     imageAlt: 'Sunlight streaming through clouds over a peaceful landscape',
-    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '/images/logo-avatar.png' },
+    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '' },
     sections: [
       { heading: 'What Is Grace?', content: 'Grace is one of the most important words in the entire Bible, yet it is also one of the most misunderstood. In its simplest definition, grace is God\'s unmerited favor — a gift we cannot earn, do not deserve, and could never repay. It is the very foundation upon which our relationship with God is built.' },
       { heading: 'Paul\'s Discovery of Grace', content: 'The Apostle Paul understood grace more deeply than perhaps anyone. Before his conversion, he was Saul of Tarsus — a zealous persecutor of Christians who believed he was earning God\'s approval through strict religious observance. When the risen Christ appeared to him on the Damascus road (Acts 9), Paul\'s entire worldview was shattered. He discovered that God\'s acceptance comes not through human effort but through divine gift.\n\nIn Ephesians 2:8-9, Paul writes the definitive statement on grace: "For by grace are ye saved through faith; and that not of yourselves: it is the gift of God: not of works, lest any man should boast." Notice the precision — salvation is by grace, through faith, and even that faith is a gift. There is no room for human boasting. Grace removes every basis for self-righteousness.' },
@@ -101,7 +101,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '6 min read',
     image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80',
     imageAlt: 'Calm mountain lake reflecting serene sky',
-    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '/images/logo-avatar.png' },
+    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '' },
     sections: [
       { heading: 'A World in Turmoil', content: 'We live in a world of constant noise, uncertainty, and anxiety. News cycles bring fresh fears daily. Relationships strain under pressure. Health, finances, and the future all feel uncertain. Into this chaos, Jesus speaks a remarkable promise: "Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid" (John 14:27).' },
       { heading: 'Peace Beyond Circumstance', content: 'The peace Jesus offers is fundamentally different from what the world provides. The world\'s peace is circumstantial — it depends on everything going well. Remove the favorable circumstances and the peace evaporates. But Christ\'s peace is rooted in His person, not our situation. It is a peace that "passeth all understanding" (Philippians 4:7) precisely because it doesn\'t depend on understanding our circumstances.' },
@@ -134,7 +134,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '8 min read',
     image: 'https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=1200&q=80',
     imageAlt: 'Dramatic sunrise breaking through darkness',
-    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '/images/logo-avatar.png' },
+    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '' },
     sections: [
       { heading: 'The Foundation of Faith', content: 'The resurrection of Jesus Christ is the single most important event in human history. It is the foundation upon which the entire Christian faith stands or falls. As the Apostle Paul wrote in 1 Corinthians 15:14, "And if Christ be not risen, then is our preaching vain, and your faith is also vain." Paul understood that without the resurrection, Christianity collapses. But because Christ is risen, everything changes.' },
       { heading: 'That First Easter Morning', content: 'On that first Easter morning, the women who went to the tomb expected to find a dead body. Instead, they found an empty tomb and an angel with the most extraordinary announcement ever made: "He is not here: for he is risen, as he said" (Matthew 28:6). The stone had been rolled away — not to let Jesus out, but to let the witnesses in. The resurrection was not a metaphor or a spiritual feeling. It was a bodily, historical event with real witnesses.' },
@@ -167,7 +167,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '9 min read',
     image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=1200&q=80',
     imageAlt: 'Ancient Bible pages with dramatic lighting',
-    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '/images/logo-avatar.png' },
+    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '' },
     sections: [
       { heading: 'The Most Important Question', content: 'The most important question anyone can answer is the one Jesus asked His disciples in Matthew 16:15: "But whom say ye that I am?" Peter answered, "Thou art the Christ, the Son of the living God." This confession — that Jesus is both the promised Messiah (Christ) and the divine Son of God — is the bedrock of Christian faith.' },
       { heading: 'The Word Was God', content: 'The Gospel of John opens with the most exalted declaration of Christ\'s identity in all of Scripture: "In the beginning was the Word, and the Word was with God, and the Word was God" (John 1:1). This is not ambiguous. Jesus, the Word (Logos), is eternal ("in the beginning"), distinct from the Father ("with God"), and fully divine ("was God"). He is not a created being, an angel, or merely a good teacher. He is God incarnate.' },
@@ -200,7 +200,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '7 min read',
     image: 'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=1200&q=80',
     imageAlt: 'Person studying with an open book and notebook',
-    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '/images/logo-avatar.png' },
+    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '' },
     sections: [
       { heading: 'Where to Begin', content: 'The Bible is the most important book ever written — but it can also be intimidating. With 66 books written over 1,500 years by dozens of authors in three languages, where do you even begin? The good news is that effective Bible study doesn\'t require a seminary degree. It requires a willing heart, a consistent approach, and the guidance of the Holy Spirit.' },
       { heading: 'Start with the Gospel of John', content: 'If you\'re new to the Bible, John\'s Gospel is the ideal starting point. It was written specifically "that ye might believe that Jesus is the Christ, the Son of God; and that believing ye might have life through his name" (John 20:31). It\'s theologically rich yet accessible, and it introduces you to the person at the center of the entire Bible: Jesus Christ.' },
@@ -234,7 +234,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '8 min read',
     image: 'https://images.unsplash.com/photo-1490730141103-6cac27aaab94?w=1200&q=80',
     imageAlt: 'Person reaching toward golden sunset light',
-    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '/images/logo-avatar.png' },
+    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '' },
     sections: [
       { heading: 'The Gospel in Miniature', content: '"For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life" (John 3:16). It has been called the Gospel in miniature — the entire message of Christianity compressed into a single sentence. Martin Luther called it "the Bible in brief." But familiarity can breed superficiality. Let\'s look at every word.' },
       { heading: 'For God So Loved', content: '"For God" — The verse begins with the source of all love. This is not abstract love or human love. It is the love of the infinite, eternal, all-powerful Creator God. The One who spoke galaxies into existence, who holds the universe together by His will, turned His attention toward us. The initiative is entirely His.\n\n"So loved" — The word "so" doesn\'t mean "very much" (though that\'s true). In the original Greek, it means "in this way" or "to this extent." God\'s love is demonstrated not by words but by action. How did He love us? He loved us to the extent of giving. The measure of God\'s love is the cross.' },
@@ -268,7 +268,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '7 min read',
     image: 'https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?w=1200&q=80',
     imageAlt: 'Starry night sky revealing the grandeur of creation',
-    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '/images/logo-avatar.png' },
+    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '' },
     sections: [
       { heading: 'In the Beginning', content: '"In the beginning God created the heaven and the earth" (Genesis 1:1). With these ten words, the Bible establishes the most fundamental truth of reality: there is a God, He is eternal, and He is the Creator of everything that exists. Before science, before philosophy, before human civilization — God.' },
       { heading: 'God Creates by Speaking', content: 'Genesis 1 reveals that God creates by speaking. "And God said, Let there be light: and there was light" (Genesis 1:3). He doesn\'t struggle, experiment, or evolve His way to creation. He speaks, and reality obeys. This tells us that God\'s word has absolute power and authority. When God speaks, things that didn\'t exist come into being. This same creative word is what we encounter when we read Scripture.' },
@@ -301,7 +301,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '7 min read',
     image: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1200&q=80',
     imageAlt: 'Vintage leather-bound Bible on wooden surface',
-    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '/images/logo-avatar.png' },
+    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '' },
     sections: [
       { heading: 'A Translation for the Ages', content: 'In 1611, King James I of England commissioned a new translation of the Bible. Forty-seven scholars worked for over seven years to produce what became the most influential English Bible ever created — the King James Version. More than four centuries later, it remains beloved by millions of readers worldwide, revered for its unmatched literary beauty and profound spiritual impact.' },
       { heading: 'Tyndale\'s Legacy', content: 'The KJV didn\'t emerge from nothing. It built upon the monumental work of William Tyndale, a martyr who translated Scripture into English in the 1520s and early 1530s, often smuggling copies into England at great personal risk. Tyndale\'s prayer was that the plowboy would one day read Scripture. When Tyndale was executed in 1536, he uttered his final words: "Lord, open the King of England\'s eyes." Just a few years later, his prayer was answered. The KJV absorbed much of Tyndale\'s phrasing, honoring his sacrificial legacy.' },
@@ -334,7 +334,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '8 min read',
     image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1200&q=80',
     imageAlt: 'Historical manuscripts and documents on a desk',
-    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '/images/logo-avatar.png' },
+    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '' },
     sections: [
       { heading: 'A Unique Approach to Scripture', content: 'The Joseph Smith Translation (JST) represents a unique approach to Scripture. Beginning in 1830, shortly after founding The Church of Jesus Christ of Latter-day Saints, Joseph Smith undertook a systematic revision of the King James Version of the Bible. Unlike conventional translation work that returns to original Hebrew and Greek texts, the JST worked from existing English texts. Smith believed he was receiving inspiration to correct passages and restore lost truths that had been obscured or removed from the biblical record over centuries.' },
       { heading: 'The Rationale Behind the JST', content: 'Joseph Smith\'s rationale for the JST came from his belief that the Bible, while containing God\'s word, had suffered losses and corruptions through transmission and translation. He wrote: "I believe the Bible as it read when it came from the pen of the original writers. Ignorant translators, careless transcribers, or designing and corrupt priests have committed many errors." The JST, in his view, corrected these errors under divine inspiration and restored clarity to passages that had become ambiguous.' },
@@ -367,7 +367,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '6 min read',
     image: 'https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=1200&q=80',
     imageAlt: 'Modern study setup with open books and natural light',
-    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '/images/logo-avatar.png' },
+    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '' },
     sections: [
       { heading: 'A Translation for Serious Study', content: 'The Berean Standard Bible (BSB) is a relatively recent addition to the landscape of English Bible translations, released in 2020 by the team at Bible Hub. This translation was specifically designed with one primary goal in mind: to provide a version that is both literally accurate to the original Greek and Hebrew texts and practically useful for serious Bible study. The BSB team made the bold decision to release their translation as open-source, giving it away freely.' },
       { heading: 'Manuscript Foundation', content: 'What distinguishes the BSB from other modern translations is its commitment to the best available biblical manuscripts. The translation team chose the earliest, most reliable manuscript traditions available, believing that closer proximity to the original sources yields greater accuracy. This scholarly approach resulted in a translation that avoids the interpretive choices of some more popular versions, preferring instead to let the original text speak clearly.' },
@@ -398,7 +398,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '6 min read',
     image: 'https://images.unsplash.com/photo-1516979187457-637abb4f9353?w=1200&q=80',
     imageAlt: 'Stacked vintage books with gold lettering',
-    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '/images/logo-avatar.png' },
+    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '' },
     sections: [
       { heading: 'A Watershed in Translation', content: 'The American Standard Version (ASV), published in 1901, represents a watershed moment in English Bible translation. The ASV was the American revision of the British Revised Version (1881), undertaken by American scholars who wanted to preserve the strengths of that translation while adapting it to American English and incorporating ongoing scholarly improvements.' },
       { heading: 'The Divine Name', content: 'The ASV is particularly famous for one distinctive choice: consistently rendering the Hebrew divine name Yahweh as "Jehovah," a practice that shocked many who had grown accustomed to seeing only "the Lord" or "God." This choice, while controversial at the time, reflected a commitment to literalness.' },
@@ -429,7 +429,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '6 min read',
     image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80',
     imageAlt: 'Globe with digital connections representing worldwide access',
-    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '/images/logo-avatar.png' },
+    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '' },
     sections: [
       { heading: 'Scripture for All', content: 'The World English Bible (WEB) represents an ambitious and generous vision: a complete English translation of Scripture in the public domain, freely available to everyone on earth. Unlike copyrighted translations whose use is restricted and sometimes costly, the WEB can be read, shared, quoted, translated, and distributed without any permission or licensing fee.' },
       { heading: 'Building on the ASV', content: 'The WEB is based on the American Standard Version (1901), building upon that translation\'s foundation of literal accuracy while updating its language for modern readers. The translators made the conscious choice to avoid archaic constructions while maintaining the ASV\'s commitment to fidelity to the original texts.' },
@@ -460,7 +460,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '7 min read',
     image: 'https://images.unsplash.com/photo-1532012197267-da84d127e765?w=1200&q=80',
     imageAlt: 'Open book with light casting across pages',
-    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '/images/logo-avatar.png' },
+    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '' },
     sections: [
       { heading: 'Origin and Purpose', content: 'The New World Translation (NWT) is the official Bible of the Jehovah\'s Witnesses, first published in its entirety in 1961 and substantially revised in 2013. The translation was produced by the Watch Tower Bible and Tract Society, the organization that oversees Jehovah\'s Witness theology and teaching.' },
       { heading: 'Distinctive Translation Choices', content: 'The NWT is characterized by interpretive choices that clearly reflect Jehovah\'s Witness theology. For instance, the translation consistently uses "Jehovah" rather than "the Lord." One of the most theologically significant aspects of the NWT is how it renders passages relating to Jesus\'s identity. In John 1:1, the NWT famously translates the last clause as "the Word was a god" rather than "the Word was God."' },
@@ -491,7 +491,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '6 min read',
     image: 'https://images.unsplash.com/photo-1476275466078-4007374efbbe?w=1200&q=80',
     imageAlt: 'Close-up of ancient text with careful detail',
-    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '/images/logo-avatar.png' },
+    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '' },
     sections: [
       { heading: 'Heritage of Young\'s Literal Translation', content: 'The Literal Standard Version (LSV), published in 2020, represents the heritage of Young\'s Literal Translation, a 19th-century English translation famous for its unusual word-for-word approach. Like its predecessor, the LSV prioritizes preserving the actual word order, grammar, and structure of the original Hebrew and Greek texts.' },
       { heading: 'Translation Philosophy', content: 'The philosophy behind the LSV is straightforward: if you want to understand Scripture\'s original meaning, you need to see how it was actually structured. When the Hebrew literally places the object before the verb, the LSV does too. When Greek uses a particular tense to make a theological point, the LSV preserves that tense structure even if it creates awkward phrasing in English.' },
@@ -521,7 +521,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '7 min read',
     image: 'https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=1200&q=80',
     imageAlt: 'Ornate church interior with stained glass and ancient texts',
-    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '/images/logo-avatar.png' },
+    author: { name: 'Learn of Christ', role: 'Bible Study Ministry', avatar: '' },
     sections: [
       { heading: 'A Catholic Alternative', content: 'The Douay-Rheims Bible holds a unique place in the history of English Scripture. Originally published in complete form in 1610 (the New Testament in 1582, the Old Testament in 1609-1610), it was created as an alternative to the King James Version for English-speaking Catholics. The Douay-Rheims was translated from the Latin Vulgate rather than directly from the original Hebrew and Greek.' },
       { heading: 'Origins at the English College', content: 'The Douay-Rheims was produced at the English College in Douay, France, by Catholic scholars led by Gregory Martin. When religious tensions made it impossible for English Catholics to safely use the Protestant King James Version, the Douay-Rheims provided a Catholic alternative.' },
