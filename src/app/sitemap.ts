@@ -27,6 +27,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // ── Static pages ──
   const staticPages = [
     { path: '/bible', priority: 0.9, freq: 'weekly' as const },
+    { path: '/study', priority: 0.9, freq: 'weekly' as const },
     { path: '/study-plans', priority: 0.7, freq: 'weekly' as const },
     { path: '/topics', priority: 0.7, freq: 'weekly' as const },
     { path: '/questions', priority: 0.7, freq: 'weekly' as const },
@@ -55,14 +56,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.7,
     });
+    entries.push({
+      url: `${BASE_URL}/study/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    });
   }
 
-  // ── Bible chapter pages (1,189 chapters) ──
+  // ── Bible & Study chapter pages ──
   for (const book of bibleBooks) {
     const slug = bookNameToSlug(book.name);
     for (let ch = 1; ch <= book.chapters; ch++) {
       entries.push({
         url: `${BASE_URL}/bible/${slug}/${ch}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.8,
+      });
+      entries.push({
+        url: `${BASE_URL}/study/${slug}/${ch}`,
         lastModified: new Date(),
         changeFrequency: 'monthly',
         priority: 0.8,

@@ -3,15 +3,15 @@ import { getOldTestamentBooks, getNewTestamentBooks, getApocryphaBooks } from '@
 import BookGrid from '@/components/BookGrid';
 
 export const metadata = {
-  title: 'Read the Bible Online — All 72 Books, 8 Translations | Learn of Christ',
-  description: 'Read every chapter of the Bible online. Switch between 8 translations including KJV, JST, NWT, BSB, ASV, WEB, LSV, and DRA. Each chapter links to a deep study guide.',
+  title: 'Bible Study Guides — Chapter-by-Chapter Commentary | Learn of Christ',
+  description: 'Deep study guides for every chapter of the Bible. Overview, themes, questions, Christ connections, and 10 denominational lenses.',
   openGraph: {
-    title: 'Bible Study Hub — Learn of Christ',
-    description: 'Read every chapter of the Bible with study guides and real-time translation switching.',
-    url: 'https://learnofchrist.com/bible',
+    title: 'Bible Study Guides — Learn of Christ',
+    description: 'Chapter-by-chapter study guides for the entire Bible with themes, questions, and Christ connections.',
+    url: 'https://learnofchrist.com/study',
   },
   alternates: {
-    canonical: 'https://learnofchrist.com/bible',
+    canonical: 'https://learnofchrist.com/study',
   },
 };
 
@@ -24,7 +24,7 @@ const FEATURED_STUDIES = [
   { book: 'john', chapter: 14, title: 'John 14', subtitle: 'The Way, Truth & Life', badge: 'Essential' },
 ];
 
-export default function BiblePage() {
+export default function StudyIndexPage() {
   const oldTestament = getOldTestamentBooks();
   const newTestament = getNewTestamentBooks();
   const apocrypha = getApocryphaBooks();
@@ -33,11 +33,10 @@ export default function BiblePage() {
     <div className="page-container">
       <div className="max-w-4xl mx-auto">
         <div className="page-header">
-          <h1>Read the Bible</h1>
-          <p>All 66 books plus 6 Deuterocanonical books, with real-time translation switching between 8 translations. Looking for deeper commentary? Try the <Link href="/study" className="text-[#007AFF] font-semibold hover:underline">study guides</Link>.</p>
+          <h1>Study Guides</h1>
+          <p>Chapter-by-chapter study guides for every chapter of the Bible. Themes, discussion questions, Christ connections, and denominational lenses.</p>
         </div>
 
-        {/* Quick Stats */}
         <div className="grid grid-cols-3 gap-3 mb-8">
           <div className="bg-white rounded-2xl p-4 text-center">
             <p className="text-2xl font-bold text-[#007AFF]">72</p>
@@ -45,15 +44,14 @@ export default function BiblePage() {
           </div>
           <div className="bg-white rounded-2xl p-4 text-center">
             <p className="text-2xl font-bold text-[#007AFF]">1,320</p>
-            <p className="text-xs text-[#86868B] mt-0.5">Chapters</p>
+            <p className="text-xs text-[#86868B] mt-0.5">Study Guides</p>
           </div>
           <div className="bg-white rounded-2xl p-4 text-center">
-            <p className="text-2xl font-bold text-[#007AFF]">8</p>
-            <p className="text-xs text-[#86868B] mt-0.5">Translations</p>
+            <p className="text-2xl font-bold text-[#007AFF]">10</p>
+            <p className="text-xs text-[#86868B] mt-0.5">Lenses</p>
           </div>
         </div>
 
-        {/* Featured Studies */}
         <section className="mb-10">
           <div className="flex items-center gap-3 mb-4 px-1">
             <h2 className="font-sans text-lg font-bold text-[#1D1D1F]">Featured Studies</h2>
@@ -63,7 +61,7 @@ export default function BiblePage() {
             {FEATURED_STUDIES.map((study) => (
               <Link
                 key={`${study.book}/${study.chapter}`}
-                href={`/bible/${study.book}/${study.chapter}`}
+                href={`/study/${study.book}/${study.chapter}`}
                 className="bg-white rounded-2xl p-4 group hover:shadow-md transition-all"
               >
                 <span className="pill bg-[#007AFF]/[0.08] text-[#007AFF] text-[10px] mb-2 inline-block">{study.badge}</span>
@@ -74,32 +72,29 @@ export default function BiblePage() {
           </div>
         </section>
 
-        {/* Old Testament */}
         <section className="mb-10">
           <div className="flex items-center gap-3 mb-4 px-1">
             <h2 className="font-sans text-lg font-bold text-[#1D1D1F]">Old Testament</h2>
             <span className="pill bg-[#007AFF]/[0.08] text-[#007AFF]">{oldTestament.length} books</span>
           </div>
-          <BookGrid books={oldTestament} />
+          <BookGrid books={oldTestament} basePath="/study" />
         </section>
 
-        {/* New Testament */}
         <section className="mb-10">
           <div className="flex items-center gap-3 mb-4 px-1">
             <h2 className="font-sans text-lg font-bold text-[#1D1D1F]">New Testament</h2>
             <span className="pill bg-[#007AFF]/[0.08] text-[#007AFF]">{newTestament.length} books</span>
           </div>
-          <BookGrid books={newTestament} />
+          <BookGrid books={newTestament} basePath="/study" />
         </section>
 
-        {/* Apocrypha / Deuterocanonical */}
         <section>
           <div className="flex items-center gap-3 mb-4 px-1">
             <h2 className="font-sans text-lg font-bold text-[#1D1D1F]">Deuterocanonical Books</h2>
             <span className="pill bg-[#AF52DE]/[0.08] text-[#AF52DE]">{apocrypha.length} books</span>
           </div>
           <p className="text-[0.8125rem] text-[#86868B] mb-4 px-1">Included in Catholic Bibles. Available in the Douay-Rheims American (DRA) translation.</p>
-          <BookGrid books={apocrypha} />
+          <BookGrid books={apocrypha} basePath="/study" />
         </section>
       </div>
     </div>

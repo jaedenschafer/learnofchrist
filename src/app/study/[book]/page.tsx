@@ -32,20 +32,20 @@ export async function generateMetadata({ params }: BookPageProps): Promise<Metad
 
   const testament = book_obj.testament === 'old' ? 'Old Testament' : book_obj.testament === 'apocrypha' ? 'Deuterocanonical' : 'New Testament';
   return {
-    title: `${book_obj.name} - ${testament} Bible Study | Learn of Christ`,
+    title: `${book_obj.name} Study Guide - ${testament} | Learn of Christ`,
     description: `${book_obj.description} Study all ${book_obj.chapters} chapters of ${book_obj.name} with commentary, key themes, and connections to Christ.`,
     openGraph: {
       title: `${book_obj.name} — Bible Study Guide`,
       description: book_obj.description,
-      url: `https://learnofchrist.com/bible/${book}`,
+      url: `https://learnofchrist.com/study/${book}`,
     },
     alternates: {
-      canonical: `https://learnofchrist.com/bible/${book}`,
+      canonical: `https://learnofchrist.com/study/${book}`,
     },
   };
 }
 
-export default async function BookPage({ params }: BookPageProps) {
+export default async function StudyBookPage({ params }: BookPageProps) {
   const { book } = await params;
   const bookName = slugToBookName(book);
   const book_obj = getBookByName(bookName);
@@ -56,7 +56,7 @@ export default async function BookPage({ params }: BookPageProps) {
         <div className="max-w-3xl mx-auto text-center py-20">
           <h1 className="text-3xl font-bold text-[#1D1D1F] mb-3">Book Not Found</h1>
           <p className="text-[#86868B] mb-6">The book you&apos;re looking for couldn&apos;t be found.</p>
-          <Link href="/bible" className="btn-primary">Back to Bible Study</Link>
+          <Link href="/study" className="btn-primary">Back to Study Guides</Link>
         </div>
       </div>
     );
@@ -65,7 +65,7 @@ export default async function BookPage({ params }: BookPageProps) {
   return (
     <div className="page-container">
       <div className="max-w-3xl mx-auto">
-        <BreadcrumbNav items={[{ label: 'Bible', href: '/bible' }, { label: book_obj.name, href: '#' }]} />
+        <BreadcrumbNav items={[{ label: 'Study', href: '/study' }, { label: book_obj.name, href: '#' }]} />
 
         <div className="bg-white rounded-3xl p-6 mb-6">
           <span className={`inline-block text-[0.75rem] font-medium px-3 py-1 rounded-full mb-3 ${
@@ -75,25 +75,24 @@ export default async function BookPage({ params }: BookPageProps) {
           }`}>
             {book_obj.testament === 'old' ? 'Old Testament' : book_obj.testament === 'apocrypha' ? 'Deuterocanonical' : 'New Testament'}
           </span>
-          <h1 className="text-3xl sm:text-4xl font-bold text-[#1D1D1F] tracking-tight mb-3">{book_obj.name}</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold text-[#1D1D1F] tracking-tight mb-3">{book_obj.name} Study Guide</h1>
           <p className="text-[0.9375rem] text-[#86868B] leading-relaxed mb-4">{book_obj.description}</p>
           <div className="flex gap-2 flex-wrap">
             <span className="text-[0.8125rem] font-medium text-[#007AFF] bg-[#007AFF]/[0.08] px-3 py-1 rounded-full">{book_obj.chapters} Chapters</span>
-            <span className="text-[0.8125rem] font-medium text-[#86868B] bg-[#F5F5F7] px-3 py-1 rounded-full">{book_obj.abbreviation}</span>
-            <Link href={`/study/${book}`} className="text-[0.8125rem] font-medium text-[#5856D6] bg-[#5856D6]/[0.08] px-3 py-1 rounded-full hover:bg-[#5856D6]/[0.15] transition-colors">
-              Study guides →
+            <Link href={`/bible/${book}`} className="text-[0.8125rem] font-medium text-[#86868B] bg-[#F5F5F7] px-3 py-1 rounded-full hover:bg-[#E5E5EA] transition-colors">
+              Just read {book_obj.name} →
             </Link>
           </div>
         </div>
 
         <div className="px-1 mb-2">
-          <p className="text-[0.8125rem] font-semibold text-[#86868B]">Select a Chapter to Read</p>
+          <p className="text-[0.8125rem] font-semibold text-[#86868B]">Select a Chapter to Study</p>
         </div>
         <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 gap-2">
           {Array.from({ length: book_obj.chapters }, (_, i) => i + 1).map((chapter) => (
             <Link
               key={chapter}
-              href={`/bible/${book}/${chapter}`}
+              href={`/study/${book}/${chapter}`}
               className="bg-white rounded-2xl text-center py-3 active:scale-95 transition-all group hover:shadow-md"
             >
               <span className="text-base font-semibold text-[#1D1D1F] group-hover:text-[#007AFF] transition-colors">{chapter}</span>
