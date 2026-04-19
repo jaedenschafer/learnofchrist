@@ -1032,3 +1032,264 @@ html.js .rich-study .scripture.visible mark {
 @media (max-width: 640px) {
   .rich-study .study-top-share-hint { display: none; }
 }
+
+/* ─────────────────────────────────────────────
+   Audio — listen button, floating player, Hebrew pronouncer
+   ───────────────────────────────────────────── */
+
+/* Launch button */
+.audio-launch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.6rem 1rem 0.6rem 0.75rem;
+  border-radius: 999px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  color: #1D1D1F;
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-style: normal;
+  text-align: left;
+  transition: border-color 0.15s, background 0.15s, transform 0.12s;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03), 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+.audio-launch:hover {
+  border-color: rgba(0, 122, 255, 0.3);
+  transform: translateY(-1px);
+}
+.audio-launch-ico {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #007AFF, #5856D6);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.audio-launch-ico svg { width: 14px; height: 14px; margin-left: 1px; }
+.audio-launch-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.audio-launch-title {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #1D1D1F;
+  letter-spacing: -0.005em;
+  line-height: 1.2;
+}
+.audio-launch-sub {
+  font-size: 11.5px;
+  font-weight: 500;
+  color: #86868B;
+  line-height: 1.2;
+  margin-top: 1px;
+}
+
+/* Floating player */
+.audio-player {
+  position: fixed;
+  left: 12px;
+  right: 12px;
+  bottom: 16px;
+  z-index: 90;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+  animation: audioPlayerUp 0.25s ease-out;
+}
+@keyframes audioPlayerUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.audio-player-inner {
+  pointer-events: auto;
+  width: min(640px, 100%);
+  background: rgba(29, 29, 31, 0.92);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 10px 10px 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-sans);
+  font-style: normal;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
+}
+
+.audio-ctrl {
+  appearance: none;
+  border: none;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+  flex-shrink: 0;
+}
+.audio-ctrl:hover { background: rgba(255, 255, 255, 0.15); }
+.audio-ctrl:active { transform: scale(0.96); }
+.audio-ctrl:disabled { opacity: 0.3; cursor: not-allowed; }
+.audio-ctrl svg { width: 16px; height: 16px; }
+.audio-ctrl.audio-playpause {
+  background: #fff;
+  color: #1D1D1F;
+  width: 40px;
+  height: 40px;
+}
+.audio-ctrl.audio-playpause:hover { background: #F5F5F7; }
+.audio-ctrl.audio-speed {
+  width: auto;
+  padding: 0 10px;
+  font-size: 12.5px;
+  font-weight: 700;
+  border-radius: 18px;
+}
+
+.audio-now {
+  flex: 1;
+  min-width: 0;
+  padding: 0 8px;
+}
+.audio-now-label {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #fff;
+  margin: 0 0 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.audio-now-progress {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+}
+.audio-progress {
+  height: 3px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.audio-progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #007AFF, #5856D6);
+  border-radius: 2px;
+  transition: width 0.3s ease-out;
+}
+
+.audio-speed-wrap { position: relative; }
+.audio-speed-menu {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  right: 0;
+  background: rgba(29, 29, 31, 0.98);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  min-width: 72px;
+}
+.audio-speed-opt {
+  background: none;
+  border: none;
+  color: #fff;
+  padding: 7px 12px;
+  border-radius: 8px;
+  font-size: 12.5px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  font-family: var(--font-sans);
+}
+.audio-speed-opt:hover { background: rgba(255, 255, 255, 0.1); }
+.audio-speed-opt.active { background: rgba(0, 122, 255, 0.35); }
+
+/* Reading highlight */
+.rich-study .is-reading {
+  position: relative;
+  transition: background 0.35s;
+}
+.rich-study .is-reading::before {
+  content: "";
+  position: absolute;
+  left: -18px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  border-radius: 2px;
+  background: linear-gradient(180deg, #007AFF, #5856D6);
+  animation: isReadingPulse 1.6s ease-in-out infinite;
+}
+@keyframes isReadingPulse {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+/* ── Hebrew speaker icon ── */
+.rich-study .hebrew-audio-mount {
+  display: inline-flex;
+  vertical-align: middle;
+  margin-left: 0.45rem;
+}
+.rich-study .hebrew-audio-btn {
+  appearance: none;
+  border: none;
+  background: rgba(184, 134, 11, 0.12);
+  color: #B8860B;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.15s, color 0.15s;
+}
+.rich-study .hebrew-audio-btn:hover {
+  background: rgba(184, 134, 11, 0.2);
+  transform: scale(1.08);
+}
+.rich-study .hebrew-audio-btn:active { transform: scale(0.95); }
+.rich-study .hebrew-audio-btn svg { width: 13px; height: 13px; }
+.rich-study .hebrew-audio-btn.pulsing {
+  animation: hebrewPulse 0.9s ease-out;
+}
+@keyframes hebrewPulse {
+  0% { box-shadow: 0 0 0 0 rgba(184, 134, 11, 0.5); }
+  100% { box-shadow: 0 0 0 14px rgba(184, 134, 11, 0); }
+}
+
+/* Keep the study-top actions row tidy when we add audio */
+.rich-study .study-top-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 0 0 1.75rem;
+}
+.rich-study .study-top-actions + .study-top-share { margin-top: 0; }
+
+@media (max-width: 640px) {
+  .audio-player-inner { border-radius: 16px; padding: 8px; }
+  .audio-ctrl { width: 32px; height: 32px; }
+  .audio-ctrl.audio-playpause { width: 38px; height: 38px; }
+  .audio-now-label { font-size: 12px; }
+  .audio-launch-sub { display: none; }
+  .rich-study .is-reading::before { left: -10px; }
+}

@@ -6,6 +6,8 @@ import ReflectionBlock from './ReflectionBlock';
 import ScriptureRefs from './ScriptureRefs';
 import ShareableMarks from './ShareableMarks';
 import ShareButton from './ShareButton';
+import StudyAudioPlayer from './StudyAudioPlayer';
+import HebrewAudio from './HebrewAudio';
 import './GenesisOneStudy.css';
 
 export default function GenesisOneStudy() {
@@ -107,10 +109,13 @@ export default function GenesisOneStudy() {
         pageUrl="/study/genesis/1"
       />
 
-      <div className="study-top-share">
+      <HebrewAudio />
+
+      <div className="study-top-actions">
+        <StudyAudioPlayer />
         <ShareButton
           variant="ghost"
-          label="Share this chapter"
+          label="Share"
           content={{
             quote: 'How God spoke a world into being — and why every word of it still belongs to you.',
             snippet: 'A deep study guide to Genesis 1: themes, Christ connections, and commitments you can carry this week.',
@@ -119,7 +124,6 @@ export default function GenesisOneStudy() {
             sourceUrl: (typeof window !== 'undefined' ? window.location.origin : 'https://learnofchrist.com') + '/study/genesis/1',
           }}
         />
-        <span className="study-top-share-hint">Right-click any highlight to share the insight</span>
       </div>
 
       <p className="intro">
