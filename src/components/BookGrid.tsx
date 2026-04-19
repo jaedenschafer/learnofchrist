@@ -19,7 +19,7 @@ export default function BookGrid({ books, basePath = '/bible' }: BookGridProps) 
           <Link
             key={book.id}
             href={`${basePath}/${slug}`}
-            className="group flex items-center justify-between bg-white border border-black/[0.04] rounded-2xl px-4 py-3.5 hover:border-[#007AFF]/30 hover:bg-[#007AFF]/[0.02] active:scale-[0.98] transition-all"
+            className="group flex items-center justify-between bg-[color:var(--color-surface)] border border-[color:var(--color-separator)] rounded-2xl px-4 py-3.5 hover:border-[#007AFF]/30 hover:bg-[#007AFF]/[0.02] active:scale-[0.98] transition-all"
           >
             <div className="min-w-0 flex-1">
               <h3 className="text-[0.9375rem] font-semibold text-[color:var(--color-label)] truncate group-hover:text-[color:var(--color-primary)] transition-colors">

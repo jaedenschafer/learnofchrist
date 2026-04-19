@@ -19,7 +19,7 @@ export default function TranslationsPage() {
   return (
     <main className="min-h-screen bg-[var(--color-bg)]">
       {/* Hero Section */}
-      <div className="bg-white border-b border-[color:var(--color-separator)]">
+      <div className="bg-[color:var(--color-surface)] border-b border-[color:var(--color-separator)]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <BreadcrumbNav items={[
             { label: 'Home', href: '/' },
@@ -45,7 +45,7 @@ export default function TranslationsPage() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {translations.map((t) => (
-            <div key={t.id} className="bg-white rounded-2xl shadow-sm p-6 hover:shadow-md transition-shadow duration-200">
+            <div key={t.id} className="bg-[color:var(--color-surface)] rounded-2xl shadow-sm p-6 hover:shadow-md transition-shadow duration-200">
               {/* Header */}
               <div className="flex items-center gap-3 mb-3">
                 <span className="inline-block text-[0.8125rem] font-bold px-3 py-1 rounded-full text-[color:var(--color-primary)] bg-[#007AFF]/[0.08]">

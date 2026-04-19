@@ -24,7 +24,7 @@ export default function TranslationSwitcher() {
   const hasMore = availableTranslations.length > 3;
 
   return (
-    <div className="sticky top-12 z-40 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2 glass border-b border-black/[0.04]">
+    <div className="sticky top-12 z-40 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2 glass border-b border-[color:var(--color-separator)]">
       <div className="max-w-3xl mx-auto flex items-center gap-2">
         <span className="text-[0.6875rem] font-semibold text-[color:var(--color-secondary-label)] mr-1 hidden sm:inline">Translation</span>
 
@@ -36,7 +36,7 @@ export default function TranslationSwitcher() {
               onClick={() => setTranslation(t.abbreviation)}
               className={`px-3.5 py-1.5 rounded-[10px] text-[0.75rem] font-semibold transition-all ${
                 currentTranslation === t.abbreviation
-                  ? 'bg-white text-[color:var(--color-label)] shadow-sm'
+                  ? 'bg-[color:var(--color-surface)] text-[color:var(--color-label)] shadow-sm'
                   : 'text-[color:var(--color-secondary-label)] hover:text-[color:var(--color-label)]'
               }`}
               title={t.name}
@@ -53,7 +53,7 @@ export default function TranslationSwitcher() {
               onClick={() => setOpen(!open)}
               className={`flex items-center gap-1 px-3 py-1.5 rounded-xl text-[0.75rem] font-semibold transition-all ${
                 !quickAccess.some(t => t.abbreviation === currentTranslation)
-                  ? 'bg-white text-[color:var(--color-label)] shadow-sm border border-black/[0.06]'
+                  ? 'bg-[color:var(--color-surface)] text-[color:var(--color-label)] shadow-sm border border-[color:var(--color-separator)]'
                   : 'text-[color:var(--color-secondary-label)] hover:text-[color:var(--color-label)] bg-black/[0.04]'
               }`}
             >
@@ -66,7 +66,7 @@ export default function TranslationSwitcher() {
             </button>
 
             {open && (
-              <div className="absolute top-full left-0 mt-1.5 bg-white rounded-2xl shadow-lg border border-black/[0.06] py-1.5 min-w-[220px] z-50 overflow-hidden">
+              <div className="absolute top-full left-0 mt-1.5 bg-[color:var(--color-surface)] rounded-2xl shadow-lg border border-[color:var(--color-separator)] py-1.5 min-w-[220px] z-50 overflow-hidden">
                 {availableTranslations.map((t) => (
                   <button
                     key={t.abbreviation}

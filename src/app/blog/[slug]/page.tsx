@@ -191,7 +191,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
         {/* Table of Contents */}
         {post.sections.length > 1 && (
-          <div className="bg-white rounded-2xl p-5 sm:p-7 mb-6">
+          <div className="bg-[color:var(--color-surface)] rounded-2xl p-5 sm:p-7 mb-6">
             <h2 className="font-sans text-base font-semibold text-[color:var(--color-label)] mb-4">
               In This Article
             </h2>
@@ -253,7 +253,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
         {/* FAQ Section */}
         {post.faq.length > 0 && (
-          <div className="bg-white rounded-2xl p-5 sm:p-7 mb-4">
+          <div className="bg-[color:var(--color-surface)] rounded-2xl p-5 sm:p-7 mb-4">
             <h2 className="font-sans text-base font-semibold text-[color:var(--color-label)] mb-4">
               Frequently Asked Questions
             </h2>
@@ -263,7 +263,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
         {/* Key Verses */}
         {post.keyVerses.length > 0 && (
-          <div className="bg-white rounded-2xl p-5 sm:p-7 mb-4">
+          <div className="bg-[color:var(--color-surface)] rounded-2xl p-5 sm:p-7 mb-4">
             <h2 className="font-sans text-base font-semibold text-[color:var(--color-label)] mb-4">Key Verses</h2>
             <div className="space-y-3">
               {post.keyVerses.map((verse, i) => (
@@ -285,7 +285,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
         {/* Continue Reading */}
         {post.bibleReading.length > 0 && (
-          <div className="bg-white rounded-2xl p-5 sm:p-7 mb-4">
+          <div className="bg-[color:var(--color-surface)] rounded-2xl p-5 sm:p-7 mb-4">
             <h2 className="font-sans text-base font-semibold text-[color:var(--color-label)] mb-3">
               Continue Reading in the Bible
             </h2>
@@ -331,7 +331,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                   <Link
                     key={related.id}
                     href={`/blog/${related.id}`}
-                    className="block bg-white rounded-2xl overflow-hidden group transition-shadow duration-300 hover:shadow-[0_2px_8px_rgba(0,0,0,0.06),0_8px_24px_rgba(0,0,0,0.04)]"
+                    className="block bg-[color:var(--color-surface)] rounded-2xl overflow-hidden group transition-shadow duration-300 hover:shadow-[0_2px_8px_rgba(0,0,0,0.06),0_8px_24px_rgba(0,0,0,0.04)]"
                   >
                     <div className="relative aspect-[16/9] w-full overflow-hidden">
                       <Image

@@ -37,7 +37,7 @@ export default function BlogPage() {
         {featured && (
           <Link
             href={`/blog/${featured.id}`}
-            className="block bg-white rounded-2xl overflow-hidden mb-8 group transition-shadow duration-300 hover:shadow-[0_2px_8px_rgba(0,0,0,0.06),0_8px_24px_rgba(0,0,0,0.04)]"
+            className="block bg-[color:var(--color-surface)] rounded-2xl overflow-hidden mb-8 group transition-shadow duration-300 hover:shadow-[0_2px_8px_rgba(0,0,0,0.06),0_8px_24px_rgba(0,0,0,0.04)]"
           >
             <div className="relative aspect-[16/9] w-full overflow-hidden">
               <Image
@@ -82,7 +82,7 @@ export default function BlogPage() {
             <article key={post.id}>
               <Link
                 href={`/blog/${post.id}`}
-                className="block bg-white rounded-2xl overflow-hidden h-full group transition-shadow duration-300 hover:shadow-[0_2px_8px_rgba(0,0,0,0.06),0_8px_24px_rgba(0,0,0,0.04)]"
+                className="block bg-[color:var(--color-surface)] rounded-2xl overflow-hidden h-full group transition-shadow duration-300 hover:shadow-[0_2px_8px_rgba(0,0,0,0.06),0_8px_24px_rgba(0,0,0,0.04)]"
               >
                 <div className="relative aspect-[16/9] w-full overflow-hidden">
                   <Image

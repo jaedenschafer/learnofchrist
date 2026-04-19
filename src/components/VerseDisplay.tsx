@@ -63,7 +63,7 @@ export default function VerseDisplay({ bookSlug, chapter, initialVerses, explain
 
   if (verses.length === 0) {
     return (
-      <div className="bg-white rounded-2xl text-center py-16">
+      <div className="bg-[color:var(--color-surface)] rounded-2xl text-center py-16">
         <p className="text-[color:var(--color-tertiary-label)] text-[0.9375rem]">
           {defaultTranslation === 'dra'
             ? 'This book is available in the Douay-Rheims (DRA) translation. Switch to DRA to read.'
@@ -78,7 +78,7 @@ export default function VerseDisplay({ bookSlug, chapter, initialVerses, explain
   // Paragraph mode: render all verses inline in a single block
   if (readingMode === 'paragraph') {
     return (
-      <div className="bg-white rounded-2xl p-5 sm:p-7 relative">
+      <div className="bg-[color:var(--color-surface)] rounded-2xl p-5 sm:p-7 relative">
         {loading && (
           <div className="absolute inset-0 glass rounded-2xl flex items-center justify-center z-10">
             <div className="flex items-center gap-2 text-[0.875rem] text-[color:var(--color-secondary-label)]">
@@ -125,7 +125,7 @@ export default function VerseDisplay({ bookSlug, chapter, initialVerses, explain
 
   // Verse-by-verse mode (default)
   return (
-    <div className="bg-white rounded-2xl p-5 sm:p-7 relative">
+    <div className="bg-[color:var(--color-surface)] rounded-2xl p-5 sm:p-7 relative">
       {loading && (
         <div className="absolute inset-0 glass rounded-2xl flex items-center justify-center z-10">
           <div className="flex items-center gap-2 text-[0.875rem] text-[color:var(--color-secondary-label)]">

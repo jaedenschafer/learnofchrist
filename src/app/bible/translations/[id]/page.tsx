@@ -36,7 +36,7 @@ export default async function TranslationPage({ params }: { params: Promise<Para
   return (
     <main className="min-h-screen bg-[var(--color-bg)]">
       {/* Breadcrumb + Hero */}
-      <div className="bg-white border-b border-[color:var(--color-separator)]">
+      <div className="bg-[color:var(--color-surface)] border-b border-[color:var(--color-separator)]">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <BreadcrumbNav items={[
             { label: 'Home', href: '/' },
@@ -68,12 +68,12 @@ export default async function TranslationPage({ params }: { params: Promise<Para
       {/* Content */}
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-8">
         {/* Description */}
-        <div className="bg-white rounded-2xl shadow-sm p-8">
+        <div className="bg-[color:var(--color-surface)] rounded-2xl shadow-sm p-8">
           <p className="text-base text-[#424245] leading-relaxed">{t.description}</p>
         </div>
 
         {/* Sample Verse */}
-        <div className="bg-white rounded-2xl shadow-sm p-8">
+        <div className="bg-[color:var(--color-surface)] rounded-2xl shadow-sm p-8">
           <h2 className="font-sans text-xl font-bold text-[color:var(--color-label)] mb-6">Sample Verse</h2>
           <div className="bg-[var(--color-bg)] rounded-xl p-6 border-l-4 border-[#007AFF]">
             <p className="text-[0.8125rem] font-medium text-[color:var(--color-primary)] mb-2">{t.sampleVerse.reference}</p>
@@ -82,7 +82,7 @@ export default async function TranslationPage({ params }: { params: Promise<Para
         </div>
 
         {/* History */}
-        <div className="bg-white rounded-2xl shadow-sm p-8">
+        <div className="bg-[color:var(--color-surface)] rounded-2xl shadow-sm p-8">
           <h2 className="font-sans text-xl font-bold text-[color:var(--color-label)] mb-6">History</h2>
           <div className="space-y-4">
             {t.history.map((paragraph, i) => (
@@ -92,7 +92,7 @@ export default async function TranslationPage({ params }: { params: Promise<Para
         </div>
 
         {/* Key Features */}
-        <div className="bg-white rounded-2xl shadow-sm p-8">
+        <div className="bg-[color:var(--color-surface)] rounded-2xl shadow-sm p-8">
           <h2 className="font-sans text-xl font-bold text-[color:var(--color-label)] mb-6">Key Features</h2>
           <ul className="space-y-3">
             {t.features.map((feature, i) => (
@@ -105,7 +105,7 @@ export default async function TranslationPage({ params }: { params: Promise<Para
         </div>
 
         {/* Best For */}
-        <div className="bg-white rounded-2xl shadow-sm p-8">
+        <div className="bg-[color:var(--color-surface)] rounded-2xl shadow-sm p-8">
           <h2 className="font-sans text-xl font-bold text-[color:var(--color-label)] mb-6">Best For</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {t.bestFor.map((use, i) => (
@@ -117,7 +117,7 @@ export default async function TranslationPage({ params }: { params: Promise<Para
         </div>
 
         {/* Bottom CTA */}
-        <div className="bg-white rounded-2xl shadow-sm p-8 text-center">
+        <div className="bg-[color:var(--color-surface)] rounded-2xl shadow-sm p-8 text-center">
           <h2 className="font-sans text-xl font-bold text-[color:var(--color-label)] mb-3">Ready to explore Scripture?</h2>
           <p className="text-[0.9375rem] text-[color:var(--color-secondary-label)] mb-6 max-w-xl mx-auto">
             Start reading the {t.fullName} and discover how this translation can deepen your biblical study and spiritual growth.

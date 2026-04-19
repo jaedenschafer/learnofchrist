@@ -42,7 +42,7 @@ export default function DenominationSwitcher() {
         className={`w-full flex items-center gap-3 rounded-2xl p-4 transition-all ${
           isActive
             ? 'bg-[#007AFF]/[0.06] border border-[#007AFF]/20'
-            : 'bg-white border border-transparent'
+            : 'bg-[color:var(--color-surface)] border border-transparent'
         }`}
       >
         {/* Icon */}
@@ -72,7 +72,7 @@ export default function DenominationSwitcher() {
 
       {/* Dropdown */}
       {open && (
-        <div className="absolute left-0 right-0 top-full mt-1 z-50 bg-white rounded-2xl shadow-[0_4px_24px_rgba(0,0,0,0.12)] overflow-hidden animate-fade-in">
+        <div className="absolute left-0 right-0 top-full mt-1 z-50 bg-[color:var(--color-surface)] rounded-2xl shadow-[0_4px_24px_rgba(0,0,0,0.12)] overflow-hidden animate-fade-in">
           <div className="p-2 max-h-[50vh] overflow-y-auto">
             {DENOMINATIONS.map((d) => (
               <button

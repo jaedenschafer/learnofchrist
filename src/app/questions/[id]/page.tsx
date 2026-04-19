@@ -75,14 +75,14 @@ export default async function QuestionPage({ params }: QuestionPageProps) {
           <BreadcrumbNav items={[{ label: 'Questions', href: '/questions' }, { label: question.question, href: '#' }]} />
 
           {/* Header */}
-          <div className="bg-white rounded-2xl p-6 mb-4">
+          <div className="bg-[color:var(--color-surface)] rounded-2xl p-6 mb-4">
             <span className="inline-block text-xs font-medium text-[color:var(--color-primary)] bg-[#007AFF]/[0.08] px-3 py-1 rounded-full mb-3">{question.category}</span>
             <h1 className="text-2xl sm:text-3xl font-bold text-[color:var(--color-label)] tracking-tight">{question.question}</h1>
           </div>
 
           <div className="space-y-3">
             {/* Answer */}
-            <div className="bg-white rounded-2xl p-6">
+            <div className="bg-[color:var(--color-surface)] rounded-2xl p-6">
               <h2 className="text-base font-semibold text-[color:var(--color-label)] mb-3">The Biblical Answer</h2>
               <div className="space-y-3">
                 {answerParagraphs.map((paragraph, i) => (
@@ -94,7 +94,7 @@ export default async function QuestionPage({ params }: QuestionPageProps) {
             <div className="section-divider" />
 
             {/* Key Verses */}
-            <div className="bg-white rounded-2xl p-6">
+            <div className="bg-[color:var(--color-surface)] rounded-2xl p-6">
               <h2 className="text-base font-semibold text-[color:var(--color-label)] mb-3">Key Verses</h2>
               <div className="space-y-3">
                 {question.keyVerses.map((verse, i) => (
@@ -107,7 +107,7 @@ export default async function QuestionPage({ params }: QuestionPageProps) {
             </div>
 
             {/* Bible Reading */}
-            <div className="bg-white rounded-2xl p-6">
+            <div className="bg-[color:var(--color-surface)] rounded-2xl p-6">
               <h2 className="text-base font-semibold text-[color:var(--color-label)] mb-3">Recommended Bible Reading</h2>
               <div className="divide-y divide-[color:var(--color-separator)]">
                 {question.bibleReading.map((reading, i) => (
@@ -128,7 +128,7 @@ export default async function QuestionPage({ params }: QuestionPageProps) {
 
             {/* Related Questions */}
             {relatedQuestions.length > 0 && (
-              <div className="bg-white rounded-2xl p-6">
+              <div className="bg-[color:var(--color-surface)] rounded-2xl p-6">
                 <h2 className="text-base font-semibold text-[color:var(--color-label)] mb-3">Related Questions</h2>
                 <div className="divide-y divide-[color:var(--color-separator)]">
                   {relatedQuestions.map((related) => (
@@ -154,7 +154,7 @@ export default async function QuestionPage({ params }: QuestionPageProps) {
               <h2 className="text-lg font-bold text-white mb-1">Have More Questions?</h2>
               <p className="text-xs text-white/60 mb-3">Explore more answers to common questions about Jesus and the Christian faith.</p>
               <div className="flex gap-2">
-                <Link href="/questions" className="inline-block px-5 py-2.5 bg-white text-[color:var(--color-label)] text-sm font-medium rounded-full hover:opacity-90 transition-opacity">All Questions</Link>
+                <Link href="/questions" className="inline-block px-5 py-2.5 bg-white text-[#1D1D1F] text-sm font-medium rounded-full hover:opacity-90 transition-opacity">All Questions</Link>
                 <Link href="/bible" className="inline-block px-5 py-2.5 bg-[#007AFF] text-white text-sm font-medium rounded-full hover:opacity-90 transition-opacity">Study the Bible</Link>
               </div>
             </div>

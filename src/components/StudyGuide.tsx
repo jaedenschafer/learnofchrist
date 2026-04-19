@@ -74,14 +74,14 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
       )}
 
       {/* Overview — all levels */}
-      <div className="bg-white rounded-2xl p-6">
+      <div className="bg-[color:var(--color-surface)] rounded-2xl p-6">
         <h2 className="font-sans text-lg font-bold text-[color:var(--color-label)] mb-3">Overview</h2>
         <p className="text-base text-[color:var(--color-secondary-label)] leading-relaxed">{overview}</p>
       </div>
 
       {/* Key Themes — intermediate & deep */}
       {(level === 'intermediate' || level === 'deep') && (
-        <div className="bg-white rounded-2xl p-6">
+        <div className="bg-[color:var(--color-surface)] rounded-2xl p-6">
           <h2 className="font-sans text-lg font-bold text-[color:var(--color-label)] mb-3">Key Themes</h2>
           <div className="space-y-4">
             {themes.map((theme, i) => (
@@ -99,7 +99,7 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
 
       {/* Denomination Emphasis — when active, intermediate & deep */}
       {perspective && (level === 'intermediate' || level === 'deep') && (
-        <div className="bg-white rounded-2xl p-6 border border-[#5856D6]/10">
+        <div className="bg-[color:var(--color-surface)] rounded-2xl p-6 border border-[#5856D6]/10">
           <div className="flex items-center gap-2 mb-3">
             <div className="w-7 h-7 rounded-lg bg-[#5856D6]/[0.1] flex items-center justify-center">
               <svg className="w-3.5 h-3.5 text-[#5856D6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -136,7 +136,7 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
 
       {/* Study Questions — intermediate & deep */}
       {(level === 'intermediate' || level === 'deep') && (
-        <div className="bg-white rounded-2xl p-6">
+        <div className="bg-[color:var(--color-surface)] rounded-2xl p-6">
           <h2 className="font-sans text-lg font-bold text-[color:var(--color-label)] mb-3">Study Questions</h2>
           <div className="space-y-3">
             {questions.map((q, i) => (
@@ -151,7 +151,7 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
 
       {/* Connection to Christ — intermediate & deep */}
       {(level === 'intermediate' || level === 'deep') && (
-        <div className="bg-white rounded-2xl p-6">
+        <div className="bg-[color:var(--color-surface)] rounded-2xl p-6">
           <h2 className="font-sans text-lg font-bold text-[color:var(--color-label)] mb-3">Connection to Christ</h2>
           <p className="text-base text-[color:var(--color-secondary-label)] leading-relaxed mb-3">{christConnection}</p>
           {!content && (
@@ -168,7 +168,7 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
       {level === 'deep' && (
         <>
           {/* Historical & Cultural Context */}
-          <div className="bg-white rounded-2xl p-6">
+          <div className="bg-[color:var(--color-surface)] rounded-2xl p-6">
             <h2 className="font-sans text-lg font-bold text-[color:var(--color-label)] mb-3">Historical &amp; Cultural Context</h2>
             <p className="text-base text-[color:var(--color-secondary-label)] leading-relaxed">
               Understanding the historical setting of {bookName} {chapter} enriches our reading. Consider the original audience, the cultural practices of the time, and how these details illuminate the text&apos;s meaning. Study the geography, customs, and political landscape that shaped this passage.
@@ -176,7 +176,7 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
           </div>
 
           {/* Original Language Insights */}
-          <div className="bg-white rounded-2xl p-6">
+          <div className="bg-[color:var(--color-surface)] rounded-2xl p-6">
             <h2 className="font-sans text-lg font-bold text-[color:var(--color-label)] mb-3">Original Language Insights</h2>
             <div className="bg-[var(--color-bg)] rounded-xl p-4 mb-3">
               <p className="text-sm text-[color:var(--color-secondary-label)] leading-relaxed">
@@ -189,7 +189,7 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
           </div>
 
           {/* Cross-References */}
-          <div className="bg-white rounded-2xl p-6">
+          <div className="bg-[color:var(--color-surface)] rounded-2xl p-6">
             <h2 className="font-sans text-lg font-bold text-[color:var(--color-label)] mb-3">Cross-References &amp; Connections</h2>
             <p className="text-base text-[color:var(--color-secondary-label)] leading-relaxed mb-3">
               Scripture interprets Scripture. The themes in {bookName} {chapter} echo and connect with passages throughout the Bible, forming a unified narrative of God&apos;s redemptive plan.

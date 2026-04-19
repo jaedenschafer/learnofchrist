@@ -149,6 +149,41 @@ html[data-reader-theme="dark"] .glass-heavy {
   transform: translateY(-1px);
 }
 
+/* ─── Hero Surface (page top gradient panel) ─── */
+.hero-surface {
+  background: linear-gradient(
+    135deg,
+    var(--color-surface) 0%,
+    var(--color-surface) 55%,
+    color-mix(in srgb, var(--color-primary) 10%, var(--color-surface)) 100%
+  );
+  border: 1px solid var(--color-separator);
+  box-shadow: var(--shadow-card);
+}
+html[data-reader-theme="dark"] .hero-surface {
+  background: linear-gradient(
+    135deg,
+    var(--color-surface) 0%,
+    var(--color-surface) 55%,
+    color-mix(in srgb, var(--color-primary) 18%, var(--color-surface)) 100%
+  );
+  border-color: rgba(255, 255, 255, 0.06);
+}
+.hero-pill {
+  background: color-mix(in srgb, var(--color-surface) 80%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-primary) 15%, transparent);
+}
+html[data-reader-theme="dark"] .hero-pill {
+  background: color-mix(in srgb, var(--color-surface) 70%, transparent);
+  border-color: color-mix(in srgb, var(--color-primary) 30%, transparent);
+}
+
+/* Tint-able card surface — plays nicely in both themes */
+.card-tinted {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-separator);
+}
+
 /* ─── Grouped Card (iOS list style) ─── */
 .card-grouped {
   background-color: var(--color-surface);

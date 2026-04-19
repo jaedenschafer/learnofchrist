@@ -57,12 +57,12 @@ export default function StudyIndexPage() {
       <div className="max-w-4xl mx-auto">
 
         {/* ── Hero ── */}
-        <section className="relative mb-10 overflow-hidden rounded-[32px] bg-gradient-to-br from-white via-white to-[#F0EFFF] border border-black/[0.04] shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.03)]">
+        <section className="hero-surface relative mb-10 overflow-hidden rounded-[32px]">
           <div className="absolute -top-24 -right-16 w-72 h-72 rounded-full bg-[#5856D6]/[0.08] blur-3xl pointer-events-none" />
           <div className="absolute -bottom-24 -left-16 w-72 h-72 rounded-full bg-[#007AFF]/[0.06] blur-3xl pointer-events-none" />
 
           <div className="relative px-6 sm:px-10 py-10 sm:py-14 text-center">
-            <span className="inline-block text-[0.6875rem] font-semibold text-[#5856D6] bg-white/80 backdrop-blur-sm border border-[#5856D6]/15 px-3 py-1 rounded-full uppercase tracking-[0.1em] mb-5">
+            <span className="hero-pill inline-block text-[0.6875rem] font-semibold text-[#5856D6] backdrop-blur-sm px-3 py-1 rounded-full uppercase tracking-[0.1em] mb-5">
               Study · Reflect · Grow
             </span>
             <h1 className="text-[2.25rem] sm:text-5xl font-bold tracking-tight text-[color:var(--color-label)] mb-3 leading-[1.05]">
@@ -84,7 +84,7 @@ export default function StudyIndexPage() {
               </Link>
               <Link
                 href="/bible"
-                className="inline-flex items-center justify-center gap-1.5 px-5 h-11 rounded-full bg-white border border-black/[0.08] text-[color:var(--color-label)] text-[0.9375rem] font-semibold hover:border-black/[0.15] hover:bg-[#FAFAFA] active:scale-[0.98] transition-all"
+                className="inline-flex items-center justify-center gap-1.5 px-5 h-11 rounded-full bg-[color:var(--color-surface)] border border-[color:var(--color-separator)] text-[color:var(--color-label)] text-[0.9375rem] font-semibold hover:border-black/[0.15] hover:bg-[color:var(--color-surface)] active:scale-[0.98] transition-all"
               >
                 Just read the Bible
               </Link>
@@ -95,12 +95,12 @@ export default function StudyIndexPage() {
                 <span className="font-semibold text-[color:var(--color-label)]">1,320</span>
                 <span className="text-[color:var(--color-secondary-label)]">study guides</span>
               </div>
-              <div className="w-1 h-1 rounded-full bg-[#D1D1D6]" />
+              <div className="w-1 h-1 rounded-full bg-[color:var(--color-tertiary-label)]" />
               <div className="flex items-center gap-1.5">
                 <span className="font-semibold text-[color:var(--color-label)]">10</span>
                 <span className="text-[color:var(--color-secondary-label)]">denominational lenses</span>
               </div>
-              <div className="w-1 h-1 rounded-full bg-[#D1D1D6]" />
+              <div className="w-1 h-1 rounded-full bg-[color:var(--color-tertiary-label)]" />
               <div className="flex items-center gap-1.5">
                 <span className="font-semibold text-[color:var(--color-label)]">3</span>
                 <span className="text-[color:var(--color-secondary-label)]">depth levels</span>
@@ -119,7 +119,7 @@ export default function StudyIndexPage() {
                 <Link
                   key={`${item.book}/${item.chapter}`}
                   href={`/study/${item.book}/${item.chapter}`}
-                  className={`group relative overflow-hidden rounded-2xl bg-gradient-to-br ${tint.bg} bg-white p-5 border border-black/[0.04] hover:border-black/[0.08] hover:-translate-y-0.5 transition-all duration-200`}
+                  className={`group relative overflow-hidden rounded-2xl bg-gradient-to-br ${tint.bg} bg-[color:var(--color-surface)] p-5 border border-[color:var(--color-separator)] hover:border-[color:var(--color-separator)] hover:-translate-y-0.5 transition-all duration-200`}
                 >
                   <div className="flex items-start justify-between mb-2">
                     <span className={`text-[0.625rem] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full ${tint.pill}`}>

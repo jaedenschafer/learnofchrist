@@ -140,7 +140,7 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
         ]} />
 
         {/* Header */}
-        <div className="bg-white rounded-3xl p-6 mb-4">
+        <div className="bg-[color:var(--color-surface)] rounded-3xl p-6 mb-4">
           <div className="flex items-center gap-2 mb-2 flex-wrap">
             <span className="pill bg-[#007AFF]/[0.08] text-[color:var(--color-primary)]">{book_obj.name}</span>
             <span className="pill bg-[#5856D6]/[0.08] text-[#5856D6]">Study Guide</span>

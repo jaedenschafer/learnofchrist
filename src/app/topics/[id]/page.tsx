@@ -73,14 +73,14 @@ export default async function TopicPage({ params }: TopicPageProps) {
           <BreadcrumbNav items={[{ label: 'Topics', href: '/topics' }, { label: topic.name, href: '#' }]} />
 
           {/* Header */}
-          <div className="bg-white rounded-2xl p-6 mb-4">
+          <div className="bg-[color:var(--color-surface)] rounded-2xl p-6 mb-4">
             <h1 className="text-3xl sm:text-4xl font-bold text-[color:var(--color-label)] tracking-tight mb-2">{topic.name}</h1>
             <p className="text-sm text-[color:var(--color-secondary-label)] leading-relaxed">{topic.description}</p>
           </div>
 
           <div className="space-y-3">
             {/* Long Description */}
-            <div className="bg-white rounded-2xl p-6">
+            <div className="bg-[color:var(--color-surface)] rounded-2xl p-6">
               <h2 className="text-base font-semibold text-[color:var(--color-label)] mb-3">Overview</h2>
               <p className="text-sm text-[color:var(--color-secondary-label)] leading-relaxed">{topic.longDescription}</p>
             </div>
@@ -94,7 +94,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
 
             {/* Content Sections */}
             {topic.sections.map((section, i) => (
-              <div key={i} className="bg-white rounded-2xl p-6">
+              <div key={i} className="bg-[color:var(--color-surface)] rounded-2xl p-6">
                 <div className="flex gap-3 items-start">
                   <div className="step-number flex-shrink-0">{i + 1}</div>
                   <div>
@@ -108,7 +108,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
             <div className="section-divider" />
 
             {/* Key Verses */}
-            <div className="bg-white rounded-2xl p-6">
+            <div className="bg-[color:var(--color-surface)] rounded-2xl p-6">
               <h2 className="text-base font-semibold text-[color:var(--color-label)] mb-3">Key Verses</h2>
               <div className="space-y-2">
                 {topic.keyVerses.map((verse, i) => (
@@ -123,7 +123,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
             </div>
 
             {/* Bible Reading */}
-            <div className="bg-white rounded-2xl p-6">
+            <div className="bg-[color:var(--color-surface)] rounded-2xl p-6">
               <h2 className="text-base font-semibold text-[color:var(--color-label)] mb-3">Recommended Bible Reading</h2>
               <div className="divide-y divide-[color:var(--color-separator)]">
                 {topic.bibleReading.map((reading, i) => (
@@ -144,7 +144,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
 
             {/* Related Topics */}
             {relatedTopics.length > 0 && (
-              <div className="bg-white rounded-2xl p-6">
+              <div className="bg-[color:var(--color-surface)] rounded-2xl p-6">
                 <h2 className="text-base font-semibold text-[color:var(--color-label)] mb-3">Related Topics</h2>
                 <div className="divide-y divide-[color:var(--color-separator)]">
                   {relatedTopics.map((related) => (
@@ -170,7 +170,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
               <h2 className="text-lg font-bold text-white mb-1">Continue Your Study</h2>
               <p className="text-xs text-white/60 mb-3">Explore more topics and deepen your understanding of Scripture.</p>
               <div className="flex gap-2">
-                <Link href="/topics" className="inline-block px-5 py-2.5 bg-white text-[color:var(--color-label)] text-sm font-medium rounded-full hover:opacity-90 transition-opacity">All Topics</Link>
+                <Link href="/topics" className="inline-block px-5 py-2.5 bg-white text-[#1D1D1F] text-sm font-medium rounded-full hover:opacity-90 transition-opacity">All Topics</Link>
                 <Link href="/bible" className="inline-block px-5 py-2.5 bg-[#007AFF] text-white text-sm font-medium rounded-full hover:opacity-90 transition-opacity">Study the Bible</Link>
               </div>
             </div>

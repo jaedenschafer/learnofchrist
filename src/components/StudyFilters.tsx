@@ -77,7 +77,7 @@ function OptionRow({
 // ─── Dropdown menu ───
 function Menu({ children, align = 'left', wide }: { children: ReactNode; align?: 'left' | 'right'; wide?: boolean }) {
   return (
-    <div className={`absolute ${align === 'right' ? 'right-0' : 'left-0'} top-full mt-1.5 z-50 bg-white rounded-2xl shadow-[0_8px_40px_rgba(0,0,0,0.15)] border border-black/[0.04] overflow-hidden animate-fade-in ${wide ? 'min-w-[280px]' : 'min-w-[200px]'}`}>
+    <div className={`absolute ${align === 'right' ? 'right-0' : 'left-0'} top-full mt-1.5 z-50 bg-[color:var(--color-surface)] rounded-2xl shadow-[0_8px_40px_rgba(0,0,0,0.15)] border border-[color:var(--color-separator)] overflow-hidden animate-fade-in ${wide ? 'min-w-[280px]' : 'min-w-[200px]'}`}>
       {children}
     </div>
   );
@@ -116,7 +116,7 @@ export default function StudyFilters() {
   return (
     <div className="sticky top-14 z-40 mb-4">
       <div className="max-w-3xl mx-auto">
-        <div className="flex items-center gap-1 bg-white/95 backdrop-blur-xl border border-black/[0.06] rounded-full px-2 py-1.5 shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)]">
+        <div className="flex items-center gap-1 bg-white/95 backdrop-blur-xl border border-[color:var(--color-separator)] rounded-full px-2 py-1.5 shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)]">
 
           {/* Translation */}
           <div ref={transDD.ref} className="relative">

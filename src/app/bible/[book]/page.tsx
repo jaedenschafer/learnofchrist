@@ -67,7 +67,7 @@ export default async function BookPage({ params }: BookPageProps) {
       <div className="max-w-3xl mx-auto">
         <BreadcrumbNav items={[{ label: 'Bible', href: '/bible' }, { label: book_obj.name, href: '#' }]} />
 
-        <div className="bg-white rounded-3xl p-6 mb-6">
+        <div className="bg-[color:var(--color-surface)] rounded-3xl p-6 mb-6">
           <span className={`inline-block text-[0.75rem] font-medium px-3 py-1 rounded-full mb-3 ${
             book_obj.testament === 'apocrypha'
               ? 'text-[#AF52DE] bg-[#AF52DE]/[0.08]'
@@ -94,7 +94,7 @@ export default async function BookPage({ params }: BookPageProps) {
             <Link
               key={chapter}
               href={`/bible/${book}/${chapter}`}
-              className="bg-white rounded-2xl text-center py-3 active:scale-95 transition-all group hover:shadow-md"
+              className="bg-[color:var(--color-surface)] rounded-2xl text-center py-3 active:scale-95 transition-all group hover:shadow-md"
             >
               <span className="text-base font-semibold text-[color:var(--color-label)] group-hover:text-[color:var(--color-primary)] transition-colors">{chapter}</span>
             </Link>

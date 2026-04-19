@@ -10,7 +10,7 @@ interface ChapterNavProps {
 
 export default function ChapterNav({ bookName, currentChapter, totalChapters, previousUrl, nextUrl }: ChapterNavProps) {
   return (
-    <div className="mt-6 bg-white rounded-2xl p-4 flex items-center justify-between gap-3">
+    <div className="mt-6 bg-[color:var(--color-surface)] rounded-2xl p-4 flex items-center justify-between gap-3">
       <div className="flex-1">
         {previousUrl ? (
           <Link href={previousUrl} className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-[0.8125rem] font-medium text-[color:var(--color-primary)] bg-[#007AFF]/[0.08] hover:bg-[#007AFF]/[0.12] transition-colors active:scale-95">
