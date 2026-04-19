@@ -73,8 +73,8 @@ export default async function ChapterReadingPage({ params }: ChapterPageProps) {
     return (
       <div className="page-container">
         <div className="max-w-3xl mx-auto text-center py-20">
-          <h1 className="text-3xl font-bold text-[#1D1D1F] mb-3">Chapter Not Found</h1>
-          <p className="text-[#86868B] mb-6">The chapter you&apos;re looking for couldn&apos;t be found.</p>
+          <h1 className="text-3xl font-bold text-[color:var(--color-label)] mb-3">Chapter Not Found</h1>
+          <p className="text-[color:var(--color-secondary-label)] mb-6">The chapter you&apos;re looking for couldn&apos;t be found.</p>
           <Link href="/bible" className="btn-primary">Back to Bible</Link>
         </div>
       </div>
@@ -132,9 +132,9 @@ export default async function ChapterReadingPage({ params }: ChapterPageProps) {
         ]} />
 
         <div className="bg-white rounded-3xl p-6 mb-4">
-          <span className="pill bg-[#007AFF]/[0.08] text-[#007AFF] mb-2 inline-block">{book_obj.name}</span>
-          <h1 className="text-3xl sm:text-4xl font-bold text-[#1D1D1F] mb-2">Chapter {chapter}</h1>
-          <p className="text-base text-[#86868B]">
+          <span className="pill bg-[#007AFF]/[0.08] text-[color:var(--color-primary)] mb-2 inline-block">{book_obj.name}</span>
+          <h1 className="text-3xl sm:text-4xl font-bold text-[color:var(--color-label)] mb-2">Chapter {chapter}</h1>
+          <p className="text-base text-[color:var(--color-secondary-label)]">
             {hasVerses
               ? `${initialVerses.length} verses — switch translations with the toolbar below.`
               : 'Read this chapter in multiple translations.'}

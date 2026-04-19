@@ -58,15 +58,15 @@ export default function BlogPage() {
                 >
                   {featured.category}
                 </span>
-                <span className="text-xs text-[#86868B]">{featured.readTime}</span>
+                <span className="text-xs text-[color:var(--color-secondary-label)]">{featured.readTime}</span>
               </div>
-              <h2 className="font-serif text-xl sm:text-2xl font-bold text-[#1D1D1F] mb-2 group-hover:text-[#007AFF] transition-colors leading-tight">
+              <h2 className="font-serif text-xl sm:text-2xl font-bold text-[color:var(--color-label)] mb-2 group-hover:text-[color:var(--color-primary)] transition-colors leading-tight">
                 {featured.title}
               </h2>
-              <p className="text-sm text-[#86868B] leading-relaxed mb-4 line-clamp-3">
+              <p className="text-sm text-[color:var(--color-secondary-label)] leading-relaxed mb-4 line-clamp-3">
                 {featured.excerpt}
               </p>
-              <span className="inline-flex items-center gap-1.5 text-sm font-medium text-[#007AFF]">
+              <span className="inline-flex items-center gap-1.5 text-sm font-medium text-[color:var(--color-primary)]">
                 Read More
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -103,12 +103,12 @@ export default function BlogPage() {
                     >
                       {post.category}
                     </span>
-                    <span className="text-[0.65rem] text-[#AEAEB2]">{post.readTime}</span>
+                    <span className="text-[0.65rem] text-[color:var(--color-tertiary-label)]">{post.readTime}</span>
                   </div>
-                  <h2 className="font-sans text-base font-semibold text-[#1D1D1F] mb-1.5 group-hover:text-[#007AFF] transition-colors leading-snug line-clamp-2">
+                  <h2 className="font-sans text-base font-semibold text-[color:var(--color-label)] mb-1.5 group-hover:text-[color:var(--color-primary)] transition-colors leading-snug line-clamp-2">
                     {post.title}
                   </h2>
-                  <p className="text-xs text-[#86868B] leading-relaxed line-clamp-2">
+                  <p className="text-xs text-[color:var(--color-secondary-label)] leading-relaxed line-clamp-2">
                     {post.excerpt}
                   </p>
                 </div>

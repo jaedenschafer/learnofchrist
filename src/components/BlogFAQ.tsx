@@ -26,11 +26,11 @@ export default function BlogFAQ({ items }: { items: FAQItem[] }) {
               className="w-full flex items-center justify-between py-4 text-left group"
               aria-expanded={isOpen}
             >
-              <span className="font-sans text-[0.9375rem] font-semibold text-[#1D1D1F] pr-4 leading-snug">
+              <span className="font-sans text-[0.9375rem] font-semibold text-[color:var(--color-label)] pr-4 leading-snug">
                 {item.question}
               </span>
               <svg
-                className={`w-5 h-5 text-[#86868B] flex-shrink-0 transition-transform duration-200 ${
+                className={`w-5 h-5 text-[color:var(--color-secondary-label)] flex-shrink-0 transition-transform duration-200 ${
                   isOpen ? 'rotate-180' : ''
                 }`}
                 fill="none"
@@ -50,7 +50,7 @@ export default function BlogFAQ({ items }: { items: FAQItem[] }) {
                 isOpen ? 'max-h-96 pb-4' : 'max-h-0'
               }`}
             >
-              <p className="text-sm text-[#86868B] leading-relaxed">
+              <p className="text-sm text-[color:var(--color-secondary-label)] leading-relaxed">
                 {item.answer}
               </p>
             </div>

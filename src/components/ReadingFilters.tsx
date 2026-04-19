@@ -43,22 +43,22 @@ function OptionRow({
     <button
       onClick={onClick}
       className={`w-full text-left flex items-center gap-3 px-4 py-2.5 transition-colors ${
-        selected ? 'bg-[#007AFF]/[0.05]' : 'active:bg-[#F5F5F7]'
+        selected ? 'bg-[#007AFF]/[0.05]' : 'active:bg-[var(--color-bg)]'
       }`}
     >
       <div className="w-5 flex items-center justify-center flex-shrink-0">
         {selected && (
-          <svg className="w-4 h-4 text-[#007AFF]" fill="currentColor" viewBox="0 0 24 24">
+          <svg className="w-4 h-4 text-[color:var(--color-primary)]" fill="currentColor" viewBox="0 0 24 24">
             <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
           </svg>
         )}
       </div>
       <div className="flex-1 min-w-0">
-        <p className={`text-[0.875rem] font-medium leading-tight ${selected ? 'text-[#007AFF]' : 'text-[#1D1D1F]'}`}>
+        <p className={`text-[0.875rem] font-medium leading-tight ${selected ? 'text-[color:var(--color-primary)]' : 'text-[color:var(--color-label)]'}`}>
           {label}
         </p>
         {subtitle && (
-          <p className="text-[0.6875rem] text-[#86868B] leading-snug mt-0.5 truncate">{subtitle}</p>
+          <p className="text-[0.6875rem] text-[color:var(--color-secondary-label)] leading-snug mt-0.5 truncate">{subtitle}</p>
         )}
       </div>
     </button>
@@ -103,11 +103,11 @@ export default function ReadingFilters() {
             <button
               onClick={() => toggle(transDD)}
               className={`flex items-center gap-1 h-7 px-2.5 rounded-full text-[0.6875rem] font-semibold transition-all ${
-                transDD.open ? 'bg-[#007AFF] text-white' : 'bg-[#F5F5F7] text-[#1D1D1F]'
+                transDD.open ? 'bg-[#007AFF] text-white' : 'bg-[var(--color-bg)] text-[color:var(--color-label)]'
               }`}
             >
               {currentTranslation.toUpperCase()}
-              <svg className={`w-2.5 h-2.5 ${transDD.open ? 'rotate-180 text-white/70' : 'text-[#AEAEB2]'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className={`w-2.5 h-2.5 ${transDD.open ? 'rotate-180 text-white/70' : 'text-[color:var(--color-tertiary-label)]'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 9l-7 7-7-7" />
               </svg>
             </button>
@@ -134,7 +134,7 @@ export default function ReadingFilters() {
             <button
               onClick={() => toggle(fontDD)}
               className={`flex items-center justify-center h-7 w-7 rounded-full transition-all ${
-                fontDD.open ? 'bg-[#007AFF] text-white' : 'bg-[#F5F5F7] text-[#86868B]'
+                fontDD.open ? 'bg-[#007AFF] text-white' : 'bg-[var(--color-bg)] text-[color:var(--color-secondary-label)]'
               }`}
               title="Text Size"
             >
@@ -154,17 +154,17 @@ export default function ReadingFilters() {
                       key={s.id}
                       onClick={() => { setFontSize(s.id); fontDD.setOpen(false); }}
                       className={`w-full text-left flex items-center gap-3 px-4 py-2.5 transition-colors ${
-                        fontSize === s.id ? 'bg-[#007AFF]/[0.05]' : 'active:bg-[#F5F5F7]'
+                        fontSize === s.id ? 'bg-[#007AFF]/[0.05]' : 'active:bg-[var(--color-bg)]'
                       }`}
                     >
                       <div className="w-5 flex items-center justify-center flex-shrink-0">
                         {fontSize === s.id && (
-                          <svg className="w-4 h-4 text-[#007AFF]" fill="currentColor" viewBox="0 0 24 24">
+                          <svg className="w-4 h-4 text-[color:var(--color-primary)]" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
                           </svg>
                         )}
                       </div>
-                      <span className={`font-medium ${s.cls} ${fontSize === s.id ? 'text-[#007AFF]' : 'text-[#1D1D1F]'}`}>
+                      <span className={`font-medium ${s.cls} ${fontSize === s.id ? 'text-[color:var(--color-primary)]' : 'text-[color:var(--color-label)]'}`}>
                         {s.label}
                       </span>
                     </button>
@@ -178,7 +178,7 @@ export default function ReadingFilters() {
           <button
             onClick={() => setTheme(isDark ? 'light' : 'dark')}
             className={`flex items-center justify-center h-7 w-7 rounded-full transition-all ${
-              isDark ? 'bg-[#1D1D1F] text-white' : 'bg-[#F5F5F7] text-[#86868B]'
+              isDark ? 'bg-[color:var(--color-primary)] text-white' : 'bg-[var(--color-bg)] text-[color:var(--color-secondary-label)]'
             }`}
             title={isDark ? 'Switch to light' : 'Switch to dark'}
             aria-pressed={isDark}
@@ -200,7 +200,7 @@ export default function ReadingFilters() {
             <button
               onClick={() => toggle(modeDD)}
               className={`flex items-center justify-center h-7 w-7 rounded-full transition-all ${
-                modeDD.open ? 'bg-[#007AFF] text-white' : 'bg-[#F5F5F7] text-[#86868B]'
+                modeDD.open ? 'bg-[#007AFF] text-white' : 'bg-[var(--color-bg)] text-[color:var(--color-secondary-label)]'
               }`}
               title="Reading Mode"
             >

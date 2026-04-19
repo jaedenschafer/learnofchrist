@@ -54,7 +54,7 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
               {currentDenomination.label} Lens
             </span>
           </div>
-          <p className="text-[0.8125rem] text-[#1D1D1F]/70 leading-relaxed">
+          <p className="text-[0.8125rem] text-[color:var(--color-label)]/70 leading-relaxed">
             {perspective.approach}
           </p>
         </div>
@@ -64,10 +64,10 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
       {content && (
         <div className="bg-[#007AFF]/[0.04] border-l-[3px] border-[#007AFF]/30 rounded-2xl p-6">
           <div className="flex items-center gap-2 mb-2">
-            <span className="pill bg-[#007AFF]/[0.08] text-[#007AFF] text-sm">Key Verse</span>
-            <span className="text-sm font-medium text-[#AEAEB2]">{content.keyVerse.reference}</span>
+            <span className="pill bg-[#007AFF]/[0.08] text-[color:var(--color-primary)] text-sm">Key Verse</span>
+            <span className="text-sm font-medium text-[color:var(--color-tertiary-label)]">{content.keyVerse.reference}</span>
           </div>
-          <p className="text-lg text-[#1D1D1F]/80 leading-relaxed italic">
+          <p className="text-lg text-[color:var(--color-label)]/80 leading-relaxed italic">
             &ldquo;{content.keyVerse.text}&rdquo;
           </p>
         </div>
@@ -75,21 +75,21 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
 
       {/* Overview — all levels */}
       <div className="bg-white rounded-2xl p-6">
-        <h2 className="font-sans text-lg font-bold text-[#1D1D1F] mb-3">Overview</h2>
-        <p className="text-base text-[#86868B] leading-relaxed">{overview}</p>
+        <h2 className="font-sans text-lg font-bold text-[color:var(--color-label)] mb-3">Overview</h2>
+        <p className="text-base text-[color:var(--color-secondary-label)] leading-relaxed">{overview}</p>
       </div>
 
       {/* Key Themes — intermediate & deep */}
       {(level === 'intermediate' || level === 'deep') && (
         <div className="bg-white rounded-2xl p-6">
-          <h2 className="font-sans text-lg font-bold text-[#1D1D1F] mb-3">Key Themes</h2>
+          <h2 className="font-sans text-lg font-bold text-[color:var(--color-label)] mb-3">Key Themes</h2>
           <div className="space-y-4">
             {themes.map((theme, i) => (
               <div key={i} className="flex gap-3">
                 <div className="step-number">{i + 1}</div>
                 <div>
-                  <h3 className="font-sans text-base font-semibold text-[#1D1D1F]">{theme.title}</h3>
-                  <p className="text-sm text-[#86868B] mt-0.5 leading-relaxed">{theme.desc}</p>
+                  <h3 className="font-sans text-base font-semibold text-[color:var(--color-label)]">{theme.title}</h3>
+                  <p className="text-sm text-[color:var(--color-secondary-label)] mt-0.5 leading-relaxed">{theme.desc}</p>
                 </div>
               </div>
             ))}
@@ -107,26 +107,26 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
               </svg>
             </div>
-            <h2 className="font-sans text-base font-semibold text-[#1D1D1F]">{currentDenomination.label} Emphasis</h2>
+            <h2 className="font-sans text-base font-semibold text-[color:var(--color-label)]">{currentDenomination.label} Emphasis</h2>
           </div>
-          <p className="text-[0.875rem] text-[#86868B] leading-relaxed mb-4">{perspective.emphasis}</p>
+          <p className="text-[0.875rem] text-[color:var(--color-secondary-label)] leading-relaxed mb-4">{perspective.emphasis}</p>
 
           {/* Study Tip */}
           <div className="bg-[#5856D6]/[0.04] rounded-xl p-4 mb-4">
             <p className="text-[0.75rem] font-semibold text-[#5856D6] mb-1">Study Tip</p>
-            <p className="text-[0.8125rem] text-[#1D1D1F]/70 leading-relaxed">{perspective.studyTip}</p>
+            <p className="text-[0.8125rem] text-[color:var(--color-label)]/70 leading-relaxed">{perspective.studyTip}</p>
           </div>
 
           {/* Additional Reading */}
           <div>
-            <p className="text-[0.75rem] font-semibold text-[#86868B] mb-2">Suggested Reading</p>
+            <p className="text-[0.75rem] font-semibold text-[color:var(--color-secondary-label)] mb-2">Suggested Reading</p>
             <div className="space-y-1.5">
               {perspective.additionalReading.map((reading, i) => (
                 <div key={i} className="flex items-start gap-2">
                   <svg className="w-3.5 h-3.5 text-[#5856D6] mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                   </svg>
-                  <p className="text-[0.8125rem] text-[#1D1D1F]/70 leading-snug">{reading}</p>
+                  <p className="text-[0.8125rem] text-[color:var(--color-label)]/70 leading-snug">{reading}</p>
                 </div>
               ))}
             </div>
@@ -137,12 +137,12 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
       {/* Study Questions — intermediate & deep */}
       {(level === 'intermediate' || level === 'deep') && (
         <div className="bg-white rounded-2xl p-6">
-          <h2 className="font-sans text-lg font-bold text-[#1D1D1F] mb-3">Study Questions</h2>
+          <h2 className="font-sans text-lg font-bold text-[color:var(--color-label)] mb-3">Study Questions</h2>
           <div className="space-y-3">
             {questions.map((q, i) => (
               <div key={i} className="flex gap-3 items-start">
-                <span className="text-sm font-bold text-[#007AFF] mt-0.5">{i + 1}.</span>
-                <p className="text-base text-[#86868B] leading-relaxed">{q}</p>
+                <span className="text-sm font-bold text-[color:var(--color-primary)] mt-0.5">{i + 1}.</span>
+                <p className="text-base text-[color:var(--color-secondary-label)] leading-relaxed">{q}</p>
               </div>
             ))}
           </div>
@@ -152,11 +152,11 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
       {/* Connection to Christ — intermediate & deep */}
       {(level === 'intermediate' || level === 'deep') && (
         <div className="bg-white rounded-2xl p-6">
-          <h2 className="font-sans text-lg font-bold text-[#1D1D1F] mb-3">Connection to Christ</h2>
-          <p className="text-base text-[#86868B] leading-relaxed mb-3">{christConnection}</p>
+          <h2 className="font-sans text-lg font-bold text-[color:var(--color-label)] mb-3">Connection to Christ</h2>
+          <p className="text-base text-[color:var(--color-secondary-label)] leading-relaxed mb-3">{christConnection}</p>
           {!content && (
             <div className="bg-[#007AFF]/[0.04] border-l-[3px] border-[#007AFF]/30 rounded-r-xl p-4">
-              <p className="scripture-quote text-base text-[#86868B] leading-relaxed">
+              <p className="scripture-quote text-base text-[color:var(--color-secondary-label)] leading-relaxed">
                 Jesus is the true source of faithfulness, the perfect response to God&apos;s word, and the embodiment of all spiritual truths presented throughout Scripture.
               </p>
             </div>
@@ -169,33 +169,33 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
         <>
           {/* Historical & Cultural Context */}
           <div className="bg-white rounded-2xl p-6">
-            <h2 className="font-sans text-lg font-bold text-[#1D1D1F] mb-3">Historical &amp; Cultural Context</h2>
-            <p className="text-base text-[#86868B] leading-relaxed">
+            <h2 className="font-sans text-lg font-bold text-[color:var(--color-label)] mb-3">Historical &amp; Cultural Context</h2>
+            <p className="text-base text-[color:var(--color-secondary-label)] leading-relaxed">
               Understanding the historical setting of {bookName} {chapter} enriches our reading. Consider the original audience, the cultural practices of the time, and how these details illuminate the text&apos;s meaning. Study the geography, customs, and political landscape that shaped this passage.
             </p>
           </div>
 
           {/* Original Language Insights */}
           <div className="bg-white rounded-2xl p-6">
-            <h2 className="font-sans text-lg font-bold text-[#1D1D1F] mb-3">Original Language Insights</h2>
-            <div className="bg-[#F5F5F7] rounded-xl p-4 mb-3">
-              <p className="text-sm text-[#86868B] leading-relaxed">
+            <h2 className="font-sans text-lg font-bold text-[color:var(--color-label)] mb-3">Original Language Insights</h2>
+            <div className="bg-[var(--color-bg)] rounded-xl p-4 mb-3">
+              <p className="text-sm text-[color:var(--color-secondary-label)] leading-relaxed">
                 The original Hebrew and Greek texts often contain nuances lost in translation. Key words in this chapter carry rich theological meaning that deepens our understanding of God&apos;s message.
               </p>
             </div>
-            <p className="text-xs text-[#AEAEB2]">
+            <p className="text-xs text-[color:var(--color-tertiary-label)]">
               Tip: Compare multiple translations (KJV, ASV, WEB) using the translation switcher above to see how different translators rendered key terms.
             </p>
           </div>
 
           {/* Cross-References */}
           <div className="bg-white rounded-2xl p-6">
-            <h2 className="font-sans text-lg font-bold text-[#1D1D1F] mb-3">Cross-References &amp; Connections</h2>
-            <p className="text-base text-[#86868B] leading-relaxed mb-3">
+            <h2 className="font-sans text-lg font-bold text-[color:var(--color-label)] mb-3">Cross-References &amp; Connections</h2>
+            <p className="text-base text-[color:var(--color-secondary-label)] leading-relaxed mb-3">
               Scripture interprets Scripture. The themes in {bookName} {chapter} echo and connect with passages throughout the Bible, forming a unified narrative of God&apos;s redemptive plan.
             </p>
             <div className="bg-[#007AFF]/[0.04] border-l-[3px] border-[#007AFF]/30 rounded-r-xl p-4">
-              <p className="text-sm text-[#86868B] leading-relaxed">
+              <p className="text-sm text-[color:var(--color-secondary-label)] leading-relaxed">
                 As you study, look for parallel passages, fulfilled prophecies, and recurring themes that tie this chapter to the broader biblical story.
               </p>
             </div>
@@ -204,9 +204,9 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
       )}
 
       {/* Personal Reflection — all levels */}
-      <div className="bg-[#F5F5F7] rounded-2xl p-6">
-        <h2 className="font-sans text-lg font-bold text-[#1D1D1F] mb-2">Personal Reflection</h2>
-        <p className="text-base text-[#86868B] leading-relaxed">
+      <div className="bg-[var(--color-bg)] rounded-2xl p-6">
+        <h2 className="font-sans text-lg font-bold text-[color:var(--color-label)] mb-2">Personal Reflection</h2>
+        <p className="text-base text-[color:var(--color-secondary-label)] leading-relaxed">
           {level === 'beginner'
             ? `What is one thing you learned from ${bookName} ${chapter} that you can carry with you today?`
             : level === 'intermediate'

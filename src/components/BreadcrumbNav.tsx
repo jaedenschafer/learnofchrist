@@ -17,7 +17,7 @@ export default function BreadcrumbNav({ items = [] }: BreadcrumbNavProps) {
       <Link href="/">Home</Link>
       {items.map((item, index) => (
         <div key={index} className="flex items-center gap-1.5">
-          <svg className="w-2.5 h-2.5 text-[#AEAEB2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M9 5l7 7-7 7" /></svg>
+          <svg className="w-2.5 h-2.5 text-[color:var(--color-tertiary-label)]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M9 5l7 7-7 7" /></svg>
           {index === items.length - 1 ? (
             <span>{item.label}</span>
           ) : (

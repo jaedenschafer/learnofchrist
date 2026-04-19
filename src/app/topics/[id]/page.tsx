@@ -34,7 +34,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
     return (
       <div className="page-container">
         <div className="max-w-3xl mx-auto text-center py-20">
-          <h1 className="text-3xl font-bold text-[#1D1D1F] mb-3">Topic Not Found</h1>
+          <h1 className="text-3xl font-bold text-[color:var(--color-label)] mb-3">Topic Not Found</h1>
           <Link href="/topics" className="inline-block px-5 py-2.5 bg-[#007AFF] text-white text-sm font-medium rounded-full hover:opacity-90 transition-opacity">Back to Topics</Link>
         </div>
       </div>
@@ -74,22 +74,22 @@ export default async function TopicPage({ params }: TopicPageProps) {
 
           {/* Header */}
           <div className="bg-white rounded-2xl p-6 mb-4">
-            <h1 className="text-3xl sm:text-4xl font-bold text-[#1D1D1F] tracking-tight mb-2">{topic.name}</h1>
-            <p className="text-sm text-[#86868B] leading-relaxed">{topic.description}</p>
+            <h1 className="text-3xl sm:text-4xl font-bold text-[color:var(--color-label)] tracking-tight mb-2">{topic.name}</h1>
+            <p className="text-sm text-[color:var(--color-secondary-label)] leading-relaxed">{topic.description}</p>
           </div>
 
           <div className="space-y-3">
             {/* Long Description */}
             <div className="bg-white rounded-2xl p-6">
-              <h2 className="text-base font-semibold text-[#1D1D1F] mb-3">Overview</h2>
-              <p className="text-sm text-[#86868B] leading-relaxed">{topic.longDescription}</p>
+              <h2 className="text-base font-semibold text-[color:var(--color-label)] mb-3">Overview</h2>
+              <p className="text-sm text-[color:var(--color-secondary-label)] leading-relaxed">{topic.longDescription}</p>
             </div>
 
             {/* Key Verse */}
             <div className="bg-[#007AFF]/[0.04] rounded-2xl p-6 border-l-[3px] border-[#007AFF]">
-              <p className="text-xs font-semibold text-[#AEAEB2] uppercase tracking-wider mb-3">Key Verse</p>
-              <p className="font-serif italic text-base text-[#1D1D1F]/80 leading-relaxed mb-3">&ldquo;{topic.keyVerse}&rdquo;</p>
-              <p className="text-xs text-[#007AFF] font-semibold">{topic.keyVerseReference}</p>
+              <p className="text-xs font-semibold text-[color:var(--color-tertiary-label)] uppercase tracking-wider mb-3">Key Verse</p>
+              <p className="font-serif italic text-base text-[color:var(--color-label)]/80 leading-relaxed mb-3">&ldquo;{topic.keyVerse}&rdquo;</p>
+              <p className="text-xs text-[color:var(--color-primary)] font-semibold">{topic.keyVerseReference}</p>
             </div>
 
             {/* Content Sections */}
@@ -98,8 +98,8 @@ export default async function TopicPage({ params }: TopicPageProps) {
                 <div className="flex gap-3 items-start">
                   <div className="step-number flex-shrink-0">{i + 1}</div>
                   <div>
-                    <h2 className="text-base font-semibold text-[#1D1D1F] mb-2">{section.title}</h2>
-                    <p className="text-sm text-[#86868B] leading-relaxed">{section.content}</p>
+                    <h2 className="text-base font-semibold text-[color:var(--color-label)] mb-2">{section.title}</h2>
+                    <p className="text-sm text-[color:var(--color-secondary-label)] leading-relaxed">{section.content}</p>
                   </div>
                 </div>
               </div>
@@ -109,14 +109,14 @@ export default async function TopicPage({ params }: TopicPageProps) {
 
             {/* Key Verses */}
             <div className="bg-white rounded-2xl p-6">
-              <h2 className="text-base font-semibold text-[#1D1D1F] mb-3">Key Verses</h2>
+              <h2 className="text-base font-semibold text-[color:var(--color-label)] mb-3">Key Verses</h2>
               <div className="space-y-2">
                 {topic.keyVerses.map((verse, i) => (
                   <div key={i} className="flex items-center gap-2">
-                    <svg className="w-3.5 h-3.5 text-[#007AFF] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-3.5 h-3.5 text-[color:var(--color-primary)] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                     </svg>
-                    <span className="text-sm font-medium text-[#007AFF]">{verse}</span>
+                    <span className="text-sm font-medium text-[color:var(--color-primary)]">{verse}</span>
                   </div>
                 ))}
               </div>
@@ -124,17 +124,17 @@ export default async function TopicPage({ params }: TopicPageProps) {
 
             {/* Bible Reading */}
             <div className="bg-white rounded-2xl p-6">
-              <h2 className="text-base font-semibold text-[#1D1D1F] mb-3">Recommended Bible Reading</h2>
-              <div className="divide-y divide-[#F5F5F7]">
+              <h2 className="text-base font-semibold text-[color:var(--color-label)] mb-3">Recommended Bible Reading</h2>
+              <div className="divide-y divide-[color:var(--color-separator)]">
                 {topic.bibleReading.map((reading, i) => (
                   <Link key={i} href={reading.link} className="flex items-center gap-3 py-3 first:pt-0 last:pb-0 group">
-                    <div className="w-8 h-8 rounded-xl bg-[#F5F5F7] flex items-center justify-center flex-shrink-0">
-                      <svg className="w-4 h-4 text-[#86868B]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div className="w-8 h-8 rounded-xl bg-[var(--color-bg)] flex items-center justify-center flex-shrink-0">
+                      <svg className="w-4 h-4 text-[color:var(--color-secondary-label)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                       </svg>
                     </div>
-                    <span className="text-sm font-medium text-[#1D1D1F] group-hover:text-[#007AFF] transition-colors flex-1">{reading.reference}</span>
-                    <svg className="w-4 h-4 text-[#AEAEB2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+                    <span className="text-sm font-medium text-[color:var(--color-label)] group-hover:text-[color:var(--color-primary)] transition-colors flex-1">{reading.reference}</span>
+                    <svg className="w-4 h-4 text-[color:var(--color-tertiary-label)]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
                   </Link>
                 ))}
               </div>
@@ -145,20 +145,20 @@ export default async function TopicPage({ params }: TopicPageProps) {
             {/* Related Topics */}
             {relatedTopics.length > 0 && (
               <div className="bg-white rounded-2xl p-6">
-                <h2 className="text-base font-semibold text-[#1D1D1F] mb-3">Related Topics</h2>
-                <div className="divide-y divide-[#F5F5F7]">
+                <h2 className="text-base font-semibold text-[color:var(--color-label)] mb-3">Related Topics</h2>
+                <div className="divide-y divide-[color:var(--color-separator)]">
                   {relatedTopics.map((related) => (
                     <Link key={related!.id} href={`/topics/${related!.id}`} className="flex items-center gap-3 py-3 first:pt-0 last:pb-0 group">
-                      <div className="w-8 h-8 rounded-xl bg-[#F5F5F7] flex items-center justify-center flex-shrink-0">
-                        <svg className="w-4 h-4 text-[#86868B]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <div className="w-8 h-8 rounded-xl bg-[var(--color-bg)] flex items-center justify-center flex-shrink-0">
+                        <svg className="w-4 h-4 text-[color:var(--color-secondary-label)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A2 2 0 013 12V7a4 4 0 014-4z" />
                         </svg>
                       </div>
                       <div className="flex-1">
-                        <span className="text-sm font-medium text-[#1D1D1F] group-hover:text-[#007AFF] transition-colors">{related!.name}</span>
-                        <p className="text-xs text-[#AEAEB2] mt-0.5">{related!.description}</p>
+                        <span className="text-sm font-medium text-[color:var(--color-label)] group-hover:text-[color:var(--color-primary)] transition-colors">{related!.name}</span>
+                        <p className="text-xs text-[color:var(--color-tertiary-label)] mt-0.5">{related!.description}</p>
                       </div>
-                      <svg className="w-4 h-4 text-[#AEAEB2]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+                      <svg className="w-4 h-4 text-[color:var(--color-tertiary-label)]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
                     </Link>
                   ))}
                 </div>
@@ -170,7 +170,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
               <h2 className="text-lg font-bold text-white mb-1">Continue Your Study</h2>
               <p className="text-xs text-white/60 mb-3">Explore more topics and deepen your understanding of Scripture.</p>
               <div className="flex gap-2">
-                <Link href="/topics" className="inline-block px-5 py-2.5 bg-white text-[#1D1D1F] text-sm font-medium rounded-full hover:opacity-90 transition-opacity">All Topics</Link>
+                <Link href="/topics" className="inline-block px-5 py-2.5 bg-white text-[color:var(--color-label)] text-sm font-medium rounded-full hover:opacity-90 transition-opacity">All Topics</Link>
                 <Link href="/bible" className="inline-block px-5 py-2.5 bg-[#007AFF] text-white text-sm font-medium rounded-full hover:opacity-90 transition-opacity">Study the Bible</Link>
               </div>
             </div>

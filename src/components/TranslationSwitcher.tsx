@@ -26,7 +26,7 @@ export default function TranslationSwitcher() {
   return (
     <div className="sticky top-12 z-40 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2 glass border-b border-black/[0.04]">
       <div className="max-w-3xl mx-auto flex items-center gap-2">
-        <span className="text-[0.6875rem] font-semibold text-[#86868B] mr-1 hidden sm:inline">Translation</span>
+        <span className="text-[0.6875rem] font-semibold text-[color:var(--color-secondary-label)] mr-1 hidden sm:inline">Translation</span>
 
         {/* Quick-access pills for top 3 */}
         <div className="flex bg-black/[0.04] rounded-xl p-0.5 gap-0.5">
@@ -36,8 +36,8 @@ export default function TranslationSwitcher() {
               onClick={() => setTranslation(t.abbreviation)}
               className={`px-3.5 py-1.5 rounded-[10px] text-[0.75rem] font-semibold transition-all ${
                 currentTranslation === t.abbreviation
-                  ? 'bg-white text-[#1D1D1F] shadow-sm'
-                  : 'text-[#86868B] hover:text-[#1D1D1F]'
+                  ? 'bg-white text-[color:var(--color-label)] shadow-sm'
+                  : 'text-[color:var(--color-secondary-label)] hover:text-[color:var(--color-label)]'
               }`}
               title={t.name}
             >
@@ -53,8 +53,8 @@ export default function TranslationSwitcher() {
               onClick={() => setOpen(!open)}
               className={`flex items-center gap-1 px-3 py-1.5 rounded-xl text-[0.75rem] font-semibold transition-all ${
                 !quickAccess.some(t => t.abbreviation === currentTranslation)
-                  ? 'bg-white text-[#1D1D1F] shadow-sm border border-black/[0.06]'
-                  : 'text-[#86868B] hover:text-[#1D1D1F] bg-black/[0.04]'
+                  ? 'bg-white text-[color:var(--color-label)] shadow-sm border border-black/[0.06]'
+                  : 'text-[color:var(--color-secondary-label)] hover:text-[color:var(--color-label)] bg-black/[0.04]'
               }`}
             >
               {!quickAccess.some(t => t.abbreviation === currentTranslation)
@@ -79,14 +79,14 @@ export default function TranslationSwitcher() {
                   >
                     <div>
                       <span className={`text-[0.8125rem] font-semibold ${
-                        currentTranslation === t.abbreviation ? 'text-[#007AFF]' : 'text-[#1D1D1F]'
+                        currentTranslation === t.abbreviation ? 'text-[color:var(--color-primary)]' : 'text-[color:var(--color-label)]'
                       }`}>
                         {t.abbreviation.toUpperCase()}
                       </span>
-                      <span className="text-[0.6875rem] text-[#86868B] ml-2">{t.name}</span>
+                      <span className="text-[0.6875rem] text-[color:var(--color-secondary-label)] ml-2">{t.name}</span>
                     </div>
                     {currentTranslation === t.abbreviation && (
-                      <svg className="w-4 h-4 text-[#007AFF]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                      <svg className="w-4 h-4 text-[color:var(--color-primary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                       </svg>
                     )}
@@ -97,7 +97,7 @@ export default function TranslationSwitcher() {
           </div>
         )}
 
-        <span className="text-[0.6875rem] text-[#AEAEB2] ml-auto hidden sm:inline">
+        <span className="text-[0.6875rem] text-[color:var(--color-tertiary-label)] ml-auto hidden sm:inline">
           {current?.name}
         </span>
       </div>

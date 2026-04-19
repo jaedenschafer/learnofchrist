@@ -54,8 +54,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     return (
       <div className="page-container">
         <div className="max-w-3xl mx-auto text-center py-20">
-          <h1 className="font-serif text-3xl font-bold text-[#1D1D1F] mb-3">Post Not Found</h1>
-          <p className="text-[#86868B] mb-6">The blog post you&apos;re looking for couldn&apos;t be found.</p>
+          <h1 className="font-serif text-3xl font-bold text-[color:var(--color-label)] mb-3">Post Not Found</h1>
+          <p className="text-[color:var(--color-secondary-label)] mb-6">The blog post you&apos;re looking for couldn&apos;t be found.</p>
           <Link href="/blog" className="btn-primary">Back to Blog</Link>
         </div>
       </div>
@@ -134,7 +134,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         </div>
 
         {/* Title */}
-        <h1 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-[#1D1D1F] mb-5 leading-tight">
+        <h1 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-[color:var(--color-label)] mb-5 leading-tight">
           {post.title}
         </h1>
 
@@ -165,19 +165,19 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                   unoptimized
                 />
               ) : (
-                <svg className="w-6 h-6 text-[#007AFF]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-6 h-6 text-[color:var(--color-primary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
               )}
             </div>
             <div>
-              <p className="text-sm font-semibold text-[#1D1D1F]">{post.author.name}</p>
-              <p className="text-xs text-[#86868B]">{post.author.role}</p>
+              <p className="text-sm font-semibold text-[color:var(--color-label)]">{post.author.name}</p>
+              <p className="text-xs text-[color:var(--color-secondary-label)]">{post.author.role}</p>
             </div>
           </div>
-          <div className="flex items-center gap-3 text-xs text-[#86868B]">
+          <div className="flex items-center gap-3 text-xs text-[color:var(--color-secondary-label)]">
             <span>{post.date}</span>
-            <span className="text-[#AEAEB2]">|</span>
+            <span className="text-[color:var(--color-tertiary-label)]">|</span>
             <span>{post.readTime}</span>
             <span
               className={`pill !py-0.5 !px-2.5 !text-[0.65rem] ${
@@ -192,7 +192,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         {/* Table of Contents */}
         {post.sections.length > 1 && (
           <div className="bg-white rounded-2xl p-5 sm:p-7 mb-6">
-            <h2 className="font-sans text-base font-semibold text-[#1D1D1F] mb-4">
+            <h2 className="font-sans text-base font-semibold text-[color:var(--color-label)] mb-4">
               In This Article
             </h2>
             <nav>
@@ -201,9 +201,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                   <li key={i}>
                     <a
                       href={`#${slugify(section.heading)}`}
-                      className="flex items-center gap-3 text-sm text-[#86868B] hover:text-[#007AFF] transition-colors group"
+                      className="flex items-center gap-3 text-sm text-[color:var(--color-secondary-label)] hover:text-[color:var(--color-primary)] transition-colors group"
                     >
-                      <span className="w-6 h-6 rounded-full bg-[#F5F5F7] text-[0.6875rem] font-semibold text-[#86868B] group-hover:bg-[#007AFF]/10 group-hover:text-[#007AFF] flex items-center justify-center flex-shrink-0 transition-colors">
+                      <span className="w-6 h-6 rounded-full bg-[var(--color-bg)] text-[0.6875rem] font-semibold text-[color:var(--color-secondary-label)] group-hover:bg-[#007AFF]/10 group-hover:text-[color:var(--color-primary)] flex items-center justify-center flex-shrink-0 transition-colors">
                         {i + 1}
                       </span>
                       <span className="leading-snug">{section.heading}</span>
@@ -221,7 +221,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             <div key={i} className="mb-8 last:mb-0">
               <h2
                 id={slugify(section.heading)}
-                className="font-serif text-xl sm:text-2xl font-bold text-[#1D1D1F] mb-4 scroll-mt-6"
+                className="font-serif text-xl sm:text-2xl font-bold text-[color:var(--color-label)] mb-4 scroll-mt-6"
               >
                 {section.heading}
               </h2>
@@ -229,7 +229,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 {section.content.split('\n\n').map((paragraph, j) => (
                   <p
                     key={j}
-                    className="font-serif text-[0.9375rem] sm:text-base text-[#1D1D1F]/75 leading-[1.8]"
+                    className="font-serif text-[0.9375rem] sm:text-base text-[color:var(--color-label)]/75 leading-[1.8]"
                   >
                     {paragraph}
                   </p>
@@ -254,7 +254,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         {/* FAQ Section */}
         {post.faq.length > 0 && (
           <div className="bg-white rounded-2xl p-5 sm:p-7 mb-4">
-            <h2 className="font-sans text-base font-semibold text-[#1D1D1F] mb-4">
+            <h2 className="font-sans text-base font-semibold text-[color:var(--color-label)] mb-4">
               Frequently Asked Questions
             </h2>
             <BlogFAQ items={post.faq} />
@@ -264,17 +264,17 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         {/* Key Verses */}
         {post.keyVerses.length > 0 && (
           <div className="bg-white rounded-2xl p-5 sm:p-7 mb-4">
-            <h2 className="font-sans text-base font-semibold text-[#1D1D1F] mb-4">Key Verses</h2>
+            <h2 className="font-sans text-base font-semibold text-[color:var(--color-label)] mb-4">Key Verses</h2>
             <div className="space-y-3">
               {post.keyVerses.map((verse, i) => (
                 <div
                   key={i}
                   className="bg-[#007AFF]/[0.04] border-l-[3px] border-[#007AFF]/40 rounded-r-xl p-4"
                 >
-                  <p className="font-serif text-sm text-[#1D1D1F]/75 leading-relaxed italic mb-1">
+                  <p className="font-serif text-sm text-[color:var(--color-label)]/75 leading-relaxed italic mb-1">
                     &ldquo;{verse.text}&rdquo;
                   </p>
-                  <p className="text-xs font-medium text-[#007AFF]/70">
+                  <p className="text-xs font-medium text-[color:var(--color-primary)]/70">
                     &mdash; {verse.reference}
                   </p>
                 </div>
@@ -286,7 +286,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         {/* Continue Reading */}
         {post.bibleReading.length > 0 && (
           <div className="bg-white rounded-2xl p-5 sm:p-7 mb-4">
-            <h2 className="font-sans text-base font-semibold text-[#1D1D1F] mb-3">
+            <h2 className="font-sans text-base font-semibold text-[color:var(--color-label)] mb-3">
               Continue Reading in the Bible
             </h2>
             <div className="card-grouped">
@@ -297,11 +297,11 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                   className="card-grouped-item flex items-center gap-3 group"
                 >
                   <div className="step-number">{i + 1}</div>
-                  <span className="text-sm text-[#1D1D1F]/70 group-hover:text-[#007AFF] transition-colors flex-1">
+                  <span className="text-sm text-[color:var(--color-label)]/70 group-hover:text-[color:var(--color-primary)] transition-colors flex-1">
                     {reading.reference}
                   </span>
                   <svg
-                    className="w-4 h-4 text-[#AEAEB2]"
+                    className="w-4 h-4 text-[color:var(--color-tertiary-label)]"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -322,7 +322,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         {/* Related Articles */}
         {relatedPosts.length > 0 && (
           <div className="mt-10">
-            <h2 className="font-sans text-lg font-semibold text-[#1D1D1F] mb-4 px-1">
+            <h2 className="font-sans text-lg font-semibold text-[color:var(--color-label)] mb-4 px-1">
               Related Articles
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -352,9 +352,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                         >
                           {related.category}
                         </span>
-                        <span className="text-[0.6rem] text-[#AEAEB2]">{related.readTime}</span>
+                        <span className="text-[0.6rem] text-[color:var(--color-tertiary-label)]">{related.readTime}</span>
                       </div>
-                      <h3 className="font-sans text-sm font-semibold text-[#1D1D1F] group-hover:text-[#007AFF] transition-colors leading-snug line-clamp-2">
+                      <h3 className="font-sans text-sm font-semibold text-[color:var(--color-label)] group-hover:text-[color:var(--color-primary)] transition-colors leading-snug line-clamp-2">
                         {related.title}
                       </h3>
                     </div>

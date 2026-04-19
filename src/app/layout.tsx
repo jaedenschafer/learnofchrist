@@ -8,11 +8,17 @@ import { DenominationProvider } from '@/lib/DenominationContext';
 import { ReadingPrefsProvider } from '@/lib/ReadingPrefsContext';
 
 export const viewport: Viewport = {
-  themeColor: '#F5F5F7',
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#F5F5F7' },
+    { media: '(prefers-color-scheme: dark)', color: '#000000' },
+  ],
   width: 'device-width',
   initialScale: 1,
   viewportFit: 'cover',
 };
+
+// Synchronous pre-hydration theme script — prevents flash of wrong theme on load.
+const themeInitScript = `(function(){try{var t=localStorage.getItem('loc-theme');var r=t==='dark'||t==='light'?t:(window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-reader-theme',r);if(r==='dark'){document.documentElement.style.colorScheme='dark';}}catch(e){}})();`;
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://learnofchrist.com'),
@@ -36,7 +42,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+      </head>
       <body className="flex flex-col min-h-screen">
         <script
           type="application/ld+json"

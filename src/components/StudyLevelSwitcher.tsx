@@ -8,8 +8,8 @@ export default function StudyLevelSwitcher() {
   return (
     <div className="bg-white rounded-2xl p-4 mb-4">
       <div className="flex items-center justify-between mb-3">
-        <span className="text-[0.8125rem] font-semibold text-[#1D1D1F]">Study Depth</span>
-        <span className="text-[0.6875rem] text-[#AEAEB2]">
+        <span className="text-[0.8125rem] font-semibold text-[color:var(--color-label)]">Study Depth</span>
+        <span className="text-[0.6875rem] text-[color:var(--color-tertiary-label)]">
           {STUDY_LEVELS.find(l => l.id === level)?.description}
         </span>
       </div>
@@ -21,8 +21,8 @@ export default function StudyLevelSwitcher() {
             onClick={() => setLevel(l.id)}
             className={`flex-1 px-3 py-2 rounded-[10px] text-[0.75rem] font-semibold transition-all ${
               level === l.id
-                ? 'bg-white text-[#1D1D1F] shadow-sm'
-                : 'text-[#86868B] hover:text-[#1D1D1F]'
+                ? 'bg-white text-[color:var(--color-label)] shadow-sm'
+                : 'text-[color:var(--color-secondary-label)] hover:text-[color:var(--color-label)]'
             }`}
           >
             {l.label}

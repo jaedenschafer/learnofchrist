@@ -78,8 +78,8 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
     return (
       <div className="page-container">
         <div className="max-w-3xl mx-auto text-center py-20">
-          <h1 className="text-3xl font-bold text-[#1D1D1F] mb-3">Chapter Not Found</h1>
-          <p className="text-[#86868B] mb-6">The chapter you&apos;re looking for couldn&apos;t be found.</p>
+          <h1 className="text-3xl font-bold text-[color:var(--color-label)] mb-3">Chapter Not Found</h1>
+          <p className="text-[color:var(--color-secondary-label)] mb-6">The chapter you&apos;re looking for couldn&apos;t be found.</p>
           <Link href="/study" className="btn-primary">Back to Study Guides</Link>
         </div>
       </div>
@@ -142,20 +142,20 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
         {/* Header */}
         <div className="bg-white rounded-3xl p-6 mb-4">
           <div className="flex items-center gap-2 mb-2 flex-wrap">
-            <span className="pill bg-[#007AFF]/[0.08] text-[#007AFF]">{book_obj.name}</span>
+            <span className="pill bg-[#007AFF]/[0.08] text-[color:var(--color-primary)]">{book_obj.name}</span>
             <span className="pill bg-[#5856D6]/[0.08] text-[#5856D6]">Study Guide</span>
           </div>
-          <h1 className="text-3xl sm:text-4xl font-bold text-[#1D1D1F] mb-2">
+          <h1 className="text-3xl sm:text-4xl font-bold text-[color:var(--color-label)] mb-2">
             {isGenesisOne ? 'Genesis 1' : `Chapter ${chapter}`}
           </h1>
-          <p className="text-base text-[#86868B]">
+          <p className="text-base text-[color:var(--color-secondary-label)]">
             {isGenesisOne
               ? 'How God spoke a world into being — and why every word of it still belongs to you.'
               : 'Themes, discussion questions, Christ connections, and denomination lenses.'}
           </p>
           <Link
             href={`/bible/${book}/${chapter}`}
-            className="inline-flex items-center gap-1 mt-3 text-[0.8125rem] font-medium text-[#007AFF] hover:underline"
+            className="inline-flex items-center gap-1 mt-3 text-[0.8125rem] font-medium text-[color:var(--color-primary)] hover:underline"
           >
             Just read this chapter →
           </Link>

@@ -25,7 +25,7 @@ const FEATURED_STUDIES = [
 ];
 
 const TINTS: Record<string, { bg: string; pill: string; accent: string }> = {
-  blue: { bg: 'from-[#007AFF]/[0.08] to-[#007AFF]/[0.02]', pill: 'bg-[#007AFF]/[0.1] text-[#007AFF]', accent: 'text-[#007AFF]' },
+  blue: { bg: 'from-[#007AFF]/[0.08] to-[#007AFF]/[0.02]', pill: 'bg-[#007AFF]/[0.1] text-[color:var(--color-primary)]', accent: 'text-[color:var(--color-primary)]' },
   amber: { bg: 'from-[#FF9500]/[0.08] to-[#FF9500]/[0.02]', pill: 'bg-[#FF9500]/[0.1] text-[#C77700]', accent: 'text-[#C77700]' },
   green: { bg: 'from-[#34C759]/[0.08] to-[#34C759]/[0.02]', pill: 'bg-[#34C759]/[0.1] text-[#248A3D]', accent: 'text-[#248A3D]' },
   purple: { bg: 'from-[#5856D6]/[0.08] to-[#5856D6]/[0.02]', pill: 'bg-[#5856D6]/[0.1] text-[#5856D6]', accent: 'text-[#5856D6]' },
@@ -37,11 +37,11 @@ function SectionHeading({ eyebrow, title, accent = 'blue' }: { eyebrow?: string;
     <div className="flex items-baseline justify-between mb-5 px-1">
       <div>
         {eyebrow && (
-          <p className={`text-[0.6875rem] font-semibold uppercase tracking-[0.08em] mb-1 ${accent === 'purple' ? 'text-[#5856D6]' : 'text-[#86868B]'}`}>
+          <p className={`text-[0.6875rem] font-semibold uppercase tracking-[0.08em] mb-1 ${accent === 'purple' ? 'text-[#5856D6]' : 'text-[color:var(--color-secondary-label)]'}`}>
             {eyebrow}
           </p>
         )}
-        <h2 className="text-[1.375rem] sm:text-2xl font-bold tracking-tight text-[#1D1D1F]">{title}</h2>
+        <h2 className="text-[1.375rem] sm:text-2xl font-bold tracking-tight text-[color:var(--color-label)]">{title}</h2>
       </div>
     </div>
   );
@@ -65,10 +65,10 @@ export default function StudyIndexPage() {
             <span className="inline-block text-[0.6875rem] font-semibold text-[#5856D6] bg-white/80 backdrop-blur-sm border border-[#5856D6]/15 px-3 py-1 rounded-full uppercase tracking-[0.1em] mb-5">
               Study · Reflect · Grow
             </span>
-            <h1 className="text-[2.25rem] sm:text-5xl font-bold tracking-tight text-[#1D1D1F] mb-3 leading-[1.05]">
+            <h1 className="text-[2.25rem] sm:text-5xl font-bold tracking-tight text-[color:var(--color-label)] mb-3 leading-[1.05]">
               Study Guides
             </h1>
-            <p className="text-[0.9375rem] sm:text-[1.0625rem] text-[#48484A] max-w-xl mx-auto leading-relaxed mb-7">
+            <p className="text-[0.9375rem] sm:text-[1.0625rem] text-[color:var(--color-label)] max-w-xl mx-auto leading-relaxed mb-7">
               Chapter-by-chapter commentary with themes, questions,
               Christ connections, and ten denominational lenses.
             </p>
@@ -84,26 +84,26 @@ export default function StudyIndexPage() {
               </Link>
               <Link
                 href="/bible"
-                className="inline-flex items-center justify-center gap-1.5 px-5 h-11 rounded-full bg-white border border-black/[0.08] text-[#1D1D1F] text-[0.9375rem] font-semibold hover:border-black/[0.15] hover:bg-[#FAFAFA] active:scale-[0.98] transition-all"
+                className="inline-flex items-center justify-center gap-1.5 px-5 h-11 rounded-full bg-white border border-black/[0.08] text-[color:var(--color-label)] text-[0.9375rem] font-semibold hover:border-black/[0.15] hover:bg-[#FAFAFA] active:scale-[0.98] transition-all"
               >
                 Just read the Bible
               </Link>
             </div>
 
-            <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-[0.8125rem] text-[#48484A]">
+            <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-[0.8125rem] text-[color:var(--color-label)]">
               <div className="flex items-center gap-1.5">
-                <span className="font-semibold text-[#1D1D1F]">1,320</span>
-                <span className="text-[#86868B]">study guides</span>
+                <span className="font-semibold text-[color:var(--color-label)]">1,320</span>
+                <span className="text-[color:var(--color-secondary-label)]">study guides</span>
               </div>
               <div className="w-1 h-1 rounded-full bg-[#D1D1D6]" />
               <div className="flex items-center gap-1.5">
-                <span className="font-semibold text-[#1D1D1F]">10</span>
-                <span className="text-[#86868B]">denominational lenses</span>
+                <span className="font-semibold text-[color:var(--color-label)]">10</span>
+                <span className="text-[color:var(--color-secondary-label)]">denominational lenses</span>
               </div>
               <div className="w-1 h-1 rounded-full bg-[#D1D1D6]" />
               <div className="flex items-center gap-1.5">
-                <span className="font-semibold text-[#1D1D1F]">3</span>
-                <span className="text-[#86868B]">depth levels</span>
+                <span className="font-semibold text-[color:var(--color-label)]">3</span>
+                <span className="text-[color:var(--color-secondary-label)]">depth levels</span>
               </div>
             </div>
           </div>
@@ -129,10 +129,10 @@ export default function StudyIndexPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                     </svg>
                   </div>
-                  <h3 className="text-[1.125rem] font-bold text-[#1D1D1F] mb-0.5 leading-tight">
+                  <h3 className="text-[1.125rem] font-bold text-[color:var(--color-label)] mb-0.5 leading-tight">
                     {item.title}
                   </h3>
-                  <p className="text-[0.8125rem] text-[#86868B] leading-snug">{item.subtitle}</p>
+                  <p className="text-[0.8125rem] text-[color:var(--color-secondary-label)] leading-snug">{item.subtitle}</p>
                 </Link>
               );
             })}
@@ -151,7 +151,7 @@ export default function StudyIndexPage() {
 
         <section>
           <SectionHeading eyebrow={`${apocrypha.length} Books`} title="Deuterocanonical" accent="purple" />
-          <p className="text-[0.8125rem] text-[#86868B] mb-4 px-1 leading-relaxed">
+          <p className="text-[0.8125rem] text-[color:var(--color-secondary-label)] mb-4 px-1 leading-relaxed">
             Included in Catholic and Orthodox Bibles. Available in the Douay-Rheims American (DRA) translation.
           </p>
           <BookGrid books={apocrypha} basePath="/study" />

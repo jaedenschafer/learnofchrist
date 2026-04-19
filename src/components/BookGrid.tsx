@@ -22,14 +22,14 @@ export default function BookGrid({ books, basePath = '/bible' }: BookGridProps) 
             className="group flex items-center justify-between bg-white border border-black/[0.04] rounded-2xl px-4 py-3.5 hover:border-[#007AFF]/30 hover:bg-[#007AFF]/[0.02] active:scale-[0.98] transition-all"
           >
             <div className="min-w-0 flex-1">
-              <h3 className="text-[0.9375rem] font-semibold text-[#1D1D1F] truncate group-hover:text-[#007AFF] transition-colors">
+              <h3 className="text-[0.9375rem] font-semibold text-[color:var(--color-label)] truncate group-hover:text-[color:var(--color-primary)] transition-colors">
                 {book.name}
               </h3>
-              <p className="text-[0.6875rem] text-[#AEAEB2] mt-0.5">
+              <p className="text-[0.6875rem] text-[color:var(--color-tertiary-label)] mt-0.5">
                 {book.chapters} {book.chapters === 1 ? 'chapter' : 'chapters'}
               </p>
             </div>
-            <svg className="w-4 h-4 text-[#D1D1D6] group-hover:text-[#007AFF] group-hover:translate-x-0.5 transition-all flex-shrink-0 ml-2" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+            <svg className="w-4 h-4 text-[#D1D1D6] group-hover:text-[color:var(--color-primary)] group-hover:translate-x-0.5 transition-all flex-shrink-0 ml-2" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
             </svg>
           </Link>
