@@ -641,3 +641,139 @@ html.js .rich-study .scripture.visible mark {
   .rich-study .reflection-prompt { font-size: 16px; }
   .rich-study .reflection-block { padding: 1.1rem 1.15rem 1rem; }
 }
+
+/* ─────────────────────────────────────────────
+   Scripture references — hover/tap popover
+   ───────────────────────────────────────────── */
+
+.rich-study .scripture-ref {
+  appearance: none;
+  background: none;
+  border: none;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  font-style: inherit;
+  cursor: pointer;
+  border-bottom: 1px dotted rgba(0, 122, 255, 0.45);
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+  white-space: nowrap;
+}
+.rich-study .scripture-ref:hover,
+.rich-study .scripture-ref:focus-visible {
+  color: #007AFF;
+  border-bottom-color: #007AFF;
+  background: rgba(0, 122, 255, 0.05);
+  border-radius: 3px;
+  outline: none;
+}
+
+.scripture-popover {
+  position: fixed;
+  z-index: 120;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.04),
+    0 12px 40px rgba(0, 0, 0, 0.18);
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+  animation: scriptPopIn 0.15s ease-out;
+  overflow: hidden;
+  width: min(92vw, 360px);
+}
+@keyframes scriptPopIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+
+.scripture-popover-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.85rem 1rem 0.6rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.scripture-popover-ref {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1D1D1F;
+  margin: 0;
+  letter-spacing: -0.01em;
+  font-family: 'New York', Georgia, serif;
+}
+.scripture-popover-trans {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: #007AFF;
+  margin: 0.1rem 0 0;
+  text-transform: uppercase;
+}
+.scripture-popover-close {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #F5F5F7;
+  border: none;
+  color: #86868B;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.scripture-popover-close:hover { background: #E5E5EA; color: #1D1D1F; }
+.scripture-popover-close svg { width: 12px; height: 12px; }
+
+.scripture-popover-body {
+  padding: 0.85rem 1rem;
+  max-height: 260px;
+  overflow-y: auto;
+}
+.scripture-popover-text {
+  font-family: 'New York', Georgia, serif;
+  font-size: 15px;
+  line-height: 1.55;
+  color: #1D1D1F;
+  margin: 0;
+}
+.scripture-popover-loading,
+.scripture-popover-empty {
+  font-size: 13px;
+  color: #86868B;
+  font-style: italic;
+  margin: 0;
+}
+
+.scripture-popover-foot {
+  padding: 0.55rem 1rem 0.75rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+.scripture-popover-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 12px;
+  font-weight: 600;
+  color: #007AFF;
+  text-decoration: none;
+}
+.scripture-popover-link:hover { text-decoration: underline; }
+.scripture-popover-link svg { width: 11px; height: 11px; }
+
+@media (max-width: 640px) {
+  .scripture-popover {
+    position: fixed;
+    left: 12px !important;
+    right: 12px;
+    top: auto !important;
+    bottom: 12px;
+    transform: none !important;
+    max-width: calc(100vw - 24px) !important;
+    width: auto;
+    animation: scriptPopInMobile 0.2s ease-out;
+  }
+  @keyframes scriptPopInMobile {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}

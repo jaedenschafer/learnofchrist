@@ -3,6 +3,7 @@
 import { useEffect } from 'react';
 import StudyJournal from './StudyJournal';
 import ReflectionBlock from './ReflectionBlock';
+import ScriptureRefs from './ScriptureRefs';
 import './GenesisOneStudy.css';
 
 export default function GenesisOneStudy() {
@@ -97,6 +98,7 @@ export default function GenesisOneStudy() {
   return (
     <article className="rich-study">
       <StudyJournal studyId="genesis-1" bookSlug="genesis" chapter={1} bookName="Genesis" />
+      <ScriptureRefs />
       <p className="intro">
         Genesis 1 tells how God brought the world into being over seven days. Days one through three form the spaces of creation — light, sky, land. Days four through six fill those spaces — sun and moon, fish and birds, animals and humans. Day seven, God rests. Each day follows the same pattern: God speaks, what He speaks comes to be, He calls it good.
       </p>
