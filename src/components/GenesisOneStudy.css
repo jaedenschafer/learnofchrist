@@ -348,3 +348,296 @@ html.js .rich-study .scripture.visible mark {
   .rich-study .intro:first-of-type::first-letter { font-size: 52px; }
   .rich-study .verse-section .scripture { top: 60px; }
 }
+
+/* ─────────────────────────────────────────────
+   Study journal — verse notes, carry commits, reflections
+   ───────────────────────────────────────────── */
+
+/* Make .v a positioning context for the pen icon */
+.rich-study .scripture .v.v-interactive {
+  position: relative;
+}
+.rich-study .v-note-mount {
+  position: relative;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: baseline;
+}
+
+.rich-study .v-note-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  margin-left: 2px;
+  padding: 0;
+  border-radius: 50%;
+  background: rgba(0, 122, 255, 0.08);
+  color: #007AFF;
+  border: none;
+  cursor: pointer;
+  vertical-align: super;
+  opacity: 0.35;
+  transition: opacity 0.15s, background 0.15s, transform 0.15s;
+  position: relative;
+}
+.rich-study .v-note-btn:hover {
+  opacity: 1;
+  background: rgba(0, 122, 255, 0.15);
+  transform: scale(1.1);
+}
+.rich-study .v-note-btn svg { width: 10px; height: 10px; }
+.rich-study .v-note-btn.has-note {
+  opacity: 1;
+  background: #007AFF;
+  color: #fff;
+}
+.rich-study .v-note-dot {
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #FFCC00;
+  border: 1px solid #fff;
+}
+
+/* Show all verse pen icons when mouse is anywhere over the scripture block */
+.rich-study .scripture:hover .v-note-btn { opacity: 0.7; }
+
+/* ── Carry "I'll try this" commit button ── */
+.rich-study .carry-commit-mount {
+  display: block;
+  margin-top: 0.85rem;
+}
+.rich-study .carry-commit {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.45rem 0.85rem 0.45rem 0.55rem;
+  background: rgba(74, 106, 60, 0.08);
+  color: #2E3A28;
+  border: 1px solid rgba(74, 106, 60, 0.2);
+  border-radius: 999px;
+  font-family: var(--font-sans);
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.rich-study .carry-commit:hover {
+  background: rgba(74, 106, 60, 0.14);
+  border-color: rgba(74, 106, 60, 0.3);
+}
+.rich-study .carry-check-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #fff;
+  border: 1.5px solid #4A6A3C;
+  flex-shrink: 0;
+  transition: background 0.15s;
+}
+.rich-study .carry-check-box svg { width: 11px; height: 11px; color: #fff; }
+.rich-study .carry-commit.is-committed {
+  background: #4A6A3C;
+  color: #fff;
+  border-color: #4A6A3C;
+}
+.rich-study .carry-commit.is-committed .carry-check-box {
+  background: #fff;
+  border-color: #fff;
+}
+.rich-study .carry-commit.is-committed .carry-check-box svg { color: #4A6A3C; }
+.rich-study .carry-commit-date {
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+/* ── Reflection block ── */
+.rich-study .reflection-block {
+  background: linear-gradient(180deg, #FFFCF5 0%, #FFF8EC 100%);
+  border: 1px solid rgba(184, 134, 11, 0.18);
+  border-radius: 18px;
+  padding: 1.35rem 1.5rem 1.25rem;
+  margin: 2rem 0 2.5rem;
+  font-family: 'New York', 'Iowan Old Style', Georgia, serif;
+}
+.rich-study .reflection-head {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-sans);
+  color: #B8860B;
+  margin-bottom: 0.55rem;
+}
+.rich-study .reflection-head svg {
+  width: 14px;
+  height: 14px;
+}
+.rich-study .reflection-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.rich-study .reflection-prompt {
+  font-size: 18px;
+  line-height: 1.55;
+  color: #1D1D1F;
+  font-style: italic;
+  margin: 0 0 0.9rem;
+}
+.rich-study .reflection-textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid rgba(184, 134, 11, 0.22);
+  border-radius: 12px;
+  background: #fff;
+  font-family: 'New York', Georgia, serif;
+  font-size: 16px;
+  line-height: 1.55;
+  color: #1D1D1F;
+  resize: vertical;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.rich-study .reflection-textarea:focus {
+  outline: none;
+  border-color: #B8860B;
+  box-shadow: 0 0 0 3px rgba(184, 134, 11, 0.14);
+}
+.rich-study .reflection-textarea::placeholder {
+  color: #AEAEB2;
+  font-style: italic;
+}
+.rich-study .reflection-foot {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-style: normal;
+  color: #86868B;
+  margin: 0.6rem 0 0;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.rich-study .reflection-saved-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #34C759;
+  display: inline-block;
+}
+
+/* ── Note drawer ── */
+.note-drawer-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: 100;
+  display: flex;
+  justify-content: flex-end;
+  animation: noteDrawerFadeIn 0.18s ease-out;
+}
+@keyframes noteDrawerFadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+.note-drawer {
+  width: 100%;
+  max-width: 440px;
+  height: 100%;
+  background: #fff;
+  box-shadow: -8px 0 40px rgba(0, 0, 0, 0.18);
+  display: flex;
+  flex-direction: column;
+  animation: noteDrawerSlideIn 0.22s ease-out;
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+}
+@keyframes noteDrawerSlideIn { from { transform: translateX(40px); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+
+.note-drawer-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1.5rem 1.5rem 1rem;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+.note-drawer-eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #007AFF;
+  margin: 0 0 0.25rem;
+}
+.note-drawer-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1D1D1F;
+  margin: 0;
+  font-family: 'New York', Georgia, serif;
+  letter-spacing: -0.01em;
+}
+.note-drawer-close {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #F5F5F7;
+  border: none;
+  color: #86868B;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.15s;
+}
+.note-drawer-close:hover { background: #E5E5EA; color: #1D1D1F; }
+.note-drawer-close svg { width: 16px; height: 16px; }
+
+.note-drawer-textarea {
+  flex: 1;
+  width: 100%;
+  padding: 1.25rem 1.5rem;
+  border: none;
+  background: transparent;
+  font-family: 'New York', Georgia, serif;
+  font-size: 17px;
+  line-height: 1.55;
+  color: #1D1D1F;
+  resize: none;
+}
+.note-drawer-textarea:focus { outline: none; }
+.note-drawer-textarea::placeholder { color: #AEAEB2; font-style: italic; }
+
+.note-drawer-foot {
+  padding: 0.75rem 1.5rem 1rem;
+  border-top: 1px solid rgba(0,0,0,0.06);
+  font-size: 12px;
+  color: #86868B;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.note-saved-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #34C759;
+  display: inline-block;
+}
+
+@media (max-width: 640px) {
+  .note-drawer { max-width: 100%; }
+  .rich-study .reflection-prompt { font-size: 16px; }
+  .rich-study .reflection-block { padding: 1.1rem 1.15rem 1rem; }
+}

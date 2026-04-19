@@ -1,6 +1,8 @@
 'use client';
 
 import { useEffect } from 'react';
+import StudyJournal from './StudyJournal';
+import ReflectionBlock from './ReflectionBlock';
 import './GenesisOneStudy.css';
 
 export default function GenesisOneStudy() {
@@ -94,6 +96,7 @@ export default function GenesisOneStudy() {
 
   return (
     <article className="rich-study">
+      <StudyJournal studyId="genesis-1" bookSlug="genesis" chapter={1} bookName="Genesis" />
       <p className="intro">
         Genesis 1 tells how God brought the world into being over seven days. Days one through three form the spaces of creation — light, sky, land. Days four through six fill those spaces — sun and moon, fish and birds, animals and humans. Day seven, God rests. Each day follows the same pattern: God speaks, what He speaks comes to be, He calls it good.
       </p>
@@ -157,6 +160,12 @@ export default function GenesisOneStudy() {
         </div>
       </section>
 
+      <ReflectionBlock
+        studyId="genesis-1"
+        id="beginning"
+        prompt="Where in your life does something look like tohu wa-bohu — unformed, dark, not yet livable? What would change if you actually believed God's Spirit is already moving over it?"
+      />
+
       {/* ================= Day 1 ================= */}
       <h2 className="section">
         <span className="ref">Day 1 · Genesis 1:3–5</span>
@@ -194,6 +203,12 @@ export default function GenesisOneStudy() {
         </div>
       </section>
 
+      <ReflectionBlock
+        studyId="genesis-1"
+        id="day-1"
+        prompt="What is the first line God may be asking you to draw this week — work hours from family hours, scrolling from presence, noise from silence? Name it."
+      />
+
       {/* ================= Day 2 ================= */}
       <h2 className="section">
         <span className="ref">Day 2 · Genesis 1:6–8</span>
@@ -224,6 +239,12 @@ export default function GenesisOneStudy() {
           </p>
         </div>
       </section>
+
+      <ReflectionBlock
+        studyId="genesis-1"
+        id="day-2"
+        prompt="Where is God making room in your life right now? What do you sense He is making room for?"
+      />
 
       {/* ================= Day 3 ================= */}
       <h2 className="section">
@@ -269,6 +290,12 @@ export default function GenesisOneStudy() {
       </section>
 
       <div className="divider">· · ·</div>
+
+      <ReflectionBlock
+        studyId="genesis-1"
+        id="day-3"
+        prompt="What is actually bearing fruit in you right now? Where have you been too busy or too hard on yourself to notice it?"
+      />
 
       {/* ================= Day 4 ================= */}
       <h2 className="section">
@@ -317,6 +344,12 @@ export default function GenesisOneStudy() {
         </div>
       </section>
 
+      <ReflectionBlock
+        studyId="genesis-1"
+        id="day-4"
+        prompt="What 'suns' have been quietly ruling your rhythms — career, approval, a screen, a relationship? What would it look like to demote them back to lamps, with God as the real light?"
+      />
+
       {/* ================= Day 5 ================= */}
       <h2 className="section">
         <span className="ref">Day 5 · Genesis 1:20–23</span>
@@ -351,6 +384,12 @@ export default function GenesisOneStudy() {
           Step outside today, even for three minutes. Put the phone in your pocket. Look at one living thing — a bird at the feeder, the tree out front, your kid, your dog — and agree out loud with the Creator: &ldquo;It is good.&rdquo; This is not a small practice. It is how the first chapter of the Bible teaches you to see.
         </div>
       </section>
+
+      <ReflectionBlock
+        studyId="genesis-1"
+        id="day-5"
+        prompt="Where do you see blessing multiplying in your life beyond anything you could have produced on your own?"
+      />
 
       {/* ================= Day 6 · Land Animals ================= */}
       <h2 className="section">
@@ -458,6 +497,12 @@ export default function GenesisOneStudy() {
 
       <div className="divider">· · ·</div>
 
+      <ReflectionBlock
+        studyId="genesis-1"
+        id="day-6"
+        prompt="You were made in God's image. Think back over yesterday. What about how you spent it reflected Him? What obscured Him?"
+      />
+
       {/* ================= Day 7 ================= */}
       <h2 className="section">
         <span className="ref">Day 7 · Genesis 2:1–3</span>
@@ -508,6 +553,12 @@ export default function GenesisOneStudy() {
           Pick a day this week. Pick a start time and a stop time. Tell the people you live with. Put the laptop away. Leave the email unanswered. Eat slowly. Read Scripture. Nap without guilt. Go to church. A day of rest is an act of faith that the world is not yours to finish — and the God who finished creation in six days is inviting you into His seventh.
         </div>
       </section>
+
+      <ReflectionBlock
+        studyId="genesis-1"
+        id="day-7"
+        prompt="What would your week look like if one day a week truly belonged to God and to you together? Name the day. Name a start time. Name what you'll set down."
+      />
     </article>
   );
 }
