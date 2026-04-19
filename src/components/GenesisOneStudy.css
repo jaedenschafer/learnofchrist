@@ -1293,3 +1293,369 @@ html.js .rich-study .scripture.visible mark {
   .audio-launch-sub { display: none; }
   .rich-study .is-reading::before { left: -10px; }
 }
+
+/* ─────────────────────────────────────────────
+   Reading comfort — font size, dark mode, focus mode
+   ───────────────────────────────────────────── */
+
+/* Font size variants. Default medium = existing 20/18px (already set above). */
+.rich-study.font-small { font-size: 18px; }
+.rich-study.font-large { font-size: 22px; }
+.rich-study.font-small .scripture { font-size: 19px; }
+.rich-study.font-large .scripture { font-size: 24px; }
+.rich-study.font-small .christ,
+.rich-study.font-small .christ p { font-size: 16px; }
+.rich-study.font-large .christ,
+.rich-study.font-large .christ p { font-size: 19px; }
+.rich-study.font-small .carry { font-size: 16px; }
+.rich-study.font-large .carry { font-size: 19px; }
+.rich-study.font-small .intro:first-of-type::first-letter { font-size: 56px; }
+.rich-study.font-large .intro:first-of-type::first-letter { font-size: 74px; }
+
+@media (max-width: 640px) {
+  .rich-study.font-small { font-size: 16px; }
+  .rich-study.font-large { font-size: 20px; }
+  .rich-study.font-small .scripture { font-size: 16px; }
+  .rich-study.font-large .scripture { font-size: 19px; }
+}
+
+/* ── Focus mode: hide teaching blocks, keep Scripture front-and-centre ── */
+.rich-study.is-focus .christ,
+.rich-study.is-focus .hebrew,
+.rich-study.is-focus .carry,
+.rich-study.is-focus .reflection-block,
+.rich-study.is-focus .intro,
+.rich-study.is-focus .tap-hint,
+.rich-study.is-focus .divider,
+.rich-study.is-focus .study-top-actions,
+.rich-study.is-focus .study-top-share,
+.rich-study.is-focus .study-bottom-share {
+  display: none !important;
+}
+/* Commentary paragraphs (every <p> inside a verse-section that isn't scripture) */
+.rich-study.is-focus .verse-section > p:not(.scripture),
+.rich-study.is-focus .verse-section > p[id] {
+  display: none;
+}
+/* Give the scripture a little more breathing room when it's the only thing left */
+.rich-study.is-focus .scripture {
+  position: static;
+  top: auto;
+  margin: 1.25rem 0;
+}
+.rich-study.is-focus .verse-section { margin: 0; }
+.rich-study.is-focus .verse-section + .verse-section { margin-top: 0.25rem; }
+
+/* Tiny floating "Back to full teaching" banner while in focus */
+.rich-study.is-focus::before {
+  content: "Pure scripture · tap the focus icon to bring the teaching back";
+  display: block;
+  background: rgba(0, 122, 255, 0.08);
+  color: #007AFF;
+  font-family: var(--font-sans);
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 0.55rem 0.85rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* ── Dark mode. Scoped to html[data-reader-theme="dark"] so it only applies
+   when the user opts in and doesn't repaint other pages on the site. ── */
+
+html[data-reader-theme="dark"] {
+  background: #0B0B0E;
+  color-scheme: dark;
+}
+html[data-reader-theme="dark"] body {
+  background: #0B0B0E;
+  color: #E5E5EA;
+}
+
+html[data-reader-theme="dark"] .page-container {
+  background: #0B0B0E;
+}
+
+/* Study / Reader header card */
+html[data-reader-theme="dark"] .page-container .bg-white {
+  background: #18181C !important;
+  color: #E5E5EA;
+}
+html[data-reader-theme="dark"] .page-container h1,
+html[data-reader-theme="dark"] .page-container h2,
+html[data-reader-theme="dark"] .page-container h3 {
+  color: #F5F5F7;
+}
+html[data-reader-theme="dark"] .page-container .text-\[\#1D1D1F\] {
+  color: #F5F5F7 !important;
+}
+html[data-reader-theme="dark"] .page-container .text-\[\#86868B\] {
+  color: #AEAEB2 !important;
+}
+html[data-reader-theme="dark"] .page-container .text-\[\#AEAEB2\] {
+  color: #86868B !important;
+}
+html[data-reader-theme="dark"] .page-container .text-\[\#48484A\] {
+  color: #C7C7CC !important;
+}
+
+/* Filter bar pill */
+html[data-reader-theme="dark"] .sticky .glass-heavy,
+html[data-reader-theme="dark"] .sticky [class*="bg-white\\/95"],
+html[data-reader-theme="dark"] .sticky > div > div > div {
+  background: rgba(28, 28, 32, 0.92) !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+html[data-reader-theme="dark"] .sticky button.bg-\[\#F5F5F7\] {
+  background: rgba(255, 255, 255, 0.08) !important;
+  color: #F5F5F7 !important;
+}
+html[data-reader-theme="dark"] .sticky .bg-\[\#1D1D1F\] {
+  background: #F5F5F7 !important;
+  color: #1D1D1F !important;
+}
+
+/* Breadcrumb */
+html[data-reader-theme="dark"] nav a,
+html[data-reader-theme="dark"] nav span {
+  color: #AEAEB2 !important;
+}
+
+/* The rich study itself */
+html[data-reader-theme="dark"] .rich-study {
+  --ink: #F5F5F7;
+  --body: #E5E5EA;
+  --sub: #8E8E93;
+  --line: #2C2C2E;
+  --gold: #E0AE45;
+  --sage: #86B072;
+  --wine: #E97A8B;
+  --pale-gold: #2A2418;
+  color: #E5E5EA;
+}
+
+html[data-reader-theme="dark"] .rich-study .kicker { color: #8E8E93; }
+html[data-reader-theme="dark"] .rich-study .page-title { color: #F5F5F7; }
+html[data-reader-theme="dark"] .rich-study .subtitle { color: #AEAEB2; }
+html[data-reader-theme="dark"] .rich-study .intro { color: #D1D1D6; }
+html[data-reader-theme="dark"] .rich-study .tap-hint { color: #8E8E93; }
+html[data-reader-theme="dark"] .rich-study .divider { color: #3A3A3C; }
+
+html[data-reader-theme="dark"] .rich-study h2.section {
+  color: #F5F5F7;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+html[data-reader-theme="dark"] .rich-study h2.section .ref { color: #E0AE45; }
+
+html[data-reader-theme="dark"] .rich-study .scripture {
+  background: #18181C;
+  border-color: rgba(255, 255, 255, 0.06);
+  color: #F5F5F7;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+html[data-reader-theme="dark"] .rich-study .scripture .v { color: #E97A8B; }
+html[data-reader-theme="dark"] .rich-study mark.hp { background: rgba(224, 174, 69, 0.25); color: #F5F5F7; }
+html[data-reader-theme="dark"] .rich-study mark.hy { background: rgba(233, 122, 139, 0.22); color: #F5F5F7; }
+html[data-reader-theme="dark"] .rich-study mark.hg { background: rgba(134, 176, 114, 0.24); color: #F5F5F7; }
+
+/* Christ / Hebrew / Carry boxes */
+html[data-reader-theme="dark"] .rich-study .christ {
+  background: #1E1A2A;
+  border-color: rgba(151, 121, 255, 0.25);
+}
+html[data-reader-theme="dark"] .rich-study .christ .title { color: #B8A6FF; }
+html[data-reader-theme="dark"] .rich-study .hebrew {
+  background: #1E2218;
+  border-color: rgba(134, 176, 114, 0.3);
+}
+html[data-reader-theme="dark"] .rich-study .hebrew .title { color: #BCD9A8; }
+html[data-reader-theme="dark"] .rich-study .hebrew .script { color: #F5F5F7; }
+html[data-reader-theme="dark"] .rich-study .hebrew .translit { color: #BCD9A8; }
+html[data-reader-theme="dark"] .rich-study .hebrew .desc { color: #D1D1D6; }
+html[data-reader-theme="dark"] .rich-study .carry {
+  border-color: #86B072;
+  color: #BCD9A8;
+}
+html[data-reader-theme="dark"] .rich-study .carry::before { color: #86B072; }
+
+/* Intro drop cap */
+html[data-reader-theme="dark"] .rich-study .intro:first-of-type::first-letter {
+  color: #E0AE45;
+}
+
+/* Reflection block — feels warm in dark */
+html[data-reader-theme="dark"] .rich-study .reflection-block {
+  background: linear-gradient(180deg, #1B1810 0%, #1F1A0F 100%);
+  border-color: rgba(224, 174, 69, 0.22);
+}
+html[data-reader-theme="dark"] .rich-study .reflection-prompt { color: #F5F5F7; }
+html[data-reader-theme="dark"] .rich-study .reflection-textarea {
+  background: #0F0E0B;
+  border-color: rgba(224, 174, 69, 0.28);
+  color: #F5F5F7;
+}
+html[data-reader-theme="dark"] .rich-study .reflection-textarea:focus {
+  border-color: #E0AE45;
+  box-shadow: 0 0 0 3px rgba(224, 174, 69, 0.2);
+}
+html[data-reader-theme="dark"] .rich-study .reflection-textarea::placeholder { color: #555; }
+html[data-reader-theme="dark"] .rich-study .reflection-foot { color: #8E8E93; }
+
+/* Verse note button */
+html[data-reader-theme="dark"] .rich-study .v-note-btn {
+  background: rgba(100, 160, 255, 0.16);
+  color: #64A0FF;
+}
+html[data-reader-theme="dark"] .rich-study .v-note-btn.has-note {
+  background: #64A0FF;
+  color: #0B0B0E;
+}
+
+/* Scripture ref inline button */
+html[data-reader-theme="dark"] .rich-study .scripture-ref {
+  border-bottom-color: rgba(100, 160, 255, 0.5);
+}
+html[data-reader-theme="dark"] .rich-study .scripture-ref:hover {
+  color: #64A0FF;
+  background: rgba(100, 160, 255, 0.1);
+  border-bottom-color: #64A0FF;
+}
+
+/* Scripture popover */
+html[data-reader-theme="dark"] .scripture-popover {
+  background: #1C1C1F;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+html[data-reader-theme="dark"] .scripture-popover-ref { color: #F5F5F7; }
+html[data-reader-theme="dark"] .scripture-popover-trans { color: #64A0FF; }
+html[data-reader-theme="dark"] .scripture-popover-text { color: #E5E5EA; }
+html[data-reader-theme="dark"] .scripture-popover-close {
+  background: rgba(255, 255, 255, 0.08);
+  color: #AEAEB2;
+}
+html[data-reader-theme="dark"] .scripture-popover-close:hover {
+  background: rgba(255, 255, 255, 0.14);
+  color: #F5F5F7;
+}
+html[data-reader-theme="dark"] .scripture-popover-head,
+html[data-reader-theme="dark"] .scripture-popover-foot {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+html[data-reader-theme="dark"] .scripture-popover-link { color: #64A0FF; }
+
+/* Note drawer */
+html[data-reader-theme="dark"] .note-drawer { background: #1C1C1F; }
+html[data-reader-theme="dark"] .note-drawer-head,
+html[data-reader-theme="dark"] .note-drawer-foot {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+html[data-reader-theme="dark"] .note-drawer-title { color: #F5F5F7; }
+html[data-reader-theme="dark"] .note-drawer-eyebrow { color: #64A0FF; }
+html[data-reader-theme="dark"] .note-drawer-textarea { color: #E5E5EA; }
+html[data-reader-theme="dark"] .note-drawer-close {
+  background: rgba(255, 255, 255, 0.08); color: #AEAEB2;
+}
+html[data-reader-theme="dark"] .note-drawer-close:hover {
+  background: rgba(255, 255, 255, 0.14); color: #F5F5F7;
+}
+html[data-reader-theme="dark"] .note-drawer-foot { color: #8E8E93; }
+
+/* Share menu */
+html[data-reader-theme="dark"] .share-menu { background: #1C1C1F; }
+html[data-reader-theme="dark"] .share-menu-title { color: #F5F5F7; }
+html[data-reader-theme="dark"] .share-menu-eyebrow { color: #64A0FF; }
+html[data-reader-theme="dark"] .share-act {
+  background: rgba(255, 255, 255, 0.06);
+  color: #F5F5F7;
+}
+html[data-reader-theme="dark"] .share-act:hover { background: rgba(255, 255, 255, 0.12); }
+html[data-reader-theme="dark"] .share-menu-close {
+  background: rgba(255, 255, 255, 0.08);
+  color: #AEAEB2;
+}
+html[data-reader-theme="dark"] .share-menu-foot { color: #8E8E93; }
+html[data-reader-theme="dark"] .share-menu-preview-img {
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Top audio launcher */
+html[data-reader-theme="dark"] .audio-launch {
+  background: #18181C;
+  border-color: rgba(255, 255, 255, 0.08);
+  color: #F5F5F7;
+}
+html[data-reader-theme="dark"] .audio-launch-title { color: #F5F5F7; }
+html[data-reader-theme="dark"] .audio-launch-sub { color: #8E8E93; }
+
+/* Share pill ghost */
+html[data-reader-theme="dark"] .share-btn-ghost {
+  background: rgba(100, 160, 255, 0.12);
+  color: #64A0FF;
+  border-color: rgba(100, 160, 255, 0.28);
+}
+html[data-reader-theme="dark"] .share-btn-ghost:hover { background: rgba(100, 160, 255, 0.2); }
+
+/* Hebrew speaker button */
+html[data-reader-theme="dark"] .rich-study .hebrew-audio-btn {
+  background: rgba(224, 174, 69, 0.18);
+  color: #E0AE45;
+}
+html[data-reader-theme="dark"] .rich-study .hebrew-audio-btn:hover {
+  background: rgba(224, 174, 69, 0.3);
+}
+
+/* Carry-this commit button */
+html[data-reader-theme="dark"] .rich-study .carry-commit {
+  background: rgba(134, 176, 114, 0.12);
+  color: #BCD9A8;
+  border-color: rgba(134, 176, 114, 0.28);
+}
+html[data-reader-theme="dark"] .rich-study .carry-commit:hover { background: rgba(134, 176, 114, 0.22); }
+html[data-reader-theme="dark"] .rich-study .carry-check-box {
+  background: #0F0E0B;
+  border-color: #86B072;
+}
+html[data-reader-theme="dark"] .rich-study .carry-commit.is-committed {
+  background: #5E8A50;
+  border-color: #5E8A50;
+  color: #fff;
+}
+html[data-reader-theme="dark"] .rich-study .carry-commit.is-committed .carry-check-box { background: #fff; border-color: #fff; }
+html[data-reader-theme="dark"] .rich-study .carry-commit.is-committed .carry-check-box svg { color: #5E8A50; }
+
+/* Focus-mode banner in dark */
+html[data-reader-theme="dark"] .rich-study.is-focus::before {
+  background: rgba(100, 160, 255, 0.12);
+  color: #64A0FF;
+}
+
+/* Verse display card (Bible reader) */
+html[data-reader-theme="dark"] [class*="bg-white"][class*="rounded"] {
+  background: #18181C !important;
+}
+
+/* Study banner gradient (reader page → study) stays vivid */
+html[data-reader-theme="dark"] .bg-gradient-to-br.from-\[\#007AFF\].to-\[\#5856D6\] {
+  box-shadow: 0 8px 30px rgba(0, 122, 255, 0.25);
+}
+
+/* StudyGuide card (non-genesis chapters) */
+html[data-reader-theme="dark"] .page-container article.card,
+html[data-reader-theme="dark"] .page-container .card {
+  background: #18181C;
+  border-color: rgba(255, 255, 255, 0.06);
+  color: #E5E5EA;
+}
+
+/* Pills like "Genesis", "Study Guide" on the chapter header */
+html[data-reader-theme="dark"] .page-container .pill.bg-\[\#007AFF\]\/\[0\.08\] {
+  background: rgba(100, 160, 255, 0.15) !important;
+  color: #64A0FF !important;
+}
+html[data-reader-theme="dark"] .page-container .pill.bg-\[\#5856D6\]\/\[0\.08\] {
+  background: rgba(176, 161, 255, 0.18) !important;
+  color: #B8A6FF !important;
+}

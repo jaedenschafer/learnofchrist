@@ -8,6 +8,7 @@ import ShareableMarks from './ShareableMarks';
 import ShareButton from './ShareButton';
 import StudyAudioPlayer from './StudyAudioPlayer';
 import HebrewAudio from './HebrewAudio';
+import ReadingComfortEffects from './ReadingComfortEffects';
 import './GenesisOneStudy.css';
 
 export default function GenesisOneStudy() {
@@ -110,6 +111,7 @@ export default function GenesisOneStudy() {
       />
 
       <HebrewAudio />
+      <ReadingComfortEffects />
 
       <div className="study-top-actions">
         <StudyAudioPlayer />

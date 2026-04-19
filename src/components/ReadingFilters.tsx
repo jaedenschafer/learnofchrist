@@ -75,7 +75,7 @@ function Menu({ children, align = 'left' }: { children: ReactNode; align?: 'left
 
 export default function ReadingFilters() {
   const { currentTranslation, setTranslation, availableTranslations } = useTranslation();
-  const { fontSize, setFontSize, readingMode, setReadingMode } = useReadingPrefs();
+  const { fontSize, setFontSize, readingMode, setReadingMode, theme, setTheme, isDark } = useReadingPrefs();
 
   const transDD = useDropdown();
   const fontDD = useDropdown();
@@ -173,6 +173,27 @@ export default function ReadingFilters() {
               </Menu>
             )}
           </div>
+
+          {/* Dark mode toggle */}
+          <button
+            onClick={() => setTheme(isDark ? 'light' : 'dark')}
+            className={`flex items-center justify-center h-7 w-7 rounded-full transition-all ${
+              isDark ? 'bg-[#1D1D1F] text-white' : 'bg-[#F5F5F7] text-[#86868B]'
+            }`}
+            title={isDark ? 'Switch to light' : 'Switch to dark'}
+            aria-pressed={isDark}
+            aria-label="Toggle dark mode"
+          >
+            {isDark ? (
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 3v1.5M12 19.5V21M4.22 4.22l1.06 1.06M18.72 18.72l1.06 1.06M3 12h1.5M19.5 12H21M4.22 19.78l1.06-1.06M18.72 5.28l1.06-1.06M12 7a5 5 0 100 10 5 5 0 000-10z" />
+              </svg>
+            ) : (
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+              </svg>
+            )}
+          </button>
 
           {/* Reading Mode */}
           <div ref={modeDD.ref} className="relative">
