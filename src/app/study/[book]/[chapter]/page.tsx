@@ -7,6 +7,7 @@ import ChapterNav from '@/components/ChapterNav';
 import StudyFilters from '@/components/StudyFilters';
 import VerseDisplay from '@/components/VerseDisplay';
 import StudyGuide from '@/components/StudyGuide';
+import GenesisOneStudy from '@/components/GenesisOneStudy';
 import { getVerses } from '@/lib/supabase';
 import { verseExplanations } from '@/data/verse-explanations';
 
@@ -90,6 +91,7 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
   const hasVerses = initialVerses.length > 0;
 
   const content = getChapterContent(book, chapter);
+  const isGenesisOne = book === 'genesis' && chapter === 1;
 
   const explainedVerses = Object.keys(verseExplanations)
     .filter((key) => key.startsWith(`${book}/${chapter}/`))
@@ -155,30 +157,36 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
           </Link>
         </div>
 
-        <StudyFilters />
+        {!isGenesisOne && <StudyFilters />}
 
         <div className="space-y-4 mt-4">
-          {hasVerses && (
-            <VerseDisplay
-              bookSlug={book}
-              chapter={chapter}
-              initialVerses={initialVerses}
-              explainedVerses={explainedVerses}
-              defaultTranslation={defaultTranslation}
-            />
-          )}
+          {isGenesisOne ? (
+            <GenesisOneStudy />
+          ) : (
+            <>
+              {hasVerses && (
+                <VerseDisplay
+                  bookSlug={book}
+                  chapter={chapter}
+                  initialVerses={initialVerses}
+                  explainedVerses={explainedVerses}
+                  defaultTranslation={defaultTranslation}
+                />
+              )}
 
-          <StudyGuide
-            bookName={book_obj.name}
-            chapter={chapter}
-            content={content ? {
-              overview: content.overview,
-              themes: [...content.themes],
-              questions: [...content.questions],
-              christConnection: content.christConnection,
-              keyVerse: content.keyVerse,
-            } : null}
-          />
+              <StudyGuide
+                bookName={book_obj.name}
+                chapter={chapter}
+                content={content ? {
+                  overview: content.overview,
+                  themes: [...content.themes],
+                  questions: [...content.questions],
+                  christConnection: content.christConnection,
+                  keyVerse: content.keyVerse,
+                } : null}
+              />
+            </>
+          )}
         </div>
 
         <ChapterNav
