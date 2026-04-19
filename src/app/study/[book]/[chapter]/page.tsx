@@ -145,9 +145,13 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
             <span className="pill bg-[#007AFF]/[0.08] text-[#007AFF]">{book_obj.name}</span>
             <span className="pill bg-[#5856D6]/[0.08] text-[#5856D6]">Study Guide</span>
           </div>
-          <h1 className="text-3xl sm:text-4xl font-bold text-[#1D1D1F] mb-2">Chapter {chapter}</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold text-[#1D1D1F] mb-2">
+            {isGenesisOne ? 'Genesis 1' : `Chapter ${chapter}`}
+          </h1>
           <p className="text-base text-[#86868B]">
-            Themes, discussion questions, Christ connections, and denomination lenses.
+            {isGenesisOne
+              ? 'How God spoke a world into being — and why every word of it still belongs to you.'
+              : 'Themes, discussion questions, Christ connections, and denomination lenses.'}
           </p>
           <Link
             href={`/bible/${book}/${chapter}`}
@@ -157,7 +161,7 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
           </Link>
         </div>
 
-        {!isGenesisOne && <StudyFilters />}
+        <StudyFilters />
 
         <div className="space-y-4 mt-4">
           {isGenesisOne ? (
