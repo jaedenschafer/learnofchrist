@@ -114,15 +114,15 @@ export default function StudyFilters() {
   const denomActive = denomination !== 'none';
 
   return (
-    <div className="sticky top-12 z-40 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2 glass-heavy border-b border-black/[0.04]">
+    <div className="sticky top-12 z-40 -mx-4 sm:-mx-6 px-4 sm:px-6 py-1.5 glass-heavy border-b border-black/[0.04]">
       <div className="max-w-3xl mx-auto">
-        <div className="flex items-center gap-1.5 sm:gap-2">
+        <div className="flex items-center gap-1">
 
           {/* Translation */}
           <div ref={transDD.ref} className="relative">
             <button
               onClick={() => toggle(transDD)}
-              className={`flex items-center gap-1 h-8 px-2.5 rounded-lg text-[0.75rem] font-semibold transition-all ${
+              className={`flex items-center gap-1 h-7 px-2.5 rounded-full text-[0.6875rem] font-semibold transition-all ${
                 transDD.open
                   ? 'bg-[#007AFF] text-white'
                   : 'bg-[#F5F5F7] text-[#1D1D1F]'
@@ -154,16 +154,13 @@ export default function StudyFilters() {
           <div ref={levelDD.ref} className="relative">
             <button
               onClick={() => toggle(levelDD)}
-              className={`flex items-center gap-1 h-8 px-2.5 rounded-lg text-[0.75rem] font-semibold transition-all ${
+              className={`flex items-center gap-1 h-7 px-2.5 rounded-full text-[0.6875rem] font-semibold transition-all ${
                 levelDD.open
                   ? 'bg-[#007AFF] text-white'
                   : 'bg-[#F5F5F7] text-[#1D1D1F]'
               }`}
             >
-              <svg className={`w-3.5 h-3.5 ${levelDD.open ? 'text-white/80' : 'text-[#86868B]'}`} fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-              </svg>
-              <span className="hidden sm:inline">{currentLevel.label}</span>
+              <span>{currentLevel.label}</span>
               <svg className={`w-2.5 h-2.5 ${levelDD.open ? 'rotate-180 text-white/70' : 'text-[#AEAEB2]'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 9l-7 7-7-7" />
               </svg>
@@ -189,7 +186,7 @@ export default function StudyFilters() {
           <div ref={denomDD.ref} className="relative">
             <button
               onClick={() => toggle(denomDD)}
-              className={`flex items-center gap-1 h-8 px-2.5 rounded-lg text-[0.75rem] font-semibold transition-all ${
+              className={`flex items-center gap-1 h-7 px-2.5 rounded-full text-[0.6875rem] font-semibold transition-all ${
                 denomActive
                   ? 'bg-[#5856D6] text-white'
                   : denomDD.open
@@ -197,10 +194,7 @@ export default function StudyFilters() {
                     : 'bg-[#F5F5F7] text-[#1D1D1F]'
               }`}
             >
-              <svg className={`w-3.5 h-3.5 ${denomActive || denomDD.open ? 'text-white/80' : 'text-[#86868B]'}`} fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              <span className="hidden sm:inline">{denomActive ? currentDenomination.shortLabel : 'Lens'}</span>
+              <span>{denomActive ? currentDenomination.shortLabel : 'Lens'}</span>
               <svg className={`w-2.5 h-2.5 ${denomActive || denomDD.open ? 'rotate-0 text-white/70' : 'text-[#AEAEB2]'} ${denomDD.open ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 9l-7 7-7-7" />
               </svg>
@@ -230,7 +224,7 @@ export default function StudyFilters() {
           <div ref={fontDD.ref} className="relative">
             <button
               onClick={() => toggle(fontDD)}
-              className={`flex items-center justify-center h-8 w-8 rounded-lg transition-all ${
+              className={`flex items-center justify-center h-7 w-7 rounded-full transition-all ${
                 fontDD.open
                   ? 'bg-[#007AFF] text-white'
                   : 'bg-[#F5F5F7] text-[#86868B]'
@@ -277,7 +271,7 @@ export default function StudyFilters() {
           <div ref={modeDD.ref} className="relative">
             <button
               onClick={() => toggle(modeDD)}
-              className={`flex items-center justify-center h-8 w-8 rounded-lg transition-all ${
+              className={`flex items-center justify-center h-7 w-7 rounded-full transition-all ${
                 modeDD.open
                   ? 'bg-[#007AFF] text-white'
                   : 'bg-[#F5F5F7] text-[#86868B]'

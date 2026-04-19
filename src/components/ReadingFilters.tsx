@@ -94,15 +94,15 @@ export default function ReadingFilters() {
   };
 
   return (
-    <div className="sticky top-12 z-40 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2 glass-heavy border-b border-black/[0.04]">
+    <div className="sticky top-12 z-40 -mx-4 sm:-mx-6 px-4 sm:px-6 py-1.5 glass-heavy border-b border-black/[0.04]">
       <div className="max-w-3xl mx-auto">
-        <div className="flex items-center gap-1.5 sm:gap-2">
+        <div className="flex items-center gap-1">
 
           {/* Translation */}
           <div ref={transDD.ref} className="relative">
             <button
               onClick={() => toggle(transDD)}
-              className={`flex items-center gap-1 h-8 px-2.5 rounded-lg text-[0.75rem] font-semibold transition-all ${
+              className={`flex items-center gap-1 h-7 px-2.5 rounded-full text-[0.6875rem] font-semibold transition-all ${
                 transDD.open ? 'bg-[#007AFF] text-white' : 'bg-[#F5F5F7] text-[#1D1D1F]'
               }`}
             >
@@ -134,7 +134,7 @@ export default function ReadingFilters() {
           <div ref={fontDD.ref} className="relative">
             <button
               onClick={() => toggle(fontDD)}
-              className={`flex items-center justify-center h-8 w-8 rounded-lg transition-all ${
+              className={`flex items-center justify-center h-7 w-7 rounded-full transition-all ${
                 fontDD.open ? 'bg-[#007AFF] text-white' : 'bg-[#F5F5F7] text-[#86868B]'
               }`}
               title="Text Size"
@@ -179,7 +179,7 @@ export default function ReadingFilters() {
           <div ref={modeDD.ref} className="relative">
             <button
               onClick={() => toggle(modeDD)}
-              className={`flex items-center justify-center h-8 w-8 rounded-lg transition-all ${
+              className={`flex items-center justify-center h-7 w-7 rounded-full transition-all ${
                 modeDD.open ? 'bg-[#007AFF] text-white' : 'bg-[#F5F5F7] text-[#86868B]'
               }`}
               title="Reading Mode"
