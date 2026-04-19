@@ -777,3 +777,258 @@ html.js .rich-study .scripture.visible mark {
     to { opacity: 1; transform: translateY(0); }
   }
 }
+
+/* ─────────────────────────────────────────────
+   Share — buttons, menu, hint tooltip
+   ───────────────────────────────────────────── */
+
+.share-btn-pill,
+.share-btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.9rem 0.45rem 0.7rem;
+  border-radius: 999px;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, transform 0.12s;
+  border: 1px solid transparent;
+  font-style: normal;
+}
+.share-btn-pill {
+  background: #007AFF;
+  color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 122, 255, 0.2), 0 4px 12px rgba(0, 122, 255, 0.18);
+}
+.share-btn-pill:hover { background: #0062CC; transform: translateY(-1px); }
+.share-btn-ghost {
+  background: rgba(0, 122, 255, 0.07);
+  color: #007AFF;
+  border-color: rgba(0, 122, 255, 0.18);
+}
+.share-btn-ghost:hover { background: rgba(0, 122, 255, 0.12); }
+.share-btn-pill svg, .share-btn-ghost svg { width: 14px; height: 14px; }
+
+.share-btn-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(0, 0, 0, 0.04);
+  color: #86868B;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s, color 0.15s;
+}
+.share-btn-icon:hover { background: rgba(0, 122, 255, 0.12); color: #007AFF; }
+.share-btn-icon svg { width: 14px; height: 14px; }
+
+/* Day-header share icon (sits next to the <h2 class="section">) */
+.rich-study h2.section .share-btn-icon {
+  margin-left: 0.5rem;
+  vertical-align: middle;
+  opacity: 0;
+  transition: opacity 0.15s, background 0.15s;
+}
+.rich-study h2.section:hover .share-btn-icon,
+.rich-study .share-btn-icon:focus-visible {
+  opacity: 1;
+}
+
+/* ── Share menu modal ── */
+.share-menu-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: 110;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: shareMenuFadeIn 0.18s ease-out;
+}
+@keyframes shareMenuFadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+.share-menu {
+  background: #fff;
+  border-radius: 24px;
+  width: min(520px, 100%);
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+  animation: shareMenuSlideIn 0.22s ease-out;
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+}
+@keyframes shareMenuSlideIn {
+  from { opacity: 0; transform: translateY(12px) scale(0.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.share-menu-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem 0.5rem;
+}
+.share-menu-eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #007AFF;
+  margin: 0 0 0.25rem;
+}
+.share-menu-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1D1D1F;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+.share-menu-close {
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  background: #F5F5F7;
+  border: none;
+  color: #86868B;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.share-menu-close:hover { background: #E5E5EA; color: #1D1D1F; }
+.share-menu-close svg { width: 16px; height: 16px; }
+
+.share-menu-preview {
+  padding: 0 1.5rem 1rem;
+}
+.share-menu-preview-img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1200 / 630;
+  border-radius: 14px;
+  border: 1px solid rgba(0,0,0,0.06);
+  background: #F5F5F7;
+  object-fit: cover;
+}
+
+.share-menu-actions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  padding: 0.25rem 1.5rem 1rem;
+}
+.share-act {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 0.9rem;
+  border-radius: 12px;
+  background: #F5F5F7;
+  color: #1D1D1F;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  text-decoration: none;
+}
+.share-act:hover { background: #E5E5EA; }
+.share-act.primary {
+  background: #007AFF;
+  color: #fff;
+  grid-column: 1 / -1;
+}
+.share-act.primary:hover { background: #0062CC; }
+.share-act svg { width: 16px; height: 16px; flex-shrink: 0; }
+
+.share-menu-foot {
+  font-size: 12px;
+  color: #86868B;
+  margin: 0;
+  padding: 0 1.5rem 1.25rem;
+  text-align: center;
+  line-height: 1.45;
+}
+
+/* ── Hint tooltip ── */
+.mark-share-hint {
+  position: absolute;
+  z-index: 90;
+  transform: translateX(-50%);
+  background: #1D1D1F;
+  color: #fff;
+  font-family: var(--font-sans);
+  font-size: 11.5px;
+  font-weight: 600;
+  padding: 0.4rem 0.65rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  pointer-events: none;
+  animation: markShareHintIn 0.2s ease-out;
+  white-space: nowrap;
+}
+.mark-share-hint::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 4px solid transparent;
+  border-top-color: #1D1D1F;
+}
+.mark-share-hint.hide { opacity: 0; transition: opacity 0.35s; }
+@keyframes markShareHintIn {
+  from { opacity: 0; transform: translateX(-50%) translateY(4px); }
+  to   { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+/* Subtle hint on mark hover that it's interactive (in addition to the tap-jump behavior) */
+.rich-study mark { cursor: pointer; }
+
+@media (max-width: 640px) {
+  .share-menu-actions { grid-template-columns: 1fr; }
+  .share-menu { border-radius: 20px; }
+}
+
+/* Top + bottom share areas */
+.rich-study .study-top-share {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 0 0 1.75rem;
+  flex-wrap: wrap;
+}
+.rich-study .study-top-share-hint {
+  font-family: var(--font-sans);
+  font-style: normal;
+  font-size: 12.5px;
+  color: #86868B;
+}
+.rich-study .study-bottom-share {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 2.5rem 0 0.5rem;
+  padding: 1.5rem 1.25rem;
+  border-top: 1px solid rgba(0,0,0,0.06);
+}
+.rich-study .study-bottom-share-lead {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  color: #48484A;
+  font-style: normal;
+  margin: 0;
+}
+@media (max-width: 640px) {
+  .rich-study .study-top-share-hint { display: none; }
+}

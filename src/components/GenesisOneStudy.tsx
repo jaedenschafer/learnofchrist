@@ -4,6 +4,8 @@ import { useEffect } from 'react';
 import StudyJournal from './StudyJournal';
 import ReflectionBlock from './ReflectionBlock';
 import ScriptureRefs from './ScriptureRefs';
+import ShareableMarks from './ShareableMarks';
+import ShareButton from './ShareButton';
 import './GenesisOneStudy.css';
 
 export default function GenesisOneStudy() {
@@ -99,6 +101,27 @@ export default function GenesisOneStudy() {
     <article className="rich-study">
       <StudyJournal studyId="genesis-1" bookSlug="genesis" chapter={1} bookName="Genesis" />
       <ScriptureRefs />
+      <ShareableMarks
+        studyId="genesis-1"
+        chapterRef="Genesis 1"
+        pageUrl="/study/genesis/1"
+      />
+
+      <div className="study-top-share">
+        <ShareButton
+          variant="ghost"
+          label="Share this chapter"
+          content={{
+            quote: 'How God spoke a world into being — and why every word of it still belongs to you.',
+            snippet: 'A deep study guide to Genesis 1: themes, Christ connections, and commitments you can carry this week.',
+            ref: 'Genesis 1 · Study Guide',
+            variant: 'insight',
+            sourceUrl: (typeof window !== 'undefined' ? window.location.origin : 'https://learnofchrist.com') + '/study/genesis/1',
+          }}
+        />
+        <span className="study-top-share-hint">Right-click any highlight to share the insight</span>
+      </div>
+
       <p className="intro">
         Genesis 1 tells how God brought the world into being over seven days. Days one through three form the spaces of creation — light, sky, land. Days four through six fill those spaces — sun and moon, fish and birds, animals and humans. Day seven, God rests. Each day follows the same pattern: God speaks, what He speaks comes to be, He calls it good.
       </p>
@@ -561,6 +584,21 @@ export default function GenesisOneStudy() {
         id="day-7"
         prompt="What would your week look like if one day a week truly belonged to God and to you together? Name the day. Name a start time. Name what you'll set down."
       />
+
+      <div className="study-bottom-share">
+        <p className="study-bottom-share-lead">Thought this guide would help someone?</p>
+        <ShareButton
+          variant="pill"
+          label="Share Genesis 1"
+          content={{
+            quote: 'How God spoke a world into being — and why every word of it still belongs to you.',
+            snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
+            ref: 'Genesis 1 · Study Guide',
+            variant: 'insight',
+            sourceUrl: (typeof window !== 'undefined' ? window.location.origin : 'https://learnofchrist.com') + '/study/genesis/1',
+          }}
+        />
+      </div>
     </article>
   );
 }
