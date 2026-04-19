@@ -29,6 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: '/bible', priority: 0.9, freq: 'weekly' as const },
     { path: '/study', priority: 0.9, freq: 'weekly' as const },
     { path: '/study-plans', priority: 0.7, freq: 'weekly' as const },
+    { path: '/progress', priority: 0.5, freq: 'monthly' as const },
     { path: '/topics', priority: 0.7, freq: 'weekly' as const },
     { path: '/questions', priority: 0.7, freq: 'weekly' as const },
     { path: '/blog', priority: 0.7, freq: 'weekly' as const },

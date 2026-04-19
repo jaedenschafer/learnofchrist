@@ -9,6 +9,7 @@ import ShareButton from './ShareButton';
 import StudyAudioPlayer from './StudyAudioPlayer';
 import HebrewAudio from './HebrewAudio';
 import ReadingComfortEffects from './ReadingComfortEffects';
+import ChapterProgress from './ChapterProgress';
 import './GenesisOneStudy.css';
 
 export default function GenesisOneStudy() {
@@ -112,6 +113,12 @@ export default function GenesisOneStudy() {
 
       <HebrewAudio />
       <ReadingComfortEffects />
+      <ChapterProgress
+        chapterKey="genesis/1"
+        chapterName="Genesis 1"
+        bookSlug="genesis"
+        chapter={1}
+      />
 
       <div className="study-top-actions">
         <StudyAudioPlayer />

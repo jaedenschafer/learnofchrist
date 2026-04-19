@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { getAllTopics } from '@/data/topics';
 import { getAllQuestions } from '@/data/questions';
+import ContinueReading from '@/components/ContinueReading';
 
 export const metadata = {
   title: 'Learn of Christ — Free Bible Study for Everyone',
@@ -64,6 +65,13 @@ export default function Home() {
               Try John 1
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* ═══════════ CONTINUE READING ═══════════ */}
+      <section className="px-5 pb-2">
+        <div className="max-w-xl mx-auto">
+          <ContinueReading />
         </div>
       </section>
 
