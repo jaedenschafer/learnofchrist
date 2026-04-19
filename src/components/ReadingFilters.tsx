@@ -94,9 +94,9 @@ export default function ReadingFilters() {
   };
 
   return (
-    <div className="sticky top-12 z-40 -mx-4 sm:-mx-6 px-4 sm:px-6 py-1.5 glass-heavy border-b border-black/[0.04]">
+    <div className="sticky top-14 z-40 mb-4">
       <div className="max-w-3xl mx-auto">
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-1 bg-white/95 backdrop-blur-xl border border-black/[0.06] rounded-full px-2 py-1.5 shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)]">
 
           {/* Translation */}
           <div ref={transDD.ref} className="relative">
@@ -119,7 +119,6 @@ export default function ReadingFilters() {
                       key={t.abbreviation}
                       selected={currentTranslation === t.abbreviation}
                       label={t.abbreviation.toUpperCase()}
-                      subtitle={t.name}
                       onClick={() => { setTranslation(t.abbreviation); transDD.setOpen(false); }}
                     />
                   ))}
