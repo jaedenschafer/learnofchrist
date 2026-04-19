@@ -28,8 +28,6 @@ export default function GenesisOneStudy() {
     });
 
     // Reveal highlights when a verse-section takes the sticky slot at the top
-    const rootFontSize =
-      parseFloat(getComputedStyle(document.documentElement).fontSize) || 16;
     const isMobile = window.matchMedia('(max-width: 640px)').matches;
     // Sticky top is 72px desktop / 60px mobile — this is our reveal trigger line.
     const stickyTop = isMobile ? 60 : 72;
@@ -42,12 +40,24 @@ export default function GenesisOneStudy() {
     const checkSections = () => {
       sections.forEach((section) => {
         const scripture = section.querySelector<HTMLElement>('.scripture');
-        if (!scripture || scripture.classList.contains('visible')) return;
+        if (!scripture) return;
         const rect = section.getBoundingClientRect();
-        if (rect.top <= triggerLine && rect.bottom > 0) {
-          scripture.classList.add('visible');
-        } else if (rect.bottom <= 0) {
-          scripture.classList.add('visible');
+        if (!scripture.classList.contains('visible')) {
+          if (rect.top <= triggerLine && rect.bottom > 0) {
+            scripture.classList.add('visible');
+          } else if (rect.bottom <= 0) {
+            scripture.classList.add('visible');
+          }
+        }
+        // Toggle is-pinned when the scripture is locked to the sticky slot.
+        const scriptureRect = scripture.getBoundingClientRect();
+        const pinned =
+          scriptureRect.top <= stickyTop + 1 &&
+          rect.bottom > stickyTop + scriptureRect.height;
+        if (pinned) {
+          scripture.classList.add('is-pinned');
+        } else {
+          scripture.classList.remove('is-pinned');
         }
       });
     };
@@ -80,10 +90,16 @@ export default function GenesisOneStudy() {
       e.preventDefault();
       const sectionEl = link.closest('.verse-section');
       const sticky = sectionEl?.querySelector<HTMLElement>('.scripture');
+      // Include the site nav height so the anchor clears the sticky header too.
+      const navEl = document.querySelector<HTMLElement>('nav, header');
+      const navH = navEl ? navEl.getBoundingClientRect().height : 0;
+      const baseTop = Math.max(stickyTop, navH);
       const offset =
-        stickyTop + 24 + (sticky ? sticky.getBoundingClientRect().height : 120);
+        baseTop + 16 + (sticky ? sticky.getBoundingClientRect().height : 120);
       const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
       window.scrollTo({ top, behavior: 'smooth' });
+      // Programmatic scroll can skip native scroll events — re-check after it settles.
+      window.setTimeout(checkSections, 500);
       target.classList.remove('target-flash');
       // force reflow so the animation restarts
       void target.offsetWidth;
