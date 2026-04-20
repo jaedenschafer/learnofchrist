@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import type { ArtworkWithArtist } from '@/lib/supabase';
 import ArtCard from './ArtCard';
+import ReportArtworkButton from './ReportArtworkButton';
 
 interface ChapterArtStripProps {
   bookSlug: string;
@@ -43,7 +44,10 @@ export default function ChapterArtStrip({ bookSlug, chapter, bookName, artworks 
 
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
         {preview.map((art) => (
-          <ArtCard key={art.id} artwork={art} />
+          <div key={art.id} className="relative group">
+            <ArtCard artwork={art} />
+            <ReportArtworkButton artworkId={art.id} artworkTitle={art.title} />
+          </div>
         ))}
       </div>
     </section>

@@ -18,8 +18,13 @@ END
 $$;
 
 -- Reclassify Dürer plates that were ingested as 'other_public_domain'
--- while this enum value did not exist. Matches all four cycle filenames.
+-- while this enum value did not exist. Match by artist_id — Dürer
+-- filenames on Wikimedia are not uniformly prefixed (e.g. the Small
+-- Passion title page starts with "Title page of the Small Passion..."),
+-- so a LIKE on external_id misses stragglers.
 UPDATE artworks
 SET source = 'durer'
 WHERE source = 'other_public_domain'
-  AND external_id LIKE 'Albrecht Dürer%';
+  AND artist_id = (
+    SELECT id FROM artists WHERE slug = 'albrecht-durer'
+  );

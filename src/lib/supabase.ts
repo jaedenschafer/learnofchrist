@@ -247,6 +247,7 @@ export async function getArtworksForChapter(
     .eq('book_id', book.id)
     .eq('chapter', chapter)
     .eq('artwork.status', 'published')
+    .eq('artwork.moderation_status', 'approved')
     .order('is_primary', { ascending: false });
 
   if (error) {
@@ -296,6 +297,7 @@ export async function getArtworksForBook(
     `)
     .eq('book_id', book.id)
     .eq('artwork.status', 'published')
+    .eq('artwork.moderation_status', 'approved')
     .order('chapter', { ascending: true })
     .order('is_primary', { ascending: false });
 
@@ -359,6 +361,7 @@ export async function getArtworkBySlug(slug: string): Promise<ArtworkWithRefs | 
     `)
     .eq('slug', slug)
     .eq('status', 'published')
+    .eq('moderation_status', 'approved')
     .maybeSingle();
 
   if (error || !artwork) {
@@ -411,7 +414,8 @@ export async function getAllArtworkSlugs(): Promise<Array<{ slug: string }>> {
   const { data, error } = await supabaseServer
     .from('artworks')
     .select('slug')
-    .eq('status', 'published');
+    .eq('status', 'published')
+    .eq('moderation_status', 'approved');
 
   if (error) {
     console.error('Error fetching artwork slugs:', error);
@@ -429,6 +433,7 @@ export async function getArtworksBrowse(limit = 60): Promise<ArtworkWithArtist[]
       artist:artists ( id, slug, name, birth_year, death_year, nationality, bio, wikipedia_url )
     `)
     .eq('status', 'published')
+    .eq('moderation_status', 'approved')
     .order('created_at', { ascending: false })
     .limit(limit);
 
