@@ -2193,6 +2193,17 @@ export const DORE_ENGRAVINGS: DoreEngraving[] = [
     verseEnd: 30,
     sceneSlug: 'deliverance',
   },
+  {
+    externalId: 'dore-baruch',
+    title: 'Baruch',
+    wikimediaFile: '125.Baruch.jpg',
+    year: 1866,
+    bookSlug: 'baruch',
+    chapter: 1,
+    verseStart: 1,
+    verseEnd: 14,
+    sceneSlug: 'prophets',
+  },
 ];
 
 /**

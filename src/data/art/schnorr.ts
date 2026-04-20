@@ -1,7 +1,7 @@
 // Schnorr von Carolsfeld — Die Bibel in Bildern (1860)
-// 240 woodcuts in the original book; 237 numbered plates now available on Wikimedia Commons
-// (plates 236 and 237 — the Seven Candlesticks and Four Horsemen — uploaded after initial ingest).
-// Plates 238-240 (final Revelation scenes) are still not on Commons as of April 2026.
+// All 240 numbered plates are now on Wikimedia Commons. The initial ingest
+// missed 236-240 because of an underscore-vs-space URL-encoding quirk in the
+// HEAD-check; the files are present and this file lists all 240.
 
 export type SchnorrPlate = {
   externalId: string;
@@ -2621,6 +2621,39 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     chapter: 6,
     verseStart: 1,
     verseEnd: 8,
+    sceneSlug: 'apocalypse',
+  },
+  {
+    externalId: 'schnorr-238-opening-of-the-seventh-seal',
+    title: 'The Opening of the Seventh Seal',
+    wikimediaFile: 'Schnorr von Carolsfeld Bibel in Bildern 1860 238.png',
+    year: 1860,
+    bookSlug: 'revelation',
+    chapter: 8,
+    verseStart: 1,
+    verseEnd: 5,
+    sceneSlug: 'apocalypse',
+  },
+  {
+    externalId: 'schnorr-239-michael-and-the-dragon',
+    title: 'Michael and the Dragon',
+    wikimediaFile: 'Schnorr von Carolsfeld Bibel in Bildern 1860 239.png',
+    year: 1860,
+    bookSlug: 'revelation',
+    chapter: 12,
+    verseStart: 7,
+    verseEnd: 9,
+    sceneSlug: 'apocalypse',
+  },
+  {
+    externalId: 'schnorr-240-new-jerusalem',
+    title: 'The New Jerusalem',
+    wikimediaFile: 'Schnorr von Carolsfeld Bibel in Bildern 1860 240.png',
+    year: 1860,
+    bookSlug: 'revelation',
+    chapter: 21,
+    verseStart: 1,
+    verseEnd: 4,
     sceneSlug: 'apocalypse',
   },
 ];
