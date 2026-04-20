@@ -16,7 +16,7 @@ export default function Navbar() {
   const navLinks = [
     { href: '/bible', label: 'Bible' },
     { href: '/study', label: 'Study' },
-    { href: '/progress', label: 'Progress' },
+    { href: '/art', label: 'Art' },
     { href: '/topics', label: 'Topics' },
     { href: '/blog', label: 'Blog' },
   ];

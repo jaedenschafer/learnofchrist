@@ -7,8 +7,9 @@ import BreadcrumbNav from '@/components/BreadcrumbNav';
 import ChapterNav from '@/components/ChapterNav';
 import VerseDisplay from '@/components/VerseDisplay';
 import StudyGuide from '@/components/StudyGuide';
-import { getVerses } from '@/lib/supabase';
+import { getVerses, getArtworksForChapter } from '@/lib/supabase';
 import { verseExplanations } from '@/data/verse-explanations';
+import ChapterArtStrip from '@/components/ChapterArtStrip';
 
 // Code-split client-only UI: the filters bar renders below the hero, and the
 // heavy Genesis 1 deep-dive isn't needed on any other chapter.
@@ -105,7 +106,10 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
   }
 
   const defaultTranslation = book_obj.testament === 'apocrypha' ? 'dra' : 'kjv';
-  const initialVerses = await getVerses(book, chapter, defaultTranslation);
+  const [initialVerses, chapterArtworks] = await Promise.all([
+    getVerses(book, chapter, defaultTranslation),
+    getArtworksForChapter(book, chapter),
+  ]);
   const hasVerses = initialVerses.length > 0;
 
   const content = getChapterContent(book, chapter);
@@ -211,6 +215,13 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
             </>
           )}
         </div>
+
+        <ChapterArtStrip
+          bookSlug={book}
+          chapter={chapter}
+          bookName={book_obj.name}
+          artworks={chapterArtworks}
+        />
 
         <ChapterNav
           bookName={book_obj.name}
