@@ -675,7 +675,7 @@ export default function GenesisOneStudy() {
             Count the word &ldquo;good&rdquo; across Genesis 1 and you get seven — the Bible&apos;s number for completeness. For five days God calls His work &ldquo;good.&rdquo; On the sixth He looks at the whole thing and says something new: <em>very good.</em> The Bible begins with a Creator delighting in what He has made.
           </p>
           <div className="carry">
-            Somewhere in your day there was a <em>good</em> — the coffee that was right, a conversation that landed, five minutes of sun, a small kindness. God&apos;s rhythm in Genesis 1 is to name those things out loud before He rests. When you notice one, you are echoing the Creator who looked over what He made and delighted in it.
+            Somewhere in your day there was a <em>good</em> — a conversation that landed, five minutes of sun on your face, a meal you didn&apos;t rush, the face of someone you love, a small kindness. God&apos;s rhythm in Genesis 1 is to name those things out loud before He rests. When you notice one, you are echoing the Creator who looked over what He made and delighted in it.
           </div>
         </section>
 
