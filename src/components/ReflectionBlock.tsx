@@ -6,7 +6,7 @@ export default function ReflectionBlock({
   studyId,
   id,
   prompt,
-  placeholder = 'Record your thoughts here…',
+  placeholder = 'Record any thoughts here…',
 }: {
   studyId: string;
   id: string;
