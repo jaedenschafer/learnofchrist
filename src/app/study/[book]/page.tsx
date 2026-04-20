@@ -73,23 +73,23 @@ export default async function StudyBookPage({ params }: BookPageProps) {
       <div className="max-w-3xl mx-auto">
         <BreadcrumbNav items={[{ label: 'Study', href: '/study' }, { label: book_obj.name, href: '#' }]} />
 
-        <div className="bg-[color:var(--color-surface)] rounded-3xl p-6 mb-6">
-          <span className={`inline-block text-[0.75rem] font-medium px-3 py-1 rounded-full mb-3 ${
-            book_obj.testament === 'apocrypha'
-              ? 'text-[#AF52DE] bg-[#AF52DE]/[0.08]'
-              : 'text-[color:var(--color-primary)] bg-[#007AFF]/[0.08]'
-          }`}>
-            {book_obj.testament === 'old' ? 'Old Testament' : book_obj.testament === 'apocrypha' ? 'Deuterocanonical' : 'New Testament'}
-          </span>
-          <h1 className="text-3xl sm:text-4xl font-bold text-[color:var(--color-label)] tracking-tight mb-3">{book_obj.name} Study Guide</h1>
-          <p className="text-[0.9375rem] text-[color:var(--color-secondary-label)] leading-relaxed mb-4">{book_obj.description}</p>
-          <div className="flex gap-2 flex-wrap">
-            <span className="text-[0.8125rem] font-medium text-[color:var(--color-primary)] bg-[#007AFF]/[0.08] px-3 py-1 rounded-full">{book_obj.chapters} Chapters</span>
-            <Link href={`/bible/${book}`} className="text-[0.8125rem] font-medium text-[color:var(--color-secondary-label)] bg-[var(--color-bg)] px-3 py-1 rounded-full hover:bg-[color:var(--color-separator)] transition-colors">
-              Just read {book_obj.name} →
+        <header className="study-hero">
+          <p className="study-hero__kicker">
+            <span className={book_obj.testament === 'apocrypha' ? 'study-hero__kicker-apoc' : 'study-hero__kicker-book'}>
+              {book_obj.testament === 'old' ? 'Old Testament' : book_obj.testament === 'apocrypha' ? 'Deuterocanonical' : 'New Testament'}
+            </span>
+            <span className="study-hero__kicker-sep" aria-hidden="true">·</span>
+            <span>{book_obj.chapters} Chapters</span>
+          </p>
+          <h1 className="study-hero__title">{book_obj.name}</h1>
+          <p className="study-hero__dek">{book_obj.description}</p>
+          <div className="study-hero__meta">
+            <Link href={`/bible/${book}`} className="study-hero__meta-link">
+              Read {book_obj.name}
+              <span aria-hidden="true">→</span>
             </Link>
           </div>
-        </div>
+        </header>
 
         <div className="px-1 mb-2">
           <p className="text-[0.8125rem] font-semibold text-[color:var(--color-secondary-label)]">Select a Chapter to Study</p>

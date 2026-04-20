@@ -438,6 +438,90 @@ html[data-reader-theme="dark"] .btn-outline:hover {
   .page-header h1 { font-size: 2.5rem; }
 }
 
+/* ─── Study Hero (Medium-style editorial header) ─── */
+.study-hero {
+  padding: 1.75rem 0 2rem;
+  margin-bottom: 1.25rem;
+  border-bottom: 1px solid var(--color-separator);
+}
+.study-hero__kicker {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-tertiary-label);
+  margin: 0 0 1.25rem;
+}
+.study-hero__kicker-book {
+  color: var(--color-primary);
+}
+.study-hero__kicker-apoc {
+  color: #AF52DE;
+}
+.study-hero__kicker-sep {
+  color: var(--color-tertiary-label);
+  opacity: 0.55;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.study-hero__title {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: clamp(2.25rem, 1.4rem + 3.6vw, 3.75rem);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  color: var(--color-label);
+  margin: 0 0 1rem;
+  text-wrap: balance;
+}
+.study-hero__dek {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: clamp(1.0625rem, 0.85rem + 0.9vw, 1.375rem);
+  line-height: 1.5;
+  color: var(--color-secondary-label);
+  max-width: 38rem;
+  margin: 0 0 1.5rem;
+  text-wrap: pretty;
+}
+.study-hero__meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.8125rem;
+  color: var(--color-tertiary-label);
+}
+.study-hero__meta-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-weight: 500;
+  color: var(--color-secondary-label);
+  transition: color 160ms ease, transform 160ms ease;
+}
+.study-hero__meta-link:hover {
+  color: var(--color-primary);
+}
+.study-hero__meta-link:hover > span[aria-hidden="true"] {
+  transform: translateX(2px);
+}
+.study-hero__meta-link > span[aria-hidden="true"] {
+  transition: transform 160ms ease;
+}
+@media (min-width: 640px) {
+  .study-hero {
+    padding: 2.5rem 0 2.5rem;
+    margin-bottom: 1.75rem;
+  }
+  .study-hero__kicker { margin-bottom: 1.5rem; }
+  .study-hero__title { margin-bottom: 1.25rem; }
+  .study-hero__dek { margin-bottom: 2rem; }
+}
+
 /* ─── CTA Banner ─── */
 .cta-banner {
   position: relative;

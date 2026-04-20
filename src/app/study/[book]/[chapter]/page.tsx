@@ -157,27 +157,28 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
           { label: `Chapter ${chapter}`, href: '#' },
         ]} />
 
-        {/* Header */}
-        <div className="bg-[color:var(--color-surface)] rounded-3xl p-6 mb-4">
-          <div className="flex items-center gap-2 mb-2 flex-wrap">
-            <span className="pill bg-[#007AFF]/[0.08] text-[color:var(--color-primary)]">{book_obj.name}</span>
-            <span className="pill bg-[#5856D6]/[0.08] text-[#5856D6]">Study Guide</span>
-          </div>
-          <h1 className="text-3xl sm:text-4xl font-bold text-[color:var(--color-label)] mb-2">
-            {isGenesisOne ? 'Genesis 1' : `Chapter ${chapter}`}
+        {/* Header — editorial, Medium-style */}
+        <header className="study-hero">
+          <p className="study-hero__kicker">
+            <span className="study-hero__kicker-book">{book_obj.name}</span>
+            <span className="study-hero__kicker-sep" aria-hidden="true">·</span>
+            <span>Study Guide</span>
+          </p>
+          <h1 className="study-hero__title">
+            {isGenesisOne ? 'Genesis 1' : `${book_obj.name} ${chapter}`}
           </h1>
-          <p className="text-base text-[color:var(--color-secondary-label)]">
+          <p className="study-hero__dek">
             {isGenesisOne
               ? 'How God spoke a world into being — and why every word of it still belongs to you.'
               : 'Themes, discussion questions, Christ connections, and denomination lenses.'}
           </p>
-          <Link
-            href={`/bible/${book}/${chapter}`}
-            className="inline-flex items-center gap-1 mt-3 text-[0.8125rem] font-medium text-[color:var(--color-primary)] hover:underline"
-          >
-            Just read this chapter →
-          </Link>
-        </div>
+          <div className="study-hero__meta">
+            <Link href={`/bible/${book}/${chapter}`} className="study-hero__meta-link">
+              Read the chapter
+              <span aria-hidden="true">→</span>
+            </Link>
+          </div>
+        </header>
 
         <StudyFilters />
 
