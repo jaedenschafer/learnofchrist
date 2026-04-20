@@ -16,6 +16,15 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'unauthorized' }, { status: 401 });
   }
 
+  try {
+    return await handle(req);
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : String(err);
+    return NextResponse.json({ error: msg }, { status: 500 });
+  }
+}
+
+async function handle(req: NextRequest) {
   let body: {
     artwork_id?: string;
     decision?: 'approve' | 'reject' | 'flag' | 'reset';

@@ -41,68 +41,105 @@ interface LoadResult {
  * focused. Use /admin/artwork-moderation for the full grid.
  */
 async function loadQueue(): Promise<LoadResult> {
-  // Total artworks (for the "no items to review" breakdown)
-  let totalArtworks = 0;
-  {
-    const { count } = await supabaseAdmin
-      .from('artworks')
-      .select('*', { count: 'exact', head: true });
-    totalArtworks = count || 0;
-  }
+  // The whole thing is wrapped so any thrown error from the Supabase client
+  // (missing env vars, missing view, permission denied, network hiccup)
+  // surfaces as a setup card instead of a 500.
+  try {
+    // Total artworks (for the "no items to review" breakdown)
+    let totalArtworks = 0;
+    {
+      const { count, error: countErr } = await supabaseAdmin
+        .from('artworks')
+        .select('*', { count: 'exact', head: true });
+      if (countErr) {
+        return {
+          items: [],
+          error: countErr.message,
+          setupHint: hintForError(countErr.message),
+          totalArtworks: 0,
+        };
+      }
+      totalArtworks = count || 0;
+    }
 
-  const { data, error } = await supabaseAdmin
-    .from('artwork_moderation_queue')
-    .select(
-      'id, title, slug, image_url, thumbnail_url, moderation_status, moderation_scores, moderation_notes, moderation_reviewed_at, moderation_reviewed_by, report_count, latest_report_at, artist_id',
-    )
-    .or('moderation_status.in.(flagged,pending),report_count.gt.0')
-    .order('latest_report_at', { ascending: false, nullsFirst: false })
-    .order('moderation_status', { ascending: true })
-    .limit(500);
+    const { data, error } = await supabaseAdmin
+      .from('artwork_moderation_queue')
+      .select(
+        'id, title, slug, image_url, thumbnail_url, moderation_status, moderation_scores, moderation_notes, moderation_reviewed_at, moderation_reviewed_by, report_count, latest_report_at, artist_id',
+      )
+      .or('moderation_status.in.(flagged,pending),report_count.gt.0')
+      .order('latest_report_at', { ascending: false, nullsFirst: false })
+      .order('moderation_status', { ascending: true })
+      .limit(500);
 
-  if (error) {
-    console.error('[artwork-review] query failed', error);
-    const msg = error.message || '';
-    // Most likely: migration not run yet
-    if (msg.includes('artwork_moderation_queue') || msg.includes('moderation_status') || msg.includes('does not exist') || msg.includes('column')) {
+    if (error) {
+      console.error('[artwork-review] query failed', error);
       return {
         items: [],
-        error: msg,
-        setupHint:
-          'The moderation tables/view do not exist yet. Run supabase/migrations/001_artwork_moderation.sql in your Supabase SQL editor.',
+        error: error.message || 'Unknown query error',
+        setupHint: hintForError(error.message || ''),
         totalArtworks,
       };
     }
-    return { items: [], error: msg, totalArtworks };
-  }
 
-  const rows = (data || []) as QueueRow[];
-  const artistIds = Array.from(new Set(rows.map((r) => r.artist_id).filter(Boolean) as string[]));
-  const artistMap = new Map<string, string>();
-  if (artistIds.length) {
-    const { data: artists } = await supabaseAdmin
-      .from('artists')
-      .select('id, name')
-      .in('id', artistIds);
-    for (const a of artists || []) artistMap.set(a.id, a.name);
-  }
+    const rows = (data || []) as QueueRow[];
+    const artistIds = Array.from(new Set(rows.map((r) => r.artist_id).filter(Boolean) as string[]));
+    const artistMap = new Map<string, string>();
+    if (artistIds.length) {
+      const { data: artists } = await supabaseAdmin
+        .from('artists')
+        .select('id, name')
+        .in('id', artistIds);
+      for (const a of artists || []) artistMap.set(a.id, a.name);
+    }
 
-  const items = rows.map((r) => ({
-    id: r.id,
-    title: r.title,
-    slug: r.slug,
-    image_url: r.image_url,
-    thumbnail_url: r.thumbnail_url,
-    moderation_status: r.moderation_status,
-    moderation_scores: r.moderation_scores,
-    moderation_notes: r.moderation_notes,
-    moderation_reviewed_at: r.moderation_reviewed_at,
-    moderation_reviewed_by: r.moderation_reviewed_by,
-    report_count: r.report_count || 0,
-    latest_report_at: r.latest_report_at,
-    artist_name: r.artist_id ? artistMap.get(r.artist_id) ?? null : null,
-  }));
-  return { items, totalArtworks };
+    const items = rows.map((r) => ({
+      id: r.id,
+      title: r.title,
+      slug: r.slug,
+      image_url: r.image_url,
+      thumbnail_url: r.thumbnail_url,
+      moderation_status: r.moderation_status,
+      moderation_scores: r.moderation_scores,
+      moderation_notes: r.moderation_notes,
+      moderation_reviewed_at: r.moderation_reviewed_at,
+      moderation_reviewed_by: r.moderation_reviewed_by,
+      report_count: r.report_count || 0,
+      latest_report_at: r.latest_report_at,
+      artist_name: r.artist_id ? artistMap.get(r.artist_id) ?? null : null,
+    }));
+    return { items, totalArtworks };
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : String(err);
+    console.error('[artwork-review] crash', err);
+    return {
+      items: [],
+      error: msg,
+      setupHint: hintForError(msg),
+      totalArtworks: 0,
+    };
+  }
+}
+
+function hintForError(msg: string): string {
+  if (msg.includes('NEXT_PUBLIC_SUPABASE_URL')) {
+    return 'NEXT_PUBLIC_SUPABASE_URL is missing from your environment. Set it in Vercel → Project → Settings → Environment Variables (and redeploy).';
+  }
+  if (msg.includes('SUPABASE_SERVICE_ROLE_KEY')) {
+    return 'SUPABASE_SERVICE_ROLE_KEY is missing. Copy it from your Supabase project → Settings → API → service_role key, then add it in Vercel → Project → Settings → Environment Variables (NOT prefixed with NEXT_PUBLIC_), and redeploy.';
+  }
+  if (
+    msg.includes('artwork_moderation_queue') ||
+    msg.includes('moderation_status') ||
+    msg.includes('does not exist') ||
+    msg.toLowerCase().includes('relation')
+  ) {
+    return 'The moderation tables/view do not exist yet. Open the Supabase SQL editor and run supabase/migrations/001_artwork_moderation.sql once.';
+  }
+  if (msg.toLowerCase().includes('permission') || msg.toLowerCase().includes('rls')) {
+    return 'Supabase returned a permissions error. Make sure you set SUPABASE_SERVICE_ROLE_KEY (not the anon key) in your prod env — the admin queue needs the service-role key to bypass RLS.';
+  }
+  return 'Unknown error. Expand the detail below for the raw message.';
 }
 
 export default async function ArtworkReviewPage() {
