@@ -1,13 +1,14 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { supabaseAdmin } from '@/lib/supabaseAdmin';
-import ReviewList, { type QueueItem } from './review-list';
+import QuickReview from './quick-review';
+import type { QueueItem } from '../artwork-moderation/review-list';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
 
 export const metadata: Metadata = {
-  title: 'Artwork Moderation — Admin',
+  title: 'Quick Review — Admin',
   robots: { index: false, follow: false },
 };
 
@@ -27,17 +28,24 @@ interface QueueRow {
   artist_id: string | null;
 }
 
+/**
+ * Loads only the items that need eyes — flagged, pending, or reported.
+ * Excludes already-approved/rejected so the quick-review flow stays
+ * focused. Use /admin/artwork-moderation for the full grid.
+ */
 async function loadQueue(): Promise<QueueItem[]> {
   const { data, error } = await supabaseAdmin
     .from('artwork_moderation_queue')
     .select(
       'id, title, slug, image_url, thumbnail_url, moderation_status, moderation_scores, moderation_notes, moderation_reviewed_at, moderation_reviewed_by, report_count, latest_report_at, artist_id',
     )
+    .or('moderation_status.in.(flagged,pending),report_count.gt.0')
     .order('latest_report_at', { ascending: false, nullsFirst: false })
     .order('moderation_status', { ascending: true })
     .limit(500);
+
   if (error) {
-    console.error('[artwork-moderation] query failed', error);
+    console.error('[artwork-review] query failed', error);
     return [];
   }
 
@@ -69,55 +77,60 @@ async function loadQueue(): Promise<QueueItem[]> {
   }));
 }
 
-export default async function ArtworkModerationPage() {
+export default async function ArtworkReviewPage() {
   const items = await loadQueue();
   return (
     <div style={{ background: '#F5F5F7', minHeight: '100vh' }}>
       <header
         style={{
-          padding: '24px 20px 0',
-          maxWidth: 1100,
+          maxWidth: 880,
           margin: '0 auto',
+          padding: '20px 16px 8px',
+          display: 'flex',
+          alignItems: 'baseline',
+          justifyContent: 'space-between',
+          gap: 12,
+          flexWrap: 'wrap',
         }}
       >
-        <p
-          style={{
-            fontSize: 11,
-            fontWeight: 700,
-            letterSpacing: '0.12em',
-            textTransform: 'uppercase',
-            color: '#86868B',
-            margin: 0,
-          }}
-        >
-          Admin
-        </p>
-        <h1
-          style={{
-            fontSize: 28,
-            fontWeight: 700,
-            color: '#1D1D1F',
-            margin: '4px 0 6px',
-            letterSpacing: '-0.01em',
-          }}
-        >
-          Artwork moderation
-        </h1>
-        <p style={{ fontSize: 14, color: '#48484A', margin: 0, maxWidth: 640 }}>
-          Flagged, reported, or pending artwork awaiting review. Only items
-          marked <strong>Approved</strong> show up to readers. Paste your
-          ADMIN_API_KEY below to unlock actions. For a fast one-at-a-time
-          flow, use{' '}
-          <Link
-            href="/admin/artwork-review"
-            style={{ color: '#007AFF', textDecoration: 'none', fontWeight: 600 }}
+        <div>
+          <p
+            style={{
+              fontSize: 11,
+              fontWeight: 700,
+              letterSpacing: '0.12em',
+              textTransform: 'uppercase',
+              color: '#86868B',
+              margin: 0,
+            }}
           >
-            Quick Review
-          </Link>
-          .
-        </p>
+            Admin
+          </p>
+          <h1
+            style={{
+              fontSize: 22,
+              fontWeight: 700,
+              color: '#1D1D1F',
+              margin: '2px 0 0',
+              letterSpacing: '-0.01em',
+            }}
+          >
+            Quick review
+          </h1>
+        </div>
+        <Link
+          href="/admin/artwork-moderation"
+          style={{
+            fontSize: 13,
+            color: '#007AFF',
+            textDecoration: 'none',
+            fontWeight: 600,
+          }}
+        >
+          Full queue →
+        </Link>
       </header>
-      <ReviewList items={items} />
+      <QuickReview items={items} />
     </div>
   );
 }

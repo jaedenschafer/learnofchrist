@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 export interface QueueItem {
   id: string;
@@ -32,6 +32,20 @@ export default function ReviewList({ items }: { items: QueueItem[] }) {
   const [filter, setFilter] = useState<Filter>('flagged');
   const [adminKey, setAdminKey] = useState('');
   const [busy, setBusy] = useState<string | null>(null);
+
+  // Restore cached admin key + persist as it changes
+  useEffect(() => {
+    try {
+      const k = localStorage.getItem('loc-admin-key');
+      if (k) setAdminKey(k);
+    } catch {}
+  }, []);
+  useEffect(() => {
+    try {
+      if (adminKey) localStorage.setItem('loc-admin-key', adminKey);
+    } catch {}
+  }, [adminKey]);
+
   const [localStatuses, setLocalStatuses] = useState<Record<string, QueueItem['moderation_status']>>({});
 
   const effective = (it: QueueItem): QueueItem['moderation_status'] =>
