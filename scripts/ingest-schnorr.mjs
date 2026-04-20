@@ -183,9 +183,7 @@ async function main() {
       artist_id: artist.id,
       year: p.year,
       medium: 'Wood engraving',
-      // TODO: flip to 'schnorr' after supabase/migrations/004_art_source_schnorr.sql
-      // has been applied (that migration also re-UPDATEs these rows).
-      source: 'other_public_domain',
+      source: 'schnorr',
       source_url: sourceUrl,
       external_id: p.wikimediaFile,
       image_url: imageUrl,

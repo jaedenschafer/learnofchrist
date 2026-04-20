@@ -1,6 +1,7 @@
 // Schnorr von Carolsfeld — Die Bibel in Bildern (1860)
-// 240 woodcuts in the original book; 235 numbered plates available on Wikimedia Commons.
-// Plates 236-240 (Revelation) were published in the book but are not currently on Commons.
+// 240 woodcuts in the original book; 237 numbered plates now available on Wikimedia Commons
+// (plates 236 and 237 — the Seven Candlesticks and Four Horsemen — uploaded after initial ingest).
+// Plates 238-240 (final Revelation scenes) are still not on Commons as of April 2026.
 
 export type SchnorrPlate = {
   externalId: string;
@@ -2599,5 +2600,27 @@ export const SCHNORR_PLATES: SchnorrPlate[] = [
     verseStart: 11,
     verseEnd: 31,
     sceneSlug: 'apostles',
+  },
+  {
+    externalId: 'schnorr-236-vision-of-the-seven-candlesticks',
+    title: 'The Vision of the Seven Candlesticks',
+    wikimediaFile: 'Schnorr von Carolsfeld Bibel in Bildern 1860 236.png',
+    year: 1860,
+    bookSlug: 'revelation',
+    chapter: 1,
+    verseStart: 12,
+    verseEnd: 20,
+    sceneSlug: 'apocalypse',
+  },
+  {
+    externalId: 'schnorr-237-four-horsemen-of-the-apocalypse',
+    title: 'The Four Horsemen of the Apocalypse',
+    wikimediaFile: 'Schnorr von Carolsfeld Bibel in Bildern 1860 237.png',
+    year: 1860,
+    bookSlug: 'revelation',
+    chapter: 6,
+    verseStart: 1,
+    verseEnd: 8,
+    sceneSlug: 'apocalypse',
   },
 ];
