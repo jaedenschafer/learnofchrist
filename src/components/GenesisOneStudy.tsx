@@ -259,7 +259,7 @@ export default function GenesisOneStudy() {
             label="Share"
             content={{
               quote: 'How God spoke a world into being — and why every word of it still belongs to you.',
-              snippet: 'A deep study guide to Genesis 1: themes, Christ connections, and commitments you can carry this week.',
+              snippet: 'A deep study guide to Genesis 1: themes, Christ connections, and ideas to sit with this week.',
               ref: 'Genesis 1 · Study Guide',
               variant: 'insight',
               sourceUrl: (typeof window !== 'undefined' ? window.location.origin : 'https://learnofchrist.com') + '/study/genesis/1',
@@ -297,7 +297,7 @@ export default function GenesisOneStudy() {
             the heaven and the earth.
           </ScriptureBlock>
           <p id="c-bara">
-            God is not argued for — He is simply already there. The Hebrew verb for &ldquo;created&rdquo; is <em>bara&apos;</em>, used only with God as its subject. Humans can make, shape, fashion; only God <em>bara&apos;</em>s — brings into being something that was not.
+            God is not argued for — He is simply already there. The Hebrew verb for &ldquo;created&rdquo; is <em>bara&apos;</em>, a word whose subject is almost always God. But Genesis 1 uses a second verb alongside it — <em>asah</em>, &ldquo;to make, fashion, work&rdquo; — and the two trade places freely across the chapter. The sun and stars are <em>asah&apos;d</em> in verse 16; humanity is <em>bara&apos;d</em> three times in verse 27; the finished creation as a whole is both <em>bara&apos;d</em> and <em>asah&apos;d</em> in Genesis 2:3. Moses even uses <em>bara&apos;</em> when male and female humanity are made together (Gen. 5:2), though we are told Eve was fashioned from Adam&apos;s side. So <em>bara&apos;</em> does not strictly mean &ldquo;create from nothing,&rdquo; and <em>asah</em> is not a lesser word — both verbs describe God making ex nihilo and God shaping what He had already called into being. Genesis cares less about the mechanism than about the Maker: He spoke, and what was not became what is.
           </p>
           <div className="christ" id="christ-word">
             <span className="title">Christ Connection — The Word at Creation</span>
@@ -329,7 +329,7 @@ export default function GenesisOneStudy() {
             Into that unfinished place, the Spirit of God is already <em>moving</em>. The Hebrew verb is used elsewhere of an eagle fluttering over its young (Deut. 32:11). God is tender over the chaos before He ever speaks.
           </p>
           <div className="carry">
-            The job that fell through, the relationship you don&apos;t know how to fix, the anxiety that won&apos;t settle, the version of yourself you can&apos;t seem to assemble — if something in your life looks like <em>tohu wa-bohu</em>, shapeless and dark and not yet livable, that is exactly where God&apos;s Spirit has always worked. He did not wait for the chaos to organize itself. He moved over it first.
+            If anything in your life feels a little like <em>tohu wa-bohu</em> right now — shapeless, dim, not yet settled — the very first act of God in the Bible is to hover over a place exactly like that. The Spirit doesn&apos;t wait for the waters to calm. He is already moving, tender as an eagle over its young. Whatever part of your story still looks unformed is not outside His care; it is where He is most at home.
           </div>
         </section>
 
@@ -372,7 +372,7 @@ export default function GenesisOneStudy() {
             The Hebrew word for &ldquo;divided&rdquo; (<em>havdil</em>) is the priestly word for distinguishing the holy from the common. The first priestly act in the Bible is God&apos;s own — and every act of separation God makes through the rest of the chapter flows from this one.
           </p>
           <div className="carry">
-            When God starts to work in a life, the first gift is rarely a flood of sun. It is a line: <em>this is not that.</em> Work hours from family hours. Scrolling from presence. Noise from silence. The voice of the Spirit from the voice of the crowd. Before God fills a life, He almost always starts by dividing one.
+            Before God ever fills a life, He very often begins with a line — <em>this is not that.</em> A priestly kind of separation, the text calls it. Looking back, you can almost always see them in your own story: a season when something quietly got named, a difference that finally became clear, a space that gently opened. Every such line has been His work. The ones you may be sensing now are probably His too.
           </div>
         </section>
 
@@ -458,7 +458,7 @@ export default function GenesisOneStudy() {
             Three times in the Hebrew: seed, seed, seed. Jesus takes that image and makes it His own: &ldquo;Except a corn of wheat fall into the ground and die, it abideth alone: but if it die, it bringeth forth much fruit&rdquo; (John 12:24). The whole logic of day three — a seed holding life inside itself, buried in the ground, producing more than itself — is the logic of the cross and the empty tomb.
           </div>
           <div className="carry">
-            Your spreadsheet, your sermon, your painting, your business, your kids&apos; homework help, the meal you cooked tonight — none of these are competitions with God. They are echoes of day three: the ground bringing forth what God has placed inside it. You are not &ldquo;too busy doing ordinary things&rdquo; to be spiritual. Doing ordinary things well, with a seed He gave you, <em>is</em> spiritual.
+            Your spreadsheet, your sermon, your painting, your business, the meal you cooked tonight, the homework you helped with — none of these compete with God. They are echoes of day three: the ground bringing forth what He first planted in it. Ordinary work, done with a seed He gave you, <em>is</em> spiritual. Whatever small good thing came out of you today was already the earth obeying Him.
           </div>
         </section>
 
@@ -513,7 +513,7 @@ export default function GenesisOneStudy() {
             The final prophet of the Old Testament calls the coming Messiah &ldquo;the Sun of righteousness… with healing in his wings&rdquo; (Mal. 4:2). The final page of the New Testament has Jesus say, &ldquo;I am the root and the offspring of David, and the bright and morning star&rdquo; (Rev. 22:16). The sun and stars on day four are placeholders. The Light they point to eventually shows up in person — and when He does, the light of sun and stars becomes unnecessary: &ldquo;and the city had no need of the sun… for the Lamb is the light thereof&rdquo; (Rev. 21:23).
           </div>
           <div className="carry">
-            The world still asks you to worship the lights — headlines, metrics, the algorithm, the number of followers, the doctor&apos;s scan, the balance in the account. They are useful. They are not God. Today, notice what you check first in the morning. That is the light you are asking to rule your day.
+            Sun and moon were made to mark the rhythms of your days — useful, beautiful, limited. Lamps, not gods. The real Light behind them is the same voice that said <em>let there be light</em> on day one and later walked into the world as Jesus. When the headlines and metrics and everyday pressures feel like they&apos;re pulling your whole sky around, it can be steadying to remember: those are lamps. The Light they point to has a face, and He is always shining.
           </div>
         </section>
 
@@ -554,7 +554,7 @@ export default function GenesisOneStudy() {
             The first blessing in the Bible is spoken over a fish and a bird. Before humanity exists, God is blessing living things — not as a reward, but as the gift of life&apos;s capacity to keep going. There are exactly three blessings in the Genesis creation account: creatures, humans, and the seventh day. Blessing is not an afterthought in the Bible. It is the architecture of creation.
           </p>
           <div className="carry">
-            Step outside today, even for three minutes. Put the phone in your pocket. Look at one living thing — a bird at the feeder, the tree out front, your kid, your dog — and agree out loud with the Creator: &ldquo;It is good.&rdquo; This is not a small practice. It is how the first chapter of the Bible teaches you to see.
+            The first blessing in the Bible is spoken over a bird and a fish. Before God even makes us, He is already delighting in small living things. A minute outside — a sparrow at the feeder, a tree leafing out, the face of someone you love — is a chance to simply agree with Him: &ldquo;it is good.&rdquo; No task, no program. Just the oldest kind of prayer there is.
           </div>
         </section>
 
@@ -630,7 +630,7 @@ export default function GenesisOneStudy() {
             Genesis says humanity is the image of God. Paul goes further and says Jesus <em>is</em> &ldquo;the image of the invisible God&rdquo; (Col. 1:15), and that we are being &ldquo;conformed to the image of his Son&rdquo; (Rom. 8:29). The image was cracked in Eden; Christ is the unbroken Image, the Second Adam (1 Cor. 15:45), and salvation is not only forgiveness — it is being restored to look like Him. Day six was always pointing at Jesus.
           </div>
           <div className="carry">
-            Every person you see today is an image of God — the coworker who drains you, the cashier at the grocery store, the driver who cut you off, the kid melting down in aisle five, the face in the mirror. You cannot scroll past an image of God without consequences to your own soul. Treat them accordingly.
+            Every face you pass today is a living image God set up in His world — the coworker, the cashier, the driver, the kid in aisle five, the face in the mirror. The revolutionary claim of Genesis 1 is that <em>every one of them</em> carries His image, not only the powerful or the holy. Whatever love and patience you&apos;ve ever shown one of them has been, quietly, a kind of worship.
           </div>
         </section>
 
@@ -664,7 +664,7 @@ export default function GenesisOneStudy() {
             Count the word &ldquo;good&rdquo; across Genesis 1 and you get seven — the Bible&apos;s number for completeness. For five days God calls His work &ldquo;good.&rdquo; On the sixth He looks at the whole thing and says something new: <em>very good.</em> The Bible begins with a Creator delighting in what He has made.
           </p>
           <div className="carry">
-            Tonight, before you sleep, stop scrolling and look back over your day. Find one or two small things — the coffee that was right, the conversation that landed, the five minutes of sun — and say it out loud: &ldquo;It was good.&rdquo; You are practicing the oldest rhythm in the Bible. God named His work good before He rested. So can you.
+            Somewhere in your day there was a <em>good</em> — the coffee that was right, a conversation that landed, five minutes of sun, a small kindness. God&apos;s rhythm in Genesis 1 is to name those things out loud before He rests. When you notice one, you are echoing the Creator who looked over what He made and delighted in it.
           </div>
         </section>
 
@@ -723,7 +723,7 @@ export default function GenesisOneStudy() {
             God&apos;s rest on day seven is the one day in Genesis 1 that has no &ldquo;evening and morning.&rdquo; It is left open. Hebrews picks that up: &ldquo;There remaineth therefore a rest to the people of God&rdquo; (Heb. 4:9). Jesus steps into that open seventh day and says, &ldquo;Come unto me, all ye that labour and are heavy laden, and I will give you rest&rdquo; (Matt. 11:28). Creation ends with an invitation — an unfinished day waiting for us to enter it through Him.
           </div>
           <div className="carry">
-            Pick a day this week. Pick a start time and a stop time. Tell the people you live with. Put the laptop away. Leave the email unanswered. Eat slowly. Read Scripture. Nap without guilt. Go to church. A day of rest is an act of faith that the world is not yours to finish — and the God who finished creation in six days is inviting you into His seventh.
+            Rest in Genesis is not collapse; it is a king taking his throne. The seventh day is left open in the text — no evening and morning, no closing phrase — as if waiting for you to step into it. Whatever shape rest takes in your week, time with God and with the people you love is not time subtracted from real life. It is the place where real life actually begins.
           </div>
         </section>
 

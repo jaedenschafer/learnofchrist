@@ -353,7 +353,7 @@ html.js .rich-study .scripture.visible mark {
   color: #2E3A28;
 }
 .rich-study .carry::before {
-  content: "Carry this";
+  content: "A thought to sit with";
   display: block;
   font-family: var(--font-sans);
   font-style: normal;
