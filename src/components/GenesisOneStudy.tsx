@@ -524,7 +524,7 @@ export default function GenesisOneStudy() {
             The final prophet of the Old Testament calls the coming Messiah &ldquo;the Sun of righteousness… with healing in his wings&rdquo; (Mal. 4:2). The final page of the New Testament has Jesus say, &ldquo;I am the root and the offspring of David, and the bright and morning star&rdquo; (Rev. 22:16). The sun and stars on day four are placeholders. The Light they point to eventually shows up in person — and when He does, the light of sun and stars becomes unnecessary: &ldquo;and the city had no need of the sun… for the Lamb is the light thereof&rdquo; (Rev. 21:23).
           </div>
           <div className="carry">
-            Sun and moon were made to mark the rhythms of your days — useful, beautiful, limited. Lamps, not gods. The real Light behind them is the same voice that said <em>let there be light</em> on day one and later walked into the world as Jesus. When the headlines and metrics and everyday pressures feel like they&apos;re pulling your whole sky around, it can be steadying to remember: those are lamps. The Light they point to has a face, and He is always shining.
+            Genesis demotes the sun and moon to lamps — and the things that keep taking over your life can be demoted too. The career that decides your mood. The phone that dictates where your attention goes. The person you can&apos;t imagine losing. The news cycle that pulls your whole day around. Pick one today and call it what Genesis calls the sun: a lamp. Useful, sometimes. Beautiful, sometimes. Not God. Jesus is the Light all of them were always pointing to — and only He belongs at the center of your sky.
           </div>
         </section>
 
