@@ -184,9 +184,7 @@ async function main() {
       artist_id: artist.id,
       year: p.year,
       medium: p.medium,
-      // TODO: flip to 'rembrandt' after supabase/migrations/006_art_source_rembrandt.sql
-      // has been applied (that migration also re-UPDATEs these rows).
-      source: 'other_public_domain',
+      source: 'rembrandt',
       source_url: sourceUrl,
       external_id: p.wikimediaFile,
       image_url: imageUrl,
