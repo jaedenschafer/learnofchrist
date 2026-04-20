@@ -122,8 +122,7 @@ async function main() {
       artist_id: artist.id,
       year: p.year,
       medium: p.medium,
-      // TODO: flip to 'tissot' after supabase/migrations/007_art_source_tissot.sql applies.
-      source: 'other_public_domain',
+      source: 'tissot',
       source_url: sourceUrl,
       external_id: p.wikimediaFile,
       image_url: imageUrl,
