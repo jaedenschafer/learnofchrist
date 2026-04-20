@@ -92,7 +92,21 @@
   font-weight: 500;
   font-style: italic;
   margin-top: -0.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+.rich-study .kjv-note {
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: #6E6E73;
+  background: rgba(120, 120, 128, 0.06);
+  border-left: 2px solid rgba(120, 120, 128, 0.35);
+  border-radius: 6px;
+  padding: 10px 14px;
+  margin: 0 0 2rem;
+}
+.rich-study .kjv-note strong {
+  color: var(--ink);
+  font-weight: 600;
 }
 
 .rich-study .divider {
@@ -1339,6 +1353,7 @@ html.js .rich-study .scripture.visible mark {
 .rich-study.is-focus .reflection-block,
 .rich-study.is-focus .intro,
 .rich-study.is-focus .tap-hint,
+.rich-study.is-focus .kjv-note,
 .rich-study.is-focus .divider,
 .rich-study.is-focus .study-top-actions,
 .rich-study.is-focus .study-top-share,
@@ -1455,6 +1470,12 @@ html[data-reader-theme="dark"] .rich-study .page-title { color: #F5F5F7; }
 html[data-reader-theme="dark"] .rich-study .subtitle { color: #AEAEB2; }
 html[data-reader-theme="dark"] .rich-study .intro { color: #D1D1D6; }
 html[data-reader-theme="dark"] .rich-study .tap-hint { color: #AEAEB2; font-weight: 500; }
+html[data-reader-theme="dark"] .rich-study .kjv-note {
+  color: #AEAEB2;
+  background: rgba(142, 142, 147, 0.12);
+  border-left-color: rgba(142, 142, 147, 0.45);
+}
+html[data-reader-theme="dark"] .rich-study .kjv-note strong { color: #F5F5F7; }
 html[data-reader-theme="dark"] .rich-study .divider { color: #3A3A3C; }
 
 html[data-reader-theme="dark"] .rich-study h2.section {
