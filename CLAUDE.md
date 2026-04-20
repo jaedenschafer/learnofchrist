@@ -35,3 +35,22 @@ in `docs/study-guide-authoring-rules.md`.
   `src/data/chapters/*.ts` (aggregated by `src/data/chapter-content.ts`).
 - The Denomination Lens (`src/lib/DenominationContext.tsx`) is where
   tradition-specific framing belongs — NOT the base commentary.
+- Environment variables live in `.env.local`; see `.env.local.example`
+  for the required + optional keys.
+
+## Artwork moderation pipeline
+
+All chapter artworks go through a moderation gate before they surface
+to readers. Only `moderation_status = 'approved'` artworks render.
+
+- Migration: `supabase/migrations/001_artwork_moderation.sql`
+- Library: `src/lib/moderation/*` (OpenAI + AWS Rekognition providers,
+  rules engine with high-risk-chapter overrides)
+- Admin UI: `/admin/artwork-moderation` (paste `ADMIN_API_KEY` to act)
+- Admin API: `/api/admin/moderate-artwork`, `/api/admin/artwork-review`
+- User report: `/api/report-artwork` + `ReportArtworkButton`
+- Bulk runner: `node scripts/moderate-all-artworks.mjs`
+
+**Auto-approval is impossible by design.** The rules engine can only
+move images to `pending`, `flagged`, or `rejected`. A human must click
+Approve in the admin UI before anything reaches the feed.
