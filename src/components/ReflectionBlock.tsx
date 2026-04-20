@@ -6,7 +6,7 @@ export default function ReflectionBlock({
   studyId,
   id,
   prompt,
-  placeholder = 'Record any thoughts from these verses here…',
+  placeholder = 'Record your thoughts here…',
 }: {
   studyId: string;
   id: string;
@@ -22,7 +22,7 @@ export default function ReflectionBlock({
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
           <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v18m-6-6a6 6 0 0112 0M7 7h.01M17 7h.01" />
         </svg>
-        <span className="reflection-label">Idea for Reflection</span>
+        <span className="reflection-label">Ideas for Reflection</span>
       </div>
       <p className="reflection-prompt">{prompt}</p>
       <textarea

@@ -48,13 +48,13 @@ export default function HebrewAudio({
       const full = translitEl.textContent?.trim() || '';
       const word = strongText || full.split(/[·•-]/)[0].trim();
       if (!word) continue;
-      // Create a mount node next to the script. Prepend (not append) because
-      // `.script` is `direction: rtl`, so in bidi flow the logical-first child
-      // renders at the visual-right — giving us "icon to the right of the
-      // Hebrew word" as the user expects.
+      // Create a mount node and append it as the last child of `.script`.
+      // `.script` uses `display: flex; justify-content: center` so the
+      // Hebrew text and the mount render side-by-side, with the mount
+      // always to the right of the text regardless of bidi quirks.
       const mount = document.createElement('span');
       mount.className = 'hebrew-audio-mount';
-      script.prepend(mount);
+      script.appendChild(mount);
       out.push({ anchor: mount, word, full });
     }
     setMounts(out);
