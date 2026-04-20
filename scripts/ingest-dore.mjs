@@ -106,10 +106,23 @@ function wikimediaSourceUrl(filename) {
   return `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(filename)}`;
 }
 
-async function verifyImageExists(url) {
+const WIKI_UA = 'LearnOfChrist/1.0 (https://learnofchrist.com; contact: podcaststudioaz@gmail.com)';
+
+async function verifyImageExists(url, attempt = 0) {
   try {
-    const res = await fetch(url, { method: 'HEAD', redirect: 'follow' });
-    return res.ok;
+    const res = await fetch(url, {
+      method: 'HEAD',
+      redirect: 'follow',
+      headers: { 'User-Agent': WIKI_UA },
+    });
+    if (res.ok) return true;
+    // Wikimedia rate-limits Special:FilePath aggressively on bursts. Back off and retry.
+    if (res.status === 429 && attempt < 4) {
+      const backoff = 1500 * Math.pow(2, attempt); // 1.5s, 3s, 6s, 12s
+      await new Promise((r) => setTimeout(r, backoff));
+      return verifyImageExists(url, attempt + 1);
+    }
+    return false;
   } catch {
     return false;
   }
@@ -163,19 +176,28 @@ async function main() {
   const verifiedArtworks = [];
   const skipped = [];
 
+  // Filenames are pre-verified via the MediaWiki API at build time
+  // (see scripts/verify-dore-filenames.mjs). We skip the per-file HEAD check
+  // because Wikimedia aggressively rate-limits Special:FilePath on bursts,
+  // which blew up the ingestion with spurious 429s. SKIP_VERIFY=1 is the
+  // default; set to 0 to restore the original behavior.
+  const SKIP_VERIFY = process.env.SKIP_VERIFY !== '0';
+
   for (const eng of engravings) {
     const imageUrl = wikimediaImageUrl(eng.wikimediaFile);
     const thumbnailUrl = wikimediaThumbUrl(eng.wikimediaFile);
     const sourceUrl = wikimediaSourceUrl(eng.wikimediaFile);
 
-    process.stdout.write(`   ${eng.externalId.padEnd(48)}`);
-    const ok = await verifyImageExists(imageUrl);
-    if (!ok) {
-      console.log(' ✗ (image not found on Wikimedia)');
-      skipped.push(eng);
-      continue;
+    if (!SKIP_VERIFY) {
+      process.stdout.write(`   ${eng.externalId.padEnd(48)}`);
+      const ok = await verifyImageExists(imageUrl);
+      if (!ok) {
+        console.log(' ✗ (image not found on Wikimedia)');
+        skipped.push(eng);
+        continue;
+      }
+      console.log(' ✓');
     }
-    console.log(' ✓');
 
     verifiedArtworks.push({
       slug: eng.externalId,
