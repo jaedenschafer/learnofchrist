@@ -136,23 +136,34 @@ export default function GenesisOneStudy() {
       });
     });
 
-    // Reveal highlights when a verse-section takes the sticky slot at the top
+    // Reveal highlights when a verse-section has settled into the reader's
+    // comfortable reading zone — roughly halfway up the viewport. This is
+    // intentionally later than "first entry from the bottom" so the highlight
+    // animation fires at the moment the user is actually about to read the
+    // verse, not the moment it peeks into view.
     const isMobile = window.matchMedia('(max-width: 640px)').matches;
-    // Sticky top is 72px desktop / 60px mobile — this is our reveal trigger line.
     const stickyTop = isMobile ? 60 : 72;
-    const triggerLine = stickyTop + 24;
+    // Fraction of viewport height at which a section's top triggers reveal.
+    // 0.5 = halfway up the viewport. On a 900px window, that's 450px down —
+    // the natural reading position.
+    const HIGHLIGHT_TRIGGER_FRACTION = 0.5;
 
     const sections = Array.from(
       document.querySelectorAll<HTMLElement>('.rich-study .verse-section')
     );
 
     const checkSections = () => {
+      const vh = window.innerHeight;
+      const highlightTrigger = vh * HIGHLIGHT_TRIGGER_FRACTION;
       sections.forEach((section) => {
         const scripture = section.querySelector<HTMLElement>('.scripture');
         if (!scripture) return;
         const rect = section.getBoundingClientRect();
         if (!scripture.classList.contains('visible')) {
-          if (rect.top <= triggerLine && rect.bottom > 0) {
+          // Fire the highlight once the section's top has scrolled up to the
+          // reading-zone trigger line, or once the section has been scrolled
+          // past entirely (so fast-scrollers don't miss it).
+          if (rect.top <= highlightTrigger && rect.bottom > 0) {
             scripture.classList.add('visible');
           } else if (rect.bottom <= 0) {
             scripture.classList.add('visible');

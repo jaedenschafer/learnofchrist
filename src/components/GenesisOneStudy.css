@@ -1269,10 +1269,15 @@ html.js .rich-study .scripture.visible mark {
 }
 
 /* ── Hebrew speaker icon ── */
+/* `.script` is `direction: rtl`; HebrewAudio.tsx prepends the mount so it
+   visually sits to the right of the Hebrew word. Margin-left renders as
+   the gap between the icon and the Hebrew text. `direction: ltr` keeps
+   the button/SVG laid out LTR inside the RTL parent. */
 .rich-study .hebrew-audio-mount {
   display: inline-flex;
   vertical-align: middle;
-  margin-left: 0.45rem;
+  margin-left: 0.7rem;
+  direction: ltr;
 }
 .rich-study .hebrew-audio-btn {
   appearance: none;
