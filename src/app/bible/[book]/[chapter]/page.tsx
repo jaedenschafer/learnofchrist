@@ -1,13 +1,25 @@
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 import type { Metadata } from 'next';
 import { getAllBooks, getBookByName } from '@/data/books';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 import ChapterNav from '@/components/ChapterNav';
-import ReadingFilters from '@/components/ReadingFilters';
 import VerseDisplay from '@/components/VerseDisplay';
 import StudyBanner from '@/components/StudyBanner';
 import { getVerses } from '@/lib/supabase';
 import { verseExplanations } from '@/data/verse-explanations';
+
+// The filters bar is a client-side control strip — keep it out of the initial
+// HTML payload so the verse list paints sooner.
+const ReadingFilters = dynamic(() => import('@/components/ReadingFilters'), {
+  loading: () => <div className="h-12" aria-hidden="true" />,
+});
+
+// ─── ISR ───
+// Cache pages for 24h; regenerate in background after that.
+export const revalidate = 86400;
+// Allow routes not in generateStaticParams to be generated on-demand with ISR.
+export const dynamicParams = true;
 
 interface ChapterPageProps {
   params: Promise<{ book: string; chapter: string }>;

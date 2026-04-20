@@ -2,6 +2,10 @@ import Link from 'next/link';
 import SearchBar from '@/components/SearchBar';
 import { getAllQuestions } from '@/data/questions';
 
+// ─── ISR ───
+// Cache pages for 24h; regenerate in background after that.
+export const revalidate = 86400;
+
 export const metadata = {
   title: 'Questions - Learn of Christ',
   description: 'Find answers to common questions about Jesus, the Bible, faith, and living as a Christian.',

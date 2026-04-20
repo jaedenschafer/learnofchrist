@@ -1,15 +1,33 @@
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 import type { Metadata } from 'next';
 import { getAllBooks, getBookByName } from '@/data/books';
 import { getChapterContent } from '@/data/chapter-content';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 import ChapterNav from '@/components/ChapterNav';
-import StudyFilters from '@/components/StudyFilters';
 import VerseDisplay from '@/components/VerseDisplay';
 import StudyGuide from '@/components/StudyGuide';
-import GenesisOneStudy from '@/components/GenesisOneStudy';
 import { getVerses } from '@/lib/supabase';
 import { verseExplanations } from '@/data/verse-explanations';
+
+// Code-split client-only UI: the filters bar renders below the hero, and the
+// heavy Genesis 1 deep-dive isn't needed on any other chapter.
+const StudyFilters = dynamic(() => import('@/components/StudyFilters'), {
+  loading: () => <div className="h-12" aria-hidden="true" />,
+});
+const GenesisOneStudy = dynamic(() => import('@/components/GenesisOneStudy'), {
+  loading: () => (
+    <div className="py-16 text-center text-[color:var(--color-tertiary-label)]">
+      Loading study guide…
+    </div>
+  ),
+});
+
+// ─── ISR ───
+// Cache pages for 24h; regenerate in background after that.
+export const revalidate = 86400;
+// Allow routes not in generateStaticParams to be generated on-demand with ISR.
+export const dynamicParams = true;
 
 interface ChapterPageProps {
   params: Promise<{ book: string; chapter: string }>;

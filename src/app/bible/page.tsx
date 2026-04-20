@@ -2,6 +2,10 @@ import Link from 'next/link';
 import { getOldTestamentBooks, getNewTestamentBooks, getApocryphaBooks } from '@/data/books';
 import BookGrid from '@/components/BookGrid';
 
+// ─── ISR ───
+// Cache pages for 24h; regenerate in background after that.
+export const revalidate = 86400;
+
 export const metadata = {
   title: 'Read the Bible Online — All 72 Books, 8 Translations | Learn of Christ',
   description: 'Read every chapter of the Bible online. Switch between 8 translations including KJV, JST, NWT, BSB, ASV, WEB, LSV, and DRA. Each chapter links to a deep study guide.',

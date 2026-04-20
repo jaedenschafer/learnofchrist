@@ -1,7 +1,11 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import ShareMenu, { type ShareContent } from './ShareMenu';
+import dynamic from 'next/dynamic';
+import type { ShareContent } from './ShareMenu';
+
+// ShareMenu is only mounted after a user interaction — defer the bundle.
+const ShareMenu = dynamic(() => import('./ShareMenu'), { ssr: false });
 
 /**
  * Attaches right-click / long-press handlers to every <mark> inside the

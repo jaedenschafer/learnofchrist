@@ -1,6 +1,10 @@
 import { getAllTopics } from '@/data/topics';
 import TopicCard from '@/components/TopicCard';
 
+// ─── ISR ───
+// Cache pages for 24h; regenerate in background after that.
+export const revalidate = 86400;
+
 export const metadata = {
   title: 'Topics - Learn of Christ',
   description: 'Explore biblical topics including faith, grace, love, forgiveness, peace, and more.',

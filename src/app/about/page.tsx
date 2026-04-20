@@ -1,5 +1,9 @@
 import Link from 'next/link';
 
+// ─── ISR ───
+// Cache pages for 24h; regenerate in background after that.
+export const revalidate = 86400;
+
 export const metadata = {
   title: 'About - Learn of Christ',
   description: 'Learn about our mission to help people deepen their understanding of Jesus Christ through scripture study.',

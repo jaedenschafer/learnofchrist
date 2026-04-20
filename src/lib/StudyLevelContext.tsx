@@ -1,6 +1,14 @@
 'use client';
 
-import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useState,
+  type ReactNode,
+} from 'react';
 
 export type StudyLevel = 'beginner' | 'intermediate' | 'deep';
 
@@ -32,13 +40,17 @@ export function StudyLevelProvider({ children }: { children: ReactNode }) {
     }
   }, []);
 
-  const setLevel = (newLevel: StudyLevel) => {
+  const setLevel = useCallback((newLevel: StudyLevel) => {
     setLevelState(newLevel);
-    localStorage.setItem(STORAGE_KEY, newLevel);
-  };
+    try {
+      localStorage.setItem(STORAGE_KEY, newLevel);
+    } catch {}
+  }, []);
+
+  const value = useMemo(() => ({ level, setLevel }), [level, setLevel]);
 
   return (
-    <StudyLevelContext.Provider value={{ level, setLevel }}>
+    <StudyLevelContext.Provider value={value}>
       {children}
     </StudyLevelContext.Provider>
   );

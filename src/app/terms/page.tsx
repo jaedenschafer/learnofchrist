@@ -1,3 +1,7 @@
+// ─── ISR ───
+// Static page — cache for a week.
+export const revalidate = 604800;
+
 export const metadata = {
   title: 'Terms of Service - Learn of Christ',
   description: 'Terms and conditions for using Learn of Christ.',

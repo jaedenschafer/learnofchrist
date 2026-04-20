@@ -1,7 +1,16 @@
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 import { getAllTopics } from '@/data/topics';
 import { getAllQuestions } from '@/data/questions';
-import ContinueReading from '@/components/ContinueReading';
+
+// Below-the-fold + client-only — code-split so it doesn't block the hero.
+const ContinueReading = dynamic(() => import('@/components/ContinueReading'), {
+  loading: () => <div className="h-20" aria-hidden="true" />,
+});
+
+// ─── ISR ───
+// Cache pages for 24h; regenerate in background after that.
+export const revalidate = 86400;
 
 export const metadata = {
   title: 'Learn of Christ — Free Bible Study for Everyone',

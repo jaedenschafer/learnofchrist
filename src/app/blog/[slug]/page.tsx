@@ -1,9 +1,21 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import dynamic from 'next/dynamic';
 import type { Metadata } from 'next';
 import { getAllBlogPosts, getBlogPostById, categoryColors } from '@/data/blog-posts';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
-import BlogFAQ from '@/components/BlogFAQ';
+
+// The FAQ accordion sits at the bottom of the post — defer its JS so it
+// doesn't cost the user anything until they scroll.
+const BlogFAQ = dynamic(() => import('@/components/BlogFAQ'), {
+  loading: () => <div className="h-32" aria-hidden="true" />,
+});
+
+// ─── ISR ───
+// Cache pages for 24h; regenerate in background after that.
+export const revalidate = 86400;
+// Allow routes not in generateStaticParams to be generated on-demand with ISR.
+export const dynamicParams = true;
 
 interface BlogPostPageProps {
   params: Promise<{ slug: string }>;

@@ -1,6 +1,10 @@
 import Link from 'next/link';
 import { getAllStudyPlans } from '@/data/study-plans';
 
+// ─── ISR ───
+// Cache pages for 24h; regenerate in background after that.
+export const revalidate = 86400;
+
 export const metadata = {
   title: 'Study Plans - Learn of Christ',
   description: 'Choose from structured Bible study plans designed for consistent, meaningful engagement with scripture. Plans for beginners through advanced students.',

@@ -5,6 +5,12 @@ import { getVerseExplanation } from '@/data/verse-explanations';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 import TranslationSwitcher from '@/components/TranslationSwitcher';
 
+// ─── ISR ───
+// Cache pages for 24h; regenerate in background after that.
+export const revalidate = 86400;
+// Allow routes not in generateStaticParams to be generated on-demand with ISR.
+export const dynamicParams = true;
+
 interface VersePageProps {
   params: Promise<{ book: string; chapter: string; verse: string }>;
 }

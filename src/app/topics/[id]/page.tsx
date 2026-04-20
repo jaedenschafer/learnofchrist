@@ -3,6 +3,12 @@ import type { Metadata } from 'next';
 import { getAllTopics, getTopicById } from '@/data/topics';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 
+// ─── ISR ───
+// Cache pages for 24h; regenerate in background after that.
+export const revalidate = 86400;
+// Allow routes not in generateStaticParams to be generated on-demand with ISR.
+export const dynamicParams = true;
+
 interface TopicPageProps { params: Promise<{ id: string }> }
 
 export async function generateStaticParams() {

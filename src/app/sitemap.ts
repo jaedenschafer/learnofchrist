@@ -13,10 +13,21 @@ function bookNameToSlug(name: string): string {
   return name.toLowerCase().replace(/\s+/g, '-').replace(/'/g, '');
 }
 
-export default function sitemap(): MetadataRoute.Sitemap {
+/**
+ * Shard IDs. Each shard is emitted as /sitemap/<id>.xml, keeping every
+ * individual sitemap well under Google's 50k-URL / 50MB cap and making
+ * crawl parallelism straightforward at 1M-user scale.
+ */
+const SHARDS = ['core', 'bible', 'study', 'verses', 'content'] as const;
+type Shard = (typeof SHARDS)[number];
+
+export async function generateSitemaps(): Promise<{ id: Shard }[]> {
+  return SHARDS.map((id) => ({ id }));
+}
+
+function coreEntries(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
 
-  // ── Homepage ──
   entries.push({
     url: BASE_URL,
     lastModified: new Date(),
@@ -24,7 +35,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 1.0,
   });
 
-  // ── Static pages ──
   const staticPages = [
     { path: '/bible', priority: 0.9, freq: 'weekly' as const },
     { path: '/study', priority: 0.9, freq: 'weekly' as const },
@@ -48,91 +58,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
 
-  // ── Bible book pages (72 books) ──
-  for (const book of bibleBooks) {
-    const slug = bookNameToSlug(book.name);
-    entries.push({
-      url: `${BASE_URL}/bible/${slug}`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    });
-    entries.push({
-      url: `${BASE_URL}/study/${slug}`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    });
-  }
-
-  // ── Bible & Study chapter pages ──
-  for (const book of bibleBooks) {
-    const slug = bookNameToSlug(book.name);
-    for (let ch = 1; ch <= book.chapters; ch++) {
-      entries.push({
-        url: `${BASE_URL}/bible/${slug}/${ch}`,
-        lastModified: new Date(),
-        changeFrequency: 'monthly',
-        priority: 0.8,
-      });
-      entries.push({
-        url: `${BASE_URL}/study/${slug}/${ch}`,
-        lastModified: new Date(),
-        changeFrequency: 'monthly',
-        priority: 0.8,
-      });
-    }
-  }
-
-  // ── Individual verse explanation pages ──
-  for (const key of Object.keys(verseExplanations)) {
-    const [bookSlug, chapter, verse] = key.split('/');
-    entries.push({
-      url: `${BASE_URL}/bible/${bookSlug}/${chapter}/${verse}`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.6,
-    });
-  }
-
-  // ── Topics ──
-  for (const topic of topics) {
-    entries.push({
-      url: `${BASE_URL}/topics/${topic.id}`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.6,
-    });
-  }
-
-  // ── Questions ──
-  for (const question of questions) {
-    entries.push({
-      url: `${BASE_URL}/questions/${question.id}`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.6,
-    });
-  }
-
-  // ── Study Plans ──
-  for (const plan of studyPlans) {
-    entries.push({
-      url: `${BASE_URL}/study-plans/${plan.id}`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.6,
-    });
-  }
-
-  // ── Translation landing pages ──
+  // Translation landing pages are small and navigational — keep them in core.
   entries.push({
     url: `${BASE_URL}/bible/translations`,
     lastModified: new Date(),
     changeFrequency: 'monthly',
     priority: 0.7,
   });
-
   for (const t of translations) {
     entries.push({
       url: `${BASE_URL}/bible/translations/${t.id}`,
@@ -142,7 +74,97 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   }
 
-  // ── Blog Posts ──
+  return entries;
+}
+
+function bibleEntries(): MetadataRoute.Sitemap {
+  const entries: MetadataRoute.Sitemap = [];
+  for (const book of bibleBooks) {
+    const slug = bookNameToSlug(book.name);
+    entries.push({
+      url: `${BASE_URL}/bible/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    });
+    for (let ch = 1; ch <= book.chapters; ch++) {
+      entries.push({
+        url: `${BASE_URL}/bible/${slug}/${ch}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.8,
+      });
+    }
+  }
+  return entries;
+}
+
+function studyEntries(): MetadataRoute.Sitemap {
+  const entries: MetadataRoute.Sitemap = [];
+  for (const book of bibleBooks) {
+    const slug = bookNameToSlug(book.name);
+    entries.push({
+      url: `${BASE_URL}/study/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    });
+    for (let ch = 1; ch <= book.chapters; ch++) {
+      entries.push({
+        url: `${BASE_URL}/study/${slug}/${ch}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.8,
+      });
+    }
+  }
+  return entries;
+}
+
+function verseEntries(): MetadataRoute.Sitemap {
+  const entries: MetadataRoute.Sitemap = [];
+  for (const key of Object.keys(verseExplanations)) {
+    const [bookSlug, chapter, verse] = key.split('/');
+    entries.push({
+      url: `${BASE_URL}/bible/${bookSlug}/${chapter}/${verse}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    });
+  }
+  return entries;
+}
+
+function contentEntries(): MetadataRoute.Sitemap {
+  const entries: MetadataRoute.Sitemap = [];
+
+  for (const topic of topics) {
+    entries.push({
+      url: `${BASE_URL}/topics/${topic.id}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    });
+  }
+
+  for (const question of questions) {
+    entries.push({
+      url: `${BASE_URL}/questions/${question.id}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    });
+  }
+
+  for (const plan of studyPlans) {
+    entries.push({
+      url: `${BASE_URL}/study-plans/${plan.id}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    });
+  }
+
   for (const post of blogPosts) {
     entries.push({
       url: `${BASE_URL}/blog/${post.id}`,
@@ -153,4 +175,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }
 
   return entries;
+}
+
+export default function sitemap({
+  id,
+}: {
+  id: Shard;
+}): MetadataRoute.Sitemap {
+  switch (id) {
+    case 'core':
+      return coreEntries();
+    case 'bible':
+      return bibleEntries();
+    case 'study':
+      return studyEntries();
+    case 'verses':
+      return verseEntries();
+    case 'content':
+      return contentEntries();
+    default:
+      return [];
+  }
 }

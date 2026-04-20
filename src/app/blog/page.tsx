@@ -2,6 +2,10 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { getAllBlogPosts, categoryColors } from '@/data/blog-posts';
 
+// ─── ISR ───
+// Cache pages for 24h; regenerate in background after that.
+export const revalidate = 86400;
+
 export const metadata = {
   title: 'Blog — Bible Study Articles & Devotionals | Learn of Christ',
   description: 'Read articles about understanding Jesus Christ, studying the Bible effectively, and applying Scripture to daily life.',

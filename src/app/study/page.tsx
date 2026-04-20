@@ -2,6 +2,10 @@ import Link from 'next/link';
 import { getOldTestamentBooks, getNewTestamentBooks, getApocryphaBooks } from '@/data/books';
 import BookGrid from '@/components/BookGrid';
 
+// ─── ISR ───
+// Cache pages for 24h; regenerate in background after that.
+export const revalidate = 86400;
+
 export const metadata = {
   title: 'Bible Study Guides — Chapter-by-Chapter Commentary | Learn of Christ',
   description: 'Deep study guides for every chapter of the Bible. Overview, themes, questions, Christ connections, and 10 denominational lenses.',

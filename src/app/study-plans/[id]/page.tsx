@@ -2,6 +2,12 @@ import Link from 'next/link';
 import { getAllStudyPlans, getStudyPlanById } from '@/data/study-plans';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 
+// ─── ISR ───
+// Cache pages for 24h; regenerate in background after that.
+export const revalidate = 86400;
+// Allow routes not in generateStaticParams to be generated on-demand with ISR.
+export const dynamicParams = true;
+
 interface StudyPlanPageProps {
   params: Promise<{ id: string }>;
 }

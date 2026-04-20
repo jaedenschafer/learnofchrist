@@ -1,16 +1,26 @@
 'use client';
 
 import { useEffect } from 'react';
-import StudyJournal from './StudyJournal';
+import dynamic from 'next/dynamic';
 import ReflectionBlock from './ReflectionBlock';
 import ScriptureRefs from './ScriptureRefs';
 import ShareableMarks from './ShareableMarks';
 import ShareButton from './ShareButton';
-import StudyAudioPlayer from './StudyAudioPlayer';
 import HebrewAudio from './HebrewAudio';
 import ReadingComfortEffects from './ReadingComfortEffects';
 import ChapterProgress from './ChapterProgress';
 import './GenesisOneStudy.css';
+
+// Heavy, below-the-fold: the journal panel and audio player aren't needed for
+// the first paint — ship them only when hydration has happened.
+const StudyJournal = dynamic(() => import('./StudyJournal'), {
+  ssr: false,
+  loading: () => <div className="h-48" aria-hidden="true" />,
+});
+const StudyAudioPlayer = dynamic(() => import('./StudyAudioPlayer'), {
+  ssr: false,
+  loading: () => <div className="h-11 w-11" aria-hidden="true" />,
+});
 
 export default function GenesisOneStudy() {
   useEffect(() => {

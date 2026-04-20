@@ -85,6 +85,7 @@ export function useReadingProgress({
   const [ready, setReady] = useState(false);
   const visitedRef = useRef<Set<string>>(new Set());
   const saveTimer = useRef<number | null>(null);
+  const idleHandle = useRef<number | null>(null);
 
   // Build section markers once the DOM is present
   useEffect(() => {
@@ -154,32 +155,45 @@ export function useReadingProgress({
       setCurrentSectionId(id);
       if (id) visitedRef.current.add(id);
 
-      // Debounced save
+      // Debounced save — 2.5s of idle scrolling before we touch localStorage,
+      // and we run the actual write inside requestIdleCallback so a heavy
+      // reader doesn't compete with scroll paint.
       if (saveTimer.current) window.clearTimeout(saveTimer.current);
       saveTimer.current = window.setTimeout(() => {
-        const next: ProgressRecord = {
-          scrollPct: pct,
-          lastSectionId: id,
-          lastReadAt: new Date().toISOString(),
-          sectionIdsVisited: Array.from(visitedRef.current),
-          completed: pct > 0.95,
+        const runSave = () => {
+          const next: ProgressRecord = {
+            scrollPct: pct,
+            lastSectionId: id,
+            lastReadAt: new Date().toISOString(),
+            sectionIdsVisited: Array.from(visitedRef.current),
+            completed: pct > 0.95,
+          };
+          safeWrite(`loc-progress:${chapterKey}`, next);
+          const idx = loadProgressIndex();
+          idx[chapterKey] = {
+            lastReadAt: next.lastReadAt,
+            completed: next.completed,
+            scrollPct: pct,
+            lastSectionId: id,
+            visitedCount: visitedRef.current.size,
+            totalSections: sections.length,
+            chapterName,
+            bookSlug,
+            chapter,
+          };
+          safeWrite(INDEX_KEY, idx);
+          setRecord(next);
         };
-        safeWrite(`loc-progress:${chapterKey}`, next);
-        const idx = loadProgressIndex();
-        idx[chapterKey] = {
-          lastReadAt: next.lastReadAt,
-          completed: next.completed,
-          scrollPct: pct,
-          lastSectionId: id,
-          visitedCount: visitedRef.current.size,
-          totalSections: sections.length,
-          chapterName,
-          bookSlug,
-          chapter,
+        type IdleWindow = Window & {
+          requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
         };
-        safeWrite(INDEX_KEY, idx);
-        setRecord(next);
-      }, 450);
+        const w = window as IdleWindow;
+        if (typeof w.requestIdleCallback === 'function') {
+          idleHandle.current = w.requestIdleCallback(runSave, { timeout: 2000 });
+        } else {
+          runSave();
+        }
+      }, 2500);
     };
 
     tick();
@@ -197,6 +211,10 @@ export function useReadingProgress({
       window.removeEventListener('scroll', onScroll);
       window.removeEventListener('resize', onScroll);
       if (saveTimer.current) window.clearTimeout(saveTimer.current);
+      if (idleHandle.current) {
+        type IdleWindow = Window & { cancelIdleCallback?: (h: number) => void };
+        (window as IdleWindow).cancelIdleCallback?.(idleHandle.current);
+      }
     };
   }, [sections, chapterKey, chapterName, bookSlug, chapter, containerSelector]);
 

@@ -26,6 +26,17 @@ export const metadata: Metadata = {
   description: 'Deepen your understanding of Jesus Christ through comprehensive scripture study guides, study plans, and devotionals.',
   keywords: 'Bible study, Jesus Christ, scripture, Christian learning, devotionals',
   authors: [{ name: 'Learn of Christ' }],
+  applicationName: 'Learn of Christ',
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: 'Learn of Christ',
+  },
+  formatDetection: {
+    telephone: false,
+    email: false,
+    address: false,
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',

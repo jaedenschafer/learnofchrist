@@ -1,6 +1,14 @@
 'use client';
 
-import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useState,
+  type ReactNode,
+} from 'react';
 
 export type FontSize = 'small' | 'medium' | 'large';
 export type ReadingMode = 'verse' | 'paragraph';
@@ -72,56 +80,73 @@ export function ReadingPrefsProvider({ children }: { children: ReactNode }) {
 
   const isDark = theme === 'dark' || (theme === 'system' && systemDark);
 
-  // Apply data-reader-theme to <html> so CSS can scope on it
+  // Apply data-reader-theme + data-focus-mode to <html>. One effect keeps the
+  // two writes batched — browsers coalesce attribute changes in the same
+  // microtask, so consumers only pay one style invalidation per preference
+  // change instead of two.
   useEffect(() => {
     if (typeof document === 'undefined') return;
-    document.documentElement.setAttribute(
-      'data-reader-theme',
-      isDark ? 'dark' : 'light',
-    );
-  }, [isDark]);
-
-  // Apply data-focus-mode to <html>
-  useEffect(() => {
-    if (typeof document === 'undefined') return;
+    const root = document.documentElement;
+    root.setAttribute('data-reader-theme', isDark ? 'dark' : 'light');
     if (focusMode === 'focus') {
-      document.documentElement.setAttribute('data-focus-mode', 'focus');
+      root.setAttribute('data-focus-mode', 'focus');
     } else {
-      document.documentElement.removeAttribute('data-focus-mode');
+      root.removeAttribute('data-focus-mode');
     }
-  }, [focusMode]);
+  }, [isDark, focusMode]);
 
-  const setFontSize = (s: FontSize) => {
+  const setFontSize = useCallback((s: FontSize) => {
     setFontSizeState(s);
-    localStorage.setItem('loc-font-size', s);
-  };
-  const setReadingMode = (m: ReadingMode) => {
+    try {
+      localStorage.setItem('loc-font-size', s);
+    } catch {}
+  }, []);
+  const setReadingMode = useCallback((m: ReadingMode) => {
     setReadingModeState(m);
-    localStorage.setItem('loc-reading-mode', m);
-  };
-  const setTheme = (t: Theme) => {
+    try {
+      localStorage.setItem('loc-reading-mode', m);
+    } catch {}
+  }, []);
+  const setTheme = useCallback((t: Theme) => {
     setThemeState(t);
-    localStorage.setItem('loc-theme', t);
-  };
-  const setFocusMode = (f: FocusMode) => {
+    try {
+      localStorage.setItem('loc-theme', t);
+    } catch {}
+  }, []);
+  const setFocusMode = useCallback((f: FocusMode) => {
     setFocusModeState(f);
-    localStorage.setItem('loc-focus-mode', f);
-  };
+    try {
+      localStorage.setItem('loc-focus-mode', f);
+    } catch {}
+  }, []);
+
+  const value = useMemo(
+    () => ({
+      fontSize,
+      setFontSize,
+      readingMode,
+      setReadingMode,
+      theme,
+      setTheme,
+      focusMode,
+      setFocusMode,
+      isDark,
+    }),
+    [
+      fontSize,
+      setFontSize,
+      readingMode,
+      setReadingMode,
+      theme,
+      setTheme,
+      focusMode,
+      setFocusMode,
+      isDark,
+    ],
+  );
 
   return (
-    <ReadingPrefsContext.Provider
-      value={{
-        fontSize,
-        setFontSize,
-        readingMode,
-        setReadingMode,
-        theme,
-        setTheme,
-        focusMode,
-        setFocusMode,
-        isDark,
-      }}
-    >
+    <ReadingPrefsContext.Provider value={value}>
       {children}
     </ReadingPrefsContext.Provider>
   );

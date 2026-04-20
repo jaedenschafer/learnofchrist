@@ -1,6 +1,10 @@
 import type { Metadata } from 'next';
 import ProgressDashboard from '@/components/ProgressDashboard';
 
+// ─── ISR ───
+// Cache pages for 24h; regenerate in background after that.
+export const revalidate = 86400;
+
 export const metadata: Metadata = {
   title: 'Your Progress — Learn of Christ',
   description: 'Your Bible study progress: chapters opened, completed, streak, and every book you are working through.',

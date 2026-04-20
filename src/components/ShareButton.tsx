@@ -1,7 +1,11 @@
 'use client';
 
 import { useState } from 'react';
-import ShareMenu, { type ShareContent } from './ShareMenu';
+import dynamic from 'next/dynamic';
+import type { ShareContent } from './ShareMenu';
+
+// Defer the share sheet until the user actually asks for it.
+const ShareMenu = dynamic(() => import('./ShareMenu'), { ssr: false });
 
 /**
  * Inline share button — place anywhere in a study page to open the share sheet

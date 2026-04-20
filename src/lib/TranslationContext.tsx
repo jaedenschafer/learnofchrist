@@ -1,6 +1,14 @@
 'use client';
 
-import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useState,
+  type ReactNode,
+} from 'react';
 
 interface TranslationContextType {
   currentTranslation: string;
@@ -42,19 +50,25 @@ export function TranslationProvider({ children }: { children: ReactNode }) {
     }
   }, []);
 
-  const setTranslation = (abbr: string) => {
+  const setTranslation = useCallback((abbr: string) => {
     setCurrentTranslation(abbr);
-    localStorage.setItem('loc-translation', abbr);
-  };
+    try {
+      localStorage.setItem('loc-translation', abbr);
+    } catch {}
+  }, []);
+
+  // Memoize so every consumer doesn't rerender on unrelated parent renders.
+  const value = useMemo(
+    () => ({
+      currentTranslation,
+      setTranslation,
+      availableTranslations: PUBLIC_DOMAIN_TRANSLATIONS,
+    }),
+    [currentTranslation, setTranslation],
+  );
 
   return (
-    <TranslationContext.Provider
-      value={{
-        currentTranslation,
-        setTranslation,
-        availableTranslations: PUBLIC_DOMAIN_TRANSLATIONS,
-      }}
-    >
+    <TranslationContext.Provider value={value}>
       {children}
     </TranslationContext.Provider>
   );

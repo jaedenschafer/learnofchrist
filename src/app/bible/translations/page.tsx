@@ -3,6 +3,10 @@ import Link from 'next/link';
 import { getAllTranslations } from '@/data/translations';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 
+// ─── ISR ───
+// Cache pages for 24h; regenerate in background after that.
+export const revalidate = 86400;
+
 export const metadata: Metadata = {
   title: 'Bible Translations | Learn of Christ',
   description: 'Explore 8 major English Bible translations from different Christian traditions. Compare translations, learn their history, and choose the one that works best for your study.',

@@ -1,6 +1,14 @@
 'use client';
 
-import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useState,
+  type ReactNode,
+} from 'react';
 
 export type DenominationId =
   | 'none'
@@ -60,15 +68,25 @@ export function DenominationProvider({ children }: { children: ReactNode }) {
     }
   }, []);
 
-  const setDenomination = (newDenom: DenominationId) => {
+  const setDenomination = useCallback((newDenom: DenominationId) => {
     setDenominationState(newDenom);
-    localStorage.setItem(STORAGE_KEY, newDenom);
-  };
+    try {
+      localStorage.setItem(STORAGE_KEY, newDenom);
+    } catch {}
+  }, []);
 
-  const currentDenomination = DENOMINATIONS.find(d => d.id === denomination) || DENOMINATIONS[0];
+  const currentDenomination = useMemo(
+    () => DENOMINATIONS.find(d => d.id === denomination) || DENOMINATIONS[0],
+    [denomination],
+  );
+
+  const value = useMemo(
+    () => ({ denomination, setDenomination, currentDenomination }),
+    [denomination, setDenomination, currentDenomination],
+  );
 
   return (
-    <DenominationContext.Provider value={{ denomination, setDenomination, currentDenomination }}>
+    <DenominationContext.Provider value={value}>
       {children}
     </DenominationContext.Provider>
   );

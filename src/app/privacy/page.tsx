@@ -1,3 +1,7 @@
+// ─── ISR ───
+// Static page — cache for a week.
+export const revalidate = 604800;
+
 export const metadata = {
   title: 'Privacy Policy - Learn of Christ',
   description: 'Our commitment to your privacy and data protection.',
