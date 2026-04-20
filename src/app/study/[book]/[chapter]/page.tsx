@@ -171,12 +171,22 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
               ? 'How God spoke a world into being — and why every word of it still belongs to you.'
               : 'Themes, discussion questions, Christ connections, and denomination lenses.'}
           </p>
-          <Link
-            href={`/bible/${book}/${chapter}`}
-            className="inline-flex items-center gap-1 mt-3 text-[0.8125rem] font-medium text-[color:var(--color-primary)] hover:underline"
-          >
-            Just read this chapter →
-          </Link>
+          <div className="flex flex-wrap gap-x-4 gap-y-1 mt-3 text-[0.8125rem] font-medium">
+            <Link
+              href={`/bible/${book}/${chapter}`}
+              className="text-[color:var(--color-primary)] hover:underline"
+            >
+              Just read this chapter →
+            </Link>
+            {isGenesisOne && (
+              <Link
+                href="/study/genesis-one-ideas"
+                className="text-[color:var(--color-primary)] hover:underline"
+              >
+                Try the idea-focused preview →
+              </Link>
+            )}
+          </div>
         </div>
 
         <StudyFilters />
