@@ -288,7 +288,7 @@ export default function GenesisOneStudy() {
           Tap any highlighted phrase to jump to the commentary that unpacks it.
         </p>
         <p className="kjv-note" role="note">
-          <strong>A note on translations.</strong> The commentary, highlights, and Hebrew callouts below are written around the King James Version&apos;s wording. Use the translation switcher anytime — the scripture blocks will swap to your chosen translation, while the commentary stays anchored to KJV phrasing.
+          <strong>A note on translations.</strong>{' '}The commentary, highlights, and Hebrew callouts below are written around the King James Version&apos;s wording. Use the translation switcher anytime — the scripture blocks will swap to your chosen translation, while the commentary stays anchored to KJV phrasing.
         </p>
 
         <div className="divider">· · ·</div>
@@ -308,7 +308,7 @@ export default function GenesisOneStudy() {
             the heaven and the earth.
           </ScriptureBlock>
           <p id="c-bara">
-            God is not argued for — He is simply already there. Two Hebrew verbs run side by side through this chapter: <em>bara&apos;</em>, a word whose subject is almost always God, and <em>asah</em>, &ldquo;to make, fashion, work.&rdquo; They trade places across the account — <em>bara&apos;</em> for humanity in verse 27, <em>asah</em> for the sun and stars in verse 16. Neither verb dictates <em>how</em> anything was made. <em>Bara&apos;</em> is used even where material clearly existed already, as in Genesis 5:2, which names the making of male and female humanity a <em>bara&apos;</em> act — yet Eve, we are told, was formed from Adam&apos;s side. Genesis is less interested in the mechanism than in the Maker.
+            God is not argued for — He is simply already there. Two Hebrew verbs run side by side through this chapter: <em>bara&apos;</em>, a word whose subject is almost always God, and <em>asah</em>, &ldquo;to make, fashion, work.&rdquo; They trade places across the account — <em>bara&apos;</em> for humanity in verse 27, <em>asah</em> for the sun and stars in verse 16. Neither verb dictates <em>how</em> anything was made. <em>Bara&apos;</em> is used even where material clearly existed already, as in Genesis 5:2, which names the making of male and female humanity a <em>bara&apos;</em>{' '}act — yet Eve, we are told, was formed from Adam&apos;s side. Genesis is less interested in the mechanism than in the Maker.
           </p>
           <div className="christ" id="christ-word">
             <span className="title">Christ Connection — The Word at Creation</span>
@@ -340,7 +340,7 @@ export default function GenesisOneStudy() {
             Into that unfinished place, the Spirit of God is already <em>moving</em>. The Hebrew verb is used elsewhere of an eagle fluttering over its young (Deut. 32:11). God is tender over the chaos before He ever speaks.
           </p>
           <div className="carry">
-            If anything in your life feels a little like <em>tohu wa-bohu</em> right now — shapeless, dim, not yet settled — the very first act of God in the Bible is to hover over a place exactly like that. The Spirit doesn&apos;t wait for the waters to calm. He is already moving, tender as an eagle over its young. Whatever part of your story still looks unformed is not outside His care; it is where He is most at home.
+            If anything in your life feels a little like <em>tohu wa-bohu</em>{' '}right now — shapeless, dim, not yet settled — the very first act of God in the Bible is to hover over a place exactly like that. The Spirit doesn&apos;t wait for the waters to calm. He is already moving, tender as an eagle over its young. Whatever part of your story still looks unformed is not outside His care; it is where He is most at home.
           </div>
         </section>
 
@@ -352,7 +352,7 @@ export default function GenesisOneStudy() {
 
         {/* ================= Day 1 ================= */}
         <h2 className="section">
-          <span className="ref">Day 1 · Genesis 1:3–5</span>
+          <span className="ref">Creation Day 1 · Genesis 1:3–5</span>
           Light
         </h2>
 
@@ -367,7 +367,7 @@ export default function GenesisOneStudy() {
           </p>
           <div className="christ" id="christ-light">
             <span className="title">Christ Connection — The True Light</span>
-            &ldquo;God is light, and in him is no darkness at all&rdquo; (1 John 1:5). The One who said <em>let there be light</em> on day one stepped into His own world and said, &ldquo;I am the light of the world&rdquo; (John 8:12). Paul draws the line directly: &ldquo;God, who commanded the light to shine out of darkness, hath shined in our hearts, to give the light of the knowledge of the glory of God in the face of Jesus Christ&rdquo; (2 Cor. 4:6). The same voice, the same light — now with a face.
+            &ldquo;God is light, and in him is no darkness at all&rdquo; (1 John 1:5). The One who said <em>let there be light</em>{' '}on day one stepped into His own world and said, &ldquo;I am the light of the world&rdquo; (John 8:12). Paul draws the line directly: &ldquo;God, who commanded the light to shine out of darkness, hath shined in our hearts, to give the light of the knowledge of the glory of God in the face of Jesus Christ&rdquo; (2 Cor. 4:6). The same voice, the same light — now with a face.
           </div>
         </section>
 
@@ -395,7 +395,7 @@ export default function GenesisOneStudy() {
 
         {/* ================= Day 2 ================= */}
         <h2 className="section">
-          <span className="ref">Day 2 · Genesis 1:6–8</span>
+          <span className="ref">Creation Day 2 · Genesis 1:6–8</span>
           The Expanse
         </h2>
 
@@ -412,7 +412,7 @@ export default function GenesisOneStudy() {
             <a className="mark-link" href="#c-day2"><mark className="hg">second day</mark></a>.
           </ScriptureBlock>
           <p id="c-day2">
-            Day 2 is the only day without &ldquo;God saw that it was good.&rdquo; The separation begun here isn&apos;t finished until day three, when the land appears. A boundary by itself is never the goal — only what it makes room for.
+            Creation Day 2 is the only day without &ldquo;God saw that it was good.&rdquo; The separation begun here isn&apos;t finished until day three, when the land appears. A boundary by itself is never the goal — only what it makes room for.
           </p>
           <div className="hebrew" id="hebrew-raqia">
             <span className="title">Raqia&apos; — &ldquo;firmament&rdquo;</span>
@@ -432,7 +432,7 @@ export default function GenesisOneStudy() {
 
         {/* ================= Day 3 ================= */}
         <h2 className="section">
-          <span className="ref">Day 3 · Genesis 1:9–13</span>
+          <span className="ref">Creation Day 3 · Genesis 1:9–13</span>
           Dry Land and Green
         </h2>
 
@@ -483,7 +483,7 @@ export default function GenesisOneStudy() {
 
         {/* ================= Day 4 ================= */}
         <h2 className="section">
-          <span className="ref">Day 4 · Genesis 1:14–19</span>
+          <span className="ref">Creation Day 4 · Genesis 1:14–19</span>
           Lights to Rule
         </h2>
 
@@ -536,7 +536,7 @@ export default function GenesisOneStudy() {
 
         {/* ================= Day 5 ================= */}
         <h2 className="section">
-          <span className="ref">Day 5 · Genesis 1:20–23</span>
+          <span className="ref">Creation Day 5 · Genesis 1:20–23</span>
           Fish and Birds
         </h2>
 
@@ -577,7 +577,7 @@ export default function GenesisOneStudy() {
 
         {/* ================= Day 6 · Land Animals ================= */}
         <h2 className="section">
-          <span className="ref">Day 6 · Genesis 1:24–25</span>
+          <span className="ref">Creation Day 6 · Genesis 1:24–25</span>
           Land Animals
         </h2>
 
@@ -596,7 +596,7 @@ export default function GenesisOneStudy() {
 
         {/* ================= Day 6 · Image ================= */}
         <h2 className="section">
-          <span className="ref">Day 6 · Genesis 1:26–28</span>
+          <span className="ref">Creation Day 6 · Genesis 1:26–28</span>
           Made in God&apos;s Image
         </h2>
 
@@ -612,7 +612,7 @@ export default function GenesisOneStudy() {
             over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth.
           </ScriptureBlock>
           <p id="c-letusmake">
-            Notice the shift: &ldquo;Let <em>us</em> make.&rdquo; After five days of solo speech, God speaks in the plural for the first time. Readers across centuries have heard this &ldquo;us&rdquo; many ways — some hearing God addressing His heavenly court, some hearing Jesus already present with the Father, some simply noting the weight given to the moment humanity enters the story. Whatever the plural names, this climactic act comes out of relationship, not isolation.
+            Notice the shift: &ldquo;Let <em>us</em>{' '}make.&rdquo; After five days of solo speech, God speaks in the plural for the first time. Readers across centuries have heard this &ldquo;us&rdquo; many ways — some hearing God addressing His heavenly court, some hearing Jesus already present with the Father, some simply noting the weight given to the moment humanity enters the story. Whatever the plural names, this climactic act comes out of relationship, not isolation.
           </p>
           <p id="c-carved-image">
             In the ancient world, a king would set up a carved image of himself in a distant province — a stone statue declaring <em>this land belongs to me.</em> Genesis uses exactly that word for human beings. Every person is a living statue God has set up in His world. The most revolutionary sentence in ancient literature is right here: not just the king, not just the priest, not just the elite — <em>every human</em> bears the image of God.
@@ -638,16 +638,16 @@ export default function GenesisOneStudy() {
           </ScriptureBlock>
           <div className="christ" id="christ-image">
             <span className="title">Christ Connection — The True Image</span>
-            Genesis says humanity is the image of God. Paul goes further and says Jesus <em>is</em> &ldquo;the image of the invisible God&rdquo; (Col. 1:15), and that we are being &ldquo;conformed to the image of his Son&rdquo; (Rom. 8:29). The image was cracked in Eden; Christ is the unbroken Image, the Second Adam (1 Cor. 15:45), and salvation is not only forgiveness — it is being restored to look like Him. Day six was always pointing at Jesus.
+            Genesis says humanity is the image of God. Paul goes further and says Jesus <em>is</em> &ldquo;the image of the invisible God&rdquo; (Col. 1:15), and that we are being &ldquo;conformed to the image of his Son&rdquo; (Rom. 8:29). The image was cracked in Eden; Christ is the unbroken Image — and salvation is not only forgiveness, it is being slowly restored to look like Him. Day six was always pointing at Jesus.
           </div>
           <div className="carry">
-            Every face you pass today is a living image God set up in His world — the coworker, the cashier, the driver, the kid in aisle five, the face in the mirror. The revolutionary claim of Genesis 1 is that <em>every one of them</em> carries His image, not only the powerful or the holy. Whatever love and patience you&apos;ve ever shown one of them has been, quietly, a kind of worship.
+            Every face you pass today is a living image God set up in His world — the coworker, the cashier, the driver, the kid in aisle five, the face in the mirror. The revolutionary claim of Genesis 1 is that <em>every one of them</em>{' '}carries His image, not only the powerful or the holy. Whatever love and patience you&apos;ve ever shown one of them has been, quietly, a kind of worship.
           </div>
         </section>
 
         {/* ================= Day 6 · Very Good ================= */}
         <h2 className="section">
-          <span className="ref">Day 6 · Genesis 1:29–31</span>
+          <span className="ref">Creation Day 6 · Genesis 1:29–31</span>
           Very Good
         </h2>
 
@@ -689,7 +689,7 @@ export default function GenesisOneStudy() {
 
         {/* ================= Day 7 ================= */}
         <h2 className="section">
-          <span className="ref">Day 7 · Genesis 2:1–3</span>
+          <span className="ref">Creation Day 7 · Genesis 2:1–3</span>
           Rest
         </h2>
 
@@ -727,7 +727,7 @@ export default function GenesisOneStudy() {
             </p>
           </div>
           <p id="c-sabbath-today">
-            What does a holy day look like right now, in a world of 24/7 notifications, weekend emails, and a calendar that never stops filling? Not a rule to enforce — a rhythm to receive. One day a week where you stop producing and start receiving. Phones in a drawer. A long meal with the people you love. A walk without a podcast. Worship with other believers. Saying out loud what the rest of the week is too busy to admit: <em>the world can turn without me, because God is the one holding it together.</em> The Sabbath is God&apos;s weekly way of teaching you that you are a human, not a machine, and that your worth is never your output.
+            What does a holy day look like right now, in a world of 24/7 notifications, weekend emails, and a calendar that never stops filling? Not a rule to enforce — a rhythm to receive. One day a week where you stop producing and start receiving. Phones in a drawer. A long meal with the people you love. A walk without a podcast. Worship with other believers. Saying out loud what the rest of the week is too busy to admit: <em>the world can turn without me, because God is the one holding it together.</em>{' '}The Sabbath is God&apos;s weekly way of teaching you that you are a human, not a machine, and that your worth is never your output.
           </p>
           <div className="christ" id="christ-rest">
             <span className="title">Christ Connection — The True Rest</span>
