@@ -280,7 +280,7 @@ export default function Home() {
               <Link
                 key={q.id}
                 href={`/questions/${q.id}`}
-                className={`flex items-center gap-3 px-5 py-4 group hover:bg-black/[0.015] transition-colors active:bg-black/[0.03] ${
+                className={`flex items-center gap-3 px-5 py-4 group hover:bg-[color:var(--color-fill-subtle)] transition-colors active:bg-[color:var(--color-fill-muted)] ${
                   i < questions.length - 1 ? 'border-b border-[color:var(--color-separator)]' : ''
                 }`}
               >

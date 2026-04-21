@@ -17,8 +17,10 @@ export const viewport: Viewport = {
   viewportFit: 'cover',
 };
 
-// Synchronous pre-hydration theme script — prevents flash of wrong theme on load.
-const themeInitScript = `(function(){try{var t=localStorage.getItem('loc-theme');var r=t==='dark'||t==='light'?t:(window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-reader-theme',r);if(r==='dark'){document.documentElement.style.colorScheme='dark';}}catch(e){}})();`;
+// Synchronous pre-hydration theme script — prevents flash of wrong theme on
+// load. Defaults to light unless the user has explicitly chosen dark. Any
+// legacy 'system' value falls through to 'light' and gets rewritten on mount.
+const themeInitScript = `(function(){try{var t=localStorage.getItem('loc-theme');var r=(t==='dark')?'dark':'light';document.documentElement.setAttribute('data-reader-theme',r);if(r==='dark'){document.documentElement.style.colorScheme='dark';}}catch(e){}})();`;
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://learnofchrist.com'),

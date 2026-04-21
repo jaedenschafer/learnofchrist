@@ -96,7 +96,7 @@ export default function ReadingFilters() {
   return (
     <div className="sticky top-14 z-40 mb-4">
       <div className="max-w-3xl mx-auto">
-        <div className="flex items-center gap-1 bg-white/95 backdrop-blur-xl border border-[color:var(--color-separator)] rounded-full px-2 py-1.5 shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)]">
+        <div className="flex items-center gap-1 glass-heavy border border-[color:var(--color-separator)] rounded-full px-2 py-1.5 shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)]">
 
           {/* Translation */}
           <div ref={transDD.ref} className="relative">

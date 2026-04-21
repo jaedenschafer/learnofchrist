@@ -12,7 +12,7 @@ import {
 
 export type FontSize = 'small' | 'medium' | 'large';
 export type ReadingMode = 'verse' | 'paragraph';
-export type Theme = 'light' | 'dark' | 'system';
+export type Theme = 'light' | 'dark';
 export type FocusMode = 'full' | 'focus';
 
 interface ReadingPrefsContextType {
@@ -33,7 +33,7 @@ const ReadingPrefsContext = createContext<ReadingPrefsContextType>({
   setFontSize: () => {},
   readingMode: 'verse',
   setReadingMode: () => {},
-  theme: 'system',
+  theme: 'light',
   setTheme: () => {},
   focusMode: 'full',
   setFocusMode: () => {},
@@ -45,16 +45,15 @@ const isFontSize = (v: unknown): v is FontSize =>
 const isReadingMode = (v: unknown): v is ReadingMode =>
   v === 'verse' || v === 'paragraph';
 const isTheme = (v: unknown): v is Theme =>
-  v === 'light' || v === 'dark' || v === 'system';
+  v === 'light' || v === 'dark';
 const isFocusMode = (v: unknown): v is FocusMode =>
   v === 'full' || v === 'focus';
 
 export function ReadingPrefsProvider({ children }: { children: ReactNode }) {
   const [fontSize, setFontSizeState] = useState<FontSize>('medium');
   const [readingMode, setReadingModeState] = useState<ReadingMode>('verse');
-  const [theme, setThemeState] = useState<Theme>('system');
+  const [theme, setThemeState] = useState<Theme>('light');
   const [focusMode, setFocusModeState] = useState<FocusMode>('full');
-  const [systemDark, setSystemDark] = useState(false);
 
   // Load from localStorage
   useEffect(() => {
@@ -62,23 +61,24 @@ export function ReadingPrefsProvider({ children }: { children: ReactNode }) {
     if (isFontSize(savedSize)) setFontSizeState(savedSize);
     const savedMode = localStorage.getItem('loc-reading-mode');
     if (isReadingMode(savedMode)) setReadingModeState(savedMode);
+
+    // Theme: we used to support 'system' — migrate any stored 'system' to
+    // 'light' so returning users don't get dark on a dark-mode OS by default.
     const savedTheme = localStorage.getItem('loc-theme');
-    if (isTheme(savedTheme)) setThemeState(savedTheme);
+    if (isTheme(savedTheme)) {
+      setThemeState(savedTheme);
+    } else if (savedTheme === 'system') {
+      setThemeState('light');
+      try {
+        localStorage.setItem('loc-theme', 'light');
+      } catch {}
+    }
+
     const savedFocus = localStorage.getItem('loc-focus-mode');
     if (isFocusMode(savedFocus)) setFocusModeState(savedFocus);
   }, []);
 
-  // Track system color-scheme preference
-  useEffect(() => {
-    if (typeof window === 'undefined' || !window.matchMedia) return;
-    const mq = window.matchMedia('(prefers-color-scheme: dark)');
-    setSystemDark(mq.matches);
-    const handler = (e: MediaQueryListEvent) => setSystemDark(e.matches);
-    mq.addEventListener('change', handler);
-    return () => mq.removeEventListener('change', handler);
-  }, []);
-
-  const isDark = theme === 'dark' || (theme === 'system' && systemDark);
+  const isDark = theme === 'dark';
 
   // Apply data-reader-theme + data-focus-mode to <html>. One effect keeps the
   // two writes batched — browsers coalesce attribute changes in the same

@@ -34,10 +34,10 @@ export default function TopicCard({ topic }: TopicCardProps) {
         <span className={`pill ${color.bg} ${color.text} self-start mb-3`}>
           {topic.name}
         </span>
-        <p className="text-sm text-navy/50 mb-4 flex-grow leading-relaxed">{topic.description}</p>
+        <p className="text-sm text-[color:var(--color-secondary-label)] mb-4 flex-grow leading-relaxed">{topic.description}</p>
         <div className="border-t border-[color:var(--color-separator)] pt-3">
-          <p className="scripture-quote text-xs text-navy/65 mb-1.5 line-clamp-2">&ldquo;{topic.keyVerse}&rdquo;</p>
-          <p className="text-[0.65rem] text-gold font-semibold tracking-wide">{topic.keyVerseReference}</p>
+          <p className="scripture-quote text-xs text-[color:var(--color-label)]/80 mb-1.5 line-clamp-2">&ldquo;{topic.keyVerse}&rdquo;</p>
+          <p className="text-[0.65rem] text-[color:var(--color-primary)] font-semibold tracking-wide">{topic.keyVerseReference}</p>
         </div>
       </div>
     </Link>

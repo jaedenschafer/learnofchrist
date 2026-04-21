@@ -14,7 +14,7 @@ export default function StudyLevelSwitcher() {
         </span>
       </div>
       {/* iOS Segmented Control */}
-      <div className="flex bg-black/[0.04] rounded-xl p-0.5 gap-0.5">
+      <div className="flex bg-[color:var(--color-fill-subtle)] rounded-xl p-0.5 gap-0.5">
         {STUDY_LEVELS.map((l) => (
           <button
             key={l.id}

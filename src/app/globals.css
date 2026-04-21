@@ -11,6 +11,10 @@
   --color-separator: rgba(60, 60, 67, 0.08);
   --color-bg: #F5F5F7;
   --color-surface: #FFFFFF;
+  /* Recessed "fill" tint — used for segmented-control tracks and
+     subtle container backgrounds. Auto-flips in dark mode below. */
+  --color-fill-subtle: rgba(0, 0, 0, 0.04);
+  --color-fill-muted: rgba(0, 0, 0, 0.06);
   --color-warm: #F9E8C9;
   --color-warm-subtle: #FFF8EE;
 
@@ -70,6 +74,8 @@ html[data-reader-theme="dark"] {
   --color-separator: rgba(255, 255, 255, 0.08);
   --color-bg: #000000;
   --color-surface: #1C1C1E;
+  --color-fill-subtle: rgba(255, 255, 255, 0.08);
+  --color-fill-muted: rgba(255, 255, 255, 0.12);
   --color-warm: #3A3A3C;
   --color-warm-subtle: #2C2C2E;
 

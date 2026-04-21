@@ -29,7 +29,7 @@ export default function TranslationSwitcher() {
         <span className="text-[0.6875rem] font-semibold text-[color:var(--color-secondary-label)] mr-1 hidden sm:inline">Translation</span>
 
         {/* Quick-access pills for top 3 */}
-        <div className="flex bg-black/[0.04] rounded-xl p-0.5 gap-0.5">
+        <div className="flex bg-[color:var(--color-fill-subtle)] rounded-xl p-0.5 gap-0.5">
           {quickAccess.map((t) => (
             <button
               key={t.abbreviation}
@@ -54,7 +54,7 @@ export default function TranslationSwitcher() {
               className={`flex items-center gap-1 px-3 py-1.5 rounded-xl text-[0.75rem] font-semibold transition-all ${
                 !quickAccess.some(t => t.abbreviation === currentTranslation)
                   ? 'bg-[color:var(--color-surface)] text-[color:var(--color-label)] shadow-sm border border-[color:var(--color-separator)]'
-                  : 'text-[color:var(--color-secondary-label)] hover:text-[color:var(--color-label)] bg-black/[0.04]'
+                  : 'text-[color:var(--color-secondary-label)] hover:text-[color:var(--color-label)] bg-[color:var(--color-fill-subtle)]'
               }`}
             >
               {!quickAccess.some(t => t.abbreviation === currentTranslation)
@@ -74,7 +74,7 @@ export default function TranslationSwitcher() {
                     className={`w-full text-left px-4 py-2.5 flex items-center justify-between transition-colors ${
                       currentTranslation === t.abbreviation
                         ? 'bg-[#007AFF]/[0.06]'
-                        : 'hover:bg-black/[0.03]'
+                        : 'hover:bg-[color:var(--color-fill-subtle)]'
                     }`}
                   >
                     <div>

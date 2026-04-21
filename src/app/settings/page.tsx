@@ -18,7 +18,6 @@ export default function SettingsPage() {
   const themeOptions: { value: Theme; label: string; desc: string }[] = [
     { value: 'light', label: 'Light', desc: 'Classic bright background' },
     { value: 'dark', label: 'Dark', desc: 'Easier on the eyes at night' },
-    { value: 'system', label: 'Auto', desc: 'Match your device setting' },
   ];
 
   const fontOptions: { value: FontSize; label: string; size: string }[] = [
@@ -48,7 +47,7 @@ export default function SettingsPage() {
           <p className="text-[0.8125rem] text-[color:var(--color-secondary-label)] mb-3">
             Currently {isDark ? 'dark' : 'light'}.
           </p>
-          <div className="grid grid-cols-3 gap-2">
+          <div className="grid grid-cols-2 gap-2">
             {themeOptions.map((opt) => (
               <button
                 key={opt.value}
