@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
+import AuthButton from './AuthButton';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -64,6 +65,7 @@ export default function Navbar() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
             </Link>
+            <AuthButton variant="desktop" />
           </div>
 
           {/* Mobile right: settings shortcut + hamburger */}
@@ -119,6 +121,7 @@ export default function Navbar() {
           >
             Settings
           </Link>
+          <AuthButton variant="mobile" onNavigate={() => setIsOpen(false)} />
         </div>
       </div>
     </nav>
