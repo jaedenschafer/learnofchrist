@@ -48,19 +48,17 @@ const limit = limitIdx >= 0 ? parseInt(args[limitIdx + 1], 10) : null;
 
 const HIGH_RISK_CHAPTERS = new Set([
   'genesis/2','genesis/3','genesis/6','genesis/9','genesis/19','genesis/38','genesis/39',
-  'judges/14','judges/16','judges/19','2-samuel/11','2-samuel/13','1-kings/1',
+  'judges/16','judges/19','2-samuel/11','2-samuel/13','1-kings/1',
   'proverbs/5','proverbs/7',
   'song-of-solomon/1','song-of-solomon/2','song-of-solomon/3','song-of-solomon/4',
   'song-of-solomon/5','song-of-solomon/6','song-of-solomon/7','song-of-solomon/8',
   'hosea/1','hosea/2','hosea/3',
-  'matthew/27','mark/15','luke/23','john/19',
   'revelation/17','revelation/18',
 ]);
 
 const REJECT_THRESHOLDS = {
   'explicit-nudity': 0.55,
   'sexual-minors': 0.2,
-  'violence-graphic': 0.75,
   'hate': 0.7,
 };
 const FLAG_THRESHOLDS = {
@@ -69,10 +67,6 @@ const FLAG_THRESHOLDS = {
   'underwear-or-swimwear': 0.45,
   'revealing-clothes': 0.5,
   'suggestive': 0.4,
-  'disturbing': 0.55,
-  'violence-graphic': 0.5,
-  'violence': 0.55,
-  'weapons': 0.7,
 };
 
 // Wikimedia (and some other hosts) block bot User-Agents — OpenAI's fetcher

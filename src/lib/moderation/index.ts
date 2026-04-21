@@ -13,6 +13,8 @@ export type { ModerationDecision, ModerationProviderResult, ModerationStatus } f
  * record. Any artwork attached to one of these is forced through manual
  * review regardless of automated scores.
  */
+// Focused on nudity / sexual content, not violence. Crucifixion and martyrdom
+// chapters are intentionally NOT in this list — we treat those as normal art.
 const HIGH_RISK_CHAPTERS = new Set([
   'genesis/2',   // Eden, pre-fall
   'genesis/3',   // Fall, nakedness named
@@ -21,7 +23,6 @@ const HIGH_RISK_CHAPTERS = new Set([
   'genesis/19',  // Lot and his daughters
   'genesis/38',  // Tamar
   'genesis/39',  // Joseph and Potiphar's wife
-  'judges/14',   // Samson
   'judges/16',   // Samson and Delilah
   'judges/19',   // Levite's concubine
   '2-samuel/11', // David and Bathsheba
@@ -40,10 +41,6 @@ const HIGH_RISK_CHAPTERS = new Set([
   'hosea/1',
   'hosea/2',
   'hosea/3',
-  'matthew/27', // crucifixion — often depicted with loincloth only
-  'mark/15',
-  'luke/23',
-  'john/19',
   'revelation/17', // Whore of Babylon
   'revelation/18',
 ]);
@@ -52,7 +49,6 @@ const HIGH_RISK_CHAPTERS = new Set([
 const REJECT_THRESHOLDS: Record<string, number> = {
   'explicit-nudity': 0.55,
   'sexual-minors': 0.2,      // very low — never OK
-  'violence-graphic': 0.75,
   'hate': 0.7,
 };
 
@@ -63,10 +59,6 @@ const FLAG_THRESHOLDS: Record<string, number> = {
   'underwear-or-swimwear': 0.45,
   'revealing-clothes': 0.5,
   'suggestive': 0.4,
-  'disturbing': 0.55,
-  'violence-graphic': 0.5,
-  'violence': 0.55,
-  'weapons': 0.7,
 };
 
 export async function moderateArtwork({
