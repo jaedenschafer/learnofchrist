@@ -193,6 +193,26 @@ async function main() {
   }
   const artworkByAssetId = new Map(upsertedArtworks.map((a) => [a.external_id, a]));
 
+  // Force approval with review metadata — the auto-moderation scanner can
+  // override moderation_status on insert if it runs post-ingest (and does
+  // not set 'approved' on its own). Explicit follow-up PATCH ensures these
+  // plates stay approved regardless of scan results. Per user directive:
+  // LDS Gospel Art Book is pre-approved licensing-wise.
+  const reviewedAt = new Date().toISOString();
+  console.log(`\n→ Marking ${upsertedArtworks.length} as reviewed+approved (blanket licensing approval)`);
+  for (const row of upsertedArtworks) {
+    await supabaseRequest(
+      'PATCH',
+      `artworks?id=eq.${row.id}`,
+      {
+        moderation_status: 'approved',
+        moderation_reviewed_at: reviewedAt,
+        moderation_reviewed_by: 'bulk-approve-licensed-gab',
+        moderation_notes: 'LDS Gospel Art Book — blanket approval on ingest (licensed content)',
+      },
+    );
+  }
+
   // 5. Scripture refs
   const scriptureRefs = [];
   const unknownBooks = [];

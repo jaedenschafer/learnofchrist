@@ -75,9 +75,87 @@ const FLAG_THRESHOLDS = {
   'weapons': 0.7,
 };
 
-async function moderateOpenAI(url) {
-  if (!OPENAI_API_KEY) return { provider: 'openai', ran: false, labels: {} };
+// Wikimedia (and some other hosts) block bot User-Agents — OpenAI's fetcher
+// can't download these images directly. Pre-fetch with a descriptive UA and
+// send inline as a base64 data URL so OpenAI never has to reach out.
+const IMAGE_UA =
+  'LearnOfChrist-ModerationBot/1.0 (https://learnofchrist.com; contact: podcaststudioaz@gmail.com)';
+
+function toModerationUrl(url) {
+  // For Wikimedia Commons Special:FilePath URLs we can append ?width=800 to
+  // get a thumbnail instead of the multi-MB full-res painting. OpenAI's
+  // moderation model downsamples anyway, so 800px is plenty. This also
+  // drastically cuts per-image bandwidth and makes rate-limit recovery
+  // much faster.
   try {
+    const u = new URL(url);
+    if (u.hostname.endsWith('wikimedia.org') || u.hostname.endsWith('wikipedia.org')) {
+      if (!u.searchParams.has('width')) u.searchParams.set('width', '800');
+      return u.toString();
+    }
+  } catch {}
+  return url;
+}
+
+async function fetchImageBytesOnce(url, { timeoutMs = 30000 } = {}) {
+  // AbortController-based timeout so a hung Wikimedia thumbnail server can't
+  // wedge the whole scan.
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(new Error('fetch-timeout')), timeoutMs);
+  try {
+    const r = await fetch(toModerationUrl(url), {
+      headers: {
+        'User-Agent': IMAGE_UA,
+        Accept: 'image/*,*/*;q=0.8',
+      },
+      redirect: 'follow',
+      signal: controller.signal,
+    });
+    if (!r.ok) {
+      const err = new Error(`fetch ${r.status}`);
+      err.status = r.status;
+      err.retryAfter = parseFloat(r.headers.get('retry-after') || '0');
+      throw err;
+    }
+    const buf = Buffer.from(await r.arrayBuffer());
+    let contentType = r.headers.get('content-type') || 'image/jpeg';
+    contentType = contentType.split(';')[0].trim() || 'image/jpeg';
+    return { buf, contentType };
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function fetchImageBytes(url, opts = {}) {
+  // Wikimedia 429s aggressively when we fetch many images in parallel. Back
+  // off and retry — 429s go away after a second or two.
+  const MAX_ATTEMPTS = 5;
+  let lastErr;
+  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+    try {
+      return await fetchImageBytesOnce(url, opts);
+    } catch (e) {
+      lastErr = e;
+      const retryable = e.status === 429 || e.status === 503 || e.status === 504 ||
+        e.message === 'fetch-timeout' || e.name === 'AbortError' ||
+        e.code === 'ECONNRESET' || e.code === 'UND_ERR_SOCKET';
+      if (!retryable || attempt === MAX_ATTEMPTS) throw e;
+      // Retry-After header if provided, else exponential backoff with jitter
+      const retryAfter = e.retryAfter && e.retryAfter > 0 ? e.retryAfter * 1000 : 0;
+      const backoff = retryAfter || (Math.pow(2, attempt) * 500 + Math.random() * 500);
+      await new Promise((r) => setTimeout(r, backoff));
+    }
+  }
+  throw lastErr;
+}
+
+async function moderateOpenAI(bytes) {
+  if (!OPENAI_API_KEY) return { provider: 'openai', ran: false, labels: {} };
+  if (!bytes) return { provider: 'openai', ran: true, error: 'no-bytes', labels: {} };
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(new Error('openai-timeout')), 30000);
+  try {
+    const dataUrl = `data:${bytes.contentType};base64,${bytes.buf.toString('base64')}`;
     const r = await fetch('https://api.openai.com/v1/moderations', {
       method: 'POST',
       headers: {
@@ -86,10 +164,14 @@ async function moderateOpenAI(url) {
       },
       body: JSON.stringify({
         model: 'omni-moderation-latest',
-        input: [{ type: 'image_url', image_url: { url } }],
+        input: [{ type: 'image_url', image_url: { url: dataUrl } }],
       }),
+      signal: controller.signal,
     });
-    if (!r.ok) return { provider: 'openai', ran: true, error: `${r.status}`, labels: {} };
+    if (!r.ok) {
+      const body = await r.text().catch(() => '');
+      return { provider: 'openai', ran: true, error: `${r.status} ${body.slice(0, 180)}`, labels: {} };
+    }
     const j = await r.json();
     const s = j.results?.[0]?.category_scores || {};
     return {
@@ -106,6 +188,8 @@ async function moderateOpenAI(url) {
     };
   } catch (e) {
     return { provider: 'openai', ran: true, error: e.message, labels: {} };
+  } finally {
+    clearTimeout(timer);
   }
 }
 
@@ -138,16 +222,14 @@ function awsLabelToCanonical(name) {
   return null;
 }
 
-async function moderateAws(url) {
+async function moderateAws(bytes) {
   const client = getRekognitionClient();
   if (!client) return { provider: 'aws', ran: false, labels: {} };
+  if (!bytes) return { provider: 'aws', ran: true, error: 'no-bytes', labels: {} };
   try {
-    const imgRes = await fetch(url);
-    if (!imgRes.ok) return { provider: 'aws', ran: true, error: `fetch ${imgRes.status}`, labels: {} };
-    const buf = Buffer.from(await imgRes.arrayBuffer());
     const out = await client.send(
       new DetectModerationLabelsCommand({
-        Image: { Bytes: buf },
+        Image: { Bytes: bytes.buf },
         MinConfidence: 30,
       }),
     );
@@ -223,19 +305,37 @@ async function getRefsForArtwork(artworkId) {
     .filter(Boolean);
 }
 
-async function main() {
-  let q = supabase
-    .from('artworks')
-    .select('id, image_url, title, moderation_status')
-    .order('created_at', { ascending: true });
-
-  if (!rescanAll) {
-    q = q.or('moderation_status.eq.pending,moderation_status.is.null');
+async function fetchArtworksPaginated() {
+  // PostgREST caps responses at ~1000 rows by default. Paginate so we catch
+  // all 1,050+ artworks instead of silently stopping at the first page.
+  const PAGE = 500;
+  const all = [];
+  let from = 0;
+  while (true) {
+    let q = supabase
+      .from('artworks')
+      .select('id, image_url, title, moderation_status')
+      .order('created_at', { ascending: true })
+      .range(from, from + PAGE - 1);
+    if (!rescanAll) {
+      q = q.or('moderation_status.eq.pending,moderation_status.is.null');
+    }
+    const { data, error } = await q;
+    if (error) throw error;
+    if (!data || data.length === 0) break;
+    all.push(...data);
+    if (data.length < PAGE) break;
+    from += PAGE;
+    if (limit && all.length >= limit) break;
   }
-  if (limit) q = q.limit(limit);
+  return limit ? all.slice(0, limit) : all;
+}
 
-  const { data: artworks, error } = await q;
-  if (error) {
+async function main() {
+  let artworks;
+  try {
+    artworks = await fetchArtworksPaginated();
+  } catch (error) {
     console.error('query failed', error);
     process.exit(1);
   }
@@ -246,12 +346,28 @@ async function main() {
   }
 
   let ok = 0, rejected = 0, flagged = 0, pending = 0;
-  for (const art of artworks || []) {
-    process.stdout.write(`  ${art.title.slice(0, 50)}…  `);
+  let processed = 0;
+  const total = artworks.length;
+
+  // Worker pool — process N images concurrently to get real throughput
+  // instead of paying serial latency on every image. OpenAI moderation has
+  // generous rate limits (hundreds RPM on paid tiers), image fetches are
+  // I/O bound, and DB updates are small point-writes. 10 workers keeps us
+  // well inside every limit while cutting runtime ~10x.
+  const CONCURRENCY = parseInt(process.env.MOD_CONCURRENCY || '5', 10);
+
+  async function processOne(art) {
     const refs = await getRefsForArtwork(art.id);
+    let bytes = null;
+    let fetchError = null;
+    try {
+      bytes = await fetchImageBytes(art.image_url);
+    } catch (e) {
+      fetchError = e.message;
+    }
     const [openai, aws] = await Promise.all([
-      moderateOpenAI(art.image_url),
-      moderateAws(art.image_url),
+      bytes ? moderateOpenAI(bytes) : Promise.resolve({ provider: 'openai', ran: OPENAI_API_KEY ? true : false, error: fetchError || 'no-bytes', labels: {} }),
+      bytes ? moderateAws(bytes) : Promise.resolve({ provider: 'aws', ran: (AWS_ACCESS_KEY_ID && AWS_SECRET_ACCESS_KEY) ? true : false, error: fetchError || 'no-bytes', labels: {} }),
     ]);
     const d = decide([openai, aws], refs);
     await supabase
@@ -273,15 +389,36 @@ async function main() {
         },
       })
       .eq('id', art.id);
-    console.log(d.status, d.worstLabel || '', d.worstScore ? `(${Math.round(d.worstScore*100)}%)` : '');
+    processed++;
     if (d.status === 'rejected') rejected++;
     else if (d.status === 'flagged') flagged++;
     else if (d.status === 'pending') pending++;
     else ok++;
-    await new Promise((r) => setTimeout(r, 200));
+    // Compact per-item log — parallel output gets messy, keep it minimal.
+    const score = d.worstScore ? ` ${Math.round(d.worstScore*100)}%` : '';
+    console.log(`[${processed}/${total}] ${d.status.padEnd(8)} ${(d.worstLabel || '-').padEnd(18)}${score}  ${art.title.slice(0, 50)}`);
   }
-  console.log(`\nDone. ${ok} ok · ${flagged} flagged · ${rejected} rejected · ${pending} pending.`);
-  console.log(`Review at http://localhost:3000/admin/artwork-moderation`);
+
+  // Simple async pool: N workers pull from a shared index.
+  let nextIdx = 0;
+  async function worker() {
+    while (true) {
+      const i = nextIdx++;
+      if (i >= artworks.length) return;
+      try {
+        await processOne(artworks[i]);
+      } catch (e) {
+        processed++;
+        console.error(`[${processed}/${total}] ERROR  ${artworks[i].title.slice(0, 40)}: ${e.message}`);
+      }
+    }
+  }
+  console.log(`Running with concurrency=${CONCURRENCY}`);
+  const startTs = Date.now();
+  await Promise.all(Array.from({ length: CONCURRENCY }, () => worker()));
+  const secs = Math.round((Date.now() - startTs) / 1000);
+  console.log(`\nDone in ${secs}s. ${ok} ok · ${flagged} flagged · ${rejected} rejected · ${pending} pending.`);
+  console.log(`Review at https://learnofchrist.com/admin/artwork-review`);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });
