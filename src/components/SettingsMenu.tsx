@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import {
   useReadingPrefs,
   type FontSize,
@@ -44,16 +45,24 @@ export default function SettingsMenu({
 }) {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
+  const pathname = usePathname();
   const {
     theme,
     setTheme,
     fontSize,
     setFontSize,
-    focusMode,
-    setFocusMode,
     hiddenSections,
     toggleSection,
   } = useReadingPrefs();
+
+  // When the user is on a study chapter page like /study/genesis/1, give them
+  // a one-tap escape hatch to the plain Bible reader at /bible/genesis/1.
+  // Replaces the old "Scripture only" focus-mode toggle, which only hid UI
+  // chrome — sending them to the actual reader is a cleaner contract.
+  const studyMatch = pathname?.match(/^\/study\/([^/]+)\/(\d+)/);
+  const plainScriptureHref = studyMatch
+    ? `/bible/${studyMatch[1]}/${studyMatch[2]}`
+    : null;
 
   useEffect(() => {
     if (!open) return;
@@ -136,16 +145,34 @@ export default function SettingsMenu({
             </Segmented>
           </Group>
 
-          <Group label="Focus mode">
-            <Segmented>
-              <SegmentButton active={focusMode === 'full'} onClick={() => setFocusMode('full')}>
-                Full
-              </SegmentButton>
-              <SegmentButton active={focusMode === 'focus'} onClick={() => setFocusMode('focus')}>
-                Scripture only
-              </SegmentButton>
-            </Segmented>
-          </Group>
+          {plainScriptureHref && (
+            <Group label="Reading mode">
+              <Link
+                href={plainScriptureHref}
+                onClick={() => setOpen(false)}
+                className="settings-plain-link"
+              >
+                <span>Read plain scripture</span>
+                <svg
+                  viewBox="0 0 24 24"
+                  width="14"
+                  height="14"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M5 12h14M13 5l7 7-7 7" />
+                </svg>
+              </Link>
+              <p className="settings-plain-help">
+                Skip the study guide and open this chapter in the plain Bible
+                reader — verse text only, no images or commentary.
+              </p>
+            </Group>
+          )}
 
           <Group label="Study sections">
             <ul className="space-y-1">

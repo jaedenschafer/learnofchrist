@@ -345,6 +345,47 @@ html[data-reader-theme="dark"] .btn-outline:hover {
 }
 
 /* ─── Breadcrumb ─── */
+/* SettingsMenu "Read plain scripture" action link */
+.settings-plain-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.65rem 0.85rem;
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--color-primary) 8%, transparent);
+  color: var(--color-primary);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 160ms ease, transform 160ms ease;
+}
+
+.settings-plain-link:hover {
+  background: color-mix(in srgb, var(--color-primary) 14%, transparent);
+}
+
+.settings-plain-link:hover svg {
+  transform: translateX(2px);
+}
+
+.settings-plain-link:active {
+  transform: scale(0.98);
+}
+
+.settings-plain-link svg {
+  flex-shrink: 0;
+  transition: transform 160ms ease;
+}
+
+.settings-plain-help {
+  font-size: 0.75rem;
+  line-height: 1.45;
+  color: var(--color-tertiary-label);
+  margin: 0.5rem 0 0;
+}
+
 /* Liquid-glass back button — replaces the old breadcrumb trail. */
 .back-nav {
   display: flex;
