@@ -181,23 +181,59 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
           { label: `Chapter ${chapter}`, href: '#' },
         ]} />
 
-        {/* Header — clean editorial */}
+        {/* Header — book + chapter, with utility icons floating at top right */}
         <header className="study-hero">
-          <h1 className="study-hero__title">
-            {isGenesisOne ? 'Genesis 1' : `${book_obj.name} ${chapter}`}
-          </h1>
-          <p className="study-hero__dek">
-            {isGenesisOne
-              ? 'A verse-by-verse walk through Genesis 1 — the seven days of creation, the Hebrew behind the words, and how the chapter points to Christ.'
-              : 'Themes, discussion questions, and Christ connections.'}
-          </p>
-          <Link href={`/bible/${book}/${chapter}`} className="study-hero__meta-link">
-            Read the chapter
-            <span aria-hidden="true">→</span>
-          </Link>
+          <div className="study-hero__utilities">
+            <a
+              href="#study-audio"
+              className="study-hero__util"
+              aria-label="Jump to audio player"
+            >
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth={1.7} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <path d="M3 14a9 9 0 0118 0" />
+                <rect x="3" y="14" width="4" height="6" rx="1.5" />
+                <rect x="17" y="14" width="4" height="6" rx="1.5" />
+              </svg>
+            </a>
+            <Link
+              href={`/bible/${book}/${chapter}`}
+              className="study-hero__util"
+              aria-label="Read this chapter"
+            >
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth={1.7} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="6.5" />
+                <path d="M20 20l-3.5-3.5" />
+              </svg>
+            </Link>
+            <a
+              href="#study-filters"
+              className="study-hero__util study-hero__util--pill"
+              aria-label="Change translation"
+            >
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth={1.7} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="9" />
+                <path d="M3 12h18" />
+                <path d="M12 3a14 14 0 010 18" />
+                <path d="M12 3a14 14 0 000 18" />
+              </svg>
+              <span>{defaultTranslation.toUpperCase()}</span>
+            </a>
+          </div>
+
+          <p className="study-hero__book">{book_obj.name}</p>
+          <h1 className="study-hero__chapter">{chapter}</h1>
+
+          {isGenesisOne && (
+            <p className="study-hero__dek">
+              A verse-by-verse walk through Genesis 1 — the seven days of creation,
+              the Hebrew behind the words, and how the chapter points to Christ.
+            </p>
+          )}
         </header>
 
-        <StudyFilters />
+        <div id="study-filters">
+          <StudyFilters />
+        </div>
 
         <div className="space-y-4 mt-4">
           {isGenesisOne ? (

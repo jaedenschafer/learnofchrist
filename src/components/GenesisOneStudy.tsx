@@ -281,7 +281,7 @@ export default function GenesisOneStudy({ artworks = [] }: GenesisOneStudyProps)
           chapter={1}
         />
 
-        <div className="study-top-actions">
+        <div id="study-audio" className="study-top-actions">
           <StudyAudioPlayer />
           <ShareButton
             variant="ghost"

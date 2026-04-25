@@ -444,82 +444,116 @@ html[data-reader-theme="dark"] .btn-outline:hover {
   .page-header h1 { font-size: 2.5rem; }
 }
 
-/* ─── Study Hero ─── */
+/* ─── Study Hero ─────────────────────────────────────────────────────
+   Centered book name + a massive chapter number, with a small utility
+   icon row floating in the top-right corner. The icons are anchor links
+   that jump to the audio player and the StudyFilters bar — they degrade
+   gracefully if those targets aren't on the page. */
 .study-hero {
-  padding: 1rem 0 1.25rem;
-  margin-bottom: 1rem;
+  position: relative;
+  text-align: center;
+  padding: 1.5rem 0 2rem;
+  margin-bottom: 1.5rem;
   border-bottom: 1px solid var(--color-separator);
 }
-.study-hero__kicker {
+
+/* Utility row — top right */
+.study-hero__utilities {
+  position: absolute;
+  top: 0.75rem;
+  right: 0;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 0.5em;
-  font-size: 0.6875rem;
-  font-weight: 600;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--color-tertiary-label);
-  margin: 0 0 0.75rem;
+  gap: 0.5rem;
+  z-index: 1;
 }
-.study-hero__kicker-book {
-  color: var(--color-primary);
-}
-.study-hero__kicker-apoc {
-  color: #AF52DE;
-}
-.study-hero__kicker-sep {
-  color: var(--color-tertiary-label);
-  opacity: 0.55;
-  font-weight: 400;
-  letter-spacing: 0;
-}
-.study-hero__title {
-  font-family: var(--font-serif);
-  font-weight: 700;
-  font-size: clamp(2rem, 1.4rem + 2.4vw, 2.75rem);
-  line-height: 1.1;
-  letter-spacing: -0.02em;
+
+.study-hero__util {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
   color: var(--color-label);
-  margin: 0 0 0.5rem;
-  text-wrap: balance;
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 160ms ease, color 160ms ease;
 }
+.study-hero__util:hover {
+  background: color-mix(in srgb, var(--color-label) 8%, transparent);
+}
+.study-hero__util:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.study-hero__util--pill {
+  width: auto;
+  padding: 0 0.875rem;
+  gap: 0.4rem;
+  background: color-mix(in srgb, var(--color-label) 8%, transparent);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+.study-hero__util--pill:hover {
+  background: color-mix(in srgb, var(--color-label) 14%, transparent);
+}
+
+/* Book name — small centered serif */
+.study-hero__book {
+  font-family: var(--font-serif), 'EB Garamond', Georgia, serif;
+  font-weight: 500;
+  font-size: clamp(1.0625rem, 0.9rem + 0.6vw, 1.25rem);
+  line-height: 1.2;
+  color: var(--color-secondary-label);
+  letter-spacing: 0.005em;
+  margin: 0 0 0.25rem;
+}
+
+/* Chapter number — massive centered serif */
+.study-hero__chapter {
+  font-family: var(--font-serif), 'EB Garamond', Georgia, serif;
+  font-weight: 700;
+  font-size: clamp(4.5rem, 12vw, 7.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+  color: var(--color-label);
+  margin: 0;
+  padding: 0;
+}
+
+/* Optional dek under the chapter number */
 .study-hero__dek {
-  font-family: var(--font-serif);
+  font-family: var(--font-serif), 'EB Garamond', Georgia, serif;
   font-style: italic;
-  font-size: clamp(1rem, 0.9rem + 0.4vw, 1.125rem);
+  font-size: clamp(0.9375rem, 0.9rem + 0.3vw, 1.0625rem);
   line-height: 1.5;
   color: var(--color-secondary-label);
   max-width: 36rem;
-  margin: 0 0 0.75rem;
+  margin: 1.25rem auto 0;
   text-wrap: pretty;
 }
-.study-hero__meta {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  font-size: 0.8125rem;
-  color: var(--color-tertiary-label);
-}
+
+/* Legacy classes kept as no-ops so any leftover usage still parses */
+.study-hero__kicker,
+.study-hero__kicker-book,
+.study-hero__kicker-apoc,
+.study-hero__kicker-sep,
+.study-hero__title,
+.study-hero__meta,
 .study-hero__meta-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.375rem;
-  font-size: 0.8125rem;
-  font-weight: 500;
-  color: var(--color-primary);
-  transition: transform 160ms ease;
+  /* Intentionally minimal — these classes were retired with the redesign. */
 }
-.study-hero__meta-link:hover > span[aria-hidden="true"] {
-  transform: translateX(2px);
-}
-.study-hero__meta-link > span[aria-hidden="true"] {
-  transition: transform 160ms ease;
-}
+
 @media (min-width: 640px) {
   .study-hero {
-    padding: 1.25rem 0 1.5rem;
+    padding: 2rem 0 2.25rem;
   }
+  .study-hero__utilities { top: 1rem; }
 }
 
 /* ─── CTA Banner ─── */
