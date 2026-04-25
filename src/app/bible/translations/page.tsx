@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getAllTranslations } from '@/data/translations';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
+import JsonLd from '@/components/JsonLd';
 
 // ─── ISR ───
 // Cache pages for 24h; regenerate in background after that.
@@ -85,31 +86,28 @@ export default function TranslationsPage() {
       </div>
 
       {/* Schema.org */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'CollectionPage',
-            name: 'Bible Translations',
-            description: 'A collection of 8 major English Bible translations from different Christian traditions.',
-            url: 'https://learnofchrist.com/bible/translations',
-            mainEntity: {
-              '@type': 'ItemList',
-              itemListElement: translations.map((t, i) => ({
-                '@type': 'ListItem',
-                position: i + 1,
-                item: {
-                  '@type': 'Book',
-                  name: t.fullName,
-                  alternateName: t.abbreviation,
-                  datePublished: t.year.toString(),
-                  description: t.description,
-                  url: `https://learnofchrist.com/bible/translations/${t.id}`,
-                },
-              })),
-            },
-          }),
+      <JsonLd
+        data={{
+          '@context': 'https://schema.org',
+          '@type': 'CollectionPage',
+          name: 'Bible Translations',
+          description: 'A collection of 8 major English Bible translations from different Christian traditions.',
+          url: 'https://learnofchrist.com/bible/translations',
+          mainEntity: {
+            '@type': 'ItemList',
+            itemListElement: translations.map((t, i) => ({
+              '@type': 'ListItem',
+              position: i + 1,
+              item: {
+                '@type': 'Book',
+                name: t.fullName,
+                alternateName: t.abbreviation,
+                datePublished: t.year.toString(),
+                description: t.description,
+                url: `https://learnofchrist.com/bible/translations/${t.id}`,
+              },
+            })),
+          },
         }}
       />
     </main>

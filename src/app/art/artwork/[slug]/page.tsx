@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getArtworkBySlug, getAllArtworkSlugs } from '@/lib/supabase';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
+import JsonLd from '@/components/JsonLd';
 
 export const revalidate = 86400;
 export const dynamicParams = true;
@@ -71,10 +72,7 @@ export default async function ArtworkPage({ params }: PageProps) {
 
   return (
     <div className="page-container">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <JsonLd data={jsonLd} />
       <div className="max-w-4xl mx-auto">
         <BreadcrumbNav items={[
           { label: 'Art', href: '/art' },

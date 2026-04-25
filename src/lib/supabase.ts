@@ -1,13 +1,22 @@
 import { createClient } from '@supabase/supabase-js';
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
-const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
+// Public anon credentials. Missing env vars don't crash module load — build
+// runs without .env.local — but queries log + return empty arrays so static
+// generation produces an empty Supabase-backed surface rather than failing.
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL ?? '';
+const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ?? '';
 
 // Client for browser-side queries (respects RLS)
-export const supabase = createClient(supabaseUrl, supabaseAnonKey);
+export const supabase = createClient(
+  supabaseUrl || 'http://localhost',
+  supabaseAnonKey || 'anon',
+);
 
 // Server client for build-time queries (also uses anon key since content is public)
-export const supabaseServer = createClient(supabaseUrl, supabaseAnonKey);
+export const supabaseServer = createClient(
+  supabaseUrl || 'http://localhost',
+  supabaseAnonKey || 'anon',
+);
 
 // ─── Query helpers ───
 
@@ -40,46 +49,21 @@ export interface BookRecord {
   sort_order: number;
 }
 
-/** Fetch all active translations */
-export async function getTranslations(): Promise<Translation[]> {
-  const { data, error } = await supabaseServer
-    .from('translations')
-    .select('*')
-    .eq('is_active', true)
-    .order('abbreviation');
-
-  if (error) {
-    console.error('Error fetching translations:', error);
-    return [];
-  }
-  return data || [];
-}
-
-/** Fetch verses for a specific book + chapter + translation */
-export async function getVerses(
+async function fetchVerses(
+  client: typeof supabase,
   bookSlug: string,
   chapter: number,
-  translationAbbr: string = 'kjv'
+  translationAbbr: string,
 ): Promise<Verse[]> {
-  // First get translation ID
-  const { data: translation } = await supabaseServer
-    .from('translations')
-    .select('id')
-    .eq('abbreviation', translationAbbr)
-    .single();
+  // Translation + book lookups are independent — run in parallel.
+  const [{ data: translation }, { data: book }] = await Promise.all([
+    client.from('translations').select('id').eq('abbreviation', translationAbbr).single(),
+    client.from('books').select('id').eq('slug', bookSlug).single(),
+  ]);
 
-  if (!translation) return [];
+  if (!translation || !book) return [];
 
-  // Then get the book ID from slug
-  const { data: book } = await supabaseServer
-    .from('books')
-    .select('id')
-    .eq('slug', bookSlug)
-    .single();
-
-  if (!book) return [];
-
-  const { data: verses, error } = await supabaseServer
+  const { data: verses, error } = await client
     .from('verses')
     .select('*')
     .eq('book_id', book.id)
@@ -92,53 +76,25 @@ export async function getVerses(
     return [];
   }
 
-  return (verses || []).map(v => ({
-    ...v,
-    book_slug: bookSlug,
-  }));
+  return (verses || []).map((v) => ({ ...v, book_slug: bookSlug }));
 }
 
-/** Fetch verses for client-side translation switching (by translation abbreviation) */
-export async function fetchVersesClient(
+/** Fetch verses for a specific book + chapter + translation (server). */
+export function getVerses(
   bookSlug: string,
   chapter: number,
-  translationAbbr: string
+  translationAbbr: string = 'kjv',
 ): Promise<Verse[]> {
-  // Get translation ID
-  const { data: translation } = await supabase
-    .from('translations')
-    .select('id')
-    .eq('abbreviation', translationAbbr)
-    .single();
+  return fetchVerses(supabaseServer, bookSlug, chapter, translationAbbr);
+}
 
-  if (!translation) return [];
-
-  // Get book ID
-  const { data: book } = await supabase
-    .from('books')
-    .select('id')
-    .eq('slug', bookSlug)
-    .single();
-
-  if (!book) return [];
-
-  const { data: verses, error } = await supabase
-    .from('verses')
-    .select('*')
-    .eq('book_id', book.id)
-    .eq('chapter', chapter)
-    .eq('translation_id', translation.id)
-    .order('verse_number');
-
-  if (error) {
-    console.error('Error fetching verses:', error);
-    return [];
-  }
-
-  return (verses || []).map(v => ({
-    ...v,
-    book_slug: bookSlug,
-  }));
+/** Fetch verses for client-side translation switching. */
+export function fetchVersesClient(
+  bookSlug: string,
+  chapter: number,
+  translationAbbr: string,
+): Promise<Verse[]> {
+  return fetchVerses(supabase, bookSlug, chapter, translationAbbr);
 }
 
 /** Fetch all books from Supabase */
@@ -566,40 +522,15 @@ export async function getFilteredArtworks(
 export async function getArtistsWithArt(): Promise<
   Array<{ id: string; slug: string; name: string; count: number }>
 > {
-  // Pull all approved artwork artist_ids (paginated for safety).
-  const artistIds: string[] = [];
-  let from = 0;
-  while (true) {
-    const { data, error } = await supabaseServer
-      .from('artworks')
-      .select('artist_id')
-      .eq('status', 'published')
-      .eq('moderation_status', 'approved')
-      .not('artist_id', 'is', null)
-      .range(from, from + 999);
-    if (error) {
-      console.error('Error fetching artist ids:', error);
-      break;
-    }
-    if (!data || data.length === 0) break;
-    for (const r of data as Array<{ artist_id: string }>) artistIds.push(r.artist_id);
-    if (data.length < 1000) break;
-    from += 1000;
+  const { data, error } = await supabaseServer.rpc('artists_with_art');
+  if (error) {
+    console.error('Error fetching artists with art:', error);
+    return [];
   }
-  if (artistIds.length === 0) return [];
-
-  const counts = new Map<string, number>();
-  for (const id of artistIds) counts.set(id, (counts.get(id) || 0) + 1);
-
-  const uniqueIds = Array.from(counts.keys());
-  const { data: artists } = await supabaseServer
-    .from('artists')
-    .select('id, slug, name')
-    .in('id', uniqueIds)
-    .order('name', { ascending: true });
-
-  return ((artists || []) as Array<{ id: string; slug: string; name: string }>).map((a) => ({
-    ...a,
-    count: counts.get(a.id) || 0,
+  return ((data ?? []) as Array<{ id: string; slug: string; name: string; count: number | string }>).map((a) => ({
+    id: a.id,
+    slug: a.slug,
+    name: a.name,
+    count: typeof a.count === 'string' ? Number(a.count) : a.count,
   }));
 }

@@ -1,5 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { redirect } from 'next/navigation';
+import { isCurrentUserAdmin } from '@/lib/isAdmin';
+import { getCurrentUser } from '@/lib/supabase/server';
 import { supabaseAdmin } from '@/lib/supabaseAdmin';
 import ReviewList, { type QueueItem } from './review-list';
 
@@ -78,6 +81,12 @@ async function loadQueue(): Promise<{ items: QueueItem[]; error?: string }> {
 }
 
 export default async function ArtworkModerationPage() {
+  const user = await getCurrentUser();
+  if (!user) redirect('/auth/sign-in?next=/admin/artwork-moderation');
+  if (!(await isCurrentUserAdmin())) {
+    return <NotAuthorized />;
+  }
+
   const { items, error } = await loadQueue();
   return (
     <div style={{ background: '#F5F5F7', minHeight: '100vh' }}>
@@ -113,9 +122,8 @@ export default async function ArtworkModerationPage() {
         </h1>
         <p style={{ fontSize: 14, color: '#48484A', margin: 0, maxWidth: 640 }}>
           Flagged, reported, or pending artwork awaiting review. Only items
-          marked <strong>Approved</strong> show up to readers. Paste your
-          ADMIN_API_KEY below to unlock actions. For a fast one-at-a-time
-          flow, use{' '}
+          marked <strong>Approved</strong> show up to readers. For a fast
+          one-at-a-time flow, use{' '}
           <Link
             href="/admin/artwork-review"
             style={{ color: '#007AFF', textDecoration: 'none', fontWeight: 600 }}
@@ -168,13 +176,39 @@ export default async function ArtworkModerationPage() {
           </pre>
           <p style={{ fontSize: 13, color: '#48484A', margin: 0, lineHeight: 1.5 }}>
             Usually this means <code>SUPABASE_SERVICE_ROLE_KEY</code> isn&rsquo;t set
-            in your environment, or you haven&rsquo;t run{' '}
-            <code>supabase/migrations/001_artwork_moderation.sql</code> yet.
+            in your environment, or you haven&rsquo;t run the artwork moderation
+            migration yet.
           </p>
         </div>
       ) : (
         <ReviewList items={items} />
       )}
+    </div>
+  );
+}
+
+function NotAuthorized() {
+  return (
+    <div style={{ background: '#F5F5F7', minHeight: '100vh', padding: '80px 20px' }}>
+      <div
+        style={{
+          maxWidth: 460,
+          margin: '0 auto',
+          padding: 28,
+          background: '#fff',
+          borderRadius: 20,
+          border: '1px solid rgba(0,0,0,0.06)',
+          fontFamily: '-apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif',
+          textAlign: 'center',
+        }}
+      >
+        <h1 style={{ fontSize: 22, margin: '0 0 8px', color: '#1D1D1F' }}>
+          Not authorized
+        </h1>
+        <p style={{ color: '#86868B', fontSize: 14, margin: 0 }}>
+          Your account doesn&rsquo;t have admin access.
+        </p>
+      </div>
     </div>
   );
 }

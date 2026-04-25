@@ -10,6 +10,7 @@ import StudyGuide from '@/components/StudyGuide';
 import { getVerses, getArtworksForChapter } from '@/lib/supabase';
 import { verseExplanations } from '@/data/verse-explanations';
 import ChapterArtStrip from '@/components/ChapterArtStrip';
+import JsonLd from '@/components/JsonLd';
 
 // Code-split client-only UI: the filters bar renders below the hero, and the
 // heavy Genesis 1 deep-dive isn't needed on any other chapter.
@@ -150,10 +151,7 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
 
   return (
     <div className="page-container">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <JsonLd data={jsonLd} />
       <div className="max-w-3xl mx-auto">
         <BreadcrumbNav items={[
           { label: 'Study', href: '/study' },

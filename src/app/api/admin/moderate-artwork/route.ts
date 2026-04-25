@@ -12,7 +12,7 @@ import { moderateArtwork } from '@/lib/moderation';
  * own — that's a human decision.
  */
 export async function POST(req: NextRequest) {
-  if (!isAdminRequest(req)) {
+  if (!(await isAdminRequest(req))) {
     return NextResponse.json({ error: 'unauthorized' }, { status: 401 });
   }
   try {

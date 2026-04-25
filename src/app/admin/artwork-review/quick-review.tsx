@@ -17,28 +17,10 @@ interface Decisions {
  * shortcuts (A = approve, X = reject, F = flag, S / → = skip, U = undo).
  */
 export default function QuickReview({ items }: { items: QueueItem[] }) {
-  const [adminKey, setAdminKey] = useState('');
-  const [adminKeyReady, setAdminKeyReady] = useState(false);
   const [decisions, setDecisions] = useState<Decisions>({});
   const [history, setHistory] = useState<string[]>([]); // ids in order acted on
-  const [cursor, setCursor] = useState(0);
+  const [cursor] = useState(0);
   const [busy, setBusy] = useState(false);
-
-  // Load cached key from localStorage on first mount
-  useEffect(() => {
-    try {
-      const k = localStorage.getItem('loc-admin-key');
-      if (k) {
-        setAdminKey(k);
-        setAdminKeyReady(true);
-      }
-    } catch {}
-  }, []);
-
-  const saveKey = () => {
-    try { localStorage.setItem('loc-admin-key', adminKey); } catch {}
-    setAdminKeyReady(true);
-  };
 
   // The queue — flagged first (highest priority), then reported, then pending.
   // Skips anything already acted on in this session.
@@ -66,18 +48,11 @@ export default function QuickReview({ items }: { items: QueueItem[] }) {
       setHistory((h) => [...h, current.id]);
       return;
     }
-    if (!adminKey) {
-      alert('Paste your ADMIN_API_KEY first.');
-      return;
-    }
     setBusy(true);
     try {
       const res = await fetch('/api/admin/artwork-review', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'x-admin-key': adminKey,
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ artwork_id: current.id, decision: action }),
       });
       const json = await res.json();
@@ -94,7 +69,7 @@ export default function QuickReview({ items }: { items: QueueItem[] }) {
     } finally {
       setBusy(false);
     }
-  }, [current, adminKey, busy]);
+  }, [current, busy]);
 
   const undo = useCallback(async () => {
     const lastId = history[history.length - 1];
@@ -106,23 +81,18 @@ export default function QuickReview({ items }: { items: QueueItem[] }) {
       delete next[lastId];
       return next;
     });
-    // Revert server-side only if it was an actual approve/reject/flag
-    if (prev && prev !== 'skipped' && adminKey) {
+    if (prev && prev !== 'skipped') {
       await fetch('/api/admin/artwork-review', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'x-admin-key': adminKey,
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ artwork_id: lastId, decision: 'reset' }),
       });
     }
-  }, [history, decisions, adminKey]);
+  }, [history, decisions]);
 
   // Keyboard shortcuts
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (!adminKeyReady) return;
       if ((e.target as HTMLElement)?.tagName === 'INPUT' || (e.target as HTMLElement)?.tagName === 'TEXTAREA') return;
       if (e.key === 'a' || e.key === 'A') { e.preventDefault(); act('approve'); }
       else if (e.key === 'x' || e.key === 'X') { e.preventDefault(); act('reject'); }
@@ -132,29 +102,7 @@ export default function QuickReview({ items }: { items: QueueItem[] }) {
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [act, undo, adminKeyReady]);
-
-  // ── Gate: paste admin key first ──
-  if (!adminKeyReady) {
-    return (
-      <div className="qr-gate">
-        <h2>Quick review</h2>
-        <p>Paste your admin key to unlock. Stored on this device only.</p>
-        <input
-          type="password"
-          value={adminKey}
-          onChange={(e) => setAdminKey(e.target.value)}
-          placeholder="ADMIN_API_KEY"
-          autoFocus
-          autoComplete="off"
-        />
-        <button type="button" onClick={saveKey} disabled={!adminKey}>
-          Unlock
-        </button>
-        <style jsx>{styles}</style>
-      </div>
-    );
-  }
+  }, [act, undo]);
 
   // ── Empty state ──
   if (!current) {
@@ -296,7 +244,7 @@ export default function QuickReview({ items }: { items: QueueItem[] }) {
 }
 
 const styles = `
-  .qr-gate, .qr-empty {
+  .qr-empty {
     max-width: 440px;
     margin: 80px auto;
     padding: 32px;
@@ -306,22 +254,12 @@ const styles = `
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
   }
-  .qr-gate h2, .qr-empty h2 {
+  .qr-empty h2 {
     font-size: 24px; margin: 0 0 8px; color: #1D1D1F;
   }
-  .qr-gate p, .qr-empty p {
+  .qr-empty p {
     color: #86868B; font-size: 14px; margin: 0 0 16px;
   }
-  .qr-gate input {
-    width: 100%; padding: 10px 12px; border: 1px solid #D1D1D6;
-    border-radius: 10px; font: inherit; margin-bottom: 12px;
-  }
-  .qr-gate button {
-    width: 100%; padding: 10px 12px; border: none;
-    background: #007AFF; color: #fff; border-radius: 10px;
-    font: inherit; font-weight: 600; cursor: pointer;
-  }
-  .qr-gate button:disabled { opacity: 0.4; cursor: not-allowed; }
 
   .qr-empty-emoji {
     font-size: 48px; color: #34C759; margin: 0 0 12px; line-height: 1;

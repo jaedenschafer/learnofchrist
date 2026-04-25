@@ -4,6 +4,7 @@ import dynamic from 'next/dynamic';
 import type { Metadata } from 'next';
 import { getAllBlogPosts, getBlogPostById, categoryColors } from '@/data/blog-posts';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
+import JsonLd from '@/components/JsonLd';
 
 // The FAQ accordion sits at the bottom of the post — defer its JS so it
 // doesn't cost the user anything until they scroll.
@@ -119,16 +120,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
   return (
     <div className="page-container">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
-      />
-      {faqJsonLd && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-        />
-      )}
+      <JsonLd data={articleJsonLd} />
+      {faqJsonLd && <JsonLd data={faqJsonLd} />}
 
       <div className="max-w-3xl mx-auto">
         <BreadcrumbNav

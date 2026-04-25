@@ -5,6 +5,7 @@ import { getAllBooks, getBookByName } from '@/data/books';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 import ChapterNav from '@/components/ChapterNav';
 import VerseDisplay from '@/components/VerseDisplay';
+import JsonLd from '@/components/JsonLd';
 import StudyBanner from '@/components/StudyBanner';
 import { getVerses } from '@/lib/supabase';
 import { verseExplanations } from '@/data/verse-explanations';
@@ -132,10 +133,7 @@ export default async function ChapterReadingPage({ params }: ChapterPageProps) {
 
   return (
     <div className="page-container">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <JsonLd data={jsonLd} />
       <div className="max-w-3xl mx-auto">
         <BreadcrumbNav items={[
           { label: 'Bible', href: '/bible' },

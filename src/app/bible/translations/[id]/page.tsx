@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getAllTranslations, getTranslationById } from '@/data/translations';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
+import JsonLd from '@/components/JsonLd';
 
 // ─── ISR ───
 // Cache pages for 24h; regenerate in background after that.
@@ -135,23 +136,20 @@ export default async function TranslationPage({ params }: { params: Promise<Para
       </div>
 
       {/* Schema.org */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'Article',
-            headline: t.fullName,
+      <JsonLd
+        data={{
+          '@context': 'https://schema.org',
+          '@type': 'Article',
+          headline: t.fullName,
+          description: t.description,
+          mainEntity: {
+            '@type': 'Book',
+            name: t.fullName,
+            alternateName: t.abbreviation,
+            datePublished: t.year.toString(),
+            inLanguage: t.language,
             description: t.description,
-            mainEntity: {
-              '@type': 'Book',
-              name: t.fullName,
-              alternateName: t.abbreviation,
-              datePublished: t.year.toString(),
-              inLanguage: t.language,
-              description: t.description,
-            },
-          }),
+          },
         }}
       />
     </main>

@@ -1,5 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { redirect } from 'next/navigation';
+import { isCurrentUserAdmin } from '@/lib/isAdmin';
+import { getCurrentUser } from '@/lib/supabase/server';
 import { supabaseAdmin } from '@/lib/supabaseAdmin';
 import QuickReview from './quick-review';
 import type { QueueItem } from '../artwork-moderation/review-list';
@@ -134,7 +137,7 @@ function hintForError(msg: string): string {
     msg.includes('does not exist') ||
     msg.toLowerCase().includes('relation')
   ) {
-    return 'The moderation tables/view do not exist yet. Open the Supabase SQL editor and run supabase/migrations/001_artwork_moderation.sql once.';
+    return 'The moderation tables/view do not exist yet. Open the Supabase SQL editor and run the artwork_moderation migration once.';
   }
   if (msg.toLowerCase().includes('permission') || msg.toLowerCase().includes('rls')) {
     return 'Supabase returned a permissions error. Make sure you set SUPABASE_SERVICE_ROLE_KEY (not the anon key) in your prod env — the admin queue needs the service-role key to bypass RLS.';
@@ -143,6 +146,21 @@ function hintForError(msg: string): string {
 }
 
 export default async function ArtworkReviewPage() {
+  const user = await getCurrentUser();
+  if (!user) redirect('/auth/sign-in?next=/admin/artwork-review');
+  if (!(await isCurrentUserAdmin())) {
+    return (
+      <div style={{ background: '#F5F5F7', minHeight: '100vh', padding: '80px 20px' }}>
+        <div style={{ ...setupCardStyle, textAlign: 'center' }}>
+          <h1 style={{ fontSize: 22, margin: '0 0 8px', color: '#1D1D1F' }}>Not authorized</h1>
+          <p style={{ ...setupBodyStyle, margin: 0 }}>
+            Your account doesn&rsquo;t have admin access.
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   const { items, error, setupHint, totalArtworks } = await loadQueue();
 
   return (
@@ -210,12 +228,11 @@ export default async function ArtworkReviewPage() {
           </details>
           <ol style={setupListStyle}>
             <li>
-              Open the Supabase SQL editor and run{' '}
-              <code>supabase/migrations/001_artwork_moderation.sql</code>.
+              Open the Supabase SQL editor and run the artwork_moderation
+              migration plus <code>023_profiles_admin_flag.sql</code>.
             </li>
             <li>
-              Set <code>ADMIN_API_KEY</code> (and optionally{' '}
-              <code>OPENAI_API_KEY</code> / AWS keys) in your env.
+              Mark your profile as admin: <code>update profiles set is_admin = true where id = &lt;your uuid&gt;</code>.
             </li>
             <li>
               Run <code>node scripts/moderate-all-artworks.mjs</code> to scan

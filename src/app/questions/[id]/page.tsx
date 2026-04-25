@@ -2,6 +2,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { getAllQuestions, getQuestionById } from '@/data/questions';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
+import JsonLd from '@/components/JsonLd';
 
 // ─── ISR ───
 // Cache pages for 24h; regenerate in background after that.
@@ -72,10 +73,7 @@ export default async function QuestionPage({ params }: QuestionPageProps) {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <JsonLd data={jsonLd} />
       <div className="page-container">
         <div className="max-w-3xl mx-auto">
           <BreadcrumbNav items={[{ label: 'Questions', href: '/questions' }, { label: question.question, href: '#' }]} />

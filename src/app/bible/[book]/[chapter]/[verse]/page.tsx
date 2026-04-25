@@ -4,6 +4,7 @@ import { getBookByName } from '@/data/books';
 import { getVerseExplanation } from '@/data/verse-explanations';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 import TranslationSwitcher from '@/components/TranslationSwitcher';
+import JsonLd from '@/components/JsonLd';
 
 // ─── ISR ───
 // Cache pages for 24h; regenerate in background after that.
@@ -94,10 +95,7 @@ export default async function VersePage({ params }: VersePageProps) {
 
   return (
     <div className="page-container">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <JsonLd data={jsonLd} />
       <div className="max-w-3xl mx-auto">
         <BreadcrumbNav items={[
           { label: 'Bible', href: '/bible' },

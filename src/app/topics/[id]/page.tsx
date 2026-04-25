@@ -2,6 +2,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { getAllTopics, getTopicById } from '@/data/topics';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
+import JsonLd from '@/components/JsonLd';
 
 // ─── ISR ───
 // Cache pages for 24h; regenerate in background after that.
@@ -70,10 +71,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <JsonLd data={jsonLd} />
       <div className="page-container">
         <div className="max-w-3xl mx-auto">
           <BreadcrumbNav items={[{ label: 'Topics', href: '/topics' }, { label: topic.name, href: '#' }]} />

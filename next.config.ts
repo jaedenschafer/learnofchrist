@@ -1,26 +1,8 @@
 import type { NextConfig } from 'next';
 
-// ─── Security headers applied to all routes ───────────────────────
-// CSP is deliberately permissive for inline styles (we use CSS-in-JS
-// via Tailwind utility classes and inline style attrs in a few places)
-// and for Next.js dev-mode hot reload. Tighten further once a nonce
-// pipeline is in place.
-const ContentSecurityPolicy = [
-  "default-src 'self'",
-  "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://vercel.live",
-  "style-src 'self' 'unsafe-inline'",
-  "img-src 'self' data: blob: https:",
-  "font-src 'self' data:",
-  "connect-src 'self' https://*.supabase.co https://vercel.live wss://*.supabase.co",
-  "frame-ancestors 'none'",
-  "base-uri 'self'",
-  "form-action 'self'",
-  "object-src 'none'",
-  'upgrade-insecure-requests',
-].join('; ');
-
+// Content-Security-Policy is set per-request in src/lib/supabase/middleware.ts
+// so it can include a fresh nonce on every render.
 const securityHeaders = [
-  { key: 'Content-Security-Policy', value: ContentSecurityPolicy },
   { key: 'X-Content-Type-Options', value: 'nosniff' },
   { key: 'X-Frame-Options', value: 'DENY' },
   { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
@@ -38,11 +20,6 @@ const nextConfig: NextConfig = {
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     minimumCacheTTL: 31536000, // 1 year
-  },
-
-  // Enable modern Next features that help at scale.
-  experimental: {
-    optimizePackageImports: ['lucide-react'],
   },
 
   async headers() {

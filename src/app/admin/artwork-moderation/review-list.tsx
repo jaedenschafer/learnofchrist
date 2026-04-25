@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { useEffect, useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 
 export interface QueueItem {
   id: string;
@@ -30,22 +30,7 @@ type Filter = 'flagged' | 'pending' | 'reported' | 'approved' | 'rejected' | 'al
 
 export default function ReviewList({ items }: { items: QueueItem[] }) {
   const [filter, setFilter] = useState<Filter>('flagged');
-  const [adminKey, setAdminKey] = useState('');
   const [busy, setBusy] = useState<string | null>(null);
-
-  // Restore cached admin key + persist as it changes
-  useEffect(() => {
-    try {
-      const k = localStorage.getItem('loc-admin-key');
-      if (k) setAdminKey(k);
-    } catch {}
-  }, []);
-  useEffect(() => {
-    try {
-      if (adminKey) localStorage.setItem('loc-admin-key', adminKey);
-    } catch {}
-  }, [adminKey]);
-
   const [localStatuses, setLocalStatuses] = useState<Record<string, QueueItem['moderation_status']>>({});
 
   const effective = (it: QueueItem): QueueItem['moderation_status'] =>
@@ -74,18 +59,11 @@ export default function ReviewList({ items }: { items: QueueItem[] }) {
   }, [items, localStatuses]);
 
   const act = async (id: string, decision: 'approve' | 'reject' | 'flag' | 'reset') => {
-    if (!adminKey) {
-      alert('Paste your ADMIN_API_KEY above first.');
-      return;
-    }
     setBusy(id);
     try {
       const res = await fetch('/api/admin/artwork-review', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'x-admin-key': adminKey,
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ artwork_id: id, decision }),
       });
       const json = await res.json();
@@ -100,18 +78,11 @@ export default function ReviewList({ items }: { items: QueueItem[] }) {
   };
 
   const rescan = async (id: string) => {
-    if (!adminKey) {
-      alert('Paste your ADMIN_API_KEY above first.');
-      return;
-    }
     setBusy(id);
     try {
       const res = await fetch('/api/admin/moderate-artwork', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'x-admin-key': adminKey,
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ artwork_id: id }),
       });
       const json = await res.json();
@@ -124,19 +95,6 @@ export default function ReviewList({ items }: { items: QueueItem[] }) {
 
   return (
     <div className="mod-queue">
-      <div className="mod-queue-auth">
-        <label>
-          Admin API key
-          <input
-            type="password"
-            value={adminKey}
-            onChange={(e) => setAdminKey(e.target.value)}
-            placeholder="Paste ADMIN_API_KEY"
-            autoComplete="off"
-          />
-        </label>
-      </div>
-
       <div className="mod-queue-tabs">
         {(['flagged', 'reported', 'pending', 'approved', 'rejected', 'all'] as Filter[]).map(
           (f) => (
@@ -249,12 +207,6 @@ export default function ReviewList({ items }: { items: QueueItem[] }) {
 
       <style jsx>{`
         .mod-queue { max-width: 1100px; margin: 0 auto; padding: 24px 16px 80px; }
-        .mod-queue-auth { margin-bottom: 1rem; font-size: 13px; }
-        .mod-queue-auth input {
-          display: block; width: 100%; max-width: 400px; padding: 8px 10px;
-          border: 1px solid #D1D1D6; border-radius: 8px; font: inherit;
-          margin-top: 4px;
-        }
         .mod-queue-tabs { display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: 1.25rem; }
         .mod-queue-tab {
           text-transform: capitalize; padding: 6px 12px; border-radius: 999px;

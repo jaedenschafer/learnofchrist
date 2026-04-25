@@ -12,7 +12,7 @@ import { supabaseAdmin } from '@/lib/supabaseAdmin';
  * }
  */
 export async function POST(req: NextRequest) {
-  if (!isAdminRequest(req)) {
+  if (!(await isAdminRequest(req))) {
     return NextResponse.json({ error: 'unauthorized' }, { status: 401 });
   }
 
