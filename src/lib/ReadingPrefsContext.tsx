@@ -17,7 +17,7 @@ export type FocusMode = 'full' | 'focus';
 
 // Optional study-page sections the reader can hide. Each maps to a CSS class
 // applied to .rich-study so the section is removed from the page.
-export type HidableSection = 'reflection' | 'carry';
+export type HidableSection = 'reflection' | 'carry' | 'hebrew' | 'images';
 
 interface ReadingPrefsContextType {
   fontSize: FontSize;
@@ -57,7 +57,7 @@ const isTheme = (v: unknown): v is Theme =>
 const isFocusMode = (v: unknown): v is FocusMode =>
   v === 'full' || v === 'focus';
 const isHidableSection = (v: unknown): v is HidableSection =>
-  v === 'reflection' || v === 'carry';
+  v === 'reflection' || v === 'carry' || v === 'hebrew' || v === 'images';
 
 const HIDDEN_SECTIONS_KEY = 'loc-hidden-sections';
 

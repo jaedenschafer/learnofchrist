@@ -31,6 +31,8 @@ export default function ReadingComfortEffects({
     if (!el) return;
     el.classList.toggle('hide-reflection', hiddenSections.has('reflection'));
     el.classList.toggle('hide-carry', hiddenSections.has('carry'));
+    el.classList.toggle('hide-hebrew', hiddenSections.has('hebrew'));
+    el.classList.toggle('hide-images', hiddenSections.has('images'));
   }, [hiddenSections, selector]);
 
   return null;

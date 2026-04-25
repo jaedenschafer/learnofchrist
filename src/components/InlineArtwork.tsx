@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { ArtworkWithArtist } from '@/lib/supabase';
+import ArtworkActionsMenu from './ArtworkActionsMenu';
 
 interface InlineArtworkProps {
   artwork: ArtworkWithArtist;
@@ -10,7 +11,8 @@ interface InlineArtworkProps {
 /**
  * Editorial figure for placing a single artwork inline within a study guide.
  * Used by GenesisOneStudy to anchor key images at the relevant point in the
- * chapter. Server component — keeps the chapter page bundle small.
+ * chapter. The figure itself is a server component; the ⋮ Hide / Report
+ * action menu is a small client island.
  */
 export default function InlineArtwork({ artwork, caption }: InlineArtworkProps) {
   const href = `/art/artwork/${artwork.slug}`;
@@ -31,6 +33,11 @@ export default function InlineArtwork({ artwork, caption }: InlineArtworkProps) 
           />
         </div>
       </Link>
+      <ArtworkActionsMenu
+        artworkId={artwork.id}
+        artworkTitle={artwork.title}
+        showHide
+      />
       <figcaption className="inline-artwork__caption">
         {caption && (
           <span className="inline-artwork__kicker">{caption}</span>

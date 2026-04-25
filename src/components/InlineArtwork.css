@@ -2,6 +2,7 @@
    Sits between sections of commentary, full-bleed within the reading column. */
 
 .inline-artwork {
+  position: relative; /* anchors the ⋮ Hide / Report menu */
   margin: 2.5rem 0;
   padding: 0;
   display: flex;

@@ -345,6 +345,103 @@ html[data-reader-theme="dark"] .btn-outline:hover {
 }
 
 /* ─── Breadcrumb ─── */
+/* ─── Artwork ⋮ menu — Hide + Report on every image card ───────────────
+   Glass-style pill in the top-right corner of any artwork host. Visible
+   on hover for desktop; always visible on touch. */
+.art-actions {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 4;
+  display: inline-block;
+}
+.art-actions__btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(20, 14, 8, 0.55);
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  opacity: 0;
+  transition: opacity 0.15s ease, background-color 0.15s ease;
+}
+/* Always show on touch devices */
+@media (hover: none) {
+  .art-actions__btn { opacity: 1; }
+}
+/* Reveal on hover of the host card */
+.inline-artwork:hover .art-actions__btn,
+.chapter-art-strip__slide:hover .art-actions__btn,
+.art-card-wrap:hover .art-actions__btn,
+.art-actions__btn:focus-visible,
+.art-actions__btn[aria-expanded="true"] {
+  opacity: 1;
+}
+.art-actions__btn:hover {
+  background: rgba(20, 14, 8, 0.75);
+}
+.art-actions__pop {
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 0;
+  z-index: 12;
+  min-width: 150px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-separator);
+  border-radius: 10px;
+  box-shadow: 0 12px 32px rgba(20, 14, 8, 0.18);
+  padding: 0.25rem;
+  display: flex;
+  flex-direction: column;
+}
+.art-actions__item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.55rem 0.75rem;
+  border: none;
+  background: transparent;
+  border-radius: 6px;
+  color: var(--color-label);
+  font: inherit;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.12s ease;
+  white-space: nowrap;
+}
+.art-actions__item:hover {
+  background: var(--color-fill-subtle);
+}
+.art-actions__item:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+.art-actions__item svg {
+  color: var(--color-secondary-label);
+  flex-shrink: 0;
+}
+.art-actions__item--danger {
+  color: #D70015;
+}
+.art-actions__item--danger svg {
+  color: #D70015;
+}
+html[data-reader-theme="dark"] .art-actions__item--danger {
+  color: #FF453A;
+}
+html[data-reader-theme="dark"] .art-actions__item--danger svg {
+  color: #FF453A;
+}
+
 /* ─── Reader body size — driven by SettingsMenu's font-size picker ──────
    The picker writes data-font-size onto <html>, which sets a single CSS
    variable that any reading surface can consume with font-size:

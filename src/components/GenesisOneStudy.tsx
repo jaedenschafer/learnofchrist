@@ -17,6 +17,7 @@ import ReadingComfortEffects from './ReadingComfortEffects';
 import ChapterProgress from './ChapterProgress';
 import InlineArtwork from './InlineArtwork';
 import HighlightController from './HighlightController';
+import BlockHideMenus from './BlockHideMenus';
 // StudyJournal injected per-verse pencil icons. The new HighlightController
 // popup handles per-selection notes (and supports any range, not just whole
 // verses), so the pencil is now redundant. We keep the import out entirely
@@ -273,6 +274,8 @@ export default function GenesisOneStudy({ artworks = [] }: GenesisOneStudyProps)
 
         <HebrewAudio />
         <ReadingComfortEffects />
+        <BlockHideMenus />
+
         <ChapterProgress
           chapterKey="genesis/1"
           chapterName="Genesis 1"
