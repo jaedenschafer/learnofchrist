@@ -26,18 +26,19 @@ export function useTranslation() {
   return useContext(TranslationContext);
 }
 
-// All public domain translations — order matters (shown in UI)
-const PUBLIC_DOMAIN_TRANSLATIONS = [
-  { abbreviation: 'kjv', name: 'King James Version' },
-  { abbreviation: 'jst', name: 'Joseph Smith Translation' },
-  { abbreviation: 'bsb', name: 'Berean Standard Bible' },
+// All public domain translations. KJV stays at the top as the default; the
+// rest are alphabetised by full name so the dropdown is easy to scan.
+const KJV = { abbreviation: 'kjv', name: 'King James Version' };
+const REST = [
   { abbreviation: 'asv', name: 'American Standard Version' },
-  { abbreviation: 'web', name: 'World English Bible' },
-
-  { abbreviation: 'nwt', name: 'New World Translation' },
-  { abbreviation: 'lsv', name: 'Literal Standard Version' },
+  { abbreviation: 'bsb', name: 'Berean Standard Bible' },
   { abbreviation: 'dra', name: 'Douay-Rheims American' },
-];
+  { abbreviation: 'jst', name: 'Joseph Smith Translation' },
+  { abbreviation: 'lsv', name: 'Literal Standard Version' },
+  { abbreviation: 'nwt', name: 'New World Translation' },
+  { abbreviation: 'web', name: 'World English Bible' },
+].sort((a, b) => a.name.localeCompare(b.name));
+const PUBLIC_DOMAIN_TRANSLATIONS = [KJV, ...REST];
 
 export function TranslationProvider({ children }: { children: ReactNode }) {
   const [currentTranslation, setCurrentTranslation] = useState('kjv');

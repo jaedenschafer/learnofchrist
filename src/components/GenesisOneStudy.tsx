@@ -85,7 +85,7 @@ function ScriptureBlock({
   return (
     <p className="scripture">
       {matched.map((v) => (
-        <span key={v.verse_number}>
+        <span key={v.verse_number} className="verse-line">
           <span className="v">{v.verse_number}</span>
           {cleanVerseText(v.text)}{' '}
         </span>

@@ -171,6 +171,21 @@
 }
 .rich-study .scripture .v:first-child { margin-left: 0; }
 
+/* Verse-by-verse layout: each verse number starts a new line. The newline
+   is inserted via a pseudo-element so we don't have to wrap every verse
+   manually in the KJV-prose path (children are flat siblings). */
+html[data-reading-mode="verse"] .rich-study .scripture .v::before {
+  content: "\A";
+  white-space: pre;
+}
+html[data-reading-mode="verse"] .rich-study .scripture .v:first-child::before {
+  content: none;
+}
+/* Alt-translation path wraps each verse in .verse-line — block per verse. */
+html[data-reading-mode="verse"] .rich-study .scripture .verse-line {
+  display: block;
+}
+
 /* Verse-section wrapper: bounds the sticky scripture */
 .rich-study .verse-section {
   position: relative;
@@ -178,7 +193,7 @@
 }
 .rich-study .verse-section .scripture {
   position: sticky;
-  top: 72px; /* clears the site navbar */
+  top: 100px; /* clears site navbar (48px) + sticky filter bar above */
   z-index: 5;
   margin: 0 0 1.5rem;
   transition: box-shadow 0.25s ease;
@@ -379,7 +394,7 @@ html.js .rich-study .scripture.visible mark {
   .rich-study .scripture { font-size: 17px; padding: 1.25rem 1.15rem 1.15rem; }
   .rich-study .hebrew .script { font-size: 2.2rem; }
   .rich-study .intro:first-of-type::first-letter { font-size: 52px; }
-  .rich-study .verse-section .scripture { top: 60px; }
+  .rich-study .verse-section .scripture { top: 104px; }
 }
 
 /* ─────────────────────────────────────────────
@@ -1337,23 +1352,35 @@ html.js .rich-study .scripture.visible mark {
 /* Font size variants. Default medium = existing 20/18px (already set above). */
 .rich-study.font-small { font-size: 18px; }
 .rich-study.font-large { font-size: 22px; }
+.rich-study.font-xlarge { font-size: 25px; }
 .rich-study.font-small .scripture { font-size: 19px; }
 .rich-study.font-large .scripture { font-size: 24px; }
+.rich-study.font-xlarge .scripture { font-size: 28px; }
 .rich-study.font-small .christ,
 .rich-study.font-small .christ p { font-size: 16px; }
 .rich-study.font-large .christ,
 .rich-study.font-large .christ p { font-size: 19px; }
+.rich-study.font-xlarge .christ,
+.rich-study.font-xlarge .christ p { font-size: 22px; }
 .rich-study.font-small .carry { font-size: 16px; }
 .rich-study.font-large .carry { font-size: 19px; }
+.rich-study.font-xlarge .carry { font-size: 22px; }
 .rich-study.font-small .intro:first-of-type::first-letter { font-size: 56px; }
 .rich-study.font-large .intro:first-of-type::first-letter { font-size: 74px; }
+.rich-study.font-xlarge .intro:first-of-type::first-letter { font-size: 86px; }
 
 @media (max-width: 640px) {
   .rich-study.font-small { font-size: 16px; }
   .rich-study.font-large { font-size: 20px; }
+  .rich-study.font-xlarge { font-size: 23px; }
   .rich-study.font-small .scripture { font-size: 16px; }
   .rich-study.font-large .scripture { font-size: 19px; }
+  .rich-study.font-xlarge .scripture { font-size: 22px; }
 }
+
+/* Reader-toggleable sections: per-user hide preferences. */
+.rich-study.hide-reflection .reflection-block { display: none; }
+.rich-study.hide-carry .carry { display: none; }
 
 /* ── Focus mode: hide teaching blocks, keep Scripture front-and-centre ── */
 .rich-study.is-focus .christ,

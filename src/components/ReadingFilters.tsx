@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect, ReactNode } from 'react';
 import { useTranslation } from '@/lib/TranslationContext';
 import { useReadingPrefs, FontSize, ReadingMode } from '@/lib/ReadingPrefsContext';
+import { useStuckToTop } from '@/lib/useStuckToTop';
 
 // ─── Reusable dropdown hook ───
 function useDropdown() {
@@ -75,11 +76,12 @@ function Menu({ children, align = 'left' }: { children: ReactNode; align?: 'left
 
 export default function ReadingFilters() {
   const { currentTranslation, setTranslation, availableTranslations } = useTranslation();
-  const { fontSize, setFontSize, readingMode, setReadingMode, theme, setTheme, isDark } = useReadingPrefs();
+  const { fontSize, setFontSize, readingMode, setReadingMode } = useReadingPrefs();
 
   const transDD = useDropdown();
   const fontDD = useDropdown();
   const modeDD = useDropdown();
+  const { sentinelRef, stuck } = useStuckToTop();
 
   const closeAll = () => {
     transDD.setOpen(false);
@@ -94,9 +96,20 @@ export default function ReadingFilters() {
   };
 
   return (
-    <div className="sticky top-14 z-40 mb-4">
-      <div className="max-w-3xl mx-auto">
-        <div className="flex items-center gap-1 glass-heavy border border-[color:var(--color-separator)] rounded-full px-2 py-1.5 shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)]">
+    <>
+      <div ref={sentinelRef} aria-hidden="true" className="h-0" />
+      <div
+        data-pinned={stuck ? 'true' : 'false'}
+        className={`study-filterbar sticky top-12 z-40 ${stuck ? 'mb-2' : 'mb-4'}`}
+      >
+        <div className={stuck ? 'max-w-4xl mx-auto px-5' : 'max-w-3xl mx-auto'}>
+          <div
+            className={`flex items-center gap-1 transition-all ${
+              stuck
+                ? 'h-10 border-b border-[color:var(--color-separator)] glass-heavy px-2'
+                : 'glass-heavy border border-[color:var(--color-separator)] rounded-full px-2 py-1.5 shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)]'
+            }`}
+          >
 
           {/* Translation */}
           <div ref={transDD.ref} className="relative">
@@ -149,6 +162,7 @@ export default function ReadingFilters() {
                     { id: 'small' as FontSize, label: 'Small', cls: 'text-[0.8125rem]' },
                     { id: 'medium' as FontSize, label: 'Medium', cls: 'text-[0.9375rem]' },
                     { id: 'large' as FontSize, label: 'Large', cls: 'text-[1.0625rem]' },
+                    { id: 'xlarge' as FontSize, label: 'Extra Large', cls: 'text-[1.1875rem]' },
                   ]).map((s) => (
                     <button
                       key={s.id}
@@ -173,27 +187,6 @@ export default function ReadingFilters() {
               </Menu>
             )}
           </div>
-
-          {/* Dark mode toggle */}
-          <button
-            onClick={() => setTheme(isDark ? 'light' : 'dark')}
-            className={`flex items-center justify-center h-7 w-7 rounded-full transition-all ${
-              isDark ? 'bg-[color:var(--color-primary)] text-white' : 'bg-[var(--color-bg)] text-[color:var(--color-secondary-label)]'
-            }`}
-            title={isDark ? 'Switch to light' : 'Switch to dark'}
-            aria-pressed={isDark}
-            aria-label="Toggle dark mode"
-          >
-            {isDark ? (
-              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 3v1.5M12 19.5V21M4.22 4.22l1.06 1.06M18.72 18.72l1.06 1.06M3 12h1.5M19.5 12H21M4.22 19.78l1.06-1.06M18.72 5.28l1.06-1.06M12 7a5 5 0 100 10 5 5 0 000-10z" />
-              </svg>
-            ) : (
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-              </svg>
-            )}
-          </button>
 
           {/* Reading Mode */}
           <div ref={modeDD.ref} className="relative">
@@ -234,8 +227,9 @@ export default function ReadingFilters() {
             )}
           </div>
 
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }

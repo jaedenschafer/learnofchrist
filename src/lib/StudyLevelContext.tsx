@@ -18,11 +18,9 @@ interface StudyLevelContextType {
 }
 
 const StudyLevelContext = createContext<StudyLevelContextType>({
-  level: 'intermediate',
+  level: 'deep',
   setLevel: () => {},
 });
-
-const STORAGE_KEY = 'loc-study-level';
 
 export const STUDY_LEVELS = [
   { id: 'beginner' as StudyLevel, label: 'Beginner', icon: '1', description: 'Quick overview and key takeaways' },
@@ -31,20 +29,12 @@ export const STUDY_LEVELS = [
 ] as const;
 
 export function StudyLevelProvider({ children }: { children: ReactNode }) {
-  const [level, setLevelState] = useState<StudyLevel>('intermediate');
+  // Every study guide is a deep dive for now. The picker has been removed
+  // from the filter bar; the context still exists so consumers don't break.
+  const [level] = useState<StudyLevel>('deep');
 
-  useEffect(() => {
-    const saved = localStorage.getItem(STORAGE_KEY);
-    if (saved && ['beginner', 'intermediate', 'deep'].includes(saved)) {
-      setLevelState(saved as StudyLevel);
-    }
-  }, []);
-
-  const setLevel = useCallback((newLevel: StudyLevel) => {
-    setLevelState(newLevel);
-    try {
-      localStorage.setItem(STORAGE_KEY, newLevel);
-    } catch {}
+  const setLevel = useCallback((_: StudyLevel) => {
+    // no-op: level is locked to 'deep' until the picker comes back.
   }, []);
 
   const value = useMemo(() => ({ level, setLevel }), [level, setLevel]);

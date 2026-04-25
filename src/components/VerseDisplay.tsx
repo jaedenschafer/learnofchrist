@@ -24,6 +24,7 @@ const FONT_SIZE_CLASSES = {
   small: 'text-[1rem] leading-[1.7]',
   medium: 'text-[1.125rem] leading-[1.8]',
   large: 'text-[1.3125rem] leading-[1.9]',
+  xlarge: 'text-[1.5625rem] leading-[1.95]',
 };
 
 export default function VerseDisplay({ bookSlug, chapter, initialVerses, explainedVerses = [], defaultTranslation = 'kjv' }: VerseDisplayProps) {

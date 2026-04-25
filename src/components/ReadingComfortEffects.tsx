@@ -14,12 +14,12 @@ export default function ReadingComfortEffects({
 }: {
   selector?: string;
 } = {}) {
-  const { fontSize, focusMode } = useReadingPrefs();
+  const { fontSize, focusMode, hiddenSections } = useReadingPrefs();
 
   useEffect(() => {
     const el = document.querySelector<HTMLElement>(selector);
     if (!el) return;
-    el.classList.remove('font-small', 'font-medium', 'font-large');
+    el.classList.remove('font-small', 'font-medium', 'font-large', 'font-xlarge');
     el.classList.add(`font-${fontSize}`);
   }, [fontSize, selector]);
 
@@ -29,6 +29,13 @@ export default function ReadingComfortEffects({
     if (focusMode === 'focus') el.classList.add('is-focus');
     else el.classList.remove('is-focus');
   }, [focusMode, selector]);
+
+  useEffect(() => {
+    const el = document.querySelector<HTMLElement>(selector);
+    if (!el) return;
+    el.classList.toggle('hide-reflection', hiddenSections.has('reflection'));
+    el.classList.toggle('hide-carry', hiddenSections.has('carry'));
+  }, [hiddenSections, selector]);
 
   return null;
 }
