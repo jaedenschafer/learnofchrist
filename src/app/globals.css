@@ -526,11 +526,151 @@ html[data-reader-theme="dark"] .back-link:hover {
   .page-header h1 { font-size: 2.5rem; }
 }
 
-/* ─── Study Hero ─────────────────────────────────────────────────────
-   Centered book name + a massive chapter number, with a small utility
-   icon row floating in the top-right corner. The icons are anchor links
-   that jump to the audio player and the StudyFilters bar — they degrade
-   gracefully if those targets aren't on the page. */
+/* ─── Study Top Bar (LDS-inspired clean header) ─── */
+.study-topbar {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 0;
+  margin-bottom: 0.5rem;
+}
+.study-topbar__chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.4rem 0.85rem 0.4rem 0.65rem;
+  border-radius: 999px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-separator);
+  color: var(--color-label);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  transition: background-color 0.15s ease, transform 0.1s ease;
+  white-space: nowrap;
+}
+.study-topbar__chip:hover {
+  background: var(--color-fill-subtle);
+}
+.study-topbar__chip:active { transform: scale(0.97); }
+.study-topbar__chip svg {
+  width: 14px;
+  height: 14px;
+}
+.study-topbar__title-block {
+  text-align: center;
+  min-width: 0;
+}
+.study-topbar__title {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-label);
+  margin: 0;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.study-topbar__subtitle {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: var(--color-tertiary-label);
+  margin: 0.1rem 0 0;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.study-topbar__actions {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.study-topbar__icon-btn {
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-separator);
+  color: var(--color-label);
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+.study-topbar__icon-btn:hover { background: var(--color-fill-subtle); }
+.study-topbar__icon-btn svg {
+  width: 18px;
+  height: 18px;
+}
+.study-topbar__menu {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 6px);
+  z-index: 60;
+  min-width: 240px;
+  background: var(--color-surface);
+  border-radius: 16px;
+  border: 1px solid var(--color-separator);
+  box-shadow: var(--shadow-float);
+  overflow: hidden;
+  padding: 0.5rem;
+}
+.study-topbar__menu-label {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-tertiary-label);
+  margin: 0.25rem 0.75rem 0.5rem;
+}
+.study-topbar__menu-rows {
+  display: flex;
+  flex-direction: column;
+}
+.study-topbar__menu-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.625rem 0.75rem;
+  border-radius: 10px;
+  background: transparent;
+  border: none;
+  text-align: left;
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-label);
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.15s ease;
+}
+.study-topbar__menu-row:hover {
+  background: var(--color-fill-subtle);
+}
+.study-topbar__menu-row svg {
+  width: 16px;
+  height: 16px;
+  color: var(--color-secondary-label);
+  flex-shrink: 0;
+}
+
+/* Subtitle below the topbar (kept short and quiet). */
+.study-dek {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: clamp(1rem, 0.9rem + 0.4vw, 1.125rem);
+  line-height: 1.5;
+  color: var(--color-secondary-label);
+  margin: 0 0 1rem;
+  text-wrap: pretty;
+}
+
+/* ─── Study Hero (used by art + study book index pages) ─── */
 .study-hero {
   position: relative;
   text-align: center;

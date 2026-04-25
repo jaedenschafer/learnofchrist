@@ -3,15 +3,15 @@ import dynamic from 'next/dynamic';
 import type { Metadata } from 'next';
 import { getAllBooks, getBookByName } from '@/data/books';
 import { getChapterContent } from '@/data/chapter-content';
-import BreadcrumbNav from '@/components/BreadcrumbNav';
 import ChapterNav from '@/components/ChapterNav';
 import VerseDisplay from '@/components/VerseDisplay';
 import StudyGuide from '@/components/StudyGuide';
-import SettingsMenu from '@/components/SettingsMenu';
 import { getVerses, getArtworksForChapter } from '@/lib/supabase';
 import { verseExplanations } from '@/data/verse-explanations';
 import ChapterArtStrip from '@/components/ChapterArtStrip';
 import JsonLd from '@/components/JsonLd';
+import StudyTopBar from '@/components/StudyTopBar';
+import StudyChapterShareLaunch from '@/components/StudyChapterShareLaunch';
 
 // Code-split client-only UI: the filters bar renders below the hero, and the
 // heavy Genesis 1 deep-dive isn't needed on any other chapter.
@@ -176,55 +176,47 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
     <div className="page-container">
       <JsonLd data={jsonLd} />
       <div className="max-w-3xl mx-auto">
-        <BreadcrumbNav items={[
-          { label: 'Study', href: '/study' },
-          { label: book_obj.name, href: `/study/${book}` },
-          { label: `Chapter ${chapter}`, href: '#' },
-        ]} />
+        <StudyTopBar
+          bookSlug={book}
+          bookName={book_obj.name}
+          chapter={chapter}
+          testamentLabel={
+            book_obj.testament === 'apocrypha'
+              ? 'Apocrypha'
+              : book_obj.testament === 'new'
+                ? 'New Testament'
+                : 'Old Testament'
+          }
+          moreActions={
+            <>
+              <Link
+                href={`/bible/${book}/${chapter}`}
+                className="study-topbar__menu-row"
+              >
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+                Read the chapter
+              </Link>
+              <StudyChapterShareLaunch
+                bookName={book_obj.name}
+                chapter={chapter}
+                bookSlug={book}
+                isGenesisOne={isGenesisOne}
+              />
+            </>
+          }
+        />
 
-        {/* Header — book + chapter, with utility icons floating at top right */}
-        <header className="study-hero">
-          <div className="study-hero__utilities">
-            <button
-              type="button"
-              data-action="play-audio"
-              className="study-hero__util"
-              aria-label="Listen to this study"
-            >
-              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth={1.7} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <path d="M3 14a9 9 0 0118 0" />
-                <rect x="3" y="14" width="4" height="6" rx="1.5" />
-                <rect x="17" y="14" width="4" height="6" rx="1.5" />
-              </svg>
-            </button>
-            <SettingsMenu align="right" triggerClassName="study-hero__util" />
-            <a
-              href="#study-filters"
-              className="study-hero__util study-hero__util--pill"
-              aria-label="Change translation"
-            >
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth={1.7} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <circle cx="12" cy="12" r="9" />
-                <path d="M3 12h18" />
-                <path d="M12 3a14 14 0 010 18" />
-                <path d="M12 3a14 14 0 000 18" />
-              </svg>
-              <span>{defaultTranslation.toUpperCase()}</span>
-            </a>
-          </div>
-
-          <p className="study-hero__book">{book_obj.name}</p>
-          <h1 className="study-hero__chapter">{chapter}</h1>
-
-          {isGenesisOne && (
-            <p className="study-hero__dek">
-              God created the world, light, sky, land, seas, plants, the sun,
-              moon, stars, animals, and every living thing. He created men and
-              women in His image, blessed them, and gave them responsibility to
-              care for the earth and its creatures.
-            </p>
-          )}
-        </header>
+        {/* Optional summary dek (kept short — most chapters get none). */}
+        {isGenesisOne && (
+          <p className="study-dek">
+            God created the world, light, sky, land, seas, plants, the sun,
+            moon, stars, animals, and every living thing. He created men and
+            women in His image, blessed them, and gave them responsibility to
+            care for the earth and its creatures.
+          </p>
+        )}
 
         <div id="study-filters">
           <StudyFilters />

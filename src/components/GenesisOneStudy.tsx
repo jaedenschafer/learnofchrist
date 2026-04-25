@@ -282,17 +282,6 @@ export default function GenesisOneStudy({ artworks = [] }: GenesisOneStudyProps)
 
         <div id="study-audio" className="study-top-actions">
           <StudyAudioPlayer />
-          <ShareButton
-            variant="ghost"
-            label="Share"
-            content={{
-              quote: 'God created the world, light, sky, land, seas, plants, the sun, moon, stars, animals, and every living thing. He created men and women in His image, blessed them, and gave them responsibility to care for the earth and its creatures.',
-              snippet: 'A deep study guide to Genesis 1: themes, Christ connections, and ideas to sit with this week.',
-              ref: 'Genesis 1 · Study Guide',
-              variant: 'insight',
-              sourceUrl: (typeof window !== 'undefined' ? window.location.origin : 'https://learnofchrist.com') + '/study/genesis/1',
-            }}
-          />
         </div>
 
         <p className="intro">
