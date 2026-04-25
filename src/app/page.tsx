@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import { getAllBlogPosts, categoryColors } from '@/data/blog-posts';
+import { getArtworksBrowse } from '@/lib/supabase';
 import './home.css';
 
 // Below-the-fold + client-only — code-split so it doesn't block the hero.
@@ -114,6 +115,14 @@ const features: Array<{
 
 export default async function Home() {
   const blogPosts = getAllBlogPosts().slice(0, 4);
+  // Pull a few approved artworks to power the "Today" featured row. We pick
+  // the first one with a Genesis 1 reference if we can find it; otherwise the
+  // newest published piece in the gallery.
+  const recentArt = await getArtworksBrowse(8);
+  const featuredArt =
+    recentArt.find((a) => /tissot|creation/i.test(a.title)) || recentArt[0] || null;
+  const secondaryArt =
+    recentArt.find((a) => featuredArt && a.id !== featuredArt.id) || null;
 
   return (
     <>
@@ -157,6 +166,78 @@ export default async function Home() {
       <section className="loc-continue">
         <div className="loc-wrap">
           <ContinueReading />
+        </div>
+      </section>
+
+      {/* ═══════════ 2b. Today — image-forward featured cards ═══════════ */}
+      <section className="loc-today">
+        <div className="loc-wrap">
+          <p className="loc-eyebrow loc-today__eyebrow">Today</p>
+          <div className="loc-today__grid">
+            {/* Featured: today's chapter */}
+            <Link href="/study/genesis/1" className="loc-today-card loc-today-card--feature">
+              {featuredArt && (
+                /* eslint-disable-next-line @next/next/no-img-element */
+                <img
+                  src={featuredArt.image_url || featuredArt.thumbnail_url || ''}
+                  alt=""
+                  className="loc-today-card__bg"
+                  loading="lazy"
+                />
+              )}
+              <div className="loc-today-card__veil" aria-hidden="true" />
+              <div className="loc-today-card__body">
+                <p className="loc-today-card__kicker">Featured study &middot; 18 min</p>
+                <h3 className="loc-today-card__title">Genesis 1</h3>
+                <p className="loc-today-card__sub">
+                  Walk through the seven days, the Hebrew behind the words, and
+                  how the chapter points to Christ.
+                </p>
+              </div>
+              <span className="loc-today-card__cta" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+                Begin
+              </span>
+            </Link>
+
+            {/* Secondary: today's art */}
+            {secondaryArt ? (
+              <Link
+                href={`/art/artwork/${secondaryArt.slug}`}
+                className="loc-today-card loc-today-card--small"
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={secondaryArt.image_url || secondaryArt.thumbnail_url || ''}
+                  alt=""
+                  className="loc-today-card__bg"
+                  loading="lazy"
+                />
+                <div className="loc-today-card__veil" aria-hidden="true" />
+                <div className="loc-today-card__body">
+                  <p className="loc-today-card__kicker">Today&rsquo;s painting</p>
+                  <h3 className="loc-today-card__title loc-today-card__title--small">
+                    {secondaryArt.title}
+                  </h3>
+                  {secondaryArt.artist && (
+                    <p className="loc-today-card__sub">{secondaryArt.artist.name}</p>
+                  )}
+                </div>
+              </Link>
+            ) : (
+              <Link href="/blog" className="loc-today-card loc-today-card--small loc-today-card--text">
+                <div className="loc-today-card__body">
+                  <p className="loc-today-card__kicker">From the blog</p>
+                  <h3 className="loc-today-card__title loc-today-card__title--small">
+                    What we are reading this week.
+                  </h3>
+                  <p className="loc-today-card__sub">Latest essays and reflections.</p>
+                </div>
+              </Link>
+            )}
+          </div>
         </div>
       </section>
 

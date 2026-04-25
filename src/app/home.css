@@ -212,6 +212,172 @@ html[data-reader-theme="dark"] {
   margin-bottom: clamp(3rem, 5vw, 5rem);
 }
 
+/* ─── 2b. Today — image-forward dark cards ─────────────────────────────
+   A two-card row that sits between the hero and the mission. The big
+   card on the left features today's recommended study; the smaller card
+   on the right rotates through the art library. Both share the same
+   dark image-forward style: background photo, gradient veil, overlay
+   typography, optional play-pill CTA. */
+
+.loc-today {
+  /* Sits on the page background, no full-bleed band — just generous gutter. */
+  padding: clamp(2rem, 4vw, 3.5rem) 0 clamp(2rem, 4vw, 3rem);
+}
+
+.loc-today__eyebrow {
+  margin-bottom: 1rem;
+}
+
+.loc-today__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 880px) {
+  .loc-today__grid {
+    grid-template-columns: 1.6fr 1fr;
+    gap: 1.25rem;
+  }
+}
+
+.loc-today-card {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: var(--loc-radius-lg);
+  text-decoration: none;
+  color: #FFFFFF;
+  isolation: isolate;
+  background: var(--loc-ink);
+  transition: transform 0.25s cubic-bezier(0.2, 0.7, 0.2, 1),
+              box-shadow 0.25s ease;
+  box-shadow:
+    0 1px 2px rgba(20, 14, 8, 0.08),
+    0 24px 50px -20px rgba(20, 14, 8, 0.30);
+}
+
+.loc-today-card:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 1px 2px rgba(20, 14, 8, 0.10),
+    0 32px 64px -20px rgba(20, 14, 8, 0.38);
+}
+
+.loc-today-card__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+  transition: transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.loc-today-card:hover .loc-today-card__bg {
+  transform: scale(1.04);
+}
+
+.loc-today-card__veil {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(180deg,
+      rgba(7, 9, 13, 0.12) 0%,
+      rgba(7, 9, 13, 0.45) 55%,
+      rgba(7, 9, 13, 0.92) 100%);
+}
+
+.loc-today-card--feature {
+  min-height: clamp(360px, 42vw, 460px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: clamp(1.25rem, 2.5vw, 1.75rem);
+}
+
+.loc-today-card--small {
+  min-height: clamp(220px, 28vw, 280px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: clamp(1rem, 2vw, 1.5rem);
+}
+
+/* No-image fallback variant — use a subtle warm gradient instead of a photo. */
+.loc-today-card--text {
+  background:
+    linear-gradient(135deg,
+      color-mix(in srgb, var(--loc-gold) 18%, var(--loc-ink)) 0%,
+      var(--loc-ink) 70%);
+}
+
+.loc-today-card__kicker {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: rgba(255, 255, 255, 0.72);
+  margin: 0 0 0.5rem;
+}
+
+.loc-today-card__title {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-weight: 500;
+  font-size: clamp(2rem, 4.4vw, 3rem);
+  line-height: 1.0;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.625rem;
+  text-wrap: balance;
+}
+
+.loc-today-card__title--small {
+  font-size: clamp(1.25rem, 2.4vw, 1.625rem);
+  line-height: 1.15;
+}
+
+.loc-today-card__sub {
+  font-size: 0.9375rem;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.78);
+  margin: 0;
+  max-width: 32rem;
+}
+
+.loc-today-card__cta {
+  position: absolute;
+  bottom: clamp(1.25rem, 2.5vw, 1.75rem);
+  right: clamp(1.25rem, 2.5vw, 1.75rem);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.55rem 0.95rem 0.55rem 0.85rem;
+  background: rgba(255, 255, 255, 0.92);
+  color: #1A1410;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.loc-today-card:hover .loc-today-card__cta {
+  background: var(--loc-gold-soft);
+}
+
+/* On the small card we don't show the play CTA */
+.loc-today-card--small .loc-today-card__cta {
+  display: none;
+}
+
+@media (max-width: 720px) {
+  .loc-today-card--feature .loc-today-card__cta {
+    bottom: 1rem;
+    right: 1rem;
+  }
+}
+
 /* ─── 3. Mission ────────────────────────────────────────────────────── */
 .loc-mission {
   background: var(--loc-paper);
