@@ -345,45 +345,257 @@ html[data-reader-theme="dark"] .btn-outline:hover {
 }
 
 /* ─── Breadcrumb ─── */
-/* SettingsMenu "Read plain scripture" action link */
-.settings-plain-link {
+/* ─── Reader body size — driven by SettingsMenu's font-size picker ──────
+   The picker writes data-font-size onto <html>, which sets a single CSS
+   variable that any reading surface can consume with font-size:
+   var(--reader-body-size). All chapter sections inherit from this so the
+   whole page scales together — not just the verses. */
+:root[data-font-size="small"]  { --reader-body-size: 16px; }
+:root[data-font-size="medium"] { --reader-body-size: 19px; }
+:root[data-font-size="large"]  { --reader-body-size: 22px; }
+:root[data-font-size="xlarge"] { --reader-body-size: 25px; }
+:root { --reader-body-size: 19px; } /* fallback before JS hydrates */
+
+/* ─── SettingsMenu — visual / icon-driven dropdown ────────────────────── */
+.settings-menu {
+  position: absolute;
+  top: 100%;
+  margin-top: 0.5rem;
+  z-index: 60;
+  width: 320px;
+  max-width: calc(100vw - 1.5rem);
+  background: var(--color-surface);
+  border-radius: 18px;
+  border: 1px solid var(--color-separator);
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.04),
+    0 18px 50px rgba(20, 14, 8, 0.18);
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  animation: settingsMenuIn 0.16s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+.settings-menu--right { right: 0; }
+.settings-menu--left  { left: 0; }
+
+@keyframes settingsMenuIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.settings-group {
+  padding: 0.625rem 0.625rem 0.875rem;
+  border-radius: 12px;
+}
+.settings-group + .settings-group {
+  border-top: 1px solid var(--color-separator);
+  margin-top: 0.25rem;
+  padding-top: 1rem;
+}
+
+.settings-group-head {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 0.5rem;
-  width: 100%;
-  padding: 0.65rem 0.85rem;
-  border-radius: 10px;
-  background: color-mix(in srgb, var(--color-primary) 8%, transparent);
-  color: var(--color-primary);
-  font-size: 0.875rem;
+  margin-bottom: 0.625rem;
+  color: var(--color-secondary-label);
+}
+.settings-group-icon {
+  display: inline-flex;
+  width: 16px;
+  height: 16px;
+}
+.settings-group-label {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+/* Tile grid (View, Theme): two large rounded buttons side by side. */
+.settings-tile-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.settings-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.875rem 0.5rem;
+  border-radius: 12px;
+  background: var(--color-bg);
+  border: 1px solid transparent;
+  color: var(--color-label);
+  cursor: pointer;
+  transition: background-color 160ms ease, border-color 160ms ease,
+              color 160ms ease, transform 120ms ease;
+  font-family: inherit;
+}
+
+.settings-tile:hover {
+  background: color-mix(in srgb, var(--color-label) 6%, var(--color-bg));
+}
+
+.settings-tile.is-active {
+  background: var(--color-surface);
+  border-color: var(--color-label);
+  color: var(--color-label);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.settings-tile:active { transform: scale(0.97); }
+
+.settings-tile-icon {
+  display: inline-flex;
+  width: 22px;
+  height: 22px;
+}
+.settings-tile-icon svg { width: 100%; height: 100%; }
+
+.settings-tile-label {
+  font-size: 0.8125rem;
   font-weight: 600;
-  text-decoration: none;
-  transition: background-color 160ms ease, transform 160ms ease;
 }
 
-.settings-plain-link:hover {
-  background: color-mix(in srgb, var(--color-primary) 14%, transparent);
+/* Font-size row: 4 icon-only Tt swatches */
+.settings-tt-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
 }
 
-.settings-plain-link:hover svg {
-  transform: translateX(2px);
+.settings-tt-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  border-radius: 12px;
+  background: var(--color-bg);
+  border: 1px solid transparent;
+  color: var(--color-label);
+  cursor: pointer;
+  transition: background-color 160ms ease, border-color 160ms ease,
+              transform 120ms ease;
+  font-family: inherit;
+  padding: 0;
 }
 
-.settings-plain-link:active {
-  transform: scale(0.98);
+.settings-tt-btn:hover {
+  background: color-mix(in srgb, var(--color-label) 6%, var(--color-bg));
 }
 
-.settings-plain-link svg {
+.settings-tt-btn.is-active {
+  background: var(--color-surface);
+  border-color: var(--color-label);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.settings-tt-btn:active { transform: scale(0.96); }
+
+.settings-tt {
+  font-family: var(--font-serif), 'EB Garamond', Georgia, serif;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.01em;
+}
+
+/* Sections list */
+.settings-sections {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+
+.settings-section-row {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  width: 100%;
+  padding: 0.625rem 0.5rem;
+  border: none;
+  background: transparent;
+  border-radius: 10px;
+  color: var(--color-label);
+  font-family: inherit;
+  cursor: pointer;
+  transition: background-color 160ms ease;
+}
+
+.settings-section-row:hover {
+  background: color-mix(in srgb, var(--color-label) 5%, transparent);
+}
+
+.settings-section-icon {
+  display: inline-flex;
+  width: 22px;
+  height: 22px;
+  color: var(--color-secondary-label);
   flex-shrink: 0;
-  transition: transform 160ms ease;
+}
+.settings-section-icon svg { width: 100%; height: 100%; }
+
+.settings-section-label {
+  flex: 1;
+  text-align: left;
+  font-size: 0.875rem;
+  font-weight: 500;
 }
 
-.settings-plain-help {
-  font-size: 0.75rem;
-  line-height: 1.45;
-  color: var(--color-tertiary-label);
-  margin: 0.5rem 0 0;
+.settings-toggle {
+  position: relative;
+  width: 36px;
+  height: 22px;
+  border-radius: 999px;
+  background: #D1D1D6;
+  flex-shrink: 0;
+  transition: background-color 200ms ease;
+}
+.settings-toggle.is-on { background: #34C759; }
+
+.settings-toggle-dot {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 18px;
+  height: 18px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  transition: left 200ms ease;
+}
+.settings-toggle.is-on .settings-toggle-dot { left: 16px; }
+
+/* Dark theme */
+html[data-reader-theme="dark"] .settings-menu {
+  background: #1C1C1E;
+  border-color: rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.5),
+    0 24px 60px rgba(0, 0, 0, 0.6);
+}
+html[data-reader-theme="dark"] .settings-group + .settings-group {
+  border-top-color: rgba(255, 255, 255, 0.06);
+}
+html[data-reader-theme="dark"] .settings-tile,
+html[data-reader-theme="dark"] .settings-tt-btn {
+  background: rgba(255, 255, 255, 0.05);
+}
+html[data-reader-theme="dark"] .settings-tile.is-active,
+html[data-reader-theme="dark"] .settings-tt-btn.is-active {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+html[data-reader-theme="dark"] .settings-toggle {
+  background: rgba(255, 255, 255, 0.18);
 }
 
 /* Liquid-glass back button — icon-only circle, replaces the old breadcrumb trail. */
@@ -839,11 +1051,12 @@ html[data-reader-theme="dark"] .back-link:hover {
   padding: 0;
 }
 
-/* Optional dek under the chapter number */
+/* Optional dek under the chapter number — scales with the reader's font
+   preference (same --reader-body-size used in the chapter body). */
 .study-hero__dek {
   font-family: var(--font-serif), 'EB Garamond', Georgia, serif;
   font-style: italic;
-  font-size: clamp(0.9375rem, 0.9rem + 0.3vw, 1.0625rem);
+  font-size: var(--reader-body-size, 19px);
   line-height: 1.5;
   color: var(--color-secondary-label);
   max-width: 36rem;

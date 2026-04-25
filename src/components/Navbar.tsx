@@ -118,13 +118,6 @@ export default function Navbar() {
                       {label}
                     </Link>
                   ))}
-                  <Link
-                    href="/settings"
-                    className="nav-link block px-4 py-2.5 text-[0.9375rem] font-medium transition-all"
-                    onClick={() => setIsOpen(false)}
-                  >
-                    Settings
-                  </Link>
                   <AuthButton variant="mobile" onNavigate={() => setIsOpen(false)} />
                 </div>
               </div>

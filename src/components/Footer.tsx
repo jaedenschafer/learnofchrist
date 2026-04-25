@@ -44,11 +44,10 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Settings */}
+          {/* More */}
           <div>
             <h4 className="footer-heading font-semibold text-[0.6875rem] uppercase tracking-wider mb-3">More</h4>
             <ul className="space-y-2 text-[0.8125rem]">
-              <li><Link href="/settings" className="footer-link transition-colors">Settings</Link></li>
               <li><Link href="/privacy" className="footer-link transition-colors">Privacy</Link></li>
               <li><Link href="/terms" className="footer-link transition-colors">Terms</Link></li>
             </ul>

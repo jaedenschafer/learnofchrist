@@ -13,7 +13,11 @@
   font-family: 'New York', 'Iowan Old Style', 'Source Serif 4', 'Charter', Georgia, 'Times New Roman', serif;
   color: var(--body);
   line-height: 1.7;
-  font-size: 20px;
+  /* Driven by SettingsMenu's font-size picker via data-font-size on <html>.
+     All sections (scripture, commentary, christ, carry, intro, hebrew desc,
+     reflection prompts) inherit from this single declaration so changing
+     the size scales the whole chapter, not just the verses. */
+  font-size: var(--reader-body-size, 19px);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: 0;
@@ -76,7 +80,8 @@
 .rich-study p em,
 .rich-study em { font-style: italic; }
 
-.rich-study .intro { font-size: 20px; color: var(--body); }
+/* Intro paragraphs inherit body size — same scale as commentary / scripture. */
+.rich-study .intro { color: var(--body); }
 .rich-study .intro:first-of-type::first-letter {
   font-family: 'New York', 'Iowan Old Style', Georgia, serif;
   font-size: 64px;
@@ -143,7 +148,8 @@
   border-radius: 2px;
   padding: 1.75rem 1.9rem 1.6rem;
   font-family: 'EB Garamond', 'Cormorant Garamond', 'New York', Georgia, serif;
-  font-size: 19px;
+  /* Inherits font-size from .rich-study so verses scale with the rest of the
+     chapter when the reader changes their font preference. */
   line-height: 1.55;
   color: #1C1B18;
   font-style: normal;
@@ -331,8 +337,9 @@ html.js .rich-study .scripture.visible mark {
   display: block;
   margin-bottom: 0.6rem;
 }
+/* Christ + Carry boxes inherit body font-size so they scale with the chapter. */
 .rich-study .christ,
-.rich-study .christ p { font-size: 18px; line-height: 1.7; }
+.rich-study .christ p { line-height: 1.7; }
 .rich-study .christ > :last-child { margin-bottom: 0; }
 
 .rich-study .carry {
@@ -340,7 +347,6 @@ html.js .rich-study .scripture.visible mark {
   padding: 0.1rem 0 0.1rem 1.25rem;
   margin: 1.75rem 0 2rem;
   font-style: italic;
-  font-size: 18px;
   line-height: 1.65;
   color: #2E3A28;
 }
@@ -358,11 +364,11 @@ html.js .rich-study .scripture.visible mark {
 }
 
 @media (max-width: 640px) {
-  .rich-study { font-size: 18px; padding: 0 0 2.5rem; }
+  .rich-study { padding: 0 0 2.5rem; }
   .rich-study h1.page-title { font-size: 32px; }
   .rich-study .subtitle { font-size: 18px; }
   .rich-study h2.section { font-size: 24px; }
-  .rich-study .scripture { font-size: 17px; padding: 1.25rem 1.15rem 1.15rem; }
+  .rich-study .scripture { padding: 1.25rem 1.15rem 1.15rem; }
   .rich-study .hebrew .script { font-size: 2.2rem; }
   .rich-study .intro:first-of-type::first-letter { font-size: 52px; }
   .rich-study .verse-section .scripture { top: 104px; }
@@ -1321,32 +1327,20 @@ html.js .rich-study .scripture.visible mark {
    ───────────────────────────────────────────── */
 
 /* Font size variants. Default medium = existing 20/18px (already set above). */
-.rich-study.font-small { font-size: 18px; }
-.rich-study.font-large { font-size: 22px; }
-.rich-study.font-xlarge { font-size: 25px; }
-.rich-study.font-small .scripture { font-size: 19px; }
-.rich-study.font-large .scripture { font-size: 24px; }
-.rich-study.font-xlarge .scripture { font-size: 28px; }
-.rich-study.font-small .christ,
-.rich-study.font-small .christ p { font-size: 16px; }
-.rich-study.font-large .christ,
-.rich-study.font-large .christ p { font-size: 19px; }
-.rich-study.font-xlarge .christ,
-.rich-study.font-xlarge .christ p { font-size: 22px; }
-.rich-study.font-small .carry { font-size: 16px; }
-.rich-study.font-large .carry { font-size: 19px; }
-.rich-study.font-xlarge .carry { font-size: 22px; }
-.rich-study.font-small .intro:first-of-type::first-letter { font-size: 56px; }
-.rich-study.font-large .intro:first-of-type::first-letter { font-size: 74px; }
-.rich-study.font-xlarge .intro:first-of-type::first-letter { font-size: 86px; }
+/* All sections share one font-size, set on .rich-study via the
+   --reader-body-size custom property. The dropcap on the first intro
+   paragraph still scales by the size class for visual hierarchy. */
+:root[data-font-size="small"]  .rich-study .intro:first-of-type::first-letter { font-size: 50px; }
+:root[data-font-size="large"]  .rich-study .intro:first-of-type::first-letter { font-size: 74px; }
+:root[data-font-size="xlarge"] .rich-study .intro:first-of-type::first-letter { font-size: 86px; }
 
+/* Mobile body sizes — slightly smaller scale than desktop. Same single
+   declaration drives every section. */
 @media (max-width: 640px) {
-  .rich-study.font-small { font-size: 16px; }
-  .rich-study.font-large { font-size: 20px; }
-  .rich-study.font-xlarge { font-size: 23px; }
-  .rich-study.font-small .scripture { font-size: 16px; }
-  .rich-study.font-large .scripture { font-size: 19px; }
-  .rich-study.font-xlarge .scripture { font-size: 22px; }
+  :root[data-font-size="small"]  { --reader-body-size: 15px; }
+  :root[data-font-size="medium"] { --reader-body-size: 17px; }
+  :root[data-font-size="large"]  { --reader-body-size: 20px; }
+  :root[data-font-size="xlarge"] { --reader-body-size: 23px; }
 }
 
 /* Reader-toggleable sections: per-user hide preferences. */

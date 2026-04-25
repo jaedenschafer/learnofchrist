@@ -4,24 +4,20 @@ import { useEffect } from 'react';
 import { useReadingPrefs } from '@/lib/ReadingPrefsContext';
 
 /**
- * Applies font-size + focus-mode classes directly to a study article
+ * Applies focus-mode + section-visibility classes to a study article
  * container (anything with the `.rich-study` class by default) so its
- * inline CSS can scope on them. Dark mode is handled at the <html> level
- * in ReadingPrefsContext, so it isn't re-applied here.
+ * inline CSS can scope on them.
+ *
+ * Theme and font-size are now handled at the <html> level by
+ * ReadingPrefsContext (data-reader-theme + data-font-size), so they are
+ * NOT re-applied here.
  */
 export default function ReadingComfortEffects({
   selector = '.rich-study',
 }: {
   selector?: string;
 } = {}) {
-  const { fontSize, focusMode, hiddenSections } = useReadingPrefs();
-
-  useEffect(() => {
-    const el = document.querySelector<HTMLElement>(selector);
-    if (!el) return;
-    el.classList.remove('font-small', 'font-medium', 'font-large', 'font-xlarge');
-    el.classList.add(`font-${fontSize}`);
-  }, [fontSize, selector]);
+  const { focusMode, hiddenSections } = useReadingPrefs();
 
   useEffect(() => {
     const el = document.querySelector<HTMLElement>(selector);

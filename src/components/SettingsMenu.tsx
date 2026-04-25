@@ -1,8 +1,7 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { useEffect, useRef, useState, type ReactNode } from 'react';
+import { useRouter, usePathname } from 'next/navigation';
 import {
   useReadingPrefs,
   type FontSize,
@@ -10,31 +9,41 @@ import {
   type HidableSection,
 } from '@/lib/ReadingPrefsContext';
 
-const FONT_OPTIONS: { value: FontSize; label: string }[] = [
-  { value: 'small', label: 'Small' },
-  { value: 'medium', label: 'Default' },
-  { value: 'large', label: 'Large' },
-  { value: 'xlarge', label: 'Extra Large' },
+const FONT_OPTIONS: { value: FontSize; tt: string }[] = [
+  // Each tile shows "Tt" rendered at the actual size that option will produce.
+  { value: 'small',  tt: '13px' },
+  { value: 'medium', tt: '16px' },
+  { value: 'large',  tt: '20px' },
+  { value: 'xlarge', tt: '24px' },
 ];
 
-const THEME_OPTIONS: { value: Theme; label: string }[] = [
-  { value: 'light', label: 'Light' },
-  { value: 'dark', label: 'Dark' },
-];
-
-const SECTION_OPTIONS: { id: HidableSection; label: string }[] = [
-  { id: 'reflection', label: 'Ideas for Reflection' },
-  { id: 'carry', label: 'Thoughts to Sit With' },
+const SECTION_OPTIONS: { id: HidableSection; label: string; icon: ReactNode }[] = [
+  {
+    id: 'reflection',
+    label: 'Ideas for Reflection',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.7} strokeLinecap="round" strokeLinejoin="round">
+        <path d="M12 3a7 7 0 00-4 12.7V18h8v-2.3A7 7 0 0012 3z" />
+        <path d="M10 21h4" />
+      </svg>
+    ),
+  },
+  {
+    id: 'carry',
+    label: 'Thoughts to Sit With',
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.7} strokeLinecap="round" strokeLinejoin="round">
+        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" />
+      </svg>
+    ),
+  },
 ];
 
 /**
- * Popover-style settings menu. Triggered by a gear button so the reader can
- * adjust preferences without losing their scroll position. The standalone
- * /settings page is still linked from the bottom for the full experience.
- *
- * `triggerClassName` lets callers swap the button styling — the navbar uses
- * the default nav-link look, while the chapter hero passes its own pill
- * class so the gear matches the rest of the utility row.
+ * Visual settings popover. Each group has a leading icon and the controls
+ * inside the group are themselves icon-driven (tile cards for Study/Chapter
+ * and Theme, Tt-only swatches for font size, eye/note rows with toggles for
+ * sections).
  */
 export default function SettingsMenu({
   align = 'right',
@@ -46,6 +55,7 @@ export default function SettingsMenu({
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
   const pathname = usePathname();
+  const router = useRouter();
   const {
     theme,
     setTheme,
@@ -55,10 +65,8 @@ export default function SettingsMenu({
     toggleSection,
   } = useReadingPrefs();
 
-  // When the user is on a study chapter page like /study/genesis/1, give them
-  // a one-tap escape hatch to the plain Bible reader at /bible/genesis/1.
-  // Replaces the old "Scripture only" focus-mode toggle, which only hid UI
-  // chrome — sending them to the actual reader is a cleaner contract.
+  // /study/[book]/[chapter] is the only route where switching to "Chapter"
+  // has a target (the plain reader at /bible/[book]/[chapter]).
   const studyMatch = pathname?.match(/^\/study\/([^/]+)\/(\d+)/);
   const plainScriptureHref = studyMatch
     ? `/bible/${studyMatch[1]}/${studyMatch[2]}`
@@ -107,75 +115,78 @@ export default function SettingsMenu({
           <circle cx="12" cy="12" r="3" />
         </svg>
       </button>
+
       {open && (
         <div
-          className={`absolute ${align === 'right' ? 'right-0' : 'left-0'} top-full mt-2 z-[60] min-w-[280px] bg-[color:var(--color-surface)] rounded-2xl shadow-[0_8px_40px_rgba(0,0,0,0.15)] border border-[color:var(--color-separator)] overflow-hidden animate-fade-in`}
+          className={`settings-menu ${align === 'right' ? 'settings-menu--right' : 'settings-menu--left'}`}
         >
-          <div className="px-4 py-3 border-b border-[color:var(--color-separator)]">
-            <p className="text-[0.6875rem] font-semibold tracking-[0.12em] uppercase text-[color:var(--color-tertiary-label)]">
-              Settings
-            </p>
-          </div>
-
-          <Group label="Theme">
-            <Segmented>
-              {THEME_OPTIONS.map((t) => (
-                <SegmentButton
-                  key={t.value}
-                  active={theme === t.value}
-                  onClick={() => setTheme(t.value)}
-                >
-                  {t.label}
-                </SegmentButton>
-              ))}
-            </Segmented>
-          </Group>
-
-          <Group label="Font size">
-            <Segmented>
-              {FONT_OPTIONS.map((f) => (
-                <SegmentButton
-                  key={f.value}
-                  active={fontSize === f.value}
-                  onClick={() => setFontSize(f.value)}
-                >
-                  {f.label}
-                </SegmentButton>
-              ))}
-            </Segmented>
-          </Group>
-
           {plainScriptureHref && (
-            <Group label="Reading mode">
-              <Link
-                href={plainScriptureHref}
-                onClick={() => setOpen(false)}
-                className="settings-plain-link"
-              >
-                <span>Read plain scripture</span>
-                <svg
-                  viewBox="0 0 24 24"
-                  width="14"
-                  height="14"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  aria-hidden="true"
-                >
-                  <path d="M5 12h14M13 5l7 7-7 7" />
-                </svg>
-              </Link>
-              <p className="settings-plain-help">
-                Skip the study guide and open this chapter in the plain Bible
-                reader — verse text only, no images or commentary.
-              </p>
+            <Group icon={<EyeIcon />} label="View">
+              <TileGrid>
+                <Tile
+                  active={true}
+                  onClick={() => setOpen(false)}
+                  icon={<BookOpenIcon />}
+                  label="Study"
+                />
+                <Tile
+                  active={false}
+                  onClick={() => {
+                    setOpen(false);
+                    router.push(plainScriptureHref);
+                  }}
+                  icon={<ScrollIcon />}
+                  label="Chapter"
+                />
+              </TileGrid>
             </Group>
           )}
 
-          <Group label="Study sections">
-            <ul className="space-y-1">
+          <Group icon={<PaintIcon />} label="Theme">
+            <TileGrid>
+              <Tile
+                active={theme === 'light'}
+                onClick={() => setTheme('light' as Theme)}
+                icon={<SunIcon />}
+                label="Light"
+              />
+              <Tile
+                active={theme === 'dark'}
+                onClick={() => setTheme('dark' as Theme)}
+                icon={<MoonIcon />}
+                label="Dark"
+              />
+            </TileGrid>
+          </Group>
+
+          <Group icon={<TypeIcon />} label="Font size">
+            <div className="settings-tt-row" role="group" aria-label="Font size">
+              {FONT_OPTIONS.map((f) => {
+                const active = fontSize === f.value;
+                return (
+                  <button
+                    key={f.value}
+                    type="button"
+                    onClick={() => setFontSize(f.value)}
+                    aria-pressed={active}
+                    aria-label={`Font size ${f.value}`}
+                    className={`settings-tt-btn ${active ? 'is-active' : ''}`}
+                  >
+                    <span
+                      className="settings-tt"
+                      style={{ fontSize: f.tt }}
+                      aria-hidden="true"
+                    >
+                      Tt
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+          </Group>
+
+          <Group icon={<LayersIcon />} label="Sections">
+            <ul className="settings-sections">
               {SECTION_OPTIONS.map((s) => {
                 const visible = !hiddenSections.has(s.id);
                 return (
@@ -184,21 +195,17 @@ export default function SettingsMenu({
                       type="button"
                       onClick={() => toggleSection(s.id)}
                       aria-pressed={visible}
-                      className="w-full flex items-center justify-between gap-3 py-2 px-2 rounded-lg hover:bg-[var(--color-bg)] transition-colors"
+                      className="settings-section-row"
                     >
-                      <span className="text-[0.875rem] text-[color:var(--color-label)]">
-                        {s.label}
+                      <span className="settings-section-icon" aria-hidden="true">
+                        {s.icon}
                       </span>
+                      <span className="settings-section-label">{s.label}</span>
                       <span
-                        className={`relative h-5 w-9 rounded-full transition-colors ${
-                          visible ? 'bg-[#34C759]' : 'bg-[#D1D1D6]'
-                        }`}
+                        className={`settings-toggle ${visible ? 'is-on' : ''}`}
+                        aria-hidden="true"
                       >
-                        <span
-                          className={`absolute top-0.5 h-4 w-4 bg-white rounded-full shadow transition-all ${
-                            visible ? 'left-[18px]' : 'left-0.5'
-                          }`}
-                        />
+                        <span className="settings-toggle-dot" />
                       </span>
                     </button>
                   </li>
@@ -206,58 +213,135 @@ export default function SettingsMenu({
               })}
             </ul>
           </Group>
-
-          <div className="px-4 py-3 border-t border-[color:var(--color-separator)] bg-[var(--color-bg)]">
-            <Link
-              href="/settings"
-              className="text-[0.8125rem] font-medium text-[color:var(--color-primary)]"
-              onClick={() => setOpen(false)}
-            >
-              All settings →
-            </Link>
-          </div>
         </div>
       )}
     </div>
   );
 }
 
-function Group({ label, children }: { label: string; children: React.ReactNode }) {
+/* ─── Group + Tile primitives ───────────────────────────────────────── */
+
+function Group({
+  icon,
+  label,
+  children,
+}: {
+  icon: ReactNode;
+  label: string;
+  children: ReactNode;
+}) {
   return (
-    <div className="px-4 py-3 border-b border-[color:var(--color-separator)] last:border-b-0">
-      <p className="text-[0.75rem] font-semibold text-[color:var(--color-secondary-label)] mb-2">{label}</p>
+    <div className="settings-group">
+      <div className="settings-group-head">
+        <span className="settings-group-icon" aria-hidden="true">{icon}</span>
+        <span className="settings-group-label">{label}</span>
+      </div>
       {children}
     </div>
   );
 }
 
-function Segmented({ children }: { children: React.ReactNode }) {
-  return (
-    <div className="flex bg-[var(--color-bg)] rounded-xl p-0.5 gap-0.5">{children}</div>
-  );
+function TileGrid({ children }: { children: ReactNode }) {
+  return <div className="settings-tile-grid">{children}</div>;
 }
 
-function SegmentButton({
+function Tile({
   active,
   onClick,
-  children,
+  icon,
+  label,
 }: {
   active: boolean;
   onClick: () => void;
-  children: React.ReactNode;
+  icon: ReactNode;
+  label: string;
 }) {
   return (
     <button
       type="button"
       onClick={onClick}
       aria-pressed={active}
-      className={`flex-1 px-2 py-1.5 rounded-lg text-[0.75rem] font-semibold transition-all ${
-        active
-          ? 'bg-[color:var(--color-surface)] text-[color:var(--color-label)] shadow-sm'
-          : 'text-[color:var(--color-secondary-label)] hover:text-[color:var(--color-label)]'
-      }`}
+      className={`settings-tile ${active ? 'is-active' : ''}`}
     >
-      {children}
+      <span className="settings-tile-icon" aria-hidden="true">{icon}</span>
+      <span className="settings-tile-label">{label}</span>
     </button>
+  );
+}
+
+/* ─── Icons ─────────────────────────────────────────────────────────── */
+
+function EyeIcon() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.7} strokeLinecap="round" strokeLinejoin="round" width="16" height="16">
+      <path d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+      <circle cx="12" cy="12" r="3" />
+    </svg>
+  );
+}
+
+function BookOpenIcon() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
+      <path d="M2 4.5h7a3 3 0 013 3v12a3 3 0 00-3-3H2v-12z" />
+      <path d="M22 4.5h-7a3 3 0 00-3 3v12a3 3 0 013-3h7v-12z" />
+    </svg>
+  );
+}
+
+function ScrollIcon() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
+      <path d="M5 4h11a3 3 0 013 3v11a2 2 0 002 2H8a3 3 0 01-3-3V4z" />
+      <path d="M5 4a3 3 0 00-3 3v11a2 2 0 002 2" />
+      <path d="M9 9h7M9 13h7" />
+    </svg>
+  );
+}
+
+function PaintIcon() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.7} strokeLinecap="round" strokeLinejoin="round" width="16" height="16">
+      <path d="M5 3h14v6H5z" />
+      <path d="M9 9v3h6V9" />
+      <path d="M12 12v3" />
+      <path d="M9 15h6v6H9z" />
+    </svg>
+  );
+}
+
+function SunIcon() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="12" cy="12" r="4" />
+      <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" />
+    </svg>
+  );
+}
+
+function MoonIcon() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
+      <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
+    </svg>
+  );
+}
+
+function TypeIcon() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.7} strokeLinecap="round" strokeLinejoin="round" width="16" height="16">
+      <path d="M4 7V5h16v2" />
+      <path d="M9 19h6" />
+      <path d="M12 5v14" />
+    </svg>
+  );
+}
+
+function LayersIcon() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.7} strokeLinecap="round" strokeLinejoin="round" width="16" height="16">
+      <path d="M12 3l9 5-9 5-9-5 9-5z" />
+      <path d="M3 13l9 5 9-5" />
+    </svg>
   );
 }

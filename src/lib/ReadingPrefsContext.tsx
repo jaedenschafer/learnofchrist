@@ -113,12 +113,13 @@ export function ReadingPrefsProvider({ children }: { children: ReactNode }) {
     const root = document.documentElement;
     root.setAttribute('data-reader-theme', isDark ? 'dark' : 'light');
     root.setAttribute('data-reading-mode', readingMode);
+    root.setAttribute('data-font-size', fontSize);
     if (focusMode === 'focus') {
       root.setAttribute('data-focus-mode', 'focus');
     } else {
       root.removeAttribute('data-focus-mode');
     }
-  }, [isDark, focusMode, readingMode]);
+  }, [isDark, focusMode, readingMode, fontSize]);
 
   const setFontSize = useCallback((s: FontSize) => {
     setFontSizeState(s);

@@ -171,13 +171,6 @@ export default function AuthButton({
           >
             Account
           </Link>
-          <Link
-            href="/settings"
-            role="menuitem"
-            className="block px-3 py-2 text-[0.875rem] text-[color:var(--color-label)] hover:bg-[color:var(--color-separator)]/40"
-          >
-            Settings
-          </Link>
           <form action="/auth/sign-out" method="post">
             <button
               type="submit"
