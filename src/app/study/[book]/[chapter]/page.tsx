@@ -7,6 +7,7 @@ import BreadcrumbNav from '@/components/BreadcrumbNav';
 import ChapterNav from '@/components/ChapterNav';
 import VerseDisplay from '@/components/VerseDisplay';
 import StudyGuide from '@/components/StudyGuide';
+import SettingsMenu from '@/components/SettingsMenu';
 import { getVerses, getArtworksForChapter } from '@/lib/supabase';
 import { verseExplanations } from '@/data/verse-explanations';
 import ChapterArtStrip from '@/components/ChapterArtStrip';
@@ -196,16 +197,7 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
                 <rect x="17" y="14" width="4" height="6" rx="1.5" />
               </svg>
             </button>
-            <Link
-              href="/settings"
-              className="study-hero__util"
-              aria-label="Settings"
-            >
-              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth={1.7} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                <path d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-                <circle cx="12" cy="12" r="3" />
-              </svg>
-            </Link>
+            <SettingsMenu align="right" triggerClassName="study-hero__util" />
             <a
               href="#study-filters"
               className="study-hero__util study-hero__util--pill"
