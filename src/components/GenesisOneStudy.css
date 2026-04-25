@@ -186,27 +186,15 @@ html[data-reading-mode="verse"] .rich-study .scripture .verse-line {
   display: block;
 }
 
-/* Verse-section wrapper: bounds the sticky scripture */
+/* Verse-section wrapper. Scripture flows naturally — no sticky behavior, so
+   commentary text never scrolls behind the verse box. */
 .rich-study .verse-section {
   position: relative;
   margin: 1.5rem 0 2rem;
 }
 .rich-study .verse-section .scripture {
-  position: sticky;
-  top: 100px; /* clears site navbar (48px) + sticky filter bar above */
-  z-index: 5;
+  position: relative;
   margin: 0 0 1.5rem;
-  transition: box-shadow 0.25s ease;
-  /* Opaque fallback so commentary never bleeds through the paper texture when pinned */
-  background-color: #FFFFFF;
-}
-/* When the scripture is pinned at the top, give it a slightly deeper shadow and
-   a subtle separator below so it visually detaches from commentary flowing underneath. */
-.rich-study .verse-section .scripture.is-pinned {
-  box-shadow:
-    0 1px 2px rgba(0, 0, 0, 0.05),
-    0 14px 30px -18px rgba(30, 25, 15, 0.28),
-    0 24px 44px -30px rgba(30, 25, 15, 0.3);
 }
 
 /* Imperfect organic highlighter marks */

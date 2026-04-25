@@ -116,6 +116,28 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
   const content = getChapterContent(book, chapter);
   const isGenesisOne = book === 'genesis' && chapter === 1;
 
+  // For the Genesis 1 deep-dive we promote a few curated artworks inline
+  // through the chapter (matched by title/artist inside GenesisOneStudy).
+  // The remaining artworks fall through to the carousel at the end of the
+  // page so we never show the same image twice.
+  const inlineArtSlugs = new Set<string>();
+  if (isGenesisOne) {
+    for (const a of chapterArtworks) {
+      const artistName = a.artist?.name ?? '';
+      if (
+        (/tissot/i.test(artistName) && /creation/i.test(a.title)) ||
+        /separation of light/i.test(a.title) ||
+        /separation of the earth/i.test(a.title) ||
+        (/bennett/i.test(artistName) && /adam/i.test(a.title))
+      ) {
+        inlineArtSlugs.add(a.id);
+      }
+    }
+  }
+  const stripArtworks = isGenesisOne
+    ? chapterArtworks.filter((a) => !inlineArtSlugs.has(a.id))
+    : chapterArtworks;
+
   const explainedVerses = Object.keys(verseExplanations)
     .filter((key) => key.startsWith(`${book}/${chapter}/`))
     .map((key) => parseInt(key.split('/')[2]));
@@ -179,7 +201,7 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
 
         <div className="space-y-4 mt-4">
           {isGenesisOne ? (
-            <GenesisOneStudy />
+            <GenesisOneStudy artworks={chapterArtworks} />
           ) : (
             <>
               {hasVerses && (
@@ -211,7 +233,7 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
           bookSlug={book}
           chapter={chapter}
           bookName={book_obj.name}
-          artworks={chapterArtworks}
+          artworks={stripArtworks}
         />
 
         <ChapterNav

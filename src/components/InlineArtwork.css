@@ -1,0 +1,85 @@
+/* Editorial inline artwork inside a long-form study guide.
+   Sits between sections of commentary, full-bleed within the reading column. */
+
+.inline-artwork {
+  margin: 2.5rem 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.inline-artwork__media-link {
+  display: block;
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--color-separator);
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.04),
+    0 12px 28px rgba(20, 14, 8, 0.10);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.inline-artwork__media-link:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.05),
+    0 18px 38px rgba(20, 14, 8, 0.14);
+}
+
+.inline-artwork__media {
+  width: 100%;
+  display: block;
+  background: var(--color-separator);
+}
+
+.inline-artwork__img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 70vh;
+  object-fit: cover;
+}
+
+.inline-artwork__caption {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  padding: 0 0.25rem;
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  text-align: center;
+}
+
+.inline-artwork__kicker {
+  font-size: 0.6875rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--color-tertiary-label);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+.inline-artwork__title {
+  font-size: 1.0625rem;
+  font-style: italic;
+  color: var(--color-label);
+  line-height: 1.3;
+}
+
+.inline-artwork__artist {
+  font-size: 0.875rem;
+  color: var(--color-secondary-label);
+  font-style: normal;
+  letter-spacing: 0.01em;
+}
+
+@media (min-width: 768px) {
+  .inline-artwork {
+    margin: 3rem -1rem;
+  }
+  .inline-artwork__media-link {
+    border-radius: 18px;
+  }
+}

@@ -15,9 +15,12 @@ import ShareButton from './ShareButton';
 import HebrewAudio from './HebrewAudio';
 import ReadingComfortEffects from './ReadingComfortEffects';
 import ChapterProgress from './ChapterProgress';
+import InlineArtwork from './InlineArtwork';
+import HighlightController from './HighlightController';
 import { useTranslation } from '@/lib/TranslationContext';
-import { fetchVersesClient, type Verse } from '@/lib/supabase';
+import { fetchVersesClient, type Verse, type ArtworkWithArtist } from '@/lib/supabase';
 import './GenesisOneStudy.css';
+import './InlineArtwork.css';
 
 // Heavy, below-the-fold: the journal panel and audio player aren't needed for
 // the first paint — ship them only when hydration has happened.
@@ -68,7 +71,7 @@ function ScriptureBlock({
   const { isKjv, versesByChapter } = useContext(ScriptureCtx);
 
   if (isKjv) {
-    return <p className="scripture">{children}</p>;
+    return <p className="scripture" data-chapter={chapter}>{children}</p>;
   }
 
   const chapterVerses = versesByChapter[chapter] ?? [];
@@ -79,11 +82,11 @@ function ScriptureBlock({
   // If alt-translation verses haven't loaded yet (or aren't in the DB), keep the
   // KJV original so the page never goes blank.
   if (matched.length === 0) {
-    return <p className="scripture">{children}</p>;
+    return <p className="scripture" data-chapter={chapter}>{children}</p>;
   }
 
   return (
-    <p className="scripture">
+    <p className="scripture" data-chapter={chapter}>
       {matched.map((v) => (
         <span key={v.verse_number} className="verse-line">
           <span className="v">{v.verse_number}</span>
@@ -94,9 +97,39 @@ function ScriptureBlock({
   );
 }
 
-export default function GenesisOneStudy() {
+// Inline artwork picks. We anchor a small set of curated images to specific
+// places in the chapter — the rest stay in the carousel at the end of the page.
+// Picks are looked up by title/artist so the slot stays empty (instead of
+// crashing) if a particular artwork ever gets unpublished or re-titled.
+function pickArtwork(
+  artworks: ArtworkWithArtist[],
+  match: (a: ArtworkWithArtist) => boolean,
+): ArtworkWithArtist | null {
+  return artworks.find(match) ?? null;
+}
+
+interface GenesisOneStudyProps {
+  artworks?: ArtworkWithArtist[];
+}
+
+export default function GenesisOneStudy({ artworks = [] }: GenesisOneStudyProps) {
   const { currentTranslation } = useTranslation();
   const isKjv = currentTranslation === 'kjv';
+
+  // Curated inline placements for Genesis 1.
+  const opener = pickArtwork(
+    artworks,
+    (a) => /tissot/i.test(a.artist?.name ?? '') && /creation/i.test(a.title),
+  );
+  const day1Art = pickArtwork(artworks, (a) => /separation of light/i.test(a.title));
+  const day3Art = pickArtwork(
+    artworks,
+    (a) => /separation of the earth/i.test(a.title),
+  );
+  const day6Art = pickArtwork(
+    artworks,
+    (a) => /bennett/i.test(a.artist?.name ?? '') && /adam/i.test(a.title),
+  );
 
   const [versesByChapter, setVersesByChapter] = useState<Record<number, Verse[]>>({});
 
@@ -141,8 +174,6 @@ export default function GenesisOneStudy() {
     // intentionally later than "first entry from the bottom" so the highlight
     // animation fires at the moment the user is actually about to read the
     // verse, not the moment it peeks into view.
-    const isMobile = window.matchMedia('(max-width: 640px)').matches;
-    const stickyTop = isMobile ? 60 : 72;
     // Fraction of viewport height at which a section's top triggers reveal.
     // 0.5 = halfway up the viewport. On a 900px window, that's 450px down —
     // the natural reading position.
@@ -168,16 +199,6 @@ export default function GenesisOneStudy() {
           } else if (rect.bottom <= 0) {
             scripture.classList.add('visible');
           }
-        }
-        // Toggle is-pinned when the scripture is locked to the sticky slot.
-        const scriptureRect = scripture.getBoundingClientRect();
-        const pinned =
-          scriptureRect.top <= stickyTop + 1 &&
-          rect.bottom > stickyTop + scriptureRect.height;
-        if (pinned) {
-          scripture.classList.add('is-pinned');
-        } else {
-          scripture.classList.remove('is-pinned');
         }
       });
     };
@@ -208,14 +229,10 @@ export default function GenesisOneStudy() {
       const target = document.getElementById(targetId);
       if (!target) return;
       e.preventDefault();
-      const sectionEl = link.closest('.verse-section');
-      const sticky = sectionEl?.querySelector<HTMLElement>('.scripture');
-      // Include the site nav height so the anchor clears the sticky header too.
+      // Offset by site navbar height so the anchor target clears the sticky nav.
       const navEl = document.querySelector<HTMLElement>('nav, header');
       const navH = navEl ? navEl.getBoundingClientRect().height : 0;
-      const baseTop = Math.max(stickyTop, navH);
-      const offset =
-        baseTop + 16 + (sticky ? sticky.getBoundingClientRect().height : 120);
+      const offset = navH + 24;
       const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
       window.scrollTo({ top, behavior: 'smooth' });
       // Programmatic scroll can skip native scroll events — re-check after it settles.
@@ -246,6 +263,7 @@ export default function GenesisOneStudy() {
       }}
     >
       <article className="rich-study">
+        <HighlightController bookSlug="genesis" chapter={1} containerSelector=".rich-study" />
         <StudyJournal studyId="genesis-1" bookSlug="genesis" chapter={1} bookName="Genesis" />
         <ScriptureRefs />
         <ShareableMarks
@@ -290,6 +308,10 @@ export default function GenesisOneStudy() {
         <p className="kjv-note" role="note">
           <strong>A note on translations.</strong>{' '}The commentary, highlights, and Hebrew callouts below are written around the King James Version&apos;s wording. Use the translation switcher anytime — the scripture blocks will swap to your chosen translation, while the commentary stays anchored to KJV phrasing.
         </p>
+
+        {opener && (
+          <InlineArtwork artwork={opener} caption="The Whole Chapter at a Glance" />
+        )}
 
         <div className="divider">· · ·</div>
 
@@ -393,6 +415,10 @@ export default function GenesisOneStudy() {
           prompt="What is the first line God may be asking you to draw this week — work hours from family hours, scrolling from presence, noise from silence? Name it."
         />
 
+        {day1Art && (
+          <InlineArtwork artwork={day1Art} caption="Genesis 1:3–5 · Day One" />
+        )}
+
         {/* ================= Day 2 ================= */}
         <h2 className="section">
           <span className="ref">Creation Day 2 · Genesis 1:6–8</span>
@@ -480,6 +506,10 @@ export default function GenesisOneStudy() {
           id="day-3"
           prompt="What is actually bearing fruit in you right now? Where have you been too busy or too hard on yourself to notice it?"
         />
+
+        {day3Art && (
+          <InlineArtwork artwork={day3Art} caption="Genesis 1:9–10 · Day Three" />
+        )}
 
         {/* ================= Day 4 ================= */}
         <h2 className="section">
@@ -644,6 +674,10 @@ export default function GenesisOneStudy() {
             Every face you pass today is a living image God set up in His world — the coworker, the cashier, the driver, the kid in aisle five, the face in the mirror. The revolutionary claim of Genesis 1 is that <em>every one of them</em>{' '}carries His image, not only the powerful or the holy. Whatever love and patience you&apos;ve ever shown one of them has been, quietly, a kind of worship.
           </div>
         </section>
+
+        {day6Art && (
+          <InlineArtwork artwork={day6Art} caption="Genesis 1:26–28 · Made in His Image" />
+        )}
 
         {/* ================= Day 6 · Very Good ================= */}
         <h2 className="section">

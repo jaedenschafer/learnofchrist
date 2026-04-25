@@ -1,0 +1,419 @@
+/* Floating highlight action bar that appears on text selection.
+   Two pill cards side by side: color swatches + action buttons. */
+
+.hi-popup {
+  position: absolute;
+  z-index: 9999;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: stretch;
+  gap: 0.5rem;
+  pointer-events: auto;
+  animation: hiPopupIn 0.16s ease-out both;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+@keyframes hiPopupIn {
+  from { opacity: 0; transform: translate(-50%, -4px); }
+  to   { opacity: 1; transform: translate(-50%, 0); }
+}
+
+.hi-popup__group {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem;
+  background: var(--color-surface, #FFFFFF);
+  border-radius: 14px;
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.06),
+    0 18px 48px rgba(20, 14, 8, 0.18);
+  border: 1px solid color-mix(in srgb, var(--color-separator) 70%, transparent);
+}
+
+.hi-popup__group--colors {
+  padding: 0.5rem 0.625rem;
+}
+
+.hi-popup__group--actions {
+  gap: 0;
+}
+
+.hi-popup__color {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.12s ease;
+}
+
+.hi-popup__color:hover {
+  transform: scale(1.08);
+}
+
+.hi-popup__color:active {
+  transform: scale(0.95);
+}
+
+.hi-popup__more {
+  width: 28px;
+  height: 28px;
+  border: none;
+  background: none;
+  position: relative;
+  margin-left: 0.125rem;
+  cursor: pointer;
+  padding: 0;
+}
+
+.hi-popup__more-dot {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid var(--color-surface, #FFF);
+}
+
+.hi-popup__more-dot:nth-child(1) { left: 0;  top: 6px; }
+.hi-popup__more-dot:nth-child(2) { left: 6px; top: 6px; z-index: 2; }
+.hi-popup__more-dot:nth-child(3) { left: 12px; top: 6px; z-index: 3; }
+
+.hi-popup__more.is-open {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  border-radius: 50%;
+}
+
+.hi-popup__action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.125rem;
+  padding: 0.4rem 0.75rem;
+  border: none;
+  background: none;
+  color: var(--color-label);
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 0.75rem;
+  font-weight: 500;
+  min-width: 60px;
+  transition: background-color 0.12s ease;
+}
+
+.hi-popup__action:hover {
+  background-color: color-mix(in srgb, var(--color-label) 6%, transparent);
+}
+
+.hi-popup__action:active {
+  transform: scale(0.97);
+}
+
+.hi-popup__action svg {
+  display: block;
+  color: var(--color-label);
+}
+
+.hi-popup__action span {
+  margin-top: 1px;
+}
+
+.hi-popup__more-tray {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0.5rem;
+  display: flex;
+  gap: 0.375rem;
+  padding: 0.5rem;
+  background: var(--color-surface, #FFFFFF);
+  border-radius: 12px;
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.06),
+    0 12px 28px rgba(20, 14, 8, 0.14);
+  border: 1px solid color-mix(in srgb, var(--color-separator) 70%, transparent);
+  animation: hiPopupIn 0.16s ease-out both;
+}
+
+/* User-applied highlight marks live in the chapter text itself.
+   Override the default <mark> reset so our background color shows through. */
+mark.user-hl {
+  background-image: none;
+  background-size: auto;
+  padding: 0.05em 0.18em;
+  margin: 0 -0.08em;
+  border-radius: 2px;
+  color: inherit;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  /* The .rich-study .scripture mark rule animates background-size to fade
+     highlights in. For user-applied highlights we want the color showing
+     immediately, regardless of section visibility. */
+  background-color: var(--user-hl-color, #FFE066);
+}
+.rich-study mark.user-hl {
+  background-size: auto !important;
+}
+html.js .rich-study mark.user-hl {
+  background-size: auto !important;
+}
+
+/* ─── Modal (Note + Compare share styles) ───────────────────────────── */
+.hi-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.hi-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+.hi-modal__panel {
+  position: relative;
+  width: 100%;
+  max-width: 460px;
+  background: var(--color-surface, #FFFFFF);
+  border-radius: 18px;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.3);
+  padding: 1.25rem 1.25rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+  max-height: 90vh;
+  overflow-y: auto;
+  animation: hiModalIn 0.18s ease-out both;
+}
+
+.hi-modal__panel--wide {
+  max-width: 600px;
+}
+
+@keyframes hiModalIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.hi-modal__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hi-modal__title {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  color: var(--color-label);
+  margin: 0;
+}
+
+.hi-modal__close {
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--color-secondary-label);
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+  border-radius: 8px;
+}
+
+.hi-modal__close:hover {
+  background: color-mix(in srgb, var(--color-label) 6%, transparent);
+}
+
+.hi-modal__sub {
+  font-size: 0.8125rem;
+  color: var(--color-secondary-label);
+  margin: 0;
+}
+
+.hi-modal__quote {
+  margin: 0;
+  padding: 0.75rem 0.875rem;
+  border-left: 3px solid var(--color-primary);
+  background: color-mix(in srgb, var(--color-primary) 7%, transparent);
+  border-radius: 0 8px 8px 0;
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 1rem;
+  line-height: 1.45;
+  color: var(--color-label);
+}
+
+.hi-modal__textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 0.75rem 0.875rem;
+  border: 1px solid var(--color-separator);
+  border-radius: 12px;
+  font-family: inherit;
+  font-size: 0.9375rem;
+  color: var(--color-label);
+  background: var(--color-bg);
+  resize: vertical;
+}
+
+.hi-modal__textarea:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: -1px;
+  border-color: transparent;
+}
+
+.hi-modal__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.hi-modal__btn {
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.12s ease, transform 0.06s ease;
+}
+
+.hi-modal__btn--ghost {
+  background: transparent;
+  color: var(--color-secondary-label);
+}
+
+.hi-modal__btn--ghost:hover {
+  background: color-mix(in srgb, var(--color-label) 6%, transparent);
+}
+
+.hi-modal__btn--primary {
+  background: var(--color-primary);
+  color: #FFFFFF;
+}
+
+.hi-modal__btn--primary:hover {
+  filter: brightness(1.05);
+}
+
+.hi-modal__btn--primary:active {
+  transform: scale(0.97);
+}
+
+.hi-modal__loading,
+.hi-modal__empty {
+  font-size: 0.875rem;
+  color: var(--color-secondary-label);
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+/* ─── Compare list ─────────────────────────────────────────────────── */
+.hi-compare__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.hi-compare__row {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 0.75rem;
+  align-items: start;
+  padding: 0.625rem 0.75rem;
+  background: var(--color-bg);
+  border: 1px solid var(--color-separator);
+  border-radius: 12px;
+}
+
+.hi-compare__abbr {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--color-primary);
+  background: color-mix(in srgb, var(--color-primary) 10%, transparent);
+  padding: 0.25rem 0.4rem;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.hi-compare__text {
+  margin: 0;
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: var(--color-label);
+}
+
+.hi-compare__name {
+  margin: 0.25rem 0 0;
+  font-size: 0.6875rem;
+  color: var(--color-tertiary-label);
+}
+
+/* ─── Toast ─────────────────────────────────────────────────────────── */
+.hi-toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 11000;
+  background: rgba(28, 28, 30, 0.92);
+  color: #FFFFFF;
+  padding: 0.625rem 1.125rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: 10px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+  pointer-events: none;
+  animation: hiToastIn 0.18s ease-out both;
+}
+
+@keyframes hiToastIn {
+  from { opacity: 0; transform: translate(-50%, 8px); }
+  to   { opacity: 1; transform: translate(-50%, 0); }
+}
+
+/* Mobile tweaks: shrink popup spacing so it fits across narrow screens. */
+@media (max-width: 480px) {
+  .hi-popup {
+    gap: 0.375rem;
+  }
+  .hi-popup__group {
+    padding: 0.4rem;
+    border-radius: 12px;
+  }
+  .hi-popup__group--colors {
+    padding: 0.4rem 0.5rem;
+  }
+  .hi-popup__action {
+    min-width: 52px;
+    padding: 0.35rem 0.55rem;
+    font-size: 0.7rem;
+  }
+  .hi-popup__color {
+    width: 24px;
+    height: 24px;
+  }
+  .hi-popup__more,
+  .hi-popup__more-dot {
+    width: 24px;
+    height: 24px;
+  }
+  .hi-popup__more-dot {
+    width: 14px;
+    height: 14px;
+  }
+}

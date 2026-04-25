@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect, ReactNode } from 'react';
 import { useTranslation } from '@/lib/TranslationContext';
 import { useReadingPrefs, FontSize, ReadingMode } from '@/lib/ReadingPrefsContext';
-import { useStuckToTop } from '@/lib/useStuckToTop';
+import './StudyFilters.css';
 
 // ─── Reusable dropdown hook ───
 function useDropdown() {
@@ -35,28 +35,34 @@ function OptionRow({
   label,
   subtitle,
   onClick,
+  accent = 'blue',
 }: {
   selected: boolean;
   label: string;
   subtitle?: string;
   onClick: () => void;
+  accent?: 'blue' | 'purple';
 }) {
+  const colors = accent === 'purple'
+    ? { text: 'text-[#5856D6]', bg: 'bg-[#5856D6]/[0.05]', check: 'text-[#5856D6]' }
+    : { text: 'text-[color:var(--color-primary)]', bg: 'bg-[#007AFF]/[0.05]', check: 'text-[color:var(--color-primary)]' };
+
   return (
     <button
       onClick={onClick}
       className={`w-full text-left flex items-center gap-3 px-4 py-2.5 transition-colors ${
-        selected ? 'bg-[#007AFF]/[0.05]' : 'active:bg-[var(--color-bg)]'
+        selected ? colors.bg : 'active:bg-[var(--color-bg)]'
       }`}
     >
       <div className="w-5 flex items-center justify-center flex-shrink-0">
         {selected && (
-          <svg className="w-4 h-4 text-[color:var(--color-primary)]" fill="currentColor" viewBox="0 0 24 24">
+          <svg className={`w-4 h-4 ${colors.check}`} fill="currentColor" viewBox="0 0 24 24">
             <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
           </svg>
         )}
       </div>
       <div className="flex-1 min-w-0">
-        <p className={`text-[0.875rem] font-medium leading-tight ${selected ? 'text-[color:var(--color-primary)]' : 'text-[color:var(--color-label)]'}`}>
+        <p className={`text-[0.875rem] font-medium leading-tight ${selected ? colors.text : 'text-[color:var(--color-label)]'}`}>
           {label}
         </p>
         {subtitle && (
@@ -68,9 +74,9 @@ function OptionRow({
 }
 
 // ─── Dropdown menu ───
-function Menu({ children, align = 'left' }: { children: ReactNode; align?: 'left' | 'right' }) {
+function Menu({ children, align = 'left', wide }: { children: ReactNode; align?: 'left' | 'right'; wide?: boolean }) {
   return (
-    <div className={`absolute ${align === 'right' ? 'right-0' : 'left-0'} top-full mt-1.5 z-50 bg-[color:var(--color-surface)] rounded-2xl shadow-[0_8px_40px_rgba(0,0,0,0.15)] border border-[color:var(--color-separator)] overflow-hidden animate-fade-in min-w-[200px]`}>
+    <div className={`absolute ${align === 'right' ? 'right-0' : 'left-0'} top-full mt-1.5 z-50 bg-[color:var(--color-surface)] rounded-2xl shadow-[0_8px_40px_rgba(0,0,0,0.15)] border border-[color:var(--color-separator)] overflow-hidden animate-fade-in ${wide ? 'min-w-[280px]' : 'min-w-[200px]'}`}>
       {children}
     </div>
   );
@@ -94,7 +100,6 @@ export default function StudyFilters() {
   const fontDD = useDropdown();
   const modeDD = useDropdown();
   const viewDD = useDropdown();
-  const { sentinelRef, stuck } = useStuckToTop();
 
   const closeAll = () => {
     transDD.setOpen(false);
@@ -109,21 +114,29 @@ export default function StudyFilters() {
     if (!wasOpen) dd.setOpen(true);
   };
 
+  // Sentinel scrolls out of view → dock the filter pill into the top nav.
+  const sentinelRef = useRef<HTMLDivElement>(null);
+  const [docked, setDocked] = useState(false);
+
+  useEffect(() => {
+    const sentinel = sentinelRef.current;
+    if (!sentinel) return;
+    const obs = new IntersectionObserver(
+      ([entry]) => setDocked(!entry.isIntersecting),
+      // Navbar is 48px tall (h-12). Once the sentinel scrolls above the navbar's
+      // bottom edge, dock the filter bar into the navbar's center.
+      { rootMargin: '-48px 0px 0px 0px', threshold: 0 },
+    );
+    obs.observe(sentinel);
+    return () => obs.disconnect();
+  }, []);
+
   return (
-    <>
-      <div ref={sentinelRef} aria-hidden="true" className="h-0" />
-      <div
-        data-pinned={stuck ? 'true' : 'false'}
-        className={`study-filterbar sticky top-12 z-40 ${stuck ? 'mb-2' : 'mb-4'}`}
-      >
-        <div className={stuck ? 'max-w-4xl mx-auto px-5' : 'max-w-3xl mx-auto'}>
-          <div
-            className={`flex items-center gap-1 transition-all ${
-              stuck
-                ? 'h-10 border-b border-[color:var(--color-separator)] glass-heavy px-2'
-                : 'glass-heavy border border-[color:var(--color-separator)] rounded-full px-2 py-1.5 shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)]'
-            }`}
-          >
+    <div className="study-filters-wrap">
+      {/* Sentinel: when this is above the navbar, the filter pill docks. */}
+      <div ref={sentinelRef} aria-hidden="true" className="study-filters-sentinel" />
+      <div className={`study-filters-bar ${docked ? 'is-docked' : ''}`}>
+        <div className="flex items-center gap-1 glass-heavy border border-[color:var(--color-separator)] rounded-full px-2 py-1.5 shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)]">
 
           {/* Translation */}
           <div ref={transDD.ref} className="relative">
@@ -156,8 +169,8 @@ export default function StudyFilters() {
             )}
           </div>
 
-          {/* Spacer pushes display prefs to right */}
-          <div className="flex-1" />
+          {/* Subtle separator between translation and display toggles */}
+          <div className="study-filters-divider" aria-hidden="true" />
 
           {/* Font Size */}
           <div ref={fontDD.ref} className="relative">
@@ -315,9 +328,8 @@ export default function StudyFilters() {
             )}
           </div>
 
-          </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
