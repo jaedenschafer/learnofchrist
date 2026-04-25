@@ -1,9 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { redirect } from 'next/navigation';
-import { isCurrentUserAdmin } from '@/lib/isAdmin';
-import { getCurrentUser } from '@/lib/supabase/server';
 import { supabaseAdmin } from '@/lib/supabaseAdmin';
+import { isAdminSession } from '@/lib/isAdmin';
 import ReviewList, { type QueueItem } from './review-list';
 
 export const dynamic = 'force-dynamic';
@@ -81,10 +80,12 @@ async function loadQueue(): Promise<{ items: QueueItem[]; error?: string }> {
 }
 
 export default async function ArtworkModerationPage() {
-  const user = await getCurrentUser();
-  if (!user) redirect('/auth/sign-in?next=/admin/artwork-moderation');
-  if (!(await isCurrentUserAdmin())) {
-    return <NotAuthorized />;
+  // Gate: only signed-in users with is_admin = true may access this page.
+  // Falls back gracefully when migration 023 hasn't been applied yet
+  // (isAdminSession returns false, page redirects to sign-in).
+  const adminViaSession = await isAdminSession();
+  if (!adminViaSession) {
+    redirect('/auth/sign-in?next=/admin/artwork-moderation');
   }
 
   const { items, error } = await loadQueue();
@@ -181,34 +182,9 @@ export default async function ArtworkModerationPage() {
           </p>
         </div>
       ) : (
-        <ReviewList items={items} />
+        <ReviewList items={items} sessionIsAdmin={adminViaSession} />
       )}
     </div>
   );
 }
 
-function NotAuthorized() {
-  return (
-    <div style={{ background: '#F5F5F7', minHeight: '100vh', padding: '80px 20px' }}>
-      <div
-        style={{
-          maxWidth: 460,
-          margin: '0 auto',
-          padding: 28,
-          background: '#fff',
-          borderRadius: 20,
-          border: '1px solid rgba(0,0,0,0.06)',
-          fontFamily: '-apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif',
-          textAlign: 'center',
-        }}
-      >
-        <h1 style={{ fontSize: 22, margin: '0 0 8px', color: '#1D1D1F' }}>
-          Not authorized
-        </h1>
-        <p style={{ color: '#86868B', fontSize: 14, margin: 0 }}>
-          Your account doesn&rsquo;t have admin access.
-        </p>
-      </div>
-    </div>
-  );
-}

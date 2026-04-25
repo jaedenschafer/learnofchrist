@@ -7,7 +7,18 @@ export default function Footer() {
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 mb-10">
           {/* Brand */}
           <div className="col-span-2 sm:col-span-1">
-            <p className="footer-brand font-semibold text-sm mb-3">Learn of Christ</p>
+            <div className="flex items-center gap-2 mb-3">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/logo.png"
+                alt=""
+                width={32}
+                height={32}
+                className="block"
+                style={{ width: 32, height: 32, objectFit: 'contain' }}
+              />
+              <p className="footer-brand font-semibold text-sm">Learn of Christ</p>
+            </div>
             <p className="footer-muted text-[0.8125rem] leading-relaxed max-w-[200px]">
               Free Bible study for everyone. No account. No ads.
             </p>

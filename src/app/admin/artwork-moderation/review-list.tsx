@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 
 export interface QueueItem {
   id: string;
@@ -28,9 +28,36 @@ export interface QueueItem {
 
 type Filter = 'flagged' | 'pending' | 'reported' | 'approved' | 'rejected' | 'all';
 
-export default function ReviewList({ items }: { items: QueueItem[] }) {
+export default function ReviewList({
+  items,
+  sessionIsAdmin = false,
+}: {
+  items: QueueItem[];
+  /** True when the server confirmed the signed-in user has is_admin=true.
+   *  When true, fetch calls rely on session cookies and no API key paste
+   *  is required. */
+  sessionIsAdmin?: boolean;
+}) {
   const [filter, setFilter] = useState<Filter>('flagged');
+  // Only used as fallback when sessionIsAdmin is false.
+  const [adminKey, setAdminKey] = useState('');
   const [busy, setBusy] = useState<string | null>(null);
+
+  // Restore/persist the legacy API key only when we're not using session auth.
+  useEffect(() => {
+    if (sessionIsAdmin) return;
+    try {
+      const k = localStorage.getItem('loc-admin-key');
+      if (k) setAdminKey(k);
+    } catch {}
+  }, [sessionIsAdmin]);
+  useEffect(() => {
+    if (sessionIsAdmin) return;
+    try {
+      if (adminKey) localStorage.setItem('loc-admin-key', adminKey);
+    } catch {}
+  }, [adminKey, sessionIsAdmin]);
+
   const [localStatuses, setLocalStatuses] = useState<Record<string, QueueItem['moderation_status']>>({});
 
   const effective = (it: QueueItem): QueueItem['moderation_status'] =>
@@ -58,12 +85,22 @@ export default function ReviewList({ items }: { items: QueueItem[] }) {
     return c;
   }, [items, localStatuses]);
 
+  /** Build fetch headers: session-cookie-based when admin, key-based otherwise. */
+  const authHeaders = (): Record<string, string> => {
+    if (sessionIsAdmin) return { 'Content-Type': 'application/json' };
+    return { 'Content-Type': 'application/json', 'x-admin-key': adminKey };
+  };
+
   const act = async (id: string, decision: 'approve' | 'reject' | 'flag' | 'reset') => {
+    if (!sessionIsAdmin && !adminKey) {
+      alert('Paste your ADMIN_API_KEY above first.');
+      return;
+    }
     setBusy(id);
     try {
       const res = await fetch('/api/admin/artwork-review', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: authHeaders(),
         body: JSON.stringify({ artwork_id: id, decision }),
       });
       const json = await res.json();
@@ -78,11 +115,15 @@ export default function ReviewList({ items }: { items: QueueItem[] }) {
   };
 
   const rescan = async (id: string) => {
+    if (!sessionIsAdmin && !adminKey) {
+      alert('Paste your ADMIN_API_KEY above first.');
+      return;
+    }
     setBusy(id);
     try {
       const res = await fetch('/api/admin/moderate-artwork', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: authHeaders(),
         body: JSON.stringify({ artwork_id: id }),
       });
       const json = await res.json();
@@ -95,6 +136,21 @@ export default function ReviewList({ items }: { items: QueueItem[] }) {
 
   return (
     <div className="mod-queue">
+      {!sessionIsAdmin && (
+        <div className="mod-queue-auth">
+          <label>
+            Admin API key
+            <input
+              type="password"
+              value={adminKey}
+              onChange={(e) => setAdminKey(e.target.value)}
+              placeholder="Paste ADMIN_API_KEY"
+              autoComplete="off"
+            />
+          </label>
+        </div>
+      )}
+
       <div className="mod-queue-tabs">
         {(['flagged', 'reported', 'pending', 'approved', 'rejected', 'all'] as Filter[]).map(
           (f) => (

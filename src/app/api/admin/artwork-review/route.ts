@@ -1,5 +1,5 @@
 import { NextResponse, type NextRequest } from 'next/server';
-import { isAdminRequest } from '@/lib/isAdmin';
+import { isAdmin } from '@/lib/isAdmin';
 import { supabaseAdmin } from '@/lib/supabaseAdmin';
 
 /**
@@ -12,7 +12,7 @@ import { supabaseAdmin } from '@/lib/supabaseAdmin';
  * }
  */
 export async function POST(req: NextRequest) {
-  if (!(await isAdminRequest(req))) {
+  if (!(await isAdmin(req))) {
     return NextResponse.json({ error: 'unauthorized' }, { status: 401 });
   }
 

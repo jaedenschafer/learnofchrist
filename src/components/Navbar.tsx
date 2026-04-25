@@ -56,7 +56,16 @@ export default function Navbar() {
       <div className="max-w-4xl mx-auto px-5">
         <div className="flex justify-between items-center h-12">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
+          <Link href="/" className="flex items-center gap-2" aria-label="Learn of Christ — home">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/logo.png"
+              alt=""
+              width={28}
+              height={28}
+              className="block site-logo"
+              style={{ width: 28, height: 28, objectFit: 'contain' }}
+            />
             <span
               className="text-[1.0625rem] font-semibold tracking-tight"
               style={{ color: 'var(--color-label)' }}

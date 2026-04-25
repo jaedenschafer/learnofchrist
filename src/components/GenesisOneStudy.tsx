@@ -287,7 +287,7 @@ export default function GenesisOneStudy({ artworks = [] }: GenesisOneStudyProps)
             variant="ghost"
             label="Share"
             content={{
-              quote: 'How God spoke a world into being — and why every word of it still belongs to you.',
+              quote: 'A verse-by-verse walk through Genesis 1 — the seven days of creation, the Hebrew behind the words, and how the chapter points to Christ.',
               snippet: 'A deep study guide to Genesis 1: themes, Christ connections, and ideas to sit with this week.',
               ref: 'Genesis 1 · Study Guide',
               variant: 'insight',
@@ -784,7 +784,7 @@ export default function GenesisOneStudy({ artworks = [] }: GenesisOneStudyProps)
             variant="pill"
             label="Share Genesis 1"
             content={{
-              quote: 'How God spoke a world into being — and why every word of it still belongs to you.',
+              quote: 'A verse-by-verse walk through Genesis 1 — the seven days of creation, the Hebrew behind the words, and how the chapter points to Christ.',
               snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
               ref: 'Genesis 1 · Study Guide',
               variant: 'insight',

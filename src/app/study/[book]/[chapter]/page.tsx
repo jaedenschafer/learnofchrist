@@ -188,7 +188,7 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
           </h1>
           <p className="study-hero__dek">
             {isGenesisOne
-              ? 'How God spoke a world into being — and why every word of it still belongs to you.'
+              ? 'A verse-by-verse walk through Genesis 1 — the seven days of creation, the Hebrew behind the words, and how the chapter points to Christ.'
               : 'Themes, discussion questions, and Christ connections.'}
           </p>
           <Link href={`/bible/${book}/${chapter}`} className="study-hero__meta-link">
