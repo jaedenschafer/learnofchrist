@@ -185,8 +185,7 @@ export default function ShareMenu({
         </div>
 
         <p className="share-menu-foot">
-          Share cards and links point back to your current chapter with a
-          learnofchrist.com watermark.
+          Share cards and links point back to your current chapter.
         </p>
       </div>
     </div>,

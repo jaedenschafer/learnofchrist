@@ -98,6 +98,7 @@ export async function GET(req: NextRequest) {
     const variant = variantRaw;
     const isInsight = variant === 'insight';
 
+    const accent = '#F2C265';
     const imgResp = new ImageResponse(
       (
         <div
@@ -109,59 +110,48 @@ export async function GET(req: NextRequest) {
             justifyContent: 'space-between',
             padding: '80px',
             background:
-              'linear-gradient(135deg, #FFFFFF 0%, #F5F8FF 40%, #EFEEFF 100%)',
+              'radial-gradient(ellipse 80% 60% at 50% 0%, rgba(242,194,101,0.18) 0%, transparent 60%), linear-gradient(180deg, #0F1217 0%, #131820 100%)',
             position: 'relative',
             fontFamily: '"New York", "Iowan Old Style", Georgia, serif',
+            color: '#FFFFFF',
           }}
         >
-          {/* Decorative corner blobs */}
+          {/* Subtle decorative serif quote mark */}
           <div
             style={{
               position: 'absolute',
-              top: -120,
-              right: -120,
-              width: 420,
-              height: 420,
-              borderRadius: 210,
-              background: isInsight
-                ? 'radial-gradient(closest-side, #5856D633, transparent)'
-                : 'radial-gradient(closest-side, #007AFF33, transparent)',
+              top: 24,
+              right: 64,
+              fontSize: 280,
+              lineHeight: 1,
+              color: accent,
+              opacity: 0.18,
+              fontFamily: '"New York", "Iowan Old Style", Georgia, serif',
               display: 'flex',
             }}
-          />
-          <div
-            style={{
-              position: 'absolute',
-              bottom: -120,
-              left: -120,
-              width: 420,
-              height: 420,
-              borderRadius: 210,
-              background: 'radial-gradient(closest-side, #FFCC0022, transparent)',
-              display: 'flex',
-            }}
-          />
+          >
+            “
+          </div>
 
           {/* Top row: eyebrow */}
           <div
             style={{
               display: 'flex',
               alignItems: 'center',
-              gap: 10,
+              gap: 12,
               fontFamily: '-apple-system, "SF Pro Text", system-ui, sans-serif',
               fontSize: 18,
               fontWeight: 700,
-              letterSpacing: '0.18em',
+              letterSpacing: '0.22em',
               textTransform: 'uppercase',
-              color: isInsight ? '#5856D6' : '#007AFF',
+              color: accent,
             }}
           >
             <span
               style={{
-                width: 8,
-                height: 8,
-                borderRadius: 4,
-                background: isInsight ? '#5856D6' : '#007AFF',
+                width: 32,
+                height: 2,
+                background: accent,
                 display: 'block',
               }}
             />
@@ -176,15 +166,16 @@ export async function GET(req: NextRequest) {
               flex: 1,
               justifyContent: 'center',
               padding: '40px 0',
+              maxWidth: 920,
             }}
           >
             <div
               style={{
-                fontSize: quote.length > 180 ? 44 : 56,
-                lineHeight: 1.2,
-                color: '#1D1D1F',
+                fontSize: quote.length > 180 ? 46 : 60,
+                lineHeight: 1.18,
+                color: '#FFFFFF',
                 fontStyle: isInsight ? 'normal' : 'italic',
-                letterSpacing: '-0.01em',
+                letterSpacing: '-0.012em',
               }}
             >
               {isInsight ? quote : `"${quote}"`}
@@ -196,8 +187,8 @@ export async function GET(req: NextRequest) {
                   fontFamily:
                     '-apple-system, "SF Pro Text", system-ui, sans-serif',
                   fontSize: 22,
-                  lineHeight: 1.45,
-                  color: '#48484A',
+                  lineHeight: 1.5,
+                  color: 'rgba(255,255,255,0.65)',
                 }}
               >
                 {snippet}
@@ -211,15 +202,15 @@ export async function GET(req: NextRequest) {
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'space-between',
-              paddingTop: 32,
-              borderTop: '1px solid rgba(0,0,0,0.08)',
+              paddingTop: 28,
+              borderTop: '1px solid rgba(255,255,255,0.12)',
             }}
           >
             <div
               style={{
                 display: 'flex',
                 flexDirection: 'column',
-                gap: 4,
+                gap: 6,
               }}
             >
               <div
@@ -228,62 +219,42 @@ export async function GET(req: NextRequest) {
                     '-apple-system, "SF Pro Text", system-ui, sans-serif',
                   fontSize: 22,
                   fontWeight: 700,
-                  color: '#1D1D1F',
-                  letterSpacing: '-0.01em',
+                  color: '#FFFFFF',
+                  letterSpacing: '-0.005em',
                 }}
               >
                 {ref || 'Learn of Christ'}
               </div>
-              {ref && (
-                <div
-                  style={{
-                    fontFamily:
-                      '-apple-system, "SF Pro Text", system-ui, sans-serif',
-                    fontSize: 16,
-                    color: '#86868B',
-                  }}
-                >
-                  learnofchrist.com
-                </div>
-              )}
+              <div
+                style={{
+                  fontFamily:
+                    '-apple-system, "SF Pro Text", system-ui, sans-serif',
+                  fontSize: 15,
+                  letterSpacing: '0.18em',
+                  textTransform: 'uppercase',
+                  color: 'rgba(255,255,255,0.55)',
+                }}
+              >
+                learnofchrist.com
+              </div>
             </div>
             <div
               style={{
+                width: 44,
+                height: 44,
+                borderRadius: 22,
+                background: accent,
                 display: 'flex',
                 alignItems: 'center',
-                gap: 12,
+                justifyContent: 'center',
+                color: '#0F1217',
+                fontFamily:
+                  '-apple-system, "SF Pro Display", system-ui, sans-serif',
+                fontSize: 24,
+                fontWeight: 700,
               }}
             >
-              <div
-                style={{
-                  width: 40,
-                  height: 40,
-                  borderRadius: 20,
-                  background: 'linear-gradient(135deg, #007AFF, #5856D6)',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  color: '#fff',
-                  fontFamily:
-                    '-apple-system, "SF Pro Display", system-ui, sans-serif',
-                  fontSize: 22,
-                  fontWeight: 700,
-                }}
-              >
-                L
-              </div>
-              {!ref && (
-                <div
-                  style={{
-                    fontFamily:
-                      '-apple-system, "SF Pro Text", system-ui, sans-serif',
-                    fontSize: 18,
-                    color: '#86868B',
-                  }}
-                >
-                  learnofchrist.com
-                </div>
-              )}
+              L
             </div>
           </div>
         </div>

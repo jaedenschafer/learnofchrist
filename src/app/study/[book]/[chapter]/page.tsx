@@ -159,27 +159,20 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
           { label: `Chapter ${chapter}`, href: '#' },
         ]} />
 
-        {/* Header — editorial, Medium-style */}
+        {/* Header — clean editorial */}
         <header className="study-hero">
-          <p className="study-hero__kicker">
-            <span className="study-hero__kicker-book">{book_obj.name}</span>
-            <span className="study-hero__kicker-sep" aria-hidden="true">·</span>
-            <span>Study Guide</span>
-          </p>
           <h1 className="study-hero__title">
             {isGenesisOne ? 'Genesis 1' : `${book_obj.name} ${chapter}`}
           </h1>
           <p className="study-hero__dek">
             {isGenesisOne
               ? 'How God spoke a world into being — and why every word of it still belongs to you.'
-              : 'Themes, discussion questions, Christ connections, and denomination lenses.'}
+              : 'Themes, discussion questions, and Christ connections.'}
           </p>
-          <div className="study-hero__meta">
-            <Link href={`/bible/${book}/${chapter}`} className="study-hero__meta-link">
-              Read the chapter
-              <span aria-hidden="true">→</span>
-            </Link>
-          </div>
+          <Link href={`/bible/${book}/${chapter}`} className="study-hero__meta-link">
+            Read the chapter
+            <span aria-hidden="true">→</span>
+          </Link>
         </header>
 
         <StudyFilters />
