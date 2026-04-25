@@ -1,8 +1,7 @@
 'use client';
 
-import { useState, useRef, useEffect, ReactNode } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from '@/lib/TranslationContext';
-import { useReadingPrefs, FontSize, ReadingMode } from '@/lib/ReadingPrefsContext';
 import './StudyFilters.css';
 
 // ─── Reusable dropdown hook ───
@@ -29,90 +28,16 @@ function useDropdown() {
   return { open, setOpen, ref };
 }
 
-// ─── Option row ───
-function OptionRow({
-  selected,
-  label,
-  subtitle,
-  onClick,
-  accent = 'blue',
-}: {
-  selected: boolean;
-  label: string;
-  subtitle?: string;
-  onClick: () => void;
-  accent?: 'blue' | 'purple';
-}) {
-  const colors = accent === 'purple'
-    ? { text: 'text-[#5856D6]', bg: 'bg-[#5856D6]/[0.05]', check: 'text-[#5856D6]' }
-    : { text: 'text-[color:var(--color-primary)]', bg: 'bg-[#007AFF]/[0.05]', check: 'text-[color:var(--color-primary)]' };
-
-  return (
-    <button
-      onClick={onClick}
-      className={`w-full text-left flex items-center gap-3 px-4 py-2.5 transition-colors ${
-        selected ? colors.bg : 'active:bg-[var(--color-bg)]'
-      }`}
-    >
-      <div className="w-5 flex items-center justify-center flex-shrink-0">
-        {selected && (
-          <svg className={`w-4 h-4 ${colors.check}`} fill="currentColor" viewBox="0 0 24 24">
-            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-          </svg>
-        )}
-      </div>
-      <div className="flex-1 min-w-0">
-        <p className={`text-[0.875rem] font-medium leading-tight ${selected ? colors.text : 'text-[color:var(--color-label)]'}`}>
-          {label}
-        </p>
-        {subtitle && (
-          <p className="text-[0.6875rem] text-[color:var(--color-secondary-label)] leading-snug mt-0.5 truncate">{subtitle}</p>
-        )}
-      </div>
-    </button>
-  );
-}
-
-// ─── Dropdown menu ───
-function Menu({ children, align = 'left', wide }: { children: ReactNode; align?: 'left' | 'right'; wide?: boolean }) {
-  return (
-    <div className={`absolute ${align === 'right' ? 'right-0' : 'left-0'} top-full mt-1.5 z-50 bg-[color:var(--color-surface)] rounded-2xl shadow-[0_8px_40px_rgba(0,0,0,0.15)] border border-[color:var(--color-separator)] overflow-hidden animate-fade-in ${wide ? 'min-w-[280px]' : 'min-w-[200px]'}`}>
-      {children}
-    </div>
-  );
-}
-
-// ─── Main component ───
+/**
+ * Compact translation switcher that docks into the navbar when scrolled.
+ * Reading prefs (font size, reading mode, sections, theme) and the audio
+ * launcher all live in StudyTopBar — this bar is just the translation pill
+ * because picking a different translation is a per-page decision that
+ * should stay one tap away while reading.
+ */
 export default function StudyFilters() {
   const { currentTranslation, setTranslation, availableTranslations } = useTranslation();
-  const {
-    fontSize,
-    setFontSize,
-    readingMode,
-    setReadingMode,
-    focusMode,
-    setFocusMode,
-    hiddenSections,
-    toggleSection,
-  } = useReadingPrefs();
-
   const transDD = useDropdown();
-  const fontDD = useDropdown();
-  const modeDD = useDropdown();
-  const viewDD = useDropdown();
-
-  const closeAll = () => {
-    transDD.setOpen(false);
-    fontDD.setOpen(false);
-    modeDD.setOpen(false);
-    viewDD.setOpen(false);
-  };
-
-  const toggle = (dd: ReturnType<typeof useDropdown>) => {
-    const wasOpen = dd.open;
-    closeAll();
-    if (!wasOpen) dd.setOpen(true);
-  };
 
   // Sentinel scrolls out of view → dock the filter pill into the top nav.
   const sentinelRef = useRef<HTMLDivElement>(null);
@@ -123,8 +48,6 @@ export default function StudyFilters() {
     if (!sentinel) return;
     const obs = new IntersectionObserver(
       ([entry]) => setDocked(!entry.isIntersecting),
-      // Navbar is 48px tall (h-12). Once the sentinel scrolls above the navbar's
-      // bottom edge, dock the filter bar into the navbar's center.
       { rootMargin: '-48px 0px 0px 0px', threshold: 0 },
     );
     obs.observe(sentinel);
@@ -133,15 +56,12 @@ export default function StudyFilters() {
 
   return (
     <div className="study-filters-wrap">
-      {/* Sentinel: when this is above the navbar, the filter pill docks. */}
       <div ref={sentinelRef} aria-hidden="true" className="study-filters-sentinel" />
       <div className={`study-filters-bar ${docked ? 'is-docked' : ''}`}>
         <div className="flex items-center gap-1 glass-heavy border border-[color:var(--color-separator)] rounded-full px-2 py-1.5 shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)]">
-
-          {/* Translation */}
           <div ref={transDD.ref} className="relative">
             <button
-              onClick={() => toggle(transDD)}
+              onClick={() => transDD.setOpen((o) => !o)}
               className={`flex items-center gap-1 h-7 px-2.5 rounded-full text-[0.6875rem] font-semibold transition-all ${
                 transDD.open
                   ? 'bg-[#007AFF] text-white'
@@ -149,185 +69,53 @@ export default function StudyFilters() {
               }`}
             >
               {currentTranslation.toUpperCase()}
-              <svg className={`w-2.5 h-2.5 ${transDD.open ? 'rotate-180 text-white/70' : 'text-[color:var(--color-tertiary-label)]'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg
+                className={`w-2.5 h-2.5 ${transDD.open ? 'rotate-180 text-white/70' : 'text-[color:var(--color-tertiary-label)]'}`}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 9l-7 7-7-7" />
               </svg>
             </button>
             {transDD.open && (
-              <Menu>
+              <div className="absolute left-0 top-full mt-1.5 z-50 bg-[color:var(--color-surface)] rounded-2xl shadow-[0_8px_40px_rgba(0,0,0,0.15)] border border-[color:var(--color-separator)] overflow-hidden animate-fade-in min-w-[200px]">
                 <div className="py-1 max-h-[40vh] overflow-y-auto">
                   {availableTranslations.map((t) => (
-                    <OptionRow
-                      key={t.abbreviation}
-                      selected={currentTranslation === t.abbreviation}
-                      label={t.abbreviation.toUpperCase()}
-                      onClick={() => { setTranslation(t.abbreviation); transDD.setOpen(false); }}
-                    />
-                  ))}
-                </div>
-              </Menu>
-            )}
-          </div>
-
-          {/* Subtle separator between translation and display toggles */}
-          <div className="study-filters-divider" aria-hidden="true" />
-
-          {/* Font Size */}
-          <div ref={fontDD.ref} className="relative">
-            <button
-              onClick={() => toggle(fontDD)}
-              className={`flex items-center justify-center h-7 w-7 rounded-full transition-all ${
-                fontDD.open
-                  ? 'bg-[#007AFF] text-white'
-                  : 'bg-[var(--color-bg)] text-[color:var(--color-secondary-label)]'
-              }`}
-              title="Text Size"
-            >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M3 7V5h14v2M7 5v14M11 19H3M15 13v-2h8v2M19 11v8M21 19h-4" />
-              </svg>
-            </button>
-            {fontDD.open && (
-              <Menu align="right">
-                <div className="py-1">
-                  {([
-                    { id: 'small' as FontSize, label: 'Small', cls: 'text-[0.8125rem]' },
-                    { id: 'medium' as FontSize, label: 'Medium', cls: 'text-[0.9375rem]' },
-                    { id: 'large' as FontSize, label: 'Large', cls: 'text-[1.0625rem]' },
-                    { id: 'xlarge' as FontSize, label: 'Extra Large', cls: 'text-[1.1875rem]' },
-                  ]).map((s) => (
                     <button
-                      key={s.id}
-                      onClick={() => { setFontSize(s.id); fontDD.setOpen(false); }}
+                      key={t.abbreviation}
+                      onClick={() => {
+                        setTranslation(t.abbreviation);
+                        transDD.setOpen(false);
+                      }}
                       className={`w-full text-left flex items-center gap-3 px-4 py-2.5 transition-colors ${
-                        fontSize === s.id ? 'bg-[#007AFF]/[0.05]' : 'active:bg-[var(--color-bg)]'
+                        currentTranslation === t.abbreviation
+                          ? 'bg-[#007AFF]/[0.05]'
+                          : 'active:bg-[var(--color-bg)]'
                       }`}
                     >
                       <div className="w-5 flex items-center justify-center flex-shrink-0">
-                        {fontSize === s.id && (
+                        {currentTranslation === t.abbreviation && (
                           <svg className="w-4 h-4 text-[color:var(--color-primary)]" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
                           </svg>
                         )}
                       </div>
-                      <span className={`font-medium ${s.cls} ${fontSize === s.id ? 'text-[color:var(--color-primary)]' : 'text-[color:var(--color-label)]'}`}>
-                        {s.label}
-                      </span>
+                      <p
+                        className={`text-[0.875rem] font-medium leading-tight ${
+                          currentTranslation === t.abbreviation
+                            ? 'text-[color:var(--color-primary)]'
+                            : 'text-[color:var(--color-label)]'
+                        }`}
+                      >
+                        {t.abbreviation.toUpperCase()}
+                      </p>
                     </button>
                   ))}
                 </div>
-              </Menu>
+              </div>
             )}
           </div>
-
-          {/* View options: per-section visibility */}
-          <div ref={viewDD.ref} className="relative">
-            <button
-              onClick={() => toggle(viewDD)}
-              className={`flex items-center justify-center h-7 w-7 rounded-full transition-all ${
-                viewDD.open
-                  ? 'bg-[#007AFF] text-white'
-                  : hiddenSections.size > 0
-                    ? 'bg-[#5856D6] text-white'
-                    : 'bg-[var(--color-bg)] text-[color:var(--color-secondary-label)]'
-              }`}
-              title="Sections"
-              aria-label="Toggle study sections"
-            >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
-            </button>
-            {viewDD.open && (
-              <Menu align="right">
-                <div className="py-1 min-w-[220px]">
-                  {([
-                    { id: 'reflection', label: 'Ideas for Reflection' },
-                    { id: 'carry', label: 'Thoughts to Sit With' },
-                  ] as const).map((s) => {
-                    const visible = !hiddenSections.has(s.id);
-                    return (
-                      <button
-                        key={s.id}
-                        type="button"
-                        onClick={() => toggleSection(s.id)}
-                        className="w-full text-left flex items-center gap-3 px-4 py-2.5 active:bg-[var(--color-bg)] transition-colors"
-                        aria-pressed={visible}
-                      >
-                        <div className="w-5 flex items-center justify-center flex-shrink-0">
-                          {visible && (
-                            <svg className="w-4 h-4 text-[color:var(--color-primary)]" fill="currentColor" viewBox="0 0 24 24">
-                              <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                            </svg>
-                          )}
-                        </div>
-                        <span className="text-[0.875rem] font-medium text-[color:var(--color-label)]">
-                          Show {s.label.toLowerCase()}
-                        </span>
-                      </button>
-                    );
-                  })}
-                </div>
-              </Menu>
-            )}
-          </div>
-
-          {/* Focus mode toggle */}
-          <button
-            onClick={() => setFocusMode(focusMode === 'focus' ? 'full' : 'focus')}
-            className={`flex items-center justify-center h-7 w-7 rounded-full transition-all ${
-              focusMode === 'focus' ? 'bg-[#007AFF] text-white' : 'bg-[var(--color-bg)] text-[color:var(--color-secondary-label)]'
-            }`}
-            title={focusMode === 'focus' ? 'Full teaching' : 'Pure scripture'}
-            aria-pressed={focusMode === 'focus'}
-          >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v3M12 17v3M4 12h3M17 12h3M12 12a3 3 0 100-6 3 3 0 000 6zm0 0a3 3 0 100 6 3 3 0 000-6z" />
-            </svg>
-          </button>
-
-          {/* Reading Mode */}
-          <div ref={modeDD.ref} className="relative">
-            <button
-              onClick={() => toggle(modeDD)}
-              className={`flex items-center justify-center h-7 w-7 rounded-full transition-all ${
-                modeDD.open
-                  ? 'bg-[#007AFF] text-white'
-                  : 'bg-[var(--color-bg)] text-[color:var(--color-secondary-label)]'
-              }`}
-              title="Reading Mode"
-            >
-              {readingMode === 'verse' ? (
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
-                </svg>
-              ) : (
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={1.8} viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 10h12M4 14h16M4 18h10" />
-                </svg>
-              )}
-            </button>
-            {modeDD.open && (
-              <Menu align="right">
-                <div className="py-1">
-                  {([
-                    { id: 'verse' as ReadingMode, label: 'Verse by Verse', subtitle: 'Each verse on its own line' },
-                    { id: 'paragraph' as ReadingMode, label: 'Paragraph', subtitle: 'Flowing text' },
-                  ]).map((m) => (
-                    <OptionRow
-                      key={m.id}
-                      selected={readingMode === m.id}
-                      label={m.label}
-                      subtitle={m.subtitle}
-                      onClick={() => { setReadingMode(m.id); modeDD.setOpen(false); }}
-                    />
-                  ))}
-                </div>
-              </Menu>
-            )}
-          </div>
-
         </div>
       </div>
     </div>
