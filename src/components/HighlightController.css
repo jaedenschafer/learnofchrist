@@ -141,7 +141,20 @@
 }
 
 /* User-applied highlight marks live in the chapter text itself.
-   Override the default <mark> reset so our background color shows through. */
+   Override the default <mark> reset so our background color shows through.
+   Also kill any underline (the scripture .hp/.hy/.hg theme marks render as
+   a soft light-blue underline by default; once the user has applied their
+   own colored highlight on top, the underline competes with the color and
+   makes the highlight look noisy). */
+mark.user-hl,
+.rich-study mark.user-hl,
+.rich-study .scripture mark.user-hl,
+mark.user-hl mark,
+.rich-study mark.user-hl mark,
+.rich-study .scripture mark.user-hl mark {
+  text-decoration: none !important;
+}
+
 mark.user-hl {
   background-image: none;
   background-size: auto;
