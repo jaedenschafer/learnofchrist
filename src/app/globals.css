@@ -386,7 +386,7 @@ html[data-reader-theme="dark"] .btn-outline:hover {
   margin: 0.5rem 0 0;
 }
 
-/* Liquid-glass back button — replaces the old breadcrumb trail. */
+/* Liquid-glass back button — icon-only circle, replaces the old breadcrumb trail. */
 .back-nav {
   display: flex;
   margin: 0.5rem 0 1rem;
@@ -395,12 +395,10 @@ html[data-reader-theme="dark"] .btn-outline:hover {
 .back-link {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  padding: 0.45rem 0.95rem 0.45rem 0.65rem;
-  border-radius: 999px;
-  font-size: 0.8125rem;
-  font-weight: 600;
-  letter-spacing: 0.005em;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
   color: var(--color-label);
   text-decoration: none;
   background: color-mix(in srgb, var(--color-bg) 55%, transparent);
@@ -422,7 +420,7 @@ html[data-reader-theme="dark"] .btn-outline:hover {
 }
 
 .back-link:active {
-  transform: scale(0.97);
+  transform: scale(0.94);
 }
 
 .back-link svg {
@@ -432,10 +430,6 @@ html[data-reader-theme="dark"] .btn-outline:hover {
 
 .back-link:hover svg {
   transform: translateX(-2px);
-}
-
-.back-link__label {
-  white-space: nowrap;
 }
 
 html[data-reader-theme="dark"] .back-link {
