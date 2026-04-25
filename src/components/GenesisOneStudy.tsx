@@ -17,17 +17,17 @@ import ReadingComfortEffects from './ReadingComfortEffects';
 import ChapterProgress from './ChapterProgress';
 import InlineArtwork from './InlineArtwork';
 import HighlightController from './HighlightController';
+// StudyJournal injected per-verse pencil icons. The new HighlightController
+// popup handles per-selection notes (and supports any range, not just whole
+// verses), so the pencil is now redundant. We keep the import out entirely
+// so the bundler doesn't ship the journal drawer for chapters that no
+// longer surface it.
 import { useTranslation } from '@/lib/TranslationContext';
 import { fetchVersesClient, type Verse, type ArtworkWithArtist } from '@/lib/supabase';
 import './GenesisOneStudy.css';
 import './InlineArtwork.css';
 
-// Heavy, below-the-fold: the journal panel and audio player aren't needed for
-// the first paint — ship them only when hydration has happened.
-const StudyJournal = dynamic(() => import('./StudyJournal'), {
-  ssr: false,
-  loading: () => <div className="h-48" aria-hidden="true" />,
-});
+// Heavy, below-the-fold: ship after hydration so it doesn't block first paint.
 const StudyAudioPlayer = dynamic(() => import('./StudyAudioPlayer'), {
   ssr: false,
   loading: () => <div className="h-11 w-11" aria-hidden="true" />,
@@ -264,7 +264,6 @@ export default function GenesisOneStudy({ artworks = [] }: GenesisOneStudyProps)
     >
       <article className="rich-study">
         <HighlightController bookSlug="genesis" chapter={1} containerSelector=".rich-study" />
-        <StudyJournal studyId="genesis-1" bookSlug="genesis" chapter={1} bookName="Genesis" />
         <ScriptureRefs />
         <ShareableMarks
           studyId="genesis-1"

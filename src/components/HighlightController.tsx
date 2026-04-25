@@ -130,38 +130,34 @@ export default function HighlightController({
   }, [mounted, lsKey, containerSelector]);
 
   // ─── Watch for text selections inside the chapter content ───────────────
+  // We deliberately do NOT show the popup on every `selectionchange` — that
+  // event fires dozens of times per second while the user is dragging, and
+  // setActive on every fire causes the popup to flicker / strobe.
+  // Instead we wait for `mouseup` / `touchend` / `keyup` (selection finished)
+  // to compute and show, and only listen to `selectionchange` to HIDE the
+  // popup when the user clicks somewhere else and collapses the selection.
   useEffect(() => {
-    const onSelectionChange = () => {
+    const showFromCurrentSelection = () => {
       const sel = window.getSelection();
-      if (!sel || sel.isCollapsed || sel.rangeCount === 0) {
-        setActive(null);
-        return;
-      }
-      const range = sel.getRangeAt(0);
+      if (!sel || sel.isCollapsed || sel.rangeCount === 0) return;
       const text = sel.toString().trim();
-      if (text.length < MIN_SELECTION_CHARS) {
-        setActive(null);
-        return;
-      }
-      // Only act on selections that begin inside one of our containers.
+      if (text.length < MIN_SELECTION_CHARS) return;
+      const range = sel.getRangeAt(0);
+
       const containers = Array.from(
         document.querySelectorAll<HTMLElement>(containerSelector),
       );
       const inside = containers.some((c) => c.contains(range.commonAncestorContainer));
-      if (!inside) {
-        setActive(null);
-        return;
-      }
-      // Skip selections originating inside the popup itself.
+      if (!inside) return;
+
+      // Skip selections that started inside the popup or one of our modals.
       if (popupRef.current && popupRef.current.contains(range.commonAncestorContainer)) {
         return;
       }
+
       const rect = range.getBoundingClientRect();
-      // Some browsers report a zero-rect on collapsed-then-restored selections.
-      if (rect.width === 0 && rect.height === 0) {
-        setActive(null);
-        return;
-      }
+      if (rect.width === 0 && rect.height === 0) return;
+
       const scriptureInfo = scriptureContextFromRange(range);
       setActive({
         text,
@@ -172,8 +168,33 @@ export default function HighlightController({
       });
     };
 
+    const onPointerUp = (e: MouseEvent | TouchEvent | KeyboardEvent) => {
+      const tgt = e.target as Element | null;
+      if (tgt && popupRef.current && popupRef.current.contains(tgt)) return;
+      if (tgt && tgt.closest && tgt.closest('.hi-modal')) return;
+      // Wait one tick so the browser's selection state reflects the release.
+      setTimeout(showFromCurrentSelection, 0);
+    };
+
+    const onSelectionChange = () => {
+      const sel = window.getSelection();
+      if (!sel || sel.isCollapsed) {
+        // Collapsed selection — clear the popup. No setActive when expanding,
+        // that path is handled exclusively by pointer/touch/key up.
+        setActive(null);
+      }
+    };
+
+    document.addEventListener('mouseup', onPointerUp);
+    document.addEventListener('touchend', onPointerUp);
+    document.addEventListener('keyup', onPointerUp);
     document.addEventListener('selectionchange', onSelectionChange);
-    return () => document.removeEventListener('selectionchange', onSelectionChange);
+    return () => {
+      document.removeEventListener('mouseup', onPointerUp);
+      document.removeEventListener('touchend', onPointerUp);
+      document.removeEventListener('keyup', onPointerUp);
+      document.removeEventListener('selectionchange', onSelectionChange);
+    };
   }, [containerSelector]);
 
   const clearAll = useCallback(() => {
@@ -383,10 +404,14 @@ export default function HighlightController({
               <NoteIcon />
               <span>Note</span>
             </button>
-            <button type="button" className="hi-popup__action" onClick={handleCompareOpen}>
-              <CompareIcon />
-              <span>Compare</span>
-            </button>
+            {/* Compare only makes sense on a verse selection — hide it when
+                the selection is in commentary or any non-scripture body. */}
+            {active.verseNumbers.length > 0 && (
+              <button type="button" className="hi-popup__action" onClick={handleCompareOpen}>
+                <CompareIcon />
+                <span>Compare</span>
+              </button>
+            )}
             <button type="button" className="hi-popup__action" onClick={handleCopy}>
               <CopyIcon />
               <span>Copy</span>
