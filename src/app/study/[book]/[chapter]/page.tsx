@@ -225,8 +225,11 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
 
           {isGenesisOne && (
             <p className="study-hero__dek">
-              A verse-by-verse walk through Genesis 1 — the seven days of creation,
-              the Hebrew behind the words, and how the chapter points to Christ.
+              God created the world, light, sky, land, seas, plants, the sun,
+              moon, stars, animals, and every living thing. He created men and
+              women in His image, blessed them, and gave them responsibility to
+              care for the earth and its creatures. God saw that everything He
+              made was good.
             </p>
           )}
         </header>

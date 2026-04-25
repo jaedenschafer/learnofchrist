@@ -287,7 +287,7 @@ export default function GenesisOneStudy({ artworks = [] }: GenesisOneStudyProps)
             variant="ghost"
             label="Share"
             content={{
-              quote: 'A verse-by-verse walk through Genesis 1 — the seven days of creation, the Hebrew behind the words, and how the chapter points to Christ.',
+              quote: 'God created the world, light, sky, land, seas, plants, the sun, moon, stars, animals, and every living thing. He created men and women in His image, blessed them, and gave them responsibility to care for the earth and its creatures. God saw that everything He made was good.',
               snippet: 'A deep study guide to Genesis 1: themes, Christ connections, and ideas to sit with this week.',
               ref: 'Genesis 1 · Study Guide',
               variant: 'insight',
@@ -784,7 +784,7 @@ export default function GenesisOneStudy({ artworks = [] }: GenesisOneStudyProps)
             variant="pill"
             label="Share Genesis 1"
             content={{
-              quote: 'A verse-by-verse walk through Genesis 1 — the seven days of creation, the Hebrew behind the words, and how the chapter points to Christ.',
+              quote: 'God created the world, light, sky, land, seas, plants, the sun, moon, stars, animals, and every living thing. He created men and women in His image, blessed them, and gave them responsibility to care for the earth and its creatures. God saw that everything He made was good.',
               snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
               ref: 'Genesis 1 · Study Guide',
               variant: 'insight',
