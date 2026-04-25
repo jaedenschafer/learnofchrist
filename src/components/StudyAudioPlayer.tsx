@@ -137,29 +137,36 @@ export default function StudyAudioPlayer({
     return Math.round(((currentIndex + 1) / total) * 100);
   }, [currentIndex, total]);
 
+  // Document-level delegation: the chapter hero's headphones button has
+  // data-action="play-audio" — clicks anywhere on the page that bubble up
+  // through such a button get routed to a smart toggle (start / pause /
+  // resume) so the trigger UI doesn't have to know our audio state.
+  useEffect(() => {
+    const onClick = (e: MouseEvent) => {
+      const tgt = e.target as Element | null;
+      if (!tgt) return;
+      const trigger = tgt.closest?.('[data-action="play-audio"]');
+      if (!trigger) return;
+      e.preventDefault();
+      if (playing) {
+        pause();
+      } else if (paused) {
+        resume();
+      } else {
+        startPlayback(0);
+      }
+    };
+    document.addEventListener('click', onClick);
+    return () => document.removeEventListener('click', onClick);
+  }, [playing, paused, pause, resume, startPlayback]);
+
   if (!supported) return null;
 
   return (
     <>
-      {/* The "Listen" CTA button — place where you render <StudyAudioPlayer.Launcher> */}
-      {!playing && (
-        <button
-          type="button"
-          className="audio-launch"
-          onClick={() => startPlayback(0)}
-          aria-label="Listen to this study"
-        >
-          <span className="audio-launch-ico" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="currentColor">
-              <path d="M8 5v14l11-7L8 5z" />
-            </svg>
-          </span>
-          <span className="audio-launch-text">
-            <span className="audio-launch-title">Listen to this study</span>
-            <span className="audio-launch-sub">Narrated · for walks & commutes</span>
-          </span>
-        </button>
-      )}
+      {/* No standalone "Listen to this study" launch button — the headphones
+          icon in the chapter hero now triggers playback via data-action
+          delegation above. */}
 
       {/* Floating player bar — appears while playing */}
       {playing && (

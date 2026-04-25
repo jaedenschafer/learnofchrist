@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 import AuthButton from './AuthButton';
-import SettingsMenu from './SettingsMenu';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -85,15 +84,12 @@ export default function Navbar() {
                 {label}
               </Link>
             ))}
-            <span className="ml-1">
-              <SettingsMenu />
-            </span>
             <AuthButton variant="desktop" />
           </div>
 
-          {/* Mobile right: settings popover + hamburger */}
+          {/* Mobile right: hamburger only — settings now lives in the chapter
+              hero's utility row, so it doesn't need a global nav slot. */}
           <div ref={mobileRef} className="md:hidden flex items-center gap-1 relative">
-            <SettingsMenu />
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="nav-link nav-icon-link w-9 h-9 rounded-full flex items-center justify-center transition-colors active:scale-95"
