@@ -162,12 +162,34 @@ mark.user-hl {
   margin: 0 -0.08em;
   border-radius: 2px;
   color: inherit;
+  cursor: pointer;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
   /* The .rich-study .scripture mark rule animates background-size to fade
      highlights in. For user-applied highlights we want the color showing
      immediately, regardless of section visibility. */
   background-color: var(--user-hl-color, #FFE066);
+}
+
+/* Tiny pencil-on-paper marker after any highlight that has a note attached.
+   Sits as a superscript so it doesn't disrupt the surrounding line. */
+mark.user-hl[data-has-note="1"]::after {
+  content: "";
+  display: inline-block;
+  width: 0.65em;
+  height: 0.65em;
+  margin-left: 0.18em;
+  vertical-align: super;
+  background-color: currentColor;
+  opacity: 0.55;
+  -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'><path d='M12 20h9'/><path d='M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z'/></svg>");
+  mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'><path d='M12 20h9'/><path d='M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z'/></svg>");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
 }
 .rich-study mark.user-hl {
   background-size: auto !important;
@@ -374,6 +396,150 @@ html.js .rich-study mark.user-hl {
   margin: 0.25rem 0 0;
   font-size: 0.6875rem;
   color: var(--color-tertiary-label);
+}
+
+/* ─── Edit panel ────────────────────────────────────────────────────────
+   Opened when the user taps an existing user-hl mark. Anchored near the
+   tapped mark via popupPosition() like the create popup. */
+.hi-edit {
+  position: absolute;
+  z-index: 9999;
+  transform: translateX(-50%);
+  width: 320px;
+  max-width: calc(100vw - 1.5rem);
+  background: var(--color-surface);
+  border-radius: 14px;
+  border: 1px solid color-mix(in srgb, var(--color-separator) 70%, transparent);
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.06),
+    0 18px 48px rgba(20, 14, 8, 0.18);
+  padding: 0.875rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  animation: hiPopupIn 0.16s ease-out both;
+  pointer-events: auto;
+}
+
+.hi-edit__quote {
+  margin: 0;
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 0.9375rem;
+  line-height: 1.4;
+  color: var(--color-label);
+  font-style: italic;
+  background: var(--color-fill-subtle);
+  border-radius: 8px;
+  padding: 0.5rem 0.625rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.hi-edit__colors {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.hi-edit__color {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.12s ease;
+}
+
+.hi-edit__color:hover {
+  transform: scale(1.08);
+}
+
+.hi-edit__color.is-active {
+  outline: 2px solid var(--color-label);
+  outline-offset: 2px;
+}
+
+.hi-edit__textarea {
+  width: 100%;
+  min-height: 70px;
+  padding: 0.5rem 0.625rem;
+  border: 1px solid var(--color-separator);
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 0.875rem;
+  line-height: 1.45;
+  color: var(--color-label);
+  background: var(--color-bg);
+  resize: vertical;
+}
+
+.hi-edit__textarea:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: -1px;
+  border-color: transparent;
+}
+
+.hi-edit__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.hi-edit__spacer { flex: 1; }
+
+.hi-edit__btn {
+  border: none;
+  border-radius: 8px;
+  padding: 0.45rem 0.85rem;
+  font-family: inherit;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.12s ease, transform 0.06s ease, color 0.12s ease;
+}
+
+.hi-edit__btn:active { transform: scale(0.97); }
+
+.hi-edit__btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.hi-edit__btn--ghost {
+  background: transparent;
+  color: var(--color-secondary-label);
+}
+
+.hi-edit__btn--ghost:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--color-label) 6%, transparent);
+}
+
+.hi-edit__btn--primary {
+  background: var(--color-primary);
+  color: #FFFFFF;
+}
+
+.hi-edit__btn--primary:hover:not(:disabled) {
+  filter: brightness(1.05);
+}
+
+.hi-edit__btn--danger {
+  background: color-mix(in srgb, #FF3B30 12%, transparent);
+  color: #D70015;
+}
+
+.hi-edit__btn--danger:hover:not(:disabled) {
+  background: color-mix(in srgb, #FF3B30 22%, transparent);
+}
+
+html[data-reader-theme="dark"] .hi-edit__btn--danger {
+  background: color-mix(in srgb, #FF453A 18%, transparent);
+  color: #FF453A;
 }
 
 /* ─── Toast ─────────────────────────────────────────────────────────── */

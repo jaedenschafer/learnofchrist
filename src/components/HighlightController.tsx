@@ -102,7 +102,17 @@ export default function HighlightController({
   const [compareLoading, setCompareLoading] = useState(false);
   const [compareRows, setCompareRows] = useState<CompareRow[]>([]);
   const [toast, setToast] = useState<string | null>(null);
+  // Edit-an-existing-highlight state — set when the user taps a mark.user-hl.
+  const [editing, setEditing] = useState<{
+    id: string;
+    el: HTMLElement;
+    rect: DOMRect;
+    text: string;
+    color: ColorId;
+    note: string;
+  } | null>(null);
   const popupRef = useRef<HTMLDivElement>(null);
+  const editRef = useRef<HTMLDivElement>(null);
   const { availableTranslations } = useTranslation();
   const lsKey = getStorageKey(bookSlug, chapter, storageKey);
   const [mounted, setMounted] = useState(false);
@@ -197,6 +207,42 @@ export default function HighlightController({
     };
   }, [containerSelector]);
 
+  // ─── Click an existing highlight → open the edit panel ──────────────────
+  // We listen at document level so users can tap the mark anywhere; we skip
+  // the click when the user is actively selecting text or interacting with
+  // the popup/edit panel themselves.
+  useEffect(() => {
+    const onClick = (e: MouseEvent) => {
+      const tgt = e.target as Element | null;
+      if (!tgt) return;
+      // Don't intercept clicks inside the popup or edit panel.
+      if (popupRef.current && popupRef.current.contains(tgt)) return;
+      if (editRef.current && editRef.current.contains(tgt)) return;
+      if (tgt.closest && tgt.closest('.hi-modal')) return;
+      const hl = tgt.closest?.('mark.user-hl') as HTMLElement | null;
+      if (!hl) return;
+      // If the user has an active text selection, let the normal flow run.
+      const sel = window.getSelection();
+      if (sel && !sel.isCollapsed && (sel.toString() || '').trim().length > 0) return;
+      const id = hl.dataset.highlightId;
+      if (!id) return;
+      const stored = loadHighlights(lsKey).find((h) => h.id === id);
+      if (!stored) return;
+      e.preventDefault();
+      e.stopPropagation();
+      setEditing({
+        id,
+        el: hl,
+        rect: hl.getBoundingClientRect(),
+        text: stored.text,
+        color: stored.color,
+        note: stored.note ?? '',
+      });
+    };
+    document.addEventListener('click', onClick, true);
+    return () => document.removeEventListener('click', onClick, true);
+  }, [lsKey]);
+
   const clearAll = useCallback(() => {
     setActive(null);
     setMoreOpen(false);
@@ -204,8 +250,62 @@ export default function HighlightController({
     setNoteText('');
     setCompareOpen(false);
     setCompareRows([]);
+    setEditing(null);
     window.getSelection()?.removeAllRanges();
   }, []);
+
+  // ─── Edit panel: persist note + color, or delete the highlight ──────────
+  const handleEditSave = (patch: { color?: ColorId; note?: string }) => {
+    if (!editing) return;
+    const stored = loadHighlights(lsKey);
+    const idx = stored.findIndex((h) => h.id === editing.id);
+    if (idx === -1) {
+      setEditing(null);
+      return;
+    }
+    const next = { ...stored[idx], ...patch };
+    if (patch.note !== undefined) {
+      next.note = patch.note.trim() || undefined;
+    }
+    stored[idx] = next;
+    saveHighlights(lsKey, stored);
+
+    // Patch the DOM mark in place so the user sees the change immediately
+    // without remounting the chapter.
+    if (patch.color) {
+      const palette = HIGHLIGHT_COLORS.find((c) => c.id === patch.color);
+      if (palette) {
+        editing.el.style.backgroundColor = palette.hex;
+        editing.el.dataset.color = patch.color;
+      }
+    }
+    if (patch.note !== undefined) {
+      if (next.note) {
+        editing.el.dataset.hasNote = '1';
+      } else {
+        delete editing.el.dataset.hasNote;
+      }
+    }
+    setEditing(null);
+    showToast('Saved');
+  };
+
+  const handleEditDelete = () => {
+    if (!editing) return;
+    const stored = loadHighlights(lsKey).filter((h) => h.id !== editing.id);
+    saveHighlights(lsKey, stored);
+    // Unwrap the mark — replace it with its child nodes — so the underlying
+    // text stays exactly where it was.
+    const parent = editing.el.parentNode;
+    if (parent) {
+      while (editing.el.firstChild) {
+        parent.insertBefore(editing.el.firstChild, editing.el);
+      }
+      parent.removeChild(editing.el);
+    }
+    setEditing(null);
+    showToast('Removed');
+  };
 
   // ─── Dismiss popup on outside click / Escape ────────────────────────────
   useEffect(() => {
@@ -241,13 +341,19 @@ export default function HighlightController({
   };
 
   // ─── Action: highlight the selection in the chosen color ────────────────
-  const handleHighlight = (color: ColorId) => {
+  // Optionally attaches a note in the same call so the storage record + DOM
+  // mark are written exactly once (used by handleNoteSave).
+  const handleHighlight = (color: ColorId, opts?: { note?: string }) => {
     if (!active) return;
     const palette = HIGHLIGHT_COLORS.find((c) => c.id === color)!;
+    const id = cryptoId();
+    const note = opts?.note?.trim() || undefined;
     try {
       const span = document.createElement('mark');
       span.className = 'user-hl';
       span.dataset.color = color;
+      span.dataset.highlightId = id;
+      if (note) span.dataset.hasNote = '1';
       span.style.backgroundColor = palette.hex;
       // surroundContents fails on selections that cross element boundaries; in
       // that case we extract+wrap which is more forgiving.
@@ -260,9 +366,10 @@ export default function HighlightController({
       }
       const stored = loadHighlights(lsKey);
       stored.push({
-        id: cryptoId(),
+        id,
         text: active.text,
         color,
+        note,
         createdAt: Date.now(),
       });
       saveHighlights(lsKey, stored);
@@ -297,17 +404,8 @@ export default function HighlightController({
       setNoteOpen(false);
       return;
     }
-    const stored = loadHighlights(lsKey);
-    stored.push({
-      id: cryptoId(),
-      text: active.text,
-      color: 'yellow',
-      note: trimmed,
-      createdAt: Date.now(),
-    });
-    saveHighlights(lsKey, stored);
-    // Also apply a yellow highlight so the user can see where the note attached.
-    handleHighlight('yellow');
+    // Write the highlight + note in a single call so we don't double-store.
+    handleHighlight('yellow', { note: trimmed });
     showToast('Note saved');
   };
 
@@ -433,6 +531,16 @@ export default function HighlightController({
             </div>
           )}
         </div>
+      )}
+
+      {editing && (
+        <EditPanel
+          editing={editing}
+          onClose={() => setEditing(null)}
+          onSave={handleEditSave}
+          onDelete={handleEditDelete}
+          ref={editRef}
+        />
       )}
 
       {noteOpen && active && (
@@ -656,6 +764,8 @@ function reapplyHighlight(
           const span = document.createElement('mark');
           span.className = 'user-hl';
           span.dataset.color = hl.color;
+          span.dataset.highlightId = hl.id;
+          if (hl.note && hl.note.trim()) span.dataset.hasNote = '1';
           span.style.backgroundColor = palette.hex;
           range.surroundContents(span);
         } catch {
@@ -666,6 +776,101 @@ function reapplyHighlight(
       node = walker.nextNode();
     }
   }
+}
+
+// ─── Edit panel for an existing highlight ────────────────────────────
+interface EditPanelProps {
+  editing: {
+    id: string;
+    el: HTMLElement;
+    rect: DOMRect;
+    text: string;
+    color: ColorId;
+    note: string;
+  };
+  onClose: () => void;
+  onSave: (patch: { color?: ColorId; note?: string }) => void;
+  onDelete: () => void;
+  ref: React.Ref<HTMLDivElement>;
+}
+
+function EditPanel({ editing, onClose, onSave, onDelete, ref }: EditPanelProps) {
+  const [note, setNote] = useState(editing.note);
+  const [color, setColor] = useState<ColorId>(editing.color);
+
+  // Dismiss on outside click / Escape.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+    };
+    document.addEventListener('keydown', onKey);
+    return () => document.removeEventListener('keydown', onKey);
+  }, [onClose]);
+
+  const dirty = note !== editing.note || color !== editing.color;
+
+  return (
+    <div
+      ref={ref}
+      className="hi-edit"
+      style={popupPosition(editing.rect)}
+      role="dialog"
+      aria-label="Edit highlight"
+      onMouseDown={(e) => e.stopPropagation()}
+    >
+      <blockquote className="hi-edit__quote">
+        {`“${editing.text}”`}
+      </blockquote>
+
+      <div className="hi-edit__colors" role="group" aria-label="Highlight color">
+        {HIGHLIGHT_COLORS.map((c) => (
+          <button
+            key={c.id}
+            type="button"
+            className={`hi-edit__color ${color === c.id ? 'is-active' : ''}`}
+            style={{ backgroundColor: c.hex }}
+            aria-label={`Change to ${c.label}`}
+            aria-pressed={color === c.id}
+            onClick={() => setColor(c.id)}
+          />
+        ))}
+      </div>
+
+      <textarea
+        className="hi-edit__textarea"
+        placeholder="Add a note…"
+        value={note}
+        onChange={(e) => setNote(e.target.value)}
+        rows={3}
+      />
+
+      <div className="hi-edit__actions">
+        <button
+          type="button"
+          className="hi-edit__btn hi-edit__btn--danger"
+          onClick={onDelete}
+        >
+          Delete
+        </button>
+        <div className="hi-edit__spacer" />
+        <button
+          type="button"
+          className="hi-edit__btn hi-edit__btn--ghost"
+          onClick={onClose}
+        >
+          Cancel
+        </button>
+        <button
+          type="button"
+          className="hi-edit__btn hi-edit__btn--primary"
+          disabled={!dirty}
+          onClick={() => onSave({ color, note })}
+        >
+          Save
+        </button>
+      </div>
+    </div>
+  );
 }
 
 // ─── Inline icons ────────────────────────────────────────────────────────

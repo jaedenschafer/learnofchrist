@@ -31,6 +31,10 @@ export default function ChapterProgress({
     bookSlug,
     chapter,
   });
+  // currentSectionId is read by the resume flow below; keep it referenced so
+  // useReadingProgress's underlying observers stay alive.
+  void currentSectionId;
+  void sections;
   const [showResume, setShowResume] = useState(false);
   const [resumeId, setResumeId] = useState<string | null>(null);
 
@@ -61,11 +65,13 @@ export default function ChapterProgress({
   const dismissResume = () => setShowResume(false);
 
   const resumeLabel = sections.find((s) => s.id === resumeId)?.label || '';
-  const visitedSet = new Set(record?.sectionIdsVisited || []);
 
   return (
     <>
       {/* ── Thin progress bar ── */}
+      {/* The per-section notches that used to sit on the rail were visually
+          noisy. Just a single clean filling bar now — section progress is
+          still tracked under the hood for the resume banner. */}
       <div
         className="chapter-progress"
         role="progressbar"
@@ -75,18 +81,6 @@ export default function ChapterProgress({
         aria-label={`${chapterName} reading progress`}
       >
         <div className="chapter-progress-fill" style={{ width: `${scrollPct * 100}%` }} />
-        {sections.map((s) => (
-          <span
-            key={s.id}
-            className={[
-              'chapter-progress-notch',
-              currentSectionId === s.id ? 'active' : '',
-              visitedSet.has(s.id) ? 'visited' : '',
-            ].join(' ').trim()}
-            style={{ left: `${Math.min(99, s.percentTop * 100)}%` }}
-            title={s.label}
-          />
-        ))}
       </div>
 
       {/* ── Resume banner ── */}
