@@ -1,4 +1,7 @@
+'use client';
+
 import Link from 'next/link';
+import { useState } from 'react';
 import type { ArtworkWithArtist } from '@/lib/supabase';
 import ArtworkActionsMenu from './ArtworkActionsMenu';
 
@@ -17,26 +20,46 @@ interface ArtCardProps {
  *
  * Image source priority:
  *   thumbnail_256_url (pre-generated Supabase Storage WebP, ~15KB)
- *   → thumbnail_url (whatever the source provided)
- *   → image_url (full-resolution original)
+ *   → thumbnail_url  (whatever the source provided)
+ *   → image_url      (full-resolution original — last resort, can be 10+ MB)
  *
- * Once thumbnails are backfilled the wire payload drops ~70%.
+ * Responsive sizing:
+ *   When both thumbnail_256_url and thumbnail_800_url are populated we
+ *   emit a `srcset` so the browser picks the right tier per viewport.
  *
- * Uses a plain <img> rather than next/image because the heterogeneous
- * source hosts (Wikimedia, IIIF, ChurchOfJesusChrist) make the optimizer
- * config brittle — and the dominant_color background already gives the
- * card a "loaded" feel before bytes arrive.
+ * Layout stability:
+ *   width / height attributes are passed to <img> so the browser reserves
+ *   the correct aspect ratio before bytes arrive (CLS = 0).
+ *
+ * Failure handling:
+ *   On <img onError> the card falls back to a flat dominant_color tile
+ *   instead of a broken-image icon. Useful when a source CDN 404s.
  */
 export default function ArtCard({ artwork, caption, priority = false }: ArtCardProps) {
   const href = `/art/artwork/${artwork.slug}`;
-  const thumb =
-    artwork.thumbnail_256_url ||
-    artwork.thumbnail_url ||
-    artwork.image_url;
 
-  // Use the dominant_color as the placeholder background so the card
-  // never flashes a generic gray. Falls back to the existing separator color.
+  // Source priority. When the small/large thumbs are absent we use whatever
+  // we have, and the srcset below will reduce to a single source.
+  const thumb256 = artwork.thumbnail_256_url ?? null;
+  const thumb800 = artwork.thumbnail_800_url ?? null;
+  const fallback = artwork.thumbnail_url ?? artwork.image_url;
+  const primary = thumb256 ?? fallback;
+  // Build a srcset only when we have multiple distinct sizes — otherwise the
+  // browser does the right thing with just `src`.
+  const srcSet =
+    thumb256 && thumb800
+      ? `${thumb256} 256w, ${thumb800} 800w`
+      : undefined;
+
   const placeholderColor = artwork.dominant_color || undefined;
+  const [broken, setBroken] = useState(false);
+
+  // Pass the known dimensions so layout reserves the right aspect ratio.
+  // Falls back to 4:5 (which our CSS aspect-[4/5] already enforces) when
+  // unknown — the visual outcome is the same, but width/height attrs are
+  // still cheap signal for the browser.
+  const w = artwork.width ?? 256;
+  const h = artwork.height ?? 320;
 
   return (
     <div className="art-card-wrap relative">
@@ -45,18 +68,29 @@ export default function ArtCard({ artwork, caption, priority = false }: ArtCardP
         className="group block rounded-2xl overflow-hidden bg-[color:var(--color-surface)] border border-[color:var(--color-separator)] hover:border-[color:var(--color-primary)]/40 hover:-translate-y-0.5 transition-all"
       >
         <div
-          className="aspect-[4/5] overflow-hidden"
+          className="aspect-[4/5] overflow-hidden flex items-end justify-center"
           style={placeholderColor ? { backgroundColor: placeholderColor } : undefined}
         >
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={thumb}
-            alt={`${artwork.title}${artwork.artist?.name ? ` by ${artwork.artist.name}` : ''}`}
-            loading={priority ? 'eager' : 'lazy'}
-            decoding="async"
-            fetchPriority={priority ? 'high' : undefined}
-            className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-300"
-          />
+          {broken ? (
+            <span className="text-[10px] uppercase tracking-wider font-semibold text-white/70 m-2 drop-shadow">
+              image unavailable
+            </span>
+          ) : (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={primary}
+              srcSet={srcSet}
+              sizes="(max-width: 600px) 45vw, 240px"
+              width={w}
+              height={h}
+              alt={`${artwork.title}${artwork.artist?.name ? ` by ${artwork.artist.name}` : ''}`}
+              loading={priority ? 'eager' : 'lazy'}
+              decoding="async"
+              fetchPriority={priority ? 'high' : undefined}
+              onError={() => setBroken(true)}
+              className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-300"
+            />
+          )}
         </div>
         <div className="p-3">
           <h3 className="text-[0.875rem] font-semibold text-[color:var(--color-label)] leading-snug line-clamp-2">

@@ -172,8 +172,32 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
     },
   };
 
+  // LCP candidate: the first inline artwork on Genesis 1 (an opener), or the
+  // first ChapterArtStrip card on other chapters. Emitting <link rel=preload>
+  // here lets the browser fire the request alongside HTML parse instead of
+  // waiting for the <img> to mount.
+  const lcpArtwork =
+    chapterArtworks.find((a) => isGenesisOne ? inlineArtSlugs.has(a.id) : true)
+    ?? chapterArtworks[0]
+    ?? null;
+  const lcpHref = lcpArtwork
+    ? (isGenesisOne
+        ? lcpArtwork.thumbnail_800_url || lcpArtwork.image_url
+        : lcpArtwork.thumbnail_256_url || lcpArtwork.thumbnail_url || lcpArtwork.image_url)
+    : null;
+
   return (
     <div className="page-container">
+      {/* Hoisted to <head> by Next.js. Saves ~200-400ms on slow networks
+          when the LCP image is on a different origin than the HTML. */}
+      {lcpHref && (
+        <link
+          rel="preload"
+          as="image"
+          href={lcpHref}
+          fetchPriority="high"
+        />
+      )}
       <JsonLd data={jsonLd} />
       <div className="max-w-3xl mx-auto">
         <StudyTopBar

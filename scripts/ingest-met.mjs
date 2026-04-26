@@ -163,6 +163,10 @@ async function main() {
       external_id: String(p.objectId),
       image_url: p.primaryImage,
       thumbnail_url: p.primaryImageSmall || p.primaryImage,
+      // Optional — only set when the harvester captured them. Sharp fills
+      // nulls in during backfill-thumbnails.mjs, so leaving null is safe.
+      width: p.width ?? null,
+      height: p.height ?? null,
       license: 'public_domain',
       license_note: p.creditLine
         ? `Public domain via The Metropolitan Museum of Art (Open Access). ${p.creditLine}.`

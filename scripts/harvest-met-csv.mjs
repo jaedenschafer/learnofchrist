@@ -660,6 +660,13 @@ async function main() {
     const anchor = anchorScripture(obj);
     if (!anchor) { unanchored++; continue; }
 
+    // Met API exposes objectImage{Width,Height} on some records; on most it
+    // comes back as null. Plumb through whatever's there so downstream rows
+    // skip the Sharp roundtrip just to learn the aspect ratio. The thumbnail
+    // backfill still fills in nulls when present.
+    const w = Number(obj.objectImageWidth) || null;
+    const h = Number(obj.objectImageHeight) || null;
+
     plates.push({
       externalId: `met-${obj.objectID}`,
       objectId: obj.objectID,
@@ -673,6 +680,8 @@ async function main() {
       objectURL: obj.objectURL,
       primaryImage: obj.primaryImage,
       primaryImageSmall: obj.primaryImageSmall,
+      width: w,
+      height: h,
       creatorSlug: artistSlug(obj.artistDisplayName),
       bookSlug: anchor.bookSlug,
       chapter: anchor.chapter,
@@ -732,6 +741,8 @@ export type MetPlate = {
   objectURL: string;
   primaryImage: string;
   primaryImageSmall: string | null;
+  width: number | null;
+  height: number | null;
   creatorSlug: string;
   bookSlug: string;
   chapter: number;

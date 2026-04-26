@@ -77,6 +77,30 @@
   scroll-snap-align: start;
 }
 
+.chapter-art-strip__overflow {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 220px;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px dashed var(--color-separator);
+  background: transparent;
+  color: var(--color-secondary-label);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  scroll-snap-align: start;
+  text-align: center;
+  transition: border-color 200ms ease, color 200ms ease;
+}
+
+.chapter-art-strip__overflow:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
 @media (min-width: 768px) {
   .chapter-art-strip__rail {
     grid-auto-columns: minmax(240px, 260px);

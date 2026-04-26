@@ -230,7 +230,9 @@ export async function getArtworksForChapter(
       verse_end,
       artwork:artworks!inner (
         id, slug, title, artist_id, year, medium, source, source_url,
-        external_id, image_url, thumbnail_url, width, height,
+        external_id, image_url, thumbnail_url,
+        thumbnail_256_url, thumbnail_800_url, dominant_color,
+        width, height,
         license, license_note, description, status,
         artist:artists ( id, slug, name, birth_year, death_year, nationality, bio, wikipedia_url )
       )
@@ -281,7 +283,9 @@ export async function getArtworksForBook(
       is_primary,
       artwork:artworks!inner (
         id, slug, title, artist_id, year, medium, source, source_url,
-        external_id, image_url, thumbnail_url, width, height,
+        external_id, image_url, thumbnail_url,
+        thumbnail_256_url, thumbnail_800_url, dominant_color,
+        width, height,
         license, license_note, description, status,
         artist:artists ( id, slug, name, birth_year, death_year, nationality, bio, wikipedia_url )
       )

@@ -103,33 +103,69 @@ export default async function ArtworkPage({ params }: PageProps) {
           )}
         </header>
 
+        {/*
+          Hero strategy:
+            - First paint loads thumbnail_800_url (~80 KB WebP) so the page
+              becomes visible instantly even on heavy original artworks.
+            - "View full resolution" link below opens the original
+              (image_url) for users who want to zoom — preserves
+              discoverability without forcing the heavy bytes on every
+              visit.
+            - dominant_color paints the placeholder so layout is stable
+              before any pixels land; width/height attrs reserve the
+              aspect ratio.
+            - fetchPriority="high" + eager loading: this is the LCP
+              element for the page.
+        */}
         <figure className="mt-6 mb-10">
-          <div className="rounded-2xl overflow-hidden bg-[color:var(--color-separator)] border border-[color:var(--color-separator)]">
+          <div
+            className="rounded-2xl overflow-hidden border border-[color:var(--color-separator)]"
+            style={{
+              backgroundColor:
+                art.dominant_color || 'var(--color-separator)',
+            }}
+          >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={art.image_url}
+              src={art.thumbnail_800_url || art.image_url}
+              width={art.width || 1200}
+              height={art.height || 900}
               alt={art.title}
+              loading="eager"
+              decoding="async"
+              fetchPriority="high"
               className="w-full h-auto block"
             />
           </div>
-          {art.license_note && (
-            <figcaption className="text-[0.75rem] text-[color:var(--color-tertiary-label)] mt-2 px-1">
-              {art.license_note}
-              {art.source_url && (
-                <>
-                  {' '}·{' '}
-                  <a
-                    href={art.source_url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="underline hover:text-[color:var(--color-primary)]"
-                  >
-                    Source
-                  </a>
-                </>
-              )}
-            </figcaption>
-          )}
+          <figcaption className="text-[0.75rem] text-[color:var(--color-tertiary-label)] mt-2 px-1 flex flex-wrap gap-x-2 gap-y-1 items-baseline">
+            <a
+              href={art.image_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-[color:var(--color-primary)] font-medium"
+            >
+              View full resolution
+            </a>
+            {art.license_note && (
+              <>
+                <span aria-hidden="true">·</span>
+                <span>{art.license_note}</span>
+              </>
+            )}
+            {art.source_url && (
+              <>
+                <span aria-hidden="true">·</span>
+                <a
+                  href={art.source_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:text-[color:var(--color-primary)]"
+                >
+                  Source
+                </a>
+              </>
+            )}
+          </figcaption>
         </figure>
 
         {art.scripture_refs.length > 0 && (
