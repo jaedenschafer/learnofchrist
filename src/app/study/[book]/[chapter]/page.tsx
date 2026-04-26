@@ -3,22 +3,20 @@ import dynamic from 'next/dynamic';
 import type { Metadata } from 'next';
 import { getAllBooks, getBookByName } from '@/data/books';
 import { getChapterContent } from '@/data/chapter-content';
+import { getRichChapter } from '@/data/study-chapters';
 import ChapterNav from '@/components/ChapterNav';
-import VerseDisplay from '@/components/VerseDisplay';
-import StudyGuide from '@/components/StudyGuide';
 import { getVerses, getArtworksForChapter } from '@/lib/supabase';
-import { verseExplanations } from '@/data/verse-explanations';
 import ChapterArtStrip from '@/components/ChapterArtStrip';
 import JsonLd from '@/components/JsonLd';
 import StudyTopBar from '@/components/StudyTopBar';
 import StudyChapterShareLaunch from '@/components/StudyChapterShareLaunch';
 
-// Code-split client-only UI: the filters bar renders below the hero, and the
-// heavy Genesis 1 deep-dive isn't needed on any other chapter.
+// Code-split: filters bar renders below the hero. The rich-study renderer is
+// dynamic-imported so the heavy effects/audio bundle only loads on this route.
 const StudyFilters = dynamic(() => import('@/components/StudyFilters'), {
   loading: () => <div className="h-12" aria-hidden="true" />,
 });
-const GenesisOneStudy = dynamic(() => import('@/components/GenesisOneStudy'), {
+const RichStudyGuide = dynamic(() => import('@/components/RichStudyGuide'), {
   loading: () => (
     <div className="py-16 text-center text-[color:var(--color-tertiary-label)]">
       Loading study guide…
@@ -112,39 +110,48 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
     getVerses(book, chapter, defaultTranslation),
     getArtworksForChapter(book, chapter),
   ]);
-  const hasVerses = initialVerses.length > 0;
 
   const content = getChapterContent(book, chapter);
-  const isGenesisOne = book === 'genesis' && chapter === 1;
+  const richContent = getRichChapter(book, book_obj.name, chapter, content, initialVerses);
 
-  // For the Genesis 1 deep-dive we promote a few curated artworks inline
-  // through the chapter (matched by title/artist inside GenesisOneStudy).
-  // The remaining artworks fall through to the carousel at the end of the
-  // page so we never show the same image twice.
+  // Rich study guides reference inline artworks by title/artist matchers in
+  // their data files. Pull those out of the carousel so we never show the
+  // same image twice on the page.
   const inlineArtSlugs = new Set<string>();
-  if (isGenesisOne) {
-    for (const a of chapterArtworks) {
-      const artistName = a.artist?.name ?? '';
-      if (
-        (/tissot/i.test(artistName) && /creation/i.test(a.title)) ||
-        /separation of light/i.test(a.title) ||
-        /separation of the earth/i.test(a.title) ||
-        (/bennett/i.test(artistName) && /adam/i.test(a.title))
-      ) {
-        inlineArtSlugs.add(a.id);
+  if (richContent) {
+    for (const section of richContent.sections) {
+      for (const block of section.blocks) {
+        if (block.kind !== 'artwork') continue;
+        for (const a of chapterArtworks) {
+          const matchesTitle = !block.matchTitle || block.matchTitle.test(a.title);
+          const matchesArtist = !block.matchArtist || block.matchArtist.test(a.artist?.name ?? '');
+          if (matchesTitle && matchesArtist) {
+            inlineArtSlugs.add(a.id);
+            break;
+          }
+        }
+      }
+    }
+    if (richContent.opener) {
+      for (const a of chapterArtworks) {
+        const op = richContent.opener;
+        const matchesTitle = !op.matchTitle || op.matchTitle.test(a.title);
+        const matchesArtist = !op.matchArtist || op.matchArtist.test(a.artist?.name ?? '');
+        if (matchesTitle && matchesArtist) {
+          inlineArtSlugs.add(a.id);
+          break;
+        }
       }
     }
   }
-  const stripArtworks = isGenesisOne
-    ? chapterArtworks.filter((a) => !inlineArtSlugs.has(a.id))
-    : chapterArtworks;
-
-  const explainedVerses = Object.keys(verseExplanations)
-    .filter((key) => key.startsWith(`${book}/${chapter}/`))
-    .map((key) => parseInt(key.split('/')[2]));
+  const stripArtworks =
+    inlineArtSlugs.size > 0
+      ? chapterArtworks.filter((a) => !inlineArtSlugs.has(a.id))
+      : chapterArtworks;
 
   const previousChapter = chapter > 1 ? chapter - 1 : null;
   const nextChapter = chapter < book_obj.chapters ? chapter + 1 : null;
+  const isGenesisOne = book === 'genesis' && chapter === 1;
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -251,32 +258,8 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
         </div>
 
         <div className="space-y-4 mt-4">
-          {isGenesisOne ? (
-            <GenesisOneStudy artworks={chapterArtworks} />
-          ) : (
-            <>
-              {hasVerses && (
-                <VerseDisplay
-                  bookSlug={book}
-                  chapter={chapter}
-                  initialVerses={initialVerses}
-                  explainedVerses={explainedVerses}
-                  defaultTranslation={defaultTranslation}
-                />
-              )}
-
-              <StudyGuide
-                bookName={book_obj.name}
-                chapter={chapter}
-                content={content ? {
-                  overview: content.overview,
-                  themes: [...content.themes],
-                  questions: [...content.questions],
-                  christConnection: content.christConnection,
-                  keyVerse: content.keyVerse,
-                } : null}
-              />
-            </>
+          {richContent && (
+            <RichStudyGuide content={richContent} artworks={chapterArtworks} />
           )}
         </div>
 

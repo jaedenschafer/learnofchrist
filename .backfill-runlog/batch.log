@@ -1,0 +1,46 @@
+Querying: artworks?select=id,slug,image_url,thumbnail_url,source,width,height&moderation_status=eq.approved&status=eq.published&order=created_at.asc&thumbnail_256_url=is.null
+Found 197 artwork(s) needing thumbnails
+  ✗ rembrandt-road-emmaus: Image too large: 53091600 bytes
+  ✗ rembrandt-return-prodigal-son: Image too large: 262356403 bytes
+  ✗ tissot-prodigal: Fetch https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn%20Museum%20-%20Prodigal%20(image%20title%20missing%20from%20API).jpg → 404
+  ✗ tissot-nicodemus: Fetch https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn%20Museum%20-%20Interview%20between%20Jesus%20and%20Nicodemus%20(Entretien%20de%20J%C3%A9sus%20et%20de%20Nicode%C3%A8me)%20-%20James%20Tissot.jpg → 404
+  ✗ caravaggio-beheading-of-saint-john: Image too large: 45878458 bytes
+  ✗ raphael-disputation-of-the-holy-sacrament: Image too large: 36008853 bytes
+  ✗ raphael-sistine-madonna: Image too large: 38190063 bytes
+  ✗ raphael-alba-madonna: Image too large: 29972537 bytes
+  ✗ rubens-visitation: Image too large: 34544435 bytes
+  ✗ rubens-meeting-of-abraham-and-melchizedek: Image too large: 65760152 bytes
+  ✗ fra-angelico-linaioli-tabernacle: Image too large: 29447309 bytes
+  ✗ rembrandt-circumcision-in-the-stable: Image too large: 103085881 bytes
+  ✗ bloch-adoration-of-the-shepherds: Image too large: 90584404 bytes
+  ✗ vitae-imperatorum-beatus-vir: Image too large: 87164584 bytes
+  ✗ el-greco-disrobing-1pet2: Image too large: 27619684 bytes
+  ✗ met-336207: VipsJpeg: Corrupt JPEG data: bad Huffman code
+  [19/197] vivian-bible-exodus-ch29 — #d6cab8
+  [18/197] vivian-bible-genesis-ch16 — #d3c6ac
+  [17/197] vivian-bible-leviticus-ch23 — #d5c8af
+  [20/197] vivian-bible-exodus-ch35 — #af9075
+  [24/197] vivian-bible-leviticus-ch24 — #d6c8b2
+  ✗ vivian-bible-numbers-ch24: Fetch https://gallica.bnf.fr/iiif/ark:/12148/btv1b8455903b/f97/full/full/0/native.jpg → 429 after 4 retries
+  ✗ vivian-bible-deuteronomy-ch18: Fetch https://gallica.bnf.fr/iiif/ark:/12148/btv1b8455903b/f115/full/full/0/native.jpg → 429 after 4 retries
+  ✗ vivian-bible-numbers-ch14: Fetch https://gallica.bnf.fr/iiif/ark:/12148/btv1b8455903b/f90/full/full/0/native.jpg → 429 after 4 retries
+  ✗ vivian-bible-genesis-ch30: Fetch https://gallica.bnf.fr/iiif/ark:/12148/btv1b8455903b/f28/full/full/0/native.jpg → 429 after 4 retries
+  ✗ vivian-bible-deuteronomy-ch13: Fetch https://gallica.bnf.fr/iiif/ark:/12148/btv1b8455903b/f112/full/full/0/native.jpg → 429 after 4 retries
+  ✗ vivian-bible-deuteronomy-ch20: Fetch https://gallica.bnf.fr/iiif/ark:/12148/btv1b8455903b/f116/full/full/0/native.jpg → 429 after 4 retries
+  ✗ vivian-bible-numbers-ch7: Fetch https://gallica.bnf.fr/iiif/ark:/12148/btv1b8455903b/f86/full/full/0/native.jpg → 429 after 4 retries
+  [31/197] vivian-bible-genesis-ch6 — #cfc4ac
+  [30/197] vivian-bible-exodus-ch30 — #d8ccb9
+  [29/197] vivian-bible-exodus-ch26 — #d5c7b1
+  [32/197] vivian-bible-deuteronomy-ch10 — #d6c5ac
+  [33/197] vivian-bible-numbers-ch19 — #d8c9b0
+  ✗ vivian-bible-exodus-ch13: Fetch https://gallica.bnf.fr/iiif/ark:/12148/btv1b8455903b/f48/full/full/0/native.jpg → 429 after 4 retries
+  ✗ vivian-bible-genesis-ch20: Fetch https://gallica.bnf.fr/iiif/ark:/12148/btv1b8455903b/f22/full/full/0/native.jpg → 429 after 4 retries
+  ✗ vivian-bible-leviticus-ch4: Fetch https://gallica.bnf.fr/iiif/ark:/12148/btv1b8455903b/f68/full/full/0/native.jpg → 429 after 4 retries
+  [38/197] vivian-bible-1-chronicles-ch9 — #ddd2c2
+  [39/197] vivian-bible-deuteronomy-ch28 — #d4cab7
+  [40/197] vivian-bible-2-kings-ch16 — #d7ccb7
+  [37/197] vivian-bible-exodus-ch31 — #dccdb5
+  [41/197] vivian-bible-2-kings-ch18 — #ddd0ba
+  ✗ vivian-bible-1-kings-ch7: Fetch https://gallica.bnf.fr/iiif/ark:/12148/btv1b8455903b/f194/full/full/0/native.jpg → 429 after 4 retries
+  ✗ vivian-bible-2-samuel-ch1: Fetch https://gallica.bnf.fr/iiif/ark:/12148/btv1b8455903b/f175/full/full/0/native.jpg → 429 after 4 retries
+  ✗ vivian-bible-2-kings-ch15: Fetch https://gallica.bnf.fr/iiif/ark:/12148/btv1b8455903b/f212/full/full/0/native.jpg → 429 after 4 retries
