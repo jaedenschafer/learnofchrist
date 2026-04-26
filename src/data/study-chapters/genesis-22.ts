@@ -19,7 +19,7 @@ export const GENESIS_22: RichChapterContent = {
 
   intros: [
     'Abraham has waited ninety-nine years for the promise. Isaac, born when he was a hundred and his wife was past bearing age, is the entire future—the heir through whom all the nations of the earth would be blessed. Three times God made that covenant: in Genesis 12, Genesis 15, and Genesis 17. Every promise hinges on this boy.',
-    'And then, in Genesis 22, God makes a request that seems to unmake everything. "Take now thy son, thine only son Isaac, whom thou lovest, and get thee into the land of Moriah; and offer him there for a burnt offering upon one of the mountains which I will tell thee of." Abraham is seventy-five when God first calls him. He is now past one hundred twenty, and God asks him to surrender the future He Himself gave. The chapter is the Bible&apos;s deepest meditation on faith—not as feeling safe, but as trusting God when every rational thing you see says He has abandoned you.',
+    'And then, in Genesis 22, God makes a request that seems to unmake everything. "Take now thy son, thine only son Isaac, whom thou lovest, and get thee into the land of Moriah; and offer him there for a burnt offering upon one of the mountains which I will tell thee of." Abraham is seventy-five when God first calls him. He is now past one hundred twenty, and God asks him to surrender the future He Himself gave. The chapter is the Bible\'s deepest meditation on faith—not as feeling safe, but as trusting God when every rational thing you see says He has abandoned you.',
     'It is also, though the chapter never names it, a profound act of substitution. A ram dies so Isaac lives. And in the New Testament, the Apostles will point back to this mountain and say: that was a picture of what happened on another mountain, in another land, where a Lamb died so that the world could live.',
   ],
 
@@ -75,21 +75,21 @@ export const GENESIS_22: RichChapterContent = {
           id: 'hebrew-moriah',
           title: 'Moriah — &ldquo;the LORD will see&rdquo;',
           script: 'מֹרִיָּה',
-          translit: '<strong>Moriah</strong> · from <strong>ra'ah</strong>, "to see" + <strong>YHWH</strong>',
+          translit: '<strong>Moriah</strong> · from <strong>ra\'ah</strong>, "to see" + <strong>YHWH</strong>',
           description:
             'The land of Moriah will reappear in 2 Chronicles 3:1 as the very mountain where Solomon builds the temple. This is the same mountain, the same sacred place. Later, Calvary will lie in sight of it. Abraham is walking toward a mountain prepared for a sacrifice since before the world began.',
         },
         {
           kind: 'christ',
           id: 'christ-spared-son',
-          title: 'Christ Connection — A Father&apos;s Surrender',
+          title: 'Christ Connection — A Father\'s Surrender',
           html:
-            'Centuries later, Paul writes of this moment and hears in it an echo of the Cross: "He that spared not his own Son, but delivered him up for us all, how shall he not with him also freely give us all things?" (Rom. 8:32). The Greek word for "spared" is the same word used in the Greek Old Testament translation here. Abraham&apos;s willingness to surrender his son becomes the mirror of God the Father&apos;s actual surrender of His Son. Except God does not stop His knife. The Lamb on the second mountain actually dies.',
+            'Centuries later, Paul writes of this moment and hears in it an echo of the Cross: "He that spared not his own Son, but delivered him up for us all, how shall he not with him also freely give us all things?" (Rom. 8:32). The Greek word for "spared" is the same word used in the Greek Old Testament translation here. Abraham\'s willingness to surrender his son becomes the mirror of God the Father\'s actual surrender of His Son. Except God does not stop His knife. The Lamb on the second mountain actually dies.',
         },
         {
           kind: 'carry',
           html:
-            'God&apos;s first request is not easy, and the chapter does not pretend it is. When the thing you love most is asked of you—your child, your future, your promise, your dream—the only way forward is the simple word Abraham spoke: "Behold, here I am." You do not have to feel ready. You have to show up and be present to what God is asking. That willingness is where faith begins.',
+            'God\'s first request is not easy, and the chapter does not pretend it is. When the thing you love most is asked of you—your child, your future, your promise, your dream—the only way forward is the simple word Abraham spoke: "Behold, here I am." You do not have to feel ready. You have to show up and be present to what God is asking. That willingness is where faith begins.',
         },
         {
           kind: 'reflection',
@@ -168,26 +168,25 @@ export const GENESIS_22: RichChapterContent = {
           kind: 'commentary',
           id: 'c-come-again',
           html:
-            'Abraham tells the young men, "The lad and I will go yonder and worship, and come again to you." He says it as though he believes it. The chapter does not tell us whether Abraham&apos;s faith has a loophole—does he expect God to stop him at the last second?—or whether he has somehow, impossibly, committed to losing his son forever and to watching God raise him from the dead (as Hebrews 11:19 tells us he did). Either way, his voice, speaking to the servants, is the voice of a man betting everything on God.',
+            'Abraham tells the young men, "The lad and I will go yonder and worship, and come again to you." He says it as though he believes it. The chapter does not tell us whether Abraham\'s faith has a loophole—does he expect God to stop him at the last second?—or whether he has somehow, impossibly, committed to losing his son forever and to watching God raise him from the dead (as Hebrews 11:19 tells us he did). Either way, his voice, speaking to the servants, is the voice of a man betting everything on God.',
         },
         {
           kind: 'christ',
           id: 'christ-lamb-replacement',
           title: 'Christ Connection — The Lamb God Will Provide',
           html:
-            'Isaac asks the question every child in that era would ask: where is the lamb? Abraham&apos;s answer is not a dodge. It is a declaration: "God will provide Himself a lamb." The Hebrew phrase is <em>Elohim yireh lo avetz</em>—the LORD will see/provide for himself the lamb. Fourteen verses later, a ram appears "caught in a thicket by his horns" (22:13), and Abraham names the place "Jehovah-jireh, as it is said to this day, In the mount of the LORD it shall be seen [provided]." But the chapter is not ultimately about a ram. It is about the Lamb. John the Baptist, standing at the Jordan centuries later, points at Jesus and says: "Behold the Lamb of God, which taketh away the sin of the world" (John 1:29). Abraham&apos;s words were true in a way he could not yet have imagined.',
+            'Isaac asks the question every child in that era would ask: where is the lamb? Abraham\'s answer is not a dodge. It is a declaration: "God will provide Himself a lamb." The Hebrew phrase is <em>Elohim yireh lo avetz</em>—the LORD will see/provide for himself the lamb. Fourteen verses later, a ram appears "caught in a thicket by his horns" (22:13), and Abraham names the place "Jehovah-jireh, as it is said to this day, In the mount of the LORD it shall be seen [provided]." But the chapter is not ultimately about a ram. It is about the Lamb. John the Baptist, standing at the Jordan centuries later, points at Jesus and says: "Behold the Lamb of God, which taketh away the sin of the world" (John 1:29). Abraham\'s words were true in a way he could not yet have imagined.',
         },
         {
           kind: 'carry',
           html:
             'When God asks something of you that feels impossible, His invitation is not to see the way out. It is to name what He will provide. "God will provide." You do not have to see the lamb. You only have to trust that He is not asking you to walk into a mountain and be left alone. Whatever God asks, He provides the grace for. Whatever He commands, He supplies the strength.',
-          },
-        {
+        },
         {
           kind: 'reflection',
           id: 'gen22-provide',
           prompt: 'What is something you are walking toward right now that feels uncertain? Where do you need to declare, with Abraham, that "God will provide"?',
-          },
+        },
       ],
     },
 
@@ -255,20 +254,20 @@ export const GENESIS_22: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-angel-stops',
-          title: 'Christ Connection — The Angel&apos;s Intervention',
+          title: 'Christ Connection — The Angel\'s Intervention',
           html:
-            'An angel stops Abraham&apos;s hand. But when Jesus came to His own mountain, at His own altar, no angel stopped the knife. Instead, He drank the cup to the bottom. "Not my will," He prayed in the garden, "but thine be done" (Luke 22:42)—the same prayer Abraham lived out on Moriah. Jesus walked all the way to the end of that substitution. He did not say "I am willing." He said, and He meant it: I will lay down my life for the world. Abraham&apos;s test was stayed. Christ&apos;s was not. But the same faithful God who stopped the knife on Moriah raised His Son from the dead on the third day.',
+            'An angel stops Abraham\'s hand. But when Jesus came to His own mountain, at His own altar, no angel stopped the knife. Instead, He drank the cup to the bottom. "Not my will," He prayed in the garden, "but thine be done" (Luke 22:42)—the same prayer Abraham lived out on Moriah. Jesus walked all the way to the end of that substitution. He did not say "I am willing." He said, and He meant it: I will lay down my life for the world. Abraham\'s test was stayed. Christ\'s was not. But the same faithful God who stopped the knife on Moriah raised His Son from the dead on the third day.',
         },
         {
           kind: 'carry',
           html:
             'The moment when God asks you to let go is the moment He knows your answer. You do not prove your faith by being calm or by not feeling the weight. You prove it by letting your hands open anyway. By saying yes when every part of you is screaming no. By trusting that a God who asks this much has already given enough.',
-          },
+        },
         {
           kind: 'reflection',
           id: 'gen22-hand',
           prompt: 'What are you still holding onto, despite God asking you to let it go? What would change if you opened your hands—not because the pain would stop, but because you trust the God who asked?',
-          },
+        },
       ],
     },
 
@@ -312,39 +311,38 @@ export const GENESIS_22: RichChapterContent = {
           id: 'hebrew-yireh-name',
           title: 'Yireh — &ldquo;the LORD will see/provide&rdquo;',
           script: 'יִרְאֶה',
-          translit: '<strong>yireh</strong> · from <strong>ra&apos;ah</strong>, "to see"; Jehovah-yireh = "the LORD will see"',
+          translit: '<strong>yireh</strong> · from <strong>ra\'ah</strong>, "to see"; Jehovah-yireh = "the LORD will see"',
           description:
-            'The Hebrew root <strong>ra&apos;ah</strong> carries both meanings: "to see" and "to provide/appear." Jehovah-jireh literally means "the LORD will see"—He will see what is needed, He will appear with what is needed, He will provide what His people cannot see or imagine on their own. This name echoes Abraham&apos;s words in verse 8: "God will provide himself a lamb." Now, after the substitute has appeared, Abraham names the place in commemoration.',
+            'The Hebrew root <strong>ra\'ah</strong> carries both meanings: "to see" and "to provide/appear." Jehovah-jireh literally means "the LORD will see"—He will see what is needed, He will appear with what is needed, He will provide what His people cannot see or imagine on their own. This name echoes Abraham\'s words in verse 8: "God will provide himself a lamb." Now, after the substitute has appeared, Abraham names the place in commemoration.',
         },
         {
           kind: 'commentary',
           id: 'c-name-meaning',
           html:
-            'The phrase "In the mount of the LORD it shall be seen" (or "provided") becomes a proverb. Every generation that hears this story will understand it: <em>On the LORD&apos;s mountain, provision appears.</em> Moriah becomes the place where God&apos;s seeing—His attention, His care, His willingness to provide—becomes tangible. It is where a ram appears when a ram is needed. It is where, later, a temple is built. And it is where, far later still, on a mount within sight of Moriah, another Lamb appears, provided by God Himself for the sins of the world.',
+            'The phrase "In the mount of the LORD it shall be seen" (or "provided") becomes a proverb. Every generation that hears this story will understand it: <em>On the LORD\'s mountain, provision appears.</em> Moriah becomes the place where God\'s seeing—His attention, His care, His willingness to provide—becomes tangible. It is where a ram appears when a ram is needed. It is where, later, a temple is built. And it is where, far later still, on a mount within sight of Moriah, another Lamb appears, provided by God Himself for the sins of the world.',
         },
         {
           kind: 'artwork',
           matchTitle: /sacrifice of isaac|binding of isaac|abraham and isaac/i,
           caption: 'Genesis 22:13–14 · The Ram Caught in the Thicket',
-          },
+        },
         {
           kind: 'christ',
           id: 'christ-ram-crown',
           title: 'Christ Connection — The Crown of Horns',
           html:
             'The ram is caught by its horns. When Christ came to His substitution, Matthew tells us the soldiers plaited a crown of thorns and put it upon His head (Matt. 27:29). Thorns are the curse of Genesis 3—the curse that grows from the ground Adam was told he would cultivate in sweat. A crown of thorns is curse as crown, shame as glory. The ram caught by its horns in the thicket is the Old Testament shadow of the Lamb caught in a crown of thorns on Golgotha. Both die in the stead of those who deserve to die. Both become the provision of God.',
-          },
         },
         {
           kind: 'carry',
           html:
             'The ram was there before Abraham needed it. It was caught, held, waiting. When God asks you to release your grip on something, He is not asking you to step into a void. He is saying: I have already seen what you need. I have already provided it. Let go of what you are holding, and turn around. The answer is already here.',
-          },
+        },
         {
           kind: 'reflection',
           id: 'gen22-turn',
           prompt: 'What have you been looking toward in grief or anxiety? What might change if you turned around and looked to see what God has already provided?',
-          },
+        },
       ],
     },
 
@@ -397,33 +395,31 @@ export const GENESIS_22: RichChapterContent = {
           kind: 'commentary',
           id: 'c-oath-sworn',
           html:
-            '"By myself have I sworn," the LORD says. God does not swear by a higher power; there is no higher authority. He swears by Himself. His own nature is the guarantee. And the oath is conditional—"because thou hast done this thing, because thou hast not withheld thy son." Abraham&apos;s willingness to surrender everything he was promised has, paradoxically, confirmed the promise. His willingness to lose it has secured it.',
+            '"By myself have I sworn," the LORD says. God does not swear by a higher power; there is no higher authority. He swears by Himself. His own nature is the guarantee. And the oath is conditional—"because thou hast done this thing, because thou hast not withheld thy son." Abraham\'s willingness to surrender everything he was promised has, paradoxically, confirmed the promise. His willingness to lose it has secured it.',
         },
         {
           kind: 'christ',
           id: 'christ-blessing-nations',
           title: 'Christ Connection — All Nations Blessed',
           html:
-            'The promise echoes what God said in Genesis 12: "In thee shall all families of the earth be blessed." Now, after the test, it is deepened and secured. The angel makes it clear: this blessing to the nations comes because of Abraham&apos;s obedience. Paul unpacks it: "Even as Abraham believed God, and it was accounted to him for righteousness... So then they which be of faith are blessed with faithful Abraham" (Gal. 3:6–7, 9). And Galatians 3:16 says this blessing to "all nations" points specifically to Christ: "Now to Abraham and his seed were the promises made... which is Christ."',
+            'The promise echoes what God said in Genesis 12: "In thee shall all families of the earth be blessed." Now, after the test, it is deepened and secured. The angel makes it clear: this blessing to the nations comes because of Abraham\'s obedience. Paul unpacks it: "Even as Abraham believed God, and it was accounted to him for righteousness... So then they which be of faith are blessed with faithful Abraham" (Gal. 3:6–7, 9). And Galatians 3:16 says this blessing to "all nations" points specifically to Christ: "Now to Abraham and his seed were the promises made... which is Christ."',
         },
         {
           kind: 'artwork',
           matchTitle: /abraham|covenant|promise/i,
           matchArtist: /caravaggio|rembrandt/i,
           caption: 'Genesis 22:15–18 · The Covenant Renewed',
-          },
-        {
+        },
         {
           kind: 'carry',
           html:
-            'When you have finally, completely, let go of what matters most, the next word from God is not rebuke. It is blessing. Not comfort, necessarily—the pain of having offered Isaac does not erase—but a kind of blessing that says: your obedience was not wasted. It was the thing that changed everything. Whatever you have surrendered at God&apos;s command becomes the door through which His blessing flows, not just to you, but through you to the world.',
-          },
-        {
+            'When you have finally, completely, let go of what matters most, the next word from God is not rebuke. It is blessing. Not comfort, necessarily—the pain of having offered Isaac does not erase—but a kind of blessing that says: your obedience was not wasted. It was the thing that changed everything. Whatever you have surrendered at God\'s command becomes the door through which His blessing flows, not just to you, but through you to the world.',
+        },
         {
           kind: 'reflection',
           id: 'gen22-bless',
           prompt: 'How might your obedience in some small surrender become the channel through which God blesses not just you, but others around you?',
-          },
+        },
       ],
     },
 
@@ -450,19 +446,18 @@ export const GENESIS_22: RichChapterContent = {
           kind: 'commentary',
           id: 'c-beersheba',
           html:
-            'Abraham comes down the mountain. He meets his servants. They all return together to Beer-sheba, where Abraham has a well, a home, a place of settling. The chapter ends simply. No fanfare. No psychological inventory of Abraham&apos;s feelings. He has offered his son. He has received him back. He has heard the oath renewed. And now he goes home. Sometimes the deepest obedience looks like the quietest return.',
+            'Abraham comes down the mountain. He meets his servants. They all return together to Beer-sheba, where Abraham has a well, a home, a place of settling. The chapter ends simply. No fanfare. No psychological inventory of Abraham\'s feelings. He has offered his son. He has received him back. He has heard the oath renewed. And now he goes home. Sometimes the deepest obedience looks like the quietest return.',
         },
         {
           kind: 'carry',
           html:
             'You do not have to feel resolved or at peace when the trial is over. You only have to go where God has called you to live. You return to your ordinary life. You live in it. You tend the well. You stay. And the God who walked with you up the mountain and stopped your knife stays with you on the ordinary Tuesday, in the ordinary house, in the ordinary work of being faithful to the people and the place He has given you. The miraculous thing is not what happened on the mountain. It is that you get to come home from it.',
-          },
         },
         {
           kind: 'reflection',
           id: 'gen22-home',
           prompt: 'After you have stood at your own mountain and surrendered what had to be surrendered, what does "coming home" look like? What is the ordinary faith you will need when the trial is over?',
-          },
+        },
       ],
     },
   ],
