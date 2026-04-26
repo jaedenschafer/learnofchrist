@@ -922,4 +922,233 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     year: 1880, medium: 'Engraving',
     bookSlug: 'psalms', chapter: 23, verseStart: 1, verseEnd: 6, sceneSlug: 'wisdom',
   },
+
+  // ═════════════════════════════════════════════════════════════════════
+  // THIRD WAVE — knock out remaining zero-coverage NT books
+  // (Pauline pastorals + Catholic epistles), plus penitential Psalms
+  // ═════════════════════════════════════════════════════════════════════
+
+  // ───────── PHILEMON ─────────
+  {
+    externalId: 'onesimus-and-philemon',
+    title: 'Onesimus and Philemon',
+    artistSlug: 'anonymous-engraver',
+    artistName: 'Anonymous (devotional engraver)',
+    wikimediaFile: 'Onesimus and Philemon.jpg',
+    year: 1880, medium: 'Engraving',
+    bookSlug: 'philemon', chapter: 1, verseStart: 8, verseEnd: 21, sceneSlug: 'apostles',
+  },
+  {
+    externalId: 'paul-and-onesimus-in-prison',
+    title: 'Saint Paul and Onesimus in Prison',
+    artistSlug: 'anonymous-engraver', artistName: 'Anonymous (devotional engraver)',
+    wikimediaFile: 'St Paul and Onesimus in prison.jpg',
+    year: 1880, medium: 'Engraving',
+    bookSlug: 'philemon', chapter: 1, verseStart: 9, verseEnd: 16, sceneSlug: 'apostles',
+  },
+  {
+    externalId: 'menologion-onesimus',
+    title: 'Onesimus of Byzantium (Menologion of Basil II)',
+    artistSlug: 'menologion-of-basil-ii-master',
+    artistName: 'Master of the Menologion of Basil II',
+    artistNationality: 'Byzantine',
+    artistBio: 'Anonymous Byzantine workshop responsible for the Menologion of Basil II (Vat. gr. 1613, c. 1000) — an illustrated saints calendar containing some 430 miniatures.',
+    artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Menologion_of_Basil_II',
+    wikimediaFile: 'Onesimus of Byzantium (Menologion of Basil II).jpg',
+    year: 1000, medium: 'Tempera on parchment',
+    bookSlug: 'philemon', chapter: 1, verseStart: 10, verseEnd: 13, sceneSlug: 'apostles',
+  },
+
+  // ───────── 1 TIMOTHY ─────────
+  {
+    externalId: 'saint-timothy-icon',
+    title: 'Saint Timothy',
+    artistSlug: 'anonymous-byzantine',
+    artistName: 'Anonymous (Byzantine icon tradition)',
+    wikimediaFile: 'Saint Timothy.jpg',
+    year: 1500, medium: 'Tempera on panel',
+    bookSlug: '1-timothy', chapter: 1, verseStart: 1, verseEnd: 5, sceneSlug: 'apostles',
+  },
+  // ───────── 2 TIMOTHY ─────────
+  {
+    externalId: 'saint-timothy-the-apostle',
+    title: 'Saint Timothy the Apostle',
+    artistSlug: 'anonymous-byzantine',
+    artistName: 'Anonymous (Byzantine icon tradition)',
+    wikimediaFile: 'Saint Timothy the Apostle.jpg',
+    year: 1500, medium: 'Tempera on panel',
+    bookSlug: '2-timothy', chapter: 1, verseStart: 1, verseEnd: 7, sceneSlug: 'apostles',
+  },
+
+  // ───────── TITUS ─────────
+  {
+    externalId: 'met-saint-titus-bishop',
+    title: 'Saint Titus, Bishop',
+    artistSlug: 'anonymous-met',
+    artistName: 'Anonymous (Met Open Access)',
+    wikimediaFile: 'St. Titus, Bishop Met DP890793.jpg',
+    year: 1500, medium: 'Engraving',
+    bookSlug: 'titus', chapter: 1, verseStart: 1, verseEnd: 9, sceneSlug: 'apostles',
+  },
+  {
+    externalId: 'fresco-saint-titos',
+    title: 'Fresco of Saint Titus',
+    artistSlug: 'anonymous-byzantine',
+    artistName: 'Anonymous (Byzantine icon tradition)',
+    wikimediaFile: 'Fresco of Saint Titos.jpg',
+    year: 1500, medium: 'Fresco',
+    bookSlug: 'titus', chapter: 1, verseStart: 5, verseEnd: 9, sceneSlug: 'apostles',
+  },
+
+  // ───────── 1 THESSALONIANS — Parousia / Second Coming ─────────
+  {
+    externalId: 'gap-fill-fra-angelico-last-judgement',
+    title: 'The Last Judgement',
+    artistSlug: 'fra-angelico',
+    artistName: 'Fra Angelico (Guido di Pietro)',
+    artistBirthYear: 1395, artistDeathYear: 1455,
+    artistNationality: 'Italian',
+    artistBio: 'Italian Dominican friar and Early Renaissance painter who pioneered a contemplative, light-filled style of religious art.',
+    artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Fra_Angelico',
+    wikimediaFile: 'Fra Angelico 009.jpg',
+    year: 1432, medium: 'Tempera on panel',
+    bookSlug: '1-thessalonians', chapter: 4, verseStart: 13, verseEnd: 18, sceneSlug: 'apocalypse',
+  },
+  {
+    externalId: 'walters-w540-second-coming',
+    title: 'The Second Coming of Christ (Walters MS W.540, fol. 14v)',
+    artistSlug: 'walters-w540-master',
+    artistName: 'Master of Walters Gospel Book W.540',
+    artistNationality: 'Byzantine',
+    artistBio: 'Anonymous Byzantine illuminator responsible for Walters Manuscript W.540, a Gospel Book.',
+    wikimediaFile: 'Gospel Book, Second Coming of Christ, Walters Manuscript W.540, fol. 14v.jpg',
+    year: 1100, medium: 'Tempera on parchment',
+    bookSlug: '1-thessalonians', chapter: 5, verseStart: 1, verseEnd: 11, sceneSlug: 'apocalypse',
+  },
+
+  // ───────── 2 THESSALONIANS — Day of the Lord / Last Judgment ─────────
+  {
+    externalId: 'john-martin-last-judgement',
+    title: 'The Last Judgement',
+    artistSlug: 'john-martin',
+    artistName: 'John Martin',
+    artistBirthYear: 1789, artistDeathYear: 1854,
+    artistNationality: 'English',
+    artistBio: 'English Romantic painter known for his apocalyptic, dramatically-scaled biblical landscapes.',
+    artistWikipediaUrl: 'https://en.wikipedia.org/wiki/John_Martin_(painter)',
+    wikimediaFile: 'John Martin - The Last Judgement - Google Art Project.jpg',
+    year: 1853, medium: 'Oil on canvas',
+    bookSlug: '2-thessalonians', chapter: 1, verseStart: 7, verseEnd: 10, sceneSlug: 'apocalypse',
+  },
+
+  // ───────── COLOSSIANS — Christ Pantokrator (Col 1:15-20 hymn) ─────────
+  {
+    externalId: 'met-christ-pantokrator',
+    title: 'Icon with Christ Pantokrator',
+    artistSlug: 'anonymous-byzantine',
+    artistName: 'Anonymous (Byzantine icon tradition)',
+    wikimediaFile: 'Icon with Christ Pantokrator MET DP268289.jpg',
+    year: 1300, medium: 'Tempera on panel with gold ground',
+    bookSlug: 'colossians', chapter: 1, verseStart: 15, verseEnd: 20, sceneSlug: 'teaching',
+    description: 'The Pantokrator ("ruler of all") icon visualizes the Colossian hymn — Christ as the image of the invisible God in whom all things hold together.',
+  },
+
+  // ───────── 1 JOHN ─────────
+  {
+    externalId: 'john-theologian-cretan',
+    title: 'Saint John the Theologian (Cretan school)',
+    artistSlug: 'andreas-ritsos',
+    artistName: 'Andreas Ritsos',
+    artistBirthYear: 1422, artistDeathYear: 1492,
+    artistNationality: 'Greek (Cretan)',
+    artistBio: 'Greek icon painter of the Cretan school, active in Crete and Venice.',
+    wikimediaFile: 'Saint Apostle and Evangelist John the Theologian. Icon of the Cretan school. 1449 - 1450. Andreas Ritsos.jpg',
+    year: 1450, medium: 'Tempera on panel',
+    bookSlug: '1-john', chapter: 1, verseStart: 1, verseEnd: 4, sceneSlug: 'apostles',
+  },
+
+  // ───────── 2 JOHN ─────────
+  {
+    externalId: 'john-theologian-in-silence',
+    title: 'Holy Apostle John the Theologian in Silence',
+    artistSlug: 'anonymous-russian-icon',
+    artistName: 'Anonymous (Russian icon tradition)',
+    wikimediaFile: 'Holy Apostle and Evangelist John the Theologian in silence. Icon. Russia, 1770s.jpg',
+    year: 1775, medium: 'Tempera on panel',
+    bookSlug: '2-john', chapter: 1, verseStart: 1, verseEnd: 13, sceneSlug: 'apostles',
+  },
+
+  // ───────── 3 JOHN ─────────
+  {
+    externalId: 'death-of-john-the-theologian',
+    title: 'The Death of the Holy Apostle and Evangelist John the Theologian',
+    artistSlug: 'anonymous-greek-icon',
+    artistName: 'Anonymous (Greek icon tradition)',
+    wikimediaFile: 'The Death of the Holy Apostle and Evangelist John the Theologian. Icon. Greece.jpg',
+    year: 1600, medium: 'Tempera on panel',
+    bookSlug: '3-john', chapter: 1, verseStart: 13, verseEnd: 14, sceneSlug: 'apostles',
+  },
+
+  // ───────── PENITENTIAL PSALMS / DAVID REPENTANT ─────────
+  // Psalm 51 (Miserere)
+  {
+    externalId: 'fouquet-david-penitent',
+    title: 'David Kneeling in Penitence (Hours of Étienne Chevalier)',
+    artistSlug: 'jean-fouquet',
+    artistName: 'Jean Fouquet',
+    artistBirthYear: 1420, artistDeathYear: 1481,
+    artistNationality: 'French',
+    artistBio: 'French painter and miniaturist of the early Renaissance; court painter to Charles VII and Louis XI.',
+    artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Jean_Fouquet',
+    wikimediaFile: 'David kneeling in penitence - Hours of Etienne Chevalier (c.1452-1460) - BL Add MS 37421.jpg',
+    year: 1455, medium: 'Tempera and gold on parchment',
+    bookSlug: 'psalms', chapter: 51, verseStart: 1, verseEnd: 12, sceneSlug: 'wisdom',
+  },
+  // Psalm 38
+  {
+    externalId: 'tickhill-psalm-38',
+    title: 'Tickhill Psalter, Psalm 38',
+    artistSlug: 'tickhill-psalter-master',
+    artistName: 'Master of the Tickhill Psalter',
+    artistNationality: 'English (Gothic)',
+    artistBio: 'Anonymous early-14th-century English illuminator (East Anglian school) responsible for the Tickhill Psalter, NYPL Spencer MS 26.',
+    artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Tickhill_Psalter',
+    wikimediaFile: 'Tickhill.Psalm38.jpg',
+    year: 1310, medium: 'Tempera and gold on parchment',
+    bookSlug: 'psalms', chapter: 38, verseStart: 1, verseEnd: 22, sceneSlug: 'suffering',
+  },
+  // Psalm 130 (De Profundis)
+  {
+    externalId: 'harley-603-de-profundis',
+    title: 'Harley Psalter, De Profundis (fol. 67v)',
+    artistSlug: 'harley-603-master', artistName: 'Master of the Harley Psalter',
+    wikimediaFile: 'Harley ms 603 f067v.jpg',
+    year: 1010, medium: 'Pen drawing on parchment',
+    // Vulgate Ps 129 = Hebrew Ps 130
+    bookSlug: 'psalms', chapter: 130, verseStart: 1, verseEnd: 8, sceneSlug: 'suffering',
+  },
+  // Psalter of Eleanor of Aquitaine — late psalter folio
+  {
+    externalId: 'eleanor-aquitaine-psalter-148r',
+    title: 'Psalter of Eleanor of Aquitaine, fol. 148r',
+    artistSlug: 'eleanor-psalter-master',
+    artistName: 'Master of the Psalter of Eleanor of Aquitaine',
+    artistNationality: 'French (Gothic)',
+    artistBio: 'Anonymous late 12th-century French illuminator responsible for the Psalter of Eleanor of Aquitaine (KB 76 F 13).',
+    wikimediaFile: 'Psalter of Eleanor of Aquitaine (ca. 1185) - KB 76 F 13, folium 148r.jpg',
+    year: 1185, medium: 'Tempera and gold on parchment',
+    // f.148r is in the late-psalter range
+    bookSlug: 'psalms', chapter: 121, verseStart: 1, verseEnd: 8, sceneSlug: 'wisdom',
+  },
+
+  // ───────── HANS MEMLING — Bathsheba (2 Samuel 11) ─────────
+  {
+    externalId: 'memling-bathsheba',
+    title: 'Bathsheba',
+    artistSlug: 'hans-memling',
+    artistName: 'Hans Memling',
+    wikimediaFile: 'Hans Memling - Bathsheba - WGA14921.jpg',
+    year: 1485, medium: 'Oil on panel',
+    bookSlug: '2-samuel', chapter: 11, verseStart: 2, verseEnd: 5, sceneSlug: 'david',
+  },
 ];
