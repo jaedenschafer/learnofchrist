@@ -1,0 +1,205 @@
+/* Compact filter bar shown above the showcase carousels on /art.
+   Airbnb-style: one slim pill row, no sea of bubbles. The full
+   faceted-search UI lives behind the "All filters" link → /art/browse. */
+
+.art-filter-bar {
+  margin: 1.25rem 0 2.5rem;
+}
+
+.art-filter-bar__row {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  padding: 0.375rem;
+  background: var(--color-surface, #fff);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 999px;
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.04),
+    0 8px 24px rgba(20, 14, 8, 0.06);
+}
+
+.art-filter-bar__field {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1rem;
+  position: relative;
+  cursor: pointer;
+  border-radius: 999px;
+  transition: background-color 0.15s ease;
+  flex-shrink: 0;
+}
+
+.art-filter-bar__field:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.art-filter-bar__field + .art-filter-bar__field::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 18%;
+  bottom: 18%;
+  width: 1px;
+  background: rgba(0, 0, 0, 0.08);
+}
+.art-filter-bar__field:hover + .art-filter-bar__field::before,
+.art-filter-bar__field + .art-filter-bar__field:hover::before {
+  background: transparent;
+}
+
+.art-filter-bar__field svg {
+  width: 16px;
+  height: 16px;
+  color: var(--color-secondary-label);
+  flex-shrink: 0;
+}
+
+.art-filter-bar__label {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-tertiary-label);
+}
+
+/* Search field — flexes to fill, plain input */
+.art-filter-bar__field--search {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.art-filter-bar__field--search input {
+  flex: 1 1 auto;
+  min-width: 0;
+  border: none;
+  background: transparent;
+  font-size: 0.9375rem;
+  font-family: inherit;
+  color: var(--color-label);
+  padding: 0;
+  outline: none;
+}
+.art-filter-bar__field--search input::placeholder {
+  color: var(--color-tertiary-label);
+}
+
+/* Select fields — kicker label + native select that's styled flush */
+.art-filter-bar__field--select {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.0625rem;
+  padding: 0.5rem 1.125rem;
+}
+.art-filter-bar__field--select select {
+  appearance: none;
+  border: none;
+  background: transparent;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--color-label);
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  /* Hide the native arrow — the field itself looks like a pill */
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8' fill='none' stroke='%23999'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1.6' d='M1 1l5 5 5-5'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 0 center;
+  padding-right: 1.125rem;
+}
+
+/* "All filters" CTA — the only colored pill in the bar */
+.art-filter-bar__all {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.125rem;
+  background: var(--color-label, #1D1D1F);
+  color: var(--color-surface, #fff);
+  border-radius: 999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  flex-shrink: 0;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+  margin-left: 0.375rem;
+}
+.art-filter-bar__all:hover {
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+.art-filter-bar__all svg {
+  width: 14px;
+  height: 14px;
+  color: currentColor;
+}
+
+.art-filter-bar__meta {
+  margin: 0.625rem 0 0;
+  padding: 0 0.5rem;
+  text-align: right;
+  font-size: 0.75rem;
+  color: var(--color-tertiary-label);
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+}
+
+/* Mobile — wrap the row, drop the dividers */
+@media (max-width: 720px) {
+  .art-filter-bar__row {
+    flex-wrap: wrap;
+    border-radius: 18px;
+    padding: 0.5rem;
+    gap: 0.25rem;
+  }
+  .art-filter-bar__field--search {
+    width: 100%;
+    border-radius: 14px;
+    background: rgba(0, 0, 0, 0.03);
+  }
+  .art-filter-bar__field--select {
+    flex: 1 1 calc(50% - 4rem);
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 14px;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .art-filter-bar__field--select .art-filter-bar__label {
+    display: none;
+  }
+  .art-filter-bar__field + .art-filter-bar__field::before {
+    display: none;
+  }
+  .art-filter-bar__all {
+    margin-left: auto;
+  }
+  .art-filter-bar__all span {
+    display: none;
+  }
+  .art-filter-bar__all {
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    justify-content: center;
+  }
+}
+
+/* Dark mode */
+html[data-reader-theme="dark"] .art-filter-bar__row {
+  background: var(--color-surface, #1c1c1e);
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.3),
+    0 8px 24px rgba(0, 0, 0, 0.4);
+}
+html[data-reader-theme="dark"] .art-filter-bar__field:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+html[data-reader-theme="dark"] .art-filter-bar__field + .art-filter-bar__field::before {
+  background: rgba(255, 255, 255, 0.1);
+}
+html[data-reader-theme="dark"] .art-filter-bar__all {
+  background: #fff;
+  color: #1c1c1e;
+}

@@ -388,6 +388,108 @@ html[data-reader-theme="dark"] .btn-outline:hover {
 .artwork-detail-figure .art-actions__btn {
   opacity: 1;
 }
+
+/* ─────────────────────────────────────────────────────────────────────
+   /art showcase landing page
+   ───────────────────────────────────────────────────────────────────── */
+
+.art-showcase-hero {
+  padding: 1.5rem 0.25rem 0;
+  margin-bottom: 0.5rem;
+}
+.art-showcase-hero__kicker {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-tertiary-label);
+  margin: 0 0 0.875rem;
+}
+.art-showcase-hero__kicker > span:first-child {
+  color: var(--color-secondary-label);
+}
+.art-showcase-hero__title {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-size: clamp(1.875rem, 4.5vw, 3rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  color: var(--color-label);
+  margin: 0 0 0.875rem;
+  max-width: 22ch;
+}
+.art-showcase-hero__dek {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.5;
+  color: var(--color-secondary-label);
+  margin: 0;
+  max-width: 64ch;
+}
+
+@media (min-width: 720px) {
+  .art-showcase-hero {
+    padding: 2.5rem 0 1rem;
+  }
+}
+
+/* "Browse by book" chips at the bottom of the showcase */
+.art-showcase-byBook {
+  margin: 2.5rem 0 4rem;
+  padding: 2rem 1rem;
+  background: rgba(120, 120, 128, 0.04);
+  border-radius: 20px;
+}
+.art-showcase-byBook__title {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-label);
+  margin: 0 0 0.25rem;
+}
+.art-showcase-byBook__subtitle {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+  font-size: 0.9375rem;
+  color: var(--color-secondary-label);
+  margin: 0 0 1.25rem;
+}
+.art-showcase-byBook__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.art-showcase-byBook__chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 0.875rem;
+  height: 34px;
+  border-radius: 999px;
+  background: var(--color-surface, #fff);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--color-label);
+  text-decoration: none;
+  transition: border-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
+}
+.art-showcase-byBook__chip:hover {
+  border-color: var(--color-primary, #007AFF);
+  color: var(--color-primary, #007AFF);
+  transform: translateY(-1px);
+}
+html[data-reader-theme="dark"] .art-showcase-byBook {
+  background: rgba(255, 255, 255, 0.04);
+}
+html[data-reader-theme="dark"] .art-showcase-byBook__chip {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.1);
+}
 .art-actions__btn:hover {
   background: rgba(20, 14, 8, 0.75);
 }

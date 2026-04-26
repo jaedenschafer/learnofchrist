@@ -1,0 +1,133 @@
+/* Showcase carousel row used on /art. */
+
+.art-row {
+  margin: 0 0 3.25rem;
+}
+
+.art-row__head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0 0 1rem;
+  padding: 0 0.25rem;
+}
+
+.art-row__head-text {
+  min-width: 0;
+}
+
+.art-row__kicker {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-tertiary-label);
+  margin: 0 0 0.25rem;
+}
+
+.art-row__title {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-size: 1.625rem;
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--color-label);
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.art-row__subtitle {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+  font-size: 0.9375rem;
+  color: var(--color-secondary-label);
+  margin: 0.375rem 0 0;
+  line-height: 1.45;
+  max-width: 56ch;
+}
+
+.art-row__see-all {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-primary, #007AFF);
+  text-decoration: none;
+  padding: 0.375rem 0;
+  white-space: nowrap;
+  transition: opacity 0.15s ease;
+}
+.art-row__see-all:hover {
+  opacity: 0.7;
+}
+
+.art-row__rail {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.875rem;
+  padding: 0.5rem 1rem 1.25rem;
+  margin: 0 -1rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-padding-left: 1rem;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.18) transparent;
+}
+
+/* Quiet the scrollbar on WebKit until the rail is being interacted with. */
+.art-row__rail::-webkit-scrollbar {
+  height: 6px;
+}
+.art-row__rail::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.18);
+  border-radius: 999px;
+}
+.art-row__rail::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.art-row__slide {
+  flex: 0 0 220px;
+  scroll-snap-align: start;
+  width: 220px;
+}
+
+/* Tablet+ — slightly wider cards, more comfortable rhythm */
+@media (min-width: 720px) {
+  .art-row {
+    margin-bottom: 4rem;
+  }
+  .art-row__title {
+    font-size: 1.875rem;
+  }
+  .art-row__rail {
+    gap: 1rem;
+    padding: 0.5rem 0 1.25rem;
+    margin: 0;
+  }
+  .art-row__slide {
+    flex-basis: 260px;
+    width: 260px;
+  }
+}
+
+/* Desktop — bigger cards, tighter rhythm */
+@media (min-width: 1080px) {
+  .art-row__slide {
+    flex-basis: 280px;
+    width: 280px;
+  }
+}
+
+/* Dark mode polish */
+html[data-reader-theme="dark"] .art-row__rail {
+  scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}
+html[data-reader-theme="dark"] .art-row__rail::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+}

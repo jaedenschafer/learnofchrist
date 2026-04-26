@@ -355,6 +355,89 @@ export async function getArtworksForBook(
     .sort((a, b) => a.chapter - b.chapter);
 }
 
+/**
+ * Fetch up to `limit` approved, painted (non-manuscript) artworks from any
+ * of the given source slugs. Powers the curated showcase rows on /art —
+ * each row is "give me the best from this group of artists/sources" and
+ * we want a clean spread, so we order by recently-added (which roughly
+ * means "the most recent ingest of that style").
+ *
+ * Manuscript-page tagged artworks (Vivian Bible, Codex Amiatinus,
+ * Stuttgart Psalter parchment scans) are excluded by default — those have
+ * their own dedicated row. Pass `includeManuscripts: true` to get them.
+ */
+export async function getArtworksBySources(
+  sources: string[],
+  limit: number,
+  opts: { includeManuscripts?: boolean } = {},
+): Promise<ArtworkWithArtist[]> {
+  if (sources.length === 0) return [];
+  const { data, error } = await supabaseServer
+    .from('artworks')
+    .select(`
+      id, slug, title, artist_id, year, medium, source, source_url,
+      external_id, image_url, thumbnail_url,
+      thumbnail_256_url, thumbnail_800_url, dominant_color,
+      width, height,
+      license, license_note, description, status, tags,
+      artist:artists ( id, slug, name, birth_year, death_year, nationality, bio, wikipedia_url )
+    `)
+    .in('source', sources)
+    .eq('status', 'published')
+    .eq('moderation_status', 'approved')
+    .order('created_at', { ascending: false })
+    .limit(limit * 4); // overfetch so the manuscript-filter step still has enough
+
+  if (error) {
+    console.error('Error fetching artworks by sources:', error);
+    return [];
+  }
+
+  type Raw = Artwork & { artist: Artist | Artist[] | null };
+  const out: ArtworkWithArtist[] = [];
+  for (const row of (data ?? []) as Raw[]) {
+    const isManuscript = row.tags?.includes('manuscript-page') ?? false;
+    if (isManuscript && !opts.includeManuscripts) continue;
+    if (!isManuscript && opts.includeManuscripts === false) continue;
+    out.push({ ...row, artist: unwrap(row.artist) });
+    if (out.length >= limit) break;
+  }
+  return out;
+}
+
+/**
+ * Fetch artworks where `tags` contains 'manuscript-page' — used by the
+ * Ancient Manuscripts row on the showcase. These are the Vivian Bible,
+ * Codex Amiatinus, and Stuttgart Psalter folios.
+ */
+export async function getManuscriptArtworks(limit: number): Promise<ArtworkWithArtist[]> {
+  const { data, error } = await supabaseServer
+    .from('artworks')
+    .select(`
+      id, slug, title, artist_id, year, medium, source, source_url,
+      external_id, image_url, thumbnail_url,
+      thumbnail_256_url, thumbnail_800_url, dominant_color,
+      width, height,
+      license, license_note, description, status, tags,
+      artist:artists ( id, slug, name, birth_year, death_year, nationality, bio, wikipedia_url )
+    `)
+    .contains('tags', ['manuscript-page'])
+    .eq('status', 'published')
+    .eq('moderation_status', 'approved')
+    .order('year', { ascending: true })
+    .limit(limit);
+
+  if (error) {
+    console.error('Error fetching manuscript artworks:', error);
+    return [];
+  }
+  type Raw = Artwork & { artist: Artist | Artist[] | null };
+  return (data ?? []).map((row) => {
+    const r = row as Raw;
+    return { ...r, artist: unwrap(r.artist) };
+  });
+}
+
 /** List all books that have at least one artwork — drives the /art directory. */
 export async function getBooksWithArt(): Promise<BookRecord[]> {
   const { data: refs, error } = await supabaseServer

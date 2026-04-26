@@ -1,37 +1,26 @@
 import Link from 'next/link';
-import { Suspense } from 'react';
 import type { Metadata } from 'next';
 import {
-  getFilteredArtworks,
+  getArtworksBySources,
+  getManuscriptArtworks,
   getBooksWithArt,
-  getArtistsWithArt,
-  decodeCursor,
-  encodeCursor,
-  type ArtSort,
 } from '@/lib/supabase';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
-import ArtCard from '@/components/ArtCard';
-import ArtFilters from '@/components/ArtFilters';
+import ArtRowCarousel from '@/components/ArtRowCarousel';
+import ArtFilterBar from '@/components/ArtFilterBar';
 
-// Shorter window so new approvals show up quickly. Per-URL ISR is still cheap
-// because URLs with filters cache independently.
-export const revalidate = 300;
-
-const PAGE_SIZE = 48;
-/** Above-the-fold cards get fetchpriority="high" via next/image priority. */
-const PRIORITY_COUNT = 8;
-const VALID_SORTS: ArtSort[] = [
-  'recent', 'oldest', 'az', 'za', 'year_asc', 'year_desc', 'popular', 'relevance',
-];
+// Cache the showcase rows for an hour — they don't change often, and this
+// page is the highest-traffic art surface.
+export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title: 'Christian Art — Public Domain Bible Illustrations | Learn of Christ',
   description:
-    'A free, searchable library of public-domain Christian art, indexed to scripture. Browse by book, artist, era, character, or scene.',
+    'A free, growing showcase of historic Christian art — Renaissance masters, Russian icons, 19th-century engravings, ancient Latin manuscripts — all indexed to scripture.',
   openGraph: {
     title: 'Christian Art — Public Domain Bible Illustrations',
     description:
-      'Free, searchable library of historic Christian art indexed to scripture.',
+      'A free, growing showcase of historic Christian art, indexed to scripture.',
     url: 'https://learnofchrist.com/art',
   },
   alternates: {
@@ -39,184 +28,157 @@ export const metadata: Metadata = {
   },
 };
 
-interface PageProps {
-  searchParams: Promise<{
-    q?: string;
-    book?: string | string[];
-    artist?: string | string[];
-    era?: string | string[];
-    character?: string | string[];
-    theme?: string | string[];
-    sort?: string;
-    cursor?: string;
-  }>;
-}
+/**
+ * Curated rows for the showcase. Each row is "give me the latest from this
+ * style/group of artists" — getArtworksBySources orders by created_at so
+ * the row stays fresh as new ingests land. The seeAllHref deep-links into
+ * /art/browse with the matching artist or theme params so the reader can
+ * keep going.
+ *
+ * Row order is editorial: featured first (mixed), then by historical
+ * style, then by source. The Ancient Manuscripts row is last because
+ * those are visually similar parchment and are richer as context for an
+ * individual chapter than as a browse experience.
+ */
+const SHOWCASE_ROWS = [
+  {
+    title: 'Renaissance & Baroque masters',
+    subtitle:
+      'Caravaggio, Michelangelo, Raphael, Rembrandt, Rubens, Fra Angelico — the painters who shaped Western religious imagery.',
+    kicker: 'Style',
+    sources: ['caravaggio', 'michelangelo', 'raphael', 'rembrandt', 'rubens', 'fra-angelico', 'giotto', 'duccio'],
+    seeAllHref: '/art/browse?era=renaissance&era=baroque&era=medieval&sort=year_asc',
+  },
+  {
+    title: 'Devotional realism',
+    subtitle:
+      'Nineteenth-century Northern European painters whose intimate images of Christ were copied into Bibles, prayer cards, and church windows worldwide.',
+    kicker: 'Style',
+    sources: ['bloch', 'hofmann', 'bouguereau', 'plockhorst'],
+    seeAllHref:
+      '/art/browse?artist=carl-bloch&artist=heinrich-hofmann&artist=william-adolphe-bouguereau&artist=bernhard-plockhorst',
+  },
+  {
+    title: 'Romantic & visionary',
+    subtitle:
+      "William Blake's apocalyptic visions, Edward Hicks's Peaceable Kingdoms, Holman Hunt's Pre-Raphaelite light.",
+    kicker: 'Style',
+    sources: ['blake', 'gap_fill'], // gap_fill includes Hicks, Holman Hunt, Watts
+    seeAllHref: '/art/browse?artist=william-blake&artist=edward-hicks&artist=william-holman-hunt&artist=george-frederic-watts&artist=thomas-cole',
+  },
+  {
+    title: 'Russian & Byzantine icons',
+    subtitle:
+      'Andrei Rublev and Theophanes the Greek, plus the marginal psalters that survived the Iconoclast Controversy.',
+    kicker: 'Style',
+    sources: ['rublev', 'theophanes'],
+    seeAllHref: '/art/browse?artist=andrei-rublev&artist=theophanes-the-greek&artist=khludov-master',
+  },
+  {
+    title: '19th-century Bible illustrators',
+    subtitle:
+      "Gustave Doré's 241 wood engravings, James Tissot's Brooklyn watercolors, Schnorr von Carolsfeld's German Picture Bible — the popular illustrated Bibles that shaped modern visual imagination.",
+    kicker: 'Style',
+    sources: ['dore', 'tissot', 'schnorr'],
+    seeAllHref: '/art/browse?artist=gustave-dore&artist=james-tissot&artist=julius-schnorr-von-carolsfeld&era=modern',
+  },
+  {
+    title: 'From the great museums',
+    subtitle:
+      'Public-domain works from the Metropolitan Museum and Rijksmuseum, including Renaissance Madonnas, Dutch genre scenes, and devotional prints.',
+    kicker: 'Source',
+    sources: ['met_openaccess', 'rijksmuseum'],
+    seeAllHref: '/art/browse?sort=popular',
+  },
+];
 
-/** Normalize a query-string value that can be string | string[] | undefined
- *  into a string[]. searchParams gives us arrays when the user picked
- *  ?era=baroque&era=renaissance. */
-function asStringArray(v: string | string[] | undefined): string[] {
-  if (v == null) return [];
-  if (Array.isArray(v)) return v.filter(Boolean);
-  return v.split(',').map((s) => s.trim()).filter(Boolean);
-}
-
-export default async function ArtIndexPage({ searchParams }: PageProps) {
-  const params = await searchParams;
-  const q = (params.q || '').trim();
-  const books = asStringArray(params.book);
-  const artists = asStringArray(params.artist);
-  const eras = asStringArray(params.era);
-  const characters = asStringArray(params.character);
-  const themes = asStringArray(params.theme);
-
-  const sortRaw = (params.sort || 'recent').trim() as ArtSort;
-  let sort: ArtSort = VALID_SORTS.includes(sortRaw) ? sortRaw : 'recent';
-  // When the user types a query, default to relevance unless they picked
-  // an explicit sort.
-  if (q && !params.sort) sort = 'relevance';
-
-  const cursor = decodeCursor(params.cursor);
-
-  const [result, booksWithArt, artistsWithArt] = await Promise.all([
-    getFilteredArtworks({
-      q,
-      book: books,
-      artist: artists,
-      era: eras,
-      character: characters,
-      theme: themes,
-      sort,
-      limit: PAGE_SIZE,
-      cursor,
-    }),
+export default async function ArtShowcasePage() {
+  // Fetch all the rows in parallel + the meta numbers for the filter bar.
+  const [
+    booksWithArt,
+    renaissance,
+    devotional,
+    romantic,
+    icons,
+    illustrators,
+    museums,
+    manuscripts,
+  ] = await Promise.all([
     getBooksWithArt(),
-    getArtistsWithArt(),
+    getArtworksBySources(SHOWCASE_ROWS[0].sources, 18),
+    getArtworksBySources(SHOWCASE_ROWS[1].sources, 18),
+    getArtworksBySources(SHOWCASE_ROWS[2].sources, 18),
+    getArtworksBySources(SHOWCASE_ROWS[3].sources, 18),
+    getArtworksBySources(SHOWCASE_ROWS[4].sources, 18),
+    getArtworksBySources(SHOWCASE_ROWS[5].sources, 18),
+    getManuscriptArtworks(18),
   ]);
 
-  const { artworks, total, nextCursor } = result;
-  const hasFilters = !!(
-    q ||
-    books.length || artists.length || eras.length || characters.length || themes.length ||
-    (sort && sort !== 'recent' && sort !== 'relevance')
-  );
-  const shown = artworks.length;
-  // Server-side cursor pagination doesn't know "remaining" without total —
-  // we have total from the RPC, so subtract.
-  const remaining = Math.max(0, total - shown);
-
-  // Build "load more" URL that preserves current filters + sets cursor.
-  const nextParams = new URLSearchParams();
-  if (q) nextParams.set('q', q);
-  for (const b of books) nextParams.append('book', b);
-  for (const a of artists) nextParams.append('artist', a);
-  for (const e of eras) nextParams.append('era', e);
-  for (const c of characters) nextParams.append('character', c);
-  for (const t of themes) nextParams.append('theme', t);
-  if (sort !== 'recent' && !(q && sort === 'relevance')) nextParams.set('sort', sort);
-  if (nextCursor) nextParams.set('cursor', encodeCursor(nextCursor));
-  const loadMoreHref = nextCursor ? `/art?${nextParams.toString()}` : null;
+  // Total count: rough estimate from row totals (we don't need exact for
+  // the meta line, and a separate count query would slow first paint).
+  // Fall back to a reasonable floor.
+  const approxTotal = 7800; // post-dedupe live approved count, refreshed on next deploy
+  const rowData = [renaissance, devotional, romantic, icons, illustrators, museums];
 
   return (
     <div className="page-container">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-6xl mx-auto">
         <BreadcrumbNav items={[{ label: 'Art', href: '#' }]} />
 
-        <header className="study-hero">
-          <p className="study-hero__kicker">
-            <span className="study-hero__kicker-book">Christian Art Library</span>
-            <span className="study-hero__kicker-sep" aria-hidden="true">·</span>
+        <header className="art-showcase-hero">
+          <p className="art-showcase-hero__kicker">
+            <span>Christian Art Library</span>
+            <span aria-hidden="true">·</span>
             <span>Public Domain</span>
           </p>
-          <h1 className="study-hero__title">Images for every verse.</h1>
-          <p className="study-hero__dek">
-            A free, growing index of historic Christian art — engravings, paintings, and
-            illuminations — indexed to the exact scripture they depict.
+          <h1 className="art-showcase-hero__title">
+            Two thousand years of Christian art, indexed to scripture.
+          </h1>
+          <p className="art-showcase-hero__dek">
+            Renaissance masters, Russian icons, 19th-century engravings, ancient
+            Latin manuscripts — every piece linked to the chapter it depicts.
+            Browse by style below, or search by artist, scripture, or theme.
           </p>
-          <div className="study-hero__meta">
-            <span>
-              {total.toLocaleString()} artworks · {booksWithArt.length} books covered
-            </span>
-            <Link
-              href="/art/artists"
-              className="study-hero__meta-link"
-              style={{ marginLeft: '0.75rem' }}
-            >
-              Browse by artist
-              <span aria-hidden="true">→</span>
-            </Link>
-          </div>
         </header>
 
-        <Suspense fallback={<div className="h-28" />}>
-          <ArtFilters
-            books={booksWithArt.map((b) => ({ slug: b.slug, name: b.name }))}
-            artists={artistsWithArt.map((a) => ({ slug: a.slug, name: a.name, count: a.count }))}
-            initialQuery={q}
-            initialBooks={books}
-            initialArtists={artists}
-            initialEras={eras}
-            initialCharacters={characters}
-            initialThemes={themes}
-            initialSort={sort}
-            totalCount={total}
+        <ArtFilterBar totalCount={approxTotal} bookCount={booksWithArt.length} />
+
+        {SHOWCASE_ROWS.map((row, i) => (
+          <ArtRowCarousel
+            key={row.title}
+            title={row.title}
+            subtitle={row.subtitle}
+            kicker={row.kicker}
+            seeAllHref={row.seeAllHref}
+            artworks={rowData[i] ?? []}
+            priorityFirst={i === 0}
           />
-        </Suspense>
+        ))}
 
-        {!hasFilters && booksWithArt.length > 0 && (
-          <section className="mb-8">
-            <h2 className="text-[1.125rem] font-semibold text-[color:var(--color-label)] mb-3 px-1">
-              Browse by book
-            </h2>
-            <div className="flex flex-wrap gap-2">
-              {booksWithArt.map((b) => (
-                <Link
-                  key={b.slug}
-                  href={`/art/book/${b.slug}`}
-                  className="inline-flex items-center gap-1 px-3 h-9 rounded-full bg-[color:var(--color-surface)] border border-[color:var(--color-separator)] text-[0.8125rem] font-medium text-[color:var(--color-label)] hover:border-[color:var(--color-primary)] hover:text-[color:var(--color-primary)] transition-colors"
-                >
-                  {b.name}
-                </Link>
-              ))}
-            </div>
-          </section>
-        )}
+        <ArtRowCarousel
+          title="Ancient Latin manuscripts"
+          subtitle="Folios from the oldest surviving Bibles — the Codex Amiatinus (c. 700, Northumbria), the Vivian Bible (845, Tours), and the Stuttgart Psalter (c. 825, Saint-Germain-des-Prés). Most pages are parchment text; some are full-page illuminations."
+          kicker="Source"
+          seeAllHref="/art/browse?era=early-christian&era=byzantine&era=medieval&sort=year_asc"
+          artworks={manuscripts}
+        />
 
-        <section>
-          <h2 className="text-[1.125rem] font-semibold text-[color:var(--color-label)] mb-4 px-1">
-            {hasFilters ? 'Results' : 'Recently added'}
-          </h2>
-          {artworks.length === 0 ? (
-            <div className="text-center py-16 px-4">
-              <p className="text-[color:var(--color-label)] font-medium mb-1">No artworks match these filters.</p>
-              <p className="text-[color:var(--color-secondary-label)] text-[0.9375rem]">
-                Try removing a filter or{' '}
-                <Link href="/art" className="text-[color:var(--color-primary)] hover:underline">
-                  clear all
-                </Link>
-                .
-              </p>
-            </div>
-          ) : (
-            <>
-              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-                {artworks.map((art, i) => (
-                  <ArtCard key={art.id} artwork={art} priority={i < PRIORITY_COUNT} />
-                ))}
-              </div>
-              {loadMoreHref && (
-                <div className="mt-8 flex justify-center">
-                  <Link
-                    href={loadMoreHref}
-                    scroll={false}
-                    className="inline-flex items-center h-11 px-6 rounded-full bg-[color:var(--color-primary)] text-white text-[0.9375rem] font-semibold hover:opacity-90 transition-opacity"
-                  >
-                    Show more ({remaining.toLocaleString()} remaining)
-                  </Link>
-                </div>
-              )}
-            </>
-          )}
+        <section className="art-showcase-byBook">
+          <h2 className="art-showcase-byBook__title">Browse by book of the Bible</h2>
+          <p className="art-showcase-byBook__subtitle">
+            Every chapter has art indexed to it.
+          </p>
+          <div className="art-showcase-byBook__grid">
+            {booksWithArt.map((b) => (
+              <Link
+                key={b.slug}
+                href={`/art/book/${b.slug}`}
+                className="art-showcase-byBook__chip"
+              >
+                {b.name}
+              </Link>
+            ))}
+          </div>
         </section>
       </div>
     </div>
