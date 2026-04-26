@@ -24,14 +24,19 @@ import { GENESIS_1 } from './genesis-1';
 import { GENESIS_2 } from './genesis-2';
 import { GENESIS_3 } from './genesis-3';
 import { GENESIS_4 } from './genesis-4';
+import { GENESIS_5 } from './genesis-5';
 import { GENESIS_6 } from './genesis-6';
 import { GENESIS_7 } from './genesis-7';
 import { GENESIS_8 } from './genesis-8';
 import { GENESIS_9 } from './genesis-9';
+import { GENESIS_10 } from './genesis-10';
 import { GENESIS_11 } from './genesis-11';
 import { GENESIS_12 } from './genesis-12';
+import { GENESIS_13 } from './genesis-13';
+import { GENESIS_14 } from './genesis-14';
 import { GENESIS_15 } from './genesis-15';
 import { GENESIS_16 } from './genesis-16';
+import { GENESIS_18 } from './genesis-18';
 import { GENESIS_19 } from './genesis-19';
 import { GENESIS_20 } from './genesis-20';
 import { GENESIS_21 } from './genesis-21';
@@ -49,14 +54,19 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'genesis/2': GENESIS_2,
   'genesis/3': GENESIS_3,
   'genesis/4': GENESIS_4,
+  'genesis/5': GENESIS_5,
   'genesis/6': GENESIS_6,
   'genesis/7': GENESIS_7,
   'genesis/8': GENESIS_8,
   'genesis/9': GENESIS_9,
+  'genesis/10': GENESIS_10,
   'genesis/11': GENESIS_11,
   'genesis/12': GENESIS_12,
+  'genesis/13': GENESIS_13,
+  'genesis/14': GENESIS_14,
   'genesis/15': GENESIS_15,
   'genesis/16': GENESIS_16,
+  'genesis/18': GENESIS_18,
   'genesis/19': GENESIS_19,
   'genesis/20': GENESIS_20,
   'genesis/21': GENESIS_21,
