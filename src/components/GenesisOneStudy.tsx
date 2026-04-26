@@ -134,6 +134,30 @@ export default function GenesisOneStudy({ artworks = [] }: GenesisOneStudyProps)
 
   const [versesByChapter, setVersesByChapter] = useState<Record<number, Verse[]>>({});
 
+  // Dismissible "A note on translations" intro card.
+  // Initial render is hidden to avoid an SSR/CSR flash of the box for users
+  // who already dismissed it; we flip it visible only after we read
+  // localStorage on mount.
+  const [kjvNoteVisible, setKjvNoteVisible] = useState(false);
+  useEffect(() => {
+    try {
+      if (localStorage.getItem('loc-kjv-note-dismissed') !== '1') {
+        setKjvNoteVisible(true);
+      }
+    } catch {
+      // localStorage blocked (private mode, etc.) — show the note as fallback
+      setKjvNoteVisible(true);
+    }
+  }, []);
+  const dismissKjvNote = () => {
+    setKjvNoteVisible(false);
+    try {
+      localStorage.setItem('loc-kjv-note-dismissed', '1');
+    } catch {
+      // ignore — the user just won't have persistence
+    }
+  };
+
   useEffect(() => {
     if (isKjv) {
       // KJV scripture is hardcoded as the source of truth — nothing to fetch.
@@ -296,9 +320,20 @@ export default function GenesisOneStudy({ artworks = [] }: GenesisOneStudyProps)
         <p className="tap-hint">
           Tap any highlighted phrase to jump to the commentary that unpacks it.
         </p>
-        <p className="kjv-note" role="note">
-          <strong>A note on translations.</strong>{' '}The commentary, highlights, and Hebrew callouts below are written around the King James Version&apos;s wording. Use the translation switcher anytime — the scripture blocks will swap to your chosen translation, while the commentary stays anchored to KJV phrasing.
-        </p>
+        {kjvNoteVisible && (
+          <p className="kjv-note" role="note">
+            <strong>A note on translations.</strong>{' '}The commentary, highlights, and Hebrew callouts below are written around the King James Version&apos;s wording. Use the translation switcher anytime — the scripture blocks will swap to your chosen translation, while the commentary stays anchored to KJV phrasing.
+            <label className="kjv-note-dismiss">
+              <input
+                type="checkbox"
+                onChange={(e) => {
+                  if (e.currentTarget.checked) dismissKjvNote();
+                }}
+              />
+              <span>Don&rsquo;t show this again</span>
+            </label>
+          </p>
+        )}
 
         {opener && (
           <InlineArtwork artwork={opener} caption="The Whole Chapter at a Glance" />
