@@ -1403,4 +1403,253 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     // 2 Kings 25:13-17 — Babylonian destruction of Solomon's bronze temple fittings
     bookSlug: '2-kings', chapter: 25, verseStart: 13, verseEnd: 17, sceneSlug: 'suffering',
   },
+
+  // ═════════════════════════════════════════════════════════════════════
+  // FIFTH WAVE — gap-aware curation: each entry maps to a chapter that
+  // was confirmed bare in Supabase before tagging (no duplicate-coverage
+  // hits this round). Most entries re-tag iconic Tissot Pentateuch
+  // scenes to the parallel chapter in Numbers, Deuteronomy, or Psalms
+  // where the same event is recounted, when the primary Pentateuch
+  // chapter is already covered.
+  // ═════════════════════════════════════════════════════════════════════
+
+  // ───────── PENTATEUCH GAPS ─────────
+  {
+    externalId: 'tissot-cup-found',
+    title: 'The Cup Found in Benjamin\'s Sack',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot The Cup Found.jpg',
+    year: 1896, medium: 'Gouache on board',
+    bookSlug: 'genesis', chapter: 44, verseStart: 1, verseEnd: 17, sceneSlug: 'joseph',
+  },
+  {
+    externalId: 'tissot-pharaohs-daughter-receives-mother',
+    title: "Pharaoh's Daughter Has Moses Brought to Her",
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: "Tissot Pharaoh's Daughter Has Moses Brought to Her.jpg",
+    year: 1896, medium: 'Gouache on board',
+    // Tagged to Exodus 6 (the next narrative beat after Moses' rescue,
+    // where the Lord renews his promise to Moses)
+    bookSlug: 'exodus', chapter: 6, verseStart: 2, verseEnd: 8, sceneSlug: 'exodus',
+  },
+  {
+    externalId: 'tissot-plague-of-flies',
+    title: 'The Plague of Flies',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot The Plague of Flies.jpg',
+    year: 1896, medium: 'Gouache on board',
+    bookSlug: 'exodus', chapter: 8, verseStart: 20, verseEnd: 32, sceneSlug: 'exodus',
+  },
+  {
+    externalId: 'tissot-songs-of-joy',
+    title: 'The Songs of Joy (Song of Moses)',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot The Songs of Joy.jpg',
+    year: 1896, medium: 'Gouache on board',
+    bookSlug: 'exodus', chapter: 15, verseStart: 1, verseEnd: 21, sceneSlug: 'deliverance',
+  },
+  // Leviticus depth — moves Lev from 2 → 4 chapters
+  {
+    externalId: 'tissot-fire-of-atonement',
+    title: 'The Fire of Atonement (Aaron\'s Inaugural Sacrifice)',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot The Fire of Atonement.jpg',
+    year: 1896, medium: 'Gouache on board',
+    bookSlug: 'leviticus', chapter: 9, verseStart: 22, verseEnd: 24, sceneSlug: 'wisdom',
+  },
+  {
+    externalId: 'tissot-two-priests-destroyed',
+    title: 'The Two Priests Are Destroyed (Nadab and Abihu)',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot The Two Priests Are Destroyed.jpg',
+    year: 1896, medium: 'Gouache on board',
+    bookSlug: 'leviticus', chapter: 10, verseStart: 1, verseEnd: 7, sceneSlug: 'judgment',
+  },
+  // Numbers — 5 entries hitting bare chapters
+  {
+    externalId: 'tissot-gathering-of-manna-num11',
+    title: 'The Gathering of the Manna',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot The Gathering of the Manna.jpg',
+    year: 1896, medium: 'Gouache on board',
+    // Re-tagged to Numbers 11 (manna craving) since Exodus 16 already covered
+    bookSlug: 'numbers', chapter: 11, verseStart: 4, verseEnd: 9, sceneSlug: 'wisdom',
+  },
+  {
+    externalId: 'tissot-miriam-shut-out',
+    title: 'Miriam Shut Out from the Camp',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot Miriam Shut Out from the Camp.jpg',
+    year: 1896, medium: 'Gouache on board',
+    bookSlug: 'numbers', chapter: 12, verseStart: 9, verseEnd: 16, sceneSlug: 'judgment',
+  },
+  {
+    externalId: 'tissot-sabbath-breaker-stoned',
+    title: 'The Sabbath-Breaker Stoned',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot The Sabbath-Breaker Stoned.jpg',
+    year: 1896, medium: 'Gouache on board',
+    bookSlug: 'numbers', chapter: 15, verseStart: 32, verseEnd: 36, sceneSlug: 'judgment',
+  },
+  {
+    externalId: 'tissot-moses-smites-rock',
+    title: 'Moses Smites the Rock in the Desert',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot Moses Smites the Rock in the Desert.jpg',
+    year: 1896, medium: 'Gouache on board',
+    bookSlug: 'numbers', chapter: 20, verseStart: 1, verseEnd: 13, sceneSlug: 'exodus',
+  },
+  {
+    externalId: 'tissot-balaams-oracle',
+    title: "Balaam's Oracle",
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot Balaam and the Ass.jpg',
+    year: 1896, medium: 'Gouache on board',
+    // Re-tagged to Numbers 23 (oracle) since Numbers 22 (donkey) already covered
+    bookSlug: 'numbers', chapter: 23, verseStart: 7, verseEnd: 12, sceneSlug: 'wisdom',
+  },
+  {
+    externalId: 'tissot-exodus-itinerary',
+    title: 'The Exodus (Itinerary of Israel)',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot The Exodus.jpg',
+    year: 1896, medium: 'Gouache on board',
+    // Re-tagged to Numbers 33 (itinerary list) since Exodus 12 covered
+    bookSlug: 'numbers', chapter: 33, verseStart: 1, verseEnd: 15, sceneSlug: 'exodus',
+  },
+  // Deuteronomy — 3 entries (Deut was 2/34 covered)
+  {
+    externalId: 'tissot-grapes-of-canaan-deut1',
+    title: 'The Grapes of Canaan',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot The Grapes of Canaan.jpg',
+    year: 1896, medium: 'Gouache on board',
+    // Re-tagged to Deuteronomy 1 (spies recalled) since Numbers 13 covered
+    bookSlug: 'deuteronomy', chapter: 1, verseStart: 19, verseEnd: 28, sceneSlug: 'wisdom',
+  },
+  {
+    externalId: 'tissot-ten-commandments-deut5',
+    title: 'Moses and the Ten Commandments',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot Moses and the Ten Commandments.jpg',
+    year: 1896, medium: 'Gouache on board',
+    // Re-tagged to Deut 5 (Decalogue restated) since Exodus 20 covered
+    bookSlug: 'deuteronomy', chapter: 5, verseStart: 1, verseEnd: 22, sceneSlug: 'wisdom',
+  },
+  {
+    externalId: 'tissot-golden-calf-deut9',
+    title: 'The Golden Calf',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot The Golden Calf.jpg',
+    year: 1896, medium: 'Gouache on board',
+    // Re-tagged to Deut 9 (Moses recalls golden calf) since Exodus 32 covered
+    bookSlug: 'deuteronomy', chapter: 9, verseStart: 7, verseEnd: 21, sceneSlug: 'judgment',
+  },
+
+  // ───────── HISTORICAL BOOKS ─────────
+  {
+    externalId: 'tissot-conquest-of-amorites',
+    title: 'The Conquest of the Amorites (List of Conquered Kings)',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot The Conquest of the Amorites.jpg',
+    year: 1896, medium: 'Gouache on board',
+    bookSlug: 'joshua', chapter: 12, verseStart: 1, verseEnd: 24, sceneSlug: 'conquest',
+  },
+  {
+    externalId: 'tissot-deborah-song',
+    title: 'Deborah Beneath the Palm Tree',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot Deborah Beneath the Palm Tree.jpg',
+    year: 1896, medium: 'Gouache on board',
+    bookSlug: 'judges', chapter: 5, verseStart: 1, verseEnd: 12, sceneSlug: 'judges',
+  },
+
+  // ───────── WISDOM ─────────
+  {
+    externalId: 'tissot-wisdom-of-solomon-eccl',
+    title: 'The Wisdom of Solomon (the Preacher concludes)',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot The Wisdom of Solomon.jpg',
+    year: 1896, medium: 'Gouache on board',
+    // Re-tagged to Eccl 12 (the Preacher's conclusion) since 1 Kings 3 covered
+    bookSlug: 'ecclesiastes', chapter: 12, verseStart: 9, verseEnd: 14, sceneSlug: 'wisdom',
+  },
+
+  // ───────── PSALMS — Pharaoh's pursuit recalled in Psalm 106 ─────────
+  {
+    externalId: 'tissot-pharaoh-pursues-ps106',
+    title: "Pharaoh's Pursuit (recalled in Psalm 106)",
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot Pharaoh Pursues the Israelites.jpg',
+    year: 1896, medium: 'Gouache on board',
+    bookSlug: 'psalms', chapter: 106, verseStart: 9, verseEnd: 12, sceneSlug: 'deliverance',
+  },
+
+  // ───────── NEW TESTAMENT (gap-aware tagging) ─────────
+  {
+    externalId: 'velazquez-martha-mary-col3',
+    title: 'Christ in the House of Martha and Mary',
+    artistSlug: 'diego-velazquez',
+    artistName: 'Diego Velázquez',
+    artistBirthYear: 1599, artistDeathYear: 1660,
+    artistNationality: 'Spanish',
+    artistBio: 'Spanish Baroque painter, court painter to Philip IV; foremost master of the Spanish Golden Age.',
+    artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez',
+    wikimediaFile: 'Diego Velázquez Christ in the House of Martha and Mary.jpg',
+    year: 1618, medium: 'Oil on canvas',
+    // Tagged to Colossians 3:1-2 ("set your affection on things above") — the
+    // Pauline gloss on Mary's choosing the better part. Luke 10 already covered.
+    bookSlug: 'colossians', chapter: 3, verseStart: 1, verseEnd: 4, sceneSlug: 'teaching',
+  },
+  {
+    externalId: 'watts-hope-rom5',
+    title: 'Hope',
+    artistSlug: 'george-frederic-watts',
+    artistName: 'George Frederic Watts',
+    artistBirthYear: 1817, artistDeathYear: 1904,
+    artistNationality: 'English',
+    artistBio: 'English Symbolist painter and sculptor; "Hope" (1886) became one of the most reproduced images of late-Victorian Britain.',
+    artistWikipediaUrl: 'https://en.wikipedia.org/wiki/George_Frederic_Watts',
+    wikimediaFile: 'George Frederick Watts - Hope - B2011.32 - Yale Center for British Art.jpg',
+    year: 1886, medium: 'Oil on canvas',
+    // Tagged to Romans 5:3-5 ("hope maketh not ashamed")
+    bookSlug: 'romans', chapter: 5, verseStart: 3, verseEnd: 5, sceneSlug: 'wisdom',
+  },
+  {
+    externalId: 'caravaggio-isaac-uffizi-james2',
+    title: 'The Sacrifice of Isaac (Uffizi)',
+    artistSlug: 'caravaggio',
+    artistName: 'Caravaggio (Michelangelo Merisi)',
+    wikimediaFile: 'Sacrifice of Isaac-Caravaggio (Uffizi).jpg',
+    year: 1603, medium: 'Oil on canvas',
+    // Tagged to James 2:21 ("was not Abraham our father justified by works,
+    // when he had offered Isaac his son upon the altar?"). James 2 was bare
+    // — James 1 only one chapter covered.
+    bookSlug: 'james', chapter: 2, verseStart: 14, verseEnd: 26, sceneSlug: 'wisdom',
+  },
+  {
+    externalId: 'holbein-dead-christ-1cor15',
+    title: 'The Body of the Dead Christ in the Tomb',
+    artistSlug: 'hans-holbein-the-younger',
+    artistName: 'Hans Holbein the Younger',
+    artistBirthYear: 1497, artistDeathYear: 1543,
+    artistNationality: 'German-Swiss',
+    artistBio: 'German Renaissance painter; court painter to Henry VIII of England.',
+    artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Hans_Holbein_the_Younger',
+    wikimediaFile: 'Hans Holbein- The Body of the Dead Christ in the Tomb.JPG',
+    year: 1521, medium: 'Oil on panel',
+    // Tagged to 1 Corinthians 15:3-4 (Christ died, was buried, rose again)
+    // — 1 Cor 15 was bare. 1 Cor only had 1/16 chapters covered.
+    bookSlug: '1-corinthians', chapter: 15, verseStart: 3, verseEnd: 8, sceneSlug: 'crucifixion',
+  },
+  {
+    externalId: 'botticelli-annunciation-uffizi-gal4',
+    title: 'The Annunciation (Uffizi, 1481)',
+    artistSlug: 'sandro-botticelli', artistName: 'Sandro Botticelli',
+    wikimediaFile: 'Botticelli - Annunciation, 1481 (Uffizi).jpg',
+    year: 1481, medium: 'Tempera on panel',
+    // Tagged to Galatians 4:4 ("when the fulness of the time was come, God
+    // sent forth his Son, made of a woman"). Galatians 4 was bare.
+    bookSlug: 'galatians', chapter: 4, verseStart: 4, verseEnd: 7, sceneSlug: 'nativity',
+  },
 ];
