@@ -23,16 +23,26 @@ import type { Block, RichChapterContent } from './types';
 import { GENESIS_1 } from './genesis-1';
 import { GENESIS_2 } from './genesis-2';
 import { GENESIS_3 } from './genesis-3';
+import { GENESIS_4 } from './genesis-4';
+import { GENESIS_6 } from './genesis-6';
+import { GENESIS_8 } from './genesis-8';
+import { GENESIS_12 } from './genesis-12';
 import { GENESIS_22 } from './genesis-22';
 import { GENESIS_37 } from './genesis-37';
+import { GENESIS_50 } from './genesis-50';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'genesis/1': GENESIS_1,
   'genesis/2': GENESIS_2,
   'genesis/3': GENESIS_3,
+  'genesis/4': GENESIS_4,
+  'genesis/6': GENESIS_6,
+  'genesis/8': GENESIS_8,
+  'genesis/12': GENESIS_12,
   'genesis/22': GENESIS_22,
   'genesis/37': GENESIS_37,
+  'genesis/50': GENESIS_50,
 };
 
 /**
