@@ -6,6 +6,7 @@ import { blogPosts } from '@/data/blog-posts';
 import { studyPlans } from '@/data/study-plans';
 import { verseExplanations } from '@/data/verse-explanations';
 import { translations } from '@/data/translations';
+import { getAllArtistSlugs, getAllArtworkSlugs } from '@/lib/supabase';
 
 const BASE_URL = 'https://learnofchrist.com';
 
@@ -18,7 +19,7 @@ function bookNameToSlug(name: string): string {
  * individual sitemap well under Google's 50k-URL / 50MB cap and making
  * crawl parallelism straightforward at 1M-user scale.
  */
-const SHARDS = ['core', 'bible', 'study', 'verses', 'content'] as const;
+const SHARDS = ['core', 'bible', 'study', 'verses', 'content', 'art'] as const;
 type Shard = (typeof SHARDS)[number];
 
 export async function generateSitemaps(): Promise<{ id: Shard }[]> {
@@ -135,6 +136,62 @@ function verseEntries(): MetadataRoute.Sitemap {
   return entries;
 }
 
+/**
+ * Art surfaces — root + every Bible-book art index + every artwork detail
+ * + every artist hub. Artist hubs without a real bio currently render with
+ * a noindex robots tag, so Google will see them via the sitemap, drop them
+ * from the index, and re-include them once the bio lands.
+ */
+async function artEntries(): Promise<MetadataRoute.Sitemap> {
+  const entries: MetadataRoute.Sitemap = [];
+
+  entries.push({
+    url: `${BASE_URL}/art`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.7,
+  });
+
+  // Per-book art indexes (we generate one for every book — the page itself
+  // 404s gracefully when no art is indexed yet, but Google won't waste
+  // crawl budget on those because the parent /art/book/[slug] page renders
+  // notFound() in that case).
+  for (const book of bibleBooks) {
+    const slug = bookNameToSlug(book.name);
+    entries.push({
+      url: `${BASE_URL}/art/book/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    });
+  }
+
+  const [artists, artworks] = await Promise.all([
+    getAllArtistSlugs(),
+    getAllArtworkSlugs(),
+  ]);
+
+  for (const a of artists) {
+    entries.push({
+      url: `${BASE_URL}/art/artist/${a.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    });
+  }
+
+  for (const w of artworks) {
+    entries.push({
+      url: `${BASE_URL}/art/artwork/${w.slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    });
+  }
+
+  return entries;
+}
+
 function contentEntries(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
 
@@ -177,11 +234,11 @@ function contentEntries(): MetadataRoute.Sitemap {
   return entries;
 }
 
-export default function sitemap({
+export default async function sitemap({
   id,
 }: {
   id: Shard;
-}): MetadataRoute.Sitemap {
+}): Promise<MetadataRoute.Sitemap> {
   switch (id) {
     case 'core':
       return coreEntries();
@@ -193,6 +250,8 @@ export default function sitemap({
       return verseEntries();
     case 'content':
       return contentEntries();
+    case 'art':
+      return artEntries();
     default:
       return [];
   }

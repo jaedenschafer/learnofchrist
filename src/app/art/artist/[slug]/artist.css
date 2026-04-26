@@ -1,0 +1,252 @@
+/* Artist hub page (/art/artist/[slug]) — editorial layout with a generous
+   serif headline, a quick-facts card, structured Bible-scenes list, and a
+   notable-works section that pairs short paragraphs with thumbnails. */
+
+.artist-hero {
+  padding: 1.5rem 0 1.25rem;
+  border-bottom: 1px solid var(--color-separator);
+  margin-bottom: 2rem;
+}
+
+.artist-hero__kicker {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-tertiary-label);
+  margin: 0 0 0.5rem;
+}
+
+.artist-hero__name {
+  font-family: var(--font-serif), 'EB Garamond', Georgia, serif;
+  font-weight: 700;
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  color: var(--color-label);
+  margin: 0 0 0.625rem;
+  text-wrap: balance;
+}
+
+.artist-hero__meta {
+  font-size: 0.9375rem;
+  color: var(--color-secondary-label);
+  margin: 0;
+}
+
+/* Facts card */
+.artist-facts {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  margin: 0 0 2.5rem;
+  border: 1px solid var(--color-separator);
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--color-surface);
+}
+
+@media (min-width: 640px) {
+  .artist-facts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .artist-facts__row:nth-child(odd) {
+    border-right: 1px solid var(--color-separator);
+  }
+}
+
+.artist-facts__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--color-separator);
+  font-size: 0.875rem;
+  color: var(--color-label);
+}
+
+.artist-facts__row:last-child,
+.artist-facts__row:nth-last-child(2):nth-child(odd) {
+  border-bottom: none;
+}
+
+.artist-facts__label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-secondary-label);
+}
+
+/* Section frame */
+.artist-section {
+  margin: 0 0 3rem;
+}
+
+.artist-section--pending .artist-section__placeholder {
+  font-size: 0.9375rem;
+  color: var(--color-secondary-label);
+  font-style: italic;
+  margin: 0;
+}
+
+.artist-section__title {
+  font-family: var(--font-serif), 'EB Garamond', Georgia, serif;
+  font-weight: 700;
+  font-size: clamp(1.5rem, 2.6vw, 1.875rem);
+  line-height: 1.2;
+  letter-spacing: -0.018em;
+  color: var(--color-label);
+  margin: 0 0 1rem;
+}
+
+.artist-section__p {
+  font-family: var(--font-serif), 'EB Garamond', Georgia, serif;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  color: var(--color-label);
+  margin: 0 0 1.125rem;
+}
+
+/* Bible scenes list */
+.artist-scenes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.artist-scenes__book {
+  border-left: 2px solid var(--color-separator);
+  padding-left: 1rem;
+}
+
+.artist-scenes__book-name {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-tertiary-label);
+  margin: 0 0 0.5rem;
+}
+
+.artist-scenes__chapters {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.artist-scenes__chapter {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.artist-scenes__chapter:hover { text-decoration: underline; }
+
+.artist-scenes__count {
+  font-size: 0.8125rem;
+  color: var(--color-tertiary-label);
+}
+
+/* Notable works */
+.artist-notable {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--color-separator);
+}
+.artist-notable:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+@media (min-width: 640px) {
+  .artist-notable {
+    grid-template-columns: 200px 1fr;
+    gap: 1.25rem;
+  }
+}
+
+.artist-notable__img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 12px;
+  background: var(--color-separator);
+}
+
+.artist-notable__title {
+  font-family: var(--font-serif), 'EB Garamond', Georgia, serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: var(--color-label);
+  margin: 0 0 0.5rem;
+}
+
+.artist-notable__title a {
+  color: var(--color-label);
+  text-decoration: none;
+}
+.artist-notable__title a:hover {
+  text-decoration: underline;
+}
+
+.artist-notable__p {
+  font-family: var(--font-serif), 'EB Garamond', Georgia, serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-label);
+  margin: 0;
+}
+
+/* All works grid */
+.artist-works-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.875rem;
+}
+
+@media (min-width: 640px) {
+  .artist-works-grid { grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+}
+
+@media (min-width: 880px) {
+  .artist-works-grid { grid-template-columns: repeat(4, 1fr); }
+}
+
+/* Further reading */
+.artist-sources {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.artist-sources__link {
+  color: var(--color-primary);
+  font-size: 0.9375rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+.artist-sources__link:hover { text-decoration: underline; }
+
+.artist-sources__type {
+  font-size: 0.75rem;
+  color: var(--color-tertiary-label);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}

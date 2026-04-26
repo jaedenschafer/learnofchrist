@@ -124,6 +124,28 @@ export interface Artist {
   wikipedia_url: string | null;
 }
 
+/** Citation entry on an artist row — used in the Further Reading section. */
+export interface ArtistSource {
+  title: string;
+  url: string;
+  type: 'wikipedia' | 'britannica' | 'museum' | 'scholarly' | 'other';
+}
+
+/** Original-prose writeup of one of an artist's notable works. */
+export interface ArtistNotableWork {
+  artwork_slug: string;
+  paragraph: string;
+}
+
+/** Full artist row returned by the artist hub page query — extends the
+ *  base Artist with the SEO content columns added in migration 025. */
+export interface ArtistFull extends Artist {
+  bio_long: string | null;
+  bio_sources: ArtistSource[];
+  notable_works: ArtistNotableWork[];
+  wikidata_id: string | null;
+}
+
 export interface Artwork {
   id: string;
   slug: string;
@@ -516,6 +538,94 @@ export async function getFilteredArtworks(
     artist: unwrap(a.artist),
   }));
   return { artworks, total: count ?? artworks.length };
+}
+
+/** Fetch one artist by slug, including the SEO content columns from
+ *  migration 025. Returns null when no artist matches. */
+export async function getArtistBySlug(slug: string): Promise<ArtistFull | null> {
+  const { data, error } = await supabaseServer
+    .from('artists')
+    .select('id, slug, name, birth_year, death_year, nationality, bio, wikipedia_url, bio_long, bio_sources, notable_works, wikidata_id')
+    .eq('slug', slug)
+    .maybeSingle();
+  if (error) {
+    console.error('Error fetching artist:', error);
+    return null;
+  }
+  if (!data) return null;
+  return {
+    id: data.id,
+    slug: data.slug,
+    name: data.name,
+    birth_year: data.birth_year,
+    death_year: data.death_year,
+    nationality: data.nationality,
+    bio: data.bio,
+    wikipedia_url: data.wikipedia_url,
+    bio_long: data.bio_long ?? null,
+    bio_sources: Array.isArray(data.bio_sources) ? (data.bio_sources as ArtistSource[]) : [],
+    notable_works: Array.isArray(data.notable_works) ? (data.notable_works as ArtistNotableWork[]) : [],
+    wikidata_id: data.wikidata_id ?? null,
+  };
+}
+
+/** Slug list used by generateStaticParams + sitemap. Only artists who have
+ *  at least one approved, published artwork — anyone else has nothing to
+ *  show on their hub page yet. */
+export async function getAllArtistSlugs(): Promise<Array<{ slug: string }>> {
+  const list = await getArtistsWithArt();
+  return list.map((a) => ({ slug: a.slug }));
+}
+
+/** Every approved, published artwork by a given artist, with primary
+ *  scripture refs flattened in for the chapter-link list on the artist hub. */
+export async function getArtworksByArtist(artistId: string): Promise<
+  Array<ArtworkWithArtist & { primary_ref: { book_slug: string; book_name: string; chapter: number } | null }>
+> {
+  const { data, error } = await supabaseServer
+    .from('artworks')
+    .select(`
+      id, slug, title, artist_id, year, medium, source, source_url,
+      external_id, image_url, thumbnail_url, width, height,
+      license, license_note, description, status,
+      artist:artists ( id, slug, name, birth_year, death_year, nationality, bio, wikipedia_url ),
+      refs:artwork_scripture_refs (
+        is_primary, chapter,
+        book:books ( slug, name )
+      )
+    `)
+    .eq('artist_id', artistId)
+    .eq('status', 'published')
+    .eq('moderation_status', 'approved')
+    .order('year', { ascending: true, nullsFirst: false });
+
+  if (error) {
+    console.error('Error fetching artworks by artist:', error);
+    return [];
+  }
+
+  type RawRef = { is_primary: boolean; chapter: number; book: unknown };
+  type Row = Artwork & {
+    artist: Artist | Artist[] | null;
+    refs: RawRef[] | null;
+  };
+
+  return ((data ?? []) as Row[]).map((row) => {
+    const refs = (row.refs ?? []) as RawRef[];
+    const primary = refs.find((r) => r.is_primary) ?? refs[0] ?? null;
+    let primary_ref: { book_slug: string; book_name: string; chapter: number } | null = null;
+    if (primary) {
+      const book = unwrap(primary.book as { slug: string; name: string } | Array<{ slug: string; name: string }>);
+      if (book) {
+        primary_ref = { book_slug: book.slug, book_name: book.name, chapter: primary.chapter };
+      }
+    }
+    return {
+      ...row,
+      artist: unwrap(row.artist),
+      primary_ref,
+    };
+  });
 }
 
 /** List all artists who have at least one approved, published artwork. */

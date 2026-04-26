@@ -86,7 +86,12 @@ export default async function ArtworkPage({ params }: PageProps) {
           <p className="study-hero__kicker">
             {art.artist && (
               <>
-                <span className="study-hero__kicker-book">{art.artist.name}</span>
+                <Link
+                  href={`/art/artist/${art.artist.slug}`}
+                  className="study-hero__kicker-book"
+                >
+                  {art.artist.name}
+                </Link>
                 <span className="study-hero__kicker-sep" aria-hidden="true">·</span>
               </>
             )}
@@ -149,24 +154,34 @@ export default async function ArtworkPage({ params }: PageProps) {
           </section>
         )}
 
-        {art.artist?.bio && (
+        {art.artist && (
           <section className="mb-10 border-t border-[color:var(--color-separator)] pt-8">
             <h2 className="text-[1.125rem] font-semibold text-[color:var(--color-label)] mb-2 px-1">
               About {art.artist.name}
             </h2>
-            <p className="text-[0.9375rem] leading-relaxed text-[color:var(--color-label)] px-1">
-              {art.artist.bio}
-            </p>
-            {art.artist.wikipedia_url && (
-              <a
-                href={art.artist.wikipedia_url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block mt-3 px-1 text-[0.8125rem] font-medium text-[color:var(--color-primary)] hover:underline"
-              >
-                Wikipedia →
-              </a>
+            {art.artist.bio && (
+              <p className="text-[0.9375rem] leading-relaxed text-[color:var(--color-label)] px-1">
+                {art.artist.bio}
+              </p>
             )}
+            <div className="px-1 mt-3 flex items-center gap-3 flex-wrap">
+              <Link
+                href={`/art/artist/${art.artist.slug}`}
+                className="inline-block text-[0.8125rem] font-semibold text-[color:var(--color-primary)] hover:underline"
+              >
+                Full biography &amp; works →
+              </Link>
+              {art.artist.wikipedia_url && (
+                <a
+                  href={art.artist.wikipedia_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block text-[0.8125rem] text-[color:var(--color-tertiary-label)] hover:underline"
+                >
+                  Wikipedia
+                </a>
+              )}
+            </div>
           </section>
         )}
       </div>

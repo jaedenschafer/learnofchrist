@@ -44,7 +44,16 @@ export default function InlineArtwork({ artwork, caption }: InlineArtworkProps) 
         )}
         <span className="inline-artwork__title">{artwork.title}</span>
         <span className="inline-artwork__artist">
-          {artistName}
+          {artwork.artist ? (
+            <Link
+              href={`/art/artist/${artwork.artist.slug}`}
+              className="inline-artwork__artist-link"
+            >
+              {artistName}
+            </Link>
+          ) : (
+            artistName
+          )}
           {artwork.year ? ` · ${artwork.year}` : ''}
         </span>
       </figcaption>

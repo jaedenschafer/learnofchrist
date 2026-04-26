@@ -38,6 +38,10 @@ export default function ArtCard({ artwork, caption }: ArtCardProps) {
           <h3 className="text-[0.875rem] font-semibold text-[color:var(--color-label)] leading-snug line-clamp-2">
             {artwork.title}
           </h3>
+          {/* Artist name is plain text inside the card. Tapping the card
+              goes to the artwork detail page, where the artist name links
+              to /art/artist/[slug] — keeps us from nesting <Link> in
+              <Link> here. */}
           <p className="text-[0.75rem] text-[color:var(--color-secondary-label)] mt-0.5 truncate">
             {artwork.artist?.name ?? 'Unknown'}
             {artwork.year ? ` · ${artwork.year}` : ''}
