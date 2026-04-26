@@ -60,8 +60,8 @@ for (const d of [CACHE_DIR, OBJECT_CACHE]) {
   if (!existsSync(d)) mkdirSync(d, { recursive: true });
 }
 
-const OBJECT_DELAY_MS = 250;
-const RATE_LIMIT_BACKOFF_MS = 30_000;
+const OBJECT_DELAY_MS = 200;
+const RATE_LIMIT_BACKOFF_MS = 10_000;
 const MAX_RETRIES = 5;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -490,7 +490,11 @@ function cachePathFor(id) {
 
 async function fetchWithRetry(url, label) {
   for (let attempt = 0; attempt < MAX_RETRIES; attempt++) {
-    const res = await fetch(url, { headers: { 'User-Agent': 'LearnOfChrist/1.0 (biblical-art-ingest)' } });
+    const res = await fetch(url, { headers: {
+      'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15',
+      'Accept': 'application/json,*/*;q=0.8',
+      'Accept-Language': 'en-US,en;q=0.9',
+    } });
     if (res.status === 200) return res.json();
     if (res.status === 404) return null;
     if (res.status === 403 || res.status === 429) {
