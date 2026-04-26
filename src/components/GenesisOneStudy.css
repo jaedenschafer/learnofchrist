@@ -100,40 +100,57 @@
   margin-bottom: 1rem;
 }
 .rich-study .kjv-note {
+  position: relative;
   font-size: 13.5px;
   line-height: 1.55;
   color: #6E6E73;
   background: rgba(120, 120, 128, 0.06);
   border-left: 2px solid rgba(120, 120, 128, 0.35);
   border-radius: 6px;
-  padding: 10px 14px;
+  padding: 10px 38px 10px 14px; /* room for the close (×) on the right */
   margin: 0 0 2rem;
 }
 .rich-study .kjv-note strong {
   color: var(--ink);
   font-weight: 600;
 }
-.rich-study .kjv-note .kjv-note-dismiss {
+/* Top-right close (×). Dismisses the note and persists the dismissal
+   via the same localStorage key the old "Don't show again" checkbox used. */
+.rich-study .kjv-note .kjv-note-close {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 24px;
+  height: 24px;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  margin-left: 10px;
-  font-size: 12.5px;
+  justify-content: center;
+  padding: 0;
+  border: none;
+  background: transparent;
   color: #86868B;
+  border-radius: 50%;
   cursor: pointer;
-  user-select: none;
-  vertical-align: baseline;
+  transition: background-color 0.15s ease, color 0.15s ease;
 }
-.rich-study .kjv-note .kjv-note-dismiss input[type="checkbox"] {
-  margin: 0;
-  cursor: pointer;
-  accent-color: #6E6E73;
+.rich-study .kjv-note .kjv-note-close:hover {
+  background: rgba(120, 120, 128, 0.14);
+  color: #1D1D1F;
 }
-html[data-reader-theme="dark"] .rich-study .kjv-note .kjv-note-dismiss {
+.rich-study .kjv-note .kjv-note-close:focus-visible {
+  outline: 2px solid var(--color-primary, #007AFF);
+  outline-offset: 1px;
+}
+.rich-study .kjv-note .kjv-note-close svg {
+  width: 14px;
+  height: 14px;
+}
+html[data-reader-theme="dark"] .rich-study .kjv-note .kjv-note-close {
   color: #98989D;
 }
-html[data-reader-theme="dark"] .rich-study .kjv-note .kjv-note-dismiss input[type="checkbox"] {
-  accent-color: #AEAEB2;
+html[data-reader-theme="dark"] .rich-study .kjv-note .kjv-note-close:hover {
+  background: rgba(142, 142, 147, 0.22);
+  color: #F5F5F7;
 }
 
 .rich-study .divider {

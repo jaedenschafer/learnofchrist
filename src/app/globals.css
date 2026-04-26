@@ -383,6 +383,11 @@ html[data-reader-theme="dark"] .btn-outline:hover {
 .art-actions__btn[aria-expanded="true"] {
   opacity: 1;
 }
+/* On the single-artwork detail page the menu is the primary affordance,
+   not a hover discovery — show it without requiring a hover. */
+.artwork-detail-figure .art-actions__btn {
+  opacity: 1;
+}
 .art-actions__btn:hover {
   background: rgba(20, 14, 8, 0.75);
 }

@@ -5,35 +5,50 @@
   position: relative; /* anchors the ⋮ Hide / Report menu */
   margin: 2.5rem 0;
   padding: 0;
+  background: transparent; /* No frame — image carries its own shape + shadow */
   display: flex;
   flex-direction: column;
-  gap: 0.625rem;
+  gap: 0.875rem;
 }
 
 .inline-artwork__media-link {
   display: block;
-  border-radius: 14px;
+  border-radius: 16px;
   overflow: hidden;
-  background: var(--color-separator);
+  /* Airbnb-style soft shadow — lifts the image off the page without a
+     hard border or colored frame. Two layers: a tight close shadow for
+     edge definition + a wider soft shadow for depth. */
   box-shadow:
-    0 1px 2px rgba(0, 0, 0, 0.04),
-    0 12px 28px rgba(20, 14, 8, 0.10);
-  transition: transform 0.35s ease, box-shadow 0.35s ease;
+    0 1px 1px rgba(0, 0, 0, 0.04),
+    0 6px 16px rgba(20, 14, 8, 0.08),
+    0 18px 36px rgba(20, 14, 8, 0.06);
+  transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.25, 1),
+              box-shadow 0.35s cubic-bezier(0.2, 0.8, 0.25, 1);
   text-decoration: none;
   color: inherit;
+  /* No background here — the inner .inline-artwork__media carries the
+     dominant_color placeholder and is itself the same rounded shape. */
 }
 
 .inline-artwork__media-link:hover {
-  transform: translateY(-2px);
+  transform: translateY(-3px);
   box-shadow:
-    0 1px 2px rgba(0, 0, 0, 0.05),
-    0 18px 38px rgba(20, 14, 8, 0.14);
+    0 2px 2px rgba(0, 0, 0, 0.05),
+    0 10px 22px rgba(20, 14, 8, 0.12),
+    0 26px 48px rgba(20, 14, 8, 0.08);
 }
 
 .inline-artwork__media {
   width: 100%;
   display: block;
-  background: var(--color-separator);
+  /* Inherit the rounded corners from the parent link — keeps the
+     dominant_color placeholder shaped to the same silhouette so there
+     are never visible square corners while the image loads. */
+  border-radius: inherit;
+  overflow: hidden;
+  /* Fallback while no dominant_color is set — soft neutral so the
+     image-loading state isn't a stark gray. */
+  background: rgba(120, 120, 128, 0.08);
 }
 
 .inline-artwork__img {
@@ -42,15 +57,19 @@
   height: auto;
   max-height: 70vh;
   object-fit: cover;
+  /* Match the parent rounded corners exactly so anti-aliased edges of
+     the image align with the container's mask, not a rect under it. */
+  border-radius: inherit;
 }
 
 .inline-artwork__caption {
   display: flex;
   flex-direction: column;
   gap: 0.125rem;
-  padding: 0 0.25rem;
+  padding: 0 0.5rem;
   font-family: 'EB Garamond', 'New York', Georgia, serif;
   text-align: center;
+  background: transparent;
 }
 
 .inline-artwork__kicker {

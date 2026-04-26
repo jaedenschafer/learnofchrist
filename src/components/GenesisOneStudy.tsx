@@ -322,16 +322,18 @@ export default function GenesisOneStudy({ artworks = [] }: GenesisOneStudyProps)
         </p>
         {kjvNoteVisible && (
           <p className="kjv-note" role="note">
+            <button
+              type="button"
+              className="kjv-note-close"
+              aria-label="Dismiss this note"
+              title="Dismiss"
+              onClick={dismissKjvNote}
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M6 6l12 12M18 6L6 18" />
+              </svg>
+            </button>
             <strong>A note on translations.</strong>{' '}The commentary, highlights, and Hebrew callouts below are written around the King James Version&apos;s wording. Use the translation switcher anytime — the scripture blocks will swap to your chosen translation, while the commentary stays anchored to KJV phrasing.
-            <label className="kjv-note-dismiss">
-              <input
-                type="checkbox"
-                onChange={(e) => {
-                  if (e.currentTarget.checked) dismissKjvNote();
-                }}
-              />
-              <span>Don&rsquo;t show this again</span>
-            </label>
           </p>
         )}
 

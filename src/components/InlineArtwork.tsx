@@ -40,12 +40,18 @@ export default function InlineArtwork({ artwork, caption, priority = false }: In
   const h = artwork.height ?? 900;
 
   return (
-    <figure
-      className="inline-artwork"
-      style={artwork.dominant_color ? { backgroundColor: artwork.dominant_color } : undefined}
-    >
+    <figure className="inline-artwork">
       <Link href={href} className="inline-artwork__media-link" aria-label={`View ${artwork.title}`}>
-        <div className="inline-artwork__media">
+        {/* dominant_color sits on the *inner* media div, not the figure, so
+            it acts as a tinted placeholder while the image loads — and
+            disappears the moment the image paints. The colored frame the
+            user complained about happened because this style used to be on
+            the figure itself, which extended past the image into the
+            caption area. */}
+        <div
+          className="inline-artwork__media"
+          style={artwork.dominant_color ? { backgroundColor: artwork.dominant_color } : undefined}
+        >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={src}

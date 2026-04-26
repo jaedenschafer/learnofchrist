@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { getArtworkBySlug, getAllArtworkSlugs } from '@/lib/supabase';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 import JsonLd from '@/components/JsonLd';
+import ArtworkActionsMenu from '@/components/ArtworkActionsMenu';
 
 export const revalidate = 86400;
 export const dynamicParams = true;
@@ -117,7 +118,15 @@ export default async function ArtworkPage({ params }: PageProps) {
             - fetchPriority="high" + eager loading: this is the LCP
               element for the page.
         */}
-        <figure className="mt-6 mb-10">
+        <figure className="mt-6 mb-10 relative artwork-detail-figure">
+          {/* The ⋮ menu (Report image) — same component the carousel cards
+              and inline study artworks use, so the affordance is consistent
+              everywhere a reader sees art. Positioned absolutely top-right
+              of the figure via .art-actions in globals.css. The
+              artwork-detail-figure class makes the button always visible
+              here (rather than the hover-only behavior on grid tiles)
+              since this is a focused single-artwork view. */}
+          <ArtworkActionsMenu artworkId={art.id} artworkTitle={art.title} />
           <div
             className="rounded-2xl overflow-hidden border border-[color:var(--color-separator)]"
             style={{
