@@ -576,7 +576,7 @@ export const EXODUS_29: RichChapterContent = {
               number: 35,
               spans: [
                 t('Thus shalt thou do unto Aaron, and to his sons, according to all things which I have commanded thee: '),
-                hy('seven days', 'exo29-seven-complete'),
+                hy('seven days', 'exo29-completion'),
                 t(' shalt thou consecrate them.'),
               ],
             },
