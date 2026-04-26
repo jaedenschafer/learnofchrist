@@ -547,4 +547,379 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     year: 1616, medium: 'Oil on panel',
     bookSlug: '2-peter', chapter: 1, verseStart: 12, verseEnd: 18, sceneSlug: 'apostles',
   },
+
+  // ═════════════════════════════════════════════════════════════════════
+  // PSALMS — second wave: Theodore Psalter, Stuttgart Psalter folios,
+  // Harley Psalter folios, plus thematic Psalm paintings.
+  //
+  // Note on numbering: Theodore Psalter (Byzantine, 1066), Stuttgart
+  // Psalter (Carolingian, c.825), Harley 603 (10th c.), and the Bosworth
+  // Psalter all use Septuagint/Vulgate psalm numbers, which differ from
+  // the Hebrew/English numbering by ±1 across most of the Psalter.
+  // Mappings below convert to English Bible numbering (used by this site).
+  // ═════════════════════════════════════════════════════════════════════
+
+  // ───────── THEODORE PSALTER (1066, Byzantine) ─────────
+  // Filenames carry "Ps.NN" tags — Septuagint numbering, converted below.
+  {
+    externalId: 'theodore-psalter-david-throne',
+    title: "David at the Lord's Throne (Theodore Psalter)",
+    artistSlug: 'theodore-of-caesarea',
+    artistName: 'Theodore of Caesarea',
+    artistBirthYear: 1000, artistDeathYear: 1080,
+    artistNationality: 'Byzantine',
+    artistBio: 'Byzantine monk-illuminator who in 1066 produced the Theodore Psalter (BL Add MS 19352) at the Stoudios Monastery in Constantinople — one of the most fully illustrated marginal psalters surviving from the post-iconoclastic period.',
+    artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Theodore_Psalter',
+    wikimediaFile: "Theodore Psalter page 011v. Ps.11.4-6 David at Lord's throne.jpg",
+    year: 1066, medium: 'Tempera on parchment',
+    // Septuagint Ps 11 = Hebrew/English Ps 12
+    bookSlug: 'psalms', chapter: 12, verseStart: 4, verseEnd: 6, sceneSlug: 'wisdom',
+  },
+  {
+    externalId: 'theodore-psalter-baptism',
+    title: 'The Baptism of Christ (Theodore Psalter, Ps. 77)',
+    artistSlug: 'theodore-of-caesarea', artistName: 'Theodore of Caesarea',
+    wikimediaFile: 'Theodore Psalter page 099r Ps 76.17 Baptism of Christ.jpg',
+    year: 1066, medium: 'Tempera on parchment',
+    // Septuagint 76 = Hebrew 77
+    bookSlug: 'psalms', chapter: 77, verseStart: 16, verseEnd: 19, sceneSlug: 'ministry',
+  },
+  {
+    externalId: 'theodore-psalter-moses-aaron',
+    title: 'Moses and Aaron (Theodore Psalter, Ps. 77)',
+    artistSlug: 'theodore-of-caesarea', artistName: 'Theodore of Caesarea',
+    wikimediaFile: 'Theodore Psalter page 099v. Ps.76.21 - Moses and Aaron.jpg',
+    year: 1066, medium: 'Tempera on parchment',
+    bookSlug: 'psalms', chapter: 77, verseStart: 20, verseEnd: 20, sceneSlug: 'wisdom',
+  },
+  {
+    externalId: 'theodore-psalter-anointing-of-david-78',
+    title: 'The Anointing of David (Theodore Psalter, Ps. 78)',
+    artistSlug: 'theodore-of-caesarea', artistName: 'Theodore of Caesarea',
+    wikimediaFile: 'Theodore Psalter page 106r. Ps.77.68 annoing of David.jpg',
+    year: 1066, medium: 'Tempera on parchment',
+    bookSlug: 'psalms', chapter: 78, verseStart: 70, verseEnd: 72, sceneSlug: 'wisdom',
+  },
+  {
+    externalId: 'theodore-psalter-anointing-of-david-89',
+    title: 'The Anointing of David (Theodore Psalter, Ps. 89)',
+    artistSlug: 'theodore-of-caesarea', artistName: 'Theodore of Caesarea',
+    wikimediaFile: 'Theodore Psalter page 118v.Ps.88.21 Annoing of David.jpg',
+    year: 1066, medium: 'Tempera on parchment',
+    bookSlug: 'psalms', chapter: 89, verseStart: 20, verseEnd: 21, sceneSlug: 'wisdom',
+  },
+  {
+    externalId: 'theodore-psalter-ps-95',
+    title: 'Sing unto the Lord (Theodore Psalter, Ps. 95)',
+    artistSlug: 'theodore-of-caesarea', artistName: 'Theodore of Caesarea',
+    wikimediaFile: 'Theodore Psalter page 127r. Ps.94.1.jpg',
+    year: 1066, medium: 'Tempera on parchment',
+    bookSlug: 'psalms', chapter: 96, verseStart: 1, verseEnd: 1, sceneSlug: 'wisdom',
+  },
+  {
+    externalId: 'theodore-psalter-ps-102',
+    title: 'Theodore Psalter, Ps. 102',
+    artistSlug: 'theodore-of-caesarea', artistName: 'Theodore of Caesarea',
+    wikimediaFile: 'Theodore Psalter page 134r. Ps. 101.7.jpg',
+    year: 1066, medium: 'Tempera on parchment',
+    bookSlug: 'psalms', chapter: 102, verseStart: 6, verseEnd: 7, sceneSlug: 'suffering',
+  },
+  {
+    externalId: 'theodore-psalter-praising-148',
+    title: 'Praise the Lord (Theodore Psalter, Ps. 148)',
+    artistSlug: 'theodore-of-caesarea', artistName: 'Theodore of Caesarea',
+    wikimediaFile: 'Theodore Psalter - Praising singing, ps 148. 5-14.jpg',
+    year: 1066, medium: 'Tempera on parchment',
+    bookSlug: 'psalms', chapter: 148, verseStart: 5, verseEnd: 14, sceneSlug: 'wisdom',
+  },
+  {
+    externalId: 'theodore-psalter-david-killing-goliath',
+    title: 'David Killing Goliath (Theodore Psalter, Ps. 151)',
+    artistSlug: 'theodore-of-caesarea', artistName: 'Theodore of Caesarea',
+    wikimediaFile: 'Theodore Psalter page 191r Ps.151. 7-8 - David killing Goliath.jpg',
+    year: 1066, medium: 'Tempera on parchment',
+    // Septuagint Ps 151 narrates 1 Sam 17 (David and Goliath); no Hebrew
+    // psalm equivalent. Tag to the underlying narrative in 1 Samuel.
+    bookSlug: '1-samuel', chapter: 17, verseStart: 49, verseEnd: 51, sceneSlug: 'david',
+  },
+  {
+    externalId: 'theodore-psalter-samuel-and-david',
+    title: 'Samuel and David (Theodore Psalter)',
+    artistSlug: 'theodore-of-caesarea', artistName: 'Theodore of Caesarea',
+    wikimediaFile: 'Theodore Psalter page 190r Samuel and David.jpg',
+    year: 1066, medium: 'Tempera on parchment',
+    bookSlug: '1-samuel', chapter: 16, verseStart: 11, verseEnd: 13, sceneSlug: 'david',
+  },
+  {
+    externalId: 'theodore-psalter-ps-27',
+    title: 'Theodore Psalter, Ps. 27',
+    artistSlug: 'theodore-of-caesarea', artistName: 'Theodore of Caesarea',
+    wikimediaFile: 'Theodore Psalter, Pslam 26, 1066.jpg',
+    year: 1066, medium: 'Tempera on parchment',
+    // Septuagint Ps 26 = Hebrew Ps 27
+    bookSlug: 'psalms', chapter: 27, verseStart: 1, verseEnd: 6, sceneSlug: 'wisdom',
+  },
+  {
+    externalId: 'theodore-psalter-angel-david',
+    title: 'Angel Approaching David (Theodore Psalter)',
+    artistSlug: 'theodore-of-caesarea', artistName: 'Theodore of Caesarea',
+    wikimediaFile: 'Angel approaching David, call to be king, Theodore Psalter.jpg',
+    year: 1066, medium: 'Tempera on parchment',
+    bookSlug: 'psalms', chapter: 89, verseStart: 19, verseEnd: 20, sceneSlug: 'david',
+  },
+  {
+    externalId: 'theodore-psalter-david-flute',
+    title: 'David Playing the Flute (Theodore Psalter)',
+    artistSlug: 'theodore-of-caesarea', artistName: 'Theodore of Caesarea',
+    wikimediaFile: 'David playing flute, Theodore Psalter.jpg',
+    year: 1066, medium: 'Tempera on parchment',
+    bookSlug: 'psalms', chapter: 33, verseStart: 1, verseEnd: 3, sceneSlug: 'wisdom',
+  },
+  {
+    externalId: 'theodore-psalter-fol-137r',
+    title: 'Theodore Psalter, fol. 137r',
+    artistSlug: 'theodore-of-caesarea', artistName: 'Theodore of Caesarea',
+    wikimediaFile: 'TheodorePsalter 137r 1.png',
+    year: 1066, medium: 'Tempera on parchment',
+    bookSlug: 'psalms', chapter: 105, verseStart: 1, verseEnd: 5, sceneSlug: 'wisdom',
+  },
+
+  // ───────── STUTTGART PSALTER (Carolingian, c.825) ─────────
+  // Folio numbers map to Gallican (Vulgate/Septuagint) psalms; conversion
+  // to Hebrew/English numbering applied. Where exact mapping is uncertain,
+  // tag to the closest psalm in the run.
+  {
+    externalId: 'stuttgart-psalter-folio-2r',
+    title: 'Stuttgart Psalter, folio 2r (incipit)',
+    artistSlug: 'stuttgart-psalter-master',
+    artistName: 'Master of the Stuttgart Psalter',
+    artistNationality: 'Carolingian (Frankish)',
+    artistBio: 'Anonymous Carolingian illuminator (or workshop) responsible for the Stuttgart Psalter (Württembergische Landesbibliothek, Cod.bibl.fol.23, c. 820–830) — one of the most densely illustrated manuscripts of the early Middle Ages, containing 316 illustrations across 150 psalms.',
+    artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Stuttgart_Psalter',
+    wikimediaFile: 'Stuttgarter Psalter f2r.jpg',
+    year: 825, medium: 'Tempera on parchment',
+    bookSlug: 'psalms', chapter: 1, verseStart: 1, verseEnd: 6, sceneSlug: 'wisdom',
+  },
+  {
+    externalId: 'stuttgart-psalter-folio-7v',
+    title: 'Stuttgart Psalter, folio 7v',
+    artistSlug: 'stuttgart-psalter-master', artistName: 'Master of the Stuttgart Psalter',
+    wikimediaFile: 'StuttgartPsalter 7v detail.jpg',
+    year: 825, medium: 'Tempera on parchment',
+    // f.7v area is Psalm 6 (Domine ne in furore)
+    bookSlug: 'psalms', chapter: 6, verseStart: 1, verseEnd: 10, sceneSlug: 'suffering',
+  },
+  {
+    externalId: 'stuttgart-psalter-folio-42v',
+    title: 'Stuttgart Psalter, folio 42v',
+    artistSlug: 'stuttgart-psalter-master', artistName: 'Master of the Stuttgart Psalter',
+    wikimediaFile: 'Stuttgart Psalter 42v detail.jpg',
+    year: 825, medium: 'Tempera on parchment',
+    // f.42v area is approximately Psalm 37 (Hebrew) / 36 (Vulgate)
+    bookSlug: 'psalms', chapter: 37, verseStart: 1, verseEnd: 11, sceneSlug: 'wisdom',
+  },
+  {
+    externalId: 'stuttgart-psalter-folio-97v',
+    title: 'Stuttgart Psalter, folio 97v',
+    artistSlug: 'stuttgart-psalter-master', artistName: 'Master of the Stuttgart Psalter',
+    wikimediaFile: 'Stuttgarter Psalter - Cod.bibl.fol.23 97v.jpg',
+    year: 825, medium: 'Tempera on parchment',
+    // f.97v area is approximately Psalm 81 (Hebrew) / 80 (Vulgate)
+    bookSlug: 'psalms', chapter: 81, verseStart: 1, verseEnd: 7, sceneSlug: 'wisdom',
+  },
+  {
+    externalId: 'stuttgart-psalter-folio-163v',
+    title: 'Stuttgart Psalter, folio 163v (trumpets)',
+    artistSlug: 'stuttgart-psalter-master', artistName: 'Master of the Stuttgart Psalter',
+    wikimediaFile: 'Stuttgarter Psalter - Cod.bibl.fol.23, folio 163v.jpg',
+    year: 825, medium: 'Tempera on parchment',
+    // f.163v is in the late-psalter trumpet/Buisine cluster
+    bookSlug: 'psalms', chapter: 149, verseStart: 1, verseEnd: 9, sceneSlug: 'wisdom',
+  },
+
+  // ───────── HARLEY PSALTER (BL Harley MS 603, English copy of Utrecht, 10th c.) ─────────
+  {
+    externalId: 'harley-603-psalm-108',
+    title: 'Harley Psalter, Psalm 108 (fol. 55v)',
+    artistSlug: 'harley-603-master',
+    artistName: 'Master of the Harley Psalter',
+    artistNationality: 'English (Anglo-Saxon)',
+    artistBio: 'Anonymous English illuminator who, c. 1010 at Christ Church Canterbury, copied and adapted the Utrecht Psalter — producing British Library Harley MS 603, the first of three English copies of the Utrecht model.',
+    artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Harley_Psalter',
+    wikimediaFile: 'Harley Psalter - BL Harley 603 psalm 108 f55v.jpg',
+    year: 1010, medium: 'Pen drawing on parchment',
+    bookSlug: 'psalms', chapter: 109, verseStart: 1, verseEnd: 6, sceneSlug: 'suffering',
+    // Note: Vulgate Ps 108 = Hebrew Ps 109
+  },
+  {
+    externalId: 'harley-603-folio-2r',
+    title: 'Harley Psalter, fol. 2r (Beatus Vir)',
+    artistSlug: 'harley-603-master', artistName: 'Master of the Harley Psalter',
+    wikimediaFile: 'Harley ms 603 f002r.jpg',
+    year: 1010, medium: 'Pen drawing on parchment',
+    bookSlug: 'psalms', chapter: 1, verseStart: 1, verseEnd: 6, sceneSlug: 'wisdom',
+  },
+  {
+    externalId: 'harley-603-folio-24v-instruments',
+    title: 'Harley Psalter, fol. 24v (musical instruments)',
+    artistSlug: 'harley-603-master', artistName: 'Master of the Harley Psalter',
+    wikimediaFile: 'Harley Psalter folio 24v instruments.jpg',
+    year: 1010, medium: 'Pen drawing on parchment',
+    // f.24v area corresponds approximately to Psalm 42-43 (Hebrew)
+    bookSlug: 'psalms', chapter: 43, verseStart: 1, verseEnd: 5, sceneSlug: 'wisdom',
+  },
+  {
+    externalId: 'harley-603-folio-50r',
+    title: 'Harley Psalter, fol. 50r',
+    artistSlug: 'harley-603-master', artistName: 'Master of the Harley Psalter',
+    wikimediaFile: 'Harley ms 603 f050r.jpg',
+    year: 1010, medium: 'Pen drawing on parchment',
+    // f.50r area corresponds approximately to Psalm 100 (Hebrew)
+    bookSlug: 'psalms', chapter: 100, verseStart: 1, verseEnd: 5, sceneSlug: 'wisdom',
+  },
+  {
+    externalId: 'harley-603-folio-50v',
+    title: 'Harley Psalter, fol. 50v',
+    artistSlug: 'harley-603-master', artistName: 'Master of the Harley Psalter',
+    wikimediaFile: 'Harley ms 603 f050v.jpg',
+    year: 1010, medium: 'Pen drawing on parchment',
+    bookSlug: 'psalms', chapter: 101, verseStart: 1, verseEnd: 8, sceneSlug: 'wisdom',
+  },
+  {
+    externalId: 'harley-603-folio-70r',
+    title: 'Harley Psalter, fol. 70r',
+    artistSlug: 'harley-603-master', artistName: 'Master of the Harley Psalter',
+    wikimediaFile: 'Harley ms 603 f070r.jpg',
+    year: 1010, medium: 'Pen drawing on parchment',
+    // f.70r area corresponds approximately to Psalm 140-141 (Hebrew)
+    bookSlug: 'psalms', chapter: 141, verseStart: 1, verseEnd: 10, sceneSlug: 'suffering',
+  },
+
+  // ───────── BOSWORTH PSALTER (BL Add MS 37517, 10th c.) ─────────
+  {
+    externalId: 'bosworth-psalter-quid-gloriaris',
+    title: 'Bosworth Psalter, Quid Gloriaris (fol. 33r)',
+    artistSlug: 'bosworth-psalter-master',
+    artistName: 'Master of the Bosworth Psalter',
+    artistNationality: 'English (Anglo-Saxon)',
+    artistBio: 'Late 10th-century English illuminator (Canterbury or Glastonbury) responsible for the Bosworth Psalter, BL Add MS 37517.',
+    artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Bosworth_Psalter',
+    wikimediaFile: 'Bosworth Psalter - British Library Add MS 37517 f33r (Quid Gloriaris).jpg',
+    year: 990, medium: 'Tempera on parchment',
+    // "Quid gloriaris" = Vulgate Ps 51 = Hebrew Ps 52
+    bookSlug: 'psalms', chapter: 52, verseStart: 1, verseEnd: 9, sceneSlug: 'wisdom',
+  },
+
+  // ───────── SAINT LOUIS PSALTER (Paris, c.1255) ─────────
+  {
+    externalId: 'saint-louis-psalter-30v',
+    title: 'Saint Louis Psalter, fol. 30v',
+    artistSlug: 'saint-louis-psalter-master',
+    artistName: 'Master of the Saint Louis Psalter',
+    artistNationality: 'French (Gothic)',
+    artistBio: 'Anonymous Parisian illuminators who, c. 1255–1270, produced the Psalter of Saint Louis (BnF Latin 10525) for King Louis IX — one of the supreme achievements of Gothic illumination.',
+    artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Psalter_of_Saint_Louis',
+    wikimediaFile: 'Saint Louis Psalter 30 verso.jpg',
+    year: 1260, medium: 'Tempera and gold on parchment',
+    // f.30v of the Saint Louis Psalter is in the prefatory cycle showing
+    // Old Testament narrative scenes — typical placement is Genesis stories.
+    bookSlug: 'genesis', chapter: 22, verseStart: 1, verseEnd: 14, sceneSlug: 'abraham',
+  },
+
+  // ───────── BL STOWE 2 PSALTER ─────────
+  {
+    externalId: 'stowe-2-psalm-52-initial',
+    title: 'Stowe Psalter, Initial Q (fol. 56r) — Psalm 52',
+    artistSlug: 'stowe-2-master',
+    artistName: 'Master of the Stowe 2 Psalter',
+    artistNationality: 'English (Anglo-Saxon)',
+    wikimediaFile: 'PsalterBLStowe2Folio56rInitialQ.jpg',
+    year: 1050, medium: 'Tempera on parchment',
+    bookSlug: 'psalms', chapter: 52, verseStart: 1, verseEnd: 9, sceneSlug: 'wisdom',
+  },
+
+  // ───────── VITAE IMPERATORUM CHOIR PSALTER (Cleveland Museum) ─────────
+  {
+    externalId: 'vitae-imperatorum-beatus-vir',
+    title: 'Initial B (Beatus Vir) — Choir Psalter',
+    artistSlug: 'vitae-imperatorum-master',
+    artistName: "Master of the Vitae Imperatorum",
+    artistBirthYear: 1430, artistDeathYear: 1460,
+    artistNationality: 'Italian',
+    artistBio: '15th-century Lombard illuminator named for the manuscript of Suetonius\'s Vitae Imperatorum he illustrated; this Beatus Vir initial opens a choir psalter.',
+    wikimediaFile: 'Master of the \'Vitae Imperatorum\' - Initial "B" (eatus Vir) from a Choir Psalter - 2011.50 - Cleveland Museum of Art.tif',
+    year: 1450, medium: 'Tempera and gold on parchment',
+    bookSlug: 'psalms', chapter: 1, verseStart: 1, verseEnd: 3, sceneSlug: 'wisdom',
+  },
+
+  // ───────── VESPASIAN PSALTER (8th c. Anglo-Saxon) ─────────
+  {
+    externalId: 'vespasian-david-musicians',
+    title: 'David and his Musicians (Vespasian Psalter, fol. 30v)',
+    artistSlug: 'vespasian-psalter-master',
+    artistName: 'Master of the Vespasian Psalter',
+    artistNationality: 'Anglo-Saxon',
+    artistBio: 'Anonymous 8th-century English illuminator responsible for the Vespasian Psalter (BL Cotton MS Vespasian A I), among the earliest surviving Anglo-Saxon illuminated manuscripts.',
+    artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Vespasian_Psalter',
+    wikimediaFile: 'VespasianPsalterFolio30VDavidWthMusicians.jpg',
+    year: 730, medium: 'Tempera on parchment',
+    // The David & Musicians frontispiece introduces the entire Psalter — tag to Ps 1
+    bookSlug: 'psalms', chapter: 33, verseStart: 1, verseEnd: 5, sceneSlug: 'wisdom',
+  },
+
+  // ───────── BRISTOL PSALTER ─────────
+  {
+    externalId: 'bristol-psalter-chaldeans-captives',
+    title: 'Chaldean Soldiers with Hebrew Captives (Bristol Psalter)',
+    artistSlug: 'bristol-psalter-master',
+    artistName: 'Master of the Bristol Psalter',
+    artistNationality: 'Byzantine',
+    artistBio: 'Anonymous 11th-century Byzantine illuminator responsible for the Bristol Psalter (BL Add MS 40731), a marginal psalter in the Khludov tradition.',
+    artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Bristol_Psalter',
+    wikimediaFile: 'Chaldean soldiers with Hebrew captives.jpg',
+    year: 1070, medium: 'Tempera on parchment',
+    // Iconographic referent: Psalm 137 (the Babylonian captivity)
+    bookSlug: 'psalms', chapter: 137, verseStart: 1, verseEnd: 9, sceneSlug: 'suffering',
+  },
+
+  // ───────── REMBRANDT — Saul and David ─────────
+  // Tag to 1 Samuel 16 (the source narrative) since Psalms is well-served above.
+  {
+    externalId: 'rembrandt-saul-and-david',
+    title: 'Saul and David',
+    artistSlug: 'rembrandt-van-rijn',
+    artistName: 'Rembrandt van Rijn',
+    artistBirthYear: 1606, artistDeathYear: 1669,
+    artistNationality: 'Dutch',
+    artistBio: 'Dutch Golden Age painter and printmaker; one of the supreme religious painters in Western history.',
+    artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Rembrandt',
+    wikimediaFile: 'Saul and David by Rembrandt Mauritshuis 621.jpg',
+    year: 1655, medium: 'Oil on canvas',
+    bookSlug: '1-samuel', chapter: 16, verseStart: 14, verseEnd: 23, sceneSlug: 'david',
+  },
+
+  // ───────── DAVID DANCING BEFORE THE ARK (Rijksmuseum print) ─────────
+  // 1 Chronicles 15 (David brings the Ark to Jerusalem) — fills the 1 Chr gap.
+  {
+    externalId: 'rijks-david-dancing-before-ark',
+    title: 'David Dancing Before the Ark of the Covenant',
+    artistSlug: 'anonymous-rijks-engraver',
+    artistName: 'Anonymous (17th-c. Dutch engraver)',
+    artistNationality: 'Dutch',
+    artistBio: 'Anonymous 17th-century Dutch print after a Wierix-school composition of David dancing before the Ark.',
+    wikimediaFile: 'David speelt op zijn harp en danst voor de Ark van het Verbond, RP-P-OB-116.025.jpg',
+    year: 1640, medium: 'Engraving',
+    bookSlug: '1-chronicles', chapter: 15, verseStart: 25, verseEnd: 29, sceneSlug: 'david',
+  },
+
+  // ───────── PSALM 23 — generic Good Shepherd / Sheep ─────────
+  {
+    externalId: 'lord-is-my-good-shepherd',
+    title: 'The Lord is my Shepherd (Psalm 23)',
+    artistSlug: 'anonymous-19c',
+    artistName: 'Anonymous (19th-century engraver)',
+    wikimediaFile: 'The Lord is my Good Shepherd.jpg',
+    year: 1880, medium: 'Engraving',
+    bookSlug: 'psalms', chapter: 23, verseStart: 1, verseEnd: 6, sceneSlug: 'wisdom',
+  },
 ];
