@@ -31,14 +31,21 @@ interface QueueRow {
 
 async function loadQueue(): Promise<{ items: QueueItem[]; error?: string }> {
   try {
+    // Sort puts rejected/pending/flagged first (the items that need review)
+    // and approved last. With moderation_status DESC alphabetically:
+    //   rejected > pending > flagged > approved.
+    // limit is bumped to 10_000 so a moderator with thousands of pending
+    // items doesn't lose recent rejections off the bottom of a 500-row
+    // slice (we have ~6.8k total artworks — load them all).
     const { data, error } = await supabaseAdmin
       .from('artwork_moderation_queue')
       .select(
         'id, title, slug, image_url, thumbnail_url, moderation_status, moderation_scores, moderation_notes, moderation_reviewed_at, moderation_reviewed_by, report_count, latest_report_at, artist_id',
       )
       .order('latest_report_at', { ascending: false, nullsFirst: false })
-      .order('moderation_status', { ascending: true })
-      .limit(500);
+      .order('moderation_reviewed_at', { ascending: false, nullsFirst: false })
+      .order('moderation_status', { ascending: false })
+      .limit(10_000);
     if (error) {
       console.error('[artwork-moderation] query failed', error);
       return { items: [], error: error.message };
