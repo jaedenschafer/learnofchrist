@@ -78,10 +78,17 @@ export default function EditableStudyGuide({
     const el = rootRef.current?.querySelector<HTMLElement>(`[data-editable="${key}"]`);
     return (el?.innerText ?? '').replace(/ /g, ' ').trim();
   };
-  const readList = (key: string): string[] => {
-    const els = rootRef.current?.querySelectorAll<HTMLElement>(`[data-editable-list="${key}"] [data-editable-item]`);
+  // Read every leaf editable inside a data-editable-list container. The
+  // leaf selector is keyed off the field name so we can extend later
+  // (e.g. crossReferences) without touching the read code.
+  const readList = (key: string, leafSelector: string): string[] => {
+    const els = rootRef.current?.querySelectorAll<HTMLElement>(
+      `[data-editable-list="${key}"] ${leafSelector}`,
+    );
     if (!els) return [];
-    return Array.from(els).map((e) => e.innerText.replace(/ /g, ' ').trim()).filter(Boolean);
+    return Array.from(els)
+      .map((e) => e.innerText.replace(/ /g, ' ').trim())
+      .filter(Boolean);
   };
   const readThemes = (): { title: string; desc: string }[] => {
     const items = rootRef.current?.querySelectorAll<HTMLElement>('[data-editable-list="themes"] [data-editable-theme]');
@@ -103,7 +110,7 @@ export default function EditableStudyGuide({
       const christConnection = readField('christConnection');
       const keyVerseRef = readField('keyVerse-ref');
       const keyVerseText = readField('keyVerse-text');
-      const questions = readList('questions');
+      const questions = readList('questions', '[data-editable="question"]');
       const themes = readThemes();
       const next: ChapterContentShape = {
         overview,

@@ -158,11 +158,16 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
       {(level === 'intermediate' || level === 'deep') && (
         <div className="bg-[color:var(--color-surface)] rounded-2xl p-6">
           <h2 className="font-sans text-lg font-bold text-[color:var(--color-label)] mb-3">Study Questions</h2>
-          <div className="space-y-3">
+          <div className="space-y-3" data-editable-list="questions">
             {questions.map((q, i) => (
-              <div key={i} className="flex gap-3 items-start">
+              <div key={i} className="flex gap-3 items-start" data-editable-item>
                 <span className="text-sm font-bold text-[color:var(--color-primary)] mt-0.5">{i + 1}.</span>
-                <p className="text-base text-[color:var(--color-secondary-label)] leading-relaxed">{q}</p>
+                <p
+                  data-editable="question"
+                  className="text-base text-[color:var(--color-secondary-label)] leading-relaxed"
+                >
+                  {q}
+                </p>
               </div>
             ))}
           </div>
@@ -173,7 +178,12 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
       {(level === 'intermediate' || level === 'deep') && (
         <div className="bg-[color:var(--color-surface)] rounded-2xl p-6">
           <h2 className="font-sans text-lg font-bold text-[color:var(--color-label)] mb-3">Connection to Christ</h2>
-          <p className="text-base text-[color:var(--color-secondary-label)] leading-relaxed mb-3">{christConnection}</p>
+          <p
+            data-editable="christConnection"
+            className="text-base text-[color:var(--color-secondary-label)] leading-relaxed mb-3"
+          >
+            {christConnection}
+          </p>
           {!content && (
             <div className="bg-[#007AFF]/[0.04] border-l-[3px] border-[#007AFF]/30 rounded-r-xl p-4">
               <p className="scripture-quote text-base text-[color:var(--color-secondary-label)] leading-relaxed">

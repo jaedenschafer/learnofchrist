@@ -36,7 +36,7 @@ export const LEVITICUS_5: RichChapterContent = {
               number: 1,
               spans: [
                 t('And if a soul '),
-                hy('sin', 'lev5-sin-hata'),
+                hy('sin', 'lev5-witness'),
                 t(', and hear the voice of swearing, and is a witness, whether he hath seen or known of it; if he do not utter it, then he shall bear his iniquity.'),
               ],
             },
@@ -65,7 +65,7 @@ export const LEVITICUS_5: RichChapterContent = {
               number: 2,
               spans: [
                 t('Or if a soul touch '),
-                hy('any unclean thing', 'lev5-unclean'),
+                hy('any unclean thing', 'lev5-unaware'),
                 t(', whether it be a carcase of an unclean beast, or a carcase of unclean cattle, or the carcase of unclean creeping things, and if it be hidden from him; he also shall be unclean, and guilty.'),
               ],
             },
@@ -127,7 +127,7 @@ export const LEVITICUS_5: RichChapterContent = {
               number: 5,
               spans: [
                 t('And it shall be, when he shall be guilty in one of these things, that he shall '),
-                hg('confess that he hath sinned', 'lev5-confess'),
+                hg('confess that he hath sinned', 'lev5-confess-comm'),
                 t(' in that thing:'),
               ],
             },
@@ -135,7 +135,7 @@ export const LEVITICUS_5: RichChapterContent = {
               number: 6,
               spans: [
                 t('And he shall bring his trespass offering unto the LORD for his sin which he hath committed, a female from the flock, a lamb or a kid of the goats, for a sin offering; and the priest shall '),
-                hp('make an atonement', 'lev5-atonement'),
+                hp('make an atonement', 'lev5-atonement-comm'),
                 t(' for him concerning his sin.'),
               ],
             },
@@ -223,7 +223,7 @@ export const LEVITICUS_5: RichChapterContent = {
               number: 13,
               spans: [
                 t('And the priest shall make an atonement for him as touching his sin that he hath committed in one of these, and it shall be '),
-                hy('forgiven him', 'lev5-forgiven'),
+                hy('forgiven him', 'lev5-nislach-comm'),
                 t(': and the remnant shall be the priest&apos;s, as a meat offering.'),
               ],
             },
@@ -271,7 +271,7 @@ export const LEVITICUS_5: RichChapterContent = {
               number: 14,
               spans: [
                 t('And the LORD spake unto Moses, saying, If a soul commit a trespass, and sin through ignorance in the holy things of the LORD; then he shall bring for his trespass unto the LORD a '),
-                hy('ram without blemish', 'lev5-ram'),
+                hy('ram without blemish', 'lev5-holy-things'),
                 t(' out of the flocks, with thy estimation by shekels of silver, after the shekel of the sanctuary, for a trespass offering:'),
               ],
             },
@@ -291,7 +291,7 @@ export const LEVITICUS_5: RichChapterContent = {
               number: 15,
               spans: [
                 t('And he shall make amends for the harm that he hath done in the holy thing, and '),
-                hg('shall add the fifth part thereto', 'lev5-fifth'),
+                hg('shall add the fifth part thereto', 'lev5-fifth-comm'),
                 t(', and give it unto the priest: and the priest shall make an atonement for him with the ram of the trespass offering, and it shall be forgiven him.'),
               ],
             },
@@ -329,7 +329,7 @@ export const LEVITICUS_5: RichChapterContent = {
               number: 19,
               spans: [
                 t('And the priest shall make an atonement for him before the LORD: and it shall be '),
-                hp('forgiven him', 'lev5-forgiven-final'),
+                hp('forgiven him', 'lev5-secret-faults'),
                 t(' for any of these things that he hath done in trespassing therein.'),
               ],
             },
