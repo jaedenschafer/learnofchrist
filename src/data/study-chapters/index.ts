@@ -21,10 +21,14 @@ import type { ChapterContent } from '../chapter-content';
 import type { Verse } from '../../lib/supabase';
 import type { Block, RichChapterContent } from './types';
 import { GENESIS_1 } from './genesis-1';
+import { GENESIS_2 } from './genesis-2';
+import { GENESIS_3 } from './genesis-3';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'genesis/1': GENESIS_1,
+  'genesis/2': GENESIS_2,
+  'genesis/3': GENESIS_3,
 };
 
 /**
