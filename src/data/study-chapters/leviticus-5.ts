@@ -148,6 +148,12 @@ export const LEVITICUS_5: RichChapterContent = {
             'The word <em>confess</em> here is <em>yadah</em> in Hebrew—it means to acknowledge, to admit, to throw oneself on the mercy of God. Before the offering is brought, the person brings the truth. They name what they did. And then the priest makes atonement—covers it over, makes it not count against them anymore.',
         },
         {
+          kind: 'commentary',
+          id: 'lev5-atonement-comm',
+          html:
+            'The atonement is the covering that makes the sin no longer stand between the person and God. It is the priestly work—the act of restoration that follows acknowledgment.',
+        },
+        {
           kind: 'carry',
           html:
             'A careless word. An oath you forgot you made. A promise you now can&apos;t keep. The Law doesn&apos;t allow you to pretend it didn&apos;t happen. But it does allow you to name it out loud and have it covered. Every rash thing you&apos;ve said is still heard in God&apos;s ear—but so is your admission of it.',
@@ -173,7 +179,7 @@ export const LEVITICUS_5: RichChapterContent = {
               number: 7,
               spans: [
                 t('And if he be not able to bring a lamb, then he shall bring for his trespass, which he hath committed, '),
-                hg('two turtledoves, or two young pigeons', 'lev5-graduated'),
+                hg('two turtledoves, or two young pigeons', 'lev5-graduated-comm'),
                 t(', unto the LORD; one for a sin offering, and the other for a burnt offering.'),
               ],
             },
@@ -193,7 +199,7 @@ export const LEVITICUS_5: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'lev5-poor-grace',
+          id: 'lev5-graduated-comm',
           html:
             'The Law makes a stunning move here. If you are poor—if you cannot afford a lamb—you bring birds. If even that is too much, look at verse 11. The offering changes shape, but the sin is covered the same way. Poverty does not disqualify you from standing before God. There is always an offering you can bring.',
         },
@@ -237,6 +243,12 @@ export const LEVITICUS_5: RichChapterContent = {
           translit: '<strong>nislach</strong> · covered, carried away, atoned for',
           description:
             'The root carries the sense of something being wiped out, erased, made as if it never counted against you. This is the repeated word through Leviticus—the offering accomplishes a covering so complete that the sin no longer stands between the person and God.',
+        },
+        {
+          kind: 'commentary',
+          id: 'lev5-nislach-comm',
+          html:
+            'The forgiveness here is <em>nislach</em>—complete covering. Whether the offering was a lamb, birds, or flour, the result is identical. The sin is no longer held against the person.',
         },
         {
           kind: 'christ',
@@ -291,7 +303,7 @@ export const LEVITICUS_5: RichChapterContent = {
               number: 15,
               spans: [
                 t('And he shall make amends for the harm that he hath done in the holy thing, and '),
-                hg('shall add the fifth part thereto', 'lev5-fifth-comm'),
+                hg('shall add the fifth part thereto', 'lev5-restitution'),
                 t(', and give it unto the priest: and the priest shall make an atonement for him with the ram of the trespass offering, and it shall be forgiven him.'),
               ],
             },

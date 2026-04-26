@@ -110,6 +110,26 @@ import { EXODUS_37 } from './exodus-37';
 import { EXODUS_38 } from './exodus-38';
 import { EXODUS_39 } from './exodus-39';
 import { EXODUS_40 } from './exodus-40';
+import { LEVITICUS_1 } from './leviticus-1';
+import { LEVITICUS_2 } from './leviticus-2';
+import { LEVITICUS_3 } from './leviticus-3';
+import { LEVITICUS_4 } from './leviticus-4';
+import { LEVITICUS_5 } from './leviticus-5';
+import { LEVITICUS_6 } from './leviticus-6';
+import { LEVITICUS_7 } from './leviticus-7';
+import { LEVITICUS_8 } from './leviticus-8';
+import { LEVITICUS_9 } from './leviticus-9';
+import { LEVITICUS_10 } from './leviticus-10';
+import { LEVITICUS_11 } from './leviticus-11';
+import { LEVITICUS_12 } from './leviticus-12';
+import { LEVITICUS_13 } from './leviticus-13';
+import { LEVITICUS_14 } from './leviticus-14';
+import { LEVITICUS_15 } from './leviticus-15';
+import { LEVITICUS_16 } from './leviticus-16';
+import { LEVITICUS_17 } from './leviticus-17';
+import { LEVITICUS_18 } from './leviticus-18';
+import { LEVITICUS_19 } from './leviticus-19';
+import { LEVITICUS_20 } from './leviticus-20';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -203,6 +223,26 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'exodus/38': EXODUS_38,
   'exodus/39': EXODUS_39,
   'exodus/40': EXODUS_40,
+  'leviticus/1': LEVITICUS_1,
+  'leviticus/2': LEVITICUS_2,
+  'leviticus/3': LEVITICUS_3,
+  'leviticus/4': LEVITICUS_4,
+  'leviticus/5': LEVITICUS_5,
+  'leviticus/6': LEVITICUS_6,
+  'leviticus/7': LEVITICUS_7,
+  'leviticus/8': LEVITICUS_8,
+  'leviticus/9': LEVITICUS_9,
+  'leviticus/10': LEVITICUS_10,
+  'leviticus/11': LEVITICUS_11,
+  'leviticus/12': LEVITICUS_12,
+  'leviticus/13': LEVITICUS_13,
+  'leviticus/14': LEVITICUS_14,
+  'leviticus/15': LEVITICUS_15,
+  'leviticus/16': LEVITICUS_16,
+  'leviticus/17': LEVITICUS_17,
+  'leviticus/18': LEVITICUS_18,
+  'leviticus/19': LEVITICUS_19,
+  'leviticus/20': LEVITICUS_20,
 };
 
 /**
