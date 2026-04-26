@@ -285,6 +285,12 @@ export const EXODUS_25: RichChapterContent = {
             'The lampstand is made of beaten gold—one talent of pure gold worked by a craftsman&apos;s hammer into an intricate shape. Not poured into a mold. Not cast. Beaten. Shaped. Each curve and branch formed under the blow of the hammer. The detail is remarkable: almond blossoms, buds, flowers—all made in gold, all beaten by hand. The most expensive thing in the sanctuary is also the most beautiful thing in it.',
         },
         {
+          kind: 'commentary',
+          id: 'pattern-given',
+          html:
+            'The phrase &quot;after the pattern&quot; recurs through Exodus. A pattern was shown to Moses on the mount—a vision, a blueprint, a picture of reality as God intended it to be. The sanctuary is not to be invented or decorated according to the builder&apos;s taste. It is to be built precisely as God showed it. The pattern is from God. The execution is the people&apos;s. But the vision belongs to God alone.',
+        },
+        {
           kind: 'christ',
           id: 'christ-light-world',
           title: 'Christ Connection — The Light of the World',

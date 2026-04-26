@@ -51,6 +51,18 @@ export const EXODUS_26: RichChapterContent = {
         },
         {
           kind: 'commentary',
+          id: 'num-ten',
+          html:
+            'Ten curtains, a number of completion in Scripture. Each one the same size, each one holding the cherubim woven inside it. The tabernacle is not built of one great expanse but of ten pieces, carefully matched and fastened together.',
+        },
+        {
+          kind: 'commentary',
+          id: 'linen-fine',
+          html:
+            'Fine twined linen — the finest cloth available. This is not rough material for daily use. This is the cloth of priestly garments, of the most sacred coverings. The inner layer of the tabernacle is woven with the same care as the garments of the priest who serves inside it.',
+        },
+        {
+          kind: 'commentary',
           id: 'cherub-woven',
           html:
             'The curtains are not plain cloth. They are woven with cherubim — the creatures that guard God&apos;s presence. Every time the priest moved inside the tabernacle, he was surrounded by woven reminders of the holiness he was entering. These are not decorative. They are theological.',
@@ -235,6 +247,12 @@ export const EXODUS_26: RichChapterContent = {
           id: 'rams-red',
           html:
             'Ram skins dyed red. Red, the color of sacrifice throughout the Bible. The rams whose skins now cover the tabernacle are a foreshadow — skins that have been offered, that have become protection. And then a layer of badger skin on top — a creature that burrows into the earth, a creature of the hidden things. Three layers: linen, goat hair, ram skin, badger skin. Four walls of separation between the holy place and the unholy world.',
+        },
+        {
+          kind: 'commentary',
+          id: 'badger-skins',
+          html:
+            'The badger — a creature of the hidden places, the burrows, the earth. Its skin is the outermost layer, the final protection. What protects the sacred inner beauty is not something grand or visible, but something humble, hardworking, and hidden. The badger skin says something: the real work of protection is the work no one sees.',
         },
         {
           kind: 'carry',
