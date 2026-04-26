@@ -53,6 +53,11 @@ export default async function ArtByChapterPage({ params }: PageProps) {
 
   const artworks = await getArtworksForChapter(slug, chapter);
 
+  // Split painted artworks from manuscript-page folios so each gets its
+  // own grid + heading on the chapter art browse page.
+  const paintings = artworks.filter((a) => !(a.tags?.includes('manuscript-page') ?? false));
+  const manuscripts = artworks.filter((a) => a.tags?.includes('manuscript-page') ?? false);
+
   return (
     <div className="page-container">
       <div className="max-w-5xl mx-auto">
@@ -85,11 +90,35 @@ export default async function ArtByChapterPage({ params }: PageProps) {
             No art indexed for this chapter yet.
           </p>
         ) : (
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 mt-8">
-            {artworks.map((art) => (
-              <ArtCard key={art.id} artwork={art} />
-            ))}
-          </div>
+          <>
+            {paintings.length > 0 && (
+              <section className="mt-8">
+                {manuscripts.length > 0 && (
+                  <h2 className="text-xl font-semibold mb-3">Artwork</h2>
+                )}
+                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                  {paintings.map((art) => (
+                    <ArtCard key={art.id} artwork={art} />
+                  ))}
+                </div>
+              </section>
+            )}
+            {manuscripts.length > 0 && (
+              <section className="mt-12">
+                <h2 className="text-xl font-semibold mb-1">Ancient manuscript</h2>
+                <p className="text-sm text-[color:var(--color-secondary-label)] mb-3">
+                  Folios from surviving Latin Vulgate manuscripts that contain this chapter.
+                  Most pages are 8th–9th century parchment text; some are full-page
+                  illuminations.
+                </p>
+                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                  {manuscripts.map((art) => (
+                    <ArtCard key={art.id} artwork={art} />
+                  ))}
+                </div>
+              </section>
+            )}
+          </>
         )}
       </div>
     </div>
