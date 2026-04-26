@@ -46,7 +46,11 @@ const FORCE = args.includes('--force');
 const DRY_RUN = args.includes('--dry-run');
 const limitIdx = args.indexOf('--limit');
 const LIMIT = limitIdx >= 0 ? parseInt(args[limitIdx + 1], 10) : null;
-const BATCH_SIZE = 25;
+// Wikimedia rate-limits source fetches at roughly 10 req/s for unauthenticated
+// clients with a real User-Agent. Keep concurrency low and sequence between
+// batches so we don't burn through the budget.
+const BATCH_SIZE = 4;
+const MIN_FETCH_GAP_MS = 150;
 const RUN_ID = new Date().toISOString().replace(/[:.]/g, '-');
 
 // Failure log
@@ -107,13 +111,24 @@ async function sbUploadStorage(bucket, path, buffer, contentType) {
 
 // ── Image processing ──
 
-async function fetchImageBuffer(url) {
+async function fetchImageBuffer(url, attempt = 0) {
   // Wikimedia + Met both serve very large originals — bound at 25MB so a
   // pathological row can't OOM the worker.
   const res = await fetch(url, {
-    headers: { 'User-Agent': 'LearnOfChrist-Backfill/1.0 (https://learnofchrist.com)' },
+    headers: {
+      'User-Agent': 'LearnOfChrist-Backfill/1.0 (contact: hello@learnofchrist.com)',
+      'Accept': 'image/*',
+    },
     redirect: 'follow',
   });
+  if (res.status === 429 || res.status === 503) {
+    if (attempt >= 4) throw new Error(`Fetch ${url} → ${res.status} after ${attempt} retries`);
+    // Exponential backoff: 1s, 2s, 4s, 8s. Honor Retry-After if Wikimedia sends it.
+    const retryAfter = parseInt(res.headers.get('retry-after') || '0', 10);
+    const wait = retryAfter > 0 ? retryAfter * 1000 : Math.pow(2, attempt) * 1000;
+    await new Promise((r) => setTimeout(r, wait));
+    return fetchImageBuffer(url, attempt + 1);
+  }
   if (!res.ok) throw new Error(`Fetch ${url} → ${res.status}`);
   const buf = Buffer.from(await res.arrayBuffer());
   if (buf.length > 25 * 1024 * 1024) throw new Error(`Image too large: ${buf.length} bytes`);
@@ -198,6 +213,10 @@ async function main() {
       }
       console.log(`  [${i + batch.indexOf(row) + 1}/${rows.length}] ${row.slug} — ${patch.dominant_color}`);
     }));
+    // Polite pause between batches so we stay well under Wikimedia's
+    // 10 req/s budget (≈4 reqs / 150ms ≈ 26 req/s on bursts; the gap
+    // averages us down).
+    await new Promise((r) => setTimeout(r, MIN_FETCH_GAP_MS));
 
     for (let j = 0; j < results.length; j++) {
       if (results[j].status === 'fulfilled') {

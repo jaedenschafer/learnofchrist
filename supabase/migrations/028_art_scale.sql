@@ -28,10 +28,7 @@ alter table public.artworks
   add column if not exists tags              text[] not null default '{}',
   add column if not exists scripture_ref_count int not null default 0;
 
--- search_text is a generated stored tsvector. STORED so the GIN index on it
--- is cheap to use; the column updates automatically when title/desc/medium
--- change. artist_name is denormalized in via a separate trigger below since
--- generated columns can't reference other tables.
+-- artist_name is denormalized into artworks for FTS weighting.
 alter table public.artworks
   add column if not exists artist_name_cached text;
 
@@ -42,19 +39,42 @@ update public.artworks a
  where a.artist_id = ar.id
    and (a.artist_name_cached is null or a.artist_name_cached <> ar.name);
 
+-- search_text is a regular tsvector column maintained by a BEFORE trigger.
+-- (Can't use a generated column: to_tsvector('english', ...) is STABLE
+-- not IMMUTABLE — Postgres rejects it as a generation expression.)
 alter table public.artworks
-  add column if not exists search_text tsvector
-    generated always as (
-      setweight(to_tsvector('english', coalesce(title,             '')), 'A') ||
-      setweight(to_tsvector('english', coalesce(artist_name_cached,'')), 'B') ||
-      setweight(to_tsvector('english', coalesce(description,       '')), 'C') ||
-      setweight(to_tsvector('english', coalesce(medium,            '')), 'D') ||
-      setweight(to_tsvector('english',
-        coalesce(array_to_string(biblical_character, ' '), '') || ' ' ||
-        coalesce(array_to_string(biblical_theme,     ' '), '') || ' ' ||
-        coalesce(array_to_string(tags,               ' '), '')
-      ), 'C')
-    ) stored;
+  add column if not exists search_text tsvector;
+
+create or replace function public.artworks_set_search_text()
+returns trigger language plpgsql as $$
+begin
+  new.search_text :=
+    setweight(to_tsvector('english', coalesce(new.title,             '')), 'A') ||
+    setweight(to_tsvector('english', coalesce(new.artist_name_cached,'')), 'B') ||
+    setweight(to_tsvector('english', coalesce(new.description,       '')), 'C') ||
+    setweight(to_tsvector('english', coalesce(new.medium,            '')), 'D') ||
+    setweight(to_tsvector('english',
+      coalesce(array_to_string(new.biblical_character, ' '), '') || ' ' ||
+      coalesce(array_to_string(new.biblical_theme,     ' '), '') || ' ' ||
+      coalesce(array_to_string(new.tags,               ' '), '')
+    ), 'C');
+  return new;
+end;
+$$;
+
+drop trigger if exists trg_artworks_search_text on public.artworks;
+create trigger trg_artworks_search_text
+  before insert or update of title, artist_name_cached, description, medium,
+                              biblical_character, biblical_theme, tags
+  on public.artworks
+  for each row execute function public.artworks_set_search_text();
+
+-- Initial backfill of search_text for existing rows. Touch every row so the
+-- trigger fires; the WHERE-clause prevents touching rows already populated
+-- on a re-run.
+update public.artworks
+   set title = title
+ where search_text is null;
 
 -- ─── 2. Indexes for sort, filter, search, pagination ────────────────────
 
