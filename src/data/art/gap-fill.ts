@@ -1151,4 +1151,256 @@ export const GAP_FILL_ITEMS: GapFillItem[] = [
     year: 1485, medium: 'Oil on panel',
     bookSlug: '2-samuel', chapter: 11, verseStart: 2, verseEnd: 5, sceneSlug: 'david',
   },
+
+  // ═════════════════════════════════════════════════════════════════════
+  // FOURTH WAVE — depth on Isaiah, Jeremiah, Ezekiel, plus Tissot OT
+  // gaps, Chagall, El Greco Pentecost
+  // ═════════════════════════════════════════════════════════════════════
+
+  // ───────── ISAIAH — iconic chapter scenes ─────────
+  {
+    externalId: 'hicks-peaceable-kingdom',
+    title: 'The Peaceable Kingdom',
+    artistSlug: 'edward-hicks',
+    artistName: 'Edward Hicks',
+    artistBirthYear: 1780, artistDeathYear: 1849,
+    artistNationality: 'American',
+    artistBio: 'American Quaker preacher and folk painter best known for his ~62 versions of The Peaceable Kingdom — a visual meditation on Isaiah 11:6-9.',
+    artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Edward_Hicks',
+    wikimediaFile: 'Edward Hicks - Peaceable Kingdom.jpg',
+    year: 1834, medium: 'Oil on canvas',
+    bookSlug: 'isaiah', chapter: 11, verseStart: 6, verseEnd: 9, sceneSlug: 'wisdom',
+  },
+  {
+    externalId: 'botticelli-mystic-nativity-isaiah',
+    title: 'The Mystical Nativity (Isaiah 9 — Unto us a child is born)',
+    artistSlug: 'sandro-botticelli',
+    artistName: 'Sandro Botticelli',
+    artistBirthYear: 1445, artistDeathYear: 1510,
+    artistNationality: 'Italian',
+    artistBio: 'Italian Early Renaissance painter of the Florentine school.',
+    artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Sandro_Botticelli',
+    wikimediaFile: 'Mystic Nativity, Sandro Botticelli.jpg',
+    year: 1500, medium: 'Tempera on canvas',
+    bookSlug: 'isaiah', chapter: 9, verseStart: 6, verseEnd: 7, sceneSlug: 'nativity',
+    description: 'Botticelli\'s late apocalyptic Nativity visualizes Isaiah 9:6 — "for unto us a child is born".',
+  },
+  {
+    externalId: 'murillo-immaculate-conception-isaiah',
+    title: 'The Immaculate Conception (Isaiah 7:14)',
+    artistSlug: 'bartolome-esteban-murillo',
+    artistName: 'Bartolomé Esteban Murillo',
+    artistBirthYear: 1617, artistDeathYear: 1682,
+    artistNationality: 'Spanish',
+    artistBio: 'Spanish Baroque painter of the Seville school, known for his Madonnas and street-children scenes.',
+    artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Bartolom%C3%A9_Esteban_Murillo',
+    wikimediaFile: 'Bartolomé Esteban Perez Murillo - Immaculate Conception - WGA16380.jpg',
+    year: 1670, medium: 'Oil on canvas',
+    bookSlug: 'isaiah', chapter: 7, verseStart: 14, verseEnd: 14, sceneSlug: 'nativity',
+  },
+  {
+    externalId: 'holman-hunt-light-of-the-world',
+    title: 'The Light of the World',
+    artistSlug: 'william-holman-hunt',
+    artistName: 'William Holman Hunt',
+    wikimediaFile: 'Hunt, William Homan - The Light of the World - 1853-54.jpg',
+    year: 1854, medium: 'Oil on canvas',
+    bookSlug: 'isaiah', chapter: 60, verseStart: 1, verseEnd: 3, sceneSlug: 'apocalypse',
+    description: 'Holman Hunt\'s allegory of Christ knocking — "Arise, shine; for thy light is come" (Isaiah 60:1) and Revelation 3:20.',
+  },
+  {
+    externalId: 'holman-hunt-triumph-innocents',
+    title: 'The Triumph of the Innocents',
+    artistSlug: 'william-holman-hunt', artistName: 'William Holman Hunt',
+    wikimediaFile: 'William Holman Hunt - The Triumph of the Innocents - Google Art Project.jpg',
+    year: 1885, medium: 'Oil on canvas',
+    // Jeremiah 31:15 "Rachel weeping for her children" — quoted in Matt 2:18
+    bookSlug: 'jeremiah', chapter: 31, verseStart: 15, verseEnd: 17, sceneSlug: 'suffering',
+  },
+
+  // ───────── JEREMIAH / LAMENTATIONS ─────────
+  {
+    externalId: 'rembrandt-jeremiah-lamenting',
+    title: 'Jeremiah Lamenting the Destruction of Jerusalem',
+    artistSlug: 'rembrandt-van-rijn',
+    artistName: 'Rembrandt van Rijn',
+    wikimediaFile: 'Rembrandt - Jeremiah Lamenting the Destruction of Jerusalem - WGA19091.jpg',
+    year: 1630, medium: 'Oil on panel',
+    bookSlug: 'lamentations', chapter: 1, verseStart: 1, verseEnd: 12, sceneSlug: 'suffering',
+  },
+  {
+    externalId: 'tissot-flight-of-prisoners',
+    title: 'The Flight of the Prisoners',
+    artistSlug: 'james-tissot',
+    artistName: 'James Tissot',
+    wikimediaFile: 'Tissot The Flight of the Prisoners.jpg',
+    year: 1896, medium: 'Gouache on board',
+    // Jeremiah 52 — the Babylonian deportation
+    bookSlug: 'jeremiah', chapter: 52, verseStart: 12, verseEnd: 30, sceneSlug: 'suffering',
+  },
+  {
+    externalId: 'tissot-dead-bodies-carried-away',
+    title: 'The Dead Bodies Carried Away',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot The Dead Bodies Carried Away.jpg',
+    year: 1896, medium: 'Gouache on board',
+    bookSlug: 'lamentations', chapter: 2, verseStart: 20, verseEnd: 22, sceneSlug: 'suffering',
+  },
+
+  // ───────── EZEKIEL ─────────
+  {
+    externalId: 'gap-fill-ezekiel-dry-bones',
+    title: "Ezekiel's Vision of the Dry Bones",
+    artistSlug: 'anonymous-19c',
+    artistName: 'Anonymous (19th-c. devotional engraver)',
+    wikimediaFile: "Ezekiel's vision of dry bones.jpg",
+    year: 1880, medium: 'Engraving',
+    bookSlug: 'ezekiel', chapter: 37, verseStart: 1, verseEnd: 14, sceneSlug: 'apocalypse',
+  },
+  {
+    externalId: 'collantes-vision-of-ezekiel',
+    title: 'The Vision of Ezekiel',
+    artistSlug: 'francisco-collantes',
+    artistName: 'Francisco Collantes',
+    artistBirthYear: 1599, artistDeathYear: 1656,
+    artistNationality: 'Spanish',
+    artistBio: 'Spanish Baroque painter of landscapes and biblical scenes.',
+    artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Francisco_Collantes',
+    wikimediaFile: 'Collantes, Francisco - The Vision of Ezekiel - 1630.jpg',
+    year: 1630, medium: 'Oil on canvas',
+    bookSlug: 'ezekiel', chapter: 37, verseStart: 1, verseEnd: 14, sceneSlug: 'apocalypse',
+  },
+  {
+    externalId: 'blunck-vision-of-ezekiel',
+    title: 'The Vision of the Prophet Ezekiel',
+    artistSlug: 'ditlev-blunck',
+    artistName: 'Ditlev Blunck',
+    artistBirthYear: 1798, artistDeathYear: 1854,
+    artistNationality: 'Danish-German',
+    artistBio: 'Danish-German history painter associated with the Düsseldorf school.',
+    wikimediaFile: 'Ditlev Blunck - The Vision of the Prophet Ezekiel - KMS200 - Statens Museum for Kunst.jpg',
+    year: 1845, medium: 'Oil on canvas',
+    bookSlug: 'ezekiel', chapter: 1, verseStart: 1, verseEnd: 28, sceneSlug: 'prophets',
+  },
+  {
+    externalId: 'tissot-ezekiel-portrait',
+    title: 'Ezekiel (portrait)',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot Ezekiel.jpg',
+    year: 1896, medium: 'Gouache on board',
+    bookSlug: 'ezekiel', chapter: 2, verseStart: 1, verseEnd: 8, sceneSlug: 'prophets',
+  },
+
+  // ───────── TISSOT MINOR PROPHET PORTRAITS — fill thinly-covered books ─────────
+  {
+    externalId: 'tissot-hosea-cropped',
+    title: 'Hosea (portrait)',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Hosea by James Tissot (cropped).jpg',
+    year: 1896, medium: 'Gouache on board',
+    bookSlug: 'hosea', chapter: 1, verseStart: 1, verseEnd: 11, sceneSlug: 'prophets',
+  },
+  {
+    externalId: 'tissot-joel-portrait',
+    title: 'Joel (portrait)',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot Joel.jpg',
+    year: 1896, medium: 'Gouache on board',
+    bookSlug: 'joel', chapter: 1, verseStart: 1, verseEnd: 20, sceneSlug: 'prophets',
+  },
+  {
+    externalId: 'tissot-amos-portrait',
+    title: 'Amos (portrait)',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot Amos.jpg',
+    year: 1896, medium: 'Gouache on board',
+    bookSlug: 'amos', chapter: 5, verseStart: 21, verseEnd: 24, sceneSlug: 'prophets',
+  },
+  {
+    externalId: 'tissot-micah-portrait',
+    title: 'Micah (portrait)',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot Micah.jpg',
+    year: 1896, medium: 'Gouache on board',
+    bookSlug: 'micah', chapter: 6, verseStart: 6, verseEnd: 8, sceneSlug: 'prophets',
+  },
+
+  // ───────── OT NARRATIVE — Tissot chapters not yet in DB ─────────
+  {
+    externalId: 'tissot-nathan-rebukes-david',
+    title: 'Nathan Rebukes David',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot Nathan Rebukes David.jpg',
+    year: 1896, medium: 'Gouache on board',
+    bookSlug: '2-samuel', chapter: 12, verseStart: 1, verseEnd: 14, sceneSlug: 'david',
+  },
+  {
+    externalId: 'tissot-jephthahs-daughter',
+    title: "Jephthah's Daughter",
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: "Tissot Jephthah's Daughter.jpg",
+    year: 1896, medium: 'Gouache on board',
+    bookSlug: 'judges', chapter: 11, verseStart: 29, verseEnd: 40, sceneSlug: 'judges',
+  },
+
+  // ───────── MARC CHAGALL — Israelites Pass the Jordan (Joshua 3) ─────────
+  {
+    externalId: 'chagall-israelites-pass-jordan',
+    title: 'The Israelites Pass the Jordan',
+    artistSlug: 'marc-chagall',
+    artistName: 'Marc Chagall',
+    artistBirthYear: 1887, artistDeathYear: 1985,
+    artistNationality: 'Belarusian-French',
+    artistBio: 'Belarusian-French modernist painter and printmaker; his Bible series (1956 etchings + 1960 lithographs) is among the most ambitious 20th-century biblical illustration cycles.',
+    artistWikipediaUrl: 'https://en.wikipedia.org/wiki/Marc_Chagall',
+    wikimediaFile: 'Marc Chagall - Les Israélites passent le Jourdain.jpg',
+    year: 1956, medium: 'Etching',
+    bookSlug: 'joshua', chapter: 3, verseStart: 14, verseEnd: 17, sceneSlug: 'conquest',
+  },
+
+  // ───────── EL GRECO — Pentecost (Acts 2) ─────────
+  {
+    externalId: 'el-greco-pentecost',
+    title: 'Pentecost',
+    artistSlug: 'el-greco',
+    artistName: 'El Greco (Doménikos Theotokópoulos)',
+    wikimediaFile: 'Pentecostés (El Greco, c. 1600) Prado.jpg',
+    year: 1600, medium: 'Oil on canvas',
+    bookSlug: 'acts', chapter: 2, verseStart: 1, verseEnd: 13, sceneSlug: 'apostles',
+  },
+
+  // ───────── FILIPPO MAZZOLA — Dead Christ (Hebrews 9 priesthood) ─────────
+  {
+    externalId: 'mazzola-dead-christ-walters',
+    title: 'The Dead Christ Supported by Angels',
+    artistSlug: 'filippo-mazzola',
+    artistName: 'Filippo Mazzola',
+    artistBirthYear: 1460, artistDeathYear: 1505,
+    artistNationality: 'Italian',
+    artistBio: 'Italian Renaissance painter of the Parma school; father of Parmigianino.',
+    wikimediaFile: 'Filippo Mazzola - The Dead Christ Supported by Angels - Walters 371056.jpg',
+    year: 1495, medium: 'Tempera and oil on panel',
+    bookSlug: 'hebrews', chapter: 9, verseStart: 11, verseEnd: 14, sceneSlug: 'crucifixion',
+    description: 'The Man of Sorrows iconography — Christ as the high priest who entered the heavenly sanctuary by his own blood (Hebrews 9:11-14).',
+  },
+
+  // ───────── TISSOT — additional OT scenes for thinly-covered books ─────────
+  {
+    externalId: 'tissot-prophecy-destruction-temple',
+    title: 'The Prophecy of the Destruction of the Temple',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Brooklyn Museum - The Prophecy of the Destruction of the Temple (La prédication de la ruine du Temple) - James Tissot.jpg',
+    year: 1890, medium: 'Gouache on board',
+    // Mark 13 (Olivet discourse) — and Mark 13 is not yet covered (Mark is ~69%)
+    bookSlug: 'mark', chapter: 13, verseStart: 1, verseEnd: 8, sceneSlug: 'passion',
+  },
+  {
+    externalId: 'tissot-chaldees-destroy-brazen-sea',
+    title: 'The Chaldees Destroy the Brazen Sea',
+    artistSlug: 'james-tissot', artistName: 'James Tissot',
+    wikimediaFile: 'Tissot The Chaldees Destroy the Brazen Sea.jpg',
+    year: 1896, medium: 'Gouache on board',
+    // 2 Kings 25:13-17 — Babylonian destruction of Solomon's bronze temple fittings
+    bookSlug: '2-kings', chapter: 25, verseStart: 13, verseEnd: 17, sceneSlug: 'suffering',
+  },
 ];
