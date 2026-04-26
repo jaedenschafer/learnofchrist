@@ -1,11 +1,11 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 26 — The Famine, the Wells, and Isaac's Patience
+ * Genesis 26 — The Famine, the Wells, and Isaac\'s Patience
  *
  * The only chapter of the Bible told almost entirely through Isaac. No
  * Abraham before him, no Jacob yet to steal the show. A quieter narrative
- * than his father's, and quieter than his son's — but patient, faithful,
+ * than his father\'s, and quieter than his son's — but patient, faithful,
  * and marked by a refusal to flee when circumstances press. Isaac digs again
  * what his father had dug. The Philistines stop the wells. He digs again.
  * This is the whole chapter: a man staying, persisting, not panicking when
@@ -17,8 +17,8 @@ export const GENESIS_26: RichChapterContent = {
   chapter: 26,
 
   intros: [
-    'Genesis 26 is Isaac's chapter — the only long narrative told mostly through his eyes. There is no Abraham to overshadow it, no Jacob to steal the story yet. And it is quieter than both: a chapter about staying when you would rather flee, and about digging again wells that others have filled in. A famine comes to the land. God appears to Isaac and tells him: do not go down to Egypt. Stay here. And so Isaac stays. He builds, he plants, he prospers — and when others tear down what he has built, he builds it again.',
-    'The pattern repeats: Isaac sows, God multiplies it a hundredfold. Isaac digs a well, the Philistines stop it up. Isaac moves and digs another. Three wells in a row — Esek, Sitnah, Rehoboth — each one a small refusal to be driven away. Then comes rest: a covenant with Abimelech, the promise of God restated, a well that stays open. But the chapter ends not with victory but with grief: Esau marries foreign women, and Isaac and Rebekah's hearts are heavy. The reward of faithfulness is not always the happiness of your children.',
+    'Genesis 26 is Isaac\'s chapter — the only long narrative told mostly through his eyes. There is no Abraham to overshadow it, no Jacob to steal the story yet. And it is quieter than both: a chapter about staying when you would rather flee, and about digging again wells that others have filled in. A famine comes to the land. God appears to Isaac and tells him: do not go down to Egypt. Stay here. And so Isaac stays. He builds, he plants, he prospers — and when others tear down what he has built, he builds it again.',
+    'The pattern repeats: Isaac sows, God multiplies it a hundredfold. Isaac digs a well, the Philistines stop it up. Isaac moves and digs another. Three wells in a row — Esek, Sitnah, Rehoboth — each one a small refusal to be driven away. Then comes rest: a covenant with Abimelech, the promise of God restated, a well that stays open. But the chapter ends not with victory but with grief: Esau marries foreign women, and Isaac and Rebekah\'s hearts are heavy. The reward of faithfulness is not always the happiness of your children.',
   ],
 
   bottomShare: {
@@ -30,7 +30,7 @@ export const GENESIS_26: RichChapterContent = {
   },
 
   sections: [
-    /* ─── Genesis 26:1–6 — Famine and God's Word ──────────────────────── */
+    /* ─── Genesis 26:1–6 — Famine and God\'s Word ──────────────────────── */
     {
       ref: 'Genesis 26:1–6',
       title: 'Famine in the Land',
@@ -91,31 +91,31 @@ export const GENESIS_26: RichChapterContent = {
           kind: 'commentary',
           id: 'c-famine',
           html:
-            'Famine is to the patriarchs what the sea is to sailors — the constant threat, the moment when faith either deepens or shatters. Isaac is at Gerar when the famine strikes. The natural move is clear: flee south to Egypt, where water still runs and granaries still stand. Abraham had done it. Why shouldn't Isaac?',
+            'Famine is to the patriarchs what the sea is to sailors — the constant threat, the moment when faith either deepens or shatters. Isaac is at Gerar when the famine strikes. The natural move is clear: flee south to Egypt, where water still runs and granaries still stand. Abraham had done it. Why shouldn\'t Isaac?',
         },
         {
           kind: 'commentary',
           id: 'c-not-egypt',
           html:
-            'But God appears to Isaac before he leaves, and tells him: <em>stay here.</em> Don't go down to Egypt. The word is direct, even stern. No elaborate vision, no comfort — just a command and a reason. God is drawing a line for Isaac that Abraham did not have to draw. This is Isaac's test: not a military trial like Abraham's, but a test of whether he will trust the promise when staying looks foolish.',
+            'But God appears to Isaac before he leaves, and tells him: <em>stay here.</em> Don\'t go down to Egypt. The word is direct, even stern. No elaborate vision, no comfort — just a command and a reason. God is drawing a line for Isaac that Abraham did not have to draw. This is Isaac\'s test: not a military trial like Abraham\'s, but a test of whether he will trust the promise when staying looks foolish.',
         },
         {
           kind: 'christ',
           id: 'c-with-thee',
           title: 'Christ Connection — I Will Be With You',
           html:
-            'The words are simple, but they carry the weight of every covenant God has ever made. "I will be with thee." Emmanuel. God-with-us. When Jesus sends His disciples into hostile territory, He says the same thing: "Lo, I am with you always, even unto the end of the world" (Matt. 28:20). The promise is not that the way will be easy — famine will still come, wells will still be stopped — but that you will not face it alone. Isaac's steadfastness rests on a presence, not a provision.',
+            'The words are simple, but they carry the weight of every covenant God has ever made. "I will be with thee." Emmanuel. God-with-us. When Jesus sends His disciples into hostile territory, He says the same thing: "Lo, I am with you always, even unto the end of the world" (Matt. 28:20). The promise is not that the way will be easy — famine will still come, wells will still be stopped — but that you will not face it alone. Isaac\'s steadfastness rests on a presence, not a provision.',
         },
         {
           kind: 'commentary',
           id: 'c-blessed-seed',
           html:
-            'Here is the covenant restated for Isaac, the second generation. The same promises: land, seed like the stars, blessing to the nations. Isaac does not have to earn this. It comes to him because Abraham believed, because Abraham kept God's law, because the covenant runs in his blood. Yet it also comes with an implied weight: will Isaac keep the faith as his father did?',
+            'Here is the covenant restated for Isaac, the second generation. The same promises: land, seed like the stars, blessing to the nations. Isaac does not have to earn this. It comes to him because Abraham believed, because Abraham kept God\'s law, because the covenant runs in his blood. Yet it also comes with an implied weight: will Isaac keep the faith as his father did?',
         },
         {
           kind: 'carry',
           html:
-            'When you want to flee a hard situation, that impulse is usually not wrong — it is not born of cowardice but of self-care. The hard thing about faith is knowing when to stay and when to go. If you have heard God's word to stay, the famine does not cancel that word. The pressure to leave will feel reasonable, even wise. But the promise to you is not "no famine." It is "I will be with you in it." That changes what you do next.',
+            'When you want to flee a hard situation, that impulse is usually not wrong — it is not born of cowardice but of self-care. The hard thing about faith is knowing when to stay and when to go. If you have heard God\'s word to stay, the famine does not cancel that word. The pressure to leave will feel reasonable, even wise. But the promise to you is not "no famine." It is "I will be with you in it." That changes what you do next.',
         },
         {
           kind: 'reflection',
@@ -175,18 +175,18 @@ export const GENESIS_26: RichChapterContent = {
           kind: 'commentary',
           id: 'c-lest',
           html:
-            'Isaac does exactly what his father Abraham did in Genesis 12 and 20. He tells the king that Rebekah is his sister, not his wife, out of fear that her beauty will get him killed. The lie is rational. It is also, apparently, endemic to this family. And it still works — in a sense. Abimelech doesn't kill him. But the text does not celebrate the deception. It simply records it, uncomfortable as it is. A man of faith can still act as if he has no faith.',
+            'Isaac does exactly what his father Abraham did in Genesis 12 and 20. He tells the king that Rebekah is his sister, not his wife, out of fear that her beauty will get him killed. The lie is rational. It is also, apparently, endemic to this family. And it still works — in a sense. Abimelech doesn\'t kill him. But the text does not celebrate the deception. It simply records it, uncomfortable as it is. A man of faith can still act as if he has no faith.',
         },
         {
           kind: 'commentary',
           id: 'c-sporting',
           html:
-            'How long does the lie last? Long enough that Abimelech eventually sees Isaac and Rebekah together in an intimate moment and figures out the truth. The word translated "sporting" carries overtones of tenderness, affection — the opposite of the suspicion Isaac's fear conjured. If Abimelech had known from the start that Rebekah was Isaac's wife, he would have protected her. Instead, Isaac's cowardice almost cost Rebekah her honor and Abimelech his unwitting guilt. The text holds both truths: Isaac got what he wanted (safety) and set the stage for a near-catastrophe. Fear-driven solutions often do.',
+            'How long does the lie last? Long enough that Abimelech eventually sees Isaac and Rebekah together in an intimate moment and figures out the truth. The word translated "sporting" carries overtones of tenderness, affection — the opposite of the suspicion Isaac\'s fear conjured. If Abimelech had known from the start that Rebekah was Isaac\'s wife, he would have protected her. Instead, Isaac\'s cowardice almost cost Rebekah her honor and Abimelech his unwitting guilt. The text holds both truths: Isaac got what he wanted (safety) and set the stage for a near-catastrophe. Fear-driven solutions often do.',
         },
         {
           kind: 'carry',
           html:
-            'If you've repeated your parents' mistakes — the same lie, the same anxiety, the same way of protecting yourself that actually endangers others — you are in good company. The patriarchs show us that faithfulness is not genetic. You can be chosen by God, walk with Him, receive His promises, and still choose fear over trust in the moment. The grace is that God doesn't revoke the covenant when you do. But He also doesn't pretend it didn't happen. You stay and face it.',
+            'If you\'ve repeated your parents\' mistakes — the same lie, the same anxiety, the same way of protecting yourself that actually endangers others — you are in good company. The patriarchs show us that faithfulness is not genetic. You can be chosen by God, walk with Him, receive His promises, and still choose fear over trust in the moment. The grace is that God doesn\'t revoke the covenant when you do. But He also doesn\'t pretend it didn\'t happen. You stay and face it.',
         },
         {
           kind: 'reflection',
@@ -289,7 +289,7 @@ export const GENESIS_26: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-meah-shearim',
-          title: 'Meah She'arim — "hundredfold"',
+          title: 'Meah She\'arim — "hundredfold"',
           script: 'מֵאָה שְׁעָרִים',
           translit: '<strong>meah</strong> · hundred · <strong>she\'arim</strong> · gates, measures',
           description:
@@ -299,7 +299,7 @@ export const GENESIS_26: RichChapterContent = {
           kind: 'commentary',
           id: 'c-wells-history',
           html:
-            'Abraham had dug wells. These were not luxury; they were survival. A well in the desert is the difference between life and death, between passing through and staying. When Isaac inherits, the Philistines have deliberately filled them in—not by accident, but by design. They have erased his father's mark on the land. And Isaac does not rage at them. He simply digs again.',
+            'Abraham had dug wells. These were not luxury; they were survival. A well in the desert is the difference between life and death, between passing through and staying. When Isaac inherits, the Philistines have deliberately filled them in—not by accident, but by design. They have erased his father\'s mark on the land. And Isaac does not rage at them. He simply digs again.',
         },
         {
           kind: 'hebrew',
@@ -317,7 +317,7 @@ export const GENESIS_26: RichChapterContent = {
           script: 'שִׂטְנָה',
           translit: '<strong>sitnah</strong> · enmity, adversity, hostility',
           description:
-            'The second well brings more of the same. Again the Philistines claim it. Again Isaac moves. He names this one Sitnah—the well of enmity. Two tries. Two rebuffs. The pattern could break him. It doesn't.',
+            'The second well brings more of the same. Again the Philistines claim it. Again Isaac moves. He names this one Sitnah—the well of enmity. Two tries. Two rebuffs. The pattern could break him. It doesn\'t.',
         },
         {
           kind: 'hebrew',
@@ -441,7 +441,7 @@ export const GENESIS_26: RichChapterContent = {
           kind: 'commentary',
           id: 'c-god-abraham',
           html:
-            'Isaac moves to Beersheba, and God appears to him again. Not with new promises, but with a recitation of the old ones, grounded in something deeper: "I am the God of Abraham thy father." You are not earning this. Your father's faith is holding you up. The God who walked with Abraham walks with you. Fear not.',
+            'Isaac moves to Beersheba, and God appears to him again. Not with new promises, but with a recitation of the old ones, grounded in something deeper: "I am the God of Abraham thy father." You are not earning this. Your father\'s faith is holding you up. The God who walked with Abraham walks with you. Fear not.',
         },
         {
           kind: 'commentary',
@@ -460,7 +460,7 @@ export const GENESIS_26: RichChapterContent = {
           id: 'c-well-christ',
           title: 'Christ Connection — The Well You Cannot Stop',
           html:
-            'Christ says to the woman at the well: "Whosoever drinketh of this water shall thirst again: but whosoever drinketh of the water that I shall give him shall never thirst" (John 4:13–14). The wells Isaac digs can be stopped. They can be filled in. A man can dig them a dozen times and enemies can still claim them. But the well Christ offers—the source of His own life, His own Spirit—cannot be stopped by any power in heaven or earth. It wells up into eternal life. Isaac's wells teach us patience; Christ's well teaches us that patience has an end, and its name is Himself.',
+            'Christ says to the woman at the well: "Whosoever drinketh of this water shall thirst again: but whosoever drinketh of the water that I shall give him shall never thirst" (John 4:13–14). The wells Isaac digs can be stopped. They can be filled in. A man can dig them a dozen times and enemies can still claim them. But the well Christ offers—the source of His own life, His own Spirit—cannot be stopped by any power in heaven or earth. It wells up into eternal life. Isaac\'s wells teach us patience; Christ\'s well teaches us that patience has an end, and its name is Himself.',
         },
         {
           kind: 'carry',
@@ -471,7 +471,7 @@ export const GENESIS_26: RichChapterContent = {
           kind: 'reflection',
           id: 'beersheba-rest',
           prompt:
-            'Where have you found "Beersheba"—a place of rest and covenant after a season of digging and persistence? Or, if you're still in the digging season, what altar can you build now?',
+            'Where have you found "Beersheba"—a place of rest and covenant after a season of digging and persistence? Or, if you\'re still in the digging season, what altar can you build now?',
         },
         {
           kind: 'artwork',
@@ -482,10 +482,10 @@ export const GENESIS_26: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 26:34–35 — The Grief of Esau's Wives ────────────────── */
+    /* ─── Genesis 26:34–35 — The Grief of Esau\'s Wives ────────────────── */
     {
       ref: 'Genesis 26:34–35',
-      title: 'Esau's Wives',
+      title: 'Esau\'s Wives',
       blocks: [
         {
           kind: 'scripture',
@@ -511,7 +511,7 @@ export const GENESIS_26: RichChapterContent = {
           kind: 'commentary',
           id: 'c-grief',
           html:
-            'The chapter ends not with Isaac's vindication but with a parent's grief. Esau, forty years old, chooses Hittite women for wives. In the covenant world of Abraham and Isaac, this is serious. Not because Hittites are inferior—the text never says that—but because Esau is marrying outside the covenant family. The promise runs through Isaac, and will run through Jacob. Esau is choosing a different path. And it breaks Isaac and Rebekah's hearts.',
+            'The chapter ends not with Isaac\'s vindication but with a parent\'s grief. Esau, forty years old, chooses Hittite women for wives. In the covenant world of Abraham and Isaac, this is serious. Not because Hittites are inferior—the text never says that—but because Esau is marrying outside the covenant family. The promise runs through Isaac, and will run through Jacob. Esau is choosing a different path. And it breaks Isaac and Rebekah\'s hearts.',
         },
         {
           kind: 'commentary',
@@ -522,13 +522,13 @@ export const GENESIS_26: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'If you have done the faithful thing—stayed, persisted, built your life on the covenant—and your children have gone a different way, you are in Isaac's position. The pain is real. It is not a sign that you failed. It is a sign that your children are free, as you are free, to choose their own path. The promise does not hang on them. It hangs on God, and on you, and on the faithfulness you will keep living whether they choose it or not.',
+            'If you have done the faithful thing—stayed, persisted, built your life on the covenant—and your children have gone a different way, you are in Isaac\'s position. The pain is real. It is not a sign that you failed. It is a sign that your children are free, as you are free, to choose their own path. The promise does not hang on them. It hangs on God, and on you, and on the faithfulness you will keep living whether they choose it or not.',
         },
         {
           kind: 'reflection',
           id: 'children-faith',
           prompt:
-            'What expectations do you carry about your children's faith, or your friends', or your community's? What would it mean to bless them in their freedom, even if they choose differently than you hoped?',
+            'What expectations do you carry about your children\'s faith, or your friends\', or your community\'s? What would it mean to bless them in their freedom, even if they choose differently than you hoped?',
         },
       ],
     },

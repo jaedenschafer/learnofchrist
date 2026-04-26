@@ -126,21 +126,19 @@ export const GENESIS_18: RichChapterContent = {
           kind: 'carry',
           html:
             'The strangers at your door come in many forms — the coworker who says something hurtful and you have to choose whether to hear them, the relative whose politics make your jaw tight, the person who smells like need and you want to cross the street. Genesis 18 is not naive about who strangers are. It is ruthlessly clear: feed them anyway. Fetch the water. Prepare the meal. Bow low. Let them sit under your tree. Abraham didn\'t know what he was doing. He only knew it was the shape of hospitality to move first.',
-          },
+        },
         {
-          {
-            kind: 'reflection',
-            id: 'gen18-hospitality',
-            prompt:
-              'Who is standing by your tent door right now — someone you want to serve, someone you want to avoid, someone you don\'t yet recognize? What would it look like to offer them water?',
-          },
-          {
-            kind: 'artwork',
-            matchTitle: /abraham|hospitality/i,
-            matchArtist: /rublev|tissot/i,
-            caption: 'Genesis 18:1–8 · Hospitality at Mamre',
-          },
-        ],
+          kind: 'reflection',
+          id: 'gen18-hospitality',
+          prompt:
+            'Who is standing by your tent door right now — someone you want to serve, someone you want to avoid, someone you don\'t yet recognize? What would it look like to offer them water?',
+        },
+        {
+          kind: 'artwork',
+          matchTitle: /abraham|hospitality/i,
+          matchArtist: /rublev|tissot/i,
+          caption: 'Genesis 18:1–8 · Hospitality at Mamre',
+        },
       ],
     },
 
@@ -245,7 +243,6 @@ export const GENESIS_18: RichChapterContent = {
             'You have things you stopped believing were possible. Things you wanted and watched fade year after year. Things you laugh at now because laughing is easier than hope. Genesis 18:14 asks if anything is hidden from God — too hard, too late, too broken. The answer the text is giving is no. Nothing. But the question is not really about God\'s power. It is about whether you will let yourself hope again.',
           },
         {
-        {
           kind: 'reflection',
           id: 'gen18-laugh',
           prompt:
@@ -333,7 +330,6 @@ export const GENESIS_18: RichChapterContent = {
           html:
             'God does not hide His plans from those He loves. He brings them in. He tells them what is coming — not to spectate, but to pray, to intercede, to become part of how He moves in the world. If you are walking with God, the big things coming are not secrets kept from you. They are invitations.',
           },
-        {
         {
           kind: 'reflection',
           id: 'gen18-disclosure',
@@ -459,7 +455,6 @@ export const GENESIS_18: RichChapterContent = {
           html:
             'Abraham learns that God is not eagerly waiting for reasons to destroy. He is listening for reasons to spare. And not only listening — he is in conversation about it. God is swayed by intercession. He does not ask Abraham to stop asking. He keeps saying yes to the prayer to spare, yes to the mercy, yes to the smaller and smaller number of righteous that might forestall judgment. The prayer of someone who stands for others changes things.',
           },
-        {
         {
           kind: 'reflection',
           id: 'gen18-intercession',

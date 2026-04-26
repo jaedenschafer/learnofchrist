@@ -53,7 +53,7 @@ export const GENESIS_11: RichChapterContent = {
               number: 4,
               spans: [
                 t('And they said, Go to, '),
-                hg('let us build us a city and a tower, whose top may reach unto heaven; and let us make us a '),
+                hg('let us build us a city and a tower, whose top may reach unto heaven; and let us make us a ', 'c-scatter-fear'),
                 hy('name', 'hebrew-shem'),
                 t(', lest we be scattered abroad upon the face of the whole earth.'),
               ],

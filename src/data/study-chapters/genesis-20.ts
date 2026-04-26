@@ -1,15 +1,15 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 20 — Abraham's lie about Sarah, and God's faithfulness
- * despite the patriarch's fear and deception.
+ * Genesis 20 — Abraham\'s lie about Sarah, and God\'s faithfulness
+ * despite the patriarch\'s fear and deception.
  *
  * Abraham journeys to Gerar and tells Abimelech that Sarah is his sister,
  * not his wife. This is not the first time he has done this — he played the
  * same game in Egypt (Genesis 12). God appears to Abimelech in a dream,
  * warns him off Sarah, and calls Abraham a prophet. Abimelech confronts
  * Abraham, restores Sarah, and gives Abraham gifts and land. Abraham prays
- * for Abimelech's household, and God heals the women — including Abimelech's
+ * for Abimelech\'s household, and God heals the women — including Abimelech\'s
  * wife. The pagan king in this chapter is more honorable than the patriarch,
  * and the text does not hide it.
  *
@@ -23,7 +23,7 @@ export const GENESIS_20: RichChapterContent = {
 
   intros: [
     'Abraham is seventy-five verses into the most important promise God ever made — that Sarah will bear a son, that he will have descendants like the stars, that through him all nations will be blessed. And now, faced with a foreign king, Abraham does something that reveals a crack in his faith: he tells Sarah to say she is his sister, not his wife. This is not the first time. Twelve chapters earlier, he played the same half-truth in Egypt. He is afraid.',
-    'Here is what matters: God does not let His promise hang on Abraham's courage. When a patriarch fails, God does not fail. What unfolds in Gerar is a story about fear driving a shortcut, and grace running ahead to catch it. It is also a story about a pagan king whose conscience is cleaner than a patriarch's — a scandal that the text will not let us miss.',
+    'Here is what matters: God does not let His promise hang on Abraham\'s courage. When a patriarch fails, God does not fail. What unfolds in Gerar is a story about fear driving a shortcut, and grace running ahead to catch it. It is also a story about a pagan king whose conscience is cleaner than a patriarch\'s — a scandal that the text will not let us miss.',
   ],
 
   bottomShare: {
@@ -35,7 +35,7 @@ export const GENESIS_20: RichChapterContent = {
   },
 
   sections: [
-    /* ─── Genesis 20:1–2 — Abraham's Fear at Gerar ────────────────────── */
+    /* ─── Genesis 20:1–2 — Abraham\'s Fear at Gerar ────────────────────── */
     {
       ref: 'Genesis 20:1–2',
       title: 'Abraham\'s Lie',
@@ -185,7 +185,7 @@ export const GENESIS_20: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'What if someone walked into your house and, without knowing it, picked up something precious that was not theirs to pick up? You would feel it immediately — the wrongness would be clean and sharp. Abimelech felt it in a dream. God did not leave him to violate Sarah's marriage by accident. And He did not leave you, either, to stumble into sin without some kind of witness — a dream, a still voice, a thought that will not leave you alone. The question is whether you will listen to it as fast as Abimelech did.',
+            'What if someone walked into your house and, without knowing it, picked up something precious that was not theirs to pick up? You would feel it immediately — the wrongness would be clean and sharp. Abimelech felt it in a dream. God did not leave him to violate Sarah\'s marriage by accident. And He did not leave you, either, to stumble into sin without some kind of witness — a dream, a still voice, a thought that will not leave you alone. The question is whether you will listen to it as fast as Abimelech did.',
         },
         {
           kind: 'reflection',

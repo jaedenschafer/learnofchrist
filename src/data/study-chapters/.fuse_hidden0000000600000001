@@ -44,7 +44,7 @@ export const GENESIS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'gen7-come-meaning',
           html:
-            'The LORD says "Come," not "Go." It is a word that assumes God is already there — already inside the ark, waiting. In Hebrew, <em>bo&apos;</em> (come) is the interior\'s verb, the verb of access. God is not sending Noah into an empty box to save himself alone. God is inviting Noah to join Him. The first gospel invitation in Scripture is this: enter where I already am.',
+            'The LORD says "Come," not "Go." It is a word that assumes God is already there — already inside the ark, waiting. In Hebrew, <em>bo&apos;</em> (come) is the interior's verb, the verb of access. God is not sending Noah into an empty box to save himself alone. God is inviting Noah to join Him. The first gospel invitation in Scripture is this: enter where I already am.',
         },
         {
           kind: 'hebrew',
