@@ -321,32 +321,42 @@ export const numbersChapters: Record<string, ChapterContent> = {
     },
   },
 
-  "numbers/11": {
+    "numbers/11": {
     overview:
-      "The people complain, and God's fire burns at the outskirts of the camp. Then the mixed multitude craves meat, weeping for the food of Egypt. Moses, overwhelmed, cries out to God. The Lord commands Moses to appoint seventy elders and promises to send meat — quail in abundance. The Spirit rests on the seventy, and they prophesy. God sends quail but also a severe plague upon the people for their lust.",
+      "Israel complains about hardship and longs for the meat and comforts of Egypt rather than the manna God provides. Fire from the Lord burns at the edge of the camp at Taberah. Moses intercedes for the people, crying out to God in desperation: 'I am not able to bear all this people alone.' God responds by putting His Spirit upon seventy elders to share the burden of leadership and to prophesy. Joshua becomes jealous when Eldad and Medad prophesy in the camp, but Moses declares, 'Would God that all the LORD's people were prophets!' God sends massive flocks of quail — so much meat that the people gorge themselves until they become sick. A plague strikes the people at Kibroth-hattaavah ('graves of craving'), where those who lusted for the meat are buried. The chapter illustrates both God's judgment on complaint and His mercy in provision, alongside His willingness to distribute His Spirit and authority.",
     themes: [
       {
-        title: "The Sin of Complaining and Craving",
-        desc: "Israel's complaining is not innocent dissatisfaction but sinful rejection of God's provision — they despise the manna and long for the foods of their slavery in Egypt.",
+        title: "Complaint as the Root of Faithlessness",
+        desc: "Israel forgets God's deliverance from Egypt and the daily miracle of manna, choosing instead to complain about hardship. Their nostalgia for Egyptian 'comforts' — fish, cucumbers, melons, leeks, onions, garlic (zikronot, 'we remember') — reveals a heart that has forgotten God's faithfulness and doubts His provision.",
       },
       {
-        title: "The Burden of Leadership",
-        desc: "Moses reaches a breaking point, crying 'I am not able to bear all this people alone' — revealing that even the greatest leaders need support and that God provides it through shared authority.",
+        title: "God's Severity and Mercy in Response",
+        desc: "Fire burns at Taberah as judgment for complaint, yet God does not abandon His people. Instead, He provides both what they demanded (quail) and what they truly needed (shared leadership through the seventy elders). Judgment and provision coexist.",
       },
       {
-        title: "Judgment in the Midst of Provision",
-        desc: "God gives Israel exactly what they asked for — quail in abundance — but with it comes a plague, teaching that getting what we crave outside God's will can be its own punishment.",
+        title: "The Burden of Leadership and Shared Authority",
+        desc: "Moses' lament — 'I cannot bear this alone' — prefigures the reality that no single leader can shoulder the entire weight of God's people. God's solution is not to replace Moses but to distribute His Spirit among others, creating shared responsibility and shared power.",
+      },
+      {
+        title: "The Spirit Poured Out on All",
+        desc: "When God puts His Spirit on the seventy elders, Eldad and Medad prophesy in the camp, revealing that God's Spirit moves beyond official channels and formal appointment. Moses' response — 'Would God that all the LORD's people were prophets!' — expresses a longing for widespread spiritual empowerment that is fulfilled in the New Testament.",
+      },
+      {
+        title: "Judgment for Unchecked Desire",
+        desc: "God grants what the people demanded, but their craving becomes their undoing. The place where they gorge themselves on quail becomes known as Kibroth-hattaavah (kavrot ha-ta'avah, 'graves of craving'), showing that yielding to desire without restraint leads to spiritual death.",
       },
     ],
     questions: [
-      "Why does Israel's craving for the foods of Egypt represent something deeper than mere hunger — what are they really longing for?",
-      "How does Moses' honest cry of exhaustion to God model authentic prayer, and what does God's response teach about handling leadership burdens?",
-      "What is the significance of the Spirit resting on the seventy elders, and how does this distribution of the Spirit's power point forward to Pentecost?",
-      "Why does Moses respond to Joshua's concern about unauthorized prophesying with 'Would God that all the LORD's people were prophets' (v. 29)?",
-      "What does the plague at Kibroth-hattaavah ('graves of craving') teach about the danger of sinful desire, even when God seems to grant what we ask?",
+      "Why do the people forget God's deliverance from Egypt and the provision of manna, choosing instead to remember only the 'comforts' of Egyptian bondage?",
+      "What does Moses' cry, 'I am not able to bear all this people alone,' reveal about the limits of human leadership and the necessity of sharing authority?",
+      "How does God's response to Moses — putting His Spirit on seventy elders — demonstrate both His power and His desire to empower others?",
+      "Why does Joshua's jealousy about Eldad and Medad prophesying in the camp miss the point of what God is doing, and what does Moses' response teach about the scope of God's Spirit?",
+      "How does the plague at Kibroth-hattaavah — at the place where the people gorged themselves on quail — connect judgment to the fulfillment of their desire?",
+      "What is the connection between complaint, unbelief, and the failure to trust God's provision, and how does this pattern repeat throughout Israel's wilderness journey?",
+      "How does Moses' statement 'Would God that all the LORD's people were prophets' anticipate the New Testament reality of Pentecost and the outpouring of God's Spirit on all flesh?",
     ],
     christConnection:
-      "Moses' wish that all God's people might have the Spirit was fulfilled at Pentecost, when the Spirit was poured out on all believers through Christ (Acts 2:17). Jesus, unlike Moses, never grew weary of bearing His people's burdens but carried the weight of the world's sin to the cross.",
+      "Moses' lament prefigures Christ as the ultimate burden-bearer. Jesus says, 'Come unto me, all ye that labour and are heavy laden, and I will give you rest' (Matthew 11:28-30). He takes the yoke of the Law that no one can bear and makes it easy through grace. The seventy elders foreshadow the seventy disciples Jesus sends out in Luke 10:1, and they prefigure the distribution of the Spirit at Pentecost (Acts 2). Moses' wish that all God's people would prophesy is fulfilled when God pours out His Spirit on all flesh (Joel 2:28, Acts 2:17-18). The graves of craving remind us that indulgence in worldly desires leads to spiritual death, while Christ alone provides bread from heaven that nourishes unto eternal life.",
     keyVerse: {
       reference: "Numbers 11:29",
       text: "And Moses said unto him, Enviest thou for my sake? would God that all the LORD's people were prophets, and that the LORD would put his spirit upon them!",
