@@ -3,8 +3,11 @@ import dynamic from 'next/dynamic';
 import type { Metadata } from 'next';
 import { getAllBooks, getBookByName } from '@/data/books';
 import { getChapterContent } from '@/data/chapter-content';
-import { getRichChapter } from '@/data/study-chapters';
+import { getRichChapter, isHandAuthoredChapter } from '@/data/study-chapters';
+import { getChapterContentMerged } from '@/lib/chapterContent';
+import { isAdminSession } from '@/lib/isAdmin';
 import ChapterNav from '@/components/ChapterNav';
+import EditableStudyGuide from '@/components/EditableStudyGuide';
 import { getVerses, getArtworksForChapter } from '@/lib/supabase';
 import ChapterArtStrip from '@/components/ChapterArtStrip';
 import JsonLd from '@/components/JsonLd';
@@ -120,8 +123,13 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
     getArtworksForChapter(book, chapter),
   ]);
 
-  const content = getChapterContent(book, chapter);
+  // Resolve override (admin edits stored in chapter_overrides) merged onto
+  // the file-based ChapterContent. RichStudyGuide auto-port reads from the
+  // merged shape so saved edits flow through end-to-end.
+  const content = await getChapterContentMerged(book, chapter);
   const richContent = getRichChapter(book, book_obj.name, chapter, content, initialVerses);
+  const handAuthored = isHandAuthoredChapter(book, chapter);
+  const sessionIsAdmin = await isAdminSession();
 
   // Rich study guides reference inline artworks by title/artist matchers in
   // their data files. Pull those out of the carousel so we never show the
@@ -271,7 +279,16 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
             <GenesisOneStudy artworks={chapterArtworks} />
           ) : (
             richContent && (
-              <RichStudyGuide content={richContent} artworks={chapterArtworks} />
+              <EditableStudyGuide
+                bookName={book_obj.name}
+                bookSlug={book}
+                chapter={chapter}
+                legacy={content}
+                sessionIsAdmin={sessionIsAdmin}
+                isHandAuthored={handAuthored}
+              >
+                <RichStudyGuide content={richContent} artworks={chapterArtworks} />
+              </EditableStudyGuide>
             )
           )}
         </div>

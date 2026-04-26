@@ -269,6 +269,15 @@ export function getRichChapter(
   return autoPortChapter(bookSlug, bookName, chapter, legacyContent, chapterVerses);
 }
 
+/**
+ * True when (book, chapter) has a hand-authored entry in RICH_CHAPTERS — the
+ * admin in-page editor skips these because the rich layout doesn't round-trip
+ * through the legacy ChapterContent shape (the file is the source of truth).
+ */
+export function isHandAuthoredChapter(bookSlug: string, chapter: number): boolean {
+  return Boolean(RICH_CHAPTERS[`${bookSlug}/${chapter}`]);
+}
+
 /** Build a scripture block that renders every verse of the chapter as plain
  *  lines (no highlights). Used by the auto-port path so readers always see
  *  the chapter text at the top of the guide. */
