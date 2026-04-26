@@ -70,6 +70,26 @@ import { GENESIS_47 } from './genesis-47';
 import { GENESIS_48 } from './genesis-48';
 import { GENESIS_49 } from './genesis-49';
 import { GENESIS_50 } from './genesis-50';
+import { EXODUS_1 } from './exodus-1';
+import { EXODUS_2 } from './exodus-2';
+import { EXODUS_3 } from './exodus-3';
+import { EXODUS_4 } from './exodus-4';
+import { EXODUS_5 } from './exodus-5';
+import { EXODUS_6 } from './exodus-6';
+import { EXODUS_7 } from './exodus-7';
+import { EXODUS_8 } from './exodus-8';
+import { EXODUS_9 } from './exodus-9';
+import { EXODUS_10 } from './exodus-10';
+import { EXODUS_11 } from './exodus-11';
+import { EXODUS_12 } from './exodus-12';
+import { EXODUS_13 } from './exodus-13';
+import { EXODUS_14 } from './exodus-14';
+import { EXODUS_15 } from './exodus-15';
+import { EXODUS_16 } from './exodus-16';
+import { EXODUS_17 } from './exodus-17';
+import { EXODUS_18 } from './exodus-18';
+import { EXODUS_19 } from './exodus-19';
+import { EXODUS_20 } from './exodus-20';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -123,6 +143,26 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'genesis/48': GENESIS_48,
   'genesis/49': GENESIS_49,
   'genesis/50': GENESIS_50,
+  'exodus/1': EXODUS_1,
+  'exodus/2': EXODUS_2,
+  'exodus/3': EXODUS_3,
+  'exodus/4': EXODUS_4,
+  'exodus/5': EXODUS_5,
+  'exodus/6': EXODUS_6,
+  'exodus/7': EXODUS_7,
+  'exodus/8': EXODUS_8,
+  'exodus/9': EXODUS_9,
+  'exodus/10': EXODUS_10,
+  'exodus/11': EXODUS_11,
+  'exodus/12': EXODUS_12,
+  'exodus/13': EXODUS_13,
+  'exodus/14': EXODUS_14,
+  'exodus/15': EXODUS_15,
+  'exodus/16': EXODUS_16,
+  'exodus/17': EXODUS_17,
+  'exodus/18': EXODUS_18,
+  'exodus/19': EXODUS_19,
+  'exodus/20': EXODUS_20,
 };
 
 /**
