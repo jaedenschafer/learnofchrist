@@ -27,6 +27,7 @@ import { GENESIS_4 } from './genesis-4';
 import { GENESIS_6 } from './genesis-6';
 import { GENESIS_7 } from './genesis-7';
 import { GENESIS_8 } from './genesis-8';
+import { GENESIS_11 } from './genesis-11';
 import { GENESIS_12 } from './genesis-12';
 import { GENESIS_22 } from './genesis-22';
 import { GENESIS_37 } from './genesis-37';
@@ -41,6 +42,7 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'genesis/6': GENESIS_6,
   'genesis/7': GENESIS_7,
   'genesis/8': GENESIS_8,
+  'genesis/11': GENESIS_11,
   'genesis/12': GENESIS_12,
   'genesis/22': GENESIS_22,
   'genesis/37': GENESIS_37,
