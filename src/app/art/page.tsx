@@ -5,6 +5,8 @@ import {
   getFilteredArtworks,
   getBooksWithArt,
   getArtistsWithArt,
+  decodeCursor,
+  encodeCursor,
   type ArtSort,
 } from '@/lib/supabase';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
@@ -16,12 +18,16 @@ import ArtFilters from '@/components/ArtFilters';
 export const revalidate = 300;
 
 const PAGE_SIZE = 48;
-const VALID_SORTS: ArtSort[] = ['recent', 'oldest', 'az', 'za', 'year_asc', 'year_desc'];
+/** Above-the-fold cards get fetchpriority="high" via next/image priority. */
+const PRIORITY_COUNT = 8;
+const VALID_SORTS: ArtSort[] = [
+  'recent', 'oldest', 'az', 'za', 'year_asc', 'year_desc', 'popular', 'relevance',
+];
 
 export const metadata: Metadata = {
   title: 'Christian Art — Public Domain Bible Illustrations | Learn of Christ',
   description:
-    'A free, searchable library of public-domain Christian art, indexed to scripture. Browse by book, artist, or keyword — find an engraving or painting for any passage.',
+    'A free, searchable library of public-domain Christian art, indexed to scripture. Browse by book, artist, era, character, or scene.',
   openGraph: {
     title: 'Christian Art — Public Domain Bible Illustrations',
     description:
@@ -36,45 +42,80 @@ export const metadata: Metadata = {
 interface PageProps {
   searchParams: Promise<{
     q?: string;
-    book?: string;
-    artist?: string;
+    book?: string | string[];
+    artist?: string | string[];
+    era?: string | string[];
+    character?: string | string[];
+    theme?: string | string[];
     sort?: string;
-    limit?: string;
+    cursor?: string;
   }>;
+}
+
+/** Normalize a query-string value that can be string | string[] | undefined
+ *  into a string[]. searchParams gives us arrays when the user picked
+ *  ?era=baroque&era=renaissance. */
+function asStringArray(v: string | string[] | undefined): string[] {
+  if (v == null) return [];
+  if (Array.isArray(v)) return v.filter(Boolean);
+  return v.split(',').map((s) => s.trim()).filter(Boolean);
 }
 
 export default async function ArtIndexPage({ searchParams }: PageProps) {
   const params = await searchParams;
   const q = (params.q || '').trim();
-  const book = (params.book || '').trim();
-  const artist = (params.artist || '').trim();
-  const sortRaw = (params.sort || 'recent').trim() as ArtSort;
-  const sort: ArtSort = VALID_SORTS.includes(sortRaw) ? sortRaw : 'recent';
+  const books = asStringArray(params.book);
+  const artists = asStringArray(params.artist);
+  const eras = asStringArray(params.era);
+  const characters = asStringArray(params.character);
+  const themes = asStringArray(params.theme);
 
-  // Parse ?limit= for "Load more". Defaults to PAGE_SIZE, caps at 480.
-  const limitRaw = parseInt(params.limit || '', 10);
-  const limit = Number.isFinite(limitRaw) && limitRaw > 0 ? Math.min(limitRaw, 480) : PAGE_SIZE;
+  const sortRaw = (params.sort || 'recent').trim() as ArtSort;
+  let sort: ArtSort = VALID_SORTS.includes(sortRaw) ? sortRaw : 'recent';
+  // When the user types a query, default to relevance unless they picked
+  // an explicit sort.
+  if (q && !params.sort) sort = 'relevance';
+
+  const cursor = decodeCursor(params.cursor);
 
   const [result, booksWithArt, artistsWithArt] = await Promise.all([
-    getFilteredArtworks({ q, book, artist, sort, limit, offset: 0 }),
+    getFilteredArtworks({
+      q,
+      book: books,
+      artist: artists,
+      era: eras,
+      character: characters,
+      theme: themes,
+      sort,
+      limit: PAGE_SIZE,
+      cursor,
+    }),
     getBooksWithArt(),
     getArtistsWithArt(),
   ]);
 
-  const { artworks, total } = result;
-  const hasFilters = !!(q || book || artist || (sort && sort !== 'recent'));
+  const { artworks, total, nextCursor } = result;
+  const hasFilters = !!(
+    q ||
+    books.length || artists.length || eras.length || characters.length || themes.length ||
+    (sort && sort !== 'recent' && sort !== 'relevance')
+  );
   const shown = artworks.length;
-  const hasMore = shown < total;
-  const nextLimit = Math.min(limit + PAGE_SIZE, 480);
+  // Server-side cursor pagination doesn't know "remaining" without total —
+  // we have total from the RPC, so subtract.
+  const remaining = Math.max(0, total - shown);
 
-  // Build "load more" URL that preserves current filters.
+  // Build "load more" URL that preserves current filters + sets cursor.
   const nextParams = new URLSearchParams();
   if (q) nextParams.set('q', q);
-  if (book) nextParams.set('book', book);
-  if (artist) nextParams.set('artist', artist);
-  if (sort && sort !== 'recent') nextParams.set('sort', sort);
-  nextParams.set('limit', String(nextLimit));
-  const loadMoreHref = `/art?${nextParams.toString()}`;
+  for (const b of books) nextParams.append('book', b);
+  for (const a of artists) nextParams.append('artist', a);
+  for (const e of eras) nextParams.append('era', e);
+  for (const c of characters) nextParams.append('character', c);
+  for (const t of themes) nextParams.append('theme', t);
+  if (sort !== 'recent' && !(q && sort === 'relevance')) nextParams.set('sort', sort);
+  if (nextCursor) nextParams.set('cursor', encodeCursor(nextCursor));
+  const loadMoreHref = nextCursor ? `/art?${nextParams.toString()}` : null;
 
   return (
     <div className="page-container">
@@ -96,6 +137,14 @@ export default async function ArtIndexPage({ searchParams }: PageProps) {
             <span>
               {total.toLocaleString()} artworks · {booksWithArt.length} books covered
             </span>
+            <Link
+              href="/art/artists"
+              className="study-hero__meta-link"
+              style={{ marginLeft: '0.75rem' }}
+            >
+              Browse by artist
+              <span aria-hidden="true">→</span>
+            </Link>
           </div>
         </header>
 
@@ -104,8 +153,11 @@ export default async function ArtIndexPage({ searchParams }: PageProps) {
             books={booksWithArt.map((b) => ({ slug: b.slug, name: b.name }))}
             artists={artistsWithArt.map((a) => ({ slug: a.slug, name: a.name, count: a.count }))}
             initialQuery={q}
-            initialBook={book}
-            initialArtist={artist}
+            initialBooks={books}
+            initialArtists={artists}
+            initialEras={eras}
+            initialCharacters={characters}
+            initialThemes={themes}
             initialSort={sort}
             totalCount={total}
           />
@@ -136,11 +188,11 @@ export default async function ArtIndexPage({ searchParams }: PageProps) {
           </h2>
           {artworks.length === 0 ? (
             <div className="text-center py-16 px-4">
-              <p className="text-[color:var(--color-label)] font-medium mb-1">No artworks found.</p>
+              <p className="text-[color:var(--color-label)] font-medium mb-1">No artworks match these filters.</p>
               <p className="text-[color:var(--color-secondary-label)] text-[0.9375rem]">
-                Try a different search term or{' '}
+                Try removing a filter or{' '}
                 <Link href="/art" className="text-[color:var(--color-primary)] hover:underline">
-                  clear all filters
+                  clear all
                 </Link>
                 .
               </p>
@@ -148,18 +200,18 @@ export default async function ArtIndexPage({ searchParams }: PageProps) {
           ) : (
             <>
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-                {artworks.map((art) => (
-                  <ArtCard key={art.id} artwork={art} />
+                {artworks.map((art, i) => (
+                  <ArtCard key={art.id} artwork={art} priority={i < PRIORITY_COUNT} />
                 ))}
               </div>
-              {hasMore && (
+              {loadMoreHref && (
                 <div className="mt-8 flex justify-center">
                   <Link
                     href={loadMoreHref}
                     scroll={false}
                     className="inline-flex items-center h-11 px-6 rounded-full bg-[color:var(--color-primary)] text-white text-[0.9375rem] font-semibold hover:opacity-90 transition-opacity"
                   >
-                    Show more ({(total - shown).toLocaleString()} remaining)
+                    Show more ({remaining.toLocaleString()} remaining)
                   </Link>
                 </div>
               )}

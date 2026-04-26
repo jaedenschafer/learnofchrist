@@ -2,6 +2,11 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useRouter, useSearchParams, usePathname } from 'next/navigation';
+import {
+  ERAS,
+  BIBLICAL_CHARACTERS,
+  BIBLICAL_THEMES,
+} from '@/lib/biblicalTags';
 
 export interface ArtFilterOption {
   slug: string;
@@ -13,13 +18,24 @@ interface ArtFiltersProps {
   books: ArtFilterOption[];
   artists: ArtFilterOption[];
   initialQuery?: string;
-  initialBook?: string;
-  initialArtist?: string;
+  initialBooks?: string[];
+  initialArtists?: string[];
+  initialEras?: string[];
+  initialCharacters?: string[];
+  initialThemes?: string[];
   initialSort?: string;
   totalCount: number;
 }
 
-type SortValue = 'recent' | 'oldest' | 'az' | 'za' | 'year_asc' | 'year_desc';
+type SortValue =
+  | 'recent'
+  | 'oldest'
+  | 'az'
+  | 'za'
+  | 'year_asc'
+  | 'year_desc'
+  | 'popular'
+  | 'relevance';
 
 const SORT_OPTIONS: Array<{ value: SortValue; label: string }> = [
   { value: 'recent', label: 'Recently added' },
@@ -28,18 +44,27 @@ const SORT_OPTIONS: Array<{ value: SortValue; label: string }> = [
   { value: 'za', label: 'Title Z–A' },
   { value: 'year_desc', label: 'Year (newest)' },
   { value: 'year_asc', label: 'Year (oldest)' },
+  { value: 'popular', label: 'Most referenced' },
+  { value: 'relevance', label: 'Relevance' },
 ];
 
 /**
  * Filter + search bar for the /art index page. Updates URL searchParams —
  * the server component re-reads params and re-queries.
+ *
+ * Era / character / theme are multi-select chips. Book / Artist stay as
+ * single-select dropdowns to avoid drowning the bar at scale (artist list
+ * runs 100+ entries; chips would wrap forever).
  */
 export default function ArtFilters({
   books,
   artists,
   initialQuery = '',
-  initialBook = '',
-  initialArtist = '',
+  initialBooks = [],
+  initialArtists = [],
+  initialEras = [],
+  initialCharacters = [],
+  initialThemes = [],
   initialSort = 'recent',
   totalCount,
 }: ArtFiltersProps) {
@@ -66,15 +91,26 @@ export default function ArtFilters({
     const p = new URLSearchParams(searchParams.toString());
     if (debounced) p.set('q', debounced);
     else p.delete('q');
-    p.delete('limit'); // reset load-more when search changes
+    p.delete('cursor'); // any change resets pagination
     router.replace(`${pathname}?${p.toString()}`, { scroll: false });
   }, [debounced, router, pathname, searchParams]);
 
-  function setParam(key: string, value: string) {
+  function setSingleParam(key: string, value: string) {
     const p = new URLSearchParams(searchParams.toString());
     if (value) p.set(key, value);
     else p.delete(key);
-    p.delete('limit');
+    p.delete('cursor');
+    router.replace(`${pathname}?${p.toString()}`, { scroll: false });
+  }
+
+  function toggleMultiParam(key: string, value: string, current: string[]) {
+    const p = new URLSearchParams(searchParams.toString());
+    p.delete(key);
+    const next = current.includes(value)
+      ? current.filter((v) => v !== value)
+      : [...current, value];
+    for (const v of next) p.append(key, v);
+    p.delete('cursor');
     router.replace(`${pathname}?${p.toString()}`, { scroll: false });
   }
 
@@ -84,12 +120,21 @@ export default function ArtFilters({
   }
 
   const hasActiveFilters = useMemo(
-    () => !!(q || initialBook || initialArtist || (initialSort && initialSort !== 'recent')),
-    [q, initialBook, initialArtist, initialSort],
+    () =>
+      !!(
+        q ||
+        initialBooks.length ||
+        initialArtists.length ||
+        initialEras.length ||
+        initialCharacters.length ||
+        initialThemes.length ||
+        (initialSort && initialSort !== 'recent' && initialSort !== 'relevance')
+      ),
+    [q, initialBooks, initialArtists, initialEras, initialCharacters, initialThemes, initialSort],
   );
 
-  const book = initialBook;
-  const artist = initialArtist;
+  const book = initialBooks[0] ?? '';
+  const artist = initialArtists[0] ?? '';
   const sort = initialSort;
 
   return (
@@ -113,7 +158,7 @@ export default function ArtFilters({
           type="search"
           value={q}
           onChange={(e) => setQ(e.target.value)}
-          placeholder="Search artworks by title…"
+          placeholder="Search artworks, artists, scenes…"
           className="w-full h-11 pl-10 pr-10 rounded-2xl bg-[color:var(--color-surface)] border border-[color:var(--color-separator)] text-[0.9375rem] text-[color:var(--color-label)] placeholder:text-[color:var(--color-tertiary-label)] focus:outline-none focus:border-[color:var(--color-primary)] focus:ring-2 focus:ring-[color:var(--color-primary)]/20 transition-all"
           aria-label="Search artworks"
         />
@@ -131,12 +176,12 @@ export default function ArtFilters({
         )}
       </div>
 
-      {/* Filter dropdowns */}
+      {/* Filter dropdowns (single-select) */}
       <div className="mt-3 flex flex-wrap items-center gap-2">
         <FilterSelect
           label="Book"
           value={book}
-          onChange={(v) => setParam('book', v)}
+          onChange={(v) => setSingleParam('book', v)}
           options={[
             { value: '', label: 'All books' },
             ...books.map((b) => ({ value: b.slug, label: b.name })),
@@ -145,7 +190,7 @@ export default function ArtFilters({
         <FilterSelect
           label="Artist"
           value={artist}
-          onChange={(v) => setParam('artist', v)}
+          onChange={(v) => setSingleParam('artist', v)}
           options={[
             { value: '', label: 'All artists' },
             ...artists.map((a) => ({
@@ -157,7 +202,7 @@ export default function ArtFilters({
         <FilterSelect
           label="Sort"
           value={sort === 'recent' ? '' : sort}
-          onChange={(v) => setParam('sort', v)}
+          onChange={(v) => setSingleParam('sort', v)}
           options={SORT_OPTIONS.map((s) => ({
             value: s.value === 'recent' ? '' : s.value,
             label: s.label,
@@ -177,6 +222,30 @@ export default function ArtFilters({
           </button>
         )}
       </div>
+
+      {/* Era chips */}
+      <FacetChipRow
+        label="Era"
+        options={ERAS.map((e) => ({ key: e.key, label: e.label }))}
+        active={initialEras}
+        onToggle={(v) => toggleMultiParam('era', v, initialEras)}
+      />
+
+      {/* Theme chips (most useful for casual browsing) */}
+      <FacetChipRow
+        label="Scene"
+        options={BIBLICAL_THEMES.map((t) => ({ key: t.key, label: t.label }))}
+        active={initialThemes}
+        onToggle={(v) => toggleMultiParam('theme', v, initialThemes)}
+      />
+
+      {/* Character chips — collapsed by default since this list is long */}
+      <FacetChipRowCollapsible
+        label="Character"
+        options={BIBLICAL_CHARACTERS.map((c) => ({ key: c.key, label: c.label }))}
+        active={initialCharacters}
+        onToggle={(v) => toggleMultiParam('character', v, initialCharacters)}
+      />
     </div>
   );
 }
@@ -227,5 +296,100 @@ function FilterSelect({ label, value, onChange, options }: FilterSelectProps) {
         ))}
       </select>
     </label>
+  );
+}
+
+/* ─── Multi-select chip rows ──────────────────────────────────────────── */
+
+interface FacetOption { key: string; label: string }
+interface FacetChipRowProps {
+  label: string;
+  options: FacetOption[];
+  active: string[];
+  onToggle: (value: string) => void;
+}
+
+function FacetChipRow({ label, options, active, onToggle }: FacetChipRowProps) {
+  return (
+    <div className="mt-3">
+      <div className="text-[0.6875rem] uppercase tracking-wider font-semibold text-[color:var(--color-tertiary-label)] mb-2 px-1">
+        {label}
+      </div>
+      <div className="flex flex-wrap gap-2">
+        {options.map((o) => (
+          <FacetChip
+            key={o.key}
+            label={o.label}
+            active={active.includes(o.key)}
+            onClick={() => onToggle(o.key)}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function FacetChipRowCollapsible({ label, options, active, onToggle }: FacetChipRowProps) {
+  const [expanded, setExpanded] = useState(active.length > 0);
+  return (
+    <div className="mt-3">
+      <button
+        type="button"
+        onClick={() => setExpanded((v) => !v)}
+        className="flex items-center gap-1 text-[0.6875rem] uppercase tracking-wider font-semibold text-[color:var(--color-tertiary-label)] mb-2 px-1 hover:text-[color:var(--color-label)] transition-colors"
+        aria-expanded={expanded}
+      >
+        {label}
+        {active.length > 0 && (
+          <span className="normal-case tracking-normal text-[color:var(--color-primary)] font-bold">
+            ({active.length})
+          </span>
+        )}
+        <svg
+          aria-hidden="true"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          className={`w-3 h-3 transition-transform ${expanded ? 'rotate-180' : ''}`}
+        >
+          <path d="m6 9 6 6 6-6" />
+        </svg>
+      </button>
+      {expanded && (
+        <div className="flex flex-wrap gap-2">
+          {options.map((o) => (
+            <FacetChip
+              key={o.key}
+              label={o.label}
+              active={active.includes(o.key)}
+              onClick={() => onToggle(o.key)}
+            />
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function FacetChip({
+  label,
+  active,
+  onClick,
+}: { label: string; active: boolean; onClick: () => void }) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={active}
+      className={`inline-flex items-center h-8 rounded-full px-3 text-[0.8125rem] font-medium border transition-colors ${
+        active
+          ? 'bg-[color:var(--color-primary)] border-[color:var(--color-primary)] text-white'
+          : 'bg-[color:var(--color-surface)] border-[color:var(--color-separator)] text-[color:var(--color-label)] hover:border-[color:var(--color-primary)] hover:text-[color:var(--color-primary)]'
+      }`}
+    >
+      {label}
+    </button>
   );
 }

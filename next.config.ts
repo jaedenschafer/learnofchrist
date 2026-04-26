@@ -20,6 +20,20 @@ const nextConfig: NextConfig = {
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     minimumCacheTTL: 31536000, // 1 year
+    // Remote sources we display in the art library. New sources should be
+    // added here AND have a loader entry in src/lib/imageLoaders.ts so the
+    // CDN can serve a properly sized variant.
+    remotePatterns: [
+      { protocol: 'https', hostname: 'upload.wikimedia.org' },
+      { protocol: 'https', hostname: 'commons.wikimedia.org' },
+      { protocol: 'https', hostname: 'images.metmuseum.org' },
+      { protocol: 'https', hostname: 'collectionapi.metmuseum.org' },
+      { protocol: 'https', hostname: 'iiif.micr.io' },
+      { protocol: 'https', hostname: 'www.rijksmuseum.nl' },
+      { protocol: 'https', hostname: 'www.churchofjesuschrist.org' },
+      // Supabase Storage bucket "art-thumbs" — pre-generated thumbs.
+      { protocol: 'https', hostname: '*.supabase.co', pathname: '/storage/v1/object/public/**' },
+    ],
   },
 
   async headers() {

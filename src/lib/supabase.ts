@@ -158,12 +158,25 @@ export interface Artwork {
   external_id: string;
   image_url: string;
   thumbnail_url: string | null;
+  /** 256px WebP from Supabase Storage. Populated by scripts/backfill-thumbnails.mjs.
+   *  Null on rows that haven't been backfilled yet — fall back to thumbnail_url. */
+  thumbnail_256_url?: string | null;
+  /** 800px WebP — used as the detail-page hero before original loads. */
+  thumbnail_800_url?: string | null;
+  /** Hex color (e.g. '#3a2b1f') for blurDataURL placeholder. */
+  dominant_color?: string | null;
   width: number | null;
   height: number | null;
   license: string;
   license_note: string | null;
   description: string | null;
   status: string;
+  /** 'early-christian' | 'byzantine' | 'medieval' | 'renaissance' | 'baroque' | 'modern' | 'contemporary' */
+  era?: string | null;
+  biblical_character?: string[] | null;
+  biblical_theme?: string[] | null;
+  tags?: string[] | null;
+  scripture_ref_count?: number | null;
 }
 
 export interface ArtworkWithArtist extends Artwork {
@@ -428,59 +441,189 @@ export async function getArtworksBrowse(limit = 60): Promise<ArtworkWithArtist[]
 
 /* ─── Filtered browse (search bar + dropdowns on /art) ─────────────────── */
 
-export type ArtSort = 'recent' | 'oldest' | 'az' | 'za' | 'year_asc' | 'year_desc';
+export type ArtSort =
+  | 'recent'
+  | 'oldest'
+  | 'az'
+  | 'za'
+  | 'year_asc'
+  | 'year_desc'
+  | 'popular'
+  | 'relevance';
+
+/** Cursor for keyset pagination. Stable across re-renders, URL-safe. */
+export interface ArtCursor {
+  ts: string; // ISO timestamp of the last seen row's created_at
+  id: string; // uuid of the last seen row
+}
 
 export interface ArtFilterParams {
   q?: string;
-  book?: string;   // book slug
-  artist?: string; // artist slug
-  source?: string; // source enum value
+  /** Multi-select. Single string accepted for backwards compat. */
+  book?: string | string[];
+  artist?: string | string[];
+  source?: string;
+  era?: string | string[];
+  /** Biblical character keys (e.g. 'jesus', 'john_the_baptist'). */
+  character?: string | string[];
+  /** Biblical theme keys (e.g. 'crucifixion', 'creation'). */
+  theme?: string | string[];
   sort?: ArtSort;
   limit?: number;
+  /** Use cursor for keyset pagination. */
+  cursor?: ArtCursor | null;
+  /** Legacy offset path — only used when cursor is undefined and offset > 0. */
   offset?: number;
 }
 
 export interface ArtBrowseResult {
   artworks: ArtworkWithArtist[];
   total: number;
+  /** Cursor to pass to the next call to load the following page. Null when
+   *  there are no more rows. */
+  nextCursor: ArtCursor | null;
+}
+
+/** Encode/decode cursor for URL safety. */
+export function encodeCursor(c: ArtCursor | null): string {
+  if (!c) return '';
+  return Buffer.from(`${c.ts}|${c.id}`, 'utf8').toString('base64url');
+}
+export function decodeCursor(s: string | null | undefined): ArtCursor | null {
+  if (!s) return null;
+  try {
+    const decoded = Buffer.from(s, 'base64url').toString('utf8');
+    const [ts, id] = decoded.split('|');
+    if (!ts || !id) return null;
+    return { ts, id };
+  } catch {
+    return null;
+  }
+}
+
+function toArray(v: string | string[] | undefined): string[] | null {
+  if (!v) return null;
+  const arr = Array.isArray(v) ? v : [v];
+  const filtered = arr.map((s) => s.trim()).filter(Boolean);
+  return filtered.length ? filtered : null;
 }
 
 /**
- * Filtered list of approved, published artworks with total count.
- * Used by /art (filters + search bar).
+ * Filtered list of approved, published artworks. Backed by the
+ * `search_artworks` RPC (migration 029) for FTS + faceted filtering +
+ * cursor pagination in one query.
+ *
+ * Pass `cursor` to fetch the next page. The first call passes none; the
+ * RPC returns rows + a `total_count` projected onto each row, which we
+ * pull off the first row.
  */
 export async function getFilteredArtworks(
   filters: ArtFilterParams = {},
 ): Promise<ArtBrowseResult> {
-  const { q, book, artist, source, sort = 'recent', limit = 48, offset = 0 } = filters;
+  const {
+    q,
+    book,
+    artist,
+    era,
+    character,
+    theme,
+    sort = 'recent',
+    limit = 48,
+    cursor,
+    offset = 0,
+  } = filters;
 
-  // Resolve book slug → artwork_ids that reference this book.
-  let artworkIdsFromBook: string[] | null = null;
-  if (book) {
-    const { data: bookRow } = await supabaseServer
-      .from('books')
-      .select('id')
-      .eq('slug', book)
-      .maybeSingle();
-    if (!bookRow) return { artworks: [], total: 0 };
+  const args = {
+    q: q?.trim() || null,
+    filter_era: toArray(era),
+    filter_books: toArray(book),
+    filter_artists: toArray(artist),
+    filter_chars: toArray(character),
+    filter_themes: toArray(theme),
+    cursor_ts: cursor?.ts ?? null,
+    cursor_id: cursor?.id ?? null,
+    page_size: Math.min(Math.max(limit, 1), 200),
+    sort_by: sort,
+  };
 
-    const { data: refs } = await supabaseServer
-      .from('artwork_scripture_refs')
-      .select('artwork_id')
-      .eq('book_id', bookRow.id);
-    artworkIdsFromBook = Array.from(new Set((refs || []).map((r: { artwork_id: string }) => r.artwork_id)));
-    if (artworkIdsFromBook.length === 0) return { artworks: [], total: 0 };
+  const { data, error } = await supabaseServer.rpc('search_artworks', args);
+  if (error) {
+    console.error('Error fetching filtered artworks (RPC):', error);
+    // Fall back to the legacy offset path so the page still renders during
+    // the migration window before 028/029 are applied.
+    return legacyOffsetFallback({ q, book, artist, sort, limit, offset });
   }
 
-  // Resolve artist slug → artist_id.
+  type RpcRow = Artwork & {
+    artist_id: string | null;
+    artist_slug: string | null;
+    artist_name: string | null;
+    /** RPC selects created_at for cursor stability — not part of the
+     *  Artwork interface (which is the public-facing shape) but is on
+     *  every row coming back from search_artworks. */
+    created_at: string;
+    total_count: number | string;
+    rank: number;
+  };
+
+  const rows = (data ?? []) as RpcRow[];
+  const total = rows.length > 0 ? Number(rows[0].total_count) : 0;
+  const artworks: ArtworkWithArtist[] = rows.map((r) => {
+    const { artist_slug, artist_name, total_count: _t, rank: _r, ...rest } = r;
+    void _t;
+    void _r;
+    const artistRow: Artist | null = r.artist_id
+      ? {
+          id: r.artist_id,
+          slug: artist_slug ?? '',
+          name: artist_name ?? 'Unknown',
+          birth_year: null,
+          death_year: null,
+          nationality: null,
+          bio: null,
+          wikipedia_url: null,
+        }
+      : null;
+    return { ...(rest as Artwork), artist: artistRow };
+  });
+
+  const last = rows[rows.length - 1];
+  const hasMore = artworks.length === args.page_size && total > artworks.length;
+  const nextCursor: ArtCursor | null =
+    hasMore && last && last.created_at ? { ts: String(last.created_at), id: last.id } : null;
+
+  return { artworks, total, nextCursor };
+}
+
+/** Backwards-compatible offset path used as a fallback when the RPC fails
+ *  (e.g. before migrations 028/029 run). Mirrors the pre-refactor query. */
+async function legacyOffsetFallback(filters: {
+  q?: string;
+  book?: string | string[];
+  artist?: string | string[];
+  sort?: ArtSort;
+  limit: number;
+  offset: number;
+}): Promise<ArtBrowseResult> {
+  const { q, book, artist, sort = 'recent', limit, offset } = filters;
+  const bookSlug = Array.isArray(book) ? book[0] : book;
+  const artistSlug = Array.isArray(artist) ? artist[0] : artist;
+
+  let artworkIdsFromBook: string[] | null = null;
+  if (bookSlug) {
+    const { data: bookRow } = await supabaseServer
+      .from('books').select('id').eq('slug', bookSlug).maybeSingle();
+    if (!bookRow) return { artworks: [], total: 0, nextCursor: null };
+    const { data: refs } = await supabaseServer
+      .from('artwork_scripture_refs').select('artwork_id').eq('book_id', bookRow.id);
+    artworkIdsFromBook = Array.from(new Set((refs || []).map((r: { artwork_id: string }) => r.artwork_id)));
+    if (artworkIdsFromBook.length === 0) return { artworks: [], total: 0, nextCursor: null };
+  }
   let artistId: string | null = null;
-  if (artist) {
+  if (artistSlug) {
     const { data: artistRow } = await supabaseServer
-      .from('artists')
-      .select('id')
-      .eq('slug', artist)
-      .maybeSingle();
-    if (!artistRow) return { artworks: [], total: 0 };
+      .from('artists').select('id').eq('slug', artistSlug).maybeSingle();
+    if (!artistRow) return { artworks: [], total: 0, nextCursor: null };
     artistId = artistRow.id;
   }
 
@@ -495,49 +638,61 @@ export async function getFilteredArtworks(
 
   if (artworkIdsFromBook) query = query.in('id', artworkIdsFromBook);
   if (artistId) query = query.eq('artist_id', artistId);
-  if (source) query = query.eq('source', source);
   if (q && q.trim()) {
-    // ilike on title (case-insensitive contains). Cheap and good-enough for ~1k rows.
     const pattern = `%${q.trim().replace(/[%_]/g, (m) => '\\' + m)}%`;
     query = query.ilike('title', pattern);
   }
 
   switch (sort) {
-    case 'oldest':
-      query = query.order('created_at', { ascending: true });
-      break;
-    case 'az':
-      query = query.order('title', { ascending: true });
-      break;
-    case 'za':
-      query = query.order('title', { ascending: false });
-      break;
-    case 'year_asc':
-      query = query.order('year', { ascending: true, nullsFirst: false });
-      break;
-    case 'year_desc':
-      query = query.order('year', { ascending: false, nullsFirst: false });
-      break;
+    case 'oldest': query = query.order('created_at', { ascending: true }); break;
+    case 'az':     query = query.order('title', { ascending: true }); break;
+    case 'za':     query = query.order('title', { ascending: false }); break;
+    case 'year_asc':  query = query.order('year', { ascending: true, nullsFirst: false }); break;
+    case 'year_desc': query = query.order('year', { ascending: false, nullsFirst: false }); break;
     case 'recent':
-    default:
-      query = query.order('created_at', { ascending: false });
-      break;
+    default:       query = query.order('created_at', { ascending: false });
   }
 
   query = query.range(offset, offset + limit - 1);
 
   const { data, error, count } = await query;
   if (error) {
-    console.error('Error fetching filtered artworks:', error);
-    return { artworks: [], total: 0 };
+    console.error('Legacy fallback also failed:', error);
+    return { artworks: [], total: 0, nextCursor: null };
   }
-
   type RawArtwork = Artwork & { artist: Artist | Artist[] | null };
-  const artworks = ((data ?? []) as RawArtwork[]).map((a) => ({
-    ...a,
-    artist: unwrap(a.artist),
-  }));
-  return { artworks, total: count ?? artworks.length };
+  const artworks = ((data ?? []) as RawArtwork[]).map((a) => ({ ...a, artist: unwrap(a.artist) }));
+  return { artworks, total: count ?? artworks.length, nextCursor: null };
+}
+
+/* ─── Typeahead for the search-box dropdown ───────────────────────────── */
+
+export interface TypeaheadResult {
+  kind: 'artwork' | 'artist';
+  id: string;
+  slug: string;
+  title: string;
+  subtitle: string | null;
+  thumbnail_url: string | null;
+}
+
+/** Top fuzzy matches for a query — used by /api/art/search. */
+export async function getArtTypeahead(q: string, limit = 8): Promise<TypeaheadResult[]> {
+  const trimmed = q.trim();
+  if (trimmed.length === 0) return [];
+  const { data, error } = await supabaseServer.rpc('art_typeahead', {
+    q: trimmed,
+    page_size: Math.min(Math.max(limit, 1), 20),
+  });
+  if (error) {
+    console.error('Typeahead RPC failed:', error);
+    return [];
+  }
+  type Row = TypeaheadResult & { rank: number };
+  return ((data ?? []) as Row[]).map(({ rank: _r, ...rest }) => {
+    void _r;
+    return rest;
+  });
 }
 
 /** Fetch one artist by slug, including the SEO content columns from
@@ -575,6 +730,60 @@ export async function getArtistBySlug(slug: string): Promise<ArtistFull | null> 
 export async function getAllArtistSlugs(): Promise<Array<{ slug: string }>> {
   const list = await getArtistsWithArt();
   return list.map((a) => ({ slug: a.slug }));
+}
+
+/** Directory listing for /art/artists. Joins artists_with_art (id + count)
+ *  with lifespan / nationality / bio readiness from the artists table so
+ *  the directory cards can render without a per-row roundtrip. */
+export async function getArtistsDirectory(): Promise<Array<{
+  id: string;
+  slug: string;
+  name: string;
+  count: number;
+  birth_year: number | null;
+  death_year: number | null;
+  nationality: string | null;
+  has_bio: boolean;
+}>> {
+  const list = await getArtistsWithArt();
+  if (list.length === 0) return [];
+
+  const { data, error } = await supabaseServer
+    .from('artists')
+    .select('id, birth_year, death_year, nationality, bio_long')
+    .in('id', list.map((a) => a.id));
+
+  if (error) {
+    console.error('Error fetching artist details for directory:', error);
+    return list.map((a) => ({
+      ...a,
+      birth_year: null,
+      death_year: null,
+      nationality: null,
+      has_bio: false,
+    }));
+  }
+
+  type Row = {
+    id: string;
+    birth_year: number | null;
+    death_year: number | null;
+    nationality: string | null;
+    bio_long: string | null;
+  };
+  const byId = new Map((data ?? []).map((d) => [(d as Row).id, d as Row]));
+  return list.map((a) => {
+    const d = byId.get(a.id);
+    const bio = (d?.bio_long ?? '').trim();
+    return {
+      ...a,
+      birth_year: d?.birth_year ?? null,
+      death_year: d?.death_year ?? null,
+      nationality: d?.nationality ?? null,
+      // Same threshold the artist page uses to flip out of noindex.
+      has_bio: bio.length >= 200,
+    };
+  });
 }
 
 /** Every approved, published artwork by a given artist, with primary

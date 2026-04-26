@@ -152,6 +152,14 @@ async function artEntries(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   });
 
+  // Artists directory — hub-of-hubs feeding into every /art/artist/[slug].
+  entries.push({
+    url: `${BASE_URL}/art/artists`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.7,
+  });
+
   // Per-book art indexes (we generate one for every book — the page itself
   // 404s gracefully when no art is indexed yet, but Google won't waste
   // crawl budget on those because the parent /art/book/[slug] page renders
