@@ -65,10 +65,15 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
         <div className="bg-[#007AFF]/[0.04] border-l-[3px] border-[#007AFF]/30 rounded-2xl p-6">
           <div className="flex items-center gap-2 mb-2">
             <span className="pill bg-[#007AFF]/[0.08] text-[color:var(--color-primary)] text-sm">Key Verse</span>
-            <span className="text-sm font-medium text-[color:var(--color-tertiary-label)]">{content.keyVerse.reference}</span>
+            <span
+              data-editable="keyVerse-ref"
+              className="text-sm font-medium text-[color:var(--color-tertiary-label)]"
+            >
+              {content.keyVerse.reference}
+            </span>
           </div>
           <p className="text-lg text-[color:var(--color-label)]/80 leading-relaxed italic">
-            &ldquo;{content.keyVerse.text}&rdquo;
+            &ldquo;<span data-editable="keyVerse-text">{content.keyVerse.text}</span>&rdquo;
           </p>
         </div>
       )}
@@ -76,20 +81,35 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
       {/* Overview — all levels */}
       <div className="bg-[color:var(--color-surface)] rounded-2xl p-6">
         <h2 className="font-sans text-lg font-bold text-[color:var(--color-label)] mb-3">Overview</h2>
-        <p className="text-base text-[color:var(--color-secondary-label)] leading-relaxed">{overview}</p>
+        <p
+          data-editable="overview"
+          className="text-base text-[color:var(--color-secondary-label)] leading-relaxed"
+        >
+          {overview}
+        </p>
       </div>
 
       {/* Key Themes — intermediate & deep */}
       {(level === 'intermediate' || level === 'deep') && (
         <div className="bg-[color:var(--color-surface)] rounded-2xl p-6">
           <h2 className="font-sans text-lg font-bold text-[color:var(--color-label)] mb-3">Key Themes</h2>
-          <div className="space-y-4">
+          <div className="space-y-4" data-editable-list="themes">
             {themes.map((theme, i) => (
-              <div key={i} className="flex gap-3">
+              <div key={i} className="flex gap-3" data-editable-theme>
                 <div className="step-number">{i + 1}</div>
                 <div>
-                  <h3 className="font-sans text-base font-semibold text-[color:var(--color-label)]">{theme.title}</h3>
-                  <p className="text-sm text-[color:var(--color-secondary-label)] mt-0.5 leading-relaxed">{theme.desc}</p>
+                  <h3
+                    data-editable="theme-title"
+                    className="font-sans text-base font-semibold text-[color:var(--color-label)]"
+                  >
+                    {theme.title}
+                  </h3>
+                  <p
+                    data-editable="theme-desc"
+                    className="text-sm text-[color:var(--color-secondary-label)] mt-0.5 leading-relaxed"
+                  >
+                    {theme.desc}
+                  </p>
                 </div>
               </div>
             ))}
