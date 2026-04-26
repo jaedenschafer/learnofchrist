@@ -286,7 +286,7 @@ export const EXODUS_31: RichChapterContent = {
               number: 17,
               spans: [
                 t('It is a sign between me and the children of Israel for ever: for in six days the LORD made heaven and earth, and on the seventh day he rested, and was '),
-                hp('refreshed', 'christ-rest-refresh'),
+                hp('refreshed', 'c-refreshed-note'),
                 t('.'),
               ],
             },
