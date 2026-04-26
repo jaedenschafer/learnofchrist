@@ -143,10 +143,91 @@ export default async function ArtistPage({ params }: PageProps) {
     .map((p) => p.trim())
     .filter(Boolean);
 
+  // ─── FAQ ───────────────────────────────────────────────────────────
+  // Auto-generated from facts in the row. Every answer is composed from
+  // birth_year / death_year / nationality / work counts / book list, so
+  // there is no copy-paste risk and the FAQ is always in sync with the
+  // current data. We emit FAQPage JSON-LD when at least three answerable
+  // questions exist.
+  const lifespanForFaq = lifespanLabel(artist.birth_year, artist.death_year);
+  const bookList = [...byBook.values()].map((b) => b.bookName);
+  const bookListPhrase =
+    bookList.length === 0
+      ? null
+      : bookList.length === 1
+      ? bookList[0]
+      : bookList.length === 2
+      ? `${bookList[0]} and ${bookList[1]}`
+      : `${bookList.slice(0, -1).join(', ')}, and ${bookList[bookList.length - 1]}`;
+
+  const firstBioSentence = (() => {
+    const flat = (artist.bio_long ?? '').replace(/\s+/g, ' ').trim();
+    if (flat.length < 40) return null;
+    // Take up to the first period followed by a space, capped at ~280 chars.
+    const m = flat.match(/^[^.]{30,280}\./);
+    return m ? m[0] : flat.slice(0, 240) + '…';
+  })();
+
+  const faqs: { q: string; a: string }[] = [];
+
+  if (firstBioSentence) {
+    faqs.push({ q: `Who was ${artist.name}?`, a: firstBioSentence });
+  } else if (lifespanForFaq || artist.nationality) {
+    const parts = [
+      lifespanForFaq && `(${lifespanForFaq})`,
+      artist.nationality && artist.nationality.toLowerCase(),
+      'painter and illustrator of biblical scenes.',
+    ]
+      .filter(Boolean)
+      .join(' ');
+    faqs.push({
+      q: `Who was ${artist.name}?`,
+      a: `${artist.name}${parts ? ' ' + parts : ''}`,
+    });
+  }
+
+  if (artist.birth_year != null || artist.death_year != null) {
+    const b = artist.birth_year != null ? String(artist.birth_year) : 'an unknown date';
+    const d = artist.death_year != null ? String(artist.death_year) : 'an unknown date';
+    faqs.push({
+      q: `When did ${artist.name} live?`,
+      a: `${artist.name} was born in ${b} and died in ${d}.`,
+    });
+  }
+
+  if (works.length > 0) {
+    const verbList = bookListPhrase
+      ? `, with works depicting passages from ${bookListPhrase}.`
+      : '.';
+    faqs.push({
+      q: `What Bible scenes did ${artist.name} paint?`,
+      a: `Our library currently holds ${works.length} approved ${works.length === 1 ? 'work' : 'works'} by ${artist.name}${verbList}`,
+    });
+  }
+
+  faqs.push({
+    q: `How many works by ${artist.name} are at Learn of Christ?`,
+    a: `We currently have ${works.length} ${works.length === 1 ? 'work' : 'works'} by ${artist.name} in our public-domain library, indexed to the chapters and verses they depict.`,
+  });
+
+  const faqPageLd =
+    faqs.length >= 3
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: faqs.map((f) => ({
+            '@type': 'Question',
+            name: f.q,
+            acceptedAnswer: { '@type': 'Answer', text: f.a },
+          })),
+        }
+      : null;
+
   return (
     <div className="page-container">
       <JsonLd data={personLd} />
       <JsonLd data={breadcrumbLd} />
+      {faqPageLd && <JsonLd data={faqPageLd} />}
 
       <div className="max-w-3xl mx-auto">
         <BreadcrumbNav
@@ -292,6 +373,23 @@ export default async function ArtistPage({ params }: PageProps) {
                 <ArtCard key={w.id} artwork={w} />
               ))}
             </div>
+          </section>
+        )}
+
+        {/* ── Frequently asked questions ── */}
+        {faqs.length >= 2 && (
+          <section className="artist-section">
+            <h2 className="artist-section__title">
+              Frequently asked questions
+            </h2>
+            <dl className="artist-faq">
+              {faqs.map((f, i) => (
+                <div key={i} className="artist-faq__row">
+                  <dt className="artist-faq__q">{f.q}</dt>
+                  <dd className="artist-faq__a">{f.a}</dd>
+                </div>
+              ))}
+            </dl>
           </section>
         )}
 

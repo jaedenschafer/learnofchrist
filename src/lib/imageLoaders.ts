@@ -89,43 +89,19 @@ export function artImageLoader(props: ImageLoaderProps): string {
 }
 
 /**
- * Generate a 1x1 base64 PNG of a single hex color.
- * Used as next/image's blurDataURL placeholder, so the card has the
- * artwork's dominant tone behind it before bytes arrive.
+ * Generate a tiny inline SVG of a single hex color, base64-encoded for use
+ * as next/image's blurDataURL. The card paints the artwork's dominant tone
+ * behind the photo before any bytes arrive — much nicer than a flash of gray.
  *
- * Hex must be in '#rrggbb' form. Falls back to a neutral gray on bad input.
+ * Hex must be in '#rrggbb' form. Falls back to neutral zinc on bad input.
+ *
+ * SVG over PNG: a hand-rolled 1×1 PNG would need a real CRC computation
+ * (deflate + Adler32 + chunk CRC); a 1×1 SVG renders identically, costs
+ * fewer bytes, and every browser accepts it as a data URL.
  */
 export function hexToBlurDataURL(hex: string | null | undefined): string {
   const fallback = '#d4d4d8'; // zinc-300
   const value = (hex && /^#[0-9a-fA-F]{6}$/.test(hex)) ? hex : fallback;
-  const r = parseInt(value.slice(1, 3), 16);
-  const g = parseInt(value.slice(3, 5), 16);
-  const b = parseInt(value.slice(5, 7), 16);
-
-  // Hand-rolled 1x1 PNG. RFC-correct chunks (signature, IHDR, IDAT, IEND).
-  // Easier than spinning up canvas server-side. The IDAT here is pre-built
-  // for a 1x1 RGB image — we only need to splice in the color bytes.
-  const png = Buffer.from([
-    0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a,
-    // IHDR length=13
-    0x00, 0x00, 0x00, 0x0d, 0x49, 0x48, 0x44, 0x52,
-    0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01,
-    0x08, 0x02, 0x00, 0x00, 0x00,
-    0x90, 0x77, 0x53, 0xde, // IHDR CRC
-    // IDAT length=12
-    0x00, 0x00, 0x00, 0x0c, 0x49, 0x44, 0x41, 0x54,
-    0x08, 0x99, 0x63,
-    r, g, b, 0x00, 0x00, 0x00, 0x05, 0x00, 0x01,
-    0x0d, 0x0a, 0x2d, 0xb4, // IDAT CRC (placeholder; computed below)
-    // IEND length=0
-    0x00, 0x00, 0x00, 0x00, 0x49, 0x45, 0x4e, 0x44,
-    0xae, 0x42, 0x60, 0x82,
-  ]);
-  // Note: the IDAT CRC above is approximate — but for a blurred 1x1
-  // placeholder browsers don't validate strictly. If a browser does refuse
-  // it, we degrade gracefully because next/image tolerates a missing
-  // blurDataURL. To avoid the ambiguity we instead emit an inline SVG of
-  // the same color, which is universally accepted:
   const svg = `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'><rect width='1' height='1' fill='${value}'/></svg>`;
   return `data:image/svg+xml;base64,${Buffer.from(svg).toString('base64')}`;
 }
