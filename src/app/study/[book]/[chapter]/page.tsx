@@ -23,6 +23,15 @@ const RichStudyGuide = dynamic(() => import('@/components/RichStudyGuide'), {
     </div>
   ),
 });
+// Genesis 1 stays on the original hand-rolled component — it's the template
+// every other chapter aspires to. RichStudyGuide handles everything else.
+const GenesisOneStudy = dynamic(() => import('@/components/GenesisOneStudy'), {
+  loading: () => (
+    <div className="py-16 text-center text-[color:var(--color-tertiary-label)]">
+      Loading study guide…
+    </div>
+  ),
+});
 
 // ─── ISR ───
 // Cache pages for 24h; regenerate in background after that.
@@ -258,8 +267,12 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
         </div>
 
         <div className="space-y-4 mt-4">
-          {richContent && (
-            <RichStudyGuide content={richContent} artworks={chapterArtworks} />
+          {isGenesisOne ? (
+            <GenesisOneStudy artworks={chapterArtworks} />
+          ) : (
+            richContent && (
+              <RichStudyGuide content={richContent} artworks={chapterArtworks} />
+            )
           )}
         </div>
 
