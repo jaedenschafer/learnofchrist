@@ -438,6 +438,49 @@ html[data-reader-theme="dark"] .btn-outline:hover {
   }
 }
 
+/* Editorial pull-quote divider between showcase rows */
+.art-pullquote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 2.5rem auto 3.25rem;
+  padding: 0 1rem;
+  max-width: 56ch;
+  gap: 0.5rem;
+}
+.art-pullquote__text {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-style: italic;
+  font-size: clamp(1.0625rem, 2vw, 1.375rem);
+  line-height: 1.4;
+  color: var(--color-secondary-label);
+  margin: 0;
+  position: relative;
+  letter-spacing: 0.005em;
+}
+.art-pullquote__open,
+.art-pullquote__close {
+  font-style: normal;
+  color: var(--color-tertiary-label);
+  margin: 0 0.1em;
+}
+.art-pullquote__cite {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+  font-style: normal;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-tertiary-label);
+}
+.art-pullquote__ornament {
+  font-size: 0.6875rem;
+  color: var(--color-tertiary-label);
+  letter-spacing: 0.5em;
+  line-height: 1;
+}
+
 /* "Browse by book" chips at the bottom of the showcase */
 .art-showcase-byBook {
   margin: 2.5rem 0 4rem;

@@ -1,0 +1,214 @@
+/* Cinematic hero for /art — full-bleed featured artwork with overlaid title.
+   Mobile: 70vh, capped to feel like an opener not the whole screen.
+   Desktop: 78vh and corner-rounded so it sits inside the page rhythm. */
+
+.art-hero {
+  position: relative;
+  width: calc(100% + 2rem);
+  margin: -1rem -1rem 2.5rem;
+  height: 70vh;
+  min-height: 480px;
+  max-height: 720px;
+  overflow: hidden;
+  background-color: #1a0e08;
+  isolation: isolate;
+  display: flex;
+  align-items: flex-end;
+}
+
+.art-hero__image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  transform: scale(1.08);
+  /* Subtle Ken-Burns push-in on first paint. Slows after a beat so the
+     image settles. Honors prefers-reduced-motion below. */
+  animation: art-hero-zoom 20s ease-out 0.1s 1 forwards;
+  opacity: 0;
+  animation-name: art-hero-zoom, art-hero-fade-in;
+  animation-duration: 20s, 0.9s;
+  animation-timing-function: ease-out, ease-out;
+  animation-fill-mode: forwards, forwards;
+}
+
+@keyframes art-hero-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes art-hero-zoom {
+  from { transform: scale(1.08); }
+  to { transform: scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .art-hero__image {
+    animation: art-hero-fade-in 0.6s ease-out 0s 1 forwards;
+    transform: scale(1);
+  }
+}
+
+/* Vertical scrim so the title pops on any image. Two layers — a darker
+   bottom for text legibility, a lighter top so the scene still reads. */
+.art-hero__scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.05) 0%,
+      rgba(0, 0, 0, 0.0) 30%,
+      rgba(0, 0, 0, 0.35) 65%,
+      rgba(0, 0, 0, 0.78) 100%
+    );
+}
+
+.art-hero__content {
+  position: relative;
+  z-index: 2;
+  padding: 1.5rem 1.5rem 2rem;
+  max-width: 720px;
+  color: #fff;
+  /* Stagger fade — content slides up after the image lands */
+  animation: art-hero-content 0.9s cubic-bezier(0.2, 0.8, 0.25, 1) 0.3s 1 backwards;
+}
+
+@keyframes art-hero-content {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .art-hero__content {
+    animation: none;
+  }
+}
+
+.art-hero__kicker {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.78);
+  margin: 0 0 0.875rem;
+}
+.art-hero__kicker-label {
+  color: rgba(255, 255, 255, 0.95);
+}
+.art-hero__kicker > span[aria-hidden="true"] {
+  opacity: 0.45;
+}
+
+.art-hero__title {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-size: clamp(2rem, 5.6vw, 3.75rem);
+  font-weight: 600;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin: 0 0 0.875rem;
+  max-width: 18ch;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+.art-hero__dek {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.86);
+  margin: 0 0 1.25rem;
+  max-width: 52ch;
+}
+
+.art-hero__ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+}
+
+.art-hero__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.625rem 1.125rem;
+  border-radius: 999px;
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.15s ease, opacity 0.15s ease, background-color 0.15s ease;
+}
+.art-hero__cta--primary {
+  background: #fff;
+  color: #1a0e08;
+}
+.art-hero__cta--primary:hover {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.92);
+}
+.art-hero__cta--secondary {
+  background: rgba(255, 255, 255, 0.14);
+  color: #fff;
+  border: 0.5px solid rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+.art-hero__cta--secondary:hover {
+  background: rgba(255, 255, 255, 0.22);
+}
+
+/* Fallback: typographic-only hero when no featured artwork available */
+.art-hero--no-image {
+  background: transparent;
+  height: auto;
+  min-height: 0;
+  max-height: none;
+  margin: 1rem 0 2rem;
+  padding: 1rem 0.25rem 0;
+  display: block;
+  width: auto;
+}
+.art-hero--no-image .art-hero__title,
+.art-hero--no-image .art-hero__dek,
+.art-hero--no-image .art-hero__kicker {
+  color: var(--color-label);
+  text-shadow: none;
+}
+.art-hero--no-image .art-hero__kicker { color: var(--color-tertiary-label); }
+.art-hero--no-image .art-hero__dek { color: var(--color-secondary-label); }
+
+/* Tablet+ — bigger hero, rounded corners so it nests in the page */
+@media (min-width: 720px) {
+  .art-hero {
+    width: 100%;
+    margin: 0 0 3rem;
+    border-radius: 24px;
+    height: 78vh;
+    max-height: 780px;
+  }
+  .art-hero__content {
+    padding: 2rem 2.5rem 2.5rem;
+  }
+}
+@media (min-width: 1080px) {
+  .art-hero {
+    height: 82vh;
+  }
+  .art-hero__content {
+    padding: 2.5rem 3rem 3rem;
+  }
+}

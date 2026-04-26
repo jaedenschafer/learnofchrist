@@ -4,13 +4,17 @@ import {
   getArtworksBySources,
   getManuscriptArtworks,
   getBooksWithArt,
+  getFeaturedHeroArtwork,
+  getFeaturedArtistShowcase,
 } from '@/lib/supabase';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
 import ArtRowCarousel from '@/components/ArtRowCarousel';
 import ArtFilterBar from '@/components/ArtFilterBar';
+import ArtShowcaseHero from '@/components/ArtShowcaseHero';
+import ArtFeaturedArtist from '@/components/ArtFeaturedArtist';
 
-// Cache the showcase rows for an hour — they don't change often, and this
-// page is the highest-traffic art surface.
+// Cache for an hour — showcase rows + featured artist are deterministic
+// rotations so the same visitor gets the same look until the cache flips.
 export const revalidate = 3600;
 
 export const metadata: Metadata = {
@@ -28,18 +32,6 @@ export const metadata: Metadata = {
   },
 };
 
-/**
- * Curated rows for the showcase. Each row is "give me the latest from this
- * style/group of artists" — getArtworksBySources orders by created_at so
- * the row stays fresh as new ingests land. The seeAllHref deep-links into
- * /art/browse with the matching artist or theme params so the reader can
- * keep going.
- *
- * Row order is editorial: featured first (mixed), then by historical
- * style, then by source. The Ancient Manuscripts row is last because
- * those are visually similar parchment and are richer as context for an
- * individual chapter than as a browse experience.
- */
 const SHOWCASE_ROWS = [
   {
     title: 'Renaissance & Baroque masters',
@@ -63,7 +55,7 @@ const SHOWCASE_ROWS = [
     subtitle:
       "William Blake's apocalyptic visions, Edward Hicks's Peaceable Kingdoms, Holman Hunt's Pre-Raphaelite light.",
     kicker: 'Style',
-    sources: ['blake', 'gap_fill'], // gap_fill includes Hicks, Holman Hunt, Watts
+    sources: ['blake', 'gap_fill'],
     seeAllHref: '/art/browse?artist=william-blake&artist=edward-hicks&artist=william-holman-hunt&artist=george-frederic-watts&artist=thomas-cole',
   },
   {
@@ -90,12 +82,34 @@ const SHOWCASE_ROWS = [
     sources: ['met_openaccess', 'rijksmuseum'],
     seeAllHref: '/art/browse?sort=popular',
   },
+] as const;
+
+/**
+ * Italic scripture pull-quotes that sit between major sections — a small
+ * editorial moment that breaks up the rhythm and connects the art back to
+ * the reason any of it exists. We rotate through them in sequence and
+ * stop once we run out, leaving the remaining rows undivided.
+ */
+const PULL_QUOTES = [
+  {
+    text: 'Behold, I make all things new.',
+    ref: 'Revelation 21:5',
+  },
+  {
+    text: 'In the beginning was the Word, and the Word was with God, and the Word was God.',
+    ref: 'John 1:1',
+  },
+  {
+    text: 'Let the little children come unto me.',
+    ref: 'Mark 10:14',
+  },
 ];
 
 export default async function ArtShowcasePage() {
-  // Fetch all the rows in parallel + the meta numbers for the filter bar.
   const [
     booksWithArt,
+    heroArtwork,
+    featuredArtist,
     renaissance,
     devotional,
     romantic,
@@ -105,55 +119,64 @@ export default async function ArtShowcasePage() {
     manuscripts,
   ] = await Promise.all([
     getBooksWithArt(),
-    getArtworksBySources(SHOWCASE_ROWS[0].sources, 18),
-    getArtworksBySources(SHOWCASE_ROWS[1].sources, 18),
-    getArtworksBySources(SHOWCASE_ROWS[2].sources, 18),
-    getArtworksBySources(SHOWCASE_ROWS[3].sources, 18),
-    getArtworksBySources(SHOWCASE_ROWS[4].sources, 18),
-    getArtworksBySources(SHOWCASE_ROWS[5].sources, 18),
+    getFeaturedHeroArtwork(),
+    getFeaturedArtistShowcase(),
+    getArtworksBySources(SHOWCASE_ROWS[0].sources as unknown as string[], 18),
+    getArtworksBySources(SHOWCASE_ROWS[1].sources as unknown as string[], 18),
+    getArtworksBySources(SHOWCASE_ROWS[2].sources as unknown as string[], 18),
+    getArtworksBySources(SHOWCASE_ROWS[3].sources as unknown as string[], 18),
+    getArtworksBySources(SHOWCASE_ROWS[4].sources as unknown as string[], 18),
+    getArtworksBySources(SHOWCASE_ROWS[5].sources as unknown as string[], 18),
     getManuscriptArtworks(18),
   ]);
 
-  // Total count: rough estimate from row totals (we don't need exact for
-  // the meta line, and a separate count query would slow first paint).
-  // Fall back to a reasonable floor.
-  const approxTotal = 7800; // post-dedupe live approved count, refreshed on next deploy
   const rowData = [renaissance, devotional, romantic, icons, illustrators, museums];
+
+  // Pull a representative dominant_color from each row's leading artwork
+  // so the kicker gets a tiny color dot that signatures the section.
+  const accentColors = rowData.map(
+    (works) => works.find((w) => !!w.dominant_color)?.dominant_color ?? null,
+  );
+
+  const approxTotal = 7800;
 
   return (
     <div className="page-container">
+      <ArtShowcaseHero artwork={heroArtwork} />
+
       <div className="max-w-6xl mx-auto">
         <BreadcrumbNav items={[{ label: 'Art', href: '#' }]} />
 
-        <header className="art-showcase-hero">
-          <p className="art-showcase-hero__kicker">
-            <span>Christian Art Library</span>
-            <span aria-hidden="true">·</span>
-            <span>Public Domain</span>
-          </p>
-          <h1 className="art-showcase-hero__title">
-            Two thousand years of Christian art, indexed to scripture.
-          </h1>
-          <p className="art-showcase-hero__dek">
-            Renaissance masters, Russian icons, 19th-century engravings, ancient
-            Latin manuscripts — every piece linked to the chapter it depicts.
-            Browse by style below, or search by artist, scripture, or theme.
-          </p>
-        </header>
-
         <ArtFilterBar totalCount={approxTotal} bookCount={booksWithArt.length} />
 
-        {SHOWCASE_ROWS.map((row, i) => (
-          <ArtRowCarousel
-            key={row.title}
-            title={row.title}
-            subtitle={row.subtitle}
-            kicker={row.kicker}
-            seeAllHref={row.seeAllHref}
-            artworks={rowData[i] ?? []}
-            priorityFirst={i === 0}
-          />
-        ))}
+        {/* Featured artist — magazine-style mosaic above the style rows. */}
+        {featuredArtist && (
+          <>
+            <ArtFeaturedArtist artist={featuredArtist.artist} works={featuredArtist.works} />
+            <PullQuote {...PULL_QUOTES[0]} />
+          </>
+        )}
+
+        <div id="showcase-rows">
+          {SHOWCASE_ROWS.map((row, i) => (
+            <div key={row.title}>
+              <ArtRowCarousel
+                title={row.title}
+                subtitle={row.subtitle}
+                kicker={row.kicker}
+                seeAllHref={row.seeAllHref}
+                artworks={rowData[i] ?? []}
+                priorityFirst={i === 0 && !heroArtwork}
+                accentColor={accentColors[i]}
+              />
+              {/* Drop a pull-quote every two rows for editorial cadence —
+                  but skip the last one so the manuscripts row sits clean. */}
+              {(i === 1 || i === 3) && PULL_QUOTES[i === 1 ? 1 : 2] && (
+                <PullQuote {...PULL_QUOTES[i === 1 ? 1 : 2]} />
+              )}
+            </div>
+          ))}
+        </div>
 
         <ArtRowCarousel
           title="Ancient Latin manuscripts"
@@ -181,6 +204,22 @@ export default async function ArtShowcasePage() {
           </div>
         </section>
       </div>
+    </div>
+  );
+}
+
+/** Editorial italic pull-quote divider between sections. */
+function PullQuote({ text, ref }: { text: string; ref: string }) {
+  return (
+    <div className="art-pullquote" role="presentation">
+      <span className="art-pullquote__ornament" aria-hidden="true">·</span>
+      <blockquote className="art-pullquote__text">
+        <span className="art-pullquote__open" aria-hidden="true">&ldquo;</span>
+        {text}
+        <span className="art-pullquote__close" aria-hidden="true">&rdquo;</span>
+      </blockquote>
+      <cite className="art-pullquote__cite">{ref}</cite>
+      <span className="art-pullquote__ornament" aria-hidden="true">·</span>
     </div>
   );
 }

@@ -438,6 +438,111 @@ export async function getManuscriptArtworks(limit: number): Promise<ArtworkWithA
   });
 }
 
+/**
+ * Pick one "hero-worthy" artwork for the cinematic hero on /art.
+ * Deterministic daily rotation: same artwork all day, different the next.
+ * Pool: well-known masters with description + pre-rendered 800px thumb,
+ * skipping manuscript folios (they don't read as a hero image).
+ */
+export async function getFeaturedHeroArtwork(): Promise<ArtworkWithArtist | null> {
+  const HERO_SOURCES = [
+    'caravaggio', 'rembrandt', 'michelangelo', 'raphael', 'rubens',
+    'fra-angelico', 'tissot', 'bloch', 'bouguereau', 'blake',
+    'gap_fill', // includes Hicks Peaceable Kingdom, Holman Hunt Light of the World
+  ];
+  const { data, error } = await supabaseServer
+    .from('artworks')
+    .select(`
+      id, slug, title, artist_id, year, medium, source, source_url,
+      external_id, image_url, thumbnail_url,
+      thumbnail_256_url, thumbnail_800_url, dominant_color,
+      width, height,
+      license, license_note, description, status, tags,
+      artist:artists ( id, slug, name, birth_year, death_year, nationality, bio, wikipedia_url )
+    `)
+    .in('source', HERO_SOURCES)
+    .eq('status', 'published')
+    .eq('moderation_status', 'approved')
+    .not('thumbnail_800_url', 'is', null)
+    .not('description', 'is', null)
+    .order('scripture_ref_count', { ascending: false })
+    .limit(80);
+
+  if (error || !data || data.length === 0) {
+    console.error('Error fetching hero artwork:', error);
+    return null;
+  }
+
+  // Filter out manuscript-page tags client-side (Postgres .not('tags','cs','{...}')
+  // is awkward and overfetching here is cheap).
+  type Raw = Artwork & { artist: Artist | Artist[] | null };
+  const pool = (data as Raw[]).filter(
+    (a) => !(a.tags?.includes('manuscript-page') ?? false),
+  );
+  if (pool.length === 0) return null;
+
+  // Deterministic daily rotation — same hero all day, refresh next day.
+  const day = Math.floor(Date.now() / (1000 * 60 * 60 * 24));
+  const pick = pool[day % pool.length];
+  return { ...pick, artist: unwrap(pick.artist) };
+}
+
+/**
+ * Featured artist for the editorial mosaic block. Weekly rotation across
+ * the well-stocked artists in the library. Returns the artist record + a
+ * curated handful of their works, lead first.
+ */
+export async function getFeaturedArtistShowcase(): Promise<{
+  artist: Artist;
+  works: ArtworkWithArtist[];
+} | null> {
+  const FEATURED_SLUGS = [
+    'james-tissot', 'gustave-dore', 'rembrandt-van-rijn', 'carl-bloch',
+    'michelangelo-buonarroti', 'caravaggio', 'william-blake',
+    'william-adolphe-bouguereau', 'peter-paul-rubens', 'raphael-sanzio',
+    'fra-angelico', 'andrei-rublev', 'heinrich-hofmann', 'edward-hicks',
+    'william-holman-hunt', 'thomas-cole',
+  ];
+  const week = Math.floor(Date.now() / (1000 * 60 * 60 * 24 * 7));
+  const slug = FEATURED_SLUGS[week % FEATURED_SLUGS.length];
+
+  const { data: artistRow, error: aErr } = await supabaseServer
+    .from('artists')
+    .select('id, slug, name, birth_year, death_year, nationality, bio, wikipedia_url')
+    .eq('slug', slug)
+    .single();
+  if (aErr || !artistRow) {
+    // Fall back to the next slug in the list — keeps the section alive
+    // even if a featured artist gets renamed.
+    return null;
+  }
+
+  const { data: works, error: wErr } = await supabaseServer
+    .from('artworks')
+    .select(`
+      id, slug, title, artist_id, year, medium, source, source_url,
+      external_id, image_url, thumbnail_url,
+      thumbnail_256_url, thumbnail_800_url, dominant_color,
+      width, height,
+      license, license_note, description, status, tags,
+      artist:artists ( id, slug, name, birth_year, death_year, nationality, bio, wikipedia_url )
+    `)
+    .eq('artist_id', artistRow.id)
+    .eq('status', 'published')
+    .eq('moderation_status', 'approved')
+    .order('scripture_ref_count', { ascending: false })
+    .limit(8);
+  if (wErr || !works || works.length === 0) return null;
+
+  type Raw = Artwork & { artist: Artist | Artist[] | null };
+  const pool = (works as Raw[])
+    .filter((a) => !(a.tags?.includes('manuscript-page') ?? false))
+    .map((row) => ({ ...row, artist: unwrap(row.artist) }));
+  if (pool.length === 0) return null;
+
+  return { artist: artistRow, works: pool };
+}
+
 /** List all books that have at least one artwork — drives the /art directory. */
 export async function getBooksWithArt(): Promise<BookRecord[]> {
   const { data: refs, error } = await supabaseServer

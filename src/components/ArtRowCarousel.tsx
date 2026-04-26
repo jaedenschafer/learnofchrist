@@ -17,6 +17,10 @@ export interface ArtRowCarouselProps {
   /** Whether the first card on the page should hint priority loading.
    *  Set true only on the first row above the fold. */
   priorityFirst?: boolean;
+  /** Optional accent color for this row — shown as a small dot in the
+   *  kicker. Pulled by the page from a representative artwork's
+   *  dominant_color so each section gets its own visual signature. */
+  accentColor?: string | null;
   artworks: ArtworkWithArtist[];
 }
 
@@ -37,6 +41,7 @@ export default function ArtRowCarousel({
   seeAllHref,
   limit = 18,
   priorityFirst = false,
+  accentColor,
   artworks,
 }: ArtRowCarouselProps) {
   if (artworks.length === 0) return null;
@@ -46,7 +51,18 @@ export default function ArtRowCarousel({
     <section className="art-row">
       <header className="art-row__head">
         <div className="art-row__head-text">
-          {kicker && <p className="art-row__kicker">{kicker}</p>}
+          {kicker && (
+            <p className="art-row__kicker">
+              {accentColor && (
+                <span
+                  className="art-row__accent-dot"
+                  style={{ backgroundColor: accentColor }}
+                  aria-hidden="true"
+                />
+              )}
+              {kicker}
+            </p>
+          )}
           <h2 className="art-row__title">{title}</h2>
           {subtitle && <p className="art-row__subtitle">{subtitle}</p>}
         </div>
