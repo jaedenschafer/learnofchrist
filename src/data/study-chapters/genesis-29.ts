@@ -42,7 +42,7 @@ export const GENESIS_29: RichChapterContent = {
               number: 1,
               spans: [
                 t('Then Jacob went on his journey, and came into the land of the people of the '),
-                hy('east', 'c-east'),
+                hy('east', 'hebrew-east'),
                 t('.'),
               ],
             },
@@ -52,7 +52,7 @@ export const GENESIS_29: RichChapterContent = {
                 t('And he looked, and behold a '),
                 hg('well in the field', 'c-well-scene'),
                 t(', and, lo, there were three flocks of sheep lying by it; for out of that well they watered the flocks: and a '),
-                hy('great stone', 'c-stone'),
+                hy('great stone', 'hebrew-stone'),
                 t(' was upon the well&apos;s mouth.'),
               ],
             },
@@ -78,7 +78,7 @@ export const GENESIS_29: RichChapterContent = {
               number: 7,
               spans: [
                 t('And he said, Lo, it is yet high day, neither is it time that the cattle should be gathered together: '),
-                hg('water ye the sheep, and go and feed them', 'c-patience'),
+                hg('water ye the sheep, and go and feed them', 'c-well-scene'),
                 t('.'),
               ],
             },
@@ -147,7 +147,7 @@ export const GENESIS_29: RichChapterContent = {
               number: 10,
               spans: [
                 t('And it came to pass, when Jacob saw '),
-                hy('Rachel the daughter of Laban his mother&apos;s brother', 'c-rachel-name'),
+                hy('Rachel the daughter of Laban his mother&apos;s brother', 'hebrew-rachel-name'),
                 t(', and the sheep of Laban his mother&apos;s brother, that Jacob '),
                 hp('went near, and rolled the stone', 'c-stone-alone'),
                 t(' from the well&apos;s mouth, and watered the flock of Laban his mother&apos;s brother.'),
@@ -161,7 +161,7 @@ export const GENESIS_29: RichChapterContent = {
               number: 12,
               spans: [
                 t('And Jacob told Rachel that he was her father&apos;s '),
-                hy('brother', 'c-kinship'),
+                hy('brother', 'hebrew-rachel-name'),
                 t(', and that he was Rebekah&apos;s son: and she ran and told her father.'),
               ],
             },
@@ -223,7 +223,7 @@ export const GENESIS_29: RichChapterContent = {
               number: 15,
               spans: [
                 t('And Laban said unto Jacob, Because thou art my brother, shouldest thou therefore serve me for nought? tell me, what shall thy '),
-                hg('wages be', 'c-wages'),
+                hg('wages be', 'c-love-Rachel'),
                 t('?'),
               ],
             },
@@ -231,7 +231,7 @@ export const GENESIS_29: RichChapterContent = {
               number: 16,
               spans: [
                 t('And Laban had two daughters: the name of the elder was '),
-                hy('Leah', 'c-leah-name'),
+                hy('Leah', 'hebrew-leah-name'),
                 t(': and the name of the younger was '),
                 hp('Rachel', 'c-love-Rachel'),
                 t('.'),
@@ -253,7 +253,7 @@ export const GENESIS_29: RichChapterContent = {
               number: 19,
               spans: [
                 t('And Laban said, It is better that I give her to thee, than that I should give her to another man: '),
-                hg('abide with me', 'c-stay'),
+                hg('abide with me', 'c-love-Rachel'),
                 t('.'),
               ],
             },
@@ -290,7 +290,7 @@ export const GENESIS_29: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'c-love-Rachel',
+          id: 'c-few-days',
           title: 'Christ Connection — Love That Labors',
           html:
             'Jacob labors seven years for the bride he loves, and the years seem like days. Christ, Bridegroom of the Church, labors through all of history for His bride—and the apostle Paul quotes this very verse to describe it: Christ "loved the church, and gave himself for it" (Eph. 5:25). The years from creation to the cross to the age to come are, from the perspective of eternity, a labor of love. His seven years—or seven thousand—are rendered nothing by the measure of His love. We are the Rachel He cannot stop working for.',
@@ -328,7 +328,7 @@ export const GENESIS_29: RichChapterContent = {
               number: 21,
               spans: [
                 t('And Jacob said unto Laban, Give me my wife, for my days are fulfilled, that '),
-                hg('I may go in unto her', 'c-fulfilled'),
+                hg('I may go in unto her', 'c-leah-given'),
                 t('.'),
               ],
             },
@@ -443,7 +443,7 @@ export const GENESIS_29: RichChapterContent = {
               number: 29,
               spans: [
                 t('And Laban gave to Rachel his daughter '),
-                hg('Bilhah his handmaid to be her maid', 'c-bilhah'),
+                hg('Bilhah his handmaid to be her maid', 'c-elder-first'),
                 t('.'),
               ],
             },
@@ -502,7 +502,7 @@ export const GENESIS_29: RichChapterContent = {
               number: 31,
               spans: [
                 t('And when the LORD saw that Leah was '),
-                hy('hated', 'c-hated'),
+                hy('hated', 'c-god-sees-leah'),
                 t(', he '),
                 hp('opened her womb', 'c-god-sees-leah'),
                 t(': but Rachel was barren.'),
