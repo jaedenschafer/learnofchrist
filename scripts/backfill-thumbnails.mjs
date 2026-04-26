@@ -136,7 +136,15 @@ async function fetchImageBuffer(url, attempt = 0) {
 }
 
 async function processOne(row) {
-  const sourceUrl = row.image_url || row.thumbnail_url;
+  // Met's thumbnail_url points at images.metmuseum.org/.../web-large/<file>.jpg —
+  // a museum-provided pre-sized variant (~500 KB) that's already plenty big
+  // for our 800px output and 10× faster to fetch than the full original.
+  // For other sources thumbnail_url may be a tiny 256 px Wikimedia thumb that
+  // would visibly degrade our 800 px tier — fall back to image_url there.
+  const preferThumb = row.source === 'met_openaccess' && row.thumbnail_url;
+  const sourceUrl = preferThumb
+    ? row.thumbnail_url
+    : (row.image_url || row.thumbnail_url);
   if (!sourceUrl) throw new Error('No image URL on row');
 
   const buf = await fetchImageBuffer(sourceUrl);
@@ -195,7 +203,7 @@ async function main() {
     : '&thumbnail_256_url=is.null';
   const limitClause = LIMIT ? `&limit=${LIMIT}` : '';
   const path =
-    `artworks?select=id,slug,image_url,thumbnail_url,width,height` +
+    `artworks?select=id,slug,image_url,thumbnail_url,source,width,height` +
     `&moderation_status=eq.approved&status=eq.published&order=created_at.asc${filter}${limitClause}`;
 
   console.log(`Querying: ${path}`);
