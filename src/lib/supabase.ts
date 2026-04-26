@@ -206,8 +206,15 @@ function unwrap<T>(value: T | T[] | null | undefined): T | null {
 }
 
 /**
- * Fetch all published artworks for a book + chapter, ordered with primary
- * references first so "the main art for this passage" surfaces at the top.
+ * Fetch all published artworks for a book + chapter, ordered:
+ *   1. Painted artworks (no 'manuscript-page' tag) before manuscript folios
+ *   2. Within each group, primary refs (is_primary = true) before secondary
+ *
+ * The painted-vs-manuscript split is the most important rule: study guides
+ * and the LCP-preload path consume `result[0]`, and we never want a Vivian
+ * Bible / Codex Amiatinus parchment scan to outrank an Edward Hicks or
+ * Caravaggio. Manuscript folios are valuable as ancient context, but not
+ * as the headline image of a chapter.
  */
 export async function getArtworksForChapter(
   bookSlug: string,
@@ -258,7 +265,19 @@ export async function getArtworksForChapter(
     seen.add(raw.id);
     out.push({ ...raw, artist: unwrap(raw.artist) });
   }
-  return out;
+
+  // Push manuscript folios to the back of the list, preserving the prior
+  // is_primary ordering within each group. Stable partition.
+  const paintings: ArtworkWithArtist[] = [];
+  const manuscripts: ArtworkWithArtist[] = [];
+  for (const a of out) {
+    if (a.tags?.includes('manuscript-page')) {
+      manuscripts.push(a);
+    } else {
+      paintings.push(a);
+    }
+  }
+  return [...paintings, ...manuscripts];
 }
 
 /**
@@ -316,6 +335,19 @@ export async function getArtworksForBook(
     if (seen.has(raw.id)) continue;
     seen.add(raw.id);
     byChapter.get(ch)!.push({ ...raw, artist: unwrap(raw.artist) });
+  }
+
+  // Within each chapter, push manuscript folios to the back so painted
+  // artworks render first in the per-chapter strips on /art/book/[slug].
+  // Stable partition preserves the is_primary ordering within each group.
+  for (const [ch, list] of byChapter.entries()) {
+    const paintings: ArtworkWithArtist[] = [];
+    const manuscripts: ArtworkWithArtist[] = [];
+    for (const a of list) {
+      if (a.tags?.includes('manuscript-page')) manuscripts.push(a);
+      else paintings.push(a);
+    }
+    byChapter.set(ch, [...paintings, ...manuscripts]);
   }
 
   return Array.from(byChapter.entries())

@@ -176,9 +176,21 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
   // first ChapterArtStrip card on other chapters. Emitting <link rel=preload>
   // here lets the browser fire the request alongside HTML parse instead of
   // waiting for the <img> to mount.
+  //
+  // Skip manuscript-page folios for the LCP preload — those are 2-8 MB
+  // parchment scans served from third-party origins (Gallica, OCLC ContentDM)
+  // and we don't want them to monopolize the preload slot when a smaller
+  // painted artwork exists. Painted art always sorts first in
+  // chapterArtworks (see getArtworksForChapter), so the find() below picks
+  // the first painting if one exists; if a chapter is manuscripts-only,
+  // skip the preload entirely.
+  const isManuscript = (a: typeof chapterArtworks[number]) =>
+    a.tags?.includes('manuscript-page') ?? false;
   const lcpArtwork =
-    chapterArtworks.find((a) => isGenesisOne ? inlineArtSlugs.has(a.id) : true)
-    ?? chapterArtworks[0]
+    chapterArtworks.find((a) =>
+      !isManuscript(a) && (isGenesisOne ? inlineArtSlugs.has(a.id) : true),
+    )
+    ?? chapterArtworks.find((a) => !isManuscript(a))
     ?? null;
   const lcpHref = lcpArtwork
     ? (isGenesisOne
