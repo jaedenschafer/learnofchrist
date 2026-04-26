@@ -233,7 +233,6 @@ export const GENESIS_35: RichChapterContent = {
           title: 'Christ Connection — The Seed of Israel',
           html:
             'God promises Israel: &ldquo;a nation and a company of nations shall be of thee, and kings shall come out of thy loins.&rdquo; (35:11). Centuries later, Matthew traces Jesus&apos; lineage back to Abraham and Jacob: &ldquo;Jesus Christ, the son of David, the son of Abraham&rdquo; (Matt. 1:1). The promised Messiah comes as the King from the loins of Israel — a King not of an earthly empire, but of a kingdom that will never end (Luke 1:33). Jacob strove with God and held fast; the Seed of Israel will sit at God&apos;s right hand, having reconciled all who strive to the God who first wrestled with them.',
-          },
         },
         {
           kind: 'carry',
@@ -322,7 +321,6 @@ export const GENESIS_35: RichChapterContent = {
           html:
             'A child whose mother names him for pain, but whose father names him for honor. This is the pattern of Christ. Isaiah writes: &ldquo;a man of sorrows, and acquainted with grief&rdquo; (Isa. 53:3). Born into suffering, born for a cross. Yet Hebrews says of Jesus: &ldquo;who being the brightness of his glory, and the express image of his person, and upholding all things by the word of his power, when he had by himself purged our sins, sat down on the right hand of the Majesty on high&rdquo; (Heb. 1:3). Both names are true of Him. The Son who knew sorrows knows ours. The Son who sits at God&apos;s right hand lifts us up with Him.',
           },
-        },
         {
           kind: 'carry',
           html:

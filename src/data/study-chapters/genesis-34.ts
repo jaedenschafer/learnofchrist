@@ -261,7 +261,7 @@ export const GENESIS_34: RichChapterContent = {
             'Circumcision was the sign of Abraham&apos;s covenant with God (Gen 17). Here it becomes the instrument of deception and mass killing. The brothers weaponize the holiest sign they have. The text does not endorse this. It is presented as a perversion of what the covenant sign was meant to be.',
         },
         {
-          kind: 'reflect',
+          kind: 'reflection',
           id: 'gen34-weaponized',
           prompt:
             'What holy things in your tradition have you seen twisted into weapons? What does that damage cost?',

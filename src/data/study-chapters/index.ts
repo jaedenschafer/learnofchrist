@@ -46,7 +46,27 @@ import { GENESIS_23 } from './genesis-23';
 import { GENESIS_24 } from './genesis-24';
 import { GENESIS_25 } from './genesis-25';
 import { GENESIS_26 } from './genesis-26';
+import { GENESIS_27 } from './genesis-27';
+import { GENESIS_28 } from './genesis-28';
+import { GENESIS_29 } from './genesis-29';
+import { GENESIS_30 } from './genesis-30';
+import { GENESIS_31 } from './genesis-31';
+import { GENESIS_32 } from './genesis-32';
+import { GENESIS_33 } from './genesis-33';
+import { GENESIS_34 } from './genesis-34';
+import { GENESIS_35 } from './genesis-35';
+import { GENESIS_36 } from './genesis-36';
 import { GENESIS_37 } from './genesis-37';
+import { GENESIS_38 } from './genesis-38';
+import { GENESIS_39 } from './genesis-39';
+import { GENESIS_40 } from './genesis-40';
+import { GENESIS_41 } from './genesis-41';
+import { GENESIS_42 } from './genesis-42';
+import { GENESIS_43 } from './genesis-43';
+import { GENESIS_44 } from './genesis-44';
+import { GENESIS_45 } from './genesis-45';
+import { GENESIS_46 } from './genesis-46';
+import { GENESIS_47 } from './genesis-47';
 import { GENESIS_50 } from './genesis-50';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
@@ -77,7 +97,27 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'genesis/24': GENESIS_24,
   'genesis/25': GENESIS_25,
   'genesis/26': GENESIS_26,
+  'genesis/27': GENESIS_27,
+  'genesis/28': GENESIS_28,
+  'genesis/29': GENESIS_29,
+  'genesis/30': GENESIS_30,
+  'genesis/31': GENESIS_31,
+  'genesis/32': GENESIS_32,
+  'genesis/33': GENESIS_33,
+  'genesis/34': GENESIS_34,
+  'genesis/35': GENESIS_35,
+  'genesis/36': GENESIS_36,
   'genesis/37': GENESIS_37,
+  'genesis/38': GENESIS_38,
+  'genesis/39': GENESIS_39,
+  'genesis/40': GENESIS_40,
+  'genesis/41': GENESIS_41,
+  'genesis/42': GENESIS_42,
+  'genesis/43': GENESIS_43,
+  'genesis/44': GENESIS_44,
+  'genesis/45': GENESIS_45,
+  'genesis/46': GENESIS_46,
+  'genesis/47': GENESIS_47,
   'genesis/50': GENESIS_50,
 };
 
