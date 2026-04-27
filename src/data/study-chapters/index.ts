@@ -993,6 +993,51 @@ import { MARK_13 } from './mark-13';
 import { MARK_14 } from './mark-14';
 import { MARK_15 } from './mark-15';
 import { MARK_16 } from './mark-16';
+import { LUKE_1 } from './luke-1';
+import { LUKE_2 } from './luke-2';
+import { LUKE_3 } from './luke-3';
+import { LUKE_4 } from './luke-4';
+import { LUKE_5 } from './luke-5';
+import { LUKE_6 } from './luke-6';
+import { LUKE_7 } from './luke-7';
+import { LUKE_8 } from './luke-8';
+import { LUKE_9 } from './luke-9';
+import { LUKE_10 } from './luke-10';
+import { LUKE_11 } from './luke-11';
+import { LUKE_12 } from './luke-12';
+import { LUKE_13 } from './luke-13';
+import { LUKE_14 } from './luke-14';
+import { LUKE_15 } from './luke-15';
+import { LUKE_16 } from './luke-16';
+import { LUKE_17 } from './luke-17';
+import { LUKE_18 } from './luke-18';
+import { LUKE_19 } from './luke-19';
+import { LUKE_20 } from './luke-20';
+import { LUKE_21 } from './luke-21';
+import { LUKE_22 } from './luke-22';
+import { LUKE_23 } from './luke-23';
+import { LUKE_24 } from './luke-24';
+import { JOHN_1 } from './john-1';
+import { JOHN_2 } from './john-2';
+import { JOHN_3 } from './john-3';
+import { JOHN_4 } from './john-4';
+import { JOHN_5 } from './john-5';
+import { JOHN_6 } from './john-6';
+import { JOHN_7 } from './john-7';
+import { JOHN_8 } from './john-8';
+import { JOHN_9 } from './john-9';
+import { JOHN_10 } from './john-10';
+import { JOHN_11 } from './john-11';
+import { JOHN_12 } from './john-12';
+import { JOHN_13 } from './john-13';
+import { JOHN_14 } from './john-14';
+import { JOHN_15 } from './john-15';
+import { JOHN_16 } from './john-16';
+import { JOHN_17 } from './john-17';
+import { JOHN_18 } from './john-18';
+import { JOHN_19 } from './john-19';
+import { JOHN_20 } from './john-20';
+import { JOHN_21 } from './john-21';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -1969,6 +2014,51 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'mark/14': MARK_14,
   'mark/15': MARK_15,
   'mark/16': MARK_16,
+  'luke/1': LUKE_1,
+  'luke/2': LUKE_2,
+  'luke/3': LUKE_3,
+  'luke/4': LUKE_4,
+  'luke/5': LUKE_5,
+  'luke/6': LUKE_6,
+  'luke/7': LUKE_7,
+  'luke/8': LUKE_8,
+  'luke/9': LUKE_9,
+  'luke/10': LUKE_10,
+  'luke/11': LUKE_11,
+  'luke/12': LUKE_12,
+  'luke/13': LUKE_13,
+  'luke/14': LUKE_14,
+  'luke/15': LUKE_15,
+  'luke/16': LUKE_16,
+  'luke/17': LUKE_17,
+  'luke/18': LUKE_18,
+  'luke/19': LUKE_19,
+  'luke/20': LUKE_20,
+  'luke/21': LUKE_21,
+  'luke/22': LUKE_22,
+  'luke/23': LUKE_23,
+  'luke/24': LUKE_24,
+  'john/1': JOHN_1,
+  'john/2': JOHN_2,
+  'john/3': JOHN_3,
+  'john/4': JOHN_4,
+  'john/5': JOHN_5,
+  'john/6': JOHN_6,
+  'john/7': JOHN_7,
+  'john/8': JOHN_8,
+  'john/9': JOHN_9,
+  'john/10': JOHN_10,
+  'john/11': JOHN_11,
+  'john/12': JOHN_12,
+  'john/13': JOHN_13,
+  'john/14': JOHN_14,
+  'john/15': JOHN_15,
+  'john/16': JOHN_16,
+  'john/17': JOHN_17,
+  'john/18': JOHN_18,
+  'john/19': JOHN_19,
+  'john/20': JOHN_20,
+  'john/21': JOHN_21,
 };
 
 /**
