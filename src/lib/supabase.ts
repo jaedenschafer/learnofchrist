@@ -694,10 +694,15 @@ export type ArtSort =
   | 'popular'
   | 'relevance';
 
-/** Cursor for keyset pagination. Stable across re-renders, URL-safe. */
+/** Cursor for paging through search_artworks. For sort=recent/oldest
+ *  we use keyset pagination with (ts, id). For every other sort
+ *  (relevance, az, za, year_*, popular) we use a numeric offset
+ *  because those orderings aren't strictly monotonic on (ts, id)
+ *  and the SQL applied no cursor at all before migration 055. */
 export interface ArtCursor {
-  ts: string; // ISO timestamp of the last seen row's created_at
-  id: string; // uuid of the last seen row
+  ts?: string;     // ISO timestamp — keyset path
+  id?: string;     // uuid — keyset path
+  offset?: number; // numeric offset — non-time sorts
 }
 
 export interface ArtFilterParams {
@@ -711,6 +716,8 @@ export interface ArtFilterParams {
   character?: string | string[];
   /** Biblical theme keys (e.g. 'crucifixion', 'creation'). */
   theme?: string | string[];
+  /** 'old' | 'new' — Old / New Testament filter. */
+  testament?: string | null;
   sort?: ArtSort;
   limit?: number;
   /** Use cursor for keyset pagination. */
@@ -727,15 +734,30 @@ export interface ArtBrowseResult {
   nextCursor: ArtCursor | null;
 }
 
-/** Encode/decode cursor for URL safety. */
+/** Encode/decode cursor for URL safety.
+ *  Two formats, distinguished by leading byte:
+ *    - "o:<n>"     numeric offset (used for non-time sorts)
+ *    - "<ts>|<id>" keyset (used for recent/oldest)
+ *  Both are base64url-wrapped. */
 export function encodeCursor(c: ArtCursor | null): string {
   if (!c) return '';
-  return Buffer.from(`${c.ts}|${c.id}`, 'utf8').toString('base64url');
+  if (c.offset != null && c.offset > 0) {
+    return Buffer.from(`o:${c.offset}`, 'utf8').toString('base64url');
+  }
+  if (c.ts && c.id) {
+    return Buffer.from(`${c.ts}|${c.id}`, 'utf8').toString('base64url');
+  }
+  return '';
 }
 export function decodeCursor(s: string | null | undefined): ArtCursor | null {
   if (!s) return null;
   try {
     const decoded = Buffer.from(s, 'base64url').toString('utf8');
+    if (decoded.startsWith('o:')) {
+      const n = parseInt(decoded.slice(2), 10);
+      if (!Number.isFinite(n) || n <= 0) return null;
+      return { offset: n };
+    }
     const [ts, id] = decoded.split('|');
     if (!ts || !id) return null;
     return { ts, id };
@@ -770,11 +792,14 @@ export async function getFilteredArtworks(
     era,
     character,
     theme,
+    testament,
     sort = 'recent',
     limit = 48,
     cursor,
     offset = 0,
   } = filters;
+
+  const cursorOffset = cursor?.offset ?? 0;
 
   const args = {
     q: q?.trim() || null,
@@ -787,6 +812,9 @@ export async function getFilteredArtworks(
     cursor_id: cursor?.id ?? null,
     page_size: Math.min(Math.max(limit, 1), 200),
     sort_by: sort,
+    cursor_offset: cursorOffset,
+    filter_testament:
+      testament === 'old' || testament === 'new' ? testament : null,
   };
 
   const { data, error } = await supabaseServer.rpc('search_artworks', args);
@@ -831,9 +859,21 @@ export async function getFilteredArtworks(
   });
 
   const last = rows[rows.length - 1];
-  const hasMore = artworks.length === args.page_size && total > artworks.length;
-  const nextCursor: ArtCursor | null =
-    hasMore && last && last.created_at ? { ts: String(last.created_at), id: last.id } : null;
+  const reachedEnd =
+    cursorOffset + artworks.length >= total ||
+    artworks.length < args.page_size;
+  let nextCursor: ArtCursor | null = null;
+  if (!reachedEnd && last) {
+    if (sort === 'recent' || sort === 'oldest') {
+      // Keyset pagination via (created_at, id) — stable under inserts.
+      nextCursor = last.created_at
+        ? { ts: String(last.created_at), id: last.id }
+        : null;
+    } else {
+      // Offset cursor for relevance / az / za / year_* / popular.
+      nextCursor = { offset: cursorOffset + artworks.length };
+    }
+  }
 
   return { artworks, total, nextCursor };
 }

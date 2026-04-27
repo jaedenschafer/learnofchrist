@@ -1044,6 +1044,28 @@ import { ACTS_3 } from './acts-3';
 import { ACTS_4 } from './acts-4';
 import { ACTS_5 } from './acts-5';
 import { ACTS_6 } from './acts-6';
+import { ACTS_7 } from './acts-7';
+import { ACTS_8 } from './acts-8';
+import { ACTS_9 } from './acts-9';
+import { ACTS_10 } from './acts-10';
+import { ACTS_11 } from './acts-11';
+import { ACTS_12 } from './acts-12';
+import { ACTS_13 } from './acts-13';
+import { ACTS_14 } from './acts-14';
+import { ACTS_15 } from './acts-15';
+import { ACTS_16 } from './acts-16';
+import { ACTS_17 } from './acts-17';
+import { ACTS_18 } from './acts-18';
+import { ACTS_19 } from './acts-19';
+import { ACTS_20 } from './acts-20';
+import { ACTS_21 } from './acts-21';
+import { ACTS_22 } from './acts-22';
+import { ACTS_23 } from './acts-23';
+import { ACTS_24 } from './acts-24';
+import { ACTS_25 } from './acts-25';
+import { ACTS_26 } from './acts-26';
+import { ACTS_27 } from './acts-27';
+import { ACTS_28 } from './acts-28';
 import { ROMANS_1 } from './romans-1';
 import { ROMANS_2 } from './romans-2';
 import { ROMANS_3 } from './romans-3';
@@ -2087,6 +2109,28 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'acts/4': ACTS_4,
   'acts/5': ACTS_5,
   'acts/6': ACTS_6,
+  'acts/7': ACTS_7,
+  'acts/8': ACTS_8,
+  'acts/9': ACTS_9,
+  'acts/10': ACTS_10,
+  'acts/11': ACTS_11,
+  'acts/12': ACTS_12,
+  'acts/13': ACTS_13,
+  'acts/14': ACTS_14,
+  'acts/15': ACTS_15,
+  'acts/16': ACTS_16,
+  'acts/17': ACTS_17,
+  'acts/18': ACTS_18,
+  'acts/19': ACTS_19,
+  'acts/20': ACTS_20,
+  'acts/21': ACTS_21,
+  'acts/22': ACTS_22,
+  'acts/23': ACTS_23,
+  'acts/24': ACTS_24,
+  'acts/25': ACTS_25,
+  'acts/26': ACTS_26,
+  'acts/27': ACTS_27,
+  'acts/28': ACTS_28,
   'romans/1': ROMANS_1,
   'romans/2': ROMANS_2,
   'romans/3': ROMANS_3,

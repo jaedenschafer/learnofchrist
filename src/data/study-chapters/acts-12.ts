@@ -1,14 +1,7 @@
 import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
 
 /**
- * Acts 12 — James Killed; Peter Freed by Angel; Herod&apos;s Judgment
- *
- * King Herod Agrippa persecutes the church, killing the apostle James with the
- * sword and imprisoning Peter. Peter sleeps between two guards, chained, awaiting
- * execution. But an angel strikes him awake, his chains fall away, and he walks
- * out of the prison as the guards sleep. Herod, unable to find Peter, executes
- * the guards instead. Later, Herod accepts glory that belongs to God alone, and
- * the Lord strikes him down with a wasting sickness.
+ * Acts 12 — James Killed, Peter Freed, Herod Struck
  */
 export const ACTS_12: RichChapterContent = {
   bookSlug: 'acts',
@@ -16,119 +9,106 @@ export const ACTS_12: RichChapterContent = {
   chapter: 12,
 
   intros: [
-    'Herod Agrippa is a king with both Jewish authority and Roman backing. He sees the growing power of the church and determines to suppress it through violence. He kills James, son of Zebedee, with the sword. The disciples are devastated. But when Herod arrests Peter, intending to make a public spectacle of his execution, something unexpected happens: the prayers of the church are answered in a way no one could have anticipated.',
-    'In prison, Peter sleeps the sleep of the condemned—unafraid, at peace. And in that night, the invisible breaks into the visible. An angel appears. Chains fall away. Doors open. And Peter walks out into the city while his guards sleep, unaware that their prisoner has vanished. The execution theater Herod has staged will be remembered not for the death of the apostle, but for the power of the living God.',
+    'King Herod rises up to oppress the church. He kills James, the brother of John. He takes Peter and throws him in prison, intending to execute him. But the night before his trial, an angel appears. Peter&apos;s chains fall off. He walks past the guards as though they are shadows. Meanwhile, Herod himself is struck down—eaten by worms. The word of God grows and multiplies.',
   ],
 
   sections: [
     {
-      ref: 'Acts 12:1–19',
-      title: 'The Angel and the Prison',
+      ref: 'Acts 12:1–11',
+      title: 'Peter&apos;s Miraculous Escape',
       blocks: [
         {
           kind: 'scripture',
           chapter: 12,
           lines: [
-            plain(3, 'And because he saw it pleased the Jews, he proceeded further to take Peter also. (Then were the days of unleavened bread.)'),
             plain(5, 'Peter therefore was kept in prison: but prayer was made without ceasing of the church unto God for him.'),
             plain(7, 'And, behold, the angel of the Lord came upon him, and a light shined in the prison: and he smote Peter on the side, and raised him up, saying, Arise up quickly. And his chains fell off from his hands.'),
-            plain(9, 'And he went out, and followed him; and wist not that it was true which was done by the angel; but thought he saw a vision.'),
-            plain(11, 'And when Peter was come to himself, he said, Now I know of a surety, that the Lord hath sent his angel, and hath delivered me out of the hand of Herod, and from all the expectation of the people of the Jews.'),
+            plain(9, 'And Peter followed him out of the prison; but he wist not that it was true which was done by the angel; but thought he saw a vision.'),
           ],
         },
         {
           kind: 'commentary',
           id: 'acts12-prayer',
-          html:
-            'While Peter sits in prison awaiting execution, the church prays without ceasing. They know the law: tomorrow Peter will be executed. Yet they pray. Not for a miracle—that seems impossible with Roman guards and royal authority—but they pray anyway. The simple act of prayer in the face of an impossible situation becomes the condition for God&apos;s action.',
+          html: 'The church prays without ceasing. This is not polite prayer. This is desperate intercession. And in response, God acts. An angel appears. Peter&apos;s chains fall off. The prison cannot hold him.',
         },
         {
           kind: 'greek',
-          id: 'acts12-akatapaustos',
-          title: 'Akatapaustos — Without Ceasing',
-          script: 'ἀκατάπαυστος',
-          translit: '<strong>Akatapaustos</strong> · unceasing; without rest; continuous',
-          description:
-            'The prayer of the church is not fitful or occasional. It is unceasing—continuous, relentless, refusing to accept the inevitability of tragedy. This is prayer not as a polite petition, but as a desperate clinging to God in the face of death.',
+          id: 'acts12-deesis',
+          title: 'Deesis — Prayer; Earnest Supplication',
+          script: 'δέησις',
+          translit: '<strong>Deesis</strong> · prayer; earnest request; supplication',
+          description: 'The word conveys a sense of urgency and need. The church is not asking casually. It is interceding with intensity for Peter&apos;s life.',
         },
         {
           kind: 'christ',
-          id: 'acts12-christ-deliverer',
-          title: 'Christ Connection — The One Who Breaks Chains',
-          html:
-            'The angel comes from the risen Christ, sent to do what human power cannot do: break chains, open doors, deliver from death. Peter recognizes the liberation as God&apos;s action. "The Lord hath sent his angel, and hath delivered me." Jesus Christ is not a past figure in memory, but the living Lord working in the present through His angels and His Spirit.',
+          id: 'acts12-christ-deliverance',
+          title: 'Christ Connection — Deliverance Through Prayer',
+          html: 'Jesus taught His disciples to pray for daily bread and for deliverance from evil. Peter&apos;s release is the answer to the church&apos;s prayers. God hears. God acts. The impossible becomes the ordinary.',
         },
         {
           kind: 'carry',
-          html:
-            'We face situations that seem impossible: the forces arrayed against us seem too great, the odds too long. The church in Peter&apos;s day prayed in exactly that darkness. And God moved. The miracle did not come because the church had enough faith or prayed the right words. It came because God is faithful to His people, and nothing—no king, no guard, no chain—can stand against His purpose.',
+          html: 'Peter is released but walks in a daze, unsure if what is happening is real or vision. Only when he reaches the street does he understand: "The Lord hath sent his angel, and hath delivered me." The concrete reality of God&apos;s work becomes clear.',
         },
         {
           kind: 'reflection',
-          id: 'acts12-impossible',
-          prompt: 'What impossible situation are you facing that feels beyond remedy? What would it mean to pray without ceasing, as the church did for Peter, even when deliverance seems impossible?',
+          id: 'acts12-prayer-reflect',
+          prompt: 'When have you prayed for something that seemed impossible?',
         },
       ],
     },
 
     {
-      ref: 'Acts 12:20–25',
-      title: 'Herod&apos;s Fall',
+      ref: 'Acts 12:20–23',
+      title: 'Herod&apos;s Death',
       blocks: [
         {
           kind: 'scripture',
           chapter: 12,
           lines: [
-            plain(21, 'And upon a set day Herod, arrayed in royal apparel, sat upon his throne, and made an oration unto them.'),
-            plain(22, 'And the people gave a shout, saying, It is the voice of a god, and not of a man.'),
+            plain(21, 'And upon a set day Herod, arrayed in all his royal apparel, sat upon his throne, and made an oration unto them.'),
             plain(23, 'And immediately the angel of the Lord smote him, because he gave not God the glory: and he was eaten of worms, and gave up the ghost.'),
             plain(24, 'But the word of God grew and multiplied.'),
           ],
         },
         {
           kind: 'commentary',
-          id: 'acts12-glory',
-          html:
-            'Herod sits on his throne in royal apparel and makes an oration. The people cry out in flattery: "It is the voice of a god, and not of a man." Herod does not refuse the acclamation. He accepts the worship due to God alone. In that moment, he crosses a line that even earthly power cannot cross with impunity.',
-        },
-        {
-          kind: 'greek',
-          id: 'acts12-skolex',
-          title: 'Skolex — Worm',
-          script: 'σκώληξ',
-          translit: '<strong>Skolex</strong> · worm; maggot; decay',
-          description:
-            'The judgment on Herod is immediate and humiliating. He is eaten of worms—his body begins to decay while he yet lives. This is not merely punishment; it is a graphic reversal of his claim to divinity. The flesh that accepted worship decays before his eyes.',
+          id: 'acts12-herod',
+          html: 'Herod sits on his throne in his royal apparel, making a speech. The people cry out: "It is the voice of a god, and not of a man." Herod accepts their worship. But he has not given glory to God. Immediately, he is struck. Worms eat his flesh. He dies.',
         },
         {
           kind: 'commentary',
-          id: 'acts12-word-grows',
-          html:
-            'In stark contrast, the verse immediately following Herod&apos;s death states: "But the word of God grew and multiplied." The king who sought to suppress the gospel has fallen. But the gospel, far from being suppressed, flourishes. No human power can stand against God&apos;s word.',
+          id: 'acts12-glory',
+          html: 'The issue is simple: Herod took for himself the glory that belongs to God alone. He did not resist when the crowd called him divine. His death is a stark reminder that God will not share His glory.',
+        },
+        {
+          kind: 'greek',
+          id: 'acts12-doxa',
+          title: 'Doxa — Glory; Honor',
+          script: 'δόξα',
+          translit: '<strong>Doxa</strong> · glory; honor; splendor; praise',
+          description: 'To give glory to God is to acknowledge His authority, His power, His uniqueness. To take that glory for oneself is idolatry.',
         },
         {
           kind: 'christ',
-          id: 'acts12-christ-lord',
-          title: 'Christ Connection — The Sovereign King',
-          html:
-            'Jesus Christ is the true King. All other authority serves at His pleasure. Herod accepted worship and died. But Christ&apos;s kingdom cannot be touched by human violence or earthly power. It grows precisely when earthly rulers attempt to suppress it. His is an indestructible kingdom.',
+          id: 'acts12-christ-glory',
+          title: 'Christ Connection — All Glory to God',
+          html: 'Jesus refused the glory that belonged to Him. He came not to be served but to serve. He pointed always to the Father. Herod&apos;s pride stands in stark contrast to the humility of Christ.',
         },
         {
           kind: 'carry',
-          html:
-            'We live under powers that claim our loyalty and demand our submission. But no earthly authority is ultimate. Christ alone is King. This does not mean we disrespect civil authority, but we remember that every earthly throne is temporary. Our ultimate allegiance is to a kingdom that cannot be shaken.',
+          html: 'Peter escapes. Herod dies. The word of God grows and multiplies. Persecution and power cannot stop the kingdom. It grows like a seed planted in good soil.',
         },
         {
           kind: 'reflection',
-          id: 'acts12-sovereignty',
-          prompt: 'Where have you been giving allegiance to earthly powers—status, reputation, wealth—that Christ is calling you to relinquish? What would it mean to live as though Christ alone is King?',
+          id: 'acts12-glory-reflect',
+          prompt: 'To whom do you give your trust and honor?',
         },
       ],
     },
   ],
 
   bottomShare: {
-    quote: 'And the angel of the Lord smote him, because he gave not God the glory. But the word of God grew and multiplied.',
+    quote: 'But the word of God grew and multiplied.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 12 · Study Guide',
   },

@@ -49,6 +49,8 @@ interface PageProps {
     era?: string | string[];
     character?: string | string[];
     theme?: string | string[];
+    /** 'old' | 'new' — Old/New Testament toggle. */
+    testament?: string;
     sort?: string;
     cursor?: string;
   }>;
@@ -68,6 +70,10 @@ export default async function ArtBrowsePage({ searchParams }: PageProps) {
   const eras = asStringArray(params.era);
   const characters = asStringArray(params.character);
   const themes = asStringArray(params.theme);
+  const testament =
+    params.testament === 'old' || params.testament === 'new'
+      ? params.testament
+      : null;
 
   const sortRaw = (params.sort || 'recent').trim() as ArtSort;
   let sort: ArtSort = VALID_SORTS.includes(sortRaw) ? sortRaw : 'recent';
@@ -83,6 +89,7 @@ export default async function ArtBrowsePage({ searchParams }: PageProps) {
       era: eras,
       character: characters,
       theme: themes,
+      testament,
       sort,
       limit: PAGE_SIZE,
       cursor,
@@ -95,6 +102,7 @@ export default async function ArtBrowsePage({ searchParams }: PageProps) {
   const hasFilters = !!(
     q ||
     books.length || artists.length || eras.length || characters.length || themes.length ||
+    testament ||
     (sort && sort !== 'recent' && sort !== 'relevance')
   );
   const shown = artworks.length;
@@ -107,9 +115,26 @@ export default async function ArtBrowsePage({ searchParams }: PageProps) {
   for (const e of eras) nextParams.append('era', e);
   for (const c of characters) nextParams.append('character', c);
   for (const t of themes) nextParams.append('theme', t);
+  if (testament) nextParams.set('testament', testament);
   if (sort !== 'recent' && !(q && sort === 'relevance')) nextParams.set('sort', sort);
   if (nextCursor) nextParams.set('cursor', encodeCursor(nextCursor));
   const loadMoreHref = nextCursor ? `/art/browse?${nextParams.toString()}` : null;
+
+  /** Helpers for the testament toggle UI — preserve every other
+   *  filter, drop the cursor (user is changing their query). */
+  function buildTestamentHref(next: 'old' | 'new' | null): string {
+    const u = new URLSearchParams();
+    if (q) u.set('q', q);
+    for (const b of books) u.append('book', b);
+    for (const a of artists) u.append('artist', a);
+    for (const e of eras) u.append('era', e);
+    for (const c of characters) u.append('character', c);
+    for (const t of themes) u.append('theme', t);
+    if (next) u.set('testament', next);
+    if (sort !== 'recent' && !(q && sort === 'relevance')) u.set('sort', sort);
+    const qs = u.toString();
+    return qs ? `/art/browse?${qs}` : '/art/browse';
+  }
 
   return (
     <div className="page-container">
@@ -162,6 +187,42 @@ export default async function ArtBrowsePage({ searchParams }: PageProps) {
             totalCount={total}
           />
         </Suspense>
+
+        {/* Old / New Testament segmented toggle. Sits just under the
+            main filter bar and rewrites the URL on click — no JS
+            required, works in webviews and with reduced JS. */}
+        <div
+          className="flex flex-wrap items-center gap-2 mb-6 px-1"
+          role="group"
+          aria-label="Filter by Testament"
+        >
+          <span className="text-[0.75rem] font-semibold uppercase tracking-wider text-[color:var(--color-tertiary-label)] mr-1">
+            Testament
+          </span>
+          {([
+            { v: null, label: 'All' },
+            { v: 'old' as const, label: 'Old Testament' },
+            { v: 'new' as const, label: 'New Testament' },
+          ]).map((opt) => {
+            const active = testament === opt.v;
+            return (
+              <Link
+                key={opt.label}
+                href={buildTestamentHref(opt.v)}
+                scroll={false}
+                aria-pressed={active}
+                className={
+                  'inline-flex items-center h-10 px-4 rounded-full text-[0.875rem] font-medium transition-colors ' +
+                  (active
+                    ? 'bg-[color:var(--color-label)] text-[color:var(--color-surface)]'
+                    : 'bg-[color:var(--color-surface)] border border-[color:var(--color-separator)] text-[color:var(--color-label)] hover:border-[color:var(--color-label)]')
+                }
+              >
+                {opt.label}
+              </Link>
+            );
+          })}
+        </div>
 
         {!hasFilters && booksWithArt.length > 0 && (
           <section className="mb-8">

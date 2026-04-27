@@ -1,14 +1,7 @@
 import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
 
 /**
- * Acts 13 — Paul and Barnabas Sent
- *
- * In Antioch, the church receives a direction from the Holy Ghost: "Separate me
- * Barnabas and Saul for the work whereunto I have called them." The church
- * fasts and prays, lays hands on them, and sends them forth. Paul (formerly Saul)
- * and Barnabas travel to Cyprus and Antioch in Pisidia, preaching in synagogues.
- * Paul addresses the Jews with the history of Israel and the promise of Christ.
- * Some believe, but others oppose and blaspheme.
+ * Acts 13 — Paul and Barnabas Sent; First Missionary Journey
  */
 export const ACTS_13: RichChapterContent = {
   bookSlug: 'acts',
@@ -16,113 +9,105 @@ export const ACTS_13: RichChapterContent = {
   chapter: 13,
 
   intros: [
-    'The church in Antioch is alive with the Spirit. It is not organized from the top down, but from the Spirit outward. As the believers worship and fast, the Holy Ghost speaks: set apart for Me Barnabas and Saul for the work to which I have called them. The church lays hands on them, and they are sent out as apostles—not appointed by Jerusalem, but commissioned by the Spirit through the prayer and obedience of the local church.',
-    'On their journey, Paul and Barnabas encounter opposition and belief. In the synagogues, Paul stands and speaks the gospel, tracing God&apos;s faithfulness through Israel&apos;s history and arriving at Jesus as the promised Messiah. Some hearts open; others harden. Paul learns that preaching the gospel is not debate or persuasion, but the offering of light to those willing to see.',
+    'In the church at Antioch, the Holy Spirit speaks: "Separate me Barnabas and Saul for the work whereunto I have called them." They are set apart and sent out on the first missionary journey. Paul preaches in synagogues, proclaiming Jesus as the Messiah. Some believe. Some oppose. The pattern will repeat throughout his ministry. But the word spreads, and the Gentiles hear the gospel.',
   ],
 
   sections: [
     {
-      ref: 'Acts 13:1–15',
+      ref: 'Acts 13:1–12',
       title: 'The Call and the Mission',
       blocks: [
         {
           kind: 'scripture',
           chapter: 13,
           lines: [
-            plain(1, 'Now there were in the church that was at Antioch certain prophets and teachers; as Barnabas, and Simeon that was called Niger, and Lucius of Cyrene, and Manaen, which had been brought up with Herod the tetrarch, and Saul.'),
             plain(2, 'As they ministered to the Lord, and fasted, the Holy Ghost said, Separate me Barnabas and Saul for the work whereunto I have called them.'),
             plain(3, 'And when they had fasted and prayed, and laid their hands on them, they sent them away.'),
-            plain(4, 'So they, being sent forth by the Holy Ghost, departed unto Seleucia; and from thence they sailed to Cyprus.'),
           ],
         },
         {
           kind: 'commentary',
-          id: 'acts13-antioch-prophets',
-          html:
-            'Antioch is filled with prophets and teachers. Barnabas is there—the one who trusted Saul when others were afraid. Simeon, Lucius, Manaen—men of different backgrounds and stations, all serving the Lord. The church at Antioch is not one thing; it is diverse, multicultural, Spirit-led.',
+          id: 'acts13-call',
+          html: 'The Holy Spirit speaks to the church gathered in worship and prayer. "Separate me Barnabas and Saul." This is not a human decision. This is the Spirit calling out His witnesses. The church lays hands on them and sends them.',
         },
         {
           kind: 'greek',
-          id: 'acts13-aphorizeo',
-          title: 'Aphorizeo — Separate; Set Apart',
+          id: 'acts13-aphorizao',
+          title: 'Aphorizao — To Separate',
           script: 'ἀφορίζω',
-          translit: '<strong>Aphorizeo</strong> · to separate; to set apart; to divide off',
-          description:
-            'The Spirit does not command; it invites and sets apart. Barnabas and Saul are not conscripted or compelled. They are separated—called out from the general work to a specific calling. The Spirit has a work for them that requires their particular gifts and obedience.',
+          translit: '<strong>Aphorizao</strong> · to separate; to set apart for a purpose',
+          description: 'The word means to mark off for a specific task. Barnabas and Saul are set apart—consecrated—for the work of the gospel.',
         },
         {
           kind: 'christ',
-          id: 'acts13-christ-calling',
-          title: 'Christ Connection — The Spirit Sends Apostles',
-          html:
-            'The risen Christ, working through the Spirit in the church, calls out apostles for the spread of the gospel. This is not a structure imposed from above, but a movement born from prayer and fasting. The church&apos;s laying on of hands does not transfer power; it affirms and supports what the Spirit has already initiated.',
+          id: 'acts13-christ-call',
+          title: 'Christ Connection — The Call to Go',
+          html: 'Jesus called His disciples: "Go ye therefore, and teach all nations." That commission continues through the sending of Paul and Barnabas. The work of Christ spreads through called and sent witnesses.',
         },
         {
           kind: 'carry',
-          html:
-            'Every believer has a calling. Not all are called to travel and preach to the nations, but all are called to something. The question is: Are you listening for the Spirit&apos;s call? Are you willing to have the comfort of your current station disrupted by an invitation to obedience?',
+          html: 'The church fasts and prays. They lay hands on Paul and Barnabas. This is not a casual send-off. This is a solemn commissioning. Those who remain commit themselves to prayer for those who go.',
         },
         {
           kind: 'reflection',
-          id: 'acts13-calling',
-          prompt: 'What calling do you sense the Spirit placing on your life? Are you willing to leave the familiar to answer it? What would it take for you to say yes?',
+          id: 'acts13-call-reflect',
+          prompt: 'What work has God called you to do?',
         },
       ],
     },
 
     {
-      ref: 'Acts 13:44–52',
-      title: 'Opposition and Faith',
+      ref: 'Acts 13:38–52',
+      title: 'Paul in Antioch of Pisidia',
       blocks: [
         {
           kind: 'scripture',
           chapter: 13,
           lines: [
-            plain(44, 'And the next sabbath day came almost the whole city together to hear the word of God.'),
-            plain(45, 'But when the Jews saw the multitudes, they were filled with envy, and spake against those things which were spoken by Paul, contradicting and blaspheming.'),
-            plain(46, 'Then Paul and Barnabas waxed bold, and said, It was necessary that the word of God should first have been spoken to you: but seeing ye put it from you, and judge yourselves unworthy of everlasting life, lo, we turn to the Gentiles.'),
-            plain(48, 'And when the Gentiles heard this, they were glad, and glorified the word of the Lord: and as many as were ordained to eternal life believed.'),
-            plain(52, 'And the disciples were filled with joy, and with the Holy Ghost.'),
+            plain(38, 'Be it known unto you therefore, men and brethren, that through this man is preached unto you the forgiveness of sins:'),
+            plain(39, 'And by him all that believe are justified from all things, from which ye could not be justified by the law of Moses.'),
+            plain(49, 'And the word of the Lord was published throughout all the region.'),
           ],
         },
         {
           kind: 'commentary',
-          id: 'acts13-envy',
-          html:
-            'The success of Paul and Barnabas provokes envy in the Jewish leaders. When opposition comes, it is not always from those who reject the truth out of honest disagreement. Often it comes from those who feel their authority or prestige threatened. The gospel grows, and the guardians of the old order resist.',
+          id: 'acts13-forgiveness',
+          html: 'Paul&apos;s message is clear: through Jesus, forgiveness of sins is proclaimed. And something the law could never do, faith accomplishes: justification. The barrier between sinner and God is broken.',
+        },
+        {
+          kind: 'commentary',
+          id: 'acts13-opposition',
+          html: 'The Jews oppose Paul and speak against him. But Paul turns to the Gentiles. "It was necessary that the word of God should first have been spoken to you... but seeing ye put it from you... I turn to the Gentiles." The gospel flows to those who receive it.',
         },
         {
           kind: 'greek',
-          id: 'acts13-tasso',
-          title: 'Tasso — Ordained; Appointed',
-          script: 'τάσσω',
-          translit: '<strong>Tasso</strong> · to arrange; to appoint; to ordain; to assign',
-          description:
-            'The word "ordained to eternal life" speaks to God&apos;s ordering of human hearts and destinies. It is not that some are arbitrarily chosen and others arbitrarily rejected, but that God has arranged the cosmos so that those whose hearts are prepared, whose wills are open to receive, come to faith.',
+          id: 'acts13-dikaiosynē',
+          title: 'Dikaiosynē — Justification; Righteousness',
+          script: 'δικαιοσύνη',
+          translit: '<strong>Dikaiosynē</strong> · righteousness; justification',
+          description: 'The word encompasses both the legal declaration of righteousness before God and the condition of being right with Him. Faith brings both.',
         },
         {
           kind: 'christ',
-          id: 'acts13-christ-opens-door',
-          title: 'Christ Connection — The Gospel to All Nations',
-          html:
-            'Paul and Barnabas do not abandon the gospel when the Jewish leaders reject it. Instead, they turn to the Gentiles. This is not defiance, but obedience. Jesus had commanded: Go into all the world and preach the gospel to every creature. If one door closes, another opens.',
+          id: 'acts13-christ-justification',
+          title: 'Christ Connection — Justified by Faith',
+          html: 'Jesus fulfilled the law and rose from the dead. His resurrection is the vindication of all who believe in Him. Through Him, we are justified—declared righteous by God.',
         },
         {
           kind: 'carry',
-          html:
-            'Not every seed falls on good soil. Not every word is received. This does not mean the word is weak or the speaker has failed. Some hearts are closed; others are open. The faithful servant preaches to the closed door, then turns to the open one, trusting God with the results.',
+          html: 'The Gentiles rejoice at the word of God. But opposition follows. Not everyone receives the gospel. Some oppose it. Yet the word spreads. The mission continues.',
         },
         {
           kind: 'reflection',
-          id: 'acts13-rejection',
-          prompt: 'Have you experienced rejection when sharing your faith or convictions? How might Paul&apos;s willingness to turn to the Gentiles inform your response to resistance?',
+          id: 'acts13-gospel-reflect',
+          prompt: 'How do you share the gospel with those around you?',
         },
       ],
     },
   ],
 
   bottomShare: {
-    quote: 'Separate me Barnabas and Saul for the work whereunto I have called them. And as many as were ordained to eternal life believed.',
+    quote: 'Be it known unto you therefore, men and brethren, that through this man is preached unto you the forgiveness of sins.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 13 · Study Guide',
   },
