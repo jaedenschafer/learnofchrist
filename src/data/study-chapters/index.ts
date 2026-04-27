@@ -443,7 +443,26 @@ import { NEHEMIAH_7 } from './nehemiah-7';
 import { NEHEMIAH_8 } from './nehemiah-8';
 import { NEHEMIAH_9 } from './nehemiah-9';
 import { NEHEMIAH_10 } from './nehemiah-10';
+import { NEHEMIAH_11 } from './nehemiah-11';
+import { NEHEMIAH_12 } from './nehemiah-12';
+import { NEHEMIAH_13 } from './nehemiah-13';
+import { ESTHER_1 } from './esther-1';
+import { ESTHER_2 } from './esther-2';
+import { ESTHER_3 } from './esther-3';
+import { ESTHER_4 } from './esther-4';
+import { ESTHER_5 } from './esther-5';
+import { ESTHER_6 } from './esther-6';
+import { ESTHER_7 } from './esther-7';
+import { ESTHER_8 } from './esther-8';
+import { ESTHER_9 } from './esther-9';
+import { ESTHER_10 } from './esther-10';
 import { JOB_1 } from './job-1';
+import { JOB_2 } from './job-2';
+import { JOB_3 } from './job-3';
+import { JOB_4 } from './job-4';
+import { JOB_5 } from './job-5';
+import { JOB_6 } from './job-6';
+import { JOB_7 } from './job-7';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -870,7 +889,26 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'nehemiah/8': NEHEMIAH_8,
   'nehemiah/9': NEHEMIAH_9,
   'nehemiah/10': NEHEMIAH_10,
+  'nehemiah/11': NEHEMIAH_11,
+  'nehemiah/12': NEHEMIAH_12,
+  'nehemiah/13': NEHEMIAH_13,
+  'esther/1': ESTHER_1,
+  'esther/2': ESTHER_2,
+  'esther/3': ESTHER_3,
+  'esther/4': ESTHER_4,
+  'esther/5': ESTHER_5,
+  'esther/6': ESTHER_6,
+  'esther/7': ESTHER_7,
+  'esther/8': ESTHER_8,
+  'esther/9': ESTHER_9,
+  'esther/10': ESTHER_10,
   'job/1': JOB_1,
+  'job/2': JOB_2,
+  'job/3': JOB_3,
+  'job/4': JOB_4,
+  'job/5': JOB_5,
+  'job/6': JOB_6,
+  'job/7': JOB_7,
 };
 
 /**

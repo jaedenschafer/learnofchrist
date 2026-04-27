@@ -290,10 +290,9 @@ export const ESTHER_4: RichChapterContent = {
         {
           kind: 'christ',
           id: 'est4-christ-time',
-          title: 'Christ Connection — Appointed "For Such a Time as This"',
+          title: "Christ Connection — Appointed &quot;For Such a Time as This&quot;",
           html:
-            'Mordecai tells Esther: you were brought to the kingdom for such a time as this. The apostle Paul uses strikingly similar language about Christ: "When the fulness of the time was come, God sent forth his Son" (Galatians 4:4). Christ came at exactly the moment appointed. He came for a purpose. He came to do what no one else could do—to stand before the King and make intercession for His people. Like Esther, Christ faced a law that demanded death. Like Esther, He was asked to risk everything. Like Esther, He said yes.',
-          },
+            'Mordecai tells Esther: you were brought to the kingdom for such a time as this. The apostle Paul uses strikingly similar language about Christ: &quot;When the fulness of the time was come, God sent forth his Son&quot; (Galatians 4:4). Christ came at exactly the moment appointed. He came for a purpose. He came to do what no one else could do—to stand before the King and make intercession for His people. Like Esther, Christ faced a law that demanded death. Like Esther, He was asked to risk everything. Like Esther, He said yes.',
         },
         {
           kind: 'carry',
@@ -369,10 +368,9 @@ export const ESTHER_4: RichChapterContent = {
         {
           kind: 'christ',
           id: 'est4-christ-perish',
-          title: 'Christ Connection — "If I Perish, I Perish"',
+          title: "Christ Connection — &quot;If I Perish, I Perish&quot;",
           html:
-            'Esther says: "If I perish, I perish." In Matthew 26:39, Jesus prays in the Garden of Gethsemane: "O my Father, if it be possible, let this cup pass from me: nevertheless not as I will, but as thou wilt." He, too, understands the cost. He, too, faces death. But He chooses to go forward anyway. And unlike Esther, whose sacrifice might save her people, Christ&apos;s sacrifice does save them—all who call on His name. He goes not into a palace to plead with a human king, but to the cross to stand before the throne of God. And He does it saying, in effect: "If I perish, I perish—for their salvation" (Hebrews 2:9).',
-          },
+            "Esther says: &quot;If I perish, I perish.&quot; In Matthew 26:39, Jesus prays in the Garden of Gethsemane: &quot;O my Father, if it be possible, let this cup pass from me: nevertheless not as I will, but as thou wilt.&quot; He, too, understands the cost. He, too, faces death. But He chooses to go forward anyway. And unlike Esther, whose sacrifice might save her people, Christ&apos;s sacrifice does save them—all who call on His name. He goes not into a palace to plead with a human king, but to the cross to stand before the throne of God. And He does it saying, in effect: &quot;If I perish, I perish—for their salvation&quot; (Hebrews 2:9).",
         },
         {
           kind: 'carry',

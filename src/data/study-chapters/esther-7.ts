@@ -141,7 +141,7 @@ export const ESTHER_7: RichChapterContent = {
     /* ─── Esther 7:7–10b — The King's Wrath; Haman's Final Moment ────────── */
     {
       ref: 'Esther 7:7–10',
-      title: 'Haman Falls; the King's Judgment',
+      title: "Haman Falls; the King&apos;s Judgment",
       blocks: [
         {
           kind: 'scripture',
