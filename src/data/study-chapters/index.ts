@@ -1226,6 +1226,17 @@ import { FIRST_ESDRAS_8 } from './1-esdras-8';
 import { FIRST_ESDRAS_9 } from './1-esdras-9';
 import { PRAYER_OF_MANASSEH_1 } from './prayer-of-manasseh-1';
 import { PSALM_151_1 } from './psalm-151-1';
+import { SECOND_ESDRAS_1 } from './2-esdras-1';
+import { SECOND_ESDRAS_2 } from './2-esdras-2';
+import { SECOND_ESDRAS_3 } from './2-esdras-3';
+import { SECOND_ESDRAS_4 } from './2-esdras-4';
+import { SECOND_ESDRAS_5 } from './2-esdras-5';
+import { SECOND_ESDRAS_6 } from './2-esdras-6';
+import { SECOND_ESDRAS_7 } from './2-esdras-7';
+import { SECOND_ESDRAS_8 } from './2-esdras-8';
+import { SECOND_ESDRAS_9 } from './2-esdras-9';
+import { SECOND_ESDRAS_10 } from './2-esdras-10';
+import { SECOND_ESDRAS_11 } from './2-esdras-11';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -2435,6 +2446,17 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   '1-esdras/9': FIRST_ESDRAS_9,
   'prayer-of-manasseh/1': PRAYER_OF_MANASSEH_1,
   'psalm-151/1': PSALM_151_1,
+  '2-esdras/1': SECOND_ESDRAS_1,
+  '2-esdras/2': SECOND_ESDRAS_2,
+  '2-esdras/3': SECOND_ESDRAS_3,
+  '2-esdras/4': SECOND_ESDRAS_4,
+  '2-esdras/5': SECOND_ESDRAS_5,
+  '2-esdras/6': SECOND_ESDRAS_6,
+  '2-esdras/7': SECOND_ESDRAS_7,
+  '2-esdras/8': SECOND_ESDRAS_8,
+  '2-esdras/9': SECOND_ESDRAS_9,
+  '2-esdras/10': SECOND_ESDRAS_10,
+  '2-esdras/11': SECOND_ESDRAS_11,
 };
 
 /**
