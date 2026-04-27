@@ -503,6 +503,51 @@ import { PSALMS_2 } from './psalms-2';
 import { PSALMS_3 } from './psalms-3';
 import { PSALMS_4 } from './psalms-4';
 import { PSALMS_5 } from './psalms-5';
+import { PSALMS_6 } from './psalms-6';
+import { PSALMS_7 } from './psalms-7';
+import { PSALMS_8 } from './psalms-8';
+import { PSALMS_9 } from './psalms-9';
+import { PSALMS_10 } from './psalms-10';
+import { PSALMS_11 } from './psalms-11';
+import { PSALMS_12 } from './psalms-12';
+import { PSALMS_13 } from './psalms-13';
+import { PSALMS_14 } from './psalms-14';
+import { PSALMS_15 } from './psalms-15';
+import { PSALMS_16 } from './psalms-16';
+import { PSALMS_17 } from './psalms-17';
+import { PSALMS_18 } from './psalms-18';
+import { PSALMS_19 } from './psalms-19';
+import { PSALMS_20 } from './psalms-20';
+import { PSALMS_21 } from './psalms-21';
+import { PSALMS_22 } from './psalms-22';
+import { PSALMS_23 } from './psalms-23';
+import { PSALMS_24 } from './psalms-24';
+import { PSALMS_25 } from './psalms-25';
+import { PSALMS_26 } from './psalms-26';
+import { PSALMS_27 } from './psalms-27';
+import { PSALMS_28 } from './psalms-28';
+import { PSALMS_29 } from './psalms-29';
+import { PSALMS_30 } from './psalms-30';
+import { PSALMS_31 } from './psalms-31';
+import { PSALMS_32 } from './psalms-32';
+import { PSALMS_33 } from './psalms-33';
+import { PSALMS_34 } from './psalms-34';
+import { PSALMS_35 } from './psalms-35';
+import { PSALMS_36 } from './psalms-36';
+import { PSALMS_37 } from './psalms-37';
+import { PSALMS_38 } from './psalms-38';
+import { PSALMS_39 } from './psalms-39';
+import { PSALMS_40 } from './psalms-40';
+import { PSALMS_41 } from './psalms-41';
+import { PSALMS_42 } from './psalms-42';
+import { PSALMS_43 } from './psalms-43';
+import { PSALMS_44 } from './psalms-44';
+import { PSALMS_45 } from './psalms-45';
+import { PSALMS_46 } from './psalms-46';
+import { PSALMS_47 } from './psalms-47';
+import { PSALMS_48 } from './psalms-48';
+import { PSALMS_49 } from './psalms-49';
+import { PSALMS_50 } from './psalms-50';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -989,6 +1034,51 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'psalms/3': PSALMS_3,
   'psalms/4': PSALMS_4,
   'psalms/5': PSALMS_5,
+  'psalms/6': PSALMS_6,
+  'psalms/7': PSALMS_7,
+  'psalms/8': PSALMS_8,
+  'psalms/9': PSALMS_9,
+  'psalms/10': PSALMS_10,
+  'psalms/11': PSALMS_11,
+  'psalms/12': PSALMS_12,
+  'psalms/13': PSALMS_13,
+  'psalms/14': PSALMS_14,
+  'psalms/15': PSALMS_15,
+  'psalms/16': PSALMS_16,
+  'psalms/17': PSALMS_17,
+  'psalms/18': PSALMS_18,
+  'psalms/19': PSALMS_19,
+  'psalms/20': PSALMS_20,
+  'psalms/21': PSALMS_21,
+  'psalms/22': PSALMS_22,
+  'psalms/23': PSALMS_23,
+  'psalms/24': PSALMS_24,
+  'psalms/25': PSALMS_25,
+  'psalms/26': PSALMS_26,
+  'psalms/27': PSALMS_27,
+  'psalms/28': PSALMS_28,
+  'psalms/29': PSALMS_29,
+  'psalms/30': PSALMS_30,
+  'psalms/31': PSALMS_31,
+  'psalms/32': PSALMS_32,
+  'psalms/33': PSALMS_33,
+  'psalms/34': PSALMS_34,
+  'psalms/35': PSALMS_35,
+  'psalms/36': PSALMS_36,
+  'psalms/37': PSALMS_37,
+  'psalms/38': PSALMS_38,
+  'psalms/39': PSALMS_39,
+  'psalms/40': PSALMS_40,
+  'psalms/41': PSALMS_41,
+  'psalms/42': PSALMS_42,
+  'psalms/43': PSALMS_43,
+  'psalms/44': PSALMS_44,
+  'psalms/45': PSALMS_45,
+  'psalms/46': PSALMS_46,
+  'psalms/47': PSALMS_47,
+  'psalms/48': PSALMS_48,
+  'psalms/49': PSALMS_49,
+  'psalms/50': PSALMS_50,
 };
 
 /**
