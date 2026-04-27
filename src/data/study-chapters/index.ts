@@ -190,6 +190,23 @@ import { DEUTERONOMY_14 } from './deuteronomy-14';
 import { DEUTERONOMY_15 } from './deuteronomy-15';
 import { DEUTERONOMY_16 } from './deuteronomy-16';
 import { DEUTERONOMY_17 } from './deuteronomy-17';
+import { DEUTERONOMY_18 } from './deuteronomy-18';
+import { DEUTERONOMY_19 } from './deuteronomy-19';
+import { DEUTERONOMY_20 } from './deuteronomy-20';
+import { DEUTERONOMY_21 } from './deuteronomy-21';
+import { DEUTERONOMY_22 } from './deuteronomy-22';
+import { DEUTERONOMY_23 } from './deuteronomy-23';
+import { DEUTERONOMY_24 } from './deuteronomy-24';
+import { DEUTERONOMY_25 } from './deuteronomy-25';
+import { DEUTERONOMY_26 } from './deuteronomy-26';
+import { DEUTERONOMY_27 } from './deuteronomy-27';
+import { DEUTERONOMY_28 } from './deuteronomy-28';
+import { DEUTERONOMY_29 } from './deuteronomy-29';
+import { DEUTERONOMY_30 } from './deuteronomy-30';
+import { DEUTERONOMY_31 } from './deuteronomy-31';
+import { DEUTERONOMY_32 } from './deuteronomy-32';
+import { DEUTERONOMY_33 } from './deuteronomy-33';
+import { DEUTERONOMY_34 } from './deuteronomy-34';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -363,6 +380,23 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'deuteronomy/15': DEUTERONOMY_15,
   'deuteronomy/16': DEUTERONOMY_16,
   'deuteronomy/17': DEUTERONOMY_17,
+  'deuteronomy/18': DEUTERONOMY_18,
+  'deuteronomy/19': DEUTERONOMY_19,
+  'deuteronomy/20': DEUTERONOMY_20,
+  'deuteronomy/21': DEUTERONOMY_21,
+  'deuteronomy/22': DEUTERONOMY_22,
+  'deuteronomy/23': DEUTERONOMY_23,
+  'deuteronomy/24': DEUTERONOMY_24,
+  'deuteronomy/25': DEUTERONOMY_25,
+  'deuteronomy/26': DEUTERONOMY_26,
+  'deuteronomy/27': DEUTERONOMY_27,
+  'deuteronomy/28': DEUTERONOMY_28,
+  'deuteronomy/29': DEUTERONOMY_29,
+  'deuteronomy/30': DEUTERONOMY_30,
+  'deuteronomy/31': DEUTERONOMY_31,
+  'deuteronomy/32': DEUTERONOMY_32,
+  'deuteronomy/33': DEUTERONOMY_33,
+  'deuteronomy/34': DEUTERONOMY_34,
 };
 
 /**

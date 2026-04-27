@@ -1,2 +1,21 @@
 Querying: artworks?select=id,slug,image_url,thumbnail_url,source,width,height&moderation_status=eq.approved&status=eq.published&order=created_at.asc&thumbnail_256_url=is.null
 Found 16 artwork(s) needing thumbnails
+  ✗ rembrandt-road-emmaus: Image too large: 53091600 bytes
+  ✗ rembrandt-return-prodigal-son: Image too large: 262356403 bytes
+  ✗ tissot-prodigal: Fetch https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn%20Museum%20-%20Prodigal%20(image%20title%20missing%20from%20API).jpg → 404
+  ✗ tissot-nicodemus: Fetch https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn%20Museum%20-%20Interview%20between%20Jesus%20and%20Nicodemus%20(Entretien%20de%20J%C3%A9sus%20et%20de%20Nicode%C3%A8me)%20-%20James%20Tissot.jpg → 404
+  ✗ caravaggio-beheading-of-saint-john: Image too large: 45878458 bytes
+  ✗ raphael-disputation-of-the-holy-sacrament: Image too large: 36008853 bytes
+  ✗ raphael-sistine-madonna: Image too large: 38190063 bytes
+  ✗ raphael-alba-madonna: Image too large: 29972537 bytes
+  ✗ rubens-visitation: Image too large: 34544435 bytes
+  ✗ rubens-meeting-of-abraham-and-melchizedek: Image too large: 65760152 bytes
+  ✗ fra-angelico-linaioli-tabernacle: Image too large: 29447309 bytes
+  ✗ rembrandt-circumcision-in-the-stable: Image too large: 103085881 bytes
+  ✗ bloch-adoration-of-the-shepherds: Image too large: 90584404 bytes
+  ✗ vitae-imperatorum-beatus-vir: Image too large: 87164584 bytes
+  ✗ el-greco-disrobing-1pet2: Image too large: 27619684 bytes
+  ✗ met-336207: VipsJpeg: Corrupt JPEG data: bad Huffman code
+
+Done. 0 succeeded, 16 failed.
+Failures logged to /Users/jaedenschafer/Documents/Claude Code/Learn of Christ/learnofchrist-project/scripts/.failures/thumbs-2026-04-27T01-07-48-280Z.jsonl
