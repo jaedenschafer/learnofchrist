@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
@@ -201,9 +202,49 @@ export default async function ArtworkPage({ params }: PageProps) {
 
         {art.artist && (
           <section className="mb-10 border-t border-[color:var(--color-separator)] pt-8">
-            <h2 className="text-[1.125rem] font-semibold text-[color:var(--color-label)] mb-2 px-1">
-              About {art.artist.name}
-            </h2>
+            <div className="px-1 flex items-start gap-4 mb-3">
+              {art.artist.portrait_url && (
+                <Link
+                  href={`/art/artist/${art.artist.slug}`}
+                  aria-label={`Portrait of ${art.artist.name}`}
+                  className="block flex-none rounded-full overflow-hidden bg-[color:var(--color-fill-subtle)] shadow-[0_0_0_1px_var(--color-separator),0_1px_2px_rgba(0,0,0,0.04),0_8px_24px_-8px_rgba(0,0,0,0.12)]"
+                  style={{ width: 64, height: 64 }}
+                >
+                  <Image
+                    src={art.artist.portrait_url}
+                    alt={`Portrait of ${art.artist.name}`}
+                    width={128}
+                    height={128}
+                    sizes="64px"
+                    style={{
+                      width: 64,
+                      height: 64,
+                      objectFit: 'cover',
+                      objectPosition: 'center 25%',
+                    }}
+                  />
+                </Link>
+              )}
+              <div className="min-w-0 flex-1">
+                <h2 className="text-[1.125rem] font-semibold text-[color:var(--color-label)] mb-0.5">
+                  About {art.artist.name}
+                </h2>
+                {(art.artist.birth_year != null ||
+                  art.artist.death_year != null ||
+                  art.artist.nationality) && (
+                  <p className="text-[0.8125rem] text-[color:var(--color-tertiary-label)]">
+                    {[
+                      art.artist.birth_year != null || art.artist.death_year != null
+                        ? `${art.artist.birth_year ?? '?'}–${art.artist.death_year ?? '?'}`
+                        : null,
+                      art.artist.nationality,
+                    ]
+                      .filter(Boolean)
+                      .join(' · ')}
+                  </p>
+                )}
+              </div>
+            </div>
             {art.artist.bio && (
               <p className="text-[0.9375rem] leading-relaxed text-[color:var(--color-label)] px-1">
                 {art.artist.bio}

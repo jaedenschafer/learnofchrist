@@ -122,6 +122,12 @@ export interface Artist {
   nationality: string | null;
   bio: string | null;
   wikipedia_url: string | null;
+  /** Wikipedia/Commons portrait URL — populated by
+   *  scripts/backfill-artist-portraits.mjs (migration 053). Used as
+   *  the featured image on artist hub pages and beside the artist's
+   *  name in artwork-page bio blurbs. Null when no portrait is
+   *  available (mostly anonymous workshop attributions). */
+  portrait_url?: string | null;
 }
 
 /** Citation entry on an artist row — used in the Further Reading section. */
@@ -585,7 +591,7 @@ export async function getArtworkBySlug(slug: string): Promise<ArtworkWithRefs | 
     .from('artworks')
     .select(`
       *,
-      artist:artists ( id, slug, name, birth_year, death_year, nationality, bio, wikipedia_url )
+      artist:artists ( id, slug, name, birth_year, death_year, nationality, bio, wikipedia_url, portrait_url )
     `)
     .eq('slug', slug)
     .eq('status', 'published')

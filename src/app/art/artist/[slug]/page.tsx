@@ -261,20 +261,7 @@ export default async function ArtistPage({ params }: PageProps) {
           <div className="artist-hero__inner">
             <div className="artist-hero__text">
               <p className="artist-hero__kicker">Painter of the Bible</p>
-              <div className="artist-hero__heading">
-                {portraitUrl && (
-                  <Image
-                    src={portraitUrl}
-                    alt={`Portrait of ${artist.name}`}
-                    width={208}
-                    height={208}
-                    className="artist-hero__portrait"
-                    priority
-                    sizes="(min-width: 768px) 104px, 84px"
-                  />
-                )}
-                <h1 className="artist-hero__name">{artist.name}</h1>
-              </div>
+              <h1 className="artist-hero__name">{artist.name}</h1>
 
               <div className="artist-hero__metabar">
                 {lifespan && (
@@ -300,7 +287,22 @@ export default async function ArtistPage({ params }: PageProps) {
               {heroLede && <p className="artist-hero__lede">{heroLede}</p>}
             </div>
 
-            {heroImage && (heroImage.image_url || heroImage.thumbnail_url) && (
+            {/* Featured image — the artist's actual portrait when we have
+                one (the strong default), with a representative artwork
+                used only as a last-resort fallback when no portrait
+                exists (mostly anonymous workshop attributions). */}
+            {portraitUrl ? (
+              <div className="artist-hero__art artist-hero__art--portrait">
+                <Image
+                  src={portraitUrl}
+                  alt={`Portrait of ${artist.name}`}
+                  fill
+                  priority
+                  sizes="(min-width: 880px) 480px, 100vw"
+                  style={{ objectFit: 'cover', objectPosition: 'center 25%' }}
+                />
+              </div>
+            ) : heroImage && (heroImage.image_url || heroImage.thumbnail_url) ? (
               <Link
                 href={`/art/artwork/${heroImage.slug}`}
                 className="artist-hero__art"
@@ -318,7 +320,7 @@ export default async function ArtistPage({ params }: PageProps) {
                   {heroImage.title}
                 </span>
               </Link>
-            )}
+            ) : null}
           </div>
         </header>
 

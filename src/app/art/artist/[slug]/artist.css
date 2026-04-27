@@ -87,35 +87,6 @@
   display: inline-block;
 }
 
-.artist-hero__heading {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin: 0 0 1rem;
-  flex-wrap: wrap;
-}
-
-.artist-hero__portrait {
-  flex: 0 0 auto;
-  width: 84px !important;
-  height: 84px !important;
-  border-radius: 50%;
-  object-fit: cover;
-  object-position: center 25%;
-  background: var(--color-fill-subtle);
-  box-shadow:
-    0 0 0 1px var(--color-separator),
-    0 1px 2px rgba(0, 0, 0, 0.04),
-    0 8px 24px -8px rgba(0, 0, 0, 0.12);
-}
-
-@media (min-width: 768px) {
-  .artist-hero__portrait {
-    width: 104px !important;
-    height: 104px !important;
-  }
-}
-
 .artist-hero__name {
   font-family: var(--font-serif), 'EB Garamond', Georgia, serif;
   font-weight: 600;
@@ -123,10 +94,8 @@
   line-height: 1.02;
   letter-spacing: -0.028em;
   color: var(--color-label);
-  margin: 0;
+  margin: 0 0 1rem;
   text-wrap: balance;
-  flex: 1 1 auto;
-  min-width: 0;
 }
 
 .artist-hero__metabar {
@@ -178,11 +147,21 @@
   display: block;
 }
 
+/* Portrait variant — most artists have a vertical-leaning Wikipedia
+   portrait. Use a 4:5 ratio at narrow widths and full-bleed on
+   desktop so the face dominates the plate. */
+.artist-hero__art--portrait {
+  aspect-ratio: 4 / 5;
+}
+
 @media (min-width: 880px) {
   .artist-hero__art {
     aspect-ratio: auto;
     height: 100%;
     border-left: 1px solid var(--color-separator);
+  }
+  .artist-hero__art--portrait {
+    aspect-ratio: auto;
   }
 }
 
