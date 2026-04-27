@@ -1,2 +1,6 @@
 Querying: artworks?select=id,slug,image_url,thumbnail_url,source,width,height&moderation_status=eq.approved&status=eq.published&order=created_at.asc&thumbnail_256_url=is.null
 Found 16 artwork(s) needing thumbnails
+  ✗ rembrandt-road-emmaus: Image too large: 53091600 bytes
+  ✗ rembrandt-return-prodigal-son: Image too large: 262356403 bytes
+  ✗ tissot-prodigal: Fetch https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn%20Museum%20-%20Prodigal%20(image%20title%20missing%20from%20API).jpg → 404
+  ✗ tissot-nicodemus: Fetch https://commons.wikimedia.org/wiki/Special:FilePath/Brooklyn%20Museum%20-%20Interview%20between%20Jesus%20and%20Nicodemus%20(Entretien%20de%20J%C3%A9sus%20et%20de%20Nicode%C3%A8me)%20-%20James%20Tissot.jpg → 404
