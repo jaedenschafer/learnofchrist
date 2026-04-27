@@ -822,6 +822,36 @@ import { LAMENTATIONS_2 } from './lamentations-2';
 import { LAMENTATIONS_3 } from './lamentations-3';
 import { LAMENTATIONS_4 } from './lamentations-4';
 import { LAMENTATIONS_5 } from './lamentations-5';
+import { EZEKIEL_1 } from './ezekiel-1';
+import { EZEKIEL_2 } from './ezekiel-2';
+import { EZEKIEL_3 } from './ezekiel-3';
+import { EZEKIEL_4 } from './ezekiel-4';
+import { EZEKIEL_5 } from './ezekiel-5';
+import { EZEKIEL_6 } from './ezekiel-6';
+import { EZEKIEL_7 } from './ezekiel-7';
+import { EZEKIEL_8 } from './ezekiel-8';
+import { EZEKIEL_9 } from './ezekiel-9';
+import { EZEKIEL_10 } from './ezekiel-10';
+import { EZEKIEL_11 } from './ezekiel-11';
+import { EZEKIEL_12 } from './ezekiel-12';
+import { EZEKIEL_13 } from './ezekiel-13';
+import { EZEKIEL_14 } from './ezekiel-14';
+import { EZEKIEL_15 } from './ezekiel-15';
+import { EZEKIEL_16 } from './ezekiel-16';
+import { EZEKIEL_17 } from './ezekiel-17';
+import { EZEKIEL_18 } from './ezekiel-18';
+import { EZEKIEL_19 } from './ezekiel-19';
+import { EZEKIEL_20 } from './ezekiel-20';
+import { EZEKIEL_21 } from './ezekiel-21';
+import { EZEKIEL_22 } from './ezekiel-22';
+import { EZEKIEL_23 } from './ezekiel-23';
+import { EZEKIEL_24 } from './ezekiel-24';
+import { EZEKIEL_25 } from './ezekiel-25';
+import { EZEKIEL_26 } from './ezekiel-26';
+import { EZEKIEL_27 } from './ezekiel-27';
+import { EZEKIEL_28 } from './ezekiel-28';
+import { EZEKIEL_29 } from './ezekiel-29';
+import { EZEKIEL_30 } from './ezekiel-30';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -1627,6 +1657,36 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'lamentations/3': LAMENTATIONS_3,
   'lamentations/4': LAMENTATIONS_4,
   'lamentations/5': LAMENTATIONS_5,
+  'ezekiel/1': EZEKIEL_1,
+  'ezekiel/2': EZEKIEL_2,
+  'ezekiel/3': EZEKIEL_3,
+  'ezekiel/4': EZEKIEL_4,
+  'ezekiel/5': EZEKIEL_5,
+  'ezekiel/6': EZEKIEL_6,
+  'ezekiel/7': EZEKIEL_7,
+  'ezekiel/8': EZEKIEL_8,
+  'ezekiel/9': EZEKIEL_9,
+  'ezekiel/10': EZEKIEL_10,
+  'ezekiel/11': EZEKIEL_11,
+  'ezekiel/12': EZEKIEL_12,
+  'ezekiel/13': EZEKIEL_13,
+  'ezekiel/14': EZEKIEL_14,
+  'ezekiel/15': EZEKIEL_15,
+  'ezekiel/16': EZEKIEL_16,
+  'ezekiel/17': EZEKIEL_17,
+  'ezekiel/18': EZEKIEL_18,
+  'ezekiel/19': EZEKIEL_19,
+  'ezekiel/20': EZEKIEL_20,
+  'ezekiel/21': EZEKIEL_21,
+  'ezekiel/22': EZEKIEL_22,
+  'ezekiel/23': EZEKIEL_23,
+  'ezekiel/24': EZEKIEL_24,
+  'ezekiel/25': EZEKIEL_25,
+  'ezekiel/26': EZEKIEL_26,
+  'ezekiel/27': EZEKIEL_27,
+  'ezekiel/28': EZEKIEL_28,
+  'ezekiel/29': EZEKIEL_29,
+  'ezekiel/30': EZEKIEL_30,
 };
 
 /**
