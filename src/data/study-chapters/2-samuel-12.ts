@@ -19,8 +19,8 @@ export const SAMUEL_2_12: RichChapterContent = {
   chapter: 12,
 
   intros: [
-    'The narrative of David's life takes a turn in chapter 12 that will echo through the rest of his reign. His sin with Bathsheba — the murder of Uriah, the taking of another man\'s wife — has been hidden. The kingdom moves on. But God sees, and He sends a prophet.',
-    'What follows is one of the Bible\'s clearest portraits of confrontation, confession, and the mercy that remains even when consequences cannot be undone. David is about to meet himself in a mirror held up by a parable, and the mirror will not lie.',
+    "The narrative of David&apos;s life takes a turn in chapter 12 that will echo through the rest of his reign. His sin with Bathsheba — the murder of Uriah, the taking of another man&apos;s wife — has been hidden. The kingdom moves on. But God sees, and He sends a prophet.",
+    "What follows is one of the Bible&apos;s clearest portraits of confrontation, confession, and the mercy that remains even when consequences cannot be undone. David is about to meet himself in a mirror held up by a parable, and the mirror will not lie.",
   ],
 
   bottomShare: {
