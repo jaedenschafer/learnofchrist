@@ -949,6 +949,22 @@ import { MALACHI_1 } from './malachi-1';
 import { MALACHI_2 } from './malachi-2';
 import { MALACHI_3 } from './malachi-3';
 import { MALACHI_4 } from './malachi-4';
+import { MARK_1 } from './mark-1';
+import { MARK_2 } from './mark-2';
+import { MARK_3 } from './mark-3';
+import { MARK_4 } from './mark-4';
+import { MARK_5 } from './mark-5';
+import { MARK_6 } from './mark-6';
+import { MARK_7 } from './mark-7';
+import { MARK_8 } from './mark-8';
+import { MARK_9 } from './mark-9';
+import { MARK_10 } from './mark-10';
+import { MARK_11 } from './mark-11';
+import { MARK_12 } from './mark-12';
+import { MARK_13 } from './mark-13';
+import { MARK_14 } from './mark-14';
+import { MARK_15 } from './mark-15';
+import { MARK_16 } from './mark-16';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -1881,6 +1897,22 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'malachi/2': MALACHI_2,
   'malachi/3': MALACHI_3,
   'malachi/4': MALACHI_4,
+  'mark/1': MARK_1,
+  'mark/2': MARK_2,
+  'mark/3': MARK_3,
+  'mark/4': MARK_4,
+  'mark/5': MARK_5,
+  'mark/6': MARK_6,
+  'mark/7': MARK_7,
+  'mark/8': MARK_8,
+  'mark/9': MARK_9,
+  'mark/10': MARK_10,
+  'mark/11': MARK_11,
+  'mark/12': MARK_12,
+  'mark/13': MARK_13,
+  'mark/14': MARK_14,
+  'mark/15': MARK_15,
+  'mark/16': MARK_16,
 };
 
 /**
