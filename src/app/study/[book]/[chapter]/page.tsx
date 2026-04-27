@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 import { getAllBooks, getBookByName } from '@/data/books';
 import { getChapterContent } from '@/data/chapter-content';
 import { getRichChapter, isHandAuthoredChapter } from '@/data/study-chapters';
-import { getChapterContentMerged } from '@/lib/chapterContent';
+import { resolveChapterOverride, dehydrateRich } from '@/lib/chapterContent';
 import { isAdminSession } from '@/lib/isAdmin';
 import ChapterNav from '@/components/ChapterNav';
 import EditableStudyGuide from '@/components/EditableStudyGuide';
@@ -123,13 +123,23 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
     getArtworksForChapter(book, chapter),
   ]);
 
-  // Resolve override (admin edits stored in chapter_overrides) merged onto
-  // the file-based ChapterContent. RichStudyGuide auto-port reads from the
-  // merged shape so saved edits flow through end-to-end.
-  const content = await getChapterContentMerged(book, chapter);
-  const richContent = getRichChapter(book, book_obj.name, chapter, content, initialVerses);
+  // Resolve the chapter_overrides row (if any) and route accordingly:
+  //   - kind: 'rich' wins over both the hand-authored RICH_CHAPTERS entry
+  //           and the auto-port pipeline (used for hand-authored edits).
+  //   - kind: 'legacy' is merged onto the file-based ChapterContent and
+  //           passed through getRichChapter so the auto-port still runs.
+  const override = await resolveChapterOverride(book, chapter);
+  const content = override.kind === 'legacy' ? override.legacy : getChapterContent(book, chapter);
+  const richContent =
+    override.kind === 'rich'
+      ? override.rich
+      : getRichChapter(book, book_obj.name, chapter, override.legacy, initialVerses);
   const handAuthored = isHandAuthoredChapter(book, chapter);
   const sessionIsAdmin = await isAdminSession();
+  // Dehydrate the rendered RichChapterContent so the editor can edit it.
+  // The editor only mounts when admin clicks Edit, so the cost is negligible
+  // for non-admin requests.
+  const richSerialized = sessionIsAdmin && richContent ? dehydrateRich(richContent) : null;
 
   // Rich study guides reference inline artworks by title/artist matchers in
   // their data files. Pull those out of the carousel so we never show the
@@ -284,6 +294,7 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
                 bookSlug={book}
                 chapter={chapter}
                 legacy={content}
+                rich={richSerialized}
                 sessionIsAdmin={sessionIsAdmin}
                 isHandAuthored={handAuthored}
               >

@@ -1,6 +1,8 @@
 'use client';
 
 import { useState, type ReactNode } from 'react';
+import RichChapterEditor from './RichChapterEditor';
+import type { SerializedRichChapterContent } from '@/lib/chapterContent';
 
 export interface ChapterContentShape {
   overview: string;
@@ -11,23 +13,25 @@ export interface ChapterContentShape {
 }
 
 interface EditableStudyGuideProps {
-  /** The public-view markup (the auto-ported RichStudyGuide for non-Genesis
-   *  chapters). Rendered when `editing` is false so admins see exactly what
-   *  readers see. */
+  /** The public-view markup (RichStudyGuide). Rendered when `editing` is
+   *  false so admins see exactly what readers see. */
   children: ReactNode;
   bookName: string;
   bookSlug: string;
   chapter: number;
-  /** Underlying legacy ChapterContent shape that the auto-port reads from.
-   *  Edits are made against this and POSTed to /api/admin/chapter-content;
-   *  the page then revalidates and re-renders RichStudyGuide auto-port. */
+  /** Underlying legacy ChapterContent shape (when present). Drives the
+   *  simple form editor. */
   legacy: ChapterContentShape | null;
+  /** Currently-rendered RichChapterContent (override > hand-authored >
+   *  auto-port) serialized for editing. Drives the advanced block editor. */
+  rich: SerializedRichChapterContent | null;
   /** Server-resolved admin flag. When true, the editor toolbar mounts. */
   sessionIsAdmin: boolean;
-  /** Hand-authored chapters (Genesis 1, etc.) skip the editor — their rich
-   *  layout doesn't round-trip through the legacy shape. */
+  /** Hand-authored chapters open the advanced editor by default. */
   isHandAuthored?: boolean;
 }
+
+type EditorMode = 'simple' | 'advanced';
 
 /**
  * Renders the public-view children for non-admin viewers. For admins, adds
@@ -49,15 +53,20 @@ export default function EditableStudyGuide({
   bookSlug,
   chapter,
   legacy,
+  rich,
   sessionIsAdmin,
   isHandAuthored = false,
 }: EditableStudyGuideProps) {
+  // Editing mode + which sub-editor is active. Hand-authored chapters
+  // default to advanced (the only editor that captures their full shape);
+  // auto-ported chapters default to simple (legacy form is faster) but
+  // admins can switch with a tab in the toolbar.
   const [editing, setEditing] = useState(false);
+  const [mode, setMode] = useState<EditorMode>(isHandAuthored ? 'advanced' : 'simple');
   const [busy, setBusy] = useState(false);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
 
-  // Working copy used while editing. Initialized from `legacy` (with sane
-  // defaults so admins can populate a chapter that previously had none).
+  // Working copy for the simple editor.
   const [draft, setDraft] = useState<ChapterContentShape>(() => ({
     overview: legacy?.overview ?? '',
     themes: legacy?.themes ?? [],
@@ -78,6 +87,7 @@ export default function EditableStudyGuide({
       christConnection: legacy?.christConnection ?? '',
       keyVerse: legacy?.keyVerse ?? { reference: '', text: '' },
     });
+    setMode(isHandAuthored ? 'advanced' : 'simple');
     setEditing(true);
     setErrorMsg(null);
   };
@@ -142,30 +152,56 @@ export default function EditableStudyGuide({
     }
   };
 
-  if (isHandAuthored) {
-    return (
-      <>
-        {children}
-        <div className="admin-edit-toolbar" role="status">
-          <span className="admin-edit-toolbar__label">Admin</span>
-          <span className="admin-edit-toolbar__status">
-            Hand-authored chapter — edit the .ts source file
-          </span>
-        </div>
-        <ToolbarStyles />
-      </>
-    );
-  }
+  // Save flow for the advanced (RichChapterContent) editor. Posts a
+  // `kind: 'rich'` payload so the API stores it as a SerializedRichChapterContent
+  // override row, which wins over both the file-based RICH_CHAPTERS entry
+  // and the auto-port pipeline at render time.
+  const saveAdvanced = async (next: SerializedRichChapterContent) => {
+    setBusy(true);
+    setErrorMsg(null);
+    try {
+      const res = await fetch('/api/admin/chapter-content', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          book_slug: bookSlug,
+          chapter,
+          kind: 'rich',
+          content: next,
+        }),
+      });
+      const json = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        setErrorMsg(json.error || `save failed (${res.status})`);
+        return;
+      }
+      window.location.reload();
+    } finally {
+      setBusy(false);
+    }
+  };
 
   return (
     <>
       {!editing ? children : (
-        <FormEditor
-          bookName={bookName}
-          chapter={chapter}
-          draft={draft}
-          setDraft={setDraft}
-        />
+        mode === 'advanced' && rich ? (
+          <RichChapterEditor
+            initial={rich}
+            bookSlug={bookSlug}
+            chapter={chapter}
+            bookName={bookName}
+            onSave={saveAdvanced}
+            onCancel={() => { setEditing(false); setErrorMsg(null); }}
+            busy={busy}
+          />
+        ) : (
+          <FormEditor
+            bookName={bookName}
+            chapter={chapter}
+            draft={draft}
+            setDraft={setDraft}
+          />
+        )
       )}
 
       <div className="admin-edit-toolbar" role="toolbar" aria-label="Admin edit">
@@ -192,14 +228,41 @@ export default function EditableStudyGuide({
         ) : (
           <>
             <span className="admin-edit-toolbar__label">Editing</span>
-            <button
-              type="button"
-              onClick={save}
-              disabled={busy}
-              className="admin-edit-toolbar__btn admin-edit-toolbar__btn--primary"
-            >
-              {busy ? 'Saving…' : 'Save'}
-            </button>
+            {/* Mode toggle: simple (legacy form) vs advanced (rich block).
+                Hand-authored chapters lock to advanced. The advanced
+                editor's own Save button does the work for that mode; we
+                only show the Save button here for the simple mode. */}
+            {!isHandAuthored && (
+              <div className="admin-edit-toolbar__tabs">
+                <button
+                  type="button"
+                  onClick={() => setMode('simple')}
+                  className={`admin-edit-toolbar__tab ${mode === 'simple' ? 'is-active' : ''}`}
+                  disabled={busy}
+                >
+                  Simple
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setMode('advanced')}
+                  className={`admin-edit-toolbar__tab ${mode === 'advanced' ? 'is-active' : ''}`}
+                  disabled={busy || !rich}
+                  title={!rich ? 'Advanced editor needs a rich chapter to start from' : ''}
+                >
+                  Advanced
+                </button>
+              </div>
+            )}
+            {mode === 'simple' && (
+              <button
+                type="button"
+                onClick={save}
+                disabled={busy}
+                className="admin-edit-toolbar__btn admin-edit-toolbar__btn--primary"
+              >
+                {busy ? 'Saving…' : 'Save'}
+              </button>
+            )}
             <button
               type="button"
               onClick={() => {
@@ -439,6 +502,31 @@ function ToolbarStyles() {
       }
       .admin-edit-toolbar__status--error {
         color: #ff6961;
+      }
+      .admin-edit-toolbar__tabs {
+        display: inline-flex;
+        background: rgba(255, 255, 255, 0.08);
+        border-radius: 8px;
+        padding: 2px;
+      }
+      .admin-edit-toolbar__tab {
+        padding: 4px 10px;
+        font-size: 12px;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.6);
+        background: transparent;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-family: inherit;
+      }
+      .admin-edit-toolbar__tab.is-active {
+        background: rgba(255, 255, 255, 0.18);
+        color: #fff;
+      }
+      .admin-edit-toolbar__tab:disabled {
+        opacity: 0.4;
+        cursor: not-allowed;
       }
     `}</style>
   );
