@@ -387,6 +387,26 @@ import { CHRONICLES_1_26 } from './1-chronicles-26';
 import { CHRONICLES_1_27 } from './1-chronicles-27';
 import { CHRONICLES_1_28 } from './1-chronicles-28';
 import { CHRONICLES_1_29 } from './1-chronicles-29';
+import { CHRONICLES_2_1 } from './2-chronicles-1';
+import { CHRONICLES_2_2 } from './2-chronicles-2';
+import { CHRONICLES_2_3 } from './2-chronicles-3';
+import { CHRONICLES_2_4 } from './2-chronicles-4';
+import { CHRONICLES_2_5 } from './2-chronicles-5';
+import { CHRONICLES_2_6 } from './2-chronicles-6';
+import { CHRONICLES_2_7 } from './2-chronicles-7';
+import { CHRONICLES_2_8 } from './2-chronicles-8';
+import { CHRONICLES_2_9 } from './2-chronicles-9';
+import { CHRONICLES_2_10 } from './2-chronicles-10';
+import { CHRONICLES_2_11 } from './2-chronicles-11';
+import { CHRONICLES_2_12 } from './2-chronicles-12';
+import { CHRONICLES_2_13 } from './2-chronicles-13';
+import { CHRONICLES_2_14 } from './2-chronicles-14';
+import { CHRONICLES_2_15 } from './2-chronicles-15';
+import { CHRONICLES_2_16 } from './2-chronicles-16';
+import { CHRONICLES_2_17 } from './2-chronicles-17';
+import { CHRONICLES_2_18 } from './2-chronicles-18';
+import { CHRONICLES_2_19 } from './2-chronicles-19';
+import { CHRONICLES_2_20 } from './2-chronicles-20';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -757,6 +777,26 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   '1-chronicles/27': CHRONICLES_1_27,
   '1-chronicles/28': CHRONICLES_1_28,
   '1-chronicles/29': CHRONICLES_1_29,
+  '2-chronicles/1': CHRONICLES_2_1,
+  '2-chronicles/2': CHRONICLES_2_2,
+  '2-chronicles/3': CHRONICLES_2_3,
+  '2-chronicles/4': CHRONICLES_2_4,
+  '2-chronicles/5': CHRONICLES_2_5,
+  '2-chronicles/6': CHRONICLES_2_6,
+  '2-chronicles/7': CHRONICLES_2_7,
+  '2-chronicles/8': CHRONICLES_2_8,
+  '2-chronicles/9': CHRONICLES_2_9,
+  '2-chronicles/10': CHRONICLES_2_10,
+  '2-chronicles/11': CHRONICLES_2_11,
+  '2-chronicles/12': CHRONICLES_2_12,
+  '2-chronicles/13': CHRONICLES_2_13,
+  '2-chronicles/14': CHRONICLES_2_14,
+  '2-chronicles/15': CHRONICLES_2_15,
+  '2-chronicles/16': CHRONICLES_2_16,
+  '2-chronicles/17': CHRONICLES_2_17,
+  '2-chronicles/18': CHRONICLES_2_18,
+  '2-chronicles/19': CHRONICLES_2_19,
+  '2-chronicles/20': CHRONICLES_2_20,
 };
 
 /**
