@@ -443,6 +443,7 @@ import { NEHEMIAH_7 } from './nehemiah-7';
 import { NEHEMIAH_8 } from './nehemiah-8';
 import { NEHEMIAH_9 } from './nehemiah-9';
 import { NEHEMIAH_10 } from './nehemiah-10';
+import { JOB_1 } from './job-1';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -869,6 +870,7 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'nehemiah/8': NEHEMIAH_8,
   'nehemiah/9': NEHEMIAH_9,
   'nehemiah/10': NEHEMIAH_10,
+  'job/1': JOB_1,
 };
 
 /**
