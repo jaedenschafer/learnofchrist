@@ -407,6 +407,22 @@ import { CHRONICLES_2_17 } from './2-chronicles-17';
 import { CHRONICLES_2_18 } from './2-chronicles-18';
 import { CHRONICLES_2_19 } from './2-chronicles-19';
 import { CHRONICLES_2_20 } from './2-chronicles-20';
+import { CHRONICLES_2_21 } from './2-chronicles-21';
+import { CHRONICLES_2_22 } from './2-chronicles-22';
+import { CHRONICLES_2_23 } from './2-chronicles-23';
+import { CHRONICLES_2_24 } from './2-chronicles-24';
+import { CHRONICLES_2_25 } from './2-chronicles-25';
+import { CHRONICLES_2_26 } from './2-chronicles-26';
+import { CHRONICLES_2_27 } from './2-chronicles-27';
+import { CHRONICLES_2_28 } from './2-chronicles-28';
+import { CHRONICLES_2_29 } from './2-chronicles-29';
+import { CHRONICLES_2_30 } from './2-chronicles-30';
+import { CHRONICLES_2_31 } from './2-chronicles-31';
+import { CHRONICLES_2_32 } from './2-chronicles-32';
+import { CHRONICLES_2_33 } from './2-chronicles-33';
+import { CHRONICLES_2_34 } from './2-chronicles-34';
+import { CHRONICLES_2_35 } from './2-chronicles-35';
+import { CHRONICLES_2_36 } from './2-chronicles-36';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -797,6 +813,22 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   '2-chronicles/18': CHRONICLES_2_18,
   '2-chronicles/19': CHRONICLES_2_19,
   '2-chronicles/20': CHRONICLES_2_20,
+  '2-chronicles/21': CHRONICLES_2_21,
+  '2-chronicles/22': CHRONICLES_2_22,
+  '2-chronicles/23': CHRONICLES_2_23,
+  '2-chronicles/24': CHRONICLES_2_24,
+  '2-chronicles/25': CHRONICLES_2_25,
+  '2-chronicles/26': CHRONICLES_2_26,
+  '2-chronicles/27': CHRONICLES_2_27,
+  '2-chronicles/28': CHRONICLES_2_28,
+  '2-chronicles/29': CHRONICLES_2_29,
+  '2-chronicles/30': CHRONICLES_2_30,
+  '2-chronicles/31': CHRONICLES_2_31,
+  '2-chronicles/32': CHRONICLES_2_32,
+  '2-chronicles/33': CHRONICLES_2_33,
+  '2-chronicles/34': CHRONICLES_2_34,
+  '2-chronicles/35': CHRONICLES_2_35,
+  '2-chronicles/36': CHRONICLES_2_36,
 };
 
 /**
