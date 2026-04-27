@@ -2,18 +2,25 @@ import { NextResponse, type NextRequest } from 'next/server';
 import { revalidatePath } from 'next/cache';
 import { isAdmin } from '@/lib/isAdmin';
 import { supabaseAdmin } from '@/lib/supabaseAdmin';
-import type { ChapterContentOverride } from '@/lib/chapterContent';
+import type {
+  ChapterOverride,
+  LegacyChapterContentOverride,
+  SerializedRichChapterContent,
+} from '@/lib/chapterContent';
 
 /**
  * POST /api/admin/chapter-content
- * Body: {
- *   book_slug: string,
- *   chapter: number,
- *   content: Partial<ChapterContent>,   // any subset of fields
- * }
  *
- * Upserts the override row keyed on (book_slug, chapter). Empty `content`
- * (i.e. `{}`) deletes the row, restoring the file-based default.
+ * Two body shapes:
+ *
+ *   Legacy (overview/themes/questions/christConnection/keyVerse):
+ *     { book_slug, chapter, content: Partial<ChapterContent>, kind?: 'legacy' }
+ *
+ *   Rich (full RichChapterContent override):
+ *     { book_slug, chapter, kind: 'rich', content: SerializedRichChapterContent }
+ *
+ * In either case `content: {}` deletes the override row, restoring the
+ * file-based default.
  */
 export async function POST(req: NextRequest) {
   if (!(await isAdmin(req))) {
@@ -23,7 +30,8 @@ export async function POST(req: NextRequest) {
   let body: {
     book_slug?: string;
     chapter?: number;
-    content?: ChapterContentOverride;
+    kind?: 'legacy' | 'rich';
+    content?: LegacyChapterContentOverride | SerializedRichChapterContent | Record<string, never>;
   };
   try {
     body = await req.json();
@@ -34,32 +42,13 @@ export async function POST(req: NextRequest) {
   const bookSlug = body.book_slug;
   const chapter = Number(body.chapter);
   const content = body.content ?? {};
+  const kind: 'legacy' | 'rich' = body.kind ?? 'legacy';
+
   if (!bookSlug || !Number.isInteger(chapter) || chapter < 1) {
     return NextResponse.json({ error: 'missing/invalid book_slug or chapter' }, { status: 400 });
   }
 
-  // Validate field shapes to keep clearly bad payloads out of the table.
-  // We accept any subset of the ChapterContent shape; reject types that
-  // would break the UI.
-  if (
-    (content.overview !== undefined && typeof content.overview !== 'string') ||
-    (content.christConnection !== undefined && typeof content.christConnection !== 'string') ||
-    (content.questions !== undefined &&
-      (!Array.isArray(content.questions) || content.questions.some((q) => typeof q !== 'string'))) ||
-    (content.themes !== undefined &&
-      (!Array.isArray(content.themes) ||
-        content.themes.some(
-          (t) => !t || typeof t.title !== 'string' || typeof t.desc !== 'string',
-        ))) ||
-    (content.keyVerse !== undefined &&
-      (!content.keyVerse ||
-        typeof content.keyVerse.reference !== 'string' ||
-        typeof content.keyVerse.text !== 'string'))
-  ) {
-    return NextResponse.json({ error: 'invalid content shape' }, { status: 400 });
-  }
-
-  // Empty payload → delete the override (revert to file content).
+  // Empty payload → delete the row (revert to file content).
   if (Object.keys(content).length === 0) {
     const { error } = await supabaseAdmin
       .from('chapter_overrides')
@@ -73,13 +62,57 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ ok: true, reverted: true });
   }
 
+  // ── Validation per shape ──
+  if (kind === 'legacy') {
+    const c = content as LegacyChapterContentOverride;
+    if (
+      (c.overview !== undefined && typeof c.overview !== 'string') ||
+      (c.christConnection !== undefined && typeof c.christConnection !== 'string') ||
+      (c.questions !== undefined &&
+        (!Array.isArray(c.questions) || c.questions.some((q) => typeof q !== 'string'))) ||
+      (c.themes !== undefined &&
+        (!Array.isArray(c.themes) ||
+          c.themes.some(
+            (t) => !t || typeof t.title !== 'string' || typeof t.desc !== 'string',
+          ))) ||
+      (c.keyVerse !== undefined &&
+        (!c.keyVerse ||
+          typeof c.keyVerse.reference !== 'string' ||
+          typeof c.keyVerse.text !== 'string'))
+    ) {
+      return NextResponse.json({ error: 'invalid legacy content shape' }, { status: 400 });
+    }
+  } else if (kind === 'rich') {
+    const c = content as SerializedRichChapterContent;
+    if (
+      typeof c.bookSlug !== 'string' ||
+      typeof c.bookName !== 'string' ||
+      !Number.isInteger(c.chapter) ||
+      !Array.isArray(c.intros) ||
+      c.intros.some((i) => typeof i !== 'string') ||
+      !Array.isArray(c.sections)
+    ) {
+      return NextResponse.json({ error: 'invalid rich content shape' }, { status: 400 });
+    }
+  } else {
+    return NextResponse.json({ error: 'invalid kind' }, { status: 400 });
+  }
+
+  // Tagged storage: every new write carries a kind discriminator. Older
+  // rows pre-tagging continue to work via parseOverrideRow's untagged
+  // legacy fallback in src/lib/chapterContent.ts.
+  const row: ChapterOverride =
+    kind === 'rich'
+      ? { kind: 'rich', data: content as SerializedRichChapterContent }
+      : { kind: 'legacy', data: content as LegacyChapterContentOverride };
+
   const { error } = await supabaseAdmin
     .from('chapter_overrides')
     .upsert(
       {
         book_slug: bookSlug,
         chapter,
-        content,
+        content: row,
         updated_by: 'admin',
       },
       { onConflict: 'book_slug,chapter' },
@@ -88,7 +121,6 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: error.message }, { status: 500 });
   }
 
-  // Kick ISR for the page so the edit shows up immediately.
   try {
     revalidatePath(`/study/${bookSlug}/${chapter}`);
   } catch (e) {

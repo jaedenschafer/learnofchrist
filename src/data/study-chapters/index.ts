@@ -130,6 +130,26 @@ import { LEVITICUS_17 } from './leviticus-17';
 import { LEVITICUS_18 } from './leviticus-18';
 import { LEVITICUS_19 } from './leviticus-19';
 import { LEVITICUS_20 } from './leviticus-20';
+import { LEVITICUS_21 } from './leviticus-21';
+import { LEVITICUS_22 } from './leviticus-22';
+import { LEVITICUS_23 } from './leviticus-23';
+import { LEVITICUS_24 } from './leviticus-24';
+import { LEVITICUS_25 } from './leviticus-25';
+import { LEVITICUS_26 } from './leviticus-26';
+import { LEVITICUS_27 } from './leviticus-27';
+import { NUMBERS_1 } from './numbers-1';
+import { NUMBERS_2 } from './numbers-2';
+import { NUMBERS_3 } from './numbers-3';
+import { NUMBERS_4 } from './numbers-4';
+import { NUMBERS_5 } from './numbers-5';
+import { NUMBERS_6 } from './numbers-6';
+import { NUMBERS_7 } from './numbers-7';
+import { NUMBERS_8 } from './numbers-8';
+import { NUMBERS_9 } from './numbers-9';
+import { NUMBERS_10 } from './numbers-10';
+import { NUMBERS_11 } from './numbers-11';
+import { NUMBERS_12 } from './numbers-12';
+import { NUMBERS_13 } from './numbers-13';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -243,6 +263,26 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'leviticus/18': LEVITICUS_18,
   'leviticus/19': LEVITICUS_19,
   'leviticus/20': LEVITICUS_20,
+  'leviticus/21': LEVITICUS_21,
+  'leviticus/22': LEVITICUS_22,
+  'leviticus/23': LEVITICUS_23,
+  'leviticus/24': LEVITICUS_24,
+  'leviticus/25': LEVITICUS_25,
+  'leviticus/26': LEVITICUS_26,
+  'leviticus/27': LEVITICUS_27,
+  'numbers/1': NUMBERS_1,
+  'numbers/2': NUMBERS_2,
+  'numbers/3': NUMBERS_3,
+  'numbers/4': NUMBERS_4,
+  'numbers/5': NUMBERS_5,
+  'numbers/6': NUMBERS_6,
+  'numbers/7': NUMBERS_7,
+  'numbers/8': NUMBERS_8,
+  'numbers/9': NUMBERS_9,
+  'numbers/10': NUMBERS_10,
+  'numbers/11': NUMBERS_11,
+  'numbers/12': NUMBERS_12,
+  'numbers/13': NUMBERS_13,
 };
 
 /**
