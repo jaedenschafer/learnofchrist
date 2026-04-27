@@ -88,24 +88,49 @@ async function titleFromWikidata(qid) {
   return j?.entities?.[qid]?.sitelinks?.enwiki?.title ?? null;
 }
 
+/** Decode any URL-encoded segments before re-encoding so we never
+ *  store a double-encoded value (a real bug we hit with filenames
+ *  like "James_Tissot_Self_Portrait_(1865).jpg" — Wikipedia returns
+ *  the parens already %-encoded, then a naive encodeURIComponent
+ *  re-encodes the % sign and you end up with %252528 / %252529). */
+function safeEncode(filename) {
+  let decoded = filename;
+  // Loop in case it's been encoded multiple times. Capped at 3 just
+  // to avoid pathological inputs.
+  for (let i = 0; i < 3; i++) {
+    let next;
+    try {
+      next = decodeURIComponent(decoded);
+    } catch {
+      break;
+    }
+    if (next === decoded) break;
+    decoded = next;
+  }
+  return encodeURIComponent(decoded);
+}
+
 /** Build a stable Commons-FilePath URL from a raw image URL or filename. */
 function commonsUrl(input, width = 600) {
   if (!input) return null;
-  // Already a Commons FilePath URL — re-encode at the requested width.
+  // Already a Commons FilePath URL — extract the filename, normalize
+  // its encoding, and reattach the width.
   if (input.includes('Special:FilePath/')) {
-    const u = new URL(input);
-    u.searchParams.set('width', String(width));
-    return u.toString();
+    const m = input.match(/Special:FilePath\/([^?]+)/);
+    if (m) {
+      return `${COMMONS_FILEPATH}${safeEncode(m[1])}?width=${width}`;
+    }
+    return input;
   }
   // Wikipedia thumbnail URL — pull the filename out and rebuild.
   // e.g. https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Foo.jpg/640px-Foo.jpg
   const m = input.match(/\/wikipedia\/(?:commons|en)\/(?:thumb\/)?[\da-f]\/[\da-f]{2}\/([^/]+?)(?:\/\d+px-[^/]+)?$/);
   if (m) {
-    return `${COMMONS_FILEPATH}${encodeURIComponent(m[1])}?width=${width}`;
+    return `${COMMONS_FILEPATH}${safeEncode(m[1])}?width=${width}`;
   }
   // Bare filename like "File:Foo.jpg" or "Foo.jpg"
   const filename = input.replace(/^File:/, '');
-  return `${COMMONS_FILEPATH}${encodeURIComponent(filename)}?width=${width}`;
+  return `${COMMONS_FILEPATH}${safeEncode(filename)}?width=${width}`;
 }
 
 async function fetchSummary(title) {
