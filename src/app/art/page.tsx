@@ -93,15 +93,15 @@ const SHOWCASE_ROWS = [
 const PULL_QUOTES = [
   {
     text: 'Behold, I make all things new.',
-    ref: 'Revelation 21:5',
+    citation: 'Revelation 21:5',
   },
   {
     text: 'In the beginning was the Word, and the Word was with God, and the Word was God.',
-    ref: 'John 1:1',
+    citation: 'John 1:1',
   },
   {
     text: 'Let the little children come unto me.',
-    ref: 'Mark 10:14',
+    citation: 'Mark 10:14',
   },
 ];
 
@@ -208,8 +208,10 @@ export default async function ArtShowcasePage() {
   );
 }
 
-/** Editorial italic pull-quote divider between sections. */
-function PullQuote({ text, ref }: { text: string; ref: string }) {
+/** Editorial italic pull-quote divider between sections.
+ *  (`citation` not `ref` — `ref` is a reserved React prop name and would
+ *   trigger React's ref-forwarding behavior instead of being passed through.) */
+function PullQuote({ text, citation }: { text: string; citation: string }) {
   return (
     <div className="art-pullquote" role="presentation">
       <span className="art-pullquote__ornament" aria-hidden="true">·</span>
@@ -218,7 +220,7 @@ function PullQuote({ text, ref }: { text: string; ref: string }) {
         {text}
         <span className="art-pullquote__close" aria-hidden="true">&rdquo;</span>
       </blockquote>
-      <cite className="art-pullquote__cite">{ref}</cite>
+      <cite className="art-pullquote__cite">{citation}</cite>
       <span className="art-pullquote__ornament" aria-hidden="true">·</span>
     </div>
   );
