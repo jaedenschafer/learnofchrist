@@ -177,7 +177,7 @@ async function fetchAllArtists() {
   for (let from = 0; ; from += PAGE) {
     let q = sb
       .from('artists')
-      .select('id, slug, name, wikipedia_url, wikidata_id, bio_sources')
+      .select('id, slug, name, wikipedia_url, wikidata_id, bio_sources, portrait_url')
       .order('id', { ascending: true })
       .range(from, from + PAGE - 1);
     if (ONLY_SLUG) q = q.eq('slug', ONLY_SLUG);
@@ -212,7 +212,7 @@ function setPortraitInBioSources(bioSources, url, artistName) {
 
 /** Process a single artist: lookup, write back. Returns counter deltas. */
 async function processOne(r) {
-  const have = existingPortrait(r.bio_sources);
+  const have = r.portrait_url || existingPortrait(r.bio_sources);
   if (have && !REFRESH) return { skipped: 1 };
 
   let found;
@@ -233,10 +233,13 @@ async function processOne(r) {
     return { updated: 1 };
   }
 
-  const next = setPortraitInBioSources(r.bio_sources, found.url, r.name);
+  // Migration 053 added a first-class portrait_url column; write there
+  // directly. (The JSON-side helper is left in place for the few rows
+  // touched before 053 was applied; the migration itself migrates them
+  // into the column.)
   const { error } = await sb
     .from('artists')
-    .update({ bio_sources: next })
+    .update({ portrait_url: found.url })
     .eq('id', r.id);
   if (error) {
     console.error(`✗ ${r.slug}: ${error.message}`);

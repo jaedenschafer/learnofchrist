@@ -138,12 +138,14 @@ export interface ArtistNotableWork {
 }
 
 /** Full artist row returned by the artist hub page query — extends the
- *  base Artist with the SEO content columns added in migration 025. */
+ *  base Artist with the SEO content columns added in migration 025 and
+ *  the portrait column added in migration 053. */
 export interface ArtistFull extends Artist {
   bio_long: string | null;
   bio_sources: ArtistSource[];
   notable_works: ArtistNotableWork[];
   wikidata_id: string | null;
+  portrait_url: string | null;
 }
 
 export interface Artwork {
@@ -924,7 +926,7 @@ export async function getArtTypeahead(q: string, limit = 8): Promise<TypeaheadRe
 export async function getArtistBySlug(slug: string): Promise<ArtistFull | null> {
   const { data, error } = await supabaseServer
     .from('artists')
-    .select('id, slug, name, birth_year, death_year, nationality, bio, wikipedia_url, bio_long, bio_sources, notable_works, wikidata_id')
+    .select('id, slug, name, birth_year, death_year, nationality, bio, wikipedia_url, bio_long, bio_sources, notable_works, wikidata_id, portrait_url')
     .eq('slug', slug)
     .maybeSingle();
   if (error) {
@@ -945,6 +947,7 @@ export async function getArtistBySlug(slug: string): Promise<ArtistFull | null> 
     bio_sources: Array.isArray(data.bio_sources) ? (data.bio_sources as ArtistSource[]) : [],
     notable_works: Array.isArray(data.notable_works) ? (data.notable_works as ArtistNotableWork[]) : [],
     wikidata_id: data.wikidata_id ?? null,
+    portrait_url: data.portrait_url ?? null,
   };
 }
 

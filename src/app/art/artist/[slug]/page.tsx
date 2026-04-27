@@ -107,14 +107,15 @@ export default async function ArtistPage({ params }: PageProps) {
   // 053 is applied) or, until then, as a `{type: 'portrait'}` entry inside
   // the bio_sources jsonb. Filter that entry out of bio_sources so it
   // doesn't double up in Further reading.
-  const portraitFromColumn =
-    (artist as unknown as { portrait_url?: string | null }).portrait_url ??
-    null;
+  // Portrait URL lives in its own column (migration 053). Defensive
+  // fallback to a `{type: 'portrait'}` entry in bio_sources covers the
+  // window between column creation and the page deploy in case any
+  // backfill writer is still pointing at the JSON path.
   const portraitFromJson =
     (artist.bio_sources ?? []).find(
       (s) => (s as { type?: string }).type === 'portrait',
     )?.url ?? null;
-  const portraitUrl = portraitFromColumn || portraitFromJson || null;
+  const portraitUrl = artist.portrait_url || portraitFromJson || null;
   const citationSources = (artist.bio_sources ?? []).filter(
     (s) => (s as { type?: string }).type !== 'portrait',
   );
