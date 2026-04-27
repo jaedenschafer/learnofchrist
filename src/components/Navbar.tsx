@@ -58,7 +58,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-2" aria-label="Learn of Christ — home">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/logo.png"
+              src="/logo.svg"
               alt=""
               width={28}
               height={28}

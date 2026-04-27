@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-3">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/logo.png"
+                src="/logo.svg"
                 alt=""
                 width={32}
                 height={32}
