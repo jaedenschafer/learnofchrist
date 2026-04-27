@@ -307,6 +307,26 @@ import { SAMUEL_2_17 } from './2-samuel-17';
 import { SAMUEL_2_18 } from './2-samuel-18';
 import { SAMUEL_2_19 } from './2-samuel-19';
 import { SAMUEL_2_20 } from './2-samuel-20';
+import { SAMUEL_2_21 } from './2-samuel-21';
+import { SAMUEL_2_22 } from './2-samuel-22';
+import { SAMUEL_2_23 } from './2-samuel-23';
+import { SAMUEL_2_24 } from './2-samuel-24';
+import { KINGS_1_1 } from './1-kings-1';
+import { KINGS_1_2 } from './1-kings-2';
+import { KINGS_1_3 } from './1-kings-3';
+import { KINGS_1_4 } from './1-kings-4';
+import { KINGS_1_5 } from './1-kings-5';
+import { KINGS_1_6 } from './1-kings-6';
+import { KINGS_1_7 } from './1-kings-7';
+import { KINGS_1_8 } from './1-kings-8';
+import { KINGS_1_9 } from './1-kings-9';
+import { KINGS_1_10 } from './1-kings-10';
+import { KINGS_1_11 } from './1-kings-11';
+import { KINGS_1_12 } from './1-kings-12';
+import { KINGS_1_13 } from './1-kings-13';
+import { KINGS_1_14 } from './1-kings-14';
+import { KINGS_1_15 } from './1-kings-15';
+import { KINGS_1_16 } from './1-kings-16';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -597,6 +617,26 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   '2-samuel/18': SAMUEL_2_18,
   '2-samuel/19': SAMUEL_2_19,
   '2-samuel/20': SAMUEL_2_20,
+  '2-samuel/21': SAMUEL_2_21,
+  '2-samuel/22': SAMUEL_2_22,
+  '2-samuel/23': SAMUEL_2_23,
+  '2-samuel/24': SAMUEL_2_24,
+  '1-kings/1': KINGS_1_1,
+  '1-kings/2': KINGS_1_2,
+  '1-kings/3': KINGS_1_3,
+  '1-kings/4': KINGS_1_4,
+  '1-kings/5': KINGS_1_5,
+  '1-kings/6': KINGS_1_6,
+  '1-kings/7': KINGS_1_7,
+  '1-kings/8': KINGS_1_8,
+  '1-kings/9': KINGS_1_9,
+  '1-kings/10': KINGS_1_10,
+  '1-kings/11': KINGS_1_11,
+  '1-kings/12': KINGS_1_12,
+  '1-kings/13': KINGS_1_13,
+  '1-kings/14': KINGS_1_14,
+  '1-kings/15': KINGS_1_15,
+  '1-kings/16': KINGS_1_16,
 };
 
 /**
