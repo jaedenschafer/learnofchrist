@@ -97,8 +97,8 @@
 
 .artist-hero__portrait {
   flex: 0 0 auto;
-  width: 84px;
-  height: 84px;
+  width: 84px !important;
+  height: 84px !important;
   border-radius: 50%;
   object-fit: cover;
   object-position: center 25%;
@@ -110,7 +110,10 @@
 }
 
 @media (min-width: 768px) {
-  .artist-hero__portrait { width: 104px; height: 104px; }
+  .artist-hero__portrait {
+    width: 104px !important;
+    height: 104px !important;
+  }
 }
 
 .artist-hero__name {
@@ -184,11 +187,10 @@
 }
 
 .artist-hero__art img {
-  width: 100%;
-  height: 100%;
+  /* next/image (with `fill`) sets width/height itself; we only style
+     the visual fit + the hover scale. */
   object-fit: cover;
   object-position: center;
-  display: block;
   transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
@@ -476,14 +478,15 @@ html[data-reader-theme="dark"] .artist-hero__art-caption {
   border-radius: 16px;
   overflow: hidden;
   background: var(--color-fill-subtle);
+  /* Aspect ratio lives on the wrapper now so <Image fill> can size
+     itself correctly without wrecking layout before load. */
+  aspect-ratio: 4 / 5;
 }
 
 .artist-notable__img {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 4 / 5;
+  /* next/image fill places the img absolutely; the parent owns the
+     aspect ratio (see .artist-notable__media). */
   object-fit: cover;
-  display: block;
   transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
@@ -544,7 +547,58 @@ html[data-reader-theme="dark"] .artist-hero__art-caption {
   .artist-works-grid { grid-template-columns: repeat(4, 1fr); gap: 1.25rem; }
 }
 
-/* ── FAQ — accordion-styled with quiet dividers ─────────────────── */
+/* ── Their-faith block (sits above the bio) ──────────────────────── */
+.artist-faith {
+  background: var(--color-warm-subtle);
+  border: 1px solid color-mix(in srgb, var(--color-warm) 60%, var(--color-separator));
+  border-radius: 20px;
+  padding: 1.75rem 1.75rem 1.5rem;
+  margin: 0 0 3.25rem;
+}
+
+@media (min-width: 768px) {
+  .artist-faith { padding: 2.25rem 2.25rem 2rem; }
+}
+
+html[data-reader-theme="dark"] .artist-faith {
+  background: color-mix(in srgb, var(--color-warm) 25%, var(--color-surface));
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.artist-faith__kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--color-label) 70%, transparent);
+  margin: 0 0 0.625rem;
+}
+
+.artist-faith__kicker::before {
+  content: "";
+  width: 14px;
+  height: 1px;
+  background: currentColor;
+  display: inline-block;
+}
+
+.artist-faith__title {
+  margin-bottom: 1rem;
+}
+
+.artist-faith__title::after {
+  display: none;
+}
+
+.artist-faith .artist-section__p {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+}
+
+/* ── FAQ — accordion (<details>/<summary>) with smooth open ─────── */
 .artist-faq {
   margin: 0;
   padding: 0;
@@ -555,27 +609,67 @@ html[data-reader-theme="dark"] .artist-hero__art-caption {
 
 .artist-faq__row {
   border-bottom: 1px solid var(--color-separator);
-  padding: 1.25rem 0 1.375rem;
+  padding: 0;
+}
+
+.artist-faq__row[open] .artist-faq__chevron {
+  transform: rotate(45deg);
 }
 
 .artist-faq__q {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.25rem 0;
   font-family: var(--font-serif), Georgia, serif;
   font-weight: 600;
   font-size: 1.0625rem;
   line-height: 1.35;
   letter-spacing: -0.012em;
   color: var(--color-label);
-  margin: 0 0 0.5rem;
   text-wrap: balance;
+  transition: color 0.15s ease;
+}
+
+.artist-faq__q::-webkit-details-marker {
+  display: none;
+}
+
+.artist-faq__q:hover {
+  color: color-mix(in srgb, var(--color-label) 75%, var(--color-primary));
+}
+
+.artist-faq__chevron {
+  flex: 0 0 auto;
+  width: 22px;
+  height: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: var(--color-fill-subtle);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-secondary-label);
+  transition: transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1),
+              background 0.15s ease;
+  margin-top: 0.05rem;
+}
+
+.artist-faq__row:hover .artist-faq__chevron {
+  background: color-mix(in srgb, var(--color-label) 8%, var(--color-fill-subtle));
 }
 
 .artist-faq__a {
-  margin: 0;
   font-family: var(--font-serif), 'New York', Georgia, serif;
   font-size: 0.9375rem;
-  line-height: 1.65;
+  line-height: 1.7;
   color: var(--color-secondary-label);
   text-wrap: pretty;
+  padding: 0 2rem 1.375rem 0;
 }
 
 /* ── Further reading — pill-shaped chips with type kicker ──────── */

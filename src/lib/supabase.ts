@@ -137,15 +137,26 @@ export interface ArtistNotableWork {
   paragraph: string;
 }
 
+/** Curated FAQ entry — replaces the auto-generated prompts that
+ *  previously fed FAQPage JSON-LD. Phrased to mirror Google "People
+ *  Also Ask" patterns for the artist + Christianity/Bible queries. */
+export interface ArtistFaq {
+  question: string;
+  answer: string;
+}
+
 /** Full artist row returned by the artist hub page query — extends the
- *  base Artist with the SEO content columns added in migration 025 and
- *  the portrait column added in migration 053. */
+ *  base Artist with the SEO content columns added in migration 025,
+ *  the portrait column added in migration 053, and the faith_story +
+ *  faqs columns added in migration 054. */
 export interface ArtistFull extends Artist {
   bio_long: string | null;
   bio_sources: ArtistSource[];
   notable_works: ArtistNotableWork[];
   wikidata_id: string | null;
   portrait_url: string | null;
+  faith_story: string | null;
+  faqs: ArtistFaq[];
 }
 
 export interface Artwork {
@@ -926,7 +937,7 @@ export async function getArtTypeahead(q: string, limit = 8): Promise<TypeaheadRe
 export async function getArtistBySlug(slug: string): Promise<ArtistFull | null> {
   const { data, error } = await supabaseServer
     .from('artists')
-    .select('id, slug, name, birth_year, death_year, nationality, bio, wikipedia_url, bio_long, bio_sources, notable_works, wikidata_id, portrait_url')
+    .select('id, slug, name, birth_year, death_year, nationality, bio, wikipedia_url, bio_long, bio_sources, notable_works, wikidata_id, portrait_url, faith_story, faqs')
     .eq('slug', slug)
     .maybeSingle();
   if (error) {
@@ -948,6 +959,8 @@ export async function getArtistBySlug(slug: string): Promise<ArtistFull | null> 
     notable_works: Array.isArray(data.notable_works) ? (data.notable_works as ArtistNotableWork[]) : [],
     wikidata_id: data.wikidata_id ?? null,
     portrait_url: data.portrait_url ?? null,
+    faith_story: data.faith_story ?? null,
+    faqs: Array.isArray(data.faqs) ? (data.faqs as ArtistFaq[]) : [],
   };
 }
 

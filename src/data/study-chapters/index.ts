@@ -598,6 +598,56 @@ import { PSALMS_97 } from './psalms-97';
 import { PSALMS_98 } from './psalms-98';
 import { PSALMS_99 } from './psalms-99';
 import { PSALMS_100 } from './psalms-100';
+import { PSALMS_101 } from './psalms-101';
+import { PSALMS_102 } from './psalms-102';
+import { PSALMS_103 } from './psalms-103';
+import { PSALMS_104 } from './psalms-104';
+import { PSALMS_105 } from './psalms-105';
+import { PSALMS_106 } from './psalms-106';
+import { PSALMS_107 } from './psalms-107';
+import { PSALMS_108 } from './psalms-108';
+import { PSALMS_109 } from './psalms-109';
+import { PSALMS_110 } from './psalms-110';
+import { PSALMS_111 } from './psalms-111';
+import { PSALMS_112 } from './psalms-112';
+import { PSALMS_113 } from './psalms-113';
+import { PSALMS_114 } from './psalms-114';
+import { PSALMS_115 } from './psalms-115';
+import { PSALMS_116 } from './psalms-116';
+import { PSALMS_117 } from './psalms-117';
+import { PSALMS_118 } from './psalms-118';
+import { PSALMS_119 } from './psalms-119';
+import { PSALMS_120 } from './psalms-120';
+import { PSALMS_121 } from './psalms-121';
+import { PSALMS_122 } from './psalms-122';
+import { PSALMS_123 } from './psalms-123';
+import { PSALMS_124 } from './psalms-124';
+import { PSALMS_125 } from './psalms-125';
+import { PSALMS_126 } from './psalms-126';
+import { PSALMS_127 } from './psalms-127';
+import { PSALMS_128 } from './psalms-128';
+import { PSALMS_129 } from './psalms-129';
+import { PSALMS_130 } from './psalms-130';
+import { PSALMS_131 } from './psalms-131';
+import { PSALMS_132 } from './psalms-132';
+import { PSALMS_133 } from './psalms-133';
+import { PSALMS_134 } from './psalms-134';
+import { PSALMS_135 } from './psalms-135';
+import { PSALMS_136 } from './psalms-136';
+import { PSALMS_137 } from './psalms-137';
+import { PSALMS_138 } from './psalms-138';
+import { PSALMS_139 } from './psalms-139';
+import { PSALMS_140 } from './psalms-140';
+import { PSALMS_141 } from './psalms-141';
+import { PSALMS_142 } from './psalms-142';
+import { PSALMS_143 } from './psalms-143';
+import { PSALMS_144 } from './psalms-144';
+import { PSALMS_145 } from './psalms-145';
+import { PSALMS_146 } from './psalms-146';
+import { PSALMS_147 } from './psalms-147';
+import { PSALMS_148 } from './psalms-148';
+import { PSALMS_149 } from './psalms-149';
+import { PSALMS_150 } from './psalms-150';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -1179,6 +1229,56 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'psalms/98': PSALMS_98,
   'psalms/99': PSALMS_99,
   'psalms/100': PSALMS_100,
+  'psalms/101': PSALMS_101,
+  'psalms/102': PSALMS_102,
+  'psalms/103': PSALMS_103,
+  'psalms/104': PSALMS_104,
+  'psalms/105': PSALMS_105,
+  'psalms/106': PSALMS_106,
+  'psalms/107': PSALMS_107,
+  'psalms/108': PSALMS_108,
+  'psalms/109': PSALMS_109,
+  'psalms/110': PSALMS_110,
+  'psalms/111': PSALMS_111,
+  'psalms/112': PSALMS_112,
+  'psalms/113': PSALMS_113,
+  'psalms/114': PSALMS_114,
+  'psalms/115': PSALMS_115,
+  'psalms/116': PSALMS_116,
+  'psalms/117': PSALMS_117,
+  'psalms/118': PSALMS_118,
+  'psalms/119': PSALMS_119,
+  'psalms/120': PSALMS_120,
+  'psalms/121': PSALMS_121,
+  'psalms/122': PSALMS_122,
+  'psalms/123': PSALMS_123,
+  'psalms/124': PSALMS_124,
+  'psalms/125': PSALMS_125,
+  'psalms/126': PSALMS_126,
+  'psalms/127': PSALMS_127,
+  'psalms/128': PSALMS_128,
+  'psalms/129': PSALMS_129,
+  'psalms/130': PSALMS_130,
+  'psalms/131': PSALMS_131,
+  'psalms/132': PSALMS_132,
+  'psalms/133': PSALMS_133,
+  'psalms/134': PSALMS_134,
+  'psalms/135': PSALMS_135,
+  'psalms/136': PSALMS_136,
+  'psalms/137': PSALMS_137,
+  'psalms/138': PSALMS_138,
+  'psalms/139': PSALMS_139,
+  'psalms/140': PSALMS_140,
+  'psalms/141': PSALMS_141,
+  'psalms/142': PSALMS_142,
+  'psalms/143': PSALMS_143,
+  'psalms/144': PSALMS_144,
+  'psalms/145': PSALMS_145,
+  'psalms/146': PSALMS_146,
+  'psalms/147': PSALMS_147,
+  'psalms/148': PSALMS_148,
+  'psalms/149': PSALMS_149,
+  'psalms/150': PSALMS_150,
 };
 
 /**

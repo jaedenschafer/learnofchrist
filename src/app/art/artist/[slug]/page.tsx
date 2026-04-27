@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
@@ -6,6 +7,7 @@ import {
   getAllArtistSlugs,
   getArtworksByArtist,
   type ArtistSource,
+  type ArtistFaq,
 } from '@/lib/supabase';
 import ArtCard from '@/components/ArtCard';
 import BreadcrumbNav from '@/components/BreadcrumbNav';
@@ -42,18 +44,28 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const lifespanPart = lifespan ? `, ${lifespan}` : '';
   const title = `${artist.name}${lifespanPart} — Bible Paintings & Notable Works | Learn of Christ`;
 
-  // Description: prefer the first 155 chars of the long bio when present,
-  // otherwise a structural sentence built from facts.
-  const description = artist.bio_long
-    ? artist.bio_long.replace(/\s+/g, ' ').trim().slice(0, 155)
+  // Description: lead with the faith-focused narrative when present —
+  // that's the clickable angle Wikipedia/Britannica don't give. Fall
+  // back to the bio_long lede, then to a structural sentence built
+  // from facts.
+  const descriptionSource =
+    (artist.faith_story && artist.faith_story.length > 60
+      ? artist.faith_story
+      : artist.bio_long) ?? '';
+  const description = descriptionSource
+    ? descriptionSource.replace(/\s+/g, ' ').trim().slice(0, 155)
     : `Explore biblical artwork by ${artist.name}${lifespan ? ` (${lifespan})` : ''}${
         artist.nationality ? `, ${artist.nationality}` : ''
       }, indexed by chapter and verse.`;
 
-  // The page renders for everyone, but until a real bio lives in bio_long
-  // we ask Google not to index it — a thin page would drag the whole
-  // /art/artist/* cluster down. Once content lands, the field flips off.
-  const bioReady = (artist.bio_long ?? '').trim().length >= 200;
+  // Indexability gate. The page flips out of `noindex` once it has any
+  // of: a substantial bio (>=200 chars), a published faith narrative
+  // (>=120 chars), or at least one curated notable_works essay. Without
+  // any of those we'd publish thin content that drags the cluster down.
+  const bioLen = (artist.bio_long ?? '').trim().length;
+  const faithLen = (artist.faith_story ?? '').trim().length;
+  const bioReady =
+    bioLen >= 200 || faithLen >= 120 || artist.notable_works.length > 0;
 
   return {
     title,
@@ -178,81 +190,48 @@ export default async function ArtistPage({ params }: PageProps) {
   })();
 
   // ─── FAQ ───────────────────────────────────────────────────────────
-  // Auto-generated from facts in the row. Every answer is composed from
-  // birth_year / death_year / nationality / work counts / book list, so
-  // there is no copy-paste risk and the FAQ is always in sync with the
-  // current data. We emit FAQPage JSON-LD when at least three answerable
-  // questions exist.
-  const lifespanForFaq = lifespanLabel(artist.birth_year, artist.death_year);
-  const bookList = [...byBook.values()].map((b) => b.bookName);
-  const bookListPhrase =
-    bookList.length === 0
-      ? null
-      : bookList.length === 1
-      ? bookList[0]
-      : bookList.length === 2
-      ? `${bookList[0]} and ${bookList[1]}`
-      : `${bookList.slice(0, -1).join(', ')}, and ${bookList[bookList.length - 1]}`;
+  // Curated FAQs ship from the `faqs` jsonb column (migration 054),
+  // populated by scripts/backfill-artist-faith.mjs to mirror the
+  // questions Google surfaces in "People Also Ask" panels for the
+  // artist's name + Christianity / Bible queries. The auto-generated
+  // facts-based prompts that lived here previously ("How many works
+  // by X are on this site?") were thin and matched no real PAA
+  // pattern, so they're gone.
+  //
+  // Only fall back to a single auto-generated answer when no curated
+  // FAQs exist yet — and even then, just one question, not four.
+  const curatedFaqs = artist.faqs ?? [];
 
-  const firstBioSentence = (() => {
-    const flat = (artist.bio_long ?? '').replace(/\s+/g, ' ').trim();
-    if (flat.length < 40) return null;
-    // Take up to the first period followed by a space, capped at ~280 chars.
-    const m = flat.match(/^[^.]{30,280}\./);
-    return m ? m[0] : flat.slice(0, 240) + '…';
-  })();
-
-  const faqs: { q: string; a: string }[] = [];
-
-  if (firstBioSentence) {
-    faqs.push({ q: `Who was ${artist.name}?`, a: firstBioSentence });
-  } else if (lifespanForFaq || artist.nationality) {
-    const parts = [
-      lifespanForFaq && `(${lifespanForFaq})`,
-      artist.nationality && artist.nationality.toLowerCase(),
-      'painter and illustrator of biblical scenes.',
-    ]
-      .filter(Boolean)
-      .join(' ');
-    faqs.push({
-      q: `Who was ${artist.name}?`,
-      a: `${artist.name}${parts ? ' ' + parts : ''}`,
-    });
+  const fallbackFaqs: ArtistFaq[] = [];
+  if (curatedFaqs.length === 0) {
+    const flat = (artist.bio_long ?? artist.faith_story ?? '')
+      .replace(/\s+/g, ' ')
+      .trim();
+    const firstSentence = (() => {
+      if (flat.length < 40) return null;
+      const m = flat.match(/^[^.]{30,280}\./);
+      return m ? m[0] : flat.slice(0, 240) + '…';
+    })();
+    if (firstSentence) {
+      fallbackFaqs.push({
+        question: `Who was ${artist.name}?`,
+        answer: firstSentence,
+      });
+    }
   }
 
-  if (artist.birth_year != null || artist.death_year != null) {
-    const b = artist.birth_year != null ? String(artist.birth_year) : 'an unknown date';
-    const d = artist.death_year != null ? String(artist.death_year) : 'an unknown date';
-    faqs.push({
-      q: `When did ${artist.name} live?`,
-      a: `${artist.name} was born in ${b} and died in ${d}.`,
-    });
-  }
-
-  if (works.length > 0) {
-    const verbList = bookListPhrase
-      ? `, with works depicting passages from ${bookListPhrase}.`
-      : '.';
-    faqs.push({
-      q: `What Bible scenes did ${artist.name} paint?`,
-      a: `Our library currently holds ${works.length} approved ${works.length === 1 ? 'work' : 'works'} by ${artist.name}${verbList}`,
-    });
-  }
-
-  faqs.push({
-    q: `How many works by ${artist.name} are at Learn of Christ?`,
-    a: `We currently have ${works.length} ${works.length === 1 ? 'work' : 'works'} by ${artist.name} in our public-domain library, indexed to the chapters and verses they depict.`,
-  });
+  const renderedFaqs: ArtistFaq[] =
+    curatedFaqs.length > 0 ? curatedFaqs : fallbackFaqs;
 
   const faqPageLd =
-    faqs.length >= 3
+    renderedFaqs.length >= 2
       ? {
           '@context': 'https://schema.org',
           '@type': 'FAQPage',
-          mainEntity: faqs.map((f) => ({
+          mainEntity: renderedFaqs.map((f) => ({
             '@type': 'Question',
-            name: f.q,
-            acceptedAnswer: { '@type': 'Answer', text: f.a },
+            name: f.question,
+            acceptedAnswer: { '@type': 'Answer', text: f.answer },
           })),
         }
       : null;
@@ -284,12 +263,14 @@ export default async function ArtistPage({ params }: PageProps) {
               <p className="artist-hero__kicker">Painter of the Bible</p>
               <div className="artist-hero__heading">
                 {portraitUrl && (
-                  /* eslint-disable-next-line @next/next/no-img-element */
-                  <img
+                  <Image
                     src={portraitUrl}
                     alt={`Portrait of ${artist.name}`}
+                    width={208}
+                    height={208}
                     className="artist-hero__portrait"
-                    loading="eager"
+                    priority
+                    sizes="(min-width: 768px) 104px, 84px"
                   />
                 )}
                 <h1 className="artist-hero__name">{artist.name}</h1>
@@ -325,11 +306,13 @@ export default async function ArtistPage({ params }: PageProps) {
                 className="artist-hero__art"
                 aria-label={heroImage.title}
               >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
+                <Image
                   src={heroImage.image_url || heroImage.thumbnail_url || ''}
                   alt={heroImage.title}
-                  loading="eager"
+                  fill
+                  priority
+                  sizes="(min-width: 880px) 480px, 100vw"
+                  style={{ objectFit: 'cover', objectPosition: 'center' }}
                 />
                 <span className="artist-hero__art-caption">
                   {heroImage.title}
@@ -341,6 +324,24 @@ export default async function ArtistPage({ params }: PageProps) {
 
         <div className="artist-body">
           <main className="artist-body__main">
+            {/* ── Their faith (the lens that distinguishes us from
+                Wikipedia: why the artist painted Christ) ── */}
+            {artist.faith_story && artist.faith_story.trim().length >= 60 && (
+              <section className="artist-section artist-faith">
+                <p className="artist-faith__kicker">Their faith</p>
+                <h2 className="artist-section__title artist-faith__title">
+                  Why {artist.name} painted Christ
+                </h2>
+                {artist.faith_story
+                  .split(/\n{2,}/)
+                  .map((p) => p.trim())
+                  .filter(Boolean)
+                  .map((p, i) => (
+                    <p key={i} className="artist-section__p">{p}</p>
+                  ))}
+              </section>
+            )}
+
             {/* ── Life (long bio) ── */}
             {bioParagraphs.length > 0 ? (
               <section className="artist-section">
@@ -349,14 +350,14 @@ export default async function ArtistPage({ params }: PageProps) {
                   <p key={i} className="artist-section__p">{p}</p>
                 ))}
               </section>
-            ) : (
+            ) : !artist.faith_story ? (
               <section className="artist-section artist-section--pending">
                 <p className="artist-section__placeholder">
                   A full biography of {artist.name} is being written. In the
                   meantime, browse every work by this artist below.
                 </p>
               </section>
-            )}
+            ) : null}
 
             {/* ── Notable works ── */}
             {artist.notable_works.length > 0 && (
@@ -372,12 +373,18 @@ export default async function ArtistPage({ params }: PageProps) {
                           className="artist-notable__media"
                           aria-label={linked.title}
                         >
-                          {/* eslint-disable-next-line @next/next/no-img-element */}
-                          <img
-                            src={linked.thumbnail_url || linked.image_url}
+                          <Image
+                            src={
+                              linked.thumbnail_url ||
+                              linked.image_url ||
+                              ''
+                            }
                             alt={linked.title}
+                            fill
+                            sizes="(min-width: 720px) 280px, 100vw"
                             loading="lazy"
                             className="artist-notable__img"
+                            style={{ objectFit: 'cover' }}
                           />
                         </Link>
                       )}
@@ -443,20 +450,31 @@ export default async function ArtistPage({ params }: PageProps) {
               </section>
             )}
 
-            {/* ── Frequently asked questions ── */}
-            {faqs.length >= 2 && (
+            {/* ── Frequently asked questions (curated, accordion) ── */}
+            {renderedFaqs.length >= 1 && (
               <section className="artist-section">
                 <h2 className="artist-section__title">
                   Frequently asked questions
                 </h2>
-                <dl className="artist-faq">
-                  {faqs.map((f, i) => (
-                    <div key={i} className="artist-faq__row">
-                      <dt className="artist-faq__q">{f.q}</dt>
-                      <dd className="artist-faq__a">{f.a}</dd>
-                    </div>
+                <div className="artist-faq">
+                  {renderedFaqs.map((f, i) => (
+                    <details
+                      key={i}
+                      className="artist-faq__row"
+                      // First question expanded by default — better
+                      // for users skimming AND for the rendered LCP.
+                      {...(i === 0 ? { open: true } : {})}
+                    >
+                      <summary className="artist-faq__q">
+                        <span>{f.question}</span>
+                        <span className="artist-faq__chevron" aria-hidden="true">
+                          +
+                        </span>
+                      </summary>
+                      <div className="artist-faq__a">{f.answer}</div>
+                    </details>
                   ))}
-                </dl>
+                </div>
               </section>
             )}
 
