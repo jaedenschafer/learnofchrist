@@ -347,6 +347,26 @@ import { KINGS_2_11 } from './2-kings-11';
 import { KINGS_2_12 } from './2-kings-12';
 import { KINGS_2_13 } from './2-kings-13';
 import { KINGS_2_14 } from './2-kings-14';
+import { KINGS_2_15 } from './2-kings-15';
+import { KINGS_2_16 } from './2-kings-16';
+import { KINGS_2_17 } from './2-kings-17';
+import { KINGS_2_18 } from './2-kings-18';
+import { KINGS_2_19 } from './2-kings-19';
+import { KINGS_2_20 } from './2-kings-20';
+import { KINGS_2_21 } from './2-kings-21';
+import { KINGS_2_22 } from './2-kings-22';
+import { KINGS_2_23 } from './2-kings-23';
+import { KINGS_2_24 } from './2-kings-24';
+import { KINGS_2_25 } from './2-kings-25';
+import { CHRONICLES_1_1 } from './1-chronicles-1';
+import { CHRONICLES_1_2 } from './1-chronicles-2';
+import { CHRONICLES_1_3 } from './1-chronicles-3';
+import { CHRONICLES_1_4 } from './1-chronicles-4';
+import { CHRONICLES_1_5 } from './1-chronicles-5';
+import { CHRONICLES_1_6 } from './1-chronicles-6';
+import { CHRONICLES_1_7 } from './1-chronicles-7';
+import { CHRONICLES_1_8 } from './1-chronicles-8';
+import { CHRONICLES_1_9 } from './1-chronicles-9';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -677,6 +697,26 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   '2-kings/12': KINGS_2_12,
   '2-kings/13': KINGS_2_13,
   '2-kings/14': KINGS_2_14,
+  '2-kings/15': KINGS_2_15,
+  '2-kings/16': KINGS_2_16,
+  '2-kings/17': KINGS_2_17,
+  '2-kings/18': KINGS_2_18,
+  '2-kings/19': KINGS_2_19,
+  '2-kings/20': KINGS_2_20,
+  '2-kings/21': KINGS_2_21,
+  '2-kings/22': KINGS_2_22,
+  '2-kings/23': KINGS_2_23,
+  '2-kings/24': KINGS_2_24,
+  '2-kings/25': KINGS_2_25,
+  '1-chronicles/1': CHRONICLES_1_1,
+  '1-chronicles/2': CHRONICLES_1_2,
+  '1-chronicles/3': CHRONICLES_1_3,
+  '1-chronicles/4': CHRONICLES_1_4,
+  '1-chronicles/5': CHRONICLES_1_5,
+  '1-chronicles/6': CHRONICLES_1_6,
+  '1-chronicles/7': CHRONICLES_1_7,
+  '1-chronicles/8': CHRONICLES_1_8,
+  '1-chronicles/9': CHRONICLES_1_9,
 };
 
 /**
