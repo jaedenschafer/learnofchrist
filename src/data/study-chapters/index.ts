@@ -765,6 +765,36 @@ import { ISAIAH_63 } from './isaiah-63';
 import { ISAIAH_64 } from './isaiah-64';
 import { ISAIAH_65 } from './isaiah-65';
 import { ISAIAH_66 } from './isaiah-66';
+import { JEREMIAH_1 } from './jeremiah-1';
+import { JEREMIAH_2 } from './jeremiah-2';
+import { JEREMIAH_3 } from './jeremiah-3';
+import { JEREMIAH_4 } from './jeremiah-4';
+import { JEREMIAH_5 } from './jeremiah-5';
+import { JEREMIAH_6 } from './jeremiah-6';
+import { JEREMIAH_7 } from './jeremiah-7';
+import { JEREMIAH_8 } from './jeremiah-8';
+import { JEREMIAH_9 } from './jeremiah-9';
+import { JEREMIAH_10 } from './jeremiah-10';
+import { JEREMIAH_11 } from './jeremiah-11';
+import { JEREMIAH_12 } from './jeremiah-12';
+import { JEREMIAH_13 } from './jeremiah-13';
+import { JEREMIAH_14 } from './jeremiah-14';
+import { JEREMIAH_15 } from './jeremiah-15';
+import { JEREMIAH_16 } from './jeremiah-16';
+import { JEREMIAH_17 } from './jeremiah-17';
+import { JEREMIAH_18 } from './jeremiah-18';
+import { JEREMIAH_19 } from './jeremiah-19';
+import { JEREMIAH_20 } from './jeremiah-20';
+import { JEREMIAH_21 } from './jeremiah-21';
+import { JEREMIAH_22 } from './jeremiah-22';
+import { JEREMIAH_23 } from './jeremiah-23';
+import { JEREMIAH_24 } from './jeremiah-24';
+import { JEREMIAH_25 } from './jeremiah-25';
+import { JEREMIAH_26 } from './jeremiah-26';
+import { JEREMIAH_27 } from './jeremiah-27';
+import { JEREMIAH_28 } from './jeremiah-28';
+import { JEREMIAH_29 } from './jeremiah-29';
+import { JEREMIAH_30 } from './jeremiah-30';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -1513,6 +1543,36 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'isaiah/64': ISAIAH_64,
   'isaiah/65': ISAIAH_65,
   'isaiah/66': ISAIAH_66,
+  'jeremiah/1': JEREMIAH_1,
+  'jeremiah/2': JEREMIAH_2,
+  'jeremiah/3': JEREMIAH_3,
+  'jeremiah/4': JEREMIAH_4,
+  'jeremiah/5': JEREMIAH_5,
+  'jeremiah/6': JEREMIAH_6,
+  'jeremiah/7': JEREMIAH_7,
+  'jeremiah/8': JEREMIAH_8,
+  'jeremiah/9': JEREMIAH_9,
+  'jeremiah/10': JEREMIAH_10,
+  'jeremiah/11': JEREMIAH_11,
+  'jeremiah/12': JEREMIAH_12,
+  'jeremiah/13': JEREMIAH_13,
+  'jeremiah/14': JEREMIAH_14,
+  'jeremiah/15': JEREMIAH_15,
+  'jeremiah/16': JEREMIAH_16,
+  'jeremiah/17': JEREMIAH_17,
+  'jeremiah/18': JEREMIAH_18,
+  'jeremiah/19': JEREMIAH_19,
+  'jeremiah/20': JEREMIAH_20,
+  'jeremiah/21': JEREMIAH_21,
+  'jeremiah/22': JEREMIAH_22,
+  'jeremiah/23': JEREMIAH_23,
+  'jeremiah/24': JEREMIAH_24,
+  'jeremiah/25': JEREMIAH_25,
+  'jeremiah/26': JEREMIAH_26,
+  'jeremiah/27': JEREMIAH_27,
+  'jeremiah/28': JEREMIAH_28,
+  'jeremiah/29': JEREMIAH_29,
+  'jeremiah/30': JEREMIAH_30,
 };
 
 /**
