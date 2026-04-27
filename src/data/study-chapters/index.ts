@@ -1166,6 +1166,27 @@ import { HEBREWS_10 } from './hebrews-10';
 import { HEBREWS_11 } from './hebrews-11';
 import { HEBREWS_12 } from './hebrews-12';
 import { HEBREWS_13 } from './hebrews-13';
+import { JAMES_1 } from './james-1';
+import { JAMES_2 } from './james-2';
+import { JAMES_3 } from './james-3';
+import { JAMES_4 } from './james-4';
+import { JAMES_5 } from './james-5';
+import { FIRST_PETER_1 } from './1-peter-1';
+import { FIRST_PETER_2 } from './1-peter-2';
+import { FIRST_PETER_3 } from './1-peter-3';
+import { FIRST_PETER_4 } from './1-peter-4';
+import { FIRST_PETER_5 } from './1-peter-5';
+import { SECOND_PETER_1 } from './2-peter-1';
+import { SECOND_PETER_2 } from './2-peter-2';
+import { SECOND_PETER_3 } from './2-peter-3';
+import { FIRST_JOHN_1 } from './1-john-1';
+import { FIRST_JOHN_2 } from './1-john-2';
+import { FIRST_JOHN_3 } from './1-john-3';
+import { FIRST_JOHN_4 } from './1-john-4';
+import { FIRST_JOHN_5 } from './1-john-5';
+import { SECOND_JOHN_1 } from './2-john-1';
+import { THIRD_JOHN_1 } from './3-john-1';
+import { JUDE_1 } from './jude-1';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -2315,6 +2336,27 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'hebrews/11': HEBREWS_11,
   'hebrews/12': HEBREWS_12,
   'hebrews/13': HEBREWS_13,
+  'james/1': JAMES_1,
+  'james/2': JAMES_2,
+  'james/3': JAMES_3,
+  'james/4': JAMES_4,
+  'james/5': JAMES_5,
+  '1-peter/1': FIRST_PETER_1,
+  '1-peter/2': FIRST_PETER_2,
+  '1-peter/3': FIRST_PETER_3,
+  '1-peter/4': FIRST_PETER_4,
+  '1-peter/5': FIRST_PETER_5,
+  '2-peter/1': SECOND_PETER_1,
+  '2-peter/2': SECOND_PETER_2,
+  '2-peter/3': SECOND_PETER_3,
+  '1-john/1': FIRST_JOHN_1,
+  '1-john/2': FIRST_JOHN_2,
+  '1-john/3': FIRST_JOHN_3,
+  '1-john/4': FIRST_JOHN_4,
+  '1-john/5': FIRST_JOHN_5,
+  '2-john/1': SECOND_JOHN_1,
+  '3-john/1': THIRD_JOHN_1,
+  'jude/1': JUDE_1,
 };
 
 /**
