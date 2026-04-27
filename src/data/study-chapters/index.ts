@@ -247,6 +247,26 @@ import { JUDGES_13 } from './judges-13';
 import { JUDGES_14 } from './judges-14';
 import { JUDGES_15 } from './judges-15';
 import { JUDGES_16 } from './judges-16';
+import { JUDGES_17 } from './judges-17';
+import { JUDGES_18 } from './judges-18';
+import { JUDGES_19 } from './judges-19';
+import { JUDGES_20 } from './judges-20';
+import { JUDGES_21 } from './judges-21';
+import { RUTH_1 } from './ruth-1';
+import { RUTH_2 } from './ruth-2';
+import { RUTH_3 } from './ruth-3';
+import { RUTH_4 } from './ruth-4';
+import { SAMUEL_1_1 } from './1-samuel-1';
+import { SAMUEL_1_2 } from './1-samuel-2';
+import { SAMUEL_1_3 } from './1-samuel-3';
+import { SAMUEL_1_4 } from './1-samuel-4';
+import { SAMUEL_1_5 } from './1-samuel-5';
+import { SAMUEL_1_6 } from './1-samuel-6';
+import { SAMUEL_1_7 } from './1-samuel-7';
+import { SAMUEL_1_8 } from './1-samuel-8';
+import { SAMUEL_1_9 } from './1-samuel-9';
+import { SAMUEL_1_10 } from './1-samuel-10';
+import { SAMUEL_1_11 } from './1-samuel-11';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -477,6 +497,26 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'judges/14': JUDGES_14,
   'judges/15': JUDGES_15,
   'judges/16': JUDGES_16,
+  'judges/17': JUDGES_17,
+  'judges/18': JUDGES_18,
+  'judges/19': JUDGES_19,
+  'judges/20': JUDGES_20,
+  'judges/21': JUDGES_21,
+  'ruth/1': RUTH_1,
+  'ruth/2': RUTH_2,
+  'ruth/3': RUTH_3,
+  'ruth/4': RUTH_4,
+  '1-samuel/1': SAMUEL_1_1,
+  '1-samuel/2': SAMUEL_1_2,
+  '1-samuel/3': SAMUEL_1_3,
+  '1-samuel/4': SAMUEL_1_4,
+  '1-samuel/5': SAMUEL_1_5,
+  '1-samuel/6': SAMUEL_1_6,
+  '1-samuel/7': SAMUEL_1_7,
+  '1-samuel/8': SAMUEL_1_8,
+  '1-samuel/9': SAMUEL_1_9,
+  '1-samuel/10': SAMUEL_1_10,
+  '1-samuel/11': SAMUEL_1_11,
 };
 
 /**
