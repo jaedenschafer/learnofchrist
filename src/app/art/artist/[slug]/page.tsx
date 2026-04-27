@@ -103,10 +103,26 @@ export default async function ArtistPage({ params }: PageProps) {
     byBook.set(key, entry);
   }
 
+  // Portrait URL is stored either as a first-class column (after migration
+  // 053 is applied) or, until then, as a `{type: 'portrait'}` entry inside
+  // the bio_sources jsonb. Filter that entry out of bio_sources so it
+  // doesn't double up in Further reading.
+  const portraitFromColumn =
+    (artist as unknown as { portrait_url?: string | null }).portrait_url ??
+    null;
+  const portraitFromJson =
+    (artist.bio_sources ?? []).find(
+      (s) => (s as { type?: string }).type === 'portrait',
+    )?.url ?? null;
+  const portraitUrl = portraitFromColumn || portraitFromJson || null;
+  const citationSources = (artist.bio_sources ?? []).filter(
+    (s) => (s as { type?: string }).type !== 'portrait',
+  );
+
   const sameAs: string[] = [];
   if (artist.wikipedia_url) sameAs.push(artist.wikipedia_url);
   if (artist.wikidata_id) sameAs.push(`https://www.wikidata.org/wiki/${artist.wikidata_id}`);
-  for (const s of artist.bio_sources ?? []) {
+  for (const s of citationSources) {
     if (s.url && !sameAs.includes(s.url)) sameAs.push(s.url);
   }
 
@@ -126,7 +142,9 @@ export default async function ArtistPage({ params }: PageProps) {
     ...(artist.birth_year != null && { birthDate: String(artist.birth_year) }),
     ...(artist.death_year != null && { deathDate: String(artist.death_year) }),
     ...(artist.nationality && { nationality: artist.nationality }),
-    ...(heroImage && { image: heroImage.image_url || heroImage.thumbnail_url }),
+    ...((portraitUrl || heroImage) && {
+      image: portraitUrl || heroImage?.image_url || heroImage?.thumbnail_url,
+    }),
     ...(sameAs.length > 0 && { sameAs }),
     url: `https://learnofchrist.com/art/artist/${artist.slug}`,
     description:
@@ -263,7 +281,18 @@ export default async function ArtistPage({ params }: PageProps) {
           <div className="artist-hero__inner">
             <div className="artist-hero__text">
               <p className="artist-hero__kicker">Painter of the Bible</p>
-              <h1 className="artist-hero__name">{artist.name}</h1>
+              <div className="artist-hero__heading">
+                {portraitUrl && (
+                  /* eslint-disable-next-line @next/next/no-img-element */
+                  <img
+                    src={portraitUrl}
+                    alt={`Portrait of ${artist.name}`}
+                    className="artist-hero__portrait"
+                    loading="eager"
+                  />
+                )}
+                <h1 className="artist-hero__name">{artist.name}</h1>
+              </div>
 
               <div className="artist-hero__metabar">
                 {lifespan && (
@@ -297,7 +326,7 @@ export default async function ArtistPage({ params }: PageProps) {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src={heroImage.image_url || heroImage.thumbnail_url}
+                  src={heroImage.image_url || heroImage.thumbnail_url || ''}
                   alt={heroImage.title}
                   loading="eager"
                 />
@@ -431,7 +460,7 @@ export default async function ArtistPage({ params }: PageProps) {
             )}
 
             {/* ── Further reading ── */}
-            {(artist.bio_sources.length > 0 || artist.wikipedia_url) && (
+            {(citationSources.length > 0 || artist.wikipedia_url) && (
               <section className="artist-section">
                 <h2 className="artist-section__title">Further reading</h2>
                 <ul className="artist-sources">
@@ -448,7 +477,7 @@ export default async function ArtistPage({ params }: PageProps) {
                       </a>
                     </li>
                   )}
-                  {artist.bio_sources.map((s: ArtistSource, i) => (
+                  {citationSources.map((s: ArtistSource, i) => (
                     <li key={`${s.url}-${i}`}>
                       <a
                         href={s.url}

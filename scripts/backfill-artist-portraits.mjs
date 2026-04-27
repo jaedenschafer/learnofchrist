@@ -62,6 +62,32 @@ function titleFromUrl(url) {
   }
 }
 
+/** Extract a Wikidata Q-ID from any kind of URL (or return null). Many
+ *  rows have `wikipedia_url` set to `https://www.wikidata.org/wiki/Q...`
+ *  where the proper Wikipedia link is absent — treat those as Q-IDs. */
+function qidFromUrl(url) {
+  if (!url) return null;
+  try {
+    const u = new URL(url);
+    if (!u.hostname.endsWith('wikidata.org')) return null;
+    const m = u.pathname.match(/^\/wiki\/(Q[0-9]+)$/);
+    return m ? m[1] : null;
+  } catch {
+    return null;
+  }
+}
+
+/** Pull a Wikipedia page title from a Wikidata entity (English-language
+ *  sitelink). Lets us fall back from a Wikidata-only URL to the proper
+ *  Wikipedia summary endpoint when the entity has an enwiki sitelink. */
+async function titleFromWikidata(qid) {
+  const u = `https://www.wikidata.org/wiki/Special:EntityData/${qid}.json`;
+  const r = await fetch(u, { headers: { 'User-Agent': UA, accept: 'application/json' } });
+  if (!r.ok) return null;
+  const j = await r.json();
+  return j?.entities?.[qid]?.sitelinks?.enwiki?.title ?? null;
+}
+
 /** Build a stable Commons-FilePath URL from a raw image URL or filename. */
 function commonsUrl(input, width = 600) {
   if (!input) return null;
@@ -102,30 +128,46 @@ async function fetchWikidataImage(qid) {
 }
 
 async function findPortrait(artist) {
-  // Wikipedia summary endpoint first.
-  if (artist.wikipedia_url) {
-    const title = titleFromUrl(artist.wikipedia_url);
-    if (title) {
-      try {
-        const sum = await fetchSummary(title);
-        const original = sum?.originalimage?.source;
-        const thumb = sum?.thumbnail?.source;
-        const url = commonsUrl(original || thumb);
-        if (url) return { url, source: 'wikipedia-summary' };
-      } catch (e) {
-        console.error(`  ! summary fail for ${artist.slug}: ${e.message}`);
-      }
+  // The DB has three shapes worth handling:
+  //   (1) wikipedia_url is a real https://en.wikipedia.org/wiki/Title link
+  //   (2) wikipedia_url is a https://www.wikidata.org/wiki/Q link
+  //   (3) wikidata_id is set on its own
+  // Resolve a usable title and a Q-ID up front from whichever we have.
+  let title = artist.wikipedia_url ? titleFromUrl(artist.wikipedia_url) : null;
+  let qid =
+    artist.wikidata_id ||
+    qidFromUrl(artist.wikipedia_url) ||
+    null;
+
+  if (!title && qid) {
+    try {
+      title = await titleFromWikidata(qid);
+    } catch (e) {
+      console.error(`  ! qid→title fail for ${artist.slug}: ${e.message}`);
     }
   }
-  // Wikidata fallback.
-  if (artist.wikidata_id) {
+
+  if (title) {
     try {
-      const url = await fetchWikidataImage(artist.wikidata_id);
+      const sum = await fetchSummary(title);
+      const original = sum?.originalimage?.source;
+      const thumb = sum?.thumbnail?.source;
+      const url = commonsUrl(original || thumb);
+      if (url) return { url, source: 'wikipedia-summary' };
+    } catch (e) {
+      console.error(`  ! summary fail for ${artist.slug}: ${e.message}`);
+    }
+  }
+
+  if (qid) {
+    try {
+      const url = await fetchWikidataImage(qid);
       if (url) return { url, source: 'wikidata-p18' };
     } catch (e) {
       console.error(`  ! wikidata fail for ${artist.slug}: ${e.message}`);
     }
   }
+
   return null;
 }
 
@@ -168,60 +210,79 @@ function setPortraitInBioSources(bioSources, url, artistName) {
   return next;
 }
 
+/** Process a single artist: lookup, write back. Returns counter deltas. */
+async function processOne(r) {
+  const have = existingPortrait(r.bio_sources);
+  if (have && !REFRESH) return { skipped: 1 };
+
+  let found;
+  try {
+    found = await findPortrait(r);
+  } catch (e) {
+    console.error(`✗ ${r.slug}: ${e.message}`);
+    return { failed: 1 };
+  }
+
+  if (!found) {
+    console.log(`- ${r.slug}: no portrait`);
+    return { failed: 1 };
+  }
+
+  if (DRY) {
+    console.log(`[dry] ${r.slug} ← ${found.source}: ${found.url}`);
+    return { updated: 1 };
+  }
+
+  const next = setPortraitInBioSources(r.bio_sources, found.url, r.name);
+  const { error } = await sb
+    .from('artists')
+    .update({ bio_sources: next })
+    .eq('id', r.id);
+  if (error) {
+    console.error(`✗ ${r.slug}: ${error.message}`);
+    return { failed: 1 };
+  }
+  console.log(`✓ ${r.slug} ← ${found.source}`);
+  return { updated: 1 };
+}
+
 async function main() {
   const rows = await fetchAllArtists();
-  const candidates = rows.filter((r) => r.wikipedia_url || r.wikidata_id);
+  // Anything with a wikipedia_url, a wikidata_id, OR a wikipedia_url that
+  // is actually a Wikidata link (about a quarter of the DB).
+  const candidates = rows.filter(
+    (r) =>
+      r.wikipedia_url || r.wikidata_id || qidFromUrl(r.wikipedia_url),
+  );
   console.log(
     `${rows.length} artists; ${candidates.length} have a wikipedia_url or wikidata_id.`,
   );
 
-  let processed = 0;
+  const work = LIMIT < Infinity ? candidates.slice(0, LIMIT) : candidates;
+
+  // Bounded concurrency. Wikipedia + Wikidata can comfortably take 6
+  // parallel requests per IP.
+  const CONCURRENCY = 6;
+  let cursor = 0;
   let updated = 0;
   let skipped = 0;
   let failed = 0;
 
-  for (const r of candidates) {
-    if (processed >= LIMIT) break;
-    processed++;
-
-    const have = existingPortrait(r.bio_sources);
-    if (have && !REFRESH) {
-      skipped++;
-      continue;
+  async function worker() {
+    while (true) {
+      const i = cursor++;
+      if (i >= work.length) return;
+      const delta = await processOne(work[i]);
+      updated += delta.updated || 0;
+      skipped += delta.skipped || 0;
+      failed += delta.failed || 0;
     }
-
-    const found = await findPortrait(r);
-    if (!found) {
-      console.log(`- ${r.slug}: no portrait`);
-      failed++;
-      continue;
-    }
-
-    if (DRY) {
-      console.log(`[dry] ${r.slug} ← ${found.source}: ${found.url}`);
-      updated++;
-      continue;
-    }
-
-    const next = setPortraitInBioSources(r.bio_sources, found.url, r.name);
-    const { error } = await sb
-      .from('artists')
-      .update({ bio_sources: next })
-      .eq('id', r.id);
-    if (error) {
-      console.error(`✗ ${r.slug}: ${error.message}`);
-      failed++;
-      continue;
-    }
-    console.log(`✓ ${r.slug} ← ${found.source}`);
-    updated++;
-
-    // Be polite to Wikipedia.
-    await new Promise((res) => setTimeout(res, 120));
   }
 
+  await Promise.all(Array.from({ length: CONCURRENCY }, worker));
+
   console.log(
-    `\n${DRY ? '[dry-run] ' : ''}processed ${processed}; updated ${updated}; skipped ${skipped} (already had); no-portrait ${failed}.`,
+    `\n${DRY ? '[dry-run] ' : ''}processed ${work.length}; updated ${updated}; skipped ${skipped} (already had); no-portrait ${failed}.`,
   );
 }
 
