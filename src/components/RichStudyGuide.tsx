@@ -155,11 +155,22 @@ function pickArtwork(
   return artworks.find(match) ?? null;
 }
 
+/** Find an artwork either by a server-resolved `artworkSlug`
+ *  (preferred — the page sanitizes RegExp-based matches into slugs
+ *  before reaching this client component) or by the legacy
+ *  matchTitle/matchArtist RegExp pair. The slug path is what the
+ *  /study/[book]/[chapter] route actually feeds in; the RegExp
+ *  fallback exists for any callers that bypass the page sanitizer. */
 function matchArtwork(
   artworks: ArtworkWithArtist[],
   matchTitle?: RegExp,
   matchArtist?: RegExp,
+  artworkSlug?: string,
 ): ArtworkWithArtist | null {
+  if (artworkSlug) {
+    return pickArtwork(artworks, (a) => a.slug === artworkSlug);
+  }
+  if (!matchTitle && !matchArtist) return null;
   return pickArtwork(artworks, (a) => {
     if (matchTitle && !matchTitle.test(a.title)) return false;
     if (matchArtist && !matchArtist.test(a.artist?.name ?? '')) return false;
@@ -182,7 +193,12 @@ export default function RichStudyGuide({
   const isKjv = currentTranslation === 'kjv';
 
   const opener = content.opener
-    ? matchArtwork(artworks, content.opener.matchTitle, content.opener.matchArtist)
+    ? matchArtwork(
+        artworks,
+        content.opener.matchTitle,
+        content.opener.matchArtist,
+        content.opener.artworkSlug,
+      )
     : null;
 
   const [versesByChapter, setVersesByChapter] = useState<Record<number, Verse[]>>({});
@@ -551,7 +567,12 @@ function RenderBlock({
       return <ReflectionBlock studyId={studyId} id={block.id} prompt={block.prompt} />;
 
     case 'artwork': {
-      const a = matchArtwork(artworks, block.matchTitle, block.matchArtist);
+      const a = matchArtwork(
+        artworks,
+        block.matchTitle,
+        block.matchArtist,
+        block.artworkSlug,
+      );
       if (!a) return null;
       return <InlineArtwork artwork={a} caption={block.caption} />;
     }

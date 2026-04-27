@@ -48,7 +48,17 @@ export type Block =
   | { kind: 'christ'; id: string; title: string; html: string }
   | { kind: 'carry';  html: string }
   | { kind: 'reflection'; id: string; prompt: string }
-  | { kind: 'artwork'; matchTitle?: RegExp; matchArtist?: RegExp; caption: string }
+  | {
+      kind: 'artwork';
+      /** Author writes RegExp literals; the server resolves them
+       *  before passing content to the (client) RichStudyGuide and
+       *  swaps in `artworkSlug` so the client never receives a
+       *  non-serializable RegExp. */
+      matchTitle?: RegExp;
+      matchArtist?: RegExp;
+      artworkSlug?: string;
+      caption: string;
+    }
   | { kind: 'divider' };
 
 /* ─── A single section of a chapter ───────────────────────────────────── */
@@ -82,8 +92,16 @@ export interface RichChapterContent {
 
   /** Optional artwork to feature at the very top of the chapter (above the
    *  divider, before any sections). The match runs against the artworks
-   *  the page hands in. */
-  opener?: { matchTitle?: RegExp; matchArtist?: RegExp; caption: string };
+   *  the page hands in. As with `kind: 'artwork'` blocks, the server
+   *  resolves matchTitle/matchArtist into `artworkSlug` before passing
+   *  the content to the (client) RichStudyGuide so RegExp never
+   *  crosses the RSC boundary (Next.js cannot serialize it). */
+  opener?: {
+    matchTitle?: RegExp;
+    matchArtist?: RegExp;
+    artworkSlug?: string;
+    caption: string;
+  };
 
   /** Body sections of the study guide. */
   sections: RichSection[];

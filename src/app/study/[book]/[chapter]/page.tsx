@@ -141,36 +141,65 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
   // for non-admin requests.
   const richSerialized = sessionIsAdmin && richContent ? dehydrateRich(richContent) : null;
 
-  // Rich study guides reference inline artworks by title/artist matchers in
-  // their data files. Pull those out of the carousel so we never show the
-  // same image twice on the page.
+  // Rich study guides reference inline artworks by title/artist matchers
+  // (RegExp) in their data files. Two jobs to do here, both server-side:
+  //
+  //   1. Track which artworks are claimed by inline `kind: 'artwork'`
+  //      blocks (or the chapter `opener`) so we strip them from the
+  //      carousel below.
+  //   2. SANITIZE the rich content before passing it to RichStudyGuide.
+  //      RichStudyGuide is a 'use client' component; Next.js can't
+  //      serialize RegExp across the RSC boundary, so any chapter that
+  //      ships a RegExp in its data crashes the route with a 500.
+  //      We resolve the match here, write back `artworkSlug` and drop
+  //      the RegExp, leaving the client to look up the artwork from
+  //      its `artworks` prop by slug.
   const inlineArtSlugs = new Set<string>();
-  if (richContent) {
-    for (const section of richContent.sections) {
-      for (const block of section.blocks) {
-        if (block.kind !== 'artwork') continue;
-        for (const a of chapterArtworks) {
-          const matchesTitle = !block.matchTitle || block.matchTitle.test(a.title);
-          const matchesArtist = !block.matchArtist || block.matchArtist.test(a.artist?.name ?? '');
-          if (matchesTitle && matchesArtist) {
-            inlineArtSlugs.add(a.id);
-            break;
-          }
-        }
+  function resolveArtwork(
+    matchTitle: RegExp | undefined,
+    matchArtist: RegExp | undefined,
+  ): string | undefined {
+    for (const a of chapterArtworks) {
+      const matchesTitle = !matchTitle || matchTitle.test(a.title);
+      const matchesArtist = !matchArtist || matchArtist.test(a.artist?.name ?? '');
+      if (matchesTitle && matchesArtist) {
+        inlineArtSlugs.add(a.id);
+        return a.slug;
       }
     }
-    if (richContent.opener) {
-      for (const a of chapterArtworks) {
-        const op = richContent.opener;
-        const matchesTitle = !op.matchTitle || op.matchTitle.test(a.title);
-        const matchesArtist = !op.matchArtist || op.matchArtist.test(a.artist?.name ?? '');
-        if (matchesTitle && matchesArtist) {
-          inlineArtSlugs.add(a.id);
-          break;
-        }
-      }
-    }
+    return undefined;
   }
+
+  let safeRichContent = richContent;
+  if (richContent) {
+    const sanitizedSections = richContent.sections.map((section) => ({
+      ...section,
+      blocks: section.blocks.map((block) => {
+        if (block.kind !== 'artwork') return block;
+        const slug =
+          block.artworkSlug ?? resolveArtwork(block.matchTitle, block.matchArtist);
+        // Drop matchTitle / matchArtist from what we ship to the client.
+        return {
+          kind: 'artwork' as const,
+          caption: block.caption,
+          artworkSlug: slug,
+        };
+      }),
+    }));
+    let sanitizedOpener = richContent.opener;
+    if (sanitizedOpener) {
+      const slug =
+        sanitizedOpener.artworkSlug ??
+        resolveArtwork(sanitizedOpener.matchTitle, sanitizedOpener.matchArtist);
+      sanitizedOpener = { caption: sanitizedOpener.caption, artworkSlug: slug };
+    }
+    safeRichContent = {
+      ...richContent,
+      sections: sanitizedSections,
+      opener: sanitizedOpener,
+    };
+  }
+
   const stripArtworks =
     inlineArtSlugs.size > 0
       ? chapterArtworks.filter((a) => !inlineArtSlugs.has(a.id))
@@ -298,7 +327,9 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
                 sessionIsAdmin={sessionIsAdmin}
                 isHandAuthored={handAuthored}
               >
-                <RichStudyGuide content={richContent} artworks={chapterArtworks} />
+                {safeRichContent && (
+                  <RichStudyGuide content={safeRichContent} artworks={chapterArtworks} />
+                )}
               </EditableStudyGuide>
             )
           )}
