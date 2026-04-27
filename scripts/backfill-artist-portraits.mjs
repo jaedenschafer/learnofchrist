@@ -204,20 +204,28 @@ async function searchWikidata(name) {
 }
 
 async function findPortrait(artist) {
-  // Up to four sources, tried in order of reliability:
-  //   1. Wikipedia REST summary (originalimage / thumbnail)
-  //   2. Wikipedia Action API pageimages
-  //   3. Wikidata P18
-  //   4. Wikidata search by name → P18
+  // Source priority. Wikidata P18 specifically tags an image as
+  // "image of the entity" (a portrait, for people), so it ALWAYS
+  // wins over a Wikipedia article's lead image — which for medieval
+  // and early-modern artists is often their most famous painting,
+  // not their face. Duccio is the canonical example: P18 gives an
+  // 18th-century engraving of his face from Vasari's Lives, while
+  // the Wikipedia summary gives the Rucellai Madonna.
   //
-  // The DB has three input shapes:
-  //   - wikipedia_url is a real https://en.wikipedia.org/wiki/Title link
-  //   - wikipedia_url is a https://www.wikidata.org/wiki/Q link
-  //   - wikidata_id is set on its own
-  // Plus rows with NEITHER (we still try search-by-name).
+  // Priority: P18 → wd-search → Wikipedia summary → Wikipedia
+  // pageimages.
   let title = artist.wikipedia_url ? titleFromUrl(artist.wikipedia_url) : null;
   let qid =
     artist.wikidata_id || qidFromUrl(artist.wikipedia_url) || null;
+
+  // Need the Q-ID even when only Wikipedia title is on file — the
+  // summary endpoint exposes wikibase_item we can use for P18.
+  if (!qid && title) {
+    try {
+      const sum = await fetchSummary(title);
+      if (sum?.wikibase_item) qid = sum.wikibase_item;
+    } catch {}
+  }
 
   if (!title && qid) {
     try {
@@ -227,7 +235,19 @@ async function findPortrait(artist) {
     }
   }
 
-  // (1) Wikipedia REST summary — also harvests the Q-ID for later steps.
+  // (1) Wikidata P18 — explicitly tagged as the entity's image.
+  if (qid) {
+    try {
+      const url = await fetchWikidataImage(qid);
+      if (url) return { url, source: 'wikidata-p18', qid };
+    } catch (e) {
+      console.error(`  ! wikidata fail for ${artist.slug}: ${e.message}`);
+    }
+  }
+
+  // (2) Wikipedia REST summary lead image. Imperfect for medieval
+  // artists (often returns a painting) but the best fallback when
+  // P18 is empty.
   if (title) {
     try {
       const sum = await fetchSummary(title);
@@ -235,29 +255,18 @@ async function findPortrait(artist) {
       const thumb = sum?.thumbnail?.source;
       const url = commonsUrl(original || thumb);
       if (url) return { url, source: 'wikipedia-summary', qid: sum?.wikibase_item ?? qid };
-      if (sum?.wikibase_item && !qid) qid = sum.wikibase_item;
     } catch (e) {
       console.error(`  ! summary fail for ${artist.slug}: ${e.message}`);
     }
   }
 
-  // (2) Wikipedia Action API pageimages.
+  // (3) Wikipedia Action API pageimages.
   if (title) {
     try {
       const url = await fetchPageImage(title);
       if (url) return { url, source: 'wikipedia-pageimages', qid };
     } catch (e) {
       console.error(`  ! pageimages fail for ${artist.slug}: ${e.message}`);
-    }
-  }
-
-  // (3) Wikidata P18.
-  if (qid) {
-    try {
-      const url = await fetchWikidataImage(qid);
-      if (url) return { url, source: 'wikidata-p18', qid };
-    } catch (e) {
-      console.error(`  ! wikidata fail for ${artist.slug}: ${e.message}`);
     }
   }
 

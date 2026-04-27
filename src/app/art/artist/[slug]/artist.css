@@ -228,13 +228,6 @@ html[data-reader-theme="dark"] .artist-hero__art-caption {
   position: relative;
 }
 
-@media (min-width: 960px) {
-  .artist-body__rail {
-    position: sticky;
-    top: 1.5rem;
-  }
-}
-
 /* ── Sticky rail card (Airbnb-style booking-card analog) ─────────── */
 .artist-rail {
   background: var(--color-surface);

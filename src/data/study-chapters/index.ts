@@ -882,6 +882,73 @@ import { DANIEL_9 } from './daniel-9';
 import { DANIEL_10 } from './daniel-10';
 import { DANIEL_11 } from './daniel-11';
 import { DANIEL_12 } from './daniel-12';
+import { HOSEA_1 } from './hosea-1';
+import { HOSEA_2 } from './hosea-2';
+import { HOSEA_3 } from './hosea-3';
+import { HOSEA_4 } from './hosea-4';
+import { HOSEA_5 } from './hosea-5';
+import { HOSEA_6 } from './hosea-6';
+import { HOSEA_7 } from './hosea-7';
+import { HOSEA_8 } from './hosea-8';
+import { HOSEA_9 } from './hosea-9';
+import { HOSEA_10 } from './hosea-10';
+import { HOSEA_11 } from './hosea-11';
+import { HOSEA_12 } from './hosea-12';
+import { HOSEA_13 } from './hosea-13';
+import { HOSEA_14 } from './hosea-14';
+import { JOEL_1 } from './joel-1';
+import { JOEL_2 } from './joel-2';
+import { JOEL_3 } from './joel-3';
+import { AMOS_1 } from './amos-1';
+import { AMOS_2 } from './amos-2';
+import { AMOS_3 } from './amos-3';
+import { AMOS_4 } from './amos-4';
+import { AMOS_5 } from './amos-5';
+import { AMOS_6 } from './amos-6';
+import { AMOS_7 } from './amos-7';
+import { AMOS_8 } from './amos-8';
+import { AMOS_9 } from './amos-9';
+import { OBADIAH_1 } from './obadiah-1';
+import { JONAH_1 } from './jonah-1';
+import { JONAH_2 } from './jonah-2';
+import { JONAH_3 } from './jonah-3';
+import { JONAH_4 } from './jonah-4';
+import { MICAH_1 } from './micah-1';
+import { MICAH_2 } from './micah-2';
+import { MICAH_3 } from './micah-3';
+import { MICAH_4 } from './micah-4';
+import { MICAH_5 } from './micah-5';
+import { MICAH_6 } from './micah-6';
+import { MICAH_7 } from './micah-7';
+import { NAHUM_1 } from './nahum-1';
+import { NAHUM_2 } from './nahum-2';
+import { NAHUM_3 } from './nahum-3';
+import { HABAKKUK_1 } from './habakkuk-1';
+import { HABAKKUK_2 } from './habakkuk-2';
+import { HABAKKUK_3 } from './habakkuk-3';
+import { ZEPHANIAH_1 } from './zephaniah-1';
+import { ZEPHANIAH_2 } from './zephaniah-2';
+import { ZEPHANIAH_3 } from './zephaniah-3';
+import { HAGGAI_1 } from './haggai-1';
+import { HAGGAI_2 } from './haggai-2';
+import { ZECHARIAH_1 } from './zechariah-1';
+import { ZECHARIAH_2 } from './zechariah-2';
+import { ZECHARIAH_3 } from './zechariah-3';
+import { ZECHARIAH_4 } from './zechariah-4';
+import { ZECHARIAH_5 } from './zechariah-5';
+import { ZECHARIAH_6 } from './zechariah-6';
+import { ZECHARIAH_7 } from './zechariah-7';
+import { ZECHARIAH_8 } from './zechariah-8';
+import { ZECHARIAH_9 } from './zechariah-9';
+import { ZECHARIAH_10 } from './zechariah-10';
+import { ZECHARIAH_11 } from './zechariah-11';
+import { ZECHARIAH_12 } from './zechariah-12';
+import { ZECHARIAH_13 } from './zechariah-13';
+import { ZECHARIAH_14 } from './zechariah-14';
+import { MALACHI_1 } from './malachi-1';
+import { MALACHI_2 } from './malachi-2';
+import { MALACHI_3 } from './malachi-3';
+import { MALACHI_4 } from './malachi-4';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -1747,6 +1814,73 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'daniel/10': DANIEL_10,
   'daniel/11': DANIEL_11,
   'daniel/12': DANIEL_12,
+  'hosea/1': HOSEA_1,
+  'hosea/2': HOSEA_2,
+  'hosea/3': HOSEA_3,
+  'hosea/4': HOSEA_4,
+  'hosea/5': HOSEA_5,
+  'hosea/6': HOSEA_6,
+  'hosea/7': HOSEA_7,
+  'hosea/8': HOSEA_8,
+  'hosea/9': HOSEA_9,
+  'hosea/10': HOSEA_10,
+  'hosea/11': HOSEA_11,
+  'hosea/12': HOSEA_12,
+  'hosea/13': HOSEA_13,
+  'hosea/14': HOSEA_14,
+  'joel/1': JOEL_1,
+  'joel/2': JOEL_2,
+  'joel/3': JOEL_3,
+  'amos/1': AMOS_1,
+  'amos/2': AMOS_2,
+  'amos/3': AMOS_3,
+  'amos/4': AMOS_4,
+  'amos/5': AMOS_5,
+  'amos/6': AMOS_6,
+  'amos/7': AMOS_7,
+  'amos/8': AMOS_8,
+  'amos/9': AMOS_9,
+  'obadiah/1': OBADIAH_1,
+  'jonah/1': JONAH_1,
+  'jonah/2': JONAH_2,
+  'jonah/3': JONAH_3,
+  'jonah/4': JONAH_4,
+  'micah/1': MICAH_1,
+  'micah/2': MICAH_2,
+  'micah/3': MICAH_3,
+  'micah/4': MICAH_4,
+  'micah/5': MICAH_5,
+  'micah/6': MICAH_6,
+  'micah/7': MICAH_7,
+  'nahum/1': NAHUM_1,
+  'nahum/2': NAHUM_2,
+  'nahum/3': NAHUM_3,
+  'habakkuk/1': HABAKKUK_1,
+  'habakkuk/2': HABAKKUK_2,
+  'habakkuk/3': HABAKKUK_3,
+  'zephaniah/1': ZEPHANIAH_1,
+  'zephaniah/2': ZEPHANIAH_2,
+  'zephaniah/3': ZEPHANIAH_3,
+  'haggai/1': HAGGAI_1,
+  'haggai/2': HAGGAI_2,
+  'zechariah/1': ZECHARIAH_1,
+  'zechariah/2': ZECHARIAH_2,
+  'zechariah/3': ZECHARIAH_3,
+  'zechariah/4': ZECHARIAH_4,
+  'zechariah/5': ZECHARIAH_5,
+  'zechariah/6': ZECHARIAH_6,
+  'zechariah/7': ZECHARIAH_7,
+  'zechariah/8': ZECHARIAH_8,
+  'zechariah/9': ZECHARIAH_9,
+  'zechariah/10': ZECHARIAH_10,
+  'zechariah/11': ZECHARIAH_11,
+  'zechariah/12': ZECHARIAH_12,
+  'zechariah/13': ZECHARIAH_13,
+  'zechariah/14': ZECHARIAH_14,
+  'malachi/1': MALACHI_1,
+  'malachi/2': MALACHI_2,
+  'malachi/3': MALACHI_3,
+  'malachi/4': MALACHI_4,
 };
 
 /**
