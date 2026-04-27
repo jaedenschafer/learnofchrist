@@ -1187,6 +1187,28 @@ import { FIRST_JOHN_5 } from './1-john-5';
 import { SECOND_JOHN_1 } from './2-john-1';
 import { THIRD_JOHN_1 } from './3-john-1';
 import { JUDE_1 } from './jude-1';
+import { REVELATION_1 } from './revelation-1';
+import { REVELATION_2 } from './revelation-2';
+import { REVELATION_3 } from './revelation-3';
+import { REVELATION_4 } from './revelation-4';
+import { REVELATION_5 } from './revelation-5';
+import { REVELATION_6 } from './revelation-6';
+import { REVELATION_7 } from './revelation-7';
+import { REVELATION_8 } from './revelation-8';
+import { REVELATION_9 } from './revelation-9';
+import { REVELATION_10 } from './revelation-10';
+import { REVELATION_11 } from './revelation-11';
+import { REVELATION_12 } from './revelation-12';
+import { REVELATION_13 } from './revelation-13';
+import { REVELATION_14 } from './revelation-14';
+import { REVELATION_15 } from './revelation-15';
+import { REVELATION_16 } from './revelation-16';
+import { REVELATION_17 } from './revelation-17';
+import { REVELATION_18 } from './revelation-18';
+import { REVELATION_19 } from './revelation-19';
+import { REVELATION_20 } from './revelation-20';
+import { REVELATION_21 } from './revelation-21';
+import { REVELATION_22 } from './revelation-22';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -2357,6 +2379,28 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   '2-john/1': SECOND_JOHN_1,
   '3-john/1': THIRD_JOHN_1,
   'jude/1': JUDE_1,
+  'revelation/1': REVELATION_1,
+  'revelation/2': REVELATION_2,
+  'revelation/3': REVELATION_3,
+  'revelation/4': REVELATION_4,
+  'revelation/5': REVELATION_5,
+  'revelation/6': REVELATION_6,
+  'revelation/7': REVELATION_7,
+  'revelation/8': REVELATION_8,
+  'revelation/9': REVELATION_9,
+  'revelation/10': REVELATION_10,
+  'revelation/11': REVELATION_11,
+  'revelation/12': REVELATION_12,
+  'revelation/13': REVELATION_13,
+  'revelation/14': REVELATION_14,
+  'revelation/15': REVELATION_15,
+  'revelation/16': REVELATION_16,
+  'revelation/17': REVELATION_17,
+  'revelation/18': REVELATION_18,
+  'revelation/19': REVELATION_19,
+  'revelation/20': REVELATION_20,
+  'revelation/21': REVELATION_21,
+  'revelation/22': REVELATION_22,
 };
 
 /**
