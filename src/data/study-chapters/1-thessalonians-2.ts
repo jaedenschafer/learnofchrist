@@ -27,30 +27,30 @@ export const FIRST_THESSALONIANS_2: RichChapterContent = {
           kind: 'scripture',
           chapter: 2,
           lines: [
-            {{
+            {
               number: 3,
               spans: [
                 t('For our exhortation was not of deceit, nor of uncleanness, nor in '),
                 hp('guile', '1t2-guile'),
                 t(':'),
               ],
-            }},
-            {{
+            },
+            {
               number: 7,
               spans: [
                 t('But we were '),
                 hg('gentle among you, even as a nurse cherisheth her children', '1t2-gentle'),
                 t(':'),
               ],
-            }},
-            {{
+            },
+            {
               number: 8,
               spans: [
                 t('So being affectionately desirous of you, we were willing to have imparted unto you, not the gospel of God only, but also our own '),
                 hy('souls', '1t2-souls'),
                 t(', because ye were dear unto us.'),
               ],
-            }},
+            },
             plain(11, 'As ye know how we exhorted and comforted and charged every one of you, as a father doth his children,'),
           ],
         },

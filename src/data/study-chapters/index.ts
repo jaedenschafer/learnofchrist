@@ -1082,6 +1082,90 @@ import { ROMANS_13 } from './romans-13';
 import { ROMANS_14 } from './romans-14';
 import { ROMANS_15 } from './romans-15';
 import { ROMANS_16 } from './romans-16';
+import { FIRST_CORINTHIANS_1 } from './1-corinthians-1';
+import { FIRST_CORINTHIANS_2 } from './1-corinthians-2';
+import { FIRST_CORINTHIANS_3 } from './1-corinthians-3';
+import { FIRST_CORINTHIANS_4 } from './1-corinthians-4';
+import { FIRST_CORINTHIANS_5 } from './1-corinthians-5';
+import { FIRST_CORINTHIANS_6 } from './1-corinthians-6';
+import { FIRST_CORINTHIANS_7 } from './1-corinthians-7';
+import { FIRST_CORINTHIANS_8 } from './1-corinthians-8';
+import { FIRST_CORINTHIANS_9 } from './1-corinthians-9';
+import { FIRST_CORINTHIANS_10 } from './1-corinthians-10';
+import { FIRST_CORINTHIANS_11 } from './1-corinthians-11';
+import { FIRST_CORINTHIANS_12 } from './1-corinthians-12';
+import { FIRST_CORINTHIANS_13 } from './1-corinthians-13';
+import { FIRST_CORINTHIANS_14 } from './1-corinthians-14';
+import { FIRST_CORINTHIANS_15 } from './1-corinthians-15';
+import { FIRST_CORINTHIANS_16 } from './1-corinthians-16';
+import { SECOND_CORINTHIANS_1 } from './2-corinthians-1';
+import { SECOND_CORINTHIANS_2 } from './2-corinthians-2';
+import { SECOND_CORINTHIANS_3 } from './2-corinthians-3';
+import { SECOND_CORINTHIANS_4 } from './2-corinthians-4';
+import { SECOND_CORINTHIANS_5 } from './2-corinthians-5';
+import { SECOND_CORINTHIANS_6 } from './2-corinthians-6';
+import { SECOND_CORINTHIANS_7 } from './2-corinthians-7';
+import { SECOND_CORINTHIANS_8 } from './2-corinthians-8';
+import { SECOND_CORINTHIANS_9 } from './2-corinthians-9';
+import { SECOND_CORINTHIANS_10 } from './2-corinthians-10';
+import { SECOND_CORINTHIANS_11 } from './2-corinthians-11';
+import { SECOND_CORINTHIANS_12 } from './2-corinthians-12';
+import { SECOND_CORINTHIANS_13 } from './2-corinthians-13';
+import { GALATIANS_1 } from './galatians-1';
+import { GALATIANS_2 } from './galatians-2';
+import { GALATIANS_3 } from './galatians-3';
+import { GALATIANS_4 } from './galatians-4';
+import { GALATIANS_5 } from './galatians-5';
+import { GALATIANS_6 } from './galatians-6';
+import { EPHESIANS_1 } from './ephesians-1';
+import { EPHESIANS_2 } from './ephesians-2';
+import { EPHESIANS_3 } from './ephesians-3';
+import { EPHESIANS_4 } from './ephesians-4';
+import { EPHESIANS_5 } from './ephesians-5';
+import { EPHESIANS_6 } from './ephesians-6';
+import { PHILIPPIANS_1 } from './philippians-1';
+import { PHILIPPIANS_2 } from './philippians-2';
+import { PHILIPPIANS_3 } from './philippians-3';
+import { PHILIPPIANS_4 } from './philippians-4';
+import { COLOSSIANS_1 } from './colossians-1';
+import { COLOSSIANS_2 } from './colossians-2';
+import { COLOSSIANS_3 } from './colossians-3';
+import { COLOSSIANS_4 } from './colossians-4';
+import { FIRST_THESSALONIANS_1 } from './1-thessalonians-1';
+import { FIRST_THESSALONIANS_2 } from './1-thessalonians-2';
+import { FIRST_THESSALONIANS_3 } from './1-thessalonians-3';
+import { FIRST_THESSALONIANS_4 } from './1-thessalonians-4';
+import { FIRST_THESSALONIANS_5 } from './1-thessalonians-5';
+import { SECOND_THESSALONIANS_1 } from './2-thessalonians-1';
+import { SECOND_THESSALONIANS_2 } from './2-thessalonians-2';
+import { SECOND_THESSALONIANS_3 } from './2-thessalonians-3';
+import { FIRST_TIMOTHY_1 } from './1-timothy-1';
+import { FIRST_TIMOTHY_2 } from './1-timothy-2';
+import { FIRST_TIMOTHY_3 } from './1-timothy-3';
+import { FIRST_TIMOTHY_4 } from './1-timothy-4';
+import { FIRST_TIMOTHY_5 } from './1-timothy-5';
+import { FIRST_TIMOTHY_6 } from './1-timothy-6';
+import { SECOND_TIMOTHY_1 } from './2-timothy-1';
+import { SECOND_TIMOTHY_2 } from './2-timothy-2';
+import { SECOND_TIMOTHY_3 } from './2-timothy-3';
+import { SECOND_TIMOTHY_4 } from './2-timothy-4';
+import { TITUS_1 } from './titus-1';
+import { TITUS_2 } from './titus-2';
+import { TITUS_3 } from './titus-3';
+import { PHILEMON_1 } from './philemon-1';
+import { HEBREWS_1 } from './hebrews-1';
+import { HEBREWS_2 } from './hebrews-2';
+import { HEBREWS_3 } from './hebrews-3';
+import { HEBREWS_4 } from './hebrews-4';
+import { HEBREWS_5 } from './hebrews-5';
+import { HEBREWS_6 } from './hebrews-6';
+import { HEBREWS_7 } from './hebrews-7';
+import { HEBREWS_8 } from './hebrews-8';
+import { HEBREWS_9 } from './hebrews-9';
+import { HEBREWS_10 } from './hebrews-10';
+import { HEBREWS_11 } from './hebrews-11';
+import { HEBREWS_12 } from './hebrews-12';
+import { HEBREWS_13 } from './hebrews-13';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -2147,6 +2231,90 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'romans/14': ROMANS_14,
   'romans/15': ROMANS_15,
   'romans/16': ROMANS_16,
+  '1-corinthians/1': FIRST_CORINTHIANS_1,
+  '1-corinthians/2': FIRST_CORINTHIANS_2,
+  '1-corinthians/3': FIRST_CORINTHIANS_3,
+  '1-corinthians/4': FIRST_CORINTHIANS_4,
+  '1-corinthians/5': FIRST_CORINTHIANS_5,
+  '1-corinthians/6': FIRST_CORINTHIANS_6,
+  '1-corinthians/7': FIRST_CORINTHIANS_7,
+  '1-corinthians/8': FIRST_CORINTHIANS_8,
+  '1-corinthians/9': FIRST_CORINTHIANS_9,
+  '1-corinthians/10': FIRST_CORINTHIANS_10,
+  '1-corinthians/11': FIRST_CORINTHIANS_11,
+  '1-corinthians/12': FIRST_CORINTHIANS_12,
+  '1-corinthians/13': FIRST_CORINTHIANS_13,
+  '1-corinthians/14': FIRST_CORINTHIANS_14,
+  '1-corinthians/15': FIRST_CORINTHIANS_15,
+  '1-corinthians/16': FIRST_CORINTHIANS_16,
+  '2-corinthians/1': SECOND_CORINTHIANS_1,
+  '2-corinthians/2': SECOND_CORINTHIANS_2,
+  '2-corinthians/3': SECOND_CORINTHIANS_3,
+  '2-corinthians/4': SECOND_CORINTHIANS_4,
+  '2-corinthians/5': SECOND_CORINTHIANS_5,
+  '2-corinthians/6': SECOND_CORINTHIANS_6,
+  '2-corinthians/7': SECOND_CORINTHIANS_7,
+  '2-corinthians/8': SECOND_CORINTHIANS_8,
+  '2-corinthians/9': SECOND_CORINTHIANS_9,
+  '2-corinthians/10': SECOND_CORINTHIANS_10,
+  '2-corinthians/11': SECOND_CORINTHIANS_11,
+  '2-corinthians/12': SECOND_CORINTHIANS_12,
+  '2-corinthians/13': SECOND_CORINTHIANS_13,
+  'galatians/1': GALATIANS_1,
+  'galatians/2': GALATIANS_2,
+  'galatians/3': GALATIANS_3,
+  'galatians/4': GALATIANS_4,
+  'galatians/5': GALATIANS_5,
+  'galatians/6': GALATIANS_6,
+  'ephesians/1': EPHESIANS_1,
+  'ephesians/2': EPHESIANS_2,
+  'ephesians/3': EPHESIANS_3,
+  'ephesians/4': EPHESIANS_4,
+  'ephesians/5': EPHESIANS_5,
+  'ephesians/6': EPHESIANS_6,
+  'philippians/1': PHILIPPIANS_1,
+  'philippians/2': PHILIPPIANS_2,
+  'philippians/3': PHILIPPIANS_3,
+  'philippians/4': PHILIPPIANS_4,
+  'colossians/1': COLOSSIANS_1,
+  'colossians/2': COLOSSIANS_2,
+  'colossians/3': COLOSSIANS_3,
+  'colossians/4': COLOSSIANS_4,
+  '1-thessalonians/1': FIRST_THESSALONIANS_1,
+  '1-thessalonians/2': FIRST_THESSALONIANS_2,
+  '1-thessalonians/3': FIRST_THESSALONIANS_3,
+  '1-thessalonians/4': FIRST_THESSALONIANS_4,
+  '1-thessalonians/5': FIRST_THESSALONIANS_5,
+  '2-thessalonians/1': SECOND_THESSALONIANS_1,
+  '2-thessalonians/2': SECOND_THESSALONIANS_2,
+  '2-thessalonians/3': SECOND_THESSALONIANS_3,
+  '1-timothy/1': FIRST_TIMOTHY_1,
+  '1-timothy/2': FIRST_TIMOTHY_2,
+  '1-timothy/3': FIRST_TIMOTHY_3,
+  '1-timothy/4': FIRST_TIMOTHY_4,
+  '1-timothy/5': FIRST_TIMOTHY_5,
+  '1-timothy/6': FIRST_TIMOTHY_6,
+  '2-timothy/1': SECOND_TIMOTHY_1,
+  '2-timothy/2': SECOND_TIMOTHY_2,
+  '2-timothy/3': SECOND_TIMOTHY_3,
+  '2-timothy/4': SECOND_TIMOTHY_4,
+  'titus/1': TITUS_1,
+  'titus/2': TITUS_2,
+  'titus/3': TITUS_3,
+  'philemon/1': PHILEMON_1,
+  'hebrews/1': HEBREWS_1,
+  'hebrews/2': HEBREWS_2,
+  'hebrews/3': HEBREWS_3,
+  'hebrews/4': HEBREWS_4,
+  'hebrews/5': HEBREWS_5,
+  'hebrews/6': HEBREWS_6,
+  'hebrews/7': HEBREWS_7,
+  'hebrews/8': HEBREWS_8,
+  'hebrews/9': HEBREWS_9,
+  'hebrews/10': HEBREWS_10,
+  'hebrews/11': HEBREWS_11,
+  'hebrews/12': HEBREWS_12,
+  'hebrews/13': HEBREWS_13,
 };
 
 /**

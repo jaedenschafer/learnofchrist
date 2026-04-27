@@ -37,36 +37,36 @@ export const FIRST_THESSALONIANS_1: RichChapterContent = {
           kind: 'scripture',
           chapter: 1,
           lines: [
-            {{
+            {
               number: 3,
               spans: [
                 t('Remembering without ceasing your '),
                 hp('work of faith, and labour of love, and patience of hope', '1t1-virtues'),
                 t(' in our Lord Jesus Christ, in the sight of God and our Father;'),
               ],
-            }},
-            {{
+            },
+            {
               number: 4,
               spans: [
                 t('Knowing, brethren beloved, your '),
                 hg('election of God', '1t1-election'),
                 t(';'),
               ],
-            }},
-            {{
+            },
+            {
               number: 9,
               spans: [
                 t('For they themselves shew of us what manner of entering in we had unto you, and how ye '),
                 hp('turned to God from idols to serve the living and true God', '1t1-turned'),
                 t(';'),
               ],
-            }},
-            {{
+            },
+            {
               number: 10,
               spans: [
                 t('And to wait for his Son from heaven, whom he raised from the dead, even Jesus, which delivered us from the wrath to come.'),
               ],
-            }},
+            },
           ],
         },
         {

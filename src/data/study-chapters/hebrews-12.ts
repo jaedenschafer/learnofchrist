@@ -104,7 +104,7 @@ export const HEBREWS_12: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'heb12-christ-king-unshakeable",
+          id: 'heb12-christ-king-unshakeable',
           title: 'Christ Connection — The Unshakeable Kingdom',
           html:
             'Christ rules an unshakeable kingdom. As the world shakes—governments fall, economies fail, certainties dissolve—His kingdom stands. You are part of it. You cannot be shaken.',

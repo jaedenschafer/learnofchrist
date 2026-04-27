@@ -129,7 +129,7 @@ export const HEBREWS_5: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'heb5-mature-faith",
+          id: 'heb5-mature-faith',
           prompt: 'Where are you still a babe in your faith? What would help you mature? What deeper truths are you avoiding?',
         },
       ],
