@@ -190,10 +190,12 @@ async function fetchAllCandidates() {
 }
 
 async function processOne(a) {
-  const hasFaith =
-    typeof a.faith_story === 'string' && a.faith_story.trim().length > 60;
+  // Skip if we've already called the API once for this artist. The API
+  // call always produces FAQs even when faith_story is null (the model
+  // returns null when the bio has no faith content), so faqs.length >= 3
+  // is the correct "this row was processed" marker.
   const hasFaqs = Array.isArray(a.faqs) && a.faqs.length >= 3;
-  if (hasFaith && hasFaqs && !REFRESH) return { skipped: 1 };
+  if (hasFaqs && !REFRESH) return { skipped: 1 };
 
   let payload;
   try {

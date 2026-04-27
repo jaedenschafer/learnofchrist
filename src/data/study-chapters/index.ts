@@ -648,6 +648,57 @@ import { PSALMS_147 } from './psalms-147';
 import { PSALMS_148 } from './psalms-148';
 import { PSALMS_149 } from './psalms-149';
 import { PSALMS_150 } from './psalms-150';
+import { PROVERBS_1 } from './proverbs-1';
+import { PROVERBS_2 } from './proverbs-2';
+import { PROVERBS_3 } from './proverbs-3';
+import { PROVERBS_4 } from './proverbs-4';
+import { PROVERBS_5 } from './proverbs-5';
+import { PROVERBS_6 } from './proverbs-6';
+import { PROVERBS_7 } from './proverbs-7';
+import { PROVERBS_8 } from './proverbs-8';
+import { PROVERBS_9 } from './proverbs-9';
+import { PROVERBS_10 } from './proverbs-10';
+import { PROVERBS_11 } from './proverbs-11';
+import { PROVERBS_12 } from './proverbs-12';
+import { PROVERBS_13 } from './proverbs-13';
+import { PROVERBS_14 } from './proverbs-14';
+import { PROVERBS_15 } from './proverbs-15';
+import { PROVERBS_16 } from './proverbs-16';
+import { PROVERBS_17 } from './proverbs-17';
+import { PROVERBS_18 } from './proverbs-18';
+import { PROVERBS_19 } from './proverbs-19';
+import { PROVERBS_20 } from './proverbs-20';
+import { PROVERBS_21 } from './proverbs-21';
+import { PROVERBS_22 } from './proverbs-22';
+import { PROVERBS_23 } from './proverbs-23';
+import { PROVERBS_24 } from './proverbs-24';
+import { PROVERBS_25 } from './proverbs-25';
+import { PROVERBS_26 } from './proverbs-26';
+import { PROVERBS_27 } from './proverbs-27';
+import { PROVERBS_28 } from './proverbs-28';
+import { PROVERBS_29 } from './proverbs-29';
+import { PROVERBS_30 } from './proverbs-30';
+import { PROVERBS_31 } from './proverbs-31';
+import { ECCLESIASTES_1 } from './ecclesiastes-1';
+import { ECCLESIASTES_2 } from './ecclesiastes-2';
+import { ECCLESIASTES_3 } from './ecclesiastes-3';
+import { ECCLESIASTES_4 } from './ecclesiastes-4';
+import { ECCLESIASTES_5 } from './ecclesiastes-5';
+import { ECCLESIASTES_6 } from './ecclesiastes-6';
+import { ECCLESIASTES_7 } from './ecclesiastes-7';
+import { ECCLESIASTES_8 } from './ecclesiastes-8';
+import { ECCLESIASTES_9 } from './ecclesiastes-9';
+import { ECCLESIASTES_10 } from './ecclesiastes-10';
+import { ECCLESIASTES_11 } from './ecclesiastes-11';
+import { ECCLESIASTES_12 } from './ecclesiastes-12';
+import { SONG_1 } from './song-of-solomon-1';
+import { SONG_2 } from './song-of-solomon-2';
+import { SONG_3 } from './song-of-solomon-3';
+import { SONG_4 } from './song-of-solomon-4';
+import { SONG_5 } from './song-of-solomon-5';
+import { SONG_6 } from './song-of-solomon-6';
+import { SONG_7 } from './song-of-solomon-7';
+import { SONG_8 } from './song-of-solomon-8';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -1279,6 +1330,57 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'psalms/148': PSALMS_148,
   'psalms/149': PSALMS_149,
   'psalms/150': PSALMS_150,
+  'proverbs/1': PROVERBS_1,
+  'proverbs/2': PROVERBS_2,
+  'proverbs/3': PROVERBS_3,
+  'proverbs/4': PROVERBS_4,
+  'proverbs/5': PROVERBS_5,
+  'proverbs/6': PROVERBS_6,
+  'proverbs/7': PROVERBS_7,
+  'proverbs/8': PROVERBS_8,
+  'proverbs/9': PROVERBS_9,
+  'proverbs/10': PROVERBS_10,
+  'proverbs/11': PROVERBS_11,
+  'proverbs/12': PROVERBS_12,
+  'proverbs/13': PROVERBS_13,
+  'proverbs/14': PROVERBS_14,
+  'proverbs/15': PROVERBS_15,
+  'proverbs/16': PROVERBS_16,
+  'proverbs/17': PROVERBS_17,
+  'proverbs/18': PROVERBS_18,
+  'proverbs/19': PROVERBS_19,
+  'proverbs/20': PROVERBS_20,
+  'proverbs/21': PROVERBS_21,
+  'proverbs/22': PROVERBS_22,
+  'proverbs/23': PROVERBS_23,
+  'proverbs/24': PROVERBS_24,
+  'proverbs/25': PROVERBS_25,
+  'proverbs/26': PROVERBS_26,
+  'proverbs/27': PROVERBS_27,
+  'proverbs/28': PROVERBS_28,
+  'proverbs/29': PROVERBS_29,
+  'proverbs/30': PROVERBS_30,
+  'proverbs/31': PROVERBS_31,
+  'ecclesiastes/1': ECCLESIASTES_1,
+  'ecclesiastes/2': ECCLESIASTES_2,
+  'ecclesiastes/3': ECCLESIASTES_3,
+  'ecclesiastes/4': ECCLESIASTES_4,
+  'ecclesiastes/5': ECCLESIASTES_5,
+  'ecclesiastes/6': ECCLESIASTES_6,
+  'ecclesiastes/7': ECCLESIASTES_7,
+  'ecclesiastes/8': ECCLESIASTES_8,
+  'ecclesiastes/9': ECCLESIASTES_9,
+  'ecclesiastes/10': ECCLESIASTES_10,
+  'ecclesiastes/11': ECCLESIASTES_11,
+  'ecclesiastes/12': ECCLESIASTES_12,
+  'song-of-solomon/1': SONG_1,
+  'song-of-solomon/2': SONG_2,
+  'song-of-solomon/3': SONG_3,
+  'song-of-solomon/4': SONG_4,
+  'song-of-solomon/5': SONG_5,
+  'song-of-solomon/6': SONG_6,
+  'song-of-solomon/7': SONG_7,
+  'song-of-solomon/8': SONG_8,
 };
 
 /**
