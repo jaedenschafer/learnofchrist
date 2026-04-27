@@ -699,6 +699,36 @@ import { SONG_5 } from './song-of-solomon-5';
 import { SONG_6 } from './song-of-solomon-6';
 import { SONG_7 } from './song-of-solomon-7';
 import { SONG_8 } from './song-of-solomon-8';
+import { ISAIAH_1 } from './isaiah-1';
+import { ISAIAH_2 } from './isaiah-2';
+import { ISAIAH_3 } from './isaiah-3';
+import { ISAIAH_4 } from './isaiah-4';
+import { ISAIAH_5 } from './isaiah-5';
+import { ISAIAH_6 } from './isaiah-6';
+import { ISAIAH_7 } from './isaiah-7';
+import { ISAIAH_8 } from './isaiah-8';
+import { ISAIAH_9 } from './isaiah-9';
+import { ISAIAH_10 } from './isaiah-10';
+import { ISAIAH_11 } from './isaiah-11';
+import { ISAIAH_12 } from './isaiah-12';
+import { ISAIAH_13 } from './isaiah-13';
+import { ISAIAH_14 } from './isaiah-14';
+import { ISAIAH_15 } from './isaiah-15';
+import { ISAIAH_16 } from './isaiah-16';
+import { ISAIAH_17 } from './isaiah-17';
+import { ISAIAH_18 } from './isaiah-18';
+import { ISAIAH_19 } from './isaiah-19';
+import { ISAIAH_20 } from './isaiah-20';
+import { ISAIAH_21 } from './isaiah-21';
+import { ISAIAH_22 } from './isaiah-22';
+import { ISAIAH_23 } from './isaiah-23';
+import { ISAIAH_24 } from './isaiah-24';
+import { ISAIAH_25 } from './isaiah-25';
+import { ISAIAH_26 } from './isaiah-26';
+import { ISAIAH_27 } from './isaiah-27';
+import { ISAIAH_28 } from './isaiah-28';
+import { ISAIAH_29 } from './isaiah-29';
+import { ISAIAH_30 } from './isaiah-30';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -1381,6 +1411,36 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'song-of-solomon/6': SONG_6,
   'song-of-solomon/7': SONG_7,
   'song-of-solomon/8': SONG_8,
+  'isaiah/1': ISAIAH_1,
+  'isaiah/2': ISAIAH_2,
+  'isaiah/3': ISAIAH_3,
+  'isaiah/4': ISAIAH_4,
+  'isaiah/5': ISAIAH_5,
+  'isaiah/6': ISAIAH_6,
+  'isaiah/7': ISAIAH_7,
+  'isaiah/8': ISAIAH_8,
+  'isaiah/9': ISAIAH_9,
+  'isaiah/10': ISAIAH_10,
+  'isaiah/11': ISAIAH_11,
+  'isaiah/12': ISAIAH_12,
+  'isaiah/13': ISAIAH_13,
+  'isaiah/14': ISAIAH_14,
+  'isaiah/15': ISAIAH_15,
+  'isaiah/16': ISAIAH_16,
+  'isaiah/17': ISAIAH_17,
+  'isaiah/18': ISAIAH_18,
+  'isaiah/19': ISAIAH_19,
+  'isaiah/20': ISAIAH_20,
+  'isaiah/21': ISAIAH_21,
+  'isaiah/22': ISAIAH_22,
+  'isaiah/23': ISAIAH_23,
+  'isaiah/24': ISAIAH_24,
+  'isaiah/25': ISAIAH_25,
+  'isaiah/26': ISAIAH_26,
+  'isaiah/27': ISAIAH_27,
+  'isaiah/28': ISAIAH_28,
+  'isaiah/29': ISAIAH_29,
+  'isaiah/30': ISAIAH_30,
 };
 
 /**
