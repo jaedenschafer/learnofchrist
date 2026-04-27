@@ -1,87 +1,290 @@
-/* Artist hub page (/art/artist/[slug]) — editorial layout with a generous
-   serif headline, a quick-facts card, structured Bible-scenes list, and a
-   notable-works section that pairs short paragraphs with thumbnails. */
+/* Artist hub page (/art/artist/[slug]) — editorial layout inspired by
+   Airbnb's "Stays" detail pages: a soft hero image plate, a generous
+   serif headline, an inline metadata bar, refined dividers, drop-cap
+   biography prose, magazine-style notable-works blocks, and a quiet
+   "all works" grid. Two-column on wide viewports (bio left, sticky
+   sources card right), single-column on mobile.                     */
 
+/* ── Page frame ──────────────────────────────────────────────────── */
+.artist-page {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .artist-page { padding: 0 1.5rem; }
+}
+
+/* ── Hero plate ──────────────────────────────────────────────────── */
 .artist-hero {
-  padding: 1.5rem 0 1.25rem;
-  border-bottom: 1px solid var(--color-separator);
-  margin-bottom: 2rem;
+  position: relative;
+  margin: 0.5rem 0 2.5rem;
+  border-radius: 24px;
+  overflow: hidden;
+  background: linear-gradient(
+    180deg,
+    var(--color-warm-subtle) 0%,
+    var(--color-surface) 100%
+  );
+  border: 1px solid var(--color-separator);
+}
+
+@media (min-width: 768px) {
+  .artist-hero {
+    margin: 1rem 0 3rem;
+  }
+}
+
+.artist-hero__inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
+@media (min-width: 880px) {
+  .artist-hero__inner {
+    grid-template-columns: 1.05fr 0.95fr;
+    align-items: stretch;
+    min-height: 360px;
+  }
+}
+
+.artist-hero__text {
+  padding: 1.75rem 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .artist-hero__text { padding: 2.5rem 2.5rem 2.25rem; }
+}
+
+@media (min-width: 880px) {
+  .artist-hero__text {
+    padding: 3rem 3rem 2.75rem;
+  }
 }
 
 .artist-hero__kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-secondary-label);
+  margin: 0 0 1rem;
+}
+
+.artist-hero__kicker::before {
+  content: "";
+  width: 18px;
+  height: 1px;
+  background: var(--color-secondary-label);
+  display: inline-block;
+}
+
+.artist-hero__name {
+  font-family: var(--font-serif), 'EB Garamond', Georgia, serif;
+  font-weight: 600;
+  font-size: clamp(2.25rem, 5.6vw, 4rem);
+  line-height: 1.02;
+  letter-spacing: -0.028em;
+  color: var(--color-label);
+  margin: 0 0 1rem;
+  text-wrap: balance;
+}
+
+.artist-hero__metabar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.875rem;
+  align-items: center;
+  margin: 0 0 1.25rem;
+}
+
+.artist-hero__chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.75rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-separator);
+  border-radius: 999px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--color-label);
+  white-space: nowrap;
+}
+
+.artist-hero__chip-label {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-tertiary-label);
+}
+
+.artist-hero__lede {
+  font-family: var(--font-serif), 'New York', Georgia, serif;
+  font-size: clamp(1rem, 1.4vw, 1.125rem);
+  line-height: 1.55;
+  color: var(--color-secondary-label);
+  margin: 0;
+  max-width: 36rem;
+  text-wrap: pretty;
+}
+
+/* Hero artwork plate */
+.artist-hero__art {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  background: var(--color-fill-subtle);
+  overflow: hidden;
+  display: block;
+}
+
+@media (min-width: 880px) {
+  .artist-hero__art {
+    aspect-ratio: auto;
+    height: 100%;
+    border-left: 1px solid var(--color-separator);
+  }
+}
+
+.artist-hero__art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.artist-hero__art:hover img {
+  transform: scale(1.02);
+}
+
+.artist-hero__art-caption {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  background: rgba(255, 255, 255, 0.92);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  padding: 0.4rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--color-label);
+  text-decoration: none;
+  letter-spacing: -0.01em;
+  max-width: calc(100% - 2rem);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+html[data-reader-theme="dark"] .artist-hero__art-caption {
+  background: rgba(28, 28, 30, 0.85);
+  border-color: rgba(255, 255, 255, 0.08);
+  color: var(--color-label);
+}
+
+/* ── Two-column body layout ──────────────────────────────────────── */
+.artist-body {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 960px) {
+  .artist-body {
+    grid-template-columns: minmax(0, 1fr) 320px;
+    gap: 3rem;
+    align-items: start;
+  }
+}
+
+.artist-body__main {
+  min-width: 0;
+}
+
+.artist-body__rail {
+  position: relative;
+}
+
+@media (min-width: 960px) {
+  .artist-body__rail {
+    position: sticky;
+    top: 1.5rem;
+  }
+}
+
+/* ── Sticky rail card (Airbnb-style booking-card analog) ─────────── */
+.artist-rail {
+  background: var(--color-surface);
+  border: 1px solid var(--color-separator);
+  border-radius: 20px;
+  padding: 1.5rem 1.5rem 1.25rem;
+  box-shadow: var(--shadow-card);
+}
+
+.artist-rail__title {
   font-size: 0.6875rem;
   font-weight: 700;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--color-tertiary-label);
-  margin: 0 0 0.5rem;
+  margin: 0 0 0.875rem;
 }
 
-.artist-hero__name {
-  font-family: var(--font-serif), 'EB Garamond', Georgia, serif;
-  font-weight: 700;
-  font-size: clamp(2.25rem, 5vw, 3.5rem);
-  line-height: 1.05;
-  letter-spacing: -0.025em;
-  color: var(--color-label);
-  margin: 0 0 0.625rem;
-  text-wrap: balance;
-}
-
-.artist-hero__meta {
-  font-size: 0.9375rem;
-  color: var(--color-secondary-label);
-  margin: 0;
-}
-
-/* Facts card */
-.artist-facts {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 0;
-  margin: 0 0 2.5rem;
-  border: 1px solid var(--color-separator);
-  border-radius: 14px;
-  overflow: hidden;
-  background: var(--color-surface);
-}
-
-@media (min-width: 640px) {
-  .artist-facts {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .artist-facts__row:nth-child(odd) {
-    border-right: 1px solid var(--color-separator);
-  }
-}
-
-.artist-facts__row {
+.artist-rail__row {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
   gap: 1rem;
-  padding: 0.75rem 1rem;
-  border-bottom: 1px solid var(--color-separator);
+  padding: 0.625rem 0;
+  border-top: 1px solid var(--color-separator);
   font-size: 0.875rem;
   color: var(--color-label);
 }
 
-.artist-facts__row:last-child,
-.artist-facts__row:nth-last-child(2):nth-child(odd) {
-  border-bottom: none;
-}
+.artist-rail__row:first-of-type { border-top: none; }
 
-.artist-facts__label {
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+.artist-rail__label {
   color: var(--color-secondary-label);
+  font-weight: 500;
 }
 
-/* Section frame */
+.artist-rail__value { font-weight: 600; }
+
+.artist-rail__cta {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  background: var(--color-label);
+  color: var(--color-surface);
+  border-radius: 12px;
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.artist-rail__cta:hover { opacity: 0.9; transform: translateY(-1px); }
+
+/* ── Section frame ───────────────────────────────────────────────── */
 .artist-section {
-  margin: 0 0 3rem;
+  margin: 0 0 3.25rem;
+  scroll-margin-top: 1.5rem;
 }
 
 .artist-section--pending .artist-section__placeholder {
@@ -93,44 +296,81 @@
 
 .artist-section__title {
   font-family: var(--font-serif), 'EB Garamond', Georgia, serif;
-  font-weight: 700;
-  font-size: clamp(1.5rem, 2.6vw, 1.875rem);
-  line-height: 1.2;
-  letter-spacing: -0.018em;
+  font-weight: 600;
+  font-size: clamp(1.5rem, 2.6vw, 2rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
   color: var(--color-label);
-  margin: 0 0 1rem;
+  margin: 0 0 1.25rem;
+  text-wrap: balance;
+}
+
+.artist-section__title::after {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 1px;
+  background: var(--color-label);
+  opacity: 0.18;
+  margin-top: 0.875rem;
 }
 
 .artist-section__p {
-  font-family: var(--font-serif), 'EB Garamond', Georgia, serif;
+  font-family: var(--font-serif), 'New York', 'Iowan Old Style', Georgia, serif;
   font-size: 1.0625rem;
-  line-height: 1.65;
+  line-height: 1.75;
   color: var(--color-label);
-  margin: 0 0 1.125rem;
+  margin: 0 0 1.25rem;
+  text-wrap: pretty;
 }
 
-/* Bible scenes list */
+/* Drop-cap on the first paragraph of the bio for editorial polish */
+.artist-section__p:first-of-type::first-letter {
+  font-family: var(--font-serif), Georgia, serif;
+  float: left;
+  font-size: 3.4rem;
+  line-height: 0.95;
+  font-weight: 600;
+  margin: 0.18rem 0.5rem 0 0;
+  color: var(--color-label);
+}
+
+/* ── Bible scenes ────────────────────────────────────────────────── */
 .artist-scenes {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 1.25rem;
 }
 
+@media (min-width: 640px) {
+  .artist-scenes { grid-template-columns: repeat(2, 1fr); gap: 1.25rem 1.5rem; }
+}
+
 .artist-scenes__book {
-  border-left: 2px solid var(--color-separator);
-  padding-left: 1rem;
+  padding: 1rem 1.125rem;
+  border: 1px solid var(--color-separator);
+  border-radius: 16px;
+  background: var(--color-surface);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease,
+              transform 0.15s ease;
+}
+
+.artist-scenes__book:hover {
+  border-color: color-mix(in srgb, var(--color-label) 20%, var(--color-separator));
+  box-shadow: var(--shadow-sm);
+  transform: translateY(-1px);
 }
 
 .artist-scenes__book-name {
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--color-tertiary-label);
-  margin: 0 0 0.5rem;
+  font-family: var(--font-serif), Georgia, serif;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  letter-spacing: -0.012em;
+  color: var(--color-label);
+  margin: 0 0 0.625rem;
 }
 
 .artist-scenes__chapters {
@@ -138,44 +378,76 @@
   margin: 0;
   padding: 0;
   display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.artist-scenes__chapters li {
+  display: inline-flex;
+  align-items: center;
 }
 
 .artist-scenes__chapter {
-  font-size: 0.9375rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.625rem;
+  font-size: 0.8125rem;
   font-weight: 500;
-  color: var(--color-primary);
+  color: var(--color-label);
+  background: var(--color-fill-subtle);
+  border-radius: 999px;
   text-decoration: none;
+  transition: background 0.15s ease, color 0.15s ease;
 }
 
-.artist-scenes__chapter:hover { text-decoration: underline; }
+.artist-scenes__chapter:hover {
+  background: var(--color-label);
+  color: var(--color-surface);
+}
 
 .artist-scenes__count {
-  font-size: 0.8125rem;
-  color: var(--color-tertiary-label);
+  display: none; /* count is implied by chapter pill density */
 }
 
-/* Notable works */
+/* ── Notable works (magazine-style alternating blocks) ──────────── */
 .artist-notable {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
-  padding-bottom: 1.5rem;
+  gap: 1.125rem;
+  margin: 0 0 2.25rem;
+  padding: 0 0 2.25rem;
   border-bottom: 1px solid var(--color-separator);
 }
+
 .artist-notable:last-child {
   border-bottom: none;
   padding-bottom: 0;
   margin-bottom: 0;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 720px) {
   .artist-notable {
-    grid-template-columns: 200px 1fr;
-    gap: 1.25rem;
+    grid-template-columns: 280px 1fr;
+    gap: 1.75rem;
+    align-items: start;
   }
+  .artist-notable:nth-child(even) {
+    grid-template-columns: 1fr 280px;
+  }
+  .artist-notable:nth-child(even) .artist-notable__media {
+    order: 2;
+  }
+  .artist-notable:nth-child(even) .artist-notable__body {
+    order: 1;
+  }
+}
+
+.artist-notable__media {
+  position: relative;
+  display: block;
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--color-fill-subtle);
 }
 
 .artist-notable__img {
@@ -183,35 +455,53 @@
   height: auto;
   aspect-ratio: 4 / 5;
   object-fit: cover;
-  border-radius: 12px;
-  background: var(--color-separator);
+  display: block;
+  transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.artist-notable__media:hover .artist-notable__img {
+  transform: scale(1.03);
+}
+
+.artist-notable__body {
+  padding-top: 0.25rem;
 }
 
 .artist-notable__title {
-  font-family: var(--font-serif), 'EB Garamond', Georgia, serif;
-  font-weight: 700;
-  font-size: 1.125rem;
+  font-family: var(--font-serif), Georgia, serif;
+  font-weight: 600;
+  font-size: 1.375rem;
+  line-height: 1.2;
+  letter-spacing: -0.018em;
   color: var(--color-label);
-  margin: 0 0 0.5rem;
+  margin: 0 0 0.625rem;
+  text-wrap: balance;
 }
 
 .artist-notable__title a {
   color: var(--color-label);
   text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0 1px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  transition: background-size 0.3s ease;
 }
+
 .artist-notable__title a:hover {
-  text-decoration: underline;
+  background-size: 100% 1px;
 }
 
 .artist-notable__p {
-  font-family: var(--font-serif), 'EB Garamond', Georgia, serif;
+  font-family: var(--font-serif), 'New York', Georgia, serif;
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.7;
   color: var(--color-label);
   margin: 0;
+  text-wrap: pretty;
 }
 
-/* All works grid */
+/* ── All works grid ──────────────────────────────────────────────── */
 .artist-works-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -219,71 +509,95 @@
 }
 
 @media (min-width: 640px) {
-  .artist-works-grid { grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+  .artist-works-grid { grid-template-columns: repeat(3, 1fr); gap: 1.125rem; }
 }
 
-@media (min-width: 880px) {
-  .artist-works-grid { grid-template-columns: repeat(4, 1fr); }
+@media (min-width: 1024px) {
+  .artist-works-grid { grid-template-columns: repeat(4, 1fr); gap: 1.25rem; }
 }
 
-/* FAQ — auto-generated from row facts, paired with FAQPage JSON-LD. */
+/* ── FAQ — accordion-styled with quiet dividers ─────────────────── */
 .artist-faq {
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  border-top: 1px solid var(--color-separator);
 }
 
 .artist-faq__row {
   border-bottom: 1px solid var(--color-separator);
-  padding-bottom: 1.25rem;
-}
-
-.artist-faq__row:last-child {
-  border-bottom: none;
-  padding-bottom: 0;
+  padding: 1.25rem 0 1.375rem;
 }
 
 .artist-faq__q {
-  font-family: var(--font-serif), 'EB Garamond', Georgia, serif;
-  font-weight: 700;
+  font-family: var(--font-serif), Georgia, serif;
+  font-weight: 600;
   font-size: 1.0625rem;
-  line-height: 1.3;
-  letter-spacing: -0.01em;
+  line-height: 1.35;
+  letter-spacing: -0.012em;
   color: var(--color-label);
-  margin: 0 0 0.4rem;
+  margin: 0 0 0.5rem;
+  text-wrap: balance;
 }
 
 .artist-faq__a {
   margin: 0;
-  font-family: var(--font-serif), 'EB Garamond', Georgia, serif;
-  font-size: 1rem;
-  line-height: 1.6;
+  font-family: var(--font-serif), 'New York', Georgia, serif;
+  font-size: 0.9375rem;
+  line-height: 1.65;
   color: var(--color-secondary-label);
+  text-wrap: pretty;
 }
 
-/* Further reading */
+/* ── Further reading — pill-shaped chips with type kicker ──────── */
 .artist-sources {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+}
+
+.artist-sources li {
+  display: inline-flex;
+}
+
+.artist-sources__chip {
+  display: inline-flex;
+  align-items: center;
   gap: 0.5rem;
-}
-
-.artist-sources__link {
-  color: var(--color-primary);
-  font-size: 0.9375rem;
+  padding: 0.55rem 0.95rem;
+  border: 1px solid var(--color-separator);
+  border-radius: 999px;
+  background: var(--color-surface);
   text-decoration: none;
+  color: var(--color-label);
+  font-size: 0.875rem;
   font-weight: 500;
+  transition: border-color 0.15s ease, transform 0.15s ease,
+              box-shadow 0.15s ease;
 }
-.artist-sources__link:hover { text-decoration: underline; }
 
-.artist-sources__type {
-  font-size: 0.75rem;
-  color: var(--color-tertiary-label);
-  letter-spacing: 0.04em;
+.artist-sources__chip:hover {
+  border-color: color-mix(in srgb, var(--color-label) 25%, var(--color-separator));
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+.artist-sources__chip-type {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
+  color: var(--color-tertiary-label);
+}
+
+/* External-link glyph */
+.artist-sources__chip::after {
+  content: "↗";
+  font-size: 0.875rem;
+  color: var(--color-tertiary-label);
+  margin-left: 0.1rem;
 }

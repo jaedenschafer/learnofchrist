@@ -110,7 +110,14 @@ export default async function ArtistPage({ params }: PageProps) {
     if (s.url && !sameAs.includes(s.url)) sameAs.push(s.url);
   }
 
-  const heroImage = works.find((w) => Boolean(w.image_url || w.thumbnail_url));
+  // Pick the most "hero-worthy" work: prefer one referenced by a
+  // notable_works essay (curator-picked), otherwise the first work
+  // with an image.
+  const notableSlugs = new Set(artist.notable_works.map((nw) => nw.artwork_slug));
+  const heroImage =
+    works.find(
+      (w) => notableSlugs.has(w.slug) && (w.image_url || w.thumbnail_url),
+    ) ?? works.find((w) => Boolean(w.image_url || w.thumbnail_url));
 
   const personLd = {
     '@context': 'https://schema.org',
@@ -142,6 +149,14 @@ export default async function ArtistPage({ params }: PageProps) {
     .split(/\n{2,}/)
     .map((p) => p.trim())
     .filter(Boolean);
+
+  // First sentence used as the hero lede.
+  const heroLede = (() => {
+    const flat = (artist.bio_long ?? '').replace(/\s+/g, ' ').trim();
+    if (flat.length < 60) return null;
+    const m = flat.match(/^[^.]{40,260}\./);
+    return m ? m[0] : flat.slice(0, 220) + '…';
+  })();
 
   // ─── FAQ ───────────────────────────────────────────────────────────
   // Auto-generated from facts in the row. Every answer is composed from
@@ -223,209 +238,280 @@ export default async function ArtistPage({ params }: PageProps) {
         }
       : null;
 
+  const totalChapters = [...byBook.values()].reduce(
+    (n, b) => n + b.chapters.size,
+    0,
+  );
+
   return (
     <div className="page-container">
       <JsonLd data={personLd} />
       <JsonLd data={breadcrumbLd} />
       {faqPageLd && <JsonLd data={faqPageLd} />}
 
-      <div className="max-w-3xl mx-auto">
+      <div className="artist-page">
         <BreadcrumbNav
           items={[
             { label: 'Art', href: '/art' },
+            { label: 'Artists', href: '/art/artists' },
             { label: artist.name, href: '#' },
           ]}
         />
 
         {/* ── Hero ── */}
         <header className="artist-hero">
-          <p className="artist-hero__kicker">Artist</p>
-          <h1 className="artist-hero__name">{artist.name}</h1>
-          <p className="artist-hero__meta">
-            {[lifespan, artist.nationality].filter(Boolean).join(' · ')}
-            {(lifespan || artist.nationality) && works.length > 0 ? ' · ' : ''}
-            {works.length > 0 && (
-              <span>{works.length} {works.length === 1 ? 'artwork' : 'artworks'} in our library</span>
+          <div className="artist-hero__inner">
+            <div className="artist-hero__text">
+              <p className="artist-hero__kicker">Painter of the Bible</p>
+              <h1 className="artist-hero__name">{artist.name}</h1>
+
+              <div className="artist-hero__metabar">
+                {lifespan && (
+                  <span className="artist-hero__chip">
+                    <span className="artist-hero__chip-label">Years</span>
+                    {lifespan}
+                  </span>
+                )}
+                {artist.nationality && (
+                  <span className="artist-hero__chip">
+                    <span className="artist-hero__chip-label">From</span>
+                    {artist.nationality}
+                  </span>
+                )}
+                {works.length > 0 && (
+                  <span className="artist-hero__chip">
+                    <span className="artist-hero__chip-label">Works</span>
+                    {works.length}
+                  </span>
+                )}
+              </div>
+
+              {heroLede && <p className="artist-hero__lede">{heroLede}</p>}
+            </div>
+
+            {heroImage && (heroImage.image_url || heroImage.thumbnail_url) && (
+              <Link
+                href={`/art/artwork/${heroImage.slug}`}
+                className="artist-hero__art"
+                aria-label={heroImage.title}
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={heroImage.image_url || heroImage.thumbnail_url}
+                  alt={heroImage.title}
+                  loading="eager"
+                />
+                <span className="artist-hero__art-caption">
+                  {heroImage.title}
+                </span>
+              </Link>
             )}
-          </p>
+          </div>
         </header>
 
-        {/* ── Quick facts card ── */}
-        <aside className="artist-facts">
-          {artist.birth_year != null && (
-            <div className="artist-facts__row">
-              <span className="artist-facts__label">Born</span>
-              <span>{artist.birth_year}</span>
-            </div>
-          )}
-          {artist.death_year != null && (
-            <div className="artist-facts__row">
-              <span className="artist-facts__label">Died</span>
-              <span>{artist.death_year}</span>
-            </div>
-          )}
-          {artist.nationality && (
-            <div className="artist-facts__row">
-              <span className="artist-facts__label">Nationality</span>
-              <span>{artist.nationality}</span>
-            </div>
-          )}
-          <div className="artist-facts__row">
-            <span className="artist-facts__label">Works in our library</span>
-            <span>{works.length}</span>
-          </div>
-        </aside>
+        <div className="artist-body">
+          <main className="artist-body__main">
+            {/* ── Life (long bio) ── */}
+            {bioParagraphs.length > 0 ? (
+              <section className="artist-section">
+                <h2 className="artist-section__title">Life &amp; work</h2>
+                {bioParagraphs.map((p, i) => (
+                  <p key={i} className="artist-section__p">{p}</p>
+                ))}
+              </section>
+            ) : (
+              <section className="artist-section artist-section--pending">
+                <p className="artist-section__placeholder">
+                  A full biography of {artist.name} is being written. In the
+                  meantime, browse every work by this artist below.
+                </p>
+              </section>
+            )}
 
-        {/* ── Life (long bio) ── */}
-        {bioParagraphs.length > 0 ? (
-          <section className="artist-section">
-            <h2 className="artist-section__title">Life</h2>
-            {bioParagraphs.map((p, i) => (
-              <p key={i} className="artist-section__p">{p}</p>
-            ))}
-          </section>
-        ) : (
-          // Pre-bio placeholder. Page is set to noindex in metadata above
-          // until bio_long has substantive content, so this never shows up
-          // as a thin result in search.
-          <section className="artist-section artist-section--pending">
-            <p className="artist-section__placeholder">
-              A full biography of {artist.name} is being written. In the
-              meantime, browse every work by this artist below.
-            </p>
-          </section>
-        )}
-
-        {/* ── Bible scenes ── */}
-        {byBook.size > 0 && (
-          <section className="artist-section">
-            <h2 className="artist-section__title">
-              Bible scenes {artist.name} painted
-            </h2>
-            <ul className="artist-scenes">
-              {[...byBook.values()].map((book) => (
-                <li key={book.bookSlug} className="artist-scenes__book">
-                  <p className="artist-scenes__book-name">{book.bookName}</p>
-                  <ul className="artist-scenes__chapters">
-                    {[...book.chapters.entries()]
-                      .sort((a, b) => a[0] - b[0])
-                      .map(([chapter, list]) => (
-                        <li key={chapter}>
-                          <Link
-                            href={`/study/${book.bookSlug}/${chapter}`}
-                            className="artist-scenes__chapter"
-                          >
-                            {book.bookName} {chapter}
-                          </Link>
-                          <span className="artist-scenes__count">
-                            {' '}· {list.length} {list.length === 1 ? 'work' : 'works'}
-                          </span>
-                        </li>
-                      ))}
-                  </ul>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
-
-        {/* ── Notable works (curated, original prose) ── */}
-        {artist.notable_works.length > 0 && (
-          <section className="artist-section">
-            <h2 className="artist-section__title">Notable works in detail</h2>
-            {artist.notable_works.map((nw) => {
-              const linked = works.find((w) => w.slug === nw.artwork_slug);
-              return (
-                <div key={nw.artwork_slug} className="artist-notable">
-                  {linked && (linked.image_url || linked.thumbnail_url) && (
-                    /* eslint-disable-next-line @next/next/no-img-element */
-                    <img
-                      src={linked.thumbnail_url || linked.image_url}
-                      alt={linked.title}
-                      loading="lazy"
-                      className="artist-notable__img"
-                    />
-                  )}
-                  <div className="artist-notable__body">
-                    <p className="artist-notable__title">
-                      {linked ? (
-                        <Link href={`/art/artwork/${linked.slug}`}>{linked.title}</Link>
-                      ) : (
-                        nw.artwork_slug
+            {/* ── Notable works ── */}
+            {artist.notable_works.length > 0 && (
+              <section className="artist-section">
+                <h2 className="artist-section__title">Notable works in detail</h2>
+                {artist.notable_works.map((nw) => {
+                  const linked = works.find((w) => w.slug === nw.artwork_slug);
+                  return (
+                    <div key={nw.artwork_slug} className="artist-notable">
+                      {linked && (linked.image_url || linked.thumbnail_url) && (
+                        <Link
+                          href={`/art/artwork/${linked.slug}`}
+                          className="artist-notable__media"
+                          aria-label={linked.title}
+                        >
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img
+                            src={linked.thumbnail_url || linked.image_url}
+                            alt={linked.title}
+                            loading="lazy"
+                            className="artist-notable__img"
+                          />
+                        </Link>
                       )}
-                    </p>
-                    <p className="artist-notable__p">{nw.paragraph}</p>
-                  </div>
+                      <div className="artist-notable__body">
+                        <p className="artist-notable__title">
+                          {linked ? (
+                            <Link href={`/art/artwork/${linked.slug}`}>
+                              {linked.title}
+                            </Link>
+                          ) : (
+                            nw.artwork_slug
+                          )}
+                        </p>
+                        <p className="artist-notable__p">{nw.paragraph}</p>
+                      </div>
+                    </div>
+                  );
+                })}
+              </section>
+            )}
+
+            {/* ── Bible scenes ── */}
+            {byBook.size > 0 && (
+              <section className="artist-section">
+                <h2 className="artist-section__title">
+                  Bible scenes {artist.name} painted
+                </h2>
+                <ul className="artist-scenes">
+                  {[...byBook.values()].map((book) => (
+                    <li key={book.bookSlug} className="artist-scenes__book">
+                      <p className="artist-scenes__book-name">{book.bookName}</p>
+                      <ul className="artist-scenes__chapters">
+                        {[...book.chapters.entries()]
+                          .sort((a, b) => a[0] - b[0])
+                          .map(([chapter]) => (
+                            <li key={chapter}>
+                              <Link
+                                href={`/study/${book.bookSlug}/${chapter}`}
+                                className="artist-scenes__chapter"
+                              >
+                                {book.bookName} {chapter}
+                              </Link>
+                            </li>
+                          ))}
+                      </ul>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {/* ── All works grid ── */}
+            {works.length > 0 && (
+              <section id="all-works" className="artist-section">
+                <h2 className="artist-section__title">
+                  All works by {artist.name} in our library
+                </h2>
+                <div className="artist-works-grid">
+                  {works.map((w) => (
+                    <ArtCard key={w.id} artwork={w} />
+                  ))}
                 </div>
-              );
-            })}
-          </section>
-        )}
+              </section>
+            )}
 
-        {/* ── All works grid ── */}
-        {works.length > 0 && (
-          <section className="artist-section">
-            <h2 className="artist-section__title">
-              All works by {artist.name} in our library
-            </h2>
-            <div className="artist-works-grid">
-              {works.map((w) => (
-                <ArtCard key={w.id} artwork={w} />
-              ))}
-            </div>
-          </section>
-        )}
+            {/* ── Frequently asked questions ── */}
+            {faqs.length >= 2 && (
+              <section className="artist-section">
+                <h2 className="artist-section__title">
+                  Frequently asked questions
+                </h2>
+                <dl className="artist-faq">
+                  {faqs.map((f, i) => (
+                    <div key={i} className="artist-faq__row">
+                      <dt className="artist-faq__q">{f.q}</dt>
+                      <dd className="artist-faq__a">{f.a}</dd>
+                    </div>
+                  ))}
+                </dl>
+              </section>
+            )}
 
-        {/* ── Frequently asked questions ── */}
-        {faqs.length >= 2 && (
-          <section className="artist-section">
-            <h2 className="artist-section__title">
-              Frequently asked questions
-            </h2>
-            <dl className="artist-faq">
-              {faqs.map((f, i) => (
-                <div key={i} className="artist-faq__row">
-                  <dt className="artist-faq__q">{f.q}</dt>
-                  <dd className="artist-faq__a">{f.a}</dd>
+            {/* ── Further reading ── */}
+            {(artist.bio_sources.length > 0 || artist.wikipedia_url) && (
+              <section className="artist-section">
+                <h2 className="artist-section__title">Further reading</h2>
+                <ul className="artist-sources">
+                  {artist.wikipedia_url && (
+                    <li>
+                      <a
+                        href={artist.wikipedia_url}
+                        target="_blank"
+                        rel="noopener"
+                        className="artist-sources__chip"
+                      >
+                        <span className="artist-sources__chip-type">Wikipedia</span>
+                        {artist.name}
+                      </a>
+                    </li>
+                  )}
+                  {artist.bio_sources.map((s: ArtistSource, i) => (
+                    <li key={`${s.url}-${i}`}>
+                      <a
+                        href={s.url}
+                        target="_blank"
+                        rel="noopener"
+                        className="artist-sources__chip"
+                      >
+                        <span className="artist-sources__chip-type">{s.type}</span>
+                        {s.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+          </main>
+
+          {/* ── Sticky rail (Airbnb-style summary card) ── */}
+          <aside className="artist-body__rail">
+            <div className="artist-rail">
+              <p className="artist-rail__title">At a glance</p>
+              {artist.birth_year != null && (
+                <div className="artist-rail__row">
+                  <span className="artist-rail__label">Born</span>
+                  <span className="artist-rail__value">{artist.birth_year}</span>
                 </div>
-              ))}
-            </dl>
-          </section>
-        )}
-
-        {/* ── Further reading ── */}
-        {(artist.bio_sources.length > 0 || artist.wikipedia_url) && (
-          <section className="artist-section">
-            <h2 className="artist-section__title">Further reading</h2>
-            <ul className="artist-sources">
-              {artist.wikipedia_url && (
-                <li>
-                  <a
-                    href={artist.wikipedia_url}
-                    target="_blank"
-                    rel="noopener"
-                    className="artist-sources__link"
-                  >
-                    {artist.name} on Wikipedia
-                  </a>
-                </li>
               )}
-              {artist.bio_sources.map((s: ArtistSource, i) => (
-                <li key={`${s.url}-${i}`}>
-                  <a
-                    href={s.url}
-                    target="_blank"
-                    rel="noopener"
-                    className="artist-sources__link"
-                  >
-                    {s.title}
-                  </a>
-                  <span className="artist-sources__type"> — {s.type}</span>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
+              {artist.death_year != null && (
+                <div className="artist-rail__row">
+                  <span className="artist-rail__label">Died</span>
+                  <span className="artist-rail__value">{artist.death_year}</span>
+                </div>
+              )}
+              {artist.nationality && (
+                <div className="artist-rail__row">
+                  <span className="artist-rail__label">Origin</span>
+                  <span className="artist-rail__value">{artist.nationality}</span>
+                </div>
+              )}
+              <div className="artist-rail__row">
+                <span className="artist-rail__label">Works</span>
+                <span className="artist-rail__value">{works.length}</span>
+              </div>
+              {byBook.size > 0 && (
+                <div className="artist-rail__row">
+                  <span className="artist-rail__label">Books covered</span>
+                  <span className="artist-rail__value">{byBook.size}</span>
+                </div>
+              )}
+              {totalChapters > 0 && (
+                <div className="artist-rail__row">
+                  <span className="artist-rail__label">Chapters</span>
+                  <span className="artist-rail__value">{totalChapters}</span>
+                </div>
+              )}
+              {works.length > 0 && (
+                <Link href="#all-works" className="artist-rail__cta">
+                  Browse all works
+                </Link>
+              )}
+            </div>
+          </aside>
+        </div>
       </div>
     </div>
   );
