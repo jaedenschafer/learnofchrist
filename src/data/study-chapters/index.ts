@@ -423,6 +423,26 @@ import { CHRONICLES_2_33 } from './2-chronicles-33';
 import { CHRONICLES_2_34 } from './2-chronicles-34';
 import { CHRONICLES_2_35 } from './2-chronicles-35';
 import { CHRONICLES_2_36 } from './2-chronicles-36';
+import { EZRA_1 } from './ezra-1';
+import { EZRA_2 } from './ezra-2';
+import { EZRA_3 } from './ezra-3';
+import { EZRA_4 } from './ezra-4';
+import { EZRA_5 } from './ezra-5';
+import { EZRA_6 } from './ezra-6';
+import { EZRA_7 } from './ezra-7';
+import { EZRA_8 } from './ezra-8';
+import { EZRA_9 } from './ezra-9';
+import { EZRA_10 } from './ezra-10';
+import { NEHEMIAH_1 } from './nehemiah-1';
+import { NEHEMIAH_2 } from './nehemiah-2';
+import { NEHEMIAH_3 } from './nehemiah-3';
+import { NEHEMIAH_4 } from './nehemiah-4';
+import { NEHEMIAH_5 } from './nehemiah-5';
+import { NEHEMIAH_6 } from './nehemiah-6';
+import { NEHEMIAH_7 } from './nehemiah-7';
+import { NEHEMIAH_8 } from './nehemiah-8';
+import { NEHEMIAH_9 } from './nehemiah-9';
+import { NEHEMIAH_10 } from './nehemiah-10';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -829,6 +849,26 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   '2-chronicles/34': CHRONICLES_2_34,
   '2-chronicles/35': CHRONICLES_2_35,
   '2-chronicles/36': CHRONICLES_2_36,
+  'ezra/1': EZRA_1,
+  'ezra/2': EZRA_2,
+  'ezra/3': EZRA_3,
+  'ezra/4': EZRA_4,
+  'ezra/5': EZRA_5,
+  'ezra/6': EZRA_6,
+  'ezra/7': EZRA_7,
+  'ezra/8': EZRA_8,
+  'ezra/9': EZRA_9,
+  'ezra/10': EZRA_10,
+  'nehemiah/1': NEHEMIAH_1,
+  'nehemiah/2': NEHEMIAH_2,
+  'nehemiah/3': NEHEMIAH_3,
+  'nehemiah/4': NEHEMIAH_4,
+  'nehemiah/5': NEHEMIAH_5,
+  'nehemiah/6': NEHEMIAH_6,
+  'nehemiah/7': NEHEMIAH_7,
+  'nehemiah/8': NEHEMIAH_8,
+  'nehemiah/9': NEHEMIAH_9,
+  'nehemiah/10': NEHEMIAH_10,
 };
 
 /**
