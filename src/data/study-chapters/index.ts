@@ -1237,6 +1237,36 @@ import { SECOND_ESDRAS_8 } from './2-esdras-8';
 import { SECOND_ESDRAS_9 } from './2-esdras-9';
 import { SECOND_ESDRAS_10 } from './2-esdras-10';
 import { SECOND_ESDRAS_11 } from './2-esdras-11';
+import { SECOND_ESDRAS_12 } from './2-esdras-12';
+import { SECOND_ESDRAS_13 } from './2-esdras-13';
+import { SECOND_ESDRAS_14 } from './2-esdras-14';
+import { SECOND_ESDRAS_15 } from './2-esdras-15';
+import { SECOND_ESDRAS_16 } from './2-esdras-16';
+import { THIRD_MACCABEES_1 } from './3-maccabees-1';
+import { THIRD_MACCABEES_2 } from './3-maccabees-2';
+import { THIRD_MACCABEES_3 } from './3-maccabees-3';
+import { THIRD_MACCABEES_4 } from './3-maccabees-4';
+import { THIRD_MACCABEES_5 } from './3-maccabees-5';
+import { THIRD_MACCABEES_6 } from './3-maccabees-6';
+import { THIRD_MACCABEES_7 } from './3-maccabees-7';
+import { FOURTH_MACCABEES_1 } from './4-maccabees-1';
+import { FOURTH_MACCABEES_2 } from './4-maccabees-2';
+import { FOURTH_MACCABEES_3 } from './4-maccabees-3';
+import { FOURTH_MACCABEES_4 } from './4-maccabees-4';
+import { FOURTH_MACCABEES_5 } from './4-maccabees-5';
+import { FOURTH_MACCABEES_6 } from './4-maccabees-6';
+import { FOURTH_MACCABEES_7 } from './4-maccabees-7';
+import { FOURTH_MACCABEES_8 } from './4-maccabees-8';
+import { FOURTH_MACCABEES_9 } from './4-maccabees-9';
+import { FOURTH_MACCABEES_10 } from './4-maccabees-10';
+import { FOURTH_MACCABEES_11 } from './4-maccabees-11';
+import { FOURTH_MACCABEES_12 } from './4-maccabees-12';
+import { FOURTH_MACCABEES_13 } from './4-maccabees-13';
+import { FOURTH_MACCABEES_14 } from './4-maccabees-14';
+import { FOURTH_MACCABEES_15 } from './4-maccabees-15';
+import { FOURTH_MACCABEES_16 } from './4-maccabees-16';
+import { FOURTH_MACCABEES_17 } from './4-maccabees-17';
+import { FOURTH_MACCABEES_18 } from './4-maccabees-18';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -2457,6 +2487,36 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   '2-esdras/9': SECOND_ESDRAS_9,
   '2-esdras/10': SECOND_ESDRAS_10,
   '2-esdras/11': SECOND_ESDRAS_11,
+  '2-esdras/12': SECOND_ESDRAS_12,
+  '2-esdras/13': SECOND_ESDRAS_13,
+  '2-esdras/14': SECOND_ESDRAS_14,
+  '2-esdras/15': SECOND_ESDRAS_15,
+  '2-esdras/16': SECOND_ESDRAS_16,
+  '3-maccabees/1': THIRD_MACCABEES_1,
+  '3-maccabees/2': THIRD_MACCABEES_2,
+  '3-maccabees/3': THIRD_MACCABEES_3,
+  '3-maccabees/4': THIRD_MACCABEES_4,
+  '3-maccabees/5': THIRD_MACCABEES_5,
+  '3-maccabees/6': THIRD_MACCABEES_6,
+  '3-maccabees/7': THIRD_MACCABEES_7,
+  '4-maccabees/1': FOURTH_MACCABEES_1,
+  '4-maccabees/2': FOURTH_MACCABEES_2,
+  '4-maccabees/3': FOURTH_MACCABEES_3,
+  '4-maccabees/4': FOURTH_MACCABEES_4,
+  '4-maccabees/5': FOURTH_MACCABEES_5,
+  '4-maccabees/6': FOURTH_MACCABEES_6,
+  '4-maccabees/7': FOURTH_MACCABEES_7,
+  '4-maccabees/8': FOURTH_MACCABEES_8,
+  '4-maccabees/9': FOURTH_MACCABEES_9,
+  '4-maccabees/10': FOURTH_MACCABEES_10,
+  '4-maccabees/11': FOURTH_MACCABEES_11,
+  '4-maccabees/12': FOURTH_MACCABEES_12,
+  '4-maccabees/13': FOURTH_MACCABEES_13,
+  '4-maccabees/14': FOURTH_MACCABEES_14,
+  '4-maccabees/15': FOURTH_MACCABEES_15,
+  '4-maccabees/16': FOURTH_MACCABEES_16,
+  '4-maccabees/17': FOURTH_MACCABEES_17,
+  '4-maccabees/18': FOURTH_MACCABEES_18,
 };
 
 /**
