@@ -170,6 +170,26 @@ import { NUMBERS_30 } from './numbers-30';
 import { NUMBERS_31 } from './numbers-31';
 import { NUMBERS_32 } from './numbers-32';
 import { NUMBERS_33 } from './numbers-33';
+import { NUMBERS_34 } from './numbers-34';
+import { NUMBERS_35 } from './numbers-35';
+import { NUMBERS_36 } from './numbers-36';
+import { DEUTERONOMY_1 } from './deuteronomy-1';
+import { DEUTERONOMY_2 } from './deuteronomy-2';
+import { DEUTERONOMY_3 } from './deuteronomy-3';
+import { DEUTERONOMY_4 } from './deuteronomy-4';
+import { DEUTERONOMY_5 } from './deuteronomy-5';
+import { DEUTERONOMY_6 } from './deuteronomy-6';
+import { DEUTERONOMY_7 } from './deuteronomy-7';
+import { DEUTERONOMY_8 } from './deuteronomy-8';
+import { DEUTERONOMY_9 } from './deuteronomy-9';
+import { DEUTERONOMY_10 } from './deuteronomy-10';
+import { DEUTERONOMY_11 } from './deuteronomy-11';
+import { DEUTERONOMY_12 } from './deuteronomy-12';
+import { DEUTERONOMY_13 } from './deuteronomy-13';
+import { DEUTERONOMY_14 } from './deuteronomy-14';
+import { DEUTERONOMY_15 } from './deuteronomy-15';
+import { DEUTERONOMY_16 } from './deuteronomy-16';
+import { DEUTERONOMY_17 } from './deuteronomy-17';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -323,6 +343,26 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'numbers/31': NUMBERS_31,
   'numbers/32': NUMBERS_32,
   'numbers/33': NUMBERS_33,
+  'numbers/34': NUMBERS_34,
+  'numbers/35': NUMBERS_35,
+  'numbers/36': NUMBERS_36,
+  'deuteronomy/1': DEUTERONOMY_1,
+  'deuteronomy/2': DEUTERONOMY_2,
+  'deuteronomy/3': DEUTERONOMY_3,
+  'deuteronomy/4': DEUTERONOMY_4,
+  'deuteronomy/5': DEUTERONOMY_5,
+  'deuteronomy/6': DEUTERONOMY_6,
+  'deuteronomy/7': DEUTERONOMY_7,
+  'deuteronomy/8': DEUTERONOMY_8,
+  'deuteronomy/9': DEUTERONOMY_9,
+  'deuteronomy/10': DEUTERONOMY_10,
+  'deuteronomy/11': DEUTERONOMY_11,
+  'deuteronomy/12': DEUTERONOMY_12,
+  'deuteronomy/13': DEUTERONOMY_13,
+  'deuteronomy/14': DEUTERONOMY_14,
+  'deuteronomy/15': DEUTERONOMY_15,
+  'deuteronomy/16': DEUTERONOMY_16,
+  'deuteronomy/17': DEUTERONOMY_17,
 };
 
 /**
