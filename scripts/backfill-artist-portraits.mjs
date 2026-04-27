@@ -141,6 +141,31 @@ async function fetchSummary(title) {
   return r.json();
 }
 
+/** Wikipedia Action API pageimages — returns the lead image's filename
+ *  even in cases where the REST summary endpoint omits the thumbnail
+ *  (especially common for shorter articles or when the lead is a
+ *  gallery rather than a single image). */
+async function fetchPageImage(title) {
+  const u = new URL('https://en.wikipedia.org/w/api.php');
+  u.searchParams.set('action', 'query');
+  u.searchParams.set('prop', 'pageimages');
+  u.searchParams.set('piprop', 'original|thumbnail');
+  u.searchParams.set('pithumbsize', '600');
+  u.searchParams.set('titles', title);
+  u.searchParams.set('redirects', '1');
+  u.searchParams.set('format', 'json');
+  const r = await fetch(u, { headers: { 'User-Agent': UA, accept: 'application/json' } });
+  if (!r.ok) return null;
+  const j = await r.json();
+  const pages = j?.query?.pages || {};
+  for (const id in pages) {
+    const original = pages[id]?.original?.source;
+    const thumb = pages[id]?.thumbnail?.source;
+    if (original || thumb) return commonsUrl(original || thumb);
+  }
+  return null;
+}
+
 async function fetchWikidataImage(qid) {
   const u = `https://www.wikidata.org/wiki/Special:EntityData/${qid}.json`;
   const r = await fetch(u, { headers: { 'User-Agent': UA, accept: 'application/json' } });
@@ -152,17 +177,46 @@ async function fetchWikidataImage(qid) {
   return filename ? commonsUrl(filename) : null;
 }
 
+/** Wikipedia summary endpoint also returns the Wikidata Q-ID as
+ *  `wikibase_item`. Pulling it is free and helps later passes. */
+async function qidFromSummary(title) {
+  const sum = await fetchSummary(title);
+  return sum?.wikibase_item ?? null;
+}
+
+/** Last-resort: find a Q-ID by searching Wikidata for the artist's
+ *  display name. We only accept candidates that look like real people
+ *  (have either P18 or P31=Q5/human). Birth year mismatches are common
+ *  in our data, so we DON'T validate against birth_year here. */
+async function searchWikidata(name) {
+  const u = new URL('https://www.wikidata.org/w/api.php');
+  u.searchParams.set('action', 'wbsearchentities');
+  u.searchParams.set('search', name);
+  u.searchParams.set('language', 'en');
+  u.searchParams.set('format', 'json');
+  u.searchParams.set('limit', '5');
+  u.searchParams.set('type', 'item');
+  const r = await fetch(u, { headers: { 'User-Agent': UA, accept: 'application/json' } });
+  if (!r.ok) return null;
+  const j = await r.json();
+  return (j?.search ?? []).map((s) => s.id);
+}
+
 async function findPortrait(artist) {
-  // The DB has three shapes worth handling:
-  //   (1) wikipedia_url is a real https://en.wikipedia.org/wiki/Title link
-  //   (2) wikipedia_url is a https://www.wikidata.org/wiki/Q link
-  //   (3) wikidata_id is set on its own
-  // Resolve a usable title and a Q-ID up front from whichever we have.
+  // Up to four sources, tried in order of reliability:
+  //   1. Wikipedia REST summary (originalimage / thumbnail)
+  //   2. Wikipedia Action API pageimages
+  //   3. Wikidata P18
+  //   4. Wikidata search by name → P18
+  //
+  // The DB has three input shapes:
+  //   - wikipedia_url is a real https://en.wikipedia.org/wiki/Title link
+  //   - wikipedia_url is a https://www.wikidata.org/wiki/Q link
+  //   - wikidata_id is set on its own
+  // Plus rows with NEITHER (we still try search-by-name).
   let title = artist.wikipedia_url ? titleFromUrl(artist.wikipedia_url) : null;
   let qid =
-    artist.wikidata_id ||
-    qidFromUrl(artist.wikipedia_url) ||
-    null;
+    artist.wikidata_id || qidFromUrl(artist.wikipedia_url) || null;
 
   if (!title && qid) {
     try {
@@ -172,24 +226,55 @@ async function findPortrait(artist) {
     }
   }
 
+  // (1) Wikipedia REST summary — also harvests the Q-ID for later steps.
   if (title) {
     try {
       const sum = await fetchSummary(title);
       const original = sum?.originalimage?.source;
       const thumb = sum?.thumbnail?.source;
       const url = commonsUrl(original || thumb);
-      if (url) return { url, source: 'wikipedia-summary' };
+      if (url) return { url, source: 'wikipedia-summary', qid: sum?.wikibase_item ?? qid };
+      if (sum?.wikibase_item && !qid) qid = sum.wikibase_item;
     } catch (e) {
       console.error(`  ! summary fail for ${artist.slug}: ${e.message}`);
     }
   }
 
+  // (2) Wikipedia Action API pageimages.
+  if (title) {
+    try {
+      const url = await fetchPageImage(title);
+      if (url) return { url, source: 'wikipedia-pageimages', qid };
+    } catch (e) {
+      console.error(`  ! pageimages fail for ${artist.slug}: ${e.message}`);
+    }
+  }
+
+  // (3) Wikidata P18.
   if (qid) {
     try {
       const url = await fetchWikidataImage(qid);
-      if (url) return { url, source: 'wikidata-p18' };
+      if (url) return { url, source: 'wikidata-p18', qid };
     } catch (e) {
       console.error(`  ! wikidata fail for ${artist.slug}: ${e.message}`);
+    }
+  }
+
+  // (4) Last resort: Wikidata wbsearchentities. Use the artist name
+  // verbatim — the candidate Q-ID's P18 will only succeed for real
+  // people, which is a reasonable filter on its own. We try the top
+  // 3 candidates.
+  if (!qid && artist.name) {
+    try {
+      const candidates = (await searchWikidata(artist.name)) ?? [];
+      for (const candidateQid of candidates.slice(0, 3)) {
+        const url = await fetchWikidataImage(candidateQid);
+        if (url) {
+          return { url, source: 'wikidata-search', qid: candidateQid };
+        }
+      }
+    } catch (e) {
+      console.error(`  ! wd-search fail for ${artist.slug}: ${e.message}`);
     }
   }
 
@@ -259,38 +344,40 @@ async function processOne(r) {
   }
 
   // Migration 053 added a first-class portrait_url column; write there
-  // directly. (The JSON-side helper is left in place for the few rows
-  // touched before 053 was applied; the migration itself migrates them
-  // into the column.)
-  const { error } = await sb
-    .from('artists')
-    .update({ portrait_url: found.url })
-    .eq('id', r.id);
+  // directly. Also harvest a newly-discovered wikidata_id when we
+  // found one — strengthens the Person/sameAs JSON-LD on the hub page
+  // for free.
+  const patch = { portrait_url: found.url };
+  if (found.qid && /^Q[0-9]+$/.test(found.qid) && !r.wikidata_id) {
+    patch.wikidata_id = found.qid;
+  }
+  const { error } = await sb.from('artists').update(patch).eq('id', r.id);
   if (error) {
     console.error(`✗ ${r.slug}: ${error.message}`);
     return { failed: 1 };
   }
-  console.log(`✓ ${r.slug} ← ${found.source}`);
+  const tag = patch.wikidata_id ? `${found.source} +qid` : found.source;
+  console.log(`✓ ${r.slug} ← ${tag}`);
   return { updated: 1 };
 }
 
 async function main() {
   const rows = await fetchAllArtists();
-  // Anything with a wikipedia_url, a wikidata_id, OR a wikipedia_url that
-  // is actually a Wikidata link (about a quarter of the DB).
-  const candidates = rows.filter(
-    (r) =>
-      r.wikipedia_url || r.wikidata_id || qidFromUrl(r.wikipedia_url),
-  );
+  // Try every artist that has a name, period. The findPortrait()
+  // pipeline uses wikipedia_url / wikidata_id as fast paths and falls
+  // back to a Wikidata name search when neither is present.
+  const candidates = rows.filter((r) => Boolean(r.name && r.name.trim()));
   console.log(
-    `${rows.length} artists; ${candidates.length} have a wikipedia_url or wikidata_id.`,
+    `${rows.length} artists; ${candidates.length} have a name to search.`,
   );
 
   const work = LIMIT < Infinity ? candidates.slice(0, LIMIT) : candidates;
 
-  // Bounded concurrency. Wikipedia + Wikidata can comfortably take 6
-  // parallel requests per IP.
-  const CONCURRENCY = 6;
+  // Wikipedia's REST + Action APIs return 429 / silent empty bodies
+  // under heavy concurrent load from a single IP. Stay polite: 3
+  // parallel workers, ~150ms between calls per worker. Slower per
+  // chunk but a 4× higher hit-rate on borderline artists.
+  const CONCURRENCY = 3;
   let cursor = 0;
   let updated = 0;
   let skipped = 0;
@@ -304,6 +391,11 @@ async function main() {
       updated += delta.updated || 0;
       skipped += delta.skipped || 0;
       failed += delta.failed || 0;
+      // Polite pacing — only when we actually hit Wikipedia. Skipped
+      // rows don't need to wait.
+      if (!delta.skipped) {
+        await new Promise((r) => setTimeout(r, 150));
+      }
     }
   }
 

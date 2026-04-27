@@ -852,6 +852,36 @@ import { EZEKIEL_27 } from './ezekiel-27';
 import { EZEKIEL_28 } from './ezekiel-28';
 import { EZEKIEL_29 } from './ezekiel-29';
 import { EZEKIEL_30 } from './ezekiel-30';
+import { EZEKIEL_31 } from './ezekiel-31';
+import { EZEKIEL_32 } from './ezekiel-32';
+import { EZEKIEL_33 } from './ezekiel-33';
+import { EZEKIEL_34 } from './ezekiel-34';
+import { EZEKIEL_35 } from './ezekiel-35';
+import { EZEKIEL_36 } from './ezekiel-36';
+import { EZEKIEL_37 } from './ezekiel-37';
+import { EZEKIEL_38 } from './ezekiel-38';
+import { EZEKIEL_39 } from './ezekiel-39';
+import { EZEKIEL_40 } from './ezekiel-40';
+import { EZEKIEL_41 } from './ezekiel-41';
+import { EZEKIEL_42 } from './ezekiel-42';
+import { EZEKIEL_43 } from './ezekiel-43';
+import { EZEKIEL_44 } from './ezekiel-44';
+import { EZEKIEL_45 } from './ezekiel-45';
+import { EZEKIEL_46 } from './ezekiel-46';
+import { EZEKIEL_47 } from './ezekiel-47';
+import { EZEKIEL_48 } from './ezekiel-48';
+import { DANIEL_1 } from './daniel-1';
+import { DANIEL_2 } from './daniel-2';
+import { DANIEL_3 } from './daniel-3';
+import { DANIEL_4 } from './daniel-4';
+import { DANIEL_5 } from './daniel-5';
+import { DANIEL_6 } from './daniel-6';
+import { DANIEL_7 } from './daniel-7';
+import { DANIEL_8 } from './daniel-8';
+import { DANIEL_9 } from './daniel-9';
+import { DANIEL_10 } from './daniel-10';
+import { DANIEL_11 } from './daniel-11';
+import { DANIEL_12 } from './daniel-12';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -1687,6 +1717,36 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'ezekiel/28': EZEKIEL_28,
   'ezekiel/29': EZEKIEL_29,
   'ezekiel/30': EZEKIEL_30,
+  'ezekiel/31': EZEKIEL_31,
+  'ezekiel/32': EZEKIEL_32,
+  'ezekiel/33': EZEKIEL_33,
+  'ezekiel/34': EZEKIEL_34,
+  'ezekiel/35': EZEKIEL_35,
+  'ezekiel/36': EZEKIEL_36,
+  'ezekiel/37': EZEKIEL_37,
+  'ezekiel/38': EZEKIEL_38,
+  'ezekiel/39': EZEKIEL_39,
+  'ezekiel/40': EZEKIEL_40,
+  'ezekiel/41': EZEKIEL_41,
+  'ezekiel/42': EZEKIEL_42,
+  'ezekiel/43': EZEKIEL_43,
+  'ezekiel/44': EZEKIEL_44,
+  'ezekiel/45': EZEKIEL_45,
+  'ezekiel/46': EZEKIEL_46,
+  'ezekiel/47': EZEKIEL_47,
+  'ezekiel/48': EZEKIEL_48,
+  'daniel/1': DANIEL_1,
+  'daniel/2': DANIEL_2,
+  'daniel/3': DANIEL_3,
+  'daniel/4': DANIEL_4,
+  'daniel/5': DANIEL_5,
+  'daniel/6': DANIEL_6,
+  'daniel/7': DANIEL_7,
+  'daniel/8': DANIEL_8,
+  'daniel/9': DANIEL_9,
+  'daniel/10': DANIEL_10,
+  'daniel/11': DANIEL_11,
+  'daniel/12': DANIEL_12,
 };
 
 /**
