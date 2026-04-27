@@ -207,6 +207,26 @@ import { DEUTERONOMY_31 } from './deuteronomy-31';
 import { DEUTERONOMY_32 } from './deuteronomy-32';
 import { DEUTERONOMY_33 } from './deuteronomy-33';
 import { DEUTERONOMY_34 } from './deuteronomy-34';
+import { JOSHUA_1 } from './joshua-1';
+import { JOSHUA_2 } from './joshua-2';
+import { JOSHUA_3 } from './joshua-3';
+import { JOSHUA_4 } from './joshua-4';
+import { JOSHUA_5 } from './joshua-5';
+import { JOSHUA_6 } from './joshua-6';
+import { JOSHUA_7 } from './joshua-7';
+import { JOSHUA_8 } from './joshua-8';
+import { JOSHUA_9 } from './joshua-9';
+import { JOSHUA_10 } from './joshua-10';
+import { JOSHUA_11 } from './joshua-11';
+import { JOSHUA_12 } from './joshua-12';
+import { JOSHUA_13 } from './joshua-13';
+import { JOSHUA_14 } from './joshua-14';
+import { JOSHUA_15 } from './joshua-15';
+import { JOSHUA_16 } from './joshua-16';
+import { JOSHUA_17 } from './joshua-17';
+import { JOSHUA_18 } from './joshua-18';
+import { JOSHUA_19 } from './joshua-19';
+import { JOSHUA_20 } from './joshua-20';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -397,6 +417,26 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'deuteronomy/32': DEUTERONOMY_32,
   'deuteronomy/33': DEUTERONOMY_33,
   'deuteronomy/34': DEUTERONOMY_34,
+  'joshua/1': JOSHUA_1,
+  'joshua/2': JOSHUA_2,
+  'joshua/3': JOSHUA_3,
+  'joshua/4': JOSHUA_4,
+  'joshua/5': JOSHUA_5,
+  'joshua/6': JOSHUA_6,
+  'joshua/7': JOSHUA_7,
+  'joshua/8': JOSHUA_8,
+  'joshua/9': JOSHUA_9,
+  'joshua/10': JOSHUA_10,
+  'joshua/11': JOSHUA_11,
+  'joshua/12': JOSHUA_12,
+  'joshua/13': JOSHUA_13,
+  'joshua/14': JOSHUA_14,
+  'joshua/15': JOSHUA_15,
+  'joshua/16': JOSHUA_16,
+  'joshua/17': JOSHUA_17,
+  'joshua/18': JOSHUA_18,
+  'joshua/19': JOSHUA_19,
+  'joshua/20': JOSHUA_20,
 };
 
 /**
