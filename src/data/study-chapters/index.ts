@@ -483,6 +483,26 @@ import { JOB_24 } from './job-24';
 import { JOB_25 } from './job-25';
 import { JOB_26 } from './job-26';
 import { JOB_27 } from './job-27';
+import { JOB_28 } from './job-28';
+import { JOB_29 } from './job-29';
+import { JOB_30 } from './job-30';
+import { JOB_31 } from './job-31';
+import { JOB_32 } from './job-32';
+import { JOB_33 } from './job-33';
+import { JOB_34 } from './job-34';
+import { JOB_35 } from './job-35';
+import { JOB_36 } from './job-36';
+import { JOB_37 } from './job-37';
+import { JOB_38 } from './job-38';
+import { JOB_39 } from './job-39';
+import { JOB_40 } from './job-40';
+import { JOB_41 } from './job-41';
+import { JOB_42 } from './job-42';
+import { PSALMS_1 } from './psalms-1';
+import { PSALMS_2 } from './psalms-2';
+import { PSALMS_3 } from './psalms-3';
+import { PSALMS_4 } from './psalms-4';
+import { PSALMS_5 } from './psalms-5';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -949,6 +969,26 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'job/25': JOB_25,
   'job/26': JOB_26,
   'job/27': JOB_27,
+  'job/28': JOB_28,
+  'job/29': JOB_29,
+  'job/30': JOB_30,
+  'job/31': JOB_31,
+  'job/32': JOB_32,
+  'job/33': JOB_33,
+  'job/34': JOB_34,
+  'job/35': JOB_35,
+  'job/36': JOB_36,
+  'job/37': JOB_37,
+  'job/38': JOB_38,
+  'job/39': JOB_39,
+  'job/40': JOB_40,
+  'job/41': JOB_41,
+  'job/42': JOB_42,
+  'psalms/1': PSALMS_1,
+  'psalms/2': PSALMS_2,
+  'psalms/3': PSALMS_3,
+  'psalms/4': PSALMS_4,
+  'psalms/5': PSALMS_5,
 };
 
 /**
