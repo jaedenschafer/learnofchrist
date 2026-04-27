@@ -150,6 +150,26 @@ import { NUMBERS_10 } from './numbers-10';
 import { NUMBERS_11 } from './numbers-11';
 import { NUMBERS_12 } from './numbers-12';
 import { NUMBERS_13 } from './numbers-13';
+import { NUMBERS_14 } from './numbers-14';
+import { NUMBERS_15 } from './numbers-15';
+import { NUMBERS_16 } from './numbers-16';
+import { NUMBERS_17 } from './numbers-17';
+import { NUMBERS_18 } from './numbers-18';
+import { NUMBERS_19 } from './numbers-19';
+import { NUMBERS_20 } from './numbers-20';
+import { NUMBERS_21 } from './numbers-21';
+import { NUMBERS_22 } from './numbers-22';
+import { NUMBERS_23 } from './numbers-23';
+import { NUMBERS_24 } from './numbers-24';
+import { NUMBERS_25 } from './numbers-25';
+import { NUMBERS_26 } from './numbers-26';
+import { NUMBERS_27 } from './numbers-27';
+import { NUMBERS_28 } from './numbers-28';
+import { NUMBERS_29 } from './numbers-29';
+import { NUMBERS_30 } from './numbers-30';
+import { NUMBERS_31 } from './numbers-31';
+import { NUMBERS_32 } from './numbers-32';
+import { NUMBERS_33 } from './numbers-33';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -283,6 +303,26 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'numbers/11': NUMBERS_11,
   'numbers/12': NUMBERS_12,
   'numbers/13': NUMBERS_13,
+  'numbers/14': NUMBERS_14,
+  'numbers/15': NUMBERS_15,
+  'numbers/16': NUMBERS_16,
+  'numbers/17': NUMBERS_17,
+  'numbers/18': NUMBERS_18,
+  'numbers/19': NUMBERS_19,
+  'numbers/20': NUMBERS_20,
+  'numbers/21': NUMBERS_21,
+  'numbers/22': NUMBERS_22,
+  'numbers/23': NUMBERS_23,
+  'numbers/24': NUMBERS_24,
+  'numbers/25': NUMBERS_25,
+  'numbers/26': NUMBERS_26,
+  'numbers/27': NUMBERS_27,
+  'numbers/28': NUMBERS_28,
+  'numbers/29': NUMBERS_29,
+  'numbers/30': NUMBERS_30,
+  'numbers/31': NUMBERS_31,
+  'numbers/32': NUMBERS_32,
+  'numbers/33': NUMBERS_33,
 };
 
 /**
