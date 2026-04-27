@@ -1209,6 +1209,23 @@ import { REVELATION_19 } from './revelation-19';
 import { REVELATION_20 } from './revelation-20';
 import { REVELATION_21 } from './revelation-21';
 import { REVELATION_22 } from './revelation-22';
+import { BARUCH_1 } from './baruch-1';
+import { BARUCH_2 } from './baruch-2';
+import { BARUCH_3 } from './baruch-3';
+import { BARUCH_4 } from './baruch-4';
+import { BARUCH_5 } from './baruch-5';
+import { BARUCH_6 } from './baruch-6';
+import { FIRST_ESDRAS_1 } from './1-esdras-1';
+import { FIRST_ESDRAS_2 } from './1-esdras-2';
+import { FIRST_ESDRAS_3 } from './1-esdras-3';
+import { FIRST_ESDRAS_4 } from './1-esdras-4';
+import { FIRST_ESDRAS_5 } from './1-esdras-5';
+import { FIRST_ESDRAS_6 } from './1-esdras-6';
+import { FIRST_ESDRAS_7 } from './1-esdras-7';
+import { FIRST_ESDRAS_8 } from './1-esdras-8';
+import { FIRST_ESDRAS_9 } from './1-esdras-9';
+import { PRAYER_OF_MANASSEH_1 } from './prayer-of-manasseh-1';
+import { PSALM_151_1 } from './psalm-151-1';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -2401,6 +2418,23 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'revelation/20': REVELATION_20,
   'revelation/21': REVELATION_21,
   'revelation/22': REVELATION_22,
+  'baruch/1': BARUCH_1,
+  'baruch/2': BARUCH_2,
+  'baruch/3': BARUCH_3,
+  'baruch/4': BARUCH_4,
+  'baruch/5': BARUCH_5,
+  'baruch/6': BARUCH_6,
+  '1-esdras/1': FIRST_ESDRAS_1,
+  '1-esdras/2': FIRST_ESDRAS_2,
+  '1-esdras/3': FIRST_ESDRAS_3,
+  '1-esdras/4': FIRST_ESDRAS_4,
+  '1-esdras/5': FIRST_ESDRAS_5,
+  '1-esdras/6': FIRST_ESDRAS_6,
+  '1-esdras/7': FIRST_ESDRAS_7,
+  '1-esdras/8': FIRST_ESDRAS_8,
+  '1-esdras/9': FIRST_ESDRAS_9,
+  'prayer-of-manasseh/1': PRAYER_OF_MANASSEH_1,
+  'psalm-151/1': PSALM_151_1,
 };
 
 /**

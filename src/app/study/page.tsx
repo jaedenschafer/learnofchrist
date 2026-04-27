@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { getOldTestamentBooks, getNewTestamentBooks, getApocryphaBooks } from '@/data/books';
+import { getOldTestamentBooks, getNewTestamentBooks, getApocryphaBooks, getOrthodoxBooks } from '@/data/books';
 import BookGrid from '@/components/BookGrid';
 
 // ─── ISR ───
@@ -55,6 +55,7 @@ export default function StudyIndexPage() {
   const oldTestament = getOldTestamentBooks();
   const newTestament = getNewTestamentBooks();
   const apocrypha = getApocryphaBooks();
+  const orthodox = getOrthodoxBooks();
 
   return (
     <div className="page-container">
@@ -153,12 +154,20 @@ export default function StudyIndexPage() {
           <BookGrid books={newTestament} basePath="/study" />
         </section>
 
-        <section>
+        <section className="mb-12">
           <SectionHeading eyebrow={`${apocrypha.length} Books`} title="Deuterocanonical" accent="purple" />
           <p className="text-[0.8125rem] text-[color:var(--color-secondary-label)] mb-4 px-1 leading-relaxed">
             Included in Catholic and Orthodox Bibles. Available in the Douay-Rheims American (DRA) translation.
           </p>
           <BookGrid books={apocrypha} basePath="/study" />
+        </section>
+
+        <section>
+          <SectionHeading eyebrow={`${orthodox.length} Books`} title="Wider Orthodox Canon" accent="purple" />
+          <p className="text-[0.8125rem] text-[color:var(--color-secondary-label)] mb-4 px-1 leading-relaxed">
+            Additional books used in Eastern Orthodox traditions — 1-2 Esdras, Prayer of Manasseh, 3-4 Maccabees, Psalm 151.
+          </p>
+          <BookGrid books={orthodox} basePath="/study" />
         </section>
 
       </div>

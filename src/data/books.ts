@@ -1,7 +1,7 @@
 export interface BibleBook {
   id: string;
   name: string;
-  testament: 'old' | 'new' | 'apocrypha';
+  testament: 'old' | 'new' | 'apocrypha' | 'orthodox';
   chapters: number;
   description: string;
   abbreviation: string;
@@ -107,6 +107,15 @@ export const bibleBooks: BibleBook[] = [
   { id: '70', name: 'Sirach', testament: 'apocrypha', chapters: 51, abbreviation: 'Sir', description: 'Practical wisdom for living a faithful and moral life.' },
   { id: '71', name: '1 Maccabees', testament: 'apocrypha', chapters: 16, abbreviation: '1Ma', description: 'The Jewish revolt against Seleucid oppression and the rededication of the Temple.' },
   { id: '72', name: '2 Maccabees', testament: 'apocrypha', chapters: 15, abbreviation: '2Ma', description: 'A theological reflection on the Maccabean revolt and God\'s faithfulness.' },
+  { id: '73', name: 'Baruch', testament: 'apocrypha', chapters: 6, abbreviation: 'Bar', description: 'A prayer of confession from exile, with the Letter of Jeremiah included as chapter 6.' },
+
+  // Wider Orthodox / Eastern canon
+  { id: '74', name: '1 Esdras', testament: 'orthodox', chapters: 9, abbreviation: '1Es', description: 'A retelling of the return from exile, with the famous contest of the three pages.' },
+  { id: '75', name: '2 Esdras', testament: 'orthodox', chapters: 16, abbreviation: '2Es', description: 'Apocalyptic visions of Ezra wrestling with God\'s justice and the world\'s end.' },
+  { id: '76', name: 'Prayer of Manasseh', testament: 'orthodox', chapters: 1, abbreviation: 'PrM', description: 'The penitent prayer of King Manasseh — a model of repentance from the depths.' },
+  { id: '77', name: '3 Maccabees', testament: 'orthodox', chapters: 7, abbreviation: '3Ma', description: 'God\'s deliverance of Egyptian Jews from Ptolemy IV Philopator.' },
+  { id: '78', name: '4 Maccabees', testament: 'orthodox', chapters: 18, abbreviation: '4Ma', description: 'A philosophical meditation on devout reason mastering the passions through martyrdom.' },
+  { id: '79', name: 'Psalm 151', testament: 'orthodox', chapters: 1, abbreviation: 'Ps151', description: 'A short autobiographical psalm attributed to David — the shepherd-king\'s testimony.' },
 ];
 
 export function getBookById(id: string): BibleBook | undefined {
@@ -131,4 +140,8 @@ export function getNewTestamentBooks(): BibleBook[] {
 
 export function getApocryphaBooks(): BibleBook[] {
   return bibleBooks.filter(book => book.testament === 'apocrypha');
+}
+
+export function getOrthodoxBooks(): BibleBook[] {
+  return bibleBooks.filter(book => book.testament === 'orthodox');
 }
