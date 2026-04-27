@@ -327,6 +327,26 @@ import { KINGS_1_13 } from './1-kings-13';
 import { KINGS_1_14 } from './1-kings-14';
 import { KINGS_1_15 } from './1-kings-15';
 import { KINGS_1_16 } from './1-kings-16';
+import { KINGS_1_17 } from './1-kings-17';
+import { KINGS_1_18 } from './1-kings-18';
+import { KINGS_1_19 } from './1-kings-19';
+import { KINGS_1_20 } from './1-kings-20';
+import { KINGS_1_21 } from './1-kings-21';
+import { KINGS_1_22 } from './1-kings-22';
+import { KINGS_2_1 } from './2-kings-1';
+import { KINGS_2_2 } from './2-kings-2';
+import { KINGS_2_3 } from './2-kings-3';
+import { KINGS_2_4 } from './2-kings-4';
+import { KINGS_2_5 } from './2-kings-5';
+import { KINGS_2_6 } from './2-kings-6';
+import { KINGS_2_7 } from './2-kings-7';
+import { KINGS_2_8 } from './2-kings-8';
+import { KINGS_2_9 } from './2-kings-9';
+import { KINGS_2_10 } from './2-kings-10';
+import { KINGS_2_11 } from './2-kings-11';
+import { KINGS_2_12 } from './2-kings-12';
+import { KINGS_2_13 } from './2-kings-13';
+import { KINGS_2_14 } from './2-kings-14';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -637,6 +657,26 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   '1-kings/14': KINGS_1_14,
   '1-kings/15': KINGS_1_15,
   '1-kings/16': KINGS_1_16,
+  '1-kings/17': KINGS_1_17,
+  '1-kings/18': KINGS_1_18,
+  '1-kings/19': KINGS_1_19,
+  '1-kings/20': KINGS_1_20,
+  '1-kings/21': KINGS_1_21,
+  '1-kings/22': KINGS_1_22,
+  '2-kings/1': KINGS_2_1,
+  '2-kings/2': KINGS_2_2,
+  '2-kings/3': KINGS_2_3,
+  '2-kings/4': KINGS_2_4,
+  '2-kings/5': KINGS_2_5,
+  '2-kings/6': KINGS_2_6,
+  '2-kings/7': KINGS_2_7,
+  '2-kings/8': KINGS_2_8,
+  '2-kings/9': KINGS_2_9,
+  '2-kings/10': KINGS_2_10,
+  '2-kings/11': KINGS_2_11,
+  '2-kings/12': KINGS_2_12,
+  '2-kings/13': KINGS_2_13,
+  '2-kings/14': KINGS_2_14,
 };
 
 /**
