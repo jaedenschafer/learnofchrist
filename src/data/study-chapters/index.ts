@@ -949,6 +949,34 @@ import { MALACHI_1 } from './malachi-1';
 import { MALACHI_2 } from './malachi-2';
 import { MALACHI_3 } from './malachi-3';
 import { MALACHI_4 } from './malachi-4';
+import { MATTHEW_1 } from './matthew-1';
+import { MATTHEW_2 } from './matthew-2';
+import { MATTHEW_3 } from './matthew-3';
+import { MATTHEW_4 } from './matthew-4';
+import { MATTHEW_5 } from './matthew-5';
+import { MATTHEW_6 } from './matthew-6';
+import { MATTHEW_7 } from './matthew-7';
+import { MATTHEW_8 } from './matthew-8';
+import { MATTHEW_9 } from './matthew-9';
+import { MATTHEW_10 } from './matthew-10';
+import { MATTHEW_11 } from './matthew-11';
+import { MATTHEW_12 } from './matthew-12';
+import { MATTHEW_13 } from './matthew-13';
+import { MATTHEW_14 } from './matthew-14';
+import { MATTHEW_15 } from './matthew-15';
+import { MATTHEW_16 } from './matthew-16';
+import { MATTHEW_17 } from './matthew-17';
+import { MATTHEW_18 } from './matthew-18';
+import { MATTHEW_19 } from './matthew-19';
+import { MATTHEW_20 } from './matthew-20';
+import { MATTHEW_21 } from './matthew-21';
+import { MATTHEW_22 } from './matthew-22';
+import { MATTHEW_23 } from './matthew-23';
+import { MATTHEW_24 } from './matthew-24';
+import { MATTHEW_25 } from './matthew-25';
+import { MATTHEW_26 } from './matthew-26';
+import { MATTHEW_27 } from './matthew-27';
+import { MATTHEW_28 } from './matthew-28';
 import { MARK_1 } from './mark-1';
 import { MARK_2 } from './mark-2';
 import { MARK_3 } from './mark-3';
@@ -1897,6 +1925,34 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'malachi/2': MALACHI_2,
   'malachi/3': MALACHI_3,
   'malachi/4': MALACHI_4,
+  'matthew/1': MATTHEW_1,
+  'matthew/2': MATTHEW_2,
+  'matthew/3': MATTHEW_3,
+  'matthew/4': MATTHEW_4,
+  'matthew/5': MATTHEW_5,
+  'matthew/6': MATTHEW_6,
+  'matthew/7': MATTHEW_7,
+  'matthew/8': MATTHEW_8,
+  'matthew/9': MATTHEW_9,
+  'matthew/10': MATTHEW_10,
+  'matthew/11': MATTHEW_11,
+  'matthew/12': MATTHEW_12,
+  'matthew/13': MATTHEW_13,
+  'matthew/14': MATTHEW_14,
+  'matthew/15': MATTHEW_15,
+  'matthew/16': MATTHEW_16,
+  'matthew/17': MATTHEW_17,
+  'matthew/18': MATTHEW_18,
+  'matthew/19': MATTHEW_19,
+  'matthew/20': MATTHEW_20,
+  'matthew/21': MATTHEW_21,
+  'matthew/22': MATTHEW_22,
+  'matthew/23': MATTHEW_23,
+  'matthew/24': MATTHEW_24,
+  'matthew/25': MATTHEW_25,
+  'matthew/26': MATTHEW_26,
+  'matthew/27': MATTHEW_27,
+  'matthew/28': MATTHEW_28,
   'mark/1': MARK_1,
   'mark/2': MARK_2,
   'mark/3': MARK_3,

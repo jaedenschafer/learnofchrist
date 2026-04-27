@@ -2,14 +2,18 @@
    Airbnb's "Stays" detail pages: a soft hero image plate, a generous
    serif headline, an inline metadata bar, refined dividers, drop-cap
    biography prose, magazine-style notable-works blocks, and a quiet
-   "all works" grid. Two-column on wide viewports (bio left, sticky
-   sources card right), single-column on mobile.                     */
+   "all works" grid. Two-column on wide viewports, single-column on
+   mobile. Designed to also frame cleanly inside a future native-app
+   webview: no sticky/fixed positioning, all interactive surfaces are
+   ≥44px tap targets, no hover-only affordances, safe-area aware. */
 
 /* ── Page frame ──────────────────────────────────────────────────── */
 .artist-page {
   max-width: 1120px;
   margin: 0 auto;
-  padding: 0 1rem;
+  /* Honor iOS safe-area insets when embedded in a native shell. */
+  padding-left: max(1rem, env(safe-area-inset-left));
+  padding-right: max(1rem, env(safe-area-inset-right));
 }
 
 @media (min-width: 768px) {
@@ -392,17 +396,21 @@ html[data-reader-theme="dark"] .artist-hero__art-caption {
 .artist-scenes__chapter {
   display: inline-flex;
   align-items: center;
-  padding: 0.3rem 0.625rem;
+  padding: 0.5rem 0.875rem;
+  /* Tap-target on mobile/app shells. */
+  min-height: 36px;
   font-size: 0.8125rem;
   font-weight: 500;
   color: var(--color-label);
   background: var(--color-fill-subtle);
   border-radius: 999px;
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
   transition: background 0.15s ease, color 0.15s ease;
 }
 
-.artist-scenes__chapter:hover {
+.artist-scenes__chapter:hover,
+.artist-scenes__chapter:active {
   background: var(--color-label);
   color: var(--color-surface);
 }
@@ -596,6 +604,9 @@ html[data-reader-theme="dark"] .artist-faith {
   justify-content: space-between;
   gap: 1rem;
   padding: 1.25rem 0;
+  /* Tap-target sizing for mobile / app shells. */
+  min-height: 44px;
+  -webkit-tap-highlight-color: transparent;
   font-family: var(--font-serif), Georgia, serif;
   font-weight: 600;
   font-size: 1.0625rem;
