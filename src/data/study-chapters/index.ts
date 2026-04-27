@@ -1038,6 +1038,28 @@ import { JOHN_18 } from './john-18';
 import { JOHN_19 } from './john-19';
 import { JOHN_20 } from './john-20';
 import { JOHN_21 } from './john-21';
+import { ACTS_1 } from './acts-1';
+import { ACTS_2 } from './acts-2';
+import { ACTS_3 } from './acts-3';
+import { ACTS_4 } from './acts-4';
+import { ACTS_5 } from './acts-5';
+import { ACTS_6 } from './acts-6';
+import { ROMANS_1 } from './romans-1';
+import { ROMANS_2 } from './romans-2';
+import { ROMANS_3 } from './romans-3';
+import { ROMANS_4 } from './romans-4';
+import { ROMANS_5 } from './romans-5';
+import { ROMANS_6 } from './romans-6';
+import { ROMANS_7 } from './romans-7';
+import { ROMANS_8 } from './romans-8';
+import { ROMANS_9 } from './romans-9';
+import { ROMANS_10 } from './romans-10';
+import { ROMANS_11 } from './romans-11';
+import { ROMANS_12 } from './romans-12';
+import { ROMANS_13 } from './romans-13';
+import { ROMANS_14 } from './romans-14';
+import { ROMANS_15 } from './romans-15';
+import { ROMANS_16 } from './romans-16';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -2059,6 +2081,28 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   'john/19': JOHN_19,
   'john/20': JOHN_20,
   'john/21': JOHN_21,
+  'acts/1': ACTS_1,
+  'acts/2': ACTS_2,
+  'acts/3': ACTS_3,
+  'acts/4': ACTS_4,
+  'acts/5': ACTS_5,
+  'acts/6': ACTS_6,
+  'romans/1': ROMANS_1,
+  'romans/2': ROMANS_2,
+  'romans/3': ROMANS_3,
+  'romans/4': ROMANS_4,
+  'romans/5': ROMANS_5,
+  'romans/6': ROMANS_6,
+  'romans/7': ROMANS_7,
+  'romans/8': ROMANS_8,
+  'romans/9': ROMANS_9,
+  'romans/10': ROMANS_10,
+  'romans/11': ROMANS_11,
+  'romans/12': ROMANS_12,
+  'romans/13': ROMANS_13,
+  'romans/14': ROMANS_14,
+  'romans/15': ROMANS_15,
+  'romans/16': ROMANS_16,
 };
 
 /**
