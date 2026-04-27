@@ -39,6 +39,7 @@ const sb = createClient(
 
 const DRY = process.argv.includes('--dry-run');
 const REFRESH = process.argv.includes('--refresh');
+const BIO_ONLY = process.argv.includes('--bio-only');
 const limitIdx = process.argv.indexOf('--limit');
 const LIMIT = limitIdx >= 0 ? parseInt(process.argv[limitIdx + 1], 10) : Infinity;
 const slugIdx = process.argv.indexOf('--slug');
@@ -287,7 +288,7 @@ async function fetchAllArtists() {
   for (let from = 0; ; from += PAGE) {
     let q = sb
       .from('artists')
-      .select('id, slug, name, wikipedia_url, wikidata_id, bio_sources, portrait_url')
+      .select('id, slug, name, wikipedia_url, wikidata_id, bio_sources, portrait_url, bio_long')
       .order('id', { ascending: true })
       .range(from, from + PAGE - 1);
     if (ONLY_SLUG) q = q.eq('slug', ONLY_SLUG);
@@ -363,12 +364,25 @@ async function processOne(r) {
 
 async function main() {
   const rows = await fetchAllArtists();
-  // Try every artist that has a name, period. The findPortrait()
-  // pipeline uses wikipedia_url / wikidata_id as fast paths and falls
-  // back to a Wikidata name search when neither is present.
-  const candidates = rows.filter((r) => Boolean(r.name && r.name.trim()));
+  // Skip artists who definitionally can't have a portrait — anonymous
+  // attribution buckets, Master-of-X conventions, workshops, circles,
+  // copies, followers. None of these are real individual people whose
+  // photo we could publish even if we found one.
+  const NON_PERSONAL = /^(anonymous\b|master(\s+(of|called)\b)?|after\b|attributed\b|circle of\b|copy after\b|follower of\b|school of\b|studio of\b|workshop of\b|imitator of\b|.*\band workshop$)/i;
+  let candidates = rows.filter(
+    (r) =>
+      r.name &&
+      r.name.trim() &&
+      !NON_PERSONAL.test(r.name.trim()),
+  );
+  if (BIO_ONLY) {
+    candidates = candidates.filter((r) => (r.bio_long ?? '').length >= 200);
+  }
+  const dropped = rows.length - candidates.length;
   console.log(
-    `${rows.length} artists; ${candidates.length} have a name to search.`,
+    `${rows.length} artists; ${candidates.length} are individuals worth searching` +
+      (BIO_ONLY ? ' (bio-only mode)' : '') +
+      ` (${dropped} skipped).`,
   );
 
   const work = LIMIT < Infinity ? candidates.slice(0, LIMIT) : candidates;
