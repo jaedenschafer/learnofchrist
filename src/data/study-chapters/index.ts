@@ -267,6 +267,26 @@ import { SAMUEL_1_8 } from './1-samuel-8';
 import { SAMUEL_1_9 } from './1-samuel-9';
 import { SAMUEL_1_10 } from './1-samuel-10';
 import { SAMUEL_1_11 } from './1-samuel-11';
+import { SAMUEL_1_12 } from './1-samuel-12';
+import { SAMUEL_1_13 } from './1-samuel-13';
+import { SAMUEL_1_14 } from './1-samuel-14';
+import { SAMUEL_1_15 } from './1-samuel-15';
+import { SAMUEL_1_16 } from './1-samuel-16';
+import { SAMUEL_1_17 } from './1-samuel-17';
+import { SAMUEL_1_18 } from './1-samuel-18';
+import { SAMUEL_1_19 } from './1-samuel-19';
+import { SAMUEL_1_20 } from './1-samuel-20';
+import { SAMUEL_1_21 } from './1-samuel-21';
+import { SAMUEL_1_22 } from './1-samuel-22';
+import { SAMUEL_1_23 } from './1-samuel-23';
+import { SAMUEL_1_24 } from './1-samuel-24';
+import { SAMUEL_1_25 } from './1-samuel-25';
+import { SAMUEL_1_26 } from './1-samuel-26';
+import { SAMUEL_1_27 } from './1-samuel-27';
+import { SAMUEL_1_28 } from './1-samuel-28';
+import { SAMUEL_1_29 } from './1-samuel-29';
+import { SAMUEL_1_30 } from './1-samuel-30';
+import { SAMUEL_1_31 } from './1-samuel-31';
 
 /** Hand-authored rich chapters. Keyed by `<book-slug>/<chapter>`. */
 const RICH_CHAPTERS: Record<string, RichChapterContent> = {
@@ -517,6 +537,26 @@ const RICH_CHAPTERS: Record<string, RichChapterContent> = {
   '1-samuel/9': SAMUEL_1_9,
   '1-samuel/10': SAMUEL_1_10,
   '1-samuel/11': SAMUEL_1_11,
+  '1-samuel/12': SAMUEL_1_12,
+  '1-samuel/13': SAMUEL_1_13,
+  '1-samuel/14': SAMUEL_1_14,
+  '1-samuel/15': SAMUEL_1_15,
+  '1-samuel/16': SAMUEL_1_16,
+  '1-samuel/17': SAMUEL_1_17,
+  '1-samuel/18': SAMUEL_1_18,
+  '1-samuel/19': SAMUEL_1_19,
+  '1-samuel/20': SAMUEL_1_20,
+  '1-samuel/21': SAMUEL_1_21,
+  '1-samuel/22': SAMUEL_1_22,
+  '1-samuel/23': SAMUEL_1_23,
+  '1-samuel/24': SAMUEL_1_24,
+  '1-samuel/25': SAMUEL_1_25,
+  '1-samuel/26': SAMUEL_1_26,
+  '1-samuel/27': SAMUEL_1_27,
+  '1-samuel/28': SAMUEL_1_28,
+  '1-samuel/29': SAMUEL_1_29,
+  '1-samuel/30': SAMUEL_1_30,
+  '1-samuel/31': SAMUEL_1_31,
 };
 
 /**

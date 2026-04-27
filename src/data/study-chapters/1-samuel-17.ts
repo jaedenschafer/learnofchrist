@@ -109,7 +109,9 @@ export const SAMUEL_1_17: RichChapterContent = {
           kind: 'commentary',
           id: 'c-champion',
           html:
-            'A "champion" in this ancient world was not a winner of contests. He was a '),
+            'A &quot;champion&quot; in this ancient world was not a winner of contests. He was a man chosen to fight on behalf of the army — a single combatant whose victory or defeat would settle the battle.',
+        },
+        {
           kind: 'commentary',
           id: 'c-giant-size',
           html:
