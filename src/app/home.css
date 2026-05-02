@@ -1261,11 +1261,14 @@ html[data-reader-theme="dark"] .loc-stats {
   position: absolute;
   inset: 0;
   z-index: -2;
+  /* Lighter veil — the photo stays luminous so white text on frosted
+     cards reads well, and the cards stand out by frost+border, not
+     by darkening the backdrop. */
   background:
     linear-gradient(180deg,
-      rgba(26, 22, 18, 0.30) 0%,
-      rgba(26, 22, 18, 0.45) 60%,
-      rgba(26, 22, 18, 0.65) 100%);
+      rgba(26, 22, 18, 0.10) 0%,
+      rgba(26, 22, 18, 0.22) 60%,
+      rgba(26, 22, 18, 0.35) 100%);
 }
 
 .loc-dash__warm {
@@ -1384,20 +1387,20 @@ html[data-reader-theme="dark"] .loc-stats {
   text-wrap: balance;
 }
 
-/* ── Reading card — flat frosted, dark text on cream glass ───────────────
-   Matches the Mental Health reference posture: a quiet creamy frosted
-   pane sitting over the photo. No 3D bloom, no peach inner glow, no
-   deep shadow — just blur, faint border, dark Compline text inside. */
+/* ── Reading card — frosted glass, photo bleeds through, white text ──────
+   Matches the Mental Health reference exactly: the card is a thin
+   white-tinted pane that lets the photo behind it remain visible,
+   and all text inside is white. The frost comes from blur+saturate,
+   not opacity. */
 .loc-dash__card {
   position: relative;
   border-radius: 28px;
   padding: clamp(1.25rem, 2.5vw, 1.75rem);
-  background: rgba(245, 240, 230, 0.55);   /* Parchment at 55% — flat */
-  -webkit-backdrop-filter: blur(28px) saturate(140%);
-  backdrop-filter: blur(28px) saturate(140%);
-  border: 1px solid rgba(255, 255, 255, 0.40);
-  box-shadow: 0 10px 32px -16px rgba(26, 22, 18, 0.20); /* faint lift only */
-  color: var(--vesper-compline);
+  background: rgba(255, 255, 255, 0.18);
+  -webkit-backdrop-filter: blur(28px) saturate(150%);
+  backdrop-filter: blur(28px) saturate(150%);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  color: #FFFFFF;
   isolation: isolate;
 }
 
@@ -1413,7 +1416,7 @@ html[data-reader-theme="dark"] .loc-stats {
   font-family: 'Inter', sans-serif;
   font-size: 1rem;
   font-weight: 600;
-  color: var(--vesper-compline);
+  color: #FFFFFF;
   margin: 0;
   letter-spacing: -0.005em;
 }
@@ -1423,8 +1426,8 @@ html[data-reader-theme="dark"] .loc-stats {
   align-items: center;
   padding: 3px;
   border-radius: 999px;
-  background: rgba(26, 22, 18, 0.06);
-  border: 1px solid rgba(26, 22, 18, 0.06);
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .loc-dash__tab {
@@ -1435,7 +1438,7 @@ html[data-reader-theme="dark"] .loc-stats {
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.01em;
-  color: rgba(26, 22, 18, 0.55);
+  color: rgba(255, 255, 255, 0.65);
   cursor: default;
 }
 .loc-dash__tab.is-active {
@@ -1456,8 +1459,8 @@ html[data-reader-theme="dark"] .loc-stats {
   text-align: center;
   padding: 0.55rem 0;
   border-radius: 14px;
-  background: rgba(26, 22, 18, 0.06);
-  border: 1px solid rgba(26, 22, 18, 0.04);
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.20);
 }
 .loc-dash__date strong {
   display: block;
@@ -1465,7 +1468,7 @@ html[data-reader-theme="dark"] .loc-stats {
   font-weight: 500;
   font-size: 1.625rem;
   line-height: 1;
-  color: var(--vesper-compline);
+  color: #FFFFFF;
   letter-spacing: -0.02em;
 }
 .loc-dash__date span {
@@ -1475,7 +1478,7 @@ html[data-reader-theme="dark"] .loc-stats {
   font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: rgba(26, 22, 18, 0.55);
+  color: rgba(255, 255, 255, 0.78);
 }
 
 .loc-dash__card-copy { min-width: 0; flex: 1 1 auto; }
@@ -1485,7 +1488,7 @@ html[data-reader-theme="dark"] .loc-stats {
   font-weight: 600;
   font-size: 0.9375rem;
   line-height: 1.2;
-  color: var(--vesper-compline);
+  color: #FFFFFF;
   margin: 0 0 0.35rem;
   letter-spacing: -0.005em;
   text-transform: capitalize;
@@ -1494,7 +1497,7 @@ html[data-reader-theme="dark"] .loc-stats {
 .loc-dash__card-text {
   font-size: 0.9375rem;
   line-height: 1.5;
-  color: rgba(26, 22, 18, 0.72);
+  color: rgba(255, 255, 255, 0.86);
   margin: 0;
 }
 
@@ -1509,17 +1512,20 @@ html[data-reader-theme="dark"] .loc-stats {
   font-weight: 600;
   letter-spacing: -0.005em;
   color: #FFFFFF;
-  /* Flat charcoal pill — matches the "Need Solutions?" reference. */
-  background: rgba(26, 22, 18, 0.85);
-  border: 1px solid rgba(26, 22, 18, 0.10);
+  /* Frosted charcoal pill — matches the reference's "Need Solutions?". */
+  background: rgba(26, 22, 18, 0.55);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
+  backdrop-filter: blur(18px) saturate(140%);
+  border: 1px solid rgba(255, 255, 255, 0.10);
   transition: background 0.2s ease;
 }
 .loc-dash__card-cta:hover {
-  background: var(--vesper-compline);
+  background: rgba(26, 22, 18, 0.75);
 }
 
-/* ── Prompt rows — flat frosted creamy panes ─────────────────────────────
-   Same recipe as the card; same flat posture. Subtle hover only. */
+/* ── Prompt rows — frosted with white text ───────────────────────────────
+   Same frosted pane as the card, white text floats on top, the photo
+   continues bleeding through. */
 .loc-dash__row {
   display: flex;
   align-items: center;
@@ -1528,23 +1534,22 @@ html[data-reader-theme="dark"] .loc-stats {
   padding: 1rem 1.25rem;
   border-radius: 999px;
   text-decoration: none;
-  color: var(--vesper-compline);
-  background: rgba(245, 240, 230, 0.50);
-  -webkit-backdrop-filter: blur(24px) saturate(140%);
-  backdrop-filter: blur(24px) saturate(140%);
-  border: 1px solid rgba(255, 255, 255, 0.35);
-  box-shadow: 0 8px 24px -14px rgba(26, 22, 18, 0.18);
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.16);
+  -webkit-backdrop-filter: blur(24px) saturate(150%);
+  backdrop-filter: blur(24px) saturate(150%);
+  border: 1px solid rgba(255, 255, 255, 0.22);
   transition: background 0.2s ease, border-color 0.18s ease;
 }
 .loc-dash__row:hover {
-  background: rgba(245, 240, 230, 0.65);
-  border-color: rgba(255, 255, 255, 0.55);
+  background: rgba(255, 255, 255, 0.24);
+  border-color: rgba(255, 255, 255, 0.32);
 }
 
 .loc-dash__row-label {
   font-size: 0.9375rem;
   font-weight: 600;
-  color: var(--vesper-compline);
+  color: #FFFFFF;
   letter-spacing: -0.005em;
 }
 
@@ -1557,7 +1562,7 @@ html[data-reader-theme="dark"] .loc-stats {
   font-size: 0.8125rem;
   font-weight: 700;
   letter-spacing: 0.005em;
-  border: 1px solid rgba(26, 22, 18, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 .loc-dash__row-add {
@@ -1565,9 +1570,9 @@ html[data-reader-theme="dark"] .loc-stats {
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background: rgba(26, 22, 18, 0.06);
-  border: 1px solid rgba(26, 22, 18, 0.08);
-  color: var(--vesper-compline);
+  background: rgba(255, 255, 255, 0.20);
+  border: 1px solid rgba(255, 255, 255, 0.30);
+  color: #FFFFFF;
   display: inline-flex;
   align-items: center;
   justify-content: center;

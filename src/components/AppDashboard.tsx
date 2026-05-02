@@ -62,16 +62,18 @@ export default function AppDashboard() {
 
   return (
     <section className="loc-dash" aria-label="Today">
+      {/* Soft pale morning light — bright enough that white text on the
+          frosted cards stays legible, atmospheric enough that the
+          backdrop carries the meditative tone. */}
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=2400&q=85"
+        src="https://images.unsplash.com/photo-1505672678657-cc7037095e60?auto=format&fit=crop&w=2400&q=85"
         alt=""
         className="loc-dash__bg"
         loading="lazy"
         decoding="async"
       />
       <div className="loc-dash__veil" aria-hidden="true" />
-      <div className="loc-dash__warm" aria-hidden="true" />
 
       <div className="loc-wrap loc-dash__inner">
         {/* ── Greeting ─────────────────────────────────── */}
