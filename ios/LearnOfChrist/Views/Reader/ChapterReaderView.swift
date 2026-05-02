@@ -23,10 +23,26 @@ struct ChapterReaderView: View {
     @Query private var highlights: [StoredHighlight]
     @Query private var notes: [StoredNote]
 
+    @AppStorage(AppearancePreferences.Key.textSize)
+    private var textSizeRaw: String = AppearancePreferences.TextSizePreference.medium.rawValue
+
     @State private var isBookmarked: Bool = false
     @State private var noteEditorVerse: Int?
     @State private var noteEditorBody: String = ""
     @State private var pendingShare: String?
+
+    /// Set of verse numbers currently >= 50% on screen. The smallest
+    /// is taken as the "user's place" and persisted on debounce.
+    @State private var visibleVerses: Set<Int> = []
+    /// Pinned target for one-time scroll restore on first appear; cleared
+    /// after we resolve the proxy.scrollTo so we don't fight user scroll.
+    @State private var pendingScrollTarget: Int?
+
+    private var textSize: AppearancePreferences.TextSizePreference {
+        AppearancePreferences.TextSizePreference(rawValue: textSizeRaw) ?? .medium
+    }
+
+    private var topVisibleVerse: Int? { visibleVerses.min() }
 
     init(chapter: RichChapterContent) {
         self.chapter = chapter
@@ -45,70 +61,117 @@ struct ChapterReaderView: View {
     }
 
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: Theme.metric.readerSectionSpacing) {
-                header
-                ForEach(Array(chapter.intros.enumerated()), id: \.offset) { _, p in
-                    Text(p)
-                        .font(Theme.font.body)
-                        .foregroundStyle(Theme.color.secondaryLabel)
-                }
+        ScrollViewReader { proxy in
+            ScrollView {
+                VStack(alignment: .leading, spacing: Theme.metric.readerSectionSpacing) {
+                    header
+                    ForEach(Array(chapter.intros.enumerated()), id: \.offset) { _, p in
+                        Text(p)
+                            .font(Theme.font.body)
+                            .foregroundStyle(Theme.color.secondaryLabel)
+                    }
 
-                ForEach(Array(chapter.sections.enumerated()), id: \.offset) { _, section in
-                    SectionView(
-                        section: section,
-                        chapter: chapter,
-                        highlightedVerses: highlightedVerseSet,
-                        notedVerses: notedVerseSet,
-                        onVerseAction: handle
-                    )
+                    ForEach(Array(chapter.sections.enumerated()), id: \.offset) { _, section in
+                        SectionView(
+                            section: section,
+                            chapter: chapter,
+                            highlightedVerses: highlightedVerseSet,
+                            notedVerses: notedVerseSet,
+                            onVerseAction: handle,
+                            onVerseVisibilityChange: handleVerseVisibility
+                        )
+                    }
+                }
+                .padding(.horizontal, Theme.metric.readerHorizontalPadding)
+                .padding(.vertical, Theme.metric.spaceL)
+                .frame(maxWidth: .infinity, alignment: .leading)
+            }
+            .background(Theme.color.background)
+            .dynamicTypeSize(textSize.dynamicTypeSize)
+            .navigationTitle("\(chapter.bookName) \(chapter.chapter)")
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button {
+                        isBookmarked = userData.toggleChapterBookmark(
+                            bookSlug: chapter.bookSlug,
+                            chapter: chapter.chapter
+                        )
+                    } label: {
+                        Image(systemName: isBookmarked ? "bookmark.fill" : "bookmark")
+                    }
+                    .accessibilityLabel(isBookmarked ? "Remove bookmark" : "Bookmark this chapter")
                 }
             }
-            .padding(.horizontal, Theme.metric.readerHorizontalPadding)
-            .padding(.vertical, Theme.metric.spaceL)
-            .frame(maxWidth: .infinity, alignment: .leading)
-        }
-        .background(Theme.color.background)
-        .navigationTitle("\(chapter.bookName) \(chapter.chapter)")
-        .toolbar {
-            ToolbarItem(placement: .topBarTrailing) {
-                Button {
-                    isBookmarked = userData.toggleChapterBookmark(
-                        bookSlug: chapter.bookSlug,
-                        chapter: chapter.chapter
-                    )
-                } label: {
-                    Image(systemName: isBookmarked ? "bookmark.fill" : "bookmark")
+            .onAppear {
+                isBookmarked = userData.isChapterBookmarked(
+                    bookSlug: chapter.bookSlug,
+                    chapter: chapter.chapter
+                )
+                // Bump the timestamp so the Library tab surfaces this
+                // chapter in Continue Reading. Preserves any existing
+                // scroll resume position — we'll restore it below.
+                userData.touchReadingProgress(
+                    bookSlug: chapter.bookSlug,
+                    chapter: chapter.chapter
+                )
+                // If the user has a saved resume verse, queue it for one
+                // scroll-to as soon as the layout settles.
+                if let saved = userData.readingProgress(
+                    bookSlug: chapter.bookSlug,
+                    chapter: chapter.chapter
+                )?.lastVerseIndex,
+                   saved > 0
+                {
+                    pendingScrollTarget = saved
                 }
-                .accessibilityLabel(isBookmarked ? "Remove bookmark" : "Bookmark this chapter")
+            }
+            .task(id: pendingScrollTarget) {
+                // ScrollViewReader needs a moment after appear before
+                // it'll resolve scrollTo. A small delay also lets the
+                // layout pass complete on slower devices.
+                guard let target = pendingScrollTarget else { return }
+                try? await Task.sleep(for: .milliseconds(150))
+                if Task.isCancelled { return }
+                withAnimation(.easeOut(duration: 0.25)) {
+                    proxy.scrollTo(target, anchor: .top)
+                }
+                pendingScrollTarget = nil
+            }
+            .task(id: topVisibleVerse) {
+                // Debounce visibility changes — saving on every scroll
+                // tick would hammer SwiftData. 600ms of stability is
+                // enough that the user has actually settled.
+                guard let v = topVisibleVerse else { return }
+                try? await Task.sleep(for: .milliseconds(600))
+                if Task.isCancelled { return }
+                userData.setReadingPosition(
+                    bookSlug: chapter.bookSlug,
+                    chapter: chapter.chapter,
+                    verseNumber: v
+                )
+            }
+            .sheet(item: noteEditorBinding) { verse in
+                NoteEditorSheet(
+                    bookSlug: chapter.bookSlug,
+                    bookName: chapter.bookName,
+                    chapter: chapter.chapter,
+                    verse: verse.value,
+                    initialBody: $noteEditorBody
+                )
+            }
+            .sheet(item: shareBinding) { share in
+                ActivityShareSheet(items: [share.value])
             }
         }
-        .onAppear {
-            isBookmarked = userData.isChapterBookmarked(
-                bookSlug: chapter.bookSlug,
-                chapter: chapter.chapter
-            )
-            // Record that the user opened this chapter so the Library tab's
-            // Continue Reading section can surface it. scrollPct stays 0
-            // for v1 — exact resume position comes when we wire scroll
-            // tracking; for now just a "you were here" timestamp is enough.
-            userData.recordReadingProgress(
-                bookSlug: chapter.bookSlug,
-                chapter: chapter.chapter,
-                scrollPct: 0
-            )
-        }
-        .sheet(item: noteEditorBinding) { verse in
-            NoteEditorSheet(
-                bookSlug: chapter.bookSlug,
-                bookName: chapter.bookName,
-                chapter: chapter.chapter,
-                verse: verse.value,
-                initialBody: $noteEditorBody
-            )
-        }
-        .sheet(item: shareBinding) { share in
-            ActivityShareSheet(items: [share.value])
+    }
+
+    // MARK: - Visibility tracker
+
+    private func handleVerseVisibility(verse: Int, isVisible: Bool) {
+        if isVisible {
+            visibleVerses.insert(verse)
+        } else {
+            visibleVerses.remove(verse)
         }
     }
 
@@ -203,6 +266,7 @@ private struct SectionView: View {
     let highlightedVerses: Set<Int>
     let notedVerses: Set<Int>
     let onVerseAction: (VerseAction, VerseLine) -> Void
+    let onVerseVisibilityChange: (Int, Bool) -> Void
 
     var body: some View {
         VStack(alignment: .leading, spacing: Theme.metric.spaceL) {
@@ -221,7 +285,8 @@ private struct SectionView: View {
                     block: block,
                     highlightedVerses: highlightedVerses,
                     notedVerses: notedVerses,
-                    onVerseAction: onVerseAction
+                    onVerseAction: onVerseAction,
+                    onVerseVisibilityChange: onVerseVisibilityChange
                 )
             }
         }
@@ -234,6 +299,7 @@ private struct BlockView: View {
     let highlightedVerses: Set<Int>
     let notedVerses: Set<Int>
     let onVerseAction: (VerseAction, VerseLine) -> Void
+    let onVerseVisibilityChange: (Int, Bool) -> Void
 
     var body: some View {
         switch block {
@@ -242,7 +308,8 @@ private struct BlockView: View {
                 lines: lines,
                 highlightedVerses: highlightedVerses,
                 notedVerses: notedVerses,
-                onVerseAction: onVerseAction
+                onVerseAction: onVerseAction,
+                onVerseVisibilityChange: onVerseVisibilityChange
             )
         case .commentary(_, let html):
             ProseBlock(html: html)
@@ -273,6 +340,7 @@ private struct ScriptureBlock: View {
     let highlightedVerses: Set<Int>
     let notedVerses: Set<Int>
     let onVerseAction: (VerseAction, VerseLine) -> Void
+    let onVerseVisibilityChange: (Int, Bool) -> Void
 
     var body: some View {
         VStack(alignment: .leading, spacing: Theme.metric.spaceS) {
@@ -283,6 +351,13 @@ private struct ScriptureBlock: View {
                     hasNote: notedVerses.contains(line.number),
                     onAction: { action in onVerseAction(action, line) }
                 )
+                // ScrollViewReader anchor for resume-to-verse.
+                .id(line.number)
+                // Threshold 0.5 = at least half the row visible. Tune
+                // if "current verse" feels jumpy in long passages.
+                .onScrollVisibilityChange(threshold: 0.5) { isVisible in
+                    onVerseVisibilityChange(line.number, isVisible)
+                }
             }
         }
         .padding(Theme.metric.spaceL - 2)

@@ -75,5 +75,20 @@ enum AppearancePreferences {
             case .xlarge: return 1.22
             }
         }
+
+        /// Maps the user's reading-text preference to a SwiftUI
+        /// DynamicTypeSize. We deliberately stay inside the
+        /// "non-accessibility" range — going larger than .xxxLarge
+        /// breaks the reader's verse-row layout. Users who want
+        /// accessibility-scale text can use the system Dynamic Type
+        /// slider, which this picker does not override.
+        var dynamicTypeSize: DynamicTypeSize {
+            switch self {
+            case .small:  return .small
+            case .medium: return .large       // system default
+            case .large:  return .xLarge
+            case .xlarge: return .xxxLarge
+            }
+        }
     }
 }

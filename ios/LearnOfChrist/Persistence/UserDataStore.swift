@@ -43,23 +43,59 @@ final class UserDataStore {
 
     // MARK: - Reading progress
 
-    /// Upsert the reading progress for a chapter.
+    /// Read the existing progress row for a chapter, if any. Returns
+    /// nil when the user has never opened this chapter — callers
+    /// should NOT auto-scroll in that case.
     @MainActor
-    func recordReadingProgress(
-        bookSlug: String,
-        chapter: Int,
-        scrollPct: Double,
-        lastVerseIndex: Int? = nil
-    ) {
+    func readingProgress(bookSlug: String, chapter: Int) -> StoredReadingProgress? {
         let key = "\(bookSlug)/\(chapter)"
         let descriptor = FetchDescriptor<StoredReadingProgress>(
-            predicate: #Predicate { $0.key == key }
+            predicate: #Predicate {
+                $0.key == key && $0.deletedAt == nil
+            }
         )
-        let existing = (try? context.fetch(descriptor))?.first
+        return (try? context.fetch(descriptor))?.first
+    }
+
+    /// Bump updatedAt for a chapter (creating a row if necessary), but
+    /// PRESERVE any existing scrollPct + lastVerseIndex. Use this on
+    /// chapter open — we don't yet know where the user's about to land
+    /// on the page, so we shouldn't clobber a previous resume position.
+    @MainActor
+    func touchReadingProgress(bookSlug: String, chapter: Int) {
         let now = Date()
-        if let row = existing {
+        if let row = readingProgress(bookSlug: bookSlug, chapter: chapter) {
+            row.updatedAt = now
+            row.clientUpdatedAt = now
+            row.clientId = ClientID.current()
+            row.deletedAt = nil
+        } else {
+            context.insert(
+                StoredReadingProgress(
+                    bookSlug: bookSlug,
+                    chapter: chapter,
+                    scrollPct: 0,
+                    lastVerseIndex: nil
+                )
+            )
+        }
+        try? context.save()
+    }
+
+    /// Persist the user's exact resume point. Called from the reader's
+    /// scroll-visibility tracker on debounce so we save the topmost
+    /// verse currently in view.
+    @MainActor
+    func setReadingPosition(
+        bookSlug: String,
+        chapter: Int,
+        verseNumber: Int?,
+        scrollPct: Double = 0
+    ) {
+        let now = Date()
+        if let row = readingProgress(bookSlug: bookSlug, chapter: chapter) {
+            row.lastVerseIndex = verseNumber
             row.scrollPct = scrollPct
-            row.lastVerseIndex = lastVerseIndex
             row.updatedAt = now
             row.clientUpdatedAt = now
             row.clientId = ClientID.current()
@@ -70,7 +106,7 @@ final class UserDataStore {
                     bookSlug: bookSlug,
                     chapter: chapter,
                     scrollPct: scrollPct,
-                    lastVerseIndex: lastVerseIndex
+                    lastVerseIndex: verseNumber
                 )
             )
         }
