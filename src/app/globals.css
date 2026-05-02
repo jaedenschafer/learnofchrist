@@ -2,36 +2,51 @@
 @config "../../tailwind.config.ts";
 
 @theme {
-  /* ── Apple-inspired palette ── */
-  --color-primary: #007AFF;
-  --color-primary-light: #EBF5FF;
-  --color-label: #1D1D1F;
-  --color-secondary-label: #86868B;
-  --color-tertiary-label: #AEAEB2;
-  --color-separator: rgba(60, 60, 67, 0.08);
-  --color-bg: #F5F5F7;
-  --color-surface: #FFFFFF;
-  /* Recessed "fill" tint — used for segmented-control tracks and
-     subtle container backgrounds. Auto-flips in dark mode below. */
-  --color-fill-subtle: rgba(0, 0, 0, 0.04);
-  --color-fill-muted: rgba(0, 0, 0, 0.06);
-  --color-warm: #F9E8C9;
-  --color-warm-subtle: #FFF8EE;
+  /* ── Vesper palette ──────────────────────────────────────────────────
+     Golden hour, warm earth, parchment + ink + gold + peach + soft sky.
+     Maps onto the existing --color-* tokens so every page that already
+     uses them adopts the new mood without a per-file rewrite.
+     See "Learn of Christ — Visual Design Brief.md" for rationale. */
 
-  /* Legacy tokens mapped to new system */
-  --color-navy: #1D1D1F;
-  --color-gold: #007AFF;
-  --color-gold-dark: #0056CC;
-  --color-gold-light: #EBF5FF;
-  --color-sage: #86868B;
-  --color-brown: #48484A;
-  --color-warm-white: #FAFAFA;
-  --color-warm-gray: #F5F5F7;
-  --color-cream: #FAFAFA;
+  /* Vesper named tokens — use these in new code. */
+  --vesper-parchment: #F5F0E6;   /* default surface */
+  --vesper-vellum:    #EDE5D4;   /* recessed surface */
+  --vesper-compline:  #1A1612;   /* ink, body type */
+  --vesper-gold:      #C8964A;   /* primary accent */
+  --vesper-peach:     #E8B894;   /* CTA gradient + soft hover */
+  --vesper-sky:       #C9D2DA;   /* cool atmospheric wash */
+  --vesper-smoke:     #A89B86;   /* muted body, dividers */
+  --vesper-cloister:  #2A2F4A;   /* dark mode primary, evening photo */
 
-  --font-sans: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --font-display: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --font-serif: 'New York', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
+  /* Mapped to existing semantic tokens — every page that already reads
+     these adopts the Vesper mood automatically. */
+  --color-primary: #C8964A;          /* was Apple blue → Vesper Gold */
+  --color-primary-light: #F2E0C2;
+  --color-label: #1A1612;            /* Compline */
+  --color-secondary-label: #6B5F4F;  /* darker smoke for legibility */
+  --color-tertiary-label: #A89B86;   /* Censer Smoke */
+  --color-separator: rgba(26, 22, 18, 0.10);
+  --color-bg: #F5F0E6;               /* Parchment */
+  --color-surface: #FBF7EC;          /* warm off-white card paper */
+  --color-fill-subtle: rgba(26, 22, 18, 0.04);
+  --color-fill-muted: rgba(26, 22, 18, 0.07);
+  --color-warm: #F4DEB9;             /* peach tint */
+  --color-warm-subtle: #FCF4E2;      /* very pale cream */
+
+  /* Legacy tokens mapped to Vesper roles. */
+  --color-navy: #1A1612;
+  --color-gold: #C8964A;
+  --color-gold-dark: #A87830;
+  --color-gold-light: #F2E0C2;
+  --color-sage: #A89B86;
+  --color-brown: #6B5F4F;
+  --color-warm-white: #FBF7EC;
+  --color-warm-gray: #EDE5D4;
+  --color-cream: #FBF7EC;
+
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-display: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-serif: 'EB Garamond', 'New York', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
 
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
   --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.04), 0 2px 8px rgba(0, 0, 0, 0.02);
@@ -66,33 +81,35 @@ body {
 /* Triggered by ReadingPrefsContext setting data-reader-theme="dark" on <html>.
    Remaps every design token; component-specific overrides live further down. */
 html[data-reader-theme="dark"] {
-  --color-primary: #0A84FF;
-  --color-primary-light: rgba(10, 132, 255, 0.15);
-  --color-label: #F5F5F7;
-  --color-secondary-label: #AEAEB2;
-  --color-tertiary-label: #6E6E73;
-  --color-separator: rgba(255, 255, 255, 0.08);
-  --color-bg: #000000;
-  --color-surface: #1C1C1E;
-  --color-fill-subtle: rgba(255, 255, 255, 0.08);
-  --color-fill-muted: rgba(255, 255, 255, 0.12);
-  --color-warm: #3A3A3C;
-  --color-warm-subtle: #2C2C2E;
+  /* Vesper night: Cloister Indigo as the surface, Vesper Gold stays
+     constant, type flips to Parchment. */
+  --color-primary: #D6A357;
+  --color-primary-light: rgba(214, 163, 87, 0.16);
+  --color-label: #F5F0E6;
+  --color-secondary-label: #C2B8A4;
+  --color-tertiary-label: #8C8273;
+  --color-separator: rgba(245, 240, 230, 0.10);
+  --color-bg: #15182A;             /* deeper than Cloister for body */
+  --color-surface: #1F243B;
+  --color-fill-subtle: rgba(245, 240, 230, 0.06);
+  --color-fill-muted: rgba(245, 240, 230, 0.10);
+  --color-warm: #3A3140;
+  --color-warm-subtle: #232636;
 
-  --color-navy: #F5F5F7;
-  --color-gold: #0A84FF;
-  --color-gold-dark: #409CFF;
-  --color-gold-light: rgba(10, 132, 255, 0.15);
-  --color-sage: #AEAEB2;
-  --color-brown: #C7C7CC;
-  --color-warm-white: #1C1C1E;
-  --color-warm-gray: #2C2C2E;
-  --color-cream: #1C1C1E;
+  --color-navy: #F5F0E6;
+  --color-gold: #D6A357;
+  --color-gold-dark: #B98837;
+  --color-gold-light: rgba(214, 163, 87, 0.16);
+  --color-sage: #8C8273;
+  --color-brown: #C2B8A4;
+  --color-warm-white: #1F243B;
+  --color-warm-gray: #232636;
+  --color-cream: #1F243B;
 
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
-  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.5), 0 2px 8px rgba(0, 0, 0, 0.3);
-  --shadow-card-hover: 0 2px 8px rgba(0, 0, 0, 0.6), 0 8px 24px rgba(0, 0, 0, 0.4);
-  --shadow-float: 0 4px 16px rgba(0, 0, 0, 0.7), 0 16px 48px rgba(0, 0, 0, 0.5);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.6), 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-card-hover: 0 2px 8px rgba(0, 0, 0, 0.7), 0 8px 24px rgba(0, 0, 0, 0.5);
+  --shadow-float: 0 4px 16px rgba(0, 0, 0, 0.8), 0 16px 48px rgba(0, 0, 0, 0.6);
 
   color-scheme: dark;
 }
@@ -103,24 +120,85 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.022em;
 }
 
-/* ─── Glass Effect ─── */
+/* ─── Glass Effect ─────────────────────────────────────────────────────
+   Vesper liquid glass. The .glass-card recipe is the signature surface
+   from the brief — frosted blur, translucent tint, an inset white
+   highlight along the top edge that catches light, and a soft warm
+   shadow lifting it off whatever's behind. */
+
 .glass {
-  background: rgba(255, 255, 255, 0.72);
+  background: color-mix(in srgb, var(--vesper-parchment, #F5F0E6) 72%, transparent);
   backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
 }
 
 .glass-heavy {
-  background: rgba(255, 255, 255, 0.85);
+  background: color-mix(in srgb, var(--vesper-parchment, #F5F0E6) 88%, transparent);
   backdrop-filter: blur(40px) saturate(200%);
   -webkit-backdrop-filter: blur(40px) saturate(200%);
 }
 
 html[data-reader-theme="dark"] .glass {
-  background: rgba(28, 28, 30, 0.72);
+  background: color-mix(in srgb, var(--vesper-cloister, #2A2F4A) 72%, transparent);
 }
 html[data-reader-theme="dark"] .glass-heavy {
-  background: rgba(28, 28, 30, 0.85);
+  background: color-mix(in srgb, var(--vesper-cloister, #2A2F4A) 88%, transparent);
+}
+
+/* Signature liquid-glass card. */
+.glass-card {
+  position: relative;
+  background: color-mix(in srgb, white 14%, transparent);
+  backdrop-filter: blur(28px) saturate(140%);
+  -webkit-backdrop-filter: blur(28px) saturate(140%);
+  border: 1px solid color-mix(in srgb, white 22%, transparent);
+  border-radius: 24px;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.35),
+    0 24px 60px -22px rgba(20, 16, 12, 0.32);
+  color: var(--color-label);
+  overflow: hidden;
+  isolation: isolate;
+}
+
+html[data-reader-theme="dark"] .glass-card {
+  background: color-mix(in srgb, white 6%, transparent);
+  border-color: color-mix(in srgb, white 12%, transparent);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.10),
+    0 24px 60px -22px rgba(0, 0, 0, 0.65);
+}
+
+/* Atmospheric blurred photo backdrop. Pair with a child .atmosphere__veil
+   so type stays legible. */
+.atmosphere {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.atmosphere__bg {
+  position: absolute;
+  inset: -8%;            /* over-bleed so blur edges don't show */
+  width: 116%;
+  height: 116%;
+  object-fit: cover;
+  filter: blur(40px) saturate(1.05);
+  z-index: -2;
+  user-select: none;
+  pointer-events: none;
+}
+
+.atmosphere__veil {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--vesper-compline, #1A1612) 18%, transparent) 0%,
+    color-mix(in srgb, var(--vesper-compline, #1A1612) 38%, transparent) 60%,
+    color-mix(in srgb, var(--vesper-compline, #1A1612) 60%, transparent) 100%
+  );
 }
 
 /* ─── Card ─── */
@@ -1560,7 +1638,19 @@ html[data-reader-theme="dark"] ::-webkit-scrollbar-thumb:hover { background: rgb
 }
 
 /* ─── Navbar ─── */
-.site-nav { -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); }
+.site-nav {
+  /* Liquid glass — stronger blur and saturation to read against the
+     atmospheric photo hero. The inset white highlight on the bottom
+     edge is the brand "tell". */
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  backdrop-filter: blur(20px) saturate(160%);
+  background: color-mix(in srgb, var(--vesper-parchment) 70%, transparent);
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.45);
+}
+html[data-reader-theme="dark"] .site-nav {
+  background: color-mix(in srgb, var(--vesper-cloister) 72%, transparent);
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.06);
+}
 .nav-link {
   color: var(--color-secondary-label);
 }
@@ -1624,6 +1714,7 @@ html[data-reader-theme="dark"] .nav-link:hover {
 }
 
 .site-nav__link {
+  position: relative;
   display: inline-flex;
   align-items: center;
   padding: 0.5rem 0.875rem;
@@ -1636,8 +1727,23 @@ html[data-reader-theme="dark"] .nav-link:hover {
   transition: background-color 0.15s ease, color 0.15s ease;
 }
 .site-nav__link:hover {
-  background: color-mix(in srgb, var(--color-label) 7%, transparent);
+  background: color-mix(in srgb, var(--vesper-gold) 12%, transparent);
 }
+/* Vesper Gold whisker that animates in on hover — small editorial
+   detail that reads as illuminated rather than as a button hover. */
+.site-nav__link::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0.125rem;
+  width: 0;
+  height: 1.5px;
+  background: var(--vesper-gold);
+  border-radius: 1px;
+  transform: translateX(-50%);
+  transition: width 0.25s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.site-nav__link:hover::after { width: 24px; }
 
 .site-nav__search {
   display: none;
@@ -1779,19 +1885,34 @@ html[data-reader-theme="dark"] .nav-link:hover {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  height: 40px;
+  height: 42px;
   padding: 0 0.875rem 0 1rem;
   border-radius: 999px;
-  background: color-mix(in srgb, var(--color-label) 6%, transparent);
+  /* Frosted-glass pill: blends into the navbar's blur, brightens on
+     focus so the user feels the field "wake up". */
+  background: color-mix(in srgb, white 32%, transparent);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  backdrop-filter: blur(14px) saturate(140%);
+  border: 1px solid color-mix(in srgb, var(--vesper-compline) 8%, transparent);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
   color: var(--color-secondary-label);
-  transition: background-color 0.15s ease, box-shadow 0.15s ease;
+  transition: background-color 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
 }
 .site-search__field:focus-within {
   background: var(--color-surface);
+  border-color: color-mix(in srgb, var(--vesper-gold) 50%, transparent);
   box-shadow:
-    0 0 0 1px var(--color-separator),
-    0 6px 24px rgba(0, 0, 0, 0.06);
+    inset 0 1px 0 rgba(255, 255, 255, 0.6),
+    0 0 0 4px color-mix(in srgb, var(--vesper-gold) 14%, transparent),
+    0 6px 24px rgba(26, 22, 18, 0.08);
   color: var(--color-label);
+}
+html[data-reader-theme="dark"] .site-search__field {
+  background: color-mix(in srgb, white 8%, transparent);
+  border-color: color-mix(in srgb, white 12%, transparent);
+}
+html[data-reader-theme="dark"] .site-search__field:focus-within {
+  background: color-mix(in srgb, var(--vesper-cloister) 96%, transparent);
 }
 
 .site-search__icon {

@@ -13,17 +13,21 @@
   --loc-radius-md: 16px;
   --loc-radius-lg: 28px;
 
-  /* Brand */
-  --loc-ink: #0B0E13;
-  --loc-paper: #F5F2EC;
-  --loc-paper-warm: #EFEAE0;
-  --loc-gold: #C8964A;
-  --loc-gold-soft: #E5C07A;
+  /* Vesper home tokens — alias the global Vesper palette so the home
+     page stays in sync with the rest of the site automatically. */
+  --loc-ink: var(--vesper-compline);
+  --loc-paper: var(--vesper-parchment);
+  --loc-paper-warm: var(--vesper-vellum);
+  --loc-gold: var(--vesper-gold);
+  --loc-gold-soft: var(--vesper-peach);
 }
 
 html[data-reader-theme="dark"] {
-  --loc-paper: #11141A;
-  --loc-paper-warm: #15191F;
+  --loc-ink: var(--vesper-parchment);
+  --loc-paper: #15182A;
+  --loc-paper-warm: #1F243B;
+  --loc-gold: #D6A357;
+  --loc-gold-soft: #E8C089;
 }
 
 /* ─── Generic frame ─────────────────────────────────────────────────── */
@@ -37,12 +41,12 @@ html[data-reader-theme="dark"] {
 }
 
 .loc-eyebrow {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  font-size: 0.75rem;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.6875rem;
   font-weight: 700;
-  letter-spacing: 0.22em;
+  letter-spacing: 0.24em;
   text-transform: uppercase;
-  color: var(--color-secondary-label);
+  color: var(--loc-gold);
   margin: 0 0 1.25rem;
 }
 
@@ -67,11 +71,18 @@ html[data-reader-theme="dark"] {
 .loc-btn:active { transform: scale(0.97); }
 
 .loc-btn--solid {
-  background: #FFFFFF;
+  /* Tabernacle Peach → Vesper Gold gradient — the brief's signature
+     primary CTA. Sits beautifully on photo, parchment, or glass. */
+  background: linear-gradient(135deg, var(--loc-gold-soft) 0%, var(--loc-gold) 100%);
   color: #1A1410;
-  border-color: #FFFFFF;
+  border-color: transparent;
+  box-shadow: 0 8px 22px -10px rgba(200, 150, 74, 0.55);
 }
-.loc-btn--solid:hover { background: var(--loc-gold-soft); border-color: var(--loc-gold-soft); }
+.loc-btn--solid:hover {
+  background: linear-gradient(135deg, var(--loc-gold) 0%, var(--loc-gold) 100%);
+  border-color: transparent;
+  box-shadow: 0 12px 28px -10px rgba(200, 150, 74, 0.65);
+}
 
 .loc-btn--ghost {
   background: rgba(255, 255, 255, 0.08);
@@ -223,7 +234,11 @@ html[data-reader-theme="dark"] {
    library in motion without a single static screenshot. */
 
 .loc-resources {
-  background: var(--loc-paper);
+  position: relative;
+  background:
+    radial-gradient(ellipse 60% 40% at 50% 0%, rgba(200, 150, 74, 0.10), transparent 70%),
+    radial-gradient(ellipse 80% 60% at 50% 100%, rgba(232, 184, 148, 0.10), transparent 70%),
+    var(--loc-paper);
   padding: clamp(4rem, 7vw, 6.5rem) 0 clamp(2.5rem, 5vw, 4.5rem);
   overflow: hidden; /* clip the wide marquee strips */
   text-align: center;
@@ -581,10 +596,25 @@ html[data-reader-theme="dark"] {
   }
 }
 
-/* ─── 3. Mission ────────────────────────────────────────────────────── */
+/* ─── 3. Mission ────────────────────────────────────────────────────────
+   Vesper: Vellum (deeper parchment) band so it reads as a recessed
+   meditation space between Today and the stats. */
 .loc-mission {
-  background: var(--loc-paper);
+  background: var(--loc-paper-warm);
   padding: var(--loc-section-y) 0;
+  position: relative;
+}
+
+/* Tiny gold separator above the mission to mark the section change. */
+.loc-mission::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 64px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--loc-gold), transparent);
 }
 
 .loc-mission__inner {
@@ -611,11 +641,18 @@ html[data-reader-theme="dark"] {
   max-width: 42rem;
 }
 
-/* ─── 4. Stats band ─────────────────────────────────────────────────── */
+/* ─── 4. Stats band ────────────────────────────────────────────────────
+   Vesper: Cloister Indigo surface, Vesper Gold numerals. Reads as a
+   quiet reverent strip, not a corporate metrics row. */
 .loc-stats {
-  background: var(--loc-ink);
-  color: #FFFFFF;
-  padding: clamp(3rem, 5vw, 5rem) 0;
+  background: var(--vesper-cloister);
+  color: var(--vesper-parchment);
+  padding: clamp(3.5rem, 5vw, 5.5rem) 0;
+  /* Subtle radial glow centered on the band so it doesn't read as a
+     flat panel. */
+  background-image:
+    radial-gradient(ellipse 80% 100% at 50% 0%, rgba(200, 150, 74, 0.10), transparent 60%),
+    linear-gradient(180deg, var(--vesper-cloister) 0%, #1F2238 100%);
 }
 
 .loc-stats__grid {
@@ -634,20 +671,24 @@ html[data-reader-theme="dark"] {
 .loc-stat__value {
   font-family: 'EB Garamond', 'New York', Georgia, serif;
   font-weight: 500;
-  font-size: clamp(3.25rem, 7vw, 5.25rem);
+  font-size: clamp(3.25rem, 7vw, 5.5rem);
   line-height: 0.95;
-  letter-spacing: -0.025em;
-  color: #FFFFFF;
+  letter-spacing: -0.028em;
+  color: var(--vesper-gold);
   margin: 0 0 0.5rem;
+  /* Faint warm glow under each numeral. */
+  text-shadow: 0 0 40px rgba(200, 150, 74, 0.18);
 }
 
 .loc-stat__label {
   font-size: 0.8125rem;
-  line-height: 1.45;
-  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.5;
+  color: rgba(245, 240, 230, 0.68);
   margin: 0;
   max-width: 18rem;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 /* ─── 5. Features ───────────────────────────────────────────────────── */
@@ -759,6 +800,20 @@ html[data-reader-theme="dark"] {
 .loc-stories {
   background: var(--loc-paper);
   padding: var(--loc-section-y) 0;
+  position: relative;
+}
+
+/* Faint warm ambient glow at the top of the stories band — picks up the
+   gold from the stats numerals one section above. */
+.loc-stories::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 240px;
+  pointer-events: none;
+  background: radial-gradient(ellipse 70% 100% at 50% 0%, rgba(200, 150, 74, 0.08), transparent 60%);
 }
 
 .loc-stories__head {
@@ -987,9 +1042,20 @@ html[data-reader-theme="dark"] {
   inset: 0;
   z-index: -1;
   background:
-    linear-gradient(180deg,
-      rgba(7, 9, 13, 0.55) 0%,
-      rgba(7, 9, 13, 0.78) 100%);
+    radial-gradient(ellipse 100% 80% at 50% 50%,
+      rgba(26, 22, 18, 0.40) 0%,
+      rgba(26, 22, 18, 0.78) 100%);
+}
+
+/* Soft warm halo so the photographic backdrop feels lit by golden hour
+   rather than just dimmed. */
+.loc-closer::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: radial-gradient(ellipse 60% 50% at 50% 80%, rgba(200, 150, 74, 0.20), transparent 70%);
+  pointer-events: none;
 }
 
 .loc-closer__inner {
