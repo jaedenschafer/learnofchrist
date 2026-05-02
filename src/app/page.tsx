@@ -3,6 +3,7 @@ import dynamic from 'next/dynamic';
 import { getAllBlogPosts, categoryColors } from '@/data/blog-posts';
 import { getCuratedHighlights } from '@/lib/supabase';
 import ArtArches from '@/components/ArtArches';
+import AppDashboard from '@/components/AppDashboard';
 import './home.css';
 
 // Below-the-fold + client-only — code-split so it doesn't block the hero.
@@ -116,6 +117,9 @@ export default async function Home() {
           <span className="loc-hero__scroll-line" />
         </span>
       </section>
+
+      {/* ═══════════ 1a. App-style dashboard ═══════════ */}
+      <AppDashboard />
 
       {/* ═══════════ 1b. Resources mission — arched scrolling artwork ═══════════ */}
       <section className="loc-resources">
