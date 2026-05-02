@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import { getAllBlogPosts, categoryColors } from '@/data/blog-posts';
-import { getArtworksBrowse, getCuratedHighlights } from '@/lib/supabase';
+import { getCuratedHighlights } from '@/lib/supabase';
 import ArtArches from '@/components/ArtArches';
 import './home.css';
 
@@ -109,18 +109,17 @@ const features: Array<{
 
 export default async function Home() {
   const blogPosts = getAllBlogPosts().slice(0, 4);
-  // Two parallel art queries:
-  //   - recentArt powers the "Today" cards (most-recently-added wins).
-  //   - highlightArt is curated: famous painters, no manuscript folios,
-  //     interleaved so the arches read as a museum highlight reel.
-  const [recentArt, highlightArt] = await Promise.all([
-    getArtworksBrowse(8),
-    getCuratedHighlights(28),
-  ]);
+  // One curated art query feeds both "Today" cards and the arches band.
+  // Pulling from getCuratedHighlights guarantees no manuscript folios
+  // surface anywhere on the home page (the previous secondaryArt was
+  // showing a Codex Amiatinus page from the raw recent feed).
+  const highlightArt = await getCuratedHighlights(30);
   const featuredArt =
-    recentArt.find((a) => /tissot|creation/i.test(a.title)) || recentArt[0] || null;
+    highlightArt.find((a) => /tissot|creation/i.test(a.title)) ||
+    highlightArt[0] ||
+    null;
   const secondaryArt =
-    recentArt.find((a) => featuredArt && a.id !== featuredArt.id) || null;
+    highlightArt.find((a) => featuredArt && a.id !== featuredArt.id) || null;
   const usedIds = new Set(
     [featuredArt?.id, secondaryArt?.id].filter(Boolean) as string[],
   );
