@@ -717,10 +717,20 @@ export async function getCuratedHighlights(limit = 24): Promise<ArtworkWithArtis
 
   type Raw = Artwork & { artist: Artist | Artist[] | null };
   const rows = ((data ?? []) as Raw[])
-    .filter((a) => !(a.tags?.includes('manuscript-page') ?? false))
+    .filter((a) => !isManuscriptish(a))
     .map((a) => ({ ...a, artist: unwrap(a.artist) } as ArtworkWithArtist));
 
   return curateByArtist(rows).slice(0, limit);
+}
+
+/** Belt-and-suspenders manuscript filter. The `manuscript-page` tag
+ *  catches most folios, but a handful of medieval codices were imported
+ *  before the tag rule landed; their slugs/titles still give them away
+ *  ("codex-amiatinus", "stuttgart-psalter", etc.). */
+function isManuscriptish(a: { tags?: string[] | null; slug: string; title: string; medium?: string | null }): boolean {
+  if (a.tags?.includes('manuscript-page')) return true;
+  const haystack = `${a.slug} ${a.title} ${a.medium ?? ''}`.toLowerCase();
+  return /\b(codex|psalter|illuminated|manuscript|folio|breviary|book of hours)\b/.test(haystack);
 }
 
 // Famous-painter allow-list. Lower index = higher rank. Lowercase so the
