@@ -1,13 +1,15 @@
 // bible-translation-proxy
 // ────────────────────────────────────────────────────────────────────────────
+// Future infra — NOT shipping in v1.
+//
 // Server-side proxy to API.Bible for copyrighted translations (NIV, ESV,
 // CSB, etc.). Public-domain translations (KJV, ASV, WEB, JST) are NOT
-// served here — they ship in the mobile content packs.
+// served here — they ship in the mobile content packs and are the only
+// translations available in v1.
 //
-// Why a proxy:
-//   1. API.Bible key never leaves Supabase
-//   2. Premium gating: only is_premium() users can call paid translations
-//   3. Per-user rate limit (sane default; tune as we see usage)
+// When paid translations come back into scope, this file is the
+// starting point: API.Bible key stays server-side; premium gating via
+// is_premium() (table already exists from migration 057).
 //
 // Request shape:
 //   GET /functions/v1/bible-translation-proxy
@@ -19,7 +21,7 @@
 // Response: { reference, verses: [{ number, text }], translation, license }
 
 import { handleOptions, jsonResponse } from '../_shared/cors.ts';
-import { requireUser, rateLimit, HttpError } from '../_shared/auth.ts';
+import { requireUser, HttpError } from '../_shared/auth.ts';
 
 const API_BIBLE_KEY = Deno.env.get('API_BIBLE_KEY');
 const API_BIBLE_BASE = 'https://api.scripture.api.bible/v1';
@@ -53,22 +55,13 @@ Deno.serve(async (req) => {
     const entry = TRANSLATION_REGISTRY[translation];
     if (!entry) throw new HttpError(404, `unknown translation: ${translation}`);
 
-    // Premium gate
+    // Premium gate (post-v1; harmless while is_premium returns false for everyone).
     if (entry.premium) {
       const { data, error } = await serviceClient.rpc('is_premium', {
         p_user_id: userId,
       });
       if (error) throw new HttpError(500, 'premium check failed');
       if (!data) throw new HttpError(402, 'premium subscription required');
-    }
-
-    // Rate limit: 60/min per user per translation
-    const rl = rateLimit(`tx:${userId}:${translation}`, 60);
-    if (!rl.ok) {
-      return jsonResponse(
-        { error: 'rate_limited', retry_after: rl.retryAfterSec },
-        { status: 429, req, headers: { 'Retry-After': String(rl.retryAfterSec) } }
-      );
     }
 
     if (!API_BIBLE_KEY) throw new HttpError(503, 'translation provider not configured');

@@ -44,11 +44,11 @@ Implications:
   signed-out branch of `v1_home_feed`, or the content-pack URLs.
 - `v1_sync_user_data` and any user-scoped writes require a JWT (and are
   reached only after the sign-in handoff).
-- The "Ask About This Passage" Edge Function (`passage-qa`) currently
-  requires auth for rate-limit reasons. Open question: allow anonymous
-  with IP-based rate limit, or use it as a sign-in trigger? Defer until
-  closer to ship.
 - API.Bible / paid translations are not in v1.
+- AI features (Q&A, "Ask About This Passage", AI-surfaced journal
+  connections) are not in v1.
+- No rate limiting is needed for v1 — every request reads static study
+  guides, Bible text, or images. We can revisit if abuse appears.
 - The local-storage shape on each device must be byte-compatible with
   the Supabase row shape so the claim payload is a straight upload.
 
@@ -137,16 +137,17 @@ on email match, or require an explicit "Link your Google account" step?
 Default is auto-merge for v1 (matches user expectation; reduces support
 load). If we ever support email/password we revisit the threat model.
 
-## Subscriptions and gating
+## Subscriptions and gating (post-v1 infrastructure)
 
-Single `subscriptions` table covering iOS / Android / web. Writes flow
-through the `subscription-receipt-validate` Edge Function. The function
-verifies the platform-side receipt with the appropriate API and writes
-a row keyed by `(platform, platform_transaction_id)`.
+The apps are free in v1, but the schema is ready when we want to layer
+in paid features. Single `subscriptions` table covering iOS / Android /
+web. Writes flow through the `subscription-receipt-validate` Edge
+Function. The function verifies the platform-side receipt with the
+appropriate API and writes a row keyed by `(platform, platform_transaction_id)`.
 
 Premium gating uses one function: `public.is_premium(user_id)`. RLS
 policies, Edge Functions, and the apps all call it. Don't roll your
-own check.
+own check. In v1 it returns `false` for everyone, which is correct.
 
 ## Versioning
 
@@ -160,18 +161,28 @@ Content packs are likewise versioned: `content/v1/`. A new pack version
 is a new path; the manifest at `content/v1/manifest.json` only ever
 points to v1 content. Mobile clients pin to a major version.
 
+## Out of scope for v1
+
+The following are intentionally not in v1 and the scaffolding for them
+should not block launch:
+
+- AI features of any kind — no "Ask About This Passage", no AI-surfaced
+  journal connections, no chat. The Anthropic Edge Function has been
+  removed; if/when we add an AI feature back, it gets its own design pass.
+- Paid translations (NIV/ESV/CSB). Public-domain translations only.
+- In-app purchases / subscriptions. Apps are free.
+- Rate limiting on any endpoint. v1 traffic is reads of static study
+  guides, Bible text, and images.
+
 ## Open questions
 
 - Pre-rendered narration audio: generate via ElevenLabs and stash in a
   `narration` storage bucket? Format = AAC/.m4a. Defer to v1.1.
 - Search across journal + bookmarks: SQLite FTS on the device for v1.
   Postgres FTS server-side when we want cross-device search.
-- "Ask About This Passage" history: store the Q&A turns in a new
-  `passage_qa_log` table? Useful for "your recent questions" UI but
-  raises retention questions. Skip in v1.
 - Family sharing: StoreKit Family Sharing is supported by the
   subscription model already; Google Play has an equivalent. Validate
-  both flows in v1 receipt validators.
+  both flows when subscriptions ship post-v1.
 
 ## What lives where, in one screenshot
 
