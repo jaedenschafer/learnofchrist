@@ -1,0 +1,30 @@
+# Xcode build products
+build/
+DerivedData/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+
+# Per-developer Xcode UI state
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+
+# Fastlane (when we add it)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# CocoaPods (we're SPM-only but just in case)
+Pods/
+
+# CocoaPods + xcconfig leftovers
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM

@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F374F09A7B9052E14960305 /* ContentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A109E0167021461BF1329D /* ContentService.swift */; };
+		810A2FAEA1C8875C7F80D714 /* LearnOfChristApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158A3BDD3934A3D1F123907F /* LearnOfChristApp.swift */; };
+		85A1EE6E66E494324443378E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B083050796EA89260158C08 /* RootView.swift */; };
+		9C53E769C5E12AACECA05D44 /* RichChapterContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA263511EF4ACB7157220CCC /* RichChapterContent.swift */; };
+		C2DD54D7E7D5DC609D4A4E3B /* ChapterReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0119AE34ED8F057D7C2F62FD /* ChapterReaderView.swift */; };
+		D896D3C27BF4D86DEB79447B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC63A05F74A0523C37DFE3C4 /* Assets.xcassets */; };
+		E0D8AF8D68FF846A6F32FAEC /* ContentManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EDF7609B6967C64A6B3A1 /* ContentManifest.swift */; };
+		E1A66B56D030808CA165A886 /* PackCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF111E4EB04E236512DC846 /* PackCache.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0119AE34ED8F057D7C2F62FD /* ChapterReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterReaderView.swift; sourceTree = "<group>"; };
+		158A3BDD3934A3D1F123907F /* LearnOfChristApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnOfChristApp.swift; sourceTree = "<group>"; };
+		43387349AA109DD361305EEB /* LearnOfChrist.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = LearnOfChrist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A109E0167021461BF1329D /* ContentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentService.swift; sourceTree = "<group>"; };
+		5C4EDF7609B6967C64A6B3A1 /* ContentManifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentManifest.swift; sourceTree = "<group>"; };
+		6B083050796EA89260158C08 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		7EF111E4EB04E236512DC846 /* PackCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackCache.swift; sourceTree = "<group>"; };
+		AA263511EF4ACB7157220CCC /* RichChapterContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichChapterContent.swift; sourceTree = "<group>"; };
+		CC63A05F74A0523C37DFE3C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2BE58B3C2BCEE985FFAA6EC1 = {
+			isa = PBXGroup;
+			children = (
+				81DAD47F39D45DCFDD0FD266 /* LearnOfChrist */,
+				CFDE977D44CF25FBE16E4534 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58FDF65C902742273B2B16C2 /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+				0119AE34ED8F057D7C2F62FD /* ChapterReaderView.swift */,
+			);
+			path = Reader;
+			sourceTree = "<group>";
+		};
+		81DAD47F39D45DCFDD0FD266 /* LearnOfChrist */ = {
+			isa = PBXGroup;
+			children = (
+				EF61D1615C6650305364AD00 /* Models */,
+				FB588B470A7516807E1675EE /* Networking */,
+				F84BC1C24A490338B66BBEC0 /* Persistence */,
+				E6E4D3C0C01967D548622203 /* Resources */,
+				C89C50E401D6E9DFF4D0D505 /* Views */,
+				158A3BDD3934A3D1F123907F /* LearnOfChristApp.swift */,
+			);
+			path = LearnOfChrist;
+			sourceTree = "<group>";
+		};
+		C89C50E401D6E9DFF4D0D505 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				58FDF65C902742273B2B16C2 /* Reader */,
+				6B083050796EA89260158C08 /* RootView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CFDE977D44CF25FBE16E4534 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43387349AA109DD361305EEB /* LearnOfChrist.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6E4D3C0C01967D548622203 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC63A05F74A0523C37DFE3C4 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EF61D1615C6650305364AD00 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5C4EDF7609B6967C64A6B3A1 /* ContentManifest.swift */,
+				AA263511EF4ACB7157220CCC /* RichChapterContent.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F84BC1C24A490338B66BBEC0 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				7EF111E4EB04E236512DC846 /* PackCache.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		FB588B470A7516807E1675EE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				48A109E0167021461BF1329D /* ContentService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D32DF07DF7AC5042E44B18F /* LearnOfChrist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 436A7D34057B59E2D3735118 /* Build configuration list for PBXNativeTarget "LearnOfChrist" */;
+			buildPhases = (
+				B2BB61A0B672CCDDFE75F464 /* Sources */,
+				2D8B6C85D41AC93CC04097F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearnOfChrist;
+			packageProductDependencies = (
+			);
+			productName = LearnOfChrist;
+			productReference = 43387349AA109DD361305EEB /* LearnOfChrist.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC913A0E50A160618CE78DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2D32DF07DF7AC5042E44B18F = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = A8E2FA68AD6AE8775658AACB /* Build configuration list for PBXProject "LearnOfChrist" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 2BE58B3C2BCEE985FFAA6EC1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CFDE977D44CF25FBE16E4534 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D32DF07DF7AC5042E44B18F /* LearnOfChrist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D8B6C85D41AC93CC04097F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D896D3C27BF4D86DEB79447B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2BB61A0B672CCDDFE75F464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2DD54D7E7D5DC609D4A4E3B /* ChapterReaderView.swift in Sources */,
+				E0D8AF8D68FF846A6F32FAEC /* ContentManifest.swift in Sources */,
+				5F374F09A7B9052E14960305 /* ContentService.swift in Sources */,
+				810A2FAEA1C8875C7F80D714 /* LearnOfChristApp.swift in Sources */,
+				E1A66B56D030808CA165A886 /* PackCache.swift in Sources */,
+				9C53E769C5E12AACECA05D44 /* RichChapterContent.swift in Sources */,
+				85A1EE6E66E494324443378E /* RootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		279BEB47AE5511BE36BAEAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		359A81C3EE549B7C6159110B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Learn of Christ";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.learnofchrist.app;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44174C749B554789F832FF30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EBE6A24346C9DEA252FF01DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Learn of Christ";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.learnofchrist.app;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		436A7D34057B59E2D3735118 /* Build configuration list for PBXNativeTarget "LearnOfChrist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE6A24346C9DEA252FF01DE /* Debug */,
+				359A81C3EE549B7C6159110B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A8E2FA68AD6AE8775658AACB /* Build configuration list for PBXProject "LearnOfChrist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279BEB47AE5511BE36BAEAE4 /* Debug */,
+				44174C749B554789F832FF30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC913A0E50A160618CE78DE /* Project object */;
+}

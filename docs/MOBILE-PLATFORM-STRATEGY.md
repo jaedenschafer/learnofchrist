@@ -13,8 +13,13 @@ file wins.
 | Client | Status | Built with |
 |---|---|---|
 | Web | live | Next.js 16, React, Tailwind |
-| iOS | planned (next) | Swift 6, SwiftUI, iOS 17 minimum |
+| iOS | scaffolded — see `ios/` | Swift 6, SwiftUI, iOS 17 minimum |
 | Android | planned (after iOS) | Kotlin, Jetpack Compose |
+
+The iOS project lives at `ios/` inside this repo, with bundle id
+`com.learnofchrist.app`. The Xcode project is generated from
+`ios/project.yml` via xcodegen — edit the YAML, regenerate, never hand-
+edit the `.xcodeproj`. See `ios/README.md` for setup steps.
 
 The iOS pivot is intentional: the original platform memory called for
 React Native; we are choosing native instead because text rendering,
