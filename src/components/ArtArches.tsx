@@ -64,10 +64,17 @@ function ArchRow({
   // Duplicate the tile array so translateX(-50%) lands on an identical
   // frame and the loop is perfectly seamless.
   const doubled = [...tiles, ...tiles];
+  const period = tiles.length || 1;
 
   return (
     <div className={`loc-arch loc-arch--${variant}`} aria-hidden="true">
-      <div className={`loc-arch__strip loc-arch__strip--${direction}`}>
+      <div
+        className={`loc-arch__strip loc-arch__strip--${direction}`}
+        // Period in tiles for one full sine-wave cycle. Setting it on
+        // the strip lets every child read it without cascading inline
+        // overrides.
+        style={{ ['--period' as string]: period } as React.CSSProperties}
+      >
         {doubled.map((art, i) => {
           const src =
             art.thumbnail_800_url ||
@@ -81,7 +88,17 @@ function ArchRow({
               href={`/art/artwork/${art.slug}`}
               className="loc-arch__tile"
               tabIndex={-1}
-              style={art.dominant_color ? { backgroundColor: art.dominant_color } : undefined}
+              // Each tile knows its own index so the CSS cos() can offset
+              // it vertically along the arch. Index repeats every
+              // `period` so the wave loops with the marquee.
+              style={
+                {
+                  ['--i' as string]: i,
+                  ...(art.dominant_color
+                    ? { backgroundColor: art.dominant_color }
+                    : {}),
+                } as React.CSSProperties
+              }
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img

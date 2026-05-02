@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import { getAllBlogPosts, categoryColors } from '@/data/blog-posts';
-import { getArtworksBrowse } from '@/lib/supabase';
+import { getArtworksBrowse, getCuratedHighlights } from '@/lib/supabase';
 import ArtArches from '@/components/ArtArches';
 import './home.css';
 
@@ -109,18 +109,22 @@ const features: Array<{
 
 export default async function Home() {
   const blogPosts = getAllBlogPosts().slice(0, 4);
-  // Pull a healthy slice of approved artworks. The first few power the
-  // "Today" featured cards; the rest fan out across the dual-arch
-  // scrolling band that sits below the hero.
-  const recentArt = await getArtworksBrowse(36);
+  // Two parallel art queries:
+  //   - recentArt powers the "Today" cards (most-recently-added wins).
+  //   - highlightArt is curated: famous painters, no manuscript folios,
+  //     interleaved so the arches read as a museum highlight reel.
+  const [recentArt, highlightArt] = await Promise.all([
+    getArtworksBrowse(8),
+    getCuratedHighlights(28),
+  ]);
   const featuredArt =
     recentArt.find((a) => /tissot|creation/i.test(a.title)) || recentArt[0] || null;
   const secondaryArt =
     recentArt.find((a) => featuredArt && a.id !== featuredArt.id) || null;
-  // Skip the two cards already used above so the arches don't repeat them.
-  const archArt = recentArt.filter(
-    (a) => a.id !== featuredArt?.id && a.id !== secondaryArt?.id,
+  const usedIds = new Set(
+    [featuredArt?.id, secondaryArt?.id].filter(Boolean) as string[],
   );
+  const archArt = highlightArt.filter((a) => !usedIds.has(a.id));
 
   return (
     <>

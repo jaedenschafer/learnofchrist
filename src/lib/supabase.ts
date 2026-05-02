@@ -682,6 +682,108 @@ export async function getArtworksBrowse(limit = 60): Promise<ArtworkWithArtist[]
   }));
 }
 
+/**
+ * "Highlight reel" — curated painted artworks for the home page arches.
+ * Excludes manuscript folios and weights toward the Western canon (the
+ * famous artists list below) so the band reads as a museum strip rather
+ * than a chronological crawl.
+ *
+ * Implementation: order by scripture_ref_count desc to surface the most
+ * referenced pieces, then re-rank in app code with a famous-artist
+ * allow-list. Manuscripts are filtered after the SQL fetch (Postgres
+ * `not contains` on a tag array is awkward and overfetching is cheap).
+ */
+export async function getCuratedHighlights(limit = 24): Promise<ArtworkWithArtist[]> {
+  const overfetch = Math.max(limit * 4, 80);
+  const { data, error } = await supabaseServer
+    .from('artworks')
+    .select(`
+      id, slug, title, artist_id, year, medium, source, source_url,
+      external_id, image_url, thumbnail_url,
+      thumbnail_256_url, thumbnail_800_url, dominant_color,
+      width, height,
+      license, license_note, description, status, tags,
+      artist:artists ( id, slug, name, birth_year, death_year, nationality, bio, wikipedia_url )
+    `)
+    .eq('status', 'published')
+    .eq('moderation_status', 'approved')
+    .order('scripture_ref_count', { ascending: false, nullsFirst: false })
+    .limit(overfetch);
+
+  if (error) {
+    console.error('Error fetching curated highlights:', error);
+    return [];
+  }
+
+  type Raw = Artwork & { artist: Artist | Artist[] | null };
+  const rows = ((data ?? []) as Raw[])
+    .filter((a) => !(a.tags?.includes('manuscript-page') ?? false))
+    .map((a) => ({ ...a, artist: unwrap(a.artist) } as ArtworkWithArtist));
+
+  return curateByArtist(rows).slice(0, limit);
+}
+
+// Famous-painter allow-list. Lower index = higher rank. Lowercase so the
+// substring match is case-insensitive and accent-insensitive enough for
+// our needs (the Supabase rows store names in their canonical form).
+const FAMOUS_PAINTERS: ReadonlyArray<string> = [
+  'caravaggio', 'rembrandt', 'tissot', 'doré', 'dore',
+  'michelangelo', 'raphael', 'leonardo', 'da vinci',
+  'el greco', 'botticelli', 'velázquez', 'velazquez',
+  'rubens', 'titian', 'vermeer', 'van dyck', 'van eyck',
+  'fra angelico', 'giotto', 'duccio', 'masaccio',
+  'bosch', 'cranach', 'memling', 'mantegna',
+  'tintoretto', 'veronese', 'pontormo',
+  'guido reni', 'guercino', 'zurbarán', 'zurbaran',
+  'ribera', 'la tour', 'poussin', 'lorrain',
+  'murillo', 'bouguereau', 'william blake',
+  'hicks', 'turner', 'delacroix', 'overbeck',
+  'goya', 'david', 'ingres', 'corot',
+  'millais', 'hunt', 'rossetti', 'burne-jones',
+];
+
+function fameRank(name: string | null | undefined): number {
+  if (!name) return 9999;
+  const n = name.toLowerCase();
+  for (let i = 0; i < FAMOUS_PAINTERS.length; i++) {
+    if (n.includes(FAMOUS_PAINTERS[i])) return i;
+  }
+  return 1000;
+}
+
+/** Sort by fame rank, then interleave so consecutive tiles aren't all by
+ *  the same artist (looks repetitive in the marquee). */
+function curateByArtist(rows: ArtworkWithArtist[]): ArtworkWithArtist[] {
+  const ranked = rows
+    .slice()
+    .sort((a, b) => fameRank(a.artist?.name) - fameRank(b.artist?.name));
+
+  // Group consecutive same-artist rows so we can interleave them.
+  const byArtist = new Map<string, ArtworkWithArtist[]>();
+  for (const r of ranked) {
+    const key = r.artist?.id ?? r.id;
+    if (!byArtist.has(key)) byArtist.set(key, []);
+    byArtist.get(key)!.push(r);
+  }
+
+  // Round-robin pick one from each group until exhausted — keeps the
+  // famous-first ordering while spreading any single artist's pieces out.
+  const queues = Array.from(byArtist.values());
+  const out: ArtworkWithArtist[] = [];
+  let pickedThisPass = true;
+  while (pickedThisPass) {
+    pickedThisPass = false;
+    for (const q of queues) {
+      const next = q.shift();
+      if (next) {
+        out.push(next);
+        pickedThisPass = true;
+      }
+    }
+  }
+  return out;
+}
+
 /* ─── Filtered browse (search bar + dropdowns on /art) ─────────────────── */
 
 export type ArtSort =

@@ -258,16 +258,18 @@ html[data-reader-theme="dark"] {
 }
 
 /* ─── Arches ─────────────────────────────────────────────────────────────
-   Two horizontal marquee rows wrapped in a perspective stage so the
-   strips appear to curve into the page like a shallow dome. The top row
-   leans away from the camera (origin top, rotateX positive); the bottom
-   row leans the opposite direction so together they sketch an arch.
-   Each strip duplicates its tile list and animates translateX from 0 to
-   -50%, landing on a frame identical to the start for a seamless loop. */
+   Two horizontal marquee rows whose tiles ride a real sinusoidal arc.
+   Each tile gets a `--i` index from React; the CSS uses cos() to
+   translate it vertically along a wave whose period is the full strip
+   length. The wave moves with the marquee, so the strip reads as a
+   continuously flowing arch shape rather than a flat line.
+
+   We layer a perspective tilt on each row for added depth, but the
+   visible curvature comes from the per-tile transform — that's what
+   reads as "arched" instead of "perspective-skewed". */
 
 .loc-arches {
   position: relative;
-  /* Pull tightly under the headline and let the strips bleed full-bleed. */
   padding: 0;
   /* Soft-fade the left/right edges so tiles drift into nothing instead of
      getting clipped against a hard rectangle. */
@@ -276,57 +278,59 @@ html[data-reader-theme="dark"] {
 }
 
 .loc-arches__stage {
-  perspective: 1600px;
+  perspective: 1800px;
   perspective-origin: 50% 50%;
   display: flex;
   flex-direction: column;
-  gap: clamp(0.875rem, 1.6vw, 1.25rem);
-  padding: clamp(1.5rem, 3vw, 2.5rem) 0 clamp(1rem, 2vw, 1.75rem);
+  padding: clamp(2rem, 4vw, 3.5rem) 0 clamp(2rem, 4vw, 3rem);
+  /* Reserve enough vertical room for the tiles to ride the arc without
+     clipping the high points. */
+  min-height: clamp(360px, 32vw, 480px);
+}
+
+/* Pull the bottom row up over the top row so the two arches kiss in
+   the middle and read as one continuous dome instead of two strips. */
+.loc-arches__stage .loc-arch--bottom {
+  margin-top: -1.5rem;
+}
+@media (min-width: 880px) {
+  .loc-arches__stage .loc-arch--bottom {
+    margin-top: -2.5rem;
+  }
 }
 
 .loc-arches__caption {
   font-size: 0.8125rem;
   letter-spacing: 0.04em;
   color: var(--color-tertiary-label);
-  margin: 0.5rem auto 0;
+  margin: 1.5rem auto 0;
   max-width: 40rem;
   padding: 0 var(--loc-gutter);
+  text-align: center;
 }
 
 .loc-arch {
   position: relative;
   width: 100%;
-  /* Each arch row has its own perspective tilt. Origins are flipped so
-     the two rows tilt toward each other and form a subtle dome. */
   transform-style: preserve-3d;
 }
 
-.loc-arch--top {
-  transform: rotateX(14deg);
-  transform-origin: 50% 100%;
-}
-
-.loc-arch--bottom {
-  transform: rotateX(-14deg);
-  transform-origin: 50% 0%;
-}
+.loc-arch--top    { transform: rotateX(8deg);  transform-origin: 50% 100%; }
+.loc-arch--bottom { transform: rotateX(-8deg); transform-origin: 50% 0%; }
 
 .loc-arch__strip {
   display: flex;
-  gap: clamp(0.625rem, 1.1vw, 0.9rem);
+  align-items: center;
+  gap: clamp(0.5rem, 1vw, 0.875rem);
   width: max-content;
-  /* The scroll itself. translate3d kicks the strip onto its own GPU
-     layer so the animation stays butter-smooth even on long pages. */
+  /* Vertical room for the wave amplitude; tiles translateY around this
+     baseline. */
+  height: clamp(180px, 18vw, 240px);
   will-change: transform;
 }
 
-.loc-arch__strip--left {
-  animation: locArchScrollLeft 70s linear infinite;
-}
-
-.loc-arch__strip--right {
-  animation: locArchScrollRight 80s linear infinite;
-}
+.loc-arch__strip--left  { animation: locArchScrollLeft  90s linear infinite; }
+.loc-arch__strip--right { animation: locArchScrollRight 100s linear infinite; }
 
 @keyframes locArchScrollLeft {
   from { transform: translate3d(0, 0, 0); }
@@ -338,27 +342,47 @@ html[data-reader-theme="dark"] {
   to   { transform: translate3d(0, 0, 0); }
 }
 
-/* Pause the marquee when the user is hovering over the band, so they
-   can actually click an interesting tile. */
 .loc-arches:hover .loc-arch__strip {
   animation-play-state: paused;
 }
 
+/* ─── Per-tile arc transform ──────────────────────────────────────────────
+   Each tile receives `--i` (its index in the strip). We map that to an
+   angle on a unit circle (i / period * 360deg) and use cos() to drive
+   vertical offset and rotation, so adjacent tiles trace a smooth arc.
+
+   Top row: cos = 1 at i=0 → tile is at the TOP of the arc (translateY
+   negative). Bottom row inverts the sign so the two rows curve toward
+   each other and meet in the middle. */
 .loc-arch__tile {
   position: relative;
   flex: 0 0 auto;
-  width: clamp(160px, 16vw, 220px);
+  width: clamp(150px, 14vw, 200px);
   aspect-ratio: 4 / 3;
   border-radius: 14px;
   overflow: hidden;
   background: var(--color-separator);
   text-decoration: none;
-  /* Subtle paper-edge shadow to lift tiles off the warm background. */
   box-shadow:
     0 1px 2px rgba(20, 14, 8, 0.08),
-    0 12px 28px -14px rgba(20, 14, 8, 0.30);
-  transition: transform 0.35s cubic-bezier(0.2, 0.7, 0.2, 1),
-              box-shadow 0.35s ease;
+    0 18px 36px -16px rgba(20, 14, 8, 0.32);
+  transition: box-shadow 0.35s ease;
+  /* Default amplitude (overridden per-row below). */
+  --amp: 56px;
+  --tilt: 3deg;
+  --angle: calc((var(--i, 0) / var(--period, 12)) * 360deg);
+}
+
+.loc-arch--top .loc-arch__tile {
+  transform:
+    translateY(calc(cos(var(--angle)) * var(--amp) * -1))
+    rotate(calc(sin(var(--angle)) * var(--tilt) * -1));
+}
+
+.loc-arch--bottom .loc-arch__tile {
+  transform:
+    translateY(calc(cos(var(--angle)) * var(--amp)))
+    rotate(calc(sin(var(--angle)) * var(--tilt)));
 }
 
 .loc-arch__tile img {
@@ -370,25 +394,37 @@ html[data-reader-theme="dark"] {
 }
 
 .loc-arch__tile:hover {
-  transform: translateY(-3px) scale(1.02);
+  /* Hover overrides the arc transform — pop the card forward so it's
+     obviously clickable. */
+  transform: translateY(-6px) scale(1.04) !important;
   box-shadow:
     0 1px 2px rgba(20, 14, 8, 0.10),
-    0 22px 44px -16px rgba(20, 14, 8, 0.38);
+    0 26px 56px -18px rgba(20, 14, 8, 0.42);
+  z-index: 1;
 }
 
 @media (max-width: 720px) {
-  .loc-arch--top    { transform: rotateX(10deg); }
-  .loc-arch--bottom { transform: rotateX(-10deg); }
   .loc-arch__tile {
     width: clamp(130px, 36vw, 170px);
+    --amp: 36px;
+    --tilt: 2deg;
   }
+  .loc-arches__stage {
+    min-height: clamp(300px, 60vw, 380px);
+  }
+}
+
+/* Older Safari / browsers without CSS trig fallback: tiles render
+   straight, the marquee still scrolls, and the perspective tilt still
+   gives a hint of depth. */
+@supports not (transform: translateY(calc(cos(0deg) * 1px))) {
+  .loc-arch--top    .loc-arch__tile,
+  .loc-arch--bottom .loc-arch__tile { transform: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .loc-arch__strip--left,
   .loc-arch__strip--right { animation: none; }
-  .loc-arch--top,
-  .loc-arch--bottom       { transform: none; }
 }
 
 /* ─── 2. Continue reading rail ──────────────────────────────────────── */
