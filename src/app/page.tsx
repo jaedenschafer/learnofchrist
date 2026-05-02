@@ -25,12 +25,8 @@ export const metadata = {
 // for branded photography later — keep all references in one place so the
 // swap is mechanical.
 const IMG = {
-  hero:        'https://images.unsplash.com/photo-1504052434569-70ad5836ab65?auto=format&fit=crop&w=2400&q=85',
-  mission:     'https://images.unsplash.com/photo-1499209974431-9dddcece7f88?auto=format&fit=crop&w=1800&q=85',
-  feat1:       'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=1800&q=85',
-  feat2:       'https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=1800&q=85',
-  feat3:       'https://images.unsplash.com/photo-1438236320873-9c4ff3eb51f9?auto=format&fit=crop&w=1800&q=85',
-  feat4:       'https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1800&q=85',
+  hero:    'https://images.unsplash.com/photo-1504052434569-70ad5836ab65?auto=format&fit=crop&w=2400&q=85',
+  mission: 'https://images.unsplash.com/photo-1499209974431-9dddcece7f88?auto=format&fit=crop&w=1800&q=85',
 };
 
 // ─── Stats — facts a reader can verify quickly ───
@@ -61,49 +57,6 @@ const stories: Array<{
     name: 'Lena',
     place: 'Glasgow, UK',
     quote: 'I am a skeptic by training. Reading the historical-critical lens alongside the others finally gave me a way to read this honestly.',
-  },
-];
-
-// ─── Features — 4 alternating image / text rows ───
-const features: Array<{
-  eyebrow: string;
-  title: string;
-  body: string;
-  cta: { href: string; label: string };
-  img: string;
-  alt: string;
-}> = [
-  {
-    eyebrow: 'Multi-Lens Theology',
-    title: 'The same passage, six perspectives.',
-    body: 'Read every chapter through Catholic, Reformed, Latter-day Saint, Orthodox, Messianic, and historical-critical lenses, side by side. See where the Church agrees, and where it has always read this text differently.',
-    cta: { href: '/study', label: 'Open a chapter' },
-    img: IMG.feat1,
-    alt: 'An open Bible lit by morning light',
-  },
-  {
-    eyebrow: 'Living Translations',
-    title: 'Switch translations. Stay in the verse.',
-    body: 'KJV, ASV, WEB and more, swap instantly without losing your place. The commentary stays anchored, the verse text adapts, and the chapter you are reading does not skip a beat.',
-    cta: { href: '/bible', label: 'Browse the Bible' },
-    img: IMG.feat2,
-    alt: 'A Bible viewed from above on a wooden table',
-  },
-  {
-    eyebrow: 'Sacred Art Library',
-    title: 'Scripture, painted.',
-    body: 'Caravaggio, Rembrandt, Tissot, Doré — over a thousand classical artworks indexed by chapter and verse. Every piece is anchored to the passage it depicts so the painting and the text stay together.',
-    cta: { href: '/art', label: 'See the gallery' },
-    img: IMG.feat3,
-    alt: 'Stained glass windows in a quiet stone chapel',
-  },
-  {
-    eyebrow: 'Highlight, Note, Compare',
-    title: 'Your study, saved.',
-    body: 'Select any phrase to highlight in three colors with one tap. Add a note. Compare the verse across translations without leaving the chapter you are in.',
-    cta: { href: '/study/genesis/1', label: 'Try it on Genesis 1' },
-    img: IMG.feat4,
-    alt: 'Hands writing in a journal beside an open Bible',
   },
 ];
 
@@ -294,41 +247,6 @@ export default async function Home() {
             </div>
           ))}
         </div>
-      </section>
-
-      {/* ═══════════ 5. Features — 4 alternating image/text rows ═══════════ */}
-      <section className="loc-features">
-        <header className="loc-wrap loc-features__head">
-          <p className="loc-eyebrow">Our tools</p>
-          <h2 className="loc-features__title">Tools that help the Word stick.</h2>
-          <p className="loc-features__lede">
-            From verse-by-verse study to translation comparison and a curated
-            library of sacred art, every part of the site is built to help you
-            slow down and pay attention.
-          </p>
-        </header>
-
-        {features.map((f, i) => (
-          <div
-            key={f.title}
-            className={`loc-feature${i % 2 === 1 ? ' loc-feature--flip' : ''}`}
-          >
-            <div className="loc-wrap loc-feature__inner">
-              <div className="loc-feature__copy">
-                <p className="loc-eyebrow">{f.eyebrow}</p>
-                <h3 className="loc-feature__title">{f.title}</h3>
-                <p className="loc-feature__body">{f.body}</p>
-                <Link href={f.cta.href} className="loc-btn loc-btn--outline">
-                  {f.cta.label}
-                </Link>
-              </div>
-              <div className="loc-feature__media">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={f.img} alt={f.alt} loading="lazy" />
-              </div>
-            </div>
-          </div>
-        ))}
       </section>
 
       {/* ═══════════ 6. Stories — editorial pull-quote grid ═══════════ */}
