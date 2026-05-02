@@ -3,11 +3,25 @@
 import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 import AuthButton from './AuthButton';
+import SiteSearch from './SiteSearch';
 
+/**
+ * Top navigation bar — BibleProject-style layout.
+ *
+ * Left:   logo
+ * Center: three primary nav links (Bible · Study · Art) followed by a
+ *         generous SiteSearch pill that is the visual anchor of the bar.
+ * Right:  "Get the app" CTA, hamburger overflow (Plans, Topics, Blog,
+ *         Translations), and the AuthButton (profile circle / sign in).
+ *
+ * On mobile we hide the inline links and search; the hamburger panel
+ * takes over with a stacked menu and a dedicated mobile search row at
+ * the top.
+ */
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const mobileRef = useRef<HTMLDivElement>(null);
+  const overflowRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 8);
@@ -15,11 +29,11 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Close mobile menu on outside click / Escape.
+  // Close overflow menu on outside click / Escape / route change-ish.
   useEffect(() => {
     if (!isOpen) return;
     function onClick(e: MouseEvent) {
-      if (mobileRef.current && !mobileRef.current.contains(e.target as Node)) {
+      if (overflowRef.current && !overflowRef.current.contains(e.target as Node)) {
         setIsOpen(false);
       }
     }
@@ -34,95 +48,148 @@ export default function Navbar() {
     };
   }, [isOpen]);
 
-  const navLinks = [
+  // Three primary links sit inline next to the logo. Overflow lives in
+  // the hamburger panel.
+  const primaryLinks = [
     { href: '/bible', label: 'Bible' },
     { href: '/study', label: 'Study' },
     { href: '/art', label: 'Art' },
+  ];
+  const overflowLinks = [
+    { href: '/study-plans', label: 'Plans' },
     { href: '/topics', label: 'Topics' },
+    { href: '/questions', label: 'Questions' },
     { href: '/blog', label: 'Blog' },
+    { href: '/bible/translations', label: 'Translations' },
+    { href: '/about', label: 'About' },
   ];
 
   return (
     <nav
-      className={`sticky top-0 z-50 transition-all duration-300 ${
+      className={`sticky top-0 z-50 transition-all duration-300 site-nav ${
         scrolled ? 'glass-heavy shadow-sm' : 'backdrop-blur-md'
-      } site-nav`}
+      }`}
       style={{
         borderBottom: scrolled ? '1px solid var(--color-separator)' : '1px solid transparent',
         background: scrolled ? undefined : 'color-mix(in srgb, var(--color-bg) 60%, transparent)',
       }}
     >
-      <div className="max-w-4xl mx-auto px-5">
-        <div className="flex justify-between items-center h-12">
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-2" aria-label="Learn of Christ — home">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/logo.svg"
-              alt=""
-              width={28}
-              height={28}
-              className="block site-logo"
-              style={{ width: 28, height: 28, objectFit: 'contain' }}
-            />
-            <span
-              className="text-[1.0625rem] font-semibold tracking-tight"
-              style={{ color: 'var(--color-label)' }}
-            >
-              Learn of Christ
-            </span>
+      <div className="site-nav__bar">
+        {/* ── Logo ───────────────────────────────────────────── */}
+        <Link
+          href="/"
+          className="site-nav__brand"
+          aria-label="Learn of Christ — home"
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/logo.svg"
+            alt=""
+            width={26}
+            height={26}
+            className="site-nav__logo"
+          />
+          <span className="site-nav__brand-name">Learn of Christ</span>
+        </Link>
+
+        {/* ── Inline primary links (desktop) ─────────────────── */}
+        <div className="site-nav__links">
+          {primaryLinks.map(({ href, label }) => (
+            <Link key={href} href={href} className="site-nav__link">
+              {label}
+            </Link>
+          ))}
+        </div>
+
+        {/* ── Search (desktop) ───────────────────────────────── */}
+        <div className="site-nav__search">
+          <SiteSearch />
+        </div>
+
+        {/* ── Right cluster ─────────────────────────────────── */}
+        <div className="site-nav__right">
+          <Link href="/about#app" className="site-nav__cta">
+            Get the app
           </Link>
 
-          {/* Desktop Nav */}
-          <div className="hidden md:flex items-center gap-0.5">
-            {navLinks.map(({ href, label }) => (
-              <Link
-                key={href}
-                href={href}
-                className="nav-link px-3 py-1.5 rounded-full text-[0.8125rem] font-medium transition-all"
-              >
-                {label}
-              </Link>
-            ))}
-            <AuthButton variant="desktop" />
-          </div>
-
-          {/* Mobile right: hamburger only — settings now lives in the chapter
-              hero's utility row, so it doesn't need a global nav slot. */}
-          <div ref={mobileRef} className="md:hidden flex items-center gap-1 relative">
+          <div ref={overflowRef} className="site-nav__overflow">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="nav-link nav-icon-link w-9 h-9 rounded-full flex items-center justify-center transition-colors active:scale-95"
-              aria-label="Toggle menu"
+              className="site-nav__icon-btn"
+              aria-label="More menu"
               aria-expanded={isOpen}
             >
-              <svg className="w-[18px] h-[18px]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
                 {isOpen ? (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" />
+                  <path
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2.2"
+                    strokeLinecap="round"
+                    d="M6 6l12 12M18 6L6 18"
+                  />
                 ) : (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M4 6h16M4 12h16M4 18h16" />
+                  <path
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2.2"
+                    strokeLinecap="round"
+                    d="M4 7h16M4 12h16M4 17h16"
+                  />
                 )}
               </svg>
             </button>
 
             {isOpen && (
-              <div className="absolute right-0 top-full mt-2 z-[60] min-w-[220px] bg-[color:var(--color-surface)] rounded-2xl shadow-[0_8px_40px_rgba(0,0,0,0.15)] border border-[color:var(--color-separator)] overflow-hidden animate-fade-in nav-mobile-panel">
-                <div className="py-1">
-                  {navLinks.map(({ href, label }) => (
+              <div className="site-nav__overflow-panel">
+                {/* Mobile-only inline search */}
+                <div className="site-nav__overflow-search">
+                  <SiteSearch compact />
+                </div>
+
+                <div className="site-nav__overflow-section">
+                  <p className="site-nav__overflow-label">Browse</p>
+                  {primaryLinks.map(({ href, label }) => (
                     <Link
                       key={href}
                       href={href}
-                      className="nav-link block px-4 py-2.5 text-[0.9375rem] font-medium transition-all"
+                      className="site-nav__overflow-link site-nav__overflow-link--mobile"
                       onClick={() => setIsOpen(false)}
                     >
                       {label}
                     </Link>
                   ))}
+                </div>
+
+                <div className="site-nav__overflow-section">
+                  <p className="site-nav__overflow-label">More</p>
+                  {overflowLinks.map(({ href, label }) => (
+                    <Link
+                      key={href}
+                      href={href}
+                      className="site-nav__overflow-link"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {label}
+                    </Link>
+                  ))}
+                </div>
+
+                <div className="site-nav__overflow-section site-nav__overflow-section--cta">
+                  <Link
+                    href="/about#app"
+                    className="site-nav__overflow-link"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Get the app
+                  </Link>
                   <AuthButton variant="mobile" onNavigate={() => setIsOpen(false)} />
                 </div>
               </div>
             )}
           </div>
+
+          <AuthButton variant="desktop" />
         </div>
       </div>
     </nav>

@@ -1575,6 +1575,410 @@ html[data-reader-theme="dark"] .nav-link:hover {
   border-top: 1px solid var(--color-separator);
 }
 
+/* ─── Site nav v2 — BibleProject-style layout ────────────────────────────
+   Three-column flex bar: brand, primary links + search (center), CTA +
+   profile (right). The search bar is the visual anchor and grows to
+   absorb leftover space on desktop. On smaller screens it collapses
+   into the overflow panel so the brand stays anchored. */
+
+.site-nav__bar {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+  height: 56px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 clamp(0.875rem, 2vw, 1.25rem);
+  box-sizing: border-box;
+}
+
+.site-nav__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--color-label);
+  flex: 0 0 auto;
+}
+
+.site-nav__logo {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  display: block;
+}
+
+.site-nav__brand-name {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+
+.site-nav__links {
+  display: none;
+  align-items: center;
+  gap: 0.125rem;
+  margin-left: 0.5rem;
+  flex: 0 0 auto;
+}
+
+.site-nav__link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 0.875rem;
+  border-radius: 999px;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  color: var(--color-label);
+  text-decoration: none;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+.site-nav__link:hover {
+  background: color-mix(in srgb, var(--color-label) 7%, transparent);
+}
+
+.site-nav__search {
+  display: none;
+  flex: 1 1 auto;
+  min-width: 0;
+  max-width: 720px;
+  margin: 0 0.25rem;
+}
+
+.site-nav__right {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  margin-left: auto;
+  flex: 0 0 auto;
+}
+
+.site-nav__cta {
+  display: none;
+  align-items: center;
+  padding: 0.5rem 0.875rem;
+  border-radius: 999px;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--color-label);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 0.15s ease;
+}
+.site-nav__cta:hover {
+  background: color-mix(in srgb, var(--color-label) 7%, transparent);
+}
+
+.site-nav__icon-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-label);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+.site-nav__icon-btn:hover {
+  background: color-mix(in srgb, var(--color-label) 7%, transparent);
+}
+.site-nav__icon-btn:active { transform: scale(0.96); }
+
+.site-nav__overflow {
+  position: relative;
+}
+
+.site-nav__overflow-panel {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 8px);
+  z-index: 60;
+  min-width: 280px;
+  max-width: calc(100vw - 1.5rem);
+  background: var(--color-surface);
+  border: 1px solid var(--color-separator);
+  border-radius: 18px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.14);
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.site-nav__overflow-search {
+  /* Only shown when the overflow panel opens on mobile — desktop
+     already has the inline search bar in the bar. */
+  display: block;
+  padding: 0.25rem 0.25rem 0.5rem;
+  border-bottom: 1px solid var(--color-separator);
+  margin-bottom: 0.25rem;
+}
+
+.site-nav__overflow-section {
+  display: flex;
+  flex-direction: column;
+  padding: 0.25rem 0;
+}
+
+.site-nav__overflow-section + .site-nav__overflow-section {
+  border-top: 1px solid var(--color-separator);
+  margin-top: 0.25rem;
+  padding-top: 0.5rem;
+}
+
+.site-nav__overflow-label {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-tertiary-label);
+  margin: 0.25rem 0.75rem 0.5rem;
+}
+
+.site-nav__overflow-link {
+  display: block;
+  padding: 0.625rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--color-label);
+  text-decoration: none;
+  transition: background-color 0.12s ease;
+}
+.site-nav__overflow-link:hover {
+  background: color-mix(in srgb, var(--color-label) 7%, transparent);
+}
+
+/* The primary links also live in the overflow on mobile. Hide them on
+   desktop so they don't duplicate the inline ones in the bar. */
+.site-nav__overflow-link--mobile { display: block; }
+
+/* Desktop breakpoint: surface the inline links + search + CTA. Hide
+   primary links from the overflow panel since they're already inline. */
+@media (min-width: 880px) {
+  .site-nav__links { display: inline-flex; }
+  .site-nav__search { display: block; }
+  .site-nav__cta { display: inline-flex; }
+  .site-nav__overflow-link--mobile { display: none; }
+  .site-nav__overflow-search { display: none; }
+}
+
+/* ─── Site search ─────────────────────────────────────────────────────── */
+
+.site-search {
+  position: relative;
+  width: 100%;
+}
+
+.site-search__field {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  height: 40px;
+  padding: 0 0.875rem 0 1rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--color-label) 6%, transparent);
+  color: var(--color-secondary-label);
+  transition: background-color 0.15s ease, box-shadow 0.15s ease;
+}
+.site-search__field:focus-within {
+  background: var(--color-surface);
+  box-shadow:
+    0 0 0 1px var(--color-separator),
+    0 6px 24px rgba(0, 0, 0, 0.06);
+  color: var(--color-label);
+}
+
+.site-search__icon {
+  flex: 0 0 auto;
+  color: var(--color-tertiary-label);
+}
+
+.site-search__field:focus-within .site-search__icon {
+  color: var(--color-label);
+}
+
+.site-search__input {
+  flex: 1 1 auto;
+  min-width: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  font: inherit;
+  font-size: 0.9375rem;
+  color: var(--color-label);
+  padding: 0;
+}
+.site-search__input::placeholder {
+  color: var(--color-tertiary-label);
+}
+/* Kill the WebKit search "x" — we render our own clear button. */
+.site-search__input::-webkit-search-cancel-button { -webkit-appearance: none; }
+.site-search__input::-webkit-search-decoration { -webkit-appearance: none; }
+
+.site-search__clear {
+  flex: 0 0 auto;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--color-label) 14%, transparent);
+  color: var(--color-bg);
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+}
+.site-search__clear:hover {
+  background: var(--color-label);
+}
+
+.site-search__panel {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  z-index: 70;
+  background: var(--color-surface);
+  border: 1px solid var(--color-separator);
+  border-radius: 18px;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.14);
+  padding: 0.5rem;
+  max-height: min(560px, calc(100vh - 96px));
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.site-search__empty {
+  padding: 1.25rem 1rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: var(--color-tertiary-label);
+}
+
+.site-search__group + .site-search__group {
+  margin-top: 0.25rem;
+  padding-top: 0.25rem;
+  border-top: 1px solid var(--color-separator);
+}
+
+.site-search__group-label {
+  margin: 0.5rem 0.75rem 0.25rem;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-tertiary-label);
+}
+
+.site-search__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-search__item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0.625rem;
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--color-label);
+  transition: background-color 0.1s ease;
+}
+.site-search__item.is-active,
+.site-search__item:hover {
+  background: color-mix(in srgb, var(--color-label) 7%, transparent);
+}
+
+.site-search__thumb {
+  flex: 0 0 36px;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--color-separator);
+  display: block;
+}
+.site-search__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.site-search__glyph {
+  flex: 0 0 36px;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: color-mix(in srgb, var(--color-label) 6%, transparent);
+  color: var(--color-secondary-label);
+}
+.site-search__icon--bible  { color: #b97640; background: color-mix(in srgb, #b97640 14%, transparent); }
+.site-search__icon--study  { color: #4a7d8b; background: color-mix(in srgb, #4a7d8b 14%, transparent); }
+.site-search__icon--art    { color: #a25a8e; background: color-mix(in srgb, #a25a8e 14%, transparent); }
+.site-search__icon--topic  { color: #5b8a4a; background: color-mix(in srgb, #5b8a4a 14%, transparent); }
+.site-search__icon--blog   { color: #8a7a4a; background: color-mix(in srgb, #8a7a4a 14%, transparent); }
+
+.site-search__item-body {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+
+.site-search__item-title {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--color-label);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.site-search__item-sub {
+  font-size: 0.75rem;
+  color: var(--color-tertiary-label);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.site-search__item-chevron {
+  flex: 0 0 auto;
+  color: var(--color-tertiary-label);
+  font-size: 0.75rem;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+.site-search__item.is-active .site-search__item-chevron,
+.site-search__item:hover .site-search__item-chevron {
+  opacity: 1;
+}
+
+/* Compact variant — used when the search lives inside the mobile
+   overflow panel. Reset the absolute panel so it expands inline. */
+.site-search--compact .site-search__panel {
+  position: static;
+  box-shadow: none;
+  border: none;
+  padding: 0.25rem 0;
+  max-height: 360px;
+  margin-top: 0.5rem;
+}
+
 /* ─── Settings pills (shared w/ settings page) ─── */
 .setting-pill {
   border: 1.5px solid var(--color-separator);
