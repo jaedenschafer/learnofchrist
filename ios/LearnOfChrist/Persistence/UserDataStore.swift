@@ -153,10 +153,84 @@ final class UserDataStore {
         try? context.save()
     }
 
-    // MARK: - Notes
+    /// Soft-delete every highlight whose range covers the given verse.
+    /// Used by the verse-row "remove highlight" action where the caller
+    /// only knows the verse number, not the row id.
+    @MainActor
+    func removeHighlightsCovering(bookSlug: String, chapter: Int, verse: Int) {
+        let descriptor = FetchDescriptor<StoredHighlight>(
+            predicate: #Predicate {
+                $0.bookSlug == bookSlug
+                && $0.chapter == chapter
+                && $0.verseStart <= verse
+                && $0.verseEnd >= verse
+                && $0.deletedAt == nil
+            }
+        )
+        let rows = (try? context.fetch(descriptor)) ?? []
+        let now = Date()
+        for row in rows {
+            row.deletedAt = now
+            row.updatedAt = now
+            row.clientUpdatedAt = now
+            row.clientId = ClientID.current()
+        }
+        try? context.save()
+    }
+
+    // MARK: - Verse bookmarks
 
     @MainActor
+    @discardableResult
+    func toggleVerseBookmark(
+        bookSlug: String,
+        chapter: Int,
+        verse: Int,
+        translation: String? = nil
+    ) -> Bool {
+        let descriptor = FetchDescriptor<StoredBookmark>(
+            predicate: #Predicate {
+                $0.bookSlug == bookSlug
+                && $0.chapter == chapter
+                && $0.verse == verse
+                && $0.deletedAt == nil
+            }
+        )
+        let existing = (try? context.fetch(descriptor))?.first
+        let now = Date()
+        if let row = existing {
+            row.deletedAt = now
+            row.updatedAt = now
+            row.clientUpdatedAt = now
+            row.clientId = ClientID.current()
+            try? context.save()
+            return false
+        } else {
+            context.insert(
+                StoredBookmark(
+                    bookSlug: bookSlug,
+                    chapter: chapter,
+                    verse: verse,
+                    translation: translation
+                )
+            )
+            try? context.save()
+            return true
+        }
+    }
+
+    // MARK: - Notes
+
+    /// Upserts the note for a verse. An empty `body` triggers a soft
+    /// delete on any existing row (matching the editor's "save with
+    /// nothing in it" path) — explicit delete is also available below.
+    @MainActor
     func upsertNote(bookSlug: String, chapter: Int, verse: Int, body: String) {
+        let trimmed = body.trimmingCharacters(in: .whitespacesAndNewlines)
+        if trimmed.isEmpty {
+            deleteNote(bookSlug: bookSlug, chapter: chapter, verse: verse)
+            return
+        }
         let descriptor = FetchDescriptor<StoredNote>(
             predicate: #Predicate {
                 $0.bookSlug == bookSlug
@@ -168,13 +242,32 @@ final class UserDataStore {
         let existing = (try? context.fetch(descriptor))?.first
         let now = Date()
         if let row = existing {
-            row.body = body
+            row.body = trimmed
             row.updatedAt = now
             row.clientUpdatedAt = now
             row.clientId = ClientID.current()
-        } else if !body.isEmpty {
-            context.insert(StoredNote(bookSlug: bookSlug, chapter: chapter, verse: verse, body: body))
+        } else {
+            context.insert(StoredNote(bookSlug: bookSlug, chapter: chapter, verse: verse, body: trimmed))
         }
+        try? context.save()
+    }
+
+    @MainActor
+    func deleteNote(bookSlug: String, chapter: Int, verse: Int) {
+        let descriptor = FetchDescriptor<StoredNote>(
+            predicate: #Predicate {
+                $0.bookSlug == bookSlug
+                && $0.chapter == chapter
+                && $0.verse == verse
+                && $0.deletedAt == nil
+            }
+        )
+        guard let row = (try? context.fetch(descriptor))?.first else { return }
+        let now = Date()
+        row.deletedAt = now
+        row.updatedAt = now
+        row.clientUpdatedAt = now
+        row.clientId = ClientID.current()
         try? context.save()
     }
 }
