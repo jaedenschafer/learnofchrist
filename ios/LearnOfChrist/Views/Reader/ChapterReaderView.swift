@@ -88,6 +88,15 @@ struct ChapterReaderView: View {
                 bookSlug: chapter.bookSlug,
                 chapter: chapter.chapter
             )
+            // Record that the user opened this chapter so the Library tab's
+            // Continue Reading section can surface it. scrollPct stays 0
+            // for v1 — exact resume position comes when we wire scroll
+            // tracking; for now just a "you were here" timestamp is enough.
+            userData.recordReadingProgress(
+                bookSlug: chapter.bookSlug,
+                chapter: chapter.chapter,
+                scrollPct: 0
+            )
         }
         .sheet(item: noteEditorBinding) { verse in
             NoteEditorSheet(

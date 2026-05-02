@@ -1,30 +1,40 @@
 // RootView.swift
 // ────────────────────────────────────────────────────────────────────────────
-// App-level navigation host. Boots into the book grid (which works
-// fully offline thanks to BibleBookCatalog being static); selecting a
-// book pushes the chapter list; selecting a chapter pushes the reader.
+// App-level shell. Two tabs:
 //
-// The reader is wrapped in ChapterLoaderView, which owns the manifest
-// fetch + pack download for that specific (book, chapter) pair so each
-// reader push is independent.
+//   1. Read    — book grid → chapter picker → reader
+//   2. Library — your activity (continue reading, notes, highlights, bookmarks)
+//
+// Each tab owns its own NavigationStack so back-stacks don't leak
+// between tabs. Both stacks attach the same .bibleNavigationDestinations()
+// modifier — anything that links to a BibleBook or a ChapterRoute
+// resolves the same way regardless of where in the app it was tapped.
 
 import SwiftUI
 
 struct RootView: View {
-    @State private var path = NavigationPath()
+    @State private var readPath = NavigationPath()
+    @State private var libraryPath = NavigationPath()
 
     var body: some View {
-        NavigationStack(path: $path) {
-            BookGridView()
-                .navigationDestination(for: BibleBook.self) { book in
-                    ChapterListView(book: book)
-                }
-                .navigationDestination(for: ChapterRoute.self) { route in
-                    ChapterLoaderView(route: route)
-                }
+        TabView {
+            NavigationStack(path: $readPath) {
+                BookGridView()
+                    .bibleNavigationDestinations()
+            }
+            .tabItem { Label("Read", systemImage: "book.closed") }
+
+            NavigationStack(path: $libraryPath) {
+                LibraryView()
+                    .bibleNavigationDestinations()
+            }
+            .tabItem { Label("Library", systemImage: "bookmark") }
         }
+        .tint(Theme.color.accent)
     }
 }
+
+// MARK: - Chapter loader (shared by both tabs)
 
 /// Resolves a ChapterRoute into a rendered ChapterReaderView by
 /// fetching the manifest, finding the entry for this book, downloading
@@ -111,8 +121,6 @@ struct ChapterLoaderView: View {
         do {
             let manifest = try await ContentService.shared.fetchManifest()
             guard let entry = manifest.entries.first(where: { $0.book == route.book.slug }) else {
-                // No pack for this book yet — the navigation succeeded,
-                // we just don't have content to show. Treat as "missing".
                 self.chapter = nil
                 self.loadState = .ready
                 return
