@@ -1,19 +1,20 @@
 /**
  * build-content-packs.ts
  * ──────────────────────────────────────────────────────────────────────────
- * Compiles the TS-authored study/chapter content into versioned JSON packs
- * for the iOS and Android apps. Pack layout:
+ * Compiles the TS-authored chapter + study content into versioned JSON
+ * packs for the iOS and Android apps.
  *
  *     dist/content/v1/
  *       manifest.json
- *       chapters/<book-slug>.json     (legacy ChapterContent shape)
- *       study/<book-slug>-<chap>.json (RichChapterContent — hand-authored only)
+ *       chapters/<book-slug>.json
  *
- * Web stays on the in-bundle imports for now. The mobile clients
- * download these packs at first launch and check `manifest.json` on
- * subsequent launches to pull deltas.
+ * Each per-book pack contains every chapter for that book in the
+ * RichChapterContent shape (hand-authored where it exists; auto-ported
+ * from the legacy ChapterContent for everything else). Mobile clients
+ * therefore get a uniform shape and never need to reimplement the
+ * auto-port path.
  *
- * Run: `npx tsx scripts/build-content-packs.ts`
+ * Run: `npm run content:build`
  *
  * Optional: pass `--upload` to push to Supabase Storage. Requires
  * SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY in env.
@@ -25,33 +26,25 @@ import { existsSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { CHAPTERS, type ChapterContent } from '../src/data/chapter-content';
-import { RICH_CHAPTERS } from '../src/data/study-chapters';
+import { bibleBooks, type BibleBook } from '../src/data/books';
+import { getChapterContent } from '../src/data/chapter-content';
+import { getRichChapter } from '../src/data/study-chapters';
 import type {
   Block,
   RichChapterContent,
-  RichSection,
 } from '../src/data/study-chapters/types';
-
-// Inlined here (rather than importing from src/lib/chapterContent.ts)
-// because that module pulls in `@/lib/supabase` and would force a full
-// Next.js path-alias setup just to compile this script.
-function serializeRegExp(re: RegExp | undefined | null) {
-  if (!re) return null;
-  return { pattern: re.source, flags: re.flags };
-}
 
 const PACK_VERSION = 1;
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = join(ROOT, 'dist', 'content', `v${PACK_VERSION}`);
 
 interface ManifestEntry {
-  path: string; // relative to manifest, e.g. "chapters/genesis.json"
-  hash: string; // sha256 hex
-  size: number; // bytes
-  type: 'chapters' | 'study';
-  book: string;
-  chapter?: number;
+  path: string;       // relative to manifest, e.g. "chapters/genesis.json"
+  hash: string;       // sha256 hex of the file body
+  size: number;       // bytes
+  book: string;       // 'genesis'
+  book_name: string;  // 'Genesis'
+  chapters: number;   // count of chapters with content in this pack
 }
 
 interface Manifest {
@@ -61,115 +54,31 @@ interface Manifest {
   entries: ManifestEntry[];
 }
 
-async function main() {
-  const upload = process.argv.includes('--upload');
+/* ─── Helpers ──────────────────────────────────────────────────────────── */
 
-  await mkdir(join(OUT, 'chapters'), { recursive: true });
-  await mkdir(join(OUT, 'study'), { recursive: true });
+// Match the canonical web slug rule (BookGrid.tsx:10).
+function bookSlug(name: string): string {
+  return name.toLowerCase().replace(/\s+/g, '-').replace(/'/g, '');
+}
 
-  const entries: ManifestEntry[] = [];
+function sha256(s: string): string {
+  return createHash('sha256').update(s, 'utf8').digest('hex');
+}
 
-  // ─── 1. Per-book legacy chapter packs ───
-  // CHAPTERS is keyed by `${bookSlug}-${chapter}`. Group by book.
-  const byBook = new Map<string, Record<number, ChapterContent>>();
-  for (const [key, content] of Object.entries(CHAPTERS)) {
-    const m = key.match(/^(.+)-(\d+)$/);
-    if (!m) continue;
-    const [, book, chapStr] = m;
-    const chap = parseInt(chapStr, 10);
-    const bucket = byBook.get(book) ?? {};
-    bucket[chap] = content;
-    byBook.set(book, bucket);
-  }
-
-  for (const [book, chapters] of byBook) {
-    const file = join(OUT, 'chapters', `${book}.json`);
-    const payload = {
-      book_slug: book,
-      pack_version: PACK_VERSION,
-      generated_at: new Date().toISOString(),
-      chapters,
-    };
-    const json = JSON.stringify(payload, null, 0);
-    await writeFile(file, json, 'utf8');
-    entries.push({
-      path: `chapters/${book}.json`,
-      hash: sha256(json),
-      size: Buffer.byteLength(json, 'utf8'),
-      type: 'chapters',
-      book,
-    });
-    process.stdout.write(`  ✓ chapters/${book}.json (${formatBytes(json.length)})\n`);
-  }
-
-  // ─── 2. Rich (hand-authored) study packs ───
-  // RICH_CHAPTERS is keyed by `${bookSlug}-${chapter}`. One file per
-  // chapter so the iOS app can lazy-load only what the user opens.
-  for (const [key, rich] of Object.entries(RICH_CHAPTERS)) {
-    const m = key.match(/^(.+)-(\d+)$/);
-    if (!m) continue;
-    const [, book, chapStr] = m;
-    const chap = parseInt(chapStr, 10);
-
-    const serialized = serializeRich(rich);
-    const file = join(OUT, 'study', `${book}-${chap}.json`);
-    const json = JSON.stringify(serialized, null, 0);
-    await writeFile(file, json, 'utf8');
-    entries.push({
-      path: `study/${book}-${chap}.json`,
-      hash: sha256(json),
-      size: Buffer.byteLength(json, 'utf8'),
-      type: 'study',
-      book,
-      chapter: chap,
-    });
-    process.stdout.write(`  ✓ study/${book}-${chap}.json (${formatBytes(json.length)})\n`);
-  }
-
-  // ─── 3. Manifest ───
-  const manifest: Manifest = {
-    pack_version: PACK_VERSION,
-    generated_at: new Date().toISOString(),
-    generator: 'build-content-packs',
-    entries,
-  };
-  const manifestJson = JSON.stringify(manifest, null, 2);
-  await writeFile(join(OUT, 'manifest.json'), manifestJson, 'utf8');
-  process.stdout.write(
-    `\n  ✓ manifest.json — ${entries.length} packs, total ${formatBytes(
-      entries.reduce((a, e) => a + e.size, 0)
-    )}\n`
-  );
-
-  if (upload) {
-    await uploadAll(manifest);
-  } else {
-    process.stdout.write(
-      `\n  Skipped upload. Pass --upload to push to Supabase Storage.\n`
-    );
-  }
+function formatBytes(n: number): string {
+  if (n < 1024) return `${n} B`;
+  if (n < 1024 * 1024) return `${(n / 1024).toFixed(1)} KB`;
+  return `${(n / (1024 * 1024)).toFixed(2)} MB`;
 }
 
 /* ─── Serialization ────────────────────────────────────────────────────── */
+// RichChapterContent contains RegExp objects in `Block.artwork.matchTitle`,
+// `Block.artwork.matchArtist`, and (optionally) `opener.match*`. JSON.stringify
+// silently drops them — convert to { pattern, flags } first.
 
-function serializeRich(rich: RichChapterContent) {
-  // RegExp objects in Block.artwork and rich.opener can't survive JSON.
-  // Convert to { pattern, flags } using the same helper the web uses.
-  const sections: RichSection[] = rich.sections.map((s) => ({
-    ...s,
-    blocks: s.blocks.map((b) => serializeBlock(b)),
-  }));
-  return {
-    ...rich,
-    opener: rich.opener
-      ? {
-          ...rich.opener,
-          matchTitle: serializeRegExp(rich.opener.matchTitle ?? null),
-          matchArtist: serializeRegExp(rich.opener.matchArtist ?? null),
-        }
-      : undefined,
-    sections,
-  };
+function serializeRegExp(re: RegExp | undefined | null) {
+  if (!re) return null;
+  return { pattern: re.source, flags: re.flags };
 }
 
 function serializeBlock(b: Block): unknown {
@@ -183,30 +92,126 @@ function serializeBlock(b: Block): unknown {
   return b;
 }
 
-/* ─── Hash + bytes helpers ────────────────────────────────────────────── */
-
-function sha256(s: string): string {
-  return createHash('sha256').update(s, 'utf8').digest('hex');
+function serializeRich(rich: RichChapterContent) {
+  return {
+    ...rich,
+    opener: rich.opener
+      ? {
+          ...rich.opener,
+          matchTitle: serializeRegExp(rich.opener.matchTitle ?? null),
+          matchArtist: serializeRegExp(rich.opener.matchArtist ?? null),
+        }
+      : undefined,
+    sections: rich.sections.map((s) => ({
+      ...s,
+      blocks: s.blocks.map(serializeBlock),
+    })),
+  };
 }
 
-function formatBytes(n: number): string {
-  if (n < 1024) return `${n} B`;
-  if (n < 1024 * 1024) return `${(n / 1024).toFixed(1)} KB`;
-  return `${(n / (1024 * 1024)).toFixed(2)} MB`;
+/* ─── Build ────────────────────────────────────────────────────────────── */
+
+async function main() {
+  const upload = process.argv.includes('--upload');
+
+  await mkdir(join(OUT, 'chapters'), { recursive: true });
+
+  const entries: ManifestEntry[] = [];
+  let totalChapters = 0;
+  let booksWithContent = 0;
+
+  for (const book of bibleBooks as BibleBook[]) {
+    const slug = bookSlug(book.name);
+    const chapters: Record<number, ReturnType<typeof serializeRich>> = {};
+    let chapterCount = 0;
+
+    for (let ch = 1; ch <= book.chapters; ch++) {
+      const legacy = getChapterContent(slug, ch);
+      // getRichChapter returns hand-authored if registered, otherwise the
+      // auto-port output if legacy exists, otherwise emptyChapter shell.
+      const rich = getRichChapter(slug, book.name, ch, legacy, []);
+      if (!rich) continue;
+
+      // Skip empty shells (no real content) so the pack only carries
+      // chapters worth shipping.
+      const hasContent =
+        Boolean(legacy) ||
+        rich.intros.length > 0 ||
+        rich.sections.length > 0;
+      if (!hasContent) continue;
+
+      chapters[ch] = serializeRich(rich);
+      chapterCount += 1;
+    }
+
+    if (chapterCount === 0) continue;
+
+    const payload = {
+      book_slug: slug,
+      book_name: book.name,
+      pack_version: PACK_VERSION,
+      generated_at: new Date().toISOString(),
+      chapters,
+    };
+    const json = JSON.stringify(payload);
+    const file = join(OUT, 'chapters', `${slug}.json`);
+    await writeFile(file, json, 'utf8');
+
+    const size = Buffer.byteLength(json, 'utf8');
+    entries.push({
+      path: `chapters/${slug}.json`,
+      hash: sha256(json),
+      size,
+      book: slug,
+      book_name: book.name,
+      chapters: chapterCount,
+    });
+    totalChapters += chapterCount;
+    booksWithContent += 1;
+    process.stdout.write(
+      `  ✓ chapters/${slug}.json — ${chapterCount} chapter${
+        chapterCount === 1 ? '' : 's'
+      } (${formatBytes(size)})\n`
+    );
+  }
+
+  // ─── Manifest ───
+  const manifest: Manifest = {
+    pack_version: PACK_VERSION,
+    generated_at: new Date().toISOString(),
+    generator: 'build-content-packs',
+    entries,
+  };
+  const manifestJson = JSON.stringify(manifest, null, 2);
+  await writeFile(join(OUT, 'manifest.json'), manifestJson, 'utf8');
+
+  const totalSize = entries.reduce((a, e) => a + e.size, 0);
+  process.stdout.write(
+    `\n  ✓ manifest.json — ${booksWithContent} books, ${totalChapters} chapters, ${formatBytes(
+      totalSize
+    )}\n`
+  );
+
+  if (upload) {
+    await uploadAll(manifest);
+  } else {
+    process.stdout.write(
+      `\n  Skipped upload. Pass --upload to push to Supabase Storage.\n`
+    );
+  }
 }
 
 /* ─── Optional upload ─────────────────────────────────────────────────── */
 
 async function uploadAll(manifest: Manifest) {
-  const url = process.env.SUPABASE_URL;
+  const url = process.env.SUPABASE_URL ?? process.env.NEXT_PUBLIC_SUPABASE_URL;
   const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
   if (!url || !key) {
-    throw new Error('SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY required for --upload');
+    throw new Error(
+      'SUPABASE_URL (or NEXT_PUBLIC_SUPABASE_URL) + SUPABASE_SERVICE_ROLE_KEY required for --upload'
+    );
   }
 
-  // Minimal storage upload via REST (avoids adding @supabase/supabase-js
-  // to the script's dependency surface — the project already has it,
-  // but keeping the script minimal is nicer when running via tsx).
   const bucket = 'content';
   const prefix = `v${PACK_VERSION}`;
 
@@ -218,7 +223,7 @@ async function uploadAll(manifest: Manifest) {
     process.stdout.write(`  ↑ ${dest}\n`);
   }
 
-  // manifest.json last so clients never see a partial deploy
+  // manifest.json last so clients never see a partial deploy.
   const manifestPath = join(OUT, 'manifest.json');
   if (existsSync(manifestPath)) {
     await uploadOne(
