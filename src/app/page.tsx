@@ -150,40 +150,46 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* ═══════════ 2b. Today — image-forward featured cards ═══════════ */}
+      {/* ═══════════ 2b. From the gallery — art-focused so it doesn't
+            duplicate the dashboard's reading slot ═══════════ */}
       <section className="loc-today">
         <div className="loc-wrap">
-          <p className="loc-eyebrow loc-today__eyebrow">Today</p>
+          <p className="loc-eyebrow loc-today__eyebrow">From the gallery</p>
           <div className="loc-today__grid">
-            {/* Featured: today's chapter */}
-            <Link href="/study/genesis/1" className="loc-today-card loc-today-card--feature">
-              {featuredArt && (
-                /* eslint-disable-next-line @next/next/no-img-element */
+            {/* Featured painting */}
+            {featuredArt ? (
+              <Link
+                href={`/art/artwork/${featuredArt.slug}`}
+                className="loc-today-card loc-today-card--feature"
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={featuredArt.image_url || featuredArt.thumbnail_url || ''}
                   alt=""
                   className="loc-today-card__bg"
                   loading="lazy"
                 />
-              )}
-              <div className="loc-today-card__veil" aria-hidden="true" />
-              <div className="loc-today-card__body">
-                <p className="loc-today-card__kicker">Featured study &middot; 18 min</p>
-                <h3 className="loc-today-card__title">Genesis 1</h3>
-                <p className="loc-today-card__sub">
-                  Walk through the seven days, the Hebrew behind the words, and
-                  how the chapter points to Christ.
-                </p>
-              </div>
-              <span className="loc-today-card__cta" aria-hidden="true">
-                <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true">
-                  <path d="M8 5v14l11-7z" />
-                </svg>
-                Begin
-              </span>
-            </Link>
+                <div className="loc-today-card__veil" aria-hidden="true" />
+                <div className="loc-today-card__body">
+                  <p className="loc-today-card__kicker">Today&rsquo;s painting</p>
+                  <h3 className="loc-today-card__title">{featuredArt.title}</h3>
+                  {featuredArt.artist && (
+                    <p className="loc-today-card__sub">
+                      {featuredArt.artist.name}
+                      {featuredArt.year ? ` · ${featuredArt.year}` : ''}
+                    </p>
+                  )}
+                </div>
+                <span className="loc-today-card__cta" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" aria-hidden="true">
+                    <path d="M5 12h14M13 6l6 6-6 6" />
+                  </svg>
+                  View
+                </span>
+              </Link>
+            ) : null}
 
-            {/* Secondary: today's art */}
+            {/* Secondary painting or gallery CTA */}
             {secondaryArt ? (
               <Link
                 href={`/art/artwork/${secondaryArt.slug}`}
@@ -198,7 +204,7 @@ export default async function Home() {
                 />
                 <div className="loc-today-card__veil" aria-hidden="true" />
                 <div className="loc-today-card__body">
-                  <p className="loc-today-card__kicker">Today&rsquo;s painting</p>
+                  <p className="loc-today-card__kicker">Also on view</p>
                   <h3 className="loc-today-card__title loc-today-card__title--small">
                     {secondaryArt.title}
                   </h3>
@@ -208,13 +214,13 @@ export default async function Home() {
                 </div>
               </Link>
             ) : (
-              <Link href="/blog" className="loc-today-card loc-today-card--small loc-today-card--text">
+              <Link href="/art" className="loc-today-card loc-today-card--small loc-today-card--text">
                 <div className="loc-today-card__body">
-                  <p className="loc-today-card__kicker">From the blog</p>
+                  <p className="loc-today-card__kicker">Browse the library</p>
                   <h3 className="loc-today-card__title loc-today-card__title--small">
-                    What we are reading this week.
+                    A thousand sacred works, indexed by passage.
                   </h3>
-                  <p className="loc-today-card__sub">Latest essays and reflections.</p>
+                  <p className="loc-today-card__sub">Open the gallery.</p>
                 </div>
               </Link>
             )}
@@ -225,7 +231,7 @@ export default async function Home() {
       {/* ═══════════ 3. Mission — generous text on a clean surface ═══════════ */}
       <section className="loc-mission">
         <div className="loc-wrap loc-mission__inner">
-          <p className="loc-eyebrow">Built for everyone</p>
+          <p className="loc-eyebrow">The mission</p>
           <h2 className="loc-mission__title">
             A study deep enough to live in.
           </h2>

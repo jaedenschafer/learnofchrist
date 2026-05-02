@@ -577,11 +577,15 @@ html[data-reader-theme="dark"] .loc-btn--outline {
   position: absolute;
   inset: 0;
   z-index: -1;
+  /* Warm Vesper veil — Compline-tinted black with a soft peach halo at
+     the bottom so the cards read as part of the same warm material as
+     everything else on the page, not a generic dark photo overlay. */
   background:
+    radial-gradient(ellipse 80% 50% at 50% 100%, rgba(232, 184, 148, 0.20), transparent 65%),
     linear-gradient(180deg,
-      rgba(7, 9, 13, 0.12) 0%,
-      rgba(7, 9, 13, 0.45) 55%,
-      rgba(7, 9, 13, 0.92) 100%);
+      rgba(26, 22, 18, 0.10) 0%,
+      rgba(26, 22, 18, 0.45) 55%,
+      rgba(26, 22, 18, 0.92) 100%);
 }
 
 .loc-today-card--feature {
@@ -1361,12 +1365,16 @@ html[data-reader-theme="dark"] .loc-stats {
 
 /* ── Reflection headline ────────────────────────────── */
 .loc-dash__eyebrow {
+  /* Vesper Gold — matches every other eyebrow on the site. The text
+     shadow keeps it legible against the photographic backdrop. */
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  font-size: 0.875rem;
-  font-weight: 600;
-  letter-spacing: 0.01em;
-  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--loc-gold-soft);
   margin: 0;
+  text-shadow: 0 1px 8px rgba(26, 22, 18, 0.45);
 }
 
 .loc-dash__title {
