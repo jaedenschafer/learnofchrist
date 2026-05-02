@@ -16,6 +16,13 @@ struct RootView: View {
     @State private var readPath = NavigationPath()
     @State private var libraryPath = NavigationPath()
 
+    @AppStorage(AppearancePreferences.Key.colorScheme)
+    private var colorSchemeRaw: String = AppearancePreferences.ColorSchemePreference.system.rawValue
+
+    private var preferredScheme: ColorScheme? {
+        AppearancePreferences.ColorSchemePreference(rawValue: colorSchemeRaw)?.resolved
+    }
+
     var body: some View {
         TabView {
             NavigationStack(path: $readPath) {
@@ -29,8 +36,14 @@ struct RootView: View {
                     .bibleNavigationDestinations()
             }
             .tabItem { Label("Library", systemImage: "bookmark") }
+
+            NavigationStack {
+                SettingsView()
+            }
+            .tabItem { Label("Settings", systemImage: "gearshape") }
         }
         .tint(Theme.color.accent)
+        .preferredColorScheme(preferredScheme)
     }
 }
 
