@@ -12,8 +12,9 @@ import SwiftUI
 
 enum AppearancePreferences {
     enum Key {
-        static let colorScheme = "appearance.colorScheme"
-        static let textSize    = "appearance.textSize"
+        static let colorScheme       = "appearance.colorScheme"
+        static let textSize          = "appearance.textSize"
+        static let onboardingDone    = "onboarding.completed"
     }
 
     /// User-selected color scheme. `.system` follows the OS setting.
