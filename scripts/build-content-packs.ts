@@ -26,6 +26,14 @@ import { existsSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
+// Load .env.local so SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY are picked
+// up when running with `--upload`. Resolved early so the imports below
+// (which transitively touch supabase clients) see the same values.
+import { config as loadEnv } from 'dotenv';
+loadEnv({
+  path: resolve(dirname(fileURLToPath(import.meta.url)), '..', '.env.local'),
+});
+
 import { bibleBooks, type BibleBook } from '../src/data/books';
 import { getChapterContent } from '../src/data/chapter-content';
 import { getRichChapter } from '../src/data/study-chapters';
