@@ -22,6 +22,36 @@ widgets, audio backgrounding, and Watch/CarPlay paths are materially
 better. The Android client will follow the same RPC + content-pack
 contracts so it inherits everything except the UI layer.
 
+## Account model: free, sign-in optional
+
+The mobile apps are **free** and **usable without an account**. Reading
+the Bible, opening study guides, switching translation/lens/depth, and
+local highlighting/journaling all work signed-out.
+
+Sign-in is a *save trigger*, not a gate. The first time the user opts
+into a sync action ("Save to my account", "Sync across devices",
+"Backup my journal"), the app prompts Sign in with Apple (iOS) or Google
+(Android). On success, locally-stored rows are uploaded against the new
+`user_id` via a `claim_local_data()` write — same `client_id` is used
+going forward so subsequent syncs reconcile cleanly.
+
+Implications:
+
+- The `subscriptions` table and `is_premium()` helper are built but not
+  used by any v1 feature. We are not gating launch features on premium.
+- Anonymous reads must keep working — no JWT required for
+  `v1_app_config`, `v1_book_index`, `v1_chapter_overrides`, the
+  signed-out branch of `v1_home_feed`, or the content-pack URLs.
+- `v1_sync_user_data` and any user-scoped writes require a JWT (and are
+  reached only after the sign-in handoff).
+- The "Ask About This Passage" Edge Function (`passage-qa`) currently
+  requires auth for rate-limit reasons. Open question: allow anonymous
+  with IP-based rate limit, or use it as a sign-in trigger? Defer until
+  closer to ship.
+- API.Bible / paid translations are not in v1.
+- The local-storage shape on each device must be byte-compatible with
+  the Supabase row shape so the claim payload is a straight upload.
+
 ## Content storage strategy
 
 Per-content-type rule of thumb:
