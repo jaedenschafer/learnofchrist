@@ -60,3 +60,22 @@ targets:
         INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+
+  LearnOfChristTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: LearnOfChristTests
+      # Bundle the shared scripture-ref test vectors as a resource so
+      # ScriptureRefTests can load them via Bundle(for: Self.self).
+      - path: ../docs/scripture-ref-test-vectors.json
+        buildPhase: resources
+    dependencies:
+      - target: LearnOfChrist
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.learnofchrist.app.Tests
+        GENERATE_INFOPLIST_FILE: YES
+        BUNDLE_LOADER: "$(TEST_HOST)"
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/LearnOfChrist.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LearnOfChrist"

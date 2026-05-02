@@ -1,18 +1,39 @@
 // RootView.swift
 // ────────────────────────────────────────────────────────────────────────────
-// Initial app screen. v1 boots straight into Genesis 1 from the published
-// content packs — no auth, no onboarding. The whole point of this view
-// in the foundation phase is to prove the loop:
+// App-level navigation host. Boots into the book grid (which works
+// fully offline thanks to BibleBookCatalog being static); selecting a
+// book pushes the chapter list; selecting a chapter pushes the reader.
 //
-//   manifest fetch → pack download → cache → render
-//
-// Once we have a real Bible browser tab, RootView swaps to a TabView.
+// The reader is wrapped in ChapterLoaderView, which owns the manifest
+// fetch + pack download for that specific (book, chapter) pair so each
+// reader push is independent.
 
 import SwiftUI
 
 struct RootView: View {
+    @State private var path = NavigationPath()
+
+    var body: some View {
+        NavigationStack(path: $path) {
+            BookGridView()
+                .navigationDestination(for: BibleBook.self) { book in
+                    ChapterListView(book: book)
+                }
+                .navigationDestination(for: ChapterRoute.self) { route in
+                    ChapterLoaderView(route: route)
+                }
+        }
+    }
+}
+
+/// Resolves a ChapterRoute into a rendered ChapterReaderView by
+/// fetching the manifest, finding the entry for this book, downloading
+/// the pack, and pulling out the requested chapter.
+struct ChapterLoaderView: View {
+    let route: ChapterRoute
+
     @State private var loadState: LoadState = .idle
-    @State private var pack: ContentPack?
+    @State private var chapter: RichChapterContent?
 
     enum LoadState: Equatable {
         case idle
@@ -22,72 +43,82 @@ struct RootView: View {
     }
 
     var body: some View {
-        NavigationStack {
-            Group {
-                switch loadState {
-                case .idle, .loading:
-                    loadingView
-                case .ready:
-                    if let pack, let chapter1 = pack.chapter(1) {
-                        ChapterReaderView(chapter: chapter1)
-                    } else {
-                        Text("Pack loaded but chapter 1 missing.")
-                            .foregroundStyle(.secondary)
-                    }
-                case .failed(let message):
-                    failureView(message: message)
+        Group {
+            switch loadState {
+            case .idle, .loading:
+                loadingView
+            case .ready:
+                if let chapter {
+                    ChapterReaderView(chapter: chapter)
+                } else {
+                    missingChapterView
                 }
+            case .failed(let message):
+                failureView(message: message)
             }
-            .navigationTitle("Learn of Christ")
-            .navigationBarTitleDisplayMode(.inline)
         }
-        .task {
-            await loadGenesis()
-        }
+        .background(Theme.color.background)
+        .task(id: route) { await load() }
     }
 
     private var loadingView: some View {
-        VStack(spacing: 16) {
+        VStack(spacing: Theme.metric.spaceL) {
             ProgressView()
-            Text("Fetching the latest content…")
-                .foregroundStyle(.secondary)
+            Text("Fetching \(route.book.name) \(route.chapter)…")
+                .font(Theme.font.callout)
+                .foregroundStyle(Theme.color.secondaryLabel)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+    }
+
+    private var missingChapterView: some View {
+        VStack(spacing: Theme.metric.spaceM) {
+            Image(systemName: "doc.text.magnifyingglass")
+                .font(.system(size: 32))
+                .foregroundStyle(Theme.color.secondaryLabel)
+            Text("\(route.book.name) \(route.chapter) isn't in the study library yet.")
+                .font(Theme.font.callout)
+                .foregroundStyle(Theme.color.secondaryLabel)
+                .multilineTextAlignment(.center)
+                .padding(.horizontal, Theme.metric.spaceXL)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 
     private func failureView(message: String) -> some View {
-        VStack(spacing: 12) {
+        VStack(spacing: Theme.metric.spaceM) {
             Image(systemName: "exclamationmark.triangle")
                 .font(.largeTitle)
                 .foregroundStyle(.orange)
-            Text("Couldn't load content")
-                .font(.headline)
+            Text("Couldn't load \(route.book.name) \(route.chapter)")
+                .font(Theme.font.cardTitle)
+                .foregroundStyle(Theme.color.label)
             Text(message)
-                .font(.callout)
-                .foregroundStyle(.secondary)
+                .font(Theme.font.callout)
+                .foregroundStyle(Theme.color.secondaryLabel)
                 .multilineTextAlignment(.center)
-                .padding(.horizontal, 32)
+                .padding(.horizontal, Theme.metric.spaceXXL)
             Button("Try again") {
-                Task { await loadGenesis() }
+                Task { await load() }
             }
             .buttonStyle(.borderedProminent)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 
-    private func loadGenesis() async {
+    private func load() async {
         loadState = .loading
         do {
             let manifest = try await ContentService.shared.fetchManifest()
-            guard let entry = manifest.entries.first(where: { $0.book == "genesis" }) else {
-                throw NSError(
-                    domain: "LearnOfChrist",
-                    code: 404,
-                    userInfo: [NSLocalizedDescriptionKey: "Genesis pack not found in manifest"]
-                )
+            guard let entry = manifest.entries.first(where: { $0.book == route.book.slug }) else {
+                // No pack for this book yet — the navigation succeeded,
+                // we just don't have content to show. Treat as "missing".
+                self.chapter = nil
+                self.loadState = .ready
+                return
             }
             let pack = try await ContentService.shared.loadPack(entry)
-            self.pack = pack
+            self.chapter = pack.chapter(route.chapter)
             self.loadState = .ready
         } catch {
             self.loadState = .failed(error.localizedDescription)

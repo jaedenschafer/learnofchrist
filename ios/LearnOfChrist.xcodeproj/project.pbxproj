@@ -7,33 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050BE1CF3708564A00B04D72 /* ChapterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007900D8997CB09F94B7FC6D /* ChapterListView.swift */; };
+		25A27AB43DDA87EB1A148A19 /* BookGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6DB00959201694DB39EF9A /* BookGridView.swift */; };
+		309BE565EFC699753A1AC2BD /* UserDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1633C4A78F765CB7BEF71D19 /* UserDataModels.swift */; };
+		3B86AF8522B3648DC512AB67 /* ScriptureRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFCFA5C21ED087763C2DD72 /* ScriptureRef.swift */; };
 		5F374F09A7B9052E14960305 /* ContentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A109E0167021461BF1329D /* ContentService.swift */; };
 		810A2FAEA1C8875C7F80D714 /* LearnOfChristApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158A3BDD3934A3D1F123907F /* LearnOfChristApp.swift */; };
 		85A1EE6E66E494324443378E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B083050796EA89260158C08 /* RootView.swift */; };
 		9C53E769C5E12AACECA05D44 /* RichChapterContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA263511EF4ACB7157220CCC /* RichChapterContent.swift */; };
+		A72EB6B6767B604330703195 /* ScriptureRefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDCF3D1A0A36F382E96A162 /* ScriptureRefTests.swift */; };
+		AD43E781BB7139B0F21EDFA0 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEA22E737B2582BD3343D44 /* Theme.swift */; };
 		C2DD54D7E7D5DC609D4A4E3B /* ChapterReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0119AE34ED8F057D7C2F62FD /* ChapterReaderView.swift */; };
+		CADEFB96F3EC104FAEFAE3B3 /* scripture-ref-test-vectors.json in Resources */ = {isa = PBXBuildFile; fileRef = 5AFFA6BC87C79D1BD7EAC5A1 /* scripture-ref-test-vectors.json */; };
+		CDEDCD70AD9CF921310D0B2B /* UserDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E985681588671C4DA2FCBFF4 /* UserDataStore.swift */; };
 		D896D3C27BF4D86DEB79447B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC63A05F74A0523C37DFE3C4 /* Assets.xcassets */; };
 		E0D8AF8D68FF846A6F32FAEC /* ContentManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4EDF7609B6967C64A6B3A1 /* ContentManifest.swift */; };
 		E1A66B56D030808CA165A886 /* PackCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF111E4EB04E236512DC846 /* PackCache.swift */; };
+		E4A1755BD632BAC97297733B /* BibleBookCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AE1E010AE2F6CB65975F57 /* BibleBookCatalog.swift */; };
+		F4009F9285CDEB7EDC081FCA /* ClientID.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EB2CFDE1E2A8C1E4CF4CF9 /* ClientID.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		37EFCFE3ED14CAAE863AB5E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC913A0E50A160618CE78DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D32DF07DF7AC5042E44B18F;
+			remoteInfo = LearnOfChrist;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		007900D8997CB09F94B7FC6D /* ChapterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterListView.swift; sourceTree = "<group>"; };
 		0119AE34ED8F057D7C2F62FD /* ChapterReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterReaderView.swift; sourceTree = "<group>"; };
 		158A3BDD3934A3D1F123907F /* LearnOfChristApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnOfChristApp.swift; sourceTree = "<group>"; };
+		1633C4A78F765CB7BEF71D19 /* UserDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataModels.swift; sourceTree = "<group>"; };
+		3DEA22E737B2582BD3343D44 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		43387349AA109DD361305EEB /* LearnOfChrist.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = LearnOfChrist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A109E0167021461BF1329D /* ContentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentService.swift; sourceTree = "<group>"; };
+		5AFFA6BC87C79D1BD7EAC5A1 /* scripture-ref-test-vectors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "scripture-ref-test-vectors.json"; sourceTree = "<group>"; };
 		5C4EDF7609B6967C64A6B3A1 /* ContentManifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentManifest.swift; sourceTree = "<group>"; };
+		5D360D296F4F41183BC0C752 /* LearnOfChristTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LearnOfChristTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D6DB00959201694DB39EF9A /* BookGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookGridView.swift; sourceTree = "<group>"; };
 		6B083050796EA89260158C08 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		7EF111E4EB04E236512DC846 /* PackCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackCache.swift; sourceTree = "<group>"; };
+		9EFCFA5C21ED087763C2DD72 /* ScriptureRef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptureRef.swift; sourceTree = "<group>"; };
 		AA263511EF4ACB7157220CCC /* RichChapterContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichChapterContent.swift; sourceTree = "<group>"; };
+		AFDCF3D1A0A36F382E96A162 /* ScriptureRefTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptureRefTests.swift; sourceTree = "<group>"; };
 		CC63A05F74A0523C37DFE3C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7EB2CFDE1E2A8C1E4CF4CF9 /* ClientID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientID.swift; sourceTree = "<group>"; };
+		E985681588671C4DA2FCBFF4 /* UserDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataStore.swift; sourceTree = "<group>"; };
+		E9AE1E010AE2F6CB65975F57 /* BibleBookCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleBookCatalog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		04C9C7938E7747D718DC89B9 /* Reference */ = {
+			isa = PBXGroup;
+			children = (
+				E9AE1E010AE2F6CB65975F57 /* BibleBookCatalog.swift */,
+				9EFCFA5C21ED087763C2DD72 /* ScriptureRef.swift */,
+			);
+			path = Reference;
+			sourceTree = "<group>";
+		};
+		2289ACAFEC0DB227F4B1EA6E /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				5AFFA6BC87C79D1BD7EAC5A1 /* scripture-ref-test-vectors.json */,
+			);
+			name = docs;
+			path = ../docs;
+			sourceTree = "<group>";
+		};
 		2BE58B3C2BCEE985FFAA6EC1 = {
 			isa = PBXGroup;
 			children = (
+				2289ACAFEC0DB227F4B1EA6E /* docs */,
 				81DAD47F39D45DCFDD0FD266 /* LearnOfChrist */,
+				C7CE27EEE1179626C6EAD286 /* LearnOfChristTests */,
 				CFDE977D44CF25FBE16E4534 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,23 +97,43 @@
 			path = Reader;
 			sourceTree = "<group>";
 		};
+		5FE25BE602094F13215BFEEA /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				3DEA22E737B2582BD3343D44 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
 		81DAD47F39D45DCFDD0FD266 /* LearnOfChrist */ = {
 			isa = PBXGroup;
 			children = (
 				EF61D1615C6650305364AD00 /* Models */,
 				FB588B470A7516807E1675EE /* Networking */,
 				F84BC1C24A490338B66BBEC0 /* Persistence */,
+				04C9C7938E7747D718DC89B9 /* Reference */,
 				E6E4D3C0C01967D548622203 /* Resources */,
+				5FE25BE602094F13215BFEEA /* Theme */,
 				C89C50E401D6E9DFF4D0D505 /* Views */,
 				158A3BDD3934A3D1F123907F /* LearnOfChristApp.swift */,
 			);
 			path = LearnOfChrist;
 			sourceTree = "<group>";
 		};
+		C7CE27EEE1179626C6EAD286 /* LearnOfChristTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFDCF3D1A0A36F382E96A162 /* ScriptureRefTests.swift */,
+			);
+			path = LearnOfChristTests;
+			sourceTree = "<group>";
+		};
 		C89C50E401D6E9DFF4D0D505 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				58FDF65C902742273B2B16C2 /* Reader */,
+				5D6DB00959201694DB39EF9A /* BookGridView.swift */,
+				007900D8997CB09F94B7FC6D /* ChapterListView.swift */,
 				6B083050796EA89260158C08 /* RootView.swift */,
 			);
 			path = Views;
@@ -72,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				43387349AA109DD361305EEB /* LearnOfChrist.app */,
+				5D360D296F4F41183BC0C752 /* LearnOfChristTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,7 +168,10 @@
 		F84BC1C24A490338B66BBEC0 /* Persistence */ = {
 			isa = PBXGroup;
 			children = (
+				E7EB2CFDE1E2A8C1E4CF4CF9 /* ClientID.swift */,
 				7EF111E4EB04E236512DC846 /* PackCache.swift */,
+				1633C4A78F765CB7BEF71D19 /* UserDataModels.swift */,
+				E985681588671C4DA2FCBFF4 /* UserDataStore.swift */,
 			);
 			path = Persistence;
 			sourceTree = "<group>";
@@ -130,6 +205,25 @@
 			productReference = 43387349AA109DD361305EEB /* LearnOfChrist.app */;
 			productType = "com.apple.product-type.application";
 		};
+		ADE213E718D51C9A5695AE2B /* LearnOfChristTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FECACCD4F92C796A2412B21 /* Build configuration list for PBXNativeTarget "LearnOfChristTests" */;
+			buildPhases = (
+				3FA4C579CBBC75B4339EFD1E /* Sources */,
+				F5C59CACDD64487D79B9BC9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				077DEF2EB612DF9A0F9702C8 /* PBXTargetDependency */,
+			);
+			name = LearnOfChristTests;
+			packageProductDependencies = (
+			);
+			productName = LearnOfChristTests;
+			productReference = 5D360D296F4F41183BC0C752 /* LearnOfChristTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -140,6 +234,9 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					2D32DF07DF7AC5042E44B18F = {
+						DevelopmentTeam = "";
+					};
+					ADE213E718D51C9A5695AE2B = {
 						DevelopmentTeam = "";
 					};
 				};
@@ -159,6 +256,7 @@
 			projectRoot = "";
 			targets = (
 				2D32DF07DF7AC5042E44B18F /* LearnOfChrist */,
+				ADE213E718D51C9A5695AE2B /* LearnOfChristTests */,
 			);
 		};
 /* End PBXProject section */
@@ -172,26 +270,76 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F5C59CACDD64487D79B9BC9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADEFB96F3EC104FAEFAE3B3 /* scripture-ref-test-vectors.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3FA4C579CBBC75B4339EFD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72EB6B6767B604330703195 /* ScriptureRefTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B2BB61A0B672CCDDFE75F464 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4A1755BD632BAC97297733B /* BibleBookCatalog.swift in Sources */,
+				25A27AB43DDA87EB1A148A19 /* BookGridView.swift in Sources */,
+				050BE1CF3708564A00B04D72 /* ChapterListView.swift in Sources */,
 				C2DD54D7E7D5DC609D4A4E3B /* ChapterReaderView.swift in Sources */,
+				F4009F9285CDEB7EDC081FCA /* ClientID.swift in Sources */,
 				E0D8AF8D68FF846A6F32FAEC /* ContentManifest.swift in Sources */,
 				5F374F09A7B9052E14960305 /* ContentService.swift in Sources */,
 				810A2FAEA1C8875C7F80D714 /* LearnOfChristApp.swift in Sources */,
 				E1A66B56D030808CA165A886 /* PackCache.swift in Sources */,
 				9C53E769C5E12AACECA05D44 /* RichChapterContent.swift in Sources */,
 				85A1EE6E66E494324443378E /* RootView.swift in Sources */,
+				3B86AF8522B3648DC512AB67 /* ScriptureRef.swift in Sources */,
+				AD43E781BB7139B0F21EDFA0 /* Theme.swift in Sources */,
+				309BE565EFC699753A1AC2BD /* UserDataModels.swift in Sources */,
+				CDEDCD70AD9CF921310D0B2B /* UserDataStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		077DEF2EB612DF9A0F9702C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D32DF07DF7AC5042E44B18F /* LearnOfChrist */;
+			targetProxy = 37EFCFE3ED14CAAE863AB5E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		03321B60950265EF0088AC9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.learnofchrist.app.Tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnOfChrist.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LearnOfChrist";
+			};
+			name = Release;
+		};
 		279BEB47AE5511BE36BAEAE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -285,6 +433,24 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
+		};
+		3B1353DD649D5C05B6B7A0FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.learnofchrist.app.Tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearnOfChrist.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LearnOfChrist";
+			};
+			name = Debug;
 		};
 		44174C749B554789F832FF30 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -381,6 +547,15 @@
 			buildConfigurations = (
 				EBE6A24346C9DEA252FF01DE /* Debug */,
 				359A81C3EE549B7C6159110B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9FECACCD4F92C796A2412B21 /* Build configuration list for PBXNativeTarget "LearnOfChristTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1353DD649D5C05B6B7A0FC /* Debug */,
+				03321B60950265EF0088AC9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
