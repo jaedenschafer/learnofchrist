@@ -346,18 +346,20 @@ html[data-reader-theme="dark"] {
   animation-play-state: paused;
 }
 
-/* ─── Per-tile arc transform ──────────────────────────────────────────────
-   Each tile receives `--i` (its index in the strip). We map that to an
-   angle on a unit circle (i / period * 360deg) and use cos() to drive
-   vertical offset and rotation, so adjacent tiles trace a smooth arc.
+/* ─── Tile base ──────────────────────────────────────────────────────────
+   Per-tile arch geometry is owned by JS — see ArtArches.tsx, where a
+   rAF loop reads each tile's screen-x position and applies a
+   translateY/rotate based on its distance from viewport center. That
+   gives a fixed dome silhouette while the marquee continues to slide
+   tiles through it, instead of a wave that drifts with the cards.
 
-   Top row: cos = 1 at i=0 → tile is at the TOP of the arc (translateY
-   negative). Bottom row inverts the sign so the two rows curve toward
-   each other and meet in the middle. */
+   CSS sets only the look (size, radius, shadow) and the transition —
+   when the user hovers, the JS-driven inline transform is overridden
+   by `!important` to lift the card forward. */
 .loc-arch__tile {
   position: relative;
   flex: 0 0 auto;
-  width: clamp(150px, 14vw, 200px);
+  width: clamp(150px, 14vw, 210px);
   aspect-ratio: 4 / 3;
   border-radius: 14px;
   overflow: hidden;
@@ -366,23 +368,10 @@ html[data-reader-theme="dark"] {
   box-shadow:
     0 1px 2px rgba(20, 14, 8, 0.08),
     0 18px 36px -16px rgba(20, 14, 8, 0.32);
-  transition: box-shadow 0.35s ease;
-  /* Default amplitude (overridden per-row below). */
-  --amp: 56px;
-  --tilt: 3deg;
-  --angle: calc((var(--i, 0) / var(--period, 12)) * 360deg);
-}
-
-.loc-arch--top .loc-arch__tile {
-  transform:
-    translateY(calc(cos(var(--angle)) * var(--amp) * -1))
-    rotate(calc(sin(var(--angle)) * var(--tilt) * -1));
-}
-
-.loc-arch--bottom .loc-arch__tile {
-  transform:
-    translateY(calc(cos(var(--angle)) * var(--amp)))
-    rotate(calc(sin(var(--angle)) * var(--tilt)));
+  transition:
+    transform 0.4s cubic-bezier(0.2, 0.7, 0.2, 1),
+    box-shadow 0.35s ease;
+  will-change: transform;
 }
 
 .loc-arch__tile img {
@@ -394,32 +383,21 @@ html[data-reader-theme="dark"] {
 }
 
 .loc-arch__tile:hover {
-  /* Hover overrides the arc transform — pop the card forward so it's
-     obviously clickable. */
-  transform: translateY(-6px) scale(1.04) !important;
+  /* Override the JS transform on hover so the card pops forward. */
+  transform: translate3d(0, -8px, 0) scale(1.05) !important;
   box-shadow:
     0 1px 2px rgba(20, 14, 8, 0.10),
-    0 26px 56px -18px rgba(20, 14, 8, 0.42);
+    0 28px 60px -18px rgba(20, 14, 8, 0.42);
   z-index: 1;
 }
 
 @media (max-width: 720px) {
   .loc-arch__tile {
     width: clamp(130px, 36vw, 170px);
-    --amp: 36px;
-    --tilt: 2deg;
   }
   .loc-arches__stage {
-    min-height: clamp(300px, 60vw, 380px);
+    min-height: clamp(280px, 56vw, 380px);
   }
-}
-
-/* Older Safari / browsers without CSS trig fallback: tiles render
-   straight, the marquee still scrolls, and the perspective tilt still
-   gives a hint of depth. */
-@supports not (transform: translateY(calc(cos(0deg) * 1px))) {
-  .loc-arch--top    .loc-arch__tile,
-  .loc-arch--bottom .loc-arch__tile { transform: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {
