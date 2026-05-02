@@ -132,18 +132,53 @@ extension ScriptureRef {
         }
     }
 
+    /// Canonical book slug shape — matches the TS implementation in
+    /// src/lib/canonicalRef.ts exactly. Driven by the shared test
+    /// vectors:
+    ///
+    ///   - optional leading single digit + hyphen   (1-corinthians, 2-john)
+    ///   - then one alphabetic word                  (genesis, song)
+    ///   - then zero or more hyphenated parts,
+    ///     each alphanumeric                         (-of, -solomon, -151)
+    ///
+    /// This rejects "john3", "1corinthians", "abc123" — all of which
+    /// pass a naive "lowercase letters / digits / hyphens" check but
+    /// collapse meaning into the wrong shape.
+    ///
+    /// Implemented as a hand walk rather than a regex literal so the
+    /// parse is stable across Swift toolchain versions and the rule
+    /// stays trivially readable.
     private static func isValidBookSlug(_ s: String) -> Bool {
-        guard !s.isEmpty,
-              !s.hasPrefix("-"),
-              !s.hasSuffix("-") else { return false }
-        for c in s {
-            // Lowercase letters, digits, hyphen only. No "1corinthians",
-            // no uppercase, no underscores.
-            if c.isLowercase && c.isLetter { continue }
-            if c.isASCIIDigit { continue }
-            if c == "-" { continue }
-            return false
+        guard !s.isEmpty else { return false }
+        let chars = Array(s)
+        var i = 0
+
+        // Optional leading single digit + hyphen ("1-", "2-", "3-").
+        if chars[0].isASCIIDigit {
+            guard chars.count >= 3, chars[1] == "-" else { return false }
+            i = 2
         }
+
+        // Required first letter run.
+        let wordStart = i
+        while i < chars.count, chars[i].isASCIILowercaseLetter {
+            i += 1
+        }
+        if i == wordStart { return false }
+
+        // Zero or more "-<alphanumeric+>" parts.
+        while i < chars.count {
+            guard chars[i] == "-" else { return false }
+            i += 1
+            let partStart = i
+            while i < chars.count,
+                  chars[i].isASCIILowercaseLetter || chars[i].isASCIIDigit
+            {
+                i += 1
+            }
+            if i == partStart { return false }
+        }
+
         return true
     }
 }
@@ -152,5 +187,10 @@ private extension Character {
     var isASCIIDigit: Bool {
         guard let s = unicodeScalars.first else { return false }
         return s.isASCII && (0x30...0x39).contains(s.value)
+    }
+
+    var isASCIILowercaseLetter: Bool {
+        guard let s = unicodeScalars.first else { return false }
+        return s.isASCII && (0x61...0x7A).contains(s.value)
     }
 }
