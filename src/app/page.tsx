@@ -2,6 +2,7 @@ import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import { getAllBlogPosts, categoryColors } from '@/data/blog-posts';
 import { getArtworksBrowse } from '@/lib/supabase';
+import ArtArches from '@/components/ArtArches';
 import './home.css';
 
 // Below-the-fold + client-only — code-split so it doesn't block the hero.
@@ -30,9 +31,6 @@ const IMG = {
   feat2:       'https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=1800&q=85',
   feat3:       'https://images.unsplash.com/photo-1438236320873-9c4ff3eb51f9?auto=format&fit=crop&w=1800&q=85',
   feat4:       'https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1800&q=85',
-  story1:      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1200&q=85',
-  story2:      'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=1200&q=85',
-  story3:      'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=1200&q=85',
 };
 
 // ─── Stats — facts a reader can verify quickly ───
@@ -48,25 +46,21 @@ const stories: Array<{
   name: string;
   place: string;
   quote: string;
-  img: string;
 }> = [
   {
     name: 'Anna',
     place: 'Phoenix, AZ',
     quote: 'I came back to the Bible after a decade away. The Hebrew, the art, the clean voice — it felt like permission to start again.',
-    img: IMG.story1,
   },
   {
     name: 'Marcus',
     place: 'Brooklyn, NY',
     quote: 'The translation switcher and the lenses changed how I read Romans. I see what I had always missed sitting in only one tradition.',
-    img: IMG.story2,
   },
   {
     name: 'Lena',
     place: 'Glasgow, UK',
     quote: 'I am a skeptic by training. Reading the historical-critical lens alongside the others finally gave me a way to read this honestly.',
-    img: IMG.story3,
   },
 ];
 
@@ -115,14 +109,18 @@ const features: Array<{
 
 export default async function Home() {
   const blogPosts = getAllBlogPosts().slice(0, 4);
-  // Pull a few approved artworks to power the "Today" featured row. We pick
-  // the first one with a Genesis 1 reference if we can find it; otherwise the
-  // newest published piece in the gallery.
-  const recentArt = await getArtworksBrowse(8);
+  // Pull a healthy slice of approved artworks. The first few power the
+  // "Today" featured cards; the rest fan out across the dual-arch
+  // scrolling band that sits below the hero.
+  const recentArt = await getArtworksBrowse(36);
   const featuredArt =
     recentArt.find((a) => /tissot|creation/i.test(a.title)) || recentArt[0] || null;
   const secondaryArt =
     recentArt.find((a) => featuredArt && a.id !== featuredArt.id) || null;
+  // Skip the two cards already used above so the arches don't repeat them.
+  const archArt = recentArt.filter(
+    (a) => a.id !== featuredArt?.id && a.id !== secondaryArt?.id,
+  );
 
   return (
     <>
@@ -139,13 +137,14 @@ export default async function Home() {
         <div className="loc-hero__veil" aria-hidden="true" />
 
         <div className="loc-hero__inner">
+          <p className="loc-hero__eyebrow">A free Bible study, beautifully made.</p>
           <h1 className="loc-hero__title">
-            Find God in the story.
+            Find God<br />in the story.
           </h1>
           <p className="loc-hero__sub">
             One narrative runs from Genesis to Revelation. Read every chapter,
-            study the original languages, and see scripture through two thousand
-            years of sacred art.
+            study the original languages, and see scripture through two
+            thousand years of sacred art.
           </p>
           <div className="loc-hero__ctas">
             <Link href="/study/genesis/1" className="loc-btn loc-btn--solid">
@@ -160,6 +159,28 @@ export default async function Home() {
         <span className="loc-hero__scroll" aria-hidden="true">
           <span className="loc-hero__scroll-line" />
         </span>
+      </section>
+
+      {/* ═══════════ 1b. Resources mission — arched scrolling artwork ═══════════ */}
+      <section className="loc-resources">
+        <div className="loc-wrap loc-resources__head">
+          <h2 className="loc-resources__title">
+            We make resources to help people understand the Bible.
+          </h2>
+          <p className="loc-resources__sub">
+            Chapter-by-chapter studies, classical art, original-language
+            insights, and a clean reader — all free, all anchored in scripture.
+          </p>
+        </div>
+        <ArtArches
+          artworks={archArt}
+          caption="A glimpse of the painting library — over a thousand sacred works indexed by passage."
+        />
+        <div className="loc-resources__cta">
+          <Link href="/art" className="loc-btn loc-btn--outline">
+            Browse the art library
+          </Link>
+        </div>
       </section>
 
       {/* ═══════════ 2. Continue reading rail (only renders if state) ═══════════ */}
@@ -307,21 +328,22 @@ export default async function Home() {
         ))}
       </section>
 
-      {/* ═══════════ 6. Stories — 3 portraits ═══════════ */}
+      {/* ═══════════ 6. Stories — editorial pull-quote grid ═══════════ */}
       <section className="loc-stories">
         <header className="loc-wrap loc-stories__head">
           <p className="loc-eyebrow">Real readers</p>
           <h2 className="loc-stories__title">Faith in real life.</h2>
+          <p className="loc-stories__lede">
+            Notes from people studying alongside us — pastors, skeptics,
+            new believers, and lifelong students of the Word.
+          </p>
         </header>
         <div className="loc-wrap loc-stories__grid">
           {stories.map((s) => (
             <article key={s.name} className="loc-story">
-              <div className="loc-story__media">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={s.img} alt={`Portrait of ${s.name}`} loading="lazy" />
-              </div>
+              <span className="loc-story__mark" aria-hidden="true">&ldquo;</span>
               <blockquote className="loc-story__quote">
-                {`“${s.quote}”`}
+                {s.quote}
               </blockquote>
               <p className="loc-story__byline">
                 <strong>{s.name}</strong>

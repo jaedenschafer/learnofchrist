@@ -150,22 +150,36 @@ html[data-reader-theme="dark"] {
   to   { opacity: 1; transform: translateY(0); }
 }
 
+.loc-hero__eyebrow {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.78);
+  margin: 0 0 1.5rem;
+}
+
 .loc-hero__title {
   font-family: 'EB Garamond', 'New York', Georgia, serif;
   font-weight: 500;
-  font-size: clamp(3.5rem, 9vw, 7.5rem);
-  line-height: 0.95;
-  letter-spacing: -0.025em;
+  font-size: clamp(3.5rem, 9.2vw, 7.75rem);
+  line-height: 0.94;
+  letter-spacing: -0.028em;
   margin: 0 0 1.5rem;
   max-width: 14ch;
   text-wrap: balance;
 }
 
+.loc-hero__title br {
+  /* Stack on mobile, inline on desktop so the rhythm reads right at both ends. */
+}
+
 .loc-hero__sub {
-  font-size: clamp(1rem, 1.4vw, 1.25rem);
+  font-size: clamp(1.0625rem, 1.4vw, 1.3125rem);
   line-height: 1.55;
-  color: rgba(255, 255, 255, 0.82);
-  max-width: 38rem;
+  color: rgba(255, 255, 255, 0.86);
+  max-width: 40rem;
   margin: 0 0 2.5rem;
 }
 
@@ -200,6 +214,181 @@ html[data-reader-theme="dark"] {
 
 @media (max-width: 720px) {
   .loc-hero { min-height: 560px; height: 92vh; }
+  .loc-hero__title br { display: none; }
+}
+
+/* ─── 1b. Resources mission + dual-arch artwork band ─────────────────────
+   Lives directly under the hero. The headline and subhead set the
+   editorial tone; the arched scrolling artwork strip below it shows the
+   library in motion without a single static screenshot. */
+
+.loc-resources {
+  background: var(--loc-paper);
+  padding: clamp(4rem, 7vw, 6.5rem) 0 clamp(2.5rem, 5vw, 4.5rem);
+  overflow: hidden; /* clip the wide marquee strips */
+  text-align: center;
+}
+
+.loc-resources__head {
+  max-width: 52rem;
+  margin: 0 auto clamp(2.25rem, 4vw, 3.5rem);
+}
+
+.loc-resources__title {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-weight: 500;
+  font-size: clamp(2rem, 4.6vw, 3.5rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--color-label);
+  margin: 0 0 1rem;
+  text-wrap: balance;
+}
+
+.loc-resources__sub {
+  font-size: clamp(1rem, 1.3vw, 1.1875rem);
+  line-height: 1.55;
+  color: var(--color-secondary-label);
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.loc-resources__cta {
+  margin-top: clamp(2rem, 4vw, 3rem);
+}
+
+/* ─── Arches ─────────────────────────────────────────────────────────────
+   Two horizontal marquee rows wrapped in a perspective stage so the
+   strips appear to curve into the page like a shallow dome. The top row
+   leans away from the camera (origin top, rotateX positive); the bottom
+   row leans the opposite direction so together they sketch an arch.
+   Each strip duplicates its tile list and animates translateX from 0 to
+   -50%, landing on a frame identical to the start for a seamless loop. */
+
+.loc-arches {
+  position: relative;
+  /* Pull tightly under the headline and let the strips bleed full-bleed. */
+  padding: 0;
+  /* Soft-fade the left/right edges so tiles drift into nothing instead of
+     getting clipped against a hard rectangle. */
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 8%, #000 92%, transparent 100%);
+          mask-image: linear-gradient(90deg, transparent 0, #000 8%, #000 92%, transparent 100%);
+}
+
+.loc-arches__stage {
+  perspective: 1600px;
+  perspective-origin: 50% 50%;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.875rem, 1.6vw, 1.25rem);
+  padding: clamp(1.5rem, 3vw, 2.5rem) 0 clamp(1rem, 2vw, 1.75rem);
+}
+
+.loc-arches__caption {
+  font-size: 0.8125rem;
+  letter-spacing: 0.04em;
+  color: var(--color-tertiary-label);
+  margin: 0.5rem auto 0;
+  max-width: 40rem;
+  padding: 0 var(--loc-gutter);
+}
+
+.loc-arch {
+  position: relative;
+  width: 100%;
+  /* Each arch row has its own perspective tilt. Origins are flipped so
+     the two rows tilt toward each other and form a subtle dome. */
+  transform-style: preserve-3d;
+}
+
+.loc-arch--top {
+  transform: rotateX(14deg);
+  transform-origin: 50% 100%;
+}
+
+.loc-arch--bottom {
+  transform: rotateX(-14deg);
+  transform-origin: 50% 0%;
+}
+
+.loc-arch__strip {
+  display: flex;
+  gap: clamp(0.625rem, 1.1vw, 0.9rem);
+  width: max-content;
+  /* The scroll itself. translate3d kicks the strip onto its own GPU
+     layer so the animation stays butter-smooth even on long pages. */
+  will-change: transform;
+}
+
+.loc-arch__strip--left {
+  animation: locArchScrollLeft 70s linear infinite;
+}
+
+.loc-arch__strip--right {
+  animation: locArchScrollRight 80s linear infinite;
+}
+
+@keyframes locArchScrollLeft {
+  from { transform: translate3d(0, 0, 0); }
+  to   { transform: translate3d(-50%, 0, 0); }
+}
+
+@keyframes locArchScrollRight {
+  from { transform: translate3d(-50%, 0, 0); }
+  to   { transform: translate3d(0, 0, 0); }
+}
+
+/* Pause the marquee when the user is hovering over the band, so they
+   can actually click an interesting tile. */
+.loc-arches:hover .loc-arch__strip {
+  animation-play-state: paused;
+}
+
+.loc-arch__tile {
+  position: relative;
+  flex: 0 0 auto;
+  width: clamp(160px, 16vw, 220px);
+  aspect-ratio: 4 / 3;
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--color-separator);
+  text-decoration: none;
+  /* Subtle paper-edge shadow to lift tiles off the warm background. */
+  box-shadow:
+    0 1px 2px rgba(20, 14, 8, 0.08),
+    0 12px 28px -14px rgba(20, 14, 8, 0.30);
+  transition: transform 0.35s cubic-bezier(0.2, 0.7, 0.2, 1),
+              box-shadow 0.35s ease;
+}
+
+.loc-arch__tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  user-select: none;
+}
+
+.loc-arch__tile:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow:
+    0 1px 2px rgba(20, 14, 8, 0.10),
+    0 22px 44px -16px rgba(20, 14, 8, 0.38);
+}
+
+@media (max-width: 720px) {
+  .loc-arch--top    { transform: rotateX(10deg); }
+  .loc-arch--bottom { transform: rotateX(-10deg); }
+  .loc-arch__tile {
+    width: clamp(130px, 36vw, 170px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .loc-arch__strip--left,
+  .loc-arch__strip--right { animation: none; }
+  .loc-arch--top,
+  .loc-arch--bottom       { transform: none; }
 }
 
 /* ─── 2. Continue reading rail ──────────────────────────────────────── */
@@ -549,7 +738,10 @@ html[data-reader-theme="dark"] {
   }
 }
 
-/* ─── 6. Stories ────────────────────────────────────────────────────── */
+/* ─── 6. Stories — editorial pull-quote grid ─────────────────────────────
+   Stock-portrait testimonials read amateur fast. Strip the photos out
+   entirely and let the words carry the section: a big serif glyph, a
+   generous quote, a quiet byline. */
 .loc-stories {
   background: var(--loc-paper);
   padding: var(--loc-section-y) 0;
@@ -557,7 +749,9 @@ html[data-reader-theme="dark"] {
 
 .loc-stories__head {
   text-align: center;
-  margin-bottom: clamp(2.5rem, 5vw, 4rem);
+  max-width: 44rem;
+  margin: 0 auto clamp(2.5rem, 5vw, 4rem);
+  padding: 0 var(--loc-gutter);
 }
 
 .loc-stories__title {
@@ -567,58 +761,71 @@ html[data-reader-theme="dark"] {
   line-height: 1.05;
   letter-spacing: -0.02em;
   color: var(--color-label);
-  margin: 0;
+  margin: 0 0 1rem;
   text-wrap: balance;
+}
+
+.loc-stories__lede {
+  font-size: clamp(1rem, 1.3vw, 1.125rem);
+  line-height: 1.55;
+  color: var(--color-secondary-label);
+  margin: 0 auto;
+  max-width: 36rem;
 }
 
 .loc-stories__grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 3rem 2rem;
+  gap: 1.25rem;
 }
 
 @media (min-width: 760px) {
-  .loc-stories__grid { grid-template-columns: repeat(3, 1fr); }
+  .loc-stories__grid { grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
 }
 
 .loc-story {
+  position: relative;
   display: flex;
   flex-direction: column;
-}
-
-.loc-story__media {
-  aspect-ratio: 4 / 5;
+  padding: clamp(1.75rem, 3vw, 2.5rem) clamp(1.5rem, 2.5vw, 2rem);
+  background: var(--color-surface);
   border-radius: var(--loc-radius-lg);
-  overflow: hidden;
-  background: var(--color-separator);
-  margin-bottom: 1.5rem;
   box-shadow:
     0 1px 2px rgba(20, 14, 8, 0.04),
-    0 24px 48px -20px rgba(20, 14, 8, 0.18);
+    0 18px 38px -22px rgba(20, 14, 8, 0.18);
+  transition: transform 0.25s cubic-bezier(0.2, 0.7, 0.2, 1),
+              box-shadow 0.25s ease;
 }
 
-.loc-story__media img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1);
+.loc-story:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 1px 2px rgba(20, 14, 8, 0.06),
+    0 26px 48px -22px rgba(20, 14, 8, 0.24);
 }
 
-.loc-story:hover .loc-story__media img {
-  transform: scale(1.02);
+.loc-story__mark {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-size: 4rem;
+  line-height: 0.5;
+  color: var(--loc-gold);
+  margin: 0 0 0.25rem;
+  display: block;
+  user-select: none;
 }
 
 .loc-story__quote {
   font-family: 'EB Garamond', 'New York', Georgia, serif;
-  font-size: 1.25rem;
-  line-height: 1.4;
+  font-size: clamp(1.0625rem, 1.4vw, 1.1875rem);
+  line-height: 1.5;
   color: var(--color-label);
-  margin: 0 0 1rem;
-  font-style: italic;
+  margin: 0 0 1.5rem;
+  flex: 1;
 }
 
 .loc-story__byline {
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
+  letter-spacing: 0.02em;
   color: var(--color-tertiary-label);
   margin: 0;
 }
@@ -795,10 +1002,15 @@ html[data-reader-theme="dark"] {
 
 /* ─── Dark theme overrides ──────────────────────────────────────────── */
 html[data-reader-theme="dark"] .loc-feature__media,
-html[data-reader-theme="dark"] .loc-story__media {
+html[data-reader-theme="dark"] .loc-arch__tile,
+html[data-reader-theme="dark"] .loc-story {
   box-shadow:
     0 1px 2px rgba(0, 0, 0, 0.4),
     0 24px 48px -20px rgba(0, 0, 0, 0.6);
+}
+
+html[data-reader-theme="dark"] .loc-story {
+  background: var(--color-surface);
 }
 
 html[data-reader-theme="dark"] .loc-stats {
@@ -826,8 +1038,9 @@ html[data-reader-theme="dark"] .loc-btn--outline:hover {
   .loc-hero__inner,
   .loc-hero__scroll-line,
   .loc-feature__media img,
-  .loc-story__media img,
-  .loc-blog-card__media img {
+  .loc-blog-card__media img,
+  .loc-arch__strip--left,
+  .loc-arch__strip--right {
     animation: none !important;
     transition: none !important;
   }
