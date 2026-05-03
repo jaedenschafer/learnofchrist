@@ -120,7 +120,7 @@ export const ESTHER_9: RichChapterContent = {
           kind: 'commentary',
           id: 'esth9-turned',
           html:
-            'The parenthetical phrase "though it was turned to the contrary" is the heart of this chapter. What was meant to be a day of Jewish destruction becomes a day of Jewish deliverance. The word "turned" — from Hebrew "haphak" — means to overturn, to invert, to reverse completely. The enemy&apos;s advantage becomes the Jews&apos; vindication.',
+            'The parenthetical phrase "though it was turned to the contrary" is the heart of this chapter. What was meant to be a day of Jewish destruction becomes a day of Jewish deliverance. The word "turned" — from Hebrew "haphak" — means to overturn, to invert, to reverse completely. The enemy&apos;s advantage becomes the Jews&apos; vindication[res:sefaria-megillah].',
         },
         {
           kind: 'commentary',

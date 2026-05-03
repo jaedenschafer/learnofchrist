@@ -77,7 +77,7 @@ export const ESTHER_8: RichChapterContent = {
           kind: 'commentary',
           id: 'esth8-ring',
           html:
-            'The king takes the signet ring from his finger — the same ring he gave to Haman in chapter 3 — and gives it to Mordecai. The signet ring is the authority to write in the king&apos;s name and seal with the king&apos;s seal. By giving it to Mordecai, the king makes him his authorized representative, his voice, his hand in the empire. Mordecai now holds the very power Haman once wielded.',
+            'The king takes the signet ring from his finger — the same ring he gave to Haman in chapter 3 — and gives it to Mordecai. The signet ring is the authority to write in the king&apos;s name and seal with the king&apos;s seal. By giving it to Mordecai, the king makes him his authorized representative, his voice, his hand in the empire. Mordecai now holds the very power Haman once wielded[res:sefaria-megillah].',
         },
         {
           kind: 'hebrew',

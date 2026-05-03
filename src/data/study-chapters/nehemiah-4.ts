@@ -100,7 +100,7 @@ export const NEHEMIAH_4: RichChapterContent = {
           kind: 'commentary',
           id: 'n4-mocked',
           html:
-            'Mockery is Sanballat&apos;s weapon. He does not attack the work itself; he attacks the workers. The people are feeble, the project is impossible, the task will never be accomplished. Mockery demoralizes. It creates an atmosphere where the people doubt themselves before they doubt God.',
+            'Mockery is Sanballat&apos;s weapon. He does not attack the work itself; he attacks the workers. The people are feeble, the project is impossible, the task will never be accomplished. Mockery demoralizes. It creates an atmosphere where the people doubt themselves before they doubt God[res:wadi-daliyeh-papyri].',
         },
         {
           kind: 'hebrew',

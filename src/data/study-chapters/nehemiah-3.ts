@@ -64,7 +64,7 @@ export const NEHEMIAH_3: RichChapterContent = {
           kind: 'commentary',
           id: 'sanctified-gate',
           html:
-            'Notice that the text says the priests "sanctified" the gate — they did more than build it. They consecrated it, set apart what they had made for a holy purpose. This is priestly work: to make the profane sacred, to consecrate the common for use in the presence of God. In building, they are also blessing.',
+            'Notice that the text says the priests "sanctified" the gate — they did more than build it. They consecrated it, set apart what they had made for a holy purpose. This is priestly work: to make the profane sacred, to consecrate the common for use in the presence of God. In building, they are also blessing[res:israel-museum-jerusalem].',
         },
         {
           kind: 'carry',
