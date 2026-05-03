@@ -58,7 +58,7 @@ export const ROMANS_16: RichChapterContent = {
           kind: 'commentary',
           id: 'rom16-phebe-intro',
           html:
-            'Phebe arrives in Rome carrying the letter you have just read — this entire epistle to the Romans. She does not arrive as a messenger; she arrives as a deacon of the church at Cenchrea, a port city east of Corinth. Paul commends her to the Roman church with the weight of apostolic authority. Receive her. Help her. She has earned it.',
+            'Phebe arrives in Rome carrying the letter you have just read — this entire epistle to the Romans. She does not arrive as a messenger; she arrives as a deacon[res:bibleodyssey-women-leadership] of the church at Cenchrea[res:topostext-cenchreae], a port city east of Corinth[res:ascsa-corinth]. Paul commends her to the Roman church with the weight of apostolic authority[res:theoi-priscilla-aquila]. Receive her. Help her. She has earned it.',
         },
         {
           kind: 'greek',
