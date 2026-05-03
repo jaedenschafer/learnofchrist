@@ -301,7 +301,9 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
         )}
 
         <div id="study-filters">
-          <StudyFilters />
+          {/* Pass per-chapter minutes so the depth pill can show the time
+              cost for each level inline next to the translation pill. */}
+          <StudyFilters estimatedMinutes={richContent?.estimatedMinutes} />
         </div>
 
         <div className="space-y-4 mt-4">

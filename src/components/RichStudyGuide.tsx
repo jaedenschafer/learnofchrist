@@ -19,7 +19,9 @@ import ChapterProgress from './ChapterProgress';
 import InlineArtwork from './InlineArtwork';
 import HighlightController from './HighlightController';
 import BlockHideMenus from './BlockHideMenus';
-import StudyLevelControl from './StudyLevelControl';
+// StudyLevelControl was the prominent three-tab segmented control rendered
+// near the top of every study chapter. It now lives as a compact pill in
+// StudyFilters next to the translation switcher, so this import is gone.
 import { useTranslation } from '@/lib/TranslationContext';
 import { useStudyLevel } from '@/lib/StudyLevelContext';
 import { fetchVersesClient, type Verse, type ArtworkWithArtist } from '@/lib/supabase';
@@ -490,7 +492,8 @@ export default function RichStudyGuide({
           <StudyAudioPlayer />
         </div>
 
-        <StudyLevelControl estimatedMinutes={rawContent.estimatedMinutes} />
+        {/* Depth selector now lives in StudyFilters at the top of the page,
+            paired with the translation pill. No prominent in-body control. */}
 
         {content.intros.map((intro, i) => (
           <AuthoredHtml key={i} as="p" className="intro" html={intro} />
