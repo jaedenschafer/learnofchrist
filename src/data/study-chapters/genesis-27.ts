@@ -184,6 +184,18 @@ export const GENESIS_27: RichChapterContent = {
                 t(':'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen27-jacob-objects',
+          html:
+            'Jacob&apos;s objection is not moral but practical — he&apos;s afraid of being caught. Rebekah&apos;s answer is just as practical: <em>upon me be thy curse.</em> A mother offering to take a curse for her son sounds noble, but the next chapters show what it actually costs. The deception will hold; the family will not.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 27,
+          lines: [
             {
               number: 12,
               spans: [

@@ -336,6 +336,18 @@ export const GENESIS_10: RichChapterContent = {
                 t('; for in his days was the earth divided; and his brother\'s name was Joktan.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen10-shem-pivot',
+          html:
+            'Two brothers, two destinies. Peleg&apos;s line will narrow toward Abraham; Joktan&apos;s will fan out across Arabia. The text does not yet privilege one over the other — it just names them and turns the camera to Joktan&apos;s sons. The promised line is hidden inside an ordinary genealogy, the way it always is.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             {
               number: 26,
               spans: [

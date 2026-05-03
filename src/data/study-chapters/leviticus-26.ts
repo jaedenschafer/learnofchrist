@@ -45,7 +45,7 @@ export const LEVITICUS_26: RichChapterContent = {
           kind: 'commentary',
           id: 'lev26-sabbath-anchor',
           html:
-            'The covenant opens not with a list of rules but with two prohibitions: no idols, and one command: keep My Sabbaths. The repetition is deliberate. The Sabbath is the sign of the covenant. It is less a rule than a rhythm — Israel bound to God by the weekly refusal to work, the weekly confession that the world can turn without them.',
+            'The covenant opens not with a list of rules but with two prohibitions: no idols, and one command: keep My Sabbaths[res:sefaria-leviticus-26]. The repetition is deliberate. The Sabbath is the sign of the covenant. It is less a rule than a rhythm — Israel bound to God by the weekly refusal to work, the weekly confession that the world can turn without them.',
         },
         {
           kind: 'hebrew',
@@ -110,7 +110,7 @@ export const LEVITICUS_26: RichChapterContent = {
           kind: 'commentary',
           id: 'lev26-walk-statutes',
           html:
-            'The covenant opens with a conditional: <em>if</em> you walk in My statutes. Not if you are perfect, but if you walk — a consistent direction, an orientation of the will. The blessings that follow are not rewards for external performance but the natural fruit of a life aligned with God&apos;s design.',
+            'The covenant opens with a conditional: <em>if</em> you walk in My statutes[res:bibleodyssey-covenant-consequences]. Not if you are perfect, but if you walk — a consistent direction, an orientation of the will. The blessings that follow are not rewards for external performance but the natural fruit of a life aligned with God&apos;s design.',
         },
         {
           kind: 'commentary',
@@ -634,7 +634,7 @@ export const LEVITICUS_26: RichChapterContent = {
           id: 'lev26-remember-covenant-2',
           title: 'Christ Connection — The Curse Becomes a Blessing',
           html:
-            'Paul writes, &ldquo;Christ hath redeemed us from the curse of the law, being made a curse for us… that the blessing of Abraham might come on the Gentiles through Jesus Christ&rdquo; (Gal. 3:13–14). Every curse in Leviticus 26 — terror, famine, plague, exile, the consumption of the flesh — fell on Christ at the cross. Romans 5:1 says, &ldquo;Therefore being justified by faith, we have peace with God through our Lord Jesus Christ&rdquo; (Rom. 5:1). The blessings promised here — peace, fruitfulness, God&apos;s presence — flow now through Him. The covenant is not abolished; it is fulfilled and opened to all who believe.',
+            'Paul writes[res:intertextual-deuteronomy-28-leviticus-26], &ldquo;Christ hath redeemed us from the curse of the law, being made a curse for us… that the blessing of Abraham might come on the Gentiles through Jesus Christ&rdquo; (Gal. 3:13–14). Every curse in Leviticus 26 — terror, famine, plague, exile, the consumption of the flesh — fell on Christ at the cross. Romans 5:1 says, &ldquo;Therefore being justified by faith, we have peace with God through our Lord Jesus Christ&rdquo; (Rom. 5:1). The blessings promised here — peace, fruitfulness, God&apos;s presence — flow now through Him. The covenant is not abolished; it is fulfilled and opened to all who believe.',
         },
         {
           kind: 'scripture',
@@ -705,6 +705,33 @@ export const LEVITICUS_26: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Leviticus 26 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-leviticus-26',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 26 — Sefaria Community Notes',
+      url: 'https://www.sefaria.org/Leviticus.26',
+      description: 'Annotated text with rabbinic commentary on covenant blessings and curses.',
+    },
+    {
+      id: 'bibleodyssey-covenant-consequences',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Covenant Blessings and Curses in Ancient Israel',
+      url: 'https://www.bibleodyssey.org',
+      description: 'Overview of conditional covenant language and the consequences of obedience and disobedience.',
+    },
+    {
+      id: 'intertextual-deuteronomy-28-leviticus-26',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Covenant Pattern — Deuteronomy 28',
+      url: 'https://intertextalbible.com',
+      description: 'Parallels between Leviticus 26 and Deuteronomy 28 on the blessings and curses of the covenant.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -89,7 +89,7 @@ export const LEVITICUS_25: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'shemittah-rest',
-          html: 'The word is <em>shemittah</em>—literally "release" or "letting fall." The land itself is given a sabbath, a complete rest from human labor. No sowing, no pruning, no harvest by decree. What grows wild becomes common property, available to servants, foreigners, cattle. It is not poverty or loss. It is a reversal of control. The land rests. The poor eat freely. The system resets.',
+          html: 'The word is <em>shemittah</em>—literally "release" or "letting fall"[res:sefaria-leviticus-25]. The land itself is given a sabbath, a complete rest from human labor. No sowing, no pruning, no harvest by decree. What grows wild becomes common property, available to servants, foreigners, cattle. It is not poverty or loss. It is a reversal of control. The land rests. The poor eat freely. The system resets.',
         },
         {
           kind: 'hebrew',
@@ -202,13 +202,13 @@ export const LEVITICUS_25: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jubilee-freedom',
-          html: 'The proclamation is radically simple: "Proclaim liberty throughout all the land unto all the inhabitants thereof." Every person who was enslaved goes free. Every debt is cancelled. Every ancestral property returns to the family it was taken from. It is not gradual. It is not means-tested. It is universal. Everyone. Every debt. Everything. The jubilee demands a complete reset of the social order every fifty years.',
+          html: 'The proclamation is radically simple: "Proclaim liberty throughout all the land unto all the inhabitants thereof."[res:bibleodyssey-jubilee-redemption] Every person who was enslaved goes free. Every debt is cancelled. Every ancestral property returns to the family it was taken from. It is not gradual. It is not means-tested. It is universal. Everyone. Every debt. Everything. The jubilee demands a complete reset of the social order every fifty years.',
         },
         {
           kind: 'christ',
           id: 'christ-jubilee',
           title: 'Christ Connection — The Jubilee in Person',
-          html: 'When Jesus stands in the synagogue in Nazareth and reads from Isaiah 61, He chooses these words: "The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted, to preach deliverance to the captives... to preach the acceptable year of the LORD" (Luke 4:18–19). The "acceptable year of the LORD" is jubilee language. Jesus is announcing that He Himself is the Jubilee. He is the one who proclaims liberty, who breaks chains, who restores what was lost. He is not promising that society will one day get its economics right. He is saying: I am the year of release. I am the restoration. Believe in me.',
+          html: 'When Jesus stands in the synagogue in Nazareth[res:intertextual-luke-4-leviticus-25] and reads from Isaiah 61, He chooses these words: "The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted, to preach deliverance to the captives... to preach the acceptable year of the LORD" (Luke 4:18–19). The "acceptable year of the LORD" is jubilee language. Jesus is announcing that He Himself is the Jubilee. He is the one who proclaims liberty, who breaks chains, who restores what was lost. He is not promising that society will one day get its economics right. He is saying: I am the year of release. I am the restoration. Believe in me.',
         },
         {
           kind: 'carry',
@@ -644,6 +644,33 @@ export const LEVITICUS_25: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Leviticus 25 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-leviticus-25',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 25 — Sefaria Community Notes',
+      url: 'https://www.sefaria.org/Leviticus.25',
+      description: 'Annotated text with rabbinic commentary on the Sabbath year and Jubilee year.',
+    },
+    {
+      id: 'bibleodyssey-jubilee-redemption',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'The Jubilee Year and Economic Justice',
+      url: 'https://www.bibleodyssey.org',
+      description: 'Overview of debt forgiveness, slave release, and land restoration in the Jubilee system.',
+    },
+    {
+      id: 'intertextual-luke-4-leviticus-25',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jesus Declares the Jubilee — Luke 4:18–19',
+      url: 'https://intertextalbible.com',
+      description: 'Jesus&apos; announcement of Himself as the fulfillment of the Jubilee and kinsman-redeemer.',
+    },
+  ],
 
   hasHebrew: true,
 };

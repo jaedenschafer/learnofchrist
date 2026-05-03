@@ -66,7 +66,7 @@ export const LEVITICUS_23: RichChapterContent = {
           kind: 'commentary',
           id: 'lev23-appointed',
           html:
-            'God &ldquo;spake unto Moses&rdquo; — the feasts are not Israel&apos;s invention, but God&apos;s design. Every feast that follows is His word, His calendar, His intent for His people. Before anything else, God makes clear: these times belong to Him.',
+            'God &ldquo;spake unto Moses&rdquo; — the feasts are not Israel&apos;s invention, but God&apos;s design[res:sefaria-leviticus-23]. Every feast that follows is His word, His calendar, His intent for His people. Before anything else, God makes clear: these times belong to Him.',
         },
         {
           kind: 'hebrew',
@@ -157,7 +157,7 @@ export const LEVITICUS_23: RichChapterContent = {
           id: 'c-passover-lamb',
           title: 'Christ Connection — The Passover Lamb',
           html:
-            'The Passover Lamb dies so that death passes over. Paul writes, &ldquo;Christ our passover is sacrificed for us&rdquo; (1 Cor. 5:7). On the very date of Passover, Jesus shed His blood so that God&apos;s wrath would pass over all who trust in Him. The lamb slaughtered in Egypt foreshadowed the Lamb slaughtered at Golgotha.',
+            'The Passover Lamb dies so that death passes over[res:intertextual-resurrection-feasts-leviticus-23]. Paul writes, &ldquo;Christ our passover is sacrificed for us&rdquo; (1 Cor. 5:7). On the very date of Passover, Jesus shed His blood so that God&apos;s wrath would pass over all who trust in Him. The lamb slaughtered in Egypt foreshadowed the Lamb slaughtered at Golgotha.',
         },
         {
           kind: 'hebrew',
@@ -473,7 +473,7 @@ export const LEVITICUS_23: RichChapterContent = {
           kind: 'commentary',
           id: 'c-atonement-sorrow',
           html:
-            'Yom Kippur (Day of Atonement) stands apart. No festival meal, no rejoicing, no ordinary work. Only the high priest can enter the Holy of Holies, and only once a year, carrying the blood that covers the nation&apos;s sins. It is a day that says: your standing before God requires blood, requires sacrifice, requires someone to bear what you cannot bear.',
+            'Yom Kippur (Day of Atonement) stands apart[res:bibleodyssey-jewish-feasts]. No festival meal, no rejoicing, no ordinary work. Only the high priest can enter the Holy of Holies, and only once a year, carrying the blood that covers the nation&apos;s sins. It is a day that says: your standing before God requires blood, requires sacrifice, requires someone to bear what you cannot bear.',
         },
         {
           kind: 'christ',
@@ -674,6 +674,33 @@ export const LEVITICUS_23: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Leviticus 23 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-leviticus-23',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 23 — Sefaria Community Notes',
+      url: 'https://www.sefaria.org/Leviticus.23',
+      description: 'Annotated text with rabbinic commentary on the Jewish festivals and appointed times.',
+    },
+    {
+      id: 'bibleodyssey-jewish-feasts',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Jewish Festivals and Their Meanings',
+      url: 'https://www.bibleodyssey.org',
+      description: 'Overview of Passover, Shavuot, Sukkot, and their theological significance in Israel.',
+    },
+    {
+      id: 'intertextual-resurrection-feasts-leviticus-23',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Christ Crucified and Risen — The Feast Calendar',
+      url: 'https://intertextalbible.com',
+      description: 'How Jesus&apos; death and resurrection fulfill the prophetic symbolism of the appointed feasts.',
+    },
+  ],
 
   hasHebrew: true,
 };

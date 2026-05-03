@@ -567,6 +567,18 @@ export const GENESIS_24: RichChapterContent = {
                 t('And her brother and her mother said, Let the damsel abide with us a few days, at the least ten; after that she shall go.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen24-family-stalls',
+          html:
+            'Notice the small instinct of love — the family asks for ten more days. The servant has been there one night and they already do not want to let her go. Eliezer has felt this kind of pull on the road from Canaan; he refuses to be slowed by it now. The Lord has prospered the journey; affection is no reason to delay obedience.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 24,
+          lines: [
             {
               number: 56,
               spans: [

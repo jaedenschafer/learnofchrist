@@ -390,13 +390,13 @@ export const LEVITICUS_22: RichChapterContent = {
           kind: 'commentary',
           id: 'lev22-seven-days',
           html:
-            'An animal cannot be offered until the eighth day of its life. Seven days belong to the mother; the eighth day marks the child as ready for covenant. This pattern echoes through Scripture: circumcision on the eighth day, Jesus rising on the eighth day (the day after the seventh-day Sabbath). The eighth day is always about new beginning, covenant entry, resurrection.',
+            'An animal cannot be offered until the eighth day of its life[res:sefaria-leviticus-22]. Seven days belong to the mother; the eighth day marks the child as ready for covenant. This pattern echoes through Scripture: circumcision on the eighth day, Jesus rising on the eighth day (the day after the seventh-day Sabbath). The eighth day is always about new beginning, covenant entry, resurrection.',
         },
         {
           kind: 'commentary',
           id: 'lev22-vow-freewill',
           html:
-            'Notice the distinction in verses 23 and 29: a vow must be perfect (tamim), but a freewill offering may have a slight flaw. This is unexpected grace. If you make a vow to God, you must deliver a flawless animal — you made the promise, and God holds you to it. But if you offer freely, out of love with no vow attached, God accepts something less than perfect. Vows require rigor. Freewill requires freedom.',
+            'Notice the distinction in verses 23 and 29: a vow must be perfect (tamim), but a freewill offering may have a slight flaw[res:bibleodyssey-sacrifice-purity]. This is unexpected grace. If you make a vow to God, you must deliver a flawless animal — you made the promise, and God holds you to it. But if you offer freely, out of love with no vow attached, God accepts something less than perfect. Vows require rigor. Freewill requires freedom.',
         },
         {
           kind: 'carry',
@@ -429,7 +429,7 @@ export const LEVITICUS_22: RichChapterContent = {
         {
           kind: 'commentary',
           html:
-            'And then Jesus came. Not as a rule-keeper who would impose more boundaries, but as the One who fulfilled them all. The Lamb without blemish. The One who needed no washing, no separation from uncleanness. The One who was tamim — complete, whole, perfect. He came, He died, He rose. And now the old boundaries have moved. You do not approach God through a priest anymore; you come through Jesus. Your perfection is not yours — it is His. And you are welcome at the table.',
+            'And then Jesus came[res:intertextual-1-peter-1-leviticus-22]. Not as a rule-keeper who would impose more boundaries, but as the One who fulfilled them all. The Lamb without blemish. The One who needed no washing, no separation from uncleanness. The One who was tamim — complete, whole, perfect. He came, He died, He rose. And now the old boundaries have moved. You do not approach God through a priest anymore; you come through Jesus. Your perfection is not yours — it is His. And you are welcome at the table.',
         },
         {
           kind: 'divider',
@@ -445,6 +445,33 @@ export const LEVITICUS_22: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Leviticus 22 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-leviticus-22',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 22 — Sefaria Community Notes',
+      url: 'https://www.sefaria.org/Leviticus.22',
+      description: 'Annotated text with rabbinic commentary on ritual cleanness and sacrificial perfection.',
+    },
+    {
+      id: 'bibleodyssey-sacrifice-purity',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Sacrifice and Ritual Purity in the Temple',
+      url: 'https://www.bibleodyssey.org',
+      description: 'Overview of cleanliness requirements, sacrificial standards, and temple procedures.',
+    },
+    {
+      id: 'intertextual-1-peter-1-leviticus-22',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Lamb Without Blemish — 1 Peter 1:19',
+      url: 'https://intertextalbible.com',
+      description: 'Jesus as the perfect, unblemished sacrifice fulfilling the Old Testament tamim language.',
+    },
+  ],
 
   hasHebrew: true,
 };

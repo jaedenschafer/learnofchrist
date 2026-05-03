@@ -50,7 +50,7 @@ export const LEVITICUS_20: RichChapterContent = {
           kind: 'commentary',
           id: 'c-molech-sin',
           html:
-            'Molech worship involved the sacrifice of children — the most severe sin imaginable. "Giveth any of his seed to Molech" means a parent offered his own child as a burnt offering to a false god. It is placed first in this chapter because it is the deepest violation: idolatry that consumes the most innocent, the most dependent, the most beloved.',
+            'Molech worship involved the sacrifice of children — the most severe sin imaginable[res:israel-museum-molech-tophet]. "Giveth any of his seed to Molech" means a parent offered his own child as a burnt offering to a false god. It is placed first in this chapter because it is the deepest violation: idolatry that consumes the most innocent, the most dependent, the most beloved.',
         },
         {
           kind: 'scripture',
@@ -444,7 +444,7 @@ export const LEVITICUS_20: RichChapterContent = {
           kind: 'commentary',
           id: 'c-severed-for-me',
           html:
-            'The chapter ends where Leviticus wants you: at the heart of holiness. <em>Kadosh</em> — holy — means "set apart." Israel is set apart not to be special, but to be <em>His.</em> The distinctions God calls them to keep — clean from unclean, obedience from disobedience, covenant from idolatry — all exist so that Israel can be holy (set apart) for the Lord. Holiness is not about superiority; it is about belonging to Him alone.',
+            'The chapter ends where Leviticus wants you: at the heart of holiness[res:sefaria-leviticus-20]. <em>Kadosh</em> — holy — means "set apart." Israel is set apart not to be special, but to be <em>His.</em> The distinctions God calls them to keep — clean from unclean, obedience from disobedience, covenant from idolatry — all exist so that Israel can be holy (set apart) for the Lord. Holiness is not about superiority; it is about belonging to Him alone.',
         },
         {
           kind: 'hebrew',
@@ -500,7 +500,7 @@ export const LEVITICUS_20: RichChapterContent = {
           kind: 'commentary',
           id: 'c-blood-final',
           html:
-            'The final verse echoes the first: Molech worship and medium-consulting both bracket the chapter because both are the same fundamental sin — turning to spiritual powers other than God. A medium claims access to the dead, to hidden knowledge, to power outside God&apos;s covenant. In a culture drowning in spiritism and syncretism, Leviticus draws the hardest line: there is God, and everything else is idolatry.',
+            'The final verse echoes the first: Molech worship and medium-consulting both bracket the chapter because both are the same fundamental sin — turning to spiritual powers other than God[res:intertextual-eph-6-leviticus-20]. A medium claims access to the dead, to hidden knowledge, to power outside God&apos;s covenant. In a culture drowning in spiritism and syncretism, Leviticus draws the hardest line: there is God, and everything else is idolatry.',
         },
         {
           kind: 'commentary',
@@ -528,6 +528,33 @@ export const LEVITICUS_20: RichChapterContent = {
     snippet: 'Leviticus 20:26 — A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Leviticus 20 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-leviticus-20',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 20 — Sefaria Community Notes',
+      url: 'https://www.sefaria.org/Leviticus.20',
+      description: 'Annotated text with rabbinic commentary on sexual laws, Molech worship, and separation.',
+    },
+    {
+      id: 'israel-museum-molech-tophet',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Molech Worship and Tophet Archaeology',
+      url: 'https://www.imj.org.il',
+      description: 'Archaeological evidence for child sacrifice practices and Molech worship sites in ancient Canaan.',
+    },
+    {
+      id: 'intertextual-eph-6-leviticus-20',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Spiritual Warfare and the Demonic — Ephesians 6:12',
+      url: 'https://intertextalbible.com',
+      description: 'Paul&apos;s teaching on spiritual powers and the connection to prohibitions against spiritism.',
+    },
+  ],
 
   hasHebrew: true,
 };

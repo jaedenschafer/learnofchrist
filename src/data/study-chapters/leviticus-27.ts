@@ -50,7 +50,7 @@ export const LEVITICUS_27: RichChapterContent = {
           kind: 'commentary',
           id: 'lev27-vow',
           html:
-            'A vow is a solemn promise made to God — usually in a moment of crisis or devotion. If you made a vow to dedicate yourself or your family member to the Lord&apos;s service, you could later redeem (buy back) that person at a set price. The vow was taken seriously, but God provided an escape route for those who made promises beyond their ability to keep.',
+            'A vow is a solemn promise made to God — usually in a moment of crisis or devotion[res:sefaria-leviticus-27]. If you made a vow to dedicate yourself or your family member to the Lord&apos;s service, you could later redeem (buy back) that person at a set price. The vow was taken seriously, but God provided an escape route for those who made promises beyond their ability to keep.',
         },
         {
           kind: 'hebrew',
@@ -178,7 +178,7 @@ export const LEVITICUS_27: RichChapterContent = {
           kind: 'commentary',
           id: 'lev27-redeem',
           html:
-            'To redeem means to buy back. If you vowed an animal but later cannot let it go, you can recover it by paying the priest&apos;s valuation plus one-fifth. It costs more to get out of the vow than the animal itself is worth. This is the weight of a broken promise — redemption is possible, but it is expensive.',
+            'To redeem means to buy back[res:bibleodyssey-vows-redemption]. If you vowed an animal but later cannot let it go, you can recover it by paying the priest&apos;s valuation plus one-fifth. It costs more to get out of the vow than the animal itself is worth. This is the weight of a broken promise — redemption is possible, but it is expensive.',
         },
         {
           kind: 'carry',
@@ -434,7 +434,7 @@ export const LEVITICUS_27: RichChapterContent = {
           id: 'christ-tithe',
           title: 'Christ Connection — Total Surrender',
           html:
-            'In the New Testament, Paul writes of the Macedonian churches: "they first gave their own selves to the Lord" (2 Cor 8:5). Not their tenth. Not their surplus. Themselves. And Romans 12:1 invites us to "present your bodies a living sacrifice, holy, acceptable unto God." The tithe principle continues, but it finds its deepest meaning in total surrender. Christ, who paid the price of redemption for us, invites us to pay the price of gratitude by offering not one-tenth, but ourselves.',
+            'In the New Testament, Paul writes of the Macedonian churches[res:intertextual-2-cor-8-leviticus-27]: "they first gave their own selves to the Lord" (2 Cor 8:5). Not their tenth. Not their surplus. Themselves. And Romans 12:1 invites us to "present your bodies a living sacrifice, holy, acceptable unto God." The tithe principle continues, but it finds its deepest meaning in total surrender. Christ, who paid the price of redemption for us, invites us to pay the price of gratitude by offering not one-tenth, but ourselves.',
         },
         {
           kind: 'carry',
@@ -467,6 +467,33 @@ export const LEVITICUS_27: RichChapterContent = {
             'Leviticus is finished. Exodus built a sanctuary. Leviticus fills it with worship. The reader has moved through sacrifices, atonement days, the Jubilee, and finally the logic of vows and redemption. If you have read this far, you have a framework now for understanding how Israel lived her covenant with God. You also have, if you know where to look, the shadow of a greater covenant to come — one where the sacrifice is perfect, where the priest is forever, where redemption is not fifty shekels but a life given freely. The patterns are all here.',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-leviticus-27',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 27 — Vows and Consecrations',
+      url: 'https://www.sefaria.org/Leviticus.27',
+      description: 'Comprehensive Jewish commentary and interpretive tradition on vows, redemption, and the tithe in Leviticus 27.',
+    },
+    {
+      id: 'bibleodyssey-vows-redemption',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Vows and Redemption in Ancient Israel',
+      url: 'https://www.bibleodyssey.org/',
+      description: 'Contextual study of how vows functioned in ancient Israelite society and the redemption principle.',
+    },
+    {
+      id: 'intertextual-2-cor-8-leviticus-27',
+      kind: 'manuscript',
+      source: 'Intertextual Bible',
+      label: '2 Corinthians 8:5 — Self-Giving as True Offering',
+      url: 'https://www.logos.com/product/intertextual-bible',
+      description: 'Paul&apos;s teaching on giving oneself to the Lord as the fulfillment of the tithe and vow principle.',
     },
   ],
 

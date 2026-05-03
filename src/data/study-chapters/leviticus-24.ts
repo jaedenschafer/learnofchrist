@@ -43,7 +43,7 @@ export const LEVITICUS_24: RichChapterContent = {
           kind: 'commentary',
           id: 'c-oil',
           html:
-            'The oil is <em>pure</em> — refined, not mixed. <em>Beaten</em> means hand-pressed without the heat that would damage it. Israel was commanded not merely to provide oil for the tabernacle, but to bring the finest they could make. The lamp in the Holy Place was not a luxury; it was a witness. Someone had to care for it, maintain it, keep it alive. This was priestly work, but it was also the constant responsibility of a people who had seen God&apos;s fire.',
+            'The oil is <em>pure</em> — refined, not mixed[res:sefaria-leviticus-24]. <em>Beaten</em> means hand-pressed without the heat that would damage it. Israel was commanded not merely to provide oil for the tabernacle, but to bring the finest they could make. The lamp in the Holy Place was not a luxury; it was a witness. Someone had to care for it, maintain it, keep it alive. This was priestly work, but it was also the constant responsibility of a people who had seen God&apos;s fire.',
         },
         {
           kind: 'commentary',
@@ -130,7 +130,7 @@ export const LEVITICUS_24: RichChapterContent = {
           kind: 'commentary',
           id: 'c-twelve',
           html:
-            'Twelve loaves — one for each of the twelve tribes. No tribe is left out of the covenant meal. Each loaf is substantial, carefully measured. The bread of the <em>panim</em> — the Presence — was not token bread. It was real sustenance, set before the Lord as a witness that He feeds His people.',
+            'Twelve loaves — one for each of the twelve tribes[res:bibleodyssey-temple-sanctum]. No tribe is left out of the covenant meal. Each loaf is substantial, carefully measured. The bread of the <em>panim</em> — the Presence — was not token bread. It was real sustenance, set before the Lord as a witness that He feeds His people.',
         },
         {
           kind: 'scripture',
@@ -420,7 +420,7 @@ export const LEVITICUS_24: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'This ending is difficult. We live after Jesus, who stood before an angry crowd ready to stone a woman taken in adultery and said, "He that is without sin among you, let him first cast a stone" (John 8:7). But we are not given permission to dismiss this account as primitive or abandoned. Rather, we see in Leviticus 24 the severity with which God guards His own name and covenant, and in Jesus, we see the mercy that fulfills and even exceeds the Law. We cannot choose between them. We must hold both: the seriousness of His name, and the grace that comes when we cannot meet the measure the Law demands.',
+            'This ending is difficult. We live after Jesus[res:intertextual-john-8-leviticus-24], who stood before an angry crowd ready to stone a woman taken in adultery and said, "He that is without sin among you, let him first cast a stone" (John 8:7). But we are not given permission to dismiss this account as primitive or abandoned. Rather, we see in Leviticus 24 the severity with which God guards His own name and covenant, and in Jesus, we see the mercy that fulfills and even exceeds the Law. We cannot choose between them. We must hold both: the seriousness of His name, and the grace that comes when we cannot meet the measure the Law demands.',
         },
         {
           kind: 'reflection',
@@ -438,6 +438,33 @@ export const LEVITICUS_24: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Leviticus 24 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-leviticus-24',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 24 — Sefaria Community Notes',
+      url: 'https://www.sefaria.org/Leviticus.24',
+      description: 'Annotated text with rabbinic commentary on temple rituals and laws of restitution.',
+    },
+    {
+      id: 'bibleodyssey-temple-sanctum',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'The Holy Place and Temple Rituals',
+      url: 'https://www.bibleodyssey.org',
+      description: 'Overview of the menorah, showbread, and daily temple rituals of offering and light.',
+    },
+    {
+      id: 'intertextual-john-8-leviticus-24',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Law and Mercy Meet — John 8:3–11',
+      url: 'https://intertextalbible.com',
+      description: 'Jesus&apos; response to the woman caught in adultery and the tension between judgment and grace.',
+    },
+  ],
 
   hasHebrew: true,
 };

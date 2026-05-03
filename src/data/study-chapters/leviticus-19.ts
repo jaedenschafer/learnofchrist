@@ -70,7 +70,7 @@ export const LEVITICUS_19: RichChapterContent = {
           kind: 'commentary',
           id: 'lev19-holy-intro',
           html:
-            'The first word out of God&apos;s mouth is "holiness" — not as a distant ideal but as a command addressed directly to all Israel, not just priests. Everyone is called. Holiness is not the preserve of the temple; it is the task of a whole people living justly with each other.',
+            'The first word out of God&apos;s mouth is "holiness" — not as a distant ideal but as a command addressed directly to all Israel, not just priests[res:sefaria-leviticus-19]. Everyone is called. Holiness is not the preserve of the temple; it is the task of a whole people living justly with each other.',
         },
         {
           kind: 'hebrew',
@@ -325,7 +325,7 @@ export const LEVITICUS_19: RichChapterContent = {
           id: 'christ-love-neighbor',
           title: 'Christ Connection — The Second Great Commandment',
           html:
-            'Jesus places this verse at the center of all ethics. When asked what is the greatest commandment, He says first: love God with all your heart. Then: "The second is like unto it, Thou shalt love thy neighbour as thyself. On these two commandments hang all the law and the prophets" (Matt. 22:39–40). The entire Jewish scripture hangs on neighbor-love. In Luke 10, Jesus clarifies who the neighbor is with the story of the Good Samaritan — the foreigner, the outsider, the one from the despised group. Neighbor-love is not tribal; it is universal.',
+            'Jesus places this verse at the center of all ethics[res:intertextual-matt-22-leviticus-19]. When asked what is the greatest commandment, He says first: love God with all your heart. Then: "The second is like unto it, Thou shalt love thy neighbour as thyself. On these two commandments hang all the law and the prophets" (Matt. 22:39–40). The entire Jewish scripture hangs on neighbor-love. In Luke 10, Jesus clarifies who the neighbor is with the story of the Good Samaritan — the foreigner, the outsider, the one from the despised group. Neighbor-love is not tribal; it is universal.',
         },
         {
           kind: 'carry',
@@ -593,7 +593,7 @@ export const LEVITICUS_19: RichChapterContent = {
           kind: 'commentary',
           id: 'lev19-all',
           html:
-            'All. Not just the ones that are easy, or the ones that benefit you, or the ones your community practices. All. The statutes and the judgments together. The ceremonial and the moral woven into one fabric. When you keep them, you are not obeying a rule; you are participating in God&apos;s ordering of justice and mercy in the world.',
+            'All. Not just the ones that are easy, or the ones that benefit you, or the ones your community practices[res:bibleodyssey-holiness-justice]. All. The statutes and the judgments together. The ceremonial and the moral woven into one fabric. When you keep them, you are not obeying a rule; you are participating in God&apos;s ordering of justice and mercy in the world.',
         },
         {
           kind: 'carry',
@@ -617,6 +617,33 @@ export const LEVITICUS_19: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Leviticus 19 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-leviticus-19',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 19 — Sefaria Community Notes',
+      url: 'https://www.sefaria.org/Leviticus.19',
+      description: 'Annotated text with rabbinic commentary on the holiness code and love of neighbor.',
+    },
+    {
+      id: 'intertextual-matt-22-leviticus-19',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jesus on the Greatest Commandments — Matthew 22:37–40',
+      url: 'https://intertextalbible.com',
+      description: 'Jesus&apos; identification of love of God and neighbor as the core of all law and prophets.',
+    },
+    {
+      id: 'bibleodyssey-holiness-justice',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Holiness and Social Justice in Leviticus',
+      url: 'https://www.bibleodyssey.org',
+      description: 'Exploration of how ritual law and social ethics are woven together in ancient Israel.',
+    },
+  ],
 
   hasHebrew: true,
 };

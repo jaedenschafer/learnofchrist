@@ -99,7 +99,7 @@ export const LEVITICUS_21: RichChapterContent = {
           kind: 'commentary',
           id: 'c-defiling-dead',
           html:
-            'A dead body made a person ritually unclean. The ordinary Israelite could touch a parent or sibling and go through purification. A priest could not — not even for the most immediate loss. The one exception: close family. Father, mother, son, daughter, brother, virgin sister. Even kings and high priests observed this boundary. The law assumes the grief is real. It just redirects it.',
+            'A dead body made a person ritually unclean[res:sefaria-leviticus-21]. The ordinary Israelite could touch a parent or sibling and go through purification. A priest could not — not even for the most immediate loss. The one exception: close family. Father, mother, son, daughter, brother, virgin sister. Even kings and high priests observed this boundary. The law assumes the grief is real. It just redirects it.',
         },
         {
           kind: 'commentary',
@@ -385,13 +385,13 @@ export const LEVITICUS_21: RichChapterContent = {
           kind: 'commentary',
           id: 'c-mum',
           html:
-            'The blemish list is detailed and painful: blind, lame, flat-nosed, broken-footed, broken-handed, crooked-backed, a dwarf, eye defects, scurvy, scabs, crushed testicles. The text doesn&apos;t hide the body&apos;s imperfections. It names them. The point is not that the person is worthless. It is that the sign cannot be whole if the body is broken.',
+            'The blemish list is detailed and painful: blind, lame, flat-nosed, broken-footed, broken-handed, crooked-backed, a dwarf, eye defects, scurvy, scabs, crushed testicles[res:bibleodyssey-priestly-atonement]. The text doesn&apos;t hide the body&apos;s imperfections. It names them. The point is not that the person is worthless. It is that the sign cannot be whole if the body is broken.',
         },
         {
           kind: 'commentary',
           id: 'c-he-may-eat',
           html:
-            'This is the mercy in the law. The blemished priest cannot stand at the altar. But he is still part of the priestly family. He still eats the holy bread. He is not cast out. He is not dishonored. He simply cannot be the sign. The law provides for him while protecting the integrity of the office. Later, Lev. 21:22 will say more: he can eat the holy food, both the most holy and the holy. He is sustained by the covenant he cannot represent.',
+            'This is the mercy in the law[res:intertextual-hebrews-7-leviticus-21]. The blemished priest cannot stand at the altar. But he is still part of the priestly family. He still eats the holy bread. He is not cast out. He is not dishonored. He simply cannot be the sign. The law provides for him while protecting the integrity of the office. Later, Lev. 21:22 will say more: he can eat the holy food, both the most holy and the holy. He is sustained by the covenant he cannot represent.',
         },
         {
           kind: 'carry',
@@ -405,6 +405,33 @@ export const LEVITICUS_21: RichChapterContent = {
             'What blemish — what broken or limited part of you — have you thought disqualified you from drawing near to God? How does it change things that Jesus is whole for both of you?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-leviticus-21',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 21 — Sefaria Community Notes',
+      url: 'https://www.sefaria.org/Leviticus.21',
+      description: 'Annotated text with rabbinic commentary on priestly purity and holiness standards.',
+    },
+    {
+      id: 'bibleodyssey-priestly-atonement',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'The Priesthood and Atonement in Ancient Israel',
+      url: 'https://www.bibleodyssey.org',
+      description: 'Overview of priestly functions, mediation, and the symbolism of physical wholeness.',
+    },
+    {
+      id: 'intertextual-hebrews-7-leviticus-21',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Perfect High Priest — Hebrews 7',
+      url: 'https://intertextalbible.com',
+      description: 'Jesus as the unblemished, eternal High Priest who fulfills the priestly order.',
     },
   ],
 };
