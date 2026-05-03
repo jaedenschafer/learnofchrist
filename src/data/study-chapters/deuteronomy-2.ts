@@ -4,7 +4,7 @@ import { hp, hy, hg, t, verse, type RichChapterContent } from './types';
  * Deuteronomy 2 — After 38 years of wandering, the Lord commands Israel to turn
  * northward from Mount Seir. The chapter rehearses God&apos;s faithfulness in the
  * wilderness, His sovereignty over the nations (Edom, Moab, Ammon, giants), and
- * the conquest of Sihon at Heshbon. Herem — total devotion to destruction — frames
+ * the conquest of Sihon at Heshbon [res:heshbon-archaeology-penn]. Herem — total devotion to destruction — frames
  * the judgment on Amorite iniquity. The conquest begins.
  *
  * CORE THEMES:
@@ -38,7 +38,7 @@ export const DEUTERONOMY_2: RichChapterContent = {
     {
       id: 'sefaria-deuteronomy-2',
       kind: 'study',
-      source: 'Sefaria',
+      source: 'Sefaria [res:sefaria-deuteronomy-2]',
       label: 'Deuteronomy 2 — Wilderness Faithfulness',
       url: 'https://www.sefaria.org/Deuteronomy.2',
       description: 'Open-access Jewish commentaries on God&apos;s provision in the wilderness and the conquest of Sihon.',
@@ -92,7 +92,7 @@ export const DEUTERONOMY_2: RichChapterContent = {
           kind: 'commentary',
           id: 'compass-mount-seir',
           html:
-            'For 38 years the people have circled this mountain. It is not punishment alone — it is the natural consequence of unbelief. A journey that should have taken weeks has stretched into four decades. The desert became their classroom in God&apos;s faithfulness.',
+            'For 38 years the people have circled this mountain. It is not punishment alone — it is the natural consequence of unbelief. A journey that should have taken weeks has stretched into four decades. The desert became their classroom in God&apos;s faithfulness[res:numbers-20-21-intertextual-deut-2].',
         },
         {
           kind: 'commentary',

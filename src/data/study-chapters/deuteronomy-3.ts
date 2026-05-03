@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, verse, type RichChapterContent } from './types';
 
 /**
- * Deuteronomy 3 — Moses recounts the conquest of Og, king of Bashan, and the
+ * Deuteronomy 3 — Moses recounts the conquest of Og, king of Bashan , and the
  * distribution of land east of the Jordan to Reuben, Gad, and half-Manasseh.
  * Moses charges Joshua and the eastern tribes. Then Moses prays for permission
  * to enter Canaan, but God denies him and instead grants him the vision from
@@ -40,7 +40,7 @@ export const DEUTERONOMY_3: RichChapterContent = {
     {
       id: 'sefaria-deuteronomy-3',
       kind: 'study',
-      source: 'Sefaria',
+      source: 'Sefaria [res:sefaria-deuteronomy-3]',
       label: 'Deuteronomy 3 — Giants and Succession',
       url: 'https://www.sefaria.org/Deuteronomy.3',
       description: 'Medieval and modern Jewish commentary on the defeat of Og, the last giant, and Moses&apos; vision from Pisgah.',
@@ -87,7 +87,7 @@ export const DEUTERONOMY_3: RichChapterContent = {
           kind: 'commentary',
           id: 'fear-not-og',
           html:
-            'Before the battle, God speaks: "Fear him not." This is the grammar of conquest in Deuteronomy — the Lord does not give victory to courage or military prowess first. He first removes fear by promising the outcome. Every great thing Israel does in the Promised Land begins not with their strength, but with God&apos;s word saying, do not be afraid.',
+            'Before the battle, God speaks: "Fear him not." This is the grammar of conquest in Deuteronomy — the Lord does not give victory to courage or military prowess first. He first removes fear by promising the outcome. Every great thing Israel does in the Promised Land begins not with their strength, but with God&apos;s word saying, do not be afraid[res:bashan-archaeology-oriental-institute][res:ogog-bedstead-ancient-giants-rephaim].',
         },
         {
           kind: 'christ',
@@ -237,7 +237,7 @@ export const DEUTERONOMY_3: RichChapterContent = {
           kind: 'commentary',
           id: 'eastern-allotment',
           html:
-            'Reuben, Gad, and half-Manasseh chose the land east of Jordan. It was already conquered, already settled, already known. It is the easier way. But the choice has consequences — they will not inherit the promise proper, the land of Canaan itself. They chose rest over inheritance.',
+            'Reuben, Gad, and half-Manasseh chose the land east of Jordan. It was already conquered, already settled, already known. It is the easier way. But the choice has consequences — they will not inherit the promise proper, the land of Canaan itself. They chose rest over inheritance .',
         },
         {
           kind: 'scripture',

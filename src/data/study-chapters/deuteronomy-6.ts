@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Deuteronomy 6 — the Shema, Israel&apos;s most cherished confession.
+ * Deuteronomy 6 — the Shema [res:shema-prayer-tefillin -mezuzah-rabbinic], Israel&apos;s most cherished confession.
  * The chapter frames the law not as burden but as love, binding the words
  * of God into daily life—heart, soul, hand, home, gate—and warning against
  * the test that prosperity brings: forgetting the One who brought you there.
@@ -22,7 +22,7 @@ export const DEUTERONOMY_6: RichChapterContent = {
     {
       id: 'sefaria-deuteronomy-6',
       kind: 'study',
-      source: 'Sefaria',
+      source: 'Sefaria [res:sefaria-deuteronomy-6]',
       label: 'Deuteronomy 6 — The Shema',
       url: 'https://www.sefaria.org/Deuteronomy.6',
       description: 'Hebrew and medieval Jewish commentaries on Israel&apos;s central daily prayer, with tefillin and mezuzah practice.',
@@ -81,7 +81,7 @@ export const DEUTERONOMY_6: RichChapterContent = {
           kind: 'commentary',
           id: 'deut6-fear',
           html:
-            'The law is not given as a yoke to crush Israel under the weight of commandment. It is given so that Israel might <em>fear</em> the Lord—a word that means reverence, awe, the kind of worship that flows from knowing what is true about God. The purpose of every statute is formation: to shape a people who remember the One who brought them out of Egypt. Everything flows from relationship, not rules.',
+            'The law is not given as a yoke to crush Israel under the weight of commandment. It is given so that Israel might <em>fear</em> the Lord—a word that means reverence, awe, the kind of worship that flows from knowing what is true about God. The purpose of every statute is formation: to shape a people who remember the One who brought them out of Egypt. Everything flows from relationship, not rules[res:shema-jewish-prayer-central-tradition][res:tefillin-mezuzah-israel-museum-archaeology].',
         },
         {
           kind: 'carry',

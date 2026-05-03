@@ -2,7 +2,7 @@ import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
  * Deuteronomy 7 — Election grounded not in merit but in God&apos;s free love
- * and covenant faithfulness. The herem command (devoted destruction) executed
+ * and covenant faithfulness. The herem  command (devoted destruction) executed
  * through Israel foreshadows final judgment; the pace of purification—little
  * by little—speaks to God&apos;s wise pastoral care. Holiness = set apart for God.
  */
@@ -29,7 +29,7 @@ export const DEUTERONOMY_7: RichChapterContent = {
     {
       id: 'sefaria-deuteronomy-7',
       kind: 'study',
-      source: 'Sefaria',
+      source: 'Sefaria [res:sefaria-deuteronomy-7]',
       label: 'Deuteronomy 7 — Chosen People',
       url: 'https://www.sefaria.org/Deuteronomy.7',
       description: 'Hebrew commentaries on election grounded in covenant love, and the herem (devoted destruction) as judgment.',
@@ -84,7 +84,7 @@ export const DEUTERONOMY_7: RichChapterContent = {
           kind: 'commentary',
           id: 'deut7-cherem',
           html:
-            'The Hebrew word <em>cherem</em> means &ldquo;devoted to destruction&rdquo;—sacred destruction, set apart for the Lord as an instrument of His judgment. This is not genocide in the sense of ethnic conquest for profit or pride. Genesis 15:16 reveals the frame: God promises the land to Abraham, but &ldquo;the iniquity of the Amorites is not yet full.&rdquo; By the time Israel enters, four centuries later, that iniquity has reached its measure. The Lord executes judgment <em>through</em> Israel. This was God&apos;s right as judge of all nations; it was executed then in that hour and place; and it is not a model for Christian conduct. In the New Testament, Paul tells us the warfare of the church is &ldquo;not against flesh and blood, but against principalities, against powers&rdquo; (Ephesians 6:12). The church wages war against the spiritual forces that enslave and deceive—not through the sword, but through &ldquo;the weapons of our warfare are not carnal, but mighty through God to the pulling down of strong holds&rdquo; (2 Corinthians 10:4).',
+            'The Hebrew word <em>cherem</em> means &ldquo;devoted to destruction&rdquo;—sacred destruction, set apart for the Lord as an instrument of His judgment. This is not genocide in the sense of ethnic conquest for profit or pride. Genesis 15:16 reveals the frame: God promises the land to Abraham, but &ldquo;the iniquity of the Amorites is not yet full.&rdquo; By the time Israel enters, four centuries later, that iniquity has reached its measure. The Lord executes judgment <em>through</em> Israel. This was God&apos;s right as judge of all nations; it was executed then in that hour and place; and it is not a model for Christian conduct. In the New Testament, Paul tells us the warfare of the church is &ldquo;not against flesh and blood, but against principalities, against powers&rdquo; (Ephesians 6:12). The church wages war against the spiritual forces that enslave and deceive—not through the sword, but through &ldquo;the weapons of our warfare are not carnal, but mighty through God to the pulling down of strong holds&rdquo; (2 Corinthians 10:4)[res:bible-odyssey-herem-devoted-destruction][res:chosen-people-election-theology-biblical].',
         },
         {
           kind: 'hebrew',
@@ -146,7 +146,7 @@ export const DEUTERONOMY_7: RichChapterContent = {
           kind: 'commentary',
           id: 'no-covenant-marriage',
           html:
-            'Intermarriage with the pagan nations is forbidden not because of racial pride but because of spiritual danger. A wife who follows other gods will draw the household after her; a son married into an idolatrous family will be tutored out of covenant faithfulness. The warning is painfully practical: love for a spouse or child can become the door through which the whole family walks away from the God who called them. Throughout Israel&apos;s history this became reality—Solomon&apos;s foreign wives turned his heart toward strange gods (1 Kings 11:4), and the same pattern repeats across the generations.',
+            'Intermarriage with the pagan  nations is forbidden not because of racial pride but because of spiritual danger. A wife who follows other gods will draw the household after her; a son married into an idolatrous family will be tutored out of covenant faithfulness. The warning is painfully practical: love for a spouse or child can become the door through which the whole family walks away from the God who called them. Throughout Israel&apos;s history this became reality—Solomon&apos;s foreign wives turned his heart toward strange gods (1 Kings 11:4), and the same pattern repeats across the generations.',
         },
         {
           kind: 'commentary',

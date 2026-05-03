@@ -40,10 +40,10 @@ export const DEUTERONOMY_4: RichChapterContent = {
     {
       id: 'sefaria-deuteronomy-4',
       kind: 'study',
-      source: 'Sefaria',
+      source: 'Sefaria [res:sefaria-deuteronomy-4]',
       label: 'Deuteronomy 4 — Covenant Teaching',
       url: 'https://www.sefaria.org/Deuteronomy.4',
-      description: 'Hebrew commentaries on covenant renewal, idolatry warnings, and the exclusivity of God&apos;s word.',
+      description: 'Hebrew commentaries on covenant renew al, idolatry  warnings, and the exclusivity of God&apos;s word.',
     },
     {
       id: 'baal-peor-idolatry-bible-odyssey',
@@ -104,7 +104,7 @@ export const DEUTERONOMY_4: RichChapterContent = {
           kind: 'commentary',
           id: 'c-add-diminish',
           html:
-            'Moses sets up a boundary that will run through the entire Bible: <em>add not, take not away.</em> God&apos;s word is to be received as a whole, not rewritten by human preference. To add is to assume you can improve on what God said. To diminish is to assume you can soften what God said. Both are refusals to let God&apos;s word be what it is.',
+            'Moses sets up a boundary that will run through the entire Bible: <em>add not, take not away.</em> God&apos;s word is to be received as a whole, not rewritten by human preference. To add is to assume you can improve on what God said. To diminish is to assume you can soften what God said. Both are refusals to let God&apos;s word be what it is[res:baal-peor-idolatry-bible-odyssey][res:cities-refuge-ancient-laws-sbl].',
         },
         {
           kind: 'carry',

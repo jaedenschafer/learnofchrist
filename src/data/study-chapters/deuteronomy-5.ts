@@ -47,8 +47,8 @@ export const DEUTERONOMY_5: RichChapterContent = {
     {
       id: 'sefaria-deuteronomy-5',
       kind: 'study',
-      source: 'Sefaria',
-      label: 'Deuteronomy 5 — Decalogue Restated',
+      source: 'Sefaria [res:sefaria-deuteronomy-5]',
+      label: 'Deuteronomy 5 — Decalogue  Restated',
       url: 'https://www.sefaria.org/Deuteronomy.5',
       description: 'Hebrew and medieval commentaries on the Ten Commandments as restated for a new generation in covenant.',
     },
@@ -118,7 +118,7 @@ export const DEUTERONOMY_5: RichChapterContent = {
           kind: 'commentary',
           id: 'c-present-generation',
           html:
-            'This is not ancestral religion. The covenant was not made with Abraham, Isaac, or Jacob — not with your fathers. It was made <em>with you</em>, the people standing here now. Forty years have passed. The generation that heard God&apos;s voice at Sinai has died in the wilderness. Their children now stand at the border of the land. And God&apos;s claim is fresh: this covenant is yours. You must own it. You must choose it. Every generation of believers faces this same threshold — to receive the faith as a living thing, not as inherited custom.',
+            'This is not ancestral religion. The covenant was not made with Abraham, Isaac, or Jacob — not with your fathers. It was made <em>with you</em>, the people standing here now. Forty years have passed. The generation that heard God&apos;s voice at Sinai has died in the wilderness. Their children now stand at the border of the land. And God&apos;s claim is fresh: this covenant is yours. You must own it. You must choose it. Every generation of believers faces this same threshold — to receive the faith as a living thing, not as inherited custom[res:exodus-20-deut-5-intertextual-comparison][res:decalogue-biblical-law-bible-odyssey].',
         },
         {
           kind: 'christ',
