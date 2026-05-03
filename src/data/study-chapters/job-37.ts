@@ -41,6 +41,7 @@ export const JOB_37: RichChapterContent = {
             plain(4, 'After it a voice roareth: he thundereth with the voice of his excellency; and he will not stay them when his voice is heard.'),
             plain(5, 'God thundereth marvellously with his voice; great things doeth he, which we cannot comprehend.'),
             plain(6, 'For he saith to the snow, Be thou on the earth; likewise to the small rain, and to the great rain of his strength.'),
+          ],
         },
         {
           kind: 'commentary',
