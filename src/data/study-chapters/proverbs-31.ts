@@ -36,7 +36,7 @@ export const PROVERBS_31: RichChapterContent = {
           kind: 'commentary',
           id: 'prov31-virtue-price',
           html:
-            'The virtuous woman is rare. Her price is above rubies—not because she has money, but because she has value that transcends material wealth. She is precious. Her virtue is not her compliance, not her beauty, but her character—her capacity to act with wisdom and strength, to build and maintain, to love with faithfulness.',
+            'The virtuous woman is rare. Her price is above rubies—not because she has money, but because she has value that transcends material wealth. She is precious. Her virtue is not her compliance, not her beauty, but her character—her capacity to act with wisdom and strength, to build and maintain, to love with faithfulness.[res:british-museum-amenemope]',
         },
         {
           kind: 'hebrew',
@@ -51,7 +51,7 @@ export const PROVERBS_31: RichChapterContent = {
           kind: 'commentary',
           id: 'prov31-strength-honor',
           html:
-            'Strength and honour are her clothing. These are her true garments, more important than anything she wears on her body. Her dignity comes from her character, from the respect she has earned through her actions and her integrity.',
+            'Strength and honour are her clothing. These are her true garments, more important than anything she wears on her body. Her dignity comes from her character, from the respect she has earned through her actions and her integrity.[res:sefaria-proverbs-31]',
         },
         {
           kind: 'carry',
@@ -82,7 +82,7 @@ export const PROVERBS_31: RichChapterContent = {
           kind: 'commentary',
           id: 'prov31-favor-beauty',
           html:
-            'Favour is deceitful. People&apos;s approval shifts with the wind. Beauty is vain. It fades. But a woman who fears the Lord—who orders her life according to God&apos;s intention, who trusts Him, who lets reverence for Him be her foundation—she shall be praised. Not by the fickle world, but with a praise that endures.',
+            'Favour is deceitful. People&apos;s approval shifts with the wind. Beauty is vain. It fades. But a woman who fears the Lord—who orders her life according to God&apos;s intention, who trusts Him, who lets reverence for Him be her foundation—she shall be praised. Not by the fickle world, but with a praise that endures.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'commentary',
@@ -116,6 +116,33 @@ export const PROVERBS_31: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 31 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-proverbs-31',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 31',
+      url: 'https://www.sefaria.org/Proverbs.31',
+      description: 'Sefaria open-access source text and translations for Proverbs 31.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
 
   hasHebrew: true,
 };

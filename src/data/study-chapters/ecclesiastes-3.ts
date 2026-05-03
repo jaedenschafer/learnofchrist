@@ -41,7 +41,7 @@ export const ECCLESIASTES_3: RichChapterContent = {
           kind: 'commentary',
           id: 'ecc3a-mid-time-seasons',
           html:
-            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.[res:british-museum-mesopotamia]',
         },
         {
           kind: 'scripture',
@@ -57,7 +57,7 @@ export const ECCLESIASTES_3: RichChapterContent = {
           kind: 'commentary',
           id: 'ecc3-season',
           html:
-            'The Preacher now paints a portrait of life as a rhythm, a dance of opposites. Everything has its season. This is not the Preacher abandoning his earlier conclusion about vanity. Rather, he is deepening it. Life is not meaningless because it is full of change. Change is not a sign of emptiness—it is the pattern itself. The key insight is that each moment, each season, is necessary. You cannot harvest without first planting. You cannot laugh without knowing sorrow. The pairs are not in conflict but in harmony.',
+            'The Preacher now paints a portrait of life as a rhythm, a dance of opposites. Everything has its season. This is not the Preacher abandoning his earlier conclusion about vanity. Rather, he is deepening it. Life is not meaningless because it is full of change. Change is not a sign of emptiness—it is the pattern itself. The key insight is that each moment, each season, is necessary. You cannot harvest without first planting. You cannot laugh without knowing sorrow. The pairs are not in conflict but in harmony.[res:sefaria-ecclesiastes-3]',
         },
         {
           kind: 'hebrew',
@@ -72,7 +72,7 @@ export const ECCLESIASTES_3: RichChapterContent = {
           kind: 'commentary',
           id: 'ecc3-pairs',
           html:
-            'Notice that the fourteen pairs Ecclesiastes lists are not morally equivalent. Birth is good, but death is not evil—it is natural. Planting is necessary, and uprooting is equally necessary. Weeping and laughing are both parts of a full life. Embracing and refraining from embracing—both have their time. The Preacher is saying: accept the rhythm. Do not cling to summer and curse winter. Recognize that each season serves a purpose.',
+            'Notice that the fourteen pairs Ecclesiastes lists are not morally equivalent. Birth is good, but death is not evil—it is natural. Planting is necessary, and uprooting is equally necessary. Weeping and laughing are both parts of a full life. Embracing and refraining from embracing—both have their time. The Preacher is saying: accept the rhythm. Do not cling to summer and curse winter. Recognize that each season serves a purpose.[res:theoi-stoic-epicurean]',
         },
         {
           kind: 'carry',
@@ -167,6 +167,33 @@ export const ECCLESIASTES_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ecclesiastes 3 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-ecclesiastes-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ecclesiastes 3',
+      url: 'https://www.sefaria.org/Ecclesiastes.3',
+      description: 'Sefaria open-access source text and translations for Ecclesiastes 3.',
+    },
+    {
+      id: 'british-museum-mesopotamia',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'ANE Wisdom Literature (Mesopotamia)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Mesopotamian wisdom texts paralleling Ecclesiastes&apos; quest for meaning under existential circularity.',
+    },
+    {
+      id: 'theoi-stoic-epicurean',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Stoic and Epicurean Philosophy',
+      url: 'https://www.theoi.com/',
+      description: 'Hellenistic philosophical parallels to Ecclesiastes on pleasure, virtue, and the good life.',
+    },
+  ],
 
   hasHebrew: true,
 };

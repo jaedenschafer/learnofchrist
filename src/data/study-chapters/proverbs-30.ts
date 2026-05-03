@@ -36,13 +36,20 @@ export const PROVERBS_30: RichChapterContent = {
           kind: 'commentary',
           id: 'prov30-brutish',
           html:
-            'Agur opens not with boasts of learning but with a confession of brutish ignorance. This is not false modesty. This is the honest assessment of someone who understands how little he grasps. He has not learned the wisdom he pursued. He does not have access to the knowledge of the holy ones. And this knowledge of his ignorance is the beginning of real wisdom.',
+            'Agur opens not with boasts of learning but with a confession of brutish ignorance. This is not false modesty. This is the honest assessment of someone who understands how little he grasps. He has not learned the wisdom he pursued. He does not have access to the knowledge of the holy ones. And this knowledge of his ignorance is the beginning of real wisdom.[res:british-museum-amenemope]',
+        },
+        {
+          kind: 'hebrew',
+          id: 'prov30-agur-name',
+          title: 'Agur — "The Gatherer"',
+          script: 'אָגוּר',
+          translit: '<strong>Agur</strong> · gatherer; collector',
+          description: 'Agur&apos;s name means "gatherer"—one who collects wisdom. Yet his confession is that he has not gathered understanding, but rather knows his own ignorance. The name itself is ironic, setting up the theme of the chapter.',
         },
         {
           kind: 'commentary',
           id: 'prov30-mysteries',
-          html:
-            'Then Agur poses a series of questions about the cosmic mysteries: Who has ascended into heaven? Who has gathered the wind? Who has clothed the waters? Who has set the bounds of the earth? These are not rhetorical questions seeking a "God" answer. They are expressions of genuine mystery. The world is vast and strange, and human understanding is small.',
+          html: 'Then Agur poses a series of questions about the cosmic mysteries: Who has ascended into heaven? Who has gathered the wind? Who has clothed the waters? Who has set the bounds of the earth? These are not rhetorical questions seeking a "God" answer. They are expressions of genuine mystery. The world is vast and strange, and human understanding is small.[res:sefaria-proverbs-30][res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'carry',
@@ -108,4 +115,32 @@ export const PROVERBS_30: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 30 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-proverbs-30',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 30',
+      url: 'https://www.sefaria.org/Proverbs.30',
+      description: 'Sefaria open-access source text and translations for Proverbs 30.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
+
 };

@@ -39,13 +39,13 @@ export const ISAIAH_9: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah9-darkness-light',
           html:
-            'The opening image is stark. People walking in darkness. People dwelling in the land of the shadow of death. But suddenly, "they have seen a great light." The shift is abrupt, miraculous. And the source of this light is described in terms of joy and increase—the joy of harvest, the joy of those dividing spoil after a victory. This is deliverance. This is restoration. This is what it means when the light breaks through the darkness.',
+            'The opening image is stark. People walking in darkness. People dwelling in the land of the shadow of death. But suddenly, "they have seen a great light." The shift is abrupt, miraculous. And the source of this light is described in terms of joy and increase—the joy of harvest, the joy of those dividing spoil after a victory. This is deliverance. This is restoration. This is what it means when the light breaks through the darkness.[res:sefaria-isaiah-9]',
         },
         {
           kind: 'commentary',
           id: 'isaiah9-child-born',
           html:
-            'The announcement is wonderful: "Unto us a child is born, unto us a son is given." The coming of the Messiah is described with the most intimate language possible—a child born, a son given. This is not distant theology. This is the breaking in of God&apos;s family into human history. And this child will bear the government upon His shoulder—not through military conquest, but through the weight of authority that God Himself will place upon Him.',
+            'The announcement is wonderful: "Unto us a child is born, unto us a son is given." The coming of the Messiah is described with the most intimate language possible—a child born, a son given. This is not distant theology. This is the breaking in of God&apos;s family into human history. And this child will bear the government upon His shoulder—not through military conquest, but through the weight of authority that God Himself will place upon Him.[res:intertextual-isaiah-9-matthew]',
         },
         {
           kind: 'hebrew',
@@ -60,7 +60,7 @@ export const ISAIAH_9: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah9-names',
           html:
-            'The names Isaiah gives the child are progressive revelations of His nature. Wonderful Counsellor—His wisdom is beyond human measure. Mighty God—He possesses divine power. Everlasting Father—He will endure forever and will care for His people as a father cares for his children. Prince of Peace—He will establish peace not merely as the absence of conflict, but as the restoration of right relationship between God and creation. Each name is a promise.',
+            'The names Isaiah gives the child are progressive revelations of His nature. Wonderful Counsellor—His wisdom is beyond human measure. Mighty God—He possesses divine power. Everlasting Father—He will endure forever and will care for His people as a father cares for his children. Prince of Peace—He will establish peace not merely as the absence of conflict, but as the restoration of right relationship between God and creation. Each name is a promise.[res:intertextual-isaiah-9-nt]',
         },
         {
           kind: 'christ',
@@ -88,6 +88,33 @@ export const ISAIAH_9: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 9:5–6 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 9',
+      url: 'https://www.sefaria.org/Isaiah.9',
+      description: 'Sefaria open-access source text and translations for Isaiah 9.',
+    },
+    {
+      id: 'intertextual-isaiah-9-matthew',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 9 ↔ Matthew Intertextual Links',
+      url: 'https://intertextual.bible/',
+      description: 'Connections between Isaiah 9 and New Testament fulfillment, especially Matt 1–12.',
+    },
+    {
+      id: 'intertextual-isaiah-9-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 9 → NT (Child Born)',
+      url: 'https://intertextual.bible/',
+      description: 'The child born prophecy and its New Testament resonances to Christ.',
+    },
+  ],
 
   hasHebrew: true,
 };

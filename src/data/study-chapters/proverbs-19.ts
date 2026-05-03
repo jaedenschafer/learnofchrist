@@ -33,13 +33,21 @@ export const PROVERBS_19: RichChapterContent = {
           kind: 'commentary',
           id: 'prov19-lend-lord',
           html:
-            'When you give to the poor, you are not merely dispensing charity to the unfortunate. You are making a loan to the Lord Himself. This transforms the act. It is no longer condescension—the rich helping the less fortunate. It is a transaction with the divine. And the Lord is a creditor who pays back. The man who shows pity to the poor is making an investment with eternal returns.',
+            'When you give to the poor, you are not merely dispensing charity to the unfortunate. You are making a loan to the Lord Himself. This transforms the act. It is no longer condescension—the rich helping the less fortunate. It is a transaction with the divine. And the Lord is a creditor who pays back. The man who shows pity to the poor is making an investment with eternal returns.[res:british-museum-amenemope]',
+        },
+        {
+          kind: 'hebrew',
+          id: 'prov19-torah',
+          title: 'Torah — "Instruction"',
+          script: 'תּוֹרָה',
+          translit: '<strong>Torah</strong> · law; instruction; teaching',
+          description: 'Torah is not merely law but instruction—the path that leads to life. To abandon it is to walk in darkness.',
         },
         {
           kind: 'commentary',
           id: 'prov19-repay',
           html:
-            'The repayment is assured: "that which he hath given will he pay him again." Not in coin, perhaps. But in blessing, in preservation, in that mysterious multiplication that God gives to the generous. The promise is not metaphorical. It is stated with the certainty of a business transaction—the Lord is not in debt to anyone.',
+            'The repayment is assured: "that which he hath given will he pay him again." Not in coin, perhaps. But in blessing, in preservation, in that mysterious multiplication that God gives to the generous. The promise is not metaphorical. It is stated with the certainty of a business transaction—the Lord is not in debt to anyone.[res:sefaria-proverbs-19]',
         },
         {
           kind: 'christ',
@@ -76,7 +84,7 @@ export const PROVERBS_19: RichChapterContent = {
           kind: 'commentary',
           id: 'prov19-devices',
           html:
-            'A man devises many things. His heart is full of schemes, plans, strategies, hopes. He is restless with possibility. This is not wrong—it is human nature. But many of these devices will come to nothing. Not because they are ill-intentioned, but because they are human, limited, subject to forces beyond human control. Yet the counsel of the Lord—His purpose, His plan for creation—that shall stand.',
+            'A man devises many things. His heart is full of schemes, plans, strategies, hopes. He is restless with possibility. This is not wrong—it is human nature. But many of these devices will come to nothing. Not because they are ill-intentioned, but because they are human, limited, subject to forces beyond human control. Yet the counsel of the Lord—His purpose, His plan for creation—that shall stand.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'commentary',
@@ -103,4 +111,32 @@ export const PROVERBS_19: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 19 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-proverbs-19',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 19',
+      url: 'https://www.sefaria.org/Proverbs.19',
+      description: 'Sefaria open-access source text and translations for Proverbs 19.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
+
 };

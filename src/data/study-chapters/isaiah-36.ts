@@ -38,7 +38,7 @@ export const ISAIAH_36: RichChapterContent = {
           kind: 'commentary',
           id: 'isa36-split-1',
           html:
-            'Three men emerge from the city: Eliakim, Shebna, and Joah. They are the gatekeepers between the enemy and the king. Rabshakeh stands outside the walls, declaring himself and his great king. The scene is set: confrontation between empires.',
+            'Three men emerge from the city: Eliakim, Shebna, and Joah. They are the gatekeepers between the enemy and the king. Rabshakeh stands outside the walls, declaring himself and his great king. The scene is set: confrontation between empires.[res:sefaria-isaiah-36]',
         },
         {
           kind: 'scripture',
@@ -53,7 +53,7 @@ export const ISAIAH_36: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-assyrian-taunt',
           html:
-            '<p>Sennacherib&apos;s field commander mocks Jerusalem&apos;s God. Watch what happens when a kingdom trusts the Lord.</p>',
+            '<p>Sennacherib&apos;s field commander mocks Jerusalem&apos;s God. Watch what happens when a kingdom trusts the Lord.[res:british-museum-sennacherib-prism]</p>',
         },
         {
           kind: 'scripture',
@@ -69,7 +69,7 @@ export const ISAIAH_36: RichChapterContent = {
           kind: 'commentary',
           id: 'isa36-split-2',
           html:
-            'Rabshakeh&apos;s mockery deepens. He claims to act at God&apos;s command. He boasts that he can defeat even one of Assyria&apos;s minor captains, let alone Judah. His logic is relentless. Yet the greatest confidence is often the prelude to the greatest fall.',
+            'Rabshakeh&apos;s mockery deepens. He claims to act at God&apos;s command. He boasts that he can defeat even one of Assyria&apos;s minor captains, let alone Judah. His logic is relentless. Yet the greatest confidence is often the prelude to the greatest fall.[res:iaa-hezekiah-tunnel-bulla]',
         },
         {
           kind: 'scripture',
@@ -160,6 +160,33 @@ export const ISAIAH_36: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 36 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-36',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 36',
+      url: 'https://www.sefaria.org/Isaiah.36',
+      description: 'Sefaria open-access source text and translations for Isaiah 36.',
+    },
+    {
+      id: 'british-museum-sennacherib-prism',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Sennacherib&apos;s Prism',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Cuneiform inscription of Sennacherib&apos;s siege of Jerusalem — Isaiah&apos;s historical backdrop.',
+    },
+    {
+      id: 'iaa-hezekiah-tunnel-bulla',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Hezekiah&apos;s Tunnel & Bulla',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological artifacts from Hezekiah&apos;s reign — tunnel and bullae bearing royal seals.',
+    },
+  ],
 
   hasHebrew: true,
 };

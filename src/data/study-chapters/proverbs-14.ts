@@ -40,7 +40,7 @@ export const PROVERBS_14: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov14-building-witnessing',
-          html: 'Five proverbs on foundation: women build or tear down their houses. The upright fear the Lord; the perverse despise Him. Fools wound themselves with pride; the wise preserve themselves with restraint. The faithful witness stands; the false witness crumbles. These are the pillars of a life: reverence, speech, and truth.',
+          html: 'Five proverbs on foundation: women build or tear down their houses. The upright fear the Lord; the perverse despise Him. Fools wound themselves with pride; the wise preserve themselves with restraint. The faithful witness stands; the false witness crumbles. These are the pillars of a life: reverence, speech, and truth.[res:british-museum-amenemope]',
         },
         {
           kind: 'scripture',
@@ -57,7 +57,7 @@ export const PROVERBS_14: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov14-discernment-path',
-          html: 'Six proverbs about discernment and the hidden path. Flee foolishness when you see it. The prudent understand their own way; fools deceive themselves. Fools mock sin; the righteous know shame. No one fully knows another&apos;s sorrows or joys. The wicked&apos;s house falls; the upright&apos;s flourishes. And the most dangerous error: the way that seems right but ends in death. Discernment is necessary.',
+          html: 'Six proverbs about discernment and the hidden path. Flee foolishness when you see it. The prudent understand their own way; fools deceive themselves. Fools mock sin; the righteous know shame. No one fully knows another&apos;s sorrows or joys. The wicked&apos;s house falls; the upright&apos;s flourishes. And the most dangerous error: the way that seems right but ends in death. Discernment is necessary.[res:sefaria-proverbs-14]',
         },
         {
           kind: 'scripture',
@@ -74,7 +74,7 @@ export const PROVERBS_14: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov14-inner-state',
-          html: 'Six proverbs on what is hidden and what is seen. Laughter can mask sorrow. The backslider is filled with his own emptiness; the good man is satisfied with his own fullness. The simple believe everything; the prudent are careful. The wise fear and depart; the fool rages and falls. Anger leads to folly. The end result: the simple inherit folly; the prudent are crowned with knowledge. You become what you repeatedly choose.',
+          html: 'Six proverbs on what is hidden and what is seen. Laughter can mask sorrow. The backslider is filled with his own emptiness; the good man is satisfied with his own fullness. The simple believe everything; the prudent are careful. The wise fear and depart; the fool rages and falls. Anger leads to folly. The end result: the simple inherit folly; the prudent are crowned with knowledge. You become what you repeatedly choose.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'commentary',
@@ -204,6 +204,33 @@ export const PROVERBS_14: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 14 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-proverbs-14',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 14',
+      url: 'https://www.sefaria.org/Proverbs.14',
+      description: 'Sefaria open-access source text and translations for Proverbs 14.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
 
   hasHebrew: true,
 };

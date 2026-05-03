@@ -38,19 +38,27 @@ export const PROVERBS_23: RichChapterContent = {
           kind: 'commentary',
           id: 'prov23-labour-rich',
           html:
-            'Do not exhaust yourself pursuing riches. Do not trust in your own cleverness to make you wealthy. The moment you fix your eyes on riches, they become the object of your desire, and that desire becomes the object of your destruction. Riches are not evil, but the striving for them, the dependence on them, the trust in them—this is dangerous.',
+            'Do not exhaust yourself pursuing riches. Do not trust in your own cleverness to make you wealthy. The moment you fix your eyes on riches, they become the object of your desire, and that desire becomes the object of your destruction. Riches are not evil, but the striving for them, the dependence on them, the trust in them—this is dangerous.[res:british-museum-amenemope]',
+        },
+        {
+          kind: 'hebrew',
+          id: 'prov23-pasha',
+          title: 'Pasha — "Transgression"',
+          script: 'פֶּשַׁע',
+          translit: '<strong>Pasha</strong> · rebellion; transgression; sin against a known standard',
+          description: 'Pasha is not mere failure but deliberate rebellion against what is known to be right—a breaking of covenant with God.',
         },
         {
           kind: 'commentary',
           id: 'prov23-wings',
           html:
-            'Riches make themselves wings. They are not stable. They depart as suddenly as they arrive. To build your life on them is to build on shifting sand. The person who pursues them obsessively will find himself alone when they depart, which they will.',
+            'Riches make themselves wings. They are not stable. They depart as suddenly as they arrive. To build your life on them is to build on shifting sand. The person who pursues them obsessively will find himself alone when they depart, which they will.[res:sefaria-proverbs-23]',
         },
         {
           kind: 'commentary',
           id: 'prov23-winebibbers',
           html:
-            'Do not join those who are slaves to appetite—wine, food, excess. The drunkard and glutton spiral toward poverty, not because of moral judgment, but because appetite, once unleashed, consumes everything. It consumes resources, time, health, dignity.',
+            'Do not join those who are slaves to appetite—wine, food, excess. The drunkard and glutton spiral toward poverty, not because of moral judgment, but because appetite, once unleashed, consumes everything. It consumes resources, time, health, dignity.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'carry',
@@ -114,4 +122,32 @@ export const PROVERBS_23: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 23 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-proverbs-23',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 23',
+      url: 'https://www.sefaria.org/Proverbs.23',
+      description: 'Sefaria open-access source text and translations for Proverbs 23.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
+
 };

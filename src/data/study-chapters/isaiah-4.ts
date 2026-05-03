@@ -40,13 +40,13 @@ export const ISAIAH_4: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah4-branch',
           html:
-            'The term "branch of the Lord" is rich with significance. In Isaiah, the Branch refers to the righteous descendant who will grow forth, one who will establish justice and righteousness. Here He is described as both beautiful (desirable, attractive) and glorious (full of divine weight and majesty). After judgment, after the stripping away of false ornaments and prideful pretense, the true beauty of the Branch becomes visible. This is not surface beauty. This is the beauty of one who embodies justice, mercy, and divine purpose.',
+            'The term "branch of the Lord" is rich with significance. In Isaiah, the Branch refers to the righteous descendant who will grow forth, one who will establish justice and righteousness. Here He is described as both beautiful (desirable, attractive) and glorious (full of divine weight and majesty). After judgment, after the stripping away of false ornaments and prideful pretense, the true beauty of the Branch becomes visible. This is not surface beauty. This is the beauty of one who embodies justice, mercy, and divine purpose.[res:sefaria-isaiah-4]',
         },
         {
           kind: 'commentary',
           id: 'isaiah4-remnant',
           html:
-            'The remnant—those who escape, those who are left—are the object of God&apos;s continued covenant care. They are called "holy, even every one that is written among the living in Jerusalem." Their names are written in God&apos;s book. They are not merely survivors of judgment; they are those who have been preserved, consecrated, marked as belonging to God. The filth of Zion will be washed away, the bloodguilt purged by the "spirit of judgment, and by the spirit of burning." Purification is necessary before the remnant can dwell in God&apos;s presence.',
+            'The remnant—those who escape, those who are left—are the object of God&apos;s continued covenant care. They are called "holy, even every one that is written among the living in Jerusalem." Their names are written in God&apos;s book. They are not merely survivors of judgment; they are those who have been preserved, consecrated, marked as belonging to God. The filth of Zion will be washed away, the bloodguilt purged by the "spirit of judgment, and by the spirit of burning." Purification is necessary before the remnant can dwell in God&apos;s presence.[res:intertextual-isaiah-4-matthew]',
         },
         {
           kind: 'hebrew',
@@ -83,6 +83,25 @@ export const ISAIAH_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 4:2 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 4',
+      url: 'https://www.sefaria.org/Isaiah.4',
+      description: 'Sefaria open-access source text and translations for Isaiah 4.',
+    },
+    {
+      id: 'intertextual-isaiah-4-matthew',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 4 ↔ Matthew Intertextual Links',
+      url: 'https://intertextual.bible/',
+      description: 'Connections between Isaiah 4 and New Testament fulfillment, especially Matt 1–12.',
+    },
+  ],
 
   hasHebrew: true,
 };

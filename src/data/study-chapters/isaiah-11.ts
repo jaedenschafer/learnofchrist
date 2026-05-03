@@ -41,13 +41,13 @@ export const ISAIAH_11: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah11-stem-jesse',
           html:
-            'David came from the house of Jesse. But the image here goes deeper than mere descent. The "stem of Jesse" is the trunk of a tree that has been cut down. From that dead stump, new growth emerges. This speaks to the renewal of David&apos;s line after judgment, after the removal of corrupt kings. It also speaks prophetically: even if the royal line appears to end, God will bring forth from it new life. And that new life will be a Branch—a shoot that grows upward, toward the light, bearing fruit.',
+            'David came from the house of Jesse. But the image here goes deeper than mere descent. The "stem of Jesse" is the trunk of a tree that has been cut down. From that dead stump, new growth emerges. This speaks to the renewal of David&apos;s line after judgment, after the removal of corrupt kings. It also speaks prophetically: even if the royal line appears to end, God will bring forth from it new life. And that new life will be a Branch—a shoot that grows upward, toward the light, bearing fruit.[res:sefaria-isaiah-11]',
         },
         {
           kind: 'commentary',
           id: 'isaiah11-spirit-sevenfold',
           html:
-            'The sevenfold description of the Spirit emphasizes completeness. Wisdom and understanding are paired—the knowledge of God&apos;s ways and the perception to apply them. Counsel and might are paired—the ability to plan and the strength to execute. Knowledge and fear of the Lord are paired—the understanding of God&apos;s character and the reverence that response demands. This is not a spirit of timidity or passivity. This is a spirit of active, wise, powerful righteousness.',
+            'The sevenfold description of the Spirit emphasizes completeness. Wisdom and understanding are paired—the knowledge of God&apos;s ways and the perception to apply them. Counsel and might are paired—the ability to plan and the strength to execute. Knowledge and fear of the Lord are paired—the understanding of God&apos;s character and the reverence that response demands. This is not a spirit of timidity or passivity. This is a spirit of active, wise, powerful righteousness.[res:intertextual-isaiah-11-matthew]',
         },
         {
           kind: 'hebrew',
@@ -62,7 +62,7 @@ export const ISAIAH_11: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah11-judge-righteousness',
           html:
-            'The Branch will judge with righteousness. But His judgment is not harsh or arbitrary. He judges the poor with righteousness—with what is truly right for them. He reproves the meek with equity—with what is fair and just. He will strike the earth with the rod of His mouth—His word, His judgment, is powerful and sufficient. He will slay the wicked with the breath of His lips—His breath, His Spirit, His presence is enough to bring judgment.',
+            'The Branch will judge with righteousness. But His judgment is not harsh or arbitrary. He judges the poor with righteousness—with what is truly right for them. He reproves the meek with equity—with what is fair and just. He will strike the earth with the rod of His mouth—His word, His judgment, is powerful and sufficient. He will slay the wicked with the breath of His lips—His breath, His Spirit, His presence is enough to bring judgment.[res:intertextual-isaiah-11-jesse]',
         },
         {
           kind: 'christ',
@@ -129,6 +129,33 @@ export const ISAIAH_11: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 11:1–2 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-11',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 11',
+      url: 'https://www.sefaria.org/Isaiah.11',
+      description: 'Sefaria open-access source text and translations for Isaiah 11.',
+    },
+    {
+      id: 'intertextual-isaiah-11-matthew',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 11 ↔ Matthew Intertextual Links',
+      url: 'https://intertextual.bible/',
+      description: 'Connections between Isaiah 11 and New Testament fulfillment, especially Matt 1–12.',
+    },
+    {
+      id: 'intertextual-isaiah-11-jesse',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 11: Branch from Jesse',
+      url: 'https://intertextual.bible/',
+      description: 'The branch imagery and messianic peaceable kingdom vision.',
+    },
+  ],
 
   hasHebrew: true,
 };

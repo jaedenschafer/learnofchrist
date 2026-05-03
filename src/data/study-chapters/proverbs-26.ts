@@ -36,19 +36,27 @@ export const PROVERBS_26: RichChapterContent = {
           kind: 'commentary',
           id: 'prov26-answer-not',
           html:
-            'To answer a fool according to his folly is to engage on his terms, to descend to his level. This is dangerous because you will find yourself matching his irrationality, his malice, his distortion. You will become a fool yourself. So the wise person knows: sometimes the only appropriate response is silence.',
+            'To answer a fool according to his folly is to engage on his terms, to descend to his level. This is dangerous because you will find yourself matching his irrationality, his malice, his distortion. You will become a fool yourself. So the wise person knows: sometimes the only appropriate response is silence.[res:british-museum-amenemope]',
+        },
+        {
+          kind: 'hebrew',
+          id: 'prov26-aphorism',
+          title: 'Mashal — "Proverb"',
+          script: 'מָשָׁל',
+          translit: '<strong>Mashal</strong> · proverb; comparison; saying',
+          description: 'A mashal is a comparison or parallel that holds up a mirror to life. It does not explain; it illuminates.',
         },
         {
           kind: 'commentary',
           id: 'prov26-answer-fool',
           html:
-            'Yet sometimes the fool must be answered—precisely according to his folly—lest he believe himself wise. To say nothing is to let his foolishness stand unopposed. This is also dangerous. The fool needs to know his folly has been seen and named. The key is discernment: which moment demands silence, and which demands response?',
+            'Yet sometimes the fool must be answered—precisely according to his folly—lest he believe himself wise. To say nothing is to let his foolishness stand unopposed. This is also dangerous. The fool needs to know his folly has been seen and named.[res:sefaria-proverbs-26] The key is discernment: which moment demands silence, and which demands response?',
         },
         {
           kind: 'commentary',
           id: 'prov26-wise-conceit',
           html:
-            'The verse adds: there is more hope for the fool than for the man wise in his own conceit. The fool knows he does not know. The man wise in his own conceit does not know that he does not know. He is sealed off from wisdom by his own delusion. This is the worst condition.',
+            'The verse adds: there is more hope for the fool than for the man wise in his own conceit. The fool knows he does not know. The man wise in his own conceit does not know that he does not know. He is sealed off from wisdom by his own delusion. This is the worst condition.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'christ',
@@ -76,4 +84,32 @@ export const PROVERBS_26: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 26 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-proverbs-26',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 26',
+      url: 'https://www.sefaria.org/Proverbs.26',
+      description: 'Sefaria open-access source text and translations for Proverbs 26.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
+
 };

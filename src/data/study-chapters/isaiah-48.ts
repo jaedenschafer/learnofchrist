@@ -43,7 +43,7 @@ export const ISAIAH_48: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah48-hidden-things',
           html:
-            'God reveals what was hidden, showing things Israel never knew. Yet even faced with proof of God&apos;s knowledge and power, the people remain obstinate. The tone shifts now to Israel&apos;s profound refusal to hear and the graciousness God shows despite their treachery.',
+            'God reveals what was hidden, showing things Israel never knew. Yet even faced with proof of God&apos;s knowledge and power, the people remain obstinate. The tone shifts now to Israel&apos;s profound refusal to hear and the graciousness God shows despite their treachery.[res:sefaria-isaiah-48]',
         },
         {
           kind: 'scripture',
@@ -60,7 +60,7 @@ export const ISAIAH_48: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah48-refining',
           html:
-            'The purpose of Israel&apos;s affliction is declared: God has refined Israel in the furnace—not for punishment alone, but for purification. And God acts ultimately for God&apos;s own sake: "My name shall not be polluted." God is bound by God&apos;s own character. God has made promises. God will keep them.',
+            'The purpose of Israel&apos;s affliction is declared: God has refined Israel in the furnace—not for punishment alone, but for purification. And God acts ultimately for God&apos;s own sake: "My name shall not be polluted." God is bound by God&apos;s own character. God has made promises. God will keep them.[res:intertextual-isaiah-servant-nt]',
         },
         {
           kind: 'scripture',
@@ -150,6 +150,25 @@ export const ISAIAH_48: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 48 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-48',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 48',
+      url: 'https://www.sefaria.org/Isaiah.48',
+      description: 'Sefaria open-access source text and translations for Isaiah 48.',
+    },
+    {
+      id: 'intertextual-isaiah-servant-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah Servant Song ↔ NT Fulfillment',
+      url: 'https://intertextual.bible/',
+      description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
+    },
+  ],
 
   hasHebrew: true,
 };

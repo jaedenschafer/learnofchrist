@@ -41,7 +41,7 @@ export const PROVERBS_8: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov8-wisdom-public-call',
-          html: 'Wisdom is not hidden. She cries out in every public place—the high places, the gates, the city entry. She calls to everyone without distinction: "Unto you, O men, I call." Her voice is for all people, the simple and the fools alike. She does not whisper from a corner but proclaims her message publicly, urgently, with her whole voice.',
+          html: 'Wisdom is not hidden. She cries out in every public place—the high places, the gates, the city entry. She calls to everyone without distinction: "Unto you, O men, I call." Her voice is for all people, the simple and the fools alike. She does not whisper from a corner but proclaims her message publicly, urgently, with her whole voice.[res:british-museum-amenemope]',
         },
         {
           kind: 'scripture',
@@ -57,7 +57,7 @@ export const PROVERBS_8: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov8-wisdom-cries-out',
-          html: 'What does wisdom claim? That she speaks truth, that her words are righteous, that her instruction is more valuable than silver or gold. To learn from her is to make an exchange: lesser treasure for greater. The world offers riches, status, pleasure. Wisdom offers something that endures—alignment with truth itself.',
+          html: 'What does wisdom claim? That she speaks truth, that her words are righteous, that her instruction is more valuable than silver or gold. To learn from her is to make an exchange: lesser treasure for greater. The world offers riches, status, pleasure. Wisdom offers something that endures—alignment with truth itself.[res:sefaria-proverbs-8]',
         },
         {
           kind: 'scripture',
@@ -74,7 +74,7 @@ export const PROVERBS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'prov-8-wisdom-throne',
           html:
-            'I was set up before the world. Wisdom dwelt with God when all was made. I love those who love me. Those who seek me early will find riches and honor. The foundation of all things loves those who love truth.',
+            'I was set up before the world. Wisdom dwelt with God when all was made. I love those who love me. Those who seek me early will find riches and honor. The foundation of all things loves those who love truth.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'scripture',
@@ -226,6 +226,33 @@ export const PROVERBS_8: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 8 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-proverbs-8',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 8',
+      url: 'https://www.sefaria.org/Proverbs.8',
+      description: 'Sefaria open-access source text and translations for Proverbs 8.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -39,7 +39,7 @@ export const ISAIAH_43: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-redeemed-called',
           html:
-            '<p>You are redeemed and called by name; you are Mine. When you pass through water and fire, I am with you.</p>',
+            '<p>You are redeemed and called by name; you are Mine. When you pass through water and fire, I am with you.[res:sefaria-isaiah-43]</p>',
         },
         {
           kind: 'scripture',
@@ -55,7 +55,7 @@ export const ISAIAH_43: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah43-creation-witness',
           html:
-            'All are created for God&apos;s glory—called by His name, formed by His hand. Now the focus shifts from comfort and protection to witness. The redeemed are not merely saved for their own sake. They exist to declare God&apos;s mighty acts to the nations.',
+            'All are created for God&apos;s glory—called by His name, formed by His hand. Now the focus shifts from comfort and protection to witness. The redeemed are not merely saved for their own sake. They exist to declare God&apos;s mighty acts to the nations.[res:intertextual-isaiah-servant-nt]',
         },
         {
           kind: 'scripture',
@@ -224,6 +224,25 @@ export const ISAIAH_43: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 43 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-43',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 43',
+      url: 'https://www.sefaria.org/Isaiah.43',
+      description: 'Sefaria open-access source text and translations for Isaiah 43.',
+    },
+    {
+      id: 'intertextual-isaiah-servant-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah Servant Song ↔ NT Fulfillment',
+      url: 'https://intertextual.bible/',
+      description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
+    },
+  ],
 
   hasHebrew: true,
 };

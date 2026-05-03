@@ -39,13 +39,21 @@ export const ISAIAH_53: RichChapterContent = {
           kind: 'commentary',
           id: 'isa53-report',
           html:
-            '"Who hath believed our report?" The prophet opens with a question that echoes through history. The message he brings—that the arm of the Lord is revealed through a suffering, despised servant—is not readily believed. It contradicts earthly standards of power and success.',
+            '"Who hath believed our report?" The prophet opens with a question that echoes through history. The message he brings—that the arm of the Lord is revealed through a suffering, despised servant—is not readily believed. It contradicts earthly standards of power and success.[res:sefaria-isaiah-53]',
+        },
+        {
+          kind: 'hebrew',
+          id: 'isaiah53-eved',
+          title: 'Eved — "Servant"',
+          script: 'עֶבֶד',
+          translit: '<strong>Eved</strong> · servant; one in service',
+          description: 'The suffering servant bears the griefs and sicknesses of all.',
         },
         {
           kind: 'commentary',
           id: 'isa53-tender',
           html:
-            'The Servant grows up like a tender plant, like a root out of dry ground. He has no form, no comeliness. We see no beauty in Him that would make us desire Him. This is a radical statement. The one who brings redemption does not come in worldly glory. He comes in weakness, in obscurity, in apparent failure. He is despised and rejected of men, a man of sorrows, acquainted with grief. People hide their faces from Him in disgust.',
+            'The Servant grows up like a tender plant, like a root out of dry ground. He has no form, no comeliness. We see no beauty in Him that would make us desire Him. This is a radical statement. The one who brings redemption does not come in worldly glory. He comes in weakness, in obscurity, in apparent failure. He is despised and rejected of men, a man of sorrows, acquainted with grief. People hide their faces from Him in disgust.[res:intertextual-isaiah-servant-nt]',
         },
         {
           kind: 'hebrew',
@@ -250,6 +258,25 @@ export const ISAIAH_53: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 53 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-53',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 53',
+      url: 'https://www.sefaria.org/Isaiah.53',
+      description: 'Sefaria open-access source text and translations for Isaiah 53.',
+    },
+    {
+      id: 'intertextual-isaiah-servant-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah Servant Song ↔ NT Fulfillment',
+      url: 'https://intertextual.bible/',
+      description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
+    },
+  ],
 
   hasHebrew: true,
 };

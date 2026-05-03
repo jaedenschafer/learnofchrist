@@ -33,7 +33,7 @@ export const PROVERBS_29: RichChapterContent = {
           kind: 'commentary',
           id: 'prov29-vision-perish',
           html:
-            'Vision is not mere daydreaming. It is a sense of purpose, of direction, of what life is ultimately for. Where people have no vision—no sense of meaning or transcendent purpose—they perish. Not quickly, perhaps, but steadily, until what made them fully human has died away. They become mere functionaries, servants of appetite and circumstance.',
+            'Vision is not mere daydreaming. It is a sense of purpose, of direction, of what life is ultimately for. Where people have no vision—no sense of meaning or transcendent purpose—they perish. Not quickly, perhaps, but steadily, until what made them fully human has died away. They become mere functionaries, servants of appetite and circumstance.[res:british-museum-amenemope]',
         },
         {
           kind: 'hebrew',
@@ -48,7 +48,7 @@ export const PROVERBS_29: RichChapterContent = {
           kind: 'commentary',
           id: 'prov29-keep-law',
           html:
-            'Those who keep the law—who live by a sense of transcendent purpose and value—find happiness. The law here represents the ordering of life according to God&apos;s intention. To keep it is to live in alignment with reality, with meaning, with what you are truly made for.',
+            'Those who keep the law—who live by a sense of transcendent purpose and value—find happiness. The law here represents the ordering of life according to God&apos;s intention. To keep it is to live in alignment with reality, with meaning, with what you are truly made for.[res:sefaria-proverbs-29]',
         },
         {
           kind: 'christ',
@@ -85,7 +85,7 @@ export const PROVERBS_29: RichChapterContent = {
           kind: 'commentary',
           id: 'prov29-fear-man',
           html:
-            'To fear man—to be constantly aware of and concerned with others&apos; judgment—is to be caught in a snare. You cannot move freely. You are always watching, always calculating, always cautious. The opinions of others become your master, and you are enslaved to their moods and judgments.',
+            'To fear man—to be constantly aware of and concerned with others&apos; judgment—is to be caught in a snare. You cannot move freely. You are always watching, always calculating, always cautious. The opinions of others become your master, and you are enslaved to their moods and judgments.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'commentary',
@@ -112,4 +112,32 @@ export const PROVERBS_29: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 29 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-proverbs-29',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 29',
+      url: 'https://www.sefaria.org/Proverbs.29',
+      description: 'Sefaria open-access source text and translations for Proverbs 29.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
+
 };

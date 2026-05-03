@@ -34,7 +34,7 @@ export const PROVERBS_18: RichChapterContent = {
           kind: 'commentary',
           id: 'prov18-tower',
           html:
-            'In ancient cities, the tower was the last place of refuge when enemies pressed near. Climb to its top, close the gate, defend from above. The name of the Lord functions as such a tower—a place of shelter and elevation. To run into the name of the Lord is not to speak a word and expect magic. It is to enter into the reality that the Lord is who His name declares Him to be: the Almighty, the Everlasting One, the God of Covenant. In that reality, the righteous are safe.',
+            'In ancient cities, the tower was the last place of refuge when enemies pressed near. Climb to its top, close the gate, defend from above. The name of the Lord functions as such a tower—a place of shelter and elevation. To run into the name of the Lord is not to speak a word and expect magic. It is to enter into the reality that the Lord is who His name declares Him to be: the Almighty, the Everlasting One, the God of Covenant. In that reality, the righteous are safe.[res:british-museum-amenemope]',
         },
         {
           kind: 'hebrew',
@@ -80,13 +80,13 @@ export const PROVERBS_18: RichChapterContent = {
           kind: 'commentary',
           id: 'prov18-friend-closer',
           html:
-            'To have friends, a man must show himself friendly. This is not mere calculation—if I am nice, people will like me. It is a recognition that friendship is reciprocal, that it requires something of us. But then the verse moves to something rarer: a friend who sticks closer than a brother. This is not a friend you cultivate. This is a friend who has become more intimate than blood kinship. Sticketh suggests adherence, clinging, a bond not easily broken.',
+            'To have friends, a man must show himself friendly. This is not mere calculation—if I am nice, people will like me. It is a recognition that friendship is reciprocal, that it requires something of us. But then the verse moves to something rarer: a friend who sticks closer than a brother. This is not a friend you cultivate. This is a friend who has become more intimate than blood kinship. Sticketh suggests adherence, clinging, a bond not easily broken.[res:sefaria-proverbs-18]',
         },
         {
           kind: 'commentary',
           id: 'prov18-closer-than-brother',
           html:
-            'Why would a friend stick closer than a brother? Not because brothers don&apos;t matter—they do, profoundly. But a brother is born to you. You cannot choose him. A friend is chosen, freely, repeatedly, day after day. Perhaps that choice is what binds more tightly than blood. Perhaps it is the deepest kind of loyalty—one freely given and freely renewed.',
+            'Why would a friend stick closer than a brother? Not because brothers don&apos;t matter—they do, profoundly. But a brother is born to you. You cannot choose him. A friend is chosen, freely, repeatedly, day after day. Perhaps that choice is what binds more tightly than blood. Perhaps it is the deepest kind of loyalty—one freely given and freely renewed.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'carry',
@@ -107,6 +107,33 @@ export const PROVERBS_18: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 18 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-proverbs-18',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 18',
+      url: 'https://www.sefaria.org/Proverbs.18',
+      description: 'Sefaria open-access source text and translations for Proverbs 18.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
 
   hasHebrew: true,
 };

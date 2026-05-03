@@ -40,7 +40,7 @@ export const ISAIAH_25: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-shroud-lifted',
           html:
-            '<p>Death is swallowed up in victory; tears are wiped away. On this mountain, the Lord prepares a feast for all peoples.</p>',
+            '<p>Death is swallowed up in victory; tears are wiped away. On this mountain, the Lord prepares a feast for all peoples.[res:sefaria-isaiah-25]</p>',
         },
         {
           kind: 'scripture',
@@ -150,6 +150,17 @@ export const ISAIAH_25: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 25 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-25',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 25',
+      url: 'https://www.sefaria.org/Isaiah.25',
+      description: 'Sefaria open-access source text and translations for Isaiah 25.',
+    },
+  ],
 
   hasHebrew: true,
 };

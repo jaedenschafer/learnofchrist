@@ -38,7 +38,7 @@ export const ISAIAH_22: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-valley-shout',
           html:
-            '<p>In the valley of vision, Jerusalem parties while enemies circle. Joy before ruin ends in wailing.</p>',
+            '<p>In the valley of vision, Jerusalem parties while enemies circle. Joy before ruin ends in wailing.[res:sefaria-isaiah-22]</p>',
         },
         {
           kind: 'scripture',
@@ -54,7 +54,7 @@ export const ISAIAH_22: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah22-siege-blindness',
           html:
-            'The panic is palpable: the ruler fled, the city exposed, enemies approaching. Yet the blindness is spiritual. They see the siege but not the Maker. They plan defense but forget Deliverer. Isaiah pivots from describing the siege to describing the people&apos;s failure to look to God.',
+            'The panic is palpable: the ruler fled, the city exposed, enemies approaching. Yet the blindness is spiritual. They see the siege but not the Maker. They plan defense but forget Deliverer. Isaiah pivots from describing the siege to describing the people&apos;s failure to look to God.[res:british-museum-babylon-tyre]',
         },
         {
           kind: 'scripture',
@@ -175,6 +175,25 @@ export const ISAIAH_22: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 22 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-22',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 22',
+      url: 'https://www.sefaria.org/Isaiah.22',
+      description: 'Sefaria open-access source text and translations for Isaiah 22.',
+    },
+    {
+      id: 'british-museum-babylon-tyre',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Babylon & Tyre: Imperial Power',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Archaeological and textual evidence of the nations Isaiah prophesies against.',
+    },
+  ],
 
   hasHebrew: true,
 };

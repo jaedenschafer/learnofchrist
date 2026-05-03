@@ -40,7 +40,15 @@ export const ECCLESIASTES_11: RichChapterContent = {
           kind: 'commentary',
           id: 'ecc11-mid-wisdom-fear',
           html:
-            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.[res:british-museum-mesopotamia]',
+        },
+        {
+          kind: 'greek',
+          id: 'ecc11-tyche',
+          title: 'Tyche — "Chance" or "Fortune"',
+          script: 'τύχη',
+          translit: '<strong>Tyche</strong> · chance; fortune; fate',
+          description: 'The Preacher acknowledges that much of life is beyond calculation—chance and fortune operate under the sun.',
         },
         {
           kind: 'scripture',
@@ -56,13 +64,13 @@ export const ECCLESIASTES_11: RichChapterContent = {
           kind: 'commentary',
           id: 'ecc11-cast-bread',
           html:
-            '"Cast thy bread upon the waters: for thou shalt find it after many days." The image is of food cast into a river, apparently lost forever. Yet bread cast upon waters will eventually be found, carried downstream, reaching distant shores. The Preacher counsels generosity. Give. Invest. Plant. Do not hoard because you fear loss. The returns are not immediate, not visible, not guaranteed—but they come.',
+            '"Cast thy bread upon the waters: for thou shalt find it after many days." The image is of food cast into a river, apparently lost forever. Yet bread cast upon waters will eventually be found, carried downstream, reaching distant shores. The Preacher counsels generosity. Give. Invest. Plant. Do not hoard because you fear loss. The returns are not immediate, not visible, not guaranteed—but they come.[res:sefaria-ecclesiastes-11]',
         },
         {
           kind: 'commentary',
           id: 'ecc11-seven-eight',
           html:
-            '"Give a portion to seven, and also to eight; for thou knowest not what evil shall be upon the earth." Spread your giving widely. You do not know what calamity will strike. The person you help today might be your savior in tomorrow&apos;s crisis. Or perhaps not. But the principle is this: generosity is wisdom in an uncertain world. The person who gives to many is protected by the networks of goodness he has created.',
+            '"Give a portion to seven, and also to eight; for thou knowest not what evil shall be upon the earth." Spread your giving widely. You do not know what calamity will strike. The person you help today might be your savior in tomorrow&apos;s crisis. Or perhaps not. But the principle is this: generosity is wisdom in an uncertain world. The person who gives to many is protected by the networks of goodness he has created.[res:theoi-stoic-epicurean]',
         },
         {
           kind: 'commentary',
@@ -135,5 +143,32 @@ export const ECCLESIASTES_11: RichChapterContent = {
     ref: 'Ecclesiastes 11 · Study Guide',
   },
 
-  hasHebrew: false,
+    resources: [
+    {
+      id: 'sefaria-ecclesiastes-11',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ecclesiastes 11',
+      url: 'https://www.sefaria.org/Ecclesiastes.11',
+      description: 'Sefaria open-access source text and translations for Ecclesiastes 11.',
+    },
+    {
+      id: 'british-museum-mesopotamia',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'ANE Wisdom Literature (Mesopotamia)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Mesopotamian wisdom texts paralleling Ecclesiastes&apos; quest for meaning under existential circularity.',
+    },
+    {
+      id: 'theoi-stoic-epicurean',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Stoic and Epicurean Philosophy',
+      url: 'https://www.theoi.com/',
+      description: 'Hellenistic philosophical parallels to Ecclesiastes on pleasure, virtue, and the good life.',
+    },
+  ],
+
+  hasHebrew: true,
 };

@@ -43,7 +43,15 @@ export const ECCLESIASTES_6: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ecc6-riches-enjoy',
-          html: 'The Preacher observes a peculiar evil: abundance without the power to enjoy it. Riches, honor, and long life mean nothing if the soul is not satisfied.',
+          html: 'The Preacher observes a peculiar evil: abundance without the power to enjoy it. Riches, honor, and long life mean nothing if the soul is not satisfied.[res:british-museum-mesopotamia]',
+        },
+        {
+          kind: 'greek',
+          id: 'ecc6-hyle',
+          title: 'Hyle — "Matter"',
+          script: 'ὕλη',
+          translit: '<strong>Hyle</strong> · matter; substance; material existence',
+          description: 'Greek philosophy grapples with matter and spirit. Ecclesiastes grounds wisdom in the reality of material existence.',
         },
         {
           kind: 'scripture',
@@ -61,13 +69,13 @@ export const ECCLESIASTES_6: RichChapterContent = {
           kind: 'commentary',
           id: 'ecc6-common-evil',
           html:
-            'The Preacher names the evil precisely: a man has everything he could desire, but God does not grant him the power to enjoy it. This is not just poverty. This is a peculiar curse—possessions without pleasure, abundance without contentment. The one who might inherit his wealth is a stranger. All his labor results in the enrichment of someone else. And the Preacher calls this "an evil disease."',
+            'The Preacher names the evil precisely: a man has everything he could desire, but God does not grant him the power to enjoy it. This is not just poverty. This is a peculiar curse—possessions without pleasure, abundance without contentment. The one who might inherit his wealth is a stranger. All his labor results in the enrichment of someone else. And the Preacher calls this "an evil disease.[res:sefaria-ecclesiastes-6]"',
         },
         {
           kind: 'commentary',
           id: 'ecc6-hundred-children',
           html:
-            'The Preacher offers a stark comparison. A man with a hundred children, living for many years—this sounds like a blessing. And yet, if his soul is not filled with good, if he never experiences true satisfaction, then an untimely birth—one who never lived—is better off than he. A stillborn child comes into the world in vanity and departs in darkness, and this is better than a long life of dissatisfaction.',
+            'The Preacher offers a stark comparison. A man with a hundred children, living for many years—this sounds like a blessing. And yet, if his soul is not filled with good, if he never experiences true satisfaction, then an untimely birth—one who never lived—is better off than he. A stillborn child comes into the world in vanity and departs in darkness, and this is better than a long life of dissatisfaction.[res:theoi-stoic-epicurean]',
         },
         {
           kind: 'commentary',
@@ -108,5 +116,32 @@ export const ECCLESIASTES_6: RichChapterContent = {
     ref: 'Ecclesiastes 6 · Study Guide',
   },
 
-  hasHebrew: false,
+    resources: [
+    {
+      id: 'sefaria-ecclesiastes-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ecclesiastes 6',
+      url: 'https://www.sefaria.org/Ecclesiastes.6',
+      description: 'Sefaria open-access source text and translations for Ecclesiastes 6.',
+    },
+    {
+      id: 'british-museum-mesopotamia',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'ANE Wisdom Literature (Mesopotamia)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Mesopotamian wisdom texts paralleling Ecclesiastes&apos; quest for meaning under existential circularity.',
+    },
+    {
+      id: 'theoi-stoic-epicurean',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Stoic and Epicurean Philosophy',
+      url: 'https://www.theoi.com/',
+      description: 'Hellenistic philosophical parallels to Ecclesiastes on pleasure, virtue, and the good life.',
+    },
+  ],
+
+  hasHebrew: true,
 };

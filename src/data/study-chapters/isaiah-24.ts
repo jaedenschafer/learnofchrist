@@ -39,7 +39,7 @@ export const ISAIAH_24: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-earth-judged',
           html:
-            '<p>The earth is laid waste; inhabitants scattered. Yet a few will sing from the eastern sea when God gathers the faithful.</p>',
+            '<p>The earth is laid waste; inhabitants scattered. Yet a few will sing from the eastern sea when God gathers the faithful.[res:sefaria-isaiah-24]</p>',
         },
         {
           kind: 'scripture',
@@ -180,6 +180,17 @@ export const ISAIAH_24: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 24 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-24',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 24',
+      url: 'https://www.sefaria.org/Isaiah.24',
+      description: 'Sefaria open-access source text and translations for Isaiah 24.',
+    },
+  ],
 
   hasHebrew: true,
 };

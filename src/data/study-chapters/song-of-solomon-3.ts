@@ -41,7 +41,15 @@ export const SONG_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'song3-intimate',
-          html: 'The Bride has found her Beloved and brought him into her mother&apos;s house, into the most intimate chamber. She charges the daughters of Jerusalem not to disturb this union. This is the height of the private encounter—seeking ended, finding achieved, holding fast, and the beloved brought into the sanctum of the home.',
+          html: 'The Bride has found her Beloved and brought him into her mother&apos;s house, into the most intimate chamber. She charges the daughters of Jerusalem not to disturb this union. This is the height of the private encounter—seeking ended, finding achieved, holding fast, and the beloved brought into the sanctum of the home.[res:penn-museum-egyptian-love-poetry]',
+        },
+        {
+          kind: 'hebrew',
+          id: 'song3-mishkav',
+          title: 'Mishkav — "Bed"',
+          script: 'מִשְׁכַּב',
+          translit: '<strong>Mishkav</strong> · bed; couch; place of intimacy',
+          description: 'The bed is the place of intimate encounter between the lovers.',
         },
         {
           kind: 'scripture',
@@ -59,13 +67,13 @@ export const SONG_3: RichChapterContent = {
           kind: 'commentary',
           id: 'song3-sought-not-found',
           html:
-            '"By night on my bed I sought him whom my soul loveth: I sought him, but I found him not." The Bride is restless at night. She seeks her Beloved, wants him present. He is absent, and his absence troubles her. She does not remain passive in bed. She rises and goes out into the city, through the streets and squares, earnestly seeking. This is the activity of love—it does not wait to be found, but pursues.',
+            '"By night on my bed I sought him whom my soul loveth: I sought him, but I found him not." The Bride is restless at night. She seeks her Beloved, wants him present. He is absent, and his absence troubles her. She does not remain passive in bed. She rises and goes out into the city, through the streets and squares, earnestly seeking. This is the activity of love—it does not wait to be found, but pursues.[res:sefaria-song-3]',
         },
         {
           kind: 'commentary',
           id: 'song3-procession-vision',
           html:
-            'The scene shifts abruptly. A vision of the Bridegroom appears—not in the intimate chamber, but in a grand procession. He comes out of the wilderness like pillars of smoke, perfumed with myrrh and frankincense. This is the shift from private to public, from intimate to ceremonial, from the seeking in the night to the proclaimed union in broad daylight.',
+            'The scene shifts abruptly. A vision of the Bridegroom appears—not in the intimate chamber, but in a grand procession. He comes out of the wilderness like pillars of smoke, perfumed with myrrh and frankincense. This is the shift from private to public, from intimate to ceremonial, from the seeking in the night to the proclaimed union in broad daylight.[res:met-museum-egyptian-poetry]',
         },
         {
           kind: 'commentary',
@@ -105,6 +113,33 @@ export const SONG_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Song of Solomon 3 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-song-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Song of Solomon 3',
+      url: 'https://www.sefaria.org/Song_of_Songs.3',
+      description: 'Sefaria open-access source text and translations for Song of Solomon 3.',
+    },
+    {
+      id: 'penn-museum-egyptian-love-poetry',
+      kind: 'museum',
+      source: 'Penn Museum',
+      label: 'Egyptian Love Poetry Parallels',
+      url: 'https://www.penn.museum/',
+      description: 'Egyptian love songs showing literary and thematic parallels to biblical Song tradition.',
+    },
+    {
+      id: 'met-museum-egyptian-poetry',
+      kind: 'museum',
+      source: 'Metropolitan Museum',
+      label: 'Ancient Egypt: Love and Poetry',
+      url: 'https://www.metmuseum.org/',
+      description: 'Museum artifacts and literary texts illuminating Song of Solomon&apos;s erotic love poetry within ANE context.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -38,7 +38,7 @@ export const ISAIAH_18: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-cush-praise',
           html:
-            '<p>Ethiopia sends envoys to a nation with a sign and a signal. Even distant lands will acknowledge God&apos;s hand.</p>',
+            '<p>Ethiopia sends envoys to a nation with a sign and a signal. Even distant lands will acknowledge God&apos;s hand.[res:sefaria-isaiah-18]</p>',
         },
         {
           kind: 'scripture',
@@ -54,7 +54,7 @@ export const ISAIAH_18: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah18-ambassadors',
           html:
-            'The oracle opens with a description of Ethiopia sending ambassadors—perhaps a reference to diplomatic attempts to form alliances. But the passage is not primarily about political maneuvering. It is about the Lord drawing nations to Himself. The description "scattered and peeled" suggests a nation humbled, stripped of power. Yet it is to this nation that the invitation comes.',
+            'The oracle opens with a description of Ethiopia sending ambassadors—perhaps a reference to diplomatic attempts to form alliances. But the passage is not primarily about political maneuvering. It is about the Lord drawing nations to Himself. The description "scattered and peeled" suggests a nation humbled, stripped of power. Yet it is to this nation that the invitation comes.[res:british-museum-babylon-tyre]',
         },
         {
           kind: 'commentary',
@@ -109,6 +109,25 @@ export const ISAIAH_18: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 18 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-18',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 18',
+      url: 'https://www.sefaria.org/Isaiah.18',
+      description: 'Sefaria open-access source text and translations for Isaiah 18.',
+    },
+    {
+      id: 'british-museum-babylon-tyre',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Babylon & Tyre: Imperial Power',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Archaeological and textual evidence of the nations Isaiah prophesies against.',
+    },
+  ],
 
   hasHebrew: true,
 };

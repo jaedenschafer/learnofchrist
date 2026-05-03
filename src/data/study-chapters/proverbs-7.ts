@@ -40,7 +40,15 @@ export const PROVERBS_7: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov7-frame',
-          html: 'The father&apos;s opening plea is urgent: keep my words as the apple of your eye, close your heart where they are written, call wisdom your sister, call understanding your family. This framing—before the story begins—is the lifeline. Grab it.',
+          html: 'The father&apos;s opening plea is urgent: keep my words as the apple of your eye, close your heart where they are written, call wisdom your sister, call understanding your family. This framing—before the story begins—is the lifeline. Grab it.[res:british-museum-amenemope]',
+        },
+        {
+          kind: 'hebrew',
+          id: 'prov7-woman-strange',
+          title: 'Ishshah Nokriyyah — "Strange Woman"',
+          script: 'אִשָּׁה נׇכְרִיָּה',
+          translit: '<strong>Ishshah nokriyyah</strong> · foreign or strange woman; adulteress',
+          description: 'The "strange woman" (also translated "foreign woman") represents temptation from outside the covenant community. She is not merely seductive; she is a threat to the covenant itself.',
         },
         {
           kind: 'scripture',
@@ -55,7 +63,7 @@ export const PROVERBS_7: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov7-watching',
-          html: 'The father is watching from his window. He sees a young man walking toward her house at dusk. The darkness itself is complicit. He lacks understanding—he doesn&apos;t see the danger even as he walks toward it.',
+          html: 'The father is watching from his window. He sees a young man walking toward her house at dusk. The darkness itself is complicit. He lacks understanding—he doesn&apos;t see the danger even as he walks toward it.[res:sefaria-proverbs-7]',
         },
         {
           kind: 'scripture',
@@ -72,7 +80,7 @@ export const PROVERBS_7: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov7-approach',
-          html: 'She meets him. She is dressed for it, her heart is calculated. She is loud, restless, never at home—always hunting. She catches him, kisses him. Her words are a lie wrapped in piety: "I have vows to keep, and you are the answer to my prayers." She acts as though she&apos;s been seeking him, that this is serendipity. It is calculation masquerading as fate.',
+          html: 'She meets him. She is dressed for it, her heart is calculated. She is loud, restless, never at home—always hunting. She catches him, kisses him. Her words are a lie wrapped in piety: "I have vows to keep, and you are the answer to my prayers." She acts as though she&apos;s been seeking him, that this is serendipity. It is calculation masquerading as fate.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'scripture',
@@ -164,6 +172,33 @@ export const PROVERBS_7: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 7 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-proverbs-7',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 7',
+      url: 'https://www.sefaria.org/Proverbs.7',
+      description: 'Sefaria open-access source text and translations for Proverbs 7.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
 
   hasHebrew: false,
 };

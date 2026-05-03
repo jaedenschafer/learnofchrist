@@ -41,7 +41,15 @@ export const ECCLESIASTES_8: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ecc8-wisdom-authority',
-          html: 'The wise man is distinguished by understanding, by the ability to read the situation and know what the moment requires. His wisdom shows in his countenance. The Preacher counsels obedience to authority because you have sworn an oath before God. The king has power; his word cannot be questioned. But the wise man understands the limits of kingship. He respects the authority of the moment while remembering higher laws. He discerns both time and judgment—when to obey and when to stand firm.',
+          html: 'The wise man is distinguished by understanding, by the ability to read the situation and know what the moment requires. His wisdom shows in his countenance. The Preacher counsels obedience to authority because you have sworn an oath before God. The king has power; his word cannot be questioned. But the wise man understands the limits of kingship. He respects the authority of the moment while remembering higher laws. He discerns both time and judgment—when to obey and when to stand firm.[res:british-museum-mesopotamia]',
+        },
+        {
+          kind: 'greek',
+          id: 'ecc8-archon',
+          title: 'Archon — "Ruler"',
+          script: 'ἄρχων',
+          translit: '<strong>Archon</strong> · ruler; one who holds power',
+          description: 'The ruler holds authority, yet even the powerful are subject to time and mortality, the great leveler.',
         },
         {
           kind: 'scripture',
@@ -59,13 +67,13 @@ export const ECCLESIASTES_8: RichChapterContent = {
           kind: 'commentary',
           id: 'ecc8-wise-man',
           html:
-            '"Who is as the wise man? and who knoweth the interpretation of a thing?" The Preacher begins by asking: who understands? Who has wisdom? And he answers implicitly: the wise man is distinguished by understanding, by the ability to read the situation, to know what the moment requires. And this wisdom shows in his face. His countenance is changed by his wisdom. But this chapter will reveal that even wisdom has limits. Even the wise man cannot master death.',
+            '"Who is as the wise man? and who knoweth the interpretation of a thing?" The Preacher begins by asking: who understands? Who has wisdom? And he answers implicitly: the wise man is distinguished by understanding, by the ability to read the situation, to know what the moment requires. And this wisdom shows in his face. His countenance is changed by his wisdom. But this chapter will reveal that even wisdom has limits. Even the wise man cannot master death.[res:sefaria-ecclesiastes-8]',
         },
         {
           kind: 'commentary',
           id: 'ecc8-king-commandment',
           html:
-            'The Preacher counsels obedience to the king, because you have "sworn an oath of God." This is important—the submission is not merely to the king but is grounded in the oath to God. You have bound yourself before God to keep the commandments of the land. This principle of legal order, of keeping your word, is sacred. But the Preacher is not saying kings are always just or their commands always good. He is teaching that social order requires submission, and that breaking your word is a violation before God.',
+            'The Preacher counsels obedience to the king, because you have "sworn an oath of God." This is important—the submission is not merely to the king but is grounded in the oath to God. You have bound yourself before God to keep the commandments of the land. This principle of legal order, of keeping your word, is sacred. But the Preacher is not saying kings are always just or their commands always good. He is teaching that social order requires submission, and that breaking your word is a violation before God.[res:theoi-stoic-epicurean]',
         },
         {
           kind: 'commentary',
@@ -136,5 +144,32 @@ export const ECCLESIASTES_8: RichChapterContent = {
     ref: 'Ecclesiastes 8 · Study Guide',
   },
 
-  hasHebrew: false,
+    resources: [
+    {
+      id: 'sefaria-ecclesiastes-8',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ecclesiastes 8',
+      url: 'https://www.sefaria.org/Ecclesiastes.8',
+      description: 'Sefaria open-access source text and translations for Ecclesiastes 8.',
+    },
+    {
+      id: 'british-museum-mesopotamia',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'ANE Wisdom Literature (Mesopotamia)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Mesopotamian wisdom texts paralleling Ecclesiastes&apos; quest for meaning under existential circularity.',
+    },
+    {
+      id: 'theoi-stoic-epicurean',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Stoic and Epicurean Philosophy',
+      url: 'https://www.theoi.com/',
+      description: 'Hellenistic philosophical parallels to Ecclesiastes on pleasure, virtue, and the good life.',
+    },
+  ],
+
+  hasHebrew: true,
 };

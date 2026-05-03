@@ -57,13 +57,13 @@ export const ISAIAH_21: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah21-whirlwind',
           html:
-            'Babylon is called "the desert of the sea"—a mysterious, apt description of a city in the desert built on conquered peoples and stolen wealth. The oracle comes like a whirlwind from the south, swift and terrible. It is "a grievous vision," declaring treachery and spoiling. The prophet is asked to set up a watchman to observe the vision unfolding.',
+            'Babylon is called "the desert of the sea"—a mysterious, apt description of a city in the desert built on conquered peoples and stolen wealth. The oracle comes like a whirlwind from the south, swift and terrible. It is "a grievous vision," declaring treachery and spoiling. The prophet is asked to set up a watchman to observe the vision unfolding.[res:sefaria-isaiah-21]',
         },
         {
           kind: 'commentary',
           id: 'isaiah21-distress',
           html:
-            '"Therefore are my loins filled with pain: pangs have taken hold upon me, as the pangs of a woman that travaileth." The prophet is not detached from what he sees. He experiences it in his body—the horror, the anguish of the vision. His heart panted; fear affrighted him. "The night of my pleasure hath he turned into fear unto me." Even the comfort of night becomes a place of distress. The vision unmans him.',
+            '"Therefore are my loins filled with pain: pangs have taken hold upon me, as the pangs of a woman that travaileth." The prophet is not detached from what he sees. He experiences it in his body—the horror, the anguish of the vision. His heart panted; fear affrighted him. "The night of my pleasure hath he turned into fear unto me." Even the comfort of night becomes a place of distress. The vision unmans him.[res:british-museum-babylon-tyre]',
         },
         {
           kind: 'hebrew',
@@ -106,6 +106,25 @@ export const ISAIAH_21: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 21 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-21',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 21',
+      url: 'https://www.sefaria.org/Isaiah.21',
+      description: 'Sefaria open-access source text and translations for Isaiah 21.',
+    },
+    {
+      id: 'british-museum-babylon-tyre',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Babylon & Tyre: Imperial Power',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Archaeological and textual evidence of the nations Isaiah prophesies against.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -40,13 +40,21 @@ export const ISAIAH_51: RichChapterContent = {
           kind: 'commentary',
           id: 'isa51-rock',
           html:
-            'Isaiah calls the people to look at the rock from which they were hewn, the hole of the pit from which they were dug. Abraham was called alone, a wanderer, and from him God raised up a nation. Sarah, barren, became a mother of multitudes. From insignificant origins, God brought forth a great people. Now, in exile, that same people can remember that God\'s power is not limited by their current straits.',
+            'Isaiah calls the people to look at the rock from which they were hewn, the hole of the pit from which they were dug. Abraham was called alone, a wanderer, and from him God raised up a nation. Sarah, barren, became a mother of multitudes. From insignificant origins, God brought forth a great people.[res:sefaria-isaiah-51] Now, in exile, that same people can remember that God\'s power is not limited by their current straits.',
+        },
+        {
+          kind: 'hebrew',
+          id: 'isaiah51-tzion',
+          title: 'Tzion — "Zion"',
+          script: 'צִיּוֹן',
+          translit: '<strong>Tzion</strong> · Zion; the beloved city',
+          description: 'Zion is the beloved city, the place where God dwells with His people.',
         },
         {
           kind: 'commentary',
           id: 'isa51-comfort',
           html:
-            'God will comfort Zion. He will restore her waste places. The wilderness will become Eden. This is not merely external restoration. This is a reversal of the Fall itself. The place that has become barren will bloom again. The judgment that has fallen will be transformed into a light for the peoples. God\'s righteousness will be revealed.',
+            'God will comfort Zion. He will restore her waste places. The wilderness will become Eden. This is not merely external restoration. This is a reversal of the Fall itself. The place that has become barren will bloom again. The judgment that has fallen will be transformed into a light for the peoples.[res:intertextual-isaiah-servant-nt] God\'s righteousness will be revealed.',
         },
         {
           kind: 'hebrew',
@@ -119,6 +127,25 @@ export const ISAIAH_51: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 51 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-51',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 51',
+      url: 'https://www.sefaria.org/Isaiah.51',
+      description: 'Sefaria open-access source text and translations for Isaiah 51.',
+    },
+    {
+      id: 'intertextual-isaiah-servant-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah Servant Song ↔ NT Fulfillment',
+      url: 'https://intertextual.bible/',
+      description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
+    },
+  ],
 
   hasHebrew: true,
 };

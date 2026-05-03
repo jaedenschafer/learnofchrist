@@ -39,7 +39,15 @@ export const ISAIAH_59: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-arm-saves',
           html:
-            '<p>The Lord&apos;s arm is not too short; His ear is open. But sin separates; let the wicked abandon his way.</p>',
+            \'<p>The Lord&apos;s arm is not too short; His ear is open. But sin separates; let the wicked abandon his way.[res:sefaria-isaiah-59]</p>\',
+        },
+        {
+          kind: 'hebrew',
+          id: 'isaiah59-avon',
+          title: 'Avon — "Iniquity"',
+          script: 'עָווֹן',
+          translit: '<strong>Avon</strong> · iniquity; guilt; moral wrong',
+          description: 'The people\'s iniquities separate them from God.',
         },
         {
           kind: 'scripture',
@@ -69,13 +77,12 @@ export const ISAIAH_59: RichChapterContent = {
           title: 'Badal — "Separate" (Separated)',
           script: 'בָּדַל',
           translit: '<strong>Badal</strong> · to separate; to divide; to distinguish',
-          description:
-            'The Hebrew verb badal indicates a sharp separation, a cutting off. Sin does not merely distance us from God; it actively separates, divides, cuts.',
+          description: 'The Hebrew verb badal indicates a sharp separation, a cutting off. Sin does not merely distance us from God; it actively separates, divides, cuts.',
         },
         {
           kind: 'carry',
           html:
-            'Isaiah 59 is a searing portrait of societies and individuals who have abandoned justice. What makes it powerful is its honesty. The people do not deny their sin. They confess it. This is the beginning of redemption: the admission that we are wrong, that we have separated ourselves from God, that we need rescue.',
+            \'Isaiah 59 is a searing portrait of societies and individuals who have abandoned justice. What makes it powerful is its honesty. The people do not deny their sin. They confess it. This is the beginning of redemption: the admission that we are wrong, that we have separated ourselves from God, that we need rescue.\',
         },
       ],
     },
@@ -98,7 +105,7 @@ export const ISAIAH_59: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-arm-saves-2',
           html:
-            '<p>The Lord puts on righteousness as armor; salvation as a helmet. He will repay wrath to foes, blessing to His own.</p>',
+            \'<p>The Lord puts on righteousness as armor; salvation as a helmet. He will repay wrath to foes, blessing to His own.</p>\',
         },
         {
           kind: 'scripture',
@@ -114,13 +121,13 @@ export const ISAIAH_59: RichChapterContent = {
           kind: 'commentary',
           id: 'isa59-darkness',
           html:
-            'The people wait for light but find darkness. They wait for brightness but walk in night. They grope as the blind, stumble at noonday, are as dead men in desolate places. This is the nadir of their condition. All hope seems lost.',
+            \'The people wait for light but find darkness. They wait for brightness but walk in night. They grope as the blind, stumble at noonday, are as dead men in desolate places. This is the nadir of their condition. All hope seems lost.\',
         },
         {
           kind: 'commentary',
           id: 'isa59-redeemer',
           html:
-            'Then comes the turning point. God sees that there is no man, no intercessor. His own arm brings salvation. He puts on righteousness as a breastplate, salvation as a helmet. He comes in judgment against the enemies of His people. The Spirit of the Lord lifts up a standard. And the Redeemer comes to Zion, to those who turn from transgression.',
+            \'Then comes the turning point. God sees that there is no man, no intercessor. His own arm brings salvation. He puts on righteousness as a breastplate, salvation as a helmet. He comes in judgment against the enemies of His people. The Spirit of the Lord lifts up a standard. And the Redeemer comes to Zion, to those who turn from transgression.\',
         },
         {
           kind: 'commentary',
@@ -133,12 +140,12 @@ export const ISAIAH_59: RichChapterContent = {
           id: 'isa59-christ-redeemer',
           title: 'Christ Connection — The Redeemer',
           html:
-            'Christ is the Redeemer who comes to Zion. He put on righteousness and wore the helmet of salvation. He defeated the enemy through His death and resurrection. He came not to those who are righteous, but to those who turn from transgression—the sick, the broken, the repentant. And through His Spirit, He dwells in His people, and His words are spoken through them, forever.',
+            \'Christ is the Redeemer who comes to Zion. He put on righteousness and wore the helmet of salvation. He defeated the enemy through His death and resurrection. He came not to those who are righteous, but to those who turn from transgression—the sick, the broken, the repentant. And through His Spirit, He dwells in His people, and His words are spoken through them, forever.\',
         },
         {
           kind: 'carry',
           html:
-            'The promise of Isaiah 59 is that redemption comes not when we have cleaned ourselves up, but when we turn from transgression. The Redeemer comes to us in our darkness, in our separation, and brings us back to God. The covenant He makes is not temporary or conditional on our performance. It is everlasting. His Spirit and His words will dwell in His people forever.',
+            \'The promise of Isaiah 59 is that redemption comes not when we have cleaned ourselves up, but when we turn from transgression. The Redeemer comes to us in our darkness, in our separation, and brings us back to God. The covenant He makes is not temporary or conditional on our performance. It is everlasting. His Spirit and His words will dwell in His people forever.\',
         },
         {
           kind: 'reflection',
@@ -154,4 +161,17 @@ export const ISAIAH_59: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 59 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-isaiah-59',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 59',
+      url: 'https://www.sefaria.org/Isaiah.59',
+      description: 'Sefaria open-access source text and translations for Isaiah 59.',
+    },
+  ],
+
+  hasHebrew: true,
 };

@@ -38,7 +38,7 @@ export const PROVERBS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'prov13-mid-mouth-soul',
           html:
-            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.[res:british-museum-amenemope]',
         },
         {
           kind: 'scripture',
@@ -53,7 +53,7 @@ export const PROVERBS_13: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov13-instruction-obedience',
-          html: 'A wise son receives instruction; a scorner rejects rebuke. Righteousness keeps the upright; wickedness overthrows the sinner. The heart desires wisdom, but only the diligent are satisfied.',
+          html: 'A wise son receives instruction; a scorner rejects rebuke. Righteousness keeps the upright; wickedness overthrows the sinner. The heart desires wisdom, but only the diligent are satisfied.[res:sefaria-proverbs-13]',
         },
         {
           kind: 'scripture',
@@ -70,7 +70,7 @@ export const PROVERBS_13: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov13-wise-companionship',
-          html: 'Verse 20, which follows this section, makes a claim central to wisdom: "He that walketh with wise men shall be wise: but a companion of fools shall be destroyed." You become like those you spend time with. If you surround yourself with wisdom, you absorb it. If you surround yourself with foolishness, you are contaminated by it. Choose your companions with care.',
+          html: 'Verse 20, which follows this section, makes a claim central to wisdom: "He that walketh with wise men shall be wise: but a companion of fools shall be destroyed." You become like those you spend time with. If you surround yourself with wisdom, you absorb it. If you surround yourself with foolishness, you are contaminated by it. Choose your companions with care.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'hebrew',
@@ -181,6 +181,33 @@ export const PROVERBS_13: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 13 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-proverbs-13',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 13',
+      url: 'https://www.sefaria.org/Proverbs.13',
+      description: 'Sefaria open-access source text and translations for Proverbs 13.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
 
   hasHebrew: true,
 };

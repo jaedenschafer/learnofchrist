@@ -39,13 +39,13 @@ export const ISAIAH_7: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah7-fear',
           html:
-            'Ahaz is undone by fear. The military threat is real—Israel and Syria have formed an alliance against Judah. But Isaiah&apos;s counsel is not about military strength or diplomatic maneuvering. It is about faith: "Fear not, neither be fainthearted." The "two tails of these smoking firebrands" is a vivid insult, dismissing the angry kings as mere embers, unable to sustain their threat. The picture is clear: from God&apos;s perspective, these enemies are no more dangerous than a candle about to go out.',
+            'Ahaz is undone by fear. The military threat is real—Israel and Syria have formed an alliance against Judah. But Isaiah&apos;s counsel is not about military strength or diplomatic maneuvering. It is about faith: "Fear not, neither be fainthearted." The "two tails of these smoking firebrands" is a vivid insult, dismissing the angry kings as mere embers, unable to sustain their threat. The picture is clear: from God&apos;s perspective, these enemies are no more dangerous than a candle about to go out.[res:sefaria-isaiah-7]',
         },
         {
           kind: 'commentary',
           id: 'isaiah7-believe-establish',
           html:
-            '"If ye will not believe, surely ye shall not be established." This is the hinge of the passage. Ahaz&apos;s stability does not depend on military strength or political acumen. It depends entirely on belief—on faith in God&apos;s word. To refuse to believe is to remove the only foundation that can genuinely establish a nation. All other foundations will crumble.',
+            '"If ye will not believe, surely ye shall not be established." This is the hinge of the passage. Ahaz&apos;s stability does not depend on military strength or political acumen. It depends entirely on belief—on faith in God&apos;s word. To refuse to believe is to remove the only foundation that can genuinely establish a nation. All other foundations will crumble.[res:intertextual-isaiah-7-matthew]',
         },
         {
           kind: 'hebrew',
@@ -86,7 +86,7 @@ export const ISAIAH_7: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-sign-given',
           html:
-            '<p>Ahaz refuses the sign; the sign comes anyway—a virgin will bear a son. God&apos;s promise outlasts our refusal.</p>',
+            '<p>Ahaz refuses the sign; the sign comes anyway—a virgin will bear a son. God&apos;s promise outlasts our refusal.[res:bibleodyssey-immanuel-sign]</p>',
         },
         {
           kind: 'scripture',
@@ -145,6 +145,33 @@ export const ISAIAH_7: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 7:14 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-7',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 7',
+      url: 'https://www.sefaria.org/Isaiah.7',
+      description: 'Sefaria open-access source text and translations for Isaiah 7.',
+    },
+    {
+      id: 'intertextual-isaiah-7-matthew',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 7 ↔ Matthew Intertextual Links',
+      url: 'https://intertextual.bible/',
+      description: 'Connections between Isaiah 7 and New Testament fulfillment, especially Matt 1–12.',
+    },
+    {
+      id: 'bibleodyssey-immanuel-sign',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah 7: The Immanuel Sign',
+      url: 'https://www.bibleodyssey.org/',
+      description: 'Historico-prophetic interpretation of the virgin sign and Ahaz&apos;s rejection.',
+    },
+  ],
 
   hasHebrew: true,
 };

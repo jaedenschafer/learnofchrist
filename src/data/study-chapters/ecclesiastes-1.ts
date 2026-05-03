@@ -42,7 +42,7 @@ export const ECCLESIASTES_1: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ecc1-cycles-observe',
-          html: 'The Preacher observes the cycles of nature—sun, wind, generations—all returning upon themselves in endless repetition, yet accomplishing nothing new.',
+          html: 'The Preacher observes the cycles of nature—sun, wind, generations—all returning upon themselves in endless repetition, yet accomplishing nothing new.[res:sefaria-ecclesiastes-1]',
         },
         {
           kind: 'scripture',
@@ -59,7 +59,7 @@ export const ECCLESIASTES_1: RichChapterContent = {
           kind: 'commentary',
           id: 'ecc1-vanity',
           html:
-            'The word "vanity" appears twice in verse 2 for emphasis—not once, but twice: "Vanity of vanities." This is the Hebrew way of expressing the superlative. It is not merely that some things are vain, or even many things, but that all—absolutely all—is vanity. The Hebrew word is <em>hebel</em>, which literally means "breath" or "vapor." It is that which rises, hovers briefly in the air, and dissolves away. To call something vanity is to call it insubstantial, temporary, leaving no permanent mark.',
+            'The word "vanity" appears twice in verse 2 for emphasis—not once, but twice: "Vanity of vanities." This is the Hebrew way of expressing the superlative. It is not merely that some things are vain, or even many things, but that all—absolutely all—is vanity. The Hebrew word is <em>hebel</em>, which literally means "breath" or "vapor." It is that which rises, hovers briefly in the air, and dissolves away. To call something vanity is to call it insubstantial, temporary, leaving no permanent mark.[res:british-museum-mesopotamia]',
         },
         {
           kind: 'hebrew',
@@ -74,7 +74,7 @@ export const ECCLESIASTES_1: RichChapterContent = {
           kind: 'commentary',
           id: 'ecc1-profit',
           html:
-            'The Preacher asks: "What profit hath a man?" The Hebrew word for profit is <em>yitron</em>—a surplus, a remainder, something left over after work is done. When you labor all day, what is left? At the end of a life of labor, what remains that cannot be taken away, that does not fade, that lasts? The Preacher suggests: nothing. The sun rises and sets. Generations come and go. And all our works are forgotten.',
+            'The Preacher asks: "What profit hath a man?" The Hebrew word for profit is <em>yitron</em>—a surplus, a remainder, something left over after work is done. When you labor all day, what is left? At the end of a life of labor, what remains that cannot be taken away, that does not fade, that lasts? The Preacher suggests: nothing. The sun rises and sets. Generations come and go. And all our works are forgotten.[res:theoi-stoic-epicurean]',
         },
         {
           kind: 'christ',
@@ -162,6 +162,33 @@ export const ECCLESIASTES_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ecclesiastes 1 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-ecclesiastes-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ecclesiastes 1',
+      url: 'https://www.sefaria.org/Ecclesiastes.1',
+      description: 'Sefaria open-access source text and translations for Ecclesiastes 1.',
+    },
+    {
+      id: 'british-museum-mesopotamia',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'ANE Wisdom Literature (Mesopotamia)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Mesopotamian wisdom texts paralleling Ecclesiastes&apos; quest for meaning under existential circularity.',
+    },
+    {
+      id: 'theoi-stoic-epicurean',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Stoic and Epicurean Philosophy',
+      url: 'https://www.theoi.com/',
+      description: 'Hellenistic philosophical parallels to Ecclesiastes on pleasure, virtue, and the good life.',
+    },
+  ],
 
   hasHebrew: true,
 };

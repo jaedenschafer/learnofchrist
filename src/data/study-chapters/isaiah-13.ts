@@ -42,13 +42,13 @@ export const ISAIAH_13: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah13-day-lord',
           html:
-            'The "day of the Lord" is a phrase that appears repeatedly in the prophets. It refers to the time when God will act decisively to establish His kingdom and bring judgment on all that opposes Him. This day is described as coming with "wrath and fierce anger." It is cruel. It destroys. It is not a day of human victory or triumph, but a day of divine judgment. The creation itself will shake. The sun will be darkened. The moon will not shine. The stars will cease to give light. This is not a merely earthly conflict. This is cosmic upheaval.',
+            'The "day of the Lord" is a phrase that appears repeatedly in the prophets. It refers to the time when God will act decisively to establish His kingdom and bring judgment on all that opposes Him. This day is described as coming with "wrath and fierce anger." It is cruel. It destroys. It is not a day of human victory or triumph, but a day of divine judgment. The creation itself will shake. The sun will be darkened. The moon will not shine. The stars will cease to give light. This is not a merely earthly conflict. This is cosmic upheaval.[res:sefaria-isaiah-13]',
         },
         {
           kind: 'commentary',
           id: 'isaiah13-cosmic-judgment',
           html:
-            'The language is apocalyptic—it describes the end of the current order. But notice what it is that brings this judgment: "I will punish the world for their evil, and the wicked for their iniquity; and I will cause the arrogancy of the proud to cease, and will lay low the haughtiness of the terrible." Evil will be punished. Wickedness will be destroyed. Pride will be brought low. This is not random destruction. This is moral judgment. The God who judges does so because He is righteous, and evil stands opposed to His righteousness.',
+            'The language is apocalyptic—it describes the end of the current order. But notice what it is that brings this judgment: "I will punish the world for their evil, and the wicked for their iniquity; and I will cause the arrogancy of the proud to cease, and will lay low the haughtiness of the terrible." Evil will be punished. Wickedness will be destroyed. Pride will be brought low. This is not random destruction. This is moral judgment. The God who judges does so because He is righteous, and evil stands opposed to His righteousness.[res:british-museum-babylon-tyre]',
         },
         {
           kind: 'hebrew',
@@ -125,6 +125,25 @@ export const ISAIAH_13: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 13:9 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-13',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 13',
+      url: 'https://www.sefaria.org/Isaiah.13',
+      description: 'Sefaria open-access source text and translations for Isaiah 13.',
+    },
+    {
+      id: 'british-museum-babylon-tyre',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Babylon & Tyre: Imperial Power',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Archaeological and textual evidence of the nations Isaiah prophesies against.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -34,7 +34,7 @@ export const PROVERBS_25: RichChapterContent = {
           kind: 'commentary',
           id: 'prov25-word-fitly',
           html:
-            'A word at the right time, in the right context, with the right tone—this is like finding apples of gold, precious objects, set in vessels of silver. It is beautiful not merely because the word itself is good, but because it is placed, fitted, made to land exactly where it needs to land. This is the art of communication—not eloquence, not volume, but precision.',
+            'A word at the right time, in the right context, with the right tone—this is like finding apples of gold, precious objects, set in vessels of silver. It is beautiful not merely because the word itself is good, but because it is placed, fitted, made to land exactly where it needs to land. This is the art of communication—not eloquence, not volume, but precision.[res:british-museum-amenemope]',
         },
         {
           kind: 'hebrew',
@@ -49,7 +49,7 @@ export const PROVERBS_25: RichChapterContent = {
           kind: 'commentary',
           id: 'prov25-soft-tongue',
           html:
-            'By long forbearing—by patience, by restraint, by slow and gentle persuasion—a prince can be swayed. And a soft tongue breaks the bone. This is paradoxical. Softness breaks hardness. Gentleness overcomes resistance in a way force never can. The soft word, persistent over time, accomplishes what violence cannot.',
+            'By long forbearing—by patience, by restraint, by slow and gentle persuasion—a prince can be swayed. And a soft tongue breaks the bone. This is paradoxical. Softness breaks hardness. Gentleness overcomes resistance in a way force never can. The soft word, persistent over time, accomplishes what violence cannot.[res:sefaria-proverbs-25]',
         },
         {
           kind: 'carry',
@@ -80,7 +80,7 @@ export const PROVERBS_25: RichChapterContent = {
           kind: 'commentary',
           id: 'prov25-enemy-hungry',
           html:
-            'An enemy is hungry. Your natural impulse is to let him starve, to let hunger be the price of his enmity. But Proverbs inverts this. Give him bread. Give him water. Meet his need despite the fact that he is your enemy. This is not weakness. This is a power beyond the natural human impulse.',
+            'An enemy is hungry. Your natural impulse is to let him starve, to let hunger be the price of his enmity. But Proverbs inverts this. Give him bread. Give him water. Meet his need despite the fact that he is your enemy. This is not weakness. This is a power beyond the natural human impulse.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'commentary',
@@ -114,6 +114,33 @@ export const PROVERBS_25: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 25 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-proverbs-25',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 25',
+      url: 'https://www.sefaria.org/Proverbs.25',
+      description: 'Sefaria open-access source text and translations for Proverbs 25.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
 
   hasHebrew: true,
 };

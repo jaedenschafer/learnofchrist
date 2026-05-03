@@ -41,7 +41,7 @@ export const ISAIAH_39: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-future-exile',
           html:
-            '<p>Hezekiah shows the Babylonians his treasures; the prophet warns all will be carried away. Pride speaks; consequences listen.</p>',
+            '<p>Hezekiah shows the Babylonians his treasures; the prophet warns all will be carried away. Pride speaks; consequences listen.[res:sefaria-isaiah-39]</p>',
         },
         {
           kind: 'scripture',
@@ -57,7 +57,7 @@ export const ISAIAH_39: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah39-pride',
           html:
-            'The danger is subtle. Hezekiah has been healed. The kingdom is safe. Peace reigns. The king is pleased to receive the envoys from Babylon. And in his pleasure and confidence, he shows them everything. "Hezekiah was pleased, and shewed them the house of his precious things...there was nothing in his house...that Hezekiah shewed them not." This is not malice. This is pride. The display of treasure is the display of the king&apos;s power and security. But Isaiah sees the spiritual danger.',
+            'The danger is subtle. Hezekiah has been healed. The kingdom is safe. Peace reigns. The king is pleased to receive the envoys from Babylon. And in his pleasure and confidence, he shows them everything. "Hezekiah was pleased, and shewed them the house of his precious things...there was nothing in his house...that Hezekiah shewed them not." This is not malice. This is pride. The display of treasure is the display of the king&apos;s power and security. But Isaiah sees the spiritual danger.[res:british-museum-sennacherib-prism]',
         },
         {
           kind: 'hebrew',
@@ -72,7 +72,7 @@ export const ISAIAH_39: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah39-exile',
           html:
-            'The prophecy is specific and devastating: "Behold, the days come, that all that is in thine house...shall be carried into Babylon." Not just treasures, but sons. The descendants of Hezekiah will be taken into captivity and made eunuchs in the palace of the king of Babylon. The pride that displays treasure becomes the occasion for prophecy of loss. Everything that Hezekiah takes pride in will be taken away.',
+            'The prophecy is specific and devastating: "Behold, the days come, that all that is in thine house...shall be carried into Babylon." Not just treasures, but sons. The descendants of Hezekiah will be taken into captivity and made eunuchs in the palace of the king of Babylon. The pride that displays treasure becomes the occasion for prophecy of loss. Everything that Hezekiah takes pride in will be taken away.[res:iaa-hezekiah-tunnel-bulla]',
         },
         {
           kind: 'christ',
@@ -100,6 +100,33 @@ export const ISAIAH_39: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 39 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-39',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 39',
+      url: 'https://www.sefaria.org/Isaiah.39',
+      description: 'Sefaria open-access source text and translations for Isaiah 39.',
+    },
+    {
+      id: 'british-museum-sennacherib-prism',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Sennacherib&apos;s Prism',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Cuneiform inscription of Sennacherib&apos;s siege of Jerusalem — Isaiah&apos;s historical backdrop.',
+    },
+    {
+      id: 'iaa-hezekiah-tunnel-bulla',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Hezekiah&apos;s Tunnel & Bulla',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological artifacts from Hezekiah&apos;s reign — tunnel and bullae bearing royal seals.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -39,7 +39,7 @@ export const PROVERBS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'prov11-mid-pride-humble',
           html:
-            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.[res:british-museum-amenemope]',
         },
         {
           kind: 'scripture',
@@ -54,7 +54,7 @@ export const PROVERBS_11: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov11-righteousness-delivers',
-          html: 'Eight sayings establish the moral order: pride brings shame, integrity guides, righteousness delivers, wickedness destroys itself—and the righteous are delivered from trouble.',
+          html: 'Eight sayings establish the moral order: pride brings shame, integrity guides, righteousness delivers, wickedness destroys itself—and the righteous are delivered from trouble.[res:sefaria-proverbs-11]',
         },
         {
           kind: 'scripture',
@@ -69,7 +69,7 @@ export const PROVERBS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'prov11b-mid-righteousness-ruin',
           html:
-            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'scripture',
@@ -208,6 +208,33 @@ export const PROVERBS_11: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 11 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-proverbs-11',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 11',
+      url: 'https://www.sefaria.org/Proverbs.11',
+      description: 'Sefaria open-access source text and translations for Proverbs 11.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -88,7 +88,7 @@ export const ISAIAH_49: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-light-nations',
           html:
-            '<p>I am a light to the nations; My salvation reaches to the end of the earth. I will lead the blind and thirsty home.</p>',
+            '<p>I am a light to the nations; My salvation reaches to the end of the earth. I will lead the blind and thirsty home.[res:sefaria-isaiah-49]</p>',
         },
         {
           kind: 'scripture',
@@ -110,7 +110,7 @@ export const ISAIAH_49: RichChapterContent = {
           kind: 'commentary',
           id: 'isa49-return',
           html:
-            'From all corners of the earth, people will return. From far away, from the north, from the west, from the land of Sinim (Ethiopia). The prophecy envisions a great gathering, a homecoming. And the heavens and earth are called to sing. Creation itself joins the chorus of joy because God has comforted His people and has mercy upon the afflicted.',
+            'From all corners of the earth, people will return. From far away, from the north, from the west, from the land of Sinim (Ethiopia). The prophecy envisions a great gathering, a homecoming. And the heavens and earth are called to sing. Creation itself joins the chorus of joy because God has comforted His people and has mercy upon the afflicted.[res:intertextual-isaiah-servant-nt]',
         },
         {
           kind: 'carry',
@@ -131,6 +131,25 @@ export const ISAIAH_49: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 49 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-49',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 49',
+      url: 'https://www.sefaria.org/Isaiah.49',
+      description: 'Sefaria open-access source text and translations for Isaiah 49.',
+    },
+    {
+      id: 'intertextual-isaiah-servant-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah Servant Song ↔ NT Fulfillment',
+      url: 'https://intertextual.bible/',
+      description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
+    },
+  ],
 
   hasHebrew: true,
 };

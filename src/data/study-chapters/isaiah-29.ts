@@ -39,7 +39,7 @@ export const ISAIAH_29: RichChapterContent = {
           kind: 'commentary',
           id: 'isa29-sleep-wake',
           html:
-            'The oracle moves from the numbness to the awakening. From sleep comes the opening of eyes.',
+            'The oracle moves from the numbness to the awakening. From sleep comes the opening of eyes.[res:sefaria-isaiah-29]',
         },
         {
           kind: 'scripture',
@@ -215,6 +215,17 @@ export const ISAIAH_29: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 29 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-29',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 29',
+      url: 'https://www.sefaria.org/Isaiah.29',
+      description: 'Sefaria open-access source text and translations for Isaiah 29.',
+    },
+  ],
 
   hasHebrew: true,
 };

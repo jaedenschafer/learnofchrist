@@ -73,7 +73,7 @@ export const ISAIAH_50: RichChapterContent = {
           kind: 'commentary',
           id: 'isa50-suffering',
           html:
-            'And the cost is severe. The Servant gives His back to those who strike Him. His cheeks to those who pluck out His beard. He does not hide His face from shame and spitting. This is graphic, humiliating suffering. Yet the Servant accepts it freely because His trust is in the Lord. He sets His face like a flint—hard, unmovable, determined. He knows He will not be ashamed because the Lord God is His justifier.',
+            'And the cost is severe. The Servant gives His back to those who strike Him. His cheeks to those who pluck out His beard. He does not hide His face from shame and spitting. This is graphic, humiliating suffering. Yet the Servant accepts it freely because His trust is in the Lord. He sets His face like a flint—hard, unmovable, determined. He knows He will not be ashamed because the Lord God is His justifier.[res:intertextual-isaiah-servant-nt][res:sefaria-isaiah-50]',
         },
         {
           kind: 'hebrew',
@@ -141,6 +141,25 @@ export const ISAIAH_50: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 50 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-50',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 50',
+      url: 'https://www.sefaria.org/Isaiah.50',
+      description: 'Sefaria open-access source text and translations for Isaiah 50.',
+    },
+    {
+      id: 'intertextual-isaiah-servant-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah Servant Song ↔ NT Fulfillment',
+      url: 'https://intertextual.bible/',
+      description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
+    },
+  ],
 
   hasHebrew: true,
 };

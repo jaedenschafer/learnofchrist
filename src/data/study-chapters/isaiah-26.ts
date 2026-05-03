@@ -41,7 +41,7 @@ export const ISAIAH_26: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah26-city',
           html:
-            '"We have a strong city; salvation will God appoint for walls and bulwarks." The walls and bulwarks that protect the city are not made of stone but of salvation. God Himself is the defense of His people. This is a city that no earthly enemy can breach, because it is founded on God&apos;s promise.',
+            '"We have a strong city; salvation will God appoint for walls and bulwarks." The walls and bulwarks that protect the city are not made of stone but of salvation. God Himself is the defense of His people. This is a city that no earthly enemy can breach, because it is founded on God&apos;s promise.[res:sefaria-isaiah-26]',
         },
         {
           kind: 'commentary',
@@ -163,6 +163,17 @@ export const ISAIAH_26: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 26 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-26',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 26',
+      url: 'https://www.sefaria.org/Isaiah.26',
+      description: 'Sefaria open-access source text and translations for Isaiah 26.',
+    },
+  ],
 
   hasHebrew: true,
 };

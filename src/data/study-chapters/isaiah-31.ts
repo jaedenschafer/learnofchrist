@@ -41,7 +41,7 @@ export const ISAIAH_31: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah31-woe',
           html:
-            'The chapter opens not with instruction but with judgment: "Woe to them that go down to Egypt." Egypt represents everything Israel has been told not to do—to trust in military might rather than in God. The language of going "down" to Egypt carries weight: Israel descends in spiritual stature every time it chooses the visible power of nations over the invisible power of God. This is not merely a political miscalculation. It is a religious betrayal.',
+            'The chapter opens not with instruction but with judgment: "Woe to them that go down to Egypt." Egypt represents everything Israel has been told not to do—to trust in military might rather than in God. The language of going "down" to Egypt carries weight: Israel descends in spiritual stature every time it chooses the visible power of nations over the invisible power of God. This is not merely a political miscalculation. It is a religious betrayal.[res:sefaria-isaiah-31]',
         },
         {
           kind: 'hebrew',
@@ -139,6 +139,17 @@ export const ISAIAH_31: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 31 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-31',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 31',
+      url: 'https://www.sefaria.org/Isaiah.31',
+      description: 'Sefaria open-access source text and translations for Isaiah 31.',
+    },
+  ],
 
   hasHebrew: true,
 };

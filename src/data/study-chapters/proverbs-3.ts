@@ -42,7 +42,7 @@ export const PROVERBS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'prov3-acknowledge-paths',
           html:
-            'The call to trust with all your heart is balanced with the command to acknowledge Him in all your ways. This is not a contradiction. You submit your understanding to His, but you do not become passive. You actively acknowledge Him—you consult His wisdom, you bring your situation before Him, you seek His direction. And the promise is that He will direct your paths. Not eliminate your struggles, but guide you through them.',
+            'The call to trust with all your heart is balanced with the command to acknowledge Him in all your ways. This is not a contradiction. You submit your understanding to His, but you do not become passive. You actively acknowledge Him—you consult His wisdom, you bring your situation before Him, you seek His direction. And the promise is that He will direct your paths. Not eliminate your struggles, but guide you through them.[res:british-museum-amenemope]',
         },
         {
           kind: 'scripture',
@@ -59,7 +59,7 @@ export const PROVERBS_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov3-trust-heart',
-          html: 'Trust with "all thine heart" is not partial, not conditional, not held in reserve. It means you commit your deepest self to God, not to your own reasoning. Yet this does not mean you are to be passive or foolish. Rather, in all your ways, you are to "acknowledge him"—to consult Him, to bring Him your understanding, to let His wisdom shape your path. The promise is that He "shall direct thy paths." Not by magic or miracle, but by gradual shaping, by the quiet work of wisdom in the heart.',
+          html: 'Trust with "all thine heart" is not partial, not conditional, not held in reserve. It means you commit your deepest self to God, not to your own reasoning. Yet this does not mean you are to be passive or foolish. Rather, in all your ways, you are to "acknowledge him"—to consult Him, to bring Him your understanding, to let His wisdom shape your path. The promise is that He "shall direct thy paths." Not by magic or miracle, but by gradual shaping, by the quiet work of wisdom in the heart.[res:sefaria-proverbs-3]',
         },
         {
           kind: 'hebrew',
@@ -72,7 +72,7 @@ export const PROVERBS_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov3-chastening-love',
-          html: 'The claim that God corrects those He loves can sound harsh, but it is revolutionary. It reframes discipline not as punishment imposed by a distant judge, but as the care of a father for his son. A parent who does not correct is a parent who does not care. A child who experiences no discipline is a child who is unloved. The chastening of the Lord is a sign not of His anger but of His love. And the willingness to accept that correction—not to despise it or to grow weary of it—is the mark of true trust.',
+          html: 'The claim that God corrects those He loves can sound harsh, but it is revolutionary. It reframes discipline not as punishment imposed by a distant judge, but as the care of a father for his son. A parent who does not correct is a parent who does not care. A child who experiences no discipline is a child who is unloved. The chastening of the Lord is a sign not of His anger but of His love. And the willingness to accept that correction—not to despise it or to grow weary of it—is the mark of true trust.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'christ',
@@ -172,6 +172,33 @@ export const PROVERBS_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 3 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-proverbs-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 3',
+      url: 'https://www.sefaria.org/Proverbs.3',
+      description: 'Sefaria open-access source text and translations for Proverbs 3.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
 
   hasHebrew: true,
 };

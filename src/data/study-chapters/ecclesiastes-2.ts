@@ -41,7 +41,15 @@ export const ECCLESIASTES_2: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ecc2-pleasure-pursuit',
-          html: 'The Preacher tests pleasure and laughter, wine and building—but all yield only emptiness.',
+          html: 'The Preacher tests pleasure and laughter, wine and building—but all yield only emptiness.[res:british-museum-mesopotamia]',
+        },
+        {
+          kind: 'greek',
+          id: 'ecc2-pneuma',
+          title: 'Pneuma — "Spirit"',
+          script: 'πνεῦμα',
+          translit: '<strong>Pneuma</strong> · breath; spirit; wind',
+          description: 'Like the Hebrew ruach, pneuma can mean wind, breath, or spirit—what is invisible yet powerful.',
         },
         {
           kind: 'scripture',
@@ -58,13 +66,13 @@ export const ECCLESIASTES_2: RichChapterContent = {
           kind: 'commentary',
           id: 'ecc2-experiment',
           html:
-            'The Preacher announces his experiment with clinical precision. He will prove pleasure, test it, see whether it holds meaning. He will pursue mirth, and he will do this while retaining wisdom—he will observe himself as he pursues pleasure, noting what he discovers. This is important: the Preacher does not pursue pleasure mindlessly. He pursues it with eyes open, documenting what happens. And what happens is disillusionment.',
+            'The Preacher announces his experiment with clinical precision. He will prove pleasure, test it, see whether it holds meaning. He will pursue mirth, and he will do this while retaining wisdom—he will observe himself as he pursues pleasure, noting what he discovers. This is important: the Preacher does not pursue pleasure mindlessly. He pursues it with eyes open, documenting what happens. And what happens is disillusionment.[res:sefaria-ecclesiastes-2]',
         },
         {
           kind: 'commentary',
           id: 'ecc2-abundance',
           html:
-            'The scope of the Preacher&apos;s experiment is staggering. He builds houses, plants vineyards and gardens with all kinds of fruit trees, creates pools, accumulates servants and herds, gathers silver and gold, employs singers and musicians, and surrounds himself with all the delights available to the sons of men. He achieves what many would consider the ultimate human success: wealth, power, pleasure, recognition. And he withholds nothing—whatever his eyes desire, he keeps it. His heart rejoices in all his labor.',
+            'The scope of the Preacher&apos;s experiment is staggering. He builds houses, plants vineyards and gardens with all kinds of fruit trees, creates pools, accumulates servants and herds, gathers silver and gold, employs singers and musicians, and surrounds himself with all the delights available to the sons of men. He achieves what many would consider the ultimate human success: wealth, power, pleasure, recognition. And he withholds nothing—whatever his eyes desire, he keeps it. His heart rejoices in all his labor.[res:theoi-stoic-epicurean]',
         },
         {
           kind: 'commentary',
@@ -185,5 +193,32 @@ export const ECCLESIASTES_2: RichChapterContent = {
     ref: 'Ecclesiastes 2 · Study Guide',
   },
 
-  hasHebrew: false,
+    resources: [
+    {
+      id: 'sefaria-ecclesiastes-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ecclesiastes 2',
+      url: 'https://www.sefaria.org/Ecclesiastes.2',
+      description: 'Sefaria open-access source text and translations for Ecclesiastes 2.',
+    },
+    {
+      id: 'british-museum-mesopotamia',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'ANE Wisdom Literature (Mesopotamia)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Mesopotamian wisdom texts paralleling Ecclesiastes&apos; quest for meaning under existential circularity.',
+    },
+    {
+      id: 'theoi-stoic-epicurean',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Stoic and Epicurean Philosophy',
+      url: 'https://www.theoi.com/',
+      description: 'Hellenistic philosophical parallels to Ecclesiastes on pleasure, virtue, and the good life.',
+    },
+  ],
+
+  hasHebrew: true,
 };

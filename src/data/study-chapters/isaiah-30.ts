@@ -42,7 +42,7 @@ export const ISAIAH_30: RichChapterContent = {
           kind: 'commentary',
           id: 'isa30-split-1',
           html:
-            'Egypt will not help. The prophets declare this with clarity: Judah sends ambassadors and treasures across the desert, risking everything on Egyptian alliance. But Egypt&apos;s help will be vain. "Their strength is to sit still"—their strength lies only in ceasing from their own works, not in relying on human power.',
+            'Egypt will not help. The prophets declare this with clarity: Judah sends ambassadors and treasures across the desert, risking everything on Egyptian alliance. But Egypt&apos;s help will be vain. "Their strength is to sit still"—their strength lies only in ceasing from their own works, not in relying on human power.[res:sefaria-isaiah-30]',
         },
         {
           kind: 'scripture',
@@ -195,6 +195,17 @@ export const ISAIAH_30: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 30 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-30',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 30',
+      url: 'https://www.sefaria.org/Isaiah.30',
+      description: 'Sefaria open-access source text and translations for Isaiah 30.',
+    },
+  ],
 
   hasHebrew: true,
 };

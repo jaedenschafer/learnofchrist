@@ -33,13 +33,21 @@ export const PROVERBS_21: RichChapterContent = {
           kind: 'commentary',
           id: 'prov21-king-heart',
           html:
-            'The king is the most powerful person in his realm. His word is law. His will shapes nations. Yet his heart—the very source of his decisions—is in the hand of the Lord. Not the hand that crushes or forces, but the hand that guides and directs, like a farmer directing water through channels. The water has its own force and flow, yet it moves where the channels lead it. The king has his own desires and judgment, yet the Lord directs them.',
+            'The king is the most powerful person in his realm. His word is law. His will shapes nations. Yet his heart—the very source of his decisions—is in the hand of the Lord. Not the hand that crushes or forces, but the hand that guides and directs, like a farmer directing water through channels. The water has its own force and flow, yet it moves where the channels lead it. The king has his own desires and judgment, yet the Lord directs them.[res:british-museum-amenemope]',
+        },
+        {
+          kind: 'hebrew',
+          id: 'prov21-tzedakah',
+          title: 'Tzedakah — "Righteousness"',
+          script: 'צְדָקָה',
+          translit: '<strong>Tzedakah</strong> · righteousness; justice; charity',
+          description: 'In biblical terms, righteousness includes both right relationship with God and right action toward others—especially the vulnerable and poor.',
         },
         {
           kind: 'commentary',
           id: 'prov21-rivers',
           html:
-            'Rivers of water are powerful and constant. They wear away stone, they nourish the land, they are nearly impossible to stop. Yet they flow where the topography channels them. So the king—powerful, constant, important—flows according to God&apos;s design. This is the deepest sovereignty: not visible force, but the quiet guidance that seems like freedom because it is so gentle.',
+            'Rivers of water are powerful and constant. They wear away stone, they nourish the land, they are nearly impossible to stop. Yet they flow where the topography channels them. So the king—powerful, constant, important—flows according to God&apos;s design. This is the deepest sovereignty: not visible force, but the quiet guidance that seems like freedom because it is so gentle.[res:sefaria-proverbs-21]',
         },
         {
           kind: 'christ',
@@ -76,7 +84,7 @@ export const PROVERBS_21: RichChapterContent = {
           kind: 'commentary',
           id: 'prov21-stops-ears',
           html:
-            'To stop your ears at the cry of the poor is to refuse to hear their need, to harden your heart against their suffering. This is more than indifference. It is active refusal. And for this refusal, the person will cry, and find no one to hear. This is not arbitrary punishment. It is the law of reciprocity: what you measure out returns to you. You withheld your ear from the poor; your ear will be withheld from when you need it most.',
+            'To stop your ears at the cry of the poor is to refuse to hear their need, to harden your heart against their suffering. This is more than indifference. It is active refusal. And for this refusal, the person will cry, and find no one to hear. This is not arbitrary punishment. It is the law of reciprocity: what you measure out returns to you. You withheld your ear from the poor; your ear will be withheld from when you need it most.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'commentary',
@@ -103,4 +111,32 @@ export const PROVERBS_21: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 21 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-proverbs-21',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 21',
+      url: 'https://www.sefaria.org/Proverbs.21',
+      description: 'Sefaria open-access source text and translations for Proverbs 21.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
+
 };

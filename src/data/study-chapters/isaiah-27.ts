@@ -42,7 +42,7 @@ export const ISAIAH_27: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah27-restoration-to-refining',
           html:
-            'From cosmic warfare to intimate vineyard-keeping: the Lord defeats Leviathan with His sword, yet sings of the vineyard with tender care, watering it every moment and keeping watch night and day. Israel will take root and blossom. Yet the turning point comes: after the restoration, comes the question of God&apos;s judgment and how Israel has been refined.',
+            'From cosmic warfare to intimate vineyard-keeping: the Lord defeats Leviathan with His sword, yet sings of the vineyard with tender care, watering it every moment and keeping watch night and day. Israel will take root and blossom. Yet the turning point comes: after the restoration, comes the question of God&apos;s judgment and how Israel has been refined.[res:sefaria-isaiah-27]',
         },
         {
           kind: 'scripture',
@@ -128,6 +128,17 @@ export const ISAIAH_27: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 27 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-27',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 27',
+      url: 'https://www.sefaria.org/Isaiah.27',
+      description: 'Sefaria open-access source text and translations for Isaiah 27.',
+    },
+  ],
 
   hasHebrew: true,
 };

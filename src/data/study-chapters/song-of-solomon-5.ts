@@ -43,7 +43,15 @@ export const SONG_5: RichChapterContent = {
           kind: 'commentary',
           id: 'song-5-beloved-knocks',
           html:
-            'He knocks. She delays. By the time she rises, he is gone. She runs through the city. The watchmen strike her. She calls after him: tell him I am sick with love. Lost, she searches. Found only in longing.',
+            'He knocks. She delays. By the time she rises, he is gone. She runs through the city. The watchmen strike her. She calls after him: tell him I am sick with love. Lost, she searches. Found only in longing.[res:penn-museum-egyptian-love-poetry]',
+        },
+        {
+          kind: 'hebrew',
+          id: 'song5-racham',
+          title: 'Racham — "Tender Love"',
+          script: 'רַחַם',
+          translit: '<strong>Racham</strong> · compassion; tender love; womb',
+          description: 'Love in the Song is not merely passion but tenderness and compassion.',
         },
         {
           kind: 'scripture',
@@ -60,13 +68,13 @@ export const SONG_5: RichChapterContent = {
           kind: 'commentary',
           id: 'song5-i-sleep-heart-waketh',
           html:
-            '"I sleep, but my heart waketh: it is the voice of my beloved that knocketh." The Bride is sleeping, at peace. But her heart is awake, alert, attuned. And at the sound of the Beloved&apos;s voice, she is roused from her natural sleep. She hears his plea. He has been traveling—his head is filled with dew, his locks with drops of the night. He has come to her, seeking her, and he is asking her to open.',
+            '"I sleep, but my heart waketh: it is the voice of my beloved that knocketh." The Bride is sleeping, at peace. But her heart is awake, alert, attuned. And at the sound of the Beloved&apos;s voice, she is roused from her natural sleep. She hears his plea. He has been traveling—his head is filled with dew, his locks with drops of the night. He has come to her, seeking her, and he is asking her to open.[res:sefaria-song-5]',
         },
         {
           kind: 'commentary',
           id: 'song5-reluctance',
           html:
-            '"I have put off my coat; how shall I put it on? I have washed my feet; how shall I defile them?" The Bride is reluctant. She is comfortable where she is. She has undressed, has bathed. To rise and open the door means to inconvenience herself, to disrupt her rest. This is a real moment of hesitation. The Bride does not automatically run to open. But something changes.',
+            '"I have put off my coat; how shall I put it on? I have washed my feet; how shall I defile them?" The Bride is reluctant. She is comfortable where she is. She has undressed, has bathed. To rise and open the door means to inconvenience herself, to disrupt her rest. This is a real moment of hesitation. The Bride does not automatically run to open. But something changes.[res:met-museum-egyptian-poetry]',
         },
         {
           kind: 'commentary',
@@ -161,6 +169,33 @@ export const SONG_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Song of Solomon 5 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-song-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Song of Solomon 5',
+      url: 'https://www.sefaria.org/Song_of_Songs.5',
+      description: 'Sefaria open-access source text and translations for Song of Solomon 5.',
+    },
+    {
+      id: 'penn-museum-egyptian-love-poetry',
+      kind: 'museum',
+      source: 'Penn Museum',
+      label: 'Egyptian Love Poetry Parallels',
+      url: 'https://www.penn.museum/',
+      description: 'Egyptian love songs showing literary and thematic parallels to biblical Song tradition.',
+    },
+    {
+      id: 'met-museum-egyptian-poetry',
+      kind: 'museum',
+      source: 'Metropolitan Museum',
+      label: 'Ancient Egypt: Love and Poetry',
+      url: 'https://www.metmuseum.org/',
+      description: 'Museum artifacts and literary texts illuminating Song of Solomon&apos;s erotic love poetry within ANE context.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -41,7 +41,7 @@ export const ISAIAH_28: RichChapterContent = {
           kind: 'commentary',
           id: 'isa28-cornerstone-mid',
           html:
-            'The judgment comes, yet it does not stand alone. Even in the oracle against Ephraim&apos;s pride, God offers His own crown—a crown of glory and beauty for those who remain. Where human crowns fade, the Lord&apos;s crown endures. This is the mercy woven through judgment: God&apos;s alternative is always available to those who will turn.',
+            'The judgment comes, yet it does not stand alone. Even in the oracle against Ephraim&apos;s pride, God offers His own crown—a crown of glory and beauty for those who remain. Where human crowns fade, the Lord&apos;s crown endures. This is the mercy woven through judgment: God&apos;s alternative is always available to those who will turn.[res:sefaria-isaiah-28]',
         },
         {
           kind: 'scripture',
@@ -206,6 +206,17 @@ export const ISAIAH_28: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 28 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-28',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 28',
+      url: 'https://www.sefaria.org/Isaiah.28',
+      description: 'Sefaria open-access source text and translations for Isaiah 28.',
+    },
+  ],
 
   hasHebrew: true,
 };

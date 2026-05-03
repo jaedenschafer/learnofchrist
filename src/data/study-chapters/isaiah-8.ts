@@ -41,13 +41,13 @@ export const ISAIAH_8: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah8-fear-contagion',
           html:
-            'Isaiah names the temptation clearly: the people are being drawn into a conspiracy of fear. They are saying, "A league"—they are in a league with those who fear. And Isaiah warns: "Neither fear ye their fear, nor be afraid." Fear is contagious. When others fear, they try to spread their fear to you, to pull you into their panic. But Isaiah offers a different response: "Sanctify the Lord of hosts himself; and let him be your fear." Instead of being caught in the fear of others, make the Lord alone your fear. This does not mean terror. It means reverence, respect, the ordering of your life around His authority rather than around human opinion.',
+            'Isaiah names the temptation clearly: the people are being drawn into a conspiracy of fear. They are saying, "A league"—they are in a league with those who fear. And Isaiah warns: "Neither fear ye their fear, nor be afraid." Fear is contagious. When others fear, they try to spread their fear to you, to pull you into their panic. But Isaiah offers a different response: "Sanctify the Lord of hosts himself; and let him be your fear." Instead of being caught in the fear of others, make the Lord alone your fear. This does not mean terror. It means reverence, respect, the ordering of your life around His authority rather than around human opinion.[res:sefaria-isaiah-8]',
         },
         {
           kind: 'commentary',
           id: 'isaiah8-false-guidance',
           html:
-            'When people are frightened, they seek guidance from many sources. They turn to mediums—those who claim to have spirits familiar with them, who can speak with the dead or access hidden knowledge. Isaiah questions this impulse: "Should not a people seek unto their God?" The answer is obvious. If God is alive, if He has spoken His word, if His law and testimony are available, why would anyone seek guidance from the dead, from those who "peep, and that mutter"? Such guidance is darkness. True light comes from God&apos;s revealed word.',
+            'When people are frightened, they seek guidance from many sources. They turn to mediums—those who claim to have spirits familiar with them, who can speak with the dead or access hidden knowledge. Isaiah questions this impulse: "Should not a people seek unto their God?" The answer is obvious. If God is alive, if He has spoken His word, if His law and testimony are available, why would anyone seek guidance from the dead, from those who "peep, and that mutter"? Such guidance is darkness. True light comes from God&apos;s revealed word.[res:intertextual-isaiah-8-matthew]',
         },
         {
           kind: 'hebrew',
@@ -121,6 +121,25 @@ export const ISAIAH_8: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 8:13 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-8',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 8',
+      url: 'https://www.sefaria.org/Isaiah.8',
+      description: 'Sefaria open-access source text and translations for Isaiah 8.',
+    },
+    {
+      id: 'intertextual-isaiah-8-matthew',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 8 ↔ Matthew Intertextual Links',
+      url: 'https://intertextual.bible/',
+      description: 'Connections between Isaiah 8 and New Testament fulfillment, especially Matt 1–12.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -40,7 +40,7 @@ export const PROVERBS_9: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov9-banquet-call',
-          html: 'Wisdom opens her house and invites all to feast—the simple are welcome, the way of understanding is open to all who will answer her call.',
+          html: 'Wisdom opens her house and invites all to feast—the simple are welcome, the way of understanding is open to all who will answer her call.[res:british-museum-amenemope]',
         },
         {
           kind: 'scripture',
@@ -57,7 +57,7 @@ export const PROVERBS_9: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov9-house-pillars',
-          html: 'Wisdom has built her house with seven pillars—a foundation of strength and completeness. She has prepared a feast: killed her beasts, mingled her wine, furnished her table. The image is not of deprivation but of abundance, of celebration, of the joy that comes from living in alignment with truth. And her call is to all: "Whoso is simple, let him turn in hither." The invitation is universal.',
+          html: 'Wisdom has built her house with seven pillars—a foundation of strength and completeness. She has prepared a feast: killed her beasts, mingled her wine, furnished her table. The image is not of deprivation but of abundance, of celebration, of the joy that comes from living in alignment with truth. And her call is to all: "Whoso is simple, let him turn in hither." The invitation is universal.[res:sefaria-proverbs-9]',
         },
         {
           kind: 'hebrew',
@@ -70,7 +70,7 @@ export const PROVERBS_9: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov9-reprove',
-          html: 'A striking verse: "He that reproveth a scorner getteth to himself shame." Not all who reject wisdom can be taught. Some have so hardened themselves that correction only brings shame to the one who offers it. But a wise man will receive reproof and love you for it. A righteous man will increase in learning. There is a difference between those who are open to truth and those who are closed.',
+          html: 'A striking verse: "He that reproveth a scorner getteth to himself shame." Not all who reject wisdom can be taught. Some have so hardened themselves that correction only brings shame to the one who offers it. But a wise man will receive reproof and love you for it. A righteous man will increase in learning. There is a difference between those who are open to truth and those who are closed.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'christ',
@@ -139,6 +139,33 @@ export const PROVERBS_9: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 9 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-proverbs-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 9',
+      url: 'https://www.sefaria.org/Proverbs.9',
+      description: 'Sefaria open-access source text and translations for Proverbs 9.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
 
   hasHebrew: true,
 };

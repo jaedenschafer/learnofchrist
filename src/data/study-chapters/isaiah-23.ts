@@ -38,7 +38,7 @@ export const ISAIAH_23: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-tyre-silent',
           html:
-            '<p>The merchant-queen Tyre will be forgotten for seventy years, then recalled with shame. No empire lasts forever.</p>',
+            '<p>The merchant-queen Tyre will be forgotten for seventy years, then recalled with shame. No empire lasts forever.[res:sefaria-isaiah-23]</p>',
         },
         {
           kind: 'scripture',
@@ -54,7 +54,7 @@ export const ISAIAH_23: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah23-fate-to-cause',
           html:
-            'The opening verses paint a portrait of devastation: the ships howl, inhabitants are paralyzed, Sidon is ashamed. Tyre, once a joyous city of ancient days, finds itself carried away into exile. The scene is set. Now comes the turning point: the question of who brought this upon the merchant city.',
+            'The opening verses paint a portrait of devastation: the ships howl, inhabitants are paralyzed, Sidon is ashamed. Tyre, once a joyous city of ancient days, finds itself carried away into exile. The scene is set. Now comes the turning point: the question of who brought this upon the merchant city.[res:british-museum-babylon-tyre]',
         },
         {
           kind: 'scripture',
@@ -173,6 +173,25 @@ export const ISAIAH_23: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 23 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-23',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 23',
+      url: 'https://www.sefaria.org/Isaiah.23',
+      description: 'Sefaria open-access source text and translations for Isaiah 23.',
+    },
+    {
+      id: 'british-museum-babylon-tyre',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Babylon & Tyre: Imperial Power',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Archaeological and textual evidence of the nations Isaiah prophesies against.',
+    },
+  ],
 
   hasHebrew: true,
 };

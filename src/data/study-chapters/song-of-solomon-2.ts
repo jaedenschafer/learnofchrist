@@ -41,7 +41,15 @@ export const SONG_2: RichChapterContent = {
           kind: 'commentary',
           id: 'song-2-beloved-voice',
           html:
-            'Hear him leaping on the mountains. His voice breaks through. Come away, my love. Winter is past. The flowers appear. The time of singing has come. Love calls. The world awakens. She rises to answer.',
+            'Hear him leaping on the mountains. His voice breaks through. Come away, my love. Winter is past. The flowers appear. The time of singing has come. Love calls. The world awakens. She rises to answer.[res:penn-museum-egyptian-love-poetry]',
+        },
+        {
+          kind: 'hebrew',
+          id: 'song2-dod-mi',
+          title: 'Dod Mi — "My Beloved"',
+          script: 'דּוֹדִי',
+          translit: '<strong>Dodi</strong> · my beloved',
+          description: 'The possessive form of dod emphasizes belonging and intimacy.',
         },
         {
           kind: 'scripture',
@@ -58,13 +66,13 @@ export const SONG_2: RichChapterContent = {
           kind: 'commentary',
           id: 'song2-rose-lily',
           html:
-            '"I am the rose of Sharon, and the lily of the valleys." The Bride speaks of herself with quiet confidence. She is not rare—Sharon was a plain, and lilies grew in the valleys. But she is a flower. She is beautiful. And then the Beloved speaks: "As the lily among thorns, so is my love among the daughters." In his eyes, she stands out. She is distinguished among all other women. She is his beloved, singular and unique.',
+            '"I am the rose of Sharon, and the lily of the valleys." The Bride speaks of herself with quiet confidence. She is not rare—Sharon was a plain, and lilies grew in the valleys. But she is a flower. She is beautiful. And then the Beloved speaks: "As the lily among thorns, so is my love among the daughters." In his eyes, she stands out. She is distinguished among all other women. She is his beloved, singular and unique.[res:sefaria-song-2]',
         },
         {
           kind: 'commentary',
           id: 'song2-apple-tree',
           html:
-            '"As the apple tree among the trees of the wood, so is my beloved among the sons." The Bride reciprocates, describing her Beloved as an apple tree stands out among ordinary trees—offering shade and fruit. She sat under his shadow with delight. His fruit was sweet. The image combines protection, provision, and pleasure. To be with him is to be cared for and satisfied.',
+            '"As the apple tree among the trees of the wood, so is my beloved among the sons." The Bride reciprocates, describing her Beloved as an apple tree stands out among ordinary trees—offering shade and fruit. She sat under his shadow with delight. His fruit was sweet. The image combines protection, provision, and pleasure. To be with him is to be cared for and satisfied.[res:met-museum-egyptian-poetry]',
         },
         {
           kind: 'commentary',
@@ -172,6 +180,33 @@ export const SONG_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Song of Solomon 2 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-song-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Song of Solomon 2',
+      url: 'https://www.sefaria.org/Song_of_Songs.2',
+      description: 'Sefaria open-access source text and translations for Song of Solomon 2.',
+    },
+    {
+      id: 'penn-museum-egyptian-love-poetry',
+      kind: 'museum',
+      source: 'Penn Museum',
+      label: 'Egyptian Love Poetry Parallels',
+      url: 'https://www.penn.museum/',
+      description: 'Egyptian love songs showing literary and thematic parallels to biblical Song tradition.',
+    },
+    {
+      id: 'met-museum-egyptian-poetry',
+      kind: 'museum',
+      source: 'Metropolitan Museum',
+      label: 'Ancient Egypt: Love and Poetry',
+      url: 'https://www.metmuseum.org/',
+      description: 'Museum artifacts and literary texts illuminating Song of Solomon&apos;s erotic love poetry within ANE context.',
+    },
+  ],
 
   hasHebrew: false,
 };

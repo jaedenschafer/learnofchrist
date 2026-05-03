@@ -40,7 +40,15 @@ export const ECCLESIASTES_7: RichChapterContent = {
           kind: 'commentary',
           id: 'ecc7a-mid-death-laughter',
           html:
-            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.[res:british-museum-mesopotamia]',
+        },
+        {
+          kind: 'greek',
+          id: 'ecc7-sophia',
+          title: 'Sophia — "Wisdom"',
+          script: 'σοφία',
+          translit: '<strong>Sophia</strong> · wisdom; skill; practical understanding',
+          description: 'Wisdom in Greek thought is a virtue, a practical skill in living well. Yet Ecclesiastes questions whether it satisfies.',
         },
         {
           kind: 'scripture',
@@ -55,7 +63,7 @@ export const ECCLESIASTES_7: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ecc7-sorrow-teaches',
-          html: 'The Preacher establishes paradoxes: death is better than birth, mourning better than feasting, sorrow better than laughter. These are not invitations to despair but reminders that depth comes from facing reality, not fleeing it.',
+          html: 'The Preacher establishes paradoxes: death is better than birth, mourning better than feasting, sorrow better than laughter. These are not invitations to despair but reminders that depth comes from facing reality, not fleeing it.[res:sefaria-ecclesiastes-7]',
         },
         {
           kind: 'scripture',
@@ -70,7 +78,7 @@ export const ECCLESIASTES_7: RichChapterContent = {
           kind: 'commentary',
           id: 'ecc7b-mid-wisdom-rage',
           html:
-            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.[res:theoi-stoic-epicurean]',
         },
         {
           kind: 'scripture',
@@ -213,5 +221,32 @@ export const ECCLESIASTES_7: RichChapterContent = {
     ref: 'Ecclesiastes 7 · Study Guide',
   },
 
-  hasHebrew: false,
+    resources: [
+    {
+      id: 'sefaria-ecclesiastes-7',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ecclesiastes 7',
+      url: 'https://www.sefaria.org/Ecclesiastes.7',
+      description: 'Sefaria open-access source text and translations for Ecclesiastes 7.',
+    },
+    {
+      id: 'british-museum-mesopotamia',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'ANE Wisdom Literature (Mesopotamia)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Mesopotamian wisdom texts paralleling Ecclesiastes&apos; quest for meaning under existential circularity.',
+    },
+    {
+      id: 'theoi-stoic-epicurean',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Stoic and Epicurean Philosophy',
+      url: 'https://www.theoi.com/',
+      description: 'Hellenistic philosophical parallels to Ecclesiastes on pleasure, virtue, and the good life.',
+    },
+  ],
+
+  hasHebrew: true,
 };

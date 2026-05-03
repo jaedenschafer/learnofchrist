@@ -41,7 +41,15 @@ export const SONG_4: RichChapterContent = {
           kind: 'commentary',
           id: 'song-of-solomon-4-78mid-1',
           html:
-            'He speaks now, praising every part of her — her hair, eyes, teeth, lips. His desire matches hers, verse for verse. Both bride and bridegroom are fully awake to each other&apos;s beauty.',
+            'He speaks now, praising every part of her — her hair, eyes, teeth, lips. His desire matches hers, verse for verse. Both bride and bridegroom are fully awake to each other&apos;s beauty.[res:penn-museum-egyptian-love-poetry]',
+        },
+        {
+          kind: 'hebrew',
+          id: 'song4-gan',
+          title: 'Gan — "Garden"',
+          script: 'גַּן',
+          translit: '<strong>Gan</strong> · garden; enclosed place',
+          description: 'The bride is compared to a garden—lush, enclosed, fragrant, fertile.',
         },
         {
           kind: 'scripture',
@@ -57,13 +65,13 @@ export const SONG_4: RichChapterContent = {
           kind: 'commentary',
           id: 'song4-doves-eyes',
           html:
-            '"Thou hast doves&apos; eyes." The doves are symbols of gentleness, innocence, purity. He does not see harshness or judgment in her eyes, but gentleness. Thy hair is like goats on mount Gilead—healthy, numerous, beautiful in their natural movement. Each comparison is of something vital, living, natural. She is not made up or artificial. She is alive with beauty.',
+            '"Thou hast doves&apos; eyes." The doves are symbols of gentleness, innocence, purity. He does not see harshness or judgment in her eyes, but gentleness. Thy hair is like goats on mount Gilead—healthy, numerous, beautiful in their natural movement. Each comparison is of something vital, living, natural. She is not made up or artificial. She is alive with beauty.[res:sefaria-song-4]',
         },
         {
           kind: 'commentary',
           id: 'song4-teeth-flock',
           html:
-            '"Thy teeth are like a flock of sheep that are even shorn, and come up from the washing; whereof every one bear twins, and none is barren among them." The teeth are white, numerous, each one paired and healthy. The imagery suggests fertility, fullness, wholesomeness. There is nothing missing, nothing incomplete about her.',
+            '"Thy teeth are like a flock of sheep that are even shorn, and come up from the washing; whereof every one bear twins, and none is barren among them." The teeth are white, numerous, each one paired and healthy. The imagery suggests fertility, fullness, wholesomeness. There is nothing missing, nothing incomplete about her.[res:met-museum-egyptian-poetry]',
         },
         {
           kind: 'commentary',
@@ -153,6 +161,33 @@ export const SONG_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Song of Solomon 4 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-song-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Song of Solomon 4',
+      url: 'https://www.sefaria.org/Song_of_Songs.4',
+      description: 'Sefaria open-access source text and translations for Song of Solomon 4.',
+    },
+    {
+      id: 'penn-museum-egyptian-love-poetry',
+      kind: 'museum',
+      source: 'Penn Museum',
+      label: 'Egyptian Love Poetry Parallels',
+      url: 'https://www.penn.museum/',
+      description: 'Egyptian love songs showing literary and thematic parallels to biblical Song tradition.',
+    },
+    {
+      id: 'met-museum-egyptian-poetry',
+      kind: 'museum',
+      source: 'Metropolitan Museum',
+      label: 'Ancient Egypt: Love and Poetry',
+      url: 'https://www.metmuseum.org/',
+      description: 'Museum artifacts and literary texts illuminating Song of Solomon&apos;s erotic love poetry within ANE context.',
+    },
+  ],
 
   hasHebrew: false,
 };

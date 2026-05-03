@@ -40,7 +40,15 @@ export const ECCLESIASTES_5: RichChapterContent = {
           kind: 'commentary',
           id: 'ecc5a-mid-fear-dreams',
           html:
-            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.[res:british-museum-mesopotamia]',
+        },
+        {
+          kind: 'greek',
+          id: 'ecc5-holos',
+          title: 'Holos — "Whole"',
+          script: 'ὅλος',
+          translit: '<strong>Holos</strong> · whole; entire; complete',
+          description: 'The Preacher emphasizes wholeness—the whole heart, whole labor, whole life lived meaningfully under the sun.',
         },
         {
           kind: 'scripture',
@@ -56,13 +64,13 @@ export const ECCLESIASTES_5: RichChapterContent = {
           kind: 'commentary',
           id: 'ecc5-listen',
           html:
-            'The Preacher begins with a paradox. Do not be quick to speak in worship. Be more ready to hear than to give sacrifice. The "sacrifice of fools" is spoken of those who offer ritual without understanding, who go through the motions without reverence. The wise person approaches the house of God with caution, with listening ears. "Be not rash with thy mouth...therefore let thy words be few." God is in heaven, and we are on earth. The distance between God and man is infinite. Therefore, let our words be measured.',
+            'The Preacher begins with a paradox. Do not be quick to speak in worship. Be more ready to hear than to give sacrifice. The "sacrifice of fools" is spoken of those who offer ritual without understanding, who go through the motions without reverence. The wise person approaches the house of God with caution, with listening ears. "Be not rash with thy mouth...therefore let thy words be few." God is in heaven, and we are on earth. The distance between God and man is infinite. Therefore, let our words be measured.[res:sefaria-ecclesiastes-5]',
         },
         {
           kind: 'commentary',
           id: 'ecc5-vow',
           html:
-            'Words spoken to God are not casual. A vow is a binding promise. "When thou vowest a vow unto God, defer not to pay it." To vow and not pay is a sin. It is better not to vow at all than to make a promise you cannot or will not keep. The Preacher is speaking to the human tendency to make grand promises in moments of emotion, then fail to fulfill them. Once spoken, the words bind the speaker. And God holds the speaker accountable.',
+            'Words spoken to God are not casual. A vow is a binding promise. "When thou vowest a vow unto God, defer not to pay it." To vow and not pay is a sin. It is better not to vow at all than to make a promise you cannot or will not keep. The Preacher is speaking to the human tendency to make grand promises in moments of emotion, then fail to fulfill them. Once spoken, the words bind the speaker. And God holds the speaker accountable.[res:theoi-stoic-epicurean]',
         },
         {
           kind: 'commentary',
@@ -175,5 +183,32 @@ export const ECCLESIASTES_5: RichChapterContent = {
     ref: 'Ecclesiastes 5 · Study Guide',
   },
 
-  hasHebrew: false,
+    resources: [
+    {
+      id: 'sefaria-ecclesiastes-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ecclesiastes 5',
+      url: 'https://www.sefaria.org/Ecclesiastes.5',
+      description: 'Sefaria open-access source text and translations for Ecclesiastes 5.',
+    },
+    {
+      id: 'british-museum-mesopotamia',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'ANE Wisdom Literature (Mesopotamia)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Mesopotamian wisdom texts paralleling Ecclesiastes&apos; quest for meaning under existential circularity.',
+    },
+    {
+      id: 'theoi-stoic-epicurean',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Stoic and Epicurean Philosophy',
+      url: 'https://www.theoi.com/',
+      description: 'Hellenistic philosophical parallels to Ecclesiastes on pleasure, virtue, and the good life.',
+    },
+  ],
+
+  hasHebrew: true,
 };

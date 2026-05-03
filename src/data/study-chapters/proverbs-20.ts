@@ -33,13 +33,13 @@ export const PROVERBS_20: RichChapterContent = {
           kind: 'commentary',
           id: 'prov20-wine-mock',
           html:
-            'Wine does not merely intoxicate. It mocks—it deceives its drinker into thinking himself wiser, braver, freer than he is. It promises liberation and delivers bondage. It promises wisdom and delivers folly. The man who is deceived by wine, who believes wine&apos;s false promises, is not wise. He may think himself so after a few cups, but the wisdom of Proverbs sees through that delusion.',
+            'Wine does not merely intoxicate. It mocks—it deceives its drinker into thinking himself wiser, braver, freer than he is. It promises liberation and delivers bondage. It promises wisdom and delivers folly. The man who is deceived by wine, who believes wine&apos;s false promises, is not wise. He may think himself so after a few cups, but the wisdom of Proverbs sees through that delusion.[res:british-museum-amenemope]',
         },
         {
           kind: 'commentary',
           id: 'prov20-raging',
           html:
-            'Strong drink rages—it is not calm, not controlled. It is a wild thing that takes control of those who take it. To be "deceived" by drink is to mistake its raging for freedom, its chaos for joy, its emptiness for fulfillment.',
+            'Strong drink rages—it is not calm, not controlled. It is a wild thing that takes control of those who take it. To be "deceived" by drink is to mistake its raging for freedom, its chaos for joy, its emptiness for fulfillment.[res:sefaria-proverbs-20]',
         },
         {
           kind: 'carry',
@@ -69,7 +69,7 @@ export const PROVERBS_20: RichChapterContent = {
           kind: 'commentary',
           id: 'prov20-spirit-candle',
           html:
-            'The human spirit is like a candle—it is the lamp by which the Lord searches. Every corner of the inward self, every hidden chamber, every secret motive—the Lord&apos;s light exposes it all. This is not judgment in the sense of condemnation. It is omniscience, the seeing that only God can do.',
+            'The human spirit is like a candle—it is the lamp by which the Lord searches. Every corner of the inward self, every hidden chamber, every secret motive—the Lord&apos;s light exposes it all. This is not judgment in the sense of condemnation. It is omniscience, the seeing that only God can do.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'hebrew',
@@ -106,6 +106,33 @@ export const PROVERBS_20: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 20 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-proverbs-20',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 20',
+      url: 'https://www.sefaria.org/Proverbs.20',
+      description: 'Sefaria open-access source text and translations for Proverbs 20.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
 
   hasHebrew: true,
 };

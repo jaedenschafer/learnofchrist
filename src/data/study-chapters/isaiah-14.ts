@@ -41,13 +41,13 @@ export const ISAIAH_14: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah14-lucifer',
           html:
-            'The being called "Lucifer" (helel in Hebrew) is the "shining one," the "morning star," a being of light and brightness. Yet this very being, full of light, aspires to place his throne above the stars of God, to sit "upon the mount of the congregation, in the sides of the north"—the place where God dwells. This is not merely the ambition of a human king. This is the pride of a being who should know the majesty of God, yet chooses to rebel against it.',
+            'The being called "Lucifer" (helel in Hebrew) is the "shining one," the "morning star," a being of light and brightness. Yet this very being, full of light, aspires to place his throne above the stars of God, to sit "upon the mount of the congregation, in the sides of the north"—the place where God dwells. This is not merely the ambition of a human king. This is the pride of a being who should know the majesty of God, yet chooses to rebel against it.[res:sefaria-isaiah-14]',
         },
         {
           kind: 'commentary',
           id: 'isaiah14-five-i-wills',
           html:
-            'Notice the repeated "I will" statements. "I will ascend...I will exalt...I will sit...I will ascend...I will be like the most High." These are not statements of fact, but assertions of will—of intention divorced from reality. This being imagines that he can, through will alone, elevate himself to the status of God. But imagination and intention do not change the truth. And the truth is that only God is Most High. All other beings, no matter their power or brightness, remain creatures, remain under His authority.',
+            'Notice the repeated "I will" statements. "I will ascend...I will exalt...I will sit...I will ascend...I will be like the most High." These are not statements of fact, but assertions of will—of intention divorced from reality. This being imagines that he can, through will alone, elevate himself to the status of God. But imagination and intention do not change the truth. And the truth is that only God is Most High. All other beings, no matter their power or brightness, remain creatures, remain under His authority.[res:british-museum-babylon-tyre]',
         },
         {
           kind: 'hebrew',
@@ -115,6 +115,25 @@ export const ISAIAH_14: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 14:12 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-14',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 14',
+      url: 'https://www.sefaria.org/Isaiah.14',
+      description: 'Sefaria open-access source text and translations for Isaiah 14.',
+    },
+    {
+      id: 'british-museum-babylon-tyre',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Babylon & Tyre: Imperial Power',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Archaeological and textual evidence of the nations Isaiah prophesies against.',
+    },
+  ],
 
   hasHebrew: true,
 };

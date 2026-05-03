@@ -40,7 +40,15 @@ export const ISAIAH_52: RichChapterContent = {
           kind: 'commentary',
           id: 'isa52-awake',
           html:
-            'Zion is called to awake and put on her beautiful garments. She has been captive, defiled. Now she is restored, and the unclean shall no more enter her. The redeemed are returning. How beautiful are the feet of the gospel-bearer who announces peace and salvation. "Thy God reigneth!" This is the proclamation that transforms all things. The watchmen see eye to eye—they share a common vision of Zion restored.',
+            'Zion is called to awake and put on her beautiful garments. She has been captive, defiled. Now she is restored, and the unclean shall no more enter her. The redeemed are returning. How beautiful are the feet of the gospel-bearer who announces peace and salvation. "Thy God reigneth!" This is the proclamation that transforms all things. The watchmen see eye to eye—they share a common vision of Zion restored.[res:sefaria-isaiah-52]',
+        },
+        {
+          kind: 'hebrew',
+          id: 'isaiah52-shalom',
+          title: 'Shalom — "Peace"',
+          script: 'שָׁלוֹם',
+          translit: '<strong>Shalom</strong> · peace; wholeness; harmony',
+          description: 'The messenger announces peace—not mere absence of conflict but wholeness restored.',
         },
         {
           kind: 'hebrew',
@@ -76,7 +84,7 @@ export const ISAIAH_52: RichChapterContent = {
           kind: 'commentary',
           id: 'isa52-prudently',
           html:
-            'The Servant shall deal prudently—He acts with divine wisdom. He shall be exalted, extolled, very high. Yet this exaltation comes through a terrible path. His visage is marred more than any man. His form more than the sons of men. This disfigurement is so severe that many are astonished at Him.',
+            'The Servant shall deal prudently—He acts with divine wisdom. He shall be exalted, extolled, very high. Yet this exaltation comes through a terrible path. His visage is marred more than any man. His form more than the sons of men. This disfigurement is so severe that many are astonished at Him.[res:intertextual-isaiah-servant-nt]',
         },
         {
           kind: 'commentary',
@@ -110,6 +118,25 @@ export const ISAIAH_52: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 52 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-52',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 52',
+      url: 'https://www.sefaria.org/Isaiah.52',
+      description: 'Sefaria open-access source text and translations for Isaiah 52.',
+    },
+    {
+      id: 'intertextual-isaiah-servant-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah Servant Song ↔ NT Fulfillment',
+      url: 'https://intertextual.bible/',
+      description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
+    },
+  ],
 
   hasHebrew: true,
 };

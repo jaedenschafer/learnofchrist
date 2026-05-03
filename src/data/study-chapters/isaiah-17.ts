@@ -41,13 +41,13 @@ export const ISAIAH_17: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah17-damascus',
           html:
-            'The judgment on Damascus is swift and absolute. A city taken away from being a city—the paradox captures something total. Damascus will become a "ruinous heap," a place of rubble where once stood the seat of power. The prophet then expands the vision: not only Damascus, but Aroer and the fortifications of Ephraim, the very structures that represent political might and security. They shall be forsaken.',
+            'The judgment on Damascus is swift and absolute. A city taken away from being a city—the paradox captures something total. Damascus will become a "ruinous heap," a place of rubble where once stood the seat of power. The prophet then expands the vision: not only Damascus, but Aroer and the fortifications of Ephraim, the very structures that represent political might and security. They shall be forsaken.[res:sefaria-isaiah-17]',
         },
         {
           kind: 'commentary',
           id: 'isaiah17-remnant',
           html:
-            '"The remnant of Syria shall be as the glory of the children of Israel." This line contains judgment for both nations. Syria will be reduced to a remnant—a pitiful shadow of its former self. Israel&apos;s glory will likewise be diminished. But the difference is crucial: Israel&apos;s diminishment is not the end. It is the beginning of a return to God.',
+            '"The remnant of Syria shall be as the glory of the children of Israel." This line contains judgment for both nations. Syria will be reduced to a remnant—a pitiful shadow of its former self. Israel&apos;s glory will likewise be diminished. But the difference is crucial: Israel&apos;s diminishment is not the end. It is the beginning of a return to God.[res:british-museum-babylon-tyre]',
         },
         {
           kind: 'hebrew',
@@ -145,6 +145,25 @@ export const ISAIAH_17: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 17 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-17',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 17',
+      url: 'https://www.sefaria.org/Isaiah.17',
+      description: 'Sefaria open-access source text and translations for Isaiah 17.',
+    },
+    {
+      id: 'british-museum-babylon-tyre',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Babylon & Tyre: Imperial Power',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Archaeological and textual evidence of the nations Isaiah prophesies against.',
+    },
+  ],
 
   hasHebrew: true,
 };

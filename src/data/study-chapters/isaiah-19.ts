@@ -41,7 +41,7 @@ export const ISAIAH_19: RichChapterContent = {
           kind: 'commentary',
           id: 'isa19-pivot',
           html:
-            'The oracle pivots from the desolation to the dawn. Through judgment comes the turn—Egypt will know the Lord and be healed.',
+            'The oracle pivots from the desolation to the dawn. Through judgment comes the turn—Egypt will know the Lord and be healed.[res:sefaria-isaiah-19]',
         },
         {
           kind: 'scripture',
@@ -58,7 +58,7 @@ export const ISAIAH_19: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah19-judgment',
           html:
-            'The judgment on Egypt begins with the Lord riding upon a swift cloud, coming into Egypt. This is not merely political consequence—this is the presence of God Himself entering the land. The idols "shall be moved at his presence," and "the heart of Egypt shall melt." The great civilization, confident in its gods and its power, experiences the terror of the holy.',
+            'The judgment on Egypt begins with the Lord riding upon a swift cloud, coming into Egypt. This is not merely political consequence—this is the presence of God Himself entering the land. The idols "shall be moved at his presence," and "the heart of Egypt shall melt." The great civilization, confident in its gods and its power, experiences the terror of the holy.[res:british-museum-babylon-tyre]',
         },
         {
           kind: 'commentary',
@@ -165,6 +165,25 @@ export const ISAIAH_19: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 19 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-19',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 19',
+      url: 'https://www.sefaria.org/Isaiah.19',
+      description: 'Sefaria open-access source text and translations for Isaiah 19.',
+    },
+    {
+      id: 'british-museum-babylon-tyre',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Babylon & Tyre: Imperial Power',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Archaeological and textual evidence of the nations Isaiah prophesies against.',
+    },
+  ],
 
   hasHebrew: true,
 };

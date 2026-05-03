@@ -43,7 +43,7 @@ export const PROVERBS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'prov2-seek-promise',
           html:
-            'The first section establishes the condition and the promise. Condition: seek wisdom with intensity, hide God&apos;s words deep within your heart, incline your ear, apply your heart. Promise: then you will understand the fear of the Lord. God is not stingy with wisdom. It flows from His mouth. He lays it up for the righteous. The pursuit of wisdom is met with God&apos;s generous giving.',
+            'The first section establishes the condition and the promise. Condition: seek wisdom with intensity, hide God&apos;s words deep within your heart, incline your ear, apply your heart. Promise: then you will understand the fear of the Lord. God is not stingy with wisdom. It flows from His mouth. He lays it up for the righteous. The pursuit of wisdom is met with God&apos;s generous giving.[res:british-museum-amenemope]',
         },
         {
           kind: 'scripture',
@@ -59,7 +59,7 @@ export const PROVERBS_2: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov2-receive-hide',
-          html: 'To "receive" God&apos;s words and to "hide" His commandments means more than hearing them passively. It means to take them in, to store them, to let them become so much a part of you that they are hidden in the depths of your being, waiting to shape your choices when you need them most. This is not a casual relationship with God&apos;s instruction but a committed one.',
+          html: 'To "receive" God&apos;s words and to "hide" His commandments means more than hearing them passively. It means to take them in, to store them, to let them become so much a part of you that they are hidden in the depths of your being, waiting to shape your choices when you need them most. This is not a casual relationship with God&apos;s instruction but a committed one.[res:sefaria-proverbs-2]',
         },
         {
           kind: 'hebrew',
@@ -72,7 +72,7 @@ export const PROVERBS_2: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov2-silver-treasure',
-          html: 'The seeking of wisdom is compared to the seeking of silver and hidden treasures. Silver is not found by the lazy or the indifferent. It requires effort, skill, persistence, the willingness to dig, to search, to follow leads. So too with wisdom. It is not given without seeking. But for those who seek with this intensity, the search yields what is truly valuable—not wealth, but understanding that protects and guides.',
+          html: 'The seeking of wisdom is compared to the seeking of silver and hidden treasures. Silver is not found by the lazy or the indifferent. It requires effort, skill, persistence, the willingness to dig, to search, to follow leads. So too with wisdom. It is not given without seeking. But for those who seek with this intensity, the search yields what is truly valuable—not wealth, but understanding that protects and guides.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'christ',
@@ -169,6 +169,33 @@ export const PROVERBS_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 2 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-proverbs-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 2',
+      url: 'https://www.sefaria.org/Proverbs.2',
+      description: 'Sefaria open-access source text and translations for Proverbs 2.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
 
   hasHebrew: true,
 };

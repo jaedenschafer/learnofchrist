@@ -41,7 +41,7 @@ export const ISAIAH_44: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-no-other',
           html:
-            '<p>I am the Lord; there is no other. I form light and darkness, I make all things. Turn to Me and be saved.</p>',
+            '<p>I am the Lord; there is no other. I form light and darkness, I make all things. Turn to Me and be saved.[res:sefaria-isaiah-44]</p>',
         },
         {
           kind: 'scripture',
@@ -57,7 +57,7 @@ export const ISAIAH_44: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah44-alone',
           html:
-            'The declaration crescendos: "Is there a God beside me? yea, there is no God; I know not any." Israel is God&apos;s witness to this truth. This is not a boast. This is an invitation to step into history knowing that one God rules. Everything else flows from this single assertion.',
+            'The declaration crescendos: "Is there a God beside me? yea, there is no God; I know not any." Israel is God&apos;s witness to this truth. This is not a boast. This is an invitation to step into history knowing that one God rules. Everything else flows from this single assertion.[res:intertextual-isaiah-servant-nt]',
         },
         {
           kind: 'scripture',
@@ -186,6 +186,25 @@ export const ISAIAH_44: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 44 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-44',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 44',
+      url: 'https://www.sefaria.org/Isaiah.44',
+      description: 'Sefaria open-access source text and translations for Isaiah 44.',
+    },
+    {
+      id: 'intertextual-isaiah-servant-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah Servant Song ↔ NT Fulfillment',
+      url: 'https://intertextual.bible/',
+      description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
+    },
+  ],
 
   hasHebrew: true,
 };

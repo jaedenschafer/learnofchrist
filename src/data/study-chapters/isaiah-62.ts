@@ -44,6 +44,14 @@ export const ISAIAH_62: RichChapterContent = {
             'The prophet declares: For Zion\'s sake, I will not hold my peace. I will not rest. This is passionate, persistent intercession. The prophet\'s silence would be betrayal. He cries out until Zion\'s righteousness shines forth as brightness, until her salvation burns as a lamp.',
         },
         {
+          kind: 'hebrew',
+          id: 'isaiah62-chibah',
+          title: 'Chiba — "Delight"',
+          script: 'חִבָּה',
+          translit: '<strong>Chiba</strong> · delight; favor; affection',
+          description: 'God delights in His people and will not be silent until their righteousness shines forth.',
+        },
+        {
           kind: 'commentary',
           id: 'isa62-names',
           html:
@@ -83,7 +91,7 @@ export const ISAIAH_62: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-name-restored',
           html:
-            '<p>You will be called by a new name the Lord&apos;s mouth proclaims. A ring of joy encircles the redeemed.</p>',
+            \'<p>You will be called by a new name the Lord&apos;s mouth proclaims. A ring of joy encircles the redeemed.[res:sefaria-isaiah-62]</p>\',
         },
         {
           kind: 'scripture',
@@ -105,25 +113,25 @@ export const ISAIAH_62: RichChapterContent = {
           kind: 'commentary',
           id: 'isa62-gates',
           html:
-            'The gates are opened. The way is prepared. A highway is cast up. Stones are gathered out. A standard is lifted up for the people. This is the preparation for the coming of the Bridegroom. All creation is made ready.',
+            \'The gates are opened. The way is prepared. A highway is cast up. Stones are gathered out. A standard is lifted up for the people. This is the preparation for the coming of the Bridegroom. All creation is made ready.\',
         },
         {
           kind: 'commentary',
           id: 'isa62-salvation',
           html:
-            'Behold, thy salvation comes! His reward is with Him, and His work before Him. The Daughter of Zion is called "Sought out," no longer "Forsaken." She is "The redeemed of the Lord," "The holy people." Every name now speaks of her worth, her belonging, her redemption.',
+            \'Behold, thy salvation comes! His reward is with Him, and His work before Him. The Daughter of Zion is called "Sought out," no longer "Forsaken." She is "The redeemed of the Lord," "The holy people." Every name now speaks of her worth, her belonging, her redemption.\',
         },
         {
           kind: 'christ',
           id: 'isa62-christ-bridegroom',
           title: 'Christ Connection — The Bridegroom',
           html:
-            'In Revelation 19:7–9, John writes: "Let us be glad and rejoice, and give honour to him: for the marriage of the Lamb is come, and his wife hath made herself ready...Blessed are they which are called unto the marriage supper of the Lamb." Christ is the Bridegroom coming for His Bride, the Church. The watchmen of Isaiah 62 are the saints who pray, "Come, Lord Jesus." The new name Zion receives is the name given to the Church—the Bride of Christ, redeemed and glorified.',
+            \'In Revelation 19:7–9, John writes: "Let us be glad and rejoice, and give honour to him: for the marriage of the Lamb is come, and his wife hath made herself ready...Blessed are they which are called unto the marriage supper of the Lamb." Christ is the Bridegroom coming for His Bride, the Church. The watchmen of Isaiah 62 are the saints who pray, "Come, Lord Jesus." The new name Zion receives is the name given to the Church—the Bride of Christ, redeemed and glorified.\',
         },
         {
           kind: 'carry',
           html:
-            'Isaiah 62 speaks to all who feel passed over, rejected, not chosen. God declares: You are my delight. You are chosen, sought out, beloved. Watchmen stand on the walls praying for your good. The Bridegroom is coming. Prepare the highway. He is coming for you.',
+            \'Isaiah 62 speaks to all who feel passed over, rejected, not chosen. God declares: You are my delight. You are chosen, sought out, beloved. Watchmen stand on the walls praying for your good. The Bridegroom is coming. Prepare the highway. He is coming for you.\',
         },
         {
           kind: 'reflection',
@@ -139,4 +147,17 @@ export const ISAIAH_62: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 62 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-isaiah-62',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 62',
+      url: 'https://www.sefaria.org/Isaiah.62',
+      description: 'Sefaria open-access source text and translations for Isaiah 62.',
+    },
+  ],
+
+  hasHebrew: true,
 };

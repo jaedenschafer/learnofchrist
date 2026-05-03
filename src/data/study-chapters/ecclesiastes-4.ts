@@ -42,7 +42,7 @@ export const ECCLESIASTES_4: RichChapterContent = {
           kind: 'commentary',
           id: 'ecc4a-mid-vanity-toil',
           html:
-            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.[res:british-museum-mesopotamia]',
         },
         {
           kind: 'scripture',
@@ -58,13 +58,13 @@ export const ECCLESIASTES_4: RichChapterContent = {
           kind: 'commentary',
           id: 'ecc4-oppression',
           html:
-            'The Preacher turns from abstraction to reality. He observes oppression—real human suffering. He sees the tears of the oppressed and notes with bitter clarity: they have no comforter. The oppressors have power, but that power is used to crush. And the oppressed have no one to comfort them. This is not vanity in the sense of being empty or unreal. This is vanity in the sense of being pointless cruelty. The Preacher is so moved by this sight that he says the dead are more fortunate than the living.',
+            'The Preacher turns from abstraction to reality. He observes oppression—real human suffering. He sees the tears of the oppressed and notes with bitter clarity: they have no comforter. The oppressors have power, but that power is used to crush. And the oppressed have no one to comfort them. This is not vanity in the sense of being empty or unreal. This is vanity in the sense of being pointless cruelty. The Preacher is so moved by this sight that he says the dead are more fortunate than the living.[res:sefaria-ecclesiastes-4]',
         },
         {
           kind: 'commentary',
           id: 'ecc4-envy',
           html:
-            'The Preacher turns next to envy. He sees that "for this a man is envied of his neighbour"—because he does good work, because he succeeds, because he rises above others. Success breeds envy. And envy breeds conflict. The person who works hard, who excels, becomes the target of his neighbor&apos;s resentment. And the Preacher judges: this is vanity and vexation of spirit. The struggle to surpass others, to rise above them, to distinguish yourself—this leads not to satisfaction but to conflict.',
+            'The Preacher turns next to envy. He sees that "for this a man is envied of his neighbour"—because he does good work, because he succeeds, because he rises above others. Success breeds envy. And envy breeds conflict. The person who works hard, who excels, becomes the target of his neighbor&apos;s resentment. And the Preacher judges: this is vanity and vexation of spirit. The struggle to surpass others, to rise above them, to distinguish yourself—this leads not to satisfaction but to conflict.[res:theoi-stoic-epicurean]',
         },
         {
           kind: 'commentary',
@@ -157,6 +157,33 @@ export const ECCLESIASTES_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ecclesiastes 4 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-ecclesiastes-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ecclesiastes 4',
+      url: 'https://www.sefaria.org/Ecclesiastes.4',
+      description: 'Sefaria open-access source text and translations for Ecclesiastes 4.',
+    },
+    {
+      id: 'british-museum-mesopotamia',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'ANE Wisdom Literature (Mesopotamia)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Mesopotamian wisdom texts paralleling Ecclesiastes&apos; quest for meaning under existential circularity.',
+    },
+    {
+      id: 'theoi-stoic-epicurean',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Stoic and Epicurean Philosophy',
+      url: 'https://www.theoi.com/',
+      description: 'Hellenistic philosophical parallels to Ecclesiastes on pleasure, virtue, and the good life.',
+    },
+  ],
 
   hasHebrew: true,
 };

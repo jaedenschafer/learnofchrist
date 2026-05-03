@@ -42,13 +42,13 @@ export const ISAIAH_1: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah1-vision',
           html:
-            'Isaiah&apos;s prophecy begins not with his own thoughts but with a vision. He has seen what God has shown him. This claim — to have received a revelation — sets the tone for everything that follows. Isaiah does not speak from speculation or human wisdom. He speaks from a seeing, a disclosure of reality that transcends ordinary knowledge. The context is specific: the reigns of four kings of Judah. History itself becomes the stage for God&apos;s revelation.',
+            'Isaiah&apos;s prophecy begins not with his own thoughts but with a vision. He has seen what God has shown him. This claim — to have received a revelation — sets the tone for everything that follows. Isaiah does not speak from speculation or human wisdom. He speaks from a seeing, a disclosure of reality that transcends ordinary knowledge. The context is specific: the reigns of four kings of Judah. History itself becomes the stage for God&apos;s revelation.[res:sefaria-isaiah-1]',
         },
         {
           kind: 'commentary',
           id: 'isaiah1-rebellion',
           html:
-            'God speaks first to the heavens and the earth, as if to call the universe itself as a witness. Then He makes His complaint known: He has nourished and brought up children, and they have rebelled. The language is intimate — children who have turned against their father. The ox and the ass know their masters, but God&apos;s own people have refused to know Him. This is rebellion not born of ignorance but of choice.',
+            'God speaks first to the heavens and the earth, as if to call the universe itself as a witness. Then He makes His complaint known: He has nourished and brought up children, and they have rebelled. The language is intimate — children who have turned against their father. The ox and the ass know their masters, but God&apos;s own people have refused to know Him. This is rebellion not born of ignorance but of choice.[res:intertextual-isaiah-1-matthew]',
         },
         {
           kind: 'hebrew',
@@ -129,6 +129,25 @@ export const ISAIAH_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 1:18 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 1',
+      url: 'https://www.sefaria.org/Isaiah.1',
+      description: 'Sefaria open-access source text and translations for Isaiah 1.',
+    },
+    {
+      id: 'intertextual-isaiah-1-matthew',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 1 ↔ Matthew Intertextual Links',
+      url: 'https://intertextual.bible/',
+      description: 'Connections between Isaiah 1 and New Testament fulfillment, especially Matt 1–12.',
+    },
+  ],
 
   hasHebrew: true,
 };

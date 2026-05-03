@@ -34,13 +34,21 @@ export const PROVERBS_24: RichChapterContent = {
           kind: 'commentary',
           id: 'prov24-house-builded',
           html:
-            'A house is not built by accident or by force. It is built through wisdom—the choice of a good location, sound architecture, durable materials. It is established through understanding—the knowledge of how things work, how to endure, how to stand. And through knowledge, the chambers are filled—not merely with shelter, but with riches, with everything that makes a life full and pleasant.',
+            'A house is not built by accident or by force. It is built through wisdom—the choice of a good location, sound architecture, durable materials. It is established through understanding—the knowledge of how things work, how to endure, how to stand. And through knowledge, the chambers are filled—not merely with shelter, but with riches, with everything that makes a life full and pleasant.[res:british-museum-amenemope]',
+        },
+        {
+          kind: 'hebrew',
+          id: 'prov24-chacham',
+          title: 'Chacham — "Wise"',
+          script: 'חָכָם',
+          translit: '<strong>Chacham</strong> · wise; shrewd; skillful in understanding',
+          description: 'The wise one is not merely learned but skilled in discernment—able to read situations, navigate challenges, and live well.',
         },
         {
           kind: 'commentary',
           id: 'prov24-precious',
           html:
-            'The riches that fill the house of the wise are both precious and pleasant. They have value and they bring joy. This is not the anxious accumulation of wealth. This is the natural overflow of a life ordered by wisdom. The wise man is not poor. He builds, he fills his chambers, he enjoys the fruits of his understanding.',
+            'The riches that fill the house of the wise are both precious and pleasant. They have value and they bring joy. This is not the anxious accumulation of wealth. This is the natural overflow of a life ordered by wisdom. The wise man is not poor. He builds, he fills his chambers, he enjoys the fruits of his understanding.[res:sefaria-proverbs-24]',
         },
         {
           kind: 'carry',
@@ -71,7 +79,7 @@ export const PROVERBS_24: RichChapterContent = {
           kind: 'commentary',
           id: 'prov24-enemy-fall',
           html:
-            'When your enemy falls, something in you wants to celebrate. You have been vindicated. Justice has been served. But Proverbs asks for restraint. Do not let your heart be glad. Why? Not primarily for the enemy&apos;s sake, but for your own. The gloating over another&apos;s fall diminishes you, darkens your own spirit.',
+            'When your enemy falls, something in you wants to celebrate. You have been vindicated. Justice has been served. But Proverbs asks for restraint. Do not let your heart be glad. Why? Not primarily for the enemy&apos;s sake, but for your own. The gloating over another&apos;s fall diminishes you, darkens your own spirit.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'commentary',
@@ -105,4 +113,32 @@ export const PROVERBS_24: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 24 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-proverbs-24',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 24',
+      url: 'https://www.sefaria.org/Proverbs.24',
+      description: 'Sefaria open-access source text and translations for Proverbs 24.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
+
 };

@@ -35,13 +35,21 @@ export const PROVERBS_22: RichChapterContent = {
           kind: 'commentary',
           id: 'prov22-good-name',
           html:
-            'The world values wealth. Accumulate it, display it, let it define you. But Proverbs reverses this. A good name—your reputation, your character as known in your community—is more valuable than all the riches you could amass. Why? Because a good name is portable. It goes before you and opens doors. It is built slowly and lasts. Riches are fragile—lost to theft, misfortune, bad judgment. A name, once established as good, endures.',
+            'The world values wealth. Accumulate it, display it, let it define you. But Proverbs reverses this. A good name—your reputation, your character as known in your community—is more valuable than all the riches you could amass. Why? Because a good name is portable. It goes before you and opens doors. It is built slowly and lasts. Riches are fragile—lost to theft, misfortune, bad judgment. A name, once established as good, endures.[res:sefaria-proverbs-22]',
+        },
+        {
+          kind: 'hebrew',
+          id: 'prov22-sheol',
+          title: 'Sheol — "The Grave"',
+          script: 'שְׁאוֹל',
+          translit: '<strong>Sheol</strong> · the grave; the realm of the dead; the place of departure',
+          description: 'Sheol is not eternal punishment but the common grave—the destination of all flesh, poor and rich alike. It is the great leveler.',
         },
         {
           kind: 'commentary',
           id: 'prov22-loving-favour',
           html:
-            'Loving favour—the esteem in which others hold you, not because you have paid them but because of who you are—this is more valuable than silver and gold. This is not popularity or flattery. This is genuine regard earned through consistent character.',
+            'Loving favour—the esteem in which others hold you, not because you have paid them but because of who you are—this is more valuable than silver and gold. This is not popularity or flattery. This is genuine regard earned through consistent character.[res:british-museum-amenemope]',
         },
         {
           kind: 'carry',
@@ -71,7 +79,7 @@ export const PROVERBS_22: RichChapterContent = {
           kind: 'commentary',
           id: 'prov22-train-child',
           html:
-            'This verse is not a promise of perfect obedience. It is a statement about formation and habit. A child trained early in a certain way develops patterns—of thinking, of responding, of choosing—that tend to persist. "In the way he should go" suggests not a one-size-fits-all path, but formation suited to the child&apos;s particular nature. Training is the shaping of that nature toward wisdom and righteousness.',
+            'This verse is not a promise of perfect obedience. It is a statement about formation and habit. A child trained early in a certain way develops patterns—of thinking, of responding, of choosing—that tend to persist. "In the way he should go" suggests not a one-size-fits-all path, but formation suited to the child&apos;s particular nature. Training is the shaping of that nature toward wisdom and righteousness.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'commentary',
@@ -105,4 +113,32 @@ export const PROVERBS_22: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 22 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-proverbs-22',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 22',
+      url: 'https://www.sefaria.org/Proverbs.22',
+      description: 'Sefaria open-access source text and translations for Proverbs 22.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
+
 };

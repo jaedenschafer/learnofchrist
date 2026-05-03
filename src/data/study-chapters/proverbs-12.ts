@@ -39,7 +39,7 @@ export const PROVERBS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'prov12-mid-tongue-roots',
           html:
-            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.[res:british-museum-amenemope]',
         },
         {
           kind: 'scripture',
@@ -54,7 +54,7 @@ export const PROVERBS_12: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov12-wisdom-reproach',
-          html: 'Love of instruction reveals your nature as human; hatred of reproof reveals brutishness. The righteous are grounded and cannot be moved; the wicked are overthrown. Wisdom brings commendation; a froward heart brings despising.',
+          html: 'Love of instruction reveals your nature as human; hatred of reproof reveals brutishness. The righteous are grounded and cannot be moved; the wicked are overthrown. Wisdom brings commendation; a froward heart brings despising.[res:sefaria-proverbs-12]',
         },
         {
           kind: 'scripture',
@@ -69,7 +69,7 @@ export const PROVERBS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'prov12b-mid-labor-soul',
           html:
-            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'scripture',
@@ -196,6 +196,33 @@ export const PROVERBS_12: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 12 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-proverbs-12',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 12',
+      url: 'https://www.sefaria.org/Proverbs.12',
+      description: 'Sefaria open-access source text and translations for Proverbs 12.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
 
   hasHebrew: true,
 };

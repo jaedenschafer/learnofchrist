@@ -39,7 +39,7 @@ export const ISAIAH_46: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-carried-old',
           html:
-            '<p>From birth I have carried you; to old age I will sustain you. There is none like Me; I will do all I please.</p>',
+            '<p>From birth I have carried you; to old age I will sustain you. There is none like Me; I will do all I please.[res:sefaria-isaiah-46]</p>',
         },
         {
           kind: 'scripture',
@@ -55,7 +55,7 @@ export const ISAIAH_46: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah46-idols-to-sovereignty',
           html:
-            'The idols are carried by beasts weighed down with burden. They cannot save themselves, let alone those who worship them. But God carries His people from the womb to old age, promising deliverance. Now comes the turning point: from the satire on idols to the assertion of God&apos;s absolute sovereignty over all history.',
+            'The idols are carried by beasts weighed down with burden. They cannot save themselves, let alone those who worship them. But God carries His people from the womb to old age, promising deliverance. Now comes the turning point: from the satire on idols to the assertion of God&apos;s absolute sovereignty over all history.[res:intertextual-isaiah-servant-nt]',
         },
         {
           kind: 'scripture',
@@ -122,6 +122,25 @@ export const ISAIAH_46: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 46 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-46',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 46',
+      url: 'https://www.sefaria.org/Isaiah.46',
+      description: 'Sefaria open-access source text and translations for Isaiah 46.',
+    },
+    {
+      id: 'intertextual-isaiah-servant-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah Servant Song ↔ NT Fulfillment',
+      url: 'https://intertextual.bible/',
+      description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
+    },
+  ],
 
   hasHebrew: true,
 };

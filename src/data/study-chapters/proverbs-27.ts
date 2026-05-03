@@ -35,7 +35,7 @@ export const PROVERBS_27: RichChapterContent = {
           kind: 'commentary',
           id: 'prov27-iron-sharp',
           html:
-            'When two pieces of iron are drawn across each other, both are sharpened. Neither one sharpens itself alone. In the same way, a man sharpens the countenance—the face, the presence, the whole aspect—of his friend. Through interaction, challenge, mutual growth, friends make each other keener, wiser, more refined.',
+            'When two pieces of iron are drawn across each other, both are sharpened. Neither one sharpens itself alone. In the same way, a man sharpens the countenance—the face, the presence, the whole aspect—of his friend. Through interaction, challenge, mutual growth, friends make each other keener, wiser, more refined.[res:british-museum-amenemope]',
         },
         {
           kind: 'hebrew',
@@ -75,13 +75,13 @@ export const PROVERBS_27: RichChapterContent = {
           kind: 'commentary',
           id: 'prov27-open-rebuke',
           html:
-            'Secret love that does not speak truth is not love at all. It is complicity. True love says what needs to be said, even when it hurts. An open rebuke is better because it is honest, because it offers the chance to change, because it shows you matter enough to be corrected.',
+            'Secret love that does not speak truth is not love at all. It is complicity. True love says what needs to be said, even when it hurts. An open rebuke is better because it is honest, because it offers the chance to change, because it shows you matter enough to be corrected.[res:sefaria-proverbs-27]',
         },
         {
           kind: 'commentary',
           id: 'prov27-wounds-friend',
           html:
-            'The wounds of a faithful friend are received gladly, because you know they come from love. The friend wounds you not to destroy but to heal, not to humiliate but to correct. These wounds are expressions of loyalty. The kisses of an enemy, by contrast, are deceitful—they smile while they plot your harm, they flatter while they betray.',
+            'The wounds of a faithful friend are received gladly, because you know they come from love. The friend wounds you not to destroy but to heal, not to humiliate but to correct. These wounds are expressions of loyalty. The kisses of an enemy, by contrast, are deceitful—they smile while they plot your harm, they flatter while they betray.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'christ',
@@ -109,6 +109,33 @@ export const PROVERBS_27: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 27 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-proverbs-27',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 27',
+      url: 'https://www.sefaria.org/Proverbs.27',
+      description: 'Sefaria open-access source text and translations for Proverbs 27.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
 
   hasHebrew: true,
 };

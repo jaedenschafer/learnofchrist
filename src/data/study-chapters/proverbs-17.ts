@@ -35,13 +35,21 @@ export const PROVERBS_17: RichChapterContent = {
           kind: 'commentary',
           id: 'prov17-spare-words',
           html:
-            'Knowledge is not the multiplication of speech. The man with knowledge does not display his learning by filling every silence. He spares his words—uses them carefully, places them where they matter. A man of understanding has an excellent spirit, a spirit of restraint and discernment. He knows that the most powerful speech is the speech that comes after thoughtfulness.',
+            'Knowledge is not the multiplication of speech. The man with knowledge does not display his learning by filling every silence. He spares his words—uses them carefully, places them where they matter. A man of understanding has an excellent spirit, a spirit of restraint and discernment. He knows that the most powerful speech is the speech that comes after thoughtfulness.[res:british-museum-amenemope]',
+        },
+        {
+          kind: 'hebrew',
+          id: 'prov17-lev',
+          title: 'Lev — "Heart"',
+          script: 'לֵב',
+          translit: '<strong>Lev</strong> · heart; seat of wisdom, emotion, will',
+          description: 'In Hebrew thought, the heart is not merely the seat of emotion but the center of all life—will, understanding, and moral choice. The heart guards all one does.',
         },
         {
           kind: 'commentary',
           id: 'prov17-fool-peace',
           html:
-            'Even a fool can appear wise if he remains silent. There is dark humor here—the fool is not wise, but his silence disguises his foolishness. Conversely, the moment he opens his mouth, all becomes clear. This is a call to silence as protection and as power. In a world that equates visibility with worth and noise with strength, wisdom whispers: silence is its own testimony.',
+            'Even a fool can appear wise if he remains silent. There is dark humor here—the fool is not wise, but his silence disguises his foolishness. Conversely, the moment he opens his mouth, all becomes clear. This is a call to silence as protection and as power. In a world that equates visibility with worth and noise with strength, wisdom whispers: silence is its own testimony.[res:sefaria-proverbs-17]',
         },
         {
           kind: 'carry',
@@ -71,7 +79,7 @@ export const PROVERBS_17: RichChapterContent = {
           kind: 'commentary',
           id: 'prov17-friend-always',
           html:
-            'Most loves are conditioned. They flourish when circumstances align, when benefit flows, when affection is returned in kind. But a friend loves at all times—in success and failure, in clarity and confusion, when the cost is high and when it might be higher. This is not romantic love, which burns hot and can burn out. This is the steady flame of true friendship, burning regardless of season or circumstance.',
+            'Most loves are conditioned. They flourish when circumstances align, when benefit flows, when affection is returned in kind. But a friend loves at all times—in success and failure, in clarity and confusion, when the cost is high and when it might be higher. This is not romantic love, which burns hot and can burn out. This is the steady flame of true friendship, burning regardless of season or circumstance.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'commentary',
@@ -105,4 +113,32 @@ export const PROVERBS_17: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 17 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-proverbs-17',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 17',
+      url: 'https://www.sefaria.org/Proverbs.17',
+      description: 'Sefaria open-access source text and translations for Proverbs 17.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
+
 };

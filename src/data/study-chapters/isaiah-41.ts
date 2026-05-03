@@ -39,7 +39,7 @@ export const ISAIAH_41: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-righteousness-hand',
           html:
-            '<p>The righteous are grasped by God&apos;s right hand. Fear not; I am with you. From sunrise to sunset, He holds you.</p>',
+            '<p>The righteous are grasped by God&apos;s right hand. Fear not; I am with you. From sunrise to sunset, He holds you.[res:sefaria-isaiah-41]</p>',
         },
         {
           kind: 'scripture',
@@ -55,7 +55,7 @@ export const ISAIAH_41: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah41-courtroom',
           html:
-            'God calls the islands and nations to silence before Him. The "righteous man from the east" (Cyrus) is raised up, and nations fall before him. But notice: God does not assert power through force alone. This is a courtroom scene. "Keep silence before me...let us come near together to judgment." Let the evidence be heard. Let truth settle it.',
+            'God calls the islands and nations to silence before Him. The "righteous man from the east" (Cyrus) is raised up, and nations fall before him. But notice: God does not assert power through force alone. This is a courtroom scene. "Keep silence before me...let us come near together to judgment." Let the evidence be heard. Let truth settle it.[res:intertextual-isaiah-servant-nt]',
         },
         {
           kind: 'scripture',
@@ -70,7 +70,7 @@ export const ISAIAH_41: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-righteousness-hand-2',
           html:
-            '<p>Fear not, for I am with you. I will strengthen and help you. My righteous right hand upholds you.</p>',
+            '<p>Fear not, for I am with you. I will strengthen and help you. My righteous right hand upholds you.[res:british-museum-cyrus-cylinder]</p>',
         },
         {
           kind: 'scripture',
@@ -225,6 +225,33 @@ export const ISAIAH_41: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 41 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-41',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 41',
+      url: 'https://www.sefaria.org/Isaiah.41',
+      description: 'Sefaria open-access source text and translations for Isaiah 41.',
+    },
+    {
+      id: 'intertextual-isaiah-servant-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah Servant Song ↔ NT Fulfillment',
+      url: 'https://intertextual.bible/',
+      description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
+    },
+    {
+      id: 'british-museum-cyrus-cylinder',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Cyrus Cylinder',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Persian decree of Cyrus II — the liberator Isaiah 45 names by prophecy.',
+    },
+  ],
 
   hasHebrew: true,
 };

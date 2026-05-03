@@ -39,7 +39,7 @@ export const PROVERBS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'prov4-mid-excel-wisdom',
           html:
-            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.[res:british-museum-amenemope]',
         },
         {
           kind: 'scripture',
@@ -55,7 +55,7 @@ export const PROVERBS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'prov4-principal-wisdom',
           html:
-            'The heart of this passage is the bold declaration: "Wisdom is the principal thing." Not merely important or valuable—principal. Everything else comes second to the pursuit of understanding. The father speaks not as a theorist, but as one who has lived, who knows the consequences of wise and foolish choices.',
+            'The heart of this passage is the bold declaration: "Wisdom is the principal thing." Not merely important or valuable—principal. Everything else comes second to the pursuit of understanding. The father speaks not as a theorist, but as one who has lived, who knows the consequences of wise and foolish choices.[res:sefaria-proverbs-4]',
         },
         {
           kind: 'scripture',
@@ -72,7 +72,7 @@ export const PROVERBS_4: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov4-get-wisdom',
-          html: 'The father makes an extraordinary claim: "Wisdom is the principal thing." Not money, not health, not status, but wisdom. And the call is urgent: "get wisdom...forget it not." This is the kind of language we use for things that are non-negotiable, essential. The father is saying: Make wisdom your first priority. Before everything else, seek understanding. Nothing else will matter if you miss this.',
+          html: 'The father makes an extraordinary claim: "Wisdom is the principal thing." Not money, not health, not status, but wisdom. And the call is urgent: "get wisdom...forget it not." This is the kind of language we use for things that are non-negotiable, essential. The father is saying: Make wisdom your first priority. Before everything else, seek understanding. Nothing else will matter if you miss this.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'hebrew',
@@ -193,6 +193,33 @@ export const PROVERBS_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 4 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-proverbs-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 4',
+      url: 'https://www.sefaria.org/Proverbs.4',
+      description: 'Sefaria open-access source text and translations for Proverbs 4.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
 
   hasHebrew: true,
 };

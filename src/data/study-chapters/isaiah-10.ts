@@ -40,13 +40,13 @@ export const ISAIAH_10: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah10-rod-indignation',
           html:
-            'God speaks of Assyria in language that is both remarkable and troubling. Assyria is "the rod of mine anger"—an instrument in God&apos;s hand. God will send Assyria to execute judgment on an "hypocritical nation"—a people full of deceit and false religion. This teaches a difficult truth: sometimes God uses the wicked to judge the wicked. Sometimes the tools of judgment are themselves corrupt. But the tool does not have the right to pride itself on its own wisdom or power.',
+            'God speaks of Assyria in language that is both remarkable and troubling. Assyria is "the rod of mine anger"—an instrument in God&apos;s hand. God will send Assyria to execute judgment on an "hypocritical nation"—a people full of deceit and false religion. This teaches a difficult truth: sometimes God uses the wicked to judge the wicked. Sometimes the tools of judgment are themselves corrupt. But the tool does not have the right to pride itself on its own wisdom or power.[res:sefaria-isaiah-10]',
         },
         {
           kind: 'commentary',
           id: 'isaiah10-assyrian-pride',
           html:
-            'The problem with Assyria is not that it conquers—that is God&apos;s work. The problem is that Assyria takes credit for it. The king of Assyria says, "By the strength of my hand I have done it, and by my wisdom." He attributes his success to his own power, his own wisdom, his own greatness. He boasts against the One who wields him. This is the sin that will be punished. An axe cannot boast against the one who wields it. A saw cannot magnify itself against the one who saws with it. A rod cannot shake itself against the hand that holds it.',
+            'The problem with Assyria is not that it conquers—that is God&apos;s work. The problem is that Assyria takes credit for it. The king of Assyria says, "By the strength of my hand I have done it, and by my wisdom." He attributes his success to his own power, his own wisdom, his own greatness. He boasts against the One who wields him. This is the sin that will be punished. An axe cannot boast against the one who wields it. A saw cannot magnify itself against the one who saws with it. A rod cannot shake itself against the hand that holds it.[res:intertextual-isaiah-10-matthew]',
         },
         {
           kind: 'hebrew',
@@ -121,6 +121,25 @@ export const ISAIAH_10: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 10:21 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-10',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 10',
+      url: 'https://www.sefaria.org/Isaiah.10',
+      description: 'Sefaria open-access source text and translations for Isaiah 10.',
+    },
+    {
+      id: 'intertextual-isaiah-10-matthew',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 10 ↔ Matthew Intertextual Links',
+      url: 'https://intertextual.bible/',
+      description: 'Connections between Isaiah 10 and New Testament fulfillment, especially Matt 1–12.',
+    },
+  ],
 
   hasHebrew: true,
 };

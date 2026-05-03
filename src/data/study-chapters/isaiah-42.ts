@@ -57,7 +57,7 @@ export const ISAIAH_42: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah42-servant',
           html:
-            'The first Servant Song opens with wonder: "Behold my servant, whom I uphold." This servant is not earning God&apos;s approval through obedience. God already upholds him. God&apos;s soul delights in him. He is the chosen one, the elect, the one on whom God&apos;s Spirit rests. This is the foundation: not a servant who must prove himself, but a servant already affirmed, already chosen, already filled with the Spirit.',
+            'The first Servant Song opens with wonder: "Behold my servant, whom I uphold." This servant is not earning God&apos;s approval through obedience. God already upholds him. God&apos;s soul delights in him. He is the chosen one, the elect, the one on whom God&apos;s Spirit rests. This is the foundation: not a servant who must prove himself, but a servant already affirmed, already chosen, already filled with the Spirit.[res:sefaria-isaiah-42]',
         },
         {
           kind: 'hebrew',
@@ -72,13 +72,13 @@ export const ISAIAH_42: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah42-bruised-reed',
           html:
-            'The portrait of the servant&apos;s method is striking: "A bruised reed shall he not break, and the smoking flax shall he not quench." A bruised reed is almost broken already. A smoking flax is nearly extinguished. The servant&apos;s method toward those who are broken and barely clinging to life is not to finish them off, but to restore them. He will heal the broken. He will nurture the faint flame of hope back to brightness.',
+            'The portrait of the servant&apos;s method is striking: "A bruised reed shall he not break, and the smoking flax shall he not quench." A bruised reed is almost broken already. A smoking flax is nearly extinguished. The servant&apos;s method toward those who are broken and barely clinging to life is not to finish them off, but to restore them. He will heal the broken. He will nurture the faint flame of hope back to brightness.[res:intertextual-isaiah-servant-nt]',
         },
         {
           kind: 'commentary',
           id: 'isaiah42-judgment',
           html:
-            'Yet the servant will not fail in bringing forth justice: "he shall bring forth judgment in truth...till he have set judgment in the earth." This is the paradox: gentleness with the broken, unrelenting commitment to justice. The servant does not use gentleness to escape the hard work of establishing justice. He uses gentleness to do it rightly.',
+            'Yet the servant will not fail in bringing forth justice: "he shall bring forth judgment in truth...till he have set judgment in the earth." This is the paradox: gentleness with the broken, unrelenting commitment to justice. The servant does not use gentleness to escape the hard work of establishing justice. He uses gentleness to do it rightly.[res:british-museum-cyrus-cylinder]',
         },
         {
           kind: 'christ',
@@ -215,6 +215,33 @@ export const ISAIAH_42: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 42 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-42',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 42',
+      url: 'https://www.sefaria.org/Isaiah.42',
+      description: 'Sefaria open-access source text and translations for Isaiah 42.',
+    },
+    {
+      id: 'intertextual-isaiah-servant-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah Servant Song ↔ NT Fulfillment',
+      url: 'https://intertextual.bible/',
+      description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
+    },
+    {
+      id: 'british-museum-cyrus-cylinder',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Cyrus Cylinder',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Persian decree of Cyrus II — the liberator Isaiah 45 names by prophecy.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -43,7 +43,15 @@ export const ECCLESIASTES_9: RichChapterContent = {
           kind: 'commentary',
           id: 'ecc9-death-leveler-living-advantage',
           html:
-            'The Preacher establishes the problem: death is universal and final. Yet here lies the pivot point. The dead know nothing, have no reward, are forgotten. But this observation—that death is the great leveler—contains within it a hidden affirmation: the living still have something. They have awareness, choice, the capacity to act. What the dead have lost, the living possess. And this possession demands response.',
+            'The Preacher establishes the problem: death is universal and final. Yet here lies the pivot point. The dead know nothing, have no reward, are forgotten. But this observation—that death is the great leveler—contains within it a hidden affirmation: the living still have something. They have awareness, choice, the capacity to act. What the dead have lost, the living possess. And this possession demands response.[res:british-museum-mesopotamia]',
+        },
+        {
+          kind: 'greek',
+          id: 'ecc9-psyche',
+          title: 'Psyche — "Soul" or "Life"',
+          script: 'ψυχή',
+          translit: '<strong>Psyche</strong> · soul; life; the living self',
+          description: 'The soul or psyche is the living essence. All that the soul desires, it pursues—yet all eventually faces death.',
         },
         {
           kind: 'scripture',
@@ -61,13 +69,13 @@ export const ECCLESIASTES_9: RichChapterContent = {
           kind: 'commentary',
           id: 'ecc9-one-event',
           html:
-            '"All things come alike to all: there is one event to the righteous, and to the wicked." Death is the great leveler. Righteous and wicked, good and evil, the one who sacrifices and the one who does not—all face the same end. The Preacher calls this "an evil," a tragedy. It is not fair that the good die as the wicked do. But it is the reality we live with.',
+            '"All things come alike to all: there is one event to the righteous, and to the wicked." Death is the great leveler. Righteous and wicked, good and evil, the one who sacrifices and the one who does not—all face the same end. The Preacher calls this "an evil," a tragedy. It is not fair that the good die as the wicked do. But it is the reality we live with.[res:sefaria-ecclesiastes-9]',
         },
         {
           kind: 'commentary',
           id: 'ecc9-living-know',
           html:
-            '"The living know that they shall die: but the dead know not any thing." This is the Preacher&apos;s ground for action. The dead are beyond hope, beyond memory, beyond change. But the living—the living still have something. They still have awareness, choice, the ability to act. "A living dog is better than a dead lion." The weakest living creature has something that the noblest dead creature has lost: the possibility of action.',
+            '"The living know that they shall die: but the dead know not any thing." This is the Preacher&apos;s ground for action. The dead are beyond hope, beyond memory, beyond change. But the living—the living still have something. They still have awareness, choice, the ability to act. "A living dog is better than a dead lion." The weakest living creature has something that the noblest dead creature has lost: the possibility of action.[res:theoi-stoic-epicurean]',
         },
         {
           kind: 'commentary',
@@ -144,5 +152,32 @@ export const ECCLESIASTES_9: RichChapterContent = {
     ref: 'Ecclesiastes 9 · Study Guide',
   },
 
-  hasHebrew: false,
+    resources: [
+    {
+      id: 'sefaria-ecclesiastes-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ecclesiastes 9',
+      url: 'https://www.sefaria.org/Ecclesiastes.9',
+      description: 'Sefaria open-access source text and translations for Ecclesiastes 9.',
+    },
+    {
+      id: 'british-museum-mesopotamia',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'ANE Wisdom Literature (Mesopotamia)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Mesopotamian wisdom texts paralleling Ecclesiastes&apos; quest for meaning under existential circularity.',
+    },
+    {
+      id: 'theoi-stoic-epicurean',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Stoic and Epicurean Philosophy',
+      url: 'https://www.theoi.com/',
+      description: 'Hellenistic philosophical parallels to Ecclesiastes on pleasure, virtue, and the good life.',
+    },
+  ],
+
+  hasHebrew: true,
 };

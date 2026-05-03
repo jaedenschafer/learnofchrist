@@ -40,7 +40,7 @@ export const ISAIAH_32: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-king-reigns',
           html:
-            '<p>A king reigns for justice; a prince rules for righteousness. Then the desert blooms, blindness lifts, and peace comes.</p>',
+            '<p>A king reigns for justice; a prince rules for righteousness. Then the desert blooms, blindness lifts, and peace comes.[res:sefaria-isaiah-32]</p>',
         },
         {
           kind: 'scripture',
@@ -180,6 +180,17 @@ export const ISAIAH_32: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 32 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-32',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 32',
+      url: 'https://www.sefaria.org/Isaiah.32',
+      description: 'Sefaria open-access source text and translations for Isaiah 32.',
+    },
+  ],
 
   hasHebrew: true,
 };

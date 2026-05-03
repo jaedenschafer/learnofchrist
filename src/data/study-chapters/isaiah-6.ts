@@ -40,7 +40,7 @@ export const ISAIAH_6: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-throne-call',
           html:
-            '<p>Isaiah sees the Lord high and lifted up; his lips are cleansed by fire. Then: &quot;Whom shall I send?&quot; &quot;Here am I.&quot;</p>',
+            '<p>Isaiah sees the Lord high and lifted up; his lips are cleansed by fire. Then: &quot;Whom shall I send?&quot; &quot;Here am I.[res:sefaria-isaiah-6]&quot;</p>',
         },
         {
           kind: 'scripture',
@@ -56,13 +56,13 @@ export const ISAIAH_6: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah6-throne',
           html:
-            'The throne is high and lifted up—exalted beyond anything earthly. The train of God&apos;s garment fills the entire temple, suggesting that God&apos;s very presence, His majestic being, overflows every space. This is not a small or domesticated God. This is God in His fullness, His overwhelming majesty. And yet He is intimately present in the temple—the place where Israel meets Him, where sacrifice is offered, where heaven and earth meet.',
+            'The throne is high and lifted up—exalted beyond anything earthly. The train of God&apos;s garment fills the entire temple, suggesting that God&apos;s very presence, His majestic being, overflows every space. This is not a small or domesticated God. This is God in His fullness, His overwhelming majesty. And yet He is intimately present in the temple—the place where Israel meets Him, where sacrifice is offered, where heaven and earth meet.[res:intertextual-isaiah-6-matthew]',
         },
         {
           kind: 'commentary',
           id: 'isaiah6-seraphim',
           html:
-            'The seraphim are attendants upon God&apos;s throne. Each has six wings: two to cover the face (in reverent awe), two to cover the feet (in humility and protection), and two to fly. They are beings of pure worship, forever proclaiming the holiness of God. When one cries out, "Holy, holy, holy," the posts of the door move. The voice of worship itself shakes the foundations. And the temple fills with smoke—the cloud of God&apos;s presence, the sign of His transcendence.',
+            'The seraphim are attendants upon God&apos;s throne. Each has six wings: two to cover the face (in reverent awe), two to cover the feet (in humility and protection), and two to fly. They are beings of pure worship, forever proclaiming the holiness of God. When one cries out, "Holy, holy, holy," the posts of the door move. The voice of worship itself shakes the foundations. And the temple fills with smoke—the cloud of God&apos;s presence, the sign of His transcendence.[res:intertextual-isaiah-6-john-acts]',
         },
         {
           kind: 'hebrew',
@@ -151,6 +151,33 @@ export const ISAIAH_6: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 6:3 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 6',
+      url: 'https://www.sefaria.org/Isaiah.6',
+      description: 'Sefaria open-access source text and translations for Isaiah 6.',
+    },
+    {
+      id: 'intertextual-isaiah-6-matthew',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 6 ↔ Matthew Intertextual Links',
+      url: 'https://intertextual.bible/',
+      description: 'Connections between Isaiah 6 and New Testament fulfillment, especially Matt 1–12.',
+    },
+    {
+      id: 'intertextual-isaiah-6-john-acts',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 6 → John 12:41 & Acts 28:25',
+      url: 'https://intertextual.bible/',
+      description: 'Isaiah&apos;s temple vision seen by John and cited by Peter in Acts.',
+    },
+  ],
 
   hasHebrew: true,
 };

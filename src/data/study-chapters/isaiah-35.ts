@@ -39,7 +39,7 @@ export const ISAIAH_35: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-desert-blooms',
           html:
-            '<p>The wasteland rejoices; the desert blooms with flowers. The ransomed walk home singing; sorrow and sighing flee.</p>',
+            '<p>The wasteland rejoices; the desert blooms with flowers. The ransomed walk home singing; sorrow and sighing flee.[res:sefaria-isaiah-35]</p>',
         },
         {
           kind: 'scripture',
@@ -158,6 +158,17 @@ export const ISAIAH_35: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 35 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-35',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 35',
+      url: 'https://www.sefaria.org/Isaiah.35',
+      description: 'Sefaria open-access source text and translations for Isaiah 35.',
+    },
+  ],
 
   hasHebrew: true,
 };

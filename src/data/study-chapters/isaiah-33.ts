@@ -42,7 +42,7 @@ export const ISAIAH_33: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah33-woe-to-exalted',
           html:
-            'The opening judgment falls on the spoilers and the treacherous. They will be repaid according to their deeds. Then comes the people&apos;s prayer: "O Lord, be gracious unto us; we have waited for thee." And the answer arrives: God is exalted, He dwells on high, He fills Zion with judgment and righteousness. The tone now shifts from the judgment of enemies to the exaltation of the God who hears His people&apos;s cry.',
+            'The opening judgment falls on the spoilers and the treacherous. They will be repaid according to their deeds. Then comes the people&apos;s prayer: "O Lord, be gracious unto us; we have waited for thee." And the answer arrives: God is exalted, He dwells on high, He fills Zion with judgment and righteousness. The tone now shifts from the judgment of enemies to the exaltation of the God who hears His people&apos;s cry.[res:sefaria-isaiah-33]',
         },
         {
           kind: 'scripture',
@@ -202,6 +202,17 @@ export const ISAIAH_33: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 33 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-33',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 33',
+      url: 'https://www.sefaria.org/Isaiah.33',
+      description: 'Sefaria open-access source text and translations for Isaiah 33.',
+    },
+  ],
 
   hasHebrew: true,
 };

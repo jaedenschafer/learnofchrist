@@ -39,7 +39,15 @@ export const ISAIAH_64: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-potter-clay',
           html:
-            '<p>We are the clay; You are the potter. We are all Your work. Do not stay angry forever; remember we are Your servants.</p>',
+            \'<p>We are the clay; You are the potter. We are all Your work. Do not stay angry forever; remember we are Your servants.[res:sefaria-isaiah-64]</p>\',
+        },
+        {
+          kind: 'hebrew',
+          id: 'isaiah64-yatzar',
+          title: 'Yatzar — "Formed"',
+          script: 'יָצַר',
+          translit: '<strong>Yatzar</strong> · formed; created; shaped',
+          description: 'God is the potter; Israel is the clay He has formed.',
         },
         {
           kind: 'scripture',
@@ -61,7 +69,7 @@ export const ISAIAH_64: RichChapterContent = {
           kind: 'commentary',
           id: 'isa64-righteousnesses',
           html:
-            'Yet the people confess: All our righteousnesses are as filthy rags. We have no righteousness to present to God. Our good works, our moral striving—all of it falls short. We fade as leaves. Our iniquities blow us away like wind. This is humility: the recognition that we have nothing to offer God except our need.',
+            \'Yet the people confess: All our righteousnesses are as filthy rags. We have no righteousness to present to God. Our good works, our moral striving—all of it falls short. We fade as leaves. Our iniquities blow us away like wind. This is humility: the recognition that we have nothing to offer God except our need.\',
         },
         {
           kind: 'hebrew',
@@ -75,7 +83,7 @@ export const ISAIAH_64: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'Isaiah 64 teaches a liberating truth: God does not need your righteousness. He needs your brokenness, your honesty, your plea for mercy. You are clay. He is the Potter. Your job is not to be good enough. Your job is to yield to His hands.',
+            \'Isaiah 64 teaches a liberating truth: God does not need your righteousness. He needs your brokenness, your honesty, your plea for mercy. You are clay. He is the Potter. Your job is not to be good enough. Your job is to yield to His hands.\',
         },
       ],
     },
@@ -99,7 +107,7 @@ export const ISAIAH_64: RichChapterContent = {
           kind: 'commentary',
           id: 'isa64-potter',
           html:
-            'Now comes the turning point. "O Lord, thou art our Father. We are the clay, and thou our potter." This is not an accusation, but a plea. The Potter has the right to shape the clay as He wills. The clay does not argue with the Potter. It yields. And in yielding, it discovers its purpose.',
+            \'Now comes the turning point. "O Lord, thou art our Father. We are the clay, and thou our potter." This is not an accusation, but a plea. The Potter has the right to shape the clay as He wills. The clay does not argue with the Potter. It yields. And in yielding, it discovers its purpose.\',
         },
         {
           kind: 'commentary',
@@ -133,4 +141,17 @@ export const ISAIAH_64: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 64 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-isaiah-64',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 64',
+      url: 'https://www.sefaria.org/Isaiah.64',
+      description: 'Sefaria open-access source text and translations for Isaiah 64.',
+    },
+  ],
+
+  hasHebrew: true,
 };

@@ -41,13 +41,13 @@ export const ISAIAH_3: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah3-removal',
           html:
-            'God will remove the stay and the staff—the support structure of society. This is comprehensive removal: bread and water (the necessities), mighty men and judges (the military and legal order), prophets and the prudent (wisdom and spiritual guidance). Society rests on many pillars. Isaiah says God will pull them away. Without the restraint of wise leadership, without the presence of truth-tellers and counselors, a people falls into chaos. The mighty become their own judges, and no one stands for justice.',
+            'God will remove the stay and the staff—the support structure of society. This is comprehensive removal: bread and water (the necessities), mighty men and judges (the military and legal order), prophets and the prudent (wisdom and spiritual guidance). Society rests on many pillars. Isaiah says God will pull them away. Without the restraint of wise leadership, without the presence of truth-tellers and counselors, a people falls into chaos. The mighty become their own judges, and no one stands for justice.[res:sefaria-isaiah-3]',
         },
         {
           kind: 'commentary',
           id: 'isaiah3-babes-rule',
           html:
-            'The image of babes ruling is satirical and horrifying at once. When leadership is removed, rule falls to the unfit. And the result is that "the people shall be oppressed, every one by another." Without wise authority, the vacuum fills with mutual predation. The strong exploit the weak. The base (those of low birth or character) rise up against the honorable. Society consumes itself.',
+            'The image of babes ruling is satirical and horrifying at once. When leadership is removed, rule falls to the unfit. And the result is that "the people shall be oppressed, every one by another." Without wise authority, the vacuum fills with mutual predation. The strong exploit the weak. The base (those of low birth or character) rise up against the honorable. Society consumes itself.[res:intertextual-isaiah-3-matthew]',
         },
         {
           kind: 'hebrew',
@@ -123,6 +123,25 @@ export const ISAIAH_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 3:1 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 3',
+      url: 'https://www.sefaria.org/Isaiah.3',
+      description: 'Sefaria open-access source text and translations for Isaiah 3.',
+    },
+    {
+      id: 'intertextual-isaiah-3-matthew',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 3 ↔ Matthew Intertextual Links',
+      url: 'https://intertextual.bible/',
+      description: 'Connections between Isaiah 3 and New Testament fulfillment, especially Matt 1–12.',
+    },
+  ],
 
   hasHebrew: true,
 };

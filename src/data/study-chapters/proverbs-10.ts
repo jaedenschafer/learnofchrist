@@ -40,7 +40,7 @@ export const PROVERBS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'prov10-mid-righteousness-wealth',
           html:
-            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.[res:british-museum-amenemope]',
         },
         {
           kind: 'scripture',
@@ -55,7 +55,7 @@ export const PROVERBS_10: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov10-character-consequence',
-          html: 'The opening proverbs cluster around a single axis: character and consequence. A wise son brings joy; a foolish son brings grief. Righteousness delivers; wickedness destroys itself. The hand that works grows rich; the hand that slacks grows poor. The just are blessed; the wicked have violence. What you are, the world reflects back to you. Action and reaction are one.',
+          html: 'The opening proverbs cluster around a single axis: character and consequence. A wise son brings joy; a foolish son brings grief. Righteousness delivers; wickedness destroys itself. The hand that works grows rich; the hand that slacks grows poor. The just are blessed; the wicked have violence. What you are, the world reflects back to you. Action and reaction are one.[res:sefaria-proverbs-10]',
         },
         {
           kind: 'scripture',
@@ -70,7 +70,7 @@ export const PROVERBS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'prov10b-mid-mouth-violence',
           html:
-            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'scripture',
@@ -215,6 +215,33 @@ export const PROVERBS_10: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 10 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-proverbs-10',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 10',
+      url: 'https://www.sefaria.org/Proverbs.10',
+      description: 'Sefaria open-access source text and translations for Proverbs 10.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
 
   hasHebrew: true,
 };

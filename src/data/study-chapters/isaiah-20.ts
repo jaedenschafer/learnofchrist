@@ -41,13 +41,13 @@ export const ISAIAH_20: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah20-command',
           html:
-            'The command is stark and without explanation: "Loose the sackcloth from off thy loins, and put off thy shoe from thy foot." Isaiah obeys. He walks naked and barefoot. No altar, no temple mediates this act. It is body to street, flesh to the public gaze. The prophet submits his dignity, his modesty, to the purposes of God.',
+            'The command is stark and without explanation: "Loose the sackcloth from off thy loins, and put off thy shoe from thy foot." Isaiah obeys. He walks naked and barefoot. No altar, no temple mediates this act. It is body to street, flesh to the public gaze. The prophet submits his dignity, his modesty, to the purposes of God.[res:sefaria-isaiah-20]',
         },
         {
           kind: 'commentary',
           id: 'isaiah20-sign',
           html:
-            '"For a sign and a wonder upon Egypt and upon Ethiopia." The prophet&apos;s nakedness is not symbolic poetry. It is a sign—something that points beyond itself to a reality. Just as Egypt and Ethiopia will be led away naked and barefoot into captivity, so the prophet walks. He is the pre-enactment, the living prophecy of what will come upon them.',
+            '"For a sign and a wonder upon Egypt and upon Ethiopia." The prophet&apos;s nakedness is not symbolic poetry. It is a sign—something that points beyond itself to a reality. Just as Egypt and Ethiopia will be led away naked and barefoot into captivity, so the prophet walks. He is the pre-enactment, the living prophecy of what will come upon them.[res:british-museum-babylon-tyre]',
         },
         {
           kind: 'hebrew',
@@ -96,6 +96,25 @@ export const ISAIAH_20: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 20 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-20',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 20',
+      url: 'https://www.sefaria.org/Isaiah.20',
+      description: 'Sefaria open-access source text and translations for Isaiah 20.',
+    },
+    {
+      id: 'british-museum-babylon-tyre',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Babylon & Tyre: Imperial Power',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Archaeological and textual evidence of the nations Isaiah prophesies against.',
+    },
+  ],
 
   hasHebrew: true,
 };

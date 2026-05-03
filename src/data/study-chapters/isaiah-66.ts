@@ -45,6 +45,14 @@ export const ISAIAH_66: RichChapterContent = {
             'Heaven is God\'s throne. Earth is His footstool. What house could contain such a God? Yet God looks not to grand temples, but to the humble and contrite, to those who tremble at His word. This is the paradox: the one who fills all space and time dwells with the broken heart.',
         },
         {
+          kind: 'hebrew',
+          id: 'isaiah66-tzion',
+          title: 'Tzion — "Zion"',
+          script: 'צִיּוֹן',
+          translit: '<strong>Tzion</strong> · Zion; the holy mountain',
+          description: 'From Zion, God\'s glory goes forth to all the nations.',
+        },
+        {
           kind: 'commentary',
           id: 'isa66-birth',
           html:
@@ -84,7 +92,7 @@ export const ISAIAH_66: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-new-heavens',
           html:
-            '<p>New heavens, new earth; former troubles forgotten. All flesh will come and worship before the Lord.</p>',
+            \'<p>New heavens, new earth; former troubles forgotten. All flesh will come and worship before the Lord.[res:sefaria-isaiah-66]</p>\',
         },
         {
           kind: 'scripture',
@@ -100,19 +108,19 @@ export const ISAIAH_66: RichChapterContent = {
           kind: 'commentary',
           id: 'isa66-fire',
           html:
-            'God comes with fire and chariots like a whirlwind. By fire and sword, the Lord will plead with all flesh. The slain of the Lord are many. This is not a comfortable vision. This is judgment, justice executed against those who have opposed God.',
+            \'God comes with fire and chariots like a whirlwind. By fire and sword, the Lord will plead with all flesh. The slain of the Lord are many. This is not a comfortable vision. This is judgment, justice executed against those who have opposed God.\',
         },
         {
           kind: 'commentary',
           id: 'isa66-gather',
           html:
-            'Yet at the same time, God gathers all nations and tongues to see His glory. Those who escape will be sent to distant nations to declare His glory to those who have not heard. From one new moon to another, from one Sabbath to another, all flesh will come to worship before the Lord.',
+            \'Yet at the same time, God gathers all nations and tongues to see His glory. Those who escape will be sent to distant nations to declare His glory to those who have not heard. From one new moon to another, from one Sabbath to another, all flesh will come to worship before the Lord.\',
         },
         {
           kind: 'commentary',
           id: 'isa66-worm',
           html:
-            'The book ends with a stark image: the wicked go out and look upon the carcasses of those who transgressed. Their worm does not die. Their fire is not quenched. They are an abhorring unto all flesh. This is final judgment—eternal separation from God, eternal consequence for rebellion.',
+            \'The book ends with a stark image: the wicked go out and look upon the carcasses of those who transgressed. Their worm does not die. Their fire is not quenched. They are an abhorring unto all flesh. This is final judgment—eternal separation from God, eternal consequence for rebellion.\',
         },
         {
           kind: 'christ',
@@ -140,4 +148,17 @@ export const ISAIAH_66: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 66 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-isaiah-66',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 66',
+      url: 'https://www.sefaria.org/Isaiah.66',
+      description: 'Sefaria open-access source text and translations for Isaiah 66.',
+    },
+  ],
+
+  hasHebrew: true,
 };

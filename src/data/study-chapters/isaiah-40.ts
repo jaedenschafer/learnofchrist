@@ -42,7 +42,7 @@ export const ISAIAH_40: RichChapterContent = {
           kind: 'commentary',
           id: 'isa40-incomparable',
           html:
-            'The preparation is complete. Every obstacle has been leveled. Every valley lifted. The way is straight. And now—the revelation: the glory of the Lord shall be revealed, and all flesh shall see it. Not in the distant future, but in the coming of the Shepherd. In the valleys of human despair, the glory becomes visible. The promise moves from comfort to appearance, from words of consolation to the actual coming of God&apos;s presence.',
+            'The preparation is complete. Every obstacle has been leveled. Every valley lifted. The way is straight. And now—the revelation: the glory of the Lord shall be revealed, and all flesh shall see it. Not in the distant future, but in the coming of the Shepherd. In the valleys of human despair, the glory becomes visible. The promise moves from comfort to appearance, from words of consolation to the actual coming of God&apos;s presence.[res:sefaria-isaiah-40]',
         },
         {
           kind: 'scripture',
@@ -60,7 +60,7 @@ export const ISAIAH_40: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah40-comfort',
           html:
-            'The opening is direct: "Comfort ye, comfort ye my people." The repetition of "comfort" signals the shift in tone. Gone are the words of judgment and exile. Now comes consolation. The exile is real, but her warfare is accomplished. Her iniquity is pardoned. She has paid the price. Now comes restoration and comfort.',
+            'The opening is direct: "Comfort ye, comfort ye my people." The repetition of "comfort" signals the shift in tone. Gone are the words of judgment and exile. Now comes consolation. The exile is real, but her warfare is accomplished. Her iniquity is pardoned. She has paid the price. Now comes restoration and comfort.[res:intertextual-isaiah-servant-nt]',
         },
         {
           kind: 'hebrew',
@@ -75,7 +75,7 @@ export const ISAIAH_40: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah40-voice-wilderness',
           html:
-            'The cry in the wilderness is a call to preparation: "Prepare ye the way of the Lord." Valleys will be exalted. Mountains will be made low. Crooked things will be made straight. This is the work of preparing hearts and removing obstacles. The voice that cries in the wilderness is the voice that prepares the way for God&apos;s coming. Every valley speaks to the low places in human experience. Every mountain speaks to the obstacles that seem immovable. All will be leveled in preparation for the Lord&apos;s coming.',
+            'The cry in the wilderness is a call to preparation: "Prepare ye the way of the Lord." Valleys will be exalted. Mountains will be made low. Crooked things will be made straight. This is the work of preparing hearts and removing obstacles. The voice that cries in the wilderness is the voice that prepares the way for God&apos;s coming. Every valley speaks to the low places in human experience. Every mountain speaks to the obstacles that seem immovable. All will be leveled in preparation for the Lord&apos;s coming.[res:british-museum-cyrus-cylinder]',
         },
         {
           kind: 'commentary',
@@ -228,6 +228,33 @@ export const ISAIAH_40: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 40 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-40',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 40',
+      url: 'https://www.sefaria.org/Isaiah.40',
+      description: 'Sefaria open-access source text and translations for Isaiah 40.',
+    },
+    {
+      id: 'intertextual-isaiah-servant-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah Servant Song ↔ NT Fulfillment',
+      url: 'https://intertextual.bible/',
+      description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
+    },
+    {
+      id: 'british-museum-cyrus-cylinder',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Cyrus Cylinder',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Persian decree of Cyrus II — the liberator Isaiah 45 names by prophecy.',
+    },
+  ],
 
   hasHebrew: true,
 };

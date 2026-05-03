@@ -34,13 +34,13 @@ export const PROVERBS_28: RichChapterContent = {
           kind: 'commentary',
           id: 'prov28-covereth',
           html:
-            'To cover your sins is the natural human impulse. Hide them, deny them, minimize them, blame others. But covering does not work. It creates a distance between you and everyone around you, a careful inauthenticity. It exhausts you. And it blocks the only path to restoration: honesty.',
+            'To cover your sins is the natural human impulse. Hide them, deny them, minimize them, blame others. But covering does not work. It creates a distance between you and everyone around you, a careful inauthenticity. It exhausts you. And it blocks the only path to restoration: honesty.[res:british-museum-amenemope]',
         },
         {
           kind: 'commentary',
           id: 'prov28-confess-forsake',
           html:
-            'But the one who confesses and forsakes—who speaks the truth about what he has done and turns away from it—finds mercy. Notice both: confession (speaking) and forsaking (changing). Mercy is not given to those who confess and continue. It is given to those who confess and stop.',
+            'But the one who confesses and forsakes—who speaks the truth about what he has done and turns away from it—finds mercy. Notice both: confession (speaking) and forsaking (changing). Mercy is not given to those who confess and continue. It is given to those who confess and stop.[res:sefaria-proverbs-28]',
         },
         {
           kind: 'hebrew',
@@ -87,7 +87,7 @@ export const PROVERBS_28: RichChapterContent = {
           kind: 'commentary',
           id: 'prov28-keep-law',
           html:
-            'To keep the law—God&apos;s law, the moral order—is to understand that your actions have an ultimate reference point beyond mere social convenience. You keep the law not because it profits you, but because it is just and true. Those who keep the law stand against the wicked, even when it costs them.',
+            'To keep the law—God&apos;s law, the moral order—is to understand that your actions have an ultimate reference point beyond mere social convenience. You keep the law not because it profits you, but because it is just and true. Those who keep the law stand against the wicked, even when it costs them.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'commentary',
@@ -114,6 +114,33 @@ export const PROVERBS_28: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 28 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-proverbs-28',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 28',
+      url: 'https://www.sefaria.org/Proverbs.28',
+      description: 'Sefaria open-access source text and translations for Proverbs 28.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
 
   hasHebrew: true,
 };

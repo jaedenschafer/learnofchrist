@@ -39,7 +39,7 @@ export const PROVERBS_16: RichChapterContent = {
           kind: 'commentary',
           id: 'prov16-heart-devises',
           html:
-            'The man devises his way. He plans. He thinks ahead. He lays out strategies and purposes. This is not folly—it is what humans do. But his devising is met by a reality beyond his devising: the Lord directs his steps. The word "direct" suggests guidance, steering, the active ordering of a path. What the Lord does is not merely react to human plans. He steers them toward ends the man did not foresee.',
+            'The man devises his way. He plans. He thinks ahead. He lays out strategies and purposes. This is not folly—it is what humans do. But his devising is met by a reality beyond his devising: the Lord directs his steps. The word "direct" suggests guidance, steering, the active ordering of a path. What the Lord does is not merely react to human plans. He steers them toward ends the man did not foresee.[res:british-museum-amenemope]',
         },
         {
           kind: 'hebrew',
@@ -86,13 +86,13 @@ export const PROVERBS_16: RichChapterContent = {
           kind: 'commentary',
           id: 'prov16-pride',
           html:
-            'Pride does not merely offend God—it precedes destruction as a cause precedes its effect. The proud man walks a path that naturally slopes toward his own ruin. An haughty spirit goes before a fall as a herald announces the coming of the king. The fall is not imposed upon the proud man from outside. It is the inevitable outcome of the trajectory he has set himself upon.',
+            'Pride does not merely offend God—it precedes destruction as a cause precedes its effect. The proud man walks a path that naturally slopes toward his own ruin. An haughty spirit goes before a fall as a herald announces the coming of the king. The fall is not imposed upon the proud man from outside. It is the inevitable outcome of the trajectory he has set himself upon.[res:sefaria-proverbs-16]',
         },
         {
           kind: 'commentary',
           id: 'prov16-anger',
           html:
-            'In contrast, the man slow to anger is set higher than the mighty. Might is admired in the world—strength, force, dominion over enemies. But Proverbs reverses this valuation. Greater still is the man who rules his own spirit. To take a city is to overcome an external foe. To rule the spirit is to overcome the greatest foe any person faces—themselves. This is victory itself.',
+            'In contrast, the man slow to anger is set higher than the mighty. Might is admired in the world—strength, force, dominion over enemies. But Proverbs reverses this valuation. Greater still is the man who rules his own spirit. To take a city is to overcome an external foe. To rule the spirit is to overcome the greatest foe any person faces—themselves. This is victory itself.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'carry',
@@ -113,6 +113,33 @@ export const PROVERBS_16: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 16 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-proverbs-16',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 16',
+      url: 'https://www.sefaria.org/Proverbs.16',
+      description: 'Sefaria open-access source text and translations for Proverbs 16.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
 
   hasHebrew: true,
 };

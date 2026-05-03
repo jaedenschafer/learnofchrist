@@ -39,13 +39,13 @@ export const ISAIAH_2: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah2-mountain',
           html:
-            'The mountain is not a place of military strength or economic power. It is the place of God&apos;s dwelling, where His law is taught and His word spoken. All nations—not just Judah, not just Israel, but all the families of the earth—shall flow to it. This is a vision of universal spiritual pilgrimage. The words "shall flow" suggest a natural, irresistible movement toward God&apos;s house, like waters flowing downhill toward the sea. The messianic age is one where the whole world recognizes the authority and beauty of God&apos;s ways.',
+            'The mountain is not a place of military strength or economic power. It is the place of God&apos;s dwelling, where His law is taught and His word spoken. All nations—not just Judah, not just Israel, but all the families of the earth—shall flow to it. This is a vision of universal spiritual pilgrimage. The words "shall flow" suggest a natural, irresistible movement toward God&apos;s house, like waters flowing downhill toward the sea. The messianic age is one where the whole world recognizes the authority and beauty of God&apos;s ways.[res:sefaria-isaiah-2]',
         },
         {
           kind: 'commentary',
           id: 'isaiah2-weapons',
           html:
-            'The image of swords beaten into plowshares is so powerful that it appears again in Micah 4 and is quoted in modern times by those who dream of peace. But notice the basis for this disarmament: "He shall judge among the nations, and shall rebuke many people." It is not human negotiation that lays down weapons. It is the judgment and rebuke of the Lord. Peace comes not from human wisdom or compromise, but from God establishing right judgment among the nations.',
+            'The image of swords beaten into plowshares is so powerful that it appears again in Micah 4 and is quoted in modern times by those who dream of peace. But notice the basis for this disarmament: "He shall judge among the nations, and shall rebuke many people." It is not human negotiation that lays down weapons. It is the judgment and rebuke of the Lord. Peace comes not from human wisdom or compromise, but from God establishing right judgment among the nations.[res:intertextual-isaiah-2-matthew]',
         },
         {
           kind: 'hebrew',
@@ -120,6 +120,25 @@ export const ISAIAH_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 2:2 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 2',
+      url: 'https://www.sefaria.org/Isaiah.2',
+      description: 'Sefaria open-access source text and translations for Isaiah 2.',
+    },
+    {
+      id: 'intertextual-isaiah-2-matthew',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 2 ↔ Matthew Intertextual Links',
+      url: 'https://intertextual.bible/',
+      description: 'Connections between Isaiah 2 and New Testament fulfillment, especially Matt 1–12.',
+    },
+  ],
 
   hasHebrew: true,
 };

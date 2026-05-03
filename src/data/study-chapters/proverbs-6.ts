@@ -57,12 +57,12 @@ export const PROVERBS_6: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov6-sluggard',
-          html: 'The sluggard is not condemned for being poor, but for the laziness that leads to poverty. "How long wilt thou sleep?" is not a sneer but a plea, a question that sounds almost affectionate in its exasperation. Yet there is urgency: from small slumber comes great want. The sluggard postpones—"a little sleep, a little slumber"—and does not see how the small postponements accumulate into a life of want.',
+          html: 'The sluggard is not condemned for being poor, but for the laziness that leads to poverty. "How long wilt thou sleep?" is not a sneer but a plea, a question that sounds almost affectionate in its exasperation. Yet there is urgency: from small slumber comes great want. The sluggard postpones—"a little sleep, a little slumber"—and does not see how the small postponements accumulate into a life of want.[res:british-museum-amenemope]',
         },
         {
           kind: 'commentary',
           id: 'prov6-ant-teacher',
-          html: 'The ant is the teacher. She has no overseer, no one commanding her, yet she works. She gathers in summer for winter that is not yet here. This is foresight, this is diligence, this is the way of creation itself. The sluggard is invited not to shame but to learn—to see in the ant what it means to live with intention, with preparation, with care for the future.',
+          html: 'The ant is the teacher. She has no overseer, no one commanding her, yet she works. She gathers in summer for winter that is not yet here. This is foresight, this is diligence, this is the way of creation itself. The sluggard is invited not to shame but to learn—to see in the ant what it means to live with intention, with preparation, with care for the future.[res:sefaria-proverbs-6]',
         },
         {
           kind: 'carry',
@@ -93,7 +93,7 @@ export const PROVERBS_6: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov6-naughty-person',
-          html: 'The naughty person speaks with a froward mouth, winks with eyes, gestures with feet and fingers. He is not hidden—his iniquity is written in his body. He schemes, he sows discord. And his ruin comes swiftly. You cannot live in perpetual mischief without reaping sudden calamity.',
+          html: 'The naughty person speaks with a froward mouth, winks with eyes, gestures with feet and fingers. He is not hidden—his iniquity is written in his body. He schemes, he sows discord. And his ruin comes swiftly. You cannot live in perpetual mischief without reaping sudden calamity.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'scripture',
@@ -196,6 +196,33 @@ export const PROVERBS_6: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 6 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-proverbs-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 6',
+      url: 'https://www.sefaria.org/Proverbs.6',
+      description: 'Sefaria open-access source text and translations for Proverbs 6.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
 
   hasHebrew: true,
 };

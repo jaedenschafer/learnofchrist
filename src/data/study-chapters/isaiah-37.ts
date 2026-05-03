@@ -40,7 +40,7 @@ export const ISAIAH_37: RichChapterContent = {
           kind: 'commentary',
           id: 'isa37-split-1',
           html:
-            'Hezekiah&apos;s response to Rabshakeh&apos;s taunt is not to argue, but to pray. He sends for Isaiah. He frames the crisis as a prayer request, not a political problem. "Lift up thy prayer for the remnant that are left." Even facing Assyrian power, Hezekiah turns not to his generals but to God&apos;s prophet.',
+            'Hezekiah&apos;s response to Rabshakeh&apos;s taunt is not to argue, but to pray. He sends for Isaiah. He frames the crisis as a prayer request, not a political problem. "Lift up thy prayer for the remnant that are left." Even facing Assyrian power, Hezekiah turns not to his generals but to God&apos;s prophet.[res:sefaria-isaiah-37]',
         },
         {
           kind: 'scripture',
@@ -55,7 +55,7 @@ export const ISAIAH_37: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-prayer-answered',
           html:
-            '<p>Hezekiah prays; the angel destroys the Assyrian army in a single night. God&apos;s arm is never too short.</p>',
+            '<p>Hezekiah prays; the angel destroys the Assyrian army in a single night. God&apos;s arm is never too short.[res:british-museum-sennacherib-prism]</p>',
         },
         {
           kind: 'scripture',
@@ -71,7 +71,7 @@ export const ISAIAH_37: RichChapterContent = {
           kind: 'commentary',
           id: 'isa37-split-2',
           html:
-            'Sennacherib sends a second taunt via letter, more insistent now. But Hezekiah does not despair. He does not call a council of war. Instead, he takes the letter and goes to the temple. He spreads it before God. This is prayer that refuses to let the enemy&apos;s words be the final word.',
+            'Sennacherib sends a second taunt via letter, more insistent now. But Hezekiah does not despair. He does not call a council of war. Instead, he takes the letter and goes to the temple. He spreads it before God. This is prayer that refuses to let the enemy&apos;s words be the final word.[res:iaa-hezekiah-tunnel-bulla]',
         },
         {
           kind: 'scripture',
@@ -270,6 +270,33 @@ export const ISAIAH_37: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 37 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-37',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 37',
+      url: 'https://www.sefaria.org/Isaiah.37',
+      description: 'Sefaria open-access source text and translations for Isaiah 37.',
+    },
+    {
+      id: 'british-museum-sennacherib-prism',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Sennacherib&apos;s Prism',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Cuneiform inscription of Sennacherib&apos;s siege of Jerusalem — Isaiah&apos;s historical backdrop.',
+    },
+    {
+      id: 'iaa-hezekiah-tunnel-bulla',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Hezekiah&apos;s Tunnel & Bulla',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological artifacts from Hezekiah&apos;s reign — tunnel and bullae bearing royal seals.',
+    },
+  ],
 
   hasHebrew: true,
 };

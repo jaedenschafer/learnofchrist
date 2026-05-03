@@ -41,7 +41,7 @@ export const ISAIAH_47: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-virgin-mocked',
           html:
-            '<p>A virgin sits in darkness, stripped of power. Babylon mocked the Lord; see what happens to her.</p>',
+            '<p>A virgin sits in darkness, stripped of power. Babylon mocked the Lord; see what happens to her.[res:sefaria-isaiah-47]</p>',
         },
         {
           kind: 'scripture',
@@ -57,7 +57,7 @@ export const ISAIAH_47: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah47-pride-to-judgment',
           html:
-            'Babylon is summoned down from her throne into the dust. She showed no mercy to others. Now comes the address to her pride: she says "I shall be a lady for ever," claiming eternal power and that she will never lose her position. But she did not remember how such kingdoms end. Now comes the specific judgment: what will befall her.',
+            'Babylon is summoned down from her throne into the dust. She showed no mercy to others. Now comes the address to her pride: she says "I shall be a lady for ever," claiming eternal power and that she will never lose her position. But she did not remember how such kingdoms end. Now comes the specific judgment: what will befall her.[res:intertextual-isaiah-servant-nt]',
         },
         {
           kind: 'scripture',
@@ -137,6 +137,25 @@ export const ISAIAH_47: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 47 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-47',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 47',
+      url: 'https://www.sefaria.org/Isaiah.47',
+      description: 'Sefaria open-access source text and translations for Isaiah 47.',
+    },
+    {
+      id: 'intertextual-isaiah-servant-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah Servant Song ↔ NT Fulfillment',
+      url: 'https://intertextual.bible/',
+      description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
+    },
+  ],
 
   hasHebrew: true,
 };

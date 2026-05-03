@@ -42,13 +42,21 @@ export const ISAIAH_61: RichChapterContent = {
           kind: 'commentary',
           id: 'isa61-spirit',
           html:
-            'The Spirit of the Lord is upon the Servant. This is the anointing spoken of in Isaiah 11:2. The Lord has commissioned Him with a mission: to preach good tidings to the meek, to bind up the brokenhearted, to proclaim liberty to captives, to open prison doors. This is the gospel in summary: good news to the poor, freedom to the enslaved, comfort to the mourning.',
+            \'The Spirit of the Lord is upon the Servant. This is the anointing spoken of in Isaiah 11:2. The Lord has commissioned Him with a mission: to preach good tidings to the meek, to bind up the brokenhearted, to proclaim liberty to captives, to open prison doors. This is the gospel in summary: good news to the poor, freedom to the enslaved, comfort to the mourning.[res:sefaria-isaiah-61]\',
+        },
+        {
+          kind: 'hebrew',
+          id: 'isaiah61-yovlim',
+          title: 'Yovlim — "Jubilee"',
+          script: 'יוֹבִלִים',
+          translit: '<strong>Yovlim</strong> · jubilees; periods of restoration',
+          description: 'The jubilee year is when debts are forgiven and land restored—the year of God\'s favor.',
         },
         {
           kind: 'commentary',
           id: 'isa61-beauty',
           html:
-            'The Servant appoints beauty for ashes, oil of joy for mourning, garment of praise for heaviness of spirit. This is not merely comfort. It is replacement—a complete reversal of sorrow into joy. The people who were in mourning become trees of righteousness, planted by the Lord.',
+            \'The Servant appoints beauty for ashes, oil of joy for mourning, garment of praise for heaviness of spirit. This is not merely comfort. It is replacement—a complete reversal of sorrow into joy. The people who were in mourning become trees of righteousness, planted by the Lord.\',
         },
         {
           kind: 'hebrew',
@@ -64,12 +72,12 @@ export const ISAIAH_61: RichChapterContent = {
           id: 'isa61-christ-mission',
           title: 'Christ Connection — The Mission Statement',
           html:
-            'In Luke 4:16–21, Jesus enters the synagogue in Nazareth on the Sabbath and reads Isaiah 61:1–2. After reading, He closes the book and says: "This day is this scripture fulfilled in your ears." The Gospels record His ministry as fulfilling this mission: He healed the brokenhearted, called the poor blessed, proclaimed freedom to captives (both literal and spiritual), and brought sight to the blind. He is the Anointed One whose Spirit proclaims good news to the poor.',
+            \'In Luke 4:16–21, Jesus enters the synagogue in Nazareth on the Sabbath and reads Isaiah 61:1–2. After reading, He closes the book and says: "This day is this scripture fulfilled in your ears." The Gospels record His ministry as fulfilling this mission: He healed the brokenhearted, called the poor blessed, proclaimed freedom to captives (both literal and spiritual), and brought sight to the blind. He is the Anointed One whose Spirit proclaims good news to the poor.\',
         },
         {
           kind: 'carry',
           html:
-            'If we belong to Christ, we share in His mission. We are called to comfort those who mourn, to preach good tidings to the meek, to be agents of liberation and healing in a broken world. This is not a calling reserved for clergy or the specially gifted. It is the calling of every disciple.',
+            \'If we belong to Christ, we share in His mission. We are called to comfort those who mourn, to preach good tidings to the meek, to be agents of liberation and healing in a broken world. This is not a calling reserved for clergy or the specially gifted. It is the calling of every disciple.\',
         },
         {
           kind: 'reflection',
@@ -98,19 +106,19 @@ export const ISAIAH_61: RichChapterContent = {
           kind: 'commentary',
           id: 'isa61-double',
           html:
-            'For shame, there will be double honor. For confusion, rejoicing in their portion. Everlasting joy shall be theirs. This is not a small or temporary relief. This is permanent transformation. The past is not merely forgiven; it is reversed—shame becomes double honor.',
+            \'For shame, there will be double honor. For confusion, rejoicing in their portion. Everlasting joy shall be theirs. This is not a small or temporary relief. This is permanent transformation. The past is not merely forgiven; it is reversed—shame becomes double honor.\',
         },
         {
           kind: 'commentary',
           id: 'isa61-covenant',
           html:
-            'God makes an everlasting covenant with those who experience this redemption. He loves judgment and hates robbery. He directs their work in truth. Their seed will be known among the nations, acknowledged as blessed by the Lord.',
+            \'God makes an everlasting covenant with those who experience this redemption. He loves judgment and hates robbery. He directs their work in truth. Their seed will be known among the nations, acknowledged as blessed by the Lord.\',
         },
         {
           kind: 'commentary',
           id: 'isa61-bridegroom',
           html:
-            'The redeemed person rejoices greatly in the Lord. They are clothed with garments of salvation, covered with the robe of righteousness. The imagery is that of a bridegroom adorned for his wedding, a bride adorned with jewels. The redeemed are prepared for intimate union with God.',
+            \'The redeemed person rejoices greatly in the Lord. They are clothed with garments of salvation, covered with the robe of righteousness. The imagery is that of a bridegroom adorned for his wedding, a bride adorned with jewels. The redeemed are prepared for intimate union with God.\',
         },
         {
           kind: 'carry',
@@ -131,4 +139,17 @@ export const ISAIAH_61: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 61 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-isaiah-61',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 61',
+      url: 'https://www.sefaria.org/Isaiah.61',
+      description: 'Sefaria open-access source text and translations for Isaiah 61.',
+    },
+  ],
+
+  hasHebrew: true,
 };

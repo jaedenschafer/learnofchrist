@@ -40,7 +40,15 @@ export const ISAIAH_57: RichChapterContent = {
           kind: 'commentary',
           id: 'isa57-healing-pivot',
           html:
-            'From the indictment comes the invitation. The high and holy One dwells with the contrite.',
+            \'From the indictment comes the invitation. The high and holy One dwells with the contrite.[res:sefaria-isaiah-57]\',
+        },
+        {
+          kind: 'hebrew',
+          id: 'isaiah57-idolim',
+          title: 'Gillulim — "Idols"',
+          script: 'גִּלּוּלִים',
+          translit: '<strong>Gillulim</strong> · idols; detestable things',
+          description: 'Israel has pursued idols, turning from the living God.',
         },
         {
           kind: 'scripture',
@@ -63,7 +71,7 @@ export const ISAIAH_57: RichChapterContent = {
           kind: 'commentary',
           id: 'isa57-wicked',
           html:
-            'But the wicked sport and mock. They are children of transgression, seed of falsehood. They worship idols, even offering their own children in sacrifice. They have set their bed on high mountains, seeking intimacy with false gods. They have multiplied their lovers, enlarged their covenant with them. Yet all their lovers cannot save them. The wind will carry them away. Vanity will take them.',
+            \'But the wicked sport and mock. They are children of transgression, seed of falsehood. They worship idols, even offering their own children in sacrifice. They have set their bed on high mountains, seeking intimacy with false gods. They have multiplied their lovers, enlarged their covenant with them. Yet all their lovers cannot save them. The wind will carry them away. Vanity will take them.\',
         },
         {
           kind: 'hebrew',
@@ -77,7 +85,7 @@ export const ISAIAH_57: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'Isaiah makes a simple claim: The path of faithfulness to God leads to peace. The path of idolatry, of seeking intimacy with false gods, leads to emptiness and judgment. The world tempts us with endless lovers—money, status, power, pleasure—each promising to satisfy. Yet all fail. Only God remains.',
+            \'Isaiah makes a simple claim: The path of faithfulness to God leads to peace. The path of idolatry, of seeking intimacy with false gods, leads to emptiness and judgment. The world tempts us with endless lovers—money, status, power, pleasure—each promising to satisfy. Yet all fail. Only God remains.\',
         },
       ],
     },
@@ -100,7 +108,7 @@ export const ISAIAH_57: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-peace-weary',
           html:
-            '<p>Peace, peace to those far and near, yet there is no peace for the wicked. The Lord gives rest; only rebellion finds none.</p>',
+            \'<p>Peace, peace to those far and near, yet there is no peace for the wicked. The Lord gives rest; only rebellion finds none.</p>\',
         },
         {
           kind: 'scripture',
@@ -116,26 +124,26 @@ export const ISAIAH_57: RichChapterContent = {
           kind: 'commentary',
           id: 'isa57-high',
           html:
-            'God who dwells in the high and holy place, who inhabits eternity, who is transcendently holy—this God also dwells with the contrite and humble. The disparity is stunning. The high and lofty One bends down to be with the broken-hearted. He revives their spirit. He restores their comforts.',
+            \'God who dwells in the high and holy place, who inhabits eternity, who is transcendently holy—this God also dwells with the contrite and humble. The disparity is stunning. The high and lofty One bends down to be with the broken-hearted. He revives their spirit. He restores their comforts.\',
         },
         {
           kind: 'commentary',
           id: 'isa57-heal',
           html:
-            'God sees the ways of His people. Though He hid His face in judgment, He is not silent forever. He will heal. He will lead. He will restore comforts to the mourning. Peace is offered to those far off and those near—to all who turn and seek Him.',
+            \'God sees the ways of His people. Though He hid His face in judgment, He is not silent forever. He will heal. He will lead. He will restore comforts to the mourning. Peace is offered to those far off and those near—to all who turn and seek Him.\',
         },
         {
           kind: 'commentary',
           id: 'isa57-peace',
           html:
-            'But the wicked remain like the troubled sea, restless, casting up mire and dirt. They have no peace. The chapter ends with this stark reality: There is no peace to the wicked. Yet those who turn, who become contrite and humble, will find in God both the transcendent majesty of eternity and the tender compassion that revives the broken heart.',
+            \'But the wicked remain like the troubled sea, restless, casting up mire and dirt. They have no peace. The chapter ends with this stark reality: There is no peace to the wicked. Yet those who turn, who become contrite and humble, will find in God both the transcendent majesty of eternity and the tender compassion that revives the broken heart.\',
         },
         {
           kind: 'christ',
           id: 'isa57-christ-contrite',
           title: 'Christ Connection — With the Contrite',
           html:
-            'Jesus came to the broken and the humble. "Blessed are the poor in spirit: for theirs is the kingdom of heaven" (Matt. 5:3). "Come unto me, all ye that labour and are heavy laden, and I will give you rest" (Matt. 11:28). Christ dwells with the contrite, heals the wounded, and brings peace to the troubled soul. He creates the fruit of the lips—words of healing and hope for those who have despaired.',
+            \'Jesus came to the broken and the humble. "Blessed are the poor in spirit: for theirs is the kingdom of heaven" (Matt. 5:3). "Come unto me, all ye that labour and are heavy laden, and I will give you rest" (Matt. 11:28). Christ dwells with the contrite, heals the wounded, and brings peace to the troubled soul. He creates the fruit of the lips—words of healing and hope for those who have despaired.\',
         },
         {
           kind: 'carry',
@@ -156,4 +164,17 @@ export const ISAIAH_57: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 57 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-isaiah-57',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 57',
+      url: 'https://www.sefaria.org/Isaiah.57',
+      description: 'Sefaria open-access source text and translations for Isaiah 57.',
+    },
+  ],
+
+  hasHebrew: true,
 };

@@ -41,13 +41,13 @@ export const ISAIAH_15: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah15-laid-waste',
           html:
-            'The destruction comes suddenly, in the night. Cities are laid waste and brought to silence—the silence of death, of emptiness. The word "burden" (massa in Hebrew) refers to a heavy load, something that weighs heavily on the one who carries it. Isaiah speaks of Moab&apos;s destruction as a burden—not merely as a prophecy to be spoken, but as a weight upon his heart.',
+            'The destruction comes suddenly, in the night. Cities are laid waste and brought to silence—the silence of death, of emptiness. The word "burden" (massa in Hebrew) refers to a heavy load, something that weighs heavily on the one who carries it. Isaiah speaks of Moab&apos;s destruction as a burden—not merely as a prophecy to be spoken, but as a weight upon his heart.[res:sefaria-isaiah-15]',
         },
         {
           kind: 'commentary',
           id: 'isaiah15-mourning',
           html:
-            'The response to destruction is widespread mourning. People go to the high places to weep. They gird themselves with sackcloth—the garment of lamentation. They cut their beards and shave their heads—visible signs of grief. From city to city, the cry goes up. The people flee like hunted animals. And in the midst of it all, Isaiah speaks his own lament: "My heart shall cry out for Moab." This is not merely reporting on distant events. This is a prophet moved with compassion, even for a nation facing judgment.',
+            'The response to destruction is widespread mourning. People go to the high places to weep. They gird themselves with sackcloth—the garment of lamentation. They cut their beards and shave their heads—visible signs of grief. From city to city, the cry goes up. The people flee like hunted animals. And in the midst of it all, Isaiah speaks his own lament: "My heart shall cry out for Moab." This is not merely reporting on distant events. This is a prophet moved with compassion, even for a nation facing judgment.[res:british-museum-babylon-tyre]',
         },
         {
           kind: 'hebrew',
@@ -90,6 +90,25 @@ export const ISAIAH_15: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 15:5 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-15',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 15',
+      url: 'https://www.sefaria.org/Isaiah.15',
+      description: 'Sefaria open-access source text and translations for Isaiah 15.',
+    },
+    {
+      id: 'british-museum-babylon-tyre',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Babylon & Tyre: Imperial Power',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Archaeological and textual evidence of the nations Isaiah prophesies against.',
+    },
+  ],
 
   hasHebrew: true,
 };

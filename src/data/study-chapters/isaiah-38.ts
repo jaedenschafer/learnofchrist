@@ -40,7 +40,7 @@ export const ISAIAH_38: RichChapterContent = {
           kind: 'commentary',
           id: 'isa38-split-1',
           html:
-            'The death sentence comes without warning. But Hezekiah does not resign. He turns his face to the wall—a posture of prayer, of solitude before God. He appeals to his own faithfulness: "I have walked before thee in truth." His tears are seen. His prayer is heard. Fifteen years are added to his life.',
+            'The death sentence comes without warning. But Hezekiah does not resign. He turns his face to the wall—a posture of prayer, of solitude before God. He appeals to his own faithfulness: "I have walked before thee in truth." His tears are seen. His prayer is heard. Fifteen years are added to his life.[res:sefaria-isaiah-38]',
         },
         {
           kind: 'scripture',
@@ -55,7 +55,7 @@ export const ISAIAH_38: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-death-reprieve',
           html:
-            '<p>Hezekiah faces death, weeps, prays—and the Lord grants fifteen more years. Tears matter; God listens.</p>',
+            '<p>Hezekiah faces death, weeps, prays—and the Lord grants fifteen more years. Tears matter; God listens.[res:british-museum-sennacherib-prism]</p>',
         },
         {
           kind: 'scripture',
@@ -71,7 +71,7 @@ export const ISAIAH_38: RichChapterContent = {
           kind: 'commentary',
           id: 'isa38-split-2',
           html:
-            'Hezekiah&apos;s song of gratitude is also a song of anguish. He recalls his despair: the grave waiting, the years cut short, the sight of God lost forever. He is like a tent folded, a weaver&apos;s thread cut. He cries out in his pain. Yet even in the midst of lament, he speaks to God.',
+            'Hezekiah&apos;s song of gratitude is also a song of anguish. He recalls his despair: the grave waiting, the years cut short, the sight of God lost forever. He is like a tent folded, a weaver&apos;s thread cut. He cries out in his pain. Yet even in the midst of lament, he speaks to God.[res:iaa-hezekiah-tunnel-bulla]',
         },
         {
           kind: 'scripture',
@@ -148,6 +148,33 @@ export const ISAIAH_38: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 38 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-38',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 38',
+      url: 'https://www.sefaria.org/Isaiah.38',
+      description: 'Sefaria open-access source text and translations for Isaiah 38.',
+    },
+    {
+      id: 'british-museum-sennacherib-prism',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Sennacherib&apos;s Prism',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Cuneiform inscription of Sennacherib&apos;s siege of Jerusalem — Isaiah&apos;s historical backdrop.',
+    },
+    {
+      id: 'iaa-hezekiah-tunnel-bulla',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Hezekiah&apos;s Tunnel & Bulla',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological artifacts from Hezekiah&apos;s reign — tunnel and bullae bearing royal seals.',
+    },
+  ],
 
   hasHebrew: true,
 };

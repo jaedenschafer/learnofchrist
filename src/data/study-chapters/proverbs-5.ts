@@ -41,7 +41,7 @@ export const PROVERBS_5: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov5-allure-danger',
-          html: 'The strange woman is beautiful and terrible at once. Her words taste of honey, her mouth is smooth as oil—she has genuine appeal. But this sweetness masks bitter truth. She leads toward death, toward hell, into ways so unstable you cannot discern where they are going until you are caught. The first half of the warning is about understanding the deception: what looks good is actually dangerous. What attracts is actually destructive.',
+          html: 'The strange woman is beautiful and terrible at once. Her words taste of honey, her mouth is smooth as oil—she has genuine appeal. But this sweetness masks bitter truth. She leads toward death, toward hell, into ways so unstable you cannot discern where they are going until you are caught. The first half of the warning is about understanding the deception: what looks good is actually dangerous. What attracts is actually destructive.[res:british-museum-amenemope]',
         },
         {
           kind: 'scripture',
@@ -57,7 +57,7 @@ export const PROVERBS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'prov5-mid-strength-evil',
           html:
-            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.[res:sefaria-proverbs-5]',
         },
         {
           kind: 'scripture',
@@ -72,7 +72,7 @@ export const PROVERBS_5: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov5-smooth-words',
-          html: 'The strange woman speaks smoothly. Her words are like honey, her mouth softer than oil. But smoothness is not truth. Sweetness does not equal nourishment. She uses her words not to lead toward life but to draw toward destruction. The contrast is stark: what tastes like honey ends in bitterness, sharp as a two-edged sword. What seems smooth becomes cutting and painful.',
+          html: 'The strange woman speaks smoothly. Her words are like honey, her mouth softer than oil. But smoothness is not truth. Sweetness does not equal nourishment. She uses her words not to lead toward life but to draw toward destruction. The contrast is stark: what tastes like honey ends in bitterness, sharp as a two-edged sword. What seems smooth becomes cutting and painful.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'commentary',
@@ -169,6 +169,33 @@ export const PROVERBS_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 5 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-proverbs-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 5',
+      url: 'https://www.sefaria.org/Proverbs.5',
+      description: 'Sefaria open-access source text and translations for Proverbs 5.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
 
   hasHebrew: true,
 };

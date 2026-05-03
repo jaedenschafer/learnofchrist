@@ -42,7 +42,7 @@ export const PROVERBS_15: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov15-soft-answer-expanded',
-          html: 'Five proverbs on the power of gentleness and the reach of God. A soft answer stops conflict before it starts. Your words are either life or breach. The fool rejects his father&apos;s voice; the wise hear reproof. And God sees everything—not as threat, but as care. You are not hidden.',
+          html: 'Five proverbs on the power of gentleness and the reach of God. A soft answer stops conflict before it starts. Your words are either life or breach. The fool rejects his father&apos;s voice; the wise hear reproof. And God sees everything—not as threat, but as care. You are not hidden.[res:british-museum-amenemope]',
         },
         {
           kind: 'scripture',
@@ -59,7 +59,7 @@ export const PROVERBS_15: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov15-god-sees-heart',
-          html: 'Six proverbs on what God accepts and what He abhors. The wise disperse knowledge; fools hoard it. The wicked&apos;s sacrifice is an abomination; the upright&apos;s prayer is His delight. God abhors the wicked&apos;s way but loves those who follow righteousness. The man who hates reproof is on a path to death. And the deepest truth: Hell and destruction are known to the Lord—how much more does He know the human heart?',
+          html: 'Six proverbs on what God accepts and what He abhors. The wise disperse knowledge; fools hoard it. The wicked&apos;s sacrifice is an abomination; the upright&apos;s prayer is His delight. God abhors the wicked&apos;s way but loves those who follow righteousness. The man who hates reproof is on a path to death.[res:sefaria-proverbs-15] And the deepest truth: Hell and destruction are known to the Lord—how much more does He know the human heart?',
         },
         {
           kind: 'scripture',
@@ -75,7 +75,7 @@ export const PROVERBS_15: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov15-heart-state',
-          html: 'Five proverbs on the condition of the heart and the actual wealth of a life. Joy manifests in the face; sorrow breaks the spirit. The wise seek knowledge; fools feed on stupidity. The afflicted see evil everywhere; the merry see a continual feast. Better poverty with the fear of God than riches with trouble. Better simple bread with love than elaborate meals with hatred. What you have inside is what you truly possess.',
+          html: 'Five proverbs on the condition of the heart and the actual wealth of a life. Joy manifests in the face; sorrow breaks the spirit. The wise seek knowledge; fools feed on stupidity. The afflicted see evil everywhere; the merry see a continual feast. Better poverty with the fear of God than riches with trouble. Better simple bread with love than elaborate meals with hatred. What you have inside is what you truly possess.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'commentary',
@@ -204,6 +204,33 @@ export const PROVERBS_15: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 15 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-proverbs-15',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 15',
+      url: 'https://www.sefaria.org/Proverbs.15',
+      description: 'Sefaria open-access source text and translations for Proverbs 15.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
 
   hasHebrew: true,
 };

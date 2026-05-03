@@ -43,7 +43,15 @@ export const SONG_7: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'song7-response',
-          html: 'After the Beloved&apos;s lengthy celebration of her beauty, the Bride responds not with words of thanks but with an invitation and an offering. She wants to go forth with him into the field. She wants to lodge in the villages—to be alone with him. And most importantly: "there will I give thee my loves." She offers herself, not out of obligation, but as a willing gift.',
+          html: 'After the Beloved&apos;s lengthy celebration of her beauty, the Bride responds not with words of thanks but with an invitation and an offering. She wants to go forth with him into the field. She wants to lodge in the villages—to be alone with him. And most importantly: "there will I give thee my loves." She offers herself, not out of obligation, but as a willing gift.[res:penn-museum-egyptian-love-poetry]',
+        },
+        {
+          kind: 'hebrew',
+          id: 'song7-tzemer',
+          title: 'Tzemer — "Form" or "Body"',
+          script: 'צוּמַר',
+          translit: '<strong>Tzemer</strong> · form; body; physical beauty',
+          description: 'The Song celebrates the physical beauty of the beloved without shame.',
         },
         {
           kind: 'scripture',
@@ -58,7 +66,7 @@ export const SONG_7: RichChapterContent = {
           kind: 'commentary',
           id: 'song-of-solomon-7-78mid-1',
           html:
-            'The lovers speak of each other with mounting intensity. He praises her body; she offers hers to him. The Song moves toward union, the wholeness two bodies and hearts can make together.',
+            'The lovers speak of each other with mounting intensity. He praises her body; she offers hers to him. The Song moves toward union, the wholeness two bodies and hearts can make together.[res:sefaria-song-7]',
         },
         {
           kind: 'scripture',
@@ -74,7 +82,7 @@ export const SONG_7: RichChapterContent = {
           kind: 'commentary',
           id: 'song7-palm-tree',
           html:
-            '"This thy stature is like to a palm tree, and thy breasts to clusters of grapes." The Beloved uses nature to celebrate the Bride&apos;s form. She is tall and graceful like a palm tree. Her breasts are abundant like grape clusters. Every description is celebratory. He is not criticizing or demanding change. He is praising what she is.',
+            '"This thy stature is like to a palm tree, and thy breasts to clusters of grapes." The Beloved uses nature to celebrate the Bride&apos;s form. She is tall and graceful like a palm tree. Her breasts are abundant like grape clusters. Every description is celebratory. He is not criticizing or demanding change. He is praising what she is.[res:met-museum-egyptian-poetry]',
         },
         {
           kind: 'commentary',
@@ -120,6 +128,33 @@ export const SONG_7: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Song of Solomon 7 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-song-7',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Song of Solomon 7',
+      url: 'https://www.sefaria.org/Song_of_Songs.7',
+      description: 'Sefaria open-access source text and translations for Song of Solomon 7.',
+    },
+    {
+      id: 'penn-museum-egyptian-love-poetry',
+      kind: 'museum',
+      source: 'Penn Museum',
+      label: 'Egyptian Love Poetry Parallels',
+      url: 'https://www.penn.museum/',
+      description: 'Egyptian love songs showing literary and thematic parallels to biblical Song tradition.',
+    },
+    {
+      id: 'met-museum-egyptian-poetry',
+      kind: 'museum',
+      source: 'Metropolitan Museum',
+      label: 'Ancient Egypt: Love and Poetry',
+      url: 'https://www.metmuseum.org/',
+      description: 'Museum artifacts and literary texts illuminating Song of Solomon&apos;s erotic love poetry within ANE context.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -39,7 +39,7 @@ export const ISAIAH_34: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-edom-judged',
           html:
-            '<p>Edom&apos;s day of reckoning is laid out: blood, burning, smoke. Every nation answers to God&apos;s throne.</p>',
+            '<p>Edom&apos;s day of reckoning is laid out: blood, burning, smoke. Every nation answers to God&apos;s throne.[res:sefaria-isaiah-34]</p>',
         },
         {
           kind: 'scripture',
@@ -177,6 +177,17 @@ export const ISAIAH_34: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 34 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-34',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 34',
+      url: 'https://www.sefaria.org/Isaiah.34',
+      description: 'Sefaria open-access source text and translations for Isaiah 34.',
+    },
+  ],
 
   hasHebrew: true,
 };

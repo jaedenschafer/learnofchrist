@@ -39,7 +39,7 @@ export const ISAIAH_5: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-song-vineyard',
           html:
-            '<p>The beloved&apos;s vineyard yields wild fruit. God tends, expects justice—and receives injustice. What will He do then?</p>',
+            '<p>The beloved&apos;s vineyard yields wild fruit. God tends, expects justice—and receives injustice.[res:sefaria-isaiah-5] What will He do then?</p>',
         },
         {
           kind: 'scripture',
@@ -55,7 +55,7 @@ export const ISAIAH_5: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah5-vineyard-preparation',
           html:
-            'Every detail of the vineyard&apos;s preparation is significant. God chose a fruitful hill. He fenced it—protecting it from wild animals and thieves. He gathered out the stones—clearing away obstacles. He planted it with the choicest vines—the best seed, the best breeding. He built a tower—for watching and defense. He made a winepress—anticipating the harvest of grapes. Every action reflects care, anticipation, hope. God has done the work of a devoted farmer. And He has done it all expecting a particular outcome: grapes.',
+            'Every detail of the vineyard&apos;s preparation is significant. God chose a fruitful hill. He fenced it—protecting it from wild animals and thieves. He gathered out the stones—clearing away obstacles. He planted it with the choicest vines—the best seed, the best breeding. He built a tower—for watching and defense. He made a winepress—anticipating the harvest of grapes. Every action reflects care, anticipation, hope. God has done the work of a devoted farmer. And He has done it all expecting a particular outcome: grapes.[res:intertextual-isaiah-5-matthew]',
         },
         {
           kind: 'commentary',
@@ -139,6 +139,25 @@ export const ISAIAH_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 5:1,4 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 5',
+      url: 'https://www.sefaria.org/Isaiah.5',
+      description: 'Sefaria open-access source text and translations for Isaiah 5.',
+    },
+    {
+      id: 'intertextual-isaiah-5-matthew',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 5 ↔ Matthew Intertextual Links',
+      url: 'https://intertextual.bible/',
+      description: 'Connections between Isaiah 5 and New Testament fulfillment, especially Matt 1–12.',
+    },
+  ],
 
   hasHebrew: true,
 };

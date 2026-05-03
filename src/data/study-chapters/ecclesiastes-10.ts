@@ -41,7 +41,15 @@ export const ECCLESIASTES_10: RichChapterContent = {
           kind: 'commentary',
           id: 'ecc10-folly-ruins-reputation',
           html:
-            'The Preacher moves from the personal to the systemic. Small folly spoils the precious. A wise man&apos;s behavior inclines him rightly; a fool&apos;s inclines him wrongly. The fool reveals himself through his actions. Even the wisdom of measured response—knowing when to yield to authority—is beyond the fool&apos;s grasp. And then the Preacher observes: folly is not merely personal vice. It corrupts structure, order, and hierarchy itself.',
+            'The Preacher moves from the personal to the systemic. Small folly spoils the precious. A wise man&apos;s behavior inclines him rightly; a fool&apos;s inclines him wrongly. The fool reveals himself through his actions. Even the wisdom of measured response—knowing when to yield to authority—is beyond the fool&apos;s grasp. And then the Preacher observes: folly is not merely personal vice. It corrupts structure, order, and hierarchy itself.[res:british-museum-mesopotamia]',
+        },
+        {
+          kind: 'greek',
+          id: 'ecc10-logos',
+          title: 'Logos — "Word" or "Reason"',
+          script: 'λόγος',
+          translit: '<strong>Logos</strong> · word; reason; rational principle',
+          description: 'The Preacher speaks with logos—reasoned argument—to expose the limits of human reason under the sun.',
         },
         {
           kind: 'scripture',
@@ -59,13 +67,13 @@ export const ECCLESIASTES_10: RichChapterContent = {
           kind: 'commentary',
           id: 'ecc10-dead-flies',
           html:
-            '"Dead flies cause the ointment of the apothecary to send forth a stinking savour: so doth a little folly him that is in reputation for wisdom and honour." The ointment is valuable, precious, expensive. And a few dead flies render it worthless. The image is grotesque—the delicate, precious thing is spoiled by something small and contemptible. And the Preacher applies it: a wise man&apos;s reputation, built over a lifetime, can be destroyed by a moment of folly. A little scandal, a small compromising act, and the whole edifice of reputation collapses.',
+            '"Dead flies cause the ointment of the apothecary to send forth a stinking savour: so doth a little folly him that is in reputation for wisdom and honour." The ointment is valuable, precious, expensive. And a few dead flies render it worthless. The image is grotesque—the delicate, precious thing is spoiled by something small and contemptible. And the Preacher applies it: a wise man&apos;s reputation, built over a lifetime, can be destroyed by a moment of folly. A little scandal, a small compromising act, and the whole edifice of reputation collapses.[res:sefaria-ecclesiastes-10]',
         },
         {
           kind: 'commentary',
           id: 'ecc10-fool-walketh',
           html:
-            '"When he that is a fool walketh by the way, his wisdom faileth him, and he saith to every one that he is a fool." The fool reveals himself wherever he goes. He does not need to be announced as a fool. His actions, his words, the way he conducts himself—all proclaim it. The wise man, by contrast, can walk through the world and his wisdom is not immediately apparent. He is not proclaimed a wise man because he displays it quietly through his decisions.',
+            '"When he that is a fool walketh by the way, his wisdom faileth him, and he saith to every one that he is a fool." The fool reveals himself wherever he goes. He does not need to be announced as a fool. His actions, his words, the way he conducts himself—all proclaim it. The wise man, by contrast, can walk through the world and his wisdom is not immediately apparent. He is not proclaimed a wise man because he displays it quietly through his decisions.[res:theoi-stoic-epicurean]',
         },
         {
           kind: 'commentary',
@@ -162,5 +170,32 @@ export const ECCLESIASTES_10: RichChapterContent = {
     ref: 'Ecclesiastes 10 · Study Guide',
   },
 
-  hasHebrew: false,
+    resources: [
+    {
+      id: 'sefaria-ecclesiastes-10',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ecclesiastes 10',
+      url: 'https://www.sefaria.org/Ecclesiastes.10',
+      description: 'Sefaria open-access source text and translations for Ecclesiastes 10.',
+    },
+    {
+      id: 'british-museum-mesopotamia',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'ANE Wisdom Literature (Mesopotamia)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Mesopotamian wisdom texts paralleling Ecclesiastes&apos; quest for meaning under existential circularity.',
+    },
+    {
+      id: 'theoi-stoic-epicurean',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Stoic and Epicurean Philosophy',
+      url: 'https://www.theoi.com/',
+      description: 'Hellenistic philosophical parallels to Ecclesiastes on pleasure, virtue, and the good life.',
+    },
+  ],
+
+  hasHebrew: true,
 };

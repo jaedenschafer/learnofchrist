@@ -40,13 +40,13 @@ export const ISAIAH_16: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah16-lamb',
           html:
-            'The oracle opens with an instruction: send the lamb to the ruler of the land. In the context of Moab&apos;s devastation, this is a plea for refuge, a formal petition. The lamb is a tribute, yes, but more importantly it is a sign of submission and a request for protection. The fords of Arnon mark the boundary of Moab. The wandering bird "cast out of the nest" becomes an image for Moab&apos;s daughters, fleeing their homeland, seeking any shelter.',
+            'The oracle opens with an instruction: send the lamb to the ruler of the land. In the context of Moab&apos;s devastation, this is a plea for refuge, a formal petition. The lamb is a tribute, yes, but more importantly it is a sign of submission and a request for protection. The fords of Arnon mark the boundary of Moab. The wandering bird "cast out of the nest" becomes an image for Moab&apos;s daughters, fleeing their homeland, seeking any shelter.[res:sefaria-isaiah-16]',
         },
         {
           kind: 'commentary',
           id: 'isaiah16-counsel',
           html:
-            '"Take counsel, execute judgment; make thy shadow as the night in the midst of the noonday." These are instructions to Judah&apos;s leadership: act wisely, judge justly, provide shelter as substantial and protective as darkness provides from the heat of noon. "Hide the outcasts; betray not him that wandereth." This is a radical command for a nation that might easily turn away the destitute. Instead, the prophet calls for protection—not charity given in passing, but refuge and covenant.',
+            '"Take counsel, execute judgment; make thy shadow as the night in the midst of the noonday." These are instructions to Judah&apos;s leadership: act wisely, judge justly, provide shelter as substantial and protective as darkness provides from the heat of noon. "Hide the outcasts; betray not him that wandereth." This is a radical command for a nation that might easily turn away the destitute. Instead, the prophet calls for protection—not charity given in passing, but refuge and covenant.[res:british-museum-babylon-tyre]',
         },
         {
           kind: 'hebrew',
@@ -129,6 +129,25 @@ export const ISAIAH_16: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 16 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-16',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 16',
+      url: 'https://www.sefaria.org/Isaiah.16',
+      description: 'Sefaria open-access source text and translations for Isaiah 16.',
+    },
+    {
+      id: 'british-museum-babylon-tyre',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Babylon & Tyre: Imperial Power',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Archaeological and textual evidence of the nations Isaiah prophesies against.',
+    },
+  ],
 
   hasHebrew: true,
 };

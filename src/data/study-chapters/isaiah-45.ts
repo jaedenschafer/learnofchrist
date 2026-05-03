@@ -40,7 +40,7 @@ export const ISAIAH_45: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-righteousness-rises',
           html:
-            '<p>The heavens rain down; the earth opens with salvation. Righteousness rises; the Lord does both.</p>',
+            '<p>The heavens rain down; the earth opens with salvation. Righteousness rises; the Lord does both.[res:sefaria-isaiah-45]</p>',
         },
         {
           kind: 'scripture',
@@ -56,7 +56,7 @@ export const ISAIAH_45: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah45-cyrus-addressed',
           html:
-            'God addresses Cyrus directly: "I have holden thy right hand...I will go before thee." All of this—the opening of gates, the breaking of brass and iron—serves a larger purpose: "That they may know from the rising of the sun, and from the west, that there is none beside me." God uses history to reveal God&apos;s uniqueness.',
+            'God addresses Cyrus directly: "I have holden thy right hand...I will go before thee." All of this—the opening of gates, the breaking of brass and iron—serves a larger purpose: "That they may know from the rising of the sun, and from the west, that there is none beside me." God uses history to reveal God&apos;s uniqueness.[res:intertextual-isaiah-servant-nt]',
         },
         {
           kind: 'scripture',
@@ -171,6 +171,25 @@ export const ISAIAH_45: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 45 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-45',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 45',
+      url: 'https://www.sefaria.org/Isaiah.45',
+      description: 'Sefaria open-access source text and translations for Isaiah 45.',
+    },
+    {
+      id: 'intertextual-isaiah-servant-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah Servant Song ↔ NT Fulfillment',
+      url: 'https://intertextual.bible/',
+      description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
+    },
+  ],
 
   hasHebrew: true,
 };

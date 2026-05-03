@@ -39,7 +39,15 @@ export const SONG_1: RichChapterContent = {
           kind: 'commentary',
           id: 'song-of-solomon-1-78mid-1',
           html:
-            'The bride&apos;s desire gives way to the beloved&apos;s voice. He calls her — &quot;Draw me, we will run after thee.&quot; The Song works by invitation: his call, her response, their movement toward each other.',
+            'The bride&apos;s desire gives way to the beloved&apos;s voice. He calls her — &quot;Draw me, we will run after thee.&quot; The Song works by invitation: his call, her response, their movement toward each other.[res:sefaria-song-1]',
+        },
+        {
+          kind: 'hebrew',
+          id: 'song1-dod',
+          title: 'Dod — "Beloved"',
+          script: 'דּוֹד',
+          translit: '<strong>Dod</strong> · beloved; uncle; friend',
+          description: 'The male lover is the Dod—the beloved. The term carries intimacy and longing.',
         },
         {
           kind: 'scripture',
@@ -55,13 +63,13 @@ export const SONG_1: RichChapterContent = {
           kind: 'commentary',
           id: 'song1-desire',
           html:
-            '"Let him kiss me with the kisses of his mouth: for thy love is better than wine." The Bride opens not with description or narration, but with desire. She wants to be kissed. She wants his affection. She compares it to wine—one of the finest luxuries of the ancient world—and says his love surpasses it. This is the language of preference, of priority. Above all goods, she chooses him.',
+            '"Let him kiss me with the kisses of his mouth: for thy love is better than wine." The Bride opens not with description or narration, but with desire. She wants to be kissed. She wants his affection. She compares it to wine—one of the finest luxuries of the ancient world—and says his love surpasses it. This is the language of preference, of priority. Above all goods, she chooses him.[res:penn-museum-egyptian-love-poetry]',
         },
         {
           kind: 'commentary',
           id: 'song1-ointment',
           html:
-            '"Because of the savour of thy good ointments thy name is as ointment poured forth." His very name is fragrant to her. The scent of his ointments—the markers of his presence, his care for himself, his refinement—all of it speaks to her. His reputation spreads. The virgins love him. But the Bride wants not his attention broadly given, but focused on her.',
+            '"Because of the savour of thy good ointments thy name is as ointment poured forth." His very name is fragrant to her. The scent of his ointments—the markers of his presence, his care for himself, his refinement—all of it speaks to her. His reputation spreads. The virgins love him. But the Bride wants not his attention broadly given, but focused on her.[res:met-museum-egyptian-poetry]',
         },
         {
           kind: 'commentary',
@@ -153,6 +161,33 @@ export const SONG_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Song of Solomon 1 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-song-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Song of Solomon 1',
+      url: 'https://www.sefaria.org/Song_of_Songs.1',
+      description: 'Sefaria open-access source text and translations for Song of Solomon 1.',
+    },
+    {
+      id: 'penn-museum-egyptian-love-poetry',
+      kind: 'museum',
+      source: 'Penn Museum',
+      label: 'Egyptian Love Poetry Parallels',
+      url: 'https://www.penn.museum/',
+      description: 'Egyptian love songs showing literary and thematic parallels to biblical Song tradition.',
+    },
+    {
+      id: 'met-museum-egyptian-poetry',
+      kind: 'museum',
+      source: 'Metropolitan Museum',
+      label: 'Ancient Egypt: Love and Poetry',
+      url: 'https://www.metmuseum.org/',
+      description: 'Museum artifacts and literary texts illuminating Song of Solomon&apos;s erotic love poetry within ANE context.',
+    },
+  ],
 
   hasHebrew: false,
 };

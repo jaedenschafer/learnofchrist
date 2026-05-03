@@ -42,13 +42,13 @@ export const ISAIAH_12: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah12-anger-turned',
           html:
-            'The song begins by acknowledging a reality: the Lord was angry. Judgment came. But now—"thine anger is turned away, and thou comfortedst me." This is the movement of the entire prophecy in miniature. God was angry because His people had turned from Him. But judgment is not God&apos;s final word. Beyond the anger is comfort. Beyond the destruction is restoration. And the people, having been refined by judgment, now understand this with a depth they could not have known before.',
+            'The song begins by acknowledging a reality: the Lord was angry. Judgment came. But now—"thine anger is turned away, and thou comfortedst me." This is the movement of the entire prophecy in miniature. God was angry because His people had turned from Him. But judgment is not God&apos;s final word. Beyond the anger is comfort. Beyond the destruction is restoration. And the people, having been refined by judgment, now understand this with a depth they could not have known before.[res:sefaria-isaiah-12]',
         },
         {
           kind: 'commentary',
           id: 'isaiah12-salvation-song',
           html:
-            '"Behold, God is my salvation; I will trust, and not be afraid." This is the answer to all of Isaiah&apos;s earlier warnings. Yes, enemies surround you. Yes, judgment has come. But look at God—He is your salvation. You do not have to be afraid. You do not have to trust in horses and chariots, in military might or political alliance. Your strength is the Lord. Your song—your joy, your music, the expression of your deepest gladness—is the Lord. He has become your salvation.',
+            '"Behold, God is my salvation; I will trust, and not be afraid." This is the answer to all of Isaiah&apos;s earlier warnings. Yes, enemies surround you. Yes, judgment has come. But look at God—He is your salvation. You do not have to be afraid. You do not have to trust in horses and chariots, in military might or political alliance. Your strength is the Lord. Your song—your joy, your music, the expression of your deepest gladness—is the Lord. He has become your salvation.[res:intertextual-isaiah-12-matthew]',
         },
         {
           kind: 'hebrew',
@@ -97,6 +97,25 @@ export const ISAIAH_12: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Isaiah 12:2 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-isaiah-12',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 12',
+      url: 'https://www.sefaria.org/Isaiah.12',
+      description: 'Sefaria open-access source text and translations for Isaiah 12.',
+    },
+    {
+      id: 'intertextual-isaiah-12-matthew',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 12 ↔ Matthew Intertextual Links',
+      url: 'https://intertextual.bible/',
+      description: 'Connections between Isaiah 12 and New Testament fulfillment, especially Matt 1–12.',
+    },
+  ],
 
   hasHebrew: true,
 };

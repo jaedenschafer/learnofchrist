@@ -42,7 +42,7 @@ export const PROVERBS_1: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov1-purpose',
-          html: 'These opening verses declare the entire purpose of the book: not to entertain or merely to instruct in practical matters, but to form the reader in wisdom. The word "proverb" (Hebrew <em>mashal</em>) means a comparison, a saying that holds up a mirror to life. Each proverb is a distilled truth, drawn from long observation of how the world actually works when people live in fear of the Lord. Solomon, the king renowned for his wisdom, offers these sayings to make the simple wise, to deepen the understanding of those already thoughtful, and to teach all who will listen the art of discernment.',
+          html: 'These opening verses declare the entire purpose of the book: not to entertain or merely to instruct in practical matters, but to form the reader in wisdom. The word "proverb" (Hebrew <em>mashal</em>) means a comparison, a saying that holds up a mirror to life. Each proverb is a distilled truth, drawn from long observation of how the world actually works when people live in fear of the Lord. Solomon, the king renowned for his wisdom, offers these sayings to make the simple wise, to deepen the understanding of those already thoughtful, and to teach all who will listen the art of discernment.[res:sefaria-proverbs-1]',
         },
         {
           kind: 'hebrew',
@@ -80,12 +80,12 @@ export const PROVERBS_1: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov1-beginning',
-          html: 'Here is the central claim of the entire book. The fear of the Lord is not one wisdom among many. It is the beginning—the foundation, the starting point, the bedrock. All other understanding flows from this root. By contrast, fools are those who "despise wisdom and instruction." The fool is not merely ignorant but defiant. He has chosen not to listen, not to learn, not to order his life according to truth. He has chosen his own way.',
+          html: 'Here is the central claim of the entire book. The fear of the Lord is not one wisdom among many. It is the beginning—the foundation, the starting point, the bedrock. All other understanding flows from this root. By contrast, fools are those who "despise wisdom and instruction." The fool is not merely ignorant but defiant. He has chosen not to listen, not to learn, not to order his life according to truth. He has chosen his own way.[res:british-museum-amenemope]',
         },
         {
           kind: 'commentary',
           id: 'prov1-father-mother',
-          html: 'The instruction of father and mother is called the beginning of wisdom because the family is where reverence for God is first taught—not through lecturing but through the patient, persistent modeling of a life lived in fear of the Lord. These words of parents are described as an ornament of grace, adorning the child like jewelry, and as chains about the neck—not chains of bondage but chains of connection, tethering the young person to the wisdom that will save his life. They bind him to truth.',
+          html: 'The instruction of father and mother is called the beginning of wisdom because the family is where reverence for God is first taught—not through lecturing but through the patient, persistent modeling of a life lived in fear of the Lord. These words of parents are described as an ornament of grace, adorning the child like jewelry, and as chains about the neck—not chains of bondage but chains of connection, tethering the young person to the wisdom that will save his life. They bind him to truth.[res:cambridge-up-proverbs-wisdom]',
         },
         {
           kind: 'christ',
@@ -235,6 +235,33 @@ export const PROVERBS_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Proverbs 1 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-proverbs-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 1',
+      url: 'https://www.sefaria.org/Proverbs.1',
+      description: 'Sefaria open-access source text and translations for Proverbs 1.',
+    },
+    {
+      id: 'british-museum-amenemope',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Egyptian Instruction of Amenemope',
+      url: 'https://www.britishmuseum.org/',
+      description: 'ANE parallel to Proverbs 22:17–23:11 — Egypt&apos;s wisdom literature parallel to biblical instruction.',
+    },
+    {
+      id: 'cambridge-up-proverbs-wisdom',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Proverbs and Ancient Near Eastern Wisdom',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of Proverbs within ANE wisdom tradition.',
+    },
+  ],
 
   hasHebrew: true,
 };

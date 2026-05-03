@@ -41,7 +41,15 @@ export const SONG_8: RichChapterContent = {
           kind: 'commentary',
           id: 'song-of-solomon-8-78mid-1',
           html:
-            'The Bride speaks of their love as stronger than death, as burning like a flame. She names what she has learned: Love cannot be bought, and a sister guarded is a sister kept safe.',
+            'The Bride speaks of their love as stronger than death, as burning like a flame. She names what she has learned: Love cannot be bought, and a sister guarded is a sister kept safe.[res:penn-museum-egyptian-love-poetry]',
+        },
+        {
+          kind: 'hebrew',
+          id: 'song8-ahava',
+          title: 'Ahava — "Love"',
+          script: 'אַהֲבָה',
+          translit: '<strong>Ahava</strong> · love; affection; commitment',
+          description: 'Love is the overarching theme—powerful, exclusive, and worthy of all devotion.',
         },
         {
           kind: 'scripture',
@@ -57,13 +65,13 @@ export const SONG_8: RichChapterContent = {
           kind: 'commentary',
           id: 'song8-seal-heart',
           html:
-            '"Set me as a seal upon thine heart, as a seal upon thine arm." A seal marks ownership, authenticity, permanence. The Bride asks her Beloved to mark her in this way—to declare that she is his, to impress himself upon her heart and her arm. A heart speaks of the inner life. An arm speaks of power and action. She wants him to be present in her love and in her strength.',
+            '"Set me as a seal upon thine heart, as a seal upon thine arm." A seal marks ownership, authenticity, permanence. The Bride asks her Beloved to mark her in this way—to declare that she is his, to impress himself upon her heart and her arm. A heart speaks of the inner life. An arm speaks of power and action. She wants him to be present in her love and in her strength.[res:sefaria-song-8]',
         },
         {
           kind: 'commentary',
           id: 'song8-love-strong-death',
           html:
-            '"For love is strong as death; jealousy is cruel as the grave." The Bride makes an audacious claim. Love is as strong as death itself. Death ends all things. It cannot be negotiated with or delayed. Love is like this. It is absolute, immovable, final. And jealousy—the desire to have and to keep the beloved—is as merciless as the grave. It will not let go.',
+            '"For love is strong as death; jealousy is cruel as the grave." The Bride makes an audacious claim. Love is as strong as death itself. Death ends all things. It cannot be negotiated with or delayed. Love is like this. It is absolute, immovable, final. And jealousy—the desire to have and to keep the beloved—is as merciless as the grave. It will not let go.[res:met-museum-egyptian-poetry]',
         },
         {
           kind: 'commentary',
@@ -164,6 +172,33 @@ export const SONG_8: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Song of Solomon 8 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-song-8',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Song of Solomon 8',
+      url: 'https://www.sefaria.org/Song_of_Songs.8',
+      description: 'Sefaria open-access source text and translations for Song of Solomon 8.',
+    },
+    {
+      id: 'penn-museum-egyptian-love-poetry',
+      kind: 'museum',
+      source: 'Penn Museum',
+      label: 'Egyptian Love Poetry Parallels',
+      url: 'https://www.penn.museum/',
+      description: 'Egyptian love songs showing literary and thematic parallels to biblical Song tradition.',
+    },
+    {
+      id: 'met-museum-egyptian-poetry',
+      kind: 'museum',
+      source: 'Metropolitan Museum',
+      label: 'Ancient Egypt: Love and Poetry',
+      url: 'https://www.metmuseum.org/',
+      description: 'Museum artifacts and literary texts illuminating Song of Solomon&apos;s erotic love poetry within ANE context.',
+    },
+  ],
 
   hasHebrew: false,
 };

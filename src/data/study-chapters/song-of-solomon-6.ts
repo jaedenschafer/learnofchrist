@@ -40,7 +40,15 @@ export const SONG_6: RichChapterContent = {
           kind: 'commentary',
           id: 'song-of-solomon-6-78mid-1',
           html:
-            'He finds her again and affirms her again: You are beautiful, my love. The refrain repeats, but it does not grow thin. To be chosen, again and again, is the gift of love.',
+            'He finds her again and affirms her again: You are beautiful, my love. The refrain repeats, but it does not grow thin. To be chosen, again and again, is the gift of love.[res:penn-museum-egyptian-love-poetry]',
+        },
+        {
+          kind: 'hebrew',
+          id: 'song6-shulamit',
+          title: 'Shulamit — "The Shulamite"',
+          script: 'שׁוּלַמִּית',
+          translit: '<strong>Shulamit</strong> · the Shulamite; bride',
+          description: 'The bride is named—she is particular, real, beloved by name.',
         },
         {
           kind: 'scripture',
@@ -55,7 +63,7 @@ export const SONG_6: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'song6-many-women',
-          html: 'The inventory of the Beloved&apos;s devotion to the Bride continues through detailed physical description. Her temples, her locks — all are praised. Yet then the Beloved acknowledges the wider context: there are sixty queens, eighty concubines, virgins without number. All beautiful, all in the palace. Yet none of them compare to his one dove.',
+          html: 'The inventory of the Beloved&apos;s devotion to the Bride continues through detailed physical description. Her temples, her locks — all are praised. Yet then the Beloved acknowledges the wider context: there are sixty queens, eighty concubines, virgins without number. All beautiful, all in the palace. Yet none of them compare to his one dove.[res:sefaria-song-6]',
         },
         {
           kind: 'scripture',
@@ -72,7 +80,7 @@ export const SONG_6: RichChapterContent = {
           kind: 'commentary',
           id: 'song6-i-am-his',
           html:
-            '"I am my beloved&apos;s, and my beloved is mine: he feedeth among the lilies." The great refrain returns. The Bride speaks her identity in relation to her Beloved. She does not say "I am a queen" or "I am wise" or any other self-defining statement. She defines herself by her belonging. She is his. He is hers. And he feeds among the lilies—he tends beauty, he is present.',
+            '"I am my beloved&apos;s, and my beloved is mine: he feedeth among the lilies." The great refrain returns. The Bride speaks her identity in relation to her Beloved. She does not say "I am a queen" or "I am wise" or any other self-defining statement. She defines herself by her belonging. She is his. He is hers. And he feeds among the lilies—he tends beauty, he is present.[res:met-museum-egyptian-poetry]',
         },
         {
           kind: 'commentary',
@@ -124,6 +132,33 @@ export const SONG_6: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Song of Solomon 6 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-song-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Song of Solomon 6',
+      url: 'https://www.sefaria.org/Song_of_Songs.6',
+      description: 'Sefaria open-access source text and translations for Song of Solomon 6.',
+    },
+    {
+      id: 'penn-museum-egyptian-love-poetry',
+      kind: 'museum',
+      source: 'Penn Museum',
+      label: 'Egyptian Love Poetry Parallels',
+      url: 'https://www.penn.museum/',
+      description: 'Egyptian love songs showing literary and thematic parallels to biblical Song tradition.',
+    },
+    {
+      id: 'met-museum-egyptian-poetry',
+      kind: 'museum',
+      source: 'Metropolitan Museum',
+      label: 'Ancient Egypt: Love and Poetry',
+      url: 'https://www.metmuseum.org/',
+      description: 'Museum artifacts and literary texts illuminating Song of Solomon&apos;s erotic love poetry within ANE context.',
+    },
+  ],
 
   hasHebrew: false,
 };
