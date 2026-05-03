@@ -8,9 +8,13 @@ function buildCsp(nonce: string): string {
   // favor of a per-request nonce + 'strict-dynamic'. style-src still allows
   // 'unsafe-inline' because styled-jsx and Tailwind utility classes inline
   // styles; revisit once those are nonced too.
+  // YouTube hero video background needs both its iframe API script AND
+  // the iframe domain whitelisted. With 'strict-dynamic' the explicit
+  // host is technically redundant for nonced loaders, but we list it
+  // anyway to keep behavior predictable.
   const scriptSrc = isProd
-    ? `script-src 'self' 'nonce-${nonce}' 'strict-dynamic' https://vercel.live`
-    : `script-src 'self' 'unsafe-inline' 'unsafe-eval' 'nonce-${nonce}' https://vercel.live`;
+    ? `script-src 'self' 'nonce-${nonce}' 'strict-dynamic' https://vercel.live https://www.youtube.com https://s.ytimg.com`
+    : `script-src 'self' 'unsafe-inline' 'unsafe-eval' 'nonce-${nonce}' https://vercel.live https://www.youtube.com https://s.ytimg.com`;
 
   return [
     "default-src 'self'",
@@ -18,7 +22,10 @@ function buildCsp(nonce: string): string {
     "style-src 'self' 'unsafe-inline'",
     "img-src 'self' data: blob: https:",
     "font-src 'self' data:",
-    "connect-src 'self' https://*.supabase.co https://vercel.live wss://*.supabase.co",
+    "connect-src 'self' https://*.supabase.co https://vercel.live wss://*.supabase.co https://www.youtube.com",
+    // Allow YouTube + youtube-nocookie iframes for the hero video
+    // background. Excludes the rest of the world by omission.
+    "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com",
     "frame-ancestors 'none'",
     "base-uri 'self'",
     "form-action 'self'",
