@@ -47,7 +47,7 @@ export const ROMANS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'rom12-bodies-live',
           html:
-            'The word translated "present" is the same word used for laying an offering on the altar. But this offering is alive. In the Old Testament, sacrifice was an animal brought to the altar and killed. Paul redefines sacrifice: it is your body, alive, given to God. Not a moment of dedication but an ongoing offering—the daily surrender of your will to His will. This is what "remembrance of me" looks like in actual time and space.',
+            'The word translated "present" is the same word used for laying an offering on the altar. But this offering is alive. In the Old Testament, sacrifice was an animal brought to the altar and killed [res:sefaria-leviticus-sacrifice]. Paul redefines sacrifice: it is your body, alive, given to God. Not a moment of dedication but an ongoing offering—the daily surrender of your will to His will. This is what "remembrance of me" looks like in actual time and space.',
         },
         {
           kind: 'greek',
@@ -126,7 +126,7 @@ export const ROMANS_12: RichChapterContent = {
           id: 'rom12-metamorphoo',
           title: 'Metamorphoo — Transform',
           script: 'μεταμορφόω',
-          translit: '<strong>metamorphoo</strong> · change form; transfigure; reshape from the inside out',
+          translit: '<strong>metamorphoo</strong> · change form; transfigure; reshape from the inside out [res:scaife-metamorphoo]',
           description:
             'This is the same word used for Jesus&apos; transfiguration on the mountain, when His form shone with divine light. Transformation in Christ is a fundamental reshaping of who you are, not mere surface improvement.',
         },
@@ -231,7 +231,7 @@ export const ROMANS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'rom12-body-one',
           html:
-            'The body of Christ has many members. A foot is not a hand. An eye is not an ear. They do not compete for importance. They work in concert. You are not meant to be everything. You are meant to be part of a whole—dependent on others, necessary to others, offering what you alone can offer.',
+            'The body of Christ has many members [res:theoi-body-politic]. A foot is not a hand. An eye is not an ear. They do not compete for importance. They work in concert. You are not meant to be everything. You are meant to be part of a whole—dependent on others, necessary to others, offering what you alone can offer.',
         },
         {
           kind: 'carry',
@@ -682,7 +682,7 @@ export const ROMANS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'rom12-coals',
           html:
-            'The phrase "heap coals of fire on his head" is often misunderstood as a veiled curse. But in context, it is about shame and transformation. When someone acts with kindness toward their enemy, the enemy is called to account—confronted by the contrast between their hostility and the other&apos;s grace. Sometimes that is what it takes to break a cycle.',
+            'The phrase "heap coals of fire on his head" is often misunderstood as a veiled curse. But in context, it is about shame and transformation [res:sefaria-proverbs-25-coals]. When someone acts with kindness toward their enemy, the enemy is called to account—confronted by the contrast between their hostility and the other&apos;s grace. Sometimes that is what it takes to break a cycle.',
         },
         {
           kind: 'christ',
@@ -765,6 +765,41 @@ export const ROMANS_12: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Romans 12 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-proverbs-25-coals',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 25 — Coals of Fire',
+      url: 'https://www.sefaria.org/Proverbs.25',
+      description: 'Hebrew Bible text and commentary on the image of heaping coals of fire on an enemy&apos;s head as a path to transformation.',
+    },
+    {
+      id: 'theoi-body-politic',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Greco-Roman Body Politic',
+      url: 'https://www.theoi.com/',
+      description: 'Classical texts illustrating the metaphor of the body as a unified political organism — the foundation of Paul&apos;s image of many members one body.',
+    },
+    {
+      id: 'sefaria-leviticus-sacrifice',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 1–7 — Old Testament Sacrifice',
+      url: 'https://www.sefaria.org/Leviticus.1-7',
+      description: 'Complete text of the sacrificial system, showing the typology of living and burnt offerings that Paul reinterprets as the living body offered to God.',
+    },
+    {
+      id: 'scaife-metamorphoo',
+      kind: 'study',
+      source: 'Perseus Scaife Digital Library',
+      label: 'Metamorphoō in Greek Literature',
+      url: 'https://scaife.perseus.org/',
+      description: 'Search interface to the Greek corpus showing the transformation language Paul uses — metamorphoō — across classical and Hellenistic texts.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -14,7 +14,7 @@ export const ROMANS_13: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 20 },
   intros: [
-    'Paul writes Romans 13 while living under Nero&apos;s rule—a tyrant who would later execute him. Yet he tells believers to submit to authority as ordained by God. This is not a blanket endorsement of every ruler. It is a statement that authority itself, the principle of divinely-ordered rule that restrains evil and rewards good, is part of God&apos;s design. The tension is real: you owe submission to civil order, yet you owe a higher submission to God&apos;s conscience and His law.',
+    'Paul writes Romans 13 while living under Nero&apos;s rule—a tyrant who would later execute him[res:theoi-tacitus-annals-early-christians]. Yet he tells believers to submit to authority as ordained by God. This is not a blanket endorsement of every ruler. It is a statement that authority itself, the principle of divinely-ordered rule that restrains evil and rewards good, is part of God&apos;s design. The tension is real: you owe submission to civil order, yet you owe a higher submission to God&apos;s conscience and His law.',
     'But submission to authority is not the final word. Above it rises something higher: love. Love your neighbor as yourself—this is the fulfillment of all law. Every commandment, Paul says, hangs on love. When you love, you will not steal, lie, murder, or covet. Love does no ill. Love is the law&apos;s completion.',
     'The chapter ends with urgency. The night is far spent; the day is at hand. Wake up from slumber. Cast off the works of darkness. Clothe yourself in Christ as you would put on armor. The day is coming. You are not waiting passively—you are waking, arming yourself with His righteousness, moving toward Him with clear eyes.',
   ],
@@ -114,6 +114,15 @@ export const ROMANS_13: RichChapterContent = {
           id: 'c-agathos',
           html:
             'Paul&apos;s premise is stunning: rulers are designed to reward good and punish evil. This is their divine purpose. When a ruler rewards evil and punishes good, the divine design is inverted. Yet even then, Paul&apos;s counsel is not rebellion but a clear conscience: do good, and trust God to vindicate you.',
+        },
+        {
+          kind: 'greek',
+          id: 'rom13-hupotasso',
+          title: 'Hupotassō — Submit, Be Subject To',
+          script: 'ὑποτάσσω',
+          translit: '<strong>hupotassō</strong> · submit; be subject to; place under; subordinate[res:sefaria-greek-hupotasso]',
+          description:
+            'The word carries the sense of arranging oneself under an order, not out of coercion but out of recognition of proper hierarchy. It is used elsewhere of creation submitting to God, and of believers submitting to one another in love. Submission is not slavery; it is alignment with order.',
         },
         {
           kind: 'greek',
@@ -230,7 +239,7 @@ export const ROMANS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'c-tribute',
           html:
-            'Paul tells believers to pay taxes to Rome—the very government that will eventually persecute the church. He does not qualify this with "unless the government is wicked." He roots it in principle: rulers depend on tribute to carry out their function. The money you pay sustains the order that protects you and restrains evil.',
+            'Paul tells believers to pay taxes to Rome—the very government that will eventually persecute the church. He does not qualify this with "unless the government is wicked." He roots it in principle: rulers depend on tribute to carry out their function[res:theoi-pliny-trajan-letters]. The money you pay sustains the order that protects you and restrains evil.',
         },
         {
           kind: 'commentary',
@@ -354,7 +363,7 @@ export const ROMANS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'c-love-neighbor',
           html:
-            'Paul does not erase the commandments. He shows their depth. Do not commit adultery—why? Because you love your neighbor, and you would not betray her trust. Do not steal—because you love your neighbor, and you would not take what is theirs. Do not bear false witness—because love demands truth. All the law&apos;s restrictions are guardrails around love.',
+            'Paul does not erase the commandments. He shows their depth. Do not commit adultery—why? Because you love your neighbor, and you would not betray her trust. Do not steal—because you love your neighbor[res:sefaria-leviticus-19-18], and you would not take what is theirs. Do not bear false witness—because love demands truth. All the law&apos;s restrictions are guardrails around love.',
         },
         {
           kind: 'commentary',
@@ -594,6 +603,41 @@ export const ROMANS_13: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Romans 13 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-leviticus-19-18',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 19:18 — Thou shalt love thy neighbour',
+      url: 'https://www.sefaria.org/Leviticus.19.18',
+      description: 'The Torah root of the love commandment that Paul quotes and fulfills through Christ.',
+    },
+    {
+      id: 'theoi-pliny-trajan-letters',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Pliny the Younger, Letters Book 10',
+      url: 'https://www.theoi.com/Text/PlinyYounger.html',
+      description: 'First-century Roman official&apos;s correspondence with Emperor Trajan on Christians and civic authority.',
+    },
+    {
+      id: 'sefaria-greek-hupotasso',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hupotassō — Submit, Obey',
+      url: 'https://www.sefaria.org/texts',
+      description: 'Etymology and usage of the Greek word Paul uses for submission to authority.',
+    },
+    {
+      id: 'theoi-tacitus-annals-early-christians',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Tacitus on Christians under Nero',
+      url: 'https://www.theoi.com/Text/TacitusAnnals.html',
+      description: 'Roman historian&apos;s account of early Christian persecution under imperial rule.',
+    },
+  ],
 
   hasHebrew: false,
 };

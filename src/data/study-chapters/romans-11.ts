@@ -118,7 +118,7 @@ export const ROMANS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'rom11-seven-thousand',
           html:
-            'Even in Israel&apos;s darkest hour—when Elijah thought he alone remained faithful—God had reserved seven thousand. The number is not primarily statistical; it is theological. God always preserves a remnant for Himself. Always. This is the pattern of Scripture. In the flood, eight souls. In the captivity, a return. And now in the age of hardening, there are believers in Christ who will not compromise.',
+            'Even in Israel&apos;s darkest hour—when Elijah thought he alone remained faithful—God had reserved seven thousand [res:sefaria-1kings19-remnant]. The number is not primarily statistical; it is theological. God always preserves a remnant for Himself. Always. This is the pattern of Scripture. In the flood, eight souls. In the captivity, a return. And now in the age of hardening, there are believers in Christ who will not compromise.',
         },
         {
           kind: 'greek',
@@ -185,7 +185,7 @@ export const ROMANS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'rom11-blinded',
           html:
-            'There is a division within Israel: those chosen by grace obtain faith and sight; the rest are blinded. The blinding is not eternally fixed—this is crucial. It is a temporary hardening that serves God&apos;s larger purpose. Paul will return to this. But in the present moment, there is a hardening on the majority, that the Gentiles might be brought in.',
+            'There is a division within Israel: those chosen by grace obtain faith and sight; the rest are blinded. The blinding is not eternally fixed—this is crucial. It is a temporary hardening that serves God&apos;s larger purpose [res:sefaria-psalm69]. Paul will return to this. But in the present moment, there is a hardening on the majority, that the Gentiles might be brought in.',
         },
         {
           kind: 'carry',
@@ -250,7 +250,7 @@ export const ROMANS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'rom11-wild-olive',
           html:
-            'The image is clear: you (the Gentile church) are wild olive branches, grafted into a cultivated tree whose roots are the patriarchs. You benefit from a covenant you did not make. You feed on the nourishment of promises that reached back to Abraham. Your whole life as a believer rests on a root that is not your own.',
+            'The image is clear: you (the Gentile church) are wild olive branches, grafted into a cultivated tree whose roots are the patriarchs [res:bibleodyssey-olive-tree]. You benefit from a covenant you did not make. You feed on the nourishment of promises that reached back to Abraham. Your whole life as a believer rests on a root that is not your own.',
         },
         {
           kind: 'scripture',
@@ -397,7 +397,7 @@ export const ROMANS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'rom11-all-israel-saved',
           html:
-            '"All Israel shall be saved." This is one of the most debated sentences in Scripture. Paul is not saying every individual Israelite will be saved, nor that Israel will be saved by a different gospel than the Gentiles. He is saying that Israel as a people, as a covenant people, will be saved. The hardening is not final. The story is not over. And they will be saved through faith in Christ, just as the Gentiles are.',
+            '"All Israel shall be saved." This is one of the most debated sentences in Scripture. Paul is not saying every individual Israelite will be saved, nor that Israel will be saved by a different gospel than the Gentiles. He is saying that Israel as a people, as a covenant people, will be saved [res:sefaria-isaiah59]. The hardening is not final. The story is not over. And they will be saved through faith in Christ, just as the Gentiles are.',
         },
         {
           kind: 'scripture',
@@ -549,6 +549,41 @@ export const ROMANS_11: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Romans 11 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-1kings19-remnant',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Kings 19 — Elijah and the Seven Thousand',
+      url: 'https://www.sefaria.org/I_Kings.19',
+      description: 'Full text of the Elijah account where God reveals He has kept seven thousand who have not bowed to Baal, the pattern Paul cites for the remnant doctrine.',
+    },
+    {
+      id: 'bibleodyssey-olive-tree',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Olive Tree in the Bible',
+      url: 'https://www.bibleodyssey.org/dictionary/olive/',
+      description: 'SBL dictionary entry on the olive tree image, covering its cultural significance and symbolic use in Second Temple Judaism.',
+    },
+    {
+      id: 'sefaria-isaiah59',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 59 — The Deliverer of Israel',
+      url: 'https://www.sefaria.org/Isaiah.59',
+      description: 'Full text of Isaiah 59, including the passage Paul quotes at Romans 11:26 about the Deliverer coming out of Zion.',
+    },
+    {
+      id: 'sefaria-psalm69',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 69 — Zeal for Your House',
+      url: 'https://www.sefaria.org/Psalms.69',
+      description: 'Full text of Psalm 69, which Paul alludes to in Romans 11:9–10 when describing the hardening of Israel&apos;s majority.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -237,7 +237,7 @@ export const ROMANS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'rom10-word-near',
           html:
-            'Paul quotes Deuteronomy 30:14. Moses spoke of the law being near—in your mouth, in your heart. Paul takes that verse and applies it to Christ, to the gospel, to the word of faith. The gospel is not distant, not exotic, not exotic. It is at hand. In your mouth. In your heart. The word that saves you is the word you can speak and believe right now.',
+            'Paul quotes Deuteronomy 30:14[res:sefaria-deut30]. Moses spoke of the law being near—in your mouth, in your heart. Paul takes that verse and applies it to Christ, to the gospel, to the word of faith. The gospel is not distant, not exotic, not exotic. It is at hand. In your mouth. In your heart. The word that saves you is the word you can speak and believe right now.',
         },
         {
           kind: 'greek',
@@ -408,7 +408,7 @@ export const ROMANS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'rom10-call-saved',
           html:
-            'This verse quotes Joel 2:32. In Joel, "the Lord" is Yahweh. Here, "the Lord" is Jesus. Paul has just applied to Christ a promise made to the God of Abraham. Christ is not a secondary figure. He is not a mediator. He is the Lord upon whose name we call for salvation.',
+            'This verse quotes Joel 2:32[res:sefaria-joel2]. In Joel, "the Lord" is Yahweh. Here, "the Lord" is Jesus. Paul has just applied to Christ a promise made to the God of Abraham. Christ is not a secondary figure. He is not a mediator. He is the Lord upon whose name we call for salvation.',
         },
         {
           kind: 'christ',
@@ -482,7 +482,7 @@ export const ROMANS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'rom10-beautiful-feet',
           html:
-            'Isaiah called beautiful the feet of one bringing good news (Isa. 52:7). Paul applies it to the preacher of the gospel. There is beauty in the simple act of feet moving toward someone to speak the news of salvation. Someone has been sent. Someone is willing to go. Someone&apos;s lips will form the words.',
+            'Isaiah called beautiful the feet of one bringing good news (Isa. 52:7[res:sefaria-isaiah52]). Paul applies it to the preacher of the gospel. There is beauty in the simple act of feet moving toward someone to speak the news of salvation. Someone has been sent. Someone is willing to go. Someone&apos;s lips will form the words.',
         },
         {
           kind: 'carry',
@@ -584,7 +584,7 @@ export const ROMANS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'rom10-heard-yet',
           html:
-            'Paul shifts. Israel has heard. The message has reached them. The problem is not delivery. The problem is response.',
+            'Paul shifts. Israel has heard. The message has reached them. The problem is not delivery. The problem is response. This echoes Psalm 19:4[res:sefaria-psalm19], whose voice goes out to all the earth—the proclamation of God&apos;s glory through creation itself.',
         },
         {
           kind: 'scripture',
@@ -658,6 +658,41 @@ export const ROMANS_10: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Romans 10 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-deut30',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 30 — Hebrew & English',
+      url: 'https://www.sefaria.org/Deuteronomy.30',
+      description: 'The law made near, in mouth and heart — the text Paul applies to the gospel of Christ.',
+    },
+    {
+      id: 'sefaria-joel2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Joel 2:32 — Salvation in the Name',
+      url: 'https://www.sefaria.org/Joel.2.32',
+      description: 'Whosoever calls on Yahweh&apos;s name shall be saved — the prophecy Paul transfers to Jesus.',
+    },
+    {
+      id: 'sefaria-isaiah52',
+      kind: 'manuscript',
+      source: 'Sefaria',
+      label: 'Isaiah 52:7 — Beautiful Feet',
+      url: 'https://www.sefaria.org/Isaiah.52.7',
+      description: 'The herald who brings good news — Paul applies this to all preachers of the gospel.',
+    },
+    {
+      id: 'sefaria-psalm19',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 19:4 — Their Voice Gone Out',
+      url: 'https://www.sefaria.org/Psalm.19.4',
+      description: 'The heavens declare God&apos;s glory, their voice reaching the whole earth — echoed in Romans 10:18.',
+    },
+  ],
 
   hasHebrew: false,
 };
