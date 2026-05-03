@@ -1447,7 +1447,17 @@ html[data-reader-theme="dark"] .back-link:hover {
   position: relative;
   display: flex;
   align-items: center;
+  gap: 0.5rem;
+}
+
+/* Inline-filter slot — translation + depth pills sit before the headphones
+   button so the toolbar is one row instead of two. Slight right padding
+   visually separates them from the icon buttons that follow. */
+.study-topbar__filters {
+  display: flex;
+  align-items: center;
   gap: 0.25rem;
+  padding-right: 0.25rem;
 }
 .study-topbar__icon-btn {
   width: 36px;

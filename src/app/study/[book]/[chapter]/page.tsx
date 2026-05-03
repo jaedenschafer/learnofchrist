@@ -277,6 +277,14 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
                 ? 'New Testament'
                 : 'Old Testament'
           }
+          inlineFilters={
+            // Translation + depth pills, rendered next to the headphones/⋯
+            // icons so the entire toolbar lives on one row.
+            <StudyFilters
+              inline
+              estimatedMinutes={richContent?.estimatedMinutes}
+            />
+          }
           moreActions={
             // "Read the chapter" used to live here. The View → Study/Chapter
             // tile in the dropdown already covers that jump, so the explicit
@@ -299,12 +307,6 @@ export default async function StudyChapterPage({ params }: ChapterPageProps) {
             care for the earth and its creatures.
           </p>
         )}
-
-        <div id="study-filters">
-          {/* Pass per-chapter minutes so the depth pill can show the time
-              cost for each level inline next to the translation pill. */}
-          <StudyFilters estimatedMinutes={richContent?.estimatedMinutes} />
-        </div>
 
         <div className="space-y-4 mt-4">
           {richContent && (

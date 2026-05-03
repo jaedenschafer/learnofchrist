@@ -18,6 +18,9 @@ interface StudyTopBarProps {
   testamentLabel: string;
   /** Slot for chapter-level rows like "Read the chapter" + "Share". */
   moreActions?: ReactNode;
+  /** Compact filter pills (translation + depth) rendered inline at the
+   *  start of the actions row, before the headphones button. */
+  inlineFilters?: ReactNode;
 }
 
 const FONT_OPTIONS: { value: FontSize; tt: string }[] = [
@@ -92,6 +95,7 @@ export default function StudyTopBar({
   chapter,
   testamentLabel,
   moreActions,
+  inlineFilters,
 }: StudyTopBarProps) {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
@@ -146,6 +150,12 @@ export default function StudyTopBar({
       </div>
 
       <div ref={ref} className="study-topbar__actions">
+        {/* Inline filter pills (translation + depth) sit before the icons
+            so the entire toolbar collapses to one row. */}
+        {inlineFilters && (
+          <div className="study-topbar__filters">{inlineFilters}</div>
+        )}
+
         <button
           type="button"
           data-action="play-audio"
