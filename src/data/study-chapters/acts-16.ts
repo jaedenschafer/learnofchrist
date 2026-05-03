@@ -164,7 +164,7 @@ export const ACTS_16: RichChapterContent = {
           kind: 'commentary',
           id: 'acts16-lydia-merchant',
           html:
-            'Lydia is a seller of purple—one of the most expensive and valued dyes in the ancient world, worn by emperors and the wealthy. She is not poor. She is not enslaved. She is a businesswoman of means, from the city of Thyatira, far from home but prosperous in her trade. She worships God, meaning she is a God-fearer, a Gentile who has attached herself to the faith of Israel but not become a full proselyte. And at the river, she hears Paul speak.',
+            'Lydia is a seller of purple—one of the most expensive and valued dyes in the ancient world, worn by emperors and the wealthy[res:lydia-thyatira-dye]. She is not poor. She is not enslaved. She is a businesswoman of means, from the city of Thyatira, far from home but prosperous in her trade. She worships God, meaning she is a God-fearer, a Gentile who has attached herself to the faith of Israel but not become a full proselyte. And at the river, she hears Paul speak.',
         },
         {
           kind: 'greek',
@@ -299,7 +299,7 @@ export const ACTS_16: RichChapterContent = {
           kind: 'commentary',
           id: 'acts16-stocks-darkness',
           html:
-            'This is darkness. Not merely physical, but spiritual. They have freed a girl and paid for it with their bodies. They have preached the gospel and been brutalized. They are in the most inner prison, the most secure place, where hope dies. This is where the gospel appears to fail. This is where faith is tested not by argument but by agony.',
+            'This is darkness. Not merely physical, but spiritual. They have freed a girl and paid for it with their bodies. They have preached the gospel and been brutalized. They are in the most inner prison, the most secure place, where hope dies[res:philippi-excavations]. This is where the gospel appears to fail. This is where faith is tested not by argument but by agony.',
         },
         {
           kind: 'carry',
@@ -501,7 +501,7 @@ export const ACTS_16: RichChapterContent = {
           kind: 'commentary',
           id: 'acts16-roman-citizenship',
           html:
-            'Roman citizenship was precious and rare, especially for Jews. It carried rights and protections. To beat a Roman citizen uncondemned was a serious crime. Paul, through his action, is standing not only for his own dignity but for the principle that even the smallest person has rights that must be respected. He will not slip quietly out of town. He will not let injustice stand. And the magistrates, faced with the reality of their crime, are humbled.',
+            'Roman citizenship was precious and rare, especially for Jews. It carried rights and protections. To beat a Roman citizen uncondemned was a serious crime[res:roman-citizenship-law]. Paul, through his action, is standing not only for his own dignity but for the principle that even the smallest person has rights that must be respected. He will not slip quietly out of town. He will not let injustice stand. And the magistrates, faced with the reality of their crime, are humbled.',
         },
         {
           kind: 'carry',
@@ -528,6 +528,33 @@ export const ACTS_16: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 16 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'philippi-excavations',
+      kind: 'archaeology',
+      source: 'Greek Ministry of Culture',
+      label: 'Philippi Archaeological Site',
+      url: 'https://www.yppo.gr/en/oikoi/ephorate-of-antiquities-of-kavala-and-thassos/',
+      description: 'Excavated Roman forum, city market, and prison complex where Paul was imprisoned and the foundations shook.',
+    },
+    {
+      id: 'lydia-thyatira-dye',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Thyatira Purple Dye Trade',
+      url: 'https://www.bibleodyssey.org/dictionary/lydia/',
+      description: 'Lydia as merchant of purple dye—archaeological evidence of the thriving textile industry in Thyatira.',
+    },
+    {
+      id: 'roman-citizenship-law',
+      kind: 'lexicon',
+      source: 'Intertextual Bible',
+      label: 'Roman Citizenship and Provocatio',
+      url: 'https://intertextual.bible/',
+      description: 'Paul\'s invocation of Roman citizenship law (provocatio) against unlawful beating and imprisonment.',
+    },
+  ],
 
   hasHebrew: false,
 };
