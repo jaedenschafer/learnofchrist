@@ -37,10 +37,10 @@ export default function AboutPage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
-              { title: 'Biblical Fidelity', desc: 'Presenting Scripture accurately and faithfully, allowing God\'s Word to speak for itself.', color: 'bg-amber-50 text-amber-600' },
-              { title: 'Accessibility', desc: 'Resources that are easy to understand for people of all backgrounds and ages.', color: 'bg-blue-50 text-blue-600' },
-              { title: 'Christ-Centered', desc: 'Every resource points to Jesus as the center of Scripture and the hope of the Gospel.', color: 'bg-emerald-50 text-emerald-600' },
-              { title: 'Transformative', desc: 'Helping people apply Biblical truths that lead to genuine spiritual transformation.', color: 'bg-violet-50 text-violet-600' },
+              { title: 'Biblical Fidelity', desc: 'Presenting Scripture accurately and faithfully, allowing God\'s Word to speak for itself.', color: 'frost-chip text-[color:var(--vesper-gold)]' },
+              { title: 'Accessibility', desc: 'Resources that are easy to understand for people of all backgrounds and ages.', color: 'frost-chip text-[color:var(--vesper-gold)]' },
+              { title: 'Christ-Centered', desc: 'Every resource points to Jesus as the center of Scripture and the hope of the Gospel.', color: 'frost-chip text-[color:var(--vesper-peach)]' },
+              { title: 'Transformative', desc: 'Helping people apply Biblical truths that lead to genuine spiritual transformation.', color: 'frost-chip text-[color:var(--vesper-gold)]' },
             ].map((value) => (
               <div key={value.title} className="card">
                 <div className={`feature-icon ${value.color} mb-3`}>
@@ -58,11 +58,11 @@ export default function AboutPage() {
           </div>
           <div className="card-grouped">
             {[
-              { title: 'Chapter-by-Chapter Study Guides', desc: 'Detailed explorations of every chapter with key themes and study questions.', icon: 'bg-amber-50 text-amber-600' },
-              { title: 'Structured Study Plans', desc: 'Reading plans to help you engage with Scripture consistently.', icon: 'bg-blue-50 text-blue-600' },
-              { title: 'Topical Resources', desc: 'Explore biblical themes with key verses and cross-references.', icon: 'bg-emerald-50 text-emerald-600' },
-              { title: 'Questions and Answers', desc: 'Biblical answers to common questions about Jesus and faith.', icon: 'bg-purple-50 text-purple-600' },
-              { title: 'Family Resources', desc: 'Tools for families to study Scripture together.', icon: 'bg-rose-50 text-rose-600' },
+              { title: 'Chapter-by-Chapter Study Guides', desc: 'Detailed explorations of every chapter with key themes and study questions.', icon: 'frost-chip text-[color:var(--vesper-gold)]' },
+              { title: 'Structured Study Plans', desc: 'Reading plans to help you engage with Scripture consistently.', icon: 'frost-chip text-[color:var(--vesper-peach)]' },
+              { title: 'Topical Resources', desc: 'Explore biblical themes with key verses and cross-references.', icon: 'frost-chip text-[color:var(--vesper-gold)]' },
+              { title: 'Questions and Answers', desc: 'Biblical answers to common questions about Jesus and faith.', icon: 'frost-chip text-[color:var(--vesper-peach)]' },
+              { title: 'Family Resources', desc: 'Tools for families to study Scripture together.', icon: 'frost-chip text-[color:var(--vesper-gold)]' },
             ].map((item) => (
               <div key={item.title} className="card-grouped-item flex items-center gap-3">
                 <div className={`w-9 h-9 rounded-xl ${item.icon} flex items-center justify-center flex-shrink-0`}>

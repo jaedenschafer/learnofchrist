@@ -16,12 +16,12 @@ export interface BlogPost {
 }
 
 export const categoryColors: Record<string, string> = {
-  Teaching: 'bg-blue-50 text-blue-700',
-  Theology: 'bg-violet-50 text-violet-700',
-  Application: 'bg-emerald-50 text-emerald-700',
-  Devotional: 'bg-rose-50 text-rose-700',
-  'Bible Study': 'bg-amber-50 text-amber-700',
-  Translation: 'bg-teal-50 text-teal-700',
+  Teaching: 'frost-chip text-[color:var(--vesper-gold)]',
+  Theology: 'frost-chip text-[color:var(--vesper-gold)]',
+  Application: 'frost-chip text-[color:var(--vesper-peach)]',
+  Devotional: 'frost-chip text-[color:var(--vesper-peach)]',
+  'Bible Study': 'frost-chip text-[color:var(--vesper-gold)]',
+  Translation: 'frost-chip text-[color:var(--vesper-peach)]',
 };
 
 export const blogPosts: BlogPost[] = [

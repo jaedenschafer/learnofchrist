@@ -6,24 +6,24 @@ interface TopicCardProps {
 }
 
 const topicColors: Record<string, { bg: string; text: string }> = {
-  faith: { bg: 'bg-amber-50', text: 'text-amber-700' },
-  hope: { bg: 'bg-sky-50', text: 'text-sky-700' },
-  love: { bg: 'bg-rose-50', text: 'text-rose-700' },
-  grace: { bg: 'bg-violet-50', text: 'text-violet-700' },
-  forgiveness: { bg: 'bg-teal-50', text: 'text-teal-700' },
-  peace: { bg: 'bg-emerald-50', text: 'text-emerald-700' },
-  anxiety: { bg: 'bg-indigo-50', text: 'text-indigo-700' },
-  joy: { bg: 'bg-orange-50', text: 'text-orange-700' },
-  strength: { bg: 'bg-red-50', text: 'text-red-700' },
-  wisdom: { bg: 'bg-cyan-50', text: 'text-cyan-700' },
-  purpose: { bg: 'bg-fuchsia-50', text: 'text-fuchsia-700' },
-  obedience: { bg: 'bg-lime-50', text: 'text-lime-700' },
-  sacrifice: { bg: 'bg-stone-100', text: 'text-stone-700' },
-  resurrection: { bg: 'bg-yellow-50', text: 'text-yellow-700' },
-  redemption: { bg: 'bg-pink-50', text: 'text-pink-700' },
+  faith: { bg: 'frost-chip', text: 'text-[color:var(--vesper-gold)]' },
+  hope: { bg: 'frost-chip', text: 'text-[color:var(--vesper-peach)]' },
+  love: { bg: 'frost-chip', text: 'text-[color:var(--vesper-peach)]' },
+  grace: { bg: 'frost-chip', text: 'text-[color:var(--vesper-gold)]' },
+  forgiveness: { bg: 'frost-chip', text: 'text-[color:var(--vesper-peach)]' },
+  peace: { bg: 'frost-chip', text: 'text-[color:var(--vesper-gold)]' },
+  anxiety: { bg: 'frost-chip', text: 'text-[color:var(--vesper-gold)]' },
+  joy: { bg: 'frost-chip', text: 'text-[color:var(--vesper-peach)]' },
+  strength: { bg: 'frost-chip', text: 'text-[color:var(--vesper-gold)]' },
+  wisdom: { bg: 'frost-chip', text: 'text-[color:var(--vesper-peach)]' },
+  purpose: { bg: 'frost-chip', text: 'text-[color:var(--vesper-gold)]' },
+  obedience: { bg: 'frost-chip', text: 'text-[color:var(--vesper-gold)]' },
+  sacrifice: { bg: 'frost-chip', text: 'text-[color:var(--vesper-peach)]' },
+  resurrection: { bg: 'frost-chip', text: 'text-[color:var(--vesper-gold)]' },
+  redemption: { bg: 'frost-chip', text: 'text-[color:var(--vesper-peach)]' },
 };
 
-const defaultColor = { bg: 'bg-gray-50', text: 'text-gray-700' };
+const defaultColor = { bg: 'frost-chip', text: 'text-[color:var(--vesper-gold)]' };
 
 export default function TopicCard({ topic }: TopicCardProps) {
   const color = topicColors[topic.id] || defaultColor;

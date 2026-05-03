@@ -24,7 +24,7 @@ export default function TranslationsPage() {
   return (
     <main className="min-h-screen bg-[var(--color-bg)]">
       {/* Hero Section */}
-      <div className="bg-[color:var(--color-surface)] border-b border-[color:var(--color-separator)]">
+      <div className="frost-card border-b border-[color:var(--frost-border-card)]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <BreadcrumbNav items={[
             { label: 'Home', href: '/' },
@@ -50,7 +50,7 @@ export default function TranslationsPage() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {translations.map((t) => (
-            <div key={t.id} className="bg-[color:var(--color-surface)] rounded-2xl shadow-sm p-6 hover:shadow-md transition-shadow duration-200">
+            <div key={t.id} className="frost-card shadow-sm hover:shadow-md transition-shadow duration-200">
               {/* Header */}
               <div className="flex items-center gap-3 mb-3">
                 <span className="inline-block text-[0.8125rem] font-bold px-3 py-1 rounded-full text-[color:var(--color-primary)] bg-[color:var(--vesper-gold)]/[0.08]">
@@ -64,19 +64,19 @@ export default function TranslationsPage() {
 
               {/* Badges */}
               <div className="flex flex-wrap gap-2 mb-4">
-                <span className="text-[0.75rem] font-medium px-2.5 py-0.5 rounded-full bg-[var(--color-bg)] text-[#424245]">{t.tradition}</span>
-                <span className="text-[0.75rem] font-medium px-2.5 py-0.5 rounded-full bg-[var(--color-bg)] text-[#424245]">{t.type}</span>
+                <span className="text-[0.75rem] font-medium px-2.5 py-0.5 rounded-full frost-chip text-[color:var(--frost-text)]">{t.tradition}</span>
+                <span className="text-[0.75rem] font-medium px-2.5 py-0.5 rounded-full frost-chip text-[color:var(--frost-text)]">{t.type}</span>
               </div>
 
               {/* Description */}
-              <p className="text-[0.8125rem] text-[#424245] leading-relaxed mb-6 line-clamp-3">{t.description}</p>
+              <p className="text-[0.8125rem] text-[color:var(--frost-text-soft)] leading-relaxed mb-6 line-clamp-3">{t.description}</p>
 
               {/* Actions */}
               <div className="flex gap-3">
-                <Link href={t.readLink} className="flex-1 text-center text-[0.8125rem] font-medium px-4 py-2 rounded-lg bg-[color:var(--vesper-gold)] text-white hover:bg-[#0056D6] transition-colors">
+                <Link href={t.readLink} className="flex-1 text-center text-[0.8125rem] font-medium px-4 py-2 rounded-lg frost-pill text-white">
                   Read Now
                 </Link>
-                <Link href={`/bible/translations/${t.id}`} className="flex-1 text-center text-[0.8125rem] font-medium px-4 py-2 rounded-lg border border-[#D5D5D9] text-[color:var(--color-primary)] hover:bg-[var(--color-bg)] transition-colors">
+                <Link href={`/bible/translations/${t.id}`} className="flex-1 text-center text-[0.8125rem] font-medium px-4 py-2 rounded-lg frost-pill text-[color:var(--frost-text-soft)] border border-[color:var(--frost-border-chip)]">
                   Learn More
                 </Link>
               </div>

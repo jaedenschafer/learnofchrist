@@ -77,14 +77,14 @@ export default async function TopicPage({ params }: TopicPageProps) {
           <BreadcrumbNav items={[{ label: 'Topics', href: '/topics' }, { label: topic.name, href: '#' }]} />
 
           {/* Header */}
-          <div className="bg-[color:var(--color-surface)] rounded-2xl p-6 mb-4">
+          <div className="frost-card mb-4">
             <h1 className="text-3xl sm:text-4xl font-bold text-[color:var(--color-label)] tracking-tight mb-2">{topic.name}</h1>
             <p className="text-sm text-[color:var(--color-secondary-label)] leading-relaxed">{topic.description}</p>
           </div>
 
           <div className="space-y-3">
             {/* Long Description */}
-            <div className="bg-[color:var(--color-surface)] rounded-2xl p-6">
+            <div className="frost-card">
               <h2 className="text-base font-semibold text-[color:var(--color-label)] mb-3">Overview</h2>
               <p className="text-sm text-[color:var(--color-secondary-label)] leading-relaxed">{topic.longDescription}</p>
             </div>
@@ -98,7 +98,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
 
             {/* Content Sections */}
             {topic.sections.map((section, i) => (
-              <div key={i} className="bg-[color:var(--color-surface)] rounded-2xl p-6">
+              <div key={i} className="frost-card">
                 <div className="flex gap-3 items-start">
                   <div className="step-number flex-shrink-0">{i + 1}</div>
                   <div>
@@ -112,7 +112,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
             <div className="section-divider" />
 
             {/* Key Verses */}
-            <div className="bg-[color:var(--color-surface)] rounded-2xl p-6">
+            <div className="frost-card">
               <h2 className="text-base font-semibold text-[color:var(--color-label)] mb-3">Key Verses</h2>
               <div className="space-y-2">
                 {topic.keyVerses.map((verse, i) => (
@@ -127,12 +127,12 @@ export default async function TopicPage({ params }: TopicPageProps) {
             </div>
 
             {/* Bible Reading */}
-            <div className="bg-[color:var(--color-surface)] rounded-2xl p-6">
+            <div className="frost-card">
               <h2 className="text-base font-semibold text-[color:var(--color-label)] mb-3">Recommended Bible Reading</h2>
               <div className="divide-y divide-[color:var(--color-separator)]">
                 {topic.bibleReading.map((reading, i) => (
                   <Link key={i} href={reading.link} className="flex items-center gap-3 py-3 first:pt-0 last:pb-0 group">
-                    <div className="w-8 h-8 rounded-xl bg-[var(--color-bg)] flex items-center justify-center flex-shrink-0">
+                    <div className="w-8 h-8 rounded-xl frost-chip flex items-center justify-center flex-shrink-0">
                       <svg className="w-4 h-4 text-[color:var(--color-secondary-label)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                       </svg>
@@ -148,12 +148,12 @@ export default async function TopicPage({ params }: TopicPageProps) {
 
             {/* Related Topics */}
             {relatedTopics.length > 0 && (
-              <div className="bg-[color:var(--color-surface)] rounded-2xl p-6">
+              <div className="frost-card">
                 <h2 className="text-base font-semibold text-[color:var(--color-label)] mb-3">Related Topics</h2>
                 <div className="divide-y divide-[color:var(--color-separator)]">
                   {relatedTopics.map((related) => (
                     <Link key={related!.id} href={`/topics/${related!.id}`} className="flex items-center gap-3 py-3 first:pt-0 last:pb-0 group">
-                      <div className="w-8 h-8 rounded-xl bg-[var(--color-bg)] flex items-center justify-center flex-shrink-0">
+                      <div className="w-8 h-8 rounded-xl frost-chip flex items-center justify-center flex-shrink-0">
                         <svg className="w-4 h-4 text-[color:var(--color-secondary-label)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A2 2 0 013 12V7a4 4 0 014-4z" />
                         </svg>

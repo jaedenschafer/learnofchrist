@@ -37,7 +37,7 @@ export default function SignInWithGoogleButton({ next }: { next: string }) {
         type="button"
         onClick={onClick}
         disabled={loading}
-        className="w-full inline-flex items-center justify-center gap-3 h-11 rounded-xl bg-white border border-[color:var(--color-separator)] text-[0.9375rem] font-medium text-[#1f1f1f] hover:border-[color:var(--color-label)] disabled:opacity-60 disabled:cursor-not-allowed transition-colors"
+        className="w-full inline-flex items-center justify-center gap-3 h-11 rounded-xl bg-[color:var(--frost-tint)] border border-[color:var(--frost-border-card)] text-[0.9375rem] font-medium text-[color:var(--frost-text)] hover:bg-[color:var(--frost-tint-hover)] disabled:opacity-60 disabled:cursor-not-allowed transition-colors backdrop-blur-sm"
         aria-label="Continue with Google"
       >
         <GoogleLogo />

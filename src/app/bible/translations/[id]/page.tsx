@@ -43,7 +43,7 @@ export default async function TranslationPage({ params }: { params: Promise<Para
   return (
     <main className="min-h-screen bg-[var(--color-bg)]">
       {/* Breadcrumb + Hero */}
-      <div className="bg-[color:var(--color-surface)] border-b border-[color:var(--color-separator)]">
+      <div className="frost-card border-b border-[color:var(--frost-border-card)]">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <BreadcrumbNav items={[
             { label: 'Home', href: '/' },
@@ -60,9 +60,9 @@ export default async function TranslationPage({ params }: { params: Promise<Para
             <h1 className="font-sans text-3xl sm:text-4xl font-bold text-[color:var(--color-label)]">{t.fullName}</h1>
 
             <div className="flex flex-wrap gap-2 mt-4">
-              <span className="text-[0.75rem] font-medium px-2.5 py-0.5 rounded-full bg-[var(--color-bg)] text-[#424245]">{t.tradition}</span>
-              <span className="text-[0.75rem] font-medium px-2.5 py-0.5 rounded-full bg-[var(--color-bg)] text-[#424245]">{t.type}</span>
-              <span className="text-[0.75rem] font-medium px-2.5 py-0.5 rounded-full bg-[var(--color-bg)] text-[#424245]">{t.language}</span>
+              <span className="text-[0.75rem] font-medium px-2.5 py-0.5 rounded-full frost-chip text-[color:var(--frost-text)]">{t.tradition}</span>
+              <span className="text-[0.75rem] font-medium px-2.5 py-0.5 rounded-full frost-chip text-[color:var(--frost-text)]">{t.type}</span>
+              <span className="text-[0.75rem] font-medium px-2.5 py-0.5 rounded-full frost-chip text-[color:var(--frost-text)]">{t.language}</span>
             </div>
 
             <Link href={t.readLink} className="inline-block mt-6 px-6 py-2.5 rounded-lg bg-[color:var(--vesper-gold)] text-white font-medium hover:bg-[#0056D6] transition-colors">
@@ -75,25 +75,25 @@ export default async function TranslationPage({ params }: { params: Promise<Para
       {/* Content */}
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-8">
         {/* Description */}
-        <div className="bg-[color:var(--color-surface)] rounded-2xl shadow-sm p-8">
-          <p className="text-base text-[#424245] leading-relaxed">{t.description}</p>
+        <div className="frost-card shadow-sm p-8">
+          <p className="text-base text-[color:var(--frost-text-soft)] leading-relaxed">{t.description}</p>
         </div>
 
         {/* Sample Verse */}
-        <div className="bg-[color:var(--color-surface)] rounded-2xl shadow-sm p-8">
+        <div className="frost-card shadow-sm p-8">
           <h2 className="font-sans text-xl font-bold text-[color:var(--color-label)] mb-6">Sample Verse</h2>
-          <div className="bg-[var(--color-bg)] rounded-xl p-6 border-l-4 border-[color:var(--vesper-gold)]">
+          <div className="frost-pill --block border-l-4 border-[color:var(--vesper-gold)]">
             <p className="text-[0.8125rem] font-medium text-[color:var(--color-primary)] mb-2">{t.sampleVerse.reference}</p>
             <p className="text-base text-[color:var(--color-label)] leading-relaxed italic">&ldquo;{t.sampleVerse.text}&rdquo;</p>
           </div>
         </div>
 
         {/* History */}
-        <div className="bg-[color:var(--color-surface)] rounded-2xl shadow-sm p-8">
+        <div className="frost-card shadow-sm p-8">
           <h2 className="font-sans text-xl font-bold text-[color:var(--color-label)] mb-6">History</h2>
           <div className="space-y-4">
             {t.history.map((paragraph, i) => (
-              <p key={i} className="text-[0.9375rem] text-[#424245] leading-relaxed">{paragraph}</p>
+              <p key={i} className="text-[0.9375rem] text-[color:var(--frost-text-soft)] leading-relaxed">{paragraph}</p>
             ))}
           </div>
         </div>

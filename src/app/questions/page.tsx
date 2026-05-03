@@ -11,12 +11,12 @@ export const metadata = {
 };
 
 const categoryColors: Record<string, string> = {
-  Identity: 'bg-blue-50 text-blue-700',
-  Salvation: 'bg-emerald-50 text-emerald-700',
-  Discipleship: 'bg-amber-50 text-amber-700',
-  Theology: 'bg-violet-50 text-violet-700',
-  Practice: 'bg-rose-50 text-rose-700',
-  'End Times': 'bg-indigo-50 text-indigo-700',
+  Identity: 'frost-pill text-[color:var(--vesper-gold)]',
+  Salvation: 'frost-pill text-[color:var(--vesper-peach)]',
+  Discipleship: 'frost-pill text-[color:var(--vesper-gold)]',
+  Theology: 'frost-pill text-[color:var(--vesper-gold)]',
+  Practice: 'frost-pill text-[color:var(--vesper-peach)]',
+  'End Times': 'frost-pill text-[color:var(--vesper-gold)]',
 };
 
 export default function QuestionsPage() {
