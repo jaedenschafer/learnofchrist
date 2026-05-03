@@ -85,7 +85,7 @@ export const REVELATION_19: RichChapterContent = {
           kind: 'commentary',
           id: 'c-first-doxology',
           html:
-            'The heavens do not celebrate the downfall of Babylon alone — they celebrate <em>salvation</em>. The great work is not destruction but redemption. The pattern has been the same from the beginning of Scripture: God does not defeat evil primarily by annihilating it, but by saving His people out of it. Salvation, glory, honor, power — these are the attributes of the God who wins not by becoming like the darkness, but by remaining Light.',
+            'The heavens do not celebrate the downfall of Babylon alone — they celebrate <em>salvation</em>. The great work is not destruction but redemption. The pattern has been the same from the beginning of Scripture: God does not defeat evil primarily by annihilating it, but by saving His people out of it. Salvation, glory, honor, power — these are the attributes of the God who wins not by becoming like the darkness, but by remaining Light[res:sefaria-psalm-113-hallelujah][res:sefaria-isaiah-34-rider].',
         },
         {
           kind: 'greek',
@@ -99,7 +99,7 @@ export const REVELATION_19: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'You have a right to be exhausted by the news of the world — the news in Revelation is all judgment and falling. But the truth John is showing you is stranger than weariness: the moment judgment is finished, the only response heaven knows is praise. Not <em>despite</em> the work God has done, but <em>because</em> of it. The loudest shout of joy in Scripture comes after the deepest grief.',
+            'You have a right to be exhausted by the news of the world — the news in Revelation is all judgment and falling. But the truth John is showing you is stranger than weariness: the moment judgment is finished, the only response heaven knows is praise. Not <em>despite</em> the work God has done, but <em>because</em> of it. The loudest shout of joy in Scripture comes after the deepest grief[res:bibleodyssey-marriage-lamb].',
         },
         {
           kind: 'reflection',

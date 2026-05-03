@@ -41,7 +41,7 @@ export const REVELATION_18: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'rev18-lightened',
-          html: 'The same verb used in Matthew 6:30 and Luke 12:28 of God&apos;s care for the lilies. The earth is not filled with fear or darkness at the angel&apos;s arrival — it is <em>lightened.</em> The advent of Babylon&apos;s judgment is announced as good news.',
+          html: 'The same verb used in Matthew 6:30 and Luke 12:28 of God&apos;s care for the lilies. The earth is not filled with fear or darkness at the angel&apos;s arrival — it is <em>lightened.</em> The advent of Babylon&apos;s judgment is announced as good news[res:sefaria-jeremiah-50-51][res:iaa-babylon-jewish-context].',
         },
         {
           kind: 'scripture',
@@ -62,7 +62,7 @@ export const REVELATION_18: RichChapterContent = {
           kind: 'christ',
           id: 'rev18-christ-fall',
           title: 'Christ Connection — The City on the Hill',
-          html: 'Jesus taught that "a city that is set on a hill cannot be hid" (Matt. 5:14). He was speaking of His church, His people — "the light of the world," salt that has not lost its savor. Babylon is the anti-church: a city that gleams for a moment, built on the foundation of lies, that will collapse utterly. Christ builds one city that cannot fall; Babylon builds another. On that day, there is no ambiguity which was real.',
+          html: 'Jesus taught that "a city that is set on a hill cannot be hid" (Matt. 5:14). He was speaking of His church, His people — "the light of the world," salt that has not lost its savor. Babylon is the anti-church: a city that gleams for a moment, built on the foundation of lies, that will collapse utterly. Christ builds one city that cannot fall; Babylon builds another. On that day, there is no ambiguity which was real[res:intertextual-jeremiah-babylon-rev18].',
         },
         {
           kind: 'carry',

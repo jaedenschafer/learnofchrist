@@ -80,7 +80,7 @@ export const REVELATION_13: RichChapterContent = {
           kind: 'commentary',
           id: 'symbolism-heads-horns',
           html:
-            'Seven heads and ten horns — the same heads and horns John saw on the dragon in Revelation 12:3. The dragon has given this beast his form, his authority, his war. The crowns sit on the horns: power multiplied, kingdoms claiming dominion. And on the heads — the seat of thought, judgment — the name of blasphemy. Whatever else this beast represents, it wears a mind bent against God.',
+            'Seven heads and ten horns — the same heads and horns John saw on the dragon in Revelation 12:3. The dragon has given this beast his form, his authority, his war. The crowns sit on the horns: power multiplied, kingdoms claiming dominion. And on the heads — the seat of thought, judgment — the name of blasphemy. Whatever else this beast represents, it wears a mind bent against God[res:sefaria-daniel-7-beasts][res:intf-revelation-13-early-manuscripts].',
         },
         {
           kind: 'greek',
@@ -94,7 +94,7 @@ export const REVELATION_13: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'If something in your world right now feels like a beast — a system that devours, a pressure that won&apos;t back down, an authority that twists everything into blasphemy — John is naming it as real. He does not deny that it wears crowns. He does not pretend it has no power. What he does instead is show where the power actually comes from, and he invites you to stand where he stands: not paralyzed, but <em>watching</em>, understanding the real architecture of the war.',
+            'If something in your world right now feels like a beast — a system that devours, a pressure that won&apos;t back down, an authority that twists everything into blasphemy — John is naming it as real. He does not deny that it wears crowns. He does not pretend it has no power. What he does instead is show where the power actually comes from, and he invites you to stand where he stands: not paralyzed, but <em>watching</em>, understanding the real architecture of the war[res:bibleodyssey-666-number].',
         },
       ],
     },

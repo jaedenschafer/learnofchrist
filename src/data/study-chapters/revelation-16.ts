@@ -51,7 +51,7 @@ export const REVELATION_16: RichChapterContent = {
           kind: 'commentary',
           id: 'intro-temple',
           html:
-            'John is not given a vision of a distant judgment. He hears it <em>from the temple</em>—from the holy of holies itself, the center of worship and communion. The wrath that pours out does not come from rage or whim. It comes from the throne room, from the God who is just and true. In the Old Testament, the Day of the Lord always begins with a command from God&apos;s presence.',
+            'John is not given a vision of a distant judgment. He hears it <em>from the temple</em>—from the holy of holies itself, the center of worship and communion. The wrath that pours out does not come from rage or whim. It comes from the throne room, from the God who is just and true. In the Old Testament, the Day of the Lord always begins with a command from God&apos;s presence[res:sefaria-exodus-7-11][res:sefaria-psalm-79].',
         },
         {
           kind: 'commentary',
@@ -71,7 +71,7 @@ export const REVELATION_16: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'When judgment falls, it does not fall as a surprise. God speaks first. He calls. He warns. The wrath that eventually comes is not the first sound from heaven—mercy is. But a world that hardens itself against mercy will eventually encounter the other face of justice. Thank God that face was turned to Christ Himself.',
+            'When judgment falls, it does not fall as a surprise. God speaks first. He calls. He warns. The wrath that eventually comes is not the first sound from heaven—mercy is. But a world that hardens itself against mercy will eventually encounter the other face of justice. Thank God that face was turned to Christ Himself[res:intertextual-exodus-rev-16].',
         },
       ],
     },

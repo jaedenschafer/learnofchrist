@@ -41,7 +41,7 @@ export const REVELATION_2: RichChapterContent = {
           kind: 'commentary',
           id: 'eph-intro',
           html:
-            'Ephesus was the greatest city in Asia Minor—a cosmopolitan hub, home to the temple of Artemis, one of the Seven Wonders of the ancient world. The church there was founded by Paul (Acts 18:19), later pastored by Timothy, and eventually led by John the apostle himself according to tradition. It is a church with apostolic roots, with history, with gravitas. Yet Christ opens His letter to Ephesus by reminding them that He walks among them.',
+            'Ephesus was the greatest city in Asia Minor—a cosmopolitan hub, home to the temple of Artemis, one of the Seven Wonders of the ancient world. The church there was founded by Paul (Acts 18:19), later pastored by Timothy, and eventually led by John the apostle himself according to tradition. It is a church with apostolic roots, with history, with gravitas. Yet Christ opens His letter to Ephesus by reminding them that He walks among them[res:topostext-ephesus][res:penn-museum-pergamum-survey].',
         },
 
         {
@@ -55,7 +55,7 @@ export const REVELATION_2: RichChapterContent = {
           kind: 'commentary',
           id: 'eph-works',
           html:
-            'Ephesus earns unqualified praise. Their <em>works</em> are visible. Their <em>labour</em> is real—they are building, serving, holding the line. Their <em>patience</em> is active, not passive—they endure persecution without wavering. They test those who claim to be apostles and expose the false ones. This is a church that has not abandoned the faith or compromised with the surrounding culture. By every external measure, they are faithfully done.',
+            'Ephesus earns unqualified praise. Their <em>works</em> are visible. Their <em>labour</em> is real—they are building, serving, holding the line. Their <em>patience</em> is active, not passive—they endure persecution without wavering. They test those who claim to be apostles and expose the false ones. This is a church that has not abandoned the faith or compromised with the surrounding culture. By every external measure, they are faithfully done[res:biblOdyssey-seven-churches].',
         },
 
         {

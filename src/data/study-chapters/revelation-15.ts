@@ -45,7 +45,7 @@ export const REVELATION_15: RichChapterContent = {
           kind: 'commentary',
           id: 'rev15-intro-sign',
           html:
-            'A <em>sign</em> opens John&apos;s vision. Not a warning this time, but a revelation of what is to come. The seven angels are not sent with mercy or with calls to repentance. They carry the final judgment—<em>the seven last plagues.</em> The word <em>last</em> is decisive. There will be no reprieve after this. The measure of God&apos;s wrath is about to be filled to the brim.',
+            'A <em>sign</em> opens John&apos;s vision. Not a warning this time, but a revelation of what is to come. The seven angels are not sent with mercy or with calls to repentance. They carry the final judgment—<em>the seven last plagues.</em> The word <em>last</em> is decisive. There will be no reprieve after this. The measure of God&apos;s wrath is about to be filled to the brim[res:sefaria-exodus-15][res:sefaria-psalm-113].',
         },
         {
           kind: 'greek',
@@ -69,7 +69,7 @@ export const REVELATION_15: RichChapterContent = {
           kind: 'commentary',
           id: 'rev15-angels-plagues',
           html:
-            'The seven angels do not carry warnings or time to repent. They carry the <em>last</em> plagues—the final, full measure of judgment. The wrath of God is not His first choice. He sends warnings in the seals and trumpets. But when a world refuses to repent, wrath is what is left.',
+            'The seven angels do not carry warnings or time to repent. They carry the <em>last</em> plagues—the final, full measure of judgment. The wrath of God is not His first choice. He sends warnings in the seals and trumpets. But when a world refuses to repent, wrath is what is left[res:bibleodyssey-plagues-revelation].',
         },
       ],
     },

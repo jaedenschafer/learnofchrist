@@ -38,12 +38,12 @@ export const REVELATION_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-sardis-spirits',
-          html: 'Jesus holds the seven Spirits of God—the fullness of the Holy Spirit. He is not powerless before Sardis; He holds every resource needed for their resurrection. The seven stars represent the seven churches themselves, held in His hand.',
+          html: 'Jesus holds the seven Spirits of God—the fullness of the Holy Spirit. He is not powerless before Sardis; He holds every resource needed for their resurrection. The seven stars represent the seven churches themselves, held in His hand[res:ascsa-sardis-excavations][res:topostext-laodicea-archaeology].',
         },
         {
           kind: 'commentary',
           id: 'c-sardis-stars',
-          html: 'The seven stars are the angels of the churches—the spiritual guardians of each congregation. Jesus holds them. They rest in His grip. Whatever Sardis faces, they are not abandoned.',
+          html: 'The seven stars are the angels of the churches—the spiritual guardians of each congregation. Jesus holds them. They rest in His grip. Whatever Sardis faces, they are not abandoned[res:bibleodyssey-philadelphia-church].',
         },
         {
           kind: 'commentary',

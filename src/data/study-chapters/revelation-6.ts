@@ -52,14 +52,14 @@ export const REVELATION_6: RichChapterContent = {
           kind: 'commentary',
           id: 'lamb-seals',
           html:
-            'The Lamb is the slaughtered Christ (Rev. 5:6). He alone is worthy to open the scroll (Rev. 5:5). This is not John guessing at the future—it is John witnessing Christ deliberately, purposefully, opening the seals one by one. Nothing in history happens outside His knowledge or His will.',
+            'The Lamb is the slaughtered Christ (Rev. 5:6). He alone is worthy to open the scroll (Rev. 5:5). This is not John guessing at the future—it is John witnessing Christ deliberately, purposefully, opening the seals one by one. Nothing in history happens outside His knowledge or His will[res:sefaria-zechariah-1-6][res:sefaria-joel-2].',
         },
         {
           kind: 'christ',
           id: 'christ-lamb-lord',
           title: 'Christ Connection — The Lamb Is Lord of History',
           html:
-            'In John 10:18, Jesus says of His own life: "I lay it down of myself." The same sovereignty that governed His death governs all history. He laid down His life; He also holds the scroll. The same hands that were pierced now open the seals. History is not out of control. Christ is not surprised. He is opening each seal.',
+            'In John 10:18, Jesus says of His own life: "I lay it down of myself." The same sovereignty that governed His death governs all history. He laid down His life; He also holds the scroll. The same hands that were pierced now open the seals. History is not out of control. Christ is not surprised. He is opening each seal[res:sefaria-daniel-2-end-times].',
         },
         {
           kind: 'carry',

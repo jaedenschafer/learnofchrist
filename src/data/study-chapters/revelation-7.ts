@@ -50,7 +50,7 @@ export const REVELATION_7: RichChapterContent = {
           kind: 'commentary',
           id: 'rev7-timing',
           html:
-            'The vision pauses. Before anything else happens—before the seventh seal, before the final trumpets sound—the winds are held. This is a moment of mercy in the midst of judgment. The earth, the sea, and the trees are about to suffer. But first, God ensures His servants are marked as His own.',
+            'The vision pauses. Before anything else happens—before the seventh seal, before the final trumpets sound—the winds are held. This is a moment of mercy in the midst of judgment. The earth, the sea, and the trees are about to suffer. But first, God ensures His servants are marked as His own[res:sefaria-daniel-12][res:sefaria-zechariah-14].',
         },
         {
           kind: 'greek',
@@ -64,7 +64,7 @@ export const REVELATION_7: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'When the world feels like it&apos;s spinning out of control, when winds howl from every direction and nothing feels stable, this verse is a whisper that God is at the corners. He holds what you cannot. He knows what you fear. And before anything else happens to you, He marks you.',
+            'When the world feels like it&apos;s spinning out of control, when winds howl from every direction and nothing feels stable, this verse is a whisper that God is at the corners. He holds what you cannot. He knows what you fear. And before anything else happens to you, He marks you[res:bibleodyssey-144000].',
         },
         {
           kind: 'reflection',

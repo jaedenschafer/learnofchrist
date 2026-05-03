@@ -41,7 +41,7 @@ export const REVELATION_8: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-silence-heaven',
-          html: 'After six seals have been opened—persecution, bloodshed, celestial upheaval, the cry of the martyrs—the seventh seal opens to silence. Not darkness. Not chaos. Silence. The Greek word is sigē, a hushing, a stilling of all sound. In the throne room of heaven, where there is continuous song and praise, where the four living creatures cry "Holy, holy, holy," where ten thousand times ten thousand angels cry with a loud voice—there is silence. For half an hour, all heaven is still. This is not emptiness; this is the hush before judgment. This is the moment when earth and heaven hold their breath.',
+          html: 'After six seals have been opened—persecution, bloodshed, celestial upheaval, the cry of the martyrs—the seventh seal opens to silence. Not darkness. Not chaos. Silence. The Greek word is sigē, a hushing, a stilling of all sound. In the throne room of heaven, where there is continuous song and praise, where the four living creatures cry "Holy, holy, holy," where ten thousand times ten thousand angels cry with a loud voice—there is silence. For half an hour, all heaven is still. This is not emptiness; this is the hush before judgment. This is the moment when earth and heaven hold their breath[res:sefaria-exodus-7-12][res:sefaria-joel-2-plague].',
         },
         {
           kind: 'greek',
@@ -53,7 +53,7 @@ export const REVELATION_8: RichChapterContent = {
         },
         {
           kind: 'carry',
-          html: 'Half an hour of silence. That is not a metaphorical moment. That is real time, measurable time, spent in hushed waiting. What is being waited for? The prayers of the saints to reach the altar of God. The next moment will show what happens when those prayers meet the fire of God&apos;s throne. You are not a bystander to this scene. Your prayers are on the altar. Your cry for justice, your intercession for the world, your plea for mercy—all of it rises before God.',
+          html: 'Half an hour of silence. That is not a metaphorical moment. That is real time, measurable time, spent in hushed waiting. What is being waited for? The prayers of the saints to reach the altar of God. The next moment will show what happens when those prayers meet the fire of God&apos;s throne. You are not a bystander to this scene. Your prayers are on the altar. Your cry for justice, your intercession for the world, your plea for mercy—all of it rises before God[res:intertextual-exodus-rev-8].',
         },
         {
           kind: 'reflection',

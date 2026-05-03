@@ -47,7 +47,7 @@ export const REVELATION_12: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-clothed',
-          html: 'The woman is clothed with the sun—the highest light, divine glory. The moon is under her feet. The crown of twelve stars echoes the twelve tribes of Israel. Yet these symbols are not photographs of a single person or group. They are layered: Israel, the mother of the Messiah; Mary, the vessel of the Incarnation; the church, the bride of Christ. The vision holds all three without collapsing into one. What matters is not who she "really is" but what the symbols say: God&apos;s people carry the promise. They are covered with His glory. They are set apart and crowned.',
+          html: 'The woman is clothed with the sun—the highest light, divine glory. The moon is under her feet. The crown of twelve stars echoes the twelve tribes of Israel. Yet these symbols are not photographs of a single person or group. They are layered: Israel, the mother of the Messiah; Mary, the vessel of the Incarnation; the church, the bride of Christ. The vision holds all three without collapsing into one. What matters is not who she "really is" but what the symbols say: God&apos;s people carry the promise. They are covered with His glory. They are set apart and crowned[res:sefaria-genesis-3][res:sefaria-isaiah-7-14].',
         },
         {
           kind: 'scripture',
@@ -92,7 +92,7 @@ export const REVELATION_12: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-wonder2',
-          html: 'The second great sign—the dragon—mirrors the first. Both are visions, both are cosmic symbols. The dragon is vast and terrible, yet his appearance only amplifies the truth: the conflict between the woman and the dragon is not personal but cosmic. Two powers face off: the seed-bearer of God and the ancient deceiver.',
+          html: 'The second great sign—the dragon—mirrors the first. Both are visions, both are cosmic symbols. The dragon is vast and terrible, yet his appearance only amplifies the truth: the conflict between the woman and the dragon is not personal but cosmic. Two powers face off: the seed-bearer of God and the ancient deceiver[res:theoi-dragon-mythology].',
         },
         {
           kind: 'greek',

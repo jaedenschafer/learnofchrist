@@ -51,13 +51,13 @@ export const REVELATION_4: RichChapterContent = {
           kind: 'commentary',
           id: 'rev4-door',
           html:
-            'A door opens. Not a vision of the distant past, but an invitation into what is presently happening. "After this"—after the letters—John sees what was always true but now becomes visible. Heaven is not closed. It is standing open. The boundary between earth and the throne-room of God is permeable to those who are willing to be transported by the Spirit.',
+            'A door opens. Not a vision of the distant past, but an invitation into what is presently happening. "After this"—after the letters—John sees what was always true but now becomes visible. Heaven is not closed. It is standing open. The boundary between earth and the throne-room of God is permeable to those who are willing to be transported by the Spirit[res:sefaria-isaiah-6][res:sefaria-ezekiel-1].',
         },
         {
           kind: 'commentary',
           id: 'rev4-come-up',
           html:
-            'The trumpet voice is unmistakable. A summons, not a whisper. Throughout Scripture, the trumpet announces the presence of God. At Sinai, God descended in thunder and trumpet. At the final day, the archangel will shout with the voice of the trumpet. Here, it calls John upward. And with him, through him, it calls every reader: come up. See what is real.',
+            'The trumpet voice is unmistakable. A summons, not a whisper. Throughout Scripture, the trumpet announces the presence of God. At Sinai, God descended in thunder and trumpet. At the final day, the archangel will shout with the voice of the trumpet. Here, it calls John upward. And with him, through him, it calls every reader: come up. See what is real[res:intertextual-isa-6-rev-4].',
         },
         {
           kind: 'carry',

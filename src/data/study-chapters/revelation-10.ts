@@ -49,14 +49,14 @@ export const REVELATION_10: RichChapterContent = {
           kind: 'commentary',
           id: 'c-angel-vision',
           html:
-            'This is not the first mighty angel John has seen. Revelation 5:2 introduces &ldquo;a strong angel,&rdquo; and 7:2 speaks of &ldquo;another angel.&rdquo; The word &ldquo;another&rdquo; (Greek <em>allos</em>) means &ldquo;another of the same kind.&rdquo; This messenger comes from heaven itself, clothed in the imagery of God\'s majesty — cloud, rainbow, sun, fire. The descriptions pile up, each one layering the sense of divine authority and presence.',
+            'This is not the first mighty angel John has seen. Revelation 5:2 introduces &ldquo;a strong angel,&rdquo; and 7:2 speaks of &ldquo;another angel.&rdquo; The word &ldquo;another&rdquo; (Greek <em>allos</em>) means &ldquo;another of the same kind.&rdquo; This messenger comes from heaven itself, clothed in the imagery of God\'s majesty — cloud, rainbow, sun, fire. The descriptions pile up, each one layering the sense of divine authority and presence[res:sefaria-ezekiel-3][res:intertextual-ezekiel-john-scroll].',
         },
         {
           kind: 'christ',
           id: 'c-face-sun',
           title: 'Christ Connection — The Face Like the Sun',
           html:
-            'John opened Revelation 1:16 with the risen Christ: &ldquo;his countenance was as the sun shineth in his strength.&rdquo; This angel\'s face reflects that same glory. The angel is not Christ, but carries the light of Christ\'s presence. The feet as pillars of fire echo Revelation 1:15 — the Son of Man stands with feet like burning bronze. The angel bears the stamp of the One who sent him. What you see in heaven\'s messengers is always an overflow of Christ\'s own majesty.',
+            'John opened Revelation 1:16 with the risen Christ: &ldquo;his countenance was as the sun shineth in his strength.&rdquo; This angel\'s face reflects that same glory. The angel is not Christ, but carries the light of Christ\'s presence. The feet as pillars of fire echo Revelation 1:15 — the Son of Man stands with feet like burning bronze. The angel bears the stamp of the One who sent him. What you see in heaven\'s messengers is always an overflow of Christ\'s own majesty[res:bibleodyssey-prophetic-witness].',
         },
 
         {

@@ -34,7 +34,7 @@ export const REVELATION_17: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'rev17-angel-intro',
-          html: 'An angel who poured out God&apos;s wrath now shows John the judgment that follows. This is spiritual sight — &quot;in the spirit&quot; John is carried into the wilderness to see what the world calls civilized power: a woman riding a beast, dressed in wealth and seduction, intoxicating nations with her promises. The wilderness is where John can see truly.',
+          html: 'An angel who poured out God&apos;s wrath now shows John the judgment that follows. This is spiritual sight — &quot;in the spirit&quot; John is carried into the wilderness to see what the world calls civilized power: a woman riding a beast, dressed in wealth and seduction, intoxicating nations with her promises. The wilderness is where John can see truly[res:sefaria-isaiah-13-14][res:british-museum-babylon-archaeology].',
         },
         {
           kind: 'greek',
@@ -68,7 +68,7 @@ export const REVELATION_17: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'rev17-babylon-name',
-          html: 'She is called Mystery — the hidden reality unveiled. Babylon is more than any single city or empire. She is the archetypal seductive power system: robed in the colors of royalty (purple and scarlet), adorned with wealth and beauty, offering a golden cup. But inside the cup is filthiness. This is the fundamental deception: Babylon always looks more beautiful than she is, and what she offers always costs more than it appears.',
+          html: 'She is called Mystery — the hidden reality unveiled. Babylon is more than any single city or empire. She is the archetypal seductive power system: robed in the colors of royalty (purple and scarlet), adorned with wealth and beauty, offering a golden cup. But inside the cup is filthiness. This is the fundamental deception: Babylon always looks more beautiful than she is, and what she offers always costs more than it appears[res:met-ancient-mesopotamia].',
         },
         {
           kind: 'greek',

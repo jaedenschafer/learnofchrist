@@ -38,7 +38,7 @@ export const REVELATION_1: RichChapterContent = {
           kind: 'commentary',
           id: 'rev1-revelation',
           html:
-            'The word "revelation" (apokalypsis) means unveiling. John is not inventing but receiving. God gave this vision to Jesus, and Jesus signified it through an angel to John. The chain runs from the Father through the Son to the church. What follows is not John&apos;s speculation but a testimony he is commanded to record. The vision concerns "things which must shortly come to pass"—not distant events but urgent realities to be fulfilled.',
+            'The word "revelation" (apokalypsis) means unveiling. John is not inventing but receiving. God gave this vision to Jesus, and Jesus signified it through an angel to John. The chain runs from the Father through the Son to the church. What follows is not John&apos;s speculation but a testimony he is commanded to record. The vision concerns "things which must shortly come to pass"—not distant events but urgent realities to be fulfilled[res:sefaria-daniel-7][res:intf-rev-1-early-witnesses].',
         },
         {
           kind: 'greek',
@@ -53,7 +53,7 @@ export const REVELATION_1: RichChapterContent = {
           kind: 'commentary',
           id: 'rev1-faithful-witness',
           html:
-            'Jesus is the "faithful witness." He testified to the truth in His earthly ministry and sealed that testimony with His death. He is "the first begotten of the dead"—not the first to be raised, but the preeminent one, the prototype of resurrection. And He is "the prince of the kings of the earth"—not a political ruler like Caesar, but the sovereign to whom all earthly rulers answer.',
+            'Jesus is the "faithful witness." He testified to the truth in His earthly ministry and sealed that testimony with His death. He is "the first begotten of the dead"—not the first to be raised, but the preeminent one, the prototype of resurrection. And He is "the prince of the kings of the earth"—not a political ruler like Caesar, but the sovereign to whom all earthly rulers answer[res:perseus-apokalypsis].',
         },
         {
           kind: 'christ',

@@ -49,7 +49,7 @@ export const REVELATION_21: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-passed-away',
-          html: 'The old creation does not vanish into nothing. It passes away. It is transformed, not destroyed. The word is <em>aparchemai</em>—to depart, to go away. The framework of the old age gives way to the new. The curse lifts. The groaning stops. Paul wrote that all creation groans in travail (Romans 8:22)—groans because it is held captive to decay, waiting for redemption. Here is that redemption.',
+          html: 'The old creation does not vanish into nothing. It passes away. It is transformed, not destroyed. The word is <em>aparchemai</em>—to depart, to go away. The framework of the old age gives way to the new. The curse lifts. The groaning stops. Paul wrote that all creation groans in travail (Romans 8:22)—groans because it is held captive to decay, waiting for redemption. Here is that redemption[res:sefaria-genesis-2-3][res:sefaria-ezekiel-47-48].',
         },
         {
           kind: 'greek',
@@ -62,7 +62,7 @@ export const REVELATION_21: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-no-sea',
-          html: 'In John&apos;s time, the sea was chaos—the realm of monsters and storms, a barrier between peoples. "No more sea" means no more separation, no more barrier between nations. But it also means the curse is lifted. The sea that once threatened to drown creation (Genesis 7) is gone. The divide is closed.',
+          html: 'In John&apos;s time, the sea was chaos—the realm of monsters and storms, a barrier between peoples. "No more sea" means no more separation, no more barrier between nations. But it also means the curse is lifted. The sea that once threatened to drown creation (Genesis 7) is gone. The divide is closed[res:intertextual-genesis-revelation-garden].',
         },
         {
           kind: 'scripture',

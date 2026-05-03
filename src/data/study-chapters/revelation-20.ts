@@ -32,7 +32,7 @@ export const REVELATION_20: RichChapterContent = {
           kind: 'commentary',
           id: 'rev20-angel-descend',
           html:
-            'Heaven does not watch passively. The angel comes with both key and chain — equipped with both authority and instrument. The bottomless pit becomes a prison. This is the cosmic reversal: the one who was loosed to deceive is now locked away.',
+            'Heaven does not watch passively. The angel comes with both key and chain — equipped with both authority and instrument. The bottomless pit becomes a prison. This is the cosmic reversal: the one who was loosed to deceive is now locked away[res:sefaria-daniel-12-resurrection][res:sefaria-isaiah-2-all-nations].',
         },
         {
           kind: 'greek',
@@ -76,7 +76,7 @@ export const REVELATION_20: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'The deceptions whispered to you — that you are too broken, that God has forgotten, that this darkness is permanent — have an expiration date. The one who speaks them is bound. He does not get to set the terms of your story. You do.',
+            'The deceptions whispered to you — that you are too broken, that God has forgotten, that this darkness is permanent — have an expiration date. The one who speaks them is bound. He does not get to set the terms of your story. You do[res:bibleodyssey-book-of-life].',
         },
         {
           kind: 'reflection',

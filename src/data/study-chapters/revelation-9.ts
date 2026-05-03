@@ -51,7 +51,7 @@ export const REVELATION_9: RichChapterContent = {
           kind: 'commentary',
           id: 'rev9-starfall',
           html:
-            'A star falls. In heaven, this is an upheaval—things that seemed fixed are shaken loose. The star is not a point of light but a person, an angel carrying a key. To be given a key is to be granted authority, released to act. The pit itself is bottomless, without foundation or limit. What lies there has been bound, waiting. Now the seal breaks open.',
+            'A star falls. In heaven, this is an upheaval—things that seemed fixed are shaken loose. The star is not a point of light but a person, an angel carrying a key. To be given a key is to be granted authority, released to act. The pit itself is bottomless, without foundation or limit. What lies there has been bound, waiting. Now the seal breaks open[res:sefaria-joel-1-2][res:bibleodyssey-apollyon].',
         },
         {
           kind: 'greek',
@@ -65,7 +65,7 @@ export const REVELATION_9: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'When you feel the ground shift—when stability you thought was permanent cracks open—remember that God alone holds the keys. Nothing escapes that has not been permitted to escape. Even in seeming chaos, His sovereignty stands.',
+            'When you feel the ground shift—when stability you thought was permanent cracks open—remember that God alone holds the keys. Nothing escapes that has not been permitted to escape. Even in seeming chaos, His sovereignty stands[res:sefaria-genesis-3-serpent].',
         },
       ],
     },

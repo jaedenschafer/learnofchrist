@@ -88,7 +88,7 @@ export const REVELATION_11: RichChapterContent = {
           kind: 'commentary',
           id: 'rev11-measure',
           html:
-            'The command to measure is not about dimensions—it&apos;s about counting. God knows His people by number. Paul tells Timothy that the church is "the pillar and ground of the truth" (1 Tim. 3:15). Here, John is told that this temple—the congregation of the faithful—is known, marked, sealed. Nothing about the true worshippers is invisible to God.',
+            'The command to measure is not about dimensions—it&apos;s about counting. God knows His people by number. Paul tells Timothy that the church is "the pillar and ground of the truth" (1 Tim. 3:15). Here, John is told that this temple—the congregation of the faithful—is known, marked, sealed. Nothing about the true worshippers is invisible to God[res:sefaria-zechariah-4][res:sefaria-1-kings-17-18].',
         },
         {
           kind: 'greek',
@@ -115,7 +115,7 @@ export const REVELATION_11: RichChapterContent = {
           kind: 'commentary',
           id: 'rev11-court-left-out',
           html:
-            'The outer court is not measured—not sealed, not protected. This is the place of the nations. For forty-two months the holy city will be trampled. The true worshippers are known, but they are not exempt from suffering. Tribulation belongs to the age we inhabit.',
+            'The outer court is not measured—not sealed, not protected. This is the place of the nations. For forty-two months the holy city will be trampled. The true worshippers are known, but they are not exempt from suffering. Tribulation belongs to the age we inhabit[res:bibleodyssey-two-witnesses].',
         },
         {
           kind: 'carry',

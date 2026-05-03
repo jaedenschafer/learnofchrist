@@ -52,13 +52,13 @@ export const REVELATION_14: RichChapterContent = {
           kind: 'commentary',
           id: 'rev14-lamb-zion',
           html:
-            'Mount Zion is the holy mountain, God&apos;s seat, the place of His kingdom. The Lamb stands there not in future promise but as a present reality in the vision. The 144,000—those sealed in chapters 7—stand with Him. While the world writhes under the rule of beasts, the redeemed are secure on Zion with their Redeemer. This is their anchor: the Lamb is there, and they are with Him.',
+            'Mount Zion is the holy mountain, God&apos;s seat, the place of His kingdom. The Lamb stands there not in future promise but as a present reality in the vision. The 144,000—those sealed in chapters 7—stand with Him. While the world writhes under the rule of beasts, the redeemed are secure on Zion with their Redeemer. This is their anchor: the Lamb is there, and they are with Him[res:sefaria-isaiah-2-mountain][res:sefaria-psalm-2].',
         },
         {
           kind: 'commentary',
           id: 'rev14-name-foreheads',
           html:
-            'In Revelation 13, the beast&apos;s mark is placed on foreheads and hands—the mark of loyalty, of allegiance to the unholy power. Here, the redeemed bear a different mark: the Father&apos;s name. Not the beast&apos;s brand, but God&apos;s seal. Written on the forehead where all can see it. The mark proclaims ownership. These belong to God. They have been bought at a price and bear the insignia of their Redeemer.',
+            'In Revelation 13, the beast&apos;s mark is placed on foreheads and hands—the mark of loyalty, of allegiance to the unholy power. Here, the redeemed bear a different mark: the Father&apos;s name. Not the beast&apos;s brand, but God&apos;s seal. Written on the forehead where all can see it. The mark proclaims ownership. These belong to God. They have been bought at a price and bear the insignia of their Redeemer[res:bibleodyssey-harvest-judgment].',
         },
         {
           kind: 'greek',

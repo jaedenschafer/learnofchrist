@@ -42,7 +42,7 @@ export const REVELATION_22: RichChapterContent = {
           kind: 'commentary',
           id: 'rev22-river-intro',
           html:
-            'You are reading the last page of Scripture. The first page opened in Genesis 2 with a garden, a river, and a tree of life. Adam and Eve lost access to both when they fell. For 1,188 chapters the redeemed have longed for them. Now, Revelation 22 announces what Christ has accomplished: the river flows again. The tree stands. And this time it will not be guarded by cherubim. It will be open to all who drink.',
+            'You are reading the last page of Scripture. The first page opened in Genesis 2 with a garden, a river, and a tree of life. Adam and Eve lost access to both when they fell. For 1,188 chapters the redeemed have longed for them. Now, Revelation 22 announces what Christ has accomplished: the river flows again. The tree stands. And this time it will not be guarded by cherubim. It will be open to all who drink[res:sefaria-genesis-2-3][res:sefaria-ezekiel-47-48].',
         },
 
         {
@@ -64,7 +64,7 @@ export const REVELATION_22: RichChapterContent = {
           kind: 'commentary',
           id: 'rev22-tree-both-sides',
           html:
-            'The tree of life grows on both sides of the river — or perhaps it is one tree whose roots drink from the water and whose branches spread across the street. Either way, the image is abundance without scarcity. Every person who enters the city has access. There is no gate-keeper, no serpent, no fear of losing it again. The fruit never fails. The leaves never cease their healing work.',
+            'The tree of life grows on both sides of the river — or perhaps it is one tree whose roots drink from the water and whose branches spread across the street. Either way, the image is abundance without scarcity. Every person who enters the city has access. There is no gate-keeper, no serpent, no fear of losing it again. The fruit never fails. The leaves never cease their healing work[res:intertextual-genesis-revelation-garden].',
         },
         {
           kind: 'greek',

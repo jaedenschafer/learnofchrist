@@ -51,7 +51,7 @@ export const REVELATION_5: RichChapterContent = {
           kind: 'commentary',
           id: 'rev5-seals',
           html:
-            'The scroll rests in the right hand of the One on the throne—God the Father. It is written inside and outside, suggesting completeness and fullness of content. The seven seals themselves are symbolic—the number seven signals completeness and perfection in Scripture. Seven seals mean the scroll is thoroughly sealed, locked from every angle. Nothing about it is exposed. No one can know its contents until someone worthy opens it. This is the future in God&apos;s hand, the plan in its entirety.',
+            'The scroll rests in the right hand of the One on the throne—God the Father. It is written inside and outside, suggesting completeness and fullness of content. The seven seals themselves are symbolic—the number seven signals completeness and perfection in Scripture. Seven seals mean the scroll is thoroughly sealed, locked from every angle. Nothing about it is exposed. No one can know its contents until someone worthy opens it. This is the future in God&apos;s hand, the plan in its entirety[res:sefaria-daniel-7-son-of-man][res:sefaria-isaiah-53].',
         },
         {
           kind: 'greek',
@@ -74,7 +74,7 @@ export const REVELATION_5: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'God&apos;s plan is sealed in His hand, not scattered on the wind. Whatever uncertainty grips your own future, you are living inside a story whose ending is already written and held by God. The book is sealed not to keep you in darkness forever, but to preserve its purpose until the right moment, under the right hand.',
+            'God&apos;s plan is sealed in His hand, not scattered on the wind. Whatever uncertainty grips your own future, you are living inside a story whose ending is already written and held by God. The book is sealed not to keep you in darkness forever, but to preserve its purpose until the right moment, under the right hand[res:intertextual-isa-53-rev-5].',
         },
       ],
     },
