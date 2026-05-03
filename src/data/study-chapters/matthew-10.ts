@@ -166,5 +166,32 @@ export const MATTHEW_10: RichChapterContent = {
     ref: 'Matthew 10 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'bibleodyssey-apostles',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Twelve Apostles',
+      url: 'https://www.bibleodyssey.org/dictionary/apostles/',
+      description: 'Overview of the apostolic calling and the twelve Jesus selected as His core missionary team.',
+    },
+    {
+      id: 'sefaria-psalms-23',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 23 — The Lord as Shepherd',
+      url: 'https://www.sefaria.org/Psalms.23',
+      description: 'The psalm underlying Jesus&apos; language of shepherding the lost sheep of Israel.',
+    },
+    {
+      id: 'bibleodyssey-persecution',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Early Christian Persecution',
+      url: 'https://www.bibleodyssey.org/dictionary/persecution/',
+      description: 'Historical context for Jesus&apos; warnings about persecution, imprisonment, and opposition the apostles would face.',
+    },
+  ],
+
   hasHebrew: false,
 };

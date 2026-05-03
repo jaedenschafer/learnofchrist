@@ -46,13 +46,13 @@ export const MATTHEW_8: RichChapterContent = {
           kind: 'commentary',
           id: 'matt8-leper',
           html:
-            'The leper approaches with reverence and trust: "Lord, if thou wilt, thou canst make me clean." He does not presume upon Jesus. He believes in His power but submits to His will. And Jesus, "moved with compassion," touches him and says "I will; be thou clean." By touching the leper, Jesus violates the law of uncleanness. He identifies Himself with the outcast. Yet in touching him, He transfers not uncleanliness to Himself but cleanness to the leper. The disease departs immediately.',
+            'The leper approaches with reverence and trust: "Lord, if thou wilt, thou canst make me clean." He does not presume upon Jesus. He believes in His power but submits to His will. And Jesus, "moved with compassion," touches him and says "I will; be thou clean." By touching the leper, Jesus violates the law of uncleanness[res:sefaria-leviticus-13]. He identifies Himself with the outcast. Yet in touching him, He transfers not uncleanliness to Himself but cleanness to the leper. The disease departs immediately.',
         },
         {
           kind: 'commentary',
           id: 'matt8-centurion',
           html:
-            'A centurion—a Gentile officer of the occupation force—approaches and asks for healing of his servant. Jesus offers to come to his house, but the centurion says "I am not worthy." Yet he expresses extraordinary faith: "Speak the word only, and my servant shall be healed." He understands authority—he is under authority, and others are under his. He recognizes in Jesus an authority that operates through word alone. Jesus marvels: "I have not found so great faith, no, not in Israel." A Gentile outsider shows greater faith than the chosen people.',
+            'A centurion—a Gentile officer of the occupation force—approaches and asks for healing of his servant. Jesus offers to come to his house, but the centurion says "I am not worthy." Yet he expresses extraordinary faith: "Speak the word only, and my servant shall be healed."[res:iaa-capernaum-archaeology] He understands authority—he is under authority, and others are under his. He recognizes in Jesus an authority that operates through word alone. Jesus marvels: "I have not found so great faith, no, not in Israel." A Gentile outsider shows greater faith than the chosen people.',
         },
         {
           kind: 'commentary',
@@ -159,6 +159,33 @@ export const MATTHEW_8: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Matthew 8 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-leviticus-13',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 13 — Laws of Leprosy',
+      url: 'https://www.sefaria.org/Leviticus.13',
+      description: 'The purity laws governing lepers that Jesus transgresses by touching the leper, showing His power over ritual uncleanness.',
+    },
+    {
+      id: 'iaa-capernaum-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Capernaum Excavations',
+      url: 'https://www.antiquities.org.il/article-1068-en.html',
+      description: 'Archaeological findings of first-century Capernaum, including houses and the centurion&apos;s garrison, contextualizing Matthew&apos;s narratives.',
+    },
+    {
+      id: 'bibleodyssey-miracles',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Miracles in the Gospels',
+      url: 'https://www.bibleodyssey.org/dictionary/miracle/',
+      description: 'Overview of miracle narratives in the gospels, including healing miracles and their theological significance.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -179,11 +179,35 @@ export const EXODUS_36: RichChapterContent = {
             { number: 17, spans: [ t('And he made fifty loops upon the uttermost edge of the curtain in the coupling, and fifty loops made he upon the edge of the curtain which coupleth the second.') ] },
             { number: 18, spans: [ t('And he made fifty taches of brass to couple the tent together, that it might be one.') ] },
             { number: 19, spans: [ t('And he made a covering for the tent of rams&apos; skins dyed red, and a covering of badgers&apos; skins above that.') ] },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'e36-split-1',
+          html:
+            'The goat-hair curtains are layered on top of the inner curtains, forming the tent structure itself. Then comes the final protective layer—rams&apos; skins dyed red, and badgers&apos; skins above that. Layer upon layer, each covering protecting what lies beneath. This is the image of approach to God: we pass through protective coverings, each one necessary, before we reach the holy place.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 36,
+          lines: [
             { number: 20, spans: [ t('And he made '), hy('boards', 'boards-construction'), t(' for the tabernacle of shittim wood, standing up.') ] },
             { number: 21, spans: [ t('The length of a board was ten cubits, and the breadth of a board one cubit and a half.') ] },
             { number: 22, spans: [ t('One board had two tenons, equally distant one from another: thus did he make for all the boards of the tabernacle.') ] },
             { number: 23, spans: [ t('And he made boards for the tabernacle; twenty boards for the south side southward:') ] },
             { number: 24, spans: [ t('And forty sockets of silver he made under the twenty boards; two sockets under one board for his two tenons, and two sockets under another board for his two tenons.') ] },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'e36-split-2',
+          html:
+            'Now the frame begins. Boards of acacia wood, each ten cubits high, set into silver sockets. The boards are identical, uniformly crafted—not a rough structure, but a precise skeleton. Silver sockets for the south side hold forty boards, two sockets under each board. Everything is counted, measured, and prepared to support the structure that will hold the most holy place.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 36,
+          lines: [
             { number: 25, spans: [ t('And for the other side of the tabernacle, which is toward the north, he made twenty boards,') ] },
             { number: 26, spans: [ t('And their forty sockets of silver; two sockets under one board, and two sockets under another board.') ] },
             { number: 27, spans: [ t('And for the sides of the tabernacle westward he made six boards.') ] },
@@ -198,8 +222,9 @@ export const EXODUS_36: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'boards-frame-structure',
-          html: 'The structure rises: boards standing ten cubits high, set in silver sockets, held together by bars threaded through rings, all overlaid in gold. This was no flimsy tent. It was a building that could stand against wind and time, portable yet solid, temporary yet sacred.',
+          id: 'e36-split-3',
+          html:
+            'The structure now stands. North and west sides are framed. Boards are held together by bars of acacia wood that pass through rings, threading the skeleton into a unified whole. The bars connect everything—north to south, side to side. And all of it is overlaid in gold. Even the unseen internal structure, the weight-bearing frame, is precious. Nothing in the tabernacle is ordinary. Everything speaks of the value of the holy space that rises within it.',
         },
         {
           kind: 'scripture',

@@ -78,6 +78,18 @@ export const GENESIS_5: RichChapterContent = {
                 t('.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'g5-split-1',
+          html:
+            'Adam is the first to die. The pattern has begun. He lives nine hundred and thirty years—an incomprehensible span of time—and then the refrain: he died. Seth is born. Seth lives almost nine hundred and twelve years. And he died. The rhythm is relentless, the meter of mortality sounding through the centuries.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             {
               number: 6,
               spans: [
@@ -114,6 +126,18 @@ export const GENESIS_5: RichChapterContent = {
                 t('And all the days of Enos were nine hundred and five years: and he died.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'g5-split-2',
+          html:
+            'Seth to Enos to Cainan. The names continue. The lifespans continue. Each man lives 800+ years and produces heirs before the refrain comes. The genealogy is not a list of unique lives—it is a procession of identical patterns. Live long. Bear children. Die. And die. And die. The repetition is the point. Death is not aberration. Death is the default.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             {
               number: 12,
               spans: [

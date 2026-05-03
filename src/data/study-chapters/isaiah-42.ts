@@ -140,13 +140,13 @@ export const ISAIAH_42: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'isaiah42-new-song',
+          id: 'isaiah42-new-song-2',
           html:
             'The chapter moves from the portrait of the servant to a call to celebration: "Sing unto the Lord a new song." The Servant&apos;s work is so transformative that all creation is invited to sing. The wilderness, the cities, the islands, the mountains—all are called to lift their voices in praise. The work of the Servant deserves this response.',
         },
         {
           kind: 'commentary',
-          id: 'isaiah42-blind-servant',
+          id: 'isaiah42-blind-servant-2',
           html:
             'Then comes a shocking reversal. The servant is described as gentle toward the broken. But Israel itself is described as blind and deaf: "Who is blind, but my servant? or deaf, as my messenger that I sent?" Israel has been called to be God&apos;s servant, but Israel has become blind and deaf. They see many things but observe not. Their ears are opened but they hear not. This is not physical blindness. This is spiritual blindness—the refusal or inability to perceive God&apos;s will and way.',
         },

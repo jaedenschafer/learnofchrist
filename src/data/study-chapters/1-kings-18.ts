@@ -49,12 +49,36 @@ export const KINGS_1_18: RichChapterContent = {
             plain(5, 'And Ahab said unto Obadiah, Go into the land, unto all fountains of water, and unto all brooks: peradventure we may find grass to save the horses and mules alive, that we lose not all the beasts.'),
             plain(6, 'So they divided the land between them to pass throughout it: Ahab went one way by himself, and Obadiah went another way by himself.'),
             plain(7, 'And as Obadiah was in the way, behold, Elijah met him: and he knew him, and fell on his face, and said, Art thou that my lord Elijah?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'k18-split-1',
+          html:
+            'Two men serving opposite masters meet in the wilderness. Obadiah, the king&apos;s governor, has spent years in secret faithfulness—hiding the prophets of the Lord, feeding them in caves, risking everything. Elijah, the prophet on the run, has been hidden by God. Now they meet face-to-face. Obadiah sees in Elijah what he has been protecting all these years: the living word of the Lord.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             plain(8, 'And he answered him, I am: go, tell thy lord, Behold, Elijah is here.'),
             plain(9, 'And he said, What have I sinned, that thou wouldest deliver thy servant into the hand of Ahab, to slay me?'),
             plain(10, 'As the Lord thy God liveth, there is no nation or kingdom whither my lord hath not sent to seek thee: and when they said, He is not there; he took an oath of them, that they found thee not.'),
             plain(11, 'And now thou sayest, Go, tell thy lord, Behold, Elijah is here.'),
             plain(12, 'And it shall come to pass, as soon as I am gone from thee, that the Spirit of the Lord shall carry thee whither I know not; and so when I come and tell Ahab, and he cannot find thee, he shall slay me: but I thy servant fear the Lord from my youth.'),
             plain(13, 'Was it not told my lord what I did when Jezebel slew the prophets of the Lord, how I hid an hundred men of the Lord&apos;s prophets by fifty in a cave, and fed them with bread and water?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'k18-split-2',
+          html:
+            'Obadiah is terrified. He has hidden the prophets. But what good is hiding if it means death? He is not protesting the truth of Elijah&apos;s word. He is protesting the consequence: the Spirit will lift Elijah away. Ahab will slay him. The fear is not doubt—it is the cost of faithfulness. Yet in that moment, Obadiah must choose: hide the truth forever, or risk everything by speaking it.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             plain(14, 'And now thou sayest, Go, tell thy lord, Behold, Elijah is here: and he shall slay me.'),
             plain(15, 'And Elijah said, As the Lord of hosts liveth, before whom I stand, I will surely shew myself unto him to day.'),
             plain(16, 'So Obadiah went to meet Ahab, and told him: and Ahab went to meet Elijah.'),
@@ -183,7 +207,7 @@ export const KINGS_1_18: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'k18-split-1',
+          id: 'k18-split-1-2',
           html:
             'Elijah first repairs the broken altar—a symbolic act of restoration. He uses twelve stones for the twelve tribes, creating a monument that speaks of Israel&apos;s original identity and covenant. He builds the altar, places the wood, cuts the bullock. Then—remarkably—he orders water poured on the sacrifice. Not once, but three times. In a land gripped by drought, where water is precious beyond measure, Elijah drenches the wood and the meat. The water runs around the altar, fills the trench. He is making the coming miracle inarguable: fire cannot easily consume wet wood. Only the power of God can.',
         },
@@ -199,7 +223,7 @@ export const KINGS_1_18: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'k18-split-2',
+          id: 'k18-split-2-2',
           html:
             'Elijah&apos;s prayer before the fire falls contains no boasting, no self-glorification. "I am thy servant, and that I have done all these things at thy word." The prophet attributes everything to God&apos;s word, not his own power. He asks only that the people may know that the Lord is God and that their hearts might be turned back to Him. And then fire falls—consuming not only the sacrifice and the wood, but the stones themselves, and the dust, and even the water in the trench. Everything is consumed. There is no ambiguity. The people see what cannot be explained by natural means, and they fall on their faces, confessing: "The Lord, he is the God." The confession is repeated, urgent, decisive. Israel has remembered.',
         },

@@ -114,7 +114,7 @@ export const ISAIAH_44: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'isaiah44-absurdity',
+          id: 'isaiah44-absurdity-2',
           html:
             'The satire is scathing. A man plants a tree. He tends it. He waits for the rain to nourish it. Then he cuts it down. Part of it he uses to warm himself and cook food. Part of it he carves into an idol. He falls down and worships the carved wood: "Deliver me; for thou art my god." But this is absurd! The god is made from the same tree that provided fuel! How can something that heats the bread also save the soul? The satire exposes the logical bankruptcy of idolatry.',
         },

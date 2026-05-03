@@ -322,6 +322,18 @@ export const CHRONICLES_1_1: RichChapterContent = {
             plain(48, 'And when Bela was dead, Jobab the son of Zerah of Bozrah reigned in his stead.'),
             plain(49, 'And when Jobab was dead, Husham of the land of the Temanites reigned in his stead.'),
             plain(50, 'And when Husham was dead, Hadad the son of Bedad, which smote Midian in the field of Moab, reigned in his stead: and the name of his city was Avith.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'c1-1-split-3',
+          html:
+            'The shift from genealogy to kingship is deliberate. Esau&apos;s descendants became a people with their own sovereign line—kings reigning in Edom before Israel had any king at all. The kings are listed not as enemies or usurpers, but as rulers of their own nation, standing parallel to Israel&apos;s future monarchy. Edom had achieved what Jacob&apos;s descendants had not yet achieved: a kingdom.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(51, 'And when Hadad was dead, Samlah of Masrekah reigned in his stead.'),
             plain(52, 'And when Samlah was dead, Shaul of Rehoboth by the river reigned in his stead.'),
             plain(53, 'And when Shaul was dead, Baal-hanan the son of Achbor reigned in his stead.'),

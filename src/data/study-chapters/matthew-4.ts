@@ -49,7 +49,7 @@ export const MATTHEW_4: RichChapterContent = {
           kind: 'commentary',
           id: 'matt4-temptation-bread',
           html:
-            'The first temptation appeals to hunger—bodily need, survival. "If thou be the Son of God, command that these stones be made bread." The tempter insinuates doubt: "If thou be the Son." But it also offers a solution: use divine power for personal need. Jesus refuses. Not because hunger is shameful or bodies don&apos;t matter, but because dependence on the Father is more fundamental than the satisfaction of appetite. "Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God." Survival depends not on food alone, but on obedience and trust.',
+            'The first temptation appeals to hunger—bodily need, survival. "If thou be the Son of God, command that these stones be made bread." The tempter insinuates doubt: "If thou be the Son." But it also offers a solution: use divine power for personal need. Jesus refuses. Not because hunger is shameful or bodies don&apos;t matter, but because dependence on the Father is more fundamental than the satisfaction of appetite. "Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God."[res:sefaria-deuteronomy-8-3] Survival depends not on food alone, but on obedience and trust.',
         },
         {
           kind: 'commentary',
@@ -164,6 +164,33 @@ export const MATTHEW_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Matthew 4 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-deuteronomy-8-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 8:3 — Man Shall Not Live by Bread',
+      url: 'https://www.sefaria.org/Deuteronomy.8.3',
+      description: 'The verse Jesus quotes to resist the first temptation, emphasizing trust in God&apos;s word over physical provision.',
+    },
+    {
+      id: 'sefaria-psalms-91',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 91 — Angels Bearing Up',
+      url: 'https://www.sefaria.org/Psalms.91',
+      description: 'The psalm the tempter misquotes at the second temptation, with its true context of God&apos;s protection for the faithful.',
+    },
+    {
+      id: 'bibleodyssey-temptation',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Temptation of Jesus',
+      url: 'https://www.bibleodyssey.org/dictionary/temptation-of-jesus/',
+      description: 'Scholarly analysis of the three temptations and their significance for understanding Jesus&apos; mission and identity.',
+    },
+  ],
 
   hasHebrew: false,
 };

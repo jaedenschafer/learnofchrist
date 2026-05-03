@@ -70,7 +70,7 @@ export const MATTHEW_5: RichChapterContent = {
           script: 'μακάριος',
           translit: '<strong>Makarioi</strong> · blessed; happy; fortunate; in a state of well-being from God',
           description:
-            'The Greek word makarioi describes a state of blessedness that comes from God Himself, not from worldly circumstance. To be makarioi is not to be superficially happy or comfortable. It is to be in right standing with God, to be received and affirmed by Him, to participate in His kingdom. This is the blessing Jesus pronounces on those whom the world despises.',
+            'The Greek word makarioi describes a state of blessedness that comes from God Himself, not from worldly circumstance[res:intertextual-bible-beatitudes]. To be makarioi is not to be superficially happy or comfortable. It is to be in right standing with God, to be received and affirmed by Him, to participate in His kingdom. This is the blessing Jesus pronounces on those whom the world despises.',
         },
         {
           kind: 'christ',
@@ -160,6 +160,33 @@ export const MATTHEW_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Matthew 5 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'intertextual-bible-beatitudes',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Beatitudes — OT Parallels',
+      url: 'https://intertextual.bible/text/matthew-5.3',
+      description: 'Cross-references to Old Testament blessings and psalms that inform the beatitudes&apos; structure and meaning.',
+    },
+    {
+      id: 'sefaria-leviticus-19-18',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 19:18 — Love Your Neighbor',
+      url: 'https://www.sefaria.org/Leviticus.19.18',
+      description: 'The commandment Jesus cites as the second great commandment, foundational to kingdom ethics.',
+    },
+    {
+      id: 'bibleodyssey-sermon-mount',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Sermon on the Mount',
+      url: 'https://www.bibleodyssey.org/dictionary/sermon-on-the-mount/',
+      description: 'Scholarly overview of the sermon&apos;s structure, audience, and theological significance in Matthew&apos;s gospel.',
+    },
+  ],
 
   hasHebrew: false,
 };

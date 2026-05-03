@@ -726,5 +726,4 @@ export const FIRST_PETER_1: RichChapterContent = {
     },
   ],
 
-  hasHebrew: false,
 };

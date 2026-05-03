@@ -46,7 +46,7 @@ export const MATTHEW_9: RichChapterContent = {
           kind: 'commentary',
           id: 'matt9-paralytic',
           html:
-            'The paralytic is brought by faith—the faith of those who carry him, whose faith Jesus "sees" and honors. Jesus&apos; response is surprising: "Son, be of good cheer; thy sins be forgiven thee." He speaks to spiritual paralysis before physical. The man&apos;s deeper sickness is separation from God. But the scribes object: "This man blasphemeth" (only God can forgive sins). Jesus responds by healing the body: "Arise, take up thy bed, and go unto thine house." The physical miracle proves the spiritual authority. The body obeys because the soul is cleansed.',
+            'The paralytic is brought by faith—the faith of those who carry him, whose faith Jesus "sees" and honors[res:intertextual-paralytic]. Jesus&apos; response is surprising: "Son, be of good cheer; thy sins be forgiven thee." He speaks to spiritual paralysis before physical. The man&apos;s deeper sickness is separation from God. But the scribes object: "This man blasphemeth" (only God can forgive sins). Jesus responds by healing the body: "Arise, take up thy bed, and go unto thine house." The physical miracle proves the spiritual authority. The body obeys because the soul is cleansed.',
         },
         {
           kind: 'commentary',
@@ -166,6 +166,33 @@ export const MATTHEW_9: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Matthew 9 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'intertextual-paralytic',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Paralytic Healing — Mark and Luke Parallels',
+      url: 'https://intertextual.bible/text/matthew-9.1',
+      description: 'Comparison of Matthew&apos;s account with parallel accounts in Mark and Luke, showing variations in emphasis.',
+    },
+    {
+      id: 'bibleodyssey-tax-collectors',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Tax Collectors in First-Century Judea',
+      url: 'https://www.bibleodyssey.org/dictionary/tax-collectors/',
+      description: 'Historical context for Matthew&apos;s role as a tax collector and his surprising call to discipleship.',
+    },
+    {
+      id: 'sefaria-hosea-6-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 6:6 — Mercy Not Sacrifice',
+      url: 'https://www.sefaria.org/Hosea.6.6',
+      description: 'The Old Testament verse Jesus quotes when defending His association with sinners and tax collectors.',
+    },
+  ],
 
   hasHebrew: false,
 };

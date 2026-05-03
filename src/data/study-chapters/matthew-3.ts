@@ -45,7 +45,7 @@ export const MATTHEW_3: RichChapterContent = {
           kind: 'commentary',
           id: 'matt3-john-prophet',
           html:
-            'John the Baptist is a figure of the old covenant, speaking with prophetic authority. He stands in the tradition of Elijah and the prophets—dressed strangely, living ascetically, speaking truth without compromise. His message is urgent: "Repent ye: for the kingdom of heaven is at hand." Repentance is not mere feeling of remorse. It is a turning around, a change of mind and direction. The kingdom of heaven requires this radical reorientation.',
+            'John the Baptist is a figure of the old covenant, speaking with prophetic authority. He stands in the tradition of Elijah and the prophets—dressed strangely, living ascetically, speaking truth without compromise[res:bibleodyssey-john-baptist]. His message is urgent: "Repent ye: for the kingdom of heaven is at hand." Repentance is not mere feeling of remorse. It is a turning around, a change of mind and direction. The kingdom of heaven requires this radical reorientation.',
         },
         {
           kind: 'commentary',
@@ -113,7 +113,7 @@ export const MATTHEW_3: RichChapterContent = {
           kind: 'commentary',
           id: 'matt3-heavens-opened',
           html:
-            'As Jesus comes up from the water, something unprecedented happens. "The heavens were opened unto him, and he saw the Spirit of God descending like a dove, and lighting upon him." The Spirit descends visibly—not upon a king, not upon a priest, but upon the humble one who has just been baptized. Matthew shows us that the Spirit is not earned or achieved. It is given, granted, poured out. Jesus experiences this outpouring as He submits to the will of the Father.',
+            'As Jesus comes up from the water, something unprecedented happens. "The heavens were opened unto him, and he saw the Spirit of God descending like a dove, and lighting upon him." The Spirit descends visibly—not upon a king, not upon a priest, but upon the humble one who has just been baptized[res:israel-museum-qumran-baptism]. Matthew shows us that the Spirit is not earned or achieved. It is given, granted, poured out. Jesus experiences this outpouring as He submits to the will of the Father.',
         },
         {
           kind: 'commentary',
@@ -156,6 +156,33 @@ export const MATTHEW_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Matthew 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-john-baptist',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'John the Baptist',
+      url: 'https://www.bibleodyssey.org/dictionary/john-the-baptist/',
+      description: 'Historical and biblical overview of John&apos;s ministry, his preaching of repentance, and his role as forerunner to Jesus.',
+    },
+    {
+      id: 'israel-museum-qumran-baptism',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Qumran and Wilderness Movements',
+      url: 'https://www.imj.org.il/en',
+      description: 'Artifacts and documentation of the Dead Sea community, related to first-century Jewish wilderness baptism movements.',
+    },
+    {
+      id: 'sefaria-isaiah-40',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 40:3 — Voice in Wilderness',
+      url: 'https://www.sefaria.org/Isaiah.40.3',
+      description: 'Isaiah&apos;s prophecy that Matthew applies to John the Baptist: "The voice of one crying in the wilderness."',
+    },
+  ],
 
   hasHebrew: false,
 };

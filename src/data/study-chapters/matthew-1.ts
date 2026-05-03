@@ -145,5 +145,32 @@ export const MATTHEW_1: RichChapterContent = {
     ref: 'Matthew 1 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-genesis-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Genesis 5 — Adam to Noah',
+      url: 'https://www.sefaria.org/Genesis.5',
+      description: 'Genealogy from Adam to Noah; Matthew mirrors this structure in his genealogy of Jesus.',
+    },
+    {
+      id: 'sefaria-ruth-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ruth 4 — David&apos;s Genealogy',
+      url: 'https://www.sefaria.org/Ruth.4',
+      description: 'Ruth becomes the great-grandmother of King David; Matthew traces Jesus through this line.',
+    },
+    {
+      id: 'bibleodyssey-parthenos',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Parthenos (Virgin Birth)',
+      url: 'https://www.bibleodyssey.org/dictionary/virgin-birth/',
+      description: 'Academic entry on the virginal conception and the Greek word parthenos in Isaiah 7:14.',
+    },
+  ],
+
   hasHebrew: true,
 };

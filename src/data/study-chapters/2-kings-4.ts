@@ -173,6 +173,18 @@ export const KINGS_2_4: RichChapterContent = {
             plain(18, 'And when the child was grown, it fell on a day, that he went out to his father to the reapers.'),
             plain(19, 'And he said unto his father, My head, my head. And his father said to a lad, Carry him to his mother.'),
             plain(20, 'And when he had taken him, and brought him to his mother, she sat on her knees till noon, and then died.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'k4-split-1',
+          html:
+            'The promise made at birth comes crashing down. The child, grown and strong, cries out in the field—a sudden, fatal pain. His father sends him home, and he dies in his mother&apos;s lap. No warning. No time to pray. The miracle child, given by grace, is taken by death. And the Shunammite sits alone with his body.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(21, 'And she went up, and laid him upon the bed of the man of God, and shut the door upon him, and went out.'),
             plain(22, 'And she called unto her husband, and said, Send me, I pray thee, one of the young men, and one of the asses; for I will go to the man of God, and come again.'),
             plain(23, 'And he said, Wherefore wilt thou go to him to day? it is neither new moon, nor sabbath. And she said, It shall be well.'),
@@ -180,10 +192,34 @@ export const KINGS_2_4: RichChapterContent = {
             plain(25, 'So she went and came unto the man of God to the mount of Carmel. And it came to pass, when the man of God saw her afar off, that he said to Gehazi his servant, Behold, yonder is that Shunammite:'),
             plain(26, 'Run now, I pray thee, to meet her, and say unto her, Is it well with thee? is it well with thy husband? is it well with the child? And she answered, It is well.'),
             plain(27, 'And when she came to the man of God to the hill, she caught him by the feet: but Gehazi came near to thrust her away. And the man of God said, Let her alone; for her soul is vexed within her: and the Lord hath hid it from me, and hath not told me.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'k4-split-2',
+          html:
+            'Desperation has no protocol. She does not grieve at home. She does not send word ahead. She takes the dead boy, lays him on Elisha&apos;s bed—the very chamber where the promise was given—and rides toward the prophet with fierce silence. When Gehazi asks her questions, she answers, "It is well." Not because it is well. But because she will not speak her grief to a servant. She will speak it only to the man of God. And when she reaches him, she does not kneel. She catches him by the feet and holds on.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(28, 'Then she said, Did I desire a son of my lord? did I not say, Do not deceive me?'),
             plain(29, 'Then he said to Gehazi, Gird up thy loins, and take my staff in thine hand, and go thy way: if thou meet any man, salute him not; and if any salute thee, answer him not again: and lay my staff upon the face of the child.'),
             plain(30, 'And the mother of the child said, As the Lord liveth, and as thy soul liveth, I will not leave thee. And he arose, and followed her.'),
             plain(31, 'And Gehazi passed on before them, and laid the staff upon the face of the child; but there was neither voice, nor hearing. Wherefore he went again to meet him, and told him, saying, The child is not awaked.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'k4-split-3',
+          html:
+            'The staff is sent first. The prophet&apos;s instrument of authority. But it does not wake the child. No voice. No hearing. The middle-man method fails. A staff laid on a dead child&apos;s face is not enough. Elisha must come himself. The Shunammite refuses to be left behind. "As the Lord liveth, and as thy soul liveth, I will not leave thee." She will not let him go. She will hold him to his promise until her son draws breath.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(32, 'And when Elisha was come into the house, behold, the child was dead, and laid upon his bed.'),
             plain(33, 'He went in therefore, and shut the door upon them twain, and prayed unto the Lord.'),
             plain(34, 'And he went up, and lay upon the child, and put his mouth upon his mouth, and his eyes upon his eyes, and his hands upon his hands: and he stretched himself upon the child; and the flesh of the child waxed warm.'),

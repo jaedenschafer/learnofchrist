@@ -192,7 +192,7 @@ export const PROVERBS_14: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'prov14-national-conscience',
+          id: 'prov14-national-conscience-2',
           prompt: 'What role do you play in the moral character of your nation? Are you building righteousness or tolerating sin? Are you honoring the poor or oppressing them? What kind of foundation are you helping to lay?',
         },
       ],

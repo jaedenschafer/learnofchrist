@@ -81,7 +81,7 @@ export const ISAIAH_48: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'isaiah48-called',
+          id: 'isaiah48-called-2',
           html:
             'The chapter opens with identification: "O house of Jacob, which are called by the name of Israel." To be called by God&apos;s name is to belong to Him, to be His people. Yet this people, despite their name and their claims, have not been true. They "swear by the name of the Lord...but not in truth, nor in righteousness." The name is theirs, but not the reality.',
         },

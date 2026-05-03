@@ -192,7 +192,7 @@ export const PROVERBS_15: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'prov15-humility-honor',
+          id: 'prov15-humility-honor-2',
           prompt: 'What would humility require of you? What would change if you truly believed that before honor comes humility? How might you order your life differently if you lived out of reverence for God rather than desire for your own exaltation?',
         },
       ],

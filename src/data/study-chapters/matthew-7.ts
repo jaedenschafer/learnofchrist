@@ -45,7 +45,7 @@ export const MATTHEW_7: RichChapterContent = {
           kind: 'commentary',
           id: 'matt7-judge-not',
           html:
-            '"Judge not, that ye be not judged." This is not a call to ignore evil or to pretend all things are equally valid. Rather, it is a call to humility about our own spiritual state. We are prone to see the speck in our brother&apos;s eye while missing the beam in our own. We judge harshly what we overlook in ourselves. Jesus calls for a kind of spiritual self-awareness that precedes criticism of others. Deal with your own heart first. Then, from a position of honesty and humility, you are in a place to help others.',
+            '"Judge not, that ye be not judged."[res:intertextual-judge-not] This is not a call to ignore evil or to pretend all things are equally valid. Rather, it is a call to humility about our own spiritual state. We are prone to see the speck in our brother&apos;s eye while missing the beam in our own. We judge harshly what we overlook in ourselves. Jesus calls for a kind of spiritual self-awareness that precedes criticism of others. Deal with your own heart first. Then, from a position of honesty and humility, you are in a place to help others.',
         },
         {
           kind: 'commentary',
@@ -159,6 +159,33 @@ export const MATTHEW_7: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Matthew 7 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'intertextual-judge-not',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Judge Not — OT Parallels',
+      url: 'https://intertextual.bible/text/matthew-7.1',
+      description: 'Cross-references to Old Testament teachings on judgment and discernment that inform Jesus&apos; teaching on non-judgmentalism.',
+    },
+    {
+      id: 'bibleodyssey-golden-rule',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Golden Rule',
+      url: 'https://www.bibleodyssey.org/dictionary/golden-rule/',
+      description: 'Analysis of Matthew 7:12 as a summary of the entire law and prophets, and its parallels across religious traditions.',
+    },
+    {
+      id: 'sefaria-psalms-40',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 40:6–8 — Do Your Will',
+      url: 'https://www.sefaria.org/Psalms.40.6-8',
+      description: 'A psalm that undergirds Jesus&apos; emphasis on doing God&apos;s will rather than empty ritual sacrifice.',
+    },
+  ],
 
   hasHebrew: false,
 };

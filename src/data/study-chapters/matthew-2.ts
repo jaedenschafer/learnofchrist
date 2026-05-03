@@ -47,7 +47,7 @@ export const MATTHEW_2: RichChapterContent = {
           kind: 'commentary',
           id: 'matt2-wise-men',
           html:
-            'The wise men are outsiders—Gentiles from distant lands—yet they are the first to recognize Jesus as King. They have no access to Israel&apos;s scriptures, no covenant heritage, no reason to believe. And yet a star draws them. Matthew uses this to show us that the kingship of Jesus is not a parochial Jewish claim. It is universal. Kings will come from afar to honor Him. The nations will eventually bow.',
+            'The wise men are outsiders—Gentiles from distant lands—yet they are the first to recognize Jesus as King. They have no access to Israel&apos;s scriptures, no covenant heritage, no reason to believe. And yet a star draws them[res:bibleodyssey-magi]. Matthew uses this to show us that the kingship of Jesus is not a parochial Jewish claim. It is universal. Kings will come from afar to honor Him. The nations will eventually bow.',
         },
         {
           kind: 'commentary',
@@ -110,7 +110,7 @@ export const MATTHEW_2: RichChapterContent = {
           kind: 'commentary',
           id: 'matt2-egypt',
           html:
-            'Jesus is hidden in Egypt—the ancient enemy of Israel, the place of bondage from which the Lord once delivered His people. Now the deliverer Himself must flee there for safety. Matthew sees this as fulfilling the prophecy "Out of Egypt have I called my son." The pattern of Israel&apos;s redemption is recapitulated in Jesus. He will be called out of Egypt just as Israel was, called to His own land, called to His destiny.',
+            'Jesus is hidden in Egypt—the ancient enemy of Israel, the place of bondage from which the Lord once delivered His people. Now the deliverer Himself must flee there for safety. Matthew sees this as fulfilling the prophecy "Out of Egypt have I called my son."[res:bibleodyssey-egypt-archaeology] The pattern of Israel&apos;s redemption is recapitulated in Jesus. He will be called out of Egypt just as Israel was, called to His own land, called to His destiny.',
         },
         {
           kind: 'commentary',
@@ -200,6 +200,33 @@ export const MATTHEW_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Matthew 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-magi',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Magi and Persian Astronomy',
+      url: 'https://www.bibleodyssey.org/dictionary/magi/',
+      description: 'Scholarly entry on the wise men, their origins, astronomical knowledge, and role in Matthew&apos;s nativity account.',
+    },
+    {
+      id: 'bibleodyssey-egypt-archaeology',
+      kind: 'archaeology',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Bethlehem Archaeology',
+      url: 'https://www.bibleodyssey.org/dictionary/bethlehem/',
+      description: 'Archaeological evidence for Bethlehem as a settlement in the first century and its significance in Matthew&apos;s gospel.',
+    },
+    {
+      id: 'bibleodyssey-herod',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Herod the Great',
+      url: 'https://www.bibleodyssey.org/dictionary/herod-the-great/',
+      description: 'Historical and biblical context for King Herod, his reign, and the threat he posed to the newborn Jesus.',
+    },
+  ],
 
   hasHebrew: false,
 };

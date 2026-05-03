@@ -60,7 +60,7 @@ export const MATTHEW_6: RichChapterContent = {
           kind: 'commentary',
           id: 'matt6-lords-prayer',
           html:
-            'Jesus then teaches the prayer that bears His name. It begins with recognition: "Our Father which art in heaven, Hallowed be thy name." Before petition comes worship. The name of God is holy and must be honored. Then comes the petition for the kingdom: "Thy kingdom come. Thy will be done in earth, as it is in heaven." The disciple seeks not first his own comfort but the coming of God&apos;s reign and the alignment of earth with heaven&apos;s values. Only then come petitions for personal need: bread, forgiveness, protection.',
+            'Jesus then teaches the prayer that bears His name. It begins with recognition: "Our Father which art in heaven, Hallowed be thy name."[res:intertextual-lords-prayer] Before petition comes worship. The name of God is holy and must be honored. Then comes the petition for the kingdom: "Thy kingdom come. Thy will be done in earth, as it is in heaven." The disciple seeks not first his own comfort but the coming of God&apos;s reign and the alignment of earth with heaven&apos;s values. Only then come petitions for personal need: bread, forgiveness, protection.',
         },
         {
           kind: 'greek',
@@ -166,6 +166,33 @@ export const MATTHEW_6: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Matthew 6 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'intertextual-lords-prayer',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Lord&apos;s Prayer — OT Parallels',
+      url: 'https://intertextual.bible/text/matthew-6.9',
+      description: 'Cross-references showing how the Lord&apos;s Prayer draws on Old Testament prayers and the covenant tradition.',
+    },
+    {
+      id: 'sefaria-exodus-20-3-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 20:3–4 — No Other Gods',
+      url: 'https://www.sefaria.org/Exodus.20.3-4',
+      description: 'The first and second commandments, underlying Jesus&apos; teaching on divided loyalties and idolatry.',
+    },
+    {
+      id: 'bibleodyssey-prayer',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Prayer in Early Christianity',
+      url: 'https://www.bibleodyssey.org/dictionary/prayer/',
+      description: 'Survey of prayer practices and theology in first-century Jewish Christianity and the place of the Lord&apos;s Prayer.',
+    },
+  ],
 
   hasHebrew: false,
 };
