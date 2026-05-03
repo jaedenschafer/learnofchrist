@@ -52,13 +52,13 @@ export const EXODUS_34: RichChapterContent = {
           kind: 'commentary',
           id: 'c-new-tablets',
           html:
-            'Moses must cut the stone himself. God is not going to hand him something he can simply receive — he will participate in the repair. After covenant-breaking, there is work ahead. But God says He will write on the new stone, just as He did on the first.',
+            'Moses must cut the stone himself. God is not going to hand him something he can simply receive — he will participate in the repair. After covenant-breaking, there is work ahead. But God says He will write on the new stone, just as He did on the first[res:second-tablets-text].',
         },
         {
           kind: 'commentary',
           id: 'c-words-restored',
           html:
-            'The same words will be restored. The covenant is not replaced; it is renewed. This is mercy at the deepest level: not erasing what happened, but writing the law again into a people who have betrayed it.',
+            'The same words will be restored. The covenant is not replaced; it is renewed. This is mercy at the deepest level: not erasing what happened, but writing the law again into a people who have betrayed it[res:face-god].',
         },
         {
           kind: 'commentary',
@@ -660,6 +660,26 @@ export const EXODUS_34: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 34:6–7 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'second-tablets-text',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Second Tablets',
+      url: 'https://www.sefaria.org/Exodus.34',
+      description: 'Hebrew text on covenant renewal.',
+    },
+    {
+      id: 'face-god',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Face of God',
+      url: 'https://www.bibleodyssey.org/dictionary/face/',
+      description: 'Theological meaning of seeing divine face.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -43,7 +43,7 @@ export const EXODUS_33: RichChapterContent = {
           kind: 'commentary',
           id: 'c-depart',
           html:
-            'God is sending Israel out to the land He promised—but notice: He keeps the promise while withdrawing Himself. The gift of land is not cancelled, but His presence is. They will get what they were promised; they will not get what they truly needed.',
+            'God is sending Israel out to the land He promised—but notice: He keeps the promise while withdrawing Himself. The gift of land is not cancelled, but His presence is. They will get what they were promised; they will not get what they truly needed[res:glory-presence].',
         },
         {
           kind: 'scripture',
@@ -63,7 +63,7 @@ export const EXODUS_33: RichChapterContent = {
           kind: 'commentary',
           id: 'c-angel-placeholder',
           html:
-            'An angel will go in God&apos;s place. Protection and power will still come, but mediated—at a distance. The face-to-face intimacy of Exodus 33:11 will not be routine anymore; it will be rare and hard-won.',
+            'An angel will go in God&apos;s place. Protection and power will still come, but mediated—at a distance. The face-to-face intimacy of Exodus 33:11 will not be routine anymore; it will be rare and hard-won[res:theophany].',
         },
         {
           kind: 'scripture',
@@ -623,6 +623,26 @@ export const EXODUS_33: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 33:20–22 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'glory-presence',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Moses Sees God&apos;s Glory',
+      url: 'https://www.sefaria.org/Exodus.33',
+      description: 'Hebrew text on the vision and divine name.',
+    },
+    {
+      id: 'theophany',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Theophany & Divine Encounter',
+      url: 'https://www.bibleodyssey.org/dictionary/theophany/',
+      description: 'Study of God&apos;s self-revelation.',
+    },
+  ],
 
   hasHebrew: true,
 };

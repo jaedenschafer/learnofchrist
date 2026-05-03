@@ -166,6 +166,80 @@ export const GENESIS_10: RichChapterContent = {
                 t('And Resen between Nineveh and Calah: the same is a great city.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen10-nimrod-end',
+          html:
+            'Nimrod&apos;s empire spans from Babel to the great cities of Assyria. The text catalogs his dominion—Nineveh, Rehoboth, Calah, Resen—a dynasty built on conquest and power. But now the focus shifts. The next verses move south from Mesopotamia to Egypt and the Canaanite coastal lands. Each branch of Ham&apos;s line shaped a different corner of the world Israel will enter.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
+            {
+              number: 13,
+              spans: [
+                t('And Mizraim begat Ludim, and Anamim, and Lehabim, and Naphtuhim,'),
+              ],
+            },
+            {
+              number: 14,
+              spans: [
+                t('And Pathrusim, and Casluhim, (out of whom came the Philistines,) and Caphtorim.'),
+              ],
+            },
+            {
+              number: 15,
+              spans: [
+                t('And Canaan begat Sidon his firstborn, and '),
+                hg('Heth', 'c-canaan-peoples'),
+                t(','),
+              ],
+            },
+            {
+              number: 16,
+              spans: [
+                t('And the Jebusite, and the Amorite, and the Girgasite,'),
+              ],
+            },
+            {
+              number: 17,
+              spans: [
+                t('And the Hivite, and the Arkite, and the Sinite,'),
+              ],
+            },
+            {
+              number: 18,
+              spans: [
+                t('And the Arvadite, and the Zemarite, and the Hamathite: and afterward were the families of the Canaanites spread abroad.'),
+              ],
+            },
+            {
+              number: 19,
+              spans: [
+                t('And the border of the Canaanites was from Sidon, as thou comest to Gerar, unto Gaza; as thou goest, unto Sodom, and Gomorrah, and Admah, and Zeboim, even unto Lasha.'),
+              ],
+            },
+            {
+              number: 20,
+              spans: [
+                t('These are the sons of Ham, after their families, by their tongues, in their countries, and in their nations.'),
+              ],
+            },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen10-mid1',
+          html:
+            'Nimrod&apos;s empire spreads across Mesopotamia—from Babylon to Assyria, a dynasty built on might. But now the text turns south. From the hunter and his cities, we move to the kingdoms of Egypt and the peoples who will inhabit Canaan. Each branch of Ham&apos;s line shapes a different part of the world Israel will enter.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             {
               number: 13,
               spans: [
@@ -222,7 +296,7 @@ export const GENESIS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'c-ham-list',
           html:
-            'Ham\'s sons map to the ancient world as it stood: Cush (Ethiopia, Nubia), Mizraim (Egypt — the name itself is Hebrew for Egypt), Put (Libya, North Africa), and Canaan. These were the peoples Israel would most directly encounter — Egypt as a place of both refuge and slavery, the Canaanites as the inhabitants of the Promised Land.',
+            'Ham&apos;s sons map to the ancient world as it stood: Cush (Ethiopia, Nubia), Mizraim (Egypt — the name itself is Hebrew for Egypt), Put (Libya, North Africa), and Canaan. These were the peoples Israel would most directly encounter — Egypt as a place of both refuge and slavery, the Canaanites as the inhabitants of the Promised Land.',
         },
         {
           kind: 'commentary',

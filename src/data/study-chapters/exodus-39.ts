@@ -41,7 +41,7 @@ export const EXODUS_39: RichChapterContent = {
           kind: 'commentary',
           id: 'c-service-garments',
           html:
-            'After the sin at the golden calf, after the breaking of the tablets, Israel begins again. The work is not hurried or sloppy. It is careful: blue, purple, scarlet — the same colors used in the tabernacle itself. These garments are woven with intention. They are not merely functional; they are prayers in thread and dye.',
+            'After the sin at the golden calf, after the breaking of the tablets, Israel begins again. The work is not hurried or sloppy. It is careful: blue, purple, scarlet — the same colors used in the tabernacle itself. These garments are woven with intention. They are not merely functional; they are prayers in thread and dye[res:vestments].',
         },
         {
           kind: 'scripture',
@@ -84,7 +84,7 @@ export const EXODUS_39: RichChapterContent = {
           kind: 'commentary',
           id: 'c-shoulders',
           html:
-            'The ephod rests on the priest&apos;s shoulders. In Scripture, the shoulder is the place of strength and kingship—"the government shall be upon his shoulder" (Isaiah 9:6). The priest bears the work. He does not merely recite it; he wears the weight and the privilege of standing before God.',
+            'The ephod rests on the priest&apos;s shoulders. In Scripture, the shoulder is the place of strength and kingship—"the government shall be upon his shoulder" (Isaiah 9:6). The priest bears the work. He does not merely recite it; he wears the weight and the privilege of standing before God[res:breastplate].',
         },
         {
           kind: 'scripture',
@@ -415,6 +415,26 @@ export const EXODUS_39: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 39 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'vestments',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Priestly Vestments',
+      url: 'https://www.sefaria.org/Exodus.39',
+      description: 'Hebrew text on construction of garments.',
+    },
+    {
+      id: 'breastplate',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Breastplate of Judgment',
+      url: 'https://www.bibleodyssey.org/dictionary/breastplate/',
+      description: 'Urim and Thummim and priestly role.',
+    },
+  ],
 
   hasHebrew: true,
 };

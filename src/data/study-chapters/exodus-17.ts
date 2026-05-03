@@ -60,7 +60,7 @@ export const EXODUS_17: RichChapterContent = {
           kind: 'commentary',
           id: 'rephidim-place',
           html:
-            'Rephidim is a place with no water—a stopping place between the wilderness of Sin and Mount Sinai, where Israel will soon receive the Law. The pattern of this wilderness journey is becoming clear: Israel moves from one place to another on God&apos;s command, and at each stop discovers a new need it cannot solve. Not thirst, water appears. Not hunger, bread falls. Not enemies, God fights. The wilderness is a school where Israel learns that dependence on God is not optional but the only currency that purchases survival.',
+            'Rephidim is a place with no water—a stopping place between the wilderness of Sin and Mount Sinai, where Israel will soon receive the Law. The pattern of this wilderness journey is becoming clear: Israel moves from one place to another on God&apos;s command, and at each stop discovers a new need it cannot solve. Not thirst, water appears. Not hunger, bread falls. Not enemies, God fights. The wilderness is a school where Israel learns that dependence on God is not optional but the only currency that purchases survival[res:water-rock].',
         },
         {
           kind: 'carry',
@@ -105,7 +105,7 @@ export const EXODUS_17: RichChapterContent = {
           kind: 'commentary',
           id: 'chide-comment',
           html:
-            'Israel does not ask God. They attack Moses. The pattern of murmuring in exodus is always the same: the moment a need arrives, the people forget who God is and blame the leader. This is not Israel&apos;s stupidity. This is human nature when it is afraid. Fear makes accusers of us. When we are thirsty or hungry or threatened, our first instinct is not to pray, but to find someone to blame. The irony—which the text does not hide—is that Moses is the one who will intercede with God for them. Their words of accusation are being spoken to the very person who stands between them and judgment.',
+            'Israel does not ask God. They attack Moses. The pattern of murmuring in exodus is always the same: the moment a need arrives, the people forget who God is and blame the leader. This is not Israel&apos;s stupidity. This is human nature when it is afraid. Fear makes accusers of us. When we are thirsty or hungry or threatened, our first instinct is not to pray, but to find someone to blame. The irony—which the text does not hide—is that Moses is the one who will intercede with God for them. Their words of accusation are being spoken to the very person who stands between them and judgment[res:meribah-massah].',
         },
         {
           kind: 'scripture',
@@ -439,6 +439,26 @@ export const EXODUS_17: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 17 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'water-rock',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Water from Rock',
+      url: 'https://www.sefaria.org/Exodus.17',
+      description: 'Hebrew text on the miracle at Meribah.',
+    },
+    {
+      id: 'meribah-massah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Meribah & Massah',
+      url: 'https://www.bibleodyssey.org/dictionary/meribah/',
+      description: 'Significance of testing and provision.',
+    },
+  ],
 
   hasHebrew: true,
 };

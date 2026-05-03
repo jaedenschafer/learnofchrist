@@ -51,13 +51,13 @@ export const EXODUS_23: RichChapterContent = {
           kind: 'commentary',
           id: 'ex23-false',
           html:
-            'A false report can destroy without ever being true. The command is not to put your hand with the wicked — not to be present when they do it, not to stay silent, not to lend your voice. Witness is a covenant word. To testify falsely is to break the covenant structure of the community itself.',
+            'A false report can destroy without ever being true. The command is not to put your hand with the wicked — not to be present when they do it, not to stay silent, not to lend your voice. Witness is a covenant word. To testify falsely is to break the covenant structure of the community itself[res:justice-festivals].',
         },
         {
           kind: 'commentary',
           id: 'ex23-multitude',
           html:
-            'This may be the hardest law to keep in any age. Do not follow the many to do evil. Do not let the crowd pull your tongue in a direction justice doesn&apos;t go. The pressure of a multitude is almost irresistible, yet God asks for judgment that stands alone if it must.',
+            'This may be the hardest law to keep in any age. Do not follow the many to do evil. Do not let the crowd pull your tongue in a direction justice doesn&apos;t go. The pressure of a multitude is almost irresistible, yet God asks for judgment that stands alone if it must[res:covenant-code-full].',
         },
         {
           kind: 'commentary',
@@ -653,6 +653,26 @@ export const EXODUS_23: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 23 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'justice-festivals',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 23: Justice & Festivals',
+      url: 'https://www.sefaria.org/Exodus.23',
+      description: 'Laws on judges, festivals, and promises.',
+    },
+    {
+      id: 'covenant-code-full',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Covenant Code Overview',
+      url: 'https://www.sefaria.org/Exodus.20-23',
+      description: 'Complete code with Hebrew and commentary.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -37,6 +37,18 @@ export const ECCLESIASTES_9: RichChapterContent = {
             plain(4, 'For to him that is joined to all the living there is hope: for a living dog is better than a dead lion.'),
             plain(5, 'For the living know that they shall die: but the dead know not any thing, neither have they any more a reward; for the memory of them is forgotten.'),
             plain(6, 'Also their love, and their hatred, and their envy, is now perished; neither have they any more a portion for ever in any thing that is done under the sun.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ecc9-death-leveler-living-advantage',
+          html:
+            'The Preacher establishes the problem: death is universal and final. Yet here lies the pivot point. The dead know nothing, have no reward, are forgotten. But this observation—that death is the great leveler—contains within it a hidden affirmation: the living still have something. They have awareness, choice, the capacity to act. What the dead have lost, the living possess. And this possession demands response.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(7, 'Go thy way, therefore, and eat thy bread with joy, and drink thy wine with a merry heart; for God now accepteth thy works.'),
             plain(8, 'Let thy garments be always white; and let thy head lack no ointment.'),
             plain(9, 'Live joyfully with the wife whom thou lovest all the days of the life of thy vanity, which he hath given thee under the sun, all the days of thy vanity: for that is thy portion in this life, and in thy labour which thou takest under the sun.'),

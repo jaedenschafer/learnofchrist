@@ -95,6 +95,17 @@ export const PROVERBS_4: RichChapterContent = {
             plain(17, 'For they eat the bread of wickedness, and drink the wine of violence.'),
             plain(18, 'But the path of the just is as the shining light, that shineth more and more unto the perfect day.'),
             plain(19, 'The way of the wicked is as darkness: they know not at what they stumble.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov4-two-paths-contrast',
+          html: 'The contrast between the two paths is absolute. The wicked labor at evil, finding no rest, unable to sleep except after causing harm. They consume "bread of wickedness" and "wine of violence"—their very sustenance is evil. By contrast, the path of the just "shineth more and more unto the perfect day"—an image of progressive illumination, of growing clarity, of increasing brightness. The just live toward the light. The wicked stumble in darkness. The choice defines the destiny.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(20, 'My son, attend to my words; incline thine ear unto my sayings.'),
             plain(21, 'Let them not depart from thine eyes; keep them in the midst of thine heart.'),
             plain(22, 'For they are life unto those that find them, and health to all their flesh.'),

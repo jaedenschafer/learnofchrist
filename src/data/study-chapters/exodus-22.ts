@@ -29,6 +29,25 @@ export const EXODUS_22: RichChapterContent = {
     ref: 'Exodus 22 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'restitution',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 22: Justice',
+      url: 'https://www.sefaria.org/Exodus.22',
+      description: 'Laws on theft, damage, and compensation.',
+    },
+    {
+      id: 'nt-justice',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Justice & Restitution in NT',
+      url: 'https://www.bibleodyssey.org/dictionary/justice/',
+      description: 'NT engagement with restitution principle.',
+    },
+  ],
+
   sections: [
     /* ─── Exodus 22:1–4 — Theft and Restitution ──────────────────────── */
     {
@@ -55,7 +74,7 @@ export const EXODUS_22: RichChapterContent = {
           kind: 'commentary',
           id: 'c-fivefold',
           html:
-            'The thief must make five-fold restitution — not because the law is cruel, but because the victim has lost not only the animal, but the labor, the livelihood, the future it would have produced. Restitution is not punishment; it is <em>restoration</em>. The debt is what it takes to make the person whole again.',
+            'The thief must make five-fold restitution — not because the law is cruel, but because the victim has lost not only the animal, but the labor, the livelihood, the future it would have produced. Restitution is not punishment; it is <em>restoration</em>. The debt is what it takes to make the person whole again[res:restitution].',
         },
         {
           kind: 'scripture',
@@ -87,7 +106,7 @@ export const EXODUS_22: RichChapterContent = {
           kind: 'commentary',
           id: 'c-homeowner',
           html:
-            'The law distinguishes between night-theft and day-theft. At night, a man defending his home who kills a thief has done no wrong — the darkness makes intent unknowable. By day, the killing is unjustified, because the person could be apprehended another way. The law protects not only property, but life, by keeping force proportional to the true harm.',
+            'The law distinguishes between night-theft and day-theft. At night, a man defending his home who kills a thief has done no wrong — the darkness makes intent unknowable. By day, the killing is unjustified, because the person could be apprehended another way. The law protects not only property, but life, by keeping force proportional to the true harm[res:nt-justice].',
         },
         {
           kind: 'carry',

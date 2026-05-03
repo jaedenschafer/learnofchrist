@@ -42,7 +42,7 @@ export const EXODUS_15: RichChapterContent = {
           kind: 'commentary',
           id: 'c-shir',
           html:
-            'The Hebrew word <em>shir</em> (song) comes from a root meaning to sing out, to break into sound. This is not a quiet reflection. This is a people bursting into voice, the sound of someone who has just been delivered from the jaws of death.',
+            'The Hebrew word <em>shir</em> (song) comes from a root meaning to sing out, to break into sound. This is not a quiet reflection. This is a people bursting into voice, the sound of someone who has just been delivered from the jaws of death[res:song-moses-full].',
         },
         {
           kind: 'hebrew',
@@ -81,7 +81,7 @@ export const EXODUS_15: RichChapterContent = {
           kind: 'commentary',
           id: 'c-dwelling',
           html:
-            'To &ldquo;prepare a habitation&rdquo; for God is to make Him a home—in the tabernacle soon to come, yes, but deeper: in the hearts of a people who have learned that He keeps His word. Israel has just watched the sea close over their enemies. Now they will build Him a dwelling.',
+            'To &ldquo;prepare a habitation&rdquo; for God is to make Him a home—in the tabernacle soon to come, yes, but deeper: in the hearts of a people who have learned that He keeps His word. Israel has just watched the sea close over their enemies. Now they will build Him a dwelling[res:habakkuk-parallel].',
         },
         {
           kind: 'commentary',
@@ -521,6 +521,26 @@ export const EXODUS_15: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 15 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'song-moses-full',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 15: Song of Moses',
+      url: 'https://www.sefaria.org/Exodus.15',
+      description: 'Hebrew text and rabbinic commentary.',
+    },
+    {
+      id: 'habakkuk-parallel',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Habakkuk 3 & Exodus 15 Parallels',
+      url: 'https://intertextual.bible/',
+      description: 'Comparison of theophany and victory poetry.',
+    },
+  ],
 
   hasHebrew: true,
 };

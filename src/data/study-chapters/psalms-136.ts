@@ -83,6 +83,18 @@ export const PSALMS_136: RichChapterContent = {
             plain(14, 'And made Israel to pass through the midst of it: for his mercy endureth for ever:'),
             plain(15, 'But overthrew Pharaoh and his host in the Red sea: for his mercy endureth for ever.'),
             plain(16, 'To him which led his people through the wilderness: for his mercy endureth for ever.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps136-mid',
+          html:
+            'The exodus is complete—Egypt struck, Israel freed, Pharaoh destroyed, the wilderness journey begun. Now comes the conquest. From deliverance into freedom to the gift of a land, mercy endures through every turn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 136,
+          lines: [
             plain(17, 'To him which smote great kings: for his mercy endureth for ever:'),
             plain(18, 'And slew famous kings: for his mercy endureth for ever:'),
             plain(19, 'Sihon king of the Amorites: for his mercy endureth for ever:'),

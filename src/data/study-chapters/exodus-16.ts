@@ -30,6 +30,25 @@ export const EXODUS_16: RichChapterContent = {
     ref: 'Exodus 16 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'manna',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Manna in Exodus',
+      url: 'https://www.sefaria.org/Exodus.16',
+      description: 'Hebrew text and interpretation of manna.',
+    },
+    {
+      id: 'wilderness-food',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Manna & Wilderness Food',
+      url: 'https://www.bibleodyssey.org/dictionary/manna/',
+      description: 'Study of manna theology and sustenance.',
+    },
+  ],
+
   sections: [
     /* ─── Exodus 16:1–3 — The Complaint ───────────────────────────────── */
     {
@@ -54,7 +73,7 @@ export const EXODUS_16: RichChapterContent = {
           kind: 'commentary',
           id: 'exodus-sin',
           html:
-            'The wilderness of Sin is not a metaphor for sinfulness — it is a place (near modern Sinai). But the name carries weight. This is where Israel will learn what they really want, what they trust, and who their God truly is.',
+            'The wilderness of Sin is not a metaphor for sinfulness — it is a place (near modern Sinai). But the name carries weight. This is where Israel will learn what they really want, what they trust, and who their God truly is[res:manna].',
         },
 
         {
@@ -81,7 +100,7 @@ export const EXODUS_16: RichChapterContent = {
           kind: 'commentary',
           id: 'c-complain',
           html:
-            'Three days ago — just three days — they watched the Red Sea close on their enemies. They sang about God&apos;s strength and His right hand. But hunger is a short memory. The body&apos;s need drowns out the soul&apos;s witness. They do not ask God; they accuse Moses. And in accusing him, they are really accusing God: <em>You brought us out here to die.</em>',
+            'Three days ago — just three days — they watched the Red Sea close on their enemies. They sang about God&apos;s strength and His right hand. But hunger is a short memory. The body&apos;s need drowns out the soul&apos;s witness. They do not ask God; they accuse Moses. And in accusing him, they are really accusing God: <em>You brought us out here to die[res:wilderness-food].</em>',
         },
         {
           kind: 'carry',

@@ -37,6 +37,25 @@ export const EXODUS_19: RichChapterContent = {
     ref: 'Exodus 19 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sinai',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Sinai Theophany',
+      url: 'https://www.bibleodyssey.org/dictionary/sinai/',
+      description: 'Study of the mountain and divine appearance.',
+    },
+    {
+      id: 'covenant-formula',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 19: Covenant',
+      url: 'https://www.sefaria.org/Exodus.19',
+      description: 'Hebrew text on covenantal election.',
+    },
+  ],
+
   sections: [
     /* ─── Exodus 19:1–2 — The Journey Ends ───────────────────────────── */
     {
@@ -80,7 +99,7 @@ export const EXODUS_19: RichChapterContent = {
           kind: 'commentary',
           id: 'c-desert-arrived',
           html:
-            'Three months. Long enough for thirst to set in, for the newness of freedom to wear thin, for the people to wonder if Moses had lost his mind leading them into a wasteland. They have no city. They have no home yet. They have only the word that God would be with them and the cloud that moves ahead. Then the cloud stops. They pitch camp. And what comes next is not rest — it is a call.',
+            'Three months. Long enough for thirst to set in, for the newness of freedom to wear thin, for the people to wonder if Moses had lost his mind leading them into a wasteland. They have no city. They have no home yet. They have only the word that God would be with them and the cloud that moves ahead. Then the cloud stops. They pitch camp. And what comes next is not rest — it is a call[res:sinai].',
         },
         {
           kind: 'carry',
@@ -142,7 +161,7 @@ export const EXODUS_19: RichChapterContent = {
           kind: 'commentary',
           id: 'c-eagles-wings',
           html:
-            'The covenant begins not with demand but with reminder. "I carried you on eagles&apos; wings." God does not start by asking for obedience. He starts by saying: Remember what I have done. Remember how I protected you. The covenant at Sinai is not an employer handing a slave a contract to sign. It is a parent who has saved a child saying, "Now that I have proven my love, will you trust me?" All obedience in scripture that matters begins here: not fear of punishment, but response to love already given.',
+            'The covenant begins not with demand but with reminder. "I carried you on eagles&apos; wings." God does not start by asking for obedience. He starts by saying: Remember what I have done. Remember how I protected you. The covenant at Sinai is not an employer handing a slave a contract to sign. It is a parent who has saved a child saying, "Now that I have proven my love, will you trust me?" All obedience in scripture that matters begins here: not fear of punishment, but response to love already given[res:covenant-formula].',
         },
         {
           kind: 'hebrew',

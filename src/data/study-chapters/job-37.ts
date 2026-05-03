@@ -41,6 +41,18 @@ export const JOB_37: RichChapterContent = {
             plain(4, 'After it a voice roareth: he thundereth with the voice of his excellency; and he will not stay them when his voice is heard.'),
             plain(5, 'God thundereth marvellously with his voice; great things doeth he, which we cannot comprehend.'),
             plain(6, 'For he saith to the snow, Be thou on the earth; likewise to the small rain, and to the great rain of his strength.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job37-mid1',
+          html:
+            'God commands the elements as a king commands his subjects. Snow falls at God&apos;s word. Rain comes by God&apos;s decree. The power that speaks creation into being is still speaking, still directing all things. And then: God halts all human labor.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 37,
+          lines: [
             plain(7, 'He sealeth up the hand of every man; that all men may know his work.'),
             plain(8, 'Then the beasts go into dens, and remain in their places.'),
             plain(9, 'Out of the south cometh the whirlwind: and cold out of the north.'),

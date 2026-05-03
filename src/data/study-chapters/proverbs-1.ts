@@ -159,6 +159,17 @@ export const PROVERBS_1: RichChapterContent = {
             plain(25, 'But ye have set at nought all my counsel, and would none of my reproof:'),
             plain(26, 'I also will laugh at your calamity; I will mock when your fear cometh;'),
             plain(27, 'When your fear cometh as desolation, and your destruction cometh as a whirlwind; when distress and anguish cometh upon you.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov1-wisdom-offers-rejected',
+          html: 'Wisdom&apos;s offer is public, and her rejection is progressive. First she calls. Then she is refused. The simple love their simplicity too much to change. But something darker emerges: there is consequence. The mockery Wisdom spoke of is not external judgment but a pivot point—from invitation to inevitable unfolding. When fear finally comes, there is no protection.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(28, 'Then shall they call upon me, but I will not answer; they shall seek me early, but they shall not find me:'),
             plain(29, 'For that they hated knowledge, and did not choose the fear of the Lord:'),
             plain(30, 'They would none of my counsel: they despised all my reproof.'),

@@ -36,6 +36,18 @@ export const PSALMS_29: RichChapterContent = {
             plain(4, 'The voice of the Lord is powerful; the voice of the Lord is full of majesty.'),
             plain(5, 'The voice of the Lord breaketh the cedars; yea, the Lord breaketh the cedars of Lebanon.'),
             plain(6, 'He maketh them also to skip like a calf; Lebanon and Sirion like a young unicorn.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms29-mid-voice',
+          html:
+            'The call to worship introduces the subject: the voice of God. His power breaks mountains. His word reshapes creation. Now the psalm deepens—showing the full scope of that voice as it moves through all of creation, touching everything, bending all things to His will.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 29,
+          lines: [
             plain(7, 'The voice of the Lord divideth the flames of fire.'),
             plain(8, 'The voice of the Lord shaketh the wilderness; the Lord shaketh the wilderness of Kadesh.'),
             plain(9, 'The voice of the Lord maketh the hinds to calve, and discovereth the forests: and in his temple doth every one speak of his glory.'),

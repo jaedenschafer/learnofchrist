@@ -40,6 +40,25 @@ export const EXODUS_14: RichChapterContent = {
     ref: 'Exodus 14 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'red-sea-crossing',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Red Sea: Geography & Theology',
+      url: 'https://www.bibleodyssey.org/dictionary/red-sea/',
+      description: 'Study of geography and the crossing narrative.',
+    },
+    {
+      id: 'song-moses',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Song of Moses',
+      url: 'https://www.sefaria.org/Exodus.15',
+      description: 'Hebrew poetry and commentary on the victory hymn.',
+    },
+  ],
+
   sections: [
     /* ─── Exodus 14:1–9 — The Trap ───────────────────────────────────────── */
     {
@@ -116,13 +135,13 @@ export const EXODUS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'c-entangled',
           html:
-            'God is telling Moses in advance exactly what Pharaoh will think: that Israel is trapped, caught between the sea and the wilderness with nowhere to run. It is a setup. God knows Pharaoh will follow. And that is precisely the point. Pharaoh&apos;s pursuit is not a problem to be solved; it is the stage on which God will perform His greatest sign. Israel feels hemmed in. God sees a display of His glory. That gap between what we see and what He is doing is where faith lives.',
+            'God is telling Moses in advance exactly what Pharaoh will think: that Israel is trapped, caught between the sea and the wilderness with nowhere to run. It is a setup. God knows Pharaoh will follow. And that is precisely the point. Pharaoh&apos;s pursuit is not a problem to be solved; it is the stage on which God will perform His greatest sign. Israel feels hemmed in. God sees a display of His glory. That gap between what we see and what He is doing is where faith lives[res:red-sea-crossing].',
         },
         {
           kind: 'commentary',
           id: 'geog-pihahiroth',
           html:
-            'The geography matters. Pi-hahiroth means "mouth of the gorges" — a narrow pass between mountains and water. It was a natural choke point, a place Israel could be penned. This is not an accident. God told them to camp there. The trap is set by God Himself.',
+            'The geography matters. Pi-hahiroth means "mouth of the gorges" — a narrow pass between mountains and water. It was a natural choke point, a place Israel could be penned. This is not an accident. God told them to camp there. The trap is set by God Himself[res:song-moses].',
         },
         {
           kind: 'christ',

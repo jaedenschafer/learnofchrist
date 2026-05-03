@@ -195,6 +195,18 @@ export const CHRONICLES_1_4: RichChapterContent = {
             plain(15, 'And the sons of Caleb the son of Jephunneh; Iru, Elah, and Naam: and the sons of Elah, even Kenaz.'),
             plain(16, 'And the sons of Jehaleleel; Ziph, and Ziphah, Tiria, and Asareel.'),
             plain(17, 'And the sons of Ezra were, Jether, and Mered, and Epher, and Jalon: and she bare Miriam, and Shammai, and Ishbah the father of Eshtemoa.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'chronicles-4-mid1',
+          html:
+            'The families recorded here did not merely survive; they left marks on the geography itself. Their names became place-names. Their crafts became the identity of regions. The genealogy shows us that a life is remembered not only by lineage but by contribution—what we build, what we create, where we leave our mark.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(18, 'And his wife Jehudijah bare Jered the father of Gedor, and Heber the father of Socho, and Jekuthiel the father of Zanoah. And these are the sons of Bithiah the daughter of Pharaoh, which Mered took.'),
             plain(19, 'And the sons of his wife Hodiah the sister of Naham, the father of Keilah the Garmite, and Eshtemoa the Maachathite.'),
             plain(20, 'And the sons of Shimon were, Amnon, and Rinnah, Ben-hanan, and Tilon. And the sons of Ishi were, Zoheth, and Ben-zoheth.'),

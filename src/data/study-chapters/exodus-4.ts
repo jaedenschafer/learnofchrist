@@ -31,6 +31,25 @@ export const EXODUS_4: RichChapterContent = {
     ref: 'Exodus 4 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'moses-calling',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Moses: The Calling',
+      url: 'https://www.bibleodyssey.org/dictionary/moses/',
+      description: 'The narrative of Moses&apos; encounter and commission.',
+    },
+    {
+      id: 'sefaria-exodus-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 4 Commentary',
+      url: 'https://www.sefaria.org/Exodus.4',
+      description: 'Rabbinic commentary on Moses&apos; signs and objections.',
+    },
+  ],
+
   sections: [
     /* ─── Exodus 4:1–9 — Three Signs Given ─────────────────────────────── */
     {
@@ -116,7 +135,7 @@ export const EXODUS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'c-rod-transform',
           html:
-            'The rod becomes a serpent — the very instrument of deception and rebellion. Yet Moses, afraid at first, is commanded to take it by the tail, and it becomes a rod again. The pattern is repeated: the second sign involves Moses&apos;s hand, the third involves water. Each time, what is familiar (a rod, a hand, water) is shown to be under God&apos;s command. Nothing in creation is autonomous.',
+            'The rod becomes a serpent — the very instrument of deception and rebellion. Yet Moses, afraid at first, is commanded to take it by the tail, and it becomes a rod again. The pattern is repeated: the second sign involves Moses&apos;s hand, the third involves water. Each time, what is familiar (a rod, a hand, water) is shown to be under God&apos;s command. Nothing in creation is autonomous [res:moses-calling].',
         },
         {
           kind: 'christ',
@@ -226,7 +245,7 @@ export const EXODUS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'c-not-eloquent',
           html:
-            'This is Moses&apos;s fourth objection. First, he said he was nobody. Then he asked who God is. Then he said the people won&apos;t believe him. Now he says he cannot speak. God&apos;s patience with Moses is unending, yet His answer to this objection is almost curt: Who made the mouth? Who makes people dumb or blind? I am the Lord. Moses&apos;s complaint is not met with reassurance. It is met with a question that reframes the whole problem.',
+            'This is Moses&apos;s fourth objection. First, he said he was nobody. Then he asked who God is. Then he said the people won&apos;t believe him. Now he says he cannot speak. God&apos;s patience with Moses is unending, yet His answer to this objection is almost curt: Who made the mouth? Who makes people dumb or blind? I am the Lord. Moses&apos;s complaint is not met with reassurance. It is met with a question that reframes the whole problem [res:sefaria-exodus-4].',
         },
 
         {

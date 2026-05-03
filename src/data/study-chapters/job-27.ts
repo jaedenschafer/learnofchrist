@@ -134,6 +134,18 @@ export const JOB_27: RichChapterContent = {
             plain(15, 'Those that remain of him shall be buried in death: and his widows shall not weep.'),
             plain(16, 'Though he heap up silver as the dust, and prepare raiment as the clay;'),
             plain(17, 'He may prepare it, but the just shall put it on, and the innocent shall divide the silver.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job27-mid1',
+          html:
+            'Job shows the fundamental reversal: the wicked heap up wealth, but the just inherit it. What the oppressor builds up, the righteous inherit. This is not merely loss—it is redistribution, correction, the upending of the false order.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 27,
+          lines: [
             plain(18, 'He buildeth his house as a moth, and as a booth that the keeper maketh.'),
             plain(19, 'The rich man shall lie down, but he shall not be gathered: he openeth his eyes, and he is not.'),
             plain(20, 'Terrors take hold on him as waters, a tempest stealeth him away in the night.'),

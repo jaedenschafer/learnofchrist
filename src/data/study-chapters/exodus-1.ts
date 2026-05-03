@@ -234,7 +234,7 @@ export const EXODUS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'ex1-cities',
           html:
-            'Pithom and Raamses: storage cities for Pharaoh&apos;s wealth, built on Hebrew backs. Slavery is made architectural. Yet even as the Hebrews build monuments to Pharaoh&apos;s power, they multiply—the real monument is the life that cannot be squeezed out of them.',
+            'Pithom and Raamses[res:met-egyptian-slavery]: storage cities for Pharaoh&apos;s wealth, built on Hebrew backs. Slavery is made architectural. Yet even as the Hebrews build monuments to Pharaoh&apos;s power, they multiply—the real monument is the life that cannot be squeezed out of them.',
         },
 
         {
@@ -349,7 +349,7 @@ export const EXODUS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'ex1-feared-god',
           html:
-            'The chapter pivots on these four words: the midwives feared God. Pharaoh had tried to make fear work his way—fear of his power, his armies, his authority over life and death. But there is a fear older, deeper, and more binding. The fear of God. It is the first named civil disobedience in scripture: ordinary people saying no to a ruler&apos;s command because they hear a higher voice. Not a revolt, not heroic defiance. Just a refusal born of awe.',
+            'The chapter pivots on these four words: the midwives feared God.[res:hebrew-midwives] Pharaoh had tried to make fear work his way—fear of his power, his armies, his authority over life and death. But there is a fear older, deeper, and more binding. The fear of God. It is the first named civil disobedience in scripture: ordinary people saying no to a ruler&apos;s command because they hear a higher voice. Not a revolt, not heroic defiance. Just a refusal born of awe.',
         },
         {
           kind: 'christ',
@@ -464,6 +464,26 @@ export const EXODUS_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 1 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'met-egyptian-slavery',
+      kind: 'archaeology',
+      source: 'Penn Museum',
+      label: 'Egyptian Slavery in Archaeology',
+      url: 'https://www.penn.museum/sites/expedition/',
+      description: 'Artifacts and context on labor systems in Middle Kingdom and New Kingdom Egypt.',
+    },
+    {
+      id: 'hebrew-midwives',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Midwives (Hebrew)',
+      url: 'https://www.bibleodyssey.org/dictionary/midwives/',
+      description: 'Examination of the role and agency of Shiphrah and Puah.',
+    },
+  ],
 
   hasHebrew: true,
 };

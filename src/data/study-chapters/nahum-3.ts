@@ -83,6 +83,17 @@ export const NAHUM_3: RichChapterContent = {
             plain(10, 'Yet was she carried away, she went into captivity: her young children also were dashed in pieces at the top of every street: and they cast lots for her honourable men, and all her great men were bound in chains.'),
             plain(11, 'Thou also shalt be drunken: thou shalt be hid, thou also shalt seek strength because of the enemy.'),
             plain(12, 'All thy strong holds shall be like fig trees with the firstripe figs: if they be shaken, they shall even fall into the mouth of the eater.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'nahum3-unshakeable',
+          html: 'Nineveh thinks her strongholds are unshakeable. But they are like fig trees with early-ripe fruit — when shaken, they fall into the mouth of the eater. All her fortifications will crumble. All her defenses will fail. This is what judgment on a city looks like in the biblical imagination.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(13, 'Behold, thy people in the midst of thee are women: the gates of thy land shall be set wide open unto thine enemies: the fire shall devour thy bars.'),
             plain(14, 'Draw thee waters for the siege, fortify thy strong holds: go into clay, and tread the morter, make strong the brick kiln.'),
             plain(15, 'There shall the fire devour thee; the sword shall cut thee off, it shall eat thee up like the cankerworm: make thyself many as the cankerworm, make thyself many as the locusts.'),
@@ -94,9 +105,9 @@ export const NAHUM_3: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'nahum3-noamon',
+          id: 'nahum3-gates-open',
           html:
-            'No-Amon was surrounded by water, protected by rivers and sea. She had the strength of Ethiopia and Egypt. She seemed unassailable. Yet she was carried away into captivity. If mighty No-Amon could fall, how can Nineveh think herself safe? The lesson is inescapable: no fortress is impregnable to God&apos;s judgment.',
+            'Nineveh&apos;s gates will be set wide open to her enemies. Fire will devour her bars. The symbols of strength and security will be consumed. The merchant city, wealthy and proud, will be conquered and burned. The finality is absolute.',
         },
         {
           kind: 'commentary',

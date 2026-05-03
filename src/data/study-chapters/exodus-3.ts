@@ -92,7 +92,7 @@ export const EXODUS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'fire-not-consumed-comment',
           html:
-            'The miraculous detail is almost thrown away. The fire does not consume. For centuries, the Church has read this as a foreshadowing: Gregory of Nyssa saw in it the image of Mary bearing the divine and remaining unharmed. Others saw in it the cross itself—the place where God&apos;s holiness, like fire, dwells in human flesh without destroying it. The Hebrew mind had no word for the miraculous that separated it from the meaning: a bush that burns without burning is not a magic trick, it is a sign of a presence no human category can contain or consume.',
+            'The miraculous detail is almost thrown away. The fire does not consume. For centuries, the Church has read this as a foreshadowing: Gregory of Nyssa saw in it the image of Mary bearing the divine and remaining unharmed. Others saw in it the cross itself—the place where God&apos;s holiness, like fire, dwells in human flesh without destroying it. The Hebrew mind had no word for the miraculous that separated it from the meaning: a bush that burns without burning is not a magic trick, it is a sign of a presence no human category can contain or consume [res:burning-bush].',
         },
         {
           kind: 'carry',
@@ -366,7 +366,7 @@ export const EXODUS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'i-am-meaning',
           html:
-            'What is God saying by refusing to be named? He is saying: <em>I am not a borrowed deity, not a god you have been worshiping in Egypt under another name, not a god you have negotiated with before.</em> I am not reducible to the category you think you understand. I am not manageable. I am not the kind of being whose essence you can capture and keep in a box. The only name I give you is a refusal, and the refusal is a gift—it means you will never get to the end of who I am, never run out of ways I can show up, never face a moment where I cannot meet it because I have already been categorized.',
+            'What is God saying by refusing to be named? He is saying: <em>I am not a borrowed deity, not a god you have been worshiping in Egypt under another name, not a god you have negotiated with before.</em> I am not reducible to the category you think you understand. I am not manageable. I am not the kind of being whose essence you can capture and keep in a box. The only name I give you is a refusal, and the refusal is a gift—it means you will never get to the end of who I am, never run out of ways I can show up, never face a moment where I cannot meet it because I have already been categorized [res:yhwh-name].',
         },
         {
           kind: 'christ',
@@ -487,6 +487,26 @@ export const EXODUS_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 3 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'burning-bush',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Burning Bush',
+      url: 'https://www.bibleodyssey.org/dictionary/burning-bush/',
+      description: 'Study of the theophany and divine calling.',
+    },
+    {
+      id: 'yhwh-name',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Name YHWH in Exodus 3',
+      url: 'https://www.sefaria.org/Exodus.3',
+      description: 'Hebrew text and interpretation of the divine name revealed.',
+    },
+  ],
 
   hasHebrew: true,
 };

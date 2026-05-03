@@ -39,6 +39,18 @@ export const PSALMS_90: RichChapterContent = {
             plain(6, 'In the morning it flourisheth, and groweth up; in the evening it is cut down, and withereth.'),
             plain(7, 'For we are consumed by thine anger, and by thy wrath are we troubled.'),
             plain(8, 'Thou hast set our iniquities before thee, our secret sins in the light of thy countenance.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps90-mid',
+          html:
+            'The psalm shifts from God&apos;s permanence to our perishability. Our days are consumed like smoke, but God remains. Teach us, Moses prays, to number our days—to live aware of death so we might live wise.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 90,
+          lines: [
             plain(9, 'For all our days are passed away in thy wrath: we spend our years as a tale that is told.'),
             plain(10, 'The days of our years are threescore years and ten; and if by reason of strength they be fourscore years, yet is their strength labour and sorrow; for it is soon cut off, and we fly away.'),
             plain(11, 'Who knoweth the power of thine anger? even according to thy fear, so is thy wrath.'),

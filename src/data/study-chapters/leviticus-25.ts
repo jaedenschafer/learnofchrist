@@ -324,6 +324,13 @@ export const LEVITICUS_25: RichChapterContent = {
                 t('Then let him count the years of the sale thereof, and restore the overplus unto the man to whom he sold it; that he may return unto his possession.'),
               ],
             },
+          ],
+        },
+        { kind: 'commentary', id: 'lev25-mid', html: 'The right to redeem is established. A man can buy back what he sold. But he must account for the years passed—the new buyer gets paid back fairly, and the seller returns to his land. The math is clean. Justice is proportional. Now comes the reality: what if he cannot afford to buy it back? Then the jubilee does it for him.' },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             {
               number: 28,
               spans: [

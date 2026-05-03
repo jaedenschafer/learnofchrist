@@ -74,7 +74,7 @@ export const EXODUS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'c-refrain',
           html:
-            'The refrain begins: "Let my people go, that they may serve me." It is not just a demand for freedom. It is an offer of purpose. Egypt had defined Israel as slaves; God defines them as worshipers.',
+            'The refrain begins: "Let my people go, that they may serve me." It is not just a demand for freedom. It is an offer of purpose. Egypt had defined Israel as slaves; God defines them as worshipers[res:plague-frogs].',
         },
         {
           kind: 'scripture',
@@ -104,7 +104,7 @@ export const EXODUS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'c-frogs-sign',
           html:
-            'Frogs are water creatures brought onto the land where they do not belong. They make noise in the darkness, they are unclean (Lev. 11:10), and they are impossible to contain — they slip through fingers and seep into every space. Pharaoh&apos;s orderly kingdom is about to become swarming chaos.',
+            'Frogs are water creatures brought onto the land where they do not belong. They make noise in the darkness, they are unclean (Lev. 11:10), and they are impossible to contain — they slip through fingers and seep into every space. Pharaoh&apos;s orderly kingdom is about to become swarming chaos[res:infestation-archaeology].',
         },
         {
           kind: 'hebrew',
@@ -542,4 +542,23 @@ export const EXODUS_8: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 8 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'plague-frogs',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Plagues: Amphibians & Insects',
+      url: 'https://www.bibleodyssey.org/dictionary/plagues/',
+      description: 'Commentary on the second and third plagues.',
+    },
+    {
+      id: 'infestation-archaeology',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Natural Disasters in Egypt',
+      url: 'https://www.britishmuseum.org/collection/',
+      description: 'Scholarly context on river phenomena and swarms.',
+    },
+  ],
 };

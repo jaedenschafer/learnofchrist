@@ -30,6 +30,25 @@ export const EXODUS_32: RichChapterContent = {
     ref: 'Exodus 32 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'golden-calf',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Golden Calf Incident',
+      url: 'https://www.bibleodyssey.org/dictionary/golden-calf/',
+      description: 'Study of apostasy and significance.',
+    },
+    {
+      id: 'apis-calf',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Apis Bull & Calf Worship',
+      url: 'https://www.britishmuseum.org/collection/',
+      description: 'Egyptian bull cult and Israelite syncretism.',
+    },
+  ],
+
   sections: [
     /* ─── Exodus 32:1–6 — The Making of the Calf ───────────────────────── */
     {
@@ -101,13 +120,13 @@ export const EXODUS_32: RichChapterContent = {
           kind: 'commentary',
           id: 'c-delayed',
           html:
-            'Moses isn&apos;t late; he is simply not back yet. Forty days is what God said it would take, and God keeps His word. But the people interpret delay as abandonment. The moment a visible guide disappears, fear rushes in — and the first thing fear does is make something to replace what it lost. Notice the speed: without Moses, they don&apos;t wait, they don&apos;t pray, they demand. What fills the absence of faith is almost always noise and urgency.',
+            'Moses isn&apos;t late; he is simply not back yet. Forty days is what God said it would take, and God keeps His word. But the people interpret delay as abandonment. The moment a visible guide disappears, fear rushes in — and the first thing fear does is make something to replace what it lost. Notice the speed: without Moses, they don&apos;t wait, they don&apos;t pray, they demand. What fills the absence of faith is almost always noise and urgency[res:golden-calf].',
         },
         {
           kind: 'commentary',
           id: 'c-calf-made',
           html:
-            'Aaron doesn&apos;t refuse. He collects the gold, fashions it, and makes a calf. Later he will tell Moses: &ldquo;I cast it into the fire, and there came out this calf&rdquo; (v. 24) — a stunning evasion. The calf just <em>happened</em> to come out; he had nothing to do with it. It is one of scripture&apos;s most graceful moments of observing blame-shifting without moralizing. The high priest, at the moment of Israel&apos;s first public sin, is already reaching for a story that makes him passive. We do the same. Addictions just happen. Words we regret just slip out. The choices we make keep happening to us.',
+            'Aaron doesn&apos;t refuse. He collects the gold, fashions it, and makes a calf. Later he will tell Moses: &ldquo;I cast it into the fire, and there came out this calf&rdquo; (v. 24) — a stunning evasion. The calf just <em>happened</em> to come out; he had nothing to do with it. It is one of scripture&apos;s most graceful moments of observing blame-shifting without moralizing. The high priest, at the moment of Israel&apos;s first public sin, is already reaching for a story that makes him passive. We do the same. Addictions just happen. Words we regret just slip out. The choices we make keep happening to us[res:apis-calf].',
         },
         {
           kind: 'hebrew',

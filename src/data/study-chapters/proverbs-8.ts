@@ -120,6 +120,17 @@ export const PROVERBS_8: RichChapterContent = {
             plain(27, 'When he prepared the heavens, I was there: when he set a compass upon the face of the depth:'),
             plain(28, 'When he established the clouds above: when he strengthened the fountains of the deep:'),
             plain(29, 'When he gave to the sea his decree, that the waters should not pass his commandment: when he marked out the foundations of the earth:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov8-eternal-wisdom',
+          html: 'Wisdom claims existence before creation itself. She was not invented or conceived by human thought. She was "possessed" by God "in the beginning"—set up from everlasting, before the earth existed, before the depths or fountains were formed. When God prepared the heavens, marked the foundations of the earth, established the clouds and fountains—wisdom was there. She is woven into the fabric of creation from the ground up.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(30, 'Then I was by him, as one brought up with him: and I was daily his delight, rejoicing always before him;'),
             plain(31, 'Rejoicing in the habitable part of his earth; and my delights were with the sons of men.'),
             plain(32, 'Now therefore hearken unto me, O ye children: for blessed are they that keep my ways.'),
@@ -156,7 +167,7 @@ export const PROVERBS_8: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'prov8-eternal-wisdom',
+          id: 'prov8-eternal-wisdom-2',
           prompt: 'How would your perspective change if you truly believed that wisdom is not a human invention but something eternal, woven into creation itself? What would it mean to align yourself with that eternal reality?',
         },
       ],

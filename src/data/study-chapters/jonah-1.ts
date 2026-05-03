@@ -85,6 +85,17 @@ export const JONAH_1: RichChapterContent = {
             plain(8, 'Then said they unto him, Tell us, we pray thee, for whose cause this evil is upon us; What is thine occupation? and whence comest thou? what is thy country? and of what people art thou?'),
             plain(9, 'And he said unto them, I am an Hebrew; and I fear the Lord, the God of heaven, which hath made the sea and the dry land.'),
             plain(10, 'Then were the men exceedingly afraid, and said unto him, Why hast thou done this? For the men knew that he fled from the presence of the Lord, because he had told them.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jonah1-fear',
+          html: 'The sailors understand instantly. They know who the Lord is — the God of heaven, the God who made the sea and the dry land. And they are terrified. This man, this prophet who fears this God, is on their ship. This God whose power they are experiencing in the storm is the God Jonah serves. The mariners&apos; fear shifts from the storm to the God who sent it.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(11, 'Then said they unto him, What shall we do unto thee, that the sea may be calm unto us? for the sea wrought, and was tempestuous.'),
             plain(12, 'And he said unto them, Take me up, and cast me forth into the sea; so shall the sea be calm unto you: for I know that for my sake this great tempest is upon you.'),
             plain(13, 'Nevertheless the men rowed hard to bring it to the land; but they could not: for the sea wrought, and was tempestuous against them.'),
@@ -101,9 +112,9 @@ export const JONAH_1: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'jonah1-lot',
+          id: 'jonah1-sacrifice',
           html:
-            'The cast of the lots is the pivot. Pagan religion meets the God of Israel. The sailors seek their gods&apos; guidance through divination; instead, the lot reveals God&apos;s hand at work. They interrogate Jonah, and he confesses: he fears the Lord, the God of heaven, the God who made the sea and the dry land. And now the sailors understand: this God whose prophet they carry is the same God who rules the waters that rage around them.',
+            'Jonah accepts responsibility and calls upon them to cast him into the sea. The sailors, in a moment of grace, row hard to bring the ship to land — they do not wish to shed innocent blood. But the sea grows more tempestuous. So they cry to the Lord, beseech Him not to hold them guilty for Jonah&apos;s death, and cast him into the depths. And the sea grows calm. The storm is stilled. And the pagan sailors, having witnessed the power of the God of Israel, fear the Lord and offer sacrifice.',
         },
         {
           kind: 'christ',

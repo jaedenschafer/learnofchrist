@@ -109,9 +109,9 @@ export const ISAIAH_40: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'isaiah40-incomparable',
+          id: 'isaiah40-nations-to-idols',
           html:
-            'The insistence on God&apos;s incomparability grows sharper: "All nations before him are as nothing." Not some nations. Not distant nations. All nations. The mighty powers that seem to dominate the earth—they are less than nothing. When set beside the God who measures the heavens, they are simply absent.',
+            'The insistence on God&apos;s incomparability is clear: all nations are as a drop in a bucket, as dust on a balance scale—nothing before Him. Lebanon cannot provide sufficient wood for an offering to Him. All nations are counted as less than nothing. Now comes the turning point: if all nations are nothing, what about the idols that the nations make?',
         },
         {
           kind: 'scripture',
@@ -120,48 +120,24 @@ export const ISAIAH_40: RichChapterContent = {
             plain(18, 'To whom then will ye liken God? or what likeness will ye compare unto him?'),
             plain(19, 'The workman melteth a graven image, and the goldsmith spreadeth it over with gold, and casteth silver chains.'),
             plain(20, 'He that is so impoverished that he hath no oblation chooseth a tree that will not rot; he seeketh unto him a cunning workman to prepare a graven image, that shall not be moved.'),
-          ],
-        },
-        {
-          kind: 'commentary',
-          id: 'isaiah40-idol-satire',
-          html:
-            'The passage shifts to satire on idols: who will fashion an image to compare with God? The goldsmith spreads gold over wood or metal. Even the poor man chooses a tree that will not rot and finds a craftsman to carve it. The satire is gentle here but unmistakable—what human hands make cannot rival what God has made.',
-        },
-        {
-          kind: 'scripture',
-          chapter: 40,
-          lines: [
             plain(21, 'Have ye not known? have ye not heard? hath it not been told you from the beginning? have ye not understood from the foundations of the earth?'),
             plain(22, 'It is he that sitteth upon the circle of the earth, and the inhabitants thereof are as grasshoppers; that stretcheth out the heavens as a curtain, and spreadeth them out as a tent to dwell in:'),
             plain(23, 'That bringeth the princes to nothing; he maketh the judges of the earth as vanity.'),
             plain(24, 'Yea, they shall not be planted; yea, they shall not be sown; yea, their stock shall not take root in the earth: and he shall also blow upon them, and they shall wither, and the whirlwind shall take them away as stubble.'),
-          ],
-        },
-        {
-          kind: 'commentary',
-          id: 'isaiah40-grasshoppers',
-          html:
-            'From ancient times the message has been clear: God sits above the circle of the earth. Inhabitants—even the mighty, even the princes and judges—are as grasshoppers. They are planted and sown like grass, but God blows upon them and they wither. The vastness of creation reveals the smallness of human power.',
-        },
-        {
-          kind: 'scripture',
-          chapter: 40,
-          lines: [
             plain(25, 'To whom then will ye liken me, or shall I be equal? saith the Holy One.'),
-            plain(26, 'Lift up your eyes on high, and behold who hath created these things, that bringeth out their host by number: he calleth them all by names by the greatness of his might; for that he is strong in power; not one faileth.'),
           ],
         },
         {
           kind: 'commentary',
-          id: 'isaiah40-eagle-wings',
+          id: 'isaiah40-idols-to-stars',
           html:
-            'The invitation comes: lift up your eyes. See the stars. God calls each one by name. They are countless, yet each is known. This is the foundation for the promise to come: if God knows the stars, if God calls them each by name, God knows you.',
+            'The satire on idols is complete: goldsmith spreads gold over wood, the poor man chooses a tree that will not rot and has a craftsman carve it. From ancient times the truth has been known—God sits on the circle of the earth, inhabitants are grasshoppers, princes are brought to nothing like grass. Now the passage turns to the majesty of creation itself: "To whom then will ye liken me?"—the question becomes an invitation to lift the eyes upward.',
         },
         {
           kind: 'scripture',
           chapter: 40,
           lines: [
+            plain(26, 'Lift up your eyes on high, and behold who hath created these things, that bringeth out their host by number: he calleth them all by names by the greatness of his might; for that he is strong in power; not one faileth.'),
             plain(27, 'Why sayest thou, O Jacob, and speakest, O Israel, My way is hid from the Lord, and my judgment is passed over from my God?'),
             plain(28, 'Hast thou not known? hast thou not heard, that the everlasting God, the Lord, the Creator of the ends of the earth, fainteth not, neither is weary? there is no searching of his understanding.'),
             plain(29, 'He giveth power to the faint; and to them that have no might he increaseth strength.'),

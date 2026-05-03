@@ -106,6 +106,18 @@ export const ISAIAH_33: RichChapterContent = {
             plain(17, 'Thine eyes shall see the king in his beauty: they shall behold the land that is very far off.'),
             plain(18, 'Thine heart shall meditate in fear: Where is the scribe? where is the receiver? where is he that counted the towers?'),
             plain(19, 'Thou shalt not see a fierce people, a people of a deeper speech than thou canst perceive; of a stammering tongue, that thou canst not understand.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah33-righteous-to-vision',
+          html:
+            'The righteous are described: those who walk in righteousness, speak uprightly, despise oppressive gain, refuse bribes, turn away from bloodshed and evil. They dwell in the high places, secure in God&apos;s defense. And now comes the supreme promise: their eyes will see the king in his beauty, and behold the land very far off. From the description of the righteous to the vision of the king—the turning point of the passage.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 33,
+          lines: [
             plain(20, 'Look upon Zion, the city of our solemnities: thine eyes shall see Jerusalem a quiet habitation, a tabernacle that shall not be taken down; not one of the stakes thereof shall ever be removed, neither shall any of the cords thereof be broken.'),
             plain(21, 'But there the glorious Lord will be unto us a place of broad rivers and streams; wherein shall go no galley with oars, neither shall gallant ship pass thereby.'),
             plain(22, 'For the Lord is our judge, the Lord is our lawgiver, the Lord is our king; he will save us.'),

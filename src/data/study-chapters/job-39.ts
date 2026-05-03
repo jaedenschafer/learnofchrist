@@ -40,6 +40,18 @@ export const JOB_39: RichChapterContent = {
             plain(3, 'They bow themselves, they bring forth their young ones, they cast out their sorrows.'),
             plain(4, 'Their young ones are in good liking, they grow up with corn; they go forth, and return not unto them.'),
             plain(5, 'Who hath sent out the wild ass free? or who hath loosed the bands of the wild ass?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job39-mid1',
+          html:
+            'The wild doe gives birth, and her fawns thrive. Then they leave her and do not return. This is wildness: the separation of parent and child, the refusal to be bound. God has made this nature. God does not find it wrong.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 39,
+          lines: [
             plain(6, 'Whose house I have made the wilderness, and the barren land his dwellings.'),
             plain(7, 'He scorneth the multitude of the city, neither regardeth he the crying of the driver.'),
             plain(8, 'The range of the mountains is his pasture, and he searcheth after every green thing.'),

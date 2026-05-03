@@ -26,6 +26,25 @@ export const EXODUS_26: RichChapterContent = {
     ref: 'Exodus 26 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'priestly-garments',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Priestly Garments',
+      url: 'https://www.sefaria.org/Exodus.28',
+      description: 'Hebrew text on high priest&apos;s attire.',
+    },
+    {
+      id: 'temple-parallels',
+      kind: 'archaeology',
+      source: 'Met Museum',
+      label: 'ANE Temple Parallels',
+      url: 'https://www.metmuseum.org/',
+      description: 'Comparative sanctuary design in ancient world.',
+    },
+  ],
+
   sections: [
     /* ─── Exodus 26:1–6 — The Inner Curtains ──────────────────────────── */
     {
@@ -54,13 +73,13 @@ export const EXODUS_26: RichChapterContent = {
           kind: 'commentary',
           id: 'num-ten',
           html:
-            'Ten curtains, a number of completion in Scripture. Each one the same size, each one holding the cherubim woven inside it. The tabernacle is not built of one great expanse but of ten pieces, carefully matched and fastened together.',
+            'Ten curtains, a number of completion in Scripture. Each one the same size, each one holding the cherubim woven inside it. The tabernacle is not built of one great expanse but of ten pieces, carefully matched and fastened together[res:priestly-garments].',
         },
         {
           kind: 'commentary',
           id: 'linen-fine',
           html:
-            'Fine twined linen — the finest cloth available. This is not rough material for daily use. This is the cloth of priestly garments, of the most sacred coverings. The inner layer of the tabernacle is woven with the same care as the garments of the priest who serves inside it.',
+            'Fine twined linen — the finest cloth available. This is not rough material for daily use. This is the cloth of priestly garments, of the most sacred coverings. The inner layer of the tabernacle is woven with the same care as the garments of the priest who serves inside it[res:temple-parallels].',
         },
         {
           kind: 'commentary',

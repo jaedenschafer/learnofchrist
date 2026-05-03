@@ -72,6 +72,17 @@ export const JOEL_3: RichChapterContent = {
             plain(13, 'Put ye in the sickle, for the harvest is ripe: come, get you down; for the press is full, the fats overflow; for their wickedness is great.'),
             plain(14, 'Multitudes, multitudes in the valley of decision: for the day of the Lord is near in the valley of decision.'),
             plain(15, 'The sun and the moon shall be darkened, and the stars shall withdraw their shining.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'joel3-darkness',
+          html: 'The sun and moon are darkened. The stars withdraw their shining. Cosmic signs precede the day of the Lord. All the ordered heavens grow dark and uncertain. Yet in this darkness, God&apos;s people do not lose their hope. What comes next is not destruction but deliverance.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             {
               number: 16,
               spans: [
@@ -87,9 +98,9 @@ export const JOEL_3: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'joel3-decision',
+          id: 'joel3-roar',
           html:
-            'The valley of decision is where all flesh will decide and be decided. Will they turn to God or away from Him? Will they be saved or judged? God&apos;s voice will roar from Zion. The heavens and earth will shake. This is the day of final reckoning when all things are made right.',
+            'The Lord roars out of Zion. His voice shakes the heavens and earth. Yet for His people, He is their hope and strength. The roar that shakes all creation is protection for those who belong to Him. The judgment that comes upon the nations is deliverance for God&apos;s own.',
         },
         {
           kind: 'carry',

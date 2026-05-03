@@ -36,6 +36,17 @@ export const PROVERBS_5: RichChapterContent = {
             plain(4, 'But her end is bitter as wormwood, sharp as a twoedged sword.'),
             plain(5, 'Her feet go down to death; her steps take hold on hell.'),
             plain(6, 'Lest thou shouldest ponder the path of life, her ways are moveable, that thou canst not know them.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov5-allure-danger',
+          html: 'The strange woman is beautiful and terrible at once. Her words taste of honey, her mouth is smooth as oil—she has genuine appeal. But this sweetness masks bitter truth. She leads toward death, toward hell, into ways so unstable you cannot discern where they are going until you are caught. The first half of the warning is about understanding the deception: what looks good is actually dangerous. What attracts is actually destructive.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(7, 'Therefore hear me now, my children, and depart not from the words of my mouth.'),
             plain(8, 'Remove thy way far from her, and come not nigh the door of her house:'),
             plain(9, 'Lest thou give thine honour unto others, and thy years unto the cruel:'),

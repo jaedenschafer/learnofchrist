@@ -85,6 +85,18 @@ export const ISAIAH_26: RichChapterContent = {
             plain(9, 'With my soul have I desired thee in the night; yea, with my spirit within me will I seek thee early: for when thy judgments are in the earth, the inhabitants of the world will learn righteousness.'),
             plain(10, 'Let favour be shewed to the wicked; yet will he not learn righteousness: in the land of uprightness will he deal unjustly, and will not behold the majesty of the Lord.'),
             plain(11, 'Lord, when thy hand is lifted up, they will not see: but they shall see, and be ashamed for their envy at the people; yea, the fire of thine enemies shall devour them.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah26-longing-to-peace',
+          html:
+            'The prophet&apos;s soul cries out with longing through night and morning, seeking God in the darkness and rising early to seek Him. The desire is for His name and the remembrance of Him. Yet amid this longing comes a turning point: from the complaint that even judgment does not teach the wicked, to the promise that God will ordain peace for His people.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 26,
+          lines: [
             plain(12, 'Lord, thou wilt ordain peace for us: for thou also hast wrought all our works in us.'),
             plain(13, 'O Lord our God, other lords beside thee have had dominion over us: but by thee only will we make mention of thy name.'),
             plain(14, 'They are dead, they shall not live; they are deceased, they shall not rise: therefore hast thou visited them with destruction, and made all their memory to perish.'),

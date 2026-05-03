@@ -148,6 +148,18 @@ export const JOB_38: RichChapterContent = {
             plain(29, 'Out of whose womb cometh the ice? and the hoary frost of the heaven, who hath gendered it?'),
             plain(30, 'The waters are hid as with a stone, and the face of the deep is frozen.'),
             plain(31, 'Canst thou bind the sweet influences of Pleiades, or loose the bands of Orion?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job38-mid4',
+          html:
+            'Water freezes into ice at God&apos;s command. Stars wheel in their courses—Pleiades, Orion—bound by laws you do not know. God set their motion in place. You cannot touch them. Yet you presume to understand God&apos;s ordering of justice.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 38,
+          lines: [
             plain(32, 'Canst thou bring forth Mazzaroth in his season? or canst thou guide Arcturus with his sons?'),
             plain(33, 'Knowest thou the ordinances of heaven? canst thou set the dominion thereof in the earth?'),
             plain(34, 'Canst thou lift up thy voice to the clouds, that abundance of waters may cover thee?'),

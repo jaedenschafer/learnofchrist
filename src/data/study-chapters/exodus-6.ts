@@ -42,7 +42,7 @@ export const EXODUS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'ex6-bring-out',
           html:
-            'Moses has just seen the work grow harder. The first petition to Pharaoh only tightened the bonds. And here, in that exact moment, God says: I will bring you out. Not someday. I will. God does not wait for the situation to look promising before He speaks His promise. He speaks into the exact place where it looks impossible.',
+            'Moses has just seen the work grow harder. The first petition to Pharaoh only tightened the bonds. And here, in that exact moment, God says: I will bring you out. Not someday. I will. God does not wait for the situation to look promising before He speaks His promise. He speaks into the exact place where it looks impossible[res:ten-plagues].',
         },
         {
           kind: 'scripture',
@@ -79,7 +79,7 @@ export const EXODUS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'ex6-known',
           html:
-            'God did not reveal Himself to Abraham as Yahweh by name, though Abraham knew Him and walked with Him. The name marks a shift: the one who was known as El Shaddai to the patriarchs is now making Himself known to Egypt — and to Israel — as the self-existent One, the one who is, the one who keeps His covenant not by His power alone but by His very being.',
+            'God did not reveal Himself to Abraham as Yahweh by name, though Abraham knew Him and walked with Him. The name marks a shift: the one who was known as El Shaddai to the patriarchs is now making Himself known to Egypt — and to Israel — as the self-existent One, the one who is, the one who keeps His covenant not by His power alone but by His very being[res:egyptian-gods].',
         },
         {
           kind: 'christ',
@@ -536,6 +536,26 @@ export const EXODUS_6: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 6 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'ten-plagues',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Ten Plagues',
+      url: 'https://www.bibleodyssey.org/dictionary/plagues/',
+      description: 'Overview of the plagues and their theological significance.',
+    },
+    {
+      id: 'egyptian-gods',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Egyptian Deities & the Plagues',
+      url: 'https://www.britishmuseum.org/collection/',
+      description: 'Collection relating Egyptian gods challenged by plagues.',
+    },
+  ],
 
   hasHebrew: true,
 };

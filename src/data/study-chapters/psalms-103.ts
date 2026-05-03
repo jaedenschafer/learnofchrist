@@ -37,6 +37,18 @@ export const PSALMS_103: RichChapterContent = {
             plain(5, 'Who satisfieth thy mouth with good things; so that thy youth is renewed like the eagle&apos;s.'),
             plain(6, 'The Lord executeth righteousness and judgment for all that are oppressed.'),
             plain(8, 'The Lord is merciful and gracious, slow to anger, and plenteous in mercy.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps103-mid',
+          html:
+            '&apos;Bless the Lord&apos; becomes &apos;forget not all his benefits.&apos; Praise shifts to memory. The benefits are listed—forgiveness, healing, redemption, mercy—and then the foundation of mercy is named. God is merciful because that is His character, not because we deserve it.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 103,
+          lines: [
             plain(10, 'He hath not dealt with us after our sins; nor rewarded us according to our iniquities.'),
             plain(11, 'For as the heaven is high above the earth, so great is his mercy toward them that fear him.'),
             plain(12, 'As far as the east is from the west, so far hath he removed our transgressions from us.'),

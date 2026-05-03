@@ -44,7 +44,7 @@ export const EXODUS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'demand-go',
           html:
-            'The demand is framed not as enslavement to escape, but as worship to attend. God is not railing against Pharaoh&apos;s cruelty—He is claiming His people for His own purposes. From Pharaoh&apos;s throne room, the issue is not justice but authority: who owns these people?',
+            'The demand is framed not as enslavement to escape, but as worship to attend. God is not railing against Pharaoh&apos;s cruelty—He is claiming His people for His own purposes[res:pharaoh-hardened]. From Pharaoh&apos;s throne room, the issue is not justice but authority: who owns these people?',
         },
         {
           kind: 'christ',
@@ -71,7 +71,7 @@ export const EXODUS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'nescience',
           html:
-            'Pharaoh&apos;s statement is not philosophical—"Who is the LORD?" is an act of power. He is saying: I do not acknowledge this God. I will not obey Him. Your God&apos;s claim is irrelevant in my domain. This is rebellion stated plainly, with absolute confidence.',
+            'Pharaoh&apos;s statement is not philosophical—"Who is the LORD?" is an act of power. He is saying: I do not acknowledge this God. I will not obey Him. Your God&apos;s claim is irrelevant in my domain. This is rebellion stated plainly, with absolute confidence[res:egyptian-labor].',
         },
         {
           kind: 'scripture',
@@ -470,6 +470,26 @@ export const EXODUS_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 5 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'pharaoh-hardened',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Pharaoh: Hardened Heart',
+      url: 'https://www.bibleodyssey.org/dictionary/pharaoh/',
+      description: 'Study of Pharaoh&apos;s role and the theology of hardening.',
+    },
+    {
+      id: 'egyptian-labor',
+      kind: 'archaeology',
+      source: 'Penn Museum',
+      label: 'Egyptian Labor Systems',
+      url: 'https://www.penn.museum/sites/expedition/',
+      description: 'Archaeological evidence on taskmasters and forced labor.',
+    },
+  ],
 
   hasHebrew: true,
 };

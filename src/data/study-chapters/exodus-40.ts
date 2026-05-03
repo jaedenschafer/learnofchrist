@@ -55,6 +55,13 @@ export const EXODUS_40: RichChapterContent = {
             { number: 5, spans: [ t('And thou shalt set the altar of gold for the incense before the ark of the testimony, and put the hanging of the door to the tabernacle.') ] },
             { number: 6, spans: [ t('And thou shalt set the altar of the burnt offering before the door of the tabernacle of the tent of the congregation.') ] },
             { number: 7, spans: [ t('And thou shalt set the laver between the tent of the congregation and the altar, and shalt put water therein.') ] },
+          ],
+        },
+        { kind: 'commentary', id: 'ex40-mid', html: 'The structure stands: ark in the holy of holies, furniture placed, altars set. The laver fills with water—the place for cleansing before approach. Now comes the anointing, the setting-apart, the consecration. The structure becomes the sanctuary.' },
+        {
+          kind: 'scripture',
+          chapter: 40,
+          lines: [
             { number: 8, spans: [ t('And thou shalt set up the court round about, and hang up the hanging at the court gate.') ] },
             { number: 9, spans: [ t('And thou shalt take the '), hy('anointing oil', 'oil-mashach'), t(', and anoint the tabernacle, and all that is therein, and shalt hallow it, and all the vessels thereof: and it shall be holy.') ] },
             { number: 10, spans: [ t('And thou shalt anoint the altar of the burnt offering, and all his vessels, and sanctify the altar: and it shall be an altar most holy.') ] },
@@ -68,7 +75,7 @@ export const EXODUS_40: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ark-testimony',
-          html: 'The ark is the seat of God&apos;s presence. It holds the testimony—the two tablets of the covenant—but it itself is the mercy seat, the place where God will speak to Israel. Everything else in the tabernacle is placed *around* this one object. The logic of the whole structure flows from the presence at the center.',
+          html: 'The ark is the seat of God&apos;s presence. It holds the testimony—the two tablets of the covenant—but it itself is the mercy seat, the place where God will speak to Israel. Everything else in the tabernacle is placed *around* this one object. The logic of the whole structure flows from the presence at the center[res:complete-glory].',
         },
         {
           kind: 'hebrew',
@@ -81,7 +88,7 @@ export const EXODUS_40: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'order-of-assembly',
-          html: 'God does not say &quot;Assemble the tabernacle however you like.&quot; He specifies the order. First the ark, covered. Then the furniture placed around it. Then anointing. Then the priests. There is an order to holiness. A structure. A logic. It is not chaotic or improvised. Every detail moves toward the same end: creating a space where God&apos;s presence can be known.',
+          html: 'God does not say &quot;Assemble the tabernacle however you like.&quot; He specifies the order. First the ark, covered. Then the furniture placed around it. Then anointing. Then the priests. There is an order to holiness. A structure. A logic. It is not chaotic or improvised. Every detail moves toward the same end: creating a space where God&apos;s presence can be known[res:shekinah].',
         },
         {
           kind: 'carry',
@@ -259,6 +266,26 @@ export const EXODUS_40: RichChapterContent = {
     snippet: 'Exodus 40:34–38 — A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 40 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'complete-glory',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 40: Tabernacle Complete',
+      url: 'https://www.sefaria.org/Exodus.40',
+      description: 'Hebrew text on final assembly and God&apos;s presence.',
+    },
+    {
+      id: 'shekinah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Glory Cloud & Presence',
+      url: 'https://www.bibleodyssey.org/dictionary/shekinah/',
+      description: 'The cloud of glory filling the tabernacle.',
+    },
+  ],
 
   hasHebrew: true,
 };

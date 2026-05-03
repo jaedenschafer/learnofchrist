@@ -103,6 +103,18 @@ export const JOB_34: RichChapterContent = {
             plain(20, 'In a moment they shall die, and the people shall be troubled at midnight, and pass away: and the mighty shall be taken away without hand.'),
             plain(21, 'For his eyes are upon the ways of man, and he seeth all his goings.'),
             plain(22, 'There is no darkness, nor shadow of death, where the workers of iniquity may hide themselves.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job34-mid1',
+          html:
+            'Nothing escapes God&apos;s sight. Darkness offers no refuge. This is meant as comfort—God sees the oppressed and the righteous. But for the wicked, it is terror. Elihu transitions now from what God sees to what God does about it: God will not exceed what is just.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 34,
+          lines: [
             plain(23, 'For he will not lay upon man more than right; that he should enter into judgment with God.'),
             plain(24, 'He shall break in pieces mighty men without number, and set others in their stead.'),
             plain(25, 'Therefore he knoweth their works, and he overturneth them in the night, so that they are destroyed.'),

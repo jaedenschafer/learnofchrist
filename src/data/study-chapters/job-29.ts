@@ -86,6 +86,18 @@ export const JOB_29: RichChapterContent = {
             plain(9, 'The princes refrained talking, and laid their hand on their mouth.'),
             plain(10, 'The nobles held their peace, and their tongue cleaved to the roof of their mouth.'),
             plain(11, 'When the ear heard me, then it blessed me; and when the eye saw me, it gave witness to me:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job29-mid1',
+          html:
+            'Job was honored not for power alone but for how he used it. Princes fell silent in his presence. Those who heard him blessed him. His face was witnessed with gratitude. Now the focus narrows from his honor to its source: his justice toward the powerless.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 29,
+          lines: [
             plain(12, 'Because I delivered the poor that cried, and the fatherless, and him that had none to help him.'),
             plain(13, 'The blessing of him that was ready to perish came upon me: and I caused the widow&apos;s heart to sing for joy.'),
             plain(14, 'I put on righteousness, and it clothed me: my judgment was as a robe and a diadem.'),

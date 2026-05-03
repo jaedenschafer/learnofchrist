@@ -49,7 +49,7 @@ export const EXODUS_31: RichChapterContent = {
           kind: 'commentary',
           id: 'called-name',
           html:
-            'God does not randomly select. He calls Bezalel by name — even names his father, his grandfather, his tribe. In an age of mass production and faceless work, the Bible insists on this: skill matters. The person matters. God knows your name and the particular thing He made you able to do.',
+            'God does not randomly select. He calls Bezalel by name — even names his father, his grandfather, his tribe. In an age of mass production and faceless work, the Bible insists on this: skill matters. The person matters. God knows your name and the particular thing He made you able to do[res:sabbath-sign].',
         },
 
         {
@@ -91,7 +91,7 @@ export const EXODUS_31: RichChapterContent = {
           kind: 'commentary',
           id: 'c-skillset',
           html:
-            'The list is specific: gold, silver, brass, stone, wood. Bezalel is not a generic genius — he is skilled in particular, concrete things. And those skills come directly from God filling him. The Bible never suggests that skill is something you merely inherit or acquire. It is something God gives.',
+            'The list is specific: gold, silver, brass, stone, wood. Bezalel is not a generic genius — he is skilled in particular, concrete things. And those skills come directly from God filling him. The Bible never suggests that skill is something you merely inherit or acquire. It is something God gives[res:stone-tablets].',
         },
 
         {
@@ -382,6 +382,26 @@ export const EXODUS_31: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 31 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'sabbath-sign',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Sabbath Law',
+      url: 'https://www.sefaria.org/Exodus.31',
+      description: 'Hebrew text on seventh day as covenant sign.',
+    },
+    {
+      id: 'stone-tablets',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Tablets of Stone',
+      url: 'https://www.bibleodyssey.org/dictionary/tablets/',
+      description: 'The stone tablets and God&apos;s writing.',
+    },
+  ],
 
   hasHebrew: true,
 };

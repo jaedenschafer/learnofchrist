@@ -68,6 +68,17 @@ export const AMOS_2: RichChapterContent = {
             plain(9, 'Yet destroyed I the Amorite before them, whose height was like the height of the cedars, and he was strong as the oaks; yet I destroyed his fruit from above, and his roots from beneath.'),
             plain(10, 'Also I brought you up from the land of Egypt, and led you forty years through the wilderness, to possess the land of the Amorite.'),
             plain(11, 'And I raised up of your sons for prophets, and of your young men for Nazarites. Is it not even thus, O ye children of Israel? saith the Lord.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'amos2-blessing',
+          html: 'God had done everything for Israel. He destroyed the Amorite before them. He led them forty years through the wilderness. He raised up prophets from their own sons. He called Nazarites to be living witnesses of consecration. Every sign of God&apos;s presence and favor was given. Yet Israel was about to reject it all.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             {
               number: 12,
               spans: [
@@ -82,9 +93,9 @@ export const AMOS_2: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'amos2-israel',
+          id: 'amos2-rejection',
           html:
-            'Israel sells the righteous for silver and the poor for shoes. She oppresses the meek. She violates God&apos;s holy name through sexual immorality. She takes the clothes of the poor as pledge and drinks wine in temples. Yet God had brought her out of Egypt, raised up prophets, called Nazarites. And she rejected all of it — gave wine to Nazarites, commanded prophets not to prophesy.',
+            'Israel did not merely sin — she sinned while rejecting God. She gave wine to those called to abstinence. She silenced prophets sent to speak God&apos;s word. This is not the sin of ignorance but the sin of defiance. She rejected the messengers and the message.',
         },
         {
           kind: 'carry',

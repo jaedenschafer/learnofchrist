@@ -42,6 +42,18 @@ export const JOB_40: RichChapterContent = {
             plain(4, 'Behold, I am vile; what shall I answer thee? I will lay mine hand upon my mouth.'),
             plain(5, 'Once have I spoken; but I will not answer: yea, twice; but I will proceed no further.'),
             plain(6, 'Then answered the Lord unto Job out of the whirlwind, and said,'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job40-mid1',
+          html:
+            'Job&apos;s first response is silence. He will say no more. His former arguments are now nothing. But God is not finished. God speaks again, this time summoning Job not to despair but to stand: to prepare himself as a man for what is about to be revealed.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 40,
+          lines: [
             plain(7, 'Gird up thy loins now like a man: I will demand of thee, and declare thou unto me.'),
             plain(8, 'Wilt thou also disannul my judgment? wilt thou condemn me, that thou mayest be righteous?'),
             plain(9, 'Or hast thou an arm like God? or canst thou thunder with a voice like him?'),

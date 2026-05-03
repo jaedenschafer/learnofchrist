@@ -101,6 +101,17 @@ export const OBADIAH_1: RichChapterContent = {
             plain(14, 'Neither shouldest thou have stood in the crossway, to cut off those of his that did escape; neither shouldest thou have delivered up those of his that did remain in the day of distress.'),
             plain(15, 'For the day of the Lord is near upon all the heathen: as thou hast done, it shall be done unto thee: thy reward shall return upon thine own head.'),
             plain(16, 'For as ye have drunk upon my holy mountain, so shall all the heathen drink continually, yea, they shall drink, and they shall swallow down, and they shall be as though they had not been.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'obadiah1-recompense',
+          html: 'Edom will face recompense. The nations that stood by while Jerusalem fell, that rejoiced and plundered, will drink the cup of judgment. As they have done, so it will be done to them. The principle of covenant justice — measure for measure — will be executed.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             {
               number: 17,
               spans: [
@@ -126,9 +137,9 @@ export const OBADIAH_1: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'obadiah1-violence',
+          id: 'obadiah1-deliverance',
           html:
-            'Edom\'s sin was not merely pride but violence against Jacob and rejoicing when Jerusalem fell. At the crossroads, Edom stood and cut off those who escaped. For this violence against his brother, Edom will be cut off forever. The principle is clear: "As thou hast done, it shall be done unto thee." Yet the final vision is of deliverance for Zion and the establishment of God\'s kingdom. Saviors will come up on Mount Zion, and the kingdom shall be the Lord\'s.',
+            'But on Mount Zion there is deliverance. There is holiness. The house of Jacob will possess what was taken. The "but" is the turning point — from judgment to salvation, from destruction to possession, from violence to holiness. This is always God&apos;s way: judgment falls on the proud and the violent, but deliverance comes to His people.',
         },
         {
           kind: 'hebrew',

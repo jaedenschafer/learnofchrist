@@ -45,6 +45,18 @@ export const KINGS_1_7: RichChapterContent = {
             plain(4, 'And there were windows in three rows, and light was against light in three ranks.'),
             plain(5, 'And all the doors and posts were made of cedar.'),
             plain(6, 'And he made a porch of pillars; the length thereof was fifty cubits, and the breadth thereof thirty cubits: and the porch was before them: and the other pillars and the thick beam were before those.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'kings-1-7-mid1',
+          html:
+            'Solomon&apos;s construction is methodical. First came the cedar structures—the great house with its halls and chambers, the porch where he will rule, the dwelling for Egypt&apos;s daughter, now bound to him by treaty and marriage. Each room named, each purpose clear. Now the narrative pivots from the wooden superstructure to the foundational material: stone. Here lies the hidden work of the palace&apos;s permanence.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(7, 'Then he made a porch for the throne where he might judge, even the porch of judgment: and it was covered with cedar from one side of the floor to the other.'),
             plain(8, 'And his house where he dwelt had another court within the porch, which was of the like work. Solomon made also an house for Pharaoh\'s daughter, whom he had taken to wife, like unto this porch.'),
             plain(9, 'All these were of costly stones, even of hewed stone, sawed with saws, within and without, even from the foundation unto the coping, and so on the outside toward the great court.'),
@@ -238,6 +250,18 @@ export const KINGS_1_7: RichChapterContent = {
             plain(31, 'And the mouth of it within the chapiter and above was a cubit: but the mouth thereof was round after the work of the base, a cubit and an half: and also upon the mouth of it were gravings with their borders foursquare, not round.'),
             plain(32, 'And under the borders were four wheels; and the axletrees of the wheels were joined to the base: and the height of a wheel was a cubit and half a cubit.'),
             plain(33, 'And the work of the wheels was like the work of a chariot wheel: their axletrees, and their naves, and their felloes, and their spokes, were all molten.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'kings-1-7-mid2',
+          html:
+            'From intricate wheel-work, the eye ascends to the platforms themselves. Each base is identical in design and proportion—standardized, so that any of the ten bases can serve wherever washing is needed. The engineering principle embedded here is one of reliability through consistency. A craftsman&apos;s hand has shaped each one to exact measure so that the function can be trusted.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(34, 'And there were four undersetters to the four corners of one base: and the undersetters were of the very base itself.'),
             plain(35, 'And in the top of the base was there a round compass of half a cubit high: and on the top of the base the ledges thereof and the borders thereof were of the same.'),
             plain(36, 'For on the plates of the ledges thereof, and on the borders thereof, he graved cherubims, lions, and palm trees, according to the proportion of every one, and additions round about.'),
@@ -292,6 +316,18 @@ export const KINGS_1_7: RichChapterContent = {
             plain(43, 'And the ten bases, and ten lavers on the bases;'),
             plain(44, 'And one sea, and twelve oxen under the sea;'),
             plain(45, 'And the pots, and the shovels, and the basons: and all these vessels, which Hiram made to king Solomon for the house of the Lord, were of bright brass.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'kings-1-7-mid3',
+          html:
+            'Hiram&apos;s work in brass is complete. The metal has been cast, carved, and arranged. Now the narrative shifts to the vessels of gold—a transition from the work of the craftsman to the work of the king. Where Hiram worked in bronze, Solomon himself takes up the task of fashioning gold. The sanctuary&apos;s inner chambers demand the most precious metal.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(46, 'In the plain of Jordan did the king cast them, in the clay ground between Succoth and Zarthan.'),
             plain(47, 'And Solomon left all the vessels unweighed, because they were exceeding many: neither was the weight of the brass found out.'),
             plain(48, 'And Solomon made all the vessels that pertained unto the house of the Lord: the altar of gold, and the table of gold whereupon the shewbread was set,'),

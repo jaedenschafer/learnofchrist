@@ -38,6 +38,17 @@ export const SONG_7: RichChapterContent = {
             plain(4, 'And the roof of thy mouth like the best wine for my beloved, that goeth down sweetly, causing the lips of those that are asleep to speak.'),
             plain(5, 'I am my beloved&apos;s, and his desire is toward me.'),
             plain(6, 'Come, my beloved, let us go forth into the field; let us lodge in the villages.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'song7-response',
+          html: 'After the Beloved&apos;s lengthy celebration of her beauty, the Bride responds not with words of thanks but with an invitation and an offering. She wants to go forth with him into the field. She wants to lodge in the villages—to be alone with him. And most importantly: "there will I give thee my loves." She offers herself, not out of obligation, but as a willing gift.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(7, 'Let us get up early to the vineyards; let us see if the vine flourish, whether the tender grape appear, and the pomegranates bud forth: there will I give thee my loves.'),
             plain(8, 'The mandrakes give a smell, and at our gates are all manner of pleasant fruits, new and old, which I have laid up for thee, O my beloved.'),
             plain(9, 'O that thou wert as my brother, that sucked the breasts of my mother! when I should find thee without, I would kiss thee; yea, I should not be despised.'),
@@ -61,15 +72,9 @@ export const SONG_7: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'song7-go-forth-field',
+          id: 'song7-prepared',
           html:
-            '"Come, my beloved, let us go forth into the field; let us lodge in the villages." The Bride is not passive. She invites. She takes initiative. She wants to be alone with her beloved. She wants to give herself to him. "There will I give thee my loves." She offers herself—not as duty, but as gift.',
-        },
-        {
-          kind: 'commentary',
-          id: 'song7-mandrakes',
-          html:
-            '"The mandrakes give a smell, and at our gates are all manner of pleasant fruits, new and old, which I have laid up for thee, O my beloved." The Bride speaks of having prepared things for her beloved—fruits, pleasures. She has thought of him. She has stored up good things to give him. She is an active participant in the relationship.',
+            '"The mandrakes give a smell, and at our gates are all manner of pleasant fruits, new and old, which I have laid up for thee, O my beloved." The Bride has prepared good things for her Beloved. She has thought of him in advance. She has stored up fruits, pleasures, delights. She is not just responding to his desire. She is creating beauty and abundance for him.',
         },
         {
           kind: 'commentary',

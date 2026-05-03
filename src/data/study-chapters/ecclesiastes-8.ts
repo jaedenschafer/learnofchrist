@@ -36,6 +36,17 @@ export const ECCLESIASTES_8: RichChapterContent = {
             plain(3, 'Be not hasty to go out of his sight: stand not in an evil thing; for he doeth whatsoever pleaseth him.'),
             plain(4, 'Where the word of a king is, there is power: and who may say unto him, What doest thou?'),
             plain(5, 'Whoso keepeth the commandment shall feel no evil thing: and a wise man&apos;s heart discerneth both time and judgment.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ecc8-wisdom-authority',
+          html: 'The wise man is distinguished by understanding, by the ability to read the situation and know what the moment requires. His wisdom shows in his countenance. The Preacher counsels obedience to authority because you have sworn an oath before God. The king has power; his word cannot be questioned. But the wise man understands the limits of kingship. He respects the authority of the moment while remembering higher laws. He discerns both time and judgment—when to obey and when to stand firm.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(6, 'Because to every purpose there is time and judgment, therefore the misery of man is great upon him.'),
             plain(7, 'For he knoweth not that which shall be: for who can tell him when it shall be?'),
             plain(8, 'There is no man that hath power over the spirit to retain the spirit; neither hath he power in the day of death: and there is no discharge in that war; neither shall wickedness deliver those that are given to it.'),

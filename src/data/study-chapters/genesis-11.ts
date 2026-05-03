@@ -237,6 +237,62 @@ export const GENESIS_11: RichChapterContent = {
         },
         {
           kind: 'commentary',
+          id: 'gen11-eber-bridge',
+          html:
+            'Eber emerges as the turning point. From Shem through Arphaxad and Salah comes Eber, whose name means "the other side"—the one who stands at the threshold. The generations before him lived hundreds of years, but now lifespans are shortening. What matters is not the length of any single life, but the unbroken link: each father begets a son who will carry the promise forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
+            {
+              number: 16,
+              spans: [t('And Eber lived four and thirty years, and begat Peleg:')],
+            },
+            {
+              number: 17,
+              spans: [t('And Eber lived after he begat Peleg four hundred and thirty years, and begat sons and daughters.')],
+            },
+            {
+              number: 18,
+              spans: [t('And Peleg lived thirty years, and begat Reu:')],
+            },
+            {
+              number: 19,
+              spans: [t('And Peleg lived after he begat Reu two hundred and nine years, and begat sons and daughters.')],
+            },
+            {
+              number: 20,
+              spans: [t('And Reu lived two and thirty years, and begat Serug:')],
+            },
+            {
+              number: 21,
+              spans: [t('And Reu lived after he begat Serug two hundred and seven years, and begat sons and daughters.')],
+            },
+            {
+              number: 22,
+              spans: [t('And Serug lived thirty years, and begat Nahor:')],
+            },
+            {
+              number: 23,
+              spans: [t('And Serug lived after he begat Nahor two hundred years, and begat sons and daughters.')],
+            },
+            {
+              number: 24,
+              spans: [t('And Nahor lived nine and twenty years, and begat Terah:')],
+            },
+            {
+              number: 25,
+              spans: [t('And Nahor lived after he begat Terah an hundred and nineteen years, and begat sons and daughters.')],
+            },
+            {
+              number: 26,
+              spans: [t('And Terah lived seventy years, and begat Abram, Nahor, and Haran.')],
+            },
+          ],
+        },
+        {
+          kind: 'commentary',
           id: 'gen11-split-1',
           html:
             'After Babel, from Shem to Salah—five generations of faithful descent. Then comes Eber, whose name means "the other side." He lived to see the language divide heal into a single family, a single line. Eber is the bridge between the scattered languages and the covenant to come.',

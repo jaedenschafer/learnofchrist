@@ -37,6 +37,18 @@ export const PSALMS_30: RichChapterContent = {
             plain(5, 'For his anger endureth but a moment; in his favour is life: weeping may endure for a night, but joy cometh in the morning.'),
             plain(6, 'And in my prosperity I said, I shall never be moved: thou, Lord, by thy favour, hadst made my mountain to stand strong.'),
             plain(7, 'Thou didst hide thy face, and I was troubled.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms30-mid-hide',
+          html:
+            'The psalmist has celebrated restoration. But now the other story emerges—how we got here. There was a moment when God hid His face. The mountain fell. Prosperity became sickness. The next verses are not complaint but prayer, the turning from despair back to faith.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 30,
+          lines: [
             plain(8, 'I cried to thee, O Lord; and unto the Lord I made my supplication.'),
             plain(9, 'What profit is there in my blood, when I go down to the pit? Shall the dust praise thee? shall it declare thy truth?'),
             plain(10, 'Hear, O Lord, and have mercy upon me: Lord, be thou my helper.'),

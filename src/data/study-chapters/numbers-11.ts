@@ -404,6 +404,18 @@ export const NUMBERS_11: RichChapterContent = {
                 t('Shall the flocks and the herds be slain for them, to suffice them? or shall all the fish of the sea be gathered together for them, to suffice them?'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'num11-mid',
+          html:
+            'The promise has been made: you shall eat flesh a whole month. Moses doubts the logistics—how can so much meat be provided? God does not answer the question directly. He asks instead: Is My hand shortened? Can I not do what I have said? The test is not about provision; it is about faith in God&apos;s sufficiency. Now comes the answer: it will be done. Watch.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             {
               number: 23,
               spans: [

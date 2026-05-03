@@ -38,6 +38,17 @@ export const SONG_6: RichChapterContent = {
             plain(6, 'Thy teeth are as a flock of sheep which go up from the washing, whereof every one beareth twins, and there is not one barren among them.'),
             plain(7, 'As a piece of pomegranate are thy temples within thy locks.'),
             plain(8, 'There are threescore queens, and fourscore concubines, and virgins without number.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'song6-many-women',
+          html: 'The inventory of the Beloved&apos;s devotion to the Bride continues through detailed physical description. Her temples, her locks — all are praised. Yet then the Beloved acknowledges the wider context: there are sixty queens, eighty concubines, virgins without number. All beautiful, all in the palace. Yet none of them compare to his one dove.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(9, 'My dove, my undefiled is but one; she is the only one of her mother, she is the choice one of her that bare her. The daughters saw her, and blessed her; yea, the queens and the concubines, and they praised her.'),
             plain(10, 'Who is she that looketh forth as the morning, fair as the moon, clear as the sun, and terrible as an army with banners?'),
             plain(11, 'I went down into the garden of nuts to see the fruits of the valley, and to see whether the vine flourished, and the pomegranates budded.'),
@@ -59,9 +70,9 @@ export const SONG_6: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'song6-overcome',
+          id: 'song6-unique',
           html:
-            '"Turn away thine eyes from me: for they have overcome me." The Beloved is overcome by her eyes. Her gaze affects him. He cannot look away. She has power over him. The Song affirms that the bride has power—the power to move, to change, to overcome her beloved.',
+            'Among all the women in the palace, she is the one who stands out. She is undefiled, unique, the choice of her mother. The other women see her and bless her. The queens and concubines praise her. She has earned their recognition not through competition but through the genuine worth the Beloved has seen and proclaimed. She is not one among many. She is the one.',
         },
         {
           kind: 'commentary',

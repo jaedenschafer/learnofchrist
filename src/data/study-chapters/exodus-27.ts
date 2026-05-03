@@ -36,6 +36,25 @@ export const EXODUS_27: RichChapterContent = {
     ref: 'Exodus 27 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'bronze-altar',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Altar of Burnt Offering',
+      url: 'https://www.sefaria.org/Exodus.27',
+      description: 'Description and symbolism.',
+    },
+    {
+      id: 'sacrifice-system',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Sacrifice System',
+      url: 'https://www.bibleodyssey.org/dictionary/sacrifice/',
+      description: 'Overview of Israelite sacrificial theology.',
+    },
+  ],
+
   sections: [
     /* ─── Exodus 27:1–8 — The Altar of Burnt Offering ──────────────────── */
     {
@@ -62,7 +81,7 @@ export const EXODUS_27: RichChapterContent = {
           kind: 'commentary',
           id: 'ex27-altar',
           html:
-            'A perfect square. Five by five—the number of grace repeated, stability through proportion. But it&apos;s not gold or stone; it&apos;s wood, the material of the tabernacle itself, standing in the courtyard where every Israelite could approach. The altar is not locked away in the Holy of Holies. It is the first structure anyone entering the court encounters. This is where a person gives their offering to God.',
+            'A perfect square. Five by five—the number of grace repeated, stability through proportion. But it&apos;s not gold or stone; it&apos;s wood, the material of the tabernacle itself, standing in the courtyard where every Israelite could approach. The altar is not locked away in the Holy of Holies. It is the first structure anyone entering the court encounters. This is where a person gives their offering to God[res:bronze-altar].',
         },
         {
           kind: 'hebrew',
@@ -91,7 +110,7 @@ export const EXODUS_27: RichChapterContent = {
           kind: 'commentary',
           id: 'ex27-horns',
           html:
-            'The horns of the altar are not decorative. In ancient Near Eastern practice, the horns of an altar were places of refuge. Centuries later, when Adonijah fears Solomon&apos;s throne and flees Jerusalem, he &quot;caught hold on the horns of the altar&quot; (1 Kings 1:50), believing that sanctuary could not be violated. The horns point to the altar as a place of mercy, not merely judgment. Whoever brings an offering—even one made in fear or desperation—finds refuge at the altar.',
+            'The horns of the altar are not decorative. In ancient Near Eastern practice, the horns of an altar were places of refuge. Centuries later, when Adonijah fears Solomon&apos;s throne and flees Jerusalem, he &quot;caught hold on the horns of the altar&quot; (1 Kings 1:50), believing that sanctuary could not be violated. The horns point to the altar as a place of mercy, not merely judgment. Whoever brings an offering—even one made in fear or desperation—finds refuge at the altar[res:sacrifice-system].',
         },
         {
           kind: 'scripture',

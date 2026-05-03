@@ -36,6 +36,18 @@ export const PSALMS_92: RichChapterContent = {
             plain(4, 'For thou, Lord, hast made me glad through thy work: I will triumph in the works of thy hands.'),
             plain(5, 'O Lord, how great are thy works! and thy thoughts are very deep.'),
             plain(6, 'A brutish man knoweth not; neither doth a fool understand this.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps92-mid',
+          html:
+            'Gratitude turns to contrast. The wicked flourish like grass, but they are destined for ruin. The righteous, by contrast, endure. God&apos;s foolish cannot see this truth, but it runs through all of history.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 92,
+          lines: [
             plain(7, 'When the wicked spring as the grass, and when all the workers of iniquity do flourish; it is that they shall be destroyed for ever:'),
             plain(8, 'But thou, Lord, art most high for evermore.'),
             plain(9, 'For, lo, thine enemies, O Lord, for, lo, thine enemies shall perish; all the workers of iniquity shall be scattered.'),

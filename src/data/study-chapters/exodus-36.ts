@@ -54,7 +54,7 @@ export const EXODUS_36: RichChapterContent = {
           kind: 'commentary',
           id: 'craftsmen-called',
           html:
-            'Notice the distinction in verse 2: &ldquo;every wise hearted man, in whose heart the LORD had put wisdom, even every one whose heart stirred him up.&rdquo; Two movements. First, God puts wisdom in hearts. Second, the people respond by letting their hearts stir them up. The work of the tabernacle is neither purely divine initiative nor purely human effort. It is both together, each responding to the other.',
+            'Notice the distinction in verse 2: &ldquo;every wise hearted man, in whose heart the LORD had put wisdom, even every one whose heart stirred him up.&rdquo; Two movements. First, God puts wisdom in hearts. Second, the people respond by letting their hearts stir them up. The work of the tabernacle is neither purely divine initiative nor purely human effort. It is both together, each responding to the other[res:frame-covering].',
         },
         {
           kind: 'christ',
@@ -96,7 +96,7 @@ export const EXODUS_36: RichChapterContent = {
           kind: 'commentary',
           id: 'too-much-enough',
           html:
-            'This is the only verse in Scripture where the phrase "much more than enough" applies to a gift to God. Everywhere else, Israel&apos;s generosity is measured and incomplete. Here, it overflows. The people have given so freely that Moses must command them to stop. A heart healed by grace does not give strategically. It gives abundantly.',
+            'This is the only verse in Scripture where the phrase "much more than enough" applies to a gift to God. Everywhere else, Israel&apos;s generosity is measured and incomplete. Here, it overflows. The people have given so freely that Moses must command them to stop. A heart healed by grace does not give strategically. It gives abundantly[res:construction-model].',
         },
         {
           kind: 'commentary',
@@ -324,6 +324,26 @@ export const EXODUS_36: RichChapterContent = {
     ref: 'Exodus 36:5',
     label: 'Share Exodus 36',
   },
+
+
+  resources: [
+    {
+      id: 'frame-covering',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Tabernacle: Frame & Fabric',
+      url: 'https://www.sefaria.org/Exodus.36',
+      description: 'Hebrew text on structure and coverings.',
+    },
+    {
+      id: 'construction-model',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Tabernacle Reconstruction',
+      url: 'https://www.imj.org.il/',
+      description: 'Models showing construction sequence.',
+    },
+  ],
 
   hasHebrew: true,
 };

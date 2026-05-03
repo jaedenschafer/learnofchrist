@@ -31,6 +31,17 @@ export const HAGGAI_1: RichChapterContent = {
             plain(3, 'Then came the word of the Lord by Haggai the prophet, saying,'),
             plain(4, 'Is it time for you, O ye, to dwell in your ceiled houses, and this house lie waste?'),
             plain(5, 'Now therefore thus saith the Lord of hosts; Consider your ways.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'haggai1-question',
+          html: 'The question confronts the people&apos;s choice. They have chosen comfort for themselves while the house of God lies waste. Haggai does not ask if they have the right to build their own homes, but whether it is right to do so while neglecting God&apos;s house. The call to "consider your ways" invites them to examine the priority they have given to their own shelter.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(6, 'Ye have sown much, and bring in little; ye eat, but ye have not enough; ye drink, but ye are not filled with drink; ye clothe you, but there is none warm; and he that earneth wages earneth wages to put it into a bag with holes.'),
             plain(7, 'Thus saith the Lord of hosts; Consider your ways.'),
             plain(8, 'Go up to the mountain, and bring wood, and build the house; and I will take pleasure in it, and I will be glorified, saith the Lord.'),
@@ -41,9 +52,9 @@ export const HAGGAI_1: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'haggai1-consider',
+          id: 'haggai1-consequences',
           html:
-            '"Consider your ways." The repeated command invites self-examination. The people have prioritized their own comfort while God&apos;s house lies waste. The consequences are visible: labor that yields little, sustenance that never satisfies, earnings that slip through holes in the bag. These are not random misfortunes. They are the natural fruit of misplaced priorities.',
+            'The consequences are tangible and detailed. They have sown much but bring in little. They eat but are never filled. They earn wages only to see them slip through holes in the bag. These are not arbitrary punishments but the natural result of misaligned priorities. Labor that ignores God yields diminishing returns.',
         },
         {
           kind: 'hebrew',

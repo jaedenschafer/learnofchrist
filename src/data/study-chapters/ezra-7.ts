@@ -272,6 +272,18 @@ export const EZRA_7: RichChapterContent = {
                 t('And whatsoever shall seem good to thee, and to thy brethren, to do with the rest of the silver and the gold, that do after the will of your God.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ezra7-discretion',
+          html:
+            'Artaxerxes has granted Ezra remarkable freedom: &ldquo;Whatsoever shall seem good to thee... do after the will of your God.&rdquo; This is not command from on high, but trust. The king recognizes that Ezra&apos;s discernment is guided by God&apos;s Law. What follows — the vessels, the additional treasures — flows from this foundation of trust in Ezra&apos;s judgment.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             {
               number: 18,
               spans: [

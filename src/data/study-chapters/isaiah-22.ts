@@ -84,6 +84,18 @@ export const ISAIAH_22: RichChapterContent = {
             plain(17, 'Behold, the Lord will carry thee away with a mighty captivity, and will surely cover thee.'),
             plain(18, 'He will surely violently turn and toss thee like a ball into a large country: there shalt thou die, and there the chariots of thy glory shall be the shame of thy lord&apos;s house.'),
             plain(19, 'And I will drive thee from thy station, and from thy state shall he pull thee down.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah22-shebna-removed',
+          html:
+            'Shebna is driven from his station. The judgment is complete. Yet the narrative does not end in dismissal alone. The door has barely closed on one steward when another is called. Judgment of the corrupt is always simultaneous with elevation of the faithful. God never leaves His people without a leader. The transition is swift. The new begins as the old ends.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 22,
+          lines: [
             plain(20, 'And it shall come to pass in that day, that I will call my servant Eliakim the son of Hilkiah:'),
             plain(21, 'And I will clothe him with thy robe, and strengthen him with thy girdle, and I will commit thy government into his hand: and he shall be a father to the inhabitants of Jerusalem, and to the house of Judah.'),
             plain(22, 'And the key of the house of David will I lay upon his shoulder; so he shall open, and none shall shut; and he shall shut, and none shall open.'),

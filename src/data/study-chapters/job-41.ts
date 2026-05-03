@@ -40,6 +40,18 @@ export const JOB_41: RichChapterContent = {
             plain(3, 'Will he make many supplications unto thee? will he speak soft words unto thee?'),
             plain(4, 'Will he make a covenant with thee? wilt thou take him for a servant for ever?'),
             plain(5, 'Wilt thou play with him as with a bird? or wilt thou bind him for thy maidens?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job41-mid1',
+          html:
+            'Leviathan will not negotiate. He will not agree to serve. You cannot toy with him or make him into a pet. He refuses every human attempt to control, to use, to bend to your will. He is the refusal incarnate.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 41,
+          lines: [
             plain(6, 'Shall the companions make a banquet of him? shall they part him among the merchants?'),
             plain(7, 'Canst thou fill his skin with barbed irons? or his head with fish spears?'),
             plain(8, 'Lay thine hand upon him, remember the battle, do no more.'),

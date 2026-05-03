@@ -51,7 +51,7 @@ export const EXODUS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'c-firstborn',
           html:
-            'In the Exodus, God killed every firstborn of Egypt but passed over the houses marked with blood. Now He claims the firstborn of Israel for Himself. This is not punishment; it is the proof of redemption written in the very beginning of life. The firstborn is a reminder that God redeemed this whole people from death.',
+            'In the Exodus, God killed every firstborn of Egypt but passed over the houses marked with blood. Now He claims the firstborn of Israel for Himself. This is not punishment; it is the proof of redemption written in the very beginning of life. The firstborn is a reminder that God redeemed this whole people from death[res:exodus-departure].',
         },
         {
           kind: 'carry',
@@ -90,7 +90,7 @@ export const EXODUS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'c-remember',
           html:
-            'God does not ask them to understand the theology of leaven. He asks them to remember — to carry the taste and weight of the escape in their bodies, year after year. Leavened bread is what you eat when you have time to wait. Unleavened bread is what you eat when you run. This meal is a body&apos;s memory of what redemption felt like.',
+            'God does not ask them to understand the theology of leaven. He asks them to remember — to carry the taste and weight of the escape in their bodies, year after year. Leavened bread is what you eat when you have time to wait. Unleavened bread is what you eat when you run. This meal is a body&apos;s memory of what redemption felt like[res:pillar-fire].',
         },
         {
           kind: 'scripture',
@@ -433,6 +433,26 @@ export const EXODUS_13: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 13 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'exodus-departure',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Exodus: Departure',
+      url: 'https://www.bibleodyssey.org/dictionary/exodus/',
+      description: 'Study of the exodus narrative and theology.',
+    },
+    {
+      id: 'pillar-fire',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Cloud and Fire',
+      url: 'https://www.sefaria.org/Exodus.13',
+      description: 'Hebrew text on the pillar and divine guidance.',
+    },
+  ],
 
   hasHebrew: true,
 };

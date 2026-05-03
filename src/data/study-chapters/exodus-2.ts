@@ -24,10 +24,29 @@ export const EXODUS_2: RichChapterContent = {
   bottomShare: {
     label: 'Share Exodus 2',
     quote:
-      'A woman hid her newborn son three months, then placed him in an ark of bulrushes by the river. Pharaoh&apos;s daughter drew him out and raised him in the royal house. Moses grew to manhood hidden among his oppressors, then fled to Midian, where God was preparing him for deliverance.',
+      'A woman hid her newborn son three months[res:moses-birth], then placed him in an ark of bulrushes by the river. Pharaoh&apos;s daughter drew him out and raised him in the royal house. Moses grew to manhood hidden among his oppressors, then fled to Midian, where God was preparing him for deliverance.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'moses-birth',
+      kind: 'archaeology',
+      source: 'Penn Museum',
+      label: 'Birth of Moses: Nile Customs',
+      url: 'https://www.penn.museum/sites/expedition/',
+      description: 'Egyptian customs and evidence on infancy, exposure, and adoption.',
+    },
+    {
+      id: 'hebrew-names',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hebrew Names & Meanings',
+      url: 'https://www.sefaria.org/Exodus.2',
+      description: 'Commentary on names reflecting heritage and divine preservation.',
+    },
+  ],
 
   sections: [
     /* ── Exodus 2:1-10 - Hidden and Drawn Out ────────────────────────── */
@@ -172,7 +191,7 @@ export const EXODUS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'c-name-moshe',
           html:
-            'The name <em>Moshe</em> (מֹשֶׁה) comes from the Hebrew root for "to draw out." His Egyptian name, given by Pharaoh&apos;s daughter, carries his whole story: he was drawn out of the water, and one day he will draw his people out of slavery. The woman who names him knows none of this. She only knows she saved a beautiful child. The name God&apos;s work into her mercy.',
+            'The name <em>Moshe</em> (מֹשֶׁה) comes from the Hebrew root for "to draw out." His Egyptian name, given by Pharaoh&apos;s daughter, carries his whole story: he was drawn out of the water, and one day he will draw his people out of slavery. The woman who names him knows none of this. She only knows she saved a beautiful child. The name God&apos;s work into her mercy [res:hebrew-names].',
         },
         {
           kind: 'christ',

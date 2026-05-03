@@ -88,6 +88,18 @@ export const PSALMS_10: RichChapterContent = {
             plain(11, 'He hath said in his heart, God hath forgotten: he hideth his face; he will never see it.'),
             plain(12, 'Arise, O Lord; O God, lift up thine hand: forget not the humble.'),
             plain(13, 'Wherefore doth the wicked contemn God? he hath said in his heart, Thou wilt not require it.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps10-mid-seen',
+          html:
+            'The wicked believes God has forgotten and will not act. But now the camera swings to God. The psalmist does not defend himself. He calls on God to respond. The moment of silence ends. God&apos;s eyes open.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             plain(14, 'Thou hast seen it: for thou beholdest mischief and spite, to requite it with thy hand: the poor committeth himself unto thee; thou art the helper of the fatherless.'),
             plain(15, 'Break thou the arm of the wicked and the evil man: seek out his wickedness till thou find none.'),
             plain(16, 'The Lord is King for ever and ever: the heathen are perished out of his land.'),

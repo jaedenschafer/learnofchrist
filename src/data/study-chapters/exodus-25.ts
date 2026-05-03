@@ -70,7 +70,7 @@ export const EXODUS_25: RichChapterContent = {
           kind: 'commentary',
           id: 'willing-heart-note',
           html:
-            'The phrase &quot;willingly with his heart&quot; appears three times in these verses. God is not building His house through obligation or law. He is building it through the generosity of His people. After the devastation of slavery, after the terror of the plagues, after the sea splitting open—now the people bring gifts. Freely. With joy. The tabernacle is made of the people&apos;s love made tangible.',
+            'The phrase &quot;willingly with his heart&quot; appears three times in these verses. God is not building His house through obligation or law. He is building it through the generosity of His people. After the devastation of slavery, after the terror of the plagues, after the sea splitting open—now the people bring gifts. Freely. With joy. The tabernacle is made of the people&apos;s love made tangible[res:tabernacle].',
         },
         {
           kind: 'christ',
@@ -109,6 +109,13 @@ export const EXODUS_25: RichChapterContent = {
             { number: 14, spans: [ t('And thou shalt put the staves into the rings by the sides of the ark, that the ark may be borne with them.') ] },
             { number: 15, spans: [ t('The staves shall be in the rings of the ark: they shall not be taken from it.') ] },
             { number: 16, spans: [ t('And thou shalt put into the ark the '), hg('testimony', 'testimony-law'), t(', which I shall give thee.') ] },
+          ],
+        },
+        { kind: 'commentary', id: 'ex25-mid', html: 'The ark is complete—a wooden chest overlaid with gold, carried by staves, holding the covenant within. Now comes the crown upon it, the mercy covering, the place where God will meet His people. The structure holds the law; the mercy seat holds the relationship.' },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             { number: 17, spans: [ t('And thou shalt make a '), hy('mercy seat', 'kaporet-mercy'), t(' of pure gold: two cubits and a half shall be the length thereof, and a cubit and a half the breadth thereof.') ] },
             { number: 18, spans: [ t('And thou shalt make two '), hy('cherubims', 'cherubim-angels'), t(' of gold, of beaten work shalt thou make them, in the two ends of the mercy seat.') ] },
             { number: 19, spans: [ t('And make one cherub on the one end, and the other cherub on the other end: even of the mercy seat shall ye make the cherubims on the two ends thereof.') ] },
@@ -130,7 +137,7 @@ export const EXODUS_25: RichChapterContent = {
           kind: 'commentary',
           id: 'testimony-law',
           html:
-            'The &quot;testimony&quot; refers to the two stone tablets—the Ten Commandments. They go inside the ark. Above them sits the mercy seat. The image is profound: the broken law rests beneath the place of mercy. The judgment is underneath. The mercy covers it. This is the pattern Christ fulfills: the law condemns, but Christ covers the condemnation with His own blood.',
+            'The &quot;testimony&quot; refers to the two stone tablets—the Ten Commandments. They go inside the ark. Above them sits the mercy seat. The image is profound: the broken law rests beneath the place of mercy. The judgment is underneath. The mercy covers it. This is the pattern Christ fulfills: the law condemns, but Christ covers the condemnation with His own blood[res:israel-museum-tab].',
         },
         {
           kind: 'hebrew',
@@ -366,6 +373,26 @@ export const EXODUS_25: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 25 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'tabernacle',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Tabernacle Structure',
+      url: 'https://www.bibleodyssey.org/dictionary/tabernacle/',
+      description: 'Architectural and theological overview.',
+    },
+    {
+      id: 'israel-museum-tab',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Tabernacle & Temple Models',
+      url: 'https://www.imj.org.il/',
+      description: 'Museum models and ANE temple architecture.',
+    },
+  ],
 
   hasHebrew: true,
 };

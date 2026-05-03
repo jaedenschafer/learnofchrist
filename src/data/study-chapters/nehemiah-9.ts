@@ -289,6 +289,18 @@ export const NEHEMIAH_9: RichChapterContent = {
                 t(' in the wilderness: the pillar of the cloud departed not from them by day, to lead them in the way; neither the pillar of fire by night, to shew them light, and the way wherein they should go.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'neh9-golden-calf-mercy',
+          html:
+            'The golden calf represents the deepest failure — a people who reject the God who has just delivered them, instead crafting an idol from their own desires. Yet the prayer emphasizes not the sin but the mercy: &ldquo;Yet thou in thy manifold mercies forsookest them not.&rdquo; Even in this moment of rebellion, God maintains the pillar of cloud and fire. The mercies are described as manifold — many, multiple, overwhelming. One sin cannot exhaust God&apos;s mercy.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(19, 'Thou gavest also thy good Spirit to instruct them, and withheldest not thy manna from their mouth, and gavest them water for their thirst.'),
             plain(20, 'Yea, forty years didst thou sustain them in the wilderness, so that they lacked nothing; their clothes waxed not old, and their feet swelled not.'),
           ],

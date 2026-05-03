@@ -53,6 +53,13 @@ export const EXODUS_12: RichChapterContent = {
             { number: 5, spans: [ t('Your '), hy('lamb shall be without blemish', 'tamim-unblemished'), t(', a male of the first year: ye shall take it out from the sheep, or from the goats:') ] },
             { number: 6, spans: [ t('And ye shall keep it up until the '), hy('fourteenth day of the same month', 'fourteen-kept'), t(': and the whole assembly of the congregation of Israel shall kill it '), hg('in the evening', 'erev-twilight'), t('.') ] },
             { number: 7, spans: [ t('And they shall take of the blood, and strike it on the two side posts and on the '), hg('upper door post', 'lintel-doorpost'), t(' of the houses, wherein they shall eat it.') ] },
+          ],
+        },
+        { kind: 'commentary', id: 'ex12-mid', html: 'The lamb is slain and marked. Blood on the doorposts and lintel. The sign is set. Now comes the next step—not just dying, but eating. The covenant is not only about what&apos;s done to save you, but what you do in response. You take it. You eat it. You make the sacrifice part of yourself.' },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             { number: 8, spans: [ t('And they shall eat the flesh in that night, roast with fire, and '), hg('unleavened bread', 'matzah-bread'), t('; and with '), hg('bitter herbs', 'bitter-herbs'), t(' they shall eat it.') ] },
             { number: 9, spans: [ t('Eat not of it raw, nor sodden at all with water, but roast with fire; his head with his legs, and with the purtenance thereof.') ] },
             { number: 10, spans: [ t('And ye shall let nothing of it remain until the morning; and that which remaineth of it until the morning ye shall burn with fire.') ] },
@@ -90,6 +97,13 @@ export const EXODUS_12: RichChapterContent = {
             { number: 18, spans: [ t('In the first month, on the fourteenth day of the month at even, ye shall eat unleavened bread, until the one and twentieth day of the month at even.') ] },
             { number: 19, spans: [ t('Seven days shall there be no leaven found in your houses: for whosoever eateth that which is leavened, even that soul shall be cut off from the congregation of Israel, whether he be a stranger, or born in the land.') ] },
             { number: 20, spans: [ t('Ye shall eat nothing leavened; in all your habitations shall ye eat unleavened bread.') ] },
+          ],
+        },
+        { kind: 'commentary', id: 'ex12-mid2', html: 'The law has been spoken from Sinai. Now it falls to the leaders to carry it out. The shift is decisive: from God&apos;s word to human action, from command to execution, from what must be done to how it is done. The elders are named. Responsibility lands on their shoulders.' },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             { number: 21, spans: [ t('Then Moses called for all the elders of Israel, and said unto them, Draw out and take you a lamb according to your families, and kill the passover.') ] },
             { number: 22, spans: [ t('And ye shall take a bunch of hysop, and dip it in the blood that is in the bason, and strike the lintel and the two side posts with the blood that is in the bason; and none of you shall go out at the door of his house until the morning.') ] },
             { number: 23, spans: [ t('For the LORD will pass through to smite the Egyptians; and when he seeth the blood upon the lintel, and on the two side posts, the LORD will pass over the door, and will not suffer the destroyer to come in unto your houses to smite you.') ] },
@@ -101,8 +115,8 @@ export const EXODUS_12: RichChapterContent = {
           ],
         },
         { kind: 'commentary', id: 'leaven-removed', html: 'Leaven is a metaphor for corruption. It spreads through the whole batch. The command to remove it is not merely practical—it is theological. For seven days, the household becomes a place of purity. Paul uses this same image: &quot;Christ our passover is sacrificed for us: therefore let us keep the feast, not with old leaven, neither with the leaven of malice and wickedness; but with the unleavened bread of sincerity and truth&quot; (1 Cor. 5:7–8). The feast of unleavened bread becomes a parable of what happens when the Lamb saves you.' },
-        { kind: 'commentary', id: 'blood-hysop', html: 'Hysop is a small, humble plant—the opposite of a grand implement. In Psalm 51:7, the psalmist cries, &quot;Purge me with hyssop, and I shall be clean.&quot; David thinks of salvation as hyssop: small, humble, lowly. The blood is applied not with ceremony or grandiosity, but with the instrument of the smallest, most fragile plant. It is applied by the hands of ordinary people in ordinary houses. There is no priest yet, no tabernacle yet. Just a family and a bush and the blood of a lamb.' },
-        { kind: 'commentary', id: 'pass-over-meaning', html: 'The verb <em>pesach</em> means to pass over, to skip over, to spring over. Not to protect by hiding. Not to guard by might. But to pass over. The destroyer comes. The angel of death moves through Egypt. But there is a mark on this doorway. And so it passes over. Death passes over this house because the blood marks it. The covenant is made not in strength, but in a mark on wood.' },
+        { kind: 'commentary', id: 'blood-hysop', html: 'Hysop is a small, humble plant—the opposite of a grand implement. In Psalm 51:7, the psalmist cries, &quot;Purge me with hyssop, and I shall be clean.&quot; David thinks of salvation as hyssop: small, humble, lowly. The blood is applied not with ceremony or grandiosity, but with the instrument of the smallest, most fragile plant. It is applied by the hands of ordinary people in ordinary houses. There is no priest yet, no tabernacle yet. Just a family and a bush and the blood of a lamb [res:blood-covenant].' },
+        { kind: 'commentary', id: 'pass-over-meaning', html: 'The verb <em>pesach</em> means to pass over, to skip over, to spring over. Not to protect by hiding. Not to guard by might. But to pass over. The destroyer comes. The angel of death moves through Egypt. But there is a mark on this doorway. And so it passes over. Death passes over this house because the blood marks it. The covenant is made not in strength, but in a mark on wood [res:passover-law].' },
         { kind: 'carry', html: 'When your children ask you one day, &quot;Why do you believe this? Why the cross? Why the blood?&quot; You will say what the elders said: &quot;It is the sacrifice of the Lord&apos;s passover. When He passed over me, He delivered my house.&quot; You will not argue the point. You will tell the story. You will point to the sign. And if they have any sense, they will bow their head and understand that the most important things in life come because someone passed over with a mark.' },
         { kind: 'reflection', id: 'reflect-pass-over', prompt: 'What does it mean for the destroyer to pass over your house? What are you asking the blood of the Lamb to save you from?' },
       ],
@@ -195,6 +209,26 @@ export const EXODUS_12: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 12 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'passover-law',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 12: The Passover',
+      url: 'https://www.sefaria.org/Exodus.12',
+      description: 'Full Hebrew text and commentary on Passover.',
+    },
+    {
+      id: 'blood-covenant',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Blood Covenant',
+      url: 'https://www.bibleodyssey.org/dictionary/covenant/',
+      description: 'The role of blood in covenant ratification.',
+    },
+  ],
 
   hasHebrew: true,
 };

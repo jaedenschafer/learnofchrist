@@ -35,6 +35,18 @@ export const ECCLESIASTES_10: RichChapterContent = {
             plain(3, 'Yea also, when he that is a fool walketh by the way, his wisdom faileth him, and he saith to every one that he is a fool.'),
             plain(4, 'If the spirit of the ruler rise up against thee, leave not thy place; for yielding pacifieth great offences.'),
             plain(5, 'There is an evil which I have seen under the sun, as an error which proceedeth from the ruler:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ecc10-folly-ruins-reputation',
+          html:
+            'The Preacher moves from the personal to the systemic. Small folly spoils the precious. A wise man&apos;s behavior inclines him rightly; a fool&apos;s inclines him wrongly. The fool reveals himself through his actions. Even the wisdom of measured response—knowing when to yield to authority—is beyond the fool&apos;s grasp. And then the Preacher observes: folly is not merely personal vice. It corrupts structure, order, and hierarchy itself.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             plain(6, 'Folly is set in great dignity, and the rich sit in low place.'),
             plain(7, 'I have seen servants upon horses, and princes walking as servants upon the earth.'),
             plain(8, 'He that diggeth a pit shall fall into it; and whoso breaketh an hedge, a serpent shall bite him.'),

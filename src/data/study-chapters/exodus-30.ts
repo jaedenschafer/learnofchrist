@@ -52,7 +52,7 @@ export const EXODUS_30: RichChapterContent = {
           kind: 'commentary',
           id: 'c-altar-gold',
           html:
-            'The incense altar is small — one cubit square — but entirely covered in pure gold. It is not the largest piece of tabernacle furniture, but it is the most refined. Gold is used where worship happens or where God draws near. This altar sits before the veil, in the Holy Place, where the high priest enters to burn incense daily. It is the closest thing to the throne of God that the priests can approach while still living in the old covenant.',
+            'The incense altar is small — one cubit square — but entirely covered in pure gold. It is not the largest piece of tabernacle furniture, but it is the most refined. Gold is used where worship happens or where God draws near. This altar sits before the veil, in the Holy Place, where the high priest enters to burn incense daily. It is the closest thing to the throne of God that the priests can approach while still living in the old covenant[res:incense-gold].',
         },
         {
           kind: 'hebrew',
@@ -85,7 +85,7 @@ export const EXODUS_30: RichChapterContent = {
           kind: 'commentary',
           id: 'c-meeting-place',
           html:
-            'God promises to meet with the people at the mercy seat — the lid of the ark, where the blood of atonement is sprinkled on the Day of Atonement. The incense altar stands outside the veil, in the space where priests enter. Yet it is situated so that its smoke rises into the Most Holy Place itself. Incense is the priest&apos;s prayer rising into the presence of God.',
+            'God promises to meet with the people at the mercy seat — the lid of the ark, where the blood of atonement is sprinkled on the Day of Atonement. The incense altar stands outside the veil, in the space where priests enter. Yet it is situated so that its smoke rises into the Most Holy Place itself. Incense is the priest&apos;s prayer rising into the presence of God[res:redemption-money].',
         },
         {
           kind: 'scripture',
@@ -584,4 +584,23 @@ export const EXODUS_30: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 30 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'incense-gold',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Golden Incense Altar',
+      url: 'https://www.sefaria.org/Exodus.30',
+      description: 'Laws on altar and incense offering.',
+    },
+    {
+      id: 'redemption-money',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Atonement & Redemption',
+      url: 'https://www.bibleodyssey.org/dictionary/atonement/',
+      description: 'Ransom and redemption theology.',
+    },
+  ],
 };

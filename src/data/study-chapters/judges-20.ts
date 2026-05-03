@@ -90,6 +90,18 @@ export const JUDGES_20: RichChapterContent = {
             plain(21, 'But the children of Benjamin came forth out of Gibeah, and destroyed down to the ground of the Israelites that day twenty and two thousand men.'),
             plain(22, 'And the people the men of Israel encouraged themselves, and set their battle again in array in the place where they put themselves in array the first day.'),
             plain(23, '(And the children of Israel went up and wept before the Lord until even, and asked of the Lord, saying, Shall I go up again to battle against the children of Benjamin my brother? And the Lord said, Go up against him.)'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'judges-20-mid1',
+          html:
+            'Israel&apos;s pattern emerges: defeat, weeping, inquiry of the Lord, another battle. They do not turn away after the first loss. They do not trust their own strength after the second. Each defeat drives them deeper into repentance. By the second inquiry, they are fasting and offering sacrifices. The depths of their humbling are the precondition for the victory God will grant.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 20,
+          lines: [
             plain(24, 'And the children of Israel came near against the children of Benjamin the second day.'),
             plain(25, 'And Benjamin went forth against them out of Gibeah the second day, and destroyed down to the ground of the children of Israel again eighteen thousand men: all these were men of valour.'),
             plain(26, 'Then all the children of Israel, and all the people, went up, and came unto the house of God, and wept, and sat there before the Lord, and fasted that day until even, and offered burnt offerings and peace offerings before the Lord;'),

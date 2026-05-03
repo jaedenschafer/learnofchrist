@@ -97,6 +97,18 @@ export const PSALMS_145: RichChapterContent = {
             plain(13, 'Thy kingdom is an everlasting kingdom, and thy dominion endureth throughout all generations.'),
             plain(14, 'The Lord upholdeth all that fall, and raiseth up all those that be bowed down.'),
             plain(15, 'The eyes of all wait upon thee; and thou givest them their meat in due season.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps145-mid',
+          html:
+            'God&apos;s kingdom is eternal and His dominion endures. But the focus shifts from cosmic rule to personal care: He upholds the fallen, provides for all creatures, opens His hand in generosity. The greatest King is also the most intimate Father.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 145,
+          lines: [
             plain(16, 'Thou openest thine hand, and satisfiest the desire of every living thing.'),
             plain(17, 'The Lord is righteous in all his ways, and holy in all his works.'),
             plain(18, 'The Lord is nigh unto all them that call upon him, to all that call upon him in truth.'),

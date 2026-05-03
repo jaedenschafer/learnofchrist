@@ -37,6 +37,18 @@ export const PSALMS_102: RichChapterContent = {
             plain(4, 'My heart is smitten, and withered like grass; so that I forget to eat my bread.'),
             plain(5, 'By reason of the voice of my groaning my bones cleave to my skin.'),
             plain(6, 'I am like a pelican of the wilderness: I am like an owl of the desert.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps102-mid',
+          html:
+            'The catalog of suffering shifts from internal wasting to external isolation. The psalmist is consumed from within and then abandoned without. Each image deepens the portrait of one brought to the edge of death.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 102,
+          lines: [
             plain(7, 'I watch, and am as a sparrow alone upon the house top.'),
             plain(8, 'Mine enemies reproach me all the day; and they that are mad against me are sworn against me.'),
             plain(9, 'For I have eaten ashes like bread, and mingled my drink with weeping.'),

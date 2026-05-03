@@ -33,6 +33,25 @@ export const EXODUS_20: RichChapterContent = {
     ref: 'Exodus 20 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'ten-commandments',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Ten Commandments',
+      url: 'https://www.sefaria.org/Exodus.20',
+      description: 'Hebrew text and comparative law study.',
+    },
+    {
+      id: 'hammurabi-code',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Code of Hammurabi',
+      url: 'https://www.britishmuseum.org/collection/',
+      description: 'Ancient law code parallels and contrasts.',
+    },
+  ],
+
   sections: [
     /* ─── Exodus 20:1–2 — The Voice of God ───────────────────────────── */
     {
@@ -63,7 +82,7 @@ export const EXODUS_20: RichChapterContent = {
           kind: 'commentary',
           id: 'c-god-spake-all',
           html:
-            'God does not send a prophet. He does not write on paper. He speaks <em>directly to all Israel</em> — the text says His voice was heard by the entire nation. This is the only place in scripture where God addresses a whole people at once with the full weight of His presence. No mediator. No filter. For a moment, there is only one voice and three million listeners.',
+            'God does not send a prophet. He does not write on paper. He speaks <em>directly to all Israel</em> — the text says His voice was heard by the entire nation. This is the only place in scripture where God addresses a whole people at once with the full weight of His presence. No mediator. No filter. For a moment, there is only one voice and three million listeners[res:ten-commandments].',
         },
         {
           kind: 'hebrew',
@@ -139,7 +158,7 @@ export const EXODUS_20: RichChapterContent = {
           kind: 'commentary',
           id: 'c-no-other-gods',
           html:
-            'The Decalogue begins not with a negative but with a claim: <em>I am the LORD thy God.</em> You belong to Me. Therefore — as a consequence — you will have no other gods. This is not a rule imposed from the outside; it flows from a relationship already established. Israel has one God, not because that one God forbids competition, but because covenant loyalty is the whole shape of what Israel is.',
+            'The Decalogue begins not with a negative but with a claim: <em>I am the LORD thy God.</em> You belong to Me. Therefore — as a consequence — you will have no other gods. This is not a rule imposed from the outside; it flows from a relationship already established. Israel has one God, not because that one God forbids competition, but because covenant loyalty is the whole shape of what Israel is[res:hammurabi-code].',
         },
         {
           kind: 'hebrew',

@@ -102,6 +102,17 @@ export const KINGS_2_23: RichChapterContent = {
                 t(' where the priests had burned incense, from Geba to Beersheba: and he brake down the high places of the gates that were in the entering in of the gate of Joshua the governor of the city, which were on a man&apos;s left hand at the gate of the city.'),
               ],
             },
+        ],
+        },
+        {
+          kind: 'commentary',
+          id: 'kings-23-23-mid1',
+          html: 'Josiah gathers all the vessels and idols made for Baal, the grove, and all the host of heaven from the temple, and burns them in the fields of Kidron. The idolatrous priests who had burned incense to Baal, the sun, the moon, and the planets—all are put down. The grove is brought out and burned to powder. The houses of the male cult prostitutes are destroyed. With ruthless efficiency, Josiah removes not merely the idols but the entire infrastructure of false worship. And then he travels the entire land from Geba to Beersheba, defiling every high place where false priests had burned incense for generations. To defile a high place is to render it permanently unusable—a place of worship becomes, by his command, a place of ritual uncleanness.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             {
               number: 9,
               spans: [

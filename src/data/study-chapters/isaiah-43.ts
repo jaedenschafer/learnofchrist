@@ -107,6 +107,18 @@ export const ISAIAH_43: RichChapterContent = {
             plain(18, 'Remember ye not the former things, neither consider the things of old.'),
             plain(19, 'Behold, I will do a new thing; now it shall spring forth; shall ye not know it? I will even make a way in the wilderness, and rivers in the desert.'),
             plain(20, 'The beast of the field shall honour me, the dragons and the owls: because I give waters in the wilderness, and rivers in the desert, to give drink to my people, my chosen.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah43-way-to-formation',
+          html:
+            'God has sent the Babylonian nobles down and made a way in the wilderness, rivers in the desert. The beasts honor God for this provision. Now comes the turning point: from the promise of God&apos;s new work in nature to God&apos;s intimate relationship with His formed people.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 43,
+          lines: [
             plain(21, 'This people have I formed for myself; they shall shew forth my praise.'),
             plain(22, 'But thou hast not called upon me, O Jacob; but thou hast been weary of me, O Israel.'),
             plain(23, 'Thou hast not brought me the small cattle of thy burnt offerings; neither hast thou honoured me with thy sacrifices. I have not caused thee to serve with an offering, nor wearied thee with incense.'),

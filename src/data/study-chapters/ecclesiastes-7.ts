@@ -99,6 +99,17 @@ export const ECCLESIASTES_7: RichChapterContent = {
             plain(19, 'Wisdom strengtheneth the wise more than ten mighty men which are in the city.'),
             plain(20, 'For there is not a just man upon earth, that doeth good, and sinneth not.'),
             plain(21, 'Also take not heed unto all words that are spoken; lest thou hear thy servant curse thee:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ecc7-middle-way',
+          html: 'The Preacher observes an injustice: just men perish, wicked men prosper. The moral universe does not balance fairly. Yet he counsels a middle way: don&apos;t be righteous over much, destroying yourself with unrealistic perfectionism, but don&apos;t give in to wickedness either. Fear God and keep His commandments, but hold lightly to your own righteousness. Acknowledge that all are infected with sin. No one does pure good. The wise understand this reality and navigate between extremes. Such a one finds strength and wisdom.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(22, 'For oftentimes also thine own heart knoweth that thou thyself likewise hast cursed others.'),
             plain(23, 'All this have I proved by wisdom: I said, I will be wise; but it was far from me.'),
             plain(24, 'That which is far off, and exceeding deep, who can find it out?'),
@@ -130,7 +141,7 @@ export const ECCLESIASTES_7: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'ecc7-middle-way',
+          id: 'ecc7-middle-way-2',
           prompt: 'Do you tend toward excessive righteousness—trying to be perfect and destroying yourself? Or toward excessive wickedness—compromising your integrity? What would it look like to find the middle way: to fear God and seek wisdom without demanding perfection of yourself?',
         },
       ],

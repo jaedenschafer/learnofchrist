@@ -105,6 +105,18 @@ export const JOB_31: RichChapterContent = {
         },
         {
           kind: 'commentary',
+          id: 'job31-mid2',
+          html:
+            'Job&apos;s justice flows from intimate care. He has fed the fatherless as though raising them as his own children. He has clothed the naked. He has received gratitude—their loins have blessed him. He has not merely given charity; he has given himself.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 31,
+          lines: [
+          ],
+        },
+        {
+          kind: 'commentary',
           id: 'job31-split-1',
           html:
             'Job has treated his servants with justice—has not despised their cause when they contended with him. He grounds this in something deeper than law: "Did not he that made me in the womb make him?" All humans share the same maker. He has clothed the poor, fed the fatherless. Servant and master are equal before God.',

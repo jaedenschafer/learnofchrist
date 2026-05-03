@@ -110,6 +110,18 @@ export const JOB_11: RichChapterContent = {
             plain(11, 'For he knoweth vain men: he seeth wickedness also; will he not then consider it?'),
             plain(12, 'For vain man would be wise, though man be born like a wild ass&apos;s colt.'),
             plain(13, 'If thou prepare thine heart, and stretch out thine hands toward him;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job11-prepare-heart',
+          html:
+            'Zophar shifts from cosmic philosophy to practical demand. Human wisdom is worthless, he says, but here is the solution: prepare your heart. Stretch out your hands to God. The argument turns from theory to action—from what humans cannot understand to what they must do.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             plain(14, 'If iniquity be in thy hand, put it far away, and let not wickedness dwell in thy tabernacles;'),
             plain(15, 'For then shalt thou lift up thy face without spot; and thou shalt be stedfast, and shalt not fear:'),
             plain(16, 'Because thou shalt forget thy misery, and remember it as waters that pass away:'),

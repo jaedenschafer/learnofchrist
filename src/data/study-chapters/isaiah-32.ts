@@ -95,6 +95,18 @@ export const ISAIAH_32: RichChapterContent = {
             plain(12, 'They shall lament for the teats, for the pleasant fields, for the fruitful vine.'),
             plain(13, 'Upon the land of my people shall come up thorns and briers; yea, upon all the houses of joy in the joyous city:'),
             plain(14, 'Because the palaces shall be forsaken; the multitude of the city shall be left; the forts and towers shall be for dens for ever, a joy of wild asses, a pasture of flocks;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah32-devastation-to-spirit',
+          html:
+            'The call to judgment is clear: the careless must tremble, vintage will fail, gathering will not come. Thorns and briers will cover the land. Houses of joy become desolate. Palaces are forsaken. The forts and towers become dens for wild creatures. The picture of devastation is complete. Now comes the turning point: what happens when the Spirit is poured out.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 32,
+          lines: [
             plain(15, 'Until the spirit be poured upon us from on high, and the wilderness shall become a fruitful field, and the fruitful field shall be esteemed as a forest.'),
             plain(16, 'Then judgment shall dwell in the wilderness, and righteousness remain in the fruitful field.'),
             plain(17, 'And the work of righteousness shall be peace; and the effect of righteousness quietness and assurance for ever.'),

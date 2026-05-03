@@ -44,6 +44,13 @@ export const EXODUS_21: RichChapterContent = {
             { number: 4, spans: [ t('If his master have given him a wife, and she have born him sons or daughters; the wife and her children shall be her master&apos;s, and he shall go out by himself.') ] },
             { number: 5, spans: [ t('And if the servant shall plainly say, I love my master, my wife, and my children; '), hp('I will not go out free', 'willing-slave'), t(':') ] },
             { number: 6, spans: [ t('Then his master shall bring him unto the judges; he shall also bring him to the door, or unto the door post; and his master shall '), hy('bore his ear through with an awl', 'awl-ear'), t('; and he shall serve him for ever.') ] },
+          ],
+        },
+        { kind: 'commentary', id: 'ex21-mid', html: 'The willing slave stands at the threshold. His ear is pierced. The mark is made at the doorpost—the same place where the Passover lamb&apos;s blood was painted. A servant who could go free chooses to stay because love holds him. This is the shape of voluntary covenant.' },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             { number: 7, spans: [ t('And if a man sell his daughter to be a maidservant, she shall not go out as the menservants do.') ] },
             { number: 8, spans: [ t('If she please not her master, who hath betrothed her to himself, then shall he let her be redeemed: to sell her unto a strange nation he shall have no power, seeing he hath dealt deceitfully with her.') ] },
             { number: 9, spans: [ t('And if he have betrothed her unto his son, he shall deal with her after the manner of daughters.') ] },
@@ -62,7 +69,7 @@ export const EXODUS_21: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'willing-slave',
-          html: 'The servant could go free. The law offers it. Debt is paid, time is served. But the servant chooses differently: "I love my master, my wife, and my children. I will not go out free." He loves the household more than liberty. So he goes to the door. A choice to stay.',
+          html: 'The servant could go free. The law offers it. Debt is paid, time is served. But the servant chooses differently: "I love my master, my wife, and my children. I will not go out free." He loves the household more than liberty. So he goes to the door. A choice to stay[res:covenant-code].',
         },
         {
           kind: 'hebrew',
@@ -75,7 +82,7 @@ export const EXODUS_21: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'forever-service',
-          html: 'The servant serves "forever." Not eternally—the word means "for life" or "for all the days ahead." But it is a choice made in love, not compulsion. The servant had the exit. He refused it. So the mark on his ear becomes a mark of covenant: he chose to belong.',
+          html: 'The servant serves "forever." Not eternally—the word means "for life" or "for all the days ahead." But it is a choice made in love, not compulsion. The servant had the exit. He refused it. So the mark on his ear becomes a mark of covenant: he chose to belong[res:slavery-deuteronomy].',
         },
         {
           kind: 'christ',
@@ -156,6 +163,13 @@ export const EXODUS_21: RichChapterContent = {
             { number: 23, spans: [ t('And if any mischief follow, then thou shalt give '), hp('life for life', 'ayin-tachat-ayin'), t(',') ] },
             { number: 24, spans: [ t('Eye for eye, tooth for tooth, hand for hand, foot for foot,') ] },
             { number: 25, spans: [ t('Burning for burning, wound for wound, stripe for stripe.') ] },
+          ],
+        },
+        { kind: 'commentary', id: 'ex21-mid2', html: 'The law has been stated: proportion equals justice. Now come the exceptions—the cases where the law bends toward mercy. The statement of principle meets the complexity of real life. What follows is the refraction of the rule through lived situations.' },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             { number: 26, spans: [ t('And if a man smite the eye of his servant, or the eye of his maid, that it perish; he shall let him go free for his eye&apos;s sake.') ] },
             { number: 27, spans: [ t('And if he smite out a manservant&apos;s tooth, or a maidservant&apos;s tooth; he shall let him go free for his tooth&apos;s sake.') ] },
             { number: 28, spans: [ t('If an ox gore a man or a woman, that they die: then the ox shall be surely stoned, and his flesh shall not be eaten; but the owner of the ox shall be quit.') ] },
@@ -251,6 +265,26 @@ export const EXODUS_21: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 21 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'covenant-code',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Covenant Code',
+      url: 'https://www.sefaria.org/Exodus.21',
+      description: 'Hebrew text of the case laws.',
+    },
+    {
+      id: 'slavery-deuteronomy',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Exodus 21 vs. Deuteronomy 15',
+      url: 'https://intertextual.bible/',
+      description: 'Comparison with Deuteronomy slavery law.',
+    },
+  ],
 
   hasHebrew: true,
 };

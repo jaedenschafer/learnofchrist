@@ -36,6 +36,18 @@ export const ISAIAH_23: RichChapterContent = {
             plain(5, 'As at the report of Egypt, so shall they be sorely pained at the report of Tyre.'),
             plain(6, 'Pass ye over to Tarshish; howl, ye inhabitants of the isle.'),
             plain(7, 'Is this your joyous city, whose antiquity is of ancient days? her own feet shall carry her afar off to sojourn.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah23-fate-to-cause',
+          html:
+            'The opening verses paint a portrait of devastation: the ships howl, inhabitants are paralyzed, Sidon is ashamed. Tyre, once a joyous city of ancient days, finds itself carried away into exile. The scene is set. Now comes the turning point: the question of who brought this upon the merchant city.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             plain(8, 'Who hath taken this counsel against Tyre, the crowning city, whose merchants are princes, and whose traffickers are the honourable of the earth?'),
             plain(9, 'The Lord of hosts hath taken this counsel to stain the pride of all glory, and to bring into contempt all the honourable of the earth.'),
             plain(10, 'Pass through thy land as a river, O daughter of Tarshish: there is no more strength.'),

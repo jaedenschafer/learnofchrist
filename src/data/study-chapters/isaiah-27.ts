@@ -36,6 +36,18 @@ export const ISAIAH_27: RichChapterContent = {
             plain(4, 'Fury is not in me: by what occasion soever it is that thou contendest with me, I will take the branches thereof, and cast fire upon them.'),
             plain(5, 'Or let him take hold of my strength, that he may make peace with me; and he shall make peace with me.'),
             plain(6, 'He shall cause them that come of Jacob to take root: Israel shall blossom and bud, and fill the face of the world with fruit.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah27-restoration-to-refining',
+          html:
+            'From cosmic warfare to intimate vineyard-keeping: the Lord defeats Leviathan with His sword, yet sings of the vineyard with tender care, watering it every moment and keeping watch night and day. Israel will take root and blossom. Yet the turning point comes: after the restoration, comes the question of God&apos;s judgment and how Israel has been refined.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 27,
+          lines: [
             plain(7, 'Hath he smitten him, as he smote those that smote him? or is he slain according to the slaughter of them that are slain by him?'),
             plain(8, 'In measure, when it shooteth forth, thou wilt debate with it: he stayeth his rough wind in the day of the east wind.'),
             plain(9, 'By this therefore shall the iniquity of Jacob be purged; and this is all the fruit to take away his sin; when he maketh all the stones of the altar as chalkstones that are beaten in sunder, the groves and images shall not stand up.'),

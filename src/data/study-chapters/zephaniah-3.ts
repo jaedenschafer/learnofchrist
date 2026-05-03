@@ -84,6 +84,17 @@ export const ZEPHANIAH_3: RichChapterContent = {
             plain(11, 'In that day shalt thou not be ashamed for all thy doings, wherein thou hast transgressed against me: for then I will take away out of the midst of thee them that rejoice in thy pride, and thou shalt no more be haughty because of my holy mountain.'),
             plain(12, 'I will also leave in the midst of thee an afflicted and poor people, and they shall trust in the name of the Lord.'),
             plain(13, 'The remnant of Israel shall not do iniquity, nor speak lies; neither shall a deceitful tongue be found in their mouth: for they shall feed and lie down, and none shall make them afraid.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'zephaniah3-truthful',
+          html: 'The remnant will be transformed. They will not do iniquity or speak lies. A deceitful tongue will not be found among them. They will feed and lie down in peace — no one will make them afraid. This is what restoration looks like: a community of the poor and afflicted, now truthful and at peace, trusting in God.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(14, 'Sing, O daughter of Zion; shout, O Israel; be glad and rejoice with all the heart, O daughter of Jerusalem.'),
             plain(15, 'The Lord hath taken away thy judgments, he hath cast out thine enemy: the king of Israel, even the Lord, is in the midst of thee: thou shalt not see evil any more.'),
             plain(16, 'In that day it shall be said to Jerusalem, Fear not: and to Zion, Let not thine hands be slack.'),
@@ -95,9 +106,9 @@ export const ZEPHANIAH_3: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'zephaniah3-restore',
+          id: 'zephaniah3-sing',
           html:
-            'God will restore His people. He will give them a pure language, will gather the dispersed, will remove the proud from their midst. The remnant—the poor and afflicted who trust in God—will become the foundation of a new community.',
+            'The command echoes across time: sing, shout, be glad, rejoice with all your heart. The command is not just for Jerusalem but for all the daughter of Zion. This is the call to joy that answers the judgment. From judgment comes restoration. From restoration comes singing.',
         },
         {
           kind: 'commentary',

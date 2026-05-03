@@ -87,6 +87,17 @@ export const PROVERBS_13: RichChapterContent = {
             plain(16, 'Every prudent man dealeth with knowledge: but a fool layeth open his folly.'),
             plain(17, 'A wicked messenger falleth into mischief: but a faithful ambassador is health.'),
             plain(18, 'Poverty and shame shall be to him that refuseth instruction: but he that regardeth reproof shall be honoured.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov13-law-instruction',
+          html: 'The law of the wise is a fountain of life—not restrictive but liberating. Good understanding brings favor; the way of transgressors is hard. The prudent deal with knowledge; the fool exposes his folly. A faithful ambassador brings health; a wicked messenger falls into mischief. And the turning point: those who regard reproof are honored, while those who refuse instruction sink into poverty and shame. The choice determines the outcome.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 13,
+          lines: [
             plain(19, 'The desire accomplished is sweet to the soul: but it is abomination to fools to depart from evil.'),
             plain(20, 'He that walketh with wise men shall be wise: but a companion of fools shall be destroyed.'),
             plain(21, 'Evil pursueth sinners: but to the righteous good shall be repayed.'),

@@ -316,6 +316,69 @@ export const KINGS_1_2: RichChapterContent = {
         },
         {
           kind: 'commentary',
+          id: 'kings-2-2-mid1',
+          html: 'Adonijah&apos;s strategy shifts. He has lost the throne to Solomon. Now he moves with calculation, approaching Bathsheba with deference and a seemingly innocent request. But in the ancient world, marrying a former king&apos;s concubine was not personal—it was a claim on the throne itself. Adonijah is playing a dangerous game, one that reveals his unwillingness to accept the reality of Solomon&apos;s rule. He cannot seize the kingdom, so he reaches for a symbolic foothold.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
+            {
+              number: 18,
+              spans: [
+                t('And Bathsheba said, Well; I will speak for thee unto the king.'),
+              ],
+            },
+            {
+              number: 19,
+              spans: [
+                t('Bathsheba therefore went unto king Solomon, to speak unto him for Adonijah. And the king rose up to meet her, and bowed himself unto her, and sat down on his throne, and caused a seat to be set for the king&apos;s mother; and she sat on his right hand.'),
+              ],
+            },
+            {
+              number: 20,
+              spans: [
+                t('Then she said, I desire one small petition of thee; I pray thee, say me not nay. And the king said unto her, Ask on, my mother: for I will not say thee nay unto thee.'),
+              ],
+            },
+            {
+              number: 21,
+              spans: [
+                t('And she said, Let '),
+                t('Abishag the Shunammite be given to Adonijah thy brother to wife'),
+                t('.'),
+              ],
+            },
+            {
+              number: 22,
+              spans: [
+                t('And king Solomon answered and said unto his mother, And why dost thou ask Abishag the Shunammite for Adonijah? ask for him the kingdom also; for he is mine elder brother: therefore ask for him the kingdom also.'),
+              ],
+            },
+            {
+              number: 23,
+              spans: [
+                t('Then king Solomon sware by the Lord, saying, '),
+                hp('God do so to me, and more also, if Adonijah have not spoken this word against his own life', 'solomon-oath'),
+                t('.'),
+              ],
+            },
+            {
+              number: 24,
+              spans: [
+                t('Now therefore, as the Lord liveth, which hath established me, and set me on the throne of David my father, and who hath made me an house, as he promised, Adonijah shall be put to death this day.'),
+              ],
+            },
+            {
+              number: 25,
+              spans: [
+                t('And king Solomon sent by the hand of Benaiah the son of Jehoiada; and he fell upon him that he died.'),
+              ],
+            },
+          ],
+        },
+        {
+          kind: 'commentary',
           id: 'adonijah-bitter',
           html:
             'Adonijah approaches Bathsheba, Solomon&apos;s mother and now the queen-mother, with a show of deference. "I have somewhat to say unto thee." He is polite. He is sad. He acknowledges that the kingdom has become Solomon&apos;s "for it was his from the Lord." But there is a calculation in this politeness. Adonijah has lost the throne, and he is looking for a way to reclaim it — or at least to stake a claim for the future.',
@@ -655,6 +718,17 @@ export const KINGS_1_2: RichChapterContent = {
                 t('And it was told Solomon that Shimei had gone from Jerusalem to Gath, and was come again.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'kings-2-2-mid2',
+          html: 'Shimei had accepted the terms: he would remain in Jerusalem, bound by an oath. For three years, he honors it. But then his servants flee to Gath—a foreign kingdom. And Shimei, to retrieve them, crosses the boundary he was sworn not to cross. It seems a small matter—saving his servants. But the oath was clear. The boundary was explicit. In the moment of testing, when circumstances demand it, Shimei chooses his servants over his sacred word. The oath breaks.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             {
               number: 42,
               spans: [

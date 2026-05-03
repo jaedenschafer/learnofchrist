@@ -94,6 +94,18 @@ export const JOB_30: RichChapterContent = {
             plain(11, 'Because he hath loosed my cord, and afflicted me, therefore they have also let loose the bridle before me.'),
             plain(12, 'Upon my right hand rise the youth; they push away my feet, and they raise up against me the ways of their destruction.'),
             plain(13, 'They mar my path, they set forward my calamity, they have no helper.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job30-mid1',
+          html:
+            'The mockers have become persecutors. They push him, they block his way, they intentionally bring calamity upon him. And he is utterly alone—"they have no helper," Job notes. No one steps in. No one defends him. The human world has abandoned him.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 30,
+          lines: [
             plain(14, 'They came upon me as a wide breaking in of waters: in the desolation they rolled themselves upon me.'),
             plain(15, 'Terrors are turned upon me: they pursue my soul as the wind: and my welfare passeth away as a cloud.'),
             plain(16, 'And now my soul is poured out upon me; the days of affliction have taken hold upon me.'),
@@ -152,6 +164,18 @@ export const JOB_30: RichChapterContent = {
             plain(23, 'For I know that thou wilt bring me to death, and to the house appointed for all living.'),
             plain(24, 'Howbeit he will not stretch out his hand to the grave, though they cry in their destruction.'),
             plain(25, 'Did not I weep for him that was in trouble? was not my soul grieved for the poor?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job30-mid2',
+          html:
+            'Job reminds himself—and God—of his compassion. He wept for those in trouble. He grieved for the poor. He extended mercy. This is not mere boasting. It is a question put to God: If I was merciful to others, why is there no mercy shown to me?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 30,
+          lines: [
             plain(26, 'When I looked for good, then evil came unto me: and when I waited for light, there came darkness.'),
             plain(27, 'My bowels boiled, and rested not: the days of affliction prevented me.'),
             plain(28, 'I went mourning without the sun: I stood up, and I cried in the congregation.'),

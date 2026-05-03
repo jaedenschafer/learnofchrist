@@ -27,6 +27,25 @@ export const EXODUS_35: RichChapterContent = {
     ref: 'Exodus 35 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'materials-collection',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Tabernacle: Materials Gathered',
+      url: 'https://www.sefaria.org/Exodus.35',
+      description: 'Hebrew text on gifts collected for sanctuary.',
+    },
+    {
+      id: 'oil-incense',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Anointing Oil & Incense',
+      url: 'https://www.bibleodyssey.org/dictionary/anointing/',
+      description: 'Formulas and theological significance.',
+    },
+  ],
+
   sections: [
     /* ─── Exodus 35:1–3 — The Sabbath Law ─────────────────────────────── */
     {
@@ -51,7 +70,7 @@ export const EXODUS_35: RichChapterContent = {
           kind: 'commentary',
           id: 'exo35-assembly',
           html:
-            'Moses gathers the whole people. Not the elders alone, not the leaders — all the children of Israel. What follows is an address to everyone. The work of building the tabernacle is not a few people&apos;s task; it belongs to any who have a willing heart.',
+            'Moses gathers the whole people. Not the elders alone, not the leaders — all the children of Israel. What follows is an address to everyone. The work of building the tabernacle is not a few people&apos;s task; it belongs to any who have a willing heart[res:materials-collection].',
         },
         {
           kind: 'scripture',
@@ -77,7 +96,7 @@ export const EXODUS_35: RichChapterContent = {
           kind: 'commentary',
           id: 'c-sabbath-rest',
           html:
-            'The Sabbath law is restated word-for-word from Exodus 20. Even now, in the midst of building the Lord&apos;s house, six days are for labor and the seventh is for rest. Obedience to the Sabbath is not set aside by urgency — not even the work of God&apos;s tabernacle overrides the rhythm God has given. The holy day belongs to the Lord before the house does.',
+            'The Sabbath law is restated word-for-word from Exodus 20. Even now, in the midst of building the Lord&apos;s house, six days are for labor and the seventh is for rest. Obedience to the Sabbath is not set aside by urgency — not even the work of God&apos;s tabernacle overrides the rhythm God has given. The holy day belongs to the Lord before the house does[res:oil-incense].',
         },
         {
           kind: 'carry',

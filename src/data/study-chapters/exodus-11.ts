@@ -47,7 +47,7 @@ export const EXODUS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'c-one-more',
           html:
-            'Nine plagues have fallen. The eighth is darkness — the land is black. In that darkness, God tells Moses there is one plague left, and it will end this. Not &ldquo;perhaps it will,&rdquo; but &ldquo;he will let you go.&rdquo; The outcome is already decided. What&apos;s being decided now is only whether Pharaoh chooses to release Israel willingly or whether God&apos;s hand will force his hand.',
+            'Nine plagues have fallen. The eighth is darkness — the land is black. In that darkness, God tells Moses there is one plague left, and it will end this. Not &ldquo;perhaps it will,&rdquo; but &ldquo;he will let you go.&rdquo; The outcome is already decided. What&apos;s being decided now is only whether Pharaoh chooses to release Israel willingly or whether God&apos;s hand will force his hand[res:passover-lamb].',
         },
         {
           kind: 'hebrew',
@@ -97,7 +97,7 @@ export const EXODUS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'c-favour',
           html:
-            'In the darkness of the ninth plague, while Egyptians sit in blackness, God gives Israel favour in their eyes. The word &ldquo;favour&rdquo; is <em>chen</em> in Hebrew — grace, a gift unearned and undeserved. Even now, in the midst of judgment, God is making a way for His people to leave with silver and gold. Not as slaves fleeing in the night, but as guests honoured. The Egyptians themselves will open their hands.',
+            'In the darkness of the ninth plague, while Egyptians sit in blackness, God gives Israel favour in their eyes. The word &ldquo;favour&rdquo; is <em>chen</em> in Hebrew — grace, a gift unearned and undeserved. Even now, in the midst of judgment, God is making a way for His people to leave with silver and gold. Not as slaves fleeing in the night, but as guests honoured. The Egyptians themselves will open their hands[res:passover-ritual].',
         },
         {
           kind: 'hebrew',
@@ -342,6 +342,26 @@ export const EXODUS_11: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 11 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'passover-lamb',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Passover Lamb',
+      url: 'https://www.sefaria.org/Exodus.12',
+      description: 'Hebrew text and law on the Passover lamb.',
+    },
+    {
+      id: 'passover-ritual',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Passover Ritual',
+      url: 'https://www.bibleodyssey.org/dictionary/passover/',
+      description: 'Study of the Passover rite and theology.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -106,6 +106,11 @@ export const PROVERBS_10: RichChapterContent = {
         },
         {
           kind: 'commentary',
+          id: 'prov10-labor-lips-first',
+          html: 'Five proverbs turn on the connection between labor, instruction, and the power of words. Righteous labor tends to life; the wicked fruit tends to sin. Those who heed instruction walk in life; those who refuse reproof go astray. Your tongue is either choice silver or worthless—your words either feed others or expose your fool-ness. The righteous choose to speak truth and restraint; the wicked hide hatred behind lies.',
+        },
+        {
+          kind: 'commentary',
           id: 'prov10-labor-lips',
           html: 'Five proverbs turn on the same axis: the righteous build themselves up through work and restraint, the wicked tear themselves down through talk and deception. Your labor tends somewhere. Your silence is sometimes your greatest tool. Your tongue is either silver or worthless—the choice is yours.',
         },

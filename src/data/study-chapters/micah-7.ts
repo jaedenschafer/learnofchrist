@@ -86,6 +86,17 @@ export const MICAH_7: RichChapterContent = {
             plain(11, 'In the day that thy walls are to be built, in that day shall the decree be far removed.'),
             plain(12, 'In that day also he shall come even to thee from Assyria, and from the fortified cities, and from the fortress even to the river, and from sea to sea, and from mountain to mountain.'),
             plain(13, 'Notwithstanding the land shall be desolate because of them that dwell therein, for the fruit of their doings.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'micah7-vision-complete',
+          html: 'The vision of restoration is complete. The walls will be rebuilt. The peoples from far distant lands will gather to the God of Israel. The nations will fear Him. And yet the land will be desolate for those who dwelt in it and brought judgment upon themselves. The merciful vision belongs only to the faithful remnant.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(14, 'Feed thy people with thy rod, the flock of thy hand, which dwell solitarily in the wood, in the midst of Carmel: let them feed in Bashan and Gilead, as in the days of old.'),
             plain(15, 'According to the days of thy coming out of the land of Egypt will I shew unto him marvellous things.'),
             plain(16, 'The nations shall see and be confounded at all their might: they shall lay their hand upon their mouth, their ears shall be deaf.'),

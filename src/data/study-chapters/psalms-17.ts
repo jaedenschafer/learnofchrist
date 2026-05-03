@@ -37,6 +37,18 @@ export const PSALMS_17: RichChapterContent = {
             plain(6, 'I have called upon thee, for thou wilt hear me, O God: incline thine ear unto me, and hear my speech.'),
             plain(7, 'Shew me thy marvellous kindness, O thou that savest by thy right hand them which put their trust in thee from those that rise up against them.'),
             plain(8, 'Keep me as the apple of the eye, hide me under the shadow of thy wings,'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps17-mid-shield',
+          html:
+            'David has asked for everything that matters: examination, protection, refuge. Now the reality he faces. The enemies surround him. And yet his prayer remains unchanged. He has placed himself in God&apos;s hands. The rest is trust.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 17,
+          lines: [
             plain(9, 'From the wicked that oppress me, from my deadly enemies, that compass me about.'),
             plain(10, 'They are inclosed in their own fat: with their mouth they speak proudly.'),
             plain(11, 'They have now compassed us in our steps: they have set their eyes bowing down to the earth;'),

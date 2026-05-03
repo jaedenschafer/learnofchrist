@@ -85,6 +85,17 @@ export const ECCLESIASTES_5: RichChapterContent = {
             plain(11, 'When goods increase, they are increased that eat them: and what good is there to the owners thereof, saving the beholding of them with their eyes?'),
             plain(12, 'The sleep of a labouring man is sweet, whether he eat little or much: but the abundance of the rich will not suffer him to sleep.'),
             plain(13, 'There is a sore evil which I have seen under the sun, namely, riches kept for the owners thereof to their hurt.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ecc5-silver-insatiable',
+          html: '"He that loveth silver shall not be satisfied with silver; nor he that loveth abundance with increase." The Preacher identifies a fundamental law: the pursuit of material wealth cannot be satisfied. Each gain breeds desire for more. The rich man will never have enough, no matter how much he accumulates. Yet the laborer who works hard sleeps well—the sleep of the satisfied. The rich man, anxious about his possessions, sleeps poorly. Abundance brings not rest but worry. This is the evil of hoarding: it hurts the one who hoards.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(14, 'But those riches perish by evil travail: and he begetteth a son, and there is nothing in his hand.'),
             plain(15, 'As he came forth of his mother&apos;s womb, naked shall he return to go as he came, and shall take nothing of his labour, which he may carry away in his hand.'),
             plain(16, 'And this also is a sore evil, that in all points as he came, so shall he go: and what profit hath he that hath laboured for the wind?'),

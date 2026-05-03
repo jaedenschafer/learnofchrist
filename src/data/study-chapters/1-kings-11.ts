@@ -310,6 +310,17 @@ export const KINGS_1_11: RichChapterContent = {
             plain(19, 'And Hadad found great favour in the sight of Pharaoh, so that he gave him to wife the sister of his own wife, the sister of Tahpenes the queen.'),
             plain(20, 'And the sister of Tahpenes bare him Genubath his son, whom Tahpenes weaned in Pharaoh&apos;s house: and Genubath was in the household of Pharaoh among the sons of Pharaoh.'),
             plain(21, 'And when Hadad heard in Egypt that David slept with his fathers, and that Joab the captain of the host was dead, Hadad said to Pharaoh, Let me depart, that I may go to mine own country.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'kings-11-11-mid1',
+          html: 'Hadad was a child when David and Joab conquered Edom and killed every male in the land. He escaped with his father&apos;s servants to Egypt, where Pharaoh gave him shelter, a wife from the royal family, and honor. For years, Hadad lived in foreign comfort. But when he heard that David and Joab were dead, he asked to return to his homeland. Pharaoh was puzzled—why leave security for a conquered kingdom? But Hadad needed to go home. The wound of conquest does not heal easily, and now, with the king who defeated him in the grave, Hadad saw his chance to reclaim what was lost.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             plain(22, 'Then Pharaoh said unto him, But what hast thou lacked with me? that, behold, thou seekest to go to thine own country. And he answered, Nothing: howbeit let me go in any wise.'),
             {
               number: 23,
@@ -395,6 +406,17 @@ export const KINGS_1_11: RichChapterContent = {
               ],
             },
             plain(33, 'Howbeit I will not take the whole kingdom out of his hand: but I will make him prince all the days of his life for David my servant&apos;s sake, whom I chose, because he kept my commandments and my statutes:'),
+        ],
+        },
+        {
+          kind: 'commentary',
+          id: 'kings-11-11-mid2',
+          html: 'Ahijah tore the new garment into twelve pieces—a prophetic sign. Each piece represents a tribe of Israel. Solomon will lose ten of them to Jeroboam. But one tribe will remain to Solomon&apos;s descendants, preserved for David&apos;s sake and for Jerusalem, the city God has chosen. The reason is clear: Solomon has turned from God to worship the gods of his wives. He has broken the covenant, and the kingdom will be broken. But even in judgment, there is mercy. The line will not be extinguished. David&apos;s seed will continue.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             plain(34, 'But I will take the kingdom out of his son&apos;s hand, and will give it unto thee, even ten tribes.'),
             plain(35, 'And unto his son will I give one tribe, that David my servant may have a light alway before me in Jerusalem, the city which I have chosen me to put my name there.'),
             {

@@ -50,13 +50,13 @@ export const EXODUS_24: RichChapterContent = {
           kind: 'commentary',
           id: 'ex24-come',
           html:
-            'Moses is the mediator—the one who stands in the middle. He brings others as far as they can go, but he alone continues higher. The pattern is deliberate: three named men (Nadab and Abihu will reappear later, fatally), plus seventy elders. Jesus will later send out seventy (or seventy-two) disciples; He will have three closest companions; the pattern of the few within the many holds.',
+            'Moses is the mediator—the one who stands in the middle. He brings others as far as they can go, but he alone continues higher. The pattern is deliberate: three named men (Nadab and Abihu will reappear later, fatally), plus seventy elders. Jesus will later send out seventy (or seventy-two) disciples; He will have three closest companions; the pattern of the few within the many holds[res:covenant-blood].',
         },
         {
           kind: 'commentary',
           id: 'ex24-near',
           html:
-            'There is a distance even in worship. The people worship from afar off; only Moses draws near. Holiness is not a feeling or a moment of personal emotion—it is a relationship with God that has boundaries, hierarchies, gradations. You do not walk into the presence of fire as if it were a living room.',
+            'There is a distance even in worship. The people worship from afar off; only Moses draws near. Holiness is not a feeling or a moment of personal emotion—it is a relationship with God that has boundaries, hierarchies, gradations. You do not walk into the presence of fire as if it were a living room[res:sealed-tablets].',
         },
       ],
     },
@@ -517,6 +517,26 @@ export const EXODUS_24: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 24 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'covenant-blood',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Covenant Ratification',
+      url: 'https://www.bibleodyssey.org/dictionary/covenant/',
+      description: 'Study of blood ritual and ceremony.',
+    },
+    {
+      id: 'sealed-tablets',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 24: Covenant Sealed',
+      url: 'https://www.sefaria.org/Exodus.24',
+      description: 'Hebrew text on ratification and Moses on mountain.',
+    },
+  ],
 
   hasHebrew: true,
 };

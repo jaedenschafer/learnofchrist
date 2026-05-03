@@ -39,6 +39,18 @@ export const ISAIAH_47: RichChapterContent = {
             plain(6, 'I was wroth with my people, I have polluted mine inheritance, and given them into thine hand: thou didst shew them no mercy; upon the ancient thou hast very heavily laid thy yoke.'),
             plain(7, 'And thou saidst, I shall be a lady for ever: so that thou didst not lay these things to thy heart, neither didst remember the latter end of it.'),
             plain(8, 'Therefore hear now this, thou that art given to pleasures, that dwellest carelessly, that sayest in thine heart, I am, and none else beside me; I shall not sit as a widow, neither shall I know the loss of children:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah47-pride-to-judgment',
+          html:
+            'Babylon is summoned down from her throne into the dust. She showed no mercy to others. Now comes the address to her pride: she says "I shall be a lady for ever," claiming eternal power and that she will never lose her position. But she did not remember how such kingdoms end. Now comes the specific judgment: what will befall her.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 47,
+          lines: [
             plain(9, 'But these two things shall come to thee in a moment in one day, the loss of children, and widowhood: they shall come upon thee in their perfection for the multitude of thy sorceries, and for the great abundance of thine enchantments.'),
             plain(10, 'For thou hast trusted in thy wickedness: thou hast said, None seeth me. Thy wisdom and thy knowledge, it hath turned thee aside; and thou hast said in thine heart, I am, and none else beside me.'),
             plain(11, 'Therefore shall evil come upon thee; thou shalt not know from whence it riseth: and mischief shall fall upon thee; thou shalt not be able to put it off: and desolation shall come upon thee suddenly, which thou shalt not know.'),

@@ -94,6 +94,17 @@ export const PROVERBS_3: RichChapterContent = {
             plain(16, 'Length of days is in her right hand; and in her left hand riches and honour.'),
             plain(17, 'Her ways are ways of pleasantness, and all her paths are peace.'),
             plain(18, 'She is a tree of life to them that lay hold upon her: and happy is every one that retaineth her.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov3-wisdom-personal-gift',
+          html: 'Wisdom is not abstract philosophy but a person to be found, held, treasured. She offers not just knowledge but life—length of days, riches, honor, pleasantness, peace. She is a tree of life, echoing Genesis and eternity. To find wisdom is to find happiness itself. The treasures of silver and gold pale in comparison. Those who grasp wisdom hold the greatest thing.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(19, 'The Lord by wisdom hath founded the earth; by understanding hath he established the heavens.'),
             plain(20, 'By his knowledge the depths are broken up, and the clouds drop down the dew.'),
             plain(21, 'My son, let not these depart from thine eyes: keep sound wisdom and discretion:'),

@@ -183,6 +183,18 @@ export const JOB_9: RichChapterContent = {
             plain(31, 'Yet shalt thou plunge me in the ditch, and mine own clothes shall abhor me.'),
             plain(32, 'For he is not a man, as I am, that I should answer him, and we should come together in judgment.'),
             plain(33, 'Neither is there any daysman betwixt us, that might lay his hand upon us both.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job9-daysman-mid',
+          html:
+            'Job has been arguing about God&apos;s power and his own helplessness. Now the argument shifts: his real problem is not God&apos;s strength but God&apos;s distance. There is no mediator—no one who understands both the human and the divine. What follows moves from despair about power to despair about relationship.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(34, 'Let him take his rod away from me, and let not his fear terrify me:'),
             plain(35, 'Then would I speak, and not fear him; but it is not so with me.'),
           ],

@@ -49,6 +49,18 @@ export const JOB_16: RichChapterContent = {
             plain(7, 'But now he hath made me weary: thou hast made desolate all my company.'),
             plain(8, 'And thou hast filled me with wrinkles, which is a witness against me: and my leanness rising up in me beareth witness to my face.'),
             plain(9, 'He teareth me in his wrath, who hateth me: he gnasheth upon me with his teeth; mine enemy sharpeneth his eyes upon me.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job16-friends-god',
+          html:
+            'Job&apos;s complaint against his friends gives way to something darker: his accusation against God. The friends have failed him, yes. But God has become his enemy. The pivot from human rejection to divine violence marks a turning point—Job&apos;s anguish deepens from disappointment to existential betrayal.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 16,
+          lines: [
             plain(10, 'They have gaped upon me with their mouth; they have smitten me upon the cheek reproachfully; they have gathered themselves together against me.'),
             plain(11, 'God hath delivered me to the ungodly, and turned me over into the hands of the wicked.'),
             plain(12, 'I was at ease, but he hath broken me asunder: he hath also taken me by the neck, and shaken me to pieces, and set me up for his mark.'),

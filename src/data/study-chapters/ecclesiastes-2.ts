@@ -89,6 +89,17 @@ export const ECCLESIASTES_2: RichChapterContent = {
             plain(16, 'For there is no remembrance of the wise more than of the fool for ever; seeing that which now is in the days to come shall all be forgotten. And how dieth the wise man? as the fool.'),
             plain(17, 'Therefore I hated life; because the work that is wrought under the sun is grievous unto me: for all is vanity and vexation of spirit.'),
             plain(18, 'Yea, I hated all my labour which I had taken under the sun: because I should leave it unto the man that shall be after me.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ecc2-wisdom-temporary',
+          html: 'Wisdom does indeed excel folly—as light excels darkness. The wise man&apos;s eyes are in his head; he sees where he is going. But the Preacher&apos;s devastating observation is this: "one event happeneth to them all." Wise and fool both face the same fate. Both die. Both are forgotten. The wise man&apos;s advantage during his lifetime is real, but death negates it. He must leave his work to someone else—perhaps a fool. This realization turns his joy into hatred of life itself. All is vanity.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(19, 'And who knoweth whether he shall be a wise man or a fool? yet shall he have rule over all my labour wherein I have laboured, and wherein I have shewed myself wise under the sun. This is also vanity.'),
             plain(20, 'Therefore I went about to cause my heart to despair of all the labour which I had taken under the sun.'),
             plain(21, 'For there is a man whose labour is in wisdom, and in knowledge, and in equity; yet to a man that hath not laboured therein shall he leave it for his portion. This also is vanity and a great evil.'),

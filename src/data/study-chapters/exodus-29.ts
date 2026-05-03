@@ -49,7 +49,7 @@ export const EXODUS_29: RichChapterContent = {
           kind: 'commentary',
           id: 'exo29-bread-comm',
           html:
-            'Unleavened bread marks this as a set-apart occasion. Leaven in Scripture speaks of corruption, of what works in secret to puff things up. For the priesthood to begin, everything brought must be simple, whole, without the hidden working of leaven. The priests do not offer their own elaborate preparations; they bring what has been made clean.',
+            'Unleavened bread marks this as a set-apart occasion. Leaven in Scripture speaks of corruption, of what works in secret to puff things up. For the priesthood to begin, everything brought must be simple, whole, without the hidden working of leaven. The priests do not offer their own elaborate preparations; they bring what has been made clean[res:priestly-ordination].',
         },
         {
           kind: 'hebrew',
@@ -132,7 +132,7 @@ export const EXODUS_29: RichChapterContent = {
           kind: 'commentary',
           id: 'exo29-water-comm',
           html:
-            'Water first. Before any robes, before any oil, the body itself is made clean. The priests wash themselves — and Exodus is careful to note that Aaron&apos;s sons wash at the same place, at the same time. No one stands apart. All are equally in need of cleansing.',
+            'Water first. Before any robes, before any oil, the body itself is made clean. The priests wash themselves — and Exodus is careful to note that Aaron&apos;s sons wash at the same place, at the same time. No one stands apart. All are equally in need of cleansing[res:priesthood-text].',
         },
         {
           kind: 'commentary',
@@ -749,6 +749,26 @@ export const EXODUS_29: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 29:45–46 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'priestly-ordination',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Priestly Ordination',
+      url: 'https://www.bibleodyssey.org/dictionary/priest/',
+      description: 'Ritual of consecration and theology.',
+    },
+    {
+      id: 'priesthood-text',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 29: Priestly Initiation',
+      url: 'https://www.sefaria.org/Exodus.29',
+      description: 'Hebrew text on ordination ceremony.',
+    },
+  ],
 
   hasHebrew: true,
 };

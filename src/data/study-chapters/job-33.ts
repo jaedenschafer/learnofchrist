@@ -97,6 +97,18 @@ export const JOB_33: RichChapterContent = {
             plain(14, 'For God speaketh once, yea twice, yet man perceiveth it not.'),
             plain(15, 'In a dream, in a vision of the night, when deep sleep falleth upon men, in slumberings upon the bed;'),
             plain(16, 'Then he openeth the ears of men, and sealeth their instruction,'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job33-mid1',
+          html:
+            'God&apos;s first teaching method is the dream—the voice that reaches us when our usual defenses are down. In sleep, when we cannot argue or rationalize, God makes us able to hear. This openness to instruction is the beginning of transformation.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 33,
+          lines: [
             plain(17, 'To turn man from his purpose, and hide pride from man.'),
             plain(18, 'He keepeth back his soul from the pit, and his life from perishing by the sword.'),
             plain(19, 'He is chastened also with pain upon his bed, and the multitude of his bones with strong pain:'),

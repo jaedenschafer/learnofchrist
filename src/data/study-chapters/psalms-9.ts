@@ -87,6 +87,18 @@ export const PSALMS_9: RichChapterContent = {
             plain(11, 'Sing praises to the Lord, which dwelleth in Zion: declare among the people his doings.'),
             plain(12, 'When he maketh inquisition for blood, he remembereth them: he forgetteth not the cry of the humble.'),
             plain(13, 'Have mercy upon me, O Lord; consider my trouble which I suffer of them that hate me, thou that liftest me up from the gates of death:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps9-mid-shift',
+          html:
+            'The psalm shifts from universal truth to personal prayer. God&apos;s judgment is eternal and trustworthy—that is the foundation. Now the psalmist speaks his own need: have mercy on me. From the cosmic vision, the camera zooms to the individual cry.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(14, 'That I may shew forth all thy praise in the gates of the daughter of Zion: I will rejoice in thy salvation.'),
             plain(15, 'The heathen are sunk down in the pit that they made: in the net which they hid is their own foot taken.'),
             plain(16, 'The Lord is known by the judgment which he executeth: the wicked is snared in the work of his own hands. Higgaion. Selah.'),

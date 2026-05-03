@@ -36,6 +36,17 @@ export const SONG_3: RichChapterContent = {
             plain(3, 'The watchmen that go about the city found me: I said, Saw ye him whom my soul loveth?'),
             plain(4, 'It was but a little that I passed from them, but I found him whom my soul loveth: I held him, and would not let him go, until I had brought him into my mother&apos;s house, and into the chamber of her that conceived me.'),
             plain(5, 'I charge you, O ye daughters of Jerusalem, by the roes, and by the hinds of the field, that ye stir not up, nor awake my love, till he please.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'song3-intimate',
+          html: 'The Bride has found her Beloved and brought him into her mother&apos;s house, into the most intimate chamber. She charges the daughters of Jerusalem not to disturb this union. This is the height of the private encounter—seeking ended, finding achieved, holding fast, and the beloved brought into the sanctum of the home.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(6, 'Who is this that cometh out of the wilderness like pillars of smoke, perfumed with myrrh and frankincense, with all powders of the merchant?'),
             plain(7, 'Behold his bed, which is Solomon&apos;s; threescore valiant men are about it, of the valiant of Israel.'),
             plain(8, 'They all hold swords, being expert in war: every man hath his sword upon his thigh because of fear in the night.'),
@@ -52,9 +63,9 @@ export const SONG_3: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'song3-held-not-let-go',
+          id: 'song3-procession-vision',
           html:
-            '"It was but a little that I passed from them, but I found him whom my soul loveth: I held him, and would not let him go." When she finds him, she seizes him. She does not allow him to slip away. She brings him into her mother&apos;s house, into the chamber where she was conceived—into the most intimate, protected space. The seeking ends in finding and in a kind of claiming, of holding fast.',
+            'The scene shifts abruptly. A vision of the Bridegroom appears—not in the intimate chamber, but in a grand procession. He comes out of the wilderness like pillars of smoke, perfumed with myrrh and frankincense. This is the shift from private to public, from intimate to ceremonial, from the seeking in the night to the proclaimed union in broad daylight.',
         },
         {
           kind: 'commentary',

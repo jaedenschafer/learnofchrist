@@ -130,6 +130,18 @@ export const JOB_20: RichChapterContent = {
             },
             plain(17, 'He shall not see the rivers, the floods, the brooks of honey and butter.'),
             plain(18, 'That which he laboured for shall he restore, and shall not swallow it down: according to his substance shall the restitution be, and he shall not rejoice therein.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job20-restitution',
+          html:
+            'Zophar moves from describing what the wicked man consumes to what he must give back. The focus shifts from the poison inside him to the consequences he faces. His stolen goods become his judgment—he cannot keep what he seized. The argument turns from internal corruption to external loss.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 20,
+          lines: [
             plain(19, 'Because he hath oppressed and hath forsaken the poor; because he hath violently taken away an house which he builded not;'),
             plain(20, 'Surely he shall not feel quietness in his belly, and he shall not save of that which he desired.'),
             plain(21, 'There shall none of his meat be left; therefore shall no man look for his goods.'),

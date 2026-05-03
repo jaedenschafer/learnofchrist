@@ -38,6 +38,18 @@ export const JEREMIAH_2: RichChapterContent = {
             plain(4, 'Hear ye the word of the Lord, O house of Jacob, and all the families of the house of Israel:'),
             plain(5, 'Thus saith the Lord, What iniquity have your fathers found in me, that they are gone far from me, and have walked after vanity, and are become vain?'),
             plain(6, 'Neither said they, Where is the Lord that brought us up out of the land of Egypt, that led us through the wilderness, through a land of deserts and of pits, through a land of drought, and of the shadow of death, through a land that no man passed through, and where no man dwelt?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jer2-remembrance-to-accusation',
+          html:
+            'God remembers the kindness and love of Israel&apos;s youth—when they followed Him in the wilderness, when they were holy to the Lord, when they asked "Where is the Lord?" Now comes the turning point: from what God has done for them, to what they have done with what they were given.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(7, 'And I brought you into a plentiful country, to eat the fruit thereof and the goodness thereof; but when ye entered, ye defiled my land, and made mine heritage an abomination.'),
             plain(8, 'The priests said not, Where is the Lord? and they that handle the law knew me not: the pastors also transgressed against me, and the prophets prophesied by Baal, and walked after things that do not profit.'),
             plain(9, 'Wherefore I will yet plead with you, saith the Lord, and with your children&apos;s children will I plead.'),

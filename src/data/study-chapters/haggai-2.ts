@@ -90,6 +90,17 @@ export const HAGGAI_2: RichChapterContent = {
             plain(16, 'Since those days were, when one came to an heap of twenty measures, there were but ten: when one came to the pressfat for to draw out fifty vessels out of the press, there were but twenty.'),
             plain(17, 'I smote you with blasting and with mildew and with hail in all the labours of your hands; yet ye turned not to me, saith the Lord.'),
             plain(18, 'Consider now from this day and upward, from the four and twentieth day of the ninth month, even from the day that the foundation of the Lord&apos;s temple was laid, consider it.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'haggai2-turning',
+          html: 'The people&apos;s turning point is marked by the foundation of the temple. Before that day, their labor yielded little and famine touched their fields. But from the day of the foundation onward, God promises a different order. The judgment was meant to turn them back. Now that they have turned, the blessing will begin.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(19, 'Is the seed yet in the barn? yea, as yet the vine, and the fig tree, and the pomegranate, and the olive tree, hath not brought forth: from this day will I bless you.'),
             plain(20, 'And again the word of the Lord came unto Haggai in the four and twentieth day of the month, saying,'),
             plain(21, 'Speak to Zerubbabel, governor of Judah, saying, I will shake the heavens and the earth;'),
@@ -99,9 +110,9 @@ export const HAGGAI_2: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'haggai2-unclean',
+          id: 'haggai2-blessing-promise',
           html:
-            'The priests are asked about cleansing. One lesson emerges: holiness cannot be transmitted by contact with holy things. But uncleanness can be transmitted. The people, though unclean, have now begun to work on the temple. And God promises: from this day forward, I will bless you. The new beginning marks a turning point.',
+            'Even though the seeds have not yet sprouted, even though the vines and fig trees have not brought forth fruit, God promises blessing from this day forward. The promise is not conditional on harvest yet to come. It is rooted in God&apos;s covenant and the people&apos;s turning toward His work.',
         },
         {
           kind: 'commentary',

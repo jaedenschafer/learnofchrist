@@ -42,6 +42,18 @@ export const JOB_36: RichChapterContent = {
             plain(5, 'Behold, God is mighty, and despiseth not any: he is mighty in strength and wisdom.'),
             plain(6, 'He preserveth not the life of the wicked: but giveth right to the poor.'),
             plain(7, 'He withdraweth not his eyes from the righteous: but with kings are they on the throne; yea, he doth establish them for ever, and they are exalted.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job36-mid1',
+          html:
+            'Elihu establishes God&apos;s character: God does not preserve the wicked but gives justice to the poor. God does not abandon the righteous—He keeps His eyes on them always. The kings are established by God. And then comes the reversal: what of affliction?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 36,
+          lines: [
             plain(8, 'And if they be bound in fetters, and be holden in cords of affliction;'),
             plain(9, 'Then he sheweth them their work, and their transgressions that they have exceeded.'),
             plain(10, 'He openeth also their ear to discipline, and commandeth that they return from iniquity.'),

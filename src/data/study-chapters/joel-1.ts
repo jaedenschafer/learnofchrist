@@ -76,6 +76,17 @@ export const JOEL_1: RichChapterContent = {
             plain(10, 'The field is wasted, the land mourneth; for the corn is wasted: the new wine is dried up, the oil languisheth.'),
             plain(11, 'Be ye ashamed, O ye husbandmen; howl, O ye vinedressers, for the wheat and for the barley; because the harvest of the field is perished.'),
             plain(12, 'The vine is dried up, and the fig tree languisheth; the pomegranate tree, the palm tree also, and the apple tree, even all the trees of the field, are withered: because joy is withered away from the sons of men.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'joel1-withering',
+          html: 'Everything is withered. The vine, the fig tree, the pomegranate, the palm — all the trees of the field. And deeper than the physical withering is the withering of joy itself. When the source of life is cut off, joy cannot remain. This is not just an agricultural crisis; it is a spiritual crisis.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(13, 'Gird yourselves, and lament, ye priests: howl, ye ministers of the altar: come, lie all night in sackcloth, ye ministers of my God: for the meat offering and the drink offering is withholden from the house of your God.'),
             plain(14, 'Sanctify ye a fast, call a solemn assembly, gather the elders and all the inhabitants of the land into the house of the Lord your God, and cry unto the Lord,'),
             plain(15, 'Alas for the day! for the day of the Lord is at hand, and as a destruction from the Almighty shall it come.'),
@@ -88,9 +99,9 @@ export const JOEL_1: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'joel1-lament',
+          id: 'joel1-priests-called',
           html:
-            'The priests are called to mourn. The worship is cut off — the meat offering and the drink offering are no longer brought to the Lord. The joy is withered from the people. Everything that gives life — the grain, the wine, the oil — is gone. Joel calls the people to gather, to sanctify a fast, to cry unto the Lord.',
+            'The priests are called to mourn. The worship is cut off — the meat offering and the drink offering are no longer brought to the Lord. But in this cutting off, the priests are summoned to stand in the gap, to gather the people, to sanctify a fast, and to cry unto the Lord. The crisis becomes a call.',
         },
         {
           kind: 'carry',

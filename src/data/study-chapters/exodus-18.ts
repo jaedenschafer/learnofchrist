@@ -41,7 +41,7 @@ export const EXODUS_18: RichChapterContent = {
           kind: 'commentary',
           id: 'jethro-context',
           html:
-            'Jethro is not an Israelite. He is a Midianite priest—a Gentile who worships the gods of his people. Yet he hears of God&apos;s work and his heart recognizes the hand of the LORD. Long before Sinai, long before the law, a foreigner comes to faith. This is the pattern that will echo through all of Scripture: God&apos;s covenant people are not the only ones who encounter His reality.',
+            'Jethro is not an Israelite. He is a Midianite priest—a Gentile who worships the gods of his people. Yet he hears of God&apos;s work and his heart recognizes the hand of the LORD. Long before Sinai, long before the law, a foreigner comes to faith. This is the pattern that will echo through all of Scripture: God&apos;s covenant people are not the only ones who encounter His reality[res:jethro].',
         },
         {
           kind: 'hebrew',
@@ -82,7 +82,7 @@ export const EXODUS_18: RichChapterContent = {
           kind: 'commentary',
           id: 'send-back',
           html:
-            'Moses had sent Zipporah and the boys back to Midian earlier (4:20-25). Now Jethro brings them back. A man leading a movement needs his family. The wilderness is hard enough without a leader doing it alone.',
+            'Moses had sent Zipporah and the boys back to Midian earlier (4:20-25). Now Jethro brings them back. A man leading a movement needs his family. The wilderness is hard enough without a leader doing it alone[res:delegation].',
         },
         {
           kind: 'carry',
@@ -517,4 +517,23 @@ export const EXODUS_18: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 18 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'jethro',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jethro: Wisdom from Without',
+      url: 'https://www.bibleodyssey.org/dictionary/jethro/',
+      description: 'Study of Jethro&apos;s role and community justice.',
+    },
+    {
+      id: 'delegation',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 18: Delegation',
+      url: 'https://www.sefaria.org/Exodus.18',
+      description: 'Hebrew text and commentary on organizational wisdom.',
+    },
+  ],
 };

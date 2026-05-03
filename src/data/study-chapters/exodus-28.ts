@@ -45,7 +45,7 @@ export const EXODUS_28: RichChapterContent = {
           kind: 'commentary',
           id: 'ex28-aaron',
           html:
-            'Aaron is not chosen because of special qualification or prior training. He is simply called out from Israel and set apart for the Lord&apos;s service. The priesthood is God&apos;s gift, not man&apos;s achievement. His sons are named: Nadab and Abihu will later die for offering strange fire before the Lord (Leviticus 10:1–2), so even priestly calling carries the weight of covenant obedience.',
+            'Aaron is not chosen because of special qualification or prior training. He is simply called out from Israel and set apart for the Lord&apos;s service. The priesthood is God&apos;s gift, not man&apos;s achievement. His sons are named: Nadab and Abihu will later die for offering strange fire before the Lord (Leviticus 10:1–2), so even priestly calling carries the weight of covenant obedience[res:lampstand-table].',
         },
 
         {
@@ -66,7 +66,7 @@ export const EXODUS_28: RichChapterContent = {
           kind: 'commentary',
           id: 'ex28-glory-beauty',
           html:
-            'The priest&apos;s garments are made for <em>glory</em> and <em>beauty</em> — they display the dignity of the office and the loveliness of serving the Lord. A holy priesthood is not meant to hide; it is meant to make visible what it looks like to stand before God.',
+            'The priest&apos;s garments are made for <em>glory</em> and <em>beauty</em> — they display the dignity of the office and the loveliness of serving the Lord. A holy priesthood is not meant to hide; it is meant to make visible what it looks like to stand before God[res:museum-model].',
         },
 
         {
@@ -677,6 +677,26 @@ export const EXODUS_28: RichChapterContent = {
     snippet: 'Exodus 28:29 — A study guide from Learn of Christ.',
     ref: 'Exodus 28 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'lampstand-table',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Tabernacle Furnishings',
+      url: 'https://www.sefaria.org/Exodus.35-37',
+      description: 'Hebrew text on lampstand and table.',
+    },
+    {
+      id: 'museum-model',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Tabernacle Model & Artifacts',
+      url: 'https://www.imj.org.il/',
+      description: 'Physical models of sanctuary layout.',
+    },
+  ],
 
   hasHebrew: true,
 };

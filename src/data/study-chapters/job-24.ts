@@ -135,6 +135,18 @@ export const JOB_24: RichChapterContent = {
                 t('For the morning is to them even as the shadow of death: if one know them, they are in the terrors of the shadow of death. '),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job24-mid1',
+          html:
+            'The wicked live in dread. Morning itself is death to them. They dwell in darkness, not just physically but spiritually. They know that their deeds will be exposed. And yet—Job pauses here. The focus shifts from the visible crimes to the invisible judgment: the wicked shall perish, their memory erased, their schemes dissolved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 24,
+          lines: [
             plain(18, 'He is swift as the waters; their portion is cursed in the earth: he beholdeth not the way of the vineyards.'),
             plain(19, 'Drought and heat consume the snow waters: so doth the grave those which have sinned.'),
             plain(20, 'The womb shall forget him; the worm shall feed sweetly on him; he shall be no more remembered; and wickedness shall be broken as a tree.'),

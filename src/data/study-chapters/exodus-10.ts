@@ -52,13 +52,13 @@ export const EXODUS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'ex10-moses-goes',
           html:
-            'The eighth plague is not a surprise to God. He is not scrambling, not reacting. He sends Moses in <em>knowing</em> what Pharaoh will do. This is a God who moves toward an end He has already seen and chosen. The plagues are not arguments meant to convince Pharaoh; they are signs meant to convince Israel.',
+            'The eighth plague is not a surprise to God. He is not scrambling, not reacting. He sends Moses in <em>knowing</em> what Pharaoh will do. This is a God who moves toward an end He has already seen and chosen. The plagues are not arguments meant to convince Pharaoh; they are signs meant to convince Israel[res:plague-darkness].',
         },
         {
           kind: 'commentary',
           id: 'c-hardened-intro',
           html:
-            'God does not hide His plan: "I have hardened his heart." This is not a secret operating behind the scenes. God announces it plainly. Pharaoh&apos;s refusal is not a surprise that caught God off guard; it is part of a larger story God is writing. A king who refuses God does not change God&apos;s timeline. He only changes his own.',
+            'God does not hide His plan: "I have hardened his heart." This is not a secret operating behind the scenes. God announces it plainly. Pharaoh&apos;s refusal is not a surprise that caught God off guard; it is part of a larger story God is writing. A king who refuses God does not change God&apos;s timeline. He only changes his own[res:ra-sun].',
         },
         {
           kind: 'commentary',
@@ -566,6 +566,26 @@ export const EXODUS_10: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 10 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'plague-darkness',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Plague of Darkness',
+      url: 'https://www.bibleodyssey.org/dictionary/darkness/',
+      description: 'Commentary on the ninth plague and cosmic judgment.',
+    },
+    {
+      id: 'ra-sun',
+      kind: 'archaeology',
+      source: 'Met Museum',
+      label: 'Ra: The Sun God',
+      url: 'https://www.metmuseum.org/',
+      description: 'Egyptian solar theology and the darkness plague.',
+    },
+  ],
 
   hasHebrew: true,
 };

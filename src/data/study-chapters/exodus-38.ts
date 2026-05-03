@@ -65,7 +65,7 @@ export const EXODUS_38: RichChapterContent = {
           kind: 'commentary',
           id: 'exo38-bezalel',
           html:
-            'Bezalel was the chief craftsman, the man God filled with wisdom and skill to lead all the work on the tabernacle. He is named because his name matters — God names the ones who build His house. Every part here is intentional: the foursquare base, the four horns, the rings on the sides. The altar where a man&apos;s offering goes up to God is not made carelessly.',
+            'Bezalel was the chief craftsman, the man God filled with wisdom and skill to lead all the work on the tabernacle. He is named because his name matters — God names the ones who build His house. Every part here is intentional: the foursquare base, the four horns, the rings on the sides. The altar where a man&apos;s offering goes up to God is not made carelessly[res:altar-court].',
         },
         {
           kind: 'carry',
@@ -107,7 +107,7 @@ export const EXODUS_38: RichChapterContent = {
           kind: 'commentary',
           id: 'exo38-mirrors',
           html:
-            'The laver is where the priests wash their hands and feet before entering God&apos;s presence. Cleansing comes before worship. And this laver is made from an unexpected material: the bronze mirrors of women who served at the tabernacle door. Their personal mirrors — instruments for looking at themselves — were given up and melted down to become something that serves others.',
+            'The laver is where the priests wash their hands and feet before entering God&apos;s presence. Cleansing comes before worship. And this laver is made from an unexpected material: the bronze mirrors of women who served at the tabernacle door. Their personal mirrors — instruments for looking at themselves — were given up and melted down to become something that serves others[res:measurements].',
         },
         {
           kind: 'hebrew',
@@ -192,6 +192,13 @@ export const EXODUS_38: RichChapterContent = {
               number: 15,
               spans: [t('And on the other side of the court gate, on this hand and that hand, were hangings of fifteen cubits; their pillars three, and their sockets three.')],
             },
+          ],
+        },
+        { kind: 'commentary', id: 'ex38-mid', html: 'The boundary is established. Four sides measure and square the courtyard. And now the entry—the gate where people pass from the profane into the sacred. The gate is not a weak point; it has its own pillars and hangings. Approach to God is ordered and real.' },
+        {
+          kind: 'scripture',
+          chapter: 38,
+          lines: [
             {
               number: 16,
               spans: [t('All the hangings of the court round about were of fine twined linen.')],
@@ -276,6 +283,13 @@ export const EXODUS_38: RichChapterContent = {
               number: 26,
               spans: [t('A bekah for every man, that is, half a shekel, after the shekel of the sanctuary, for every one that went to be numbered, from twenty years old and upward, for six hundred thousand and three thousand and five hundred and fifty men.')],
             },
+          ],
+        },
+        { kind: 'commentary', id: 'ex38-mid2', html: 'Each man counted. Each man gave the same amount—not by wealth but by head, a tax of redemption. Six hundred thousand men, all named, all counted, all contributing equally. Now the ledger shifts from people to materials—what they gave is being accounted, transformed, used for the holy work.' },
+        {
+          kind: 'scripture',
+          chapter: 38,
+          lines: [
             {
               number: 27,
               spans: [t('And of the hundred talents of silver were cast the sockets of the sanctuary, and the sockets of the vail; an hundred sockets of the hundred talents, a talent for a socket.')],
@@ -340,6 +354,26 @@ export const EXODUS_38: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 38 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'altar-court',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Bronze Altar & Court',
+      url: 'https://www.sefaria.org/Exodus.38',
+      description: 'Hebrew text on altar and courtyard.',
+    },
+    {
+      id: 'measurements',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Tabernacle Measurements',
+      url: 'https://www.bibleodyssey.org/dictionary/tabernacle/',
+      description: 'Dimensions and sanctuary orientation.',
+    },
+  ],
 
   hasHebrew: true,
 };

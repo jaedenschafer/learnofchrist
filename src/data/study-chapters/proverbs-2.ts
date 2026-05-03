@@ -92,6 +92,17 @@ export const PROVERBS_2: RichChapterContent = {
             plain(13, 'Who leave the paths of uprightness, to walk in the ways of darkness;'),
             plain(14, 'Who rejoice to do evil, and delight in the frowardness of the wicked;'),
             plain(15, 'Whose ways are crooked, and they froward in their paths:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov2-two-seducers',
+          html: 'Wisdom protects from those who use words and enticement to draw you away from covenant. The evil man speaks froward things—perverse, twisted speech that distorts truth. He walks knowingly in darkness, rejoicing in wickedness. The strange woman flatters with her words, promising what seems pleasurable but leads to death. Both are seducers. Both use language as their tool. Both count on the young not recognizing the trap until it is too late.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(16, 'To deliver thee also from the strange woman, even from the stranger which flattereth with her words;'),
             plain(17, 'Which forsaketh the guide of her youth, and forgetteth the covenant of her God;'),
             plain(18, 'For her house inclineth unto death, and her paths unto the dead;'),

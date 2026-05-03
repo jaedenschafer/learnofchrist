@@ -72,13 +72,13 @@ export const EXODUS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'hand-lord',
           html:
-            'The phrase &ldquo;the hand of the LORD&rdquo; echoes from verse 3 of this chapter and will become a refrain through the rest of Exodus. God&apos;s hand is not distant or impersonal — it is the instrument of His power touching Egypt directly, visibly.',
+            'The phrase &ldquo;the hand of the LORD&rdquo; echoes from verse 3 of this chapter and will become a refrain through the rest of Exodus. God&apos;s hand is not distant or impersonal — it is the instrument of His power touching Egypt directly, visibly[res:plague-animals].',
         },
         {
           kind: 'commentary',
           id: 'murrain-plague',
           html:
-            'A <em>murrain</em> is a disease that strikes livestock. To Egypt, this is catastrophic. Cattle are not merely economic resources — the bull Apis is sacred, the symbol of fertility and resurrection. When Egypt&apos;s cattle die, a god dies with them.',
+            'A <em>murrain</em> is a disease that strikes livestock. To Egypt, this is catastrophic. Cattle are not merely economic resources — the bull Apis is sacred, the symbol of fertility and resurrection. When Egypt&apos;s cattle die, a god dies with them[res:apis-bull].',
         },
         {
           kind: 'commentary',
@@ -550,6 +550,26 @@ export const EXODUS_9: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 9 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'plague-animals',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Plague of Livestock',
+      url: 'https://www.bibleodyssey.org/dictionary/livestock/',
+      description: 'Study of the fifth plague and Israel&apos;s protection.',
+    },
+    {
+      id: 'apis-bull',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'The Apis Bull',
+      url: 'https://www.britishmuseum.org/collection/',
+      description: 'The sacred bull cult of Egypt challenged.',
+    },
+  ],
 
   hasHebrew: true,
 };

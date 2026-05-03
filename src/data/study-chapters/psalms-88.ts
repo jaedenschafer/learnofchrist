@@ -37,6 +37,18 @@ export const PSALMS_88: RichChapterContent = {
             plain(5, 'Free among the dead, like the slain that lie in the grave, whom thou rememberest no more: and they are cut off from thy hand.'),
             plain(6, 'Thou hast laid me in the lowest pit, in darkness, in the deeps.'),
             plain(7, 'Thy wrath lieth hard upon me, and thou hast afflicted me with all thy waves. Selah.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps88-mid-alone',
+          html:
+            'The psalmist has cried out to God. He has described his pain. Now the deepest cut: not just suffering, but loneliness. Friends are gone. He is an abomination to them. Even his eye mourns—grief is inscribed in every glance. And still he calls out. Abandoned, yet still praying.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 88,
+          lines: [
             plain(8, 'Thou hast put away mine acquaintance far from me; thou hast made me an abomination unto them: I am shut up, and I cannot come forth.'),
             plain(9, 'Mine eye mourneth by reason of affliction: Lord, I have called daily upon thee, I have stretched out my hands unto thee.'),
             plain(10, 'Wilt thou shew wonders to the dead? shall the dead arise and praise thee? Selah.'),

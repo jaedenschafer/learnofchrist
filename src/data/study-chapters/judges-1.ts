@@ -413,6 +413,18 @@ export const JUDGES_1: RichChapterContent = {
                 t('But the Asherites dwelt among the Canaanites, the inhabitants of the land: for they did not drive them out.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'judges-1-split1',
+          html:
+            'The pattern is now unmistakable. Tribe after tribe fails the same test. Manasseh in the north cannot drive out Beth-shean and its sister cities. Ephraim cannot expel the Canaanites from Gezer. Zebulun makes a compromise: exact tribute instead of victory. Asher does not even attempt to drive out Accho and the coastal cities. The narrative is a catalog of surrender dressed in the language of pragmatism. Each tribe tells itself a story: we&apos;re strong enough to make them pay. We can manage this. But managing the presence of your enemy is not the same as defeating him.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             {
               number: 33,
               spans: [

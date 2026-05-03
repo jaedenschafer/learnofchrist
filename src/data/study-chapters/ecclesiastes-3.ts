@@ -89,6 +89,17 @@ export const ECCLESIASTES_3: RichChapterContent = {
             plain(12, 'I know that there is no good in them, but for a man to rejoice, and to do good in his life.'),
             plain(13, 'And also that every man should eat and drink, and enjoy the good of all his labour, it is the gift of God.'),
             plain(14, 'I know that, whatsoever God doeth, it shall be for ever: nothing can be put to it, nor any thing taken from it: and God doeth it, that men should fear him.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ecc3-beautiful-season',
+          html: '"He hath made every thing beautiful in his time." This is the Preacher&apos;s turning point. He has seen vanity, seen death, seen futility. But now he sees beauty not imposed from outside but woven into the seasons themselves. A time to mourn is beautiful because mourning, when it is time to mourn, belongs to life. God has set the world in the human heart—given us the ability to perceive design and meaning. Yet we cannot see the full pattern. We are invited to trust the Craftsman while seeing only a portion of the craft.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(15, 'That which hath been is now; and that which is to be hath already been; and God requireth that which is past.'),
             plain(16, 'And moreover I saw under the sun the place of judgment, that wickedness was there; and the place of righteousness, that iniquity was there.'),
             plain(17, 'I said in mine heart, God shall judge the righteous and the wicked: for there is a time there for every purpose and for every work.'),

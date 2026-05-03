@@ -83,6 +83,18 @@ export const PSALMS_7: RichChapterContent = {
             plain(9, 'Oh let the wickedness of the wicked come to an end; but establish the just: for the righteous God trieth the hearts and reins.'),
             plain(10, 'My defence is of God, which saveth the upright in heart.'),
             plain(11, 'God judgeth the righteous, and God is angry with the wicked every day.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps7-mid-judgment',
+          html:
+            'The psalm pivots here—from David&apos;s plea to God&apos;s response. The first half is David calling out; the second half shows God answering, moving from judgment of the people to judgment of the wicked. God is not distant. He is already at work, already angry against those who would harm the righteous.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(12, 'If he turn not, he will whet his sword; he hath bent his bow, and made it ready.'),
             plain(13, 'He hath also prepared for him the instruments of death; he ordaineth his arrows against the persecutors.'),
             plain(14, 'Behold, he travaileth with iniquity, and hath conceived mischief, and brought forth falsehood.'),

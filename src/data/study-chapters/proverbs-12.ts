@@ -90,6 +90,17 @@ export const PROVERBS_12: RichChapterContent = {
             plain(19, 'The lip of truth shall be established for ever: but a lying tongue is but for a moment.'),
             plain(20, 'Deceit is in the heart of them that imagine evil: but to the counsellors of peace is joy.'),
             plain(21, 'There shall no evil happen to the just: but the wicked shall be filled with mischief.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov12-truth-permanence',
+          html: 'The first section establishes the power and permanence of truth. "The lip of truth shall be established for ever: but a lying tongue is but for a moment." Truth endures because it is rooted in reality itself. Lies are fleeting, temporary, eventually exposed. Words can wound like a sword or heal like medicine. But true speech shows forth righteousness, while false witness spreads deceit. Truth-telling is not neutral—it creates the conditions for justice and peace.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             plain(22, 'Lying lips are abomination to the Lord: but they that deal truly are his delight.'),
             plain(23, 'A prudent man concealeth knowledge: but the heart of fools proclaimeth foolishness.'),
             plain(24, 'The hand of the diligent shall bear rule: but the slothful shall be under tribute.'),

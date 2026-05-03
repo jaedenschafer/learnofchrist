@@ -542,6 +542,13 @@ export const LEVITICUS_23: RichChapterContent = {
                 t('Also in the fifteenth day of the seventh month, when ye have gathered in the fruit of the land, ye shall keep a feast unto the Lord seven days: on the first day shall be a sabbath, and on the eighth day shall be a sabbath.'),
               ],
             },
+          ],
+        },
+        { kind: 'commentary', id: 'lev23-mid', html: 'The feast is proclaimed. The dates are set. The offerings are named. Now comes the lived experience—not the law, but the practice. The people will take branches, rejoice, dwell in booths. Theory becomes habit becomes memory becomes identity.' },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             {
               number: 40,
               spans: [

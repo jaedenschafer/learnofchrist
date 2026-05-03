@@ -92,6 +92,18 @@ export const PSALMS_147: RichChapterContent = {
             plain(9, 'He giveth to the beast his food, and to the young ravens which cry.'),
             plain(10, 'He delighteth not in the strength of the horse: he taketh not pleasure in the legs of a man.'),
             plain(11, 'The Lord taketh pleasure in them that fear him, in those that hope in his mercy.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps147-mid',
+          html:
+            'God cares for all creatures—birds, animals, the grass on mountains. But He measures greatness differently than we do. Not by military strength or physical prowess, but by reverence and hope in His mercy. The shift is from universal care to the true measure of human worth.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 147,
+          lines: [
             plain(12, 'Praise the Lord, O Jerusalem; praise thy God, O Zion.'),
             plain(13, 'For he hath strengthened the bars of thy gates; he hath blessed thy children within thee.'),
             plain(14, 'He maketh peace in thy borders, and filleth thee with the finest of the wheat.'),

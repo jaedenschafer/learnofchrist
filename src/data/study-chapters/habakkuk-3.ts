@@ -34,6 +34,17 @@ export const HABAKKUK_3: RichChapterContent = {
             plain(5, 'Before him went the pestilence, and burning coals went forth at his feet.'),
             plain(6, 'He stood, and measured the earth: he beheld, and drove asunder the nations; and the everlasting mountains were scattered, the perpetual hills did bow: his ways are everlasting.'),
             plain(7, 'I saw the tents of Cushan in affliction: and the curtains of the land of Midian did tremble.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'habakkuk3-trembled',
+          html: 'The glory of God moving across the earth causes everything to tremble. The nations are shaken. The mountains bow. The very heavens acknowledge His presence. This is what Habakkuk holds before his mind — not as a distant memory but as a living vision of God&apos;s power working in his world.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(8, 'Was the Lord displeased against the rivers? was thine anger against the rivers? was thy wrath against the sea, that thou didst ride upon thine horses and thy chariots of salvation?'),
             plain(9, 'Thy bow was made quite naked, according to the oaths which thou spakest unto the tribes, even thy word. Selah. Thou didst cleave the earth with rivers.'),
             plain(10, 'The mountains saw thee, and they trembled: the overflowing of the water passed by: the deep uttered his voice, and lifted up his hands on high.'),
@@ -46,9 +57,9 @@ export const HABAKKUK_3: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'habakkuk3-glory',
+          id: 'habakkuk3-salvation',
           html:
-            'Habakkuk recalls God&apos;s mighty works—His coming, His glory covering the heavens, the nations trembling before Him, the mountains bowing, the sun and moon standing still. He is not inventing these memories from thin air. He is drawing on the testimony of Scripture: God&apos;s parting of the Red Sea, His conquest of Canaan, His manifestations throughout Israel&apos;s history.',
+            'God rides upon His chariots of salvation. His bow is made naked — drawn and ready. He has kept His oaths to the tribes. He cleaves the earth with rivers — the waters part before Him. This is God as deliverer, as mighty warrior, as the One who has proved faithful to every covenant He has made.',
         },
         {
           kind: 'hebrew',

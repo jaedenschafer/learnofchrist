@@ -105,6 +105,18 @@ export const PSALMS_66: RichChapterContent = {
             plain(11, 'Thou broughtest us into the net; thou laidst affliction upon our loins.'),
             plain(12, 'Thou hast caused men to ride over our heads; we went through fire and through water: but thou broughtest us out into a wealthy place.'),
             plain(13, 'I will go into thy house with burnt offerings: I will pay thee my vows, Which my lips have uttered, and my mouth hath spoken, when I was in trouble.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms66-mid-offering',
+          html:
+            'The psalmist has described being tested and refined, then brought to abundance. Now comes the response. Not complaint about the testing, but gratitude. An offering is made—not halfhearted, but costly, reflecting what was precious. This is what refinement produces: generosity, not bitterness.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 66,
+          lines: [
             plain(14, 'I will offer unto thee burnt sacrifices of fatlings, with the incense of rams; I will offer bullocks and goats. Selah.'),
             plain(15, 'Come and hear, all ye that fear God, and I will declare what he hath done for my soul.'),
             plain(16, 'I cried unto him with my mouth, and he was extolled with my tongue.'),

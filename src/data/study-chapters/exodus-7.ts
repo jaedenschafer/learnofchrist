@@ -46,7 +46,7 @@ export const EXODUS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'c-god-to-pharaoh',
           html:
-            'Moses is made a <em>god</em> to Pharaoh — not that Moses is divine, but that he stands in the place of absolute authority, speaking God&apos;s word with the weight of divinity. In the ancient Near East, a pharaoh was viewed as a god himself. Now God positions Moses above him. The one who stammers, who doubted his own adequacy in Exodus 3, is elevated to stand as the embodiment of God&apos;s power before the mightiest human authority of his age.',
+            'Moses is made a <em>god</em> to Pharaoh — not that Moses is divine, but that he stands in the place of absolute authority, speaking God&apos;s word with the weight of divinity. In the ancient Near East, a pharaoh was viewed as a god himself. Now God positions Moses above him. The one who stammers, who doubted his own adequacy in Exodus 3, is elevated to stand as the embodiment of God&apos;s power before the mightiest human authority of his age[res:plague-blood].',
         },
         {
           kind: 'hebrew',
@@ -75,7 +75,7 @@ export const EXODUS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'c-aaron-role',
           html:
-            'The word &ldquo;speak&rdquo; will dominate this chapter: God speaks to Moses, Moses passes it to Aaron, Aaron speaks to Pharaoh. The authority flows downward through a chain of speakers, each one accountable to carry the message faithfully. This is how God works in history — through human voices, human presence, human risk.',
+            'The word &ldquo;speak&rdquo; will dominate this chapter: God speaks to Moses, Moses passes it to Aaron, Aaron speaks to Pharaoh. The authority flows downward through a chain of speakers, each one accountable to carry the message faithfully. This is how God works in history — through human voices, human presence, human risk[res:nile-archaeology].',
         },
         {
           kind: 'scripture',
@@ -469,6 +469,26 @@ export const EXODUS_7: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 7 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'plague-blood',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Plague of Blood',
+      url: 'https://www.bibleodyssey.org/dictionary/blood/',
+      description: 'Commentary on the first plague and the Nile.',
+    },
+    {
+      id: 'nile-archaeology',
+      kind: 'archaeology',
+      source: 'Met Museum',
+      label: 'The Nile in Ancient Egypt',
+      url: 'https://www.metmuseum.org/',
+      description: 'Artifacts on the Nile&apos;s centrality to Egyptian life.',
+    },
+  ],
 
   hasHebrew: true,
 };

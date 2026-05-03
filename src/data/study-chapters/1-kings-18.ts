@@ -135,6 +135,17 @@ export const KINGS_1_18: RichChapterContent = {
             plain(22, 'Then said Elijah unto the people, I, even I only, remain a prophet of the Lord; but Baal&apos;s prophets are four hundred and fifty men.'),
             plain(23, 'Let them therefore give us two bullocks; and let them choose one bullock for themselves, cut it in pieces, lay it on wood, put no fire under: and I will dress the other bullock, and lay it on wood, and put no fire under:'),
             plain(24, 'And call ye on the name of your gods, and I will call on the name of the Lord: and the God that answereth by fire, let him be God. And all the people answered and said, It is well spoken.'),
+        ],
+        },
+        {
+          kind: 'commentary',
+          id: 'kings-18-18-mid1',
+          html: 'The test is set. Elijah proposes it with stunning simplicity: prepare two bullocks, lay them on wood without fire underneath. The prophets of Baal will call on their god, Elijah will call on the Lord. Whichever god answers by fire is the true God. The stakes could not be higher, the terms could not be clearer. And the people respond: "It is well spoken." They have accepted the challenge. Now it will be shown to all Israel, without ambiguity, whose god is real and whose god is empty.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             plain(25, 'And Elijah said unto the prophets of Baal, Choose you one bullock for yourselves, and dress it first; for ye are many; and call on the name of your gods, but put no fire under.'),
             plain(26, 'And they took the bullock which was given them, and they dressed it, and called on the name of Baal from morning even until noon, saying, O Baal, hear us. But there was no voice, nor any that answered. And they leaped upon the altar which was made.'),
             plain(27, 'And it came to pass at noon, that Elijah mocked them, and said, Cry aloud: for he is a god; either he is talking, or he is pursuing, or he is in a journey, or peradventure he sleepeth, and must be awaked.'),

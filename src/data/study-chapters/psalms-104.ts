@@ -39,6 +39,18 @@ export const PSALMS_104: RichChapterContent = {
             plain(10, 'He sendeth the springs into the valleys, which run among the hills.'),
             plain(12, 'By them shall the fowls of the heaven have their habitation, which sing among the branches.'),
             plain(13, 'He watereth the hills from his chambers: the earth is satisfied with the fruit of thy works.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps104-mid',
+          html:
+            'The psalmist stops describing the heavens and starts describing the herbs. The same God who set the stars feeds the cattle. The cosmic and the daily are one work of one Creator.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 104,
+          lines: [
             plain(14, 'He causeth the grass to grow for the cattle, and herb for the service of man: that he may bring forth food out of the earth;'),
             plain(15, 'And wine that maketh glad the heart of man, and oil to make his face to shine, and bread which strengtheneth man&apos;s heart.'),
           ],

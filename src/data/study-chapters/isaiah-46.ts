@@ -37,6 +37,18 @@ export const ISAIAH_46: RichChapterContent = {
             plain(5, 'To whom will ye liken me, and make me equal, and compare me, that we may be like?'),
             plain(6, 'They lavish gold out of the bag, and weigh silver in the balance, and hire a goldsmith; and he maketh it a god: they fall down, yea, they worship.'),
             plain(7, 'They bear him upon the shoulder, they carry him, and set him in his place, and he standeth; from his place shall he not remove: yea, one shall cry unto him, yet he cannot answer, nor save him out of his trouble.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah46-idols-to-sovereignty',
+          html:
+            'The idols are carried by beasts weighed down with burden. They cannot save themselves, let alone those who worship them. But God carries His people from the womb to old age, promising deliverance. Now comes the turning point: from the satire on idols to the assertion of God&apos;s absolute sovereignty over all history.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 46,
+          lines: [
             plain(8, 'Remember this, and shew yourselves men: bring it again to mind, O ye transgressors.'),
             plain(9, 'Remember the former things of old: for I am God, and there is none else; I am God, and there is none like me,'),
             plain(10, 'Declaring the end from the beginning, and from ancient times the things that are not yet done, saying, My counsel shall stand, and I will do all my pleasure:'),

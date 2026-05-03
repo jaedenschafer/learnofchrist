@@ -46,7 +46,7 @@ export const EXODUS_37: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ark-made',
-          html: 'Notice the order: wood and gold. The wood is earthly, mortal, temporary. The gold—incorruptible, precious, heavenly. The chest that holds the broken law is wrapped in a beauty that transcends it. This is the image of the cross: judgment (the broken law inside) covered by mercy and redemption (the gold without). The staves ensure the ark is never touched by human hands. God&apos;s holiness and the people&apos;s need for Him will travel together, but never as equals. The people carry it; they do not control it.',
+          html: 'Notice the order: wood and gold. The wood is earthly, mortal, temporary. The gold—incorruptible, precious, heavenly. The chest that holds the broken law is wrapped in a beauty that transcends it. This is the image of the cross: judgment (the broken law inside) covered by mercy and redemption (the gold without). The staves ensure the ark is never touched by human hands. God&apos;s holiness and the people&apos;s need for Him will travel together, but never as equals. The people carry it; they do not control it[res:ark-mercy-seat].',
         },
         {
           kind: 'christ',
@@ -92,7 +92,7 @@ export const EXODUS_37: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'kaporet-comment',
-          html: 'The mercy seat is beaten from a single piece of gold. The two cherubim are not attached; they grow out of it, as if guard and mercy were one act. Their wings stretch toward each other, and their faces look down at the mercy seat—at the place where God&apos;s presence meets the broken law. In the Gospels, when the veil of the temple tears, it opens onto this very scene: the Holy of Holies, the mercy seat, the presence of God no longer behind a curtain but open to all who believe. The cherubim are no longer just watching. They are witnesses to forgiveness made public.',
+          html: 'The mercy seat is beaten from a single piece of gold. The two cherubim are not attached; they grow out of it, as if guard and mercy were one act. Their wings stretch toward each other, and their faces look down at the mercy seat—at the place where God&apos;s presence meets the broken law. In the Gospels, when the veil of the temple tears, it opens onto this very scene: the Holy of Holies, the mercy seat, the presence of God no longer behind a curtain but open to all who believe. The cherubim are no longer just watching. They are witnesses to forgiveness made public[res:sacred-objects].',
         },
         {
           kind: 'carry',
@@ -276,6 +276,26 @@ export const EXODUS_37: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Exodus 37 · Study Guide',
   },
+
+
+  resources: [
+    {
+      id: 'ark-mercy-seat',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Ark & Mercy Seat',
+      url: 'https://www.sefaria.org/Exodus.37',
+      description: 'Hebrew text and symbolism of covenant container.',
+    },
+    {
+      id: 'sacred-objects',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Sacred Objects of the Tabernacle',
+      url: 'https://www.bibleodyssey.org/dictionary/tabernacle/',
+      description: 'Lampstand, table, altar, and meanings.',
+    },
+  ],
 
   hasHebrew: true,
 };
