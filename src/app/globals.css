@@ -64,6 +64,17 @@
 html {
   scroll-behavior: smooth;
   -webkit-tap-highlight-color: transparent;
+  /* Hide the browser scrollbar site-wide (the page still scrolls). The
+     hero video reads as a clean edge-to-edge background instead of being
+     framed by a stark white track. */
+  scrollbar-width: none;             /* Firefox */
+  -ms-overflow-style: none;          /* legacy IE/Edge */
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;                     /* Chrome, Safari, Edge Chromium */
+  width: 0;
+  height: 0;
 }
 
 body {

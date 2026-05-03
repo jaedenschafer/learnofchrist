@@ -348,7 +348,10 @@ html[data-reader-theme="dark"] {
   height: 56.25vw;          /* 16:9 of viewport width */
   min-height: 100vh;
   min-width: 177.78vh;      /* 16/9 of viewport height */
-  transform: translate(-50%, -50%);
+  /* Scale up ~22% so YouTube's overlaid affordances (channel name in
+     top-left, share button in top-right, watermark in bottom-right) all
+     get pushed off-screen behind the hero veil. */
+  transform: translate(-50%, -50%) scale(1.22);
   border: 0;
   pointer-events: none;
 }
