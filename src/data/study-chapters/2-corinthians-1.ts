@@ -581,5 +581,40 @@ export const SECOND_CORINTHIANS_1: RichChapterContent = {
     ref: '2 Corinthians 1 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'perseus-parakaleo-lexicon',
+      kind: 'study',
+      source: 'Perseus Digital Library',
+      label: 'Parakaleo (παρακαλέω) — Comfort &amp; Exhortation',
+      url: 'https://www.perseus.tufts.edu/hopper/morph?l=parakalesis&la=greek',
+      description: 'Perseus Scaife entry for parakaleo and related forms — the verb meaning to comfort, encourage, exhort by coming alongside.',
+    },
+    {
+      id: 'sefaria-isaiah-65-promises',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 65 — Renewal &amp; Promise',
+      url: 'https://www.sefaria.org/Isaiah.65',
+      description: 'Full text of Isaiah 65 with Rabbinic and Medieval Jewish commentary on God&apos;s promises of renewal — theological background for Paul&apos;s "Yea and Amen" theology.',
+    },
+    {
+      id: 'theoi-homer-arrabōn',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Arrabōn in Ancient Greek Commerce',
+      url: 'https://www.theoi.com/Library.html',
+      description: 'Theoi collection of classical texts documenting arrabōn (earnest, down payment) in ancient Greek commercial law and maritime contracts.',
+    },
+    {
+      id: 'topostext-asia-minor-sites',
+      kind: 'archaeology',
+      source: 'ToposText',
+      label: 'Asia Minor Archaeological Sites &amp; Ancient Texts',
+      url: 'https://topostext.org/the-places',
+      description: 'ToposText database of 8,150 mapped historic places in Asia Minor and Mediterranean, with ancient literary citations — archaeological context for the province of Asia and Paul&apos;s affliction.',
+    },
+  ],
+
   hasHebrew: false,
 };

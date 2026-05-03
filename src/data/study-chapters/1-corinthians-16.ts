@@ -748,5 +748,40 @@ export const FIRST_CORINTHIANS_16: RichChapterContent = {
     ref: '1 Corinthians 16 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'bibleodyssey-maranatha',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Maranatha',
+      url: 'https://www.bibleodyssey.org/dictionary/maranatha/',
+      description: 'SBL study entry on the Aramaic prayer "Maranatha" (Our Lord, come) and its significance in early Christian worship.',
+    },
+    {
+      id: 'bibleodyssey-ephesus',
+      kind: 'archaeology',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ephesus',
+      url: 'https://www.bibleodyssey.org/dictionary/ephesus/',
+      description: 'Context for Paul&apos;s location when writing to the Corinthians: the city of Ephesus and its role in first-century Christianity.',
+    },
+    {
+      id: 'israel-museum-jerusalem',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'First Century Jerusalem',
+      url: 'https://www.imj.org.il/',
+      description: 'Archaeological and cultural context of first-century Jerusalem, where Paul&apos;s relief collection was bound for, and how early church unity transcended distance.',
+    },
+    {
+      id: 'bibleodyssey-worship',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Worship',
+      url: 'https://www.bibleodyssey.org/dictionary/worship/',
+      description: 'Early Christian worship practices including the weekly gathering on the first day of the week and the role of giving.',
+    },
+  ],
+
   hasHebrew: false,
 };

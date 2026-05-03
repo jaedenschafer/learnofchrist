@@ -70,7 +70,7 @@ export const FIRST_CORINTHIANS_15: RichChapterContent = {
           kind: 'commentary',
           id: 'cor15-christ-died',
           html:
-            'The phrase "according to the scriptures" is key. Paul is not inventing a new interpretation. He is claiming that Christ&apos;s death for sins was the fulfillment of the Old Testament prophets—Isaiah 53, the Psalms, the sacrificial system itself. What happened at the cross was not a surprise to God. It was written beforehand.',
+            'The phrase "according to the scriptures" is key. Paul is not inventing a new interpretation. He is claiming that Christ&apos;s death for sins was the fulfillment of the Old Testament prophets—Isaiah 53, the Psalms, the sacrificial system itself. What happened at the cross was not a surprise to God. It was written beforehand. [res:bibleodyssey-1cor15]',
         },
         {
           kind: 'scripture',
@@ -354,7 +354,7 @@ export const FIRST_CORINTHIANS_15: RichChapterContent = {
           script: 'ἀπαρχή',
           translit: '<strong>aparchē</strong> · firstfruits; the first portion of a harvest that guarantees the whole harvest',
           description:
-            'In the Old Testament, the firstfruits were the first sheaf of grain offered to God at harvest. They were proof that a harvest had come and a guarantee that more would follow. Christ&apos;s resurrection is the firstfruits of the resurrection of the dead—a guarantee that those who belong to Him will also rise.',
+            'In the Old Testament, the firstfruits were the first sheaf of grain offered to God at harvest. They were proof that a harvest had come and a guarantee that more would follow. Christ&apos;s resurrection is the firstfruits of the resurrection of the dead—a guarantee that those who belong to Him will also rise. [res:scaife-anastasis-lexicon]',
         },
         {
           kind: 'scripture',
@@ -715,7 +715,7 @@ export const FIRST_CORINTHIANS_15: RichChapterContent = {
           kind: 'commentary',
           id: 'cor15-living-soul',
           html:
-            'Paul quotes Genesis 2:7: "The Lord God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul." Adam was alive, but his life was natural, mortal, subject to death. He breathed air and ate food. He was sustained by earthly things.',
+            'Paul quotes Genesis 2:7 [res:sefaria-genesis-2-adam-typology]: "The Lord God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul." Adam was alive, but his life was natural, mortal, subject to death. He breathed air and ate food. He was sustained by earthly things.',
         },
         {
           kind: 'commentary',
@@ -867,7 +867,7 @@ export const FIRST_CORINTHIANS_15: RichChapterContent = {
           kind: 'commentary',
           id: 'cor15-death-swallowed',
           html:
-            'Paul quotes Isaiah 25:8. Death is "swallowed up"—<em>katapinō</em>, to drink down, to consume completely. Death does not simply lose a battle. It is consumed by victory. It ceases to exist. This is the ultimate end.',
+            'Paul quotes Isaiah 25:8 and Hosea 13:14. [res:sefaria-hosea-13-14-resurrection] Death is "swallowed up"—<em>katapinō</em>, to drink down, to consume completely. Death does not simply lose a battle. It is consumed by victory. It ceases to exist. This is the ultimate end.',
         },
         {
           kind: 'scripture',
@@ -947,6 +947,41 @@ export const FIRST_CORINTHIANS_15: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Corinthians 15:55, 57',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-1cor15',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Corinthians 15 Overview',
+      url: 'https://www.bibleodyssey.org/',
+      description: 'SBL&apos;s Bible Odyssey resource for deeper exploration of the resurrection creed at 1 Corinthians 15:3&ndash;5 and early Christian theology.',
+    },
+    {
+      id: 'sefaria-hosea-13-14-resurrection',
+      kind: 'archive',
+      source: 'Sefaria',
+      label: 'Hosea 13:14 (Resurrection Quotation)',
+      url: 'https://www.sefaria.org/Hosea.13.14',
+      description: 'The Hebrew text Paul cites in 1 Corinthians 15:54 — &quot;O death, where is thy sting?&quot; — with full commentary and textual parallels.',
+    },
+    {
+      id: 'sefaria-genesis-2-adam-typology',
+      kind: 'archive',
+      source: 'Sefaria',
+      label: 'Genesis 2:7 (First Adam)',
+      url: 'https://www.sefaria.org/Genesis.2.7',
+      description: 'The account of Adam&apos;s creation and life-giving breath that Paul invokes at 1 Corinthians 15:45 to establish the typology of the &quot;last Adam.&quot;',
+    },
+    {
+      id: 'scaife-anastasis-lexicon',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Anastasis (ἀνάστασις)',
+      url: 'https://scaife.perseus.org/',
+      description: 'Greek lexical research tool for <em>anastasis</em> — resurrection — the governing word throughout 1 Corinthians 15, with classical and early Christian attestation.',
+    },
+  ],
 
   hasHebrew: false,
 };

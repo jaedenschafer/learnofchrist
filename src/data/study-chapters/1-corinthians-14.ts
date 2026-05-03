@@ -77,7 +77,7 @@ export const FIRST_CORINTHIANS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'cor14-god-alone',
           html:
-            'A tongue without interpretation is prayer directed to God alone. That is not contemptible—Paul affirms it later. But it does not serve the gathered body. Paul&apos;s point is anatomical: if you speak what no one can understand, your gift builds up yourself, not others.',
+            'A tongue without interpretation is prayer directed to God alone. That is not contemptible—Paul affirms it later. But it does not serve the gathered body[res:theoi-glossolalia-ecstasy]. Paul&apos;s point is anatomical: if you speak what no one can understand, your gift builds up yourself, not others.',
         },
         {
           kind: 'scripture',
@@ -444,7 +444,7 @@ export const FIRST_CORINTHIANS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'cor14-isaiah',
           html:
-            'Paul quotes Isaiah 28:11–12, where God warns Israel that because they reject His prophet, He will speak to them in a language they cannot understand—as judgment, not blessing. The Corinthians are citing this passage to justify their enthusiasm for tongues. Paul flips it: tongues are for a sign <em>to those that believe not</em>, but they harden themselves.',
+            'Paul quotes Isaiah 28:11–12[res:sefaria-isaiah-28-11], where God warns Israel that because they reject His prophet, He will speak to them in a language they cannot understand—as judgment, not blessing. The Corinthians are citing this passage to justify their enthusiasm for tongues. Paul flips it: tongues are for a sign <em>to those that believe not</em>, but they harden themselves.',
         },
         {
           kind: 'scripture',
@@ -559,7 +559,7 @@ export const FIRST_CORINTHIANS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'cor14-edifying-principle',
           html:
-            'The Corinthian service is chaotic. Everyone brings something—a psalm, a teaching, a tongue, a revelation. No one is waiting for the other. No one is thinking about whether it serves. Paul reduces it to one principle: <em>edification</em>. That word is the key to the entire chapter. Let it govern everything.',
+            'The Corinthian service is chaotic. Everyone brings something—a psalm, a teaching, a tongue, a revelation. No one is waiting for the other. No one is thinking about whether it serves[res:bibleodyssey-early-worship]. Paul reduces it to one principle: <em>edification</em>. That word is the key to the entire chapter. Let it govern everything.',
         },
         {
           kind: 'scripture',
@@ -730,7 +730,7 @@ export const FIRST_CORINTHIANS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'cor14-women-silence',
           html:
-            'These verses are among the most contested in Scripture. Paul himself says in 1 Corinthians 11:5 that women prophesy in the church—which requires speaking. The context here is the disruptive Corinthian assembly. &ldquo;Keep silence&rdquo; likely means: do not contribute to the chaos. Do not add voices to the confusion of uninterpreted tongues and competing prophecies. The principle is order, not the silencing of women&apos;s gifts.',
+            'These verses are among the most contested in Scripture. Paul himself says in 1 Corinthians 11:5 that women prophesy in the church—which requires speaking. The context here is the disruptive Corinthian assembly. &ldquo;Keep silence&rdquo; likely means: do not contribute to the chaos. Do not add voices to the confusion of uninterpreted tongues and competing prophecies[res:sefaria-women-synagogue]. The principle is order, not the silencing of women&apos;s gifts.',
         },
         {
           kind: 'scripture',
@@ -864,6 +864,41 @@ export const FIRST_CORINTHIANS_14: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Corinthians 14 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-isaiah-28-11',
+      kind: 'scripture',
+      source: 'Sefaria Library',
+      label: 'Isaiah 28:11–12 — The Quotation Paul Uses',
+      url: 'https://www.sefaria.org/Isaiah.28.11-12?lang=en',
+      description: 'Open-access Hebrew Scripture text showing the source Paul quotes at 1 Corinthians 14:21 — God&apos;s warning to Israel via foreign tongues.',
+    },
+    {
+      id: 'bibleodyssey-early-worship',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Worship Practices in the Early Church',
+      url: 'https://www.bibleodyssey.org/en/passages/Worship-in-the-Early-Church/',
+      description: 'Scholarly overview of how early churches ordered their gatherings — prophecy, tongues, teaching, and the principle of edification that Paul enforces.',
+    },
+    {
+      id: 'theoi-glossolalia-ecstasy',
+      kind: 'archive',
+      source: 'Theoi Classical Texts &amp; Database',
+      label: 'Ecstatic Speech &amp; Glossolalia in Greco-Roman Religion',
+      url: 'https://www.theoi.com/Text/OvidMetamorphoses1.html',
+      description: 'Classical parallels to glossolalia in mystery cults and oracle sites — context for understanding the phenomenon Paul addresses and its distinction from intelligible prophecy.',
+    },
+    {
+      id: 'sefaria-women-synagogue',
+      kind: 'study',
+      source: 'Sefaria Library',
+      label: 'Women&apos;s Participation in Synagogue Worship',
+      url: 'https://www.sefaria.org/search?q=women+synagogue+worship',
+      description: 'Textual search through Jewish law and practice regarding women&apos;s roles in gathered worship — essential for interpreting Paul&apos;s instructions at 1 Corinthians 14:34–35.',
+    },
+  ],
 
   hasHebrew: false,
 };
