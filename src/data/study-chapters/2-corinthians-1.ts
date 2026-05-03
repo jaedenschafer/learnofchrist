@@ -101,7 +101,7 @@ export const SECOND_CORINTHIANS_1: RichChapterContent = {
           script: 'παρακαλέω',
           translit: '<strong>parakaleo</strong> · to comfort, encourage, exhort, call alongside',
           description:
-            'The root para means &ldquo;beside.&rdquo; Parakaleo is to come alongside someone in their trouble—not to fix it, not to minimize it, but to be present. The noun form, Paraklete (often translated Comforter), becomes one of Jesus&apos;s names for the Holy Spirit (John 14:26).',
+            'The root para means &ldquo;beside.&rdquo; Parakaleo is to come alongside someone in their trouble—not to fix it, not to minimize it, but to be present. The noun form, Paraklete (often translated Comforter), becomes one of Jesus&apos;s names for the Holy Spirit (John 14:26). [res:perseus-parakaleo-lexicon]',
         },
         {
           kind: 'scripture',
@@ -220,7 +220,7 @@ export const SECOND_CORINTHIANS_1: RichChapterContent = {
           script: 'θλῖψις',
           translit: '<strong>thlipsis</strong> · pressure, affliction, tribulation, distress',
           description:
-            'The image is literal pressure—something pressing down. Paul uses it to describe afflictions so severe that they exceed his natural strength to bear. He was compressed, squeezed, unable to escape.',
+            'The image is literal pressure—something pressing down. Paul uses it to describe afflictions so severe that they exceed his natural strength to bear. He was compressed, squeezed, unable to escape. [res:topostext-asia-minor-sites]',
         },
         {
           kind: 'commentary',
@@ -504,7 +504,7 @@ export const SECOND_CORINTHIANS_1: RichChapterContent = {
           id: 'christ-yes-promises',
           title: 'Christ Connection — The Amen to Every Promise',
           html:
-            'Every promise in the Old Testament—the promise to Abraham, the covenant with David, the hope of a Messiah—all of them find their &ldquo;yea&rdquo; in Christ. He is the resolution of Scripture&apos;s entire chorus of promises. And &ldquo;Amen&rdquo; is not something we say after He finishes; it is who He is. Christ is God&apos;s &ldquo;Amen&rdquo; (Revelation 3:14)—His faithfulness made visible, His yes made flesh.',
+            'Every promise in the Old Testament—the promise to Abraham, the covenant with David, the hope of a Messiah—all of them find their &ldquo;yea&rdquo; in Christ. He is the resolution of Scripture&apos;s entire chorus of promises. And &ldquo;Amen&rdquo; is not something we say after He finishes; it is who He is. Christ is God&apos;s &ldquo;Amen&rdquo; (Revelation 3:14)—His faithfulness made visible, His yes made flesh. [res:sefaria-isaiah-65-promises]',
         },
         {
           kind: 'commentary',
@@ -552,7 +552,7 @@ export const SECOND_CORINTHIANS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'cor2-earnest',
           html:
-            'God has sealed us (marked us as His), and has given us the Spirit as an earnest—a down payment, a guarantee. The Holy Spirit living in the believer is not the completion of salvation; it is the promise that completion is coming. To have the Spirit now is to have a real taste of the inheritance that will be fully yours when Christ returns.',
+            'God has sealed us (marked us as His), and has given us the Spirit as an earnest—a down payment, a guarantee [res:theoi-homer-arraban]. The Holy Spirit living in the believer is not the completion of salvation; it is the promise that completion is coming. To have the Spirit now is to have a real taste of the inheritance that will be fully yours when Christ returns.',
         },
         {
           kind: 'christ',
@@ -599,7 +599,7 @@ export const SECOND_CORINTHIANS_1: RichChapterContent = {
       description: 'Full text of Isaiah 65 with Rabbinic and Medieval Jewish commentary on God&apos;s promises of renewal — theological background for Paul&apos;s "Yea and Amen" theology.',
     },
     {
-      id: 'theoi-homer-arrabōn',
+      id: 'theoi-homer-arraban',
       kind: 'archive',
       source: 'Theoi Classical Texts',
       label: 'Arrabōn in Ancient Greek Commerce',
