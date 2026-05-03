@@ -48,7 +48,7 @@ export const ROMANS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'rom14-weak-faith',
           html:
-            'Weakness in faith is not sin. It is the state of one who does not yet grasp the full range of Christian freedom. "Weak" here means fearful, bound by scruples—afraid of eating meat offered to idols, afraid of breaking the Sabbath. The weak have faith; they have simply not yet learned the scope of what that freedom includes. Paul&apos;s word is not judgment. It is <em>receive ye.</em>',
+            'Weakness in faith is not sin. It is the state of one who does not yet grasp the full range of Christian freedom. "Weak" here means fearful, bound by scruples—afraid of eating meat offered to idols, afraid of breaking the Sabbath[res:sefaria-leviticus11]. The weak have faith; they have simply not yet learned the scope of what that freedom includes. Paul&apos;s word is not judgment. It is <em>receive ye.</em>',
         },
         {
           kind: 'greek',
@@ -114,7 +114,7 @@ export const ROMANS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'rom14-herbs',
           html:
-            'Some eat all things. Others eat only herbs. These are the consciences Paul is naming. The weak believer has narrowed their diet because they fear idolatry—that meat might have been offered to false gods. It is a proxy for doubt, for fear. The strong believer eats freely, believing all food is innocent.',
+            'Some eat all things. Others eat only herbs. These are the consciences Paul is naming. The weak believer has narrowed their diet because they fear idolatry—that meat might have been offered to false gods[res:bibleodyssey-meat-idols]. It is a proxy for doubt, for fear. The strong believer eats freely, believing all food is innocent.',
         },
         {
           kind: 'commentary',
@@ -381,7 +381,7 @@ export const ROMANS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'rom14-judge-seat',
           html:
-            'The judgment seat of Christ—the <em>bēma</em> of Christ—is where every soul will give account. Not to you. Not to their pastor. Not to their conscience alone. To Christ. That knowledge should silence every human court.',
+            'The judgment seat of Christ—the <em>bēma</em> of Christ[res:bibleodyssey-judgment-seat]—is where every soul will give account. Not to you. Not to their pastor. Not to their conscience alone. To Christ. That knowledge should silence every human court.',
         },
         {
           kind: 'greek',
@@ -396,7 +396,7 @@ export const ROMANS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'rom14-confess',
           html:
-            'Paul quotes Isaiah 45:23: "Every knee shall bow to me, and every tongue shall confess to God." This is the leveling moment. King and pauper, strong and weak, all kneel before Christ. All confess. All give account. Your judgment of your brother is an arrogance you will not be able to defend before Him.',
+            'Paul quotes Isaiah 45:23[res:sefaria-isaiah45-23]: "Every knee shall bow to me, and every tongue shall confess to God." This is the leveling moment. King and pauper, strong and weak, all kneel before Christ. All confess. All give account. Your judgment of your brother is an arrogance you will not be able to defend before Him.',
         },
         {
           kind: 'christ',
@@ -693,6 +693,41 @@ export const ROMANS_14: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Romans 14 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-isaiah45-23',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 45:23',
+      url: 'https://www.sefaria.org/Isaiah.45.23',
+      description: 'Every knee shall bow, every tongue confess — the source Paul quotes in Romans 14:11 to silence all human judgment.',
+    },
+    {
+      id: 'sefaria-leviticus11',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Leviticus 11 — Clean and Unclean',
+      url: 'https://www.sefaria.org/Leviticus.11',
+      description: 'The source of the weak believer&apos;s scruples: the laws of purity that shaped dietary conscience in Jewish practice.',
+    },
+    {
+      id: 'bibleodyssey-meat-idols',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Meat Offered to Idols',
+      url: 'https://www.bibleodyssey.org/dictionary/meat-offered-to-idols/',
+      description: 'Greco-Roman dietary practices and the conflict between the strong and weak over food sacrificed to pagan gods.',
+    },
+    {
+      id: 'bibleodyssey-judgment-seat',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Judgment Seat',
+      url: 'https://www.bibleodyssey.org/dictionary/judgment-seat/',
+      description: 'The bēma — Christ&apos;s tribunal where all will stand to give account, the leveling reality that silences human judgment.',
+    },
+  ],
 
   hasHebrew: false,
 };

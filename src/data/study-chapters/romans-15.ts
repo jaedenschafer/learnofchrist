@@ -349,7 +349,7 @@ export const ROMANS_15: RichChapterContent = {
           kind: 'commentary',
           id: 'rom15-gentile-praise',
           html:
-            'Paul quotes Psalm 18:49. The psalm speaks of praising God <em>among the Gentiles</em>—a Gentile people worshipping the God of Israel. What was a psalm of David becomes a prophecy of the gospel breaking open to the nations. The Jews were the root. The Gentiles are the branches that grow from that root.',
+            'Paul quotes Psalm 18:49[res:sefaria-psalm18]. The psalm speaks of praising God <em>among the Gentiles</em>—a Gentile people worshipping the God of Israel. What was a psalm of David becomes a prophecy of the gospel breaking open to the nations. The Jews were the root. The Gentiles are the branches that grow from that root.',
         },
         {
           kind: 'carry',
@@ -388,7 +388,7 @@ export const ROMANS_15: RichChapterContent = {
           kind: 'commentary',
           id: 'rom15-deuteronomy',
           html:
-            'Deuteronomy 32:43. Israel is not a closed club. The Gentiles are invited to the very same joy, the very same covenant mercy. The language is not &ldquo;Gentiles, serve Israel&rdquo; or &ldquo;Gentiles, become like Israel.&rdquo; It is &ldquo;Rejoice together. Your joy is the same joy.&rdquo;',
+            'Deuteronomy 32:43[res:sefaria-deuteronomy32]. Israel is not a closed club. The Gentiles are invited to the very same joy, the very same covenant mercy. The language is not &ldquo;Gentiles, serve Israel&rdquo; or &ldquo;Gentiles, become like Israel.&rdquo; It is &ldquo;Rejoice together. Your joy is the same joy.&rdquo;',
         },
 
         {
@@ -430,7 +430,7 @@ export const ROMANS_15: RichChapterContent = {
           kind: 'commentary',
           id: 'rom15-isaiah-root',
           html:
-            'Isaiah 11:10. The root of Jesse—the Davidic root, the Messiah. He will arise not just to reign over Israel but <em>over the Gentiles.</em> And the Gentiles will put their trust in Him. Not as a backup plan if the Jews reject Him, but as the design from the beginning. Israel is the root; the Gentiles, the branches. Christ is the one root-and-branch brings together.',
+            'Isaiah 11:10[res:sefaria-isaiah11]. The root of Jesse—the Davidic root, the Messiah. He will arise not just to reign over Israel but <em>over the Gentiles.</em> And the Gentiles will put their trust in Him. Not as a backup plan if the Jews reject Him, but as the design from the beginning. Israel is the root; the Gentiles, the branches. Christ is the one root-and-branch brings together.',
         },
         {
           kind: 'christ',
@@ -562,7 +562,7 @@ export const ROMANS_15: RichChapterContent = {
           kind: 'commentary',
           id: 'rom15-illyricum',
           html:
-            'From Jerusalem to Illyricum (modern-day Albania). Paul has traced a geographical arc across the Mediterranean. Not by mere words, but by signs and wonders—the Spirit confirming the gospel. The mission is not an individual achievement. It is the Spirit&apos;s work through an apostle who has made himself available.',
+            'From Jerusalem to Illyricum[res:topostext-illyricum] (modern-day Albania). Paul has traced a geographical arc across the Mediterranean. Not by mere words, but by signs and wonders—the Spirit confirming the gospel. The mission is not an individual achievement. It is the Spirit&apos;s work through an apostle who has made himself available.',
         },
         {
           kind: 'greek',
@@ -692,7 +692,7 @@ export const ROMANS_15: RichChapterContent = {
           kind: 'commentary',
           id: 'rom15-collection',
           html:
-            'The collection is a visible sign that the gospel has broken down the wall between Jew and Gentile. Gentile believers sharing their resources with Jewish believers. Not out of obligation or condescension, but out of joy at being one people, one family, one body in Christ.',
+            'The collection[res:bibleodyssey-collection] is a visible sign that the gospel has broken down the wall between Jew and Gentile. Gentile believers sharing their resources with Jewish believers. Not out of obligation or condescension, but out of joy at being one people, one family, one body in Christ.',
         },
         {
           kind: 'greek',
@@ -848,6 +848,49 @@ export const ROMANS_15: RichChapterContent = {
             'Who do you need to pray for this week as if their life depended on it? And to whom do you need to offer the peace of God—not as a platitude, but as a concrete decision to lay down your grievance?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-psalm18',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 18:49 — Gentile Praise',
+      url: 'https://www.sefaria.org/Psalms.18',
+      description: 'Full text and commentary on the psalm Paul quotes at Romans 15:9 — the foretelling of Gentile inclusion in God&apos;s praise.',
+    },
+    {
+      id: 'sefaria-deuteronomy32',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 32:43 — Rejoice, Gentiles',
+      url: 'https://www.sefaria.org/Deuteronomy.32',
+      description: 'The source of Romans 15:10 — the call to Gentiles to rejoice with Israel, rooted in the Song of Moses.',
+    },
+    {
+      id: 'sefaria-isaiah11',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 11:10 — Root of Jesse Over the Gentiles',
+      url: 'https://www.sefaria.org/Isaiah.11',
+      description: 'The foundation for Romans 15:12 — the Davidic Messiah whose reign extends to all nations.',
+    },
+    {
+      id: 'topostext-illyricum',
+      kind: 'archaeology',
+      source: 'ToposText',
+      label: 'Illyricum (Roman Province)',
+      url: 'https://topostext.org/place/383214PIll',
+      description: 'Geographic and archaeological context for Paul&apos;s eastern boundary in Romans 15:19 — the frontier from Jerusalem to modern-day Albania.',
+    },
+    {
+      id: 'bibleodyssey-collection',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Collection for the Saints',
+      url: 'https://www.bibleodyssey.org/dictionary/collection-for-the-saints/',
+      description: 'Overview of Paul&apos;s relief offering from the Gentile churches to Jerusalem, the covenant sign of Romans 15:25–27.',
     },
   ],
 

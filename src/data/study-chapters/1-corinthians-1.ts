@@ -282,7 +282,7 @@ export const FIRST_CORINTHIANS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'cor1-require',
           html:
-            'The Jews want a king who will restore the kingdom, overthrow Rome, and bring the age to come. The Greeks want a philosophy that explains the nature of reality through human reason. Neither can see in a carpenter executed by Rome anything worth following. The cross breaks every category the world uses to measure power and wisdom.',
+            'The Jews want a king who will restore the kingdom, overthrow Rome, and bring the age to come. The Greeks want a philosophy that explains the nature of reality through human reason[res:perseus-greek-philosophy]. Neither can see in a carpenter executed by Rome anything worth following. The cross breaks every category the world uses to measure power and wisdom.',
         },
         {
           kind: 'greek',
@@ -340,13 +340,13 @@ export const FIRST_CORINTHIANS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'cor1-not-many-wise',
           html:
-            'Look at the Corinthian church. Not many of you are wise by the world&apos;s standards. Not many are mighty. Not many are noble. Why? Because God has chosen what looks foolish to confound the wise. God has chosen what looks weak to overthrow what looks mighty. The very composition of the church is an insult to the world&apos;s logic and an argument against the Corinthians&apos; temptation to glory in wisdom.',
+            'Look at the Corinthian church. Not many of you are wise by the world&apos;s standards. Not many are mighty. Not many are noble. Why? Because God has chosen what looks foolish to confound the wise. God has chosen what looks weak to overthrow what looks mighty. The very composition of the church is an insult to the world. Yet Corinth itself had its share of men and women of standing[res:bibleodyssey-erastus], making this point all the sharper&apos;s logic and an argument against the Corinthians&apos; temptation to glory in wisdom.',
         },
         {
           kind: 'commentary',
           id: 'cor1-no-flesh-glory',
           html:
-            '&ldquo;That no flesh should glory in his presence.&rdquo; This is the point. If the church were composed of the wise, the mighty, and the noble, they could take credit for the gospel&apos;s success. But a church of the foolish and the weak proves one thing: God did it. Your smallness, your limitation, your lack of credential—these are not obstacles to Christ&apos;s work. They are the proof that it is Christ&apos;s work alone.',
+            '&ldquo;That no flesh should glory in his presence.&rdquo; This is the point. If the church were composed of the wise, the mighty, and the noble, they could take credit for the gospel&apos;s success. But a church of the foolish and the weak proves one thing: God did it. Your smallness, your limitation, your lack of credential—these are not obstacles to Christ&apos;s work. They are the proof that it is Christ&apos;s work alone. As Jeremiah reminds us, &ldquo;Let him that glorieth glory in the Lord&rdquo;[res:sefaria-jeremiah-924].',
         },
         {
           kind: 'greek',
@@ -361,7 +361,7 @@ export const FIRST_CORINTHIANS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'cor1-christ-four-fold',
           html:
-            'Notice the four-fold description: Christ is made unto us wisdom, righteousness, sanctification, and redemption. This is not four separate gifts stacked on top of each other. It is Christ Himself understood from four angles. He is our complete standing before God.',
+            'Notice the four-fold description: Christ is made unto us wisdom, righteousness, sanctification, and redemption. This is not four separate gifts stacked on top of each other. It is Christ Himself understood from four angles. He is our complete standing before God. And Corinth itself, with all its temples and shrines[res:ascsa-corinth-excavations], is the perfect backdrop for understanding this reversal: a city built on human wisdom, now transformed by divine folly.',
         },
         {
           kind: 'christ',
@@ -395,6 +395,41 @@ export const FIRST_CORINTHIANS_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Corinthians 1 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-jeremiah-924',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 9:24',
+      url: 'https://www.sefaria.org/Jeremiah.9.24',
+      description: 'The verse Paul references: &ldquo;Let him that glorieth glory in the Lord&rdquo; — the foundation of his reversal of human wisdom.',
+    },
+    {
+      id: 'ascsa-corinth-excavations',
+      kind: 'archaeology',
+      source: 'ASCSA',
+      label: 'Corinth Excavations',
+      url: 'https://corinth.ascsa.net/',
+      description: 'Continuous excavation of the city where Paul founded the church — marketplace, temples, and cultural context of Greek wisdom.',
+    },
+    {
+      id: 'bibleodyssey-erastus',
+      kind: 'archaeology',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Erastus Inscription',
+      url: 'https://www.bibleodyssey.org/dictionary/erastus/',
+      description: 'An actual pavement inscription naming Erastus, a city official of Corinth mentioned in Romans 16:23 — archaeological evidence of the city.',
+    },
+    {
+      id: 'perseus-greek-philosophy',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Greek Philosophy Texts',
+      url: 'https://www.perseus.tufts.edu/hopper/',
+      description: 'Full Greek and English texts of Stoic and Epicurean philosophers whose wisdom the Corinthians sought — and whom Paul addresses indirectly.',
+    },
+  ],
 
   hasHebrew: false,
 };
