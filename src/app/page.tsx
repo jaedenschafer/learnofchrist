@@ -79,6 +79,11 @@ export default async function Home() {
         </span>
       </section>
 
+      {/* ═══════════ 2. Study showcase — vertical sticky 4-card stack ═══════════ */}
+      {/* Moved up to sit directly under the hero so the rich-study story
+          is the first thing people see after the headline. */}
+      <StudyShowcase />
+
       {/* ═══════════ 1a. App-style dashboard ═══════════ */}
       <AppDashboard />
 
@@ -103,9 +108,6 @@ export default async function Home() {
           </Link>
         </div>
       </section>
-
-      {/* ═══════════ 2. Study showcase — 4-card horizontal scroll ═══════════ */}
-      <StudyShowcase />
 
       {/* ═══════════ 4. Mission — one declarative line ═══════════ */}
       <section className="loc-mission">
