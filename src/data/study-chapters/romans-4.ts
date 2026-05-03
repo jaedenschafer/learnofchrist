@@ -65,7 +65,7 @@ export const ROMANS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'rom4-reckoned',
           html:
-            'Paul quotes Genesis 15:6—the verse that changed everything for Abraham, and the verse that will change everything for theology. Abraham simply believed. There is no work mentioned. No achievement. No transformation of character. Just faith. And God counted it—placed it in His ledger—as righteousness itself.',
+            'Paul quotes Genesis 15:6[res:sefaria-genesis-15-6]—the verse that changed everything for Abraham, and the verse that will change everything for theology. Abraham simply believed. There is no work mentioned. No achievement. No transformation of character. Just faith. And God counted it—placed it in His ledger—as righteousness itself.',
         },
         {
           kind: 'christ',
@@ -140,7 +140,7 @@ export const ROMANS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'rom4-apart-works',
           html:
-            'Paul brings in David (Psalm 32) to show that this truth runs through the Old Testament. David, author of Israel&apos;s prayers, speaks of blessedness—not through works, not through moral achievement, but through forgiveness. Sins covered. Sin not imputed. Righteousness credited. David is describing the same thing Abraham experienced: righteousness that comes not through what you do but through what God declares.',
+            'Paul brings in David (Psalm 32[res:sefaria-psalm-32]) to show that this truth runs through the Old Testament. David, author of Israel&apos;s prayers, speaks of blessedness—not through works, not through moral achievement, but through forgiveness. Sins covered. Sin not imputed. Righteousness credited. David is describing the same thing Abraham experienced: righteousness that comes not through what you do but through what God declares.',
         },
         {
           kind: 'christ',
@@ -191,7 +191,7 @@ export const ROMANS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'rom4-uncircumcision',
           html:
-            'The timeline is decisive. Genesis 15:6 says Abraham believed and it was reckoned as righteousness. Genesis 17, chapters later, describes Abraham&apos;s circumcision. Righteousness came first. The sign came second. Abraham was counted righteous in his uncircumcision. This means the pathway to righteousness does not depend on the mark. It depends on faith.',
+            'The timeline is decisive. Genesis 15:6 says Abraham believed and it was reckoned as righteousness[res:intertextual-genesis-romans]. Genesis 17, chapters later, describes Abraham&apos;s circumcision. Righteousness came first. The sign came second. Abraham was counted righteous in his uncircumcision. This means the pathway to righteousness does not depend on the mark. It depends on faith.',
         },
         {
           kind: 'scripture',
@@ -313,7 +313,7 @@ export const ROMANS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'rom4-many-nations',
           html:
-            'The promise to Abraham was staggering: father of many nations. Not just one son. Not just Israel. Many nations. This promise was impossible by every human calculation. Sarah was barren. Abraham was aged. Yet he was to be the father of multitudes. The promise itself required a God who works impossibly.',
+            'The promise to Abraham was staggering: father of many nations[res:bibleodyssey-abraham]. Not just one son. Not just Israel. Many nations. This promise was impossible by every human calculation. Sarah was barren. Abraham was aged. Yet he was to be the father of multitudes. The promise itself required a God who works impossibly.',
         },
         {
           kind: 'christ',
@@ -515,6 +515,41 @@ export const ROMANS_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Romans 4 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-15-6',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 15:6 (Hebrew)',
+      url: 'https://www.sefaria.org/Genesis.15.6',
+      description: 'The Hebrew text and translation of Abraham&apos;s faith being reckoned as righteousness — the verse Paul cites as the foundation of justification.',
+    },
+    {
+      id: 'sefaria-psalm-32',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 32 (David&apos;s Blessedness)',
+      url: 'https://www.sefaria.org/Psalms.32',
+      description: 'The full Hebrew text and English translation of David&apos;s psalm on blessed forgiveness, which Paul quotes at Romans 4:7–8.',
+    },
+    {
+      id: 'intertextual-genesis-romans',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Genesis 15:6 ↔ Romans 4:3',
+      url: 'https://intertextual.bible/text/genesis-15.6/romans-4.3',
+      description: 'Side-by-side comparison of the Hebrew original and Paul&apos;s Greek citation, showing how the imputation language carries forward.',
+    },
+    {
+      id: 'bibleodyssey-abraham',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Abraham in Second Temple Judaism',
+      url: 'https://www.bibleodyssey.org/dictionary/abraham/',
+      description: 'Open-access scholarly entry on Abraham&apos;s role in Jewish thought between the testaments, setting the stage for Paul&apos;s argument.',
+    },
+  ],
 
   hasHebrew: false,
 };

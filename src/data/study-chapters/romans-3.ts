@@ -113,14 +113,14 @@ export const ROMANS_3: RichChapterContent = {
           script: 'πίστις',
           translit: '<strong>Pistis</strong> · faith; belief; faithfulness; trustworthiness',
           description:
-            'Paul plays on the word&apos;s double meaning. Human <em>pistis</em> (faith, belief) fails. But God&apos;s <em>pistis</em> (faithfulness, reliability) never wavers. The same root word becomes the great tension of the chapter: we are justified through faith, but our faith is only sure because it rests on God&apos;s faithfulness.',
+            'Paul plays on the word&apos;s double meaning[res:rom3-faith-lexicon]. Human <em>pistis</em> (faith, belief) fails. But God&apos;s <em>pistis</em> (faithfulness, reliability) never wavers. The same root word becomes the great tension of the chapter: we are justified through faith, but our faith is only sure because it rests on God&apos;s faithfulness.',
         },
         {
           kind: 'christ',
           id: 'rom3-christ-faithful',
           title: 'Christ Connection - The Faithful One',
           html:
-            'When your faith falters, Christ&apos;s does not. He is "the faithful witness" (Rev. 1:5), the one who "remained faithful" even unto death (Rev. 2:10, 3:14). Hebrews says Christ learned obedience through suffering, yet never once failed to trust His Father. Your justification does not depend on the steadiness of your faith, but on the unwavering faithfulness of the one you believe in. When you are faithless, he remains faithful (2 Tim. 2:13).',
+            'When your faith falters, Christ&apos;s does not. He is "the faithful witness" (Rev. 1:5), the one who "remained faithful" even unto death (Rev. 2:10, 3:14). Hebrews says Christ learned obedience through suffering, yet never once failed to trust His Father. Your justification does not depend on the steadiness of your faith, but on the unwavering faithfulness of the one you believe in[res:rom3-habakkuk-faith-context]. When you are faithless, he remains faithful (2 Tim. 2:13).',
         },
         {
           kind: 'carry',
@@ -164,7 +164,7 @@ export const ROMANS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'rom3-catalog-start',
           html:
-            'Paul now quotes the Psalms and Isaiah. These are the Old Testament words about the human condition—not the words of Paul, but the words of Scripture itself. From verse 10 through verse 18, Paul strings together a catalog of indictments: none righteous, none seeking God, all gone astray. This is the courtroom testimony. Not an opinion. Scripture itself declares it.',
+            'Paul now quotes the Psalms and Isaiah[res:rom3-ot-catalog-sefaria]. These are the Old Testament words about the human condition—not the words of Paul, but the words of Scripture itself. From verse 10 through verse 18, Paul strings together a catalog of indictments: none righteous, none seeking God, all gone astray. This is the courtroom testimony. Not an opinion. Scripture itself declares it.',
         },
         {
           kind: 'commentary',
@@ -533,7 +533,7 @@ export const ROMANS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'rom3-hilasterion',
           html:
-            'A propitiation is the place where sacrifice turns away wrath. In the Old Testament, it was the mercy seat—the lid of the ark where the high priest sprinkled blood once a year to atone for the people. Christ Himself becomes that mercy seat. His blood is poured out to satisfy God&apos;s justice. The wrath that you deserve is poured onto Him instead. And then He rises.',
+            'A propitiation is the place where sacrifice turns away wrath. In the Old Testament, it was the mercy seat—the lid of the ark where the high priest sprinkled blood once a year to atone for the people[res:rom3-kapporeth-leviticus]. Christ Himself becomes that mercy seat. His blood is poured out to satisfy God&apos;s justice. The wrath that you deserve is poured onto Him instead. And then He rises.',
         },
         {
           kind: 'greek',
@@ -649,4 +649,39 @@ export const ROMANS_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Romans 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'rom3-ot-catalog-sefaria',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms in Romans 3 (14, 5, 140; Isaiah 59)',
+      url: 'https://www.sefaria.org/Psalms.14',
+      description: 'Hebrew text and interlinear translation of the psalms Paul stitches together to indict all humanity—the Old Testament&apos;s own verdict on human righteousness.',
+    },
+    {
+      id: 'rom3-kapporeth-leviticus',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 16 · The Day of Atonement',
+      url: 'https://www.sefaria.org/Leviticus.16',
+      description: 'Hebrew text of the mercy seat ritual: where the high priest sprinkled blood to atone for sin—the Old Testament image that becomes Christ in Romans 3:25.',
+    },
+    {
+      id: 'rom3-faith-lexicon',
+      kind: 'lexicon',
+      source: 'Blue Letter Bible',
+      label: 'Pistis (Πίστις) — Faith &amp; Faithfulness',
+      url: 'https://www.blueletterbible.org/lexicon/g4102/kjv/',
+      description: 'Greek lexicon entry for pistis, tracing the semantic range from human belief to God&apos;s reliability—the word Paul uses to show why faith, not works, justifies.',
+    },
+    {
+      id: 'rom3-habakkuk-faith-context',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Habakkuk 2:4 · The Just Shall Live by Faith',
+      url: 'https://www.sefaria.org/Habakkuk.2.4',
+      description: 'Hebrew text of the OT verse Paul echoes throughout Romans—where faith in God&apos;s faithfulness, not human works, becomes the foundation of righteousness.',
+    },
+  ],
 };

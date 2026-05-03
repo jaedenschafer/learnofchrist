@@ -275,7 +275,7 @@ export const ROMANS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'rom5-commendeth',
           html:
-            'The Greek word is <em>sunistēmi</em> — to stand together with, to prove, to demonstrate. God does not ask us to believe in His love in theory. He proves it. He shows it. He lays it out in time and space and blood. A man dies. God walks that out in front of you.',
+            'The Greek word is <em>sunistēmi</em> — to stand together with, to prove, to demonstrate. God does not ask us to believe in His love in theory. He proves it. He shows it. He lays it out in time and space and blood. A man dies. God walks that out in front of you. The same kind of proof-work appears in Romans 3:25 with <em>logizomai</em>[res:logizomai-lexicon] — reckoning or imputation: God &ldquo;set forth&rdquo; Christ as the propitiation, the one to whom our sins are charged, and from whom His righteousness is credited.',
         },
         {
           kind: 'christ',
@@ -449,7 +449,7 @@ export const ROMANS_5: RichChapterContent = {
           id: 'rom5-christ-obedience',
           title: 'Christ Connection — The Second Adam',
           html:
-            'Paul does not call Jesus the &ldquo;second Adam&rdquo; explicitly here, but the type is unmistakable. Adam was given one command and disobeyed. Christ was given one command — &ldquo;thy will be done&rdquo; — and obeyed to death. Where Adam said no, Christ said yes. And that yes reverses the no. 1 Corinthians 15:22 makes the paralleling explicit: &ldquo;For as in Adam all die, even so in Christ shall all be made alive.&rdquo; But here is the asymmetry again: Adam&apos;s obedience only applied to him (he could not save anyone else by obedience). Christ&apos;s obedience covers <em>many</em> — it is offered to all who will receive it.',
+            'Paul does not call Jesus the &ldquo;second Adam&rdquo;[res:second-adam-christology] explicitly here, but the type is unmistakable. Adam was given one command and disobeyed. Christ was given one command — &ldquo;thy will be done&rdquo; — and obeyed to death. Where Adam said no, Christ said yes. And that yes reverses the no[res:genesis-3-sefaria]. 1 Corinthians 15:22 makes the paralleling explicit: &ldquo;For as in Adam all die, even so in Christ shall all be made alive.&rdquo; But here is the asymmetry again: Adam&apos;s obedience only applied to him (he could not save anyone else by obedience). Christ&apos;s obedience covers <em>many</em> — it is offered to all who will receive it[res:type-christ-intertextual].',
         },
         {
           kind: 'carry',
@@ -533,6 +533,41 @@ export const ROMANS_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Romans 5 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'genesis-3-sefaria',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 3 — The Fall',
+      url: 'https://www.sefaria.org/Genesis.3',
+      description: 'Hebrew text with rabbinic and medieval commentary on Adam&apos;s disobedience and the entry of sin into the world.',
+    },
+    {
+      id: 'type-christ-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Romans 5:14 — Type of Him That Was to Come',
+      url: 'https://intertextual.bible/text/romans-5.14',
+      description: 'Adam as type and typology: how the first disobedient man foreshadows (and is reversed by) the obedient Christ.',
+    },
+    {
+      id: 'logizomai-lexicon',
+      kind: 'lexicon',
+      source: 'Logeion (Perseus)',
+      label: 'Logizomai — Reckon, Impute, Account',
+      url: 'https://www.logeion.uchicago.edu/logizomai',
+      description: 'Complete Greek lexical entry for the verb of imputation: how God reckons righteousness and our sins are credited to Christ.',
+    },
+    {
+      id: 'second-adam-christology',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jesus as the Second Adam',
+      url: 'https://www.bibleodyssey.org/passages/romans/romans-5/',
+      description: 'Open-access exploration of second-Adam Christology: how Paul uses typology to reframe Christ as the inverse of Adam&apos;s disobedience.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -249,7 +249,7 @@ export const ROMANS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'rom2-doers',
           html:
-            'Hearing the law does something in you. It convicts. It shows you the standard. But hearing is not obedience. Knowing what God requires is not the same as doing it. The law was never meant to be a spectator sport. It is not doctrine to admire. It is a way to live.',
+            'Hearing the law does something in you. It convicts. It shows you the standard. But hearing is not obedience. Knowing what God requires is not the same as doing it[res:je-circumcision-context]. The law was never meant to be a spectator sport. It is not doctrine to admire. It is a way to live. This reframes righteousness: not intellectual assent, but persistent action.',
         },
         {
           kind: 'scripture',
@@ -263,7 +263,7 @@ export const ROMANS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'rom2-conscience',
           html:
-            'Paul makes a radical claim: a Gentile who has never read Scripture, who has never heard the law of God, can still do the things of the law. Why? Because the law is written on the human heart itself. Your conscience is not a voice outside you. It is the echo of God&apos;s law written into your nature. You know—in the core of your being—what goodness looks like.',
+            'Paul makes a radical claim: a Gentile who has never read Scripture, who has never heard the law of God, can still do the things of the law[res:bibleodyssey-natural-law]. Why? Because the law is written on the human heart itself. Your conscience is not a voice outside you. It is the echo of God&apos;s law written into your nature. You know—in the core of your being—what goodness looks like. This claim bridges Hebrew covenant theology and Greek philosophy&apos;s understanding of natural virtue[res:sep-stoicism-virtue].',
         },
         {
           kind: 'scripture',
@@ -372,7 +372,7 @@ export const ROMANS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'rom2-circumcision',
           html:
-            'Circumcision was the sign of the covenant, the mark of belonging to God&apos;s people. But a mark without obedience becomes worthless. What does it mean to be marked as God&apos;s if your heart is not God&apos;s? The law is not mere information. It is a mirror of God&apos;s character. The mark means nothing if the heart does not correspond to the law.',
+            'Circumcision was the sign of the covenant, the mark of belonging to God&apos;s people. But a mark without obedience becomes worthless. What does it mean to be marked as God&apos;s if your heart is not God&apos;s? The law is not mere information. It is a mirror of God&apos;s character. The mark means nothing if the heart does not correspond to the law. Explore the original passages in Genesis 17, Deuteronomy 10:16, and Jeremiah 4:4[res:sefaria-circumcision-roots] to see how prophets and Paul reinterpret the sign from flesh to spirit.',
         },
         {
           kind: 'scripture',
@@ -436,6 +436,41 @@ export const ROMANS_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Romans 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-circumcision-roots',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Circumcision in Torah and Prophets',
+      url: 'https://www.sefaria.org/Genesis.17',
+      description: 'Original covenant texts — Genesis 17 (covenant sign), Deuteronomy 10:16 ("circumcise your heart"), Jeremiah 4:4 (prophetic reinterpretation).',
+    },
+    {
+      id: 'bibleodyssey-natural-law',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Natural Law and Conscience',
+      url: 'https://www.bibleodyssey.org/dictionary/law/',
+      description: 'Open-access study of how Paul invokes natural law written on human hearts, bridging Jewish law and Greco-Roman ethics.',
+    },
+    {
+      id: 'je-circumcision-context',
+      kind: 'archive',
+      source: 'Jewish Encyclopedia',
+      label: 'Circumcision in Second-Temple Judaism',
+      url: 'https://www.jewishencyclopedia.com/articles/5158-circumcision',
+      description: 'Historical overview of circumcision as covenant marker — its practice, debates, and spiritual reinterpretation in Jewish thought.',
+    },
+    {
+      id: 'sep-stoicism-virtue',
+      kind: 'study',
+      source: 'Stanford Encyclopedia of Philosophy',
+      label: 'Stoic Virtue Ethics',
+      url: 'https://plato.stanford.edu/entries/stoicism/',
+      description: 'Philosophical background on Stoic natural virtue and moral law — concepts Paul&apos;s Gentile readers would have recognized.',
+    },
+  ],
 
   hasHebrew: false,
 };
