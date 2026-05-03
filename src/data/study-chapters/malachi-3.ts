@@ -31,7 +31,7 @@ export const MALACHI_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'malachi3-coming',
-          html: 'God promises to send a messenger who will prepare the way. John the Baptist fulfills this role. The Lord—Christ—will come to His temple. But His coming is not soft or weak. He is like a refiner&apos;s fire and fullers&apos; soap—purifying agents that burn away impurity. He will sit as a refiner, purifying the priests so that they offer acceptable sacrifices. Yet despite this judgment, God does not abandon His people. Because God does not change, Israel is not consumed.',
+          html: 'God promises to send a messenger who will prepare the way. John the Baptist fulfills this role. The Lord—Christ—will come to His temple. But His coming is not soft or weak. He is like a refiner&apos;s fire and fullers&apos; soap—purifying agents that burn away impurity. He will sit as a refiner, purifying the priests so that they offer acceptable sacrifices. Yet despite this judgment, God does not abandon His people. Because God does not change, Israel is not consumed[res:sefaria-malachi-3][res:intertextual-malachi-3-matthew-11].',
         },
         {
           kind: 'hebrew',
@@ -45,7 +45,7 @@ export const MALACHI_3: RichChapterContent = {
           kind: 'christ',
           id: 'malachi3-christ-temple',
           title: 'Christ Connection — Coming to His Temple',
-          html: 'Christ came to the temple (John 2:14), cleansing it and declaring His ownership. He refines His people through the work of the Holy Spirit, purifying them so they become living temples. His coming is both judgment on impurity and grace offered to those who repent.',
+          html: 'Christ came to the temple (John 2:14), cleansing it and declaring His ownership. He refines His people through the work of the Holy Spirit, purifying them so they become living temples. His coming is both judgment on impurity and grace offered to those who repent[res:bibleodyssey-malachi-tithe-refining].',
         },
         {
           kind: 'carry',
@@ -111,6 +111,33 @@ export const MALACHI_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Malachi 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-malachi-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Malachi 3 · Texts & Translations',
+      url: 'https://www.sefaria.org/Malachi.3',
+      description: 'Primary sources on the coming of the messenger and the Lord, and the call to faithful stewardship through tithes and offerings.',
+    },
+    {
+      id: 'intertextual-malachi-3-matthew-11',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Malachi 3:1 → Matthew 11:10 — John the Baptist as Messenger',
+      url: 'https://intertextual.bible/search?query=malachi+matthew',
+      description: 'The fulfillment of Malachi&apos;s prophecy in John the Baptist as the messenger who prepares the way before Christ, as explicitly identified by Jesus in Matthew.',
+    },
+    {
+      id: 'bibleodyssey-malachi-tithe-refining',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Refining of the Priesthood and Faithful Stewardship',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-malachi/',
+      description: 'Study of Christ as the refiner coming to purify His people and the call to faithful giving as an expression of acknowledgment of God&apos;s ownership.',
+    },
+  ],
 
   hasHebrew: true,
 };

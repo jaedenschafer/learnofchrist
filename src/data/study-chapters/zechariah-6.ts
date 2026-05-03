@@ -31,7 +31,7 @@ export const ZECHARIAH_6: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'zech6-chariots',
-          html: 'Four chariots emerge from between mountains of brass, representing God&apos;s power and strength. Each chariot is drawn by horses of different colors—red, black, white, and grisled—representing the full range of God&apos;s judgment and providence. These are the spirits of heaven, the agents of God&apos;s will moving throughout the earth. The vision assures Israel that God&apos;s justice and power are at work, even when Israel cannot see it.',
+          html: 'Four chariots emerge from between mountains of brass, representing God&apos;s power and strength. Each chariot is drawn by horses of different colors—red, black, white, and grisled—representing the full range of God&apos;s judgment and providence. These are the spirits of heaven, the agents of God&apos;s will moving throughout the earth. The vision assures Israel that God&apos;s justice and power are at work, even when Israel cannot see it[res:intertextual-zechariah-6-hebrews-5][res:sefaria-zechariah-6].',
         },
         {
           kind: 'hebrew',
@@ -45,7 +45,7 @@ export const ZECHARIAH_6: RichChapterContent = {
           kind: 'christ',
           id: 'zech6-christ-judge',
           title: 'Christ Connection — The Judge Who Comes on High',
-          html: 'The vision of the four chariots points to Christ as the judge who executes God&apos;s justice. "He shall judge the quick and the dead; His kingdom will have no end." Christ rides forth with authority to bring God&apos;s justice and mercy to all the earth.',
+          html: 'The vision of the four chariots points to Christ as the judge who executes God&apos;s justice. "He shall judge the quick and the dead; His kingdom will have no end." Christ rides forth with authority to bring God&apos;s justice and mercy to all the earth[res:bibleodyssey-zechariah-messianic-fulfillment].',
         },
         {
           kind: 'carry',
@@ -109,6 +109,33 @@ export const ZECHARIAH_6: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Zechariah 6 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-zechariah-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Zechariah 6 · Texts & Translations',
+      url: 'https://www.sefaria.org/Zechariah.6',
+      description: 'Primary sources on the vision of the four chariots and the prophecy of the BRANCH as priest and king.',
+    },
+    {
+      id: 'intertextual-zechariah-6-hebrews-5',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Zechariah 6:13 → Hebrews 5:10 — Christ the High Priest Forever',
+      url: 'https://intertextual.bible/search?query=zechariah+hebrews',
+      description: 'The connection between Zechariah&apos;s vision of the BRANCH as priest-king and Hebrews&apos; declaration that Christ is a high priest after the order of Melchizedek.',
+    },
+    {
+      id: 'bibleodyssey-zechariah-messianic-fulfillment',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The BRANCH: Messianic King and Priest',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
+      description: 'Study of Zechariah&apos;s culminating messianic vision where the offices of priest and king are united in the BRANCH.',
+    },
+  ],
 
   hasHebrew: true,
 };

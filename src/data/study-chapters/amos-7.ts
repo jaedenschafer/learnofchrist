@@ -19,6 +19,25 @@ export const AMOS_7: RichChapterContent = {
     ref: 'Amos 7 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-amos-7',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Amos 7 · Texts & Translations',
+      url: 'https://www.sefaria.org/Amos.7',
+      description: 'Primary sources on Amos&apos;s visions of judgment and the plumbline as God&apos;s standard for measuring His people.',
+    },
+    {
+      id: 'bibleodyssey-plumbline',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Plumbline Vision — Amos 7:7-9',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-amos/',
+      description: 'Study of the plumbline as a metaphor for God&apos;s standard and judgment among His covenant people.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Amos 7:1–9',
@@ -38,7 +57,7 @@ export const AMOS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'amos7-locust-fire',
           html:
-            'Two visions of judgment, two intercessions, two stays of execution. Amos learns what Moses knew — that the prophet&apos;s prayer can move God&apos;s hand.',
+            'Two visions of judgment, two intercessions, two stays of execution. Amos learns what Moses knew — that the prophet&apos;s prayer can move God&apos;s hand[res:bibleodyssey-plumbline][res:sefaria-amos-7].',
         },
         {
           kind: 'scripture',

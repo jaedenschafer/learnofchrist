@@ -31,7 +31,7 @@ export const ZECHARIAH_12: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'zech12-burden',
-          html: 'The burden of God&apos;s word is a word about Jerusalem&apos;s future. God, who created the heavens and earth and formed the human spirit, will make Jerusalem a cup of trembling to the nations surrounding it. Those who seek to burden themselves with Jerusalem by attacking it will be cut to pieces. God Himself will defend His city. The vision assures Israel that God has not abandoned them.',
+          html: 'The burden of God&apos;s word is a word about Jerusalem&apos;s future. God, who created the heavens and earth and formed the human spirit, will make Jerusalem a cup of trembling to the nations surrounding it. Those who seek to burden themselves with Jerusalem by attacking it will be cut to pieces. God Himself will defend His city. The vision assures Israel that God has not abandoned them[res:intertextual-zechariah-12-john-19][res:sefaria-zechariah-12].',
         },
         {
           kind: 'hebrew',
@@ -45,7 +45,7 @@ export const ZECHARIAH_12: RichChapterContent = {
           kind: 'christ',
           id: 'zech12-christ-defend',
           title: 'Christ Connection — The Defender of His People',
-          html: 'Christ is the defender of God&apos;s people. He intercedes for them and will ultimately vindicate them. The defense of Jerusalem points to Christ&apos;s work of salvation—He defends His people from sin and death itself.',
+          html: 'Christ is the defender of God&apos;s people. He intercedes for them and will ultimately vindicate them. The defense of Jerusalem points to Christ&apos;s work of salvation—He defends His people from sin and death itself[res:bibleodyssey-zechariah-messiah-repentance].',
         },
         {
           kind: 'carry',
@@ -114,6 +114,33 @@ export const ZECHARIAH_12: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Zechariah 12 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-zechariah-12',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Zechariah 12 · Texts & Translations',
+      url: 'https://www.sefaria.org/Zechariah.12',
+      description: 'Primary sources on God&apos;s defense of Jerusalem and the prophecy of mourning for the pierced Messiah.',
+    },
+    {
+      id: 'intertextual-zechariah-12-john-19',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Zechariah 12:10 → John 19:34–37 — The Pierced Messiah',
+      url: 'https://intertextual.bible/search?query=zechariah+john',
+      description: 'The explicit fulfillment of Zechariah&apos;s prophecy of the pierced Messiah in Christ&apos;s crucifixion, when a Roman soldier pierced His side and those who saw it look upon Him whom they have pierced.',
+    },
+    {
+      id: 'bibleodyssey-zechariah-messiah-repentance',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Pierced Messiah and the Spirit of Repentance',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
+      description: 'Study of Zechariah&apos;s vision of Israel&apos;s repentance through the piercing of the Messiah and the outpouring of grace upon Jerusalem.',
+    },
+  ],
 
   hasHebrew: true,
 };

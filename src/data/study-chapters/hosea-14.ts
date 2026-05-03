@@ -19,6 +19,25 @@ export const HOSEA_14: RichChapterContent = {
     ref: 'Hosea 14 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hosea-14',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 14 · Texts & Translations',
+      url: 'https://www.sefaria.org/Hosea.14',
+      description: 'Primary sources on Israel&apos;s call to return and God&apos;s promise of healing and free, covenant love.',
+    },
+    {
+      id: 'bibleodyssey-hosea-restoration',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Restoration & Healing in Hosea',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
+      description: 'Thematic study of how Hosea&apos;s book moves from judgment to restoration and God&apos;s free, covenant love.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Hosea 14:1–3',
@@ -49,7 +68,7 @@ export const HOSEA_14: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea14-return',
           html:
-            'The call to return begins with words. "Take with you words, and turn to the Lord." Israel is not to come silent or with sacrifices alone but with confession, with words that acknowledge her need. She is to say, "Take away all iniquity, and receive us graciously." This is the prayer of the returning prodigal — not claiming innocence, but asking for mercy.',
+            'The call to return begins with words. "Take with you words, and turn to the Lord." Israel is not to come silent or with sacrifices alone but with confession, with words that acknowledge her need. She is to say, "Take away all iniquity, and receive us graciously." This is the prayer of the returning prodigal — not claiming innocence, but asking for mercy[res:bibleodyssey-hosea-restoration][res:sefaria-hosea-14].',
         },
         {
           kind: 'hebrew',

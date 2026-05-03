@@ -19,6 +19,25 @@ export const HOSEA_11: RichChapterContent = {
     ref: 'Hosea 11 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hosea-11',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 11 · Texts & Translations',
+      url: 'https://www.sefaria.org/Hosea.11',
+      description: 'Primary sources on God&apos;s fatherly love for Israel from infancy through rejection and threatened judgment.',
+    },
+    {
+      id: 'intertextual-hosea-11-matthew-2',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Hosea 11:1 ↔ Matthew 2:15 — Son Called Out of Egypt',
+      url: 'https://intertextual.bible/text/hosea-11.1/matthew-2.15',
+      description: 'Intertextual connection showing how Matthew applies Hosea&apos;s prophecy of Israel to Jesus as God&apos;s Son.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Hosea 11:1–4',
@@ -50,7 +69,7 @@ export const HOSEA_11: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea11-love',
           html:
-            'God loves Israel not because she deserves it, not based on her response, but because He chose to love her as a father loves a child. He called her out of Egypt — redeemed her, made her His own. The word "love" here is the deepest love — the covenant love of a father for his son. And this love is called "my son," making Israel God&apos;s own child.',
+            'God loves Israel not because she deserves it, not based on her response, but because He chose to love her as a father loves a child. He called her out of Egypt — redeemed her, made her His own. The word "love" here is the deepest love — the covenant love of a father for his son. And this love is called "my son," making Israel God&apos;s own child[res:sefaria-hosea-11][res:intertextual-hosea-11-matthew-2].',
         },
         {
           kind: 'hebrew',

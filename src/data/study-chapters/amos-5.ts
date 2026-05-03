@@ -19,6 +19,25 @@ export const AMOS_5: RichChapterContent = {
     ref: 'Amos 5 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-amos-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Amos 5 · Texts & Translations',
+      url: 'https://www.sefaria.org/Amos.5',
+      description: 'Primary sources on God&apos;s preference for justice and righteousness over religious ritual.',
+    },
+    {
+      id: 'bibleodyssey-judgment-streams',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Judgment and Righteousness',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-amos/',
+      description: 'Amos 5:24 as the prophetic call to pursue social justice and moral integrity.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Amos 5:1–9',
@@ -38,7 +57,7 @@ export const AMOS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'amos5-seek-and-live',
           html:
-            'The funeral dirge breaks open with an invitation — <em>seek ye me, and ye shall live</em>. Even in the announcement of judgment, mercy keeps a door cracked.',
+            'The funeral dirge breaks open with an invitation — <em>seek ye me, and ye shall live</em>. Even in the announcement of judgment, mercy keeps a door cracked[res:bibleodyssey-judgment-streams][res:sefaria-amos-5].',
         },
         {
           kind: 'scripture',

@@ -27,6 +27,25 @@ export const HOSEA_6: RichChapterContent = {
     ref: 'Hosea 6 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hosea-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 6 · Texts & Translations',
+      url: 'https://www.sefaria.org/Hosea.6',
+      description: 'Primary sources on the call to repentance and the promise of healing and revival in Hosea.',
+    },
+    {
+      id: 'intertextual-hosea-6-resurrection',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Hosea 6:2 ↔ Resurrection Promise',
+      url: 'https://intertextual.bible/search?query=hosea+6',
+      description: 'Intertextual connections between Hosea&apos;s "third day" language and New Testament resurrection theology.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Hosea 6:1–3',
@@ -64,7 +83,7 @@ export const HOSEA_6: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea6-heal',
           html:
-            'God has torn Israel so that she knows the depth of her need, but He will heal. He has smitten her, but He will bind her up. The language is of a physician — one who wounds in order to heal, who strips away the infected tissue so that new growth can come.',
+            'God has torn Israel so that she knows the depth of her need, but He will heal. He has smitten her, but He will bind her up. The language is of a physician — one who wounds in order to heal, who strips away the infected tissue so that new growth can come[res:intertextual-hosea-6-resurrection][res:sefaria-hosea-6].',
         },
         {
           kind: 'commentary',

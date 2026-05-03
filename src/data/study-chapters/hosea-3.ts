@@ -28,6 +28,25 @@ export const HOSEA_3: RichChapterContent = {
     ref: 'Hosea 3 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hosea-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 3 · Texts & Translations',
+      url: 'https://www.sefaria.org/Hosea.3',
+      description: 'Rabbinic and classical sources on Hosea&apos;s redemption of Gomer as a parable of God&apos;s redemptive love.',
+    },
+    {
+      id: 'bibleodyssey-hosea-redemption',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hosea&apos;s Redemption Narrative',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
+      description: 'Theological exploration of redemption through Hosea&apos;s act of buying back his unfaithful wife.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Hosea 3:1–3',
@@ -58,7 +77,7 @@ export const HOSEA_3: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea3-command',
           html:
-            'God commands Hosea to love again — not just to forgive, but to love. And He explains the reason: "according to the love of the Lord toward the children of Israel, who look to other gods." This is the heart of redemption. The Lord loves Israel not because Israel deserves it, not because Israel will be faithful, but because love is the nature of God. Hosea is to enact that love. He is to be the sign of a God who loves the unfaithful.',
+            'God commands Hosea to love again — not just to forgive, but to love. And He explains the reason: "according to the love of the Lord toward the children of Israel, who look to other gods." This is the heart of redemption. The Lord loves Israel not because Israel deserves it, not because Israel will be faithful, but because love is the nature of God. Hosea is to enact that love. He is to be the sign of a God who loves the unfaithful[res:sefaria-hosea-3][res:bibleodyssey-hosea-redemption].',
         },
         {
           kind: 'hebrew',

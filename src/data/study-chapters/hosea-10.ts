@@ -19,6 +19,25 @@ export const HOSEA_10: RichChapterContent = {
     ref: 'Hosea 10 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hosea-10',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 10 · Texts & Translations',
+      url: 'https://www.sefaria.org/Hosea.10',
+      description: 'Primary sources on Israel&apos;s false worship and the call to break new ground and seek righteousness.',
+    },
+    {
+      id: 'bibleodyssey-break-fallow',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Breaking Fallow Ground — Repentance in Hosea',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
+      description: 'Study of the metaphor of breaking fallow ground as a call to spiritual renewal and return to God.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Hosea 10:1–8',
@@ -38,7 +57,7 @@ export const HOSEA_10: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea-10-78mid-1',
           html:
-            'The empty vine is named, then plowed under. Hosea pivots from describing Israel&apos;s fruitlessness to commanding her to break up the fallow ground.',
+            'The empty vine is named, then plowed under. Hosea pivots from describing Israel&apos;s fruitlessness to commanding her to break up the fallow ground[res:bibleodyssey-break-fallow][res:sefaria-hosea-10].',
         },
         {
           kind: 'scripture',

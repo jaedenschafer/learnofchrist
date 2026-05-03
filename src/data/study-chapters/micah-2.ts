@@ -38,7 +38,7 @@ export const MICAH_2: RichChapterContent = {
           kind: 'commentary',
           id: 'micah2-devise',
           html:
-            'The wicked lie awake devising evil. They plan injustice the way a craftsman plans a house. When morning comes, they execute what they have plotted. The language is intimate—not sudden crimes of passion, but calculated, premeditated oppression. And it is possible, the text notes, "because it is in the power of their hand"—because they have the power to do it and escape human justice.',
+            'The wicked lie awake devising evil. They plan injustice the way a craftsman plans a house. When morning comes, they execute what they have plotted. The language is intimate—not sudden crimes of passion, but calculated, premeditated oppression. And it is possible, the text notes, "because it is in the power of their hand"—because they have the power to do it and escape human justice[res:sefaria-micah-2][res:bibleodyssey-micah-justice].',
         },
         {
           kind: 'hebrew',
@@ -59,7 +59,7 @@ export const MICAH_2: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'Those who oppress the poor, who take unjustly, who use their power to crush the vulnerable—God takes this personally. He devises a device against them. He does not allow such evil to pass unchecked. And for those oppressed, there is a God who sees, who remembers, and who will gather them.',
+            'Those who oppress the poor, who take unjustly, who use their power to crush the vulnerable—God takes this personally. He devises a device against them. He does not allow such evil to pass unchecked. And for those oppressed, there is a God who sees, who remembers, and who will gather them[res:intertextual-micah-2-exodus].',
         },
         {
           kind: 'reflection',
@@ -140,6 +140,33 @@ export const MICAH_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Micah 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-micah-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Micah 2 · Texts & Translations',
+      url: 'https://www.sefaria.org/Micah.2',
+      description: 'Primary sources on the judgment of those who oppress the poor and God&apos;s promise to gather His remnant.',
+    },
+    {
+      id: 'bibleodyssey-micah-justice',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Justice and Mercy — Micah&apos;s Vision',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-micah/',
+      description: 'Study of Micah&apos;s call for justice toward the oppressed and God&apos;s covenant faithfulness to His people.',
+    },
+    {
+      id: 'intertextual-micah-2-exodus',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Micah 2:12–13 — The Exodus Pattern',
+      url: 'https://intertextual.bible/search?query=micah+exodus',
+      description: 'Micah&apos;s imagery of the Breaker echoes the deliverance pattern of the exodus and prefigures Christ&apos;s liberation.',
+    },
+  ],
 
   hasHebrew: true,
 };

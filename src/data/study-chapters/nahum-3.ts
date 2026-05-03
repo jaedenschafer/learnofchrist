@@ -51,7 +51,7 @@ export const NAHUM_3: RichChapterContent = {
           kind: 'commentary',
           id: 'nahum3-bloody',
           html:
-            'The description is relentless. The city is full of lies and robbery. Bodies heap upon bodies. The whip cracks and horses prance—this is the sound of violence made routine, of oppression as normal practice. The multitude of the slain is not just unfortunate collateral damage. It is the inevitable result of how the city has chosen to live.',
+            'The description is relentless. The city is full of lies and robbery. Bodies heap upon bodies. The whip cracks and horses prance—this is the sound of violence made routine, of oppression as normal practice. The multitude of the slain is not just unfortunate collateral damage. It is the inevitable result of how the city has chosen to live[res:bibleodyssey-nahum-finality][res:sefaria-nahum-3].',
         },
         {
           kind: 'hebrew',
@@ -67,7 +67,7 @@ export const NAHUM_3: RichChapterContent = {
           id: 'nahum3-christ-just-judgment',
           title: 'Christ Connection — God&apos;s Just Judgment',
           html:
-            'In Revelation 17-18, a harlot city (symbolically Babylon) is judged and destroyed by God. The judgment is described in similarly harsh language. Christ is the Judge who will make all wickedness known and will shame those who have operated in secrecy.',
+            'In Revelation 17-18, a harlot city (symbolically Babylon) is judged and destroyed by God. The judgment is described in similarly harsh language. Christ is the Judge who will make all wickedness known and will shame those who have operated in secrecy[res:intertextual-nahum-3-revelation-18].',
         },
         {
           kind: 'carry',
@@ -166,6 +166,33 @@ export const NAHUM_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Nahum 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-nahum-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Nahum 3 · Texts & Translations',
+      url: 'https://www.sefaria.org/Nahum.3',
+      description: 'Primary sources on the condemnation of Nineveh and the lesson from the fall of No-Amon.',
+    },
+    {
+      id: 'bibleodyssey-nahum-finality',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Finality of Judgment',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-nahum/',
+      description: 'Study of the absolute nature of God&apos;s judgment on those built on violence and exploitation.',
+    },
+    {
+      id: 'intertextual-nahum-3-revelation-18',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Nahum 3 → Revelation 18 — The Harlot City Falls',
+      url: 'https://intertextual.bible/search?query=nahum+revelation',
+      description: 'Parallel between Nahum&apos;s judgment of Nineveh and John&apos;s vision of Babylon&apos;s fall in Revelation.',
+    },
+  ],
 
   hasHebrew: true,
 };

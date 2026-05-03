@@ -19,6 +19,25 @@ export const OBADIAH_1: RichChapterContent = {
     ref: 'Obadiah · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-obadiah-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Obadiah · Texts & Translations',
+      url: 'https://www.sefaria.org/Obadiah.1',
+      description: 'Primary sources on God\'s judgment of Edom and the ultimate establishment of God\'s kingdom over all nations.',
+    },
+    {
+      id: 'iaa-edom-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Edom — Archaeology & Iron Age Settlement',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'Archaeological evidence for Mount Seir and Edomite settlements during the period Obadiah addresses.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Obadiah 1–9',
@@ -45,7 +64,7 @@ export const OBADIAH_1: RichChapterContent = {
           kind: 'commentary',
           id: 'obad-1-edom-fall',
           html:
-            'Edom thinks high. God will bring him down. Thieves leave gleanings; Edom will have none. The pride that deceived him will fail. What Edom boasted, God will erase. No corner to hide, no refuge from His hand.',
+            'Edom thinks high. God will bring him down. Thieves leave gleanings; Edom will have none. The pride that deceived him will fail. What Edom boasted, God will erase. No corner to hide, no refuge from His hand[res:sefaria-obadiah-1][res:iaa-edom-archaeology].',
         },
         {
           kind: 'scripture',

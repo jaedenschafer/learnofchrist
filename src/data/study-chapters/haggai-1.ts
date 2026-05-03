@@ -36,7 +36,7 @@ export const HAGGAI_1: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'haggai1-question',
-          html: 'The question confronts the people&apos;s choice. They have chosen comfort for themselves while the house of God lies waste. Haggai does not ask if they have the right to build their own homes, but whether it is right to do so while neglecting God&apos;s house. The call to "consider your ways" invites them to examine the priority they have given to their own shelter.',
+          html: 'The question confronts the people&apos;s choice. They have chosen comfort for themselves while the house of God lies waste. Haggai does not ask if they have the right to build their own homes, but whether it is right to do so while neglecting God&apos;s house. The call to "consider your ways" invites them to examine the priority they have given to their own shelter[res:intertextual-haggai-1-matthew-6][res:sefaria-haggai-1].',
         },
         {
           kind: 'scripture',
@@ -54,7 +54,7 @@ export const HAGGAI_1: RichChapterContent = {
           kind: 'commentary',
           id: 'haggai1-consequences',
           html:
-            'The consequences are tangible and detailed. They have sown much but bring in little. They eat but are never filled. They earn wages only to see them slip through holes in the bag. These are not arbitrary punishments but the natural result of misaligned priorities. Labor that ignores God yields diminishing returns.',
+            'The consequences are tangible and detailed. They have sown much but bring in little. They eat but are never filled. They earn wages only to see them slip through holes in the bag. These are not arbitrary punishments but the natural result of misaligned priorities. Labor that ignores God yields diminishing returns[res:bibleodyssey-haggai-priorities].',
         },
         {
           kind: 'hebrew',
@@ -138,6 +138,33 @@ export const HAGGAI_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Haggai 1 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-haggai-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Haggai 1 · Texts & Translations',
+      url: 'https://www.sefaria.org/Haggai.1',
+      description: 'Primary sources on the call to rebuild the temple and reconsider priorities.',
+    },
+    {
+      id: 'intertextual-haggai-1-matthew-6',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Haggai 1:4 → Matthew 6:33 — Seek First God&apos;s Kingdom',
+      url: 'https://intertextual.bible/search?query=haggai+matthew',
+      description: 'The connection between Haggai&apos;s call to prioritize God&apos;s house and Christ&apos;s teaching to seek first God&apos;s kingdom.',
+    },
+    {
+      id: 'bibleodyssey-haggai-priorities',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Priorities and the Rebuilt Temple',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-haggai/',
+      description: 'Study of misaligned priorities, the consequences of neglecting God&apos;s work, and the restoration through obedience.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -36,7 +36,7 @@ export const ZEPHANIAH_2: RichChapterContent = {
           kind: 'commentary',
           id: 'zephaniah-2-78mid-1',
           html:
-            'Zephaniah pivots from calling the meek to seek the LORD to naming the nations who will be judged. The same call that gathers the humble scatters the proud.',
+            'Zephaniah pivots from calling the meek to seek the LORD to naming the nations who will be judged. The same call that gathers the humble scatters the proud[res:sefaria-zephaniah-2][res:intertextual-zephaniah-2-matthew-5].',
         },
         {
           kind: 'scripture',
@@ -52,7 +52,7 @@ export const ZEPHANIAH_2: RichChapterContent = {
           kind: 'commentary',
           id: 'zephaniah2-meek',
           html:
-            '"Seek ye the Lord, all ye meek of the earth, which have wrought his judgment." The meek are described as those who have "wrought his judgment"—who have acted in justice, who have lived according to God&apos;s standard. They are not passive, but active in righteousness.',
+            '"Seek ye the Lord, all ye meek of the earth, which have wrought his judgment." The meek are described as those who have "wrought his judgment"—who have acted in justice, who have lived according to God&apos;s standard. They are not passive, but active in righteousness[res:bibleodyssey-zephaniah-humility].',
         },
         {
           kind: 'hebrew',
@@ -152,6 +152,33 @@ export const ZEPHANIAH_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Zephaniah 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-zephaniah-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Zephaniah 2 · Texts & Translations',
+      url: 'https://www.sefaria.org/Zephaniah.2',
+      description: 'Primary sources on the call to seek the Lord and the judgment of nations that exalt themselves.',
+    },
+    {
+      id: 'intertextual-zephaniah-2-matthew-5',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Zephaniah 2:3 → Matthew 5:5 — The Meek Inherit the Earth',
+      url: 'https://intertextual.bible/search?query=zephaniah+matthew',
+      description: 'The connection between Zephaniah&apos;s call to meekness and Christ&apos;s teaching that the meek shall inherit the earth.',
+    },
+    {
+      id: 'bibleodyssey-zephaniah-humility',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Humility and Meekness as Survival',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zephaniah/',
+      description: 'Study of meekness as humble dependence on God and the contrast between the proud and the righteous remnant.',
+    },
+  ],
 
   hasHebrew: true,
 };

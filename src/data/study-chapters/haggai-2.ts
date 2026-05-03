@@ -36,7 +36,7 @@ export const HAGGAI_2: RichChapterContent = {
           kind: 'commentary',
           id: 'haggai-2-foundation-greater',
           html:
-            'The old priests weep—the old house was grander. But God asks: does this temple seem small? See the foundation. The Lord will fill this house with glory. What we build for Him surpasses what we mourn.',
+            'The old priests weep—the old house was grander. But God asks: does this temple seem small? See the foundation. The Lord will fill this house with glory. What we build for Him surpasses what we mourn[res:sefaria-haggai-2][res:intertextual-haggai-2-john-1].',
         },
         {
           kind: 'scripture',
@@ -53,7 +53,7 @@ export const HAGGAI_2: RichChapterContent = {
           kind: 'commentary',
           id: 'haggai2-desire',
           html:
-            '"The desire of all nations shall come." This is a prophecy of the Messiah. The phrase points to Christ, in whom all the longings of humanity find their fulfillment. He is the true treasure, the one greater than any building or possession.',
+            '"The desire of all nations shall come." This is a prophecy of the Messiah. The phrase points to Christ, in whom all the longings of humanity find their fulfillment. He is the true treasure, the one greater than any building or possession[res:bibleodyssey-haggai-messianic].',
         },
         {
           kind: 'hebrew',
@@ -172,6 +172,33 @@ export const HAGGAI_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Haggai 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-haggai-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Haggai 2 · Texts & Translations',
+      url: 'https://www.sefaria.org/Haggai.2',
+      description: 'Primary sources on the Desire of All Nations and the greater glory of the latter temple.',
+    },
+    {
+      id: 'intertextual-haggai-2-john-1',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Haggai 2:7 → John 1:14 — The Desire of All Nations Incarnate',
+      url: 'https://intertextual.bible/search?query=haggai+john',
+      description: 'The connection between Haggai&apos;s prophecy of the Desire of All Nations and John&apos;s revelation of Christ as the true glory dwelling among us.',
+    },
+    {
+      id: 'bibleodyssey-haggai-messianic',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Messianic Hope and the Latter Glory',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-haggai/',
+      description: 'Study of Haggai&apos;s prophetic vision of the Messiah as the fulfillment of human longing and the true source of God&apos;s glory.',
+    },
+  ],
 
   hasHebrew: true,
 };

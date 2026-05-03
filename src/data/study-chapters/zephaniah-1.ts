@@ -39,7 +39,7 @@ export const ZEPHANIAH_1: RichChapterContent = {
           kind: 'commentary',
           id: 'zephaniah1-consume',
           html:
-            'The language is absolute: "I will utterly consume." Nothing will remain. Beasts, birds, fish—all will be consumed. Even the stumbling blocks—the things that cause people to stumble into sin—will be removed. This is not mere judgment but a complete restoration, a clearing of the earth of all that defiles it.',
+            'The language is absolute: "I will utterly consume." Nothing will remain. Beasts, birds, fish—all will be consumed. Even the stumbling blocks—the things that cause people to stumble into sin—will be removed. This is not mere judgment but a complete restoration, a clearing of the earth of all that defiles it[res:sefaria-zephaniah-1][res:intertextual-zephaniah-1-2peter-3].',
         },
         {
           kind: 'hebrew',
@@ -55,7 +55,7 @@ export const ZEPHANIAH_1: RichChapterContent = {
           id: 'zephaniah1-christ-appointed-day',
           title: 'Christ Connection — God&apos;s Appointed Day',
           html:
-            'In 2 Peter 3:10, Peter speaks of the Day of the Lord: "the heavens shall pass away with a great noise, and the elements shall melt with fervent heat...the earth also and the works that are therein shall be burned up." Christ returns as the Judge on the Day of the Lord.',
+            'In 2 Peter 3:10, Peter speaks of the Day of the Lord: "the heavens shall pass away with a great noise, and the elements shall melt with fervent heat...the earth also and the works that are therein shall be burned up." Christ returns as the Judge on the Day of the Lord[res:bibleodyssey-zephaniah-day-lord].',
         },
         {
           kind: 'carry',
@@ -140,6 +140,33 @@ export const ZEPHANIAH_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Zephaniah 1 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-zephaniah-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Zephaniah 1 · Texts & Translations',
+      url: 'https://www.sefaria.org/Zephaniah.1',
+      description: 'Primary sources on the announcement of the Day of the Lord and the call to judgment and repentance.',
+    },
+    {
+      id: 'bibleodyssey-zephaniah-day-lord',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Day of the Lord — Judgment and Warning',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zephaniah/',
+      description: 'Study of the Day of the Lord theme and the urgency of repentance before final judgment.',
+    },
+    {
+      id: 'intertextual-zephaniah-1-2peter-3',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Zephaniah 1 → 2 Peter 3 — The Coming Judgment',
+      url: 'https://intertextual.bible/search?query=zephaniah+peter',
+      description: 'Parallel between Zephaniah&apos;s prophecy of the Day of the Lord and Peter&apos;s eschatological vision.',
+    },
+  ],
 
   hasHebrew: true,
 };

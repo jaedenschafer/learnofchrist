@@ -32,7 +32,7 @@ export const ZECHARIAH_8: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'zech8-restore',
-          html: 'God promises to return to Zion and dwell in Jerusalem. The city will be called "a city of truth"—integrity and honesty will flourish. The streets will be filled with the old and the young, a picture of a community at peace and at home. Children will play safely in the streets—a sign not just of prosperity but of the absence of war and fear. God gathers His people from east and west, from all directions, and they will dwell together as God&apos;s people.',
+          html: 'God promises to return to Zion and dwell in Jerusalem. The city will be called "a city of truth"—integrity and honesty will flourish. The streets will be filled with the old and the young, a picture of a community at peace and at home. Children will play safely in the streets—a sign not just of prosperity but of the absence of war and fear. God gathers His people from east and west, from all directions, and they will dwell together as God&apos;s people[res:sefaria-zechariah-8][res:bibleodyssey-zechariah-peace-restoration].',
         },
         {
           kind: 'hebrew',
@@ -46,7 +46,7 @@ export const ZECHARIAH_8: RichChapterContent = {
           kind: 'christ',
           id: 'zech8-christ-dwell',
           title: 'Christ Connection — God Dwelling in Truth',
-          html: 'Christ is the Truth incarnate. "I am the way, the truth, and the life." When Christ dwells in the midst of believers, truth flourishes. The Church becomes a city of truth, a people committed to living in integrity and covenant faithfulness.',
+          html: 'Christ is the Truth incarnate. "I am the way, the truth, and the life." When Christ dwells in the midst of believers, truth flourishes. The Church becomes a city of truth, a people committed to living in integrity and covenant faithfulness[res:intertextual-zechariah-8-ephesians-4].',
         },
         {
           kind: 'carry',
@@ -115,6 +115,33 @@ export const ZECHARIAH_8: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Zechariah 8 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-zechariah-8',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Zechariah 8 · Texts & Translations',
+      url: 'https://www.sefaria.org/Zechariah.8',
+      description: 'Primary sources on the promise of Jerusalem&apos;s restoration, the city of truth, and the future joy of God&apos;s people.',
+    },
+    {
+      id: 'intertextual-zechariah-8-ephesians-4',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Zechariah 8:16 → Ephesians 4:15 — Speaking Truth in Love',
+      url: 'https://intertextual.bible/search?query=zechariah+ephesians',
+      description: 'The connection between Zechariah&apos;s call to speak truth and Paul&apos;s teaching on speaking truth in love as the foundation of community unity.',
+    },
+    {
+      id: 'bibleodyssey-zechariah-peace-restoration',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Shalom and the Restoration of God&apos;s People',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
+      description: 'Study of peace and truth as the foundation of community wholeness and the promise of God&apos;s restoration.',
+    },
+  ],
 
   hasHebrew: true,
 };

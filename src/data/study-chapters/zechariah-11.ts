@@ -33,12 +33,12 @@ export const ZECHARIAH_11: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'zech11-shepherd',
-          html: 'God commands Zechariah to feed the flock marked for slaughter—a flock destined for judgment. Zechariah takes two staffs, Beauty and Bands, representing favor and unity. But the shepherd is rejected. He is paid thirty pieces of silver—the price of a slave in Exodus 21:32. Despising this price, he casts it to the potter in God&apos;s house. The verse is quoted in Matthew 27:9–10 as the fulfillment in Christ&apos;s betrayal.',
+          html: 'God commands Zechariah to feed the flock marked for slaughter—a flock destined for judgment. Zechariah takes two staffs, Beauty and Bands, representing favor and unity. But the shepherd is rejected. He is paid thirty pieces of silver—the price of a slave in Exodus 21:32. Despising this price, he casts it to the potter in God&apos;s house. The verse is quoted in Matthew 27:9–10 as the fulfillment in Christ&apos;s betrayal[res:bibleodyssey-zechariah-shepherd-betrayal][res:sefaria-zechariah-11].',
         },
         {
           kind: 'commentary',
           id: 'zech11-slaughter',
-          html: 'The flock of slaughter represents Israel under judgment, yet the shepherd is appointed to tend them with care. The shepherd is rejected and undervalued. His rejection and the price placed on him are prophecies of Christ&apos;s rejection and betrayal. The staff called Beauty is broken—representing the broken covenant between shepherd and flock.',
+          html: 'The flock of slaughter represents Israel under judgment, yet the shepherd is appointed to tend them with care. The shepherd is rejected and undervalued. His rejection and the price placed on him are prophecies of Christ&apos;s rejection and betrayal. The staff called Beauty is broken—representing the broken covenant between shepherd and flock[res:intertextual-zechariah-11-matthew-27].',
         },
         {
           kind: 'hebrew',
@@ -121,6 +121,33 @@ export const ZECHARIAH_11: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Zechariah 11 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-zechariah-11',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Zechariah 11 · Texts & Translations',
+      url: 'https://www.sefaria.org/Zechariah.11',
+      description: 'Primary sources on the parable of the rejected shepherd and the thirty pieces of silver.',
+    },
+    {
+      id: 'intertextual-zechariah-11-matthew-27',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Zechariah 11:12–13 → Matthew 27:9–10 — The Price of Betrayal',
+      url: 'https://intertextual.bible/search?query=zechariah+matthew',
+      description: 'The explicit fulfillment of Zechariah&apos;s prophecy when Judas betrays Jesus for thirty pieces of silver, as recorded in Matthew&apos;s account of Christ&apos;s passion.',
+    },
+    {
+      id: 'bibleodyssey-zechariah-shepherd-betrayal',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Shepherd&apos;s Rejection and Redemptive Sacrifice',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
+      description: 'Study of Zechariah&apos;s messianic prophecy of the rejected shepherd and Christ&apos;s redemptive sacrifice for His people.',
+    },
+  ],
 
   hasHebrew: true,
 };

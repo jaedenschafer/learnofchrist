@@ -28,6 +28,25 @@ export const HOSEA_2: RichChapterContent = {
     ref: 'Hosea 2 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hosea-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 2 · Texts & Translations',
+      url: 'https://www.sefaria.org/Hosea.2',
+      description: 'Primary sources and rabbinic commentary on God&apos;s pursuit and covenant renewal with Israel.',
+    },
+    {
+      id: 'bibleodyssey-covenant-renewal',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Covenant Renewal in Hosea',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
+      description: 'Thematic study of how God pursues unfaithful Israel and restores the covenant relationship.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Hosea 2:1–5',
@@ -62,7 +81,7 @@ export const HOSEA_2: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea2-thirst',
           html:
-            'God threatens to strip Israel naked and make her a wilderness, to slay her with thirst. This is not empty threat. This is the consequence of abandoning the covenant. Israel has sought sustenance from false gods — bread, water, wool, flax, oil, drink — all things she thought the Baals provided. God will strip these away. She will be left in the desert, parched, with nowhere to turn but back to the God she abandoned.',
+            'God threatens to strip Israel naked and make her a wilderness, to slay her with thirst. This is not empty threat. This is the consequence of abandoning the covenant. Israel has sought sustenance from false gods — bread, water, wool, flax, oil, drink — all things she thought the Baals provided. God will strip these away. She will be left in the desert, parched, with nowhere to turn but back to the God she abandoned[res:sefaria-hosea-2][res:bibleodyssey-covenant-renewal].',
         },
         {
           kind: 'commentary',

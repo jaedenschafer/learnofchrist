@@ -28,6 +28,25 @@ export const HOSEA_4: RichChapterContent = {
     ref: 'Hosea 4 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hosea-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 4 · Texts & Translations',
+      url: 'https://www.sefaria.org/Hosea.4',
+      description: 'Primary sources on the knowledge of God as the central theme in Israel&apos;s covenant relationship.',
+    },
+    {
+      id: 'bibleodyssey-knowledge-of-god',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Knowledge of God in Hosea',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
+      description: 'Exploration of the Hebrew concept of knowing God as intimate relationship rather than intellectual assent.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Hosea 4:1–3',
@@ -46,7 +65,7 @@ export const HOSEA_4: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea4-controversy',
           html:
-            'God has a "controversy" with the inhabitants of the land. The word suggests a legal charge — God is bringing a case against Israel. But the foundation of the charge is not arbitrary law-breaking. It is the absence of three things: truth, mercy, and knowledge of God. These are not external requirements but the fruit of a living relationship. Without relationship with God, these virtues cannot flourish.',
+            'God has a "controversy" with the inhabitants of the land. The word suggests a legal charge — God is bringing a case against Israel. But the foundation of the charge is not arbitrary law-breaking. It is the absence of three things: truth, mercy, and knowledge of God. These are not external requirements but the fruit of a living relationship. Without relationship with God, these virtues cannot flourish[res:bibleodyssey-knowledge-of-god][res:sefaria-hosea-4].',
         },
         {
           kind: 'carry',

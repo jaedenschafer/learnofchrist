@@ -19,6 +19,25 @@ export const JOEL_3: RichChapterContent = {
     ref: 'Joel 3 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-joel-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Joel 3 · Texts & Translations',
+      url: 'https://www.sefaria.org/Joel.3',
+      description: 'Primary sources on the final judgment of nations and God&apos;s promise of salvation for His people.',
+    },
+    {
+      id: 'bibleodyssey-valley-decision',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Valley of Decision — Final Judgment',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-joel/',
+      description: 'Study of eschatological judgment and God&apos;s separation of the nations in the day of the Lord.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Joel 3:1–8',
@@ -38,7 +57,7 @@ export const JOEL_3: RichChapterContent = {
           kind: 'commentary',
           id: 'joel-3-78mid-1',
           html:
-            'The judgment of the nations is gathered into the valley of Jehoshaphat. Joel turns from describing the gathering to describing the verdict — and then the springs that will flow from Jerusalem.',
+            'The judgment of the nations is gathered into the valley of Jehoshaphat. Joel turns from describing the gathering to describing the verdict — and then the springs that will flow from Jerusalem[res:sefaria-joel-3][res:bibleodyssey-valley-decision].',
         },
         {
           kind: 'scripture',

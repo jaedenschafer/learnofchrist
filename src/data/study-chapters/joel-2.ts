@@ -19,6 +19,25 @@ export const JOEL_2: RichChapterContent = {
     ref: 'Joel 2 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-joel-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Joel 2 · Texts & Translations',
+      url: 'https://www.sefaria.org/Joel.2',
+      description: 'Primary sources on the day of the Lord, God&apos;s judgment, and the promise of salvation through calling on His name.',
+    },
+    {
+      id: 'intertextual-joel-2-acts-2',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Joel 2:28-32 ↔ Acts 2:17-21 — Pentecost Promise',
+      url: 'https://intertextual.bible/text/joel-2.28/acts-2.17',
+      description: 'Intertextual connection showing how Joel&apos;s prophecy of God pouring out His Spirit is fulfilled at Pentecost.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Joel 2:1–11',
@@ -45,7 +64,7 @@ export const JOEL_2: RichChapterContent = {
           kind: 'commentary',
           id: 'joel2-horror-to-judgment',
           html:
-            'The picture of destruction is relentless—faces gather blackness, none can stand. But this horror is not the final word. God speaks. His voice utters before His army. The terrible day is coming, yet it is the day of the Lord, a day of judgment and ultimately redemption for those who turn.',
+            'The picture of destruction is relentless—faces gather blackness, none can stand. But this horror is not the final word. God speaks. His voice utters before His army. The terrible day is coming, yet it is the day of the Lord, a day of judgment and ultimately redemption for those who turn[res:intertextual-joel-2-acts-2][res:sefaria-joel-2].',
         },
         {
           kind: 'scripture',

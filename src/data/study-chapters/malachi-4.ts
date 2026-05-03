@@ -30,7 +30,7 @@ export const MALACHI_4: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'malachi4-sun',
-          html: 'Malachi speaks of a day that will burn like an oven. The proud and the wicked will be consumed like stubble. But for those who fear God&apos;s name, the Sun of Righteousness will rise with healing in His wings. This is Christ—the Sun whose rays bring warmth, light, and healing. Those who fear God will grow up strong, like well-fed cattle. They will triumph over the wicked. The vision balances judgment on the ungodly with blessing on the faithful.',
+          html: 'Malachi speaks of a day that will burn like an oven. The proud and the wicked will be consumed like stubble. But for those who fear God&apos;s name, the Sun of Righteousness will rise with healing in His wings. This is Christ—the Sun whose rays bring warmth, light, and healing. Those who fear God will grow up strong, like well-fed cattle. They will triumph over the wicked. The vision balances judgment on the ungodly with blessing on the faithful[res:intertextual-malachi-4-matthew-11][res:bibleodyssey-malachi-sun-healing].',
         },
         {
           kind: 'hebrew',
@@ -44,7 +44,7 @@ export const MALACHI_4: RichChapterContent = {
           kind: 'christ',
           id: 'malachi4-christ-sun',
           title: 'Christ Connection — The Sun of Righteousness',
-          html: 'Christ is the Sun of Righteousness. "I am the light of the world," He declares. His healing is not merely physical but spiritual—restoration to right relationship with God. His wings of healing encompass all who believe, bringing wholeness and redemption.',
+          html: 'Christ is the Sun of Righteousness. "I am the light of the world," He declares. His healing is not merely physical but spiritual—restoration to right relationship with God. His wings of healing encompass all who believe, bringing wholeness and redemption[res:sefaria-malachi-4].',
         },
         {
           kind: 'carry',
@@ -113,6 +113,33 @@ export const MALACHI_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Malachi 4 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-malachi-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Malachi 4 · Texts & Translations',
+      url: 'https://www.sefaria.org/Malachi.4',
+      description: 'Primary sources on the Sun of Righteousness, the promise of Elijah&apos;s return, and the closing vision of the Old Testament.',
+    },
+    {
+      id: 'intertextual-malachi-4-matthew-11',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Malachi 4:5–6 → Matthew 11:14 — Elijah Has Come (John the Baptist)',
+      url: 'https://intertextual.bible/search?query=malachi+matthew+elijah',
+      description: 'The explicit fulfillment of Malachi&apos;s promise of Elijah&apos;s return in John the Baptist, as Christ identifies John as the Elijah who was to come before His own ministry.',
+    },
+    {
+      id: 'bibleodyssey-malachi-sun-healing',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Sun of Righteousness and the Healing of Nations',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-malachi/',
+      description: 'Study of Christ as the Sun of Righteousness, bringing healing and light to all who fear God, and His redemptive purpose for humanity.',
+    },
+  ],
 
   hasHebrew: true,
 };

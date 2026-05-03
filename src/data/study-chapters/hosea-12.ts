@@ -19,6 +19,25 @@ export const HOSEA_12: RichChapterContent = {
     ref: 'Hosea 12 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hosea-12',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 12 · Texts & Translations',
+      url: 'https://www.sefaria.org/Hosea.12',
+      description: 'Primary sources on Jacob as a type and Israel&apos;s failure to follow his pattern of wrestling with God.',
+    },
+    {
+      id: 'bibleodyssey-jacob-type',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jacob in Hosea — Type and Typology',
+      url: 'https://www.bibleodyssey.org/dictionary/jacob/',
+      description: 'Study of Jacob as a patriarchal type whose struggle with God models the faith Israel has abandoned.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Hosea 12:1–6',
@@ -50,7 +69,7 @@ export const HOSEA_12: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea12-wind',
           html:
-            'Ephraim feeds on wind — on something insubstantial, that cannot nourish. She follows after the east wind — the destructive sirocco that withers all it touches. She increases lies and desolation. Yet Jacob — her ancestor — found power with God through struggle, through weeping, through supplication. There is a contrast: Ephraim feeds on wind; Jacob found God.',
+            'Ephraim feeds on wind — on something insubstantial, that cannot nourish. She follows after the east wind — the destructive sirocco that withers all it touches. She increases lies and desolation. Yet Jacob — her ancestor — found power with God through struggle, through weeping, through supplication. There is a contrast: Ephraim feeds on wind; Jacob found God[res:bibleodyssey-jacob-type][res:sefaria-hosea-12].',
         },
         {
           kind: 'carry',

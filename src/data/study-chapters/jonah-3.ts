@@ -37,7 +37,7 @@ export const JONAH_3: RichChapterContent = {
           kind: 'commentary',
           id: 'jonah3-obey',
           html:
-            'This time Jonah obeys. He has learned in the fish&apos;s belly what he refused to learn on the dock at Joppa: that God will pursue His purpose, that flight is futile, that the call to go to Nineveh will follow him even out of death. And so he arises. He enters the great city. And he preaches what God has bid him: in forty days, judgment.',
+            'This time Jonah obeys. He has learned in the fish&apos;s belly what he refused to learn on the dock at Joppa: that God will pursue His purpose, that flight is futile, that the call to go to Nineveh will follow him even out of death. And so he arises. He enters the great city. And he preaches what God has bid him: in forty days, judgment[res:sefaria-jonah-3][res:bibleodyssey-jonah-repentance].',
         },
         {
           kind: 'hebrew',
@@ -125,6 +125,25 @@ export const JONAH_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jonah 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-jonah-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jonah 3 · Texts & Translations',
+      url: 'https://www.sefaria.org/Jonah.3',
+      description: 'Primary sources on Nineveh&apos;s repentance and God&apos;s merciful withdrawal of threatened judgment.',
+    },
+    {
+      id: 'bibleodyssey-jonah-repentance',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Power of Repentance — Jonah 3',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-jonah/',
+      description: 'Study of Nineveh&apos;s response to Jonah&apos;s message and God&apos;s delight in repentance over judgment.',
+    },
+  ],
 
   hasHebrew: true,
 };

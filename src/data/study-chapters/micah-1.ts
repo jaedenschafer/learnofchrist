@@ -37,7 +37,7 @@ export const MICAH_1: RichChapterContent = {
           kind: 'commentary',
           id: 'micah1-hear',
           html:
-            'The prophet calls all peoples to witness. Hear, all ye people. The audience is universal, and the witness is God Himself. This is not human judgment, susceptible to error or partiality. This is the Lord God bearing witness. The trial is cosmic in scope. The mountains and valleys, the earth and the heavens—all are called to see what the Lord will do.',
+            'The prophet calls all peoples to witness. Hear, all ye people. The audience is universal, and the witness is God Himself. This is not human judgment, susceptible to error or partiality. This is the Lord God bearing witness. The trial is cosmic in scope. The mountains and valleys, the earth and the heavens—all are called to see what the Lord will do[res:sefaria-micah-1][res:intertextual-micah-1-matthew-2].',
         },
         {
           kind: 'hebrew',
@@ -53,7 +53,7 @@ export const MICAH_1: RichChapterContent = {
           id: 'micah1-christ-earth-shaking',
           title: 'Christ Connection — God&apos;s Presence Shakes the Earth',
           html:
-            'In Matthew 28, at the resurrection of Christ, there is a great earthquake. "Behold, there was a great earthquake: for the angel of the Lord descended from heaven, and came and rolled back the stone." Christ&apos;s presence, even at His resurrection, shakes the foundations. He is the God who comes down, whose presence moves mountains and splits valleys.',
+            'In Matthew 28, at the resurrection of Christ, there is a great earthquake. "Behold, there was a great earthquake: for the angel of the Lord descended from heaven, and came and rolled back the stone." Christ&apos;s presence, even at His resurrection, shakes the foundations. He is the God who comes down, whose presence moves mountains and splits valleys[res:bibleodyssey-micah-judgment].',
         },
         {
           kind: 'carry',
@@ -121,6 +121,33 @@ export const MICAH_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Micah 1 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-micah-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Micah 1 · Texts & Translations',
+      url: 'https://www.sefaria.org/Micah.1',
+      description: 'Primary sources on God&apos;s descent in judgment and the fall of Samaria.',
+    },
+    {
+      id: 'intertextual-micah-1-matthew-2',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Micah 5:2 → Matthew 2:6 — The Bethlehem Prophecy',
+      url: 'https://intertextual.bible/search?query=micah+matthew',
+      description: 'Connection between Micah&apos;s prophecy of the ruler from Bethlehem and Christ&apos;s birth narrative.',
+    },
+    {
+      id: 'bibleodyssey-micah-judgment',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'God&apos;s Judgment and the Covenant',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-micah/',
+      description: 'Study of judgment as the result of covenant breaking and the structure of Micah&apos;s prophetic message.',
+    },
+  ],
 
   hasHebrew: true,
 };

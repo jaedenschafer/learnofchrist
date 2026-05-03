@@ -32,7 +32,7 @@ export const ZECHARIAH_1: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'zech1-turn',
-          html: 'The opening word is turning. Israel has turned away from God; now God invites them to turn back. This is not a demand issued from on high, but an invitation—a reciprocal movement. "Turn ye unto me," God says, "and I will turn unto you." God&apos;s turning toward His people is conditioned on their turning toward Him. The prophets have come and gone, the fathers have passed away, but God&apos;s word abides. Their own experience has shown them that God keeps His promises—whether of blessing or of consequence.',
+          html: 'The opening word is turning. Israel has turned away from God; now God invites them to turn back. This is not a demand issued from on high, but an invitation—a reciprocal movement. "Turn ye unto me," God says, "and I will turn unto you." God&apos;s turning toward His people is conditioned on their turning toward Him. The prophets have come and gone, the fathers have passed away, but God&apos;s word abides. Their own experience has shown them that God keeps His promises—whether of blessing or of consequence[res:intertextual-zechariah-1-revelation-19][res:bibleodyssey-zechariah-visions].',
         },
         {
           kind: 'hebrew',
@@ -46,7 +46,7 @@ export const ZECHARIAH_1: RichChapterContent = {
           kind: 'christ',
           id: 'zech1-christ-return',
           title: 'Christ Connection — The God Who Turns to Us',
-          html: 'Christ is God incarnate turning toward humanity. In the Incarnation, the Father turns toward fallen creation. In the Cross, Christ turns toward sinners. In the Resurrection, God turns toward death and defeats it. The vision of turning is fulfilled when God enters human flesh and stands among His people, Emmanuel.',
+          html: 'Christ is God incarnate turning toward humanity. In the Incarnation, the Father turns toward fallen creation. In the Cross, Christ turns toward sinners. In the Resurrection, God turns toward death and defeats it. The vision of turning is fulfilled when God enters human flesh and stands among His people, Emmanuel[res:sefaria-zechariah-1].',
         },
         {
           kind: 'carry',
@@ -115,6 +115,33 @@ export const ZECHARIAH_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Zechariah 1 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-zechariah-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Zechariah 1 · Texts & Translations',
+      url: 'https://www.sefaria.org/Zechariah.1',
+      description: 'Primary sources on the call to repentance and the first vision of the horseman among myrtles.',
+    },
+    {
+      id: 'intertextual-zechariah-1-revelation-19',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Zechariah 1:8 → Revelation 19 — The Rider on the Horse',
+      url: 'https://intertextual.bible/search?query=zechariah+revelation',
+      description: 'The connection between Zechariah&apos;s vision of the horseman and John&apos;s vision of Christ returning on a white horse as the faithful and true witness.',
+    },
+    {
+      id: 'bibleodyssey-zechariah-visions',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Night Visions and God&apos;s Faithfulness',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
+      description: 'Study of Zechariah&apos;s visionary prophecies and their message of God&apos;s continued care and covenant faithfulness toward His people.',
+    },
+  ],
 
   hasHebrew: true,
 };

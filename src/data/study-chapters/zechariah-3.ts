@@ -32,7 +32,7 @@ export const ZECHARIAH_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'zech3-filthy',
-          html: 'Joshua represents Israel itself—the high priest standing in the sanctuary of God, yet clothed in filth. The filthy garments symbolize sin and unworthiness. Satan stands ready to accuse, pointing to Joshua&apos;s guilt. But the Lord silences the accuser. He does not deny Joshua&apos;s guilt; rather, He declares that this people are "a brand plucked out of the fire"—rescued from destruction, chosen, and destined for restoration.',
+          html: 'Joshua represents Israel itself—the high priest standing in the sanctuary of God, yet clothed in filth. The filthy garments symbolize sin and unworthiness. Satan stands ready to accuse, pointing to Joshua&apos;s guilt. But the Lord silences the accuser. He does not deny Joshua&apos;s guilt; rather, He declares that this people are "a brand plucked out of the fire"—rescued from destruction, chosen, and destined for restoration[res:bibleodyssey-zechariah-messianic][res:sefaria-zechariah-3].',
         },
         {
           kind: 'hebrew',
@@ -46,7 +46,7 @@ export const ZECHARIAH_3: RichChapterContent = {
           kind: 'christ',
           id: 'zech3-christ-righteousness',
           title: 'Christ Connection — Our Righteousness Imputed',
-          html: 'Joshua&apos;s removal of filthy garments and clothing with clean ones is the pattern of imputed righteousness. We are clothed not in our own merit but in the righteousness of Christ. Satan may accuse, but Christ&apos;s intercession silences every charge. We are not made righteous through our deeds but clothed in His.',
+          html: 'Joshua&apos;s removal of filthy garments and clothing with clean ones is the pattern of imputed righteousness. We are clothed not in our own merit but in the righteousness of Christ. Satan may accuse, but Christ&apos;s intercession silences every charge. We are not made righteous through our deeds but clothed in His[res:intertextual-zechariah-3-romans-3].',
         },
         {
           kind: 'carry',
@@ -116,6 +116,33 @@ export const ZECHARIAH_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Zechariah 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-zechariah-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Zechariah 3 · Texts & Translations',
+      url: 'https://www.sefaria.org/Zechariah.3',
+      description: 'Primary sources on the cleansing of Joshua and the promise of the Branch as the servant who brings final restoration.',
+    },
+    {
+      id: 'intertextual-zechariah-3-romans-3',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Zechariah 3:4 → Romans 3:22 — Righteousness Through Christ',
+      url: 'https://intertextual.bible/search?query=zechariah+romans',
+      description: 'The parallel between Joshua&apos;s filthy garments being replaced and Paul&apos;s doctrine of imputed righteousness through Christ.',
+    },
+    {
+      id: 'bibleodyssey-zechariah-messianic',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Messianic Branch and Redemption',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
+      description: 'Study of Zechariah&apos;s messianic prophecies, the cleansing of sin, and the coming servant who restores all things.',
+    },
+  ],
 
   hasHebrew: true,
 };

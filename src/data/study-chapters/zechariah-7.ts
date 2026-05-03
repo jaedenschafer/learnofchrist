@@ -32,7 +32,7 @@ export const ZECHARIAH_7: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'zech7-fast-question',
-          html: 'The people ask whether they should continue fasting in the fifth month to commemorate the destruction of the Temple. It&apos;s a reasonable question—they have observed this fast for seventy years. But God&apos;s response challenges them: Was this fast truly for Me, or for yourselves? When you ate, you ate for yourselves. The external practice is hollow if the heart is not engaged.',
+          html: 'The people ask whether they should continue fasting in the fifth month to commemorate the destruction of the Temple. It&apos;s a reasonable question—they have observed this fast for seventy years. But God&apos;s response challenges them: Was this fast truly for Me, or for yourselves? When you ate, you ate for yourselves. The external practice is hollow if the heart is not engaged[res:intertextual-zechariah-7-matthew-23][res:sefaria-zechariah-7].',
         },
         {
           kind: 'hebrew',
@@ -46,7 +46,7 @@ export const ZECHARIAH_7: RichChapterContent = {
           kind: 'christ',
           id: 'zech7-christ-heart',
           title: 'Christ Connection — Heart-Religion Over Ritual',
-          html: 'Christ echoes this teaching throughout His ministry, confronting the Pharisees for their empty observances. "This people draweth nigh unto me with their mouth, and honoureth me with their lips; but their heart is far from me." True religion is a matter of the heart, not outward show.',
+          html: 'Christ echoes this teaching throughout His ministry, confronting the Pharisees for their empty observances. "This people draweth nigh unto me with their mouth, and honoureth me with their lips; but their heart is far from me." True religion is a matter of the heart, not outward show[res:bibleodyssey-zechariah-justice].',
         },
         {
           kind: 'carry',
@@ -117,6 +117,33 @@ export const ZECHARIAH_7: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Zechariah 7 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-zechariah-7',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Zechariah 7 · Texts & Translations',
+      url: 'https://www.sefaria.org/Zechariah.7',
+      description: 'Primary sources on God&apos;s call to true justice and mercy as more important than external ritual observance.',
+    },
+    {
+      id: 'intertextual-zechariah-7-matthew-23',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Zechariah 7:6 → Matthew 23:25 — Heart Religion Over Ritual',
+      url: 'https://intertextual.bible/search?query=zechariah+matthew',
+      description: 'The parallel between Zechariah&apos;s critique of hollow religious practice and Christ&apos;s condemnation of Pharisaic hypocrisy.',
+    },
+    {
+      id: 'bibleodyssey-zechariah-justice',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'True Religion: Justice, Mercy, and Heart Transformation',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
+      description: 'Study of God&apos;s concern for justice and the primacy of the heart over external religious observance.',
+    },
+  ],
 
   hasHebrew: true,
 };

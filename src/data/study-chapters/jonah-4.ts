@@ -39,7 +39,7 @@ export const JONAH_4: RichChapterContent = {
           kind: 'commentary',
           id: 'jonah4-displeased',
           html:
-            'Jonah is angry because God is merciful. This is the core of the book. Jonah fled not because he doubted God&apos;s power but because he knew God&apos;s character. He knew God is gracious and merciful, slow to anger and abounding in kindness. And he could not bear the thought of God extending that mercy to Nineveh. His own nationalism, his own hatred, his own desire for vengeance has become his gospel. When God refuses to destroy Nineveh, Jonah prefers death to life.',
+            'Jonah is angry because God is merciful. This is the core of the book. Jonah fled not because he doubted God&apos;s power but because he knew God&apos;s character. He knew God is gracious and merciful, slow to anger and abounding in kindness. And he could not bear the thought of God extending that mercy to Nineveh. His own nationalism, his own hatred, his own desire for vengeance has become his gospel. When God refuses to destroy Nineveh, Jonah prefers death to life[res:bibleodyssey-gods-mercy][res:sefaria-jonah-4].',
         },
         {
           kind: 'hebrew',
@@ -126,6 +126,25 @@ export const JONAH_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jonah 4 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-jonah-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jonah 4 · Texts & Translations',
+      url: 'https://www.sefaria.org/Jonah.4',
+      description: 'Primary sources on Jonah&apos;s anger and God&apos;s final question about mercy toward the repentant.',
+    },
+    {
+      id: 'bibleodyssey-gods-mercy',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'God&apos;s Mercy and Human Resistance',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-jonah/',
+      description: 'Study of the tension between human judgment and God&apos;s compassion for the repentant.',
+    },
+  ],
 
   hasHebrew: true,
 };

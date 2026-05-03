@@ -39,7 +39,7 @@ export const JONAH_2: RichChapterContent = {
           kind: 'commentary',
           id: 'jonah2-prayer',
           html:
-            'Jonah&apos;s prayer is remarkable for what it contains and what it does not. He does not cry out "Why?" He does not accuse God of cruelty. Instead, he acknowledges the reality: "Thou hadst cast me into the deep." God did this. God allowed it. And God heard. In the belly of the fish, in the midst of waters, Jonah has discovered that God&apos;s ear is closer in affliction than in comfort.',
+            'Jonah&apos;s prayer is remarkable for what it contains and what it does not. He does not cry out "Why?" He does not accuse God of cruelty. Instead, he acknowledges the reality: "Thou hadst cast me into the deep." God did this. God allowed it. And God heard. In the belly of the fish, in the midst of waters, Jonah has discovered that God&apos;s ear is closer in affliction than in comfort[res:sefaria-jonah-2][res:intertextual-jonah-matthew-12].',
         },
         {
           kind: 'hebrew',
@@ -124,6 +124,25 @@ export const JONAH_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jonah 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-jonah-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jonah 2 · Texts & Translations',
+      url: 'https://www.sefaria.org/Jonah.2',
+      description: 'Primary sources on Jonah&apos;s prayer of deliverance from the belly of the fish.',
+    },
+    {
+      id: 'intertextual-jonah-matthew-12',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jonah 1:17 ↔ Matthew 12:40 — Sign of Jonah',
+      url: 'https://intertextual.bible/search?query=jonah+matthew',
+      description: 'Intertextual connection of Jonah&apos;s three days in the fish to Christ&apos;s three days in the grave.',
+    },
+  ],
 
   hasHebrew: true,
 };

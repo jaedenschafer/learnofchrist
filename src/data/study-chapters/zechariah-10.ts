@@ -31,7 +31,7 @@ export const ZECHARIAH_10: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'zech10-rain',
-          html: 'The chapter opens with an invitation to ask God for rain. Literal rain is necessary for agriculture and survival, but the metaphor is spiritual: ask God to pour out His blessing. God will respond. The shepherds who have failed the people are condemned, but the Lord Himself becomes the shepherd, visiting His flock and making them strong like horses in battle.',
+          html: 'The chapter opens with an invitation to ask God for rain. Literal rain is necessary for agriculture and survival, but the metaphor is spiritual: ask God to pour out His blessing. God will respond. The shepherds who have failed the people are condemned, but the Lord Himself becomes the shepherd, visiting His flock and making them strong like horses in battle[res:bibleodyssey-zechariah-strength-gathering][res:intertextual-zechariah-10-1peter-2].',
         },
         {
           kind: 'hebrew',
@@ -45,7 +45,7 @@ export const ZECHARIAH_10: RichChapterContent = {
           kind: 'christ',
           id: 'zech10-christ-corner',
           title: 'Christ Connection — The Cornerstone',
-          html: 'Christ is the corner stone of God&apos;s house, the foundation on which the Church is built. Peter writes that Christ is "a chief corner stone, elect, precious." He is also the nail—that which holds everything together—and the battle bow—the means by which God&apos;s kingdom advances.',
+          html: 'Christ is the corner stone of God&apos;s house, the foundation on which the Church is built. Peter writes that Christ is "a chief corner stone, elect, precious." He is also the nail—that which holds everything together—and the battle bow—the means by which God&apos;s kingdom advances[res:sefaria-zechariah-10].',
         },
         {
           kind: 'carry',
@@ -115,6 +115,33 @@ export const ZECHARIAH_10: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Zechariah 10 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-zechariah-10',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Zechariah 10 · Texts & Translations',
+      url: 'https://www.sefaria.org/Zechariah.10',
+      description: 'Primary sources on God&apos;s strengthening of His people and the promise of gathering the remnant from exile.',
+    },
+    {
+      id: 'intertextual-zechariah-10-1peter-2',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Zechariah 10:4 → 1 Peter 2:7 — The Rejected Stone Becomes Precious',
+      url: 'https://intertextual.bible/search?query=zechariah+peter',
+      description: 'The connection between Zechariah&apos;s cornerstone imagery and Peter&apos;s declaration that Christ is the chief corner stone, precious and elect.',
+    },
+    {
+      id: 'bibleodyssey-zechariah-strength-gathering',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Divine Strength and the Gathering of God&apos;s People',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
+      description: 'Study of God&apos;s strengthening of His people and the promise of gathering the scattered remnant into one redeemed community.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -36,7 +36,7 @@ export const MICAH_7: RichChapterContent = {
           kind: 'commentary',
           id: 'micah-7-78mid-1',
           html:
-            'Micah turns from lament to confession of trust — &quot;I will look unto the LORD; I will wait for the God of my salvation.&quot; The book ends in hope.',
+            'Micah turns from lament to confession of trust — &quot;I will look unto the LORD; I will wait for the God of my salvation.&quot; The book ends in hope[res:bibleodyssey-micah-forgiveness][res:intertextual-micah-7-hebrews-9].',
         },
         {
           kind: 'scripture',
@@ -52,7 +52,7 @@ export const MICAH_7: RichChapterContent = {
           kind: 'commentary',
           id: 'micah7-corruption',
           html:
-            'Micah is like a laborer after harvest, searching for fruit. But the vineyard is bare. The good man has perished. All that remains are those who lie in wait for blood, who hunt one another, who have thrown off every restraint of decency. Kings and judges ask openly for bribes. The powerful make no attempt to hide their evil.',
+            'Micah is like a laborer after harvest, searching for fruit. But the vineyard is bare. The good man has perished. All that remains are those who lie in wait for blood, who hunt one another, who have thrown off every restraint of decency. Kings and judges ask openly for bribes. The powerful make no attempt to hide their evil[res:sefaria-micah-7].',
         },
         {
           kind: 'hebrew',
@@ -170,6 +170,33 @@ export const MICAH_7: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Micah 7 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-micah-7',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Micah 7 · Texts & Translations',
+      url: 'https://www.sefaria.org/Micah.7',
+      description: 'Primary sources on Micah&apos;s lament and hope, and God&apos;s radical forgiveness that casts sins into the depths of the sea.',
+    },
+    {
+      id: 'bibleodyssey-micah-forgiveness',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'God&apos;s Mercy and Complete Forgiveness',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-micah/',
+      description: 'Study of the theme of forgiveness and restoration that concludes the book of Micah in hope.',
+    },
+    {
+      id: 'intertextual-micah-7-hebrews-9',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Micah 7:18–19 → Hebrews 9 — Christ Bears Sins Away',
+      url: 'https://intertextual.bible/search?query=micah+hebrews',
+      description: 'Micah&apos;s vision of sins cast into the depths fulfilled through Christ&apos;s redemptive sacrifice.',
+    },
+  ],
 
   hasHebrew: true,
 };

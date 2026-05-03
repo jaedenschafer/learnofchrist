@@ -37,7 +37,7 @@ export const MICAH_6: RichChapterContent = {
           kind: 'commentary',
           id: 'micah-6-78mid-1',
           html:
-            'The LORD&apos;s controversy with His people pivots from history to demand — &quot;What doth the LORD require of thee?&quot; The answer is short and unsparing.',
+            'The LORD&apos;s controversy with His people pivots from history to demand — &quot;What doth the LORD require of thee?&quot; The answer is short and unsparing[res:sefaria-micah-6][res:intertextual-micah-6-matthew-23].',
         },
         {
           kind: 'scripture',
@@ -53,7 +53,7 @@ export const MICAH_6: RichChapterContent = {
           kind: 'commentary',
           id: 'micah6-required',
           html:
-            'God requires three things: to do justly—to act with integrity and fairness. To love mercy—not merely to grant it reluctantly, but to cherish and delight in compassion. To walk humbly—to move through life not with arrogance or pride, but in humility before God. These are not external rituals. They are the transformation of the inner person reflected in outward action.',
+            'God requires three things: to do justly—to act with integrity and fairness. To love mercy—not merely to grant it reluctantly, but to cherish and delight in compassion. To walk humbly—to move through life not with arrogance or pride, but in humility before God. These are not external rituals. They are the transformation of the inner person reflected in outward action[res:bibleodyssey-micah-moral-law].',
         },
         {
           kind: 'hebrew',
@@ -155,6 +155,33 @@ export const MICAH_6: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Micah 6 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-micah-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Micah 6 · Texts & Translations',
+      url: 'https://www.sefaria.org/Micah.6',
+      description: 'Primary sources on God&apos;s covenant lawsuit and the core moral requirements of justice, mercy, and humility.',
+    },
+    {
+      id: 'bibleodyssey-micah-moral-law',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Heart of the Law — Justice, Mercy, and Humility',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-micah/',
+      description: 'Study of Micah&apos;s distillation of God&apos;s moral law and how it transcends external ritual.',
+    },
+    {
+      id: 'intertextual-micah-6-matthew-23',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Micah 6:8 → Matthew 23 — Justice & Mercy Over Ritual',
+      url: 'https://intertextual.bible/search?query=micah+matthew',
+      description: 'Christ echoes Micah in condemning those who tithe and fast meticulously while neglecting justice, mercy, and faith.',
+    },
+  ],
 
   hasHebrew: true,
 };

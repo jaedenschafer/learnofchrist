@@ -31,7 +31,7 @@ export const ZECHARIAH_14: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'zech14-day-lord',
-          html: 'The Day of the Lord comes—a final day when God will openly manifest His power and judgment. Nations gather against Jerusalem, but God Himself will stand and fight. His feet will stand on the Mount of Olives, splitting the mountain in two. The topography of the earth will be transformed. Most importantly, the Lord will be king over all the earth. All nations will acknowledge His kingship. The kingdom of God will be universal and eternal.',
+          html: 'The Day of the Lord comes—a final day when God will openly manifest His power and judgment. Nations gather against Jerusalem, but God Himself will stand and fight. His feet will stand on the Mount of Olives, splitting the mountain in two. The topography of the earth will be transformed. Most importantly, the Lord will be king over all the earth. All nations will acknowledge His kingship. The kingdom of God will be universal and eternal[res:bibleodyssey-zechariah-kingdom-holiness][res:intertextual-zechariah-14-acts-1].',
         },
         {
           kind: 'hebrew',
@@ -45,7 +45,7 @@ export const ZECHARIAH_14: RichChapterContent = {
           kind: 'christ',
           id: 'zech14-christ-return',
           title: 'Christ Connection — The Return to the Mount of Olives',
-          html: 'Christ will return to the Mount of Olives. Acts 1:11 records that the angels told the disciples: "This same Jesus, which is taken up from you into heaven, shall so come in like manner as ye have seen him go into heaven." The place of His Ascension is the place of His Return. His feet will stand on that mount, and all the nations will see His triumph.',
+          html: 'Christ will return to the Mount of Olives. Acts 1:11 records that the angels told the disciples: "This same Jesus, which is taken up from you into heaven, shall so come in like manner as ye have seen him go into heaven." The place of His Ascension is the place of His Return. His feet will stand on that mount, and all the nations will see His triumph[res:sefaria-zechariah-14].',
         },
         {
           kind: 'carry',
@@ -115,6 +115,33 @@ export const ZECHARIAH_14: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Zechariah 14 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-zechariah-14',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Zechariah 14 · Texts & Translations',
+      url: 'https://www.sefaria.org/Zechariah.14',
+      description: 'Primary sources on the Day of the Lord and the vision of universal kingdom and divine judgment.',
+    },
+    {
+      id: 'intertextual-zechariah-14-acts-1',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Zechariah 14:4 → Acts 1:11 — The Return from the Mount of Olives',
+      url: 'https://intertextual.bible/search?query=zechariah+acts',
+      description: 'The fulfillment of Zechariah&apos;s prophecy of God&apos;s feet standing on the Mount of Olives in Christ&apos;s ascension and His promised return to the same location.',
+    },
+    {
+      id: 'bibleodyssey-zechariah-kingdom-holiness',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Kingdom of God and Universal Holiness',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
+      description: 'Study of Zechariah&apos;s vision of Christ&apos;s eschatological return, universal judgment, and the establishment of God&apos;s eternal kingdom in which all things are consecrated to Him.',
+    },
+  ],
 
   hasHebrew: true,
 };

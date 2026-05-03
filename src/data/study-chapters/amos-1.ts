@@ -19,6 +19,25 @@ export const AMOS_1: RichChapterContent = {
     ref: 'Amos 1 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-amos-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Amos 1 · Texts & Translations',
+      url: 'https://www.sefaria.org/Amos.1',
+      description: 'Primary sources on the prophet Amos and God&apos;s judgment against the surrounding nations for covenant violations.',
+    },
+    {
+      id: 'bibleodyssey-amos-shepherd',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Amos the Shepherd Prophet',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-amos/',
+      description: 'Biography and context of Amos from Tekoa, an unlikely prophet called to confront injustice and judgment.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Amos 1:1–5',
@@ -44,7 +63,7 @@ export const AMOS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'amos1-roar',
           html:
-            'Amos begins not with his own voice but with the roar of the Lord. The Lord roars out of Zion. His voice thunders from Jerusalem. This roar will shake the nations. The shepherds will mourn. The pastures will wither. This is not a whisper but a declaration of judgment.',
+            'Amos begins not with his own voice but with the roar of the Lord. The Lord roars out of Zion. His voice thunders from Jerusalem. This roar will shake the nations. The shepherds will mourn. The pastures will wither. This is not a whisper but a declaration of judgment[res:sefaria-amos-1][res:bibleodyssey-amos-shepherd].',
         },
         {
           kind: 'hebrew',

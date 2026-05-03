@@ -30,7 +30,7 @@ export const ZECHARIAH_9: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'zech9-judgment',
-          html: 'Zechariah begins with a series of prophecies against the nations surrounding Israel—Damascus, Tyre, Sidon, Ekron. God&apos;s eye is on them, and judgment will come. But beyond judgment is restoration. God will protect His house. He will not allow oppressors to pass through anymore. The point is not revenge but the clearing away of all that threatens God&apos;s people.',
+          html: 'Zechariah begins with a series of prophecies against the nations surrounding Israel—Damascus, Tyre, Sidon, Ekron. God&apos;s eye is on them, and judgment will come. But beyond judgment is restoration. God will protect His house. He will not allow oppressors to pass through anymore. The point is not revenge but the clearing away of all that threatens God&apos;s people[res:sefaria-zechariah-9][res:bibleodyssey-zechariah-messiah].',
         },
         {
           kind: 'hebrew',
@@ -44,7 +44,7 @@ export const ZECHARIAH_9: RichChapterContent = {
           kind: 'christ',
           id: 'zech9-christ-judge',
           title: 'Christ Connection — Judge of All Nations',
-          html: 'Christ will judge all nations and will establish a kingdom in which oppression has no place. His judgment is not merely punitive but restorative—it clears the way for a kingdom of justice and peace.',
+          html: 'Christ will judge all nations and will establish a kingdom in which oppression has no place. His judgment is not merely punitive but restorative—it clears the way for a kingdom of justice and peace[res:intertextual-zechariah-9-matthew-21].',
         },
         {
           kind: 'carry',
@@ -107,6 +107,33 @@ export const ZECHARIAH_9: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Zechariah 9 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-zechariah-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Zechariah 9 · Texts & Translations',
+      url: 'https://www.sefaria.org/Zechariah.9',
+      description: 'Primary sources on the prophecy of the coming king and the judgment of nations surrounding Israel.',
+    },
+    {
+      id: 'intertextual-zechariah-9-matthew-21',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Zechariah 9:9 → Matthew 21:5 — The Triumphal Entry',
+      url: 'https://intertextual.bible/search?query=zechariah+matthew',
+      description: 'The fulfillment of Zechariah&apos;s prophecy when Christ rides into Jerusalem on a donkey on Palm Sunday, as described in Matthew&apos;s gospel.',
+    },
+    {
+      id: 'bibleodyssey-zechariah-messiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Coming King: Humility and Justice',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
+      description: 'Study of Zechariah&apos;s messianic vision of a humble, righteous king who comes in peace rather than conquest.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -19,6 +19,25 @@ export const HOSEA_7: RichChapterContent = {
     ref: 'Hosea 7 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hosea-7',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 7 · Texts & Translations',
+      url: 'https://www.sefaria.org/Hosea.7',
+      description: 'Primary sources on Israel&apos;s half-hearted faith and confusion of trusting in nations instead of God.',
+    },
+    {
+      id: 'bibleodyssey-hosea-imagery',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Prophetic Imagery in Hosea',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
+      description: 'Study of Hosea&apos;s use of vivid metaphors like "a cake not turned" to describe spiritual unfaithfulness.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Hosea 7:1–7',
@@ -37,7 +56,7 @@ export const HOSEA_7: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea-7-78mid-1',
           html:
-            'The prophet pivots from describing Ephraim&apos;s wounds to naming the leaders who would not let them heal. Sickness here is political as well as personal.',
+            'The prophet pivots from describing Ephraim&apos;s wounds to naming the leaders who would not let them heal. Sickness here is political as well as personal[res:bibleodyssey-hosea-imagery][res:sefaria-hosea-7].',
         },
         {
           kind: 'scripture',

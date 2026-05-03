@@ -32,7 +32,7 @@ export const MALACHI_2: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'malachi2-priests',
-          html: 'God addresses the priests directly. If they do not turn to faithfulness, their blessings will be cursed. God recalls the covenant with Levi—the ancestor of the priestly line—a covenant of life and peace. The priest who lived in this covenant spoke truth, was free from guile, walked in peace and righteousness, and turned many from sin. But the current priests have failed this standard. They are no longer messengers of God&apos;s word but corruptors of it.',
+          html: 'God addresses the priests directly. If they do not turn to faithfulness, their blessings will be cursed. God recalls the covenant with Levi—the ancestor of the priestly line—a covenant of life and peace. The priest who lived in this covenant spoke truth, was free from guile, walked in peace and righteousness, and turned many from sin. But the current priests have failed this standard. They are no longer messengers of God&apos;s word but corruptors of it[res:bibleodyssey-malachi-covenant-witness][res:sefaria-malachi-2].',
         },
         {
           kind: 'hebrew',
@@ -46,7 +46,7 @@ export const MALACHI_2: RichChapterContent = {
           kind: 'christ',
           id: 'malachi2-christ-priest',
           title: 'Christ Connection — The Perfect Priest',
-          html: 'Christ is the perfect priest who fulfills what Levi&apos;s covenant promised. He speaks only truth, walks in perfect righteousness, and turns many from sin through His intercession. As the High Priest, He mediates the new covenant between God and humanity.',
+          html: 'Christ is the perfect priest who fulfills what Levi&apos;s covenant promised. He speaks only truth, walks in perfect righteousness, and turns many from sin through His intercession. As the High Priest, He mediates the new covenant between God and humanity[res:intertextual-malachi-2-ephesians-5].',
         },
         {
           kind: 'carry',
@@ -117,6 +117,33 @@ export const MALACHI_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Malachi 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-malachi-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Malachi 2 · Texts & Translations',
+      url: 'https://www.sefaria.org/Malachi.2',
+      description: 'Primary sources on the priestly covenant, faithfulness in marriage, and God as witness to sacred covenants.',
+    },
+    {
+      id: 'intertextual-malachi-2-ephesians-5',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Malachi 2:14–15 → Ephesians 5:25–26 — Covenant Marriage and Self-Sacrifice',
+      url: 'https://intertextual.bible/search?query=malachi+ephesians',
+      description: 'The connection between Malachi&apos;s teaching on marital faithfulness witnessed by God and Paul&apos;s teaching on Christ&apos;s sacrificial love for the Church as the model of covenant marriage.',
+    },
+    {
+      id: 'bibleodyssey-malachi-covenant-witness',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'God as Witness to Covenant Relationships',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-malachi/',
+      description: 'Study of covenant faithfulness in the priesthood and marriage, with God as witness to all sacred relationships and obligations.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -32,7 +32,7 @@ export const MALACHI_1: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'malachi1-love',
-          html: 'God begins by declaring His love for Israel. But Israel questions it—"Wherein hast thou loved us?" In response, God points to the covenant made with Jacob over Esau. God chose Jacob and his descendants; He did not choose Esau and the Edomites. This is God&apos;s covenant love—not based on merit but on His sovereign choice. Even when Edom tries to rebuild what was destroyed, God will tear it down. Israel will see God&apos;s love demonstrated in His judgment on their enemies.',
+          html: 'God begins by declaring His love for Israel. But Israel questions it—"Wherein hast thou loved us?" In response, God points to the covenant made with Jacob over Esau. God chose Jacob and his descendants; He did not choose Esau and the Edomites. This is God&apos;s covenant love—not based on merit but on His sovereign choice. Even when Edom tries to rebuild what was destroyed, God will tear it down. Israel will see God&apos;s love demonstrated in His judgment on their enemies[res:bibleodyssey-malachi-love-sacrifice][res:intertextual-malachi-1-luke-1].',
         },
         {
           kind: 'hebrew',
@@ -46,7 +46,7 @@ export const MALACHI_1: RichChapterContent = {
           kind: 'christ',
           id: 'malachi1-christ-love',
           title: 'Christ Connection — God&apos;s Love Demonstrated',
-          html: 'God&apos;s love for Israel prefigures God&apos;s love for all believers through Christ. "God so loved the world, that he gave his only begotten Son." Like God&apos;s choice of Jacob, our salvation is not based on our merit but on God&apos;s sovereign love and choice.',
+          html: 'God&apos;s love for Israel prefigures God&apos;s love for all believers through Christ. "God so loved the world, that he gave his only begotten Son." Like God&apos;s choice of Jacob, our salvation is not based on our merit but on God&apos;s sovereign love and choice[res:sefaria-malachi-1].',
         },
         {
           kind: 'carry',
@@ -116,6 +116,33 @@ export const MALACHI_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Malachi 1 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-malachi-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Malachi 1 · Texts & Translations',
+      url: 'https://www.sefaria.org/Malachi.1',
+      description: 'Primary sources on God&apos;s covenantal love and the condemnation of defiled offerings, with prophecy of God&apos;s name magnified among the nations.',
+    },
+    {
+      id: 'intertextual-malachi-1-luke-1',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Malachi 1:11 → Luke 1:46–48 — Praise from All Nations',
+      url: 'https://intertextual.bible/search?query=malachi+luke',
+      description: 'The fulfillment of Malachi&apos;s prophecy of universal worship and pure offering through Mary&apos;s proclamation of God&apos;s greatness and mercy across all nations in the Magnificat.',
+    },
+    {
+      id: 'bibleodyssey-malachi-love-sacrifice',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'God&apos;s Love and the Pure Offering Across Nations',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-malachi/',
+      description: 'Study of God&apos;s covenant love for Israel and the promise of pure worship offered to His name among all the Gentiles through the gospel.',
+    },
+  ],
 
   hasHebrew: true,
 };

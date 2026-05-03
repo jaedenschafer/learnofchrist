@@ -36,7 +36,7 @@ export const MICAH_3: RichChapterContent = {
           kind: 'commentary',
           id: 'micah-3-78mid-1',
           html:
-            'The prophet turns from the corrupt heads to the corrupt prophets. Both have sold the people&apos;s welfare for bread; both will face the same silence from God.',
+            'The prophet turns from the corrupt heads to the corrupt prophets. Both have sold the people&apos;s welfare for bread; both will face the same silence from God[res:bibleodyssey-micah-prophecy][res:intertextual-micah-3-revelation].',
         },
         {
           kind: 'scripture',
@@ -52,7 +52,7 @@ export const MICAH_3: RichChapterContent = {
           kind: 'commentary',
           id: 'micah3-judge',
           html:
-            'The rulers are meant to know judgment. It is their office, their calling. But they have perverted it. The language is visceral—they strip skin, they pluck flesh from bones, they boil the people like meat in a caldron. This is not metaphor alone. It describes the very real violence of exploitative rulers who regard the people they govern as less than human.',
+            'The rulers are meant to know judgment. It is their office, their calling. But they have perverted it. The language is visceral—they strip skin, they pluck flesh from bones, they boil the people like meat in a caldron. This is not metaphor alone. It describes the very real violence of exploitative rulers who regard the people they govern as less than human[res:sefaria-micah-3].',
         },
         {
           kind: 'hebrew',
@@ -139,6 +139,33 @@ export const MICAH_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Micah 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-micah-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Micah 3 · Texts & Translations',
+      url: 'https://www.sefaria.org/Micah.3',
+      description: 'Primary sources on Micah&apos;s indictment of corrupt rulers and false prophets, and the promise of ruin for Jerusalem built on injustice.',
+    },
+    {
+      id: 'bibleodyssey-micah-prophecy',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Prophetic Voice — Truth against Corruption',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-micah/',
+      description: 'Study of the prophet&apos;s courageous stance against both civic and religious corruption, and the cost of speaking truth.',
+    },
+    {
+      id: 'intertextual-micah-3-revelation',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Micah 3 → Revelation 3 — Judgment on False Confidence',
+      url: 'https://intertextual.bible/search?query=micah+revelation',
+      description: 'Connection between Micah&apos;s exposure of false security and Christ&apos;s diagnosis of the Laodicean church.',
+    },
+  ],
 
   hasHebrew: true,
 };

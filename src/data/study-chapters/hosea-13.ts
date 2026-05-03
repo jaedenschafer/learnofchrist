@@ -19,6 +19,25 @@ export const HOSEA_13: RichChapterContent = {
     ref: 'Hosea 13 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hosea-13',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 13 · Texts & Translations',
+      url: 'https://www.sefaria.org/Hosea.13',
+      description: 'Primary sources on God&apos;s fierce judgment and the promise of redemption from death itself.',
+    },
+    {
+      id: 'intertextual-hosea-13-resurrection',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Hosea 13:14 ↔ 1 Corinthians 15 — Victory Over Death',
+      url: 'https://intertextual.bible/search?query=hosea+13:14',
+      description: 'Intertextual study of how Paul applies Hosea&apos;s resurrection promise to Christ&apos;s victory over death.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Hosea 13:1–8',
@@ -54,7 +73,7 @@ export const HOSEA_13: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea13-lion',
           html:
-            'God will be unto Israel as a lion, as a leopard, as a bereaved bear. The imagery is violent and personal. God will tear Israel&apos;s heart. This is judgment in its most severe form. Yet it comes from the One who knew Israel in the wilderness, who led her, who provided for her. The judgment flows from intimate knowledge and betrayed love.',
+            'God will be unto Israel as a lion, as a leopard, as a bereaved bear. The imagery is violent and personal. God will tear Israel&apos;s heart. This is judgment in its most severe form. Yet it comes from the One who knew Israel in the wilderness, who led her, who provided for her. The judgment flows from intimate knowledge and betrayed love[res:sefaria-hosea-13][res:intertextual-hosea-13-resurrection].',
         },
         {
           kind: 'carry',

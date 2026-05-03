@@ -19,6 +19,25 @@ export const AMOS_6: RichChapterContent = {
     ref: 'Amos 6 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-amos-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Amos 6 · Texts & Translations',
+      url: 'https://www.sefaria.org/Amos.6',
+      description: 'Primary sources on the danger of spiritual complacency and material ease in Israel&apos;s history.',
+    },
+    {
+      id: 'bibleodyssey-ease-zion',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Danger of Ease — Amos 6:1',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-amos/',
+      description: 'Study of material prosperity as a spiritual danger when it distances people from seeking God.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Amos 6:1–7',
@@ -37,7 +56,7 @@ export const AMOS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'amos-6-78mid-1',
           html:
-            'Amos pivots from the woe to those at ease in Zion to the LORD&apos;s oath against the pride of Jacob. Comfort here is itself the indictment.',
+            'Amos pivots from the woe to those at ease in Zion to the LORD&apos;s oath against the pride of Jacob. Comfort here is itself the indictment[res:sefaria-amos-6][res:bibleodyssey-ease-zion].',
         },
         {
           kind: 'scripture',

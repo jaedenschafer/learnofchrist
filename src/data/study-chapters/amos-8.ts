@@ -19,6 +19,25 @@ export const AMOS_8: RichChapterContent = {
     ref: 'Amos 8 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-amos-8',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Amos 8 · Texts & Translations',
+      url: 'https://www.sefaria.org/Amos.8',
+      description: 'Primary sources on the judgment of famine for God&apos;s word as the deepest spiritual deprivation.',
+    },
+    {
+      id: 'bibleodyssey-famine-word',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Famine of God&apos;s Word — Amos 8:11-12',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-amos/',
+      description: 'Study of spiritual famine as the consequence of rejecting God&apos;s prophetic word.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Amos 8:1–10',
@@ -39,7 +58,7 @@ export const AMOS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'amos8-merchants-greedy',
           html:
-            'The merchants are watching the new moon end so they can cheat with smaller measures. Their fast is not religion; it is impatience to get back to fraud.',
+            'The merchants are watching the new moon end so they can cheat with smaller measures. Their fast is not religion; it is impatience to get back to fraud[res:sefaria-amos-8][res:bibleodyssey-famine-word].',
         },
         {
           kind: 'scripture',

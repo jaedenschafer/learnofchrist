@@ -31,7 +31,7 @@ export const ZECHARIAH_13: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'zech13-fountain',
-          html: 'A fountain is opened—flowing water, endless and life-giving, cleansing Jerusalem from sin and uncleanness. This is the work of redemption. With this cleansing comes the removal of idolatry and false prophecy. The unclean spirits that deceive are driven out. The false prophets, ashamed, no longer dare to wear their rough garments and claim authority. The land is purified.',
+          html: 'A fountain is opened—flowing water, endless and life-giving, cleansing Jerusalem from sin and uncleanness. This is the work of redemption. With this cleansing comes the removal of idolatry and false prophecy. The unclean spirits that deceive are driven out. The false prophets, ashamed, no longer dare to wear their rough garments and claim authority. The land is purified[res:sefaria-zechariah-13][res:intertextual-zechariah-13-matthew-26].',
         },
         {
           kind: 'hebrew',
@@ -45,7 +45,7 @@ export const ZECHARIAH_13: RichChapterContent = {
           kind: 'christ',
           id: 'zech13-christ-fountain',
           title: 'Christ Connection — The Source of Living Water',
-          html: 'Christ is the source of this cleansing water. "If any man thirst, let him come unto me, and drink," He said. And to the woman at the well: "Whosoever drinketh of the water that I shall give him shall never thirst." The Cross is the fountain through which redemption flows.',
+          html: 'Christ is the source of this cleansing water. "If any man thirst, let him come unto me, and drink," He said. And to the woman at the well: "Whosoever drinketh of the water that I shall give him shall never thirst." The Cross is the fountain through which redemption flows[res:bibleodyssey-zechariah-fountain-refining].',
         },
         {
           kind: 'carry',
@@ -114,6 +114,33 @@ export const ZECHARIAH_13: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Zechariah 13 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-zechariah-13',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Zechariah 13 · Texts & Translations',
+      url: 'https://www.sefaria.org/Zechariah.13',
+      description: 'Primary sources on the fountain of cleansing and the prophecy of the Shepherd&apos;s striking and the scattering of the flock.',
+    },
+    {
+      id: 'intertextual-zechariah-13-matthew-26',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Zechariah 13:7 → Matthew 26:31 — The Shepherd Smitten',
+      url: 'https://intertextual.bible/search?query=zechariah+matthew',
+      description: 'The fulfillment of Zechariah&apos;s prophecy when Christ quotes the verse Himself, predicting His own crucifixion and the scattering of the disciples in Gethsemane and at the Cross.',
+    },
+    {
+      id: 'bibleodyssey-zechariah-fountain-refining',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Fountain Opened and the Refining of the Remnant',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
+      description: 'Study of the fountain of cleansing in Jerusalem and the refining of the remnant through the striking of the Shepherd.',
+    },
+  ],
 
   hasHebrew: true,
 };

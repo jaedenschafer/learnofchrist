@@ -37,7 +37,7 @@ export const HABAKKUK_1: RichChapterContent = {
           kind: 'commentary',
           id: 'habakkuk1-cry',
           html:
-            'Habakkuk&apos;s cry is raw and honest. He does not mince words with God. He does not pretend piety he does not feel. He cries out in genuine distress, asking why God shows him evil and then does nothing about it. This is the prayer of a man whose faith is being tested to its limits.',
+            'Habakkuk&apos;s cry is raw and honest. He does not mince words with God. He does not pretend piety he does not feel. He cries out in genuine distress, asking why God shows him evil and then does nothing about it. This is the prayer of a man whose faith is being tested to its limits[res:sefaria-habakkuk-1][res:intertextual-habakkuk-1-psalm-13].',
         },
         {
           kind: 'hebrew',
@@ -53,7 +53,7 @@ export const HABAKKUK_1: RichChapterContent = {
           id: 'habakkuk1-christ-suffering',
           title: 'Christ Connection — God&apos;s Purpose in Suffering',
           html:
-            'In Gethsemane, Christ experiences a similar desolation: "My God, my God, why hast thou forsaken me?" He too cries out in the face of injustice and suffering. Yet He trusts that God&apos;s purpose will be accomplished, even through the darkest hours.',
+            'In Gethsemane, Christ experiences a similar desolation: "My God, my God, why hast thou forsaken me?" He too cries out in the face of injustice and suffering. Yet He trusts that God&apos;s purpose will be accomplished, even through the darkest hours[res:bibleodyssey-habakkuk-faith].',
         },
         {
           kind: 'carry',
@@ -137,6 +137,33 @@ export const HABAKKUK_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Habakkuk 1 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-habakkuk-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Habakkuk 1 · Texts & Translations',
+      url: 'https://www.sefaria.org/Habakkuk.1',
+      description: 'Primary sources on Habakkuk&apos;s complaint and God&apos;s answer through the rise of the Chaldeans.',
+    },
+    {
+      id: 'bibleodyssey-habakkuk-faith',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Faith in the Darkness — Habakkuk&apos;s Question',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-habakkuk/',
+      description: 'Study of the prophet&apos;s struggle with injustice and the nature of faith that questions.',
+    },
+    {
+      id: 'intertextual-habakkuk-1-psalm-13',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Habakkuk 1:2 ↔ Psalm 13 — The Lament of the Faithful',
+      url: 'https://intertextual.bible/search?query=habakkuk+psalm',
+      description: 'Connection between Habakkuk&apos;s cry and the lament psalms—honest prayers in the face of suffering.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -32,7 +32,7 @@ export const ZECHARIAH_2: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'zech2-measure',
-          html: 'A man comes to measure Jerusalem&apos;s dimensions, as if to rebuild it within fixed boundaries. But an angel intercepts him with a vision of a city so full of people and blessing that walls cannot contain it. The promise is not of a city rebuilt to former size, but of a city transformed beyond measure. God Himself will be its wall of fire—protection and glory combined. The measuring line becomes irrelevant when the promise exceeds all measure.',
+          html: 'A man comes to measure Jerusalem&apos;s dimensions, as if to rebuild it within fixed boundaries. But an angel intercepts him with a vision of a city so full of people and blessing that walls cannot contain it. The promise is not of a city rebuilt to former size, but of a city transformed beyond measure. God Himself will be its wall of fire—protection and glory combined. The measuring line becomes irrelevant when the promise exceeds all measure[res:intertextual-zechariah-2-john-1][res:bibleodyssey-zechariah-restoration].',
         },
         {
           kind: 'hebrew',
@@ -46,7 +46,7 @@ export const ZECHARIAH_2: RichChapterContent = {
           kind: 'christ',
           id: 'zech2-christ-dwell',
           title: 'Christ Connection — God Dwelling in the Midst',
-          html: 'God promises to dwell in the midst of Jerusalem. This promise is fulfilled when God becomes flesh in Christ and dwells among us. The Word became flesh and tabernacled with us. Later, through the Holy Spirit, God indwells His people—not a city of stone, but a living temple of believers.',
+          html: 'God promises to dwell in the midst of Jerusalem. This promise is fulfilled when God becomes flesh in Christ and dwells among us. The Word became flesh and tabernacled with us. Later, through the Holy Spirit, God indwells His people—not a city of stone, but a living temple of believers[res:sefaria-zechariah-2].',
         },
         {
           kind: 'carry',
@@ -116,6 +116,33 @@ export const ZECHARIAH_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Zechariah 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-zechariah-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Zechariah 2 · Texts & Translations',
+      url: 'https://www.sefaria.org/Zechariah.2',
+      description: 'Primary sources on the vision of the measuring line and God&apos;s promise to dwell in the midst of His people.',
+    },
+    {
+      id: 'intertextual-zechariah-2-john-1',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Zechariah 2:10 → John 1:14 — God Dwelling in the Midst',
+      url: 'https://intertextual.bible/search?query=zechariah+john',
+      description: 'The fulfillment of Zechariah&apos;s prophecy of God dwelling in the midst in Christ&apos;s incarnation and tabernacling with humanity.',
+    },
+    {
+      id: 'bibleodyssey-zechariah-restoration',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'God&apos;s Presence and the Restored City',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
+      description: 'Study of God&apos;s covenant presence with His people and the abundance that exceeds all human measure.',
+    },
+  ],
 
   hasHebrew: true,
 };

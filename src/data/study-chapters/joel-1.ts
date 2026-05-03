@@ -19,6 +19,25 @@ export const JOEL_1: RichChapterContent = {
     ref: 'Joel 1 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-joel-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Joel 1 · Texts & Translations',
+      url: 'https://www.sefaria.org/Joel.1',
+      description: 'Primary sources on the locust plague as metaphor for judgment and call to national repentance.',
+    },
+    {
+      id: 'bibleodyssey-joel-locust',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Locust Plague in Joel',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-joel/',
+      description: 'Study of locusts as harbingers of the day of the Lord and God&apos;s call to spiritual awakening.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Joel 1:1–7',
@@ -37,7 +56,7 @@ export const JOEL_1: RichChapterContent = {
           kind: 'commentary',
           id: 'joel-1-78mid-1',
           html:
-            'The locust devastation turns into a call to the priests — &quot;Gird yourselves, and lament.&quot; The disaster becomes a summons to mourn before the LORD.',
+            'The locust devastation turns into a call to the priests — &quot;Gird yourselves, and lament.&quot; The disaster becomes a summons to mourn before the LORD[res:sefaria-joel-1][res:bibleodyssey-joel-locust].',
         },
         {
           kind: 'scripture',

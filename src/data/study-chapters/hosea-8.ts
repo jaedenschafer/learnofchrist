@@ -19,6 +19,25 @@ export const HOSEA_8: RichChapterContent = {
     ref: 'Hosea 8 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hosea-8',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 8 · Texts & Translations',
+      url: 'https://www.sefaria.org/Hosea.8',
+      description: 'Primary sources on Israel&apos;s broken covenant and the consequences of idolatry and political unfaithfulness.',
+    },
+    {
+      id: 'bibleodyssey-sow-reap',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Sow and Reap — Hosea 8:7',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
+      description: 'Theological study of the law of sowing and reaping as natural consequence rather than imposed judgment.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Hosea 8:1–6',
@@ -45,7 +64,7 @@ export const HOSEA_8: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea8-trumpet',
           html:
-            'The trumpet sounds judgment. Israel has transgressed the covenant and trespassed against the law. Yet when danger comes, Israel will cry out, "My God, we know thee." But knowing God with the lips while casting off what is good is empty. The plea will not be heard because it comes without repentance.',
+            'The trumpet sounds judgment. Israel has transgressed the covenant and trespassed against the law. Yet when danger comes, Israel will cry out, "My God, we know thee." But knowing God with the lips while casting off what is good is empty. The plea will not be heard because it comes without repentance[res:sefaria-hosea-8][res:bibleodyssey-sow-reap].',
         },
         {
           kind: 'carry',

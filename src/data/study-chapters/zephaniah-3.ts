@@ -36,7 +36,7 @@ export const ZEPHANIAH_3: RichChapterContent = {
           kind: 'commentary',
           id: 'zephaniah-3-78mid-1',
           html:
-            'The prophet turns from indicting Jerusalem to promising her — &quot;the LORD thy God in the midst of thee is mighty&quot; — that He Himself will sing over her.',
+            'The prophet turns from indicting Jerusalem to promising her — &quot;the LORD thy God in the midst of thee is mighty&quot; — that He Himself will sing over her[res:intertextual-zephaniah-3-luke-15][res:sefaria-zephaniah-3].',
         },
         {
           kind: 'scripture',
@@ -52,7 +52,7 @@ export const ZEPHANIAH_3: RichChapterContent = {
           kind: 'commentary',
           id: 'zephaniah3-corrupt',
           html:
-            'The city (Jerusalem) is described as filthy, polluted, oppressing. She has not obeyed God, received correction, or trusted in Him. The authorities are compared to roaring lions and evening wolves. And the prophets and priests have betrayed their calling through treachery and violence.',
+            'The city (Jerusalem) is described as filthy, polluted, oppressing. She has not obeyed God, received correction, or trusted in Him. The authorities are compared to roaring lions and evening wolves. And the prophets and priests have betrayed their calling through treachery and violence[res:bibleodyssey-zephaniah-restoration].',
         },
         {
           kind: 'hebrew',
@@ -168,6 +168,33 @@ export const ZEPHANIAH_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Zephaniah 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-zephaniah-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Zephaniah 3 · Texts & Translations',
+      url: 'https://www.sefaria.org/Zephaniah.3',
+      description: 'Primary sources on the restoration of the remnant and God&apos;s rejoicing over His redeemed people.',
+    },
+    {
+      id: 'bibleodyssey-zephaniah-restoration',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Restoration of the Remnant and Divine Joy',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zephaniah/',
+      description: 'Study of the restoration theme in Zephaniah and the transformation from judgment to mercy and celebration.',
+    },
+    {
+      id: 'intertextual-zephaniah-3-luke-15',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Zephaniah 3:17 → Luke 15 — God&apos;s Joy Over the Repentant',
+      url: 'https://intertextual.bible/search?query=zephaniah+luke',
+      description: 'The parallel between Zephaniah&apos;s vision of God rejoicing over His people and Christ&apos;s teaching about God&apos;s joy over the repentant in the parables of Luke 15.',
+    },
+  ],
 
   hasHebrew: true,
 };

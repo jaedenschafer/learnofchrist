@@ -19,6 +19,25 @@ export const AMOS_3: RichChapterContent = {
     ref: 'Amos 3 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-amos-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Amos 3 · Texts & Translations',
+      url: 'https://www.sefaria.org/Amos.3',
+      description: 'Primary sources on covenant partnership with God and the role of prophets as revealers of God&apos;s secret counsel.',
+    },
+    {
+      id: 'bibleodyssey-walk-together',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Walking with God in Covenant',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-amos/',
+      description: 'Study of Amos 3:3 as the foundation for covenant alignment between God and His people.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Amos 3:1–8',
@@ -54,7 +73,7 @@ export const AMOS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'amos3-walk',
           html:
-            'The verse "Can two walk together, except they be agreed?" establishes that covenant relationship requires alignment. Israel and God are at odds. They are not walking together because they do not agree about the fundamental things. God will punish them because relationship has been broken.',
+            'The verse "Can two walk together, except they be agreed?" establishes that covenant relationship requires alignment. Israel and God are at odds. They are not walking together because they do not agree about the fundamental things. God will punish them because relationship has been broken[res:bibleodyssey-walk-together][res:sefaria-amos-3].',
         },
         {
           kind: 'carry',

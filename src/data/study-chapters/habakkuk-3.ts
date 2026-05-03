@@ -36,7 +36,7 @@ export const HABAKKUK_3: RichChapterContent = {
           kind: 'commentary',
           id: 'habakkuk-3-78mid-1',
           html:
-            'The prayer turns into a hymn. Habakkuk pivots from recalling God&apos;s past works to naming the trust that will hold him through what is coming.',
+            'The prayer turns into a hymn. Habakkuk pivots from recalling God&apos;s past works to naming the trust that will hold him through what is coming[res:bibleodyssey-habakkuk-hope][res:sefaria-habakkuk-3].',
         },
         {
           kind: 'scripture',
@@ -51,7 +51,7 @@ export const HABAKKUK_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'habakkuk3-trembled',
-          html: 'The glory of God moving across the earth causes everything to tremble. The nations are shaken. The mountains bow. The very heavens acknowledge His presence. This is what Habakkuk holds before his mind — not as a distant memory but as a living vision of God&apos;s power working in his world.',
+          html: 'The glory of God moving across the earth causes everything to tremble. The nations are shaken. The mountains bow. The very heavens acknowledge His presence. This is what Habakkuk holds before his mind — not as a distant memory but as a living vision of God&apos;s power working in his world[res:intertextual-habakkuk-3-john-16].',
         },
         {
           kind: 'scripture',
@@ -169,6 +169,33 @@ export const HABAKKUK_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Habakkuk 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-habakkuk-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Habakkuk 3 · Texts & Translations',
+      url: 'https://www.sefaria.org/Habakkuk.3',
+      description: 'Primary sources on Habakkuk&apos;s prayer and the culmination of his faith: joy in God regardless of circumstance.',
+    },
+    {
+      id: 'bibleodyssey-habakkuk-hope',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Faith Triumphing — From Complaint to Worship',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-habakkuk/',
+      description: 'Study of Habakkuk&apos;s transformation from doubt to trust, and the joy that emerges from faith in God.',
+    },
+    {
+      id: 'intertextual-habakkuk-3-john-16',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Habakkuk 3:18 → John 16:33 — Joy Beyond the World',
+      url: 'https://intertextual.bible/search?query=habakkuk+john',
+      description: 'The parallel between Habakkuk&apos;s discovery of joy in God and Christ&apos;s promise of peace in tribulation.',
+    },
+  ],
 
   hasHebrew: true,
 };

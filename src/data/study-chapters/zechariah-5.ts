@@ -31,7 +31,7 @@ export const ZECHARIAH_5: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'zech5-scroll',
-          html: 'A scroll flies through the air, carrying curses against those who steal and swear falsely. The scroll is enormous—twenty by ten cubits—large enough to cover each offender&apos;s house. The vision promises that wickedness will not go unaddressed. God will bring judgment against those who violate the covenant through theft and false swearing. The curse is not arbitrary but rooted in the moral order God has established.',
+          html: 'A scroll flies through the air, carrying curses against those who steal and swear falsely. The scroll is enormous—twenty by ten cubits—large enough to cover each offender&apos;s house. The vision promises that wickedness will not go unaddressed. God will bring judgment against those who violate the covenant through theft and false swearing. The curse is not arbitrary but rooted in the moral order God has established[res:sefaria-zechariah-5][res:bibleodyssey-zechariah-cleansing].',
         },
         {
           kind: 'hebrew',
@@ -45,7 +45,7 @@ export const ZECHARIAH_5: RichChapterContent = {
           kind: 'christ',
           id: 'zech5-christ-curse',
           title: 'Christ Connection — Bearing the Curse',
-          html: 'The flying scroll carrying curses points to Christ, who bore the curse of the law. "Christ hath redeemed us from the curse of the law," Paul writes. Christ took upon Himself the scroll of curses so that those who trust in Him could be freed from condemnation.',
+          html: 'The flying scroll carrying curses points to Christ, who bore the curse of the law. "Christ hath redeemed us from the curse of the law," Paul writes. Christ took upon Himself the scroll of curses so that those who trust in Him could be freed from condemnation[res:intertextual-zechariah-5-galatians-3].',
         },
         {
           kind: 'carry',
@@ -111,6 +111,33 @@ export const ZECHARIAH_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Zechariah 5 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-zechariah-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Zechariah 5 · Texts & Translations',
+      url: 'https://www.sefaria.org/Zechariah.5',
+      description: 'Primary sources on the visions of the flying scroll and the woman in the basket, symbolizing judgment and the removal of wickedness.',
+    },
+    {
+      id: 'intertextual-zechariah-5-galatians-3',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Zechariah 5:3 → Galatians 3:13 — Christ Redeemed Us From the Curse',
+      url: 'https://intertextual.bible/search?query=zechariah+galatians',
+      description: 'The connection between Zechariah&apos;s curse of the scroll and Paul&apos;s declaration that Christ redeemed us from the curse of the law.',
+    },
+    {
+      id: 'bibleodyssey-zechariah-cleansing',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Divine Judgment and the Cleansing of Sin',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
+      description: 'Study of Zechariah&apos;s visions of God&apos;s judgment on wickedness and the removal of corruption from the land.',
+    },
+  ],
 
   hasHebrew: true,
 };

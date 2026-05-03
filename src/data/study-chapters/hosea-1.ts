@@ -29,6 +29,33 @@ export const HOSEA_1: RichChapterContent = {
     ref: 'Hosea 1 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hosea-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 1 · Texts & Translations',
+      url: 'https://www.sefaria.org/Hosea.1',
+      description: 'Primary sources and rabbinic commentary on Hosea&apos;s marriage command and the naming of his children.',
+    },
+    {
+      id: 'bibleodyssey-hosea-marriage',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hosea — Prophet & Marriage Symbolism',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
+      description: 'Overview of Hosea&apos;s prophetic marriage as a lived parable of covenant unfaithfulness and restoration.',
+    },
+    {
+      id: 'iaa-samaria-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Samaria Iron Age Settlement',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'Archaeological survey and excavation data on the northern kingdom capital during Hosea&apos;s ministry.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Hosea 1:1–3',
@@ -59,7 +86,7 @@ export const HOSEA_1: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea1-command',
           html:
-            'God commands Hosea to do the unthinkable: marry a woman of whoredoms, a harlot. This is not a hidden instruction. This is the opening word of the book — God&apos;s will made public. Hosea obeys without hesitation. He does not negotiate or question. The marriage itself is the message: just as Hosea loves an unfaithful wife, so God loves an unfaithful Israel. The prophet&apos;s life becomes the sermon.',
+            'God commands Hosea to do the unthinkable: marry a woman of whoredoms, a harlot[res:bibleodyssey-hosea-marriage]. This is not a hidden instruction. This is the opening word of the book — God&apos;s will made public. Hosea obeys without hesitation. He does not negotiate or question. The marriage itself is the message: just as Hosea loves an unfaithful wife, so God loves an unfaithful Israel. The prophet&apos;s life becomes the sermon.',
         },
         {
           kind: 'hebrew',
@@ -157,7 +184,7 @@ export const HOSEA_1: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea1-jezreel',
           html:
-            'Jezreel is the valley where the house of Jehu had executed Naboth and his sons — a bloodshed that God is about to avenge. The name itself means "God scatters." It is a name of judgment: God will break the bow of Israel in that place. Yet by the end of the chapter, Jezreel becomes a name of hope. "Great shall be the day of Jezreel" — the scattering will become a sowing, the judgment a planting.',
+            'Jezreel is the valley where the house of Jehu had executed Naboth and his sons — a bloodshed that God is about to avenge[res:iaa-samaria-archaeology]. The name itself means "God scatters." It is a name of judgment: God will break the bow of Israel in that place. Yet by the end of the chapter, Jezreel becomes a name of hope. "Great shall be the day of Jezreel" — the scattering will become a sowing, the judgment a planting.',
         },
         {
           kind: 'commentary',
@@ -199,7 +226,7 @@ export const HOSEA_1: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea1-prophet-heart',
           html:
-            'Hosea is a prophet who embodies his message. His marriage is not metaphor — it is lived theology. He loves a woman whom God tells him will be unfaithful. He names his children with names of judgment. He lets his own life become the sermon. This is what the prophets do. They do not merely announce the word of God; they become the word of God. Ezekiel lies on his side for years to symbolize Jerusalem&apos;s siege. Isaiah walks naked and barefoot to show Israel&apos;s captivity. Jeremiah breaks pottery. And Hosea marries a harlot. In each case, the prophet&apos;s suffering becomes a word to the people. His pain is their mirror.',
+            'Hosea is a prophet who embodies his message[res:sefaria-hosea-1]. His marriage is not metaphor — it is lived theology. He loves a woman whom God tells him will be unfaithful. He names his children with names of judgment. He lets his own life become the sermon. This is what the prophets do. They do not merely announce the word of God; they become the word of God. Ezekiel lies on his side for years to symbolize Jerusalem&apos;s siege. Isaiah walks naked and barefoot to show Israel&apos;s captivity. Jeremiah breaks pottery. And Hosea marries a harlot. In each case, the prophet&apos;s suffering becomes a word to the people. His pain is their mirror.',
         },
         {
           kind: 'christ',

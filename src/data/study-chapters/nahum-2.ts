@@ -37,7 +37,7 @@ export const NAHUM_2: RichChapterContent = {
           kind: 'commentary',
           id: 'nahum-2-lion-prey',
           html:
-            'Nineveh is the lion&apos;s den. She devours and devours. But God says: I am against you. The hunter becomes the hunted. The den will be stripped. Prey will no longer fill the cave.',
+            'Nineveh is the lion&apos;s den. She devours and devours. But God says: I am against you. The hunter becomes the hunted. The den will be stripped. Prey will no longer fill the cave[res:iaa-nineveh-archaeology-excavation][res:sefaria-nahum-2].',
         },
         {
           kind: 'scripture',
@@ -54,7 +54,7 @@ export const NAHUM_2: RichChapterContent = {
           kind: 'commentary',
           id: 'nahum2-shield',
           html:
-            'The shields of Nineveh&apos;s mighty men are red—red with the blood they have spilled. The chariots move in the streets like flaming torches. This is not a clean military engagement. This is the violent destruction of a violent city, reaping what it has sown.',
+            'The shields of Nineveh&apos;s mighty men are red—red with the blood they have spilled. The chariots move in the streets like flaming torches. This is not a clean military engagement. This is the violent destruction of a violent city, reaping what it has sown[res:bibleodyssey-nahum-judgment-execution].',
         },
         {
           kind: 'hebrew',
@@ -137,6 +137,33 @@ export const NAHUM_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Nahum 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-nahum-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Nahum 2 · Texts & Translations',
+      url: 'https://www.sefaria.org/Nahum.2',
+      description: 'Primary sources on the vivid depiction of Nineveh&apos;s siege and the destruction of the violent city.',
+    },
+    {
+      id: 'bibleodyssey-nahum-judgment-execution',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'God&apos;s Judgment Executed',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-nahum/',
+      description: 'Study of the fulfillment of divine judgment and the complete fall of the mighty city.',
+    },
+    {
+      id: 'iaa-nineveh-archaeology-excavation',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Nineveh — Archaeological Evidence of Destruction',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'Archaeological evidence of Nineveh&apos;s fall and the historical backdrop for Nahum&apos;s prophecy.',
+    },
+  ],
 
   hasHebrew: true,
 };

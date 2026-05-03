@@ -39,7 +39,7 @@ export const MICAH_4: RichChapterContent = {
           kind: 'commentary',
           id: 'micah4-exalted',
           html:
-            'The mountain of the Lord&apos;s house will be established—not as one among many, but as the highest. It will be exalted above all hills. And people will flow toward it—not forced, not compelled, but drawn by desire to learn God&apos;s ways. This is a world transformed by the attraction of truth and the beauty of God&apos;s law.',
+            'The mountain of the Lord&apos;s house will be established—not as one among many, but as the highest. It will be exalted above all hills. And people will flow toward it—not forced, not compelled, but drawn by desire to learn God&apos;s ways. This is a world transformed by the attraction of truth and the beauty of God&apos;s law[res:sefaria-micah-4][res:intertextual-micah-4-isaiah-2].',
         },
         {
           kind: 'hebrew',
@@ -55,7 +55,7 @@ export const MICAH_4: RichChapterContent = {
           id: 'micah4-christ-kingdom',
           title: 'Christ Connection — The Messianic Kingdom',
           html:
-            'In Revelation 21, John sees a new heaven and new earth where God dwells with men. "And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain." Christ&apos;s kingdom brings the peace that Micah envisions. Under His reign, war ceases, and all nations learn His ways.',
+            'In Revelation 21, John sees a new heaven and new earth where God dwells with men. "And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain." Christ&apos;s kingdom brings the peace that Micah envisions. Under His reign, war ceases, and all nations learn His ways[res:bibleodyssey-micah-peace].',
         },
         {
           kind: 'carry',
@@ -141,6 +141,33 @@ export const MICAH_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Micah 4 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-micah-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Micah 4 · Texts & Translations',
+      url: 'https://www.sefaria.org/Micah.4',
+      description: 'Primary sources on Micah&apos;s vision of the exalted mountain of the Lord and the Messianic kingdom of peace.',
+    },
+    {
+      id: 'intertextual-micah-4-isaiah-2',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Micah 4:1–3 ↔ Isaiah 2:2–4 — The Mountain Vision',
+      url: 'https://intertextual.bible/search?query=micah+isaiah',
+      description: 'The nearly identical vision in both prophets of swords transformed into plowshares and perpetual peace among nations.',
+    },
+    {
+      id: 'bibleodyssey-micah-peace',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Messianic Peace and Redemption',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-micah/',
+      description: 'Study of the future restoration vision and the transformation of war into peace through God&apos;s reign.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -37,7 +37,7 @@ export const HABAKKUK_2: RichChapterContent = {
           kind: 'commentary',
           id: 'habakkuk2-just',
           html:
-            '"The just shall live by his faith." The contrast is between the proud person whose soul is lifted up and not upright, and the just person who lives by faith. The just one is characterized not by outward success or vindication, but by faith—by trust in God even when evidence seems to contradict God&apos;s control.',
+            '"The just shall live by his faith." The contrast is between the proud person whose soul is lifted up and not upright, and the just person who lives by faith. The just one is characterized not by outward success or vindication, but by faith—by trust in God even when evidence seems to contradict God&apos;s control[res:bibleodyssey-habakkuk-vision][res:sefaria-habakkuk-2].',
         },
         {
           kind: 'hebrew',
@@ -53,7 +53,7 @@ export const HABAKKUK_2: RichChapterContent = {
           id: 'habakkuk2-christ-faith',
           title: 'Christ Connection — Justification by Faith',
           html:
-            'Paul quotes Habakkuk 2:4 as the foundation of his theology in Romans 1:17 and Galatians 3:11. Through Christ, the just live by faith. We are justified not by our works or our understanding, but by our faith in Christ and His redemptive work on our behalf.',
+            'Paul quotes Habakkuk 2:4 as the foundation of his theology in Romans 1:17 and Galatians 3:11. Through Christ, the just live by faith. We are justified not by our works or our understanding, but by our faith in Christ and His redemptive work on our behalf[res:intertextual-habakkuk-2-romans-1].',
         },
         {
           kind: 'carry',
@@ -125,6 +125,33 @@ export const HABAKKUK_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Habakkuk 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-habakkuk-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Habakkuk 2 · Texts & Translations',
+      url: 'https://www.sefaria.org/Habakkuk.2',
+      description: 'Primary sources on the declaration that the just shall live by faith and the future glory of God.',
+    },
+    {
+      id: 'intertextual-habakkuk-2-romans-1',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Habakkuk 2:4 → Romans 1:17 — Justification by Faith',
+      url: 'https://intertextual.bible/search?query=habakkuk+romans',
+      description: 'The foundational verse on justification by faith, quoted directly by Paul as the heart of the gospel.',
+    },
+    {
+      id: 'bibleodyssey-habakkuk-vision',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Vision and God&apos;s Faithfulness',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-habakkuk/',
+      description: 'Study of Habakkuk&apos;s transformation from complaint to trust in God&apos;s final victory.',
+    },
+  ],
 
   hasHebrew: true,
 };

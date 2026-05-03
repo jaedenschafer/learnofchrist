@@ -19,6 +19,25 @@ export const AMOS_2: RichChapterContent = {
     ref: 'Amos 2 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-amos-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Amos 2 · Texts & Translations',
+      url: 'https://www.sefaria.org/Amos.2',
+      description: 'Primary sources on Amos&apos;s prophetic indictment of Israel&apos;s social injustice and covenant violations.',
+    },
+    {
+      id: 'bibleodyssey-amos-justice',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Justice in Amos',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-amos/',
+      description: 'Amos&apos;s prophetic demands for justice — feeding the hungry, care for the poor, integrity in commerce.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Amos 2:1–5',
@@ -39,7 +58,7 @@ export const AMOS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'amos2-judah',
           html:
-            'Judah is judged for despising the law of the Lord. Unlike the foreign nations judged for cruelty to others, Judah is judged for turning away from God&apos;s word. She has not kept His commandments. She has followed lies. Fire will be sent upon Judah too.',
+            'Judah is judged for despising the law of the Lord. Unlike the foreign nations judged for cruelty to others, Judah is judged for turning away from God&apos;s word. She has not kept His commandments. She has followed lies. Fire will be sent upon Judah too[res:bibleodyssey-amos-justice][res:sefaria-amos-2].',
         },
         {
           kind: 'carry',

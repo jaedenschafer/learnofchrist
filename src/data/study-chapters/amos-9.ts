@@ -19,6 +19,25 @@ export const AMOS_9: RichChapterContent = {
     ref: 'Amos 9 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-amos-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Amos 9 · Texts & Translations',
+      url: 'https://www.sefaria.org/Amos.9',
+      description: 'Primary sources on judgment followed by restoration and the promise to raise David&apos;s tabernacle.',
+    },
+    {
+      id: 'intertextual-amos-9-david',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Amos 9:11 ↔ Acts 15:16 — David&apos;s Tabernacle Restored',
+      url: 'https://intertextual.bible/search?query=amos+9:11',
+      description: 'Intertextual study of how Amos&apos;s promise of restoring David&apos;s tabernacle is applied in the church.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Amos 9:1–10',
@@ -46,7 +65,7 @@ export const AMOS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'amos9-no-escape',
           html:
-            'Whether they dig down to hell or climb up to heaven, the Lord&apos;s hand finds them. The judgment is not regional; it is total.',
+            'Whether they dig down to hell or climb up to heaven, the Lord&apos;s hand finds them. The judgment is not regional; it is total[res:sefaria-amos-9][res:intertextual-amos-9-david].',
         },
         {
           kind: 'scripture',

@@ -40,7 +40,7 @@ export const MICAH_5: RichChapterContent = {
           kind: 'commentary',
           id: 'micah5-bethlehem',
           html:
-            '"Bethlehem Ephratah, though thou be little among the thousands of Judah"—Israel&apos;s estimate of Bethlehem is that it is insignificant. But God&apos;s estimate is radically different. From this little town will come the Ruler. The contrast is intentional. God often works through what the world considers small or unimportant.',
+            '"Bethlehem Ephratah, though thou be little among the thousands of Judah"—Israel&apos;s estimate of Bethlehem is that it is insignificant. But God&apos;s estimate is radically different. From this little town will come the Ruler. The contrast is intentional. God often works through what the world considers small or unimportant[res:sefaria-micah-5][res:intertextual-micah-5-matthew-2].',
         },
         {
           kind: 'hebrew',
@@ -56,7 +56,7 @@ export const MICAH_5: RichChapterContent = {
           id: 'micah5-christ-born',
           title: 'Christ Connection — Christ Born in Bethlehem',
           html:
-            'Matthew 2:6 quotes this prophecy directly, applying it to the birth of Jesus: "Thou Bethlehem...out of thee shall come a Governor, that shall rule my people Israel." The prophecy is specific—the place, Bethlehem. The role, ruler. The nature, eternal. Christ fulfills all three. He is born in Bethlehem, He rules as King, and He is eternally the Son of God.',
+            'Matthew 2:6 quotes this prophecy directly, applying it to the birth of Jesus: "Thou Bethlehem...out of thee shall come a Governor, that shall rule my people Israel." The prophecy is specific—the place, Bethlehem. The role, ruler. The nature, eternal. Christ fulfills all three. He is born in Bethlehem, He rules as King, and He is eternally the Son of God[res:bibleodyssey-micah-messiah].',
         },
         {
           kind: 'carry',
@@ -143,6 +143,33 @@ export const MICAH_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Micah 5 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-micah-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Micah 5 · Texts & Translations',
+      url: 'https://www.sefaria.org/Micah.5',
+      description: 'Primary sources on the prophecy of the Ruler from Bethlehem with eternal origins.',
+    },
+    {
+      id: 'intertextual-micah-5-matthew-2',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Micah 5:2 → Matthew 2:6 — The Bethlehem Prophecy',
+      url: 'https://intertextual.bible/search?query=micah+matthew',
+      description: 'Direct fulfillment of Micah&apos;s prophecy in the birth of Christ in Bethlehem, cited by Matthew to the wise men.',
+    },
+    {
+      id: 'bibleodyssey-micah-messiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Coming Messiah — Shepherd and Ruler',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-micah/',
+      description: 'Study of the Messianic imagery and the eternal nature of the Ruler who comes from the least expected place.',
+    },
+  ],
 
   hasHebrew: true,
 };

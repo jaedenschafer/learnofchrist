@@ -27,6 +27,25 @@ export const HOSEA_5: RichChapterContent = {
     ref: 'Hosea 5 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hosea-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 5 · Texts & Translations',
+      url: 'https://www.sefaria.org/Hosea.5',
+      description: 'Primary sources on God&apos;s judgment of the northern and southern kingdoms through the prophet Hosea.',
+    },
+    {
+      id: 'bibleodyssey-ephraim-judah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ephraim and Judah — The Divided Kingdoms',
+      url: 'https://www.bibleodyssey.org/dictionary/ephraim/',
+      description: 'Historical and theological context for the division of Israel and God&apos;s address to both kingdoms.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Hosea 5:1–7',
@@ -45,7 +64,7 @@ export const HOSEA_5: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea-5-78mid-1',
           html:
-            'Hosea turns from the priests to the kings. Both have failed; the prophet refuses to comfort either.',
+            'Hosea turns from the priests to the kings. Both have failed; the prophet refuses to comfort either[res:bibleodyssey-ephraim-judah][res:sefaria-hosea-5].',
         },
         {
           kind: 'scripture',

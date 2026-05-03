@@ -36,7 +36,7 @@ export const NAHUM_1: RichChapterContent = {
           kind: 'commentary',
           id: 'nahum-1-78mid-1',
           html:
-            'The prophet pivots from naming the LORD&apos;s wrath to naming His goodness to those who trust Him. The same God is fortress to the faithful and fire to the proud.',
+            'The prophet pivots from naming the LORD&apos;s wrath to naming His goodness to those who trust Him. The same God is fortress to the faithful and fire to the proud[res:sefaria-nahum-1][res:bibleodyssey-nahum-justice].',
         },
         {
           kind: 'scripture',
@@ -52,7 +52,7 @@ export const NAHUM_1: RichChapterContent = {
           kind: 'commentary',
           id: 'nahum1-jealous',
           html:
-            'God is jealous—the word conveys that He will not tolerate the worship or allegiance of His people being given to idols, or their peace being disrupted by tyrants. He is furious at those who oppress His people. This is not irrational anger but divine justice, rooted in His care for the vulnerable.',
+            'God is jealous—the word conveys that He will not tolerate the worship or allegiance of His people being given to idols, or their peace being disrupted by tyrants. He is furious at those who oppress His people. This is not irrational anger but divine justice, rooted in His care for the vulnerable[res:british-museum-nineveh-archaeology].',
         },
         {
           kind: 'hebrew',
@@ -152,6 +152,33 @@ export const NAHUM_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Nahum 1 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-nahum-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Nahum 1 · Texts & Translations',
+      url: 'https://www.sefaria.org/Nahum.1',
+      description: 'Primary sources on God&apos;s judgment of Nineveh and His protection of the oppressed.',
+    },
+    {
+      id: 'bibleodyssey-nahum-justice',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'God&apos;s Justice and Mercy',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-nahum/',
+      description: 'Study of how the same God who judges the violent is a refuge for those who trust in Him.',
+    },
+    {
+      id: 'british-museum-nineveh-archaeology',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Nineveh — Ashurbanipal and Assyrian Power',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Archaeological evidence of Assyrian imperial power and the historical context of Nahum&apos;s prophecy.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -19,6 +19,25 @@ export const AMOS_4: RichChapterContent = {
     ref: 'Amos 4 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-amos-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Amos 4 · Texts & Translations',
+      url: 'https://www.sefaria.org/Amos.4',
+      description: 'Primary sources on Amos&apos;s call to repentance and God&apos;s coming judgment on the indulgent wealthy of Samaria.',
+    },
+    {
+      id: 'bibleodyssey-prepare-meet-god',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Prepare to Meet Your God',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-amos/',
+      description: 'Thematic study of Amos 4:12 as a call to readiness and accountability before God.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Amos 4:1–3',
@@ -37,7 +56,7 @@ export const AMOS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'amos4-kine',
           html:
-            'Israel is like cattle of Bashan — cattle known for their size and strength. They are indulgent, demanding, oppressive. But cattle are for slaughter. The judgment will come swiftly. They will be taken away with hooks, like fish pulled from the water.',
+            'Israel is like cattle of Bashan — cattle known for their size and strength. They are indulgent, demanding, oppressive. But cattle are for slaughter. The judgment will come swiftly. They will be taken away with hooks, like fish pulled from the water[res:sefaria-amos-4][res:bibleodyssey-prepare-meet-god].',
         },
         {
           kind: 'carry',

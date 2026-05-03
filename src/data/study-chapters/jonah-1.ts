@@ -38,7 +38,7 @@ export const JONAH_1: RichChapterContent = {
           kind: 'commentary',
           id: 'jonah1-command',
           html:
-            'God&apos;s word to Jonah is unambiguous: Arise. Go. Cry out. But Jonah&apos;s response is equally clear: he does not arise to obey, but to flee. The repetition is deliberate—"he paid the fare" and "went down into it" and "to go with them unto Tarshish from the presence of the Lord." Jonah believes he can escape God by traveling to the edge of the known world. He has not yet learned that you cannot flee from the presence of the God who fills heaven and earth.',
+            'God&apos;s word to Jonah is unambiguous: Arise. Go. Cry out. But Jonah&apos;s response is equally clear: he does not arise to obey, but to flee. The repetition is deliberate—"he paid the fare" and "went down into it" and "to go with them unto Tarshish from the presence of the Lord." Jonah believes he can escape God by traveling to the edge of the known world. He has not yet learned that you cannot flee from the presence of the God who fills heaven and earth[res:british-museum-nineveh][res:sefaria-jonah-1].',
         },
         {
           kind: 'hebrew',
@@ -156,6 +156,25 @@ export const JONAH_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Jonah 1 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-jonah-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jonah 1 · Texts & Translations',
+      url: 'https://www.sefaria.org/Jonah.1',
+      description: 'Primary sources on Jonah&apos;s flight from God&apos;s command and the storm that forces him to confront his refusal.',
+    },
+    {
+      id: 'british-museum-nineveh',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Nineveh — Sennacherib&apos;s Palace & Reliefs',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Cuneiform records and palace reliefs from ancient Nineveh, the Assyrian capital Jonah was sent to warn.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -19,6 +19,25 @@ export const HOSEA_9: RichChapterContent = {
     ref: 'Hosea 9 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hosea-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 9 · Texts & Translations',
+      url: 'https://www.sefaria.org/Hosea.9',
+      description: 'Primary sources on judgment, exile, and the appointed days of God&apos;s visitation upon Israel.',
+    },
+    {
+      id: 'bibleodyssey-visitation',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Days of Visitation in Scripture',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
+      description: 'Study of the theological theme of God&apos;s appointed times of judgment and redemption in biblical history.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Hosea 9:1–9',
@@ -38,7 +57,7 @@ export const HOSEA_9: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea-9-festival-exile',
           html:
-            'They cannot pour wine to God or offer sacrifices. No festivals in exile. Exile is not death but amputation—loss of the very rhythms that marked them as God&apos;s people. Cut off from worship, they face a slow forgetting.',
+            'They cannot pour wine to God or offer sacrifices. No festivals in exile. Exile is not death but amputation—loss of the very rhythms that marked them as God&apos;s people. Cut off from worship, they face a slow forgetting[res:bibleodyssey-visitation][res:sefaria-hosea-9].',
         },
         {
           kind: 'scripture',

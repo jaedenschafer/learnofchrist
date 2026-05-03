@@ -31,7 +31,7 @@ export const ZECHARIAH_4: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'zech4-lampstand',
-          html: 'The golden lampstand with seven lamps shines with supernatural light. The two olive trees on either side supply oil without human effort—the oil flows directly from the trees into the lamps. The vision tells Zerubbabel, the governor leading the reconstruction of Jerusalem, that the work of rebuilding is not dependent on military might or human engineering, but on the Spirit of God.',
+          html: 'The golden lampstand with seven lamps shines with supernatural light. The two olive trees on either side supply oil without human effort—the oil flows directly from the trees into the lamps. The vision tells Zerubbabel, the governor leading the reconstruction of Jerusalem, that the work of rebuilding is not dependent on military might or human engineering, but on the Spirit of God[res:intertextual-zechariah-4-luke-4][res:sefaria-zechariah-4].',
         },
         {
           kind: 'hebrew',
@@ -45,7 +45,7 @@ export const ZECHARIAH_4: RichChapterContent = {
           kind: 'christ',
           id: 'zech4-christ-spirit',
           title: 'Christ Connection — The Spirit-Empowered Ministry',
-          html: 'The Spirit empowering the work of restoration in Zechariah points forward to Christ&apos;s ministry. "The Spirit of the Lord is upon me," Christ declares, "because he hath anointed me." All authentic spiritual work flows from the Spirit, not from human effort. The lampstand burning with oil symbolizes Christ as the Light of the world, sustained by the Father&apos;s Spirit.',
+          html: 'The Spirit empowering the work of restoration in Zechariah points forward to Christ&apos;s ministry. "The Spirit of the Lord is upon me," Christ declares, "because he hath anointed me." All authentic spiritual work flows from the Spirit, not from human effort. The lampstand burning with oil symbolizes Christ as the Light of the world, sustained by the Father&apos;s Spirit[res:bibleodyssey-zechariah-spirit].',
         },
         {
           kind: 'carry',
@@ -115,6 +115,33 @@ export const ZECHARIAH_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Zechariah 4 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-zechariah-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Zechariah 4 · Texts & Translations',
+      url: 'https://www.sefaria.org/Zechariah.4',
+      description: 'Primary sources on the vision of the lampstand and the promise that God&apos;s work is accomplished by His Spirit, not by human might.',
+    },
+    {
+      id: 'intertextual-zechariah-4-luke-4',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Zechariah 4:6 → Luke 4:18 — The Spirit of the Lord Upon Me',
+      url: 'https://intertextual.bible/search?query=zechariah+luke',
+      description: 'The connection between Zechariah&apos;s vision of Spirit-empowered work and Christ&apos;s declaration that the Spirit of the Lord rests upon Him.',
+    },
+    {
+      id: 'bibleodyssey-zechariah-spirit',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Spirit of God Empowering Restoration',
+      url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-zechariah/',
+      description: 'Study of the Holy Spirit as the source of spiritual power and the role of the Spirit in accomplishing God&apos;s purposes.',
+    },
+  ],
 
   hasHebrew: true,
 };
