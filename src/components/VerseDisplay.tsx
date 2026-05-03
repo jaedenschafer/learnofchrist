@@ -94,7 +94,7 @@ export default function VerseDisplay({ bookSlug, chapter, initialVerses, explain
 
         <div className="flex items-center justify-between mb-5">
           <h2 className="text-[1.0625rem] font-semibold text-[color:var(--color-label)]">Scripture</h2>
-          <span className="text-[0.6875rem] font-semibold text-[color:var(--color-primary)] bg-[#007AFF]/[0.08] px-2.5 py-1 rounded-lg">{loadedTranslation.toUpperCase()}</span>
+          <span className="text-[0.6875rem] font-semibold text-[color:var(--color-primary)] bg-[color:var(--vesper-gold)]/[0.08] px-2.5 py-1 rounded-lg">{loadedTranslation.toUpperCase()}</span>
         </div>
 
         <div className={`font-serif ${fontClass} text-[color:var(--color-label)]`}>
@@ -141,7 +141,7 @@ export default function VerseDisplay({ bookSlug, chapter, initialVerses, explain
 
       <div className="flex items-center justify-between mb-5">
         <h2 className="text-[1.0625rem] font-semibold text-[color:var(--color-label)]">Scripture</h2>
-        <span className="text-[0.6875rem] font-semibold text-[color:var(--color-primary)] bg-[#007AFF]/[0.08] px-2.5 py-1 rounded-lg">{loadedTranslation.toUpperCase()}</span>
+        <span className="text-[0.6875rem] font-semibold text-[color:var(--color-primary)] bg-[color:var(--vesper-gold)]/[0.08] px-2.5 py-1 rounded-lg">{loadedTranslation.toUpperCase()}</span>
       </div>
 
       <div className={`font-serif ${fontClass} text-[color:var(--color-label)]`}>

@@ -44,7 +44,7 @@ function OptionRow({
     <button
       onClick={onClick}
       className={`w-full text-left flex items-center gap-3 px-4 py-2.5 transition-colors ${
-        selected ? 'bg-[#007AFF]/[0.05]' : 'active:bg-[var(--color-bg)]'
+        selected ? 'bg-[color:var(--vesper-gold)]/[0.05]' : 'active:bg-[var(--color-bg)]'
       }`}
     >
       <div className="w-5 flex items-center justify-center flex-shrink-0">
@@ -116,7 +116,7 @@ export default function ReadingFilters() {
             <button
               onClick={() => toggle(transDD)}
               className={`flex items-center gap-1 h-7 px-2.5 rounded-full text-[0.6875rem] font-semibold transition-all ${
-                transDD.open ? 'bg-[#007AFF] text-white' : 'bg-[var(--color-bg)] text-[color:var(--color-label)]'
+                transDD.open ? 'bg-[color:var(--vesper-gold)] text-white' : 'bg-[var(--color-bg)] text-[color:var(--color-label)]'
               }`}
             >
               {currentTranslation.toUpperCase()}
@@ -147,7 +147,7 @@ export default function ReadingFilters() {
             <button
               onClick={() => toggle(fontDD)}
               className={`flex items-center justify-center h-7 w-7 rounded-full transition-all ${
-                fontDD.open ? 'bg-[#007AFF] text-white' : 'bg-[var(--color-bg)] text-[color:var(--color-secondary-label)]'
+                fontDD.open ? 'bg-[color:var(--vesper-gold)] text-white' : 'bg-[var(--color-bg)] text-[color:var(--color-secondary-label)]'
               }`}
               title="Text Size"
             >
@@ -168,7 +168,7 @@ export default function ReadingFilters() {
                       key={s.id}
                       onClick={() => { setFontSize(s.id); fontDD.setOpen(false); }}
                       className={`w-full text-left flex items-center gap-3 px-4 py-2.5 transition-colors ${
-                        fontSize === s.id ? 'bg-[#007AFF]/[0.05]' : 'active:bg-[var(--color-bg)]'
+                        fontSize === s.id ? 'bg-[color:var(--vesper-gold)]/[0.05]' : 'active:bg-[var(--color-bg)]'
                       }`}
                     >
                       <div className="w-5 flex items-center justify-center flex-shrink-0">
@@ -193,7 +193,7 @@ export default function ReadingFilters() {
             <button
               onClick={() => toggle(modeDD)}
               className={`flex items-center justify-center h-7 w-7 rounded-full transition-all ${
-                modeDD.open ? 'bg-[#007AFF] text-white' : 'bg-[var(--color-bg)] text-[color:var(--color-secondary-label)]'
+                modeDD.open ? 'bg-[color:var(--vesper-gold)] text-white' : 'bg-[var(--color-bg)] text-[color:var(--color-secondary-label)]'
               }`}
               title="Reading Mode"
             >

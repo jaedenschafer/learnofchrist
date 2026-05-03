@@ -99,7 +99,7 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
 
       {/* Denomination Emphasis — when active, intermediate & deep */}
       {perspective && (level === 'intermediate' || level === 'deep') && (
-        <div className="bg-[color:var(--color-surface)] rounded-2xl p-6 border border-[#5856D6]/10">
+        <div className="bg-[color:var(--color-surface)] rounded-2xl p-6 border border-[var(--vesper-gold)]/10">
           <div className="flex items-center gap-2 mb-3">
             <div className="w-7 h-7 rounded-lg bg-[color:var(--vesper-gold)]/[0.1] flex items-center justify-center">
               <svg className="w-3.5 h-3.5 text-[color:var(--vesper-gold)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -28,7 +28,7 @@ export default function StudyError({
         <div className="flex flex-col sm:flex-row gap-2.5 justify-center">
           <button
             onClick={reset}
-            className="inline-flex items-center justify-center gap-1.5 px-5 h-11 rounded-full bg-[#5856D6] text-white text-[0.9375rem] font-semibold hover:bg-[#3634A3] active:scale-[0.98] transition-all"
+            className="inline-flex items-center justify-center gap-1.5 px-5 h-11 rounded-full bg-[color:var(--vesper-gold)] text-white text-[0.9375rem] font-semibold hover:bg-[#3634A3] active:scale-[0.98] transition-all"
           >
             Try again
           </button>

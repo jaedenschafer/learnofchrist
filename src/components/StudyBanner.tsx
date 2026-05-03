@@ -12,7 +12,7 @@ export default function StudyBanner({
   return (
     <Link
       href={`/study/${bookSlug}/${chapter}`}
-      className="block mt-6 bg-gradient-to-br from-[#007AFF] to-[#5856D6] rounded-3xl p-6 group active:scale-[0.99] transition-transform"
+      className="block mt-6 bg-gradient-to-br from-[color:var(--vesper-gold)] to-[color:var(--vesper-gold)] rounded-3xl p-6 group active:scale-[0.99] transition-transform"
     >
       <div className="flex items-center gap-4">
         <div className="w-12 h-12 rounded-2xl bg-white/20 flex items-center justify-center flex-shrink-0 backdrop-blur-sm">

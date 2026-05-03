@@ -64,7 +64,7 @@ export default function StudyFilters() {
               onClick={() => transDD.setOpen((o) => !o)}
               className={`flex items-center gap-1 h-7 px-2.5 rounded-full text-[0.6875rem] font-semibold transition-all ${
                 transDD.open
-                  ? 'bg-[#007AFF] text-white'
+                  ? 'bg-[color:var(--vesper-gold)] text-white'
                   : 'bg-[var(--color-bg)] text-[color:var(--color-label)]'
               }`}
             >
@@ -90,7 +90,7 @@ export default function StudyFilters() {
                       }}
                       className={`w-full text-left flex items-center gap-3 px-4 py-2.5 transition-colors ${
                         currentTranslation === t.abbreviation
-                          ? 'bg-[#007AFF]/[0.05]'
+                          ? 'bg-[color:var(--vesper-gold)]/[0.05]'
                           : 'active:bg-[var(--color-bg)]'
                       }`}
                     >

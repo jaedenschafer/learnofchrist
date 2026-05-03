@@ -42,7 +42,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
       <div className="page-container">
         <div className="max-w-3xl mx-auto text-center py-20">
           <h1 className="text-3xl font-bold text-[color:var(--color-label)] mb-3">Topic Not Found</h1>
-          <Link href="/topics" className="inline-block px-5 py-2.5 bg-[#007AFF] text-white text-sm font-medium rounded-full hover:opacity-90 transition-opacity">Back to Topics</Link>
+          <Link href="/topics" className="inline-block px-5 py-2.5 bg-[color:var(--vesper-gold)] text-white text-sm font-medium rounded-full hover:opacity-90 transition-opacity">Back to Topics</Link>
         </div>
       </div>
     );
@@ -90,7 +90,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
             </div>
 
             {/* Key Verse */}
-            <div className="bg-[#007AFF]/[0.04] rounded-2xl p-6 border-l-[3px] border-[#007AFF]">
+            <div className="bg-[color:var(--vesper-gold)]/[0.04] rounded-2xl p-6 border-l-[3px] border-[color:var(--vesper-gold)]">
               <p className="text-xs font-semibold text-[color:var(--color-tertiary-label)] uppercase tracking-wider mb-3">Key Verse</p>
               <p className="font-serif italic text-base text-[color:var(--color-label)]/80 leading-relaxed mb-3">&ldquo;{topic.keyVerse}&rdquo;</p>
               <p className="text-xs text-[color:var(--color-primary)] font-semibold">{topic.keyVerseReference}</p>
@@ -175,7 +175,7 @@ export default async function TopicPage({ params }: TopicPageProps) {
               <p className="text-xs text-white/60 mb-3">Explore more topics and deepen your understanding of Scripture.</p>
               <div className="flex gap-2">
                 <Link href="/topics" className="inline-block px-5 py-2.5 bg-white text-[#1D1D1F] text-sm font-medium rounded-full hover:opacity-90 transition-opacity">All Topics</Link>
-                <Link href="/bible" className="inline-block px-5 py-2.5 bg-[#007AFF] text-white text-sm font-medium rounded-full hover:opacity-90 transition-opacity">Study the Bible</Link>
+                <Link href="/bible" className="inline-block px-5 py-2.5 bg-[color:var(--vesper-gold)] text-white text-sm font-medium rounded-full hover:opacity-90 transition-opacity">Study the Bible</Link>
               </div>
             </div>
           </div>

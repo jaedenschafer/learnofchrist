@@ -44,7 +44,7 @@ export default async function QuestionPage({ params }: QuestionPageProps) {
       <div className="page-container">
         <div className="max-w-3xl mx-auto text-center py-20">
           <h1 className="text-3xl font-bold text-[color:var(--color-label)] mb-3">Question Not Found</h1>
-          <Link href="/questions" className="inline-block px-5 py-2.5 bg-[#007AFF] text-white text-sm font-medium rounded-full hover:opacity-90 transition-opacity">Back to Questions</Link>
+          <Link href="/questions" className="inline-block px-5 py-2.5 bg-[color:var(--vesper-gold)] text-white text-sm font-medium rounded-full hover:opacity-90 transition-opacity">Back to Questions</Link>
         </div>
       </div>
     );
@@ -80,7 +80,7 @@ export default async function QuestionPage({ params }: QuestionPageProps) {
 
           {/* Header */}
           <div className="bg-[color:var(--color-surface)] rounded-2xl p-6 mb-4">
-            <span className="inline-block text-xs font-medium text-[color:var(--color-primary)] bg-[#007AFF]/[0.08] px-3 py-1 rounded-full mb-3">{question.category}</span>
+            <span className="inline-block text-xs font-medium text-[color:var(--color-primary)] bg-[color:var(--vesper-gold)]/[0.08] px-3 py-1 rounded-full mb-3">{question.category}</span>
             <h1 className="text-2xl sm:text-3xl font-bold text-[color:var(--color-label)] tracking-tight">{question.question}</h1>
           </div>
 
@@ -159,7 +159,7 @@ export default async function QuestionPage({ params }: QuestionPageProps) {
               <p className="text-xs text-white/60 mb-3">Explore more answers to common questions about Jesus and the Christian faith.</p>
               <div className="flex gap-2">
                 <Link href="/questions" className="inline-block px-5 py-2.5 bg-white text-[#1D1D1F] text-sm font-medium rounded-full hover:opacity-90 transition-opacity">All Questions</Link>
-                <Link href="/bible" className="inline-block px-5 py-2.5 bg-[#007AFF] text-white text-sm font-medium rounded-full hover:opacity-90 transition-opacity">Study the Bible</Link>
+                <Link href="/bible" className="inline-block px-5 py-2.5 bg-[color:var(--vesper-gold)] text-white text-sm font-medium rounded-full hover:opacity-90 transition-opacity">Study the Bible</Link>
               </div>
             </div>
           </div>

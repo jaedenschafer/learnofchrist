@@ -38,7 +38,7 @@ export default function TranslationsPage() {
               Explore 8 major English Bible translations representing different Christian traditions, translation philosophies, and scholarly approaches. Each translation offers unique strengths for study, devotion, and contemplation.
             </p>
             <div className="flex items-center gap-3 mt-4">
-              <span className="inline-block text-[0.75rem] font-medium px-3 py-1 rounded-full text-[color:var(--color-primary)] bg-[#007AFF]/[0.08]">
+              <span className="inline-block text-[0.75rem] font-medium px-3 py-1 rounded-full text-[color:var(--color-primary)] bg-[color:var(--vesper-gold)]/[0.08]">
                 {translations.length} translations
               </span>
             </div>
@@ -53,7 +53,7 @@ export default function TranslationsPage() {
             <div key={t.id} className="bg-[color:var(--color-surface)] rounded-2xl shadow-sm p-6 hover:shadow-md transition-shadow duration-200">
               {/* Header */}
               <div className="flex items-center gap-3 mb-3">
-                <span className="inline-block text-[0.8125rem] font-bold px-3 py-1 rounded-full text-[color:var(--color-primary)] bg-[#007AFF]/[0.08]">
+                <span className="inline-block text-[0.8125rem] font-bold px-3 py-1 rounded-full text-[color:var(--color-primary)] bg-[color:var(--vesper-gold)]/[0.08]">
                   {t.abbreviation}
                 </span>
                 <span className="text-[0.8125rem] text-[color:var(--color-secondary-label)]">{t.year}</span>
@@ -73,7 +73,7 @@ export default function TranslationsPage() {
 
               {/* Actions */}
               <div className="flex gap-3">
-                <Link href={t.readLink} className="flex-1 text-center text-[0.8125rem] font-medium px-4 py-2 rounded-lg bg-[#007AFF] text-white hover:bg-[#0056D6] transition-colors">
+                <Link href={t.readLink} className="flex-1 text-center text-[0.8125rem] font-medium px-4 py-2 rounded-lg bg-[color:var(--vesper-gold)] text-white hover:bg-[#0056D6] transition-colors">
                   Read Now
                 </Link>
                 <Link href={`/bible/translations/${t.id}`} className="flex-1 text-center text-[0.8125rem] font-medium px-4 py-2 rounded-lg border border-[#D5D5D9] text-[color:var(--color-primary)] hover:bg-[var(--color-bg)] transition-colors">

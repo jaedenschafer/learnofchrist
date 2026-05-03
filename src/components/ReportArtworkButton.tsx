@@ -150,7 +150,7 @@ export default function ReportArtworkButton({
           opacity: 1;
         }
         .report-artwork-btn:hover {
-          background: #FF2D55;
+          background: var(--vesper-gold);
         }
         .report-artwork-btn svg { width: 14px; height: 14px; }
         .report-artwork-panel {
@@ -191,7 +191,7 @@ export default function ReportArtworkButton({
           margin-bottom: 8px;
         }
         .report-artwork-textarea::placeholder { color: #AEAEB2; }
-        .report-artwork-textarea:focus { outline: none; border-color: #007AFF; }
+        .report-artwork-textarea:focus { outline: none; border-color: var(--vesper-gold); }
         .report-artwork-actions {
           display: flex;
           gap: 6px;
@@ -212,14 +212,14 @@ export default function ReportArtworkButton({
           color: #48484A;
         }
         .report-artwork-send {
-          background: #FF2D55;
+          background: var(--vesper-gold);
           color: #fff;
         }
         .report-artwork-send:disabled { opacity: 0.5; cursor: not-allowed; }
         .report-artwork-thanks {
           margin: 0;
           font-size: 13px;
-          color: #34C759;
+          color: var(--vesper-gold);
           font-weight: 600;
         }
       `}</style>

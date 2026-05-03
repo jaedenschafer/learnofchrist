@@ -73,7 +73,7 @@ export default function TranslationSwitcher() {
                     onClick={() => { setTranslation(t.abbreviation); setOpen(false); }}
                     className={`w-full text-left px-4 py-2.5 flex items-center justify-between transition-colors ${
                       currentTranslation === t.abbreviation
-                        ? 'bg-[#007AFF]/[0.06]'
+                        ? 'bg-[color:var(--vesper-gold)]/[0.06]'
                         : 'hover:bg-[color:var(--color-fill-subtle)]'
                     }`}
                   >

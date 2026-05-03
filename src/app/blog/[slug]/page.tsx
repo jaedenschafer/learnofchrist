@@ -159,7 +159,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         {/* Author Bar */}
         <div className="flex items-center justify-between flex-wrap gap-3 mb-8 pb-6 border-b border-[rgba(60,60,67,0.08)]">
           <div className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#007AFF]/20 to-[#5AC8FA]/20 flex items-center justify-center flex-shrink-0 overflow-hidden">
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[var(--vesper-gold)]/20 to-[#5AC8FA]/20 flex items-center justify-center flex-shrink-0 overflow-hidden">
               {post.author.avatar ? (
                 <Image
                   src={post.author.avatar}
@@ -208,7 +208,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                       href={`#${slugify(section.heading)}`}
                       className="flex items-center gap-3 text-sm text-[color:var(--color-secondary-label)] hover:text-[color:var(--color-primary)] transition-colors group"
                     >
-                      <span className="w-6 h-6 rounded-full bg-[var(--color-bg)] text-[0.6875rem] font-semibold text-[color:var(--color-secondary-label)] group-hover:bg-[#007AFF]/10 group-hover:text-[color:var(--color-primary)] flex items-center justify-center flex-shrink-0 transition-colors">
+                      <span className="w-6 h-6 rounded-full bg-[var(--color-bg)] text-[0.6875rem] font-semibold text-[color:var(--color-secondary-label)] group-hover:bg-[color:var(--vesper-gold)]/10 group-hover:text-[color:var(--color-primary)] flex items-center justify-center flex-shrink-0 transition-colors">
                         {i + 1}
                       </span>
                       <span className="leading-snug">{section.heading}</span>
@@ -274,7 +274,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               {post.keyVerses.map((verse, i) => (
                 <div
                   key={i}
-                  className="bg-[#007AFF]/[0.04] border-l-[3px] border-[#007AFF]/40 rounded-r-xl p-4"
+                  className="bg-[color:var(--vesper-gold)]/[0.04] border-l-[3px] border-[color:var(--vesper-gold)]/40 rounded-r-xl p-4"
                 >
                   <p className="font-serif text-sm text-[color:var(--color-label)]/75 leading-relaxed italic mb-1">
                     &ldquo;{verse.text}&rdquo;

@@ -142,7 +142,7 @@ export default async function ChapterReadingPage({ params }: ChapterPageProps) {
         ]} />
 
         <div className="bg-[color:var(--color-surface)] rounded-3xl p-6 mb-4">
-          <span className="pill bg-[#007AFF]/[0.08] text-[color:var(--color-primary)] mb-2 inline-block">{book_obj.name}</span>
+          <span className="pill bg-[color:var(--vesper-gold)]/[0.08] text-[color:var(--color-primary)] mb-2 inline-block">{book_obj.name}</span>
           <h1 className="text-3xl sm:text-4xl font-bold text-[color:var(--color-label)] mb-2">Chapter {chapter}</h1>
           <p className="text-base text-[color:var(--color-secondary-label)]">
             {hasVerses

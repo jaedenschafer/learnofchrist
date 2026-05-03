@@ -29,11 +29,11 @@ const FEATURED_STUDIES = [
 ];
 
 const TINTS: Record<string, { bg: string; pill: string; accent: string }> = {
-  blue: { bg: 'from-[#007AFF]/[0.08] to-[#007AFF]/[0.02]', pill: 'bg-[#007AFF]/[0.1] text-[color:var(--color-primary)]', accent: 'text-[color:var(--color-primary)]' },
-  amber: { bg: 'from-[#FF9500]/[0.08] to-[#FF9500]/[0.02]', pill: 'bg-[#FF9500]/[0.1] text-[#C77700]', accent: 'text-[#C77700]' },
-  green: { bg: 'from-[#34C759]/[0.08] to-[#34C759]/[0.02]', pill: 'bg-[#34C759]/[0.1] text-[#248A3D]', accent: 'text-[#248A3D]' },
-  purple: { bg: 'from-[#5856D6]/[0.08] to-[#5856D6]/[0.02]', pill: 'bg-[#5856D6]/[0.1] text-[#5856D6]', accent: 'text-[#5856D6]' },
-  rose: { bg: 'from-[#FF2D55]/[0.08] to-[#FF2D55]/[0.02]', pill: 'bg-[#FF2D55]/[0.1] text-[#D70040]', accent: 'text-[#D70040]' },
+  blue: { bg: 'from-[var(--vesper-gold)]/[0.08] to-[var(--vesper-gold)]/[0.02]', pill: 'bg-[color:var(--vesper-gold)]/[0.1] text-[color:var(--color-primary)]', accent: 'text-[color:var(--color-primary)]' },
+  amber: { bg: 'from-[var(--vesper-gold)]/[0.08] to-[var(--vesper-gold)]/[0.02]', pill: 'bg-[var(--vesper-gold)]/[0.1] text-[#C77700]', accent: 'text-[#C77700]' },
+  green: { bg: 'from-[var(--vesper-gold)]/[0.08] to-[var(--vesper-gold)]/[0.02]', pill: 'bg-[var(--vesper-gold)]/[0.1] text-[#248A3D]', accent: 'text-[#248A3D]' },
+  purple: { bg: 'from-[var(--vesper-gold)]/[0.08] to-[var(--vesper-gold)]/[0.02]', pill: 'bg-[color:var(--vesper-gold)]/[0.1] text-[color:var(--vesper-gold)]', accent: 'text-[color:var(--vesper-gold)]' },
+  rose: { bg: 'from-[var(--vesper-gold)]/[0.08] to-[var(--vesper-gold)]/[0.02]', pill: 'bg-[var(--vesper-gold)]/[0.1] text-[#D70040]', accent: 'text-[#D70040]' },
 };
 
 function SectionHeading({ eyebrow, title, accent = 'blue' }: { eyebrow?: string; title: string; accent?: 'blue' | 'purple' }) {
@@ -41,7 +41,7 @@ function SectionHeading({ eyebrow, title, accent = 'blue' }: { eyebrow?: string;
     <div className="flex items-baseline justify-between mb-5 px-1">
       <div>
         {eyebrow && (
-          <p className={`text-[0.6875rem] font-semibold uppercase tracking-[0.08em] mb-1 ${accent === 'purple' ? 'text-[#5856D6]' : 'text-[color:var(--color-secondary-label)]'}`}>
+          <p className={`text-[0.6875rem] font-semibold uppercase tracking-[0.08em] mb-1 ${accent === 'purple' ? 'text-[color:var(--vesper-gold)]' : 'text-[color:var(--color-secondary-label)]'}`}>
             {eyebrow}
           </p>
         )}
@@ -63,11 +63,11 @@ export default function StudyIndexPage() {
 
         {/* ── Hero ── */}
         <section className="hero-surface relative mb-10 overflow-hidden rounded-[32px]">
-          <div className="absolute -top-24 -right-16 w-72 h-72 rounded-full bg-[#5856D6]/[0.08] blur-3xl pointer-events-none" />
-          <div className="absolute -bottom-24 -left-16 w-72 h-72 rounded-full bg-[#007AFF]/[0.06] blur-3xl pointer-events-none" />
+          <div className="absolute -top-24 -right-16 w-72 h-72 rounded-full bg-[color:var(--vesper-gold)]/[0.08] blur-3xl pointer-events-none" />
+          <div className="absolute -bottom-24 -left-16 w-72 h-72 rounded-full bg-[color:var(--vesper-gold)]/[0.06] blur-3xl pointer-events-none" />
 
           <div className="relative px-6 sm:px-10 py-10 sm:py-14 text-center">
-            <span className="hero-pill inline-block text-[0.6875rem] font-semibold text-[#5856D6] backdrop-blur-sm px-3 py-1 rounded-full uppercase tracking-[0.1em] mb-5">
+            <span className="hero-pill inline-block text-[0.6875rem] font-semibold text-[color:var(--vesper-gold)] backdrop-blur-sm px-3 py-1 rounded-full uppercase tracking-[0.1em] mb-5">
               Study · Reflect · Grow
             </span>
             <h1 className="text-[2.25rem] sm:text-5xl font-bold tracking-tight text-[color:var(--color-label)] mb-3 leading-[1.05]">
@@ -80,7 +80,7 @@ export default function StudyIndexPage() {
             <div className="flex flex-col sm:flex-row gap-2.5 justify-center mb-8">
               <Link
                 href="/study/john/1"
-                className="inline-flex items-center justify-center gap-1.5 px-5 h-11 rounded-full bg-[#5856D6] text-white text-[0.9375rem] font-semibold hover:bg-[#3634A3] active:scale-[0.98] transition-all shadow-[0_1px_2px_rgba(88,86,214,0.2),0_4px_12px_rgba(88,86,214,0.2)]"
+                className="inline-flex items-center justify-center gap-1.5 px-5 h-11 rounded-full bg-[color:var(--vesper-gold)] text-white text-[0.9375rem] font-semibold hover:bg-[#3634A3] active:scale-[0.98] transition-all shadow-[0_1px_2px_rgba(88,86,214,0.2),0_4px_12px_rgba(88,86,214,0.2)]"
               >
                 Start with John 1
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.2} viewBox="0 0 24 24">

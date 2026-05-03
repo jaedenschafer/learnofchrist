@@ -52,7 +52,7 @@ export default function GlobalError({
             href="/"
             style={{
               display: 'inline-block',
-              background: '#007AFF',
+              background: 'var(--vesper-gold)',
               color: '#fff',
               textDecoration: 'none',
               padding: '12px 24px',

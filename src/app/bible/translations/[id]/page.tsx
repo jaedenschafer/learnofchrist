@@ -54,7 +54,7 @@ export default async function TranslationPage({ params }: { params: Promise<Para
 
           <div className="mt-8">
             <div className="flex items-center gap-3 mb-4">
-              <span className="inline-block text-base font-bold px-3 py-1 rounded-full text-white bg-[#007AFF]">{t.abbreviation}</span>
+              <span className="inline-block text-base font-bold px-3 py-1 rounded-full text-white bg-[color:var(--vesper-gold)]">{t.abbreviation}</span>
               <span className="text-[0.8125rem] text-[color:var(--color-secondary-label)]">{t.year}</span>
             </div>
             <h1 className="font-sans text-3xl sm:text-4xl font-bold text-[color:var(--color-label)]">{t.fullName}</h1>
@@ -65,7 +65,7 @@ export default async function TranslationPage({ params }: { params: Promise<Para
               <span className="text-[0.75rem] font-medium px-2.5 py-0.5 rounded-full bg-[var(--color-bg)] text-[#424245]">{t.language}</span>
             </div>
 
-            <Link href={t.readLink} className="inline-block mt-6 px-6 py-2.5 rounded-lg bg-[#007AFF] text-white font-medium hover:bg-[#0056D6] transition-colors">
+            <Link href={t.readLink} className="inline-block mt-6 px-6 py-2.5 rounded-lg bg-[color:var(--vesper-gold)] text-white font-medium hover:bg-[#0056D6] transition-colors">
               Start Reading in {t.abbreviation}
             </Link>
           </div>
@@ -82,7 +82,7 @@ export default async function TranslationPage({ params }: { params: Promise<Para
         {/* Sample Verse */}
         <div className="bg-[color:var(--color-surface)] rounded-2xl shadow-sm p-8">
           <h2 className="font-sans text-xl font-bold text-[color:var(--color-label)] mb-6">Sample Verse</h2>
-          <div className="bg-[var(--color-bg)] rounded-xl p-6 border-l-4 border-[#007AFF]">
+          <div className="bg-[var(--color-bg)] rounded-xl p-6 border-l-4 border-[color:var(--vesper-gold)]">
             <p className="text-[0.8125rem] font-medium text-[color:var(--color-primary)] mb-2">{t.sampleVerse.reference}</p>
             <p className="text-base text-[color:var(--color-label)] leading-relaxed italic">&ldquo;{t.sampleVerse.text}&rdquo;</p>
           </div>
@@ -129,7 +129,7 @@ export default async function TranslationPage({ params }: { params: Promise<Para
           <p className="text-[0.9375rem] text-[color:var(--color-secondary-label)] mb-6 max-w-xl mx-auto">
             Start reading the {t.fullName} and discover how this translation can deepen your biblical study and spiritual growth.
           </p>
-          <Link href={t.readLink} className="inline-block px-6 py-2.5 rounded-lg bg-[#007AFF] text-white font-medium hover:bg-[#0056D6] transition-colors">
+          <Link href={t.readLink} className="inline-block px-6 py-2.5 rounded-lg bg-[color:var(--vesper-gold)] text-white font-medium hover:bg-[#0056D6] transition-colors">
             Start Reading in {t.abbreviation}
           </Link>
         </div>
