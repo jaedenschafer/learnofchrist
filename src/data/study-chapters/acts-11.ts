@@ -377,7 +377,7 @@ export const ACTS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'acts11-antioch',
           html:
-            'Antioch is a major city, the third largest in the Roman Empire. It is cosmopolitan, Greek-speaking, far from Jerusalem. For the first time, the gospel is being preached not in the temple or the synagogue of a Jewish community, but in the streets and homes of a Gentile-majority city. The center of the movement is shifting. Jerusalem is the past. Antioch is the future.',
+            'Antioch is a major city, the third largest in the Roman Empire[res:ascsa-antioch-orontes]. It is cosmopolitan, Greek-speaking, far from Jerusalem. For the first time, the gospel is being preached not in the temple or the synagogue of a Jewish community, but in the streets and homes of a Gentile-majority city. The center of the movement is shifting. Jerusalem is the past. Antioch is the future.',
         },
         {
           kind: 'commentary',
@@ -470,7 +470,7 @@ export const ACTS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'acts11-christianoi',
           html:
-            'And in Antioch, in that city full of Gentiles and Jews learning to live together in the gospel, the followers are called by a name: Christians. <em>Christianoi.</em> It is the first time in Scripture. It will be their name forever. It comes from outsiders—those who see that these people are entirely identified with Christ. The name will outlast Rome. It will outlast every empire. Christians. The word is born in a place where walls have fallen and outsiders are in. It is the name of the borderless church.',
+            'And in Antioch, in that city full of Gentiles and Jews learning to live together in the gospel, the followers are called by a name: Christians. <em>Christianoi</em>[res:bibleodyssey-christianoi]. It is the first time in Scripture. It will be their name forever. It comes from outsiders—those who see that these people are entirely identified with Christ. The name will outlast Rome. It will outlast every empire. Christians. The word is born in a place where walls have fallen and outsiders are in. It is the name of the borderless church.',
         },
         {
           kind: 'greek',
@@ -541,7 +541,7 @@ export const ACTS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'acts11-agabus',
           html:
-            'Prophets come from Jerusalem to Antioch. One of them, Agabus, predicts a great famine. This is a real prophecy about a real future event—the famine under Claudius around 46–48 CE. The text is not interested in the accuracy of the prediction, only in what it triggers.',
+            'Prophets come from Jerusalem to Antioch. One of them, Agabus, predicts a great famine. This is a real prophecy about a real future event—the severe famine under Claudius around 46–48 CE[res:theoi-aratus-phaenomena], one of the most documented crises of the early imperial period. The text is not interested in the accuracy of the prediction, only in what it triggers.',
         },
         {
           kind: 'greek',
@@ -578,6 +578,33 @@ export const ACTS_11: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 11 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-christianoi',
+      kind: 'lexicon',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Christianoi — The Name Christian',
+      url: 'https://www.bibleodyssey.org/dictionary/christianoi/',
+      description: 'SBL entry on the Greek term Christianoi and its first appearance in Antioch, covering etymology and historical significance.',
+    },
+    {
+      id: 'ascsa-antioch-orontes',
+      kind: 'archaeology',
+      source: 'ASCSA',
+      label: 'Antioch on the Orontes Excavations',
+      url: 'https://agora.ascsa.net/research',
+      description: 'American School of Classical Studies excavation records and publications documenting third-century Antioch, the hub of early Gentile Christianity.',
+    },
+    {
+      id: 'theoi-aratus-phaenomena',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Aratus, Phaenomena',
+      url: 'https://www.theoi.com/Text/AratusPhaenomena.html',
+      description: 'Full Greek and English text of the Stoic poem referenced in Acts, contextualizing Hellenistic thought world of Antioch.',
+    },
+  ],
 
   hasHebrew: false,
 };

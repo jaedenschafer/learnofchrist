@@ -135,7 +135,7 @@ export const ACTS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'acts9-light',
           html:
-            'The light is described as "more bright than the sun." It is not a gentle appearing. It is violent, undeniable, overwhelming. Saul is knocked to the ground. His companions are bewildered—they hear a voice, see a light, but cannot make sense of what they are witnessing. The presence of God does not negotiate. It does not explain itself. It appears.',
+            'The light is described as "more bright than the sun." It is not a gentle appearing. It is violent, undeniable, overwhelming. Saul is knocked to the ground. His companions are bewildered—they hear a voice, see a light, but cannot make sense of what they are witnessing. The presence of God does not negotiate. It does not explain itself. It appears. The encounter takes place on the road to Damascus[res:bibleodyssey-damascus], a city that had been home to Jewish culture for centuries.',
         },
         {
           kind: 'commentary',
@@ -238,7 +238,7 @@ export const ACTS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'acts9-ananias-name',
           html:
-            'Ananias is a minor figure in the Acts story. He appears here and will not appear again. And yet the entire transformation of Saul depends on his willingness to obey. He is told to go to the house of his enemy. He is told to place his hands on the persecutor. He is told to call Saul "brother." Ananias moves obedience without any guarantee of his own safety.',
+            'Ananias is a minor figure in the Acts story. He appears here and will not appear again. And yet the entire transformation of Saul depends on his willingness to obey. He is told to go to the house of his enemy. He is told to place his hands on the persecutor. He is told to call Saul "brother." Ananias moves obedience without any guarantee of his own safety. His obedience takes place on the Straight Street[res:bibleodyssey-straight-street], one of the main routes through Damascus, where God has already prepared Saul through prayer.',
         },
         {
           kind: 'commentary',
@@ -324,7 +324,7 @@ export const ACTS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'acts9-preaching',
           html:
-            'The transformation is instant and complete. The moment Saul receives his sight, he begins to preach. He goes into the synagogues—the same places where he came as a persecutor—and declares that Jesus is the Son of God. There is no gradual settling into faith. There is no private period of learning. His conversion is immediately public and undeniable.',
+            'The transformation is instant and complete. The moment Saul receives his sight, he begins to preach. He goes into the synagogues—the same places where he came as a persecutor—and declares that Jesus is the Son of God. There is no gradual settling into faith. There is no private period of learning. His conversion is immediately public and undeniable. This radical reversal marks one of the most significant transformations in church history: Saul of Tarsus[res:bibleodyssey-tarsus], once the church\'s most dangerous adversary, becomes its most prolific missionary.',
         },
         {
           kind: 'commentary',
@@ -559,7 +559,7 @@ export const ACTS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'acts9-good-works',
           html:
-            'What is Tabitha known for? Not eloquence. Not theological knowledge. Not leadership of any formal kind. She is known for her hands. She makes coats and garments for the widows. She does good works and almsdeeds. When she dies, the widows do not mourn an abstract idea or a distant spiritual leader. They mourn the woman who made clothes for them, who cared for them in visible, practical ways.',
+            'What is Tabitha known for? Not eloquence. Not theological knowledge. Not leadership of any formal kind. She is known for her hands. She makes coats and garments for the widows. She does good works and almsdeeds. When she dies, the widows do not mourn an abstract idea or a distant spiritual leader. They mourn the woman who made clothes for them, who cared for them in visible, practical ways. Her ministry takes place in Joppa[res:bibleodyssey-joppa], a coastal Mediterranean port city that served as a gateway for the gospel to move outward from Jerusalem.',
         },
         {
           kind: 'commentary',
@@ -642,6 +642,41 @@ export const ACTS_9: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 9 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-damascus',
+      kind: 'archaeology',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Damascus',
+      url: 'https://www.bibleodyssey.org/dictionary/damascus/',
+      description: 'Open-access SBL entry on ancient Damascus — architecture, archaeology, and its role as a major center of early Christian persecution.',
+    },
+    {
+      id: 'bibleodyssey-straight-street',
+      kind: 'archaeology',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Joppa',
+      url: 'https://www.bibleodyssey.org/dictionary/joppa/',
+      description: 'Open-access SBL entry on Joppa — coastal port city, archaeological findings, and its significance as a gateway for early Christian witness.',
+    },
+    {
+      id: 'bibleodyssey-joppa',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Tarsus',
+      url: 'https://www.bibleodyssey.org/dictionary/tarsus/',
+      description: 'Open-access SBL entry on Tarsus — Saul\'s birthplace, cosmopolitan center of learning, and cultural context for his early formation.',
+    },
+    {
+      id: 'bibleodyssey-tarsus',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Dorcas (Tabitha)',
+      url: 'https://www.bibleodyssey.org/dictionary/dorcas/',
+      description: 'Open-access SBL entry on Dorcas — early female disciple, her ministry of works, and her role in Peter\'s healing account.',
+    },
+  ],
 
   hasHebrew: false,
 };

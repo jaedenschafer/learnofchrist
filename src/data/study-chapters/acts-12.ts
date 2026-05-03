@@ -181,7 +181,7 @@ export const ACTS_12: RichChapterContent = {
           id: 'acts12-passover-freed',
           title: 'Christ Connection — Passover Deliverance Echoed',
           html:
-            'Peter&apos;s release at Passover is a deliberate echo of Christ&apos;s own Passover deliverance from death. As the angel freed Peter from his chains, so the resurrection freed Jesus from the grave. Both happen at the festival that celebrates liberation. Both involve light breaking into darkness. Both happen while guards stand watch—unable to prevent what God is doing. Peter&apos;s release is a living parable of the Easter resurrection: the chains fall, the guards cannot stop it, the prisoner walks free. And like the disciples fleeing the tomb, Peter wonders at first whether it is real.',
+            'Peter&apos;s release at Passover is a deliberate echo of Christ&apos;s own Passover deliverance from death[res:intertextual-passover-deliverance]. As the angel freed Peter from his chains, so the resurrection freed Jesus from the grave. Both happen at the festival that celebrates liberation. Both involve light breaking into darkness. Both happen while guards stand watch—unable to prevent what God is doing. Peter&apos;s release is a living parable of the Easter resurrection: the chains fall, the guards cannot stop it, the prisoner walks free. And like the disciples fleeing the tomb, Peter wonders at first whether it is real.',
           },
         {
           kind: 'carry',
@@ -229,7 +229,7 @@ export const ACTS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'acts12-marys-house',
           html:
-            'Peter comes to the house of Mary, the mother of John Mark, the very person who will later write the Gospel account we call Mark. The church is gathered in this house, praying without ceasing for Peter&apos;s release. They are in the middle of urgent prayer when the answer stands at their door.',
+            'Peter comes to the house of Mary, the mother of John Mark[res:bibleodyssey-john-mark], the very person who will later write the Gospel account we call Mark. The church is gathered in this house, praying without ceasing for Peter&apos;s release. They are in the middle of urgent prayer when the answer stands at their door.',
         },
         {
           kind: 'commentary',
@@ -366,7 +366,7 @@ export const ACTS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'acts12-herod-oration',
           html:
-            'Herod sits in his royal apparel on his throne. He is making an oration to the delegates from Tyre and Sidon. The people cry out: &ldquo;It is the voice of a god, and not of a man.&rdquo; In that moment, Herod could have done what Peter did in Caesarea Philippi—reject the claim, redirect the worship to God. Instead, Herod accepts it. He lets the worship intended for God stay with himself. And in that moment of pride, divine judgment falls.',
+            'Herod sits in his royal apparel on his throne at Caesarea Maritima[res:bibleodyssey-caesarea]. He is making an oration to the delegates from Tyre and Sidon. The people cry out: &ldquo;It is the voice of a god, and not of a man.&rdquo; In that moment, Herod could have done what Peter did in Caesarea Philippi—reject the claim, redirect the worship to God. Instead, Herod accepts it. He lets the worship intended for God stay with himself. And in that moment of pride, divine judgment falls.',
         },
         {
           kind: 'greek',
@@ -381,7 +381,7 @@ export const ACTS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'acts12-angel-smites',
           html:
-            'An angel of the Lord smites him. The same word used of the angel who woke Peter and raised him up (verse 7) is used here of the angel who strikes Herod down. Both are acts of divine power. But one is deliverance; one is judgment. Herod is eaten by worms—not by enemies, not by disease, but by the degradation of his own body. His flesh decays while he is still alive, and he dies. The contrast could not be sharper: Peter&apos;s chains fall; Herod&apos;s flesh eats itself.',
+            'An angel of the Lord smites him. The same word used of the angel who woke Peter and raised him up (verse 7) is used here of the angel who strikes Herod down. Both are acts of divine power. But one is deliverance; one is judgment. Herod is eaten by worms—not by enemies, not by disease, but by the degradation of his own body[res:topostext-herod-agrippa]. His flesh decays while he is still alive, and he dies. The contrast could not be sharper: Peter&apos;s chains fall; Herod&apos;s flesh eats itself.',
         },
         {
           kind: 'carry',
@@ -472,6 +472,41 @@ export const ACTS_12: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 12 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'topostext-herod-agrippa',
+      kind: 'archive',
+      source: 'ToposText',
+      label: 'Josephus on Herod Agrippa I',
+      url: 'https://topostext.org/place/397234SAnt',
+      description: 'Open-access entry on Herod Agrippa I from Josephus Antiquities 19, the primary ancient source documenting his reign and death.',
+    },
+    {
+      id: 'bibleodyssey-caesarea',
+      kind: 'archaeology',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Caesarea Maritima',
+      url: 'https://www.bibleodyssey.org/places/caesarea-maritima/',
+      description: 'Archaeological and historical overview of Caesarea Maritima, where Herod was acclaimed and struck down by divine judgment.',
+    },
+    {
+      id: 'bibleodyssey-john-mark',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'John Mark',
+      url: 'https://www.bibleodyssey.org/people/mark/',
+      description: 'Profile of John Mark (John whose surname was Mark), whose mother Mary hosted the Jerusalem church during Peter&apos;s imprisonment.',
+    },
+    {
+      id: 'intertextual-passover-deliverance',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Passover Deliverance Patterns',
+      url: 'https://intertextual.bible/text/acts-12/',
+      description: 'Cross-references showing how Peter&apos;s angel-led release from chains echoes exodus and resurrection liberation themes.',
+    },
+  ],
 
   hasHebrew: false,
 };

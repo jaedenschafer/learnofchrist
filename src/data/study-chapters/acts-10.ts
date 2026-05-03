@@ -66,7 +66,7 @@ export const ACTS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'acts10-cornelius',
           html:
-            'Cornelius is a Roman soldier, a foreigner, a man who has never been circumcised, never kept the Jewish law. By the standards of Jewish purity, he is outside the covenant. Yet he prays. He fears God. He gives alms. The first thing Luke wants you to know about the moment the gospel reaches the Gentiles is that a Gentile is already seeking God before Peter ever arrives.',
+            'Cornelius is a Roman soldier[res:centurion-roman-rank], a foreigner, a man who has never been circumcised, never kept the Jewish law. By the standards of Jewish purity, he is outside the covenant. Yet he prays. He fears God. He gives alms. The first thing Luke wants you to know about the moment the gospel reaches the Gentiles is that a Gentile is already seeking God before Peter ever arrives.',
         },
         {
           kind: 'greek',
@@ -191,7 +191,7 @@ export const ACTS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'acts10-resistance',
           html:
-            'Peter&apos;s refusal is not disobedience. It is faithfulness to what he has been taught. His word—"Not so, Lord"—is the word of a man who believes the law is holy and righteous. He is defending the boundary that made him who he is. The vision will come three times. It takes that persistence to crack the stone.',
+            'Peter&apos;s refusal is not disobedience. It is faithfulness to what he has been taught. His word—"Not so, Lord"—is the word of a man who believes the law is holy and righteous. He is defending the boundary that made him who he is—the dietary laws[res:leviticus-food-laws] that marked a Jew as set apart. The vision will come three times. It takes that persistence to crack the stone.',
         },
         {
           kind: 'christ',
@@ -326,7 +326,7 @@ export const ACTS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'acts10-morrow',
           html:
-            'Peter has spent the night in the house of a Gentile. This alone is a breaking of the law. But he goes through with it. He enters Caesarea. He is walking into a room full of Gentiles—Cornelius&apos;s kinsmen and friends. Not one of them is circumcised. Not one of them has kept the law. Yet Peter enters the house.',
+            'Peter has spent the night in the house of a Gentile. This alone is a breaking of the law. But he goes through with it. He enters Caesarea[res:caesarea-archaeology]—a Roman port city. He is walking into a room full of Gentiles—Cornelius&apos;s kinsmen and friends. Not one of them is circumcised. Not one of them has kept the law. Yet Peter enters the house.',
         },
         {
           kind: 'commentary',
@@ -491,7 +491,7 @@ export const ACTS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'acts10-spirit-falls',
           html:
-            'The Spirit falls while Peter is still speaking. Not after, not later—but in the very moment of the word. The same Spirit that fell at Pentecost, filling the house with wind and fire, now falls on Gentiles in a house in Caesarea. There is no hesitation in the Spirit. No checking of credentials. No waiting to see if they keep the law. The Spirit falls on them because they have heard the word and believed.',
+            'The Spirit falls while Peter is still speaking. Not after, not later—but in the very moment of the word. The same Spirit that fell at Pentecost[res:acts10-pentecost-parallel], filling the house with wind and fire, now falls on Gentiles in a house in Caesarea. There is no hesitation in the Spirit. No checking of credentials. No waiting to see if they keep the law. The Spirit falls on them because they have heard the word and believed.',
         },
         {
           kind: 'commentary',
@@ -565,6 +565,41 @@ export const ACTS_10: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 10 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'caesarea-archaeology',
+      kind: 'archaeology',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Caesarea',
+      url: 'https://www.bibleodyssey.org/dictionary/caesarea/',
+      description: 'The port city where Cornelius was stationed; ongoing excavations reveal temples, theaters, and the harbor of Herod&apos;s engineering.',
+    },
+    {
+      id: 'leviticus-food-laws',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 11',
+      url: 'https://www.sefaria.org/Leviticus.11?lang=he',
+      description: 'Hebrew text and English translation of the dietary laws that Peter had kept his whole life—the boundary the vision breaks.',
+    },
+    {
+      id: 'centurion-roman-rank',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Centurion',
+      url: 'https://www.bibleodyssey.org/dictionary/centurion/',
+      description: 'Military rank and role in the Roman occupation force; Cornelius commanded a hundred soldiers in the Italian Cohort.',
+    },
+    {
+      id: 'acts10-pentecost-parallel',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Acts 2:1–4 ↔ Acts 10:44–46',
+      url: 'https://intertextual.bible/text/acts-2.1-4/acts-10.44-46',
+      description: 'Side-by-side comparison of the Jewish Pentecost and the Gentile Pentecost—the same Spirit falling on both.',
+    },
+  ],
 
   hasHebrew: false,
 };
