@@ -38,7 +38,7 @@ export const PSALMS_85: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-85-78mid-1',
           html:
-            'Remembrance of God&apos;s past favor shifts to petition for restoration and promise of His salvation. Past mercies call forth future trust.',
+            'Remembrance of God&apos;s past favor shifts to petition for restoration and promise of His salvation. Past mercies call forth future trust. [res:sefaria-psalm-85]',
         },
         {
           kind: 'scripture',
@@ -112,7 +112,7 @@ export const PSALMS_85: RichChapterContent = {
           id: 'ps85-christ-cross',
           title: 'Christ Connection — The Cross',
           html:
-            'At the cross, all four attributes meet. God&apos;s mercy pours out in the forgiveness offered through Christ&apos;s blood. Truth is upheld because sin is not ignored or excused—it is paid for. Righteousness is vindicated because the penalty is satisfied. And peace is made possible because the barrier between God and humanity is removed. Every dimension of God&apos;s nature finds its expression in a single redemptive act.',
+            'At the cross, all four attributes meet. God&apos;s mercy pours out in the forgiveness offered through Christ&apos;s blood. Truth is upheld because sin is not ignored or excused—it is paid for. Righteousness is vindicated because the penalty is satisfied. And peace is made possible because the barrier between God and humanity is removed. Every dimension of God&apos;s nature finds its expression in a single redemptive act. [res:bible-odyssey-psalm-85]',
         },
         {
           kind: 'carry',
@@ -133,6 +133,25 @@ export const PSALMS_85: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 85 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-85',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 85 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.85',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-85',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 85 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+85',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

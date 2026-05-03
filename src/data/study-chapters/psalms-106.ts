@@ -41,7 +41,7 @@ export const PSALMS_106: RichChapterContent = {
           kind: 'commentary',
           id: 'ps106-rebellion-list',
           html:
-            'The psalmist now confesses on the people&apos;s behalf — golden calf, Baal-peor, the spies. Mercy met by revolt, again and again.',
+            'The psalmist now confesses on the people&apos;s behalf — golden calf, Baal-peor, the spies. Mercy met by revolt, again and again. [res:sefaria-psalm-106]',
         },
         {
           kind: 'scripture',
@@ -121,7 +121,7 @@ export const PSALMS_106: RichChapterContent = {
           id: 'ps106-christ-mercies',
           title: 'Christ Connection — Compassion and Deliverance',
           html:
-            'Jesus embodies the character the psalmist describes: a God who sees our affliction and is moved with compassion. Again and again in the Gospels, Jesus sees people suffering and moves toward them to heal them. And in His final act, He takes on our sin and suffering, delivering us from the judgment we deserve through an act of infinite mercy. The pattern of Psalm 106—God&apos;s repeated mercy overcoming human repeated failure—reaches its climax in Christ&apos;s work on the cross.',
+            'Jesus embodies the character the psalmist describes: a God who sees our affliction and is moved with compassion. Again and again in the Gospels, Jesus sees people suffering and moves toward them to heal them. And in His final act, He takes on our sin and suffering, delivering us from the judgment we deserve through an act of infinite mercy. The pattern of Psalm 106—God&apos;s repeated mercy overcoming human repeated failure—reaches its climax in Christ&apos;s work on the cross. [res:bible-odyssey-psalm-106]',
         },
         {
           kind: 'carry',
@@ -142,6 +142,25 @@ export const PSALMS_106: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 106 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-106',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 106 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.106',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-106',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 106 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+106',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

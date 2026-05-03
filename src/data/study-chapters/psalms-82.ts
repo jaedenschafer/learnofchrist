@@ -39,7 +39,7 @@ export const PSALMS_82: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms82-standeth',
           html:
-            'The psalm opens with God standing in the congregation of the mighty. This is not a distant God. This is God present, in the midst of earthly authority, taking His stand. He judges among the "gods"—the judges and rulers of the earth. The implication is that these judges are being called to account.',
+            'The psalm opens with God standing in the congregation of the mighty. This is not a distant God. This is God present, in the midst of earthly authority, taking His stand. He judges among the "gods"—the judges and rulers of the earth. The implication is that these judges are being called to account. [res:sefaria-psalm-82]',
         },
         {
           kind: 'hebrew',
@@ -67,7 +67,7 @@ export const PSALMS_82: RichChapterContent = {
           id: 'psalms82-christ-judge',
           title: 'Christ Connection — The True Judge',
           html:
-            'Jesus is the Judge who cannot be bribed, who does not accept the persons of the wicked, who defends the poor and the fatherless. In Matthew 25, He says to the righteous: "Come, ye blessed of my Father...I was hungry, and ye gave me meat...I was a stranger, and ye took me in." True justice is defined by the defense of the defenseless. Christ is the only judge who executes true justice.',
+            'Jesus is the Judge who cannot be bribed, who does not accept the persons of the wicked, who defends the poor and the fatherless. In Matthew 25, He says to the righteous: "Come, ye blessed of my Father...I was hungry, and ye gave me meat...I was a stranger, and ye took me in." True justice is defined by the defense of the defenseless. Christ is the only judge who executes true justice. [res:bible-odyssey-psalm-82]',
         },
         {
           kind: 'carry',
@@ -140,6 +140,25 @@ export const PSALMS_82: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 82 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-82',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 82 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.82',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-82',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 82 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+82',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

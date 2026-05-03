@@ -40,7 +40,7 @@ export const PSALMS_145: RichChapterContent = {
           kind: 'commentary',
           id: 'ps145-praise-works',
           html:
-            'One generation praises God. Now the focus widens: every tongue will speak of his mighty acts.',
+            'One generation praises God. Now the focus widens: every tongue will speak of his mighty acts. [res:sefaria-psalm-145]',
         },
         {
           kind: 'scripture',
@@ -169,7 +169,7 @@ export const PSALMS_145: RichChapterContent = {
           id: 'psalm145-christ-nigh',
           title: 'Christ Connection — Christ, God Made Nigh',
           html:
-            'In Philippians 4:5, Paul writes: "The Lord is near." This is the fulfillment of Psalm 145. In Christ, God became nigh in the most intimate way—present in human form, near to the sick and the broken, calling the weary to come to Him. Christ is God&apos;s answer to the soul that cries out: "Be near me."',
+            'In Philippians 4:5, Paul writes: "The Lord is near." This is the fulfillment of Psalm 145. In Christ, God became nigh in the most intimate way—present in human form, near to the sick and the broken, calling the weary to come to Him. Christ is God&apos;s answer to the soul that cries out: "Be near me." [res:bible-odyssey-psalm-145]',
         },
       ],
     },
@@ -180,6 +180,25 @@ export const PSALMS_145: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 145 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-145',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 145 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.145',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-145',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 145 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+145',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

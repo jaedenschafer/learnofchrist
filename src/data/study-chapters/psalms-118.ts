@@ -42,7 +42,7 @@ export const PSALMS_118: RichChapterContent = {
           kind: 'commentary',
           id: 'ps118-mercy',
           html:
-            'The four-fold call to thanksgiving—Israel, the priests (house of Aaron), and all who fear the Lord—is not an invitation to casual gratitude. It is a summons to recognize the fundamental character of God: He is good, and His mercy is eternal. Not sometimes good. Not merciful when we deserve it. Good by essence. Merciful forever. This is the ground upon which all thanksgiving stands.',
+            'The four-fold call to thanksgiving—Israel, the priests (house of Aaron), and all who fear the Lord—is not an invitation to casual gratitude. It is a summons to recognize the fundamental character of God: He is good, and His mercy is eternal. Not sometimes good. Not merciful when we deserve it. Good by essence. Merciful forever. This is the ground upon which all thanksgiving stands. [res:sefaria-psalm-118]',
         },
         {
           kind: 'commentary',
@@ -94,7 +94,7 @@ export const PSALMS_118: RichChapterContent = {
           id: 'ps118-christ-corner',
           title: 'Christ Connection — The Rejected Stone Exalted',
           html:
-            'In Matthew 21:42, when Jesus cleanses the temple and teaches about the vineyard whose workers reject and kill the owner&apos;s son, He cites this very psalm: "The stone which the builders refused, the same is become the head of the corner." Peter echoes it in Acts 4:11, proclaiming Christ as the stone rejected by the Sanhedrin but chosen by God as the cornerstone of the new covenant. The metaphor is perfect: Christ was rejected by those who thought they held authority over God&apos;s people. Yet God used His rejection as the very means of laying the foundation of the Church. Where human judgment saw waste, God saw the cornerstone.',
+            'In Matthew 21:42, when Jesus cleanses the temple and teaches about the vineyard whose workers reject and kill the owner&apos;s son, He cites this very psalm: "The stone which the builders refused, the same is become the head of the corner." Peter echoes it in Acts 4:11, proclaiming Christ as the stone rejected by the Sanhedrin but chosen by God as the cornerstone of the new covenant. The metaphor is perfect: Christ was rejected by those who thought they held authority over God&apos;s people. Yet God used His rejection as the very means of laying the foundation of the Church. Where human judgment saw waste, God saw the cornerstone. [res:bible-odyssey-psalm-118]',
         },
         {
           kind: 'commentary',
@@ -117,7 +117,7 @@ export const PSALMS_118: RichChapterContent = {
           kind: 'reflection',
           id: 'ps118-rejected',
           prompt:
-            'Have you ever been rejected, dismissed, or told you were worthless? What would it mean to trust that God&apos;s judgment of your value is different from—and more true than—the judgment of those around you? How does that change your understanding of rejection?',
+            'Have you ever been rejected, dismissed, or told you were worthless? What would it mean to trust that God&apos;s judgment of your value is different from—and more true than—the judgment of those around you? How does that change your understanding of rejection? [res:intertextual-psalm-118-matthew-21-matthew-23]',
         },
       ],
     },
@@ -128,6 +128,33 @@ export const PSALMS_118: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 118 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-118',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 118 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.118',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-118',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 118 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+118',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+    {
+      id: 'intertextual-psalm-118-matthew-21-matthew-23',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 118:26 in Matthew 21:9 (triumphal entry)',
+      url: 'https://intertextual.bible/text/psalm-118/matthew-21.9',
+      description: 'New Testament connection showing how this Psalm is quoted or referenced.',
+    },
+  ],
 
   hasHebrew: true,
 };

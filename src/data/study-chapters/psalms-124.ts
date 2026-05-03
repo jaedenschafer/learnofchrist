@@ -40,7 +40,7 @@ export const PSALMS_124: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-124-78mid-1',
           html:
-            'The onslaught of enemies and the terrible danger give way to the Lord&apos;s intervention and escape. Peril becomes deliverance.',
+            'The onslaught of enemies and the terrible danger give way to the Lord&apos;s intervention and escape. Peril becomes deliverance. [res:sefaria-psalm-124]',
         },
         {
           kind: 'scripture',
@@ -75,7 +75,7 @@ export const PSALMS_124: RichChapterContent = {
           id: 'ps124-christ-deliverance',
           title: 'Christ Connection — Breaking the Snare',
           html:
-            'Christ spoke of His mission as setting captives free (Luke 4:18). By His death and resurrection, He broke the snares that held humanity captive—sin, death, the power of the enemy. Colossians 2:15 declares that Christ "spoiled principalities and powers...making a shew of them openly, triumphing over them." The snare was broken, and we are escaped. All who are in Christ share in this deliverance.',
+            'Christ spoke of His mission as setting captives free (Luke 4:18). By His death and resurrection, He broke the snares that held humanity captive—sin, death, the power of the enemy. Colossians 2:15 declares that Christ "spoiled principalities and powers...making a shew of them openly, triumphing over them." The snare was broken, and we are escaped. All who are in Christ share in this deliverance. [res:bible-odyssey-psalm-124]',
         },
         {
           kind: 'carry',
@@ -97,4 +97,24 @@ export const PSALMS_124: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 124 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-124',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 124 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.124',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-124',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 124 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+124',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
+
 };

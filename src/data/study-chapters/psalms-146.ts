@@ -40,7 +40,7 @@ export const PSALMS_146: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm146-praise-life',
           html:
-            'The opening command is emphatic: "Praise ye the Lord." And it is personal: "Praise the Lord, O my soul." The commitment follows immediately: "While I live will I praise the Lord: I will sing praises unto my God while I have any being." Praise is not contingent on circumstance. It is a lifelong commitment—as long as the psalmist exists, he will praise.',
+            'The opening command is emphatic: "Praise ye the Lord." And it is personal: "Praise the Lord, O my soul." The commitment follows immediately: "While I live will I praise the Lord: I will sing praises unto my God while I have any being." Praise is not contingent on circumstance. It is a lifelong commitment—as long as the psalmist exists, he will praise. [res:sefaria-psalm-146]',
         },
         {
           kind: 'hebrew',
@@ -122,7 +122,7 @@ export const PSALMS_146: RichChapterContent = {
           id: 'psalm146-christ-opens-eyes',
           title: 'Christ Connection — Eyes Opened',
           html:
-            'In John 9, Christ opens the eyes of a man born blind. The Pharisees, the authorities of the day, question, doubt, accuse. But Christ sees past their power to the man himself. He opens blind eyes. He cares for the overlooked. This is the work of God—the very work Psalm 146 celebrates—and it is fulfilled in Christ.',
+            'In John 9, Christ opens the eyes of a man born blind. The Pharisees, the authorities of the day, question, doubt, accuse. But Christ sees past their power to the man himself. He opens blind eyes. He cares for the overlooked. This is the work of God—the very work Psalm 146 celebrates—and it is fulfilled in Christ. [res:bible-odyssey-psalm-146]',
         },
       ],
     },
@@ -133,6 +133,25 @@ export const PSALMS_146: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 146 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-146',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 146 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.146',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-146',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 146 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+146',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

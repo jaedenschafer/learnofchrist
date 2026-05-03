@@ -42,7 +42,7 @@ export const PSALMS_84: RichChapterContent = {
           kind: 'commentary',
           id: 'ps84-amiable',
           html:
-            'The opening word carries a weight of tenderness: "How amiable"—how lovely, how beautiful, how beloved. Not "How grand" or "How powerful," but how amiable, how attractive. The tabernacle, the dwelling place of God, is precious not because of its size or splendor, but because it is where God dwells. And the psalmist&apos;s longing is not theoretical. His soul faints. His heart cries out. His flesh cries out. This is a yearning of the whole being.',
+            'The opening word carries a weight of tenderness: "How amiable"—how lovely, how beautiful, how beloved. Not "How grand" or "How powerful," but how amiable, how attractive. The tabernacle, the dwelling place of God, is precious not because of its size or splendor, but because it is where God dwells. And the psalmist&apos;s longing is not theoretical. His soul faints. His heart cries out. His flesh cries out. This is a yearning of the whole being. [res:sefaria-psalm-84]',
         },
         {
           kind: 'hebrew',
@@ -64,7 +64,7 @@ export const PSALMS_84: RichChapterContent = {
           id: 'ps84-christ-dwelling',
           title: 'Christ Connection — God&apos;s Dwelling Place',
           html:
-            'In John 1:14, John writes that the Word became flesh and "dwelt among us"—literally, "pitched His tent among us." Christ is the living tabernacle, the place where God&apos;s presence dwells in a human body. In Revelation 21, John sees the final tabernacle: "Behold, the tabernacle of God is with men, and he will dwell with them." To dwell with God through Christ is the longing this psalm expresses—fulfilled in His presence.',
+            'In John 1:14, John writes that the Word became flesh and "dwelt among us"—literally, "pitched His tent among us." Christ is the living tabernacle, the place where God&apos;s presence dwells in a human body. In Revelation 21, John sees the final tabernacle: "Behold, the tabernacle of God is with men, and he will dwell with them." To dwell with God through Christ is the longing this psalm expresses—fulfilled in His presence. [res:bible-odyssey-psalm-84]',
         },
         {
           kind: 'reflection',
@@ -144,6 +144,25 @@ export const PSALMS_84: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 84 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-84',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 84 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.84',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-84',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 84 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+84',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

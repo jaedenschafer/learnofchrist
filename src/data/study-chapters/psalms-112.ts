@@ -40,7 +40,7 @@ export const PSALMS_112: RichChapterContent = {
           kind: 'commentary',
           id: 'ps112-blessing-steadfast',
           html:
-            'The blessed man&apos;s character is set. Now watch what happens—his heart is firm, his way steadfast.',
+            'The blessed man&apos;s character is set. Now watch what happens—his heart is firm, his way steadfast. [res:sefaria-psalm-112]',
         },
         {
           kind: 'scripture',
@@ -91,7 +91,7 @@ export const PSALMS_112: RichChapterContent = {
           id: 'ps112-christ-blessed',
           title: 'Christ Connection — The Perfectly Blessed Man',
           html:
-            'Christ is the blessed man of Psalm 112. He feared God with perfect reverence and delighted in God&apos;s commandments with complete obedience. He showed favor and lent freely. He was gracious and compassionate and righteous. He was not afraid of evil tidings. He walked toward His enemies—His crucifiers—with a heart fixed in trust in God the Father. In Christ, every promise of the psalm is fulfilled. And believers, as members of His body, share in His blessedness.',
+            'Christ is the blessed man of Psalm 112. He feared God with perfect reverence and delighted in God&apos;s commandments with complete obedience. He showed favor and lent freely. He was gracious and compassionate and righteous. He was not afraid of evil tidings. He walked toward His enemies—His crucifiers—with a heart fixed in trust in God the Father. In Christ, every promise of the psalm is fulfilled. And believers, as members of His body, share in His blessedness. [res:bible-odyssey-psalm-112]',
         },
         {
           kind: 'carry',
@@ -112,6 +112,25 @@ export const PSALMS_112: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 112 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-112',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 112 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.112',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-112',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 112 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+112',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

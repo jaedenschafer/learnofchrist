@@ -39,7 +39,7 @@ export const PSALMS_129: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-129-78mid-1',
           html:
-            'Affliction from youth and the Lord&apos;s faithfulness yield to prayer against enemies. Endurance becomes vindication.',
+            'Affliction from youth and the Lord&apos;s faithfulness yield to prayer against enemies. Endurance becomes vindication. [res:sefaria-psalm-129]',
         },
         {
           kind: 'scripture',
@@ -74,7 +74,7 @@ export const PSALMS_129: RichChapterContent = {
           id: 'ps129-christ-afflicted',
           title: 'Christ Connection — The Afflicted One',
           html:
-            'Matthew 2 records Herod&apos;s attempt to kill the infant Jesus by slaughtering the innocents of Bethlehem. Christ was afflicted from His earliest days. Yet He could not be destroyed. His enemies plowed upon His back at Calvary. Yet He rose. And all who belong to Him share in the pattern—afflicted, yet not overcome. The wounds of Christ are the means by which the cords of wickedness are cut asunder.',
+            'Matthew 2 records Herod&apos;s attempt to kill the infant Jesus by slaughtering the innocents of Bethlehem. Christ was afflicted from His earliest days. Yet He could not be destroyed. His enemies plowed upon His back at Calvary. Yet He rose. And all who belong to Him share in the pattern—afflicted, yet not overcome. The wounds of Christ are the means by which the cords of wickedness are cut asunder. [res:bible-odyssey-psalm-129]',
         },
         {
           kind: 'carry',
@@ -96,4 +96,24 @@ export const PSALMS_129: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 129 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-129',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 129 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.129',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-129',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 129 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+129',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
+
 };

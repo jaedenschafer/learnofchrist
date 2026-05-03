@@ -42,7 +42,7 @@ export const PSALMS_92: RichChapterContent = {
           kind: 'commentary',
           id: 'ps92-mid',
           html:
-            'Gratitude turns to contrast. The wicked flourish like grass, but they are destined for ruin. The righteous, by contrast, endure. God&apos;s foolish cannot see this truth, but it runs through all of history.',
+            'Gratitude turns to contrast. The wicked flourish like grass, but they are destined for ruin. The righteous, by contrast, endure. God&apos;s foolish cannot see this truth, but it runs through all of history. [res:sefaria-psalm-92]',
         },
         {
           kind: 'scripture',
@@ -115,7 +115,7 @@ export const PSALMS_92: RichChapterContent = {
           id: 'ps92-christ-rest',
           title: 'Christ Connection — Rest for the Weary',
           html:
-            'In Matthew 11:28, Jesus says, "Come unto me, all ye that labour and are heavy laden, and I will give you rest." The Sabbath rest foreshadows the rest found in Christ. Not idleness, but the peace that comes from trusting that the work is God&apos;s work, not ours alone. We rest in Him.',
+            'In Matthew 11:28, Jesus says, "Come unto me, all ye that labour and are heavy laden, and I will give you rest." The Sabbath rest foreshadows the rest found in Christ. Not idleness, but the peace that comes from trusting that the work is God&apos;s work, not ours alone. We rest in Him. [res:bible-odyssey-psalm-92]',
         },
         {
           kind: 'carry',
@@ -136,6 +136,25 @@ export const PSALMS_92: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 92 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-92',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 92 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.92',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-92',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 92 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+92',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -41,7 +41,7 @@ export const PSALMS_116: RichChapterContent = {
           kind: 'commentary',
           id: 'ps116-deliverance-walk',
           html:
-            'The Lord delivered your soul from death. Now you can breathe—walk in his presence, alive.',
+            'The Lord delivered your soul from death. Now you can breathe—walk in his presence, alive. [res:sefaria-psalm-116]',
         },
         {
           kind: 'scripture',
@@ -107,7 +107,7 @@ export const PSALMS_116: RichChapterContent = {
           id: 'ps116-christ-cup',
           title: 'Christ Connection — The Cup Poured Out',
           html:
-            'Jesus takes the cup in the Garden and says, "Let this cup pass from me." But then, "Nevertheless not my will, but thine, be done." He drinks the cup—the cup of salvation, but also the cup of suffering. His blood poured out is the ultimate cup of salvation for all humanity. When we take the Eucharist, we take the cup He took for us, and we participate in His redemption. Psalm 116 becomes the psalm of the cross.',
+            'Jesus takes the cup in the Garden and says, "Let this cup pass from me." But then, "Nevertheless not my will, but thine, be done." He drinks the cup—the cup of salvation, but also the cup of suffering. His blood poured out is the ultimate cup of salvation for all humanity. When we take the Eucharist, we take the cup He took for us, and we participate in His redemption. Psalm 116 becomes the psalm of the cross. [res:bible-odyssey-psalm-116]',
         },
         {
           kind: 'carry',
@@ -128,6 +128,25 @@ export const PSALMS_116: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 116 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-116',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 116 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.116',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-116',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 116 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+116',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

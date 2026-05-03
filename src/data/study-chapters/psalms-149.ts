@@ -42,7 +42,7 @@ export const PSALMS_149: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm149-new-song',
           html:
-            '"Sing unto the Lord a new song." The demand for newness is striking. Not a repetition of old formulas, but something fresh—a song that arises from the current moment, from the heart that has recently experienced God&apos;s grace. The new song is always the song of the redeemed, offered for the first time, unique to the one who sings it.',
+            '"Sing unto the Lord a new song." The demand for newness is striking. Not a repetition of old formulas, but something fresh—a song that arises from the current moment, from the heart that has recently experienced God&apos;s grace. The new song is always the song of the redeemed, offered for the first time, unique to the one who sings it. [res:sefaria-psalm-149]',
         },
         {
           kind: 'hebrew',
@@ -116,7 +116,7 @@ export const PSALMS_149: RichChapterContent = {
           id: 'psalm149-christ-new-song',
           title: 'Christ Connection — New Song in Heaven',
           html:
-            'In Revelation 5:9, John records a vision: "And they sang a new song, saying, Thou art worthy...for thou wast slain, and hast redeemed us to God by thy blood." The new song is sung in heaven, celebrating Christ&apos;s redemption. Every saint—every person who has been redeemed by Christ—is invited to sing this new song eternally.',
+            'In Revelation 5:9, John records a vision: "And they sang a new song, saying, Thou art worthy...for thou wast slain, and hast redeemed us to God by thy blood." The new song is sung in heaven, celebrating Christ&apos;s redemption. Every saint—every person who has been redeemed by Christ—is invited to sing this new song eternally. [res:bible-odyssey-psalm-149]',
         },
       ],
     },
@@ -127,6 +127,25 @@ export const PSALMS_149: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 149 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-149',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 149 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.149',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-149',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 149 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+149',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

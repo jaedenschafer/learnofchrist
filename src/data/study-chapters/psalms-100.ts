@@ -41,7 +41,7 @@ export const PSALMS_100: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms100-joyful-noise',
-          html: '"Make a joyful noise unto the Lord, all ye lands." The final psalm opens with joy, unmediated, unqualified, universal. All peoples, all lands, all creation—make a joyful noise. This is the invitation at the end of the psalter. Not to be silent or withdrawn, but to make noise. To celebrate. To rejoice.',
+          html: '"Make a joyful noise unto the Lord, all ye lands." The final psalm opens with joy, unmediated, unqualified, universal. [res:sefaria-psalm-100] All peoples, all lands, all creation—make a joyful noise. This is the invitation at the end of the psalter. Not to be silent or withdrawn, but to make noise. To celebrate. To rejoice.',
         },
         {
           kind: 'commentary',
@@ -67,7 +67,7 @@ export const PSALMS_100: RichChapterContent = {
           kind: 'christ',
           id: 'psalms100-christ-door',
           title: 'Christ Connection — Christ the Door Into God&apos;s Courts',
-          html: 'Christ is the gate through which we enter. He is the door, as He Himself proclaims. To enter His courts is to come through Christ, through His sacrifice, through His redemption. The thanksgiving and praise we bring are made possible by what He has done. And the goodness we celebrate, the mercy we experience, the truth we trust—all of it flows through Christ, the Mediator between God and humanity.',
+          html: 'Christ is the gate through which we enter. He is the door, as He Himself proclaims. To enter His courts is to come through Christ, through His sacrifice, through His redemption. The thanksgiving and praise we bring are made possible by what He has done. And the goodness we celebrate, the mercy we experience, the truth we trust—all of it flows through Christ, the Mediator between God and humanity. [res:bible-odyssey-psalm-100]',
         },
         {
           kind: 'carry',
@@ -87,6 +87,25 @@ export const PSALMS_100: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 100 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-100',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 100 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.100',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-100',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 100 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+100',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: false,
 };

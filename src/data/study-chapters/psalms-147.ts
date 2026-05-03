@@ -42,7 +42,7 @@ export const PSALMS_147: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm147-good-pleasant',
           html:
-            '"Praise ye the Lord: for it is good to sing praises unto our God; for it is pleasant; and praise is comely." The opening establishes why praise should be given: it is good, pleasant, appropriate. Not obligatory out of fear, but naturally fitting, beautiful, becoming.',
+            '"Praise ye the Lord: for it is good to sing praises unto our God; for it is pleasant; and praise is comely." The opening establishes why praise should be given: it is good, pleasant, appropriate. Not obligatory out of fear, but naturally fitting, beautiful, becoming. [res:sefaria-psalm-147]',
         },
         {
           kind: 'hebrew',
@@ -156,7 +156,7 @@ export const PSALMS_147: RichChapterContent = {
           id: 'psalm147-christ-heals',
           title: 'Christ Connection — The Healer',
           html:
-            'In Luke 4:18, Jesus announces: "The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted." Christ is the healer the psalm celebrates. He binds the wounds of the broken, cares for the overlooked, and reveals God&apos;s mercy in human form.',
+            'In Luke 4:18, Jesus announces: "The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted." Christ is the healer the psalm celebrates. He binds the wounds of the broken, cares for the overlooked, and reveals God&apos;s mercy in human form. [res:bible-odyssey-psalm-147]',
         },
       ],
     },
@@ -167,6 +167,25 @@ export const PSALMS_147: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 147 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-147',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 147 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.147',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-147',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 147 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+147',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

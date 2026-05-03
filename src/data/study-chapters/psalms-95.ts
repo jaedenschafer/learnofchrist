@@ -54,7 +54,7 @@ export const PSALMS_95: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms95-come-sing',
-          html: '"O come, let us sing unto the Lord: let us make a joyful noise to the rock of our salvation." The invitation is warm and inviting. Come. Join in. Sing. Make a joyful noise. Worship is not a burden; it is joy. It is the proper response to the God who is our rock, our salvation.',
+          html: '"O come, let us sing unto the Lord: let us make a joyful noise to the rock of our salvation." The invitation is warm and inviting. [res:sefaria-psalm-95] Come. Join in. Sing. Make a joyful noise. Worship is not a burden; it is joy. It is the proper response to the God who is our rock, our salvation.',
         },
         {
           kind: 'commentary',
@@ -78,7 +78,7 @@ export const PSALMS_95: RichChapterContent = {
         {
           kind: 'reflection',
           id: 'psalms95-joyful-worship',
-          prompt: 'When was the last time you made a joyful noise before God? What would it take to recapture that joy in your worship?',
+          prompt: 'When was the last time you made a joyful noise before God? What would it take to recapture that joy in your worship? [res:intertextual-psalm-95-hebrews-3-4]',
         },
       ],
     },
@@ -121,7 +121,7 @@ export const PSALMS_95: RichChapterContent = {
           kind: 'christ',
           id: 'psalms95-christ-rest',
           title: 'Christ Connection — Enter His Rest Through Christ',
-          html: 'The Letter to the Hebrews makes this explicit: Christ is the one who calls us to enter God&apos;s rest. He alone has power to soften our hearts, to give us faith, to bring us from the wilderness of doubt into the rest of God. Hearing His voice is the way in. Not hardening our hearts is how we respond. Believing is how we enter. And the promise is not for someday, but for today. Now. This moment. His call is present. Our response is needed now.',
+          html: 'The Letter to the Hebrews makes this explicit: Christ is the one who calls us to enter God&apos;s rest. He alone has power to soften our hearts, to give us faith, to bring us from the wilderness of doubt into the rest of God. Hearing His voice is the way in. Not hardening our hearts is how we respond. Believing is how we enter. And the promise is not for someday, but for today. Now. This moment. His call is present. Our response is needed now. [res:bible-odyssey-psalm-95]',
         },
         {
           kind: 'carry',
@@ -141,6 +141,33 @@ export const PSALMS_95: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 95 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-95',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 95 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.95',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-95',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 95 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+95',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+    {
+      id: 'intertextual-psalm-95-hebrews-3-4',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 95 in Hebrews 3:7–4:10',
+      url: 'https://intertextual.bible/text/psalm-95/hebrews-3.7',
+      description: 'New Testament connection showing how this Psalm is quoted or referenced.',
+    },
+  ],
 
   hasHebrew: false,
 };

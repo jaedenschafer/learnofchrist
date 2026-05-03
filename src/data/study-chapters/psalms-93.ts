@@ -41,7 +41,7 @@ export const PSALMS_93: RichChapterContent = {
           kind: 'commentary',
           id: 'ps93-reigneth',
           html:
-            'The declaration is immediate and unqualified: "The Lord reigneth." Not "will reign" or "may reign," but reigns now. And His reign is clothed with majesty. He is girded with strength. These are not abstract qualities but visible displays of power. God is not hiding. God is not uncertain. God reigns.',
+            'The declaration is immediate and unqualified: "The Lord reigneth." Not "will reign" or "may reign," but reigns now. And His reign is clothed with majesty. He is girded with strength. These are not abstract qualities but visible displays of power. God is not hiding. God is not uncertain. God reigns. [res:sefaria-psalm-93]',
         },
         {
           kind: 'commentary',
@@ -69,7 +69,7 @@ export const PSALMS_93: RichChapterContent = {
           id: 'ps93-christ-enthroned',
           title: 'Christ Connection — Christ Enthroned',
           html:
-            'In Revelation 19:6, John sees heaven opened and hears the voice of a great multitude saying, "Alleluia: for the Lord God omnipotent reigneth." This is the culmination of what Psalm 93 declares. Christ is seated at the right hand of God. He reigns. His kingdom is forever. The chaos of this world is not the final word.',
+            'In Revelation 19:6, John sees heaven opened and hears the voice of a great multitude saying, "Alleluia: for the Lord God omnipotent reigneth." This is the culmination of what Psalm 93 declares. Christ is seated at the right hand of God. He reigns. His kingdom is forever. The chaos of this world is not the final word. [res:bible-odyssey-psalm-93]',
         },
         {
           kind: 'carry',
@@ -90,6 +90,25 @@ export const PSALMS_93: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 93 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-93',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 93 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.93',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-93',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 93 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+93',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

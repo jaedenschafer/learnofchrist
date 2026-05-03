@@ -57,7 +57,7 @@ export const PSALMS_96: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms96-new-song',
-          html: '"O sing unto the Lord a new song: sing unto the Lord, all the earth." The new song is the song of God&apos;s salvation, God&apos;s wonders, God&apos;s glory made manifest to all peoples. Not the old song of tribal or national worship alone, but a new song that resonates across all boundaries, reaching all earth.',
+          html: '"O sing unto the Lord a new song: sing unto the Lord, all the earth." The new song is the song of God&apos;s salvation, God&apos;s wonders, God&apos;s glory made manifest to all peoples. [res:sefaria-psalm-96] Not the old song of tribal or national worship alone, but a new song that resonates across all boundaries, reaching all earth.',
         },
         {
           kind: 'commentary',
@@ -78,7 +78,7 @@ export const PSALMS_96: RichChapterContent = {
           kind: 'christ',
           id: 'psalms96-christ-gospel',
           title: 'Christ Connection — Gospel to the Nations',
-          html: 'Christ is the fulfillment of this vision. His great commission is to "go therefore, and teach all nations." The gospel is not for Israel alone. It is for every tribe, every tongue, every nation. In Christ, the new song is sung in every language. In every corner of the earth. The vision of Psalm 96—God&apos;s glory declared among all peoples—finds its realization in the proclamation of Christ to the nations.',
+          html: 'Christ is the fulfillment of this vision. His great commission is to "go therefore, and teach all nations." The gospel is not for Israel alone. It is for every tribe, every tongue, every nation. In Christ, the new song is sung in every language. In every corner of the earth. The vision of Psalm 96—God&apos;s glory declared among all peoples—finds its realization in the proclamation of Christ to the nations. [res:bible-odyssey-psalm-96]',
         },
         {
           kind: 'carry',
@@ -98,6 +98,25 @@ export const PSALMS_96: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 96 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-96',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 96 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.96',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-96',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 96 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+96',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: false,
 };

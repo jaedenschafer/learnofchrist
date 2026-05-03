@@ -42,7 +42,7 @@ export const PSALMS_143: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm143-faithfulness',
           html:
-            '"Hear my prayer, O Lord, give ear to my supplications: in thy faithfulness answer me, and in thy righteousness." The psalmist appeals to God&apos;s character. He asks God to answer not because the psalmist deserves it, but because God is faithful, because God is righteous. God&apos;s nature—His commitment to truth and to His covenant—is the ground of hope.',
+            '"Hear my prayer, O Lord, give ear to my supplications: in thy faithfulness answer me, and in thy righteousness." The psalmist appeals to God&apos;s character. He asks God to answer not because the psalmist deserves it, but because God is faithful, because God is righteous. God&apos;s nature—His commitment to truth and to His covenant—is the ground of hope. [res:sefaria-psalm-143]',
         },
         {
           kind: 'hebrew',
@@ -124,7 +124,7 @@ export const PSALMS_143: RichChapterContent = {
           id: 'psalm143-christ-righteousness',
           title: 'Christ Connection — God&apos;s Righteousness Revealed',
           html:
-            'In Romans 3:21–22, Paul writes: "The righteousness of God has been manifested...the righteousness of God through faith in Jesus Christ for all those who believe." Christ is the embodiment of God&apos;s righteousness. In Him, God&apos;s character—His justice, His mercy, His faithfulness—is fully revealed. To trust in Christ&apos;s righteousness is what the psalmist was reaching for.',
+            'In Romans 3:21–22, Paul writes: "The righteousness of God has been manifested...the righteousness of God through faith in Jesus Christ for all those who believe." Christ is the embodiment of God&apos;s righteousness. In Him, God&apos;s character—His justice, His mercy, His faithfulness—is fully revealed. To trust in Christ&apos;s righteousness is what the psalmist was reaching for. [res:bible-odyssey-psalm-143]',
         },
       ],
     },
@@ -135,6 +135,25 @@ export const PSALMS_143: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 143 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-143',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 143 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.143',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-143',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 143 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+143',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

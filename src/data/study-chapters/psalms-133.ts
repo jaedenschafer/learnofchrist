@@ -38,7 +38,7 @@ export const PSALMS_133: RichChapterContent = {
           kind: 'commentary',
           id: 'ps133-behold',
           html:
-            'The opening imperative—"Behold"—invites the reader into a moment of recognition. Stop. Look. See how good and how pleasant it is. The superlatives pile up: good, pleasant. These are not grudging acknowledgments. These are celebrations. Unity is not a begrudging compromise or a necessary evil. It is good. It is beautiful. It is worth beholding, worth treasuring, worth pursuing.',
+            'The opening imperative—"Behold"—invites the reader into a moment of recognition. Stop. Look. See how good and how pleasant it is. The superlatives pile up: good, pleasant. These are not grudging acknowledgments. These are celebrations. Unity is not a begrudging compromise or a necessary evil. It is good. It is beautiful. It is worth beholding, worth treasuring, worth pursuing. [res:sefaria-psalm-133]',
         },
         {
           kind: 'commentary',
@@ -69,7 +69,7 @@ export const PSALMS_133: RichChapterContent = {
           id: 'ps133-christ-unity',
           title: 'Christ Connection — Unity in Christ',
           html:
-            'In John 17, Christ prays for those who believe in Him: "That they all may be one; as thou, Father, art in me, and I in thee...I in them, and thou in me, that they may be made perfect in one" (vv. 20–23). Paul describes the church as the body of Christ, with individual believers as members, all functioning together (1 Corinthians 12:12–27). The anointing oil of the Spirit falls upon the body, consecrating it, sanctifying it. As Psalm 133 declares, it is precious. It is holy. In that unity, Christ dwells and the life eternal flows.',
+            'In John 17, Christ prays for those who believe in Him: "That they all may be one; as thou, Father, art in me, and I in thee...I in them, and thou in me, that they may be made perfect in one" (vv. 20–23). Paul describes the church as the body of Christ, with individual believers as members, all functioning together (1 Corinthians 12:12–27). The anointing oil of the Spirit falls upon the body, consecrating it, sanctifying it. As Psalm 133 declares, it is precious. It is holy. In that unity, Christ dwells and the life eternal flows. [res:bible-odyssey-psalm-133]',
         },
         {
           kind: 'carry',
@@ -91,4 +91,24 @@ export const PSALMS_133: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 133 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-133',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 133 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.133',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-133',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 133 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+133',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
+
 };

@@ -40,7 +40,7 @@ export const PSALMS_104: RichChapterContent = {
           kind: 'commentary',
           id: 'ps104-creator-care',
           html:
-            'The psalmist has called everything to praise. Now he zooms into one truth: God feeds them all.',
+            'The psalmist has called everything to praise. Now he zooms into one truth: God feeds them all. [res:sefaria-psalm-104]',
         },
         {
           kind: 'scripture',
@@ -149,7 +149,7 @@ export const PSALMS_104: RichChapterContent = {
           id: 'ps104-christ-sustainer',
           title: 'Christ Connection — By Whom All Things Consist',
           html:
-            'Paul describes Christ in Colossians 1:17: "By him all things consist." The One who created the world also sustains it. Every breath taken by every creature is sustained by Christ&apos;s power. Every spring that flows, every seed that grows, every atom that holds together—all are upheld by the Word of God. Psalm 104 is a hymn to Christ&apos;s continuous, moment-by-moment care for creation.',
+            'Paul describes Christ in Colossians 1:17: "By him all things consist." The One who created the world also sustains it. Every breath taken by every creature is sustained by Christ&apos;s power. Every spring that flows, every seed that grows, every atom that holds together—all are upheld by the Word of God. Psalm 104 is a hymn to Christ&apos;s continuous, moment-by-moment care for creation. [res:bible-odyssey-psalm-104]',
         },
         {
           kind: 'carry',
@@ -170,6 +170,25 @@ export const PSALMS_104: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 104 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-104',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 104 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.104',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-104',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 104 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+104',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

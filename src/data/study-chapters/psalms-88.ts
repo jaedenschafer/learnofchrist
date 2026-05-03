@@ -39,7 +39,7 @@ export const PSALMS_88: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-88-78mid-1',
           html:
-            'Cry for help from the brink of death shifts to continued plea in darkness. Even in abandonment, the psalmist addresses God.',
+            'Cry for help from the brink of death shifts to continued plea in darkness. Even in abandonment, the psalmist addresses God. [res:sefaria-psalm-88]',
         },
         {
           kind: 'scripture',
@@ -130,7 +130,7 @@ export const PSALMS_88: RichChapterContent = {
           id: 'ps88-christ-depths',
           title: 'Christ Connection — The Depths of Sheol',
           html:
-            'In Matthew 27:46, Christ cries out on the cross: "My God, my God, why hast thou forsaken me?" These are words of deepest abandonment. Christ descended into the depths. He experienced the absence of God&apos;s felt presence. He knows the darkness of Psalm 88. And in doing so, He hallowed even despair. No depth is beyond His reach.',
+            'In Matthew 27:46, Christ cries out on the cross: "My God, my God, why hast thou forsaken me?" These are words of deepest abandonment. Christ descended into the depths. He experienced the absence of God&apos;s felt presence. He knows the darkness of Psalm 88. And in doing so, He hallowed even despair. No depth is beyond His reach. [res:bible-odyssey-psalm-88]',
         },
         {
           kind: 'carry',
@@ -151,4 +151,24 @@ export const PSALMS_88: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 88 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-88',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 88 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.88',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-88',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 88 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+88',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
+
 };

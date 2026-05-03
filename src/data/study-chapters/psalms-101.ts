@@ -40,7 +40,7 @@ export const PSALMS_101: RichChapterContent = {
           kind: 'commentary',
           id: 'ps101-mercy-judgment',
           html:
-            'David begins with the two themes that will govern his reign: mercy and judgment. He will show compassion to the afflicted, but he will not tolerate wickedness. These are not opposites. A truly merciful ruler must also be just—he must stop the wicked from preying on the innocent. A truly just ruler must be merciful—he must not crush the penitent or the weak. David&apos;s promise is to sing both. He will make both the hallmark of his house.',
+            'David begins with the two themes that will govern his reign: mercy and judgment. He will show compassion to the afflicted, but he will not tolerate wickedness. These are not opposites. A truly merciful ruler must also be just—he must stop the wicked from preying on the innocent. A truly just ruler must be merciful—he must not crush the penitent or the weak. David&apos;s promise is to sing both. He will make both the hallmark of his house. [res:sefaria-psalm-101]',
         },
         {
           kind: 'commentary',
@@ -107,7 +107,7 @@ export const PSALMS_101: RichChapterContent = {
           id: 'ps101-christ-king',
           title: 'Christ Connection — The True King&apos;s Reign',
           html:
-            'David&apos;s vow is a shadow of Christ&apos;s reign. Jesus will sit on a throne of justice, and His kingdom will be characterized by both mercy and truth. He sees all hearts. He knows every secret. But He also welcomes the penitent, upholds the faithful, and brings forth a nation where wickedness will be subdued and righteousness will flourish. In His present reign through His Spirit, Christ establishes His kingdom not by sword but by transformation of hearts. In His future throne He will bring perfect judgment and perfect mercy together.',
+            'David&apos;s vow is a shadow of Christ&apos;s reign. Jesus will sit on a throne of justice, and His kingdom will be characterized by both mercy and truth. He sees all hearts. He knows every secret. But He also welcomes the penitent, upholds the faithful, and brings forth a nation where wickedness will be subdued and righteousness will flourish. In His present reign through His Spirit, Christ establishes His kingdom not by sword but by transformation of hearts. In His future throne He will bring perfect judgment and perfect mercy together. [res:bible-odyssey-psalm-101]',
         },
         {
           kind: 'carry',
@@ -128,6 +128,25 @@ export const PSALMS_101: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 101 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-101',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 101 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.101',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-101',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 101 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+101',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

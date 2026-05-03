@@ -39,7 +39,7 @@ export const PSALMS_111: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-111-78mid-1',
           html:
-            'Praise for God&apos;s works and majesty opens into praise for His covenant and compassion. Works become character.',
+            'Praise for God&apos;s works and majesty opens into praise for His covenant and compassion. Works become character. [res:sefaria-psalm-111]',
         },
         {
           kind: 'scripture',
@@ -83,7 +83,7 @@ export const PSALMS_111: RichChapterContent = {
           id: 'ps111-christ',
           title: 'Christ Connection — Redemption and Covenant',
           html:
-            'Verse 9 says: "He sent redemption unto his people: he hath commanded his covenant for ever." Redemption came fully through Christ—purchased at the cross, offered to all nations. Paul writes that Christ is "the image of the invisible God" and "by him all things consist" (Col. 1:15, 17). Every work of God&apos;s hands—described throughout this acrostic psalm—was made by Him and finds its meaning in Him. The covenant itself, remembered at the altar, points to His blood: "This cup is the new testament in my blood" (1 Cor. 11:25).',
+            'Verse 9 says: "He sent redemption unto his people: he hath commanded his covenant for ever." Redemption came fully through Christ—purchased at the cross, offered to all nations. Paul writes that Christ is "the image of the invisible God" and "by him all things consist" (Col. 1:15, 17). Every work of God&apos;s hands—described throughout this acrostic psalm—was made by Him and finds its meaning in Him. The covenant itself, remembered at the altar, points to His blood: "This cup is the new testament in my blood" (1 Cor. 11:25). [res:bible-odyssey-psalm-111]',
         },
         {
           kind: 'carry',
@@ -104,6 +104,25 @@ export const PSALMS_111: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 111 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-111',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 111 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.111',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-111',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 111 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+111',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -39,7 +39,7 @@ export const PSALMS_138: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm138-whole-heart',
           html:
-            '"I will praise thee with my whole heart." Not a partial praise, offered with reservation or doubt. But a total commitment—the whole soul devoted to the praise of God. And this praise is offered "before the gods"—before powers that oppose, before hostile forces, before a world that may not understand or approve. The psalmist is saying: I will not be silent. I will not hide my faith. Even in the midst of opposition, I will sing God&apos;s praise.',
+            '"I will praise thee with my whole heart." Not a partial praise, offered with reservation or doubt. But a total commitment—the whole soul devoted to the praise of God. And this praise is offered "before the gods"—before powers that oppose, before hostile forces, before a world that may not understand or approve. The psalmist is saying: I will not be silent. I will not hide my faith. Even in the midst of opposition, I will sing God&apos;s praise. [res:sefaria-psalm-138]',
         },
         {
           kind: 'hebrew',
@@ -103,7 +103,7 @@ export const PSALMS_138: RichChapterContent = {
           id: 'psalm138-christ-revive',
           title: 'Christ Connection — Christ Revives',
           html:
-            'In Ephesians 2:4–6, Paul writes: "God, being rich in mercy, because of His great love with which He loved us, even when we were dead in our transgressions, made us alive together with Christ—by grace you have been saved." Christ is the reviving hand of God. He takes those dead in sin and raises them to new life. He stands against all wrath and enmity. And He perfects the work begun in us, bringing us to completion in Him.',
+            'In Ephesians 2:4–6, Paul writes: "God, being rich in mercy, because of His great love with which He loved us, even when we were dead in our transgressions, made us alive together with Christ—by grace you have been saved." Christ is the reviving hand of God. He takes those dead in sin and raises them to new life. He stands against all wrath and enmity. And He perfects the work begun in us, bringing us to completion in Him. [res:bible-odyssey-psalm-138]',
         },
         {
           kind: 'carry',
@@ -119,6 +119,25 @@ export const PSALMS_138: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 138 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-138',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 138 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.138',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-138',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 138 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+138',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

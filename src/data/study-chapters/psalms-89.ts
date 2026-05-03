@@ -42,7 +42,7 @@ export const PSALMS_89: RichChapterContent = {
           kind: 'commentary',
           id: 'ps89-covenant-to-king',
           html:
-            'The promise of the covenant is personal. God has chosen, sworn, found David, anointed him. Now the focus shifts to the consequences: the king will be exalted, his enemies beaten down, his throne made strong forever. God&apos;s faithfulness to David is not abstract—it is acted out in history.',
+            'The promise of the covenant is personal. God has chosen, sworn, found David, anointed him. Now the focus shifts to the consequences: the king will be exalted, his enemies beaten down, his throne made strong forever. God&apos;s faithfulness to David is not abstract—it is acted out in history. [res:sefaria-psalm-89]',
         },
         {
           kind: 'scripture',
@@ -79,7 +79,7 @@ export const PSALMS_89: RichChapterContent = {
         {
           kind: 'reflection',
           id: 'ps89-covenant',
-          prompt: 'God has made promises to you through Christ. How do you hold onto those promises when your present circumstances seem to contradict them?',
+          prompt: 'God has made promises to you through Christ. How do you hold onto those promises when your present circumstances seem to contradict them? [res:intertextual-psalm-89-hebrews-messianic]',
         },
       ],
     },
@@ -133,7 +133,7 @@ export const PSALMS_89: RichChapterContent = {
           id: 'ps89-christ-king',
           title: 'Christ Connection — The Davidic King',
           html:
-            'In Matthew 1, Jesus is called "Jesus Christ, the son of David." The angel tells Mary: "The Lord God shall give unto him the throne of his father David" (Luke 1:32). Christ is the ultimate fulfillment of God&apos;s covenant with David. His throne is eternal. His kingdom will never fall. What seemed broken in David&apos;s line is restored and made permanent in Christ.',
+            'In Matthew 1, Jesus is called "Jesus Christ, the son of David." The angel tells Mary: "The Lord God shall give unto him the throne of his father David" (Luke 1:32). Christ is the ultimate fulfillment of God&apos;s covenant with David. His throne is eternal. His kingdom will never fall. What seemed broken in David&apos;s line is restored and made permanent in Christ. [res:bible-odyssey-psalm-89]',
         },
         {
           kind: 'carry',
@@ -154,6 +154,33 @@ export const PSALMS_89: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 89 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-89',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 89 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.89',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-89',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 89 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+89',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+    {
+      id: 'intertextual-psalm-89-hebrews-messianic',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 89 messianic promise in Hebrews',
+      url: 'https://intertextual.bible/text/psalm-89/hebrews-1',
+      description: 'New Testament connection showing how this Psalm is quoted or referenced.',
+    },
+  ],
 
   hasHebrew: true,
 };

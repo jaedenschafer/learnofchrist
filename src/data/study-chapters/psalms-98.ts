@@ -56,7 +56,7 @@ export const PSALMS_98: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms98-marvelous-things',
-          html: '"O sing unto the Lord a new song; for he hath done marvellous things." The new song is prompted by what God has done. His wondrous works. His salvation. His deliverance. There is something new to sing about because God has acted.',
+          html: '"O sing unto the Lord a new song; for he hath done marvellous things." The new song is prompted by what God has done. [res:sefaria-psalm-98] His wondrous works. His salvation. His deliverance. There is something new to sing about because God has acted.',
         },
         {
           kind: 'commentary',
@@ -83,7 +83,7 @@ export const PSALMS_98: RichChapterContent = {
           id: 'ps98-christ',
           title: 'Christ Connection — The New Song of Redemption',
           html:
-            'In Revelation, the redeemed around the throne sing a new song: "Thou art worthy...for thou wast slain, and hast redeemed us to God by thy blood" (Rev. 5:9). This is Psalm 98&apos;s new song made flesh. Christ&apos;s salvation—purchased at His cross, proclaimed to the nations—is the mighty act that calls forth the cosmic praise. Luke shows Jesus at His presentation as "a light to lighten the Gentiles" (Luke 2:32)—the salvation of God made known to all peoples, just as verse 2 declares.',
+            'In Revelation, the redeemed around the throne sing a new song: "Thou art worthy...for thou wast slain, and hast redeemed us to God by thy blood" (Rev. 5:9). This is Psalm 98&apos;s new song made flesh. Christ&apos;s salvation—purchased at His cross, proclaimed to the nations—is the mighty act that calls forth the cosmic praise. Luke shows Jesus at His presentation as "a light to lighten the Gentiles" (Luke 2:32)—the salvation of God made known to all peoples, just as verse 2 declares. [res:bible-odyssey-psalm-98]',
         },
         {
           kind: 'carry',
@@ -103,6 +103,25 @@ export const PSALMS_98: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 98 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-98',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 98 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.98',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-98',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 98 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+98',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: false,
 };

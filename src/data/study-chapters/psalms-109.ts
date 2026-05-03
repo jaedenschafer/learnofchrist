@@ -39,7 +39,7 @@ export const PSALMS_109: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-109-78mid-1',
           html:
-            'Accusation of the wicked gives way to imprecation and prayer for judgment. The enemy is named; God is called.',
+            'Accusation of the wicked gives way to imprecation and prayer for judgment. The enemy is named; God is called. [res:sefaria-psalm-109]',
         },
         {
           kind: 'scripture',
@@ -105,7 +105,7 @@ export const PSALMS_109: RichChapterContent = {
           id: 'ps109-christ-betrayal',
           title: 'Christ Connection — The Betrayed One',
           html:
-            'Peter applies Psalm 109:8 to Judas: "His office let another take." Jesus was betrayed, slandered, attacked without cause. He was the innocent one rewarded with hatred for His love. Yet Jesus did not curse His enemies. He prayed for them: "Father, forgive them; for they know not what they do." In this, Jesus transcends the psalmist&apos;s prayer. Rather than asking God to curse His betrayer, He asks God to forgive. This is the transformation grace makes possible.',
+            'Peter applies Psalm 109:8 to Judas: "His office let another take." Jesus was betrayed, slandered, attacked without cause. He was the innocent one rewarded with hatred for His love. Yet Jesus did not curse His enemies. He prayed for them: "Father, forgive them; for they know not what they do." In this, Jesus transcends the psalmist&apos;s prayer. Rather than asking God to curse His betrayer, He asks God to forgive. This is the transformation grace makes possible. [res:bible-odyssey-psalm-109]',
         },
         {
           kind: 'carry',
@@ -115,7 +115,7 @@ export const PSALMS_109: RichChapterContent = {
         {
           kind: 'reflection',
           id: 'ps109-betrayal-vindication',
-          prompt: 'When have you been wronged or betrayed? Did you seek revenge, or did you entrust your case to God? What would it look like to truly surrender the need for vindication?',
+          prompt: 'When have you been wronged or betrayed? Did you seek revenge, or did you entrust your case to God? What would it look like to truly surrender the need for vindication? [res:intertextual-psalm-109-acts-1-judas]',
         },
       ],
     },
@@ -126,6 +126,33 @@ export const PSALMS_109: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 109 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-109',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 109 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.109',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-109',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 109 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+109',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+    {
+      id: 'intertextual-psalm-109-acts-1-judas',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 109 in Acts 1:20 (Judas replacement)',
+      url: 'https://intertextual.bible/text/psalm-109/acts-1.20',
+      description: 'New Testament connection showing how this Psalm is quoted or referenced.',
+    },
+  ],
 
   hasHebrew: true,
 };

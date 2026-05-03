@@ -40,7 +40,7 @@ export const PSALMS_144: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-144-78mid-1',
           html:
-            'Praise for battle strength opens into vow of song and blessing for the nation. Victory becomes praise.',
+            'Praise for battle strength opens into vow of song and blessing for the nation. Victory becomes praise. [res:sefaria-psalm-144]',
         },
         {
           kind: 'scripture',
@@ -157,7 +157,7 @@ export const PSALMS_144: RichChapterContent = {
           id: 'psalm144-christ-strength',
           title: 'Christ Connection — Christ Teaches Us to Overcome',
           html:
-            'In 2 Timothy 2:3–4, Paul writes: "Endure hardship as a good soldier of Christ Jesus. No one serving as a soldier gets entangled in civilian affairs, but rather tries to please his commanding officer." Christ teaches His followers—teaches us to fight the good fight, to endure, to overcome. The spiritual battles we face are real, and Christ equips us for them.',
+            'In 2 Timothy 2:3–4, Paul writes: "Endure hardship as a good soldier of Christ Jesus. No one serving as a soldier gets entangled in civilian affairs, but rather tries to please his commanding officer." Christ teaches His followers—teaches us to fight the good fight, to endure, to overcome. The spiritual battles we face are real, and Christ equips us for them. [res:bible-odyssey-psalm-144]',
         },
       ],
     },
@@ -169,6 +169,25 @@ export const PSALMS_144: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 144 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-144',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 144 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.144',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-144',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 144 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+144',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

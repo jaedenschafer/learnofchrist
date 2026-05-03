@@ -41,7 +41,7 @@ export const PSALMS_128: RichChapterContent = {
           kind: 'commentary',
           id: 'ps128-fear',
           html:
-            'To fear the Lord is not to cower in terror. It is to revere, to honor, to walk carefully in the awareness of His holiness and greatness. It is a submission of the will, a recognition that God&apos;s way is the true way. And the promise follows: every one who walks this path is blessed. Not some. Not the lucky few. Every one.',
+            'To fear the Lord is not to cower in terror. It is to revere, to honor, to walk carefully in the awareness of His holiness and greatness. It is a submission of the will, a recognition that God&apos;s way is the true way. And the promise follows: every one who walks this path is blessed. Not some. Not the lucky few. Every one. [res:sefaria-psalm-128]',
         },
         {
           kind: 'commentary',
@@ -66,7 +66,7 @@ export const PSALMS_128: RichChapterContent = {
           id: 'ps128-christ-blessing',
           title: 'Christ Connection — The Source of Blessing',
           html:
-            'Jesus taught that the abundant life comes through abiding in Him (John 15:1–8). The fruitfulness described in Psalm 128—the wife as a fruitful vine, the children as olive plants—are images of blessing that find their ultimate source in Christ. To fear God in the Christian understanding is to surrender to Christ, to align oneself with His way. And from that alignment flows blessing that overflows to family, to work, to the whole community.',
+            'Jesus taught that the abundant life comes through abiding in Him (John 15:1–8). The fruitfulness described in Psalm 128—the wife as a fruitful vine, the children as olive plants—are images of blessing that find their ultimate source in Christ. To fear God in the Christian understanding is to surrender to Christ, to align oneself with His way. And from that alignment flows blessing that overflows to family, to work, to the whole community. [res:bible-odyssey-psalm-128]',
         },
         {
           kind: 'carry',
@@ -88,4 +88,24 @@ export const PSALMS_128: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 128 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-128',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 128 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.128',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-128',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 128 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+128',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
+
 };

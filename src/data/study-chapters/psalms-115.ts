@@ -39,7 +39,7 @@ export const PSALMS_115: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-115-78mid-1',
           html:
-            'Glory to God alone and contrast of idols with the true God opens into blessing and promise of praise from the living. Truth becomes testimony.',
+            'Glory to God alone and contrast of idols with the true God opens into blessing and promise of praise from the living. Truth becomes testimony. [res:sefaria-psalm-115]',
         },
         {
           kind: 'scripture',
@@ -100,7 +100,7 @@ export const PSALMS_115: RichChapterContent = {
           id: 'ps115-christ',
           title: 'Christ Connection — The True Image',
           html:
-            'Paul writes of Jesus: "Who is the image of the invisible God" (Col. 1:15) and "the brightness of his glory, and the express image of his person" (Heb. 1:3). This psalm contrasts idols—lifeless counterfeits—with the living God. Jesus is the only true Image, not carved by human hands but begotten of the Father, sustaining all things by His power. He sees, hears, speaks, acts. He is not silent like the idols of silver and gold. His voice raises the dead. His touch heals the sick. He is the Image in which all who trust in Him are being transformed.',
+            'Paul writes of Jesus: "Who is the image of the invisible God" (Col. 1:15) and "the brightness of his glory, and the express image of his person" (Heb. 1:3). This psalm contrasts idols—lifeless counterfeits—with the living God. Jesus is the only true Image, not carved by human hands but begotten of the Father, sustaining all things by His power. He sees, hears, speaks, acts. He is not silent like the idols of silver and gold. His voice raises the dead. His touch heals the sick. He is the Image in which all who trust in Him are being transformed. [res:bible-odyssey-psalm-115]',
         },
         {
           kind: 'carry',
@@ -121,6 +121,25 @@ export const PSALMS_115: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 115 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-115',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 115 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.115',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-115',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 115 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+115',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

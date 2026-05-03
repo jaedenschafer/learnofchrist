@@ -39,7 +39,7 @@ export const PSALMS_87: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-87-78mid-1',
           html:
-            'The foundation of Zion&apos;s glory opens into names of those who belong and promise of cosmic celebration. Ground becomes community.',
+            'The foundation of Zion&apos;s glory opens into names of those who belong and promise of cosmic celebration. Ground becomes community. [res:sefaria-psalm-87]',
         },
         {
           kind: 'scripture',
@@ -83,7 +83,7 @@ export const PSALMS_87: RichChapterContent = {
           id: 'ps87-christ-city',
           title: 'Christ Connection — The New Jerusalem',
           html:
-            'In Revelation 21, John sees the New Jerusalem coming down from heaven, prepared as a bride adorned for her husband. All nations walk in its light. The gates never close. It is the ultimate fulfillment of what Zion foreshadows. Christ is the foundation of this city. He is the light. He is the reason all nations gather there.',
+            'In Revelation 21, John sees the New Jerusalem coming down from heaven, prepared as a bride adorned for her husband. All nations walk in its light. The gates never close. It is the ultimate fulfillment of what Zion foreshadows. Christ is the foundation of this city. He is the light. He is the reason all nations gather there. [res:bible-odyssey-psalm-87]',
         },
         {
           kind: 'reflection',
@@ -104,4 +104,24 @@ export const PSALMS_87: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 87 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-87',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 87 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.87',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-87',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 87 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+87',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
+
 };

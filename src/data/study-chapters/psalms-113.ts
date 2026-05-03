@@ -40,7 +40,7 @@ export const PSALMS_113: RichChapterContent = {
           kind: 'commentary',
           id: 'ps113-praise-humility',
           html:
-            'The Lord is praised on high. Now the psalm descends: he lifts the poor from the dust.',
+            'The Lord is praised on high. Now the psalm descends: he lifts the poor from the dust. [res:sefaria-psalm-113]',
         },
         {
           kind: 'scripture',
@@ -85,7 +85,7 @@ export const PSALMS_113: RichChapterContent = {
           id: 'ps113-christ',
           title: 'Christ Connection — Divine Humility Fulfilled',
           html:
-            'The paradox of verse 6—the Most High humbling Himself to look—finds its ultimate fulfillment in Christ. Paul writes: "Who, being in the form of God, thought it not robbery to be equal with God: but made himself of no reputation, and took upon him the form of a servant, and was made in the likeness of men" (Phil. 2:6–7). The King of kings was born poor, in a stable. The Lord of lords took the form of a servant and washed the feet of His disciples. He died between two criminals. This is divine humility incarnate—God bending so low that He could lift the lowest of the low.',
+            'The paradox of verse 6—the Most High humbling Himself to look—finds its ultimate fulfillment in Christ. Paul writes: "Who, being in the form of God, thought it not robbery to be equal with God: but made himself of no reputation, and took upon him the form of a servant, and was made in the likeness of men" (Phil. 2:6–7). The King of kings was born poor, in a stable. The Lord of lords took the form of a servant and washed the feet of His disciples. He died between two criminals. This is divine humility incarnate—God bending so low that He could lift the lowest of the low. [res:bible-odyssey-psalm-113]',
         },
         {
           kind: 'carry',
@@ -106,6 +106,25 @@ export const PSALMS_113: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 113 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-113',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 113 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.113',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-113',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 113 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+113',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

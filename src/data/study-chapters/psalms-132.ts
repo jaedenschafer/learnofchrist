@@ -39,7 +39,7 @@ export const PSALMS_132: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-132-78mid-1',
           html:
-            'David&apos;s oath to find a place for the Lord shifts to God&apos;s promise to establish his throne. Vow becomes covenant.',
+            'David&apos;s oath to find a place for the Lord shifts to God&apos;s promise to establish his throne. Vow becomes covenant. [res:sefaria-psalm-132]',
         },
         {
           kind: 'scripture',
@@ -80,7 +80,7 @@ export const PSALMS_132: RichChapterContent = {
           id: 'ps132-christ-king',
           title: 'Christ Connection — The True Davidic King',
           html:
-            'Matthew 1:1 opens the Gospel by announcing Jesus as "the son of David," and the angel Gabriel tells Mary that "the Lord God shall give unto him the throne of his father David: And he shall reign over the house of Jacob for ever" (Luke 1:32–33). Christ is the ultimate heir of David, the one in whom all the promises made to David find their fulfillment. His kingdom is not limited to earthly territory or generation, but extends forever, to all who believe. The Davidic covenant reaches its infinite completion in Christ.',
+            'Matthew 1:1 opens the Gospel by announcing Jesus as "the son of David," and the angel Gabriel tells Mary that "the Lord God shall give unto him the throne of his father David: And he shall reign over the house of Jacob for ever" (Luke 1:32–33). Christ is the ultimate heir of David, the one in whom all the promises made to David find their fulfillment. His kingdom is not limited to earthly territory or generation, but extends forever, to all who believe. The Davidic covenant reaches its infinite completion in Christ. [res:bible-odyssey-psalm-132]',
         },
         {
           kind: 'carry',
@@ -102,4 +102,24 @@ export const PSALMS_132: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 132 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-132',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 132 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.132',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-132',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 132 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+132',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
+
 };

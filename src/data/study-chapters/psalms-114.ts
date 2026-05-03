@@ -39,7 +39,7 @@ export const PSALMS_114: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-114-78mid-1',
           html:
-            'The exodus and wilderness wonders of nature yield to question and transformation. Miracles prompt reflection.',
+            'The exodus and wilderness wonders of nature yield to question and transformation. Miracles prompt reflection. [res:sefaria-psalm-114]',
         },
         {
           kind: 'scripture',
@@ -89,7 +89,7 @@ export const PSALMS_114: RichChapterContent = {
           id: 'ps114-christ-power',
           title: 'Christ Connection — Power Over All Creation',
           html:
-            'Jesus demonstrates power over creation: He walks on water and commands the storm to be still. He feeds thousands from a few loaves and fishes. He turns water into wine. He raises the dead. In each act, He shows Himself to be the one to whom all creation obeys. The God of the exodus—who parted the sea—is present in Jesus. His authority extends over all things.',
+            'Jesus demonstrates power over creation: He walks on water and commands the storm to be still. He feeds thousands from a few loaves and fishes. He turns water into wine. He raises the dead. In each act, He shows Himself to be the one to whom all creation obeys. The God of the exodus—who parted the sea—is present in Jesus. His authority extends over all things. [res:bible-odyssey-psalm-114]',
         },
         {
           kind: 'carry',
@@ -110,6 +110,25 @@ export const PSALMS_114: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 114 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-114',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 114 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.114',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-114',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 114 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+114',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -38,7 +38,7 @@ export const PSALMS_117: RichChapterContent = {
           kind: 'commentary',
           id: 'ps117-praise-nations',
           html:
-            '"O praise the Lord, all ye nations: praise him, all ye people." The invitation is universal. Not merely Israel, not merely one favored people, but all nations and all peoples are called to praise. This is remarkable in a biblical context where so much attention is focused on Israel as God&apos;s special people. Yet the psalmist sees beyond that. God&apos;s mercy reaches all. All are invited into worship.',
+            '"O praise the Lord, all ye nations: praise him, all ye people." The invitation is universal. Not merely Israel, not merely one favored people, but all nations and all peoples are called to praise. This is remarkable in a biblical context where so much attention is focused on Israel as God&apos;s special people. Yet the psalmist sees beyond that. God&apos;s mercy reaches all. All are invited into worship. [res:sefaria-psalm-117]',
         },
         {
           kind: 'commentary',
@@ -60,7 +60,7 @@ export const PSALMS_117: RichChapterContent = {
           id: 'ps117-christ-all-nations',
           title: 'Christ Connection — The Gospel to All Nations',
           html:
-            'Paul cites Psalm 117:1 in Romans 15:9–11 as proof that Christ came to confirm God&apos;s promises to the fathers but also to bring the Gentiles to glorify God for His mercy. The psalmist&apos;s vision of all nations praising God is fulfilled when the gospel reaches all peoples through Christ. Every nation, tribe, and tongue is invited to bow before Jesus and confess Him as Lord. Psalm 117&apos;s brevity masks its cosmic scope: it is the charter for world mission.',
+            'Paul cites Psalm 117:1 in Romans 15:9–11 as proof that Christ came to confirm God&apos;s promises to the fathers but also to bring the Gentiles to glorify God for His mercy. The psalmist&apos;s vision of all nations praising God is fulfilled when the gospel reaches all peoples through Christ. Every nation, tribe, and tongue is invited to bow before Jesus and confess Him as Lord. Psalm 117&apos;s brevity masks its cosmic scope: it is the charter for world mission. [res:bible-odyssey-psalm-117]',
         },
         {
           kind: 'carry',
@@ -81,6 +81,25 @@ export const PSALMS_117: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 117 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-117',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 117 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.117',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-117',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 117 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+117',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

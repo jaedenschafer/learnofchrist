@@ -39,7 +39,7 @@ export const PSALMS_110: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-110-78mid-1',
           html:
-            'Promise of the king&apos;s rule and triumph opens into oath about his priesthood. Dominion becomes covenant.',
+            'Promise of the king&apos;s rule and triumph opens into oath about his priesthood. Dominion becomes covenant. [res:sefaria-psalm-110]',
         },
         {
           kind: 'scripture',
@@ -89,7 +89,7 @@ export const PSALMS_110: RichChapterContent = {
           id: 'ps110-christ-exalted',
           title: 'Christ Connection — Seated at God&apos;s Right Hand',
           html:
-            'Psalm 110:1 is the foundation stone of New Testament christology. Jesus quotes it in Matthew 22:41–45 to show that the Messiah is greater than David himself. Peter cites it on Pentecost (Acts 2:34–35) as proof of Jesus&apos; resurrection and exaltation. The author of Hebrews quotes it repeatedly to establish Jesus&apos; superiority over angels and His eternal priesthood (Hebrews 1:13, 10:12–13). Jesus sits at God&apos;s right hand, ruling the cosmos, interceding for His people, waiting until all enemies are put under His feet. This is not a future promise but a present reality. Christ reigns now.',
+            'Psalm 110:1 is the foundation stone of New Testament christology. Jesus quotes it in Matthew 22:41–45 to show that the Messiah is greater than David himself. Peter cites it on Pentecost (Acts 2:34–35) as proof of Jesus&apos; resurrection and exaltation. The author of Hebrews quotes it repeatedly to establish Jesus&apos; superiority over angels and His eternal priesthood (Hebrews 1:13, 10:12–13). Jesus sits at God&apos;s right hand, ruling the cosmos, interceding for His people, waiting until all enemies are put under His feet. This is not a future promise but a present reality. Christ reigns now. [res:bible-odyssey-psalm-110]',
         },
         {
           kind: 'carry',
@@ -99,7 +99,7 @@ export const PSALMS_110: RichChapterContent = {
         {
           kind: 'reflection',
           id: 'ps110-king-priest',
-          prompt: 'How does it change your faith to know that Christ is not merely exalted but actively reigning now as both King and Priest? What would you do differently if you truly believed you serve a victorious King?',
+          prompt: 'How does it change your faith to know that Christ is not merely exalted but actively reigning now as both King and Priest? What would you do differently if you truly believed you serve a victorious King? [res:intertextual-psalm-110-hebrews-1-5-7]',
         },
       ],
     },
@@ -110,6 +110,33 @@ export const PSALMS_110: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 110 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-110',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 110 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.110',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-110',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 110 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+110',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+    {
+      id: 'intertextual-psalm-110-hebrews-1-5-7',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 110 in Hebrews 1:13, 5:6, 7:17',
+      url: 'https://intertextual.bible/text/psalm-110/hebrews-1.13',
+      description: 'New Testament connection showing how this Psalm is quoted or referenced.',
+    },
+  ],
 
   hasHebrew: true,
 };

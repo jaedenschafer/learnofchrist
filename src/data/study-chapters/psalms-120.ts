@@ -41,7 +41,7 @@ export const PSALMS_120: RichChapterContent = {
           kind: 'commentary',
           id: 'ps120-lying',
           html:
-            'The psalmist&apos;s distress is not physical danger, but linguistic betrayal. He cries for deliverance from "lying lips" and a "deceitful tongue." Words are his torment. In a world where language should be the bridge between souls, connecting in truth and understanding, he finds himself surrounded by those who use words as weapons, who twist meaning, who speak falsehood.',
+            'The psalmist&apos;s distress is not physical danger, but linguistic betrayal. He cries for deliverance from "lying lips" and a "deceitful tongue." Words are his torment. In a world where language should be the bridge between souls, connecting in truth and understanding, he finds himself surrounded by those who use words as weapons, who twist meaning, who speak falsehood. [res:sefaria-psalm-120]',
         },
         {
           kind: 'commentary',
@@ -60,7 +60,7 @@ export const PSALMS_120: RichChapterContent = {
           id: 'ps120-christ-peace',
           title: 'Christ Connection — The Peacemaker',
           html:
-            'Christ came speaking peace—"Peace I leave with you, my peace I give unto you" (John 14:27). Yet He too was met with hostility. The religious establishment, the political powers, used words and lies to turn the crowds against Him. He offered words of life and truth. He was answered with crucifixion. Yet His death and resurrection became the instrument through which peace—reconciliation between humanity and God—was secured. The false words that sought to destroy Him were overcome by His resurrection.',
+            'Christ came speaking peace—"Peace I leave with you, my peace I give unto you" (John 14:27). Yet He too was met with hostility. The religious establishment, the political powers, used words and lies to turn the crowds against Him. He offered words of life and truth. He was answered with crucifixion. Yet His death and resurrection became the instrument through which peace—reconciliation between humanity and God—was secured. The false words that sought to destroy Him were overcome by His resurrection. [res:bible-odyssey-psalm-120]',
         },
         {
           kind: 'carry',
@@ -82,4 +82,24 @@ export const PSALMS_120: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 120 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-120',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 120 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.120',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-120',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 120 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+120',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
+
 };

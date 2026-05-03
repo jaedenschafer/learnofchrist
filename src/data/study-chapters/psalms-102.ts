@@ -43,7 +43,7 @@ export const PSALMS_102: RichChapterContent = {
           kind: 'commentary',
           id: 'ps102-mid',
           html:
-            'The catalog of suffering shifts from internal wasting to external isolation. The psalmist is consumed from within and then abandoned without. Each image deepens the portrait of one brought to the edge of death.',
+            'The catalog of suffering shifts from internal wasting to external isolation. The psalmist is consumed from within and then abandoned without. Each image deepens the portrait of one brought to the edge of death. [res:sefaria-psalm-102]',
         },
         {
           kind: 'scripture',
@@ -85,7 +85,7 @@ export const PSALMS_102: RichChapterContent = {
         {
           kind: 'reflection',
           id: 'ps102-what-consumes',
-          prompt: 'When you have felt the kind of deep, body-level weariness the psalmist describes, did you bring it to God? What made it difficult or possible for you to cry out?',
+          prompt: 'When you have felt the kind of deep, body-level weariness the psalmist describes, did you bring it to God? What made it difficult or possible for you to cry out? [res:intertextual-psalm-102-hebrews-1-messianic]',
         },
       ],
     },
@@ -137,7 +137,7 @@ export const PSALMS_102: RichChapterContent = {
           id: 'ps102-christ-eternal',
           title: 'Christ Connection — The Eternal Creator',
           html:
-            'Hebrews 1:10–12 quotes Psalm 102:25–27 and directly applies them to Jesus: "Thou, Lord, in the beginning hast laid the foundation of the earth; and the heavens are the works of thine hands: they shall perish; but thou remainest." Christ is not created. He is the Creator. Not merely sent by God, but equal with God, sharing His eternality. The psalm that opens in a cry of desolation ends in a revelation of Christ&apos;s infinite power and faithfulness.',
+            'Hebrews 1:10–12 quotes Psalm 102:25–27 and directly applies them to Jesus: "Thou, Lord, in the beginning hast laid the foundation of the earth; and the heavens are the works of thine hands: they shall perish; but thou remainest." Christ is not created. He is the Creator. Not merely sent by God, but equal with God, sharing His eternality. The psalm that opens in a cry of desolation ends in a revelation of Christ&apos;s infinite power and faithfulness. [res:bible-odyssey-psalm-102]',
         },
         {
           kind: 'carry',
@@ -158,6 +158,33 @@ export const PSALMS_102: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 102 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-102',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 102 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.102',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-102',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 102 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+102',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+    {
+      id: 'intertextual-psalm-102-hebrews-1-messianic',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 102 in Hebrews 1:10–12',
+      url: 'https://intertextual.bible/text/psalm-102/hebrews-1.10',
+      description: 'New Testament connection showing how this Psalm is quoted or referenced.',
+    },
+  ],
 
   hasHebrew: true,
 };

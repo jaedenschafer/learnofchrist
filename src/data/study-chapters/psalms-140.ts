@@ -41,7 +41,7 @@ export const PSALMS_140: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm140-evil-men',
           html:
-            'The opening appeal is direct: "Deliver me, O Lord, from the evil man." The psalmist is not facing abstract, theoretical evil. He is facing specific, malicious people. Men who imagine mischiefs in their heart, who gather together for war. The language is military—this is organized opposition, not random hostility.',
+            'The opening appeal is direct: "Deliver me, O Lord, from the evil man." The psalmist is not facing abstract, theoretical evil. He is facing specific, malicious people. Men who imagine mischiefs in their heart, who gather together for war. The language is military—this is organized opposition, not random hostility. [res:sefaria-psalm-140]',
         },
         {
           kind: 'hebrew',
@@ -126,7 +126,7 @@ export const PSALMS_140: RichChapterContent = {
           id: 'psalm140-christ-deliver',
           title: 'Christ Connection — Delivers from Evil',
           html:
-            'In 2 Timothy 4:17–18, Paul writes of Christ: "The Lord...will deliver me from every evil deed, and will bring me safely to His heavenly kingdom." Christ is our deliverer. He faces the real evil and deception of the world, confronts it, and in His resurrection overcomes it. Those who call upon Him are protected.',
+            'In 2 Timothy 4:17–18, Paul writes of Christ: "The Lord...will deliver me from every evil deed, and will bring me safely to His heavenly kingdom." Christ is our deliverer. He faces the real evil and deception of the world, confronts it, and in His resurrection overcomes it. Those who call upon Him are protected. [res:bible-odyssey-psalm-140]',
         },
         {
           kind: 'carry',
@@ -142,6 +142,25 @@ export const PSALMS_140: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 140 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-140',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 140 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.140',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-140',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 140 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+140',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

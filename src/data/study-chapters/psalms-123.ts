@@ -38,7 +38,7 @@ export const PSALMS_123: RichChapterContent = {
           kind: 'commentary',
           id: 'ps123-lift',
           html:
-            'The image is immediate and visceral. The psalmist lifts his eyes not to the earth or to the counsel of men, but to the heavens where God dwells. This is not merely a gesture of prayer, but a posture of worship—the body oriented toward heaven, the gaze fixed upward, the self extended toward the transcendent.',
+            'The image is immediate and visceral. The psalmist lifts his eyes not to the earth or to the counsel of men, but to the heavens where God dwells. This is not merely a gesture of prayer, but a posture of worship—the body oriented toward heaven, the gaze fixed upward, the self extended toward the transcendent. [res:sefaria-psalm-123]',
         },
         {
           kind: 'commentary',
@@ -57,7 +57,7 @@ export const PSALMS_123: RichChapterContent = {
           id: 'ps123-christ-gaze',
           title: 'Christ Connection — Looking to Christ',
           html:
-            'Hebrews 12:2 calls Christians to run the race "looking unto Jesus the author and finisher of our faith." As the psalmist fixed his gaze on the hand of the Lord to catch every gesture of mercy, so believers are called to fix their gaze on Christ, the embodiment of God&apos;s mercy, the one from whose hand comes our sustenance and direction. Even in contempt, even in the face of those who scorn, the gaze that is fixed on Christ cannot be shaken.',
+            'Hebrews 12:2 calls Christians to run the race "looking unto Jesus the author and finisher of our faith." As the psalmist fixed his gaze on the hand of the Lord to catch every gesture of mercy, so believers are called to fix their gaze on Christ, the embodiment of God&apos;s mercy, the one from whose hand comes our sustenance and direction. Even in contempt, even in the face of those who scorn, the gaze that is fixed on Christ cannot be shaken. [res:bible-odyssey-psalm-123]',
         },
         {
           kind: 'carry',
@@ -79,4 +79,24 @@ export const PSALMS_123: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 123 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-123',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 123 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.123',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-123',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 123 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+123',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
+
 };

@@ -37,7 +37,7 @@ export const PSALMS_131: RichChapterContent = {
           kind: 'commentary',
           id: 'ps131-haughty',
           html:
-            'The psalmist describes himself through negatives, through what he is not and what he does not do. His heart is not haughty—he does not carry himself with prideful superiority. His eyes are not lofty—he does not gaze upon others with condescension. He does not exercise himself in great matters or in things too high for him. He has made a choice: to acknowledge his limits, to stop striving for what is beyond his reach, to accept his proper place.',
+            'The psalmist describes himself through negatives, through what he is not and what he does not do. His heart is not haughty—he does not carry himself with prideful superiority. His eyes are not lofty—he does not gaze upon others with condescension. He does not exercise himself in great matters or in things too high for him. He has made a choice: to acknowledge his limits, to stop striving for what is beyond his reach, to accept his proper place. [res:sefaria-psalm-131]',
         },
         {
           kind: 'commentary',
@@ -56,7 +56,7 @@ export const PSALMS_131: RichChapterContent = {
           id: 'ps131-christ-child',
           title: 'Christ Connection — Childlike Trust',
           html:
-            'Jesus taught His disciples: "Except ye be converted, and become as little children, ye shall not enter into the kingdom of heaven" (Matt 18:3). He praised the humility and trust of children. The weaned child in Psalm 131 is not helpless or dependent in a diminishing sense. It is free. Free from the desperation of the nursing babe, free from the need to grasp, free to rest and trust. This is the freedom Jesus offers—not the striving of those trying to prove themselves, but the rest of those who have surrendered to the Father&apos;s care.',
+            'Jesus taught His disciples: "Except ye be converted, and become as little children, ye shall not enter into the kingdom of heaven" (Matt 18:3). He praised the humility and trust of children. The weaned child in Psalm 131 is not helpless or dependent in a diminishing sense. It is free. Free from the desperation of the nursing babe, free from the need to grasp, free to rest and trust. This is the freedom Jesus offers—not the striving of those trying to prove themselves, but the rest of those who have surrendered to the Father&apos;s care. [res:bible-odyssey-psalm-131]',
         },
         {
           kind: 'carry',
@@ -78,4 +78,24 @@ export const PSALMS_131: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 131 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-131',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 131 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.131',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-131',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 131 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+131',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
+
 };

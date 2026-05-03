@@ -42,7 +42,7 @@ export const PSALMS_107: RichChapterContent = {
           kind: 'commentary',
           id: 'ps107-lostness-to-captivity',
           html:
-            'The first scene—wanderers lost in the wilderness—concludes with deliverance and the call to give thanks. Now the second scene begins: captives in darkness and chains. Each subsequent scene will repeat the same pattern: deepening trouble, desperate prayer, and God&apos;s saving response.',
+            'The first scene—wanderers lost in the wilderness—concludes with deliverance and the call to give thanks. Now the second scene begins: captives in darkness and chains. Each subsequent scene will repeat the same pattern: deepening trouble, desperate prayer, and God&apos;s saving response. [res:sefaria-psalm-107]',
         },
         {
           kind: 'scripture',
@@ -94,7 +94,7 @@ export const PSALMS_107: RichChapterContent = {
           id: 'ps107-christ',
           title: 'Christ Connection — The Word That Heals',
           html:
-            'Verse 20 says: "He sent his word, and healed them." John opens his Gospel with: "In the beginning was the Word, and the Word was God" (John 1:1–3). Jesus is that Word made flesh. He stilled the storm with a single command: "Peace, be still" (Mark 4:39)—the same God who quiets the sea here. He healed the sick, freed the captives, and spoke to those sitting in darkness. When sailors cry in a storm, when the sick cry for healing, when captives cry for freedom—they cry out to the One who does these things. Christ is the fulfillment of every deliverance promised in this psalm.',
+            'Verse 20 says: "He sent his word, and healed them." John opens his Gospel with: "In the beginning was the Word, and the Word was God" (John 1:1–3). Jesus is that Word made flesh. He stilled the storm with a single command: "Peace, be still" (Mark 4:39)—the same God who quiets the sea here. He healed the sick, freed the captives, and spoke to those sitting in darkness. When sailors cry in a storm, when the sick cry for healing, when captives cry for freedom—they cry out to the One who does these things. Christ is the fulfillment of every deliverance promised in this psalm. [res:bible-odyssey-psalm-107]',
         },
         {
           kind: 'carry',
@@ -115,6 +115,25 @@ export const PSALMS_107: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 107 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-107',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 107 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.107',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-107',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 107 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+107',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

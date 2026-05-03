@@ -40,7 +40,7 @@ export const PSALMS_105: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-105-78mid-1',
           html:
-            'Invitation to praise and give thanks opens into recital of covenant and deliverance from Egypt. Song becomes story.',
+            'Invitation to praise and give thanks opens into recital of covenant and deliverance from Egypt. Song becomes story. [res:sefaria-psalm-105]',
         },
         {
           kind: 'scripture',
@@ -140,7 +140,7 @@ export const PSALMS_105: RichChapterContent = {
           id: 'ps105-christ-covenant',
           title: 'Christ Connection — The New Covenant Fulfilled',
           html:
-            'Every covenant in the Old Testament finds its fulfillment in Christ. The covenant with Abraham promises blessing through the seed—Christ. The covenant through Moses points to Christ, the prophet like Moses. The promised land prefigures the kingdom of Christ. And Christ Himself is the final deliverance: through His sacrifice, we are freed from slavery to sin and brought into the promised inheritance of God&apos;s kingdom. Every act of God in the history remembered by this psalm is a foreshadowing of His final, decisive act in Christ.',
+            'Every covenant in the Old Testament finds its fulfillment in Christ. The covenant with Abraham promises blessing through the seed—Christ. The covenant through Moses points to Christ, the prophet like Moses. The promised land prefigures the kingdom of Christ. And Christ Himself is the final deliverance: through His sacrifice, we are freed from slavery to sin and brought into the promised inheritance of God&apos;s kingdom. Every act of God in the history remembered by this psalm is a foreshadowing of His final, decisive act in Christ. [res:bible-odyssey-psalm-105]',
         },
         {
           kind: 'carry',
@@ -161,6 +161,25 @@ export const PSALMS_105: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 105 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-105',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 105 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.105',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-105',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 105 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+105',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

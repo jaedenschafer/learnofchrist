@@ -40,7 +40,7 @@ export const PSALMS_86: RichChapterContent = {
           kind: 'commentary',
           id: 'ps86-prayer-faith',
           html:
-            'The prayer rises. Now the reason emerges—for you, O Lord, are good and forgiving.',
+            'The prayer rises. Now the reason emerges—for you, O Lord, are good and forgiving. [res:sefaria-psalm-86]',
         },
         {
           kind: 'scripture',
@@ -128,7 +128,7 @@ export const PSALMS_86: RichChapterContent = {
           id: 'ps86-christ-way',
           title: 'Christ Connection — The Way',
           html:
-            'In John 14:6, Jesus says, "I am the way, the truth, and the life." When the psalmist asks God to teach him His way, he is asking for what Christ embodies. Jesus is the way. To follow Christ is to walk in God&apos;s truth, to live by the deepest truth about reality, about God, about ourselves.',
+            'In John 14:6, Jesus says, "I am the way, the truth, and the life." When the psalmist asks God to teach him His way, he is asking for what Christ embodies. Jesus is the way. To follow Christ is to walk in God&apos;s truth, to live by the deepest truth about reality, about God, about ourselves. [res:bible-odyssey-psalm-86]',
         },
         {
           kind: 'carry',
@@ -149,6 +149,25 @@ export const PSALMS_86: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 86 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-86',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 86 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.86',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-86',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 86 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+86',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

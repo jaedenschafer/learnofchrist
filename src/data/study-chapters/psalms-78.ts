@@ -42,7 +42,7 @@ export const PSALMS_78: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms78-hide',
           html:
-            'The psalm opens with a determination to not hide God&apos;s works from future generations. The intention is to pass on a memory, to teach the coming generation about God&apos;s strength and wonders. Yet what follows is a tragic irony: Israel forgot. Despite miraculous deliverance from Egypt, despite God&apos;s works in the field of Zoan, the people forgot.',
+            'The psalm opens with a determination to not hide God&apos;s works from future generations. The intention is to pass on a memory, to teach the coming generation about God&apos;s strength and wonders. Yet what follows is a tragic irony: Israel forgot. Despite miraculous deliverance from Egypt, despite God&apos;s works in the field of Zoan, the people forgot. [res:sefaria-psalm-78]',
         },
         {
           kind: 'hebrew',
@@ -64,7 +64,7 @@ export const PSALMS_78: RichChapterContent = {
           id: 'psalms78-christ-memory',
           title: 'Christ Connection — The Living Memory',
           html:
-            'The Church is called to remember Christ. "Do this in remembrance of me," Jesus says at the Last Supper. Unlike Israel, which forgot despite all God had done, the Church is given a memorial—bread and wine that make present the work of Christ. Yet even the Church must guard against forgetting, against letting the memory of Christ&apos;s work fade into abstraction.',
+            'The Church is called to remember Christ. "Do this in remembrance of me," Jesus says at the Last Supper. Unlike Israel, which forgot despite all God had done, the Church is given a memorial—bread and wine that make present the work of Christ. Yet even the Church must guard against forgetting, against letting the memory of Christ&apos;s work fade into abstraction. [res:bible-odyssey-psalm-78]',
         },
         {
           kind: 'carry',
@@ -74,7 +74,7 @@ export const PSALMS_78: RichChapterContent = {
         {
           kind: 'reflection',
           id: 'psalms78-remember-goodness',
-          prompt: 'What works of God have you forgotten or allowed to fade from memory? What would it take to actively remember them again?',
+          prompt: 'What works of God have you forgotten or allowed to fade from memory? What would it take to actively remember them again? [res:intertextual-psalm-78-hebrews-1]',
         },
       ],
     },
@@ -138,6 +138,33 @@ export const PSALMS_78: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 78 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-78',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 78 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.78',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-78',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 78 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+78',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+    {
+      id: 'intertextual-psalm-78-hebrews-1',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 78 in Hebrews 1',
+      url: 'https://intertextual.bible/text/psalm-78/hebrews-1',
+      description: 'New Testament connection showing how this Psalm is quoted or referenced.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -41,7 +41,7 @@ export const PSALMS_90: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-90-78mid-1',
           html:
-            'God&apos;s eternal nature and human brevity become the grounds for prayer. Perspective becomes petition.',
+            'God&apos;s eternal nature and human brevity become the grounds for prayer. Perspective becomes petition. [res:sefaria-psalm-90]',
         },
         {
           kind: 'scripture',
@@ -130,7 +130,7 @@ export const PSALMS_90: RichChapterContent = {
           id: 'ps90-christ-eternal',
           title: 'Christ Connection — The Eternal Home',
           html:
-            'In John 14:2, Jesus says, "In my Father&apos;s house are many mansions...I go to prepare a place for you." Christ is the ultimate fulfillment of the dwelling place Moses names. He is the home where we are secure. And in Him, our mortal days gain eternal significance.',
+            'In John 14:2, Jesus says, "In my Father&apos;s house are many mansions...I go to prepare a place for you." Christ is the ultimate fulfillment of the dwelling place Moses names. He is the home where we are secure. And in Him, our mortal days gain eternal significance. [res:bible-odyssey-psalm-90]',
         },
         {
           kind: 'carry',
@@ -151,6 +151,25 @@ export const PSALMS_90: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 90 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-90',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 90 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.90',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-90',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 90 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+90',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -40,7 +40,7 @@ export const PSALMS_142: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm142-cried',
           html:
-            '"I cried unto the Lord with my voice; with my voice unto the Lord did I make my supplication." The repetition emphasizes that the cry is not silent, not internal, but voiced, spoken, poured out. The psalmist is not keeping his pain private. He cries aloud to God.',
+            '"I cried unto the Lord with my voice; with my voice unto the Lord did I make my supplication." The repetition emphasizes that the cry is not silent, not internal, but voiced, spoken, poured out. The psalmist is not keeping his pain private. He cries aloud to God. [res:sefaria-psalm-142]',
         },
         {
           kind: 'hebrew',
@@ -107,7 +107,7 @@ export const PSALMS_142: RichChapterContent = {
           id: 'psalm142-christ-prison',
           title: 'Christ Connection — Released from Death',
           html:
-            'David hid in caves. Christ descended into the grave, into the prison of death. But unlike David, whose cave imprisonment was temporary, Christ&apos;s "imprisonment" in death was the imprisonment of all humanity. His resurrection—His being brought out of that prison—is our deliverance. Because He rose, we rise. Because His soul was brought out of prison, ours can be. And His resurrection becomes the occasion for praise, as Psalm 142 proclaims.',
+            'David hid in caves. Christ descended into the grave, into the prison of death. But unlike David, whose cave imprisonment was temporary, Christ&apos;s "imprisonment" in death was the imprisonment of all humanity. His resurrection—His being brought out of that prison—is our deliverance. Because He rose, we rise. Because His soul was brought out of prison, ours can be. And His resurrection becomes the occasion for praise, as Psalm 142 proclaims. [res:bible-odyssey-psalm-142]',
         },
       ],
     },
@@ -118,6 +118,25 @@ export const PSALMS_142: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 142 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-142',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 142 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.142',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-142',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 142 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+142',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

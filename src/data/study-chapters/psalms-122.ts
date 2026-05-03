@@ -37,7 +37,7 @@ export const PSALMS_122: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-122-78mid-1',
           html:
-            'Joy at entering Jerusalem&apos;s gates opens into prayer for its peace and blessing. Arrival becomes intercession.',
+            'Joy at entering Jerusalem&apos;s gates opens into prayer for its peace and blessing. Arrival becomes intercession. [res:sefaria-psalm-122]',
         },
         {
           kind: 'scripture',
@@ -72,7 +72,7 @@ export const PSALMS_122: RichChapterContent = {
           id: 'ps122-christ-house',
           title: 'Christ Connection — The House of God',
           html:
-            'Jesus declared Himself to be the true temple (John 2:19–21). Where the Old Covenant temple was a place where God dwelt, Christ is the living house of God, the place where heaven and earth meet. "I am the door," He said (John 10:7–9). To enter into Christ is to enter into the house of God. To gather in His name is to find the unity that Jerusalem symbolized—the scattered made one, the broken made whole, all nations gathering before the God who dwells in flesh.',
+            'Jesus declared Himself to be the true temple (John 2:19–21). Where the Old Covenant temple was a place where God dwelt, Christ is the living house of God, the place where heaven and earth meet. "I am the door," He said (John 10:7–9). To enter into Christ is to enter into the house of God. To gather in His name is to find the unity that Jerusalem symbolized—the scattered made one, the broken made whole, all nations gathering before the God who dwells in flesh. [res:bible-odyssey-psalm-122]',
         },
         {
           kind: 'carry',
@@ -94,4 +94,24 @@ export const PSALMS_122: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 122 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-122',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 122 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.122',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-122',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 122 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+122',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
+
 };

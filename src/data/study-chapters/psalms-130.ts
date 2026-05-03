@@ -40,7 +40,7 @@ export const PSALMS_130: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-130-78mid-1',
           html:
-            'Cry from the depths for forgiveness opens into waiting and hope in God&apos;s redemption. Desperation becomes trust.',
+            'Cry from the depths for forgiveness opens into waiting and hope in God&apos;s redemption. Desperation becomes trust. [res:sefaria-psalm-130]',
         },
         {
           kind: 'scripture',
@@ -87,7 +87,7 @@ export const PSALMS_130: RichChapterContent = {
           id: 'ps130-christ-redemption',
           title: 'Christ Connection — Plenteous Redemption',
           html:
-            'The psalmist declares: "With the Lord there is mercy, and with him is plenteous redemption." This redemption is fully realized in Christ. He is the mercy of God made flesh, the forgiveness incarnate, the redemption purchased at infinite cost. His death pays the debt that the psalmist cannot pay. His rising offers a way out of the depths that human power cannot provide. In Christ, the impossible becomes real: the forgiven stand before God, not because they have earned innocence, but because their guilt has been transferred and borne by another.',
+            'The psalmist declares: "With the Lord there is mercy, and with him is plenteous redemption." This redemption is fully realized in Christ. He is the mercy of God made flesh, the forgiveness incarnate, the redemption purchased at infinite cost. His death pays the debt that the psalmist cannot pay. His rising offers a way out of the depths that human power cannot provide. In Christ, the impossible becomes real: the forgiven stand before God, not because they have earned innocence, but because their guilt has been transferred and borne by another. [res:bible-odyssey-psalm-130]',
         },
         {
           kind: 'carry',
@@ -109,4 +109,24 @@ export const PSALMS_130: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 130 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-130',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 130 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.130',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-130',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 130 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+130',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
+
 };

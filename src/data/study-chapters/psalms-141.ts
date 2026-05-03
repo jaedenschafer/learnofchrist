@@ -39,7 +39,7 @@ export const PSALMS_141: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm141-cry',
           html:
-            '"Lord, I cry unto thee: make haste unto me; give ear unto my voice, when I cry unto thee." The psalmist begins with urgency. He cries. He asks God to hear quickly. Not as if God is slow or reluctant, but to express the intensity of need. And the attention to God&apos;s hearing—"give ear unto my voice"—suggests that being heard matters deeply.',
+            '"Lord, I cry unto thee: make haste unto me; give ear unto my voice, when I cry unto thee." The psalmist begins with urgency. He cries. He asks God to hear quickly. Not as if God is slow or reluctant, but to express the intensity of need. And the attention to God&apos;s hearing—"give ear unto my voice"—suggests that being heard matters deeply. [res:sefaria-psalm-141]',
         },
         {
           kind: 'hebrew',
@@ -115,7 +115,7 @@ export const PSALMS_141: RichChapterContent = {
           id: 'psalm141-christ-intercession',
           title: 'Christ Connection — Prayer as Incense in Heaven',
           html:
-            'In Revelation 5:8, John writes: "The four living creatures and the twenty-four elders fell before the Lamb, each holding a harp and golden bowls full of incense, which are the prayers of the saints." In heaven, the prayers of believers rise as incense before the throne. Christ intercedes for us, and our prayers, joined with His intercession, ascend as a sweet fragrance before the Father. This is the fulfillment of the psalmist&apos;s image.',
+            'In Revelation 5:8, John writes: "The four living creatures and the twenty-four elders fell before the Lamb, each holding a harp and golden bowls full of incense, which are the prayers of the saints." In heaven, the prayers of believers rise as incense before the throne. Christ intercedes for us, and our prayers, joined with His intercession, ascend as a sweet fragrance before the Father. This is the fulfillment of the psalmist&apos;s image. [res:bible-odyssey-psalm-141]',
         },
       ],
     },
@@ -126,6 +126,25 @@ export const PSALMS_141: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 141 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-141',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 141 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.141',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-141',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 141 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+141',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

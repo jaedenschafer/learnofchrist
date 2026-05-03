@@ -54,7 +54,7 @@ export const PSALMS_97: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms97-reigneth',
-          html: '"The Lord reigneth; let the earth rejoice; let the multitude of isles be glad thereof." The affirmation is absolute: The Lord reigns. And the proper response of all creation is joy. Not fear or trembling, but rejoicing. Even the islands—the distant, remote places—are called to be glad. God&apos;s reign extends everywhere.',
+          html: '"The Lord reigneth; let the earth rejoice; let the multitude of isles be glad thereof." The affirmation is absolute: The Lord reigns. [res:sefaria-psalm-97] And the proper response of all creation is joy. Not fear or trembling, but rejoicing. Even the islands—the distant, remote places—are called to be glad. God&apos;s reign extends everywhere.',
         },
         {
           kind: 'commentary',
@@ -81,7 +81,7 @@ export const PSALMS_97: RichChapterContent = {
           id: 'ps97-christ',
           title: 'Christ Connection — The Lord Enthroned',
           html:
-            'Hebrews quotes Psalm 97 directly about Jesus: "Let all the angels of God worship him" (Heb. 1:6, citing v. 7). The clouds and fire, the lightning and the shaking earth—they all announce a King. And Jesus took these images for His own return: "As the lightning cometh out of the east, and shineth even unto the west; so shall also the coming of the Son of man be" (Matt. 24:27). He will appear on the clouds with power and great glory (Rev. 1:7). The enthronement described here is His.',
+            'Hebrews quotes Psalm 97 directly about Jesus: "Let all the angels of God worship him" (Heb. 1:6, citing v. 7). The clouds and fire, the lightning and the shaking earth—they all announce a King. And Jesus took these images for His own return: "As the lightning cometh out of the east, and shineth even unto the west; so shall also the coming of the Son of man be" (Matt. 24:27). He will appear on the clouds with power and great glory (Rev. 1:7). The enthronement described here is His. [res:bible-odyssey-psalm-97]',
         },
         {
           kind: 'carry',
@@ -101,6 +101,25 @@ export const PSALMS_97: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 97 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-97',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 97 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.97',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-97',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 97 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+97',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: false,
 };

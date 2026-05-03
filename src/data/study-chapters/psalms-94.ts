@@ -57,7 +57,7 @@ export const PSALMS_94: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms94-vengeance',
-          html: '"O Lord God, to whom vengeance belongeth; O God, to whom vengeance belongeth, shew thyself." The psalmist does not take justice into his own hands. He appeals to God. He calls on God to show Himself, to reveal Himself, to act. Justice belongs to God alone. And the plea is: Show Yourself. Act. Do not remain hidden.',
+          html: '"O Lord God, to whom vengeance belongeth; O God, to whom vengeance belongeth, shew thyself." The psalmist does not take justice into his own hands. [res:sefaria-psalm-94] He appeals to God. He calls on God to show Himself, to reveal Himself, to act. Justice belongs to God alone. And the plea is: Show Yourself. Act. Do not remain hidden.',
         },
         {
           kind: 'commentary',
@@ -78,7 +78,7 @@ export const PSALMS_94: RichChapterContent = {
           kind: 'christ',
           id: 'psalms94-christ-judge',
           title: 'Christ Connection — Christ, the Judge Who Sees',
-          html: 'Christ comes as the one who sees what is hidden, who hears the cry of the suffering, who knows the hearts of the oppressor and the oppressed. His death and resurrection are God&apos;s judgment on injustice. He stands with the widow, the stranger, the fatherless. And in the end, all hidden things will be revealed. All injustice will be judged. All tears will be seen by a God who hears.',
+          html: 'Christ comes as the one who sees what is hidden, who hears the cry of the suffering, who knows the hearts of the oppressor and the oppressed. His death and resurrection are God&apos;s judgment on injustice. He stands with the widow, the stranger, the fatherless. And in the end, all hidden things will be revealed. All injustice will be judged. All tears will be seen by a God who hears. [res:bible-odyssey-psalm-94]',
         },
         {
           kind: 'carry',
@@ -98,6 +98,25 @@ export const PSALMS_94: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 94 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-94',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 94 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.94',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-94',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 94 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+94',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: false,
 };

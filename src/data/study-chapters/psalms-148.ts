@@ -42,7 +42,7 @@ export const PSALMS_148: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm148-heaven',
           html:
-            '"Praise ye the Lord from the heavens." The call begins at the highest point—in heaven itself, where God&apos;s throne dwells. The heavens are summoned to praise. "Praise ye him, all his angels: praise ye him, all his hosts." The angels, the heavenly armies, are called to praise. These are the beings closest to God, witnesses of His glory in every moment.',
+            '"Praise ye the Lord from the heavens." The call begins at the highest point—in heaven itself, where God&apos;s throne dwells. The heavens are summoned to praise. "Praise ye him, all his angels: praise ye him, all his hosts." The angels, the heavenly armies, are called to praise. These are the beings closest to God, witnesses of His glory in every moment. [res:sefaria-psalm-148]',
         },
         {
           kind: 'hebrew',
@@ -138,7 +138,7 @@ export const PSALMS_148: RichChapterContent = {
           id: 'psalm148-christ-praise',
           title: 'Christ Connection — Head of All Praise',
           html:
-            'In Colossians 1:16–17, Paul writes: "All things were created by him, and for him: And he is before all things, and by him all things consist." Christ is the one toward whom all creation tends, the one whose glory all creation reflects. In Him, the cosmic chorus reaches its center and finds its meaning.',
+            'In Colossians 1:16–17, Paul writes: "All things were created by him, and for him: And he is before all things, and by him all things consist." Christ is the one toward whom all creation tends, the one whose glory all creation reflects. In Him, the cosmic chorus reaches its center and finds its meaning. [res:bible-odyssey-psalm-148]',
         },
       ],
     },
@@ -149,6 +149,25 @@ export const PSALMS_148: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 148 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-148',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 148 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.148',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-148',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 148 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+148',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

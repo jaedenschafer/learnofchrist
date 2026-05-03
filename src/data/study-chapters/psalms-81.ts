@@ -40,7 +40,7 @@ export const PSALMS_81: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms81-sing',
           html:
-            'The psalm opens with a call to celebration. "Sing aloud unto God our strength." This is not quiet worship. This is exuberant, vocal, public celebration. The joy is so full that it cannot be contained. It demands expression. And this joy is directed toward God, who is the source of all strength.',
+            'The psalm opens with a call to celebration. "Sing aloud unto God our strength." This is not quiet worship. This is exuberant, vocal, public celebration. The joy is so full that it cannot be contained. It demands expression. And this joy is directed toward God, who is the source of all strength. [res:sefaria-psalm-81]',
         },
         {
           kind: 'hebrew',
@@ -68,7 +68,7 @@ export const PSALMS_81: RichChapterContent = {
           id: 'psalms81-christ-abundantly',
           title: 'Christ Connection — Abundantly More',
           html:
-            'Paul writes: "Now unto him that is able to do exceeding abundantly above all that we ask or think." Christ does not measure out His grace in rationed amounts. He gives abundantly, exceedingly, above all we can ask or imagine. The same God who filled the mouth of Israel with manna in the wilderness invites us to open ourselves to receive His abundant grace through Christ.',
+            'Paul writes: "Now unto him that is able to do exceeding abundantly above all that we ask or think." Christ does not measure out His grace in rationed amounts. He gives abundantly, exceedingly, above all we can ask or imagine. The same God who filled the mouth of Israel with manna in the wilderness invites us to open ourselves to receive His abundant grace through Christ. [res:bible-odyssey-psalm-81]',
         },
         {
           kind: 'carry',
@@ -142,6 +142,25 @@ export const PSALMS_81: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 81 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-81',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 81 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.81',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-81',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 81 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+81',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

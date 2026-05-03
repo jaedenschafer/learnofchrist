@@ -38,7 +38,7 @@ export const PSALMS_121: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-121-78mid-1',
           html:
-            'Trust that help comes from the Lord shifts to assurance of His keeping. Question becomes confidence.',
+            'Trust that help comes from the Lord shifts to assurance of His keeping. Question becomes confidence. [res:sefaria-psalm-121]',
         },
         {
           kind: 'scripture',
@@ -73,7 +73,7 @@ export const PSALMS_121: RichChapterContent = {
           id: 'ps121-christ-keeper',
           title: 'Christ Connection — Our Keeper',
           html:
-            'Christ claimed in John 10:28–29 that His sheep will never be snatched out of His hand because the Father is greater. The vision of Psalm 121—a Keeper who never sleeps, who preserves from all evil, whose protection is eternal—is fulfilled in Christ. He is the Shepherd who watches the flock; He is the one who neither slumbers nor sleeps on our behalf.',
+            'Christ claimed in John 10:28–29 that His sheep will never be snatched out of His hand because the Father is greater. The vision of Psalm 121—a Keeper who never sleeps, who preserves from all evil, whose protection is eternal—is fulfilled in Christ. He is the Shepherd who watches the flock; He is the one who neither slumbers nor sleeps on our behalf. [res:bible-odyssey-psalm-121]',
         },
         {
           kind: 'carry',
@@ -95,4 +95,24 @@ export const PSALMS_121: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 121 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-121',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 121 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.121',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-121',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 121 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+121',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
+
 };

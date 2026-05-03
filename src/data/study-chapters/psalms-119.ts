@@ -43,7 +43,7 @@ export const PSALMS_119: RichChapterContent = {
           kind: 'commentary',
           id: 'ps119-undefiled',
           html:
-            'The opening word "Blessed" returns the reader to Psalm 1—blessed is the man who walks in God&apos;s law, turning away from ungodliness. But here the focus intensifies: the psalmist is not merely avoiding evil. He is actively choosing to hide God&apos;s word in his heart. To cleanse one&apos;s way is not a matter of external enforcement, but of internal transformation through God&apos;s word. The young man asks: how shall I keep my way pure? The answer: by treasuring God&apos;s word.',
+            'The opening word "Blessed" returns the reader to Psalm 1—blessed is the man who walks in God&apos;s law, turning away from ungodliness. But here the focus intensifies: the psalmist is not merely avoiding evil. He is actively choosing to hide God&apos;s word in his heart. To cleanse one&apos;s way is not a matter of external enforcement, but of internal transformation through God&apos;s word. The young man asks: how shall I keep my way pure? The answer: by treasuring God&apos;s word. [res:sefaria-psalm-119]',
         },
         {
           kind: 'commentary',
@@ -183,7 +183,7 @@ export const PSALMS_119: RichChapterContent = {
           id: 'ps119-christ-word',
           title: 'Christ Connection — The Word Made Flesh',
           html:
-            'John 1:14 declares: "The Word was made flesh, and dwelt among us." The entire psalmist&apos;s meditation—his love of God&apos;s word, his hiding it in his heart, his feeding on it as though it were sweet to the taste—finds its ultimate fulfillment in Jesus Christ. He is the Word in person, the truth in embodied form, the light that guides into all truth, the wisdom of God expressed not in rules, but in a Person. To love Christ is to love the Word made flesh.',
+            'John 1:14 declares: "The Word was made flesh, and dwelt among us." The entire psalmist&apos;s meditation—his love of God&apos;s word, his hiding it in his heart, his feeding on it as though it were sweet to the taste—finds its ultimate fulfillment in Jesus Christ. He is the Word in person, the truth in embodied form, the light that guides into all truth, the wisdom of God expressed not in rules, but in a Person. To love Christ is to love the Word made flesh. [res:bible-odyssey-psalm-119]',
         },
       ],
     },
@@ -265,6 +265,25 @@ export const PSALMS_119: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 119 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-119',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 119 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.119',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-119',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 119 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+119',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

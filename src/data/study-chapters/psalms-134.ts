@@ -45,7 +45,7 @@ export const PSALMS_134: RichChapterContent = {
           kind: 'commentary',
           id: 'ps134-hands',
           html:
-            '"Lift up your hands in the sanctuary, and bless the Lord." Hands lifted in the darkness—a gesture of surrender, of praise, of offering. The hands are empty. They have nothing to bring but themselves. Yet this emptiness is the condition of true blessing. To bless the Lord is to acknowledge His worth, to declare His greatness, to give Him honor that costs nothing but the willingness to stand in the darkness and give Him praise.',
+            '"Lift up your hands in the sanctuary, and bless the Lord." Hands lifted in the darkness—a gesture of surrender, of praise, of offering. The hands are empty. They have nothing to bring but themselves. Yet this emptiness is the condition of true blessing. To bless the Lord is to acknowledge His worth, to declare His greatness, to give Him honor that costs nothing but the willingness to stand in the darkness and give Him praise. [res:sefaria-psalm-134]',
         },
         {
           kind: 'commentary',
@@ -58,7 +58,7 @@ export const PSALMS_134: RichChapterContent = {
           id: 'ps134-christ-priest',
           title: 'Christ Connection — The Eternal Night Watch',
           html:
-            'Hebrews 7:25 declares that Christ, as our eternal high priest, "ever liveth to make intercession for us." Even now, Christ stands in the heavenly sanctuary, making intercession, blessing us before the Father. In a sense, Christ is the eternal night-watcher, keeping vigil on our behalf, standing in the presence of God with hands lifted in blessing for all who believe in Him. Those who follow Him are invited to join that night-watch, offering their own praise and intercession in union with His.',
+            'Hebrews 7:25 declares that Christ, as our eternal high priest, "ever liveth to make intercession for us." Even now, Christ stands in the heavenly sanctuary, making intercession, blessing us before the Father. In a sense, Christ is the eternal night-watcher, keeping vigil on our behalf, standing in the presence of God with hands lifted in blessing for all who believe in Him. Those who follow Him are invited to join that night-watch, offering their own praise and intercession in union with His. [res:bible-odyssey-psalm-134]',
         },
         {
           kind: 'carry',
@@ -80,4 +80,24 @@ export const PSALMS_134: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 134 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-134',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 134 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.134',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-134',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 134 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+134',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
+
 };

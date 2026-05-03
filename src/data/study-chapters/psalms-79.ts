@@ -39,7 +39,7 @@ export const PSALMS_79: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms79-inheritance',
           html:
-            'The psalm opens with a statement of violation. "The heathen are come into thine inheritance." This is not merely military defeat. This is sacred violation. God&apos;s own inheritance, the land He promised to His people, has been occupied by those who do not know Him. His holy temple, the dwelling place of His name, has been desecrated.',
+            'The psalm opens with a statement of violation. "The heathen are come into thine inheritance." This is not merely military defeat. This is sacred violation. God&apos;s own inheritance, the land He promised to His people, has been occupied by those who do not know Him. His holy temple, the dwelling place of His name, has been desecrated. [res:sefaria-psalm-79]',
         },
         {
           kind: 'hebrew',
@@ -67,7 +67,7 @@ export const PSALMS_79: RichChapterContent = {
           id: 'psalms79-christ-defiled',
           title: 'Christ Connection — The Defiled and Raised',
           html:
-            'Christ&apos;s body was treated with the ultimate disrespect. He was crucified outside the city. His tomb was sealed by His enemies. And yet His body was not left to the birds and beasts. He was buried, and from that burial, He rose. His resurrection is the ultimate vindication, the reversal of every defilement. What was desecrated is made holy.',
+            'Christ&apos;s body was treated with the ultimate disrespect. He was crucified outside the city. His tomb was sealed by His enemies. And yet His body was not left to the birds and beasts. He was buried, and from that burial, He rose. His resurrection is the ultimate vindication, the reversal of every defilement. What was desecrated is made holy. [res:bible-odyssey-psalm-79]',
         },
         {
           kind: 'carry',
@@ -140,6 +140,25 @@ export const PSALMS_79: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 79 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-79',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 79 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.79',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-79',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 79 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+79',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

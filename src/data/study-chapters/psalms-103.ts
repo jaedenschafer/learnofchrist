@@ -39,7 +39,7 @@ export const PSALMS_103: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-103-78mid-1',
           html:
-            'Call to bless the Lord for His benefits opens into account of His character. Gratitude becomes theology.',
+            'Call to bless the Lord for His benefits opens into account of His character. Gratitude becomes theology. [res:sefaria-psalm-103]',
         },
         {
           kind: 'scripture',
@@ -154,7 +154,7 @@ export const PSALMS_103: RichChapterContent = {
           id: 'ps103-christ-mercy',
           title: 'Christ Connection — God&apos;s Everlasting Compassion',
           html:
-            'God&apos;s mercy, which the psalmist describes as everlasting and vast, is ultimately revealed in Christ. Jesus, moved by compassion, healed the sick, forgave the sinner, raised the dead. He came not to judge but to forgive. And on the cross, He bore the full weight of judgment so that we could receive full measure of mercy. His incarnation and death are God saying to humanity: "My mercy toward you is so great that I will become like you and suffer your punishment so that you are freed from it." Every act of mercy in Jesus&apos; ministry is a preview of the ultimate mercy accomplished through His sacrifice.',
+            'God&apos;s mercy, which the psalmist describes as everlasting and vast, is ultimately revealed in Christ. Jesus, moved by compassion, healed the sick, forgave the sinner, raised the dead. He came not to judge but to forgive. And on the cross, He bore the full weight of judgment so that we could receive full measure of mercy. His incarnation and death are God saying to humanity: "My mercy toward you is so great that I will become like you and suffer your punishment so that you are freed from it." Every act of mercy in Jesus&apos; ministry is a preview of the ultimate mercy accomplished through His sacrifice. [res:bible-odyssey-psalm-103]',
         },
         {
           kind: 'carry',
@@ -175,6 +175,25 @@ export const PSALMS_103: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 103 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-103',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 103 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.103',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-103',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 103 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+103',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

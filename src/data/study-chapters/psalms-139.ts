@@ -42,7 +42,7 @@ export const PSALMS_139: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm139-searched',
           html:
-            'The opening verb is searching—not a casual glance, but a thorough investigation. "Thou hast searched me, and known me." God has looked into the deepest places, examined all that is hidden, and knows the psalmist completely. Not merely externally, but internally. He knows the sitting down and the rising up—the stillness and the activity. He understands thoughts that the psalmist thinks "afar off"—thoughts not yet spoken, barely formed, farthest from the conscious mind.',
+            'The opening verb is searching—not a casual glance, but a thorough investigation. "Thou hast searched me, and known me." God has looked into the deepest places, examined all that is hidden, and knows the psalmist completely. Not merely externally, but internally. He knows the sitting down and the rising up—the stillness and the activity. He understands thoughts that the psalmist thinks "afar off"—thoughts not yet spoken, barely formed, farthest from the conscious mind. [res:sefaria-psalm-139]',
         },
         {
           kind: 'hebrew',
@@ -156,7 +156,7 @@ export const PSALMS_139: RichChapterContent = {
           id: 'psalm139-christ-known',
           title: 'Christ Connection — Known and Loved Fully',
           html:
-            'In John 10, Jesus says: "I am the good shepherd...and I know my sheep." To be known by Christ is to be claimed, protected, loved. Christ carries the knowledge of God into human form. He knows us not with distant omniscience, but with the intimate knowledge of one who walked among us, suffered with us, loves us. In Christ, the terrifying knowledge of God becomes comfort.',
+            'In John 10, Jesus says: "I am the good shepherd...and I know my sheep." To be known by Christ is to be claimed, protected, loved. Christ carries the knowledge of God into human form. He knows us not with distant omniscience, but with the intimate knowledge of one who walked among us, suffered with us, loves us. In Christ, the terrifying knowledge of God becomes comfort. [res:bible-odyssey-psalm-139]',
         },
       ],
     },
@@ -203,6 +203,25 @@ export const PSALMS_139: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 139 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-139',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 139 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.139',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-139',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 139 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+139',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

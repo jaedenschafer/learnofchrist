@@ -40,7 +40,7 @@ export const PSALMS_137: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm137-babylon',
           html:
-            'The opening image is devastating: by the rivers of Babylon, they sat down and wept. They were far from home, captive, displaced. The rivers of Babylon were not the Jordan. Babylon was not Zion. Yet while they wept, the captors came with a request—a demand, really—for entertainment. Sing for us. Give us your sacred songs. Make us mirth with the music of your god. The cruelty is compounded: they are asked to perform joy while enslaved, to turn their most sacred traditions into entertainment for their oppressors.',
+            'The opening image is devastating: by the rivers of Babylon, they sat down and wept. They were far from home, captive, displaced. The rivers of Babylon were not the Jordan. Babylon was not Zion. Yet while they wept, the captors came with a request—a demand, really—for entertainment. Sing for us. Give us your sacred songs. Make us mirth with the music of your god. The cruelty is compounded: they are asked to perform joy while enslaved, to turn their most sacred traditions into entertainment for their oppressors. [res:sefaria-psalm-137]',
         },
         {
           kind: 'commentary',
@@ -103,7 +103,7 @@ export const PSALMS_137: RichChapterContent = {
           id: 'psalm137-christ-exile',
           title: 'Christ Connection — Christ in Exile and Return',
           html:
-            'Christ knows exile. He was born into a world that did not receive Him. He was rejected, betrayed, crucified far from home—far from the Father&apos;s side, though only briefly. Yet unlike the psalmist&apos;s vision of divine vengeance on enemies, Christ&apos;s response to those who destroyed Him was forgiveness: "Father, forgive them; for they know not what they do." Christ transforms the exile&apos;s cry. The imprecation gives way to redemption.',
+            'Christ knows exile. He was born into a world that did not receive Him. He was rejected, betrayed, crucified far from home—far from the Father&apos;s side, though only briefly. Yet unlike the psalmist&apos;s vision of divine vengeance on enemies, Christ&apos;s response to those who destroyed Him was forgiveness: "Father, forgive them; for they know not what they do." Christ transforms the exile&apos;s cry. The imprecation gives way to redemption. [res:bible-odyssey-psalm-137]',
         },
       ],
     },
@@ -114,6 +114,25 @@ export const PSALMS_137: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 137 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-137',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 137 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.137',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-137',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 137 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+137',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

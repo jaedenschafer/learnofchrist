@@ -41,7 +41,7 @@ export const PSALMS_108: RichChapterContent = {
           kind: 'commentary',
           id: 'ps108-plea-trust',
           html:
-            'The speaker pours out his plea. Now his voice shifts: his trust in God is unshakeable.',
+            'The speaker pours out his plea. Now his voice shifts: his trust in God is unshakeable. [res:sefaria-psalm-108]',
         },
         {
           kind: 'scripture',
@@ -92,7 +92,7 @@ export const PSALMS_108: RichChapterContent = {
           id: 'ps108-christ-nations',
           title: 'Christ Connection — Praise Among All Nations',
           html:
-            'Paul quotes Psalm 108:3 in Romans 15:9 as a proof that Christ&apos;s salvation was always intended for all nations. Christ is the one through whom God&apos;s name is praised among the Gentiles. His work on the cross and His resurrection constitute the ultimate victory that the psalmist celebrates. Through Christ, God&apos;s glory reaches beyond Israel to all peoples.',
+            'Paul quotes Psalm 108:3 in Romans 15:9 as a proof that Christ&apos;s salvation was always intended for all nations. Christ is the one through whom God&apos;s name is praised among the Gentiles. His work on the cross and His resurrection constitute the ultimate victory that the psalmist celebrates. Through Christ, God&apos;s glory reaches beyond Israel to all peoples. [res:bible-odyssey-psalm-108]',
         },
         {
           kind: 'carry',
@@ -113,6 +113,25 @@ export const PSALMS_108: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 108 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-108',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 108 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.108',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-108',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 108 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+108',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

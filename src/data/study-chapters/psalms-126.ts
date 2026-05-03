@@ -41,7 +41,7 @@ export const PSALMS_126: RichChapterContent = {
           kind: 'commentary',
           id: 'ps126-dream',
           html:
-            'The psalmist reaches for the word "dream" to capture the unreality of deliverance. They had been captive so long that freedom seemed impossible, unreal, like the impossible visions of sleep. And then it happened. The Lord acted. The impossible became real. The dream became memory. Yet the sense of wonder persists—how can this be real?',
+            'The psalmist reaches for the word "dream" to capture the unreality of deliverance. They had been captive so long that freedom seemed impossible, unreal, like the impossible visions of sleep. And then it happened. The Lord acted. The impossible became real. The dream became memory. Yet the sense of wonder persists—how can this be real? [res:sefaria-psalm-126]',
         },
         {
           kind: 'commentary',
@@ -66,7 +66,7 @@ export const PSALMS_126: RichChapterContent = {
           id: 'ps126-christ-harvest',
           title: 'Christ Connection — The Harvest of Resurrection',
           html:
-            'John 12:24 records Jesus&apos; teaching: "Except a corn of wheat fall into the ground and die, it abideth alone: but if it die, it bringeth forth much fruit." Christ&apos;s suffering and death were the seed cast into the ground. His resurrection is the harvest, the overflowing sheaves of redemption brought back in rejoicing. Believers follow the same pattern—dying to self, sowing in tears, yet reaping the harvest of eternal life in the resurrection.',
+            'John 12:24 records Jesus&apos; teaching: "Except a corn of wheat fall into the ground and die, it abideth alone: but if it die, it bringeth forth much fruit." Christ&apos;s suffering and death were the seed cast into the ground. His resurrection is the harvest, the overflowing sheaves of redemption brought back in rejoicing. Believers follow the same pattern—dying to self, sowing in tears, yet reaping the harvest of eternal life in the resurrection. [res:bible-odyssey-psalm-126]',
         },
         {
           kind: 'carry',
@@ -88,4 +88,24 @@ export const PSALMS_126: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 126 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-126',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 126 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.126',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-126',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 126 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+126',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
+
 };

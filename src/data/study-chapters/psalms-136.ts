@@ -38,7 +38,7 @@ export const PSALMS_136: RichChapterContent = {
           kind: 'commentary',
           id: 'ps136-thanksgiving-signs',
           html:
-            'Gratitude for God&apos;s enduring mercy begins. Now comes what it made visible: the works of power.',
+            'Gratitude for God&apos;s enduring mercy begins. Now comes what it made visible: the works of power. [res:sefaria-psalm-136]',
         },
         {
           kind: 'scripture',
@@ -150,7 +150,7 @@ export const PSALMS_136: RichChapterContent = {
           id: 'psalm136-christ-mercy',
           title: 'Christ Connection — Mercy Eternal in Christ',
           html:
-            'The apostle Paul writes in Titus 3:4–7: "The kindness and love of God our Savior appeared when the grace of God that brings salvation has appeared to all people...He saved us, not on the basis of deeds which we have done in righteousness, but according to His mercy." All of God&apos;s mercy through history—in creation, in exodus, in covenant—finds its fullness in Christ. He is the display of mercy enduring forever. In Him, the old covenant of mercy gives way to the new covenant of grace.',
+            'The apostle Paul writes in Titus 3:4–7: "The kindness and love of God our Savior appeared when the grace of God that brings salvation has appeared to all people...He saved us, not on the basis of deeds which we have done in righteousness, but according to His mercy." All of God&apos;s mercy through history—in creation, in exodus, in covenant—finds its fullness in Christ. He is the display of mercy enduring forever. In Him, the old covenant of mercy gives way to the new covenant of grace. [res:bible-odyssey-psalm-136]',
         },
       ],
     },
@@ -189,6 +189,25 @@ export const PSALMS_136: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 136 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-136',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 136 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.136',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-136',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 136 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+136',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

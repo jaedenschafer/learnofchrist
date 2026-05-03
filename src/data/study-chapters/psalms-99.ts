@@ -57,7 +57,7 @@ export const PSALMS_99: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms99-reigneth',
-          html: '"The Lord reigneth; let the people tremble: he sitteth between the cherubims." Again, the affirmation of God&apos;s reign. But now the response is to tremble. Not with terror, but with awe, with reverence, with the recognition of God&apos;s awesome greatness. God sits between the cherubim—the throne of God is surrounded by the highest created beings, the guardians of holiness.',
+          html: '"The Lord reigneth; let the people tremble: he sitteth between the cherubims." Again, the affirmation of God&apos;s reign. [res:sefaria-psalm-99] But now the response is to tremble. Not with terror, but with awe, with reverence, with the recognition of God&apos;s awesome greatness. God sits between the cherubim—the throne of God is surrounded by the highest created beings, the guardians of holiness.',
         },
         {
           kind: 'commentary',
@@ -89,7 +89,7 @@ export const PSALMS_99: RichChapterContent = {
           id: 'ps99-christ',
           title: 'Christ Connection — Holy and Approachable',
           html:
-            'Psalm 99 presents a paradox: God enthroned between the cherubim, utterly holy, yet answering those who call (v. 8). Hebrews describes Christ as sitting "on the right hand of the throne of the Majesty in the heavens" (Heb. 8:1), affirming His place of absolute holiness. Yet it also declares: "Let us therefore come boldly unto the throne of grace, that we may obtain mercy, and find grace to help in time of need" (Heb. 4:16). Through Christ, the unapproachable becomes approachable. He is the mediator between the holy God and sinful people (1 Tim. 2:5), fulfilling what Moses and Aaron could only foreshadow.',
+            'Psalm 99 presents a paradox: God enthroned between the cherubim, utterly holy, yet answering those who call (v. 8). Hebrews describes Christ as sitting "on the right hand of the throne of the Majesty in the heavens" (Heb. 8:1), affirming His place of absolute holiness. Yet it also declares: "Let us therefore come boldly unto the throne of grace, that we may obtain mercy, and find grace to help in time of need" (Heb. 4:16). Through Christ, the unapproachable becomes approachable. He is the mediator between the holy God and sinful people (1 Tim. 2:5), fulfilling what Moses and Aaron could only foreshadow. [res:bible-odyssey-psalm-99]',
         },
         {
           kind: 'carry',
@@ -109,6 +109,25 @@ export const PSALMS_99: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 99 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-99',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 99 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.99',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-99',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 99 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+99',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: false,
 };

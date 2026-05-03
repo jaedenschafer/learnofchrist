@@ -39,7 +39,7 @@ export const PSALMS_135: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-135-78mid-1',
           html:
-            'Call to praise the Lord opens into recital of His mighty deeds and call to trust Him. Exhortation becomes narrative.',
+            'Call to praise the Lord opens into recital of His mighty deeds and call to trust Him. Exhortation becomes narrative. [res:sefaria-psalm-135]',
         },
         {
           kind: 'scripture',
@@ -83,7 +83,7 @@ export const PSALMS_135: RichChapterContent = {
           id: 'psalm135-christ-sovereign',
           title: 'Christ Connection — The Sovereign Word',
           html:
-            'In Colossians 1:16–17, Paul writes of Christ: "All things were created by him, and for him: And he is before all things, and by him all things consist." The sovereignty the psalmist praises—the power to order creation, to make the heavens and earth obey His will—is the work of Christ. He is the Word through whom all things were made, and in whom all things hold together. To praise God&apos;s sovereignty over creation is ultimately to praise Christ.',
+            'In Colossians 1:16–17, Paul writes of Christ: "All things were created by him, and for him: And he is before all things, and by him all things consist." The sovereignty the psalmist praises—the power to order creation, to make the heavens and earth obey His will—is the work of Christ. He is the Word through whom all things were made, and in whom all things hold together. To praise God&apos;s sovereignty over creation is ultimately to praise Christ. [res:bible-odyssey-psalm-135]',
         },
       ],
     },
@@ -171,6 +171,25 @@ export const PSALMS_135: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 135 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-135',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 135 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.135',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-135',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 135 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+135',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

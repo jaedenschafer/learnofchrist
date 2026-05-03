@@ -40,7 +40,7 @@ export const PSALMS_127: RichChapterContent = {
           kind: 'commentary',
           id: 'ps127-vanity',
           html:
-            'The word "vain" appears twice in the opening—vain labor, vain watchfulness. Not merely ineffective, but hollow, empty, leading nowhere. The builder who thinks his strength and skill are sufficient will ultimately find his work hollow. The watchman who trusts in his own vigilance will tire and his effort will accomplish nothing lasting. The only labor that is not vain is labor undertaken in the faith that the Lord is the true builder.',
+            'The word "vain" appears twice in the opening—vain labor, vain watchfulness. Not merely ineffective, but hollow, empty, leading nowhere. The builder who thinks his strength and skill are sufficient will ultimately find his work hollow. The watchman who trusts in his own vigilance will tire and his effort will accomplish nothing lasting. The only labor that is not vain is labor undertaken in the faith that the Lord is the true builder. [res:sefaria-psalm-127]',
         },
         {
           kind: 'commentary',
@@ -65,7 +65,7 @@ export const PSALMS_127: RichChapterContent = {
           id: 'ps127-christ-builder',
           title: 'Christ Connection — The Builder',
           html:
-            'Matthew 7:24–25 records Jesus teaching about the wise man who builds upon the rock. In Matthew 16:18, Jesus declares: "Thou art Peter, and upon this rock I will build my church." Christ is the builder. All that He builds will endure. All that is built without reference to Him, for all the human effort and ingenuity expended, will ultimately collapse. Only what is built on Christ, upon the true foundation, will stand.',
+            'Matthew 7:24–25 records Jesus teaching about the wise man who builds upon the rock. In Matthew 16:18, Jesus declares: "Thou art Peter, and upon this rock I will build my church." Christ is the builder. All that He builds will endure. All that is built without reference to Him, for all the human effort and ingenuity expended, will ultimately collapse. Only what is built on Christ, upon the true foundation, will stand. [res:bible-odyssey-psalm-127]',
         },
         {
           kind: 'carry',
@@ -87,4 +87,24 @@ export const PSALMS_127: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 127 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-127',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 127 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.127',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-127',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 127 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+127',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
+
 };

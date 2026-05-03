@@ -40,7 +40,7 @@ export const PSALMS_76: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms76-known',
-          html: 'The psalm begins with a public declaration: God is known, God is great. This is not hidden knowledge or esoteric truth. It is proclaimed openly. And it is made known through God&apos;s mighty acts.',
+          html: 'The psalm begins with a public declaration: God is known, God is great. [res:sefaria-psalm-76] This is not hidden knowledge or esoteric truth. It is proclaimed openly. And it is made known through God&apos;s mighty acts.',
         },
         {
           kind: 'hebrew',
@@ -64,7 +64,7 @@ export const PSALMS_76: RichChapterContent = {
           kind: 'christ',
           id: 'psalms76-christ-feared',
           title: 'Christ Connection — The Awesome King',
-          html: 'Christ is to be feared. He is the one who breaks the power of death and sin. He is glorious and excellent beyond all creation. Yet His fearfulness is not harsh. It is the fearfulness of infinite love, infinite justice, infinite power directed toward salvation.',
+          html: 'Christ is to be feared. He is the one who breaks the power of death and sin. He is glorious and excellent beyond all creation. Yet His fearfulness is not harsh. It is the fearfulness of infinite love, infinite justice, infinite power directed toward salvation. [res:bible-odyssey-psalm-76]',
         },
         {
           kind: 'carry',
@@ -130,6 +130,25 @@ export const PSALMS_76: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 76 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-76',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 76 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.76',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-76',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 76 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+76',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

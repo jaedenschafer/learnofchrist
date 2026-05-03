@@ -41,7 +41,7 @@ export const PSALMS_91: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-91-78mid-1',
           html:
-            'Assurance of protection in God&apos;s shadow opens into explicit promises of deliverance. Security becomes salvation; dwelling becomes rescue.',
+            'Assurance of protection in God&apos;s shadow opens into explicit promises of deliverance. Security becomes salvation; dwelling becomes rescue. [res:sefaria-psalm-91]',
         },
         {
           kind: 'scripture',
@@ -129,7 +129,7 @@ export const PSALMS_91: RichChapterContent = {
           id: 'ps91-christ-temptation',
           title: 'Christ Connection — Temptation in the Wilderness',
           html:
-            'In Matthew 4:5-7, Satan quotes Psalm 91:11-12 to Jesus, saying "He shall give his angels charge over thee," and tempts Jesus to jump from the temple, claiming angels will catch Him. Jesus refuses, saying "It is written again, Thou shalt not tempt the Lord thy God." Jesus knows that God&apos;s protection is not a guarantee against suffering, but a presence within it. True trust does not test God&apos;s promises by deliberately seeking danger.',
+            'In Matthew 4:5-7, Satan quotes Psalm 91:11-12 to Jesus, saying "He shall give his angels charge over thee," and tempts Jesus to jump from the temple, claiming angels will catch Him. Jesus refuses, saying "It is written again, Thou shalt not tempt the Lord thy God." Jesus knows that God&apos;s protection is not a guarantee against suffering, but a presence within it. True trust does not test God&apos;s promises by deliberately seeking danger. [res:bible-odyssey-psalm-91]',
         },
         {
           kind: 'carry',
@@ -150,6 +150,25 @@ export const PSALMS_91: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 91 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-91',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 91 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.91',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-91',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 91 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+91',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

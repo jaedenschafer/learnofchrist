@@ -42,7 +42,7 @@ export const PSALMS_77: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms77-cried',
           html:
-            'The psalm opens with a cry, repeated for emphasis: "I cried unto God with my voice, even unto God with my voice." The repetition itself expresses desperation. He has cried and cried. And yet the very first verse says God gave ear to him. And yet in verse 2, the psalmist says his soul refused to be comforted. God may be listening, but the psalmist cannot feel that listening. He cannot receive consolation.',
+            'The psalm opens with a cry, repeated for emphasis: "I cried unto God with my voice, even unto God with my voice." The repetition itself expresses desperation. He has cried and cried. And yet the very first verse says God gave ear to him. And yet in verse 2, the psalmist says his soul refused to be comforted. God may be listening, but the psalmist cannot feel that listening. He cannot receive consolation. [res:sefaria-psalm-77]',
         },
         {
           kind: 'hebrew',
@@ -64,7 +64,7 @@ export const PSALMS_77: RichChapterContent = {
           id: 'psalms77-christ-darkness',
           title: 'Christ Connection — The Cry of Abandonment',
           html:
-            'On the Cross, Jesus cried out: "My God, my God, why hast thou forsaken me?" He knew the experience of crying out and seeming to receive no answer. He knew the darkness of feeling abandoned. Yet His cry was not the final word. His resurrection was the answer that came after the silence. Trust through darkness is a pattern written into the very heart of the Gospel.',
+            'On the Cross, Jesus cried out: "My God, my God, why hast thou forsaken me?" He knew the experience of crying out and seeming to receive no answer. He knew the darkness of feeling abandoned. Yet His cry was not the final word. His resurrection was the answer that came after the silence. Trust through darkness is a pattern written into the very heart of the Gospel. [res:bible-odyssey-psalm-77]',
         },
         {
           kind: 'carry',
@@ -152,6 +152,25 @@ export const PSALMS_77: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 77 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-77',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 77 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.77',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-77',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 77 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+77',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

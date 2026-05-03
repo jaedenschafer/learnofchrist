@@ -41,7 +41,7 @@ export const PSALMS_83: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms83-silence',
           html:
-            'The psalm opens with an urgent plea: "Keep not thou silence, O God." This is not a gentle request. This is a demand that God break silence, that He not remain neutral or distant. The situation is dire enough that the normal boundaries of reverent address are broken through in the passion of desperation.',
+            'The psalm opens with an urgent plea: "Keep not thou silence, O God." This is not a gentle request. This is a demand that God break silence, that He not remain neutral or distant. The situation is dire enough that the normal boundaries of reverent address are broken through in the passion of desperation. [res:sefaria-psalm-83]',
         },
         {
           kind: 'hebrew',
@@ -69,7 +69,7 @@ export const PSALMS_83: RichChapterContent = {
           id: 'psalms83-christ-anointed',
           title: 'Christ Connection — The Anointed Savior',
           html:
-            'Christ is the Anointed One par excellence. Every alliance against Him—the religious authorities, the Roman state, the powers of darkness—sought to cut Him off from the living. Yet He could not be cut off. His resurrection breaks every conspiracy. And now, seated at God&apos;s right hand, He reigns over all the earth, while every enemy at His feet becomes a footstool.',
+            'Christ is the Anointed One par excellence. Every alliance against Him—the religious authorities, the Roman state, the powers of darkness—sought to cut Him off from the living. Yet He could not be cut off. His resurrection breaks every conspiracy. And now, seated at God&apos;s right hand, He reigns over all the earth, while every enemy at His feet becomes a footstool. [res:bible-odyssey-psalm-83]',
         },
         {
           kind: 'carry',
@@ -143,6 +143,25 @@ export const PSALMS_83: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 83 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-83',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 83 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.83',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-83',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 83 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+83',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

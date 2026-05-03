@@ -39,7 +39,7 @@ export const PSALMS_80: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms80-shepherd',
           html:
-            'The psalm opens with a call to the Shepherd of Israel. God is addressed as the one who leads Israel like a flock, who dwells between the cherubims, the guardian of the holiest place. And yet: "Shine forth." The implication is that God&apos;s light is hidden. The Shepherd is not visible to the flock. The One who dwells in the holiest place seems remote.',
+            'The psalm opens with a call to the Shepherd of Israel. God is addressed as the one who leads Israel like a flock, who dwells between the cherubims, the guardian of the holiest place. And yet: "Shine forth." The implication is that God&apos;s light is hidden. The Shepherd is not visible to the flock. The One who dwells in the holiest place seems remote. [res:sefaria-psalm-80]',
         },
         {
           kind: 'hebrew',
@@ -61,7 +61,7 @@ export const PSALMS_80: RichChapterContent = {
           id: 'psalms80-christ-face',
           title: 'Christ Connection — God&apos;s Face in Christ',
           html:
-            'In 2 Corinthians 4:6, Paul writes: "God, who commanded the light to shine out of darkness, hath shined in our hearts, to give the light of the knowledge of the glory of God in the face of Jesus Christ." Christ is the face of God shining. To see Christ is to see God&apos;s face. In His life, His death, His resurrection, God&apos;s face shines upon us with unambiguous clarity. We are saved by that shining.',
+            'In 2 Corinthians 4:6, Paul writes: "God, who commanded the light to shine out of darkness, hath shined in our hearts, to give the light of the knowledge of the glory of God in the face of Jesus Christ." Christ is the face of God shining. To see Christ is to see God&apos;s face. In His life, His death, His resurrection, God&apos;s face shines upon us with unambiguous clarity. We are saved by that shining. [res:bible-odyssey-psalm-80]',
         },
         {
           kind: 'carry',
@@ -135,6 +135,25 @@ export const PSALMS_80: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 80 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-80',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 80 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.80',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-80',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 80 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+80',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };

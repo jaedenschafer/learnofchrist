@@ -42,7 +42,7 @@ export const PSALMS_150: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm150-sanctuary',
           html:
-            '"Praise God in his sanctuary: praise him in the firmament of his power." The psalm opens with location: praise in the sanctuary—the holy place, God&apos;s dwelling. But also "in the firmament of his power"—in the heavens, where God&apos;s power is displayed. Praise belongs in both places: the inner sanctuary and the outer cosmos.',
+            '"Praise God in his sanctuary: praise him in the firmament of his power." The psalm opens with location: praise in the sanctuary—the holy place, God&apos;s dwelling. But also "in the firmament of his power"—in the heavens, where God&apos;s power is displayed. Praise belongs in both places: the inner sanctuary and the outer cosmos. [res:sefaria-psalm-150]',
         },
         {
           kind: 'hebrew',
@@ -82,7 +82,7 @@ export const PSALMS_150: RichChapterContent = {
           id: 'ps150-christ',
           title: 'Christ Connection — Every Knee and Tongue',
           html:
-            'Psalm 150 envisions a day when every creature, with every instrument, praises the Lord. Paul echoes this: "Every knee should bow...and that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father" (Phil. 2:10–11). Revelation depicts this very scene: "Every creature which is in heaven, and on the earth...heard I saying, Blessing, and honour, and glory, and power, be unto him that sitteth upon the throne, and unto the Lamb for ever and ever" (Rev. 5:13). The climactic praise of Psalm 150 reaches its full expression when all creation bows before the Lamb of God.',
+            'Psalm 150 envisions a day when every creature, with every instrument, praises the Lord. Paul echoes this: "Every knee should bow...and that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father" (Phil. 2:10–11). Revelation depicts this very scene: "Every creature which is in heaven, and on the earth...heard I saying, Blessing, and honour, and glory, and power, be unto him that sitteth upon the throne, and unto the Lamb for ever and ever" (Rev. 5:13). The climactic praise of Psalm 150 reaches its full expression when all creation bows before the Lamb of God. [res:bible-odyssey-psalm-150]',
         },
         {
           kind: 'carry',
@@ -103,6 +103,25 @@ export const PSALMS_150: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 150 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-150',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 150 with Jewish Commentary',
+      url: 'https://www.sefaria.org/Psalms.150',
+      description: 'Hebrew text with rabbinic and medieval Jewish commentaries.',
+    },
+    {
+      id: 'bible-odyssey-psalm-150',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 150 Study Guide',
+      url: 'https://www.bibleodyssey.org/?q=psalm+150',
+      description: 'Thematic study and historical background from the Society of Biblical Literature.',
+    },
+  ],
 
   hasHebrew: true,
 };
