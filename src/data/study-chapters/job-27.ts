@@ -74,6 +74,18 @@ export const JOB_27: RichChapterContent = {
                 hp('my heart shall not reproach me so long as I live.', 'job27-heart'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job27-oath-integrity',
+          html:
+            'Job swears by God&apos;s life and takes an oath. He will not compromise his integrity. His lips will not speak falsehood. His tongue will not utter deceit. Even if he dies, he will not let go of his righteousness. This is not self-righteousness. This is the determination of a man to hold onto the truth about himself, no matter the cost.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 27,
+          lines: [
             {
               number: 7,
               spans: [

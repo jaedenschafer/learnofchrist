@@ -122,7 +122,7 @@ export const JUDGES_11: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'judg11-jephthah-exile',
+          id: 'judg11-jephthah-exile-2',
           html:
             'Jephthah pleads his case—explaining the history, the wrongs done to him, the willingness to negotiate. He does not rage; he reasons. The king of Ammon does not listen. Some men refuse to hear truth. Some doors are closed before we knock. Yet Jephthah does not retreat; he prepares for battle.',
         },

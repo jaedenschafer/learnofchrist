@@ -196,6 +196,18 @@ export const JEREMIAH_27: RichChapterContent = {
                 t('Hearken not unto them; serve the king of Babylon, and live: wherefore should this city be laid waste?'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jer27-remnant-warning',
+          html:
+            'The word to Zedekiah mirrors the word to the surrounding nations: submit and live, or resist and die. The king is given the choice directly. Yet beyond the immediate choice lies a deeper promise. Even in exile, God will not forget His people. The vessels will be carried away, but they will be returned.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 27,
+          lines: [
             {
               number: 18,
               spans: [

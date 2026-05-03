@@ -345,7 +345,7 @@ export const LEVITICUS_9: RichChapterContent = {
           id: 'christ-double-blessing',
           title: 'Christ Connection — Ascension and Pentecost',
           html:
-            '[res:sbl-eighth-day-resurrection] Hebrews 9:11–12 says Christ &ldquo;entered in once into the holy place by his own blood, having obtained eternal redemption.&rdquo; Christ ascended. He went into the heavenly tabernacle alone, carrying His own blood. Then He sent His Spirit. [res:intertextual-pentecost-fire] The fire that fell at Pentecost — &ldquo;cloven tongues like as of fire&rdquo; (Acts 2:3) — is Leviticus 9 fulfilled. The glory has appeared. The fire has fallen. The blessing has been spoken. All the people see it.',
+            'Hebrews 9:11–12 says Christ &ldquo;entered in once into the holy place by his own blood, having obtained eternal redemption.&rdquo; Christ ascended. He went into the heavenly tabernacle alone, carrying His own blood. Then He sent His Spirit. The fire that fell at Pentecost — &ldquo;cloven tongues like as of fire&rdquo; (Acts 2:3) — is Leviticus 9 fulfilled. The glory has appeared. The fire has fallen. The blessing has been spoken. All the people see it.',
         },
         {
           kind: 'carry',
@@ -399,7 +399,7 @@ export const LEVITICUS_9: RichChapterContent = {
           id: 'christ-fire-acceptance',
           title: 'Christ Connection — The Cross and the Resurrection',
           html:
-            '[res:sefaria-eighth-day-covenant] Jesus told His disciples, &ldquo;I have come to send fire on the earth&rdquo; (Luke 12:49). On the cross, Scripture says the Father&apos;s holy fire fell on the Son — not to destroy Him, but to consume the sin He carried. The fire that appears at Leviticus 9 is a shadow of the cross, where the Father&apos;s acceptance came in the form of resurrection. The offering was accepted. The death was swallowed up. And the people — the Church — fell on their faces in worship of the God who had just made all things new.',
+            'Jesus told His disciples, &ldquo;I have come to send fire on the earth&rdquo; (Luke 12:49). On the cross, Scripture says the Father&apos;s holy fire fell on the Son — not to destroy Him, but to consume the sin He carried. The fire that appears at Leviticus 9 is a shadow of the cross, where the Father&apos;s acceptance came in the form of resurrection. The offering was accepted. The death was swallowed up. And the people — the Church — fell on their faces in worship of the God who had just made all things new.',
         },
         {
           kind: 'carry',
@@ -415,41 +415,4 @@ export const LEVITICUS_9: RichChapterContent = {
       ],
     },
   ],
-
-  bottomShare: {
-    label: 'Share Leviticus 9',
-    quote:
-      'On the eighth day, the Lord appears in fire. The work of priestly consecration is complete. The sacrifice is accepted. The boundary between heaven and earth becomes visible — and the people, watching the fire fall, fall on their faces in awe.',
-    snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
-    ref: 'Leviticus 9 · Study Guide',
-  },
-
-  resources: [
-    {
-      id: 'sbl-eighth-day-resurrection',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'The Eighth Day and Resurrection Symbolism',
-      url: 'https://www.bibleodyssey.org/en/passages/article/resurrection-and-the-eighth-day',
-      description: 'Study of the eighth day as a symbol of resurrection and the completion of priestly consecration through divine fire.',
-    },
-    {
-      id: 'sefaria-eighth-day-covenant',
-      kind: 'archive',
-      source: 'Sefaria',
-      label: 'The Eighth Day in Rabbinical Tradition',
-      url: 'https://www.sefaria.org/Leviticus.9',
-      description: 'Rabbinic commentary on the eighth day and its eschatological significance.',
-    },
-    {
-      id: 'intertextual-pentecost-fire',
-      kind: 'study',
-      source: 'Intertextual Bible',
-      label: 'Acts 2:3 — Fire from Heaven at Pentecost',
-      url: 'https://intertextual.logos.com/',
-      description: 'Cross-references linking the fire that consumes the Levitical offering to the Pentecost fire and the Spirit\'s authentication.',
-    },
-  ],
-
-  hasHebrew: true,
 };

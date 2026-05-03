@@ -414,6 +414,18 @@ export const GENESIS_21: RichChapterContent = {
                 t('And Abraham took sheep and oxen, and gave them unto Abimelech; and both of them made a covenant.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'c-abimelech',
+          html:
+            'Abimelech recognizes that God is with Abraham and wants a binding covenant. The well that Abimelech&apos;s servants had taken becomes the occasion for a formal agreement. Abraham offers gifts to seal the oath. But the witness—the true sign of covenant—lies ahead.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             {
               number: 28,
               spans: [
@@ -461,12 +473,6 @@ export const GENESIS_21: RichChapterContent = {
               ],
             },
           ],
-        },
-        {
-          kind: 'commentary',
-          id: 'c-abimelech',
-          html:
-            'Abimelech recognizes that God is with Abraham and wants a binding covenant. The well that Abimelech&apos;s servants had taken becomes the occasion for a formal agreement. Abraham plants a grove and calls on the name of the LORD, the everlasting God. The chapter moves from crisis (Hagar and Ishmael in the wilderness) to stability (a covenant that will hold).',
         },
         {
           kind: 'hebrew',

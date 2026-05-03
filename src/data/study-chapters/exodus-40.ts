@@ -118,6 +118,17 @@ export const EXODUS_40: RichChapterContent = {
             { number: 20, spans: [ t('And he took and put the testimony into the ark, and set the staves on the ark, and put the mercy seat above upon the ark:') ] },
             { number: 21, spans: [ t('And he brought the ark into the tabernacle, and set up the vail of the covering, and covered the ark of the testimony; as the LORD commanded Moses.') ] },
             { number: 22, spans: [ t('And he put the table in the tent of the congregation, upon the side of the tabernacle northward, without the vail.') ] },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ex40-furniture-shift',
+          html: 'The sanctuary frame is set: ark hidden behind the veil, table on the north. Now the light and incense follow—the lamps to burn continually, the golden altar where prayer rises as smoke. The furniture placement mirrors God&apos;s design exactly.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 40,
+          lines: [
             { number: 23, spans: [ t('And he set the bread in order upon it before the LORD; as the LORD had commanded Moses.') ] },
             { number: 24, spans: [ t('And he put the candlestick in the tent of the congregation, over against the table, on the side of the tabernacle southward.') ] },
             { number: 25, spans: [ t('And he lighted the lamps before the LORD; as the LORD commanded Moses.') ] },

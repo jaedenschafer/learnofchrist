@@ -331,6 +331,18 @@ export const NUMBERS_34: RichChapterContent = {
                 t('The prince of the children of Asher, Pagiel the son of Ocran.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'num34-southern-border',
+          html:
+            'The first eight princes are named—Caleb of Judah, then Simeon, Benjamin, Dan, and Asher. The list begins with the southern tribes, the core of the covenant. Caleb&apos;s name, honored first, signals that faithfulness is what matters. He has followed God wholly, and his name is inscribed in the distribution of the inheritance.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 34,
+          lines: [
             {
               number: 24,
               spans: [

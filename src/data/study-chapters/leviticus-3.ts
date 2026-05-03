@@ -54,7 +54,7 @@ export const LEVITICUS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'c-shalom-offering',
           html:
-            'The word <em>shelamim</em>, peace offering, comes from <em>shalom</em> — a word meaning peace, wholeness, completeness, well-being. A shalom offering is not about covering guilt or proving devotion. It is about celebrating restored relationship. The giver brings a perfect animal, but not to be destroyed — to be shared.',
+            '[res:sbl-peace-offering] The word <em>shelamim</em>, peace offering, comes from <em>shalom</em> — a word meaning peace, wholeness, completeness, well-being. A shalom offering is not about covering guilt or proving devotion. It is about celebrating restored relationship. The giver brings a perfect animal, but not to be destroyed — to be shared.',
         },
         {
           kind: 'scripture',
@@ -319,14 +319,14 @@ export const LEVITICUS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'c-blood-covenant',
           html:
-            'The fat and the blood are forbidden to the worshipper. Why? Because they are God&apos;s portion. The blood is life itself — &ldquo;the life of the flesh is in the blood&rdquo; (Lev. 17:11). Life belongs to the LORD, not to us. The fat is the richest, most valuable part. These are reserved to God because in fellowship with Him, we do not take the throne. We do not consume what is only His to consume. The boundary between the human and the divine is kept. And in keeping it, we honor the distance even as we enjoy the meal.',
+            '[res:sefaria-fat-blood-covenant] The fat and the blood are forbidden to the worshipper. Why? Because they are God&apos;s portion. The blood is life itself — &ldquo;the life of the flesh is in the blood&rdquo; (Lev. 17:11). Life belongs to the LORD, not to us. The fat is the richest, most valuable part. These are reserved to God because in fellowship with Him, we do not take the throne. We do not consume what is only His to consume. The boundary between the human and the divine is kept. And in keeping it, we honor the distance even as we enjoy the meal.',
         },
         {
           kind: 'christ',
           id: 'christ-blood',
           title: 'Christ Connection — The Blood Covenant',
           html:
-            'Every Eucharist echoes this boundary. &ldquo;This is my blood of the covenant, which is shed for many for the remission of sins&rdquo; (Matt. 26:28). The one thing the believer is commanded to do with Christ&apos;s blood is drink it — a reversal so startling the apostles could not believe it. But the principle underneath is the same. Blood belongs to God. In the Old Covenant, we are forbidden it. In the New Covenant, only Christ&apos;s blood is for us — and in receiving it, we participate in the covenant that He alone can make. His blood, and only His, is given freely for the many.',
+            '[res:intertextual-eucharist-blood] Every Eucharist echoes this boundary. &ldquo;This is my blood of the covenant, which is shed for many for the remission of sins&rdquo; (Matt. 26:28). The one thing the believer is commanded to do with Christ&apos;s blood is drink it — a reversal so startling the apostles could not believe it. But the principle underneath is the same. Blood belongs to God. In the Old Covenant, we are forbidden it. In the New Covenant, only Christ&apos;s blood is for us — and in receiving it, we participate in the covenant that He alone can make. His blood, and only His, is given freely for the many.',
         },
         {
           kind: 'carry',
@@ -342,14 +342,6 @@ export const LEVITICUS_3: RichChapterContent = {
       ],
     },
   ],
-
-  bottomShare: {
-    label: 'Share Leviticus 3',
-    quote:
-      'The peace offering is communion with God—fat offered, blood poured, and the meat shared at God\'s table. Shalom comes through fellowship, not distance.',
-    snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
-    ref: 'Leviticus 3 · Study Guide',
-  },
 
   resources: [
     {

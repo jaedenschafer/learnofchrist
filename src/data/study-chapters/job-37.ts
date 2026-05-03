@@ -41,13 +41,12 @@ export const JOB_37: RichChapterContent = {
             plain(4, 'After it a voice roareth: he thundereth with the voice of his excellency; and he will not stay them when his voice is heard.'),
             plain(5, 'God thundereth marvellously with his voice; great things doeth he, which we cannot comprehend.'),
             plain(6, 'For he saith to the snow, Be thou on the earth; likewise to the small rain, and to the great rain of his strength.'),
-          ],
         },
         {
           kind: 'commentary',
-          id: 'job37-mid1',
+          id: 'job37-wonder-elihu',
           html:
-            'God commands the elements as a king commands his subjects. Snow falls at God&apos;s word. Rain comes by God&apos;s decree. The power that speaks creation into being is still speaking, still directing all things. And then: God halts all human labor.',
+            'Elihu trembles as he speaks. The thunder is not merely meteorology. It is theology. It is God&apos;s voice speaking. The lightning, the rain, the snow—all come by God&apos;s command. Elihu invites Job to listen, to hear God speaking not in words but in the very elements of creation.',
         },
         {
           kind: 'scripture',
@@ -58,8 +57,6 @@ export const JOB_37: RichChapterContent = {
             plain(9, 'Out of the south cometh the whirlwind: and cold out of the north.'),
             plain(10, 'By the breath of God frost is given: and the breadth of the waters is straitened.'),
             plain(11, 'Also by watering he wearieth the thick cloud: he scattereth his bright cloud:'),
-            plain(12, 'And it is turned round about by his counsels: that they may do whatsoever he commandeth them upon the face of the whole world.'),
-            plain(13, 'He causeth it to come, whether for correction, or for his land, or for mercy.'),
           ],
         },
         {

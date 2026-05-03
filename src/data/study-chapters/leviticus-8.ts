@@ -193,14 +193,14 @@ export const LEVITICUS_8: RichChapterContent = {
           script: 'מָשַׁח',
           translit: '<strong>mashach</strong> · to rub with oil, to set apart by anointing',
           description:
-            '"Anointed one" in Hebrew is <em>mashiach</em> — the Messiah. Every king, every priest in Israel was anointed. It was the visible sign of God&apos;s choice. The anointing oil could not be mixed or poured on the common person; to do so was death (Ex. 30:31-33). This is why "Christ" (Greek for Messiah) means "the Anointed One."',
+            '[res:sefaria-mashach-anointing] "Anointed one" in Hebrew is <em>mashiach</em> — the Messiah. Every king, every priest in Israel was anointed. It was the visible sign of God&apos;s choice. The anointing oil could not be mixed or poured on the common person; to do so was death (Ex. 30:31-33). This is why "Christ" (Greek for Messiah) means "the Anointed One."',
         },
         {
           kind: 'christ',
           id: 'lev8-christ-oil',
           title: 'Christ Connection — The Anointed One',
           html:
-            'Acts 10:38 says of Jesus: "God anointed him with the Holy Ghost and with power." Jesus is the Messiah — literally, the Anointed One. But unlike Aaron, who needed the oil poured on his head to signify his calling, Jesus <em>is</em> the anointing. He does not need an external mark to set Him apart; He is the oil itself. Hebrews 7:26-28 says He is "holy, harmless, undefiled, separate from sinners," made priest not by ritual but by "the word of the oath." Every anointing in Leviticus is a shadow of the one Anointed who would never need such shadows again.',
+            '[res:intertextual-acts-10] Acts 10:38 says of Jesus: "God anointed him with the Holy Ghost and with power." Jesus is the Messiah — literally, the Anointed One. But unlike Aaron, who needed the oil poured on his head to signify his calling, Jesus <em>is</em> the anointing. He does not need an external mark to set Him apart; He is the oil itself. Hebrews 7:26-28 says He is "holy, harmless, undefiled, separate from sinners," made priest not by ritual but by "the word of the oath." Every anointing in Leviticus is a shadow of the one Anointed who would never need such shadows again. [res:sbl-priestly-anointing]',
         },
         {
           kind: 'carry',
@@ -503,6 +503,33 @@ export const LEVITICUS_8: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Leviticus 8 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sbl-priestly-anointing',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Priestly Consecration and the Anointing with Oil',
+      url: 'https://www.bibleodyssey.org/en/passages/article/priests-and-consecration',
+      description: 'Study of the mashach (anointing) ceremony, the role of oil in priesthood, and the symbolism of separation for holy service.',
+    },
+    {
+      id: 'sefaria-mashach-anointing',
+      kind: 'archive',
+      source: 'Sefaria',
+      label: 'Mashach and the Anointed Priest in Tradition',
+      url: 'https://www.sefaria.org/Leviticus.8',
+      description: 'Rabbinic commentary on the priestly anointing and the etymology of Messiah from the anointing oil.',
+    },
+    {
+      id: 'intertextual-acts-10',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Acts 10:38 — Jesus Anointed with the Holy Spirit',
+      url: 'https://intertextual.logos.com/',
+      description: 'Connection between Old Testament priestly anointing and the anointing of Jesus with the Holy Spirit.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -41,6 +41,18 @@ export const JOB_38: RichChapterContent = {
             plain(4, 'Where wast thou when I laid the foundations of the earth? declare, if thou hast understanding.'),
             plain(5, 'Who hath laid the measures thereof, if thou knowest? or who hath stretched the line upon it?'),
             plain(6, 'Whereupon are the foundations thereof fastened? or who laid the corner stone thereof;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job38-first-questions',
+          html:
+            'God&apos;s opening questions establish the theme: You were not there. You did not create. You do not understand how the world was made, nor how it is sustained. Yet you judge me as if you could comprehend all things. God does not say "you are wrong." God instead asks a question that reveals the gap between human knowledge and divine wisdom.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 38,
+          lines: [
             plain(7, 'When the morning stars sang together, and all the sons of God shouted for joy?'),
             plain(8, 'Or who shut up the sea with doors, when it brake forth, as if it had issued out of the womb;'),
             plain(9, 'When I made the cloud the garment thereof, and thick darkness a swaddlingband for it,'),

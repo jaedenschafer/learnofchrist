@@ -43,6 +43,18 @@ export const JOB_34: RichChapterContent = {
             plain(6, 'Should I lie against my right? my wound is incurable without transgression.'),
             plain(7, 'What man is like Job, who drinketh up scorning like water?'),
             plain(8, 'Which goeth in company with the workers of iniquity, and walketh with wicked men.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job34-elihu-thesis',
+          html:
+            'Elihu argues that Job has made two claims: that he is righteous, and that God has taken away his judgment. But if Job is righteous, and God has taken his judgment, then Elihu suggests Job is lying—either about his own righteousness or about God&apos;s injustice. For Elihu, one of these must give way. And he will argue it is Job&apos;s claim about God&apos;s injustice that must fall.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 34,
+          lines: [
             plain(9, 'For he hath said, It profiteth a man nothing that he should delight himself with God.'),
             plain(10, 'Therefore hearken unto me, ye men of understanding: far be it from God, that he should do wickedness; and from the Almighty, that he should commit iniquity.'),
             plain(11, 'For the work of a man shall he render unto him, and cause every man to find according to his ways.'),

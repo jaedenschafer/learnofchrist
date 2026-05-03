@@ -36,6 +36,18 @@ export const ISAIAH_40: RichChapterContent = {
             plain(3, 'The voice of him that crieth in the wilderness, Prepare ye the way of the Lord, make straight in the desert a highway for our God.'),
             plain(4, 'Every valley shall be exalted, and every mountain and hill shall be made low: and the crooked shall be made straight, and the rough places plain:'),
             plain(5, 'And the glory of the Lord shall be revealed, and all flesh shall see it together: for the mouth of the Lord hath spoken it.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa40-incomparable',
+          html:
+            'The preparation is complete. Every obstacle has been leveled. Every valley lifted. The way is straight. And now—the revelation: the glory of the Lord shall be revealed, and all flesh shall see it. Not in the distant future, but in the coming of the Shepherd. In the valleys of human despair, the glory becomes visible. The promise moves from comfort to appearance, from words of consolation to the actual coming of God&apos;s presence.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 40,
+          lines: [
             plain(6, 'The voice said, Cry. And he said, What shall I cry? All flesh is as grass, and all the goodliness thereof is as the flower of the field:'),
             plain(7, 'The grass withereth, the flower fadeth: because the spirit of the Lord bloweth upon it: surely the people is grass.'),
             plain(8, 'The grass withereth, the flower fadeth: but the word of our God shall stand for ever.'),

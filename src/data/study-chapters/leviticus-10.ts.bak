@@ -156,7 +156,7 @@ export const LEVITICUS_10: RichChapterContent = {
           id: 'christ-aaron-silence',
           title: 'Christ Connection — The Mother at the Cross',
           html:
-            '[res:sbl-holiness-divine-judgment] Aaron&apos;s silence is echoed in one other moment in the Gospels. At the foot of the cross, Mary stands and says nothing. John 19:25 names her there: &ldquo;Now there stood by the cross of Jesus his mother&rdquo; — present, witnessing, <em>silent.</em> Not because she understood the theology. Not because she had accepted it. But because in the presence of something so grievous and so holy at once, what can a mother say? [res:intertextual-hebrews-12] Christ&apos;s death is the ultimate strange fire — God&apos;s own Son, in God&apos;s own temple, doing something that looks wrong until you see it is exactly right. And the ones who stand closest do not rage or explain. They hold their peace.',
+            'Aaron&apos;s silence is echoed in one other moment in the Gospels. At the foot of the cross, Mary stands and says nothing. John 19:25 names her there: &ldquo;Now there stood by the cross of Jesus his mother&rdquo; — present, witnessing, <em>silent.</em> Not because she understood the theology. Not because she had accepted it. But because in the presence of something so grievous and so holy at once, what can a mother say? Christ&apos;s death is the ultimate strange fire — God&apos;s own Son, in God&apos;s own temple, doing something that looks wrong until you see it is exactly right. And the ones who stand closest do not rage or explain. They hold their peace.',
         },
         {
           kind: 'carry',
@@ -442,7 +442,7 @@ export const LEVITICUS_10: RichChapterContent = {
           id: 'christ-aaron-right',
           title: 'Christ Connection — The Lord Sees the Heart',
           html:
-            '[res:sefaria-strange-fire-judgment] Moses hears Aaron&apos;s answer and his anger ceases. &ldquo;He was content.&rdquo; Sometimes the greater obedience is to know when you are not ready, and to step back rather than proceed with a hollow shell. David will say to God, &ldquo;Thou desirest not sacrifice; else would I give it: thou delightest not in burnt offering. The sacrifices of God are a broken spirit: a broken and a contrite heart, O God, thou wilt not despise&rdquo; (Psalm 51:16–17). Aaron could not bring a whole offering. His heart was broken. And God honored the breaking.',
+            'Moses hears Aaron&apos;s answer and his anger ceases. &ldquo;He was content.&rdquo; Sometimes the greater obedience is to know when you are not ready, and to step back rather than proceed with a hollow shell. David will say to God, &ldquo;Thou desirest not sacrifice; else would I give it: thou delightest not in burnt offering. The sacrifices of God are a broken spirit: a broken and a contrite heart, O God, thou wilt not despise&rdquo; (Psalm 51:16–17). Aaron could not bring a whole offering. His heart was broken. And God honored the breaking.',
         },
         {
           kind: 'carry',
@@ -458,41 +458,4 @@ export const LEVITICUS_10: RichChapterContent = {
       ],
     },
   ],
-
-  bottomShare: {
-    label: 'Share Leviticus 10',
-    quote:
-      'Nadab and Abihu brought strange fire to the altar and died. God\'s holiness is not negotiable. Yet in His consuming fire and His silence, God remains God, and Aaron remains His priest.',
-    snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
-    ref: 'Leviticus 10 · Study Guide',
-  },
-
-  resources: [
-    {
-      id: 'sbl-holiness-divine-judgment',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Holiness and Divine Judgment in the Sanctuary',
-      url: 'https://www.bibleodyssey.org/en/passages/article/holiness-in-the-sanctuary',
-      description: 'Study of the death of Nadab and Abihu and the theology of God\'s consuming holiness and proper worship boundaries.',
-    },
-    {
-      id: 'sefaria-strange-fire-judgment',
-      kind: 'archive',
-      source: 'Sefaria',
-      label: 'Strange Fire and Divine Judgment',
-      url: 'https://www.sefaria.org/Leviticus.10',
-      description: 'Rabbinic interpretation of the strange fire incident and lessons about the boundaries of worship.',
-    },
-    {
-      id: 'intertextual-hebrews-12',
-      kind: 'study',
-      source: 'Intertextual Bible',
-      label: 'Hebrews 12:28-29 — Our God is a Consuming Fire',
-      url: 'https://intertextual.logos.com/',
-      description: 'Connection between the consuming fire in Leviticus and the holiness that requires appropriate reverence in worship.',
-    },
-  ],
-
-  hasHebrew: true,
 };

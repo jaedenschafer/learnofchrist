@@ -37,6 +37,18 @@ export const PROVERBS_2: RichChapterContent = {
             plain(4, 'If thou seekest her as silver, and searchest for her as for hid treasures;'),
             plain(5, 'Then shall thou understand the fear of the Lord, and find the knowledge of God.'),
             plain(6, 'For the Lord giveth wisdom: out of his mouth cometh knowledge and understanding.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov2-seek-promise',
+          html:
+            'The first section establishes the condition and the promise. Condition: seek wisdom with intensity, hide God&apos;s words deep within your heart, incline your ear, apply your heart. Promise: then you will understand the fear of the Lord. God is not stingy with wisdom. It flows from His mouth. He lays it up for the righteous. The pursuit of wisdom is met with God&apos;s generous giving.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(7, 'He layeth up sound wisdom for the righteous: he is a buckler to them that walk uprightly.'),
             plain(8, 'He keepeth the paths of judgment, and preserveth the way of his saints.'),
             plain(9, 'Then shalt thou understand righteousness, and judgment, and equity; yea, every good path.'),

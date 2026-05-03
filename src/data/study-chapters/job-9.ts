@@ -45,6 +45,18 @@ export const JOB_9: RichChapterContent = {
             plain(4, 'He is wise in heart, and mighty in strength: who hath hardened himself against him, and hath prospered?'),
             plain(5, 'Which removeth the mountains, and they know not: which overturneth them in his anger.'),
             plain(6, 'Which shaketh the earth out of her place, and the pillars thereof tremble.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job9-power-display',
+          html:
+            'God moves mountains and the earth trembles. These are not poetic descriptions—they are reality. Job catalogs not God&apos;s love, but God&apos;s power. And this power is so vast that humans cannot match it, cannot even imagine defending themselves against it. The contrast is between human frailty and divine omnipotence.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(7, 'Which commandeth the sun, and it riseth not; and sealeth up the stars.'),
             plain(8, 'Which alone spreadeth out the heavens, and treadeth upon the waves of the sea.'),
             plain(9, 'Which maketh Arcturus, Orion, and Pleiades, and the chambers of the south.'),
@@ -177,6 +189,18 @@ export const JOB_9: RichChapterContent = {
             plain(25, 'Now my days are swifter than a post: they flee away, they see no good.'),
             plain(26, 'They are passed away as the swift ships: as the eagle that hasteth to the prey.'),
             plain(27, 'If I say, I will forget my complaint, I will leave off my heaviness, and comfort myself:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job9-futility',
+          html:
+            'Job sees no pattern in God&apos;s actions. God destroys both the perfect and the wicked. He laughs at the trial of the innocent—as if innocence itself is a joke to Him. And Job watches his own days slip away like water, like ships passing, like an eagle diving toward prey. He cannot stop the passage of time. He cannot hold back his own death. Everything in his life is hastening toward an unknown end.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(28, 'I am afraid of all my sorrows, for I know thou wilt not hold me innocent.'),
             plain(29, 'If I be wicked, why then labour I in vain?'),
             plain(30, 'If I wash myself with snow water, and make my hands never so clean;'),

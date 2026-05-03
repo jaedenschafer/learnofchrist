@@ -20,7 +20,7 @@ export const LEVITICUS_5: RichChapterContent = {
   estimatedMinutes: { beginner: 7, intermediate: 10, deep: 12 },
   intros: [
     'Leviticus 5 is about the sins we don&apos;t see coming — the ones we didn&apos;t know we committed. A person who stays silent when they could have testified. Someone who touches something unclean without realizing it. A careless oath made in a moment. These are not deliberate violations, but they carry a weight all the same, and the Law makes room for them.',
-    'What makes this chapter striking is the graduated system. A wealthy person brings a lamb; someone poorer brings two birds; the poorest brings flour. Same offering, different cost — the Law ensures that everyone, rich and poor, can afford to make things right. And then comes the trespass offering, *asham* in Hebrew, which adds a fifth on top of restitution. That principle — covering what we owe, plus more — will echo all the way to the cross.',
+    '[res:sbl-graduated-offerings-poverty] What makes this chapter striking is the graduated system. A wealthy person brings a lamb; someone poorer brings two birds; the poorest brings flour. Same offering, different cost — the Law ensures that everyone, rich and poor, can afford to make things right. And then comes the trespass offering, *asham* in Hebrew, which adds a fifth on top of restitution. That principle — covering what we owe, plus more — will echo all the way to the cross.',
   ],
 
   sections: [
@@ -256,7 +256,7 @@ export const LEVITICUS_5: RichChapterContent = {
           id: 'christ-offering',
           title: 'Christ Connection — The Offering for All',
           html:
-            'Isaiah 53:10 says of the Suffering Servant, &ldquo;when thou shalt make his soul an offering for sin (*asham*)&rdquo;—the exact word for the trespass offering. And what makes the cross revolutionary is this: it costs nothing. The rich don&apos;t bring a lamb. The poor don&apos;t bring flour. Everyone stands equal in their need, and everyone receives the same atonement. Jesus is the graduated offering God made so that access to forgiveness is never locked behind poverty or wealth.',
+            '[res:intertextual-isaiah-53] Isaiah 53:10 says of the Suffering Servant, &ldquo;when thou shalt make his soul an offering for sin (*asham*)&rdquo;—the exact word for the trespass offering. And what makes the cross revolutionary is this: it costs nothing. The rich don&apos;t bring a lamb. The poor don&apos;t bring flour. Everyone stands equal in their need, and everyone receives the same atonement. Jesus is the graduated offering God made so that access to forgiveness is never locked behind poverty or wealth.',
         },
         {
           kind: 'carry',
@@ -314,7 +314,7 @@ export const LEVITICUS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'lev5-restitution',
           html:
-            'This is the pattern of the trespass offering. First: make amends. Return what you owe. But that&apos;s not enough. Then: add a fifth. Pay back 120 percent of what you took. Why? Because harm to God&apos;s holy things is not merely a transaction to be balanced. It requires a surplus of restitution—an acknowledgment that God deserves more than what was stolen. Only then does the ram complete the atonement.',
+            '[res:sefaria-asham-trespass] This is the pattern of the trespass offering. First: make amends. Return what you owe. But that&apos;s not enough. Then: add a fifth. Pay back 120 percent of what you took. Why? Because harm to God&apos;s holy things is not merely a transaction to be balanced. It requires a surplus of restitution—an acknowledgment that God deserves more than what was stolen. Only then does the ram complete the atonement.',
         },
         {
           kind: 'scripture',
@@ -382,6 +382,33 @@ export const LEVITICUS_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Leviticus 5 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sbl-graduated-offerings-poverty',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Graduated Offerings and God\'s Grace to the Poor',
+      url: 'https://www.bibleodyssey.org/en/passages/article/offerings-for-the-poor',
+      description: 'Study of scaled offerings based on economic status, showing how God\'s law accommodates the poor and provides equal access to atonement.',
+    },
+    {
+      id: 'sefaria-asham-trespass',
+      kind: 'archive',
+      source: 'Sefaria',
+      label: 'Asham and Restitution in Rabbinical Law',
+      url: 'https://www.sefaria.org/Leviticus.5',
+      description: 'Rabbinic commentary on trespass offerings, restitution with the additional fifth, and the theology of restoration and accountability.',
+    },
+    {
+      id: 'intertextual-isaiah-53',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 53:10 — The Messiah as Asham',
+      url: 'https://intertextual.logos.com/',
+      description: 'Cross-references linking the trespass offering to prophetic identification of the Messiah as the asham for our transgressions.',
+    },
+  ],
 
   hasHebrew: true,
 };

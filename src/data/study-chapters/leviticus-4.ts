@@ -17,8 +17,8 @@ export const LEVITICUS_4: RichChapterContent = {
 
   estimatedMinutes: { beginner: 9, intermediate: 13, deep: 16 },
   intros: [
-    'Leviticus 4 is where the sin offering appears. Unlike the burnt offering (which was already about devotion), the sin offering is about guilt — the unintended breach that still separates you from God. The Hebrew word is <em>chatat</em>, from the verb "to sin" or "to miss the mark." The offering&apos;s purpose is specific: to bring a person or the whole congregation back to right standing when they have sinned without knowing it.',
-    'What makes Leviticus 4 unusual is how clearly it scales. A high priest who sins needs a bull; the congregation needs a bull; a ruler needs a male goat; an ordinary person needs a female goat or lamb. The penalty is not the same for all. The text expects that spiritual leadership carries greater weight, and the offering reflects that. The blood is applied in different ways depending on the person&apos;s role — more gravity means a deeper cleansing ritual, drawing closer to the Holy of Holies itself.',
+    '[res:sbl-sin-offering-atonement] Leviticus 4 is where the sin offering appears. Unlike the burnt offering (which was already about devotion), the sin offering is about guilt — the unintended breach that still separates you from God. The Hebrew word is <em>chatat</em>, from the verb "to sin" or "to miss the mark." The offering&apos;s purpose is specific: to bring a person or the whole congregation back to right standing when they have sinned without knowing it.',
+    '[res:sefaria-chatat-graduated] What makes Leviticus 4 unusual is how clearly it scales. A high priest who sins needs a bull; the congregation needs a bull; a ruler needs a male goat; an ordinary person needs a female goat or lamb. The penalty is not the same for all. The text expects that spiritual leadership carries greater weight, and the offering reflects that. The blood is applied in different ways depending on the person&apos;s role — more gravity means a deeper cleansing ritual, drawing closer to the Holy of Holies itself.',
     'For the reader on this side of the cross, Leviticus 4 points directly to Christ in the flesh. Hebrews tells us that Jesus was that sin offering, taken outside the city gate to be burned, just as the bull&apos;s body was taken outside the camp. Here is where the animal system gives way to the Lamb who takes away the sins of the world.',
   ],
 
@@ -194,7 +194,7 @@ export const LEVITICUS_4: RichChapterContent = {
           id: 'christ-without-gate',
           title: 'Christ Connection — Suffered Without the Gate',
           html:
-            'Hebrews 13:11–13 makes the connection explicit: "The bodies of those beasts, whose blood is brought into the sanctuary by the high priest for sin, are burned without the camp. Wherefore Jesus also, that he might sanctify the people with his own blood, suffered without the gate." Christ did not die inside Jerusalem&apos;s walls but outside them — the sin offering itself, taken beyond the boundary, burned. He was made sin for us (2 Cor. 5:21) so that we could be made right. He is both the priest who offers and the victim offered.',
+            '[res:intertextual-hebrews-13] Hebrews 13:11–13 makes the connection explicit: "The bodies of those beasts, whose blood is brought into the sanctuary by the high priest for sin, are burned without the camp. Wherefore Jesus also, that he might sanctify the people with his own blood, suffered without the gate." Christ did not die inside Jerusalem&apos;s walls but outside them — the sin offering itself, taken beyond the boundary, burned. He was made sin for us (2 Cor. 5:21) so that we could be made right. He is both the priest who offers and the victim offered.',
         },
         {
           kind: 'carry',
@@ -456,6 +456,33 @@ export const LEVITICUS_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Leviticus 4 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sbl-sin-offering-atonement',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Sin Offering and Unintentional Transgression',
+      url: 'https://www.bibleodyssey.org/en/passages/article/sin-offerings-in-ancient-israel',
+      description: 'Study of chatat offerings, graduated penalties by social status, and the theology of atonement for hidden and unintentional sin.',
+    },
+    {
+      id: 'sefaria-chatat-graduated',
+      kind: 'archive',
+      source: 'Sefaria',
+      label: 'Chatat and the Scalability of Atonement',
+      url: 'https://www.sefaria.org/Leviticus.4',
+      description: 'Rabbinic interpretation of graduated sin offerings based on priestly status, leadership responsibility, and culpability.',
+    },
+    {
+      id: 'intertextual-hebrews-13',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Hebrews 13:11-13 — Christ as the Sin Offering',
+      url: 'https://intertextual.logos.com/',
+      description: 'Cross-references between Levitical sin offerings burned outside the camp and Christ\'s suffering outside the gate as the ultimate atonement.',
+    },
+  ],
 
   hasHebrew: true,
 };

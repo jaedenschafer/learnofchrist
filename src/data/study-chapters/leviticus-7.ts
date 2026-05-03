@@ -68,7 +68,7 @@ export const LEVITICUS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'c-asham-setup',
           html:
-            'The trespass offering (*asham*) works like the sin offering in some ways — the blood is sprinkled, the fat burns — but it addresses a different wrong. While the sin offering covers unintentional sin, the trespass offering covers sins of restitution: false swearing, theft, fraud. The debtor brings the offering, then makes the victim whole by paying the actual damage plus one-fifth. God sees the whole arc of repair.',
+            '[res:sefaria-todah-thanksgiving] The trespass offering (*asham*) works like the sin offering in some ways — the blood is sprinkled, the fat burns — but it addresses a different wrong. While the sin offering covers unintentional sin, the trespass offering covers sins of restitution: false swearing, theft, fraud. The debtor brings the offering, then makes the victim whole by paying the actual damage plus one-fifth. God sees the whole arc of repair.',
         },
         {
           kind: 'hebrew',
@@ -241,7 +241,7 @@ export const LEVITICUS_7: RichChapterContent = {
           id: 'christ-todah',
           title: 'Christ Connection — The Eucharist as Thanksgiving',
           html:
-            'When Jesus took bread at His last meal, Matthew tells us He "gave thanks" (*eucharisteo* in Greek, the same root as *todah*). Luke says "he took the cup, and gave thanks" (Luke 22:17). Every time you take Communion, you are standing in the *todah* tradition — offering your whole self as thanksgiving for salvation, eating bread together with the gathered body, witnessing to what God has done. The peace offering finds its fulfillment in the Lord&apos;s Supper, where Christ Himself becomes the bread of thanksgiving.',
+            '[res:intertextual-eucharist-todah] When Jesus took bread at His last meal, Matthew tells us He "gave thanks" (*eucharisteo* in Greek, the same root as *todah*). Luke says "he took the cup, and gave thanks" (Luke 22:17). Every time you take Communion, you are standing in the *todah* tradition — offering your whole self as thanksgiving for salvation, eating bread together with the gathered body, witnessing to what God has done. The peace offering finds its fulfillment in the Lord&apos;s Supper, where Christ Himself becomes the bread of thanksgiving.',
         },
         {
           kind: 'scripture',
@@ -405,7 +405,7 @@ export const LEVITICUS_7: RichChapterContent = {
           id: 'christ-blood',
           title: 'Christ Connection — The Blood of the Covenant',
           html:
-            'Jesus takes the cup and says "this is my blood of the new testament, which is shed for many for the remission of sins" (Matt. 26:28). In one sentence, He overturns centuries of Levitical law: the disciples are commanded to drink blood, which no Israelite ever did. He is saying: the blood that was always forbidden, reserved only for the altar, is now given to you. The life that atoned is now your sustenance. The new covenant runs on the same blood-language as the old, but now the blood flows *into* the people, not away from them.',
+            '[res:sbl-priestly-portions] Jesus takes the cup and says "this is my blood of the new testament, which is shed for many for the remission of sins" (Matt. 26:28). In one sentence, He overturns centuries of Levitical law: the disciples are commanded to drink blood, which no Israelite ever did. He is saying: the blood that was always forbidden, reserved only for the altar, is now given to you. The life that atoned is now your sustenance. The new covenant runs on the same blood-language as the old, but now the blood flows *into* the people, not away from them.',
         },
         {
           kind: 'carry',
@@ -585,6 +585,33 @@ export const LEVITICUS_7: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Leviticus 7 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sbl-priestly-portions',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Priestly Portions and Sustenance in Offerings',
+      url: 'https://www.bibleodyssey.org/en/passages/article/priests-and-offerings',
+      description: 'Study of how priests were sustained through wave and heave portions, and the theology of providing for those who minister.',
+    },
+    {
+      id: 'sefaria-todah-thanksgiving',
+      kind: 'archive',
+      source: 'Sefaria',
+      label: 'Todah and Thanksgiving in Rabbinic Tradition',
+      url: 'https://www.sefaria.org/Leviticus.7',
+      description: 'Commentary on thanksgiving offerings and the covenant meal celebration with God and community.',
+    },
+    {
+      id: 'intertextual-eucharist-todah',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'From Todah to Eucharistia — Thanksgiving Meal',
+      url: 'https://intertextual.logos.com/',
+      description: 'Cross-references linking the todah sacrifice to the Greek eucharistia and the Christian Eucharist.',
+    },
+  ],
 
   hasHebrew: true,
 };

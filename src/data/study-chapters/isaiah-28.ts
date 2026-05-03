@@ -35,6 +35,18 @@ export const ISAIAH_28: RichChapterContent = {
             plain(4, 'And the glorious beauty, which is on the head of the fat valley, shall be a fading flower, and as the hasty fruit before the summer; which when he that looketh upon it seeth, while it is yet in his hand he eateth it up.'),
             plain(5, 'In that day shall the Lord of hosts be for a crown of glory, and for a diadem of beauty, unto the residue of his people;'),
             plain(6, 'And for a spirit of judgment to him that sitteth in judgment, and for strength to them that turn the battle to the gate.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa28-cornerstone-mid',
+          html:
+            'The judgment comes, yet it does not stand alone. Even in the oracle against Ephraim&apos;s pride, God offers His own crown—a crown of glory and beauty for those who remain. Where human crowns fade, the Lord&apos;s crown endures. This is the mercy woven through judgment: God&apos;s alternative is always available to those who will turn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 28,
+          lines: [
             plain(7, 'But they also have erred through wine, and through strong drink are out of the way; the priest and the prophet have erred through strong drink, they are swallowed up of wine, they are out of the way through strong drink; they err in vision, they stumble in judgment.'),
             plain(8, 'For all tables are full of vomit and filthiness, so that there is no place clean.'),
             plain(9, 'Whom shall he teach knowledge? and whom shall he make to understand doctrine? them that are weaned from the milk, and drawn from the breasts.'),

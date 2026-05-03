@@ -281,7 +281,7 @@ export const CHRONICLES_1_12: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: '1chr12-duel-trained',
+          id: '1chr12-duel-trained-2',
           html:
             'These eight men of Issachar bear both shield and sword—warriors trained for the dual purpose of David&apos;s reign. The list names them, counts them: five thousand. Numbers tell power, but also precision. These are not a mob; they are a mustered army.',
         },

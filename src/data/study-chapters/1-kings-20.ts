@@ -146,7 +146,7 @@ export const KINGS_1_20: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: '1k20-prophets-word',
+          id: '1k20-prophets-word-2',
           html:
             'Two prophets deliver word after word—the first speaks of victory, the second calls the king foolish. The parallel prophecies test Ahab&apos;s faith. Both speak truth, but only one promises salvation. The king must choose whose voice to follow.',
         },

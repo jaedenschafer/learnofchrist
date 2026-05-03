@@ -41,6 +41,18 @@ export const JOB_33: RichChapterContent = {
             plain(4, 'The spirit of God hath made me, and the breath of the Almighty hath given me life.'),
             plain(5, 'If thou canst answer me, set thy words in order before me, stand up.'),
             plain(6, 'Behold, I am according to thy wish in God&apos;s stead: I also am formed out of the clay.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job33-equal-appeal',
+          html:
+            'Elihu opens not with authority but with friendship. He asks Job to hear him, promises to speak with uprightness. He claims to speak from the spirit of God, but he also claims kinship: "I am formed out of the clay" just as Job is. He will not overwhelm Job with power or status.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 33,
+          lines: [
             plain(7, 'Behold, my terror shall not make thee afraid, neither shall my hand be heavy upon thee.'),
             plain(8, 'Surely thou hast spoken in mine hearing, and I have heard the voice of thy words, saying,'),
             plain(9, 'I am clean without transgression, I am innocent, neither is there iniquity in me.'),

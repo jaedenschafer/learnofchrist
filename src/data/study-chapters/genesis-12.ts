@@ -342,6 +342,24 @@ export const GENESIS_12: RichChapterContent = {
                 t('The princes also of Pharaoh saw her, and commended her before Pharaoh: and the woman was taken into Pharaoh&apos;s house.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'c-fear',
+          html:
+            'Abram has just built altars and heard the promise of God. But when famine strikes, his faith falters. The logic seems reasonable: Sarai is beautiful; Egyptians will want her; they will kill him to take her. So he asks Sarai to call herself his sister. It is a half-truth that conceals betrayal. He is willing to let his wife go to save his own skin.',
+        },
+        {
+          kind: 'commentary',
+          id: 'c-deception',
+          html:
+            'The text does not moralize here. It does not condemn Abram outright or blame Sarai. Instead, it shows the consequence of fear: a man willing to sacrifice his wife&apos;s honor for his own safety; a woman whose protection becomes the price tag on her husband&apos;s life. The descent into Egypt is a descent into the logic of the world — where survival justifies betrayal.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             {
               number: 16,
               spans: [
@@ -375,18 +393,6 @@ export const GENESIS_12: RichChapterContent = {
               ],
             },
           ],
-        },
-        {
-          kind: 'commentary',
-          id: 'c-fear',
-          html:
-            'Abram has just built altars and heard the promise of God. But when famine strikes, his faith falters. The logic seems reasonable: Sarai is beautiful; Egyptians will want her; they will kill him to take her. So he asks Sarai to call herself his sister. It is a half-truth that conceals betrayal. He is willing to let his wife go to save his own skin.',
-        },
-        {
-          kind: 'commentary',
-          id: 'c-deception',
-          html:
-            'The text does not moralize here. It does not condemn Abram outright or blame Sarai. Instead, it shows the consequence of fear: a man willing to sacrifice his wife&apos;s honor for his own safety; a woman whose protection becomes the price tag on her husband&apos;s life. The descent into Egypt is a descent into the logic of the world — where survival justifies betrayal.',
         },
         {
           kind: 'christ',

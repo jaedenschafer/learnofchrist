@@ -169,7 +169,7 @@ export const LEVITICUS_6: RichChapterContent = {
           script: 'אֵשׁ תָּמִיד',
           translit: '<strong>aish tamid</strong> · a fire that is always burning, never quenched',
           description:
-            'This is not a practical instruction alone; it is a theological claim. The altar is never dark. The work of atonement is never finished. Someone is always praying, always tending, always making a way for the people to draw near to God.',
+            '[res:sefaria-aish-tamid] This is not a practical instruction alone; it is a theological claim. The altar is never dark. The work of atonement is never finished. Someone is always praying, always tending, always making a way for the people to draw near to God.',
         },
 
         {
@@ -184,7 +184,7 @@ export const LEVITICUS_6: RichChapterContent = {
           id: 'christ-perpetual',
           title: 'Christ Connection — Intercession That Never Sleeps',
           html:
-            'Hebrews 7:25: &ldquo;Wherefore he is able also to save them to the uttermost that come unto God by him, seeing he ever liveth to make intercession for us.&rdquo; The fire points to Jesus. He is the high priest tending the altar of heaven right now, in this moment, always making a way. The perpetual flame of the Old Testament tabernacle pointed to the unceasing intercession of Christ — always awake, always praying, never taking His eyes off you.',
+            '[res:intertextual-hebrews-7] Hebrews 7:25: &ldquo;Wherefore he is able also to save them to the uttermost that come unto God by him, seeing he ever liveth to make intercession for us.&rdquo; The fire points to Jesus. He is the high priest tending the altar of heaven right now, in this moment, always making a way. [res:sbl-perpetual-fire-priesthood] The perpetual flame of the Old Testament tabernacle pointed to the unceasing intercession of Christ — always awake, always praying, never taking His eyes off you.',
         },
 
         {
@@ -534,4 +534,33 @@ export const LEVITICUS_6: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Leviticus 6 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sbl-perpetual-fire-priesthood',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Perpetual Fire and Priestly Intercession',
+      url: 'https://www.bibleodyssey.org/en/passages/article/priesthood-and-intercession',
+      description: 'Study of the continuously burning altar fire as symbol of ceaseless priestly intercession and God\'s unending presence.',
+    },
+    {
+      id: 'sefaria-aish-tamid',
+      kind: 'archive',
+      source: 'Sefaria',
+      label: 'Aish Tamid (Perpetual Fire) in Jewish Tradition',
+      url: 'https://www.sefaria.org/Leviticus.6',
+      description: 'Rabbinic commentary on the perpetual fire on the altar and its spiritual significance for the ongoing covenant.',
+    },
+    {
+      id: 'intertextual-hebrews-7',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Hebrews 7:25 — Jesus\' Unceasing Intercession',
+      url: 'https://intertextual.logos.com/',
+      description: 'Connection between the perpetual priestly fire and Christ\'s eternal intercession for the saints.',
+    },
+  ],
+
+  hasHebrew: true,
 };

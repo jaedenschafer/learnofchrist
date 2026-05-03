@@ -445,7 +445,7 @@ export const EXODUS_13: RichChapterContent = {
       description: 'Study of the exodus narrative and theology.',
     },
     {
-      id: 'pillar-fire',
+      id: 'pillar-fire-2',
       kind: 'study',
       source: 'Sefaria',
       label: 'The Cloud and Fire',

@@ -62,6 +62,18 @@ export const JOB_24: RichChapterContent = {
               ],
             },
             plain(6, 'They reap every one his corn in the field: and they gather the vintage of the wicked.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job24-crimes-catalog',
+          html:
+            'Job catalogs the crimes of the wicked: they seize landmarks, steal flocks, drive away the orphan&apos;s donkey, turn the needy from their way. These are specific, documented crimes. They are committed openly. Everyone sees them. But no judgment falls. No divine hand intervenes. God sees all things, yet does nothing.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 24,
+          lines: [
             plain(7, 'They cause the naked to lodge without clothing, and they take away the sheaf from the hungry;'),
             plain(8, 'Which hide themselves under the thick trees, and they dwell in the rocks for a refuge.'),
             {

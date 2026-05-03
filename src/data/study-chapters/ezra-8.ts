@@ -47,6 +47,18 @@ export const EZRA_8: RichChapterContent = {
             plain(5, 'Of the sons of Shechaniah; the son of Jahaziel, and with him three hundred males.'),
             plain(6, 'Of the sons also of Adin; Ebed the son of Jonathan, and with him fifty males.'),
             plain(7, 'And of the sons of Elam; Jeshaiah the son of Athaliah, and with him seventy males.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ezra8-priests-and-singers',
+          html:
+            'The first seven families are named: Phinehas, Ithamar, David (the priestly lines), and then Shechaniah, Pahath-moab, Adin, and Elam. Each brings a leader and a specific count of males—a family unit whole and accounted for. Each family bears the weight of the covenant promise, returning to rebuild what was destroyed.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(8, 'And of the sons of Shephatiah; Zebadiah the son of Michael, and with him fourscore males.'),
             plain(9, 'Of the sons of Joab; Obadiah the son of Jehiel, and with him two hundred and eighteen males.'),
             plain(10, 'And of the sons of Shelomith; the son of Josiphiah, and with him an hundred and threescore males.'),

@@ -152,6 +152,18 @@ export const PSALMS_18: RichChapterContent = {
             plain(23, 'I was also upright before him, and I kept myself from mine iniquity.'),
             plain(24, 'Therefore hath the Lord recompensed me according to my righteousness, according to the cleanness of my hands before his eyes.'),
             plain(25, 'With the merciful thou wilt shew thyself merciful; with an upright man thou wilt shew thyself upright;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps18-character-response',
+          html:
+            'David describes how God responds to the character He finds in His people. With the merciful, God shows Himself merciful. With the upright, He shows Himself upright. With the pure, He shows Himself pure. God mirrors and magnifies the righteousness of His people. This is not transaction but relationship—the heart of the righteous person finding its echo in the heart of God.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             plain(26, 'With the pure thou wilt shew thyself pure; and with the froward thou wilt shew thyself froward.'),
             plain(27, 'For thou wilt save the afflicted people; but wilt bring down high looks.'),
             plain(28, 'For thou wilt light my candle: the Lord my God will lighten my darkness.'),

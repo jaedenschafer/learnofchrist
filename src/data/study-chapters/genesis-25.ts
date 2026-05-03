@@ -108,6 +108,24 @@ export const GENESIS_25: RichChapterContent = {
                 t('But unto the sons of the concubines, which Abraham had, Abraham gave gifts, and sent them away from Isaac his son, while he yet lived, eastward, unto the east country.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'c-keturah',
+          html:
+            'Abraham takes another wife after Sarah&apos;s death — Keturah — and has six more children. These children receive gifts and are sent eastward, away from Isaac. The covenant line, though, is undivided. Abraham&apos;s later fertility is a sign not of weakness but of the strength God gave him. He lived long enough to see the promise begin to take root, and to prepare the way for the son who would carry it forward[res:sefaria-genesis-25][res:pennmuseum-abraham-era].',
+        },
+        {
+          kind: 'commentary',
+          id: 'c-inheritance',
+          html:
+            'Before Abraham dies, he settles the inheritance. Everything goes to Isaac. This is not a punishment for the other sons — they receive gifts, they are blessed, they will become nations. But they are not the carriers of the covenant. In Genesis, inheritance is never about what is deserved. It is about what God chooses to do.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             {
               number: 7,
               spans: [
@@ -145,18 +163,6 @@ export const GENESIS_25: RichChapterContent = {
               ],
             },
           ],
-        },
-        {
-          kind: 'commentary',
-          id: 'c-keturah',
-          html:
-            'Abraham takes another wife after Sarah&apos;s death — Keturah — and has six more children. These children receive gifts and are sent eastward, away from Isaac. The covenant line, though, is undivided. Abraham&apos;s later fertility is a sign not of weakness but of the strength God gave him. He lived long enough to see the promise begin to take root, and to prepare the way for the son who would carry it forward[res:sefaria-genesis-25][res:pennmuseum-abraham-era].',
-        },
-        {
-          kind: 'commentary',
-          id: 'c-inheritance',
-          html:
-            'Before Abraham dies, he settles the inheritance. Everything goes to Isaac. This is not a punishment for the other sons — they receive gifts, they are blessed, they will become nations. But they are not the carriers of the covenant. In Genesis, inheritance is never about what is deserved. It is about what God chooses to do.',
         },
         {
           kind: 'commentary',

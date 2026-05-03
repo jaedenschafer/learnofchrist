@@ -110,6 +110,18 @@ export const NUMBERS_1: RichChapterContent = {
               number: 9,
               spans: [t('Of Zebulun; Eliab the son of Helon.')],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'num1-east-tribes',
+          html:
+            'The first six tribes listed are the firstborn of Jacob and the descendants of Leah — the eastern or &apos;traditional&apos; line. Reuben, though firstborn, is often passed over; here he stands first among leaders, a reminder that God&apos;s ordering is not always what we expect. Each leader brings his tribe, each tribe brings its count.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             {
               number: 10,
               spans: [t('Of the children of Joseph: of Ephraim; Elishama the son of Ammihud: of Manasseh; Gamaliel the son of Pedahzur.')],

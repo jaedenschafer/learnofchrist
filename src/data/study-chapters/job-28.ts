@@ -42,6 +42,18 @@ export const JOB_28: RichChapterContent = {
             plain(4, 'The flood breaketh out from the inhabitant; even the waters forgotten of the foot: they are dried up, they are gone away from men.'),
             plain(5, 'As for the earth, out of it cometh bread: and under it is turned up as it were fire.'),
             plain(6, 'The stones of it are the place of sapphires: and it hath dust of gold.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job28-excavation-power',
+          html:
+            'Job paints a picture of human industriousness. Men dig into the earth. They find precious metals and stones in hidden places. They engineer waters and channel them. Every aspect of nature is subject to human discovery and exploitation. Man is portrayed as a master archaeologist, uncovering the secrets of the material world.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 28,
+          lines: [
             plain(7, 'There is a path which no fowl knoweth, and which the vulture&apos;s eye hath not seen:'),
             plain(8, 'The lion&apos;s whelps have not trodden it, nor the fierce lion passed by it.'),
             plain(9, 'He putteth forth his hand upon the rock; he overturneth the mountains by the roots.'),

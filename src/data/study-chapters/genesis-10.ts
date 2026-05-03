@@ -232,68 +232,6 @@ export const GENESIS_10: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'gen10-mid1',
-          html:
-            'Nimrod&apos;s empire spreads across Mesopotamia—from Babylon to Assyria, a dynasty built on might. But now the text turns south. From the hunter and his cities, we move to the kingdoms of Egypt and the peoples who will inhabit Canaan. Each branch of Ham&apos;s line shapes a different part of the world Israel will enter.',
-        },
-        {
-          kind: 'scripture',
-          chapter: 10,
-          lines: [
-            {
-              number: 13,
-              spans: [
-                t('And Mizraim begat Ludim, and Anamim, and Lehabim, and Naphtuhim,'),
-              ],
-            },
-            {
-              number: 14,
-              spans: [
-                t('And Pathrusim, and Casluhim, (out of whom came the Philistines,) and Caphtorim.'),
-              ],
-            },
-            {
-              number: 15,
-              spans: [
-                t('And Canaan begat Sidon his firstborn, and '),
-                hg('Heth', 'c-canaan-peoples'),
-                t(','),
-              ],
-            },
-            {
-              number: 16,
-              spans: [
-                t('And the Jebusite, and the Amorite, and the Girgasite,'),
-              ],
-            },
-            {
-              number: 17,
-              spans: [
-                t('And the Hivite, and the Arkite, and the Sinite,'),
-              ],
-            },
-            {
-              number: 18,
-              spans: [
-                t('And the Arvadite, and the Zemarite, and the Hamathite: and afterward were the families of the Canaanites spread abroad.'),
-              ],
-            },
-            {
-              number: 19,
-              spans: [
-                t('And the border of the Canaanites was from Sidon, as thou comest to Gerar, unto Gaza; as thou goest, unto Sodom, and Gomorrah, and Admah, and Zeboim, even unto Lasha.'),
-              ],
-            },
-            {
-              number: 20,
-              spans: [
-                t('These are the sons of Ham, after their families, by their tongues, in their countries, and in their nations.'),
-              ],
-            },
-          ],
-        },
-        {
-          kind: 'commentary',
           id: 'c-ham-list',
           html:
             'Ham&apos;s sons map to the ancient world as it stood: Cush (Ethiopia, Nubia), Mizraim (Egypt — the name itself is Hebrew for Egypt), Put (Libya, North Africa), and Canaan. These were the peoples Israel would most directly encounter — Egypt as a place of both refuge and slavery, the Canaanites as the inhabitants of the Promised Land.',
@@ -323,7 +261,7 @@ export const GENESIS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'c-canaan-peoples',
           html:
-            'The Canaanite peoples are listed by family: Sidon, Heth (the Hittites), Jebusites, Amorites, Girgasites, Hivites, Arkites, Sinites, Arvadites, Zemarites, Hamathites. Each name will appear again in later biblical history — sometimes as neighbors, sometimes as obstacles, often as peoples Israel will marry into. But in Genesis 10, they are simply Shem\'s cousins, named and held in the same divine account.',
+            'The Canaanite peoples are listed by family: Sidon, Heth (the Hittites), Jebusites, Amorites, Girgasites, Hivites, Arkites, Sinites, Arvadites, Zemarites, Hamathites. Each name will appear again in later biblical history — sometimes as neighbors, sometimes as obstacles, often as peoples Israel will marry into. But in Genesis 10, they are simply Shem&apos;s cousins, named and held in the same divine account.',
         },
         {
           kind: 'christ',
@@ -335,13 +273,13 @@ export const GENESIS_10: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'You know the name of someone from a nation different from your own. Invite them to coffee. Listen to their story — where they come from, how they understand God, what they hope for. The Bible says that person\'s nation was known by name before the foundations of the world. Their people matter. Their voice matters. The Gospel does not reach "the world" in abstraction; it reaches <em>nations</em>, <em>peoples</em>, real families with names and faces. You can be part of that reaching.',
+            'You know the name of someone from a nation different from your own. Invite them to coffee. Listen to their story — where they come from, how they understand God, what they hope for. The Bible says that person&apos;s nation was known by name before the foundations of the world. Their people matter. Their voice matters. The Gospel does not reach "the world" in abstraction; it reaches <em>nations</em>, <em>peoples</em>, real families with names and faces. You can be part of that reaching.',
         },
         {
           kind: 'reflection',
           id: 'gen10-ham',
           prompt:
-            'Genesis 10 names the Canaanites — the very peoples Israel will struggle with for centuries. How does knowing they were Shem\'s cousins, named at creation, change how you read those later conflicts?',
+            'Genesis 10 names the Canaanites — the very peoples Israel will struggle with for centuries. How does knowing they were Shem&apos;s cousins, named at creation, change how you read those later conflicts?',
         },
         {
           kind: 'artwork',

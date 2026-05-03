@@ -149,6 +149,12 @@ export const DEUTERONOMY_28: RichChapterContent = {
             'The opposite of blessing. Where blessing multiplies and brings forth life, curse diminishes, withers, and brings forth death. In Hebrew, the word carries the weight of withdrawal — God&apos;s presence and power reversed, turned away.',
         },
         {
+          kind: 'commentary',
+          id: 'deut28-blessing-inverted',
+          html:
+            'Every single word from the blessings is now reversed. Blessed in city becomes cursed in city. Blessed in field becomes cursed in field. The symmetry is exact and devastating: the removal of blessing leaves a perfect negative imprint. This is the judgment that follows when covenant terms are rejected.',
+        },
+        {
           kind: 'scripture',
           chapter: 28,
           lines: [
@@ -195,6 +201,18 @@ export const DEUTERONOMY_28: RichChapterContent = {
             { number: 29, spans: [t('And thou shalt grope at noonday, as the blind gropeth in darkness, and thou shalt not prosper in thy ways: and thou shalt be only oppressed and spoiled evermore, and no man shall save thee.')] },
             { number: 30, spans: [t('Thou shalt betroth a wife, and another man shall lie with her: thou shalt build an house, and thou shalt not dwell therein: thou shalt plant a vineyard, and shalt not gather the grapes thereof.')] },
             { number: 31, spans: [t('Thine ox shall be slain before thine eyes, and thou shalt not eat thereof: thine ass shall be violently taken away from before thy face, and shall not be restored to thee: thy sheep shall be given unto thine enemies, and thou shalt have none to rescue them.')] },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'deut28-plagues-to-loss',
+          html:
+            'The curse moves from your own body — boils, madness, blindness — to the loss of what you love most. Your livestock, your children, your inheritance. This is not random punishment; it is the stripping away of what a disloyal people trusted in instead of God. First He removes your capacity to see clearly, then He removes the very things you were too blind to steward faithfully.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 28,
+          lines: [
             { number: 32, spans: [t('Thy sons and thy daughters shall be given unto another people, and thine eyes shall look, and fail with longing for them all the day long: and there shall be no might in thine hand.')] },
             { number: 33, spans: [t('The fruit of thy land, and all thy labours, shall a nation which thou knowest not eat up; and thou shalt be only oppressed and crushed alway:')] },
             { number: 34, spans: [t('So that thou shalt be mad for the sight of thine eyes which thou shalt see.')] },

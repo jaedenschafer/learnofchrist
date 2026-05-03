@@ -62,6 +62,18 @@ export const JOB_20: RichChapterContent = {
             },
             plain(5, 'Though his excellency mount up to the heavens, and his head reach unto the clouds;'),
             plain(6, 'Yet he shall perish for ever like his own dung: they which have seen him shall say, Where is he?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job20-doctrine-spoken',
+          html:
+            'Zophar speaks with absolute conviction. He has heard Job&apos;s claims of innocence, and they offend him. The truth he proclaims is ancient and eternal: the wicked prosper briefly, then vanish. This doctrine seems self-evident to Zophar. He cannot imagine that it might not apply to Job.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 20,
+          lines: [
             plain(7, 'He shall fly away as a dream, and shall not be found: yea, he shall be chased away as a vision of the night.'),
             plain(8, 'The eye also which saw him shall see him no more; neither shall his place any more behold him.'),
             plain(9, 'His children shall seek to please the poor; and his hands shall restore their wealth.'),

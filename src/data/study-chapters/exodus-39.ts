@@ -427,7 +427,7 @@ export const EXODUS_39: RichChapterContent = {
       description: 'Hebrew text on construction of garments.',
     },
     {
-      id: 'breastplate',
+      id: 'breastplate-2',
       kind: 'study',
       source: 'Bible Odyssey (SBL)',
       label: 'Breastplate of Judgment',

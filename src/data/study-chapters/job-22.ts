@@ -59,6 +59,18 @@ export const JOB_22: RichChapterContent = {
                 t('. '),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job22-accuse-crimes',
+          html:
+            'Eliphaz begins not with abstract theology but with concrete accusations. He paints Job as a man who steals pledges, who robs the poor of their clothing, who deprives the hungry and thirsty of relief. These are not theological claims. These are criminal charges. And they are completely invented.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 22,
+          lines: [
             plain(7, 'Thou hast not given water to the weary to drink, and thou hast withholden bread from the hungry.'),
             {
               number: 8,

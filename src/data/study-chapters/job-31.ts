@@ -41,6 +41,18 @@ export const JOB_31: RichChapterContent = {
             plain(4, 'Doth not he see my ways, and count all my steps?'),
             plain(5, 'If I have walked with vanity, or if my foot hath hasted to deceit;'),
             plain(6, 'Let me be weighed in an even balance, that God may know mine integrity.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job31-balance-weigh',
+          html:
+            'Job invokes the image of a just balance—the scales of a fair judge. He is not asking for pity. He is not asking for mercy. He is asking to be weighed against a standard of justice. And he is confident that when weighed, his integrity will be revealed.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 31,
+          lines: [
             plain(7, 'If my step hath turned out of the way, and mine heart walked after mine eyes, and if any blot hath cleaved to mine hands;'),
             plain(8, 'Then let me sow, and let another eat; yea, let my offspring be rooted out.'),
             plain(9, 'If mine heart have been deceived by a woman, or if I have laid wait at my neighbour&apos;s door;'),

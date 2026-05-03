@@ -329,6 +329,30 @@ export const EXODUS_26: RichChapterContent = {
                 t('And for the second side of the tabernacle on the north side there shall be twenty boards:'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'shittim',
+          html:
+            'Shittim wood — also called acacia. A wood that grows in the desert, hard enough to last, strong enough to bear weight. The tabernacle is built of desert wood, the material at hand where Israel was wandering. God does not import materials from foreign lands. He uses what already exists in the place His people are.',
+        },
+        {
+          kind: 'commentary',
+          id: 'boards-sockets',
+          html:
+            'Forty sockets of silver under the south side alone. Silver is the metal of redemption in Scripture — when Israel redeemed their firstborn, they paid in silver. The whole structure rests on silver sockets. The tabernacle does not stand on the ground; it stands on redemption. Every board, held up by the costly metal of God&apos;s atonement.',
+        },
+        {
+          kind: 'commentary',
+          id: 'exod26-sides-frame',
+          html:
+            'South side measured, north side mirrors it exactly. The structure is symmetrical, balanced, each side bearing equal weight. What is specified for the south is repeated for the north — redemption sockets beneath both sides equally. The frame is not lopsided; it is held from both directions.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 26,
+          lines: [
             {
               number: 21,
               spans: [
@@ -360,18 +384,6 @@ export const EXODUS_26: RichChapterContent = {
               ],
             },
           ],
-        },
-        {
-          kind: 'commentary',
-          id: 'shittim',
-          html:
-            'Shittim wood — also called acacia. A wood that grows in the desert, hard enough to last, strong enough to bear weight. The tabernacle is built of desert wood, the material at hand where Israel was wandering. God does not import materials from foreign lands. He uses what already exists in the place His people are.',
-        },
-        {
-          kind: 'commentary',
-          id: 'boards-sockets',
-          html:
-            'Forty sockets of silver under the south side alone. Silver is the metal of redemption in Scripture — when Israel redeemed their firstborn, they paid in silver. The whole structure rests on silver sockets. The tabernacle does not stand on the ground; it stands on redemption. Every board, held up by the costly metal of God&apos;s atonement.',
         },
         {
           kind: 'carry',
