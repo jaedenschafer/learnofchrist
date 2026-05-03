@@ -42,13 +42,13 @@ export const MATTHEW_23: RichChapterContent = {
           kind: 'commentary',
           id: 'matt23-say-not-do',
           html:
-            'Jesus acknowledges that the Pharisees sit in the seat of Moses—they claim authority over the interpretation of the law. "All therefore whatsoever they bid you observe, that observe and do; but do not ye after their works: for they say, and do not." The problem is not the law itself. The problem is hypocrisy—teaching one thing while living another. Their lives contradict their words.',
+            'Jesus acknowledges that the Pharisees sit in the seat of Moses—they claim authority over the interpretation of the law. "All therefore whatsoever they bid you observe, that observe and do; but do not ye after their works: for they say, and do not." The problem is not the law itself. The problem is hypocrisy—teaching one thing while living another. Their lives contradict their words[res:bibleodyssey-pharisees-hypocrisy][res:sefaria-matthew-23-woes].',
         },
         {
           kind: 'commentary',
           id: 'matt23-tithe',
           html:
-            'The Pharisees meticulously tithe mint, anise, and cummin—spices and herbs. They observe every detail of the law. Yet they omit "the weightier matters of the law, judgment, mercy, and faith." They strain at gnats and swallow camels. Precision in the trivial masks neglect of the essential. Jesus calls them to invert their priorities.',
+            'The Pharisees meticulously tithe mint, anise, and cummin—spices and herbs. They observe every detail of the law. Yet they omit "the weightier matters of the law, judgment, mercy, and faith." They strain at gnats and swallow camels. Precision in the trivial masks neglect of the essential. Jesus calls them to invert their priorities[res:bibleodyssey-jerusalem-destruction].',
         },
         {
           kind: 'greek',

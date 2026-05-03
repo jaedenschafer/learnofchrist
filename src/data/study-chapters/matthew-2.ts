@@ -47,7 +47,7 @@ export const MATTHEW_2: RichChapterContent = {
           kind: 'commentary',
           id: 'matt2-wise-men',
           html:
-            'The wise men are outsiders—Gentiles from distant lands—yet they are the first to recognize Jesus as King. They have no access to Israel&apos;s scriptures, no covenant heritage, no reason to believe. And yet a star draws them[res:bibleodyssey-magi]. Matthew uses this to show us that the kingship of Jesus is not a parochial Jewish claim. It is universal. Kings will come from afar to honor Him. The nations will eventually bow.',
+            'The wise men are outsiders—Gentiles from distant lands—yet they are the first to recognize Jesus as King. They have no access to Israel&apos;s scriptures, no covenant heritage, no reason to believe. And yet a star draws them[res:bibleodyssey-magi]. Matthew uses this to show us that the kingship of Jesus is not a parochial Jewish claim. It is universal. Kings will come from afar to honor Him. The nations will eventually bow[res:bibleodyssey-herod].',
         },
         {
           kind: 'commentary',

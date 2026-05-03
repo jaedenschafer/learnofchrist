@@ -50,7 +50,7 @@ export const MATTHEW_28: RichChapterContent = {
           kind: 'commentary',
           id: 'matt28-resurrection',
           html:
-            'The resurrection is not a resuscitation or a vision [res:bibleodyssey-resurrection]. It is a new existence—the body is real (Jesus can be held) yet transformed (He appears and disappears). Jesus has passed through death and entered a new mode of being. He is not a ghost but a living presence. The sealed tomb cannot contain Him. The stone is rolled away not because He needed help to escape, but to testify to those who come.',
+            'The resurrection is not a resuscitation or a vision [res:bibleodyssey-resurrection]. It is a new existence—the body is real (Jesus can be held) yet transformed (He appears and disappears). Jesus has passed through death and entered a new mode of being. He is not a ghost but a living presence. The sealed tomb cannot contain Him. The stone is rolled away not because He needed help to escape, but to testify to those who come[res:sefaria-daniel-7-13].',
         },
         {
           kind: 'greek',

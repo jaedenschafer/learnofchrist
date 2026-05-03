@@ -43,7 +43,7 @@ export const MATTHEW_21: RichChapterContent = {
           kind: 'commentary',
           id: 'matt21-entry',
           html:
-            'Jesus enters Jerusalem on a donkey, fulfilling the prophecy of Zechariah [res:sefaria-zechariah-9-9]: "Thy King cometh unto thee... meek." The crowds cry "Hosanna"—meaning "Save us!" They recognize Him as the Messiah, the Son of David. Yet they expect a king who will free them from Rome. They do not anticipate that the salvation He brings is spiritual, not political.',
+            'Jesus enters Jerusalem on a donkey, fulfilling the prophecy of Zechariah [res:sefaria-zechariah-9-9]: "Thy King cometh unto thee... meek." The crowds cry "Hosanna"—meaning "Save us!" They recognize Him as the Messiah, the Son of David. Yet they expect a king who will free them from Rome. They do not anticipate that the salvation He brings is spiritual, not political[res:sefaria-psalm-118-22].',
         },
         {
           kind: 'commentary',

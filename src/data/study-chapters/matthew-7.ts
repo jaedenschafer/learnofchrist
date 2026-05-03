@@ -45,7 +45,7 @@ export const MATTHEW_7: RichChapterContent = {
           kind: 'commentary',
           id: 'matt7-judge-not',
           html:
-            '"Judge not, that ye be not judged."[res:intertextual-judge-not] This is not a call to ignore evil or to pretend all things are equally valid. Rather, it is a call to humility about our own spiritual state. We are prone to see the speck in our brother&apos;s eye while missing the beam in our own. We judge harshly what we overlook in ourselves. Jesus calls for a kind of spiritual self-awareness that precedes criticism of others. Deal with your own heart first. Then, from a position of honesty and humility, you are in a place to help others.',
+            '"Judge not, that ye be not judged."[res:intertextual-judge-not] This is not a call to ignore evil or to pretend all things are equally valid. Rather, it is a call to humility about our own spiritual state. We are prone to see the speck in our brother&apos;s eye while missing the beam in our own. We judge harshly what we overlook in ourselves. Jesus calls for a kind of spiritual self-awareness that precedes criticism of others. Deal with your own heart first. Then, from a position of honesty and humility, you are in a place to help others[res:bibleodyssey-golden-rule].',
         },
         {
           kind: 'commentary',
@@ -57,7 +57,7 @@ export const MATTHEW_7: RichChapterContent = {
           kind: 'commentary',
           id: 'matt7-golden-rule',
           html:
-            '"Therefore all things whatsoever ye would that men should do to you, do ye even so to them: for this is the law and the prophets." This is the Golden Rule—the summation of all ethical teaching. It is not derived from careful moral reasoning about rights and duties. It is rooted in empathy: imagine what you would want if you were in the other person&apos;s place, and do that. Jesus says this is what the law and the prophets amount to. All of Scripture points toward this capacity for imaginative love.',
+            '"Therefore all things whatsoever ye would that men should do to you, do ye even so to them: for this is the law and the prophets." This is the Golden Rule—the summation of all ethical teaching. It is not derived from careful moral reasoning about rights and duties. It is rooted in empathy: imagine what you would want if you were in the other person&apos;s place, and do that. Jesus says this is what the law and the prophets amount to. All of Scripture points toward this capacity for imaginative love[res:sefaria-psalms-40].',
         },
         {
           kind: 'greek',

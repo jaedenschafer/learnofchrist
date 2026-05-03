@@ -45,13 +45,13 @@ export const MATTHEW_12: RichChapterContent = {
           kind: 'commentary',
           id: 'matt12-sabbath-grain',
           html:
-            'The Pharisees accuse Jesus&apos; disciples of breaking the Sabbath by plucking grain and eating it. Jesus responds by invoking David: David and his companions ate the shewbread, which was reserved for priests alone, yet no one condemned them. Why? Because human need supersedes ceremonial law. Hunger trumps Sabbath restriction. Compassion transcends regulation. The law exists to serve human flourishing, not to replace it.',
+            'The Pharisees accuse Jesus&apos; disciples of breaking the Sabbath by plucking grain and eating it. Jesus responds by invoking David: David and his companions ate the shewbread, which was reserved for priests alone, yet no one condemned them. Why? Because human need supersedes ceremonial law. Hunger trumps Sabbath restriction. Compassion transcends regulation. The law exists to serve human flourishing, not to replace it[res:sefaria-exodus-20-8-11][res:bibleodyssey-sabbath].',
         },
         {
           kind: 'commentary',
           id: 'matt12-lord-sabbath',
           html:
-            '"For the Son of man is Lord even of the sabbath day." Jesus claims absolute authority. The Sabbath is God&apos;s day, the sign of the covenant. Yet Jesus, the Son of Man, is Lord of it. He can determine what is and is not permissible on the Sabbath. This is a staggering claim—only God has such authority. Only the Messiah can speak this way.',
+            '"For the Son of man is Lord even of the sabbath day." Jesus claims absolute authority. The Sabbath is God&apos;s day, the sign of the covenant. Yet Jesus, the Son of Man, is Lord of it. He can determine what is and is not permissible on the Sabbath. This is a staggering claim—only God has such authority. Only the Messiah can speak this way[res:sefaria-1-kings-10].',
         },
         {
           kind: 'commentary',

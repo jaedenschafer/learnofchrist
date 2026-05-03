@@ -43,7 +43,7 @@ export const MATTHEW_26: RichChapterContent = {
           kind: 'commentary',
           id: 'matt26-anointing',
           html:
-            'A woman breaks an alabaster box of precious ointment and anoints Jesus&apos; head. Some, including Judas, object: "Why this waste? for this ointment might have been sold for much, and given to the poor." But Jesus praises her: "Why trouble ye the woman? for she hath wrought a good work upon me." In anointing His head, she anoints Him as king and, unknowingly, prepares His body for burial. Her act of love and devotion becomes a memorial.',
+            'A woman breaks an alabaster box of precious ointment and anoints Jesus&apos; head. Some, including Judas, object: "Why this waste? for this ointment might have been sold for much, and given to the poor." But Jesus praises her: "Why trouble ye the woman? for she hath wrought a good work upon me." In anointing His head, she anoints Him as king and, unknowingly, prepares His body for burial. Her act of love and devotion becomes a memorial[res:sefaria-exodus-12-passover].',
         },
         {
           kind: 'commentary',

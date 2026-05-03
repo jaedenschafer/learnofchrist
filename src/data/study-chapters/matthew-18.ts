@@ -43,7 +43,7 @@ export const MATTHEW_18: RichChapterContent = {
           kind: 'commentary',
           id: 'matt18-children',
           html:
-            'Jesus centers a child in the conversation about greatness [res:bibleodyssey-childhood]. In the ancient world, children had no status, no legal standing, no power. Yet Jesus says: this is the model. To enter the kingdom, you must be converted—turned around, transformed—to become like a child. Not naive, but dependent. Not powerless in the kingdom sense, but freed from the weight of status and pride.',
+            'Jesus centers a child in the conversation about greatness [res:bibleodyssey-childhood]. In the ancient world, children had no status, no legal standing, no power. Yet Jesus says: this is the model. To enter the kingdom, you must be converted—turned around, transformed—to become like a child. Not naive, but dependent. Not powerless in the kingdom sense, but freed from the weight of status and pride[res:sefaria-leviticus-19-18].',
         },
         {
           kind: 'commentary',

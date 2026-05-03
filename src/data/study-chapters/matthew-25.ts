@@ -44,7 +44,7 @@ export const MATTHEW_25: RichChapterContent = {
           kind: 'commentary',
           id: 'matt25-virgins',
           html:
-            'Ten virgins await a bridegroom. Five are wise and bring oil in their vessels. Five are foolish and bring no oil. The bridegroom delays. All grow drowsy and sleep. At midnight, a cry: "Behold, the bridegroom cometh; go ye out to meet him!" The virgins rise and trim their lamps. But the foolish realize they have no oil. They ask the wise for some, but there is not enough to share. They go to buy, and while they are away, the bridegroom comes. Those ready enter the feast; the door is shut.',
+            'Ten virgins await a bridegroom. Five are wise and bring oil in their vessels. Five are foolish and bring no oil. The bridegroom delays. All grow drowsy and sleep. At midnight, a cry: "Behold, the bridegroom cometh; go ye out to meet him!" The virgins rise and trim their lamps. But the foolish realize they have no oil. They ask the wise for some, but there is not enough to share. They go to buy, and while they are away, the bridegroom comes. Those ready enter the feast; the door is shut[res:sefaria-isaiah-58-justice].',
         },
         {
           kind: 'commentary',

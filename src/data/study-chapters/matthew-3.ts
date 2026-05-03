@@ -45,7 +45,7 @@ export const MATTHEW_3: RichChapterContent = {
           kind: 'commentary',
           id: 'matt3-john-prophet',
           html:
-            'John the Baptist is a figure of the old covenant, speaking with prophetic authority. He stands in the tradition of Elijah and the prophets—dressed strangely, living ascetically, speaking truth without compromise[res:bibleodyssey-john-baptist]. His message is urgent: "Repent ye: for the kingdom of heaven is at hand." Repentance is not mere feeling of remorse. It is a turning around, a change of mind and direction. The kingdom of heaven requires this radical reorientation.',
+            'John the Baptist is a figure of the old covenant, speaking with prophetic authority. He stands in the tradition of Elijah and the prophets—dressed strangely, living ascetically, speaking truth without compromise[res:bibleodyssey-john-baptist]. His message is urgent: "Repent ye: for the kingdom of heaven is at hand." Repentance is not mere feeling of remorse. It is a turning around, a change of mind and direction. The kingdom of heaven requires this radical reorientation[res:sefaria-isaiah-40].',
         },
         {
           kind: 'commentary',

@@ -49,13 +49,13 @@ export const MATTHEW_4: RichChapterContent = {
           kind: 'commentary',
           id: 'matt4-temptation-bread',
           html:
-            'The first temptation appeals to hunger—bodily need, survival. "If thou be the Son of God, command that these stones be made bread." The tempter insinuates doubt: "If thou be the Son." But it also offers a solution: use divine power for personal need. Jesus refuses. Not because hunger is shameful or bodies don&apos;t matter, but because dependence on the Father is more fundamental than the satisfaction of appetite. "Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God."[res:sefaria-deuteronomy-8-3] Survival depends not on food alone, but on obedience and trust.',
+            'The first temptation appeals to hunger—bodily need, survival. "If thou be the Son of God, command that these stones be made bread." The tempter insinuates doubt: "If thou be the Son." But it also offers a solution: use divine power for personal need. Jesus refuses. Not because hunger is shameful or bodies don&apos;t matter, but because dependence on the Father is more fundamental than the satisfaction of appetite. "Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God."[res:sefaria-deuteronomy-8-3] Survival depends not on food alone, but on obedience and trust[res:sefaria-psalms-91].',
         },
         {
           kind: 'commentary',
           id: 'matt4-temptation-temple',
           html:
-            'The second temptation is more subtle. Jesus is set on the pinnacle of the temple and offered a kind of vindication: "Cast thyself down," and the angels will catch you. Prove yourself. Make the spectacular gesture that will make everyone believe. The tempter even quotes Scripture: "He shall give his angels charge concerning thee." But Jesus refuses. "Thou shalt not tempt the Lord thy God." To demand a sign, to force God&apos;s hand through spectacular action, is itself a form of rebellion. Faith does not require public vindication.',
+            'The second temptation is more subtle. Jesus is set on the pinnacle of the temple and offered a kind of vindication: "Cast thyself down," and the angels will catch you. Prove yourself. Make the spectacular gesture that will make everyone believe. The tempter even quotes Scripture: "He shall give his angels charge concerning thee." But Jesus refuses. "Thou shalt not tempt the Lord thy God." To demand a sign, to force God&apos;s hand through spectacular action, is itself a form of rebellion. Faith does not require public vindication[res:bibleodyssey-temptation].',
         },
         {
           kind: 'commentary',

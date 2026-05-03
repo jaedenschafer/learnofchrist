@@ -49,7 +49,7 @@ export const MATTHEW_5: RichChapterContent = {
           kind: 'commentary',
           id: 'matt5-poor-spirit',
           html:
-            'The first beatitude pronounces blessing on "the poor in spirit." This is not poverty that is holy in itself. Rather, it is spiritual poverty—the recognition that we are helpless, needy, empty before God. The poor in spirit are those who have been stripped of pride and self-sufficiency. They know they cannot save themselves. They cry out. And the kingdom of heaven is theirs. This is the beginning of discipleship: the recognition that we need God, that we cannot manufacture our own righteousness.',
+            'The first beatitude pronounces blessing on "the poor in spirit." This is not poverty that is holy in itself. Rather, it is spiritual poverty—the recognition that we are helpless, needy, empty before God. The poor in spirit are those who have been stripped of pride and self-sufficiency. They know they cannot save themselves. They cry out. And the kingdom of heaven is theirs. This is the beginning of discipleship: the recognition that we need God, that we cannot manufacture our own righteousness[res:sefaria-leviticus-19-18][res:bibleodyssey-sermon-mount].',
         },
         {
           kind: 'commentary',

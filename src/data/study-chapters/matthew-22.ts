@@ -45,7 +45,7 @@ export const MATTHEW_22: RichChapterContent = {
           kind: 'commentary',
           id: 'matt22-feast',
           html:
-            'The parable of the wedding feast is a dark tale [res:intertextual-wedding-feast]. A king invites guests to his son&apos;s wedding. They refuse. The king sends servants again. Some ignore the invitation. Others seize, mistreat, and kill the servants. The king is wrathful. His armies destroy the murderers and burn their city. Then the king says: "The wedding is ready, but they which were bidden were not worthy." The invitation extends beyond the chosen few to anyone found on the highways.',
+            'The parable of the wedding feast is a dark tale [res:intertextual-wedding-feast]. A king invites guests to his son&apos;s wedding. They refuse. The king sends servants again. Some ignore the invitation. Others seize, mistreat, and kill the servants. The king is wrathful. His armies destroy the murderers and burn their city. Then the king says: "The wedding is ready, but they which were bidden were not worthy." The invitation extends beyond the chosen few to anyone found on the highways[res:sefaria-psalm-110-1].',
         },
         {
           kind: 'commentary',

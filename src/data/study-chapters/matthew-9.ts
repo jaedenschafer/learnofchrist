@@ -46,13 +46,13 @@ export const MATTHEW_9: RichChapterContent = {
           kind: 'commentary',
           id: 'matt9-paralytic',
           html:
-            'The paralytic is brought by faith—the faith of those who carry him, whose faith Jesus "sees" and honors[res:intertextual-paralytic]. Jesus&apos; response is surprising: "Son, be of good cheer; thy sins be forgiven thee." He speaks to spiritual paralysis before physical. The man&apos;s deeper sickness is separation from God. But the scribes object: "This man blasphemeth" (only God can forgive sins). Jesus responds by healing the body: "Arise, take up thy bed, and go unto thine house." The physical miracle proves the spiritual authority. The body obeys because the soul is cleansed.',
+            'The paralytic is brought by faith—the faith of those who carry him, whose faith Jesus "sees" and honors[res:intertextual-paralytic]. Jesus&apos; response is surprising: "Son, be of good cheer; thy sins be forgiven thee." He speaks to spiritual paralysis before physical. The man&apos;s deeper sickness is separation from God. But the scribes object: "This man blasphemeth" (only God can forgive sins). Jesus responds by healing the body: "Arise, take up thy bed, and go unto thine house." The physical miracle proves the spiritual authority. The body obeys because the soul is cleansed[res:bibleodyssey-tax-collectors].',
         },
         {
           kind: 'commentary',
           id: 'matt9-matthew-calling',
           html:
-            'Jesus calls Matthew, a tax collector—a man wealthy but despised, working for the occupation force against his own people. Matthew leaves everything and follows. His calling is radical: no preparation, no negotiation, just "Follow me" and the response is immediate. Matthew is not first cleansed or instructed. He is called into discipleship. He will learn by following.',
+            'Jesus calls Matthew, a tax collector—a man wealthy but despised, working for the occupation force against his own people. Matthew leaves everything and follows. His calling is radical: no preparation, no negotiation, just "Follow me" and the response is immediate. Matthew is not first cleansed or instructed. He is called into discipleship. He will learn by following[res:sefaria-hosea-6-6].',
         },
         {
           kind: 'commentary',

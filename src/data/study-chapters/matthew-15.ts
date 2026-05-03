@@ -43,7 +43,7 @@ export const MATTHEW_15: RichChapterContent = {
           kind: 'commentary',
           id: 'matt15-tradition',
           html:
-            'The Pharisees hold to the traditions of the elders—elaborate oral laws developed to protect God&apos;s written commandment from being broken [res:bibleodyssey-pharisees]. Yet in their zeal, they have made tradition equal to, or even superior to, God&apos;s law itself. They honor God with their lips while their hearts are far from Him. Jesus sees through this: they have substituted external compliance for inner transformation.',
+            'The Pharisees hold to the traditions of the elders—elaborate oral laws developed to protect God&apos;s written commandment from being broken [res:bibleodyssey-pharisees]. Yet in their zeal, they have made tradition equal to, or even superior to, God&apos;s law itself. They honor God with their lips while their hearts are far from Him. Jesus sees through this: they have substituted external compliance for inner transformation[res:sefaria-mark-7-purity].',
         },
         {
           kind: 'commentary',

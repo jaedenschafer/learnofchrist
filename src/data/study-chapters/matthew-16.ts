@@ -42,7 +42,7 @@ export const MATTHEW_16: RichChapterContent = {
           kind: 'commentary',
           id: 'matt16-sign',
           html:
-            'The Pharisees and Sadducees—rivals in almost everything—unite in demanding a sign. Jesus refuses. They can read weather signs in the sky, yet they cannot discern the signs of the times. They cannot see that the Messiah stands before them, that His very presence is the sign. The only sign they will receive is His resurrection, foreshadowed by Jonah&apos;s three days in the great fish.',
+            'The Pharisees and Sadducees—rivals in almost everything—unite in demanding a sign. Jesus refuses. They can read weather signs in the sky, yet they cannot discern the signs of the times. They cannot see that the Messiah stands before them, that His very presence is the sign. The only sign they will receive is His resurrection, foreshadowed by Jonah&apos;s three days in the great fish[res:bibleodyssey-caesarea-philippi].',
         },
         {
           kind: 'commentary',

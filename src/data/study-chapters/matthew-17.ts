@@ -43,7 +43,7 @@ export const MATTHEW_17: RichChapterContent = {
           kind: 'commentary',
           id: 'matt17-transfigured',
           html:
-            'On the high mountain, Jesus is transfigured—His divine nature shines forth [res:intertextual-transfiguration]. His face gleams like the sun. His garments become luminous white. For a moment, the veil between heaven and earth is thin. The disciples behold Jesus in glory—not as a rabbi or healer, but as the radiant Lord. They see not merely a human teacher but the divine reality He had been all along.',
+            'On the high mountain, Jesus is transfigured—His divine nature shines forth [res:intertextual-transfiguration]. His face gleams like the sun. His garments become luminous white. For a moment, the veil between heaven and earth is thin. The disciples behold Jesus in glory—not as a rabbi or healer, but as the radiant Lord. They see not merely a human teacher but the divine reality He had been all along[res:sefaria-exodus-34-29].',
         },
         {
           kind: 'commentary',

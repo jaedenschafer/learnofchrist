@@ -46,7 +46,7 @@ export const MATTHEW_8: RichChapterContent = {
           kind: 'commentary',
           id: 'matt8-leper',
           html:
-            'The leper approaches with reverence and trust: "Lord, if thou wilt, thou canst make me clean." He does not presume upon Jesus. He believes in His power but submits to His will. And Jesus, "moved with compassion," touches him and says "I will; be thou clean." By touching the leper, Jesus violates the law of uncleanness[res:sefaria-leviticus-13]. He identifies Himself with the outcast. Yet in touching him, He transfers not uncleanliness to Himself but cleanness to the leper. The disease departs immediately.',
+            'The leper approaches with reverence and trust: "Lord, if thou wilt, thou canst make me clean." He does not presume upon Jesus. He believes in His power but submits to His will. And Jesus, "moved with compassion," touches him and says "I will; be thou clean." By touching the leper, Jesus violates the law of uncleanness[res:sefaria-leviticus-13]. He identifies Himself with the outcast. Yet in touching him, He transfers not uncleanliness to Himself but cleanness to the leper. The disease departs immediately[res:bibleodyssey-miracles].',
         },
         {
           kind: 'commentary',

@@ -47,13 +47,13 @@ export const MATTHEW_13: RichChapterContent = {
           kind: 'commentary',
           id: 'matt13-sower',
           html:
-            'The parable of the sower is about receptivity to the word of the kingdom. A sower plants seed indiscriminately, in all kinds of soil. Some seed is devoured by birds. Some springs up quickly but has no root and withers when tested. Some is choked by thorns and yields no fruit. But some falls on good soil and bears fruit—some thirtyfold, some sixtyfold, some a hundredfold. The difference is not in the seed (which is the same word of the kingdom) but in the heart that receives it.',
+            'The parable of the sower is about receptivity to the word of the kingdom. A sower plants seed indiscriminately, in all kinds of soil. Some seed is devoured by birds. Some springs up quickly but has no root and withers when tested. Some is choked by thorns and yields no fruit. But some falls on good soil and bears fruit—some thirtyfold, some sixtyfold, some a hundredfold. The difference is not in the seed (which is the same word of the kingdom) but in the heart that receives it[res:bibleodyssey-parables][res:sefaria-daniel-2-44].',
         },
         {
           kind: 'commentary',
           id: 'matt13-hardened-hearts',
           html:
-            'Jesus explains the parable: the seed by the wayside is the word that is quickly forgotten, stolen away by the evil one before it can root. The seed on stony ground springs up quickly but has no depth; when affliction comes, it falls away. The seed among thorns grows but is choked by the cares of the world and the deceitfulness of riches. Only the seed on good soil produces fruit. The difference between the soils is not circumstance but the condition of the heart—its openness, its depth, its freedom from competing concerns.',
+            'Jesus explains the parable: the seed by the wayside is the word that is quickly forgotten, stolen away by the evil one before it can root. The seed on stony ground springs up quickly but has no depth; when affliction comes, it falls away. The seed among thorns grows but is choked by the cares of the world and the deceitfulness of riches. Only the seed on good soil produces fruit. The difference between the soils is not circumstance but the condition of the heart—its openness, its depth, its freedom from competing concerns[res:intertextual-sower].',
         },
         {
           kind: 'commentary',

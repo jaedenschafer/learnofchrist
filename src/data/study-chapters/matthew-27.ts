@@ -42,7 +42,7 @@ export const MATTHEW_27: RichChapterContent = {
           kind: 'commentary',
           id: 'matt27-pilate',
           html:
-            'Pilate asks Jesus: "Art thou the King of the Jews?" Jesus answers: "Thou sayest"—a response that is neither denial nor explicit claim, but leaves Pilate uncertain. Pilate finds no fault in Him. Yet the crowd demands crucifixion. Pilate is politically pressured. He washes his hands, declaring innocence. But his gesture fails to erase his guilt. He delivers the innocent to death to save his own position.',
+            'Pilate asks Jesus: "Art thou the King of the Jews?" Jesus answers: "Thou sayest"—a response that is neither denial nor explicit claim, but leaves Pilate uncertain. Pilate finds no fault in Him. Yet the crowd demands crucifixion. Pilate is politically pressured. He washes his hands, declaring innocence. But his gesture fails to erase his guilt. He delivers the innocent to death to save his own position[res:intertextual-crucifixion].',
         },
         {
           kind: 'commentary',

@@ -45,13 +45,13 @@ export const MATTHEW_11: RichChapterContent = {
           kind: 'commentary',
           id: 'matt11-john-doubt',
           html:
-            'John the Baptist sends disciples to Jesus with a question that sounds like doubt. But it may be something different: a request for reassurance, a struggle to hold faith in darkness, a genuine uncertainty in the prison. Jesus does not rebuke John for asking. Rather, He points John to the evidence: the works of the kingdom breaking in. The blind see. The lame walk. The dead are raised. These are the signs. This is the answer.',
+            'John the Baptist sends disciples to Jesus with a question that sounds like doubt. But it may be something different: a request for reassurance, a struggle to hold faith in darkness, a genuine uncertainty in the prison. Jesus does not rebuke John for asking. Rather, He points John to the evidence: the works of the kingdom breaking in. The blind see. The lame walk. The dead are raised. These are the signs. This is the answer[res:bibleodyssey-john-baptist][res:sefaria-isaiah-35].',
         },
         {
           kind: 'commentary',
           id: 'matt11-jesus-works',
           html:
-            '"The blind receive their sight, and the lame walk, the lepers are cleansed, and the deaf hear, the dead are raised up, and the gospel is preached to the poor." These are not arbitrary miracles. They are signs of redemption. The blind receiving sight symbolizes spiritual illumination. The lame walking symbolizes restoration. The gospel preached to the poor symbolizes the universality of God&apos;s offer. Let the works speak.',
+            '"The blind receive their sight, and the lame walk, the lepers are cleansed, and the deaf hear, the dead are raised up, and the gospel is preached to the poor." These are not arbitrary miracles. They are signs of redemption. The blind receiving sight symbolizes spiritual illumination. The lame walking symbolizes restoration. The gospel preached to the poor symbolizes the universality of God&apos;s offer. Let the works speak[res:sefaria-jeremiah-6-16].',
         },
         {
           kind: 'commentary',

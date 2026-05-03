@@ -43,7 +43,7 @@ export const MATTHEW_24: RichChapterContent = {
           kind: 'commentary',
           id: 'matt24-deception',
           html:
-            'Jesus&apos; first warning is about deception [res:bibleodyssey-false-messiahs]. "Take heed that no man deceive you. For many shall come in my name, saying, I am Christ; and shall deceive many." In the last times, false messiahs and false prophets will arise. The sign of the end is not a single event or person but a pattern of turbulence, accompanied by the warning not to be deceived.',
+            'Jesus&apos; first warning is about deception [res:bibleodyssey-false-messiahs]. "Take heed that no man deceive you. For many shall come in my name, saying, I am Christ; and shall deceive many." In the last times, false messiahs and false prophets will arise. The sign of the end is not a single event or person but a pattern of turbulence, accompanied by the warning not to be deceived[res:intertextual-olivet-discourse].',
         },
         {
           kind: 'commentary',

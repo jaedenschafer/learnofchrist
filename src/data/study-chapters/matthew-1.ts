@@ -44,13 +44,13 @@ export const MATTHEW_1: RichChapterContent = {
           kind: 'commentary',
           id: 'matt1-genealogy',
           html:
-            'Matthew presents Jesus as the heir of two great promises: the covenant with Abraham and the covenant with David. Abraham was promised that through his descendants all the nations of the earth would be blessed. David was promised an eternal throne, a king whose reign would not end. Jesus is the fulfillment of both. But notice how Matthew structures the genealogy: fourteen generations, fourteen generations, fourteen generations. The pattern is intentional. Matthew is showing us that Jesus&apos; arrival is not accident. It is the climax of a plan woven through history.',
+            'Matthew presents Jesus as the heir of two great promises: the covenant with Abraham and the covenant with David. Abraham was promised that through his descendants all the nations of the earth would be blessed. David was promised an eternal throne, a king whose reign would not end. Jesus is the fulfillment of both. But notice how Matthew structures the genealogy: fourteen generations, fourteen generations, fourteen generations. The pattern is intentional. Matthew is showing us that Jesus&apos; arrival is not accident. It is the climax of a plan woven through history[res:sefaria-genesis-5][res:sefaria-ruth-4].',
         },
         {
           kind: 'commentary',
           id: 'matt1-women',
           html:
-            'Four women appear in the genealogy—an unusual thing in ancient genealogies, which typically name men. Tamar, who disguised herself as a harlot to bear Judah&apos;s heir. Rahab, the prostitute of Jericho who hid the Israelite spies. Ruth, the Moabite outsider who claimed Boaz and became David&apos;s grandmother. Bathsheba, taken by David and made a widow, whose son became a great king. Each woman was outside the boundaries—by birth, by circumstance, by apparent shame. Yet God worked through them. Jesus comes not through the purely righteous, but through the redeemed and the included.',
+            'Four women appear in the genealogy—an unusual thing in ancient genealogies, which typically name men. Tamar, who disguised herself as a harlot to bear Judah&apos;s heir. Rahab, the prostitute of Jericho who hid the Israelite spies. Ruth, the Moabite outsider who claimed Boaz and became David&apos;s grandmother. Bathsheba, taken by David and made a widow, whose son became a great king. Each woman was outside the boundaries—by birth, by circumstance, by apparent shame. Yet God worked through them. Jesus comes not through the purely righteous, but through the redeemed and the included[res:bibleodyssey-parthenos].',
         },
         {
           kind: 'hebrew',

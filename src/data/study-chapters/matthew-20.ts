@@ -43,13 +43,13 @@ export const MATTHEW_20: RichChapterContent = {
           kind: 'commentary',
           id: 'matt20-hire',
           html:
-            'The landowner is generous from the beginning. Those hired early agreed to a denarius—a fair day&apos;s wage. But the owner continues hiring throughout the day. Those hired at the eleventh hour—who worked barely an hour—receive the same wage. The economy is not merit-based. It is rooted in the owner&apos;s generosity and goodwill.',
+            'The landowner is generous from the beginning. Those hired early agreed to a denarius—a fair day&apos;s wage. But the owner continues hiring throughout the day. Those hired at the eleventh hour—who worked barely an hour—receive the same wage. The economy is not merit-based. It is rooted in the owner&apos;s generosity and goodwill[res:intertextual-laborers][res:sefaria-isaiah-53].',
         },
         {
           kind: 'commentary',
           id: 'matt20-grumble',
           html:
-            'Those hired early grumble [res:intertextual-laborers-vineyard]. They expect to receive more for working longer. Instead, all receive the same. Their complaint reveals a transactional mind-set: work is a contract to be negotiated. But the owner&apos;s response is not a contract but a gift. He has done no wrong. He has been gracious to all. Those hired late have received mercy; those hired early have received what they bargained for.',
+            'Those hired early grumble[res:intertextual-laborers]. They expect to receive more for working longer. Instead, all receive the same. Their complaint reveals a transactional mind-set: work is a contract to be negotiated. But the owner&apos;s response is not a contract but a gift. He has done no wrong. He has been gracious to all. Those hired late have received mercy; those hired early have received what they bargained for.',
         },
         {
           kind: 'greek',

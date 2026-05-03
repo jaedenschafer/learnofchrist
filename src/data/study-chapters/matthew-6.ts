@@ -48,7 +48,7 @@ export const MATTHEW_6: RichChapterContent = {
           kind: 'commentary',
           id: 'matt6-hidden-alms',
           html:
-            'Jesus begins by calling His disciples to practice righteousness without seeking the praise of men. "Take heed that ye do not your alms before men, to be seen of them." This is not because giving is bad, but because the motivation matters absolutely. If you give to be seen and praised, you have what you sought—human approval. But you have forfeited the deeper reward of the Father&apos;s approval, the reward of a conscience clear before God.',
+            'Jesus begins by calling His disciples to practice righteousness without seeking the praise of men. "Take heed that ye do not your alms before men, to be seen of them." This is not because giving is bad, but because the motivation matters absolutely. If you give to be seen and praised, you have what you sought—human approval. But you have forfeited the deeper reward of the Father&apos;s approval, the reward of a conscience clear before God[res:sefaria-exodus-20-3-4][res:bibleodyssey-prayer].',
         },
         {
           kind: 'commentary',

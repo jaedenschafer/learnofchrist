@@ -46,13 +46,13 @@ export const MATTHEW_10: RichChapterContent = {
           kind: 'commentary',
           id: 'matt10-sent-forth',
           html:
-            'Jesus sends the twelve "as sheep in the midst of wolves." This is not metaphor only. The disciples will face real opposition. They will be arrested, brought before governors and kings, beaten in synagogues. Yet their posture is not to become predators. They are called to be "wise as serpents, and harmless as doves"—to be alert and watchful, but innocent and pure. They do not fight back with worldly weapons. Their weapon is witness, presence, and faithfulness.',
+            'Jesus sends the twelve "as sheep in the midst of wolves." This is not metaphor only. The disciples will face real opposition. They will be arrested, brought before governors and kings, beaten in synagogues. Yet their posture is not to become predators. They are called to be "wise as serpents, and harmless as doves"—to be alert and watchful, but innocent and pure. They do not fight back with worldly weapons. Their weapon is witness, presence, and faithfulness[res:bibleodyssey-apostles][res:sefaria-psalms-23].',
         },
         {
           kind: 'commentary',
           id: 'matt10-lost-sheep',
           html:
-            'Jesus sends the disciples first to "the lost sheep of the house of Israel." Israel is scattered, broken, without a shepherd. The disciples are sent as under-shepherds to gather the lost, to proclaim the coming kingdom, to heal the broken. The mission is to those who belong to God&apos;s covenant people yet are separated from God&apos;s purpose. Later, the gospel will extend to the Gentiles. But first, to the lost sheep of Israel.',
+            'Jesus sends the disciples first to "the lost sheep of the house of Israel." Israel is scattered, broken, without a shepherd. The disciples are sent as under-shepherds to gather the lost, to proclaim the coming kingdom, to heal the broken. The mission is to those who belong to God&apos;s covenant people yet are separated from God&apos;s purpose. Later, the gospel will extend to the Gentiles. But first, to the lost sheep of Israel[res:bibleodyssey-persecution].',
         },
         {
           kind: 'commentary',

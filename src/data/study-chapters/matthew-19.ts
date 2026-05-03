@@ -42,7 +42,7 @@ export const MATTHEW_19: RichChapterContent = {
           kind: 'commentary',
           id: 'matt19-marriage',
           html:
-            'The Pharisees test Jesus on divorce [res:sefaria-genesis-2-24]. Jewish law permitted divorce, but the debate centered on grounds. Jesus goes to the heart: at creation, God made them male and female and joined them. Marriage is not a contract to be dissolved at pleasure. It is a covenant bond—"one flesh." What God has joined, humans lack the authority to separate.',
+            'The Pharisees test Jesus on divorce [res:sefaria-genesis-2-24]. Jewish law permitted divorce, but the debate centered on grounds. Jesus goes to the heart: at creation, God made them male and female and joined them. Marriage is not a contract to be dissolved at pleasure. It is a covenant bond—"one flesh." What God has joined, humans lack the authority to separate[res:intertextual-laborers-vineyard].',
         },
         {
           kind: 'commentary',
