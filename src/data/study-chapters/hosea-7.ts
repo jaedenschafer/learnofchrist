@@ -5,6 +5,7 @@ export const HOSEA_7: RichChapterContent = {
   bookName: 'Hosea',
   chapter: 7,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 4 },
   intros: [
     'Hosea 7 presents Israel as "a cake not turned" — half-baked, unfinished, useless. The image is striking. A cake baked on one side only is burned on the exposed side and raw on the other. It is not fit to eat. This is what unfaithfulness does: it leaves us incomplete, distorted, not what we were made to be.',
     'The chapter describes a people who flatter their kings, who make an alliance with Assyria, who call upon God with double hearts. They are surrounded by enemies, but instead of turning to God, they turn to other nations, to other gods. They are like a half-baked cake — consumed on the outside but raw within.',

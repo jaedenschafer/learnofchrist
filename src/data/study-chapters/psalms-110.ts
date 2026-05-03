@@ -15,6 +15,7 @@ export const PSALMS_110: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 110,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Psalm 110 is the shortest chapter that carries the greatest christological weight. It opens with God speaking to the Messiah: sit at my right hand. Your enemies will be made your footstool. Then: you are a priest forever, after the order of Melchizedek. David wrote this psalm about someone greater than himself—the Messiah. The New Testament repeatedly quotes it to prove that Jesus is not merely the descendant of David but the Messiah himself, seated at God&apos;s right hand, ruling until all enemies are put under His feet. This psalm is the scriptural foundation for the Church&apos;s understanding of Christ&apos;s ascension, exaltation, and ongoing priesthood.',
     'The shortness of the psalm does not diminish its significance. Sometimes the most important truths are the most concise. Psalm 110 distills the entire plot of redemption into a few lines: the Messiah is exalted, His enemies are defeated, He reigns as both King and Priest forever. All of this is contained here.',

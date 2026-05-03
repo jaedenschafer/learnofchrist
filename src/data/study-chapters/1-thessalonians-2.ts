@@ -5,6 +5,7 @@ export const FIRST_THESSALONIANS_2: RichChapterContent = {
   bookName: '1 Thessalonians',
   chapter: 2,
 
+  estimatedMinutes: { 5: 9, 10: 14, 15: 20 },
   intros: [
     'Paul reflects on his ministry among the Thessalonians with deep tenderness. He came not with flashy words or manipulation, but with the gospel itself—the powerful Word of God that remakes human hearts. Though his preaching was accompanied by opposition and hardship, his love for the Thessalonians was unwavering.',
     'What emerges is a portrait of apostolic ministry shaped by the self-giving love of Christ. Paul did not come to please people or draw attention to himself. He came as a servant, gentle as a nursing mother, generous as a father, willing to pour out his own soul for their sake. Every mark of his apostleship was love.',

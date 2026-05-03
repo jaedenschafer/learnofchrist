@@ -15,6 +15,7 @@ export const MATTHEW_16: RichChapterContent = {
   bookName: 'Matthew',
   chapter: 16,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
   intros: [
     'The Pharisees and Sadducees approach Jesus asking for a sign from heaven. Jesus refuses. The only sign given will be the sign of Jonah—a reference to His death and resurrection. He warns His disciples to beware the leaven of the Pharisees and Sadducees—their teaching, their skepticism, their refusal to believe.',
     'Jesus withdraws with His disciples to Caesarea Philippi, a city of many temples and religions. In this pagan place, He asks a question that cuts to the heart: "Whom do men say that I the Son of man am?" After hearing various answers, He presses deeper: "But whom say ye that I am?" Peter alone responds with fullness: "Thou art the Christ, the Son of the living God." In this moment, the church is conceived.',

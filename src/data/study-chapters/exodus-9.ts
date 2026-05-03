@@ -15,6 +15,7 @@ export const EXODUS_9: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 9,
 
+  estimatedMinutes: { 5: 8, 10: 13, 15: 16 },
   intros: [
     'By Exodus 9, the plagues are no longer just warnings — they are judgments that strike to the heart of Egyptian religion and power. Each plague dismantles a god the Egyptians worship: Hapi the Nile god, Heqet the frog goddess, Apis the sacred bull. Now come three more: a livestock plague, boils that attack the Egyptian priestly class (who are supposed to be pure), and a hail storm of apocalyptic scale that kills every living thing in the open field and strips the land bare.',
     'But Exodus 9 introduces a shift. God begins to separate the fearful from the faithless. A handful of Egyptians — those who &ldquo;feared the word of the LORD&rdquo; (v.20) — bring their servants and animals inside and are spared. And Pharaoh breaks again, confessing sin, only to harden his heart once more. The plagues are teaching Egypt (and us) that judgment is not indiscriminate: those who align themselves with God are protected, while those who resist face the full weight of His power.',

@@ -17,6 +17,7 @@ export const SECOND_ESDRAS_10: RichChapterContent = {
   bookName: '2 Esdras',
   chapter: 10,
 
+  estimatedMinutes: { 5: 9, 10: 19, 15: 23 },
   intros: [
     'After days of fasting and prayer, Ezra finds himself in a flowery field, away from the city, trying to gather his thoughts. Grief has followed him—grief over Jerusalem, over God&apos;s silence, over the state of the world. And there, in that quiet place, he encounters a woman weeping. She has lost her only son, the child of thirty years of waiting. Her sorrow seems absolute. But as Ezra speaks to her, something shifts. The woman does not disappear into sadness; she transforms.',
     'What begins as a vision of personal loss becomes a revelation of cosmic restoration. The woman is Zion herself—the city of God, grieving her separation from the Beloved, yet appointed to be crowned in glory. Her mourning is not meaningless; it is the birth-pain of a new creation. The chapter invites us to see our own sorrows not as the end of the story but as the prelude to restoration beyond imagining.',

@@ -22,6 +22,7 @@ export const CHRONICLES_1_15: RichChapterContent = {
   bookName: '1 Chronicles',
   chapter: 15,
 
+  estimatedMinutes: { 5: 4, 10: 9, 15: 14 },
   intros: [
     'The first attempt to bring the ark of God to Jerusalem ended in tragedy. In 1 Chronicles 13, David assembled Israel, and the ark was placed on a new cart — the way the Philistines had transported it. When the oxen stumbled, Uzzah reached out to steady it and was struck dead on the spot. The God who gives life guards the holiness of His presence. David learned that day that the ark of the covenant was not to be carried by cart, but by Levites, on their shoulders, with the wooden staves that God had appointed.',
     'After three months of waiting — the ark resting in the house of Obed-edom, and the Lord blessing that household abundantly — David was ready to try again. But this time, nothing would be left to assumption. The Levites would be sanctified. The singers and musicians would be appointed by name, with instruments and song. The elders and captains would go to bring the ark up "with joy." This is a chapter about learning to approach God the way He has ordained — not from human convenience, but from reverence, from order, and from the joy that comes when we align our worship to His will.',

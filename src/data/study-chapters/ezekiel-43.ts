@@ -13,6 +13,7 @@ export const EZEKIEL_43: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 43,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'All the measurements, all the careful construction, all the chambers and gates and holy places—they have been leading to this moment. The glory of God is about to enter the temple. Ezekiel hears a sound like the roar of many waters, and the earth shines with God&apos;s glory. It is the shekinah—the manifest presence of God—coming to dwell in the temple. But this is not a return to the way things were. God says something new: "I will dwell in the midst of the children of Israel for ever." Forever. The separation is permanent. The reconciliation is eternal.',
     'This is the promise that sustains all the exiles in Babylon. You will return. Your home will be rebuilt. And God will dwell with you. Not in a distant heaven. Not behind a veil in the holy of holies. But in your midst, visibly, tangibly, forever.',

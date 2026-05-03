@@ -13,6 +13,7 @@ export const LEVITICUS_13: RichChapterContent = {
   bookName: 'Leviticus',
   chapter: 13,
 
+  estimatedMinutes: { 5: 12, 10: 16, 15: 20 },
   intros: [
     'Leviticus 13 is a careful manual. For fifty-nine verses, Moses lays out exactly how a priest is to examine a suspected skin affliction — what marks require watching, what marks demand immediate separation, what the quarantine looks like. There is no guessing. There is no fear-based panic. A priest looks, waits, examines again. Seven days. The rhythm is merciful, not cruel.',
     'But the chapter also tells you what happens when the affliction cannot be healed: the person must tear their clothes, let their hair go unkempt, cover their upper lip, and cry out in the streets, "Unclean, unclean!" They dwell alone, outside the camp. They are separated from worship, from the tabernacle, from the people they love. The law is medical hygiene layered over something deeper — a picture of what it means to be broken and cast outside.',

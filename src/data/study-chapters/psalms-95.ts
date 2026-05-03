@@ -15,6 +15,7 @@ export const PSALMS_95: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 95,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
   intros: [
     'Psalm 95 begins with joy and celebration. Come, let us sing to the Lord. Make a joyful noise. He is the rock of our salvation, the God of Jacob. But then the tone shifts. "To day if ye will hear his voice, harden not your heart." The present moment is the critical moment. Today, if you hear His voice. Do not delay. Do not resist. Do not harden your heart against the call of God.',
     'The psalm alludes to the wilderness wandering, when Israel rebelled against God and never entered His promised rest. The connection is made explicit in Hebrews: those who hear God&apos;s voice and refuse to believe remain outside the rest God offers. Hearing is not passive. Hearing demands a response. It demands that we soften our hearts, that we believe, that we enter the rest God is offering us.',

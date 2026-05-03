@@ -15,6 +15,7 @@ export const FIRST_TIMOTHY_6: RichChapterContent = {
   bookName: '1 Timothy',
   chapter: 6,
 
+  estimatedMinutes: { 5: 8, 10: 17, 15: 24 },
   intros: [
     'Paul&apos;s final words to Timothy are both tender and fierce. He loves the young man. But he also sees the snares set for the church. False teachers will arise, claiming piety as a cover for greed. The pursuit of riches will destroy many believers&apos; faith. Timothy must stand. He must guard the deposit of truth. He must run the race with endurance.',
     'Yet the tone is not fearful. Paul promises that godliness with contentment is "great gain." This is not the world&apos;s calculus. Wealth brings anxiety. Status brings enmity. But contentment with Christ brings peace that passes understanding. Timothy is invited into this rest—not as escape from labor, but as the fruit of right-ordered affections.',

@@ -20,6 +20,7 @@ export const CHRONICLES_2_22: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 22,
 
+  estimatedMinutes: { 5: 5, 10: 11, 15: 16 },
   intros: [
     'The throne of Judah is in crisis. King Jehoram has died, and his sons have been slain by Arabians — all but the youngest. The choice falls to Ahaziah, a young man surrounded by the wrong counsel: his mother Athaliah, daughter of Ahab, whose very name carries the stench of apostasy. She becomes his counselor "to do wickedly," and under her influence, Ahaziah walks in the ways of Israel&apos;s most wicked dynasty. His reign lasts only one year. It is cut short by the sword of Jehu, whom the Lord has appointed to purge Ahab&apos;s house from the earth. But the story does not end in darkness.',
     'When Athaliah sees that her son is dead, she does not mourn — she rises and destroys all the seed royal of Judah. A woman grasping for power, she will erase every heir to make her claim absolute. Yet she does not count on a quiet woman, the daughter of a king and the wife of a priest. Jehoshabeath takes one small child, Joash — the grandson of Ahaziah — and hides him in the temple of the Lord for six years while Athaliah reigns. In the hiding place of God&apos;s house, the promise is preserved. The covenant seed is not extinguished. As in the days of the Fall, when the serpent sought to destroy the woman&apos;s offspring, the seed endures in secret, waiting for its appointed hour.',

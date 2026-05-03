@@ -19,6 +19,11 @@ export type FocusMode = 'full' | 'focus';
 // applied to .rich-study so the section is removed from the page.
 export type HidableSection = 'reflection' | 'carry' | 'hebrew' | 'images';
 
+// Study-guide depth tier — Quick (5min) / Standard (10min) / Deep (15min).
+// Re-exported from data/study-chapters/types so consumers don't need two
+// imports just to read the active tier.
+export type DepthTier = 5 | 10 | 15;
+
 interface ReadingPrefsContextType {
   fontSize: FontSize;
   setFontSize: (s: FontSize) => void;
@@ -30,6 +35,8 @@ interface ReadingPrefsContextType {
   setFocusMode: (f: FocusMode) => void;
   hiddenSections: ReadonlySet<HidableSection>;
   toggleSection: (s: HidableSection) => void;
+  depthTier: DepthTier;
+  setDepthTier: (t: DepthTier) => void;
   // Resolved dark state after system-preference + user-override
   isDark: boolean;
 }
@@ -45,6 +52,8 @@ const ReadingPrefsContext = createContext<ReadingPrefsContextType>({
   setFocusMode: () => {},
   hiddenSections: new Set(),
   toggleSection: () => {},
+  depthTier: 10,
+  setDepthTier: () => {},
   isDark: false,
 });
 
@@ -58,8 +67,15 @@ const isFocusMode = (v: unknown): v is FocusMode =>
   v === 'full' || v === 'focus';
 const isHidableSection = (v: unknown): v is HidableSection =>
   v === 'reflection' || v === 'carry' || v === 'hebrew' || v === 'images';
+const isDepthTier = (v: unknown): v is DepthTier =>
+  v === 5 || v === 10 || v === 15;
 
 const HIDDEN_SECTIONS_KEY = 'loc-hidden-sections';
+const DEPTH_TIER_KEY = 'loc-depth-tier';
+
+// Default for new readers: Standard. Quick risks training people that the
+// site is shallow; Deep risks a wall-of-text first impression.
+const DEFAULT_DEPTH_TIER: DepthTier = 10;
 
 export function ReadingPrefsProvider({ children }: { children: ReactNode }) {
   const [fontSize, setFontSizeState] = useState<FontSize>('medium');
@@ -67,6 +83,7 @@ export function ReadingPrefsProvider({ children }: { children: ReactNode }) {
   const [theme, setThemeState] = useState<Theme>('light');
   const [focusMode, setFocusModeState] = useState<FocusMode>('full');
   const [hiddenSections, setHiddenSections] = useState<ReadonlySet<HidableSection>>(new Set());
+  const [depthTier, setDepthTierState] = useState<DepthTier>(DEFAULT_DEPTH_TIER);
 
   // Load from localStorage
   useEffect(() => {
@@ -100,6 +117,44 @@ export function ReadingPrefsProvider({ children }: { children: ReactNode }) {
         }
       }
     } catch {}
+
+    // Depth tier — string in storage, number in state.
+    try {
+      const savedTier = localStorage.getItem(DEPTH_TIER_KEY);
+      if (savedTier !== null) {
+        const parsed = Number(savedTier);
+        if (isDepthTier(parsed)) setDepthTierState(parsed);
+      }
+    } catch {}
+  }, []);
+
+  // Print: force tier 15 so the user always prints the full chapter, then
+  // restore their preference after print. Uses the standard beforeprint /
+  // afterprint window events so it works both for File→Print and Cmd+P.
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    let savedTier: DepthTier | null = null;
+    const before = () => {
+      // Capture the current tier from state at the moment of print, not from
+      // a stale closure — the setter accepts a function form.
+      setDepthTierState((prev) => {
+        savedTier = prev;
+        return 15;
+      });
+    };
+    const after = () => {
+      if (savedTier !== null) {
+        const restore = savedTier;
+        savedTier = null;
+        setDepthTierState(restore);
+      }
+    };
+    window.addEventListener('beforeprint', before);
+    window.addEventListener('afterprint', after);
+    return () => {
+      window.removeEventListener('beforeprint', before);
+      window.removeEventListener('afterprint', after);
+    };
   }, []);
 
   const isDark = theme === 'dark';
@@ -114,12 +169,13 @@ export function ReadingPrefsProvider({ children }: { children: ReactNode }) {
     root.setAttribute('data-reader-theme', isDark ? 'dark' : 'light');
     root.setAttribute('data-reading-mode', readingMode);
     root.setAttribute('data-font-size', fontSize);
+    root.setAttribute('data-depth-tier', String(depthTier));
     if (focusMode === 'focus') {
       root.setAttribute('data-focus-mode', 'focus');
     } else {
       root.removeAttribute('data-focus-mode');
     }
-  }, [isDark, focusMode, readingMode, fontSize]);
+  }, [isDark, focusMode, readingMode, fontSize, depthTier]);
 
   const setFontSize = useCallback((s: FontSize) => {
     setFontSizeState(s);
@@ -156,6 +212,18 @@ export function ReadingPrefsProvider({ children }: { children: ReactNode }) {
       return next;
     });
   }, []);
+  const setDepthTier = useCallback((t: DepthTier) => {
+    setDepthTierState(t);
+    try {
+      localStorage.setItem(DEPTH_TIER_KEY, String(t));
+    } catch {}
+    // Sync to Supabase user_preferences when signed in. Fire-and-forget;
+    // localStorage is the source of truth on this device, the server row
+    // is the cross-device sync mechanism.
+    if (typeof window !== 'undefined') {
+      window.dispatchEvent(new CustomEvent('loc:depth-tier-changed', { detail: { tier: t } }));
+    }
+  }, []);
 
   const value = useMemo(
     () => ({
@@ -169,6 +237,8 @@ export function ReadingPrefsProvider({ children }: { children: ReactNode }) {
       setFocusMode,
       hiddenSections,
       toggleSection,
+      depthTier,
+      setDepthTier,
       isDark,
     }),
     [
@@ -182,6 +252,8 @@ export function ReadingPrefsProvider({ children }: { children: ReactNode }) {
       setFocusMode,
       hiddenSections,
       toggleSection,
+      depthTier,
+      setDepthTier,
       isDark,
     ],
   );

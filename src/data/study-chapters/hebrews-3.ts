@@ -16,6 +16,7 @@ export const HEBREWS_3: RichChapterContent = {
   bookName: 'Hebrews',
   chapter: 3,
 
+  estimatedMinutes: { 5: 9, 10: 12, 15: 19 },
   intros: [
     'The book of Hebrews keeps returning to a single argument: Jesus is supreme. Supremacy over angels. Supremacy over the Law. And now, supremacy over Moses himself. For Jewish readers, this is the climactic claim. Moses gave the Law. Moses led the exodus. Moses mediated the covenant. If the author can show that Christ exceeds Moses, the entire point is proved: turn to Christ, not backward.',
     'But Hebrews does not stop with praise. It pivots abruptly to warning. The author invokes the wilderness generation—those who watched God work miracles yet refused to believe, who hardened their hearts against His voice, and died without entering the promised land. The warning is direct: you are not immune to that same hardening. The same grace that sustained the wilderness generation is now extended through Christ. But you must choose to listen, to trust, and to hold fast. Today, if you hear His voice, do not harden your heart as they did.',

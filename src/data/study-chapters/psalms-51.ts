@@ -5,6 +5,7 @@ export const PSALMS_51: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 51,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
   intros: [
     'Psalm 51 is the prayer of a man who has done the unthinkable. He has taken another man&apos;s wife; he has arranged for her husband to be killed in battle. And then, as his deed lay hidden, God sent a prophet to him. Nathan came with a story about a rich man who took the poor man&apos;s only lamb. David heard the story and his anger burned. "As the Lord liveth, the man that hath done this thing shall surely die." And Nathan said, "Thou art the man." In that moment, David&apos;s comfortable sin became unbearable.',
     'What follows is this psalm—not a prayer of excuses, but a prayer of devastation. David does not ask for mere pardon. He asks to be made new. "Wash me throughly from mine iniquity," he cries. "Purge me with hyssop...and I shall be clean: wash me, and I shall be whiter than snow." He knows that no outward cleansing will suffice. He needs his very heart remade. "Create in me a clean heart, O God; and renew a right spirit within me."',

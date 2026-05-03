@@ -5,6 +5,7 @@ export const HOSEA_12: RichChapterContent = {
   bookName: 'Hosea',
   chapter: 12,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 4 },
   intros: [
     'Hosea 12 looks back to Jacob, Israel&apos;s ancestor. "By his strength he had power with God." Jacob wrestled with the angel of the Lord and prevailed. He wept and made supplication. This is the pattern: struggle, prayer, prevailing through intimacy with God.',
     'Yet Israel has not followed Jacob&apos;s pattern. She has followed Jacob&apos;s deception instead — his striving in her own strength, his manipulation. The chapter calls Israel to return to the God with whom Jacob wrestled, to find strength not in cunning but in communion with God.',

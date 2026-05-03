@@ -14,6 +14,7 @@ export const PSALMS_82: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 82,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
   intros: [
     'Psalm 82 is one of the most mysterious and debated psalms in Scripture. It opens with God standing in the congregation of "the mighty" and judging among "the gods." For centuries, interpreters have asked: Who are these gods? Are they heavenly beings? Earthly rulers? The most coherent reading is that the "gods" are earthly judges and rulers—those given authority to govern and to defend justice. And God is coming to judge them, to hold them accountable for their failure to defend the weak and the fatherless.',
     'What makes this psalm extraordinary is its New Testament interpretation. Jesus quotes from Psalm 82:6—"I have said, Ye are gods"—in John 10:34, applying it to His disciples. And the Church recognizes in this psalm a foreshadowing of Christ, the True Judge, the one divine Son who comes to judge the unjust judges and to establish justice that no earthly power could accomplish.',

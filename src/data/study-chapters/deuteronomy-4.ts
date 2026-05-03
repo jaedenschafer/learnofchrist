@@ -16,6 +16,7 @@ export const DEUTERONOMY_4: RichChapterContent = {
   bookName: 'Deuteronomy',
   chapter: 4,
 
+  estimatedMinutes: { 5: 10, 10: 16, 15: 21 },
   intros: [
     'Deuteronomy 4 is Moses at the threshold. The generation that saw the wonders of Egypt and heard God speak at Sinai is about to die in the wilderness. A new generation will enter the land. And Moses stands to call them into covenant — not through fear, but through memory. He reminds them of what they have seen, and what they are about to forget.',
     'The chapter pivots on a single command: do not add to God&apos;s word, and do not diminish from it. Do not make an image of God, because you did not see any form at Horeb — only a voice. This refusal to image God is where Christ enters. In the New Testament, Paul will write that Jesus is &ldquo;the image of the invisible God&rdquo; — not an idol made by human hands, but God&apos;s own choice of how to reveal Himself in flesh.',

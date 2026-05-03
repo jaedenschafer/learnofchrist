@@ -19,6 +19,7 @@ export const SECOND_ESDRAS_3: RichChapterContent = {
   bookName: '2 Esdras',
   chapter: 3,
 
+  estimatedMinutes: { 5: 12, 10: 18, 15: 24 },
   intros: [
     'Two esdras is the opening voice of Jewish apocalypse. Written after Jerusalem&apos;s fall, it speaks from the deepest place of theological crisis: If God is just, how could He allow this? Ezra enters not as a rebel but as one who loves God and cannot understand His ways. He will spend the next seven chapters in visions, wrestling with the answer.',
     '2 Esdras 3 begins with a man unable to sleep. Ezra lies on his bed in Babylon, heart troubled, recounting history: Adam&apos;s creation, the fall, the flood, Abraham, the law given at Sinai, Israel&apos;s repeated refusal to listen to the prophets, the exile. And then the cry that defines the entire book: Why does Babylon prosper while Jerusalem weeps? The theodicy question has never been asked more fiercely.',

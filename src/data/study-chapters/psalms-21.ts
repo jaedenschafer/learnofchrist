@@ -16,6 +16,7 @@ export const PSALMS_21: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 21,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Psalm 21 celebrates the strength of a king who has received his heart&apos;s desire from the Lord. This is not a king who trusts in his own arm, but one who rejoices in God&apos;s power working through him. The psalmist shows us a vision of regal triumph rooted not in earthly conquest, but in the favor and blessing of God.',
   ],

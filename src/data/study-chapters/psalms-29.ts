@@ -16,6 +16,7 @@ export const PSALMS_29: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 29,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
   intros: [
     'Psalm 29 is a song of nature as the manifestation of God&apos;s power. But it is not merely nature poetry. It is a proclamation of God&apos;s voice. The psalm opens with a call to the sons of the mighty to ascribe glory to God, and then describes the power of His voice as it moves through creation like a storm. The voice that shook Mount Sinai, the voice that stilled the sea, the voice that will one day call the dead from their graves—this is the subject of the psalm.',
   ],

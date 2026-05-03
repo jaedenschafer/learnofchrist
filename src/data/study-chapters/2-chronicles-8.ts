@@ -29,6 +29,7 @@ export const CHRONICLES_2_8: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 8,
 
+  estimatedMinutes: { 5: 5, 10: 10, 15: 14 },
   intros: [
     'At the end of twenty years, the work was finished. Solomon had built the house of the Lord and his own house. The great enterprise that David began and Solomon undertook is now complete. But completion is not the end — it is the beginning of everything the completed work makes possible.',
     "In this chapter, we see what the finished kingdom of Israel looked like. Every detail matters: the cities fortified, the trade routes opened, the foreign populations put to work, the children of Israel set free from servitude, the ritual life ordered according to Moses, the three feasts kept in their seasons, the priesthood arranged in their courses. And overshadowing all of it, a single restraint — Pharaoh&apos;s daughter will not live in the house of David, because the ark of the Lord has made it holy. Even in abundance, even in power, the sacred is kept separate. The chapter asks us to see the shape of a completed work, and to consider: what does it mean for a king to finish what his father began?",

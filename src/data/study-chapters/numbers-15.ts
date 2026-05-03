@@ -16,6 +16,7 @@ export const NUMBERS_15: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 15,
 
+  estimatedMinutes: { 5: 7, 10: 10, 15: 14 },
   intros: [
     'Numbers 15 arrives in the shadow of the people&apos;s refusal to enter the land. The older generation will not see Canaan. And yet God speaks to Moses about laws for living in Canaan — laws for how to approach the altar when they settle there, how to make offerings of grain and drink, how to acknowledge the firstfruits. It is an act of sustained tenderness: God speaks as if the promise is still good, because it is.',
     'But the chapter also contains a razor&apos;s edge. It distinguishes carefully between unintentional sin — sins the congregation commits together, or sins an individual commits by accident — and the sin done "with a high hand," with open defiance. For unintentional sin, there is atonement. For defiant sin, there is no atonement: the person is cut off. The Sabbath law is absolute. And at the end, the command to wear tassels — small fringes on the corners of garments with a blue thread, to remember the commandments. When Jesus walked in His own garment, the sick reached for those tassels and were healed.',

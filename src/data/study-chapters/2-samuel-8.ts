@@ -15,6 +15,7 @@ export const SAMUEL_2_8: RichChapterContent = {
   bookName: '2 Samuel',
   chapter: 8,
 
+  estimatedMinutes: { 5: 4, 10: 10, 15: 11 },
   intros: [
     'After years of securing his throne and establishing his dynasty, David turns his attention outward. In 2 Samuel 8, we see the fullness of his military victories — the wars that will make his name great among the nations, the campaigns that expand the Davidic kingdom to its greatest extent. Philistines, Moabites, Syrians, Edomites — all bow before him. Yet what stands out in this chapter is not the glory of conquest alone. It is the repeated statement that "the Lord preserved David whithersoever he went," and the image of a king who takes the treasures of war and dedicates them to his God.',
     'This chapter is, in many ways, a summary. It shows us David at the apex of his earthly power — his kingdom stretched from the Euphrates to the border of Egypt, his enemies subdued, his government functioning with judges and priests and military commanders. Yet it also points forward. A king whose dominion is vast, whose enemies are many, who takes his victories and offers them to the Lord — this is the pattern of the one who will come, the one whose dominion will finally reach all nations, and who will reign forever.',

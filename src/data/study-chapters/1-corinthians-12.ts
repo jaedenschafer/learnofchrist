@@ -14,6 +14,7 @@ export const FIRST_CORINTHIANS_12: RichChapterContent = {
   bookName: '1 Corinthians',
   chapter: 12,
 
+  estimatedMinutes: { 5: 9, 10: 18, 15: 25 },
   intros: [
     'The Corinthian church is fractured by envy over spiritual gifts. Some members boast of glossolalia—speaking in languages they cannot understand. Others emphasize prophecy or the power to work miracles. The church has turned gifts into a hierarchy, a ladder of status. The least impressive gifts are despised. The showy ones are coveted. Division has replaced unity.',
     'Paul writes to demolish this hierarchy. He does not deny that spiritual gifts are real, powerful, and given by God. But he redefines what makes a gift valuable. A gift is not valuable because it is impressive to an audience. It is valuable because it builds up the body. One Spirit distributes them. One Lord coordinates them. One God works through them all. And the church—the body of Christ—is stronger when every member is honored, not just the flashy ones.',

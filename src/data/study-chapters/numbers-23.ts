@@ -13,6 +13,7 @@ export const NUMBERS_23: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 23,
 
+  estimatedMinutes: { 5: 7, 10: 11, 15: 13 },
   intros: [
     'Balaam is a hired prophet with a gift for seeing and speaking. King Balak of Moab pays him to curse Israel—a people Balak fears. But when Balaam opens his mouth, God overrides his will. Instead of curses, blessings pour out. The chapter shows the impossibility of reversing what God has blessed.',
     `For every believer who has felt cursed by circumstance, rejected, or condemned—this chapter whispers a radical truth: you cannot be cursed if God has blessed you. Your circumstances may be hard. Your reputation may be damaged. But the blessing God has declared over you cannot be reversed by any voice but His own. This is Balaam's uncomfortable discovery: he is a tool in God\'s hand, not a master of his own words.`,

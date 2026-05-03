@@ -19,6 +19,7 @@ export const DEUTERONOMY_2: RichChapterContent = {
   bookName: 'Deuteronomy',
   chapter: 2,
 
+  estimatedMinutes: { 5: 9, 10: 13, 15: 18 },
   intros: [
     'Deuteronomy 2 opens with a turning point. After 38 years of circling Mount Seir, the Lord tells Moses, "Ye have compassed this mountain long enough: turn you northward." The wilderness years are ending. The generation that refused to enter Canaan is dying away. A new generation is stepping toward the land.',
     'But the journey north is not a direct line. Israel must pass through the territories of three nations — Edom, Moab, and Ammon — all descended from Abraham&apos;s family (Esau and Lot). The Lord explicitly forbids contention with them. Each nation was given its land by God Himself. The contrast is stark: these lands are off-limits; Canaan is Israel&apos;s. God apportions territories. His will determines borders.',

@@ -16,6 +16,7 @@ export const CHRONICLES_1_4: RichChapterContent = {
   bookName: '1 Chronicles',
   chapter: 4,
 
+  estimatedMinutes: { 5: 3, 10: 8, 15: 11 },
   intros: [
     'The book of 1 Chronicles is a genealogy, and genealogies are not a modern reader&apos;s favorite genre. But they are the Old Testament&apos;s way of holding time together — of keeping alive the names of those who came before, of tracing the line of blessing from Abraham to David to the coming Messiah. In 1 Chronicles 4, we follow the descendants of Judah: their clans, their towns, their crafts and trades. Most of these names are simply names, brief entries in the record. But one name stops us: Jabez.',
     'In the midst of a long list of descendants, we suddenly encounter a man described as "more honourable than his brethren." His mother named him Jabez — which means sorrow — "because I bare him with sorrow." And then, in just two verses, we read a prayer. Jabez called on God. He asked for blessing, for enlarged borders, for God&apos;s hand, for protection from harm. And God granted him what he requested. It is a small narrative pearl set in the genealogical register, a reminder that God listens to the prayers of the faithful, even the prayers of those born into hardship.',

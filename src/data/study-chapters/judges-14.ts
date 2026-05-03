@@ -13,6 +13,7 @@ export const JUDGES_14: RichChapterContent = {
   bookName: 'Judges',
   chapter: 14,
 
+  estimatedMinutes: { 5: 8, 10: 14, 15: 19 },
   intros: [
     'Samson was born to deliver Israel from the Philistines. A Nazarite from the womb — his hair uncut, his lips never to touch wine, his hands never to touch the dead. The Spirit of the Lord came mightily upon him. But Judges 14 opens with a man undone not by weakness of body, but by the weakness of sight. He sees a Philistine woman and wants her. And nothing — not his parents&apos; objection, not his vows, not God&apos;s call on his life — will turn him from what pleases his eye.',
     'This is the era the book keeps naming: "In those days there was no king in Israel: every man did that which was right in his own eyes" (Judges 17:6, 21:25). Samson <em>is</em> that era. The Spirit empowers him even as he breaks his vows. Honey sweet comes from the carcase of the lion. And the riddle he cannot keep — it will be told by a woman, and the telling will cost him everything.',

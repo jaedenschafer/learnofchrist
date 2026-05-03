@@ -15,6 +15,7 @@ export const SAMUEL_1_20: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 20,
 
+  estimatedMinutes: { 5: 2, 10: 12, 15: 14 },
   intros: [
     'David has come to Jonathan. He is hunted, afraid for his life. Saul&apos;s hatred has become violent — the king who once loved him now seeks him dead. And yet Jonathan, Saul&apos;s own son and heir, stands between them. In this chapter, Jonathan will prove the depth of his love by devising a test, risking his father&apos;s wrath, and ultimately saying goodbye to the man he loves more than the kingdom he is heir to. This is not the friendship of equals. This is the friendship of one who knows he is losing, and chooses love anyway.',
     'What unfolds is a moment of luminous self-sacrifice. Jonathan knows what David knows: David will be king, not Jonathan. The future belongs to David, the future heir to Saul&apos;s throne will be displaced. And Jonathan, instead of fighting for what should be his, fights for David. He shields him from his father&apos;s rage. He tests Saul&apos;s intentions with an arrow-signal. And when the moment comes to part, he weeps with a sorrow that echoes across centuries to the night when another friend, facing betrayal and loss, will weep on his disciples&apos; shoulders.',

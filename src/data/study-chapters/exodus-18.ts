@@ -9,6 +9,7 @@ export const EXODUS_18: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 18,
 
+  estimatedMinutes: { 5: 7, 10: 11, 15: 14 },
   intros: [
     'Exodus 18 opens after the plagues and the parting of the Red Sea. Moses has led Israel out of Egypt with signs and wonders so unmistakable that his father-in-law Jethro — a Midianite priest, not an Israelite — hears the news and recognizes God&apos;s hand. He brings Zipporah and the boys to Moses and gives him a gift: not gold or supplies, but counsel. A leader who cannot listen to wisdom outside his own tribe will burn himself out doing work that was never meant to fall on one man.',
     'The chapter sets a pattern that echoes through Scripture: delegation as an act of wisdom, not weakness. Moses appoints judges over thousands, hundreds, fifties, and tens, keeping the hardest cases for himself. Later, the Twelve will do the same. The apostles will appoint deacons (Acts 6). Even now, the model holds: a leader who makes space for others to lead is a leader who survives to lead at all.',

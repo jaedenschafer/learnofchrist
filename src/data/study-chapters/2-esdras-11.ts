@@ -18,6 +18,7 @@ export const SECOND_ESDRAS_11: RichChapterContent = {
   bookName: '2 Esdras',
   chapter: 11,
 
+  estimatedMinutes: { 5: 4, 10: 11, 15: 14 },
   intros: [
     'In a symbolic vision that echoes Daniel 7, Ezra sees a great eagle rise from the sea—twelve wings that rule one after another, three heads that consume each other in conflict. The eagle holds dominion over all the earth, yet the vision itself subverts its power: the angel tells Ezra the eagle&apos;s reign is not eternal. History is not the triumph of empires; it is the unfolding of God&apos;s judgment upon them.',
     'The chapter calls you to perceive the times as God perceives them. Worldly power dazzles and terrifies. But through Ezra&apos;s eyes, you see behind the curtain. The eagle rises from chaos, rules with violence, and falls at God&apos;s command. Your calling is not to be mastered by what the world calls ultimate, but to remember: only God&apos;s kingdom is permanent. Only Christ&apos;s reign is eternal. The rest—no matter how vast—is already measured for the grave.',

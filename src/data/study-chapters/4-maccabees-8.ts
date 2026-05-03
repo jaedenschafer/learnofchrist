@@ -16,6 +16,7 @@ export const FOURTH_MACCABEES_8: RichChapterContent = {
   bookName: '4 Maccabees',
   chapter: 8,
 
+  estimatedMinutes: { 5: 6, 10: 10, 15: 15 },
   intros: [
     'The story of 4 Maccabees pivots here. The book has just shown us Eleazar, an elderly priest, tortured and killed rather than break the law. He dies with his dignity intact, his faith unshaken. Now we meet the next wave of resistance: seven young brothers and their mother. They are brought before the king precisely because they are young, their faces beautiful, their bodies strong. Antiochus sees in them an opportunity. He is a pragmatist, a man of the world. Surely, he thinks, these young men will be swayed by what he offers. He does not lead with the sword. He leads with seduction.',
     'This chapter begins one of the most celebrated martyr-narratives in ancient Jewish literature. What unfolds is not a story of isolated individuals failing under torture. It is a story of unanimous witness—seven voices speaking as one, a mother standing with her sons. The refusal is not begrudging; it is bold. "We are not afraid to die rather than break the law of our fathers." This phrase, spoken by young men in the bloom of life, echoes across centuries. It foreshadows the apostles at the Sanhedrin: "We ought to obey God rather than men." It speaks to any soul who has had to choose between the approval of the world and the allegiance of heaven.',

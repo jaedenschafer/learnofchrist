@@ -18,6 +18,7 @@ export const KINGS_2_23: RichChapterContent = {
   bookName: '2 Kings',
   chapter: 23,
 
+  estimatedMinutes: { 5: 8, 10: 16, 15: 21 },
   intros: [
     'In the eighteenth year of his reign, King Josiah gathers all the elders, priests, and people of Judah into the house of the Lord. He reads to them the words of the Book of the Covenant — the law of Moses — that has been found in the temple. Standing by a pillar, Josiah makes a solemn covenant before the Lord: he will walk after the Lord, keep His commandments, testimonies, and statutes with all his heart and soul. All the people stand to the covenant.',
     'What follows is a transformation without precedent. Josiah commands that every vessel made for Baal, every idol, every altar to the sun, moon, and planets — the accumulated idolatry of centuries — be brought out of the temple and burned. The high places are destroyed from Geba to Beersheba. The bones of false priests are burned upon their own altars. Even Topheth, the valley where children were made to pass through the fire to Molech, is defiled so that no man shall ever do such evil there again. In the eighteenth year of Josiah&apos;s reign, a Passover is kept in Jerusalem that stands unmatched since the days of the judges.',

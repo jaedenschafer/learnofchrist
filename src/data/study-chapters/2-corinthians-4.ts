@@ -15,6 +15,7 @@ export const SECOND_CORINTHIANS_4: RichChapterContent = {
   bookName: '2 Corinthians',
   chapter: 4,
 
+  estimatedMinutes: { 5: 7, 10: 12, 15: 18 },
   intros: [
     'Paul has just finished defending his apostolic authority against false teachers who question whether he is truly an apostle. Now, in chapter 4, he shifts to the heart of the matter: what is the point of the ministry itself? Why does God give such a glorious treasure—the gospel of Christ—to people as fragile as Paul, as beset by troubles and doubts as any of us? The answer is breathtaking: so that the power will belong to God alone, not to the vessel that carries it.',
     'Two truths hold together in this chapter. First, the gospel is treasure—incomparable, radiant, the knowledge of the glory of God in the face of Jesus Christ. Second, we who carry it are earthen vessels—breakable, ordinary, sometimes crushed by affliction. But when we are afflicted, we are not abandoned. When we are perplexed, we are not in despair. When we are cast down, we are not destroyed. Why? Because we are bearing about in our body the dying of Jesus, and His life is at work in us. The renewal that meets us day by day is resurrection itself.',

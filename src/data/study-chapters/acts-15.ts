@@ -18,6 +18,7 @@ export const ACTS_15: RichChapterContent = {
   bookName: 'Acts',
   chapter: 15,
 
+  estimatedMinutes: { 5: 10, 10: 15, 15: 20 },
   intros: [
     'The gospel faces its first major theological crisis. Word has reached Jerusalem that Gentiles are believing, but men arrive from Judea insisting that Gentiles must be circumcised and keep the law of Moses to be saved. It is not a matter of keeping the law themselves—it is a matter of belonging. To them, the boundary is absolute. You cannot be saved unless you first become Jewish. The apostles gather. Peter, Paul, James speak. The question the church must answer is ancient and urgent: Is salvation available through grace alone, or must it be earned by obedience to the law?',
     'The stakes are not abstract. They are about whether the gospel is for all people or only for the Jews. They are about whether Christ&apos;s death is enough, or whether human effort and ethnic identity still matter for salvation. They are about whether God has broken down the wall or merely opened a gate that still requires a password. The answer the council gives will echo through two thousand years: "It seemed good to the Holy Ghost, and to us." The law is not abolished. But it is not the path to life. Only grace is.',

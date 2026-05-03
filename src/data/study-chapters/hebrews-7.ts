@@ -16,6 +16,7 @@ export const HEBREWS_7: RichChapterContent = {
   bookName: 'Hebrews',
   chapter: 7,
 
+  estimatedMinutes: { 5: 7, 10: 17, 15: 22 },
   intros: [
     'Hebrews 7 is the key that unlocks the entire letter. The author has introduced Melchisedec in chapter 5 as a mystery—a priest-king who appears in Genesis 14 without warning, blesses Abraham, receives a tithe from him, and then vanishes. Most readers pass over him. Hebrews stops and asks: Who is this man? Why does he matter? And the answer reshapes everything you understand about priesthood, sacrifice, and Christ.',
     'The chapter moves through Melchisedec&apos;s unusual nature (without genealogy, without end, receiving honor from Abraham), then argues that Christ is "a priest forever after the order of Melchisedec"—a priesthood that is eternal, unchangeable, and far superior to the Levitical system. The old priesthood was weak because it operated under the Law and could not perfect anyone. Christ&apos;s priesthood is powerful because it is grounded in God&apos;s sworn oath, and it actually saves to the uttermost.',

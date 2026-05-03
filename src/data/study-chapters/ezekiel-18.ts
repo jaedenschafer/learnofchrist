@@ -17,6 +17,7 @@ export const EZEKIEL_18: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 18,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 6 },
   intros: [
     'Israel had a proverb: "The fathers have eaten a sour grape, and the children&apos;s teeth are set on edge." In other words, the sins of the father are visited upon the son. Jeremiah and Ezekiel both challenge this. Ezekiel does so forcefully. He describes a righteous man—one who walks in God&apos;s statutes, who does not oppress, who restores pledges, who gives bread to the hungry. Such a man will live. Then his son becomes a sinner. That son will die. The righteousness of the father does not transfer. Nor does the sin.',
     'This is liberation. It is also burden. Each person is responsible for himself. No one can hide behind his parents&apos; goodness or blame his parents&apos; failure. And God wants to make clear: He takes no pleasure in death. His desire is that sinners turn and live. The God of judgment is also, always, the God who calls to repentance.',

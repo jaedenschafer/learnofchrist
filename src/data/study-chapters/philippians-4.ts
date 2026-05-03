@@ -16,6 +16,7 @@ export const PHILIPPIANS_4: RichChapterContent = {
   bookName: 'Philippians',
   chapter: 4,
 
+  estimatedMinutes: { 5: 7, 10: 13, 15: 17 },
   intros: [
     'Paul has written about partnership, joy in loss, resurrection power, and the surpassing knowledge of Christ. Now he turns to the street-level life of believers: friends in conflict, hearts prone to anxiety, minds tempted toward despair. He calls the church back to what matters: standing firm in the Lord, rejoicing, and releasing every fear to God in prayer.',
     'The promise of Philippians 4 is not that your problems disappear. It is that the peace of God—a peace beyond understanding—will guard your heart and mind. This peace is the presence of Christ in the midst of your difficulty, transforming fear into trust and anxiety into prayer.',

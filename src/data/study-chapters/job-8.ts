@@ -17,6 +17,7 @@ export const JOB_8: RichChapterContent = {
   bookName: 'Job',
   chapter: 8,
 
+  estimatedMinutes: { 5: 2, 10: 6, 15: 8 },
   intros: [
     'Job&apos;s suffering has sent him into a grief so profound that he cannot eat. His body breaks out in sores. His nights are filled with nightmares, and his days with despair. And now his first friend, Bildad the Shuhite, rises to speak. Unlike Job, who has poured out his heart in honest lament, Bildad begins with a harsh word: "How long wilt thou speak these things?" He has come, he believes, not to listen but to teach. The assumption behind his words is that Job must be wrong—not wrong about the events that have befallen him, but wrong in his grief itself.',
     'Bildad&apos;s theology is orderly and clean. God does not pervert judgment. The Almighty does not cast aside the righteous. Therefore, Job&apos;s children must have sinned—they must have "transgressed against him," and that is why they are dead. And Job himself, if he is suffering, must have committed some wrong, must have sought God with insufficient sincerity. The remedy is simple: seek God diligently, make supplication, and be restored. Bildad speaks as a man who has never stood where Job stands. He has never lost everything. His theology has never been tested by actual desolation. He offers Job the comfort of a logic that, if true, would make Job responsible for his own catastrophe.',

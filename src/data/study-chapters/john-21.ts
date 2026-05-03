@@ -16,6 +16,7 @@ export const JOHN_21: RichChapterContent = {
   bookName: 'John',
   chapter: 21,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
   intros: [
     'After the resurrection, the disciples return to Galilee. They are bewildered, uncertain of their future. Peter says: "I go a fishing." It is a regression, a return to the old life. The other disciples follow. They fish all night and catch nothing. Dawn comes. A figure stands on the shore, though they do not recognize Him. The stranger calls: "Cast the net on the right side of the ship, and ye shall find." They obey, and the net is suddenly heavy with fish—153 large fishes, yet the net does not break. John recognizes: "It is the Lord." Peter, hearing this, throws himself into the water and swims to shore.',
     'Jesus has prepared a charcoal fire with fish and bread. "Come and dine." They breakfast together, the risen Lord with His disciples. Then Jesus turns to Peter, asking three times: "Lovest thou me?" Three denials are answered by three affirmations of love. And with each affirmation, a commission: "Feed my lambs." "Tend my sheep." "Feed my sheep." Peter&apos;s failure is not held against him. He is restored and given the calling he feared he had lost. The gospel ends not with judgment but with restoration, not with abandonment but with commissioning. The risen Christ is present, feeding His sheep, sending His disciples into the world.',

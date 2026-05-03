@@ -15,6 +15,7 @@ export const JOHN_16: RichChapterContent = {
   bookName: 'John',
   chapter: 16,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
   intros: [
     'Jesus speaks of His departure and the coming of the Spirit. "It is expedient for you that I go away." His physical absence will enable a greater presence—the Spirit indwelling in every believer, everywhere, always. The Comforter will reprove the world, will bring conviction, will reveal truth. Yet for the disciples, this transition brings sorrow. They do not understand why He must leave. They cannot yet grasp the reality of resurrection and the pouring out of the Spirit.',
     '"Your sorrow shall be turned into joy." Jesus promises that the disciples&apos; grief will give way to rejoicing. When they see Him risen, when they receive the Spirit, when they understand His purpose, their mourning will yield to celebration. And that joy, once given, "no man taketh from you." The world can take much. It can take freedom, possession, even life. But it cannot take the deep joy of knowing that Christ has overcome the world.',

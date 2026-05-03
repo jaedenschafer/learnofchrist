@@ -11,6 +11,7 @@ export const DEUTERONOMY_31: RichChapterContent = {
   bookName: 'Deuteronomy',
   chapter: 31,
 
+  estimatedMinutes: { 5: 10, 10: 14, 15: 18 },
   intros: [
     'Deuteronomy 31 is Moses&apos; farewell. He is 120 years old, told he will not cross the Jordan. His life of leadership is over. But before he steps down, he leaves Israel with three great gifts: a charge to Joshua, a public covenant-reading ceremony to happen every seven years, and a written law placed inside the ark—not on the mercy seat, but beside it. "I know thy rebellion," he says. God&apos;s mercy is not naive.',
     'This chapter is where law hands over to grace in type and shadow. Joshua means "Yahweh saves"—the name itself points to Christ. And Moses&apos; words to Israel—"the Lord thy God, he it is that doth go with thee"—are quoted in Hebrews 13:5 as the church&apos;s daily promise. A farewell that reaches across centuries.',

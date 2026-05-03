@@ -16,6 +16,7 @@ export const REVELATION_5: RichChapterContent = {
   bookName: 'Revelation',
   chapter: 5,
 
+  estimatedMinutes: { 5: 6, 10: 14, 15: 18 },
   intros: [
     'Revelation 5 is the Christological climax of John&apos;s entire vision. In God&apos;s right hand is a scroll sealed with seven seals—the future, the unfolding of God&apos;s kingdom plan, the redemption and renewal of all things. But here is the crisis: no one is worthy to open it. Not in heaven, not on earth, not under the earth. The cosmos itself stands frozen.',
     'Into that desperate silence comes a word: "Weep not." The Lion of Judah, the Root of David, has prevailed. He will open the book. But what John sees when he looks is the inversion that makes the gospel: the Lion appears as the Lamb. The only one worthy to rule is the one willing to die. His sacrifice is His qualification. Through death He has conquered. Through the cross He inherits the kingdom.',

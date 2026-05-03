@@ -5,6 +5,7 @@ export const PSALMS_52: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 52,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 5 },
   intros: [
     'Doeg the Edomite was a servant in Saul&apos;s household. When David fled from Saul&apos;s jealous rage, he came to the priest Ahimelech at Nob, seeking bread and a weapon. The priest helped him. But Doeg saw. And Doeg reported what he had seen to Saul, saying that Ahimelech had consulted God for David. Saul, in his paranoia, ordered all the priests at Nob to be slain. Eighty-five priests of the Lord were killed—innocent men. And Doeg executed the order.',
     'Psalm 52 is David&apos;s response. It is a scathing indictment of the deceitful tongue, of the man who glories in mischief and loves evil more than good. And yet it ends not in the valley of revenge, but on high ground. David sees the man of lies standing temporary, while the man who trusts in God stands eternal. "I am like a green olive tree in the house of God: I trust in the mercy of God for ever and ever."',

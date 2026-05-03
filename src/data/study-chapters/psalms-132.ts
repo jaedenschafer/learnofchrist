@@ -15,6 +15,7 @@ export const PSALMS_132: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 132,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Psalm 132 recounts the journey of David—his affictions, his dedication to finding a place for God, his covenant with the Lord—and declares the eternal nature of the promise made to his line. The psalm opens by appealing to God to remember David, to recall his sufferings and his faithfulness. David had taken a vow not to rest, not to sleep, until he had found a place for the Lord, a house for His dwelling. This deep commitment became the foundation for a covenant: the Lord swore to David that his line would endure forever, that the throne would be established forever. This promise points to Christ, the ultimate heir of David, the King who reigns forever.',
   ],

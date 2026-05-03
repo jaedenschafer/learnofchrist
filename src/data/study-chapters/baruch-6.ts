@@ -17,6 +17,7 @@ export const BARUCH_6: RichChapterContent = {
   bookName: 'Baruch',
   chapter: 6,
 
+  estimatedMinutes: { 5: 6, 10: 13, 15: 16 },
   intros: [
     'Baruch 6 is a practical warning for the exiles about to enter Babylon. They will be surrounded by a magnificent religious machine. The temples are grand. The priests are confident. The people are devoted. It would be easy to ask: if the God of Israel could not protect us from Babylon, perhaps these Babylonian gods are stronger?',
     'What Jeremiah sends is a letter that cuts through the glitter and shows the emptiness. The idols are wood and metal. They do not move unless moved. They do not speak unless words are put in their mouths. They do not see, hear, smell, or taste anything. This is the exiles&apos; anchor: reason itself exposes the absurdity of idolatry. The true God, by contrast, is alive, present, and worthy of trust even in captivity.',

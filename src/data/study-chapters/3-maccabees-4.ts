@@ -5,6 +5,7 @@ export const THIRD_MACCABEES_4: RichChapterContent = {
   bookName: '3 Maccabees',
   chapter: 4,
 
+  estimatedMinutes: { 5: 4, 10: 6, 15: 10 },
   intros: [
     'Ptolemy orders all Jews in Egypt—men, women, children, even infants—to be seized from their homes and herded to the hippodrome of Alexandria. The scene is one of unspeakable sorrow: brides torn from wedding chambers, mothers separated from their children, entire families uprooted.',
     'Yet as the vast multitude gathers in the arena designed for their slaughter, they refuse to break. They pray. They bear witness to one another. The very impossibility of counting them becomes a kind of victory—even bureaucratic evil cannot number the people of God.',

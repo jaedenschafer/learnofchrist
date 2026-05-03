@@ -17,6 +17,7 @@ export const NUMBERS_13: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 13,
 
+  estimatedMinutes: { 5: 5, 10: 9, 15: 12 },
   intros: [
     'Israel stands at the edge of Canaan, the land God has promised them for forty years. Moses sends one leader from each of the twelve tribes into the land to scout it. For forty days they walk the length and breadth of Canaan. They see fortified cities and giant men. They bring back proof — a cluster of grapes so enormous that two men must carry it on a pole between them, figs, and pomegranates. But when they return, ten of the twelve give a report that begins with fact and ends in despair: the land is good, yes, but "the land eateth up the inhabitants thereof." The cities are fortified. There are giants.',
     'Only two men, Caleb and Joshua, refuse the fear. Caleb stills the people: "Let us go up at once, and possess it; for we are well able to overcome it." The other ten contradict him: "We be not able to go up against the people; for they are stronger than we." But Caleb and Joshua see the same land. They taste the same grapes. They stood in the same cities. The difference is not in what they see with their eyes. It is in what they believe.',

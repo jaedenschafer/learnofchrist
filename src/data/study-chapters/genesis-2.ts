@@ -14,6 +14,7 @@ export const GENESIS_2: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 2,
 
+  estimatedMinutes: { 5: 10, 10: 15, 15: 22 },
   intros: [
     'Genesis 1 watched creation from far away, day by day, sky and sea and land. Genesis 2 comes down to ground level. The lens narrows to a single garden, a single man formed from the dust, a single tree at the center, a single woman drawn from the man&apos;s side. Chapter 1 calls God by His Maker-name, <em>Elohim</em>. Chapter 2 calls Him <em>Yahweh Elohim</em> — &ldquo;the LORD God&rdquo; — closer, covenanted, a Father bending over dust to give it His breath.',
     'Two themes run through the chapter and meet at the end: <em>provision</em> and <em>partnership</em>. God plants every kind of tree the man could need. He digs four rivers to water the world. He gives the man work to do, and a single boundary to keep. And then He says the only &ldquo;not good&rdquo; in the Bible: <em>not good that the man should be alone.</em> The chapter closes with a marriage in the world&apos;s first temple — a man and a woman, naked and not ashamed, in the place where God walks.',

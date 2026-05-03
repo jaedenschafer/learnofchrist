@@ -19,6 +19,7 @@ export const SAMUEL_1_11: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 11,
 
+  estimatedMinutes: { 5: 7, 10: 11, 15: 14 },
   intros: [
     'Saul has been anointed king, but the kingdom is not yet established. Some of Israel welcome him; others doubt. Then Nahash the Ammonite lays siege to Jabesh-gilead with a demand so cruel it defines the moment: surrender and forfeit the right eye of every man, a humiliation that incapacitates as warriors and marks them as defeated. The elders of Jabesh send messengers across Israel, and the tidings reach Gibeah. It is into this moment of national peril that Saul steps forward—not claiming power, but filled with the Spirit of God.',
     'What happens next unfolds quickly. Saul summons all Israel, musters the tribes, and in a single dawn assault routs the Ammonites and saves Jabesh. But the chapter&apos;s deepest moment comes after. Saul is offered a chance to execute the men who doubted him. He refuses. "There shall not a man be put to death this day: for today the Lord hath wrought salvation in Israel." The Spirit of God had kindled his anger into courage, not into cruelty. He rightly attributes the victory to God, not himself. And Samuel seizes the moment to confirm the kingdom. Saul, in this chapter, is the deliverer Israel needed—and a foreshadowing of the One who saves not through revenge, but through mercy and the Spirit of God.',

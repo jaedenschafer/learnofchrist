@@ -13,6 +13,7 @@ export const SAMUEL_1_7: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 7,
 
+  estimatedMinutes: { 5: 7, 10: 12, 15: 15 },
   intros: [
     'For 20 years, Israel has lamented after the Lord. The ark of the covenant sits in a private house in Kirjath-jearim, and the people live in a kind of unfinished grief — the presence of God is near, but not with them. Then Samuel speaks: "If ye do return unto the Lord with all your hearts… put away the strange gods… he will deliver you out of the hand of the Philistines." The people hear him. They gather at Mizpeh, pour out water as a sign of their poured-out hearts, confess their sin. As an offering rises from the altar, the Lord thunders—a sound so loud and terrible that the Philistines scatter in panic. Israel pursues them and wins a complete victory.',
     'The chapter ends with a stone. Samuel sets up a stone between Mizpeh and Shen and calls it Ebenezer — "the stone of help" — saying, "Hitherto hath the Lord helped us." It is one of the most human sentences in Scripture. The past tense looking backward becomes hope for the future. And for the reader who knows Christ, that stone plants itself everywhere: at Calvary, at the empty tomb, at the throne of grace. Jesus is our Ebenezer. The thunder that came down for Israel fell on Him instead.',

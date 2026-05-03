@@ -14,6 +14,7 @@ export const LAMENTATIONS_5: RichChapterContent = {
   bookName: 'Lamentations',
   chapter: 5,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
   intros: [
     'Lamentations 5 is the prayer that closes the book. It is not an acrostic like the previous chapters, but a dirge—a plea for God to remember. The exiles are in captivity, their inheritance given to strangers, their mothers and fathers dead. They are mocked and despised. Yet instead of bitterness or accusation, the prayer is framed as a reminder: "Remember, O Lord, what is come upon us." God has not forgotten. But the exiles cry out for Him to remember, to consider, to acknowledge their suffering.',
     'Most powerfully, the prayer ends with the only request that truly matters: "Turn thou us unto thee, O Lord, and we shall be turned; renew our days as of old." The exiles understand that they cannot turn themselves around. They cannot pull themselves out of exile. Only God can do it. Only God can renew them. The final verse reads: "But thou hast utterly rejected us; thou art very wroth against us." It seems like despair—until we understand that even this cry of rejection is a cry of faith. The one who feels rejected still addresses God. The one who feels God\'s wrath still calls upon God. This is the deepest faith.',

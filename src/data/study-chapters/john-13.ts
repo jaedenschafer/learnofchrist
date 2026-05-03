@@ -16,6 +16,7 @@ export const JOHN_13: RichChapterContent = {
   bookName: 'John',
   chapter: 13,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
   intros: [
     'Before the Feast of Passover, Jesus knows His hour has come. He rises from supper, lays aside His garments, takes a towel, and girds Himself. He pours water into a basin and begins to wash His disciples&apos; feet. This is the work of a servant, of a slave. The Master does the servant&apos;s work. When He comes to Peter, Peter resists in horror: "Lord, dost thou wash my feet?" It is a violation of order, of dignity. But Jesus insists: "If I wash thee not, thou hast no part with me." The symbol is clear: His death, His self-offering, is the only way to union with Him.',
     'After washing their feet, Jesus commands: "By this shall all men know that ye are my disciples, if ye have love one to another." Then the darkness enters. "One of you shall betray me." The betrayer is among them, eating bread with Him, yet preparing to deliver Him over. Judas leaves into the night. And Jesus enters the last hours before the cross, speaking of His own glorification and His commandment: love one another as He has loved them. This love is the mark of discipleship.',

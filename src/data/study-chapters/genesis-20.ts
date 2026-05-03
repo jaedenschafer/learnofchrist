@@ -21,6 +21,7 @@ export const GENESIS_20: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 20,
 
+  estimatedMinutes: { 5: 7, 10: 11, 15: 15 },
   intros: [
     'Abraham is seventy-five verses into the most important promise God ever made — that Sarah will bear a son, that he will have descendants like the stars, that through him all nations will be blessed. And now, faced with a foreign king, Abraham does something that reveals a crack in his faith: he tells Sarah to say she is his sister, not his wife. This is not the first time. Twelve chapters earlier, he played the same half-truth in Egypt. He is afraid.',
     'Here is what matters: God does not let His promise hang on Abraham\'s courage. When a patriarch fails, God does not fail. What unfolds in Gerar is a story about fear driving a shortcut, and grace running ahead to catch it. It is also a story about a pagan king whose conscience is cleaner than a patriarch\'s — a scandal that the text will not let us miss.',

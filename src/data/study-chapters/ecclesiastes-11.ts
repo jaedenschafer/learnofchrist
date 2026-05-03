@@ -15,6 +15,7 @@ export const ECCLESIASTES_11: RichChapterContent = {
   bookName: 'Ecclesiastes',
   chapter: 11,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 6 },
   intros: [
     'The Preacher now shifts tone. He has spent Ecclesiastes describing vanity, futility, the uncertainty of life. And yet, he does not counsel withdrawal. He counsels action. Action in faith. The results are uncertain—you do not know what the future holds. But you have been given this moment, this day, this opportunity. And you are invited to act faithfully, not knowing the outcome.',
     'He begins with paradoxes. Cast your bread on the water, an apparently wasteful act. Yet you will find it again after many days—perhaps not literally, but the point is that generosity and sowing return in ways you cannot predict. Do not wait for perfect wind or perfect weather. The farmer who waits for perfect conditions never plants. Do not refuse to give because you might lose what you give. The refusal to give guarantees that good never happens. The Preacher is teaching a theology of faithful action: do what is before you, trust the rest to God, and remember that you are young and the future is unknown.',

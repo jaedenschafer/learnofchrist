@@ -12,6 +12,7 @@ export const GENESIS_28: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 28,
 
+  estimatedMinutes: { 5: 8, 10: 12, 15: 15 },
   intros: [
     'Jacob has just stolen his brother&apos;s blessing. He is fleeing for his life into the desert, running from Esau&apos;s murderous rage. He is homeless, alone, carrying nothing but the clothes on his back and a thief&apos;s guilt. At nightfall he lies down on the hard ground with a stone for a pillow. And then — at the moment of deepest isolation, when he has lost everything and has no reason to expect God&apos;s face — he dreams.',
     'What he sees is a ladder connecting earth to heaven, angels moving up and down it like a highway between two worlds. And standing at the top: the LORD Himself. The dream is pure grace: God speaking the very promises Jacob thought he&apos;d forfeited, blessing him not because he deserves it but because He had promised it to Abraham. Jacob wakes from his stone pillow trembling. He names the place Bethel — the house of God — and marks it with a vow. But his vow is still Jacob: <em>if</em> God will be with me, <em>then</em> the LORD will be my God. Grace finds him bargaining. Grace meets him anyway.',

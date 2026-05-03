@@ -9,6 +9,7 @@ export const SAMUEL_1_3: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 3,
 
+  estimatedMinutes: { 5: 7, 10: 12, 15: 15 },
   intros: [
     'The time is dark. Israel has no king, no prophet, no open vision from God. The child Samuel ministers in the temple, unaware that he is about to become the hinge upon which history turns. What God is after is not a spectacular theophany but something simpler and more dangerous: He wants to speak to the young, and the young want to hear.',
     'This chapter teaches what it costs to learn God&apos;s voice — and what it costs when you finally do. Three times the child confuses heaven&apos;s call with a man&apos;s summons. Eli, broken as he is, recognizes what&apos;s happening and becomes Samuel&apos;s teacher. The first prophecy is not a blessing but a judgment on the house that raised the prophet. By chapter&apos;s end, Samuel&apos;s words will never fall empty to the ground — and the reader is left to wrestle with what faithfulness to God may cost you.',

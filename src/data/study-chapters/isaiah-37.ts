@@ -16,6 +16,7 @@ export const ISAIAH_37: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 37,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 6 },
   intros: [
     'After the silent endurance comes prayer. Hezekiah tears his clothes and enters the temple. He spreads the letter of the Assyrian king before the Lord and prays. He acknowledges the power of Assyria to have destroyed nations, but he asks: are those nations&apos; gods like Your God? "Now therefore, O Lord our God, save us from his hand, that all the kingdoms of the earth may know that thou art the Lord, even thou only." God responds immediately through Isaiah the prophet. The Assyrian king will not come to the city. He will not shoot an arrow. That night, the angel of the Lord goes out and strikes down 185,000 Assyrian soldiers. God hears prayer. God saves. This is the promise and the power.',
   ],

@@ -17,6 +17,7 @@ export const ISAIAH_39: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 39,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
   intros: [
     'The chapter opens in a moment of peace and prosperity. Hezekiah has been healed. The Assyrians have been defeated. The kingdom is secure and rich. Envoys come from Babylon to visit and congratulate the king. In his joy, Hezekiah shows them his treasures—silver, gold, precious ointments, weapons, everything. But this moment of pride is interrupted by Isaiah the prophet. "Hear the word of the Lord of hosts." The treasures that Hezekiah has so proudly displayed will be carried away to Babylon. His descendants will be taken into exile. What seemed secure is revealed to be temporary. Pride in possession becomes the occasion for prophecy of loss.',
   ],

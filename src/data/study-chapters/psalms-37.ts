@@ -15,6 +15,7 @@ export const PSALMS_37: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 37,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
   intros: [
     'Psalm 37 is written for the troubled heart. The psalmist sees the wicked flourishing, their schemes succeeding, their names spoken with respect. The righteous, meanwhile, suffer. They obey and receive no reward. They trust and see no vindication. The natural response is anxiety—fret, worry, the nagging question: "Why am I doing the right thing when evil prospers?" To this weary soul, David speaks with the authority of long experience: "Fret not thyself."',
     'Yet he does not speak empty comfort. Instead, he points to a hidden transaction. The wicked are being cut off, their prosperity emptied of substance. The meek—the gentle, the humble, the small—are being promised something the whole world cannot see: they shall inherit the earth. This is not the voice of a dreamer. This is the testimony of a man who has learned, over years of watching, that the prosperity of evil is like grass that withers, while the righteousness of the humble is rooted in eternal soil.',

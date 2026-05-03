@@ -16,6 +16,7 @@ export const ECCLESIASTES_1: RichChapterContent = {
   bookName: 'Ecclesiastes',
   chapter: 1,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 6 },
   intros: [
     'The book of Ecclesiastes begins not with celebration but with a question mark. An ancient teacher—called the Preacher—sets out to examine life under the sun, to test all earthly pursuits and see if any of them yield lasting meaning. His conclusion is immediate and unsparing: vanity. Emptiness. Futility. But this is not nihilism. This is clarity. The Preacher is not denying that life has temporary pleasure or that work has value. He is asking whether these things, when they come to an end—and they always come to an end—can be called good, can be called lasting, can be called the answer to the deepest hunger of the human soul.',
     'What follows is a meditation on the circularity of existence. "One generation passeth away, and another generation cometh." The sun rises in the east and sets in the west and rises again in the east—an endless wheel. The wind bloweth toward the south, then turns toward the north, circling perpetually. All rivers run to the sea, yet the sea is not full. All things are full of labour; man is not able to utter it. And beneath it all is a single truth: there is nothing new under the sun. Everything that happens has happened before, and will happen again. What profit, then, can attach to any of our strivings?',

@@ -15,6 +15,7 @@ export const REVELATION_14: RichChapterContent = {
   bookName: 'Revelation',
   chapter: 14,
 
+  estimatedMinutes: { 5: 9, 10: 18, 15: 23 },
   intros: [
     'Revelation 14 stands like a still center between the chaos of the beasts and the final pouring out of bowls. The Lamb is on Mount Zion. The 144,000—the sealed, the faithful, the overcomers—stand with Him, marked not with the beast&apos;s mark but with His Father&apos;s name. They are already secure while the world still reels.',
     'Then comes the proclamation. Three angels cry out across the heavens: the gospel is eternal; Babylon will fall; judgment comes for those who worship the beast. The message is clear: choose your allegiance now. The time of mercy is waning. The harvest is ripe. The Son of Man holds the sickle.',

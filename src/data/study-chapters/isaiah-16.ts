@@ -14,6 +14,7 @@ export const ISAIAH_16: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 16,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 6 },
   intros: [
     "Isaiah 16 shifts the tone of Moab's burden from pure judgment to a more complex promise of mercy. Where chapter 15 depicted ruin spreading across the land like floodwaters, chapter 16 opens with a call for the fugitives of Moab to find shelter in Judah. The prophet describes a people stripped of their pride, their strength, and their security. Yet in this moment of absolute need, a promise emerges: God's mercy will establish the throne of David, and righteousness will govern its judgment.",
     'This is not a message of comfort for Moab alone. The elevation of David&apos;s throne as a seat of mercy and truth speaks to the longing of every generation for a ruler who will judge with compassion rather than only with power. It is a word that echoes through time toward the One who would sit upon David&apos;s throne and extend forgiveness to all nations.',

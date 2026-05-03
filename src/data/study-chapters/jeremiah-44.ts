@@ -14,6 +14,7 @@ export const JEREMIAH_44: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 44,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
   intros: [
     'Jeremiah stands in Egypt, among the very people he warned would not find safety there. They have fled Jerusalem, certain that Egypt would be a refuge. But even in exile, their hearts remain divided. They want God—but they want Him on their terms, mixed with the gods and goddesses of the nations around them. The "Queen of Heaven," likely a reference to Ishtar or a related fertility goddess, has captured their devotion. When Jeremiah declares God&apos;s word against this idolatry, they respond with stubbornness. They will do what they have sworn to do, they tell him. They will burn incense to the Queen of Heaven and pour out drink offerings to her, just as they have done—they and their ancestors, their kings and their officials, and all the people of the land.',
     'In this moment, Jeremiah faces what may be his greatest sorrow. He has preached repentance his entire life. He has been beaten, imprisoned, and cast into a cistern. He has spoken God&apos;s word in the temple and the streets. And now, at the end of his ministry, he stands before those he tried to save, watching them choose idolatry over the living God. Yet even here, in this moment of apparent defeat, God&apos;s word is vindicated. Not by Jeremiah&apos;s power, but by the unfolding of God&apos;s justice.',

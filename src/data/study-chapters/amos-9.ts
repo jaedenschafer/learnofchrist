@@ -5,6 +5,7 @@ export const AMOS_9: RichChapterContent = {
   bookName: 'Amos',
   chapter: 9,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
   intros: [
     'Amos 9 opens with a vision of the Lord standing upon the altar, striking the top of the pillars so the lintel shakes. No one will escape. Yet the chapter does not end in judgment alone. After the vision of destruction comes a word of hope: "In that day will I raise up the tabernacle of David that is fallen." Restoration follows judgment.',
     'The final vision shows that judgment is thorough but not final. The scattered house of Israel will be gathered again. The fall of David\'s house will be raised. The prophecy ends with abundance and permanence: "And they shall no more be pulled up out of their land which I have given them, saith the Lord thy God."',

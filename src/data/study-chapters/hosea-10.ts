@@ -5,6 +5,7 @@ export const HOSEA_10: RichChapterContent = {
   bookName: 'Hosea',
   chapter: 10,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Hosea 10 opens with Israel as a luxuriant vine that has turned fruitful — but fruitful in evil. She has multiplied altars, yet those altars are not to God. She is split in heart, yet she will pay for it.',
     'The chapter contains the call to righteousness: "Sow to yourselves in righteousness, reap in mercy; break up your fallow ground: for it is time to seek the Lord." Even in judgment, God calls His people to return. He offers them a path back — not through external obedience alone, but through seeking His face.',

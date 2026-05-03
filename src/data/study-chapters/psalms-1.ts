@@ -16,6 +16,7 @@ export const PSALMS_1: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 1,
 
+  estimatedMinutes: { 5: 2, 10: 6, 15: 7 },
   intros: [
     'The book of Psalms begins with a vision of blessedness. Not the blessedness of circumstance or fortune, but the blessedness of a life ordered toward God. The psalmist opens by describing a man who has learned to walk a certain way: not in the counsel of the ungodly, not standing in the way of sinners, not sitting in the seat of the scornful. These are not moments of temptation resisted, but a pattern of avoidance, a habitual turning away from foolishness and toward wisdom. And what does this man choose instead? He chooses delight. He chooses meditation. He chooses to fix his mind on the law of the Lord, day and night, until God&apos;s word becomes the landscape of his inner life.',
     'What follows is a promise: such a man shall be like a tree planted by rivers of water. He shall bring forth fruit in his season. His leaf shall not wither. Whatsoever he doeth shall prosper. This is not reward in the sense of payment for good behavior. This is the natural fruiting of a life rooted in God&apos;s word. The ungodly, by contrast, are like chaff—weightless, driven by every wind, having no permanence, no substance, no future. Between these two images the reader must choose. And the psalm opens by asking: which way will you walk?',

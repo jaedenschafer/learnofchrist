@@ -19,6 +19,7 @@ export const ACTS_22: RichChapterContent = {
   bookName: 'Acts',
   chapter: 22,
 
+  estimatedMinutes: { 5: 8, 10: 13, 15: 17 },
   intros: [
     'Paul is surrounded by a mob. He has been dragged into the temple courtyard, accused by Jews from Asia of bringing a Gentile into the holy place. The crowd is screaming for his death. A Roman officer binds him with chains. In that moment—bound, surrounded, moments from death—Paul asks permission to speak. The officer is surprised. But he grants it. Paul stands on the steps, raises his hand for silence, and begins to speak in Hebrew.',
 

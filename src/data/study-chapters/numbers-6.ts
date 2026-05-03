@@ -16,6 +16,7 @@ export const NUMBERS_6: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 6,
 
+  estimatedMinutes: { 5: 7, 10: 14, 15: 17 },
   intros: [
     'Numbers 6 describes two practices that will mark Israel&apos;s religious life: the Nazarite vow, a temporary or lifelong consecration to the LORD, and the Aaronic Blessing, the priestly benediction that still carries God&apos;s name into worship rooms and family tables today. The Nazarite is set apart by three visible signs — no wine, unshorn hair, and separation from the dead. These are not commands for everyone; they are an invitation to a deeper allegiance, a way to say publicly and privately, "I belong to the LORD alone."',
     'The Aaronic Blessing is one of the oldest liturgical texts in human civilization — over 3500 years old, spoken in temples, synagogues, and churches without pause. It captures in six short clauses what God&apos;s blessing actually looks like: protection and peace, favor and grace, presence and prosperity. The blessing is not generic goodwill; it is the LORD Himself lowering His face toward us, His name placed upon our heads.',

@@ -16,6 +16,7 @@ export const ECCLESIASTES_3: RichChapterContent = {
   bookName: 'Ecclesiastes',
   chapter: 3,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
   intros: [
     'After the Preacher establishes that all is vanity and death negates our achievements, he turns to a new observation. Life is not chaos. It is rhythm. Pattern. Structure. There is a season for everything—and not because we choose these seasons, but because God has woven them into the fabric of creation. Birth and death, planting and harvesting, weeping and laughter, war and peace—these are not random. They are necessary. They are part of the design. And in that design, God has created something beautiful.',
     'But here is the paradox: while God has made everything beautiful in its time, He has also hidden from man the full meaning of what He is doing. "Also he hath set the world in their heart: yet so that no man can find out the work that God maketh from the beginning to the end." God gives us the ability to see that there is meaning—the world is set in our hearts—but He withholds the full comprehension of His purposes. We see the pattern, but not the Painter. We see the rhythm, but not the Conductor. And in that incompleteness, we are invited to trust.',

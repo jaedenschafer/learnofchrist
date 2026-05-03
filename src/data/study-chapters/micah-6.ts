@@ -12,6 +12,7 @@ export const MICAH_6: RichChapterContent = {
   bookName: 'Micah',
   chapter: 6,
 
+  estimatedMinutes: { 5: 2, 10: 3, 15: 4 },
   intros: [
     'Micah presents God as calling Israel into a legal proceeding—a covenant lawsuit. God has a controversy with His people. He reminds them of all He has done: brought them up from Egypt, sent Moses and Aaron, delivered them from Balak&apos;s curse. And He asks: "What have I done to thee? Wherein have I wearied thee?" The implied answer is: nothing. God has done nothing but good.',
     'In response to God&apos;s faithfulness, the people ask: "Wherewith shall I come before the Lord?" And Micah answers with what may be the clearest statement of God&apos;s moral requirement in all of Scripture: Do justly. Love mercy. Walk humbly with your God. Not sacrifice, not ritual, not external observance, but a transformed heart and a changed life.',

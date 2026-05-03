@@ -15,6 +15,7 @@ export const ISAIAH_62: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 62,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Isaiah 62 is the prophet\'s declaration of persistent intercession. He will not rest until Zion\'s righteousness shines forth. The metaphor shifts from a woman restored to a woman beloved. Zion is no longer a widow, a forsaken one. She is the wife of her Maker, called by a new name that speaks of her dignity and belonging. The passage echoes Isaiah 54\'s bridal imagery and looks forward to Revelation 19, where the Church is the Bride of the Lamb, prepared and adorned for the wedding feast.',
   ],

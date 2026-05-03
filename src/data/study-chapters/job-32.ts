@@ -13,6 +13,7 @@ export const JOB_32: RichChapterContent = {
   bookName: 'Job',
   chapter: 32,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 5 },
   intros: [
     'After Job&apos;s speech and oath of innocence, the narrative shifts. The three friends have run out of words. But a younger man, Elihu, has been listening, growing increasingly frustrated with both sides. He has been silent because age has a voice in the ancient world, and youth must wait its turn. But Elihu can wait no longer. He believes he has something crucial to say about suffering, about God, and about the meaning of human affliction.',
   ],

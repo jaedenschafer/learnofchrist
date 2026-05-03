@@ -15,6 +15,7 @@ export const SAMUEL_2_7: RichChapterContent = {
   bookName: '2 Samuel',
   chapter: 7,
 
+  estimatedMinutes: { 5: 7, 10: 15, 15: 18 },
   intros: [
     'David has finally brought peace to Israel. From Saul&apos;s chaos and war, he has built a kingdom at rest, surrounded by enemies defeated. Now, sitting in his house of cedar, he looks at the ark of God still dwelling in a tent and thinks: "I should build a house for God." It seems right, the natural move of a grateful king. But God has something else in mind. Not a house built by David for God — but a house built by God for David. An eternal house. A throne that shall stand forever.',
     'This chapter contains one of the most important covenants in Scripture — the Davidic Covenant. It is the promise that runs through the entire Bible: that one of David&apos;s descendants will sit on a throne forever. When the angel Gabriel appears to Mary, he will draw a direct line from this moment to her son: "The Lord God shall give unto him the throne of his father David, and he shall reign over the house of Jacob for ever; and of his kingdom there shall be no end" (Luke 1:32–33). The Davidic Covenant is not a story about an ancient king. It is the foundation of hope for Christ.',

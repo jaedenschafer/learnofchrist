@@ -15,6 +15,7 @@ export const PSALMS_116: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 116,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Psalm 116 is a psalm of thanksgiving and dedication. The psalmist has been in deep distress—death and the grave surrounded him. He called out to God, and God heard and delivered him. Now he responds not with mere words of praise but with the offering of his entire self. "What shall I render unto the Lord for all his benefits toward me?" He does not offer sacrifices of animals. He offers himself: "I will take the cup of salvation, and call upon the name of the Lord." The cup of salvation becomes the symbol of his redemption. And in Christian tradition, this psalm speaks to the Eucharist—the cup of Christ&apos;s blood, the ultimate salvation.',
     'The psalm teaches us that the appropriate response to God&apos;s salvation is the offering of ourselves. We cannot repay God&apos;s mercy. We can only give Him what we have: our worship, our obedience, our lives.',

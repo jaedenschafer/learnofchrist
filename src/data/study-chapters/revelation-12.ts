@@ -5,6 +5,7 @@ export const REVELATION_12: RichChapterContent = {
   bookName: 'Revelation',
   chapter: 12,
 
+  estimatedMinutes: { 5: 8, 10: 14, 15: 17 },
   intros: [
     'Revelation 12 brings the cosmic story full circle. In Genesis 3:15, God promised that the seed of the woman would crush the serpent&apos;s head. Here, in apocalyptic vision, we see that promise carried out. A woman clothed with glory stands in heaven. A great red dragon waits to devour her child. The child is caught up to God&apos;s throne. War breaks out in heaven. And Satan, that old serpent, is cast down to the earth, his time running short.',
     'But the vision doesn&apos;t end with the man child. It continues with the woman fleeing into the wilderness and her remnant—those who keep God&apos;s commandments and hold the testimony of Jesus—standing against the dragon&apos;s wrath. The identity of the woman has long been debated: Israel, Mary, the church, or a symbol holding all three together. What matters is what the symbols show: God&apos;s people under attack, Christ risen and reigning, and victory won not by the sword but by the blood of the Lamb and the word of their testimony.',

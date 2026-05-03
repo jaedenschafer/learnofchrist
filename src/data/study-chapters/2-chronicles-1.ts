@@ -20,6 +20,7 @@ export const CHRONICLES_2_1: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 1,
 
+  estimatedMinutes: { 5: 6, 10: 10, 15: 14 },
   intros: [
     'Solomon has inherited the throne of Israel at a moment of strength and stability. His father David has secured the borders. The kingdom is at peace. The temple project awaits. But with this inheritance comes a weight: the responsibility to lead a people "like the dust of the earth in multitude." How does a young king step into such a role? The answer begins not with military strategy or administrative genius, but with a night encounter with God — and a simple, crucial choice about what to ask for.',
     'This chapter shows us the beginning of Solomon&apos;s reign through the lens of his greatest gift and his first seed of decline. When God offers him anything, Solomon asks for wisdom. It is the right prayer. And God&apos;s response is generous beyond measure. But even as wealth and honor pour in, a subtle movement troubles the text: horses from Egypt, the very thing Deuteronomy forbade. In Solomon&apos;s choice to acquire horses from Egypt, we see the faint outline of a future king who will forget the lesson of his own prayer.',

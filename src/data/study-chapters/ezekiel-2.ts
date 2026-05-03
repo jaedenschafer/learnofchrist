@@ -14,6 +14,7 @@ export const EZEKIEL_2: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 2,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 5 },
   intros: [
     'The vision of God&apos;s throne has left Ezekiel undone. He falls on his face before the overwhelming reality of the divine presence. But immediately a voice addresses him: "Son of man, stand upon thy feet." This is the first of ninety times in Ezekiel that he is called "son of man" — a term that emphasizes not his majesty but his humanity, his littleness before God. Yet he is called to stand. To rise. To receive a commission. The God who sits enthroned in transcendent glory addresses a mortal exile and calls him to be a prophet. But there is a catch: the prophet will speak to people who do not want to hear. God tells him this upfront. Prepare yourself for rejection.',
   ],

@@ -15,6 +15,7 @@ export const ISAIAH_13: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 13,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
   intros: [
     'Isaiah shifts his vision from Israel to the nations. Chapter 13 opens the "Burdens"—a series of prophecies against the nations that have threatened God&apos;s people or that refuse to acknowledge God&apos;s sovereignty. The first burden is against Babylon, the great empire that will one day conquer Judah and carry the people into exile. Yet Babylon will not escape judgment. God has "mingled" the people for the day of battle—He has called them together to execute His judgment. And that judgment is described in terms that reach beyond Babylon itself to the ultimate Day of the Lord, when God will shake the heavens and the earth, when the stars will cease to shine, when darkness will cover the earth.',
     'The vision is apocalyptic. It is not merely the fall of one empire, but the cosmic upheaval that accompanies God&apos;s final judgment of evil. Yet even in the terror of that day, there is a promise: God has a purpose that reaches beyond destruction. The prophets who follow Isaiah will expand this vision—the day of judgment will issue in the establishment of a new heaven and a new earth, where God dwells with His people forever.',

@@ -18,6 +18,7 @@ export const JOB_19: RichChapterContent = {
   bookName: 'Job',
   chapter: 19,
 
+  estimatedMinutes: { 5: 4, 10: 8, 15: 12 },
   intros: [
     'Job has heard enough. Bildad&apos;s words have struck him like hammers, and Job rises to speak not with argument but with raw anguish. He does not debate theology. He simply reports what has happened to him. "He hath fenced up my way that I cannot pass." God Himself has become his enemy. The path forward is closed. Retreat is impossible. Job is trapped in a dark place with no exit.',
     'But as Job speaks, something shifts. From the depths of despair, a vision breaks through. A vision not of his own vindication in this life, but of something far greater. Not of his name being remembered on earth, but of standing before God Himself in resurrection. Job cries out with a hope that transcends his circumstances, a hope that speaks of a redeemer, a goel, a kinsman-redeemer who will stand at the latter day. In this single verse, Job reaches forward across time and touches the heart of the Gospel itself—the promise that the innocent will be vindicated not in this world, but in the world to come, when Christ rises and brings all His people with Him.',

@@ -14,6 +14,7 @@ export const PSALMS_115: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 115,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 3 },
   intros: [
     'Psalm 115 opens with a refusal. "Not unto us, O Lord, not unto us, but unto thy name give glory." The psalmist will not accept honor or praise for himself. He knows that all glory belongs to God alone. And he knows why: "For thy mercy and for thy truth&apos;s sake." God is the source of all mercy and all truth. Any good that comes is because God is merciful and true. The psalmist is simply responding to what God has done.',
     'The psalm then builds a stark contrast: the living God versus lifeless idols. Idols have faces but cannot see, ears but cannot hear, noses but cannot smell. They are objects created by human hands, without consciousness or power. By contrast, the God Israel worships is alive. He sees, hears, acts. He is infinitely beyond the gods of gold and silver that the nations worship. And His people are invited to trust Him, to fear Him, to be blessed by Him.',

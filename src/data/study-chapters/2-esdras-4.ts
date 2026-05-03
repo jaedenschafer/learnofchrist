@@ -16,6 +16,7 @@ export const SECOND_ESDRAS_4: RichChapterContent = {
   bookName: '2 Esdras',
   chapter: 4,
 
+  estimatedMinutes: { 5: 7, 10: 12, 15: 16 },
   intros: [
     'Ezra cries out to God: Why is the world full of evil? Why does Your justice seem hidden? Why do the wicked prosper while the righteous suffer? His questions are not idle—they are the anguished prayers of a faithful man in exile, watching injustice flourish. And instead of dismissing him, God sends the angel Uriel to meet him where he stands.',
     'But Uriel does not answer in the language of doctrine. He answers in riddles—impossible questions that reorient Ezra&apos;s whole inquiry. Can you weigh fire? Can you measure wind? Can you call back a day that is past? If you cannot understand even earthly things, how will you understand the ways of God? This is not cruelty but clarity: the problem is not God&apos;s justice, but the limits of human sight. What Uriel teaches, through paradox and image, is that faith is not the right to understand everything—faith is the willingness to trust what you cannot measure.',

@@ -15,6 +15,7 @@ export const DANIEL_9: RichChapterContent = {
   bookName: 'Daniel',
   chapter: 9,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 6 },
   intros: [
     'In the first year of Darius the Mede, Daniel understands from the books of Jeremiah the prophet that the desolations of Jerusalem would be seventy years. He is moved to make supplication before God. He confesses the sins of his people—their transgressions, their iniquities, their unfaithfulness. He remembers God&apos;s law and His mercies. And he cries out not for himself, but for his people and the city of God: "O my God, incline thine ear, and hear; open thine eyes, and behold our desolations...for we do not present our supplications before thee for our righteousnesses, but for thy great mercies."',
     'While Daniel is speaking, Gabriel, whom he had seen in the vision, touches him about the time of the evening oblation. Gabriel says to him, "I am now come forth to give thee skill and understanding." And he reveals to Daniel a prophecy of astonishing precision: "Seventy weeks are determined upon thy people and upon thy holy city, to finish the transgression, and to make an end of sins, and to make reconciliation for iniquity, and to bring in everlasting righteousness." And most remarkably: "After threescore and two weeks shall Messiah be cut off, but not for himself."',

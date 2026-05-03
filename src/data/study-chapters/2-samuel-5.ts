@@ -15,6 +15,7 @@ export const SAMUEL_2_5: RichChapterContent = {
   bookName: '2 Samuel',
   chapter: 5,
 
+  estimatedMinutes: { 5: 6, 10: 14, 15: 18 },
   intros: [
     'Chapter 5 marks a turning point in David&apos;s story: the moment when a man who has been king over Judah becomes king over all Israel. The tribes come to him at Hebron and say, "Behold, we are thy bone and thy flesh" — and they anoint him. What was divided is now one kingdom. What was scattered is now gathered under a single head.',
     'But David does not rest in his new throne. He moves immediately to Jerusalem, captures the stronghold of Zion from the Jebusites, and establishes his capital in the city that will bear his name. Then comes trial: the Philistines, hearing that David has been anointed king, come up to seek him. Twice they march. Twice David inquires of the Lord. And twice the Lord delivers them into his hand — but never in the same way. Each time, the Lord gives fresh strategy, fresh wisdom, fresh victory. The chapter is a study in kingship tested and refined, in God&apos;s presence made visible in victory.',

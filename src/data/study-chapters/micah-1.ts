@@ -12,6 +12,7 @@ export const MICAH_1: RichChapterContent = {
   bookName: 'Micah',
   chapter: 1,
 
+  estimatedMinutes: { 5: 2, 10: 3, 15: 4 },
   intros: [
     'Micah begins not with comfort but with a summons. "Hear, all ye people." And then, "The Lord will bear witness against you." God comes down from His place, treading the high places of the earth in judgment. The mountains melt like wax before Him. This is no distant God. This is a God who walks into history, who is moved to action by the sins of His people.',
     'What provokes this descent? The transgression of Jacob—the systematic injustice that has become the way of Israel. The sins of Judah—the turning away from the living God toward idols and false security. Micah names the cities that will fall, the strongholds that will crumble. And in the midst of judgment, he laments, because he loves the people and sees clearly what they refuse to see: that their own choices are leading them toward ruin.',

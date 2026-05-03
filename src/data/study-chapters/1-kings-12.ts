@@ -24,6 +24,7 @@ export const KINGS_1_12: RichChapterContent = {
   bookName: '1 Kings',
   chapter: 12,
 
+  estimatedMinutes: { 5: 7, 10: 13, 15: 17 },
   intros: [
     'At the end of Solomon&apos;s reign, the kingdom he ruled is fractured beneath a facade of splendor. The building projects are magnificent, but the burden on the people is crushing. Heavy taxes. Forced labor. A yoke, as the text will say, that has become grievous.',
     'Rehoboam, Solomon&apos;s son, inherits a throne teetering on the edge of collapse. The people gather at Shechem — not to rebel, but to negotiate. They ask their new king to lighten the load. It is a reasonable request, an offer of continued loyalty in exchange for relief. And Rehoboam will have to choose: will he be a servant-king, or a tyrant?',

@@ -17,6 +17,7 @@ export const FIRST_ESDRAS_5: RichChapterContent = {
   bookName: '1 Esdras',
   chapter: 5,
 
+  estimatedMinutes: { 5: 8, 10: 13, 15: 18 },
   intros: [
     'The decree is issued by Cyrus of Persia: rebuild the temple of the Lord in Jerusalem. Families respond. Those in captivity begin to gather—not as scattered individuals, but as a covenant people. They collect offerings, they organize by family and by city, they prepare the long road home. Some have seen Jerusalem. Most have only stories.',
     'Upon arrival, the work begins immediately. The people settle into their cities. In the seventh month, they gather as one to rebuild the altar. Daily offerings resume. Morning and evening, the old rhythms return. Then comes the great moment: the foundation of the temple is laid. But this foundation is not met with simple celebration. The old men weep, remembering the former house. The young shout for joy. Both sounds are lifted to heaven at once. In that mingled noise, we hear the truth about restoration: it brings renewal and loss, hope and grief, all together.',

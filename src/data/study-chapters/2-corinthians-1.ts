@@ -14,6 +14,7 @@ export const SECOND_CORINTHIANS_1: RichChapterContent = {
   bookName: '2 Corinthians',
   chapter: 1,
 
+  estimatedMinutes: { 5: 8, 10: 13, 15: 18 },
   intros: [
     '2 Corinthians is Paul&apos;s most vulnerable letter. He does not hide his weakness or his suffering. Instead, he exposes it—because in that exposure, his readers see God&apos;s strength. The letter opens not with triumph but with tribulation: Paul has been through something so severe that he despaired even of living. And in that darkness, God comforted him.',
     'The genius of this opening is that Paul does not move away from his suffering to speak of something else. He moves *into* his suffering to show what God does there. Comfort flowing through him to others. Sufferings of Christ abounding in him. A faith that trusts not in himself, but in the God who raises the dead. Chapter 1 sets the tone for everything that follows: weakness as the place where God&apos;s power becomes visible.',

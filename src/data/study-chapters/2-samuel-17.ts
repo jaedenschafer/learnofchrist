@@ -17,6 +17,7 @@ export const SAMUEL_2_17: RichChapterContent = {
   bookName: '2 Samuel',
   chapter: 17,
 
+  estimatedMinutes: { 5: 8, 10: 15, 15: 19 },
   intros: [
     'David&apos;s rebellion is in full motion. His own son Absalom has seized the throne. The kingdom is splitting. And in Absalom&apos;s tent, his counselor Ahithophel lays out a plan that should work perfectly: take twelve thousand men tonight, catch David tired and unprepared, strike down only the king, and bring the rest of the people back to Jerusalem in peace. The plan is sound. The timing is right. And it should have worked.',
     'But standing in the way is David&apos;s prayer. In the last chapter, David asked the Lord to make Absalom&apos;s counselors give foolish advice. And God sends a man named Hushai to answer that prayer — not with a miracle, not with a sign in the sky, but with words. Hushai listens to Ahithophel&apos;s counsel and then offers another counsel that sounds even better. Absalom chooses Hushai&apos;s words over the wisdom of a man known to be as sure as the oracle of God. The chapter teaches a profound truth: God works through human choice, through the faithfulness of people who stand in the gap, through counsel that speaks to what people already want to believe.',

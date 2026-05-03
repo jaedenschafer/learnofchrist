@@ -14,6 +14,7 @@ export const ISAIAH_22: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 22,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
   intros: [
     'Isaiah 22 turns judgment inward, toward Jerusalem itself. The "valley of vision" is not a place of sight but of blindness—the people see without perceiving, trust in false securities, and ignore the signs of coming judgment. Yet amidst the oracle of judgment lies a word of restoration: the corrupt steward Shebna will be cast down, and Eliakim will be raised to carry the key of the house of David—a symbol of authority given by God that speaks ultimately of Christ&apos;s eternal reign.',
     'The passage demonstrates both judgment and grace working together. Judgment falls on corruption, but it is not the final word. Authority is transferred to one who will be faithful. This pattern—judgment of the false, elevation of the true—is repeated throughout Scripture and reaches its fullness in Christ.',

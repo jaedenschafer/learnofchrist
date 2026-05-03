@@ -17,6 +17,7 @@ export const KINGS_2_20: RichChapterContent = {
   bookName: '2 Kings',
   chapter: 20,
 
+  estimatedMinutes: { 5: 5, 10: 14, 15: 20 },
   intros: [
     "In the fourteenth year of King Hezekiah&apos;s reign, when he has proven himself a faithful reformer and a military deliverer, illness comes. Not as a consequence of war or neglect, but as a simple sentence of death: &quot;Set thine house in order; for thou shalt die.&quot; Isaiah the prophet brings this word, and Hezekiah&apos;s response is not argument or denial, but prayer. He turns his face to the wall, tears streaming, and reminds the Lord: &quot;I have walked before thee in truth and with a perfect heart.&quot;",
     "Before Isaiah has left the palace, the Lord turns him back with news of healing: fifteen more years are granted to Hezekiah. A sign is offered — the shadow on Ahaz&apos;s dial will reverse, moving backward ten degrees. And it does. But recovery brings its own test. When envoys from distant Babylon arrive, sent to congratulate the king on his recovery, Hezekiah opens his treasury to them. He shows them everything: gold, silver, spices, precious ointments, the house of his armor, all his treasures. In that moment of pride, an empire&apos;s eyes rest on the wealth of Judah.",

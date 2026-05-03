@@ -14,6 +14,7 @@ export const ISAIAH_9: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 9,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
   intros: [
     'Isaiah begins with the image of darkness and light. "The people that walked in darkness have seen a great light: they that dwell in the land of the shadow of death, upon them hath the light shined." A people oppressed, a people living in the shadow of death and despair, suddenly sees a great light. And the source of that light is a child. Not a military deliverer, not a political strategist, but a child born. This child will bear the government upon His shoulder. His names are given—names that declare His nature and His purpose: Wonderful, Counsellor, Mighty God, Everlasting Father, Prince of Peace.',
     'The vision stretches forward to the establishment of His kingdom. "Of the increase of his government and peace there shall be no end, upon the throne of David, and upon his kingdom, to order it, and to establish it with judgment and with justice from henceforth even for ever. The zeal of the Lord of hosts will perform this." This is the promise that sustains all of Isaiah&apos;s prophecy: the Messiah will come, will establish His kingdom, and will reign in righteousness forever.',

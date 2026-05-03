@@ -14,6 +14,7 @@ export const FIRST_PETER_5: RichChapterContent = {
   bookName: '1 Peter',
   chapter: 5,
 
+  estimatedMinutes: { 5: 6, 10: 12, 15: 16 },
   intros: [
     'Peter closes his letter by speaking to the elders—the pastors and leaders of the church. Their calling is to shepherd the flock of God, but not through domineering control. They are under-shepherds. Christ is the Chief Shepherd. They feed, guide, protect, and serve because Christ commissioned them, not because they crave position or money.',
     'Then he pivots to every believer. All of us are sheep. All of us are prone to anxiety. But God cares for you—truly. Cast all your worry on Him. Be vigilant against the enemy, who prowls like a roaring lion. Yet your faith is your weapon. Humble yourself before God. He opposes the proud but gives grace to the humble. In due time, He will lift you up.',

@@ -22,6 +22,7 @@ export const NUMBERS_36: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 36,
 
+  estimatedMinutes: { 5: 6, 10: 11, 15: 13 },
   intros: [
     'Numbers 36 opens with the chiefs of Manasseh — the leaders of Machir&apos;s family — approaching Moses with a problem. The statute from Numbers 27 is good and right: if a man dies without sons, his daughters inherit. But what about the tribes? If Zelophehad&apos;s daughters marry men from another tribe, their inheritance goes with them to that tribe. Over time, Manasseh loses land and shrinks. Even at the Jubilee, when all land returns to its original owners, the daughters&apos; inheritance does not return — it stays in the other tribe. The law as it stands creates a loophole that unravels tribal boundaries.',
     'Moses listens. He brings the matter before the Lord. The Lord affirms the chiefs&apos; concern and gives a ruling: the statute stands. The daughters may marry whomever they choose. But they must marry within the tribe. The inheritance system stays intact. Mercy toward the daughters and order among the tribes are not enemies. Both can be honored together. Zelophehad&apos;s five daughters — Mahlah, Tirzah, Hoglah, Milcah, and Noah — marry their cousins, the sons of their father&apos;s brothers. The family stays whole. The inheritance stays in Manasseh.',

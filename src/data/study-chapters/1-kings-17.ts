@@ -18,6 +18,7 @@ export const KINGS_1_17: RichChapterContent = {
   bookName: '1 Kings',
   chapter: 17,
 
+  estimatedMinutes: { 5: 5, 10: 10, 15: 13 },
   intros: [
     'The kingdom of Israel has turned. King Ahab has taken a Phoenician wife, Jezebel, and with her has come the worship of Baal. The temple of the Lord stands in Jerusalem, but the northern kingdom has fractured its covenant. Into this apostasy comes a man from Gilead — a man who will stand before the king and declare that the rain itself will obey the Lord&apos;s word more faithfully than Israel obeys the Lord.',
     'Elijah&apos;s appearance marks a turning point. He speaks not as a courtier or advisor, but as one standing directly before God, with authority over the natural world itself. The drought he announces will last for years, according to his word — not because of natural cause, but because he speaks for the God who made the heavens. And as the famine spreads across the land, Elijah is hidden away, sustained in impossible ways: by birds in the desert, by the hospitality of a widow with nothing, and by the power to raise the dead.',

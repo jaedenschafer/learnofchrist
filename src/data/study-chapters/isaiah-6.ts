@@ -16,6 +16,7 @@ export const ISAIAH_6: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 6,
 
+  estimatedMinutes: { 5: 2, 10: 6, 15: 8 },
   intros: [
     'Isaiah&apos;s great vision comes in the year that King Uzziah died. The king to whom Judah looked for security and leadership has passed away. In that moment of vulnerability, when earthly authority has ended, Isaiah is lifted up into the throne room of heaven. There he sees the Lord, seated on a throne that is high and lifted up, robed in a garment whose train fills the whole temple. He is not alone. Seraphim—burning beings, whose name means "the burning ones"—surround the throne, and they cry out in perpetual worship: "Holy, holy, holy, is the Lord of hosts: the whole earth is full of his glory."',
     'The vision overwhelms Isaiah. He cries out, "Woe is me! for I am undone; because I am a man of unclean lips, and I dwell in the midst of a people of unclean lips: for mine eyes have seen the King, the Lord of hosts." But the vision does not destroy him. A seraph brings a live coal from the altar and touches his lips with it, saying, "Lo, this hath touched thy lips; and thine iniquity is taken away, and thy sin purged." And then comes the question that will define Isaiah&apos;s life: "Whom shall I send, and who will go for us?" And Isaiah, now cleansed, responds: "Here am I; send me."',

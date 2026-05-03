@@ -15,6 +15,7 @@ export const PSALMS_7: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 7,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
   intros: [
     'Psalm 7 is a psalm of vindication. David faces accusation—someone has slandered him, brought charges against him that threaten his name and his life. Rather than defend himself before men, David takes his case to God. He does not merely assert his innocence. He invites the Almighty to examine him. "Judge me, O Lord, according to my righteousness, and according to mine integrity that is in me." This is the confidence of a man who has nothing to hide before God.',
     'The psalm moves from personal vindication to cosmic truth. The God who judges David is the God who judges all things. He upholds the righteous. He brings down the wicked. He is not capricious. He is not swayed by eloquence or power. He judges with perfect justice. And the psalmist&apos;s faith is this: that truth will win. That righteousness will be vindicated. That God&apos;s judgment is sure.',

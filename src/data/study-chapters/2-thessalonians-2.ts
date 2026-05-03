@@ -15,6 +15,7 @@ export const SECOND_THESSALONIANS_2: RichChapterContent = {
   bookName: '2 Thessalonians',
   chapter: 2,
 
+  estimatedMinutes: { 5: 8, 10: 15, 15: 19 },
   intros: [
     'False prophets have alarmed the Thessalonians, claiming that the day of the Lord has already arrived. Some say it came through a spirit, through a word, or through a letter falsely attributed to Paul. These claims have shaken them—leaving them anxious, disturbed, doubting their faith. Paul writes not to scold but to steady them. The end is real. It will come. But not yet. And while believers wait, they are not left adrift.',
     'Paul teaches discernment. Not every supernatural claim is true. Not every teaching—however spiritual it sounds—is apostolic. Believers are called to test all things against Scripture, to hold firm to what they have been taught by word and letter, and to wait with patience. This is not a lesson in eschatology alone; it is a lesson in spiritual maturity. In an age of false claims and urgent messages, you are meant to think clearly, read carefully, and trust the Lord who holds all times in His hands.',

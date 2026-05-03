@@ -14,6 +14,7 @@ export const PSALMS_136: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 136,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
   intros: [
     'Psalm 136 is structured as a call-and-response song, likely sung in the temple with the congregation answering each line with the refrain "for his mercy endureth for ever." This ancient liturgical form teaches through repetition and rhythm. The psalmist recounts God&apos;s mighty deeds—creation, the exodus, the conquest—and after each one, the people respond with the same refrain. What does this relentless repetition accomplish? It drives home a single, transformative truth: everything the Lord does flows from mercy. Not from necessity, not from obligation, but from grace. Every act of power, every deliverance, every provision reveals a God whose character is fundamentally merciful, and whose mercy is eternal.',
   ],

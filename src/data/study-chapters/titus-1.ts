@@ -17,6 +17,7 @@ export const TITUS_1: RichChapterContent = {
   bookName: 'Titus',
   chapter: 1,
 
+  estimatedMinutes: { 5: 6, 10: 13, 15: 17 },
   intros: [
     'Crete had a reputation—and it was earned. A saying ran among the Greeks: "Cretans are always liars." It was a joke everywhere but in Crete, where Paul is sending Titus to finish what Paul started. The work is not ceremonies or nice words. It is urgent, spiritual surgery: appoint elders of such integrity they can hold back the tide of false teaching flooding the island.',
     'Watch how Paul opens the letter. He does not begin with problems. He begins with himself—who he is, whose he is, what he stands for. A servant of God. An apostle of Jesus Christ. A herald of a gospel that makes people godly, not just informed. In one breath, Paul gives Titus his own foundation. Then he turns to the work: apostolic authority to set things in order, godly character as the only defense against seduction, and permission to be sharp when gentleness would betray the flock.',

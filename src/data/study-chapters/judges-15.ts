@@ -11,6 +11,7 @@ export const JUDGES_15: RichChapterContent = {
   bookName: 'Judges',
   chapter: 15,
 
+  estimatedMinutes: { 5: 6, 10: 12, 15: 15 },
   intros: [
     'Judges 15 is a chapter of escalating violence and extraordinary feats. Samson, rejected by his wife&apos;s father, takes revenge on the Philistines by sending 300 foxes with burning tails into their fields. The retaliation comes swiftly: his wife and her father are burned to death. Samson vows to strike them again, does so with great slaughter, and then hides in a cave. But his own people — the men of Judah — come to bind him and hand him over to the Philistines.',
     'This is the moral center of the Judges narrative: not Samson&apos;s strength, but his people&apos;s choice to protect their oppressors over their own deliverer. Yet even as the chapter darkens, the Spirit of the Lord comes mightily upon Samson, his bonds melt like burned flax, he kills a thousand men with a donkey&apos;s jawbone, and when thirst threatens him, God provides water from a hollow place. Revenge and deliverance tangle together here — but underneath it all, God&apos;s power breaks through.',

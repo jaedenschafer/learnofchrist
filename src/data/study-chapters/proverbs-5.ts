@@ -15,6 +15,7 @@ export const PROVERBS_5: RichChapterContent = {
   bookName: 'Proverbs',
   chapter: 5,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
   intros: [
     'The fifth chapter of Proverbs shifts focus to speak directly about unfaithfulness and covenant breaking. The "strange woman" who is warned against is not merely a figure of sexual temptation, though she may be that. She represents any enticement that calls a person away from the bonds of covenant—away from the place where they have promised to give their wholeness. The chapter does not shame bodies or desire, but rather insists that desire, rightly ordered, belongs within covenant.',
     'What makes the chapter powerful is that it does not speak primarily about consequences or judgment. It speaks about loss. It speaks about the sweetness of what is abandoned when one breaks faith. It speaks about the bitterness that lies at the end of the path of unfaithfulness. The invitation is not fearful but redemptive: return to your own springs, drink from your own cistern, find there the joy you seek.',

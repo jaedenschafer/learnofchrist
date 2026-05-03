@@ -16,6 +16,7 @@ export const PSALMS_92: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 92,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
   intros: [
     'Psalm 92 is a psalm for the Sabbath day, and it is essentially a song of thanksgiving. The psalmist celebrates God&apos;s goodness, delights in His works, and finds rest in His faithfulness. Unlike many of the psalms, this one does not cry out in distress. Instead, it sings in contentment. It is a psalm for a day of rest, when the work ceases and we remember whose work we are.',
   ],

@@ -12,6 +12,7 @@ export const SAMUEL_1_8: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 8,
 
+  estimatedMinutes: { 5: 6, 10: 12, 15: 15 },
   intros: [
     'First Samuel 8 is a turning point. Samuel is old. His sons, who were supposed to carry on his work as judges, have turned aside from their father&apos;s ways. They took bribes, perverted judgment, became takers instead of servants. When the elders of Israel see that Samuel cannot be replaced by his own sons, they make their decision: "Give us a king to judge us like all the nations."',
     'The thing displeases Samuel. But God speaks to him: they have not rejected Samuel—they have rejected God Himself, that He should not reign over them. And yet, God says, let them have it. Samuel must tell them what a king will cost. And they must hear it. And then, knowing the price, they must choose. The chapter is a study in human freedom and divine grief—God granting what He hates, because He will not force anyone to love Him.',

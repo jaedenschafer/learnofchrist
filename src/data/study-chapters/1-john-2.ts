@@ -13,6 +13,7 @@ export const FIRST_JOHN_2: RichChapterContent = {
   bookName: '1 John',
   chapter: 2,
 
+  estimatedMinutes: { 5: 11, 10: 18, 15: 24 },
   intros: [
     'John shifts from confession to comfort. We are not alone when we fall. We have an advocate—a lawyer, a defender—before the Father. That advocate is Jesus Christ, who is righteous and whose righteousness qualifies Him to represent us. His sacrifice has accomplished what no other offering could: He has become the payment for the sins of the world.',
     'John then poses a test of faith: do we keep His commandments? This is not legalism. It is the natural expression of love for Christ. Those who truly love Him will obey Him. And those who obey will discover that they no longer love the world. Their desires are reoriented toward what is eternal.',

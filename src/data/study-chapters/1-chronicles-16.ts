@@ -17,6 +17,7 @@ export const CHRONICLES_1_16: RichChapterContent = {
   bookName: '1 Chronicles',
   chapter: 16,
 
+  estimatedMinutes: { 5: 4, 10: 13, 15: 18 },
   intros: [
     'After years of wandering, David has brought the ark of God to Jerusalem — the sign of God&apos;s presence among His people. The moment is sacred. The ark is set in the tent David has prepared for it, offerings are made, the people are blessed, and food is distributed to every soul in Israel. But David does not simply perform the ceremonies and move on. He understands that what has been accomplished — the gathering of the people, the centering of worship on the ark, the restoration of the covenant — must be remembered and sung. So he delivers a psalm, a song of thanksgiving that will teach Israel what it means to live in gratitude to God.',
     'The psalm itself is a weaving together of three separate psalms from the collection we know as the Book of Psalms. It opens with "Give thanks unto the Lord," moves into the cosmic proclamation "The Lord reigneth," and closes with the benediction "His mercy endureth for ever." Within it lies the whole arc of what David has learned: that gratitude is a discipline, that the Lord&apos;s reign is not merely a Jewish reality but the foundation of all creation, and that the mercy of God has no end. This is the first psalm formally sung in Israel&apos;s worship as a community, and it sets the tone for what temple worship will become — a rehearsal of God&apos;s faithfulness and an invitation to the nations to join in His praise.',

@@ -15,6 +15,7 @@ export const PSALMS_109: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 109,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Psalm 109 is difficult for modern readers because it is explicitly imprecatory—it asks God to bring judgment on enemies. The psalmist describes betrayal and slander in raw terms, then says: "Let his days be few; and let another take his office." Peter quotes this verse in Acts 1:20 as applying to Judas, the betrayer of Jesus. In Peter&apos;s reading, the psalm is not merely a cry for personal vengeance but a prophecy of judgment on the one who would betray the Messiah. The psalm teaches us that when we have been truly wronged, we may bring our anger and desire for justice to God, rather than taking revenge ourselves.',
     'This is not a prayer for revenge in the modern sense. It is a prayer that entrusts justice to God. The psalmist does not say, "I will destroy my enemies." He says, "O God, bring them to justice." It is a way of surrendering the need for personal vengeance to God&apos;s judgment.',

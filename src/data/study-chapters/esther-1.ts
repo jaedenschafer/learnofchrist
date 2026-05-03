@@ -17,6 +17,7 @@ export const ESTHER_1: RichChapterContent = {
   bookName: 'Esther',
   chapter: 1,
 
+  estimatedMinutes: { 5: 3, 10: 6, 15: 9 },
   intros: [
     'The book of Esther opens in the court of King Ahasuerus, a Persian king of seemingly limitless power and wealth. The narrative begins not with conflict, but with spectacle — a feast so grand that it lasts for 180 days, a display of the king&apos;s riches meant to impress every prince, every noble, every official of the kingdom. Everything in this opening speaks of order, hierarchy, and the absolute authority of the throne.',
     'But order, once established, can be fragile. When the feast concludes, the king, warmed by wine, summons Queen Vashti to display her beauty before all the assembled princes and people. It is a command dressed in desire. Vashti refuses. In her refusal — small as it may seem — the entire order trembles. A queen who will not obey? The king&apos;s counselors are horrified. The decree goes out: Vashti is removed from her position. Every man shall bear rule in his own house. Thus ends the first chapter — with a woman gone from power, and no one yet aware that her absence is making room for another.',

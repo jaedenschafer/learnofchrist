@@ -15,6 +15,7 @@ export const DANIEL_7: RichChapterContent = {
   bookName: 'Daniel',
   chapter: 7,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
   intros: [
     'In the first year of Belshazzar king of Babylon, Daniel has a vision in the night. He sees four great beasts rising from the sea, each different from the other. The first is like a lion with eagle&apos;s wings. The second is like a bear. The third is like a leopard with four wings and four heads. The fourth is terrible and strong, with great iron teeth. These beasts represent kingdoms—earthly powers that rise and struggle against one another, each thinking itself supreme.',
     'But then the scene shifts. Daniel sees the ancient of days take his seat. His throne is like fiery flame. A thousand thousands minister unto him, and ten thousand times ten thousand stand before him. And in this throne room of heaven, Daniel sees another vision: one like the Son of man comes with the clouds of heaven, and there is given him dominion, and glory, and a kingdom, that all people, nations, and languages should serve him. His dominion is an everlasting dominion which shall not pass away.',

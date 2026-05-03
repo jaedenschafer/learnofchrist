@@ -15,6 +15,7 @@ export const PSALMS_113: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 113,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 3 },
   intros: [
     'Psalm 113 is a brief, pure hymn of praise. It opens and closes with the call to praise: "Praise ye the Lord." In between, it describes God&apos;s character and His actions. God&apos;s name is blessed from the rising of the sun to the going down of the same. God is exalted far above all nations. Yet—and this is the paradox that runs through the psalm—this exalted God bows down to look at heaven and earth. He humbles Himself to notice the poor, the needy, the barren. He lifts them from the dust and the dunghill and places them among the honored.',
     'Mary, the mother of Jesus, quotes this psalm in her Magnificat. She has been chosen for the highest honor any woman could receive, yet she sees it as an example of God&apos;s characteristic action: lifting the lowly. The message reverberates through Scripture: God&apos;s power is shown not in dominating the strong but in lifting the weak.',

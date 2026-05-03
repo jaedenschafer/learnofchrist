@@ -16,6 +16,7 @@ export const JOHN_3: RichChapterContent = {
   bookName: 'John',
   chapter: 3,
 
+  estimatedMinutes: { 5: 2, 10: 6, 15: 8 },
   intros: [
     'Nicodemus, a ruler of the Jews, a Pharisee, comes to Jesus by night. He has seen the signs and is convinced that Jesus is a teacher sent from God. But he does not yet understand what is being offered. When Jesus tells him "Ye must be born again," Nicodemus is confused. "How can a man be born when he is old?" The new birth is of Spirit. It is invisible, as invisible as the wind. Nicodemus struggles with the spiritual language. Yet in this encounter lies the heart of the gospel: transformation, renewal, a passing from death into life.',
     'Jesus reveals the depth of God&apos;s love: "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life." The new birth is not earned or merited. It flows from grace, from God&apos;s love poured out for the world. Then John the Baptist, in his final testimony, steps back entirely. He has been the forerunner. His work is to prepare the way. But now the one he pointed to has come. "He must increase, but I must decrease."',

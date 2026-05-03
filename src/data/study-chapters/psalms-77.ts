@@ -15,6 +15,7 @@ export const PSALMS_77: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 77,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
   intros: [
     'Psalm 77 opens in darkness. The psalmist cries to God and finds no consolation. His soul refuses comfort. He remembers God, and yet the memory brings not peace, but turmoil. "Will the Lord cast off for ever? will he be favourable no more?" The psalm describes the experience of pressing into prayer and finding only silence, of seeking comfort and finding only more darkness.',
     'Yet something remarkable happens. The psalmist does not give up on memory. Instead, he goes deeper into it. He begins to meditate on "the years of the right hand of the most High." He calls to mind not his recent experience, but the entire sweep of God&apos;s faithfulness stretching back through history. And in remembering the past, his perspective on the present begins to shift. This is a psalm about the power of memory, not as nostalgia, but as a spiritual discipline that holds us steady when the present seems to offer nothing but darkness.',

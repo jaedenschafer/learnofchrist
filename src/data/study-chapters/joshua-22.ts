@@ -12,6 +12,7 @@ export const JOSHUA_22: RichChapterContent = {
   bookName: 'Joshua',
   chapter: 22,
 
+  estimatedMinutes: { 5: 8, 10: 14, 15: 18 },
   intros: [
     'Joshua 22 is a story about the power of physical memory and the fragility of unity across separation. After years of conquest, Joshua releases the eastern tribes — Reuben, Gad, and half of Manasseh — to return to their lands east of the Jordan. But before they depart, Joshua reinforces one crucial command: do not forget the Lord your God.',
     'When the eastern tribes build an altar at the Jordan border, the rest of Israel sees only rebellion. But the altar is not meant for sacrifice; it is meant to be a witness — a sign stone that the eastern tribes belong to the God of Israel, even though the Jordan divides their land. What could have ended in bloodshed ends in peace, because the western tribes chose to investigate before condemning.',

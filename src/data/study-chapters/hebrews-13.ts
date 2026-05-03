@@ -17,6 +17,7 @@ export const HEBREWS_13: RichChapterContent = {
   bookName: 'Hebrews',
   chapter: 13,
 
+  estimatedMinutes: { 5: 4, 10: 11, 15: 20 },
   intros: [
     'Hebrews closes not with abstract theology but with living, breathing exhortations. Let brotherly love continue. Be hospitable. Remember those in bonds. Honor marriage. Be content. Refuse strange doctrines. And remember Jesus—the same yesterday, today, and forever. The letter&apos;s profound vision of Christ&apos;s supremacy must produce fruit in how you love others and how you endure hardship.',
     'The final chapter is a tapestry of practical Christian life held together by one thread: the unchanging person of Jesus Christ. In a world of constant flux, He is your stable center. Everything in this chapter—compassion, faithfulness, endurance, sacrifice—flows from resting in His eternal constancy.',

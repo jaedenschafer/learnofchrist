@@ -14,6 +14,7 @@ export const EZEKIEL_4: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 4,
 
+  estimatedMinutes: { 5: 2, 10: 3, 15: 4 },
   intros: [
     'God calls prophets to proclaim truths that are difficult to hear. Sometimes the words alone are not enough. God calls them to embody the truth, to make it visible, to turn their very bodies into sermons. Ezekiel is commanded to take a tile and draw Jerusalem upon it. He builds siege works around it — a miniature model of the disaster about to fall. Then comes the harder command: he must lie on his side for 430 days, enacting the weight of Jerusalem&apos;s sin and judgment. This is prophecy of a visceral kind. The people who see Ezekiel lying on his side, unable to move, will understand in their bones what is coming: the city besieged, the people pinned down, unable to escape. This is the reality of captivity made flesh.',
   ],

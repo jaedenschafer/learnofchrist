@@ -16,6 +16,7 @@ export const PSALMS_99: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 99,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 3 },
   intros: [
     'Psalm 99 is the shortest of the great affirmations of God&apos;s sovereignty. Yet it is filled with theology. It speaks of God&apos;s greatness, His transcendence, His holiness. But it also speaks of His accessibility—through priests and intercessors, God can be approached. Moses, Aaron, and Samuel are named as those who called upon the Lord and were answered. They stand as witnesses that God hears and responds.',
     'The psalm culminates in "Holy, holy, holy, is the Lord our God"—a phrase that echoes through Scripture, culminating in the seraphim&apos;s cry in Isaiah&apos;s vision and in the worship of heaven itself. God&apos;s holiness is not merely His separation from sin, but His absolute transcendence, His otherness, His overwhelming greatness.',

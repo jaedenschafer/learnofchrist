@@ -16,6 +16,7 @@ export const PSALMS_8: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 8,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Psalm 8 is a psalm of cosmological wonder. David stands in creation and is struck by a paradox. The God whose name is excellent in all the earth, whose glory is above the heavens, whose power is reflected in every star and storm—this God is mindful of humanity. Not distant. Not remote. Mindful. Aware. Attentive. How can such a vast God care for such small creatures?',
     'The psalm answers with staggering affirmation. God has given humanity dominion. He has crowned us with glory and honour. He has placed all things under our feet. This is not human achievement. This is divine gift. From beginning to end, the psalm brackets human dignity with wonder at the God who bestows it.',

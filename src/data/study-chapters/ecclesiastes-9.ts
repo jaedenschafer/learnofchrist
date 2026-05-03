@@ -16,6 +16,7 @@ export const ECCLESIASTES_9: RichChapterContent = {
   bookName: 'Ecclesiastes',
   chapter: 9,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
   intros: [
     'The Preacher faces a seeming paradox. All is vanity. Death comes for everyone. And yet the proper response is not paralysis but engagement. You are still alive. You still have hands that can work. You still have days ahead. Therefore, do your work with all your might. The fact that all is meaningless does not mean nothing is worth doing. The fact that you will die does not mean you should not live fully now.',
     'The Preacher observes that the living have an advantage over the dead, even though death comes for both. The living can still act, still strive, still enjoy. And he counsels joy as well as work. Go through your days with a companion. Enjoy what you are given. Work with your whole heart. And know that all of it is provisional—all of it will end in the grave. But that does not negate what is now. That does not make the present empty. The present is where we live.',

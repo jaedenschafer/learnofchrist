@@ -19,6 +19,7 @@ export const CHRONICLES_2_9: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 9,
 
+  estimatedMinutes: { 5: 8, 10: 16, 15: 20 },
   intros: [
     'Solomon&apos;s fame has spread across the earth. Kings and merchants come seeking his presence, his wisdom, his goods. And now the Queen of Sheba, who has heard of his greatness, comes herself with a great retinue — camels bearing spices, gold, and precious stones. She comes to test him with hard questions, the way one might test the reputation of something that seems almost too great to believe.',
     'What she finds is not a disappointment but an overflow. She cannot contain her astonishment. The wisdom she has heard rumors of is real, but not just real — exceeded. The riches, the servants, the very architecture of his throne room speaks of a kingdom built on something deeper than human ingenuity. "Blessed be the Lord thy God," she says, "which delighted in thee to set thee on his throne, to be king for the Lord thy God." She recognizes what the text insists we recognize: this kingdom is God&apos;s kingdom. This wealth is God&apos;s blessing. And yet — the chapter ends with Solomon&apos;s death. The kingdom passes to his son. The question of what will happen to God&apos;s purpose when this extraordinary man is gone hangs over all his glory.',

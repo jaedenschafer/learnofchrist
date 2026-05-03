@@ -11,6 +11,7 @@ export const JUDGES_10: RichChapterContent = {
   bookName: 'Judges',
   chapter: 10,
 
+  estimatedMinutes: { 5: 7, 10: 13, 15: 17 },
   intros: [
     'After Abimelech&apos;s violent reign ends, two quiet judges stand up to defend Israel. Neither rages. Neither performs signs and wonders. Tola and Jair simply judge, year after year, their names barely recorded. Most of God&apos;s work in the world is done by people whose names will not survive — and Chapter 10 refuses to apologize for them.',
     'But the cycle resumes. Israel drifts again. This time they don&apos;t serve one foreign god — they serve all of them. The idolatry is not selective; it is promiscuous, multiplied, total. And God&apos;s response is something harder than wrath: He lets them live with what they have chosen. Yet even in that judgment, when Israel finally cries out, God cannot endure their suffering. His soul is grieved. The chapter ends with the cry rising — setting the table for Jephthah&apos;s terrible, necessary vow in Chapter 11.',

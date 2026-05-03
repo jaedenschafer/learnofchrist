@@ -14,6 +14,7 @@ export const HOSEA_2: RichChapterContent = {
   bookName: 'Hosea',
   chapter: 2,
 
+  estimatedMinutes: { 5: 3, 10: 6, 15: 8 },
   intros: [
     'In Hosea 2, the tone shifts from judgment to passionate pursuit. God is not done with His people. Even as He announces their punishment, He is already planning their restoration. He will strip away their false lovers so they turn back to Him. He will speak to them tenderly in the wilderness. The God of Hosea is not indifferent. He is jealous — not with a small spirit, but with the intensity of a lover who cannot let go.',
     'The language becomes intimate. God will "allure" Israel, speak "comfortably" to her. The wilderness becomes not a place of abandonment but of courtship. And in that wilderness, Israel will recognize her true husband. "Thou shalt call me Ishi, not Baali." She will stop calling God "Master" and call Him "My Husband." The covenant is being remade.',

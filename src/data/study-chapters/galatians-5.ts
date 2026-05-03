@@ -24,6 +24,7 @@ export const GALATIANS_5: RichChapterContent = {
   bookName: 'Galatians',
   chapter: 5,
 
+  estimatedMinutes: { 5: 12, 10: 21, 15: 29 },
   intros: [
     'Paul has spent four chapters laying out the history and the gospel: Abraham was justified by faith, not by works. The Law came later, and it was never meant to be the path to righteousness—only a schoolmaster to drive us to Christ. So why are the Galatian churches abandoning faith and taking up the Law? Why are they allowing themselves to be drawn back into the very slavery from which Christ freed them? Paul&apos;s opening to Chapter 5 is raw urgency: "Stand fast therefore in the liberty wherewith Christ hath made us free, and be not entangled again with the yoke of bondage."',
     'But that freedom is not a blank check for licentiousness. Paul shows that the Law was never the real goal—love was. And love cannot be legislated. It can only be lived by the power of the Spirit working in a human heart. The chapter then unfolds two opposing powers: the flesh (sarx), humanity enslaved to its own desires, producing works of destruction; and the Spirit (pneuma), the indwelling power of the risen Christ, producing the fruit of redemption. To be in Christ is to have "crucified the flesh"—to have died to the tyranny of self-will. What remains is to walk in step with the Spirit, day after day, letting His character be formed in you.',

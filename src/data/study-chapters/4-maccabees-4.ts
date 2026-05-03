@@ -20,6 +20,7 @@ export const FOURTH_MACCABEES_4: RichChapterContent = {
   bookName: '4 Maccabees',
   chapter: 4,
 
+  estimatedMinutes: { 5: 6, 10: 11, 15: 15 },
   intros: [
     'The Jewish people in the second century before Christ lived under the shadow of empire. A century after their temple had been rebuilt, a foreign governor named Apollonius heard rumors of treasure locked away in the Holy Place. What happened next was a defining moment: Apollonius attempted to enter the sanctuary and was met by an angel. He was healed only through the prayers of the high priest Onias. But that mercy was short-lived. Years later, a new tyrant—Antiochus IV Epiphanes—would not be so gentle. He would demand not just obedience, but the abandonment of God Himself.',
     'This chapter is the turning point of 4 Maccabees. In Chapters 1 through 3, we saw reason triumph through stories of restraint—David refusing water, appetite mastered. Now the stakes rise. When the law itself is outlawed, when the very practice of faith becomes an act of rebellion, what does reason look like then? The martyrdoms that follow are not random suffering, but a test of whether reason can sustain the human soul when the body itself is under siege.',

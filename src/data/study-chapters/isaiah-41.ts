@@ -16,6 +16,7 @@ export const ISAIAH_41: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 41,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 6 },
   intros: [
     'The God of comfort comes to the exiled people with a message of reassurance. "Fear thou not." This simple imperative opens the chapter. Fear is not the proper response to exile, loss, or uncertainty. What should the response be? "I am with thee." The presence of God makes fear inappropriate. "Be not dismayed." Dismay assumes abandonment. But God says: I will strengthen you. I will help you. I will uphold you with the right hand of My righteousness. This is the promise: not merely that God exists, but that He is present. He is at work. He is sustaining.',
   ],

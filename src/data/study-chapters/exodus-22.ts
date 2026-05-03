@@ -15,6 +15,7 @@ export const EXODUS_22: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 22,
 
+  estimatedMinutes: { 5: 8, 10: 14, 15: 18 },
   intros: [
     'Exodus 22 opens with property laws. What if someone steals your ox? What if a field is grazed bare? What if you borrow something and it breaks? But the chapter has a hidden hinge. Halfway through, the laws shift from objects to people — sojourners, widows, orphans. And every time they do, God says the same thing: remember Egypt.',
     'The law&apos;s heart is not punishment, but restoration. Return a borrowed item whole. Pay back a loan before sunset so a poor man can eat. Don&apos;t oppress the stranger, because you were strangers once. It&apos;s a law written on memory. And it points toward Jesus, who came as Restorer of all things — making whole what was broken, returning what was lost, inviting the outsider back in.',

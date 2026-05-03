@@ -5,6 +5,7 @@ export const AMOS_8: RichChapterContent = {
   bookName: 'Amos',
   chapter: 8,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
   intros: [
     'Amos 8 opens with a vision of a basket of summer fruit. Summer fruit signals the end of the harvest, the closing of the season. "The end is come upon my people of Israel." The time for judgment is full. There is no more time for repentance.',
     'The chapter contains a startling prophecy: "Behold, the days come, saith the Lord, that I will send a famine in the land, not a famine of bread, nor a thirst for water, but of hearing the words of the Lord." Judgment is not primarily external but spiritual — the absence of God\'s word.',

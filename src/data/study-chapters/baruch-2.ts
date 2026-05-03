@@ -12,6 +12,7 @@ export const BARUCH_2: RichChapterContent = {
   bookName: 'Baruch',
   chapter: 2,
 
+  estimatedMinutes: { 5: 8, 10: 11, 15: 15 },
   intros: [
     'The people&apos;s confession deepens in Baruch 2. They do not simply say "we have sinned." They recall what God has done—liberation from Egypt, covenant at Sinai, land given. In light of all this grace, their rebellion stands sharp. They had everything. They chose to turn away.',
     'Confession without memory is hollow. The exiles remember the wilderness, manna, commandments on stone. They remember Jeremiah&apos;s warnings. And they remember God promised that even if scattered, if they returned, He would return to them. That promise is not yet broken.',

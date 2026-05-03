@@ -10,6 +10,7 @@ export const JAMES_4: RichChapterContent = {
   bookName: 'James',
   chapter: 4,
 
+  estimatedMinutes: { 5: 9, 10: 14, 15: 23 },
   intros: [
     'James 4 moves from false teaching about faith without works (chapter 2) and the power of the tongue (chapter 3) to something more intimate: the lusts warring inside us. The chapter is brutally honest. Where do quarrels come from? From your own desires. Why don\'t you have what you ask for? Because you ask amiss. You want to be friends with the world, but friendship with the world is enmity with God. The chapter reads like a sermon from someone who has looked hard at the human heart and found it fractured.',
     'The cure is just as direct: submit yourself to God, draw near to Him, and He will draw near to you. Confess. Stop judging. Remember that life is a vapor. Accept that you don\'t know tomorrow. This is not complicated theology; it is a call to humility, to honesty, and to the recognition that God is with you if you are willing to stop fighting Him.',

@@ -16,6 +16,7 @@ export const HEBREWS_5: RichChapterContent = {
   bookName: 'Hebrews',
   chapter: 5,
 
+  estimatedMinutes: { 5: 6, 10: 10, 15: 16 },
   intros: [
     'For Jewish believers, the priesthood was everything. It was the mechanism of atonement, the appointed mediator between God and people. To claim Jesus was the true High Priest was radical. The author could not point to Levitical lineage. So he pointed to something deeper—Psalm 110, which speaks of a priest after the order of Melchisedec. This figure predates the Law. This priest is eternal. This establishes Jesus&apos; priesthood on a foundation more ancient and enduring than Aaron&apos;s.',
     'But the passage also emphasizes Christ&apos;s humanity. He offered up prayers and supplications with strong crying and tears. He learned obedience through suffering. He was made perfect through what He suffered. This is not abstract priesthood. It is rooted in incarnate experience—flesh that wept, tears shed in the garden, obedience tested and proven.',

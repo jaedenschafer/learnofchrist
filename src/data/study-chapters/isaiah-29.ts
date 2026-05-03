@@ -14,6 +14,7 @@ export const ISAIAH_29: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 29,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 6 },
   intros: [
     'Isaiah 29 addresses Jerusalem directly, using the name Ariel—"the lion of God" or the city where God dwells. Yet it is a word of judgment. The city will be brought low, laid siege to, and made to speak "as one that hath a familiar spirit, and that chirpeth out of the dust." Yet amidst the judgment lies a promise: the deaf shall hear the words of the book, and the blind shall see out of obscurity and darkness. The judgment is not final; it is the pathway to transformation.',
     'The chapter quoted in Matthew 15:8 critiques lip-service and the separation of external religiosity from inner conviction. Christ quotes this verse to the Pharisees when they question why His disciples do not follow the traditions of the elders. The passage teaches that God desires the heart, not merely the lips.',

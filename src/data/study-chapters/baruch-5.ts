@@ -15,6 +15,7 @@ export const BARUCH_5: RichChapterContent = {
   bookName: 'Baruch',
   chapter: 5,
 
+  estimatedMinutes: { 5: 5, 10: 8, 15: 11 },
   intros: [
     'Baruch 5 is a triumph song. Jerusalem, worn by exile and mourning, is summoned to rise and change her garments. She is to exchange mourning for glory—the glory that comes from God. Her scattered children will return from the east, gathered by God&apos;s word, and the terrain itself will be transformed: high hills cast down, valleys filled up, so that Israel may walk safely in the presence of God.',
     'The chapter is saturated with the imagery of Isaiah 40—the voice in the wilderness calling for preparation, the leveling of mountains and exalting of valleys, the promise of God&apos;s presence and restoration. But where Isaiah 40 announces the Messiah&apos;s coming, Baruch 5 speaks to the return of the exiled people, the rebuilding of Jerusalem, and the coming together of what was scattered. It is a chapter about homecoming, about the reversal of loss, about the earth itself being made right.',

@@ -16,6 +16,7 @@ export const NEHEMIAH_3: RichChapterContent = {
   bookName: 'Nehemiah',
   chapter: 3,
 
+  estimatedMinutes: { 5: 6, 10: 10, 15: 15 },
   intros: [
     'The wall lies in ruins. Jerusalem&apos;s enemies are watching. The people are discouraged. And then Nehemiah does what a good leader does: he organizes. He assigns sections. He calls each builder by name. In Nehemiah 3, we watch as the broken wall of Jerusalem is restored — not by a single hero, but by named individuals, each working their own portion. The text is long, detailed, filled with names that most readers skip over. But in that very detail lies a profound message: every person matters. Every builder is seen and recorded.',
   ],

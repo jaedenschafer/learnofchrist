@@ -18,6 +18,7 @@ export const LUKE_21: RichChapterContent = {
   bookName: 'Luke',
   chapter: 21,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
   intros: [
     'Jesus speaks on the Mount of Olives. His disciples ask: "Master, but when shall these things be? and what sign will there be when these things shall come to pass?" Jesus says: "Take heed that ye be not deceived: for many shall come in my name, saying, I am Christ; and the time draweth near: go ye not therefore after them." Wars and rumours of wars, earthquakes in divers places, famines and pestilences. But all this is the beginning of sorrows. Before these, they will lay hands on disciples, persecute them, deliver them to synagogues and prisons. But they will be given utterance and wisdom to answer their adversaries.',
     'Jesus says: "But when ye shall see Jerusalem compassed with armies, then know that the desolation thereof is nigh." The sun shall be darkened, the moon shall not give her light, the stars shall fall from heaven, the powers of heaven shall be shaken. Then shall appear the sign of the Son of man in heaven. "And then shall all the tribes of the earth mourn, and they shall see the Son of man coming in the clouds of heaven with power and great glory." He sends forth His angels to gather His elect.',

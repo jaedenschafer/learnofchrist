@@ -13,6 +13,7 @@ export const JOB_29: RichChapterContent = {
   bookName: 'Job',
   chapter: 29,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 6 },
   intros: [
     'In a poignant reversal, Job recounts the days of his former glory. He was not merely wealthy—he was honored, respected, a man whose very presence brought comfort and justice to those around him. He was eyes to the blind, feet to the lame, a father to the poor. But those days are gone. This chapter is Job&apos;s lament for a life that was taken from him.',
   ],

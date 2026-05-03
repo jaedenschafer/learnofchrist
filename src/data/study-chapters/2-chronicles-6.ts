@@ -20,6 +20,7 @@ export const CHRONICLES_2_6: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 6,
 
+  estimatedMinutes: { 5: 10, 10: 18, 15: 25 },
   intros: [
     'Solomon has completed what David could not: the Temple of the Lord stands finished, more magnificent than any building on earth. The ark has been brought into its holy place. The cloud of God&apos;s presence fills the house. And now Solomon turns to bless the entire congregation of Israel. But before he offers the prayers that will shape a nation&apos;s faith for centuries, the Chronicler adds a detail that changes how we see this moment. Solomon climbs onto a bronze platform, spreads his hands toward heaven, kneels before all the people, and lifts his prayer. He stands at the threshold between heaven and earth, between God and God&apos;s people.',
     'What follows is not a prayer of triumph or certainty. It is a prayer that already envisions Israel&apos;s failure, exile, and longing. Solomon prays as if he can see the future — a future in which his people will turn from God, be scattered, and from exile, turn back and cry out. And he prays with absolute confidence that God will hear them. In this prayer, every human need becomes sacred. Drought becomes a door to repentance. Defeat becomes a summons to confession. Even the stranger from a far country, unknown to Israel, is included in the scope of God&apos;s mercy. This is a prayer that makes the Temple not a fortress of the chosen, but a house of prayer for all peoples.',

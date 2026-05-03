@@ -20,6 +20,7 @@ export const EXODUS_14: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 14,
 
+  estimatedMinutes: { 5: 10, 10: 14, 15: 18 },
   intros: [
     'For three months Israel has been free from Pharaoh&apos;s whip. They left Egypt with the wealth of Egypt in their hands, the angel of God in their faces, a cloud by day and fire by night. But now they are trapped. The sea lies in front of them. Behind them, the sound of chariot wheels. Pharaoh has changed his mind.',
     'And in that moment — at the very edge of the water, with no escape — Moses says something that reshapes everything Israel thought it knew about what they were and what God was about to do. "Stand still, and see the salvation of the LORD... the LORD shall fight for you, and ye shall hold your peace." The word for salvation is <em>yeshuah</em> — the same root as the name Jesus. It means God will do the work. Your job is to stand still and watch Him do it.',

@@ -14,6 +14,7 @@ export const ROMANS_3: RichChapterContent = {
   bookName: 'Romans',
   chapter: 3,
 
+  estimatedMinutes: { 5: 7, 10: 15, 15: 20 },
   intros: [
     'Paul has led Jew and Gentile both into a courtroom. The Gentile stands accused—creation screams God&apos;s existence and power, yet you hardened your heart. The Jew stands accused—you have the law itself, yet you did not keep it. Now Paul closes the case. Chapter 3 is the moment when every mouth falls silent before God. There is no advantage. There is no escape. All have sinned. All fall short. This is not cruelty. This is the only foundation on which grace can be built.',
     'But Romans 3 is also the moment when everything changes. In the middle of the indictment, the gospel erupts. God has done what the law could never do. He has provided redemption through Christ&apos;s blood. He declares us righteous—not because we deserve it, not because we have finally obeyed, but because we are "justified freely by his grace." The mercy seat, once hidden in the temple, is now revealed in the body of Christ. His blood is the place where God&apos;s justice and mercy finally meet. And we get to come home through faith.',

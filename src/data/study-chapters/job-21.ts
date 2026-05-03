@@ -18,6 +18,7 @@ export const JOB_21: RichChapterContent = {
   bookName: 'Job',
   chapter: 21,
 
+  estimatedMinutes: { 5: 3, 10: 7, 15: 10 },
   intros: [
     'Job has heard Zophar&apos;s confident assertion that the wicked prosper only briefly, then are destroyed. But Job can look around and see that this is simply not true. The wicked live long lives. They become old. They grow mighty in power. Their children are secure. Their houses are full of pleasure. "They spend their days in wealth," and when death comes, it comes gently. "In a moment go down to the grave." There is no terror, no judgment, no visible punishment for their wickedness. Zophar&apos;s doctrine does not match reality.',
     'Job does not use this observation to curse God or to declare Him unjust. Rather, he does something more profound: he challenges the simplistic theology that equates present suffering with present guilt, and present prosperity with present righteousness. Job is arguing that we need a larger vision of justice—one that acknowledges both the prosperity of the wicked and the suffering of the righteous in this age, while trusting that ultimately God sees all things, judges all things, and will make all things right in the age to come. This requires faith in a justice beyond this world.',

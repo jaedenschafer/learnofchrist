@@ -4,6 +4,7 @@ export const FOURTH_MACCABEES_18: RichChapterContent = {
   bookSlug: '4-maccabees',
   bookName: '4 Maccabees',
   chapter: 18,
+  estimatedMinutes: { 5: 7, 10: 10, 15: 15 },
   intros: [
     'The mother stands at the threshold of her own death. Her seven sons are gone. She does not weep but speaks—calling them back to the Scripture-recital their father gave them in childhood. The very words that shaped them then will sustain them now, and her, in the hour of final separation.',
     'In this closing chapter, the mother becomes the voice of faith itself, echoing Moses, Isaiah, David, and the ancient righteous. She shows that suffering is not new under the sun—it is the ancient path of the faithful, and it leads not to defeat but to the crown.',

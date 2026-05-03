@@ -19,6 +19,7 @@ export const EPHESIANS_2: RichChapterContent = {
   bookName: 'Ephesians',
   chapter: 2,
 
+  estimatedMinutes: { 5: 8, 10: 18, 15: 25 },
   intros: [
     'Ephesians 2 opens with a stark diagnosis: "You hath he quickened, who were dead in trespasses and sins." This is not a charge to shame you but to show you what grace means. You cannot understand grace until you understand what you were before grace—dead, captive to the patterns of a fallen world, by nature children of wrath. But that is not Paul&apos;s final word.',
     'The real pivot comes at verse 4: "But God, who is rich in mercy." While you were dead, God acted. He made you alive together with Christ, raised you up, and seated you in the heavenly places. And having done that cosmic work in you, He then did something even larger: He broke down the wall that had stood for centuries between Jew and Gentile, making "both one new man." The gospel is not just about individual souls. It is about the reconciliation of all things in Christ.',

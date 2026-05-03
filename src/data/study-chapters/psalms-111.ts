@@ -14,6 +14,7 @@ export const PSALMS_111: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 111,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
   intros: [
     'Psalm 111 is an acrostic—the original Hebrew has each line beginning with successive letters of the Hebrew alphabet. This poetic form was used to help people remember the psalm, but it also suggests completeness: from aleph to tav, from beginning to end, the alphabet contains all human expression. And what fills all that speech? Praise of God. The psalm celebrates God&apos;s works, His glory, His righteousness, His power. And then comes the central declaration: "The fear of the Lord is the beginning of wisdom." This is the foundation of all true understanding: the recognition that God is God and we are not, that His works are wonderful, that He is worthy of our reverence and obedience.',
     'The acrostic form invites us into a kind of meditation. As we move through the alphabet, we move through different aspects of God&apos;s character and work. By the end, we have traced the shape of wisdom itself.',

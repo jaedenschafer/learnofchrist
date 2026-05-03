@@ -16,6 +16,7 @@ export const CHRONICLES_2_32: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 32,
 
+  estimatedMinutes: { 5: 6, 10: 14, 15: 20 },
   intros: [
     'Sennacherib, the great king of Assyria, moves his armies toward Judah with the intention of conquest. He has already swallowed ten tribes of Israel. Now he comes for Judah and Jerusalem. But Hezekiah has spent his reign breaking down the high places, centralizing worship, repairing the temple, and seeking the Lord. When the crisis comes, he is ready — not because he is unafraid, but because he has already made the choice to trust.',
     'This chapter records one of the turning points of the Old Testament: an angel of the Lord cuts down the entire Assyrian army in a single night. But the chapter does not end there. Hezekiah becomes sick unto death, recovers, and then faces a subtler enemy — his own heart. God leaves him to be tested. The final section foreshadows the later humiliation that awaits him when ambassadors from Babylon arrive, and Hezekiah, in a moment of pride, shows them all the treasures of his house. This is the anatomy of a faithful king&apos;s greatest struggle: not with enemies, but with himself.',

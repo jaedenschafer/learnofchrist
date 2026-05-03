@@ -17,6 +17,7 @@ export const JEREMIAH_15: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 15,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
   intros: [
     'Jeremiah 15 contains one of the most beautiful yet troubling statements in Scripture. Jeremiah speaks of receiving God&apos;s word: "Thy words were found, and I did eat them; and thy word was unto me the joy and rejoicing of mine heart." He is describing his experience of the word of God not as something imposed upon him but as something discovered, devoured, delighted in. The word sustains him as food sustains the body. It brings him joy as a feast brings joy.',
     'Yet immediately after this declaration of delight comes the acknowledgment of isolation: "I sat alone because of thy hand: for thou hadst filled me with indignation." The word that brings him joy has isolated him. He sits alone. He is filled with indignation at the wickedness he sees. And he laments that he was not born on a day of peace and joy but on a day of sorrow and battle. The paradox of the faithful witness is complete: the greatest joy and the deepest suffering coexist in the one who truly knows and speaks God&apos;s word.',

@@ -15,6 +15,7 @@ export const FIRST_JOHN_5: RichChapterContent = {
   bookName: '1 John',
   chapter: 5,
 
+  estimatedMinutes: { 5: 7, 10: 16, 15: 26 },
   intros: [
     'John opens his final chapter with a powerful claim: belief in Jesus as the Christ is itself evidence of being born of God. You cannot truly believe in Jesus unless the Spirit has already worked in your heart. But when you do believe, you receive power—the power to overcome the world and all its opposition. This is not worldly success. This is spiritual victory.',
     'He closes his epistle with a summary statement of its purpose: to assure believers. These things have been written so that you may know that you have eternal life. Not to make you uncertain or fearful, but to give you confident assurance. This is not arrogance or presumption. It is justified certainty based on the work of God in and for you. Faith in Christ is the victory that enables us to stand firm.',

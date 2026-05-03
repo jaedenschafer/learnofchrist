@@ -10,6 +10,7 @@ export const DEUTERONOMY_25: RichChapterContent = {
   bookName: 'Deuteronomy',
   chapter: 25,
 
+  estimatedMinutes: { 5: 7, 10: 12, 15: 16 },
   intros: [
     'Deuteronomy 25 is a chapter about limits and protections — the law sets boundaries on punishment, demands fair treatment of workers, makes room for the brother-in-law to restore a widow&apos;s name and inheritance, requires honest measures in the marketplace, and commands Israel never to forget what Amalek did. Behind every law stands the same posture: God cares for the weak. He will not let the powerful run unchecked.',
     'The chapter weaves together several Old Testament threads that will loop forward into the New Testament. Paul quotes the muzzled ox to defend ministers&apos; wages. Ruth&apos;s whole story turns on the levirate law explained here. And the refusal to forget Amalek echoes through Israel&apos;s memory all the way to Esther. For the Christian reader, the kinsman-redeemer foreshadows the work of Christ.',

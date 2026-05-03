@@ -12,6 +12,7 @@ export const MICAH_3: RichChapterContent = {
   bookName: 'Micah',
   chapter: 3,
 
+  estimatedMinutes: { 5: 2, 10: 3, 15: 4 },
   intros: [
     'Micah speaks directly to the heads of Jacob, the rulers and judges. They are supposed to know justice. Instead, they hate good and love evil. They strip the skin from the bones of the oppressed. They devour the flesh of the people, breaking them in pieces. And they are blind to what they are doing.',
     'But worse than unjust rulers are false prophets—those who say "thus saith the Lord" when the Lord has not spoken, those who prophesy for hire, those who twist Scripture to suit the desires of those who pay them. Micah stands against both: against the corruption of civil authority and the corruption of religious authority. He declares that the true prophet speaks God&apos;s judgment without fear and without falsehood.',

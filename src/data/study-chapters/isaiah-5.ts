@@ -15,6 +15,7 @@ export const ISAIAH_5: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 5,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 6 },
   intros: [
     'Isaiah now takes on the role of a poet. He sings a song—not a song of celebration, but a song of lament and judgment. The vineyard he describes is the people of Israel and Judah. God, the beloved, has done everything necessary for it to flourish. He has chosen good ground, dug and tilled it, cleared it of stones, planted it with the finest vines. He has built a watchtower in its midst. He has done the work of a careful vinedresser. Yet the vineyard has produced wild grapes—fruit that is sour, useless, nothing like what was planted.',
     'The image is devastating because it places responsibility squarely where it belongs: not with God, who has done everything necessary, but with the people themselves. They have had every advantage, every blessing, every opportunity to flourish. Yet they have chosen sterility and bitterness. The song ends with a terrible question: "What could have been done more to my vineyard, that I have not done in it?" The answer is: nothing. God has done all that could be done. The failure is the vineyard&apos;s alone.',

@@ -17,6 +17,7 @@ export const GENESIS_50: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 50,
 
+  estimatedMinutes: { 5: 7, 10: 12, 15: 15 },
   intros: [
     'Genesis opened with God bringing light out of chaos. It closes with a coffin in Egypt. A man lies dead, surrounded by sons he once thought he would never see again. One of those sons has risen to be the second-most powerful man in the kingdom. Joseph has fed them, housed them, forgiven them — and still they wonder if his forgiveness was only a mask, waiting for the moment their father died to fall away.',
     'The chapter is built on a question the brothers ask aloud (v. 15): "Joseph will peradventure hate us." After seventeen years, they still don\'t believe him. And Joseph\'s response is not irritation but tears — the kind of tears that come when you love someone and they still don\'t trust you. In the middle of the weeping, though, Joseph says something that will echo through two thousand years of theology: "Ye thought evil against me; but God meant it unto good." Human malice, divine providence, and salvation threading through both.',

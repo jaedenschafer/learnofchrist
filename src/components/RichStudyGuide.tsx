@@ -2,6 +2,7 @@
 
 import {
   useEffect,
+  useMemo,
   useState,
   createContext,
   useContext,
@@ -18,15 +19,18 @@ import ChapterProgress from './ChapterProgress';
 import InlineArtwork from './InlineArtwork';
 import HighlightController from './HighlightController';
 import BlockHideMenus from './BlockHideMenus';
+import DepthTierControl from './DepthTierControl';
 import { useTranslation } from '@/lib/TranslationContext';
+import { useReadingPrefs } from '@/lib/ReadingPrefsContext';
 import { fetchVersesClient, type Verse, type ArtworkWithArtist } from '@/lib/supabase';
-import type {
-  RichChapterContent,
-  RichSection,
-  Block,
-  VerseLine,
-  VerseSpan,
-  ResourceLink,
+import {
+  filterContentByTier,
+  type RichChapterContent,
+  type RichSection,
+  type Block,
+  type VerseLine,
+  type VerseSpan,
+  type ResourceLink,
 } from '@/data/study-chapters/types';
 import './GenesisOneStudy.css';
 import './InlineArtwork.css';
@@ -268,11 +272,21 @@ interface RichStudyGuideProps {
 }
 
 export default function RichStudyGuide({
-  content,
+  content: rawContent,
   artworks = [],
 }: RichStudyGuideProps) {
   const { currentTranslation } = useTranslation();
+  const { depthTier } = useReadingPrefs();
   const isKjv = currentTranslation === 'kjv';
+
+  // Filter the chapter to the active depth tier. Drops blocks above the tier,
+  // strips dangling highlight anchors, removes empty sections, trims intros
+  // and bottomShare at tier 5. Pure function — re-runs only when content or
+  // tier changes.
+  const content = useMemo(
+    () => filterContentByTier(rawContent, depthTier),
+    [rawContent, depthTier],
+  );
 
   const opener = content.opener
     ? matchArtwork(
@@ -424,7 +438,10 @@ export default function RichStudyGuide({
       document.removeEventListener('click', handleMarkClick);
       document.documentElement.classList.remove('js');
     };
-  }, []);
+    // Re-bind when the active tier changes — the DOM is re-rendered with a
+    // different set of .scripture / .verse-section nodes and the captured
+    // arrays would otherwise reference stale (removed) nodes.
+  }, [depthTier]);
 
   const studyId = `${content.bookSlug}-${content.chapter}`;
   const tapHint =
@@ -472,6 +489,8 @@ export default function RichStudyGuide({
         <div id="study-audio" className="study-top-actions">
           <StudyAudioPlayer />
         </div>
+
+        <DepthTierControl estimatedMinutes={rawContent.estimatedMinutes} />
 
         {content.intros.map((intro, i) => (
           <AuthoredHtml key={i} as="p" className="intro" html={intro} />

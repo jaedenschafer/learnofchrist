@@ -18,6 +18,7 @@ export const NEHEMIAH_9: RichChapterContent = {
   bookName: 'Nehemiah',
   chapter: 9,
 
+  estimatedMinutes: { 5: 7, 10: 16, 15: 22 },
   intros: [
     'The scene is one of corporate lamentation and solemnity. The twenty-fourth day of the month arrives. The people assemble with fasting, wearing sackcloth — the garments of mourning — and sitting in ashes, a gesture of humility before God. They have separated themselves from all strangers, setting themselves apart as a covenant people entering into confession. The work of rebuilding is complete. The walls stand. The gates are set. Now comes the harder work: the inner rebuilding, the turning of the heart toward God.',
     'What unfolds is a unique structure. For one quarter of the day — three hours — the people read from the Book of the Law of their God. They stand as it is read, honoring the Word. Then, for another quarter day, they confess their sins and worship the Lord. But the confession is not private prayer whispered in solitude. It is corporate, spoken aloud, embodied in posture and tears. And when the Levites call out from the stairs, their cry sets the pattern for what will come: a prayer that spans the entire arc of biblical history, from creation to their present moment — a prayer that holds together God&apos;s faithfulness and the people&apos;s faithlessness, that remembers mercy even in the midst of judgment.',

@@ -15,6 +15,7 @@ export const CHRONICLES_1_17: RichChapterContent = {
   bookName: '1 Chronicles',
   chapter: 17,
 
+  estimatedMinutes: { 5: 6, 10: 16, 15: 18 },
   intros: [
     'David has brought the ark of God to Jerusalem. The kingdom is at peace. The enemies of Israel are subdued. Now David sits in his house of cedar and looks around: his dwelling is magnificent, permanent, secure. But the ark of God dwells in a tent. The incongruity troubles him. How can the king live in cedar while the God of Israel dwells in curtains? He calls the prophet Nathan and says, "See now, I dwell in an house of cedar, but the ark of God dwelleth within curtains." And Nathan, hearing the desire of a grateful king, says simply, "Go, do all that is in thine heart; for the Lord is with thee."',
     'But that night the word of the Lord comes to Nathan with a different answer. God does not say David&apos;s desire is wrong. God says it is unnecessary. "I have not dwelt in an house since the day that I brought up Israel." For all the generations of wilderness, judges, and battles, God has walked in a tent, dwelling with His people wherever they go. And now, God says something that will echo through all of Scripture: "I will build thee an house." Not a building—a dynasty. An eternal throne. And one of David&apos;s descendants, sitting on that throne forever, will be called the Son of God.',

@@ -19,6 +19,7 @@ export const LUKE_17: RichChapterContent = {
   bookName: 'Luke',
   chapter: 17,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 6 },
   intros: [
     'Jesus teaches His disciples about offences and forgiveness. "It is impossible but that offences will come: but woe unto him, through whom they come." Yet when offences come, forgive. The disciples say: "Lord, increase our faith." Jesus says: "If ye had faith as a grain of mustard seed, ye might say unto this sycamine tree, Be thou plucked up by the root, and be thou planted in the sea; and it should obey you." Faith is not measured by quantity but by its object. Faith in God, though small, can accomplish the impossible.',
     'Jesus speaks of servants and duty. "And which of you, having a servant ploughing or feeding cattle, will say unto him by and by, when he is come from the field, Go and sit down to meat?" No. The servant eats after his work is done. This is the picture of duty without presumption. We serve. We do what is commanded. We say: "We are unprofitable servants: we have done that which was our duty to do."',

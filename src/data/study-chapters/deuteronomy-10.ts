@@ -5,6 +5,7 @@ export const DEUTERONOMY_10: RichChapterContent = {
   bookName: 'Deuteronomy',
   chapter: 10,
 
+  estimatedMinutes: { 5: 8, 10: 16, 15: 21 },
   intros: [
     'Deuteronomy 10 is Moses repeating the core story of Sinai — the new tablets, the ark, the Levites set apart — but with one eye always on the reader&apos;s heart. The chapter opens with instruction: cut new stones, build an ark, carry the law inside. But it closes with one of the Bible&apos;s greatest ethical summaries: "What doth the Lord thy God require of thee?" Not ritual or status. Fear, walk, love, serve, keep. Five verbs that hold the whole religion.',
     'At the center lies an act of grace: God, who owns all heaven and all the earth, had a delight in the patriarchs and chose their children. It is pure election, with no explanation — just: He loved them. And from that love flows the call to circumcise your heart, to remember that you were strangers in Egypt, and to love the stranger as your own. The chapter ends by reminding Israel of their cosmic promotion: seventy souls went down; now they are as many as the stars of heaven.',

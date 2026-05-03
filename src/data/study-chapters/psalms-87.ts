@@ -16,6 +16,7 @@ export const PSALMS_87: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 87,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 2 },
   intros: [
     'Psalm 87 is a celebration of Zion, the city of God. But it is not a celebration of stones and walls. It is a celebration of what Zion means: the place where God dwells, the gathering place of all people, the spiritual home of all nations. The psalmist speaks of glorious things that will be fulfilled in the coming kingdom of God.',
   ],

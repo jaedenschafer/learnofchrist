@@ -17,6 +17,7 @@ export const MATTHEW_4: RichChapterContent = {
   bookName: 'Matthew',
   chapter: 4,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
   intros: [
     'Immediately after His baptism and anointing, Jesus is led into the wilderness by the Spirit to be tempted. The wilderness is a place of testing—it was where Israel wandered for forty years, being tested to see whether they would trust God. Jesus too will spend forty days in the wilderness, fasting, and He will face temptation. But unlike Israel, which failed the test and grumbled, Jesus will stand firm. Every assault of the tempter will be met with the word of God.',
     'The temptations are not trivial. They appeal to the deepest human hungers: for bread, for security, for power and dominion. They speak to the very real challenges Jesus will face in His ministry: physical need, the need to prove Himself, the offer of power without the cross. Yet Jesus refuses each one. He chooses the way of dependence on the Father, the way of faith, the way of the cross over the way of the kingdoms of the world.',

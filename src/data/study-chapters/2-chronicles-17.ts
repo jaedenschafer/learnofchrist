@@ -17,6 +17,7 @@ export const CHRONICLES_2_17: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 17,
 
+  estimatedMinutes: { 5: 4, 10: 9, 15: 14 },
   intros: [
     "After his father Asa&apos;s death, Jehoshaphat takes the throne of Judah. The kingdom is at a threshold. Israel to the north has fractured into rebellion and idolatry. Enemies surround Judah on all sides. A lesser king might have focused only on fortifications and military strength. But Jehoshaphat understands something deeper: a kingdom&apos;s true defense is the faith of its people. So he does something almost unheard of — he strengthens the cities, yes, but he also sends out teachers.",
     "The opening chapters of Kings and Chronicles show us two paths for a monarch. The path of power: fortifications, armies, wealth, tributary states. And the path of the covenant: walking in the ways of God, seeking His face, teaching His law. Jehoshaphat chooses both, but he chooses the covenant first. The result is that the fear of the Lord spreads beyond Judah&apos;s borders, and the kingdom prospers. In this chapter, we see the Great Commission not yet uttered by Christ, but already lived by a faithful king: teachers sent out into all the cities, carrying the book of the law, teaching the people.",

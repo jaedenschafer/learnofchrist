@@ -16,6 +16,7 @@ export const PSALMS_26: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 26,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 5 },
   intros: [
     'Psalm 26 is a prayer of integrity spoken before God. "Judge me, O Lord; for I have walked in mine integrity." The psalmist is not claiming sinlessness, but rather that he has genuinely attempted to live according to God&apos;s ways, that his heart is turned toward righteousness. He invites God&apos;s scrutiny. He asks to be tested. This is the confidence of one who has nothing to hide from God, though he knows he is not perfect.',
   ],

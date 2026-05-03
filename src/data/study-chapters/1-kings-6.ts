@@ -21,6 +21,7 @@ export const KINGS_1_6: RichChapterContent = {
   bookName: '1 Kings',
   chapter: 6,
 
+  estimatedMinutes: { 5: 7, 10: 14, 15: 19 },
   intros: [
     'In the 480th year after the children of Israel came out of Egypt, in the fourth year of Solomon&apos;s reign, the work began. The chronological marker is precise — a way of saying that this moment stands at the center of Israel&apos;s story, a pivot-point between deliverance and dwelling. The exodus freed them from slavery; now, in the fourth century of their freedom, they build a place where God Himself will dwell.',
     'Solomon had inherited from David not just a throne, but a command: "He shall build an house for my name" (2 Samuel 7:13). For seven years, the temple rose in Jerusalem. But this was not ordinary construction. The stones were shaped beforehand in the quarries, so that when they came to the temple site, they could be fitted without a sound — no hammer, no axe, no iron tool heard in the holy place. The work of building was itself an act of worship, a quiet offering.',

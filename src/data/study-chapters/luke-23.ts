@@ -20,6 +20,7 @@ export const LUKE_23: RichChapterContent = {
   bookName: 'Luke',
   chapter: 23,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
   intros: [
     'The whole multitude of the elders, chief priests, and scribes rises and brings Jesus to Pilate. They accuse Him: "We found this fellow perverting the nation, and forbidding to give tribute to Caesar, saying that he himself is Christ a King." Pilate interrogates Him: "Art thou the King of the Jews?" Jesus answers: "Thou sayest it." Pilate says to the chief priests and multitude: "I find no fault in this man." But they cry out, saying: "He stirreth up the people, teaching throughout all Jewry, beginning from Galilee to this place." Pilate hears He is a Galilean and sends Him to Herod.',
     'Herod sees Jesus and is glad. He questions Him at length, but Jesus answers nothing. Herod and his men of war mock Jesus, dress Him in a gorgeous robe, and send Him back to Pilate. Pilate calls together the chief priests and rulers and people and says: "Ye have brought this man unto me, as one that perverteth the people: and, behold, I, having examined him before you, have found no fault in this man." Yet Pilate yields. He releases Barabbas, a murderer, and delivers Jesus to their will.',

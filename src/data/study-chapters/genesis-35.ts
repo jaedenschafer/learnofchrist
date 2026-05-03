@@ -17,6 +17,7 @@ export const GENESIS_35: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 35,
 
+  estimatedMinutes: { 5: 7, 10: 13, 15: 17 },
   intros: [
     'Genesis 35 is a chapter about return and renewal. Jacob has been away from Bethel for more than twenty years. He has fled his father&apos;s house in fear, lived as a stranger in Haran, married, labored, and built a family in exile. Now God calls him back: <em>Arise, go up to Bethel, and dwell there.</em> It is a call to come home.',
     'But the homecoming is not simple. Before returning to the place where God first spoke to him, Jacob must deal with the gods his household has gathered — the idols of Laban&apos;s house, the trinkets of prosperity, the things that have slowly taken the place of devotion. He buries them under an oak and only then approaches Bethel. The chapter holds three deaths — Deborah, Rachel, Isaac — and Jacob keeps moving through each one. Sometimes faithfulness looks less like triumph and more like the simple choice to keep going.',

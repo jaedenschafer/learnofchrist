@@ -22,6 +22,7 @@ export const NUMBERS_31: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 31,
 
+  estimatedMinutes: { 5: 7, 10: 11, 15: 15 },
   intros: [
     'Numbers 31 is about holy war — and it is a hard text. God commands Israel to march against Midian to avenge what Midian had done in chapter 25: the seduction that turned Israel toward Baal-peor and nearly destroyed the covenant itself. The battle is total. All the Midianite males die, including the five kings and Balaam, the prophet who had taught Balak the strategy of seduction. Women and children are taken captive. But then Moses, seeing that virgin women are spared and non-virgin women are not, grasps the theological point: those who led Israel into sexual idolatry must die; those untainted by that sin are brought into Israel. The chapter never once asks whether this is just. It presents it as covenant response — God avenging His name against a people who had attacked His covenant from within.',
     'This is not a blueprint for modern warfare. This is judgment under the old covenant — the hard edge of what holiness cost in a theocratic state where covenant and nation were one. Under the new covenant, Christians do not wage physical war against nations (Eph. 6:12: "we wrestle not against flesh and blood"). Christ took the judgment such wars anticipated; He bore the wrath His people deserved. Yet the chapter teaches something that never changes: God takes sin seriously. Covenant is not casual. Seduction away from Him has weight, and the story of redemption includes justice, not just mercy.',

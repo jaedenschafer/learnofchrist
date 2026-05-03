@@ -16,6 +16,7 @@ export const PSALMS_138: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 138,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Psalm 138 is a psalm of David, offered in the midst of opposition and danger. It is not a lament. It is a declaration of confidence and praise before hostile powers. The psalmist will praise God with his whole heart, before the gods—perhaps the gods of surrounding nations, perhaps metaphorical powers of darkness. The point is this: no matter the opposition, the psalmist&apos;s commitment to praise God is absolute. And the ground of this commitment is God&apos;s faithfulness. When the psalmist cries out, God hears. When he is brought low, God revives him. The psalm is a song for the soul under siege.',
   ],

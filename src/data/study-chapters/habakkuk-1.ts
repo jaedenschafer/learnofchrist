@@ -12,6 +12,7 @@ export const HABAKKUK_1: RichChapterContent = {
   bookName: 'Habakkuk',
   chapter: 1,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
   intros: [
     'Habakkuk begins with a complaint, not a proclamation. "O Lord, how long shall I cry, and thou wilt not hear?" The prophet sees injustice everywhere—violence, strife, wrong judgment. He calls to God for help, but God seems distant. Why does He not intervene? Why does evil prosper?',
     'God answers, but the answer confounds the prophet. God will raise up the Chaldeans (Babylonians)—a fierce and terrible nation that will bring judgment. But this only raises a new question in Habakkuk&apos;s mind: how can God, who is pure and holy, use evil people to accomplish His purposes? The struggle is real. The questions are genuine.',

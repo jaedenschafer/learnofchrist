@@ -8,6 +8,7 @@ export const ZECHARIAH_7: RichChapterContent = {
   bookName: 'Zechariah',
   chapter: 7,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 4 },
   intros: [
     'After the visions, Zechariah turns to answer a question posed by the people returning from exile. Should they continue the fast that commemorated the destruction of Jerusalem? The prophet&apos;s answer redirects their focus from external ritual to internal righteousness. God does not require fasts disconnected from justice, mercy, and truth. The heart matters more than the calendar.',
   ],

@@ -16,6 +16,7 @@ export const JOHN_12: RichChapterContent = {
   bookName: 'John',
   chapter: 12,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 6 },
   intros: [
     'Six days before Passover, Jesus is in Bethany at the house of Lazarus, whom He has raised from the dead. Mary sits at His feet and anoints them with a pound of costly spikenard. The ointment fills the house with fragrance. But Judas objects: "Why was not this ointment sold for three hundred pence, and given to the poor?" He speaks as though concern for the poor drives him, but the text reveals his true motive: he is a thief, and he steals from the money box. Jesus responds to Mary with affirmation: "Let her alone: against the day of my burying hath she kept this." Mary&apos;s act is not mere extravagance. It is prophecy, preparation, love poured out.',
     'The next day, Jesus enters Jerusalem in triumph. The people cry: "Hosanna: Blessed is the King of Israel that cometh in the name of the Lord." Yet the shadow of death grows longer. Jesus speaks of a corn of wheat that must fall into the ground and die in order to bring forth much fruit. His own death approaches. And in that death lies redemption for the world. The hour of His glorification has come.',

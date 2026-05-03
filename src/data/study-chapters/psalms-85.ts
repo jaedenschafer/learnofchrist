@@ -15,6 +15,7 @@ export const PSALMS_85: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 85,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Psalm 85 is a song of the sons of Korah, and it depicts a people restored. The Lord had turned away His anger. He had brought back the captivity of Jacob. But the psalmist is not content with national restoration alone. He looks forward to something far greater: a redemption that satisfies not only justice but mercy, not only truth but peace. He waits for a word from God Himself—a word that will settle all things.',
   ],

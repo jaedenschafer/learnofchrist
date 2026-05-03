@@ -5,6 +5,7 @@ export const HOSEA_8: RichChapterContent = {
   bookName: 'Hosea',
   chapter: 8,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 4 },
   intros: [
     '"Set the trumpet to thy mouth. As an eagle against the house of the Lord." The judgment comes swiftly. Israel has broken the covenant. She has made kings without God&apos;s direction. She has cast a molten calf and worshipped it.',
     'The most famous verse stands at the center: "They have sown the wind, and they shall reap the whirlwind." This is not God&apos;s judgment imposed from outside but the natural consequence of unfaithfulness. You reap what you sow. Israel has sown wind — empty, worthless actions — and will reap the whirlwind — destruction that will sweep away everything.',

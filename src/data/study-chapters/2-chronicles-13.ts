@@ -19,6 +19,7 @@ export const CHRONICLES_2_13: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 13,
 
+  estimatedMinutes: { 5: 6, 10: 10, 15: 13 },
   intros: [
     'The northern kingdom of Israel and the southern kingdom of Judah have been divided for generations. Jeroboam, the first king of the north, set up golden calves at Bethel and Dan, drawing the people away from the temple in Jerusalem and from the Levitical priesthood. His rebellion against the Davidic covenant is spiritual as much as political.',
     'Now, in the 18th year of Jeroboam&apos;s reign, Abijah becomes king of Judah. The two nations face off in battle — and in this moment, 2 Chronicles gives us something 1 Kings does not: Abijah&apos;s speech. Before the warriors clash, the young king of Judah stands on a mountain and preaches. He calls the northern kingdom back to covenant, warns them against idolatry, and reminds them all that victory depends not on the size of an army but on the presence of God. "God himself is with us for our captain," Abijah proclaims. What follows is a battle where a smaller force defeats a larger one, not through military superiority, but through the cry of men who trusted the Lord. This chapter shows us what covenant reliance looks like in a moment of mortal danger.',

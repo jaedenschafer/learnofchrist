@@ -5,6 +5,7 @@ export const PSALMS_59: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 59,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
   intros: [
     'Saul&apos;s jealousy of David had become pathological. He posted men outside David&apos;s house to capture him when he left. But David&apos;s wife Michal, daughter of Saul, helped him escape through a window. She then put a teraphim (an idol or image) in the bed, covered it with a garment, and told Saul&apos;s men that David was sick. By the time they discovered the deception, David was gone.',
     'Psalm 59 is David&apos;s prayer when Saul&apos;s watchers hunted him. And the remarkable thing about this prayer is its tone. David does not panic. He does not despair. Instead, he views his pursuers with almost amused detachment. "Thou, O Lord, shalt laugh at them; thou shalt have all the heathen in derision." God laughs at the schemes of men. God holds the nations in derision. What seems to David&apos;s enemies like a serious threat is to God a matter of light mockery.',

@@ -14,6 +14,7 @@ export const JEREMIAH_46: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 46,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
   intros: [
     'The book of Jeremiah shifts now from the word to Judah to the word against the nations. Egypt is the first. Pharaoh had offered Israel false hope—promises of protection and alliance that lured the weakening kingdom into political entanglement. When the moment of crisis came, Egypt&apos;s promises proved hollow. Now God speaks against Egypt itself.',
     'The chapter opens with a vivid tableau: Pharaoh and his army preparing for battle. Shields are bright, horses are prepared, chariots gleam. All the pomp and confidence of the mightiest empire in the ancient world—and yet it is nothing before the word of the Lord. God&apos;s message to terrified Israel is simple: "Fear thou not." Fear not Egypt&apos;s strength. Fear not the chariots and the shields. I remember you. I will save you.',

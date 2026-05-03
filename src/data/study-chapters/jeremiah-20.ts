@@ -14,6 +14,7 @@ export const JEREMIAH_20: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 20,
 
+  estimatedMinutes: { 5: 5, 10: 8, 15: 10 },
   intros: [
     'Pashur, the chief priest at the Lord&apos;s house, hears Jeremiah prophesying and smites him, putting him in the stocks. It is a public humiliation, a silencing of the prophet. Yet Jeremiah&apos;s response is not to abandon his calling. Instead, he speaks of the word burning within him like fire that cannot be contained. The word of God, once given, cannot be suppressed. Even the prophet himself, weary of bearing it, cannot refrain from speaking.',
     'The chapter moves between Jeremiah&apos;s declaration of the burning word and his complaint to God — "Cursed be the day wherein I was born." He is torn between his calling and his suffering, between the fire of God&apos;s word and the pain of rejection. Yet he ultimately returns to trust: "But the Lord is with me as a mighty terrible one."',

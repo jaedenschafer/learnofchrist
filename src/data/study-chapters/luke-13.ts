@@ -19,6 +19,7 @@ export const LUKE_13: RichChapterContent = {
   bookName: 'Luke',
   chapter: 13,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
   intros: [
     'People come to Jesus with news: Pilate has mingled the blood of Galileans with their sacrifices. Some see this as a sign of their great sin—they suffered because they were especially wicked. But Jesus rebukes this reasoning. "Suppose ye that these Galileans were sinners above all the Galileans, because they suffered such things? I tell you, Nay." Suffering is not always proportionate to sin. But all must repent. "Except ye repent, ye shall all likewise perish."',
     'Jesus speaks parables of the kingdom. A man plants a fig tree in his vineyard. For three years it bears no fruit. He says to the dresser: "Cut it down; why cumbereth it the ground?" But the dresser asks: "Let it alone this year also, till I shall dig about it, and dung it: and if it bear fruit, well: and if not, then after that thou shalt cut it down." The kingdom is given time to grow, to bear fruit. But judgment comes if it does not.',

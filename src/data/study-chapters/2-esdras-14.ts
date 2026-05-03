@@ -21,6 +21,7 @@ export const SECOND_ESDRAS_14: RichChapterContent = {
   bookName: '2 Esdras',
   chapter: 14,
 
+  estimatedMinutes: { 5: 10, 10: 18, 15: 24 },
   intros: [
     'By chapter 14, Ezra has seen the visions—the woman transformed into a city, the eagle and the lion, the interpretation of days and times. Now God speaks to him directly. Not through an angel, not through a vision, but voice to voice. And God&apos;s command is clear: write down everything. What you have seen, what you understand, what the spirit has shown you—set it down. It is to be preserved.',
     'But there is something unprecedented in what happens next. Ezra is given understanding beyond human capacity. For forty days, with a pen and ink and a prepared scribe to write at his dictation, Ezra records 94 books—not slowly, but with the pace of inspiration itself. His mouth never tires. The scribe&apos;s hand never falters. When it is finished, God takes Ezra up into heaven. He does not die; he is removed, taken, translated. Like Enoch before him, like Philip in the desert, like Jesus Himself—Ezra is the witness to what God will do.',

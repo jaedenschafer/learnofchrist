@@ -13,6 +13,7 @@ export const SAMUEL_1_9: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 9,
 
+  estimatedMinutes: { 5: 9, 10: 16, 15: 20 },
   intros: [
     'Kish of Benjamin had lost his asses, and sent his son Saul to find them. The search, which stretches across three lands, becomes the occasion for an encounter with Samuel the prophet. Before Saul knows who he is looking for, God has already told Samuel who is coming. Before Saul understands his own calling, God has already prepared a portion and a place. The chapter turns on a simple economy: looking for one thing, we find another; and often the thing we find is what we needed all along.',
     'Saul enters the story as "a choice young man, and a goodly"—tall, comely, chosen by appearance. The text does not yet call attention to the shadows in him: his uncertainty, his humility, his willingness to turn back. But they are here. And they matter. By chapter 15, Saul will have become the man Israel wanted him to be, but not the man God meant. For now, he is still the humbler version—the one who cannot imagine why a prophet would speak to him, and who must be coaxed toward his own greatness.',

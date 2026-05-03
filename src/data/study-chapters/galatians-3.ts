@@ -14,6 +14,7 @@ export const GALATIANS_3: RichChapterContent = {
   bookName: 'Galatians',
   chapter: 3,
 
+  estimatedMinutes: { 5: 6, 10: 12, 15: 17 },
   intros: [
     'Paul opens with urgency and grief: "O foolish Galatians, who hath bewitched you?" The Galatians have turned from faith to works. They received the Spirit by faith; now they trust in the flesh. Paul takes them back to Abraham—not the law, but the man of faith. Abraham believed God, and that belief was counted as righteousness. The law came 430 years later. It was never meant to replace faith; it was meant to lead you to Christ.',
     'In Christ, the old divisions collapse. Jew and Gentile, slave and free, male and female—these categories no longer divide the believer. All are baptized into Christ. All have put on Christ. All are one in Him. All are Abraham&apos;s seed, heirs of the promise by faith. This is the gospel&apos;s scandal and its scandal is its power: the distinctions the world builds to divide and rank—ethnicity, status, gender—count for nothing in the kingdom of God.',

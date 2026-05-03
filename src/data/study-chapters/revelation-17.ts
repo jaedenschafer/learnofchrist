@@ -5,6 +5,7 @@ export const REVELATION_17: RichChapterContent = {
   bookName: 'Revelation',
   chapter: 17,
 
+  estimatedMinutes: { 5: 4, 10: 8, 15: 13 },
   intros: [
     "An angel shows John the great whore — the woman who has seduced the kingdoms of the earth with fornication and wealth. She sits on a scarlet beast, drunk with the blood of the saints. Her name is Mystery, Babylon the Great. Identifying her with any single historical power misses the point: she is the pattern of every seductive false kingdom, dressed in gold and scarlet, offering power and prosperity to those who will worship her instead of God.",
     "But the Lamb shall overcome them. He is Lord of lords and King of kings. The same beast that carried the woman will turn and devour her — evil has no loyalty even to itself. This vision is not vindication delayed; it is victory already won, shown to believers who are called, chosen, and faithful. You are in that company if you are with Him.",

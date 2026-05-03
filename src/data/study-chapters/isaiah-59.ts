@@ -15,6 +15,7 @@ export const ISAIAH_59: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 59,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Isaiah 59 is a confession of sin and a promise of redemption. The people acknowledge that their iniquities have separated them from God. They describe in graphic language the extent of their wickedness: violence, lies, false testimony, weaving plots of destruction. There is no justice, no peace. Yet it is precisely in this darkness, when all seems lost, that the Redeemer appears. God Himself comes. He puts on righteousness as a breastplate, wears salvation as a helmet, and takes vengeance on His enemies. He comes not to destroy the penitent, but to redeem them.',
   ],

@@ -5,6 +5,7 @@ export const EXODUS_23: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 23,
 
+  estimatedMinutes: { 5: 9, 10: 15, 15: 20 },
   intros: [
     'Exodus 23 continues the laws that began in chapter 21. These verses do three things: they demand justice for the poor and mercy even for enemies; they establish the rhythm of rest that sustains both land and people; and they name three annual feasts that Israel will keep to remember who God is and what He has done.',
     'The chapter opens with cases — false testimony, the poor at law, the ox of your enemy in the ditch. It moves to the land itself, which needs rest, and to harvest feasts that mark the year. And it closes with something almost startling: an Angel sent before Israel, the place where God&apos;s name dwells, a messenger whose presence is the presence of God Himself. These are not disconnected rules. They are a people learning to live as God lives — just, merciful, rhythmic, and always aware they are not alone.',

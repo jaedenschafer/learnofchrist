@@ -15,6 +15,7 @@ export const FIRST_THESSALONIANS_5: RichChapterContent = {
   bookName: '1 Thessalonians',
   chapter: 5,
 
+  estimatedMinutes: { 5: 7, 10: 13, 15: 20 },
   intros: [
     'The day of the Lord is certain but unexpected. Those who belong to Christ are not in darkness; they have been called into light and are destined for salvation, not wrath. Yet this hope does not excuse passivity. Instead, it demands vigilance, sobriety, and a life of prayer and gratitude.',
     'Paul&apos;s closing exhortations to the Thessalonians form a single vision of life lived in readiness for Christ&apos;s return. Be watchful. Rejoice always. Pray without ceasing. Test all things. Hold fast to good. And look forward to the sanctification that will come at His appearing.',

@@ -12,6 +12,7 @@ export const GENESIS_1: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 1,
 
+  estimatedMinutes: { 5: 11, 10: 18, 15: 22 },
   intros: [
     'Genesis 1 tells how God brought the world into being over seven days. Days one through three form the spaces of creation — light, sky, land. Days four through six fill those spaces — sun and moon, fish and birds, animals and humans. Day seven, God rests. Each day follows the same pattern: God speaks, what He speaks comes to be, He calls it good.',
     'The chapter was written into a world full of other creation stories — Babylonian[res:enuma-elish-bm], Egyptian, Canaanite — with violent gods, cosmic battles, and humans made as slaves. Genesis answers them all[res:bibleodyssey-creation-stories]. One God. Creation by peaceful speech. Humans made in His image. And for the reader on this side of the cross, the fingerprints of Christ are already everywhere: the Word who speaks, the Light before the sun, the Image we are made after, the Rest we are invited into.',

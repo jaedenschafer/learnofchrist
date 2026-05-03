@@ -21,6 +21,7 @@ export const SECOND_ESDRAS_15: RichChapterContent = {
   bookName: '2 Esdras',
   chapter: 15,
 
+  estimatedMinutes: { 5: 8, 10: 13, 15: 17 },
   intros: [
     'Chapters 15–16 are Christian additions to the 2 Esdras apocalypse, sounding like the voice of prophetic judgment itself. Ezra speaks woes against the nations—Egypt, Babylon, Asia—each warned of the sword, famine, fire, and plague that God will send upon those who have grown proud, forgotten their Maker, and persecuted the righteous.',
     'The voice is not glee but grief. These are urgent calls to turn back before the edge of judgment is reached. And woven through the judgment is the promise that the faithful shall be persecuted but not forsaken—God knows them, preserves them, even as the cities around them fall.',

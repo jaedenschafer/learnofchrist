@@ -18,6 +18,7 @@ export const SAMUEL_2_10: RichChapterContent = {
   bookName: '2 Samuel',
   chapter: 10,
 
+  estimatedMinutes: { 5: 6, 10: 12, 15: 16 },
   intros: [
     "After years of conquest and stability, David reaches out in kindness to the young king of Ammon, whose father had shown kindness to him in the past. It is the act of a king at peace—a reaching across old boundaries, a remembering of old debts. But the Ammonite princes, suspicious and threatened, convince the young king Hanun that David&apos;s servants are spies. What David intends as mercy, they read as deception.",
     "When kindness is rejected and turned to shame, when the king&apos;s servants are humiliated in front of all the people, David does not respond in anger. Instead, he shows his men a deeper dignity: &quot;Tarry at Jericho until your beards be grown, then return.&quot; The king cherishes the wounded honor of his servants. And when war comes—a two-front battle with Ammonites on one side and Syrian allies on the other—Joab leads with a prayer: &quot;Be of good courage... the Lord do that which seemeth him good.&quot; This chapter watches a leader learn that sometimes kindness is rejected, shame is real, and God is the only sufficient help.",

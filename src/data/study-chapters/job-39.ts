@@ -13,6 +13,7 @@ export const JOB_39: RichChapterContent = {
   bookName: 'Job',
   chapter: 39,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 7 },
   intros: [
     'God expands His vision of creation, inviting Job to consider the wild creatures. The doe giving birth. The wild donkey. The war horse with his terrible might. The hawk soaring with perfect instinct. The eagle nesting in the cliffs. These creatures are not made for human service or understanding. They are made according to their own nature, for their own kind. God delights in this wildness. It reveals a Creator whose purposes are far grander than human concerns.',
   ],

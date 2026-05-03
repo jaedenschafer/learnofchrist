@@ -19,8 +19,9 @@ export const ACTS_17: RichChapterContent = {
   bookName: 'Acts',
   chapter: 17,
 
+  estimatedMinutes: { 5: 9, 10: 12, 15: 16 },
   intros: [
-    'Paul travels through three cities in Acts 17, and each city becomes a lesson in how the gospel meets different kinds of resistance. In Thessalonica, the Jews oppose him and drag him before the rulers. In Berea, believers search the scriptures daily to verify what Paul proclaims. In Athens, philosophers mock him in the marketplace, and he stands on Mars Hill to speak to a city built on human wisdom.',
+    'Paul travels through three cities in Acts 17, and each city becomes a lesson in how the gospel meets different kinds of resistance. In Thessalonica, the Jews oppose him and drag him before the rulers. In Berea, believers search the scriptures daily to verify what Paul proclaims. In Athens, philosophers mock him in the marketplace, and he stands on Mars Hill[res:bibleodyssey-areopagus] to speak to a city built on human wisdom.',
     'The pattern is consistent: the gospel is preached, opposition arises, some believe. But what changes from city to city is the nature of the opposition and the kind of belief that follows. Thessalonica sees theological sedition. Berea sees noble discernment. Athens sees philosophers torn between mockery and genuine inquiry. By the end of the chapter, the unknown God is known, at least to some—Dionysius, Damaris, and others who heard and believed.',
     'This is Paul&apos;s strategy at work: meet people where they are. At the synagogue, he argues from Scripture. At Berea, he welcomes investigation. On Mars Hill, he quotes pagan poets and speaks of an altar to an unknown god. The message is constant—Jesus and the resurrection—but the door through which he enters each city changes. The gospel speaks every language.',
   ],
@@ -282,7 +283,7 @@ export const ACTS_17: RichChapterContent = {
           kind: 'commentary',
           id: 'acts17-athens-idols',
           html:
-            'Athens in Paul&apos;s day was a city of temples and statues. Nearly every street corner held a shrine, an altar, a god. For a man whose conviction was that "an idol is nothing in the world" (1 Corinthians 8:4) and that all such worship is misdirected devotion to demons, Athens must have been overwhelming—a sprawl of religious confusion, spiritual energy aimed at countless false gods.',
+            'Athens in Paul&apos;s day was a city of temples and statues[res:ascsa-agora]. Nearly every street corner held a shrine, an altar, a god. For a man whose conviction was that "an idol is nothing in the world" (1 Corinthians 8:4) and that all such worship is misdirected devotion to demons, Athens must have been overwhelming—a sprawl of religious confusion, spiritual energy aimed at countless false gods.',
         },
         {
           kind: 'greek',
@@ -430,7 +431,7 @@ export const ACTS_17: RichChapterContent = {
           kind: 'commentary',
           id: 'acts17-unknown-god',
           html:
-            'The altar to "the unknown God" is likely a real artifact—a safeguard in case some divinity was overlooked. But for Paul it becomes a door. The Athenians worship without knowing; Paul comes to make the unknown known. This is the entire gospel in one image: the God humanity seeks without seeing, now revealed in Christ.',
+            'The altar to "the unknown God" is likely a real artifact—a safeguard in case some divinity was overlooked. But for Paul it becomes a door. The Athenians worship without knowing; Paul comes to make the unknown known[res:aratus-acts28-intertextual]. The line he quotes a few verses later — "we are also his offspring" — is taken straight from the opening of Aratus[res:aratus-phaenomena], a Stoic poet whose work would have been on the lips of any educated Athenian. Paul plants the gospel in soil their own poets had already turned. This is the entire gospel in one image: the God humanity seeks without seeing, now revealed in Christ.',
         },
         {
           kind: 'christ',

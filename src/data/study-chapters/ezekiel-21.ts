@@ -18,6 +18,7 @@ export const EZEKIEL_21: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 21,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Ezekiel 21 opens with a vision of God&apos;s sword. It is sharp, burnished, meant to devour and consume. The prophet is told to sigh and lament—to sing a dirge for the coming slaughter. This is not metaphorical anger. This is the judgment of God moving against His people. Yet even within this fierce judgment, there is a deeper word: the overturning of earthly thrones and the promise of the One "whose right it is" to rule.',
     'The chapter uses the language of Babylonian divination—the king of Babylon casting lots at the crossroads to decide which city to attack. But the outcome is already determined. And beyond Babylon&apos;s conquest lies another kingdom, another King, whose throne will not be overturned but will endure forever.',

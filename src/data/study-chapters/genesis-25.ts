@@ -17,6 +17,7 @@ export const GENESIS_25: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 25,
 
+  estimatedMinutes: { 5: 8, 10: 13, 15: 16 },
   intros: [
     'Genesis 25 opens with the death of Abraham — the father of the promise, who spent his life believing God for a son he could not yet see, for a nation he would never rule, for a land he would never fully own. He dies at 175, full of years, and is laid to rest with Sarah in the cave of Machpelah, the only plot of promised land he ever truly possessed. But his line does not die with him. His covenant is not buried in that cave.',
     'In the second half of the chapter, we meet Rebekah and Isaac — and in Rebekah&apos;s womb, two nations struggling against each other. The text says the children struggled <em>within her,</em> not like siblings jostling for space, but like two peoples at war. God answers her prayer not with comfort but with an oracle that cuts against every human expectation: <em>the elder shall serve the younger.</em> It is a word that will shape the rest of the Bible — the story of a younger son chosen over an older, again and again, until the last becomes first and the meek inherit the earth.',

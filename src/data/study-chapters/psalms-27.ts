@@ -16,6 +16,7 @@ export const PSALMS_27: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 27,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 5 },
   intros: [
     'Psalm 27 expresses the confidence of one who has encountered God&apos;s light and found in it all that is needed. Light here means understanding, revelation, the dispelling of darkness. Salvation means deliverance from enemies, yes, but more fundamentally, the establishment of a right relationship with God. The psalm moves from bold confidence to vulnerable longing: "Hear when I cry unto thee."',
   ],

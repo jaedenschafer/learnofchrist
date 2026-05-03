@@ -18,6 +18,7 @@ export const DEUTERONOMY_9: RichChapterContent = {
   bookName: 'Deuteronomy',
   chapter: 9,
 
+  estimatedMinutes: { 5: 10, 10: 16, 15: 21 },
   intros: [
     'Israel stands at the Jordan, ready to cross over and dispossess nations greater and mightier than they are. Giants called Anakims hold fortified cities that reach to heaven. The natural response is fear. But Moses tells them something that will shape the whole story: you will inherit this land not because you deserve it, but because God promised it to your fathers, and because those nations have grown wicked and must be driven out.',
     'Yet Moses immediately adds a warning: do not tell yourself a lie in your heart. Do not say, "For my righteousness the Lord hath brought me in to possess this land." You are a stiffnecked people. Remember Horeb — when God&apos;s finger wrote the law, you made a golden calf and worshiped it. Remember every place: Taberah, Massah, Kibroth-hattaavah, Kadesh-Barnea. Rebellion at every step. The only reason you are still alive, the only reason God did not destroy you, is because Moses stood in the gap and prayed.',

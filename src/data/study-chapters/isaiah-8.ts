@@ -15,6 +15,7 @@ export const ISAIAH_8: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 8,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 6 },
   intros: [
     'Isaiah continues his message to a frightened people. They are tempted to seek guidance from sources other than God—from mediums and spiritists who "peep, and that mutter." These are practitioners of divination, consultants of the dead, those who claim secret knowledge of the future. But Isaiah insists that the people should not seek unto those who have familiar spirits and wizards. Instead, they should seek unto their God—to the living testimony and to the law of Israel. Those who do not speak according to this word are those for whom there is no dawn.',
     'The fundamental choice is clear: Will you trust in God, or will you trust in phantoms? Will you walk in light, or will you stumble in darkness? Isaiah does not make this choice comfortable. He speaks of fear that comes to the people, and of stumbling. But he also speaks of a stone—a stone of stumbling, yes, but also a rock of offense to both the house of Israel and the inhabitants of Jerusalem. That stone will prove to be Christ, the one upon whom faith can be built, even though many will stumble over it.',

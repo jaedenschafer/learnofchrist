@@ -17,6 +17,7 @@ export const NEHEMIAH_4: RichChapterContent = {
   bookName: 'Nehemiah',
   chapter: 4,
 
+  estimatedMinutes: { 5: 8, 10: 17, 15: 23 },
   intros: [
     'The work of rebuilding the walls of Jerusalem has begun. The rubble is being cleared, the stones are being set, and the people of Jerusalem are learning again the rhythm of labor and covenant. But not everyone is pleased. From outside the walls, the enemies of Israel grow angry. Sanballat and Tobiah, the leaders who mocked the returning exiles as "feeble Jews," now see their mockery turn to something darker: conspiracy.',
     'Nehemiah 4 is a study in the collision between faith and opposition, between prayer and practical vigilance. When mockery escalates to threat, when the people grow weary and afraid, Nehemiah teaches them something harder than either pure faith or pure caution. He prays. He sets a watch. He arms his people. He sounds the trumpet. He remembers that God fights for them, but also that they are called to stand in the breach, to build with a sword at their side, to never lay down their tools — no matter what they hear from those who want them to fail.',

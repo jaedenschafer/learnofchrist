@@ -12,6 +12,7 @@ export const PROVERBS_21: RichChapterContent = {
   bookName: 'Proverbs',
   chapter: 21,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 3 },
   intros: [
     'Proverbs 21 celebrates God&apos;s invisible hand in the corridors of power. The king believes himself sovereign, yet his heart rests in God&apos;s hand, directed like water through channels. And this sovereign God is a God of justice, particularly toward the poor. To stop your ears at their cry is to invite a day when your own cry goes unheard. What you withhold from others will be withheld from you.',
   ],

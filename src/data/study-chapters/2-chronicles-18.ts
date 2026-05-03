@@ -20,6 +20,7 @@ export const CHRONICLES_2_18: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 18,
 
+  estimatedMinutes: { 5: 9, 10: 16, 15: 22 },
   intros: [
     'Jehoshaphat is a king blessed with riches and honour in abundance. Yet his wealth and power lead him into a dangerous alliance. He marries his son to the daughter of Ahab, king of Israel — an affinity that will test his faith. After certain years, he goes down to Ahab in Samaria. Ahab welcomes him with ceremony, slaughtering sheep and oxen, and then makes his proposal: will Jehoshaphat join him in battle to retake Ramoth-gilead from Syria?',
     "Jehoshaphat&apos;s response shows wisdom — he asks first that they inquire of the Lord. But when Ahab gathers his prophets — four hundred men, all speaking with one voice — something becomes clear: the king has surrounded himself with those who tell him what he wants to hear. And when Jehoshaphat, uneasy, asks if there is another prophet to consult, Ahab confesses his own preference for comfortable falsehood: &quot;There is yet one man, by whom we may enquire of the Lord: but I hate him; for he never prophesied good unto me, but always evil: the same is Micaiah son of Imla.&quot;",

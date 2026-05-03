@@ -18,6 +18,7 @@ export const EZEKIEL_22: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 22,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 5 },
   intros: [
     'Ezekiel 22 is a fierce accusation. It does not mince words. Jerusalem is a "bloody city." Violence, murder, idolatry, corruption—they fill every level of society. The leaders are like roaring lions, tearing their prey. The priests profane the holy. The prophets whitewash with falsehood. No one is innocent. No one escapes the verdict.',
     'Yet the most heartbreaking verse comes at the center: "I sought for a man among them, that should make up the hedge, and stand in the gap before me for the land, that I should not destroy it: but I found none." Judgment comes not merely from corruption itself, but from the absence of anyone willing to stand between God and the city, to bear the burden, to intercede. This absence opens the door for Christ—the One who will ultimately stand in the gap.',

@@ -16,6 +16,7 @@ export const PSALMS_119: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 119,
 
+  estimatedMinutes: { 5: 2, 10: 8, 15: 9 },
   intros: [
     'Psalm 119 stands apart in Scripture as a meditation of extraordinary length and depth on a single theme: the beauty, power, and life-giving nature of God&apos;s word. To read it is to enter the inner life of someone who has made God&apos;s word the center of his existence. Not as obligation, but as delight. "O how love I thy law! it is my meditation all the day." Each of the 22 stanzas takes up a fresh aspect of this love—the comfort found in God&apos;s statutes, the light found in His precepts, the strength found in His commandments. To study this psalm is to encounter a heart remade by Scripture.',
     'The eight-verse acrostic structure—each stanza beginning with the next letter of the Hebrew alphabet—suggests a kind of completeness, a mapping of the whole alphabet across the whole range of human experience. The psalmist is afflicted, pursued, forgotten by men, yet none of these conditions shakes his devotion to God&apos;s word. Instead, they drive him deeper into it. "Before I was afflicted I went astray: but now have I kept thy word." The word becomes his refuge, his counselor, his treasure, his light in darkness.',

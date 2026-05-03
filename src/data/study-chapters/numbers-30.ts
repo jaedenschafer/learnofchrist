@@ -23,6 +23,7 @@ export const NUMBERS_30: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 30,
 
+  estimatedMinutes: { 5: 8, 10: 13, 15: 19 },
   intros: [
     'Numbers 30 opens with four words that sound simple but are radical: "If a man vow a vow unto the Lord, or swear an oath to bind his soul with a bond; he shall not break his word." Words matter. Words bind. A vow made to God is not a casual promise you can undo when circumstances change or feelings shift. Speech to God is covenant language. It shapes your life.',
     'But then the chapter shifts and addresses women—daughters in their father&apos;s house, wives under their husband&apos;s authority, and widows or divorced women standing alone. For each, a principle emerges: the person in spiritual authority over a household may confirm or annul a vow on the day he hears it. If he stays silent and then later disallows it, something remarkable happens: "he shall bear her iniquity." Headship is not tyranny. It is accountability. The one who leads answers for what he allows or forbids.',

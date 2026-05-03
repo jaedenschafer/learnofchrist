@@ -5,6 +5,7 @@ export const AMOS_6: RichChapterContent = {
   bookName: 'Amos',
   chapter: 6,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
   intros: [
     'Amos 6 opens with one of the most damning statements in Scripture: "Woe to them that are at ease in Zion, and trust in the mountain of Samaria." The comfortable and complacent are the target. Israel has become so satisfied with her prosperity that she has forgotten God.',
     'The chapter describes Israel\'s ease in detail — lying on beds of ivory, feasting, anointing themselves with oil, making music. Yet the judgment approaches swiftly. Comfort can become the enemy of seeking God. It can distance us from Him.',

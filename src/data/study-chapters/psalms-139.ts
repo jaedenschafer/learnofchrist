@@ -16,6 +16,7 @@ export const PSALMS_139: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 139,
 
+  estimatedMinutes: { 5: 1, 10: 6, 15: 7 },
   intros: [
     'Psalm 139 is an exploration of God&apos;s omniscience—His complete, inescapable knowledge of the human soul. It begins with awe and intimacy: "O Lord, thou hast searched me, and known me. Thou knowest my downsitting and mine uprising, thou understandest my thought afar off." The psalmist cannot hide from God&apos;s knowledge. He cannot escape it. He tries to imagine fleeing to the heavens or to Sheol, to the uttermost parts of the sea. Yet God is there. This knowledge could be terrifying. Instead, the psalm transforms it into wonder. The psalmist concludes not with fear, but with gratitude: he is known, completely and intimately, by the God who made him. And in being fully known, he finds full affirmation.',
   ],

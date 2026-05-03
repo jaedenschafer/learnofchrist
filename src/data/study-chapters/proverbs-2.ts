@@ -16,6 +16,7 @@ export const PROVERBS_2: RichChapterContent = {
   bookName: 'Proverbs',
   chapter: 2,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
   intros: [
     'The second chapter of Proverbs deepens the call of the first. It is not enough to hear that wisdom exists or even to see her calling. One must actively search for her, pursue her, seek her "as silver" and "as hidden treasures." This is the language of passionate seeking, of the merchant who will overturn every stone, investigate every ledger, follow every lead in pursuit of wealth. This same intensity is what God desires from those who seek Him and His wisdom.',
     'But there is a promise attached to this search. Those who seek will find. And what they will find is not merely information about how to live, but a transformation of perception itself—the ability to understand and to walk in paths of righteousness, to recognize and avoid the way of the wicked. Wisdom becomes not just knowledge but discernment, not just understanding but character.',

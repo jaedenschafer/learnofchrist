@@ -9,6 +9,7 @@ export const FOURTH_MACCABEES_7: RichChapterContent = {
   bookName: '4 Maccabees',
   chapter: 7,
 
+  estimatedMinutes: { 5: 7, 10: 11, 15: 15 },
   intros: [
     'After the torture and flames, Eleazar is lifted from the instruments near death. But something in him remains unbroken. The guards see it—a man physically defeated yet spiritually unconquered.',
     'The author pauses the narrative to exalt him. Eleazar becomes not just a victim but a proof. For three hundred verses of argument about how reason masters passion, the author now points to a single flesh-and-blood human being and says: <em>Here. This is what it looks like.</em>',

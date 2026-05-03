@@ -24,6 +24,7 @@ export const NUMBERS_25: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 25,
 
+  estimatedMinutes: { 5: 6, 10: 9, 15: 13 },
   intros: [
     'Numbers 25 is a hard chapter. Israel has been wandering for forty years, and now, just as they stand on the edge of Canaan, they fall into sexual immorality and idol worship with Moabite and Midianite women. A plague comes. And Phinehas, Aaron\'s grandson, takes a spear into the camp and kills an Israelite man and a Midianite woman in the act—stopping the plague and securing a covenant of eternal priesthood for his descendants.',
     'The narrator clearly endorses what Phinehas did. But if this is endorsement, how do we live with it? The answer lies in recognizing what Phinehas\'s zeal prefigures: a priesthood that will come after him, one that will not kill another person but will die itself, offering a sacrifice so complete that no other zeal will ever be needed again. That priest is Jesus. In Him, the literal violence of the old priesthood becomes the symbolic and substitutionary blood of the new one.',

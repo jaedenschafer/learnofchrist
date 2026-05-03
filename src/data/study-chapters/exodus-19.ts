@@ -17,6 +17,7 @@ export const EXODUS_19: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 19,
 
+  estimatedMinutes: { 5: 9, 10: 14, 15: 19 },
   intros: [
     'Exodus opens with Israel in chains, crying out. The next chapters show God moving heaven and earth to answer — plagues, the death of the firstborn, the Red Sea swallowed behind them. Now, three months into the desert, they arrive at Sinai. Exhausted. Thirsty. Bewildered. And it is here, at the mountain, that God stops walking behind them and steps forward. He does not say, "You are mine." He says, "If you will obey my voice, you will become something new."',
     'The offer is breathtaking: a kingdom of priests. Not a king with priests under him, but a whole nation lifted into priesthood — every Israelite a mediator between the holy and the profane, accountable to God and responsible for the people. No one expected this. The ancient world had no language for it. By the end of the chapter, the mountain will shake so hard that Moses himself is terrified. But the terror is not of a tyrant. It is of encountering the living God, who speaks not in whispers but in thunder, and calls His people to something they cannot achieve alone.',

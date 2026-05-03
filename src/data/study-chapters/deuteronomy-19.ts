@@ -19,6 +19,7 @@ export const DEUTERONOMY_19: RichChapterContent = {
   bookName: 'Deuteronomy',
   chapter: 19,
 
+  estimatedMinutes: { 5: 8, 10: 15, 15: 19 },
   intros: [
     'Deuteronomy 19 begins with the command to set apart three cities of refuge—places for the person who kills another by accident to flee, where the avenger of blood cannot touch him until he stands before the congregation in judgment. The text is precise: not every killing is murder. The manslayer who strikes without enmity, without lying in wait, whose weapon flies from his hand and strikes down a neighbor—he has a refuge. But the one who strikes with hatred, who lies in wait, who chooses his moment and his weapon—that one has no refuge. Death is his.',
     'The chapter then turns to false witness, to landmarks, and to the principle of eye for eye, tooth for tooth. These laws are not about vindictiveness. They are about protecting the innocent and making sure that justice does not become a tool for revenge. Every law reflects the same theology: you shall not shed innocent blood in the land the Lord gives you, or the land will be defiled and you will be defiled with it.',

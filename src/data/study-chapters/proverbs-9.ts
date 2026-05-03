@@ -14,6 +14,7 @@ export const PROVERBS_9: RichChapterContent = {
   bookName: 'Proverbs',
   chapter: 9,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
   intros: [
     'The ninth chapter of Proverbs presents a vision of two houses, two banquets, two calls. Wisdom has built her house with seven pillars—a sign of completeness and strength. She has prepared her wine, she has set her table, and she calls: "Come, eat of my bread, and drink of the wine which I have mingled." It is an invitation not to asceticism but to feasting, to joy, to the abundance of life well-lived.',
     'But Folly also sits at her door, and she too calls. And the invitation she makes is also attractive, especially to those who lack understanding. She speaks of stolen waters and bread eaten in secret. The chapter asks: Whose call will you answer? Which table will you approach? The choice shapes your destiny.',

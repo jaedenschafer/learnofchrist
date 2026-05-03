@@ -20,6 +20,7 @@ export const SECOND_ESDRAS_5: RichChapterContent = {
   bookName: '2 Esdras',
   chapter: 5,
 
+  estimatedMinutes: { 5: 7, 10: 14, 15: 19 },
   intros: [
     '2 Esdras 5 is one of the most famous "signs of the end" passages in all of apocalyptic literature. The angel Uriel catalogs the moral and cosmic upheaval that will mark the final age: faithlessness, hidden righteousness, cosmic disruption, the breakdown of nature itself, and the collapse of human bonds. Yet beneath the litany of collapse runs an assurance—these signs are not meaningless chaos, but the very labor pains of a new creation. When the world appears to be falling apart, that is often when God&apos;s deliverance is closest at hand.',
     'The passage deeply influenced the apocalyptic vision of the New Testament, shaping how Jesus Himself describes the end in Matthew 24 and Luke 21. But where Matthew speaks of wars and earthquakes, 2 Esdras adds a dimension that feels more modern—the disintegration of human trust, the breaking of kinship bonds, friends turning into enemies, women bearing not only children but monsters. It is a vision of a world where not only nature but the human heart becomes unreliable. Yet it is also a vision ultimately saturated with hope: after these signs, salvation shall arise.',

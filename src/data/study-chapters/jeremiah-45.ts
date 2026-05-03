@@ -15,6 +15,7 @@ export const JEREMIAH_45: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 45,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Jeremiah 45 is one of the shortest chapters in the book, but perhaps one of the most tender. It concerns Baruch, Jeremiah&apos;s faithful scribe. For decades, Baruch has stood beside the prophet. He has transcribed the words of the Lord into a scroll. He has read those words to the people. He has been present through mockery, imprisonment, and the fall of Jerusalem. And now, as the world crumbles around him and exile looms, Baruch is exhausted. He laments: "Woe is me now! for the Lord hath added grief to my sorrow; I fainted in my sighing, and I find no rest."',
     'In response, God gives Baruch a word that cuts to the heart of his pain. It is not a word of comfort in the sense of false assurance. It is a word of diagnosis. Baruch has been seeking great things for himself. He has been looking for honor, safety, rest—a life free from grief and sorrow. And God&apos;s word is simple: "Seekest thou great things for thyself? Seek them not." This is not cruelty. This is the deepest mercy—to show us what we are really seeking, and to offer us something far better.',

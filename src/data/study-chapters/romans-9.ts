@@ -17,6 +17,7 @@ export const ROMANS_9: RichChapterContent = {
   bookName: 'Romans',
   chapter: 9,
 
+  estimatedMinutes: { 5: 8, 10: 18, 15: 22 },
   intros: [
     'Romans 9 opens with Paul&apos;s tears. After eight chapters of theological triumph—justification by faith, freedom in Christ, life through the Spirit—Paul suddenly turns and says he would gladly be accursed if it meant Israel&apos;s salvation. The great promises God made to Abraham, Isaac, and Jacob seem to have been rejected. How can Paul hold both truths: God&apos;s righteousness and Israel&apos;s rejection? God&apos;s faithfulness and His apparent abandonment of His people?',
     'This chapter is the most theologically dense passage on election in Scripture. God chose Jacob over Esau before either was born. God hardened Pharaoh&apos;s heart. God shapes vessels for honor and dishonor. Yet at the same time, Paul insists: God&apos;s word has not failed. A remnant is being saved. Jesus Himself is the stumblingstone over which Israel has stumbled—and the cornerstone upon which Gentiles are being built up. Paul does not resolve these paradoxes. He trusts them both to be true.',

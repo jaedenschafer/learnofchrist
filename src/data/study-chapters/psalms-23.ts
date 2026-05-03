@@ -16,6 +16,7 @@ export const PSALMS_23: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 23,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
   intros: [
     'Psalm 23 is perhaps the most beloved psalm in all of Scripture. Its six verses contain a theology of comfort that has sustained believers through every kind of darkness. The psalmist begins in absolute trust: "I shall not want." Not might not want, not usually want—shall not want. This is the confidence of one who knows that his shepherd is faithful. And as the psalm unfolds, it moves through every human circumstance: sustenance, rest, guidance, and the final fear—the shadow of death itself. Yet even in that final valley, the shepherd is present.',
   ],

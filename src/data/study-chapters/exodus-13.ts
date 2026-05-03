@@ -5,6 +5,7 @@ export const EXODUS_13: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 13,
 
+  estimatedMinutes: { 5: 8, 10: 11, 15: 14 },
   intros: [
     'Exodus 13 is about belonging. Every firstborn — of humans, of animals — belongs to God. It is the rule written into the Exodus itself: God claims the firstborn because He redeemed the firstborn. The people of Israel walk out of Egypt, and God makes a covenant written in flesh: every son who comes into a family now belongs to the Lord first. Redemption is costly, and it marks everything it touches.',
     'The chapter also marks the path God takes His people by. He does not take the road to Philistia — the short route, the safe route, the sensible route. Instead He leads them into the wilderness. Sometimes the detour is the faithfulness. God walks ahead in a pillar of cloud by day and a pillar of fire by night — His visible presence, His company, His proof that He has not abandoned them. Joseph&apos;s bones are carried with them, a reminder that God keeps His promises even when bodies have to wait in tombs.',

@@ -17,6 +17,7 @@ export const SAMUEL_1_26: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 26,
 
+  estimatedMinutes: { 5: 9, 10: 16, 15: 18 },
   intros: [
     'Once before, David had Saul in his power. Saul was sleeping, unarmed, at David&apos;s mercy. And David refused to raise his hand. He said then: "The Lord forbid that I should stretch forth mine hand against the Lord&apos;s anointed." Now, for the second time, the same scene repeats. The Ziphites have betrayed David&apos;s hiding place. Saul has come with 3,000 men. David and Abishai slip into the camp at night. Saul lies sleeping. The spear is within reach.',
     'This time, the test will be sharper. Abishai stands at David&apos;s side, eager to kill, saying: "God hath delivered thine enemy into thine hand this day." The offer is direct. The opportunity is real. What David does now will define not who he is in a moment of virtue, but who he is—his actual character. And the chapter will show us that restraint is not weakness. It is the mark of a man who believes in vindication by God alone.',

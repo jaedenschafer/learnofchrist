@@ -1,0 +1,91 @@
+/* Depth-tier segmented control.
+ * Sits at the top of the chapter, just under the audio actions row. The
+ * styling intentionally echoes the existing tools (font / theme / focus) so
+ * it feels like part of the same toolkit, not a bolted-on panel. */
+
+.depth-tier-control {
+  display: inline-flex;
+  align-items: stretch;
+  gap: 0;
+  margin: 0.5rem 0 1.25rem 0;
+  padding: 0.25rem;
+  background: var(--surface-2, #f3ede4);
+  border: 1px solid var(--border-soft, #e5dccd);
+  border-radius: 9999px;
+  font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
+}
+
+[data-reader-theme='dark'] .depth-tier-control {
+  background: var(--surface-2, #2a2520);
+  border-color: var(--border-soft, #3a342d);
+}
+
+.depth-pill {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 5.5rem;
+  padding: 0.45rem 1rem;
+  border: none;
+  background: transparent;
+  color: var(--text-soft, #6b6056);
+  font: inherit;
+  font-size: 0.85rem;
+  line-height: 1.15;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: background-color 140ms ease, color 140ms ease, transform 80ms ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.depth-pill:hover:not(.active) {
+  color: var(--text, #2a241e);
+}
+
+.depth-pill:active {
+  transform: scale(0.97);
+}
+
+.depth-pill.active {
+  background: var(--accent, #8a5a2b);
+  color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+[data-reader-theme='dark'] .depth-pill.active {
+  background: var(--accent, #c89863);
+  color: #1a1612;
+}
+
+.depth-pill-label {
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.depth-pill-time {
+  margin-top: 0.1rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  opacity: 0.85;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Print: always render Deep tier (force every block visible) and hide the
+ * control itself. The data-depth-tier root attribute is overridden via
+ * inline render order — see filterContentByTier in types.ts and the print
+ * stylesheet rule that overrides the renderer call site. */
+@media print {
+  .depth-tier-control {
+    display: none !important;
+  }
+}
+
+/* Tighten up on narrow phones — keep the pills readable but trim padding. */
+@media (max-width: 380px) {
+  .depth-pill {
+    min-width: 4.5rem;
+    padding: 0.4rem 0.7rem;
+    font-size: 0.78rem;
+  }
+}

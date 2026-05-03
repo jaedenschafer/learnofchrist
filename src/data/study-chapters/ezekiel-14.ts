@@ -14,6 +14,7 @@ export const EZEKIEL_14: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 14,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'The elders of Israel come to Ezekiel asking for a word from the Lord. They want guidance. They want to know what the future holds. They come seeking God through His prophet. But God sees what they do not reveal: their hearts are filled with idols. They come to consult God while still holding to false gods. And God, speaking through Ezekiel, makes clear what must be understood: there is no intercessor powerful enough to save those who refuse to turn from their idols. Not Noah. Not Daniel. Not Job. Even the greatest righteous men can only save themselves through their own faithfulness. No one can carry another into salvation. Each person stands alone before God.',
   ],

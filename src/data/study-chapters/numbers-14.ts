@@ -27,6 +27,7 @@ export const NUMBERS_14: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 14,
 
+  estimatedMinutes: { 5: 9, 10: 15, 15: 18 },
   intros: [
     'Israel has heard the report. Ten men say the land is impossible. Only Caleb and Joshua say it is possible. Now the people move. Not forward — backward. All night they weep and cry out against Moses and Aaron: "Would God we had died in this wilderness! Why hath the Lord brought us unto this land, to fall by the sword? Our wives and our little ones will become a prey." They want to stone Joshua and Caleb. They want to choose a new captain to lead them back to Egypt.',
     'This is Israel&apos;s moment of breaking. Fear has crossed over into rebellion. They have moved from disbelief to active rejection of God&apos;s word. Joshua and Caleb tear their clothes — the sign of grief and intercession — and try to turn the people back. But the glory of the Lord appears and stops the proceedings. God speaks to Moses with a sentence that will echo through the rest of the book: He will strike the people with pestilence. But He will not wipe them out entirely. Instead, the adults will wander forty years in the wilderness until they die — one year in the wilderness for each day the spies spent in the land. No one over twenty will enter Canaan except Joshua, Caleb, and the children. The ten unfaithful spies die by plague immediately.',

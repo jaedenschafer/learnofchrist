@@ -14,6 +14,7 @@ export const EZEKIEL_40: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 40,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'In the twenty-fifth year of exile, in visions as clear as the day he was taken captive, Ezekiel is transported back to the land of Israel. He is placed high on a mountain, and before him is a vision of a city. A man with a measuring rod stands beside him. This man—some have understood him to be an angel, others to be a representative of God Himself—will show Ezekiel every detail of a new temple. Every measurement is precise. Every dimension is given.',
     'To modern readers, the descriptions can seem tedious. Why such attention to detail? Why measure every cubit? Because the temple is not merely a building. It is the throne room of God, the place where heaven and earth meet. And its restoration, its renewal, its perfection, is the sign that God is coming home to His people. After exile, after judgment, after cleansing—God returns.',

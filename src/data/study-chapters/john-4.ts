@@ -16,6 +16,7 @@ export const JOHN_4: RichChapterContent = {
   bookName: 'John',
   chapter: 4,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
   intros: [
     'Jesus leaves Judea and travels through Samaria. In the heat of midday, exhausted from the journey, He sits at Jacob&apos;s well. A Samaritan woman comes to draw water. In that moment, cultural boundaries collide: Jews and Samaritans, man and woman, public and private. Yet Jesus initiates conversation. "Give me to drink." She is astonished. "How is it that thou, being a Jew, askest drink of me, which am a Samaritan woman?" The request breaks every protocol.',
     'Jesus begins to speak of water—not the ordinary water in the well, but living water, water that wells up to eternal life. The woman is intrigued but remains literal. She does not understand spiritual language. Yet Jesus persists. He reveals His knowledge of her life: five husbands, and now living with a man not her husband. The revelation, rather than driving her away, opens her. "Sir, I perceive that thou art a prophet." She asks about worship, about truth. And Jesus reveals Himself to her as the Messiah—the first such explicit declaration in John&apos;s gospel.',

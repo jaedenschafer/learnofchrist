@@ -5,6 +5,7 @@ export const KINGS_1_14: RichChapterContent = {
   bookName: '1 Kings',
   chapter: 14,
 
+  estimatedMinutes: { 5: 2, 10: 3, 15: 5 },
   intros: [
     "Jeroboam&apos;s son Abijah falls sick. The king sends his disguised wife to the blind prophet Ahijah — the same prophet who once tore his garment to give Jeroboam ten tribes. Now Ahijah, blind in eye but sharp in spirit, knows her by sound: &quot;Why feignest thou thyself to be another? for I am sent to thee with heavy tidings.&quot;",
     "The chapter then turns south to Judah, where Rehoboam&apos;s reign has decayed into syncretism. Pharaoh&apos;s grandson Shishak invades, takes the temple gold, and Rehoboam replaces it with brass. The decline of an entire era can be measured in the metal of the shields that hang in the king&apos;s house.",

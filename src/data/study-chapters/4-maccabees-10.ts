@@ -4,6 +4,7 @@ export const FOURTH_MACCABEES_10: RichChapterContent = {
   bookSlug: '4-maccabees',
   bookName: '4 Maccabees',
   chapter: 10,
+  estimatedMinutes: { 5: 3, 10: 5, 15: 8 },
   intros: [
     'The second and third brothers are brought before the king. They watch what happened to the first. And they choose the same path—not because they are trapped, but because something in them is stronger than the rope and the fire.',
     'Their bodies are torn limb from limb. Their scalps are ripped away. Their hands are cut off. And all the while, they speak boldly to the king: "You will not destroy our line of descent from Abraham. We will rise again."',

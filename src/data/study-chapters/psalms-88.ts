@@ -16,6 +16,7 @@ export const PSALMS_88: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 88,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
   intros: [
     'Psalm 88 is attributed to the sons of Korah, and it is unique among all the psalms: it is the only one that begins in trouble and ends in trouble, with no resolution, no moment of deliverance, no triumphant return to hope. This is a psalm for those who know despair not as a passing cloud but as a state of being. It is honest. It does not pretend. And in its honesty, it speaks to anyone who has felt abandoned by God.',
   ],

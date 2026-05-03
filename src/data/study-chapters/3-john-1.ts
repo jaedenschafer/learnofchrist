@@ -17,6 +17,7 @@ export const THIRD_JOHN_1: RichChapterContent = {
   bookName: '3 John',
   chapter: 1,
 
+  estimatedMinutes: { 5: 6, 10: 10, 15: 13 },
   intros: [
     '3 John is the most personal letter in the New Testament—a warm, direct note from an aging apostle to a young believer he loves. John writes to Gaius, a man known for faithfulness to truth and generosity to the brothers. But a problem has taken root: Diotrephes, a leader consumed by his own importance, refuses to welcome John&apos;s representatives and even casts out those who show them hospitality.',
     'The letter opens with affirmation, turns to admonition, and closes with commendation. In fourteen verses, John sketches three kinds of people: Gaius the faithful, Diotrephes the prideful, and Demetrius the well-spoken-of. It is a snapshot of every church—some humble and open, some ambitious and closed. John&apos;s call is clear: imitate good, not evil. He that doeth good is of God.',

@@ -13,6 +13,7 @@ export const PROVERBS_30: RichChapterContent = {
   bookName: 'Proverbs',
   chapter: 30,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
   intros: [
     'Proverbs 30 shifts voice. Now we hear from Agur, who opens by confessing his ignorance: "I am more brutish than any man, and have not the understanding of a man. I neither learned wisdom, nor have the knowledge of the holy ones." Yet from this very humility comes a clear request: Remove vanity and lies from me. Give me neither poverty nor riches, but my necessary food. This is the prayer of one who has learned to ask wisely because he has learned how little he knows.',
   ],

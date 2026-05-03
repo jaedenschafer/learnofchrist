@@ -17,6 +17,7 @@ export const SAMUEL_1_18: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 18,
 
+  estimatedMinutes: { 5: 5, 10: 11, 15: 15 },
   intros: [
     'David has just defeated the Philistine Goliath with a sling and a stone. He walks out of that valley a hero, and walks into the house of the king a man marked by the presence of God. In a single chapter, David will be bound by covenant to the king\'s son, exalted above all the king\'s servants, and hunted by the king himself. This is the chapter where Saul\'s envy begins to kill him.',
     'Jonathan and David\'s covenant has echoed through Scripture and through history as the portrait of sacrificial friendship — the kind of love that strips itself bare and gives. But that same chapter shows us Saul\'s slow descent into the kind of fear that breeds jealousy, and jealousy that breeds rage. Saul sees that the Lord is with David, and it terrifies him. Instead of seeking the Lord\'s face, Saul tries to kill the evidence of God\'s favor. The contrast is stark: Jonathan gives; Saul takes. Jonathan dies beside his father at the end of the book. David will live to become king.',

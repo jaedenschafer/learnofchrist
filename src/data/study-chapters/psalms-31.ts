@@ -15,6 +15,7 @@ export const PSALMS_31: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 31,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
   intros: [
     'Psalm 31 opens with an act of complete trust: "In thee, O Lord, do I put my trust; let me never be ashamed." Yet the psalm does not describe ease. Instead, it catalogs difficulty: mocking, affliction, sorrow, despair. Yet throughout, the psalmist returns to the fundamental truth: "Thou hast known my soul in adversities." God is not distant from our suffering. He sees. He knows. He remembers. And He will not abandon those who call upon Him.',
   ],

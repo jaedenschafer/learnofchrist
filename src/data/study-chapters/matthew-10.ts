@@ -18,6 +18,7 @@ export const MATTHEW_10: RichChapterContent = {
   bookName: 'Matthew',
   chapter: 10,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
   intros: [
     'Jesus calls the twelve apostles and sends them on a mission. He gives them power to cast out unclean spirits and to heal every sickness and disease. He sends them to the lost sheep of Israel—those who are without a shepherd, scattered and broken. He tells them to go without supplies: "Provide neither gold, nor silver, nor brass in your purses." Trust in the Father to provide. The mission is urgent and total.',
     'But Jesus also prepares them for opposition. "Behold, I send you forth as sheep in the midst of wolves." They will be brought before governors and kings. Families will be divided. Some will hate them. Yet Jesus calls them to faithfulness: "Be ye therefore wise as serpents, and harmless as doves." Watchfulness and innocence, intelligence and purity. The disciples are sent as lambs among wolves, yet they are not to become wolves themselves.',

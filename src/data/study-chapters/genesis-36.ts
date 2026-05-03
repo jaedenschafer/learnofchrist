@@ -20,6 +20,7 @@ export const GENESIS_36: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 36,
 
+  estimatedMinutes: { 5: 6, 10: 8, 15: 11 },
   intros: [
     'Genesis 36 is a genealogy — a detailed list of Esau&apos;s descendants, organized by wives, sons, dukes, and kings. Genealogies can feel like inventory. But this one tells a quiet story: Esau, rejected from the line of promise, nevertheless prospers. He builds a nation. He settles a land. Kings rise from his line before any king rules Israel.',
     'The chapter is saying: rejection from God&apos;s covenant line is not poverty. Edom becomes real, rooted, fruitful. And yet the text frames these names with a careful thoroughness — listing them all, remembering them all — as if no name, however far from the promise, is invisible to God. That attention foreshadows the Christ who came to know every person&apos;s face, every person&apos;s need.',

@@ -20,6 +20,7 @@ export const KINGS_1_11: RichChapterContent = {
   bookName: '1 Kings',
   chapter: 11,
 
+  estimatedMinutes: { 5: 7, 10: 13, 15: 18 },
   intros: [
     'Solomon reached the height of his wisdom and power in the earlier chapters of 1 Kings. He prayed for understanding, received it in abundance, and built the temple that would stand as the symbol of God&apos;s presence with Israel. The kingdom was secure. The wealth poured in. And the king was revered throughout the world.',
     'But 1 Kings 11 is the fall. It opens not with triumph but with apostasy — the slow erosion of a king&apos;s heart as he makes a series of choices that contradict everything God had promised and commanded. Solomon marries women from the nations God explicitly forbade. He multiplies wives and concubines against the law given in Deuteronomy. He builds shrines to foreign gods, including Molech, the god of child sacrifice. And as his heart turns from wholehearted devotion to fragmented compromise, God acts with both judgment and mercy: the kingdom is torn, but not destroyed. The Davidic line is preserved. And in that preservation, we see the God who judges to heal, who wounds to restore — and who will send a true Solomon, a king whose heart can never be turned from the Father.',

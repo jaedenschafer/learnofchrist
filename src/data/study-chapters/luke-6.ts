@@ -18,6 +18,7 @@ export const LUKE_6: RichChapterContent = {
   bookName: 'Luke',
   chapter: 6,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
   intros: [
     'On the Sabbath, Jesus and His disciples walk through the grain fields. The disciples pluck heads of grain and eat. The Pharisees challenge them: "Why do ye that which is not lawful to do on the sabbath day?" Jesus answers: "The Son of man is Lord also of the sabbath." On another Sabbath, Jesus enters the synagogue and sees a man with a withered hand. The scribes and Pharisees watch to see if Jesus will heal on the Sabbath, looking for a reason to accuse Him. Jesus heals the man. The watchers are filled with madness.',
     'Jesus goes into a mountain to pray. All night He prays to God. When day comes, He calls His disciples and chooses twelve of them, whom He names apostles. Peter, Andrew, James, John, Philip, Bartholomew, Matthew, Thomas, James the son of Alphaeus, Simon called Zealotes, Judas the brother of James, and Judas Iscariot. He brings them down and stands on a level place. And He opens His mouth and teaches them.',

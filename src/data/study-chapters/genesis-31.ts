@@ -17,6 +17,7 @@ export const GENESIS_31: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 31,
 
+  estimatedMinutes: { 5: 12, 10: 18, 15: 22 },
   intros: [
     'Genesis 31 is a chapter about departure—about the moment when a man must leave behind the place where he built everything and return to the land God promised him. Jacob has served Laban faithfully for twenty years, but the relationship has soured. Laban keeps changing Jacob&apos;s wages. The sons of Laban, once friendly, now whisper that Jacob has stolen from their father. Jacob is caught between loyalty to the man who took him in and obedience to the God who has been with him.',
     'God breaks the silence. He tells Jacob to go home. And Jacob does something striking: he does not announce his departure. He gathers his wives and children, rounds up his flocks, and leaves in secret. Rachel, Laban&apos;s daughter and Jacob&apos;s beloved, steals her father&apos;s household idols on the way out—an act the text leaves unresolved, with echoes of judgment hanging over it. When Laban chases them down and searches for the gods, he finds nothing. The two men who once were close enough to share a household are now strangers who must ask God to keep watch over a boundary between them.',

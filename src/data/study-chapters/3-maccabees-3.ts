@@ -15,6 +15,7 @@ export const THIRD_MACCABEES_3: RichChapterContent = {
   bookName: '3 Maccabees',
   chapter: 3,
 
+  estimatedMinutes: { 5: 6, 10: 10, 15: 13 },
   intros: [
     'Ptolemy, now back in power but without God&apos;s blessing, turns his malice toward the Jewish people of Egypt. Suspicious of their loyalties and threatened by their distinct customs, he issues a wrathful decree: every Jew in his kingdom must be registered and enslaved — and ultimately eliminated.',
     'The decree is proclaimed throughout every district. Registration becomes the machinery of control; chains bind the innocent; false accusations precede execution. Yet even in darkness, the Jews cry out, and God watches.',

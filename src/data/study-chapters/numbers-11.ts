@@ -11,6 +11,7 @@ export const NUMBERS_11: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 11,
 
+  estimatedMinutes: { 5: 9, 10: 16, 15: 20 },
   intros: [
     'Numbers 11 shows Israel in the wilderness at a breaking point. The journey from Egypt to Canaan, which should have taken two weeks, has already stretched into months. The people are tired, hungry, and restless. What begins as a quiet complaint at the edge of camp ignites into mutiny.',
     'The chapter layers several crises. First, fire consumes the edges of the camp. Then the mixed multitude—those who came out of Egypt but weren&apos;t born into Israel&apos;s covenant—begin to crave the foods of Egypt: fish, cucumbers, melons, leeks, onions, garlic. They weep. They remember comfort; they forget slavery. Moses, overwhelmed, cries out to God: "I am not able to bear all this people alone, because it is too heavy for me." God&apos;s answer fractures the entire leadership structure. He takes the Spirit resting on Moses and distributes it among seventy elders. Two men, Eldad and Medad, begin prophesying in the camp without being summoned. Joshua objects; Moses, in a moment of clarity, wishes that all the Lord&apos;s people were prophets. The chapter ends in quail—so much of it that the people gather for two days and spread it out to dry. But before they can eat their fill, a plague strikes them at Kibroth-hattaavah: "graves of craving." Their desire has become their grave.',

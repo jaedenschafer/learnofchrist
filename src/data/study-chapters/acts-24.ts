@@ -17,6 +17,7 @@ export const ACTS_24: RichChapterContent = {
   bookName: 'Acts',
   chapter: 24,
 
+  estimatedMinutes: { 5: 7, 10: 13, 15: 17 },
   intros: [
     'A polished orator named Tertullus stands before the Roman governor Felix and accuses Paul of being a pestilent agitator, a ringleader of the heretical sect of the Nazarenes. The charge is professional, eloquent, dangerous. Paul is not famous. Paul has no political power. He is simply a man who has encountered the risen Christ and cannot stop talking about it. Yet in this chapter, the irony becomes unmistakable: the man who stands in chains is the truly free one. The man who sits in the governor&apos;s seat, Felix, with all his authority and wealth, is the imprisoned one — caught between conscience and cowardice.',
     'When Paul defends himself, he does not deny the charges. He denies the frame. He serves the God of his fathers "after the way which they call heresy," he says — naming himself with the very word his enemies use against him. He has committed no crime, broken no law. But then Felix does something unexpected. He calls Paul back. With his wife Drusilla present, Felix wants to hear more about faith in Christ. As Paul speaks of righteousness and temperance and the judgment to come, Felix trembles. The governor who can condemn men trembles at words about a future he cannot control. And that is the pivot of the chapter: the moment when the person on trial becomes the judge, and the person on the bench becomes the defendant.',

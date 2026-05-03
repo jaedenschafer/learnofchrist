@@ -14,6 +14,7 @@ export const PSALMS_76: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 76,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Psalm 76 opens with the declaration that God is known in Judah. He is great in Israel. His name is not obscure or forgotten. It is proclaimed precisely through His mighty acts—acts of deliverance, acts of judgment, acts that demonstrate His power.',
     'The psalm moves to the reaction such power provokes: fear. But this is not the fear of despair. It is the fear of awe, of reverence, of standing before a power greater than oneself and bowing in submission. The fear of God is the beginning of wisdom. It is the proper human response to the knowledge of God&apos;s sovereignty and might.',

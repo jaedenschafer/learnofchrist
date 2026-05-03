@@ -14,6 +14,7 @@ export const GENESIS_37: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 37,
 
+  estimatedMinutes: { 5: 9, 10: 16, 15: 20 },
   intros: [
     'Genesis 37 opens a new arc — the story of Joseph, the favorite son of Jacob, and the fourteen-chapter journey that will reshape Israel itself. It begins with a coat, two dreams, and a hatred so fierce that brothers become merchants of flesh. This is where the text shows you human evil without softening it: the cruelty of the rejected, the casual nature of slavery, the absolute lies told to a father about his son. But it is also where the Bible begins to hide its savior.',
     'At the heart of Genesis 37 sits a pattern you will see again and again in Scripture: the beloved son sent by his father to his brothers, who reject him and seek his life. The echoes are impossible to miss once you hear them. And the silver — the twenty pieces paid for Joseph — will haunt a different story fifteen hundred years forward, when another beloved Son is betrayed for money. Genesis 37 is not just Joseph\'s beginning. It is a shadow cast forward across all of Christian history.',

@@ -18,6 +18,7 @@ export const MATTHEW_2: RichChapterContent = {
   bookName: 'Matthew',
   chapter: 2,
 
+  estimatedMinutes: { 5: 3, 10: 6, 15: 9 },
   intros: [
     'Jesus is born in Bethlehem of Judea during the reign of King Herod. From the East come wise men, astrologers or seekers of truth, who have seen a star—perhaps a conjunction of planets, perhaps something stranger—and have followed it believing it announces a great king. They ask openly: "Where is he that is born King of the Jews?" The question ignites fear in Jerusalem. Herod, the aging puppet-king of Rome, feels his throne threatened. An infant child becomes a rival, a danger.',
     'The wise men represent the beginning of what Matthew will show throughout his gospel: that Jesus attracts devotion from the most unlikely sources. They come bearing gifts—gold, frankincense, and myrrh—gifts fit for a king. Yet they find Him not in a palace but in a house, resting with His mother. They kneel and worship. And then, warned in dreams that Herod seeks the child&apos;s life, they depart to their own country.',

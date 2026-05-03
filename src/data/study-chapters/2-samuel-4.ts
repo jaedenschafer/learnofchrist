@@ -16,6 +16,7 @@ export const SAMUEL_2_4: RichChapterContent = {
   bookName: '2 Samuel',
   chapter: 4,
 
+  estimatedMinutes: { 5: 3, 10: 8, 15: 10 },
   intros: [
     'Abner is dead. The Northern Kingdom&apos;s strongest general, the man who held Saul&apos;s house together, has fallen — not in battle, but in Hebron, at David&apos;s door, murdered by Joab. Now Ish-bosheth, the weak remaining son of Saul, hears the news. His hands grow feeble. All Israel is troubled. The last pillar of Saul&apos;s house trembles. Two men see opportunity in that weakness.',
     'But what happens next teaches us something profound about the kind of king David is — and the kind of King we are promised in Christ. When murderers bring David the head of his rival, expecting reward, David executes them. He will not profit from the death of his enemies. He will not take the throne as a throne stained with the blood of others. His justice is pure because his gain is not at stake. And in the background, a crippled boy is introduced — Mephibosheth, the son of Jonathan — lame since his nurse fled Saul&apos;s death. David will not remember him here. But we will see in chapter 9 how a king who refuses to profit from death learns to honor the sons of those he replaced.',

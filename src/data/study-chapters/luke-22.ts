@@ -17,6 +17,7 @@ export const LUKE_22: RichChapterContent = {
   bookName: 'Luke',
   chapter: 22,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
   intros: [
     'The feast of unleavened bread draws near. Jesus sends Peter and John to prepare the Passover. At evening, Jesus sits with the twelve. He says: "With desire I have desired to eat this passover with you before I suffer." He takes bread, blesses it, breaks it, and gives it to them: "This is my body which is given for you: this do in remembrance of me." Likewise the cup: "This cup is the new covenant in my blood." Yet one of the twelve will betray Him. The disciples begin to question who it is. Jesus says: "The Son of man goeth, as it was determined: but woe unto that man by whom he is betrayed!"',
     'Jesus goes to the Mount of Olives. He says to the disciples: "Pray that ye enter not into temptation." He withdraws and prays: "Father, if thou be willing, remove this cup from me: nevertheless not my will, but thine, be done." An angel from heaven appears, strengthening Him. His sweat becomes great drops of blood. He rises and finds the disciples sleeping from sorrow. Suddenly, a multitude comes with Judas. Judas betrays Jesus with a kiss. Peter draws his sword and cuts off the servant&apos;s ear. But Jesus says: "Suffer ye thus far," and heals the ear.',

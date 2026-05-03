@@ -15,6 +15,7 @@ export const MATTHEW_24: RichChapterContent = {
   bookName: 'Matthew',
   chapter: 24,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 6 },
   intros: [
     'Jesus leaves the temple and sits on the Mount of Olives. His disciples approach and ask Him privately: "Tell us, when shall these things be? and what shall be the sign of thy coming, and of the end of the world?" The question embraces both the immediate (the destruction of the temple) and the ultimate (the end of human history). Jesus responds with an extended discourse about the last days.',
     'The discourse is marked by exhortations to watchfulness. Wars, rumors of wars, earthquakes in various places—these are the beginning of sorrows. The gospel must be preached to all nations. Tribulation comes. Yet Jesus promises: "Heaven and earth shall pass away, but my words shall not pass away." The faithful are called to vigilance, readiness, and faithfulness, for the day of the Lord comes when no one expects it.',

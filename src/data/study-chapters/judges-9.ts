@@ -12,6 +12,7 @@ export const JUDGES_9: RichChapterContent = {
   bookName: 'Judges',
   chapter: 9,
 
+  estimatedMinutes: { 5: 9, 10: 15, 15: 18 },
   intros: [
     'Judges 9 tells the story of Abimelech, a man born in the shadow of his father Gideon&apos;s greatness — and consumed by the desire to seize power that was never meant to be his. Abimelech murders his 70 brothers in a single act of fratricide, crowns himself king with the help of bribed elders, and rules for three years. But his regime is rotten from its first day, and God&apos;s judgment comes quietly at first, then violently. A woman with a millstone piece and a moment of vanity at the end bring it all down.',
     'This chapter shows what happens when ambitious men exploit the moment, corrupt the people, and build on blood. It is also a study in how God keeps His word — through Jotham&apos;s curse, through "fire from Abimelech to Shechem and fire from Shechem back to Abimelech," through a woman, through an ordinary millstone. The Lord repays.',

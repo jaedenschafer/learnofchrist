@@ -15,6 +15,7 @@ export const PSALMS_120: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 120,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 3 },
   intros: [
     'Psalm 120 opens the Songs of Ascents—fifteen psalms (120–134) traditionally sung by pilgrims climbing toward the temple in Jerusalem. But this first song is not a song of joy or arrival. It is a lament of displacement, of living among those who pervert language, who use words to wound. "I am for peace: but when I speak, they are for war." The psalmist has offered words of peace, and they have been met with hostility. He dwells in Meshech and Kedar—distant, foreign lands, symbolic of exile from the place of God. Yet his distress becomes his prayer, and his prayer becomes his testimony that God hears.',
   ],

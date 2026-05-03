@@ -14,6 +14,7 @@ export const JEREMIAH_50: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 50,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
   intros: [
     'Babylon is the empire that has conquered Israel and taken the people into exile. Babylon is the superpower that seems invincible, eternal, written into the very structure of the world. Yet God speaks against Babylon with absolute certainty: it will fall. "Declare ye among the nations, and publish, and set up a standard; publish, and conceal not: say, Babylon is taken, Bel is confounded, Merodach is broken in pieces."',
     'The vision of Babylon&apos;s fall would have seemed impossible to the exiles. How could a superpower be defeated? How could the walls and armies and resources of Babylon be overcome? Yet God&apos;s word is clear. And even more importantly, God does not simply speak of Babylon&apos;s fall. He speaks of His people&apos;s restoration. "Israel is a scattered sheep; the lions have driven him away." But the Shepherd will seek out and gather His flock.',

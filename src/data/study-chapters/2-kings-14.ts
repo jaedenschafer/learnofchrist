@@ -25,6 +25,7 @@ export const KINGS_2_14: RichChapterContent = {
   bookName: '2 Kings',
   chapter: 14,
 
+  estimatedMinutes: { 5: 6, 10: 13, 15: 19 },
   intros: [
     'Two kingdoms dominate this chapter: Judah under Amaziah, and Israel under Jeroboam II. Amaziah begins with promise — he does right in the sight of the Lord. Yet one victory over Edom lifts his heart with pride, leading him to challenge a far stronger king. The parable Jehoash speaks — the thistle and the cedar — carries a wisdom Amaziah refuses to hear. His defeat is swift and humiliating.',
     'Yet the chapter does not end in darkness. Jeroboam II, though he does evil and departs not from the sins of his grandfather, reigns over a kingdom that experiences remarkable expansion. The Lord saw Israel&apos;s affliction and saved them. This is the Northern Kingdom&apos;s final flourishing before the prophets Amos and Hosea call them to repentance — and before Assyria carries them away. Here we see both a king humbled by pride, and a nation saved by the God whose mercy reaches even those who will not turn.',

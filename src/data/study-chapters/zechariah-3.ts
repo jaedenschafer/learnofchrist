@@ -8,6 +8,7 @@ export const ZECHARIAH_3: RichChapterContent = {
   bookName: 'Zechariah',
   chapter: 3,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'In the third vision, Joshua the high priest stands before the angel of the Lord, clothed in filthy garments. Satan stands to accuse him, but the Lord rebukes the accuser. The filthy garments are stripped away and clean garments are placed upon Joshua. And with this cleansing comes a stunning promise: "Behold, I will bring forth my servant the BRANCH." A messianic hope emerges from the vision of restoration.',
   ],

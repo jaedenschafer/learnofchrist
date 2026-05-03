@@ -15,6 +15,7 @@ export const PSALMS_127: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 127,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Psalm 127 is a humbling song that cuts against the grain of human effort and pride. It declares a truth that those who rely on their own strength find difficult to accept: without the Lord, all effort is ultimately vain. The builders labor. The watchmen keep vigil. The workers exhaust themselves. But if the Lord does not build, if He does not keep, if He does not establish—all labor comes to nothing. This is not an invitation to idleness. Rather, it is an invitation to recognize that human effort, however diligent, however brilliant, is fruitless without God&apos;s foundation and blessing. Children are a heritage of the Lord, not the achievement of human fertility. Fruitfulness flows from Him.',
   ],

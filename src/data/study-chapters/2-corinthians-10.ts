@@ -18,6 +18,7 @@ export const SECOND_CORINTHIANS_10: RichChapterContent = {
   bookName: '2 Corinthians',
   chapter: 10,
 
+  estimatedMinutes: { 5: 9, 10: 16, 15: 21 },
   intros: [
     'The Corinthians have been influenced by false apostles—charismatic speakers who boast of their credentials, their impressive presence, and their accomplishments. They have questioned Paul&apos;s authority, mocked his weak bodily presence, and derided his speech. Paul responds to this slander not with the world&apos;s weapons—bluster, self-promotion, intimidation—but by reclaiming what spiritual authority actually is.',
     'In this chapter, Paul defines the nature of spiritual warfare. The conflict is not physical but intellectual, philosophical, and spiritual. The weapons are not carnal but mighty through God: the truth of the gospel, the power of prayer, and the transforming clarity of Christ. Paul must demolish false imaginations—worldly philosophies and systems of thought that have fortified themselves against God—and bring every thought into captivity to Christ.',

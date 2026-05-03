@@ -15,6 +15,7 @@ export const ISAIAH_65: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 65,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
   intros: [
     'Isaiah 65 is the gospel arriving at the Gentiles and the promise of a new creation. God says: I have spread out my hands to a disobedient people. Yet at the same time, He declares: I am found of them that sought me not. The offer of salvation reaches to the nations that did not know God. And then the vision expands: God will create new heavens and a new earth. The old things will pass away. In the new creation, all suffering ceases. All injustice is remedied. All separation from God ends. This is the hope that sustains the faithful through all of Isaiah\'s dark chapters—the promise that all things will be made new.',
   ],

@@ -11,6 +11,7 @@ export const DEUTERONOMY_7: RichChapterContent = {
   bookName: 'Deuteronomy',
   chapter: 7,
 
+  estimatedMinutes: { 5: 9, 10: 16, 15: 21 },
   intros: [
     'As Israel stands at the Jordan, about to enter the land, Moses speaks a word of both commissioning and warning. God is about to drive out seven nations—Hittites, Girgashites, Amorites, Canaanites, Perizzites, Hivites, Jebusites—each greater and mightier than Israel. The Lord will deliver them into Israel&apos;s hands; the task will be ruthless, total destruction. And yet beneath this military command lies something more tender: a covenant rooted not in Israel&apos;s strength or number, but in God&apos;s free love, sworn to their fathers long ago.',
     'The chapter speaks to both the concrete history of the conquest and the perennial spiritual struggle: how to remain set apart for God in a world full of rival claims. Idols, covenants with the nations, intermarriage, and the seductive wealth of plundered gods all threaten to pull Israel away from the God who chose them. The answer Moses gives is not to accelerate the purification but to trust it—to understand that little by little, God is making them a holy people.',

@@ -17,6 +17,7 @@ export const PSALMS_3: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 3,
 
+  estimatedMinutes: { 5: 2, 10: 6, 15: 7 },
   intros: [
     'The heading of Psalm 3 places it in a specific moment of David&apos;s life: when he fled from Absalom. Absalom, David&apos;s own son, had risen in rebellion against him, winning the hearts of the men of Israel through flattery and cunning. David, the king—anointed by God, the psalmist, the warrior, the man after God&apos;s own heart—was forced to flee Jerusalem, to abandon his kingdom to his own child. The betrayal was intimate. The loss was total. And it is from this place of devastation that David cries out to God.',
     'But the cry is not one of despair. From the first verse, the psalm insists that there are many who say of David, "There is no help for him in God." They see his flight, his loss, his apparent abandonment by both his people and his God, and they conclude that he is finished, that God has turned away. And yet David, in the very midst of this, affirms the opposite. God is his shield. God is his glory. God is the one who lifts his head when it has been cast down. To be betrayed by those you love, to lose your kingdom, and yet to find your confidence not in armies but in the invisible God—this is the triumph of Psalm 3.',

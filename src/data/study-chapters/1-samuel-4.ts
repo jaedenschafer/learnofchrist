@@ -14,6 +14,7 @@ export const SAMUEL_1_4: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 4,
 
+  estimatedMinutes: { 5: 7, 10: 13, 15: 14 },
   intros: [
     'Israel and the Philistines meet for battle at Eben-ezer. Israel is defeated — 4,000 men slain. The elders of Israel, confounded by the loss, ask an ominous question: "Wherefore hath the Lord smitten us today?" Their answer is to fetch the ark of the covenant from Shiloh. Surely the ark, the symbol of God\'s presence, will turn the tide. But the text reveals a fatal confusion: they are treating a sacred object as if it were a talisman, a magical thing that can be carried into battle and guarantee victory. God is not owned. He cannot be used.',
     'The result is catastrophic. The Philistines, hearing the shout that erupts when the ark enters the camp, recognize immediately what has arrived. They are afraid — and they rise to meet the challenge. The second battle is far worse than the first. 30,000 Israelites fall. The ark is captured. The two sons of Eli, Hophni and Phinehas, are slain. When word reaches the aged Eli that his sons are dead and the ark is taken, he falls backward from his seat and dies, his neck broken.',

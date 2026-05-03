@@ -15,6 +15,7 @@ export const PSALMS_78: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 78,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
   intros: [
     'Psalm 78 is a long historical recitation, a retelling of Israel&apos;s story from Egypt to the monarchy. The pattern that emerges is almost monotonous in its repetition: God does wonders, Israel forgets, Israel sins, God sends judgment, Israel repents briefly, and then the cycle begins again. The psalm is not a celebration of Israel&apos;s faithfulness. It is an anatomy of Israel&apos;s forgetfulness. God acts in history, but His people keep losing sight of what He has done.',
     'Yet the psalm does not end in despair. It ends with the choice of David: "He chose David his servant, and took him from the sheepfolds." And David is described as one who would feed Israel "according to the integrity of his heart; and guide them by the skillfulness of his hands." The psalm moves from a history of repeated failure to the hope placed in a single faithful servant. And the New Testament sees in David a foreshadowing of Christ, the Messiah who would succeed where Israel had repeatedly failed.',

@@ -13,6 +13,7 @@ export const REVELATION_1: RichChapterContent = {
   bookName: 'Revelation',
   chapter: 1,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
   intros: [
     'The Revelation opens not with doctrine but with a vision. John, exiled on the island of Patmos for the sake of the word and the testimony of Jesus, receives a commission to record what he sees. The churches of Asia Minor face tribulation—internal compromise, external pressure, the weight of living as a faithful remnant in a pagan world. They need to see what John sees: that Christ is not absent. He is present, alive, exalted, and in control.',
     'In the throne room, Christ appears not gentle but glorious. His eyes are a flame of fire. His feet are burnished brass. His voice is like the roar of many waters. Yet His hand holds the seven churches. He walks among them. This is the Jesus who speaks to Peter of building His church. This is the Jesus who spoke in parables. But now revealed in power.',

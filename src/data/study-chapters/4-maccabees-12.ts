@@ -5,6 +5,7 @@ export const FOURTH_MACCABEES_12: RichChapterContent = {
   bookName: '4 Maccabees',
   chapter: 12,
 
+  estimatedMinutes: { 5: 3, 10: 5, 15: 8 },
   intros: [
     'By chapter 12, Antiochus is desperate. Five brothers have already died, each one unmoved by torture, each one witnessing to their God. The youngest brother alone remains alive.',
     'In a final gambit, the king offers the youngest—the smallest, the gentlest, still a child—wealth, power, friendship, and rule. Everything the tyrant believes matters. Everything the martyrs have already rejected.',

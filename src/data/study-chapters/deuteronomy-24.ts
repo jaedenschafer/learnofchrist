@@ -11,6 +11,7 @@ export const DEUTERONOMY_24: RichChapterContent = {
   bookName: 'Deuteronomy',
   chapter: 24,
 
+  estimatedMinutes: { 5: 8, 10: 12, 15: 16 },
   intros: [
     'Deuteronomy 24 is a patchwork of case laws, yet each one tells the same story: God is protecting the fragile. A man can divorce his wife, and Moses permitted it — but Jesus will later say it was only because of the hardness of human hearts. Kidnapping is condemned in the strongest terms. A creditor cannot take the tools of a poor man&apos;s survival. A hired servant must be paid before sundown. The stranger, the fatherless, the widow — they appear over and over. The reason appears at the end: "Remember that thou wast a bondman in the land of Egypt." Israel&apos;s law is not an arithmetic of rights; it is the crystallized memory of suffering, turned into mercy.',
     'For a chapter this scattered, there is an unexpected coherence. Every case law is about the abuse of power — who holds it, how it can crush the vulnerable, how God restrains it. And that restraint is not abstract justice; it is shaped by the experience of being helpless. A people who once had nothing now must arrange their whole life so that no one among them is left alone with nothing.',

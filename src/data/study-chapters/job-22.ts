@@ -18,6 +18,7 @@ export const JOB_22: RichChapterContent = {
   bookName: 'Job',
   chapter: 22,
 
+  estimatedMinutes: { 5: 3, 10: 6, 15: 8 },
   intros: [
     'Eliphaz returns to the attack, and this time his words are the most cruel of all. He does not merely assert that Job has erred. He accuses Job of specific sins. "For thou hast exacted a pledge from thy brother for nought," he says. "Thou hast stripped the naked of their clothing, and thou hast witholden drink from the weary to drink." These are not abstract accusations. These are vivid, detailed charges of specific cruelty. Eliphaz speaks as if he has seen Job commit these acts, as if he knows the secrets of Job&apos;s heart. But we, the readers, know this is false. Job is innocent. Eliphaz is inventing charges.',
     'And yet there is something almost insightful in Eliphaz&apos;s words. He is not entirely wrong about what sin looks like. The sins he describes—oppression of the poor, cruelty to the defenseless, pride that blocks out God—these are real sins, grave sins. But Eliphaz makes the fatal error of applying them to Job without evidence. He assumes that because the doctrine is true (oppression and cruelty do separate a person from God), it must be true that Job is guilty of them. He makes the pattern into a universal law, and then uses the law to condemn an innocent man. This is the sin of the righteous against the unrighteous: to assume guilt and demand repentance from one who has not transgressed.',

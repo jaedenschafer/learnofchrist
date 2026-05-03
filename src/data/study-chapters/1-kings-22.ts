@@ -19,6 +19,7 @@ export const KINGS_1_22: RichChapterContent = {
   bookName: '1 Kings',
   chapter: 22,
 
+  estimatedMinutes: { 5: 10, 10: 18, 15: 23 },
   intros: [
     'For three years, there has been peace between Syria and Israel. But in the third year, King Ahab of Israel and King Jehoshaphat of Judah sit together, and Ahab speaks of something that troubles him: Ramoth-gilead is rightfully Israel&apos;s, yet they have done nothing to take it back from the king of Syria. He asks Jehoshaphat: "Wilt thou go with me to battle?"',
     'Jehoshaphat, showing his alliance with the northern kingdom, agrees — but with a condition. "Inquire, I pray thee, at the word of the Lord today." And so Ahab summons his prophets — about 400 of them — and they speak with one voice: "Go up; for the Lord shall deliver it into the hand of the king." But Jehoshaphat is not satisfied. He presses the king: "Is there not here a prophet of the Lord besides, that we might enquire of him?"',

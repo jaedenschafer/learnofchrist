@@ -14,6 +14,7 @@ export const ROMANS_11: RichChapterContent = {
   bookName: 'Romans',
   chapter: 11,
 
+  estimatedMinutes: { 5: 7, 10: 13, 15: 17 },
   intros: [
     'Romans 11 is Paul&apos;s answer to a question that haunts his whole argument: Has God cast away Israel? The answer is no. God has not abandoned the covenant people. A remnant of Jews believe even now, chosen by grace alone. The hardening that fell on Israel is not final—it is partial and temporary, designed to open the door to the Gentiles. And the grafting in of wild olive branches (the nations) is itself meant to provoke Israel to jealousy, that they too might come back to faith.',
     'The olive tree is the chapter&apos;s controlling image. The roots are Abraham, Isaac, and Jacob—the patriarchs whose promise has never been revoked. Natural branches (ethnic Israel) have been broken off; wild branches (the nations) have been grafted in. But Paul warns the Gentiles sternly: do not boast against the broken branches. You stand by faith alone, not by superiority. And the natural branches can be grafted back in again. Israel&apos;s future is not closed.',

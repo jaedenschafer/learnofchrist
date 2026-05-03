@@ -16,6 +16,7 @@ export const REVELATION_3: RichChapterContent = {
   bookName: 'Revelation',
   chapter: 3,
 
+  estimatedMinutes: { 5: 7, 10: 12, 15: 16 },
   intros: [
     'Revelation 3 completes the seven letters to the churches with the three remaining congregations. Sardis carries the reputation of life but harbors the reality of death—the coldest indictment in the whole sequence. Philadelphia, by contrast, receives only tenderness: small, faithful, weak in the world&apos;s eyes, yet promised the protection of the coming judgment and an eternal place in God&apos;s temple. Laodicea stands between them, materially rich yet spiritually bankrupt, lukewarm in faith—so tepid that Jesus says He will spit them out. Yet even to Laodicea comes a knock at the door and an offer of restoration. The pattern across all three is the same: a diagnosis, a call to repentance, and a promise to those who overcome.',
     'These letters were written to real communities in the first century, but they speak to patterns that have echoed through every age. A church that has lost its fire while keeping up appearances. A church that remains faithful in small things and receives great promises. A church that has mistaken comfort for blessing and forgotten that to be loved by Jesus is to be refined by fire. As you read, ask where you find yourself—and listen for the voice of the one who holds the seven Spirits of God and the seven stars.',

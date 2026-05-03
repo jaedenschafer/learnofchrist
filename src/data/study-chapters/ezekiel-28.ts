@@ -20,6 +20,7 @@ export const EZEKIEL_28: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 28,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Ezekiel 28 moves from the external judgment of Tyre to a deeper revelation. The chapter addresses first the "prince of Tyrus"—the earthly ruler—and then the "king of Tyrus." The language of the second address shifts from political to cosmic. The being addressed has been "in Eden the garden of God," was "perfect in thy ways," wore "every precious stone" as covering. This is not typical language for a historical king.',
     'Theologians and commentators have long understood this passage as revealing the spiritual reality behind earthly powers. The king of Tyre is possessed by or embodies the spirit of pride and rebellion. And that spirit—once perfect, now corrupted—is the father of all earthly pride. The fall of Tyre is a sign of the defeat of the spiritual powers that inspire human rebellion against God.',

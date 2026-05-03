@@ -19,6 +19,7 @@ export const MATTHEW_14: RichChapterContent = {
   bookName: 'Matthew',
   chapter: 14,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
   intros: [
     'Matthew reports the death of John the Baptist. Herod has imprisoned him for condemning his marriage to Herodias, his brother&apos;s wife. During his birthday celebration, Herodias&apos; daughter dances before Herod and pleases him. In a rash moment, he swears to give her whatever she asks. She is prompted by her mother to ask for John&apos;s head. Herod is bound by his oath. Though he does not want to, he commands John&apos;s execution. The forerunner is silenced. The voice crying in the wilderness is stilled.',
     'When Jesus hears of John&apos;s death, He withdraws to a solitary place. But the multitudes follow Him. Moved with compassion, He heals their sick. As evening falls, there arises the question of food. The disciples want Him to send the crowds away. But Jesus says "They need not depart: give ye them to eat." And from five loaves and two fishes, He feeds five thousand. The kingdom operates by a different economy—scarcity becomes abundance, death gives way to feeding, compassion multiplies what seems insufficient.',

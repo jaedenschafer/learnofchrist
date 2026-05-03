@@ -16,6 +16,7 @@ export const KINGS_2_7: RichChapterContent = {
   bookName: '2 Kings',
   chapter: 7,
 
+  estimatedMinutes: { 5: 8, 10: 15, 15: 20 },
   intros: [
     'The prophet Elisha has just spoken words that seem impossible: tomorrow, in the gate of Samaria, a measure of fine flour will sell for a shekel, and two measures of barley for a shekel. Food will be abundant. But the king&apos;s own officer — the lord on whose hand the king leaned — hears this and laughs. "Behold, if the Lord would make windows in heaven, might this thing be?" The impossible has become ridiculous. The prophet looks at him and speaks judgment: "Thou shalt see it with thine eyes, but shalt not eat thereof."',
     'Outside the city walls, the Syrians have laid siege. The famine is so severe that even the most unclean and broken members of society — four lepers, cast out beyond the gate — are starving alongside everyone else. Yet these four, sitting in the twilight, will be the ones to see what no one else has seen, to walk through the empty camp of the enemy, and to speak the words that save a nation: "This day is a day of good tidings, and we hold our peace."',

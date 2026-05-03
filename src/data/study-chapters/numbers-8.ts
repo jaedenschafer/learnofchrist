@@ -5,6 +5,7 @@ export const NUMBERS_8: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 8,
 
+  estimatedMinutes: { 5: 6, 10: 10, 15: 13 },
   intros: [
     'Numbers 8 divides into two parts. The first is brief: Aaron lights the seven lamps of the menorah—the symbol of light and witness in the holy place, where the priests do the work of mediation. The second is the consecration of the Levites—the entire tribe set apart to serve in place of Israel\'s firstborn.',
     'The ceremony is unusual and rich. The Levites are washed, shaved, and sprinkled with the water of purification. They stand before the tabernacle. The people of Israel lay their hands on them—physically marking them as a corporate offering. Then Aaron presents them as a wave offering to the LORD, a gift. They become the property of the tabernacle, substitutes given so that the work of mediation can continue.',

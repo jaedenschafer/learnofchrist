@@ -13,6 +13,7 @@ export const REVELATION_2: RichChapterContent = {
   bookName: 'Revelation',
   chapter: 2,
 
+  estimatedMinutes: { 5: 3, 10: 12, 15: 16 },
   intros: [
     'Revelation 2 opens the great dialogue between the exalted Christ and His churches. He does not send a messenger; He speaks Himself. "Unto the angel of the church" of each city, His words arrive with the authority of the one who holds the seven stars and walks among the candlesticks. Each letter follows the same fivefold shape: the city is named, Christ identifies Himself with an image drawn from the vision in chapter 1, He declares "I know thy works," He offers both commendation and correction, and He closes with a promise to him that overcometh and a call to hear what the Spirit saith unto the churches.',
     'These are not letters to generic Christianity but to real churches in real cities facing real pressures. Some are holding fast to the faith. Others have drifted. Some face persecution from without; others from false teaching within. Yet in every case, Christ sees. He knows the works. And He calls to repentance with the tenderness of a shepherd and the authority of a king.',

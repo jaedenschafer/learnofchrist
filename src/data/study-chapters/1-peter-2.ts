@@ -21,6 +21,7 @@ export const FIRST_PETER_2: RichChapterContent = {
   bookName: '1 Peter',
   chapter: 2,
 
+  estimatedMinutes: { 5: 10, 10: 18, 15: 26 },
   intros: [
     'Peter has just finished his opening prayer — a praise of God the Father for the new birth His mercy has given us through the resurrection of Jesus. Now he turns to what that new life actually looks like in practice. It is not a private experience; it is a reshaping of how you see and treat the people around you, and how you fit into God&apos;s larger plan.',
     'The chapter is built like a temple. The first section calls you to lay aside the junk and desire the sincere milk of God&apos;s word — the nourishment of new life. The next section sees you (the reader) as a living stone being built into a spiritual house, with Christ as the cornerstone. From there Peter unfolds what it means to be &ldquo;a chosen generation, a royal priesthood&rdquo; — you belong to God, not to the world&apos;s categories. The final half of the chapter is Peter&apos;s description of how to live that identity in the real world: honor everyone, fear God, honor the king, and if you suffer, follow Christ&apos;s example — He bore our sins in His own body, and by His wounds we are healed.',

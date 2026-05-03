@@ -17,6 +17,7 @@ export const GALATIANS_6: RichChapterContent = {
   bookName: 'Galatians',
   chapter: 6,
 
+  estimatedMinutes: { 5: 8, 10: 15, 15: 21 },
   intros: [
     'Galatians closes not with doctrine alone but with the lived shape of the gospel. The law is gone; the Spirit&apos;s work remains. Believers are called to restore the fallen with meekness, to bear one another&apos;s weight, to sow to the Spirit rather than the flesh. The final word is staggering: Paul glories in the cross of Christ, and in that cross finds all the freedom the law could never grant.',
     'The false teachers boasted in the flesh—in circumcision, in bloodline, in external markers of achievement. Paul&apos;s boast is radically different. The cross. That is where glory lives. By that cross the world is crucified unto him, and he unto the world. All his old identity dies. What rises is something new: a creature remade in Christ, bearing His marks, walking in His grace.',

@@ -14,6 +14,7 @@ export const EZEKIEL_6: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 6,
 
+  estimatedMinutes: { 5: 2, 10: 3, 15: 4 },
   intros: [
     'Ezekiel&apos;s oracles grow more forceful. Now he addresses the mountains of Israel themselves, as though the land itself can hear. The mountains are the high places, the sites of forbidden worship. On these mountains, Israel has constructed altars to false gods, offered incense to idols, forgot the God of covenant. The judgment is thorough: the high places will be torn down, the idols shattered, the slain will fall. And yet this destruction is not pointless cruelty. It is redemptive. Through the breaking of false worship comes the true knowledge of God. The refrain that echoes through Ezekiel — "Ye shall know that I am the Lord" — reveals the deepest purpose of all judgment. It is not revenge but revelation.',
   ],

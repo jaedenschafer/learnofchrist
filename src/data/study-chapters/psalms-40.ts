@@ -15,6 +15,7 @@ export const PSALMS_40: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 40,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 6 },
   intros: [
     'Psalm 40 begins in patient waiting. David has cried out, and God has inclined His ear to him. He has been lifted out of a pit and set upon a rock. But the psalm is not primarily about David&apos;s individual rescue. It builds toward a far greater claim. God does not require sacrifice and offering. He requires obedience, willingness, a heart that delights to do His will. The ancient reader would have been shocked by this declaration. But for Christian readers, the words point unmistakably to Christ, the One who came not to be served but to serve, to give His life as a ransom, to say, "Lo, I come to do thy will, O God."',
     'In Hebrews 10, the apostle quotes Psalm 40:6–8 and identifies the speaker as Jesus. Christ is the One who says: "Sacrifice and offering thou didst not desire." He is the One whose delight is to do God&apos;s will. And by that obedience, He has perfected forever those who are sanctified. This is the Psalm of the perfect servant who teaches us what obedience, true obedience, looks like.',

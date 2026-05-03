@@ -15,6 +15,7 @@ export const GENESIS_6: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 6,
 
+  estimatedMinutes: { 5: 6, 10: 10, 15: 13 },
   intros: [
     'Genesis 6 is the chapter where the world turns dark. After five generations of human failure, after Cain and the first murder, after a humanity that grows more twisted the further it gets from Eden, we arrive at a moment when God looks at what He has made and finds Himself grieving. The Hebrew word for that grief—<em>nicham</em>—shares its root with the name Noah. This is a chapter about repentance: God&apos;s, and a man&apos;s.',
     'The opening verses are strange—a moment most biblical scholars openly disagree about. Sons of God and daughters of men. Were they angels? Descendants of Seth? Earthly rulers? The text doesn&apos;t settle it, and readers across two thousand years have held different views. Rather than choosing a side, let yourself sit with the strangeness. The Bible is full of moments that defy easy answers. This is one of them.',

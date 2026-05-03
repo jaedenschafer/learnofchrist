@@ -17,6 +17,7 @@ export const CHRONICLES_2_2: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 2,
 
+  estimatedMinutes: { 5: 6, 10: 11, 15: 15 },
   intros: [
     'The second chapter of 2 Chronicles opens with Solomon&apos;s decision: he will build a house for the name of the Lord. Not for himself. Not for his glory. For the Lord&apos;s name. This distinction matters. Solomon is not building because he is ambitious; he is building because he has understood something about what his kingdom is for.',
     'What follows is a massive logistical enterprise. Seventy thousand men to bear burdens. Eighty thousand to hew in the mountains. Three thousand six hundred overseers to direct the work. But the chapter does not dwell on the burden or the weight. Instead, it turns to the correspondence between Solomon and Hiram, king of Tyre. Here we find something unexpected: a pagan king blessing the God of Israel. Here we find a craftsman so skilled, so laden with understanding, that he is named after his father&apos;s father — Hiram-abi, "Hiram my father." And in that collaboration, we see a truth about how God works: He accomplishes His purposes through human partnership, through the gifts of peoples beyond Israel, through the meeting of skill and vision.',

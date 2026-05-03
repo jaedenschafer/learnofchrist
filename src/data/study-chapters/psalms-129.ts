@@ -15,6 +15,7 @@ export const PSALMS_129: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 129,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
   intros: [
     'Psalm 129 is a corporate testimony of endurance through relentless persecution. The psalmist speaks for Israel, for the people as a whole: "Many a time have they afflicted me from my youth." This is not a single attack, not a passing trial. This is a lifetime of hostility, opposition, pressure. From childhood, the nation has faced enemies bent on its destruction. And yet—"Yet they have not prevailed against me." The nation has not been destroyed. It remains. It stands. The afflicters have not won.',
   ],

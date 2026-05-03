@@ -14,6 +14,7 @@ export const PSALMS_41: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 41,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
   intros: [
     'Psalm 41 opens with a promise: Blessed is he that considereth the poor. The man who has compassion on the weak shall be preserved in times of trouble. God will sustain him. Yet the psalm does not remain in the realm of abstract virtue. It turns sharply to the personal. "Yea, mine own familiar friend, in whom I trusted, which did eat of my bread, hath lifted up his heel against me." The betrayal is intimate. It is not from an enemy, but from someone David loved, someone he shared bread with, someone who was part of his inner circle. The sting of the psalm comes from this proximity.',
     'For Christian readers, these words belong unmistakably to Christ in the Upper Room. Jesus, having washed the disciples&apos; feet and shared the Passover meal with them, says to the eleven who remain: "One of you shall betray me." That betrayer is Judas, who has eaten bread with Jesus, and whose name will live forever connected to treachery. Yet in Christ&apos;s betrayal lies redemption. The wound becomes the means of healing.',

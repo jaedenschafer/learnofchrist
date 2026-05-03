@@ -16,6 +16,7 @@ export const PSALMS_134: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 134,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Psalm 134 brings the fifteen Songs of Ascents to a close with a vision of night-watchers in the house of the Lord, standing in the darkness, lifting their hands in blessing. While others sleep, these servants keep vigil. They stand in the sanctuary through the long night, their hands raised in praise and adoration. The psalm is brief—only three verses—but its image endures: faith expressed not when it is easy and surrounded by support, but when it is costly, when darkness prevails, when few others are watching. Yet from the darkness comes blessing. The night-watch becomes the occasion for the most intimate communion with God.',
   ],

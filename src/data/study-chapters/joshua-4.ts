@@ -14,6 +14,7 @@ export const JOSHUA_4: RichChapterContent = {
   bookName: 'Joshua',
   chapter: 4,
 
+  estimatedMinutes: { 5: 7, 10: 12, 15: 15 },
   intros: [
     'Joshua 4 is about memory made visible. After all of Israel crosses the Jordan on dry ground, with the priests holding the ark steady in the riverbed, God tells Joshua to command twelve men—one from each tribe—to take twelve stones from the river and carry them across. These stones will become a monument in Gilgal, a place where children will one day ask, "What do these stones mean?" Faith, the chapter teaches, is not kept in silence. It is told through visible reminders, through story passed down, through the kind of physical memorial that makes you stop and ask.',
     'The crossing happens on the tenth day of the first month—the same day the Passover lamb was selected in Exodus 12:3. Salvation history is woven through with visible signs. The twelve stones in Gilgal echo the twelve stones Joshua set up in the Jordan itself, covered by the waters. Both the remembered and the hidden belong to the story. And when the priests finally lift their feet from the riverbed, the waters rush back, closing the gap. The chapter shows a God who parts waters and then restores them, who works through twelve witnesses, who builds memory into the bones of a nation.',

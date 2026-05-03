@@ -16,6 +16,7 @@ export const ESTHER_10: RichChapterContent = {
   bookName: 'Esther',
   chapter: 10,
 
+  estimatedMinutes: { 5: 2, 10: 3, 15: 4 },
   intros: [
     'The book of Esther closes not with a great battle or a final judgment, but with a quiet testimony to the elevation of Mordecai. He who sat at the king&apos;s gate, now sits at the king&apos;s right hand. His acts of faithfulness — his refusal to bow to Haman, his protection of the king, his advocacy for his people — have earned him a place of authority that will be remembered in the empire&apos;s official chronicles.',
     'And in this final glimpse, we see the defining mark of Mordecai&apos;s character: he uses his power not for personal glory, but "seeking the welfare of his people, and speaking peace to all his seed." The exile has become the advocate. The oppressed has become the voice of mercy. In this small portrait, we see the image of the faithful servant elevated, not to rule over others, but to serve his people with the authority the king has entrusted to him.',

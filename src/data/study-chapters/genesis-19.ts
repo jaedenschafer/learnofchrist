@@ -14,6 +14,7 @@ export const GENESIS_19: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 19,
 
+  estimatedMinutes: { 5: 11, 10: 16, 15: 21 },
   intros: [
     'Genesis 19 is a chapter that refuses to flinch. It names evil as evil — not as a philosophical abstraction, but as a mob at a door. It shows divine judgment as total and swift. And it follows one man, Lot, as he is physically dragged to safety by angels because he cannot save himself. The chapter is dark. But inside the darkness, there is one trembling fact: grace that does not depend on the courage of the rescued.',
     'Two chapters earlier, Abraham made a costly case to God that Sodom might be spared — a conversation every reader knows will fail. Now we see why. The men of Sodom come to Lot to abuse his guests. The city will not repent. The visitors are not guests — they are targets. And Lot, who once chose Sodom because it looked "like the garden of the Lord" (Gen 13:10), finds himself alone, mocked by his own family, forced out by hands not his own. The protection Abraham sought could not exist in a place that wanted darkness more than light.',

@@ -15,6 +15,7 @@ export const SECOND_CORINTHIANS_7: RichChapterContent = {
   bookName: '2 Corinthians',
   chapter: 7,
 
+  estimatedMinutes: { 5: 7, 10: 12, 15: 17 },
   intros: [
     'Paul has spent much of 2 Corinthians speaking about comfort—the comfort God gives, the comfort that overflows from Christ through suffering, the comfort that Paul himself carries as an apostle. In chapter 7, he turns a sharp corner. He speaks of comfort that comes through pain, of sorrow that saves, of a wound that heals.',
     'The chapter arises from a crisis now resolved. Paul had written the Corinthian church a severe letter—a letter that grieved him to write, that caused them grief to read. But their grief bore fruit. They repented. And in their repentance, Paul sees the fingerprints of God. This is not a chapter about avoiding pain. It is a chapter about what pain can do when it leads us toward God instead of away from Him.',

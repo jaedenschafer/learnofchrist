@@ -12,6 +12,7 @@ export const PROVERBS_19: RichChapterContent = {
   bookName: 'Proverbs',
   chapter: 19,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
   intros: [
     'Proverbs 19 returns to themes of justice and God&apos;s sovereignty. Mercy toward the poor is not charity—it is a loan given to the Lord Himself, who will repay. And while humans scheme and devise endless strategies, the counsel of the Lord stands unmoved, outlasting every human contrivance. This is the world as it truly is: human busyness playing out beneath the gaze of God&apos;s unwavering purpose.',
   ],

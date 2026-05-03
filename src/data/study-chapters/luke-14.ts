@@ -20,6 +20,7 @@ export const LUKE_14: RichChapterContent = {
   bookName: 'Luke',
   chapter: 14,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 6 },
   intros: [
     'Jesus enters the house of a chief Pharisee on the Sabbath to eat bread. A man with dropsy stands before Him. The Pharisees watch to see if Jesus will heal on the Sabbath. Jesus asks them: "Is it lawful to heal on the sabbath day?" They hold their peace. Jesus touches the man and heals him. "And said unto them, Which of you shall have an ass or an ox fallen into a pit, and will not straightway pull him out on the sabbath day?" They cannot answer.',
     'Jesus speaks of the social arrangements at table. He notices how the guests choose the chief seats. He says: "Whosoever exalteth himself shall be abased; and he that humbleth himself shall be exalted." Then He turns to the master of the house and rebukes the guest list. You have invited the rich, the powerful, your friends. But you should invite the poor, the maimed, the lame, the blind. "For they cannot recompense thee: for thou shalt be recompensed at the resurrection of the just."',

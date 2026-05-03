@@ -16,6 +16,7 @@ export const CHRONICLES_2_11: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 11,
 
+  estimatedMinutes: { 5: 3, 10: 7, 15: 11 },
   intros: [
     'The kingdom is divided. Rehoboam, the new king, rushes north with 180,000 soldiers to crush the rebellion of Jeroboam and bring Israel back under his rule. But then the word of the Lord comes to Shemaiah the prophet: "Speak unto Rehoboam... Ye shall not go up, nor fight against your brethren: return every man to his house: for THIS THING IS DONE OF ME." It is God, not Jeroboam&apos;s strength, who has torn the kingdom apart. Rehoboam obeys. He turns back.',
     'What follows is a season of building — fortified cities, strong walls, stored provision. Judah is prepared. But more profoundly, the kingdom is strengthened by a migration of hearts. When Jeroboam establishes idolatrous worship in the north, setting up calves and priests for the "high places," the faithful abandon the north. Priests and Levites come to Jerusalem. Then, from all the tribes of Israel, those whose hearts seek the Lord God come too. Three years pass in faithfulness — three years they walk in the way of David and Solomon. But even as the kingdom grows strong, the seeds of its weakness are planted. Rehoboam takes many wives and multiplies his sons. Power, comfort, and the desires of the flesh begin their quiet work.',

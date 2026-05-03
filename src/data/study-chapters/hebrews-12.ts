@@ -5,6 +5,7 @@ export const HEBREWS_12: RichChapterContent = {
   bookName: 'Hebrews',
   chapter: 12,
 
+  estimatedMinutes: { 5: 10, 10: 17, 15: 26 },
   intros: [
     'Hebrews 12 moves from the hall of faith (chapter 11—the cloud of witnesses, those who ran before you) to your own race. You are not watching from the stands. You are in the middle of the track. The witnesses see you run. And you run looking unto Jesus, who endured the cross and is now seated at the right hand of God. This chapter teaches you what to lay aside, what to look toward, how to interpret God&apos;s discipline, and what it means to approach His holy throne.',
     'The chapter builds to a moment of terrible clarity: &ldquo;our God is a consuming fire.&rdquo; But the verse that precedes it holds the whole thing together: You are receiving a kingdom that cannot be shaken. Fear, then, not because you are alone, but because you belong to the living God. The discipline, the shame, the cost of the race—all of it is happening inside a family where you are beloved.',

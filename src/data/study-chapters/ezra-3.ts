@@ -17,6 +17,7 @@ export const EZRA_3: RichChapterContent = {
   bookName: 'Ezra',
   chapter: 3,
 
+  estimatedMinutes: { 5: 5, 10: 9, 15: 12 },
   intros: [
     'The book of Ezra chronicles the return of the Jewish people from Babylonian exile. After seventy years of captivity, King Cyrus of Persia issues a decree permitting them to go home and rebuild the temple of the Lord. But return is not the same as restoration. The ruins remain. The altar is gone. The daily offerings have ceased. The people must begin again — and in Ezra 3, they do, gathering as one man and taking the first steps toward rebuilt worship.',
     'This chapter captures two essential moments: first, the immediate restoration of the altar and the daily offerings, a recovery of covenant and continuity with the past. Second, the laying of the temple foundation — a moment of mingled tears and shouts. Those who remember the old temple weep at what was lost; those who are young shout with joy at what is being built. The chapter holds both responses as true, and in that holding, it teaches us something about how God&apos;s people live: always remembering, always hoping, always moving forward even as grief and joy intertwine.',

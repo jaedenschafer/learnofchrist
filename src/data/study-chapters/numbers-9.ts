@@ -19,6 +19,7 @@ export const NUMBERS_9: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 9,
 
+  estimatedMinutes: { 5: 7, 10: 11, 15: 14 },
   intros: [
     'Numbers 9 opens with Israel one year into the wilderness—one year after leaving Egypt. They gather again to keep the Passover, the feast that celebrates liberation. But in the middle of this joy, some men are unclean. They have touched a dead body, and the law says they cannot eat the Passover. They come to Moses with a quiet crisis: will they be locked out of the remembrance of their own salvation?',
     'God\'s answer becomes one of scripture\'s most surprising graces. He doesn\'t say "that\'s the rule—you missed it." Instead, He opens a door. One month later—Pesach Sheni, the second Passover—those who were unclean get a second chance. Then the cloud appears: God\'s visible presence, leading Israel forward. When the cloud moves, Israel moves. When it stops, they stop. The shape of their wilderness journey is not their own planning—it is the Shekinah\'s leading.',

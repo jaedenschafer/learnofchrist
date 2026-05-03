@@ -5,6 +5,7 @@ export const HOSEA_14: RichChapterContent = {
   bookName: 'Hosea',
   chapter: 14,
 
+  estimatedMinutes: { 5: 2, 10: 3, 15: 5 },
   intros: [
     'Hosea 14 is the closing chapter, and it rings with hope. "O Israel, return unto the Lord thy God; for thou hast fallen by thine iniquity." The book ends not with destruction but with a call to return. Hosea invites Israel to bring words, to turn to the Lord, to ask for forgiveness.',
     '"I will heal their backsliding, I will love them freely: for mine anger is turned away from him." This is the final word of Hosea. Not judgment alone, but restoration. Not punishment alone, but the free love of God. The book that began with a harlot being purchased now ends with a promise of healing and free love.',

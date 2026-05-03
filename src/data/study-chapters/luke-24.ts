@@ -20,6 +20,7 @@ export const LUKE_24: RichChapterContent = {
   bookName: 'Luke',
   chapter: 24,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
   intros: [
     'The women come to the sepulchre early in the morning to anoint Jesus&apos; body with the spices they have prepared. But they find the stone rolled away from the sepulchre. When they enter, they do not find the body of the Lord Jesus. Two men in shining garments stand by them. The women are afraid. The men say: "Why seek ye the living among the dead? He is not here, but is risen." They remind the women: Jesus said He must be delivered into the hands of sinful men, be crucified, and the third day rise again. The women remember His words.',
     'Two disciples walk to Emmaus, sad. Jesus Himself draws near but is hidden from their eyes. He asks: "What manner of communications are these that ye have one to another, as ye walk?" They tell Him of Jesus the prophet who was delivered to be condemned to death, whom they had hoped would redeem Israel. Jesus says: "O fools, and slow of heart to believe all that the prophets have spoken!" He expounds in all the scriptures the things concerning Himself. At Emmaus, He breaks bread with them. Their eyes are opened. They recognize Him. He vanishes from their sight.',

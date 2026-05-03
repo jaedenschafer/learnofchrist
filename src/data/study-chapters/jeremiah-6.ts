@@ -17,6 +17,7 @@ export const JEREMIAH_6: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 6,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 6 },
   intros: [
     'Jeremiah 6 contains one of the most penetrating verses in Scripture about the nature of spiritual stagnation and the recovery of faith. God commands: "Stand ye in the ways, and see, and ask for the old paths, where is the good way, and walk therein, and ye shall find rest for your souls." This is not an appeal to tradition for its own sake. This is an appeal to return to the foundation. The old paths are the paths of the covenant, the ancient ways through which God has guided His people from the beginning. To walk in them again is to find rest.',
     'Yet the chapter is also relentless in its description of approaching judgment. The armies of the north are gathered. They are setting up siege. The city will be besieged and taken. The destruction comes not out of nowhere but as the consequence of a people who have heard God&apos;s call and refused it: "But they said, We will not walk therein." The chapter holds together two truths: God&apos;s persistent call to return to the ancient way, and the certainty that those who refuse will face judgment.',

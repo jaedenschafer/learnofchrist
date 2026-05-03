@@ -13,6 +13,7 @@ export const JOB_31: RichChapterContent = {
   bookName: 'Job',
   chapter: 31,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 6 },
   intros: [
     'In what may be the central statement of the entire book, Job declares his innocence. He does not claim sinlessness (no one is perfect), but he claims integrity—a life lived in alignment with his deepest values. He has not betrayed his conscience. He has not hidden evil. He challenges God: weigh me in a just balance, and you will find me innocent of the charges implied by my suffering.',
   ],

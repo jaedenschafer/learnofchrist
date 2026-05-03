@@ -15,6 +15,7 @@ export const FIRST_CORINTHIANS_14: RichChapterContent = {
   bookName: '1 Corinthians',
   chapter: 14,
 
+  estimatedMinutes: { 5: 8, 10: 15, 15: 20 },
   intros: [
     'Chapter 13 crowned love as the supreme good. Chapter 14 turns to the gathered church and asks: how does love express itself when believers come together? The Corinthians prized speaking in tongues—it was ecstatic, immediate, a sign of the Spirit&apos;s power. But Paul, with surgical precision, shows them that love means something different. Love means choosing the gift that builds up others, not the gift that elevates yourself.',
     'Paul does not forbid tongues. He affirms them as a genuine gift from the Spirit. But he insists on priority: prophecy, the intelligible speaking of God&apos;s word, is greater because it edifies the entire body. His concern is not to quench the Spirit, but to ensure that the Spirit&apos;s work in the gathered church is marked by clarity, order, and the kind of love that thinks first of others.',

@@ -14,6 +14,7 @@ export const PSALMS_16: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 16,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
   intros: [
     'Psalm 16 is a psalm of trust spoken by a man who knows something about abandonment, loss, and the fear of death. David asks God to preserve him, to keep him safe. The psalm is framed by the decision to trust: at the beginning, "in thee do I put my trust," and at the end, "I shall not be moved" because the Lord is at my right hand. Yet the heart of the psalm is one of the most mysterious and profound statements in the Old Testament: a declaration that God will not leave His holy one to see corruption—a statement that will echo in the Resurrection.',
     'The psalm moves from David&apos;s personal trust, through his choice of the Lord above all other loves, to a statement that transcends David himself. Peter in Acts 2 will hear in verse 10 the voice of the Christ—the Holy One who was not left in death, whose body did not decay, who rose triumphant.',

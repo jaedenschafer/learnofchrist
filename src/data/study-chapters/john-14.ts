@@ -16,6 +16,7 @@ export const JOHN_14: RichChapterContent = {
   bookName: 'John',
   chapter: 14,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 6 },
   intros: [
     'Jesus speaks to calm the disciples&apos; troubled hearts. He is about to leave them through death. But He does not abandon them. "Let not your heart be troubled." He speaks of His Father&apos;s house, where there are many rooms. He goes to prepare a place for them. He will come again and take them to Himself, that where He is they may be also. The destination is secure. The way is prepared. The one who guides is trustworthy.',
     'When Thomas asks, "How can we know the way?" Jesus makes one of His clearest claims: "I am the way, the truth, and the life: no man cometh unto the Father, but by me." He is not a signpost pointing elsewhere. He is the path itself. He is not a partial truth among many. He is truth itself. He is not life offered from a distance. He is life incarnate. When Philip asks to see the Father, Jesus responds: "He that hath seen me hath seen the Father." In looking at Jesus, you see God. In meeting Jesus, you meet the Father.',

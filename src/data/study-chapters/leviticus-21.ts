@@ -15,6 +15,7 @@ export const LEVITICUS_21: RichChapterContent = {
   bookName: 'Leviticus',
   chapter: 21,
 
+  estimatedMinutes: { 5: 6, 10: 10, 15: 13 },
   intros: [
     'Leviticus 21 is the holiness code for priests. They live under stricter rules than the people around them — rules about mourning the dead, about whom they may marry, about physical wholeness. To modern ears these rules sound harsh, especially the rule about the priest with a physical defect: he cannot approach the altar, even if his brothers with unbroken bodies do. But the chapter is not about cruelty. It is about what the priest&apos;s body pointed to.',
     'In Israel&apos;s system, a priest mediated between a holy God and an unholy people. His body was a sign. An unblemished priest stood in the gap between two worlds. But a priest can only point; he cannot save. The chapter was always waiting for a High Priest who would carry no defect, no stain, no mark — not as a sign of something greater, but as the thing itself. In Jesus, the sign and the reality meet.',

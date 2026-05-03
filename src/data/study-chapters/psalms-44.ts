@@ -14,6 +14,7 @@ export const PSALMS_44: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 44,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
   intros: [
     'Psalm 44 is a communal lament. It is not one man speaking, but "we"—the people of God, speaking together. And their cry is sharp: they remember the works of God in past generations. He planted their fathers, cast out the nations, made His people prosper. But now the script has flipped. "Thou hast cast us off, and brought us to confusion." They are being slaughtered like sheep. Their enemies mock them. And the cruel twist: they have not been unfaithful. "We have not forgotten thy covenant." And yet they suffer.',
     'This is the psalms of those who do everything right and are beaten down for it. Paul quotes this psalm in Romans 8:36—"For thy sake are we killed all the day long; we are accounted as sheep for the slaughter." He applies it to the suffering church. The apostle is saying: this suffering, this death, this was always part of the promise. To belong to God does not guarantee ease. It may guarantee difficulty. But it also guarantees that the covenant holds, that God is still Father, even when His people bleed.',

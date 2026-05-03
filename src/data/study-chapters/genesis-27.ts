@@ -14,6 +14,7 @@ export const GENESIS_27: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 27,
 
+  estimatedMinutes: { 5: 12, 10: 16, 15: 20 },
   intros: [
     'Isaac is old. His eyes fail him. He knows the time has come to give his blessing—the prayer that would shape his eldest son&apos;s future, spoken by a dying father, irreversible once spoken. But while Isaac lies in his tent, Rebekah overhears from the doorway. The blessing Isaac means to give Esau is about to go to Jacob instead. And she is going to make it happen.',
     'Genesis 27 is about deception, yes. But it is also about something harder: the cost of what we want. Rebekah gets the blessing moved to Jacob. Esau goes away weeping. And Rebekah, the architect of the scheme, is never named again after this chapter. She stays in Canaan while Jacob flees to Haran and lives as a stranger for twenty years. The text does not moralize. It simply tells you what happened: you got what you wanted, and you paid with what you did not know you had.',

@@ -8,6 +8,7 @@ export const ZECHARIAH_10: RichChapterContent = {
   bookName: 'Zechariah',
   chapter: 10,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 4 },
   intros: [
     'Zechariah turns to the inner fortification of God&apos;s people. God will strengthen Judah, making them mighty in battle. From Judah will come the cornerstone, the nail, the battle bow—all the strength and stability needed to prevail. The imagery shifts between literal military confidence and spiritual strength. Christ is the cornerstone on whom all stands.',
   ],

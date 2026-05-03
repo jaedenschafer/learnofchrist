@@ -19,6 +19,7 @@ export const CHRONICLES_2_7: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 7,
 
+  estimatedMinutes: { 5: 5, 10: 13, 15: 16 },
   intros: [
     'The dedication of Solomon&apos;s temple is the culmination of David&apos;s vision and Solomon&apos;s labor. The ark is in place. The altar stands. The priests and Levites are ready. And now Solomon finishes his long prayer of consecration—a prayer that stretches across the span of the previous chapter, moving from gratitude to confession to intercession, holding before God the needs of the people and the future of the nation.',
     'But prayer alone does not complete the dedication. Something more is needed—a sign from heaven, a word of the Lord that affirms what has been built, that sets apart this house as God&apos;s own. And it comes. Fire comes down from heaven, just as it came in the days of Aaron and in the days of Elijah. The glory of the Lord fills the house. The people see and respond: they bow, they worship, they praise. The dedication is complete. But the Lord&apos;s word is not finished. In the same night, the Lord appears to Solomon again, and what He says changes everything. This is not a promise of unending favor. It is a conditional word—the word that will echo through Israel&apos;s entire history.',

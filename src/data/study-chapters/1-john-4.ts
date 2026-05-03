@@ -14,6 +14,7 @@ export const FIRST_JOHN_4: RichChapterContent = {
   bookName: '1 John',
   chapter: 4,
 
+  estimatedMinutes: { 5: 8, 10: 16, 15: 22 },
   intros: [
     'John now approaches love from a different angle. Love is not merely a commandment we obey. It flows from the nature of God Himself. God is love. This is not metaphor or poetic language. It is the deepest truth about God. The universe is not fundamentally ruled by force, chance, or law, but by love. And those who know God are drawn into that love, becoming lovers themselves.',
     'But John first addresses a threat: how to discern true and false prophets. Many deceivers are in the world. But there is a test: do they confess Jesus Christ as Lord? Do they affirm the incarnation—that God became flesh? Those who deny that God became flesh deny the essence of the gospel. Test the spirits, beloved. Know who you are listening to. Then John returns to love: if God is love, and God sent His only begotten Son, then we must love one another. And perfect love casts out fear.',

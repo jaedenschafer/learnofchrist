@@ -21,6 +21,7 @@ export const CHRONICLES_2_36: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 36,
 
+  estimatedMinutes: { 5: 6, 10: 13, 15: 20 },
   intros: [
     'The kingdom of Judah stands at the edge of a precipice. The prophets have come and gone — Jeremiah, Zephaniah, Nahum, Habakkuk — all warning of judgment, all calling the people and their kings to repent. And for nearly four centuries, through the reign of the good kings, through revivals and reforms, there was a thin thread of hope. But that thread is about to break.',
     'In this final chapter of Old Testament history, we see the last four kings of Judah. None of them heed the voice of God. Instead, they do evil in the sight of the Lord, and the judgment that has been suspended for so long finally falls. Jerusalem is taken. The temple is burned. The vessels of the house of God are carried away to Babylon. The land is emptied. The people are slaves.',

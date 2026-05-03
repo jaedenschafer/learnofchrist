@@ -11,6 +11,7 @@ export const DEUTERONOMY_32: RichChapterContent = {
   bookName: 'Deuteronomy',
   chapter: 32,
 
+  estimatedMinutes: { 5: 9, 10: 14, 15: 19 },
   intros: [
     'Deuteronomy 32 is Moses&apos; final song — his last words to Israel before he dies on Mount Nebo, barred from entering the land. It is a song that traces the whole story of Israel and God in miniature: creation, providence, ingratitude, judgment, and mercy. The poetry is dense and layered. Every image carries weight.',
     'The Song moves in a kind of spiral. It opens with God as the Rock, faithful and just. Then it traces Israel&apos;s journey — from desert wandering where God carried them like an eagle, to settled comfort that bred forgetting. Judgment falls. But even in judgment, God&apos;s hand is still open, his eye still fixed on his people. The song ends not in wrath but in reconciliation, and the command to remember.',

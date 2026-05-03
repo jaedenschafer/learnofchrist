@@ -12,6 +12,7 @@ export const NUMBERS_2: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 2,
 
+  estimatedMinutes: { 5: 8, 10: 11, 15: 14 },
   intros: [
     'Numbers 1 counted Israel — nearly two million people organized into twelve tribes. Numbers 2 answers a question that follows every census: where do they actually go? The answer is breathtaking in its geometry. Israel is arranged as a massive square, with the tabernacle — the tent where God dwells — at the absolute center. On each of the four sides stand three tribes, a cluster of families held in place by a unifying order. The camp is not arranged around comfort or commerce or defense. It is arranged around worship.',
     'Judah takes the east, the position of honor and the leading edge of every march. Reuben stands to the south. Ephraim to the west. Dan to the north. Between the camp and the tabernacle runs a buffer of Levites — the priests and caretakers of God&apos;s dwelling. What makes this passage worth your time is this: you can draw it. And when you do, you see a cross. The tabernacle sits at the intersection, and the camp spreads out in four directions, with Judah — the tribe that will eventually bear the Messiah — leading the way north toward the land of promise.',

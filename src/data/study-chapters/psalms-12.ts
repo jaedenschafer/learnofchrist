@@ -15,6 +15,7 @@ export const PSALMS_12: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 12,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Psalm 12 addresses a crisis of truthfulness. The godly are disappearing. Falsehood spreads like a weed. Every man speaketh vanity with his neighbour: with flattering lips and a double heart they speak. The world of David seems saturated with lies—lies meant to deceive, flatter, and control. In this context, David cries out for help. But as he cries, his attention is drawn upward to something pure, something undeniably true: the word of God.',
     'The psalm juxtaposes human speech and divine speech. Human words are empty, flattering, deceptive. Divine words are pure, tested, perfect. This is not mere rhetoric. This is the foundation on which trust is built. In a world of lies, God&apos;s word is the only ground of certainty.',

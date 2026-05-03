@@ -15,6 +15,7 @@ export const KINGS_1_16: RichChapterContent = {
   bookName: '1 Kings',
   chapter: 16,
 
+  estimatedMinutes: { 5: 4, 10: 9, 15: 13 },
   intros: [
     'The northern kingdom of Israel spirals. After decades of kings who "did evil in the sight of the Lord," the pace quickens. In 1 Kings 16 we watch four rulers pass before us in rapid succession — each falling into the judgment formula that has become Israel&apos;s refrain. But more than speed defines this chapter: it marks a turning point. With Ahab and Jezebel, the kingdom does not merely fail in the old ways — it imports a new idolatry, a foreign bride who brings a foreign god. And in a single sentence, we learn that the curse of Joshua, spoken centuries before, is being fulfilled by a man named Hiel.',
     'This is a chapter about the consequences of walking away from the God of Israel, but it is also a chapter about the faithfulness of God&apos;s word. What the Lord has spoken, the Lord fulfills — even across generations, even when the people forget.',

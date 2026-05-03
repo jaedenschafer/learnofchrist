@@ -19,6 +19,7 @@ export const CHRONICLES_2_28: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 28,
 
+  estimatedMinutes: { 5: 10, 10: 18, 15: 24 },
   intros: [
     'The reign of Ahaz marks a precipice in Judah&apos;s history. Unlike his father David, who sought the Lord and was upheld, Ahaz walks in the ways of the kings of Israel — the northern kingdom that has already turned from God. He will not be turned back. And in his refusal, he will drag Judah into apostasy so profound that it culminates in an act that shatters the covenant: the burning of his own children in fire, a practice born of the worship of Baal and the Hinnom valley demons.',
     'What follows is catastrophe. The Lord, whose patience has been tested unto the breaking point, delivers Judah into the hands of her enemies. Syria smites them. Israel — the very northern kingdom Ahaz has emulated — returns with a slaughter so great that 120,000 young men of Judah fall in a single day. It is as though heaven itself has turned away. Yet even in this darkness, mercy appears. A prophet named Oded speaks God&apos;s word, and men of Israel — the very people committing the carnage — listen. They release their captives, clothing them, anointing them, restoring them to their brethren. And then Ahaz himself must choose: will he repent, or will he harden his heart further? He chooses hardness. He looks to Assyria. He sacrifices to Damascus. He locks the doors of God&apos;s house. This is the nadir of Judah&apos;s history — and the moment before the miracle of Hezekiah.',

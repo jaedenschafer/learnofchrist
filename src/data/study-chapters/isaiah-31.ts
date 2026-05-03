@@ -16,6 +16,7 @@ export const ISAIAH_31: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 31,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 7 },
   intros: [
     'Israel finds itself in crisis. The Assyrians press from the north. The king looks south to Egypt for military alliance and protection. But Isaiah cries out against this very strategy. To seek help from Egypt is to seek help from men. The Egyptians are flesh, not Spirit. They ride horses and trust in chariots and horsemen. But God stands ready to defend His people if only they will trust Him. The choice before Israel is not strategic complexity. It is simple: whom will you believe? Will you look to the power of nations, or will you look to the Holy One of Israel?',
   ],

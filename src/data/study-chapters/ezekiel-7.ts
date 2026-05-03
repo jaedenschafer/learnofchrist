@@ -14,6 +14,7 @@ export const EZEKIEL_7: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 7,
 
+  estimatedMinutes: { 5: 2, 10: 3, 15: 4 },
   intros: [
     'With Ezekiel 7, the tone becomes apocalyptic. The oracle grows darker, more urgent, more final. The refrain "An end is come, the end is come" pulses through the chapter like a heartbeat, insistent and inescapable. This is not the language of judgment that might be averted through repentance. This is the language of finality. The day of the Lord is approaching, and it will strip away everything on which Israel has built its false security — its wealth, its weapons, its commercial networks, its self-reliance. All will be revealed as worthless. And in the stripping away of all that is temporary, only one thing will remain: the knowledge that God is real, God is just, and God&apos;s word is true.',
   ],

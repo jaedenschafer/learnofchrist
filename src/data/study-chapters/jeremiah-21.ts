@@ -13,6 +13,7 @@ export const JEREMIAH_21: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 21,
 
+  estimatedMinutes: { 5: 4, 10: 7, 15: 8 },
   intros: [
     'King Zedekiah sends Pashur and Zephaniah to ask Jeremiah if the Lord will deliver Jerusalem from the siege of the Babylonians. Zedekiah still hopes for a miraculous deliverance, yet he does not want to hear what the prophet will actually say. Jeremiah&apos;s answer is stark: God will not fight for Jerusalem. The only way to survive is to surrender to Babylon.',
     'This is the hardest message Jeremiah has had to deliver — to a king, to a people, to promise not deliverance but subjugation. Yet the message carries a deeper truth: the way of death is the way of pride and resistance; the way of life is the way of submission and humility. God offers His people a choice, and the choice is clear.',

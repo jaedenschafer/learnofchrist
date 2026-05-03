@@ -15,6 +15,7 @@ export const CHRONICLES_2_27: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 27,
 
+  estimatedMinutes: { 5: 4, 10: 7, 15: 10 },
   intros: [
     'Jotham ascends the throne at twenty-five years old, a young king in a troubled kingdom. His father Uzziah has been a long reign &mdash; forty years of reform and power. But Uzziah&apos;s final act was transgression: he entered the temple of the Lord to burn incense, the privilege of priests alone, and God struck him with leprosy. The kingdom learned a hard lesson about the boundaries God sets.',
     'Into this inheritance steps Jotham. He does right in the sight of the Lord, following his father&apos;s example of devotion and reform. But he does something his father failed to do: he does not enter the temple. He honors the boundary that broke his father. And in this restraint &mdash; in knowing what he must not do &mdash; Jotham finds the foundation for a reign of building, victories, and increasing power. He prospers not because the people are righteous, for they remain corrupt. He prospers because he prepares his ways before the Lord his God.',

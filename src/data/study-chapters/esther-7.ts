@@ -19,6 +19,7 @@ export const ESTHER_7: RichChapterContent = {
   bookName: 'Esther',
   chapter: 7,
 
+  estimatedMinutes: { 5: 3, 10: 7, 15: 10 },
   intros: [
     'The moment of revelation has come. Esther sits at table with King Ahasuerus and Haman, the man who set in motion the decree to destroy all the Jews in the kingdom. The king, still unaware of the plot, asks again at the second banquet: "What is thy petition?" For the second time, he promises to grant it, even to half his kingdom. The stage is set. Esther, who has prepared herself through fasting and prayer, must now speak the truth that will determine the fate of her people and the destiny of her enemy.',
     'This chapter is the dramatic climax of the book of Esther. It is a story of reversed fortune — the man who dug a pit for another falls into it himself; the gallows built for the innocent becomes the scaffold of the guilty; the plot to annihilate becomes the destruction of the plotter. And beneath it lies a pattern that echoes through Scripture: the overthrow of the adversary by the designs he meant for the righteous.',

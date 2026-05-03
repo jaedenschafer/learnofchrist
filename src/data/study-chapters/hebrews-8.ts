@@ -11,6 +11,7 @@ export const HEBREWS_8: RichChapterContent = {
   bookName: 'Hebrews',
   chapter: 8,
 
+  estimatedMinutes: { 5: 7, 10: 13, 15: 18 },
   intros: [
     'Hebrews 8 contains the longest quotation of the Old Testament anywhere in the New Testament—an entire passage from Jeremiah 31. The author has spent seven chapters proving that Christ is a better High Priest than any priest under the Law. Now comes the punchline: He is the mediator of a better covenant. Not written in stone. Written on the human heart. This is the transformation the gospel accomplishes.',
     'The old covenant was not defective—it was a preparation, a shadow, a teacher pointing forward. But Christ brings the substance. He stands at the right hand of God&apos;s throne and mediates a covenant based on better promises: forgiveness remembered as if it never happened, and a people who know God from the least to the greatest.',

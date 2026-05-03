@@ -20,6 +20,7 @@ export const MARK_16: RichChapterContent = {
   bookName: 'Mark',
   chapter: 16,
 
+  estimatedMinutes: { 5: 2, 10: 6, 15: 8 },
   intros: [
     'Mark 16 opens on the day after the Sabbath. The women—Mary Magdalene, Mary the mother of James, and Salome—go to the tomb, asking themselves: "Who shall roll us away the stone from the door of the sepulchre?" But they find the stone already rolled away. They enter the tomb and see a young man clothed in white sitting on the right side. He says: "Be not affrighted: Ye seek Jesus of Nazareth, which was crucified: he is risen; he is not here: behold the place where they laid him." The Resurrection has occurred. Jesus is not among the dead. He is risen.',
     'The young man tells the women: "But go your way, tell his disciples and Peter that he goeth before you into Galilee: there shall ye see him, as he said unto you." But the women flee the tomb in fear and amazement. Then the risen Jesus appears to Mary Magdalene and to the disciples. To them He gives the Great Commission: "Go ye into all the world, and preach the gospel to every creature. He that believeth and is baptized shall be saved; but he that believeth not shall be damned." The gospel is universal. It is addressed to every creature. And it culminates not in individual salvation alone, but in the proclamation of the risen Christ to all the world.',

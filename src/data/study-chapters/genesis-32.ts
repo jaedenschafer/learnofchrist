@@ -17,6 +17,7 @@ export const GENESIS_32: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 32,
 
+  estimatedMinutes: { 5: 9, 10: 16, 15: 20 },
   intros: [
     'Jacob is going home. For twenty years he has lived in exile in Haran, hiding from the brother he cheated. He has built a family, amassed herds and servants, and survived the schemes of his father-in-law. Now the time has come to go back to Canaan, to face the man he wronged. And Esau is coming to meet him — with four hundred men.',
     'What follows is a night without parallel in Scripture. Alone at the river Jabbok, Jacob encounters a mysterious figure. The text calls him a Man. Jacob calls him God. The Church has long understood him as a pre-incarnate appearance of the Son — a christophany. And what happens in that darkness is neither a vision nor a prayer alone, but something physical and real: a wrestling match with God Himself, where the blessing comes through the wound.',

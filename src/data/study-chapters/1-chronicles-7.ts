@@ -18,6 +18,7 @@ export const CHRONICLES_1_7: RichChapterContent = {
   bookName: '1 Chronicles',
   chapter: 7,
 
+  estimatedMinutes: { 5: 5, 10: 11, 15: 15 },
   intros: [
     'The Chronicler now turns to the genealogies of the northern tribes. Issachar, Benjamin, Naphtali, Manasseh, Ephraim, and Asher all receive their place in the sacred record. Most of these tribes have been carried away into exile by Assyria, scattered and seemingly lost to history. Yet the Chronicler does not forget them. He records their names, their line of descent, the numbers of their mighty men. His point is clear: these tribes still belong to Israel. They are still counted among the people of God, even in exile, even in exile.',
     'Within this chapter lies a narrative gem that speaks to the heart of what the Chronicler wants to convey: Ephraim&apos;s grief. His sons are killed by men of Gath who come to steal their cattle. Ephraim grieves many days, and his brethren come to comfort him. Then he conceives again and bears a son, naming him Beriah — "in evil" — because it went evil with his house. The pain becomes the name. And from that son, descendants multiply, many and mighty. Joshua, the great conqueror of the Promised Land, traces his lineage through this grieving father. In this small story, we see how God works through sorrow to redemption.',

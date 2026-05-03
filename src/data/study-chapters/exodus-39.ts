@@ -5,6 +5,7 @@ export const EXODUS_39: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 39,
 
+  estimatedMinutes: { 5: 6, 10: 9, 15: 12 },
   intros: [
     'Exodus 39 is the completion. After the golden calf shattered everything, after Moses interceded and God relented, after judgment and forgiveness, Israel now makes the priestly garments exactly as the LORD commanded. Every detail matters: the ephod with its shoulder pieces, the breastplate holding the names of the tribes, the robe with its bells and pomegranates, the gold plate engraved "HOLINESS TO THE LORD." The chapter pulses with one refrain, repeated like a refrain across seven verses: "as the LORD commanded." This is the echo of Genesis 1&apos;s seven-fold "and God saw that it was good." After the fall, here is Israel restoring what was broken — and doing it precisely.',
     'The chapter ends with an inspection. Moses sees all the work, finds that the people have done it exactly as God commanded, and then does something profoundly simple: he blesses them. Not because the work was perfect in execution, but because it was obedient. And for the reader who knows the cross, this chapter holds a secret: the Son, too, will say at the end of His work, "It is finished" — the work the Father gave Him, completed precisely.',

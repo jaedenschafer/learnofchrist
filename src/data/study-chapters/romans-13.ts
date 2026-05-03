@@ -12,6 +12,7 @@ export const ROMANS_13: RichChapterContent = {
   bookName: 'Romans',
   chapter: 13,
 
+  estimatedMinutes: { 5: 8, 10: 14, 15: 20 },
   intros: [
     'Paul writes Romans 13 while living under Nero&apos;s rule—a tyrant who would later execute him. Yet he tells believers to submit to authority as ordained by God. This is not a blanket endorsement of every ruler. It is a statement that authority itself, the principle of divinely-ordered rule that restrains evil and rewards good, is part of God&apos;s design. The tension is real: you owe submission to civil order, yet you owe a higher submission to God&apos;s conscience and His law.',
     'But submission to authority is not the final word. Above it rises something higher: love. Love your neighbor as yourself—this is the fulfillment of all law. Every commandment, Paul says, hangs on love. When you love, you will not steal, lie, murder, or covet. Love does no ill. Love is the law&apos;s completion.',

@@ -15,6 +15,7 @@ export const REVELATION_4: RichChapterContent = {
   bookName: 'Revelation',
   chapter: 4,
 
+  estimatedMinutes: { 5: 5, 10: 11, 15: 15 },
   intros: [
     'The letters to the seven churches are finished. Now the scene shifts—John is transported to heaven itself. What the earthly churches endure in tribulation is met here by a vision of an unchanging reality: God sits upon His throne. Above all earthly rulers, all human authority, all earthly sorrow, there reigns one whose kingdom can never be shaken. For every believer facing persecution or hardship, John&apos;s vision asks the same question: Will you believe what is eternally true, or only what you can presently see?',
     'Every detail in this chapter recalls the visions of Ezekiel and Isaiah—the throne, the rainbow, the four creatures, the unceasingly singing "Holy, holy, holy." This is not fanciful imagery but a window into the throne-room that has been God&apos;s seat since before time began. The creatures worship without ceasing. The elders cast down their crowns. All heaven sings the worthiness of the One who created all things. This is the song your life is meant to echo.',

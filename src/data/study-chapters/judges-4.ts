@@ -13,6 +13,7 @@ export const JUDGES_4: RichChapterContent = {
   bookName: 'Judges',
   chapter: 4,
 
+  estimatedMinutes: { 5: 8, 10: 16, 15: 20 },
   intros: [
     'The children of Israel have turned from God again, and this time the cost is iron. Jabin king of Canaan oppresses them for twenty years with 900 chariots — an armored force Israel cannot hope to match on the open field. They cry out to the Lord.',
     'God answers through Deborah, a prophetess who sits under a palm tree and judges Israel. She calls on Barak to raise ten thousand men and face Sisera, Jabin&apos;s commander. Barak hesitates: he will only go if Deborah goes with him. She agrees — but warns him that the honor of the kill will go to a woman. The battle unfolds at the river Kishon, where the Lord discomfits Sisera&apos;s chariots. Sisera flees on foot and finds shelter in the tent of Jael, a Kenite woman. There, while he sleeps, Jael drives a tent peg through his temples.',

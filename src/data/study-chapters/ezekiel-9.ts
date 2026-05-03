@@ -14,6 +14,7 @@ export const EZEKIEL_9: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 9,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
   intros: [
     'The judgment Ezekiel has announced now arrives in vision. Six men with slaughter weapons appear, instruments of divine wrath. But before they act, another figure appears — a man clothed in linen, holding an ink-horn. This is no mere scribe. This is a figure who marks those who are to be spared. And whom does he mark? Not the righteous by their own estimation. Not the powerful or the successful. He marks those who sigh and cry over the abominations — the ones who see the idolatry and injustice and cannot remain silent, cannot harden themselves to it. These are marked for preservation. In the midst of judgment that spares no one outwardly, God identifies and protects those who have kept their hearts open to His truth.',
   ],

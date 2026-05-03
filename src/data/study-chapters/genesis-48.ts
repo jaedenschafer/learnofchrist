@@ -14,6 +14,7 @@ export const GENESIS_48: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 48,
 
+  estimatedMinutes: { 5: 8, 10: 14, 15: 18 },
   intros: [
     'Genesis 48 is a moment of divine reversal played out in the fading eyesight and steady faith of an old man on his deathbed. Jacob hears that Joseph has brought his two sons to be blessed. The names Manasseh and Ephraim are not accidents — they are Joseph&apos;s thanksgiving, the names he gave his sons in Egypt to remember how God had dealt with him in exile: "causing to forget" the pain, and "fruitful" in the midst of estrangement. Now Jacob, Israel, will adopt these two boys into the covenant. But he will do something that will echo through Scripture: he will bless the younger over the older. Again.',
     'From Cain and Abel, through Ishmael and Isaac, Esau and Jacob — Genesis is a book about the reversal of human ranking. The last shall be first. The God of Israel does not ask, "Who is oldest?" He asks, "Whom do I love?" And on this day, with hands that have wrestled God and been blessed, Jacob will see a pattern he has lived inside finally made plain: God chooses not by birth order but by grace. The pattern will not be finished until Christ comes, and the last becomes first in a way no one expected.',

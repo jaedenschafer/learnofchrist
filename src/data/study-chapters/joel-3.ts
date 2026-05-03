@@ -5,6 +5,7 @@ export const JOEL_3: RichChapterContent = {
   bookName: 'Joel',
   chapter: 3,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
   intros: [
     'Joel 3 looks to the final judgment — the valley of decision. God will gather all nations to judge them for what they have done to His people. "The Lord shall roar out of Zion, and utter his voice from Jerusalem; and the heavens and the earth shall shake."',
     'Yet even here, in the midst of judgment, there is a promise of deliverance. "But Zion shall be holy, and there shall no strangers pass through her any more." God will protect His own. The nations will be judged, but God&apos;s people will be saved.',

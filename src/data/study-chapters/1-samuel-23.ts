@@ -18,6 +18,7 @@ export const SAMUEL_1_23: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 23,
 
+  estimatedMinutes: { 5: 9, 10: 15, 15: 20 },
   intros: [
     'David has been hunted by Saul for months, living in caves and strongholds. In this chapter, he faces an impossible choice: he can help the people of Keilah who are suffering under Philistine attack, or he can stay hidden. He chooses to deliver them — and immediately discovers that the very people he saves will sell him to his enemy. Twice he inquires of God, each time learning not just what will happen, but what would have happened if he had stayed. And then, in the wilderness, his friend Jonathan appears one last time, not with an army, but with words: "Fear not, the hand of Saul my father shall not find thee." God delivers David not through his own strength, but through an unexpected turn of events — a Philistine attack that interrupts Saul&apos;s pursuit. The rock of escape becomes a monument to providence.',
   ],

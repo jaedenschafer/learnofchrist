@@ -15,6 +15,7 @@ export const PSALMS_126: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 126,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Psalm 126 celebrates a return, a restoration, an undoing of captivity. The people have been in exile, separated from their land, their temple, their home. And then—the Lord &quot;turns again&quot; their captivity. They are freed. They come home. The joy is so overwhelming that it seems unreal, a dream. "We were like them that dream." They had almost given up hope. But hope has been vindicated. They have returned. Yet the psalm is not merely a song of past deliverance. It is a meditation on the pattern God establishes in the world: sowing in tears, reaping in joy. Suffering that leads to triumph. Winter that precedes spring.',
   ],

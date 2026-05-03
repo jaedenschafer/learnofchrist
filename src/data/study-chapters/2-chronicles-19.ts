@@ -20,6 +20,7 @@ export const CHRONICLES_2_19: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 19,
 
+  estimatedMinutes: { 5: 4, 10: 10, 15: 14 },
   intros: [
     'The previous chapter ended with disaster. Jehoshaphat, king of Judah, had made a foolish alliance with Ahab, the wicked king of Israel, and had fought alongside him in battle. The result was catastrophe — Ahab was killed, and Jehoshaphat himself barely escaped with his life. Now he returns to Jerusalem in peace, his nation shaken, his judgment questioned. And immediately, a prophet meets him with a word from the Lord.',
     'But this word is neither condemnation nor comfort. It is both rebuke and affirmation. "Shouldest thou help the ungodly, and love them that hate the Lord? therefore is wrath upon thee from before the Lord." The king has made a terrible mistake. And yet: "Nevertheless there are good things found in thee, in that thou hast taken away the groves out of the land, and hast prepared thine heart to seek God." God sees both the failure and the faithfulness. And Jehoshaphat, instead of defending himself, takes the word to heart. He does not imprison the prophet, as his ancestor Asa had done. Instead, he begins a reformation — not of his own heart alone, but of the entire judicial system of his kingdom. The response to rebuke is systemic repentance.',

@@ -17,6 +17,7 @@ export const JEREMIAH_13: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 13,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
   intros: [
     'Jeremiah 13 opens with God commanding the prophet to perform a symbolic action. He is to buy a linen girdle, wear it for a period of time, and then remove it and hide it by the river so that it becomes corrupted. When the time comes, he is to return and find that it has been marred—it is no good for its purpose anymore. Jeremiah then declares the meaning: "After the manner shall I mar the pride of Judah, and the great pride of Jerusalem." Israel, meant to be God&apos;s glory—the girdle that adorns Him—has become corrupted through pride and disobedience.',
     'Later in the chapter, Jeremiah addresses the question of whether human nature can be transformed: "Can the Ethiopian change his skin, or the leopard his spots? then may ye also do good, that are accustomed to do evil." The implication is clear: no. A person accustomed to evil cannot simply choose to do good any more than an Ethiopian can bleach their skin or a leopard lose their spots. Transformation is impossible through human effort alone. Yet Christ offers what is humanly impossible—a new nature, a changed heart, a life redeemed.',

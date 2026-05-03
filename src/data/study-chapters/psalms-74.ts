@@ -14,6 +14,7 @@ export const PSALMS_74: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 74,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Psalm 74 arises from the desolation of catastrophe. The enemy has invaded God&apos;s sanctuary. The temple has been desecrated. "Thine enemies roar in the midst of thy congregations; they set up their ensigns for signs." The place that should be holy has been turned into a place of idolatry and violence.',
     'Yet in this desolation, the psalmist does not abandon hope. He cries out to God, reminding God of His power, of His nature, of His past deeds. "Arise, O God, plead thine own cause." The prayer is that God would act to vindicate His own name, to restore what has been desecrated, to prove that He is still the God of power and mercy.',

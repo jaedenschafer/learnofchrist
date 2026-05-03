@@ -14,6 +14,7 @@ export const EZEKIEL_5: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 5,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Ezekiel&apos;s sign-acts continue to become more extreme. First the tile and siege works. Then 430 days of lying on his side. Now God commands him to take a razor — a tool associated with shame in ancient Israel — and shave his head and beard completely. In the presence of the exiles, he is stripped of these marks of dignity. Then he divides the shorn hair into three equal parts and acts out the fates of Jerusalem: one portion burned, one scattered to the wind, one struck with a sword. The symbolism is relentless. Jerusalem will be consumed by fire. Its people will be scattered to exile. Its armies will be struck down. This is the judgment Ezekiel is forced to embody, strand by strand.',
   ],

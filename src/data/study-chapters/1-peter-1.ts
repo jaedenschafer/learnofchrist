@@ -17,6 +17,7 @@ export const FIRST_PETER_1: RichChapterContent = {
   bookName: '1 Peter',
   chapter: 1,
 
+  estimatedMinutes: { 5: 8, 10: 16, 15: 24 },
   intros: [
     'First Peter is written to scattered believers—people who have been driven out of their homes, living as foreigners in hostile territory. They face pressure from the culture around them, the loss of security, the daily weight of being "other." Peter does not console them by promising an easy life. Instead, he anchors them in a deeper reality: they have been born again to a living hope, and their inheritance in heaven is secure and cannot be taken from them.',
     'The theme running through this chapter is hope that holds steady when circumstances collapse. This hope is not optimism that things will work out. It is the unshakeable confidence that Christ has risen, that God has seated Him at His right hand, that the resurrection is the proof that death itself does not have the final word. For believers scattered and pressed, hope becomes the daily air they breathe.',

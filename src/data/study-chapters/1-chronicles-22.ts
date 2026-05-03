@@ -18,6 +18,7 @@ export const CHRONICLES_1_22: RichChapterContent = {
   bookName: '1 Chronicles',
   chapter: 22,
 
+  estimatedMinutes: { 5: 6, 10: 13, 15: 17 },
   intros: [
     'David has conquered Jerusalem. He has brought the ark of the covenant into the city. He has gathered the strangers in the land and commanded them to prepare stone and timber. His heart is full of the vision: a house for the Lord God of Israel, a place of worship worthy of the eternal King.',
     'But there is a word the Lord has spoken to him, and David does not resist it. He was a man of blood. His hands have shed much blood in great wars. He will not build the temple of the Lord God. Instead, something more difficult: he will prepare for another to build it. He will gather the materials, marshal the resources, and then hand them to his son Solomon. This is the work of a king who understands his own limitations and trusts God&apos;s larger plan.',

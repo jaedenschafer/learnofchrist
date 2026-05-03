@@ -14,6 +14,7 @@ export const PSALMS_48: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 48,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 6 },
   intros: [
     'Psalm 48 is a song of Zion—a celebration of the city of God, His dwelling place, the mountain of His holiness. The psalmist looks at this city and sees beauty, strength, permanence. "Great is the Lord, and greatly to be praised in the city of our God, in the mountain of his holiness." The city itself is beautiful in its elevation. The mountain on which it stands is the expression of God&apos;s dominion. Kings and princes have tried to attack it, but they could not prevail. God is in its midst. It will not be moved.',
     'For Jewish readers, this was an actual city—Jerusalem, the place where the Temple stood, where God dwelt among His people. For Christian readers, the imagery points beyond the earthly Jerusalem to the heavenly city, the New Jerusalem, the home that Christ is preparing for His people. It is a city not made with hands, but eternal in the heavens. A place of perfect beauty, perfect safety, eternal dwelling with God.',

@@ -16,6 +16,7 @@ export const ISAIAH_32: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 32,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
   intros: [
     'After the judgment against those who trust in Egypt comes a vision of restoration. A king shall come—not merely a ruler, but one who reigns in righteousness. Princes will rule in justice. Each man will be like a refuge from the wind and a covert from the tempest. And more than the coming of righteous rulers, the Spirit will be poured out from on high. The wilderness—symbol of desolation, curse, emptiness—will become a fruitful field. The work of righteousness will be peace, and the effect of righteousness will be quietness and assurance forever. This is not merely political renewal. This is spiritual transformation.',
   ],

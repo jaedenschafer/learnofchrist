@@ -21,6 +21,7 @@ export const CHRONICLES_1_6: RichChapterContent = {
   bookName: '1 Chronicles',
   chapter: 6,
 
+  estimatedMinutes: { 5: 6, 10: 11, 15: 16 },
   intros: [
     'The book of 1 Chronicles opens with genealogies — long lists of names that might seem to be mere historical record, but which tell a story of God&apos;s continuity with His people. Chapter 6 is one of the most genealogically dense chapters in all of Scripture, yet it is deeply theological. It traces not just family lines, but the unbroken priesthood of Aaron, the leadership of Levite singers, and the network of cities where God&apos;s worship was centered.',
     'At the heart of this chapter is a profound truth: God did not leave His people without mediation, without worship, without refuge. The high priests traced in these verses — from Aaron through Eleazar to the young Azariah who served in Solomon&apos;s temple — form an unbroken chain of atonement-work. The Levitical singers — Heman, Asaph, and Ethan — wrote the psalms that still instruct our worship. And the 48 Levitical cities, scattered throughout every tribe, meant that no Israelite was far from a place of worship or a city of refuge. The genealogy is a map of God&apos;s faithfulness.',

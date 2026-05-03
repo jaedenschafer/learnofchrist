@@ -12,6 +12,7 @@ export const DEUTERONOMY_28: RichChapterContent = {
   bookName: 'Deuteronomy',
   chapter: 28,
 
+  estimatedMinutes: { 5: 16, 10: 22, 15: 26 },
   intros: [
     'Deuteronomy 28 is the longest and most consequential chapter in the entire book of covenant law. In its first fourteen verses, Moses pours out blessings on Israel: if you hearken diligently to the voice of the Lord, you shall be set on high above all the nations of the earth. Blessed in the city and in the field. Blessed in your offspring, your crops, your cattle. The Lord will open His good treasure of heaven and give you rain. The enemies of Israel shall flee before you seven different ways.',
     'Then verses 15–68 — a catalog of curses roughly four times longer than the blessings. This is intentional. If you will not hearken, curses shall pursue you and overtake you. Pestilence, madness, blindness, astonishment of heart. Every blessing becomes a curse: the fruit of your body given to another people, your eyes looking and failing. A nation from afar, swift as the eagle, will besiege your gates until the high walls fall. In the siege, the fruit of your own body becomes meat. The Lord shall scatter you from one end of the earth to the other; among those nations no rest, no repose of the sole of your foot, and your life shall hang in doubt before you day and night.',

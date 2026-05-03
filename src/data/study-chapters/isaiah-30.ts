@@ -15,6 +15,7 @@ export const ISAIAH_30: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 30,
 
+  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
   intros: [
     'Isaiah 30 is addressed to "rebellious children" who have devised a counsel but not of God, who have made a league with Egypt seeking deliverance. The political reality was that Judah was caught between the great powers of Egypt and Assyria, and the kings of Judah looked to Egypt for military support. Yet the prophet declares that this reliance is futile. The prophet&apos;s message is simple: return to God; rest in God; trust in God alone.',
     'The promise at the close of the chapter is the heart of the message: in returning (repentance, turning back) and rest (ceasing from striving), salvation will come. Not through military might, not through alliances, not through the strategies of the wise, but through the humble acceptance of God&apos;s care. This is the message Isaiah brings to every generation that seeks security in the wrong places.',

@@ -18,6 +18,7 @@ export const FIRST_TIMOTHY_4: RichChapterContent = {
   bookName: '1 Timothy',
   chapter: 4,
 
+  estimatedMinutes: { 5: 10, 10: 17, 15: 26 },
   intros: [
     'Asceticism creeps into the church. False teachers speak with confidence born of deception, forbidding marriage and demanding abstinence from certain foods. Their theology inverts the created order: the body becomes enemy territory to be starved, rather than God&apos;s creation to be received with gratitude. Paul responds with pastoral firmness, cutting through the spiritual seduction with apostolic authority.',
     'Yet Paul does not dismiss all discipline. He calls Timothy to "exercise thyself unto godliness." The Greek word is gumnaze—to train as an athlete. Discipline is necessary. But it aims not at self-punishment or the denial of creation, but at becoming conformed to Christ. Training the spirit means proper alignment of the whole person—body, soul, and spirit—toward the image of Jesus.',

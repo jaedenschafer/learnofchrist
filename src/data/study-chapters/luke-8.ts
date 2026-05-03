@@ -18,6 +18,7 @@ export const LUKE_8: RichChapterContent = {
   bookName: 'Luke',
   chapter: 8,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
   intros: [
     'Jesus travels from city to city and village to village, preaching and showing the glad tidings of the kingdom of God. The twelve are with Him. Women also travel with Him, ministering to Him: Mary called Magdalene, from whom He had cast seven demons; Joanna; Susanna; and many others who give of their substance. He gathers a great multitude. He speaks to them in a parable: "A sower went out to sow his seed." Where the seed falls determines what comes forth. The same word produces different fruit depending on the heart that receives it.',
     'Jesus and His disciples get into a boat and sail across the lake. Jesus sleeps. A storm arises. The disciples are terrified. They wake Jesus: "Master, master, we perish!" Jesus rebukes the wind and the raging water. They cease. Calm comes. He says to His disciples: "Where is your faith?" But they are amazed. "What manner of man is this? for he commandeth even the winds and water, and they obey him."',

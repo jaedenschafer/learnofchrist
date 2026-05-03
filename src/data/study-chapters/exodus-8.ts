@@ -18,6 +18,7 @@ export const EXODUS_8: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 8,
 
+  estimatedMinutes: { 5: 8, 10: 13, 15: 16 },
   intros: [
     'Exodus 8 narrows the conflict. In chapter 7, Pharaoh&apos;s magicians matched the first plague — blood turned to blood. But a magician can only multiply what already exists. Here, Moses brings plagues that neither appear in nature nor can be learned. The magicians will make one more match and then they will stop. They will utter words that change everything.',
     'This chapter also introduces a new pattern. As the plagues escalate, God draws a line between Egypt and Goshen — the land where Israel lives. The language shifts from "all Egypt" to "except the people of Israel" or "except Goshen." God is not just punishing Pharaoh. He is separating His people from judgment. It is the first hint that God thinks in terms of His own people apart from everyone else.',

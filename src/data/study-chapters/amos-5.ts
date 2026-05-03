@@ -5,6 +5,7 @@ export const AMOS_5: RichChapterContent = {
   bookName: 'Amos',
   chapter: 5,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
   intros: [
     'Amos 5 contains one of the most famous passages in the book: "But let judgment run down as waters, and righteousness as a mighty stream." God does not desire elaborate worship divorced from justice. He desires righteousness.',
     'The chapter begins with a dirge — a lament: "The virgin of Israel is fallen; she shall no more rise." But immediately Amos calls Israel to seek the Lord and live. Even in judgment, there is the invitation to repent. Seek the Lord and you shall live.',

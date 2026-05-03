@@ -15,6 +15,7 @@ export const JAMES_5: RichChapterContent = {
   bookName: 'James',
   chapter: 5,
 
+  estimatedMinutes: { 5: 6, 10: 9, 15: 14 },
   intros: [
     'James opens with a direct warning to the rich. Their hoarded riches will rot. Gold and silver rust. The wages they have withheld cry out against them—God hears the pleas of the exploited. But this warning is not the heart of the chapter. The real message is for the suffering poor: wait. Be patient. The Lord is coming.',
     'He then turns to prayer and healing, the true power of the believing community. Sickness is met not with resignation but with the prayer of faith. Sins are forgiven through confession and intercession. Elijah was a man like us, yet his earnest prayer stopped the rain. This is the power available to every believer—not in ourselves, but in prayer offered in faith to a God who hears and responds.',

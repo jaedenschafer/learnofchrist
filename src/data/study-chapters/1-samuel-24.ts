@@ -16,6 +16,7 @@ export const SAMUEL_1_24: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 24,
 
+  estimatedMinutes: { 5: 3, 10: 10, 15: 12 },
   intros: [
     'David is a fugitive. Saul, once his king and patron, has become his relentless pursuer. After David spared Saul&apos;s life at Nob and again at Ziph, Saul remains convinced that David seeks his throne. Driven into the wilderness of Engedi, David and his men hide among the rocks while Saul hunts them with three thousand soldiers. And then the moment comes: in a cave, Saul is alone and vulnerable. The hunters have become the hunted.',
     'What happens next defies the logic of survival. David&apos;s men see deliverance; David sees only the boundary he will not cross. He has opportunity, justification, and even a sign from his friends: "Behold the day of which the Lord said unto thee, Behold, I will deliver thine enemy into thine hand." But David refuses. His conscience is alert to a truth deeper than advantage: the anointed does not seize the throne from the anointed. The future king must wait for the future God has planned. In this chapter we meet the man who will become Israel&apos;s greatest king — not through what he takes, but through what he refuses to take.',

@@ -18,6 +18,7 @@ export const KINGS_2_21: RichChapterContent = {
   bookName: '2 Kings',
   chapter: 21,
 
+  estimatedMinutes: { 5: 6, 10: 12, 15: 17 },
   intros: [
     'Manasseh ascends the throne at twelve years old and reigns for fifty-five years — the longest reign in Judah&apos;s history, and the most catastrophic. Every reform his father Hezekiah enacted, Manasseh systematically reverses. High places that had been torn down are rebuilt. Altars for Baal rise in the very courts of God&apos;s house. Manasseh consults mediums and spiritists. He burns his own son in the fire — a practice so abhorrent that even the pagan nations around Judah condemned it. And through it all, he sheds innocent blood with such cruelty that it becomes a byword. The prophets rise to warn him, but Manasseh will not listen. When the chapter closes, it leaves us in darkness — a king in rebellion, a nation corrupted, a temple desecrated. Only later Scripture will reveal what happened next: repentance in exile, restoration by God&apos;s hand, and a second chance none of us deserve.',
   ],

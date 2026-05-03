@@ -20,6 +20,7 @@ export const ESTHER_5: RichChapterContent = {
   bookName: 'Esther',
   chapter: 5,
 
+  estimatedMinutes: { 5: 5, 10: 8, 15: 10 },
   intros: [
     'Esther has fasted for three days. She has cast herself entirely upon God&apos;s mercy. And now, dressed in her royal robes, she stands in the inner court of the king&apos;s house — a place where she has not been summoned. The penalty for approaching the king unbidden is death, unless he extends his golden sceptre.',
     'But the king sees her, and he is pleased. He holds out the sceptre. "What is thy request?" he asks. "Even to the half of the kingdom, it shall be granted thee." Esther invites him and Haman to a feast. At the feast, the king again asks what she desires. And Esther, with remarkable composure and wisdom, asks them to come to another banquet. She will tell him then.',

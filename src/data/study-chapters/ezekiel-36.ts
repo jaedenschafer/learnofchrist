@@ -14,6 +14,7 @@ export const EZEKIEL_36: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 36,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Israel has been scattered. Her cities are ruins. Her people are exiles. The land itself is desolate. But God&apos;s love for His people does not depend on their circumstance. He will not leave them as they are. In a passage of extraordinary tenderness, God speaks to the mountains of Israel and says: I will make you green again. The desolate places will be rebuilt. The barren land will be tilled. The ruins will become cities.',
     'But the physical restoration is only the outer layer of the promise. The true renewal happens inside. "A new heart also will I give you, and a new spirit will I put within you." This is the deepest transformation—not merely restored circumstances, but transformed hearts. The people will remember their sins and loathe themselves. And in that loathing, they will understand how much they have been forgiven. This is the beginning of true repentance.',

@@ -16,6 +16,7 @@ export const GENESIS_39: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 39,
 
+  estimatedMinutes: { 5: 7, 10: 11, 15: 14 },
   intros: [
     'Genesis 39 opens a long descent for Joseph that looks at first like an ascent. Potiphar, an officer of Pharaoh, buys Joseph and sees something in him — favor, competence, the presence of God. Joseph prospers. He is promoted. He has oversight of everything. And then Potiphar&apos;s wife looks at him.',
     'What happens next is a study in how righteousness costs. Joseph is a young man in a foreign land, enslaved, with no ally, no family, no claim to protection. He could slip with no one the wiser. Instead he refuses daily, naming the refusal plainly: this would be "great wickedness" against God. When she seizes him by the garment, he tears himself free and flees — and she lies, and he is thrown into prison. Yet the chapter&apos;s refrain never wavers: the LORD was with Joseph.',

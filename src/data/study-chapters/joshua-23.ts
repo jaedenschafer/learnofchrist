@@ -11,6 +11,7 @@ export const JOSHUA_23: RichChapterContent = {
   bookName: 'Joshua',
   chapter: 23,
 
+  estimatedMinutes: { 5: 7, 10: 11, 15: 16 },
   intros: [
     'After decades of conquest, Joshua is old. The Lord has given Israel rest from all enemies. Now, near the end of his life, Joshua gathers the nation&apos;s leaders to remind them of what God has done and warn them of what lies ahead.',
     'This is Joshua&apos;s first farewell address — a call to remember. He stands between two eras: the forty years of wandering and conquest now finished, and a future when Israel will live as a nation in their own land. His words are urgent. The danger is subtle. Not foreign armies — those God has already defeated. The real threat is the slow erosion of covenant loyalty, the creeping influence of pagan neighbors, the forgetting of who fights for them.',

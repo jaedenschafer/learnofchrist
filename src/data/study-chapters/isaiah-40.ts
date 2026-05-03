@@ -17,6 +17,7 @@ export const ISAIAH_40: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 40,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
   intros: [
     'After the prophecy of exile comes a word of comfort. "Comfort ye, comfort ye my people." The exile is real. The loss is real. But it is not final. A voice cries out in the wilderness: prepare the way of the Lord. This is the voice that John the Baptist will embody—the one who prepares the way for the Messiah. And the Messiah comes not as a distant king but as a Shepherd. He will feed His flock. He will gather the lambs in His arms. He will gently lead those that are with young. To those who wait upon the Lord, He promises renewed strength. They shall mount up with wings as eagles. They shall run and not be weary. They shall walk and not faint. This is the promise that sustains the exiled people and speaks to every reader who faces despair.',
   ],

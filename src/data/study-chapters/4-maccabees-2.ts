@@ -13,6 +13,7 @@ export const FOURTH_MACCABEES_2: RichChapterContent = {
   bookName: '4 Maccabees',
   chapter: 2,
 
+  estimatedMinutes: { 5: 7, 10: 10, 15: 15 },
   intros: [
     'Chapter 1 made a daring claim: devout reason can master even the strongest passions. But Chapter 2 tests it. Does reason truly overcome hunger, lust, anger, greed? The writer turns to the law of Moses and to the great figures of Israel—finding proof that yes, it does.',
     'What Joseph did when Potiphar&apos;s wife pursued him, what the law forbids coveting because reason can govern appetite, what even the greatest trials cannot break—these are not abstract philosophy but the fruit of a mind surrendered to God.',

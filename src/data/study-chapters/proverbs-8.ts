@@ -15,6 +15,7 @@ export const PROVERBS_8: RichChapterContent = {
   bookName: 'Proverbs',
   chapter: 8,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
   intros: [
     'The eighth chapter of Proverbs presents wisdom speaking in her own voice, making claims about her nature and her authority. She is not a new thing, a human invention, or a cultural preference. She existed before creation. She was present when God ordered the cosmos. And her call to those who will listen is not arbitrary command but invitation to align yourself with the deepest truth of reality itself.',
     'This is the most exalted vision of wisdom in Proverbs—wisdom not merely as good advice or prudent strategy, but as something cosmic, eternal, woven into the very structure of being. To seek wisdom is to seek alignment with the way things truly are, to step into the current of creation itself.',

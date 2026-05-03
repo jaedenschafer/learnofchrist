@@ -17,6 +17,7 @@ export const FIRST_ESDRAS_2: RichChapterContent = {
   bookName: '1 Esdras',
   chapter: 2,
 
+  estimatedMinutes: { 5: 8, 10: 14, 15: 18 },
   intros: [
     'Cyrus the Persian sits on history&apos;s greatest throne. His empire stretches from Egypt to the borders of India. He has conquered nations and bent the world to his will. Yet in the first year of his reign, something stirs his spirit—an unseen hand moving him toward a decision that will change the course of history. He opens prison gates and sends an entire people home to a city that lies in ruins. He returns the sacred vessels that have sat in pagan temples for seventy years. He gives money and materials for a work he will never see completed. The God of Israel, the God he has never explicitly named as his own, moves this mighty king to become His instrument.',
     'But the return is not a simple triumph. When the first builders lay the foundation and shout in celebration, those who have lived in the land for seventy years watch in fear. They offer themselves as partners. When they are refused, their offer curdles into opposition. Letters fly to the Persian court. Work stops. The chapter ends not with celebration but with silence—a stalled project, postponed hope, and the hard truth that God&apos;s work moves against resistance, even when that work has come from a king&apos;s own mouth.',

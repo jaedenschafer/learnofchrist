@@ -16,6 +16,7 @@ export const ISAIAH_61: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 61,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Isaiah 61 is one of the most directly Christological chapters in the Old Testament. The Servant speaks in the first person, describing the anointing He has received and the mission He carries. He comes to heal the brokenhearted, to comfort those who mourn, to replace their mourning with joy, their ashes with a crown of beauty. This is not abstract theology. It is a description of redemption that touches every person, heals every wound, restores every loss. And Jesus Himself claims this as His mission, reading it in the synagogue and saying: "This day is this scripture fulfilled in your ears" (Luke 4:21).',
   ],

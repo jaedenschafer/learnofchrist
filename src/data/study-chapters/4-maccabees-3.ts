@@ -18,6 +18,7 @@ export const FOURTH_MACCABEES_3: RichChapterContent = {
   bookName: '4 Maccabees',
   chapter: 3,
 
+  estimatedMinutes: { 5: 7, 10: 14, 15: 19 },
   intros: [
     'The book of 4 Maccabees is a philosophical meditation on one question: Can reason master the passions? The author&apos;s answer is yes—not by suppressing feeling, but by choosing what is noble over what is easy. To prove it, he draws on a story every Jewish listener would have known: David in hiding, burning with thirst, his men risking death to fetch him water.',
     'What happens next is not a king gulping water gratefully. Instead, David sees what the water has cost—the blood of his soldiers—and refuses to drink. He pours it out unto the Lord as a sacred offering. His appetite was real. His thirst was severe. But his reason, his integrity, his love for his men—these proved stronger. This is what 4 Maccabees means by reason mastering appetite: not denying desire, but choosing something higher.',

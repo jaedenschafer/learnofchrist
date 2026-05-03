@@ -14,6 +14,7 @@ export const SAMUEL_1_5: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 5,
 
+  estimatedMinutes: { 5: 5, 10: 8, 15: 10 },
   intros: [
     "After Israel&apos;s defeat at Ebenezer, the Philistines have taken the ark of the covenant—the holiest object in Israel&apos;s worship, the place where the Lord is said to dwell between the cherubim. They bring it to Ashdod, into the house of Dagon, their grain and fish god, as a trophy of conquest. But possession of the ark is not spoil; it is plague. The false god cannot coexist with the true God. Dagon falls.",
     'What follows is a pattern the Old Testament returns to again and again: the God of Israel pursues His people through judgment, and even the nations around them are forced to acknowledge His power. The Philistines will learn, as Egypt learned at the plagues, that you cannot contain or control the Lord. And for the reader on this side of the cross, the picture deepens: Christ Himself will enter the strongholds of death and darkness—and the powers there will fall before Him just as surely as Dagon fell in his own house.',

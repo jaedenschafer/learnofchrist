@@ -13,6 +13,7 @@ export const ACTS_5: RichChapterContent = {
   bookName: 'Acts',
   chapter: 5,
 
+  estimatedMinutes: { 5: 5, 10: 13, 15: 18 },
   intros: [
     'Acts 4 ended with the church giving all they had to the apostles, as need arose. It was a stunning witness to faith. But the very next chapter shows what happens when pretense slips in. Ananias and Sapphira sell their land and agree together to lie—to bring part of the price but claim they are giving all of it. They want the honor of complete sacrifice without the cost. Peter confronts them with a startling word: they have not lied to the apostles, they have lied to the Holy Ghost. Both fall dead. The judgment is swift. The silence in the church must have been total.',
     'Yet the apostles do not hide. They continue in Solomon&apos;s Porch, performing signs and wonders. The sick are laid in the streets. Peter&apos;s shadow passes over them and they are healed. The city fills with those seeking the apostles, and the Sanhedrin—jealous, afraid, losing control—has them all arrested. But an angel releases them from the prison. When dragged before the council the next day, Gamaliel rises. A doctor of the law, respected by all the people, he speaks a word of wisdom: if this is of men, it will fail; if it is of God, you cannot stop it. The apostles are beaten and released. And then comes the final, impossible thing: they rejoice. They are counting it joy to suffer shame for the name of Jesus.',

@@ -14,6 +14,7 @@ export const PSALMS_9: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 9,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
   intros: [
     'Psalm 9 celebrates God&apos;s judgment of the nations. David does not sing in detachment but from experience. He has seen God&apos;s judgment fall upon those who would destroy the righteous. He has experienced God&apos;s mercy as a shield against their hatred. The psalm opens with thanksgiving—"I will praise thee, O Lord, with my whole heart"—and moves into a double refrain: God judges the wicked and saves the oppressed.',
     'What makes this psalm remarkable is that it does not pit justice against mercy. Instead, it shows them as two faces of the same reality. God&apos;s judgment on the wicked is the same action by which He saves the oppressed. To break the power of those who oppress is to free those who suffer. The refuge the righteous find in God comes precisely because God is willing to judge.',

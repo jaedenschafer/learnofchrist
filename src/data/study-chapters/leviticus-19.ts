@@ -16,6 +16,7 @@ export const LEVITICUS_19: RichChapterContent = {
   bookName: 'Leviticus',
   chapter: 19,
 
+  estimatedMinutes: { 5: 8, 10: 14, 15: 17 },
   intros: [
     'Leviticus 19 opens with the most famous single command in Jewish and Christian ethics: "Thou shalt love thy neighbour as thyself: I am the LORD" (v.18). But before we get there, the chapter builds a foundation. It defines holiness as something you live, not something you perform. When God says "Ye shall be holy: for I the LORD your God am holy" (v.2), He means it not as ritual instruction alone, but as the shape of a just, attentive, generous life.',
     'The chapter is a love letter to the vulnerable. Leave the corners of your field for the poor and the stranger. Don&apos;t curse the deaf. Don&apos;t put a stumblingblock before the blind. Pay workers their wages before sunset. Don&apos;t defraud anyone. Don&apos;t steal. Don&apos;t lie. Honor the elderly. Love the stranger as yourself (v.34) — the same measure twice. This is not the holiness of ritual purity but of attentiveness, mercy, and the refusal to harm those who are already struggling. The chapter&apos;s genius is to place these laws side by side with dietary rules and fabric rules, saying: your ethics matter as much as your offerings. In fact, your ethics are your offering.',

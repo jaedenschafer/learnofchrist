@@ -14,6 +14,7 @@ export const SECOND_TIMOTHY_4: RichChapterContent = {
   bookName: '2 Timothy',
   chapter: 4,
 
+  estimatedMinutes: { 5: 8, 10: 14, 15: 20 },
   intros: [
     'Paul is writing the very last words he will ever write. Execution is near. He will not send another letter, make another journey, or plant another church. But there is no bitterness in his words, only clarity. His life has been a race. He has run it. He has fought the good fight. And he is not afraid. A crown of righteousness awaits him. But before his death, he writes one final charge to Timothy: Hold fast. Preach the word. Fulfill your ministry. Do not be ashamed of the gospel.',
     'The letter ends with vulnerability. Paul is abandoned by many. Demas has loved this present world. Alexander has done him much evil. At his trial, no one stood with him. Yet Paul does not despair. He writes: "The Lord stood with me, and strengthened me." This is his final gift to Timothy: not the example of a life free from hardship, but the example of one who endured, held fast in loneliness, and found strength in Christ.',

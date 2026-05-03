@@ -18,6 +18,7 @@ export const KINGS_2_3: RichChapterContent = {
   bookName: '2 Kings',
   chapter: 3,
 
+  estimatedMinutes: { 5: 4, 10: 12, 15: 16 },
   intros: [
     'Jehoram, son of Ahab, has assumed the throne of Israel. Though he removed the image of Baal that his father had made, he still cleaves to the sins of Jeroboam — idolatry that will not let go. And Mesha, king of Moab, who has long paid a heavy tribute to the house of Israel — 100,000 lambs, 100,000 rams — now rebels. The word of the king goes out: prepare for war.',
     'Jehoram calls upon Jehoshaphat king of Judah, a man who has walked in the ways of the Lord. "The king of Moab hath rebelled against me: wilt thou go with me to fight against Moab?" Jehoshaphat answers yes. The king of Edom is brought into the alliance. Three kings march together. And then, in the wilderness, the armies face a crisis that no strategy can solve: there is no water. The men cry out. And the king of Israel, seeing desperation, calls for the prophet of God — not because he believes, but because Jehoshaphat does. Here begins a story of faith in the presence of unbelief, and of a miracle that will test what men will do when God delivers the enemy into their hand.',

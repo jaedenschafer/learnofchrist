@@ -7,6 +7,7 @@ import { TranslationProvider } from '@/lib/TranslationContext';
 import { StudyLevelProvider } from '@/lib/StudyLevelContext';
 import { DenominationProvider } from '@/lib/DenominationContext';
 import { ReadingPrefsProvider } from '@/lib/ReadingPrefsContext';
+import ReadingPrefsSync from '@/components/ReadingPrefsSync';
 
 export const viewport: Viewport = {
   themeColor: [
@@ -92,6 +93,7 @@ export default async function RootLayout({
           <StudyLevelProvider>
             <DenominationProvider>
               <ReadingPrefsProvider>
+                <ReadingPrefsSync />
                 <Navbar />
                 <main className="flex-grow">
                   {children}

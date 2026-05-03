@@ -16,6 +16,7 @@ export const PSALMS_93: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 93,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
   intros: [
     'Psalm 93 is one of the shortest psalms, yet it is among the most cosmic in its vision. In just five verses, it declares the absolute reign of God. The world is established and cannot be shaken. God is enthroned over the waters. His holiness and strength are unmatched. This is a psalm to be sung by those who understand that whatever chaos rages in this world, God is firmly in control.',
   ],

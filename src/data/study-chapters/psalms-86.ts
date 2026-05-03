@@ -15,6 +15,7 @@ export const PSALMS_86: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 86,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
   intros: [
     'Psalm 86 is a prayer of David, and it is marked by urgent simplicity. The psalmist is poor, needy, troubled, persecuted. He has nowhere else to turn. And so he turns to the one place that matters: he calls out to God. But this is not a desperate flailing. It is a confident plea. David knows God. He has experienced God&apos;s goodness. And he asks not primarily for rescue but for knowledge—"Teach me thy way, O Lord."',
   ],

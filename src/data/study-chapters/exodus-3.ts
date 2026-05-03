@@ -21,6 +21,7 @@ export const EXODUS_3: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 3,
 
+  estimatedMinutes: { 5: 9, 10: 16, 15: 21 },
   intros: [
     'Exodus 3 is one of the three most quoted theophanies in all of scripture. God appears in a fire that does not consume, speaks the divine name for the first time, and sends a bewildered shepherd to tell the empire of Egypt that the Lord has arrived. Every time the Old Testament circles back to this chapter—and it does so often—it is because something crucial about who God is lives in these twenty-two verses.',
     'The chapter begins with a small question: Why does this one bush burn? It ends with a name that cannot be translated, only approximated. I AM THAT I AM. Or I AM WHO I AM. Or I will be who I will be. The verb is not settled; the name is not simple. But it is the only name God gives Moses to carry back to a people in slavery, the only credential he has for a mission that will reshape the world.',

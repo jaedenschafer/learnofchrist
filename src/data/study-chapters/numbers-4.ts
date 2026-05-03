@@ -22,6 +22,7 @@ export const NUMBERS_4: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 4,
 
+  estimatedMinutes: { 5: 7, 10: 10, 15: 13 },
   intros: [
     'Israel is about to leave Sinai and begin the journey to the Promised Land. But first, the tabernacle must move. Not a simple tent—it is the dwelling place of the Lord, filled with objects so holy that the wrong person touching them, or seeing them uncovered, will die. Numbers 4 is the operational manual for moving God\'s presence.',
     'The Levites are divided by labor. Three clans, three precise jobs. But the most dangerous work falls to Kohath: they must carry the holiest things, yet they cannot look at them. They must touch them, yet only after Aaron covers them completely. It is a portrait of trust so strict that one careless glance means death. And in that severe requirement lives a profound truth about holiness and the price of drawing near to God.',

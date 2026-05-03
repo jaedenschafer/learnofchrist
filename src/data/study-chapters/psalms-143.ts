@@ -16,6 +16,7 @@ export const PSALMS_143: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 143,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 4 },
   intros: [
     'Psalm 143 is the last of the great penitential psalms—a prayer of David offered in deep distress. But unlike many laments, this psalm has a unique focus: it appeals not to the psalmist&apos;s own worth or righteousness, but to God&apos;s. "In thy righteousness deliver me," the psalmist cries. This is the breakthrough of the gospel in the Old Testament. The psalmist knows that his own righteousness is insufficient. He knows that he has sinned. His only hope is God&apos;s righteousness—God&apos;s commitment to what is right and just, God&apos;s covenant faithfulness, God&apos;s mercy toward the repentant.',
   ],

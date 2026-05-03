@@ -15,6 +15,7 @@ export const EZEKIEL_13: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 13,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 5 },
   intros: [
     'Among the exiles, there are those who claim to speak for God. But their words are lies. They offer false visions. They promise peace when judgment is coming. They have not stood in God&apos;s council. They have not heard His word. Yet they speak with confidence. They tell the exiles what they want to hear — that the exile is temporary, that Babylon will fall, that Jerusalem still stands. Ezekiel turns his prophetic voice against these false prophets. He describes them as if they were builders who use untempered mortar — material that looks like brick but has no binding power. When the wall falls, the mortar is revealed as worthless. So too the false prophets. Their words crumble when tested.',
   ],

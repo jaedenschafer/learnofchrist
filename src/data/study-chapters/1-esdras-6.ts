@@ -14,6 +14,7 @@ export const FIRST_ESDRAS_6: RichChapterContent = {
   bookName: '1 Esdras',
   chapter: 6,
 
+  estimatedMinutes: { 5: 6, 10: 9, 15: 13 },
   intros: [
     'The temple-building had stalled. Years had passed since the foundation was laid, and the people had grown weary and discouraged. But then two prophets arose—Haggai and Zechariah—with a word from God: the work must resume. Immediately, the people rose up and began to build.',
     'Yet this building does not go unnoticed. The governor of the province comes to inspect and demands to know who authorized the work. What follows is one of the most courageous confessions in Scripture: the Jewish elders stand before their accuser and declare, "We are the servants of the God of heaven and earth, and we build the house that was built many years ago." In their answer lies the entire biblical vision of whose authority matters most.',

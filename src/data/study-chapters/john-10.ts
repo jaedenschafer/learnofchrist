@@ -15,6 +15,7 @@ export const JOHN_10: RichChapterContent = {
   bookName: 'John',
   chapter: 10,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 6 },
   intros: [
     'Jesus speaks in parable of the sheepfold. The true shepherd enters through the door. The thief and the robber come by another way, to steal, kill, and destroy. But the shepherd enters openly, calls his own sheep by name, and the sheep hear his voice and follow. The door is for the sheep&apos;s entry; Jesus claims He Himself is the door. "I am the door: by me if any man enter in, he shall be saved, and shall go in and out, and find pasture."',
     'Then Jesus reveals Himself further: "I am the good shepherd: the good shepherd giveth his life for the sheep." The hired hand, who has no stake in the flock, flees when the wolf comes. But the good shepherd knows his own by name. He calls them, leads them, lays down his life for them—not by compulsion, but by choice. "No man taketh it from me, but I lay it down of myself." His death is not inflicted; it is offered. And in that offering lies the power of the redemption.',

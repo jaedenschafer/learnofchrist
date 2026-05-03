@@ -16,6 +16,7 @@ export const PSALMS_34: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 34,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
   intros: [
     'Psalm 34 is another acrostic, with verses generally beginning with successive letters of the Hebrew alphabet. The psalm celebrates answered prayer, God&apos;s protection, and deliverance. It moves through praise, testimony, instruction, and prophecy. The psalmist invites the reader into his experience: he sought God, God heard him and delivered him from his fears. Now he calls others to taste and see that the Lord is good. And embedded within this celebration is one of the Bible&apos;s most precise prophecies of Christ.',
   ],

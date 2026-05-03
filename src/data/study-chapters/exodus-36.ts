@@ -19,6 +19,7 @@ export const EXODUS_36: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 36,
 
+  estimatedMinutes: { 5: 9, 10: 12, 15: 15 },
   intros: [
     'Exodus 36 begins with a shift. The law is given. The blueprints are drawn. The materials are ready. Now: "Then wrought Bezaleel and Aholiab, and every wise hearted man." The work begins. Not by force, not by a king&apos;s command, but by skilled hands—people whose hearts God had filled with wisdom, doing what they were made to do.',
     'The extraordinary moment comes in verse 5. Moses calls the people to bring offerings. They come, day after day, with gold and silver and fine linen and skilled work. And then Moses has to tell them to stop. "The people bring much more than enough for the service of the work, which the LORD commanded to make." It is the only place in Scripture where generosity itself becomes a problem. God&apos;s people have to be restrained from giving. This is the inverse of every other chapter in the Bible where people are restrained from sin. Here, their hearts have overflowed so completely that they must be told: Enough. Stop. Your gift is already made.',

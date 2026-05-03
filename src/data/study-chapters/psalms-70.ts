@@ -14,6 +14,7 @@ export const PSALMS_70: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 70,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Psalm 70 is remarkably brief—only five verses. Yet in its brevity lies tremendous power. It is the prayer of one in acute distress, so pressed that elaborate language is impossible. All that can be said is: Make haste. Help me. The prayer is almost childlike in its simplicity—a cry from someone too overwhelmed for eloquence, too desperate for anything but the most direct plea.',
     'Yet this brief prayer reveals the deepest conviction of faith: that God will make haste. That the one who calls out will not be left without help. That those who love God and seek His name will rejoice and be glad. The psalm moves from urgent pleading to absolute confidence—from "Make haste" to the assurance that God&apos;s salvation will be magnified.',

@@ -13,6 +13,7 @@ export const PSALMS_45: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 45,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
   intros: [
     'Psalm 45 is a royal epithalamion—a wedding song for a king. The first half celebrates the King: His majesty, His justice, His power. "Gird thy sword upon thy thigh, O most mighty, with thy glory and thy majesty." He is radiant with splendor. The second half turns to His Bride: "Hearken, O daughter, and consider...forget also thine own people, and thy father&apos;s house; so shall the king greatly desire thy beauty." This is not a human wedding, though it may have been written as one. The psalm speaks of union at the deepest level—king and queen, kingdom and people, bridegroom and bride.',
     'For Christian interpretation, the King is Christ, and the Bride is the Church. Hebrews 1:8 quotes verse 6—"Thy throne, O God, is for ever and ever"—and applies it directly to Christ. This is the ultimate marriage: Christ and His people, united eternally, transformed by His love into His image. The psalmist offers a portrait of the union that Jesus Himself came to make possible.',

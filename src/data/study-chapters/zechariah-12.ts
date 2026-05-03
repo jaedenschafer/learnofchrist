@@ -8,6 +8,7 @@ export const ZECHARIAH_12: RichChapterContent = {
   bookName: 'Zechariah',
   chapter: 12,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'In Zechariah 12, God speaks of the future of Jerusalem. A day is coming when the nations will surround the city, but God will defend it. And then comes one of the clearest messianic verses in the Old Testament: "They shall look upon me whom they have pierced." John 19:37 quotes this verse as fulfilled in Christ&apos;s crucifixion. The piercing of the Messiah leads to Israel&apos;s repentance and blessing.',
   ],

@@ -14,6 +14,7 @@ export const EZEKIEL_12: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 12,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Ezekiel&apos;s prophetic ministry continues through sign-acts. The people of Israel, still in the promised land, still imagining that the threat of judgment is distant, need to see what exile looks like. So God commands Ezekiel to perform it. He packs a bag. He digs through a wall. He covers his face that he might not see the land he is leaving. In the presence of the exiles by the Chebar River, he enacts the exile to come. This is prophecy not as mere words but as embodied truth. The people will see and understand: this is where Jerusalem is headed. The king who rules will flee. The people will be taken captive. The comfort they feel is illusion. The exile is coming.',
   ],

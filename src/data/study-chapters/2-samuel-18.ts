@@ -20,6 +20,7 @@ export const SAMUEL_2_18: RichChapterContent = {
   bookName: '2 Samuel',
   chapter: 18,
 
+  estimatedMinutes: { 5: 8, 10: 15, 15: 17 },
   intros: [
     'The rebellion of Absalom reaches its reckoning in the wood of Ephraim, and the text does not shy away from the chaos and brutality of civil war. Twenty thousand men fall, not primarily by the sword but by the terrain itself — the wood "devoured more people than the sword." In this bloodshed, Absalom dies, not as a king or a martyr, but snagged in an oak tree, a mule beneath him, stripped of glory. Joab ends him with three darts.',
     'Yet the chapter does not end with a military report. It ends with a king weeping. David learns that his rebellion is over, his enemies are fled, his throne is secure — and none of it matters. All he hears is the one question that will break him: "Is the young man Absalom safe?" And when he learns that Absalom is dead, he makes for his chamber and weeps the cry that has echoed through every generation of parents who have lost a child: "Would God I had died for thee, O Absalom, my son, my son!" In that moment, the father&apos;s love transcends the son&apos;s rebellion. And a reader of the New Testament sees, in that cry, a father&apos;s willingness to die rather than lose the one he loves — the exact willingness that led God to give His Son to the cross.',

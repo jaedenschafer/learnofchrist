@@ -5,6 +5,7 @@ export const FOURTH_MACCABEES_16: RichChapterContent = {
   bookName: '4 Maccabees',
   chapter: 16,
 
+  estimatedMinutes: { 5: 6, 10: 10, 15: 13 },
   intros: [
     'The seven sons are dead. Their mother stands before their mangled bodies and their tyrant, not broken but transformed. In her speech, she recites the history of Israel&apos;s faithful ones—Abraham willing to sacrifice Isaac, Daniel unafraid in the lions&apos; den, the three young men in the furnace, Joseph in Potiphar&apos;s house—every one who suffered rather than betray God&apos;s covenant.',
     'The mother&apos;s words become a sermon preached over corpses. She teaches her sons how to die by reminding them they are not the first to choose faith over flesh. Their pious reason has been trained by the whole history of Israel to know which love comes first.',

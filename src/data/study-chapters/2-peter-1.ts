@@ -17,6 +17,7 @@ export const SECOND_PETER_1: RichChapterContent = {
   bookName: '2 Peter',
   chapter: 1,
 
+  estimatedMinutes: { 5: 9, 10: 17, 15: 26 },
   intros: [
     'Peter writes from the shadow of his own death. He knows his time is short. And so he writes not with elaborate theology but with the urgency of an eyewitness: you need to know that what we saw was real. Not mythology. Not borrowed ideas. The power and coming of Jesus Christ—we were there. And so he greets the scattered church with grace and peace multiplied through the knowledge of Christ, and immediately calls them upward: you have been given all things. The divine power of Christ has already given you everything you need. Now add to that gift: build virtue upon faith, knowledge upon virtue, continuing up an ascending staircase of character.',
     'What makes 2 Peter remarkable is its rooting of Christian growth in the reality of what was seen and heard. Peter and James and John stood on a mountain and heard the Father declare about Jesus: "This is my beloved Son, in whom I am well pleased." That moment—the voice from heaven, the glory reflected in human faces—is not incidental. It is the bedrock on which all Christian instruction rests. The prophets who wrote of Christ were not spinning their own interpretations; they were borne along by the Holy Spirit. The word prophecy itself, Peter suggests, is not about prediction but about the living presence of God moving human hearts to speak truth.',

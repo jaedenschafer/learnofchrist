@@ -15,6 +15,7 @@ export const ECCLESIASTES_10: RichChapterContent = {
   bookName: 'Ecclesiastes',
   chapter: 10,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
   intros: [
     'The Preacher turns his attention to the power of small things. A single dead fly can spoil a whole pot of valuable ointment. A small mistake can destroy a great reputation. A moment of folly can erase years of wisdom. The image is humble—dead flies, apothecary ointment—but the lesson is profound. We are not as secure as we think. Our accomplishments, our reputations, our positions—these are fragile, subject to destruction by small things we may not even see.',
     'The Preacher then moves through a series of observations about folly and wisdom. A wise man&apos;s heart inclines him to the right, but a fool&apos;s heart to the left. The fool shows his folly openly. Idleness brings decay. Even small rebellions, small refusals to do what is required, can undermine everything. The Preacher is teaching a necessary vigilance. Not paranoia, but awareness. Not anxiety, but attentiveness. The small compromise, the small folly, the small neglect—these compound. They matter.',

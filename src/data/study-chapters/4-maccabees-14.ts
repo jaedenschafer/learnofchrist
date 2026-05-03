@@ -5,6 +5,7 @@ export const FOURTH_MACCABEES_14: RichChapterContent = {
   bookName: '4 Maccabees',
   chapter: 14,
 
+  estimatedMinutes: { 5: 6, 10: 10, 15: 15 },
   intros: [
     'The seventh and youngest brother now stands alone. Six have gone before him into death, each strengthening the next. The author pauses to marvel at the one who stands behind all of them: their mother, who watched her sons die rather than deny God.',
     'In the natural order, mothers protect their young. Birds shield their nestlings. Animals hover over their offspring. Yet this mother—who bore them, nursed them, loved them—sent them into death. The author asks: how is this possible? And answers: because she loved something more.',

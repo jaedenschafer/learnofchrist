@@ -14,6 +14,7 @@ export const JEREMIAH_17: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 17,
 
+  estimatedMinutes: { 5: 7, 10: 11, 15: 14 },
   intros: [
     'Jeremiah 17 contains one of Scripture&apos;s most famous and most unsettling diagnoses: "The heart is deceitful above all things, and desperately wicked: who can know it?" This is not poetry about human frailty. It is a statement of the human condition — the heart that we trust most, that we feel most certain about, is the very place where deception lives. We lie to ourselves about our motives, our desires, our righteousness. We cannot even trust our own inner knowing.',
     'And yet the chapter does not leave us in despair. The Lord searches the heart. The one thing we cannot know about ourselves — the truth of our hearts — God sees clearly. And the chapter offers a way forward: blessed is the man that trusteth in the Lord, cursed is the man that trusteth in man. The remedy for the deceitful heart is not to trust the heart more, but to turn away from it entirely and place faith in God alone.',

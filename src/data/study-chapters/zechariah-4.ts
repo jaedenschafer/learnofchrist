@@ -8,6 +8,7 @@ export const ZECHARIAH_4: RichChapterContent = {
   bookName: 'Zechariah',
   chapter: 4,
 
+  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
   intros: [
     'Zechariah&apos;s fourth vision shows a golden lampstand with seven lamps, flanked by two olive trees that supply oil to the lamps. The angel explains that the work of restoration is not accomplished by human might or power, but by the Spirit of God. "Not by might, nor by power, but by my spirit, saith the Lord of hosts." The oil flowing from the olive trees is the Spirit, and the lampstand is God&apos;s witness burning in the world.',
   ],

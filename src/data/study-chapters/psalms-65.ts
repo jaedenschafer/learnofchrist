@@ -16,6 +16,7 @@ export const PSALMS_65: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 65,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
   intros: [
     'Psalm 65 begins with an act of praise that precedes even the spoken word. "Praise waiteth for thee, O God, in Sion." This is not a psalm that begs God to hear. It is a psalm in which praise itself has become a posture, a stance, a readiness. The psalmist stands in Zion—the city of God—and from that position, praise is what naturally follows. The God of Zion is the God who hears prayer, the God who forgives transgressions, the God who invites His people to draw near.',
     'But the psalm does not stop with the worship of God in His sanctuary. It expands outward to encompass creation itself. God waters the earth. He blesses the year with His goodness. The valleys are covered with flocks. The pastures clothe themselves with joy. This is the vision of a God who is not distant from His creation, but intimately involved in its flourishing—the God of the harvest, the God of abundance, the God whose care extends from the heart of the worshipper to the farthest corner of creation.',

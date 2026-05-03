@@ -22,6 +22,7 @@ export const CHRONICLES_2_20: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 20,
 
+  estimatedMinutes: { 5: 10, 10: 19, 15: 25 },
   intros: [
     'King Jehoshaphat rules over Judah during a time of relative peace and prosperity. But peace, in a fallen world, is always temporary. Word comes that a great multitude is marching toward Judah from beyond the sea — the children of Moab, the children of Ammon, and others, gathered together. It is a moment of crisis, the kind that threatens kingdoms. But Jehoshaphat&apos;s response reveals something profound about faith: fear becomes the doorway to seeking the Lord.',
     'What follows is not a military campaign. It is a prayer meeting. It is a congregation gathered before the house of the Lord, with women and children present, all seeking God&apos;s help. And in that moment of complete vulnerability — "we have no might, neither know we what to do" — God speaks. A prophet named Jahaziel receives the Spirit of the Lord and delivers a message that turns everything upside down: the battle does not belong to Judah. It belongs to the Lord. And when the people rise to worship, when singers go forth before the army praising the beauty of holiness, God sets ambushments against the enemies. The Lord fights. Worship is the weapon.',

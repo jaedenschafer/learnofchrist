@@ -12,6 +12,7 @@ export const DEUTERONOMY_20: RichChapterContent = {
   bookName: 'Deuteronomy',
   chapter: 20,
 
+  estimatedMinutes: { 5: 7, 10: 11, 15: 15 },
   intros: [
     'Deuteronomy 20 opens with one command that will echo through every battle to come: &ldquo;Be not afraid.&rdquo; Israel stands on the edge of conquest, facing horses and chariots and armies larger than their own. But the foundation is not military might. It is the presence of God. &ldquo;The Lord thy God is with thee, which brought thee up out of the land of Egypt.&rdquo; This is the theology of warfare in Scripture—not the glorification of violence, but the triumph of faith.',
     'Before a single sword is drawn, the priest speaks words that transform the meaning of what follows. And then, before the army marches, four groups are sent home: those with unfinished lives—a new house, a new vineyard, a betrothed bride. Those whose hearts tremble. God will not have His army consumed by fear or distraction. Even in war, life goes on. Then comes the command to offer peace first. And beneath it all—the herem against the seven nations, a judgment so severe it can only be understood in the frame of Scripture itself: God executing justice on centuries of accumulated iniquity, not a model for the church.',

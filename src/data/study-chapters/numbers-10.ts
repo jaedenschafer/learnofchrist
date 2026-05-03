@@ -15,6 +15,7 @@ export const NUMBERS_10: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 10,
 
+  estimatedMinutes: { 5: 9, 10: 14, 15: 16 },
   intros: [
     'Numbers 10 opens with two silver trumpets—made not for war or celebration, but for summoning the congregation and signaling when to march. These trumpets shape the whole chapter. They call Israel to assembly. They announce the beginning of the journey that will take forty years to complete.',
     'Israel has been camped at Sinai for eleven months. The tabernacle is built, the priesthood is ordained, the people have received the law, been counted, been organized by tribe and family. Now God gives the signal. The camp breaks. The ark moves. The people march. For the first time since leaving Egypt, Israel is on the move toward a promise.',

@@ -18,6 +18,7 @@ export const CHRONICLES_1_12: RichChapterContent = {
   bookName: '1 Chronicles',
   chapter: 12,
 
+  estimatedMinutes: { 5: 4, 10: 10, 15: 16 },
   intros: [
     'First Chronicles 12 serves as an extended roster of those who recognized David as king before he wore the crown. Written during or after the Davidic era, it expands the brief account in 1 Samuel to reveal how universal — how Spirit-empowered — was the recognition of David as God&apos;s chosen leader.',
     'The chapter divides into two halves: the warriors who came to David at Ziklag, when he was still a fugitive hiding from Saul, and the vast assembly at Hebron when all Israel came to crown him king. In both scenes, we see not a military coup, but a gathering of hearts around one anointed by God. Even Saul&apos;s own tribe, Benjamin, sent soldiers to David. Men understood the times. They knew what Israel ought to do. And in that knowledge, they found joy.',

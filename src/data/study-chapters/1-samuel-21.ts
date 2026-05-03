@@ -17,6 +17,7 @@ export const SAMUEL_1_21: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 21,
 
+  estimatedMinutes: { 5: 6, 10: 13, 15: 17 },
   intros: [
     'David is now a fugitive. Saul, jealous and afraid, has set himself against the man God has anointed. In chapter 20, David and Jonathan made a covenant, and David fled. Now, desperate and alone, he comes to Nob, where the high priest Ahimelech tends the sanctuary. David lies to the priest about his mission. He eats bread that was consecrated to God alone. He recovers the sword of Goliath — the very weapon he cut from the Philistine giant — and flees to Gath, where he feigns madness to escape the king&apos;s servants. The anointed of Israel, the man God chose to be king, is now hunted like a criminal in his own land.',
     'This chapter shows David in survival mode. His faith is tested not by a comfortable challenge, but by hunger, fear, and the urgent need to escape. And yet — the narrative moves with a kind of quiet providence. Goliath&apos;s sword reappears, preserved for the day when David would need it. The priest, unknowing, becomes part of God&apos;s plan. A psalm will later come from David&apos;s experience in Gath, a poem that names God&apos;s protection even when we taste the bitterness of exile. This is a chapter about what happens when the one God has chosen becomes the one the world rejects.',

@@ -17,6 +17,7 @@ export const SECOND_ESDRAS_8: RichChapterContent = {
   bookName: '2 Esdras',
   chapter: 8,
 
+  estimatedMinutes: { 5: 5, 10: 10, 15: 15 },
   intros: [
     'Ezra stands in the tradition of the great intercessors. Abraham pleaded for Sodom. Moses shattered the tables and argued with God for a nation that had betrayed Him. Now Ezra, centuries later, takes up the same posture: he will not rest until he has asked God for mercy on behalf of a sinful people.',
     'The chapter teaches that intercession is not about changing God&apos;s nature but about alignment with it. Ezra&apos;s plea is not answered with soft reassurance but with truth. Justice is real. Many will perish. Yet mercy is equally real. A remnant will be preserved—not because they deserve it, but because God&apos;s mercy is sure and His covenant will not fail.',

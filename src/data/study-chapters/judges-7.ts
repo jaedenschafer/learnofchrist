@@ -11,6 +11,7 @@ export const JUDGES_7: RichChapterContent = {
   bookName: 'Judges',
   chapter: 7,
 
+  estimatedMinutes: { 5: 8, 10: 13, 15: 17 },
   intros: [
     'Judges 7 tells one of Scripture&apos;s most striking military stories—not because Gideon wins through strength, but because he wins by becoming weaker. The Midianites have invaded Israel, and God calls Gideon to save his people. But when the army gathers, God does something unexpected: He tells Gideon to send the soldiers home. Twice. By the time the battle begins, Gideon commands only 300 men against an enemy as countless as grasshoppers.',
     'The text is clear about why. God says: "The people that are with thee are too many... lest Israel vaunt themselves against me." God will not share His glory with human strength. He will save Israel, but through the weak and the few—so that when the dust settles, no one will be confused about who won. This is the logic of the cross, written out centuries before the cross comes.',

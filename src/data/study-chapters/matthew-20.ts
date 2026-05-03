@@ -15,6 +15,7 @@ export const MATTHEW_20: RichChapterContent = {
   bookName: 'Matthew',
   chapter: 20,
 
+  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
   intros: [
     'The kingdom of heaven is like a landowner who goes out early to hire laborers for his vineyard. He hires some at the beginning of the day for a denarius. As the day progresses, he hires more—at the third hour, the sixth hour, the ninth hour, and finally, at the eleventh hour, an hour before sunset, he finds others standing idle and brings them in. At the end of the day, all are paid the same wage. Those hired first murmur: it is unfair. But the owner replies: "Is it not lawful for me to do what I will with mine own?"',
     'Immediately following, Jesus prepares His disciples for what lies ahead. He speaks plainly: He will be delivered to the chief priests and scribes, condemned to death, and delivered to the Gentiles to be mocked, scourged, and crucified. Yet on the third day, He will rise. The glory and the cross are not separated. To reign with Christ requires drinking His cup.',

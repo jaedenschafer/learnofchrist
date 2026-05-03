@@ -17,6 +17,7 @@ export const SECOND_TIMOTHY_2: RichChapterContent = {
   bookName: '2 Timothy',
   chapter: 2,
 
+  estimatedMinutes: { 5: 11, 10: 17, 15: 25 },
   intros: [
     'Paul writes to his young apprentice Timothy with the voice of a soldier passing the torch. Everything is urgent. False teachers spread like gangrene. Distraction is everywhere. The call is to endure—not with grim resignation but with strength anchored in grace. Each metaphor Paul uses—soldier, athlete, farmer—reveals the same truth: living for Christ demands discipline, focus, and willingness to sacrifice comfort for the mission.',
     'Yet Paul does not leave Timothy with mere commands. He anchors everything in the faithful saying, the gospel itself: "If we be dead with him, we shall also live with him: If we suffer, we shall also reign with him: if we deny him, he also will deny us: If we believe not, yet he abideth faithful: he cannot deny himself." Christ&apos;s faithfulness is not dependent on ours. It is the ground beneath every command. Study. Purge yourself. Flee youthful lusts. Serve gently. Why? Because He is already faithful, and you are invited to be faithful too.',

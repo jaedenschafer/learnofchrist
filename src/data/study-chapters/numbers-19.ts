@@ -33,6 +33,7 @@ export const NUMBERS_19: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 19,
 
+  estimatedMinutes: { 5: 7, 10: 11, 15: 14 },
   intros: [
     'Israel has been wandering in the wilderness for nearly forty years. Death is everywhere — in the camp, along the journey, in tents where the people sleep. And the law is clear: anyone who touches a dead body becomes unclean for seven days. If you touch a corpse, you cannot approach the tabernacle, cannot eat the holy offerings, cannot gather with the congregation until you are purified. The question has become urgent: how do you cleanse a whole nation of death?',
     'God answers with a ritual unlike anything else in Scripture. A red heifer is brought outside the camp — not a sacrifice (it is not eaten, not offered on the altar), but a purification offering. The priest slays it and burns it completely — flesh, skin, organs, everything — mixed with cedar wood, hyssop, and scarlet thread. The ashes are gathered and mixed with running water. This "water of separation" becomes the vehicle of cleansing. Touch the ashes-water and you are clean again. You can return to the camp, approach the tabernacle, rejoin the congregation.',

@@ -17,6 +17,7 @@ export const MATTHEW_3: RichChapterContent = {
   bookName: 'Matthew',
   chapter: 3,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
   intros: [
     'In those days comes John the Baptist, emerging from the Judean wilderness with a call to radical repentance. He wears the prophet&apos;s garb—camel&apos;s hair and a leather girdle. He preaches a baptism of repentance for the forgiveness of sins. Crowds come out from Jerusalem and all Judea to be baptized in the Jordan. There is urgency in his preaching: the kingdom of heaven is at hand. The appointed time has come. The age is turning. Israel must turn also.',
     'But John knows his own role is preparatory. "He that cometh after me is mightier than I," he says. John&apos;s baptism is with water—an outward sign of inward repentance. But the one who comes will baptize "with the Holy Ghost, and with fire." He will bring not preparation but fulfillment. Not call but transformation. And then, unexpectedly, Jesus Himself comes to John to be baptized.',

@@ -19,6 +19,7 @@ export const MATTHEW_11: RichChapterContent = {
   bookName: 'Matthew',
   chapter: 11,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
   intros: [
     'John the Baptist sits in Herod&apos;s prison. He has fulfilled his role as forerunner, preparing the way for Jesus. But now, in the darkness of confinement, doubt seems to assault him. He sends disciples to Jesus with a question: "Art thou he that should come, or do we look for another?" It is not a rejection of Jesus. It is the cry of a soul in crisis, seeking reassurance. Jesus responds not with words of rebuke but with a demonstration of His works.',
     'Jesus answers by pointing to what is happening: the blind are receiving sight, the lame are walking, the deaf are hearing, the dead are being raised, and good tidings are being preached to the poor. These are the signs of the Messiah, the evidence of the kingdom breaking into the world. Then Jesus pivots. He affirms John—"Among them that are born of women there hath not risen a greater than John the Baptist"—yet He proclaims something greater still: the kingdom of heaven.',

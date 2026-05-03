@@ -16,6 +16,7 @@ export const SAMUEL_2_9: RichChapterContent = {
   bookName: '2 Samuel',
   chapter: 9,
 
+  estimatedMinutes: { 5: 6, 10: 11, 15: 14 },
   intros: [
     'The book of 2 Samuel opens with King David establishing his throne over all Israel. He has won every battle, subdued every enemy, and the kingdom is secure. And then — in the very chapter where we might expect him to shore up his power or claim his spoils — David does something unexpected. He asks: "Is there yet any that is left of the house of Saul, that I may shew him kindness for Jonathan&apos;s sake?" He is asking after the family of his enemy.',
     'What follows is one of the purest pictures of grace in Scripture. David finds Mephibosheth — the son of Jonathan, grandson of Saul, lame in both feet, hidden in exile in a place called Lo-debar (literally "no pasture"). And David brings him to his table forever, restores his lands, and treats him as "one of the king&apos;s sons." This is not justice. This is covenant kindness — chesed Elohim, the kindness of God shown through a king&apos;s mercy. The entire chapter is a portrait of how the King of Heaven finds the broken and brings them home.',

@@ -14,6 +14,7 @@ export const PROVERBS_31: RichChapterContent = {
   bookName: 'Proverbs',
   chapter: 31,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
   intros: [
     'The final chapter of Proverbs is the words of King Lemuel, which his mother taught him. It closes with an acrostic portrait of a virtuous woman—not a flat ideal, but a living person of accomplishment, dignity, and purpose. She is not passive. She works, builds, plants, trades, loves, teaches. Her strength comes not from physical power but from character rooted in the fear of the Lord. She is the answer to the question that opens the passage: "Who can find a virtuous woman? for her price is far above rubies." The answer, implicitly, is: one who fears God.',
   ],

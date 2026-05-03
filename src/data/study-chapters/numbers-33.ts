@@ -21,6 +21,7 @@ export const NUMBERS_33: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 33,
 
+  estimatedMinutes: { 5: 9, 10: 14, 15: 18 },
   intros: [
     'Numbers 33 is one long list. Forty-two stages from Egypt to the edge of Canaan. Each one named: they journeyed from here and pitched camp there. No miracles are retold. No complaints are recycled. Just the geography of a wilderness, marked out by God.',
     'For modern readers, a genealogy or an itinerary can feel like filler—the parts to skip. But for Israel, this list was a prayer. Every stopped name a reminder: God brought us through there. Every waypoint a witness: He never left us, even when we couldn\'t see it. The list is the theology. God doesn\'t just record the great moments; He numbers the ordinary ones. He remembers the place you camped when everything was hard, when you thought He\'d forgotten you, when all you could do was wake up and keep walking.',

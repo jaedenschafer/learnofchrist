@@ -15,6 +15,7 @@ export const ROMANS_4: RichChapterContent = {
   bookName: 'Romans',
   chapter: 4,
 
+  estimatedMinutes: { 5: 10, 10: 18, 15: 23 },
   intros: [
     'Paul now grounds his entire argument in Israel&apos;s own ancestor—Abraham himself. If justification is by faith, then it always has been by faith. Abraham believed God, and it was counted unto him for righteousness. This was not a transaction. It was a declaration. He was not yet circumcised. The law had not yet been given. He had no works to show. Yet God reckoned him righteous on the basis of one thing alone: his faith.',
     'The promise to Abraham was not that he would keep a law. It was that he would inherit the earth, that his seed would be as numerous as the stars. This promise rested entirely on God&apos;s word and Abraham&apos;s willingness to believe it even when it seemed humanly impossible—when he and Sarah were past the age of bearing children, when there was no sign, no path forward except God&apos;s voice. And because Abraham believed God in that impossible hour, righteousness was counted to him before he was ever marked by circumcision. Abraham became the father of many nations not through descent alone, but through faith.',

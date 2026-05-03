@@ -19,6 +19,7 @@ export const CHRONICLES_2_23: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 23,
 
+  estimatedMinutes: { 5: 7, 10: 14, 15: 17 },
   intros: [
     'For six years, Israel has suffered under a usurper. When King Ahaziah died, his mother Athaliah seized the throne and murdered every royal heir she could find — nearly extinguishing the line of David. But one child escaped: Joash, the young king, hidden in the temple by his aunt Jehosheba and raised in secret by Jehoiada the priest. The nation knows nothing of him. The throne seems lost.',
     'Then, in the seventh year, everything changes. Jehoiada the priest moves. He does not seize power by force or declare himself king. Instead, he gathers the captains and the Levites, makes them swear a covenant, and orchestrates an unveiling. At the temple, surrounded by guards with shields and spears that belonged to King David, the young king is brought out into the light. The crown is placed upon his head. The people shout: "God save the king!" It is a moment of astonishing trust — the trust that God keeps His promises, that the hidden heir will be revealed in His time, that the Levitical priesthood still serves the purposes of heaven.',

@@ -15,6 +15,7 @@ export const EZEKIEL_8: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 8,
 
+  estimatedMinutes: { 5: 2, 10: 3, 15: 5 },
   intros: [
     'Ezekiel, sitting among the exiles in Babylon, is lifted up by the Spirit and transported in vision to Jerusalem. But what he sees there is not what he expects. He has been announcing judgment on the people, but he has not fully grasped how complete the apostasy has become. Inside the temple — the holiest place on earth, the site where God promised to dwell, where the Ark of the Covenant rests — Ezekiel witnesses idolatry of a brazen kind. Not out in the high places beyond the city, but in God&apos;s own house, in the chamber where God&apos;s presence dwells, false worship continues. The horror is not merely that Israel has turned away from God, but that they have done so in His presence, as if flaunting their rejection.',
   ],

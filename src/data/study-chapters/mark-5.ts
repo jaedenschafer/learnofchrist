@@ -19,6 +19,7 @@ export const MARK_5: RichChapterContent = {
   bookName: 'Mark',
   chapter: 5,
 
+  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
   intros: [
     'Mark 5 unfolds a symphony of healings. Jesus and His disciples cross the sea and arrive in the region of the Gerasenes. A man possessed with a demon meets them. He is so violently afflicted that no one can bind him, even with chains. He has been driven into the tombs, the dwellings of the dead. But when he sees Jesus, he runs to Him. Jesus casts out the demons, and the man is restored to his right mind. The power of Christ reaches even into the most desperate torment.',
     'As Jesus returns, a woman who has suffered for twelve years with a hemorrhage—unclean under Jewish law, cut off from the community—touches the edge of His garment in desperate faith. Immediately she is healed. Jesus turns, seeking her out, and speaks words of affirmation: "Daughter, thy faith hath made thee whole; go in peace, and be whole of thy plague." Then comes the final act: Jairus, a synagogue ruler, falls at Jesus&apos; feet begging Him to heal his daughter. On the way, the woman with the issue of blood interrupts. But Jesus presses on to Jairus&apos; house. The child is dead. Jesus takes her hand: "Talitha cumi"—Little girl, arise. She rises. The kingdom of Christ reaches into death itself.',

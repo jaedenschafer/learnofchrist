@@ -17,6 +17,7 @@ export const GENESIS_22: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 22,
 
+  estimatedMinutes: { 5: 9, 10: 15, 15: 20 },
   intros: [
     'Abraham has waited ninety-nine years for the promise. Isaac, born when he was a hundred and his wife was past bearing age, is the entire future—the heir through whom all the nations of the earth would be blessed. Three times God made that covenant: in Genesis 12, Genesis 15, and Genesis 17. Every promise hinges on this boy.',
     'And then, in Genesis 22, God makes a request that seems to unmake everything. "Take now thy son, thine only son Isaac, whom thou lovest, and get thee into the land of Moriah; and offer him there for a burnt offering upon one of the mountains which I will tell thee of." Abraham is seventy-five when God first calls him. He is now past one hundred twenty, and God asks him to surrender the future He Himself gave. The chapter is the Bible\'s deepest meditation on faith—not as feeling safe, but as trusting God when every rational thing you see says He has abandoned you.',

@@ -15,6 +15,7 @@ export const PSALMS_73: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 73,
 
+  estimatedMinutes: { 5: 2, 10: 3, 15: 4 },
   intros: [
     'Psalm 73 begins with a declaration: "Surely God is good." Yet the very next verses show that the psalmist does not feel this goodness. Instead, he sees the wicked prosper. "For there are no bands in their death: but their strength is firm." The righteous suffer while the wicked thrive. And the psalmist is angry. "Verily I have cleansed my heart in vain, and washed my hands in innocency."',
     'This is the crisis of theodicy—why do the innocent suffer while the guilty prosper? How can God be just if the wicked flourish? The psalm does not resolve this crisis through argument. Instead, the psalmist enters the sanctuary, enters God&apos;s presence. And in that presence, perspective shifts. The wicked, who seemed so strong, are revealed as standing on slippery ground. And God, who seemed distant, is revealed as holding the psalmist&apos;s right hand.',

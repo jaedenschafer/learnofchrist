@@ -12,6 +12,7 @@ export const JUDGES_3: RichChapterContent = {
   bookName: 'Judges',
   chapter: 3,
 
+  estimatedMinutes: { 5: 8, 10: 14, 15: 17 },
   intros: [
     'After Joshua&apos;s death, Israel descends into a pattern that will repeat itself fifty times across the book of Judges: faithlessness, oppression, desperation, and deliverance. Judges 3 introduces that pattern and the first three judges who break it — Othniel, Ehud, and Shamgar. It is a chapter about testing, about God working through the weak and overlooked, and about the Spirit of the Lord coming upon His people in their darkest hours.',
     'The nations God left in the land were meant to test Israel — would they keep covenant with their God, or would they adopt the gods and habits of their neighbors? The test came immediately. Israel failed it. And yet, that failure does not end the story. In the failure, God sent deliverers. This is the logic that runs through all of Judges: not that God was surprised, but that rescue never waits for righteousness. The broken pattern holds a promise underneath it.',

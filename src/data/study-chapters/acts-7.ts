@@ -17,6 +17,7 @@ export const ACTS_7: RichChapterContent = {
   bookName: 'Acts',
   chapter: 7,
 
+  estimatedMinutes: { 5: 10, 10: 16, 15: 22 },
   intros: [
     'Stephen has been arrested on false charges. Brought before the Sanhedrin, he refuses to mount a conventional legal defense. Instead, he gives a sermon—a sweeping recitation of Israel&apos;s history from Abraham to Solomon—that reveals what his accusers are really doing: resisting the Holy Spirit, just as their ancestors resisted God&apos;s prophets and messengers.',
     'The sermon carries a double weight. On one level, it is historical—a summary of Israel&apos;s past that would have been familiar to any Jewish audience. On another level, it is prophetic rebuke. The council hears in it an indictment, and their fury rises. They drag Stephen outside the city and stone him. A young man named Saul stands guard over the witnesses&apos; clothes, approving of his death. But Stephen dies seeing the heavens opened and the Son of Man standing at God&apos;s right hand, and he forgives his killers.',

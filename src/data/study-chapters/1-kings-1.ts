@@ -22,6 +22,7 @@ export const KINGS_1_1: RichChapterContent = {
   bookName: '1 Kings',
   chapter: 1,
 
+  estimatedMinutes: { 5: 11, 10: 18, 15: 23 },
   intros: [
     'The books of Kings open at the threshold of Israel&apos;s decline. David, the shepherd king who conquered Jerusalem and established the dynasty, is old. His body no longer holds heat; servants cover him with clothes, but the warmth will not come. He lies in his chamber, served by a young woman named Abishag, who tends to him but cannot rouse him from his frailty.',
     'In this moment of a king&apos;s fading, the kingdom itself becomes unstable. Adonijah, David&apos;s eldest surviving son, sees an opportunity. He declares himself: "I will be king." He prepares chariots, horsemen, runners — the regalia of kingship. And he gathers those in power: Joab the general, Abiathar the priest. But not everyone follows him. Nathan the prophet, Benaiah the captain of the guard, and Bathsheba, mother of Solomon, perceive the danger.',

@@ -18,6 +18,7 @@ export const ACTS_21: RichChapterContent = {
   bookName: 'Acts',
   chapter: 21,
 
+  estimatedMinutes: { 5: 11, 10: 21, 15: 27 },
   intros: [
     'Paul sails toward Jerusalem knowing the Spirit has already told him in every city that bonds and afflictions await him there. He cannot turn back. Every prophet, every disciple who hears of his intention begs him to stay away. But Paul has counted the cost and found that following Christ is worth it. He will not be dissuaded by tears or prophecy. The theme of Acts 21 is the paradox at the heart of the gospel: a man can be bound in chains and still be perfectly free, because his allegiance runs deeper than anything the world can do to his body.',
     'Along the way, the Spirit confirms his path through every voice he hears. In Tyre, disciples say through the Spirit: "Go not up to Jerusalem" (21:4). Philip&apos;s daughters prophesy his suffering (21:9). Agabus takes Paul&apos;s belt and says the Jews will bind him (21:11). Yet Paul presses on. The disciples finally say, "The will of the Lord be done," and they understand: Paul has heard from the Spirit too, and his obedience is not stubbornness but faith. What unfolds in Jerusalem is the living out of that faith—a man betrayed by his own people, rescued by a pagan authority, carried into captivity, yet asking permission to speak the gospel to the very crowd that wanted to kill him.',

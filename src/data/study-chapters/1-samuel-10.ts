@@ -13,6 +13,7 @@ export const SAMUEL_1_10: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 10,
 
+  estimatedMinutes: { 5: 10, 10: 15, 15: 20 },
   intros: [
     'Saul enters 1 Samuel 10 as a private citizen, searching for lost donkeys. He leaves it as the anointed king of Israel — yet he hides when chosen. The chapter moves through sacred ritual (anointing), divine confirmation (three signs), the power of the Spirit, and the mystery of a reluctant king. Every detail marks the moment Israel&#39;s request for a human king becomes God&#39;s reality, with all the beauty and danger that will follow.',
     'Samuel&#39;s role is to be the confirmer of what God is doing. The oil he pours, the signs he predicts, and the words he speaks all testify that this transformation is not Saul&#39;s ambition—it is God&#39;s anointing. Yet the chapter leaves us with an uncomfortable picture: a king chosen by God, transformed by His Spirit, hiding among the baggage, with some of his own people questioning whether he can save them.',

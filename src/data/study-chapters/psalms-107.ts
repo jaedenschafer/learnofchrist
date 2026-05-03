@@ -15,6 +15,7 @@ export const PSALMS_107: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 107,
 
+  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
   intros: [
     'Psalm 107 is a song about deliverance in all circumstances. Whether you are lost in the desert, imprisoned in darkness, sick and dying, or drowning in a storm, the psalm says, you are not beyond God&apos;s reach. Each of the four scenes depicts a different kind of human trouble—physical lostness, captivity, sickness, danger. But in each case, the mechanism of deliverance is the same: the afflicted cry out to God, and He hears and delivers them. The psalm is structured like a refrain: trouble, cry, deliverance, praise. Four times this pattern repeats. The message is clear: no matter what form your trouble takes, God can rescue you.',
     'The psalm ends with a call to pay attention: "Oh that men would praise the Lord for his goodness, and for his wonderful works to the children of men!" The psalmist is saying: look at these stories of deliverance. See yourself in them. And understand that they are not exceptions. They are examples of how God regularly and habitually acts toward His people.',

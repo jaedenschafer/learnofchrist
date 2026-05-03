@@ -13,6 +13,7 @@ export const JUDGES_1: RichChapterContent = {
   bookName: 'Judges',
   chapter: 1,
 
+  estimatedMinutes: { 5: 10, 10: 14, 15: 18 },
   intros: [
     'Joshua is dead. Israel has inherited a land not yet fully claimed. The children of Judah ask the Lord who will lead them into battle against the remaining Canaanites, and the Lord answers: Judah shall go first. What follows is a story of victories, yes — but also of a people who begin to make compromises that will haunt them for generations. Iron chariots they couldn&apos;t defeat. Canaanites they couldn&apos;t drive out. And slowly, almost imperceptibly, a generation&apos;s faith becomes the next generation&apos;s failure.',
     'Judges 1 is Joshua&apos;s story played in reverse. Where Joshua&apos;s conquest account rings with the victories God won through His people, Judges 1 echoes with absences — the cities NOT taken, the peoples NOT driven out, the tributes PAID instead of faith KEPT. The chapter refuses to hide the reality: obedience in the first generation is not guaranteed in the second. The land remains half-conquered, and Israel is about to learn what compromise costs.',

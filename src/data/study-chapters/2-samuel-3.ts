@@ -17,6 +17,7 @@ export const SAMUEL_2_3: RichChapterContent = {
   bookName: '2 Samuel',
   chapter: 3,
 
+  estimatedMinutes: { 5: 3, 10: 13, 15: 14 },
   intros: [
     'The chapter opens on a long civil war: the house of Saul growing weaker, the house of David growing stronger. The king who has never lost a battle is winning through patience and the loyalty of his enemies. Six sons are born to David in Hebron—a sign of stability, of a growing dynasty. But the real shift comes when Abner, the man who has held Saul\'s kingdom together, makes a choice that will reshape Israel.',
     'Abner\'s defection is not a sudden betrayal. It comes after Ish-bosheth, Saul\'s son, accuses him of lying with the dead king\'s concubine—an indirect charge of treason (lying with a king\'s wife was a claim to the throne). Abner, wounded by the accusation and seeing the writing on the wall, decides to switch his allegiance and bring all Israel to David. The wheels of history turn.',
