@@ -88,7 +88,7 @@ export const LEVITICUS_18: RichChapterContent = {
           kind: 'commentary',
           id: 'c-identity',
           html:
-            'The chapter opens not with rules but with relationship. &ldquo;I am the Lord your God.&rdquo; Every boundary in what follows flows from that identity. The Lord does not command from a distance — He commands as the one who has claimed Israel as His own.',
+            'The chapter opens not with rules but with relationship[res:sefaria-leviticus-18]. &ldquo;I am the Lord your God.&rdquo; Every boundary in what follows flows from that identity. The Lord does not command from a distance — He commands as the one who has claimed Israel as His own.',
         },
         {
           kind: 'commentary',
@@ -335,7 +335,7 @@ export const LEVITICUS_18: RichChapterContent = {
           kind: 'commentary',
           id: 'c-molech',
           html:
-            'Molech worship is often understood to have involved child sacrifice, sometimes presented as fertility cult. The text links sexual perversion directly to the practice of child sacrifice — both are devaluations of life itself. To devote your child to Molech is to profane the name of God by treating what He made as an object for ambition or religious performance.',
+            'Molech worship is often understood to have involved child sacrifice, sometimes presented as fertility cult[res:israel-museum-molech]. The text links sexual perversion directly to the practice of child sacrifice — both are devaluations of life itself. To devote your child to Molech is to profane the name of God by treating what He made as an object for ambition or religious performance.',
         },
         {
           kind: 'hebrew',
@@ -357,7 +357,7 @@ export const LEVITICUS_18: RichChapterContent = {
           id: 'christ-design',
           title: 'Christ Connection — Forgiven Failures of Design',
           html:
-            'Paul lists people who have broken sexual boundaries — including same-sex relations — and then says something extraordinary: &ldquo;and such WERE some of you: but ye are washed, but ye are sanctified, but ye are justified in the name of the Lord Jesus, and by the Spirit of our God&rdquo; (1 Cor. 6:9–11). The design stands. The failure is real. But Christ has opened a path through every failure of it. The cross is not a relabeling of the design; it is forgiveness for everyone who has failed it.',
+            'Paul lists people who have broken sexual boundaries — including same-sex relations — and then says something extraordinary: &ldquo;and such WERE some of you: but ye are washed, but ye are sanctified, but ye are justified in the name of the Lord Jesus, and by the Spirit of our God&rdquo; (1 Cor. 6:9–11)[res:intertextual-matt-5-leviticus-18]. The design stands. The failure is real. But Christ has opened a path through every failure of it. The cross is not a relabeling of the design; it is forgiveness for everyone who has failed it.',
         },
         {
           kind: 'carry',
@@ -463,6 +463,33 @@ export const LEVITICUS_18: RichChapterContent = {
             'The chapter ends as it began: &ldquo;I am the Lord your God.&rdquo; The one who sets these boundaries is the one who loves you. Jesus does not relax the boundaries in Matthew 5. He goes deeper. He also goes wider — extending mercy to the woman caught in adultery and saying, &ldquo;Neither do I condemn thee: go, and sin no more&rdquo; (John 8:11). He offers both the truth of the design and the forgiveness of the cross. He is the same God.',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-leviticus-18',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 18 — Sefaria Community Notes',
+      url: 'https://www.sefaria.org/Leviticus.18',
+      description: 'Annotated text with rabbinic commentary and interpretive traditions on sexual ethics and family relations.',
+    },
+    {
+      id: 'israel-museum-molech',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Molech Worship and Tophet Archaeology',
+      url: 'https://www.imj.org.il',
+      description: 'Archaeological evidence and artifacts related to Molech worship practices in the ancient Levant.',
+    },
+    {
+      id: 'intertextual-matt-5-leviticus-18',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jesus on Lust and Desire — Matthew 5:27–32',
+      url: 'https://intertextalbible.com',
+      description: 'Connections between Leviticus 18&apos;s sexual design and Jesus&apos;s deepening of the law in the Sermon on the Mount.',
     },
   ],
 };
