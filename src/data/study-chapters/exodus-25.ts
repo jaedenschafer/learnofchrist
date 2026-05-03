@@ -47,7 +47,7 @@ export const EXODUS_25: RichChapterContent = {
           kind: 'commentary',
           id: 'ex25-offerings-listed',
           html:
-            'Gold, silver, brass, blue, purple, scarlet — the materials for the tabernacle come from a willing heart. Worship begins with what the people gladly give.',
+            'Gold, silver, brass, blue, purple, scarlet — the materials for the tabernacle come from a willing heart. Worship begins with what the people gladly give[res:sefaria-exodus-25].',
         },
         {
           kind: 'scripture',
@@ -440,6 +440,15 @@ export const EXODUS_25: RichChapterContent = {
       url: 'https://www.imj.org.il/',
       description: 'Museum models and ANE temple architecture.',
     },
+    {
+      id: 'sefaria-exodus-25',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 25 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.25',
+      description: 'The Hebrew text of Exodus 25 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

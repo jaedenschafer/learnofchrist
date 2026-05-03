@@ -36,6 +36,15 @@ export const AMOS_4: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-amos/',
       description: 'Thematic study of Amos 4:12 as a call to readiness and accountability before God.',
     },
+    {
+      id: 'sefaria-amos-4-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Amos 4 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Amos.4',
+      description: 'The Hebrew text of Amos 4 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -61,7 +70,7 @@ export const AMOS_4: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'What does it mean to live like cattle? To pursue ease, indulgence, the next pleasure? To oppress those weaker than yourself? Amos is harsh because the call is urgent. There is a meeting coming that cannot be avoided.',
+            'What does it mean to live like cattle? To pursue ease, indulgence, the next pleasure? To oppress those weaker than yourself? Amos is harsh because the call is urgent. There is a meeting coming that cannot be avoided[res:sefaria-amos-4-v1].',
         },
         {
           kind: 'reflection',

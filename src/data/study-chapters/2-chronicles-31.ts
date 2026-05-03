@@ -39,6 +39,23 @@ export const CHRONICLES_2_31: RichChapterContent = {
       url: 'https://www.imj.org.il/',
       description: 'Iron Age Judah archaeology: water systems, inscriptions, cultic reform artifacts.',
     },
+    {
+      id: 'sefaria-2-chronicles-31',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 31 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.31',
+      description: 'The Hebrew text of 2 Chronicles 31 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-31',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -71,7 +88,7 @@ export const CHRONICLES_2_31: RichChapterContent = {
           kind: 'commentary',
           id: 'chr31-all-regions',
           html:
-            'Notably, the destruction happens in Judah, Benjamin, Ephraim, and Manasseh. This is a kingdom-wide reformation, not isolated to the capital. The ripples of Hezekiah&apos;s leadership and the Passover experience spread throughout all the peoples who came, so that even as they return to their own cities, they carry the transformation back with them.',
+            'Notably, the destruction happens in Judah, Benjamin, Ephraim, and Manasseh. This is a kingdom-wide reformation, not isolated to the capital. The ripples of Hezekiah&apos;s leadership and the Passover experience spread throughout all the peoples who came, so that even as they return to their own cities, they carry the transformation back with them[res:sefaria-2-chronicles-31][res:bibleodyssey-2-chronicles-overview-31].',
         },
         {
           kind: 'hebrew',

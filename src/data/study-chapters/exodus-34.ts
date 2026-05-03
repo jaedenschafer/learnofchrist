@@ -52,7 +52,7 @@ export const EXODUS_34: RichChapterContent = {
           kind: 'commentary',
           id: 'c-new-tablets',
           html:
-            'Moses must cut the stone himself. God is not going to hand him something he can simply receive — he will participate in the repair. After covenant-breaking, there is work ahead. But God says He will write on the new stone, just as He did on the first[res:second-tablets-text].',
+            'Moses must cut the stone himself. God is not going to hand him something he can simply receive — he will participate in the repair. After covenant-breaking, there is work ahead. But God says He will write on the new stone, just as He did on the first[res:second-tablets-text][res:sefaria-exodus-34].',
         },
         {
           kind: 'commentary',
@@ -679,6 +679,15 @@ export const EXODUS_34: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/face/',
       description: 'Theological meaning of seeing divine face.',
     },
+    {
+      id: 'sefaria-exodus-34',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 34 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.34',
+      description: 'The Hebrew text of Exodus 34 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

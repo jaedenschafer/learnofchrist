@@ -69,7 +69,7 @@ export const ESTHER_7: RichChapterContent = {
           kind: 'commentary',
           id: 'esther-reveals-plot',
           html:
-            'Esther speaks. She begins not by naming Haman, but by revealing the nature of the crime: destruction, slaughter, annihilation. She notes the irony: if her people had merely been sold into slavery, she might have endured it silently. But this is not a matter of slavery. This is genocide. The plot is designed not to profit the king materially, but to destroy him by taking from him the Jews who — as Mordecai once proved — serve his interests and welfare.',
+            'Esther speaks. She begins not by naming Haman, but by revealing the nature of the crime: destruction, slaughter, annihilation. She notes the irony: if her people had merely been sold into slavery, she might have endured it silently. But this is not a matter of slavery. This is genocide. The plot is designed not to profit the king materially, but to destroy him by taking from him the Jews who — as Mordecai once proved — serve his interests and welfare[res:sefaria-esther-7][res:bibleodyssey-esther-overview-7].',
         },
         {
           kind: 'carry',
@@ -290,5 +290,22 @@ export const ESTHER_7: RichChapterContent = {
       url: 'https://www.theoi.com/Text/HerodotusHistories.html',
       description: 'Herodotus accounts of Xerxes, Persian court intrigues, and royal authority.',
     },
+    {
+      id: 'sefaria-esther-7',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Esther 7 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Esther.7',
+      description: 'The Hebrew text of Esther 7 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-esther-overview-7',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Esther — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/esther/',
+      description: 'Open-access SBL essay on the historical and literary setting of Esther.',
+    },
+
   ],
 };

@@ -54,7 +54,7 @@ export const DANIEL_1: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel1-purpose',
-          html: 'Nebuchadnezzar takes the best of Judah&apos;s youth—those without blemish, skilled in wisdom, able to learn the tongue of the Chaldeans. He renames them, integrating them into his court, intending to make them Babylonian in speech, learning, and custom. He offers them the abundance of his table. But Daniel, though young, though far from home, though stripped of his identity, makes a decision that will shape his entire life: he will not defile himself. This is not passive faith. This is active resistance. He chooses what he will eat. He chooses what he will not become[res:sefaria-daniel].',
+          html: 'Nebuchadnezzar takes the best of Judah&apos;s youth—those without blemish, skilled in wisdom, able to learn the tongue of the Chaldeans. He renames them, integrating them into his court, intending to make them Babylonian in speech, learning, and custom. He offers them the abundance of his table. But Daniel, though young, though far from home, though stripped of his identity, makes a decision that will shape his entire life: he will not defile himself. This is not passive faith. This is active resistance. He chooses what he will eat. He chooses what he will not become[res:sefaria-daniel][res:sefaria-daniel-1].',
         },
         {
           kind: 'hebrew',
@@ -191,6 +191,15 @@ export const DANIEL_1: RichChapterContent = {
       url: 'https://www.sefaria.org/Daniel',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
     }
+    {
+      id: 'sefaria-daniel-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Daniel 1 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Daniel.1',
+      description: 'The Hebrew text of Daniel 1 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

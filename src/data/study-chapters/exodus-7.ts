@@ -46,7 +46,7 @@ export const EXODUS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'c-god-to-pharaoh',
           html:
-            'Moses is made a <em>god</em> to Pharaoh — not that Moses is divine, but that he stands in the place of absolute authority, speaking God&apos;s word with the weight of divinity. In the ancient Near East, a pharaoh was viewed as a god himself. Now God positions Moses above him. The one who stammers, who doubted his own adequacy in Exodus 3, is elevated to stand as the embodiment of God&apos;s power before the mightiest human authority of his age[res:plague-blood].',
+            'Moses is made a <em>god</em> to Pharaoh — not that Moses is divine, but that he stands in the place of absolute authority, speaking God&apos;s word with the weight of divinity. In the ancient Near East, a pharaoh was viewed as a god himself. Now God positions Moses above him. The one who stammers, who doubted his own adequacy in Exodus 3, is elevated to stand as the embodiment of God&apos;s power before the mightiest human authority of his age[res:plague-blood][res:sefaria-exodus-7].',
         },
         {
           kind: 'hebrew',
@@ -488,6 +488,15 @@ export const EXODUS_7: RichChapterContent = {
       url: 'https://www.metmuseum.org/',
       description: 'Artifacts on the Nile&apos;s centrality to Egyptian life.',
     },
+    {
+      id: 'sefaria-exodus-7',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 7 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.7',
+      description: 'The Hebrew text of Exodus 7 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

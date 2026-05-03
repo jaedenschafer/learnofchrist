@@ -41,6 +41,23 @@ export const CHRONICLES_2_29: RichChapterContent = {
       url: 'https://www.imj.org.il/',
       description: 'Iron Age Judah archaeology: water systems, inscriptions, cultic reform artifacts.',
     },
+    {
+      id: 'sefaria-2-chronicles-29',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 29 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.29',
+      description: 'The Hebrew text of 2 Chronicles 29 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-29',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -96,7 +113,7 @@ export const CHRONICLES_2_29: RichChapterContent = {
           kind: 'commentary',
           id: 'c29-first-month',
           html:
-            'In the <em>first</em> month of the <em>first</em> year—Hezekiah does not wait. He does not build a coalition, survey the damage, propose reforms, or seek counsel. The moment he is crowned, he acts. This tells us something about the nature of his heart: he does not believe the crisis can wait. The doors of the Lord&apos;s house are closed, and they must be opened. Now.',
+            'In the <em>first</em> month of the <em>first</em> year—Hezekiah does not wait. He does not build a coalition, survey the damage, propose reforms, or seek counsel. The moment he is crowned, he acts. This tells us something about the nature of his heart: he does not believe the crisis can wait. The doors of the Lord&apos;s house are closed, and they must be opened. Now[res:sefaria-2-chronicles-29][res:bibleodyssey-2-chronicles-overview-29].',
         },
         {
           kind: 'commentary',

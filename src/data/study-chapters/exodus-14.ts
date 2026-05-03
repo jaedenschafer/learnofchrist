@@ -57,6 +57,15 @@ export const EXODUS_14: RichChapterContent = {
       url: 'https://www.sefaria.org/Exodus.15',
       description: 'Hebrew poetry and commentary on the victory hymn.',
     },
+    {
+      id: 'sefaria-exodus-14',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 14 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.14',
+      description: 'The Hebrew text of Exodus 14 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -103,7 +112,7 @@ export const EXODUS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'ex14-pharaoh-pursues',
           html:
-            'Pharaoh changes his mind the moment the slaves are gone. The Lord uses the change to display His glory — Israel is not just being delivered; the world is being shown who reigns.',
+            'Pharaoh changes his mind the moment the slaves are gone. The Lord uses the change to display His glory — Israel is not just being delivered; the world is being shown who reigns[res:sefaria-exodus-14].',
         },
         {
           kind: 'scripture',

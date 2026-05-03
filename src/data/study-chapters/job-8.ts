@@ -39,6 +39,23 @@ export const JOB_8: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-8',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 8 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.8',
+      description: 'The Hebrew text of Job 8 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-8',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -96,7 +113,7 @@ export const JOB_8: RichChapterContent = {
           kind: 'commentary',
           id: 'bildad-long-wind',
           html:
-            'Bildad begins by dismissing Job&apos;s words as "a strong wind"—empty, powerful but meaningless. He cannot sit with Job&apos;s grief. He hears Job&apos;s lament and immediately sets about to stop it, to correct it, to replace it with a better theology. This is the moment when friendship becomes cruelty.',
+            'Bildad begins by dismissing Job&apos;s words as "a strong wind"—empty, powerful but meaningless. He cannot sit with Job&apos;s grief. He hears Job&apos;s lament and immediately sets about to stop it, to correct it, to replace it with a better theology. This is the moment when friendship becomes cruelty[res:sefaria-job-8][res:bibleodyssey-job-overview-8].',
         },
         {
           kind: 'commentary',

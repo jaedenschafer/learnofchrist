@@ -42,6 +42,23 @@ export const CHRONICLES_2_26: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
     },
+    {
+      id: 'sefaria-2-chronicles-26',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 26 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.26',
+      description: 'The Hebrew text of 2 Chronicles 26 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-26',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -96,7 +113,7 @@ export const CHRONICLES_2_26: RichChapterContent = {
           kind: 'commentary',
           id: 'zechariah-guide',
           html:
-            'Uzziah does not rule alone. The text tells us he seeks God "in the days of Zechariah, who had understanding in the visions of God." This Zechariah is not the prophet of the later book (that comes centuries later), but a mentor figure — a priest, a seer, a man who knows the will of God. For a young king, such a guide is invaluable. Uzziah has someone to turn to, someone who can speak to him of God\'s direction.',
+            'Uzziah does not rule alone. The text tells us he seeks God "in the days of Zechariah, who had understanding in the visions of God." This Zechariah is not the prophet of the later book (that comes centuries later), but a mentor figure — a priest, a seer, a man who knows the will of God. For a young king, such a guide is invaluable. Uzziah has someone to turn to, someone who can speak to him of God\'s direction[res:sefaria-2-chronicles-26][res:bibleodyssey-2-chronicles-overview-26].',
         },
         {
           kind: 'hebrew',

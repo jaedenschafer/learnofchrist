@@ -60,7 +60,7 @@ export const ISAIAH_18: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah18-ensign',
           html:
-            '"See ye, when he lifteth up an ensign on the mountains, and blow ye the trumpet." The Lord will set a sign that all the world may see. It is not a sword, not an army, but a sign—the symbol of God&apos;s presence and promise. When the trumpet is blown, all the inhabitants of the earth are called to witness. This is the proclamation of salvation to all peoples.',
+            '"See ye, when he lifteth up an ensign on the mountains, and blow ye the trumpet." The Lord will set a sign that all the world may see. It is not a sword, not an army, but a sign—the symbol of God&apos;s presence and promise. When the trumpet is blown, all the inhabitants of the earth are called to witness. This is the proclamation of salvation to all peoples[res:sefaria-isaiah-18-v1].',
         },
         {
           kind: 'hebrew',
@@ -127,6 +127,15 @@ export const ISAIAH_18: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Archaeological and textual evidence of the nations Isaiah prophesies against.',
     },
+    {
+      id: 'sefaria-isaiah-18-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 18 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.18',
+      description: 'The Hebrew text of Isaiah 18 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

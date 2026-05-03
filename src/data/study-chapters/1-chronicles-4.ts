@@ -39,6 +39,23 @@ export const CHRONICLES_1_4: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/levite/',
       description: 'SBL study entry on Levite origins, roles, and tribal allotments.',
     },
+    {
+      id: 'sefaria-1-chronicles-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 4 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.4',
+      description: 'The Hebrew text of 1 Chronicles 4 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-1-chronicles-overview-4',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -77,7 +94,7 @@ export const CHRONICLES_1_4: RichChapterContent = {
           kind: 'commentary',
           id: 'judah-genealogy',
           html:
-            'The genealogy of Judah continues from what we know of the patriarchs. Pharez and Hezron stand at the head — the line of blessing that will lead from Judah to King David. But notice that the text names not only patriarchs, but also craftspeople, town-founders, and household leaders. These are the people who built the kingdom — not only kings and warriors, but the artisans and settlers whose work made the nation livable.',
+            'The genealogy of Judah continues from what we know of the patriarchs. Pharez and Hezron stand at the head — the line of blessing that will lead from Judah to King David. But notice that the text names not only patriarchs, but also craftspeople, town-founders, and household leaders. These are the people who built the kingdom — not only kings and warriors, but the artisans and settlers whose work made the nation livable[res:sefaria-1-chronicles-4][res:bibleodyssey-1-chronicles-overview-4].',
         },
         {
           kind: 'commentary',

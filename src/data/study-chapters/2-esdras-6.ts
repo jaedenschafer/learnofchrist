@@ -65,7 +65,7 @@ export const SECOND_ESDRAS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'c-earth-appears',
           html:
-            'On the third day, dry land appears. The waters—<em>tehom</em>, the deep—are gathered into their place. This is not struggle or accident but obedience. Each element of creation finds its appointed place. The text echoes Genesis 1:9–10, but the emphasis shifts: <em>thou didst command</em>. God&apos;s word is all that is necessary.',
+            'On the third day, dry land appears. The waters—<em>tehom</em>, the deep—are gathered into their place. This is not struggle or accident but obedience. Each element of creation finds its appointed place. The text echoes Genesis 1:9–10, but the emphasis shifts: <em>thou didst command</em>. God&apos;s word is all that is necessary[res:sefaria-2-esdras-6].',
         },
 
         {
@@ -635,6 +635,15 @@ export const SECOND_ESDRAS_6: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/evil/',
       description: 'Problem of evil and divine justice in postexilic Jewish thought.',
     },
+    {
+      id: 'sefaria-2-esdras-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Esdras 6 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Esdras.6',
+      description: 'The Hebrew text of 2 Esdras 6 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {

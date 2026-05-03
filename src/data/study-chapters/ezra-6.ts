@@ -42,6 +42,23 @@ export const EZRA_6: RichChapterContent = {
       url: 'https://www.penn.museum/collections/',
       description: 'Cuneiform records of Persian provincial administration and labor systems.',
     },
+    {
+      id: 'sefaria-ezra-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezra 6 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezra.6',
+      description: 'The Hebrew text of Ezra 6 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-ezra-overview-6',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezra — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/ezra/',
+      description: 'Open-access SBL essay on the historical and literary setting of Ezra.',
+    },
+
   ],
 
   sections: [
@@ -88,7 +105,7 @@ export const EZRA_6: RichChapterContent = {
           kind: 'commentary',
           id: 'ez6-foundation',
           html:
-            'The decree specifies measurements: 60 cubits high, 60 cubits wide. Three rows of great stones, a row of new timber. The temple is to be built substantially, with foundations "strongly laid." This is not a hastily assembled shrine, but a proper house for the God of Israel. And the king&apos;s treasury will pay for it.',
+            'The decree specifies measurements: 60 cubits high, 60 cubits wide. Three rows of great stones, a row of new timber. The temple is to be built substantially, with foundations "strongly laid." This is not a hastily assembled shrine, but a proper house for the God of Israel. And the king&apos;s treasury will pay for it[res:sefaria-ezra-6][res:bibleodyssey-ezra-overview-6].',
         },
         {
           kind: 'commentary',

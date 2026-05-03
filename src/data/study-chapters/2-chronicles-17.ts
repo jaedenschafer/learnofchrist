@@ -40,6 +40,23 @@ export const CHRONICLES_2_17: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
     },
+    {
+      id: 'sefaria-2-chronicles-17',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 17 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.17',
+      description: 'The Hebrew text of 2 Chronicles 17 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-17',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -80,7 +97,7 @@ export const CHRONICLES_2_17: RichChapterContent = {
           kind: 'commentary',
           id: 'walked-first-ways',
           html:
-            'Jehoshaphat walks in the "first ways" of David — not the ways of David after his fall and failure, but the ways of David when he was young, faithful, seeking God. This phrase distinguishes between a king\'s entire life and his faithful seasons. We all have "first ways" — moments of genuine devotion before fear or ambition overtook us. Jehoshaphat chooses to walk in those first ways intentionally. He is a king choosing to begin again in faithfulness.',
+            'Jehoshaphat walks in the "first ways" of David — not the ways of David after his fall and failure, but the ways of David when he was young, faithful, seeking God. This phrase distinguishes between a king\'s entire life and his faithful seasons. We all have "first ways" — moments of genuine devotion before fear or ambition overtook us. Jehoshaphat chooses to walk in those first ways intentionally. He is a king choosing to begin again in faithfulness[res:sefaria-2-chronicles-17][res:bibleodyssey-2-chronicles-overview-17].',
         },
         {
           kind: 'commentary',

@@ -38,7 +38,7 @@ export const JEREMIAH_36: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer36-write-scroll',
-          html: 'God&apos;s command is simple: write. After years of speaking, the word must be recorded. Writing gives permanence. It creates a testimony that extends beyond the prophet&apos;s lifetime. It allows the word to reach those not present when it is first spoken. Jeremiah does not write it himself. He dictates to Baruch. The prophet&apos;s words become the scribe&apos;s words, but the authority is God&apos;s[res:bibleodyssey-jeremiah].',
+          html: 'God&apos;s command is simple: write. After years of speaking, the word must be recorded. Writing gives permanence. It creates a testimony that extends beyond the prophet&apos;s lifetime. It allows the word to reach those not present when it is first spoken. Jeremiah does not write it himself. He dictates to Baruch. The prophet&apos;s words become the scribe&apos;s words, but the authority is God&apos;s[res:bibleodyssey-jeremiah][res:sefaria-jeremiah-36].',
         },
         {
           kind: 'commentary',
@@ -91,6 +91,15 @@ export const JEREMIAH_36: RichChapterContent = {
       url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
       description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
     }
+    {
+      id: 'sefaria-jeremiah-36',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 36 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.36',
+      description: 'The Hebrew text of Jeremiah 36 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: false,

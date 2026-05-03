@@ -43,7 +43,7 @@ export const EZEKIEL_24: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek24-cauldron',
-          html: 'Jerusalem is a cauldron filled with the choice of the flock—the best pieces, the shoulder, the thigh. God has provided abundantly. Israel has been fed with the finest offerings. But the cauldron itself is rusted and corrupted. The rust cannot be removed by boiling. It goes deeper than the surface. It is structural corrosion[res:bibleodyssey-ezekiel].',
+          html: 'Jerusalem is a cauldron filled with the choice of the flock—the best pieces, the shoulder, the thigh. God has provided abundantly. Israel has been fed with the finest offerings. But the cauldron itself is rusted and corrupted. The rust cannot be removed by boiling. It goes deeper than the surface. It is structural corrosion[res:bibleodyssey-ezekiel][res:sefaria-ezekiel-24].',
         },
         {
           kind: 'commentary',
@@ -135,6 +135,15 @@ export const EZEKIEL_24: RichChapterContent = {
       url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
       description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
     }
+    {
+      id: 'sefaria-ezekiel-24',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 24 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.24',
+      description: 'The Hebrew text of Ezekiel 24 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

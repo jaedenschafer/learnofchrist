@@ -40,7 +40,7 @@ export const EZEKIEL_47: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel47-growing-river',
-          html: 'The river grows by stages. Each thousand cubits, it deepens. This is not instantaneous flooding but measured growth. The kingdom of God grows gradually, flowing outward, gathering power, until it becomes unstoppable. By the end, it cannot be forded. It must be swum in[res:sefaria-ezekiel].',
+          html: 'The river grows by stages. Each thousand cubits, it deepens. This is not instantaneous flooding but measured growth. The kingdom of God grows gradually, flowing outward, gathering power, until it becomes unstoppable. By the end, it cannot be forded. It must be swum in[res:sefaria-ezekiel][res:sefaria-ezekiel-47].',
         },
         {
           kind: 'commentary',
@@ -135,6 +135,15 @@ export const EZEKIEL_47: RichChapterContent = {
       url: 'https://www.imj.org.il/en',
       description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
     }
+    {
+      id: 'sefaria-ezekiel-47',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 47 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.47',
+      description: 'The Hebrew text of Ezekiel 47 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

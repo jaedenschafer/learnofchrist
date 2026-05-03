@@ -34,6 +34,23 @@ export const JOB_34: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Ancient Akkadian dialogue on divine justice, suffering, and retribution.',
     },
+    {
+      id: 'sefaria-job-34',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 34 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.34',
+      description: 'The Hebrew text of Job 34 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-34',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -72,7 +89,7 @@ export const JOB_34: RichChapterContent = {
           kind: 'commentary',
           id: 'job34-elihu-thesis',
           html:
-            'Elihu argues that Job has made two claims: that he is righteous, and that God has taken away his judgment. But if Job is righteous, and God has taken his judgment, then Elihu suggests Job is lying—either about his own righteousness or about God&apos;s injustice. For Elihu, one of these must give way. And he will argue it is Job&apos;s claim about God&apos;s injustice that must fall.',
+            'Elihu argues that Job has made two claims: that he is righteous, and that God has taken away his judgment. But if Job is righteous, and God has taken his judgment, then Elihu suggests Job is lying—either about his own righteousness or about God&apos;s injustice. For Elihu, one of these must give way. And he will argue it is Job&apos;s claim about God&apos;s injustice that must fall[res:sefaria-job-34][res:bibleodyssey-job-overview-34].',
         },
         {
           kind: 'scripture',

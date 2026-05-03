@@ -36,6 +36,15 @@ export const JOEL_3: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-joel/',
       description: 'Study of eschatological judgment and God&apos;s separation of the nations in the day of the Lord.',
     },
+    {
+      id: 'sefaria-joel-3-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Joel 3 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Joel.3',
+      description: 'The Hebrew text of Joel 3 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -73,7 +82,7 @@ export const JOEL_3: RichChapterContent = {
           kind: 'commentary',
           id: 'joel3-judgment',
           html:
-            'God calls all nations into the valley of Jehoshaphat to plead with them. They have scattered God&apos;s people, parted His land, cast lots for His children, sold them as slaves. They have plundered God&apos;s temples. Now they will face the Judge. God will recompense them according to what they have done.',
+            'God calls all nations into the valley of Jehoshaphat to plead with them. They have scattered God&apos;s people, parted His land, cast lots for His children, sold them as slaves. They have plundered God&apos;s temples. Now they will face the Judge. God will recompense them according to what they have done[res:sefaria-joel-3-v1].',
         },
         {
           kind: 'carry',

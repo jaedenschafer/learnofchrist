@@ -62,7 +62,7 @@ export const ISAIAH_13: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'The vision of the Day of the Lord can be sobering. It reminds us that God is not indifferent to evil. He will not allow wickedness to continue forever. He will judge. He will set things right. For those who have committed themselves to God, this is good news—He will vindicate them, He will destroy what opposes them. For those who stand against Him, it is a warning. But for all of us, it is a call to alignment: to cease from pride and arrogance, to abandon wickedness, to seek righteousness while the day of opportunity remains.',
+            'The vision of the Day of the Lord can be sobering. It reminds us that God is not indifferent to evil. He will not allow wickedness to continue forever. He will judge. He will set things right. For those who have committed themselves to God, this is good news—He will vindicate them, He will destroy what opposes them. For those who stand against Him, it is a warning. But for all of us, it is a call to alignment: to cease from pride and arrogance, to abandon wickedness, to seek righteousness while the day of opportunity remains[res:sefaria-isaiah-13-v1].',
         },
         {
           kind: 'reflection',
@@ -143,6 +143,15 @@ export const ISAIAH_13: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Archaeological and textual evidence of the nations Isaiah prophesies against.',
     },
+    {
+      id: 'sefaria-isaiah-13-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 13 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.13',
+      description: 'The Hebrew text of Isaiah 13 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

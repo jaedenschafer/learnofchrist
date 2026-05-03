@@ -46,6 +46,15 @@ export const ESTHER_9: RichChapterContent = {
       url: 'https://www.sefaria.org/Megillat_Esther',
       description: 'Sefaria Hebrew text with medieval commentary on the Esther scroll.',
     },
+    {
+      id: 'sefaria-esther-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Esther 9 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Esther.9',
+      description: 'The Hebrew text of Esther 9 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -120,7 +129,7 @@ export const ESTHER_9: RichChapterContent = {
           kind: 'commentary',
           id: 'esth9-turned',
           html:
-            'The parenthetical phrase "though it was turned to the contrary" is the heart of this chapter. What was meant to be a day of Jewish destruction becomes a day of Jewish deliverance. The word "turned" — from Hebrew "haphak" — means to overturn, to invert, to reverse completely. The enemy&apos;s advantage becomes the Jews&apos; vindication[res:sefaria-megillah].',
+            'The parenthetical phrase "though it was turned to the contrary" is the heart of this chapter. What was meant to be a day of Jewish destruction becomes a day of Jewish deliverance. The word "turned" — from Hebrew "haphak" — means to overturn, to invert, to reverse completely. The enemy&apos;s advantage becomes the Jews&apos; vindication[res:sefaria-megillah][res:sefaria-esther-9].',
         },
         {
           kind: 'commentary',

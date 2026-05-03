@@ -45,6 +45,15 @@ export const HOSEA_3: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
       description: 'Theological exploration of redemption through Hosea&apos;s act of buying back his unfaithful wife.',
     },
+    {
+      id: 'sefaria-hosea-3-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 3 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Hosea.3',
+      description: 'The Hebrew text of Hosea 3 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -124,7 +133,7 @@ export const HOSEA_3: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea3-return',
           html:
-            'Israel will abide "many days" without a king, without a prince, without sacrifice, without image. This is the long exile — the centuries without temple, without sacrifice, without visible signs of God&apos;s presence. And yet the promise stands: afterward, they will return. They will seek the Lord and David their king. The waiting will end. The restoration will come. This is what it means to live in covenant love — to trust that even in the darkest season, God will bring you home.',
+            'Israel will abide "many days" without a king, without a prince, without sacrifice, without image. This is the long exile — the centuries without temple, without sacrifice, without visible signs of God&apos;s presence. And yet the promise stands: afterward, they will return. They will seek the Lord and David their king. The waiting will end. The restoration will come. This is what it means to live in covenant love — to trust that even in the darkest season, God will bring you home[res:sefaria-hosea-3-v1].',
         },
         {
           kind: 'carry',

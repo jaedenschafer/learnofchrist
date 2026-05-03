@@ -62,7 +62,7 @@ export const ISAIAH_59: RichChapterContent = {
           kind: 'commentary',
           id: 'isa59-hand',
           html:
-            'God\'s hand is not shortened. His ear is not heavy. The problem is not with God\'s power or willingness to save. The problem is separation through sin. The people\'s iniquities have hidden God\'s face. What is described is not mere failure, but rebellion—hands defiled with blood, lips speaking lies, hearts full of mischief.',
+            'God\'s hand is not shortened. His ear is not heavy. The problem is not with God\'s power or willingness to save. The problem is separation through sin. The people\'s iniquities have hidden God\'s face. What is described is not mere failure, but rebellion—hands defiled with blood, lips speaking lies, hearts full of mischief[res:sefaria-isaiah-59-v1][res:bibleodyssey-isaiah-overview-59].',
         },
         {
           kind: 'commentary',
@@ -164,6 +164,23 @@ export const ISAIAH_59: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.59',
       description: 'Sefaria open-access source text and translations for Isaiah 59.',
     },
+    {
+      id: 'sefaria-isaiah-59-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 59 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.59',
+      description: 'The Hebrew text of Isaiah 59 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-59',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

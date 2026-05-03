@@ -42,6 +42,23 @@ export const JOB_26: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-26',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 26 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.26',
+      description: 'The Hebrew text of Job 26 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-26',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -81,7 +98,7 @@ export const JOB_26: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'Job identifies the failure of his friends: they have offered explanations instead of compassion, theology instead of healing, doctrine instead of presence. True wisdom is not merely correct doctrine. True wisdom is the wisdom that knows when to speak and when to be silent, that understands the difference between theory and reality, that can sit with suffering without trying to explain it away.',
+            'Job identifies the failure of his friends: they have offered explanations instead of compassion, theology instead of healing, doctrine instead of presence. True wisdom is not merely correct doctrine. True wisdom is the wisdom that knows when to speak and when to be silent, that understands the difference between theory and reality, that can sit with suffering without trying to explain it away[res:sefaria-job-26][res:bibleodyssey-job-overview-26].',
         },
         {
           kind: 'reflection',

@@ -62,7 +62,7 @@ export const FOURTH_MACCABEES_4: RichChapterContent = {
           kind: 'commentary',
           id: 'apollonius-governor',
           html:
-            'Apollonius is not a spiritual man sent to worship. He is a governor sent to plunder. The logic is simple and brutal: the Seleucid empire is short of funds. There is gold in the Jewish temple. Therefore, the gold will be taken. This is political economy dressed as religious policy. Yet what Apollonius encounters at the threshold of the holy place will be something entirely outside his political calculations.',
+            'Apollonius is not a spiritual man sent to worship. He is a governor sent to plunder. The logic is simple and brutal: the Seleucid empire is short of funds. There is gold in the Jewish temple. Therefore, the gold will be taken. This is political economy dressed as religious policy. Yet what Apollonius encounters at the threshold of the holy place will be something entirely outside his political calculations[res:sefaria-4-maccabees-4].',
         },
         {
           kind: 'reflection',
@@ -383,6 +383,15 @@ export const FOURTH_MACCABEES_4: RichChapterContent = {
       url: 'https://www.theoi.com/',
       description: 'Hellenistic Stoic concepts of reason controlling passion and emotion.',
     },
+    {
+      id: 'sefaria-4-maccabees-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '4 Maccabees 4 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/IV_Maccabees.4',
+      description: 'The Hebrew text of 4 Maccabees 4 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {

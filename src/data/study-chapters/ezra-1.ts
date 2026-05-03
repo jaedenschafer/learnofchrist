@@ -41,6 +41,23 @@ export const EZRA_1: RichChapterContent = {
       url: 'https://www.britishmuseum.org/collection/objects/w3679',
       description: 'Ancient Persian decree permitting Judean return and temple reconstruction.',
     },
+    {
+      id: 'sefaria-ezra-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezra 1 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezra.1',
+      description: 'The Hebrew text of Ezra 1 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-ezra-overview-1',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezra — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/ezra/',
+      description: 'Open-access SBL essay on the historical and literary setting of Ezra.',
+    },
+
   ],
 
   sections: [
@@ -81,7 +98,7 @@ export const EZRA_1: RichChapterContent = {
           kind: 'commentary',
           id: 'ez1-charged-to-build',
           html:
-            'Cyrus claims that "The Lord God of heaven" — note: not his gods, but the God of heaven — has given him all kingdoms and charged him to build a house for God at Jerusalem. Whether Cyrus fully understood the God of Israel or was simply acknowledging the local deity of the people he had conquered, his words are extraordinary. A pagan king is saying that God Himself has commissioned him to rebuild the temple. This is the language of divine calling applied to a Gentile ruler.',
+            'Cyrus claims that "The Lord God of heaven" — note: not his gods, but the God of heaven — has given him all kingdoms and charged him to build a house for God at Jerusalem. Whether Cyrus fully understood the God of Israel or was simply acknowledging the local deity of the people he had conquered, his words are extraordinary. A pagan king is saying that God Himself has commissioned him to rebuild the temple. This is the language of divine calling applied to a Gentile ruler[res:sefaria-ezra-1][res:bibleodyssey-ezra-overview-1].',
         },
         {
           kind: 'hebrew',

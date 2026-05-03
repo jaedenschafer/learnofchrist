@@ -60,7 +60,7 @@ export const ISAIAH_10: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'This passage asks a humbling question: Am I an instrument in God&apos;s hand, or do I imagine myself to be independent? Whatever power I have—whether physical strength, intellectual ability, economic resource, or social influence—is it mine or is it a gift? And when I use it, do I recognize the source, or do I boast as if the strength and wisdom were my own? The Assyrian king stands as a warning to all of us: pride in our own power and wisdom leads to destruction.',
+            'This passage asks a humbling question: Am I an instrument in God&apos;s hand, or do I imagine myself to be independent? Whatever power I have—whether physical strength, intellectual ability, economic resource, or social influence—is it mine or is it a gift? And when I use it, do I recognize the source, or do I boast as if the strength and wisdom were my own? The Assyrian king stands as a warning to all of us: pride in our own power and wisdom leads to destruction[res:sefaria-isaiah-10-v1].',
         },
         {
           kind: 'reflection',
@@ -139,6 +139,15 @@ export const ISAIAH_10: RichChapterContent = {
       url: 'https://intertextual.bible/',
       description: 'Connections between Isaiah 10 and New Testament fulfillment, especially Matt 1–12.',
     },
+    {
+      id: 'sefaria-isaiah-10-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 10 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.10',
+      description: 'The Hebrew text of Isaiah 10 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

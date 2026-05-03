@@ -42,6 +42,23 @@ export const CHRONICLES_1_29: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'British Museum collections on Iron Age Levantine kingdoms and David.',
     },
+    {
+      id: 'sefaria-1-chronicles-29',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 29 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.29',
+      description: 'The Hebrew text of 1 Chronicles 29 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-1-chronicles-overview-29',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -70,7 +87,7 @@ export const CHRONICLES_1_29: RichChapterContent = {
           kind: 'commentary',
           id: 'affection-house',
           html:
-            'The king confesses: "I have set my affection to the house of my God." His heart is bound to this work. The materials he lists — gold, silver, brass, iron, wood, precious stones of every kind — are staggering. And then he adds a personal confession: "I have of mine own proper good... given to the house of my God, over and above all that I have prepared." David is not merely commanding the people. He is giving his own treasure first. He loves this work.',
+            'The king confesses: "I have set my affection to the house of my God." His heart is bound to this work. The materials he lists — gold, silver, brass, iron, wood, precious stones of every kind — are staggering. And then he adds a personal confession: "I have of mine own proper good... given to the house of my God, over and above all that I have prepared." David is not merely commanding the people. He is giving his own treasure first. He loves this work[res:sefaria-1-chronicles-29][res:bibleodyssey-1-chronicles-overview-29].',
         },
         {
           kind: 'hebrew',

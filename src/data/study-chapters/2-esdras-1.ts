@@ -70,7 +70,7 @@ export const SECOND_ESDRAS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'despise-law',
           html:
-            'Ezra obeys; the people gather. Yet even as they assemble, God makes clear: some have already hardened their hearts. They have not merely broken the law; they have <em>despised</em> it, cast it aside as though God&apos;s word were worthless. The yoke of covenant—the structure that holds Israel together—has been rejected.',
+            'Ezra obeys; the people gather. Yet even as they assemble, God makes clear: some have already hardened their hearts. They have not merely broken the law; they have <em>despised</em> it, cast it aside as though God&apos;s word were worthless. The yoke of covenant—the structure that holds Israel together—has been rejected[res:sefaria-2-esdras-1-v1].',
         },
 
         {
@@ -785,6 +785,15 @@ export const SECOND_ESDRAS_1: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/apocalyptic/',
       description: 'Apocalyptic traditions in Second Temple Judaism and visionary literature.',
     },
+    {
+      id: 'sefaria-2-esdras-1-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Esdras 1 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Esdras.1',
+      description: 'The Hebrew text of 2 Esdras 1 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {

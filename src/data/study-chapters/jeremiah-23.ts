@@ -68,7 +68,7 @@ export const JEREMIAH_23: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jeremiah-23-78mid-1',
-          html: 'The oracle turns from the failed shepherds to the Branch that is coming — &quot;a King shall reign and prosper.&quot; Judgment makes room for a promise[res:bibleodyssey-jeremiah].',
+          html: 'The oracle turns from the failed shepherds to the Branch that is coming — &quot;a King shall reign and prosper.&quot; Judgment makes room for a promise[res:bibleodyssey-jeremiah][res:sefaria-jeremiah-23].',
         },
         {
           kind: 'scripture',
@@ -439,5 +439,14 @@ export const JEREMIAH_23: RichChapterContent = {
       url: 'https://www.sefaria.org/Jeremiah',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
     }
+    {
+      id: 'sefaria-jeremiah-23',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 23 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.23',
+      description: 'The Hebrew text of Jeremiah 23 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 };

@@ -43,6 +43,23 @@ export const JOB_6: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 6 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.6',
+      description: 'The Hebrew text of Job 6 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-6',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -113,7 +130,7 @@ export const JOB_6: RichChapterContent = {
           kind: 'commentary',
           id: 'grief-weighed',
           html:
-            'Job begins his reply by asking for something impossible yet necessary: that his grief be weighed and measured. If scales could be brought, if his calamity could be placed on one side of a balance and the sand of the sea on the other, the sand would be lighter. His pain is not a quantity one can quantify or compare. It exceeds all measure. And because it is so overwhelming, "my words are swallowed up." He cannot even speak it. The pain swallows his speech.',
+            'Job begins his reply by asking for something impossible yet necessary: that his grief be weighed and measured. If scales could be brought, if his calamity could be placed on one side of a balance and the sand of the sea on the other, the sand would be lighter. His pain is not a quantity one can quantify or compare. It exceeds all measure. And because it is so overwhelming, "my words are swallowed up." He cannot even speak it. The pain swallows his speech[res:sefaria-job-6][res:bibleodyssey-job-overview-6].',
         },
         {
           kind: 'hebrew',

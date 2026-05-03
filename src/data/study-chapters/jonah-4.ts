@@ -55,7 +55,7 @@ export const JONAH_4: RichChapterContent = {
           id: 'jonah4-christ-pity',
           title: 'Christ Connection — God&apos;s Pity for the Lost',
           html:
-            'In Matthew 23, Jesus weeps over Jerusalem: "How often would I have gathered thy children together, even as a hen gathereth her chickens under her wings, and ye would not!" This is the heart of God toward all who are lost, all who are far from Him. Jonah resents this pity. But Christ embodies it. He came to seek and to save that which was lost, even the enemies of the righteous.',
+            'In Matthew 23, Jesus weeps over Jerusalem: "How often would I have gathered thy children together, even as a hen gathereth her chickens under her wings, and ye would not!" This is the heart of God toward all who are lost, all who are far from Him. Jonah resents this pity. But Christ embodies it. He came to seek and to save that which was lost, even the enemies of the righteous[res:sefaria-jonah-4-v1].',
         },
         {
           kind: 'carry',
@@ -144,6 +144,15 @@ export const JONAH_4: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-jonah/',
       description: 'Study of the tension between human judgment and God&apos;s compassion for the repentant.',
     },
+    {
+      id: 'sefaria-jonah-4-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jonah 4 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jonah.4',
+      description: 'The Hebrew text of Jonah 4 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

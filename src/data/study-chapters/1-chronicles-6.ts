@@ -44,6 +44,23 @@ export const CHRONICLES_1_6: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/levite/',
       description: 'SBL study entry on Levite origins, roles, and tribal allotments.',
     },
+    {
+      id: 'sefaria-1-chronicles-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 6 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.6',
+      description: 'The Hebrew text of 1 Chronicles 6 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-1-chronicles-overview-6',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -110,7 +127,7 @@ export const CHRONICLES_1_6: RichChapterContent = {
           kind: 'commentary',
           id: 'sons-of-levi',
           html:
-            'The chapter opens with the three sons of Levi: Gershon, Kohath, and Merari. From these three branches came the entire order of Levites — those set apart to serve the tabernacle and later the temple. But within Kohath&apos;s line, there is something more: the priestly family of Aaron. It is through Aaron that the high priesthood will run, an unbroken succession from the wilderness to the exile.',
+            'The chapter opens with the three sons of Levi: Gershon, Kohath, and Merari. From these three branches came the entire order of Levites — those set apart to serve the tabernacle and later the temple. But within Kohath&apos;s line, there is something more: the priestly family of Aaron. It is through Aaron that the high priesthood will run, an unbroken succession from the wilderness to the exile[res:sefaria-1-chronicles-6][res:bibleodyssey-1-chronicles-overview-6].',
         },
         {
           kind: 'hebrew',

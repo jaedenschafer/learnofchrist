@@ -41,6 +41,23 @@ export const JOB_27: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-27',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 27 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.27',
+      description: 'The Hebrew text of Job 27 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-27',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -114,7 +131,7 @@ export const JOB_27: RichChapterContent = {
           kind: 'commentary',
           id: 'job27-heart',
           html:
-            '"My heart shall not reproach me so long as I live." Job&apos;s ultimate vindication is not external. It is internal. His own heart bears witness to his integrity. His conscience does not accuse him. He knows who he is. And that knowledge is enough. No external judgment, no opinion of the friends, no apparent verdict of God can change the truth that his own heart knows.',
+            '"My heart shall not reproach me so long as I live." Job&apos;s ultimate vindication is not external. It is internal. His own heart bears witness to his integrity. His conscience does not accuse him. He knows who he is. And that knowledge is enough. No external judgment, no opinion of the friends, no apparent verdict of God can change the truth that his own heart knows[res:sefaria-job-27][res:bibleodyssey-job-overview-27].',
         },
         {
           kind: 'hebrew',

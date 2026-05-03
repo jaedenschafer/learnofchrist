@@ -40,6 +40,23 @@ export const CHRONICLES_1_23: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'British Museum collections on Iron Age Levantine kingdoms and David.',
     },
+    {
+      id: 'sefaria-1-chronicles-23',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 23 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.23',
+      description: 'The Hebrew text of 1 Chronicles 23 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-1-chronicles-overview-23',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -68,7 +85,7 @@ export const CHRONICLES_1_23: RichChapterContent = {
           kind: 'commentary',
           id: 'solomon-king',
           html:
-            'Solomon is made king while David still lives. This is unusual in the ancient world — often succession is contested, violent, uncertain. But David&apos;s kingdom is stable enough, his authority secure enough, that he can name his successor and the people will accept it. The text does not narrate conflict or doubt. Instead, it presents an orderly transfer of power — a sign that the kingdom is built on something more stable than one man&apos;s strength.',
+            'Solomon is made king while David still lives. This is unusual in the ancient world — often succession is contested, violent, uncertain. But David&apos;s kingdom is stable enough, his authority secure enough, that he can name his successor and the people will accept it. The text does not narrate conflict or doubt. Instead, it presents an orderly transfer of power — a sign that the kingdom is built on something more stable than one man&apos;s strength[res:sefaria-1-chronicles-23][res:bibleodyssey-1-chronicles-overview-23].',
         },
         {
           kind: 'carry',

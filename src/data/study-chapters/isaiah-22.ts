@@ -72,7 +72,7 @@ export const ISAIAH_22: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah22-vision',
           html:
-            'The "valley of vision" is paradoxical—a place that should be a place of sight is instead a place of blindness. Jerusalem, the city of God, has gone up to the housetops in panic, its rulers fled, bound by archers, captured. The city that should trust in God trusts instead in walls and water supplies, in military preparations and fortifications.',
+            'The "valley of vision" is paradoxical—a place that should be a place of sight is instead a place of blindness. Jerusalem, the city of God, has gone up to the housetops in panic, its rulers fled, bound by archers, captured. The city that should trust in God trusts instead in walls and water supplies, in military preparations and fortifications[res:sefaria-isaiah-22-v1].',
         },
         {
           kind: 'commentary',
@@ -193,6 +193,15 @@ export const ISAIAH_22: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Archaeological and textual evidence of the nations Isaiah prophesies against.',
     },
+    {
+      id: 'sefaria-isaiah-22-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 22 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.22',
+      description: 'The Hebrew text of Isaiah 22 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

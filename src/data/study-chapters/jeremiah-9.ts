@@ -42,7 +42,7 @@ export const JEREMIAH_9: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jeremiah-9-78mid-1',
-          html: 'Jeremiah turns from the deceit of his neighbors to the death of his nation. The personal grief becomes a national one[res:babylonian-chronicle].',
+          html: 'Jeremiah turns from the deceit of his neighbors to the death of his nation. The personal grief becomes a national one[res:babylonian-chronicle][res:sefaria-jeremiah-9].',
         },
         {
           kind: 'scripture',
@@ -152,6 +152,15 @@ export const JEREMIAH_9: RichChapterContent = {
       url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
       description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
     }
+    {
+      id: 'sefaria-jeremiah-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 9 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.9',
+      description: 'The Hebrew text of Jeremiah 9 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

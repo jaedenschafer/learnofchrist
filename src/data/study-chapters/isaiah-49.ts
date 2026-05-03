@@ -40,7 +40,7 @@ export const ISAIAH_49: RichChapterContent = {
           kind: 'commentary',
           id: 'isa49-called',
           html:
-            'The Servant opens by addressing the distant nations and peoples. He is called from the womb, formed by God before birth for a specific purpose. His mouth is made like a sharp sword—his word cuts with divine authority and truth. He is hidden in the shadow of God\'s hand, protected and prepared. And yet there is a cry of desolation: "I have laboured in vain, I have spent my strength for nought." The Servant feels his work has failed, that Israel is not restored. This is the cry of faithfulness in darkness, of service that seems fruitless.',
+            'The Servant opens by addressing the distant nations and peoples. He is called from the womb, formed by God before birth for a specific purpose. His mouth is made like a sharp sword—his word cuts with divine authority and truth. He is hidden in the shadow of God\'s hand, protected and prepared. And yet there is a cry of desolation: "I have laboured in vain, I have spent my strength for nought." The Servant feels his work has failed, that Israel is not restored. This is the cry of faithfulness in darkness, of service that seems fruitless[res:sefaria-isaiah-49-v1].',
         },
         {
           kind: 'hebrew',
@@ -149,6 +149,15 @@ export const ISAIAH_49: RichChapterContent = {
       url: 'https://intertextual.bible/',
       description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
     },
+    {
+      id: 'sefaria-isaiah-49-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 49 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.49',
+      description: 'The Hebrew text of Isaiah 49 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

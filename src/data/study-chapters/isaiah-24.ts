@@ -55,7 +55,7 @@ export const ISAIAH_24: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah24-cosmic-mourning',
           html:
-            'Creation itself mourns. The wine, the vine, even joy itself grieves. The focus shifts from wholesale upheaval to the detailed silence of what once brought celebration—music, drink, mirth—all gone. Emptiness follows emptiness.',
+            'Creation itself mourns. The wine, the vine, even joy itself grieves. The focus shifts from wholesale upheaval to the detailed silence of what once brought celebration—music, drink, mirth—all gone. Emptiness follows emptiness[res:sefaria-isaiah-24-v1][res:bibleodyssey-isaiah-overview-24].',
         },
         {
           kind: 'scripture',
@@ -190,6 +190,23 @@ export const ISAIAH_24: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.24',
       description: 'Sefaria open-access source text and translations for Isaiah 24.',
     },
+    {
+      id: 'sefaria-isaiah-24-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 24 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.24',
+      description: 'The Hebrew text of Isaiah 24 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-24',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

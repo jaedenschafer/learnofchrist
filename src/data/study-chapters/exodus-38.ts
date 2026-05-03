@@ -77,7 +77,7 @@ export const EXODUS_38: RichChapterContent = {
           kind: 'commentary',
           id: 'exo38-bezalel',
           html:
-            'Bezalel was the chief craftsman, the man God filled with wisdom and skill to lead all the work on the tabernacle. He is named because his name matters — God names the ones who build His house. Every part here is intentional: the foursquare base, the four horns, the rings on the sides. The altar where a man&apos;s offering goes up to God is not made carelessly[res:altar-court].',
+            'Bezalel was the chief craftsman, the man God filled with wisdom and skill to lead all the work on the tabernacle. He is named because his name matters — God names the ones who build His house. Every part here is intentional: the foursquare base, the four horns, the rings on the sides. The altar where a man&apos;s offering goes up to God is not made carelessly[res:altar-court][res:sefaria-exodus-38].',
         },
         {
           kind: 'carry',
@@ -397,6 +397,15 @@ export const EXODUS_38: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/tabernacle/',
       description: 'Dimensions and sanctuary orientation.',
     },
+    {
+      id: 'sefaria-exodus-38',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 38 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.38',
+      description: 'The Hebrew text of Exodus 38 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

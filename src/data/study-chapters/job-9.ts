@@ -39,6 +39,23 @@ export const JOB_9: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 9 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.9',
+      description: 'The Hebrew text of Job 9 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-9',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -80,7 +97,7 @@ export const JOB_9: RichChapterContent = {
           kind: 'commentary',
           id: 'job-just-with-god',
           html:
-            '"How should man be just with God?" This is the crisis. It is not a question of innocence or guilt in any legal sense. It is the question of how a finite being can stand in any kind of rightful relation to the infinite. Job acknowledges Bildad&apos;s premise—God is just—but he has glimpsed something Bildad has not: the disparity is so great that the very category of justice seems to fail.',
+            '"How should man be just with God?" This is the crisis. It is not a question of innocence or guilt in any legal sense. It is the question of how a finite being can stand in any kind of rightful relation to the infinite. Job acknowledges Bildad&apos;s premise—God is just—but he has glimpsed something Bildad has not: the disparity is so great that the very category of justice seems to fail[res:sefaria-job-9][res:bibleodyssey-job-overview-9].',
         },
         {
           kind: 'commentary',

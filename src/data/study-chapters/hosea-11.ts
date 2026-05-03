@@ -36,6 +36,15 @@ export const HOSEA_11: RichChapterContent = {
       url: 'https://intertextual.bible/text/hosea-11.1/matthew-2.15',
       description: 'Intertextual connection showing how Matthew applies Hosea&apos;s prophecy of Israel to Jesus as God&apos;s Son.',
     },
+    {
+      id: 'sefaria-hosea-11-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 11 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Hosea.11',
+      description: 'The Hebrew text of Hosea 11 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -110,7 +119,7 @@ export const HOSEA_11: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea-11-78mid-1',
           html:
-            '&quot;When Israel was a child, then I loved him.&quot; The prophet pivots from indictment to a Father&apos;s memory — and the memory is what stays the LORD&apos;s hand.',
+            '&quot;When Israel was a child, then I loved him.&quot; The prophet pivots from indictment to a Father&apos;s memory — and the memory is what stays the LORD&apos;s hand[res:sefaria-hosea-11-v1].',
         },
         {
           kind: 'scripture',

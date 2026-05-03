@@ -41,6 +41,23 @@ export const CHRONICLES_2_25: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
     },
+    {
+      id: 'sefaria-2-chronicles-25',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 25 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.25',
+      description: 'The Hebrew text of 2 Chronicles 25 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-25',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -69,7 +86,7 @@ export const CHRONICLES_2_25: RichChapterContent = {
           kind: 'commentary',
           id: 'deut-24-16',
           html:
-            'Amaziah cites Deuteronomy 24:16 — the law that children shall not die for the father&apos;s sin. This is a moment of judicial mercy. He executes the assassins but spares their sons. The law is ancient. Its principle is clear: each person is responsible for their own sin, not their parent&apos;s. Amaziah knows this law. He obeys it. Yet this very act of obedience sits alongside a heart that is not wholly given to God. Righteousness without wholehearted devotion is incomplete.',
+            'Amaziah cites Deuteronomy 24:16 — the law that children shall not die for the father&apos;s sin. This is a moment of judicial mercy. He executes the assassins but spares their sons. The law is ancient. Its principle is clear: each person is responsible for their own sin, not their parent&apos;s. Amaziah knows this law. He obeys it. Yet this very act of obedience sits alongside a heart that is not wholly given to God. Righteousness without wholehearted devotion is incomplete[res:sefaria-2-chronicles-25][res:bibleodyssey-2-chronicles-overview-25].',
         },
         {
           kind: 'hebrew',

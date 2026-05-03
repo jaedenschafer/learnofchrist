@@ -46,6 +46,15 @@ export const EXODUS_2: RichChapterContent = {
       url: 'https://www.sefaria.org/Exodus.2',
       description: 'Commentary on names reflecting heritage and divine preservation.',
     },
+    {
+      id: 'sefaria-exodus-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 2 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.2',
+      description: 'The Hebrew text of Exodus 2 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -80,7 +89,7 @@ export const EXODUS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'c-son-hope',
           html:
-            'Exodus 1 ends with an edict: kill every Hebrew boy. Into that sentence comes a boy - not hidden because he is weak, but because his mother saw he was beautiful. She risked death to keep him alive. Already, before he is named or known, a woman&apos;s faith is his first shield.',
+            'Exodus 1 ends with an edict: kill every Hebrew boy. Into that sentence comes a boy - not hidden because he is weak, but because his mother saw he was beautiful. She risked death to keep him alive. Already, before he is named or known, a woman&apos;s faith is his first shield[res:sefaria-exodus-2].',
         },
 
         {

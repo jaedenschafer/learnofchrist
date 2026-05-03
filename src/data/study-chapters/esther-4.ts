@@ -46,6 +46,23 @@ export const ESTHER_4: RichChapterContent = {
       url: 'https://www.theoi.com/Text/HerodotusHistories.html',
       description: 'Herodotus accounts of Xerxes, Persian court intrigues, and royal authority.',
     },
+    {
+      id: 'sefaria-esther-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Esther 4 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Esther.4',
+      description: 'The Hebrew text of Esther 4 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-esther-overview-4',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Esther — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/esther/',
+      description: 'Open-access SBL essay on the historical and literary setting of Esther.',
+    },
+
   ],
 
   sections: [
@@ -101,7 +118,7 @@ export const ESTHER_4: RichChapterContent = {
           kind: 'commentary',
           id: 'est4-gate',
           html:
-            'Mordecai comes to the king&apos;s gate, but cannot enter. The law forbids anyone clothed in sackcloth from coming before the king. And so Mordecai sits outside—a man in mourning, powerless, waiting. He has done what he could do. He has refused to bow. And now he must wait to see what God will do.',
+            'Mordecai comes to the king&apos;s gate, but cannot enter. The law forbids anyone clothed in sackcloth from coming before the king. And so Mordecai sits outside—a man in mourning, powerless, waiting. He has done what he could do. He has refused to bow. And now he must wait to see what God will do[res:sefaria-esther-4][res:bibleodyssey-esther-overview-4].',
         },
         {
           kind: 'carry',

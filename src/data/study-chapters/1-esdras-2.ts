@@ -55,7 +55,7 @@ export const FIRST_ESDRAS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'lord-stirred',
           html:
-            'The text does not say Cyrus heard God speak. It says the Lord stirred his spirit—moved him as an eagle stirs its nest to teach its young to fly (see Deuteronomy 32:11). The moving is invisible. Cyrus has no name for what he feels, no theology to explain why he acts. He simply acts. This is how God moves the hearts of rulers whose kingdoms do not acknowledge His name.',
+            'The text does not say Cyrus heard God speak. It says the Lord stirred his spirit—moved him as an eagle stirs its nest to teach its young to fly (see Deuteronomy 32:11). The moving is invisible. Cyrus has no name for what he feels, no theology to explain why he acts. He simply acts. This is how God moves the hearts of rulers whose kingdoms do not acknowledge His name[res:sefaria-1-esdras-2-v1].',
         },
         {
           kind: 'scripture',
@@ -528,6 +528,15 @@ export const FIRST_ESDRAS_2: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/second-temple/',
       description: 'Temple rebuilding and Judean community restoration in Persian period.',
     },
+    {
+      id: 'sefaria-1-esdras-2-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Esdras 2 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Esdras.2',
+      description: 'The Hebrew text of 1 Esdras 2 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {

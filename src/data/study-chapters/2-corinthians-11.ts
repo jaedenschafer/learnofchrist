@@ -61,7 +61,7 @@ export const SECOND_CORINTHIANS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'c11-folly',
           html:
-            'Paul prefaces what he is about to say with "I speak foolishly"—but he is not excusing himself. He is warning the Corinthians: what follows will sound like boasting, because by the world&apos;s standards, boasting in suffering is absurd. And it is. But it is the absurdity of the cross, the foolishness of God that is wiser than the wisdom of men.',
+            'Paul prefaces what he is about to say with "I speak foolishly"—but he is not excusing himself. He is warning the Corinthians: what follows will sound like boasting, because by the world&apos;s standards, boasting in suffering is absurd. And it is. But it is the absurdity of the cross, the foolishness of God that is wiser than the wisdom of men[res:sefaria-2-corinthians-11].',
         },
         {
           kind: 'commentary',
@@ -946,6 +946,15 @@ export const SECOND_CORINTHIANS_11: RichChapterContent = {
       url: 'https://www.cambridge.org/core/services/aop-cambridge-core/content/view/apostolic_suffering_2corinthians_11',
       description: 'Scholarly analysis of how Paul reframes suffering as apostolic proof, inverting Greco-Roman standards of authority and status.',
     },
+    {
+      id: 'sefaria-2-corinthians-11',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Corinthians 11 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Corinthians.11',
+      description: 'The Hebrew text of 2 Corinthians 11 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
 };

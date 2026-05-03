@@ -37,7 +37,7 @@ export const EZEKIEL_5: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk5-razor-judgment',
-          html: 'The razor divides with mathematical precision. One third, one third, one third. Each portion of Ezekiel&apos;s hair is assigned a mode of destruction: fire, wind, sword. This is not chaos. This is judgment administered with proportion and clarity. God is not raging arbitrarily. He is acting according to the measure of Jerusalem&apos;s unfaithfulness. Yet even in the midst of this total judgment, a remnant is saved. A few hairs are bound in Ezekiel&apos;s skirts — and from these, paradoxically, another fire emerges. Not destruction but new beginning[res:gog-magog-bibleodyssey].',
+          html: 'The razor divides with mathematical precision. One third, one third, one third. Each portion of Ezekiel&apos;s hair is assigned a mode of destruction: fire, wind, sword. This is not chaos. This is judgment administered with proportion and clarity. God is not raging arbitrarily. He is acting according to the measure of Jerusalem&apos;s unfaithfulness. Yet even in the midst of this total judgment, a remnant is saved. A few hairs are bound in Ezekiel&apos;s skirts — and from these, paradoxically, another fire emerges. Not destruction but new beginning[res:gog-magog-bibleodyssey][res:sefaria-ezekiel-5].',
         },
         {
           kind: 'carry',
@@ -112,6 +112,15 @@ export const EZEKIEL_5: RichChapterContent = {
       url: 'https://www.imj.org.il/en',
       description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
     }
+    {
+      id: 'sefaria-ezekiel-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 5 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.5',
+      description: 'The Hebrew text of Ezekiel 5 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: false,

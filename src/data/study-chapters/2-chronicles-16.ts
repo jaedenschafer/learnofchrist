@@ -45,6 +45,23 @@ export const CHRONICLES_2_16: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
     },
+    {
+      id: 'sefaria-2-chronicles-16',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 16 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.16',
+      description: 'The Hebrew text of 2 Chronicles 16 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-16',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -105,7 +122,7 @@ export const CHRONICLES_2_16: RichChapterContent = {
           kind: 'commentary',
           id: '2ch16-benhadad',
           html:
-            'But Asa does not turn to the Lord as he once did. Instead, he reaches into the treasury—both the king&apos;s house and the house of the Lord—and withdraws silver and gold to purchase an alliance with Ben-hadad of Syria. The move is pragmatic. It works. Ben-hadad&apos;s armies strike at Israel&apos;s northern cities, Baasha abandons his building project, and Asa is safe. But something has shifted. The king who once cried out to the Lord in desperate faith now relies on human cunning and earthly treasure.',
+            'But Asa does not turn to the Lord as he once did. Instead, he reaches into the treasury—both the king&apos;s house and the house of the Lord—and withdraws silver and gold to purchase an alliance with Ben-hadad of Syria. The move is pragmatic. It works. Ben-hadad&apos;s armies strike at Israel&apos;s northern cities, Baasha abandons his building project, and Asa is safe. But something has shifted. The king who once cried out to the Lord in desperate faith now relies on human cunning and earthly treasure[res:sefaria-2-chronicles-16][res:bibleodyssey-2-chronicles-overview-16].',
         },
         {
           kind: 'hebrew',

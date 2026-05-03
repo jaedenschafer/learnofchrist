@@ -52,6 +52,15 @@ export const SECOND_ESDRAS_7: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/evil/',
       description: 'Problem of evil and divine justice in postexilic Jewish thought.',
     },
+    {
+      id: 'sefaria-2-esdras-7',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Esdras 7 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Esdras.7',
+      description: 'The Hebrew text of 2 Esdras 7 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {
@@ -106,7 +115,7 @@ export const SECOND_ESDRAS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'few-many-paradox',
           html:
-            'The angel is not explaining away the paradox; he is affirming it. God has made the world so that few are saved and many are lost. This is not because God&apos;s grace is limited, but because the gate is narrow. Salvation requires a response, a choice, a walking through. Most do not choose to walk through.',
+            'The angel is not explaining away the paradox; he is affirming it. God has made the world so that few are saved and many are lost. This is not because God&apos;s grace is limited, but because the gate is narrow. Salvation requires a response, a choice, a walking through. Most do not choose to walk through[res:sefaria-2-esdras-7].',
         },
 
         {

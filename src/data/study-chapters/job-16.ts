@@ -40,6 +40,23 @@ export const JOB_16: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-16',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 16 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.16',
+      description: 'The Hebrew text of Job 16 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-16',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -78,7 +95,7 @@ export const JOB_16: RichChapterContent = {
           kind: 'commentary',
           id: 'job16-friends-god',
           html:
-            'Job&apos;s complaint against his friends gives way to something darker: his accusation against God. The friends have failed him, yes. But God has become his enemy. The pivot from human rejection to divine violence marks a turning point—Job&apos;s anguish deepens from disappointment to existential betrayal.',
+            'Job&apos;s complaint against his friends gives way to something darker: his accusation against God. The friends have failed him, yes. But God has become his enemy. The pivot from human rejection to divine violence marks a turning point—Job&apos;s anguish deepens from disappointment to existential betrayal[res:sefaria-job-16][res:bibleodyssey-job-overview-16].',
         },
         {
           kind: 'scripture',

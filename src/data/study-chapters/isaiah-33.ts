@@ -60,7 +60,7 @@ export const ISAIAH_33: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah33-woe',
           html:
-            'The chapter opens with judgment against those who spoil and deal treacherously. This is Sennacherib and Assyria—the power that has come against Jerusalem with spoil and treachery in mind. But a principle operates: when you cease to spoil, you will be spoiled. When you deal treacherously, others will deal treacherously with you. This is not arbitrary punishment. This is the natural consequence of a life of violence and betrayal.',
+            'The chapter opens with judgment against those who spoil and deal treacherously. This is Sennacherib and Assyria—the power that has come against Jerusalem with spoil and treachery in mind. But a principle operates: when you cease to spoil, you will be spoiled. When you deal treacherously, others will deal treacherously with you. This is not arbitrary punishment. This is the natural consequence of a life of violence and betrayal[res:sefaria-isaiah-33-v1][res:bibleodyssey-isaiah-overview-33].',
         },
         {
           kind: 'commentary',
@@ -212,6 +212,23 @@ export const ISAIAH_33: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.33',
       description: 'Sefaria open-access source text and translations for Isaiah 33.',
     },
+    {
+      id: 'sefaria-isaiah-33-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 33 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.33',
+      description: 'The Hebrew text of Isaiah 33 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-33',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

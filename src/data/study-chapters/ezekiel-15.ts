@@ -52,7 +52,7 @@ export const EZEKIEL_15: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk15-vine-purpose',
-          html: 'The vine is remarkable for one thing only: its fruit. Its wood is weak, unsuitable for crafting, unusable for anything but fuel. God poses the question with apparent surprise: What makes you think a vine is good for anything but bearing fruit? And if it does not bear fruit, it is only good for burning. Israel has been given a singular purpose, a singular reason for its existence: to bear the fruit of covenant faithfulness. To be a light to the nations, to display God&apos;s justice, to be a nation whose laws and whose witness draw others to the true God. If Israel fails in that, what is left? Only judgment[res:sefaria-ezekiel].',
+          html: 'The vine is remarkable for one thing only: its fruit. Its wood is weak, unsuitable for crafting, unusable for anything but fuel. God poses the question with apparent surprise: What makes you think a vine is good for anything but bearing fruit? And if it does not bear fruit, it is only good for burning. Israel has been given a singular purpose, a singular reason for its existence: to bear the fruit of covenant faithfulness. To be a light to the nations, to display God&apos;s justice, to be a nation whose laws and whose witness draw others to the true God. If Israel fails in that, what is left? Only judgment[res:sefaria-ezekiel][res:sefaria-ezekiel-15].',
         },
         {
           kind: 'hebrew',
@@ -109,6 +109,15 @@ export const EZEKIEL_15: RichChapterContent = {
       url: 'https://www.sefaria.org/Ezekiel',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
     }
+    {
+      id: 'sefaria-ezekiel-15',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 15 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.15',
+      description: 'The Hebrew text of Ezekiel 15 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

@@ -36,6 +36,15 @@ export const AMOS_2: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-amos/',
       description: 'Amos&apos;s prophetic demands for justice — feeding the hungry, care for the poor, integrity in commerce.',
     },
+    {
+      id: 'sefaria-amos-2-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Amos 2 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Amos.2',
+      description: 'The Hebrew text of Amos 2 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -92,7 +101,7 @@ export const AMOS_2: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'amos2-blessing',
-          html: 'God had done everything for Israel. He destroyed the Amorite before them. He led them forty years through the wilderness. He raised up prophets from their own sons. He called Nazarites to be living witnesses of consecration. Every sign of God&apos;s presence and favor was given. Yet Israel was about to reject it all.',
+          html: 'God had done everything for Israel. He destroyed the Amorite before them. He led them forty years through the wilderness. He raised up prophets from their own sons. He called Nazarites to be living witnesses of consecration. Every sign of God&apos;s presence and favor was given. Yet Israel was about to reject it all[res:sefaria-amos-2-v1].',
         },
         {
           kind: 'scripture',

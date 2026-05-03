@@ -34,6 +34,23 @@ export const JOB_29: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-29',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 29 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.29',
+      description: 'The Hebrew text of Job 29 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-29',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -72,7 +89,7 @@ export const JOB_29: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'Job is describing something we all know: seasons of favor when everything seems to flow, when our path is clear, when we feel guided and blessed. He also knows what it feels like to lose that. We, too, remember former seasons of grace. We remember times when we felt the presence of God. And we remember the silence that followed.',
+            'Job is describing something we all know: seasons of favor when everything seems to flow, when our path is clear, when we feel guided and blessed. He also knows what it feels like to lose that. We, too, remember former seasons of grace. We remember times when we felt the presence of God. And we remember the silence that followed[res:sefaria-job-29][res:bibleodyssey-job-overview-29].',
         },
         {
           kind: 'reflection',

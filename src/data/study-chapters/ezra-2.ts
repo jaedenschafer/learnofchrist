@@ -39,6 +39,23 @@ export const EZRA_2: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA archaeological evidence for post-exilic settlement in Judah.',
     },
+    {
+      id: 'sefaria-ezra-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezra 2 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezra.2',
+      description: 'The Hebrew text of Ezra 2 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-ezra-overview-2',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezra — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/ezra/',
+      description: 'Open-access SBL essay on the historical and literary setting of Ezra.',
+    },
+
   ],
 
   sections: [
@@ -65,7 +82,7 @@ export const EZRA_2: RichChapterContent = {
           kind: 'commentary',
           id: 'zerubbabel-leadership',
           html:
-            'Zerubbabel leads the return. He is a governor, a descendant of David, one anointed by the Spirit of God (see Haggai 2:23). Alongside him are Jeshua, the high priest, and a band of leaders — Nehemiah, Seraiah, and others whose names will shape the restoration of temple and city. These leaders represent both the secular and sacred authority: Zerubbabel the governor, Jeshua the priest. The people follow both.',
+            'Zerubbabel leads the return. He is a governor, a descendant of David, one anointed by the Spirit of God (see Haggai 2:23). Alongside him are Jeshua, the high priest, and a band of leaders — Nehemiah, Seraiah, and others whose names will shape the restoration of temple and city. These leaders represent both the secular and sacred authority: Zerubbabel the governor, Jeshua the priest. The people follow both[res:sefaria-ezra-2][res:bibleodyssey-ezra-overview-2].',
         },
         {
           kind: 'hebrew',

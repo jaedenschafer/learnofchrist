@@ -60,7 +60,7 @@ export const ISAIAH_54: RichChapterContent = {
           kind: 'commentary',
           id: 'isa54-barren',
           html:
-            'The barren woman is called to sing and cry aloud. Her shame is turned to joy. She will have more children than the married woman. This is a complete reversal: what was empty will be full, what was silent will sing, what was ashamed will be honored.',        },
+            'The barren woman is called to sing and cry aloud. Her shame is turned to joy. She will have more children than the married woman. This is a complete reversal: what was empty will be full, what was silent will sing, what was ashamed will be honored[res:sefaria-isaiah-54-v1][res:bibleodyssey-isaiah-overview-54].',        },
         {
           kind: 'commentary',
           id: 'isa54-tent',
@@ -169,6 +169,23 @@ export const ISAIAH_54: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.54',
       description: 'Sefaria open-access source text and translations for Isaiah 54.',
     },
+    {
+      id: 'sefaria-isaiah-54-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 54 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.54',
+      description: 'The Hebrew text of Isaiah 54 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-54',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

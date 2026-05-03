@@ -34,6 +34,23 @@ export const JOB_38: RichChapterContent = {
       url: 'https://www.sefaria.org/Job',
       description: 'Sefaria Hebrew text with notes on rare terms and wisdom vocabulary.',
     },
+    {
+      id: 'sefaria-job-38',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 38 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.38',
+      description: 'The Hebrew text of Job 38 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-38',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -75,7 +92,7 @@ export const JOB_38: RichChapterContent = {
           kind: 'commentary',
           id: 'job38-darkened-counsel',
           html:
-            'God&apos;s first words critique Job&apos;s approach: "Who is this that darkeneth counsel by words without knowledge?" Job has spoken much, but his words are without knowledge. He has darkened understanding rather than illuminated it. He has claimed to judge God while lacking the basic knowledge of how creation itself works.',
+            'God&apos;s first words critique Job&apos;s approach: "Who is this that darkeneth counsel by words without knowledge?" Job has spoken much, but his words are without knowledge. He has darkened understanding rather than illuminated it. He has claimed to judge God while lacking the basic knowledge of how creation itself works[res:sefaria-job-38][res:bibleodyssey-job-overview-38].',
         },
         {
           kind: 'commentary',

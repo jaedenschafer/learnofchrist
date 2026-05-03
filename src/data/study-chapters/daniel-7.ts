@@ -53,7 +53,7 @@ export const DANIEL_7: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel7-beasts',
-          html: 'The four beasts represent earthly kingdoms and powers. They are monsters—fierce, hungry, brutal. They devour, they destroy, they war against one another. They are not merely imperfect; they are bestial. They are driven by appetite, by violence, by the lust for dominion. They come from the sea—from chaos, from the forces that oppose God&apos;s order. And they imagine themselves to be supreme, each ruling over all the earth. But none of them endures. They are replaced by one another, and they will all be replaced by the kingdom of the Son of Man[res:sefaria-daniel].',
+          html: 'The four beasts represent earthly kingdoms and powers. They are monsters—fierce, hungry, brutal. They devour, they destroy, they war against one another. They are not merely imperfect; they are bestial. They are driven by appetite, by violence, by the lust for dominion. They come from the sea—from chaos, from the forces that oppose God&apos;s order. And they imagine themselves to be supreme, each ruling over all the earth. But none of them endures. They are replaced by one another, and they will all be replaced by the kingdom of the Son of Man[res:sefaria-daniel][res:sefaria-daniel-7].',
         },
         {
           kind: 'hebrew',
@@ -144,6 +144,15 @@ export const DANIEL_7: RichChapterContent = {
       url: 'https://www.sefaria.org/Daniel',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
     }
+    {
+      id: 'sefaria-daniel-7',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Daniel 7 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Daniel.7',
+      description: 'The Hebrew text of Daniel 7 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

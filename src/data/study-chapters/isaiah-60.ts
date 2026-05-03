@@ -62,7 +62,7 @@ export const ISAIAH_60: RichChapterContent = {
           kind: 'commentary',
           id: 'isa60-arise',
           html:
-            'Zion is called to arise and shine. Her light has come. While darkness covers the earth, the Lord rises upon her. Her glory is the reflection of His glory. She becomes a beacon to the nations. The Gentiles see her light and come. Kings see the brightness of her rising and bow.',        },
+            'Zion is called to arise and shine. Her light has come. While darkness covers the earth, the Lord rises upon her. Her glory is the reflection of His glory. She becomes a beacon to the nations. The Gentiles see her light and come. Kings see the brightness of her rising and bow[res:sefaria-isaiah-60-v1][res:bibleodyssey-isaiah-overview-60].',        },
         {
           kind: 'commentary',
           id: 'isa60-gather',
@@ -170,6 +170,23 @@ export const ISAIAH_60: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.60',
       description: 'Sefaria open-access source text and translations for Isaiah 60.',
     },
+    {
+      id: 'sefaria-isaiah-60-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 60 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.60',
+      description: 'The Hebrew text of Isaiah 60 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-60',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

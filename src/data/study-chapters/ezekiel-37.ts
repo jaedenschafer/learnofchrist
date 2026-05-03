@@ -53,7 +53,7 @@ export const EZEKIEL_37: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel37-can-live',
-          html: 'The question is meant to break Ezekiel&apos;s confidence in what is merely possible. Ezekiel answers honestly: "O Lord God, thou knowest." He does not say, "No, they cannot." He does not say, "Yes, they can." He says: I don&apos;t know. You alone know. This is the only honest answer when confronted with the impossible. Faith is not pretending you know better. Faith is admitting you don&apos;t know, but trusting that God does[res:sefaria-ezekiel].',
+          html: 'The question is meant to break Ezekiel&apos;s confidence in what is merely possible. Ezekiel answers honestly: "O Lord God, thou knowest." He does not say, "No, they cannot." He does not say, "Yes, they can." He says: I don&apos;t know. You alone know. This is the only honest answer when confronted with the impossible. Faith is not pretending you know better. Faith is admitting you don&apos;t know, but trusting that God does[res:sefaria-ezekiel][res:sefaria-ezekiel-37].',
         },
         {
           kind: 'commentary',
@@ -149,6 +149,15 @@ export const EZEKIEL_37: RichChapterContent = {
       url: 'https://www.sefaria.org/Ezekiel',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
     }
+    {
+      id: 'sefaria-ezekiel-37',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 37 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.37',
+      description: 'The Hebrew text of Ezekiel 37 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

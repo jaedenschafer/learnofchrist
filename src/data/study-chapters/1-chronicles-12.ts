@@ -41,6 +41,23 @@ export const CHRONICLES_1_12: RichChapterContent = {
       url: 'https://www.sefaria.org/search?q=tribe+israel&tab=text',
       description: 'Sefaria resources on the twelve tribes, genealogies, and territorial divisions.',
     },
+    {
+      id: 'sefaria-1-chronicles-12',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 12 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.12',
+      description: 'The Hebrew text of 1 Chronicles 12 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-1-chronicles-overview-12',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -78,7 +95,7 @@ export const CHRONICLES_1_12: RichChapterContent = {
           kind: 'commentary',
           id: 'benjamin-joins',
           html:
-            'Saul was of the tribe of Benjamin. Yet men of Benjamin — of Saul&apos;s own kinsmen — left the king they knew and came to David at Ziklag. This is not a small detail. To abandon a reigning king was to make a profound choice, a statement that David possessed something Saul had lost: the blessing of God. These warriors saw something in David that transcended politics or pragmatism. They saw the future.',
+            'Saul was of the tribe of Benjamin. Yet men of Benjamin — of Saul&apos;s own kinsmen — left the king they knew and came to David at Ziklag. This is not a small detail. To abandon a reigning king was to make a profound choice, a statement that David possessed something Saul had lost: the blessing of God. These warriors saw something in David that transcended politics or pragmatism. They saw the future[res:sefaria-1-chronicles-12][res:bibleodyssey-1-chronicles-overview-12].',
         },
         {
           kind: 'commentary',

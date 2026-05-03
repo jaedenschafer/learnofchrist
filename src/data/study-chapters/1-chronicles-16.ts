@@ -40,6 +40,23 @@ export const CHRONICLES_1_16: RichChapterContent = {
       url: 'https://www.imj.org.il/',
       description: 'Museum exhibits and scholarly materials on the Ark and temple worship.',
     },
+    {
+      id: 'sefaria-1-chronicles-16',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 16 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.16',
+      description: 'The Hebrew text of 1 Chronicles 16 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-1-chronicles-overview-16',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -67,7 +84,7 @@ export const CHRONICLES_1_16: RichChapterContent = {
           kind: 'commentary',
           id: 'blessed-people-name',
           html:
-            'David does not pronounce a blessing in his own authority. He blesses the people "in the name of the Lord." This is the language of a priest-king, one who stands between God and the people and speaks what God would speak. The blessing is not David&apos;s opinion; it is the Lord&apos;s word through David&apos;s mouth.',
+            'David does not pronounce a blessing in his own authority. He blesses the people "in the name of the Lord." This is the language of a priest-king, one who stands between God and the people and speaks what God would speak. The blessing is not David&apos;s opinion; it is the Lord&apos;s word through David&apos;s mouth[res:sefaria-1-chronicles-16][res:bibleodyssey-1-chronicles-overview-16].',
         },
         {
           kind: 'commentary',

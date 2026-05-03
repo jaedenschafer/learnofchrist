@@ -64,7 +64,7 @@ export const FIRST_THESSALONIANS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'v1-walk',
           html:
-            'Paul is not inventing a new gospel; he is reminding them of what they already know. They have heard, received, begun to walk. Now the call is simple: keep going. <em>Abound more and more.</em> The Christian life is not maintenance—it is growth, deepening, expansion. Step by step, mile by mile, you are learning how to walk in a way that pleases God.',
+            'Paul is not inventing a new gospel; he is reminding them of what they already know. They have heard, received, begun to walk. Now the call is simple: keep going. <em>Abound more and more.</em> The Christian life is not maintenance—it is growth, deepening, expansion. Step by step, mile by mile, you are learning how to walk in a way that pleases God[res:sefaria-1-thessalonians-4].',
         },
 
         {
@@ -594,6 +594,15 @@ export const FIRST_THESSALONIANS_4: RichChapterContent = {
       url: 'https://www.sefaria.org/search?q=work%20provision%20dignity',
       description: 'The biblical vision of work not as punishment but as dignity—a way to provide for oneself and bear witness to the reality of one&apos;s faith.',
     },
+    {
+      id: 'sefaria-1-thessalonians-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Thessalonians 4 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Thessalonians.4',
+      description: 'The Hebrew text of 1 Thessalonians 4 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
 };

@@ -78,7 +78,7 @@ export const JEREMIAH_27: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer27-nations-serve-warning',
-          html: 'God&apos;s power is absolute—He made the earth and all life upon it, and He gives dominion to whom He chooses. Now He has chosen to give dominion to Babylon. Resistance is futile. The warning shifts to the consequence: those who refuse will be judged with sword, famine, and pestilence[res:babylonian-chronicle].',
+          html: 'God&apos;s power is absolute—He made the earth and all life upon it, and He gives dominion to whom He chooses. Now He has chosen to give dominion to Babylon. Resistance is futile. The warning shifts to the consequence: those who refuse will be judged with sword, famine, and pestilence[res:babylonian-chronicle][res:sefaria-jeremiah-27].',
         },
         {
           kind: 'scripture',
@@ -301,5 +301,14 @@ export const JEREMIAH_27: RichChapterContent = {
       url: 'https://www.sefaria.org/Jeremiah',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
     }
+    {
+      id: 'sefaria-jeremiah-27',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 27 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.27',
+      description: 'The Hebrew text of Jeremiah 27 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 };

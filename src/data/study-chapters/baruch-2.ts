@@ -35,6 +35,15 @@ export const BARUCH_2: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/covenant/',
       description: 'Liturgical confession and restoration of covenant relationship.',
     },
+    {
+      id: 'sefaria-baruch-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Baruch 2 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Baruch.2',
+      description: 'The Hebrew text of Baruch 2 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {
@@ -85,7 +94,7 @@ html: 'The exiles do not come before God with strength or confidence. They come 
           kind: 'christ',
           id: 'bar2-eternal-mortal',
           title: 'Christ Connection — The Eternal One Dies',
-          html: 'The prayer sets up the contrast: "Thou endurest for ever, and we perish utterly." This is the human condition voiced from exile. But in the Gospel, the Eternal One enters mortality. The Word who is "before all things" (Colossians 1:17) is born as an infant. The One who cannot die dies. In Christ, God enters human anguish, not as observer but as participant. His mercy is no longer spoken from outside time—it is lived within it.',
+          html: 'The prayer sets up the contrast: "Thou endurest for ever, and we perish utterly." This is the human condition voiced from exile. But in the Gospel, the Eternal One enters mortality. The Word who is "before all things" (Colossians 1:17) is born as an infant. The One who cannot die dies. In Christ, God enters human anguish, not as observer but as participant. His mercy is no longer spoken from outside time—it is lived within it[res:sefaria-baruch-2].',
         },
         {
           kind: 'carry',

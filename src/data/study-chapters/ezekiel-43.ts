@@ -38,7 +38,7 @@ export const EZEKIEL_43: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel43-voice',
-          html: 'The voice of God is like the roar of many waters—overwhelming, undeniable, powerful. This is not the still, small voice of God to the individual prophet. This is the cosmic voice of God entering into His dwelling place. The earth itself shines with His glory[res:babylonian-exile-context].',
+          html: 'The voice of God is like the roar of many waters—overwhelming, undeniable, powerful. This is not the still, small voice of God to the individual prophet. This is the cosmic voice of God entering into His dwelling place. The earth itself shines with His glory[res:babylonian-exile-context][res:sefaria-ezekiel-43].',
         },
         {
           kind: 'commentary',
@@ -133,6 +133,15 @@ export const EZEKIEL_43: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/gog/',
       description: 'SBL entry on the mysterious Gog figure in Ezekiel and Revelation.',
     }
+    {
+      id: 'sefaria-ezekiel-43',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 43 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.43',
+      description: 'The Hebrew text of Ezekiel 43 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

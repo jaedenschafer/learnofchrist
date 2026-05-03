@@ -41,6 +41,23 @@ export const JOB_3: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 3 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.3',
+      description: 'The Hebrew text of Job 3 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-3',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -119,7 +136,7 @@ export const JOB_3: RichChapterContent = {
           kind: 'commentary',
           id: 'cursed-day',
           html:
-            'After seven days of silence, Job speaks. But he does not speak words of consolation. He opens his mouth to curse the day of his birth. This is not blasphemy. Job is not cursing God. He is cursing the day — the moment when his existence began, the light that illuminated his life. His words are the cry of one whose pain is so deep that he questions the value of ever having been born.',
+            'After seven days of silence, Job speaks. But he does not speak words of consolation. He opens his mouth to curse the day of his birth. This is not blasphemy. Job is not cursing God. He is cursing the day — the moment when his existence began, the light that illuminated his life. His words are the cry of one whose pain is so deep that he questions the value of ever having been born[res:sefaria-job-3][res:bibleodyssey-job-overview-3].',
         },
         {
           kind: 'hebrew',

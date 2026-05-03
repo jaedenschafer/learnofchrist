@@ -53,6 +53,15 @@ export const EXODUS_27: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/sacrifice/',
       description: 'Overview of Israelite sacrificial theology.',
     },
+    {
+      id: 'sefaria-exodus-27',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 27 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.27',
+      description: 'The Hebrew text of Exodus 27 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -81,7 +90,7 @@ export const EXODUS_27: RichChapterContent = {
           kind: 'commentary',
           id: 'ex27-altar',
           html:
-            'A perfect square. Five by five—the number of grace repeated, stability through proportion. But it&apos;s not gold or stone; it&apos;s wood, the material of the tabernacle itself, standing in the courtyard where every Israelite could approach. The altar is not locked away in the Holy of Holies. It is the first structure anyone entering the court encounters. This is where a person gives their offering to God[res:bronze-altar].',
+            'A perfect square. Five by five—the number of grace repeated, stability through proportion. But it&apos;s not gold or stone; it&apos;s wood, the material of the tabernacle itself, standing in the courtyard where every Israelite could approach. The altar is not locked away in the Holy of Holies. It is the first structure anyone entering the court encounters. This is where a person gives their offering to God[res:bronze-altar][res:sefaria-exodus-27].',
         },
         {
           kind: 'hebrew',

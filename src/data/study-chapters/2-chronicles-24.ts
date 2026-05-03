@@ -44,6 +44,23 @@ export const CHRONICLES_2_24: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
     },
+    {
+      id: 'sefaria-2-chronicles-24',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 24 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.24',
+      description: 'The Hebrew text of 2 Chronicles 24 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-24',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -86,7 +103,7 @@ export const CHRONICLES_2_24: RichChapterContent = {
           kind: 'commentary',
           id: '2c24-jehoiada-father',
           html:
-            'Jehoiada takes for Joash two wives. He acts as a father to the boy-king, securing his household and his succession. Joash begat sons and daughters — the line continues. This is not mere administrative function. This is love. The priest provides for the king&apos;s future, his stability, his family. And in doing so, he becomes to Joash what a father should be.',
+            'Jehoiada takes for Joash two wives. He acts as a father to the boy-king, securing his household and his succession. Joash begat sons and daughters — the line continues. This is not mere administrative function. This is love. The priest provides for the king&apos;s future, his stability, his family. And in doing so, he becomes to Joash what a father should be[res:sefaria-2-chronicles-24][res:bibleodyssey-2-chronicles-overview-24].',
         },
         {
           kind: 'hebrew',

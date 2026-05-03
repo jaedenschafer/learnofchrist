@@ -38,6 +38,23 @@ export const CHRONICLES_2_15: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
     },
+    {
+      id: 'sefaria-2-chronicles-15',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 15 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.15',
+      description: 'The Hebrew text of 2 Chronicles 15 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-15',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -118,7 +135,7 @@ export const CHRONICLES_2_15: RichChapterContent = {
           kind: 'commentary',
           id: 'ch15-azariah',
           html:
-            'Azariah, son of the prophet Oded, is moved by the Spirit of God — not in judgment, but in merciful rebuke and promise. He goes out to meet Asa, and his word becomes the turning point of Asa&apos;s reign. The Spirit moves him to speak what Judah needs to hear: the terms of covenant faithfulness and the promise of covenant blessing.',
+            'Azariah, son of the prophet Oded, is moved by the Spirit of God — not in judgment, but in merciful rebuke and promise. He goes out to meet Asa, and his word becomes the turning point of Asa&apos;s reign. The Spirit moves him to speak what Judah needs to hear: the terms of covenant faithfulness and the promise of covenant blessing[res:sefaria-2-chronicles-15][res:bibleodyssey-2-chronicles-overview-15].',
         },
         {
           kind: 'commentary',

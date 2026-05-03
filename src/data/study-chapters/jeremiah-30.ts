@@ -67,7 +67,7 @@ export const JEREMIAH_30: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer30-disaster-restoration',
-          html: 'God moves from the terror of disaster to the wonder of restoration. Judgment ends and healing begins[res:babylonian-chronicle].',
+          html: 'God moves from the terror of disaster to the wonder of restoration. Judgment ends and healing begins[res:babylonian-chronicle][res:sefaria-jeremiah-30].',
         },
         {
           kind: 'scripture',
@@ -329,5 +329,14 @@ export const JEREMIAH_30: RichChapterContent = {
       url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
       description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
     }
+    {
+      id: 'sefaria-jeremiah-30',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 30 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.30',
+      description: 'The Hebrew text of Jeremiah 30 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 };

@@ -47,7 +47,7 @@ export const ISAIAH_26: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah26-gates',
           html:
-            '"Open ye the gates, that the righteous nation which keepeth the truth may enter in." The gates open not to the strong, the proud, or the powerful, but to the righteous—those who keep the truth. It is a reversal of every worldly standard of access and honor. The city welcomes those who walk in truth.',
+            '"Open ye the gates, that the righteous nation which keepeth the truth may enter in." The gates open not to the strong, the proud, or the powerful, but to the righteous—those who keep the truth. It is a reversal of every worldly standard of access and honor. The city welcomes those who walk in truth[res:sefaria-isaiah-26-v1][res:bibleodyssey-isaiah-overview-26].',
         },
         {
           kind: 'hebrew',
@@ -173,6 +173,23 @@ export const ISAIAH_26: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.26',
       description: 'Sefaria open-access source text and translations for Isaiah 26.',
     },
+    {
+      id: 'sefaria-isaiah-26-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 26 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.26',
+      description: 'The Hebrew text of Isaiah 26 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-26',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

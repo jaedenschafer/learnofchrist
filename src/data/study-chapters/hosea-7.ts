@@ -36,6 +36,15 @@ export const HOSEA_7: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
       description: 'Study of Hosea&apos;s use of vivid metaphors like "a cake not turned" to describe spiritual unfaithfulness.',
     },
+    {
+      id: 'sefaria-hosea-7-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 7 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Hosea.7',
+      description: 'The Hebrew text of Hosea 7 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -82,7 +91,7 @@ export const HOSEA_7: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea7-cake',
           html:
-            'The image of "a cake not turned" speaks to incompleteness, to something that looks done on one side but is raw on the other. Israel is burned brown from the outside but white and doughy within. She appears fine to outsiders but is spiritually undeveloped, immature, not what she should be.',
+            'The image of "a cake not turned" speaks to incompleteness, to something that looks done on one side but is raw on the other. Israel is burned brown from the outside but white and doughy within. She appears fine to outsiders but is spiritually undeveloped, immature, not what she should be[res:sefaria-hosea-7-v1].',
         },
         {
           kind: 'carry',

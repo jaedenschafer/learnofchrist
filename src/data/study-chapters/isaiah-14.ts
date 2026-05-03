@@ -63,7 +63,7 @@ export const ISAIAH_14: RichChapterContent = {
           id: 'isaiah14-christ-light',
           title: 'Christ Connection — The True Light',
           html:
-            'While the morning star—Lucifer—represents the fall of one who sought to exalt himself above God, Jesus is the one who descends from the heights of heaven to the depths of human suffering, who humbles Himself unto death, yet is exalted by God the Father. Jesus called Himself "the bright and morning star" (Revelation 22:16), the true and genuine light. Where Lucifer&apos;s light is false, a shimmer of pride and rebellion, Christ&apos;s light is the light of divine truth and love. Luke 10:18 records Jesus saying, "I beheld Satan as lightning fall from heaven," placing this prophecy of Lucifer&apos;s fall in the context of His own triumph over the powers of darkness.',
+            'While the morning star—Lucifer—represents the fall of one who sought to exalt himself above God, Jesus is the one who descends from the heights of heaven to the depths of human suffering, who humbles Himself unto death, yet is exalted by God the Father. Jesus called Himself "the bright and morning star" (Revelation 22:16), the true and genuine light. Where Lucifer&apos;s light is false, a shimmer of pride and rebellion, Christ&apos;s light is the light of divine truth and love. Luke 10:18 records Jesus saying, "I beheld Satan as lightning fall from heaven," placing this prophecy of Lucifer&apos;s fall in the context of His own triumph over the powers of darkness[res:sefaria-isaiah-14-v1].',
         },
         {
           kind: 'carry',
@@ -133,6 +133,15 @@ export const ISAIAH_14: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Archaeological and textual evidence of the nations Isaiah prophesies against.',
     },
+    {
+      id: 'sefaria-isaiah-14-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 14 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.14',
+      description: 'The Hebrew text of Isaiah 14 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

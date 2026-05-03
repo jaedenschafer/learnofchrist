@@ -66,7 +66,7 @@ export const RUTH_2: RichChapterContent = {
           kind: 'commentary',
           id: 'ruth-glean-proposal',
           html:
-            'Ruth is the one who sees the path. She asks Naomi\'s permission but has already understood the law—that the poor could glean in the fields at harvest. And her language is careful: "in whose sight I shall find grace." The Hebrew word is <em>chen</em>, grace or favor. She is asking for someone\'s eyes to fall kindly on her. This is the prayer of the foreigner, the widow, the one with nothing.',
+            'Ruth is the one who sees the path. She asks Naomi\'s permission but has already understood the law—that the poor could glean in the fields at harvest. And her language is careful: "in whose sight I shall find grace." The Hebrew word is <em>chen</em>, grace or favor. She is asking for someone\'s eyes to fall kindly on her. This is the prayer of the foreigner, the widow, the one with nothing[res:sefaria-ruth-2-v1].',
         },
         {
           kind: 'hebrew',
@@ -395,6 +395,15 @@ export const RUTH_2: RichChapterContent = {
       url: 'https://www.sefaria.org/Leviticus.19.9',
       description: 'The legal background to Boaz&apos;s generosity: leaving the corners and gleanings of the field for the poor and the foreigner.',
     },
+    {
+      id: 'sefaria-ruth-2-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ruth 2 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ruth.2',
+      description: 'The Hebrew text of Ruth 2 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
 

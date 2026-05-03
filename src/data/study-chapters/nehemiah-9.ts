@@ -41,6 +41,23 @@ export const NEHEMIAH_9: RichChapterContent = {
       url: 'https://www.sefaria.org/',
       description: 'Sefaria Hebrew texts on Torah readings and covenant renewal.',
     },
+    {
+      id: 'sefaria-nehemiah-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Nehemiah 9 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Nehemiah.9',
+      description: 'The Hebrew text of Nehemiah 9 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-nehemiah-overview-9',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Nehemiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/nehemiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Nehemiah.',
+    },
+
   ],
 
   sections: [
@@ -68,7 +85,7 @@ export const NEHEMIAH_9: RichChapterContent = {
           kind: 'commentary',
           id: 'neh9-separated',
           html:
-            'They separate themselves from all strangers. This is not xenophobia but covenant identity — the seed of Israel setting themselves apart as a people who have made a binding agreement with God. The separation is meant to heighten focus, to create sacred space for the work of confession and renewal.',
+            'They separate themselves from all strangers. This is not xenophobia but covenant identity — the seed of Israel setting themselves apart as a people who have made a binding agreement with God. The separation is meant to heighten focus, to create sacred space for the work of confession and renewal[res:sefaria-nehemiah-9][res:bibleodyssey-nehemiah-overview-9].',
         },
         {
           kind: 'hebrew',

@@ -68,7 +68,7 @@ export const ISAIAH_17: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'The image of gleanings and scattered berries is a reminder that even when great things fall, some small thing remains. For Israel, that remnant is the promise that God does not fully abandon even those who face judgment. For us, it speaks to the truth that even in loss, something of God&apos;s purpose survives.',
+            'The image of gleanings and scattered berries is a reminder that even when great things fall, some small thing remains. For Israel, that remnant is the promise that God does not fully abandon even those who face judgment. For us, it speaks to the truth that even in loss, something of God&apos;s purpose survives[res:sefaria-isaiah-17-v1].',
         },
         {
           kind: 'reflection',
@@ -163,6 +163,15 @@ export const ISAIAH_17: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Archaeological and textual evidence of the nations Isaiah prophesies against.',
     },
+    {
+      id: 'sefaria-isaiah-17-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 17 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.17',
+      description: 'The Hebrew text of Isaiah 17 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

@@ -48,6 +48,15 @@ export const FIRST_ESDRAS_7: RichChapterContent = {
       url: 'https://www.antiquities.org.il/',
       description: 'Archaeological evidence of Nehemiah&apos;s wall and Hellenistic-era gates.',
     },
+    {
+      id: 'sefaria-1-esdras-7',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Esdras 7 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Esdras.7',
+      description: 'The Hebrew text of 1 Esdras 7 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {
@@ -101,7 +110,7 @@ export const FIRST_ESDRAS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'esdras7-written',
           html:
-            'The written word endures. What is recorded becomes truth available to future generations. Cyrus had spoken; Cyrus had written. The decree was not hearsay, not rumor, not the fading memory of an old king&apos;s promise. It was inscribed on a scroll in the palace of the Medes. When Darius finds it, he finds proof — and proof, once found, compels action.',
+            'The written word endures. What is recorded becomes truth available to future generations. Cyrus had spoken; Cyrus had written. The decree was not hearsay, not rumor, not the fading memory of an old king&apos;s promise. It was inscribed on a scroll in the palace of the Medes. When Darius finds it, he finds proof — and proof, once found, compels action[res:sefaria-1-esdras-7].',
         },
         {
           kind: 'carry',

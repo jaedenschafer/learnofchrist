@@ -48,6 +48,15 @@ export const KINGS_2_2: RichChapterContent = {
       url: 'https://intertextual.bible/text/2-kings-2',
       description: 'Cross-references showing how Elijah&apos;s ascension prefigures Christ and informs Acts 1.',
     },
+    {
+      id: 'sefaria-2-kings-2-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Kings 2 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Kings.2',
+      description: 'The Hebrew text of 2 Kings 2 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
 
@@ -111,7 +120,7 @@ export const KINGS_2_2: RichChapterContent = {
           kind: 'commentary',
           id: 'refusal-trinity',
           html:
-            'Elijah tells Elisha to stay behind — not once, but three times. At Gilgal, at Bethel, at Jericho. And three times Elisha refuses with a solemn oath: "As the Lord liveth, and as thy soul liveth, I will not leave thee." It is covenantal language. Elisha is not clinging to Elijah for comfort or safety. He is clinging because he knows that something is being transferred — the prophetic mantle, the authority, the spirit that empowered his master. To leave would be to miss the inheritance.',
+            'Elijah tells Elisha to stay behind — not once, but three times. At Gilgal, at Bethel, at Jericho. And three times Elisha refuses with a solemn oath: "As the Lord liveth, and as thy soul liveth, I will not leave thee." It is covenantal language. Elisha is not clinging to Elijah for comfort or safety. He is clinging because he knows that something is being transferred — the prophetic mantle, the authority, the spirit that empowered his master. To leave would be to miss the inheritance[res:sefaria-2-kings-2-v1].',
         },
         {
           kind: 'commentary',

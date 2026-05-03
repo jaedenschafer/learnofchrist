@@ -43,6 +43,15 @@ export const EXODUS_26: RichChapterContent = {
       url: 'https://www.metmuseum.org/',
       description: 'Comparative sanctuary design in ancient world.',
     },
+    {
+      id: 'sefaria-exodus-26',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 26 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.26',
+      description: 'The Hebrew text of Exodus 26 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -73,7 +82,7 @@ export const EXODUS_26: RichChapterContent = {
           kind: 'commentary',
           id: 'num-ten',
           html:
-            'Ten curtains, a number of completion in Scripture. Each one the same size, each one holding the cherubim woven inside it. The tabernacle is not built of one great expanse but of ten pieces, carefully matched and fastened together[res:priestly-garments].',
+            'Ten curtains, a number of completion in Scripture. Each one the same size, each one holding the cherubim woven inside it. The tabernacle is not built of one great expanse but of ten pieces, carefully matched and fastened together[res:priestly-garments][res:sefaria-exodus-26].',
         },
         {
           kind: 'commentary',

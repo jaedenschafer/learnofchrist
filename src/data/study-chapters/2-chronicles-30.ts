@@ -41,6 +41,23 @@ export const CHRONICLES_2_30: RichChapterContent = {
       url: 'https://www.imj.org.il/',
       description: 'Iron Age Judah archaeology: water systems, inscriptions, cultic reform artifacts.',
     },
+    {
+      id: 'sefaria-2-chronicles-30',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 30 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.30',
+      description: 'The Hebrew text of 2 Chronicles 30 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-30',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -70,7 +87,7 @@ export const CHRONICLES_2_30: RichChapterContent = {
           kind: 'commentary',
           id: 'second-month-passover',
           html:
-            'The Passover has been moved to the second month. Why? The priests had not sanctified themselves sufficiently, and the people had not assembled in time. This reveals a profound biblical principle: the law serves the covenant, not the reverse. Hezekiah and the princes make a decision to keep the feast even when perfect ceremonial conditions have not been met. The thing pleases both king and congregation. What matters is not rigid adherence to a calendar, but the people&apos;s willingness to draw near to God.',
+            'The Passover has been moved to the second month. Why? The priests had not sanctified themselves sufficiently, and the people had not assembled in time. This reveals a profound biblical principle: the law serves the covenant, not the reverse. Hezekiah and the princes make a decision to keep the feast even when perfect ceremonial conditions have not been met. The thing pleases both king and congregation. What matters is not rigid adherence to a calendar, but the people&apos;s willingness to draw near to God[res:sefaria-2-chronicles-30][res:bibleodyssey-2-chronicles-overview-30].',
         },
         {
           kind: 'hebrew',

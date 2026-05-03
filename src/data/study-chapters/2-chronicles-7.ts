@@ -42,6 +42,23 @@ export const CHRONICLES_2_7: RichChapterContent = {
       url: 'https://www.britishmuseum.org/collection/objects/w3679',
       description: 'Ancient Persian cylinder decree allowing return from exile and temple rebuilding.',
     },
+    {
+      id: 'sefaria-2-chronicles-7',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 7 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.7',
+      description: 'The Hebrew text of 2 Chronicles 7 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-7',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -69,7 +86,7 @@ export const CHRONICLES_2_7: RichChapterContent = {
           kind: 'commentary',
           id: 'glory-fills-house',
           html:
-            'The glory of the Lord fills the house. The Hebrew word for "glory"—<em>kavod</em>—carries the weight of God&apos;s presence, His honor, His radiance. This is not metaphor. The priests cannot enter the house. The visible presence of God is so intense that human beings cannot stand in it. The house has been sanctified not by the priests&apos; hands alone, but by the descent of God Himself.',
+            'The glory of the Lord fills the house. The Hebrew word for "glory"—<em>kavod</em>—carries the weight of God&apos;s presence, His honor, His radiance. This is not metaphor. The priests cannot enter the house. The visible presence of God is so intense that human beings cannot stand in it. The house has been sanctified not by the priests&apos; hands alone, but by the descent of God Himself[res:sefaria-2-chronicles-7][res:bibleodyssey-2-chronicles-overview-7].',
         },
         {
           kind: 'hebrew',

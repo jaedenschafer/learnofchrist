@@ -39,6 +39,23 @@ export const CHRONICLES_2_5: RichChapterContent = {
       url: 'https://www.britishmuseum.org/collection/objects/w3679',
       description: 'Ancient Persian cylinder decree allowing return from exile and temple rebuilding.',
     },
+    {
+      id: 'sefaria-2-chronicles-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 5 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.5',
+      description: 'The Hebrew text of 2 Chronicles 5 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-5',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -58,7 +75,7 @@ export const CHRONICLES_2_5: RichChapterContent = {
           kind: 'commentary',
           id: 'work-finished',
           html:
-            'The opening word "thus" marks a transition. What follows is not construction, but consecration. All the structural work is complete. Now the focus shifts to what transforms a building into a temple: the presence of God, made tangible through the sacred objects that will dwell within it. Solomon brings in the treasures that David had set aside — the accumulated wealth of a kingdom devoted to honoring the God who gave the kingdom. This is what it looks like when a father\'s vision passes to a son\'s completion.',
+            'The opening word "thus" marks a transition. What follows is not construction, but consecration. All the structural work is complete. Now the focus shifts to what transforms a building into a temple: the presence of God, made tangible through the sacred objects that will dwell within it. Solomon brings in the treasures that David had set aside — the accumulated wealth of a kingdom devoted to honoring the God who gave the kingdom. This is what it looks like when a father\'s vision passes to a son\'s completion[res:sefaria-2-chronicles-5][res:bibleodyssey-2-chronicles-overview-5].',
         },
         {
           kind: 'carry',

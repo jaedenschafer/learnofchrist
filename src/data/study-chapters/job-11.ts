@@ -39,6 +39,23 @@ export const JOB_11: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-11',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 11 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.11',
+      description: 'The Hebrew text of Job 11 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-11',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -68,7 +85,7 @@ export const JOB_11: RichChapterContent = {
           kind: 'commentary',
           id: 'zophar-mockest',
           html:
-            '"When thou mockest, shall no man make thee ashamed?"—Zophar sees Job&apos;s honest lament as mockery. By questioning God, by expressing anguish, Job is, in Zophar&apos;s mind, mocking God. And Zophar believes it is time for someone to bring Job shame, to silence him.',
+            '"When thou mockest, shall no man make thee ashamed?"—Zophar sees Job&apos;s honest lament as mockery. By questioning God, by expressing anguish, Job is, in Zophar&apos;s mind, mocking God. And Zophar believes it is time for someone to bring Job shame, to silence him[res:sefaria-job-11][res:bibleodyssey-job-overview-11].',
         },
         {
           kind: 'hebrew',

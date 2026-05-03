@@ -74,7 +74,7 @@ export const ISAIAH_45: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah45-woe-clay',
           html:
-            'God speaks to any creature who would argue with the Creator: "Woe unto him that striveth with his Maker!" This is not harshness. This is the natural order—the clay cannot instruct the potter. But look at what follows: God invites Israel to ask, to command, to bring concerns. The Creator is not distant. The Creator is intimately engaged with the created.',
+            'God speaks to any creature who would argue with the Creator: "Woe unto him that striveth with his Maker!" This is not harshness. This is the natural order—the clay cannot instruct the potter. But look at what follows: God invites Israel to ask, to command, to bring concerns. The Creator is not distant. The Creator is intimately engaged with the created[res:sefaria-isaiah-45-v1].',
         },
         {
           kind: 'scripture',
@@ -189,6 +189,15 @@ export const ISAIAH_45: RichChapterContent = {
       url: 'https://intertextual.bible/',
       description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
     },
+    {
+      id: 'sefaria-isaiah-45-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 45 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.45',
+      description: 'The Hebrew text of Isaiah 45 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

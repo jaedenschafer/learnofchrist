@@ -44,6 +44,23 @@ export const ESTHER_5: RichChapterContent = {
       url: 'https://www.theoi.com/Text/HerodotusHistories.html',
       description: 'Herodotus accounts of Xerxes, Persian court intrigues, and royal authority.',
     },
+    {
+      id: 'sefaria-esther-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Esther 5 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Esther.5',
+      description: 'The Hebrew text of Esther 5 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-esther-overview-5',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Esther — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/esther/',
+      description: 'Open-access SBL essay on the historical and literary setting of Esther.',
+    },
+
   ],
 
   sections: [
@@ -111,7 +128,7 @@ export const ESTHER_5: RichChapterContent = {
           kind: 'commentary',
           id: 'esth5-feast-prepared',
           html:
-            'Esther has prepared a banquet. This is not a hasty gathering; this is a woman who has thought carefully about what she will say and how she will say it. She invites not only the king, but Haman — the very man who has decreed her people&apos;s death. She will sit at table with her enemy, and the king will see her honor him in his presence.',
+            'Esther has prepared a banquet. This is not a hasty gathering; this is a woman who has thought carefully about what she will say and how she will say it. She invites not only the king, but Haman — the very man who has decreed her people&apos;s death. She will sit at table with her enemy, and the king will see her honor him in his presence[res:sefaria-esther-5][res:bibleodyssey-esther-overview-5].',
         },
         {
           kind: 'carry',

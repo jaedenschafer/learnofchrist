@@ -44,6 +44,15 @@ export const EXODUS_35: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/anointing/',
       description: 'Formulas and theological significance.',
     },
+    {
+      id: 'sefaria-exodus-35',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 35 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.35',
+      description: 'The Hebrew text of Exodus 35 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -70,7 +79,7 @@ export const EXODUS_35: RichChapterContent = {
           kind: 'commentary',
           id: 'exo35-assembly',
           html:
-            'Moses gathers the whole people. Not the elders alone, not the leaders — all the children of Israel. What follows is an address to everyone. The work of building the tabernacle is not a few people&apos;s task; it belongs to any who have a willing heart[res:materials-collection].',
+            'Moses gathers the whole people. Not the elders alone, not the leaders — all the children of Israel. What follows is an address to everyone. The work of building the tabernacle is not a few people&apos;s task; it belongs to any who have a willing heart[res:materials-collection][res:sefaria-exodus-35].',
         },
         {
           kind: 'scripture',

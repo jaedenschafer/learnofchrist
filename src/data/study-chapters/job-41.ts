@@ -34,6 +34,23 @@ export const JOB_41: RichChapterContent = {
       url: 'https://www.sefaria.org/Job',
       description: 'Sefaria Hebrew text with notes on rare terms and wisdom vocabulary.',
     },
+    {
+      id: 'sefaria-job-41',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 41 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.41',
+      description: 'The Hebrew text of Job 41 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-41',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -75,7 +92,7 @@ export const JOB_41: RichChapterContent = {
           kind: 'commentary',
           id: 'job41-no-taming',
           html:
-            'God poses a series of questions about Leviathan. Can you capture him with a hook? Can you put a ring through his nose? Will he beg for mercy? Will he agree to serve you? Will you be able to use him as a toy? Can you divide his flesh among merchants? The answer to every question is no. Leviathan cannot be captured, cannot be tamed, cannot be made useful. He is beyond human dominion.',
+            'God poses a series of questions about Leviathan. Can you capture him with a hook? Can you put a ring through his nose? Will he beg for mercy? Will he agree to serve you? Will you be able to use him as a toy? Can you divide his flesh among merchants? The answer to every question is no. Leviathan cannot be captured, cannot be tamed, cannot be made useful. He is beyond human dominion[res:sefaria-job-41][res:bibleodyssey-job-overview-41].',
         },
         {
           kind: 'commentary',

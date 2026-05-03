@@ -40,6 +40,23 @@ export const JOB_10: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-10',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 10 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.10',
+      description: 'The Hebrew text of Job 10 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-10',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -76,7 +93,7 @@ export const JOB_10: RichChapterContent = {
           kind: 'commentary',
           id: 'job-weary',
           html:
-            '"My soul is weary of my life"—Job is expressing not just sadness but a profound exhaustion with existence itself. To be alive is to suffer. To go on living is to continue in torment. Job is reaching the edge of bearing.',
+            '"My soul is weary of my life"—Job is expressing not just sadness but a profound exhaustion with existence itself. To be alive is to suffer. To go on living is to continue in torment. Job is reaching the edge of bearing[res:sefaria-job-10][res:bibleodyssey-job-overview-10].',
         },
         {
           kind: 'commentary',

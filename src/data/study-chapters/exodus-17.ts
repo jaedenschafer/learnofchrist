@@ -60,7 +60,7 @@ export const EXODUS_17: RichChapterContent = {
           kind: 'commentary',
           id: 'rephidim-place',
           html:
-            'Rephidim is a place with no water—a stopping place between the wilderness of Sin and Mount Sinai, where Israel will soon receive the Law. The pattern of this wilderness journey is becoming clear: Israel moves from one place to another on God&apos;s command, and at each stop discovers a new need it cannot solve. Not thirst, water appears. Not hunger, bread falls. Not enemies, God fights. The wilderness is a school where Israel learns that dependence on God is not optional but the only currency that purchases survival[res:water-rock].',
+            'Rephidim is a place with no water—a stopping place between the wilderness of Sin and Mount Sinai, where Israel will soon receive the Law. The pattern of this wilderness journey is becoming clear: Israel moves from one place to another on God&apos;s command, and at each stop discovers a new need it cannot solve. Not thirst, water appears. Not hunger, bread falls. Not enemies, God fights. The wilderness is a school where Israel learns that dependence on God is not optional but the only currency that purchases survival[res:water-rock][res:sefaria-exodus-17].',
         },
         {
           kind: 'carry',
@@ -458,6 +458,15 @@ export const EXODUS_17: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/meribah/',
       description: 'Significance of testing and provision.',
     },
+    {
+      id: 'sefaria-exodus-17',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 17 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.17',
+      description: 'The Hebrew text of Exodus 17 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

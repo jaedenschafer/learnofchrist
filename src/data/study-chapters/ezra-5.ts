@@ -41,6 +41,23 @@ export const EZRA_5: RichChapterContent = {
       url: 'https://www.penn.museum/collections/',
       description: 'Cuneiform records of Persian provincial administration and labor systems.',
     },
+    {
+      id: 'sefaria-ezra-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezra 5 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezra.5',
+      description: 'The Hebrew text of Ezra 5 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-ezra-overview-5',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezra — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/ezra/',
+      description: 'Open-access SBL essay on the historical and literary setting of Ezra.',
+    },
+
   ],
 
   sections: [
@@ -90,7 +107,7 @@ export const EZRA_5: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'Have you ever felt stuck in a work you thought was important but had abandoned? The prophetic word has power to move us—not because it is eloquent, but because it comes from God. Sometimes we need to hear from someone who speaks for the Lord, not for themselves, to know that our work matters and that we have permission to continue.',
+            'Have you ever felt stuck in a work you thought was important but had abandoned? The prophetic word has power to move us—not because it is eloquent, but because it comes from God. Sometimes we need to hear from someone who speaks for the Lord, not for themselves, to know that our work matters and that we have permission to continue[res:sefaria-ezra-5][res:bibleodyssey-ezra-overview-5].',
         },
         {
           kind: 'reflection',

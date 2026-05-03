@@ -39,6 +39,23 @@ export const JOB_15: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-15',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 15 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.15',
+      description: 'The Hebrew text of Job 15 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-15',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -79,7 +96,7 @@ export const JOB_15: RichChapterContent = {
           kind: 'commentary',
           id: 'job15-split-2',
           html:
-            'Eliphaz ridicules Job&apos;s presumption. Were you the first human? Have you heard God&apos;s secret counsel? The aged men among us—much older than your father—they possess the wisdom you lack. Eliphaz appeals to tradition, to age, to collective authority against Job&apos;s lonely claim of righteousness.',
+            'Eliphaz ridicules Job&apos;s presumption. Were you the first human? Have you heard God&apos;s secret counsel? The aged men among us—much older than your father—they possess the wisdom you lack. Eliphaz appeals to tradition, to age, to collective authority against Job&apos;s lonely claim of righteousness[res:sefaria-job-15][res:bibleodyssey-job-overview-15].',
         },
         {
           kind: 'scripture',

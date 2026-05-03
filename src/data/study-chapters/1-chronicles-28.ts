@@ -41,6 +41,23 @@ export const CHRONICLES_1_28: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'British Museum collections on Iron Age Levantine kingdoms and David.',
     },
+    {
+      id: 'sefaria-1-chronicles-28',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 28 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.28',
+      description: 'The Hebrew text of 1 Chronicles 28 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-1-chronicles-overview-28',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -68,7 +85,7 @@ export const CHRONICLES_1_28: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'When we face significant transitions in life — passing leadership, stepping back from work, preparing the next generation — do we do it alone, or do we gather witnesses? David brings the people. He makes his transition public, visible, and binding on the community that will follow Solomon.',
+            'When we face significant transitions in life — passing leadership, stepping back from work, preparing the next generation — do we do it alone, or do we gather witnesses? David brings the people. He makes his transition public, visible, and binding on the community that will follow Solomon[res:sefaria-1-chronicles-28][res:bibleodyssey-1-chronicles-overview-28].',
         },
         {
           kind: 'reflection',

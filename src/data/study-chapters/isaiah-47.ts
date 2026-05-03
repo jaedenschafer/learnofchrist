@@ -109,7 +109,7 @@ export const ISAIAH_47: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah47-sorceries',
           html:
-            'Babylon relied on sorcery, astrology, enchantments, counsels. But all of these will fail. "Let them stand up, and save thee from these things that shall come upon thee." The wisdom of humans, the power of magic, the counsel of the wise—none of these can stand against the judgment of God. When the fire comes, the astrologers and stargazers are like stubble.',
+            'Babylon relied on sorcery, astrology, enchantments, counsels. But all of these will fail. "Let them stand up, and save thee from these things that shall come upon thee." The wisdom of humans, the power of magic, the counsel of the wise—none of these can stand against the judgment of God. When the fire comes, the astrologers and stargazers are like stubble[res:sefaria-isaiah-47-v1].',
         },
         {
           kind: 'christ',
@@ -155,6 +155,15 @@ export const ISAIAH_47: RichChapterContent = {
       url: 'https://intertextual.bible/',
       description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
     },
+    {
+      id: 'sefaria-isaiah-47-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 47 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.47',
+      description: 'The Hebrew text of Isaiah 47 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

@@ -69,7 +69,7 @@ export const ISAIAH_53: RichChapterContent = {
           id: 'isa53-rejection',
           title: 'Christ Connection — The Despised One',
           html:
-            'Every Gospel account records the rejection of Jesus. "He came unto his own, and his own received him not" (John 1:11). The religious leaders despised Him. The crowds called for His crucifixion. His own disciples abandoned Him. Yet it was precisely in this rejection that He accomplished redemption. The very disfigurement and despising that Isaiah describes became the means of our salvation.',
+            'Every Gospel account records the rejection of Jesus. "He came unto his own, and his own received him not" (John 1:11). The religious leaders despised Him. The crowds called for His crucifixion. His own disciples abandoned Him. Yet it was precisely in this rejection that He accomplished redemption. The very disfigurement and despising that Isaiah describes became the means of our salvation[res:sefaria-isaiah-53-v1].',
         },
         {
           kind: 'carry',
@@ -276,6 +276,15 @@ export const ISAIAH_53: RichChapterContent = {
       url: 'https://intertextual.bible/',
       description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
     },
+    {
+      id: 'sefaria-isaiah-53-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 53 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.53',
+      description: 'The Hebrew text of Isaiah 53 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

@@ -65,7 +65,7 @@ html: 'The chapter opens not with doctrine but with the cry of a wounded soul. T
         {
           kind: 'commentary',
           id: 'c-mercy',
-          html: 'The confession moves swiftly from cry to acknowledgment: <em>we have sinned.</em> There is no excuse here, no blame shifted outward. Israel recognizes its own failure and stands before God in that recognition, asking for mercy. The contrast is stark: God is eternal; we are perishing. Yet the perishing soul calls out to the eternal God and is heard.',
+          html: 'The confession moves swiftly from cry to acknowledgment: <em>we have sinned.</em> There is no excuse here, no blame shifted outward. Israel recognizes its own failure and stands before God in that recognition, asking for mercy. The contrast is stark: God is eternal; we are perishing. Yet the perishing soul calls out to the eternal God and is heard[res:sefaria-baruch-3].',
         },
         {
           kind: 'scripture',
@@ -580,6 +580,15 @@ html: 'The chapter opens not with doctrine but with the cry of a wounded soul. T
       url: 'https://www.bibleodyssey.org/dictionary/wisdom/',
       description: 'SBL guide to wisdom themes in Deuterocanonical and Apocryphal books.',
     },
+    {
+      id: 'sefaria-baruch-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Baruch 3 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Baruch.3',
+      description: 'The Hebrew text of Baruch 3 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {

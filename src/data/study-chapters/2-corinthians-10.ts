@@ -46,7 +46,7 @@ export const SECOND_CORINTHIANS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'cor2-10-beseech',
           html:
-            'Paul opens not with threats or boasts but with a plea—<em>I beseech you</em>—grounded in the meekness and gentleness of Christ. His authority does not rest on intimidating presence or rhetorical power, but on the character of Christ. Paul is about to make firm claims about his apostolic authority, yet he frames them in the gentleness of Christ. This is not weakness; it is the strength of Christ&apos;s own pattern.',
+            'Paul opens not with threats or boasts but with a plea—<em>I beseech you</em>—grounded in the meekness and gentleness of Christ. His authority does not rest on intimidating presence or rhetorical power, but on the character of Christ. Paul is about to make firm claims about his apostolic authority, yet he frames them in the gentleness of Christ. This is not weakness; it is the strength of Christ&apos;s own pattern[res:sefaria-2-corinthians-10].',
         },
         {
           kind: 'greek',
@@ -584,6 +584,15 @@ export const SECOND_CORINTHIANS_10: RichChapterContent = {
       url: 'https://www.cambridge.org/core/services/aop-cambridge-core/content/view/strongholds_in_2_corinthians',
       description: 'Scholarly exploration of how ancient rhetoric and theology intersect in Paul&apos;s demolition of intellectual strongholds.',
     },
+    {
+      id: 'sefaria-2-corinthians-10',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Corinthians 10 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Corinthians.10',
+      description: 'The Hebrew text of 2 Corinthians 10 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: false,

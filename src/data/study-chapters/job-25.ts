@@ -41,6 +41,23 @@ export const JOB_25: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-25',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 25 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.25',
+      description: 'The Hebrew text of Job 25 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-25',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -115,7 +132,7 @@ export const JOB_25: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'Bildad&apos;s final speech is perhaps his most honest. He abandons the attempt to explain Job&apos;s suffering and instead acknowledges the fundamental impossibility of the human condition: how can a mortal, sinful being be just before an infinite, holy God? This question cannot be answered by doctrine. It can only be answered by grace.',
+            'Bildad&apos;s final speech is perhaps his most honest. He abandons the attempt to explain Job&apos;s suffering and instead acknowledges the fundamental impossibility of the human condition: how can a mortal, sinful being be just before an infinite, holy God? This question cannot be answered by doctrine. It can only be answered by grace[res:sefaria-job-25][res:bibleodyssey-job-overview-25].',
         },
         {
           kind: 'christ',

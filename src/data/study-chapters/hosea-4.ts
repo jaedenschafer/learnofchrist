@@ -45,6 +45,15 @@ export const HOSEA_4: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
       description: 'Exploration of the Hebrew concept of knowing God as intimate relationship rather than intellectual assent.',
     },
+    {
+      id: 'sefaria-hosea-4-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 4 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Hosea.4',
+      description: 'The Hebrew text of Hosea 4 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -70,7 +79,7 @@ export const HOSEA_4: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'Israel&apos;s sins flow from a broken relationship with God. She has lost the knowledge of Him. When we do not know God — when we have not encountered His truth, His mercy, His presence — we become people who lie, steal, kill, and commit adultery. The solution is not mere external reform but a renewed relationship.',
+            'Israel&apos;s sins flow from a broken relationship with God. She has lost the knowledge of Him. When we do not know God — when we have not encountered His truth, His mercy, His presence — we become people who lie, steal, kill, and commit adultery. The solution is not mere external reform but a renewed relationship[res:sefaria-hosea-4-v1].',
         },
         {
           kind: 'reflection',

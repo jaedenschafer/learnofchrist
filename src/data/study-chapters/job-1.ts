@@ -42,6 +42,23 @@ export const JOB_1: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/job/',
       description: 'SBL entry on Job: composition, wisdom tradition, theodicy, textual history.',
     },
+    {
+      id: 'sefaria-job-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 1 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.1',
+      description: 'The Hebrew text of Job 1 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-1',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -88,7 +105,7 @@ export const JOB_1: RichChapterContent = {
           kind: 'commentary',
           id: 'job1-fear-eschew',
           html:
-            'To fear God is not to cower in terror, but to stand in reverent awe before the holy. To eschew evil is to turn away from it deliberately, to make a practice of rightness. Job is not someone who stumbles into righteousness. He actively, habitually avoids evil and pursues the fear of the Lord. This is a chosen way of life, sustained by discipline and love.',
+            'To fear God is not to cower in terror, but to stand in reverent awe before the holy. To eschew evil is to turn away from it deliberately, to make a practice of rightness. Job is not someone who stumbles into righteousness. He actively, habitually avoids evil and pursues the fear of the Lord. This is a chosen way of life, sustained by discipline and love[res:sefaria-job-1][res:bibleodyssey-job-overview-1].',
         },
         {
           kind: 'hebrew',

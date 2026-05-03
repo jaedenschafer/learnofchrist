@@ -35,6 +35,23 @@ export const JOB_42: RichChapterContent = {
       url: 'https://www.sefaria.org/Job',
       description: 'Sefaria Hebrew text with notes on rare terms and wisdom vocabulary.',
     },
+    {
+      id: 'sefaria-job-42',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 42 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.42',
+      description: 'The Hebrew text of Job 42 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-42',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -65,7 +82,7 @@ export const JOB_42: RichChapterContent = {
           kind: 'commentary',
           id: 'job42-uttered-unknowing',
           html:
-            '"Therefore have I uttered that I understood not; things too wonderful for me, which I knew not." Job&apos;s confession is precise: he has spoken about things beyond his comprehension. He has uttered what he did not understand. He has tried to judge matters that were too wonderful for him. This is not mere apology. It is a complete reversal of stance.',
+            '"Therefore have I uttered that I understood not; things too wonderful for me, which I knew not." Job&apos;s confession is precise: he has spoken about things beyond his comprehension. He has uttered what he did not understand. He has tried to judge matters that were too wonderful for him. This is not mere apology. It is a complete reversal of stance[res:sefaria-job-42][res:bibleodyssey-job-overview-42].',
         },
         {
           kind: 'commentary',

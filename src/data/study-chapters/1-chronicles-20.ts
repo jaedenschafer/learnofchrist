@@ -40,6 +40,23 @@ export const CHRONICLES_1_20: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Artifacts and inscriptions illuminating the Davidic monarchy and administration.',
     },
+    {
+      id: 'sefaria-1-chronicles-20',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 20 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.20',
+      description: 'The Hebrew text of 1 Chronicles 20 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-1-chronicles-overview-20',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -76,7 +93,7 @@ export const CHRONICLES_1_20: RichChapterContent = {
           kind: 'commentary',
           id: 'david-tarries',
           html:
-            'The Chronicler inserts a single, spare phrase: "But David tarried at Jerusalem." This is the Chronicler&apos;s hand at work. Where 2 Samuel dwells on why David stayed home — the seduction of Bathsheba, the scandal, the cover-up — the Chronicler does not. He simply notes that the king remained in the capital while his commander did the work of conquest. The fact stands. The judgment is left to the reader. The Chronicler&apos;s focus is on what comes next: victory.',
+            'The Chronicler inserts a single, spare phrase: "But David tarried at Jerusalem." This is the Chronicler&apos;s hand at work. Where 2 Samuel dwells on why David stayed home — the seduction of Bathsheba, the scandal, the cover-up — the Chronicler does not. He simply notes that the king remained in the capital while his commander did the work of conquest. The fact stands. The judgment is left to the reader. The Chronicler&apos;s focus is on what comes next: victory[res:sefaria-1-chronicles-20][res:bibleodyssey-1-chronicles-overview-20].',
         },
         {
           kind: 'hebrew',

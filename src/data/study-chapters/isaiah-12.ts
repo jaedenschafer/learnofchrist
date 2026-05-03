@@ -63,7 +63,7 @@ export const ISAIAH_12: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah12-wells-salvation',
           html:
-            'The image of drawing water from the wells of salvation is profound. In a thirsty land, a well is life itself. To draw water is to maintain life, to quench thirst, to find refreshment. And this drawing is done "with joy." The people do not approach God&apos;s salvation grudgingly or fearfully. They come with joy, with celebration, drawing again and again from the inexhaustible wells of His saving grace.',
+            'The image of drawing water from the wells of salvation is profound. In a thirsty land, a well is life itself. To draw water is to maintain life, to quench thirst, to find refreshment. And this drawing is done "with joy." The people do not approach God&apos;s salvation grudgingly or fearfully. They come with joy, with celebration, drawing again and again from the inexhaustible wells of His saving grace[res:sefaria-isaiah-12-v1].',
         },
         {
           kind: 'commentary',
@@ -115,6 +115,15 @@ export const ISAIAH_12: RichChapterContent = {
       url: 'https://intertextual.bible/',
       description: 'Connections between Isaiah 12 and New Testament fulfillment, especially Matt 1–12.',
     },
+    {
+      id: 'sefaria-isaiah-12-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 12 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.12',
+      description: 'The Hebrew text of Isaiah 12 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

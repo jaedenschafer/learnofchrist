@@ -55,7 +55,7 @@ export const JONAH_2: RichChapterContent = {
           id: 'jonah2-christ-resurrection',
           title: 'Christ Connection — Three Days and Rising',
           html:
-            'Matthew 12:40 makes the connection explicit: "As Jonas was three days and three nights in the whale&apos;s belly; so shall the Son of man be three days and three nights in the heart of the earth." The pattern is resurrection. Jonah emerges from the fish alive. Christ emerges from death alive. Both declare that God&apos;s power extends even into the grave.',
+            'Matthew 12:40 makes the connection explicit: "As Jonas was three days and three nights in the whale&apos;s belly; so shall the Son of man be three days and three nights in the heart of the earth." The pattern is resurrection. Jonah emerges from the fish alive. Christ emerges from death alive. Both declare that God&apos;s power extends even into the grave[res:sefaria-jonah-2-v1].',
         },
         {
           kind: 'carry',
@@ -142,6 +142,15 @@ export const JONAH_2: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=jonah+matthew',
       description: 'Intertextual connection of Jonah&apos;s three days in the fish to Christ&apos;s three days in the grave.',
     },
+    {
+      id: 'sefaria-jonah-2-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jonah 2 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jonah.2',
+      description: 'The Hebrew text of Jonah 2 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

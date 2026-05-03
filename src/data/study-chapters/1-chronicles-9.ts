@@ -40,6 +40,23 @@ export const CHRONICLES_1_9: RichChapterContent = {
       url: 'https://www.sefaria.org/search?q=tribe+israel&tab=text',
       description: 'Sefaria resources on the twelve tribes, genealogies, and territorial divisions.',
     },
+    {
+      id: 'sefaria-1-chronicles-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 9 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.9',
+      description: 'The Hebrew text of 1 Chronicles 9 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-1-chronicles-overview-9',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -67,7 +84,7 @@ export const CHRONICLES_1_9: RichChapterContent = {
           kind: 'commentary',
           id: 'first-inhabitants',
           html:
-            'The text specifies the "first inhabitants" who resettled — these are the pioneers who returned first, who rebuilt the temple and the city. Notice the careful listing: Israel, priests, Levites, Nethinims. This is not a random list. It reflects the structure of God&apos;s covenant community — the ordinary Israelites, the ones set apart to serve at the altar, the ones set apart to sing and keep the records, and the ones bound to serve the temple. All of them mattered.',
+            'The text specifies the "first inhabitants" who resettled — these are the pioneers who returned first, who rebuilt the temple and the city. Notice the careful listing: Israel, priests, Levites, Nethinims. This is not a random list. It reflects the structure of God&apos;s covenant community — the ordinary Israelites, the ones set apart to serve at the altar, the ones set apart to sing and keep the records, and the ones bound to serve the temple. All of them mattered[res:sefaria-1-chronicles-9][res:bibleodyssey-1-chronicles-overview-9].',
         },
         {
           kind: 'hebrew',

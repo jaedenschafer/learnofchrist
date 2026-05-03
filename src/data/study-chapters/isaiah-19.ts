@@ -64,7 +64,7 @@ export const ISAIAH_19: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah19-civil-war',
           html:
-            '"I will set the Egyptians against the Egyptians." The judgment includes internal division—the collapse of social order, brother against brother, city against city. This is the dissolution of the bonds that hold a civilization together. Counsel fails. Fear rises. And in that fear, Egyptians turn to idols, charmers, mediums, and wizards—the very things that cannot save.',
+            '"I will set the Egyptians against the Egyptians." The judgment includes internal division—the collapse of social order, brother against brother, city against city. This is the dissolution of the bonds that hold a civilization together. Counsel fails. Fear rises. And in that fear, Egyptians turn to idols, charmers, mediums, and wizards—the very things that cannot save[res:sefaria-isaiah-19-v1].',
         },
         {
           kind: 'hebrew',
@@ -183,6 +183,15 @@ export const ISAIAH_19: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Archaeological and textual evidence of the nations Isaiah prophesies against.',
     },
+    {
+      id: 'sefaria-isaiah-19-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 19 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.19',
+      description: 'The Hebrew text of Isaiah 19 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

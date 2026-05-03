@@ -42,7 +42,7 @@ export const JEREMIAH_13: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer13-word-garment',
-          html: 'God shifts from speaking through a symbol to its meaning. The hidden lesson becomes explicit warning[res:babylonian-chronicle].',
+          html: 'God shifts from speaking through a symbol to its meaning. The hidden lesson becomes explicit warning[res:babylonian-chronicle][res:sefaria-jeremiah-13].',
         },
         {
           kind: 'scripture',
@@ -170,6 +170,15 @@ export const JEREMIAH_13: RichChapterContent = {
       url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
       description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
     }
+    {
+      id: 'sefaria-jeremiah-13',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 13 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.13',
+      description: 'The Hebrew text of Jeremiah 13 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

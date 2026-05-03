@@ -40,6 +40,23 @@ export const EZRA_7: RichChapterContent = {
       url: 'https://oi.uchicago.edu/',
       description: 'OI scholarly resources on 5th-century BCE Persian rule and administration.',
     },
+    {
+      id: 'sefaria-ezra-7',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezra 7 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezra.7',
+      description: 'The Hebrew text of Ezra 7 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-ezra-overview-7',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezra — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/ezra/',
+      description: 'Open-access SBL essay on the historical and literary setting of Ezra.',
+    },
+
   ],
 
   sections: [
@@ -86,7 +103,7 @@ export const EZRA_7: RichChapterContent = {
           kind: 'commentary',
           id: 'ezra-lineage',
           html:
-            'The genealogy traces Ezra back through the priestly line to Aaron himself. He is no outsider, no upstart. He is of the chief priests, son of a long line of those who stood between God and the people. His authority comes not from the king, but from the covenant heritage he carries.',
+            'The genealogy traces Ezra back through the priestly line to Aaron himself. He is no outsider, no upstart. He is of the chief priests, son of a long line of those who stood between God and the people. His authority comes not from the king, but from the covenant heritage he carries[res:sefaria-ezra-7][res:bibleodyssey-ezra-overview-7].',
         },
         {
           kind: 'hebrew',

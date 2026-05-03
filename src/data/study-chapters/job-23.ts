@@ -40,6 +40,23 @@ export const JOB_23: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-23',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 23 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.23',
+      description: 'The Hebrew text of Job 23 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-23',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -93,7 +110,7 @@ export const JOB_23: RichChapterContent = {
           kind: 'commentary',
           id: 'job23-stroke',
           html:
-            'Job says his complaint is bitter, and his stroke (his affliction, his blow from God) is heavier than his groaning. He cannot even express the weight of it. The words fail. The groans are inadequate. The suffering surpasses the ability to articulate it.',
+            'Job says his complaint is bitter, and his stroke (his affliction, his blow from God) is heavier than his groaning. He cannot even express the weight of it. The words fail. The groans are inadequate. The suffering surpasses the ability to articulate it[res:sefaria-job-23][res:bibleodyssey-job-overview-23].',
         },
         {
           kind: 'hebrew',

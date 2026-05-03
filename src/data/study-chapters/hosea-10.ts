@@ -36,6 +36,15 @@ export const HOSEA_10: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
       description: 'Study of the metaphor of breaking fallow ground as a call to spiritual renewal and return to God.',
     },
+    {
+      id: 'sefaria-hosea-10-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 10 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Hosea.10',
+      description: 'The Hebrew text of Hosea 10 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -73,7 +82,7 @@ export const HOSEA_10: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea10-vine',
           html:
-            'Israel is a luxuriant vine that brings forth fruit — but fruit unto herself, not unto God. She has multiplied altars, not to the Lord, but to the false gods. She has made goodly images — yet all of it is an empty pursuit. A heart divided cannot stand. Israel is split between seeking God and seeking idols, and she will fall.',
+            'Israel is a luxuriant vine that brings forth fruit — but fruit unto herself, not unto God. She has multiplied altars, not to the Lord, but to the false gods. She has made goodly images — yet all of it is an empty pursuit. A heart divided cannot stand. Israel is split between seeking God and seeking idols, and she will fall[res:sefaria-hosea-10-v1].',
         },
         {
           kind: 'carry',

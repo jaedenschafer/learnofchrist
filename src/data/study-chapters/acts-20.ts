@@ -73,7 +73,7 @@ export const ACTS_20: RichChapterContent = {
           kind: 'commentary',
           id: 'acts20-embrace',
           html:
-            'Paul is leaving Ephesus, where he has spent nearly three years. The riot of the silversmiths has forced his departure. Before he goes, he embraces the disciples—a gesture of affection and comfort. He will not see most of these faces again. But he does not linger in grief. Instead, he moves forward with purpose. Macedonia and Greece await. Churches planted in recent years need strengthening. The gospel&apos;s momentum cannot stop.',
+            'Paul is leaving Ephesus, where he has spent nearly three years. The riot of the silversmiths has forced his departure. Before he goes, he embraces the disciples—a gesture of affection and comfort. He will not see most of these faces again. But he does not linger in grief. Instead, he moves forward with purpose. Macedonia and Greece await. Churches planted in recent years need strengthening. The gospel&apos;s momentum cannot stop[res:sefaria-acts-20].',
         },
         {
           kind: 'commentary',
@@ -686,6 +686,15 @@ export const ACTS_20: RichChapterContent = {
       url: 'https://agora.ascsa.net/',
       description: 'Ongoing excavations of the Miletus harbor and theater complex where Paul&apos;s farewell to the Ephesian elders likely took place.',
     },
+    {
+      id: 'sefaria-acts-20',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Acts 20 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Acts.20',
+      description: 'The Hebrew text of Acts 20 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: false,

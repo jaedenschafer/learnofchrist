@@ -52,7 +52,7 @@ export const EXODUS_30: RichChapterContent = {
           kind: 'commentary',
           id: 'c-altar-gold',
           html:
-            'The incense altar is small — one cubit square — but entirely covered in pure gold. It is not the largest piece of tabernacle furniture, but it is the most refined. Gold is used where worship happens or where God draws near. This altar sits before the veil, in the Holy Place, where the high priest enters to burn incense daily. It is the closest thing to the throne of God that the priests can approach while still living in the old covenant[res:incense-gold].',
+            'The incense altar is small — one cubit square — but entirely covered in pure gold. It is not the largest piece of tabernacle furniture, but it is the most refined. Gold is used where worship happens or where God draws near. This altar sits before the veil, in the Holy Place, where the high priest enters to burn incense daily. It is the closest thing to the throne of God that the priests can approach while still living in the old covenant[res:incense-gold][res:sefaria-exodus-30].',
         },
         {
           kind: 'hebrew',
@@ -602,5 +602,14 @@ export const EXODUS_30: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/atonement/',
       description: 'Ransom and redemption theology.',
     },
+    {
+      id: 'sefaria-exodus-30',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 30 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.30',
+      description: 'The Hebrew text of Exodus 30 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 };

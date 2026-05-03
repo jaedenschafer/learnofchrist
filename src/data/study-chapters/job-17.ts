@@ -40,6 +40,23 @@ export const JOB_17: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-17',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 17 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.17',
+      description: 'The Hebrew text of Job 17 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-17',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -78,7 +95,7 @@ export const JOB_17: RichChapterContent = {
           kind: 'commentary',
           id: 'job-breath-corrupt',
           html:
-            '"My breath is corrupt, my days are extinct, the graves are ready for me"—Job is not speaking metaphorically. He is describing the approach of death. His breathing is failing. His days are coming to an end. The grave is prepared for him. Death is imminent.',
+            '"My breath is corrupt, my days are extinct, the graves are ready for me"—Job is not speaking metaphorically. He is describing the approach of death. His breathing is failing. His days are coming to an end. The grave is prepared for him. Death is imminent[res:sefaria-job-17][res:bibleodyssey-job-overview-17].',
         },
         {
           kind: 'commentary',

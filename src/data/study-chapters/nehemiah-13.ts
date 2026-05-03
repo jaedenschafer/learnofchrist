@@ -42,6 +42,23 @@ export const NEHEMIAH_13: RichChapterContent = {
       url: 'https://www.sefaria.org/',
       description: 'Sefaria Hebrew texts on Torah readings and covenant renewal.',
     },
+    {
+      id: 'sefaria-nehemiah-13',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Nehemiah 13 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Nehemiah.13',
+      description: 'The Hebrew text of Nehemiah 13 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-nehemiah-overview-13',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Nehemiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/nehemiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Nehemiah.',
+    },
+
   ],
 
   sections: [
@@ -130,7 +147,7 @@ export const NEHEMIAH_13: RichChapterContent = {
           kind: 'commentary',
           id: 'tobiah-enemy',
           html:
-            'Tobiah the Ammonite was an adversary of Nehemiah from the beginning of the rebuilding (Nehemiah 2:10, 19; 4:3, 7). He mocked the work, plotted against it, sent intimidating letters. He represented the foreign opposition to God&apos;s people. Yet here, in Nehemiah&apos;s absence, Eliashib the high priest—the very man who should guard the sanctity of the temple—has given Tobiah a great chamber in the courts of the house of God. The enemies of God&apos;s work have infiltrated the holy place itself. This is corruption not by pagan force, but by the compromise of the leaders within.',
+            'Tobiah the Ammonite was an adversary of Nehemiah from the beginning of the rebuilding (Nehemiah 2:10, 19; 4:3, 7). He mocked the work, plotted against it, sent intimidating letters. He represented the foreign opposition to God&apos;s people. Yet here, in Nehemiah&apos;s absence, Eliashib the high priest—the very man who should guard the sanctity of the temple—has given Tobiah a great chamber in the courts of the house of God. The enemies of God&apos;s work have infiltrated the holy place itself. This is corruption not by pagan force, but by the compromise of the leaders within[res:sefaria-nehemiah-13][res:bibleodyssey-nehemiah-overview-13].',
         },
         {
           kind: 'commentary',

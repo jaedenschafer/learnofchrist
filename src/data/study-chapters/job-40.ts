@@ -35,6 +35,23 @@ export const JOB_40: RichChapterContent = {
       url: 'https://www.sefaria.org/Job',
       description: 'Sefaria Hebrew text with notes on rare terms and wisdom vocabulary.',
     },
+    {
+      id: 'sefaria-job-40',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 40 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.40',
+      description: 'The Hebrew text of Job 40 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-40',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -91,7 +108,7 @@ export const JOB_40: RichChapterContent = {
           kind: 'commentary',
           id: 'job40-vile-answer',
           html:
-            'Job&apos;s response is one of the most profound moments in Scripture. "Behold, I am vile; what shall I answer thee?" He does not repent of specific sins. Rather, he repents of his fundamental stance before God. He has taken a position he should not have taken. He has accused God. He has presumed to judge. And in the presence of the actual voice of God, he recognizes how small he is, how wrong he has been.',
+            'Job&apos;s response is one of the most profound moments in Scripture. "Behold, I am vile; what shall I answer thee?" He does not repent of specific sins. Rather, he repents of his fundamental stance before God. He has taken a position he should not have taken. He has accused God. He has presumed to judge. And in the presence of the actual voice of God, he recognizes how small he is, how wrong he has been[res:sefaria-job-40][res:bibleodyssey-job-overview-40].',
         },
         {
           kind: 'commentary',

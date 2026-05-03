@@ -39,7 +39,7 @@ export const ROMANS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'rom6-slander',
           html:
-            'Paul has just said that where sin increased, grace increased all the more. It is a true statement. But it can be twisted. If grace is limitless and forgives all sin, why not sin freely? Why not test the limits of grace? Paul&apos;s answer is swift and fierce: <em>God forbid.</em> The Greek word is <em>mē genoito</em>—literally, "may it not happen," "let it never be." This is not a debate. It is a scandal too terrible to entertain.',
+            'Paul has just said that where sin increased, grace increased all the more. It is a true statement. But it can be twisted. If grace is limitless and forgives all sin, why not sin freely? Why not test the limits of grace? Paul&apos;s answer is swift and fierce: <em>God forbid.</em> The Greek word is <em>mē genoito</em>—literally, "may it not happen," "let it never be." This is not a debate. It is a scandal too terrible to entertain[res:sefaria-romans-6].',
         },
         {
           kind: 'commentary',
@@ -520,6 +520,15 @@ export const ROMANS_6: RichChapterContent = {
       url: 'https://www.blueletterbible.org/lexicon/g907/kjv/',
       description: 'Complete Greek lexical entry for baptizō with cognates, classical usage, and New Testament citations.',
     },
+    {
+      id: 'sefaria-romans-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Romans 6 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Romans.6',
+      description: 'The Hebrew text of Romans 6 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: false,

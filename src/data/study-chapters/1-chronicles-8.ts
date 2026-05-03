@@ -37,6 +37,23 @@ export const CHRONICLES_1_8: RichChapterContent = {
       url: 'https://www.sefaria.org/search?q=tribe+israel&tab=text',
       description: 'Sefaria resources on the twelve tribes, genealogies, and territorial divisions.',
     },
+    {
+      id: 'sefaria-1-chronicles-8',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 8 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.8',
+      description: 'The Hebrew text of 1 Chronicles 8 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-1-chronicles-overview-8',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -127,7 +144,7 @@ export const CHRONICLES_1_8: RichChapterContent = {
           kind: 'commentary',
           id: 'ehud-house',
           html:
-            'The genealogy traces the spreading of Benjamin&apos;s line across the land. Some settled in Geba, others were removed to Manahath. Shaharaim divorced his wives Hushim and Baara and took another, Hodesh, begetting more sons. The text records these family upheavals — divorces, relocations, new sons — without judgment or explanation. These are the human facts of tribal history. Yet the point is consistent: the people spread, multiplied, and took root in cities across the land.',
+            'The genealogy traces the spreading of Benjamin&apos;s line across the land. Some settled in Geba, others were removed to Manahath. Shaharaim divorced his wives Hushim and Baara and took another, Hodesh, begetting more sons. The text records these family upheavals — divorces, relocations, new sons — without judgment or explanation. These are the human facts of tribal history. Yet the point is consistent: the people spread, multiplied, and took root in cities across the land[res:sefaria-1-chronicles-8][res:bibleodyssey-1-chronicles-overview-8].',
         },
         {
           kind: 'commentary',

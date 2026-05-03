@@ -51,7 +51,7 @@ export const EZEKIEL_9: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk9-mark-of-tav',
-          html: 'The man with the ink-horn goes through Jerusalem marking the foreheads of those who mourn over the city&apos;s sins. The mark is a tav — the last letter of the Hebrew alphabet, which in ancient script had the shape of a cross or an X. This mark protects. When the slaughterers come, they spare all who bear the mark. The slaughter is terrible and complete. Only those marked for protection are spared. This is not because they are better than others, but because they have kept their hearts tender toward God&apos;s truth. In a city of hardened hearts, the ones who sigh and cry are the ones who remain open to God[res:gog-magog-bibleodyssey].',
+          html: 'The man with the ink-horn goes through Jerusalem marking the foreheads of those who mourn over the city&apos;s sins. The mark is a tav — the last letter of the Hebrew alphabet, which in ancient script had the shape of a cross or an X. This mark protects. When the slaughterers come, they spare all who bear the mark. The slaughter is terrible and complete. Only those marked for protection are spared. This is not because they are better than others, but because they have kept their hearts tender toward God&apos;s truth. In a city of hardened hearts, the ones who sigh and cry are the ones who remain open to God[res:gog-magog-bibleodyssey][res:sefaria-ezekiel-9].',
         },
         {
           kind: 'hebrew',
@@ -108,6 +108,15 @@ export const EZEKIEL_9: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/gog/',
       description: 'SBL entry on the mysterious Gog figure in Ezekiel and Revelation.',
     }
+    {
+      id: 'sefaria-ezekiel-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 9 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.9',
+      description: 'The Hebrew text of Ezekiel 9 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
   hasHebrew: true,
 };

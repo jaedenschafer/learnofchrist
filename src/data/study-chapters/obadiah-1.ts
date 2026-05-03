@@ -36,6 +36,15 @@ export const OBADIAH_1: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'Archaeological evidence for Mount Seir and Edomite settlements during the period Obadiah addresses.',
     },
+    {
+      id: 'sefaria-obadiah-1-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Obadiah 1 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Obadiah.1',
+      description: 'The Hebrew text of Obadiah 1 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -81,7 +90,7 @@ export const OBADIAH_1: RichChapterContent = {
           kind: 'commentary',
           id: 'obadiah1-pride',
           html:
-            'Edom\'s pride is its undoing. Though it dwells high in the clefts of the rock, though it exalts itself like an eagle, God will bring it down. Even if only thieves came, they would steal some and move on. But Edom\'s hidden things will be completely searched out. Its allies will betray it. The proud will be brought to nothing.',
+            'Edom\'s pride is its undoing. Though it dwells high in the clefts of the rock, though it exalts itself like an eagle, God will bring it down. Even if only thieves came, they would steal some and move on. But Edom\'s hidden things will be completely searched out. Its allies will betray it. The proud will be brought to nothing[res:sefaria-obadiah-1-v1].',
         },
         {
           kind: 'hebrew',

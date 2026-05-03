@@ -39,6 +39,23 @@ export const JOB_12: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-12',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 12 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.12',
+      description: 'The Hebrew text of Job 12 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-12',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -76,7 +93,7 @@ export const JOB_12: RichChapterContent = {
           kind: 'commentary',
           id: 'job-people-wisdom',
           html:
-            '"No doubt but ye are the people, and wisdom shall die with you"—Job is engaging in bitter sarcasm. His tone says: you think you are the only ones who understand the world, the only ones whose words matter. When you die, wisdom itself will end because there will be no one left as wise as you.',
+            '"No doubt but ye are the people, and wisdom shall die with you"—Job is engaging in bitter sarcasm. His tone says: you think you are the only ones who understand the world, the only ones whose words matter. When you die, wisdom itself will end because there will be no one left as wise as you[res:sefaria-job-12][res:bibleodyssey-job-overview-12].',
         },
         {
           kind: 'commentary',

@@ -73,7 +73,7 @@ export const ISAIAH_27: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah27-leviathan',
           html:
-            '"In that day the Lord with his sore and great and strong sword shall punish leviathan the piercing serpent." Leviathan appears in the Psalms and the book of Job as a great sea creature, a symbol of chaos and rebellion against God. Here, the Lord uses His sword against it. This is cosmic warfare—not a skirmish between nations, but a conflict between the forces of order (represented by God and His kingdom) and the forces of chaos (represented by Leviathan).',
+            '"In that day the Lord with his sore and great and strong sword shall punish leviathan the piercing serpent." Leviathan appears in the Psalms and the book of Job as a great sea creature, a symbol of chaos and rebellion against God. Here, the Lord uses His sword against it. This is cosmic warfare—not a skirmish between nations, but a conflict between the forces of order (represented by God and His kingdom) and the forces of chaos (represented by Leviathan)[res:sefaria-isaiah-27-v1][res:bibleodyssey-isaiah-overview-27].',
         },
         {
           kind: 'commentary',
@@ -138,6 +138,23 @@ export const ISAIAH_27: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.27',
       description: 'Sefaria open-access source text and translations for Isaiah 27.',
     },
+    {
+      id: 'sefaria-isaiah-27-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 27 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.27',
+      description: 'The Hebrew text of Isaiah 27 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-27',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

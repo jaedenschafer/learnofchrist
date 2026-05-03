@@ -43,6 +43,23 @@ export const CHRONICLES_2_1: RichChapterContent = {
       url: 'https://www.britishmuseum.org/collection/objects/w3679',
       description: 'Ancient Persian cylinder decree allowing return from exile and temple rebuilding.',
     },
+    {
+      id: 'sefaria-2-chronicles-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 1 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.1',
+      description: 'The Hebrew text of 2 Chronicles 1 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-1',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -74,7 +91,7 @@ export const CHRONICLES_2_1: RichChapterContent = {
           kind: 'commentary',
           id: 'chr2-assembly',
           html:
-            'Solomon gathers Israel&apos;s leadership — captains, judges, governors, chief fathers. He is not sitting alone in his throne room. He is calling the nation to witness what comes next. This assembly is essential: they will see their king&apos;s heart laid bare before God.',
+            'Solomon gathers Israel&apos;s leadership — captains, judges, governors, chief fathers. He is not sitting alone in his throne room. He is calling the nation to witness what comes next. This assembly is essential: they will see their king&apos;s heart laid bare before God[res:sefaria-2-chronicles-1][res:bibleodyssey-2-chronicles-overview-1].',
         },
         {
           kind: 'carry',

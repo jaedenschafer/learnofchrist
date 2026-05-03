@@ -83,7 +83,7 @@ export const SECOND_ESDRAS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'perils-coming',
           html:
-            'The angel promises not peace but clarity. The perils are not being invented; they are the fulfillment of words spoken long ago. This is crucial: the chaos that will come is not random, not outside God&apos;s knowledge, but foretold. And it all culminates in one moment—the declaration of God&apos;s Son. The signs are the labor, and the Son is the birth.',
+            'The angel promises not peace but clarity. The perils are not being invented; they are the fulfillment of words spoken long ago. This is crucial: the chaos that will come is not random, not outside God&apos;s knowledge, but foretold. And it all culminates in one moment—the declaration of God&apos;s Son. The signs are the labor, and the Son is the birth[res:sefaria-2-esdras-5].',
         },
 
         {
@@ -614,6 +614,15 @@ export const SECOND_ESDRAS_5: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/evil/',
       description: 'Problem of evil and divine justice in postexilic Jewish thought.',
     },
+    {
+      id: 'sefaria-2-esdras-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Esdras 5 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Esdras.5',
+      description: 'The Hebrew text of 2 Esdras 5 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {

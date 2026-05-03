@@ -46,6 +46,23 @@ export const EZRA_4: RichChapterContent = {
       url: 'https://www.penn.museum/collections/',
       description: 'Cuneiform records of Persian provincial administration and labor systems.',
     },
+    {
+      id: 'sefaria-ezra-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezra 4 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezra.4',
+      description: 'The Hebrew text of Ezra 4 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-ezra-overview-4',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezra — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/ezra/',
+      description: 'Open-access SBL essay on the historical and literary setting of Ezra.',
+    },
+
   ],
 
   sections: [
@@ -103,7 +120,7 @@ export const EZRA_4: RichChapterContent = {
           kind: 'commentary',
           id: 'ezra4-offer',
           html:
-            'The offer sounds reasonable. "We seek your God as ye do." But the claim rings false. They have been sacrificing since the days of Esarhaddon, mixing the worship of YHWH with Assyrian deities. This is not the faith of the fathers of Israel. This is syncretism — the blending of the true God with false gods, of worship at the true altar with worship at idolatrous altars. The danger is real: if the builders accept this partnership, the temple becomes compromised. The work that was meant to restore Israel&apos;s faith becomes a monument to mixed worship.',
+            'The offer sounds reasonable. "We seek your God as ye do." But the claim rings false. They have been sacrificing since the days of Esarhaddon, mixing the worship of YHWH with Assyrian deities. This is not the faith of the fathers of Israel. This is syncretism — the blending of the true God with false gods, of worship at the true altar with worship at idolatrous altars. The danger is real: if the builders accept this partnership, the temple becomes compromised. The work that was meant to restore Israel&apos;s faith becomes a monument to mixed worship[res:sefaria-ezra-4][res:bibleodyssey-ezra-overview-4].',
         },
         {
           kind: 'carry',

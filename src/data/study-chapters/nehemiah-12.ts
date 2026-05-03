@@ -39,6 +39,23 @@ export const NEHEMIAH_12: RichChapterContent = {
       url: 'https://www.sefaria.org/',
       description: 'Sefaria Hebrew texts on Torah readings and covenant renewal.',
     },
+    {
+      id: 'sefaria-nehemiah-12',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Nehemiah 12 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Nehemiah.12',
+      description: 'The Hebrew text of Nehemiah 12 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-nehemiah-overview-12',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Nehemiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/nehemiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Nehemiah.',
+    },
+
   ],
 
   sections: [
@@ -84,7 +101,7 @@ export const NEHEMIAH_12: RichChapterContent = {
           kind: 'commentary',
           id: 'neh12-priestly-roll',
           html:
-            'The text opens with names — layers of names, families that will carry forward the sacred work of priesthood. In Jewish tradition, genealogy is not mere record-keeping; it is affirmation that a person, a line, a calling, matters. These priests are not anonymous. They are named. They are known. And they are the ones whose hands will bless the people, whose voices will lead the prayers, whose sacrifices will rise at the altar.',
+            'The text opens with names — layers of names, families that will carry forward the sacred work of priesthood. In Jewish tradition, genealogy is not mere record-keeping; it is affirmation that a person, a line, a calling, matters. These priests are not anonymous. They are named. They are known. And they are the ones whose hands will bless the people, whose voices will lead the prayers, whose sacrifices will rise at the altar[res:sefaria-nehemiah-12][res:bibleodyssey-nehemiah-overview-12].',
         },
         {
           kind: 'commentary',

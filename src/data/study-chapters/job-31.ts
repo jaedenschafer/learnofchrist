@@ -34,6 +34,23 @@ export const JOB_31: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-31',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 31 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.31',
+      description: 'The Hebrew text of Job 31 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-31',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -76,7 +93,7 @@ export const JOB_31: RichChapterContent = {
           kind: 'commentary',
           id: 'job31-covenant-eyes',
           html:
-            'Job begins his oath of innocence with sexual integrity. "I made a covenant with mine eyes"—the eyes are the gateway to lust, so Job has made them bound to a covenant. He will not look at a woman with desire. This is not natural restraint; it is deliberate, sworn commitment. He has made the invisible visible by binding his gaze.',
+            'Job begins his oath of innocence with sexual integrity. "I made a covenant with mine eyes"—the eyes are the gateway to lust, so Job has made them bound to a covenant. He will not look at a woman with desire. This is not natural restraint; it is deliberate, sworn commitment. He has made the invisible visible by binding his gaze[res:sefaria-job-31][res:bibleodyssey-job-overview-31].',
         },
         {
           kind: 'hebrew',

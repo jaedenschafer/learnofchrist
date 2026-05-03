@@ -42,7 +42,7 @@ export const EZEKIEL_29: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek29-dragon',
-          html: 'Pharaoh claims: "My river is mine own, and I have made it for myself." Egypt&apos;s power rests on the Nile—its flooding, its fertility, its bounty. Pharaoh imagines this power is his own creation, his own possession. He has no need for God. The Nile will sustain him eternally. But God says: "I am against thee." What Pharaoh believes he owns and has made is actually in God&apos;s hands[res:babylonian-exile-context].',
+          html: 'Pharaoh claims: "My river is mine own, and I have made it for myself." Egypt&apos;s power rests on the Nile—its flooding, its fertility, its bounty. Pharaoh imagines this power is his own creation, his own possession. He has no need for God. The Nile will sustain him eternally. But God says: "I am against thee." What Pharaoh believes he owns and has made is actually in God&apos;s hands[res:babylonian-exile-context][res:sefaria-ezekiel-29].',
         },
         {
           kind: 'commentary',
@@ -134,6 +134,15 @@ export const EZEKIEL_29: RichChapterContent = {
       url: 'https://www.imj.org.il/en',
       description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
     }
+    {
+      id: 'sefaria-ezekiel-29',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 29 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.29',
+      description: 'The Hebrew text of Ezekiel 29 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

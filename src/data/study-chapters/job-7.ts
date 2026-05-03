@@ -45,6 +45,23 @@ export const JOB_7: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-7',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 7 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.7',
+      description: 'The Hebrew text of Job 7 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-7',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -110,7 +127,7 @@ export const JOB_7: RichChapterContent = {
           kind: 'commentary',
           id: 'hireling-days',
           html:
-            'Job compares human life to the days of a hired worker. A servant longs for the evening shadow — the end of the workday, relief from labor. A laborer looks for his wages — the payment that marks the end of his contract and his release. So too, Job suggests, a human being should count his days toward the appointed end, the release of death.',
+            'Job compares human life to the days of a hired worker. A servant longs for the evening shadow — the end of the workday, relief from labor. A laborer looks for his wages — the payment that marks the end of his contract and his release. So too, Job suggests, a human being should count his days toward the appointed end, the release of death[res:sefaria-job-7][res:bibleodyssey-job-overview-7].',
         },
         {
           kind: 'commentary',

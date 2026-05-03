@@ -61,7 +61,7 @@ export const ISAIAH_8: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'In our own time, we face the same temptation. When we are afraid about the future, when we are uncertain, we are drawn to seek guidance from many sources—from the culture&apos;s latest wisdom, from those who claim insider knowledge, from practices that promise hidden insight. But Isaiah&apos;s question remains: Why would we seek unto the dead when the living God is available? Why would we trust in darkness when we have been given light? The call is to sanctify the Lord—to treat His word as our highest authority, and His fear (His reverence and respect) as our only fear.',
+            'In our own time, we face the same temptation. When we are afraid about the future, when we are uncertain, we are drawn to seek guidance from many sources—from the culture&apos;s latest wisdom, from those who claim insider knowledge, from practices that promise hidden insight. But Isaiah&apos;s question remains: Why would we seek unto the dead when the living God is available? Why would we trust in darkness when we have been given light? The call is to sanctify the Lord—to treat His word as our highest authority, and His fear (His reverence and respect) as our only fear[res:sefaria-isaiah-8-v1].',
         },
         {
           kind: 'reflection',
@@ -139,6 +139,15 @@ export const ISAIAH_8: RichChapterContent = {
       url: 'https://intertextual.bible/',
       description: 'Connections between Isaiah 8 and New Testament fulfillment, especially Matt 1–12.',
     },
+    {
+      id: 'sefaria-isaiah-8-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 8 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.8',
+      description: 'The Hebrew text of Isaiah 8 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

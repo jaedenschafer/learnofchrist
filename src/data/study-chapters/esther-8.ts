@@ -45,6 +45,15 @@ export const ESTHER_8: RichChapterContent = {
       url: 'https://www.sefaria.org/Megillat_Esther',
       description: 'Sefaria Hebrew text with medieval commentary on the Esther scroll.',
     },
+    {
+      id: 'sefaria-esther-8',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Esther 8 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Esther.8',
+      description: 'The Hebrew text of Esther 8 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -77,7 +86,7 @@ export const ESTHER_8: RichChapterContent = {
           kind: 'commentary',
           id: 'esth8-ring',
           html:
-            'The king takes the signet ring from his finger — the same ring he gave to Haman in chapter 3 — and gives it to Mordecai. The signet ring is the authority to write in the king&apos;s name and seal with the king&apos;s seal. By giving it to Mordecai, the king makes him his authorized representative, his voice, his hand in the empire. Mordecai now holds the very power Haman once wielded[res:sefaria-megillah].',
+            'The king takes the signet ring from his finger — the same ring he gave to Haman in chapter 3 — and gives it to Mordecai. The signet ring is the authority to write in the king&apos;s name and seal with the king&apos;s seal. By giving it to Mordecai, the king makes him his authorized representative, his voice, his hand in the empire. Mordecai now holds the very power Haman once wielded[res:sefaria-megillah][res:sefaria-esther-8].',
         },
         {
           kind: 'hebrew',

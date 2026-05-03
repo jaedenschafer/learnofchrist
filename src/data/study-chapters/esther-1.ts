@@ -40,6 +40,23 @@ export const ESTHER_1: RichChapterContent = {
       url: 'https://oi.uchicago.edu/',
       description: 'OI resources on the palatial city of Susa and royal Persian administration.',
     },
+    {
+      id: 'sefaria-esther-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Esther 1 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Esther.1',
+      description: 'The Hebrew text of Esther 1 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-esther-overview-1',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Esther — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/esther/',
+      description: 'Open-access SBL essay on the historical and literary setting of Esther.',
+    },
+
   ],
 
   sections: [
@@ -67,7 +84,7 @@ export const ESTHER_1: RichChapterContent = {
           kind: 'commentary',
           id: 'feast-display',
           html:
-            'The feast is not a private celebration. It is a display of power — all his princes, his servants, the nobility and princes of the provinces are gathered. This is a king showing his wealth, his reach, his command. A feast that lasts six months is not about sustenance; it is about dominance. It is the king saying, wordlessly but unmistakably: Look what I have. Look how I command.',
+            'The feast is not a private celebration. It is a display of power — all his princes, his servants, the nobility and princes of the provinces are gathered. This is a king showing his wealth, his reach, his command. A feast that lasts six months is not about sustenance; it is about dominance. It is the king saying, wordlessly but unmistakably: Look what I have. Look how I command[res:sefaria-esther-1][res:bibleodyssey-esther-overview-1].',
         },
         {
           kind: 'carry',

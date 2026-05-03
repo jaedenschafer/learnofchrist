@@ -37,7 +37,7 @@ export const LAMENTATIONS_1: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'lam1-solitary',
-          html: 'The opening image is desolation personified. Jerusalem sits solitary—the city that was once filled with voices and people, with commerce and movement, now empty. She is like a widow, stripped of her husband&apos;s protection and provision. She who was great among the nations, who held a princess-like status, is now tributary—reduced to paying taxes to conquerors, her sovereignty stripped away[res:bibleodyssey-lament].',
+          html: 'The opening image is desolation personified. Jerusalem sits solitary—the city that was once filled with voices and people, with commerce and movement, now empty. She is like a widow, stripped of her husband&apos;s protection and provision. She who was great among the nations, who held a princess-like status, is now tributary—reduced to paying taxes to conquerors, her sovereignty stripped away[res:bibleodyssey-lament][res:sefaria-lamentations-1].',
         },
         {
           kind: 'commentary',
@@ -138,5 +138,14 @@ export const LAMENTATIONS_1: RichChapterContent = {
       url: 'https://www.britishmuseum.org/collection/object/Y_EA9319',
       description: 'ANE parallels to Lamentations: Sumerian lament poetry over destroyed cities.',
     }
+    {
+      id: 'sefaria-lamentations-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Lamentations 1 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Lamentations.1',
+      description: 'The Hebrew text of Lamentations 1 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 };

@@ -36,7 +36,7 @@ export const EZEKIEL_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk3-sweetness',
-          html: 'The scroll that Ezekiel eats tastes like honey. This is astonishing. The scroll contained lamentations, mourning, and woe. Yet when it becomes part of him, it is sweet. The sweetness is not in the message — which is indeed a message of judgment — but in the intimacy with God it represents. To be fully known, fully commissioned, fully trusted with God&apos;s word: this is sweet beyond measure, even when the word itself is sorrowful[res:bibleodyssey-ezekiel].',
+          html: 'The scroll that Ezekiel eats tastes like honey. This is astonishing. The scroll contained lamentations, mourning, and woe. Yet when it becomes part of him, it is sweet. The sweetness is not in the message — which is indeed a message of judgment — but in the intimacy with God it represents. To be fully known, fully commissioned, fully trusted with God&apos;s word: this is sweet beyond measure, even when the word itself is sorrowful[res:bibleodyssey-ezekiel][res:sefaria-ezekiel-3].',
         },
         {
           kind: 'carry',
@@ -120,6 +120,15 @@ export const EZEKIEL_3: RichChapterContent = {
       url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
       description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
     }
+    {
+      id: 'sefaria-ezekiel-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 3 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.3',
+      description: 'The Hebrew text of Ezekiel 3 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

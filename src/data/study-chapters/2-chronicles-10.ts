@@ -41,6 +41,23 @@ export const CHRONICLES_2_10: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
     },
+    {
+      id: 'sefaria-2-chronicles-10',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 10 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.10',
+      description: 'The Hebrew text of 2 Chronicles 10 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-10',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -91,7 +108,7 @@ export const CHRONICLES_2_10: RichChapterContent = {
           kind: 'commentary',
           id: 'serve-thee-2c',
           html:
-            'Notice what the people offer. They do not come in rebellion. They come in negotiation, extending an olive branch to their new king. "Ease the burden, and we will serve you." They are asking: will you be a king who listens? Will you consider the welfare of your people? If so, we will give you our loyalty freely.',
+            'Notice what the people offer. They do not come in rebellion. They come in negotiation, extending an olive branch to their new king. "Ease the burden, and we will serve you." They are asking: will you be a king who listens? Will you consider the welfare of your people? If so, we will give you our loyalty freely[res:sefaria-2-chronicles-10][res:bibleodyssey-2-chronicles-overview-10].',
         },
         {
           kind: 'commentary',

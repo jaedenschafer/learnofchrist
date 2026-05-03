@@ -41,7 +41,7 @@ export const DANIEL_9: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel9-weeks',
-          html: 'Seventy weeks—490 years—are determined upon the people and the city. The prophecy is structured precisely: seven weeks to rebuild Jerusalem, then sixty-two weeks to the coming of Messiah. The math points to a timeline. And the purpose is explicit: to finish transgression, to make an end of sins, to make reconciliation for iniquity, to bring in everlasting righteousness. These words describe the work of atonement—the taking away of sin, the reconciliation of humanity to God. Only one event in history accomplishes this: Christ&apos;s death and resurrection[res:bibleodyssey-apocalyptic].',
+          html: 'Seventy weeks—490 years—are determined upon the people and the city. The prophecy is structured precisely: seven weeks to rebuild Jerusalem, then sixty-two weeks to the coming of Messiah. The math points to a timeline. And the purpose is explicit: to finish transgression, to make an end of sins, to make reconciliation for iniquity, to bring in everlasting righteousness. These words describe the work of atonement—the taking away of sin, the reconciliation of humanity to God. Only one event in history accomplishes this: Christ&apos;s death and resurrection[res:bibleodyssey-apocalyptic][res:sefaria-daniel-9].',
         },
         {
           kind: 'hebrew',
@@ -123,6 +123,15 @@ export const DANIEL_9: RichChapterContent = {
       url: 'https://www.britishmuseum.org/collection/object/Y_EA90920',
       description: 'Persian edict of Cyrus authorizing return of exiled peoples (ca. 539 BCE), fulfilling Daniel&apos;s prophecy.',
     }
+    {
+      id: 'sefaria-daniel-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Daniel 9 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Daniel.9',
+      description: 'The Hebrew text of Daniel 9 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

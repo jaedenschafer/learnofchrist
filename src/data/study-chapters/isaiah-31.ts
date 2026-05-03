@@ -56,7 +56,7 @@ export const ISAIAH_31: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah31-horses',
           html:
-            'The repetition of "horses" and "chariots" and "horsemen" is not accidental. Isaiah names them three times to make the point: Israel has looked at Egypt&apos;s military arsenal and been impressed. But impressive flesh is still flesh. Impressive horses are still beasts. Impressive horsemen are still men. The Egyptians do not have the One thing that matters—they do not have God. And when the hand of the Lord stretches out, all the military might of Egypt will crumble. Both the helper and the helped will fall.',
+            'The repetition of "horses" and "chariots" and "horsemen" is not accidental. Isaiah names them three times to make the point: Israel has looked at Egypt&apos;s military arsenal and been impressed. But impressive flesh is still flesh. Impressive horses are still beasts. Impressive horsemen are still men. The Egyptians do not have the One thing that matters—they do not have God. And when the hand of the Lord stretches out, all the military might of Egypt will crumble. Both the helper and the helped will fall[res:sefaria-isaiah-31-v1][res:bibleodyssey-isaiah-overview-31].',
         },
         {
           kind: 'christ',
@@ -149,6 +149,23 @@ export const ISAIAH_31: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.31',
       description: 'Sefaria open-access source text and translations for Isaiah 31.',
     },
+    {
+      id: 'sefaria-isaiah-31-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 31 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.31',
+      description: 'The Hebrew text of Isaiah 31 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-31',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

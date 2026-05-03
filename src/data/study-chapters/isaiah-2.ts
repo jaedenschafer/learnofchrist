@@ -61,7 +61,7 @@ export const ISAIAH_2: RichChapterContent = {
           id: 'isaiah2-christ-kingdom',
           title: 'Christ Connection — The Reign of Peace',
           html:
-            'In the New Testament, the kingdom that Jesus proclaimed is this kingdom that Isaiah foresaw. When the Sermon on the Mount speaks of peacemakers being blessed, when the epistles call believers to put away wrath and pursue peace, they are living in the tension between the kingdom already inaugurated in Christ and the kingdom not yet fully realized. Christ&apos;s resurrection and ascension placed Him on the throne of God—the true "mountain of the Lord&apos;s house." Those who follow Him now are learning His ways, already experiencing the conversion of hearts from war to peace. The full manifestation awaits His return.',
+            'In the New Testament, the kingdom that Jesus proclaimed is this kingdom that Isaiah foresaw. When the Sermon on the Mount speaks of peacemakers being blessed, when the epistles call believers to put away wrath and pursue peace, they are living in the tension between the kingdom already inaugurated in Christ and the kingdom not yet fully realized. Christ&apos;s resurrection and ascension placed Him on the throne of God—the true "mountain of the Lord&apos;s house." Those who follow Him now are learning His ways, already experiencing the conversion of hearts from war to peace. The full manifestation awaits His return[res:sefaria-isaiah-2-v1].',
         },
         {
           kind: 'carry',
@@ -138,6 +138,15 @@ export const ISAIAH_2: RichChapterContent = {
       url: 'https://intertextual.bible/',
       description: 'Connections between Isaiah 2 and New Testament fulfillment, especially Matt 1–12.',
     },
+    {
+      id: 'sefaria-isaiah-2-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 2 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.2',
+      description: 'The Hebrew text of Isaiah 2 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

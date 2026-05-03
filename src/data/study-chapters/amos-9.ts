@@ -36,6 +36,15 @@ export const AMOS_9: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=amos+9:11',
       description: 'Intertextual study of how Amos&apos;s promise of restoring David&apos;s tabernacle is applied in the church.',
     },
+    {
+      id: 'sefaria-amos-9-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Amos 9 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Amos.9',
+      description: 'The Hebrew text of Amos 9 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -82,7 +91,7 @@ export const AMOS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'amos9-altar',
           html:
-            'The Lord stands on the altar — the place of mercy and sacrifice. But now He brings judgment. No one can escape. Hell, heaven, Carmel, the sea — nowhere is beyond God\'s reach. Yet verse 8 contains a crucial word: "saving that I will not utterly destroy." Even in judgment, God reserves a remnant. Not all will be destroyed.',
+            'The Lord stands on the altar — the place of mercy and sacrifice. But now He brings judgment. No one can escape. Hell, heaven, Carmel, the sea — nowhere is beyond God\'s reach. Yet verse 8 contains a crucial word: "saving that I will not utterly destroy." Even in judgment, God reserves a remnant. Not all will be destroyed[res:sefaria-amos-9-v1].',
         },
         {
           kind: 'hebrew',

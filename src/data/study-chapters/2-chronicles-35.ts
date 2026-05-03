@@ -41,6 +41,23 @@ export const CHRONICLES_2_35: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA database of Judahite settlement and cultic sites during monarchy.',
     },
+    {
+      id: 'sefaria-2-chronicles-35',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 35 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.35',
+      description: 'The Hebrew text of 2 Chronicles 35 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-35',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -95,7 +112,7 @@ export const CHRONICLES_2_35: RichChapterContent = {
           kind: 'commentary',
           id: 'chr35-burden',
           html:
-            'The ark — the holiest object in Israel, the throne of God&apos;s presence — shall not be a burden upon their shoulders. This is Josiah&apos;s first word: you are called to serve, not to be crushed. The priesthood is ordered and enabled. The king provides.',
+            'The ark — the holiest object in Israel, the throne of God&apos;s presence — shall not be a burden upon their shoulders. This is Josiah&apos;s first word: you are called to serve, not to be crushed. The priesthood is ordered and enabled. The king provides[res:sefaria-2-chronicles-35][res:bibleodyssey-2-chronicles-overview-35].',
         },
         {
           kind: 'scripture',

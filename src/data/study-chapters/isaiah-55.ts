@@ -60,7 +60,7 @@ export const ISAIAH_55: RichChapterContent = {
           kind: 'commentary',
           id: 'isa55-thirsty',
           html:
-            'The chapter opens with a call to the thirsty. Not to the satisfied, not to the wealthy, but to those who hunger and thirst. These are invited to come without money, without cost. The waters are free. The wine and milk are without price. This is grace: the gift freely given.',        },
+            'The chapter opens with a call to the thirsty. Not to the satisfied, not to the wealthy, but to those who hunger and thirst. These are invited to come without money, without cost. The waters are free. The wine and milk are without price. This is grace: the gift freely given[res:sefaria-isaiah-55-v1][res:bibleodyssey-isaiah-overview-55].',        },
         {
           kind: 'commentary',
           id: 'isa55-bread',
@@ -160,6 +160,23 @@ export const ISAIAH_55: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.55',
       description: 'Sefaria open-access source text and translations for Isaiah 55.',
     },
+    {
+      id: 'sefaria-isaiah-55-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 55 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.55',
+      description: 'The Hebrew text of Isaiah 55 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-55',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

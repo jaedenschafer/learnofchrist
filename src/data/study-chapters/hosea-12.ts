@@ -36,6 +36,15 @@ export const HOSEA_12: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/jacob/',
       description: 'Study of Jacob as a patriarchal type whose struggle with God models the faith Israel has abandoned.',
     },
+    {
+      id: 'sefaria-hosea-12-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 12 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Hosea.12',
+      description: 'The Hebrew text of Hosea 12 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -102,7 +111,7 @@ export const HOSEA_12: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea-12-78mid-1',
           html:
-            'The prophet turns to Jacob himself — wrestler, supplanter, weeper. The fathers&apos; story becomes the children&apos;s mirror.',
+            'The prophet turns to Jacob himself — wrestler, supplanter, weeper. The fathers&apos; story becomes the children&apos;s mirror[res:sefaria-hosea-12-v1].',
         },
         {
           kind: 'scripture',

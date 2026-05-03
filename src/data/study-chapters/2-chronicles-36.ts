@@ -45,6 +45,23 @@ export const CHRONICLES_2_36: RichChapterContent = {
       url: 'https://oi.uchicago.edu/',
       description: 'OI resources on Persian court, administration, and royal decrees.',
     },
+    {
+      id: 'sefaria-2-chronicles-36',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 36 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.36',
+      description: 'The Hebrew text of 2 Chronicles 36 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-36',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -87,7 +104,7 @@ export const CHRONICLES_2_36: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'We often expect judgment to come like a thunderbolt — sudden, unmistakable, divine. But judgment often comes through what looks like ordinary history: politics, the movements of empires, the choices of men. God is not less present in these moments. He is working through them.',
+            'We often expect judgment to come like a thunderbolt — sudden, unmistakable, divine. But judgment often comes through what looks like ordinary history: politics, the movements of empires, the choices of men. God is not less present in these moments. He is working through them[res:sefaria-2-chronicles-36][res:bibleodyssey-2-chronicles-overview-36].',
         },
         {
           kind: 'reflection',

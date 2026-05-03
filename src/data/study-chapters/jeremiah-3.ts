@@ -42,7 +42,7 @@ export const JEREMIAH_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jeremiah-3-78mid-1',
-          html: 'The prophet pivots from indictment to invitation — &quot;Return, thou backsliding Israel,&quot; the LORD says, and the next verses press the open door[res:jer31-hebrews-intertextual].',
+          html: 'The prophet pivots from indictment to invitation — &quot;Return, thou backsliding Israel,&quot; the LORD says, and the next verses press the open door[res:jer31-hebrews-intertextual][res:sefaria-jeremiah-3].',
         },
         {
           kind: 'scripture',
@@ -168,6 +168,15 @@ export const JEREMIAH_3: RichChapterContent = {
       url: 'https://www.imj.org.il/en/collections/lachish-letters',
       description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
     }
+    {
+      id: 'sefaria-jeremiah-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 3 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.3',
+      description: 'The Hebrew text of Jeremiah 3 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

@@ -41,6 +41,23 @@ export const NEHEMIAH_5: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA ongoing dig revealing Iron Age and Persian period Jerusalem structures.',
     },
+    {
+      id: 'sefaria-nehemiah-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Nehemiah 5 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Nehemiah.5',
+      description: 'The Hebrew text of Nehemiah 5 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-nehemiah-overview-5',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Nehemiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/nehemiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Nehemiah.',
+    },
+
   ],
 
   sections: [
@@ -96,7 +113,7 @@ export const NEHEMIAH_5: RichChapterContent = {
           kind: 'commentary',
           id: 'poor-cry-equal',
           html:
-            'The statement "our flesh is as the flesh of our brethren" carries profound weight. We are the same people. We are the same blood. We suffer the same dearth, the same hunger. Yet one group has managed to turn scarcity into profit, using the Law itself — which forbids usury among brothers — as a mechanism of control.',
+            'The statement "our flesh is as the flesh of our brethren" carries profound weight. We are the same people. We are the same blood. We suffer the same dearth, the same hunger. Yet one group has managed to turn scarcity into profit, using the Law itself — which forbids usury among brothers — as a mechanism of control[res:sefaria-nehemiah-5][res:bibleodyssey-nehemiah-overview-5].',
         },
         {
           kind: 'commentary',

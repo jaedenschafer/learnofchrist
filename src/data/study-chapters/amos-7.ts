@@ -36,6 +36,15 @@ export const AMOS_7: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-amos/',
       description: 'Study of the plumbline as a metaphor for God&apos;s standard and judgment among His covenant people.',
     },
+    {
+      id: 'sefaria-amos-7-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Amos 7 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Amos.7',
+      description: 'The Hebrew text of Amos 7 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -81,7 +90,7 @@ export const AMOS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'amos7-plumbline',
           html:
-            'The plumbline is God\'s standard. It measures what is straight and true. Israel will be measured against this standard. Not just in her external actions but in her very foundation. She will be found out of alignment with God\'s truth. The high places will be desolate. The sanctuaries will be laid waste.',
+            'The plumbline is God\'s standard. It measures what is straight and true. Israel will be measured against this standard. Not just in her external actions but in her very foundation. She will be found out of alignment with God\'s truth. The high places will be desolate. The sanctuaries will be laid waste[res:sefaria-amos-7-v1].',
         },
         {
           kind: 'carry',

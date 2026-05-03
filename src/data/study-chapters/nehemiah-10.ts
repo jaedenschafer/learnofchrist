@@ -40,6 +40,23 @@ export const NEHEMIAH_10: RichChapterContent = {
       url: 'https://www.sefaria.org/',
       description: 'Sefaria Hebrew texts on Torah readings and covenant renewal.',
     },
+    {
+      id: 'sefaria-nehemiah-10',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Nehemiah 10 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Nehemiah.10',
+      description: 'The Hebrew text of Nehemiah 10 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-nehemiah-overview-10',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Nehemiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/nehemiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Nehemiah.',
+    },
+
   ],
 
   sections: [
@@ -80,7 +97,7 @@ export const NEHEMIAH_10: RichChapterContent = {
           kind: 'commentary',
           id: 'list-significance',
           html:
-            'The repetition of these names might seem tedious to a modern reader, but in the ancient world, a written list was a legal document. These names were a record. They were proof. They said: "We were there. We heard the covenant. We sealed it with our names." The list transforms an oral ceremony into a binding legal instrument.',
+            'The repetition of these names might seem tedious to a modern reader, but in the ancient world, a written list was a legal document. These names were a record. They were proof. They said: "We were there. We heard the covenant. We sealed it with our names." The list transforms an oral ceremony into a binding legal instrument[res:sefaria-nehemiah-10][res:bibleodyssey-nehemiah-overview-10].',
         },
         {
           kind: 'hebrew',

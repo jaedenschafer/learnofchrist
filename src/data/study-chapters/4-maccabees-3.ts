@@ -64,7 +64,7 @@ export const FOURTH_MACCABEES_3: RichChapterContent = {
           kind: 'commentary',
           id: 'mac4-thirst-real',
           html:
-            'David is surrounded. The enemy controls the high ground. Fountains flow for his enemy&apos;s soldiers, but David will not drink from them—perhaps because they are contaminated by their use, perhaps because to drink would be to lower his vigilance, perhaps because his enemy&apos;s proximity makes the water itself feel like a trap. Whatever the reason, David is thirsty. Severely thirsty. But reason stays his hand.',
+            'David is surrounded. The enemy controls the high ground. Fountains flow for his enemy&apos;s soldiers, but David will not drink from them—perhaps because they are contaminated by their use, perhaps because to drink would be to lower his vigilance, perhaps because his enemy&apos;s proximity makes the water itself feel like a trap. Whatever the reason, David is thirsty. Severely thirsty. But reason stays his hand[res:sefaria-4-maccabees-3].',
         },
         {
           kind: 'carry',
@@ -344,6 +344,15 @@ export const FOURTH_MACCABEES_3: RichChapterContent = {
       url: 'https://www.theoi.com/',
       description: 'Hellenistic Stoic concepts of reason controlling passion and emotion.',
     },
+    {
+      id: 'sefaria-4-maccabees-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '4 Maccabees 3 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/IV_Maccabees.3',
+      description: 'The Hebrew text of 4 Maccabees 3 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {

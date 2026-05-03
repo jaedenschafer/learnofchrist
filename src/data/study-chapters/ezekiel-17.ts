@@ -43,7 +43,7 @@ export const EZEKIEL_17: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek17-transplant',
-          html: 'The first eagle is Nebuchadnezzar of Babylon. He takes a cutting from the great cedar of Lebanon—Judah—and plants it in foreign soil. The vine grows, but in exile. It is far from its native mountain. It spreads its branches and sends out roots, reaching for security and water. This is the condition of displacement, of vulnerability, of seeking to survive in an alien land[res:bibleodyssey-ezekiel].',
+          html: 'The first eagle is Nebuchadnezzar of Babylon. He takes a cutting from the great cedar of Lebanon—Judah—and plants it in foreign soil. The vine grows, but in exile. It is far from its native mountain. It spreads its branches and sends out roots, reaching for security and water. This is the condition of displacement, of vulnerability, of seeking to survive in an alien land[res:bibleodyssey-ezekiel][res:sefaria-ezekiel-17].',
         },
         {
           kind: 'commentary',
@@ -134,6 +134,15 @@ export const EZEKIEL_17: RichChapterContent = {
       url: 'https://www.sefaria.org/Ezekiel',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
     }
+    {
+      id: 'sefaria-ezekiel-17',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 17 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.17',
+      description: 'The Hebrew text of Ezekiel 17 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

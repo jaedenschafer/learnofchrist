@@ -38,7 +38,7 @@ export const DANIEL_11: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel11-kingdoms',
-          html: 'The prophecy unfolds with remarkable specificity. Three kings of Persia will stand. Then a fourth, far richer, will come. Then the mighty king of Greece—Alexander—will arise and rule with great dominion. But when he stands up, his kingdom will be broken and divided toward the four winds. This speaks to Alexander&apos;s death at the height of his power, at only thirty-two years old, and the subsequent division of his empire among his generals. None of this was predetermined by human plan. All of it was known to God and revealed to Daniel 200 years before it occurred[res:bibleodyssey-apocalyptic].',
+          html: 'The prophecy unfolds with remarkable specificity. Three kings of Persia will stand. Then a fourth, far richer, will come. Then the mighty king of Greece—Alexander—will arise and rule with great dominion. But when he stands up, his kingdom will be broken and divided toward the four winds. This speaks to Alexander&apos;s death at the height of his power, at only thirty-two years old, and the subsequent division of his empire among his generals. None of this was predetermined by human plan. All of it was known to God and revealed to Daniel 200 years before it occurred[res:bibleodyssey-apocalyptic][res:sefaria-daniel-11].',
         },
         {
           kind: 'hebrew',
@@ -124,6 +124,15 @@ export const DANIEL_11: RichChapterContent = {
       url: 'https://www.sefaria.org/Daniel',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
     }
+    {
+      id: 'sefaria-daniel-11',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Daniel 11 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Daniel.11',
+      description: 'The Hebrew text of Daniel 11 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

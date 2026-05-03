@@ -40,6 +40,23 @@ export const JOB_21: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-21',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 21 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.21',
+      description: 'The Hebrew text of Job 21 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-21',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -90,7 +107,7 @@ export const JOB_21: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'Job is asking his friends to set aside their theological certainty and simply listen. This is the beginning of wisdom: the willingness to be astonished, to have your assumptions challenged, to sit with mystery without immediately reaching for an explanation. Before we can hear truth, we must first admit that we might be wrong.',
+            'Job is asking his friends to set aside their theological certainty and simply listen. This is the beginning of wisdom: the willingness to be astonished, to have your assumptions challenged, to sit with mystery without immediately reaching for an explanation. Before we can hear truth, we must first admit that we might be wrong[res:sefaria-job-21][res:bibleodyssey-job-overview-21].',
         },
         {
           kind: 'reflection',

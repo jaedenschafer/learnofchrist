@@ -38,7 +38,7 @@ export const EZEKIEL_35: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel35-perpetual',
-          html: '"Perpetual enmity"—this is the key phrase. Edom&apos;s hatred of Israel is not new or circumstantial. It is built into their very identity. They are enemies by nature, by habit, by ancient grudge. And worse: they did not simply stand aside while Israel fell. They "shed the blood" of Israelites, using force against them in their moment of vulnerability. This is cruelty compounded by cowardice—attacking those who are already broken[res:gog-magog-bibleodyssey].',
+          html: '"Perpetual enmity"—this is the key phrase. Edom&apos;s hatred of Israel is not new or circumstantial. It is built into their very identity. They are enemies by nature, by habit, by ancient grudge. And worse: they did not simply stand aside while Israel fell. They "shed the blood" of Israelites, using force against them in their moment of vulnerability. This is cruelty compounded by cowardice—attacking those who are already broken[res:gog-magog-bibleodyssey][res:sefaria-ezekiel-35].',
         },
         {
           kind: 'commentary',
@@ -132,6 +132,15 @@ export const EZEKIEL_35: RichChapterContent = {
       url: 'https://www.sefaria.org/Ezekiel',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
     }
+    {
+      id: 'sefaria-ezekiel-35',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 35 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.35',
+      description: 'The Hebrew text of Ezekiel 35 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

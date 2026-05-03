@@ -55,7 +55,7 @@ export const SECOND_ESDRAS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'iniquity-increase',
           html:
-            'Wickedness multiplies beyond what any generation has known. The world that seems stable to us will become waste—unmapped, uninhabited, reduced. This vision echoes apocalyptic passages across Scripture: the earth groaning, creation itself undone by sin.',
+            'Wickedness multiplies beyond what any generation has known. The world that seems stable to us will become waste—unmapped, uninhabited, reduced. This vision echoes apocalyptic passages across Scripture: the earth groaning, creation itself undone by sin[res:sefaria-2-esdras-9].',
         },
 
         {
@@ -474,6 +474,15 @@ export const SECOND_ESDRAS_9: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/evil/',
       description: 'Problem of evil and divine justice in postexilic Jewish thought.',
     },
+    {
+      id: 'sefaria-2-esdras-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Esdras 9 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Esdras.9',
+      description: 'The Hebrew text of 2 Esdras 9 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {

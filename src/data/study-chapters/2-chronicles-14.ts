@@ -42,6 +42,23 @@ export const CHRONICLES_2_14: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
     },
+    {
+      id: 'sefaria-2-chronicles-14',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 14 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.14',
+      description: 'The Hebrew text of 2 Chronicles 14 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-14',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -65,7 +82,7 @@ export const CHRONICLES_2_14: RichChapterContent = {
           kind: 'commentary',
           id: 'asa-slept',
           html:
-            'Abijah dies. Asa becomes king. But notice the first thing the text tells us: "in his days the land was quiet ten years." The Chronicler does not speak first of Asa\'s military campaigns or his political maneuvers. He speaks of peace. The land was quiet. This peace is not merely the absence of war; it is the result of Asa\'s reformation. The king who cleansed the land of idolatry created the conditions for God\'s blessing to rest upon it.',
+            'Abijah dies. Asa becomes king. But notice the first thing the text tells us: "in his days the land was quiet ten years." The Chronicler does not speak first of Asa\'s military campaigns or his political maneuvers. He speaks of peace. The land was quiet. This peace is not merely the absence of war; it is the result of Asa\'s reformation. The king who cleansed the land of idolatry created the conditions for God\'s blessing to rest upon it[res:sefaria-2-chronicles-14][res:bibleodyssey-2-chronicles-overview-14].',
         },
         {
           kind: 'commentary',

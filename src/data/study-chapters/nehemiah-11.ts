@@ -39,6 +39,23 @@ export const NEHEMIAH_11: RichChapterContent = {
       url: 'https://www.sefaria.org/',
       description: 'Sefaria Hebrew texts on Torah readings and covenant renewal.',
     },
+    {
+      id: 'sefaria-nehemiah-11',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Nehemiah 11 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Nehemiah.11',
+      description: 'The Hebrew text of Nehemiah 11 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-nehemiah-overview-11',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Nehemiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/nehemiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Nehemiah.',
+    },
+
   ],
 
   sections: [
@@ -96,7 +113,7 @@ export const NEHEMIAH_11: RichChapterContent = {
           kind: 'commentary',
           id: 'nehemiah-blessed',
           html:
-            'The people &ldquo;blessed&rdquo; those who volunteered — a significant gesture. In Hebrew culture, blessing is not mere words of approval; it is a transfer of goodwill, a covering of favor. The community that will not move honors those who will.',
+            'The people &ldquo;blessed&rdquo; those who volunteered — a significant gesture. In Hebrew culture, blessing is not mere words of approval; it is a transfer of goodwill, a covering of favor. The community that will not move honors those who will[res:sefaria-nehemiah-11][res:bibleodyssey-nehemiah-overview-11].',
         },
         {
           kind: 'commentary',

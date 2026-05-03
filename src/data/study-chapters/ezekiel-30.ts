@@ -59,7 +59,7 @@ export const EZEKIEL_30: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek30-day-of-lord',
-          html: '"The day of the Lord is near, a cloudy day; it shall be the time of the heathen." The prophecy against Egypt is situated within the larger frame of the Day of the Lord—God&apos;s ultimate judgment of all nations. The clouds are a sign of God&apos;s presence, but also of judgment. What clouds over Egypt is the coming reckoning[res:tyre-archaeology].',
+          html: '"The day of the Lord is near, a cloudy day; it shall be the time of the heathen." The prophecy against Egypt is situated within the larger frame of the Day of the Lord—God&apos;s ultimate judgment of all nations. The clouds are a sign of God&apos;s presence, but also of judgment. What clouds over Egypt is the coming reckoning[res:tyre-archaeology][res:sefaria-ezekiel-30].',
         },
         {
           kind: 'commentary',
@@ -150,6 +150,15 @@ export const EZEKIEL_30: RichChapterContent = {
       url: 'https://www.imj.org.il/en',
       description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
     }
+    {
+      id: 'sefaria-ezekiel-30',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 30 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.30',
+      description: 'The Hebrew text of Ezekiel 30 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

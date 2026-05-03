@@ -74,7 +74,7 @@ export const JEREMIAH_29: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer29-build',
-          html: 'Jeremiah tells the exiles not to despair, not to mark time, not to wait passively for return. Instead, build houses, plant gardens, marry, have children. Live as though you are staying. This is the wisdom of exile: not to reject your circumstances but to embrace them, to live fully within them[res:babylonian-chronicle].',
+          html: 'Jeremiah tells the exiles not to despair, not to mark time, not to wait passively for return. Instead, build houses, plant gardens, marry, have children. Live as though you are staying. This is the wisdom of exile: not to reject your circumstances but to embrace them, to live fully within them[res:babylonian-chronicle][res:sefaria-jeremiah-29].',
         },
         {
           kind: 'commentary',
@@ -323,5 +323,14 @@ export const JEREMIAH_29: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
       description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
     }
+    {
+      id: 'sefaria-jeremiah-29',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 29 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.29',
+      description: 'The Hebrew text of Jeremiah 29 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 };

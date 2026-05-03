@@ -53,7 +53,7 @@ export const DANIEL_5: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel5-didst-know',
-          html: 'Daniel does not mince words. He speaks the truth to the king with the directness of a prophet. Belshazzar knew what had happened to his father Nebuchadnezzar. He had heard the story of the king whose reason left him, who ate grass like the beasts until he lifted his eyes to heaven and acknowledged God&apos;s sovereignty. And yet, knowing this, Belshazzar has not humbled his heart. Instead, he has lifted up himself against the Lord of heaven. He has taken the vessels from God&apos;s house and drunk wine in them while praising gods of silver and gold, of brass and iron, of wood and stone—things that cannot see, hear, or know[res:daniel-revelation-intertextual].',
+          html: 'Daniel does not mince words. He speaks the truth to the king with the directness of a prophet. Belshazzar knew what had happened to his father Nebuchadnezzar. He had heard the story of the king whose reason left him, who ate grass like the beasts until he lifted his eyes to heaven and acknowledged God&apos;s sovereignty. And yet, knowing this, Belshazzar has not humbled his heart. Instead, he has lifted up himself against the Lord of heaven. He has taken the vessels from God&apos;s house and drunk wine in them while praising gods of silver and gold, of brass and iron, of wood and stone—things that cannot see, hear, or know[res:daniel-revelation-intertextual][res:sefaria-daniel-5].',
         },
         {
           kind: 'hebrew',
@@ -144,6 +144,15 @@ export const DANIEL_5: RichChapterContent = {
       url: 'https://intertextual.bible/text/daniel-7/revelation-13',
       description: 'Side-by-side comparison of Daniel&apos;s apocalyptic visions and their NT fulfillment.',
     }
+    {
+      id: 'sefaria-daniel-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Daniel 5 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Daniel.5',
+      description: 'The Hebrew text of Daniel 5 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

@@ -44,6 +44,23 @@ export const CHRONICLES_1_17: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Artifacts and inscriptions illuminating the Davidic monarchy and administration.',
     },
+    {
+      id: 'sefaria-1-chronicles-17',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 17 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.17',
+      description: 'The Hebrew text of 1 Chronicles 17 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-1-chronicles-overview-17',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -99,7 +116,7 @@ export const CHRONICLES_1_17: RichChapterContent = {
           kind: 'commentary',
           id: 'c-heart-nathan',
           html:
-            'Nathan the prophet hears David&apos;s thought and blesses it without hesitation. "Do all that is in your heart. God is with you." A pastoral affirmation—a man of God affirming what seems like a good man&apos;s good intention. But Nathan, for all his faithfulness, has not asked the Lord. He has only answered David.',
+            'Nathan the prophet hears David&apos;s thought and blesses it without hesitation. "Do all that is in your heart. God is with you." A pastoral affirmation—a man of God affirming what seems like a good man&apos;s good intention. But Nathan, for all his faithfulness, has not asked the Lord. He has only answered David[res:sefaria-1-chronicles-17][res:bibleodyssey-1-chronicles-overview-17].',
         },
 
         {

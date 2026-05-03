@@ -72,7 +72,7 @@ export const ISAIAH_28: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah28-pride',
           html:
-            'The oracle opens with judgment on pride—the crown of pride worn by the drunkards of Ephraim. Their glorious beauty is "a fading flower," something that appears grand but withers. Their trust is in wine, in indulgence, in the false confidence that comes from excess. Yet all of it is passing, fragile, unsustainable.',
+            'The oracle opens with judgment on pride—the crown of pride worn by the drunkards of Ephraim. Their glorious beauty is "a fading flower," something that appears grand but withers. Their trust is in wine, in indulgence, in the false confidence that comes from excess. Yet all of it is passing, fragile, unsustainable[res:sefaria-isaiah-28-v1][res:bibleodyssey-isaiah-overview-28].',
         },
         {
           kind: 'commentary',
@@ -216,6 +216,23 @@ export const ISAIAH_28: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.28',
       description: 'Sefaria open-access source text and translations for Isaiah 28.',
     },
+    {
+      id: 'sefaria-isaiah-28-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 28 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.28',
+      description: 'The Hebrew text of Isaiah 28 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-28',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

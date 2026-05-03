@@ -41,7 +41,7 @@ export const ISAIAH_62: RichChapterContent = {
           kind: 'commentary',
           id: 'isa62-peace',
           html:
-            'The prophet declares: For Zion\'s sake, I will not hold my peace. I will not rest. This is passionate, persistent intercession. The prophet\'s silence would be betrayal. He cries out until Zion\'s righteousness shines forth as brightness, until her salvation burns as a lamp.',
+            'The prophet declares: For Zion\'s sake, I will not hold my peace. I will not rest. This is passionate, persistent intercession. The prophet\'s silence would be betrayal. He cries out until Zion\'s righteousness shines forth as brightness, until her salvation burns as a lamp[res:sefaria-isaiah-62-v1][res:bibleodyssey-isaiah-overview-62].',
         },
         {
           kind: 'hebrew',
@@ -152,6 +152,23 @@ export const ISAIAH_62: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.62',
       description: 'Sefaria open-access source text and translations for Isaiah 62.',
     },
+    {
+      id: 'sefaria-isaiah-62-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 62 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.62',
+      description: 'The Hebrew text of Isaiah 62 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-62',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

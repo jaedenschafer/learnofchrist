@@ -36,6 +36,15 @@ export const JOEL_2: RichChapterContent = {
       url: 'https://intertextual.bible/text/joel-2.28/acts-2.17',
       description: 'Intertextual connection showing how Joel&apos;s prophecy of God pouring out His Spirit is fulfilled at Pentecost.',
     },
+    {
+      id: 'sefaria-joel-2-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Joel 2 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Joel.2',
+      description: 'The Hebrew text of Joel 2 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -86,7 +95,7 @@ export const JOEL_2: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'The nations will gather before God&apos;s judgment. All flesh will see His salvation or His judgment. The Day of the Lord will come. This is not meant to terrify into despair, but to awaken into repentance. The only way to abide that day is to turn to God now.',
+            'The nations will gather before God&apos;s judgment. All flesh will see His salvation or His judgment. The Day of the Lord will come. This is not meant to terrify into despair, but to awaken into repentance. The only way to abide that day is to turn to God now[res:sefaria-joel-2-v1].',
         },
         {
           kind: 'reflection',

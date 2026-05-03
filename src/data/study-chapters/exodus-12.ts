@@ -241,7 +241,7 @@ export const EXODUS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'ex12-passover-rules',
           html:
-            'The Passover meal has its own rules — eaten in one house, no bone broken, no stranger sharing. The night that delivered Israel becomes a sacrament with edges.',
+            'The Passover meal has its own rules — eaten in one house, no bone broken, no stranger sharing. The night that delivered Israel becomes a sacrament with edges[res:sefaria-exodus-12].',
         },
         {
           kind: 'scripture',
@@ -288,6 +288,15 @@ export const EXODUS_12: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/covenant/',
       description: 'The role of blood in covenant ratification.',
     },
+    {
+      id: 'sefaria-exodus-12',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 12 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.12',
+      description: 'The Hebrew text of Exodus 12 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

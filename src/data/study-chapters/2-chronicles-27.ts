@@ -38,6 +38,23 @@ export const CHRONICLES_2_27: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
     },
+    {
+      id: 'sefaria-2-chronicles-27',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 27 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.27',
+      description: 'The Hebrew text of 2 Chronicles 27 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-27',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -80,7 +97,7 @@ export const CHRONICLES_2_27: RichChapterContent = {
           kind: 'commentary',
           id: 'jotham-like-uzziah',
           html:
-            'Jotham follows his father&apos;s example of doing right in the sight of the Lord. This is no departure; it is continuity. The kingdom does not need revolution. It needs the same steadiness, the same pattern of devotion and reform that Uzziah gave it &mdash; or at least, the part of Uzziah that was faithful.',
+            'Jotham follows his father&apos;s example of doing right in the sight of the Lord. This is no departure; it is continuity. The kingdom does not need revolution. It needs the same steadiness, the same pattern of devotion and reform that Uzziah gave it &mdash; or at least, the part of Uzziah that was faithful[res:sefaria-2-chronicles-27][res:bibleodyssey-2-chronicles-overview-27].',
         },
         {
           kind: 'commentary',

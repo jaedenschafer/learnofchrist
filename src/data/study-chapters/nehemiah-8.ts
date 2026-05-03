@@ -41,6 +41,23 @@ export const NEHEMIAH_8: RichChapterContent = {
       url: 'https://www.sefaria.org/',
       description: 'Sefaria Hebrew texts on Torah readings and covenant renewal.',
     },
+    {
+      id: 'sefaria-nehemiah-8',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Nehemiah 8 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Nehemiah.8',
+      description: 'The Hebrew text of Nehemiah 8 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-nehemiah-overview-8',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Nehemiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/nehemiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Nehemiah.',
+    },
+
   ],
 
   sections: [
@@ -79,7 +96,7 @@ export const NEHEMIAH_8: RichChapterContent = {
           kind: 'commentary',
           id: 'water-gate-gathering',
           html:
-            'The Water Gate is mentioned specifically. In the ancient world, water gates were places of access, of entry, of life itself. Here, at the threshold of this gate, the people gather to receive the water of the word — the living word that will sustain them spiritually as the physical water sustained them physically.',
+            'The Water Gate is mentioned specifically. In the ancient world, water gates were places of access, of entry, of life itself. Here, at the threshold of this gate, the people gather to receive the water of the word — the living word that will sustain them spiritually as the physical water sustained them physically[res:sefaria-nehemiah-8][res:bibleodyssey-nehemiah-overview-8].',
         },
         {
           kind: 'hebrew',

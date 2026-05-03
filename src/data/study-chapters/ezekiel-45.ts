@@ -38,7 +38,7 @@ export const EZEKIEL_45: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel45-sacred',
-          html: 'The sacred portion is listed first. Before the prince&apos;s land, before the people&apos;s inheritance, God&apos;s sanctuary and the priests&apos; dwellings are allocated. This is the proper order of priorities: God first, then His servants, then the people[res:bibleodyssey-ezekiel].',
+          html: 'The sacred portion is listed first. Before the prince&apos;s land, before the people&apos;s inheritance, God&apos;s sanctuary and the priests&apos; dwellings are allocated. This is the proper order of priorities: God first, then His servants, then the people[res:bibleodyssey-ezekiel][res:sefaria-ezekiel-45].',
         },
         {
           kind: 'commentary',
@@ -133,6 +133,15 @@ export const EZEKIEL_45: RichChapterContent = {
       url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
       description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
     }
+    {
+      id: 'sefaria-ezekiel-45',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 45 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.45',
+      description: 'The Hebrew text of Ezekiel 45 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

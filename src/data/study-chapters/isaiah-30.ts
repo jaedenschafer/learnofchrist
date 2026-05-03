@@ -59,7 +59,7 @@ export const ISAIAH_30: RichChapterContent = {
           kind: 'commentary',
           id: 'isa30-split-2',
           html:
-            'The people tell the prophets to be silent. They want smooth words, not truth. They want comfort, not challenge. They want the Holy One removed from their presence. Yet the God they dismiss will not be dismissed. Truth cannot be muted.',
+            'The people tell the prophets to be silent. They want smooth words, not truth. They want comfort, not challenge. They want the Holy One removed from their presence. Yet the God they dismiss will not be dismissed. Truth cannot be muted[res:sefaria-isaiah-30-v1][res:bibleodyssey-isaiah-overview-30].',
         },
         {
           kind: 'scripture',
@@ -205,6 +205,23 @@ export const ISAIAH_30: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.30',
       description: 'Sefaria open-access source text and translations for Isaiah 30.',
     },
+    {
+      id: 'sefaria-isaiah-30-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 30 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.30',
+      description: 'The Hebrew text of Isaiah 30 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-30',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

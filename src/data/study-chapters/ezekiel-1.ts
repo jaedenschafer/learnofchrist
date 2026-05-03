@@ -40,7 +40,7 @@ export const EZEKIEL_1: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk1-vision-opening',
-          html: 'Ezekiel&apos;s vision arrives as judgment falls on Judah. He is in exile, stripped of temple, home, and the visible signs of God&apos;s presence. Yet it is precisely here, in this moment of national collapse, that heaven opens. The vision comes not with gentle whisper but with whirlwind and cloud and fire. God does not leave His prophet comfortless in captivity. He appears[res:sefaria-ezekiel].',
+          html: 'Ezekiel&apos;s vision arrives as judgment falls on Judah. He is in exile, stripped of temple, home, and the visible signs of God&apos;s presence. Yet it is precisely here, in this moment of national collapse, that heaven opens. The vision comes not with gentle whisper but with whirlwind and cloud and fire. God does not leave His prophet comfortless in captivity. He appears[res:sefaria-ezekiel][res:sefaria-ezekiel-1].',
         },
         {
           kind: 'hebrew',
@@ -128,6 +128,15 @@ export const EZEKIEL_1: RichChapterContent = {
       url: 'https://www.imj.org.il/en',
       description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
     }
+    {
+      id: 'sefaria-ezekiel-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 1 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.1',
+      description: 'The Hebrew text of Ezekiel 1 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

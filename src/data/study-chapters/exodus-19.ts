@@ -54,6 +54,15 @@ export const EXODUS_19: RichChapterContent = {
       url: 'https://www.sefaria.org/Exodus.19',
       description: 'Hebrew text on covenantal election.',
     },
+    {
+      id: 'sefaria-exodus-19',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 19 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.19',
+      description: 'The Hebrew text of Exodus 19 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -99,7 +108,7 @@ export const EXODUS_19: RichChapterContent = {
           kind: 'commentary',
           id: 'c-desert-arrived',
           html:
-            'Three months. Long enough for thirst to set in, for the newness of freedom to wear thin, for the people to wonder if Moses had lost his mind leading them into a wasteland. They have no city. They have no home yet. They have only the word that God would be with them and the cloud that moves ahead. Then the cloud stops. They pitch camp. And what comes next is not rest — it is a call[res:sinai].',
+            'Three months. Long enough for thirst to set in, for the newness of freedom to wear thin, for the people to wonder if Moses had lost his mind leading them into a wasteland. They have no city. They have no home yet. They have only the word that God would be with them and the cloud that moves ahead. Then the cloud stops. They pitch camp. And what comes next is not rest — it is a call[res:sinai][res:sefaria-exodus-19].',
         },
         {
           kind: 'carry',

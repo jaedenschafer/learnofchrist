@@ -44,7 +44,7 @@ export const JEREMIAH_7: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer7-amend-dwell',
-          html: 'The condition is clear and concrete: amend your ways, execute justice, protect the vulnerable, turn from other gods. If you do this, you will dwell in the land. The covenant promise hinges on the people&apos;s choice[res:bibleodyssey-jeremiah].',
+          html: 'The condition is clear and concrete: amend your ways, execute justice, protect the vulnerable, turn from other gods. If you do this, you will dwell in the land. The covenant promise hinges on the people&apos;s choice[res:bibleodyssey-jeremiah][res:sefaria-jeremiah-7].',
         },
         {
           kind: 'scripture',
@@ -177,6 +177,15 @@ export const JEREMIAH_7: RichChapterContent = {
       url: 'https://www.sefaria.org/Jeremiah',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
     }
+    {
+      id: 'sefaria-jeremiah-7',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 7 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.7',
+      description: 'The Hebrew text of Jeremiah 7 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

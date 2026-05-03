@@ -45,6 +45,15 @@ export const HOSEA_2: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
       description: 'Thematic study of how God pursues unfaithful Israel and restores the covenant relationship.',
     },
+    {
+      id: 'sefaria-hosea-2-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 2 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Hosea.2',
+      description: 'The Hebrew text of Hosea 2 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -87,7 +96,7 @@ export const HOSEA_2: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea2-lovers',
           html:
-            'Israel says, "I will go after my lovers, that give me my bread and my water, my wool and my flax." She credits the false gods with her provision. She does not see that it was God who gave her the grain and the wine. She runs after Baals, fertility deities, imagining they sustain her. This is the blindness of idolatry: to receive every good thing from God and attribute it to demons.',
+            'Israel says, "I will go after my lovers, that give me my bread and my water, my wool and my flax." She credits the false gods with her provision. She does not see that it was God who gave her the grain and the wine. She runs after Baals, fertility deities, imagining they sustain her. This is the blindness of idolatry: to receive every good thing from God and attribute it to demons[res:sefaria-hosea-2-v1].',
         },
         {
           kind: 'hebrew',

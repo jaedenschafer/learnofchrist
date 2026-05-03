@@ -43,6 +43,23 @@ export const CHRONICLES_2_6: RichChapterContent = {
       url: 'https://www.britishmuseum.org/collection/objects/w3679',
       description: 'Ancient Persian cylinder decree allowing return from exile and temple rebuilding.',
     },
+    {
+      id: 'sefaria-2-chronicles-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 6 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.6',
+      description: 'The Hebrew text of 2 Chronicles 6 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-6',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -94,7 +111,7 @@ export const CHRONICLES_2_6: RichChapterContent = {
           kind: 'commentary',
           id: '2c6-blessing-fulfilled',
           html:
-            'Solomon turns and blesses the people. He recounts the covenant promise: that God spoke to David, and that David longed to build a house, but that God chose Solomon, his son, to build it. Every word God spoke has been fulfilled. The promise made in secret, in the anointing of a shepherd boy, now stands visible before all Israel in stone and gold and cedar.',
+            'Solomon turns and blesses the people. He recounts the covenant promise: that God spoke to David, and that David longed to build a house, but that God chose Solomon, his son, to build it. Every word God spoke has been fulfilled. The promise made in secret, in the anointing of a shepherd boy, now stands visible before all Israel in stone and gold and cedar[res:sefaria-2-chronicles-6][res:bibleodyssey-2-chronicles-overview-6].',
         },
         {
           kind: 'scripture',

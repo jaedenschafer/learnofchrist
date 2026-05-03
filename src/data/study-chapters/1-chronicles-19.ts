@@ -43,6 +43,23 @@ export const CHRONICLES_1_19: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Artifacts and inscriptions illuminating the Davidic monarchy and administration.',
     },
+    {
+      id: 'sefaria-1-chronicles-19',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 19 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.19',
+      description: 'The Hebrew text of 1 Chronicles 19 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-1-chronicles-overview-19',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -87,7 +104,7 @@ export const CHRONICLES_1_19: RichChapterContent = {
           kind: 'commentary',
           id: 'counselors-suspicion',
           html:
-            'But Hanun listens to his counselors, men who see the world through the lens of suspicion. They argue that David&apos;s messengers are spies, come to survey the city and plan an overthrow. In their eyes, diplomatic kindness is a disguise for conquest. They convince Hanun that mercy is a trap. What they cannot imagine is that a powerful king might simply be honoring a debt of gratitude.',
+            'But Hanun listens to his counselors, men who see the world through the lens of suspicion. They argue that David&apos;s messengers are spies, come to survey the city and plan an overthrow. In their eyes, diplomatic kindness is a disguise for conquest. They convince Hanun that mercy is a trap. What they cannot imagine is that a powerful king might simply be honoring a debt of gratitude[res:sefaria-1-chronicles-19][res:bibleodyssey-1-chronicles-overview-19].',
         },
         {
           kind: 'hebrew',

@@ -73,7 +73,7 @@ export const ISAIAH_46: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah46-idols-burden',
           html:
-            'The imagery is vivid and contemptuous. The idols of Babylon—Bel and Nebo—are being loaded onto beasts and transported. The beasts are weary. The idols are heavy. "They could not deliver the burden, and themselves are gone into captivity." The idols cannot even save themselves, let alone those who carry them. This is the absurdity of idolatry: trusting in things that must be carried by force.',
+            'The imagery is vivid and contemptuous. The idols of Babylon—Bel and Nebo—are being loaded onto beasts and transported. The beasts are weary. The idols are heavy. "They could not deliver the burden, and themselves are gone into captivity." The idols cannot even save themselves, let alone those who carry them. This is the absurdity of idolatry: trusting in things that must be carried by force[res:sefaria-isaiah-46-v1].',
         },
         {
           kind: 'hebrew',
@@ -140,6 +140,15 @@ export const ISAIAH_46: RichChapterContent = {
       url: 'https://intertextual.bible/',
       description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
     },
+    {
+      id: 'sefaria-isaiah-46-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 46 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.46',
+      description: 'The Hebrew text of Isaiah 46 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

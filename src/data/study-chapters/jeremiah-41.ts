@@ -37,7 +37,7 @@ export const JEREMIAH_41: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer41-murder',
-          html: 'Ishmael kills Gedaliah while eating bread with him—a violation of the hospitality covenant, a betrayal of the meal shared. This is not a political dispute. It is treachery. The man of royal blood resents serving under a commoner, and he acts to reclaim power. The cost is the stability of the remnant and the lives of all Gedaliah&apos;s supporters[res:babylonian-chronicle].',
+          html: 'Ishmael kills Gedaliah while eating bread with him—a violation of the hospitality covenant, a betrayal of the meal shared. This is not a political dispute. It is treachery. The man of royal blood resents serving under a commoner, and he acts to reclaim power. The cost is the stability of the remnant and the lives of all Gedaliah&apos;s supporters[res:babylonian-chronicle][res:sefaria-jeremiah-41].',
         },
         {
           kind: 'commentary',
@@ -84,6 +84,15 @@ export const JEREMIAH_41: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
       description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
     }
+    {
+      id: 'sefaria-jeremiah-41',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 41 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.41',
+      description: 'The Hebrew text of Jeremiah 41 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: false,

@@ -63,7 +63,7 @@ export const ISAIAH_58: RichChapterContent = {
           kind: 'commentary',
           id: 'isa58-cry',
           html:
-            'God tells the prophet: Cry aloud. Do not spare. Lift up your voice like a trumpet. Show the people their transgression. The people come to God with their fasts, seeking knowledge of His ways, asking for the ordinances of justice. But they practice the opposite. They quarrel, they oppress their workers, they are unjust.',        },
+            'God tells the prophet: Cry aloud. Do not spare. Lift up your voice like a trumpet. Show the people their transgression. The people come to God with their fasts, seeking knowledge of His ways, asking for the ordinances of justice. But they practice the opposite. They quarrel, they oppress their workers, they are unjust[res:sefaria-isaiah-58-v1][res:bibleodyssey-isaiah-overview-58].',        },
         {
           kind: 'commentary',
           id: 'isa58-fast',
@@ -156,6 +156,23 @@ export const ISAIAH_58: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.58',
       description: 'Sefaria open-access source text and translations for Isaiah 58.',
     },
+    {
+      id: 'sefaria-isaiah-58-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 58 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.58',
+      description: 'The Hebrew text of Isaiah 58 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-58',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

@@ -41,6 +41,23 @@ export const CHRONICLES_1_14: RichChapterContent = {
       url: 'https://www.imj.org.il/',
       description: 'Museum exhibits and scholarly materials on the Ark and temple worship.',
     },
+    {
+      id: 'sefaria-1-chronicles-14',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 14 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.14',
+      description: 'The Hebrew text of 1 Chronicles 14 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-1-chronicles-overview-14',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -76,7 +93,7 @@ export const CHRONICLES_1_14: RichChapterContent = {
           kind: 'commentary',
           id: 'c14-lifted-up',
           html:
-            'David&apos;s kingdom is "lifted up on high" — but notice the reason given: "because of his people Israel." The kingdom&apos;s exaltation is not David&apos;s personal advancement. It is the lifting up of the whole people of God through the anointed king. This is a theological principle that will echo through David&apos;s entire reign: the king is exalted so that his people may be exalted. His strength serves their flourishing.',
+            'David&apos;s kingdom is "lifted up on high" — but notice the reason given: "because of his people Israel." The kingdom&apos;s exaltation is not David&apos;s personal advancement. It is the lifting up of the whole people of God through the anointed king. This is a theological principle that will echo through David&apos;s entire reign: the king is exalted so that his people may be exalted. His strength serves their flourishing[res:sefaria-1-chronicles-14][res:bibleodyssey-1-chronicles-overview-14].',
         },
         {
           kind: 'hebrew',

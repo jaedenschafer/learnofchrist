@@ -50,6 +50,15 @@ export const EXODUS_20: RichChapterContent = {
       url: 'https://www.britishmuseum.org/collection/',
       description: 'Ancient law code parallels and contrasts.',
     },
+    {
+      id: 'sefaria-exodus-20',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 20 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.20',
+      description: 'The Hebrew text of Exodus 20 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -82,7 +91,7 @@ export const EXODUS_20: RichChapterContent = {
           kind: 'commentary',
           id: 'c-god-spake-all',
           html:
-            'God does not send a prophet. He does not write on paper. He speaks <em>directly to all Israel</em> — the text says His voice was heard by the entire nation. This is the only place in scripture where God addresses a whole people at once with the full weight of His presence. No mediator. No filter. For a moment, there is only one voice and three million listeners[res:ten-commandments].',
+            'God does not send a prophet. He does not write on paper. He speaks <em>directly to all Israel</em> — the text says His voice was heard by the entire nation. This is the only place in scripture where God addresses a whole people at once with the full weight of His presence. No mediator. No filter. For a moment, there is only one voice and three million listeners[res:ten-commandments][res:sefaria-exodus-20].',
         },
         {
           kind: 'hebrew',

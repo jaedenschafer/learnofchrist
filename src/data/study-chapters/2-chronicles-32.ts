@@ -39,6 +39,23 @@ export const CHRONICLES_2_32: RichChapterContent = {
       url: 'https://www.imj.org.il/',
       description: 'Iron Age Judah archaeology: water systems, inscriptions, cultic reform artifacts.',
     },
+    {
+      id: 'sefaria-2-chronicles-32',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 32 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.32',
+      description: 'The Hebrew text of 2 Chronicles 32 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-32',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -68,7 +85,7 @@ export const CHRONICLES_2_32: RichChapterContent = {
           kind: 'commentary',
           id: 'stop-fountains',
           html:
-            'Hezekiah&apos;s first response is practical and wise. A besieged city needs water. He cuts off access to the springs and the brook. This is not an act of prayer alone; it is the work of a leader who has counted the cost and decided to prepare the material foundation for trust. Faith and preparation are not opposites. Hezekiah does both.',
+            'Hezekiah&apos;s first response is practical and wise. A besieged city needs water. He cuts off access to the springs and the brook. This is not an act of prayer alone; it is the work of a leader who has counted the cost and decided to prepare the material foundation for trust. Faith and preparation are not opposites. Hezekiah does both[res:sefaria-2-chronicles-32][res:bibleodyssey-2-chronicles-overview-32].',
         },
         {
           kind: 'commentary',

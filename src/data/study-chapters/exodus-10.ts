@@ -52,7 +52,7 @@ export const EXODUS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'ex10-moses-goes',
           html:
-            'The eighth plague is not a surprise to God. He is not scrambling, not reacting. He sends Moses in <em>knowing</em> what Pharaoh will do. This is a God who moves toward an end He has already seen and chosen. The plagues are not arguments meant to convince Pharaoh; they are signs meant to convince Israel[res:plague-darkness].',
+            'The eighth plague is not a surprise to God. He is not scrambling, not reacting. He sends Moses in <em>knowing</em> what Pharaoh will do. This is a God who moves toward an end He has already seen and chosen. The plagues are not arguments meant to convince Pharaoh; they are signs meant to convince Israel[res:plague-darkness][res:sefaria-exodus-10].',
         },
         {
           kind: 'commentary',
@@ -585,6 +585,15 @@ export const EXODUS_10: RichChapterContent = {
       url: 'https://www.metmuseum.org/',
       description: 'Egyptian solar theology and the darkness plague.',
     },
+    {
+      id: 'sefaria-exodus-10',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 10 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.10',
+      description: 'The Hebrew text of Exodus 10 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

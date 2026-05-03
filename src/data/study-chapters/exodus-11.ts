@@ -47,7 +47,7 @@ export const EXODUS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'c-one-more',
           html:
-            'Nine plagues have fallen. The eighth is darkness — the land is black. In that darkness, God tells Moses there is one plague left, and it will end this. Not &ldquo;perhaps it will,&rdquo; but &ldquo;he will let you go.&rdquo; The outcome is already decided. What&apos;s being decided now is only whether Pharaoh chooses to release Israel willingly or whether God&apos;s hand will force his hand[res:passover-lamb].',
+            'Nine plagues have fallen. The eighth is darkness — the land is black. In that darkness, God tells Moses there is one plague left, and it will end this. Not &ldquo;perhaps it will,&rdquo; but &ldquo;he will let you go.&rdquo; The outcome is already decided. What&apos;s being decided now is only whether Pharaoh chooses to release Israel willingly or whether God&apos;s hand will force his hand[res:passover-lamb][res:sefaria-exodus-11].',
         },
         {
           kind: 'hebrew',
@@ -361,6 +361,15 @@ export const EXODUS_11: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/passover/',
       description: 'Study of the Passover rite and theology.',
     },
+    {
+      id: 'sefaria-exodus-11',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 11 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.11',
+      description: 'The Hebrew text of Exodus 11 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

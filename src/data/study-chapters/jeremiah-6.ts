@@ -43,7 +43,7 @@ export const JEREMIAH_6: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer6-siege-call',
-          html: 'The army approaches—they will pitch tents, feed on what they find. "She is wholly oppression"—God Himself permits the siege. Now the pivot: from siege language to God&apos;s appeal[res:babylonian-chronicle].',
+          html: 'The army approaches—they will pitch tents, feed on what they find. "She is wholly oppression"—God Himself permits the siege. Now the pivot: from siege language to God&apos;s appeal[res:babylonian-chronicle][res:sefaria-jeremiah-6].',
         },
         {
           kind: 'scripture',
@@ -176,6 +176,15 @@ export const JEREMIAH_6: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
       description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
     }
+    {
+      id: 'sefaria-jeremiah-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 6 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.6',
+      description: 'The Hebrew text of Jeremiah 6 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

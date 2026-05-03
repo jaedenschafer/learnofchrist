@@ -42,7 +42,7 @@ export const EXODUS_15: RichChapterContent = {
           kind: 'commentary',
           id: 'c-shir',
           html:
-            'The Hebrew word <em>shir</em> (song) comes from a root meaning to sing out, to break into sound. This is not a quiet reflection. This is a people bursting into voice, the sound of someone who has just been delivered from the jaws of death[res:song-moses-full].',
+            'The Hebrew word <em>shir</em> (song) comes from a root meaning to sing out, to break into sound. This is not a quiet reflection. This is a people bursting into voice, the sound of someone who has just been delivered from the jaws of death[res:song-moses-full][res:sefaria-exodus-15].',
         },
         {
           kind: 'hebrew',
@@ -540,6 +540,15 @@ export const EXODUS_15: RichChapterContent = {
       url: 'https://intertextual.bible/',
       description: 'Comparison of theophany and victory poetry.',
     },
+    {
+      id: 'sefaria-exodus-15',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 15 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.15',
+      description: 'The Hebrew text of Exodus 15 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

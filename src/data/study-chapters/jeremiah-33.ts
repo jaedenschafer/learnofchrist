@@ -39,7 +39,7 @@ export const JEREMIAH_33: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer33-call-answer',
-          html: 'God opens an invitation: "Call unto me, and I will answer thee." This is not a God distant from His people, unmoved by exile or destruction. This is a God who desires relationship, who positions Himself to be found by those who seek Him. And He promises that in answering, He will reveal "great and mighty things which thou knowest not." The future He has prepared is beyond what the prophet can imagine from the vantage point of exile[res:bibleodyssey-jeremiah].',
+          html: 'God opens an invitation: "Call unto me, and I will answer thee." This is not a God distant from His people, unmoved by exile or destruction. This is a God who desires relationship, who positions Himself to be found by those who seek Him. And He promises that in answering, He will reveal "great and mighty things which thou knowest not." The future He has prepared is beyond what the prophet can imagine from the vantage point of exile[res:bibleodyssey-jeremiah][res:sefaria-jeremiah-33].',
         },
         {
           kind: 'commentary',
@@ -141,6 +141,15 @@ export const JEREMIAH_33: RichChapterContent = {
       url: 'https://www.imj.org.il/en/collections/lachish-letters',
       description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
     }
+    {
+      id: 'sefaria-jeremiah-33',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 33 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.33',
+      description: 'The Hebrew text of Jeremiah 33 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

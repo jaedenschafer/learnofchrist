@@ -40,7 +40,7 @@ export const JEREMIAH_42: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer42-promise',
-          html: 'The remnant makes a solemn oath: "Whether it be good, or whether it be evil, we will obey the voice of the Lord." This is a statement of radical openness. They are committing to obey not just if God&apos;s answer pleases them, but if it does not. They are inviting God to speak, and they are pledging to listen. It is a beautiful promise[res:lachish-letters].',
+          html: 'The remnant makes a solemn oath: "Whether it be good, or whether it be evil, we will obey the voice of the Lord." This is a statement of radical openness. They are committing to obey not just if God&apos;s answer pleases them, but if it does not. They are inviting God to speak, and they are pledging to listen. It is a beautiful promise[res:lachish-letters][res:sefaria-jeremiah-42].',
         },
         {
           kind: 'commentary',
@@ -93,6 +93,15 @@ export const JEREMIAH_42: RichChapterContent = {
       url: 'https://www.sefaria.org/Jeremiah',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
     }
+    {
+      id: 'sefaria-jeremiah-42',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 42 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.42',
+      description: 'The Hebrew text of Jeremiah 42 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: false,

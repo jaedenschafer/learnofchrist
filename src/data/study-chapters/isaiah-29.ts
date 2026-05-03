@@ -56,7 +56,7 @@ export const ISAIAH_29: RichChapterContent = {
           kind: 'commentary',
           id: 'isa29-split-1',
           html:
-            'The enemy&apos;s attack collapses like a dream. Hunger and thirst that seemed real upon waking prove false. So too the Assyrian threat will vanish. Yet the people themselves are drunken—not from wine, but from God&apos;s "spirit of deep sleep." They cannot see. They cannot hear. Spiritual blindness is the true curse.',
+            'The enemy&apos;s attack collapses like a dream. Hunger and thirst that seemed real upon waking prove false. So too the Assyrian threat will vanish. Yet the people themselves are drunken—not from wine, but from God&apos;s "spirit of deep sleep." They cannot see. They cannot hear. Spiritual blindness is the true curse[res:sefaria-isaiah-29-v1][res:bibleodyssey-isaiah-overview-29].',
         },
         {
           kind: 'scripture',
@@ -225,6 +225,23 @@ export const ISAIAH_29: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.29',
       description: 'Sefaria open-access source text and translations for Isaiah 29.',
     },
+    {
+      id: 'sefaria-isaiah-29-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 29 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.29',
+      description: 'The Hebrew text of Isaiah 29 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-29',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

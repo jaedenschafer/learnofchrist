@@ -52,7 +52,7 @@ export const EZEKIEL_33: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel33-watchman-call',
-          html: 'The watchman is given an impossible-sounding task. He must warn. He must blow the trumpet so loudly, so clearly, that no one can pretend they did not hear. Yet he cannot force anyone to listen. He is responsible for his faithfulness to speak, but not for their choice to listen. This is the tension at the heart of all moral exhortation: you can tell the truth, but you cannot compel belief[res:tyre-archaeology].',
+          html: 'The watchman is given an impossible-sounding task. He must warn. He must blow the trumpet so loudly, so clearly, that no one can pretend they did not hear. Yet he cannot force anyone to listen. He is responsible for his faithfulness to speak, but not for their choice to listen. This is the tension at the heart of all moral exhortation: you can tell the truth, but you cannot compel belief[res:tyre-archaeology][res:sefaria-ezekiel-33].',
         },
         {
           kind: 'commentary',
@@ -148,6 +148,15 @@ export const EZEKIEL_33: RichChapterContent = {
       url: 'https://www.imj.org.il/en',
       description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
     }
+    {
+      id: 'sefaria-ezekiel-33',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 33 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.33',
+      description: 'The Hebrew text of Ezekiel 33 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

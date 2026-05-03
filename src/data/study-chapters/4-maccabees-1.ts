@@ -66,7 +66,7 @@ export const FOURTH_MACCABEES_1: RichChapterContent = {
           kind: 'commentary',
           id: 'philosophy-discipline',
           html:
-            'Philosophy—the love of wisdom—is a discipline. It is not idle speculation. It is the training of the soul. And the highest virtue is not courage or justice alone, but wisdom itself: the knowledge of what is truly good and the will to pursue it.',
+            'Philosophy—the love of wisdom—is a discipline. It is not idle speculation. It is the training of the soul. And the highest virtue is not courage or justice alone, but wisdom itself: the knowledge of what is truly good and the will to pursue it[res:sefaria-4-maccabees-1].',
         },
 
         {
@@ -492,6 +492,15 @@ export const FOURTH_MACCABEES_1: RichChapterContent = {
       url: 'https://www.theoi.com/',
       description: 'Hellenistic Stoic concepts of reason controlling passion and emotion.',
     },
+    {
+      id: 'sefaria-4-maccabees-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '4 Maccabees 1 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/IV_Maccabees.1',
+      description: 'The Hebrew text of 4 Maccabees 1 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {

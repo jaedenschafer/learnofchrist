@@ -44,6 +44,15 @@ export const SECOND_ESDRAS_4: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/evil/',
       description: 'Problem of evil and divine justice in postexilic Jewish thought.',
     },
+    {
+      id: 'sefaria-2-esdras-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Esdras 4 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Esdras.4',
+      description: 'The Hebrew text of 2 Esdras 4 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {
@@ -88,7 +97,7 @@ export const SECOND_ESDRAS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'c-troubled-grievous',
           html:
-            'Notice Uriel&apos;s first words: <em>thy heart is troubled and thy word is grievous.</em> Uriel does not dismiss Ezra&apos;s pain or call his questions presumptuous. He names them. He acknowledges them. But he also sees them clearly: Ezra&apos;s questions arise from a mind that is trying to solve what cannot be solved—at least not at the level at which Ezra is asking.',
+            'Notice Uriel&apos;s first words: <em>thy heart is troubled and thy word is grievous.</em> Uriel does not dismiss Ezra&apos;s pain or call his questions presumptuous. He names them. He acknowledges them. But he also sees them clearly: Ezra&apos;s questions arise from a mind that is trying to solve what cannot be solved—at least not at the level at which Ezra is asking[res:sefaria-2-esdras-4].',
         },
         {
           kind: 'greek',

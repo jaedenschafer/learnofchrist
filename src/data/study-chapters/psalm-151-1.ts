@@ -65,7 +65,7 @@ export const PSALM_151_1: RichChapterContent = {
           kind: 'commentary',
           id: 'ps151-youngest',
           html:
-            'The Hebrew carries both senses: the youngest in the birth order, and the one still &quot;growing up&quot; — not yet a man in the eyes of his brothers or perhaps even his father. While his older brothers might receive commands or inheritance, David is still in formation. He is the one left behind.',
+            'The Hebrew carries both senses: the youngest in the birth order, and the one still &quot;growing up&quot; — not yet a man in the eyes of his brothers or perhaps even his father. While his older brothers might receive commands or inheritance, David is still in formation. He is the one left behind[res:bibleodyssey-psalm-151-overview-1].',
         },
         {
           kind: 'commentary',
@@ -466,6 +466,15 @@ export const PSALM_151_1: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'SBL guide to Septuagintal psalms and additional psalmic traditions.',
     },
+    {
+      id: 'bibleodyssey-psalm-151-overview-1',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalm 151 — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/psalm-151/',
+      description: 'Open-access SBL essay on the historical and literary setting of Psalm 151.',
+    },
+
   ],
 
   bottomShare: {

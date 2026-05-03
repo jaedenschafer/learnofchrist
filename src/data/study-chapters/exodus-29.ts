@@ -49,7 +49,7 @@ export const EXODUS_29: RichChapterContent = {
           kind: 'commentary',
           id: 'exo29-bread-comm',
           html:
-            'Unleavened bread marks this as a set-apart occasion. Leaven in Scripture speaks of corruption, of what works in secret to puff things up. For the priesthood to begin, everything brought must be simple, whole, without the hidden working of leaven. The priests do not offer their own elaborate preparations; they bring what has been made clean[res:priestly-ordination].',
+            'Unleavened bread marks this as a set-apart occasion. Leaven in Scripture speaks of corruption, of what works in secret to puff things up. For the priesthood to begin, everything brought must be simple, whole, without the hidden working of leaven. The priests do not offer their own elaborate preparations; they bring what has been made clean[res:priestly-ordination][res:sefaria-exodus-29].',
         },
         {
           kind: 'hebrew',
@@ -804,6 +804,15 @@ export const EXODUS_29: RichChapterContent = {
       url: 'https://www.sefaria.org/Exodus.29',
       description: 'Hebrew text on ordination ceremony.',
     },
+    {
+      id: 'sefaria-exodus-29',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 29 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.29',
+      description: 'The Hebrew text of Exodus 29 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

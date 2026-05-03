@@ -69,7 +69,7 @@ export const EXODUS_21: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'willing-slave',
-          html: 'The servant could go free. The law offers it. Debt is paid, time is served. But the servant chooses differently: "I love my master, my wife, and my children. I will not go out free." He loves the household more than liberty. So he goes to the door. A choice to stay[res:covenant-code].',
+          html: 'The servant could go free. The law offers it. Debt is paid, time is served. But the servant chooses differently: "I love my master, my wife, and my children. I will not go out free." He loves the household more than liberty. So he goes to the door. A choice to stay[res:covenant-code][res:sefaria-exodus-21].',
         },
         {
           kind: 'hebrew',
@@ -308,6 +308,15 @@ export const EXODUS_21: RichChapterContent = {
       url: 'https://intertextual.bible/',
       description: 'Comparison with Deuteronomy slavery law.',
     },
+    {
+      id: 'sefaria-exodus-21',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 21 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.21',
+      description: 'The Hebrew text of Exodus 21 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

@@ -41,6 +41,23 @@ export const NEHEMIAH_6: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA ongoing dig revealing Iron Age and Persian period Jerusalem structures.',
     },
+    {
+      id: 'sefaria-nehemiah-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Nehemiah 6 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Nehemiah.6',
+      description: 'The Hebrew text of Nehemiah 6 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-nehemiah-overview-6',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Nehemiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/nehemiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Nehemiah.',
+    },
+
   ],
 
   sections: [
@@ -93,7 +110,7 @@ export const NEHEMIAH_6: RichChapterContent = {
           kind: 'commentary',
           id: 'neh6-great-work',
           html:
-            'Nehemiah&apos;s response is a masterpiece of focus. He does not argue about their accusation. He does not enter into negotiation. He simply states: "I am doing a great work." That work — the wall — is the only thing that matters. Not his safety. Not his reputation with his enemies. Not the appearance of willingness to meet. The work.',
+            'Nehemiah&apos;s response is a masterpiece of focus. He does not argue about their accusation. He does not enter into negotiation. He simply states: "I am doing a great work." That work — the wall — is the only thing that matters. Not his safety. Not his reputation with his enemies. Not the appearance of willingness to meet. The work[res:sefaria-nehemiah-6][res:bibleodyssey-nehemiah-overview-6].',
         },
         {
           kind: 'hebrew',

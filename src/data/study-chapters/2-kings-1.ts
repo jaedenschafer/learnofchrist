@@ -48,6 +48,15 @@ export const KINGS_2_1: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/elijah/',
       description: 'SBL entry on Elijah&apos;s confrontations with the kings of Israel and his theological role as fire-bringer.',
     },
+    {
+      id: 'sefaria-2-kings-1-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Kings 1 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Kings.1',
+      description: 'The Hebrew text of 2 Kings 1 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
 
@@ -86,7 +95,7 @@ export const KINGS_2_1: RichChapterContent = {
           kind: 'commentary',
           id: 'covenant-betrayal',
           html:
-            'The angel\'s question cuts to the core issue: "Is it not because there is not a God in Israel?" This is not a complaint about foreign policy or political alliances. This is a covenant crisis. Israel\'s God is present, accessible, proven through generations. Yet Ahaziah bypasses Him to consult a foreign deity. The messengers are not being sent on a diplomatic mission; they are being sent to break covenant.',
+            'The angel\'s question cuts to the core issue: "Is it not because there is not a God in Israel?" This is not a complaint about foreign policy or political alliances. This is a covenant crisis. Israel\'s God is present, accessible, proven through generations. Yet Ahaziah bypasses Him to consult a foreign deity. The messengers are not being sent on a diplomatic mission; they are being sent to break covenant[res:sefaria-2-kings-1-v1].',
         },
         {
           kind: 'carry',

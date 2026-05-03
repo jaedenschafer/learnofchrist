@@ -55,7 +55,7 @@ export const ISAIAH_34: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah34-judgment',
           html:
-            'Isaiah opens with a call to witness: "Come near, ye nations, to hear." All creation is summoned to see what God is about to do. The Lord has indignation against all nations and fury against all their armies. He will utterly destroy them. This is comprehensive. This is final. This is the judgment of God against those who have resisted Him.',
+            'Isaiah opens with a call to witness: "Come near, ye nations, to hear." All creation is summoned to see what God is about to do. The Lord has indignation against all nations and fury against all their armies. He will utterly destroy them. This is comprehensive. This is final. This is the judgment of God against those who have resisted Him[res:sefaria-isaiah-34-v1][res:bibleodyssey-isaiah-overview-34].',
         },
         {
           kind: 'hebrew',
@@ -187,6 +187,23 @@ export const ISAIAH_34: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.34',
       description: 'Sefaria open-access source text and translations for Isaiah 34.',
     },
+    {
+      id: 'sefaria-isaiah-34-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 34 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.34',
+      description: 'The Hebrew text of Isaiah 34 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-34',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

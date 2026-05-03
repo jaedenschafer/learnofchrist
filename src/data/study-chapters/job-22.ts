@@ -40,6 +40,23 @@ export const JOB_22: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-22',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 22 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.22',
+      description: 'The Hebrew text of Job 22 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-22',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -98,7 +115,7 @@ export const JOB_22: RichChapterContent = {
           kind: 'commentary',
           id: 'job22-naked',
           html:
-            'Eliphaz accuses Job of stripping the naked of their clothing. This is a vivid, specific charge. It paints a picture of cruelty—of a man so callous that he robs the defenseless of the very garments on their backs. But the charge is invented. We know from the prologue that Job is righteous. But Eliphaz speaks with such certainty, such detail, that he almost makes the accusation believable. This is how false accusation works: it finds a real sin (robbery of the poor), and then imputes it to an innocent person.',
+            'Eliphaz accuses Job of stripping the naked of their clothing. This is a vivid, specific charge. It paints a picture of cruelty—of a man so callous that he robs the defenseless of the very garments on their backs. But the charge is invented. We know from the prologue that Job is righteous. But Eliphaz speaks with such certainty, such detail, that he almost makes the accusation believable. This is how false accusation works: it finds a real sin (robbery of the poor), and then imputes it to an innocent person[res:sefaria-job-22][res:bibleodyssey-job-overview-22].',
         },
         {
           kind: 'hebrew',

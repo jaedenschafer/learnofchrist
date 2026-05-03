@@ -43,6 +43,23 @@ export const NEHEMIAH_2: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA ongoing dig revealing Iron Age and Persian period Jerusalem structures.',
     },
+    {
+      id: 'sefaria-nehemiah-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Nehemiah 2 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Nehemiah.2',
+      description: 'The Hebrew text of Nehemiah 2 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-nehemiah-overview-2',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Nehemiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/nehemiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Nehemiah.',
+    },
+
   ],
 
   sections: [
@@ -72,7 +89,7 @@ export const NEHEMIAH_2: RichChapterContent = {
           kind: 'commentary',
           id: 'very-sore-afraid',
           html:
-            'Nehemiah is terrified. The king has noticed his sadness. In a court where the monarch&apos;s favor means everything, showing sorrow in the king&apos;s presence is dangerous. A sad servant might mean illness, disloyalty, or hidden grievance. The king could as easily strike Nehemiah as question him. Fear is the natural response. Yet Nehemiah speaks anyway.',
+            'Nehemiah is terrified. The king has noticed his sadness. In a court where the monarch&apos;s favor means everything, showing sorrow in the king&apos;s presence is dangerous. A sad servant might mean illness, disloyalty, or hidden grievance. The king could as easily strike Nehemiah as question him. Fear is the natural response. Yet Nehemiah speaks anyway[res:sefaria-nehemiah-2][res:bibleodyssey-nehemiah-overview-2].',
         },
         {
           kind: 'scripture',

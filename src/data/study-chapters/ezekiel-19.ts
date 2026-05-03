@@ -55,7 +55,7 @@ export const EZEKIEL_19: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek19-lioness',
-          html: 'Jerusalem is a lioness—strong, fertile, capable of bearing and raising warriors. Her cubs are Israel&apos;s princes, her potential kings. She nourished them "among young lions"—in the rough school of power and conflict. And they learned to hunt, to devour, to roar and shake the land. This should be the mark of a strong kingdom: rulers who are fierce enough to protect their people[res:bibleodyssey-ezekiel].',
+          html: 'Jerusalem is a lioness—strong, fertile, capable of bearing and raising warriors. Her cubs are Israel&apos;s princes, her potential kings. She nourished them "among young lions"—in the rough school of power and conflict. And they learned to hunt, to devour, to roar and shake the land. This should be the mark of a strong kingdom: rulers who are fierce enough to protect their people[res:bibleodyssey-ezekiel][res:sefaria-ezekiel-19].',
         },
         {
           kind: 'commentary',
@@ -147,6 +147,15 @@ export const EZEKIEL_19: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/passages/main-articles/ezekiel/',
       description: 'Peer-reviewed SBL entry on the prophet Ezekiel and the Babylonian exile.',
     }
+    {
+      id: 'sefaria-ezekiel-19',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 19 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.19',
+      description: 'The Hebrew text of Ezekiel 19 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

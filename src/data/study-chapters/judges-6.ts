@@ -55,7 +55,7 @@ export const JUDGES_6: RichChapterContent = {
           kind: 'commentary',
           id: 'c-hiding',
           html:
-            'An entire people hiding in mountain caves. This is what the Bible shows us at the low point — Israel has lost not just security but dignity, forced into dens and shadows while Midianite raiders strip the land.',
+            'An entire people hiding in mountain caves. This is what the Bible shows us at the low point — Israel has lost not just security but dignity, forced into dens and shadows while Midianite raiders strip the land[res:sefaria-judges-6-v1].',
         },
 
         {
@@ -757,6 +757,15 @@ export const JUDGES_6: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/gideon/',
       description: 'SBL entry on Gideon as the reluctant warrior whose strength was God&apos;s choosing of the weak.',
     },
+    {
+      id: 'sefaria-judges-6-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Judges 6 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Judges.6',
+      description: 'The Hebrew text of Judges 6 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
 };

@@ -40,7 +40,7 @@ export const ISAIAH_51: RichChapterContent = {
           kind: 'commentary',
           id: 'isa51-rock',
           html:
-            'Isaiah calls the people to look at the rock from which they were hewn, the hole of the pit from which they were dug. Abraham was called alone, a wanderer, and from him God raised up a nation. Sarah, barren, became a mother of multitudes. From insignificant origins, God brought forth a great people.[res:sefaria-isaiah-51] Now, in exile, that same people can remember that God\'s power is not limited by their current straits.',
+            'Isaiah calls the people to look at the rock from which they were hewn, the hole of the pit from which they were dug. Abraham was called alone, a wanderer, and from him God raised up a nation. Sarah, barren, became a mother of multitudes. From insignificant origins, God brought forth a great people.[res:sefaria-isaiah-51] Now, in exile, that same people can remember that God\'s power is not limited by their current straits[res:sefaria-isaiah-51-v1].',
         },
         {
           kind: 'hebrew',
@@ -145,6 +145,15 @@ export const ISAIAH_51: RichChapterContent = {
       url: 'https://intertextual.bible/',
       description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
     },
+    {
+      id: 'sefaria-isaiah-51-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 51 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.51',
+      description: 'The Hebrew text of Isaiah 51 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

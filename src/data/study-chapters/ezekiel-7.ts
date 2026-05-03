@@ -51,7 +51,7 @@ export const EZEKIEL_7: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk7-urgency-final',
-          html: 'The repetition of "the end is come" is not poetic embellishment. It is the breaking through of an urgency that will not be denied. Ezekiel announces what Israel has refused to believe: the end of the age as you have known it. This is not a threat that might be averted. It is a reality that is already approaching, already watchful, already arriving. The day of the Lord — a day Israel once hoped for as a day of vindication — comes instead as a day of terror[res:ezekiel-revelation-intertextual].',
+          html: 'The repetition of "the end is come" is not poetic embellishment. It is the breaking through of an urgency that will not be denied. Ezekiel announces what Israel has refused to believe: the end of the age as you have known it. This is not a threat that might be averted. It is a reality that is already approaching, already watchful, already arriving. The day of the Lord — a day Israel once hoped for as a day of vindication — comes instead as a day of terror[res:ezekiel-revelation-intertextual][res:sefaria-ezekiel-7].',
         },
         {
           kind: 'carry',
@@ -126,6 +126,15 @@ export const EZEKIEL_7: RichChapterContent = {
       url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
       description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
     }
+    {
+      id: 'sefaria-ezekiel-7',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 7 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.7',
+      description: 'The Hebrew text of Ezekiel 7 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: false,

@@ -82,7 +82,7 @@ export const SECOND_ESDRAS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'lord-creator',
           html:
-            'Ezra&apos;s prayer does not begin with complaint. It begins with confession of God&apos;s power and majesty. <em>Thou art the Creator of all things.</em> This is crucial: Ezra comes not as an accuser but as one who affirms God&apos;s sovereignty even as he struggles to understand it. The prayer of lament in Scripture always begins with acknowledgment of who God is.',
+            'Ezra&apos;s prayer does not begin with complaint. It begins with confession of God&apos;s power and majesty. <em>Thou art the Creator of all things.</em> This is crucial: Ezra comes not as an accuser but as one who affirms God&apos;s sovereignty even as he struggles to understand it. The prayer of lament in Scripture always begins with acknowledgment of who God is[res:sefaria-2-esdras-3].',
         },
 
         {
@@ -738,6 +738,15 @@ export const SECOND_ESDRAS_3: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/evil/',
       description: 'Problem of evil and divine justice in postexilic Jewish thought.',
     },
+    {
+      id: 'sefaria-2-esdras-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Esdras 3 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Esdras.3',
+      description: 'The Hebrew text of 2 Esdras 3 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {

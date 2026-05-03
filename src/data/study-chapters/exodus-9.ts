@@ -72,7 +72,7 @@ export const EXODUS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'hand-lord',
           html:
-            'The phrase &ldquo;the hand of the LORD&rdquo; echoes from verse 3 of this chapter and will become a refrain through the rest of Exodus. God&apos;s hand is not distant or impersonal — it is the instrument of His power touching Egypt directly, visibly[res:plague-animals].',
+            'The phrase &ldquo;the hand of the LORD&rdquo; echoes from verse 3 of this chapter and will become a refrain through the rest of Exodus. God&apos;s hand is not distant or impersonal — it is the instrument of His power touching Egypt directly, visibly[res:plague-animals][res:sefaria-exodus-9].',
         },
         {
           kind: 'commentary',
@@ -569,6 +569,15 @@ export const EXODUS_9: RichChapterContent = {
       url: 'https://www.britishmuseum.org/collection/',
       description: 'The sacred bull cult of Egypt challenged.',
     },
+    {
+      id: 'sefaria-exodus-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 9 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.9',
+      description: 'The Hebrew text of Exodus 9 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

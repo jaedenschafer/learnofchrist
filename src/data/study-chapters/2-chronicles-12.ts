@@ -38,6 +38,23 @@ export const CHRONICLES_2_12: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
     },
+    {
+      id: 'sefaria-2-chronicles-12',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 12 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.12',
+      description: 'The Hebrew text of 2 Chronicles 12 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-12',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -60,7 +77,7 @@ export const CHRONICLES_2_12: RichChapterContent = {
           kind: 'commentary',
           id: 'established-forsook',
           html:
-            'Notice the sequence: <em>after</em> he has established the kingdom, <em>after</em> he has strengthened himself, he forsakes the law. This is not the forsaking of a desperate man grasping at survival. This is the forsaking of a secure man, confident in his own power. And when he forsakes, all Israel with him — the spiritual leadership of a nation shapes the whole nation\'s path.',
+            'Notice the sequence: <em>after</em> he has established the kingdom, <em>after</em> he has strengthened himself, he forsakes the law. This is not the forsaking of a desperate man grasping at survival. This is the forsaking of a secure man, confident in his own power. And when he forsakes, all Israel with him — the spiritual leadership of a nation shapes the whole nation\'s path[res:sefaria-2-chronicles-12][res:bibleodyssey-2-chronicles-overview-12].',
         },
         {
           kind: 'hebrew',

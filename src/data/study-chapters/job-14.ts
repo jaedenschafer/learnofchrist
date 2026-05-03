@@ -40,6 +40,23 @@ export const JOB_14: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-14',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 14 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.14',
+      description: 'The Hebrew text of Job 14 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-14',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -69,7 +86,7 @@ export const JOB_14: RichChapterContent = {
           kind: 'commentary',
           id: 'job-flower-cut-down',
           html:
-            '"He cometh forth like a flower, and is cut down"—human life is like the life of a flower. It grows, it blooms, and then it is cut down. There is no permanence. There is no security. The beauty of the flower does not keep it from being cut.',
+            '"He cometh forth like a flower, and is cut down"—human life is like the life of a flower. It grows, it blooms, and then it is cut down. There is no permanence. There is no security. The beauty of the flower does not keep it from being cut[res:sefaria-job-14][res:bibleodyssey-job-overview-14].',
         },
         {
           kind: 'hebrew',

@@ -64,7 +64,7 @@ export const ISAIAH_57: RichChapterContent = {
           kind: 'commentary',
           id: 'isa57-righteous',
           html:
-            'The righteous perish, and no one notices their passing. Yet their death is not a tragedy. They are taken away from evil to come. They enter into peace. This is mercy: to die before seeing greater corruption, to rest in God\'s presence before the judgment.',
+            'The righteous perish, and no one notices their passing. Yet their death is not a tragedy. They are taken away from evil to come. They enter into peace. This is mercy: to die before seeing greater corruption, to rest in God\'s presence before the judgment[res:sefaria-isaiah-57-v1][res:bibleodyssey-isaiah-overview-57].',
         },
         {
           kind: 'commentary',
@@ -166,6 +166,23 @@ export const ISAIAH_57: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.57',
       description: 'Sefaria open-access source text and translations for Isaiah 57.',
     },
+    {
+      id: 'sefaria-isaiah-57-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 57 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.57',
+      description: 'The Hebrew text of Isaiah 57 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-57',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

@@ -34,6 +34,23 @@ export const JOB_36: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Ancient Akkadian dialogue on divine justice, suffering, and retribution.',
     },
+    {
+      id: 'sefaria-job-36',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 36 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.36',
+      description: 'The Hebrew text of Job 36 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-36',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -103,7 +120,7 @@ export const JOB_36: RichChapterContent = {
           kind: 'commentary',
           id: 'job36-opens-ear',
           html:
-            'The central insight: suffering opens the ear. "He openeth also their ear to discipline." When all other voices are silenced, when comfort is stripped away, the soul becomes capable of hearing what it would not otherwise hear. Affliction is the voice of God calling us back, teaching us, showing us the path we have left.',
+            'The central insight: suffering opens the ear. "He openeth also their ear to discipline." When all other voices are silenced, when comfort is stripped away, the soul becomes capable of hearing what it would not otherwise hear. Affliction is the voice of God calling us back, teaching us, showing us the path we have left[res:sefaria-job-36][res:bibleodyssey-job-overview-36].',
         },
         {
           kind: 'commentary',

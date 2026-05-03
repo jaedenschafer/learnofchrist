@@ -55,7 +55,7 @@ export const CHRONICLES_1_22: RichChapterContent = {
         {
           kind: 'commentary',
           html:
-            'David then commands the strangers in the land of Israel — the resident aliens and servants — to gather and to hew wrought stones. The temple is not the work of priests alone. It is the work of a people. The foreigner, the stranger, the one not yet fully incorporated into the congregation — all have a part in the preparation. This prefigures a truth that will reach its fullness in Christ: that the temple of God is built not from one people, but from many peoples brought together in covenant.',
+            'David then commands the strangers in the land of Israel — the resident aliens and servants — to gather and to hew wrought stones. The temple is not the work of priests alone. It is the work of a people. The foreigner, the stranger, the one not yet fully incorporated into the congregation — all have a part in the preparation. This prefigures a truth that will reach its fullness in Christ: that the temple of God is built not from one people, but from many peoples brought together in covenant[res:sefaria-1-chronicles-22][res:bibleodyssey-1-chronicles-overview-22].',
         },
         {
           kind: 'hebrew',
@@ -403,6 +403,23 @@ export const CHRONICLES_1_22: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'British Museum collections on Iron Age Levantine kingdoms and David.',
     },
+    {
+      id: 'sefaria-1-chronicles-22',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 22 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.22',
+      description: 'The Hebrew text of 1 Chronicles 22 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-1-chronicles-overview-22',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
+    },
+
   ],
 
   hasHebrew: true,

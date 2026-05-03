@@ -34,6 +34,23 @@ export const JOB_32: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Ancient Akkadian dialogue on divine justice, suffering, and retribution.',
     },
+    {
+      id: 'sefaria-job-32',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 32 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.32',
+      description: 'The Hebrew text of Job 32 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-32',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -63,7 +80,7 @@ export const JOB_32: RichChapterContent = {
           kind: 'commentary',
           id: 'job32-elihu-wrath',
           html:
-            'Elihu is angry—but notice at whom. He is angry at Job for justifying himself "rather than God." And he is angry at the three friends for condemning Job without being able to answer him. Neither side, in Elihu&apos;s view, has gotten it right. Both Job and his friends have failed to properly honor God&apos;s righteousness.',
+            'Elihu is angry—but notice at whom. He is angry at Job for justifying himself "rather than God." And he is angry at the three friends for condemning Job without being able to answer him. Neither side, in Elihu&apos;s view, has gotten it right. Both Job and his friends have failed to properly honor God&apos;s righteousness[res:sefaria-job-32][res:bibleodyssey-job-overview-32].',
         },
         {
           kind: 'hebrew',

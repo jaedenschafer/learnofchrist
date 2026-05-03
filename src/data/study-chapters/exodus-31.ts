@@ -49,7 +49,7 @@ export const EXODUS_31: RichChapterContent = {
           kind: 'commentary',
           id: 'called-name',
           html:
-            'God does not randomly select. He calls Bezalel by name — even names his father, his grandfather, his tribe. In an age of mass production and faceless work, the Bible insists on this: skill matters. The person matters. God knows your name and the particular thing He made you able to do[res:sabbath-sign].',
+            'God does not randomly select. He calls Bezalel by name — even names his father, his grandfather, his tribe. In an age of mass production and faceless work, the Bible insists on this: skill matters. The person matters. God knows your name and the particular thing He made you able to do[res:sabbath-sign][res:sefaria-exodus-31].',
         },
 
         {
@@ -401,6 +401,15 @@ export const EXODUS_31: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/tablets/',
       description: 'The stone tablets and God&apos;s writing.',
     },
+    {
+      id: 'sefaria-exodus-31',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 31 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.31',
+      description: 'The Hebrew text of Exodus 31 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

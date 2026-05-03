@@ -43,6 +43,23 @@ export const CHRONICLES_1_24: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'British Museum collections on Iron Age Levantine kingdoms and David.',
     },
+    {
+      id: 'sefaria-1-chronicles-24',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 24 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.24',
+      description: 'The Hebrew text of 1 Chronicles 24 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-1-chronicles-overview-24',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -106,7 +123,7 @@ export const CHRONICLES_1_24: RichChapterContent = {
           kind: 'commentary',
           id: 'goral-lot',
           html:
-            'The lots were cast. This is not bureaucratic assignment; it is the invocation of God&apos;s choice. When lots are cast in Scripture, something holy is happening. God chooses through the casting of lots. The course order, the sequence in which families would serve, was determined not by human preference or political advantage, but by the roll of the dice — and in the theology of Israel, by the will of God working through those dice. Each course knew its time was coming, and each knew its time was God-ordained.',
+            'The lots were cast. This is not bureaucratic assignment; it is the invocation of God&apos;s choice. When lots are cast in Scripture, something holy is happening. God chooses through the casting of lots. The course order, the sequence in which families would serve, was determined not by human preference or political advantage, but by the roll of the dice — and in the theology of Israel, by the will of God working through those dice. Each course knew its time was coming, and each knew its time was God-ordained[res:sefaria-1-chronicles-24][res:bibleodyssey-1-chronicles-overview-24].',
         },
         {
           kind: 'carry',

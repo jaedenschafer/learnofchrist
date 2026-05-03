@@ -44,6 +44,15 @@ export const HOSEA_6: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=hosea+6',
       description: 'Intertextual connections between Hosea&apos;s "third day" language and New Testament resurrection theology.',
     },
+    {
+      id: 'sefaria-hosea-6-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 6 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Hosea.6',
+      description: 'The Hebrew text of Hosea 6 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -89,7 +98,7 @@ export const HOSEA_6: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea6-resurrection',
           html:
-            'The imagery of reviving and raising up is resurrection language. "After two days will he revive us: in the third day he will raise us up." The New Testament sees in this language a prophecy of Christ. As Israel is raised on the third day, so Christ is raised on the third day. The resurrection of God&apos;s people is prefigured in the resurrection of Israel.',
+            'The imagery of reviving and raising up is resurrection language. "After two days will he revive us: in the third day he will raise us up." The New Testament sees in this language a prophecy of Christ. As Israel is raised on the third day, so Christ is raised on the third day. The resurrection of God&apos;s people is prefigured in the resurrection of Israel[res:sefaria-hosea-6-v1].',
         },
         {
           kind: 'hebrew',

@@ -39,7 +39,7 @@ export const LAMENTATIONS_5: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'lam5-remember',
-          html: 'The prayer opens with a simple plea: "Remember." God has not forgotten, but the people cry out for remembrance anyway. They want to be seen, to be acknowledged, to have their suffering witnessed by God. They ask God to consider their reproach—the shame and humiliation they have endured[res:bibleodyssey-lament].',
+          html: 'The prayer opens with a simple plea: "Remember." God has not forgotten, but the people cry out for remembrance anyway. They want to be seen, to be acknowledged, to have their suffering witnessed by God. They ask God to consider their reproach—the shame and humiliation they have endured[res:bibleodyssey-lament][res:sefaria-lamentations-5].',
         },
         {
           kind: 'commentary',
@@ -158,5 +158,14 @@ export const LAMENTATIONS_5: RichChapterContent = {
       url: 'https://www.imj.org.il/en/exhibitions/destruction-jerusalem-587',
       description: 'Archaeological evidence of Jerusalem&apos;s destruction by Nebuchadnezzar&apos;s forces.',
     }
+    {
+      id: 'sefaria-lamentations-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Lamentations 5 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Lamentations.5',
+      description: 'The Hebrew text of Lamentations 5 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 };

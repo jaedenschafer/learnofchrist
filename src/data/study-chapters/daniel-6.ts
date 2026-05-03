@@ -55,7 +55,7 @@ export const DANIEL_6: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel6-windows-open',
-          html: 'Daniel knows the decree. He knows the penalty. He knows that his enemies are watching. And he goes home, opens his windows toward Jerusalem, and kneels to pray three times a day as he has always done. This is not defiance for its own sake. This is faithfulness that acknowledges no authority higher than God. Daniel does not hide his prayer. He does not pray secretly to avoid detection. He prays openly, as if the decree did not exist. He has decided, long before this moment, what his answer would be when the choice came between the king and God[res:sefaria-daniel].',
+          html: 'Daniel knows the decree. He knows the penalty. He knows that his enemies are watching. And he goes home, opens his windows toward Jerusalem, and kneels to pray three times a day as he has always done. This is not defiance for its own sake. This is faithfulness that acknowledges no authority higher than God. Daniel does not hide his prayer. He does not pray secretly to avoid detection. He prays openly, as if the decree did not exist. He has decided, long before this moment, what his answer would be when the choice came between the king and God[res:sefaria-daniel][res:sefaria-daniel-6].',
         },
         {
           kind: 'hebrew',
@@ -156,6 +156,15 @@ export const DANIEL_6: RichChapterContent = {
       url: 'https://www.sefaria.org/Daniel',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
     }
+    {
+      id: 'sefaria-daniel-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Daniel 6 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Daniel.6',
+      description: 'The Hebrew text of Daniel 6 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

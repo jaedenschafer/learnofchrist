@@ -35,6 +35,23 @@ export const JOB_28: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-28',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 28 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.28',
+      description: 'The Hebrew text of Job 28 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-28',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -76,7 +93,7 @@ export const JOB_28: RichChapterContent = {
           kind: 'commentary',
           id: 'job28-mining',
           html:
-            'These verses celebrate human ingenuity. Man has learned to search out hidden treasure beneath the earth. He mines silver, extracts gold, brings up iron and brass. He digs into darkness and finds precious stones. He engineers waters and channels. Every tool of human skill and determination is on display. Man is a discoverer, a maker, a revealer of hidden things.',
+            'These verses celebrate human ingenuity. Man has learned to search out hidden treasure beneath the earth. He mines silver, extracts gold, brings up iron and brass. He digs into darkness and finds precious stones. He engineers waters and channels. Every tool of human skill and determination is on display. Man is a discoverer, a maker, a revealer of hidden things[res:sefaria-job-28][res:bibleodyssey-job-overview-28].',
         },
         {
           kind: 'hebrew',

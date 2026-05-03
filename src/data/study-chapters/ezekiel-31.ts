@@ -39,7 +39,7 @@ export const EZEKIEL_31: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel31-cedar',
-          html: 'The prophet does not mock Pharaoh&apos;s power. He acknowledges it. Pharaoh is like a cedar of Lebanon — tall, stately, beautiful. The comparison is not meant to be diminishing. Rather, Ezekiel is saying: look at this height, this majesty, this dominion. And yet, from the perspective of eternity, even the greatest earthly power is like a tree. And trees fall[res:bibleodyssey-ezekiel].',
+          html: 'The prophet does not mock Pharaoh&apos;s power. He acknowledges it. Pharaoh is like a cedar of Lebanon — tall, stately, beautiful. The comparison is not meant to be diminishing. Rather, Ezekiel is saying: look at this height, this majesty, this dominion. And yet, from the perspective of eternity, even the greatest earthly power is like a tree. And trees fall[res:bibleodyssey-ezekiel][res:sefaria-ezekiel-31].',
         },
         {
           kind: 'commentary',
@@ -134,6 +134,15 @@ export const EZEKIEL_31: RichChapterContent = {
       url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
       description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
     }
+    {
+      id: 'sefaria-ezekiel-31',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 31 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.31',
+      description: 'The Hebrew text of Ezekiel 31 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

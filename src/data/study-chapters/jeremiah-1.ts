@@ -43,7 +43,7 @@ export const JEREMIAH_1: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer1-call-hesitation',
-          html: 'Jeremiah moves from his calling as a prophet to his resistance. Commission meets human fear[res:babylonian-chronicle].',
+          html: 'Jeremiah moves from his calling as a prophet to his resistance. Commission meets human fear[res:babylonian-chronicle][res:sefaria-jeremiah-1].',
         },
         {
           kind: 'scripture',
@@ -191,6 +191,15 @@ export const JEREMIAH_1: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
       description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
     }
+    {
+      id: 'sefaria-jeremiah-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 1 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.1',
+      description: 'The Hebrew text of Jeremiah 1 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

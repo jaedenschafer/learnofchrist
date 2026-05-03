@@ -43,6 +43,15 @@ export const FIRST_ESDRAS_3: RichChapterContent = {
       url: 'https://topostext.org/',
       description: 'Archaeological sites of Second Temple Jerusalem and temple reconstruction.',
     },
+    {
+      id: 'sefaria-1-esdras-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Esdras 3 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Esdras.3',
+      description: 'The Hebrew text of 1 Esdras 3 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {
@@ -91,7 +100,7 @@ export const FIRST_ESDRAS_3: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'Notice the rhythm here: a great feast, wine flowing, everyone satisfied and returning home. Then the king, full and drowsy, goes to his bedchamber. Feasts are temporary. Wine&apos;s effects pass. The pleasures that crowd a palace one moment disperse the next. After all the noise, Darius is alone again. And it is in that solitude that the real question begins.',
+            'Notice the rhythm here: a great feast, wine flowing, everyone satisfied and returning home. Then the king, full and drowsy, goes to his bedchamber. Feasts are temporary. Wine&apos;s effects pass. The pleasures that crowd a palace one moment disperse the next. After all the noise, Darius is alone again. And it is in that solitude that the real question begins[res:sefaria-1-esdras-3].',
         },
         {
           kind: 'reflection',

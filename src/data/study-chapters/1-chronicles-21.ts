@@ -39,6 +39,23 @@ export const CHRONICLES_1_21: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Artifacts and inscriptions illuminating the Davidic monarchy and administration.',
     },
+    {
+      id: 'sefaria-1-chronicles-21',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 21 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.21',
+      description: 'The Hebrew text of 1 Chronicles 21 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-1-chronicles-overview-21',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -73,7 +90,7 @@ export const CHRONICLES_1_21: RichChapterContent = {
           kind: 'commentary',
           id: 'chr1-21-provoked',
           html:
-            'The provocation is to number Israel. This is no military census for defense — it is an audit, a counting, a taking of inventory. It is the pride of possession: <em>my</em> people, <em>my</em> strength, <em>my</em> army. David looks at Israel and sees something to be quantified, calculated, owned. In that moment, he has stopped seeing the people as the Lord&apos;s. He sees them as his.',
+            'The provocation is to number Israel. This is no military census for defense — it is an audit, a counting, a taking of inventory. It is the pride of possession: <em>my</em> people, <em>my</em> strength, <em>my</em> army. David looks at Israel and sees something to be quantified, calculated, owned. In that moment, he has stopped seeing the people as the Lord&apos;s. He sees them as his[res:sefaria-1-chronicles-21][res:bibleodyssey-1-chronicles-overview-21].',
         },
         {
           kind: 'hebrew',

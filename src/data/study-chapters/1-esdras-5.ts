@@ -59,7 +59,7 @@ export const FIRST_ESDRAS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'esdras5-gather',
           html:
-            'The call goes out to all who are willing. "Whosoever therefore of you be of his people"—this is not a draft, not a conscription. It is an invitation. Some will stay in exile, comfortable and settled. But those who hear the call, those who long to rebuild worship, they rise up. And those who stay are commanded to help: "let the men of his place help him with gold, and with silver, and gifts." There is no exile where the covenant of mutual aid breaks down.',
+            'The call goes out to all who are willing. "Whosoever therefore of you be of his people"—this is not a draft, not a conscription. It is an invitation. Some will stay in exile, comfortable and settled. But those who hear the call, those who long to rebuild worship, they rise up. And those who stay are commanded to help: "let the men of his place help him with gold, and with silver, and gifts." There is no exile where the covenant of mutual aid breaks down[res:sefaria-1-esdras-5].',
         },
         {
           kind: 'christ',
@@ -417,6 +417,15 @@ export const FIRST_ESDRAS_5: RichChapterContent = {
       url: 'https://www.imj.org.il/',
       description: 'Artifacts from Babylonian Jewish communities and diaspora material culture.',
     },
+    {
+      id: 'sefaria-1-esdras-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Esdras 5 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Esdras.5',
+      description: 'The Hebrew text of 1 Esdras 5 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {

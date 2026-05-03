@@ -49,6 +49,15 @@ export const FIRST_ESDRAS_8: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/temple/',
       description: 'Religious ceremonies and community gathering for sacred space restoration.',
     },
+    {
+      id: 'sefaria-1-esdras-8',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Esdras 8 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Esdras.8',
+      description: 'The Hebrew text of 1 Esdras 8 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {
@@ -116,7 +125,7 @@ export const FIRST_ESDRAS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'genealogy-line',
           html:
-            'The genealogy traces Esdras back through the priestly line to Aaron the chief priest. Esdras is not a stranger but a son of the covenant lineage. He carries within him the memory of sacred service. This is crucial: he comes not as an outsider imposing law, but as one of the people, one whose very blood binds him to God\'s purposes.',
+            'The genealogy traces Esdras back through the priestly line to Aaron the chief priest. Esdras is not a stranger but a son of the covenant lineage. He carries within him the memory of sacred service. This is crucial: he comes not as an outsider imposing law, but as one of the people, one whose very blood binds him to God\'s purposes[res:sefaria-1-esdras-8].',
         },
         {
           kind: 'hebrew',

@@ -43,7 +43,7 @@ export const EZEKIEL_21: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek21-sword',
-          html: 'God draws His sword. The image is stark and terrible. "I will cut off from thee the righteous and the wicked." This is not surgical judgment. This is wholesale judgment—the sword falls indiscriminately on the land. The sword is sharpened for "sore slaughter," burnished so that it glitters in the light. Judgment is not hidden. It is public, visible, terrible in its clarity[res:babylonian-exile-context].',
+          html: 'God draws His sword. The image is stark and terrible. "I will cut off from thee the righteous and the wicked." This is not surgical judgment. This is wholesale judgment—the sword falls indiscriminately on the land. The sword is sharpened for "sore slaughter," burnished so that it glitters in the light. Judgment is not hidden. It is public, visible, terrible in its clarity[res:babylonian-exile-context][res:sefaria-ezekiel-21].',
         },
         {
           kind: 'commentary',
@@ -133,6 +133,15 @@ export const EZEKIEL_21: RichChapterContent = {
       url: 'https://www.sefaria.org/Ezekiel',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
     }
+    {
+      id: 'sefaria-ezekiel-21',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 21 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.21',
+      description: 'The Hebrew text of Ezekiel 21 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

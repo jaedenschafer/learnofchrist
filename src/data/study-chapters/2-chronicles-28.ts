@@ -42,6 +42,23 @@ export const CHRONICLES_2_28: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
     },
+    {
+      id: 'sefaria-2-chronicles-28',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 28 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.28',
+      description: 'The Hebrew text of 2 Chronicles 28 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-28',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -94,7 +111,7 @@ export const CHRONICLES_2_28: RichChapterContent = {
           kind: 'commentary',
           id: '28-molten-images',
           html:
-            'Ahaz makes molten images for Baalim — the plural of Baal, the fertility god of Canaan. The making of these images is itself a violation of the covenant, a breaking of the second commandment. But worse is to follow.',
+            'Ahaz makes molten images for Baalim — the plural of Baal, the fertility god of Canaan. The making of these images is itself a violation of the covenant, a breaking of the second commandment. But worse is to follow[res:sefaria-2-chronicles-28][res:bibleodyssey-2-chronicles-overview-28].',
         },
         {
           kind: 'hebrew',

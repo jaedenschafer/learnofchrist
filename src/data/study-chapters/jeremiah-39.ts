@@ -39,7 +39,7 @@ export const JEREMIAH_39: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer39-fall',
-          html: 'The fall is complete and total. The nine-month siege ends. The city is broken. Zedekiah is captured, brought to Babylon&apos;s king, and forced to watch his sons die before his own eyes are put out. The irony is stark: the king who would not listen to the prophet is made blind. The city that rejected God&apos;s word is burned. Judgment arrives exactly as promised[res:babylonian-chronicle].',
+          html: 'The fall is complete and total. The nine-month siege ends. The city is broken. Zedekiah is captured, brought to Babylon&apos;s king, and forced to watch his sons die before his own eyes are put out. The irony is stark: the king who would not listen to the prophet is made blind. The city that rejected God&apos;s word is burned. Judgment arrives exactly as promised[res:babylonian-chronicle][res:sefaria-jeremiah-39].',
         },
         {
           kind: 'commentary',
@@ -92,6 +92,15 @@ export const JEREMIAH_39: RichChapterContent = {
       url: 'https://www.sefaria.org/Jeremiah',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
     }
+    {
+      id: 'sefaria-jeremiah-39',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 39 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.39',
+      description: 'The Hebrew text of Jeremiah 39 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: false,

@@ -43,7 +43,7 @@ export const EXODUS_33: RichChapterContent = {
           kind: 'commentary',
           id: 'c-depart',
           html:
-            'God is sending Israel out to the land He promised—but notice: He keeps the promise while withdrawing Himself. The gift of land is not cancelled, but His presence is. They will get what they were promised; they will not get what they truly needed[res:glory-presence].',
+            'God is sending Israel out to the land He promised—but notice: He keeps the promise while withdrawing Himself. The gift of land is not cancelled, but His presence is. They will get what they were promised; they will not get what they truly needed[res:glory-presence][res:sefaria-exodus-33].',
         },
         {
           kind: 'scripture',
@@ -642,6 +642,15 @@ export const EXODUS_33: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/theophany/',
       description: 'Study of God&apos;s self-revelation.',
     },
+    {
+      id: 'sefaria-exodus-33',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 33 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.33',
+      description: 'The Hebrew text of Exodus 33 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

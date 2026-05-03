@@ -54,7 +54,7 @@ export const ISAIAH_63: RichChapterContent = {
           kind: 'commentary',
           id: 'isa63-winepress',
           html:
-            'The winepress is a symbol of judgment throughout Scripture. What grapes are to the winepress, enemies are to God\'s judgment. He treads them in anger and fury. Their blood stains His garments. This is divine vengeance, the day when God\'s justice is executed against those who have oppressed His people.',
+            'The winepress is a symbol of judgment throughout Scripture. What grapes are to the winepress, enemies are to God\'s judgment. He treads them in anger and fury. Their blood stains His garments. This is divine vengeance, the day when God\'s justice is executed against those who have oppressed His people[res:sefaria-isaiah-63-v1][res:bibleodyssey-isaiah-overview-63].',
         },
         {
           kind: 'hebrew',
@@ -135,6 +135,23 @@ export const ISAIAH_63: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.63',
       description: 'Sefaria open-access source text and translations for Isaiah 63.',
     },
+    {
+      id: 'sefaria-isaiah-63-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 63 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.63',
+      description: 'The Hebrew text of Isaiah 63 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-63',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

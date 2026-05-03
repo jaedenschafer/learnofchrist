@@ -41,7 +41,7 @@ export const ISAIAH_65: RichChapterContent = {
           kind: 'commentary',
           id: 'isa65-sought',
           html:
-            'God is found of them that sought Him not. This is the essence of grace: we do not earn God\'s presence by seeking. He comes to us when we do not deserve it, when we do not even know to ask. He spreads out His hands all day to a rebellious people. This is persistent, patient love.',
+            'God is found of them that sought Him not. This is the essence of grace: we do not earn God\'s presence by seeking. He comes to us when we do not deserve it, when we do not even know to ask. He spreads out His hands all day to a rebellious people. This is persistent, patient love[res:sefaria-isaiah-65-v1][res:bibleodyssey-isaiah-overview-65].',
         },
         {
           kind: 'hebrew',
@@ -165,6 +165,23 @@ export const ISAIAH_65: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.65',
       description: 'Sefaria open-access source text and translations for Isaiah 65.',
     },
+    {
+      id: 'sefaria-isaiah-65-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 65 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.65',
+      description: 'The Hebrew text of Isaiah 65 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-65',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

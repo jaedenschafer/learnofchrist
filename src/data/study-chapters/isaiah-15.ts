@@ -62,7 +62,7 @@ export const ISAIAH_15: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah15-heart-cry',
           html:
-            'The phrase "My heart shall cry out for Moab" is extraordinary. Isaiah does not distance himself from the suffering he prophesies. He does not stand apart, untouched. His heart cries out. His compassion flows toward those who are facing destruction. This teaches us something about what true prophecy is: it is not cold denunciation from a distance. It is the speaking of hard truth by one whose heart is broken by that truth, who grieves over the judgment, who wishes it were otherwise, yet speaks it because it must be spoken.',
+            'The phrase "My heart shall cry out for Moab" is extraordinary. Isaiah does not distance himself from the suffering he prophesies. He does not stand apart, untouched. His heart cries out. His compassion flows toward those who are facing destruction. This teaches us something about what true prophecy is: it is not cold denunciation from a distance. It is the speaking of hard truth by one whose heart is broken by that truth, who grieves over the judgment, who wishes it were otherwise, yet speaks it because it must be spoken[res:sefaria-isaiah-15-v1].',
         },
         {
           kind: 'christ',
@@ -108,6 +108,15 @@ export const ISAIAH_15: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Archaeological and textual evidence of the nations Isaiah prophesies against.',
     },
+    {
+      id: 'sefaria-isaiah-15-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 15 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.15',
+      description: 'The Hebrew text of Isaiah 15 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

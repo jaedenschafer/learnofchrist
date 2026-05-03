@@ -37,7 +37,7 @@ export const JEREMIAH_48: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer48-cities',
-          html: 'God names specific Moabite cities: Nebo, Kirjaim, Misgab. Each is "spoiled," "confounded," "dismayed." The word is not abstract or distant. It touches real places where real people live. The effect is to make the judgment concrete and inescapable. No city will escape. The valley will perish. The plain will be destroyed. This is comprehensive devastation[res:babylonian-chronicle].',
+          html: 'God names specific Moabite cities: Nebo, Kirjaim, Misgab. Each is "spoiled," "confounded," "dismayed." The word is not abstract or distant. It touches real places where real people live. The effect is to make the judgment concrete and inescapable. No city will escape. The valley will perish. The plain will be destroyed. This is comprehensive devastation[res:babylonian-chronicle][res:sefaria-jeremiah-48].',
         },
         {
           kind: 'carry',
@@ -124,5 +124,14 @@ export const JEREMIAH_48: RichChapterContent = {
       url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
       description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
     }
+    {
+      id: 'sefaria-jeremiah-48',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 48 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.48',
+      description: 'The Hebrew text of Jeremiah 48 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 };

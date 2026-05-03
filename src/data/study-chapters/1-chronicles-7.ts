@@ -41,6 +41,23 @@ export const CHRONICLES_1_7: RichChapterContent = {
       url: 'https://www.sefaria.org/search?q=tribe+israel&tab=text',
       description: 'Sefaria resources on the twelve tribes, genealogies, and territorial divisions.',
     },
+    {
+      id: 'sefaria-1-chronicles-7',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 7 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.7',
+      description: 'The Hebrew text of 1 Chronicles 7 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-1-chronicles-overview-7',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -78,7 +95,7 @@ export const CHRONICLES_1_7: RichChapterContent = {
           kind: 'commentary',
           id: '1chr7-issachar',
           html:
-            'Issachar shows his strength through intelligence and understanding—not mighty in battle, but mighty in wisdom. These six names share a tribe and a tribe&apos;s gift. When Issachar chose to follow David, it was a choice born of discernment, not coercion.',
+            'Issachar shows his strength through intelligence and understanding—not mighty in battle, but mighty in wisdom. These six names share a tribe and a tribe&apos;s gift. When Issachar chose to follow David, it was a choice born of discernment, not coercion[res:sefaria-1-chronicles-7][res:bibleodyssey-1-chronicles-overview-7].',
         },
         {
           kind: 'scripture',

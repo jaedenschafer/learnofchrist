@@ -41,7 +41,7 @@ export const EXODUS_18: RichChapterContent = {
           kind: 'commentary',
           id: 'jethro-context',
           html:
-            'Jethro is not an Israelite. He is a Midianite priest—a Gentile who worships the gods of his people. Yet he hears of God&apos;s work and his heart recognizes the hand of the LORD. Long before Sinai, long before the law, a foreigner comes to faith. This is the pattern that will echo through all of Scripture: God&apos;s covenant people are not the only ones who encounter His reality[res:jethro].',
+            'Jethro is not an Israelite. He is a Midianite priest—a Gentile who worships the gods of his people. Yet he hears of God&apos;s work and his heart recognizes the hand of the LORD. Long before Sinai, long before the law, a foreigner comes to faith. This is the pattern that will echo through all of Scripture: God&apos;s covenant people are not the only ones who encounter His reality[res:jethro][res:sefaria-exodus-18].',
         },
         {
           kind: 'hebrew',
@@ -535,5 +535,14 @@ export const EXODUS_18: RichChapterContent = {
       url: 'https://www.sefaria.org/Exodus.18',
       description: 'Hebrew text and commentary on organizational wisdom.',
     },
+    {
+      id: 'sefaria-exodus-18',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 18 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.18',
+      description: 'The Hebrew text of Exodus 18 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 };

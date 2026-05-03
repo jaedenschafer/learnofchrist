@@ -39,6 +39,23 @@ export const NEHEMIAH_7: RichChapterContent = {
       url: 'https://www.imj.org.il/',
       description: 'Museum exhibits on postexilic Jerusalem walls, gates, and settlement patterns.',
     },
+    {
+      id: 'sefaria-nehemiah-7',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Nehemiah 7 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Nehemiah.7',
+      description: 'The Hebrew text of Nehemiah 7 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-nehemiah-overview-7',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Nehemiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/nehemiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Nehemiah.',
+    },
+
   ],
 
   sections: [
@@ -66,7 +83,7 @@ export const NEHEMIAH_7: RichChapterContent = {
           kind: 'commentary',
           id: 'hananiah-faithful',
           html:
-            'Hananiah receives a designation that is both simple and profound: "he was a faithful man, and feared God above many." In the restored city, leadership flows from faithfulness. Hananiah is not chosen for wealth or military prowess, but for his character — his loyalty to God. He is a man for whom the fear of the Lord shapes every decision.',
+            'Hananiah receives a designation that is both simple and profound: "he was a faithful man, and feared God above many." In the restored city, leadership flows from faithfulness. Hananiah is not chosen for wealth or military prowess, but for his character — his loyalty to God. He is a man for whom the fear of the Lord shapes every decision[res:sefaria-nehemiah-7][res:bibleodyssey-nehemiah-overview-7].',
         },
         {
           kind: 'hebrew',

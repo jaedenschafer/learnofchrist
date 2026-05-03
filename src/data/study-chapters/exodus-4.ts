@@ -48,6 +48,15 @@ export const EXODUS_4: RichChapterContent = {
       url: 'https://www.sefaria.org/Exodus.4',
       description: 'Rabbinic commentary on Moses&apos; signs and objections.',
     },
+    {
+      id: 'sefaria-exodus-4-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 4 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.4',
+      description: 'The Hebrew text of Exodus 4 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -74,7 +83,7 @@ export const EXODUS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'c-not-appeared',
           html:
-            'Moses moves from excuses about himself to a reasonable concern: the people will not recognize the Lord&apos;s word through him. Pharaoh will demand proof. The concern is not cowardice — it is a practical objection. How does the voiceless prove the voice of God? The Lord&apos;s answer is to give him visible signs, miracles that will become the very plagues he will later invoke against Egypt.',
+            'Moses moves from excuses about himself to a reasonable concern: the people will not recognize the Lord&apos;s word through him. Pharaoh will demand proof. The concern is not cowardice — it is a practical objection. How does the voiceless prove the voice of God? The Lord&apos;s answer is to give him visible signs, miracles that will become the very plagues he will later invoke against Egypt[res:sefaria-exodus-4-v1].',
         },
 
         {

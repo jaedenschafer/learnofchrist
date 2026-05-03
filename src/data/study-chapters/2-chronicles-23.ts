@@ -42,6 +42,23 @@ export const CHRONICLES_2_23: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
     },
+    {
+      id: 'sefaria-2-chronicles-23',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 23 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.23',
+      description: 'The Hebrew text of 2 Chronicles 23 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-23',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -88,7 +105,7 @@ export const CHRONICLES_2_23: RichChapterContent = {
           kind: 'commentary',
           id: 'gathering-levites',
           html:
-            'Jehoiada gathers not just soldiers, but Levites from all the cities of Judah, and "the chief of the fathers of Israel." This is a national gathering. The whole congregation comes to Jerusalem, to the house of God. What is happening is not a military seizure but a religious reassembly — the people gathering to remember who they are and whose covenant they belong to.',
+            'Jehoiada gathers not just soldiers, but Levites from all the cities of Judah, and "the chief of the fathers of Israel." This is a national gathering. The whole congregation comes to Jerusalem, to the house of God. What is happening is not a military seizure but a religious reassembly — the people gathering to remember who they are and whose covenant they belong to[res:sefaria-2-chronicles-23][res:bibleodyssey-2-chronicles-overview-23].',
         },
         {
           kind: 'commentary',

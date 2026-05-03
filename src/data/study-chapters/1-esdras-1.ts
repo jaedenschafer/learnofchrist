@@ -57,7 +57,7 @@ export const FIRST_ESDRAS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'passover-scale',
           html:
-            'The numbers are staggering. Even allowing for some textual exaggeration in the retelling (this is the Greek version of the text), the order of magnitude is clear: Josiah gives lavishly. The Passover becomes not a burden imposed by the king but a gift from him. He makes it possible for every household to remember and celebrate.',
+            'The numbers are staggering. Even allowing for some textual exaggeration in the retelling (this is the Greek version of the text), the order of magnitude is clear: Josiah gives lavishly. The Passover becomes not a burden imposed by the king but a gift from him. He makes it possible for every household to remember and celebrate[res:sefaria-1-esdras-1].',
         },
 
         {
@@ -629,6 +629,15 @@ export const FIRST_ESDRAS_1: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/josiah/',
       description: 'Josiah&apos;s reign and religious reform context for Esdras narrative.',
     },
+    {
+      id: 'sefaria-1-esdras-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Esdras 1 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Esdras.1',
+      description: 'The Hebrew text of 1 Esdras 1 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {

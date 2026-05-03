@@ -39,6 +39,23 @@ export const EZRA_3: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA archaeological evidence for post-exilic settlement in Judah.',
     },
+    {
+      id: 'sefaria-ezra-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezra 3 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezra.3',
+      description: 'The Hebrew text of Ezra 3 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-ezra-overview-3',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezra — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/ezra/',
+      description: 'Open-access SBL essay on the historical and literary setting of Ezra.',
+    },
+
   ],
 
   sections: [
@@ -85,7 +102,7 @@ export const EZRA_3: RichChapterContent = {
           kind: 'commentary',
           id: 'ezra3-altar-first',
           html:
-            'Notice the order. Not the temple. Not the walls. First, the altar. The leaders understand that before the building can be rebuilt, the relationship with God must be restored. Daily offerings — morning and evening — mark the rhythm of covenant. They rebuild worship itself.',
+            'Notice the order. Not the temple. Not the walls. First, the altar. The leaders understand that before the building can be rebuilt, the relationship with God must be restored. Daily offerings — morning and evening — mark the rhythm of covenant. They rebuild worship itself[res:sefaria-ezra-3][res:bibleodyssey-ezra-overview-3].',
         },
         {
           kind: 'hebrew',

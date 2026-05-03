@@ -62,7 +62,7 @@ export const ISAIAH_64: RichChapterContent = {
           kind: 'commentary',
           id: 'isa64-rend',
           html:
-            'The prayer opens with an intense longing: Oh that You would rend the heavens! Break through the barrier. Come down. The mountains would flow down at Your presence, as they did at Sinai. The fire that melts rock, that causes waters to boil—this is the fire of God\'s manifest presence.',
+            'The prayer opens with an intense longing: Oh that You would rend the heavens! Break through the barrier. Come down. The mountains would flow down at Your presence, as they did at Sinai. The fire that melts rock, that causes waters to boil—this is the fire of God\'s manifest presence[res:sefaria-isaiah-64-v1][res:bibleodyssey-isaiah-overview-64].',
         },
         {
           kind: 'commentary',
@@ -147,6 +147,23 @@ export const ISAIAH_64: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.64',
       description: 'Sefaria open-access source text and translations for Isaiah 64.',
     },
+    {
+      id: 'sefaria-isaiah-64-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 64 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.64',
+      description: 'The Hebrew text of Isaiah 64 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-64',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

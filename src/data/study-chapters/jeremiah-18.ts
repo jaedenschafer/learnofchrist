@@ -79,7 +79,7 @@ export const JEREMIAH_18: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer18-potter',
-          html: 'The vessel is marred in the potter&apos;s hand, and rather than discarding the clay, the potter reshapes it into a new vessel. This is the image God uses to speak of His work with Israel. The people are the clay; God is the potter. Marring is not final; reshaping is always possible as long as the people remain in the potter&apos;s hand[res:jer31-hebrews-intertextual].',
+          html: 'The vessel is marred in the potter&apos;s hand, and rather than discarding the clay, the potter reshapes it into a new vessel. This is the image God uses to speak of His work with Israel. The people are the clay; God is the potter. Marring is not final; reshaping is always possible as long as the people remain in the potter&apos;s hand[res:jer31-hebrews-intertextual][res:sefaria-jeremiah-18].',
         },
         {
           kind: 'hebrew',
@@ -350,5 +350,14 @@ export const JEREMIAH_18: RichChapterContent = {
       url: 'https://www.imj.org.il/en/collections/lachish-letters',
       description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
     }
+    {
+      id: 'sefaria-jeremiah-18',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 18 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.18',
+      description: 'The Hebrew text of Jeremiah 18 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 };

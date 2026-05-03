@@ -57,7 +57,7 @@ export const JOSHUA_22: RichChapterContent = {
           kind: 'commentary',
           id: 'covenant-keeping',
           html:
-            'The eastern tribes have kept the <em>mishmereth</em> — the charge, the responsibility, the guarding — of God&apos;s commandment. This was the same word used in Genesis 2:15 when Adam was told to "keep" the garden. Responsibility and faithfulness are woven together. That this fidelity is what Joshua emphasizes first will matter enormously when the misunderstanding unfolds.',
+            'The eastern tribes have kept the <em>mishmereth</em> — the charge, the responsibility, the guarding — of God&apos;s commandment. This was the same word used in Genesis 2:15 when Adam was told to "keep" the garden. Responsibility and faithfulness are woven together. That this fidelity is what Joshua emphasizes first will matter enormously when the misunderstanding unfolds[res:sefaria-joshua-22-v1].',
         },
         {
           kind: 'scripture',
@@ -551,6 +551,15 @@ export const JOSHUA_22: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/articles/the-tribal-territories-of-israel/',
       description: 'SBL article mapping the inheritance and the meaning of the eastern tribes&apos; settlement beyond the Jordan.',
     },
+    {
+      id: 'sefaria-joshua-22-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Joshua 22 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Joshua.22',
+      description: 'The Hebrew text of Joshua 22 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
 

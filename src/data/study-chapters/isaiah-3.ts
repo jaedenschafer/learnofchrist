@@ -61,7 +61,7 @@ export const ISAIAH_3: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'What do you rely on? What are the "stays and staffs" that hold you up? Isaiah&apos;s warning is not only about national judgment. It is about the dangers of placing ultimate trust in human systems, human wisdom, human protection. All these can be stripped away. The only reliable stay is God Himself. When we build our lives on this foundation, we are secure. When we trust in anything else as ultimate, we are vulnerable to judgment.',
+            'What do you rely on? What are the "stays and staffs" that hold you up? Isaiah&apos;s warning is not only about national judgment. It is about the dangers of placing ultimate trust in human systems, human wisdom, human protection. All these can be stripped away. The only reliable stay is God Himself. When we build our lives on this foundation, we are secure. When we trust in anything else as ultimate, we are vulnerable to judgment[res:sefaria-isaiah-3-v1].',
         },
         {
           kind: 'reflection',
@@ -141,6 +141,15 @@ export const ISAIAH_3: RichChapterContent = {
       url: 'https://intertextual.bible/',
       description: 'Connections between Isaiah 3 and New Testament fulfillment, especially Matt 1–12.',
     },
+    {
+      id: 'sefaria-isaiah-3-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 3 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.3',
+      description: 'The Hebrew text of Isaiah 3 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

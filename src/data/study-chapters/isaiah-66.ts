@@ -42,7 +42,7 @@ export const ISAIAH_66: RichChapterContent = {
           kind: 'commentary',
           id: 'isa66-throne',
           html:
-            'Heaven is God\'s throne. Earth is His footstool. What house could contain such a God? Yet God looks not to grand temples, but to the humble and contrite, to those who tremble at His word. This is the paradox: the one who fills all space and time dwells with the broken heart.',
+            'Heaven is God\'s throne. Earth is His footstool. What house could contain such a God? Yet God looks not to grand temples, but to the humble and contrite, to those who tremble at His word. This is the paradox: the one who fills all space and time dwells with the broken heart[res:sefaria-isaiah-66-v1][res:bibleodyssey-isaiah-overview-66].',
         },
         {
           kind: 'hebrew',
@@ -154,6 +154,23 @@ export const ISAIAH_66: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.66',
       description: 'Sefaria open-access source text and translations for Isaiah 66.',
     },
+    {
+      id: 'sefaria-isaiah-66-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 66 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.66',
+      description: 'The Hebrew text of Isaiah 66 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-66',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

@@ -36,6 +36,15 @@ export const AMOS_8: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-amos/',
       description: 'Study of spiritual famine as the consequence of rejecting God&apos;s prophetic word.',
     },
+    {
+      id: 'sefaria-amos-8-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Amos 8 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Amos.8',
+      description: 'The Hebrew text of Amos 8 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -75,7 +84,7 @@ export const AMOS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'amos8-end',
           html:
-            'The summer fruit signals the end of the season, the end of time for repentance. The songs of the temple will become howlings. The feasts will become mourning. Yet Israel has been cheating the poor, falsifying scales, selling the needy for a pair of shoes. The judgment fits the crime.',
+            'The summer fruit signals the end of the season, the end of time for repentance. The songs of the temple will become howlings. The feasts will become mourning. Yet Israel has been cheating the poor, falsifying scales, selling the needy for a pair of shoes. The judgment fits the crime[res:sefaria-amos-8-v1].',
         },
         {
           kind: 'carry',

@@ -62,7 +62,7 @@ export const ISAIAH_56: RichChapterContent = {
           kind: 'commentary',
           id: 'isa56-judgment',
           html:
-            'The call to keep judgment and do justice frames the chapter. God\'s salvation is near, His righteousness about to be revealed. Those who do justice, who keep the Sabbath, who refrain from evil—these are blessed.',
+            'The call to keep judgment and do justice frames the chapter. God\'s salvation is near, His righteousness about to be revealed. Those who do justice, who keep the Sabbath, who refrain from evil—these are blessed[res:sefaria-isaiah-56-v1][res:bibleodyssey-isaiah-overview-56].',
         },
         {
           kind: 'commentary',
@@ -152,6 +152,23 @@ export const ISAIAH_56: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.56',
       description: 'Sefaria open-access source text and translations for Isaiah 56.',
     },
+    {
+      id: 'sefaria-isaiah-56-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 56 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.56',
+      description: 'The Hebrew text of Isaiah 56 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-56',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

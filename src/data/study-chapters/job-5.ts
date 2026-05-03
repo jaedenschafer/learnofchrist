@@ -43,6 +43,23 @@ export const JOB_5: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 5 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.5',
+      description: 'The Hebrew text of Job 5 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-5',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -119,7 +136,7 @@ export const JOB_5: RichChapterContent = {
           kind: 'commentary',
           id: 'foolish-man',
           html:
-            'Eliphaz begins with a harsh pronouncement: wrath kills the foolish, anger slays the hasty. He speaks as if he understands a law of nature — that anger is self-destructive, that the foolish bring their own ruin. The observation is not without truth; unchecked anger often does destroy those who harbor it. But Eliphaz is doing something more: he is using this observation to diagnose Job.',
+            'Eliphaz begins with a harsh pronouncement: wrath kills the foolish, anger slays the hasty. He speaks as if he understands a law of nature — that anger is self-destructive, that the foolish bring their own ruin. The observation is not without truth; unchecked anger often does destroy those who harbor it. But Eliphaz is doing something more: he is using this observation to diagnose Job[res:sefaria-job-5][res:bibleodyssey-job-overview-5].',
         },
         {
           kind: 'hebrew',

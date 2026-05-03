@@ -40,7 +40,7 @@ export const JEREMIAH_35: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer35-rechabite',
-          html: 'The Rechabites are remarkable not for the commands they keep, but for their consistency in keeping them across generations. The command not to drink wine is specific and peculiar. Yet they honor it. Why? Because their father commanded it. Because they are bound to an ancestral covenant, and they understand their faithfulness as a way of honoring that bond[res:babylonian-chronicle].',
+          html: 'The Rechabites are remarkable not for the commands they keep, but for their consistency in keeping them across generations. The command not to drink wine is specific and peculiar. Yet they honor it. Why? Because their father commanded it. Because they are bound to an ancestral covenant, and they understand their faithfulness as a way of honoring that bond[res:babylonian-chronicle][res:sefaria-jeremiah-35].',
         },
         {
           kind: 'commentary',
@@ -93,6 +93,15 @@ export const JEREMIAH_35: RichChapterContent = {
       url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
       description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
     }
+    {
+      id: 'sefaria-jeremiah-35',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 35 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.35',
+      description: 'The Hebrew text of Jeremiah 35 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: false,

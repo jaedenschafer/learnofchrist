@@ -75,7 +75,7 @@ export const FIRST_ESDRAS_4: RichChapterContent = {
         },
         {
           kind: 'carry',
-          html: 'Authority feels absolute when you are standing under it. The boss, the government, the system—they appear to hold the ultimate power. We organize our whole lives around their commands. But notice what happens when power encounters something it cannot control. The king&apos;s dominion extends only where he can force obedience. Over the human heart—over truth—he has no final say.',
+          html: 'Authority feels absolute when you are standing under it. The boss, the government, the system—they appear to hold the ultimate power. We organize our whole lives around their commands. But notice what happens when power encounters something it cannot control. The king&apos;s dominion extends only where he can force obedience. Over the human heart—over truth—he has no final say[res:sefaria-1-esdras-4].',
         },
         {
           kind: 'reflection',
@@ -334,6 +334,15 @@ export const FIRST_ESDRAS_4: RichChapterContent = {
       url: 'https://topostext.org/',
       description: 'Archaeological sites of Second Temple Jerusalem and temple reconstruction.',
     },
+    {
+      id: 'sefaria-1-esdras-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Esdras 4 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Esdras.4',
+      description: 'The Hebrew text of 1 Esdras 4 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {

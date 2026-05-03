@@ -41,6 +41,23 @@ export const ESTHER_3: RichChapterContent = {
       url: 'https://www.theoi.com/Text/HerodotusHistories.html',
       description: 'Herodotus accounts of Xerxes, Persian court intrigues, and royal authority.',
     },
+    {
+      id: 'sefaria-esther-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Esther 3 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Esther.3',
+      description: 'The Hebrew text of Esther 3 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-esther-overview-3',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Esther — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/esther/',
+      description: 'Open-access SBL essay on the historical and literary setting of Esther.',
+    },
+
   ],
 
   sections: [
@@ -71,7 +88,7 @@ export const ESTHER_3: RichChapterContent = {
           kind: 'commentary',
           id: 'mordecai-refuses',
           html:
-            'But Mordecai will not bow. He will not do reverence. The text does not explain his refusal. He simply refuses. The servants question him: Why do you transgress the king&apos;s commandment? They ask daily. He does not listen. And then they tell Haman. Mordecai has told them that he is a Jew. This is the moment when his hidden identity becomes known.',
+            'But Mordecai will not bow. He will not do reverence. The text does not explain his refusal. He simply refuses. The servants question him: Why do you transgress the king&apos;s commandment? They ask daily. He does not listen. And then they tell Haman. Mordecai has told them that he is a Jew. This is the moment when his hidden identity becomes known[res:sefaria-esther-3][res:bibleodyssey-esther-overview-3].',
         },
         {
           kind: 'hebrew',

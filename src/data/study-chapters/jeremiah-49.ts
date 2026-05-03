@@ -36,7 +36,7 @@ export const JEREMIAH_49: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer49-ammon',
-          html: 'The Ammonites have seized the territory of Gad, which belonged to Israel. They do this as if Gad had no heir, as if Israel were without children to claim their inheritance. But God will reverse this. The Ammonites will be judged. Yet even in judgment, there is a promise of restoration. "Afterward I will bring again the captivity of the Ammonites." Even the enemies of God&apos;s people are not beyond the possibility of restoration[res:babylonian-chronicle].',
+          html: 'The Ammonites have seized the territory of Gad, which belonged to Israel. They do this as if Gad had no heir, as if Israel were without children to claim their inheritance. But God will reverse this. The Ammonites will be judged. Yet even in judgment, there is a promise of restoration. "Afterward I will bring again the captivity of the Ammonites." Even the enemies of God&apos;s people are not beyond the possibility of restoration[res:babylonian-chronicle][res:sefaria-jeremiah-49].',
         },
         {
           kind: 'carry',
@@ -115,5 +115,14 @@ export const JEREMIAH_49: RichChapterContent = {
       url: 'https://www.sefaria.org/Jeremiah',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
     }
+    {
+      id: 'sefaria-jeremiah-49',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 49 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.49',
+      description: 'The Hebrew text of Jeremiah 49 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 };

@@ -57,7 +57,7 @@ export const ECCLESIASTES_12: RichChapterContent = {
           kind: 'commentary',
           id: 'ecc12-remember-creator',
           html:
-            '"Remember now thy Creator in the days of thy youth." The Preacher makes an urgent appeal to the young. Do not wait until you are old to remember God. Do not delay until your strength is gone and you have no pleasure in anything. Now is the time. While you have vigor, while you have choice, while you can still say no to folly and yes to righteousness—now is the time to remember your Creator.',
+            '"Remember now thy Creator in the days of thy youth." The Preacher makes an urgent appeal to the young. Do not wait until you are old to remember God. Do not delay until your strength is gone and you have no pleasure in anything. Now is the time. While you have vigor, while you have choice, while you can still say no to folly and yes to righteousness—now is the time to remember your Creator[res:sefaria-ecclesiastes-12-v1].',
         },
         {
           kind: 'commentary',
@@ -172,6 +172,15 @@ export const ECCLESIASTES_12: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/articles/ecclesiastes/',
       description: 'SBL essay placing Qohelet&apos;s meditation on aging and judgment within the broader ANE wisdom tradition.',
     },
+    {
+      id: 'sefaria-ecclesiastes-12-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ecclesiastes 12 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ecclesiastes.12',
+      description: 'The Hebrew text of Ecclesiastes 12 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
 };

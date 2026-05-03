@@ -34,6 +34,23 @@ export const JOB_30: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-30',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 30 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.30',
+      description: 'The Hebrew text of Job 30 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-30',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -72,7 +89,7 @@ export const JOB_30: RichChapterContent = {
           kind: 'commentary',
           id: 'job30-younger-mock',
           html:
-            'Job is mocked by the very people he once would have considered beneath notice. These are men whose fathers he would not have hired as shepherds. They are starving outcasts, driven from society, dwelling in caves and hollows, gathering roots to eat. And yet now they jeer at him. The inversion is complete: he who was honored is now derided; those who were nothing now have the power to wound him with their contempt.',
+            'Job is mocked by the very people he once would have considered beneath notice. These are men whose fathers he would not have hired as shepherds. They are starving outcasts, driven from society, dwelling in caves and hollows, gathering roots to eat. And yet now they jeer at him. The inversion is complete: he who was honored is now derided; those who were nothing now have the power to wound him with their contempt[res:sefaria-job-30][res:bibleodyssey-job-overview-30].',
         },
         {
           kind: 'commentary',

@@ -77,7 +77,7 @@ export const ISAIAH_48: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah48-called',
           html:
-            'God calls Israel forward: "I am the first, I also am the last." All history is encompassed in God&apos;s hand. God has loved Cyrus and called him by name. God has made his way prosperous. God speaks not in secret but openly, from the beginning. And God&apos;s Spirit has sent this message. Israel is not left guessing about God&apos;s will.',
+            'God calls Israel forward: "I am the first, I also am the last." All history is encompassed in God&apos;s hand. God has loved Cyrus and called him by name. God has made his way prosperous. God speaks not in secret but openly, from the beginning. And God&apos;s Spirit has sent this message. Israel is not left guessing about God&apos;s will[res:sefaria-isaiah-48-v1].',
         },
         {
           kind: 'scripture',
@@ -168,6 +168,15 @@ export const ISAIAH_48: RichChapterContent = {
       url: 'https://intertextual.bible/',
       description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
     },
+    {
+      id: 'sefaria-isaiah-48-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 48 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.48',
+      description: 'The Hebrew text of Isaiah 48 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

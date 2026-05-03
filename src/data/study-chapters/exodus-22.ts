@@ -46,6 +46,15 @@ export const EXODUS_22: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/justice/',
       description: 'NT engagement with restitution principle.',
     },
+    {
+      id: 'sefaria-exodus-22',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 22 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.22',
+      description: 'The Hebrew text of Exodus 22 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -74,7 +83,7 @@ export const EXODUS_22: RichChapterContent = {
           kind: 'commentary',
           id: 'c-fivefold',
           html:
-            'The thief must make five-fold restitution — not because the law is cruel, but because the victim has lost not only the animal, but the labor, the livelihood, the future it would have produced. Restitution is not punishment; it is <em>restoration</em>. The debt is what it takes to make the person whole again[res:restitution].',
+            'The thief must make five-fold restitution — not because the law is cruel, but because the victim has lost not only the animal, but the labor, the livelihood, the future it would have produced. Restitution is not punishment; it is <em>restoration</em>. The debt is what it takes to make the person whole again[res:restitution][res:sefaria-exodus-22].',
         },
         {
           kind: 'scripture',

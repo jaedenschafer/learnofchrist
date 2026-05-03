@@ -138,7 +138,7 @@ export const JUDGES_20: RichChapterContent = {
           kind: 'commentary',
           id: 'judg-20-ambush-rout',
           html:
-            'Benjamin thinks they win. Israel flees. Then the signal rises—the ambush unfolds. What looked like defeat pivots to victory. The hunters become the hunted. One moment; one hidden stratagem; the war turns.',
+            'Benjamin thinks they win. Israel flees. Then the signal rises—the ambush unfolds. What looked like defeat pivots to victory. The hunters become the hunted. One moment; one hidden stratagem; the war turns[res:sefaria-judges-20-v1].',
         },
         {
           kind: 'scripture',
@@ -247,6 +247,15 @@ export const JUDGES_20: RichChapterContent = {
       url: 'https://www.antiquities.org.il/',
       description: 'Archaeological surveys of the site associated with the Benjamite stronghold and Saul&apos;s later capital.',
     },
+    {
+      id: 'sefaria-judges-20-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Judges 20 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Judges.20',
+      description: 'The Hebrew text of Judges 20 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
 

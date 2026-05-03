@@ -75,7 +75,7 @@ export const SECOND_ESDRAS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'prepare-judgment',
           html:
-            'The word of judgment is now prepared. Israel has rejected the prophets; now God must judge. The judges are not foreign armies or plagues, but the withdrawal of His favor—a people chosen for light cast into their own darkness.',
+            'The word of judgment is now prepared. Israel has rejected the prophets; now God must judge. The judges are not foreign armies or plagues, but the withdrawal of His favor—a people chosen for light cast into their own darkness[res:sefaria-2-esdras-2-v1].',
         },
 
         {
@@ -736,6 +736,15 @@ export const SECOND_ESDRAS_2: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/apocalyptic/',
       description: 'Apocalyptic traditions in Second Temple Judaism and visionary literature.',
     },
+    {
+      id: 'sefaria-2-esdras-2-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Esdras 2 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Esdras.2',
+      description: 'The Hebrew text of 2 Esdras 2 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {

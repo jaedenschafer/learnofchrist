@@ -42,6 +42,23 @@ export const CHRONICLES_1_25: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'British Museum collections on Iron Age Levantine kingdoms and David.',
     },
+    {
+      id: 'sefaria-1-chronicles-25',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 25 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.25',
+      description: 'The Hebrew text of 1 Chronicles 25 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-1-chronicles-overview-25',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -87,7 +104,7 @@ export const CHRONICLES_1_25: RichChapterContent = {
           kind: 'commentary',
           id: 'music-prophecy-instruments',
           html:
-            'The musicians are to "prophesy with harps, with psalteries, and with cymbals." This is the crucial phrase: prophecy and music are one and the same. To prophesy means to speak the word of God, to bring the presence and will of God into the assembly. These musicians do that not through words alone, but through sound — through the resonance of stringed instruments and the percussion of cymbals. They are prophets just as surely as any who speaks in the name of the Lord.',
+            'The musicians are to "prophesy with harps, with psalteries, and with cymbals." This is the crucial phrase: prophecy and music are one and the same. To prophesy means to speak the word of God, to bring the presence and will of God into the assembly. These musicians do that not through words alone, but through sound — through the resonance of stringed instruments and the percussion of cymbals. They are prophets just as surely as any who speaks in the name of the Lord[res:sefaria-1-chronicles-25][res:bibleodyssey-1-chronicles-overview-25].',
         },
         {
           kind: 'hebrew',

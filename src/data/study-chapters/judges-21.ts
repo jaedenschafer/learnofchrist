@@ -78,7 +78,7 @@ export const JUDGES_21: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-repentance-disconnect',
-          html: 'They wept and offered sacrifices. The emotional and religious posture was real. But repentance that is not tethered to God\'s actual guidance produces grotesque solutions. The pattern is timeless: people feel genuinely sorry for a mistake, yet the remedy they devise creates something worse.',
+          html: 'They wept and offered sacrifices. The emotional and religious posture was real. But repentance that is not tethered to God\'s actual guidance produces grotesque solutions. The pattern is timeless: people feel genuinely sorry for a mistake, yet the remedy they devise creates something worse[res:sefaria-judges-21-v1].',
         },
         {
           kind: 'reflection',
@@ -384,6 +384,15 @@ export const JUDGES_21: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/places/related-articles/shiloh/',
       description: 'SBL entry on Shiloh, the central sanctuary where the daughters dance and Benjamin finds wives.',
     },
+    {
+      id: 'sefaria-judges-21-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Judges 21 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Judges.21',
+      description: 'The Hebrew text of Judges 21 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
 

@@ -40,7 +40,7 @@ export const EZEKIEL_13: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk13-false-comfort',
-          html: 'The false prophets are seducing the people with a single false word: peace. There is no peace, God says, yet they declare it. They have not stood in His council. They have not heard His voice. They follow their own spirits, their own desires. They are like foxes in the desert — clever enough to appear wise, but destructive. The metaphor of the wall and the untempered mortar is vivid. The wall stands because of honest mortar. But when it is daubed with untempered mortar, when the binding agent has no real strength, the whole structure is compromised. When the rain comes, when the hailstones fall, when the wind blows — the wall collapses, and the false mortar is exposed[res:babylonian-exile-context].',
+          html: 'The false prophets are seducing the people with a single false word: peace. There is no peace, God says, yet they declare it. They have not stood in His council. They have not heard His voice. They follow their own spirits, their own desires. They are like foxes in the desert — clever enough to appear wise, but destructive. The metaphor of the wall and the untempered mortar is vivid. The wall stands because of honest mortar. But when it is daubed with untempered mortar, when the binding agent has no real strength, the whole structure is compromised. When the rain comes, when the hailstones fall, when the wind blows — the wall collapses, and the false mortar is exposed[res:babylonian-exile-context][res:sefaria-ezekiel-13].',
         },
         {
           kind: 'hebrew',
@@ -122,6 +122,15 @@ export const EZEKIEL_13: RichChapterContent = {
       url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
       description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
     }
+    {
+      id: 'sefaria-ezekiel-13',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 13 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.13',
+      description: 'The Hebrew text of Ezekiel 13 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

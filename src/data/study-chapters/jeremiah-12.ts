@@ -54,7 +54,7 @@ export const JEREMIAH_12: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer12-wearied',
-          html: 'God&apos;s response is surprising. He does not answer the question directly. Instead, He tells Jeremiah that what he has faced so far is merely the beginning. "If thou hast run with the footmen, and they have wearied thee, then how canst thou contend with horses?" The trials ahead will be greater than those behind. The complaint Jeremiah makes now will pale in comparison to what is coming[res:lachish-letters].',
+          html: 'God&apos;s response is surprising. He does not answer the question directly. Instead, He tells Jeremiah that what he has faced so far is merely the beginning. "If thou hast run with the footmen, and they have wearied thee, then how canst thou contend with horses?" The trials ahead will be greater than those behind. The complaint Jeremiah makes now will pale in comparison to what is coming[res:lachish-letters][res:sefaria-jeremiah-12].',
         },
         {
           kind: 'commentary',
@@ -152,6 +152,15 @@ export const JEREMIAH_12: RichChapterContent = {
       url: 'https://www.imj.org.il/en/collections/lachish-letters',
       description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
     }
+    {
+      id: 'sefaria-jeremiah-12',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 12 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.12',
+      description: 'The Hebrew text of Jeremiah 12 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

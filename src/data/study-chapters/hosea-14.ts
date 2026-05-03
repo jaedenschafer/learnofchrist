@@ -36,6 +36,15 @@ export const HOSEA_14: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
       description: 'Thematic study of how Hosea&apos;s book moves from judgment to restoration and God&apos;s free, covenant love.',
     },
+    {
+      id: 'sefaria-hosea-14-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 14 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Hosea.14',
+      description: 'The Hebrew text of Hosea 14 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -119,7 +128,7 @@ export const HOSEA_14: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea14-freely',
           html:
-            'God will love Israel freely — not because she deserves it, not because she has earned it, but freely, as an act of grace. His anger is turned away. His healing comes. Israel will grow like a lily, her branches will spread like an olive tree. The language shifts from judgment to blessing, from destruction to growth.',
+            'God will love Israel freely — not because she deserves it, not because she has earned it, but freely, as an act of grace. His anger is turned away. His healing comes. Israel will grow like a lily, her branches will spread like an olive tree. The language shifts from judgment to blessing, from destruction to growth[res:sefaria-hosea-14-v1].',
         },
         {
           kind: 'carry',

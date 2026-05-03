@@ -43,6 +43,23 @@ export const CHRONICLES_2_19: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
     },
+    {
+      id: 'sefaria-2-chronicles-19',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 19 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.19',
+      description: 'The Hebrew text of 2 Chronicles 19 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-19',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -87,7 +104,7 @@ export const CHRONICLES_2_19: RichChapterContent = {
           kind: 'commentary',
           id: '19-good-things',
           html:
-            'Yet Jehu does not speak only rebuke. "Nevertheless there are good things found in thee." God sees the whole person — both the failure and the faithfulness. Jehoshaphat had removed the high places and the groves where false worship had taken place. He had "prepared his heart to seek God." These actions were real. They were good. The rebuke does not erase them; it stands alongside them. God notices both the stumble and the seeking.',
+            'Yet Jehu does not speak only rebuke. "Nevertheless there are good things found in thee." God sees the whole person — both the failure and the faithfulness. Jehoshaphat had removed the high places and the groves where false worship had taken place. He had "prepared his heart to seek God." These actions were real. They were good. The rebuke does not erase them; it stands alongside them. God notices both the stumble and the seeking[res:sefaria-2-chronicles-19][res:bibleodyssey-2-chronicles-overview-19].',
         },
         {
           kind: 'hebrew',

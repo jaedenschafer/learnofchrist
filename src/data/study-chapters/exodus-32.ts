@@ -47,6 +47,15 @@ export const EXODUS_32: RichChapterContent = {
       url: 'https://www.britishmuseum.org/collection/',
       description: 'Egyptian bull cult and Israelite syncretism.',
     },
+    {
+      id: 'sefaria-exodus-32',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 32 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.32',
+      description: 'The Hebrew text of Exodus 32 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -120,7 +129,7 @@ export const EXODUS_32: RichChapterContent = {
           kind: 'commentary',
           id: 'c-delayed',
           html:
-            'Moses isn&apos;t late; he is simply not back yet. Forty days is what God said it would take, and God keeps His word. But the people interpret delay as abandonment. The moment a visible guide disappears, fear rushes in — and the first thing fear does is make something to replace what it lost. Notice the speed: without Moses, they don&apos;t wait, they don&apos;t pray, they demand. What fills the absence of faith is almost always noise and urgency[res:golden-calf].',
+            'Moses isn&apos;t late; he is simply not back yet. Forty days is what God said it would take, and God keeps His word. But the people interpret delay as abandonment. The moment a visible guide disappears, fear rushes in — and the first thing fear does is make something to replace what it lost. Notice the speed: without Moses, they don&apos;t wait, they don&apos;t pray, they demand. What fills the absence of faith is almost always noise and urgency[res:golden-calf][res:sefaria-exodus-32].',
         },
         {
           kind: 'commentary',

@@ -66,7 +66,7 @@ export const JEREMIAH_25: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer25-prophet-cup',
-          html: 'Jeremiah moves from God&apos;s long patience to the cup of wrath. Years of warning culminate in judgment[res:babylonian-chronicle].',
+          html: 'Jeremiah moves from God&apos;s long patience to the cup of wrath. Years of warning culminate in judgment[res:babylonian-chronicle][res:sefaria-jeremiah-25].',
         },
         {
           kind: 'scripture',
@@ -306,5 +306,14 @@ export const JEREMIAH_25: RichChapterContent = {
       url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
       description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
     }
+    {
+      id: 'sefaria-jeremiah-25',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 25 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.25',
+      description: 'The Hebrew text of Jeremiah 25 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 };

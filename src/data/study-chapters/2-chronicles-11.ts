@@ -39,6 +39,23 @@ export const CHRONICLES_2_11: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
     },
+    {
+      id: 'sefaria-2-chronicles-11',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 11 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.11',
+      description: 'The Hebrew text of 2 Chronicles 11 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-11',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -67,7 +84,7 @@ export const CHRONICLES_2_11: RichChapterContent = {
           kind: 'commentary',
           id: 'shemaiah-speaks',
           html:
-            'But then the word of the Lord comes through the prophet Shemaiah. The message is stark: "Ye shall not go up." Stop. Return to your houses. And the reason is decisive: "This thing is done of me." The division is not Jeroboam&apos;s work, or a failure of Rehoboam&apos;s strength. It is God&apos;s doing. And God is not reversing it through war.',
+            'But then the word of the Lord comes through the prophet Shemaiah. The message is stark: "Ye shall not go up." Stop. Return to your houses. And the reason is decisive: "This thing is done of me." The division is not Jeroboam&apos;s work, or a failure of Rehoboam&apos;s strength. It is God&apos;s doing. And God is not reversing it through war[res:sefaria-2-chronicles-11][res:bibleodyssey-2-chronicles-overview-11].',
         },
         {
           kind: 'hebrew',

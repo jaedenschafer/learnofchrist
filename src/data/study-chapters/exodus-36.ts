@@ -54,7 +54,7 @@ export const EXODUS_36: RichChapterContent = {
           kind: 'commentary',
           id: 'craftsmen-called',
           html:
-            'Notice the distinction in verse 2: &ldquo;every wise hearted man, in whose heart the LORD had put wisdom, even every one whose heart stirred him up.&rdquo; Two movements. First, God puts wisdom in hearts. Second, the people respond by letting their hearts stir them up. The work of the tabernacle is neither purely divine initiative nor purely human effort. It is both together, each responding to the other[res:frame-covering].',
+            'Notice the distinction in verse 2: &ldquo;every wise hearted man, in whose heart the LORD had put wisdom, even every one whose heart stirred him up.&rdquo; Two movements. First, God puts wisdom in hearts. Second, the people respond by letting their hearts stir them up. The work of the tabernacle is neither purely divine initiative nor purely human effort. It is both together, each responding to the other[res:frame-covering][res:sefaria-exodus-36].',
         },
         {
           kind: 'christ',
@@ -355,6 +355,15 @@ export const EXODUS_36: RichChapterContent = {
       url: 'https://www.imj.org.il/',
       description: 'Models showing construction sequence.',
     },
+    {
+      id: 'sefaria-exodus-36',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 36 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.36',
+      description: 'The Hebrew text of Exodus 36 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

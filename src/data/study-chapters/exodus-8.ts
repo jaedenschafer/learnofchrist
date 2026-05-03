@@ -74,7 +74,7 @@ export const EXODUS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'c-refrain',
           html:
-            'The refrain begins: "Let my people go, that they may serve me." It is not just a demand for freedom. It is an offer of purpose. Egypt had defined Israel as slaves; God defines them as worshipers[res:plague-frogs].',
+            'The refrain begins: "Let my people go, that they may serve me." It is not just a demand for freedom. It is an offer of purpose. Egypt had defined Israel as slaves; God defines them as worshipers[res:plague-frogs][res:sefaria-exodus-8].',
         },
         {
           kind: 'scripture',
@@ -560,5 +560,14 @@ export const EXODUS_8: RichChapterContent = {
       url: 'https://www.britishmuseum.org/collection/',
       description: 'Scholarly context on river phenomena and swarms.',
     },
+    {
+      id: 'sefaria-exodus-8',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 8 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.8',
+      description: 'The Hebrew text of Exodus 8 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 };

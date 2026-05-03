@@ -88,7 +88,7 @@ export const ISAIAH_44: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah44-tree-fire-god',
           html:
-            'The craftsman uses the same tree for fuel and for worship—but warmth and bread cannot save the soul. The contradiction is stark. Now the account shifts to the moment of fatal error: the craftsman falls down and worships what came from flame.',
+            'The craftsman uses the same tree for fuel and for worship—but warmth and bread cannot save the soul. The contradiction is stark. Now the account shifts to the moment of fatal error: the craftsman falls down and worships what came from flame[res:sefaria-isaiah-44-v1].',
         },
         {
           kind: 'scripture',
@@ -204,6 +204,15 @@ export const ISAIAH_44: RichChapterContent = {
       url: 'https://intertextual.bible/',
       description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
     },
+    {
+      id: 'sefaria-isaiah-44-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 44 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.44',
+      description: 'The Hebrew text of Isaiah 44 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

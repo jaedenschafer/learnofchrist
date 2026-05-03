@@ -76,7 +76,7 @@ export const BARUCH_4: RichChapterContent = {
           id: 'bar4-christ-commandments',
           title: 'Christ Connection — The Law Fulfilled in Love',
           html:
-            'Jesus is asked which is the greatest commandment. His answer: "Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind… and thou shalt love thy neighbour as thyself. On these two commandments hang all the law and the prophets" (Matt. 22:37–40). Baruch says: keep the commandments and live. Jesus says: I AM the life (John 14:6). The commandments point to Him; He is their fulfillment and their goal.',
+            'Jesus is asked which is the greatest commandment. His answer: "Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind… and thou shalt love thy neighbour as thyself. On these two commandments hang all the law and the prophets" (Matt. 22:37–40). Baruch says: keep the commandments and live. Jesus says: I AM the life (John 14:6). The commandments point to Him; He is their fulfillment and their goal[res:sefaria-baruch-4].',
         },
         {
           kind: 'carry',
@@ -582,6 +582,15 @@ export const BARUCH_4: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/jerusalem/',
       description: 'Feminine imagery applied to Jerusalem in exile and restoration tradition.',
     },
+    {
+      id: 'sefaria-baruch-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Baruch 4 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Baruch.4',
+      description: 'The Hebrew text of Baruch 4 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {

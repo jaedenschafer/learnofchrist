@@ -99,7 +99,7 @@ export const EXODUS_40: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ark-testimony',
-          html: 'The ark is the seat of God&apos;s presence. It holds the testimony—the two tablets of the covenant—but it itself is the mercy seat, the place where God will speak to Israel. Everything else in the tabernacle is placed *around* this one object. The logic of the whole structure flows from the presence at the center[res:complete-glory].',
+          html: 'The ark is the seat of God&apos;s presence. It holds the testimony—the two tablets of the covenant—but it itself is the mercy seat, the place where God will speak to Israel. Everything else in the tabernacle is placed *around* this one object. The logic of the whole structure flows from the presence at the center[res:complete-glory][res:sefaria-exodus-40].',
         },
         {
           kind: 'hebrew',
@@ -332,6 +332,15 @@ export const EXODUS_40: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/shekinah/',
       description: 'The cloud of glory filling the tabernacle.',
     },
+    {
+      id: 'sefaria-exodus-40',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 40 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.40',
+      description: 'The Hebrew text of Exodus 40 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

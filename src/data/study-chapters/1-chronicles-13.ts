@@ -40,6 +40,23 @@ export const CHRONICLES_1_13: RichChapterContent = {
       url: 'https://www.imj.org.il/',
       description: 'Israel Museum collections and exhibits on Temple and Ark archaeology.',
     },
+    {
+      id: 'sefaria-1-chronicles-13',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 13 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.13',
+      description: 'The Hebrew text of 1 Chronicles 13 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-1-chronicles-overview-13',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -175,7 +192,7 @@ export const CHRONICLES_1_13: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'The procession is joyful. The music is real. The intention to honor God is genuine. But the method violates God&apos;s prescription. This is a sobering lesson: we can be sincere, enthusiastic, well-intentioned, and still be in direct violation of God&apos;s command. The question is not "Do I mean well?" but "Am I doing it God&apos;s way?" These can be at odds.',
+            'The procession is joyful. The music is real. The intention to honor God is genuine. But the method violates God&apos;s prescription. This is a sobering lesson: we can be sincere, enthusiastic, well-intentioned, and still be in direct violation of God&apos;s command. The question is not "Do I mean well?" but "Am I doing it God&apos;s way?" These can be at odds[res:sefaria-1-chronicles-13][res:bibleodyssey-1-chronicles-overview-13].',
         },
         {
           kind: 'reflection',

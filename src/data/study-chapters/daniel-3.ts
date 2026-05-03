@@ -53,7 +53,7 @@ export const DANIEL_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel3-careless',
-          html: '"We are not careful to answer thee in this matter." They are not anxious. They are not defensive. They have already made their choice before the question was asked. They know what they will do and what will happen to them. The fire is fierce. The furnace is heated seven times hotter than usual. The soldiers who cast them in are burned to death. But Shadrach, Meshach, and Abednego do not hesitate. They fall down bound into the fire, and their faith is absolute: God is able to deliver them. But more importantly—if God does not deliver them, they will not worship the golden image. Their faithfulness is not contingent on God&apos;s protection. It is rooted in the God they have chosen to serve, no matter what[res:ishtar-gate].',
+          html: '"We are not careful to answer thee in this matter." They are not anxious. They are not defensive. They have already made their choice before the question was asked. They know what they will do and what will happen to them. The fire is fierce. The furnace is heated seven times hotter than usual. The soldiers who cast them in are burned to death. But Shadrach, Meshach, and Abednego do not hesitate. They fall down bound into the fire, and their faith is absolute: God is able to deliver them. But more importantly—if God does not deliver them, they will not worship the golden image. Their faithfulness is not contingent on God&apos;s protection. It is rooted in the God they have chosen to serve, no matter what[res:ishtar-gate][res:sefaria-daniel-3].',
         },
         {
           kind: 'hebrew',
@@ -141,6 +141,15 @@ export const DANIEL_3: RichChapterContent = {
       url: 'https://www.britishmuseum.org/collection/search?q=ishtar+gate',
       description: 'Reconstructed gate from ancient Babylon, showing the city&apos;s magnificence in Daniel&apos;s era.',
     }
+    {
+      id: 'sefaria-daniel-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Daniel 3 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Daniel.3',
+      description: 'The Hebrew text of Daniel 3 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

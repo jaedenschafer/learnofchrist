@@ -42,6 +42,23 @@ export const CHRONICLES_2_13: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
     },
+    {
+      id: 'sefaria-2-chronicles-13',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 13 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.13',
+      description: 'The Hebrew text of 2 Chronicles 13 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-13',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -62,7 +79,7 @@ export const CHRONICLES_2_13: RichChapterContent = {
         {
           kind: 'commentary',
           html:
-            'The stage is set with stark numbers. Jeroboam fields twice as many soldiers as Abijah — 800,000 against 400,000. This is not a fair fight. The math says Judah should lose. But 2 Chronicles is about to tell a different kind of story: one where the victory belongs not to the larger army, but to the nation that cries out to God.',
+            'The stage is set with stark numbers. Jeroboam fields twice as many soldiers as Abijah — 800,000 against 400,000. This is not a fair fight. The math says Judah should lose. But 2 Chronicles is about to tell a different kind of story: one where the victory belongs not to the larger army, but to the nation that cries out to God[res:sefaria-2-chronicles-13][res:bibleodyssey-2-chronicles-overview-13].',
         },
         {
           kind: 'carry',

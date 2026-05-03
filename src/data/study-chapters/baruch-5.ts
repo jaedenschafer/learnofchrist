@@ -44,6 +44,15 @@ export const BARUCH_5: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/diaspora/',
       description: 'Diaspora identity, hope, and community formation in exile literature.',
     },
+    {
+      id: 'sefaria-baruch-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Baruch 5 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Baruch.5',
+      description: 'The Hebrew text of Baruch 5 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {
@@ -96,7 +105,7 @@ export const BARUCH_5: RichChapterContent = {
           id: 'christ-glory',
           title: 'Christ Connection — Clothed in Glory',
           html:
-            'Paul writes: "As many of you as have been baptized into Christ have put on Christ" (Galatians 3:27). Just as Jerusalem puts off mourning and puts on the glory of God, believers put off the old self and are clothed in the righteousness of Christ. In Him, we are not merely restored—we are transformed, made new, adorned with a glory not our own. The glory of God, which once shone only in the temple, now shines in the faces of those who belong to Christ.',
+            'Paul writes: "As many of you as have been baptized into Christ have put on Christ" (Galatians 3:27). Just as Jerusalem puts off mourning and puts on the glory of God, believers put off the old self and are clothed in the righteousness of Christ. In Him, we are not merely restored—we are transformed, made new, adorned with a glory not our own. The glory of God, which once shone only in the temple, now shines in the faces of those who belong to Christ[res:sefaria-baruch-5].',
         },
 
         {

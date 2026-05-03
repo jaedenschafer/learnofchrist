@@ -36,6 +36,15 @@ export const HOSEA_13: RichChapterContent = {
       url: 'https://intertextual.bible/search?query=hosea+13:14',
       description: 'Intertextual study of how Paul applies Hosea&apos;s resurrection promise to Christ&apos;s victory over death.',
     },
+    {
+      id: 'sefaria-hosea-13-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 13 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Hosea.13',
+      description: 'The Hebrew text of Hosea 13 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -129,7 +138,7 @@ export const HOSEA_13: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea13-death',
           html:
-            'The most extraordinary passage in the book: "I will ransom them from the power of the grave; I will redeem them from death: O death, I will be thy plagues; O grave, I will be thy destruction." God is not merely judging. He is promising redemption even from death itself. This is resurrection language, and the New Testament sees it as prophetic of Christ.',
+            'The most extraordinary passage in the book: "I will ransom them from the power of the grave; I will redeem them from death: O death, I will be thy plagues; O grave, I will be thy destruction." God is not merely judging. He is promising redemption even from death itself. This is resurrection language, and the New Testament sees it as prophetic of Christ[res:sefaria-hosea-13-v1].',
         },
         {
           kind: 'hebrew',

@@ -40,6 +40,23 @@ export const JOB_19: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-19',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 19 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.19',
+      description: 'The Hebrew text of Job 19 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-19',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -103,7 +120,7 @@ export const JOB_19: RichChapterContent = {
           kind: 'commentary',
           id: 'job19-error',
           html:
-            'Job says: "If I have erred, my error remaineth with myself." In other words: my mistake is my own business. Why do you need to multiply it by casting it in my face again and again? This is Job&apos;s rebuke to the friends. They are not helping him bear his burden. They are piling shame upon shame, doubt upon doubt. They are not weeping with him. They are accusing him.',
+            'Job says: "If I have erred, my error remaineth with myself." In other words: my mistake is my own business. Why do you need to multiply it by casting it in my face again and again? This is Job&apos;s rebuke to the friends. They are not helping him bear his burden. They are piling shame upon shame, doubt upon doubt. They are not weeping with him. They are accusing him[res:sefaria-job-19][res:bibleodyssey-job-overview-19].',
         },
         {
           kind: 'commentary',

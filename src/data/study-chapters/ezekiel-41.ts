@@ -38,7 +38,7 @@ export const EZEKIEL_41: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel41-posts',
-          html: 'The posts measure six cubits on each side—the breadth matches the tabernacle of old. There is continuity with the past, even as there is renewal. The new temple echoes the old, honoring what was while building what will be[res:babylonian-exile-context].',
+          html: 'The posts measure six cubits on each side—the breadth matches the tabernacle of old. There is continuity with the past, even as there is renewal. The new temple echoes the old, honoring what was while building what will be[res:babylonian-exile-context][res:sefaria-ezekiel-41].',
         },
         {
           kind: 'commentary',
@@ -94,6 +94,15 @@ export const EZEKIEL_41: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/gog/',
       description: 'SBL entry on the mysterious Gog figure in Ezekiel and Revelation.',
     }
+    {
+      id: 'sefaria-ezekiel-41',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 41 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.41',
+      description: 'The Hebrew text of Ezekiel 41 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

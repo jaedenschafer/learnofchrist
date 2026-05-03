@@ -77,7 +77,7 @@ export const CHRONICLES_2_21: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'When you gain a position of power or privilege, what is your first instinct? To consolidate control through fear? To eliminate any who might challenge you? Or to use that power for the people around you? Jehoram&apos;s path — strength gained through the death of family — is the way of ancient tyranny. But it is also the way of modern power-seeking: the backstab, the rumor, the calculated removal of anyone who might stand in your way. Jesus teaches a different way: the last shall be first, and the servant shall be greatest.',
+            'When you gain a position of power or privilege, what is your first instinct? To consolidate control through fear? To eliminate any who might challenge you? Or to use that power for the people around you? Jehoram&apos;s path — strength gained through the death of family — is the way of ancient tyranny. But it is also the way of modern power-seeking: the backstab, the rumor, the calculated removal of anyone who might stand in your way. Jesus teaches a different way: the last shall be first, and the servant shall be greatest[res:sefaria-2-chronicles-21][res:bibleodyssey-2-chronicles-overview-21].',
         },
         {
           kind: 'reflection',
@@ -424,6 +424,23 @@ export const CHRONICLES_2_21: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
     },
+    {
+      id: 'sefaria-2-chronicles-21',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 21 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.21',
+      description: 'The Hebrew text of 2 Chronicles 21 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-21',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   hasHebrew: true,

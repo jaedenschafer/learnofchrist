@@ -66,7 +66,7 @@ export const FIRST_ESDRAS_6: RichChapterContent = {
           id: 'esdras6-christ-awakening',
           title: 'Christ Connection — The Spirit Awakening the Disciples',
           html:
-            'After the Resurrection, the disciples huddle in fear, the work seemingly undone. Then the Spirit of God comes upon them (Acts 2:1–4), filling them and sending them forth to bear witness. Like Haggai and Zechariah awakening the people to rebuild, the Spirit awakens the apostles to proclaim. The prophetic word that stirs the people to action is fulfilled in the Spirit&apos;s work in the New Covenant.',
+            'After the Resurrection, the disciples huddle in fear, the work seemingly undone. Then the Spirit of God comes upon them (Acts 2:1–4), filling them and sending them forth to bear witness. Like Haggai and Zechariah awakening the people to rebuild, the Spirit awakens the apostles to proclaim. The prophetic word that stirs the people to action is fulfilled in the Spirit&apos;s work in the New Covenant[res:sefaria-1-esdras-6].',
         },
         {
           kind: 'carry',
@@ -389,6 +389,15 @@ export const FIRST_ESDRAS_6: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/diaspora/',
       description: 'Conflict between diaspora returnees and local populations in Persian period.',
     },
+    {
+      id: 'sefaria-1-esdras-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Esdras 6 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Esdras.6',
+      description: 'The Hebrew text of 1 Esdras 6 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {

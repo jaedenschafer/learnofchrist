@@ -62,7 +62,7 @@ export const ISAIAH_16: RichChapterContent = {
           id: 'isaiah16-christ-david',
           title: 'Christ Connection — The True Davidic Throne',
           html:
-            'Isaiah 16:5 speaks of mercy establishing David&apos;s throne—a throne where judgment and righteousness are not separate but one. In Luke 1:32–33, the angel Gabriel announces to Mary that her son will be given "the throne of his father David" and will "reign over the house of Jacob forever." Christ is that King whose justice is inseparable from mercy, whose judgment flows from love. To sit on David&apos;s throne in truth is to rule as Christ rules—seeking judgment, hasting righteousness, protecting the outcasts, and establishing His kingdom not by force but by the persuasive power of His own redemptive love.',
+            'Isaiah 16:5 speaks of mercy establishing David&apos;s throne—a throne where judgment and righteousness are not separate but one. In Luke 1:32–33, the angel Gabriel announces to Mary that her son will be given "the throne of his father David" and will "reign over the house of Jacob forever." Christ is that King whose justice is inseparable from mercy, whose judgment flows from love. To sit on David&apos;s throne in truth is to rule as Christ rules—seeking judgment, hasting righteousness, protecting the outcasts, and establishing His kingdom not by force but by the persuasive power of His own redemptive love[res:sefaria-isaiah-16-v1].',
         },
         {
           kind: 'carry',
@@ -147,6 +147,15 @@ export const ISAIAH_16: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Archaeological and textual evidence of the nations Isaiah prophesies against.',
     },
+    {
+      id: 'sefaria-isaiah-16-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 16 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.16',
+      description: 'The Hebrew text of Isaiah 16 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

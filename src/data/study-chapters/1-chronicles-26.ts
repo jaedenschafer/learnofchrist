@@ -41,6 +41,23 @@ export const CHRONICLES_1_26: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'British Museum collections on Iron Age Levantine kingdoms and David.',
     },
+    {
+      id: 'sefaria-1-chronicles-26',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 26 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.26',
+      description: 'The Hebrew text of 1 Chronicles 26 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-1-chronicles-overview-26',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -154,7 +171,7 @@ export const CHRONICLES_1_26: RichChapterContent = {
           kind: 'commentary',
           id: '26-cast-lots',
           html:
-            'The assignment of gates is done by casting lots — the ancient Israelite method of letting the Lord decide. No favoritism, no negotiation, no one choosing the "best" gate or the "easiest" shift. The small and the great cast lots together. A young gatekeeper and an elder receive assignments with equal gravity. The lot, in Scripture, is how the Lord&apos;s will is made known when humans cannot see the full picture. In the case of these gates, the lot says: this is your post. This is where you serve. This is your sacred work.',
+            'The assignment of gates is done by casting lots — the ancient Israelite method of letting the Lord decide. No favoritism, no negotiation, no one choosing the "best" gate or the "easiest" shift. The small and the great cast lots together. A young gatekeeper and an elder receive assignments with equal gravity. The lot, in Scripture, is how the Lord&apos;s will is made known when humans cannot see the full picture. In the case of these gates, the lot says: this is your post. This is where you serve. This is your sacred work[res:sefaria-1-chronicles-26][res:bibleodyssey-1-chronicles-overview-26].',
         },
         {
           kind: 'carry',

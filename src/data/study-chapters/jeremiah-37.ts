@@ -38,7 +38,7 @@ export const JEREMIAH_37: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer37-same-word',
-          html: 'What is remarkable is not that Jeremiah is imprisoned, but that his message is unchanged. He could have negotiated his release by saying what the king wanted to hear. He could have altered his prophecy to suit the moment. But he does not. From prison, he speaks the same word: "Thou shalt be delivered into the hand of the king of Babylon." The truth is not negotiable. It is not contingent on circumstance[res:bibleodyssey-jeremiah].',
+          html: 'What is remarkable is not that Jeremiah is imprisoned, but that his message is unchanged. He could have negotiated his release by saying what the king wanted to hear. He could have altered his prophecy to suit the moment. But he does not. From prison, he speaks the same word: "Thou shalt be delivered into the hand of the king of Babylon." The truth is not negotiable. It is not contingent on circumstance[res:bibleodyssey-jeremiah][res:sefaria-jeremiah-37].',
         },
         {
           kind: 'commentary',
@@ -85,6 +85,15 @@ export const JEREMIAH_37: RichChapterContent = {
       url: 'https://www.sefaria.org/Jeremiah',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
     }
+    {
+      id: 'sefaria-jeremiah-37',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 37 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.37',
+      description: 'The Hebrew text of Jeremiah 37 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: false,

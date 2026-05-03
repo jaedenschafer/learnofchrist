@@ -36,6 +36,15 @@ export const AMOS_6: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-amos/',
       description: 'Study of material prosperity as a spiritual danger when it distances people from seeking God.',
     },
+    {
+      id: 'sefaria-amos-6-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Amos 6 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Amos.6',
+      description: 'The Hebrew text of Amos 6 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -72,7 +81,7 @@ export const AMOS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'amos6-ease',
           html:
-            'Israel is at ease. She reclines on ivory beds, eats the best food, makes music, drinks wine. She has put far away the evil day — she thinks judgment will not come. But comfort without justice, ease without concern for the afflicted, is condemned. The very ease that seemed secure will be the reason for captivity.',
+            'Israel is at ease. She reclines on ivory beds, eats the best food, makes music, drinks wine. She has put far away the evil day — she thinks judgment will not come. But comfort without justice, ease without concern for the afflicted, is condemned. The very ease that seemed secure will be the reason for captivity[res:sefaria-amos-6-v1].',
         },
         {
           kind: 'carry',

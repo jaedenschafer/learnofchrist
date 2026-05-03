@@ -40,7 +40,7 @@ export const ISAIAH_21: RichChapterContent = {
           kind: 'commentary',
           id: 'isa21-desert',
           html:
-            'From the oracle\'s naming comes its weight. The watchman cries out; the burden falls.',
+            'From the oracle\'s naming comes its weight. The watchman cries out; the burden falls[res:sefaria-isaiah-21-v1].',
         },
         {
           kind: 'scripture',
@@ -124,6 +124,15 @@ export const ISAIAH_21: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Archaeological and textual evidence of the nations Isaiah prophesies against.',
     },
+    {
+      id: 'sefaria-isaiah-21-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 21 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.21',
+      description: 'The Hebrew text of Isaiah 21 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

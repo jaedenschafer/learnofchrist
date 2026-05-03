@@ -46,6 +46,15 @@ export const ESTHER_10: RichChapterContent = {
       url: 'https://www.sefaria.org/Megillat_Esther',
       description: 'Sefaria Hebrew text with medieval commentary on the Esther scroll.',
     },
+    {
+      id: 'sefaria-esther-10',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Esther 10 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Esther.10',
+      description: 'The Hebrew text of Esther 10 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -103,7 +112,7 @@ export const ESTHER_10: RichChapterContent = {
           kind: 'commentary',
           id: 'esth10-peace',
           html:
-            'Mordecai speaks peace to "all his seed" — not merely to the Jews of his time, but to the generations to come. He is a voice of blessing, of hope, of assurance that the exiled people will continue to find favor and protection. His words echo into the future.',
+            'Mordecai speaks peace to "all his seed" — not merely to the Jews of his time, but to the generations to come. He is a voice of blessing, of hope, of assurance that the exiled people will continue to find favor and protection. His words echo into the future[res:sefaria-esther-10].',
         },
         {
           kind: 'christ',

@@ -64,7 +64,7 @@ export const NEHEMIAH_3: RichChapterContent = {
           kind: 'commentary',
           id: 'sanctified-gate',
           html:
-            'Notice that the text says the priests "sanctified" the gate — they did more than build it. They consecrated it, set apart what they had made for a holy purpose. This is priestly work: to make the profane sacred, to consecrate the common for use in the presence of God. In building, they are also blessing[res:israel-museum-jerusalem].',
+            'Notice that the text says the priests "sanctified" the gate — they did more than build it. They consecrated it, set apart what they had made for a holy purpose. This is priestly work: to make the profane sacred, to consecrate the common for use in the presence of God. In building, they are also blessing[res:israel-museum-jerusalem][res:sefaria-nehemiah-3].',
         },
         {
           kind: 'carry',
@@ -393,6 +393,15 @@ export const NEHEMIAH_3: RichChapterContent = {
       url: 'https://www.imj.org.il/',
       description: 'Israel Museum exhibits on Iron Age and Hellenistic Jerusalem.',
     },
+    {
+      id: 'sefaria-nehemiah-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Nehemiah 3 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Nehemiah.3',
+      description: 'The Hebrew text of Nehemiah 3 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

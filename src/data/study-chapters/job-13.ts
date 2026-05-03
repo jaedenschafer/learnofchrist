@@ -40,6 +40,23 @@ export const JOB_13: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-13',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 13 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.13',
+      description: 'The Hebrew text of Job 13 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-13',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -81,7 +98,7 @@ export const JOB_13: RichChapterContent = {
           kind: 'commentary',
           id: 'job-seen-all',
           html:
-            '"Lo, mine eye hath seen all this, mine ear hath heard and understood it"—Job affirms his own capacity for perception and understanding. He has lived through the events. He has seen what his friends have only theorized about. He has direct access to truth that they do not.',
+            '"Lo, mine eye hath seen all this, mine ear hath heard and understood it"—Job affirms his own capacity for perception and understanding. He has lived through the events. He has seen what his friends have only theorized about. He has direct access to truth that they do not[res:sefaria-job-13][res:bibleodyssey-job-overview-13].',
         },
         {
           kind: 'commentary',

@@ -39,7 +39,7 @@ export const DANIEL_12: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'daniel12-michael',
-          html: 'Michael stands up. This is not a beginning, but a rising to final action. He has been standing throughout Daniel&apos;s visions, warring against spiritual powers, guarding the people of God. Now, "at that time," he stands to defend them in the final conflict. The time of trouble is coming—a trial such as never was. But it is not unguarded. Michael stands for the people of God. And those who are written in the book—those whose names are recorded in God&apos;s register—shall be delivered[res:bibleodyssey-apocalyptic].',
+          html: 'Michael stands up. This is not a beginning, but a rising to final action. He has been standing throughout Daniel&apos;s visions, warring against spiritual powers, guarding the people of God. Now, "at that time," he stands to defend them in the final conflict. The time of trouble is coming—a trial such as never was. But it is not unguarded. Michael stands for the people of God. And those who are written in the book—those whose names are recorded in God&apos;s register—shall be delivered[res:bibleodyssey-apocalyptic][res:sefaria-daniel-12].',
         },
         {
           kind: 'hebrew',
@@ -156,6 +156,15 @@ export const DANIEL_12: RichChapterContent = {
       url: 'https://www.britishmuseum.org/collection/object/Y_EA90920',
       description: 'Persian edict of Cyrus authorizing return of exiled peoples (ca. 539 BCE), fulfilling Daniel&apos;s prophecy.',
     }
+    {
+      id: 'sefaria-daniel-12',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Daniel 12 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Daniel.12',
+      description: 'The Hebrew text of Daniel 12 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

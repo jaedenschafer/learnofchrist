@@ -36,6 +36,15 @@ export const AMOS_1: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-amos/',
       description: 'Biography and context of Amos from Tekoa, an unlikely prophet called to confront injustice and judgment.',
     },
+    {
+      id: 'sefaria-amos-1-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Amos 1 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Amos.1',
+      description: 'The Hebrew text of Amos 1 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -77,7 +86,7 @@ export const AMOS_1: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'Damascus will face judgment because they have threshed Gilead with instruments of iron — they have brutalized the people of God. Fire will devour the palaces. The scepter will be cut off. God does not forget cruelty. He will judge those who harm His people.',
+            'Damascus will face judgment because they have threshed Gilead with instruments of iron — they have brutalized the people of God. Fire will devour the palaces. The scepter will be cut off. God does not forget cruelty. He will judge those who harm His people[res:sefaria-amos-1-v1].',
         },
         {
           kind: 'christ',

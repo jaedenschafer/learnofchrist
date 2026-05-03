@@ -53,7 +53,7 @@ export const JONAH_3: RichChapterContent = {
           id: 'jonah3-christ-preacher',
           title: 'Christ Connection — Preaching Repentance',
           html:
-            'Jesus began His ministry with the same proclamation as Jonah: "Repent: for the kingdom of heaven is at hand." Like Jonah, Christ calls the city, the people, the nation to turn away from evil. Like Jonah, He warns of judgment. But unlike Jonah, Christ offers not just warning but redemption—His own sacrifice for all who turn toward Him.',
+            'Jesus began His ministry with the same proclamation as Jonah: "Repent: for the kingdom of heaven is at hand." Like Jonah, Christ calls the city, the people, the nation to turn away from evil. Like Jonah, He warns of judgment. But unlike Jonah, Christ offers not just warning but redemption—His own sacrifice for all who turn toward Him[res:sefaria-jonah-3-v1].',
         },
         {
           kind: 'carry',
@@ -143,6 +143,15 @@ export const JONAH_3: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-jonah/',
       description: 'Study of Nineveh&apos;s response to Jonah&apos;s message and God&apos;s delight in repentance over judgment.',
     },
+    {
+      id: 'sefaria-jonah-3-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jonah 3 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jonah.3',
+      description: 'The Hebrew text of Jonah 3 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

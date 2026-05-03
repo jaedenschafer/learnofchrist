@@ -36,6 +36,15 @@ export const AMOS_3: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-amos/',
       description: 'Study of Amos 3:3 as the foundation for covenant alignment between God and His people.',
     },
+    {
+      id: 'sefaria-amos-3-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Amos 3 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Amos.3',
+      description: 'The Hebrew text of Amos 3 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -78,7 +87,7 @@ export const AMOS_3: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'God roars like a lion when He has something to say. His voice is not silent. A prophet cannot help but prophesy when God has spoken. This is the power of God&apos;s Word — it compels response. When God speaks, the question is not whether we hear but whether we will obey.',
+            'God roars like a lion when He has something to say. His voice is not silent. A prophet cannot help but prophesy when God has spoken. This is the power of God&apos;s Word — it compels response. When God speaks, the question is not whether we hear but whether we will obey[res:sefaria-amos-3-v1].',
         },
         {
           kind: 'christ',

@@ -55,7 +55,7 @@ export const ISAIAH_61: RichChapterContent = {
           kind: 'commentary',
           id: 'isa61-beauty',
           html:
-            'The Servant appoints beauty for ashes, oil of joy for mourning, garment of praise for heaviness of spirit. This is not merely comfort. It is replacement—a complete reversal of sorrow into joy. The people who were in mourning become trees of righteousness, planted by the Lord.',        },
+            'The Servant appoints beauty for ashes, oil of joy for mourning, garment of praise for heaviness of spirit. This is not merely comfort. It is replacement—a complete reversal of sorrow into joy. The people who were in mourning become trees of righteousness, planted by the Lord[res:sefaria-isaiah-61-v1][res:bibleodyssey-isaiah-overview-61].',        },
         {
           kind: 'hebrew',
           id: 'isa61-yovl',
@@ -142,6 +142,23 @@ export const ISAIAH_61: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.61',
       description: 'Sefaria open-access source text and translations for Isaiah 61.',
     },
+    {
+      id: 'sefaria-isaiah-61-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 61 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.61',
+      description: 'The Hebrew text of Isaiah 61 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-61',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

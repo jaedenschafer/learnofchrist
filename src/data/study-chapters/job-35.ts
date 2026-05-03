@@ -34,6 +34,23 @@ export const JOB_35: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Ancient Akkadian dialogue on divine justice, suffering, and retribution.',
     },
+    {
+      id: 'sefaria-job-35',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 35 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.35',
+      description: 'The Hebrew text of Job 35 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-35',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -72,7 +89,7 @@ export const JOB_35: RichChapterContent = {
           kind: 'commentary',
           id: 'job35-god-unaffected',
           html:
-            'Elihu states the central truth: God is not affected by human sin or righteousness. "If thou sinnest, what doest thou against him?" Your wickedness cannot harm God. "If thou be righteous, what givest thou him?" Your goodness does not enrich God. God is in neither position of debt nor of deprivation relative to you.',
+            'Elihu states the central truth: God is not affected by human sin or righteousness. "If thou sinnest, what doest thou against him?" Your wickedness cannot harm God. "If thou be righteous, what givest thou him?" Your goodness does not enrich God. God is in neither position of debt nor of deprivation relative to you[res:sefaria-job-35][res:bibleodyssey-job-overview-35].',
         },
         {
           kind: 'commentary',

@@ -89,7 +89,7 @@ export const JUDGES_17: RichChapterContent = {
           kind: 'commentary',
           id: 'jdg17-dedication',
           html:
-            'The mother claims she had already dedicated the silver to the Lord—as if that were always her intention. But Micah took it. Now she takes his confession as permission to proceed with what she says she planned all along. The stolen silver, blessed and dedicated, becomes the material for a graven image. Bad inputs yield bad outputs, no matter how many religious words we layer on top.',
+            'The mother claims she had already dedicated the silver to the Lord—as if that were always her intention. But Micah took it. Now she takes his confession as permission to proceed with what she says she planned all along. The stolen silver, blessed and dedicated, becomes the material for a graven image. Bad inputs yield bad outputs, no matter how many religious words we layer on top[res:sefaria-judges-17-v1].',
         },
         {
           kind: 'scripture',
@@ -443,6 +443,15 @@ export const JUDGES_17: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/articles/judges/',
       description: 'SBL overview of Judges 17–21 as a deliberate portrait of Israel without a king.',
     },
+    {
+      id: 'sefaria-judges-17-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Judges 17 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Judges.17',
+      description: 'The Hebrew text of Judges 17 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
 

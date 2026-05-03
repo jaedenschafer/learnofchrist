@@ -48,6 +48,23 @@ export const ESTHER_6: RichChapterContent = {
       url: 'https://www.theoi.com/Text/HerodotusHistories.html',
       description: 'Herodotus accounts of Xerxes, Persian court intrigues, and royal authority.',
     },
+    {
+      id: 'sefaria-esther-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Esther 6 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Esther.6',
+      description: 'The Hebrew text of Esther 6 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-esther-overview-6',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Esther — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/esther/',
+      description: 'Open-access SBL essay on the historical and literary setting of Esther.',
+    },
+
   ],
 
   sections: [
@@ -111,7 +128,7 @@ export const ESTHER_6: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'God is awake when we sleep. God remembers what we have forgotten. There are debts unpaid in the world, kindnesses done in secret that have never been acknowledged. And God keeps the record. In the night, when our own schemes seem foolproof, God is arranging a different story — reading an old entry in a book we thought was closed.',
+            'God is awake when we sleep. God remembers what we have forgotten. There are debts unpaid in the world, kindnesses done in secret that have never been acknowledged. And God keeps the record. In the night, when our own schemes seem foolproof, God is arranging a different story — reading an old entry in a book we thought was closed[res:sefaria-esther-6][res:bibleodyssey-esther-overview-6].',
         },
         {
           kind: 'reflection',

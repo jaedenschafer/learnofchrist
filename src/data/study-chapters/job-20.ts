@@ -40,6 +40,23 @@ export const JOB_20: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-20',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 20 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.20',
+      description: 'The Hebrew text of Job 20 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-20',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -96,7 +113,7 @@ export const JOB_20: RichChapterContent = {
           kind: 'commentary',
           id: 'job20-spirit',
           html:
-            'Zophar is indignant. He says his thoughts press upon him, forcing him to speak. "The spirit of my understanding causeth me to answer." He believes he speaks with divine inspiration. He believes the truth is so clear, so obvious, that he is compelled to proclaim it. This is the confidence of the dogmatist—the certainty that his interpretation of reality is the only possible one.',
+            'Zophar is indignant. He says his thoughts press upon him, forcing him to speak. "The spirit of my understanding causeth me to answer." He believes he speaks with divine inspiration. He believes the truth is so clear, so obvious, that he is compelled to proclaim it. This is the confidence of the dogmatist—the certainty that his interpretation of reality is the only possible one[res:sefaria-job-20][res:bibleodyssey-job-overview-20].',
         },
         {
           kind: 'hebrew',

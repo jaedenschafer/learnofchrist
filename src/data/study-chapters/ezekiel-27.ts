@@ -43,7 +43,7 @@ export const EZEKIEL_27: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek27-ship',
-          html: 'Tyre is not merely a city. She is a ship—perfectly built, laden with goods, moving across the seas bringing wealth and merchandise to all nations. The ship&apos;s construction speaks to beauty and craftsmanship: cedar from Lebanon for the masts, oak from Bashan for the oars, benches of ivory brought from distant lands. Even the sail is made of fine linen with embroidered work—beauty and function united[res:ezekiel-revelation-intertextual].',
+          html: 'Tyre is not merely a city. She is a ship—perfectly built, laden with goods, moving across the seas bringing wealth and merchandise to all nations. The ship&apos;s construction speaks to beauty and craftsmanship: cedar from Lebanon for the masts, oak from Bashan for the oars, benches of ivory brought from distant lands. Even the sail is made of fine linen with embroidered work—beauty and function united[res:ezekiel-revelation-intertextual][res:sefaria-ezekiel-27].',
         },
         {
           kind: 'commentary',
@@ -135,6 +135,15 @@ export const EZEKIEL_27: RichChapterContent = {
       url: 'https://www.imj.org.il/en',
       description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
     }
+    {
+      id: 'sefaria-ezekiel-27',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 27 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.27',
+      description: 'The Hebrew text of Ezekiel 27 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

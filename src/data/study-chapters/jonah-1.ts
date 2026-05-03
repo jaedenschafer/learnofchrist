@@ -54,7 +54,7 @@ export const JONAH_1: RichChapterContent = {
           id: 'jonah1-christ-storm',
           title: 'Christ Connection — The Storm and the Sleeper',
           html:
-            'In Matthew 4, Jesus sleeps in a boat while a great storm threatens His disciples. When they wake Him in terror, He speaks and the wind and waves obey. The parallel is striking: Jonah fleeing God&apos;s call, asleep while judgment rolls toward him; Christ at rest while the elements rage, at peace because He dwells in perfect alignment with the Father&apos;s will. One runs from God&apos;s purpose and finds no peace. The other rests in it completely.',
+            'In Matthew 4, Jesus sleeps in a boat while a great storm threatens His disciples. When they wake Him in terror, He speaks and the wind and waves obey. The parallel is striking: Jonah fleeing God&apos;s call, asleep while judgment rolls toward him; Christ at rest while the elements rage, at peace because He dwells in perfect alignment with the Father&apos;s will. One runs from God&apos;s purpose and finds no peace. The other rests in it completely[res:sefaria-jonah-1-v1].',
         },
         {
           kind: 'carry',
@@ -174,6 +174,15 @@ export const JONAH_1: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Cuneiform records and palace reliefs from ancient Nineveh, the Assyrian capital Jonah was sent to warn.',
     },
+    {
+      id: 'sefaria-jonah-1-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jonah 1 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jonah.1',
+      description: 'The Hebrew text of Jonah 1 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

@@ -77,7 +77,7 @@ export const EXODUS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'horeb-context',
           html:
-            'Horeb is the mountain of God—the same peak where Israel will later gather at the foot to receive the Law, and where Elijah will later come when he flees the kingdom in despair. It is not that Moses set out knowing he would meet God. He was keeping sheep. He came to this place out of habit, following the pasture. The divine appointment catches him at work.',
+            'Horeb is the mountain of God—the same peak where Israel will later gather at the foot to receive the Law, and where Elijah will later come when he flees the kingdom in despair. It is not that Moses set out knowing he would meet God. He was keeping sheep. He came to this place out of habit, following the pasture. The divine appointment catches him at work[res:sefaria-exodus-3].',
         },
         {
           kind: 'hebrew',
@@ -518,6 +518,15 @@ export const EXODUS_3: RichChapterContent = {
       url: 'https://www.sefaria.org/Exodus.3',
       description: 'Hebrew text and interpretation of the divine name revealed.',
     },
+    {
+      id: 'sefaria-exodus-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 3 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.3',
+      description: 'The Hebrew text of Exodus 3 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

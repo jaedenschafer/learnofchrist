@@ -60,7 +60,7 @@ export const JEREMIAH_21: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jeremiah-21-78mid-1',
-          html: 'Zedekiah&apos;s messengers ask if the LORD will fight for them. Jeremiah&apos;s answer pivots — the LORD will fight, but against them, not for them[res:bibleodyssey-jeremiah].',
+          html: 'Zedekiah&apos;s messengers ask if the LORD will fight for them. Jeremiah&apos;s answer pivots — the LORD will fight, but against them, not for them[res:bibleodyssey-jeremiah][res:sefaria-jeremiah-21].',
         },
         {
           kind: 'scripture',
@@ -264,5 +264,14 @@ export const JEREMIAH_21: RichChapterContent = {
       url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
       description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
     }
+    {
+      id: 'sefaria-jeremiah-21',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 21 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.21',
+      description: 'The Hebrew text of Jeremiah 21 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 };

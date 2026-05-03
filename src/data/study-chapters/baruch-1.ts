@@ -65,7 +65,7 @@ export const BARUCH_1: RichChapterContent = {
           kind: 'commentary',
           id: 'bar1-gathered',
           html:
-            'The reading is public. Everyone gathers—mighty men and elders, small and great. This is not a private confession whispered in shame. It is a communal act. The scroll is read aloud in the hearing of all. This matters: confession spoken before witnesses is more powerful than confession hidden away. When you speak your sin aloud, you own it fully.',
+            'The reading is public. Everyone gathers—mighty men and elders, small and great. This is not a private confession whispered in shame. It is a communal act. The scroll is read aloud in the hearing of all. This matters: confession spoken before witnesses is more powerful than confession hidden away. When you speak your sin aloud, you own it fully[res:sefaria-baruch-1].',
         },
         {
           kind: 'carry',
@@ -513,6 +513,15 @@ export const BARUCH_1: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/babylonian-exile/',
       description: 'SBL entry on historical and theological context of Judean exile.',
     },
+    {
+      id: 'sefaria-baruch-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Baruch 1 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Baruch.1',
+      description: 'The Hebrew text of Baruch 1 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {

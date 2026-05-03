@@ -37,7 +37,7 @@ export const ISAIAH_50: RichChapterContent = {
           kind: 'commentary',
           id: 'isa50-faithfulness',
           html:
-            'God asks the people: Where is the bill of your mother\'s divorcement? Have I abandoned you? No. Has some creditor bought you from Me? No. You have sold yourselves through your iniquities. God has not cast you off, but you have turned away from Him. The Lord then demonstrates His power: at His rebuke, the seas dry up. He commands the heavens to wear mourning clothes. His power is undiminished. If He seems absent, it is not because He has lost His strength, but because the people have severed their connection to Him.',
+            'God asks the people: Where is the bill of your mother\'s divorcement? Have I abandoned you? No. Has some creditor bought you from Me? No. You have sold yourselves through your iniquities. God has not cast you off, but you have turned away from Him. The Lord then demonstrates His power: at His rebuke, the seas dry up. He commands the heavens to wear mourning clothes. His power is undiminished. If He seems absent, it is not because He has lost His strength, but because the people have severed their connection to Him[res:sefaria-isaiah-50-v1].',
         },
         {
           kind: 'carry',
@@ -159,6 +159,15 @@ export const ISAIAH_50: RichChapterContent = {
       url: 'https://intertextual.bible/',
       description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
     },
+    {
+      id: 'sefaria-isaiah-50-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 50 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.50',
+      description: 'The Hebrew text of Isaiah 50 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

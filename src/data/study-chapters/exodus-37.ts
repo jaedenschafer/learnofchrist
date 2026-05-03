@@ -46,7 +46,7 @@ export const EXODUS_37: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ark-made',
-          html: 'Notice the order: wood and gold. The wood is earthly, mortal, temporary. The gold—incorruptible, precious, heavenly. The chest that holds the broken law is wrapped in a beauty that transcends it. This is the image of the cross: judgment (the broken law inside) covered by mercy and redemption (the gold without). The staves ensure the ark is never touched by human hands. God&apos;s holiness and the people&apos;s need for Him will travel together, but never as equals. The people carry it; they do not control it[res:ark-mercy-seat].',
+          html: 'Notice the order: wood and gold. The wood is earthly, mortal, temporary. The gold—incorruptible, precious, heavenly. The chest that holds the broken law is wrapped in a beauty that transcends it. This is the image of the cross: judgment (the broken law inside) covered by mercy and redemption (the gold without). The staves ensure the ark is never touched by human hands. God&apos;s holiness and the people&apos;s need for Him will travel together, but never as equals. The people carry it; they do not control it[res:ark-mercy-seat][res:sefaria-exodus-37].',
         },
         {
           kind: 'christ',
@@ -319,6 +319,15 @@ export const EXODUS_37: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/tabernacle/',
       description: 'Lampstand, table, altar, and meanings.',
     },
+    {
+      id: 'sefaria-exodus-37',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 37 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.37',
+      description: 'The Hebrew text of Exodus 37 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

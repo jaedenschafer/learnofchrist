@@ -56,7 +56,7 @@ export const ISAIAH_32: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah32-king-righteous',
           html:
-            'The chapter opens with a vision of restoration: a king reigning in righteousness. This is not a mere earthly ruler sitting on an earthly throne. This is a vision of what human leadership can be when it is aligned with the divine character. Such a king does not rule through fear or manipulation. He rules through righteousness—which is to say, he rules in alignment with the character of God. The princes under him rule in judgment—not favoritism, not corruption, but true judgment, discerning between right and wrong, protecting the weak and punishing the wicked.',
+            'The chapter opens with a vision of restoration: a king reigning in righteousness. This is not a mere earthly ruler sitting on an earthly throne. This is a vision of what human leadership can be when it is aligned with the divine character. Such a king does not rule through fear or manipulation. He rules through righteousness—which is to say, he rules in alignment with the character of God. The princes under him rule in judgment—not favoritism, not corruption, but true judgment, discerning between right and wrong, protecting the weak and punishing the wicked[res:sefaria-isaiah-32-v1][res:bibleodyssey-isaiah-overview-32].',
         },
         {
           kind: 'hebrew',
@@ -190,6 +190,23 @@ export const ISAIAH_32: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.32',
       description: 'Sefaria open-access source text and translations for Isaiah 32.',
     },
+    {
+      id: 'sefaria-isaiah-32-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 32 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.32',
+      description: 'The Hebrew text of Isaiah 32 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-32',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

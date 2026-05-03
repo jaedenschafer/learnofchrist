@@ -41,7 +41,7 @@ export const EXODUS_39: RichChapterContent = {
           kind: 'commentary',
           id: 'c-service-garments',
           html:
-            'After the sin at the golden calf, after the breaking of the tablets, Israel begins again. The work is not hurried or sloppy. It is careful: blue, purple, scarlet — the same colors used in the tabernacle itself. These garments are woven with intention. They are not merely functional; they are prayers in thread and dye[res:vestments].',
+            'After the sin at the golden calf, after the breaking of the tablets, Israel begins again. The work is not hurried or sloppy. It is careful: blue, purple, scarlet — the same colors used in the tabernacle itself. These garments are woven with intention. They are not merely functional; they are prayers in thread and dye[res:vestments][res:sefaria-exodus-39].',
         },
         {
           kind: 'scripture',
@@ -434,6 +434,15 @@ export const EXODUS_39: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/breastplate/',
       description: 'Urim and Thummim and priestly role.',
     },
+    {
+      id: 'sefaria-exodus-39',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 39 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.39',
+      description: 'The Hebrew text of Exodus 39 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

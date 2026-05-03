@@ -51,7 +51,7 @@ export const EXODUS_5: RichChapterContent = {
           id: 'christ-voice',
           title: 'Christ Connection — The Voice Pharaoh Does Not Recognize',
           html:
-            'Pharaoh hears the demand and his reply is absolute: "Who is the LORD?" He does not recognize the voice. Two centuries later, the Pharisees would stand before Jesus and ask the same thing in different words: "By what authority doest thou these things?" (Matt. 21:23). The person standing before them claimed to be God&apos;s voice and God&apos;s messenger—and they, like Pharaoh, wanted nothing to do with it. Rejecting God&apos;s voice is ancient. It is also fatal.',
+            'Pharaoh hears the demand and his reply is absolute: "Who is the LORD?" He does not recognize the voice. Two centuries later, the Pharisees would stand before Jesus and ask the same thing in different words: "By what authority doest thou these things?" (Matt. 21:23). The person standing before them claimed to be God&apos;s voice and God&apos;s messenger—and they, like Pharaoh, wanted nothing to do with it. Rejecting God&apos;s voice is ancient. It is also fatal[res:sefaria-exodus-5].',
         },
         {
           kind: 'scripture',
@@ -489,6 +489,15 @@ export const EXODUS_5: RichChapterContent = {
       url: 'https://www.penn.museum/sites/expedition/',
       description: 'Archaeological evidence on taskmasters and forced labor.',
     },
+    {
+      id: 'sefaria-exodus-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 5 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.5',
+      description: 'The Hebrew text of Exodus 5 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

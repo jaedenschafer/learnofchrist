@@ -67,7 +67,7 @@ export const JEREMIAH_17: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer17-written',
-          html: 'Sin is inscribed on the heart "with a pen of iron, and with the point of a diamond" — the image is one of permanence. The sin is not superficial; it is carved deeply. And the inscription is visible not just inwardly but in external action — the children remember the altars of idolatry, the high places of false worship. The sin has become the inheritance of the people[res:babylonian-chronicle].',
+          html: 'Sin is inscribed on the heart "with a pen of iron, and with the point of a diamond" — the image is one of permanence. The sin is not superficial; it is carved deeply. And the inscription is visible not just inwardly but in external action — the children remember the altars of idolatry, the high places of false worship. The sin has become the inheritance of the people[res:babylonian-chronicle][res:sefaria-jeremiah-17].',
         },
         {
           kind: 'commentary',
@@ -436,5 +436,14 @@ export const JEREMIAH_17: RichChapterContent = {
       url: 'https://www.imj.org.il/en/collections/lachish-letters',
       description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
     }
+    {
+      id: 'sefaria-jeremiah-17',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 17 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.17',
+      description: 'The Hebrew text of Jeremiah 17 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 };

@@ -44,6 +44,15 @@ export const HOSEA_5: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/ephraim/',
       description: 'Historical and theological context for the division of Israel and God&apos;s address to both kingdoms.',
     },
+    {
+      id: 'sefaria-hosea-5-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 5 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Hosea.5',
+      description: 'The Hebrew text of Hosea 5 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -85,7 +94,7 @@ export const HOSEA_5: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea5-judgment',
           html:
-            'God knows Ephraim. He sees their whoredom, their defilement. Yet they do not frame their doings to turn back to God. The spirit of whoredoms is in their midst. They have not known the Lord. And their pride testifies against them — they are unwilling to acknowledge their need, unwilling to return.',
+            'God knows Ephraim. He sees their whoredom, their defilement. Yet they do not frame their doings to turn back to God. The spirit of whoredoms is in their midst. They have not known the Lord. And their pride testifies against them — they are unwilling to acknowledge their need, unwilling to return[res:sefaria-hosea-5-v1].',
         },
         {
           kind: 'carry',

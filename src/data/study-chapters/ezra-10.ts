@@ -47,6 +47,23 @@ export const EZRA_10: RichChapterContent = {
       url: 'https://oi.uchicago.edu/',
       description: 'OI scholarly resources on 5th-century BCE Persian rule and administration.',
     },
+    {
+      id: 'sefaria-ezra-10',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezra 10 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezra.10',
+      description: 'The Hebrew text of Ezra 10 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-ezra-overview-10',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezra — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/ezra/',
+      description: 'Open-access SBL essay on the historical and literary setting of Ezra.',
+    },
+
   ],
 
   sections: [
@@ -97,7 +114,7 @@ export const EZRA_10: RichChapterContent = {
           kind: 'commentary',
           id: 'ezra10-hope',
           html:
-            'In the midst of judgment and sorrow, Shechaniah speaks a word that seems impossible: "There is hope." He does not say this lightly. He has stood in that same assembly, listening to Ezra weep. He knows the weight of what has been done. And yet he speaks hope — not false comfort, but the hope that comes from a people willing to pay the cost of repentance.',
+            'In the midst of judgment and sorrow, Shechaniah speaks a word that seems impossible: "There is hope." He does not say this lightly. He has stood in that same assembly, listening to Ezra weep. He knows the weight of what has been done. And yet he speaks hope — not false comfort, but the hope that comes from a people willing to pay the cost of repentance[res:sefaria-ezra-10][res:bibleodyssey-ezra-overview-10].',
         },
         {
           kind: 'hebrew',

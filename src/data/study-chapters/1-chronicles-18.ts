@@ -42,6 +42,23 @@ export const CHRONICLES_1_18: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Artifacts and inscriptions illuminating the Davidic monarchy and administration.',
     },
+    {
+      id: 'sefaria-1-chronicles-18',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 18 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.18',
+      description: 'The Hebrew text of 1 Chronicles 18 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-1-chronicles-overview-18',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -71,7 +88,7 @@ export const CHRONICLES_1_18: RichChapterContent = {
           kind: 'commentary',
           id: 'moab-servants',
           html:
-            'Moab, the nation born of Lot&apos;s incest (Genesis 19), becomes David&apos;s servant people. They bring gifts — a sign of submission and tribute. The conquered do not disappear; they are integrated into David&apos;s kingdom. They serve. They bring their wealth. Yet they remain. This is the pattern that repeats throughout the chapter: not annihilation, but subordination and tribute.',
+            'Moab, the nation born of Lot&apos;s incest (Genesis 19), becomes David&apos;s servant people. They bring gifts — a sign of submission and tribute. The conquered do not disappear; they are integrated into David&apos;s kingdom. They serve. They bring their wealth. Yet they remain. This is the pattern that repeats throughout the chapter: not annihilation, but subordination and tribute[res:sefaria-1-chronicles-18][res:bibleodyssey-1-chronicles-overview-18].',
         },
         {
           kind: 'carry',

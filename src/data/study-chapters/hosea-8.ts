@@ -36,6 +36,15 @@ export const HOSEA_8: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
       description: 'Theological study of the law of sowing and reaping as natural consequence rather than imposed judgment.',
     },
+    {
+      id: 'sefaria-hosea-8-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 8 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Hosea.8',
+      description: 'The Hebrew text of Hosea 8 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -104,7 +113,7 @@ export const HOSEA_8: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea-8-78mid-1',
           html:
-            'The trumpet sounds, the calf is broken, the harvest fails. Hosea presses the same truth from a third angle — what Israel sows, she will reap.',
+            'The trumpet sounds, the calf is broken, the harvest fails. Hosea presses the same truth from a third angle — what Israel sows, she will reap[res:sefaria-hosea-8-v1].',
         },
         {
           kind: 'scripture',

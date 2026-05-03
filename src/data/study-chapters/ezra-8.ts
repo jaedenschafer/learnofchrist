@@ -39,6 +39,23 @@ export const EZRA_8: RichChapterContent = {
       url: 'https://oi.uchicago.edu/',
       description: 'OI scholarly resources on 5th-century BCE Persian rule and administration.',
     },
+    {
+      id: 'sefaria-ezra-8',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezra 8 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezra.8',
+      description: 'The Hebrew text of Ezra 8 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-ezra-overview-8',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezra — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/ezra/',
+      description: 'Open-access SBL essay on the historical and literary setting of Ezra.',
+    },
+
   ],
 
   sections: [
@@ -76,7 +93,7 @@ export const EZRA_8: RichChapterContent = {
           kind: 'commentary',
           id: 'ezra8-priests-and-singers',
           html:
-            'The first seven families are named: Phinehas, Ithamar, David (the priestly lines), and then Shechaniah, Pahath-moab, Adin, and Elam. Each brings a leader and a specific count of males—a family unit whole and accounted for. Each family bears the weight of the covenant promise, returning to rebuild what was destroyed.',
+            'The first seven families are named: Phinehas, Ithamar, David (the priestly lines), and then Shechaniah, Pahath-moab, Adin, and Elam. Each brings a leader and a specific count of males—a family unit whole and accounted for. Each family bears the weight of the covenant promise, returning to rebuild what was destroyed[res:sefaria-ezra-8][res:bibleodyssey-ezra-overview-8].',
         },
         {
           kind: 'scripture',

@@ -42,6 +42,23 @@ export const JOB_2: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/job/',
       description: 'SBL entry on Job: composition, wisdom tradition, theodicy, textual history.',
     },
+    {
+      id: 'sefaria-job-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 2 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.2',
+      description: 'The Hebrew text of Job 2 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-2',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -95,7 +112,7 @@ export const JOB_2: RichChapterContent = {
           kind: 'commentary',
           id: 'sec1-skin-for-skin',
           html:
-            '"Skin for skin"—Satan&apos;s calculation is cold and precise. He sees human nature as wholly self-interested. A man will trade anything external—possessions, family, status—to preserve his own flesh. Strip him of wealth, and he may endure. But strike his body, his skin, his flesh itself, and the calculus changes. This, Satan believes, will break Job. But the logic reveals Satan&apos;s own poverty of understanding. He assumes that flesh is the highest good, that the self is the ultimate measure. He does not understand covenant, faith, or the human capacity to love something greater than self-preservation.',
+            '"Skin for skin"—Satan&apos;s calculation is cold and precise. He sees human nature as wholly self-interested. A man will trade anything external—possessions, family, status—to preserve his own flesh. Strip him of wealth, and he may endure. But strike his body, his skin, his flesh itself, and the calculus changes. This, Satan believes, will break Job. But the logic reveals Satan&apos;s own poverty of understanding. He assumes that flesh is the highest good, that the self is the ultimate measure. He does not understand covenant, faith, or the human capacity to love something greater than self-preservation[res:sefaria-job-2][res:bibleodyssey-job-overview-2].',
         },
         {
           kind: 'commentary',

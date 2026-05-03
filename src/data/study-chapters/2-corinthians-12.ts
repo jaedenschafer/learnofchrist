@@ -54,6 +54,15 @@ export const SECOND_CORINTHIANS_12: RichChapterContent = {
       url: 'https://intertextual.bible/text/2-corinthians-12.7/galatians-4.13',
       description: 'Cross-reference showing how Paul&apos;s physical weakness becomes the occasion for believers to see Christ&apos;s strength working through him.',
     },
+    {
+      id: 'sefaria-2-corinthians-12',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Corinthians 12 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Corinthians.12',
+      description: 'The Hebrew text of 2 Corinthians 12 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -80,7 +89,7 @@ export const SECOND_CORINTHIANS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'cor2-12-visions',
           html:
-            'Paul opens by hesitating. He will speak of spiritual experiences, but he is already distancing himself from the act of boasting. The phrase "it is not expedient" suggests that even though he could boast, something in him resists. To speak of visions as credentials for apostolic authority feels like a concession to his critics.',
+            'Paul opens by hesitating. He will speak of spiritual experiences, but he is already distancing himself from the act of boasting. The phrase "it is not expedient" suggests that even though he could boast, something in him resists. To speak of visions as credentials for apostolic authority feels like a concession to his critics[res:sefaria-2-corinthians-12].',
         },
         {
           kind: 'scripture',

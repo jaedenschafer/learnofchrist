@@ -51,7 +51,7 @@ export const EXODUS_23: RichChapterContent = {
           kind: 'commentary',
           id: 'ex23-false',
           html:
-            'A false report can destroy without ever being true. The command is not to put your hand with the wicked — not to be present when they do it, not to stay silent, not to lend your voice. Witness is a covenant word. To testify falsely is to break the covenant structure of the community itself[res:justice-festivals].',
+            'A false report can destroy without ever being true. The command is not to put your hand with the wicked — not to be present when they do it, not to stay silent, not to lend your voice. Witness is a covenant word. To testify falsely is to break the covenant structure of the community itself[res:justice-festivals][res:sefaria-exodus-23].',
         },
         {
           kind: 'commentary',
@@ -684,6 +684,15 @@ export const EXODUS_23: RichChapterContent = {
       url: 'https://www.sefaria.org/Exodus.20-23',
       description: 'Complete code with Hebrew and commentary.',
     },
+    {
+      id: 'sefaria-exodus-23',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 23 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.23',
+      description: 'The Hebrew text of Exodus 23 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

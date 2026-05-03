@@ -34,6 +34,23 @@ export const JOB_39: RichChapterContent = {
       url: 'https://www.sefaria.org/Job',
       description: 'Sefaria Hebrew text with notes on rare terms and wisdom vocabulary.',
     },
+    {
+      id: 'sefaria-job-39',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 39 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.39',
+      description: 'The Hebrew text of Job 39 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-39',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -88,7 +105,7 @@ export const JOB_39: RichChapterContent = {
           kind: 'commentary',
           id: 'job39-wild-goats',
           html:
-            'God asks about the wild goats giving birth in the rocks. This is knowledge Job does not have. He does not know when they are born, how long the pregnancy lasts, what pain they endure. Yet God knows all these hidden things. The creatures of the wilderness are fully known to God, fully cared for by God, even though they are beyond human knowledge or control.',
+            'God asks about the wild goats giving birth in the rocks. This is knowledge Job does not have. He does not know when they are born, how long the pregnancy lasts, what pain they endure. Yet God knows all these hidden things. The creatures of the wilderness are fully known to God, fully cared for by God, even though they are beyond human knowledge or control[res:sefaria-job-39][res:bibleodyssey-job-overview-39].',
         },
         {
           kind: 'commentary',

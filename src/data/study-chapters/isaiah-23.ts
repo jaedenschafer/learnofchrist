@@ -85,7 +85,7 @@ export const ISAIAH_23: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah23-ships',
           html:
-            'The oracle begins with a command: "Howl, ye ships of Tarshish." The ships of Tyre, which ranged across the seas gathering wealth, are now the witnesses to its ruin. The city is laid waste; there is no house, no entering. What was a bustling center of commerce becomes empty, abandoned.',
+            'The oracle begins with a command: "Howl, ye ships of Tarshish." The ships of Tyre, which ranged across the seas gathering wealth, are now the witnesses to its ruin. The city is laid waste; there is no house, no entering. What was a bustling center of commerce becomes empty, abandoned[res:sefaria-isaiah-23-v1].',
         },
         {
           kind: 'commentary',
@@ -191,6 +191,15 @@ export const ISAIAH_23: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Archaeological and textual evidence of the nations Isaiah prophesies against.',
     },
+    {
+      id: 'sefaria-isaiah-23-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 23 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.23',
+      description: 'The Hebrew text of Isaiah 23 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

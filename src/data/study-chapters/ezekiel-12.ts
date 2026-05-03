@@ -38,7 +38,7 @@ export const EZEKIEL_12: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk12-sign-act-exile',
-          html: 'The sign-act is explicit. Ezekiel prepares a bag as though for exile. He carries it out in the sight of all. He digs through a wall — as a refugee might flee through a collapsed or weakened wall rather than walking openly through a gate. He covers his face so he cannot see the land he is leaving. All of this is visible prophecy. The exiles who see will understand: Ezekiel is showing us what will happen. The king will not walk openly through the gates. He will flee. The people will not gather their goods in orderly fashion. They will flee in panic. This is the reality Ezekiel makes visible[res:ezekiel-revelation-intertextual].',
+          html: 'The sign-act is explicit. Ezekiel prepares a bag as though for exile. He carries it out in the sight of all. He digs through a wall — as a refugee might flee through a collapsed or weakened wall rather than walking openly through a gate. He covers his face so he cannot see the land he is leaving. All of this is visible prophecy. The exiles who see will understand: Ezekiel is showing us what will happen. The king will not walk openly through the gates. He will flee. The people will not gather their goods in orderly fashion. They will flee in panic. This is the reality Ezekiel makes visible[res:ezekiel-revelation-intertextual][res:sefaria-ezekiel-12].',
         },
         {
           kind: 'carry',
@@ -113,6 +113,15 @@ export const EZEKIEL_12: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/gog/',
       description: 'SBL entry on the mysterious Gog figure in Ezekiel and Revelation.',
     }
+    {
+      id: 'sefaria-ezekiel-12',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 12 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.12',
+      description: 'The Hebrew text of Ezekiel 12 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: false,

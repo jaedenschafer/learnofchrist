@@ -60,7 +60,7 @@ export const FOURTH_MACCABEES_2: RichChapterContent = {
           kind: 'commentary',
           id: 'mac4-2-call',
           html:
-            'The apostrophe to reason is not invocation of something separate from Joseph&apos;s soul, but the cry of a man calling his whole self back into alignment. It is like crying out to God: the inner appeal to what is highest in him when what is lowest most urgently claims him.',
+            'The apostrophe to reason is not invocation of something separate from Joseph&apos;s soul, but the cry of a man calling his whole self back into alignment. It is like crying out to God: the inner appeal to what is highest in him when what is lowest most urgently claims him[res:sefaria-4-maccabees-2].',
         },
         {
           kind: 'christ',
@@ -441,6 +441,15 @@ export const FOURTH_MACCABEES_2: RichChapterContent = {
       url: 'https://www.theoi.com/',
       description: 'Hellenistic Stoic concepts of reason controlling passion and emotion.',
     },
+    {
+      id: 'sefaria-4-maccabees-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '4 Maccabees 2 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/IV_Maccabees.2',
+      description: 'The Hebrew text of 4 Maccabees 2 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {

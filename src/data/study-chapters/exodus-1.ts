@@ -64,7 +64,7 @@ export const EXODUS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'ex1-jacob-line',
           html:
-            'Genesis ended with Joseph establishing his father and brothers in Egypt as honored guests. Now Exodus opens with the same family—Jacob&apos;s line—rooted and multiplying in a foreign land. The list names twelve sons: the foundation of the twelve tribes. From family to nation; from guest to permanent resident.',
+            'Genesis ended with Joseph establishing his father and brothers in Egypt as honored guests. Now Exodus opens with the same family—Jacob&apos;s line—rooted and multiplying in a foreign land. The list names twelve sons: the foundation of the twelve tribes. From family to nation; from guest to permanent resident[res:sefaria-exodus-1].',
         },
         {
           kind: 'commentary',
@@ -483,6 +483,15 @@ export const EXODUS_1: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/midwives/',
       description: 'Examination of the role and agency of Shiphrah and Puah.',
     },
+    {
+      id: 'sefaria-exodus-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 1 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.1',
+      description: 'The Hebrew text of Exodus 1 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

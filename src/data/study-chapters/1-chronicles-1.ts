@@ -48,6 +48,15 @@ export const CHRONICLES_1_1: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/articles/genealogies/',
       description: 'SBL essay on the function and theology of biblical genealogies as covenantal memory.',
     },
+    {
+      id: 'sefaria-1-chronicles-1-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 1 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.1',
+      description: 'The Hebrew text of 1 Chronicles 1 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
 
@@ -85,7 +94,7 @@ export const CHRONICLES_1_1: RichChapterContent = {
           kind: 'commentary',
           id: 'antediluvians',
           html:
-            'The antediluvian patriarchs — Enosh, Kenan, Mahalaleel, Jered, Henoch, Methuselah, Lamech — live in a different age, before the flood. The genealogy does not linger on them. It simply names them, preserving their memory in the record. Two stand out: Henoch, who "walked with God and was not, for God took him" (mentioned without genealogical detail here, but more fully in Genesis 5); and Methuselah, the longest-lived human. These are not merely historical figures — they are witnesses to a world that existed before the judgment of the flood.',
+            'The antediluvian patriarchs — Enosh, Kenan, Mahalaleel, Jered, Henoch, Methuselah, Lamech — live in a different age, before the flood. The genealogy does not linger on them. It simply names them, preserving their memory in the record. Two stand out: Henoch, who "walked with God and was not, for God took him" (mentioned without genealogical detail here, but more fully in Genesis 5); and Methuselah, the longest-lived human. These are not merely historical figures — they are witnesses to a world that existed before the judgment of the flood[res:sefaria-1-chronicles-1-v1].',
         },
         {
           kind: 'commentary',

@@ -55,7 +55,7 @@ export const EZEKIEL_18: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek18-souls',
-          html: '"Behold, all souls are mine." God claims radical ownership. The soul is not the property of family lineage or tribal identity. Each person stands individually before God, owned by Him, answerable to Him. The proverb that blames parents for children&apos;s suffering assumes that sin works like inheritance—you are marked by your family&apos;s failure. But God says: No. Each soul is mine. Each soul will answer for itself[res:gog-magog-bibleodyssey].',
+          html: '"Behold, all souls are mine." God claims radical ownership. The soul is not the property of family lineage or tribal identity. Each person stands individually before God, owned by Him, answerable to Him. The proverb that blames parents for children&apos;s suffering assumes that sin works like inheritance—you are marked by your family&apos;s failure. But God says: No. Each soul is mine. Each soul will answer for itself[res:gog-magog-bibleodyssey][res:sefaria-ezekiel-18].',
         },
         {
           kind: 'commentary',
@@ -188,6 +188,15 @@ export const EZEKIEL_18: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/gog/',
       description: 'SBL entry on the mysterious Gog figure in Ezekiel and Revelation.',
     }
+    {
+      id: 'sefaria-ezekiel-18',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 18 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.18',
+      description: 'The Hebrew text of Ezekiel 18 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

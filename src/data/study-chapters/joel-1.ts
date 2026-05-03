@@ -36,6 +36,15 @@ export const JOEL_1: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-joel/',
       description: 'Study of locusts as harbingers of the day of the Lord and God&apos;s call to spiritual awakening.',
     },
+    {
+      id: 'sefaria-joel-1-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Joel 1 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Joel.1',
+      description: 'The Hebrew text of Joel 1 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -79,7 +88,7 @@ export const JOEL_1: RichChapterContent = {
           kind: 'commentary',
           id: 'joel1-locusts',
           html:
-            'The plague comes in waves. Four types of locusts — palmerworm, locust, cankerworm, caterpiller — each eating what the previous one left. It is a picture of complete devastation. Nothing escapes. Everything is consumed. Joel uses this as a sign of the judgment that will come on the earth.',
+            'The plague comes in waves. Four types of locusts — palmerworm, locust, cankerworm, caterpiller — each eating what the previous one left. It is a picture of complete devastation. Nothing escapes. Everything is consumed. Joel uses this as a sign of the judgment that will come on the earth[res:sefaria-joel-1-v1].',
         },
         {
           kind: 'carry',

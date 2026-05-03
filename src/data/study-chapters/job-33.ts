@@ -34,6 +34,23 @@ export const JOB_33: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Ancient Akkadian dialogue on divine justice, suffering, and retribution.',
     },
+    {
+      id: 'sefaria-job-33',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 33 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.33',
+      description: 'The Hebrew text of Job 33 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-33',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -75,7 +92,7 @@ export const JOB_33: RichChapterContent = {
           kind: 'commentary',
           id: 'job33-equal-standing',
           html:
-            'Elihu addresses Job directly and appeals to him to listen. He claims not divine authority but shared humanity: "I am according to thy wish in God&apos;s stead: I also am formed out of the clay." He will not overwhelm Job with superior power. He will meet him as an equal.',
+            'Elihu addresses Job directly and appeals to him to listen. He claims not divine authority but shared humanity: "I am according to thy wish in God&apos;s stead: I also am formed out of the clay." He will not overwhelm Job with superior power. He will meet him as an equal[res:sefaria-job-33][res:bibleodyssey-job-overview-33].',
         },
         {
           kind: 'commentary',

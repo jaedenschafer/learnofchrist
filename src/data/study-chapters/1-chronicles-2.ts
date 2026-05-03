@@ -39,6 +39,23 @@ export const CHRONICLES_1_2: RichChapterContent = {
       url: 'https://www.sefaria.org/search?q=tribes+israel&tab=text',
       description: 'Sefaria texts on the tribal divisions and genealogies of Israel.',
     },
+    {
+      id: 'sefaria-1-chronicles-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 2 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.2',
+      description: 'The Hebrew text of 1 Chronicles 2 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-1-chronicles-overview-2',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -142,7 +159,7 @@ export const CHRONICLES_1_2: RichChapterContent = {
           kind: 'commentary',
           id: 'pharez-breach',
           html:
-            'Pharez — his name means "breach" or "breaking out" in Hebrew. He and his twin brother Zerah were born amid the scandal of Tamar&apos;s deception. Yet it is Pharez, the product of this breach, from whom the line continues. Not despite the scandal, but through it, the promise flows.',
+            'Pharez — his name means "breach" or "breaking out" in Hebrew. He and his twin brother Zerah were born amid the scandal of Tamar&apos;s deception. Yet it is Pharez, the product of this breach, from whom the line continues. Not despite the scandal, but through it, the promise flows[res:sefaria-1-chronicles-2][res:bibleodyssey-1-chronicles-overview-2].',
         },
         {
           kind: 'hebrew',

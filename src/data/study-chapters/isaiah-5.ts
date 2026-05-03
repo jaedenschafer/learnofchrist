@@ -61,7 +61,7 @@ export const ISAIAH_5: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah5-wild-grapes',
           html:
-            'Yet the vineyard brought forth wild grapes. Not sour wine, but grapes that were never worth planting in the first place. The poem invites the readers themselves—the inhabitants of Jerusalem and Judah—to judge between God and the vineyard. The verdict is obvious. God has done everything right. The vineyard has failed. And now God will do what a farmer must do with a fruitless vineyard: He will remove its protection and let it fall to ruin.',
+            'Yet the vineyard brought forth wild grapes. Not sour wine, but grapes that were never worth planting in the first place. The poem invites the readers themselves—the inhabitants of Jerusalem and Judah—to judge between God and the vineyard. The verdict is obvious. God has done everything right. The vineyard has failed. And now God will do what a farmer must do with a fruitless vineyard: He will remove its protection and let it fall to ruin[res:sefaria-isaiah-5-v1].',
         },
         {
           kind: 'hebrew',
@@ -157,6 +157,15 @@ export const ISAIAH_5: RichChapterContent = {
       url: 'https://intertextual.bible/',
       description: 'Connections between Isaiah 5 and New Testament fulfillment, especially Matt 1–12.',
     },
+    {
+      id: 'sefaria-isaiah-5-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 5 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.5',
+      description: 'The Hebrew text of Isaiah 5 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

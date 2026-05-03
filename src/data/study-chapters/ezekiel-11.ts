@@ -38,7 +38,7 @@ export const EZEKIEL_11: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk11-scattered-sanctuary',
-          html: 'Even scattered among the heathen, God will be a sanctuary to His people. Even in exile, where no temple stands, where they cannot make pilgrimage to Jerusalem, God will make Himself present. The promise moves through stages: first, God&apos;s presence with them in exile. Then, gathering. Then, restoration to the land. And finally, transformation of heart[res:babylonian-exile-context].',
+          html: 'Even scattered among the heathen, God will be a sanctuary to His people. Even in exile, where no temple stands, where they cannot make pilgrimage to Jerusalem, God will make Himself present. The promise moves through stages: first, God&apos;s presence with them in exile. Then, gathering. Then, restoration to the land. And finally, transformation of heart[res:babylonian-exile-context][res:sefaria-ezekiel-11].',
         },
         {
           kind: 'hebrew',
@@ -127,6 +127,15 @@ export const EZEKIEL_11: RichChapterContent = {
       url: 'https://www.imj.org.il/en',
       description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
     }
+    {
+      id: 'sefaria-ezekiel-11',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 11 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.11',
+      description: 'The Hebrew text of Ezekiel 11 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

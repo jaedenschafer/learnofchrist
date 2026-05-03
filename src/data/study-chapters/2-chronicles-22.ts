@@ -75,7 +75,7 @@ export const CHRONICLES_2_22: RichChapterContent = {
           kind: 'commentary',
           id: 'c22-ahab-ways',
           html:
-            'Ahab was the king of Israel who "did evil in the sight of the Lord above all that were before him" (1 Kings 16:30). He married Jezebel, promoted Baal worship, and hunted the prophets of God. To walk in the ways of Ahab&apos;s house is to choose idolatry, to silence the voice of God, to serve other powers. Ahaziah, though born a king of Judah and heir to the covenant with David, now walks in the steps of apostasy.',
+            'Ahab was the king of Israel who "did evil in the sight of the Lord above all that were before him" (1 Kings 16:30). He married Jezebel, promoted Baal worship, and hunted the prophets of God. To walk in the ways of Ahab&apos;s house is to choose idolatry, to silence the voice of God, to serve other powers. Ahaziah, though born a king of Judah and heir to the covenant with David, now walks in the steps of apostasy[res:sefaria-2-chronicles-22][res:bibleodyssey-2-chronicles-overview-22].',
         },
         {
           kind: 'commentary',
@@ -318,6 +318,23 @@ export const CHRONICLES_2_22: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
     },
+    {
+      id: 'sefaria-2-chronicles-22',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 22 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.22',
+      description: 'The Hebrew text of 2 Chronicles 22 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-22',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   hasHebrew: true,

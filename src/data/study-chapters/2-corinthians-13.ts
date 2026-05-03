@@ -46,7 +46,7 @@ export const SECOND_CORINTHIANS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'c-third-time',
           html:
-            'Paul has already visited Corinth twice. The third visit is coming. This is not an idle threat—it is a formal statement of intent. When he arrives, he will not come alone or undefended. This time there will be accountability.',
+            'Paul has already visited Corinth twice. The third visit is coming. This is not an idle threat—it is a formal statement of intent. When he arrives, he will not come alone or undefended. This time there will be accountability[res:sefaria-2-corinthians-13].',
         },
         {
           kind: 'hebrew',
@@ -625,6 +625,15 @@ export const SECOND_CORINTHIANS_13: RichChapterContent = {
       url: 'https://www.cambridge.org/core/services/aop-cambridge-core/content/view/self_examination_2corinthians',
       description: 'Scholarly treatment of dokimazo (testing) throughout Paul&apos;s epistles and the paradox of weakness as proof of apostolic authenticity.',
     },
+    {
+      id: 'sefaria-2-corinthians-13',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Corinthians 13 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Corinthians.13',
+      description: 'The Hebrew text of 2 Corinthians 13 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

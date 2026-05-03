@@ -45,6 +45,23 @@ export const CHRONICLES_2_20: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
     },
+    {
+      id: 'sefaria-2-chronicles-20',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 20 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.20',
+      description: 'The Hebrew text of 2 Chronicles 20 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-20',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -89,7 +106,7 @@ export const CHRONICLES_2_20: RichChapterContent = {
           kind: 'commentary',
           id: 'hazazon-tamar',
           html:
-            'The enemies gather at Hazazon-tamar, also called En-gedi — a place of springs in the wilderness. They come in abundance, a "great multitude." Judah is outmatched by numbers, by foreign armies, by the odds of human calculation. This is precisely the moment when human strength becomes irrelevant.',
+            'The enemies gather at Hazazon-tamar, also called En-gedi — a place of springs in the wilderness. They come in abundance, a "great multitude." Judah is outmatched by numbers, by foreign armies, by the odds of human calculation. This is precisely the moment when human strength becomes irrelevant[res:sefaria-2-chronicles-20][res:bibleodyssey-2-chronicles-overview-20].',
         },
         {
           kind: 'carry',

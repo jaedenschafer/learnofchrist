@@ -43,7 +43,7 @@ export const JEREMIAH_15: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer15-moses',
-          html: 'Even if Moses and Samuel—two of the greatest intercessors in Scripture—stood before God, God would not relent. The judgment is certain. No amount of intercession can change what is coming. The people have refused the prophets, rejected the warnings, embraced lies. Now judgment must come[res:jer31-hebrews-intertextual].',
+          html: 'Even if Moses and Samuel—two of the greatest intercessors in Scripture—stood before God, God would not relent. The judgment is certain. No amount of intercession can change what is coming. The people have refused the prophets, rejected the warnings, embraced lies. Now judgment must come[res:jer31-hebrews-intertextual][res:sefaria-jeremiah-15].',
         },
         {
           kind: 'commentary',
@@ -136,6 +136,15 @@ export const JEREMIAH_15: RichChapterContent = {
       url: 'https://www.imj.org.il/en/collections/lachish-letters',
       description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
     }
+    {
+      id: 'sefaria-jeremiah-15',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 15 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.15',
+      description: 'The Hebrew text of Jeremiah 15 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

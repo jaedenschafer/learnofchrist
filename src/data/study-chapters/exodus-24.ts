@@ -50,7 +50,7 @@ export const EXODUS_24: RichChapterContent = {
           kind: 'commentary',
           id: 'ex24-come',
           html:
-            'Moses is the mediator—the one who stands in the middle. He brings others as far as they can go, but he alone continues higher. The pattern is deliberate: three named men (Nadab and Abihu will reappear later, fatally), plus seventy elders. Jesus will later send out seventy (or seventy-two) disciples; He will have three closest companions; the pattern of the few within the many holds[res:covenant-blood].',
+            'Moses is the mediator—the one who stands in the middle. He brings others as far as they can go, but he alone continues higher. The pattern is deliberate: three named men (Nadab and Abihu will reappear later, fatally), plus seventy elders. Jesus will later send out seventy (or seventy-two) disciples; He will have three closest companions; the pattern of the few within the many holds[res:covenant-blood][res:sefaria-exodus-24].',
         },
         {
           kind: 'commentary',
@@ -536,6 +536,15 @@ export const EXODUS_24: RichChapterContent = {
       url: 'https://www.sefaria.org/Exodus.24',
       description: 'Hebrew text on ratification and Moses on mountain.',
     },
+    {
+      id: 'sefaria-exodus-24',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 24 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.24',
+      description: 'The Hebrew text of Exodus 24 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

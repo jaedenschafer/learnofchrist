@@ -38,7 +38,7 @@ export const JEREMIAH_43: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jeremiah-43-78mid-1',
-          html: 'The remnant carries Jeremiah to Egypt against the LORD&apos;s word. The prophet goes with them — bound to the people who will not listen[res:jer31-hebrews-intertextual].',
+          html: 'The remnant carries Jeremiah to Egypt against the LORD&apos;s word. The prophet goes with them — bound to the people who will not listen[res:jer31-hebrews-intertextual][res:sefaria-jeremiah-43].',
         },
         {
           kind: 'scripture',
@@ -107,6 +107,15 @@ export const JEREMIAH_43: RichChapterContent = {
       url: 'https://www.imj.org.il/en/collections/lachish-letters',
       description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
     }
+    {
+      id: 'sefaria-jeremiah-43',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 43 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.43',
+      description: 'The Hebrew text of Jeremiah 43 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
   hasHebrew: false,
 };

@@ -52,6 +52,23 @@ export const CHRONICLES_2_8: RichChapterContent = {
       url: 'https://www.britishmuseum.org/collection/objects/w3679',
       description: 'Ancient Persian cylinder decree allowing return from exile and temple rebuilding.',
     },
+    {
+      id: 'sefaria-2-chronicles-8',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 8 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.8',
+      description: 'The Hebrew text of 2 Chronicles 8 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-8',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -94,7 +111,7 @@ export const CHRONICLES_2_8: RichChapterContent = {
           kind: 'commentary',
           id: 'twenty-years-complete',
           html:
-            'Twenty years have passed. The house of the Lord and Solomon\'s own house are finished. The text moves immediately from completion to expansion: the cities Huram had given him are now settled and made into fortified centers throughout the kingdom. This is not the work of a finished man but of a man whose finished work becomes the foundation for everything that follows.',
+            'Twenty years have passed. The house of the Lord and Solomon\'s own house are finished. The text moves immediately from completion to expansion: the cities Huram had given him are now settled and made into fortified centers throughout the kingdom. This is not the work of a finished man but of a man whose finished work becomes the foundation for everything that follows[res:sefaria-2-chronicles-8][res:bibleodyssey-2-chronicles-overview-8].',
         },
         {
           kind: 'commentary',

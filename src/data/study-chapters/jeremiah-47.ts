@@ -37,7 +37,7 @@ export const JEREMIAH_47: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer47-waters',
-          html: 'The waters rise from the north—the direction from which all of God&apos;s judgments come in Jeremiah. They are not a natural flood, but an image of an invading army. The description is vivid and terrible: overflowing flood, overwhelming land and city alike. The people cry and howl. This is not quiet judgment. This is catastrophe made manifest[res:jer31-hebrews-intertextual].',
+          html: 'The waters rise from the north—the direction from which all of God&apos;s judgments come in Jeremiah. They are not a natural flood, but an image of an invading army. The description is vivid and terrible: overflowing flood, overwhelming land and city alike. The people cry and howl. This is not quiet judgment. This is catastrophe made manifest[res:jer31-hebrews-intertextual][res:sefaria-jeremiah-47].',
         },
         {
           kind: 'commentary',
@@ -90,5 +90,14 @@ export const JEREMIAH_47: RichChapterContent = {
       url: 'https://www.sefaria.org/Jeremiah',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
     }
+    {
+      id: 'sefaria-jeremiah-47',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 47 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.47',
+      description: 'The Hebrew text of Jeremiah 47 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 };

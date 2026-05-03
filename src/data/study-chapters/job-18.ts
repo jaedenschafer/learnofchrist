@@ -39,6 +39,23 @@ export const JOB_18: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-18',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 18 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.18',
+      description: 'The Hebrew text of Job 18 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-18',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -82,7 +99,7 @@ export const JOB_18: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'Bildad&apos;s impatience reveals the cruelty of certainty. He is so sure of his doctrine that he cannot listen. He cannot sit with Job&apos;s mystery. He must move toward judgment. This is what happens when we are more attached to our theology than to the person in front of us.',
+            'Bildad&apos;s impatience reveals the cruelty of certainty. He is so sure of his doctrine that he cannot listen. He cannot sit with Job&apos;s mystery. He must move toward judgment. This is what happens when we are more attached to our theology than to the person in front of us[res:sefaria-job-18][res:bibleodyssey-job-overview-18].',
         },
         {
           kind: 'reflection',

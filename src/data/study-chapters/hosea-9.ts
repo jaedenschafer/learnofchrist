@@ -36,6 +36,15 @@ export const HOSEA_9: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-hosea/',
       description: 'Study of the theological theme of God&apos;s appointed times of judgment and redemption in biblical history.',
     },
+    {
+      id: 'sefaria-hosea-9-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hosea 9 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Hosea.9',
+      description: 'The Hebrew text of Hosea 9 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -74,7 +83,7 @@ export const HOSEA_9: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea9-visitation',
           html:
-            'The "days of visitation" are the appointed times when God comes to judge and reckon with His people. Israel will not celebrate the feasts of the Lord in the land of strangers. She will eat unclean bread. She will have no sacrifices to offer. The festivals that bound her to God will be impossible in exile.',
+            'The "days of visitation" are the appointed times when God comes to judge and reckon with His people. Israel will not celebrate the feasts of the Lord in the land of strangers. She will eat unclean bread. She will have no sacrifices to offer. The festivals that bound her to God will be impossible in exile[res:sefaria-hosea-9-v1].',
         },
         {
           kind: 'carry',

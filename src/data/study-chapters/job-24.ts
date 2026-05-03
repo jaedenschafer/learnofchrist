@@ -41,6 +41,23 @@ export const JOB_24: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-24',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 24 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.24',
+      description: 'The Hebrew text of Job 24 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-24',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -117,7 +134,7 @@ export const JOB_24: RichChapterContent = {
           kind: 'commentary',
           id: 'job24-prey',
           html:
-            'The wicked "go forth to their work, rising betimes for a prey." They wake early, like hunters, seeking what they can seize. And they find it. The poor are defenseless. The fatherless have no protector. The widows have no one to stand with them. So the wicked prey upon them, and no one stops them. No judgment falls. No divine hand intervenes.',
+            'The wicked "go forth to their work, rising betimes for a prey." They wake early, like hunters, seeking what they can seize. And they find it. The poor are defenseless. The fatherless have no protector. The widows have no one to stand with them. So the wicked prey upon them, and no one stops them. No judgment falls. No divine hand intervenes[res:sefaria-job-24][res:bibleodyssey-job-overview-24].',
         },
         {
           kind: 'carry',

@@ -62,7 +62,7 @@ export const ISAIAH_4: RichChapterContent = {
           id: 'isaiah4-christ-branch',
           title: 'Christ Connection — The Branch Beautiful and Glorious',
           html:
-            'In the New Testament, Jesus is explicitly identified with the Branch. Matthew and Luke trace His descent from David and ultimately from Jesse. The church fathers saw in the Branch a prophecy of the Messiah. Christ is the one in whom the true beauty and glory of God become visible. He is the one through whom the filth and blood-guilt of sin are washed away—not through human effort or ritual, but through His own sacrifice. And like the cloud and fire of the exodus, Christ&apos;s presence becomes the protection and the refuge for those who belong to Him. In Him, God dwells in the midst of His people once more.',
+            'In the New Testament, Jesus is explicitly identified with the Branch. Matthew and Luke trace His descent from David and ultimately from Jesse. The church fathers saw in the Branch a prophecy of the Messiah. Christ is the one in whom the true beauty and glory of God become visible. He is the one through whom the filth and blood-guilt of sin are washed away—not through human effort or ritual, but through His own sacrifice. And like the cloud and fire of the exodus, Christ&apos;s presence becomes the protection and the refuge for those who belong to Him. In Him, God dwells in the midst of His people once more[res:sefaria-isaiah-4-v1].',
         },
         {
           kind: 'carry',
@@ -101,6 +101,15 @@ export const ISAIAH_4: RichChapterContent = {
       url: 'https://intertextual.bible/',
       description: 'Connections between Isaiah 4 and New Testament fulfillment, especially Matt 1–12.',
     },
+    {
+      id: 'sefaria-isaiah-4-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 4 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.4',
+      description: 'The Hebrew text of Isaiah 4 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

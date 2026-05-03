@@ -40,7 +40,7 @@ export const JEREMIAH_45: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer45-woe',
-          html: 'Baruch&apos;s lament is profound: "Woe is me now!" He has watched the world fall apart. The kingdom is collapsing. The temple is about to be destroyed. And he is exhausted. "I fainted in my sighing, and I find no rest." He has sighed so much that he has lost strength. He seeks rest but cannot find it. This is not the complaint of a spoiled person. This is the deepest weariness of one who has given everything and watched it come to nothing[res:bibleodyssey-jeremiah].',
+          html: 'Baruch&apos;s lament is profound: "Woe is me now!" He has watched the world fall apart. The kingdom is collapsing. The temple is about to be destroyed. And he is exhausted. "I fainted in my sighing, and I find no rest." He has sighed so much that he has lost strength. He seeks rest but cannot find it. This is not the complaint of a spoiled person. This is the deepest weariness of one who has given everything and watched it come to nothing[res:bibleodyssey-jeremiah][res:sefaria-jeremiah-45].',
         },
         {
           kind: 'commentary',
@@ -96,5 +96,14 @@ export const JEREMIAH_45: RichChapterContent = {
       url: 'https://www.sefaria.org/Jeremiah',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
     }
+    {
+      id: 'sefaria-jeremiah-45',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 45 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.45',
+      description: 'The Hebrew text of Jeremiah 45 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 };

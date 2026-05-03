@@ -101,7 +101,7 @@ export const CHRONICLES_2_9: RichChapterContent = {
           kind: 'commentary',
           id: 'queen-comes',
           html:
-            'The Queen of Sheba comes with a great company — she does not come alone or in secret, but as a ruler in her own right, bringing tribute and seeking confirmation of what rumor has told her. She comes to "prove" Solomon with hard questions — to test whether his wisdom is genuine or merely a reputation built on exaggeration.',
+            'The Queen of Sheba comes with a great company — she does not come alone or in secret, but as a ruler in her own right, bringing tribute and seeking confirmation of what rumor has told her. She comes to "prove" Solomon with hard questions — to test whether his wisdom is genuine or merely a reputation built on exaggeration[res:sefaria-2-chronicles-9][res:bibleodyssey-2-chronicles-overview-9].',
         },
         {
           kind: 'commentary',
@@ -568,6 +568,23 @@ export const CHRONICLES_2_9: RichChapterContent = {
       url: 'https://www.britishmuseum.org/collection/objects/w3679',
       description: 'Ancient Persian cylinder decree allowing return from exile and temple rebuilding.',
     },
+    {
+      id: 'sefaria-2-chronicles-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 9 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.9',
+      description: 'The Hebrew text of 2 Chronicles 9 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-9',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   hasHebrew: true,

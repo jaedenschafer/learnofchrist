@@ -40,6 +40,23 @@ export const CHRONICLES_1_3: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/levite/',
       description: 'SBL study entry on Levite origins, roles, and tribal allotments.',
     },
+    {
+      id: 'sefaria-1-chronicles-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 3 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.3',
+      description: 'The Hebrew text of 1 Chronicles 3 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-1-chronicles-overview-3',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -93,7 +110,7 @@ export const CHRONICLES_1_3: RichChapterContent = {
           kind: 'commentary',
           id: 'hebron-reign',
           html:
-            'David reigns in Hebron for seven years and six months — a period of consolidation after the death of Saul, when David is still establishing his authority over all twelve tribes. Then comes the move to Jerusalem, the capture of Jebus and its transformation into the seat of the kingdom. Thirty-three years in Jerusalem — the great reign, the building of the kingdom, the expansion of Israel&apos;s territory and power.',
+            'David reigns in Hebron for seven years and six months — a period of consolidation after the death of Saul, when David is still establishing his authority over all twelve tribes. Then comes the move to Jerusalem, the capture of Jebus and its transformation into the seat of the kingdom. Thirty-three years in Jerusalem — the great reign, the building of the kingdom, the expansion of Israel&apos;s territory and power[res:sefaria-1-chronicles-3][res:bibleodyssey-1-chronicles-overview-3].',
         },
         {
           kind: 'commentary',

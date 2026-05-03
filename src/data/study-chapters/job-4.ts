@@ -42,6 +42,23 @@ export const JOB_4: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
     },
+    {
+      id: 'sefaria-job-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 4 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Job.4',
+      description: 'The Hebrew text of Job 4 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-job-overview-4',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Job — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/job/',
+      description: 'Open-access SBL essay on the historical and literary setting of Job.',
+    },
+
   ],
 
   sections: [
@@ -126,7 +143,7 @@ export const JOB_4: RichChapterContent = {
           kind: 'commentary',
           id: 'assay-grieve',
           html:
-            'Eliphaz begins with an almost apologetic tone. "If we assay to commune with thee, wilt thou be grieved?" He is asking permission. Yet the question contains its own presumption: he and the other friends have come to speak, and they will speak. The politeness masks a certainty. They believe they know what Job needs to hear.',
+            'Eliphaz begins with an almost apologetic tone. "If we assay to commune with thee, wilt thou be grieved?" He is asking permission. Yet the question contains its own presumption: he and the other friends have come to speak, and they will speak. The politeness masks a certainty. They believe they know what Job needs to hear[res:sefaria-job-4][res:bibleodyssey-job-overview-4].',
         },
         {
           kind: 'hebrew',

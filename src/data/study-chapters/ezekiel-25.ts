@@ -47,7 +47,7 @@ export const EZEKIEL_25: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek25-vengeance',
-          html: '"I will execute great vengeance upon them with furious rebukes; and they shall know that I am the Lord." The refrain echoes: they will know. Not through instruction, but through judgment. Not through conversion, but through experiencing the consequences of their cruelty. The knowledge of God comes not always through grace, but through the working out of divine justice[res:sefaria-ezekiel].',
+          html: '"I will execute great vengeance upon them with furious rebukes; and they shall know that I am the Lord." The refrain echoes: they will know. Not through instruction, but through judgment. Not through conversion, but through experiencing the consequences of their cruelty. The knowledge of God comes not always through grace, but through the working out of divine justice[res:sefaria-ezekiel][res:sefaria-ezekiel-25].',
         },
         {
           kind: 'hebrew',
@@ -130,6 +130,15 @@ export const EZEKIEL_25: RichChapterContent = {
       url: 'https://www.sefaria.org/Ezekiel',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
     }
+    {
+      id: 'sefaria-ezekiel-25',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 25 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.25',
+      description: 'The Hebrew text of Ezekiel 25 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

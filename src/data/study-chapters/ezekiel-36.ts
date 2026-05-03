@@ -39,7 +39,7 @@ export const EZEKIEL_36: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel36-mountains',
-          html: 'The prophet speaks to the mountains themselves—not to the people, but to the land. This is poetic and profound. The mountains have witnessed the desolation. They have seen the cities emptied, the vines torn up, the people driven away. But now God commands the mountains to bear fruit again. The land itself will become a witness to God&apos;s restoration[res:ezekiel-revelation-intertextual].',
+          html: 'The prophet speaks to the mountains themselves—not to the people, but to the land. This is poetic and profound. The mountains have witnessed the desolation. They have seen the cities emptied, the vines torn up, the people driven away. But now God commands the mountains to bear fruit again. The land itself will become a witness to God&apos;s restoration[res:ezekiel-revelation-intertextual][res:sefaria-ezekiel-36].',
         },
         {
           kind: 'commentary',
@@ -135,6 +135,15 @@ export const EZEKIEL_36: RichChapterContent = {
       url: 'https://www.imj.org.il/en',
       description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
     }
+    {
+      id: 'sefaria-ezekiel-36',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 36 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.36',
+      description: 'The Hebrew text of Ezekiel 36 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

@@ -45,6 +45,23 @@ export const CHRONICLES_2_34: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA database of Judahite settlement and cultic sites during monarchy.',
     },
+    {
+      id: 'sefaria-2-chronicles-34',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 34 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.34',
+      description: 'The Hebrew text of 2 Chronicles 34 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-34',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -91,7 +108,7 @@ export const CHRONICLES_2_34: RichChapterContent = {
           kind: 'commentary',
           id: '34-seek-god',
           html:
-            'The critical phrase comes in verse 3: in the eighth year of his reign — when Josiah was sixteen years old — he "began to seek after the God of David his father." This is not the discovery of the Book. This is something earlier, something deeper: a young king consciously turning his heart toward seeking God. He did not wait for conviction. He did not wait for crisis. At sixteen, he chose to seek.',
+            'The critical phrase comes in verse 3: in the eighth year of his reign — when Josiah was sixteen years old — he "began to seek after the God of David his father." This is not the discovery of the Book. This is something earlier, something deeper: a young king consciously turning his heart toward seeking God. He did not wait for conviction. He did not wait for crisis. At sixteen, he chose to seek[res:sefaria-2-chronicles-34][res:bibleodyssey-2-chronicles-overview-34].',
         },
         {
           kind: 'hebrew',

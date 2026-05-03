@@ -40,6 +40,23 @@ export const EZRA_9: RichChapterContent = {
       url: 'https://oi.uchicago.edu/',
       description: 'OI scholarly resources on 5th-century BCE Persian rule and administration.',
     },
+    {
+      id: 'sefaria-ezra-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezra 9 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezra.9',
+      description: 'The Hebrew text of Ezra 9 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-ezra-overview-9',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ezra — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/ezra/',
+      description: 'Open-access SBL essay on the historical and literary setting of Ezra.',
+    },
+
   ],
 
   sections: [
@@ -73,7 +90,7 @@ export const EZRA_9: RichChapterContent = {
           kind: 'commentary',
           id: 'ezra9-separation',
           html:
-            'Separation in Scripture is not about superiority or prejudice. It is about covenant. When God called Israel to separate themselves from the nations, He was not saying "you are better than them." He was saying "you belong to Me in a particular way, and that belonging requires that you not bind yourselves to practices and gods that would pull you away from covenant." The separation is unto God, not away from other peoples.',
+            'Separation in Scripture is not about superiority or prejudice. It is about covenant. When God called Israel to separate themselves from the nations, He was not saying "you are better than them." He was saying "you belong to Me in a particular way, and that belonging requires that you not bind yourselves to practices and gods that would pull you away from covenant." The separation is unto God, not away from other peoples[res:sefaria-ezra-9][res:bibleodyssey-ezra-overview-9].',
         },
         {
           kind: 'hebrew',

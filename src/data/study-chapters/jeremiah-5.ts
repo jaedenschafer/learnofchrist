@@ -41,7 +41,7 @@ export const JEREMIAH_5: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer5-knowledge-practice',
-          html: 'Jeremiah moves from lamenting their lack of knowledge to exposing their refusal to obey. Not knowing is not the problem; ignoring is[res:jer31-hebrews-intertextual].',
+          html: 'Jeremiah moves from lamenting their lack of knowledge to exposing their refusal to obey. Not knowing is not the problem; ignoring is[res:jer31-hebrews-intertextual][res:sefaria-jeremiah-5].',
         },
         {
           kind: 'scripture',
@@ -171,6 +171,15 @@ export const JEREMIAH_5: RichChapterContent = {
       url: 'https://www.imj.org.il/en/collections/lachish-letters',
       description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
     }
+    {
+      id: 'sefaria-jeremiah-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 5 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.5',
+      description: 'The Hebrew text of Jeremiah 5 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

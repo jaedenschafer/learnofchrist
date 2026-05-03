@@ -39,7 +39,7 @@ export const JEREMIAH_31: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer31-everlasting',
-          html: 'God speaks to Israel not as a judge who has grown weary, but as a lover whose affection has never wavered. "I have loved thee with an everlasting love"—not for a season, not while you were obedient, but always. This is the foundation upon which restoration is built. The exile is not the end. It is a chapter in a much longer love story. The phrase "with lovingkindness have I drawn thee" echoes the wilderness journey—God drawing Israel out of Egypt, sustaining them in the desert, leading them to the land. That same drawing power reaches into exile and calls them home[res:bibleodyssey-jeremiah].',
+          html: 'God speaks to Israel not as a judge who has grown weary, but as a lover whose affection has never wavered. "I have loved thee with an everlasting love"—not for a season, not while you were obedient, but always. This is the foundation upon which restoration is built. The exile is not the end. It is a chapter in a much longer love story. The phrase "with lovingkindness have I drawn thee" echoes the wilderness journey—God drawing Israel out of Egypt, sustaining them in the desert, leading them to the land. That same drawing power reaches into exile and calls them home[res:bibleodyssey-jeremiah][res:sefaria-jeremiah-31].',
         },
         {
           kind: 'hebrew',
@@ -141,6 +141,15 @@ export const JEREMIAH_31: RichChapterContent = {
       url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
       description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
     }
+    {
+      id: 'sefaria-jeremiah-31',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 31 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.31',
+      description: 'The Hebrew text of Jeremiah 31 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

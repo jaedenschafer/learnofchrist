@@ -38,7 +38,7 @@ export const JEREMIAH_51: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer51-golden-cup',
-          html: 'The image is striking: Babylon is a golden cup in the hand of the Lord. Beautiful, refined, precious—but a cup nonetheless, an instrument in God&apos;s hand. Babylon has made all the earth drunk with its power and influence. The nations have drunk deeply and become mad—intoxicated, disoriented, losing their judgment. But what was used to make others drunk will now be emptied[res:bibleodyssey-jeremiah].',
+          html: 'The image is striking: Babylon is a golden cup in the hand of the Lord. Beautiful, refined, precious—but a cup nonetheless, an instrument in God&apos;s hand. Babylon has made all the earth drunk with its power and influence. The nations have drunk deeply and become mad—intoxicated, disoriented, losing their judgment. But what was used to make others drunk will now be emptied[res:bibleodyssey-jeremiah][res:sefaria-jeremiah-51].',
         },
         {
           kind: 'commentary',
@@ -124,5 +124,14 @@ export const JEREMIAH_51: RichChapterContent = {
       url: 'https://www.imj.org.il/en/collections/lachish-letters',
       description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
     }
+    {
+      id: 'sefaria-jeremiah-51',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 51 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.51',
+      description: 'The Hebrew text of Jeremiah 51 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 };

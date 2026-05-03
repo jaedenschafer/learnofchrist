@@ -41,6 +41,23 @@ export const NEHEMIAH_1: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'Ongoing archaeological investigation of Iron Age and Persian period Jerusalem.',
     },
+    {
+      id: 'sefaria-nehemiah-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Nehemiah 1 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Nehemiah.1',
+      description: 'The Hebrew text of Nehemiah 1 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-nehemiah-overview-1',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Nehemiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/nehemiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Nehemiah.',
+    },
+
   ],
 
   sections: [
@@ -175,7 +192,7 @@ export const NEHEMIAH_1: RichChapterContent = {
           kind: 'commentary',
           id: 'nehemiah-fasted-prayed',
           html:
-            'Nehemiah fasts and prays. These are not separate acts; they are one sustained turning toward God. The fast is a physical emptying, an outward sign of an inward reorientation. He does not fast for penance alone, but as a way of making himself available to hear God&apos;s will. His prayer will be the deepest confession in the book.',
+            'Nehemiah fasts and prays. These are not separate acts; they are one sustained turning toward God. The fast is a physical emptying, an outward sign of an inward reorientation. He does not fast for penance alone, but as a way of making himself available to hear God&apos;s will. His prayer will be the deepest confession in the book[res:sefaria-nehemiah-1][res:bibleodyssey-nehemiah-overview-1].',
         },
         {
           kind: 'carry',

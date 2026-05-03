@@ -62,7 +62,7 @@ export const ISAIAH_1: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'When God says, "I have nourished and brought up children, and they have rebelled against me," He speaks to something that echoes in every human heart. How many of us have turned away from what we know to be good? How many have chosen the comfort of our rebellion over the cost of obedience? Isaiah begins by naming this truth without excuse — rebellion is not circumstance. It is choice.',
+            'When God says, "I have nourished and brought up children, and they have rebelled against me," He speaks to something that echoes in every human heart. How many of us have turned away from what we know to be good? How many have chosen the comfort of our rebellion over the cost of obedience? Isaiah begins by naming this truth without excuse — rebellion is not circumstance. It is choice[res:sefaria-isaiah-1-v1].',
         },
         {
           kind: 'reflection',
@@ -147,6 +147,15 @@ export const ISAIAH_1: RichChapterContent = {
       url: 'https://intertextual.bible/',
       description: 'Connections between Isaiah 1 and New Testament fulfillment, especially Matt 1–12.',
     },
+    {
+      id: 'sefaria-isaiah-1-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 1 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.1',
+      description: 'The Hebrew text of Isaiah 1 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

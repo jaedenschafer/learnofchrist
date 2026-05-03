@@ -41,6 +41,23 @@ export const ESTHER_2: RichChapterContent = {
       url: 'https://oi.uchicago.edu/',
       description: 'OI resources on the palatial city of Susa and royal Persian administration.',
     },
+    {
+      id: 'sefaria-esther-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Esther 2 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Esther.2',
+      description: 'The Hebrew text of Esther 2 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-esther-overview-2',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Esther — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/esther/',
+      description: 'Open-access SBL essay on the historical and literary setting of Esther.',
+    },
+
   ],
 
   sections: [
@@ -69,7 +86,7 @@ export const ESTHER_2: RichChapterContent = {
           kind: 'commentary',
           id: 'search-throughout',
           html:
-            'The search is vast. Officers are appointed in all the provinces of the kingdom. Young women are gathered from across the empire and brought to Shushan. The scale of the effort mirrors the scale of the king&apos;s authority — he simply reaches throughout his kingdom and takes what he wants. The women are given things for purification, treatments for beauty. The machinery of power is turned toward finding a replacement for Vashti.',
+            'The search is vast. Officers are appointed in all the provinces of the kingdom. Young women are gathered from across the empire and brought to Shushan. The scale of the effort mirrors the scale of the king&apos;s authority — he simply reaches throughout his kingdom and takes what he wants. The women are given things for purification, treatments for beauty. The machinery of power is turned toward finding a replacement for Vashti[res:sefaria-esther-2][res:bibleodyssey-esther-overview-2].',
         },
         {
           kind: 'hebrew',

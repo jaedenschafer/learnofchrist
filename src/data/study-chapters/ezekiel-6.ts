@@ -51,7 +51,7 @@ export const EZEKIEL_6: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezk6-false-altars',
-          html: 'The high places of Israel were not mere political structures. They represented a fundamental turning away from the covenant God. On these mountains, Israel has sought out false gods, worshiped images, offered incense to demons. The judgment God announces is thorough: the altars will be desolate, the images broken, the idols destroyed. What Israel has built will be unmade. And yet the purpose is clarification. When all the false gods are proven powerless, when all the altars lie in ruins, when death surrounds the broken idols — then Israel will know that the God who brought this judgment is the God who alone is real[res:ezekiel-revelation-intertextual].',
+          html: 'The high places of Israel were not mere political structures. They represented a fundamental turning away from the covenant God. On these mountains, Israel has sought out false gods, worshiped images, offered incense to demons. The judgment God announces is thorough: the altars will be desolate, the images broken, the idols destroyed. What Israel has built will be unmade. And yet the purpose is clarification. When all the false gods are proven powerless, when all the altars lie in ruins, when death surrounds the broken idols — then Israel will know that the God who brought this judgment is the God who alone is real[res:ezekiel-revelation-intertextual][res:sefaria-ezekiel-6].',
         },
         {
           kind: 'hebrew',
@@ -134,6 +134,15 @@ export const EZEKIEL_6: RichChapterContent = {
       url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
       description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
     }
+    {
+      id: 'sefaria-ezekiel-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 6 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.6',
+      description: 'The Hebrew text of Ezekiel 6 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

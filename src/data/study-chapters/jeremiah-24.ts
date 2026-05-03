@@ -61,7 +61,7 @@ export const JEREMIAH_24: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jeremiah-24-78mid-1',
-          html: 'The two baskets of figs are interpreted. Good figs and bad — the LORD names which captives He will save and which He will scatter[res:jer31-hebrews-intertextual].',
+          html: 'The two baskets of figs are interpreted. Good figs and bad — the LORD names which captives He will save and which He will scatter[res:jer31-hebrews-intertextual][res:sefaria-jeremiah-24].',
         },
         {
           kind: 'scripture',
@@ -209,5 +209,14 @@ export const JEREMIAH_24: RichChapterContent = {
       url: 'https://www.sefaria.org/Jeremiah',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
     }
+    {
+      id: 'sefaria-jeremiah-24',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 24 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.24',
+      description: 'The Hebrew text of Jeremiah 24 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 };

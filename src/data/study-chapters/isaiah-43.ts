@@ -73,7 +73,7 @@ export const ISAIAH_43: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah43-created-formed',
           html:
-            'The opening words set the tone: "Thus saith the Lord that created thee, O Jacob, and he that formed thee, O Israel." God identifies Himself not as a distant power, but as the one who created and formed this people. There is an intimate relationship implied. The creator knows and cares for the created. The one who formed them will not abandon them.',
+            'The opening words set the tone: "Thus saith the Lord that created thee, O Jacob, and he that formed thee, O Israel." God identifies Himself not as a distant power, but as the one who created and formed this people. There is an intimate relationship implied. The creator knows and cares for the created. The one who formed them will not abandon them[res:sefaria-isaiah-43-v1].',
         },
         {
           kind: 'hebrew',
@@ -242,6 +242,15 @@ export const ISAIAH_43: RichChapterContent = {
       url: 'https://intertextual.bible/',
       description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
     },
+    {
+      id: 'sefaria-isaiah-43-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 43 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.43',
+      description: 'The Hebrew text of Isaiah 43 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

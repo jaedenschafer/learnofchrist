@@ -36,6 +36,15 @@ export const AMOS_5: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/en/passages/main-passages/the-book-of-amos/',
       description: 'Amos 5:24 as the prophetic call to pursue social justice and moral integrity.',
     },
+    {
+      id: 'sefaria-amos-5-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Amos 5 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Amos.5',
+      description: 'The Hebrew text of Amos 5 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -74,7 +83,7 @@ export const AMOS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'amos5-seek',
           html:
-            'Amos opens with a dirge — the virgin of Israel has fallen. Yet immediately he calls: "Seek ye me, and ye shall live." Even in judgment, God invites Israel to seek Him. The condition is clear: seek God, not the false sanctuaries of Bethel or Gilgal. Seek the God who makes the stars, who turns night to day.',
+            'Amos opens with a dirge — the virgin of Israel has fallen. Yet immediately he calls: "Seek ye me, and ye shall live." Even in judgment, God invites Israel to seek Him. The condition is clear: seek God, not the false sanctuaries of Bethel or Gilgal. Seek the God who makes the stars, who turns night to day[res:sefaria-amos-5-v1].',
         },
         {
           kind: 'carry',

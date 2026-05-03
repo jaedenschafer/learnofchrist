@@ -40,7 +40,7 @@ export const JEREMIAH_11: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jeremiah-11-78mid-1',
-          html: 'Jeremiah pivots from naming the broken covenant to naming the men of Anathoth who plot to kill him. Faithfulness in this book is costly[res:babylonian-chronicle].',
+          html: 'Jeremiah pivots from naming the broken covenant to naming the men of Anathoth who plot to kill him. Faithfulness in this book is costly[res:babylonian-chronicle][res:sefaria-jeremiah-11].',
         },
         {
           kind: 'scripture',
@@ -148,6 +148,15 @@ export const JEREMIAH_11: RichChapterContent = {
       url: 'https://intertextual.bible/text/jeremiah-31/hebrews-8',
       description: 'Side-by-side comparison of the new covenant promise in Jeremiah quoted in Hebrews.',
     }
+    {
+      id: 'sefaria-jeremiah-11',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 11 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.11',
+      description: 'The Hebrew text of Jeremiah 11 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

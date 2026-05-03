@@ -40,6 +40,23 @@ export const CHRONICLES_2_2: RichChapterContent = {
       url: 'https://www.britishmuseum.org/collection/objects/w3679',
       description: 'Ancient Persian cylinder decree allowing return from exile and temple rebuilding.',
     },
+    {
+      id: 'sefaria-2-chronicles-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 2 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.2',
+      description: 'The Hebrew text of 2 Chronicles 2 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-2',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -91,7 +108,7 @@ export const CHRONICLES_2_2: RichChapterContent = {
           kind: 'commentary',
           id: '2c2-god-great',
           html:
-            'Solomon affirms a truth that echoes throughout Scripture: God is great above all gods. He is not merely one deity among many. He is supreme. And yet the most supreme God requires a house? This paradox — that the infinite God accepts a finite dwelling — is itself the beginning of theology. God does not need a house. He chooses to meet His people there.',
+            'Solomon affirms a truth that echoes throughout Scripture: God is great above all gods. He is not merely one deity among many. He is supreme. And yet the most supreme God requires a house? This paradox — that the infinite God accepts a finite dwelling — is itself the beginning of theology. God does not need a house. He chooses to meet His people there[res:sefaria-2-chronicles-2][res:bibleodyssey-2-chronicles-overview-2].',
         },
         {
           kind: 'commentary',

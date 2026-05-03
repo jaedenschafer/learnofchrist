@@ -62,7 +62,7 @@ export const ISAIAH_20: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah20-buttocks',
           html:
-            'The details matter. Captives are stripped "even with their buttocks uncovered, to the shame of Egypt." This is not merely loss of clothing. It is the exposure of shame, the stripping away of dignity. The prophet, walking these streets in this condition for three years, makes visceral what will happen to the proud when they are brought low.',
+            'The details matter. Captives are stripped "even with their buttocks uncovered, to the shame of Egypt." This is not merely loss of clothing. It is the exposure of shame, the stripping away of dignity. The prophet, walking these streets in this condition for three years, makes visceral what will happen to the proud when they are brought low[res:sefaria-isaiah-20-v1].',
         },
         {
           kind: 'commentary',
@@ -114,6 +114,15 @@ export const ISAIAH_20: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'Archaeological and textual evidence of the nations Isaiah prophesies against.',
     },
+    {
+      id: 'sefaria-isaiah-20-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 20 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.20',
+      description: 'The Hebrew text of Isaiah 20 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

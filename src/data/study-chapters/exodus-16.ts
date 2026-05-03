@@ -47,6 +47,15 @@ export const EXODUS_16: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/manna/',
       description: 'Study of manna theology and sustenance.',
     },
+    {
+      id: 'sefaria-exodus-16',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 16 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.16',
+      description: 'The Hebrew text of Exodus 16 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -73,7 +82,7 @@ export const EXODUS_16: RichChapterContent = {
           kind: 'commentary',
           id: 'exodus-sin',
           html:
-            'The wilderness of Sin is not a metaphor for sinfulness — it is a place (near modern Sinai). But the name carries weight. This is where Israel will learn what they really want, what they trust, and who their God truly is[res:manna].',
+            'The wilderness of Sin is not a metaphor for sinfulness — it is a place (near modern Sinai). But the name carries weight. This is where Israel will learn what they really want, what they trust, and who their God truly is[res:manna][res:sefaria-exodus-16].',
         },
 
         {

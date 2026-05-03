@@ -37,7 +37,7 @@ export const EZEKIEL_39: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel39-birds',
-          html: 'The image of birds feasting on the corpses is intentionally degrading. In biblical thought, a body left unburied was the ultimate shame. Yet here, Gog&apos;s corpse is left for the scavenging birds. This is the reversal of shame: the mighty one who thought to plunder Israel becomes food for vultures[res:bibleodyssey-ezekiel].',
+          html: 'The image of birds feasting on the corpses is intentionally degrading. In biblical thought, a body left unburied was the ultimate shame. Yet here, Gog&apos;s corpse is left for the scavenging birds. This is the reversal of shame: the mighty one who thought to plunder Israel becomes food for vultures[res:bibleodyssey-ezekiel][res:sefaria-ezekiel-39].',
         },
         {
           kind: 'commentary',
@@ -132,6 +132,15 @@ export const EZEKIEL_39: RichChapterContent = {
       url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
       description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
     }
+    {
+      id: 'sefaria-ezekiel-39',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 39 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.39',
+      description: 'The Hebrew text of Ezekiel 39 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

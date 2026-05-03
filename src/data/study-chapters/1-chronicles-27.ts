@@ -40,6 +40,23 @@ export const CHRONICLES_1_27: RichChapterContent = {
       url: 'https://www.britishmuseum.org/',
       description: 'British Museum collections on Iron Age Levantine kingdoms and David.',
     },
+    {
+      id: 'sefaria-1-chronicles-27',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Chronicles 27 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Chronicles.27',
+      description: 'The Hebrew text of 1 Chronicles 27 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-1-chronicles-overview-27',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '1 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/1-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 1 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -95,7 +112,7 @@ export const CHRONICLES_1_27: RichChapterContent = {
           kind: 'commentary',
           id: '1chr27-monthly-rotations',
           html:
-            'Twelve divisions, one per month, twenty-four thousand men each. David&apos;s standing army runs on a calendar — no tribe carries the burden alone, no household is taken from its harvest indefinitely. The kingdom learns to share the cost of being defended.',
+            'Twelve divisions, one per month, twenty-four thousand men each. David&apos;s standing army runs on a calendar — no tribe carries the burden alone, no household is taken from its harvest indefinitely. The kingdom learns to share the cost of being defended[res:sefaria-1-chronicles-27][res:bibleodyssey-1-chronicles-overview-27].',
         },
         {
           kind: 'scripture',

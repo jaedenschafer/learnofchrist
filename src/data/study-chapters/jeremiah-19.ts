@@ -73,7 +73,7 @@ export const JEREMIAH_19: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'jer19-tophet',
-          html: 'The valley of Hinnom (Tophet) is the place where child sacrifice has taken place. Mothers and fathers have burned their own children to Baal. This is not merely idolatry; it is the defilement of the most sacred relationship — the parent&apos;s love for the child — twisted into an abomination. God says, "which I commanded not, nor spake it, neither came it into my mind" — this is so contrary to God&apos;s nature that it was never even conceived of as a possibility in His mind[res:bibleodyssey-jeremiah].',
+          html: 'The valley of Hinnom (Tophet) is the place where child sacrifice has taken place. Mothers and fathers have burned their own children to Baal. This is not merely idolatry; it is the defilement of the most sacred relationship — the parent&apos;s love for the child — twisted into an abomination. God says, "which I commanded not, nor spake it, neither came it into my mind" — this is so contrary to God&apos;s nature that it was never even conceived of as a possibility in His mind[res:bibleodyssey-jeremiah][res:sefaria-jeremiah-19].',
         },
         {
           kind: 'commentary',
@@ -289,5 +289,14 @@ export const JEREMIAH_19: RichChapterContent = {
       url: 'https://www.imj.org.il/en/collections/lachish-letters',
       description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
     }
+    {
+      id: 'sefaria-jeremiah-19',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 19 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Jeremiah.19',
+      description: 'The Hebrew text of Jeremiah 19 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 };

@@ -50,6 +50,15 @@ export const FIRST_ESDRAS_9: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/ezra/',
       description: 'Postexilic identity, marriage practices, and community boundaries in diaspora.',
     },
+    {
+      id: 'sefaria-1-esdras-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Esdras 9 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/I_Esdras.9',
+      description: 'The Hebrew text of 1 Esdras 9 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {
@@ -109,7 +118,7 @@ export const FIRST_ESDRAS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'esdras-fast',
           html:
-            'Esdras enters a chamber and fasts — neither eating nor drinking. His fast is not penance only, but intercession. He is mourning the transgression of the people, and his body becomes a sign of that sorrow. The people see him and understand. Something grave has happened. The people themselves must act.',
+            'Esdras enters a chamber and fasts — neither eating nor drinking. His fast is not penance only, but intercession. He is mourning the transgression of the people, and his body becomes a sign of that sorrow. The people see him and understand. Something grave has happened. The people themselves must act[res:sefaria-1-esdras-9].',
         },
         {
           kind: 'carry',

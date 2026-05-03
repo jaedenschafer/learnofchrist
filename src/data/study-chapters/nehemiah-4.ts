@@ -48,6 +48,15 @@ export const NEHEMIAH_4: RichChapterContent = {
       url: 'https://intertextual.bible/',
       description: 'Epigraphic and papyrological evidence for Tobiah, Sanballat, and Samaria.',
     },
+    {
+      id: 'sefaria-nehemiah-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Nehemiah 4 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Nehemiah.4',
+      description: 'The Hebrew text of Nehemiah 4 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   sections: [
@@ -100,7 +109,7 @@ export const NEHEMIAH_4: RichChapterContent = {
           kind: 'commentary',
           id: 'n4-mocked',
           html:
-            'Mockery is Sanballat&apos;s weapon. He does not attack the work itself; he attacks the workers. The people are feeble, the project is impossible, the task will never be accomplished. Mockery demoralizes. It creates an atmosphere where the people doubt themselves before they doubt God[res:wadi-daliyeh-papyri].',
+            'Mockery is Sanballat&apos;s weapon. He does not attack the work itself; he attacks the workers. The people are feeble, the project is impossible, the task will never be accomplished. Mockery demoralizes. It creates an atmosphere where the people doubt themselves before they doubt God[res:wadi-daliyeh-papyri][res:sefaria-nehemiah-4].',
         },
         {
           kind: 'hebrew',

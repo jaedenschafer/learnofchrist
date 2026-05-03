@@ -37,7 +37,7 @@ export const EZEKIEL_42: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel42-chambers',
-          html: 'The chambers are designated as holy. They are not ordinary residences. They are where sacred service is conducted, where holy things are stored and prepared. To dwell here is to accept the consecration that comes with serving God[res:babylonian-exile-context].',
+          html: 'The chambers are designated as holy. They are not ordinary residences. They are where sacred service is conducted, where holy things are stored and prepared. To dwell here is to accept the consecration that comes with serving God[res:babylonian-exile-context][res:sefaria-ezekiel-42].',
         },
         {
           kind: 'commentary',
@@ -93,6 +93,15 @@ export const EZEKIEL_42: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/gog/',
       description: 'SBL entry on the mysterious Gog figure in Ezekiel and Revelation.',
     }
+    {
+      id: 'sefaria-ezekiel-42',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 42 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.42',
+      description: 'The Hebrew text of Ezekiel 42 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

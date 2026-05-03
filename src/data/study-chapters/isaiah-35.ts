@@ -55,7 +55,7 @@ export const ISAIAH_35: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah35-wilderness-glad',
           html:
-            'The vision opens with joy. The wilderness—symbol of desolation, emptiness, exile—will be glad. The solitary place will rejoice. The desert will blossom as the rose. This is not merely agricultural renewal. This is the reversal of the curse, the restoration of what was broken, the return of abundance where there was scarcity.',
+            'The vision opens with joy. The wilderness—symbol of desolation, emptiness, exile—will be glad. The solitary place will rejoice. The desert will blossom as the rose. This is not merely agricultural renewal. This is the reversal of the curse, the restoration of what was broken, the return of abundance where there was scarcity[res:sefaria-isaiah-35-v1][res:bibleodyssey-isaiah-overview-35].',
         },
         {
           kind: 'hebrew',
@@ -168,6 +168,23 @@ export const ISAIAH_35: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.35',
       description: 'Sefaria open-access source text and translations for Isaiah 35.',
     },
+    {
+      id: 'sefaria-isaiah-35-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 35 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.35',
+      description: 'The Hebrew text of Isaiah 35 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-35',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

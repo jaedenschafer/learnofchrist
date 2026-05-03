@@ -114,7 +114,7 @@ export const CHRONICLES_2_3: RichChapterContent = {
           kind: 'commentary',
           id: 'holy-place-dimensions',
           html:
-            'The proportions are precise: 60 cubits long, 20 wide. The porch rises 120 cubits — twice the length of the building itself. This is not mere construction; it is a declaration of the infinite reaching down. The high porch symbolizes the bridging of heaven and earth.',
+            'The proportions are precise: 60 cubits long, 20 wide. The porch rises 120 cubits — twice the length of the building itself. This is not mere construction; it is a declaration of the infinite reaching down. The high porch symbolizes the bridging of heaven and earth[res:sefaria-2-chronicles-3][res:bibleodyssey-2-chronicles-overview-3].',
         },
         {
           kind: 'commentary',
@@ -359,6 +359,23 @@ export const CHRONICLES_2_3: RichChapterContent = {
       url: 'https://www.britishmuseum.org/collection/objects/w3679',
       description: 'Ancient Persian cylinder decree allowing return from exile and temple rebuilding.',
     },
+    {
+      id: 'sefaria-2-chronicles-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 3 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.3',
+      description: 'The Hebrew text of 2 Chronicles 3 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-3',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   hasHebrew: true,

@@ -40,6 +40,23 @@ export const CHRONICLES_2_4: RichChapterContent = {
       url: 'https://www.britishmuseum.org/collection/objects/w3679',
       description: 'Ancient Persian cylinder decree allowing return from exile and temple rebuilding.',
     },
+    {
+      id: 'sefaria-2-chronicles-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 4 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.4',
+      description: 'The Hebrew text of 2 Chronicles 4 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-4',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -93,7 +110,7 @@ export const CHRONICLES_2_4: RichChapterContent = {
           kind: 'commentary',
           id: '2c4-twelve-oxen',
           html:
-            'The molten sea rests upon twelve oxen—three facing each cardinal direction: north, south, east, west. The twelve oxen represent the twelve tribes of Israel, the entire covenant people. The sea—the place of cleansing—is held up by the whole people. It is not the work of one tribe, one leader, one region, but all twelve standing together, their hinder parts (hindquarters) turned inward, supporting what is holy. In this image we see the principle that what is sacred is upheld by the whole community, not by a few.',
+            'The molten sea rests upon twelve oxen—three facing each cardinal direction: north, south, east, west. The twelve oxen represent the twelve tribes of Israel, the entire covenant people. The sea—the place of cleansing—is held up by the whole people. It is not the work of one tribe, one leader, one region, but all twelve standing together, their hinder parts (hindquarters) turned inward, supporting what is holy. In this image we see the principle that what is sacred is upheld by the whole community, not by a few[res:sefaria-2-chronicles-4][res:bibleodyssey-2-chronicles-overview-4].',
         },
         {
           kind: 'commentary',

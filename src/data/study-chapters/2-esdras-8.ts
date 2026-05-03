@@ -65,7 +65,7 @@ export const SECOND_ESDRAS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'ezdras-beasts',
           html:
-            'Without mercy, without hope, humanity is no better than beasts—driven only by survival and appetite. Ezra&apos;s argument is bold: mercy is not a luxury or a weakness. It is what makes us human. It is what makes the covenant real.',
+            'Without mercy, without hope, humanity is no better than beasts—driven only by survival and appetite. Ezra&apos;s argument is bold: mercy is not a luxury or a weakness. It is what makes us human. It is what makes the covenant real[res:sefaria-2-esdras-8].',
         },
         {
           kind: 'hebrew',
@@ -553,6 +553,15 @@ export const SECOND_ESDRAS_8: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/evil/',
       description: 'Problem of evil and divine justice in postexilic Jewish thought.',
     },
+    {
+      id: 'sefaria-2-esdras-8',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Esdras 8 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Esdras.8',
+      description: 'The Hebrew text of 2 Esdras 8 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   bottomShare: {

@@ -42,6 +42,23 @@ export const CHRONICLES_2_33: RichChapterContent = {
       url: 'https://www.antiquities.org.il/en/',
       description: 'IAA archaeological evidence for 7th century BCE reform under Josiah.',
     },
+    {
+      id: 'sefaria-2-chronicles-33',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 33 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/II_Chronicles.33',
+      description: 'The Hebrew text of 2 Chronicles 33 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-2-chronicles-overview-33',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '2 Chronicles — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/2-chronicles/',
+      description: 'Open-access SBL essay on the historical and literary setting of 2 Chronicles.',
+    },
+
   ],
 
   sections: [
@@ -102,7 +119,7 @@ export const CHRONICLES_2_33: RichChapterContent = {
           kind: 'commentary',
           id: 'manasseh-age',
           html:
-            'Manasseh becomes king as a child, twelve years old. Some scholars suggest he reigned co-regent with his father for a time, but the text is clear: whatever his early years, he entered the throne young and without the wisdom his father possessed. His father Hezekiah had seen the power of God himself — the angel of the Lord destroyed the Assyrian army at Jerusalem&apos;s gates. Manasseh saw none of it. He inherited a kingdom already restored to God, and he rejected it.',
+            'Manasseh becomes king as a child, twelve years old. Some scholars suggest he reigned co-regent with his father for a time, but the text is clear: whatever his early years, he entered the throne young and without the wisdom his father possessed. His father Hezekiah had seen the power of God himself — the angel of the Lord destroyed the Assyrian army at Jerusalem&apos;s gates. Manasseh saw none of it. He inherited a kingdom already restored to God, and he rejected it[res:sefaria-2-chronicles-33][res:bibleodyssey-2-chronicles-overview-33].',
         },
         {
           kind: 'commentary',

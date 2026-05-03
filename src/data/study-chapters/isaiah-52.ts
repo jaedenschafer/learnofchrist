@@ -62,7 +62,7 @@ export const ISAIAH_52: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'We live between Isaiah\'s promise and Isaiah\'s suffering. We know the gospel has been proclaimed. We know Christ has come and brought redemption. Yet we also live in a broken world where suffering persists. Isaiah invites us to hold both truths: The Servant has come, and the Servant will come again in full glory. Our task, like the gospel-bearer\'s, is to announce the good news with beautiful feet—feet that carry truth into a world still wounded by sin.',
+            'We live between Isaiah\'s promise and Isaiah\'s suffering. We know the gospel has been proclaimed. We know Christ has come and brought redemption. Yet we also live in a broken world where suffering persists. Isaiah invites us to hold both truths: The Servant has come, and the Servant will come again in full glory. Our task, like the gospel-bearer\'s, is to announce the good news with beautiful feet—feet that carry truth into a world still wounded by sin[res:sefaria-isaiah-52-v1].',
         },
       ],
     },
@@ -136,6 +136,15 @@ export const ISAIAH_52: RichChapterContent = {
       url: 'https://intertextual.bible/',
       description: 'Servant songs (esp. Isaiah 53) and New Testament fulfillment in Christ.',
     },
+    {
+      id: 'sefaria-isaiah-52-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 52 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.52',
+      description: 'The Hebrew text of Isaiah 52 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

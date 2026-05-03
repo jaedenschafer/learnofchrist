@@ -42,7 +42,7 @@ export const LAMENTATIONS_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'lam3-man-affliction',
-          html: 'The opening is starkly personal: "I am the man." Not an abstract report of suffering, but the testimony of one who has endured it. He has been struck by the rod of God&apos;s wrath. He is led into darkness, not light. His body is worn and broken. His bones are shattered. The physical dimension of his suffering is emphasized—he is not merely sad or discouraged, he is bodily broken[res:bibleodyssey-lament].',
+          html: 'The opening is starkly personal: "I am the man." Not an abstract report of suffering, but the testimony of one who has endured it. He has been struck by the rod of God&apos;s wrath. He is led into darkness, not light. His body is worn and broken. His bones are shattered. The physical dimension of his suffering is emphasized—he is not merely sad or discouraged, he is bodily broken[res:bibleodyssey-lament][res:sefaria-lamentations-3].',
         },
         {
           kind: 'commentary',
@@ -196,5 +196,14 @@ export const LAMENTATIONS_3: RichChapterContent = {
       url: 'https://www.sefaria.org/Lamentations',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
     }
+    {
+      id: 'sefaria-lamentations-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Lamentations 3 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Lamentations.3',
+      description: 'The Hebrew text of Lamentations 3 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 };

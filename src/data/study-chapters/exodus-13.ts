@@ -51,7 +51,7 @@ export const EXODUS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'c-firstborn',
           html:
-            'In the Exodus, God killed every firstborn of Egypt but passed over the houses marked with blood. Now He claims the firstborn of Israel for Himself. This is not punishment; it is the proof of redemption written in the very beginning of life. The firstborn is a reminder that God redeemed this whole people from death[res:exodus-departure].',
+            'In the Exodus, God killed every firstborn of Egypt but passed over the houses marked with blood. Now He claims the firstborn of Israel for Himself. This is not punishment; it is the proof of redemption written in the very beginning of life. The firstborn is a reminder that God redeemed this whole people from death[res:exodus-departure][res:sefaria-exodus-13].',
         },
         {
           kind: 'carry',
@@ -452,6 +452,15 @@ export const EXODUS_13: RichChapterContent = {
       url: 'https://www.sefaria.org/Exodus.13',
       description: 'Hebrew text on the pillar and divine guidance.',
     },
+    {
+      id: 'sefaria-exodus-13',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 13 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.13',
+      description: 'The Hebrew text of Exodus 13 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

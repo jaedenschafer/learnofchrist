@@ -45,7 +45,7 @@ export const EXODUS_28: RichChapterContent = {
           kind: 'commentary',
           id: 'ex28-aaron',
           html:
-            'Aaron is not chosen because of special qualification or prior training. He is simply called out from Israel and set apart for the Lord&apos;s service. The priesthood is God&apos;s gift, not man&apos;s achievement. His sons are named: Nadab and Abihu will later die for offering strange fire before the Lord (Leviticus 10:1–2), so even priestly calling carries the weight of covenant obedience[res:lampstand-table].',
+            'Aaron is not chosen because of special qualification or prior training. He is simply called out from Israel and set apart for the Lord&apos;s service. The priesthood is God&apos;s gift, not man&apos;s achievement. His sons are named: Nadab and Abihu will later die for offering strange fire before the Lord (Leviticus 10:1–2), so even priestly calling carries the weight of covenant obedience[res:lampstand-table][res:sefaria-exodus-28].',
         },
 
         {
@@ -696,6 +696,15 @@ export const EXODUS_28: RichChapterContent = {
       url: 'https://www.imj.org.il/',
       description: 'Physical models of sanctuary layout.',
     },
+    {
+      id: 'sefaria-exodus-28',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 28 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.28',
+      description: 'The Hebrew text of Exodus 28 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

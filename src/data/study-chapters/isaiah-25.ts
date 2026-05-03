@@ -56,7 +56,7 @@ export const ISAIAH_25: RichChapterContent = {
           kind: 'commentary',
           id: 'isaiah25-praise',
           html:
-            'The chapter opens with direct address: "O Lord, thou art my God; I will exalt thee, I will praise thy name." This is intimate worship. The prophet does not merely announce God&apos;s power; he praises it directly. He exalts the Lord and sings His name because of His "wonderful things" and His "counsels of old" which are "faithfulness and truth".',
+            'The chapter opens with direct address: "O Lord, thou art my God; I will exalt thee, I will praise thy name." This is intimate worship. The prophet does not merely announce God&apos;s power; he praises it directly. He exalts the Lord and sings His name because of His "wonderful things" and His "counsels of old" which are "faithfulness and truth"[res:sefaria-isaiah-25-v1][res:bibleodyssey-isaiah-overview-25].',
         },
         {
           kind: 'commentary',
@@ -160,6 +160,23 @@ export const ISAIAH_25: RichChapterContent = {
       url: 'https://www.sefaria.org/Isaiah.25',
       description: 'Sefaria open-access source text and translations for Isaiah 25.',
     },
+    {
+      id: 'sefaria-isaiah-25-v1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 25 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Isaiah.25',
+      description: 'The Hebrew text of Isaiah 25 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-isaiah-overview-25',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaiah — SBL Overview',
+      url: 'https://www.bibleodyssey.org/articles/isaiah/',
+      description: 'Open-access SBL essay on the historical and literary setting of Isaiah.',
+    },
+
   ],
 
   hasHebrew: true,

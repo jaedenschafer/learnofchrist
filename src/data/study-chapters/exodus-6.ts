@@ -42,7 +42,7 @@ export const EXODUS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'ex6-bring-out',
           html:
-            'Moses has just seen the work grow harder. The first petition to Pharaoh only tightened the bonds. And here, in that exact moment, God says: I will bring you out. Not someday. I will. God does not wait for the situation to look promising before He speaks His promise. He speaks into the exact place where it looks impossible[res:ten-plagues].',
+            'Moses has just seen the work grow harder. The first petition to Pharaoh only tightened the bonds. And here, in that exact moment, God says: I will bring you out. Not someday. I will. God does not wait for the situation to look promising before He speaks His promise. He speaks into the exact place where it looks impossible[res:ten-plagues][res:sefaria-exodus-6].',
         },
         {
           kind: 'scripture',
@@ -555,6 +555,15 @@ export const EXODUS_6: RichChapterContent = {
       url: 'https://www.britishmuseum.org/collection/',
       description: 'Collection relating Egyptian gods challenged by plagues.',
     },
+    {
+      id: 'sefaria-exodus-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 6 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Exodus.6',
+      description: 'The Hebrew text of Exodus 6 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

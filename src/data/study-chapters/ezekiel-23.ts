@@ -60,7 +60,7 @@ export const EZEKIEL_23: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezek23-lovers',
-          html: 'Jerusalem doted upon the Assyrians—powerful, gorgeous, adorned with the trappings of authority. She sent messengers to Chaldea (Babylon). The language suggests that she actively pursued these lovers, sending embassies, making treaties, binding herself to them through political alliances. Each alliance is described as a form of prostitution—giving herself for a price.',
+          html: 'Jerusalem doted upon the Assyrians—powerful, gorgeous, adorned with the trappings of authority. She sent messengers to Chaldea (Babylon). The language suggests that she actively pursued these lovers, sending embassies, making treaties, binding herself to them through political alliances. Each alliance is described as a form of prostitution—giving herself for a price[res:sefaria-ezekiel-23].',
         },
         {
           kind: 'hebrew',
@@ -161,6 +161,15 @@ export const EZEKIEL_23: RichChapterContent = {
       url: 'https://www.imj.org.il/en',
       description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
     }
+    {
+      id: 'sefaria-ezekiel-23',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 23 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.23',
+      description: 'The Hebrew text of Ezekiel 23 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,

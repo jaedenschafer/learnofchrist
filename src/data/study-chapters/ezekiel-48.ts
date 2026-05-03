@@ -38,7 +38,7 @@ export const EZEKIEL_48: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'ezekiel48-territories',
-          html: 'The tribes are named in order, each receiving their portion. After generations of exile, after the promises made and seemingly broken, here at last is the allocation. Each tribe returns to its territory. Order is restored. The promise is fulfilled[res:bibleodyssey-ezekiel].',
+          html: 'The tribes are named in order, each receiving their portion. After generations of exile, after the promises made and seemingly broken, here at last is the allocation. Each tribe returns to its territory. Order is restored. The promise is fulfilled[res:bibleodyssey-ezekiel][res:sefaria-ezekiel-48].',
         },
         {
           kind: 'commentary',
@@ -133,6 +133,15 @@ export const EZEKIEL_48: RichChapterContent = {
       url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
       description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
     }
+    {
+      id: 'sefaria-ezekiel-48',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 48 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ezekiel.48',
+      description: 'The Hebrew text of Ezekiel 48 alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+
   ],
 
   hasHebrew: true,
