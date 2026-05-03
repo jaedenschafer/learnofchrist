@@ -84,6 +84,18 @@ export const PSALMS_39: RichChapterContent = {
             plain(7, 'And now, Lord, what wait I for? my hope is in thee.'),
             plain(8, 'Deliver me from all my transgressions: make me not the reproach of the foolish.'),
             plain(9, 'I was dumb, I opened not my mouth; because thou didst it.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-39-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 39,
+          lines: [
             plain(10, 'Remove thy stroke away from me: I am consumed by the blow of thine hand.'),
             plain(11, 'When thou with rebukes dost correct man for iniquity, thou makest his beauty to consume away like a moth: surely every man is vanity.'),
             plain(12, 'Hear my prayer, O Lord, and give ear unto my cry; hold not thy peace at my tears: for I am a stranger with thee, and a sojourner, as all my fathers were.'),

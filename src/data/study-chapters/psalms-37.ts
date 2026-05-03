@@ -33,6 +33,18 @@ export const PSALMS_37: RichChapterContent = {
             plain(1, 'Fret not thyself because of evildoers, neither be thou envious against the workers of iniquity.'),
             plain(2, 'For they shall soon be cut down like the grass, and wither as the green herb.'),
             plain(3, 'Trust in the Lord, and do good; so shalt thou dwell in the land, and verily thou shalt be fed.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-37-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 37,
+          lines: [
             plain(4, 'Delight thyself also in the Lord; and he shall give thee the desires of thine heart.'),
             plain(5, 'Commit thy way unto the Lord; trust also in him; and he shall bring it to pass.'),
             plain(10, 'For yet a little while, and the wicked shall not be: yea, thou shalt diligently consider his place, and it shall not be.'),
@@ -92,6 +104,18 @@ export const PSALMS_37: RichChapterContent = {
             plain(23, 'The steps of a good man are ordered by the Lord: and he delighteth in his way.'),
             plain(24, 'Though he fall, he shall not be utterly cast down: for the Lord upholdeth him with his hand.'),
             plain(25, 'I have been young, and now am old; yet have I not seen the righteous forsaken, nor his seed begging bread.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-37-78mid-2',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 37,
+          lines: [
             plain(26, 'He is ever merciful, and lendeth; and his seed is blessed.'),
             plain(37, 'Mark the perfect man, and behold the upright: for the end of that man is peace.'),
             plain(39, 'But the salvation of the righteous is of the Lord: he is their strength in the time of trouble.'),

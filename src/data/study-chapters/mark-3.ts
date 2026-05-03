@@ -101,6 +101,18 @@ export const MARK_3: RichChapterContent = {
             plain(14, 'And he ordained twelve, that they should be with him, and that he might send them forth to preach,'),
             plain(15, 'And to have power to cast out devils:'),
             plain(22, 'And the scribes which came down from Jerusalem said, He hath Beelzebub, and by the prince of the devils casteth he out devils.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'mark-3-78mid-1',
+          html:
+            'Mark moves quickly. The next verses press from one scene to the next without pause; the gospel is in a hurry.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(24, 'And if a kingdom be divided against itself, that kingdom cannot stand.'),
             plain(25, 'And if a house be divided against itself, that house cannot stand.'),
             plain(28, 'Verily I say unto you, All sins shall be forgiven unto the sons of men, and blasphemies wherewith soever they shall blaspheme:'),

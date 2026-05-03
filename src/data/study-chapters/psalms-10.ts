@@ -33,6 +33,18 @@ export const PSALMS_10: RichChapterContent = {
             plain(1, 'Why standest thou afar off, O Lord? why hidest thou thyself in times of trouble?'),
             plain(2, 'The wicked in his pride doth persecute the poor: let them be taken in the devices that they have imagined.'),
             plain(3, 'For the wicked boasteth of his heart&apos;s desire, and blesseth the covetous, whom the Lord abhorreth.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-10-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             plain(4, 'The wicked, through the pride of his countenance, will not seek after God: God is not in all his thoughts.'),
             plain(5, 'His ways are always grievous; thy judgments are far from before him: as for all his enemies, he puffeth at them.'),
             plain(6, 'He saith in his heart, I shall not be moved: for I shall never be in adversity.'),

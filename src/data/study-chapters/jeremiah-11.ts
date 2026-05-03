@@ -35,6 +35,18 @@ export const JEREMIAH_11: RichChapterContent = {
             plain(1, 'The word that came to Jeremiah from the Lord, saying,'),
             plain(2, 'Hear ye the words of this covenant, and speak unto the men of Judah, and to the inhabitants of Jerusalem;'),
             plain(3, 'And say thou unto them, Thus saith the Lord God of Israel; Cursed be the man that obeyeth not the words of this covenant'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-11-78mid-1',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             plain(4, 'Which I commanded your fathers in the day that I brought them forth out of the land of Egypt, from the iron furnace, saying, Obey my voice, and do them, according to all which I command you: so shall ye be my people, and I will be your God:'),
             plain(5, 'That I may perform the oath which I have sworn unto your fathers, to give them a land flowing with milk and honey, as it is this day. Then answered I, and said, So be it, O Lord.'),
             plain(8, 'But they obeyed not, nor inclined their ear, but walked every one in the imagination of their evil heart: therefore I will bring upon them all the words of this covenant, which I commanded them to do; but they did them not.'),

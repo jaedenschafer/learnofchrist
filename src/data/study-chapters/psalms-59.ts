@@ -23,6 +23,18 @@ export const PSALMS_59: RichChapterContent = {
             plain(1, 'Deliver me from mine enemies, O my God: defend me from them that rise up against me.'),
             plain(2, 'Deliver me from the workers of iniquity, and save me from bloody men.'),
             plain(3, 'For, lo, they lie in wait for my soul: the mighty are gathered against me; not for my transgression, nor for my sin, O Lord.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-59-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 59,
+          lines: [
             plain(4, 'They run and prepare themselves without my fault: awake to help me, and behold.'),
             plain(5, 'Thou therefore, O Lord God of hosts, the God of Israel, awake to punish all the heathen: be not merciful to any wicked transgressors. Selah.'),
             plain(6, 'They return at evening: they make a noise like a dog, and go round about the city.'),

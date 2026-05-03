@@ -36,6 +36,18 @@ export const JOHN_3: RichChapterContent = {
             plain(4, 'Nicodemus saith unto him, How can a man be born when he is old? can he enter the second time into his mother&apos;s womb, and be born?'),
             plain(5, 'Jesus answered, Verily, verily, I say unto thee, Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God.'),
             plain(6, 'That which is born of the flesh is flesh; and that which is born of the Spirit is spirit.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'john-3-78mid-1',
+          html:
+            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(8, 'The wind bloweth where it listeth, and thou hearest the sound thereof, but canst not tell whence it cometh, and whither it goeth: so is every one that is born of the Spirit.'),
             plain(16, 'For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.'),
             plain(17, 'For God sent not his Son into the world to condemn the world; but that the world through him might be saved.'),
@@ -108,6 +120,18 @@ export const JOHN_3: RichChapterContent = {
             plain(28, 'Ye yourselves bear me witness, that I said, I am not the Christ, but that I am sent before him.'),
             plain(29, 'He that hath the bride is the bridegroom: but the friend of the bridegroom, which standeth and heareth him, rejoiceth greatly because of the bridegroom&apos;s voice: so then my joy is fulfilled.'),
             plain(30, 'He must increase, but I must decrease.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'john-3-78mid-2',
+          html:
+            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(31, 'He that cometh from above is above all: he that is of the earth is earthly, and speaketh of the earth: but he that cometh from heaven is above all.'),
             plain(34, 'For he whom God hath sent speaketh the words of God: for God giveth not the Spirit by measure unto him.'),
             plain(35, 'The Father loveth the Son, and hath given all things into his hand.'),

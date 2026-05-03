@@ -33,6 +33,18 @@ export const PSALMS_48: RichChapterContent = {
             plain(2, 'Beautiful for situation, the joy of the whole earth, is mount Zion, on the sides of the north, the city of the great King.'),
             plain(3, 'God is known in her palaces for a refuge.'),
             plain(4, 'For, lo, the kings assembled, they passed by together.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-48-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 48,
+          lines: [
             plain(5, 'They saw it, and so they marvelled; they were troubled, and hasted away.'),
             plain(6, 'Fear took hold upon them there, and pain, as of a woman in travail.'),
             plain(7, 'Thou breakest the ships of Tarshish with an east wind.'),

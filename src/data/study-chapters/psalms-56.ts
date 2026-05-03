@@ -23,6 +23,18 @@ export const PSALMS_56: RichChapterContent = {
             plain(1, 'Be merciful unto me, O God: for man would swallow me up; he fighting daily oppresseth me.'),
             plain(2, 'Mine enemies would daily swallow me up: for they be many that fight against me, O thou most High.'),
             plain(3, 'What time I am afraid, I will trust in thee.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-56-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 56,
+          lines: [
             plain(4, 'In God I will praise his word: in God I have put my trust; I will not be afraid what flesh can do unto me.'),
             plain(5, 'Every day they wrest my words: all their thoughts are against me for evil.'),
             plain(6, 'They gather themselves together, they hide themselves, they mark my footsteps, when they wait for my soul.'),

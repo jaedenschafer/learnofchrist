@@ -30,6 +30,18 @@ export const HABAKKUK_3: RichChapterContent = {
             plain(1, 'A prayer of Habakkuk the prophet upon Shigionoth.'),
             plain(2, 'O Lord, I have heard thy speech, and was afraid: O Lord, revive thy work in the midst of the years, in the midst of the years make known; in wrath remember mercy.'),
             plain(3, 'God came from Teman, and the Holy One from mount Paran. Selah. His glory covered the heavens, and the earth was full of his praise.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'habakkuk-3-78mid-1',
+          html:
+            'The prophet turns from question to answer, or from answer to song. Habakkuk&apos;s short book is a conversation with God in three movements.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(4, 'And his brightness was as the light; he had horns coming out of his hand: and there was the hiding of his power.'),
             plain(5, 'Before him went the pestilence, and burning coals went forth at his feet.'),
             plain(6, 'He stood, and measured the earth: he beheld, and drove asunder the nations; and the everlasting mountains were scattered, the perpetual hills did bow: his ways are everlasting.'),
@@ -49,6 +61,18 @@ export const HABAKKUK_3: RichChapterContent = {
             plain(9, 'Thy bow was made quite naked, according to the oaths which thou spakest unto the tribes, even thy word. Selah. Thou didst cleave the earth with rivers.'),
             plain(10, 'The mountains saw thee, and they trembled: the overflowing of the water passed by: the deep uttered his voice, and lifted up his hands on high.'),
             plain(11, 'The sun and moon stood still in their habitation: at the light of thine arrows they went, and at the shining of thy glittering spear.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'habakkuk-3-78mid-2',
+          html:
+            'The prophet turns from question to answer, or from answer to song. Habakkuk&apos;s short book is a conversation with God in three movements.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(12, 'Thou didst march through the land in indignation, thou didst thresh the heathen in anger.'),
             plain(13, 'Thou wentest forth for the salvation of thy people, even for salvation with thine anointed; thou woundedst the head out of the house of the wicked, by discovering the foundation unto the neck. Selah.'),
             plain(14, 'Thou didst strike through with his staves the head of his villages: they came out as a whirlwind to scatter me: their rejoicing was as to devour the poor secretly.'),

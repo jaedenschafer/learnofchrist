@@ -94,6 +94,18 @@ export const GENESIS_29: RichChapterContent = {
               number: 4,
               spans: [t('And Jacob said unto them, My brethren, whence be ye? And they said, Of Haran are we.')],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-29-78mid-1',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 29,
+          lines: [
             {
               number: 5,
               spans: [t('And he said unto them, Know ye Laban the son of Nahor? And they said, We know him.')],
@@ -265,6 +277,18 @@ export const GENESIS_29: RichChapterContent = {
                 t('.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-29-78mid-2',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 29,
+          lines: [
             {
               number: 17,
               spans: [t('Leah was tender eyed; but Rachel was beautiful and well favoured.')],

@@ -167,6 +167,18 @@ export const SAMUEL_2_22: RichChapterContent = {
                 t('Then the earth shook and trembled; the foundations of heaven moved and shook, because he was wroth.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-samuel-22-78mid-1',
+          html:
+            'The narrative pivots — David&apos;s reign is rarely smooth, and the next verses press into a different corner of the story.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 22,
+          lines: [
             {
               number: 9,
               spans: [
@@ -289,6 +301,18 @@ export const SAMUEL_2_22: RichChapterContent = {
                 t('And the channels of the sea appeared, the foundations of the world were discovered, at the rebuking of the Lord, at the blast of the breath of his nostrils.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-samuel-22-78mid-2',
+          html:
+            'The narrative pivots — David&apos;s reign is rarely smooth, and the next verses press into a different corner of the story.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 22,
+          lines: [
             {
               number: 17,
               spans: [
@@ -387,6 +411,18 @@ export const SAMUEL_2_22: RichChapterContent = {
                 t('I was also upright before him, and I kept myself from mine iniquity.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-samuel-22-78mid-3',
+          html:
+            'The narrative pivots — David&apos;s reign is rarely smooth, and the next verses press into a different corner of the story.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 22,
+          lines: [
             {
               number: 25,
               spans: [

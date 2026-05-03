@@ -33,6 +33,18 @@ export const PSALMS_114: RichChapterContent = {
             plain(2, 'Judah was his sanctuary, and Israel his dominion.'),
             plain(3, 'The sea saw it, and fled: Jordan was driven back.'),
             plain(4, 'The mountains skipped like rams, and the little hills like lambs.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-114-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 114,
+          lines: [
             plain(5, 'What ailed thee, O thou sea, that thou fleddest? thou Jordan, that thou wast driven back?'),
             plain(6, 'Ye mountains, that ye skipped like rams; and ye little hills, like lambs?'),
             plain(7, 'Tremble, thou earth, at the presence of the Lord, at the presence of the God of Jacob;'),

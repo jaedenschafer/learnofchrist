@@ -30,6 +30,18 @@ export const ZEPHANIAH_2: RichChapterContent = {
             plain(1, 'Gather yourselves together, yea, gather together, O nation not desired;'),
             plain(2, 'Before the decree bring forth, before the day pass as the chaff: before the fierce anger of the Lord come upon you, before the day of the Lord&apos;s anger come upon you.'),
             plain(3, 'Seek ye the Lord, all ye meek of the earth, which have wrought his judgment; seek meekness: perhaps ye shall be hid in the day of the Lord&apos;s anger.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'zephaniah-2-78mid-1',
+          html:
+            'The prophet turns from judgment to remnant — from wrath to a quiet promise that the proud will be removed and the meek preserved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(4, 'For Gaza shall be forsaken, and Ashkelon a desolation: they shall drive out Ashdod at the noon day, and Ekron shall be rooted up.'),
             plain(5, 'Woe unto the inhabitants of the sea coast, the nation of the Cherethites! the word of the Lord is against you; O Canaan, the land of the Philistines, I will even destroy thee, that there shall be no inhabitant.'),
             plain(6, 'And the sea coast shall be dwellings and cottages for shepherds, and folds for flocks.'),
@@ -83,6 +95,18 @@ export const ZEPHANIAH_2: RichChapterContent = {
             plain(8, 'I have heard the reproach of Moab, and the revilings of the children of Ammon, whereby they have reproached my people, and magnified themselves against their border.'),
             plain(9, 'Therefore as I live, saith the Lord of hosts, the God of Israel, Surely Moab shall be as Sodom, and the children of Ammon as Gomorrah, even the breeding of nettles, and salt pits, and a perpetual desolation: the residue of my people shall spoil them, and the remnant of my people shall possess them.'),
             plain(11, 'The Lord will be terrible unto them: for he will famish all the gods of the earth; and men shall worship him, every one from his place, even all the isles of the heathen.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'zephaniah-2-78mid-2',
+          html:
+            'The prophet turns from judgment to remnant — from wrath to a quiet promise that the proud will be removed and the meek preserved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(12, 'Ye Ethiopians also, ye shall be slain by my sword.'),
             plain(13, 'And he will stretch out his hand against the north, and destroy Assyria; and will make Nineveh a desolation, and dry like a wilderness.'),
             plain(14, 'And flocks shall lie down in the midst of her, all the beasts of the nations: both the cormorant and the bittern shall lodge in the upper lintels of it; their voice shall sing in the windows; desolation shall be in the thresholds: for he shall uncover the cedar work.'),

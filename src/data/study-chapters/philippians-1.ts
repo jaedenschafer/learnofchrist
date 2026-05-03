@@ -432,6 +432,18 @@ export const PHILIPPIANS_1: RichChapterContent = {
                 t('But if I live in the flesh, this is the fruit of my labour: yet what I shall choose I wot not.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'philippians-1-78mid-1',
+          html:
+            'Paul turns the page here — from one note of joy to the next, holding it together with the gospel.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             {
               number: 23,
               spans: [

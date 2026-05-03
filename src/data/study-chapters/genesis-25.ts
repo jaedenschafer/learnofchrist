@@ -226,6 +226,18 @@ export const GENESIS_25: RichChapterContent = {
                 t('And Mishma, and Dumah, and Massa,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-25-78mid-1',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             {
               number: 15,
               spans: [
@@ -329,6 +341,18 @@ export const GENESIS_25: RichChapterContent = {
                 t('.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-25-78mid-2',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             {
               number: 23,
               spans: [
@@ -452,6 +476,18 @@ export const GENESIS_25: RichChapterContent = {
                 t('; for I am faint: therefore his name was called Edom.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-25-78mid-3',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             {
               number: 31,
               spans: [

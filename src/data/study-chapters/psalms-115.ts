@@ -33,6 +33,18 @@ export const PSALMS_115: RichChapterContent = {
             plain(2, 'Wherefore should the heathen say, Where is now their God?'),
             plain(3, 'But our God is in the heavens: he hath done whatsoever he hath pleased.'),
             plain(4, 'Their idols are silver and gold, the work of men&apos;s hands.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-115-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 115,
+          lines: [
             plain(5, 'They have mouths, but they speak not: eyes have they, but they see not:'),
             plain(6, 'They have ears, but they hear not: noses have they, but they smell not:'),
             plain(7, 'They have hands, but they handle not: feet have they, but they walk not: neither speak they through their throat.'),

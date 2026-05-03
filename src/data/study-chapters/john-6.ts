@@ -99,6 +99,18 @@ export const JOHN_6: RichChapterContent = {
             plain(35, 'And Jesus said unto them, I am the bread of life: he that cometh to me shall never hunger; and he that believeth on me shall never thirst.'),
             plain(48, 'I am that bread of life.'),
             plain(51, 'I am the living bread which came down from heaven: if any man eat of this bread, he shall live for ever: and the bread that I will give is my flesh, which I will give for the life of the world.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'john-6-78mid-1',
+          html:
+            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(53, 'Then Jesus said unto them, Verily, verily, I say unto you, Except ye eat the flesh of the Son of man, and drink his blood, ye have not life in you.'),
             plain(56, 'Whoso eateth my flesh, and drinketh my blood, hath eternal life; and I will raise him up at the last day.'),
             plain(66, 'From that time many of his disciples went back, and walked no more with him.'),

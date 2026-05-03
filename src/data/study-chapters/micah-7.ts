@@ -30,6 +30,18 @@ export const MICAH_7: RichChapterContent = {
             plain(1, 'Woe is me! for I am as when they have gathered the summer fruits, as the grapegleanings of the vintage: there is no cluster to eat: my soul desired the firstripe fruit.'),
             plain(2, 'The good man is perished out of the earth: and there is none upright among men: they all lie in wait for blood; they hunt every man his brother with a net.'),
             plain(3, 'That they may do evil with both hands earnestly, the king and the judge ask for a reward; and the great man, he uttereth his mischievous desire: so they wrap it up.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'micah-7-78mid-1',
+          html:
+            'Micah pivots — from naming the wound to naming the healer. The next verses move closer to the hope that sustained him.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(4, 'The best of them is but as a brier: the most upright is sharper than a thorn hedge: the day of thy watchmen and thy visitation cometh; now shall be their confusion.'),
             plain(5, 'Trust ye not in a friend, put ye not confidence in a guide: keep the doors of thy mouth from her that lieth in thy bosom.'),
             plain(6, 'For the son dishonoureth the father, the daughter riseth up against her mother, the daughter in law against her mother in law; a man&apos;s enemies are the men of his own house.'),
@@ -100,6 +112,18 @@ export const MICAH_7: RichChapterContent = {
             plain(14, 'Feed thy people with thy rod, the flock of thy hand, which dwell solitarily in the wood, in the midst of Carmel: let them feed in Bashan and Gilead, as in the days of old.'),
             plain(15, 'According to the days of thy coming out of the land of Egypt will I shew unto him marvellous things.'),
             plain(16, 'The nations shall see and be confounded at all their might: they shall lay their hand upon their mouth, their ears shall be deaf.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'micah-7-78mid-2',
+          html:
+            'Micah pivots — from naming the wound to naming the healer. The next verses move closer to the hope that sustained him.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(17, 'They shall lick the dust like a serpent, they shall move out of their holes like worms of the earth: they shall be afraid of the Lord our God, and shall fear because of thee.'),
             plain(18, 'Who is a God like unto thee, that pardoneth iniquity, and passeth by the transgression of the remnant of his people? he retaineth not his anger for ever, because he delighteth in mercy.'),
             plain(19, 'He will turn again, he will have compassion upon us; he will subdue our iniquities under his feet; and thou wilt cast all their sins into the depths of the sea.'),

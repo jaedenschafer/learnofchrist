@@ -136,6 +136,18 @@ export const GENESIS_23: RichChapterContent = {
               number: 5,
               spans: [t('And the children of Heth answered Abraham, saying unto him,')],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-23-78mid-1',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             {
               number: 6,
               spans: [
@@ -190,6 +202,18 @@ export const GENESIS_23: RichChapterContent = {
                 t('And Abraham bowed down himself before the people of the land.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-23-78mid-2',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             {
               number: 13,
               spans: [

@@ -33,6 +33,18 @@ export const PSALMS_21: RichChapterContent = {
             plain(1, 'The king shall joy in thy strength, O Lord; and in thy salvation how greatly shall he rejoice!'),
             plain(2, 'Thou hast given him his heart&apos;s desire, and hast not withholden the request of his lips. Selah.'),
             plain(3, 'For thou preventest him with the blessings of goodness: thou settest a crown of pure gold on his head.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-21-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             plain(4, 'He asked life of thee, and thou gavest it him, even length of days for ever and ever.'),
             plain(5, 'His glory is great in thy salvation: honour and majesty hast thou laid upon him.'),
             plain(6, 'For thou hast made him most blessed for ever: thou hast made him exceeding glad with thy countenance.'),

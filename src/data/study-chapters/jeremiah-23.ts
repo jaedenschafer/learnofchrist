@@ -63,6 +63,18 @@ export const JEREMIAH_23: RichChapterContent = {
                 t('And I will set up shepherds over them which shall feed them: and they shall fear no more, nor be dismayed, neither shall they be lacking, saith the Lord.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-23-78mid-1',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             {
               number: 5,
               spans: [
@@ -161,6 +173,18 @@ export const JEREMIAH_23: RichChapterContent = {
                 t('For both prophet and priest are profane; yea, in my house have I found their wickedness, saith the Lord.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-23-78mid-2',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             {
               number: 12,
               spans: [
@@ -215,6 +239,18 @@ export const JEREMIAH_23: RichChapterContent = {
                 t('For who hath stood in the counsel of the Lord, and hath perceived and heard his word? who hath marked his word, and heard it?'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-23-78mid-3',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             {
               number: 19,
               spans: [

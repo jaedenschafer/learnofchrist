@@ -90,6 +90,18 @@ export const PSALMS_77: RichChapterContent = {
             plain(10, 'And I said, This is my infirmity: but I will remember the years of the right hand of the most High.'),
             plain(11, 'I will remember the works of the Lord: surely I will remember thy wonders of old.'),
             plain(14, 'Thy way, O God, is in the sanctuary: who is so great a God as our God?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-77-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 77,
+          lines: [
             plain(15, 'Thou art the God that doest wonders: thou hast declared thy strength among the people.'),
             plain(16, 'Thou hast with thine arm redeemed thy people, the sons of Jacob and Joseph.'),
             plain(19, 'Thy way is in the sea, and thy path in the great waters, and thy footsteps are not known.'),

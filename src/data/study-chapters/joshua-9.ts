@@ -174,6 +174,18 @@ export const JOSHUA_9: RichChapterContent = {
                 t('And all that he did to the two kings of the Amorites, that were beyond Jordan, to Sihon king of Heshbon, and to Og king of Bashan, which was at Ashtaroth.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'joshua-9-78mid-1',
+          html:
+            'The narrative moves here from one front to the next. Conquest in this book is named place by named place.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             {
               number: 10,
               spans: [
@@ -264,6 +276,18 @@ export const JOSHUA_9: RichChapterContent = {
                 t('And the children of Israel journeyed, and came unto their cities on the third day. Now their cities were Gibeon, and Chephirah, and Beeroth, and Kirjath-jearim.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'joshua-9-78mid-2',
+          html:
+            'The narrative moves here from one front to the next. Conquest in this book is named place by named place.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             {
               number: 18,
               spans: [

@@ -109,6 +109,18 @@ export const MARK_16: RichChapterContent = {
             plain(14, 'Afterward he appeared unto the eleven as they sat at meat; and upbraided them with their unbelief and hardness of heart, because they believed not them which had seen him after he was risen.'),
             plain(15, 'And he said unto them, Go ye into all the world, and preach the gospel to every creature.'),
             plain(16, 'He that believeth and is baptized shall be saved; but he that believeth not shall be damned.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'mark-16-78mid-1',
+          html:
+            'Mark moves quickly. The next verses press from one scene to the next without pause; the gospel is in a hurry.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 16,
+          lines: [
             plain(17, 'And these signs shall follow them that believe; In my name shall they cast out devils; they shall speak with new tongues;'),
             plain(18, 'They shall take up serpents; and if they drink any deadly thing, it shall not hurt them; they shall lay hands on the sick, and they shall recover.'),
             plain(19, 'So then after the Lord had spoken unto them, he was received up into heaven, and sat on the right hand of God.'),

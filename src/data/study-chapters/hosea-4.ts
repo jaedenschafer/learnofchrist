@@ -72,6 +72,18 @@ export const HOSEA_4: RichChapterContent = {
             plain(4, 'Yet let no man strive, nor reprove another: for thy people are as they that strive with the priest.'),
             plain(5, 'Therefore shalt thou fall in the day, and the prophet also shall fall with thee in the night; and I will destroy thy mother.'),
             plain(6, 'My people are destroyed for lack of knowledge: because thou hast rejected knowledge, I will also reject thee, that thou shalt be no priest to me: seeing thou hast forgotten the law of thy God, I will also forget thy children.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'hosea-4-78mid-1',
+          html:
+            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             {
               number: 7,
               spans: [

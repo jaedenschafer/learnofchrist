@@ -436,6 +436,18 @@ export const GENESIS_18: RichChapterContent = {
                 t('Peradventure there shall lack five of the fifty righteous: wilt thou destroy all the city for lack of five? And he said, If I find there forty and five, I will not destroy it.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-18-78mid-1',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             {
               number: 29,
               spans: [t('And he spake unto him yet again, and said, Peradventure there shall be forty found there. And he said, I will not do it for forty&apos;s sake.')],

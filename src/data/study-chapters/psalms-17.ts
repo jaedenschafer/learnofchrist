@@ -33,6 +33,18 @@ export const PSALMS_17: RichChapterContent = {
             plain(2, 'Let my sentence come forth from thy presence; let thine eyes behold the things that are equal.'),
             plain(3, 'Thou hast proved mine heart; thou hast visited me in the night; thou hast tried me, and shalt find nothing: I am purposed that my mouth shall not transgress.'),
             plain(4, 'Concerning the works of men, by the word of thy lips I have kept me from the paths of the destroyer.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-17-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 17,
+          lines: [
             plain(5, 'Hold up my goings in thy paths, that my footsteps slip not.'),
             plain(6, 'I have called upon thee, for thou wilt hear me, O God: incline thine ear unto me, and hear my speech.'),
             plain(7, 'Shew me thy marvellous kindness, O thou that savest by thy right hand them which put their trust in thee from those that rise up against them.'),

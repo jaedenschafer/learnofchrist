@@ -33,6 +33,18 @@ export const PSALMS_30: RichChapterContent = {
             plain(1, 'I will extol thee, O Lord; for thou hast lifted me up, and hast not made my foes to rejoice over me.'),
             plain(2, 'O Lord my God, I cried unto thee, and thou hast healed me.'),
             plain(3, 'O Lord, thou hast brought up my soul from the grave: thou hast kept me alive, that I should not go down to the pit.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-30-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 30,
+          lines: [
             plain(4, 'Sing, O ye saints of the Lord, and give thanks at the remembrance of his holiness.'),
             plain(5, 'For his anger endureth but a moment; in his favour is life: weeping may endure for a night, but joy cometh in the morning.'),
             plain(6, 'And in my prosperity I said, I shall never be moved: thou, Lord, by thy favour, hadst made my mountain to stand strong.'),

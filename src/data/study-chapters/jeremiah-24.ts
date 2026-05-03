@@ -56,6 +56,18 @@ export const JEREMIAH_24: RichChapterContent = {
                 t('Then said the Lord unto me, What seest thou, Jeremiah? And I said, Figs; the good figs, very good; and the evil, very evil, that cannot be eaten, they are so bad.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-24-78mid-1',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 24,
+          lines: [
             {
               number: 4,
               spans: [

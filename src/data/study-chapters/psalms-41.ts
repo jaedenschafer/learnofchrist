@@ -32,6 +32,18 @@ export const PSALMS_41: RichChapterContent = {
             plain(1, 'Blessed is he that considereth the poor: the Lord will deliver him in time of trouble.'),
             plain(2, 'The Lord will preserve him, and keep him alive; and he shall be blessed upon the earth: and thou wilt not deliver him unto the will of his enemies.'),
             plain(3, 'The Lord will strengthen him upon the bed of languishing: thou wilt make all his bed in his sickness.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-41-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 41,
+          lines: [
             plain(4, 'I said, Lord, have mercy upon me: heal my soul; for I have sinned against thee.'),
             plain(5, 'Mine enemies speak evil of me, When shall he die, and his name perish?'),
             plain(6, 'And if he come to see me, he speaketh vanity: his heart gathereth iniquity to itself; when he goeth away, he telleth it abroad.'),

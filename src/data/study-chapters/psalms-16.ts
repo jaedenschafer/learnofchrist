@@ -32,6 +32,18 @@ export const PSALMS_16: RichChapterContent = {
             plain(1, 'Preserve me, O God: for in thee do I put my trust.'),
             plain(2, 'O my soul, thou hast said unto the Lord, Thou art my Lord: my goodness extendeth not to thee;'),
             plain(3, 'But to the saints that are in the earth, and to the excellent, in whom is all my delight.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-16-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 16,
+          lines: [
             plain(4, 'Their sorrows shall be multiplied that hasten after another god: their drink offerings of blood will I not offer, nor take up their names into my lips.'),
             plain(5, 'The Lord is the portion of mine inheritance and of my cup: thou maintainest my lot.'),
             plain(6, 'The lines are fallen unto me in pleasant places; yea, I have a goodly heritage.'),

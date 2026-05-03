@@ -113,6 +113,18 @@ export const HOSEA_1: RichChapterContent = {
                 t(': for I will no more have mercy upon the house of Israel; but I will utterly take them away.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'hosea-1-78mid-1',
+          html:
+            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             {
               number: 7,
               spans: [

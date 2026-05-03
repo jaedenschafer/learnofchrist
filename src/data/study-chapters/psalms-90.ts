@@ -35,6 +35,18 @@ export const PSALMS_90: RichChapterContent = {
             plain(2, 'Before the mountains were brought forth, or ever thou hadst formed the earth and the world, even from everlasting to everlasting, thou art God.'),
             plain(3, 'Thou turnest man to destruction; and sayest, Return, ye children of men.'),
             plain(4, 'For a thousand years in thy sight are but as yesterday when it is past, and as a watch in the night.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-90-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 90,
+          lines: [
             plain(5, 'Thou carriest them away as with a flood; they are as a sleep: in the morning they are like grass which groweth up.'),
             plain(6, 'In the morning it flourisheth, and groweth up; in the evening it is cut down, and withereth.'),
             plain(7, 'For we are consumed by thine anger, and by thy wrath are we troubled.'),

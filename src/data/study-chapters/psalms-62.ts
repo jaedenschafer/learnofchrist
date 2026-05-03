@@ -23,6 +23,18 @@ export const PSALMS_62: RichChapterContent = {
             plain(1, 'Truly my soul waiteth upon God: from him cometh my salvation.'),
             plain(2, 'He only is my rock and my salvation: he is my defence; I shall not be greatly moved.'),
             plain(3, 'How long will ye imagine mischief against a man? ye shall be all destroyed: as a bowing wall shall ye be, and as a tottering fence.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-62-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 62,
+          lines: [
             plain(4, 'They only consult to cast him down from his excellency: they delight in lies: they bless with their mouth, but they curse inwardly. Selah.'),
             plain(5, 'My soul, wait thou only upon God; for my expectation is from him.'),
             plain(6, 'He only is my rock and my salvation: he is my defence; I shall not be moved.'),

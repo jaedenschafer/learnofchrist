@@ -382,6 +382,18 @@ export const SAMUEL_2_23: RichChapterContent = {
                 t('Helez the Paltite, Ira the son of Ikkesh the Tekoite,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-samuel-23-78mid-1',
+          html:
+            'The narrative pivots — David&apos;s reign is rarely smooth, and the next verses press into a different corner of the story.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             {
               number: 27,
               spans: [
@@ -442,6 +454,18 @@ export const SAMUEL_2_23: RichChapterContent = {
                 t('Eliphelet the son of Ahasbai, the son of the Maachathite, Eliam the son of Ahithophel the Gilonite,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-samuel-23-78mid-2',
+          html:
+            'The narrative pivots — David&apos;s reign is rarely smooth, and the next verses press into a different corner of the story.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             {
               number: 35,
               spans: [

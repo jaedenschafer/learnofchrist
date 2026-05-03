@@ -34,6 +34,18 @@ export const SONG_6: RichChapterContent = {
             plain(2, 'My beloved is gone down into his garden, to the beds of spices, to feed in the gardens, and to gather lilies.'),
             plain(3, 'I am my beloved&apos;s, and my beloved is mine: he feedeth among the lilies.'),
             plain(4, 'Thou art beautiful, O my love, as Tirzah, comely as Jerusalem, terrible as an army with banners.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'song-of-solomon-6-78mid-1',
+          html:
+            'The voices change here — bride to beloved, or beloved to bride. The love song is sung antiphonally.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(5, 'Turn away thine eyes from me: for they have overcome me: thy hair is as a flock of goats that appear from Gilead.'),
             plain(6, 'Thy teeth are as a flock of sheep which go up from the washing, whereof every one beareth twins, and there is not one barren among them.'),
             plain(7, 'As a piece of pomegranate are thy temples within thy locks.'),

@@ -37,6 +37,18 @@ export const MARK_6: RichChapterContent = {
             plain(1, 'And he went out from thence, and came into his own country; and his disciples follow him.'),
             plain(2, 'And when the sabbath day was come, he taught in the synagogue: and many hearing him were astonished, saying, From whence hath this man these things? and what wisdom is this which is given unto him, that even such mighty works are wrought by his hands?'),
             plain(4, 'But Jesus said unto them, A prophet is not without honour, but in his own country, and among his own kin, and in his own house.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'mark-6-78mid-1',
+          html:
+            'Mark moves quickly. The next verses press from one scene to the next without pause; the gospel is in a hurry.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(6, 'And he could there do no mighty work, except that he laid his hands upon a few sick folk, and healed them.'),
             plain(7, 'And he called unto him the twelve, and began to send them forth by two and two; and gave them power over unclean spirits;'),
             plain(8, 'And commanded them that they should take nothing for their journey, save a staff only; no scrip, no bread, no money in their purse:'),

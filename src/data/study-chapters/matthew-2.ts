@@ -37,6 +37,18 @@ export const MATTHEW_2: RichChapterContent = {
             plain(2, 'Saying, Where is he that is born King of the Jews? for we have seen his star in the east, and are come to worship him.'),
             plain(3, 'When Herod the king had heard these things, he was troubled, and all Jerusalem with him.'),
             plain(4, 'And when he had gathered all the chief priests and scribes of the people together, he demanded of them where Christ should be born.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'matthew-2-78mid-1',
+          html:
+            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(5, 'And they said unto him, In Bethlehem of Judaea: for thus it is written by the prophet,'),
             plain(6, 'And thou Bethlehem, in the land of Juda, art not the least among the princes of Juda: for out of thee shall come a Governor, that shall rule my people Israel.'),
             plain(10, 'When they had heard the king, they departed; and, lo, the star which they saw in the east, went before them, till it came and stood over where the young child was.'),

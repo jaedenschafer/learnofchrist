@@ -209,6 +209,18 @@ export const JUDGES_5: RichChapterContent = {
                 t('Out of Ephraim was there a root of them against Amalek; after thee, Benjamin, among thy people; out of Machir came down governors, and out of Zebulun they that handle the pen of the writer.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'judges-5-78mid-1',
+          html:
+            'The cycle turns again — a new actor, a new failure or deliverance, the same God still patient with His people.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             {
               number: 15,
               spans: [

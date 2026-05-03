@@ -35,6 +35,18 @@ export const JEREMIAH_8: RichChapterContent = {
             plain(4, 'Moreover thou shalt say unto them, Thus saith the Lord; Shall they fall, and not arise? shall he turn away, and not return?'),
             plain(5, 'Why then is this people of Jerusalem slidden back by a perpetual backsliding? they hold fast deceit, they refuse to return.'),
             plain(6, 'I hearkened and heard, but they spake not aright: no man repented him of his wickedness, saying, What have I done? every one turned to his own course, as the horse rusheth into the battle.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-8-78mid-1',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(7, 'Yea, the stork in the heaven knoweth her appointed times; and the turtle, and the crane, and the swallow observe the time of their coming; but my people know not the judgment of the Lord.'),
             plain(8, 'How do ye say, We are wise, and the law of the Lord is with us? Lo, certainly in vain made he it; the pen of the scribes is in vain.'),
             plain(9, 'The wise men are ashamed, they are dismayed and taken: lo, they have rejected the word of the Lord; and what wisdom is in them?'),

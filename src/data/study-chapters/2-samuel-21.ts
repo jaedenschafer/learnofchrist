@@ -206,6 +206,18 @@ export const SAMUEL_2_21: RichChapterContent = {
                 t('.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-samuel-21-78mid-1',
+          html:
+            'The narrative pivots — David&apos;s reign is rarely smooth, and the next verses press into a different corner of the story.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             {
               number: 11,
               spans: [

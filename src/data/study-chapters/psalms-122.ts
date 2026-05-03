@@ -31,6 +31,18 @@ export const PSALMS_122: RichChapterContent = {
             plain(1, 'I was glad when they said unto me, Let us go into the house of the Lord.'),
             plain(2, 'Our feet shall stand within thy gates, O Jerusalem.'),
             plain(3, 'Jerusalem is builded as a city that is compact together:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-122-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 122,
+          lines: [
             plain(6, 'Pray for the peace of Jerusalem: they shall prosper that love thee.'),
             plain(7, 'Peace be within thy walls, and prosperity within thy palaces.'),
             plain(8, 'For my brethren and companions&apos; sakes, I will now say, Peace be within thee.'),

@@ -31,6 +31,18 @@ export const MICAH_6: RichChapterContent = {
             plain(2, 'Hear, O ye mountains, the Lord&apos;s controversy with his people, and he will plead with Jacob.'),
             plain(3, 'O my people, what have I done unto thee? and wherein have I wearied thee? testify against me.'),
             plain(4, 'For I brought thee up out of the land of Egypt, and redeemed thee out of the house of servants; and I sent before thee Moses, Aaron, and Miriam.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'micah-6-78mid-1',
+          html:
+            'Micah pivots — from naming the wound to naming the healer. The next verses move closer to the hope that sustained him.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(5, 'O my people, remember now what Balak king of Moab consulted, and what Balaam the son of Beor answered him from Shittim unto Gilgal; that ye may know the righteousness of the Lord.'),
             plain(6, 'Wherewith shall I come before the Lord, and bow myself before the high God? shall I come before him with burnt offerings, with calves of a year old?'),
             plain(7, 'Will the Lord be pleased with thousands of rams, or with ten thousands of rivers of oil? shall I give my firstborn for my transgression, the fruit of my body for the sin of my soul?'),
@@ -85,6 +97,18 @@ export const MICAH_6: RichChapterContent = {
             plain(10, 'Are there yet the treasures of wickedness in the house of the wicked, and the scant measure that is abominable?'),
             plain(11, 'Shall I count them pure with the wicked balances, and with the bag of deceitful weights?'),
             plain(12, 'For the rich men thereof are full of violence, and the inhabitants thereof have spoken lies, and their tongue is deceitful in their mouth.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'micah-6-78mid-2',
+          html:
+            'Micah pivots — from naming the wound to naming the healer. The next verses move closer to the hope that sustained him.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(13, 'Therefore also will I make thee sick in smiting thee, in making thee desolate because of thy sins.'),
             plain(14, 'Thou shalt eat, but not be satisfied; and thy casting down shall be in the midst of thee; and thou shalt take hold, but shall not deliver; and that which thou deliverest will I give up to the sword.'),
             plain(15, 'Thou shalt sow, but thou shalt not reap; thou shalt tread the olives, but thou shalt not anoint thee with oil; and sweet wine, but shalt not drink wine.'),

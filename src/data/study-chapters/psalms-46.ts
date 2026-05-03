@@ -31,6 +31,18 @@ export const PSALMS_46: RichChapterContent = {
             plain(1, 'God is our refuge and strength, a very present help in trouble.'),
             plain(2, 'Therefore will not we fear, though the earth be removed, and though the mountains be carried into the midst of the sea;'),
             plain(3, 'Though the waters thereof roar and be troubled, though the mountains shake with the swelling thereof. Selah.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-46-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 46,
+          lines: [
             plain(4, 'There is a river the streams whereof shall make glad the city of God, the holy place of the tabernacles of the most High.'),
             plain(5, 'God is in the midst of her; she shall not be moved: God shall help her, and that right early.'),
             plain(6, 'The heathen raged, the kingdoms were moved: he uttered his voice, the earth melted.'),

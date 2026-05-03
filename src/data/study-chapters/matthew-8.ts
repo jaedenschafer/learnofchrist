@@ -36,6 +36,18 @@ export const MATTHEW_8: RichChapterContent = {
             plain(3, 'And Jesus put forth his hand, and touched him, saying, I will; be thou clean. And immediately his leprosy was cleansed.'),
             plain(5, 'And when Jesus was entered into Capernaum, there came unto him a centurion, beseeching him,'),
             plain(6, 'Saying, Lord, my servant lieth at home sick of the palsy, grievously tormented.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'matthew-8-78mid-1',
+          html:
+            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(8, 'The centurion answered and said, Lord, I am not worthy that thou shouldest come under my roof: but speak the word only, and my servant shall be healed.'),
             plain(10, 'When Jesus heard it, he marvelled, and said to them that followed, Verily I say unto you, I have not found so great faith, no, not in Israel.'),
             plain(14, 'And when Jesus was come into Peter&apos;s house, he saw his wife&apos;s mother laid, and sick of a fever.'),
@@ -100,6 +112,18 @@ export const MATTHEW_8: RichChapterContent = {
             plain(23, 'And when he was entered into a ship, his disciples followed him.'),
             plain(24, 'And, behold, there arose a great tempest in the sea, insomuch that the ship was covered with the waves: but he was asleep.'),
             plain(25, 'And his disciples came to him, and awoke him, saying, Lord, save us: we perish.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'matthew-8-78mid-2',
+          html:
+            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(26, 'And he saith unto them, Why are ye fearful, O ye of little faith? Then he arose, and rebuked the wind and the sea; and there was a great calm.'),
             plain(28, 'And when he was come to the other side into the country of the Gadarenes, there met him two possessed with devils, coming out of the tombs, exceeding fierce, so that no man might pass by that way.'),
             plain(29, 'And, behold, they cried out, saying, What have we to do with thee, Jesus, thou Son of God? art thou come hither to torment us before the time?'),

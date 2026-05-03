@@ -107,6 +107,18 @@ export const MATTHEW_9: RichChapterContent = {
             plain(25, 'But when the multitude was put forth, he went in, and took her by the hand, and the damsel arose.'),
             plain(27, 'And when Jesus departed thence, two blind men followed him, crying, and saying, Thou son of David, have mercy on us.'),
             plain(28, 'And when he was come into the house, the blind men came to him: and Jesus saith unto them, Believe ye that I am able to do this? They said unto him, Yea, Lord.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'matthew-9-78mid-1',
+          html:
+            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(35, 'And Jesus went about all the cities and villages, teaching in their synagogues, and preaching the gospel of the kingdom, and healing every sickness and every disease among the people.'),
             plain(36, 'But when he saw the multitudes, he was moved with compassion on them, because they fainted, and were scattered abroad, as sheep having no shepherd.'),
             plain(37, 'Then saith he unto his disciples, The harvest truly is plenteous, but the labourers are few;'),

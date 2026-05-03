@@ -98,6 +98,18 @@ export const GENESIS_41: RichChapterContent = {
                 t('. So Pharaoh awoke.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-41-78mid-1',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 41,
+          lines: [
             {
               number: 5,
               spans: [
@@ -215,6 +227,18 @@ export const GENESIS_41: RichChapterContent = {
                 t('And there was there with us a young man, an Hebrew, servant to the captain of the guard; and we told him, and he interpreted to us our dreams; to each man according to his dream he did interpret.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-41-78mid-2',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 41,
+          lines: [
             {
               number: 13,
               spans: [
@@ -313,6 +337,18 @@ export const GENESIS_41: RichChapterContent = {
                 t('And the lean and the ill favoured kine did eat up the first seven fat kine:'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-41-78mid-3',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 41,
+          lines: [
             {
               number: 21,
               spans: [
@@ -392,6 +428,18 @@ export const GENESIS_41: RichChapterContent = {
                 t('This is the thing which I have spoken unto Pharaoh: What God is about to do he sheweth unto Pharaoh.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-41-78mid-4',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 41,
+          lines: [
             {
               number: 29,
               spans: [
@@ -483,6 +531,18 @@ export const GENESIS_41: RichChapterContent = {
                 t('And that food shall be for store to the land against the seven years of famine, which shall be in the land of Egypt; that the land perish not through the famine.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-41-78mid-5',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 41,
+          lines: [
             {
               number: 37,
               spans: [t('And the thing was good in the eyes of Pharaoh, and in the eyes of all his servants.')],
@@ -669,6 +729,18 @@ export const GENESIS_41: RichChapterContent = {
                 t('And he gathered up all the food of the seven years which were in the land of Egypt, and laid up the food in the cities: the food of the field which was round about every city, laid he up in the same.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-41-78mid-6',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 41,
+          lines: [
             {
               number: 49,
               spans: [

@@ -34,6 +34,18 @@ export const JOHN_10: RichChapterContent = {
             plain(3, 'To him the porter openeth; and the sheep hear his voice: and he calleth his own sheep by name, and leadeth them out.'),
             plain(7, 'Then said Jesus unto them again, Verily, verily, I say unto you, I am the door of the sheep.'),
             plain(10, 'I am come that they might have life, and that they might have it more abundantly.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'john-10-78mid-1',
+          html:
+            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             plain(11, 'I am the good shepherd: the good shepherd giveth his life for the sheep.'),
             plain(14, 'And I know my sheep, and am known of mine.'),
             plain(15, 'As the Father knoweth me, even so know I the Father: and I lay down my life for the sheep.'),

@@ -82,6 +82,18 @@ export const HOSEA_9: RichChapterContent = {
             plain(11, 'As for Ephraim, their glory shall fly away like a bird, from the birth, and from the womb, and from the conception.'),
             plain(12, 'Though they bring up their children, yet will I bereave them, that there shall not be a man left: yea, woe also to them when I depart from them!'),
             plain(13, 'Ephraim, as I saw Tyrus, is planted in a pleasant place: but Ephraim shall bring forth his children to the murderer.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'hosea-9-78mid-1',
+          html:
+            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(14, 'Give them, O Lord: what wilt thou give? give them a miscarrying womb and dry breasts.'),
             plain(15, 'All their wickedness is in Gilgal: for there I hated them: for the wickedness of their doings I will drive them out of mine house, I will love them no more: all their princes are revolters.'),
             plain(16, 'Ephraim is smitten, their root is dried up, they shall bear no fruit: yea, though they bring forth, yet will I slay even the beloved fruit of their womb.'),

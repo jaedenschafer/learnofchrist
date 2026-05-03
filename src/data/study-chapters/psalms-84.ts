@@ -86,6 +86,18 @@ export const PSALMS_84: RichChapterContent = {
             plain(6, 'Who passing through the valley of Baca make it a well; the rain also filleth the pools.'),
             plain(7, 'They go from strength to strength, every one of them in Zion appeareth before God.'),
             plain(8, 'O Lord God of hosts, hear my prayer: give ear, O God of Jacob. Selah.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-84-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 84,
+          lines: [
             plain(9, 'Behold, O God our shield, and look upon the face of thine anointed.'),
             plain(10, 'For a day in thy courts is better than a thousand. I had rather be a doorkeeper in the house of my God, than to dwell in the tents of wickedness.'),
             plain(11, 'For the Lord God is a sun and shield: the Lord will give grace and glory: no good thing will he withhold from them that walk uprightly.'),

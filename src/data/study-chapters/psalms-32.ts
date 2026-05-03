@@ -33,6 +33,18 @@ export const PSALMS_32: RichChapterContent = {
             plain(1, 'Blessed is he whose transgression is forgiven, whose sin is covered.'),
             plain(2, 'Blessed is the man unto whom the Lord imputeth not iniquity, and in whose spirit there is no guile.'),
             plain(3, 'When I kept silence, my bones waxed old through my roaring all the day long.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-32-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 32,
+          lines: [
             plain(4, 'For day and night thy hand was heavy upon me: my moisture is turned into the drought of summer. Selah.'),
             plain(5, 'I acknowledged my sin unto thee, and mine iniquity have I not hid. I said, I will confess my transgressions unto the Lord; and thou forgavest the iniquity of my sin. Selah.'),
             plain(6, 'For this shall every one that is godly pray unto thee in a time when thou mayest be found: surely in the floods of great waters they shall not come nigh unto him.'),

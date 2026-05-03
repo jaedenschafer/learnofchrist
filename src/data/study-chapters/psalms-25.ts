@@ -33,6 +33,18 @@ export const PSALMS_25: RichChapterContent = {
             plain(1, 'Unto thee, O Lord, do I lift up my soul.'),
             plain(2, 'O my God, I trust in thee: let me not be ashamed; let not mine enemies triumph over me.'),
             plain(4, 'Show me thy ways, O Lord; teach me thy paths.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-25-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             plain(5, 'Lead me in thy truth, and teach me: for thou art the God of my salvation; on thee do I wait all the day.'),
             plain(8, 'Good and upright is the Lord: therefore will he teach sinners in the way.'),
             plain(9, 'The meek will he guide in judgment: and the meek will he teach his way.'),
@@ -87,6 +99,18 @@ export const PSALMS_25: RichChapterContent = {
             plain(14, 'The secret of the Lord is with them that fear him; and he will show them his covenant.'),
             plain(15, 'Mine eyes are ever toward the Lord; for he shall pluck my feet out of the net.'),
             plain(16, 'Turn thee unto me, and have mercy upon me; for I am desolate and afflicted.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-25-78mid-2',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             plain(17, 'The troubles of my heart are enlarged: O bring thou me out of my distresses.'),
             plain(18, 'Look upon mine affliction and my pain; and forgive all my sins.'),
             plain(20, 'O keep my soul, and deliver me: let me not be ashamed; for I put my trust in thee.'),

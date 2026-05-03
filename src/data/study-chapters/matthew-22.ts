@@ -35,6 +35,18 @@ export const MATTHEW_22: RichChapterContent = {
             plain(2, 'The kingdom of heaven is like unto a certain king, which made a marriage for his son,'),
             plain(3, 'And sent forth his servants to call them that were bidden to the wedding: and they would not come.'),
             plain(8, 'Then saith he to his servants, The wedding is ready, but they which were bidden were not worthy.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'matthew-22-78mid-1',
+          html:
+            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 22,
+          lines: [
             plain(9, 'Go ye therefore into the highways, and as many as ye shall find, bid to the marriage.'),
             plain(15, 'Then said they unto him, Is it lawful to give tribute unto Caesar, or not?'),
             plain(19, 'Shew me the tribute money. And they brought unto him a penny.'),

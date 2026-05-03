@@ -97,6 +97,18 @@ export const JOHN_7: RichChapterContent = {
             plain(37, 'In the last day, that great day of the feast, Jesus stood and cried, saying, If any man thirst, let him come unto me, and drink.'),
             plain(38, 'He that believeth on me, as the scripture hath said, out of his belly shall flow rivers of living water.'),
             plain(39, '(But this spake he of the Spirit, which they that believe on him should receive: for the Holy Ghost was not yet given; because that Jesus was not yet glorified.)'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'john-7-78mid-1',
+          html:
+            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(40, 'Many of the people therefore, when they heard this saying, said, Of a truth this is the Prophet.'),
             plain(41, 'Others said, This is the Christ. But some said, Shall Christ come out of Galilee?'),
             plain(45, 'Then came the officers to the chief priests and Pharisees; and they said unto them, Why have ye not brought him?'),

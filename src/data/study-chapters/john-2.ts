@@ -35,6 +35,18 @@ export const JOHN_2: RichChapterContent = {
             plain(1, 'And the third day there was a marriage in Cana of Galilee; and the mother of Jesus was there:'),
             plain(3, 'And when they wanted wine, the mother of Jesus saith unto him, They have no wine.'),
             plain(4, 'Jesus saith unto her, Woman, what have I to do with thee? mine hour is not yet come.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'john-2-78mid-1',
+          html:
+            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(6, 'And there were set there six waterpots of stone, after the manner of the purifying of the Jews, containing two or three firkins apiece.'),
             plain(7, 'Jesus saith unto them, Fill the waterpots with water. And they filled them up to the brim.'),
             plain(9, 'When the ruler of the feast had tasted the water that was made wine, and knew not whence it was: (but the servants which drew the water knew;) he called the bridegroom,'),
@@ -100,6 +112,18 @@ export const JOHN_2: RichChapterContent = {
             plain(13, 'And the Jews&apos; passover was at hand, and Jesus went up to Jerusalem.'),
             plain(14, 'And found in the temple those that sold oxen and sheep and doves, and the changers of money sitting:'),
             plain(15, 'And when he had made a scourge of small cords, he drove them all out of the temple, and the sheep, and the oxen; and poured out the changers&apos; money, and overthrew the tables;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'john-2-78mid-2',
+          html:
+            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(16, 'And said unto them that sold doves, Take these things hence; make not my Father&apos;s house an house of merchandise.'),
             plain(17, 'And his disciples remembered that it was written, Zeal for thine house hath eaten me up.'),
             plain(18, 'Then answered the Jews unto him, What sign shewest thou unto us, seeing that thou doest these things?'),

@@ -33,6 +33,18 @@ export const PSALMS_111: RichChapterContent = {
             plain(2, 'The works of the Lord are great, sought out of all them that have pleasure therein.'),
             plain(3, 'His work is honourable and glorious: and his righteousness endureth for ever.'),
             plain(4, 'He hath made his wonderful works to be remembered: the Lord is gracious and full of compassion.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-111-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 111,
+          lines: [
             plain(5, 'He hath given meat unto them that fear him: he will ever be mindful of his covenant.'),
             plain(7, 'The works of his hands are verity and judgment; all his commandments are sure.'),
             plain(9, 'He sent redemption unto his people: he hath commanded his covenant for ever: holy and reverend is his name.'),

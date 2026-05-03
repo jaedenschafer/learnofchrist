@@ -34,6 +34,18 @@ export const PSALMS_130: RichChapterContent = {
             plain(2, 'Lord, hear my voice: let thine ears be attentive to the voice of my supplications.'),
             plain(3, 'If thou, Lord, shouldest mark iniquities, O Lord, who shall stand?'),
             plain(4, 'But there is forgiveness with thee: that thou mayest be feared.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-130-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 130,
+          lines: [
             plain(5, 'I wait for the Lord, my soul doth wait, and in his word do I hope.'),
             plain(6, 'My soul waiteth for the Lord more than they that watch for the morning: I say, more than they that watch for the morning.'),
             plain(7, 'Let Israel hope in the Lord: for with the Lord there is mercy, and with him is plenteous redemption.'),

@@ -371,6 +371,18 @@ export const JOSHUA_1: RichChapterContent = {
                 t('Your wives, your little ones, and your cattle, shall remain in the land which Moses gave you on this side Jordan; but ye shall pass before your brethren armed, all the mighty men of valour, and help them;'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'joshua-1-78mid-1',
+          html:
+            'The narrative moves here from one front to the next. Conquest in this book is named place by named place.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             {
               number: 15,
               spans: [

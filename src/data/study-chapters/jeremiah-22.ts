@@ -164,6 +164,18 @@ export const JEREMIAH_22: RichChapterContent = {
                 t('Woe unto him that buildeth his house by unrighteousness, and his chambers by wrong; that useth his neighbour&apos;s service without wages, and giveth him not for his work;'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-22-78mid-1',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 22,
+          lines: [
             {
               number: 14,
               spans: [
@@ -250,6 +262,18 @@ export const JEREMIAH_22: RichChapterContent = {
                 t(', yet would I pluck thee thence;'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-22-78mid-2',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 22,
+          lines: [
             {
               number: 25,
               spans: [

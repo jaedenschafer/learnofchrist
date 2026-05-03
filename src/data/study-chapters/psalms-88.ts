@@ -33,6 +33,18 @@ export const PSALMS_88: RichChapterContent = {
             plain(1, 'O Lord God of my salvation, I have cried day and night before thee:'),
             plain(2, 'Let my prayer come before thee: incline thine ear unto my cry;'),
             plain(3, 'For my soul is full of troubles: and my life draweth nigh unto the grave.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-88-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 88,
+          lines: [
             plain(4, 'I am counted with them that go down into the pit: I am as a man that hath no strength:'),
             plain(5, 'Free among the dead, like the slain that lie in the grave, whom thou rememberest no more: and they are cut off from thy hand.'),
             plain(6, 'Thou hast laid me in the lowest pit, in darkness, in the deeps.'),

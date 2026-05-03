@@ -32,6 +32,18 @@ export const HOSEA_13: RichChapterContent = {
             plain(2, 'And now they sin more and more, and have made them molten images of their silver, and idols according to their own understanding, all of it the work of the craftsmen: they say of them, Let the men that sacrifice kiss the calves.'),
             plain(3, 'Therefore they shall be as the morning cloud, and as the early dew that passeth away, as the chaff that is driven with the whirlwind out of the floor, and as the smoke out of the chimney.'),
             plain(4, 'Yet I am the Lord thy God from the land of Egypt, and thou shalt know no god but me: for there is no saviour beside me.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'hosea-13-78mid-1',
+          html:
+            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 13,
+          lines: [
             plain(5, 'I did know thee in the wilderness, in the land of great drought.'),
             plain(6, 'According to their pasture, so were they filled; they were filled, and their heart was exalted; therefore have they forgotten me.'),
             plain(7, 'Therefore I will be unto them as a lion: as a leopard by the way will I observe them:'),
@@ -69,6 +81,18 @@ export const HOSEA_13: RichChapterContent = {
             plain(10, 'I will be thy king: where is any other that may save thee in all thy cities? and thy judges of whom thou saidst, Give me a king and princes?'),
             plain(11, 'I gave thee a king in mine anger, and took him away in my wrath.'),
             plain(12, 'The iniquity of Ephraim is bound up; his sin is hid.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'hosea-13-78mid-2',
+          html:
+            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 13,
+          lines: [
             plain(13, 'The sorrows of a travailing woman shall come upon him: he is an unwise son; for he should not stay long in the place of the breaking forth of children.'),
             {
               number: 14,

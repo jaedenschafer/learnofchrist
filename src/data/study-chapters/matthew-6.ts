@@ -38,6 +38,18 @@ export const MATTHEW_6: RichChapterContent = {
             plain(5, 'And when thou prayest, thou shalt not be as the hypocrites are: for they love to pray standing in the synagogues and in the corners of the streets, that they may be seen of men. Verily I say unto you, They have their reward.'),
             plain(6, 'But thou, when thou prayest, enter into thy closet, and when thou hast shut to thy door, pray to thy Father which is in secret; and thy Father which seeth in secret shall reward thee openly.'),
             plain(9, 'After this manner therefore pray ye: Our Father which art in heaven, Hallowed be thy name.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'matthew-6-78mid-1',
+          html:
+            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(10, 'Thy kingdom come. Thy will be done in earth, as it is in heaven.'),
             plain(11, 'Give us this day our daily bread.'),
             plain(12, 'And forgive us our debts, as we forgive our debtors.'),

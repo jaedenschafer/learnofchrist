@@ -34,6 +34,18 @@ export const PSALMS_124: RichChapterContent = {
             plain(2, 'If it had not been the Lord who was on our side, when men rose up against us:'),
             plain(3, 'Then they had swallowed us up quick: when their wrath was kindled against us.'),
             plain(4, 'Then the waters had overwhelmed us, the stream had gone over our soul:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-124-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 124,
+          lines: [
             plain(5, 'Then the proud waters had gone over our soul.'),
             plain(6, 'Blessed be the Lord, who hath not given us as a prey to their teeth.'),
             plain(7, 'Our soul is escaped as a bird out of the snare of the fowlers: the snare is broken, and we are escaped.'),

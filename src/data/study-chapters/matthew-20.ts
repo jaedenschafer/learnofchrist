@@ -98,6 +98,18 @@ export const MATTHEW_20: RichChapterContent = {
             plain(17, 'And Jesus going up to Jerusalem took the twelve disciples apart in the way, and said unto them,'),
             plain(18, 'Behold, we go up to Jerusalem; and the Son of man shall be betrayed unto the chief priests and unto the scribes, and they shall condemn him to death;'),
             plain(19, 'And shall deliver him to the Gentiles to mock, and to scourge, and to crucify him: and the third day he shall rise again.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'matthew-20-78mid-1',
+          html:
+            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 20,
+          lines: [
             plain(26, 'But Jesus called them unto him, and said, Ye know that the princes of the Gentiles exercise dominion over them, and they that are great exercise authority upon them.'),
             plain(27, 'But it shall not be so among you: but whosoever will be great among you, let him be your minister;'),
             plain(28, 'And whosoever will be chief among you, let him be your servant.'),

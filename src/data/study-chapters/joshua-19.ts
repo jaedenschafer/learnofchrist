@@ -275,6 +275,18 @@ export const JOSHUA_19: RichChapterContent = {
                 t('And turneth toward the sunrising to Beth-dagon, and reacheth to Zebulun, and to the valley of Jiphthah-el toward the north side of Bethemek, and Neiel, and goeth out to Cabul on the left hand,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'joshua-19-78mid-1',
+          html:
+            'The narrative moves here from one front to the next. Conquest in this book is named place by named place.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 19,
+          lines: [
             {
               number: 28,
               spans: [
@@ -331,6 +343,18 @@ export const JOSHUA_19: RichChapterContent = {
                 t(','),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'joshua-19-78mid-2',
+          html:
+            'The narrative moves here from one front to the next. Conquest in this book is named place by named place.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 19,
+          lines: [
             {
               number: 36,
               spans: [
@@ -428,6 +452,18 @@ export const JOSHUA_19: RichChapterContent = {
                 t('And Elon, and Thimnathah, and Ekron,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'joshua-19-78mid-3',
+          html:
+            'The narrative moves here from one front to the next. Conquest in this book is named place by named place.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 19,
+          lines: [
             {
               number: 44,
               spans: [

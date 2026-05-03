@@ -86,6 +86,18 @@ export const REVELATION_1: RichChapterContent = {
             plain(12, 'And I turned to see the voice that spake with me. And being turned, I saw seven golden candlesticks;'),
             plain(13, 'And in the midst of the seven candlesticks one like unto the Son of man, clothed with a garment down to the foot, and girt about the paps with a golden girdle.'),
             plain(14, 'His head and his hairs were white like wool, as white as snow; and his eyes were as a flame of fire;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'revelation-1-78mid-1',
+          html:
+            'The vision turns. John&apos;s scrolls and trumpets unfold in layers; the next verses are the same truth at a deeper octave.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(15, 'And his feet like unto fine brass, as if they burned in a furnace; and his voice as the sound of many waters.'),
             plain(16, 'And he had in his right hand seven stars: and out of his mouth went a sharp twoedged sword: and his countenance was as the sun shineth in his strength.'),
             plain(17, 'And when I saw him, I fell at his feet as dead. And he laid his right hand upon me, saying unto me, Fear not; I am the first and the last:'),

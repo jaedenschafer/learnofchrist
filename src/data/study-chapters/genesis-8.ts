@@ -164,6 +164,18 @@ export const GENESIS_8: RichChapterContent = {
                 t(', to see if the waters were abated from off the face of the ground;'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-8-78mid-1',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             {
               number: 9,
               spans: [
@@ -266,6 +278,18 @@ export const GENESIS_8: RichChapterContent = {
                 t('And God spake unto Noah, saying,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-8-78mid-2',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             {
               number: 16,
               spans: [

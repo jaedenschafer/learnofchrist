@@ -90,6 +90,18 @@ export const JEREMIAH_12: RichChapterContent = {
             plain(7, 'I have forsaken mine house, I have left mine heritage; I have given the dearly beloved of my soul into the hand of her enemies.'),
             plain(8, 'Mine heritage is unto me as a lion in the forest; it crieth out against me: therefore have I hated it.'),
             plain(9, 'Mine heritage is unto me as a speckled bird, the birds round about are against it; come ye, assemble all the beasts of the field, come to devour.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-12-78mid-1',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             plain(10, 'Many pastors have destroyed my vineyard, they have trodden my portion under foot, they have made my pleasant portion a desolate wilderness.'),
             plain(11, 'They have made it desolate, and being desolate it mourneth unto me; the whole land is made desolate, because no man layeth it to heart.'),
             plain(14, 'Thus saith the Lord against all mine evil neighbours, that touch the inheritance which I have caused my people Israel to inherit; Behold, I will pluck them out of their land, and pluck out the house of Judah from among them.'),

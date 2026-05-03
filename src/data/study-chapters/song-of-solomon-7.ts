@@ -52,6 +52,18 @@ export const SONG_7: RichChapterContent = {
             plain(7, 'Let us get up early to the vineyards; let us see if the vine flourish, whether the tender grape appear, and the pomegranates bud forth: there will I give thee my loves.'),
             plain(8, 'The mandrakes give a smell, and at our gates are all manner of pleasant fruits, new and old, which I have laid up for thee, O my beloved.'),
             plain(9, 'O that thou wert as my brother, that sucked the breasts of my mother! when I should find thee without, I would kiss thee; yea, I should not be despised.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'song-of-solomon-7-78mid-1',
+          html:
+            'The voices change here — bride to beloved, or beloved to bride. The love song is sung antiphonally.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(10, 'I would lead thee, and bring thee into my mother&apos;s house, who would instruct me: I would cause thee to drink of spiced wine of the juice of my pomegranate.'),
             plain(11, 'His left hand should be under my head, and his right hand should embrace me.'),
             plain(12, 'I charge you, O daughters of Jerusalem, that ye stir not up, nor awake my love, until he please.'),

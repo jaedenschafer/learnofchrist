@@ -28,6 +28,33 @@ export const JOSHUA_4: RichChapterContent = {
     ref: 'Joshua 4 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'bibleodyssey-gilgal',
+      kind: 'archaeology',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Gilgal: The Camp and Memorial Stones',
+      url: 'https://www.bibleodyssey.org/dictionary/gilgal/',
+      description: 'Site of the first Israelite camp in Canaan where Joshua set up twelve stones from the Jordan.',
+    },
+    {
+      id: 'iaa-gilgal-excavation',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Gilgal Excavations',
+      url: 'https://www.antiquities.org.il/article-3050-en/Gilgal.html',
+      description: 'Archaeological evidence of ancient Gilgal and its role in early Israelite settlement of Canaan.',
+    },
+    {
+      id: 'sefaria-passover-connection',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Passover and Joshua 4 — Tenth Day Connection',
+      url: 'https://www.sefaria.org/Exodus.12.3?lang=bi',
+      description: 'Connection between the Passover lamb selection (Exodus 12:3) and the crossing of Jordan on the same day (Joshua 4).',
+    },
+  ],
+
   sections: [
     /* ─── Joshua 4:1–3 — Take You Twelve Stones ──────────────────────────── */
     {

@@ -33,6 +33,18 @@ export const PSALMS_109: RichChapterContent = {
             plain(1, 'Hold not thy peace, O God of my praise;'),
             plain(2, 'For the mouth of the wicked and the mouth of the deceitful are opened against me: they have spoken against me with a lying tongue.'),
             plain(3, 'They compassed me about also with words of hatred; and fought against me without a cause.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-109-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 109,
+          lines: [
             plain(4, 'For my love they are my adversaries: but I give myself unto prayer.'),
             plain(5, 'And they have rewarded me evil for good, and hatred for my love.'),
             plain(6, 'Set thou a wicked man over him: and let Satan stand at his right hand.'),

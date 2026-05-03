@@ -85,6 +85,18 @@ export const GENESIS_43: RichChapterContent = {
                 t('And Judah spake unto him, saying, The man did solemnly protest unto us, saying, Ye shall not see my face, except your youngest brother be with you.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-43-78mid-1',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 43,
+          lines: [
             {
               number: 4,
               spans: [
@@ -414,6 +426,18 @@ export const GENESIS_43: RichChapterContent = {
                 t('.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-43-78mid-2',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 43,
+          lines: [
             {
               number: 31,
               spans: [

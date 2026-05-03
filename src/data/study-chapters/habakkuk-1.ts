@@ -79,6 +79,18 @@ export const HABAKKUK_1: RichChapterContent = {
             plain(5, 'Behold ye among the heathen, and regard, and wonder marvelously: for I will work a work in your days, which ye will not believe, though it be told you.'),
             plain(6, 'For, lo, I raise up the Chaldeans, that bitter and hasty nation, which shall march through the breadth of the land, to possess the dwellingplaces that are not theirs.'),
             plain(7, 'They are terrible and dreadful: their judgment and their dignity shall proceed of themselves.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'habakkuk-1-78mid-1',
+          html:
+            'The prophet turns from question to answer, or from answer to song. Habakkuk&apos;s short book is a conversation with God in three movements.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(8, 'Their horses also are swifter than the leopards, and are more fierce than the evening wolves: and their horsemen shall spread themselves, and their horsemen shall come from far; they shall fly as the eagle that hasteth to eat.'),
             plain(9, 'They shall come all for violence: their faces shall sup up as the east wind: and they shall gather the captivity as the sand.'),
             plain(10, 'And they shall scoff at the kings, and the princes shall be a scorn unto them: they shall deride every strong hold; for they shall heap dust, and take it.'),

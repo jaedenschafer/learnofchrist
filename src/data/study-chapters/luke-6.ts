@@ -99,6 +99,18 @@ export const LUKE_6: RichChapterContent = {
             plain(21, 'Blessed are ye that hunger now: for ye shall be filled. Blessed are ye that weep now: for ye shall laugh.'),
             plain(27, 'But I say unto you which hear, Love your enemies, do good to them which hate you,'),
             plain(31, 'And as ye would that men should do to you, do ye also to them likewise.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'luke-6-78mid-1',
+          html:
+            'Luke turns the camera here — from one encounter to the next, often watching how Jesus treats those who would otherwise be passed over.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(38, 'Give, and it shall be given unto you; good measure, pressed down, and shaken together, and running over, shall men give into your bosom.'),
             plain(43, 'For a good tree bringeth not forth corrupt fruit; neither doth a corrupt tree bring forth good fruit.'),
             plain(47, 'Whosoever cometh to me, and heareth my sayings, and doeth them, I will shew you to whom he is like:'),

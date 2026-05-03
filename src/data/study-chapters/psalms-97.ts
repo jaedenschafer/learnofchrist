@@ -33,6 +33,18 @@ export const PSALMS_97: RichChapterContent = {
             plain(2, 'Clouds and darkness are round about him: righteousness and judgment are the habitation of his throne.'),
             plain(3, 'A fire goeth before him, and burneth up his enemies round about.'),
             plain(4, 'His lightnings enlighten the world: the earth saw, and trembled.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-97-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 97,
+          lines: [
             plain(6, 'The heavens declare his righteousness: and all the people see his glory.'),
             plain(10, 'Ye that love the Lord, hate evil: he preserveth the souls of his saints; he delivereth them out of the hand of the wicked.'),
             plain(11, 'Light is sown for the righteous, and gladness for the upright in heart.'),

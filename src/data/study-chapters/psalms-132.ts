@@ -33,6 +33,18 @@ export const PSALMS_132: RichChapterContent = {
             plain(2, 'How he sware unto the Lord, and vowed unto the mighty God of Jacob;'),
             plain(3, 'Surely I will not come into the tabernacle of my house, nor go up into my bed;'),
             plain(4, 'I will not give sleep to mine eyes, or slumber to mine eyelids;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-132-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 132,
+          lines: [
             plain(5, 'Until I find out a place for the Lord, an habitation for the mighty God of Jacob.'),
             plain(11, 'The Lord hath sworn in truth unto David; he will not turn from it; Of the fruit of thy body will I set upon thy throne.'),
             plain(12, 'If thy children will keep my covenant and my testimony that I shall teach them, their children shall also sit upon thy throne for evermore.'),

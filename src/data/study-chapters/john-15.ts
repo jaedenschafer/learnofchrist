@@ -34,6 +34,18 @@ export const JOHN_15: RichChapterContent = {
             plain(1, 'I am the true vine, and my Father is the husbandman.'),
             plain(4, 'Abide in me, and I in you. As the branch cannot bear fruit of itself, except it abide in the vine; no more can ye, except ye abide in me.'),
             plain(5, 'I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'john-15-78mid-1',
+          html:
+            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 15,
+          lines: [
             plain(7, 'If ye abide in me, and my words abide in you, ye shall ask what ye will, and it shall be done unto you.'),
             plain(12, 'This is my commandment, That ye love one another, as I have loved you.'),
             plain(14, 'Ye are my friends, if ye do whatsoever I command you.'),

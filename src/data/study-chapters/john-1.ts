@@ -34,6 +34,18 @@ export const JOHN_1: RichChapterContent = {
             plain(1, 'In the beginning was the Word, and the Word was with God, and the Word was God.'),
             plain(3, 'All things were made by him; and without him was not any thing made that was made.'),
             plain(4, 'In him was life; and the life was the light of men.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'john-1-78mid-1',
+          html:
+            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(5, 'And the light shineth in darkness; and the darkness comprehended it not.'),
             plain(14, 'And the Word was made flesh, and dwelt among us, (and we beheld his glory, the glory as of the only begotten of the Father,) full of grace and truth.'),
             plain(16, 'And of his fulness have all we received, and grace for grace.'),
@@ -100,6 +112,18 @@ export const JOHN_1: RichChapterContent = {
             plain(23, 'He said, I am the voice of one crying in the wilderness, Make straight the way of the Lord, as said the prophet Esaias.'),
             plain(29, 'The next day John seeth Jesus coming unto him, and saith, Behold the Lamb of God, which taketh away the sin of the world.'),
             plain(35, 'Again the next day after John stood, and two of his disciples;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'john-1-78mid-2',
+          html:
+            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(37, 'And the two disciples heard him speak, and they followed Jesus.'),
             plain(40, 'One of the two which heard John speak, and followed him, was Andrew, Simon Peter&apos;s brother.'),
             plain(41, 'He first findeth his own brother Simon, and saith unto him, We have found the Messias, which is, being interpreted, the Christ.'),
@@ -166,6 +190,18 @@ export const JOHN_1: RichChapterContent = {
             plain(45, 'Philip findeth Nathanael, and saith unto him, We have found him, of whom Moses in the law, and the prophets, did write, Jesus of Nazareth, the son of Joseph.'),
             plain(46, 'And Nathanael said unto him, Can there any good thing come out of Nazareth? Philip saith unto him, Come and see.'),
             plain(47, 'Jesus saw Nathanael coming to him, and saith of him, Behold an Israelite indeed, in whom is no guile!'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'john-1-78mid-3',
+          html:
+            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(48, 'Nathanael saith unto him, Whence knowest thou me? Jesus answered and said unto him, Before that Philip called thee, when thou wast under the fig tree, I saw thee.'),
             plain(49, 'Nathanael answered and saith unto him, Rabbi, thou art the Son of God; thou art the King of Israel.'),
             plain(50, 'Jesus answered and said unto him, Because I said unto thee, I saw thee under the fig tree, believest thou? thou shalt see greater things than these.'),

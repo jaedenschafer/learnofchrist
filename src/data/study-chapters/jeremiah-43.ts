@@ -33,6 +33,18 @@ export const JEREMIAH_43: RichChapterContent = {
             plain(2, 'Then spake Azariah the son of Hoshaiah, and Johanan the son of Kareah, and all the proud men, saying unto Jeremiah, Thou speakest falsely: the Lord our God hath not sent thee to say, Go not into Egypt to sojourn there:'),
             plain(4, 'So Johanan the son of Kareah, and all the captains of the forces, took all the remnant of Judah, that were returned from all nations, whither they had been driven, to dwell in the land of Judah;'),
             plain(5, 'Even men, and women, and children, and the king&apos;s daughters, and every person that Nebuzaradan the captain of the guard had left with Gedaliah the son of Ahikam the son of Shaphan, and Jeremiah the prophet, and Baruch the son of Neriah.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-43-78mid-1',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 43,
+          lines: [
             plain(6, 'So they came into the land of Egypt: for they obeyed not the voice of the Lord: thus came they even to Tahpanhes.'),
             plain(7, 'Then came the word of the Lord unto Jeremiah in Tahpanhes, saying,'),
             plain(8, 'Take great stones in thine hand, and hide them in the clay in the brickkiln, which is at the entry of Pharaoh&apos;s house in Tahpanhes, in the sight of the men of Judah;'),

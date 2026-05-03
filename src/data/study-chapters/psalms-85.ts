@@ -32,6 +32,18 @@ export const PSALMS_85: RichChapterContent = {
             plain(1, 'Lord, thou hast been favourable unto thy land: thou hast brought back the captivity of Jacob.'),
             plain(2, 'Thou hast forgiven the iniquity of thy people, thou hast covered all their sins. Selah.'),
             plain(3, 'Thou hast taken away all thy wrath: thou hast turned thyself from the fierceness of thine anger.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-85-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 85,
+          lines: [
             plain(4, 'Turn us, O God of our salvation, and cause thine anger toward us to cease.'),
             plain(5, 'Wilt thou be displeased with us for ever? wilt thou draw out thine anger to all generations?'),
             plain(6, 'Wilt thou not revive us again: that thy people may rejoice in thee?'),

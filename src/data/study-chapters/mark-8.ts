@@ -38,6 +38,18 @@ export const MARK_8: RichChapterContent = {
             plain(1, 'In those days the multitude being very great, and having nothing to eat, Jesus called his disciples unto him, and saith unto them,'),
             plain(2, 'I have compassion on the multitude, because they have now been with me three days, and have nothing to eat:'),
             plain(11, 'And the Pharisees came forth, and began to question with him, seeking of him a sign from heaven, tempting him.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'mark-8-78mid-1',
+          html:
+            'Mark moves quickly. The next verses press from one scene to the next without pause; the gospel is in a hurry.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(12, 'And he sighed deeply in his spirit, and saith, Why doth this generation seek after a sign? verily I say unto you, There shall no sign be given unto this generation.'),
             plain(15, 'And he charged them, saying, Take heed, beware of the leaven of the Pharisees, and of the leaven of Herod.'),
             plain(22, 'And he cometh to Bethsaida; and they bring a blind man unto him, and besought him to touch him.'),

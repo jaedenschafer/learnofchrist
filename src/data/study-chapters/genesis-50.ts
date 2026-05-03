@@ -285,6 +285,18 @@ export const GENESIS_50: RichChapterContent = {
                 t('. And Joseph wept when they spake unto him.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-50-78mid-1',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 50,
+          lines: [
             {
               number: 18,
               spans: [

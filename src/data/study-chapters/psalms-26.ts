@@ -34,6 +34,18 @@ export const PSALMS_26: RichChapterContent = {
             plain(2, 'Examine me, O Lord, and prove me; try my reins and my heart.'),
             plain(3, 'For thy lovingkindness is before mine eyes: and I have walked in thy truth.'),
             plain(4, 'I have not sat with men of falsehood; neither will I go in with dissemblers.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-26-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 26,
+          lines: [
             plain(5, 'I have hated the congregation of evil doers; and will not sit with the wicked.'),
             plain(6, 'I will wash my hands in innocency: so will I compass thine altar, O Lord.'),
             plain(7, 'That I may publish with the voice of thanksgiving, and tell of all thy wondrous works.'),

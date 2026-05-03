@@ -81,6 +81,18 @@ export const JONAH_1: RichChapterContent = {
             plain(4, 'But the Lord sent out a great wind into the sea, and there was a mighty tempest in the sea, so that the ship was like to be broken.'),
             plain(5, 'Then the mariners were afraid, and cried every man unto his god: and they cast forth the wares that were in the ship into the sea, to lighten it of them. But Jonah was gone down into the sides of the ship; and he lay, and was fast asleep.'),
             plain(6, 'So the shipmaster came to him, and said unto him, Why sleepest thou? arise, call upon thy God, if so be that God will think upon us, that we perish not.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jonah-1-78mid-1',
+          html:
+            'The scene shifts. Jonah&apos;s book is a series of small dramas, each one teaching the prophet what God already knew.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(7, 'And they said every one to his fellow, Come, and let us cast lots, that we may know for whose cause this evil is upon us. So they cast lots, and the lot fell upon Jonah.'),
             plain(8, 'Then said they unto him, Tell us, we pray thee, for whose cause this evil is upon us; What is thine occupation? and whence comest thou? what is thy country? and of what people art thou?'),
             plain(9, 'And he said unto them, I am an Hebrew; and I fear the Lord, the God of heaven, which hath made the sea and the dry land.'),

@@ -32,6 +32,18 @@ export const JOEL_3: RichChapterContent = {
             plain(2, 'I will also gather all nations, and will bring them down into the valley of Jehoshaphat, and will plead with them there for my people and for my heritage Israel, whom they have scattered among the nations, and parted my land.'),
             plain(3, 'And they have cast lots for my people; and have given a boy for an harlot, and sold a girl for wine, that they might drink.'),
             plain(4, 'Yea, and what have ye to do with me, O Tyre, and Zidon, and all the coasts of Palestine? will ye render me a recompence? and if ye recompence me, swiftly and speedily will I return your recompence upon your own head;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'joel-3-78mid-1',
+          html:
+            'The oracle turns. Joel is short, but he never lets devastation be the whole story — restoration is always close behind.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(5, 'Because ye have taken my silver and my gold, and have carried into your temples my goodly pleasant things:'),
             plain(6, 'The children also of Judah and the children of Jerusalem have ye sold unto the Grecians, that ye might remove them far from their border.'),
             plain(7, 'Behold, I will raise them out of the place whither ye have sold them, and will return your recompence upon your own head:'),
@@ -68,6 +80,18 @@ export const JOEL_3: RichChapterContent = {
             plain(9, 'Proclaim ye this among the Gentiles; Prepare war, wake up the mighty men, let all the men of war draw near; let them come up:'),
             plain(10, 'Beat your plowshares into swords, and your pruninghooks into spears: let the weak say, I am strong.'),
             plain(11, 'Assemble yourselves, and come, all ye heathen, and gather yourselves together round about: thither cause thy mighty ones to come down, O Lord.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'joel-3-78mid-2',
+          html:
+            'The oracle turns. Joel is short, but he never lets devastation be the whole story — restoration is always close behind.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(12, 'Let the heathen be wakened, and come up to the valley of Jehoshaphat: for there will I sit to judge all the heathen round about.'),
             plain(13, 'Put ye in the sickle, for the harvest is ripe: come, get you down; for the press is full, the fats overflow; for their wickedness is great.'),
             plain(14, 'Multitudes, multitudes in the valley of decision: for the day of the Lord is near in the valley of decision.'),

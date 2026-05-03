@@ -95,6 +95,18 @@ export const GENESIS_40: RichChapterContent = {
                 t('And the captain of the guard charged Joseph with them, and he served them: and they continued a season in ward.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-40-78mid-1',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 40,
+          lines: [
             {
               number: 5,
               spans: [
@@ -209,6 +221,18 @@ export const GENESIS_40: RichChapterContent = {
                 t('And I took the grapes, and pressed them into Pharaoh&apos;s cup, and I gave the cup into Pharaoh&apos;s hand.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-40-78mid-2',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 40,
+          lines: [
             {
               number: 12,
               spans: [

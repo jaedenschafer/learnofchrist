@@ -82,6 +82,18 @@ export const ZEPHANIAH_1: RichChapterContent = {
             plain(7, 'Hold thy peace at the presence of the Lord God: for the day of the Lord is at hand: for the Lord hath prepared a sacrifice, he hath bid his guests.'),
             plain(8, 'And it shall come to pass in the day of the Lord&apos;s sacrifice, that I will punish the princes, and the king&apos;s children, and all such as are clothed with strange apparel.'),
             plain(9, 'In the same day also will I punish all those that leap on the threshold, which fill their masters&apos; houses with violence and deceit.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'zephaniah-1-78mid-1',
+          html:
+            'The prophet turns from judgment to remnant — from wrath to a quiet promise that the proud will be removed and the meek preserved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(10, 'And it shall come to pass in that day, saith the Lord, that there shall be the noise of a cry from the fish gate, and an howling from the second, and a great crashing from the hills.'),
             plain(14, 'The great day of the Lord is near, it is near, and hasteth greatly, even the voice of the day of the Lord: the mighty man shall cry there bitterly.'),
             plain(15, 'That day is a day of wrath, a day of trouble and distress, a day of wasteness and desolation, a day of darkness and gloominess, a day of clouds and thick darkness.'),

@@ -164,6 +164,18 @@ export const JEREMIAH_30: RichChapterContent = {
                 t('There is none to plead thy cause, that thou mayest be bound up: thou hast no healing medicines.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-30-78mid-1',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 30,
+          lines: [
             {
               number: 14,
               spans: [

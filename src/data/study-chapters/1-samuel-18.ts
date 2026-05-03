@@ -160,6 +160,18 @@ export const SAMUEL_1_18: RichChapterContent = {
             plain(10, 'And it came to pass on the morrow, that the evil spirit from God came upon Saul, and he prophesied in the midst of the house: and David played with his hand, as at other times: and there was a javelin in Saul\'s hand.'),
             plain(11, 'And Saul cast the javelin; for he said, I will smite David even to the wall. And David avoided out of his presence twice.'),
             plain(12, 'And Saul was afraid of David, because the Lord was with him, and was departed from Saul.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-samuel-18-78mid-1',
+          html:
+            'The story shifts here. Watch what changes in the room when the next person speaks.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             plain(13, 'Therefore Saul removed him from him, and made him captain over a thousand; and he went out and came in before the people.'),
             plain(14, 'And David behaved himself wisely in all his ways; and the Lord was with him.'),
             plain(15, 'Wherefore when Saul saw that he behaved himself very wisely, he was afraid of him.'),

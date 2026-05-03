@@ -79,6 +79,18 @@ export const PSALMS_140: RichChapterContent = {
             plain(7, 'O God the Lord, the strength of my salvation, thou hast covered my head in the day of battle.'),
             plain(8, 'Grant not, O Lord, the desires of the wicked: further not his wicked device; lest they exalt themselves. Selah.'),
             plain(9, 'As for the head of those that compass me about, let the mischief of their own lips cover them.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-140-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 140,
+          lines: [
             plain(10, 'Let burning coals fall upon them: let them be cast into the fire; into deep pits, that they rise not up again.'),
             plain(11, 'Let not an evil speaker be established in the earth: evil shall hunt the violent man to overthrow him.'),
             plain(12, 'I know that the Lord will maintain the cause of the afflicted, and the justice of the poor.'),

@@ -82,6 +82,18 @@ export const AMOS_5: RichChapterContent = {
             plain(11, 'Forasmuch therefore as your treading is upon the poor, and ye take from him burdens of wheat: ye have built houses of hewn stone, but ye shall not dwell in them; ye have planted pleasant vineyards, but ye shall not drink wine of them.'),
             plain(12, 'For I know your manifold transgressions and your mighty sins: they afflict the just, they take a bribe, and they turn aside the poor in the gate from their right.'),
             plain(13, 'Therefore the prudent shall keep silence in that time; for it is an evil time.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'amos-5-78mid-1',
+          html:
+            'The prophet pivots — from indictment to invitation, from woe to a single open door.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(14, 'Seek good, and not evil, that ye may live: and so the Lord, the God of hosts, shall be with you, as ye have spoken.'),
             plain(15, 'Hate the evil, and love the good, and establish judgment in the gate: it may be that the Lord God of hosts will be merciful unto the remnant of Joseph.'),
             {

@@ -59,7 +59,7 @@ export const JOSHUA_3: RichChapterContent = {
           kind: 'commentary',
           id: 'joshua-follow',
           html:
-            'Israel must follow the ark. Not Moses, not Joshua, not even the cloud pillar anymore. The physical presence of God, carried by the priests, leads the way. For a generation that has never crossed a river like this, that has never seen the promised land, that has heard only reports and stories — obedience means following something they cannot yet understand.',
+            'Israel must follow the ark[res:intertextual-jordan-hebrews4]. Not Moses, not Joshua, not even the cloud pillar anymore. The physical presence of God, carried by the priests, leads the way. For a generation that has never crossed a river like this, that has never seen the promised land, that has heard only reports and stories — obedience means following something they cannot yet understand.',
         },
         {
           kind: 'hebrew',
@@ -215,7 +215,7 @@ export const JOSHUA_3: RichChapterContent = {
           kind: 'commentary',
           id: 'joshua-living-god',
           html:
-            'Joshua lists eight nations — the obstacles that seem insurmountable. But his word to Israel is: one God. Not eight gods competing with one God. Not a god as powerful as these nations&apos; gods. The living God. The one who alone breathes, moves, acts. When the presence of God is real and active among a people, all other powers shrink to their true size.',
+            'Joshua lists eight nations — the obstacles that seem insurmountable. But his word to Israel is: one God. Not eight gods competing with one God. Not a god as powerful as these nations&apos; gods. The living God[res:bibleodyssey-jordan-crossing]. The one who alone breathes, moves, acts. When the presence of God is real and active among a people, all other powers shrink to their true size.',
         },
         {
           kind: 'christ',
@@ -284,7 +284,7 @@ export const JOSHUA_3: RichChapterContent = {
           kind: 'commentary',
           id: 'joshua-heap',
           html:
-            'The text will tell us where the water piles up: near the city of Adam, at a place called Zaretan. The water does not disappear; it gathers into a heap, dammed up by God&apos;s hand. Below, toward the Dead Sea, the waters fail and are cut off. For the priests and for Israel, there is dry ground.',
+            'The text will tell us where the water piles up: near the city of Adam, at a place called Zaretan[res:iaa-jordan-valley]. The water does not disappear; it gathers into a heap, dammed up by God&apos;s hand. Below, toward the Dead Sea, the waters fail and are cut off. For the priests and for Israel, there is dry ground.',
         },
         {
           kind: 'commentary',
@@ -440,4 +440,31 @@ export const JOSHUA_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Joshua 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-jordan-crossing',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jordan Crossing and Covenant',
+      url: 'https://www.bibleodyssey.org/passages/joshua/crossing-jordan/',
+      description: 'SBL study on the Jordan crossing as a renewal of covenant and parallel to the Red Sea miracle.',
+    },
+    {
+      id: 'iaa-jordan-valley',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Jordan Valley Geography and Archaeology',
+      url: 'https://www.antiquities.org.il/article-3100-en/Jordan%20Valley.html',
+      description: 'Geological and archaeological context for the Jordan River and its seasonal variations.',
+    },
+    {
+      id: 'intertextual-jordan-hebrews4',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Joshua&apos;s Rest and Hebrews 4',
+      url: 'https://intertextual.bible/text/joshua-3/hebrews-4.8',
+      description: 'Connection between Joshua leading Israel into rest and the rest that remains for believers in Hebrews.',
+    },
+  ],
 };

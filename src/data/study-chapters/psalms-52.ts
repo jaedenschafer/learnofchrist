@@ -23,6 +23,18 @@ export const PSALMS_52: RichChapterContent = {
             plain(1, 'Why boastest thou thyself in mischief, O mighty man? the goodness of God endureth continually.'),
             plain(2, 'Thy tongue deviseth mischiefs; like a sharp razor, working deceitfully.'),
             plain(3, 'Thou lovest evil more than good; and lying rather than to speak righteousness. Selah.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-52-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 52,
+          lines: [
             plain(4, 'Thou lovest all devouring words, O thou deceitful tongue.'),
             plain(5, 'God shall likewise destroy thee for ever, he shall take thee away, and pluck thee out of thy dwelling place, and root thee out of the land of the living. Selah.'),
             plain(6, 'The righteous also shall see, and fear, and shall laugh at him:'),

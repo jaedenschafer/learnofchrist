@@ -33,6 +33,18 @@ export const PSALMS_50: RichChapterContent = {
             plain(2, 'Out of Zion, the perfection of beauty, God hath shined.'),
             plain(7, 'Hear, O my people, and I will speak; O Israel, and I will testify against thee: I am God, even thy God.'),
             plain(8, 'I will not reprove thee for thy sacrifices or thy burnt offerings, to have been continually before me.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-50-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 50,
+          lines: [
             plain(9, 'I will take no bullock out of thy house, nor he goats out of thy folds.'),
             plain(12, 'If I were hungry, I would not tell thee: for the world is mine, and the fulness thereof.'),
             plain(14, 'Offer unto God thanksgiving; and pay thy vows unto the most High:'),

@@ -35,6 +35,18 @@ export const JOHN_11: RichChapterContent = {
             plain(3, 'Therefore his sisters sent unto him, saying, Lord, behold, he whom thou lovest is sick.'),
             plain(4, 'When Jesus heard that, he said, This sickness is not unto death, but for the glory of God, that the Son of God might be glorified thereby.'),
             plain(14, 'Then said Jesus unto them plainly, Lazarus is dead.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'john-11-78mid-1',
+          html:
+            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             plain(21, 'Then said Martha unto Jesus, Lord, if thou hadst been here, my brother had not died.'),
             plain(23, 'Jesus saith unto her, Thy brother shall rise again.'),
             plain(25, 'Jesus said unto her, I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live.'),
@@ -106,6 +118,18 @@ export const JOHN_11: RichChapterContent = {
             plain(32, 'Then when Mary was come where Jesus was, and saw him, she fell down at his feet, saying unto him, Lord, if thou hadst been here, my brother had not died.'),
             plain(33, 'When Jesus therefore saw her weeping, and the Jews also weeping which came with her, he groaned in the spirit, and was troubled.'),
             plain(35, 'Jesus wept.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'john-11-78mid-2',
+          html:
+            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             plain(38, 'Jesus therefore again groaning in himself cometh to the grave. It was a cave, and a stone lay upon it.'),
             plain(39, 'Jesus said, Take ye away the stone. Martha, the sister of him that was dead, saith unto him, Lord, by this time he stinketh: for he hath been dead four days.'),
             plain(43, 'And when he thus had spoken, he cried with a loud voice, Lazarus, come forth.'),

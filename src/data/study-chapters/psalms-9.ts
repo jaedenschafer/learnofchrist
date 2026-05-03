@@ -83,6 +83,18 @@ export const PSALMS_9: RichChapterContent = {
             plain(7, 'But the Lord shall endure for ever: he hath prepared his throne for judgment.'),
             plain(8, 'And he shall judge the world in righteousness, and he shall minister judgment to the people in uprightness.'),
             plain(9, 'The Lord also will be a refuge for the oppressed, a refuge in times of trouble.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-9-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(10, 'And they that know thy name will put their trust in thee: for thou, Lord, hast not forsaken them that seek thee.'),
             plain(11, 'Sing praises to the Lord, which dwelleth in Zion: declare among the people his doings.'),
             plain(12, 'When he maketh inquisition for blood, he remembereth them: he forgetteth not the cry of the humble.'),
@@ -102,6 +114,18 @@ export const PSALMS_9: RichChapterContent = {
             plain(14, 'That I may shew forth all thy praise in the gates of the daughter of Zion: I will rejoice in thy salvation.'),
             plain(15, 'The heathen are sunk down in the pit that they made: in the net which they hid is their own foot taken.'),
             plain(16, 'The Lord is known by the judgment which he executeth: the wicked is snared in the work of his own hands. Higgaion. Selah.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-9-78mid-2',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(17, 'The wicked shall be turned into hell, and all the nations that forget God.'),
             plain(18, 'For the needy shall not alway be forgotten: the expectation of the poor shall not perish for ever.'),
             plain(19, 'Arise, O Lord; let not man prevail: let the heathen be judged in thy sight.'),

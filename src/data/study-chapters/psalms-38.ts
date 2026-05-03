@@ -34,6 +34,18 @@ export const PSALMS_38: RichChapterContent = {
             plain(2, 'For thine arrows stick fast in me, and thy hand presseth me sore.'),
             plain(3, 'There is no soundness in my flesh because of thine anger; neither is there any rest in my bones because of my sin.'),
             plain(4, 'For mine iniquities are gone over mine head: as a heavy burden they are too heavy for me.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-38-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 38,
+          lines: [
             plain(5, 'My wounds stink and are corrupt because of my foolishness.'),
             plain(6, 'I am troubled; I am bowed down greatly; I go mourning all the day long.'),
             plain(7, 'For my loins are filled with a loathsome disease: and there is no soundness in my flesh.'),

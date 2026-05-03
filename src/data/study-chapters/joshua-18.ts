@@ -418,6 +418,18 @@ export const JOSHUA_18: RichChapterContent = {
                 t('And Chephar-haammonai, and Ophni, and Gaba; twelve cities with their villages:'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'joshua-18-78mid-1',
+          html:
+            'The narrative moves here from one front to the next. Conquest in this book is named place by named place.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             {
               number: 25,
               spans: [

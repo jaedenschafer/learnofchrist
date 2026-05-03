@@ -104,6 +104,18 @@ export const JEREMIAH_13: RichChapterContent = {
             plain(20, 'Lift up your eyes, and behold them that come from the north: where is the flock that was given thee, thy beautiful flock?'),
             plain(22, 'And if thou say in thine heart, Wherefore come these things upon me? For the greatness of thine iniquity are thy skirts discovered, and thy heels made bare.'),
             plain(23, 'Can the Ethiopian change his skin, or the leopard his spots? then may ye also do good, that are accustomed to do evil.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-13-78mid-1',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 13,
+          lines: [
             plain(24, 'Therefore will I scatter them as the stubble that passeth away by the wind of the wilderness.'),
             plain(25, 'This is thy lot, the portion of thy measures from me, saith the Lord; because thou hast forgotten me, and trusted in falsehood.'),
             plain(26, 'Therefore will I discover thy skirts over thy face, that thy shame may appear.'),

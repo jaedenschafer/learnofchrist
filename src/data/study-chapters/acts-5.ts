@@ -283,6 +283,18 @@ export const ACTS_5: RichChapterContent = {
             plain(33, 'When they heard that, they were cut to the heart, and took counsel to slay them.'),
             plain(34, 'Then stood there up one in the council, a Pharisee, named Gamaliel, a doctor of the law, had in reputation among all the people, and commanded to put the apostles forth a little space;'),
             plain(35, 'And said unto them, Ye men of Israel, take heed to yourselves what ye intend to do as touching these men.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'acts-5-78mid-1',
+          html:
+            'The narrative shifts here — a new city, a new speaker, the same Spirit moving the gospel outward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(36, 'For before these days rose up Theudas, boasting himself to be somebody; to whom a number of men, about four hundred, joined themselves: which was slain; and all, as many as obeyed him, were scattered, and brought to nought.'),
             plain(37, 'After this man rose up Judas of Galilee in the days of the taxing, and drew away much people after him: he also perished; and all, even as many as were persuaded by him, were scattered.'),
             plain(38, 'And now I say unto you, Refrain from these men, and let them alone: for if this counsel or this work be of men, it will come to nought:'),

@@ -36,6 +36,18 @@ export const MATTHEW_10: RichChapterContent = {
             plain(1, 'And when he had called unto him his twelve disciples, he gave them power against unclean spirits, to cast them out, and to heal all manner of sickness and all manner of disease.'),
             plain(5, 'These twelve Jesus sent forth, and commanded them, saying, Go not into the way of the Gentiles, and into any city of the Samaritans enter ye not:'),
             plain(6, 'But rather go to the lost sheep of the house of Israel.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'matthew-10-78mid-1',
+          html:
+            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             plain(9, 'Provide neither gold, nor silver, nor brass in your purses;'),
             plain(16, 'Behold, I send you forth as sheep in the midst of wolves: be ye therefore wise as serpents, and harmless as doves.'),
             plain(24, 'The disciple is not above his master, nor the servant above his lord.'),
@@ -106,6 +118,18 @@ export const MATTHEW_10: RichChapterContent = {
             plain(26, 'Fear them not therefore: for there is nothing covered, that shall not be revealed; and hid, that shall not be known.'),
             plain(32, 'Whosoever therefore shall confess me before men, him will I confess also before my Father which is in heaven.'),
             plain(33, 'But whosoever shall deny me before men, him will I also deny before my Father which is in heaven.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'matthew-10-78mid-2',
+          html:
+            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             plain(34, 'Think not that I am come to send peace on earth: I came not to send peace, but a sword.'),
             plain(37, 'He that loveth father or mother more than me is not worthy of me: and he that loveth son or daughter more than me is not worthy of me.'),
             plain(38, 'And he that taketh not his cross, and followeth after me, is not worthy of me.'),

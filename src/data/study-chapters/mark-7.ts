@@ -37,6 +37,18 @@ export const MARK_7: RichChapterContent = {
             plain(5, 'Then the Pharisees and scribes asked him, Why walk not thy disciples according to the tradition of the elders, but eat bread with unwashen hands?'),
             plain(8, 'For laying aside the commandment of God, ye hold the tradition of men:'),
             plain(15, 'There is nothing from without a man, that entering into him can defile him: but the things which come out of him, those are they that defile the man.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'mark-7-78mid-1',
+          html:
+            'Mark moves quickly. The next verses press from one scene to the next without pause; the gospel is in a hurry.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(20, 'And he said, That which cometh out of the man, that defileth the man.'),
             plain(21, 'For from within, out of the heart of men, proceed evil thoughts, adulteries, fornications, murders,'),
             plain(22, 'Thefts, covetousness, wickedness, deceit, lasciviousness, an evil eye, blasphemy, pride, foolishness:'),

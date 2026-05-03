@@ -86,6 +86,18 @@ export const GENESIS_14: RichChapterContent = {
                 t('All these were joined together in the vale of Siddim, which is the salt sea.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-14-78mid-1',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 14,
+          lines: [
             {
               number: 4,
               spans: [

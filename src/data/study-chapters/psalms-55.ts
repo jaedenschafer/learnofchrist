@@ -24,6 +24,18 @@ export const PSALMS_55: RichChapterContent = {
             plain(2, 'Attend unto me, and hear me: I mourn in my complaint, and make a noise;'),
             plain(3, 'Because of the voice of the enemy, because of the oppression of the wicked: for they cast iniquity upon me, and in wrath they hate me.'),
             plain(4, 'My heart is sore pained within me: and the terrors of death are fallen upon me.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-55-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 55,
+          lines: [
             plain(5, 'Fearfulness and trembling are come upon me, and horror hath overwhelmed me.'),
             plain(6, 'And I said, Oh that I had wings like a dove! for then would I fly away, and be at rest.'),
             plain(7, 'Lo, then would I wander far off, and remain in the wilderness. Selah.'),

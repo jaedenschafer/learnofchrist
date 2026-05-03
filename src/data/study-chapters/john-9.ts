@@ -35,6 +35,18 @@ export const JOHN_9: RichChapterContent = {
             plain(1, 'And as Jesus passed by, he saw a man which was blind from his birth.'),
             plain(2, 'And his disciples asked him, saying, Master, who did sin, this man, or his parents, that he was born blind?'),
             plain(3, 'Jesus answered, Neither hath this man sinned, nor his parents: but that the works of God should be made manifest in him.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'john-9-78mid-1',
+          html:
+            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(5, 'As long as I am in the world, I am the light of the world.'),
             plain(6, 'When he had thus spoken, he spat on the ground, and made clay of the spittle, and he anointed the eyes of the blind man with the clay;'),
             plain(7, 'And said unto him, Go, wash in the pool of Siloam, (which is by interpretation, Sent.) He went his way therefore, and washed, and came seeing.'),
@@ -106,6 +118,18 @@ export const JOHN_9: RichChapterContent = {
             plain(25, 'He answered and said, Whether he be a sinner or no, I know not: one thing I know, that, whereas I was blind, now I see.'),
             plain(31, 'Now we know that God heareth not sinners: but if any man be a worshipper of God, and doeth his will, him he heareth.'),
             plain(34, 'They answered and said unto him, Thou wast altogether born in sins, and dost thou teach us? And they cast him out.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'john-9-78mid-2',
+          html:
+            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(35, 'Jesus heard that they had cast him out; and when he had found him, he said unto him, Dost thou believe on the Son of God?'),
             plain(37, 'And Jesus said unto him, Thou hast both seen him, and it is he that talketh with thee.'),
             plain(38, 'And he said, Lord, I believe. And he worshipped him.'),

@@ -100,6 +100,18 @@ export const PSALMS_51: RichChapterContent = {
             plain(10, 'Create in me a clean heart, O God; and renew a right spirit within me.'),
             plain(11, 'Cast me not away from thy presence; and take not thy holy spirit from me.'),
             plain(12, 'Restore unto me the joy of thy salvation; and uphold me with thy free spirit.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-51-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 51,
+          lines: [
             plain(13, 'Then will I teach transgressors thy ways; and sinners shall be converted unto thee.'),
             plain(15, 'O Lord, open thou my lips; and my mouth shall shew forth thy praise.'),
             plain(16, 'For thou delightest not in sacrifice; neither wilt thou be pleased with burnt offering.'),

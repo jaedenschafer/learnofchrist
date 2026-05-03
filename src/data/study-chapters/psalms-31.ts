@@ -48,6 +48,18 @@ export const PSALMS_31: RichChapterContent = {
             plain(9, 'Have mercy upon me, O Lord, for I am in trouble: mine eye is consumed with grief, yea, my soul and my belly.'),
             plain(10, 'For my life is spent with grief, and my years with sighing: my strength faileth because of mine iniquity, and my bones are consumed.'),
             plain(14, 'But I trusted in thee, O Lord: I said, Thou art my God.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-31-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 31,
+          lines: [
             plain(15, 'My times are in thy hand: deliver me from the hand of mine enemies, and from them that persecute me.'),
             plain(19, 'Oh how great is thy goodness, which thou hast laid up for them that fear thee; which thou hast wrought for them that trust in thee before the sons of men!'),
             plain(23, 'Love the Lord, all ye his saints: for the Lord preserveth the faithful, and plentifully rewardeth the proud doer.'),

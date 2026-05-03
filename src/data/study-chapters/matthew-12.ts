@@ -99,6 +99,18 @@ export const MATTHEW_12: RichChapterContent = {
             plain(22, 'Then was brought unto him one possessed with a devil, blind, and dumb: and he healed him, insomuch that the blind and dumb both spake and saw.'),
             plain(24, 'But when the Pharisees heard it, they said, This fellow doth not cast out devils, but by Beelzebub the prince of the devils.'),
             plain(28, 'But if I cast out devils by the Spirit of God, then the kingdom of God is come unto you.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'matthew-12-78mid-1',
+          html:
+            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             plain(31, 'Wherefore I say unto you, All manner of sin and blasphemy shall be forgiven unto men: but the blasphemy against the Holy Ghost shall not be forgiven unto men.'),
             plain(40, 'For as Jonas was three days and three nights in the whale&apos;s belly; so shall the Son of man be three days and three nights in the heart of the earth.'),
             plain(41, 'The men of Nineveh shall rise in judgment with this generation, and shall condemn it: because they repented at the preaching of Jonas; and, behold, a greater than Jonas is here.'),

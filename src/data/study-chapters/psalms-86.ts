@@ -93,6 +93,18 @@ export const PSALMS_86: RichChapterContent = {
             plain(11, 'Teach me thy way, O Lord; I will walk in thy truth: unite my heart to fear thy name.'),
             plain(12, 'I will praise thee, O Lord my God, with all my heart: and I will glorify thy name for evermore.'),
             plain(13, 'For great is thy mercy toward me: and thou hast delivered my soul from the lowest hell.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-86-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 86,
+          lines: [
             plain(14, 'O God, the proud are risen against me, and the assemblies of violent men have sought my life; and have not set thee before them.'),
             plain(15, 'But thou, O Lord, art a God full of compassion, and gracious, longsuffering, and plenteous in mercy and truth.'),
             plain(16, 'O turn unto me, and have mercy upon me; give thy strength unto thy servant, and save the son of thine handmaid.'),

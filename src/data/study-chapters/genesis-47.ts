@@ -276,6 +276,18 @@ export const GENESIS_47: RichChapterContent = {
                 t('And Joseph said, Give your cattle; and I will give you for your cattle, if money fail.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-47-78mid-1',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 47,
+          lines: [
             {
               number: 17,
               spans: [

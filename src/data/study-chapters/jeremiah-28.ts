@@ -164,6 +164,18 @@ export const JEREMIAH_28: RichChapterContent = {
                 t('Go and tell Hananiah, saying, Thus saith the Lord; Thou hast broken the yokes of wood; but thou shalt make for them yokes of iron.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-28-78mid-1',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 28,
+          lines: [
             {
               number: 14,
               spans: [

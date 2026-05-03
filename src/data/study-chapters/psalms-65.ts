@@ -94,6 +94,18 @@ export const PSALMS_65: RichChapterContent = {
             plain(7, 'Which stilleth the noise of the seas, the noise of their waves, and the tumult of the people.'),
             plain(8, 'They also that dwell in the uttermost parts are afraid at thy tokens: thou makest the outgoings of the morning and evening to rejoice.'),
             plain(9, 'Thou visitest the earth, and waterest it: thou greatly enrichest it with the river of God, which is full of water: thou preparest them corn, when thou hast so provided for it.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-65-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 65,
+          lines: [
             plain(10, 'Thou waterest the ridges thereof abundantly: thou settlest the furrows thereof: thou makest it soft with showers: thou blessest the increase thereof.'),
             plain(11, 'Thou crownest the year with thy goodness; and thy paths drop fatness.'),
             plain(12, 'They drop upon the pastures of the wilderness: and the little hills rejoice on every side.'),

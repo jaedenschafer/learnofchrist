@@ -138,6 +138,18 @@ export const GENESIS_10: RichChapterContent = {
                 t(': he began to be a mighty one in the earth.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-10-78mid-1',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             {
               number: 9,
               spans: [
@@ -204,6 +216,18 @@ export const GENESIS_10: RichChapterContent = {
                 t('And the Jebusite, and the Amorite, and the Girgasite,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-10-78mid-2',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             {
               number: 17,
               spans: [
@@ -366,6 +390,18 @@ export const GENESIS_10: RichChapterContent = {
                 t('And Obal, and Abimael, and Sheba,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-10-78mid-3',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             {
               number: 29,
               spans: [

@@ -158,6 +158,18 @@ export const GENESIS_27: RichChapterContent = {
                 t('Bring me venison, and make me savoury meat, that I may eat, and bless thee before the LORD before my death.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-27-78mid-1',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 27,
+          lines: [
             {
               number: 8,
               spans: [

@@ -32,6 +32,18 @@ export const JEREMIAH_38: RichChapterContent = {
             plain(6, 'Then took they Jeremiah, and cast him into the dungeon of Malchiah the king&apos;s son, that was in the court of the prison: and they let down Jeremiah with cords. And in the dungeon there was no water, but mire: and Jeremiah sunk in the mire.'),
             plain(7, 'Now when Ebed-melech the Ethiopian, one of the king&apos;s chamberlains, heard that they had put Jeremiah in the dungeon; the king then sitting in the gate of Benjamin;'),
             plain(8, 'Ebed-melech went forth out of the king&apos;s house, and spake to the king, saying,'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-38-78mid-1',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 38,
+          lines: [
             plain(9, 'My lord the king, these men have done evil in all that they have done to Jeremiah the prophet, whom they have cast into the dungeon; and he is like to die for hunger in the place where he is: for there is no more bread in the city.'),
             plain(11, 'So Ebed-melech took the men with him, and went into the house of the king under the treasury, and took thence old cast clouts and old rotten rags, and let them down by cords into the dungeon to Jeremiah.'),
             plain(12, 'And Ebed-melech the Ethiopian said unto Jeremiah, Put now these old clouts and rotten rags under thine armholes under the cords. And Jeremiah did so.'),

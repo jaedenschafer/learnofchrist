@@ -79,6 +79,18 @@ export const PSALMS_60: RichChapterContent = {
             plain(6, 'God hath spoken in his holiness; I will rejoice, I will divide Shechem, and mete out the valley of Succoth.'),
             plain(7, 'Gilead is mine, and Manasseh is mine; Ephraim also is the strength of mine head; Judah is my lawgiver;'),
             plain(8, 'Moab is my washpot; over Edom will I cast out my shoe; over Philistia will I triumph.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-60-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 60,
+          lines: [
             plain(9, 'Who will bring me into the strong city? who will lead me into Edom?'),
             plain(10, 'Wilt not thou, O God, which hadst cast us off? and thou, O God, which didst not go out with our armies?'),
             plain(11, 'Give us help from trouble: for vain is the help of man.'),

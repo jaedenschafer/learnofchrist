@@ -182,6 +182,18 @@ export const GENESIS_37: RichChapterContent = {
                 t('; and behold, your sheaves stood round about, and made obeisance to my sheaf.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-37-78mid-1',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 37,
+          lines: [
             {
               number: 8,
               spans: [
@@ -290,6 +302,18 @@ export const GENESIS_37: RichChapterContent = {
                 t('.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-37-78mid-2',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 37,
+          lines: [
             {
               number: 15,
               spans: [
@@ -585,6 +609,18 @@ export const GENESIS_37: RichChapterContent = {
                 t('And they sent the coat of many colors, and they brought it to their father; and said, This have we found: know now whether it be thy son\'s coat or no.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-37-78mid-3',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 37,
+          lines: [
             {
               number: 33,
               spans: [

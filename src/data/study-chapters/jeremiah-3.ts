@@ -37,6 +37,18 @@ export const JEREMIAH_3: RichChapterContent = {
             plain(7, 'And I said after she had done all these things, Turn thou unto me. But she returned not. And her treacherous sister Judah saw it.'),
             plain(8, 'And I saw, when for all the causes whereby backsliding Israel committed adultery I had put her away, and given her a bill of divorcement; yet her treacherous sister Judah feared not, but went and played the harlot also.'),
             plain(11, 'And the Lord said unto me, The backsliding Israel hath justified herself more than treacherous Judah.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-3-78mid-1',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(12, 'Go and proclaim these words toward the north, and say, Return, thou backsliding Israel, saith the Lord; and I will not cause my anger to fall upon you: for I am merciful, saith the Lord, and I will not keep anger for ever.'),
             plain(13, 'Only acknowledge thine iniquity, that thou hast transgressed against the Lord thy God, and hast scattered thy lovers under every green tree, and ye have not obeyed my voice, saith the Lord.'),
             plain(14, 'Turn, O backsliding children, saith the Lord; for I am married unto you: and I will take you one of a city, and two of a family, and I will bring you to Zion:'),
@@ -95,6 +107,18 @@ export const JEREMIAH_3: RichChapterContent = {
             plain(19, 'But I said, How gladly would I put thee among my children! and give thee a pleasant land, a goodly heritage of the hosts of nations: and I said, Thou shalt call me, My father; and shalt not turn away from me.'),
             plain(20, 'Surely as a wife treacherously departeth from her husband, so have ye dealt treacherously with me, O house of Israel, saith the Lord.'),
             plain(21, 'A voice was heard upon the high places, weeping and supplications of the children of Israel: for they have perverted their way, and they have forgotten the Lord their God.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-3-78mid-2',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(22, 'Return, ye backsliding children, and I will heal your backslidings. Behold, we come unto thee; for thou art the Lord our God.'),
             plain(23, 'Truly in vain is salvation hoped for from the hills, and from the multitude of mountains: truly in the Lord our God is the salvation of Israel.'),
             plain(24, 'For shame hath devoured the fruit of our labours from our youth; our flocks and our herds, the sons and the daughters.'),

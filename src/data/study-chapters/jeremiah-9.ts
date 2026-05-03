@@ -37,6 +37,18 @@ export const JEREMIAH_9: RichChapterContent = {
             plain(2, 'Oh that I had in the wilderness a lodging place of wayfaring men; that I might leave my people, and go from them! for they be all adulterers, an assembly of treacherous men.'),
             plain(3, 'And they bend their tongues like their bow for lies: but they are not valiant for the truth upon the earth; for they proceed from evil to evil, and they know not me, saith the Lord.'),
             plain(4, 'Take ye heed every one of his neighbour, and trust ye not in any brother: for every brother will utterly supplant, and every neighbour will walk with slanders.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-9-78mid-1',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(5, 'And they will deceive every one his neighbour, and will not speak the truth: they have taught their tongue to speak lies, and weary themselves to commit iniquity.'),
             plain(6, 'Thine habitation is in the midst of deceit; through deceit they refuse to know me, saith the Lord.'),
             plain(8, 'Therefore thus saith the Lord of hosts, Behold, I will melt them, and try them; for how shall I do for the daughter of my people?'),

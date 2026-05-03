@@ -199,6 +199,18 @@ export const GENESIS_42: RichChapterContent = {
                 t('And Joseph said unto them, That is it that I spake unto you, saying, Ye are spies:'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-42-78mid-1',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 42,
+          lines: [
             {
               number: 14,
               spans: [
@@ -284,6 +296,18 @@ export const GENESIS_42: RichChapterContent = {
                 t('But bring your youngest brother unto me; so shall your words be verified, and ye shall not die. And they did so.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-42-78mid-2',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 42,
+          lines: [
             {
               number: 21,
               spans: [

@@ -69,6 +69,18 @@ export const NUMBERS_28: RichChapterContent = {
                 t('The one lamb shalt thou offer in the morning, and the other lamb shalt thou offer at even;'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'numbers-28-78mid-1',
+          html:
+            'The text moves from one stage of the wilderness journey to the next. Every camp, every law, every name carries its own weight.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 28,
+          lines: [
             {
               number: 5,
               spans: [

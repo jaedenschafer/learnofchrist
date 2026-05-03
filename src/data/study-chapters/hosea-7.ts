@@ -31,6 +31,18 @@ export const HOSEA_7: RichChapterContent = {
             plain(1, 'When I would have healed Israel, then the iniquity of Ephraim was discovered, and the wickedness of Samaria: for they commit falsehood; and the thief cometh in, and the troop of robbers spoileth without.'),
             plain(2, 'And they consider not in their hearts that I remember all their wickedness: now their own doings have beset them about; they are before my face.'),
             plain(3, 'They make the king glad with their wickedness, and the princes with their lies.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'hosea-7-78mid-1',
+          html:
+            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(4, 'They are all adulterers, as an oven heated by the baker, who ceaseth from raising after he hath kneaded the dough, until it be leavened.'),
             {
               number: 5,

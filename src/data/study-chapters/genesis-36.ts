@@ -95,6 +95,18 @@ export const GENESIS_36: RichChapterContent = {
                 t('; and Bashemath bare Reuel;'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-36-78mid-1',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 36,
+          lines: [
             {
               number: 5,
               spans: [t('And Aholibamah bare Jeush, and Jaalam, and Korah: these are the sons of Esau, which were born unto him in the land of Canaan.')],
@@ -286,6 +298,18 @@ export const GENESIS_36: RichChapterContent = {
               number: 26,
               spans: [t('The children of Dishan; Uz, and Aran.')],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-36-78mid-2',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 36,
+          lines: [
             {
               number: 27,
               spans: [t('These are the dukes of the Horites; duke Lotan, duke Shobal, duke Zibeon, duke Anah,')],

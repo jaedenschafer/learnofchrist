@@ -99,6 +99,18 @@ export const LUKE_9: RichChapterContent = {
             plain(28, 'And it came to pass about an eight days after these sayings, he took Peter and John and James, and went up into a mountain to pray.'),
             plain(29, 'And as he prayed, the fashion of his countenance was altered, and his raiment was white and glistering.'),
             plain(30, 'And, behold, there talked with him two men, which were Moses and Elias:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'luke-9-78mid-1',
+          html:
+            'Luke turns the camera here — from one encounter to the next, often watching how Jesus treats those who would otherwise be passed over.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(31, 'Who appeared in glory, and spake of his decease which he should accomplish at Jerusalem.'),
             plain(35, 'And there came a voice out of the cloud, saying, This is my beloved Son: hear him.'),
             plain(57, 'And it came to pass, that, as they went in the way, a certain man said unto him, Lord, I will follow thee; but let me first go bid farewell to them that are at home.'),

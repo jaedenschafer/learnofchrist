@@ -77,6 +77,18 @@ export const HOSEA_12: RichChapterContent = {
             plain(8, 'And Ephraim said, Yet I am become rich, I have found me out substance: in all my labours they shall find none iniquity in me that were sin.'),
             plain(9, 'And I that am the Lord thy God from the land of Egypt will yet make thee to dwell in tabernacles, as in the days of the solemn feast.'),
             plain(10, 'I have also spoken by the prophets, and I have multiplied visions, and used similitudes, by the ministry of the prophets.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'hosea-12-78mid-1',
+          html:
+            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             plain(11, 'Is there iniquity in Gilead? surely they are vanity: they sacrifice bullocks in Gilgal; yea, their altars are as heaps in the furrows of the fields.'),
             plain(12, 'And Jacob fled into the country of Syria, and Israel served for a wife, and for a wife he kept sheep.'),
             plain(13, 'And by a prophet the Lord brought Israel up out of Egypt, and by a prophet was he preserved.'),

@@ -35,6 +35,18 @@ export const MATTHEW_3: RichChapterContent = {
             plain(1, 'In those days came John the Baptist, preaching in the wilderness of Judaea,'),
             plain(2, 'And saying, Repent ye: for the kingdom of heaven is at hand.'),
             plain(3, 'For this is he that was spoken of by the prophet Esaias, saying, The voice of one crying in the wilderness, Prepare ye the way of the Lord, make his paths straight.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'matthew-3-78mid-1',
+          html:
+            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(4, 'And the same John had his raiment of camel&apos;s hair, and a leathern girdle about his loins; and his meat was locusts and wild honey.'),
             plain(7, 'But when he saw many of the Pharisees and Sadducees come to his baptism, he said unto them, O generation of vipers, who hath warned you to flee from the wrath to come?'),
             plain(8, 'Bring forth therefore fruits meet for repentance:'),

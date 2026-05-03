@@ -34,6 +34,18 @@ export const PSALMS_40: RichChapterContent = {
             plain(2, 'He brought me up also out of an horrible pit, out of the miry clay, and set my feet upon a rock, and established my goings.'),
             plain(3, 'And he hath put a new song in my mouth, even praise unto our God: many shall see it, and fear, and shall trust in the Lord.'),
             plain(4, 'Blessed is that man that maketh the Lord his trust, and respecteth not the proud, nor such as turn aside to lies.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-40-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 40,
+          lines: [
             plain(5, 'Many, O Lord my God, are thy wonderful works which thou hast done, and thy thoughts which are to us-ward: they cannot be reckoned up in order unto thee: if I would declare and speak of them, they are more than can be numbered.'),
             plain(6, 'Sacrifice and offering thou didst not desire; but a body hast thou prepared me: in burnt offering and sin offering thou hast had no pleasure.'),
             plain(7, 'Then said I, Lo, I come: in the volume of the book it is written of me,'),

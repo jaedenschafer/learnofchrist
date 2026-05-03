@@ -53,6 +53,18 @@ export const JEREMIAH_2: RichChapterContent = {
             plain(7, 'And I brought you into a plentiful country, to eat the fruit thereof and the goodness thereof; but when ye entered, ye defiled my land, and made mine heritage an abomination.'),
             plain(8, 'The priests said not, Where is the Lord? and they that handle the law knew me not: the pastors also transgressed against me, and the prophets prophesied by Baal, and walked after things that do not profit.'),
             plain(9, 'Wherefore I will yet plead with you, saith the Lord, and with your children&apos;s children will I plead.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-2-78mid-1',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(10, 'For pass over the isles of Chittim, and see; and send unto Kedar, and consider diligently, and see if there be such a thing.'),
             plain(11, 'Hath a nation changed their gods, which are yet no gods? but my people have changed their glory for that which doth not profit.'),
             plain(12, 'Be astonished, O ye heavens, at this, and be ye very desolate, saith the Lord.; For my people have committed two evils; they have forsaken me the fountain of living waters, and hewed them out cisterns, broken cisterns, that can hold no water.'),
@@ -111,6 +123,18 @@ export const JEREMIAH_2: RichChapterContent = {
             plain(14, 'Therefore thus saith the Lord; Because ye have forsaken me, I will also do unto you as ye have done unto yourselves.'),
             plain(20, 'For of old I brake thy yoke, and burst thy bands; and thou saidst, I will not transgress; when upon every high hill and under every green tree thou wanderest, playing the harlot.'),
             plain(22, 'For though thou wash thee with nitre, and take thee much soap, yet thine iniquity is marked before me, saith the Lord God.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-2-78mid-2',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(23, 'How canst thou say, I am not polluted, I have not gone after Baalim? see thy way in the valley, know what thou hast done: thou art a swift dromedary traversing her ways;'),
             plain(27, 'Saying to a stock, Thou art my father; and to a stone, Thou hast brought me forth: for they have turned their back unto me, and not their face: but in the time of their trouble they will say, Arise, and save us.'),
             plain(31, 'O generation, see ye the word of the Lord. Have I been a wilderness unto Israel? a land of darkness? wherefore say my people, We are lords; we will come no more unto thee?'),

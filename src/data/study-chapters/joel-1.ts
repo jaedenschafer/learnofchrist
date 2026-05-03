@@ -31,6 +31,18 @@ export const JOEL_1: RichChapterContent = {
             plain(1, 'The word of the Lord that came to Joel the son of Pethuel.'),
             plain(2, 'Hear this, ye old men, and give ear, all ye inhabitants of the land. Hath this been in your days, or even in the days of your fathers?'),
             plain(3, 'Tell ye your children of it, and let your children tell their children, and their children another generation.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'joel-1-78mid-1',
+          html:
+            'The oracle turns. Joel is short, but he never lets devastation be the whole story — restoration is always close behind.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             {
               number: 4,
               spans: [
@@ -91,6 +103,18 @@ export const JOEL_1: RichChapterContent = {
             plain(14, 'Sanctify ye a fast, call a solemn assembly, gather the elders and all the inhabitants of the land into the house of the Lord your God, and cry unto the Lord,'),
             plain(15, 'Alas for the day! for the day of the Lord is at hand, and as a destruction from the Almighty shall it come.'),
             plain(16, 'Is not the meat cut off before our eyes, yea, joy and gladness from the house of our God?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'joel-1-78mid-2',
+          html:
+            'The oracle turns. Joel is short, but he never lets devastation be the whole story — restoration is always close behind.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(17, 'The seed is rotten under their clods, the garners are laid desolate, the barns are broken down; for the corn is withered.'),
             plain(18, 'How do the beasts groan! the herds of cattle are perplexed, because they have no pasture; yea, the flocks of sheep are made desolate.'),
             plain(19, 'O Lord, to thee will I cry: for the fire hath devoured the pastures of the wilderness, and the flame hath burned all the trees of the field.'),

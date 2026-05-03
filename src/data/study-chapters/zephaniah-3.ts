@@ -30,6 +30,18 @@ export const ZEPHANIAH_3: RichChapterContent = {
             plain(1, 'Woe to her that is filthy and polluted, to the oppressing city!'),
             plain(2, 'She obeyed not the voice; she received not correction; she trusted not in the Lord; she drew not near to her God.'),
             plain(3, 'Her princes within her are roaring lions; her judges are evening wolves; they gnaw not the bones till the morrow.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'zephaniah-3-78mid-1',
+          html:
+            'The prophet turns from judgment to remnant — from wrath to a quiet promise that the proud will be removed and the meek preserved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(4, 'Her prophets are light and treacherous persons: her priests have polluted the sanctuary, they have done violence to the law.'),
             plain(5, 'The just Lord is in the midst thereof; he will not do iniquity: every morning doth he bring his judgment to light, he faileth not; but the unjust knoweth no shame.'),
             plain(7, 'I said, Surely thou wilt fear me, thou wilt receive correction; so their dwelling should not be cut off, howsoever I punished them: but they rose early, and corrupted all their doings.'),
@@ -98,6 +110,18 @@ export const ZEPHANIAH_3: RichChapterContent = {
             plain(14, 'Sing, O daughter of Zion; shout, O Israel; be glad and rejoice with all the heart, O daughter of Jerusalem.'),
             plain(15, 'The Lord hath taken away thy judgments, he hath cast out thine enemy: the king of Israel, even the Lord, is in the midst of thee: thou shalt not see evil any more.'),
             plain(16, 'In that day it shall be said to Jerusalem, Fear not: and to Zion, Let not thine hands be slack.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'zephaniah-3-78mid-2',
+          html:
+            'The prophet turns from judgment to remnant — from wrath to a quiet promise that the proud will be removed and the meek preserved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(17, 'The Lord thy God in the midst of thee is mighty; he will save, he will rejoice over thee with joy; he will rest in his love, he will joy over thee with singing.'),
             plain(18, 'I will gather them that are sorrowful for the solemn assembly, who are of thee, to whom the reproach of it was a burden.'),
             plain(19, 'Behold, at that time I will undo all that afflict thee: and I will save her that halteth, and gather her that was driven out; and I will get them praise and fame in every land where they have been put to shame.'),

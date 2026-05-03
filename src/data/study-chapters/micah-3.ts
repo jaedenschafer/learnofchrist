@@ -30,6 +30,18 @@ export const MICAH_3: RichChapterContent = {
             plain(1, 'And I said, Hear, I pray you, O heads of Jacob, and ye princes of the house of Israel; Is it not for you to know judgment?'),
             plain(2, 'Who hate the good, and love the evil; who pluck off their skin from off them, and their flesh from off their bones;'),
             plain(3, 'Who also eat the flesh of my people, and flay their skin from off them; and they break their bones, and chop them in pieces, as for the pot, and as flesh within the caldron.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'micah-3-78mid-1',
+          html:
+            'Micah pivots — from naming the wound to naming the healer. The next verses move closer to the hope that sustained him.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(4, 'Then shall they cry unto the Lord, but he will not hear them: he will even hide his face from them at that time, as they have behaved themselves ill in their doings.'),
             plain(5, 'Thus saith the Lord concerning the prophets that make my people err, that bite with their teeth, and cry, Peace; and he that putteth not into their mouths, they even prepare war against him.'),
             plain(6, 'Therefore night shall be unto you, that ye shall not have a vision; and it shall be dark unto you, that ye shall not divine; and the sun shall go down upon the prophets, and the day shall be dark over them.'),

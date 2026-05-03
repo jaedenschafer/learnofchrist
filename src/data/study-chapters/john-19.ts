@@ -35,6 +35,18 @@ export const JOHN_19: RichChapterContent = {
             plain(5, 'Then came Jesus out, wearing the crown of thorns, and the purple robe. And Pilate saith unto them, Behold the man!'),
             plain(16, 'Then delivered he him therefore unto them to be crucified. And they took Jesus, and led him away.'),
             plain(17, 'And he bearing his cross went forth into a place called the place of a skull, which is called in the Hebrew Golgotha;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'john-19-78mid-1',
+          html:
+            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 19,
+          lines: [
             plain(19, 'And Pilate wrote a title, and put it on the cross. And the writing was, JESUS OF NAZARETH THE KING OF THE JEWS.'),
             plain(26, 'When Jesus therefore saw his mother, and the disciple standing by, whom he loved, he saith unto his mother, Woman, behold thy son!'),
             plain(28, 'After this, Jesus knowing that all things were now accomplished, that the scripture might be fulfilled, saith, I thirst.'),

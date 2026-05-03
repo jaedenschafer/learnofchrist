@@ -32,6 +32,18 @@ export const AMOS_3: RichChapterContent = {
             plain(2, 'You only have I known of all the families of the earth: therefore I will punish you for all your iniquities.'),
             plain(3, 'Can two walk together, except they be agreed?'),
             plain(4, 'Will a lion roar in the forest, when he hath no prey? will a young lion cry out of his den, if he have taken nothing?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'amos-3-78mid-1',
+          html:
+            'The prophet pivots — from indictment to invitation, from woe to a single open door.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(5, 'Can a bird fall in a snare upon the earth, where no gin is set for him? shall one take up a snare from the earth, and have taken nothing at all?'),
             plain(6, 'Shall a trumpet be blown in the city, and the people not be afraid? shall there be evil in a city, and the Lord hath not done it?'),
             plain(7, 'Surely the Lord God will do nothing, but he revealeth his secret unto his servants the prophets.'),
@@ -75,6 +87,18 @@ export const AMOS_3: RichChapterContent = {
             plain(9, 'Publish in the palaces at Ashdod, and in the palaces in the land of Egypt, and say, Assemble yourselves upon the mountains of Samaria, and behold the great tumults in the midst thereof, and the oppressed in the midst thereof.'),
             plain(10, 'For they know not to do right, saith the Lord, who store up violence and robbery in their palaces.'),
             plain(11, 'Therefore thus saith the Lord God; An adversary there shall be even round about the land; and he shall bring down thy strength from thee, and thy palaces shall be spoiled.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'amos-3-78mid-2',
+          html:
+            'The prophet pivots — from indictment to invitation, from woe to a single open door.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(12, 'Thus saith the Lord; As the shepherd taketh out of the mouth of the lion two legs, or a piece of an ear; so shall the children of Israel be taken out that dwell in Samaria in the corner of a bed, and in Damascus in a couch.'),
             plain(13, 'Hear ye, and testify in the house of Jacob, saith the Lord God, the God of hosts,'),
             plain(14, 'That in the day I shall visit the transgressions of Israel upon him I will also visit the altars of Bethel: and the horns of the altar shall be cut off, and fall to the ground.'),

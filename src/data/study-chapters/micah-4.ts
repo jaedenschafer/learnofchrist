@@ -83,6 +83,18 @@ export const MICAH_4: RichChapterContent = {
             plain(7, 'And I will make her that halted a remnant, and her that was cast far off a strong nation: and the Lord shall reign over them in mount Zion from henceforth, even for ever.'),
             plain(8, 'And thou, O tower of the flock, the strong hold of the daughter of Zion, unto thee shall it come, even the first dominion; the kingdom shall come to the daughter of Jerusalem.'),
             plain(9, 'Now why dost thou cry out aloud? is there no king in thee? is thy counsellor perished? for pangs have taken thee as a woman in travail.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'micah-4-78mid-1',
+          html:
+            'Micah pivots — from naming the wound to naming the healer. The next verses move closer to the hope that sustained him.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(10, 'Be in pain, and labour to bring forth, O daughter of Zion, like a woman in travail: for now shalt thou go forth out of the city, and thou shalt dwell in the field, and thou shalt go even to Babylon; there shalt thou be delivered; there the Lord shall redeem thee from the hand of thine enemies.'),
             plain(11, 'Now also many nations are gathered against thee, saying, Let her be defiled, and let our eye look upon Zion.'),
             plain(12, 'But they know not the thoughts of the Lord, neither understand they his counsel: for he shall gather them as the sheaves into the floor.'),

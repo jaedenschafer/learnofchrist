@@ -33,6 +33,18 @@ export const PSALMS_103: RichChapterContent = {
             plain(1, 'Bless the Lord, O my soul: and all that is within me, bless his holy name.'),
             plain(2, 'Bless the Lord, O my soul, and forget not all his benefits:'),
             plain(3, 'Who forgiveth all thine iniquities; who healeth all thy diseases;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-103-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 103,
+          lines: [
             plain(4, 'Who redeemeth thy life from destruction; who crowneth thee with lovingkindness and tender mercies;'),
             plain(5, 'Who satisfieth thy mouth with good things; so that thy youth is renewed like the eagle&apos;s.'),
             plain(6, 'The Lord executeth righteousness and judgment for all that are oppressed.'),
@@ -107,6 +119,18 @@ export const PSALMS_103: RichChapterContent = {
             plain(15, 'As for man, his days are as grass: as a flower of the field, so he flourisheth.'),
             plain(16, 'For the wind passeth over it, and it is gone; and the place thereof shall know it no more.'),
             plain(17, 'But the mercy of the Lord is from everlasting to everlasting upon them that fear him, and his righteousness unto children&apos;s children;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-103-78mid-2',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 103,
+          lines: [
             plain(19, 'The Lord hath prepared his throne in the heavens; and his kingdom ruleth over all.'),
             plain(20, 'Bless the Lord, ye his angels, that excel in strength, that do his commandments, hearkening unto the voice of his word.'),
             plain(21, 'Bless ye the Lord, all ye his hosts; ye ministers of his, that do his pleasure.'),

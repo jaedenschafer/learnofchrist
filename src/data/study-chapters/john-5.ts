@@ -99,6 +99,18 @@ export const JOHN_5: RichChapterContent = {
             plain(16, 'And therefore did the Jews persecute Jesus, and sought to slay him, because he had done these things on the Sabbath day.'),
             plain(17, 'But Jesus answered them, My Father worketh hitherto, and I work.'),
             plain(19, 'Then answered Jesus and said unto them, Verily, verily, I say unto you, The Son can do nothing of himself, but what he seeth the Father do: for what things soever he doeth, these also doeth the Son likewise.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'john-5-78mid-1',
+          html:
+            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(24, 'Verily, I say unto you, He that heareth my word, and believeth on him that sent me, hath everlasting life.'),
             plain(26, 'For as the Father hath life in himself; so hath he given to the Son to have life in himself;'),
             plain(27, 'And hath given him authority to execute judgment also, because he is the Son of man.'),

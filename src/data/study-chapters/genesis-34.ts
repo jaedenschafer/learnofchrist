@@ -259,6 +259,18 @@ export const GENESIS_34: RichChapterContent = {
                 t('But in this will we consent unto you: If ye will be as we are, if every male of you be circumcised;'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-34-78mid-1',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 34,
+          lines: [
             {
               number: 16,
               spans: [

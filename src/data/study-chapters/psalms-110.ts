@@ -33,6 +33,18 @@ export const PSALMS_110: RichChapterContent = {
             plain(1, 'The Lord said unto my Lord, Sit thou at my right hand, until I make thine enemies thy footstool.'),
             plain(2, 'The Lord shall send the rod of thy strength out of Zion: rule thou in the midst of thine enemies.'),
             plain(3, 'Thy people shall be willing in the day of thy power, in the beauties of holiness from the womb of the morning: thou hast the dew of thy youth.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-110-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 110,
+          lines: [
             plain(4, 'The Lord hath sworn, and will not repent, Thou art a priest for ever after the order of Melchizedek.'),
             plain(5, 'The Lord at thy right hand shall strike through kings in the day of his wrath.'),
             plain(6, 'He shall judge among the heathen, he shall fill the places with the dead bodies; he shall wound the heads over many countries.'),

@@ -118,6 +118,18 @@ export const HOSEA_2: RichChapterContent = {
               ],
             },
             plain(9, 'Therefore will I return, and take away my corn in the time thereof, and my wine in the season thereof, and will recover my wool and my flax given to cover her nakedness.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'hosea-2-78mid-1',
+          html:
+            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(10, 'And now will I discover her lewdness in the sight of her lovers, and none shall deliver her out of mine hand.'),
             plain(11, 'I will also cause all her mirth to cease, her feast days, her new moons, and her sabbaths, and all her solemn feasts.'),
             plain(12, 'And I will destroy her vines and her fig trees, whereof she hath said, These are my rewards that my lovers have given me: and I will make them a forest, and the beasts of the field shall eat them.'),

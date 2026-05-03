@@ -96,6 +96,18 @@ export const GENESIS_30: RichChapterContent = {
                 t('And she gave him Bilhah her handmaid to wife: and Jacob went in unto her.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-30-78mid-1',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 30,
+          lines: [
             {
               number: 5,
               spans: [
@@ -343,6 +355,18 @@ export const GENESIS_30: RichChapterContent = {
                 t(', and she conceived, and bare Jacob the fifth son.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-30-78mid-2',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 30,
+          lines: [
             {
               number: 18,
               spans: [
@@ -648,6 +672,18 @@ export const GENESIS_30: RichChapterContent = {
                 t('.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-30-78mid-3',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 30,
+          lines: [
             {
               number: 40,
               spans: [

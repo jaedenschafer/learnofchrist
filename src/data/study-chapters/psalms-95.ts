@@ -33,6 +33,18 @@ export const PSALMS_95: RichChapterContent = {
             plain(1, 'O come, let us sing unto the Lord: let us make a joyful noise to the rock of our salvation.'),
             plain(2, 'Let us come before his presence with thanksgiving, and make a joyful noise unto him with psalms.'),
             plain(3, 'For the Lord is a great God, and a great King above all gods.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-95-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 95,
+          lines: [
             plain(4, 'In his hand are the deep places of the earth: the strength of the hills is his also.'),
             plain(5, 'The sea is his, and he made it: and his hands formed the dry land.'),
             plain(6, 'O come, let us bow down and worship: let us kneel before the Lord our maker.'),

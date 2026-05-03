@@ -109,6 +109,18 @@ export const SONG_2: RichChapterContent = {
             plain(11, 'For, lo, the winter is past, the rain is over and gone;'),
             plain(12, 'The flowers appear on the earth; the time of the singing of birds is come, and the voice of the turtle is heard in our land;'),
             plain(13, 'The fig tree putteth forth her green figs, and the vines with the tender grape give a good smell. Arise, my love, my fair one, and come away.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'song-of-solomon-2-78mid-1',
+          html:
+            'The voices change here — bride to beloved, or beloved to bride. The love song is sung antiphonally.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(14, 'O my dove, that art in the clefts of the rock, in the secret places of the stairs, let me see thy countenance, let me hear thy voice; for sweet is thy voice, and thy countenance is comely.'),
             plain(15, 'Take us the foxes, the little foxes, that spoil the vines: for our vines have tender grapes.'),
             plain(16, 'My beloved is mine, and I am his: he feedeth among the lilies.'),

@@ -35,6 +35,18 @@ export const LUKE_3: RichChapterContent = {
             plain(2, 'The word of God came unto John the son of Zacharias in the wilderness.'),
             plain(3, 'And he came into all the country about Jordan, preaching the baptism of repentance for the remission of sins;'),
             plain(4, 'As it is written in the book of the words of Esaias the prophet, saying, The voice of one crying in the wilderness, Prepare ye the way of the Lord, make his paths straight.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'luke-3-78mid-1',
+          html:
+            'Luke turns the camera here — from one encounter to the next, often watching how Jesus treats those who would otherwise be passed over.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(7, 'Then said he to the multitude that came forth to be baptized of him, O generation of vipers, who hath warned you to flee from the wrath to come?'),
             plain(16, 'John answered, saying unto them all, I indeed baptize you with water; but one mightier than I cometh, the latchet of whose shoes I am not worthy to unloose: he shall baptize you with the Holy Ghost and with fire:'),
             plain(21, 'Now when all the people were baptized, it came to pass, that Jesus also being baptized, and praying, the heaven was opened,'),

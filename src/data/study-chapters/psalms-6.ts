@@ -80,6 +80,18 @@ export const PSALMS_6: RichChapterContent = {
             plain(4, 'Return, O Lord, deliver my soul: oh save me for thy mercies&apos; sake.'),
             plain(5, 'For in death there is no remembrance of thee: in the grave who shall give thee thanks?'),
             plain(6, 'I am weary with my groaning; all the night make I my bed to swim; I water my couch with my tears.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-6-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(7, 'Mine eye is consumed with grief; it waxeth old because of all mine enemies.'),
             plain(8, 'Depart from me, all ye workers of iniquity; for the Lord hath heard the voice of my weeping.'),
             plain(9, 'The Lord hath heard my supplication; the Lord will receive my prayer.'),

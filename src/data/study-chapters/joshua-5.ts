@@ -100,7 +100,7 @@ export const JOSHUA_5: RichChapterContent = {
           kind: 'commentary',
           id: 'flint-knives',
           html:
-            'Stone knives — not bronze or iron. This detail is so odd that some scholars have speculated it reflects an ancient practice predating metal tools. But it also reads as a return: Israel uses the tools of their ancestors, the tools of the original covenant. The wilderness generation has died. Their children now take up the sign their fathers bore.',
+            'Stone knives — not bronze or iron. This detail is so odd that some scholars have speculated it reflects an ancient practice predating metal tools[res:iaa-gilgal-covenant]. But it also reads as a return: Israel uses the tools of their ancestors, the tools of the original covenant. The wilderness generation has died. Their children now take up the sign their fathers bore.',
         },
         {
           kind: 'scripture',
@@ -231,7 +231,7 @@ export const JOSHUA_5: RichChapterContent = {
           kind: 'commentary',
           id: 'passover-gilgal',
           html:
-            'The first Passover since leaving Egypt. For forty years, Israel either did not keep it or the text does not record it. Now, in Gilgal on the eve of conquest, they celebrate the feast that marks deliverance from slavery. Worship before warfare. The feast that remembers their rescue is the feast that prepares them for battle.',
+            'The first Passover since leaving Egypt[res:sefaria-passover-land-eating]. For forty years, Israel either did not keep it or the text does not record it. Now, in Gilgal on the eve of conquest, they celebrate the feast that marks deliverance from slavery. Worship before warfare. The feast that remembers their rescue is the feast that prepares them for battle.',
         },
         {
           kind: 'scripture',
@@ -376,7 +376,7 @@ export const JOSHUA_5: RichChapterContent = {
           id: 'captain-host-span',
           title: 'Christ Connection — The Captain Becomes King',
           html:
-            'The Captain of the Lord&apos;s host receives Joshua&apos;s worship, claims to speak for God, and commands with divine authority. He is almost certainly a Christophany — a pre-incarnate appearance of the Son. Later, Jesus will tell His disciples, &ldquo;All power is given unto me in heaven and in earth&rdquo; (Matthew 28:18). Here, that authority is already claimed. The Captain of the Lord&apos;s host is the Word who spoke creation into being, the One Isaiah will later see in the temple (Isaiah 6), the One John will recognize as the Light (John 1:1–3). He comes to Joshua not to take sides, but to take command. Christ is never our ally who agrees with us. He is our Commander.',
+            'The Captain of the Lord&apos;s host receives Joshua&apos;s worship, claims to speak for God, and commands with divine authority[res:intertextual-captain-christophany]. He is almost certainly a Christophany — a pre-incarnate appearance of the Son. Later, Jesus will tell His disciples, &ldquo;All power is given unto me in heaven and in earth&rdquo; (Matthew 28:18). Here, that authority is already claimed. The Captain of the Lord&apos;s host is the Word who spoke creation into being, the One Isaiah will later see in the temple (Isaiah 6), the One John will recognize as the Light (John 1:1–3). He comes to Joshua not to take sides, but to take command. Christ is never our ally who agrees with us. He is our Commander.',
         },
         {
           kind: 'carry',
@@ -400,6 +400,33 @@ export const JOSHUA_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Joshua 5 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'iaa-gilgal-covenant',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Gilgal Circumcision and Covenant Renewal',
+      url: 'https://www.antiquities.org.il/article-3050-en/Gilgal.html',
+      description: 'Archaeological context for the circumcision ceremony and covenant renewal at Gilgal before the conquest.',
+    },
+    {
+      id: 'sefaria-passover-land-eating',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Passover in Canaan and the Fruit of the Land',
+      url: 'https://www.sefaria.org/Exodus.12?lang=bi',
+      description: 'Connection between the Passover feast and Israel&apos;s eating the produce of the promised land, marking the end of wilderness wandering.',
+    },
+    {
+      id: 'intertextual-captain-christophany',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Captain of the Lord&apos;s Host (Pre-incarnate Christ)',
+      url: 'https://intertextual.bible/search?q=captain+lord+host+burning+bush',
+      description: 'Christophany: The divine captain who appears to Joshua parallels Moses at the burning bush and foreshadows Christ&apos;s authority.',
+    },
+  ],
 
   hasHebrew: true,
 };

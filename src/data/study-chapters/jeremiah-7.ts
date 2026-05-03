@@ -111,6 +111,18 @@ export const JEREMIAH_7: RichChapterContent = {
             plain(17, 'Seest thou not what they do in the cities of Judah and in the streets of Jerusalem?'),
             plain(18, 'The children gather wood, and the fathers kindle the fire, and the women knead their dough, to make cakes to the queen of heaven; and they pour out drink offerings unto other gods, to provoke me to anger.'),
             plain(26, 'Therefore will I do unto this house, which is called by my name, wherein ye trust, and unto the place which I gave to you and to your fathers, as I have done to Shiloh.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-7-78mid-1',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(27, 'And I will cast you out of my sight, as I have cast out all your brethren, the whole seed of Ephraim.'),
             plain(30, 'For the children of Judah have done evil in my sight, saith the Lord: they have set their abominations in the house which is called by my name, to pollute it.'),
             plain(31, 'And they have built the high places of Tophet, in the valley of the son of Hinnom, to burn their sons and their daughters in the fire; which I commanded them not, neither came it into my heart.'),

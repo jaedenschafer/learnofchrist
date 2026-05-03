@@ -105,6 +105,18 @@ export const JOHN_13: RichChapterContent = {
             plain(21, 'When Jesus had thus spoken, he was troubled in spirit, and testified, and said, Verily, verily, I say unto you, that one of you shall betray me.'),
             plain(27, 'And after the sop Satan entered into him. Then said Jesus unto him, That thou doest, do quickly.'),
             plain(31, 'Therefore, when he was gone out, Jesus said, Now is the Son of man glorified, and God is glorified in him.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'john-13-78mid-1',
+          html:
+            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 13,
+          lines: [
             plain(34, 'A new commandment I give unto you, That ye love one another; as I have loved you, that ye also love one another.'),
             plain(35, 'By this shall all men know that ye are my disciples, if ye have love one to another.'),
             plain(37, 'Peter said unto him, Lord, why cannot I follow thee now? I will lay down my life for thy sake.'),

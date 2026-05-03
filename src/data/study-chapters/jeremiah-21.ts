@@ -55,6 +55,18 @@ export const JEREMIAH_21: RichChapterContent = {
                 t('Then said Jeremiah unto them, Thus shall ye say to Zedekiah;'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-21-78mid-1',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             {
               number: 4,
               spans: [

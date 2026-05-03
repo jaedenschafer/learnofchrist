@@ -24,6 +24,18 @@ export const PSALMS_63: RichChapterContent = {
             plain(2, 'To see thy power and thy glory, so as I have seen thee in the sanctuary.'),
             plain(3, 'Because thy lovingkindness is better than life, my lips shall praise thee.'),
             plain(4, 'Thus will I bless thee while I live: I will lift up my hands in thy name.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-63-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 63,
+          lines: [
             plain(5, 'My soul shall be satisfied as with marrow and fatness; and my mouth shall praise thee with joyful lips:'),
             plain(6, 'When I remember thee upon my bed, and meditate upon thee in the night watches.'),
             plain(7, 'Because thou hast been my help, therefore in the shadow of thy wings will I rejoice.'),

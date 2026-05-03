@@ -26,6 +26,18 @@ export const JUDGES_19: RichChapterContent = {
             plain(2, 'And his concubine played the whore against him, and went away from him unto her father&apos;s house to Bethlehem-judah, and was there the space of four months.'),
             verse(3, t('And her lord arose, and went after her, to speak '), hp('friendly unto her', 'lev-friendly'), t(', and to bring her again, being his servant: and she brought him into her father&apos;s house: and when the father of the damsel saw him, he rejoiced to meet him.')),
             plain(4, 'And his father in law, the damsel&apos;s father, retained him; and he abode with him three days: so they did eat and drink, and lodged there.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'judges-19-78mid-1',
+          html:
+            'The cycle turns again — a new actor, a new failure or deliverance, the same God still patient with His people.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 19,
+          lines: [
             plain(5, 'And it came to pass on the fourth day, when they arose early in the morning, that he rose up to depart: and the damsel&apos;s father said unto his son in law, Comfort thine heart with a morsel of bread, and afterward go your way.'),
             plain(6, 'And they sat down, and did eat and drink both of them together: for the damsel&apos;s father had said unto the man, Be content, I pray thee, and tarry all night, and let thine heart be merry.'),
             plain(7, 'And when the man rose up to depart, his father in law urged him: therefore he lodged there again.'),

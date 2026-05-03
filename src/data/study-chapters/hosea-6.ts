@@ -113,6 +113,18 @@ export const HOSEA_6: RichChapterContent = {
             plain(5, 'Therefore have I hewed them by the prophets; I have slain them by the words of my mouth: and thy judgments are as the light that goeth forth.'),
             plain(6, 'For I desired mercy, and not sacrifice; and the knowledge of God more than burnt offerings.'),
             plain(7, 'But they like men have transgressed the covenant: there have they dealt treacherously against me.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'hosea-6-78mid-1',
+          html:
+            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(8, 'Gilead is a city of them that work iniquity, and is polluted with blood.'),
             plain(9, 'And as troops of robbers wait for a man, so the company of priests murder in the way by consent: for they commit lewdness.'),
             plain(10, 'I have seen an horrible thing in the house of Israel: there is the whoredom of Ephraim, Israel is defiled.'),

@@ -96,6 +96,18 @@ export const AMOS_7: RichChapterContent = {
             plain(11, 'For thus Amos saith, Jeroboam shall die by the sword, and Israel shall surely be led away captive out of their own land.'),
             plain(12, 'Also Amaziah said unto Amos, O thou seer, go, flee thee away into the land of Judah, and there eat bread, and prophesy there:'),
             plain(13, 'But prophesy not again any more at Bethel: for it is the king\'s chapel, and it is the king\'s court.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'amos-7-78mid-1',
+          html:
+            'The prophet pivots — from indictment to invitation, from woe to a single open door.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(14, 'Then answered Amos, and said to Amaziah, I was no prophet, neither was I a prophet\'s son; but I was an herdman, and a gatherer of sycomore fruit:'),
             plain(15, 'And the Lord took me as I followed the flock, and the Lord said unto me, Go, prophesy unto my people Israel.'),
             plain(16, 'Now therefore hear thou the word of the Lord: Thou sayest, Prophesy not against Israel, and drop not thy word against the house of Isaac.'),

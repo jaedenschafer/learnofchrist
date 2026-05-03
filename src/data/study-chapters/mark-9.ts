@@ -108,6 +108,18 @@ export const MARK_9: RichChapterContent = {
             plain(17, 'And one of the multitude answered and said, Master, I have brought unto thee my son, which hath a dumb spirit;'),
             plain(23, 'Jesus said unto him, If thou canst believe, all things are possible to him that believeth.'),
             plain(24, 'And straightway the father of the child cried out, and said with tears, Lord, I believe; help thou mine unbelief.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'mark-9-78mid-1',
+          html:
+            'Mark moves quickly. The next verses press from one scene to the next without pause; the gospel is in a hurry.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(31, 'For he taught his disciples, and said unto them, The Son of man is delivered into the hands of men, and they shall kill him; and after that he is killed, he shall rise the third day.'),
             plain(35, 'And he sat down, and called the twelve, and saith unto them, If any man desire to be first, the same shall be last of all, and servant of all.'),
             plain(36, 'And he took a child, and set him in the midst of them: and when he had taken him in his arms, he said unto them,'),

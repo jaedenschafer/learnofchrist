@@ -93,6 +93,18 @@ export const JOEL_2: RichChapterContent = {
             },
             plain(13, 'And rend your heart, and not your garments, and turn unto the Lord your God: for he is gracious and merciful, slow to anger, and of great kindness, and repenteth him of the evil.'),
             plain(14, 'Who knoweth if he will return and repent, and leave a blessing behind him; even a meat offering and a drink offering unto the Lord your God?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'joel-2-78mid-1',
+          html:
+            'The oracle turns. Joel is short, but he never lets devastation be the whole story — restoration is always close behind.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(15, 'Blow the trumpet in Zion, sanctify a fast, call a solemn assembly:'),
             plain(16, 'Gather the people, sanctify the congregation, assemble the elders, gather the children, and those that suck the breasts: let the bridegroom go forth of his chamber, and the bride out of her closet.'),
             plain(17, 'Let the priests, the ministers of the Lord, weep between the porch and the altar, and let them say, Spare thy people, O Lord, and give not thine heritage to reproach, that the heathen should rule over them: wherefore should they say among the people, Where is their God?'),

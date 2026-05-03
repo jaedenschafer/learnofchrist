@@ -278,6 +278,18 @@ export const GENESIS_38: RichChapterContent = {
                 t('; because she had covered her face.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-38-78mid-1',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 38,
+          lines: [
             {
               number: 16,
               spans: [
@@ -381,6 +393,18 @@ export const GENESIS_38: RichChapterContent = {
                 t('And Judah returned to Hirah his companion, and said, I cannot find her; and also the men of the place said, that there was no harlot in this place.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-38-78mid-2',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 38,
+          lines: [
             {
               number: 23,
               spans: [

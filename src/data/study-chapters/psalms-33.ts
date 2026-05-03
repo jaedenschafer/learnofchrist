@@ -106,6 +106,18 @@ export const PSALMS_33: RichChapterContent = {
             plain(13, 'The Lord looketh from heaven; he beholdeth all the children of men.'),
             plain(14, 'From the place of his habitation he looketh upon all the inhabitants of the earth.'),
             plain(15, 'He fashioneth their hearts alike; he considereth all their works.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-33-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 33,
+          lines: [
             plain(18, 'Behold, the eye of the Lord is upon them that fear him, upon them that hope in his mercy.'),
             plain(20, 'Our soul waiteth for the Lord: he is our help and our shield.'),
             plain(21, 'For our heart shall rejoice in him, because we have trusted in his holy name.'),

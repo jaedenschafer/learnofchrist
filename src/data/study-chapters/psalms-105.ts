@@ -34,6 +34,18 @@ export const PSALMS_105: RichChapterContent = {
             plain(4, 'Seek the Lord, and his strength: seek his face evermore.'),
             plain(5, 'Remember his marvellous works that he hath done; his wonders, and the judgments of his mouth;'),
             plain(8, 'He hath remembered his covenant for ever, the word which he commanded to a thousand generations;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-105-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 105,
+          lines: [
             plain(9, 'Which covenant he made with Abraham, and his oath unto Isaac;'),
             plain(10, 'And confirmed the same unto Jacob for a law, and to Israel for an everlasting covenant:'),
             plain(11, 'Saying, Unto thee will I give the land of Canaan, the lot of your inheritance:'),

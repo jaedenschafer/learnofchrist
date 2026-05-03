@@ -33,6 +33,18 @@ export const SONG_1: RichChapterContent = {
             plain(1, 'The Song of songs, which is Solomon&apos;s.'),
             plain(2, 'Let him kiss me with the kisses of his mouth: for thy love is better than wine.'),
             plain(3, 'Because of the savour of thy good ointments thy name is as ointment poured forth, therefore do the virgins love thee.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'song-of-solomon-1-78mid-1',
+          html:
+            'The voices change here — bride to beloved, or beloved to bride. The love song is sung antiphonally.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(4, 'Draw me, we will run after thee: the king hath brought me into his chambers: we will be glad and rejoice in thee, let us make the mention of thy love better than wine: the upright love thee.'),
             plain(5, 'I am black, but comely, O ye daughters of Jerusalem, as the tents of Kedar, as the curtains of Solomon.'),
             plain(6, 'Look not upon me, because I am black, because the sun hath looked upon me: my mother&apos;s children were angry with me; they made me the keeper of the vineyards; but mine own vineyard have I not kept.'),

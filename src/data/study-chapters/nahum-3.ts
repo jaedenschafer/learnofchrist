@@ -29,6 +29,18 @@ export const NAHUM_3: RichChapterContent = {
             plain(1, 'Woe to the bloody city! it is all full of lies and robbery; the prey departeth not;'),
             plain(2, 'The noise of a whip, and the noise of the rattling of the wheels, and of the pransing horses, and of the jumping chariots.'),
             plain(3, 'The horseman lifteth up both the bright sword and the glittering spear: and there is a multitude of slain, and a great number of carcases; and there is none end of their corpses; they stumble upon their corpses:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'nahum-3-78mid-1',
+          html:
+            'The oracle turns — Nineveh&apos;s judgment described, then named, then sealed. The book is short because the verdict is final.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(4, 'Because of the multitude of the whoredoms of the wellfavoured harlot, the mistress of witchcrafts, that selleth nations through her whoredoms, and families through her witchcrafts.'),
             plain(5, 'Behold, I am against thee, saith the Lord of hosts; and I will discover thy skirts upon thy face, and I will shew the nations thy nakedness, and the kingdoms thy shame.'),
             plain(6, 'And I will cast abominable filth upon thee, and make thee vile, and will set thee as a gazingstock.'),
@@ -97,6 +109,18 @@ export const NAHUM_3: RichChapterContent = {
             plain(13, 'Behold, thy people in the midst of thee are women: the gates of thy land shall be set wide open unto thine enemies: the fire shall devour thy bars.'),
             plain(14, 'Draw thee waters for the siege, fortify thy strong holds: go into clay, and tread the morter, make strong the brick kiln.'),
             plain(15, 'There shall the fire devour thee; the sword shall cut thee off, it shall eat thee up like the cankerworm: make thyself many as the cankerworm, make thyself many as the locusts.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'nahum-3-78mid-2',
+          html:
+            'The oracle turns — Nineveh&apos;s judgment described, then named, then sealed. The book is short because the verdict is final.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(16, 'Thou hast multiplied thy merchants above the stars of heaven: the cankerworm spoileth, and flieth away.'),
             plain(17, 'Thy crowned are as the locusts, and thy captains as the great grasshoppers, which camp in the hedges in the cold day, but when the sun ariseth they flee away, and their place is not known where they are.'),
             plain(18, 'Thy shepherds slumber, O king of Assyria: thy nobles shall dwell in the dust: thy people is scattered upon the mountains, and no man gathereth them.'),

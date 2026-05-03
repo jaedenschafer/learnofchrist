@@ -82,6 +82,18 @@ export const MICAH_2: RichChapterContent = {
             plain(7, 'O thou that art named the house of Jacob, is the spirit of the Lord straitened? are these his doings? do not my words do good to him that walketh uprightly?'),
             plain(8, 'Even of late my people is risen up as an enemy: ye pull off the robe with the garment from them that pass by securely as men averse from war.'),
             plain(9, 'The women of my people have ye cast out from their pleasant houses; from their children have ye taken away my glory for ever.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'micah-2-78mid-1',
+          html:
+            'Micah pivots — from naming the wound to naming the healer. The next verses move closer to the hope that sustained him.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(10, 'Arise ye, and depart; for this is not your rest: because it is polluted, it shall destroy you, even with a sore destruction.'),
             plain(11, 'If a man walking in the spirit and falsehood do lie, saying, I will prophesy unto thee of wine and of strong drink; he shall even be the prophet of this people.'),
             plain(12, 'I will surely assemble, O Jacob, all of thee; I will surely gather the remnant of Israel; I will put them together as the sheep of Bosrah, as the flock in the midst of their fold: they shall make great noise by reason of the multitude of men.'),

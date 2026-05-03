@@ -37,6 +37,18 @@ export const MATTHEW_13: RichChapterContent = {
             plain(3, 'And he spake many things unto them in parables, saying, Behold, a sower went forth to sow;'),
             plain(4, 'And when he sowed, some seeds fell by the way side: and the fowls came and devoured them up:'),
             plain(5, 'Some fell upon stony places, where they had not much earth: and forthwith they sprung up, because they had no deepness of earth:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'matthew-13-78mid-1',
+          html:
+            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 13,
+          lines: [
             plain(6, 'And when the sun was up, they were scorched; and because they had no root, they withered away.'),
             plain(7, 'And some fell among thorns; and the thorns sprung up, and choked them:'),
             plain(8, 'But other fell into good ground, and brought forth fruit, some an hundredfold, some sixtyfold, some thirtyfold.'),
@@ -101,6 +113,18 @@ export const MATTHEW_13: RichChapterContent = {
             plain(31, 'Another parable put he forth unto them, saying, The kingdom of heaven is like to a grain of mustard seed, which a man took, and sowed in his field:'),
             plain(32, 'Which indeed is the least of all seeds: but when it is grown, it is the greatest among herbs, and becometh a tree, so that the birds of the air come and lodge in the branches thereof.'),
             plain(44, 'Again, the kingdom of heaven is like unto treasure hid in a field; the which when a man hath found, he hideth, and for joy thereof goeth and selleth all that he hath, and buyeth that field.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'matthew-13-78mid-2',
+          html:
+            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 13,
+          lines: [
             plain(45, 'Again, the kingdom of heaven is like unto a merchant man, seeking goodly pearls:'),
             plain(46, 'Who, when he hath found one pearl of great price, went and sold all that he had, and bought it.'),
             plain(47, 'Again, the kingdom of heaven is like unto a net that was cast into the sea, and gathered of every kind:'),

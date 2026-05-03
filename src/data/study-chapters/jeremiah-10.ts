@@ -107,6 +107,18 @@ export const JEREMIAH_10: RichChapterContent = {
             plain(17, 'Gather up thy wares out of the land, O inhabitant of the siege.'),
             plain(19, 'Woe is me for my hurt! my wound is grievous: but I said, Truly this is a grief, and I must bear it.'),
             plain(20, 'My tabernacle is spoiled, and all my cords are broken: my children are gone forth of me, and they are not: there is none to stretch forth my tent any more, and to set up my curtains.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-10-78mid-1',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             plain(21, 'For the pastors are become brutish, and have not sought the Lord: therefore they shall not prosper, and all their flocks shall be scattered.'),
             plain(23, 'O Lord, I know that the way of man is not in himself: it is not in man that walketh to direct his own steps.'),
             plain(24, 'O Lord, correct me, but with judgment; not in thine anger, lest thou bring me to nothing.'),

@@ -39,6 +39,18 @@ export const HOSEA_5: RichChapterContent = {
             plain(1, 'Hear ye this, O priests; and hearken, ye house of Israel; and give ye ear, O house of the king; for judgment is toward you, because ye have been a snare on Mizpah, and a net spread upon Tabor.'),
             plain(2, 'And the revolters are profound to make slaughter: but I am a rebuker of them all.'),
             plain(3, 'I know Ephraim, and Israel is not hid from me: for now, O Ephraim, thou committest whoredom, and Israel is defiled.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'hosea-5-78mid-1',
+          html:
+            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(4, 'They will not frame their doings to turn unto their God: for the spirit of whoredoms is in the midst of them, and they have not known the Lord.'),
             {
               number: 5,
@@ -81,6 +93,18 @@ export const HOSEA_5: RichChapterContent = {
             plain(9, 'Ephraim shall be desolate in the day of rebuke: among the tribes of Israel have I made known that which shall surely be.'),
             plain(10, 'The princes of Judah were like them that remove the bound: therefore I will pour out my wrath upon them like water.'),
             plain(11, 'Ephraim is oppressed and broken in judgment: because he willingly walked after the commandment.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'hosea-5-78mid-2',
+          html:
+            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(12, 'Therefore will I be unto Ephraim as a moth, and to the house of Judah as rottenness.'),
             {
               number: 13,

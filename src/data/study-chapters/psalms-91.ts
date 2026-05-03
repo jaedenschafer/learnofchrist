@@ -35,6 +35,18 @@ export const PSALMS_91: RichChapterContent = {
             plain(2, 'I will say of the Lord, He is my refuge and my fortress: my God; in him will I trust.'),
             plain(3, 'Surely he shall deliver thee from the snare of the fowler, and from the noisome pestilence.'),
             plain(4, 'He shall cover thee with his feathers, and under his wings shalt thou trust: his truth shall be thy shield and buckler.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-91-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 91,
+          lines: [
             plain(5, 'Thou shalt not be afraid for the terror by night; nor for the arrow that flieth by day;'),
             plain(6, 'Nor for the pestilence that walketh in darkness; nor for the destruction that wasteth at noonday.'),
             plain(7, 'A thousand shall fall at thy side, and ten thousand at thy right hand; but it shall not come nigh thee.'),
@@ -82,6 +94,18 @@ export const PSALMS_91: RichChapterContent = {
             plain(10, 'There shall no evil befall thee, neither shall any plague come nigh thy dwelling.'),
             plain(11, 'For he shall give his angels charge over thee, to keep thee in all thy ways.'),
             plain(12, 'They shall bear thee up in their hands, lest thou dash thy foot against a stone.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-91-78mid-2',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 91,
+          lines: [
             plain(13, 'Thou shalt tread upon the lion and adder: the young lion and the dragon shalt thou trample under feet.'),
             plain(14, 'Because he hath set his love upon me, therefore will I deliver him: I will set him on high, because he hath known my name.'),
             plain(15, 'He shall call upon me, and I will answer him: I will be with him in trouble; I will deliver him, and honour him.'),

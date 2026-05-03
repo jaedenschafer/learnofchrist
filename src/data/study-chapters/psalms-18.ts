@@ -49,6 +49,18 @@ export const PSALMS_18: RichChapterContent = {
             plain(7, 'Then the earth shook and trembled; the foundations also of the hills moved and were shaken, because he was wroth.'),
             plain(8, 'There went up a smoke out of his nostrils, and fire out of his mouth devoured: coals were kindled by it.'),
             plain(9, 'He bowed the heavens also, and came down: and darkness was under his feet.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-18-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             plain(10, 'And he rode upon a cherub, and did fly: yea, he did fly upon the wings of the wind.'),
             plain(11, 'He made darkness his secret place; his pavilion round about him were dark waters and thick clouds of the skies.'),
             plain(12, 'At the brightness that was before him his thick clouds passed, hail stones and coals of fire.'),

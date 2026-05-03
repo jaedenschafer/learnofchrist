@@ -37,6 +37,18 @@ export const MARK_1: RichChapterContent = {
             plain(1, 'The beginning of the gospel of Jesus Christ, the Son of God;'),
             plain(4, 'John did baptize in the wilderness, and preach the baptism of repentance for the remission of sins.'),
             plain(9, 'And it came to pass in those days, that Jesus came from Nazareth of Galilee, and was baptized of John in Jordan.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'mark-1-78mid-1',
+          html:
+            'Mark moves quickly. The next verses press from one scene to the next without pause; the gospel is in a hurry.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(10, 'And straightway coming up out of the water, he saw the heavens opened, and the Spirit like a dove descending upon him:'),
             plain(11, 'And there came a voice from heaven, saying, Thou art my beloved Son, in whom I am well pleased.'),
             plain(12, 'And immediately the Spirit driveth him into the wilderness.'),
@@ -102,6 +114,18 @@ export const MARK_1: RichChapterContent = {
             plain(14, 'Now after that John was put in prison, Jesus came into Galilee, preaching the gospel of the kingdom of God,'),
             plain(15, 'And saying, The time is fulfilled, and the kingdom of God is at hand: repent ye, and believe the gospel.'),
             plain(16, 'Now as he walked by the sea of Galilee, he saw Simon and Andrew his brother casting a net into the sea: for they were fishers.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'mark-1-78mid-2',
+          html:
+            'Mark moves quickly. The next verses press from one scene to the next without pause; the gospel is in a hurry.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(17, 'And Jesus said unto them, Come ye after me, and I will make you to become fishers of men.'),
             plain(21, 'And they went into Capernaum; and straightway on the sabbath day he entered into the synagogue, and taught.'),
             plain(27, 'And they were all amazed, insomuch that they questioned among themselves, saying, What thing is this? what new doctrine is this? for with authority he commandeth even the unclean spirits, and they do obey him.'),

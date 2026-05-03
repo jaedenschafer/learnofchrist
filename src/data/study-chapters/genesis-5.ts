@@ -445,6 +445,18 @@ export const GENESIS_5: RichChapterContent = {
                 t('And Lamech lived an hundred eighty and two years, and begat a son:'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-5-78mid-1',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             {
               number: 29,
               spans: [

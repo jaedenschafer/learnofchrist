@@ -43,7 +43,7 @@ export const JOSHUA_2: RichChapterContent = {
           kind: 'commentary',
           id: 'spy-covert',
           html:
-            'Joshua sends two men to spy &ldquo;secretly&rdquo; — not to scout military strength, but to view the land. The word suggests a reconnaissance of what God has already promised to give. They are not hunting for permission; they are scoping out what belongs to them by covenant. Their path leads them to Rahab&apos;s house, and there begins the hinge of the story.',
+            'Joshua sends two men to spy &ldquo;secretly&rdquo; — not to scout military strength, but to view the land. The word suggests a reconnaissance of what God has already promised to give. They are not hunting for permission; they are scoping out what belongs to them by covenant. Their path leads them to Rahab&apos;s house[res:bibleodyssey-jericho], and there begins the hinge of the story.',
         },
         {
           kind: 'hebrew',
@@ -356,7 +356,7 @@ export const JOSHUA_2: RichChapterContent = {
           id: 'blood-covenant',
           title: 'Christ Connection — The Scarlet Cord',
           html:
-            'The scarlet cord that marks Rahab&apos;s house echoes the blood on the doorposts at Passover — a mark of salvation, a sign that the firstborn inside is safe. By Matthew 1:5, Rahab has married Boaz and entered the lineage of David. She is in the genealogy of Christ. The cord that saved her from death becomes the thread that ties her to Jesus Himself. The blood that marks our houses today is not cord or animal blood, but His.',
+            'The scarlet cord that marks Rahab&apos;s house echoes the blood on the doorposts at Passover — a mark of salvation, a sign that the firstborn inside is safe. By Matthew 1:5, Rahab has married Boaz and entered the lineage of David[res:intertextual-rahab-genealogy]. She is in the genealogy of Christ. The cord that saved her from death becomes the thread that ties her to Jesus Himself. The blood that marks our houses today is not cord or animal blood, but His.',
         },
         {
           kind: 'carry',
@@ -395,7 +395,7 @@ export const JOSHUA_2: RichChapterContent = {
           kind: 'commentary',
           id: 'c-wall-position',
           html:
-            'Rahab&apos;s house is positioned on Jericho&apos;s wall — a detail that marks her social standing. She is not respectable enough to live inside the city proper. Yet her very marginality becomes her salvation. The spies escape down the wall itself, and she becomes the hinge between two worlds.',
+            'Rahab&apos;s house is positioned on Jericho&apos;s wall — a detail that marks her social standing[res:iaa-tell-es-sultan]. She is not respectable enough to live inside the city proper. Yet her very marginality becomes her salvation. The spies escape down the wall itself, and she becomes the hinge between two worlds.',
         },
 
         {
@@ -575,4 +575,31 @@ export const JOSHUA_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Joshua 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'iaa-tell-es-sultan',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Tell es-Sultan (Ancient Jericho)',
+      url: 'https://www.antiquities.org.il/article-3163-en/Tell%20es-Sultan.html',
+      description: 'Excavations at Jericho revealing city walls and settlement patterns relevant to Joshua&apos;s conquest narrative.',
+    },
+    {
+      id: 'bibleodyssey-jericho',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jericho in Scripture and Archaeology',
+      url: 'https://www.bibleodyssey.org/dictionary/jericho/',
+      description: 'SBL entry on Jericho, the site of Israel&apos;s first conquest and Rahab&apos;s house on the wall.',
+    },
+    {
+      id: 'intertextual-rahab-genealogy',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Rahab in Matthew 1 Genealogy',
+      url: 'https://intertextual.bible/text/joshua-2/matthew-1.5',
+      description: 'Connection between Rahab&apos;s salvation in Joshua and her place in the genealogy of Jesus in Matthew.',
+    },
+  ],
 };

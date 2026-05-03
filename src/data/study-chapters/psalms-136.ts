@@ -91,6 +91,18 @@ export const PSALMS_136: RichChapterContent = {
             plain(10, 'To him that smote Egypt in their firstborn: for his mercy endureth for ever:'),
             plain(11, 'And brought out Israel from among them: for his mercy endureth for ever:'),
             plain(12, 'With a strong hand, and with a stretched out arm: for his mercy endureth for ever.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-136-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 136,
+          lines: [
             plain(13, 'To him which divided the Red sea into parts: for his mercy endureth for ever:'),
             plain(14, 'And made Israel to pass through the midst of it: for his mercy endureth for ever:'),
             plain(15, 'But overthrew Pharaoh and his host in the Red sea: for his mercy endureth for ever.'),

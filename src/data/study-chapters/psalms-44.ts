@@ -32,6 +32,18 @@ export const PSALMS_44: RichChapterContent = {
             plain(1, 'We have heard with our ears, O God, our fathers have told us, what work thou didst in their days, in the times of old.'),
             plain(2, 'How thou didst drive out the heathen with thy hand, and plantedst them; how thou didst afflict the people, and cast them out.'),
             plain(3, 'For they got not the land in possession by their own sword, neither did their own arm save them: but thy right hand, and thine arm, and the light of thy countenance, because thou hadst a favour unto them.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-44-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 44,
+          lines: [
             plain(4, 'Thou art my King, O God: command deliverances for Jacob.'),
             plain(6, 'For I will not trust in my bow, neither shall my sword save me.'),
             plain(7, 'But thou hast saved us from our enemies, and hast put to shame them that hated us.'),
@@ -85,6 +97,18 @@ export const PSALMS_44: RichChapterContent = {
             plain(10, 'Thou makest us to turn back from the enemy: and they which hate us spoil us.'),
             plain(11, 'Thou hast given us like sheep appointed to be eaten; and hast scattered us among the heathen.'),
             plain(15, 'My confusion is continually before me, and the shame of my face hath covered me,'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-44-78mid-2',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 44,
+          lines: [
             plain(17, 'All this is come upon us; yet have we not forgotten thy covenant.'),
             plain(22, 'Yea, for thy sake are we killed all the day long; we are counted as sheep for the slaughter.'),
             plain(23, 'Awake, why sleepest thou, O Lord? arise, cast us not off for ever.'),

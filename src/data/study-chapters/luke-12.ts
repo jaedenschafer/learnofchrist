@@ -37,6 +37,18 @@ export const LUKE_12: RichChapterContent = {
             plain(2, 'For there is nothing covered, that shall not be revealed; neither hid, that shall not be known.'),
             plain(3, 'Therefore whatsoever ye have spoken in darkness shall be heard in the light; and that which ye have spoken in the ear in closets shall be proclaimed upon the housetops.'),
             plain(16, 'And he spake a parable unto them, saying, The ground of a certain rich man brought forth plentifully:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'luke-12-78mid-1',
+          html:
+            'Luke turns the camera here — from one encounter to the next, often watching how Jesus treats those who would otherwise be passed over.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             plain(19, 'And I will say to my soul, Soul, thou hast much goods laid up for many years; take thine ease, eat, drink, and be merry.'),
             plain(20, 'But God said unto him, Thou fool, this night thy soul shall be required of thee: then whose shall those things be which thou hast provided?'),
             plain(22, 'And he said unto his disciples, Therefore I say unto you, Take no thought for your life, what ye shall eat; neither for the body, what ye shall put on.'),

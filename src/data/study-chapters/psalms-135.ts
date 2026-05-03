@@ -33,6 +33,18 @@ export const PSALMS_135: RichChapterContent = {
             plain(1, 'Praise ye the Lord. Praise ye the name of the Lord; praise him, O ye servants of the Lord.'),
             plain(2, 'Ye that stand in the house of the Lord, in the courts of the house of our God,'),
             plain(3, 'Praise the Lord; for the Lord is good: sing praises unto his name; for it is pleasant.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-135-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 135,
+          lines: [
             plain(4, 'For the Lord hath chosen Jacob unto himself, and Israel for his peculiar treasure.'),
             plain(5, 'For I know that the Lord is great, and that our Lord is above all gods.'),
             plain(6, 'Whatsoever the Lord pleased, that did he in heaven, and in earth, in the seas, and all deep places.'),
@@ -87,6 +99,18 @@ export const PSALMS_135: RichChapterContent = {
             plain(8, 'He smote the firstborn of Egypt, both of man and beast.'),
             plain(9, 'Who sent tokens and wonders into the midst of thee, O Egypt, upon Pharaoh, and upon all his servants.'),
             plain(10, 'Who smote great nations, and slew mighty kings;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-135-78mid-2',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 135,
+          lines: [
             plain(11, 'Sihon king of the Amorites, and Og king of Bashan, and all the kingdoms of Canaan:'),
             plain(12, 'And gave their land for an heritage, an heritage unto Israel his people.'),
             plain(13, 'Thy name, O Lord, endureth for ever; and thy memorial, O Lord, throughout all generations.'),

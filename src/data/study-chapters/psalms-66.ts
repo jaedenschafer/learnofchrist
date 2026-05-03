@@ -36,6 +36,18 @@ export const PSALMS_66: RichChapterContent = {
             plain(1, 'Make a joyful noise unto God, all ye lands:'),
             plain(2, 'Sing forth the honour of his name: make his praise glorious.'),
             plain(3, 'Say unto God, How terrible art thou in thy works! through the greatness of thy power shall thine enemies submit themselves unto thee.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-66-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 66,
+          lines: [
             plain(4, 'All the earth shall worship thee, and shall sing unto thee; they shall sing to thy name. Selah.'),
             plain(5, 'Come and see the works of God: he is terrible in his doing toward the children of men.'),
             plain(6, 'He turned the sea into dry land: they went through the flood on foot: there did we rejoice in him.'),
@@ -120,6 +132,18 @@ export const PSALMS_66: RichChapterContent = {
             plain(14, 'I will offer unto thee burnt sacrifices of fatlings, with the incense of rams; I will offer bullocks and goats. Selah.'),
             plain(15, 'Come and hear, all ye that fear God, and I will declare what he hath done for my soul.'),
             plain(16, 'I cried unto him with my mouth, and he was extolled with my tongue.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-66-78mid-2',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 66,
+          lines: [
             plain(17, 'If I regard iniquity in my heart, the Lord will not hear me:'),
             plain(18, 'But verily God hath heard me; he hath attended to the voice of my supplication.'),
             plain(19, 'Blessed be God, which hath not turned away my prayer, nor his mercy from me.'),

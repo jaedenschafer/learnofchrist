@@ -85,6 +85,18 @@ export const HOSEA_11: RichChapterContent = {
             plain(5, 'He shall not return into the land of Egypt, but the Assyrian shall be his king, because they refused to return.'),
             plain(6, 'And the sword shall abide on his cities, and shall consume his branches, and devour them, because of their own counsels.'),
             plain(7, 'And my people are bent to backsliding from me: though they called them to the most High, none at all would exalt him.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'hosea-11-78mid-1',
+          html:
+            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             {
               number: 8,
               spans: [

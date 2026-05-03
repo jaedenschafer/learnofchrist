@@ -32,6 +32,18 @@ export const PSALMS_121: RichChapterContent = {
             plain(1, 'I will lift up mine eyes unto the hills, from whence cometh my help.'),
             plain(2, 'My help cometh from the Lord, which made heaven and earth.'),
             plain(4, 'Behold, he that keepeth thee will not slumber.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-121-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 121,
+          lines: [
             plain(5, 'The Lord is thy keeper: the Lord is thy shade upon thy right hand.'),
             plain(6, 'The sun shall not smite thee by day, nor the moon by night.'),
             plain(7, 'The Lord shall preserve thee from all evil: he shall keep thy soul.'),

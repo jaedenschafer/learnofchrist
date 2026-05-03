@@ -35,6 +35,18 @@ export const JOHN_4: RichChapterContent = {
             plain(5, 'Then cometh he to a city of Samaria, which is called Sychar, being near to the parcel of ground that Jacob gave to his son Joseph.'),
             plain(7, 'There cometh a woman of Samaria to draw water: Jesus saith unto her, Give me to drink.'),
             plain(10, 'Jesus answered and said unto her, If thou knewest the gift of God, and who it is that saith to thee, Give me to drink; thou wouldest have asked of him, and he would have given thee living water.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'john-4-78mid-1',
+          html:
+            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(13, 'Jesus answered and said unto her, Whosoever drinketh of this water shall thirst again:'),
             plain(14, 'But whosoever drinketh of the water that I shall give him shall never thirst; but the water that I shall give him shall be in him a well of water springing up into everlasting life.'),
             plain(24, 'God is a Spirit: and they that worship him must worship him in spirit and in truth.'),

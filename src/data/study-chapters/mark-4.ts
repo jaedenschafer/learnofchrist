@@ -38,6 +38,18 @@ export const MARK_4: RichChapterContent = {
             plain(4, 'And it came to pass, as he sowed, some fell by the way side, and the fowls of the air came and devoured it up.'),
             plain(5, 'And some fell on stony ground, where it had not much earth; and immediately it sprang up, because it had no depth of earth:'),
             plain(7, 'And some fell among thorns, and the thorns grew up, and choked it, and it yielded no fruit.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'mark-4-78mid-1',
+          html:
+            'Mark moves quickly. The next verses press from one scene to the next without pause; the gospel is in a hurry.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(8, 'And other fell on good ground, and did yield fruit that sprang up and increased; and brought forth, some thirty, and some sixty, and some an hundred.'),
             plain(9, 'And he said unto them, He that hath ears to hear, let him hear.'),
             plain(14, 'The sower soweth the word.'),

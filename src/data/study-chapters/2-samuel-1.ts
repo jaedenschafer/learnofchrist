@@ -93,6 +93,18 @@ export const SAMUEL_2_1: RichChapterContent = {
                 t('And the young man that told him said, As I happened by chance upon mount Gilboa, behold, Saul leaned upon his spear; and, lo, the chariots and horsemen followed hard after him.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-samuel-1-78mid-1',
+          html:
+            'The narrative pivots — David&apos;s reign is rarely smooth, and the next verses press into a different corner of the story.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             {
               number: 7,
               spans: [
@@ -360,6 +372,18 @@ export const SAMUEL_2_1: RichChapterContent = {
                 t('Saul and Jonathan were lovely and pleasant in their lives, and in their death they were not divided: they were swifter than eagles, they were stronger than lions.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-samuel-1-78mid-2',
+          html:
+            'The narrative pivots — David&apos;s reign is rarely smooth, and the next verses press into a different corner of the story.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             {
               number: 24,
               spans: [

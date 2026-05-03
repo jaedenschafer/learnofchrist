@@ -104,6 +104,18 @@ export const SONG_5: RichChapterContent = {
             plain(10, 'My beloved is white and ruddy, the chiefest among ten thousand.'),
             plain(11, 'His head is as the most fine gold: his locks are bushy, and black as a raven.'),
             plain(12, 'His eyes are as the eyes of doves by the rivers of waters, washed with milk, and fitly set.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'song-of-solomon-5-78mid-1',
+          html:
+            'The voices change here — bride to beloved, or beloved to bride. The love song is sung antiphonally.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(13, 'His cheeks are as a bed of spices, as sweet flowers: his lips like lilies, dropping sweet smelling myrrh.'),
             plain(14, 'His hands are as gold rings set with the beryl: his belly is as bright ivory overlaid with sapphires.'),
             plain(15, 'His legs are as pillars of marble, set upon sockets of fine gold: his countenance is as Lebanon, excellent as the cedars.'),

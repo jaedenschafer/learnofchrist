@@ -110,6 +110,18 @@ export const JEREMIAH_6: RichChapterContent = {
             plain(19, 'Hear, O earth: behold, I will bring evil upon this people, even the fruit of their thoughts, because they have not hearkened unto my words, nor to my law, but rejected it.'),
             plain(20, 'To what purpose cometh there to me incense from Sheba, and the sweet cane from a far country? your burnt offerings are not acceptable, and your sacrifices are not sweet unto me.'),
             plain(21, 'Therefore thus saith the Lord, Behold, I will lay stumblingblocks before this people: and the fathers and the sons together shall fall upon them; the neighbour and his friend shall perish.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-6-78mid-1',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(22, 'Thus saith the Lord, Behold, a people cometh from the north country, and a great nation shall be raised from the sides of the earth.'),
             plain(23, 'They shall lay hold on bow and spear; they are cruel, and have no mercy; their voice roareth like the sea; and they ride upon horses, set in array as men for war against thee, O daughter of Zion.'),
             plain(24, 'We have heard the fame thereof: our hands wax feeble: anguish hath taken hold of us, and pain, as of a woman in travail.'),

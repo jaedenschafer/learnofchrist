@@ -102,6 +102,18 @@ export const PSALMS_102: RichChapterContent = {
             plain(13, 'Thou shalt arise, and have mercy upon Zion: for the time to favour her, yea, the set time, is come.'),
             plain(15, 'So the heathen shall fear the Lord, and all the kings of the earth thy glory.'),
             plain(18, 'This shall be written for the generation to come: and the people which shall be created shall praise the Lord.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-102-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 102,
+          lines: [
             plain(25, 'Of old hast thou laid the foundation of the earth: and the heavens are the work of thy hands.'),
             plain(26, 'They shall perish, but thou shalt endure: yea, all of them shall wax old like a garment; as a vesture shalt thou change them, and they shall be changed:'),
             plain(27, 'But thou art the same, and thy years shall have no end.'),

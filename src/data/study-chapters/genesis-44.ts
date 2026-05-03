@@ -147,6 +147,18 @@ export const GENESIS_44: RichChapterContent = {
                 t('.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-44-78mid-1',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 44,
+          lines: [
             {
               number: 10,
               spans: [
@@ -379,6 +391,18 @@ export const GENESIS_44: RichChapterContent = {
                 t('Now therefore when I come to thy servant my father, and the lad be not with us; seeing that his life is bound up in the lad&apos;s life;'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-44-78mid-2',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 44,
+          lines: [
             {
               number: 31,
               spans: [

@@ -402,6 +402,18 @@ export const ACTS_17: RichChapterContent = {
                 t('God that made the world and all things therein, seeing that he is Lord of heaven and earth, dwelleth not in temples made with hands;'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'acts-17-78mid-1',
+          html:
+            'The narrative shifts here — a new city, a new speaker, the same Spirit moving the gospel outward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 17,
+          lines: [
             {
               number: 25,
               spans: [

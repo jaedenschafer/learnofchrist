@@ -38,6 +38,18 @@ export const LUKE_15: RichChapterContent = {
             plain(7, 'I say unto you, that likewise joy shall be in heaven over one sinner that repenteth, more than over ninety and nine just persons, which need no repentance.'),
             plain(8, 'Either what woman having ten pieces of silver, if she lose one piece, doth not light a candle, and sweep the house, and seek diligently till she find it?'),
             plain(11, 'And he said, A certain man had two sons:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'luke-15-78mid-1',
+          html:
+            'Luke turns the camera here — from one encounter to the next, often watching how Jesus treats those who would otherwise be passed over.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 15,
+          lines: [
             plain(20, 'And he arose, and came to his father. But when he was yet a great way off, his father saw him, and was moved with compassion, and ran, and fell on his neck, and kissed him.'),
             plain(24, 'For this my son was dead, and is alive again; he was lost, and is found. And they began to make merry.'),
             plain(31, 'And he said unto him, Son, thou art ever with me, and all that I have is thine.'),

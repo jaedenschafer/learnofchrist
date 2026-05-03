@@ -37,6 +37,18 @@ export const JEREMIAH_4: RichChapterContent = {
             plain(2, 'And thou shalt swear, The Lord liveth, in truth, in judgment, and in righteousness; and the nations shall bless themselves in him, and in him shall they glory.'),
             plain(3, 'For thus saith the Lord to the men of Judah and Jerusalem, Break up your fallow ground, and sow not among thorns:'),
             plain(4, 'Circumcise yourselves to the Lord, and take away the foreskins of your hearts, ye men of Judah and inhabitants of Jerusalem: lest my wrath go forth like fire, and burn that none can quench it, because of the evil of your doings.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-4-78mid-1',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(5, 'Declare ye in Judah, and publish in Jerusalem; and say, Blow ye the trumpet in the land: cry, gather together, and say, Assemble yourselves, and let us go into the defenced cities.'),
             plain(6, 'Set up the standard toward Zion: retire, stay not: for I will bring evil from the north, and a great destruction.'),
             plain(7, 'The lion is come up from his thicket, and the destroyer of the Gentiles is on his way; he is gone forth from his place to make thy land desolate; and thy cities shall be laid waste, without an inhabitant.'),

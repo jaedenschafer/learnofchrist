@@ -39,6 +39,18 @@ export const MATTHEW_5: RichChapterContent = {
             plain(4, 'Blessed are they that mourn: for they shall be comforted.'),
             plain(5, 'Blessed are the meek: for they shall inherit the earth.'),
             plain(6, 'Blessed are they which do hunger and thirst after righteousness: for they shall be filled.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'matthew-5-78mid-1',
+          html:
+            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(7, 'Blessed are the merciful: for they shall obtain mercy.'),
             plain(8, 'Blessed are the pure in heart: for they shall see God.'),
             plain(9, 'Blessed are the peacemakers: for they shall be called the children of God.'),

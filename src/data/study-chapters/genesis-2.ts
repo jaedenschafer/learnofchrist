@@ -248,6 +248,18 @@ export const GENESIS_2: RichChapterContent = {
               number: 10,
               spans: [t('And a river went out of Eden to water the garden; and from thence it was parted, and became into four heads.')],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-2-78mid-1',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             {
               number: 11,
               spans: [t('The name of the first is Pison: that is it which compasseth the whole land of Havilah, where there is gold;')],

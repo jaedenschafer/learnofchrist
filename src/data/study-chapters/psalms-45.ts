@@ -88,6 +88,18 @@ export const PSALMS_45: RichChapterContent = {
             plain(10, 'Hearken, O daughter, and consider, and incline thine ear; forget also thine own people, and thy father&apos;s house;'),
             plain(11, 'So shall the king greatly desire thy beauty: for he is thy Lord; and worship thou him.'),
             plain(12, 'And the daughter of Tyre shall be there with a gift; even the rich among the people shall intreat thy favour.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-45-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 45,
+          lines: [
             plain(13, 'The king&apos;s daughter is all glorious within: her clothing is of wrought gold.'),
             plain(14, 'She shall be brought unto the king in raiment of needlework: the virgins her companions that follow her shall be brought unto thee.'),
             plain(15, 'With gladness and rejoicing shall they be brought: they shall enter into the king&apos;s palace.'),

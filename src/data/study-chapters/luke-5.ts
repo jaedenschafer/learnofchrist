@@ -100,6 +100,18 @@ export const LUKE_5: RichChapterContent = {
             plain(28, 'And he left all, rose up, and followed him.'),
             plain(29, 'And Levi made him a great feast in his own house: and there was a great company of publicans and others that sat down with them.'),
             plain(30, 'But their scribes and Pharisees murmured against his disciples, saying, Why do ye eat and drink with publicans and sinners?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'luke-5-78mid-1',
+          html:
+            'Luke turns the camera here — from one encounter to the next, often watching how Jesus treats those who would otherwise be passed over.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(31, 'And Jesus answering said unto them, They that are whole need not a physician; but they that are sick.'),
             plain(36, 'And he spake also a parable unto them; No man putteth a piece of new cloth upon an old garment; for then both the new maketh a rent, and the piece that was taken out of the new agreeth not with the old.'),
             plain(37, 'And no man putteth new wine into old bottles; else the new wine will burst the bottles, and be spilled, and the bottles shall be marred.'),

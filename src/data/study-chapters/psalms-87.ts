@@ -33,6 +33,18 @@ export const PSALMS_87: RichChapterContent = {
             plain(1, 'His foundation is in the holy mountains.'),
             plain(2, 'The Lord loveth the gates of Zion more than all the dwellings of Jacob.'),
             plain(3, 'Glorious things are spoken of thee, O city of God. Selah.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-87-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 87,
+          lines: [
             plain(4, 'I will make mention of Rahab and Babylon to them that know me: behold Philistia, and Tyre, with Ethiopia; this man was born there.'),
             plain(5, 'And of Zion it shall be said, This and that man was born in her: and the highest himself shall establish her.'),
             plain(6, 'The Lord shall count, when he writeth up the people, that this man was born there. Selah.'),

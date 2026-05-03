@@ -33,6 +33,18 @@ export const PSALMS_129: RichChapterContent = {
             plain(2, 'Many a time have they afflicted me from my youth: yet they have not prevailed against me.'),
             plain(3, 'The plowers plowed upon my back: they made long their furrows.'),
             plain(4, 'The Lord is righteous: he hath cut asunder the cords of the wicked.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-129-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 129,
+          lines: [
             plain(5, 'Let them all be confounded and turned back that hate Zion.'),
             plain(6, 'Let them be as the grass upon the housetops, which withereth afore it groweth up:'),
             plain(7, 'Wherewith the mower filleth not his hand; nor he that bindeth sheaves his bosom.'),

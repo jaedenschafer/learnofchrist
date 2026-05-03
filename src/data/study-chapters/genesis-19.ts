@@ -130,6 +130,18 @@ export const GENESIS_19: RichChapterContent = {
                 t('And said, I pray you, brethren, do not so wickedly.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-19-78mid-1',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 19,
+          lines: [
             {
               number: 8,
               spans: [
@@ -373,6 +385,18 @@ export const GENESIS_19: RichChapterContent = {
                 t('And he overthrew those cities, and all the plain, and all the inhabitants of the cities, and that which grew upon the ground.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-19-78mid-2',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 19,
+          lines: [
             {
               number: 26,
               spans: [

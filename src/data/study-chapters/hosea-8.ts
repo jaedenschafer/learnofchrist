@@ -79,6 +79,18 @@ export const HOSEA_8: RichChapterContent = {
             plain(8, 'Israel is swallowed up: now shall they be among the Gentiles as a vessel wherein is no pleasure.'),
             plain(9, 'For they are gone up to Assyria, a wild ass alone by himself: Ephraim hath hired lovers.'),
             plain(10, 'Yea, though they have hired among the nations, now will I gather them, and they shall sorrow a little for the burden of the king of princes.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'hosea-8-78mid-1',
+          html:
+            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(11, 'Because Ephraim hath made many altars to sin, altars shall be unto him to sin.'),
             plain(12, 'I have written to him the great things of my law, but they were counted as a strange thing.'),
             plain(13, 'For the sacrifices of mine offerings they sacrifice flesh and eat it; but the Lord accepteth them not; now will he remember their iniquity, and visit their sins: they shall return to Egypt.'),

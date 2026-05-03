@@ -30,6 +30,18 @@ export const NAHUM_1: RichChapterContent = {
             plain(2, 'God is jealous, and the Lord revengeth; the Lord revengeth, and is furious; the Lord will take vengeance on his adversaries, and he reserveth wrath for his enemies.'),
             plain(3, 'The Lord is slow to anger, and great in power, and will not at all acquit the wicked: the Lord hath his way in the whirlwind and in the storm, and the clouds are the dust of his feet.'),
             plain(4, 'He rebuketh the sea, and maketh it dry, and drieth up all the rivers: Bashan languisheth, and Carmel, and the flower of Lebanon languisheth.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'nahum-1-78mid-1',
+          html:
+            'The oracle turns — Nineveh&apos;s judgment described, then named, then sealed. The book is short because the verdict is final.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(5, 'The mountains quake at him, and the hills are dissolved: and the earth is burned at his presence, yea, the world, and all that dwell therein.'),
             plain(6, 'Who can stand before his indignation? and who can abide in the fierceness of his anger? his fury is poured out like fire, and the rocks are thrown down by him.'),
             plain(7, 'The Lord is good, a strong hold in the day of trouble; and he knoweth them that trust in him.'),
@@ -83,6 +95,18 @@ export const NAHUM_1: RichChapterContent = {
             plain(9, 'What do ye imagine against the Lord? he will make an utter end: affliction shall not rise up the second time.'),
             plain(10, 'For while they be folden together as thorns, and as drunken men, they shall be devoured as stubble fully dry.'),
             plain(11, 'There is one come out of thee, that imagineth evil against the Lord, an ungodly counsellor.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'nahum-1-78mid-2',
+          html:
+            'The oracle turns — Nineveh&apos;s judgment described, then named, then sealed. The book is short because the verdict is final.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(12, 'Thus saith the Lord; Though they be quiet, and likewise many, yet thus shall they be cut down: when he shall pass through. Though I have afflicted thee, I will afflict thee no more.'),
             plain(13, 'For now will I break his yoke from off thee, and will burst thy bonds in sunder.'),
             plain(14, 'And the Lord hath given commandment concerning thee, that no more of thy name be sown: out of the house of thy gods will I cut off the graven image and the molten image: I will make thy grave; for thou art vile.'),

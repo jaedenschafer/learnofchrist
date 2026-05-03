@@ -97,6 +97,18 @@ export const GENESIS_21: RichChapterContent = {
                 t('And Abraham circumcised his son Isaac being eight days old, as God had commanded him.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-21-78mid-1',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             {
               number: 5,
               spans: [
@@ -444,6 +456,18 @@ export const GENESIS_21: RichChapterContent = {
                 t('And he said, For these seven ewe lambs shalt thou take of my hand, that they may be a witness unto me, that I have digged this well.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'genesis-21-78mid-2',
+          html:
+            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             {
               number: 31,
               spans: [

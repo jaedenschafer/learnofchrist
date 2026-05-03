@@ -100,6 +100,18 @@ export const MATTHEW_7: RichChapterContent = {
             plain(14, 'Because strait is the gate, and narrow is the way, which leadeth unto life, and few there be that find it.'),
             plain(15, 'Beware of false prophets, which come to you in sheep&apos;s clothing, but inwardly they are ravening wolves.'),
             plain(16, 'Ye shall know them by their fruits. Do men gather grapes of thorns, or figs of thistles?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'matthew-7-78mid-1',
+          html:
+            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(24, 'Therefore whosoever heareth these sayings of mine, and doeth them, I will liken him unto a wise man, which built his house upon a rock:'),
             plain(25, 'And the rain descended, and the floods came, and the winds blew, and beat upon that house; and it fell not: for it was founded upon a rock.'),
             plain(26, 'And every one that heareth these sayings of mine, and doeth them not, shall be likened unto a foolish man, which built his house upon the sand:'),

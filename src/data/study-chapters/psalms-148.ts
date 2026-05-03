@@ -86,6 +86,18 @@ export const PSALMS_148: RichChapterContent = {
             plain(8, 'Fire, and hail; snow, and vapours; stormy wind fulfilling his word:'),
             plain(9, 'Mountains, and all hills; fruitful trees, and all cedars:'),
             plain(10, 'Beasts, and all cattle; creeping things, and flying fowl:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'psalms-148-78mid-1',
+          html:
+            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 148,
+          lines: [
             plain(11, 'Kings of the earth, and all people; princes, and all judges of the earth:'),
             plain(12, 'Both young men, and maidens; old men, and children:'),
             plain(13, 'Let them praise the name of the Lord: for his name alone is excellent; his glory is above the earth and heaven.'),

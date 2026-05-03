@@ -299,6 +299,18 @@ export const FIRST_ESDRAS_8: RichChapterContent = {
                 t('And said, Take heed now with the priests and Levites, and the leaders of Israel at Jerusalem, that the holy vessels be brought into the house of the Lord.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-esdras-8-78mid-1',
+          html:
+            'The chronicler-historian moves from one act of restoration to the next. The exile is over, but the rebuilding is slow.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(67, 'Then Esdras, upon the first day, called together such as were of the priests and Levites at Jerusalem,'),
             {
               number: 68,
@@ -455,6 +467,18 @@ export const FIRST_ESDRAS_8: RichChapterContent = {
                 t('Then cried all the multitude with a loud voice, and said, As thou hast spoken unto us, so will we do.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-esdras-8-78mid-2',
+          html:
+            'The chronicler-historian moves from one act of restoration to the next. The exile is over, but the rebuilding is slow.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(87, 'But forasmuch as the people are in great number, and it is a time of much rain, and we are not able to stand without, and this is not a work of a day or two:'),
             plain(88, 'Let the rulers of the multitude stay, and all they of our habitation that have strange wives shall come at the time appointed,'),
             {

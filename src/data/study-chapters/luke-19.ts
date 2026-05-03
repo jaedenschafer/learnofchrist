@@ -86,6 +86,18 @@ export const LUKE_19: RichChapterContent = {
             plain(28, 'And when he had thus spoken, he went before, ascending up to Jerusalem.'),
             plain(37, 'And when he was come nigh, even now at the descent of the mount of Olives, the whole multitude of the disciples began to rejoice and praise God with a loud voice for all the mighty works that they had seen;'),
             plain(38, 'Saying, Blessed be the King that cometh in the name of the Lord: peace in heaven, and glory in the highest.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'luke-19-78mid-1',
+          html:
+            'Luke turns the camera here — from one encounter to the next, often watching how Jesus treats those who would otherwise be passed over.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 19,
+          lines: [
             plain(41, 'And when he was come near, he beheld the city, and wept over it,'),
             plain(42, 'Saying, If thou hadst known, even thou, at least in this thy day, the things which belong unto thy peace!'),
             plain(45, 'And he went into the temple, and began to cast out them that sold therein, and them that bought;'),

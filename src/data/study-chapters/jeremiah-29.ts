@@ -123,6 +123,18 @@ export const JEREMIAH_29: RichChapterContent = {
                 t('For thus saith the Lord, That after seventy years be accomplished at Babylon I will visit you, and perform my good word toward you, in causing you to return to this place.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-29-78mid-1',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 29,
+          lines: [
             {
               number: 11,
               spans: [
@@ -212,6 +224,18 @@ export const JEREMIAH_29: RichChapterContent = {
                 t('The Lord hath made thee priest in the stead of Jehoiada the priest, that ye should be officers in the house of the Lord, for every man that is mad, and maketh himself a prophet, to put him in prison, and in the stocks.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jeremiah-29-78mid-2',
+          html:
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 29,
+          lines: [
             {
               number: 27,
               spans: [
