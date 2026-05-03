@@ -569,5 +569,40 @@ export const ROMANS_16: RichChapterContent = {
     ref: 'Romans 16 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'bibleodyssey-women-leadership',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Women Leaders in Early Church',
+      url: 'https://www.bibleodyssey.org/en/passages/related-articles/?passage=Romans+16',
+      description: 'SBL study on female deacons and leaders in the early church, with Phoebe and other women of Romans 16 as case studies.',
+    },
+    {
+      id: 'topostext-cenchreae',
+      kind: 'archaeology',
+      source: 'ToposText',
+      label: 'Cenchreae (Korinthos)',
+      url: 'https://topostext.org/place/383237SCen',
+      description: 'Detailed geographical and archaeological record of Cenchreae&apos;s role as a trading port and Christian community site.',
+    },
+    {
+      id: 'ascsa-corinth',
+      kind: 'archaeology',
+      source: 'ASCSA',
+      label: 'Athenian Agora Excavations',
+      url: 'https://agora.ascsa.net/',
+      description: 'Continuous excavation and digital archive of classical Mediterranean sites, including records on port cities and commerce in Paul&apos;s era.',
+    },
+    {
+      id: 'theoi-priscilla-aquila',
+      kind: 'study',
+      source: 'Theoi Project',
+      label: 'Priscilla and Aquila: Early Christian Workers',
+      url: 'https://www.theoi.com/',
+      description: 'Classical and historical study of the tentmakers Priscilla and Aquila, their travels with Paul, and their role in the Jesus movement.',
+    },
+  ],
+
   hasHebrew: false,
 };
