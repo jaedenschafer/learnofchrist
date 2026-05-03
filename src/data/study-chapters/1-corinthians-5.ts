@@ -16,7 +16,7 @@ export const FIRST_CORINTHIANS_5: RichChapterContent = {
   bookName: '1 Corinthians',
   chapter: 5,
 
-  estimatedMinutes: { 5: 7, 10: 12, 15: 20 },
+  estimatedMinutes: { beginner: 7, intermediate: 12, deep: 20 },
   intros: [
     'The Corinthian church has become permissive of a moral failure so severe that even pagan society would condemn it. A man is living in a sexual relationship with his father&apos;s wife — a violation of the most basic human bonds. Yet the church has taken no action. Worse, they appear to be proud of their tolerance, treating permissiveness as a mark of spiritual maturity.',
     'Paul is astounded. He calls the church to awaken to what they have allowed to happen. Discipline is not cruelty — it is love. A little leaven spreads through the whole lump of dough. One member living in unrepentant sin gradually corrupts the witness and purity of the entire body. Paul connects this call to purity with the Passover: Christ, the Passover Lamb, has been sacrificed for them. Therefore, they must put away the old leaven and keep the feast in sincerity and truth.',

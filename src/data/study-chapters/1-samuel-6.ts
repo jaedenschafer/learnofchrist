@@ -5,7 +5,7 @@ export const SAMUEL_1_6: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 6,
 
-  estimatedMinutes: { 5: 2, 10: 5, 15: 8 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 8 },
   intros: [
     'The ark of the Lord has been in Philistine territory for seven months. Dagon has fallen. Plague has moved from city to city. Now even the priests and diviners of the Philistines tell their lords what every reader of Exodus already knows: you cannot keep the ark of the God of Israel and live. Send it home, they say — but send it home with honor.',
     'The chapter then moves to Beth-shemesh, where Israel celebrates the ark&apos;s return — and immediately presumes upon the holy. The very people who should have known better look into the ark, and judgment falls on them as well. The chapter closes with the same question both pagan and covenant peoples are forced to ask: &quot;Who is able to stand before this holy Lord God?&quot;',

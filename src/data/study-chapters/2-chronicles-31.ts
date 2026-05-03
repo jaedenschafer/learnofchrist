@@ -16,7 +16,7 @@ export const CHRONICLES_2_31: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 31,
 
-  estimatedMinutes: { 5: 7, 10: 12, 15: 16 },
+  estimatedMinutes: { beginner: 7, intermediate: 12, deep: 16 },
   intros: [
     'Hezekiah&apos;s reformation sweeps the kingdom like fire. In this chapter, a nation transforms itself—first through destruction of idols, then through the restoration of what is sacred. The people of Judah, Benjamin, Ephraim, and Manasseh go out and break in pieces the images, cut down the groves, and throw down the altars. They do not do this reluctantly or partly. They &quot;utterly destroy&quot; them. This is thoroughness. This is the heart of the nation turned toward the Lord.',
     'But the work does not stop with tearing down. Hezekiah then establishes the courses of priests and Levites, appoints the king&apos;s portion for sacrifices, and commands the people to bring their tithes and firstfruits. What follows is not mere obedience—it is abundance. The people bring "in abundance" the firstfruits of corn, wine, oil, honey, and the tithes of oxen and sheep. Heaps are piled so high that Hezekiah and his princes come to see them, and Azariah the priest offers the key insight: "Since the people began to bring the offerings into the house of the Lord, we have had enough to eat, and have left plenty: for the Lord hath blessed his people." When a kingdom aligns itself with God&apos;s order, provision flows.',

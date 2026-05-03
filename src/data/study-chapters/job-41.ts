@@ -13,7 +13,7 @@ export const JOB_41: RichChapterContent = {
   bookName: 'Job',
   chapter: 41,
 
-  estimatedMinutes: { 5: 2, 10: 4, 15: 6 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
   intros: [
     'God&apos;s final revelation is of Leviathan—a creature of such terrible power and chaos that it stands as the boundary of human understanding. This is not a creature to be reasoned with, bargained with, or controlled. It breathes fire. It cannot be captured. It is ungovernable. Yet it is part of creation. And if humans cannot govern Leviathan, how can they presume to judge God?',
   ],

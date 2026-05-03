@@ -49,30 +49,42 @@ export interface VerseLine {
   spans: VerseSpan[];
 }
 
-/* ─── Depth tiers ─────────────────────────────────────────────────────── */
+/* ─── Study levels ────────────────────────────────────────────────────── */
 
-/** A reader's chosen study depth.
- *  • 5  — Quick: scripture spine + Christ Connection + Carry only.
- *  • 10 — Standard: + commentary.
- *  • 15 — Deep: + Hebrew/Greek callouts + reflection prompts + artwork.
+/** A reader's chosen study depth, shared with the legacy StudyGuide
+ *  component via lib/StudyLevelContext.
+ *  • beginner    — scripture spine + Christ Connection + Carry only.
+ *  • intermediate — + commentary.
+ *  • deep        — + Hebrew/Greek callouts + reflection prompts + artwork.
  *
- *  Every block has an effective `minTier`: it is rendered iff
- *  `effectiveMinTier(block) <= activeTier`. Authors omit `minTier` on a block
- *  to take the default for that block kind (see `defaultMinTier` below); they
- *  set it explicitly only when a particular block belongs at a different
- *  depth than its kind would suggest. */
-export type DepthTier = 5 | 10 | 15;
+ *  Every block has an effective `minLevel`: it is rendered iff
+ *  `LEVEL_RANK[activeLevel] >= LEVEL_RANK[effectiveMinLevel(block)]`.
+ *  Authors omit `minLevel` on a block to take the default for that block
+ *  kind (see `defaultMinLevel` below); they set it explicitly only when a
+ *  particular block belongs at a different depth than its kind suggests.
+ *
+ *  Re-exported from lib/StudyLevelContext (which is the canonical home of
+ *  the type) so chapter authors only need this one import.
+ */
+export type StudyLevel = 'beginner' | 'intermediate' | 'deep';
+
+/** Numeric rank for comparing levels. Mirrored in lib/StudyLevelContext. */
+const LEVEL_RANK: Record<StudyLevel, number> = {
+  beginner: 1,
+  intermediate: 2,
+  deep: 3,
+};
 
 /* ─── Block types that compose a section ──────────────────────────────── */
 
 export type Block =
-  | { kind: 'scripture'; chapter: number; lines: VerseLine[]; minTier?: DepthTier }
-  | { kind: 'commentary'; id?: string; html: string; minTier?: DepthTier }
-  | { kind: 'hebrew'; id: string; title: string; script: string; translit: string; description: string; minTier?: DepthTier }
-  | { kind: 'greek';  id: string; title: string; script: string; translit: string; description: string; minTier?: DepthTier }
-  | { kind: 'christ'; id: string; title: string; html: string; minTier?: DepthTier }
-  | { kind: 'carry';  html: string; minTier?: DepthTier }
-  | { kind: 'reflection'; id: string; prompt: string; minTier?: DepthTier }
+  | { kind: 'scripture'; chapter: number; lines: VerseLine[]; minLevel?: StudyLevel }
+  | { kind: 'commentary'; id?: string; html: string; minLevel?: StudyLevel }
+  | { kind: 'hebrew'; id: string; title: string; script: string; translit: string; description: string; minLevel?: StudyLevel }
+  | { kind: 'greek';  id: string; title: string; script: string; translit: string; description: string; minLevel?: StudyLevel }
+  | { kind: 'christ'; id: string; title: string; html: string; minLevel?: StudyLevel }
+  | { kind: 'carry';  html: string; minLevel?: StudyLevel }
+  | { kind: 'reflection'; id: string; prompt: string; minLevel?: StudyLevel }
   | {
       kind: 'artwork';
       /** Author writes RegExp literals; the server resolves them
@@ -83,51 +95,54 @@ export type Block =
       matchArtist?: RegExp;
       artworkSlug?: string;
       caption: string;
-      minTier?: DepthTier;
+      minLevel?: StudyLevel;
     }
-  | { kind: 'divider'; minTier?: DepthTier };
+  | { kind: 'divider'; minLevel?: StudyLevel };
 
-/* ─── Depth-tier helpers ─────────────────────────────────────────────── */
+/* ─── Study-level helpers ────────────────────────────────────────────── */
 
-/** Default `minTier` for a block kind when the author hasn't overridden it.
+/** Default `minLevel` for a block kind when the author hasn't overridden it.
  *  Scripture / christ / carry are the spine of every chapter and appear at
- *  every depth. Commentary is the teaching layer — visible from Standard up.
- *  Hebrew / Greek / reflection / artwork are the deepest layer. Dividers are
- *  decorative; they take the lowest tier so they never orphan content above. */
-export function defaultMinTier(kind: Block['kind']): DepthTier {
+ *  every level. Commentary is the teaching layer — visible from Intermediate
+ *  up. Hebrew / Greek / reflection / artwork are the deepest layer. Dividers
+ *  are decorative; they take the lowest level so they never orphan content
+ *  above. */
+export function defaultMinLevel(kind: Block['kind']): StudyLevel {
   switch (kind) {
     case 'scripture':
     case 'christ':
     case 'carry':
-      return 5;
+      return 'beginner';
     case 'commentary':
-      return 10;
+      return 'intermediate';
     case 'hebrew':
     case 'greek':
     case 'reflection':
     case 'artwork':
-      return 15;
+      return 'deep';
     case 'divider':
-      return 5;
+      return 'beginner';
   }
 }
 
-/** A block's effective minimum tier — explicit override or kind default. */
-export function effectiveMinTier(block: Block): DepthTier {
-  return block.minTier ?? defaultMinTier(block.kind);
+/** A block's effective minimum level — explicit override or kind default. */
+export function effectiveMinLevel(block: Block): StudyLevel {
+  return block.minLevel ?? defaultMinLevel(block.kind);
 }
 
-/** True iff the block should render at the given active tier. */
-export function isVisibleAtTier(block: Block, tier: DepthTier): boolean {
-  return effectiveMinTier(block) <= tier;
+/** True iff the block should render at the given active level. */
+export function isVisibleAtLevel(block: Block, level: StudyLevel): boolean {
+  return LEVEL_RANK[level] >= LEVEL_RANK[effectiveMinLevel(block)];
 }
 
-/** Per-tier estimated reading time for a chapter, in whole minutes.
- *  Generated by the audit script after a chapter is authored or edited. */
+/** Per-level estimated reading time for a chapter, in whole minutes.
+ *  Generated by the audit script after a chapter is authored or edited.
+ *  Surfaced inside the study-level picker so users see the real per-chapter
+ *  time, not just the global label. */
 export interface EstimatedMinutes {
-  5: number;
-  10: number;
-  15: number;
+  beginner: number;
+  intermediate: number;
+  deep: number;
 }
 
 /* ─── A single section of a chapter ───────────────────────────────────── */
@@ -257,15 +272,15 @@ export const t = (text: string): VerseSpan => ({ kind: 'text', text });
  *  at render time from the chapter's resources array order. */
 export const hr = (text: string, resourceId: string): VerseSpan => ({ kind: 'resource', text, resourceId });
 
-/* ─── Tier filtering ─────────────────────────────────────────────────── */
+/* ─── Level filtering ────────────────────────────────────────────────── */
 
-/** Collect every block id that survives the given tier — used to strip
+/** Collect every block id that survives the given level — used to strip
  *  dangling highlight marks (`hp/hy/hg`) that point at a hidden commentary. */
-function visibleBlockIds(content: RichChapterContent, tier: DepthTier): Set<string> {
+function visibleBlockIds(content: RichChapterContent, level: StudyLevel): Set<string> {
   const ids = new Set<string>();
   for (const section of content.sections) {
     for (const block of section.blocks) {
-      if (!isVisibleAtTier(block, tier)) continue;
+      if (!isVisibleAtLevel(block, level)) continue;
       if ('id' in block && typeof block.id === 'string') ids.add(block.id);
     }
   }
@@ -273,21 +288,21 @@ function visibleBlockIds(content: RichChapterContent, tier: DepthTier): Set<stri
 }
 
 /** Return a copy of the chapter with:
- *  – blocks whose `effectiveMinTier > tier` removed,
+ *  – blocks whose `effectiveMinLevel` exceeds the active level removed,
  *  – sections that are empty (or contain only dividers) dropped,
  *  – verse `mark` spans whose `jumpTo` no longer exists demoted to plain
  *    text spans so clicks don't scroll to nothing,
- *  – `intros` trimmed to the first paragraph at tier 5,
- *  – `bottomShare` removed at tier 5.
+ *  – `intros` trimmed to the first paragraph at Beginner,
+ *  – `bottomShare` removed at Beginner.
  *
- *  The renderer calls this once per (content, tier) pair. Pure function;
+ *  The renderer calls this once per (content, level) pair. Pure function;
  *  no React state, no side effects — safe to call inside SSR.
  */
-export function filterContentByTier(
+export function filterContentByLevel(
   content: RichChapterContent,
-  tier: DepthTier,
+  level: StudyLevel,
 ): RichChapterContent {
-  const surviving = visibleBlockIds(content, tier);
+  const surviving = visibleBlockIds(content, level);
 
   const stripDangling = (line: VerseLine): VerseLine => ({
     number: line.number,
@@ -301,7 +316,7 @@ export function filterContentByTier(
   const filteredSections: RichSection[] = content.sections
     .map((section) => {
       const blocks = section.blocks
-        .filter((b) => isVisibleAtTier(b, tier))
+        .filter((b) => isVisibleAtLevel(b, level))
         .map((b) =>
           b.kind === 'scripture'
             ? { ...b, lines: b.lines.map(stripDangling) }
@@ -315,8 +330,9 @@ export function filterContentByTier(
     })
     .filter((s): s is RichSection => s !== null);
 
-  const filteredIntros = tier === 5 ? content.intros.slice(0, 1) : content.intros;
-  const filteredBottomShare = tier === 5 ? undefined : content.bottomShare;
+  const isBeginner = level === 'beginner';
+  const filteredIntros = isBeginner ? content.intros.slice(0, 1) : content.intros;
+  const filteredBottomShare = isBeginner ? undefined : content.bottomShare;
 
   return {
     ...content,

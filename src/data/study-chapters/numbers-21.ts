@@ -19,7 +19,7 @@ export const NUMBERS_21: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 21,
 
-  estimatedMinutes: { 5: 6, 10: 11, 15: 14 },
+  estimatedMinutes: { beginner: 6, intermediate: 11, deep: 14 },
   intros: [
     'Numbers 21 opens with a battle: King Arad attacks Israel from the south, and Israel vows a vow to the Lord. If He will deliver these people into their hand, they will utterly destroy their cities. God delivers. Israel keeps the vow and destroys the Canaanite cities (and names the place Hormah, "destruction").',
     'Then the people grumble. They are tired of the wilderness. They are tired of the manna. "Wherefore have ye brought us up out of Egypt to die in the wilderness? for there is no bread, neither is there any water; and our soul loatheth this light bread." This light bread — this is manna, the very miracle God has given them every day for forty years. But when you take miracles for granted long enough, gratitude curdles into contempt.',

@@ -15,7 +15,7 @@ export const PSALMS_13: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 13,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'Psalm 13 is the shortest of David&apos;s cries for help. In just six verses, it moves from desperate questioning to confident faith. David asks "how long" four times—each question pressing deeper into the abyss. He is forgotten. God hides His face. His soul is sorrowful. His enemy is exalted. Everything is wrong. Yet in this brief psalm, something shifts. Not because circumstances change but because David&apos;s trust in God&apos;s mercy rises above the darkness.',
     'This is a psalm for moments when you cannot see beyond your suffering, when God seems to have abandoned you, when you cannot imagine how things will ever be right again. It validates the darkness while insisting that it is not the final word.',

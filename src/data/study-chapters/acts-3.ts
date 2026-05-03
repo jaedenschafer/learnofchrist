@@ -14,7 +14,7 @@ export const ACTS_3: RichChapterContent = {
   bookName: 'Acts',
   chapter: 3,
 
-  estimatedMinutes: { 5: 7, 10: 15, 15: 20 },
+  estimatedMinutes: { beginner: 7, intermediate: 15, deep: 20 },
   intros: [
     'Acts 3 opens with the apostles moving freely in Jerusalem, entering the temple at the ninth hour—the hour of prayer when the faithful gather. A man lies at the gate called Beautiful, lame from his mother&apos;s womb, brought there daily by others. For forty years he has not walked. He has known only the position of a beggar, watching the able-bodied stream past him into worship. When Peter and John approach, Peter does something radical: he does not reach for coins. Instead, he reaches for his faith in the name of Jesus.',
     'What happens next is not the healing itself that drives the chapter. The healing is the opening. Peter seizes the crowd&apos;s amazement and redirects it entirely. He stands up and preaches. He points away from himself and John to the Messiah they denied and crucified. He calls them to repentance, promises them times of refreshing, and tells them Jesus is the prophet Moses foretold—and more: He is the seed of Abraham through whom all the nations of the earth will be blessed.',

@@ -15,7 +15,7 @@ export const FIRST_THESSALONIANS_3: RichChapterContent = {
   bookName: '1 Thessalonians',
   chapter: 3,
 
-  estimatedMinutes: { 5: 6, 10: 10, 15: 14 },
+  estimatedMinutes: { beginner: 6, intermediate: 10, deep: 14 },
   intros: [
     'Paul could not bear his separation from the Thessalonians. In the grip of anxiety, he sent Timothy from Athens—not as a messenger alone, but as a brother and minister of God, a fellow-laborer in the gospel—to strengthen their faith and learn if they were standing firm under the afflictions pressing upon them.',
     'Timothy returns with encouraging news: the church stands steadfast. Their faith has become the source of Paul&apos;s own life and joy. Out of that gratitude explodes a prayer—that God would perfect what is lacking in their faith, that He would establish their hearts unblameable in holiness, that their love would abound toward one another and toward all people, at the coming of Jesus Christ.',

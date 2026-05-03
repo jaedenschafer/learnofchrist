@@ -14,7 +14,7 @@ export const PSALMS_17: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 17,
 
-  estimatedMinutes: { 5: 1, 10: 4, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
   intros: [
     'Psalm 17 combines two themes that might seem contradictory: a plea for vindication and a longing for transformation. David asks God to hear his cry, to examine his heart, to protect him from those who oppress him. He asks to be kept as the apple of God&apos;s eye, that most tender and carefully guarded part of the body. Yet alongside this plea for protection runs a deeper longing: to awake one day transformed into Christ&apos;s likeness. The psalm is not ultimately about winning against enemies. It is about becoming like God.',
     'This is a psalm for those who have learned that the real battle is internal, that vindication matters less than transformation, that the goal of the spiritual life is not merely to be proven right but to be made right—to be conformed to God&apos;s image.',

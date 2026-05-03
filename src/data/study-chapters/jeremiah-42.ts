@@ -14,7 +14,7 @@ export const JEREMIAH_42: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 42,
 
-  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
   intros: [
     'The remnant is in crisis. Gedaliah is dead. Ishmael has scattered them. Fear has seized the people. They come to Jeremiah and ask him to pray, to inquire of God, to ask whether they should flee to Egypt. Egypt is old hope. Egypt is the known quantity. Egypt is where they can escape the violence and uncertainty of the land.',
     'Jeremiah prays, as they have asked. God answers clearly: do not go to Egypt. Stay in the land. Do not flee. But staying means facing uncertainty. It means trusting God in a broken situation. It means accepting the loss of control. And so the remnant promises to obey. But promises made in seeking truth are often broken when truth arrives.',

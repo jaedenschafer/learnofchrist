@@ -31,7 +31,7 @@ export const NUMBERS_5: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 5,
 
-  estimatedMinutes: { 5: 8, 10: 12, 15: 15 },
+  estimatedMinutes: { beginner: 8, intermediate: 12, deep: 15 },
   intros: [
     'Numbers 5 addresses three states of holiness violation. First, those who are unclean by disease, discharge, or contact with death are separated outside the camp — the community must remain set apart for worship. Second, when someone wrongs a neighbor, confession and restitution follow, with a guilt offering brought to God. Third, the chapter turns to the most difficult case: a wife suspected of adultery. Here the law does something unusual — it forbids the husband from acting as judge. Instead, God Himself judges through a ritual. The suspected woman is neither divorced on suspicion nor condemned by her husband\'s word alone. A priest administers a test, and God reveals the truth.',
     'The sotah ritual is not an inquisition or a trap. It is a protection. In ancient near eastern cultures, a woman\'s fate rested entirely in her husband\'s judgment. But in Israel, accusation alone is not enough. The law refuses to let mere suspicion destroy a marriage. Instead, it calls on God to judge. The waters will either clear her or reveal her guilt. What makes this remarkable is what it does NOT do: it does not allow the husband\'s doubts or jealousy to be final. The law insists that truth, not suspicion, must rule.',

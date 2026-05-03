@@ -15,7 +15,7 @@ export const JOHN_7: RichChapterContent = {
   bookName: 'John',
   chapter: 7,
 
-  estimatedMinutes: { 5: 2, 10: 5, 15: 6 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
   intros: [
     'The Feast of Tabernacles draws near. Jesus goes to the feast in secret, not openly. His family encourages Him to go publicly, to reveal Himself openly to the world. But Jesus knows that the world hates Him. He knows that the powers oppose Him. When He arrives mid-feast and begins to teach, the crowds marvel. His teaching surpasses what they expect. He speaks with authority about Scripture, yet He never studied in the schools of the rabbis. "How knoweth this man letters, having never learned?"',
     '"Never man spake like this man," the officers declare when they are sent to arrest Him and return empty-handed. In the waters of the feast, Jesus makes a proclamation: "If any man thirst, let him come unto me, and drink." The image recalls the ritual pouring of water during the feast, the remembrance of water from the rock in the wilderness. But Jesus offers something deeper—a spring within, the Holy Spirit, welling up to eternal life. The crowd is divided. Some believe He is the Christ. Others dismiss Him as a deceiver. The truth is hidden, waiting for recognition.',

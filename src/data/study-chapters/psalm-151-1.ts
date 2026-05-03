@@ -19,7 +19,7 @@ export const PSALM_151_1: RichChapterContent = {
   bookName: 'Psalm 151',
   chapter: 1,
 
-  estimatedMinutes: { 5: 6, 10: 12, 15: 16 },
+  estimatedMinutes: { beginner: 6, intermediate: 12, deep: 16 },
   intros: [
     'Psalm 151 is a small, intimate psalm — seven verses. David remembers two moments that shaped him: being chosen smallest among his brothers, and slaying Goliath. These two memories anchor the heartbeat of the entire Psalter: God lifts the lowly and silences the mighty. This psalm exists in the Septuagint and Dead Sea Scrolls, in Orthodox and some Catholic Bibles, but its canonical status varies across traditions. Whether or not one counts it as canonical, it preserves the voice of the shepherd-king looking back over his own becoming.',
     'What makes Psalm 151 so powerful is its refusal to deny the smallness. David does not boast. He does not erase his humble beginnings. Instead, he sings them as the very place God found him. This is the God we meet throughout Scripture — not the God of palaces first, but the God of fields and overlooked corners, the God who calls the small one and anoints him with the oil of a new name.',

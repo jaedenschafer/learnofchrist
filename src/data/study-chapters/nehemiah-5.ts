@@ -18,7 +18,7 @@ export const NEHEMIAH_5: RichChapterContent = {
   bookName: 'Nehemiah',
   chapter: 5,
 
-  estimatedMinutes: { 5: 5, 10: 11, 15: 15 },
+  estimatedMinutes: { beginner: 5, intermediate: 11, deep: 15 },
   intros: [
     'The wall of Jerusalem is rising. Stone by stone, the city&apos;s defense takes shape. But as the work continues, a different kind of wall emerges — one invisible, built of debt and desperation. The poor cry out. Their fields have been mortgaged. Their children are being sold into servitude. The very nobles who are meant to rebuild the nation are using the crisis to enrich themselves through usury — lending at interest to their own brothers in violation of the Law.',
     'This is the chapter where the true work of restoration becomes apparent: it is not enough to rebuild walls. The people themselves must be restored. Nehemiah, confronted with this injustice, does not retreat to diplomacy. He confronts the nobles directly, demands restitution, and then turns the mirror on himself — refusing the bread of the governor for twelve years, feeding 150 at his own table, asking nothing of the people he serves. It is a chapter about what it costs to lead with integrity when surrounded by corruption.',

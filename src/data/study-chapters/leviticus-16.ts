@@ -19,7 +19,7 @@ export const LEVITICUS_16: RichChapterContent = {
   bookName: 'Leviticus',
   chapter: 16,
 
-  estimatedMinutes: { 5: 12, 10: 19, 15: 24 },
+  estimatedMinutes: { beginner: 12, intermediate: 19, deep: 24 },
   intros: [
     'Leviticus 16 is the book&apos;s centerpiece—the one day each year when the high priest enters the Holy of Holies, the place where God&apos;s presence dwells on the mercy seat. It is a day when the whole nation must afflict their souls. It is the day the gap between the holy God and a sinful people is bridged by blood, by confession, by the death of an innocent. The chapter begins immediately after the death of Nadab and Abihu, two of Aaron&apos;s own sons, who entered God&apos;s presence carelessly and were consumed by holy fire. The message is stark: holiness is not a metaphor. It is a boundary. It costs.',
     'Two goats lie at the heart of this chapter. One is slain; its blood is carried into the Holy of Holies. One is sent alive into the wilderness, carrying the sins of the nation on its head. One Christ, two saving movements: the blood that satisfies God&apos;s justice, and the removal that takes sin away from the presence of His people. The Epistle to the Hebrews sees the entirety of Christ&apos;s atonement written in these verses. By this day, by this blood, by these two goats, Jesus&apos; death is explained.',

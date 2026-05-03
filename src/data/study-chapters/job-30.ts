@@ -13,7 +13,7 @@ export const JOB_30: RichChapterContent = {
   bookName: 'Job',
   chapter: 30,
 
-  estimatedMinutes: { 5: 2, 10: 4, 15: 7 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 7 },
   intros: [
     'The contrast between chapters 29 and 30 is devastating. Where Job was once honored, he is now despised. Those beneath him in station now mock him. Where he once served others, he himself is now broken and alone. This chapter is not a philosophical meditation—it is a raw cry of abandonment. Job addresses God directly, asking why He has turned away.',
   ],

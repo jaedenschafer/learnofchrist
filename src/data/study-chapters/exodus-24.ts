@@ -9,7 +9,7 @@ export const EXODUS_24: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 24,
 
-  estimatedMinutes: { 5: 6, 10: 12, 15: 14 },
+  estimatedMinutes: { beginner: 6, intermediate: 12, deep: 14 },
   intros: [
     'Exodus 24 is where the covenant becomes real. For three chapters God has been speaking the law from Mount Sinai—the Ten Commandments, the case laws, the rules for altars and holy days. Now the people stand at the foot of the mountain and hear all of it read aloud. "All the words which the LORD hath said will we do," they answer. It is a commitment written not in stone yet, but in breath, in witness, in the presence of each other.',
     'Then Moses does something that will echo through two thousand years of Christian history: he takes the blood of young bulls, pours half on an altar, and sprinkles the other half on the people. "Behold the blood of the covenant," he says. The language is so specific, so careful, that when Jesus sits down at His last meal with His disciples and holds up a cup of wine, He uses nearly the same words: "This is my blood of the new testament." The meal on the mountain—where Moses, Aaron, and the seventy elders eat in the presence of God—foreshadows the table Jesus sets.',

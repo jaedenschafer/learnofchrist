@@ -15,7 +15,7 @@ export const SAMUEL_1_29: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 29,
 
-  estimatedMinutes: { 5: 5, 10: 9, 15: 10 },
+  estimatedMinutes: { beginner: 5, intermediate: 9, deep: 10 },
   intros: [
     'David has been living in the land of the Philistines, serving under Achish, the king of Gath. For months, he has played the part of a loyal Philistine vassal, even raiding towns he claims are in Israel while actually destroying Amalekite settlements. Achish trusts him completely. So when the Philistines muster their full army to attack Israel, David marches along with them.',
     'But the moment has come when David&apos;s double life becomes impossible. The Philistine princes see him in the ranks and refuse to go to war with him. They will not allow a Hebrew to march against them. What David cannot escape by his own cunning, God removes by the simple distrust of others. This is a chapter about divine rescue that looks like rejection, about God&apos;s providence working through the very people who oppose His purposes.',

@@ -5,7 +5,7 @@ export const REVELATION_10: RichChapterContent = {
   bookName: 'Revelation',
   chapter: 10,
 
-  estimatedMinutes: { 5: 8, 10: 10, 15: 15 },
+  estimatedMinutes: { beginner: 8, intermediate: 10, deep: 15 },
   intros: [
     'Revelation 10 is an interlude — a pause in the trumpet sequence between the sixth and seventh trumpets. John\'s vision turns inward. A mighty angel comes down from heaven carrying a little book, and the prophet is commanded to take it and eat it. The experience will be bittersweet: honey on the tongue, but burning in the belly. By the end of the chapter, the prophet is sent out again to prophesy before many peoples, nations, tongues, and kings. This is John at a turning point — fed by God\'s word, made alive by it, and set back into the work of witness.',
   ],

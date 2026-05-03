@@ -11,7 +11,7 @@ export const JOSHUA_14: RichChapterContent = {
   bookName: 'Joshua',
   chapter: 14,
 
-  estimatedMinutes: { 5: 6, 10: 11, 15: 13 },
+  estimatedMinutes: { beginner: 6, intermediate: 11, deep: 13 },
   intros: [
     'Joshua 14 begins the distribution of the Promised Land to the twelve tribes. Nine and a half tribes hadn&apos;t yet received their inheritance; the Levites would get cities but no land; and the story quickly turns to Caleb, the one man whose name carries a single definition across the chapter: he wholly followed the Lord his God.',
     'Forty-five years earlier, Caleb had spied out Canaan alongside Joshua and ten others. While ten brought back fear, Caleb brought back confidence in God&apos;s promise. For that faithfulness, he was told his feet would own the very land he had walked. But the other spies died in the wilderness, and Israel wandered for 38 years because of their doubt. Caleb waited. At 85, he doesn&apos;t ask for easier land. He asks for the mountain where the Anakims—the giants—still lived.',

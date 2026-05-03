@@ -20,7 +20,7 @@ export const GENESIS_38: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 38,
 
-  estimatedMinutes: { 5: 8, 10: 14, 15: 17 },
+  estimatedMinutes: { beginner: 8, intermediate: 14, deep: 17 },
   intros: [
     'Genesis 38 interrupts the story of Joseph with a different kind of story entirely—one about his older brother Judah, set apart from his family, and a woman named Tamar who was wronged twice over and responded with courage that made Judah see his own failure. This chapter is uncomfortable and graphic in ways the Bible usually avoids. It sits in Scripture not by accident but because the gospel runs through exactly the kind of people and circumstances that religious systems try to hide.',
     'The story turns on one ancient practice: <em>yibbum</em>, the levirate marriage. When a man died childless, his brother was bound by law to marry his widow and raise up an heir for the dead man. It was not optional. It was sacred debt. When Judah withholds his youngest son from Tamar—leaving her in limbo, neither widow nor wife—he breaks a covenant. Tamar&apos;s response will teach him what righteousness actually looks like, and in the process, she secures her place in the genealogy of Jesus.',

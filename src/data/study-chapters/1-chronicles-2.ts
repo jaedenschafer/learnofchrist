@@ -16,7 +16,7 @@ export const CHRONICLES_1_2: RichChapterContent = {
   bookName: '1 Chronicles',
   chapter: 2,
 
-  estimatedMinutes: { 5: 5, 10: 10, 15: 14 },
+  estimatedMinutes: { beginner: 5, intermediate: 10, deep: 14 },
   intros: [
     'After the genealogy of Adam in chapter 1, the Chronicler turns to the twelve sons of Israel — the patriarchs whose names became the tribal inheritance of God&apos;s people. But the focus narrows quickly. The Chronicler is not writing a comprehensive tribal history. He is tracing a single line: the line that leads to Judah, and from Judah to David.',
     'What makes this genealogy remarkable is what it preserves. The sons of Judah include names of those whose birth stories were marked by scandal or tragedy. Tamar, the Canaanite woman whom Judah took against law and custom, mother of Pharez and Zerah. Achan, whose covetousness brought defeat upon all Israel. Yet these names remain in the record. The line of redemption is not hidden from darkness — it runs through it. It acknowledges it. And it continues.',

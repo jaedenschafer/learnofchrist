@@ -13,7 +13,7 @@ export const JEREMIAH_25: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 25,
 
-  estimatedMinutes: { 5: 4, 10: 6, 15: 8 },
+  estimatedMinutes: { beginner: 4, intermediate: 6, deep: 8 },
   intros: [
     'For twenty-three years, Jeremiah has spoken to Judah, calling them to repent. They have not listened. Now, with Nebuchadrezzar about to besiege Jerusalem, Jeremiah announces the consequence: Judah will serve the king of Babylon and his son and his grandson for a total of seventy years. Seventy years — nearly the lifetime of a people, a generation that enters exile and a generation that is born in exile before the time of return.',
     'Yet seventy years is not forever. After that time, the cup of wrath will pass to Babylon itself. The exile that seems final, that seems like the end of the world, is actually limited and temporary. The cup of God&apos;s wrath, though it will be drunk, will eventually be emptied. And when the seventy years are complete, restoration will begin.',

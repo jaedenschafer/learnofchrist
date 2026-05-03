@@ -14,7 +14,7 @@ export const JOB_40: RichChapterContent = {
   bookName: 'Job',
   chapter: 40,
 
-  estimatedMinutes: { 5: 2, 10: 4, 15: 6 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
   intros: [
     'Job is confronted by God&apos;s majesty and admits his smallness. His response is silence. He will speak no more in accusation against God. He has been shown the vastness of creation, the power of wild things, the intricate beauty of what he does not control. And now God introduces Behemoth—a creature of such terrible strength that it can barely be comprehended. Through Behemoth, God reveals that there are forces in creation that even the strongest human cannot govern.',
   ],

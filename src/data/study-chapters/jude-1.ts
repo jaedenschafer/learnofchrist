@@ -11,7 +11,7 @@ export const JUDE_1: RichChapterContent = {
   bookName: 'Jude',
   chapter: 1,
 
-  estimatedMinutes: { 5: 9, 10: 14, 15: 19 },
+  estimatedMinutes: { beginner: 9, intermediate: 14, deep: 19 },
   intros: [
     'Jude is the only letter in the New Testament from one of Jesus\' brothers. James wrote a letter too, but Jude was Jesus\' actual sibling — raised in the same house, watching Him grow up. That proximity to Jesus gives Jude\'s words a certain weight. He knows what true faith looks like because he has seen it. And he is writing to sound the alarm.',
     'The alarm is about false teachers — men who have slipped into the church unnoticed, twisting grace into lawlessness and denying the lordship of Christ. Jude\'s letter is short and fierce. He marshals three Old Testament examples, names the danger explicitly, urges the church to stand. And then he ends with one of the highest doxologies in all of Scripture — a five-line ascription of glory to Christ so dense with grace it almost defies reading. The letter is a call to contend for the faith, and a reminder that the one who holds us is completely able.',

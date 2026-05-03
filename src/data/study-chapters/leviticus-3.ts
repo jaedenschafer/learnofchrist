@@ -16,7 +16,7 @@ export const LEVITICUS_3: RichChapterContent = {
   bookName: 'Leviticus',
   chapter: 3,
 
-  estimatedMinutes: { 5: 6, 10: 9, 15: 11 },
+  estimatedMinutes: { beginner: 6, intermediate: 9, deep: 11 },
   intros: [
     'The peace offering is the only sacrifice where the worshipper sits down to eat. The burnt offering ascends entirely to the altar. The sin offering is mostly consumed at the altar, its meat never tasted by the giver. But the peace offering — the <em>shelamim</em>, from the root <em>shalom</em>, meaning peace and wholeness — reverses the old pagan pattern of appeasement. God does not demand the whole animal. He is content with the fat, the kidneys, the liver. The rest is a meal. The worshipper, his family, the priest beside him, eating together in God&apos;s courtyard. This is the gospel in shadow: restoration through relationship, not terror. Fellowship, not distance.',
     'Three variations fill this chapter — cattle (vv.1–5), sheep (vv.7–11), and goats (vv.12–17). The instructions are almost identical, which tells us something important: shalom tastes the same whether you bring wealth or less. The bottom line is always the same: God gets the fat and the blood. You get to feast. And the forbidden fat and blood reserve to God what is most prized — a principle woven into every offering. In fellowship with God, He still gets the honored portion.',

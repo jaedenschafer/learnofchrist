@@ -13,7 +13,7 @@ export const JEREMIAH_49: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 49,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'Jeremiah 49 expands the oracle against the nations to include five separate peoples: Ammon, Edom, Damascus, Kedar, and Elam. These represent the compass points of the known world—east, south, north, and further east. The effect is to demonstrate that God&apos;s judgment reaches everywhere. There is no safe place, no distant corner, where a nation can escape from the reach of God&apos;s purposes.',
     'The repetition of the theme reinforces the point: each nation has its own particular sin, its own reason for judgment. Yet all stand under the same sovereign God. This message would have been striking to the exiles in Babylon, who might have believed that once they were removed from their land, they were somehow beyond God&apos;s concern. Jeremiah assures them: no. God cares for His people across all distances. And God judges all nations with equal certainty.',

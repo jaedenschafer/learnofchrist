@@ -15,7 +15,7 @@ export const MATTHEW_26: RichChapterContent = {
   bookName: 'Matthew',
   chapter: 26,
 
-  estimatedMinutes: { 5: 2, 10: 6, 15: 7 },
+  estimatedMinutes: { beginner: 2, intermediate: 6, deep: 7 },
   intros: [
     'The hour approaches. Jesus says to His disciples: "Ye know that after two days is the feast of the passover, and the Son of man shall be delivered up to be crucified." In Bethany, at the house of Simon the leper, a woman approaches with an alabaster box of precious ointment and anoints Jesus&apos; head. Some are indignant. Jesus defends her: "Wheresoever this gospel shall be preached... there shall also this, that this woman hath done, be told for a memorial of her."',
     'Judas Iscariot, one of the twelve, goes to the chief priests and says: "What will ye give me, and I will deliver him unto you?" They covenant with him for thirty pieces of silver. That night, Jesus gathers His disciples to eat the Passover. During the meal, He takes bread, blesses it, breaks it, and gives it to them: "Take, eat; this is my body." Then He takes the cup and says: "This is my blood of the covenant, which is shed for many for the remission of sins." The old covenant is fulfilled. A new covenant, sealed in Christ&apos;s blood, is established.',

@@ -14,7 +14,7 @@ export const ROMANS_5: RichChapterContent = {
   bookName: 'Romans',
   chapter: 5,
 
-  estimatedMinutes: { 5: 8, 10: 14, 15: 20 },
+  estimatedMinutes: { beginner: 8, intermediate: 14, deep: 20 },
   intros: [
     'Romans 5 is the turn from doctrine to joy. Paul has spent four chapters proving one thing: we are justified by faith, not by works. Now he stands at the threshold and says: therefore, we have peace. Not someday. Not if we try harder. Now. The enmity between God and humanity, which Genesis 3 opened with a serpent&apos;s whisper, is ended. We are at peace with the source of all being.',
     'This peace is not quiet. Paul floods the chapter with active love — God commending His love toward us while we were yet sinners. Christ dying. The Holy Ghost shedding love into our hearts. And then Paul takes the reader back to where sin started — back to Adam — and shows us where it ends: in a Christ whose obedience and grace exceed, by infinite measure, the damage Adam&apos;s disobedience caused. Romans 5 is the gospel sung.',

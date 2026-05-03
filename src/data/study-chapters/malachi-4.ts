@@ -8,7 +8,7 @@ export const MALACHI_4: RichChapterContent = {
   bookName: 'Malachi',
   chapter: 4,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'Malachi closes with the final words of the Old Testament. Christ is promised as the Sun of Righteousness, rising with healing in His wings. And the prophet Elijah is promised to come before the great and dreadful day of the Lord—a promise fulfilled in John the Baptist. The book ends in hope: God has not abandoned His people. The Messiah is coming. The healing and redemption of all things awaits.',
   ],

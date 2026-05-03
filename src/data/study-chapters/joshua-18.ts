@@ -17,7 +17,7 @@ export const JOSHUA_18: RichChapterContent = {
   bookName: 'Joshua',
   chapter: 18,
 
-  estimatedMinutes: { 5: 8, 10: 12, 15: 15 },
+  estimatedMinutes: { beginner: 8, intermediate: 12, deep: 15 },
   intros: [
     'Joshua 18 marks a turning point. The land has been militarily subdued; the congregation has gathered at Shiloh to set up the tabernacle. Yet seven of the twelve tribes still have no inheritance. Joshua confronts them directly: "How long are ye slack to go to possess the land, which the Lord God of your fathers hath given you?" They are not entitled to hesitate. The victory is already won.',
     'What follows is orderly and practical — surveyors are commissioned to map the land, they report back, and Joshua casts lots before the Lord. Benjamin draws first. His territory is small but strategic: squeezed between the powerhouses of Judah and Joseph, it includes Jericho to the east and, barely on its southern border, Jerusalem itself. That small tribe will later give Israel its first king (Saul) and, centuries on, produce the apostle Paul. The chapter teaches that God honors both the timid and the bold, and that strategic smallness can carry enormous weight.',

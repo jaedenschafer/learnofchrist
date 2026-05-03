@@ -14,7 +14,7 @@ export const PSALMS_68: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 68,
 
-  estimatedMinutes: { 5: 2, 10: 3, 15: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
   intros: [
     'Psalm 68 is a psalm of cosmic scope. It opens with the majestic command: "Let God arise, let his enemies be scattered." The enemies do not stand and fight. They flee. They are scattered like smoke before the wind. Yet this is not a psalm about divine violence for its own sake. It is a psalm about a God whose power serves justice, whose strength secures the weak, whose triumph means the liberation of the captive.',
     'The psalm moves from the scattered enemies to the ascended Lord, from the judgment of the wicked to the protection of the vulnerable. It shows a God who is both terrible and tender, both mighty and merciful. And it culminates in a vision of God as the source of strength for His people, the one who makes all strongholds and kingdoms bow before Him.',

@@ -15,7 +15,7 @@ export const JOSHUA_19: RichChapterContent = {
   bookName: 'Joshua',
   chapter: 19,
 
-  estimatedMinutes: { 5: 10, 10: 14, 15: 19 },
+  estimatedMinutes: { beginner: 10, intermediate: 14, deep: 19 },
   intros: [
     'Joshua 19 records the final phase of land distribution. After nine and a half tribes received their inheritances, six more remain: Simeon, Zebulun, Issachar, Asher, Naphtali, and Dan. Each got a portion cast by lot, before the Lord, at Shiloh. The geographies are specific and sometimes difficult to map — city lists, border descriptions — yet they reveal a profound truth: every tribe received a place of its own. None was overlooked. None was less-than.',
     'Interwoven through these tribal boundaries is the story of where Christ would live and minister. Zebulun and Naphtali together form Galilee, the region of Jesus&apos; earthly ministry — the very territory Isaiah spoke of centuries before: "the people which sat in darkness saw great light" (Matthew 4:13–16). The land itself was already pointing forward. God did not merely carve up geography; He prepared a stage for redemption.',

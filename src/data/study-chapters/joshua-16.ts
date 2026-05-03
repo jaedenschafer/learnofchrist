@@ -9,7 +9,7 @@ export const JOSHUA_16: RichChapterContent = {
   bookName: 'Joshua',
   chapter: 16,
 
-  estimatedMinutes: { 5: 4, 10: 7, 15: 10 },
+  estimatedMinutes: { beginner: 4, intermediate: 7, deep: 10 },
   intros: [
     'Joshua 16 records the fulfillment of Jacob&apos;s blessing in Genesis 48: Joseph&apos;s inheritance is split between his two sons, Ephraim and Manasseh, and they divide the best land west of the Jordan. Ephraim&apos;s territory includes Bethel — the house of God where Jacob once saw the ladder — and other sacred ground soaked in covenant promise. But there is a dark thread running through the chapter: the Canaanites of Gezer remain unconquered, allowed to live within Ephraim&apos;s borders under tribute.',
     'That detail repeats a pattern from Joshua 15. Israel was commanded to drive out the nations entirely — the herem, the complete separation that consecrates the land. Instead they chose a easier path: economic gain without full obedience. The Canaanites stay, enslaved and taxed. It sounds practical. It will later prove to be the beginning of Israel&apos;s spiritual compromise, a detail Judges will unfold in bitter detail. Every incomplete obedience to God carries a cost the obedient person rarely sees coming.',

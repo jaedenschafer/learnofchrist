@@ -22,7 +22,7 @@ export const EXODUS_21: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 21,
 
-  estimatedMinutes: { 5: 8, 10: 12, 15: 15 },
+  estimatedMinutes: { beginner: 8, intermediate: 12, deep: 15 },
   intros: [
     'Exodus 21 opens the Book of the Covenant—Israel&apos;s first law code. It begins not with the weight of majesty or the terror of judgment, but with the laws of servants. God addresses a nation that has just been set free from slavery. The first law they hear is about protecting the enslaved. This is the shape of God&apos;s justice: the strong are bound by law to protect the weak.',
     'The chapter teaches limits. Limits on who can own a servant (Hebrews must be released in the seventh year). Limits on cruelty (if a master harms a servant, the servant goes free). Limits on revenge (the famous "eye for eye" is a ceiling, not a floor—it limits retaliation to what is proportional). Every law assumes a people prone to excess, and draws a line. In the middle of all these boundaries stands one phrase that echoes through the centuries: the pierced ear of the willing slave. A servant who chooses his master. A foreshadowing of One who would choose to become a servant to make us free.',

@@ -26,11 +26,11 @@ const ROOT = path.resolve(__dirname, '..', 'src', 'data', 'study-chapters');
 // scripture is slightly slower than that; reflection prompts are think-time.
 const WPM = { prose: 180, scripture: 200, reflection: 60 };
 
-// Block-kind → default minTier (mirror of types.ts defaultMinTier).
-const DEFAULT_MIN_TIER = {
-  scripture: 5, christ: 5, carry: 5, divider: 5,
-  commentary: 10,
-  hebrew: 15, greek: 15, reflection: 15, artwork: 15,
+// Block-kind → default minLevel (mirror of types.ts defaultMinLevel).
+const DEFAULT_MIN_LEVEL = {
+  scripture: 'beginner', christ: 'beginner', carry: 'beginner', divider: 'beginner',
+  commentary: 'intermediate',
+  hebrew: 'deep', greek: 'deep', reflection: 'deep', artwork: 'deep',
 };
 
 const KIND_RE = /kind:\s*'([a-z]+)'/g;
@@ -110,7 +110,7 @@ function introWords(source) {
   return n;
 }
 
-function tierMinutes(words) {
+function levelMinutes(words) {
   // words: { scripture, christ, carry, commentary, hebrew, greek, reflection,
   //          artwork, intros }
   const minsAt = (kindList, introCap) => {
@@ -121,31 +121,36 @@ function tierMinutes(words) {
       else if (k === 'reflection') m += w / WPM.reflection;
       else m += w / WPM.prose;
     }
-    // Intros: at tier 5 we render only the first intro (~half on average).
+    // Intros: at Beginner we render only the first intro (~half on average).
     const introWords = words.intros || 0;
     if (introCap === 'half') m += Math.min(introWords / 2, 90) / WPM.prose;
     else m += introWords / WPM.prose;
     return m;
   };
 
-  const five    = minsAt(['scripture', 'christ', 'carry'], 'half');
-  const ten     = minsAt(['scripture', 'christ', 'carry', 'commentary'], 'full');
-  const fifteen = minsAt(['scripture', 'christ', 'carry', 'commentary', 'hebrew', 'greek', 'reflection', 'artwork'], 'full');
+  const beginner     = minsAt(['scripture', 'christ', 'carry'], 'half');
+  const intermediate = minsAt(['scripture', 'christ', 'carry', 'commentary'], 'full');
+  const deep         = minsAt(['scripture', 'christ', 'carry', 'commentary', 'hebrew', 'greek', 'reflection', 'artwork'], 'full');
 
   // Round to whole minutes; floor of 1 because "0 min" reads as broken.
   const round = (m) => Math.max(1, Math.round(m));
-  return { 5: round(five), 10: round(ten), 15: round(fifteen) };
+  return {
+    beginner: round(beginner),
+    intermediate: round(intermediate),
+    deep: round(deep),
+  };
 }
 
-// Insert / replace `estimatedMinutes: { 5: X, 10: Y, 15: Z },` immediately
-// after the `chapter: N,` line. Idempotent — re-running on a tagged file
-// preserves surrounding blank lines and produces a byte-identical output if
-// nothing has changed.
+// Insert / replace `estimatedMinutes: { beginner: X, intermediate: Y, deep: Z },`
+// immediately after the `chapter: N,` line. Idempotent — re-running on a
+// tagged file preserves surrounding blank lines and produces a byte-identical
+// output if nothing has changed.
 function rewriteWithEstimates(source, est) {
-  const newLine = `  estimatedMinutes: { 5: ${est[5]}, 10: ${est[10]}, 15: ${est[15]} },`;
+  const newLine = `  estimatedMinutes: { beginner: ${est.beginner}, intermediate: ${est.intermediate}, deep: ${est.deep} },`;
 
   // Match ONLY the existing tagged line (anchored on its own line, without
-  // consuming surrounding blank lines).
+  // consuming surrounding blank lines). Matches both old (numeric-key) and
+  // new (named-key) shapes so the rename pass replaces in-place.
   const existingRe = /^[ \t]*estimatedMinutes:\s*\{[^}]*\},[ \t]*$/m;
   if (existingRe.test(source)) {
     return source.replace(existingRe, newLine);
@@ -175,7 +180,7 @@ function processFile(filePath, mode) {
     words[kind] += countWordsForBlock(kind, region);
   }
 
-  const est = tierMinutes(words);
+  const est = levelMinutes(words);
 
   if (mode === 'report') return { skipped: false, est, words };
 
@@ -199,16 +204,16 @@ function main() {
   let processed = 0;
   let changed = 0;
   let skipped = 0;
-  const buckets = { 5: [], 10: [], 15: [] };
+  const buckets = { beginner: [], intermediate: [], deep: [] };
   const wouldChange = [];
 
   for (const fn of files) {
     const result = processFile(path.join(ROOT, fn), mode);
     if (result.skipped) { skipped++; continue; }
     processed++;
-    buckets[5].push(result.est[5]);
-    buckets[10].push(result.est[10]);
-    buckets[15].push(result.est[15]);
+    buckets.beginner.push(result.est.beginner);
+    buckets.intermediate.push(result.est.intermediate);
+    buckets.deep.push(result.est.deep);
     if (result.changed) {
       changed++;
       wouldChange.push(fn);
@@ -224,10 +229,10 @@ function main() {
 
   console.log(`Rich chapters: ${processed}  ·  skipped (legacy): ${skipped}`);
   console.log('');
-  console.log('Estimated minutes per tier across all rich chapters:');
-  for (const t of [5, 10, 15]) {
+  console.log('Estimated minutes per study level across all rich chapters:');
+  for (const lvl of ['beginner', 'intermediate', 'deep']) {
     console.log(
-      `  tier ${String(t).padStart(2)}  median=${median(buckets[t])}  mean=${mean(buckets[t]).toFixed(1)}  max=${max(buckets[t])}`,
+      `  ${lvl.padEnd(13)} median=${median(buckets[lvl])}  mean=${mean(buckets[lvl]).toFixed(1)}  max=${max(buckets[lvl])}`,
     );
   }
 

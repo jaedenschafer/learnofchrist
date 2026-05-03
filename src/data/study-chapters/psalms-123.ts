@@ -14,7 +14,7 @@ export const PSALMS_123: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 123,
 
-  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
   intros: [
     'Psalm 123 is brief, but in its brevity lies a profound image of dependence and watchfulness. The psalmist lifts his eyes toward heaven where God dwells, and fixes his gaze there with the intensity of a servant watching the hand of his master. Every gesture of the master communicates a command, a need, a direction. The servant who is attentive does not miss the slightest movement. So the psalmist fixes his attention on God, waiting for the mercy that flows from Him alone.',
   ],

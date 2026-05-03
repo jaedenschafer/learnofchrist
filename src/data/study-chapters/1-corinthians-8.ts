@@ -17,7 +17,7 @@ export const FIRST_CORINTHIANS_8: RichChapterContent = {
   bookName: '1 Corinthians',
   chapter: 8,
 
-  estimatedMinutes: { 5: 6, 10: 13, 15: 19 },
+  estimatedMinutes: { beginner: 6, intermediate: 13, deep: 19 },
   intros: [
     'In Corinth, as in most pagan cities, the meat sold in the market had often been sacrificed to idols before being offered for sale. When an animal was offered to a pagan god, part of it was burned, part went to the priests, and part went to market. A Christian convert from paganism would see that meat and feel the weight of their old life. Can they eat it? Does eating it drag them back toward idolatry? Paul addresses not just the practical question, but the deeper question it reveals: what does love demand of you when you have freedom that your brother does not have?',
     'The answer Paul gives is radical. He does not settle the question on theological principle. Instead, he inverts the hierarchy of values the Corinthians have been living by. Knowledge is inferior to love. Your right to exercise your liberty is less important than your brother&apos;s spiritual welfare. Your conscience matters. His conscience matters more. This chapter teaches a generosity so extreme that it baffles the modern ear: the willingness to limit your freedom permanently for the sake of another&apos;s faith.',

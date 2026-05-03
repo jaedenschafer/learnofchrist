@@ -12,7 +12,7 @@ export const JUDGES_16: RichChapterContent = {
   bookName: 'Judges',
   chapter: 16,
 
-  estimatedMinutes: { 5: 10, 10: 17, 15: 22 },
+  estimatedMinutes: { beginner: 10, intermediate: 17, deep: 22 },
   intros: [
     'Samson has defeated Philistines with the jawbone of a donkey, carried away the gates of Gaza, and left a trail of burned crops and burnt temples behind him. But chapter 16 shows what every reader has sensed since chapter 13: a man with superhuman strength and deeply subhuman judgment. He goes in unto a harlot in Gaza, telling himself he is invincible. He falls in love with Delilah and tells himself he can hold back the truth. He tells the truth to Delilah and tells himself God will wake him as before. Each time, he is catastrophically, publicly wrong.',
     'This chapter is the story of slow erosion. Not the sudden collapse of an evil deed—the grinding loss of God&apos;s presence by degrees, accompanied by the shattering confidence that we ourselves are still strong. Samson is a warning and a mirror. But the chapter ends not with his failure but with his prayer, and with the fact that God heard it. Even spectacular failure is not the final word.',

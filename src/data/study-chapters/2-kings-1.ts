@@ -17,7 +17,7 @@ export const KINGS_2_1: RichChapterContent = {
   bookName: '2 Kings',
   chapter: 1,
 
-  estimatedMinutes: { 5: 4, 10: 9, 15: 13 },
+  estimatedMinutes: { beginner: 4, intermediate: 9, deep: 13 },
   intros: [
     'The book of 2 Kings opens with a kingdom in disarray. King Ahab is dead, his dynasty crumbling, and his son Ahaziah has taken the throne of Israel. But Ahaziah is not his father\'s equal. When he falls through a lattice in his upper chamber and lies gravely wounded, his first instinct is not to pray to the Lord who delivered his people from Egypt, but to send messengers to Baal-zebub, the god of Ekron — a foreign deity whose very name is a parody, "lord of the flies."',
     'But the Lord speaks to Elijah the prophet, and Elijah goes to meet the king\'s messengers with a question that cuts to the heart of covenant: "Is it not because there is not a God in Israel that ye go to enquire of Baal-zebub?" What follows is a display of divine authority that burns across three captains — and a lesson in the difference between defiance and humility, between those who cling to power and those who bow before it.',

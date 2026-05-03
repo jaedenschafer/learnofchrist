@@ -15,7 +15,7 @@ export const SAMUEL_1_17: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 17,
 
-  estimatedMinutes: { 5: 12, 10: 23, 15: 27 },
+  estimatedMinutes: { beginner: 12, intermediate: 23, deep: 27 },
   intros: [
     'The Philistines and Israel stand ready for war. Two armies face each other across the valley of Elah — Philistines on one mountain, Israel on another, with a valley between them. From the Philistine side comes Goliath of Gath, a man so tall he casts a shadow that swallows ordinary men. His armor weighs more than a man. His spear is like a weaver&apos;s beam. He is the Philistine champion, a warrior of war from his youth, and he cries out to Israel: "Give me a man, that we may fight together." No one answers. Israel is dismayed, greatly afraid.',
     'But there is a boy in the camp — the youngest son of Jesse, left behind to tend the sheep. His name is David. And when David hears Goliath&apos;s defiance, something stirs in him that is not fear. He sees a man defying the armies of the living God. And he knows: the battle does not belong to Goliath. It belongs to the Lord.',

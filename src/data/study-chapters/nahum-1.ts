@@ -11,7 +11,7 @@ export const NAHUM_1: RichChapterContent = {
   bookName: 'Nahum',
   chapter: 1,
 
-  estimatedMinutes: { 5: 2, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
   intros: [
     'Nahum brings a word about Nineveh—the same city that repented at Jonah&apos;s preaching. But time has passed, and Nineveh has returned to her wickedness. She is called a bloody city, a city of lies and prey. Against her, God rises. His judgment is not arbitrary cruelty but divine justice against those who have made violence and exploitation their way of life.',
     'Yet the book opens with a profound paradox: "The Lord is good, a strong hold in the day of trouble." The God who judges Nineveh is good. The God who will destroy her is a refuge for those who turn to Him. The distinction is clear: those who flee to God for safety will find it. Those who oppose Him will find only judgment.',

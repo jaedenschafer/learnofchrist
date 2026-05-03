@@ -15,7 +15,7 @@ export const GENESIS_16: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 16,
 
-  estimatedMinutes: { 5: 5, 10: 8, 15: 11 },
+  estimatedMinutes: { beginner: 5, intermediate: 8, deep: 11 },
   intros: [
     'Genesis 15 closed with God making a covenant with Abram: your offspring will be more numerous than the stars. Genesis 16 opens ten years later. Sarai is still childless. The promise sits in the air, unborn. And Sarai, tired of waiting, decides to take matters into her own hands. What she does makes sense by the customs of the ancient Near East — a servant-surrogacy was a recognized way for a barren wife to build a family. But making sense and making peace are different things. Hagar will pay the cost of Sarai\'s impatience.',
     'Yet this chapter belongs to Hagar. She is the one who runs, the one God finds, the one who speaks with God and names Him. Before Moses at the burning bush, before any priest at an altar, before any king in a temple, Hagar — a pregnant slave woman alone in the wilderness — becomes the first person in Scripture to give God a name. *El Roi*: "Thou God seest me." The chapter is a portrait of the unseen made visible, and the God who sees those no one else looks at.',

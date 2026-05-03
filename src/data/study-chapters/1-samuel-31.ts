@@ -17,7 +17,7 @@ export const SAMUEL_1_31: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 31,
 
-  estimatedMinutes: { 5: 4, 10: 9, 15: 11 },
+  estimatedMinutes: { beginner: 4, intermediate: 9, deep: 11 },
   intros: [
     'The book of Samuel has been the story of a kingdom divided — of a king who refused to listen, of a prophet who grieved the road that king chose, of a young man waiting in exile for a throne that was always his. Now the story reaches its end. Saul has been hunting David across the wilderness. The Philistines have been gathering. And on the mountain of Gilboa, everything that Saul built falls to dust.',
     'First Samuel ends not with David crowned, not with Saul deposed in peace, but with the death of a king who would not obey. Yet even in that ending, there is grace — for the men who once served Saul, broken and defeated as they were, remember who he was before fear took him. They come by night, when enemies surround them, to burn his body and bury his bones with honor. That is the last light in Saul&apos;s story: that someone remembered the man he had been.',

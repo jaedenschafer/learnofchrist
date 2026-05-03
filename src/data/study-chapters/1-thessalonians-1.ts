@@ -14,7 +14,7 @@ export const FIRST_THESSALONIANS_1: RichChapterContent = {
   bookName: '1 Thessalonians',
   chapter: 1,
 
-  estimatedMinutes: { 5: 5, 10: 9, 15: 11 },
+  estimatedMinutes: { beginner: 5, intermediate: 9, deep: 11 },
   intros: [
     'Paul addresses a young church born in difficulty. He had been driven out of Thessalonica by opposition, yet the church remained, and grew. This opening chapter is Paul&apos;s thanksgiving for their steadfastness. They have faith. They have love. They have hope. And they have done something remarkable: they have turned to God from idols.',
     'The Thessalonians became believers in the midst of a pagan world. They rejected the gods of their ancestors. They rejected the spiritual comfort of idolatry. And they chose instead to wait for Jesus Christ—a figure they had never seen, in a kingdom that was not yet visible. This is the shape of conversion. Not an intellectual shift alone, but a complete reorientation: from false gods to the true God, from waiting for nothing to waiting for Him.',

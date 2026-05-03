@@ -14,7 +14,7 @@ export const PHILIPPIANS_1: RichChapterContent = {
   bookName: 'Philippians',
   chapter: 1,
 
-  estimatedMinutes: { 5: 9, 10: 12, 15: 17 },
+  estimatedMinutes: { beginner: 9, intermediate: 12, deep: 17 },
   intros: [
     'Paul writes to the Philippians from a Roman prison, awaiting trial. The charge is uncertain. Death is possible. Yet he opens not with fear but with joy: "I rejoice, yea, and will rejoice." This is not denial. This is what happens when a human being discovers that Christ is more real than circumstance.',
     'Philippians 1 reveals that Paul&apos;s chief concern is not his own safety or comfort. It is the advance of the gospel. Whether he lives or dies, whether he is released or condemned, the gospel moves forward. And for a believer who grasps this truth—that Christ is greater than circumstance—indestructible joy becomes possible.',

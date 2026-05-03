@@ -14,7 +14,7 @@ export const COLOSSIANS_3: RichChapterContent = {
   bookName: 'Colossians',
   chapter: 3,
 
-  estimatedMinutes: { 5: 13, 10: 25, 15: 36 },
+  estimatedMinutes: { beginner: 13, intermediate: 25, deep: 36 },
   intros: [
     'Colossians 3 opens with the hardest word in Scripture: already. You are risen with Christ—not someday, not when you are holy enough, but now. Your life is hidden with Christ in God, secure beyond any power on earth to unearth. From this unshakeable foundation, Paul draws a conclusion that will reshape your entire life: therefore, your way of living must match the resurrection reality you already inhabit.',
     'The chapter is the bridge between doctrine and daily life. Paul does not say "try harder to be good." He says "you are dead—therefore recognize it, and live like it." You have put off the old man, the self shaped by sin and death. You have put on the new man, who is being renewed in the knowledge of God. From household to workplace to secret thought, everything follows from that single truth: Christ is your life.',

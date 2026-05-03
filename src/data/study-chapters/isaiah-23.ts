@@ -14,7 +14,7 @@ export const ISAIAH_23: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 23,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 5 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
   intros: [
     'Tyre was the jewel of Phoenicia—a city built on an island, renowned for its traders, its purple dye, its ships that traveled the known world. It was a center of commerce and wealth, a symbol of human enterprise and mercantile success. Yet Isaiah announces its fall with the same inexorable judgment he pronounces on every power that rises without reference to God.',
     'The chapter teaches a simple but profound truth: no human achievement is permanent. The city that seemed secure in its prosperity, that drew its confidence from its traders and ships, will be brought to nothing. The pride that builds towers of achievement and gathers wealth across the seas will be humbled before the God who reduces all earthly glory to dust.',

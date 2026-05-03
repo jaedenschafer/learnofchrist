@@ -14,7 +14,7 @@ export const PROVERBS_11: RichChapterContent = {
   bookName: 'Proverbs',
   chapter: 11,
 
-  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
   intros: [
     'The eleventh chapter continues Solomon&apos;s collection of pithy sayings, now focusing on pride, integrity, and the nature of genuine success. The chapter opens with the claim that pride precedes shame, and honor follows those who are humble. It moves through various domains—commerce, conduct, speech, legacy—showing how wisdom and foolishness play out in the fabric of everyday life.',
     'One saying stands out for its moral weight: "He that winneth souls is wise." This is not merely about personal success or spiritual conquest. It is a claim that the highest wisdom is found in bringing others into alignment with truth, in leading them away from folly toward life. The person who spends their energy on the salvation of others is engaged in the highest work.',

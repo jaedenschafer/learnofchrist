@@ -11,7 +11,7 @@ export const NUMBERS_12: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 12,
 
-  estimatedMinutes: { 5: 5, 10: 9, 15: 10 },
+  estimatedMinutes: { beginner: 5, intermediate: 9, deep: 10 },
   intros: [
     'Miriam and Aaron speak against Moses because of his Cushite wife — an Ethiopian woman. But the text reveals the deeper complaint: "Hath the LORD indeed spoken only by Moses? hath he not spoken also by us?" The issue is not about race; it is about jealousy of Moses\'s unique role in God\'s plan.',
     'God calls all three to the tabernacle and defends Moses with unmistakable clarity: "With him will I speak mouth to mouth, even apparently, and not in dark speeches." Miriam is struck with leprosy, white as snow. The chapter is only 16 verses, but it teaches what happens when we resent God\'s choice of leaders — and what intercession looks like when we refuse to return that resentment.',

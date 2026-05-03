@@ -4,7 +4,7 @@ export const JUDGES_11: RichChapterContent = {
   bookSlug: 'judges',
   bookName: 'Judges',
   chapter: 11,
-  estimatedMinutes: { 5: 3, 10: 10, 15: 13 },
+  estimatedMinutes: { beginner: 3, intermediate: 10, deep: 13 },
   intros: [
     'Jephthah the Gileadite was born of a harlot and expelled from his father&apos;s house. Yet when Israel faced invasion from Ammon, the elders called upon him as their only hope. His rise from the margins mirrors the pattern Scripture establishes: God&apos;s deliverers often come from rejected places. But Jephthah&apos;s story darkens. A vow made in the heat of battle will cost him everything he loves—a chapter that asks hard questions about rash speech, the binding weight of words, and the faith of those who are caught in the consequences of others&apos; choices.',
     'This is also a chapter that features in Hebrews 11 among the giants of faith, even as the story itself feels like a tragedy. The contrast is unsettling and teaches us that God&apos;s acceptance of our faith does not mean He endorses every choice we make.',

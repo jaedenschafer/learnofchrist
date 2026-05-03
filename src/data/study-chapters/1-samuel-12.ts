@@ -20,7 +20,7 @@ export const SAMUEL_1_12: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 12,
 
-  estimatedMinutes: { 5: 7, 10: 13, 15: 17 },
+  estimatedMinutes: { beginner: 7, intermediate: 13, deep: 17 },
   intros: [
     'Samuel has been Israel&apos;s judge for decades. He has led them out of pagan worship, restored their trust in God, and shown them the difference between a leader who serves the Lord and one who serves himself. But now, at his life&apos;s threshold, the people have asked for a king. Samuel has anointed Saul with his own hands. And before he steps aside, Samuel stands before all Israel and offers his farewell address.',
     'This is a chapter about integrity, accountability, and what it means to lead well. Samuel invites the people to examine his record. Then he rehearses God&apos;s entire history with Israel — a pattern of covenant faithfulness that will become the foundation for understanding the gospel itself. And when thunder shakes the harvest, God Himself bears witness to the truth Samuel has spoken. The chapter ends not in judgment but in renewed commitment: Samuel promises to keep praying for a people he is releasing to a new form of rule.',

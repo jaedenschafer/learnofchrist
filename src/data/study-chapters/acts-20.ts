@@ -19,7 +19,7 @@ export const ACTS_20: RichChapterContent = {
   bookName: 'Acts',
   chapter: 20,
 
-  estimatedMinutes: { 5: 10, 10: 21, 15: 27 },
+  estimatedMinutes: { beginner: 10, intermediate: 21, deep: 27 },
   intros: [
     'Paul is traveling through Macedonia and Greece, visiting the churches he has planted. His companions are with him—men from Thessalonica, Berea, Galatia, Asia, and beyond. Everywhere he goes, he strengthens the disciples, his presence a kind of visible ministry of encouragement. But as he travels, something is changing inside him. The Spirit has been telling him for weeks that bonds and afflictions await in Jerusalem. He cannot turn back. He cannot protect himself. He is bound in spirit toward a fate he cannot escape.',
     'In Troas, he speaks to the disciples from evening until midnight. A young man named Eutychus sits in an open window, listening. Sleep overtakes him. He falls three stories to the ground and is taken up dead. Paul goes down, lies on him, and embraces him. "Trouble not yourselves," he says, "his life is in him." The disciples bring the young man alive, and the company is not a little comforted. Death has yielded. The power of resurrection flows through Paul&apos;s obedience.',

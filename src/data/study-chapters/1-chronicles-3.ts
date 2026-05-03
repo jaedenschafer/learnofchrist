@@ -17,7 +17,7 @@ export const CHRONICLES_1_3: RichChapterContent = {
   bookName: '1 Chronicles',
   chapter: 3,
 
-  estimatedMinutes: { 5: 3, 10: 7, 15: 11 },
+  estimatedMinutes: { beginner: 3, intermediate: 7, deep: 11 },
   intros: [
     'The book of 1 Chronicles is genealogy — bloodlines, lineages, family records stretching from Adam to the Chronicler&apos;s own day. But genealogy in Scripture is not mere ancestry. It is the thread of God&apos;s purpose woven through history. And in 1 Chronicles 3, we encounter the genealogy that matters most to Israel: the line of David.',
     'David&apos;s sons are born to him in Hebron, then in Jerusalem. Some will die in obscurity; one, Solomon, will build the temple. Then comes the succession of kings — the good ones and the wicked, the faithful and the faithless — down through the exile itself. Yet even in exile, even when a pagan empire has conquered Judah and burned the temple, the line persists. Zerubbabel leads the return, and his descendants continue. Israel can be defeated, the monarchy can fall, the temple can be destroyed — but the Davidic line cannot. That is the promise. That is what the genealogy preserves.',

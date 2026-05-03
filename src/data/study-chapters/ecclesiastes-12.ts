@@ -16,7 +16,7 @@ export const ECCLESIASTES_12: RichChapterContent = {
   bookName: 'Ecclesiastes',
   chapter: 12,
 
-  estimatedMinutes: { 5: 1, 10: 5, 15: 7 },
+  estimatedMinutes: { beginner: 1, intermediate: 5, deep: 7 },
   intros: [
     'Ecclesiastes reaches its conclusion with an urgent call: Remember your Creator now, in youth, before the years come when you have no pleasure in life. The Preacher then paints a poetic and terrifying portrait of age. The light grows dim. The keepers of the house (hands) tremble. The strong men (legs) bow. The grinders (teeth) cease because they are few. All flesh grows old. And finally, "man goeth to his long home, and the mourners go about the streets."',
     'And then, after 11 chapters of describing vanity, futility, the inability to find lasting meaning in pleasure or work or wisdom—the Preacher concludes with a radical simplicity: "Fear God, and keep his commandments: for this is the whole duty of man." Everything else—all the striving, all the building, all the accumulation—is vanity unless it is grounded in this one thing: remembering the Creator and keeping His commandments. The whole point of Ecclesiastes is to strip away all illusions and bring us to this single truth.',

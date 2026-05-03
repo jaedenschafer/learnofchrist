@@ -19,7 +19,7 @@ export const CHRONICLES_1_29: RichChapterContent = {
   bookName: '1 Chronicles',
   chapter: 29,
 
-  estimatedMinutes: { 5: 6, 10: 14, 15: 19 },
+  estimatedMinutes: { beginner: 6, intermediate: 14, deep: 19 },
   intros: [
     'The book of 1 Chronicles closes with David in his final season — not in weakness, but in a kind of sacred completion. He has gathered all Israel at Jerusalem. Solomon, his son, has been chosen by God to build the house of the Lord. But before the kingdom passes entirely to the younger generation, David speaks to the assembled people with words that reveal the heart of a man who has spent a lifetime serving the God of heaven.',
     'What follows is one of Scripture&apos;s richest passages on stewardship, covenant devotion, and the proper relationship between God and His people. David challenges the congregation: "Who is willing?" And the people respond with such abundance that the text notes they rejoiced with perfect heart. Then comes David&apos;s prayer — a model of theological depth and pastoral tenderness, acknowledging that all wealth, all power, all honor flow from God&apos;s hand, and that we are merely stewards of what was never truly ours. In this final chapter, we see how a great king dies: not grasping, not afraid, but at peace in the knowledge that his work has been unto the Lord.',

@@ -15,7 +15,7 @@ export const SECOND_THESSALONIANS_1: RichChapterContent = {
   bookName: '2 Thessalonians',
   chapter: 1,
 
-  estimatedMinutes: { 5: 6, 10: 12, 15: 16 },
+  estimatedMinutes: { beginner: 6, intermediate: 12, deep: 16 },
   intros: [
     'The Thessalonians face opposition for their faith. But Paul does not begin his letter with comfort alone—he begins by noticing what persecution cannot destroy. Their faith grows. Their love multiplies. They persist. And over the course of this first chapter, Paul unfolds a vision that reorders everything: when Christ is revealed from heaven, the persecutors will face their own tribulation, the afflicted will find rest, and Christ&apos;s glory will shine through His faithful people.',
     'This is not a letter about fear, but about hope. Not naive hope that suffering will not come, but defiant hope grounded in the character of God. God is righteous. God will repay. The parousia—the coming of the Lord Jesus—is not a distant theological idea for Paul. It is the horizon that gives meaning to present suffering. Those who oppose the gospel will be punished with eternal separation from God&apos;s presence. And those who endure will be counted worthy of the kingdom of God, for which they now suffer.',

@@ -20,7 +20,7 @@ export const KINGS_1_19: RichChapterContent = {
   bookName: '1 Kings',
   chapter: 19,
 
-  estimatedMinutes: { 5: 7, 10: 15, 15: 20 },
+  estimatedMinutes: { beginner: 7, intermediate: 15, deep: 20 },
   intros: [
     'The prophet Elijah has just experienced one of the most dramatic moments in Scripture. At Mount Carmel, before the entire nation of Israel, he challenged the prophets of Baal to a contest: which god would send fire from heaven to consume the altar? For hours, the prophets of Baal called out, cutting themselves, crying aloud — and nothing answered. Then Elijah offered his sacrifice, and the fire of the Lord fell from heaven, consuming not only the offering, but the altar itself, the stones, the dust, and all the water in the trench. The people saw it, and they cried out: "The Lord, he is the God! The Lord, he is the God!" And Elijah, in that moment of vindication, commanded the people to seize the false prophets — and all 450 of them were put to the sword.',
     'It was a perfect victory. A moment of undeniable triumph. And yet, in the very next chapter, we find the prophet fleeing for his life, broken and alone, asking God to let him die.',

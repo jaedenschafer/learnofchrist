@@ -13,7 +13,7 @@ export const PROVERBS_28: RichChapterContent = {
   bookName: 'Proverbs',
   chapter: 28,
 
-  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
   intros: [
     'Proverbs 28 opens with the fundamental choice: cover your sins or confess them. The man who covers his sins shall not prosper. He cannot. The weight of hiding is too great. But the man who confesses and forsakes them shall have mercy. This is not negotiation. This is the way the world actually works, the way God has structured it. Honesty opens the path to grace. Hiding seals you off from it.',
   ],

@@ -8,7 +8,7 @@ export const ZECHARIAH_14: RichChapterContent = {
   bookName: 'Zechariah',
   chapter: 14,
 
-  estimatedMinutes: { 5: 2, 10: 3, 15: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
   intros: [
     'Zechariah closes with a vision of the Day of the Lord—the final triumph of God over all opposition. Nations will gather against Jerusalem, but God will stand and fight. His feet will stand upon the Mount of Olives. And then comes the ultimate declaration: "The Lord shall be king over all the earth: in that day shall there be one Lord, and his name one." Christ&apos;s return and universal reign are the fulfillment of this vision.',
   ],

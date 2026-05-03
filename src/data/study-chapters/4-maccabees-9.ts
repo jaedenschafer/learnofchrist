@@ -19,7 +19,7 @@ export const FOURTH_MACCABEES_9: RichChapterContent = {
   bookName: '4 Maccabees',
   chapter: 9,
 
-  estimatedMinutes: { 5: 8, 10: 17, 15: 21 },
+  estimatedMinutes: { beginner: 8, intermediate: 17, deep: 21 },
   intros: [
     'The first of the seven brothers is brought to the torture chamber. The king demands that he renounce his faith and eat unclean meat. The brother refuses. What follows is not speculation about virtue. It is the sight of a human body torn apart—and a human reason refusing to break.',
     'In this chapter, the author answers a question that has haunted every age: Does virtue matter more than survival? Does devotion to God matter more than your own flesh? The first brother answers with his body, with his blood, with the last breath drawn from his broken frame: Yes. God matters more. The law matters more. My reason, devoted to Him, is stronger than all the executioner&apos;s tools.',

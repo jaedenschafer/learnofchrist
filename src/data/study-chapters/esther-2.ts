@@ -18,7 +18,7 @@ export const ESTHER_2: RichChapterContent = {
   bookName: 'Esther',
   chapter: 2,
 
-  estimatedMinutes: { 5: 3, 10: 9, 15: 12 },
+  estimatedMinutes: { beginner: 3, intermediate: 9, deep: 12 },
   intros: [
     'The king&apos;s anger cools, and his servants bring him counsel: seek throughout the kingdom for a fair young virgin who will be pleasing in the king&apos;s sight. Begin a search. Gather the maidens. Thus begins a great gathering — women from every province of the empire summoned to the palace to be made ready, each hoping to find favor in the eyes of the king and to become the next queen of Persia.',
     'Among them is a young woman named Hadassah — though she will be known to the king and the court as Esther. She is a Jew, an orphan raised by her cousin Mordecai. She asks for nothing more than what Hegai, the king&apos;s chamberlain, thinks she should have, and she finds favor in everyone&apos;s eyes. The king loves her more than all the other women, and she is crowned queen. Yet Esther conceals her identity. No one in the palace knows that their queen is Jewish, or that she is the ward of a man whose faithfulness to the king will soon come to light. In this chapter, we see how an orphan girl, stripped of family and home, is chosen for a place of power — and how, in that place, she will prove faithful to the God her guardian serves.',

@@ -14,7 +14,7 @@ export const ISAIAH_51: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 51,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'When God\'s people are overwhelmed by suffering, they need perspective. They need to remember who they are and whose they are. Isaiah 51 begins by calling the people to look backward to Abraham and Sarah, to remember that God called one and blessed them. That same God still stands. Though the current tribulation feels unending, the Lord\'s salvation is near. His redemption will not delay. The chapter is a pastoral word to a people in exile, reminding them that the God who began the covenant will complete it.',
   ],

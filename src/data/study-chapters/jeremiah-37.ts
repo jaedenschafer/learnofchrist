@@ -13,7 +13,7 @@ export const JEREMIAH_37: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 37,
 
-  estimatedMinutes: { 5: 1, 10: 2, 15: 2 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 2 },
   intros: [
     'Jeremiah has been speaking God&apos;s word for forty years. He has been beaten, imprisoned, threatened with death. His message has not wavered: Jerusalem will fall. Babylon will prevail. Yet the city&apos;s leaders keep hoping for escape, for political maneuvering to preserve the kingdom.',
     'Now Jeremiah is imprisoned. The city is under siege. And King Zedekiah, desperate, sends for the prophet in secret. He wants to hear from Jeremiah. He wants to know if God will deliver them. But the word Jeremiah speaks is the same word he has spoken all along: you will not escape. The king has imprisoned the prophet, yet he still seeks him out. The prophet is in chains, yet his message is unbound.',

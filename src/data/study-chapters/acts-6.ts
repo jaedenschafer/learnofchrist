@@ -14,7 +14,7 @@ export const ACTS_6: RichChapterContent = {
   bookName: 'Acts',
   chapter: 6,
 
-  estimatedMinutes: { 5: 6, 10: 11, 15: 16 },
+  estimatedMinutes: { beginner: 6, intermediate: 11, deep: 16 },
   intros: [
     'The apostolic church has swollen from a few hundred to thousands in mere weeks. The growth is a sign of the Spirit&apos;s power. But growth brings a problem: the daily distribution of food and aid to widows—the vulnerable at the heart of the Christian community—is being overlooked. Some widows are being neglected. The apostles could attempt to manage it themselves, but they recognize something the church would need for centuries to come: leadership means delegation, not domination.',
     'They call the multitude together and propose that seven men of honest report, full of the Holy Spirit and wisdom, be chosen to oversee this work. It is a beautiful moment: the apostles affirm that service to the poor is not a second-class task. The Spirit fills the servants as fully as He fills the preachers. Stephen is chosen—a man full of faith and power. But within verses, he is also described as doing great wonders and signs among the people. His appointment to serve at tables will become the doorway to something much larger.',

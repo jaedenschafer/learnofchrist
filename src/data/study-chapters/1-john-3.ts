@@ -14,7 +14,7 @@ export const FIRST_JOHN_3: RichChapterContent = {
   bookName: '1 John',
   chapter: 3,
 
-  estimatedMinutes: { 5: 13, 10: 25, 15: 38 },
+  estimatedMinutes: { beginner: 13, intermediate: 25, deep: 38 },
   intros: [
     'John opens chapter 3 with one of Scripture\'s most staggering declarations: "Behold, what manner of love." The Father has given us a status we do not deserve and cannot earn—we are called the sons of God. This is not poetry or aspiration. This is who you are, here and now, if you believe on Jesus. You belong to God\'s family.',
     'But adoption into His family is not the end of the story—it is the beginning. When He appears, what you shall be will exceed even this. You will see Him as He is. You will be like Him. That future hope, properly believed, transforms you now. It makes you pure. And the mark of belonging to God is unmistakable: you love one another. Love is not optional for God\'s children. It is the evidence that you have passed from death to life.',

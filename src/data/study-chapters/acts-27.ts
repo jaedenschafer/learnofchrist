@@ -24,7 +24,7 @@ export const ACTS_27: RichChapterContent = {
   bookName: 'Acts',
   chapter: 27,
 
-  estimatedMinutes: { 5: 7, 10: 14, 15: 20 },
+  estimatedMinutes: { beginner: 7, intermediate: 14, deep: 20 },
   intros: [
     'Acts 27 is the longest chapter of suspense in Acts. Luke is a meticulous reporter—he counts the days, the fathoms, the souls on the ship. He names the winds, marks the hours, notes the hardships. But through every detail runs something the crew cannot see: a man on the ship whose God has already spoken. Paul has not been promised escape. He has been promised something harder: that his life will be spared so that he can stand before Caesar. And in that promise lies the promise for everyone with him.',
     'The voyage is a portrait of faith in the dark. The crew has maps, experience, and seamanship. Paul has only a word from God—one that turns out to be true when the maps and experience fail. The punchline comes when Paul takes bread, gives thanks before them all, and eats. In that moment—in the middle of the wreck, with 276 souls about to face the sea—the gospel breaks through. Bread offered in the storm. A man saying thank you to God when everything is being lost. That is what faith looks like when the world is sinking.',

@@ -14,7 +14,7 @@ export const PSALMS_83: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 83,
 
-  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
   intros: [
     'Psalm 83 names a specific coalition—a league of enemies united against Israel. The nations have come together with a single purpose: to destroy God&apos;s people. They have counseled craftily, determining that "Come, and let us cut them off from being a nation; that the name of Israel may be no more in remembrance." This is not a mere military conflict. This is a conspiracy to erase a people, to remove them from history itself.',
     'Yet the psalmist&apos;s response is not despair. It is a cry to God: "Keep not thou silence, O God." Do not remain removed. Do not stand back from this attempt to destroy what is yours. The psalmist trusts that God will not permit His anointed to be erased, that every alliance against God&apos;s purposes will dissolve, that God alone will be exalted over all the earth.',

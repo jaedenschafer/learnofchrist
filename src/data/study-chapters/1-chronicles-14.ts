@@ -18,7 +18,7 @@ export const CHRONICLES_1_14: RichChapterContent = {
   bookName: '1 Chronicles',
   chapter: 14,
 
-  estimatedMinutes: { 5: 5, 10: 10, 15: 15 },
+  estimatedMinutes: { beginner: 5, intermediate: 10, deep: 15 },
   intros: [
     'David has been anointed king over all Israel. The kingdom is now his to rule. But a king must build — not just in his own house, but in the hearts of his people. When the king of Tyre hears of David&apos;s rise, he sends messengers with cedar timber, skilled workers, and materials to build David a palace. David perceives in this moment that the Lord has confirmed him as king, not for his own sake, but for the sake of his people. His kingdom is "lifted up on high" because of them.',
     'David takes more wives in Jerusalem and fathers many sons and daughters — among them, Solomon, who will build the temple his father cannot build. But peace brings a challenge: the Philistines, hearing of David&apos;s anointing, gather to destroy him. What follows is a masterclass in discernment. David will ask God twice, receive two different commands, and learn that a king must listen freshly to God in every circumstance. The kingdom is exalted; but its foundation remains constant dependence on the one who established it.',

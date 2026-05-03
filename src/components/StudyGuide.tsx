@@ -48,9 +48,9 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
     <>
       {/* Denomination Lens Banner — when active */}
       {perspective && (
-        <div className="bg-[#5856D6]/[0.04] border-l-[3px] border-[#5856D6]/30 rounded-2xl p-5">
+        <div className="bg-[color:var(--vesper-gold)]/[0.04] border-l-[3px] border-[color:var(--vesper-gold)]/30 rounded-2xl p-5">
           <div className="flex items-center gap-2 mb-2">
-            <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-[0.6875rem] font-semibold bg-[#5856D6]/[0.1] text-[#5856D6]">
+            <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-[0.6875rem] font-semibold bg-[color:var(--vesper-gold)]/[0.1] text-[color:var(--vesper-gold)]">
               {currentDenomination.label} Lens
             </span>
           </div>
@@ -62,9 +62,9 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
 
       {/* Key Verse — all levels */}
       {content && (
-        <div className="bg-[#007AFF]/[0.04] border-l-[3px] border-[#007AFF]/30 rounded-2xl p-6">
+        <div className="bg-[color:var(--vesper-gold)]/[0.04] border-l-[3px] border-[color:var(--vesper-gold)]/30 rounded-2xl p-6">
           <div className="flex items-center gap-2 mb-2">
-            <span className="pill bg-[#007AFF]/[0.08] text-[color:var(--color-primary)] text-sm">Key Verse</span>
+            <span className="pill bg-[color:var(--vesper-gold)]/[0.08] text-[color:var(--color-primary)] text-sm">Key Verse</span>
             <span className="text-sm font-medium text-[color:var(--color-tertiary-label)]">{content.keyVerse.reference}</span>
           </div>
           <p className="text-lg text-[color:var(--color-label)]/80 leading-relaxed italic">
@@ -101,8 +101,8 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
       {perspective && (level === 'intermediate' || level === 'deep') && (
         <div className="bg-[color:var(--color-surface)] rounded-2xl p-6 border border-[#5856D6]/10">
           <div className="flex items-center gap-2 mb-3">
-            <div className="w-7 h-7 rounded-lg bg-[#5856D6]/[0.1] flex items-center justify-center">
-              <svg className="w-3.5 h-3.5 text-[#5856D6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="w-7 h-7 rounded-lg bg-[color:var(--vesper-gold)]/[0.1] flex items-center justify-center">
+              <svg className="w-3.5 h-3.5 text-[color:var(--vesper-gold)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
               </svg>
@@ -112,8 +112,8 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
           <p className="text-[0.875rem] text-[color:var(--color-secondary-label)] leading-relaxed mb-4">{perspective.emphasis}</p>
 
           {/* Study Tip */}
-          <div className="bg-[#5856D6]/[0.04] rounded-xl p-4 mb-4">
-            <p className="text-[0.75rem] font-semibold text-[#5856D6] mb-1">Study Tip</p>
+          <div className="bg-[color:var(--vesper-gold)]/[0.04] rounded-xl p-4 mb-4">
+            <p className="text-[0.75rem] font-semibold text-[color:var(--vesper-gold)] mb-1">Study Tip</p>
             <p className="text-[0.8125rem] text-[color:var(--color-label)]/70 leading-relaxed">{perspective.studyTip}</p>
           </div>
 
@@ -123,7 +123,7 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
             <div className="space-y-1.5">
               {perspective.additionalReading.map((reading, i) => (
                 <div key={i} className="flex items-start gap-2">
-                  <svg className="w-3.5 h-3.5 text-[#5856D6] mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-3.5 h-3.5 text-[color:var(--vesper-gold)] mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                   </svg>
                   <p className="text-[0.8125rem] text-[color:var(--color-label)]/70 leading-snug">{reading}</p>
@@ -155,7 +155,7 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
           <h2 className="font-sans text-lg font-bold text-[color:var(--color-label)] mb-3">Connection to Christ</h2>
           <p className="text-base text-[color:var(--color-secondary-label)] leading-relaxed mb-3">{christConnection}</p>
           {!content && (
-            <div className="bg-[#007AFF]/[0.04] border-l-[3px] border-[#007AFF]/30 rounded-r-xl p-4">
+            <div className="bg-[color:var(--vesper-gold)]/[0.04] border-l-[3px] border-[color:var(--vesper-gold)]/30 rounded-r-xl p-4">
               <p className="scripture-quote text-base text-[color:var(--color-secondary-label)] leading-relaxed">
                 Jesus is the true source of faithfulness, the perfect response to God&apos;s word, and the embodiment of all spiritual truths presented throughout Scripture.
               </p>
@@ -194,7 +194,7 @@ export default function StudyGuide({ bookName, chapter, content }: StudyGuidePro
             <p className="text-base text-[color:var(--color-secondary-label)] leading-relaxed mb-3">
               Scripture interprets Scripture. The themes in {bookName} {chapter} echo and connect with passages throughout the Bible, forming a unified narrative of God&apos;s redemptive plan.
             </p>
-            <div className="bg-[#007AFF]/[0.04] border-l-[3px] border-[#007AFF]/30 rounded-r-xl p-4">
+            <div className="bg-[color:var(--vesper-gold)]/[0.04] border-l-[3px] border-[color:var(--vesper-gold)]/30 rounded-r-xl p-4">
               <p className="text-sm text-[color:var(--color-secondary-label)] leading-relaxed">
                 As you study, look for parallel passages, fulfilled prophecies, and recurring themes that tie this chapter to the broader biblical story.
               </p>

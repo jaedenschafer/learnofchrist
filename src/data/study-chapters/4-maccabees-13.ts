@@ -5,7 +5,7 @@ export const FOURTH_MACCABEES_13: RichChapterContent = {
   bookName: '4 Maccabees',
   chapter: 13,
 
-  estimatedMinutes: { 5: 4, 10: 8, 15: 12 },
+  estimatedMinutes: { beginner: 4, intermediate: 8, deep: 12 },
   intros: [
     'As the seven brothers moved toward martyrdom, the author of 4 Maccabees pauses to marvel at their bond. These seven were not isolated sufferers, each facing death alone. They were woven together—by the law they cherished, by the piety of their parents, by the sheer fact of being brothers in flesh and faith. Each brother&apos;s martyrdom strengthened the next. Their love was not sentimental; it was a thing of sinew and sacrifice, forged in shared upbringing and deepened through shared agony.',
     'This chapter invites you into something the world often dismisses: the power of mutual love. Not love that leaves you untested, but love that holds you steady as you pass through fire.',

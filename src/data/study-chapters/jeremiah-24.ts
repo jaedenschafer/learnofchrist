@@ -14,7 +14,7 @@ export const JEREMIAH_24: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 24,
 
-  estimatedMinutes: { 5: 3, 10: 5, 15: 6 },
+  estimatedMinutes: { beginner: 3, intermediate: 5, deep: 6 },
   intros: [
     'This is a chapter about God&apos;s strange mercy: those carried away into exile are the good figs. Those left behind in the land are the bad figs, rotten and inedible. The logic is reversed. The people left in Jerusalem think themselves blessed, but they are abandoned to judgment. The people in Babylon think themselves destroyed, but they are preserved. God&apos;s favor rests on the exiled ones, the ones who have been plucked from the land and carried away.',
     'The vision teaches that exile is not final destruction; it is refinement. In exile, God will give the people hearts to know Him. They will be His people, and He will be their God. Exile becomes the place where God restores His relationship with His people, teaching them to seek Him with all their hearts.',

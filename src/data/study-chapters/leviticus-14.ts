@@ -16,7 +16,7 @@ export const LEVITICUS_14: RichChapterContent = {
   bookName: 'Leviticus',
   chapter: 14,
 
-  estimatedMinutes: { 5: 12, 10: 16, 15: 19 },
+  estimatedMinutes: { beginner: 12, intermediate: 16, deep: 19 },
   intros: [
     'Leviticus 14 answers a question: what happens after someone is healed? Not what happens during the illness — chapter 13 handles diagnosis and quarantine. This chapter is about the road back. The ritual of re-entry.',
     'The leper has been healed by God. But healing is not the same as restoration. The community has lost them for weeks, maybe months. They have no way to know the person is safe. They have no ritual to mark the boundary between "contagious" and "clean," between exile and belonging. Leviticus 14 provides exactly that — a clear, public, graceful way home.',

@@ -5,7 +5,7 @@ export const JUDGES_19: RichChapterContent = {
   bookName: 'Judges',
   chapter: 19,
 
-  estimatedMinutes: { 5: 5, 10: 10, 15: 11 },
+  estimatedMinutes: { beginner: 5, intermediate: 10, deep: 11 },
   intros: [
     'Judges 19 is one of Scripture&apos;s darkest passages. Without commentary, the text reports what happened in Gibeah: a Levite&apos;s concubine was gang-raped by men "of Belial" (worthless men), and the Levite responded not with rescue but with an act of violence—cutting her body into twelve pieces and sending them to Israel&apos;s tribes as a summons to judgment.',
     'The chapter echoes Genesis 19 (Sodom&apos;s attempted sexual assault on Lot&apos;s guests) but with a horrifying difference: this time the atrocity happens inside Israel, not outside it. The bookend phrase—"in those days there was no king in Israel"—signals that without God&apos;s rule, depravity knows no bounds, even among the covenant people.',

@@ -15,7 +15,7 @@ export const PHILIPPIANS_2: RichChapterContent = {
   bookName: 'Philippians',
   chapter: 2,
 
-  estimatedMinutes: { 5: 9, 10: 20, 15: 27 },
+  estimatedMinutes: { beginner: 9, intermediate: 20, deep: 27 },
   intros: [
     'Philippians 2 opens with consolation, comfort, and an appeal: if you are a believer in Christ, resolve disputes. Cultivate humility. Regard others as better than yourselves. Then Paul offers the reason for this call—the ultimate example. Christ.',
     'What is the shape of Christ&apos;s example? Radical humiliation. He who was in the form of God, equal with the Father, made himself of no reputation. He took upon Him the form of a servant. He humbled Himself and became obedient unto death, even the death of the cross. But the passage does not end there. After the cross comes resurrection. After the grave comes exaltation. "Every knee should bow...every tongue should confess that Jesus Christ is Lord." The self-emptying is vindicated. The lowest point becomes the highest. This is the logic of the kingdom.',

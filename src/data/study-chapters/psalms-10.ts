@@ -15,7 +15,7 @@ export const PSALMS_10: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 10,
 
-  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
   intros: [
     'Psalm 10 grapples with the silence of God. Why does God hide His face? Why does He seem distant precisely when His help is needed most? The psalm does not begin with theological explanation but with the raw cry of someone in need. It then describes in brutal detail the behavior of the wicked—their cruelty toward the poor, their arrogance, their assumption that God does not see. Yet the psalm does not end in despair. It ends in affirmation: God sees. God judges. God is King.',
     'This is a psalm for those times when faith falters because God seems far away. It validates the question without leaving the questioner in doubt. God&apos;s hiddenness is real. But it is not permanent. It is not indifference. It is the setting before the sunrise.',

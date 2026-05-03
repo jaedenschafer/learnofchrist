@@ -17,7 +17,7 @@ export const JOB_12: RichChapterContent = {
   bookName: 'Job',
   chapter: 12,
 
-  estimatedMinutes: { 5: 1, 10: 4, 15: 6 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
   intros: [
     'Job has now heard from all three friends. Each has tried to convince him that his suffering must be the result of his sin. Each has assured him that if he will repent and seek God, he will be restored. And each has spoken with absolute certainty, as though the ways of God were transparent, as though the connection between sin and suffering were obvious and universal. Job responds to all of them at once, with a sarcasm so bitter it cuts like a blade.',
     '"No doubt but ye are the people, and wisdom shall die with you." This is Job&apos;s response. He is saying that his friends seem to believe that all wisdom lives in them, that when they die, wisdom will die with them. He is mocking their assumption that they understand God better than Job does, that they can see the truth about Job&apos;s situation more clearly than Job himself can.',

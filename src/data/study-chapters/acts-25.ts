@@ -22,7 +22,7 @@ export const ACTS_25: RichChapterContent = {
   bookName: 'Acts',
   chapter: 25,
 
-  estimatedMinutes: { 5: 8, 10: 13, 15: 17 },
+  estimatedMinutes: { beginner: 8, intermediate: 13, deep: 17 },
   intros: [
     'Festus inherits a case that Felix left unresolved. Paul has languished in Caesarea for two years, and the chief priests have not forgotten him. They press the new governor immediately, asking him to send Paul to Jerusalem — but the request masks a darker plan: they will ambush him on the road and kill him. Festus refuses, and the trial resumes at Caesarea. The chief priests bring their accusations. Paul stands and answers them. And then comes the moment that will change everything: Paul, facing a governor who is trying to appease the Jews, makes an appeal that reaches beyond Caesarea, beyond Festus, all the way to Rome itself.',
     'The appeal is "I appeal unto Caesar" — a right that every Roman citizen possessed. In that instant, the case passes out of Festus&apos;s hands. Paul will go to Rome, unaware that Christ has already told him he would bear witness there (Acts 23:11). Even his enemies, unwittingly, become the servants of Christ&apos;s will.',

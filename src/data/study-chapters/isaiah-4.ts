@@ -14,7 +14,7 @@ export const ISAIAH_4: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 4,
 
-  estimatedMinutes: { 5: 2, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
   intros: [
     'The darkness of judgment will not be the final word. Isaiah opens chapter 4 with the phrase "In that day"—a phrase that appears repeatedly throughout his prophecy, always signaling a turn toward hope. The judgment falls, but a remnant survives. Seven women will take hold of one man, asking only to bear his name and remove their reproach. And then the focus shifts: "In that day shall the branch of the Lord be beautiful and glorious, and the fruit of the earth shall be excellent and comely for them that are escaped of Israel."',
     'Here Isaiah introduces language that will echo through the New Testament: the Branch. This is not a sapling or a subsidiary thing. The Branch of the Lord is that which comes forth from the line of Jesse, that which grows from what appears to be dead or diminished wood. And this Branch is beautiful and glorious—the sole source of honor and restoration for those who remain. God will also establish a protective presence—a cloud by day and a fire by night—that recalls the exodus, the wilderness wandering, God&apos;s own protective dwelling with His people. In Christ, this promise finds its fulfillment.',

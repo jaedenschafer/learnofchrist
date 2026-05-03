@@ -33,11 +33,11 @@ minutes — close enough that we can call them 5 / 10 / 15. The UI shows the
 
 ## 2 — The default tagging rule
 
-Every block gets a `minTier: 5 | 10 | 15` derived from its `kind`. One pass of
+Every block gets a `minLevel: 5 | 10 | 15` derived from its `kind`. One pass of
 a script writes these defaults into every existing chapter file. Anything that
 needs a different tier than its default gets hand-edited per chapter.
 
-| Block kind   | Default `minTier` | Why                                                                  |
+| Block kind   | Default `minLevel` | Why                                                                  |
 |--------------|-------------------|----------------------------------------------------------------------|
 | `scripture`  | **5**             | The spine. Every verse, every tier — a confirmed product rule.        |
 | `christ`     | **5**             | The point. Christ Connections are the throughline of the whole site.  |
@@ -62,7 +62,7 @@ A small number of chapters genuinely need different defaults — for example,
 Genesis 22 (the binding of Isaac) needs its `christ` block at tier 10 instead
 of 5 because the Christ Connection there sits inside a longer commentary
 sequence and reads strangely on its own. The schema supports overrides per
-block (just set `minTier` explicitly on the block in the `.ts` file). The bulk
+block (just set `minLevel` explicitly on the block in the `.ts` file). The bulk
 script writes defaults; the override lives next to the prose.
 
 ### Why default-rule beats per-block manual
@@ -73,7 +73,7 @@ script writes defaults; the override lives next to the prose.
   scripture and the takeaway" stays true everywhere.
 - **Token cost:** zero rewrites for ≈90 % of chapters. We rewrite only when a
   default produces a chapter that reads broken — and even then we usually just
-  bump one block's `minTier`, not regenerate prose.
+  bump one block's `minLevel`, not regenerate prose.
 
 ---
 
@@ -81,21 +81,21 @@ script writes defaults; the override lives next to the prose.
 
 ```ts
 // types.ts
-export type DepthTier = 5 | 10 | 15;
+export type StudyLevel = 5 | 10 | 15;
 
 export type Block =
-  | { kind: 'scripture'; chapter: number; lines: VerseLine[]; minTier?: DepthTier }
-  | { kind: 'commentary'; id?: string; html: string; minTier?: DepthTier }
-  | { kind: 'hebrew';  id: string; title: string; script: string; translit: string; description: string; minTier?: DepthTier }
-  | { kind: 'greek';   id: string; title: string; script: string; translit: string; description: string; minTier?: DepthTier }
-  | { kind: 'christ';  id: string; title: string; html: string; minTier?: DepthTier }
-  | { kind: 'carry';   html: string; minTier?: DepthTier }
-  | { kind: 'reflection'; id: string; prompt: string; minTier?: DepthTier }
-  | { kind: 'artwork'; matchTitle?: RegExp; matchArtist?: RegExp; artworkSlug?: string; caption: string; minTier?: DepthTier }
-  | { kind: 'divider'; minTier?: DepthTier };
+  | { kind: 'scripture'; chapter: number; lines: VerseLine[]; minLevel?: StudyLevel }
+  | { kind: 'commentary'; id?: string; html: string; minLevel?: StudyLevel }
+  | { kind: 'hebrew';  id: string; title: string; script: string; translit: string; description: string; minLevel?: StudyLevel }
+  | { kind: 'greek';   id: string; title: string; script: string; translit: string; description: string; minLevel?: StudyLevel }
+  | { kind: 'christ';  id: string; title: string; html: string; minLevel?: StudyLevel }
+  | { kind: 'carry';   html: string; minLevel?: StudyLevel }
+  | { kind: 'reflection'; id: string; prompt: string; minLevel?: StudyLevel }
+  | { kind: 'artwork'; matchTitle?: RegExp; matchArtist?: RegExp; artworkSlug?: string; caption: string; minLevel?: StudyLevel }
+  | { kind: 'divider'; minLevel?: StudyLevel };
 
 // New helper for the renderer.
-export function defaultMinTier(kind: Block['kind']): DepthTier {
+export function defaultMinTier(kind: Block['kind']): StudyLevel {
   switch (kind) {
     case 'scripture':
     case 'christ':
@@ -109,11 +109,11 @@ export function defaultMinTier(kind: Block['kind']): DepthTier {
   }
 }
 
-export function effectiveMinTier(block: Block): DepthTier {
-  return block.minTier ?? defaultMinTier(block.kind);
+export function effectiveMinTier(block: Block): StudyLevel {
+  return block.minLevel ?? defaultMinTier(block.kind);
 }
 
-export function isVisibleAtTier(block: Block, tier: DepthTier): boolean {
+export function isVisibleAtTier(block: Block, tier: StudyLevel): boolean {
   return effectiveMinTier(block) <= tier;
 }
 ```
@@ -224,8 +224,8 @@ Visual placement (mockup, in words):
 Three layers, mirroring the pattern already used by `ReadingPrefsContext`,
 `TranslationContext`, and `DenominationContext`:
 
-1. **React context (`ReadingPrefsContext`):** add `depthTier: DepthTier` and
-   `setDepthTier`. Default `10` (Standard) for new sessions.
+1. **React context (`ReadingPrefsContext`):** add `depthTier: StudyLevel` and
+   `setStudyLevel`. Default `10` (Standard) for new sessions.
 2. **localStorage:** key `loc-depth-tier`, value `'5' | '10' | '15'`. Loaded in
    the existing `useEffect` that hydrates other prefs. Persists across page
    reloads and chapter navigation on the same device.
@@ -308,7 +308,7 @@ the data pipeline.
 A four-phase plan, each phase is shippable on its own and reversible.
 
 **Phase 1 — Schema, defaults, audit (no UI yet).**
-- Add `minTier` to the `Block` type with `?` so existing chapters compile
+- Add `minLevel` to the `Block` type with `?` so existing chapters compile
   unchanged.
 - Add `defaultMinTier`, `effectiveMinTier`, `isVisibleAtTier` helpers.
 - Write the audit/tag script that walks every chapter file, computes
@@ -323,7 +323,7 @@ A four-phase plan, each phase is shippable on its own and reversible.
 - Add a `?depth=5|10|15` query-param override so the team can preview each
   tier on every chapter without building UI yet. Spot-check 30–50 random
   chapters at each tier; flag the broken ones for per-block overrides.
-- Fix the broken ones by editing `minTier` on individual blocks. (Expectation:
+- Fix the broken ones by editing `minLevel` on individual blocks. (Expectation:
   fewer than 5 % of chapters need any override.)
 
 **Phase 3 — UI control + localStorage persistence.**
@@ -366,13 +366,13 @@ A four-phase plan, each phase is shippable on its own and reversible.
 
 Concrete file list for the implementation:
 
-- `src/data/study-chapters/types.ts` — add `DepthTier`, `minTier?`, helpers.
-- `src/data/study-chapters/*.ts` (×1247) — script-written `minTier` overrides
+- `src/data/study-chapters/types.ts` — add `StudyLevel`, `minLevel?`, helpers.
+- `src/data/study-chapters/*.ts` (×1247) — script-written `minLevel` overrides
   on a small number of blocks; `estimatedMinutes` on the chapter root.
 - `scripts/audit-and-tag-depth.ts` (new) — the bulk-tagging + estimate script.
 - `src/components/RichStudyGuide.tsx` — filter, anchor-strip, empty-section
   drop, scroll-anchor on tier change.
-- `src/components/DepthTierControl.tsx` (new) — the segmented control.
+- `src/components/StudyLevelControl.tsx` (new) — the segmented control.
 - `src/lib/ReadingPrefsContext.tsx` — `depthTier` state + localStorage.
 - `src/lib/supabase/user-prefs.ts` (new or extend existing) — read/write the
   `depth_tier` column.
@@ -387,7 +387,7 @@ Concrete file list for the implementation:
 
 ## TL;DR
 
-1. **Tag, don't rewrite.** A one-shot script puts `minTier` defaults on every
+1. **Tag, don't rewrite.** A one-shot script puts `minLevel` defaults on every
    block. Hand-edit only the ≈5 % of chapters where the default reads wrong.
 2. **Scripture is the spine.** All verses appear at every tier; only the
    surrounding teaching is what gets trimmed.

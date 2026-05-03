@@ -1,0 +1,129 @@
+/* Study-level segmented control.
+ * Sits at the top of the chapter, just under the audio actions row. The
+ * styling intentionally echoes the existing tools (font / theme / focus) so
+ * it feels like part of the same toolkit, not a bolted-on panel.
+ *
+ * Three pills: 1 Beginner · 2 Intermediate · 3 Deep Dive. Each shows the
+ * estimated minutes for the current chapter at that level. */
+
+.study-level-control {
+  display: inline-flex;
+  align-items: stretch;
+  gap: 0;
+  margin: 0.5rem 0 1.25rem 0;
+  padding: 0.25rem;
+  background: var(--surface-2, #f3ede4);
+  border: 1px solid var(--border-soft, #e5dccd);
+  border-radius: 9999px;
+  font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
+}
+
+[data-reader-theme='dark'] .study-level-control {
+  background: var(--surface-2, #2a2520);
+  border-color: var(--border-soft, #3a342d);
+}
+
+.level-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-width: 6rem;
+  padding: 0.45rem 0.85rem 0.45rem 0.45rem;
+  border: none;
+  background: transparent;
+  color: var(--text-soft, #6b6056);
+  font: inherit;
+  font-size: 0.85rem;
+  line-height: 1.15;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: background-color 140ms ease, color 140ms ease, transform 80ms ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.level-pill:hover:not(.active) {
+  color: var(--text, #2a241e);
+}
+
+.level-pill:active {
+  transform: scale(0.97);
+}
+
+.level-pill.active {
+  background: var(--accent, #8a5a2b);
+  color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+[data-reader-theme='dark'] .level-pill.active {
+  background: var(--accent, #c89863);
+  color: #1a1612;
+}
+
+.level-pill-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 9999px;
+  background: rgba(0, 0, 0, 0.05);
+  color: inherit;
+  font-size: 0.75rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.level-pill.active .level-pill-icon {
+  background: rgba(255, 255, 255, 0.22);
+}
+
+[data-reader-theme='dark'] .level-pill .level-pill-icon {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+[data-reader-theme='dark'] .level-pill.active .level-pill-icon {
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.level-pill-body {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.1;
+}
+
+.level-pill-label {
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.level-pill-time {
+  margin-top: 0.1rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  opacity: 0.85;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Print: always render Deep level (force every block visible — handled in
+ * StudyLevelContext via beforeprint) and hide the control itself. */
+@media print {
+  .study-level-control {
+    display: none !important;
+  }
+}
+
+/* Tighten up on narrow phones. */
+@media (max-width: 380px) {
+  .level-pill {
+    min-width: 5rem;
+    padding: 0.4rem 0.7rem 0.4rem 0.4rem;
+    font-size: 0.78rem;
+  }
+  .level-pill-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    font-size: 0.7rem;
+  }
+}

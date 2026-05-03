@@ -13,7 +13,7 @@ export const JOB_36: RichChapterContent = {
   bookName: 'Job',
   chapter: 36,
 
-  estimatedMinutes: { 5: 2, 10: 3, 15: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
   intros: [
     'Elihu elaborates on how God uses affliction. Suffering is not random. It is disciplined, intentional, redemptive. God uses it to keep us from destruction, to teach us, to refine us. For those who accept the lesson, there is restoration and blessing. For those who reject it and remain stiff-necked, there is judgment.',
   ],

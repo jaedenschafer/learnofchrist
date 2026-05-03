@@ -15,7 +15,7 @@ export const ACTS_2: RichChapterContent = {
   bookName: 'Acts',
   chapter: 2,
 
-  estimatedMinutes: { 5: 8, 10: 16, 15: 21 },
+  estimatedMinutes: { beginner: 8, intermediate: 16, deep: 21 },
   intros: [
     'The disciples have waited. For forty days after the resurrection, Jesus appeared and vanished, appeared and vanished, teaching them about the kingdom of God. Then He told them to wait in Jerusalem. "Ye shall be baptized with the Holy Ghost not many days hence," He said. So they waited. About one hundred twenty believers gathered in the upper room—Mary, the mother of Jesus, His brothers, the apostles. They prayed. They waited. And then it came.',
     'Pentecost was a feast day, when Jerusalem filled with pilgrims from every nation under heaven. The roar of the wind, the sight of fire, the sound of disciples speaking in languages they had never learned—it was undeniable. And in that noise and fire, Peter found his voice. The man who had been silent and afraid became a prophet. His words cut through the crowd. Three thousand souls, pierced to the heart, asked what they must do. The Spirit, once poured out upon a few, now poured out upon all.',

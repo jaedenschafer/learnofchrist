@@ -15,7 +15,7 @@ export const MATTHEW_17: RichChapterContent = {
   bookName: 'Matthew',
   chapter: 17,
 
-  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
   intros: [
     'After six days of withdrawal, Jesus takes three disciples—Peter, James, and John—up a high mountain. There, something unprecedented occurs. Jesus is transfigured before them. His face shines with the brightness of the sun. His garments become white as snow. Moses and Elijah, figures from the old covenant, appear and speak with Him. The earthly ministry is momentarily revealed in its heavenly glory.',
     'A voice from the cloud speaks: "This is my beloved Son, in whom I am well pleased; hear ye him." The disciples fall on their faces in fear. Jesus touches them and speaks peace. But when they descend and encounter a demon-possessed boy, the disciples are powerless. Jesus casts out the demon and teaches His disciples about faith—how a faith even the size of a mustard seed can accomplish what seems impossible.',

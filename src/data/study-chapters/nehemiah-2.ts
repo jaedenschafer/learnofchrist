@@ -19,7 +19,7 @@ export const NEHEMIAH_2: RichChapterContent = {
   bookName: 'Nehemiah',
   chapter: 2,
 
-  estimatedMinutes: { 5: 5, 10: 16, 15: 23 },
+  estimatedMinutes: { beginner: 5, intermediate: 16, deep: 23 },
   intros: [
     'Nehemiah stands in the palace of Artaxerxes the king of Persia, bearing wine as he has done before. But on this day, his heart is burdened. The city of his fathers lies waste. The walls are broken. The gates are consumed with fire. And it shows on his face. The king sees his sadness and asks: "Why is thy countenance sad, seeing thou art not sick? this is nothing else but sorrow of heart."',
     'What happens next is breathtaking in its simplicity. "So I prayed to the God of heaven" — an instant prayer, no time to prepare, no withdrawal into prayer closet. In the presence of the most powerful man on earth, Nehemiah turns his heart to heaven. And then he speaks his request. He asks the king to send him to Judah, to rebuild the city. The king asks how long he will be gone. Nehemiah gives a time. The king grants the request. And he gives Nehemiah more than he asked for — letters to the governors, a letter to the keeper of the forest for timber, and an armed escort.',

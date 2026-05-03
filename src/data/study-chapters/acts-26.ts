@@ -22,7 +22,7 @@ export const ACTS_26: RichChapterContent = {
   bookName: 'Acts',
   chapter: 26,
 
-  estimatedMinutes: { 5: 9, 10: 18, 15: 24 },
+  estimatedMinutes: { beginner: 9, intermediate: 18, deep: 24 },
   intros: [
     'Paul stands before Agrippa—a king, not a mob. A man educated in Scripture, not hostile to it. In this moment, Paul is allowed to extend his hand and speak. And he does not speak as a prisoner who is sorry or afraid. He speaks as a man who has been apprehended by the risen Christ and has lived thirty years in that grip.',
 

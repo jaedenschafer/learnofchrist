@@ -14,7 +14,7 @@ export const FIRST_TIMOTHY_1: RichChapterContent = {
   bookName: '1 Timothy',
   chapter: 1,
 
-  estimatedMinutes: { 5: 7, 10: 12, 15: 19 },
+  estimatedMinutes: { beginner: 7, intermediate: 12, deep: 19 },
   intros: [
     'Paul addresses Timothy not as a subordinate to be commanded, but as a fellow worker—someone he has trained, tested, and trusted with the life of an entire congregation. The church at Ephesus was no isolated village gathering. It was a city caught between pagan sophistication and the claims of the gospel. Into this tension, Timothy is sent to "charge some that they teach no other doctrine."',
     'Paul&apos;s opening is urgent. False teachers had infiltrated the assembly, men "desirous of being teachers of the law, understanding neither what they say, nor whereof they affirm." They spoke with confidence but without substance. They multiplied genealogies—endless tracing of ancestry—when what the church needed was love, faith, and a good conscience. Paul will circle back to this repeatedly: truth matters. Right doctrine leads to right living. Deviance leads to shipwreck.',

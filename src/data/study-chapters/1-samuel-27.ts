@@ -16,7 +16,7 @@ export const SAMUEL_1_27: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 27,
 
-  estimatedMinutes: { 5: 6, 10: 11, 15: 14 },
+  estimatedMinutes: { beginner: 6, intermediate: 11, deep: 14 },
   intros: [
     'The chapter opens with a confession: "I shall now perish one day by the hand of Saul." David, the man who has escaped Saul a hundred times, whose faith has been tested and proven in the wilderness, finds himself overcome by fear. He has stopped believing that God will deliver him. Instead, he believes that escape is his only survival. And so he does what he has never done before — he leaves Israel, leaves the Promised Land, and seeks refuge in enemy territory.',
     'What follows is a season of exile and moral ambiguity. David dwells in the land of the Philistines for a year and four months. He raids the enemies of Israel while lying to Achish, the Philistine king, about whom he is actually striking. He lets no one live who might report his deception. It is a dark portrait — not of David falling into sin, but of a righteous man acting from despair, making compromised choices in a place he should never have been. Yet even here, God&apos;s providence continues to work. David is not abandoned. Even in exile, his story moves toward the throne.',

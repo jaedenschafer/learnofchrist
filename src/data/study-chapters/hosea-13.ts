@@ -5,7 +5,7 @@ export const HOSEA_13: RichChapterContent = {
   bookName: 'Hosea',
   chapter: 13,
 
-  estimatedMinutes: { 5: 2, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
   intros: [
     'Hosea 13 moves toward the climax of judgment. "I will be unto thee as a lion." God will tear Israel like a lion tears its prey. The language is fierce, the imagery violent. Yet even here, in the midst of judgment, there are seeds of redemption.',
     'The chapter contains one of the most powerful statements about resurrection and victory: "I will ransom them from the power of the grave; I will redeem them from death: O death, I will be thy plagues; O grave, I will be thy destruction." The New Testament quotes this passage as fulfilled in Christ&apos;s resurrection. Even as Hosea speaks of judgment, he speaks of Christ&apos;s ultimate victory.',

@@ -19,7 +19,7 @@ export const JOB_27: RichChapterContent = {
   bookName: 'Job',
   chapter: 27,
 
-  estimatedMinutes: { 5: 2, 10: 4, 15: 6 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
   intros: [
     'Job speaks a final time, and his words are a summary and affirmation of everything he has defended throughout his suffering. "My righteousness I hold fast, and will not let it go." Job will not surrender his integrity. He will not accept the false accusations of his friends. He will not lie about his own innocence to purchase comfort or reconciliation. He has already lost everything else—his wealth, his children, his health, the support of his loved ones. But he still has one thing: his knowledge of his own integrity. And he will not surrender it.',
     'Job&apos;s affirmation is not an assertion of moral perfection. He is not saying he has never sinned, never erred, never missed the mark. Rather, he is saying that he has lived with integrity, that he has not committed the crimes he has been accused of, that his heart does not reproach him. He has lived as best he could according to his understanding. And in the face of suffering that seems undeserved, he will cling to that integrity. He will not betray who he is to satisfy the expectations of others. This is the final test: will Job compromise his truth to regain comfort?',

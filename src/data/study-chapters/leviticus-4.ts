@@ -15,7 +15,7 @@ export const LEVITICUS_4: RichChapterContent = {
   bookName: 'Leviticus',
   chapter: 4,
 
-  estimatedMinutes: { 5: 9, 10: 13, 15: 16 },
+  estimatedMinutes: { beginner: 9, intermediate: 13, deep: 16 },
   intros: [
     'Leviticus 4 is where the sin offering appears. Unlike the burnt offering (which was already about devotion), the sin offering is about guilt — the unintended breach that still separates you from God. The Hebrew word is <em>chatat</em>, from the verb "to sin" or "to miss the mark." The offering&apos;s purpose is specific: to bring a person or the whole congregation back to right standing when they have sinned without knowing it.',
     'What makes Leviticus 4 unusual is how clearly it scales. A high priest who sins needs a bull; the congregation needs a bull; a ruler needs a male goat; an ordinary person needs a female goat or lamb. The penalty is not the same for all. The text expects that spiritual leadership carries greater weight, and the offering reflects that. The blood is applied in different ways depending on the person&apos;s role — more gravity means a deeper cleansing ritual, drawing closer to the Holy of Holies itself.',

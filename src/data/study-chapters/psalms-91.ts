@@ -17,7 +17,7 @@ export const PSALMS_91: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 91,
 
-  estimatedMinutes: { 5: 1, 10: 2, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 4 },
   intros: [
     'Psalm 91 is a song of confidence and trust. It speaks of dwelling in the secret place, abiding under the shadow of the Almighty. The psalmist names specific fears: terror by night, the arrow that flies by day, the pestilence that walks in darkness. And to each fear, the psalm responds: not with dismissal, but with protection. God will cover the psalmist with His feathers. His truth will be a shield and buckler. But this protection is not isolation. It is presence in the midst of danger.',
   ],

@@ -5,7 +5,7 @@ export const JOSHUA_21: RichChapterContent = {
   bookName: 'Joshua',
   chapter: 21,
 
-  estimatedMinutes: { 5: 6, 10: 10, 15: 13 },
+  estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
   intros: [
     'Joshua 21 tells the story of God&apos;s faithfulness to a tribe that had no inheritance of land. The Levites had been set apart as priests and worship leaders, but God did not forget them. He commanded that they be given 48 cities scattered across all twelve tribes — so that the worship of God and the priesthood would be woven throughout the entire nation. Not concentrated in one holy capital, but dispersed everywhere Israel lived.',
     'The chapter opens with the Levites coming to Eleazar the priest and Joshua with their request: "The Lord commanded by the hand of Moses to give us cities to dwell in, with the suburbs thereof for our cattle." They have no complaints. They trusted God&apos;s promise, and now they come to receive what was promised. The cities are distributed by lot among the four main families of Levites — the Kohathites (who served as priests), the Gershonites, the Merarites, and others. Forty-eight cities, each with pastureland for their flocks.',

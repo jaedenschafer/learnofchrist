@@ -11,7 +11,7 @@ export const RUTH_4: RichChapterContent = {
   bookName: 'Ruth',
   chapter: 4,
 
-  estimatedMinutes: { 5: 7, 10: 10, 15: 12 },
+  estimatedMinutes: { beginner: 7, intermediate: 10, deep: 12 },
   intros: [
     'Ruth 4 resolves every thread of the story. Boaz goes to the gate — the ancient place where property is transferred and disputes are settled — to claim his right to redeem Ruth and her dead husband&apos;s land. But there is a nearer kinsman who holds the first right. The drama turns on a single moment: will he redeem, or will he refuse?',
     'The chapter ends not with Ruth and Boaz, but with a baby named Obed. The women announce to Naomi that a son is born to her — and the genealogy that closes the book reaches all the way to David, planting a royal line through the despised foreigner. For Christians, the line does not stop at David. It reaches forward to another child born to an unlikely family, and to redemption that would cost far more than a field.',

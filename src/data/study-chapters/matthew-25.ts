@@ -16,7 +16,7 @@ export const MATTHEW_25: RichChapterContent = {
   bookName: 'Matthew',
   chapter: 25,
 
-  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
   intros: [
     'Matthew 25 contains three parables, each teaching about readiness and faithfulness at the end. The kingdom of heaven is like unto ten virgins awaiting a bridegroom. Five are prudent, preparing ahead. Five are foolish, unprepared. When the bridegroom comes late, the foolish beg to enter. But the door is shut. "I know you not."',
     'Then Jesus speaks of talents—gifts entrusted to servants. Each is given according to ability. Two of the servants invest and double their gifts. One buries his in fear. The master rewards the faithful and condemns the unfaithful as "wicked and slothful." The chapter culminates in the parable of the sheep and goats: the distinction between the righteous and the unrighteous is measured by their care for the vulnerable, the hungry, the imprisoned. "Inasmuch as ye have done it unto the least, ye have done it unto me."',

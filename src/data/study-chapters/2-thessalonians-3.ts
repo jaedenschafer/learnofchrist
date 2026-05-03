@@ -16,7 +16,7 @@ export const SECOND_THESSALONIANS_3: RichChapterContent = {
   bookName: '2 Thessalonians',
   chapter: 3,
 
-  estimatedMinutes: { 5: 5, 10: 11, 15: 16 },
+  estimatedMinutes: { beginner: 5, intermediate: 11, deep: 16 },
   intros: [
     'The second letter to the Thessalonians closes with Paul&apos;s final exhortation. He asks for their prayers, reassures them of God&apos;s faithfulness, and then addresses the problem of idleness in the church. Some have stopped working, either from the belief that Christ&apos;s return is imminent or from mere sloth. Paul&apos;s response is clear: work is not beneath believers. It is a command.',
     'Paul does not leave them in judgment alone. He reminds them that the Lord is faithful—He will establish and keep them from evil. He tells them to withdraw from those who walk disorderly, but not without hope of restoration. And he closes not with threats but with peace and grace, signed in his own hand. This is a pastor&apos;s closing: firm, yes, but deeply affectionate.',

@@ -13,7 +13,7 @@ export const MICAH_5: RichChapterContent = {
   bookName: 'Micah',
   chapter: 5,
 
-  estimatedMinutes: { 5: 2, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
   intros: [
     'Among all the prophets, Micah speaks with particular clarity about the birthplace of the Messiah. Not Jerusalem, not the capital. A small town: Bethlehem Ephratah. And the Ruler who comes from there is no ordinary king. His goings forth have been from of old, from everlasting. He is not newly created or born for the first time. He has existed from the beginning. He comes to rule, but He comes from eternity.',
     'The prophecy stands in stark contrast to the darkness surrounding it. Israel is divided, besieged, struggling. But out of the least likely place will come the Ruler who will bring peace, who will shepherd His flock, who will be their peace when the Assyrian comes.',

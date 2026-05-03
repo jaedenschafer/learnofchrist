@@ -16,7 +16,7 @@ export const SECOND_CORINTHIANS_13: RichChapterContent = {
   bookName: '2 Corinthians',
   chapter: 13,
 
-  estimatedMinutes: { 5: 7, 10: 13, 15: 20 },
+  estimatedMinutes: { beginner: 7, intermediate: 13, deep: 20 },
   intros: [
     'Paul writes this letter in pain. The Corinthian church has divided against him, doubting his apostolic authority, tolerating false teachers, persisting in sin. He has written with sharpness because healing demands honesty. But as he closes, his intention clarifies: not judgment, but restoration. He is coming a third time. This time will be different.',
     'The chapter turns suddenly from threat to tenderness. Yes, Paul will not spare those who reject his authority and cling to sin. But the deeper word is always Christ&apos;s pattern: weakness yielding to power, death producing resurrection. And then—almost without warning—Paul lifts the whole letter into one of Scripture&apos;s most luminous prayers: grace, love, and communion, each from a distinct person of the Godhead, each essential, all three resting on the church he is about to visit.',

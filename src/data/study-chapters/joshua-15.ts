@@ -12,7 +12,7 @@ export const JOSHUA_15: RichChapterContent = {
   bookName: 'Joshua',
   chapter: 15,
 
-  estimatedMinutes: { 5: 6, 10: 9, 15: 14 },
+  estimatedMinutes: { beginner: 6, intermediate: 9, deep: 14 },
   intros: [
     'Joshua 15 draws the map of Judah&apos;s inheritance — the land allotted to the tribe of praise. Its southern border runs from the Dead Sea to the Mediterranean, traced through Akrabbim, Kadesh-barnea, and the river of Egypt. Its northern boundary rises through Jerusalem, where the Jebusites still dwell. Every border, every city, every spring is named with precision, as if God knows the names of all His places.',
     'But the chapter is not only about geography. It is about Caleb, now old but still fierce, driving the three sons of Anak out of Hebron. It is about Achsah, his daughter, who asks her new husband Othniel not for land, but for water — for the springs that sustain life. And it is about Jerusalem, the city that will become the city of God, still unconquered, waiting for David. The map is the gospel terrain.',

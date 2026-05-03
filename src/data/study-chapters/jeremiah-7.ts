@@ -18,7 +18,7 @@ export const JEREMIAH_7: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 7,
 
-  estimatedMinutes: { 5: 2, 10: 5, 15: 6 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
   intros: [
     'Jeremiah 7 opens with the prophet standing at the gate of the house of the Lord, proclaiming a word that will enrage the priests and the people. The word is this: your trust in the temple is a lie. You say, "The temple of the Lord, the temple of the Lord, the temple of the Lord"—you chant it, you make it a refrain, as if the building itself has power. But it does not. A physical building cannot substitute for a transformed heart. The temple will not protect you if you are unrepentant.',
     'Jeremiah then describes what makes the temple a true sanctuary: it is where the righteous dwell, where those who execute judgment and show mercy come to worship. But if those who come are unrepentant, if they steal, murder, commit adultery, swear falsely, burn incense to Baal, and then come to the temple saying "We are delivered to do all these abominations"—if they do this, then the temple becomes not a sanctuary but a den of robbers. This sermon will be quoted by Jesus six centuries later, when He overturns the tables and quotes these very words.',

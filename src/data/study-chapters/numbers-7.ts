@@ -29,7 +29,7 @@ export const NUMBERS_7: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 7,
 
-  estimatedMinutes: { 5: 11, 10: 14, 15: 16 },
+  estimatedMinutes: { beginner: 11, intermediate: 14, deep: 16 },
   intros: [
     'Numbers 7 is a chapter many readers skip. It is nearly ninety verses of names and numbers—tribal princes bringing offerings to dedicate the tabernacle. The same offering, twelve times over, one tribe per day for twelve days. Each prince gives identical gifts: a silver charger and bowl, a golden spoon, oxen and rams and lambs and goats, bullocks and kids. The chapter does not summarize. It does not abbreviate. It repeats the entire offering, word for word, twelve times.',
     'Why? Because God wants you to know: I see each one. Each name matters. Each offering is distinct to me, even when it is identical to all the others. The wealthiest prince and the poorest bring the same things. And God takes notice of each one individually. The repetition is not a bug. It is the point. Faithfulness that looks ordinary to everyone else is extraordinary to God.',

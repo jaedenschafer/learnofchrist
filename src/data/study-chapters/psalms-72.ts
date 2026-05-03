@@ -14,7 +14,7 @@ export const PSALMS_72: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 72,
 
-  estimatedMinutes: { 5: 2, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
   intros: [
     'Psalm 72 is a royal prayer. It begins: "Give the king thy judgments, O God." The prayer is that the king would be filled with God&apos;s justice, that he would rule not by his own wisdom, but by God&apos;s justice. And this justice has a particular direction: "He shall judge thy people with righteousness, and thy poor with judgment."',
     'The psalm paints a vision of a king whose reign brings peace and prosperity, who crushes the oppressor, who defends the weak. This vision goes beyond any earthly king. Even the greatest kings of Israel fell short of this standard. And yet the psalm persists: "His name shall endure for ever...all nations shall call him blessed." The Church recognizes in this psalm the true King, Jesus Christ, whose reign is eternal and universal.',

@@ -15,7 +15,7 @@ export const JOHN_8: RichChapterContent = {
   bookName: 'John',
   chapter: 8,
 
-  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
   intros: [
     'A woman is caught in adultery. The Pharisees bring her to Jesus, placing her in the midst of the crowd. The law says such a woman should be stoned. They ask Jesus: "What sayest thou?" It is a trap. If He says "stone her," He appears cruel and harsh. If He says "release her," He violates the law. Jesus bends down and writes in the dust—the only time in Scripture He is recorded writing anything. The gesture itself is profound. He writes upon the earth, upon the dust to which all flesh returns. Then He rises and speaks: "He that is without sin among you, let him first cast a stone at her."',
     'One by one, the accusers depart. Even the eldest, whose wisdom should be greatest, leaves first. Only Jesus and the woman remain. "Neither do I condemn thee: go, and sin no more." Judgment and mercy fuse. He does not condemn, yet He does not condone. He releases her to a new life, freed from both her accusers and her sin. Then Jesus proclaims: "I am the light of the world." In a dispute about His identity, He pushes toward an ultimate claim. Before Abraham was—the patriarch to whom all Jewish identity traced—"I am." The timeless presence of God speaking through Jesus&apos; lips.',

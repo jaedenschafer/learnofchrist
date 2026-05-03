@@ -18,7 +18,7 @@ export const JOB_14: RichChapterContent = {
   bookName: 'Job',
   chapter: 14,
 
-  estimatedMinutes: { 5: 2, 10: 5, 15: 6 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
   intros: [
     'Job now moves to a profound meditation on the human condition. "Man that is born of a woman is of few days, and full of trouble." This is not bitterness now, but a kind of wisdom. Job is acknowledging something universal: all humans are born into a condition of limitation and suffering. We are of few days—our time is brief. And those few days are full of trouble. We do not get to choose the conditions into which we are born. We are trapped in a condition of mortality and pain.',
     'But from this acknowledgment of human limitation, Job moves to a radical question: "If a man die, shall he live again?" Is there something beyond death? Is there hope? Job does not have an answer. But he knows that he will wait. He speaks of a time when his "change" will come—a transformation that he does not yet understand but in which he places his hope. This chapter moves from the depths of despair to a tentative, uncertain hope.',

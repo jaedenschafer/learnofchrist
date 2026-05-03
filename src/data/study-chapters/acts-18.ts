@@ -18,7 +18,7 @@ export const ACTS_18: RichChapterContent = {
   bookName: 'Acts',
   chapter: 18,
 
-  estimatedMinutes: { 5: 8, 10: 14, 15: 19 },
+  estimatedMinutes: { beginner: 8, intermediate: 14, deep: 19 },
   intros: [
     'Paul arrives in Corinth. The city is a crossroads of empire—wealthy, cosmopolitan, morally fractured. It is not a place where the gospel would naturally take root. But Paul comes not with rhetoric or silver, but with his hands. He learns tentmaking from Aquila and Priscilla, two Jewish believers he finds in the city. He works with them; he reasons in the synagogue on Sabbath. Opposition comes. The Jewish leaders reject him. But the Lord comes to Paul in a vision and says something that shapes the rest of his ministry: "I am with thee, and no man shall set on thee to hurt thee: for I have much people in this city." In the most unlikely place, God has a people.',
     'What unfolds is not a triumph of persuasion but a slow, faithful work of presence. Paul stays for eighteen months. A church grows. Meanwhile, an eloquent man named Apollos—burning with the Spirit, skilled in Scripture, but incomplete in his understanding—arrives in Ephesus. And it is a woman, Priscilla, alongside her husband Aquila, who draws him aside and teaches him more fully. The chapter shows us the shape of apostolic work: partnership, patient labor, the courage to stay when the message is rejected, and the humility to teach and be taught.',

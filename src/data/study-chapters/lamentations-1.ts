@@ -14,7 +14,7 @@ export const LAMENTATIONS_1: RichChapterContent = {
   bookName: 'Lamentations',
   chapter: 1,
 
-  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
   intros: [
     'The book of Lamentations stands as one of the most raw and honest expressions of grief in scripture. Five acrostic poems—one for each chapter, with some chapters using the full 22-letter Hebrew alphabet—give voice to the anguish of those who witnessed the fall of Jerusalem. Lamentations 1 opens with the most haunting line in all of scripture: "How doth the city sit solitary, that was full of people! how is she become as a widow!" Jerusalem, the mother city, the place of God&apos;s temple, is widowed, bereft, desolate.',
     'Yet in this deepest moment of grief and abandonment, something remarkable happens. The city begins to speak. She acknowledges her own sin. She calls out to God for recognition of her suffering. She is not silent before her pain. She voices it. She brings it to God. And in this act of lament—of honest, unfiltered grief brought to God—there is a paradoxical movement toward healing.',

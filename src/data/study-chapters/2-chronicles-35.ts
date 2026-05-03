@@ -18,7 +18,7 @@ export const CHRONICLES_2_35: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 35,
 
-  estimatedMinutes: { 5: 4, 10: 9, 15: 12 },
+  estimatedMinutes: { beginner: 4, intermediate: 9, deep: 12 },
   intros: [
     'By the eighteenth year of Josiah&apos;s reign, the temple has been cleansed and the book of the Law discovered in its stones. The kingdom is reformed. The idols are torn down. And now the king calls the people to a feast that will become legendary — a Passover kept with such care, such generosity, and such fervor that it will be said to be without equal since the time of Samuel the Prophet. Josiah gives freely from his own substance — thirty thousand lambs, three thousand bullocks — so that every family in Jerusalem can keep the feast. The priests stand in their courses, the Levites sing, and the people eat and celebrate.',
     'But the story does not end in triumph. It ends with Josiah watching an army march up from Egypt, with a king telling him to flee, and with a king who will not listen. The anointed refuses the word of God — even when that word comes from a Gentile king, spoken in warning. And at Megiddo, in the valley that will one day see the final gathering of nations, Josiah dies. All Judah mourns. Jeremiah himself composes a lament for the king who heard God&apos;s word too late.',

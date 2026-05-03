@@ -17,7 +17,7 @@ export const JOSHUA_6: RichChapterContent = {
   bookName: 'Joshua',
   chapter: 6,
 
-  estimatedMinutes: { 5: 9, 10: 15, 15: 18 },
+  estimatedMinutes: { beginner: 9, intermediate: 15, deep: 18 },
   intros: [
     'Joshua 6 is one of the strangest military campaigns in Scripture. Jericho is fortified, its gates shut tight, its king waiting. God gives Joshua a plan that sounds like no military strategy ever devised: march around the city once a day for six days, then on the seventh day march seven times, and when the priests blow their trumpets, shout. The walls will fall flat. Every man, woman, and child inside — except Rahab and her household — will be devoted to destruction.',
     'What makes this chapter unforgettable is not its military strangeness, but its theological gravity. Faith marches without seeing the result. Silence is sometimes the hardest obedience. A nation&apos;s whole future hangs on whether one young leader and twelve tribal leaders can get their people to move together as one body. And before the smoke clears, we meet a woman — a prostitute with faith sharper than a sword — who will carry the line of Christ.',

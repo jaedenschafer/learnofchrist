@@ -13,7 +13,7 @@ export const EZEKIEL_46: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 46,
 
-  estimatedMinutes: { 5: 1, 10: 2, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 4 },
   intros: [
     'Worship sustains covenant relationship. In this chapter, Ezekiel describes the patterns of worship in the renewed temple: daily offerings, sabbath observances, new moon festivals, and the prince&apos;s role in leading the people in worship. The prince is not above worship or exempt from it. He worships alongside his people. He leads them by example. The worship patterns are regular, sustainable, and shared.',
     'There is grace in the structure. The worship is not excessive or burdensome. It fits within the rhythm of daily and weekly life. The people know when to gather, what to bring, and what to expect. This is not oppressive law but the orderly pattern of a people learning to live continually in God&apos;s presence.',

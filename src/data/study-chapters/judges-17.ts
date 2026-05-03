@@ -11,7 +11,7 @@ export const JUDGES_17: RichChapterContent = {
   bookName: 'Judges',
   chapter: 17,
 
-  estimatedMinutes: { 5: 6, 10: 11, 15: 14 },
+  estimatedMinutes: { beginner: 6, intermediate: 11, deep: 14 },
   intros: [
     'Judges 17 marks a turning point. The era of the judges ends; the refrain that echoes through the rest of the book makes its first appearance: "In those days there was no king in Israel, but every man did that which was right in his own eyes." What we are about to read is what happens when each person becomes his own god.',
     'Micah&apos;s story opens with stolen silver and a mother&apos;s curse. A son confesses the theft, the mother blesses it anyway, and together they build a shrine out of money that was never theirs to sanctify. They hire a young Levite to be their priest—not because he is called, but because he works for wages. Micah&apos;s confidence swells: "Now I know the Lord will do me good, seeing I have a Levite to my priest." He mistakes the arrangement for the Presence. The whole chapter is a masterclass in how religion can become something we engineer for ourselves.',

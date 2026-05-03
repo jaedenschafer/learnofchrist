@@ -19,7 +19,7 @@ export const MARK_15: RichChapterContent = {
   bookName: 'Mark',
   chapter: 15,
 
-  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
   intros: [
     'Mark 15 is the account of the passion and death of Jesus. He is brought before Pilate and accused by the chief priests. Pilate asks: "Art thou the King of the Jews?" Jesus answers enigmatically: "Thou sayest it." The chief priests make many accusations, but Jesus does not answer them. Pilate is astonished. He finds no fault in Him, yet he wishes to please the crowd and satisfy the chief priests. He releases Barabbas, a murderer, and delivers Jesus to be crucified.',
     'Jesus is led out to a place called Golgotha (the place of a skull). They offer Him wine mingled with myrrh, but He refuses it. They crucify Him between two thieves. The hours pass. Darkness covers the land. Jesus cries out: "Eloi, Eloi, lama sabachthani?" (My God, my God, why hast thou forsaken me?). He is thirsty. Someone offers Him sour wine. He cries out with a loud voice and expires. The veil of the temple is torn in two from top to bottom. The centurion, witnessing His death, declares: "Truly this man was the Son of God." Jesus is buried in a tomb belonging to Joseph of Arimathea, a member of the Sanhedrin who had not consented to the crucifixion.',

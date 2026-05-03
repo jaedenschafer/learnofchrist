@@ -16,7 +16,7 @@ export const PSALMS_25: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 25,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 5 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
   intros: [
     'Psalm 25 is an acrostic, with each verse beginning with successive letters of the Hebrew alphabet. This structure is not merely literary device. It symbolizes completeness, a journey from beginning to end, a path walked step by step. The content matches this form. The psalmist is on a journey of learning, seeking to know God&apos;s ways, asking to be taught His paths. The psalm is a prayer of someone in formation, asking God to shape him according to God&apos;s design.',
   ],

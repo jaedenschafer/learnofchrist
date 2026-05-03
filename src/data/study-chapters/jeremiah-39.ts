@@ -13,7 +13,7 @@ export const JEREMIAH_39: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 39,
 
-  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
   intros: [
     'Jeremiah 39 narrates the fall of Jerusalem—the moment when prophecy becomes history. The city, which has resisted God&apos;s word through Jeremiah for four decades, finally experiences the judgment he has announced. Zedekiah flees, is captured, watches his sons die, and loses his eyes. The Temple is burned. The walls are broken. Nothing remains.',
     'Yet in the middle of this catastrophe is Jeremiah—preserved, protected, given the choice to flee or to stay. The man who has been imprisoned, beaten, and threatened is now treated with honor by the conqueror. Judgment does not spare the prophet. It vindicates him. His word—which seemed weak and foolish—proves true. And his faithfulness—which seemed to achieve nothing—saves his life.',

@@ -13,7 +13,7 @@ export const REVELATION_22: RichChapterContent = {
   bookName: 'Revelation',
   chapter: 22,
 
-  estimatedMinutes: { 5: 9, 10: 14, 15: 20 },
+  estimatedMinutes: { beginner: 9, intermediate: 14, deep: 20 },
   intros: [
     'You have read 1,189 chapters to reach this one. The Bible opened in a garden with a river and a tree of life. Humanity was barred from both. Now, in the final chapter, both are restored — and enlarged. The river flows clear as crystal from the throne of God and of the Lamb. The tree bears fruit every month, its leaves for the healing of the nations. The curse is gone. The redeemed see His face.',
     'Three times in this final chapter Christ says the same words: "Behold, I come quickly." The Spirit and the Bride answer with the same prayer: "Come." The Bible does not end with systematic theology or heavenly real estate. It ends with the oldest prayer of the church, repeated across twenty centuries: Even so, come, Lord Jesus. Come.',

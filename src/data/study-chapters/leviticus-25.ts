@@ -18,7 +18,7 @@ export const LEVITICUS_25: RichChapterContent = {
   bookName: 'Leviticus',
   chapter: 25,
 
-  estimatedMinutes: { 5: 13, 10: 19, 15: 23 },
+  estimatedMinutes: { beginner: 13, intermediate: 19, deep: 23 },
   intros: [
     'Leviticus 25 is the Jubilee chapter—the vision of a nation built on periodic release. Every seventh year the land rests, fields go fallow, vineyards are not pruned, and no one harvests. Every fiftieth year, the Jubilee arrives: enslaved Israelites go free, debts are forgiven, and ancestral land is returned to its original families. It is a countercultural law that privileges mercy over accumulation, freedom over perpetual servitude, and restoration over the consolidation of wealth. It asks Israel: What kind of people do you want to be?',
     'The chapter is full of Hebrew words that point toward Christ. Shemittah (release) and yobel (jubilee) speak of liberation. Go&apos;el (the kinsman-redeemer) is the person with power and obligation to restore what another has lost—the pattern of a true redeemer. And yet the Jubilee was never fully observed in Israel&apos;s history. It remained an ideal that whispered forward to someone who would embody it completely. When Jesus opens His ministry in Luke 4:18–19, He quotes Isaiah 61 and announces: "The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted, to preach deliverance to the captives, and recovering of sight to the blind, to set at liberty them that are bruised, to preach the acceptable year of the LORD." He is declaring Himself the Jubilee.',

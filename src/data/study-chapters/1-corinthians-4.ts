@@ -15,7 +15,7 @@ export const FIRST_CORINTHIANS_4: RichChapterContent = {
   bookName: '1 Corinthians',
   chapter: 4,
 
-  estimatedMinutes: { 5: 7, 10: 15, 15: 20 },
+  estimatedMinutes: { beginner: 7, intermediate: 15, deep: 20 },
   intros: [
     'The Corinthians have begun to judge their leaders—to rank Paul and Apollos and Cephas, to praise one above another. Paul radically reframes the conversation. He cares nothing for their judgment. He submits to one judgment alone: that of Christ. A steward&apos;s faithfulness is not measured by the approval of those he serves. It is measured by the approval of the one who owns everything.',
     'This chapter liberates the church from the tyranny of human opinion. It also humbles the leaders. Apostles are not celebrities or lords. They are stewards, entrusted with something infinitely greater than themselves—the mysteries of God—and accountable to a Master whose standards are infinitely higher than man&apos;s. Yet Paul himself is a living contradiction to the Corinthians&apos; ideals: hungry, thirsty, naked, beaten, homeless. And he has become the world&apos;s garbage so they could be fed with the gospel.',

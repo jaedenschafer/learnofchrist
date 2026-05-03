@@ -5,7 +5,7 @@ export const LEVITICUS_8: RichChapterContent = {
   bookName: 'Leviticus',
   chapter: 8,
 
-  estimatedMinutes: { 5: 9, 10: 13, 15: 17 },
+  estimatedMinutes: { beginner: 9, intermediate: 13, deep: 17 },
   intros: [
     'Leviticus 8 is the enactment of Exodus 29. Where Exodus commanded the priesthood, Leviticus shows it happening. Aaron and his sons are brought to the door of the tabernacle, washed, dressed, anointed, and marked with blood — on the right ear to hear God&apos;s word, on the right thumb to work His will, on the right big toe to walk His path. The chapter is ritual made visible, each movement a sign of what it means to be set apart.',
     'For seven days they remain at the door of the tent, not yet stepping fully inside. They are consecrated but not yet commissioned. The waiting itself is part of the work. Every animal offered — the bull for sin, the ram of burnt offering, the second ram of consecration with its blood on ear and thumb and toe — carries forward the logic of substitution: this life, poured out on your behalf, marks you as belonging to God. For the Christian reader, every line points to the high priest who needed no such ritual because He IS the anointing, the unblemished offering, the one whose blood marks us clean.',

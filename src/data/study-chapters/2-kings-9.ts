@@ -19,7 +19,7 @@ export const KINGS_2_9: RichChapterContent = {
   bookName: '2 Kings',
   chapter: 9,
 
-  estimatedMinutes: { 5: 4, 10: 9, 15: 13 },
+  estimatedMinutes: { beginner: 4, intermediate: 9, deep: 13 },
   intros: [
     'The reign of Ahab and Jezebel has left blood on the land. The prophet Elijah pronounced their judgment years before: the dogs will eat Jezebel&apos;s flesh, and the house of Ahab will perish. Now, in the ninth chapter of 2 Kings, those words begin to move toward fulfillment. Not gradually, but with startling speed.',
     'Elisha, Elijah&apos;s successor, is in Ramoth-gilead when he calls one of his young prophets and gives him an extraordinary errand. A flask of oil. A secret anointing. A young commander named Jehu — grandson of Nimshi — waiting among the officers of the king. The young prophet is to anoint Jehu king over Israel, speak God&apos;s judgment against the house of Ahab, and then flee without explanation. "Do not tarry," Elisha instructs him.',

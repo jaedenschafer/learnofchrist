@@ -19,7 +19,7 @@ export const SECOND_ESDRAS_2: RichChapterContent = {
   bookName: '2 Esdras',
   chapter: 2,
 
-  estimatedMinutes: { 5: 8, 10: 14, 15: 19 },
+  estimatedMinutes: { beginner: 8, intermediate: 14, deep: 19 },
   intros: [
     'For chapters 1–7, God has sent prophet after prophet to Israel, and all have been rejected. The old covenant people have hardened their hearts. Now comes the judgment: God will turn away from them and call a new people—the Gentiles. But this is not judgment alone; it is a radical opening of the ancient promise.',
     'As Ezra listens, the scene shifts. A mother—perhaps the Zion of old—is urged to embrace a new family. The Gentiles pour in from every direction, leaving their idols behind, inheriting everlasting tabernacles that neither moth nor rust can consume. And in a vision granted to Ezra, the church of the redeemed appears: an innumerable multitude crowned with palms, singing before the Lord. Among them walks a figure of surpassing beauty and strength, placing a crown on every single head. The ancient Fathers read this as a vision of the Lamb on Mount Sion, crowned in glory, crowning His bride.',

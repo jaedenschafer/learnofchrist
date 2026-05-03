@@ -17,7 +17,7 @@ export const CHRONICLES_1_23: RichChapterContent = {
   bookName: '1 Chronicles',
   chapter: 23,
 
-  estimatedMinutes: { 5: 4, 10: 11, 15: 16 },
+  estimatedMinutes: { beginner: 4, intermediate: 11, deep: 16 },
   intros: [
     'The book of 1 Chronicles is written to the people of Israel after their exile in Babylon. It recounts the glory of David&apos;s reign and the promise of the temple — a promise that would be fulfilled under Solomon. In chapter 23, David is old. He has conquered enemies, secured the kingdom, and prepared the place where God&apos;s house will stand. Now he must ensure that the structures of worship — and the people who serve — are ready for what comes next.',
     'David gathers all Israel — the princes, priests, and Levites — to number and organize them for the work of the Lord&apos;s house. Thirty-eight thousand Levites are enlisted: 24,000 to oversee the work of the temple, 6,000 officers and judges, 4,000 gatekeepers, and 4,000 who praise the Lord with instruments. They are divided into courses by their families: Gershon, Kohath, and Merari. Each has a role. Together, they form the body of worship — the people who will keep the rhythm of praise and service in God&apos;s house. In this, there is a pattern: the priesthood of all believers, each with a calling, each contributing to the whole.',

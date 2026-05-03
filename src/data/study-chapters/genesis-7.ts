@@ -15,7 +15,7 @@ export const GENESIS_7: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 7,
 
-  estimatedMinutes: { 5: 6, 10: 10, 15: 13 },
+  estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
   intros: [
     'Genesis 7 opens the floodgates. The ark has been built. The animals are gathered — clean by sevens, unclean by twos. And now, for the first time in Scripture, God extends an invitation: "Come thou and all thy house into the ark." It is not a command barked from a distance. It is an invitation to safety. Noah enters. His family enters. The animals board. And then the text turns: "the LORD shut him in." The door does not swing shut on its own. God closes it. The waters rise. Forty days and nights of rain. One hundred fifty days of waters covering the earth. Every living thing outside the ark dies. Fathers, mothers, children, cattle, creeping things, birds — all flesh. The chapter records it simply, without flourish, without moral commentary on those who perish. It presents only what is: God was merciful to those inside. Those outside are gone.',
     'The chapter moves fast. It does not pause to moralize. It lets the reader sit with the weight of what happens when God judges a world. And even in that weight, there is something to notice: God does the shutting. The safety inside the ark does not depend on Noah keeping the door barred. It depends on God. Once inside, you are kept by someone stronger than yourself.',

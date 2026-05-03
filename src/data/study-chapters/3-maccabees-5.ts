@@ -5,7 +5,7 @@ export const THIRD_MACCABEES_5: RichChapterContent = {
   bookName: '3 Maccabees',
   chapter: 5,
 
-  estimatedMinutes: { 5: 6, 10: 10, 15: 15 },
+  estimatedMinutes: { beginner: 6, intermediate: 10, deep: 15 },
   intros: [
     'The king&apos;s command is about to be carried out. Thousands of Jews stand in the hippodrome. The elephants—drugged, maddened, fitted with iron spikes—are being led toward them. This is the final hour.',
     'Yet something extraordinary interrupts the machinery of death. God enters the scene through the simplest weapons: sleep, forgetfulness, and the faithful prayers of His people. The oppressor&apos;s moment of judgment keeps being delayed—and in those delays, we see the patience and sovereignty of God at work.',

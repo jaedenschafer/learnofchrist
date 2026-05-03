@@ -20,7 +20,7 @@ export const JAMES_3: RichChapterContent = {
   bookName: 'James',
   chapter: 3,
 
-  estimatedMinutes: { 5: 6, 10: 13, 15: 20 },
+  estimatedMinutes: { beginner: 6, intermediate: 13, deep: 20 },
   intros: [
     'James begins with a sobering thought: not many should be teachers, because teachers are judged more strictly. To teach is to shape others with words. The tongue is such a small member of the body—but it sets the whole course of life on fire. If you can bridle your tongue, you can bridle the whole body. Yet no man can tame the tongue. It is an unruly evil, full of deadly poison. From the same mouth come blessing and curse. Wisdom from above changes that.',
     'The chapter moves to a fundamental question: what kind of wisdom governs your life? There is wisdom that is earthly and sensual, born of envy and bitter strife. It is devilish in its effects: it boasts, it lies, it tears down. And there is wisdom that comes from above. It is pure, peaceable, gentle, full of mercy and good fruits, without partiality and without hypocrisy. The fruit of righteousness is sown in peace by those who make peace.',

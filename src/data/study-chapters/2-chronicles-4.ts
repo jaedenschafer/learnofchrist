@@ -17,7 +17,7 @@ export const CHRONICLES_2_4: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 4,
 
-  estimatedMinutes: { 5: 6, 10: 13, 15: 19 },
+  estimatedMinutes: { beginner: 6, intermediate: 13, deep: 19 },
   intros: [
     'The Temple is rising. Its walls are complete, its chambers built, its holy spaces prepared. Now comes the work that transforms a structure into a sanctuary — the furnishings that will make it a place where heaven and earth meet. The altar of brass. The molten sea. The lavers, the candlesticks, the tables, the basins. Each piece is designed to serve the priests as they carry out the ancient rhythms of worship. Some pieces are visible to all who enter; others stand only in the inner sanctuary, seen only by the high priest once a year. Yet all are essential. All speak to the same truth: a holy people must be prepared, cleansed, illuminated, and fed as they draw near to God.',
     'What strikes us as we read through this chapter is not merely the craftsmanship or the abundance of gold, though both are evident. What strikes us is the repetition: ten lavers, not one. Ten candlesticks, not one. Ten tables. This is not the work of one man, but the vision of a God who gathers the work of many, coordinates it all, and makes it serve a purpose far larger than any single artisan could imagine. And it is all done in bronze, silver, and gold — the materials of beauty and permanence, because the God who is worshiped deserves nothing less.',

@@ -15,7 +15,7 @@ export const PSALMS_28: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 28,
 
-  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
   intros: [
     'Psalm 28 is brief but profound. It moves with remarkable swiftness from anguished petition to joyful confidence. The psalmist cries out to God as his rock, and by the end of the psalm, he is already praising God for having answered him. This movement—from prayer to thanksgiving before the answer is physically visible—is the mark of genuine faith.',
   ],

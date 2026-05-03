@@ -17,7 +17,7 @@ export const KINGS_2_11: RichChapterContent = {
   bookName: '2 Kings',
   chapter: 11,
 
-  estimatedMinutes: { 5: 8, 10: 16, 15: 21 },
+  estimatedMinutes: { beginner: 8, intermediate: 16, deep: 21 },
   intros: [
     'The book of 2 Kings opens a long shadow over Israel and Judah. Kings rise and fall. Some turn to the Lord; most turn from him. The northern kingdom spirals toward exile. The southern kingdom staggers under the weight of its own unfaithfulness. And yet, woven through this history of decline is a thread that never breaks: God&apos;s covenant with David. His seed will not fail. His throne will not be forsaken. Even when enemies close in, even when the bloodline itself is threatened with extinction, God preserves a remnant — hidden, protected, faithful.',
     '2 Kings 11 is the story of that preservation. It is the story of a woman who saw her son the king cut down, and in her rage, she rose up to destroy everyone who stood between her and absolute power. And it is the story of an aunt and an uncle — a woman and a priest — who stole a child in the night and kept him safe while a usurper reigned. For six years, Joash lived in hiding within the very house of the Lord. And in the seventh year, the truth came out. The child king was crowned. The covenant was restored. And the seed of David lived to see another day.',

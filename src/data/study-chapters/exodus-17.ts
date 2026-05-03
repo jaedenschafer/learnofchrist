@@ -24,7 +24,7 @@ export const EXODUS_17: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 17,
 
-  estimatedMinutes: { 5: 8, 10: 17, 15: 21 },
+  estimatedMinutes: { beginner: 8, intermediate: 17, deep: 21 },
   intros: [
     'Exodus 17 shows Israel learning two hard lessons at the edge of the wilderness. First, that survival depends not on what they can find or do for themselves, but on God willing to provide in places where nothing grows. Second, that even when God has called you and promised to fight for you, the victory still requires somebody to stand and hold up the work while others fight. These are the lessons of a people learning to depend on God and on each other.',
     'The chapter contains two of the most important types of Christ in all of exodus. The rock at Horeb, struck by Moses&apos; rod and flowing with water, becomes in Paul&apos;s reading the physical manifestation of Christ—the one struck for all sin, whose wounds become the source of living water. And the image of Moses standing with his arms held high, his hands held up by Aaron and Hur, becomes a picture of the cross itself: the victory won not by strength, but by faithful endurance, upheld by the community around the leader.',

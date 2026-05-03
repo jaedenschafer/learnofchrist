@@ -14,7 +14,7 @@ export const PSALMS_15: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 15,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'Psalm 15 is a question followed by a description. The question: "Lord, who shall abide in thy tabernacle? who shall dwell in thy holy hill?" In other words, who is permitted to approach God, to stand in His presence, to make His dwelling place their own? The answer occupies the rest of the psalm: the one who walks uprightly, who works righteousness, who speaks the truth in his heart. This is a portrait of moral integrity.',
     'What makes this psalm remarkable is that it does not present these qualities as earning a place with God. Rather, they are the necessary fruit of someone who genuinely seeks God. You cannot stand in the presence of the holy God while harboring dishonesty, exploitation, or corruption. The description is not a ladder to climb but a mirror—it shows us what we need to become.',

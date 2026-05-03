@@ -5,7 +5,7 @@ export const DEUTERONOMY_17: RichChapterContent = {
   bookName: 'Deuteronomy',
   chapter: 17,
 
-  estimatedMinutes: { 5: 8, 10: 13, 15: 16 },
+  estimatedMinutes: { beginner: 8, intermediate: 13, deep: 16 },
   intros: [
     'Deuteronomy 17 collects four laws that reshape Israel&apos;s life: purity in sacrifice, the treatment of those who turn to idolatry, a supreme court at the central place of worship, and the law of the king. Each reveals something about what it means to serve a God who is holy, demands honesty in judgment, and—uniquely among ancient Near Eastern nations—puts even the monarch under the rule of His word.',
     'The chapter opens with a hard command: no defective animal for the Lord. It moves to how to handle apostasy when it appears inside Israel&apos;s gates. Then it sets up the judicial system—a place where hard cases can be brought to priests and judges. Finally, it draws the portrait of Israel&apos;s king as a man who must read the law with his own hand every day of his life. That portrait—of a ruler in daily submission to God&apos;s word—stands alone in all ancient Near Eastern monarchy. And it points straight to One who would come.',

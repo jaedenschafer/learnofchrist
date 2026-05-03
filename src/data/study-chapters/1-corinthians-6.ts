@@ -13,7 +13,7 @@ export const FIRST_CORINTHIANS_6: RichChapterContent = {
   bookName: '1 Corinthians',
   chapter: 6,
 
-  estimatedMinutes: { 5: 6, 10: 15, 15: 21 },
+  estimatedMinutes: { beginner: 6, intermediate: 15, deep: 21 },
   intros: [
     'The Corinthian church reveals a troubling disconnect: they can speak in tongues and prophesy, yet they take one another to pagan courts to settle disputes. They can boast of spiritual gifts, yet they visit prostitutes, treating their bodies as instruments of sin. Paul cuts through the pretense. You cannot claim to belong to Christ while disregarding what the body is and what it is for.',
     'The radical claim underlying this chapter is that the body matters. In Greek philosophy, the body was considered a prison for the soul, essentially neutral or even hostile to spiritual growth. Paul reverses this. The body is the dwelling place of the Holy Spirit, purchased by the blood of Christ. Your body is not your own. It belongs to God. What you do with it matters eternally.',

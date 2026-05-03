@@ -14,7 +14,7 @@ export const PSALMS_71: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 71,
 
-  estimatedMinutes: { 5: 2, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
   intros: [
     'Psalm 71 is the psalm of old age. The psalmist has grown old. His strength is failing. His enemies are watching, waiting for the moment when he will no longer be able to defend himself. And his fear is profound: "Cast me not off in the time of old age; forsake me not when my strength faileth." It is not the fear of death that haunts him. It is the fear of abandonment, the fear that when he needs God most, God might turn away.',
     'Yet this psalm is also a testimony to a long life lived in God&apos;s presence. The psalmist can say: "By thee have I been holden up from the womb." All his life, God has sustained him. And he trusts that God will not begin to abandon him now, in his weakness. The psalm moves from anxiety to confidence, from "Cast me not off" to "I will still praise thee" even unto old age.',

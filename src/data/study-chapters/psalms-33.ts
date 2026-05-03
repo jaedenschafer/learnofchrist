@@ -15,7 +15,7 @@ export const PSALMS_33: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 33,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 5 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
   intros: [
     'Psalm 33 is a song of exultation in God&apos;s creative power and His ongoing care for His people. The psalm calls for praise—singing, playing instruments, shouting for joy—and then explains why such praise is appropriate: God has made all things by His word. His eye is upon all who fear Him. His counsel stands forever. To understand God as Creator and Sustainer is to understand why praise is the only appropriate response.',
   ],

@@ -17,7 +17,7 @@ export const PSALMS_2: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 2,
 
-  estimatedMinutes: { 5: 2, 10: 8, 15: 10 },
+  estimatedMinutes: { beginner: 2, intermediate: 8, deep: 10 },
   intros: [
     'Psalm 2 opens with an urgent question: "Why do the heathen rage, and the people imagine a vain thing?" It is a question born of bewilderment—a bewilderment that God Himself seems to share. For the kings of the earth have set themselves, and the rulers take counsel together, against the Lord and against His anointed. They imagine they can overthrow the One who sits in the heavens. They suppose their rebellion matters. And God, from His throne, laughs. He has them in derision. For He has already set His king upon His holy hill of Zion.',
     'What follows is one of the oldest and most direct Messianic promises in Scripture. God declares to His anointed Son: "Thou art my Son; this day have I begotten thee." He promises to give Him the heathen for His inheritance and the uttermost parts of the earth for His possession. His rule will break the nations like a potter&apos;s vessel. And all who seek shelter in Him, who place their trust in Him, will be blessed. The psalm is a proclamation both of judgment and of grace—a summons to all the rulers of the earth to kiss the Son, to submit to Him, lest His wrath be kindled. But underneath the warning is an invitation: come, trust, be blessed.',

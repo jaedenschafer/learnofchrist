@@ -14,7 +14,7 @@ export const JEREMIAH_33: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 33,
 
-  estimatedMinutes: { 5: 2, 10: 4, 15: 6 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
   intros: [
     'Jeremiah continues to receive visions of restoration even in exile. God tells the prophet to call upon Him—to pray—and promises that He will reveal "great and mighty things" that Jeremiah does not yet know. This is the voice of hope breaking through history. The God who allowed exile is the same God who prepares restoration. And the restoration He promises is not merely political recovery, but the revelation of a righteous king—one who comes from David&apos;s line, who will execute justice, who is described as "the Branch."',
     'The Branch is a messianic title pointing to a descendant of David who will grow from the root of his family. The language echoes Isaiah&apos;s prophecies. The tone is redemptive, hopeful, pointing toward a king who will reign in righteousness. For a people in exile, this is an announcement that their story does not end in captivity. There is a future. There is a king. There is justice.',

@@ -16,7 +16,7 @@ export const SAMUEL_2_15: RichChapterContent = {
   bookName: '2 Samuel',
   chapter: 15,
 
-  estimatedMinutes: { 5: 10, 10: 18, 15: 22 },
+  estimatedMinutes: { beginner: 10, intermediate: 18, deep: 22 },
   intros: [
     'Absalom has been waiting. For years he has nursed his hatred of Amnon, his half-brother, and when David did nothing, Absalom took revenge himself. Then came exile, separation from his father, and finally reconciliation — but only a reconciliation of proximity. The father and son lived in the same city without speaking. In that cold silence, something darker grew. Absalom began to move.',
     'This chapter tells the story of how a kingdom is stolen without a sword — at first. It is the story of flattery, of a young man who understands what every demagogue learns: the art of appearing to care more than the king does. It is the story of how hearts are stolen through whispered promises, and how a nation can be undermined by a counselor turning against his king. But it is also the story of a king who, when everything is taken, submits to God. And in that submission, we see the shadow of another King whose throne would be challenged, whose own counselor would betray Him, and whose mountain of weeping would be Mount Olivet.',

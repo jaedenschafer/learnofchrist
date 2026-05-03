@@ -15,7 +15,7 @@ export const ISAIAH_25: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 25,
 
-  estimatedMinutes: { 5: 2, 10: 4, 15: 6 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
   intros: [
     'Isaiah 25 moves from the apocalyptic vision of chapter 24 to a response of worship. The prophet praises God for His faithfulness, His destruction of the enemies of His people, and His care for those who are poor and needy. But the passage culminates in a promise that transcends national victory or the defeat of earthly enemies. It speaks to the defeat of death itself—the ultimate enemy that all humanity faces.',
     'The vision of death being swallowed up in victory is the Christian hope in its fullness. It speaks to the resurrection of Christ and, through Him, the resurrection of all who believe in Him. In a world where death seems to have the final word, Isaiah announces that God will triumph over death itself, that tears will be wiped away, and that His people will rejoice forever.',

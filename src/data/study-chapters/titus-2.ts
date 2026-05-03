@@ -14,7 +14,7 @@ export const TITUS_2: RichChapterContent = {
   bookName: 'Titus',
   chapter: 2,
 
-  estimatedMinutes: { 5: 7, 10: 17, 15: 21 },
+  estimatedMinutes: { beginner: 7, intermediate: 17, deep: 21 },
   intros: [
     'Titus 2 is Paul&apos;s blueprint for a church alive—not a monolith, but a living ecosystem where different ages and stations shine differently. The aged anchor the young. The young invigorate the aged. Women mentor women. Men mentor men. The servant in the kitchen testifies to the gospel as loudly as the elder on the platform. This is not hierarchy designed to dominate. It is order designed to flourish.',
     'But notice where Paul plants the foundation: not in rules or roles, but in a single, breathtaking truth. "The grace of God that bringeth salvation hath appeared to all men." Every instruction in this chapter—to the aged, to young women building homes, to servants, to the young man Titus himself—hangs on one hinge: the incarnate, appearing, coming-again Christ. To live the commands of Titus 2 is not to earn heaven. It is to respond to Someone who has already bought us at infinite cost and is coming to claim us.',

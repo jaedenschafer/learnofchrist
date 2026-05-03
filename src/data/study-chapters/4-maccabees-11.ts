@@ -5,7 +5,7 @@ export const FOURTH_MACCABEES_11: RichChapterContent = {
   bookName: '4 Maccabees',
   chapter: 11,
 
-  estimatedMinutes: { 5: 3, 10: 6, 15: 9 },
+  estimatedMinutes: { beginner: 3, intermediate: 6, deep: 9 },
   intros: [
     'The fourth and fifth brothers step forward into the tyrant&apos;s machinery of death. The fourth is placed on the catapult-rack, his ribs broken one by one. The fifth is roasted with metal plates heated in the fire. Yet neither yields. Each speaks defiance and hope, invoking God&apos;s justice and resurrection.',
     'Their words turn suffering into witness. In the fire and on the rack, they proclaim not despair but the victory of covenant—a victory that death itself cannot undo.',

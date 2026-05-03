@@ -20,7 +20,7 @@ export const SAMUEL_1_28: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 28,
 
-  estimatedMinutes: { 5: 3, 10: 9, 15: 12 },
+  estimatedMinutes: { beginner: 3, intermediate: 9, deep: 12 },
   intros: [
     'The Philistines are gathering for war. Achish tells David that he and his men will march into battle alongside the Philistine forces. But the chapter that follows is not about David. It shifts abruptly to Saul, gathering Israel against the very army David walks with — a narrative knot that will not untangle until we reach the battlefield.',
     'Saul is afraid. When he sees the Philistine host assembled, his heart "greatly trembled." He seeks the Lord, but the Lord does not answer — not through dreams, not through the Urim (the priestly casting lots), not through any prophet. The God who once spoke so clearly to Saul has gone silent. In desperation, Saul does the unthinkable: he breaks his own law against mediums and wizards, and goes by night to a woman at Endor who claims to traffic with the dead. What happens there is one of the strangest passages in Scripture.',

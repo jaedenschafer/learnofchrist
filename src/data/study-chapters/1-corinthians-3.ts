@@ -16,7 +16,7 @@ export const FIRST_CORINTHIANS_3: RichChapterContent = {
   bookName: '1 Corinthians',
   chapter: 3,
 
-  estimatedMinutes: { 5: 7, 10: 13, 15: 17 },
+  estimatedMinutes: { beginner: 7, intermediate: 13, deep: 17 },
   intros: [
     'The Corinthian believers had begun to measure spiritual maturity by their loyalty to favorite teachers. Some followed Paul, others Apollos, others Cephas. This was not mere tribal preference—it was a denial of the gospel itself. If your allegiance is to a pastor, a teacher, a writer, or any human leader, you have missed the only foundation that matters: Christ.',
     'Paul&apos;s remedy is neither flattery nor false humility. He speaks to them as a wise masterbuilder who has laid one foundation and watched others build upon it. That day is coming—Paul says it plainly—when fire will test every builder&apos;s work. What survives? Only what was built on Christ, with integrity, with care, with love. Everything else burns.',

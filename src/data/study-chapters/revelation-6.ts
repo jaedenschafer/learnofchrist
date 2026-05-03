@@ -16,7 +16,7 @@ export const REVELATION_6: RichChapterContent = {
   bookName: 'Revelation',
   chapter: 6,
 
-  estimatedMinutes: { 5: 8, 10: 12, 15: 18 },
+  estimatedMinutes: { beginner: 8, intermediate: 12, deep: 18 },
   intros: [
     'Revelation 6 opens the scroll. With each broken seal, a vision unfolds—not random chaos, but a deliberate unrolling of judgment and promise. The white horse rides forth, then the red, then the black. Death himself appears on a pale horse. Beneath the altar, the souls of the slain cry out: "How long?" And when the sixth seal breaks, creation trembles.',
     'None of these seals are loose accidents. The Lamb opens them. Christ holds the scroll. Everything you see—conquest and war, famine and death, martyrdom and cosmic upheaval—happens under His hand. The chapter ends with a people in terror, hiding in the rocks, asking the question that will define everything after: "Who shall be able to stand?"',

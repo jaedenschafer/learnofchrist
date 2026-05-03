@@ -14,7 +14,7 @@ export const EZEKIEL_38: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 38,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'After the restoration of Israel, after the dry bones have been made alive, after the covenant of peace has been established, a new threat emerges. Gog, a mysterious figure from the north—the name is perhaps symbolic or perhaps a tyrant of whom the ancients knew—gathers an army of immense nations: Meshech, Tubal, Persia, Ethiopia, and Libya. They march toward restored Israel, imagining they will seize the wealth of a recovered people. But what they do not reckon with is God.',
     'This is the final battle, the ultimate test of God&apos;s power. Will the restored kingdom be overthrown? Will the covenant of peace be broken? No. God will bring Gog down. He will shake the mountains. He will rain fire and brimstone. His victory will be absolute and undeniable. All the nations will know that He alone is God.',

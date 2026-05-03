@@ -25,7 +25,7 @@ export const NUMBERS_22: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 22,
 
-  estimatedMinutes: { 5: 9, 10: 17, 15: 20 },
+  estimatedMinutes: { beginner: 9, intermediate: 17, deep: 20 },
   intros: [
     'Israel is camped on the plains of Moab, east of the Jordan, and Balak king of Moab is afraid. Israel has conquered the Amorites and drawn nearer to Moab with every mile. In desperation, Balak sends for a prophet named Balaam to curse Israel. Balaam is famous across the ancient world — whatever he blesses is blessed, whatever he curses is cursed. Surely this man can deliver Moab from the threat.',
     'But here is the trouble: Balaam knows God. When God tells him "thou shalt not go," Balaam refuses the first embassy from Balak and his princes. But Balak is persistent. He sends princes again, this time with more money, and God — in a mysterious move — lets Balaam go. What follows is one of the Bible\'s most peculiar moments. Balaam rides his donkey toward Moab to curse Israel, but three times the donkey sees the angel of the LORD blocking the road with a drawn sword. Three times she refuses to pass. Three times Balaam beats her. Then God opens the donkey\'s mouth, and the animal speaks: "What have I done unto thee, that thou hast smitten me these three times?" The donkey has saved his life.',

@@ -5,7 +5,7 @@ export const FIRST_ESDRAS_4: RichChapterContent = {
   bookName: '1 Esdras',
   chapter: 4,
 
-  estimatedMinutes: { 5: 6, 10: 9, 15: 13 },
+  estimatedMinutes: { beginner: 6, intermediate: 9, deep: 13 },
   intros: [
     'Three young men stand before the Persian king Darius and answer his riddle: what is strongest in the world? The first answers "wine." The second, "the king." But Zerubbabel, the future builder of the second temple, offers a third answer—women—then adds something that changes everything: "but above all things truth beareth away the victory." His words about truth&apos;s unshakeable power capture the king&apos;s imagination.',
     'What Zerubbabel describes is not merely honesty or accuracy. He describes truth as the foundation of all order, all justice, all meaning. When a king recognizes truth, he recognizes his own legitimacy. Darius hears the argument and grants everything Zerubbabel asks: the exiles may return home, the temple will be rebuilt, and the king himself will fund it. Truth, once seen clearly, bends even earthly power toward the purposes of God.',

@@ -13,7 +13,7 @@ export const PROVERBS_23: RichChapterContent = {
   bookName: 'Proverbs',
   chapter: 23,
 
-  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
   intros: [
     'Proverbs 23 opens with warnings about false generosity and spiritual danger, then turns to the vulnerability of appetite. Do not eat with one whose eye is evil, even if his table is laden with good things. His hospitality is a trap. And wine deceives—it appears to offer pleasure and liberation but delivers bondage. The chapter then moves to the deepest request: "My son, give me thine heart." Not your behavior, not your obedience, but your very self. Your heart.',
   ],

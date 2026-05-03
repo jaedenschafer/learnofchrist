@@ -14,7 +14,7 @@ export const EXODUS_1: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 1,
 
-  estimatedMinutes: { 5: 6, 10: 11, 15: 13 },
+  estimatedMinutes: { beginner: 6, intermediate: 11, deep: 13 },
   intros: [
     'Four hundred years have passed since Joseph guided Egypt through famine and founded the dynasty that saved his family. Genesis ended with Jacob and his sons settled in Goshen, flourishing. Exodus begins with everything changed: a new pharaoh, a fresh fear, and God&apos;s people no longer guests but slaves. Yet the chapter&apos;s heartbeat is not despair—it is multiplication. The more the rulers of Egypt try to crush Israel, the more Israel multiplies. A power that fears the life God gives always tries to strangle it; God always builds it more.',
     'At the center are two midwives, Shiphrah and Puah—the first named act of civil disobedience in scripture. They refuse a royal command and instead obey God. No armies, no prophets, no signs: just two women afraid of God rather than a king, and it changes everything. Their refusal becomes the opening note of liberation.',

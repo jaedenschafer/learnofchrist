@@ -13,7 +13,7 @@ export const JOSHUA_24: RichChapterContent = {
   bookName: 'Joshua',
   chapter: 24,
 
-  estimatedMinutes: { 5: 10, 10: 17, 15: 20 },
+  estimatedMinutes: { beginner: 10, intermediate: 17, deep: 20 },
   intros: [
     'Joshua 24 is the final chapter of the book, and one of the most electrifying in all Scripture. The aging general gathers every tribe of Israel at Shechem—elders, judges, officers, every person—to stand before God and renew the covenant that binds them. But this is not a ceremony of rubber-stamping. Joshua does something extraordinary: he recites Israel&apos;s entire history in God&apos;s own voice, from Abraham to that very moment, and then strips away every comfortable assumption and asks the hardest question: "Choose you this day whom ye will serve."',
     'What makes this chapter extraordinary is how Joshua refuses easy faith. When the people cry "We will serve the Lord," he doesn&apos;t celebrate—he warns them. "Ye cannot serve the Lord," he says. "He is a jealous God." He will not forgive casual commitment. And only after testing them three times, after the people affirm their choice with full eyes open, does he establish the covenant and set up a stone as witness. This is not a feel-good ending to a military conquest. It is a funeral, a farewell, a father who will not leave his children with illusions.',

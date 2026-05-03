@@ -16,7 +16,7 @@ export const CHRONICLES_2_5: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 5,
 
-  estimatedMinutes: { 5: 5, 10: 10, 15: 14 },
+  estimatedMinutes: { beginner: 5, intermediate: 10, deep: 14 },
   intros: [
     'The temple is finished. Year after year, the sound of hammers and chisels has filled Jerusalem. The silver and gold that David accumulated for this purpose have been melted down and shaped into vessels of worship. The walls stand complete. The furnishings are in place. And now, in the seventh month, when the feast of Tabernacles is being celebrated, Solomon calls all Israel to gather for a ceremony that will transform this building of stone and wood into something far greater: a dwelling place for the divine presence.',
     'The ark of the covenant is about to be brought from Zion, from the tent where it has rested since David&apos;s time. This is no ordinary transaction. This is the object around which all of Israel&apos;s covenant history revolves — the box that contains the two tablets of the law given at Sinai, the thing that has been carried through the wilderness, that has marched before Israel in battle, that has stood as the visible sign of God&apos;s faithfulness. As the priests lift it and begin to move it toward the temple, something extraordinary happens. The music rises. The unified voice of worship fills the space. And God responds.',

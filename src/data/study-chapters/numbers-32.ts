@@ -5,7 +5,7 @@ export const NUMBERS_32: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 32,
 
-  estimatedMinutes: { 5: 7, 10: 10, 15: 12 },
+  estimatedMinutes: { beginner: 7, intermediate: 10, deep: 12 },
   intros: [
     'The conquest of the land east of Jordan is nearly complete. Reuben, Gad, and half of Manasseh have seen the territory they conquered—lush grasslands, perfect for cattle. They approach Moses with a request: let us settle here. We will not cross the Jordan with the rest of Israel.',
     'Moses is furious. This looks exactly like the spies of Numbers 13—men looking at the promise and deciding it&apos;s too hard, choosing comfort over covenant. The three tribes negotiate: our warriors will fight at your side in the conquest of Canaan itself. We&apos;ll leave our families and flocks here, but we&apos;ll fight your battles. Only then can we return home. Moses agrees, but warns: "Be sure your sin will find you out" (v. 23). The condition is not a threat—it&apos;s a promise that faithfulness to your word matters to God.',

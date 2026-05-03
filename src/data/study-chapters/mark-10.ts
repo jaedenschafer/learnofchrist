@@ -21,7 +21,7 @@ export const MARK_10: RichChapterContent = {
   bookName: 'Mark',
   chapter: 10,
 
-  estimatedMinutes: { 5: 2, 10: 6, 15: 8 },
+  estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
   intros: [
     'Mark 10 opens with Jesus teaching on divorce. The Pharisees test Him: is it lawful for a man to put away his wife? Jesus appeals to the beginning: "From the beginning of the creation God made them male and female...and they twain shall be one flesh." The covenant of marriage reflects the covenant of God with His people. It is not to be dissolved lightly. Then He is asked about the rich young man who keeps the law but is sorrowful, unwilling to sell all and follow Jesus. The man&apos;s wealth is his god. Jesus grieves at the hardness of hearts that cannot let go of riches to follow God.',
     'Peter asks what the disciples have left to follow Jesus. Jesus promises them a hundredfold return, even in persecution, and eternal life. But many who are first will be last, and the last first. Again Jesus foretells His death. James and John ask to sit at His right and left in glory. Jesus asks if they can drink His cup. They say yes, not understanding. Jesus teaches them: "Whosoever will be great among you, shall be your minister; and whosoever of you will be the chiefest, shall be servant of all. For even the Son of man came not to be ministered unto, but to minister, and to give his life a ransom for many." The chapter closes with the healing of Bartimaeus, a blind beggar, whose faith restores his sight.',

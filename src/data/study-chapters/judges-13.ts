@@ -11,7 +11,7 @@ export const JUDGES_13: RichChapterContent = {
   bookName: 'Judges',
   chapter: 13,
 
-  estimatedMinutes: { 5: 6, 10: 10, 15: 14 },
+  estimatedMinutes: { beginner: 6, intermediate: 10, deep: 14 },
   intros: [
     'The children of Israel have done evil again. The Lord has delivered them into the hand of the Philistines for forty years. Into this darkness comes a stillness — a woman of Zorah, barren and voiceless in her culture, kneels in her field. An angel appears to her with a message no one would expect: she will bear a son.',
     'What follows is the Bible&apos;s most intricate visitation narrative. An angel comes twice to a family that doesn&apos;t understand who is visiting them. The angel&apos;s name is hidden. The mystery of what is about to unfold — a Nazarite child, set apart from the womb, to begin the deliverance of Israel — hangs in the questions Manoah asks and the questions left deliberately unanswered.',

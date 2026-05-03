@@ -12,7 +12,7 @@ export const PROVERBS_24: RichChapterContent = {
   bookName: 'Proverbs',
   chapter: 24,
 
-  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
   intros: [
     'Proverbs 24 celebrates what wisdom builds and warns against the small cruelties that diminish us. A house—a life, a legacy—is built not through luck or force, but through wisdom, understanding, and knowledge. And when your enemy falls, the natural human reaction is satisfaction, vindication, schadenfreude. But Proverbs calls for something higher: restraint, and even compassion.',
   ],

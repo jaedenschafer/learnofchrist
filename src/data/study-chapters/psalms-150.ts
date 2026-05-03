@@ -16,7 +16,7 @@ export const PSALMS_150: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 150,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'Psalm 150 is the final psalm of the Psalter—the conclusion of 150 chapters of prayer, lament, praise, thanksgiving, and petition. It is entirely praise. There is no complaint, no petition, no lament. Only the single command, repeated and amplified: praise. The psalm catalogs where praise should happen ("in his sanctuary"), why it should happen ("for his mighty acts," "for his excellent greatness"), and how it should happen (with every instrument named—trumpet, psaltery, harp, timbrel, dance, stringed instruments, organs, loud cymbals). The climax is universal: "Let every thing that hath breath praise the Lord." The Psalter ends not with a question or a sigh, but with the cry: "Praise ye the Lord." It is both an ending and an invitation that echoes beyond the text into the life of the reader.',
   ],

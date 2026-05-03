@@ -5,7 +5,7 @@ export const LEVITICUS_26: RichChapterContent = {
   bookName: 'Leviticus',
   chapter: 26,
 
-  estimatedMinutes: { 5: 9, 10: 17, 15: 20 },
+  estimatedMinutes: { beginner: 9, intermediate: 17, deep: 20 },
   intros: [
     'Leviticus 26 lays out the covenant terms with brutal clarity. Do this, and you will live in peace with rain in season, fruitful harvests, safety, victory over enemies. Break the covenant, and the curses unfold in layers — each one worse than the last. Terror. Drought. Wild beasts. Sword. Plague. Exile. The chapter does not soften the darkness; it names it straight. Yet underneath every curse runs a promise: &ldquo;I will remember my covenant.&rdquo; If Israel confesses and humbles itself, God will not turn away.',
     'For the Christian reader, Leviticus 26 is written entirely in shadow. Christ stepped into the curses meant for His people. The blessings promised here flow to us through Him. This is not <em>our</em> judgment waiting; it is judgment already faced and overcome.',

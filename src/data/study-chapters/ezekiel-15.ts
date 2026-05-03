@@ -15,7 +15,7 @@ export const EZEKIEL_15: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 15,
 
-  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
   intros: [
     'The book of Ezekiel moves toward its close with a final series of parables. The prophet has announced judgment. He has proclaimed the departure of God&apos;s glory. He has condemned false prophets and false worship. Now he speaks a parable about a vine. Israel is a vine, planted by God in the promised land. But what is a vine for? A vine is for bearing fruit. Its wood is useless for anything else — cannot be fashioned into handles or pegs or useful instruments. And if the vine fails to bear fruit, what is left? Only wood fit for burning. The parable is deceptively simple, but its meaning is clear: Israel has been given one purpose. To bear the fruit of faithfulness, of justice, of love. If it fails in that purpose, it has failed in everything. And the only recourse left is judgment.',
   ],

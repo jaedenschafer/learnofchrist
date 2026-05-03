@@ -23,7 +23,7 @@ export const SAMUEL_2_21: RichChapterContent = {
   bookName: '2 Samuel',
   chapter: 21,
 
-  estimatedMinutes: { 5: 7, 10: 11, 15: 14 },
+  estimatedMinutes: { beginner: 7, intermediate: 11, deep: 14 },
   intros: [
     'The book of 2 Samuel now turns inward, away from David&apos;s battles and glory, toward the hidden sickness in the kingdom. A famine has seized the land for three years. Crops fail. Animals sicken. The people suffer. But this is not random calamity. It is a judgment with a cause — a breach in the covenant sworn long ago.',
     'When David seeks the Lord, he learns the truth: Saul broke faith with the Gibeonites, an ancient people of Canaan with whom Israel had sworn a binding oath. Saul, in his zeal for Israel, tried to erase them. God saw. And now, decades later, God has not forgotten the bloodguilt that cries out from the ground. Atonement must be made. What unfolds is a chapter of restitution, of grief that will not stay hidden, and ultimately of covenant — both broken and restored.',

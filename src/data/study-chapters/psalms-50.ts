@@ -14,7 +14,7 @@ export const PSALMS_50: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 50,
 
-  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
   intros: [
     'Psalm 50 begins with a remarkable image: God is speaking. "The mighty God, even the Lord, hath spoken, and called the earth from the rising of the sun unto the going down thereof." God is calling the whole creation into judgment. But His judgment is not about the external ritual that seems to dominate Israel&apos;s worship. It is about the heart. He says directly: "I will take no bullock out of thy house, nor he goats out of thy folds." This would have been shocking. The Temple system was built on sacrifice. Yet God declares that sacrifice without thanksgiving, sacrifice that masks an ungrateful heart, is worthless. What does He want? "Whoso offereth praise glorifieth me."',
     'The psalm is a call to transform worship from external ritual to internal reality. The true offering is not an animal on an altar. It is a grateful, thankful, praising heart. This echoes through Scripture and reaches its culmination in the New Testament, where Christ Himself becomes the final sacrifice, and believers are called to present themselves "a living sacrifice, holy, acceptable unto God, which is your reasonable service" (Romans 12:1). The psalm teaches that what God wants most is not our things, but ourselves.',

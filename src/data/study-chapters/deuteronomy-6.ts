@@ -11,7 +11,7 @@ export const DEUTERONOMY_6: RichChapterContent = {
   bookName: 'Deuteronomy',
   chapter: 6,
 
-  estimatedMinutes: { 5: 7, 10: 13, 15: 17 },
+  estimatedMinutes: { beginner: 7, intermediate: 13, deep: 17 },
   intros: [
     'Deuteronomy 6 contains the Shema (שְׁמַע, "hear"), Israel&apos;s twice-daily declaration of faith. It is the prayer Jesus called the first and greatest commandment—not a rule to obey from fear, but a covenant to love the Lord with everything you are. The chapter binds God&apos;s words into the fibers of daily life: spoken at the table, carried in memory, inscribed on the doorway. Faith is not contained in temple or Sabbath; it is woven into ordinary moments.',
     'The chapter also sounds a warning: prosperity is the greatest spiritual test. When you eat and are full, living in houses you didn&apos;t build and enjoying harvests you didn&apos;t plant, the temptation will not be to serve false gods openly—it will be to forget. To live as though the ordinary goods around you came from ordinary causes. To drift. This tension—between love, formation, and the forgetting that plenty brings—runs through the entire chapter.',

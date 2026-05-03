@@ -20,7 +20,7 @@ export const FIRST_THESSALONIANS_4: RichChapterContent = {
   bookName: '1 Thessalonians',
   chapter: 4,
 
-  estimatedMinutes: { 5: 6, 10: 11, 15: 17 },
+  estimatedMinutes: { beginner: 6, intermediate: 11, deep: 17 },
   intros: [
     'Paul has just comforted the Thessalonians about those who have "fallen asleep"—believers who died before seeing Christ&apos;s return. Now he turns to their daily walk. Holiness is not abstract. It is how you use your body, how you treat others, how you earn your bread. Sanctification touches everything.',
     'The call to sanctification is urgent but not joyless. Paul grounds it in the hope of Christ&apos;s return. You are preserved—set apart—not for judgment but for reunion. This is the comfort that transforms ethics into love.',

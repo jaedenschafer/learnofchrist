@@ -16,7 +16,7 @@ export const DANIEL_4: RichChapterContent = {
   bookName: 'Daniel',
   chapter: 4,
 
-  estimatedMinutes: { 5: 2, 10: 5, 15: 6 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
   intros: [
     'This chapter is unusual among the chapters of Daniel: it is narrated in the king&apos;s own voice. Nebuchadnezzar himself recounts his dream and its terrible fulfillment. At ease in his palace, regarding his power and glory, he has a dream that troubles him. He sees a great tree in the midst of the earth, so high it reaches to heaven. The fruit is abundant, the leaves are fair, the beasts of the field find shade under it. But a holy watcher cries out, and the tree is hewn down. Only the stump remains, banded with a band of iron and brass.',
     'The dream continues. The stump shall become like the heart of a beast, not a man. For seven times—seven years—the king shall eat grass like oxen, driven from the dwelling of men, until he comes to know a truth that towers over him as the tree towered over the earth: that the most High ruleth in the kingdom of men, and giveth it to whomsoever he will. And what seems like madness is in fact the mercy of God, teaching the mightiest king on earth the humility that alone makes a man truly great.',

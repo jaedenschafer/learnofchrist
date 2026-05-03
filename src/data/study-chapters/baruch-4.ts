@@ -14,7 +14,7 @@ export const BARUCH_4: RichChapterContent = {
   bookName: 'Baruch',
   chapter: 4,
 
-  estimatedMinutes: { 5: 7, 10: 14, 15: 18 },
+  estimatedMinutes: { beginner: 7, intermediate: 14, deep: 18 },
   intros: [
     'Baruch 4 is a shift from wisdom poetry into the voice of a mother. Jerusalem speaks—no longer to the nations or to God alone, but directly to her exiled children. She has watched them scatter. She knows their sin. Yet her words are not accusation but longing. She holds two things together: the reality of their rebellion and the certainty of their restoration. She is the figure of Zion personified—suffering, watching, waiting, calling them home.',
     'This chapter echoes Isaiah 40 ("Comfort ye, comfort ye my people") and anticipates the New Testament image of the heavenly Jerusalem as mother (Galatians 4:26). A mother who grieves, but not without hope. Who sees her children in captivity, yet speaks as if their return is already certain. In her words, the genre shifts: from the lament and instruction of chapters 1–3 to the active encouragement and vindication of chapter 4.',

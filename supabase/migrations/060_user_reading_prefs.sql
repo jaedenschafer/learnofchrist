@@ -1,20 +1,21 @@
 -- Migration 060: user_reading_prefs
 --
 -- One row per user holding the device-syncable reading preferences. Currently:
---   - depth_tier   : 5 / 10 / 15 (Quick / Standard / Deep study guide depth)
+--   - study_level : beginner | intermediate | deep   (Bible study depth)
 --
 -- localStorage remains the source of truth on a single device. This row is the
 -- cross-device sync mechanism — when the user lands on a new device (or the
 -- iOS app), the saved preferences are read at session start and seed the
 -- in-memory state. Writes from the client are debounced (~500ms) so rapid taps
--- on the depth control don't spam the API.
+-- on the level control don't spam the API.
 --
 -- Designed to grow: when we want to also sync font_size / theme / reading_mode
 -- across devices, add columns here rather than a separate table.
 
 create table if not exists public.user_reading_prefs (
   user_id      uuid primary key references auth.users(id) on delete cascade,
-  depth_tier   smallint not null default 10 check (depth_tier in (5, 10, 15)),
+  study_level  text not null default 'intermediate'
+                  check (study_level in ('beginner', 'intermediate', 'deep')),
   updated_at   timestamptz not null default now()
 );
 

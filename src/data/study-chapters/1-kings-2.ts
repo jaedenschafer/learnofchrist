@@ -17,7 +17,7 @@ export const KINGS_1_2: RichChapterContent = {
   bookName: '1 Kings',
   chapter: 2,
 
-  estimatedMinutes: { 5: 13, 10: 23, 15: 31 },
+  estimatedMinutes: { beginner: 13, intermediate: 23, deep: 31 },
   intros: [
     'David&apos;s reign is ending. After forty years — seven in Hebron as a fugitive king, thirty-three in Jerusalem as the Lord&apos;s anointed — the man who conquered enemies and danced before the ark now lies on his deathbed. He has one last task: to commission his successor and settle the accounts of his kingdom. In this final charge, David reminds Solomon of what kingship requires: strength, obedience to God&apos;s law, and the keeping of sacred promises — even when those promises demand hard acts.',
     'When David dies, Solomon faces his first real test. His older brother Adonijah, who thought the throne was his, makes a political chess move: he asks the new queen-mother Bathsheba to request that Solomon give him the widow Abishag — a concubine of David&apos;s. It seems an innocent request. It is not. Marrying the former king&apos;s concubine was an ancient claim on the throne itself. Solomon sees through it instantly, and condemns Adonijah to death. Then comes the harder work: removing the old power brokers who supported the failed rebellion — Joab and Shimei. By the time the executions are finished, the kingdom has been purged of rivals and the way is clear for a new reign. But the cost is high. This is the price of establishing a stable throne.',

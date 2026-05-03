@@ -18,7 +18,7 @@ export const MARK_6: RichChapterContent = {
   bookName: 'Mark',
   chapter: 6,
 
-  estimatedMinutes: { 5: 2, 10: 6, 15: 8 },
+  estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
   intros: [
     'Jesus returns to His hometown, Nazareth. Those who know Him from childhood gather to hear Him. They are astonished at His teaching and the miracles wrought by His hands. But their astonishment turns to offense: "Is not this the carpenter, the son of Mary, the brother of James, and Joses, and of Simon? and are not his sisters here with us?" They cannot see past the familiar. Familiarity can blind. Jesus says: "A prophet is not without honour, but in his own country, and among his own kin." And He cannot do many mighty works there because of their unbelief.',
     'Jesus sends out the Twelve with authority to cast out demons and preach. They go two by two, taking no bread, no staff, no money—trusting completely in God&apos;s provision. Meanwhile, Herod has heard of Jesus and become afraid. He fears that John the Baptist, whom he had beheaded, has risen. This interlude reveals the consequences of hardness of heart. Herod fears the dead Baptist more than he honors God. The chapter moves from rejection to provision: Jesus feeds five thousand with five loaves and two fishes. Then He walks on the water to His disciples. The kingdom of Christ is sustained by His power and presence.',

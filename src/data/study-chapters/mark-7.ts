@@ -18,7 +18,7 @@ export const MARK_7: RichChapterContent = {
   bookName: 'Mark',
   chapter: 7,
 
-  estimatedMinutes: { 5: 2, 10: 6, 15: 8 },
+  estimatedMinutes: { beginner: 2, intermediate: 6, deep: 8 },
   intros: [
     'Mark 7 opens with a confrontation between Jesus and the religious authorities. The Pharisees and scribes have come from Jerusalem and notice that some of the disciples eat without washing their hands according to the tradition of the elders. This is not a matter of hygiene but of ritual purity. The tradition has become law. But Jesus will not accept the subordination of God&apos;s actual command to human tradition. He points out their hypocrisy: they leave the command of God to hold fast to the tradition of men.',
     'Jesus teaches that defilement comes not from eating with unwashed hands but from the human heart. "There is nothing from without a man, that entering into him can defile him: but the things which come out of him, those are they that defile the man." It is what comes out—evil thoughts, murders, adulteries—that defiles. The chapter then moves to the healing of a Syrophoenician woman&apos;s daughter—a non-Jewish woman, one outside the covenant—and a deaf-mute man. Both are healed. Both are brought within the circle of Jesus&apos; care and restoration. The boundary between insider and outsider is dissolved.',

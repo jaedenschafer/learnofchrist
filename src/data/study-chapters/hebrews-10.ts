@@ -20,7 +20,7 @@ export const HEBREWS_10: RichChapterContent = {
   bookName: 'Hebrews',
   chapter: 10,
 
-  estimatedMinutes: { 5: 10, 10: 19, 15: 29 },
+  estimatedMinutes: { beginner: 10, intermediate: 19, deep: 29 },
   intros: [
     'Hebrews 10 is where the entire book reaches its crescendo. The author has spent nine chapters building a case: Christ is superior to the prophets, superior to angels, superior to Moses, superior to Joshua, and superior to the entire Levitical priesthood. Now comes the hammer blow. The Law was not weakness—it was shadow. And shadow, no matter how beautifully carved or carefully performed, can never become the thing itself.',
     'Every year, on the Day of Atonement, the high priest entered the Holy of Holies to offer sacrifices for the sins of the people. Every year, the same ritual. Every year, the people remained incomplete, unfinished, perpetually approaching but never arriving at perfection. The author asks: if the old system actually worked, why would you need to do it again next year? Into that endless cycle steps Jesus. One body. One offering. Once for all. Done.',

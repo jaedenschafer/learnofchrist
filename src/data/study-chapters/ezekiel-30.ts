@@ -20,7 +20,7 @@ export const EZEKIEL_30: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 30,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'Ezekiel 30 completes the judgment oracle against Egypt with language of universal judgment. "The day of the Lord is near, even the day of clouds; it shall be the time of the heathen." What is spoken of Egypt is set within a larger framework—God&apos;s ultimate reckoning with all nations. The judgment of Egypt is a sign of the Day of the Lord itself.',
     'The chapter catalogs the destruction methodically: idols destroyed, cities burned, princes slain, the multitude cut off. But beneath the list of devastation lies a promise: "They shall know that I am the Lord." The judgment, terrible as it is, is God&apos;s way of forcing recognition of His power. When all earthly supports have been stripped away, then the nations will know that God alone is Lord.',

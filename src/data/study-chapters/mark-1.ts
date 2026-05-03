@@ -18,7 +18,7 @@ export const MARK_1: RichChapterContent = {
   bookName: 'Mark',
   chapter: 1,
 
-  estimatedMinutes: { 5: 3, 10: 7, 15: 9 },
+  estimatedMinutes: { beginner: 3, intermediate: 7, deep: 9 },
   intros: [
     'The gospel according to Mark begins at the moment John the Baptist appears in the wilderness, proclaiming a baptism of repentance for the forgiveness of sins. John is dressed in camel&apos;s hair and eats locusts and wild honey. He stands at the threshold between the old covenant and the new, calling Israel to prepare for one who comes after him—one whose shoes John is not worthy to stoop and unloose. Into this scene steps Jesus of Nazareth, from Galilee.',
     'Jesus is baptized by John in the Jordan. The heavens open. The Spirit descends like a dove. A voice from heaven speaks: "Thou art my beloved Son, in whom I am well pleased." This is the moment the entire biblical story has been moving toward—the arrival of the promised Messiah, the one through whom God will accomplish redemption. And yet what follows is not triumph but testing. The Spirit immediately drives Jesus into the wilderness to be tempted. The kingdom of God is not announced gently. It arrives with power and demand.',

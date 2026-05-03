@@ -24,7 +24,7 @@ export const EZRA_10: RichChapterContent = {
   bookName: 'Ezra',
   chapter: 10,
 
-  estimatedMinutes: { 5: 5, 10: 9, 15: 14 },
+  estimatedMinutes: { beginner: 5, intermediate: 9, deep: 14 },
   intros: [
     'Ezra&apos;s prayer has moved the people. His grief has become theirs. Now the question stands: What will they do? A man named Shechaniah steps forward with a proposal that will reshape the entire community. He names the sin plainly — strange wives, foreign gods — and then offers something harder than confession: a covenant to undo what has been done.',
     'What follows is a painful resolution. The people gather in the rain, trembling. They acknowledge their transgression. And then they act. The text names those who put away their wives, those who separated themselves and their children from foreign-god-bringing families. The chapter ends not with triumph, but with a list of the broken and the separated, and a people learning what covenant costs.',

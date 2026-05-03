@@ -19,7 +19,7 @@ export const KINGS_2_18: RichChapterContent = {
   bookName: '2 Kings',
   chapter: 18,
 
-  estimatedMinutes: { 5: 6, 10: 13, 15: 17 },
+  estimatedMinutes: { beginner: 6, intermediate: 13, deep: 17 },
   intros: [
     'The kingdom of Judah has wandered far into idolatry. Kings before Hezekiah have tolerated, even encouraged, the worship of foreign gods and the fertility cults that corrupted Israel&apos;s covenant with the Lord. Altars to Baal dot the hillsides. The serpent of bronze — the very instrument of God&apos;s mercy in the wilderness — has become an object of worship. The nation is sick, the temple neglected, and the people&apos;s hearts divided.',
     'And then Hezekiah comes to the throne. In the very first years of his reign, he acts with the speed and courage of a man seized by religious conviction. He closes the temple doors, he purifies the sanctuary, he destroys every idol — and he does something striking: he shatters the brazen serpent itself, an act that seems almost dangerous in its boldness. Only a king who trusts the Lord absolutely could destroy an ancient holy artifact because it had become an occasion for sin.',

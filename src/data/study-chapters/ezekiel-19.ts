@@ -17,7 +17,7 @@ export const EZEKIEL_19: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 19,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'Ezekiel 19 is a lamentation—a formal dirge sung over the dead or the dying. In this case, the prophet laments over Israel&apos;s kings. The image is tender and heartbreaking: a lioness (Jerusalem) raises her cubs (her princes and kings) to be mighty hunters, strong and fierce. But they do not fulfill their destiny. One is captured in a pit. Another is taken in chains to Babylon. The lioness cries out in anguish from her ruined home. This is the fate of what should have been leaders and protectors.',
     'The lamentation does not explain why this has happened—that explanation lies in the earlier chapters. Here, Ezekiel simply mourns the loss. But woven through the mourning is a thread of hope: there shall come a King—the Lion of Judah—who cannot be trapped, who will reign in the strength that no human king has ever known.',

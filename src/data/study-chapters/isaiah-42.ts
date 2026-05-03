@@ -16,7 +16,7 @@ export const ISAIAH_42: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 42,
 
-  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
   intros: [
     'Isaiah 42 introduces one of the most important themes in the prophetic books: the Servant of the Lord. This servant is called God&apos;s elect, the one in whom God&apos;s soul delights. The Spirit is put upon him. And his method is striking: he will not cry aloud or lift his voice in the streets. A bruised reed he will not break. A smoking flax he will not quench. He will not fail or be discouraged until he has set judgment in the earth. This is not a description of a powerful conqueror. This is the description of one whose power is expressed through gentleness, through healing, through the patient establishment of justice. Matthew explicitly quotes this passage and applies it to Jesus. This is the Messiah.',
   ],

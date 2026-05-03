@@ -14,7 +14,7 @@ export const ISAIAH_18: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 18,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'Ethiopia is mentioned here as a distant nation, a great power in the south. Yet the oracle is not primarily about Ethiopia&apos;s judgment. Rather, it is about the ingathering of nations. The prophet sees a day when the peoples of the earth—not through military conquest but through a movement of the Spirit—will be brought to Mount Zion, to the place of God&apos;s dwelling, to behold His glory.',
     'This is a profoundly missionary word. It speaks of a future in which the vision of God is not confined to one people but is revealed to the nations. The trumpet shall be blown, and all the earth shall see the sign that the Lord has set. It is a prophecy of the spread of the Gospel to all nations.',

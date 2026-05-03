@@ -15,7 +15,7 @@ export const SAMUEL_2_14: RichChapterContent = {
   bookName: '2 Samuel',
   chapter: 14,
 
-  estimatedMinutes: { 5: 11, 10: 17, 15: 21 },
+  estimatedMinutes: { beginner: 11, intermediate: 17, deep: 21 },
   intros: [
     'Two years have passed since David drove his son Absalom into exile for murdering his brother Amnon. The king\'s anger has cooled, but a distance remains — between a father and his son, between justice and mercy. Joab, David\'s military commander, perceives the shift in the king\'s heart. And Joab, practical and clever, knows how to open a closed door: not with argument, but with a parable.',
     'In this chapter, we meet one of Scripture\'s most remarkable characters: a woman from Tekoah, described as "wise," whom Joab instructs to present herself to the king as a widow seeking justice. She speaks a hypothetical grief — a story of two sons, one dead, one threatened. And through her words, the king finds permission to do what his heart wants: to bring his son home. Yet the homecoming is incomplete. Absalom sees Jerusalem but not his father\'s face. Mercy without full reconciliation. And in the shadow of this partial restoration, we hear echoes of our own exile and of Christ\'s perfect restoration.',

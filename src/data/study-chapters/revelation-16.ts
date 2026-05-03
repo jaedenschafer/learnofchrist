@@ -15,7 +15,7 @@ export const REVELATION_16: RichChapterContent = {
   bookName: 'Revelation',
   chapter: 16,
 
-  estimatedMinutes: { 5: 7, 10: 15, 15: 20 },
+  estimatedMinutes: { beginner: 7, intermediate: 15, deep: 20 },
   intros: [
     'Revelation 16 opens with seven angels standing before the throne of God, each holding a vial filled with His wrath. One by one they pour them out upon the earth—and what follows is not random chaos but the mirror image of the plagues of Egypt, now poured out at cosmic scale. Sores break out on those who bore the mark of the beast. The sea becomes blood. Rivers turn red. The sun scorches. Darkness falls. The Euphrates dries up. And three unclean spirits—frogs—gather the kings of the earth for a final assembly at a place called Armageddon.',
     'Yet the chapter is not a scream; it is a whisper from the throne. When the seventh vial is poured, the voice of God speaks two words: <em>"It is done."</em> The same words Jesus spoke from the cross. The wrath of God against sin was drunk by Christ Himself in our place. What Revelation 16 shows is that His finished work on the cross is also the unfinishing of every kingdom that stands against Him. For those who have trusted His blood, this chapter is not a threat—it is a vindication.',

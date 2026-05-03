@@ -5,7 +5,7 @@ export const DEUTERONOMY_26: RichChapterContent = {
   bookName: 'Deuteronomy',
   chapter: 26,
 
-  estimatedMinutes: { 5: 7, 10: 12, 15: 17 },
+  estimatedMinutes: { beginner: 7, intermediate: 12, deep: 17 },
   intros: [
     'Deuteronomy 26 crystallizes the covenant in two liturgies — formal, memorized words the people will recite when they bring their firstfruits and when they give their third-year tithes. These are not private prayers but public confessions. They are the shape of Israel&apos;s identity made audible.',
     'What is Israel? A rescued people. A Syrian wanderer, helpless and multiplied by God, brought out of Egypt by God&apos;s mighty hand. When that rescued people come to inherit the land, they acknowledge the Rescuer not by keeping silence but by speaking. They say their story. They name God&apos;s action. They put the firstfruits in the basket and set it before Him. Worship, in this chapter, is remembered history given back to God.',

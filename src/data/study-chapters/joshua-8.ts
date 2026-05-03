@@ -14,7 +14,7 @@ export const JOSHUA_8: RichChapterContent = {
   bookName: 'Joshua',
   chapter: 8,
 
-  estimatedMinutes: { 5: 10, 10: 16, 15: 20 },
+  estimatedMinutes: { beginner: 10, intermediate: 16, deep: 20 },
   intros: [
     'Joshua 8 follows immediately after the humiliation of chapter 7, when Israel was routed at Ai because of Achan&apos;s hidden sin. Now, with Achan removed and the nation cleansed, God speaks again to Joshua in words he has heard before: "Fear not, neither be thou dismayed." The command that opened the conquest must be renewed after every stumble. This chapter shows two back-to-back commands: conquer Ai through strategy, then stop and worship. Not one or the other—both.',
     'The ambush at Ai is a narrative masterpiece: Joshua divides his force, draws out the city, springs the trap. But the real heart of the chapter lies not in military victory but in what comes next. On Mount Ebal, Joshua builds an altar of unhewn stones and reads the entire law of Moses before the assembly—men, women, children, and strangers. Blessings and curses, spoken aloud as Moses commanded in Deuteronomy 27. Israel&apos;s first major act after her first major win is to remember the law and stand under its voice.',

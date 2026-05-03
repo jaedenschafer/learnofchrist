@@ -17,7 +17,7 @@ export const SECOND_CORINTHIANS_11: RichChapterContent = {
   bookName: '2 Corinthians',
   chapter: 11,
 
-  estimatedMinutes: { 5: 12, 10: 23, 15: 32 },
+  estimatedMinutes: { beginner: 12, intermediate: 23, deep: 32 },
   intros: [
     'Paul opens this chapter with what sounds like an apology: "Would to God ye could bear with me a little in my folly." But this is no apology—it is a rhetorical move. He is about to speak of his sufferings, his credentials, the weight of his love for the Corinthians. And he knows it will sound like boasting. In a world that measures apostles by their comfort, their status, their eloquence, Paul is about to measure himself by his scars.',
     'The Corinthians are being courted by false apostles—teachers who arrive with impressive credentials, smooth words, a polished gospel. They preach "another Jesus," offer "another spirit," demand a different allegiance. Paul is not polite about this. He is zealous. He fears for the Corinthians the way a father fears for a daughter on the verge of an unwise marriage. He has espoused them to Christ as a bride to a bridegroom. And he will not watch silently while they are seduced away.',

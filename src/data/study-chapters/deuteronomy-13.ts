@@ -11,7 +11,7 @@ export const DEUTERONOMY_13: RichChapterContent = {
   bookName: 'Deuteronomy',
   chapter: 13,
 
-  estimatedMinutes: { 5: 9, 10: 15, 15: 19 },
+  estimatedMinutes: { beginner: 9, intermediate: 15, deep: 19 },
   intros: [
     'Deuteronomy 13 is a chapter about testing. Not God testing you — you testing the prophets, the friends, the voices that come to you claiming to speak for God. The chapter presents three cases: a prophet who performs wonders but turns hearts toward false gods, an intimate family member who entices you secretly, and an entire city seduced into idolatry. In each case, the community is called to judge and respond. The lesson beneath all three is the same: signs and wonders are not the test. Character is the test. Whose god? That is the only question that matters.',
     'This is a chapter about loyalty. Jesus will later echo its hard logic — loyalty to Him comes before loyalty to mother or father or wife (Luke 14:26). The deepest seductions always come through someone close. Israel is a covenanted nation; every member has a stake in the nation&apos;s allegiance. Purity in ancient Israel was not a personal matter — it was a community matter. The church under the new covenant disciplines differently, through rebuke and exclusion (1 Corinthians 5), not the sword. But the principle persists: our loyalty to God must be unswerving, even when the seduction comes from someone we love.',

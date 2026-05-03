@@ -18,7 +18,7 @@ export const JOB_23: RichChapterContent = {
   bookName: 'Job',
   chapter: 23,
 
-  estimatedMinutes: { 5: 3, 10: 5, 15: 8 },
+  estimatedMinutes: { beginner: 3, intermediate: 5, deep: 8 },
   intros: [
     'Job has had enough of his friends. He turns away from them and speaks only to God, or about God. "Oh that I knew where I might find him!" Job is not asking for explanation or comfort. He is asking for a confrontation. He wants to stand before God, to lay out his case, to demand that God hear him. He will argue his innocence directly to the face of the Almighty. But as Job speaks, something shifts. His anger gives way to a deeper realization: he is not alone. God is watching. God knows his way. God is testing him—not to destroy him, but to refine him.',
     'This is a turning point in Job&apos;s spiritual journey. Up to this point, he has felt only abandonment. But now he begins to sense that his abandonment is not indifference. It is attention. God knows. God is watching. God is allowing the trial, not as punishment, but as a test. And when the test is complete, Job will come forth as gold refined by fire. This is the beginning of understanding: that suffering can have meaning, that trials can have purpose, that the silence of God is not the absence of God, but the presence of a God who is working something deeper in us than we can yet perceive.',

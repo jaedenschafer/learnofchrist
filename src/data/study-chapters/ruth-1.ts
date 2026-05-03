@@ -11,7 +11,7 @@ export const RUTH_1: RichChapterContent = {
   bookName: 'Ruth',
   chapter: 1,
 
-  estimatedMinutes: { 5: 7, 10: 11, 15: 13 },
+  estimatedMinutes: { beginner: 7, intermediate: 11, deep: 13 },
   intros: [
     'Ruth 1 opens in darkness. The judges rule, but the land is hungry. A family abandons Bethlehem to find bread in Moab—and loses everything there. A widow named Naomi, once full, becomes empty. The only one who clings to her is the woman she has already lost everything to love. What happens next is the beginning of redemption.',
     'This short chapter holds one of Scripture&apos;s great loyalty pledges, and it is spoken not by a king or a prophet, but by a foreigner. Ruth&apos;s oath—"thy people shall be my people, and thy God my God"—echoes through the rest of her story, and sets her as the great-grandmother of David, the human ancestor of the Lord.',

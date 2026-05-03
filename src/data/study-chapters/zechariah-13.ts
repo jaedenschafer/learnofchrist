@@ -8,7 +8,7 @@ export const ZECHARIAH_13: RichChapterContent = {
   bookName: 'Zechariah',
   chapter: 13,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'Zechariah 13 opens with a fountain opened to cleanse Israel of sin and uncleanness. But the chapter also contains one of the most striking messianic prophecies: "Smite the shepherd, and the sheep shall be scattered." Matthew 26:31 quotes this verse as Christ predicts His own crucifixion and the scattering of the disciples. The Shepherd is struck, but His striking becomes the means of redemption.',
   ],

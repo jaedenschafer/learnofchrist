@@ -23,7 +23,7 @@ export const ACTS_19: RichChapterContent = {
   bookName: 'Acts',
   chapter: 19,
 
-  estimatedMinutes: { 5: 12, 10: 22, 15: 28 },
+  estimatedMinutes: { beginner: 12, intermediate: 22, deep: 28 },
   intros: [
     'Ephesus is a city built on magic and Diana. It is a world where the supernatural is for sale, where books of power are treasured, where silversmiths prosper by crafting idols. It is a place where spiritual darkness has an economy. Paul arrives, and everything begins to crack.',
     'Watch what happens when the gospel meets a culture that thinks it already understands the Spirit. Disciples who know only John&apos;s baptism receive the Holy Ghost and speak in tongues. Two years of Paul teaching in one rented hall reaches everyone across the whole province of Asia. Handkerchiefs from Paul&apos;s body become vectors of healing. Seven sons of a priest try to cast out demons using Paul&apos;s name—and the demon-possessed man overpowers them, tears their clothes, leaves them naked and wounded. And then something extraordinary: believers bring their books of magic to a bonfire and burn them. Not hiding them, not selling them—burning them. Fifty thousand pieces of silver worth of magical knowledge goes up in smoke. This is not just spiritual conversion. This is the dismantling of a whole world&apos;s economy.',

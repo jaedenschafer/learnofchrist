@@ -18,7 +18,7 @@ export const EZEKIEL_16: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 16,
 
-  estimatedMinutes: { 5: 2, 10: 6, 15: 7 },
+  estimatedMinutes: { beginner: 2, intermediate: 6, deep: 7 },
   intros: [
     'Ezekiel 16 is one of Scripture&apos;s most sustained and intimate allegories. The prophet describes Jerusalem as an infant, abandoned at birth in the open field, wallowing in her own blood. God passes by and says to her: "Live." He washes her, tends her wounds, clothes her in the finest garments and jewels, and makes a covenant with her. She becomes His. But the allegory darkens. The city—now grown into beauty—forgets who saved her. She becomes a harlot, prostituting herself, using the gifts her bridegroom gave her as payment to strangers. She multiplies her lovers. God&apos;s response is not to abandon her, but to judge her with the jealous fury of a betrayed husband.',
     'Yet beneath the judgment runs an even deeper current. "I will remember my covenant which I made with thee in the days of thy youth: and I will establish unto thee an everlasting covenant." The covenant is not broken. It cannot be broken. The judgment clears away the dross so that grace can work deeper.',

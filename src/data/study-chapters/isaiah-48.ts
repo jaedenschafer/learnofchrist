@@ -17,7 +17,7 @@ export const ISAIAH_48: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 48,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'Isaiah 48 is the conclusion of the book&apos;s section on comfort and restoration. It opens with God addressing the exiled people: you are called by My name. You belong to Me. Yet you have been stubborn. You have had ears but did not hear. You have been appointed to test you in the furnace of affliction. But I have done this for My own name&apos;s sake. I have refined you as silver is refined. And now comes the climax: there is no peace for the wicked. But for those who leave Babylon, who put their trust in God, who return to the Lord, there is peace. Not the peace of comfort or ease, but the peace that comes from being at home in God, from knowing you are safe in His hands. This is the peace that Christ came to give.',
   ],

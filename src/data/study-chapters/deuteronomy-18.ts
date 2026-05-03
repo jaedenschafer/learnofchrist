@@ -5,7 +5,7 @@ export const DEUTERONOMY_18: RichChapterContent = {
   bookName: 'Deuteronomy',
   chapter: 18,
 
-  estimatedMinutes: { 5: 6, 10: 10, 15: 13 },
+  estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
   intros: [
     'Deuteronomy 18 gathers three distinct provisions: the priest&apos;s portion from sacrifice and harvest, a prohibition against the divination and necromancy that surrounds Israel, and the promise of a Prophet like Moses. The chapter begins with the practical matter of how priests are sustained—the Lord is their inheritance—and rises to the central theological promise of Deuteronomy: God will not leave His people without a living word. He will raise up a Prophet from among them, one whose words carry the very authority of God.',
     'For the first readers of Deuteronomy, written on the cusp of entry into Canaan, the surrounding nations were thick with soothsayers, witch-craft, and mediums—all channels through which people sought hidden knowledge and power. Against this, Moses says: you shall not do so. Instead, listen. A Prophet comes. And the New Testament will say plainly: that Prophet is Jesus, the one Word through whom God speaks.',

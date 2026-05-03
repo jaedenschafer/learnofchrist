@@ -19,7 +19,7 @@ export const JOB_24: RichChapterContent = {
   bookName: 'Job',
   chapter: 24,
 
-  estimatedMinutes: { 5: 3, 10: 5, 15: 6 },
+  estimatedMinutes: { beginner: 3, intermediate: 5, deep: 6 },
   intros: [
     'Job has affirmed that God knows his way and is testing him like gold in fire. But now his mind turns to a larger question: why does God not act against the wicked? Why is there such apparent delay in God&apos;s justice? "Why, seeing times are not hidden from the Almighty, do they that know him not see his days?" God is all-knowing. God sees all things. But God seems paralyzed. God allows the wicked to flourish. God permits crime and injustice to continue unchecked. If God is truly just, if God truly cares, why this silence? Why this delay?',
     'Job catalogs the crimes he sees: robbers strip the naked of clothing, steal the poor man&apos;s ox as collateral, drive the wicked from the city, murder the lonely traveler in the night, commit adultery, steal grain from the widow, rob the orphan. These are real crimes. They happen. They are witnessed. And God does not strike down the perpetrators. There is no visible judgment, no immediate consequence. But Job does not conclude that God does not care. Rather, he trusts that there is an appointed day—a day when God will act, when the wicked will be judged, when darkness will be exposed to light. The delay is not indifference. It is patience. It is the patience of a God who will ultimately bring all things to account.',

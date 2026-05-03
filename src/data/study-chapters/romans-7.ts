@@ -13,7 +13,7 @@ export const ROMANS_7: RichChapterContent = {
   bookName: 'Romans',
   chapter: 7,
 
-  estimatedMinutes: { 5: 6, 10: 11, 15: 16 },
+  estimatedMinutes: { beginner: 6, intermediate: 11, deep: 16 },
   intros: [
     'Romans 7 is the most painfully honest chapter in the New Testament about the war inside. Paul describes what every believer feels: I want to do good, but evil is present with me. I delight in God&apos;s law, but sin dwells in my members. This is not the cry of someone who has never met Jesus. It is the cry of someone who loves Him desperately and yet finds themselves enslaved to habits and appetites they despise.',
     'The chapter unfolds in three movements. First, the law is good—holy, just, good—yet it reveals sin rather than fixing it. Second, the conflict: the law is spiritual, but I am carnal, sold under sin. The will desires good; the flesh does evil. Third, the cry of deliverance: "O wretched man that I am! who shall deliver me from the body of this death? I thank God through Jesus Christ our Lord." The answer is not a new law, not more willpower, but grace.',

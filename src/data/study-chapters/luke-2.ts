@@ -17,7 +17,7 @@ export const LUKE_2: RichChapterContent = {
   bookName: 'Luke',
   chapter: 2,
 
-  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
   intros: [
     'Caesar Augustus decrees that the whole world should be taxed. Joseph and Mary travel to Bethlehem, the city of David. The time comes for Mary to give birth. And she gives birth to her firstborn son in a stable, because there is no room in the inn. She wraps Him in swaddling clothes and lays Him in a manger. This is the birth that the angels have announced, that the prophets have foretold, that every faithful Israelite has been waiting for.',
     'That same night, shepherds keep watch over their flocks in the fields. An angel of the Lord appears to them, and the glory of the Lord shines around them. Terror grips them. But the angel speaks: "Fear not: for, behold, I bring you good tidings of great joy, which shall be to all people. For unto you is born this day in the city of David a Saviour, which is Christ the Lord."',

@@ -11,7 +11,7 @@ export const HAGGAI_1: RichChapterContent = {
   bookName: 'Haggai',
   chapter: 1,
 
-  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
   intros: [
     'Haggai speaks to the remnant that has returned from Babylon. They have been back in their land, yet the temple remains unbuilt. The altar is standing, but the house of God itself is still in ruins. Meanwhile, the people have built their own homes, paneled them, invested time and resources in their own comfort. Haggai calls them to "Consider your ways."',
     'The message is simple but penetrating: you have sown much but reaped little. You earn wages only to put them in a bag with a hole in it. Your harvests are incomplete. Why? Because the house of God lies waste while you dwell in your own houses. The response is equally simple: rebuild the house of God, and He will take pleasure in it.',

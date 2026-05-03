@@ -16,7 +16,7 @@ export const DEUTERONOMY_29: RichChapterContent = {
   bookName: 'Deuteronomy',
   chapter: 29,
 
-  estimatedMinutes: { 5: 7, 10: 13, 15: 17 },
+  estimatedMinutes: { beginner: 7, intermediate: 13, deep: 17 },
   intros: [
     'Deuteronomy 29 is Moses&apos; grand re-covenant moment. After forty years in the wilderness, Israel stands on the threshold of the promised land. Moses calls the whole nation — captains and wood-hewers, elders and children, men and wives — to renew the covenant made at Horeb. But this is not a simple replay. Moses tells them plainly: God has shown you His mighty hand, yet "the Lord hath not given you an heart to perceive." This honest acknowledgment of spiritual blindness sets up the chapter&apos;s deepest hope: the longing for a new covenant where God himself will give the heart.',
     'The covenant Moses calls them to includes not only those standing there but generations yet unborn — "him that is not here with us this day." In other words, the promise reaches to us. Then comes the warning: the root that bears gall and wormwood, the one who blesses himself in his heart while turning to serve other gods. The chapter ends with the great humility of verse 29: "The secret things belong unto the Lord our God: but those things which are revealed belong unto us and to our children for ever, that we may do all the words of this law." Obedience to what is revealed, and trust in what remains hidden.',

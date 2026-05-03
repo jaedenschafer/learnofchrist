@@ -14,7 +14,7 @@ export const FIRST_ESDRAS_3: RichChapterContent = {
   bookName: '1 Esdras',
   chapter: 3,
 
-  estimatedMinutes: { 5: 9, 10: 13, 15: 16 },
+  estimatedMinutes: { beginner: 9, intermediate: 13, deep: 16 },
   intros: [
     'In 1 Esdras 3, King Darius holds a great feast for all his officials. After dinner, the mood turns to riddles: the king asks his three young bodyguards a question that will consume the whole chapter — What is strongest in all the world? One answers wine. One answers the king. One answers women. But the third adds a fourth answer that changes everything: truth.',
     'This story is unique to 1 Esdras. You will find no version of it in the canonical book of Ezra. Yet it is filled with the questions the Bible keeps asking: What is real power? What is worth building your life on? The bodyguards argue with passion, wit, and finally, conviction. And by the end, the strongest thing in all the world turns out to be the one thing that sets you free.',

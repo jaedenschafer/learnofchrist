@@ -15,7 +15,7 @@ export const SAMUEL_2_20: RichChapterContent = {
   bookName: '2 Samuel',
   chapter: 20,
 
-  estimatedMinutes: { 5: 8, 10: 18, 15: 20 },
+  estimatedMinutes: { beginner: 8, intermediate: 18, deep: 20 },
   intros: [
     'The kingdom is whole again, but the wounds of Absalom&apos;s rebellion run deep. Judah and Israel have found their way back together — but their unity is fragile. In this moment, a man of Belial raises a new cry, almost identical to the one that will tear the kingdom apart forty years later. "We have no part in David," he cries. "Every man to his tents, O Israel." The rebellion is small, quickly crushed. But it foreshadows something larger — the eventual split of north from south that will last until the exile.',
     'As the chapter unfolds, we see the collateral damage of Absalom&apos;s rebellion — ten concubines confined to widowhood for life, innocent suffering for a sin not theirs. We watch Joab move down yet another rival, this time Amasa, with a sword hidden in his garment. And we encounter one of Scripture&apos;s most remarkable figures: a wise woman who saves a city by speaking what the people need to hear. She stands in a tradition of female wisdom that echoes through the Bible — from Deborah to Esther to the Samaritan woman at the well. Her voice reminds us that wisdom is not found only in armies or in power. Sometimes it is found in the counsel of those the powerful overlook.',

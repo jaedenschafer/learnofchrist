@@ -12,7 +12,7 @@ export const MICAH_2: RichChapterContent = {
   bookName: 'Micah',
   chapter: 2,
 
-  estimatedMinutes: { 5: 2, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
   intros: [
     'Micah denounces the powerful who lie awake devising schemes to steal land and oppress the poor. They covet fields and seize them, houses and take them away. They crush families, leaving them without inheritance or home. But God has not forgotten. He hears the cry of the oppressed. And He promises something extraordinary: He will gather His flock, He will break them out of captivity like sheep bursting through a gate, and He will lead them with a king at their head.',
     'Beneath the judgment on the wicked runs a current of hope. God will assemble His people. The scattered will be gathered. The broken will be restored. This is the pattern of God&apos;s work: judgment on those who prey on the weak, and redemption for the weak themselves.',

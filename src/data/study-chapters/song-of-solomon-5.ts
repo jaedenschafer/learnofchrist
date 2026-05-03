@@ -18,7 +18,7 @@ export const SONG_5: RichChapterContent = {
   bookName: 'Song of Solomon',
   chapter: 5,
 
-  estimatedMinutes: { 5: 1, 10: 5, 15: 6 },
+  estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
   intros: [
     'The Song enters a new phase. The Bride is sleeping, at rest. And in the night, the Beloved comes and knocks. He asks her to rise and open to him. She is reluctant—she has undressed, her feet are wet. To get up and open the door is inconvenient. But his voice, his plea, his knocking—something in the urgency of it moves her. She rises. And in the act of rising to meet him, something shifts. When she opens the door, he has already moved on, and she goes out to seek him. But this seeking transforms her. She is so moved by his presence, even in his absence, that she cannot find words adequate to describe him.',
     'The Bride then bursts into an extended description of her Beloved. Every part of him is precious, beautiful, worthy. And she concludes: "He is altogether lovely." Not perfect in a detached way, but lovely—worthy of love, desirable, the one her soul loves. The description moves from the physical to the essential. He is not just handsome but wonderful in his entirety. And this revelation comes not from seeing him in daylight, but from the urgency of his knocking, the passion of his plea, the reality of his desire for her.',

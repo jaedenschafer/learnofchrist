@@ -15,7 +15,7 @@ export const ROMANS_6: RichChapterContent = {
   bookName: 'Romans',
   chapter: 6,
 
-  estimatedMinutes: { 5: 5, 10: 13, 15: 19 },
+  estimatedMinutes: { beginner: 5, intermediate: 13, deep: 19 },
   intros: [
     'A question looms: If grace abounds and sinners abound under grace, should we not continue in sin that grace may abound much more? It is a perversion of Paul&apos;s message, yet a natural objection to his theology. Paul does not argue the question away with theory. He plants the reader inside the baptismal waters and asks: Have you forgotten what happened to you there?',
     'Romans 6 is the charter of Christian freedom. Not freedom to sin, but freedom from sin. When you were baptized into Christ, you died with Him. You were buried with Him. You were raised with Him to newness of life. Sin no longer has dominion over you. The old master—slavery to appetite and death—no longer commands your allegiance. A new master—righteousness and God—now claims you. You are alive.',

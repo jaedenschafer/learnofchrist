@@ -19,7 +19,7 @@ export const ACTS_23: RichChapterContent = {
   bookName: 'Acts',
   chapter: 23,
 
-  estimatedMinutes: { 5: 11, 10: 20, 15: 27 },
+  estimatedMinutes: { beginner: 11, intermediate: 20, deep: 27 },
   intros: [
     'Paul stands before the Sanhedrin — the same council that condemned Jesus. He is arrested, accused, and about to be examined. What unfolds is a masterpiece of divine providence working through human weakness. God does not intervene with thunder or earthquake. He works through a young man&apos;s eavesdropping, through the fears of a Roman officer, through the divisions already present in the council itself, and through the living presence of Jesus appearing to Paul in the night.',
     'The chapter is a series of nested scenes: Paul before the council, the high priest&apos;s blow, Paul&apos;s retaliation and apology, the resurrection controversy that splits the council, the Lord standing by Paul in the darkness, the nephew&apos;s warning of a murder plot, the night march of 470 soldiers, the letter to Felix. At every turn, what looks like chaos or defeat becomes the opening through which God moves Paul closer to Rome and farther from the hands of those who seek his death.',

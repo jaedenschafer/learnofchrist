@@ -4,7 +4,7 @@ export const FOURTH_MACCABEES_17: RichChapterContent = {
   bookSlug: '4-maccabees',
   bookName: '4 Maccabees',
   chapter: 17,
-  estimatedMinutes: { 5: 4, 10: 7, 15: 10 },
+  estimatedMinutes: { beginner: 4, intermediate: 7, deep: 10 },
   intros: [
     'All have now fallen. Seven sons and their mother rest in a shared tomb. Over the grave stands an inscription, and the author—moved by what has unfolded—writes a memorial speech that transforms tragedy into theology.',
     'In 4 Maccabees 17, the author makes a stunning claim about the mother and her sons: their deaths are not tragedy but <em>redemption</em>. They have become a ransom for the nation. This is Jewish Second Temple theology imagining martyr-blood as the price of Israel&apos;s liberation—a longing for vicarious atonement that foreshadows Christ.',

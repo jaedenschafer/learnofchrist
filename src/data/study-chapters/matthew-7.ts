@@ -19,7 +19,7 @@ export const MATTHEW_7: RichChapterContent = {
   bookName: 'Matthew',
   chapter: 7,
 
-  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
   intros: [
     'Jesus closes the Sermon on the Mount with warnings and promises. He has taught about the kingdom, about righteousness, about trust and prayer. Now He addresses how His disciples are to live in relation to others: with humility, without judgment, with generosity and honesty. The teaching is increasingly practical: how do you treat those with whom you disagree? How do you discern truth from falsehood? What is the foundation on which you will build your life?',
     'The chapter culminates with the image of two builders—one who builds on rock, one on sand. Both face the same storm. Both experience the rain and the wind and the rising water. The difference is not in circumstance but in foundation. "Everyone therefore which heareth these sayings of mine, and doeth them, I will liken him unto a wise man, which built his house upon a rock." Jesus Himself is that rock. To hear and to do His words is to build upon the unshakeable foundation.',

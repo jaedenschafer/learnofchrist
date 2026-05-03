@@ -10,7 +10,7 @@ export const EXODUS_15: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 15,
 
-  estimatedMinutes: { 5: 7, 10: 12, 15: 15 },
+  estimatedMinutes: { beginner: 7, intermediate: 12, deep: 15 },
   intros: [
     'After the Red Sea parts and Pharaoh&apos;s army drowns, Moses leads the people in the first hymn in the Bible. He sings the LORD&apos;s might, His mercy toward Israel, His judgment on Egypt. The song turns the exodus into poetry—raw praise erupting from the shore as the people realize they are alive, they are free, and they have seen something that rewrites their story.',
     'Then comes a harsher moment. Three days into the wilderness, the water at Marah is bitter and undrinkable. The people turn on Moses. But the LORD shows Moses a tree to throw into the waters, and they become sweet. Marah is where Israel learns that every bitter thing placed in God&apos;s hands becomes life-giving—a truth the Church Fathers recognized as pointing to the wood of the Cross. And here, for the first time, the LORD names Himself by one of His compound names: *YHWH-Rapha*, "the LORD that healeth."',

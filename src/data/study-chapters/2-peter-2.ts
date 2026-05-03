@@ -17,7 +17,7 @@ export const SECOND_PETER_2: RichChapterContent = {
   bookName: '2 Peter',
   chapter: 2,
 
-  estimatedMinutes: { 5: 9, 10: 15, 15: 20 },
+  estimatedMinutes: { beginner: 9, intermediate: 15, deep: 20 },
   intros: [
     'Peter opens with a stark warning: there were false prophets in the past, and there will be false teachers among you. These are not outsiders—they are insiders who bring in damnable heresies privately, denying even the Lord who bought them. They are motivated by greed and use the gospel as cover for licentiousness. Yet for all their noise and their apparent freedom, they are enslaved to corruption. Peter\'s answer is not to panic, but to remember God\'s pattern. He has always known how to deliver the godly out of temptation, and to reserve the unjust for judgment.',
     'The passage is built as a series of biblical examples: the angels who sinned, cast to hell; Noah, saved through the flood; Lot, delivered from Sodom. In each case, God separates. He judges the ungodly and saves the righteous. The false teachers are not a new problem; they are an old problem, recurring. And they will be dealt with in the same way. The warning is not about fear, but about clarity. Know what to look for. Remember what God has always done. And rest in the fact that you have a rescuer who is faithful.',

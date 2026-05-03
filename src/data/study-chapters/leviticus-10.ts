@@ -14,7 +14,7 @@ export const LEVITICUS_10: RichChapterContent = {
   bookName: 'Leviticus',
   chapter: 10,
 
-  estimatedMinutes: { 5: 9, 10: 14, 15: 18 },
+  estimatedMinutes: { beginner: 9, intermediate: 14, deep: 18 },
   intros: [
     'Leviticus 10 opens one day after the priests have been consecrated and the fire of the Lord has come down and consumed the burnt offering at the altar. It is the moment the priesthood is supposed to begin in earnest. Instead, a man and his two sons step forward with something God did not command, and they are consumed by fire from God themselves. This is the chapter the American church has learned to skip.',
     'But read it carefully. What follows is not a sermon about the danger of carelessness. It is a study in how a family absorbs the loss of its sons when God Himself is the cause. Aaron&apos;s answer to Moses — the explanation for why he will not eat the sin offering, why the grief he holds is more important than the law — is so human, so tender, and so true that it stands as the truest word about suffering in the whole book of Leviticus. The holiness of God is real. So is the grief of a father who holds his peace.',

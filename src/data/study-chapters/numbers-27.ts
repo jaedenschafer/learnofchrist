@@ -25,7 +25,7 @@ export const NUMBERS_27: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 27,
 
-  estimatedMinutes: { 5: 8, 10: 13, 15: 17 },
+  estimatedMinutes: { beginner: 8, intermediate: 13, deep: 17 },
   intros: [
     'Numbers 27 opens with five women — Mahlah, Noah, Hoglah, Milcah, and Tirzah, the daughters of Zelophehad — standing before the assembly at the tabernacle door. Their father died in the wilderness. He had no sons. Under the law as stated, there is nowhere for their inheritance to go. They approach Moses, Eleazar, the princes, and the entire assembly. They do not argue. They ask: if our father had no sons, let our father\'s name not be taken away from his family. Give us a possession among our father\'s brethren. The silence from the text is significant. They speak. The assembly listens.',
     'God hears their case and answers them. "The daughters of Zelophehad speak right." A statute becomes law in that moment: if a man dies without sons, the inheritance passes to his daughters. If there are no daughters, to his brothers. If no brothers, to his father\'s brothers. If no uncles, to the nearest kinsman. The law, spoken at Sinai as absolute, has room in it for circumstances Sinai did not name. God did not harden. He listened.',

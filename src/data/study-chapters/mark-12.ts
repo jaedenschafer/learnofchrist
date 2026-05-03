@@ -19,7 +19,7 @@ export const MARK_12: RichChapterContent = {
   bookName: 'Mark',
   chapter: 12,
 
-  estimatedMinutes: { 5: 1, 10: 5, 15: 6 },
+  estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
   intros: [
     'Mark 12 opens with the parable of the vineyard. A man plants a vineyard, builds a hedge around it, digs a pit for the wine press, builds a tower, and rents it to husbandmen. Then he travels into another country. At harvest time he sends a servant to receive the fruit. The husbandmen beat him and send him away empty. He sends another servant. They beat him as well. A third they wound. Finally the lord sends his beloved son, thinking: "They will reverence my son." But the husbandmen see the son and say: "This is the heir; come, let us kill him, and the inheritance shall be ours." They kill him and cast him out of the vineyard. Jesus asks: "What shall therefore the lord of the vineyard do?" The answer: He will come and destroy the husbandmen and give the vineyard to others.',
     'Then Jesus quotes from Psalm 118: "The stone which the builders rejected, the same is become the head of the corner." The rejected heir becomes the foundation. The rejected stone becomes the cornerstone of a new building. The chapter moves through controversies—about taxes, about the resurrection—to the teaching on the greatest commandment: love God with all your heart, and love your neighbor as yourself. This is the fulfillment of all the law and the prophets. Christ is the stone the builders rejected. He is the cornerstone of the new Israel.',

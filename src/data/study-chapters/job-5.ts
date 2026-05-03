@@ -19,7 +19,7 @@ export const JOB_5: RichChapterContent = {
   bookName: 'Job',
   chapter: 5,
 
-  estimatedMinutes: { 5: 4, 10: 11, 15: 16 },
+  estimatedMinutes: { beginner: 4, intermediate: 11, deep: 16 },
   intros: [
     'Eliphaz speaks again. He does not curse Job directly; instead, he draws on what he claims to have "seen" — the fates of foolish and envious people. Their habitations are cursed, their children scattered, their substance consumed. He knows, or thinks he knows, how the world works: wickedness brings its own punishment.',
     'But then something shifts. Eliphaz turns from condemning the foolish to comforting Job. He affirms profound truths: God is great and unsearchable, does marvellous things, disciplines those He loves, wounds and heals. "Happy is the man whom God correcteth," he says. He promises that God will deliver from trouble, redeem from death, hide from the scourge of the tongue. In six troubles, even in seven, no evil shall touch the righteous.',

@@ -16,7 +16,7 @@ export const SONG_3: RichChapterContent = {
   bookName: 'Song of Solomon',
   chapter: 3,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
   intros: [
     'The Song moves into a new mode: seeking. The Bride lies at night and seeks her Beloved in bed, but he is not there. She rises and goes out into the city, through the streets and in the squares, seeking him earnestly. It is a dream-like sequence—an interior drama of longing and pursuit. She questions the watchmen. Has anyone seen him? And finally, she finds him and holds him fast, unwilling to let him go. This is the anxious love that fears separation, that pursues, that cannot be at rest without the beloved.',
     'Then the Song shifts to a vision of a bridal procession. Solomon comes in his carriage, surrounded by warriors, crowned on his wedding day. The entire scene is regal, formal, public. The private seeking transforms into public celebration. The bride is being brought to the bridegroom in glory. There is both the personal seeking in the night and the public recognition of union. Both matter. Both are part of the fullness of love.',

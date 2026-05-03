@@ -14,7 +14,7 @@ export const ISAIAH_55: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 55,
 
-  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
   intros: [
     'Isaiah 55 is an invitation to fullness. After the promise of redemption and the wedding of Zion, the prophet opens the gates to all who hunger and thirst. Come to the waters without cost. Drink and live. Why spend money on that which satisfies not? Why labor for that which does not nourish? Instead, incline your ear to God and your soul shall live. God\'s word is powerful. It will not return void. It will accomplish what God purposes. And while the Lord may be found—while this invitation stands open—seek Him. Let the wicked forsake his way; let him return to the Lord.',
   ],

@@ -16,7 +16,7 @@ export const SECOND_JOHN_1: RichChapterContent = {
   bookName: '2 John',
   chapter: 1,
 
-  estimatedMinutes: { 5: 6, 10: 13, 15: 18 },
+  estimatedMinutes: { beginner: 6, intermediate: 13, deep: 18 },
   intros: [
     'The letter of 2 John is John writing to a specific community—"the elect lady and her children." Whether this is a literal woman and her household or a poetic way of naming a church is debated, but the warmth of the letter suggests both intimacy and authority. John loves these people deeply because they walk in truth. That is his measure of affection: not sentiment, but shared conviction in the gospel.',
     'Yet beneath the love lies an urgent pastoral warning. Deceivers have gone out into the world—those who deny that Jesus Christ has come in the flesh. This is no minor disagreement; it strikes at the heart of Christian faith. John urges the community to be wise: do not welcome these teachers into your home, do not bid them Godspeed. True love for God and His people includes the courage to say no. Truth and love must travel together.',

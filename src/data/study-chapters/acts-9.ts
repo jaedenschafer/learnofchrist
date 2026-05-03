@@ -18,7 +18,7 @@ export const ACTS_9: RichChapterContent = {
   bookName: 'Acts',
   chapter: 9,
 
-  estimatedMinutes: { 5: 10, 10: 20, 15: 25 },
+  estimatedMinutes: { beginner: 10, intermediate: 20, deep: 25 },
   intros: [
     'Saul has made it his mission to hunt down followers of Jesus. He carries letters from the high priest himself, authorizing him to bind any believer he finds and drag them to Jerusalem. But on the road to Damascus, something happens that will unravel everything. A light brighter than the sun cuts him down. A voice speaks his name. "Saul, Saul, why persecutest thou me?" It is Jesus—the One Saul has been fighting against all along. In that instant, the persecutor&apos;s entire world inverts.',
     'This chapter shows what resurrection power actually does when it meets human resistance. It does not reason with Saul or negotiate. It does not wait for him to grow tired of his old ways. It confronts him, blinds him, remakes him. Three days later, a disciple named Ananias—acting on nothing but a vision and obedience—places his hands on Saul&apos;s eyes, scales fall away, and Saul rises baptized. The man who came to Damascus as an executioner leaves as an evangelist.',

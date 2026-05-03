@@ -16,7 +16,7 @@ export const SAMUEL_1_15: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 15,
 
-  estimatedMinutes: { 5: 8, 10: 17, 15: 20 },
+  estimatedMinutes: { beginner: 8, intermediate: 17, deep: 20 },
   intros: [
     'The test comes for every person who has been given authority or called to lead: Will you obey God fully, or will you obey God halfway? Will you do what you are told, or will you do what you are told while keeping something back for yourself?',
     'Saul has reigned as Israel&apos;s king for more than a year. He has won victories. He is secure in power. And now the Lord sends Samuel to him with a command that admits no negotiation: "Utterly destroy all that they have; spare them not." The word for this kind of destruction is <em>cherem</em> — devoted destruction, a thing set apart wholly for the Lord, with nothing left for human use. But Saul, looking at the plunder — the best sheep, the fatlings, the king himself — sees opportunity instead of obedience. He does much of what the Lord asked. He does not do all. And in that gap between much and all, a kingdom begins to fall.',

@@ -20,7 +20,7 @@ export const REVELATION_8: RichChapterContent = {
   bookName: 'Revelation',
   chapter: 8,
 
-  estimatedMinutes: { 5: 7, 10: 13, 15: 21 },
+  estimatedMinutes: { beginner: 7, intermediate: 13, deep: 21 },
   intros: [
     'In Revelation 7, John saw the multitude of the redeemed standing before the throne, clothed in white robes, palms in their hands, singing the song of salvation. The vision was one of triumph and vindication. And then—the seventh seal. The Lamb opens it, and heaven itself goes silent. Not the silence of emptiness, but of terrible hush. Something momentous is about to unfold.',
     'The focus shifts from the throne of God to the altar. An angel stands before the golden censer with incense, which is the prayers of all the saints. These prayers—the cries of the redeemed, their pleas for justice, their intercessions for the world—rise up before God. The angel then fills the censer with fire from the altar and casts it to the earth. And what follows is the sounding of the trumpets, each one announcing a fresh judgment upon the world. The chapter does not reveal what these judgments mean in history or chronology—it calls you to watch, to listen, and to see your own prayers meeting the altar of heaven itself.',

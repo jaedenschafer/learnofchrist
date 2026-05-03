@@ -16,7 +16,7 @@ export const ECCLESIASTES_5: RichChapterContent = {
   bookName: 'Ecclesiastes',
   chapter: 5,
 
-  estimatedMinutes: { 5: 1, 10: 5, 15: 6 },
+  estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
   intros: [
     'Having established that human connection has value, the Preacher turns to the power of speech and the hunger of the human heart. He begins with a warning about speech, particularly speech to God. Words matter. A vow made in haste becomes a debt. A promise spoken to God is binding. And the Preacher observes that many people speak much in worship but understand little. It is better to listen, to be silent, to fear God. And then he turns to the material world and observes a profound truth: "He that loveth silver shall not be satisfied with silver."',
     'The hunger for wealth is bottomless. The rich never have enough. The more they gain, the more they desire. Their sleep is disturbed by anxiety about what they possess. And in the end, they cannot take it with them. The Preacher sees clearly: this is vanity. But he also hints at a truth deeper than mere moralizing. There is a hunger in the human heart that wealth can never satisfy. It is a hunger for something transcendent, something that cannot be bought or possessed but only received, only enjoyed in the presence of the One who gives.',

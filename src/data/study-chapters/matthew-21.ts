@@ -16,7 +16,7 @@ export const MATTHEW_21: RichChapterContent = {
   bookName: 'Matthew',
   chapter: 21,
 
-  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
   intros: [
     'Jesus approaches Jerusalem. He sends two disciples ahead to find a donkey. "Ye shall find an ass tied, and a colt with her: loose them, and bring them unto me." Thus does Jesus enter the holy city, not on a warhorse but on a beast of burden. The crowds spread their garments and branches, crying "Hosanna to the Son of David." Yet the city that was meant to receive Him will reject Him.',
     'In the temple, Jesus finds money changers and those selling doves. He overturns their tables and speaks with prophetic authority: "It is written, My house shall be called the house of prayer; but ye have made it a den of thieves." The temple, meant to be a place of encounter with God, has become a marketplace. Jesus cleanses it, and those who are blind and lame come to Him for healing.',

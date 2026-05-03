@@ -17,7 +17,7 @@ export const ISAIAH_44: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 44,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'Isaiah 44 begins by returning to the theme of comfort and restoration: "Yet now hear, O Jacob my servant; and Israel, whom I have chosen." But the chapter is dominated by a sustained argument about the sovereignty and uniqueness of God. No other god exists. No idol made by human hands has any power. The craftsman who makes an idol is absurd—he plants a tree, tends it, and from the same wood both cooks his food and carves a god. Insanity! Yet Israel is tempted by these gods. The chapter insists: there is one God. Only one. God alone has power. God alone is to be trusted. This is the foundation of faith in exile. Not the power of nations, but the absolute sovereignty of the God of Israel.',
   ],

@@ -18,7 +18,7 @@ export const MARK_4: RichChapterContent = {
   bookName: 'Mark',
   chapter: 4,
 
-  estimatedMinutes: { 5: 2, 10: 7, 15: 9 },
+  estimatedMinutes: { beginner: 2, intermediate: 7, deep: 9 },
   intros: [
     'Mark 4 is the chapter of parables and mysteries. Jesus sits by the sea, and great multitudes gather. He teaches them in parables—not because He wishes to obscure the truth, but because the truth requires a change of vision. A seed falls on hard ground, on rocky soil, among thorns, and on good soil. Each bears a different result. The parable is simple enough on the surface. But what does the seed represent? What kind of soil is your heart? The kingdom of God is compared to a mustard seed, smallest of seeds, growing into a great shrub. It is hidden in the world, growing imperceptibly, until suddenly it is large and impossible to ignore.',
     'Then comes the storm on the sea. The disciples have left the crowds and set out by boat. Exhausted, Jesus falls asleep. A great wind and waves rise, and the disciples wake Him in terror. He rises and rebukes the wind and sea: "Peace, be still." And immediately there is a great calm. The disciples are even more afraid. They ask one another: "What manner of man is this, that even the wind and the sea obey him?" Mark is asking his readers the same question: What manner of man is Jesus, that creation itself responds to His voice?',

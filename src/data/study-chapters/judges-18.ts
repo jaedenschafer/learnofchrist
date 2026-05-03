@@ -9,7 +9,7 @@ export const JUDGES_18: RichChapterContent = {
   bookName: 'Judges',
   chapter: 18,
 
-  estimatedMinutes: { 5: 12, 10: 20, 15: 24 },
+  estimatedMinutes: { beginner: 12, intermediate: 20, deep: 24 },
   intros: [
     'Judges 18 is a tragic story of ambition without dependence on God. The tribe of Dan seeks an inheritance they were given by God but never took possession of. Instead of trusting Him, they hire a Levite priest, consult idols instead of seeking His face, and steal what belongs to another family. By the end, a whole tribe has institutionalized the very idolatry that was destroying Israel.',
     'The chapter opens with a phrase that keeps echoing through the book of Judges: "In those days there was no king in Israel." Without central authority, without a shepherd, the people do what seems right in their own eyes. What begins as one family&apos;s private syncretism—a priest-for-hire and a homemade idol—becomes, by chapter&apos;s end, a tribal inheritance. The Danites have not just stolen an idol; they have stolen from God the chance to lead them. Christ will eventually offer Himself as the King and Shepherd they rejected.',

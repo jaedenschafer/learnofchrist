@@ -20,7 +20,7 @@ export const EXODUS_25: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 25,
 
-  estimatedMinutes: { 5: 11, 10: 16, 15: 20 },
+  estimatedMinutes: { beginner: 11, intermediate: 16, deep: 20 },
   intros: [
     'Exodus 25 is God saying, &quot;I will live with you.&quot; He has just freed Israel from Egypt and brought them to the mountain. They stand at Sinai, trembling at the voice of God. The law is given. The covenant is made. And now God says: Build me a house. Not a house in heaven. Not a house somewhere far away. A house here, in the middle of your camp. Wherever you go, I go with you. Wherever you dwell, I will dwell.',
     'The chapter opens with a remarkable line: &quot;Speak unto the children of Israel, that they bring me an offering.&quot; Not a tax. Not a command enforced with a sword. A voluntary gift. God does not demand the materials for His dwelling place. He asks. The people respond with their own hands, their own resources, because they want Him there. The dwelling place is made of their love.',

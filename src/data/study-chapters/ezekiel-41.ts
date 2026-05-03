@@ -13,7 +13,7 @@ export const EZEKIEL_41: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 41,
 
-  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
   intros: [
     'As Ezekiel and his guide move deeper into the temple, the vision becomes more intimate and more holy. They measure the inner sanctuary—the holy place where the priests serve before God. The walls are paneled with wood. The carvings are not random ornament but symbols laden with meaning: cherubim, the guardians of God&apos;s holiness, and palm trees, symbols of peace and blessing. Every decoration points to a deeper reality—that this is a place of beauty, protection, and flourishing.',
     'The measurements continue, each one precise and purposeful. This is not a castle or a fortress. This is a dwelling place, a home where God will be present. And its beauty, its order, its careful construction, all speak to the care that God takes with His dwelling among His people.',

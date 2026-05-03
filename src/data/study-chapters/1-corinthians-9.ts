@@ -15,7 +15,7 @@ export const FIRST_CORINTHIANS_9: RichChapterContent = {
   bookName: '1 Corinthians',
   chapter: 9,
 
-  estimatedMinutes: { 5: 4, 10: 10, 15: 13 },
+  estimatedMinutes: { beginner: 4, intermediate: 10, deep: 13 },
   intros: [
     'Paul does not ask the Corinthians to do anything he has not already done. He speaks from hard-won experience. He has given up legitimate rights—the right to financial support, the right to marry and have his family supported, the right to ease—all in order to remove barriers between himself and those he is trying to reach. His example is one of radical accommodation, driven by a single vision: to save souls.',
     'The chapter begins in the context of chapter 8, where Paul taught that knowledge about food offered to idols should bow to love for those who are weak in conscience. Now he proves it: "I will eat no flesh while the world standeth, if it make my brother to offend" (8:13). He does not ask this without having done it himself. He has laid down his own rights. His rights, his freedom, his comfort—all subordinate to the gospel.',

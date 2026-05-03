@@ -14,7 +14,7 @@ export const DANIEL_8: RichChapterContent = {
   bookName: 'Daniel',
   chapter: 8,
 
-  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
   intros: [
     'In the vision that came to Daniel, he sees himself in the province of Elam, beside the river Ulai. He sees a ram standing before the river with two horns, and one horn is higher than the other. The ram pushes westward, northward, southward. No beasts can stand before him. He does according to his will and grows great. Daniel watches as he thinks on the vision, and behold, a goat comes from the west on the face of the whole earth, touching not the ground. This goat has a notable horn between his eyes.',
     'The goat runs at the ram and strikes him with the force of his power, breaking both his horns. The ram is cast down. The goat grows exceedingly great. But then his notable horn breaks, and from the four winds come four horns, and from one of them comes a little horn that grows exceeding great. Gabriel the angel is sent to make Daniel understand the vision, to know that "at the time of the end" certain events shall be fulfilled.',

@@ -18,7 +18,7 @@ export const GENESIS_40: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 40,
 
-  estimatedMinutes: { 5: 6, 10: 10, 15: 13 },
+  estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
   intros: [
     'Joseph has not disappeared from Potiphar&apos;s house. He has been moved to prison — the captain of the guard&apos;s prison, where he continues to find favor and eventually runs the place. Then two men arrive: Pharaoh&apos;s chief butler and chief baker, both in disgrace, both locked away. Both men dream. And Joseph — the interpreter — is about to learn that accurate words matter far less than accurate timing.',
     'The chapter is 23 verses long and compressed as iron. Two dreams, two interpretations, two outcomes, all hinged on the same small detail: the third day. What happens when interpretations come true? Joseph asks for one thing in return. What happens then will shape the rest of his waiting.',

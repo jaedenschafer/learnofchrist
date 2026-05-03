@@ -16,7 +16,7 @@ export const JOHN_6: RichChapterContent = {
   bookName: 'John',
   chapter: 6,
 
-  estimatedMinutes: { 5: 2, 10: 6, 15: 7 },
+  estimatedMinutes: { beginner: 2, intermediate: 6, deep: 7 },
   intros: [
     'A multitude follows Jesus, drawn by the signs He performs on those who are sick. He goes up into a mountain with His disciples. When He looks out and sees the great company, He asks Philip: "Whence shall we buy bread, that these may eat?" A test of faith. Philip calculates and despairs: "Two hundred pennyworth of bread is not sufficient for them." But Jesus takes five barley loaves and two small fishes, blesses them, breaks them, and distributes them. Twelve baskets of fragments remain. The people are filled. The miracle is not merely sustenance; it is abundance, overflow, the sign of God&apos;s kingdom breaking into want.',
     'That night, the disciples row their boat across the sea. A storm arises. They are afraid. And then they see Jesus walking toward them on the water, and they are terrified. But He speaks: "It is I; be not afraid." He comes to them in the midst of their fear and confusion. He is not absent when danger strikes; He walks on water, master of the forces that terrify. Then comes the discourse on bread. Jesus proclaims: "I am the bread of life: he that cometh to me shall never hunger." His flesh given for the life of the world. Many cannot receive this. It is too demanding, too radical. They turn back.',

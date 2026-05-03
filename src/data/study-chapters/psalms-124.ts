@@ -16,7 +16,7 @@ export const PSALMS_124: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 124,
 
-  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
   intros: [
     'Psalm 124 is a corporate testimony of deliverance. Something terrible was nearly accomplished against God&apos;s people. An enemy arose, bent on destruction. The waters of affliction nearly swept them away, nearly drowned them. But at the crucial moment, the Lord intervened. The snare that had been laid was broken. The psalmist and the community emerge from the danger alive, amazed, grateful. The whole psalm hinges on a single word: "if." If the Lord had not been on our side. If. Because the Lord was on their side, all was transformed.',
   ],

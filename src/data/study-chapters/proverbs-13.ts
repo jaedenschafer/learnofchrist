@@ -14,7 +14,7 @@ export const PROVERBS_13: RichChapterContent = {
   bookName: 'Proverbs',
   chapter: 13,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 5 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
   intros: [
     'The thirteenth chapter focuses on the influence of companionship and the power of hope. It opens with the fundamental claim that a wise son heeds instruction, but moves quickly to insist that the company you keep shapes who you become. "He that walketh with wise men shall be wise: but a companion of fools shall be destroyed." We are not isolated individuals. We are shaped by those we walk with.',
     'The chapter also speaks poignantly about hope and desire. "Hope deferred maketh the heart sick: but when the desire cometh, it is a tree of life." This is one of the most human of all the proverbs, acknowledging the deep human need for something to look forward to, something to hope for.',

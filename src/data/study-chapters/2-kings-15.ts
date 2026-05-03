@@ -18,7 +18,7 @@ export const KINGS_2_15: RichChapterContent = {
   bookName: '2 Kings',
   chapter: 15,
 
-  estimatedMinutes: { 5: 8, 10: 14, 15: 20 },
+  estimatedMinutes: { beginner: 8, intermediate: 14, deep: 20 },
   intros: [
     'By the time we reach 2 Kings 15, the northern kingdom of Israel has begun its final decline. Three centuries after Solomon&apos;s death split the kingdom in two, the Ten Tribes are falling into a spiral of violence, idolatry, and political collapse. In this single chapter, the northern throne passes through five hands. Three of those kings are murdered by men they trusted. The pattern is one of doom: each king "did evil in the sight of the Lord," and each is overturned or destroyed in turn.',
     'Meanwhile, in the south, Judah is more stable — the Davidic covenant continues to hold. Even the good kings, however, do not fully turn the people from idolatry. High places remain. The worship of God is compromised by the worship of idols. And when a powerful foreign king, Tiglath-pileser of Assyria, demands tribute, Israel pays in both gold and blood: cities are lost, and people are deported. The exile has begun.',

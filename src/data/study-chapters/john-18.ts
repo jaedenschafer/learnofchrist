@@ -15,7 +15,7 @@ export const JOHN_18: RichChapterContent = {
   bookName: 'John',
   chapter: 18,
 
-  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
   intros: [
     'Judas comes with a band of soldiers and officers to arrest Jesus. Jesus steps forward and asks: "Whom seek ye?" They answer: "Jesus of Nazareth." And He says: "I am he." At that word, they draw back and fall to the ground. His authority is evident even in His arrest. Yet He does not resist. When Peter draws a sword and cuts off the servant&apos;s ear, Jesus rebukes him: "Put up thy sword into the sheath: the cup which my Father hath given me, shall I not drink it?" He goes willingly to His death.',
     'Before the high priest, witnesses testify falsely against Him. Peter, warming himself by the fire, denies even knowing Him. "I am not one of his disciples, art thou?" Three times Peter denies Him. Jesus is brought before Pilate, the Roman governor. "My kingdom is not of this world." When Pilate asks, "Art thou a king then?" Jesus responds: "To this end was I born, and for this cause came I into the world, that I should bear witness unto the truth." Yet Pilate asks the fatal question: "What is truth?" Unable to grasp or acknowledge the truth standing before him, he turns back to the crowd, unable to find guilt, yet unwilling to defend the innocent.',

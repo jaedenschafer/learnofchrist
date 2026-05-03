@@ -15,7 +15,7 @@ export const HOSEA_1: RichChapterContent = {
   bookName: 'Hosea',
   chapter: 1,
 
-  estimatedMinutes: { 5: 4, 10: 6, 15: 8 },
+  estimatedMinutes: { beginner: 4, intermediate: 6, deep: 8 },
   intros: [
     'Hosea is the prophet who loved a harlot. His marriage is not a private affair but a sign to Israel. When God commands him to take "a wife of whoredoms," Hosea does not hesitate. He marries Gomer, and in that marriage, he becomes a living word to his people.',
     'The children born to Hosea and Gomer carry names that are prophecies. Jezreel means "God scatters" — the place where Israel&apos;s dynasty would fall. Lo-ruhamah means "not pitied" — God&apos;s compassion withdrawn. Lo-ammi means "not my people" — the covenant broken. But even in these terrible names, there is hope. God is not finished with His people. His covenant love will outlast their unfaithfulness.',

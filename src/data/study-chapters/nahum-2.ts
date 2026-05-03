@@ -11,7 +11,7 @@ export const NAHUM_2: RichChapterContent = {
   bookName: 'Nahum',
   chapter: 2,
 
-  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
   intros: [
     'Nahum paints a vivid picture of the siege of Nineveh. The attackers come with shield and sword. The gates are broken open. The city that thought itself impregnable falls. The great ones are scattered. The spoil is taken. It is a portrayal of the complete destruction of the mighty city—not as distant prophecy, but as a scene the reader can almost see unfolding.',
     'The devastation is swift and thorough. God has set His face against Nineveh, and no wall, no army, no device can stand against Him. The city that thought its strength could protect it learns that only God is strong.',

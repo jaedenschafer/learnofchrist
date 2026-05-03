@@ -16,7 +16,7 @@ export const COLOSSIANS_2: RichChapterContent = {
   bookName: 'Colossians',
   chapter: 2,
 
-  estimatedMinutes: { 5: 9, 10: 18, 15: 27 },
+  estimatedMinutes: { beginner: 9, intermediate: 18, deep: 27 },
   intros: [
     'Paul writes to the church at Colossae under siege. False teachers have arrived, offering a spiritual upgrade — hidden wisdom, mediation through angels, observance of dietary rules and holy days, ascetic practices. The promise is spiritual fullness. The result is spiritual slavery. These teachers agreed that Christ was important, but He was not enough. You needed more. You needed supplements.',
     'Paul&apos;s response cuts to the heart. In Christ dwells all the fullness of God bodily. You have received everything. You are complete. To add to this is to diminish it. Colossians 2 is an explosive restatement of Christian freedom — not the freedom to do as you please, but freedom from the burden of earning divine favor, freedom from fear of cosmic powers, freedom from the tyranny of works. You are in Christ. That is enough.',

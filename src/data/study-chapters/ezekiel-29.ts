@@ -17,7 +17,7 @@ export const EZEKIEL_29: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 29,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'Ezekiel 29 turns to Egypt—the ancient superpower, refuge and temptation for those Judah wanted to ally with. Pharaoh is imaged as a great dragon (or crocodile, leviathan) lying in the midst of the Nile, claiming ownership: "My river is mine own." Egypt believes her power is rooted in the Nile—her own resources, her own creation. She looks to no god. She bows to no power. But God will show that even Pharaoh&apos;s greatest sources of strength are not his own.',
     'The judgment is fierce: God will put hooks in Pharaoh&apos;s jaws and drag him forth. Egypt will be abandoned, impoverished, scattered. But the prophecy also contains hope: Egypt will be restored. The judgment is not permanent extinction, but the breaking of pride so that restoration can come.',

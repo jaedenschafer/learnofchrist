@@ -16,7 +16,7 @@ export const ACTS_4: RichChapterContent = {
   bookName: 'Acts',
   chapter: 4,
 
-  estimatedMinutes: { 5: 9, 10: 17, 15: 24 },
+  estimatedMinutes: { beginner: 9, intermediate: 17, deep: 24 },
   intros: [
     'Peter and John have just healed the lame beggar and spoken boldly to the crowds about Jesus. Now they are arrested. The very next morning they stand before the Sanhedrin — the council of seventy elders that had condemned Jesus to death. Peter might have been afraid. Instead, filled with the Holy Ghost, he declares that the lame man is made whole by the power of the name of Jesus Christ. The council is stunned. They recognize that Peter and John have been with Jesus.',
     'Rather than back down, Peter and John insist they cannot help but speak the things they have seen and heard. They cannot be silent, no matter what the council commands. The authorities release them but order them to speak no more in that name. Yet the gospel spreads. Thousands more believe. The new believers live as one body — of one heart and soul, holding all their possessions in common, sharing freely with those in need. Into this chapter, God introduces Barnabas, a Levite whose very name means "son of encouragement."',

@@ -16,7 +16,7 @@ export const THIRD_MACCABEES_6: RichChapterContent = {
   bookName: '3 Maccabees',
   chapter: 6,
 
-  estimatedMinutes: { 5: 6, 10: 12, 15: 15 },
+  estimatedMinutes: { beginner: 6, intermediate: 12, deep: 15 },
   intros: [
     'The moment of terror has arrived. Ptolemy&apos;s army, with five hundred elephants drunk on wine and incense, begins to move toward the Jews. But before the first elephant takes a step, an old man steps forward. Eleazar, the priest, beloved by the people, speaks. And his prayer becomes the heartbeat of the chapter — a recital of every great deliverance God has ever wrought.',
     'Prayer in Scripture is always remembrance. Eleazar does not plead in the abstract; he walks backward through history, naming each miracle, each rescue, each impossible reversal. Pharaoh drowned; Sennacherib fled; three young men walked unburned through fire; Daniel slept among lions; Jonah emerged from the belly. As he speaks, he teaches God&apos;s character through God&apos;s deeds. And the moment he finishes — the moment the prayer ends and human words give way to divine silence — God answers. Not with a quiet whisper. With visible messengers. With fear that turns back an empire.',

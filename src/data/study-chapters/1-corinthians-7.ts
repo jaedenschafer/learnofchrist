@@ -13,7 +13,7 @@ export const FIRST_CORINTHIANS_7: RichChapterContent = {
   bookName: '1 Corinthians',
   chapter: 7,
 
-  estimatedMinutes: { 5: 8, 10: 15, 15: 19 },
+  estimatedMinutes: { beginner: 8, intermediate: 15, deep: 19 },
   intros: [
     'Some in the Corinthian church have written Paul asking whether believers should marry at all. It appears some have embraced an extreme asceticism, seeing the body and marriage as inherently unclean. Paul writes to correct this error without dismissing the genuine spiritual good he sees in singleness. Both marriage and singleness are callings. Both are gifts from God. The question is not which one is higher, but how to live faithfully in the one you have.',
     'This chapter is one of the most pastorally delicate in Scripture. Paul addresses believers trapped in unequal marriages, the enslaved and the free, the widowed and the unmarried, all people asking: &quot;How do I honor God where I am?&quot; His answer is consistent: you are bought with a price. Christ owns your life. Whether you marry or not, whether you remain enslaved or become free, the Lord has called you to walk in that calling with integrity. The time is short. Live undistracted. Make decisions that serve love.',

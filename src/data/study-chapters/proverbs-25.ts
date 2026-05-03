@@ -12,7 +12,7 @@ export const PROVERBS_25: RichChapterContent = {
   bookName: 'Proverbs',
   chapter: 25,
 
-  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
   intros: [
     'Proverbs 25 opens by noting that these are "the proverbs of Solomon which the men of Hezekiah king of Judah copied out." Here is wisdom from an earlier generation, rediscovered and treasured. The chapter celebrates the precise beauty of language—a word fitly spoken, like apples of gold in vessels of silver—and the transformative power of kindness toward an enemy. Break bread with the one who would break you, and watch what happens.',
   ],

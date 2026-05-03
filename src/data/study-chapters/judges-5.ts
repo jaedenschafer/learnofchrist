@@ -15,7 +15,7 @@ export const JUDGES_5: RichChapterContent = {
   bookName: 'Judges',
   chapter: 5,
 
-  estimatedMinutes: { 5: 8, 10: 14, 15: 19 },
+  estimatedMinutes: { beginner: 8, intermediate: 14, deep: 19 },
   intros: [
     'Judges 5 is one of the oldest poems in the Bible — some scholars date its composition to the 12th century BC, earlier than almost anything else in Hebrew Scripture. It is a victory song that Deborah and Barak sang after their battle against Sisera, the Canaanite general whose iron chariots had terrorized Israel for twenty years.',
     'The poem begins not with earthly drums but with a memory of Sinai — God himself marching out, the earth trembling, the heavens dropping rain. The battlefield victory becomes a sign of God&apos;s ancient power still at work. Then comes a tribal roll-call: who came to fight, and who stayed home. Then the battle itself — not decided by chariots or strength, but by heavenly hosts, by a timely flood, by one woman&apos;s courage. The poem closes with one of the most arresting moments in Hebrew poetry: Sisera&apos;s mother waiting at the window, not knowing her son is dead.',

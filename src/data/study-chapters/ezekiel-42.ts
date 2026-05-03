@@ -13,7 +13,7 @@ export const EZEKIEL_42: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 42,
 
-  estimatedMinutes: { 5: 1, 10: 2, 15: 2 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 2 },
   intros: [
     'The vision now shows the support structures of the temple—the chambers where the priests will live and work. These are not mere administrative rooms. They are sanctified spaces, separate from the common areas, where those who serve God maintain the holiness of the sanctuary. The priests must themselves be holy, and their dwelling places reflect that requirement.',
     'The dimensions of these chambers, like all the other measurements in this extended vision, are given with precision. God provides for His servants. He measures out exactly what they need. The priests are not left to fend for themselves. They are cared for, housed, and given the space they need to fulfill their calling.',

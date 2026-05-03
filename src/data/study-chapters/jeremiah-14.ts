@@ -16,7 +16,7 @@ export const JEREMIAH_14: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 14,
 
-  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
   intros: [
     'Jeremiah 14 opens with an image of devastation. A drought has struck the land. The nobles send servants to draw water, but they find the wells empty. The ground is parched. The farmers despair because there is no rain. And naturally, the people turn to prayer, calling upon God for relief. Yet God tells Jeremiah something stunning: do not intercede for this people. Do not pray for them. I will not hear.',
     'The reason becomes clear: false prophets have arisen who are leading the people astray. These prophets declare, "Ye shall not see the sword, neither shall ye have famine; but I will give you assured peace in this place." They are lying. They are giving the people false assurance, saying that judgment will not come when in fact it will. And because the people listen to the false prophets instead of to God&apos;s true messenger, Jeremiah, they are cut off from God&apos;s mercy. The false prophet always tells people what they want to hear. The true prophet tells them what they need to hear.',

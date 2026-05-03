@@ -14,7 +14,7 @@ export const EZEKIEL_47: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 47,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'In one of the most powerful images in all of Scripture, Ezekiel sees water flowing from the threshold of God&apos;s temple. At first it is a mere trickle, ankle-deep. But as the river flows eastward, it grows. At one point it is knee-deep. Then waist-deep. Finally, it is so deep he cannot ford it—it is a river to swim in. And everywhere this water flows, it brings life. The salt marshes become fresh. The Dead Sea teems with fish. Trees flourish, bearing new fruit monthly, their leaves never withering.',
     'This is the vision of God&apos;s kingdom spreading outward from its source, bringing healing and life to all it touches. It is the image John returns to at the end of Revelation: the river of the water of life, flowing from the throne of God, with the tree of life on either bank. Christ is that river, bringing eternal life to a world that is dying.',

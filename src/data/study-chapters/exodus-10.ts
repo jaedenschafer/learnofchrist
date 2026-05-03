@@ -12,7 +12,7 @@ export const EXODUS_10: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 10,
 
-  estimatedMinutes: { 5: 8, 10: 15, 15: 17 },
+  estimatedMinutes: { beginner: 8, intermediate: 15, deep: 17 },
   intros: [
     'Exodus 10 is the story of two plagues that tear at the very heart of Egypt&apos;s power. The eighth plague—locusts—descends on the land like a moving wall, consuming every leaf, every plant, every hope of harvest. Pharaoh&apos;s own servants finally break, pleading with him: "Egypt is destroyed." He bends, he seems ready to let the people go. And then his conditions reveal his true grip: he will free the people, but their children must stay. Their animals must stay. The wealth of Egypt must stay. Total obedience is the one thing Pharaoh cannot give; the one thing Moses will not accept.',
     'The ninth plague is darkness—a darkness so thick it can be felt. For three days, Egypt sits in absolute blackness while the nation&apos;s god Ra, the sun himself, is hidden from the world. But the children of Israel have light in their dwellings. This is the moment when Egypt&apos;s darkness becomes tangible and the cost of refusal becomes visible. Moses sees the pattern now: Pharaoh will negotiate, compromise, offer anything except surrender. So Moses stops negotiating. He speaks the God who has already decided what deliverance looks like: complete and total, with nothing left behind in Egypt.',

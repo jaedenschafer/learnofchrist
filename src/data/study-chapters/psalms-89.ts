@@ -16,7 +16,7 @@ export const PSALMS_89: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 89,
 
-  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
   intros: [
     'Psalm 89 is a psalm of Ethan the Ezrahite, and it begins with praise for God&apos;s mercy and faithfulness. But it also contains a tension. God has made a covenant with David—eternal, unchangeable—yet in the psalmist&apos;s present time, that covenant seems broken. David&apos;s throne has been cast down. The walls are broken. The psalmist must reckon with the gap between God&apos;s promise and present reality. Yet he clings to the promise itself.',
   ],

@@ -15,7 +15,7 @@ export const PSALMS_106: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 106,
 
-  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
   intros: [
     'Psalm 106 is paired with Psalm 105. Where Psalm 105 recounts God&apos;s faithfulness, Psalm 106 recounts Israel&apos;s unfaithfulness. It is the darker side of the covenant history. The psalmist walks through the same events—the plagues, the Exodus, the wilderness—but frames them around the people&apos;s complaints, idolatry, and rebellion. And yet the psalms tells the same story: over and over, God forgives. Over and over, He saves them not because they deserve it, but "for his mercy&apos;s sake." This is the pattern that defines the covenant relationship: human sin and divine mercy, repeated across generations.',
     'The psalm speaks to something deep in all of us. We know the pattern of failure and forgiveness from our own hearts. We fall into sin, we repent, we are forgiven, and then we find ourselves in the same struggle again. Psalm 106 says: this pattern is not merely personal. It has shaped the entire history of God&apos;s people. And yet God has not abandoned us. His mercy is the only thing constant enough to hold us.',

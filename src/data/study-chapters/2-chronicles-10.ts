@@ -17,7 +17,7 @@ export const CHRONICLES_2_10: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 10,
 
-  estimatedMinutes: { 5: 5, 10: 10, 15: 14 },
+  estimatedMinutes: { beginner: 5, intermediate: 10, deep: 14 },
   intros: [
     'Solomon is dead. The golden age of Israel&apos;s united kingdom stands at a precipice. His son Rehoboam inherits a throne, but the inheritance comes with a crisis: the people are exhausted. The weight of Solomon&apos;s taxes, his building projects, his forced labor quotas — all of it has carved deep grooves of resentment into the kingdom. And now, at Rehoboam&apos;s coronation in Shechem, the people come with a plea.',
     'They do not demand rebellion. They ask for negotiation. "Make the burden lighter, and we will serve you." It is an olive branch, an offer of continued loyalty in exchange for relief. And Rehoboam stands at a threshold: will he be a servant-king, or will he grasp for absolute power?',

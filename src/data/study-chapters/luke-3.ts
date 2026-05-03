@@ -17,7 +17,7 @@ export const LUKE_3: RichChapterContent = {
   bookName: 'Luke',
   chapter: 3,
 
-  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
   intros: [
     'In the fifteenth year of the reign of Tiberius Caesar, when Pontius Pilate is governor of Judaea, when Herod is tetrarch of Galilee, when Philip is tetrarch of Ituraea and of the region of Trachonitis, and Lysanias is tetrarch of Abilene—in this precise historical moment, the word of God comes upon John, the son of Zacharias, in the wilderness. John comes proclaiming a baptism of repentance for the forgiveness of sins, fulfilling the prophecy of Isaiah: "The voice of one crying in the wilderness."',
     'John preaches to soldiers, to tax collectors, to all who come. His message is clear: repent. Produce fruit worthy of repentance. Do not presume upon your lineage. God can raise up children to Abraham from these very stones. The axe is laid to the root of the tree. Every tree that does not bear good fruit will be cut down and cast into the fire. John prepares the people. The one who comes after him will baptize with the Holy Spirit and with fire.',

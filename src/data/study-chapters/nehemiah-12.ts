@@ -16,7 +16,7 @@ export const NEHEMIAH_12: RichChapterContent = {
   bookName: 'Nehemiah',
   chapter: 12,
 
-  estimatedMinutes: { 5: 5, 10: 10, 15: 15 },
+  estimatedMinutes: { beginner: 5, intermediate: 10, deep: 15 },
   intros: [
     'After the walls have been rebuilt — stone by stone, under the leadership of Nehemiah — the moment of dedication arrives. But before the celebration begins, the text pauses to record the names of the priests and Levites who came up with Zerubbabel and Jeshua, the men who led the spiritual life of the returning community. These are the ones who sustained the people through exile and brought them home. They are not footnotes to the story; they are the foundation.',
     'The dedication itself becomes a symphony of joy. Two great companies of the people take to the wall, walking in opposite directions, singing, playing instruments — cymbals, harps, lyres — until they meet together at the house of God. The priests blow their trumpets. The singers sing so loudly that the text declares: "The joy of Jerusalem was heard even afar off." This is not the muted relief of a survivor. This is a people who have discovered that what was lost can be rebuilt, and that rebuilding itself is cause for exultation that echoes beyond the walls.',

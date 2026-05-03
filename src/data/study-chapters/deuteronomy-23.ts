@@ -5,7 +5,7 @@ export const DEUTERONOMY_23: RichChapterContent = {
   bookName: 'Deuteronomy',
   chapter: 23,
 
-  estimatedMinutes: { 5: 8, 10: 13, 15: 17 },
+  estimatedMinutes: { beginner: 8, intermediate: 13, deep: 17 },
   intros: [
     'Deuteronomy 23 is a chapter of boundaries. It draws lines around the assembly of the Lord — who may enter and who may not. It specifies what holiness looks like in the camp, down to the practical details of daily life. It protects the vulnerable — the runaway slave, the day laborer. It forbids exploitation in several forms: charging interest to a brother, hiring temple prostitutes, withholding a worker&apos;s wage. And it makes an odd promise: break a vow if you must, but if you vow, keep it. The chapter reads like a community learning to live in God&apos;s presence.',
     'The boundaries here troubled the early church. Not because the laws were harsh, but because they seemed to divide God&apos;s people into the allowed and the forbidden. Yet the Gospel dismantles those walls. Ruth, a Moabitess, enters the assembly through faith and becomes David&apos;s ancestor. The Ethiopian eunuch, barred by the letter of this law, becomes the first African Christian. Christ does not erase these laws; He fulfills them by opening the door that law could only guard.',

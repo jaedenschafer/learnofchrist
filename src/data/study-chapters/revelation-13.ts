@@ -15,7 +15,7 @@ export const REVELATION_13: RichChapterContent = {
   bookName: 'Revelation',
   chapter: 13,
 
-  estimatedMinutes: { 5: 8, 10: 14, 15: 17 },
+  estimatedMinutes: { beginner: 8, intermediate: 14, deep: 17 },
   intros: [
     'Revelation 13 is one of the most famous and most contested chapters in the Bible — the beast from the sea, the beast from the earth, and the number 666. For two thousand years, interpreters have tried to identify exactly who or what these beasts are. Nero. The papacy. A future world ruler. A political system. Spiritual forces. The text itself refuses to settle the question — John simply shows us the symbols.',
     'What matters for John&apos;s original readers, and for us, is not the precise identity of the beasts but the posture they teach. A beheaded empire seems undefeated. An earth-born deceiver makes people worship the impossible. The saints respond not by fighting with swords but by refusing allegiance and enduring. They hold the patience and faith that Christ Himself showed — the patience of a Lamb led to slaughter, the faith of one who dies and rises.',

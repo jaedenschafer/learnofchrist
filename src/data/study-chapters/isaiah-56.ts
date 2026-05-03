@@ -15,7 +15,7 @@ export const ISAIAH_56: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 56,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'Isaiah 56 marks a shift. Chapters 49–55 have focused on the Servant and His redemptive work. Now the attention turns to the community that will be gathered through that redemption. The temple, God\'s house, is to be a place of prayer for all peoples—not just the elect, not just the ritually pure, but all who hunger to know God. Yet this chapter also warns: the watchmen, the shepherds, the leaders are often blind and dumb. They do not see their duty. They feed themselves instead of feeding the flock. Restoration of the temple must include restoration of its leaders.',
   ],

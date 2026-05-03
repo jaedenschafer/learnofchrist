@@ -14,7 +14,7 @@ export const EXODUS_7: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 7,
 
-  estimatedMinutes: { 5: 7, 10: 12, 15: 14 },
+  estimatedMinutes: { beginner: 7, intermediate: 12, deep: 14 },
   intros: [
     'God has told Moses and Aaron to demand Pharaoh release Israel. Now, in Exodus 7, the confrontation begins. Moses will be placed over Pharaoh like a god — and Aaron will be his prophet, speaking on his behalf. Before the plagues come, Pharaoh is given a sign: Aaron&apos;s rod becomes a serpent and swallows the serpents of Egypt&apos;s own magicians. The God who made creation holds power over every counterfeit power in the world.',
     'But there is tension in this chapter that the Bible does not resolve. Pharaoh hardens his own heart — and God also hardens his heart. Both are true. Both are stated without apology, without one canceling the other. The reader is left to hold both without a system, both without neat resolution. And then the Nile — the lifeblood of Egypt, worshiped as a god — turns to blood. A god cannot bleed. Pharaoh can only watch.',

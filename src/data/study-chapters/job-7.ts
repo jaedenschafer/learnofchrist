@@ -21,7 +21,7 @@ export const JOB_7: RichChapterContent = {
   bookName: 'Job',
   chapter: 7,
 
-  estimatedMinutes: { 5: 4, 10: 10, 15: 14 },
+  estimatedMinutes: { beginner: 4, intermediate: 10, deep: 14 },
   intros: [
     'Job continues his lament. He speaks not to his friends now, but directly to God, though God does not answer. He speaks of the condition of human existence: the hard work, the brief reprieve, the inevitability of death. A laborer — a hired man — counts his days until he is freed from his contract and paid. So Job counts his days, but what awaits him at the end is not payment but the grave.',
     'Job then speaks of his own body: clothed with worms, lying in dust, yet still alive. His skin breaks open and festers. The nights are long, his mornings filled with pain. He says: "I am a burden to myself. Why hast thou set me as a mark against thee?" He experiences his own existence as a burden, as a mark, a target for God\'s attention.',

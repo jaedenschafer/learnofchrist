@@ -16,7 +16,7 @@ export const ACTS_11: RichChapterContent = {
   bookName: 'Acts',
   chapter: 11,
 
-  estimatedMinutes: { 5: 9, 10: 15, 15: 21 },
+  estimatedMinutes: { beginner: 9, intermediate: 15, deep: 21 },
   intros: [
     'The apostles in Jerusalem hear that Peter has eaten with uncircumcised Gentiles and even stayed in their home. They summon him to account. This is not a minor infraction—it violates the boundaries that have defined God&apos;s people since Moses. Peter stands and recounts the vision: a sheet lowered from heaven, unclean animals declared clean, a voice saying &ldquo;What God hath cleansed, that call not thou common.&rdquo; Then the Spirit fell on Cornelius and his household just as at Pentecost. Peter&apos;s question silences them all: &ldquo;Who was I, that I could withstand God?&rdquo; The answer is: no one.',
     'While this debate unfolds in Jerusalem, the gospel spreads in Antioch. Not only Jews believe—Greeks do too. The hand of the Lord is with them. In that city, far from Jerusalem, the followers are called by a name for the first time: Christians. It sticks. From that moment, the movement has a name that will outlast empires. Barnabas is sent to Antioch. He finds Saul, brings him north. Together they teach. A prophet comes from Jerusalem named Agabus. He predicts famine. The church in Antioch responds by sending relief to Judea. All of this happens because the Spirit broke through before the church was ready to explain it. The gospel was always meant for all peoples. The Spirit knew it before the apostles could articulate it.',

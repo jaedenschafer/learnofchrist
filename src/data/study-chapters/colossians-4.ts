@@ -15,7 +15,7 @@ export const COLOSSIANS_4: RichChapterContent = {
   bookName: 'Colossians',
   chapter: 4,
 
-  estimatedMinutes: { 5: 7, 10: 13, 15: 19 },
+  estimatedMinutes: { beginner: 7, intermediate: 13, deep: 19 },
   intros: [
     'Colossians 4 closes Paul&apos;s letter to a congregation he has never met, yet loves deeply. After three chapters of teaching—Christ&apos;s supremacy, freedom in Him, and the household codes—Paul makes a turn. He calls the church to master and servant relationships that honor a Master in heaven, to prayer that never ceases, to witness that is graceful and wise.',
     'Then the chapter becomes unexpectedly tender. Paul is in prison, yet his heart is full of the names and work of those around him. Tychicus will carry the letter. Onesimus will go with him—a formerly enslaved man now beloved brother. Aristarchus, Marcus, Jesus called Justus, all are there. Epaphras labors fervently in prayer. Luke the physician and Demas send greetings. Even in captivity, Paul&apos;s letters close not with lament but with a roll call of love.',

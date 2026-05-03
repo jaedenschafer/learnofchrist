@@ -2,17 +2,17 @@
 
 import { useEffect, useRef } from 'react';
 import { getSupabaseBrowserClient } from '@/lib/supabase/browser';
-import { useReadingPrefs, type DepthTier } from '@/lib/ReadingPrefsContext';
+import { useStudyLevel, type StudyLevel } from '@/lib/StudyLevelContext';
 
 /**
- * Cross-device sync for the depth-tier preference.
+ * Cross-device sync for the study-level preference.
  *
  * On mount (signed-in users only):
- *   1. Reads `user_reading_prefs.depth_tier` from Supabase.
- *   2. If it differs from the locally-stored / default tier, applies it.
+ *   1. Reads `user_reading_prefs.study_level` from Supabase.
+ *   2. If it differs from the locally-stored / default level, applies it.
  *      This is the "I just signed in on a new device" path.
  *
- * On every depth-tier change:
+ * On every study-level change:
  *   1. Debounced 500ms write to Supabase via upsert.
  *
  * localStorage remains the source of truth on this device — the server row
@@ -21,8 +21,12 @@ import { useReadingPrefs, type DepthTier } from '@/lib/ReadingPrefsContext';
  *
  * Mount this once at the layout level (not per-page).
  */
+const STUDY_LEVELS: StudyLevel[] = ['beginner', 'intermediate', 'deep'];
+const isStudyLevel = (v: unknown): v is StudyLevel =>
+  typeof v === 'string' && (STUDY_LEVELS as string[]).includes(v);
+
 export function useUserReadingPrefsSync() {
-  const { depthTier, setDepthTier } = useReadingPrefs();
+  const { level, setLevel } = useStudyLevel();
   const initialised = useRef(false);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -38,14 +42,13 @@ export function useUserReadingPrefsSync() {
         if (!user || cancelled) return;
         const { data, error } = await supabase
           .from('user_reading_prefs')
-          .select('depth_tier')
+          .select('study_level')
           .eq('user_id', user.id)
           .maybeSingle();
         if (error || cancelled || !data) return;
-        const serverTier = data.depth_tier as DepthTier;
-        // Only override if different — avoids triggering a write back.
-        if (serverTier !== depthTier && (serverTier === 5 || serverTier === 10 || serverTier === 15)) {
-          setDepthTier(serverTier);
+        const serverLevel = data.study_level;
+        if (isStudyLevel(serverLevel) && serverLevel !== level) {
+          setLevel(serverLevel);
         }
       } catch {
         /* unauthenticated or offline — fine, localStorage carries us */
@@ -58,8 +61,8 @@ export function useUserReadingPrefsSync() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // 2. Debounced write on every tier change. Skip the very first render so we
-  //    don't immediately write back what we just read.
+  // 2. Debounced write on every level change. Skip the very first render so
+  //    we don't immediately write back what we just read.
   const firstChange = useRef(true);
   useEffect(() => {
     if (firstChange.current) {
@@ -75,7 +78,7 @@ export function useUserReadingPrefsSync() {
         await supabase
           .from('user_reading_prefs')
           .upsert(
-            { user_id: user.id, depth_tier: depthTier },
+            { user_id: user.id, study_level: level },
             { onConflict: 'user_id' },
           );
       } catch {
@@ -85,5 +88,5 @@ export function useUserReadingPrefsSync() {
     return () => {
       if (debounceRef.current) clearTimeout(debounceRef.current);
     };
-  }, [depthTier]);
+  }, [level]);
 }

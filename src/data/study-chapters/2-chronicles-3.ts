@@ -19,7 +19,7 @@ export const CHRONICLES_2_3: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 3,
 
-  estimatedMinutes: { 5: 4, 10: 8, 15: 12 },
+  estimatedMinutes: { beginner: 4, intermediate: 8, deep: 12 },
   intros: [
     'The temple was not a sudden creation. It was built on a foundation prepared by centuries of covenant — by Abraham&apos;s faith on Mount Moriah, by David&apos;s purchase of the threshing floor, by Solomon&apos;s wisdom and wealth. The Lord had appeared to David in that place and told him: "This shall be the house of the Lord God" (1 Chronicles 28:2). Now Solomon, in the fourth year of his reign, lays its foundation.',
     'Every measurement, every material, every architectural choice speaks of something deeper than stone and gold. The temple is the house of God — the place where heaven enters the world, where the glory of the Lord dwells among His people. And the very mountain on which it stands carries the weight of history: this is Moriah, where God tested Abraham and declared, "The Lord will provide."',

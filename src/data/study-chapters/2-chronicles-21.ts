@@ -20,7 +20,7 @@ export const CHRONICLES_2_21: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 21,
 
-  estimatedMinutes: { 5: 7, 10: 12, 15: 17 },
+  estimatedMinutes: { beginner: 7, intermediate: 12, deep: 17 },
   intros: [
     'Jehoshaphat sleeps with his fathers, and his son Jehoram rises to the throne. The father was faithful; the son will be faithless. Where Jehoshaphat strengthened the kingdom and walked in the way of the Lord, Jehoram will walk in the way of the kings of Israel — abandoning the God of his fathers and marrying into the house of Ahab. The chapter opens with a striking act of parricide: Jehoram slaughters all his brothers, clearing away any potential rival to his throne. It is an act that will define his reign and earn him a place among Judah&apos;s worst kings.',
     'Yet the Lord does not abandon the house of David. Even as Jehoram descends into apostasy, marries an Ahabian princess, and turns the people toward idolatry, the covenant mercy holds. The Lord will not destroy the line — but He will not spare the king from the consequences of his choices. A writing arrives from Elijah the prophet, announcing plague. Enemies revolt. A disease of the bowels consumes Jehoram slowly, publicly, without remedy. And when he dies, after reigning only eight years, the text records the most devastating judgment: "he departed without being desired." He was hated. He was forgotten. No one mourned him.',

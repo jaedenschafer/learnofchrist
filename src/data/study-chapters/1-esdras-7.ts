@@ -18,7 +18,7 @@ export const FIRST_ESDRAS_7: RichChapterContent = {
   bookName: '1 Esdras',
   chapter: 7,
 
-  estimatedMinutes: { 5: 8, 10: 16, 15: 22 },
+  estimatedMinutes: { beginner: 8, intermediate: 16, deep: 22 },
   intros: [
     'The work of rebuilding has met opposition. Enemies of Judah lodge complaints with King Darius, claiming no royal decree authorizes the Jews to rebuild their temple. The construction stalls. But Darius, rather than dismiss the Jews, orders the archives in Babylon searched. There, in the palace of the Medes, a scroll is discovered — the very decree of Cyrus, written and sealed, proving that the authorization is real.',
     'What Darius discovers ignites more than compliance. He adds his own royal voice to Cyrus&apos;s. Not only does he affirm the original order; he commands that expenses for the work be paid from the royal treasury. He supplies bullocks, rams, and lambs for the altar. He furnishes wheat, salt, wine, and oil for the priests. And he pronounces a curse on anyone foolish enough to alter his decree: let timber be torn from their own house and let them be hanged upon it.',

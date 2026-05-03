@@ -16,7 +16,7 @@ export const PSALMS_130: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 130,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'Psalm 130 is perhaps the most intimate meditation on sin, forgiveness, and hope in all of Scripture. The psalmist descends to the depths—not of waters or danger, but of sin, of guilt, of despair. "Out of the depths have I cried unto thee, O Lord." From that ultimate place of desolation, the cry ascends to God. And then comes the revolutionary declaration: "But there is forgiveness with thee." Not judgment, not punishment alone, but forgiveness. Mercy. Pardon. The God who could justly punish instead offers reconciliation. This psalm moves from the depths to steadfast hope.',
   ],

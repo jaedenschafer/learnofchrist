@@ -14,7 +14,7 @@ export const JEREMIAH_18: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 18,
 
-  estimatedMinutes: { 5: 6, 10: 8, 15: 11 },
+  estimatedMinutes: { beginner: 6, intermediate: 8, deep: 11 },
   intros: [
     'The Lord sends Jeremiah to the house of the potter. There, watching clay being shaped and reshaped in the hands of a craftsman, Jeremiah receives a parable about the nature of God&apos;s work with His people. The clay is not passive; the potter is not merely imposing an arbitrary shape. Rather, the potter shapes the clay according to what the clay will bear, and the clay, in turn, yields or resists the shaping. This is the relationship between God and His people — divine sovereignty and human cooperation, craft and response.',
     'Jeremiah learns that the same God who can make a vessel for honor can remake that vessel for dishonor, depending on how the people respond to His word. Yet even this doctrine of divine judgment carries an implicit hope: a vessel can be reshaped. As long as the clay remains in the potter&apos;s hand, transformation is possible.',

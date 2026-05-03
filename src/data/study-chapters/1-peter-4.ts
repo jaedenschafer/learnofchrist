@@ -14,7 +14,7 @@ export const FIRST_PETER_4: RichChapterContent = {
   bookName: '1 Peter',
   chapter: 4,
 
-  estimatedMinutes: { 5: 8, 10: 16, 15: 22 },
+  estimatedMinutes: { beginner: 8, intermediate: 16, deep: 22 },
   intros: [
     'Peter presses into a theme that runs through the epistle: the connection between suffering and holiness. When believers face trial, they are equipped to break with sin. The sufferings of Christ, endured in obedience to the Father, are the model. We are to arm ourselves with the same resolve: obedience to God even when it costs us.',
     'He then sounds an eschatological note: the end of all things approaches. This is not fear-mongering but a call to clarity. If all earthly things are temporary, what truly matters? Love. Service. The building up of the body of Christ. All other pursuits pale in the light of eternity.',

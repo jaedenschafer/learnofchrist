@@ -10,7 +10,7 @@ export const LEVITICUS_7: RichChapterContent = {
   bookName: 'Leviticus',
   chapter: 7,
 
-  estimatedMinutes: { 5: 10, 10: 16, 15: 19 },
+  estimatedMinutes: { beginner: 10, intermediate: 16, deep: 19 },
   intros: [
     'Leviticus 7 continues the manual for priests and worshippers, laying out the fine points of the trespass offering and the peace offering. The peace offering is the most intimate sacrifice in Israel&apos;s system — not just given to God, but eaten by the one who brought it, eaten at the Lord&apos;s table. The chapter subdivides this meal into three kinds: thanksgiving (*todah*), vow, and freewill. Each has different timing rules. Some meat is eaten the same day; some may wait two days; anything past that burns. God establishes hard boundaries around what is touched and who touches it. The priests receive specific portions — the wave breast and the heave shoulder. Nothing wasteful, nothing casual. In the end, the trespass offering, like every other offering, teaches the cost of covering sin.',
     'For the reader on this side of the cross, the peace offering of thanksgiving anticipates the Eucharist. Jesus took bread and wine and said "this is my body" — Greek *eucharistia*, thanksgiving. The urgency of eating the meat the same day mirrors the immediacy of grace: communion with God is not something to postpone. And the priests&apos; portions in every offering whisper forward to what Paul says of the New Testament ministry: "they which wait at the altar are partakers with the altar" (1 Cor. 9:13).',

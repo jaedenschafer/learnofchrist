@@ -15,7 +15,7 @@ export const GENESIS_49: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 49,
 
-  estimatedMinutes: { 5: 10, 10: 18, 15: 24 },
+  estimatedMinutes: { beginner: 10, intermediate: 18, deep: 24 },
   intros: [
     'Genesis 49 is Jacob&apos;s last will and testament — a long, poetic deathbed blessing over his twelve sons. Each oracle is terse, sometimes cryptic, and devastating in its honesty. Reuben is cursed for his lust. Simeon and Levi are condemned to scatter because of the massacre at Shechem. The words are judgment delivered in love by a dying father who sees his sons not as they are in this moment, but as the tribes they will become.',
     'And yet in the middle of pronouncing these fates, Jacob suddenly breaks off his poetry and cries out to God: "I have waited for thy salvation, O LORD." He is blessing his sons, but his deepest longing is for Someone else — for a Deliverer. The Shiloh prophecy on Judah (vv.8-12) becomes the pivot point of the entire book. The scepter will not depart from Judah. A lawgiver will rise from his sons. Obedience of the peoples will gather to him. Two thousand years of interpretation — Jewish and Christian — will hang on these verses.',

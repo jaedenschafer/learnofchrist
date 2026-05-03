@@ -14,7 +14,7 @@ export const ISAIAH_21: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 21,
 
-  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
   intros: [
     "Babylon was the greatest power of its time—a civilization of walls and splendor, renowned for its magic and divination, its confidence in its own permanence. Yet Isaiah announces its fall with a clarity that shakes him. The prophet is so overwhelmed by the vision of Babylon's judgment that he cries out in anguish and fear. His loins are filled with pain; his knees smite together. He cannot bear what he is seeing.",
     'The chapter reveals that judgment on the kingdoms of this world is not a celebration but a sobering reality. The prophet grieves the ruin that must come. Yet the oracle, echoed in Revelation 18, ultimately points beyond Babylon to the overthrow of all earthly powers that oppose God and the establishment of His kingdom that will never fall.',

@@ -19,7 +19,7 @@ export const SECOND_ESDRAS_16: RichChapterContent = {
   bookName: '2 Esdras',
   chapter: 16,
 
-  estimatedMinutes: { 5: 7, 10: 12, 15: 16 },
+  estimatedMinutes: { beginner: 7, intermediate: 12, deep: 16 },
   intros: [
     'Chapter 16 is Ezra&apos;s final word—a cascade of woes upon the nations, announced with the weight of heaven behind them. Calamities are coming: sword, famine, plague, fire. The proud will fall. The strong will become weak. But woven through the judgment is a quiet, unshakeable promise: God knows His own. They are sealed. They will be preserved.',
     'The chapter ends the book of 2 Esdras not with fear but with tender protection. Those who love God, who keep His covenant, who gird themselves in faith—they will pass through the woes untouched. The kingdom is prepared for them. And the Lord will hold them as surely as a flower blooms in its appointed season.',

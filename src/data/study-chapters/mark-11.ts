@@ -20,7 +20,7 @@ export const MARK_11: RichChapterContent = {
   bookName: 'Mark',
   chapter: 11,
 
-  estimatedMinutes: { 5: 1, 10: 4, 15: 6 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
   intros: [
     'Mark 11 opens with the triumphal entry into Jerusalem. Jesus sends two disciples to find a young ass on which no one has yet sat. He rides this donkey into the city, and crowds hail Him, spreading garments and branches: "Hosanna; blessed is he that cometh in the name of the Lord: blessed is the kingdom of our father David, that cometh in the name of the Lord: Hosanna in the highest." Yet this is not the triumphal entry of a conquering military king. It is a lowly entry, on a beast of burden. The crowds expect one thing. Jesus offers something else.',
     'The next day, Jesus enters the temple and begins to cast out those who sold and bought, overturning the tables of the money changers. "My house shall be called of all nations the house of prayer: but ye have made it a den of thieves." The chief priests and scribes hear and seek a way to destroy Him. The chapter interweaves the incident of the fig tree—cursed for bearing no fruit, later found withered—with the cleansing of the temple. Both are acts of judgment. Both call for faith. The gospel is not a message of comfort but of challenge, judgment, and the call to bear fruit, to have faith, to worship truly.',

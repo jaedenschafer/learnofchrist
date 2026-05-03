@@ -14,7 +14,7 @@ export const REVELATION_7: RichChapterContent = {
   bookName: 'Revelation',
   chapter: 7,
 
-  estimatedMinutes: { 5: 7, 10: 11, 15: 16 },
+  estimatedMinutes: { beginner: 7, intermediate: 11, deep: 16 },
   intros: [
     'Revelation 6 ends with a cosmic question: "Who shall be able to stand?" before the wrath of the Lamb. Chapter 7 answers it. Before the seventh seal opens, God pauses. He seals His own—marking them with the seal of the living God, protecting them from what is to come. The 144,000, drawn from all twelve tribes of Israel, represent the fullness and completeness of God&apos;s redeemed people.',
     'But then the vision expands. John sees not just 144,000, but a multitude no one can number—from every nation, language, and people. They stand before the throne in white robes, triumphant not by their own strength but because they have washed their garments in the blood of the Lamb. They cry out with one voice: "Salvation to our God which sitteth upon the throne, and unto the Lamb." This is the church in victory, eternal and secure.',

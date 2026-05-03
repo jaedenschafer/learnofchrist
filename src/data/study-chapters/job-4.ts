@@ -18,7 +18,7 @@ export const JOB_4: RichChapterContent = {
   bookName: 'Job',
   chapter: 4,
 
-  estimatedMinutes: { 5: 3, 10: 9, 15: 12 },
+  estimatedMinutes: { beginner: 3, intermediate: 9, deep: 12 },
   intros: [
     'Now Eliphaz speaks. He begins gently, almost asking permission: "If we assay to commune with thee, wilt thou be grieved?" But then he launches into his argument. Remember, he says, how many innocent people have perished? How many righteous have been cut off? The answer, in Eliphaz&apos;s view, is none — or very few. The innocent are protected. The righteous are secure. Therefore, if Job is suffering, he must not be entirely innocent.',
     'Eliphaz then recounts a supernatural experience. In the night, a spirit passed before his face, and the hair of his flesh stood up. He heard a voice asking, "Shall mortal man be more just than God? shall a man be more pure than his maker?" This vision has convinced Eliphaz that God is supremely just, that God&apos;s justice is beyond question, and therefore that Job&apos;s suffering must be deserved. God does not punish the innocent.',

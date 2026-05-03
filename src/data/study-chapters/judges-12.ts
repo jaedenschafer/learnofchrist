@@ -15,7 +15,7 @@ export const JUDGES_12: RichChapterContent = {
   bookName: 'Judges',
   chapter: 12,
 
-  estimatedMinutes: { 5: 5, 10: 9, 15: 11 },
+  estimatedMinutes: { beginner: 5, intermediate: 9, deep: 11 },
   intros: [
     'Judges 12 opens with the familiar complaint: Ephraim is offended. They were not called to join Jephthah&apos;s war against Ammon, and they believe they are owed. Yet the chapter that follows is not a repeat of the gentle answer Gideon gave in chapter 8. Jephthah is angrier, more proud, less diplomatic. His response will cost 42,000 Israelite lives.',
     'But Judges 12 also contains something else — a linguistic artifact so powerful it became a word in every language on earth. The test of "Shibboleth" — a simple mispronunciation — marks insiders from outsiders with lethal precision. And then the narrative shifts into the so-called "minor judges," men of wealth and many children, who brought peace but, to the narrator&apos;s eye, brought little spiritual depth. The judges era is winding down. Kings are coming.',

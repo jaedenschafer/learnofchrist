@@ -5,7 +5,7 @@ export const LUKE_19: RichChapterContent = {
   bookName: 'Luke',
   chapter: 19,
 
-  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
   intros: [
     'Jesus comes to Jericho. A man named Zacchaeus, chief of the publicans and rich, is there. He is small of stature and cannot see over the crowd. He runs ahead and climbs a sycamore tree. Jesus passes beneath and looks up: "Zacchaeus, make haste, and come down; for to day I must abide at thy house." Zacchaeus comes down joyfully. The multitude murmurs: "He is gone to be guest with a man that is a sinner." But Zacchaeus stands and says: "Behold, Lord, the half of my goods I give to the poor; and if I have taken any thing from any man by false accusation, I restore him fourfold." Jesus says: "This day is salvation come to this house... For the Son of man is come to seek and to save that which was lost."',
     'Jesus speaks the parable of the pounds. A man of noble birth goes to a far country to receive a kingdom. He gives ten servants ten pounds and says: "Occupy till I come." Some servants gain more. One hides his pound in a napkin, afraid. The lord is angry: "Out of thine own mouth will I judge thee." Jesus comes to Jerusalem riding on a colt. The disciples praise Him: "Blessed be the King that cometh in the name of the Lord." He weeps over the city: "If thou hadst known... the things which belong unto thy peace!"',

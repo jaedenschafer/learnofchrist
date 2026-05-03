@@ -15,7 +15,7 @@ export const REVELATION_11: RichChapterContent = {
   bookName: 'Revelation',
   chapter: 11,
 
-  estimatedMinutes: { 5: 6, 10: 11, 15: 16 },
+  estimatedMinutes: { beginner: 6, intermediate: 11, deep: 16 },
   intros: [
     'Revelation 11 opens with a paradox: John is told to measure the temple and count the worshippers—as if the exact number matters, as if God keeps count. Then two figures emerge, dressed in sackcloth—the clothing of suffering and repentance. They are given authority to testify, to seal up heaven itself, to call down plagues. Yet they will be killed. Their bodies will lie unburied. Then something shifts: the Spirit enters them, they stand, they ascend into a cloud, and all heaven erupts with the proclamation that Christ reigns forever.',
     'This chapter moves between two tensions: the vulnerability of the witnesses and their ultimate vindication, the humiliation of the church and the triumph of the kingdom. In both, God has the final word.',

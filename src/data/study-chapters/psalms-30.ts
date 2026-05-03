@@ -16,7 +16,7 @@ export const PSALMS_30: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 30,
 
-  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
   intros: [
     'Psalm 30 is titled "A Psalm and Song at the dedication of the house of David." It is a psalm of thanksgiving for deliverance from sickness or distress. What makes it resonate across the centuries is not the specific circumstance, but the universal experience it captures: the night of suffering, the morning of recovery, the transformation of mourning into joy. The psalm teaches that suffering is not meaningless—it is the prelude to restoration.',
   ],

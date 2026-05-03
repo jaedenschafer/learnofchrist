@@ -18,7 +18,7 @@ export const KINGS_2_5: RichChapterContent = {
   bookName: '2 Kings',
   chapter: 5,
 
-  estimatedMinutes: { 5: 6, 10: 14, 15: 18 },
+  estimatedMinutes: { beginner: 6, intermediate: 14, deep: 18 },
   intros: [
     'The captain of the Syrian army is a man of consequence: great, honourable, mighty in valour. Yet he is also a man marked by plague, and no power he wields can heal him. It is his wife&apos;s maidservant — a girl taken captive, whose name Scripture does not record — who knows the way. She speaks to her mistress of a prophet in Samaria. One word from the unnamed slave girl begins a journey that will remake a Gentile commander and expose the heart of a Hebrew servant.',
     'This chapter moves through the geography of pride and humility, from the courts of kings to the river Jordan. Naaman expects a great miracle; he receives a simple command. He almost loses the healing through his refusal to be humbled. Only when his servants ask him the question "My father, if the prophet had bid thee do some great thing, wouldest thou not have done it?" does he descend into the water and find his flesh restored "like unto the flesh of a little child." And when he returns, it is not to reward the man of God, but to confess that "there is no God in all the earth, but in Israel." In the closing act, Gehazi&apos;s greed shows us the mirror image of obedience: the disease of coveting returns to cleave to him forever.',

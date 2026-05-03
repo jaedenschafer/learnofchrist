@@ -17,7 +17,7 @@ export const CHRONICLES_1_1: RichChapterContent = {
   bookName: '1 Chronicles',
   chapter: 1,
 
-  estimatedMinutes: { 5: 4, 10: 11, 15: 16 },
+  estimatedMinutes: { beginner: 4, intermediate: 11, deep: 16 },
   intros: [
     'The book of Chronicles begins where the story of humanity begins: with a name. Adam. Not a story of his temptation and fall — that came before — but his place in the great chain of generations that stretches from the first human to the present moment. The Chronicler is writing to a people who have returned from exile, a people who have lost everything — temple, kingdom, security. And the first thing the Chronicler says to them is: Look at your genealogy. You have a name. You are part of a line.',
     'From Adam, the genealogy narrows like a river flowing toward the sea. Through the great antediluvian patriarchs — Enosh, Kenan, Mahalaleel, Jered, Henoch, Methuselah, Lamech — to Noah. Then through Noah\'s sons — Shem, Ham, Japheth — the world peoples itself. From Shem, the line continues through the patriarchs of the covenant: Arphaxad, Eber, Peleg, Reu, Serug, Nahor, Terah, Abraham. From Abraham, Isaac, and from Isaac, Israel. The genealogy traces not just history but promise — the narrowing of God\'s covenant purpose through the generations.',

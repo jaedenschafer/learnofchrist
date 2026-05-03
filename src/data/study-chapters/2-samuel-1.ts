@@ -15,7 +15,7 @@ export const SAMUEL_2_1: RichChapterContent = {
   bookName: '2 Samuel',
   chapter: 1,
 
-  estimatedMinutes: { 5: 7, 10: 12, 15: 16 },
+  estimatedMinutes: { beginner: 7, intermediate: 12, deep: 16 },
   intros: [
     'The book of 2 Samuel opens at a moment of threshold. David, the anointed one whom Samuel crowned in secret, has spent years fleeing King Saul&apos;s jealous rage. He has survived in the wilderness, in foreign lands, in the service of Philistine kings — always hunted, never safe. And now, on the third day after his return from his latest expedition, a messenger comes to him with news that changes everything: Saul is dead.',
     'But the death of an enemy does not bring rejoicing. Instead, David tears his clothes. He weeps. He fasts. And when he learns the full story — that a young Amalekite has brought him Saul&apos;s crown and bracelet, claiming to have killed the Lord&apos;s anointed — David executes the messenger. The chapter closes not with triumph, but with "The Song of the Bow," one of the most haunting laments in Scripture, mourning Saul and his beloved Jonathan. In this moment, we see David&apos;s heart: not a soldier celebrating the fall of his rival, but a man who understands that even a king&apos;s death is a loss to the people of God.',

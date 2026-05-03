@@ -16,7 +16,7 @@ export const NUMBERS_3: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 3,
 
-  estimatedMinutes: { 5: 8, 10: 12, 15: 14 },
+  estimatedMinutes: { beginner: 8, intermediate: 12, deep: 14 },
   intros: [
     'At Passover, when the firstborn of Egypt fell, Israel&apos;s firstborn were spared. They became the Lord&apos;s — set apart, belonging entirely to Him. But not long after, the Lord exchanges those firstborn for the Levites. A whole tribe, given to God in place of every Israelite firstborn. The system is elegant and costly: the Levites work the tabernacle; Israel&apos;s firstborn go free. And for those firstborn beyond the Levite count, redemption comes at a price: 5 shekels per person, a ransom that points ahead.',
     'Numbers 3 is the ledger of that exchange. It names the Levite clans, assigns them their posts around the tabernacle, counts them against Israel&apos;s firstborn, and fixes the redemption price. It is also a portrait of substitution — one group standing in for another, one life traded for many. That logic becomes the deepest truth of the Gospel.',

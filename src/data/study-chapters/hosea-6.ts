@@ -13,7 +13,7 @@ export const HOSEA_6: RichChapterContent = {
   bookName: 'Hosea',
   chapter: 6,
 
-  estimatedMinutes: { 5: 2, 10: 3, 15: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
   intros: [
     'Hosea 6 opens with a call to return. "Come, and let us return unto the Lord." The tone shifts again — from judgment to hope. God has torn Israel, but He will also heal. He has smitten them, but He will bind them up. The wound is not final. Restoration is coming.',
     'The chapter contains one of the most striking passages about resurrection: "After two days will he revive us: in the third day he will raise us up." Early Christians saw in this language a prophecy of Christ&apos;s resurrection on the third day. Hosea speaks of Israel&apos;s restoration, and that very language becomes a sign of Christ&apos;s victory over death.',

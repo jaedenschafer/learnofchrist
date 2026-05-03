@@ -13,7 +13,7 @@ export const SECOND_CORINTHIANS_8: RichChapterContent = {
   bookName: '2 Corinthians',
   chapter: 8,
 
-  estimatedMinutes: { 5: 8, 10: 16, 15: 19 },
+  estimatedMinutes: { beginner: 8, intermediate: 16, deep: 19 },
   intros: [
     'Paul has spoken of reconciliation and new identity in Christ. Now he turns to a practical expression of that identity: generosity. The Corinthians are comparatively wealthy. The saints in Jerusalem are suffering from famine. Paul doesn&apos;t appeal with guilt or obligation—he appeals with grace. He holds up two shining examples: the Macedonian churches, whose generosity exceeded their means, and Christ Himself, whose self-emptying poverty became the means of our enrichment.',
     'The chapter&apos;s message is strikingly counter-intuitive. Generosity doesn&apos;t come from wealth. It comes from grace. The Macedonians gave despite poverty. Christ surrendered despite equality with God. The pattern appears throughout Scripture: the way up is down. The way to blessing is through loss. The way to abundance is through the willingness to become poor.',

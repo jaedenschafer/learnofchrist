@@ -15,7 +15,7 @@ export const JOSHUA_9: RichChapterContent = {
   bookName: 'Joshua',
   chapter: 9,
 
-  estimatedMinutes: { 5: 8, 10: 11, 15: 15 },
+  estimatedMinutes: { beginner: 8, intermediate: 11, deep: 15 },
   intros: [
     'Joshua 9 opens with a united front against Israel. All the kings west of Jordan — the Hittites, Amorites, Canaanites, Perizzites, Hivites, and Jebusites — gather "with one accord to fight." But before the battle lines form, one city — Gibeon — chooses a different path. The Gibeonites, aware of what God has done for Israel, do not fight. They scheme.',
     'Their deception is masterfully simple: old sacks, worn sandals, moldy bread, patched wineskins. A story crafted to convince Israel they have traveled from a far country. Joshua and the princes, looking at the evidence and hearing the tale, make a covenant without asking the Lord. The sin is not the oath itself — oaths matter deeply in Scripture. The sin is the silence before the oath: "They asked not counsel at the mouth of the Lord."',

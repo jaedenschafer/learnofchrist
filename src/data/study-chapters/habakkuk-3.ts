@@ -12,7 +12,7 @@ export const HABAKKUK_3: RichChapterContent = {
   bookName: 'Habakkuk',
   chapter: 3,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'The final chapter is a prayer and song. Habakkuk recalls God&apos;s mighty works—His coming from Teman, His power that shook the earth, His judgment on the nations. And then, in one of the most remarkable statements in all of Scripture, he declares his faith not despite his circumstances, but with full knowledge of them. "Although the fig tree shall not blossom... yet I will rejoice in the Lord."',
     'This is faith perfected. Not faith that denies reality or demands comfort, but faith that chooses joy in God even when crops fail, when cattle die, when the future seems dark. This is the faith Habakkuk has been moving toward from the beginning.',

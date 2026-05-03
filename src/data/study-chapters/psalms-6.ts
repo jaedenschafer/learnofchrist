@@ -15,7 +15,7 @@ export const PSALMS_6: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 6,
 
-  estimatedMinutes: { 5: 1, 10: 5, 15: 6 },
+  estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
   intros: [
     'Psalm 6 opens in a place of profound suffering. David does not simply state his pain. He performs it. "O Lord, rebuke me not in thine anger, neither chasten me in thy hot displeasure." The repetition of "rebuke" and "chasten" suggests an intensity of feeling—David fears that God has turned against him, that his suffering is divine punishment. His body is breaking down. His bones are troubled. His soul is "very much vexed." Sleep brings no relief. Night becomes a mirror of his inner torment.',
     'But then—a turn. "Depart from me, all ye workers of iniquity." Where anger and anguish fill the first half of the psalm, clarity and faith fill the second. David addresses his enemies not with the rage of a man who thinks he is alone, but with the calm of a man who knows God hears. "The Lord hath heard my supplication; the Lord will receive my prayer." The shift is startling. Not because the pain has vanished, but because David has placed his suffering into the hands of the one he trusts above all.',

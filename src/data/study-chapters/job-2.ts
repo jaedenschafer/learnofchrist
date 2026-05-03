@@ -18,7 +18,7 @@ export const JOB_2: RichChapterContent = {
   bookName: 'Job',
   chapter: 2,
 
-  estimatedMinutes: { 5: 3, 10: 12, 15: 15 },
+  estimatedMinutes: { beginner: 3, intermediate: 12, deep: 15 },
   intros: [
     'The heavens open again. Satan returns to accuse Job a second time, and the Lord&apos;s confidence in His servant has not wavered. "Hast thou considered my servant Job, that there is none like him in the earth, a perfect and an upright man, one that feareth God, and escheweth evil? and STILL HE HOLDETH FAST HIS INTEGRITY, although thou movedst me against him, to destroy him without cause." The afflictions of the first test have not broken Job. He has lost everything—family, wealth, health—and his faith in God remains. Satan is enraged. He shifts his wager: "Skin for skin, yea, all that a man hath will he give for his life. But put forth thine hand now, and touch his bone and his flesh, and he will curse thee to thy face." Strip a man of his possessions, Satan suggests, and he will endure. But strike his body—his skin, his flesh, his very self—and he will break. The Lord permits the trial: "Behold, he is in thine hand; but save his life." Satan departs to strike Job with sore boils from the sole of his foot unto the crown of his head.',
     'Job, covered in boils, sits among the ashes. He scrapes himself with a broken piece of pottery. His wife, witnessing his anguish, breaks her silence: "Dost thou still retain thine integrity? CURSE GOD, AND DIE." But Job will not curse. He speaks words that will echo through all of Scripture: "Thou speakest as one of the foolish women speaketh. What? Shall we receive good at the hand of God, and shall we not receive evil?" In all this affliction, the text tells us, Job sinned not with his lips.',

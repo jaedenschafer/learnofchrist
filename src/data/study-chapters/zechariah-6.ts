@@ -8,7 +8,7 @@ export const ZECHARIAH_6: RichChapterContent = {
   bookName: 'Zechariah',
   chapter: 6,
 
-  estimatedMinutes: { 5: 1, 10: 2, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 4 },
   intros: [
     'In the final vision of Zechariah&apos;s night sequence, four chariots emerge from between two bronze mountains—the chariots of heaven going forth to execute God&apos;s judgment upon the earth. Then the angel turns to speak of a man named the BRANCH, who will build God&apos;s temple and be a priest upon his throne. The separate offices of king and priest, divided since Israel&apos;s monarchy, will be united in the Messiah.',
   ],

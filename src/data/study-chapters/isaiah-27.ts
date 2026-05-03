@@ -15,7 +15,7 @@ export const ISAIAH_27: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 27,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'Isaiah 27 weaves together images of vineyard and dragon, vineyard-keeping and cosmic warfare. The Lord sings of His vineyard—His people—and promises to guard it with unceasing vigilance. He will water it, keep watch over it, ensure that nothing harms it. This is tenderness, care, and protection. Yet the chapter also speaks of a great dragon, Leviathan, which the Lord will punish with His sword—a vision of divine power overthrowing cosmic opposition.',
     'The chapter speaks simultaneously of intimate care for the vulnerable and of divine warfare against powers of darkness. Christ fulfills both roles: He is the tender gardener who feeds and cares for His people, and He is the warrior who defeats every enemy that would harm them. In Christ, protection and victory are unified.',

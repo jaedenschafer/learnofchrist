@@ -16,7 +16,7 @@ export const KINGS_2_13: RichChapterContent = {
   bookName: '2 Kings',
   chapter: 13,
 
-  estimatedMinutes: { 5: 3, 10: 9, 15: 12 },
+  estimatedMinutes: { beginner: 3, intermediate: 9, deep: 12 },
   intros: [
     'The story of Israel in the northern kingdom grows darker. King after king turns from God, and the nation reels under the oppression of Syria. Yet the Lord does not abandon His people. When Jehoahaz, king of Israel, is driven to the edge of ruin and cries out to God in desperation, the Lord hears him — not for Jehoahaz\'s sake, but because of His covenant with the fathers: Abraham, Isaac, and Jacob. He sends a saviour, even to a nation that will not fully turn from sin. But the pattern repeats: Jehoash, Jehoahaz\'s son, does evil as his father did. And yet, in the prophet Elisha\'s final hours, God grants Jehoash a vision of deliverance — if his faith had only matched his destiny. The chapter closes with a truth that echoes through Scripture: even the bones of a man of God carry resurrection power, a sign of the True Resurrection whose power flows eternal.',
   ],

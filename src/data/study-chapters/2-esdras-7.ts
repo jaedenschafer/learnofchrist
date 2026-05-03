@@ -24,7 +24,7 @@ export const SECOND_ESDRAS_7: RichChapterContent = {
   bookName: '2 Esdras',
   chapter: 7,
 
-  estimatedMinutes: { 5: 11, 10: 19, 15: 23 },
+  estimatedMinutes: { beginner: 11, intermediate: 19, deep: 23 },
   intros: [
     'Ezra has been grieving the fate of Israel, asking the angel why so many perish in the world to come. The angel&apos;s answer is a long revelation about the end of time — perhaps the most detailed apocalyptic vision in all the biblical apocrypha. It speaks of a narrow way that only the few can enter, of a Messiah who will reign for 400 years and then die, of seven days of primordial silence, of resurrection and judgment, and of the eternal destinies of the saved and the lost. The vision is dense, symbolic, and darkly beautiful. It is also deeply pastoral: the angel is teaching Ezra that salvation is real, judgment is real, and the few who are saved are saved because they have truly chosen to be.',
     'For the reader on this side of the cross, almost every image in this chapter echoes with the voice of Christ. The narrow gate, the strait passage, the city on a hill, the one who reigns and dies — these are not Christian inventions, but second-temple Jewish theology. Yet when you read them in light of the Gospel, you see a profound alignment. Christ&apos;s "strait is the gate, and narrow is the way which leadeth unto life, and few there be that find it" (Matthew 7:14) is not a new thought; it is the completion of what Ezra saw.',

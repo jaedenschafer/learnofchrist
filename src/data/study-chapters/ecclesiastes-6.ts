@@ -17,7 +17,7 @@ export const ECCLESIASTES_6: RichChapterContent = {
   bookName: 'Ecclesiastes',
   chapter: 6,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'The Preacher now describes a condition worse than poverty. A man has everything—riches, wealth, honor, sons, and long life. And yet he cannot enjoy any of it. His wealth does not satisfy him. His possessions do not bring him joy. His life is long, but it is empty. And when he dies, a stranger inherits what he labored to accumulate. This is not the lot of the poor—it is worse. It is the lot of the person who has gained the whole world but lost his own satisfaction.',
     'The Preacher observes that this is a common evil. Many people are trapped in this condition—trapped by inability to enjoy, by perpetual dissatisfaction, by the pursuit of something they can never define or obtain. And he asks a haunting question: "What hath the wise more than the fool?" If both end in the grave, if both face the same death, if the wise man cannot guarantee that he will enjoy his wisdom—what profit is there in wisdom? The answer is subtle. Wisdom has value, but only if it leads to contentment. Only if it teaches us to enjoy what we have.',

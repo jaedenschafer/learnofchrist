@@ -13,7 +13,7 @@ export const JEREMIAH_26: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 26,
 
-  estimatedMinutes: { 5: 5, 10: 8, 15: 9 },
+  estimatedMinutes: { beginner: 5, intermediate: 8, deep: 9 },
   intros: [
     'Jeremiah stands in the court of the Lord&apos;s house and speaks words of judgment against Jerusalem. The priests and prophets seize him, demanding his death. "Why hast thou prophesied in the name of the Lord, saying, This house shall be like Shiloh, and this city shall be desolate without an inhabitant?" They want to silence him, to stop the message. Yet God raises up protectors — the princes and elders who remember that Micah spoke similar words and was not put to death. Ahikam son of Shaphan stands with Jeremiah, and he is delivered from the hands of those who would kill him.',
     'The chapter shows that God does not leave His prophets without witnesses and protectors. Even when the religious establishment turns against the true prophet, God raises up defenders. Jeremiah is saved not by his own strength but by God&apos;s provision of allies.',

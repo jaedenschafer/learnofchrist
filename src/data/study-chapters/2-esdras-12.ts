@@ -14,7 +14,7 @@ export const SECOND_ESDRAS_12: RichChapterContent = {
   bookName: '2 Esdras',
   chapter: 12,
 
-  estimatedMinutes: { 5: 9, 10: 14, 15: 19 },
+  estimatedMinutes: { beginner: 9, intermediate: 14, deep: 19 },
   intros: [
     'Ezra sees a vision of an eagle rising from the sea—a creature of many wings and heads, gorged with power and consumed with appetite. Yet from the wood comes another figure: a lion, with a human voice, who speaks to the eagle and rebukes it. The lion does not engage in combat; he speaks truth. And as he speaks, the eagle crumbles.',
     'The angel interprets: the lion is the Messiah, the anointed seed of David. He comes not to conquer by the sword, but to reprove the wicked, destroy the evil empire, and deliver the faithful remnant. What Ezra witnesses is the pattern of God&apos;s judgment in the final age: a moment when all earthly power is weighed and found wanting, and God&apos;s kingdom is ushered in by the voice of righteousness.',

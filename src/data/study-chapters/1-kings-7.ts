@@ -15,7 +15,7 @@ export const KINGS_1_7: RichChapterContent = {
   bookName: '1 Kings',
   chapter: 7,
 
-  estimatedMinutes: { 5: 4, 10: 11, 15: 16 },
+  estimatedMinutes: { beginner: 4, intermediate: 11, deep: 16 },
   intros: [
     'As Solomon consolidates his reign and Israel enters an era of unprecedented peace and wealth, the focus shifts from the temple of God to the palace of the king. For thirteen years, Solomon builds his own house—a duration that dwarfs the seven years spent on the Lord\'s sanctuary. Yet this is not a tale of pride alone. Embedded within the description of royal magnificence is the work of a master craftsman, Hiram of Tyre, whose hands shape brass pillars, cast a molten sea, and fashion vessels of gold that will forever serve the worship of God.',
     'The two pillars at the temple\'s entrance—Jachin and Boaz—carry profound names: "He establishes" and "In him is strength." Together they declare a truth that transcends Solomon\'s generation: the God who establishes all things is the God in whose strength all things are held. The molten sea, standing upon twelve oxen representing the tribes of Israel, becomes a laver for priestly washing—a foreshadowing of baptism and the cleansing that comes through Christ. And the vessels themselves, numbered but unweighed, speak of an abundance beyond calculation.',

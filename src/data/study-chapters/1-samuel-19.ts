@@ -15,7 +15,7 @@ export const SAMUEL_1_19: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 19,
 
-  estimatedMinutes: { 5: 7, 10: 13, 15: 17 },
+  estimatedMinutes: { beginner: 7, intermediate: 13, deep: 17 },
   intros: [
     'Chapter 19 shows Saul in full descent into madness and paranoia. Jonathan&apos;s words from chapter 18 — his reasoned, faithful plea — seemed to work: Saul swore an oath that David would not be killed. But an oath, for Saul, is only as steady as his next fit of anger. When the evil spirit touches him again, the javelin comes out, and all the king&apos;s promises collapse.',
     'Yet God does not leave David defenseless. Michal, David&apos;s wife and Saul&apos;s daughter, risks her father&apos;s wrath to warn and hide her husband. She does what a wife is supposed to do — she saves his life through cunning and courage. And then David runs to Samuel at Ramah, where something extraordinary happens: God&apos;s Spirit falls so heavily on the very men sent to capture David that they cannot obey their orders. The persecutor himself arrives at last — and stands stripped and prophesying before the prophet, overcome by the presence of God. The chapter ends with a proverb: "Is Saul also among the prophets?"',

@@ -14,7 +14,7 @@ export const EZEKIEL_32: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 32,
 
-  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
   intros: [
     'In this chapter, Ezekiel is commanded to sing a lament—a song of mourning and doom—over Pharaoh and the nation of Egypt. The imagery is stark. Pharaoh is not a man anymore, but a great dragon in the sea, thrashing and muddy the waters with his feet. He spreads his net and all the creatures are trapped. But this power, this dominion, will be taken from him. His corpse will be left unburied, a feast for the birds and beasts. The shame that comes to him is total.',
     'Yet beneath the personal judgment on Pharaoh lies a universal truth. When Pharaoh descends to Sheol, he will find he is not alone. All the mighty kings and nations before him are already there, lying in rows. Death has not honored their greatness. It has leveled them all. And here Ezekiel hints at a final reckoning: when all nations are gathered, they will face the God of Israel and recognize His power at last.',

@@ -15,7 +15,7 @@ export const SAMUEL_2_22: RichChapterContent = {
   bookName: '2 Samuel',
   chapter: 22,
 
-  estimatedMinutes: { 5: 10, 10: 19, 15: 24 },
+  estimatedMinutes: { beginner: 10, intermediate: 19, deep: 24 },
   intros: [
     'David has spent his life running, fighting, and trusting. He has been hunted by Saul, pursued by enemies, tested by fear and hunger and betrayal. And in 2 Samuel 22, he stops. He gathers the weight of his experience and sings. This is not a prayer; it is a testimony. It is the song of a man who has lived long enough to see that the God he trusted at twenty, at thirty, at fifty — this God kept His word.',
     'The text tells us that David "spake unto the Lord the words of this song in the day that the Lord had delivered him out of the hand of all his enemies." This is a song of commemoration. It mirrors Psalm 18 almost exactly, which means it was important enough for David to preserve in two places — as a song sung in the temple, and as a permanent word placed in his psalter. In this chapter, David does something profound: he takes the scattered mercies of his life and weaves them into a unified song of praise.',

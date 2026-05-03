@@ -19,7 +19,7 @@ export const EXODUS_37: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 37,
 
-  estimatedMinutes: { 5: 10, 10: 15, 15: 17 },
+  estimatedMinutes: { beginner: 10, intermediate: 15, deep: 17 },
   intros: [
     'Exodus 37 opens with a word: &quot;And Bezalel made...&quot; After five chapters of blueprints, the work begins. God said. Now Israel obeys. Not halfway. Not with substitutions or shortcuts. Exactly as the LORD commanded. Verse by verse, the furniture appears: the ark of the covenant, the mercy seat, the table, the lampstand, the altar of incense. Every piece matches the design. Every detail is kept.',
     'The repetition has theological weight that Bible readers often miss. Read Genesis 1 and you hear the rhythm: &quot;And God said... and it was so.&quot; Read Exodus 25&ndash;31 and you hear God&apos;s design: &quot;Thou shalt make...&quot; Read Exodus 37&ndash;39 and you hear obedience: &quot;And he made...&quot; Three chapters recording the same furnishings in the same order, because the point is not the furniture—the point is that the word God spoke has become the work the people have done. Before this, Israel had broken faith. They made the golden calf. But here, in the making of the sanctuary, Israel becomes the people who obey. And this obedience is a prophecy: it whispers ahead to John 1, where the Word that spoke all things into being becomes flesh and dwells among us.',

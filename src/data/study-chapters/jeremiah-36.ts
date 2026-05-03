@@ -13,7 +13,7 @@ export const JEREMIAH_36: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 36,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 3 },
   intros: [
     'Jeremiah 36 is a story about the indestructibility of God&apos;s word. The prophet has spent years speaking to Israel, and the people have not listened. Now God tells him to write. Baruch, Jeremiah&apos;s scribe, writes all the words God has given Jeremiah on a scroll. The scroll is read in the Temple, and word reaches the king.',
     'Jehoiakim&apos;s response is to burn the scroll. Section by section, he cuts it up and throws it into the fire. For a moment, it might seem that the word of God has been destroyed—the only written record of these prophecies consumed. But God&apos;s response is simple: "Take thee again another roll, and write in it all the former words." What has been burned is replaced. What has been destroyed is restored, and the second version is longer, stronger, more complete than the first.',

@@ -15,7 +15,7 @@ export const RUTH_3: RichChapterContent = {
   bookName: 'Ruth',
   chapter: 3,
 
-  estimatedMinutes: { 5: 3, 10: 7, 15: 10 },
+  estimatedMinutes: { beginner: 3, intermediate: 7, deep: 10 },
   intros: [
     'Ruth 3 moves the story from the barley fields into intimate territory. Naomi has a plan: send Ruth to the threshing floor at night with a simple but dangerous request. By ancient law and custom, a kinsman-redeemer could marry a widow and restore her family line. But the asking itself is Ruth\'s move. She will approach Boaz under cover of darkness, uncover his feet — a sign of intimacy — and ask for his covering. The whole scene is risky. The text trusts the virtue of both.',
     'But beneath the risk is something deeper: the echo of Boaz\'s earlier promise that God\'s wings would cover her (Ruth 2:12), now asked as a personal request. The threshing floor becomes a place where faith and human initiative meet, where a redeemer\'s commitment is sealed in the night, and where the providence of God moves through obedience and courage.',

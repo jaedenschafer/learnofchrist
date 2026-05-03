@@ -15,7 +15,7 @@ export const ACTS_1: RichChapterContent = {
   bookName: 'Acts',
   chapter: 1,
 
-  estimatedMinutes: { 5: 8, 10: 15, 15: 19 },
+  estimatedMinutes: { beginner: 8, intermediate: 15, deep: 19 },
   intros: [
     'The Book of Acts opens not with doctrine, but with a risen Lord. Jesus has walked out of the tomb alive, flesh and bone, eating fish and speaking truth. For forty days He moves among His disciples, appearing and disappearing, teaching them about the kingdom of God. The resurrection is not a distant theological claim—it is a lived reality the disciples are being remade by. They touch His wounds. They sit and eat with Him. And in all that teaching, the central theme holds: the kingdom is not about earthly authority or political restoration, but about God&apos;s rule breaking into the world through the gift of the Spirit.',
     'Before His final departure, Jesus presses that promise into their hands: "Ye shall receive power, after that the Holy Ghost is come upon you: and ye shall be witnesses unto me." The disciples stand watching Him disappear into a cloud, and angels redirect them: why stand ye gazing? You have work to do. Not in the heavens, but on the earth. Not in a distant future, but beginning now, beginning here, beginning with Jerusalem.',

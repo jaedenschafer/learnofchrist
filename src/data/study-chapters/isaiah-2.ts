@@ -15,7 +15,7 @@ export const ISAIAH_2: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 2,
 
-  estimatedMinutes: { 5: 2, 10: 4, 15: 6 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
   intros: [
     'The vision shifts. After pronouncing judgment on Judah&apos;s corruption, Isaiah lifts his eyes to a future horizon. He sees a day when the mountain of the Lord&apos;s house shall be lifted up, established, exalted. All nations shall flow unto it. This is not a vision of territorial conquest. This is a vision of spiritual pilgrimage — the whole world coming to learn from God. The arms of humanity shall be beaten into plowshares and pruning hooks. The lion shall lie down with the lamb. All this seems impossible until we understand: God has already promised to bring it to pass.',
     'But the vision of peace does not come without transition. First, the Lord must deal with human pride. "The lofty looks of man shall be humbled, and the haughtiness of men shall be bowed down, and the Lord alone shall be exalted in that day." The messianic kingdom is born not from human achievement but from human surrender — the laying low of all that exalts itself against the knowledge of God.',

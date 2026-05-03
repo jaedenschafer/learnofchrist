@@ -14,7 +14,7 @@ export const PSALMS_20: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 20,
 
-  estimatedMinutes: { 5: 1, 10: 4, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
   intros: [
     'Psalm 20 is a communal prayer. The congregation prays for its king, asking God to hear him in the day of trouble, to answer his cry for help, to deliver him from danger. This is not the king praying for himself but the people interceding for their leader. In doing so, they acknowledge a deep truth: the king&apos;s wellbeing is bound up with theirs. If the king is saved, the kingdom is saved.',
     'The psalm moves from petition to confidence. By the end, the people are certain: God will hear. God will save. "We will rejoice in thy salvation, and in the name of our God we will set up our banners." The final word belongs to the God who saves.',

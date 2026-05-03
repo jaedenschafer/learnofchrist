@@ -19,7 +19,7 @@ export const CHRONICLES_1_25: RichChapterContent = {
   bookName: '1 Chronicles',
   chapter: 25,
 
-  estimatedMinutes: { 5: 4, 10: 8, 15: 13 },
+  estimatedMinutes: { beginner: 4, intermediate: 8, deep: 13 },
   intros: [
     'The book of 1 Chronicles, written after the exile, is concerned with one great theme: the restoration of true worship in the temple. It is a book of genealogies and lists, but behind every name lies a theological claim. When David establishes the musicians and singers who will serve in the house of the Lord, he is not simply organizing an entertainment guild. He is creating a priesthood of praise — men and women whose calling is to speak to God and for God through music, through instruments, through the voice.',
     'In this chapter, we encounter the three great families of musicians: the sons of Asaph, the sons of Heman, and the sons of Jeduthun. These names appear throughout Scripture — not only as administrators of music, but as authors of Psalms. The Psalms attributed to Asaph (73–83) and to the sons of Korah (associated with Heman) are hymns of theological depth and spiritual intensity. This chapter announces that the people who will sing Israel into the presence of God are themselves named, known, and accountable. And remarkably, they are assigned their duties by casting lots — a method that ensures no human preference, no favoritism, no ranking of skill over dedication.',

@@ -5,7 +5,7 @@ export const LUKE_18: RichChapterContent = {
   bookName: 'Luke',
   chapter: 18,
 
-  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
   intros: [
     'Jesus speaks a parable of an importunate widow and an unjust judge. The widow keeps coming to the judge: "Avenge me of mine adversary." The judge, who fears not God nor regards man, finally says: "Yet because this widow troubleth me, I will avenge her." Jesus asks: "And shall not God avenge his own elect, which cry day and night unto him, though he bear long with them?" Persistence in prayer is rewarded. A Pharisee and a publican go into the temple. The Pharisee prays: "I thank thee that I am not as other men... I fast twice in the week, I give tithes." The publican stands afar off, will not lift his eyes, beats his breast: "God be merciful to me a sinner." Jesus says: "I tell you, this man went down to his house justified rather than the other."',
     'Jesus says: "Suffer little children to come unto me, and forbid them not: for of such is the kingdom of God." A certain ruler asks: "Good Master, what shall I do to inherit eternal life?" Jesus says: "Thou knowest the commandments." The ruler says: "All these have I kept from my youth up." Jesus says: "Yet lackest thou one thing: sell all that thou hast, and distribute unto the poor, and thou shalt have treasure in heaven: and come, follow me." The ruler is sorrowful. He cannot surrender his riches.',

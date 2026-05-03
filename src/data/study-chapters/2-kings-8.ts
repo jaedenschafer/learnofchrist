@@ -18,7 +18,7 @@ export const KINGS_2_8: RichChapterContent = {
   bookName: '2 Kings',
   chapter: 8,
 
-  estimatedMinutes: { 5: 5, 10: 11, 15: 15 },
+  estimatedMinutes: { beginner: 5, intermediate: 11, deep: 15 },
   intros: [
     'Elisha the prophet stands at the pivot of Israel and Judah&apos;s fate. In this chapter, we see him in his final great acts: a prophet who calls a widow back from exile and secures her land, a seer who weeps over the evil he must announce, a vessel through whom God shapes the rise of tyrants. And at the chapter&apos;s close, we turn to Judah, where a marriage to the house of Ahab threatens to undo the Davidic promise itself. Yet the text makes a declaration of stubborn grace: "Yet the Lord would not destroy Judah for David his servant&apos;s sake, as he had said he would give him alway a light."',
     'Here we learn that prophecy is not mere prediction; it is the burden of the prophet to know what is coming and to weep over it. We learn that ambition can wear the mask of humility. And we are reminded that God&apos;s covenant stands not because of a king&apos;s virtue, but because God keeps His word.',

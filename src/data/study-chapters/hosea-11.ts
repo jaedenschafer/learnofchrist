@@ -5,7 +5,7 @@ export const HOSEA_11: RichChapterContent = {
   bookName: 'Hosea',
   chapter: 11,
 
-  estimatedMinutes: { 5: 2, 10: 3, 15: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
   intros: [
     'Hosea 11 may be the most tender passage in the book. "When Israel was a child, then I loved him, and called my son out of Egypt." The opening words speak of love — not conditional love, but the love of a father for a child. Yet Israel grew and turned away from the One who loved him.',
     'The chapter contains words quoted in Matthew 2:15 as a prophecy of Christ: "I called my son out of Egypt." What began as the historical redemption of Israel becomes the story of Christ — the Son of God called out of Egypt, bearing Israel&apos;s story within His own. The tenderness and the rejection of a father — these become Christ&apos;s story too.',

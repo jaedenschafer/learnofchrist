@@ -14,7 +14,7 @@ export const ISAIAH_17: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 17,
 
-  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
   intros: [
     "Damascus was the capital of Aram, a kingdom that had long opposed Israel. Its fall, the prophet announces, is certain and swift. The city that seemed mighty and permanent will become insignificant, stripped of glory as a harvested field is stripped of grain. But the prophecy carries more than a word of doom. It contains within it a promise of hope: Israel itself, though diminished by judgment, will turn its eyes back to its Maker, and the covenant God has not abandoned His people.",
     'Isaiah 17 teaches a profound lesson about the nature of kingdoms and power. All earthly dominions, no matter how great, are temporary. They rise and fall, grow and diminish. Only the kingdom of God endures. Even when Israel faces judgment, the word is not one of final abandonment but of eventual restoration.',

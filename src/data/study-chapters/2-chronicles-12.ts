@@ -15,7 +15,7 @@ export const CHRONICLES_2_12: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 12,
 
-  estimatedMinutes: { 5: 3, 10: 8, 15: 12 },
+  estimatedMinutes: { beginner: 3, intermediate: 8, deep: 12 },
   intros: [
     'The book of 2 Chronicles presents a recurring pattern: strength produces pride; pride produces forsaking; forsaking brings judgment; humbling brings mercy. And yet mercy, when it comes, is often partial. The treasures remain lost. The kingdom is diminished.',
     'Rehoboam begins his reign with the kingdom firmly established. He has strengthened himself. The kingdom is his. But then comes the crucial moment, the hinge on which everything turns: He forsook the law of the Lord. Not in a moment of desperate persecution or desperate weakness, but in a moment of strength. When he had the power to choose otherwise, he chose to turn away. The prophet Shemaiah will later describe it precisely: "He prepared not his heart to seek the Lord." This is not failure of circumstance; this is failure of will.',

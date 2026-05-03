@@ -17,7 +17,7 @@ export const SAMUEL_1_14: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 14,
 
-  estimatedMinutes: { 5: 10, 10: 20, 15: 22 },
+  estimatedMinutes: { beginner: 10, intermediate: 20, deep: 22 },
   intros: [
     "Jonathan sees a garrison of Philistines and says to his armorbearer: &quot;Come, let us go over unto the garrison of these uncircumcised.&quot; He tells him nothing of a plan, asks Saul&apos;s permission to nothing. He simply believes: &quot;It may be that the Lord will work for us: for there is no restraint to the Lord to save by many or by few.&quot; And his armorbearer answers: &quot;Do all that is in thine heart: turn thee; behold, I am with thee according to thy heart.&quot; These words—from a man of no rank, no title—are the real words of discipleship.",
     'What follows is one of the great victories in Israel&apos;s history, won not by an army but by the faith of one young prince and his faithful companion. But the chapter does not end in triumph. Saul, desperate to control the outcome, makes an oath that God did not ask for: "Cursed be the man that eateth any food until evening, that I may be avenged on mine enemies." Jonathan, ignorant of this curse, eats honey in a wood, and his eyes are enlightened. When Saul learns what has happened, he demands his son&apos;s death. But the people cry out: "Shall Jonathan die, who hath wrought this great salvation in Israel? God forbid." And they rescue Jonathan. The chapter shows us the difference between a king&apos;s rule and God&apos;s grace—and what happens when a man tries to bind his people to a curse that God never spoke.',

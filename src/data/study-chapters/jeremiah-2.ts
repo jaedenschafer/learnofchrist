@@ -17,7 +17,7 @@ export const JEREMIAH_2: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 2,
 
-  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
   intros: [
     'The second chapter of Jeremiah begins with God remembering. This is not the cold memory of a judge reviewing a case file. This is the memory of a lover. "I remember thee, the kindness of thy youth, the love of thine espousals, when thou wentest after me in the wilderness, in a land that was not sown." God recalls the early days of Israel, when the people were young in their faith, when they followed Him into the wilderness, depending on Him utterly. It is a memory suffused with longing.',
     'But that memory serves to heighten the accusation that follows: "My people have changed their glory for that which doth not profit." Israel has made an exchange. They have given up the living God for dead idols. They have forsaken the fountain of living waters and hewed out cisterns—broken cisterns that can hold no water. The image is stark: attempting to collect and store what flows eternally from God, and finding that the vessels crack and leak. What drives a people to do such a thing? And what is the nature of a love that continues to call them back, even as they turn away?',

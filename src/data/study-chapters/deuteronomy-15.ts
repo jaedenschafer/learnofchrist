@@ -16,7 +16,7 @@ export const DEUTERONOMY_15: RichChapterContent = {
   bookName: 'Deuteronomy',
   chapter: 15,
 
-  estimatedMinutes: { 5: 8, 10: 14, 15: 18 },
+  estimatedMinutes: { beginner: 8, intermediate: 14, deep: 18 },
   intros: [
     'Deuteronomy 15 returns to the seventh-year law—shemittah, the year of release. Every creditor releases what he lent his neighbor; debts fall away; Hebrew slaves go free. It is a law that most nations find economically insane. Who would lend money if the debt were cancelled seven years later? Who would buy a slave knowing he must be freed? The answer is this: a nation that trusts God, not systems. A people trained by law to live by generosity, not accumulation.',
     'But the chapter&apos;s heart is not the rule. It is the warning against the human heart that resists it. "Beware that there be not a thought in thy wicked heart, saying, The seventh year, the year of release, is at hand." When release is coming, the temptation is to close your hand. The law commands the opposite: "Thou shalt surely give him, and thine heart shall not be grieved when thou givest unto him: because that for this thing the Lord thy God shall bless thee in all thy works." God is not interested in external obedience to a schedule. He is training His people to have His heart toward the poor.',

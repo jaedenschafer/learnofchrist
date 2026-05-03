@@ -18,7 +18,7 @@ export const CHRONICLES_1_26: RichChapterContent = {
   bookName: '1 Chronicles',
   chapter: 26,
 
-  estimatedMinutes: { 5: 5, 10: 10, 15: 14 },
+  estimatedMinutes: { beginner: 5, intermediate: 10, deep: 14 },
   intros: [
     'The house of the Lord is finished. The ark rests in the inner sanctuary. And now David turns his attention to the intricate work of maintaining that house — not through one man&apos;s strength, but through the careful organization of thousands. This chapter reveals how a kingdom functions when every role is honored: the gatekeeper, the treasurer, the judge far from the capital. It is a chapter about stewardship — who watches the doors, who cares for the sacred treasures, who administers justice in the outlying towns. And it tells us something profound about what true kingship looks like: not one man ruling from a throne, but a king who trusts others, assigns them work, and watches over them with care.',
     'The assignment of gates and duties is done by lot — by casting lots, as the Lord&apos;s way of distributing work without favoritism. Whether you are assigned to the east gate or the north, whether you serve as gatekeeper or treasurer, the work is sacred. The smallest rotation is mentioned. The most distant judge is named. Nothing is too small for the kingdom of God to care about. And in this attention to detail, we see how the kingdom mirrors its King — one who knows every sparrow, who counts every hair, who sees the gatekeeper&apos;s faithful service in the dark hours before dawn.',

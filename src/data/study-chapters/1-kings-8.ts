@@ -19,7 +19,7 @@ export const KINGS_1_8: RichChapterContent = {
   bookName: '1 Kings',
   chapter: 8,
 
-  estimatedMinutes: { 5: 9, 10: 19, 15: 23 },
+  estimatedMinutes: { beginner: 9, intermediate: 19, deep: 23 },
   intros: [
     'Solomon has spent seven years building the Temple. The materials are gathered, the craftsmen have labored, the stone and gold and cedar have been shaped into a house more magnificent than any on earth. And now, at last, the dedication. All Israel assembles—the elders, the heads of the tribes, the chiefs of the fathers. They have come to witness the moment when the dwelling place of God is consecrated.',
     'But the true moment of dedication is not what Solomon orchestrates. It is what God does. As the priests bear the ark into the holy of holies and withdraw, the cloud of the Lord&apos;s presence—the same glory that filled the tabernacle in the wilderness—descends and fills the entire house. The priests cannot stand to minister. The Temple is no longer a building made by human hands; it has become the manifest house of God.',

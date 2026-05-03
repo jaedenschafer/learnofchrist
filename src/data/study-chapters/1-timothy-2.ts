@@ -21,7 +21,7 @@ export const FIRST_TIMOTHY_2: RichChapterContent = {
   bookName: '1 Timothy',
   chapter: 2,
 
-  estimatedMinutes: { 5: 9, 10: 19, 15: 28 },
+  estimatedMinutes: { beginner: 9, intermediate: 19, deep: 28 },
   intros: [
     'The church at Ephesus lived under Roman rule in a city famous for the temple of Artemis, where the goddess received divine honor. The emperor himself was treated as a god. Tax collectors were despised. Social hierarchies seemed fixed and oppressive. Into this tension, Paul brings a radical command: pray for everyone—especially those in authority. Not because they are righteous, but because God desires all men to come to the knowledge of the truth.',
     'Paul&apos;s theology here overturns earthly assumptions about who matters and who is beyond reach. There is no special class of people—only those who have encountered the one true God through the one mediator. The ransom is offered for all. The text that follows, addressed to how men and women conduct themselves in worship, must be read in this context: Paul is correcting disorder caused by false teaching in Ephesus. Different times and settings call for different applications, but the theological truths beneath them—God&apos;s intention to save all, the exclusive mediation of Christ, the order and peace of gathered worship—remain.',

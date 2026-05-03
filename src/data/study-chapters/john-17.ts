@@ -15,7 +15,7 @@ export const JOHN_17: RichChapterContent = {
   bookName: 'John',
   chapter: 17,
 
-  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
   intros: [
     'Jesus lifts His eyes to heaven and prays. This is the High Priestly Prayer, the prayer of intercession for those He loves and for the gospel&apos;s advance into the world. "Father, the hour is come; glorify thy Son, that thy Son also may glorify thee." His glorification and the Father&apos;s glorification are bound together. In His death and resurrection, the Father&apos;s character is revealed. In the Father&apos;s vindication of Him, Christ&apos;s true identity becomes clear.',
     'Jesus prays specifically for His disciples and for all who will come to believe. He prays for their sanctification—their setting apart for the Father&apos;s use. "Sanctify them through thy truth: thy word is truth." Truth is not abstract doctrine. It is Jesus Himself, the living Word. To be sanctified in truth is to be conformed to Christ. And Jesus prays for unity: "That they all may be one; as thou, Father, art in me, and I in thee, that they also may be one in us: that the world may believe that thou hast sent me." The unity of believers is a sign to the world that Jesus came from God.',

@@ -13,7 +13,7 @@ export const PSALMS_47: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 47,
 
-  estimatedMinutes: { 5: 2, 10: 4, 15: 6 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
   intros: [
     'Psalm 47 is a shout of triumph. "O clap your hands, all ye people." Not a whisper, not a quiet prayer, but a jubilant cry. What is the cause? "God is gone up with a shout, the Lord with the sound of a trumpet." Someone has triumphed. Someone has ascended. Someone who is King over all the earth is going up to take His throne. The psalm celebrates the ascension of God—His rising above all earthly powers, His vindication, His supremacy.',
     'For Christian readers, the echo is unmistakable. After His resurrection, Christ ascended to heaven, where He now sits at the right hand of the Father. The Ascension is not an ending. It is a triumph, a vindication, a taking of His throne. The psalm calls all people to recognize it, to celebrate it, to understand that the One who was crucified has now been exalted above all.',

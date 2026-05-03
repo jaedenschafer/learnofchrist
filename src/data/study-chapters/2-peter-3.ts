@@ -18,7 +18,7 @@ export const SECOND_PETER_3: RichChapterContent = {
   bookName: '2 Peter',
   chapter: 3,
 
-  estimatedMinutes: { 5: 10, 10: 15, 15: 25 },
+  estimatedMinutes: { beginner: 10, intermediate: 15, deep: 25 },
   intros: [
     'Peter closes his epistle by stirring up the pure mind of his beloved readers. Some will come in the last days mocking the promise of Christ&apos;s return. They walk after their own lusts and point to delay—centuries have passed, they say, and nothing has changed. Where is this promised coming? But Peter insists: God operates on an eternal timescale. A thousand years are as a day in His reckoning. His longsuffering is not slack indifference but merciful patience, giving all time to repent.',
     'When Christ comes, it will be like a thief in the night—sudden, unexpected, transformative. The heavens will pass away with a great noise. The elements will melt with fervent heat. The earth and all its works will be burned up. Yet this is not an ending but a beginning. God will bring forth new heavens and a new earth wherein dwells righteousness. This hope should shape how believers live now: with diligence, in peace, without spot, and in eager growth toward Christ.',

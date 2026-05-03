@@ -17,7 +17,7 @@ export const PSALMS_84: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 84,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 5 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
   intros: [
     'This psalm is a song of the sons of Korah, and it rings with a singular theme: the longing for God&apos;s presence. The psalmist is not content with distant knowledge of God. He burns with a desire to be in the tabernacle, to be in the courts of the Lord, to dwell in His house. This is not a request for things. This is a request for someone. This is the heart&apos;s deepest need—communion with God Himself.',
     'The promises contained in this psalm are staggering: no good thing will be withheld from those who walk uprightly and walk in the light of God&apos;s countenance. Grace and glory will be given. The soul and body will be blessed. Here is a psalm for anyone who has ever felt that one moment in God&apos;s presence is worth more than a thousand moments anywhere else.',

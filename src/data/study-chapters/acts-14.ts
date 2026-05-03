@@ -17,7 +17,7 @@ export const ACTS_14: RichChapterContent = {
   bookName: 'Acts',
   chapter: 14,
 
-  estimatedMinutes: { 5: 8, 10: 16, 15: 22 },
+  estimatedMinutes: { beginner: 8, intermediate: 16, deep: 22 },
   intros: [
     'Acts 14 is Paul and Barnabas on the road. They are not hiding. They move openly through Iconium, Lystra, and Derbe, speaking boldly in the synagogues and public squares. Miracles follow them—the blind see, the lame walk, the demon-possessed are freed. But so does opposition. In Iconium the city divides. In Lystra the crowd nearly apotheosizes them before the same crowd stones Paul nearly to death. This is the pattern of the early gospel: power and witness, followed immediately by hatred and violence. Yet the apostles do not stop. They return. They strengthen. They ordain. They move toward the very places that tried to kill them.',
     'The punchline of the chapter comes near the end: &ldquo;We must through much tribulation enter into the kingdom of God.&rdquo; This is not a promise of ease. This is not a prosperity gospel. It is a statement of fact. The gospel spreads not through comfort but through the willingness of the apostles—and the believers they raise up—to walk through tribulation with Jesus, to let His Spirit strengthen them when their bodies are broken, to keep speaking and moving and ordaining and praying even in the face of death. By the chapter&apos;s end, when they return to Antioch and &ldquo;rehearsed all that God had done,&rdquo; the point is clear: God&apos;s work does not depend on a smooth road. It depends on apostles willing to take a hard one.',

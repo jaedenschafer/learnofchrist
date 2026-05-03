@@ -17,7 +17,7 @@ export const CHRONICLES_1_20: RichChapterContent = {
   bookName: '1 Chronicles',
   chapter: 20,
 
-  estimatedMinutes: { 5: 3, 10: 6, 15: 10 },
+  estimatedMinutes: { beginner: 3, intermediate: 6, deep: 10 },
   intros: [
     'First Chronicles distills the history of Israel into a vision for the post-exile community: a people restored, a king vindicated, a temple rebuilt. The Chronicler&apos;s hand is deliberate. Where other histories (like 2 Samuel) record the scandal of David and Bathsheba, the seduction and murder that led to the death of their first child, the Chronicler does not. It is not that he denies it — it happened. But his point is elsewhere. He writes to a broken people who have returned from exile, and he shows them a king who finishes what he starts, whose mighty men vanquish the enemies of God.',
     'In this chapter, Joab lays siege to Rabbah, the capital of Ammon, and the city falls. David takes the golden crown of their king, finding it weighs a talent of gold and is set with precious stones. The spoil brought back is immense. The people of the city are put to severe labor. And then, in swift succession, the Chronicler records the slaying of four giants of Gath — each one a son or descendant of the giants Goliath represented. The giants that once seemed undefeatable are now falling by the hand of David and his servants. The kingdom is secure. The enemies are vanquished. And the King&apos;s people stand victorious.',

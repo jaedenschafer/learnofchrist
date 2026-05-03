@@ -14,7 +14,7 @@ export const JOSHUA_17: RichChapterContent = {
   bookName: 'Joshua',
   chapter: 17,
 
-  estimatedMinutes: { 5: 6, 10: 8, 15: 12 },
+  estimatedMinutes: { beginner: 6, intermediate: 8, deep: 12 },
   intros: [
     'Joshua 17 records the allotment of land to the tribe of Manasseh — the firstborn son of Joseph. But the chapter divides into three movements: the boundaries of Manasseh&apos;s inheritance, the women of Zelophehad whose legal case stands the test of time, and the real problem: Israel had the promise but not yet the full possession. The Canaanites still held the cities. Iron chariots still lined the valleys.',
     'What makes Joshua 17 challenging is that it is not a celebration of victory but an honest account of incomplete conquest. The land was promised. The borders were drawn. But the enemy remained. Into that gap — between promise and possession — steps a conversation between Joshua and the complaining tribes of Ephraim and Manasseh. Joshua&apos;s answer is neither a scold nor empty reassurance. It is a call to partnership: God gives the land; you possess it.',

@@ -16,7 +16,7 @@ export const MATTHEW_22: RichChapterContent = {
   bookName: 'Matthew',
   chapter: 22,
 
-  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
   intros: [
     'Jesus speaks in parables. The kingdom is like a king who prepares a wedding feast for his son. Guests are invited but refuse. Some are indifferent, occupied with their own concerns. Others actively mistreat the servants. The king is enraged. His armies destroy those who rejected the invitation and burn their city. Then the king sends his servants to invite all they find—bad and good alike. The feast is filled with guests.',
     'Religious authorities approach Jesus with loaded questions, seeking to trap Him. Should they pay taxes to Caesar? The Sadducees pose a riddle about the resurrection. Each time, Jesus answers with wisdom that silences them. Finally, a lawyer asks: What is the greatest commandment? Jesus answers: love the Lord your God with all your heart, and love your neighbor as yourself. On these two commandments hang all the law and the prophets.',

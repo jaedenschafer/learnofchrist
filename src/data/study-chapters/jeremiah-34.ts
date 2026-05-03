@@ -14,7 +14,7 @@ export const JEREMIAH_34: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 34,
 
-  estimatedMinutes: { 5: 1, 10: 2, 15: 3 },
+  estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
   intros: [
     'Jeremiah 34 dramatizes the failure of Israel to live by covenant. The story is stark: King Zedekiah, under pressure from the siege, proclaims a jubilee—he releases all slaves, granting them freedom. This is obedience to God&apos;s law, which required that Hebrew slaves be freed in the seventh year. For a moment, it seems the king has repented, that justice will prevail.',
     'But the siege is lifted. Pharaoh&apos;s army comes to relieve Jerusalem. And immediately, the king takes back what he has given. The slaves are re-enslaved. The covenant is broken. The freedom promised is revoked. And God&apos;s response through Jeremiah is one of judgment: you have proclaimed a liberty you did not mean to keep. Therefore God will proclaim liberty—to the sword, to pestilence, to famine. True liberty cannot be granted by human authority and then reclaimed. True liberty comes only through one whose authority cannot be revoked.',

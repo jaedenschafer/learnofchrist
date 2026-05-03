@@ -19,7 +19,7 @@ export const LUKE_15: RichChapterContent = {
   bookName: 'Luke',
   chapter: 15,
 
-  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
   intros: [
     'The publicans and sinners draw near to Jesus to hear Him. The Pharisees and scribes murmur, saying: "This man receiveth sinners, and eateth with them." Jesus speaks parables. "What man of you, having an hundred sheep, if he lose one of them, doth not leave the ninety and nine in the wilderness, and go after that which is lost, until he find it?" The shepherd finds the lost sheep. He comes home, calls his friends and neighbours: "Rejoice with me; for I have found my sheep which was lost."',
     'Jesus speaks another parable. "What woman having ten pieces of silver, if she lose one piece, doth not light a candle, and sweep the house, and seek diligently till she find it?" She finds the coin. She calls her friends and neighbours: "Rejoice with me; for I have found the piece which I had lost." Then Jesus speaks the parable of the prodigal son. A father has two sons. The younger asks for his inheritance early. He goes to a far country and wastes it all. Famine comes. He finds himself feeding swine, longing to eat their husks. He comes to himself. He returns.',

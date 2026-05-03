@@ -5,7 +5,7 @@ export const PSALMS_60: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 60,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'The superscription places this psalm after a military defeat. David had suffered a setback in battle. His forces had been scattered. God&apos;s apparent withdrawal of protection seemed complete. And David&apos;s prayer opens with raw honesty: "O God, thou hast cast us off, thou hast scattered us, thou art wroth; oh turn thyself to us again."',
     'Yet this is not a prayer of despair that continues to despair. Even in the pain of defeat, David looks beyond the immediate circumstance to God&apos;s essential nature and His promises. "God hath spoken in his holiness; I will rejoice...With God we shall do valiantly." The defeat is real, but it is not the final word. God&apos;s right hand—His hand of strength, of salvation, of victory—will yet deliver David and his people.',

@@ -18,7 +18,7 @@ export const JOSHUA_13: RichChapterContent = {
   bookName: 'Joshua',
   chapter: 13,
 
-  estimatedMinutes: { 5: 6, 10: 9, 15: 12 },
+  estimatedMinutes: { beginner: 6, intermediate: 9, deep: 12 },
   intros: [
     'Joshua is old. The great conquests are behind him — Jericho, Ai, the southern and northern campaigns. Israel has taken much of Canaan. But there is more. The Lord says to Joshua: "Thou art old and stricken in years, and there remaineth yet very much land to be possessed." Even after miracles, after victories that seemed impossible, the promise is not yet fully realized. There is always more to possess.',
     'Joshua 13 pauses the narrative to look back — recalling the inheritance Moses gave the tribes east of Jordan (Reuben, Gad, and half-Manasseh) and their precise borders. It is a moment of quiet accounting, of names and cities, of God&apos;s faithfulness to an ancient promise. The detailed geography may seem dry, but it is actually a profound affirmation: God remembers. God honors what He has said, even when generations have changed and leaders have passed.',

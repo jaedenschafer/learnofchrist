@@ -17,7 +17,7 @@ export const JOHN_20: RichChapterContent = {
   bookName: 'John',
   chapter: 20,
 
-  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
   intros: [
     'Early in the morning, while it is still dark, Mary Magdalene comes to the tomb. The stone is rolled away. She runs to tell Peter and the beloved disciple: "They have taken away the Lord out of the sepulchre, and we know not where they have laid him." Peter and John come and see the empty tomb. They see the linen clothes lying as they were, the napkin that had covered His face rolled up in a place by itself. They believe. Yet they do not yet understand that He must rise from the dead.',
     'Mary Magdalene remains at the tomb, weeping. She encounters a figure she takes for the gardener. Then He speaks her name: "Mary." She recognizes the risen Lord. He says: "Touch me not; for I am not yet ascended to my Father: but go to my brethren, and say unto them, I ascend unto my Father, and your Father; and to my God, and your God." The separation is temporary. The reunion is assured. Thomas was not there when Jesus appeared. He refuses to believe until he sees and touches the wounds. Eight days later, Jesus appears to Thomas. And Thomas, touching the risen Christ, cries: "My Lord and my God!"',

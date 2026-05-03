@@ -19,7 +19,7 @@ export const CHRONICLES_1_28: RichChapterContent = {
   bookName: '1 Chronicles',
   chapter: 28,
 
-  estimatedMinutes: { 5: 9, 10: 16, 15: 21 },
+  estimatedMinutes: { beginner: 9, intermediate: 16, deep: 21 },
   intros: [
     'David&apos;s reign is drawing to a close. He has conquered enemies, secured the kingdom, and gathered immense treasure. But one thing remains undone: the house of the Lord. David himself is called a "man of war," and God has told him he cannot build the temple. Instead, the Lord has chosen Solomon, David&apos;s son.',
     'In this chapter, David makes his final public appearance before all Israel&apos;s leaders. He does not announce his successor in anger or resignation. Rather, he speaks with the authority of one who understands God&apos;s purposes. He recounts God&apos;s word to him. He commissions Solomon not merely as a political heir, but as a covenant son. And in an act of profound spiritual transmission, David gives Solomon the temple pattern — the complete architectural design that God showed to David by the Spirit, just as God showed Moses the tabernacle pattern. David&apos;s last great work is to prepare his son, and to ensure that what God has shown him passes faithfully to the next generation.',

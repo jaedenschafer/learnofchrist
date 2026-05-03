@@ -14,7 +14,7 @@ export const JONAH_1: RichChapterContent = {
   bookName: 'Jonah',
   chapter: 1,
 
-  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
   intros: [
     'The book of Jonah opens with a direct command. "Arise, go to Nineveh, that great city, and cry against it; for their wickedness is come up before me." But Jonah does not arise. He does not go east toward Assyria. Instead, he rises and goes west, to Tarshish—as far from Nineveh as his feet can carry him. This is not a story about obedience. It is a story about refusal, flight, and the discovery that there is nowhere to hide from God&apos;s purpose.',
     'As Jonah flees by ship, a great storm arises. The pagan sailors are terrified, each crying to his own god. But Jonah sleeps in the hold, indifferent, perhaps even welcoming death as an escape from God&apos;s call. The sailors cast lots to discover who has brought this calamity upon them. The lot falls on Jonah. And when the truth emerges—that he is a Hebrew, a worshiper of the God who made heaven and earth, the God who stirs the sea—the sailors face a choice between their fear of nature and their fear of God.',

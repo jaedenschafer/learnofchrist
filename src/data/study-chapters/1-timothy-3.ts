@@ -19,7 +19,7 @@ export const FIRST_TIMOTHY_3: RichChapterContent = {
   bookName: '1 Timothy',
   chapter: 3,
 
-  estimatedMinutes: { 5: 9, 10: 17, 15: 23 },
+  estimatedMinutes: { beginner: 9, intermediate: 17, deep: 23 },
   intros: [
     'Leadership in the church begins not with aspiration but with character. Paul does not ask "Who wants to lead?" but "Who has already been remade?" A bishop or deacon is not chosen for eloquence, wealth, or social standing, but for the fruit of a life submitted to Christ—faithfulness in marriage, wisdom in the home, sobriety of mind, a conscience unmarred by the pursuit of money or status.',
     'The pattern Paul lays out is remarkable for what it omits: no mention of formal education, oratorical gifts, or political connections. What remains is the fiber of a person shaped by grace—someone whose private life matches his public claim, whose household witnesses to the gospel before his words do, whose integrity is open to public scrutiny because it is real.',

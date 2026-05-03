@@ -13,7 +13,7 @@ export const EXODUS_28: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 28,
 
-  estimatedMinutes: { 5: 9, 10: 14, 15: 18 },
+  estimatedMinutes: { beginner: 9, intermediate: 14, deep: 18 },
   intros: [
     'Exodus 28 takes us inside the tabernacle workshop to dress the high priest. His garments are unlike any ordinary clothes — they are instruments of priesthood itself. The ephod holds the names of Israel&apos;s twelve tribes on its shoulder stones, one name on each shoulder: the priest does not carry the load of the people on his back, but bears them in strength on his shoulders, always visible to the Lord. The breastplate holds twelve more stones, one for each tribe, placed directly over the heart. These are the Urim and Thummim — the lots by which Israel sought God&apos;s guidance. A blue robe rings with bells and pomegranates, sounding his movements as he ministers before the Lord. And on his forehead, a golden plate engraved with "Holiness to the Lord," declaring that whatever is offered here is offered to the Lord alone.',
     'For every believer who has ever wondered, "Does God really see me?" or "What happens when I come before Him?" — this chapter answers. The high priest&apos;s garments show us what it looks like to stand in God&apos;s presence. And in the New Testament, Jesus is revealed as the High Priest whose work is even greater — He is both the priest and the offering, bearing our names on His shoulders not for a day, but forever.',

@@ -15,7 +15,7 @@ export const ISAIAH_24: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 24,
 
-  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
   intros: [
     'Isaiah 24 marks a shift in the prophecy from specific historical judgments to cosmic eschatological vision. The prophet looks beyond the fall of Babylon and Tyre to see the final consummation of history, when the Lord will judge not merely kingdoms but the entire creation. The earth itself will be emptied, made waste, and turned upside down. Yet this is not chaos without purpose. It is the unmaking of an old order so that a new kingdom—the kingdom of God—can be established.',
     'The chapter sets the stage for the future coming of Christ, when all things will be renewed, when death will be swallowed up in victory, and when those who have waited upon God will rejoice in His salvation. It is a vision meant to sustain faith in dark times—a reminder that no power, no authority, no kingdom of this world is permanent.',

@@ -16,7 +16,7 @@ export const SAMUEL_2_6: RichChapterContent = {
   bookName: '2 Samuel',
   chapter: 6,
 
-  estimatedMinutes: { 5: 8, 10: 16, 15: 21 },
+  estimatedMinutes: { beginner: 8, intermediate: 16, deep: 21 },
   intros: [
     'David has been anointed king, Saul is dead, and all Israel is rallying to him. But before David can rule the nation fully, the ark of God must come to Jerusalem. The ark is not merely furniture. It is the sign of God&apos;s presence, the mercy seat where God&apos;s glory dwells. To bring it to the capital is to establish Jerusalem not just as Israel&apos;s political center but as the spiritual center of the nation — the place where God meets His people.',
     'Yet this chapter does not celebrate a simple triumph. David&apos;s first attempt to move the ark fails catastrophically. His motives are good, his ambition is holy, but his method is wrong. Uzzah dies. The ark is left in a stranger&apos;s house. And David must wait three months before he understands what he did wrong. The chapter asks: What does it mean to approach God? Can we come to Him any way we please, or does holiness demand that we come His way?',

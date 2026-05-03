@@ -18,7 +18,7 @@ export const JOB_17: RichChapterContent = {
   bookName: 'Job',
   chapter: 17,
 
-  estimatedMinutes: { 5: 2, 10: 5, 15: 7 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
   intros: [
     'Job is near the end. He can feel it. His body is failing. His spirit is breaking. And now he speaks not in anger, not in detailed complaint, but in the voice of one who is saying goodbye. "My breath is corrupt, my days are extinct, the graves are ready for me." The grave is waiting. Death is near. And in this moment of approaching extinction, what does Job do? Does he curse God? Does he surrender his faith? No. Instead, he affirms the reality of judgment to come, of a time when his innocence will be revealed.',
     'Job asks a question that will echo through the remainder of the book: "Where is now my hope?" It is a question that contains its own answer. For if Job asks about his hope, it is because he has one. He speaks of his hope in the resurrection, in the vindication that comes after death. Job does not have what he needs to survive in this world—comfort, vindication, the support of friends. But he has something deeper: a trust that transcends the grave, a faith that looks beyond death to a judgment where truth will be made known.',

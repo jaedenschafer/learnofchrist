@@ -12,7 +12,7 @@ export const JONAH_2: RichChapterContent = {
   bookName: 'Jonah',
   chapter: 2,
 
-  estimatedMinutes: { 5: 2, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
   intros: [
     'In the darkness of the fish&apos;s belly, Jonah prays. Not a prayer of complaint or despair, but a prayer of thanksgiving and recognition. He has been cast down into the depths, and there, surrounded by death, he finds himself turned back toward God. The prayer itself is the turning point. Jonah has ceased running. He has begun to understand.',
     'What emerges from this prayer is not a defeated prophet but one who has glimpsed a truth: that deliverance comes not from human strength or cleverness, but from God alone. "Salvation is of the Lord" becomes the confession of a man who has lost everything else and found that it is enough.',

@@ -13,7 +13,7 @@ export const PSALMS_43: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 43,
 
-  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
   intros: [
     'Psalm 43 is brief—a single, focused plea. David is still in the position of the previous psalm: cast down, separated from the presence of God, surrounded by enemies. But his request in this psalm is clear and specific: "O send out thy light and thy truth: let them lead me." He is not asking God to destroy his enemies or to vindicate him before them. He is asking God to send light and truth. To illumine his path. To guide him to God&apos;s holy hill, to his tabernacles.',
     'The psalm is a prayer for clarity. For the dispelling of confusion. For guidance that comes not from human wisdom or strategy, but from the very attributes of God Himself—His light and His truth. And in the darkness of doubt and despair, light becomes not merely a metaphor but a necessity. Without it, the path cannot be seen. Without truth, the path cannot be trusted. In Christ, both light and truth are offered.',

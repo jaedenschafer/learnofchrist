@@ -18,7 +18,7 @@ export const JEREMIAH_4: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 4,
 
-  estimatedMinutes: { 5: 2, 10: 5, 15: 6 },
+  estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
   intros: [
     'Jeremiah 4 continues the call to repentance, but now with an image that speaks to the internal work required. "Break up your fallow ground, and sow not among thorns." A fallow field is one that has been left unplowed for a season, left to regenerate—or in this case, left to become overgrown with weeds and thorns. The soil has hardened. Nothing will grow there unless the ground is first broken up, the hard surface shattered, the weeds torn out by their roots. This is what repentance requires: a breaking up of the heart&apos;s hardened crust.',
     'But there is another side to this chapter: the warning of judgment. From the north comes news of invasion. The Babylonian army is on the march. Walls will crumble. Cities will burn. The people will be scattered into exile. Jeremiah does not speak only of the possibility of return; he speaks also of the consequences of refusal to repent. Yet even in the midst of this warning, the door remains open. The breaking up of fallow ground, the turning of the heart—these are still possible, up to a point. Time is running out, but it has not yet run out.',

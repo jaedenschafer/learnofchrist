@@ -18,7 +18,7 @@ export const SECOND_CORINTHIANS_12: RichChapterContent = {
   bookName: '2 Corinthians',
   chapter: 12,
 
-  estimatedMinutes: { 5: 8, 10: 14, 15: 21 },
+  estimatedMinutes: { beginner: 8, intermediate: 14, deep: 21 },
   intros: [
     'Paul is defending his apostolic authority to the Corinthians. He has been criticized for not being impressive enough, not bold enough. So he speaks—reluctantly—of spiritual experiences. He was caught up to paradise, heard words no human is permitted to utter. Yet he refuses to make that the ground of his ministry. Instead, he speaks of weakness.',
     'God answered Paul&apos;s prayer for deliverance not with relief, but with a paradox: "My grace is sufficient for thee; for my strength is made perfect in weakness." In this answer, Paul discovers the entire shape of Christian life. The goal is not to overcome weakness, but to let Christ&apos;s power flow through it. By chapter&apos;s end, Paul is weeping over the Corinthians, willing to be spent entirely on their behalf—not for return, but for their healing.',

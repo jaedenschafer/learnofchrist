@@ -23,7 +23,7 @@ export const ACTS_13: RichChapterContent = {
   bookName: 'Acts',
   chapter: 13,
 
-  estimatedMinutes: { 5: 9, 10: 13, 15: 17 },
+  estimatedMinutes: { beginner: 9, intermediate: 13, deep: 17 },
   intros: [
     'The church at Antioch is a turning point. It is the first place where Jews and Gentiles worship together in the same room, breaking a barrier that had stood for centuries. Here, in worship and fasting, the Holy Spirit speaks: "Separate me Barnabas and Saul for the work whereunto I have called them." The church lays hands on them. They are commissioned and sent.',
     'Paul—still called Saul at the start of this journey—is about to step fully into his name and his calling. He will preach the gospel across the Mediterranean. Opposition will follow. Some will believe. Some will oppose. The pattern will repeat throughout his ministry. But the word spreads, and for the first time in Acts, the Gentiles—people outside the covenant of Israel—hear the gospel and are declared saved through Christ.',

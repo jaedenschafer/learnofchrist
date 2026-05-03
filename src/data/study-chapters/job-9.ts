@@ -17,7 +17,7 @@ export const JOB_9: RichChapterContent = {
   bookName: 'Job',
   chapter: 9,
 
-  estimatedMinutes: { 5: 2, 10: 7, 15: 9 },
+  estimatedMinutes: { beginner: 2, intermediate: 7, deep: 9 },
   intros: [
     'Job has heard Bildad&apos;s certainty, and he responds not with anger but with anguish. "How should man be just with God?" he asks. It is the central question of his entire ordeal. Not "Have I sinned?" but "How can any human being stand righteous before God?" The question is not about Job&apos;s particular guilt or innocence. It is about the fundamental impossibility of a creature matching itself against the Creator.',
     'Job then utters a hymn to God&apos;s power—a song of the divine majesty that staggers the imagination. God moves mountains. God shakes the earth. God commanded the sun not to rise. God stretches the heavens alone. God treads upon the waves of the sea. God made the Bear, Orion, and the Pleiades. This God is infinite, omnipotent, beyond measure. And facing this infinite power, Job feels utterly small, utterly helpless. He cannot contend with God. He cannot argue his case. There is no daysman, no one who can stand between God and Job and lay a hand upon them both. Job is alone, and God is unfathomably far away.',

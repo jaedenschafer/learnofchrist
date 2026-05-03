@@ -15,7 +15,7 @@ export const DEUTERONOMY_34: RichChapterContent = {
   bookName: 'Deuteronomy',
   chapter: 34,
 
-  estimatedMinutes: { 5: 8, 10: 13, 15: 18 },
+  estimatedMinutes: { beginner: 8, intermediate: 13, deep: 18 },
   intros: [
     'The Pentateuch opened with God speaking light into a formless void. Forty chapters later, it closes with a man climbing a mountain to see a land he will never possess. Moses, who walked with God more intimately than any other human being in Scripture, dies in the wilderness at 120 years old—his eye undimmed, his strength unabated, but his journey finally complete.',
     'Deuteronomy 34 is structured as a series of closings: Moses sees, Moses dies, God buries him, Israel grieves, Joshua rises, the epitaph is spoken. It is the most poignant closing in the Old Testament. The law of Moses was given to set God&apos;s people free—but the law itself cannot bring them into the land. Only Joshua, the next leader, whose name is Yeshua (Jesus), can cross over and lead them in. The Pentateuch ends pointing forward, waiting for the Prophet greater than Moses.',

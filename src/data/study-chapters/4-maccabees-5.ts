@@ -25,7 +25,7 @@ export const FOURTH_MACCABEES_5: RichChapterContent = {
   bookName: '4 Maccabees',
   chapter: 5,
 
-  estimatedMinutes: { 5: 10, 10: 20, 15: 24 },
+  estimatedMinutes: { beginner: 10, intermediate: 20, deep: 24 },
   intros: [
     'Eleazar is brought before King Antiochus—ninety years old, a teacher of the Law, honored among his people for his wisdom and piety. The king has already killed many Jews for refusing to eat unclean meat. Now he brings the priest before him, offering what seems like mercy: conform, and be spared. Refuse, and be tortured to death.',
     'To the crowd watching, the choice seems obvious. What is a dietary rule compared to your life? But Eleazar understands something deeper: that once you compromise the truth you have lived for, you have already lost the thing the king is offering to spare. You are no longer yourself. The body may survive, but the soul has been handed over.',

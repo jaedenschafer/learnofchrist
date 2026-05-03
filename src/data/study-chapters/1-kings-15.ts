@@ -20,7 +20,7 @@ export const KINGS_1_15: RichChapterContent = {
   bookName: '1 Kings',
   chapter: 15,
 
-  estimatedMinutes: { 5: 7, 10: 13, 15: 19 },
+  estimatedMinutes: { beginner: 7, intermediate: 13, deep: 19 },
   intros: [
     'The kingdom of Israel stands divided. In Jerusalem, Rehoboam&apos;s line struggles to hold the throne. In the north, Jeroboam continues his dynasty, yet the Lord has promised the house of Jeroboam will be cut off. This chapter opens with the reign of Abijam, son of Rehoboam—a king who walks in his father&apos;s sins. Yet even as he fails, God remembers David. The lamp is not extinguished.',
     'In Judah, Asa brings reform. He tears down idols, removes his own grandmother from the office of queen, and sets his heart toward the Lord. When Baasha of Israel threatens his borders, Asa pays tribute to Ben-hadad of Syria to break the league against him. It is a political compromise, not a spiritual one—and Scripture affirms that "his heart was perfect with the Lord all his days."',

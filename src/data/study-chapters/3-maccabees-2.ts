@@ -16,7 +16,7 @@ export const THIRD_MACCABEES_2: RichChapterContent = {
   bookName: '3 Maccabees',
   chapter: 2,
 
-  estimatedMinutes: { 5: 5, 10: 10, 15: 15 },
+  estimatedMinutes: { beginner: 5, intermediate: 10, deep: 15 },
   intros: [
     'Simon, the high priest, stands in the sanctuary with all Jerusalem hanging on his prayer. Ptolemy has been healed of his paralysis but returns to Egypt enraged. He orders the destruction of every Jew in his kingdom—a genocidal decree carried out with deliberate cruelty.',
     'Simon&apos;s prayer is not a new prayer. It is a recitation of God&apos;s faithfulness. He reminds the Lord of every judgment He has ever passed on those who threatened His people. He appeals not to mercy (though he begs it) but to the pattern of God&apos;s own character. And God answers. The prayer moves heaven.',

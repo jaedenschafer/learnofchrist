@@ -21,7 +21,7 @@ export const SAMUEL_2_2: RichChapterContent = {
   bookName: '2 Samuel',
   chapter: 2,
 
-  estimatedMinutes: { 5: 6, 10: 12, 15: 18 },
+  estimatedMinutes: { beginner: 6, intermediate: 12, deep: 18 },
   intros: [
     'Saul is dead. David has been anointed. But the kingdom is not yet united. Saul&apos;s son Ish-bosheth still lives, and the northern tribes have rallied behind him. Now we watch what happens when a nation divides against itself — when two kings claim the same throne, and the armies that follow them must meet.',
     'This chapter is not a battle with a hero and a loser. It is a glimpse into civil war itself: the terrible waste of it, the way courage without wisdom destroys the young, the way a captain can see the toll and speak against it even as the fighting continues. And beneath it all, God is working — not preventing the division, but moving steadily toward the day when the kingdom will be one.',

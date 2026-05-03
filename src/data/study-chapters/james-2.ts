@@ -20,7 +20,7 @@ export const JAMES_2: RichChapterContent = {
   bookName: 'James',
   chapter: 2,
 
-  estimatedMinutes: { 5: 9, 10: 19, 15: 25 },
+  estimatedMinutes: { beginner: 9, intermediate: 19, deep: 25 },
   intros: [
     'James turns his attention to a problem he has observed in the church: favoritism. Believers gather for worship, and some are treated with honor because of their wealth or status, while others are dismissed or neglected. This is not incidental rudeness. It is a violation of the foundational law of Christ—to love your neighbor as yourself. When we honor the rich at the expense of the poor, we break covenant with the God who exalts the humble and has chosen the poor to be "rich in faith, and heirs of the kingdom."',
     'Then James moves into a fuller argument about faith itself. How can we claim to have faith in Christ—who emptied himself, who identified with the powerless, who taught that it is more blessed to give than to receive—while our actions deny that faith? This raises the deepest question: What is faith? Is it assent to doctrine, or is it a living trust that transforms how we live? James&apos; answer is unambiguous: faith without works is dead. And he anchors this not in theory but in the lives of Abraham and Rahab, showing that true faith has always borne fruit in concrete action.',

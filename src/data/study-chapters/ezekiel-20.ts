@@ -18,7 +18,7 @@ export const EZEKIEL_20: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 20,
 
-  estimatedMinutes: { 5: 1, 10: 4, 15: 6 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
   intros: [
     'Ezekiel 20 is a recitation—a long, painful recounting of Israel&apos;s religious history. God walks through the stages of the covenant: the revelation in Egypt, the wilderness wandering, the entry into the land. At each stage, Israel rebels. They worship idols. They turn away. They profane God&apos;s name by their behavior. Yet at each stage, God acts not because Israel has earned redemption, but "for my name&apos;s sake"—to preserve the honor of His own name among the nations.',
     'This chapter teaches something crucial: God&apos;s faithfulness does not depend on ours. We can be faithless. God remains faithful. But that faithfulness is not soft. It includes judgment. It includes the conviction of sin. The goal is not to minimize our failure, but to break us of our idolatry and turn us back to covenant fidelity.',

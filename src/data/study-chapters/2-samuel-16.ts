@@ -19,7 +19,7 @@ export const SAMUEL_2_16: RichChapterContent = {
   bookName: '2 Samuel',
   chapter: 16,
 
-  estimatedMinutes: { 5: 3, 10: 11, 15: 13 },
+  estimatedMinutes: { beginner: 3, intermediate: 11, deep: 13 },
   intros: [
     'David has lost everything. His own son Absalom has turned the kingdom against him, and the king who seemed unshakeable is now a fugitive, climbing the Mount of Olives in disgrace. The chapter opens not with battle but with the smaller cruelties: a servant&apos;s calculated deception, a kinsman&apos;s curses, stones thrown at an aging king. What David does in this moment of total exposure — how he treats those who betray him and those who mock him — shows us a king whose identity rests somewhere deeper than power.',
     'The chapter is haunted by Nathan&apos;s prophecy from 2 Samuel 12:11 — "Behold, I will raise up evil against thee out of thine own house; and I will take thy wives before thine eyes, and give them unto thy neighbour." As Ahithophel advises Absalom to take David&apos;s concubines on the rooftop, the prophecy moves from word to act. The king is being repaid in his own household what he did in secret will be returned to him in public. Yet even in this darkness, David&apos;s response points forward to Christ — the King who suffers insult without defending Himself, who trusts the Father while the world strips Him bare.',

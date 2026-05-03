@@ -15,7 +15,7 @@ export const ISAIAH_19: RichChapterContent = {
   bookName: 'Isaiah',
   chapter: 19,
 
-  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
   intros: [
     "Egypt was the ancient superpower, the civilization of the Nile, the kingdom that had once enslaved Israel and stood against God. Yet the prophecy of Isaiah 19 is not one of utter destruction. Rather, it is a vision of the transformation of enmity into covenant. The judgment on Egypt is real and severe—the failure of the Nile, civil war, the seeking of idols and mediums. But judgment is not the final word.",
     'The climax of the chapter is extraordinary: God will declare Egypt and Assyria—nations that had opposed Israel—to be His people and the work of His hands. This speaks to a future in which national divisions are overcome and all peoples are gathered into covenant with the God of Israel. It is a promise of the ultimate reconciliation of enemies through the work of God.',

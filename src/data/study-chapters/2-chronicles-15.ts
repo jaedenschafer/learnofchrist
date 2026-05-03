@@ -15,7 +15,7 @@ export const CHRONICLES_2_15: RichChapterContent = {
   bookName: '2 Chronicles',
   chapter: 15,
 
-  estimatedMinutes: { 5: 5, 10: 11, 15: 15 },
+  estimatedMinutes: { beginner: 5, intermediate: 11, deep: 15 },
   intros: [
     'After a generation of spiritual decline under Asa&apos;s predecessors, Judah stands in a moment of decision. The nation has drifted from covenant loyalty; idols litter the high places. But Asa, though he has already begun some reforms, is about to receive a word from God that will transform his heart and his reign.',
     'A prophet named Azariah, son of Oded, meets Asa on the road. He is moved by the Spirit of God — not with words of condemnation, but with words of covenant promise. The pattern he speaks is ancient and binding: "The Lord is with you while you are with Him. If you seek Him, He will be found of you. But if you forsake Him, He will forsake you." This is the grammar of covenant. And when Asa hears it, he does not merely assent — he acts. He removes the abominable idols. He calls the people together. And in a public feast and oath, all Judah renews their commitment to seek the Lord God of their fathers with all their heart and all their soul. Those who refuse are to be put to death. The covenant is solemn. The commitment is total. And the cost of renewal is high — even the queen-mother, Asa&apos;s own grandmother, is removed from her seat for her idolatry. In Asa&apos;s covenant renewal, we see a king who understands that loyalty to God sometimes requires cutting away even what is nearest and dearest.',

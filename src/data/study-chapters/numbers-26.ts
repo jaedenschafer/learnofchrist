@@ -32,7 +32,7 @@ export const NUMBERS_26: RichChapterContent = {
   bookName: 'Numbers',
   chapter: 26,
 
-  estimatedMinutes: { 5: 7, 10: 12, 15: 14 },
+  estimatedMinutes: { beginner: 7, intermediate: 12, deep: 14 },
   intros: [
     'Thirty-eight years have passed since the judgment at Kadesh Barnea. The first generation is nearly gone. God tells Moses to count the people again — a new census of the wilderness survivors. Tribe by tribe, the people are numbered. The total: 601,730. Astonishingly, this is almost identical to the first census forty years earlier — 603,550 — despite the fact that almost an entire generation has died. The shape of Israel has not changed. God has preserved a people.',
     'As the tribes are counted, a new detail appears. Five women named Zelophehad — they have no brothers, and their father is dead. Under the current inheritance law, there is no provision for daughters. They step forward with a problem: the law was written for a different situation. Their case will be heard in the next chapter. It is a signal that the focus is shifting from the old generation to the new.',

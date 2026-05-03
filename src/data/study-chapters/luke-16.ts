@@ -20,7 +20,7 @@ export const LUKE_16: RichChapterContent = {
   bookName: 'Luke',
   chapter: 16,
 
-  estimatedMinutes: { 5: 1, 10: 4, 15: 6 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 6 },
   intros: [
     'A rich man has a steward. The steward is accused of wasting his master&apos;s goods. The master calls him and says: "Give an account of thy stewardship; for thou mayest be no longer steward." The steward realizes his position is lost. He cannot dig; he is ashamed to beg. So he goes to those who owe his master money and reduces their debts. He reduces one debt by fifty percent. Another by twenty percent. When his master hears what he has done, the master does not condemn him. Instead: "The lord commended the unjust steward, because he had done wisely."',
     'Jesus teaches: "Make to yourselves friends of the mammon of unrighteousness; that, when ye fail, they may receive you into everlasting habitations." Money is called mammon of unrighteousness. Yet it can be used wisely. Those who use earthly wealth to build relationships, to show kindness, to demonstrate mercy—they are making friends who will receive them into eternal habitation. But then Jesus tells a parable of stark contrast.',

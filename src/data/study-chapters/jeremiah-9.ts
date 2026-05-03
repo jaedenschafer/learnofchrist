@@ -18,7 +18,7 @@ export const JEREMIAH_9: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 9,
 
-  estimatedMinutes: { 5: 2, 10: 4, 15: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 4, deep: 5 },
   intros: [
     'Jeremiah 9 opens with one of the most wrenching lines in Scripture. Jeremiah wishes his head were water, his eyes a fountain of tears, so that he could weep day and night for those who are dying. This is not abstract lament. This is a prophet whose heart is breaking under the weight of God&apos;s word and God&apos;s people&apos;s refusal. He wants to weep constantly. His entire being wants to become tears.',
     'Yet within this sorrow, God speaks a word that reorders all human values. "Let not the wise man glory in his wisdom, neither let the mighty man glory in his might, let not the rich man glory in his riches: But let him that glorieth glory in this, that he understandeth and knoweth me, that I am the Lord which exercise lovingkindness, judgment, and righteousness, in the earth: for in these things I delight." The true glory is not in what you know, what you can do, or what you possess. It is in knowing God—in having an intimate, relational knowledge of the One who exercises mercy and justice.',

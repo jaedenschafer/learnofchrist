@@ -5,7 +5,7 @@ export const LEVITICUS_6: RichChapterContent = {
   bookName: 'Leviticus',
   chapter: 6,
 
-  estimatedMinutes: { 5: 9, 10: 13, 15: 16 },
+  estimatedMinutes: { beginner: 9, intermediate: 13, deep: 16 },
   intros: [
     'Leviticus 6 opens with the trespass offering — what happens when you sin against another person. You did not sin against God abstractly; you lied to your neighbor, stole from him, or deceived him. And the text says clearly: you must first return what you took, plus one-fifth more. Only then do you bring your offering to God. The pattern is horizontal before vertical — reconciliation with the wronged person must come before reconciliation with God.',
     'The chapter then shifts to priestly instructions: how to tend the fire on the altar (it never goes out), how to handle the grain offering (it is wholly burned as a memorial), and how the priest offers his own daily sacrifice — split in half, morning and evening. None of this is theoretical. Every ritual touches the priest&apos;s hands, shapes his day, reminds him that certain things are holy. And for the reader on this side of the cross, the perpetual fire points to One whose intercession never stops, and the complete burning of the grain points to a self-offering that holds nothing back.',

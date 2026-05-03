@@ -9,7 +9,7 @@ export const SAMUEL_1_2: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 2,
 
-  estimatedMinutes: { 5: 9, 10: 16, 15: 18 },
+  estimatedMinutes: { beginner: 9, intermediate: 16, deep: 18 },
   intros: [
     'Hannah has given birth to Samuel after years of barrenness and prayer. Her joy overflows in a song of divine reversal — the hungry filled, the weak strong, the lowly lifted up. But amid this rejoicing, the chapter shows the priesthood itself corrupting from within. Eli&apos;s sons treat the offering as a theft opportunity, and Eli, though he speaks against them, fails to act decisively. Into this gap where leadership crumbles, the child Samuel grows, favored by God and by the people. And the promise comes: though one priestly house falls, a faithful priest will arise, one who will act as God&apos;s heart intends.',
   ],

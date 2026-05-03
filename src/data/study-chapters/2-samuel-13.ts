@@ -17,7 +17,7 @@ export const SAMUEL_2_13: RichChapterContent = {
   bookName: '2 Samuel',
   chapter: 13,
 
-  estimatedMinutes: { 5: 10, 10: 21, 15: 25 },
+  estimatedMinutes: { beginner: 10, intermediate: 21, deep: 25 },
   intros: [
     'The history of David&apos;s house unfolds now as judgment. In 2 Samuel 12, the prophet Nathan told the king plainly: "The sword shall not depart from thine house, because thou hast despised me, and hast taken the wife of Uriah the Hittite to be thy wife." David&apos;s adult sin — the taking of Bathsheba, the murder of Uriah — plants a seed. And David&apos;s house begins to rot from within.',
     '2 Samuel 13 shows the terrible cost of that rot. It is a chapter about power twisted, about the weak left without protection, about silence that becomes complicity. Tamar, the daughter of the king, speaks clearly against her violation. Her voice is the moral voice of the chapter. But her father does nothing. David, who once defied armies, is paralyzed by domestic sin. And his silence gives birth to two years of slow, poisonous rage that will explode into murder.',

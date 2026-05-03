@@ -15,7 +15,7 @@ export const JEREMIAH_51: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 51,
 
-  estimatedMinutes: { 5: 2, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
   intros: [
     'The oracle against Babylon continues with unrelenting force. Babylon has made all the earth drunk, but now Babylon itself must drink the cup of God&apos;s wrath. The image of the cup is profound: Babylon has made others stumble through its power and influence, but now the stumbling will be Babylon&apos;s own.',
     'Most importantly, God gives a call to His people that echoes through the centuries and finds its ultimate expression in Revelation: "Come out of her, my people, that ye be not partakers of her sins, and that ye receive not of her plagues." This is a call to separation—not physical separation necessarily, but spiritual separation. To be God&apos;s people means to be distinct from the systems and values of the world.',

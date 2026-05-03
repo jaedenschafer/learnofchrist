@@ -18,7 +18,7 @@ export const LEVITICUS_11: RichChapterContent = {
   bookName: 'Leviticus',
   chapter: 11,
 
-  estimatedMinutes: { 5: 8, 10: 14, 15: 19 },
+  estimatedMinutes: { beginner: 8, intermediate: 14, deep: 19 },
   intros: [
     'Leviticus 11 lays out the animals Israel may eat and those it must avoid. The chapter divides the world into two categories: clean (tahor) and unclean (tame). A clean animal meets certain physical marks — cattle must both part the hoof and chew the cud. If an animal fails either test, it is unclean, and eating it makes the Israelite unclean. The same rules apply to birds, fish, swarming things, and every creature that walks the earth.',
     'At first, these rules sound like hygiene laws. But they are not. Pigs are unclean not because they carry disease — camels are clean even though they live in dust and filth. The unclean animals are unclean because God says they are. The point is not safety; the point is obedience. Every time Israel set the table, chose what to eat, chose what to touch, Israel was choosing to be set apart. The food laws were not rules about purity in the body — they were reminders, carved into daily life, that the people belonged to a holy God.',

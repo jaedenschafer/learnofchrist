@@ -17,7 +17,7 @@ export const PSALMS_4: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 4,
 
-  estimatedMinutes: { 5: 2, 10: 7, 15: 8 },
+  estimatedMinutes: { beginner: 2, intermediate: 7, deep: 8 },
   intros: [
     'Psalm 4 is a psalm for the evening, for the time when the day&apos;s labor is done and the soul returns to the quietness of rest. But it is a quietness that does not come easily. The psalmist opens by calling to God: "Hear me when I call, O God of my righteousness." There is urgency in the appeal. There is trouble, though it is not named. And yet the movement of the psalm is toward peace, toward sleep, toward the knowledge that the Lord makes you dwell in safety.',
     'The psalm speaks to a fundamental human need: the need for peace that does not depend on circumstances. We live in a world of conflict, of rivalry, of competition. Men say to themselves, "Who will show us any good?" and they seek their peace in wealth, in status, in the approval of others. But the psalmist offers a different path. Seek the light of the Lord&apos;s face. Commune with your own heart. Be still. And you will find a peace so deep that you can lay yourself down and sleep, knowing that only the Lord makes you dwell in safety.',

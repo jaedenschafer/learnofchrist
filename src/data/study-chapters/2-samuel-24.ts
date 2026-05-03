@@ -20,7 +20,7 @@ export const SAMUEL_2_24: RichChapterContent = {
   bookName: '2 Samuel',
   chapter: 24,
 
-  estimatedMinutes: { 5: 6, 10: 12, 15: 17 },
+  estimatedMinutes: { beginner: 6, intermediate: 12, deep: 17 },
   intros: [
     'The book of 2 Samuel draws to a close with a chapter that captures a central thread of David&apos;s entire reign: the tension between human will and divine purpose, between pride and repentance, between judgment and mercy. God moves David to number Israel and Judah — a census that, on its face, seems like an act of governance. But David&apos;s own heart recognizes it as something darker. It is an expression of pride, a desire to measure and count rather than to trust.',
     'What follows is not a simple story of sin and punishment. It is a profound meditation on how the Lord deals with His people: offering choices, accepting repentance, showing mercy even in judgment. And it ends not with David punished, but with David learning the deepest lesson of his reign: "I will not offer burnt offerings unto the Lord my God of that which doth cost me nothing." The chapter concludes with David buying the threshing floor of Araunah at full price. This ground, purchased through David&apos;s own sacrifice, becomes the site of Solomon&apos;s temple. The pattern is set: the Lord&apos;s house will be built on ground that cost someone everything.',

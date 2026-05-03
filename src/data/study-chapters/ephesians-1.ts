@@ -16,7 +16,7 @@ export const EPHESIANS_1: RichChapterContent = {
   bookName: 'Ephesians',
   chapter: 1,
 
-  estimatedMinutes: { 5: 13, 10: 25, 15: 36 },
+  estimatedMinutes: { beginner: 13, intermediate: 25, deep: 36 },
   intros: [
     'Ephesians 1 begins not with doctrine, but with doxology—blessing. Paul does not first explain what God has done; he first praises God for doing it. And as he praises, he unfolds a cosmic vision of how believers fit into God&apos;s eternal purpose. The chapter presents a single Greek sentence that runs from verse 3 to verse 14, one long tumbling doxology of gratitude and wonder.',
     'The chapter is a theology of election presented as grace: believers are chosen, predestined to adoption, redeemed and forgiven, sealed with the Spirit. Yet Paul frames it not as constraint or manipulation, but as a father&apos;s generous intention toward His children. The doctrines that divide traditions—predestination, free will, election—are held here in creative tension, not resolved into a system. Instead, Paul invites you to experience them both as true.',

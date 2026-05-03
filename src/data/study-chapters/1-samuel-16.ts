@@ -19,7 +19,7 @@ export const SAMUEL_1_16: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 16,
 
-  estimatedMinutes: { 5: 3, 10: 12, 15: 15 },
+  estimatedMinutes: { beginner: 3, intermediate: 12, deep: 15 },
   intros: [
     'The book of Samuel turns here — from the end of one dynasty to the beginning of another. Saul is rejected. The kingdom is being torn from his hand. And the Lord tells Samuel: "How long wilt thou mourn for Saul, seeing I have rejected him from reigning over Israel?" The task now is to anoint a new king, but not through power or armies or the counsel of men. Instead, the Lord will choose.',
     'David&apos;s anointing happens in secret, in a small Bethlehem town, in the house of a shepherd named Jesse. It is not a coronation with trumpets. It is not witnessed by priests or elders or the people of Israel. It is a private act, a hidden act, a mystery. And it is this very hiddenness that teaches the chapter&apos;s central truth: "Man looketh on the outward appearance, but the Lord looketh on the heart." The God who chooses does not look as men look. He sees what is invisible to us — the heart of a shepherd boy, and in that heart, a king.',

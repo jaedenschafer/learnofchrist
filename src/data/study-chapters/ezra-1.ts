@@ -18,7 +18,7 @@ export const EZRA_1: RichChapterContent = {
   bookName: 'Ezra',
   chapter: 1,
 
-  estimatedMinutes: { 5: 4, 10: 8, 15: 12 },
+  estimatedMinutes: { beginner: 4, intermediate: 8, deep: 12 },
   intros: [
     'The book of Ezra opens in the first year of Cyrus king of Persia — not a Jewish king, not a king of Israel, but a pagan emperor who has just conquered Babylon and inherited an empire. Yet before we hear from any Israelite leader, we hear Cyrus speak. The Lord, we are told, stirred up his spirit. And the king makes a proclamation that will change the course of Jewish history: the exiles may return. The temple may be rebuilt. The holy city may rise again.',
     'This is the fulfillment of a word spoken seventy years earlier through Jeremiah — that after seventy years of captivity, the Lord would bring His people home. The timeline has come. Not through a Jewish rebellion, not through military might, but through the heart of a foreign king stirred by God Himself. This chapter tells us something stark and beautiful: God can move even pagan rulers to accomplish His purposes. His word does not fail, no matter how long the silence lasts.',

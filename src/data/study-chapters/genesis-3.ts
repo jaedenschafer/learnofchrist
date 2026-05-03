@@ -13,7 +13,7 @@ export const GENESIS_3: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 3,
 
-  estimatedMinutes: { 5: 10, 10: 14, 15: 19 },
+  estimatedMinutes: { beginner: 10, intermediate: 14, deep: 19 },
   intros: [
     'Two chapters in, the Bible has shown you a Maker, a garden, a man, a woman, and a single boundary. Genesis 3 is the page where everything turns. A voice not God&apos;s makes its first appearance. A small permission becomes a great suspicion. The fruit goes to a mouth, and the world bends.',
     'And yet — read the chapter carefully — God does not respond to humanity&apos;s rebellion the way a frightened tyrant would. He walks. He calls. He asks. He clothes them with His own hands before sending them out. And in the middle of the curses on the serpent, He drops one promise that the rest of the Bible will spend two thousand years unpacking: <em>her seed shall bruise thy head.</em>',

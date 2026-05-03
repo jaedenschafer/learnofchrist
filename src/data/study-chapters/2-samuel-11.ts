@@ -20,7 +20,7 @@ export const SAMUEL_2_11: RichChapterContent = {
   bookName: '2 Samuel',
   chapter: 11,
 
-  estimatedMinutes: { 5: 8, 10: 13, 15: 17 },
+  estimatedMinutes: { beginner: 8, intermediate: 13, deep: 17 },
   intros: [
     'The eleventh chapter of 2 Samuel tells a story that has echoed through two thousand years of Scripture commentary and spiritual reckoning. It begins with a sentence that seems innocent — "It came to pass, after the year was expired, at the time when kings go forth to battle, that David sent Joab, and his servants with him, and all Israel... But David tarried still at Jerusalem." A king, at the moment he should have been leading his armies, remained at home.',
     'What follows is one of Scripture&apos;s starkest accounts of moral deterioration. In just a few days, a moment&apos;s lustful glance becomes adultery, adultery becomes conspiracy to deceive, and conspiracy becomes premeditated murder. The text does not judge — it simply tells. And at the chapter&apos;s end, with the king remarried and satisfied, the Lord pronounces His verdict: "But the thing that David had done displeased the Lord." A kingdom built on faith has, for a moment, been built on lies. The chapter tests every reader: Can you see yourself in David? Can you see the woman Bathsheba, trapped in a power that took from her what was not the king&apos;s to take?',

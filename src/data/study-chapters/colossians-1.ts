@@ -18,7 +18,7 @@ export const COLOSSIANS_1: RichChapterContent = {
   bookName: 'Colossians',
   chapter: 1,
 
-  estimatedMinutes: { 5: 11, 10: 23, 15: 34 },
+  estimatedMinutes: { beginner: 11, intermediate: 23, deep: 34 },
   intros: [
     'Colossians was written to a church under pressure. False teachers had crept in, teaching that Christ needed to be supplemented by angelic powers, spiritual disciplines, dietary rules, and ascetic practices. They made God sound far away—accessible only through layers of intermediaries. Paul&apos;s response is radical and crystalline: Christ is all-sufficient. He is not merely one power among many; He is the image of God, the creator of all things, the head of the body, the one holding all things together. Christ in you is not a doctrine to be debated. It is the hope of glory—the presence of God made intimate.',
     'This chapter contains one of the Bible&apos;s highest Christologies. The Christ-hymn in verses 15–20 stands among the most exalted descriptions of Jesus ever written. Every phrase announces His supremacy and sufficiency. For a believer under pressure from false teachers, or from any force that makes God sound distant, this chapter is liberation: everything you need is in Christ.',

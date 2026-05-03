@@ -16,7 +16,7 @@ export const SECOND_ESDRAS_6: RichChapterContent = {
   bookName: '2 Esdras',
   chapter: 6,
 
-  estimatedMinutes: { 5: 9, 10: 15, 15: 21 },
+  estimatedMinutes: { beginner: 9, intermediate: 15, deep: 21 },
   intros: [
     'In his second vision, Ezra receives a revelation of God&apos;s creative order. The angel recounts the six days of creation, speaking them as God spoke them. But this is not merely a retelling of Genesis. It is an unveiling of a cosmic purpose that reaches beyond creation to redemption. The present age is sealed—fixed in duration, hidden in its purpose. Yet beyond this sealing waits the age to come, prepared for those who love righteousness.',
     'The vision climaxes in apocalyptic intensity: a trumpet shall sound; the dead shall rise; the books shall be opened for the judgment of all deeds. The world shall return to silence for seven days—as in the beginning—and then God shall create a new world. Creation and resurrection, first things and last things, are woven together in a single vision of God&apos;s immutable plan.',

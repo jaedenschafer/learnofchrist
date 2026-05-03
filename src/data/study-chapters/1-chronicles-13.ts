@@ -17,7 +17,7 @@ export const CHRONICLES_1_13: RichChapterContent = {
   bookName: '1 Chronicles',
   chapter: 13,
 
-  estimatedMinutes: { 5: 5, 10: 10, 15: 14 },
+  estimatedMinutes: { beginner: 5, intermediate: 10, deep: 14 },
   intros: [
     'The kingdom is united under David. He has conquered his enemies, established his throne, and now his thoughts turn to the spiritual center of Israel — the ark of God, the symbol of the Lord&apos;s presence among His people. For years, since the days of Saul, the ark has remained in Kirjath-jearim, untouched, waiting. David calls together all of Israel — the captains of thousands and hundreds, every leader of the people — and proposes a journey: "Let us bring again the ark of our God to us."',
     'The people agree. It seems right. It seems good. And the procession begins with celebration — David and all Israel, playing before God with singing, harps, psalteries, timbrels, cymbals, and trumpets. But beneath the joy lies a critical error: the ark travels on a new cart, not on the poles that the Law prescribed for the priests to carry it. It is the method of the Philistines, not the method of the Lord. And when the oxen stumble at the threshing floor of Chidon, when Uzza reaches out to prevent the ark from falling, the anger of the Lord is kindled. One man dies. The celebration stops. David is afraid. And in this moment, we learn that good intentions and careful planning are not enough — we must do God&apos;s work in God&apos;s way.',

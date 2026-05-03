@@ -15,7 +15,7 @@ export const GENESIS_42: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 42,
 
-  estimatedMinutes: { 5: 11, 10: 17, 15: 22 },
+  estimatedMinutes: { beginner: 11, intermediate: 17, deep: 22 },
   intros: [
     'Twenty-two years have passed. Joseph&apos;s brothers sold him into slavery, his father has grieved him as dead, and the young man is now the vizier of Egypt — the second ruler in the land. A famine sweeps across the ancient world, and Jacob, desperate, sends his ten older sons to Egypt to buy grain. They kneel before the man who holds their lives in his hands, and they do not know him.',
     'Genesis 42 is where recognition becomes resurrection. Joseph tests his brothers with a cruelty that is not cruelty — it is the only way to know if they have changed. And in the middle of his interrogation, something breaks through: the brothers speak to each other in Hebrew, thinking this Egyptian cannot hear them. &ldquo;We are verily guilty,&rdquo; they say. Twenty-two years of buried knowledge surfaces in one sentence. Joseph hears it and weeps in secret. The dream of his youth — the sheaves bowing to his sheaf — is happening in front of him, and his brothers still do not see.',

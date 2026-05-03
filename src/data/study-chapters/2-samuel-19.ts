@@ -17,7 +17,7 @@ export const SAMUEL_2_19: RichChapterContent = {
   bookName: '2 Samuel',
   chapter: 19,
 
-  estimatedMinutes: { 5: 7, 10: 17, 15: 23 },
+  estimatedMinutes: { beginner: 7, intermediate: 17, deep: 23 },
   intros: [
     'David&apos;s rebellion is over. Absalom is dead. The kingdom is David&apos;s again. Yet in the moment of victory, the king retreats into grief so profound that it threatens to undo everything his army has just won. The people steal home "as people being ashamed." The victory has become a funeral. A king&apos;s private sorrow has become a kingdom&apos;s crisis.',
     'What follows is one of Scripture&apos;s most honest moments: a commander speaking hard truth to a grieving king. Joab tells David plainly: your love for your enemies and hatred of your friends will destroy this kingdom. It is a rebuke that breaks protocol, spoken by a man with blood on his own hands. And David listens. He rises. He shows his face. And the work of restoration begins — not with triumph, but with complicated mercy: a curse forgiven, a wronged man&apos;s heart tested, an old man&apos;s wisdom heard, and the first cracks appearing in the foundation of his house.',

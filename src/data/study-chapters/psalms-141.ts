@@ -15,7 +15,7 @@ export const PSALMS_141: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 141,
 
-  estimatedMinutes: { 5: 1, 10: 4, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 4 },
   intros: [
     'Psalm 141 is a meditation on prayer—its beauty, its power, its acceptance before God. The image of prayer as incense connects the private, inner act of petition with the public, visible worship of the temple. When incense burned on the temple altar, the smoke rose visibly, carrying with it the prayers and desires of the people. To offer prayer "as incense" is to recognize that prayer is not merely internal. It rises. It is visible to God. It is accepted as a sweet offering. The psalm is David&apos;s song of prayer itself, even as he prays for protection from temptation and evil.',
   ],

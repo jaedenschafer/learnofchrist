@@ -13,7 +13,7 @@ export const REVELATION_18: RichChapterContent = {
   bookName: 'Revelation',
   chapter: 18,
 
-  estimatedMinutes: { 5: 9, 10: 13, 15: 17 },
+  estimatedMinutes: { beginner: 9, intermediate: 13, deep: 17 },
   intros: [
     'Revelation 18 is one of Scripture&apos;s most haunting passages: a sustained, ancient-sounding funeral dirge over Babylon, the world-system that seduced nations with her wealth and dressed herself in lies. An angel descends "having great power; and the earth was lightened with his glory" to announce, simply and twice: the great city is fallen, fallen.',
     'But the chapter is not only judgment. It is also an escape route: "Come out of her, my people." Three distinct groups then mourn her — merchants lamenting their lost profit, shipmasters weeping over dead commerce, and the buyers of her goods. Heaven, in stark contrast, rejoices: what earth grieves over, heaven celebrates as justice long deferred, finally here. The fingerprints of Christ run through every verse: His call to separation, His redemption of souls, His vindication of martyrs, His promise that all human systems built on blood will one day be unmade.',

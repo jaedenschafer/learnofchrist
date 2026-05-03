@@ -13,7 +13,7 @@ export const JEREMIAH_27: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 27,
 
-  estimatedMinutes: { 5: 5, 10: 7, 15: 9 },
+  estimatedMinutes: { beginner: 5, intermediate: 7, deep: 9 },
   intros: [
     'Jeremiah fashions yokes out of wood and sends them to the kings of Edom, Moab, Ammon, Tyre, and Sidon with a message: "Thus saith the Lord to me; Make thee bonds and yokes, and put them upon thy neck, and send them to the king of Edom, and to the king of Moab, and to the king of the Ammonites, and to the king of Tyre, and to the king of Sidon, by the hand of the messengers which come to Jerusalem unto Zedekiah." Serve Babylon, or be destroyed.',
     'The yoke is humiliating, yet it is the path to life. The false prophets promise that no yoke will come, that Jerusalem will not be taken captive, that the king of Babylon will not conquer them. But Jeremiah insists: the yoke is God&apos;s will, and those who resist will perish. The wisdom of God looks like folly to those who want to hear comfortable lies.',

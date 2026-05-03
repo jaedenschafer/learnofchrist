@@ -18,7 +18,7 @@ export const LUKE_5: RichChapterContent = {
   bookName: 'Luke',
   chapter: 5,
 
-  estimatedMinutes: { 5: 1, 10: 4, 15: 5 },
+  estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
   intros: [
     'Jesus stands by the Lake of Gennesaret, surrounded by multitudes pressing upon Him. He sees two boats. The fishermen have left them to wash their nets. Jesus enters Simon&apos;s boat and asks him to launch out into the deep. Jesus sits and teaches the multitude from the boat. When He finishes, He turns to Simon: "Let down your nets for a draught." Simon hesitates. They have fished all night and caught nothing. But at Jesus&apos; word, he obeys. The nets are filled with so many fish they begin to break.',
     'Simon&apos;s partners, James and John, come to help. All are amazed. Simon falls at Jesus&apos; feet: "Depart from me; for I am a sinful man, O Lord." But Jesus says to him: "Fear not; from henceforth thou shalt catch men." He calls them to become fishers of men. They forsake all and follow Jesus.',

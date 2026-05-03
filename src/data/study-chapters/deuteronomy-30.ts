@@ -13,7 +13,7 @@ export const DEUTERONOMY_30: RichChapterContent = {
   bookName: 'Deuteronomy',
   chapter: 30,
 
-  estimatedMinutes: { 5: 7, 10: 11, 15: 15 },
+  estimatedMinutes: { beginner: 7, intermediate: 11, deep: 15 },
   intros: [
     'Deuteronomy 30 stands at the hinge of all of Scripture. For forty years, Israel has wandered in the wilderness. Moses has rehearsed the law — the blessings if Israel obeys, the curses if Israel turns away. Now, at the end of his farewell, he speaks a promise that echoes through the rest of the Bible: even after exile and judgment, God will gather His scattered people. He will circumcise their hearts. He will bring them home.',
     'The chapter opens with Israel still in exile, still facing the curses of broken covenant. But the God who gives the law also promises to restore the heart that receives it. This is the gospel in the Book of the Law. And when the apostle Paul wants to teach the churches what faith is, what the gospel actually does — he quotes directly from Deuteronomy 30:12–14 and identifies the "word" with Christ Himself.',

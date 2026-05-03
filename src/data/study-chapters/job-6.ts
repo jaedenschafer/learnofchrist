@@ -19,7 +19,7 @@ export const JOB_6: RichChapterContent = {
   bookName: 'Job',
   chapter: 6,
 
-  estimatedMinutes: { 5: 4, 10: 10, 15: 13 },
+  estimatedMinutes: { beginner: 4, intermediate: 10, deep: 13 },
   intros: [
     'Job now responds to Eliphaz. He does not answer the logic directly. Instead, he begins with a plea for understanding: if his grief could be weighed, if his calamity could be placed on scales against sand, it would be heavier. His pain is not a matter of logic or observation. It is overwhelming, incomparable, without parallel. No one can truly understand it unless they have experienced it.',
     'Job then describes his experience: "The arrows of the Almighty are within me, the poison thereof drinketh up my spirit." The imagery is one of violent attack. God, in Job\'s experience, is not a distant judge but an archer who has shot him full of arrows. The poison from these arrows is drinking up his spirit. He is wounded, not just physically but existentially.',

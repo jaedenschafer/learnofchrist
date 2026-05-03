@@ -16,7 +16,7 @@ export const PSALMS_142: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 142,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'Psalm 142 is titled "Maschil of David; A Prayer when he was in the cave." David once fled into caves to escape Saul&apos;s persecution—he hid in the cave of Adullam, in caves in the wilderness of Judea. This psalm is offered from that place of confinement. The psalmist is trapped, his spirit failing, his enemies near. He cries out to God from the darkness. And the prayer is one of desperate hope: "Bring my soul out of prison, that I may praise thy name." Even in the cave, even in despair, the psalmist trusts that deliverance will come.',
   ],

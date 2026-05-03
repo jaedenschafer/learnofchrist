@@ -14,7 +14,7 @@ export const EZEKIEL_3: RichChapterContent = {
   bookName: 'Ezekiel',
   chapter: 3,
 
-  estimatedMinutes: { 5: 2, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 4 },
   intros: [
     'Ezekiel is commanded to eat the scroll, and he obeys. What he has been given to carry becomes part of him. Surprisingly, though the scroll is written with words of judgment and sorrow, it tastes sweet in his mouth. The sweetness is not the sweetness of easy truth, but the sweetness of wholeness, of being fully known and fully commissioned by God. Then the weight of responsibility settles upon him. He is appointed as a watchman. A watchman stands on the wall and sees enemies approaching. His duty is to sound the alarm. If he fails in this duty, the blood of those he fails to warn falls on him. Ezekiel is given a terrible calling, but also a clear one.',
   ],

@@ -15,7 +15,7 @@ export const PSALMS_19: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 19,
 
-  estimatedMinutes: { 5: 1, 10: 5, 15: 6 },
+  estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
   intros: [
     'Psalm 19 is divided into two movements. The first describes natural revelation—how the heavens declare God&apos;s glory without uttering a word. The second movement shifts to revealed law, to God&apos;s word, which speaks directly and perfectly to the human soul. From the silent witness of creation to the vocal clarity of Scripture, David moves upward in the hierarchy of revelation. Yet both testify to the same God: the Creator of the heavens and the Giver of the law.',
     'This psalm stands at the intersection of all Christian theology. In Romans 1:20, Paul quotes its opening: the heavens proclaim God&apos;s invisible attributes so clearly that those who refuse to acknowledge them are without excuse. In John 1, the Word that was with God and was God is revealed in flesh. This psalm opens the door to both.',

@@ -15,7 +15,7 @@ export const REVELATION_9: RichChapterContent = {
   bookName: 'Revelation',
   chapter: 9,
 
-  estimatedMinutes: { 5: 6, 10: 12, 15: 15 },
+  estimatedMinutes: { beginner: 6, intermediate: 12, deep: 15 },
   intros: [
     'Chapter 9 marks a deepening of judgment. The first four trumpets brought destruction to creation itself—earth, sea, stars, light. But now the torment turns directly on those who are not sealed with God. A star falls from heaven carrying the key to the abyss. What emerges from that darkness is beyond nightmare: locusts with human faces and scorpion tails, commanded by a king whose name means Destroyer.',
     'Yet destruction alone is not the point. Even as judgment escalates, even as riders bring death across a third of the earth, those who witness it refuse to turn. They will not repent of idolatry, murder, sorcery, or theft. Judgment and grace collide. God&apos;s patience has a limit. The door is still open to those who will turn, but the window is closing.',

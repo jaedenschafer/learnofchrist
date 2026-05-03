@@ -18,7 +18,7 @@ export const JOB_10: RichChapterContent = {
   bookName: 'Job',
   chapter: 10,
 
-  estimatedMinutes: { 5: 2, 10: 6, 15: 9 },
+  estimatedMinutes: { beginner: 2, intermediate: 6, deep: 9 },
   intros: [
     'Job turns away from his friends. He will speak to God directly, speaking "in the bitterness of my soul." This is not the reverent prayer of a man seeking to appease God. This is the raw cry of one who is wounded, who feels that he has been betrayed by his Creator. And Job&apos;s first move is not to accuse God of injustice, but to remind God of something God seems to have forgotten: Job is His creation. God made him. God shaped him.',
     'Job recalls the moment of his formation. "Thou hast clothed me with skin and flesh, and hast fenced me with bones and sinews. Thou hast granted me life and favour." This is a memory of tenderness, of divine care. God did not create Job carelessly. God made him with intention, with intimacy. And yet now that same Creator seems bent on Job&apos;s destruction. The bitterness that Job feels is not the bitterness of one who never believed in God&apos;s goodness. It is the bitterness of one who felt that goodness and now finds it withdrawn, seemingly for no reason.',

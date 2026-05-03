@@ -19,7 +19,7 @@ export const GALATIANS_4: RichChapterContent = {
   bookName: 'Galatians',
   chapter: 4,
 
-  estimatedMinutes: { 5: 7, 10: 13, 15: 19 },
+  estimatedMinutes: { beginner: 7, intermediate: 13, deep: 19 },
   intros: [
     'Galatians 4 opens with a metaphor that Paul&apos;s listeners would recognize instantly. A child born to wealth is no different from a servant while still young. Both eat from the same table, wear the same clothes, answer to the same managers. But when maturity comes — when the appointed time arrives — the heir steps into freedom and inheritance. Everything changes. Paul is saying: believers are heirs. And the time of maturity has come. You are no longer slaves.',
     'The second half of the chapter turns to the Hagar-Sarah story from Genesis. Two women, two sons, two covenants. Hagar represents the old covenant, born of human effort and the flesh, that produces bondage. Sarah represents the new covenant, born of promise and grace, that produces freedom. Believers are Abraham&apos;s seed, children of Sarah&apos;s line — not through works, but through faith in Christ. You belong to the promise, not to the law. You are the children of the free woman.',

@@ -13,7 +13,7 @@ export const EXODUS_35: RichChapterContent = {
   bookName: 'Exodus',
   chapter: 35,
 
-  estimatedMinutes: { 5: 8, 10: 11, 15: 14 },
+  estimatedMinutes: { beginner: 8, intermediate: 11, deep: 14 },
   intros: [
     'Exodus 35 opens in the aftermath of the golden calf. Israel has sinned, Moses has interceded, God has promised His presence will go with them, and the people have been forgiven. Now comes this chapter: the Sabbath law is restated, and then Moses calls for offerings to build the tabernacle — not by commandment, but by invitation. The word nadiv-lev (willing-hearted) becomes the chapter&apos;s heartbeat. People who have just encountered grace give freely.',
     'The chapter marks a hinge in the exodus story. The wilderness is still ahead. But for now, Israel is gathering materials to build a house where God will dwell among them. The work of building belongs to Bezalel and Aholiab, filled with the Spirit. The work of giving belongs to every nadiv-lev — every willing heart — who hears Moses&apos; call. This is what forgiveness does: it opens hands.',

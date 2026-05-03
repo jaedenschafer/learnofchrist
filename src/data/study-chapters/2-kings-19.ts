@@ -17,7 +17,7 @@ export const KINGS_2_19: RichChapterContent = {
   bookName: '2 Kings',
   chapter: 19,
 
-  estimatedMinutes: { 5: 7, 10: 13, 15: 16 },
+  estimatedMinutes: { beginner: 7, intermediate: 13, deep: 16 },
   intros: [
     'The kingdom of Judah stands on the edge of annihilation. The Assyrian army, under King Sennacherib, has already conquered the northern kingdom of Israel. Its cities are ruins. Its people are scattered or enslaved. Now the Assyrians turn their attention to Jerusalem, the capital of Judah, and the city walls are surrounded. The Assyrian commander, Rabshakeh, stands outside the gates and hurls insults — not just at the king and people, but at their God. "Let not thy God in whom thou trustest deceive thee," the message reads. The gods of every other nation have fallen before Assyrian might. Why should Jerusalem&apos;s God be any different?',
     'King Hezekiah hears this message. It would be easy to despair. It would be easy to negotiate, to offer tribute, to save the city by surrendering to Assyrian power. Instead, Hezekiah does something that will change the course of history: he takes the letter, spreads it before the Lord in the temple, and prays. In that prayer, spoken in the presence of the living God, Hezekiah makes a claim that stands against everything the Assyrians believe: that the Lord alone is God, that the gods of wood and stone are no gods at all, and that the name and reputation of the living God depends not on Assyrian military might, but on His own character.',

@@ -17,7 +17,7 @@ export const EZRA_8: RichChapterContent = {
   bookName: 'Ezra',
   chapter: 8,
 
-  estimatedMinutes: { 5: 6, 10: 12, 15: 17 },
+  estimatedMinutes: { beginner: 6, intermediate: 12, deep: 17 },
   intros: [
     'The book of Ezra records a journey of restoration. The temple has been rebuilt under Zerubbabel, and now a second group of exiles returns, led by Ezra the scribe. But the story of Ezra 8 is not merely about logistics. It is about faith tested at the threshold of the wilderness. Ezra must choose between the king&apos;s soldiers and God&apos;s protection. He chooses God. And in that choice, the people learn what it means to be brought back not by force of arms, but by the hand of the Almighty.',
     'This chapter gives us genealogies of the families who return, a crisis averted through divine provision, and a fast—a moment of corporate prayer and humility before God. But most of all, it shows us a leader&apos;s integrity: Ezra has told the king that God&apos;s hand is upon those who seek Him. He cannot now ask for the king&apos;s soldiers without making his faith look hollow. So he fasts, he prays, and God delivers.',

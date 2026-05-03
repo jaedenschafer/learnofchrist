@@ -18,7 +18,7 @@ export const SECOND_ESDRAS_13: RichChapterContent = {
   bookName: '2 Esdras',
   chapter: 13,
 
-  estimatedMinutes: { 5: 7, 10: 13, 15: 16 },
+  estimatedMinutes: { beginner: 7, intermediate: 13, deep: 16 },
   intros: [
     'In the vision of chapter 13, Ezra sees what may be the most explicitly messianic figure in all the apocrypha. A man rises from the sea—not the product of any earthly power, but emerging from the chaos-waters themselves, made by God&apos;s own hand. He flies with the clouds of heaven. Multitudes gather to make war against him, yet they are utterly destroyed by fire from his mouth. Then he gathers a peaceable multitude—the lost tribes of Israel, returning from their long exile. And the angel tells Ezra the meaning: this is the one whom the Most High has been keeping for many ages, who shall judge the nations and deliver all creation.',
     'Christians have read this vision as a prophecy of Christ, the final judge and redeemer. Like Daniel&apos;s Son of Man, this figure bears the marks of the Messiah—emerging from God&apos;s hidden purpose, riding the clouds, bringing both judgment and mercy. The vision answers the great question that haunts 2 Esdras: if the world is broken, if evil triumphs, if God&apos;s people suffer—where is justice? Where is hope? The answer: the one whom God has been keeping, the hidden Messiah, will make all things new.',

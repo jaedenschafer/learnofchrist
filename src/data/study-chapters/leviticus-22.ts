@@ -10,7 +10,7 @@ export const LEVITICUS_22: RichChapterContent = {
   bookName: 'Leviticus',
   chapter: 22,
 
-  estimatedMinutes: { 5: 7, 10: 11, 15: 13 },
+  estimatedMinutes: { beginner: 7, intermediate: 11, deep: 13 },
   intros: [
     'Leviticus 22 is about boundaries and perfection. Who is clean enough to eat the holy food? What kind of animal can be offered to God? The chapter answers these questions with meticulous care — not because God is a micromanager, but because holiness is real, and approaching it carelessly costs a life.',
     'The word *tamim* runs through the chapter like a thread — "without blemish," "whole," "perfect." Every sacrifice must be *tamim*. No broken bones, no running sores, no flaws. This perfectionism isn&apos;t neurotic; it&apos;s a standing advertisement for the One who would come without flaw. Peter calls Jesus "a lamb without blemish and without spot" — using the very language Leviticus uses for sacrifices. The Old Testament temple worship points forward to the One who would be perfectly fit to die for the world.',

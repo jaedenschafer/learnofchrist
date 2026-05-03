@@ -23,7 +23,7 @@ export const SAMUEL_1_13: RichChapterContent = {
   bookName: '1 Samuel',
   chapter: 13,
 
-  estimatedMinutes: { 5: 8, 10: 15, 15: 19 },
+  estimatedMinutes: { beginner: 8, intermediate: 15, deep: 19 },
   intros: [
     'Saul has been king for just two years. He has assembled 3,000 fighting men and sent his son Jonathan to strike at the Philistine garrison in Geba. The blow lands. The Philistines hear. And within moments, Israel faces not a single outpost but the full weight of the Philistine empire: 30,000 chariots, 6,000 horsemen, and foot soldiers like "the sand on the sea shore." The tribes of Israel, overwhelmed by the vastness of what is coming, scatter into caves and thickets and high places. They are gripped by fear. And so is Saul.',
     'Samuel has told Saul to wait seven days for the offering that will consecrate the battle. But the people are fleeing. The enemy is massing. The moment is slipping away. And Saul, faced with the choice between obedience to God&apos;s command and the demands of the moment, chooses the moment. He takes the altar into his own hands. "I forced myself therefore, and offered a burnt offering." In that single act—taking the priestly office that belongs to Samuel alone—Saul reveals his deepest flaw: he will obey God only insofar as God&apos;s command aligns with what Saul thinks best. When the two clash, Saul chooses himself. And in that choice, he loses the kingdom.',

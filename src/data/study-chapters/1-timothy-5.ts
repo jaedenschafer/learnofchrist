@@ -17,7 +17,7 @@ export const FIRST_TIMOTHY_5: RichChapterContent = {
   bookName: '1 Timothy',
   chapter: 5,
 
-  estimatedMinutes: { 5: 9, 10: 17, 15: 25 },
+  estimatedMinutes: { beginner: 9, intermediate: 17, deep: 25 },
   intros: [
     'In the ancient world, widows had few protections. No welfare systems, no pension. They depended on family or charity. The early church made care of widows a defining practice—an outward sign of inward gospel transformation. Yet Paul brings practical wisdom. Not every request for aid is legitimate. The church must be shrewd about its generosity, making sure resources reach those truly in need. This is not hardness. It is faithfulness.',
     'Paul also elevates the role of elders—those who govern the church and teach. They are worthy of honor and support. Yet standards matter. Not every elder deserves the same wage. Those who labor in preaching and doctrine deserve double honor. This chapter is about the ordering of a community that values what God values: the care of the vulnerable, the honor of faithful leadership, and the integrity of reputation.',

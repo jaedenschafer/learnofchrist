@@ -14,7 +14,7 @@ export const ACTS_8: RichChapterContent = {
   bookName: 'Acts',
   chapter: 8,
 
-  estimatedMinutes: { 5: 10, 10: 15, 15: 21 },
+  estimatedMinutes: { beginner: 10, intermediate: 15, deep: 21 },
   intros: [
     'Acts 8 is where the gospel begins to move. With Stephen&apos;s death, a storm of persecution hits Jerusalem. The church scatters. But scattering is not defeat—it is sowing. Disciples who run are disciples who tell. In just a few verses, Philip stands in Samaria, preaching Christ to a people the Jews despised. Miracles follow. Simon the sorcerer watches, astonished. Peter and John travel north to lay hands on new believers. And then the Spirit sends Philip on a dusty road to meet an Ethiopian eunuch reading Isaiah 53, sitting alone in a chariot. The gospel is no longer Jerusalem&apos;s secret. It belongs to the Samaritan, the sorcerer, the outcast, the foreigner. Acts 1:8 is beginning to come true: &ldquo;Ye shall be witnesses unto me both in Jerusalem, and in all Judaea, and in Samaria, and unto the uttermost part of the earth.&rdquo;',
     'Watch how barriers crumble in this chapter. A city despised by Jews welcomes the gospel. A man who trafficked in false power watches true power work and is changed. An eunuch—barred by law from the temple—reads Scripture, understands Jesus, is baptized, and goes away rejoicing. This is what the Spirit does when He is free to move. He makes room for everyone.',

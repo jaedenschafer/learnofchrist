@@ -17,7 +17,7 @@ export const JEREMIAH_11: RichChapterContent = {
   bookName: 'Jeremiah',
   chapter: 11,
 
-  estimatedMinutes: { 5: 2, 10: 3, 15: 5 },
+  estimatedMinutes: { beginner: 2, intermediate: 3, deep: 5 },
   intros: [
     'Jeremiah 11 returns to the fundamental structure of Israel&apos;s relationship with God: the covenant. God had made a covenant with Israel at Sinai, declaring, "If ye will obey my voice indeed, and keep my covenant, then ye shall be a peculiar treasure unto me above all people." This covenant bound the people to God and God to the people. It was the foundation of everything.',
     'Yet the people have broken this covenant. They have not kept it. They have turned to other gods, the gods of the surrounding nations. And because they have broken the covenant, they are under its curse. "Cursed be the man that obeyeth not the words of this covenant." The breaking of the covenant brings judgment. Yet within this judgment stands a mysterious grace: Christ would come to bear the curse that covenant-breakers deserve, opening the way to a new and eternal covenant.',

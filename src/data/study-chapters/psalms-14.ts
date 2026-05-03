@@ -14,7 +14,7 @@ export const PSALMS_14: RichChapterContent = {
   bookName: 'Psalms',
   chapter: 14,
 
-  estimatedMinutes: { 5: 1, 10: 3, 15: 4 },
+  estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
     'Psalm 14 opens with a definition of folly: "The fool hath said in his heart, There is no God." This is not intellectual argument. This is settled conviction. The fool, in his heart—in the core of his being—has concluded that God does not exist. This conclusion is not the end of a reasoned journey. It is an assertion, a choice, a hardening of heart. And from this one assertion flow all the corruptions that follow.',
     'The psalm then paints a portrait of a world without God. Such a world is one of corruption, of men who have gone aside, of none who does good. Yet the psalm does not end in despair. God looks down. God sees. God will judge. The foundation of folly cannot stand against the God who sees all things.',
