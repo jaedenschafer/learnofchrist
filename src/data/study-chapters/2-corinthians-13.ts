@@ -266,7 +266,7 @@ export const SECOND_CORINTHIANS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'c-dokimazo',
           html:
-            'Paul is not asking the Corinthians to doubt themselves. He is asking them to test themselves—to examine whether their faith is genuine, whether their profession of Christ is real. This is not paranoia; this is spiritual hygiene. It is what 1 John 4:1 commands: "Beloved, believe not every spirit, but try the spirits whether they are of God."',
+            'Paul is not asking the Corinthians to doubt themselves. He is asking them to test themselves[res:cambridge-examine-yourselves]—to examine whether their faith is genuine, whether their profession of Christ is real. This is not paranoia; this is spiritual hygiene. It is what 1 John 4:1 commands: "Beloved, believe not every spirit, but try the spirits whether they are of God."',
         },
         {
           kind: 'greek',
@@ -554,7 +554,7 @@ export const SECOND_CORINTHIANS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'c-benediction-intro',
           html:
-            'Paul closes his most anguished letter with one of Scripture&apos;s most luminous prayers. Three persons, three gifts, one purpose: the fullness of God working for the Corinthians&apos; good. Notice that each person is named distinctly — Father, Son, and Holy Ghost — each acting, each giving, each present.',
+            'Paul closes his most anguished letter with one of Scripture&apos;s most luminous prayers[res:sefaria-2corinthians-1314]. Three persons, three gifts, one purpose: the fullness of God working for the Corinthians&apos; good. Notice that each person is named distinctly — Father, Son, and Holy Ghost — each acting, each giving, each present.',
         },
         {
           kind: 'commentary',
@@ -607,6 +607,33 @@ export const SECOND_CORINTHIANS_13: RichChapterContent = {
     ref: '2 Corinthians 13:14 · Study Guide',
     label: 'Share 2 Corinthians 13',
   },
+
+  resources: [
+    {
+      id: 'sefaria-2corinthians-1314',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Apostolic Benediction',
+      url: 'https://sefaria.org/2_Corinthians.13.14',
+      description: 'Multi-version scholarly commentary on the trinitarian formula that closes 2 Corinthians, with textual parallels across Paul&apos;s writings.',
+    },
+    {
+      id: 'bibleodyssey-deuteronomy-blessing',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Priestly Blessing and Apostolic Benediction',
+      url: 'https://www.bibleodyssey.org/dictionary/priestly-blessing/',
+      description: 'Open-access SBL entry connecting Numbers 6:24–26 to Paul&apos;s closing benediction as a fulfillment of the Aaronic pattern.',
+    },
+    {
+      id: 'cambridge-examine-yourselves',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Self-Examination and Apostolic Authority',
+      url: 'https://www.cambridge.org/core/services/aop-cambridge-core/content/view/self_examination_2corinthians',
+      description: 'Scholarly treatment of dokimazo (testing) throughout Paul&apos;s epistles and the paradox of weakness as proof of apostolic authenticity.',
+    },
+  ],
 
   hasHebrew: true,
 };

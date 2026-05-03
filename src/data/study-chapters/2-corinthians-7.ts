@@ -185,7 +185,7 @@ export const SECOND_CORINTHIANS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'cor7-comfort',
           html:
-            'And then, into that exhaustion, comes relief—not from solving the problem, but from the presence of a friend. Titus arrives with news: the Corinthians have repented. The church is well. Paul&apos;s tears have not been wasted. And Paul, who has spent this letter speaking about comfort, discovers he needs it just as much.',
+            'And then, into that exhaustion, comes relief—not from solving the problem, but from the presence of a friend[res:intertextual-comfort-titus]. Titus arrives with news: the Corinthians have repented. The church is well. Paul&apos;s tears have not been wasted. And Paul, who has spent this letter speaking about comfort, discovers he needs it just as much.',
         },
         {
           kind: 'christ',
@@ -241,7 +241,7 @@ export const SECOND_CORINTHIANS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'cor7-metanoia',
           html:
-            'Paul does not rejoice that the Corinthians suffered. He rejoices that they <em>repented</em>. The distinction is crucial. Suffering for its own sake proves nothing. But suffering that leads a person away from sin and toward God—that is suffering with a purpose.',
+            'Paul does not rejoice that the Corinthians suffered. He rejoices that they <em>repented</em>[res:bibleodyssey-repentance]. The distinction is crucial. Suffering for its own sake proves nothing. But suffering that leads a person away from sin and toward God—that is suffering with a purpose.',
         },
         {
           kind: 'greek',
@@ -296,7 +296,7 @@ export const SECOND_CORINTHIANS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'cor7-lype-kata-theon',
           html:
-            'Godly sorrow is sorrow that has God in view. You grieve the wrong not because it makes you look bad, not because it embarrasses you, but because it separates you from God and damages others. That sorrow produces <em>metanoia</em>—a turning that issues in life.',
+            'Godly sorrow is sorrow that has God in view[res:sefaria-2-corinthians-7]. You grieve the wrong not because it makes you look bad, not because it embarrasses you, but because it separates you from God and damages others. That sorrow produces <em>metanoia</em>—a turning that issues in life.',
         },
         {
           kind: 'greek',
@@ -501,6 +501,33 @@ export const SECOND_CORINTHIANS_7: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Corinthians 7 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-repentance',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Repentance',
+      url: 'https://www.bibleodyssey.org/dictionary/repentance/',
+      description: 'SBL entry defining metanoia as a turning around of mind and will that changes direction and behavior.',
+    },
+    {
+      id: 'sefaria-2-corinthians-7',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Corinthians 7 — Full Text & Connections',
+      url: 'https://www.sefaria.org/2-Corinthians.7',
+      description: 'Open-access text with intertextual links to related Old Testament passages on grief, repentance, and consolation.',
+    },
+    {
+      id: 'intertextual-comfort-titus',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Titus as Comforter: 2 Corinthians 7:6–7',
+      url: 'https://intertextual.bible/text/2-corinthians-7.6/2-corinthians-7.7',
+      description: 'Examination of how Paul&apos;s comfort comes through another person and what this reveals about God&apos;s method of care.',
+    },
+  ],
 
   hasHebrew: false,
 };

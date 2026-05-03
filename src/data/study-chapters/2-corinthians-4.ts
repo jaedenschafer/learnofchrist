@@ -180,7 +180,7 @@ export const SECOND_CORINTHIANS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'c-light-darkness',
           html:
-            'Paul reaches back to Genesis 1:3—&ldquo;let there be light.&rdquo; The first creative word God spoke into a dark, formless chaos was the word of light. Now, in the gospel, the same voice speaks the same word. The light that blazed in the beginning is the same light that now shines in human hearts. Paul is saying: the resurrection and the gospel are as radical as creation itself.',
+            'Paul reaches back to Genesis 1:3—&ldquo;let there be light.&rdquo;[res:intertextual-genesis-creation-light] The first creative word God spoke into a dark, formless chaos was the word of light. Now, in the gospel, the same voice speaks the same word. The light that blazed in the beginning is the same light that now shines in human hearts. Paul is saying: the resurrection and the gospel are as radical as creation itself.',
         },
         {
           kind: 'greek',
@@ -271,7 +271,7 @@ export const SECOND_CORINTHIANS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'c-power-of-god',
           html:
-            'The paradox is the point. If God chose to give the gospel to perfect, invincible people, the world might credit the messenger. &ldquo;Look what a strong person can accomplish!&rdquo; But He chose the weak. He chose the sick. He chose vessels so fragile they crack. Why? So that when the gospel transforms a life, heals the broken, raises the spiritually dead—everyone knows it is not the power of the vessel. It is the power of what the vessel carries.',
+            'The paradox is the point. If God chose to give the gospel to perfect, invincible people, the world might credit the messenger. &ldquo;Look what a strong person can accomplish!&rdquo; But He chose the weak. He chose the sick. He chose vessels so fragile they crack[res:penn-museum-clay-vessels]. Why? So that when the gospel transforms a life, heals the broken, raises the spiritually dead—everyone knows it is not the power of the vessel. It is the power of what the vessel carries.',
         },
         {
           kind: 'greek',
@@ -488,7 +488,7 @@ export const SECOND_CORINTHIANS_4: RichChapterContent = {
           script: 'ἀνακαινόω',
           translit: '<strong>anakainoō</strong> · to renew; to make new again; to restore',
           description:
-            'The word suggests not just a patch-up but a radical making-new. Each day. Not once, at conversion. But every day, the inward person is renewed. The Greek suggests the action is continuous, habitual. Every morning brings a new grace.',
+            'The word suggests not just a patch-up but a radical making-new. Each day. Not once, at conversion. But every day, the inward person is renewed[res:bibleodyssey-resurrection-body]. The Greek suggests the action is continuous, habitual. Every morning brings a new grace.',
         },
         {
           kind: 'greek',
@@ -536,4 +536,31 @@ export const SECOND_CORINTHIANS_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Corinthians 4 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'penn-museum-clay-vessels',
+      kind: 'museum',
+      source: 'Penn Museum',
+      label: 'Ancient Pottery and Clay Vessels',
+      url: 'https://www.penn.museum/collections/',
+      description: 'Collection documentation of earthenware vessels from the ancient Near East, illuminating the everyday materials Paul uses for his metaphor of fragile containers.',
+    },
+    {
+      id: 'intertextual-genesis-creation-light',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Genesis 1:3 ↔ 2 Corinthians 4:6 (Light Creation)',
+      url: 'https://intertextual.bible/text/genesis-1.3/2-corinthians-4.6/',
+      description: 'Cross-reference showing Paul&apos;s connection between the first creative word of light and the gospel&apos;s illumination in hearts.',
+    },
+    {
+      id: 'bibleodyssey-resurrection-body',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Resurrection of the Body in Paul',
+      url: 'https://www.bibleodyssey.org/dictionary/resurrection/',
+      description: 'Scholarly entry on Pauline resurrection theology and the daily renewal of the inward person through resurrection power.',
+    },
+  ],
 };

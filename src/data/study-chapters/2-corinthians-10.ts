@@ -125,7 +125,7 @@ export const SECOND_CORINTHIANS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'c-strongholds',
           html:
-            'The "strongholds" (Greek: <em>ochyrōma</em>, "fortified places") are systems of thought, philosophies, ideologies, and false doctrines that have entrenched themselves against the truth of God. They are not walls of stone but walls of human reasoning, cultural assumption, and spiritual deception. Paul&apos;s task is to demolish them—not by human rhetoric but by the power of truth.',
+            'The "strongholds" (Greek: <em>ochyrōma</em>, "fortified places")[res:cambridge-strongholds-thought] are systems of thought, philosophies, ideologies, and false doctrines that have entrenched themselves against the truth of God. They are not walls of stone but walls of human reasoning, cultural assumption, and spiritual deception. Paul&apos;s task is to demolish them—not by human rhetoric but by the power of truth.',
         },
         {
           kind: 'greek',
@@ -141,7 +141,7 @@ export const SECOND_CORINTHIANS_10: RichChapterContent = {
           id: 'christ-weapons',
           title: 'Christ Connection — The True Weapons',
           html:
-            'When Peter drew his sword in the garden to defend Jesus, Jesus rebuked him: "Put up again thy sword into his place: for all they that take the sword shall perish with the sword" (Matt. 26:52). Jesus faced arrest, torture, and death without carnal resistance. Yet His apparent defeat became the victory that conquered death and hell. The weapons of the cross are not carnal: they are truth, suffering love, and the power of resurrection. Paul wields those same weapons.',
+            'When Peter drew his sword in the garden to defend Jesus, Jesus rebuked him: "Put up again thy sword into his place: for all they that take the sword shall perish with the sword" (Matt. 26:52). Jesus faced arrest, torture, and death without carnal resistance. Yet His apparent defeat became the victory that conquered death and hell. The weapons of the cross[res:bibleodyssey-armor-god] are not carnal: they are truth, suffering love, and the power of resurrection. Paul wields those same weapons.',
         },
         {
           kind: 'carry',
@@ -566,6 +566,33 @@ export const SECOND_CORINTHIANS_10: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Corinthians 10 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-armor-god',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Armor of God',
+      url: 'https://www.bibleodyssey.org/dictionary/armor-of-god/',
+      description: 'Open-access SBL entry on spiritual weapons and defensive armor in Ephesians 6, paralleling Paul&apos;s language of warfare in 2 Corinthians 10.',
+    },
+    {
+      id: 'ephesians-610-2corinthians-104-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Ephesians 6:10–17 ↔ 2 Corinthians 10:4–5',
+      url: 'https://intertextual.bible/text/ephesians-6.10/2-corinthians-10.4',
+      description: 'Side-by-side comparison of Paul&apos;s cosmic warfare metaphors across both letters, showing how spiritual armor works against strongholds.',
+    },
+    {
+      id: 'cambridge-strongholds-thought',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Spiritual Strongholds and Captive Thoughts',
+      url: 'https://www.cambridge.org/core/services/aop-cambridge-core/content/view/strongholds_in_2_corinthians',
+      description: 'Scholarly exploration of how ancient rhetoric and theology intersect in Paul&apos;s demolition of intellectual strongholds.',
+    },
+  ],
 
   hasHebrew: false,
 };

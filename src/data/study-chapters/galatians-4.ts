@@ -22,7 +22,7 @@ export const GALATIANS_4: RichChapterContent = {
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 19 },
   intros: [
     'Galatians 4 opens with a metaphor that Paul&apos;s listeners would recognize instantly. A child born to wealth is no different from a servant while still young. Both eat from the same table, wear the same clothes, answer to the same managers. But when maturity comes — when the appointed time arrives — the heir steps into freedom and inheritance. Everything changes. Paul is saying: believers are heirs. And the time of maturity has come. You are no longer slaves.',
-    'The second half of the chapter turns to the Hagar-Sarah story from Genesis. Two women, two sons, two covenants. Hagar represents the old covenant, born of human effort and the flesh, that produces bondage. Sarah represents the new covenant, born of promise and grace, that produces freedom. Believers are Abraham&apos;s seed, children of Sarah&apos;s line — not through works, but through faith in Christ. You belong to the promise, not to the law. You are the children of the free woman.',
+    'The second half of the chapter turns to the Hagar[res:sefaria-genesis-hagar-sarah]-Sarah story from Genesis. Two women, two sons, two covenants. Hagar represents the old covenant, born of human effort and the flesh, that produces bondage. Sarah represents the new covenant, born of promise and grace, that produces freedom. Believers are Abraham&apos;s seed, children of Sarah&apos;s line — not through works, but through faith in Christ. You belong to the promise, not to the law. You are the children of the free woman.',
   ],
 
   sections: [
@@ -119,13 +119,13 @@ export const GALATIANS_4: RichChapterContent = {
               t('To '),
               hg('redeem them that were under the law', 'c-redeem-law'),
               t(', that '),
-              hp('we might receive the adoption of sons', 'greek-huiothesia'),
+              hp('we might receive the adoption[res:bibleodyssey-adoption] of sons', 'greek-huiothesia'),
               t('.')
             ),
             verse(
               6,
               t('And because ye are sons, God hath sent forth '),
-              hp('the Spirit of his Son into your hearts, crying, Abba, Father', 'greek-abba'),
+              hp('the Spirit of his Son into your hearts, crying, Abba[res:perseus-abba-aramaic], Father', 'greek-abba'),
               t(':')
             ),
             verse(
@@ -549,6 +549,33 @@ export const GALATIANS_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Galatians 4 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-hagar-sarah',
+      kind: 'archive',
+      source: 'Sefaria',
+      label: 'Genesis 16 & 21—Hagar and Sarah Allegory Source',
+      url: 'https://www.sefaria.org/Genesis.16',
+      description: 'OT narratives of the bondmaid and the freewoman that Paul reads allegorically in Galatians 4:21–31 as types of the two covenants.',
+    },
+    {
+      id: 'bibleodyssey-adoption',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Huiothesia—Adoption into God&apos;s Family',
+      url: 'https://www.bibleodyssey.org/dictionary/adoption/',
+      description: 'SBL entry on the legal and theological meaning of adoption in the Greco-Roman world and its significance for Galatians 4:5.',
+    },
+    {
+      id: 'perseus-abba-aramaic',
+      kind: 'lexicon',
+      source: 'Perseus Scaife Digital Library',
+      label: 'Abba—Aramaic Intimate Address to God',
+      url: 'https://scaife.perseus.org/',
+      description: 'Lexical and cultural analysis of the Aramaic term abba and its revolutionary intimacy in Jewish prayer; echoes Jesus in Gethsemane (Mark 14:36).',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -61,7 +61,7 @@ export const SECOND_CORINTHIANS_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-heart-flesh',
-          html: 'The &ldquo;fleshy tables of the heart&rdquo; is not a crude phrase. It is exquisitely precise. Your heart—your actual, physical, material, embodied self—becomes the writing surface. You are not a spirit walking around in a body; you are embodied soul, and your whole person is claimed and transformed by the Spirit.',
+          html: 'The &ldquo;fleshy tables of the heart&rdquo; is not a crude phrase. It is exquisitely precise. Your heart—your actual, physical, material, embodied self—becomes the writing surface[res:intertextual-exodus-spirit]. You are not a spirit walking around in a body; you are embodied soul, and your whole person is claimed and transformed by the Spirit.',
         },
         {
           kind: 'carry',
@@ -161,7 +161,7 @@ export const SECOND_CORINTHIANS_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-moses-face',
-          html: 'The people could not look at Moses&apos; face because it shone with the reflected glory of God. He had been in God&apos;s presence. The light was so bright it terrified them. So he wore a veil. This is the picture of the old covenant: you cannot look directly at God. The law stands between you and Him.',
+          html: 'The people could not look at Moses&apos; face because it shone with the reflected glory of God[res:sefaria-exodus-34-sinai]. He had been in God&apos;s presence. The light was so bright it terrified them. So he wore a veil. This is the picture of the old covenant: you cannot look directly at God. The law stands between you and Him.',
         },
         {
           kind: 'commentary',
@@ -330,7 +330,7 @@ export const SECOND_CORINTHIANS_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-from-glory-glory',
-          html: 'This transformation is not a one-time event that happened when you became a Christian. It is a continuous progression: <em>from glory to glory.</em> You enter the process bearing a measure of Christ&apos;s image. But as you keep your gaze on Him, that image deepens. You grow in His likeness. Your character becomes more like His. Your responses, your patience, your compassion—all are being remade.',
+          html: 'This transformation is not a one-time event that happened when you became a Christian. It is a continuous progression: <em>from glory to glory.</em>[res:bibleodyssey-metamorphosis-glory] You enter the process bearing a measure of Christ&apos;s image. But as you keep your gaze on Him, that image deepens. You grow in His likeness. Your character becomes more like His. Your responses, your patience, your compassion—all are being remade.',
         },
         {
           kind: 'commentary',
@@ -366,6 +366,33 @@ export const SECOND_CORINTHIANS_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Corinthians 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-exodus-34-sinai',
+      kind: 'archive',
+      source: 'Sefaria',
+      label: 'Exodus 34: Moses and the Tablets of Stone',
+      url: 'https://www.sefaria.org/Exodus.34?lang=bi',
+      description: 'Hebrew + English of Moses receiving the stone tablets and the veiling of his face—the old covenant&apos;s glory that Paul contrasts with the Spirit&apos;s glory.',
+    },
+    {
+      id: 'bibleodyssey-metamorphosis-glory',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Transformation and Glory in Paul',
+      url: 'https://www.bibleodyssey.org/dictionary/glorify/',
+      description: 'Scholarly entry on metamorphosis and the continuous transformation from glory to glory in Pauline theology.',
+    },
+    {
+      id: 'intertextual-exodus-spirit',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Spirit Writing on Hearts (Exodus 34 ↔ 2 Corinthians 3)',
+      url: 'https://intertextual.bible/text/exodus-34/2-corinthians-3.3/',
+      description: 'Side-by-side comparison of stone tablets versus hearts—the shift from letter to Spirit.',
+    },
+  ],
 
   hasHebrew: false,
 };

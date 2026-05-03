@@ -200,7 +200,7 @@ export const SECOND_CORINTHIANS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'c11-allos-jesus',
           html:
-            'Not a different person, but a different version. A Jesus who is less demanding, more accommodating, more interested in your happiness than your holiness. A Jesus who affirms your choices rather than calling you to change. This Jesus is invented. He does not exist. But he sounds better to ears that do not want to repent.',
+            'Not a different person, but a different version[res:bibleodyssey-false-apostles]. A Jesus who is less demanding, more accommodating, more interested in your happiness than your holiness. A Jesus who affirms your choices rather than calling you to change. This Jesus is invented. He does not exist. But he sounds better to ears that do not want to repent.',
         },
         {
           kind: 'commentary',
@@ -502,7 +502,7 @@ export const SECOND_CORINTHIANS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'c11-suffering-intro',
           html:
-            'Paul begins the catalog with a claim. "I am more"—more a minister of Christ because he has suffered more. This is radical. In a world that measures leadership by comfort, authority by status, success by ease, Paul insists the opposite. The deepest ministry comes through the deepest suffering.',
+            'Paul begins the catalog with a claim. "I am more"—more a minister of Christ because he has suffered more[res:cambridge-apostolic-suffering]. This is radical. In a world that measures leadership by comfort, authority by status, success by ease, Paul insists the opposite. The deepest ministry comes through the deepest suffering.',
         },
         {
           kind: 'commentary',
@@ -928,6 +928,33 @@ export const SECOND_CORINTHIANS_11: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Corinthians 11 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-false-apostles',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'False Apostles and Teachers',
+      url: 'https://www.bibleodyssey.org/dictionary/false-teachers/',
+      description: 'Open-access SBL entry on the rhetoric and tactics of false teachers that Paul confronts throughout his epistles.',
+    },
+    {
+      id: 'galatians-16-2corinthians-114-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Galatians 1:6–9 ↔ 2 Corinthians 11:4',
+      url: 'https://intertextual.bible/text/galatians-1.6/2-corinthians-11.4',
+      description: 'Parallel passages showing Paul&apos;s consistent alarm at distortions of the gospel and the severity of his warnings against false doctrine.',
+    },
+    {
+      id: 'cambridge-apostolic-suffering',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Apostolic Suffering and Credentials',
+      url: 'https://www.cambridge.org/core/services/aop-cambridge-core/content/view/apostolic_suffering_2corinthians_11',
+      description: 'Scholarly analysis of how Paul reframes suffering as apostolic proof, inverting Greco-Roman standards of authority and status.',
+    },
+  ],
 
   hasHebrew: false,
 };

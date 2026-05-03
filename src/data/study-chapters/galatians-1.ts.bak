@@ -69,7 +69,7 @@ export const GALATIANS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'gal1-apostle',
           html:
-            'In the earliest letters, Paul often introduces himself simply: "Paul, an apostle[res:perseus-apostolos-lexicon]." Here, he makes a militant clarification: not of men, neither by man[res:bibleodyssey-apostle]. His authority does not flow from the Jerusalem church or from any human ordination. It comes directly from Jesus Christ and from God the Father. This is not arrogance. It is a legal brief. False teachers have whispered that Paul is inferior to the real apostles in Jerusalem—that he is a second-tier messenger, a Johnny-come-lately. Paul cuts that off immediately. His commission came from the highest possible source.',
+            'In the earliest letters, Paul often introduces himself simply: "Paul, an apostle." Here, he makes a militant clarification: not of men, neither by man[res:bibleodyssey-apostle]. His authority does not flow from the Jerusalem church or from any human ordination. It comes directly from Jesus Christ and from God the Father. This is not arrogance. It is a legal brief. False teachers have whispered that Paul is inferior to the real apostles in Jerusalem—that he is a second-tier messenger, a Johnny-come-lately. Paul cuts that off immediately. His commission came from the highest possible source.',
         },
         {
           kind: 'greek',
@@ -483,7 +483,7 @@ export const GALATIANS_1: RichChapterContent = {
           id: 'gal1-resurrection-power',
           title: 'Christ Connection — Resurrection Power Made Visible',
           html:
-            'Paul&apos;s transformation is the resurrection in miniature. Just as Christ died and rose to a new kind of life, Paul died to his old self—his zealous opposition to the gospel—and rose to a new identity as the gospel&apos;s chief advocate. This is why Paul later writes, "I am crucified with Christ" (2:20). He has experienced a kind of death and resurrection. The power that did this—the only force in the universe powerful enough to turn a persecutor into a preacher—is the power of the risen Christ[res:sefaria-galatians-genesis-15].',
+            'Paul&apos;s transformation is the resurrection in miniature. Just as Christ died and rose to a new kind of life, Paul died to his old self—his zealous opposition to the gospel—and rose to a new identity as the gospel&apos;s chief advocate. This is why Paul later writes, "I am crucified with Christ" (2:20). He has experienced a kind of death and resurrection. The power that did this—the only force in the universe powerful enough to turn a persecutor into a preacher—is the power of the risen Christ.',
         },
         {
           kind: 'carry',

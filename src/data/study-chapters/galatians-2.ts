@@ -22,7 +22,7 @@ export const GALATIANS_2: RichChapterContent = {
   estimatedMinutes: { beginner: 8, intermediate: 17, deep: 25 },
   intros: [
     'Paul faced the Jerusalem church at a moment of crisis. False brethren had crept in unaware, demanding that Gentiles become Jewish to be fully Christian. Paul did not waver. He went up to Jerusalem not as a subordinate seeking permission, but as a defender of the gospel. The apostles recognized his calling. The gospel to the Gentiles is valid. Gentile believers do not need the law.',
-    'But the chapter does not end in Jerusalem. It moves to Antioch, where the real test comes. Peter, who had eaten with Gentiles, withdraws when the circumcision party arrives. His hypocrisy reveals how easily even the leaders can compromise the gospel. Paul responds not with anger, but with the most profound statement of Christian identity ever written: "I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me." The old self is dead. The Christian lives from a new source—Christ Himself.',
+    'But the chapter does not end in Jerusalem. It moves to Antioch[res:intertextual-galatians-antioch], where the real test comes. Peter, who had eaten with Gentiles, withdraws when the circumcision party arrives. His hypocrisy reveals how easily even the leaders can compromise the gospel. Paul responds not with anger, but with the most profound statement of Christian identity ever written: "I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me." The old self is dead. The Christian lives from a new source—Christ Himself.',
   ],
 
   opener: {
@@ -127,7 +127,7 @@ export const GALATIANS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'gal2-false-brethren',
           html:
-            'Paul names them plainly: false brethren. Not sincere seekers with a different interpretation, but deceivers who crept in "unawares." They came in under cover, like spies. Their intent was to undermine the gospel of liberty and drag believers back into the old system—circumcision, dietary laws, the works of the flesh parading as the works of the law.',
+            'Paul names them plainly: false brethren. Not sincere seekers with a different interpretation, but deceivers who crept in "unawares." They came in under cover, like spies. Their intent was to undermine the gospel of liberty and drag believers back into the old system—circumcision, dietary laws[res:sefaria-leviticus-dietary-law], the works of the flesh parading as the works of the law.',
         },
         {
           kind: 'commentary',
@@ -300,7 +300,7 @@ export const GALATIANS_2: RichChapterContent = {
           id: 'gal2-christ-courage',
           title: 'Christ Connection — Bold Witness Against Fear',
           html:
-            'Peter himself had once denied Jesus out of fear. Now, at Antioch, he is doing it again—denying the full acceptance of Gentile believers out of fear of people. Jesus told Peter: "To this rock I will build my church, and the gates of Hades will not overcome it." That rock was not Peter&apos;s strength or consistency. It was Christ. When Peter leaned on himself, he stumbled. When Paul appealed to the gospel itself—to Christ—he stood firm. The call of the Christian life is not to become a perfect person, but to let Christ become your courage.',
+            'Peter himself had once denied Jesus out of fear. Now, at Antioch[res:bibleodyssey-antioch-jerusalem], he is doing it again—denying the full acceptance of Gentile believers out of fear of people. Jesus told Peter: "To this rock I will build my church, and the gates of Hades will not overcome it." That rock was not Peter&apos;s strength or consistency. It was Christ. When Peter leaned on himself, he stumbled. When Paul appealed to the gospel itself—to Christ—he stood firm. The call of the Christian life is not to become a perfect person, but to let Christ become your courage.',
         },
         {
           kind: 'reflection',
@@ -560,6 +560,33 @@ export const GALATIANS_2: RichChapterContent = {
     ref: 'Galatians 2 · Study Guide',
     label: 'Share Galatians 2',
   },
+
+  resources: [
+    {
+      id: 'intertextual-galatians-antioch',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Galatians 2:11–14—Peter at Antioch and OT Hypocrisy',
+      url: 'https://intertextual.bible/',
+      description: 'Traces the intertextual echoes of Peter&apos;s inconsistency at Antioch and Paul&apos;s rebuke against OT narratives of hidden compromise and fear.',
+    },
+    {
+      id: 'bibleodyssey-antioch-jerusalem',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Antioch—Early Christian Community at a Crossroads',
+      url: 'https://www.bibleodyssey.org/dictionary/antioch/',
+      description: 'SBL entry on the significance of Antioch as the site of the first Gentile church and the conflict over whether to live like Gentiles or Jews in Christ.',
+    },
+    {
+      id: 'sefaria-leviticus-dietary-law',
+      kind: 'archive',
+      source: 'Sefaria',
+      label: 'Leviticus 11—Dietary Laws Underlying Peter&apos;s Withdrawal',
+      url: 'https://www.sefaria.org/Leviticus.11',
+      description: 'OT text that explains Peter&apos;s reversal at Antioch: the laws that separated clean from unclean, Jew from Gentile, that Christ had made irrelevant.',
+    },
+  ],
 
   hasHebrew: false,
 };

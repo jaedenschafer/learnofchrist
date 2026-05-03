@@ -19,8 +19,8 @@ export const GALATIANS_6: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 15, deep: 21 },
   intros: [
-    'Galatians closes not with doctrine alone but with the lived shape of the gospel. The law is gone; the Spirit&apos;s work remains. Believers are called to restore the fallen with meekness, to bear one another&apos;s weight, to sow to the Spirit rather than the flesh. The final word is staggering: Paul glories in the cross of Christ, and in that cross finds all the freedom the law could never grant.',
-    'The false teachers boasted in the flesh—in circumcision, in bloodline, in external markers of achievement. Paul&apos;s boast is radically different. The cross. That is where glory lives. By that cross the world is crucified unto him, and he unto the world. All his old identity dies. What rises is something new: a creature remade in Christ, bearing His marks, walking in His grace.',
+    'Galatians closes not with doctrine alone but with the lived shape of the gospel. The law is gone; the Spirit&apos;s work remains. Believers are called to restore the fallen with meekness, to bear one another&apos;s weight, to sow[res:sefaria-hosea-sowing-reaping] to the Spirit rather than the flesh. The final word is staggering: Paul glories in the cross of Christ, and in that cross finds all the freedom the law could never grant.',
+    'The false teachers boasted in the flesh[res:topostext-galatia-geography]—in circumcision, in bloodline, in external markers of achievement. Paul&apos;s boast is radically different. The cross. That is where glory lives. By that cross the world is crucified unto him, and he unto the world. All his old identity dies. What rises is something new: a creature remade in Christ, bearing His marks, walking in His grace.',
   ],
 
   opener: {
@@ -32,10 +32,37 @@ export const GALATIANS_6: RichChapterContent = {
   bottomShare: {
     label: 'Share Galatians 6',
     quote:
-      'But God forbid that I should glory, save in the cross of our Lord Jesus Christ, by whom the world is crucified unto me, and I unto the world. For in Christ Jesus neither circumcision availeth any thing, nor uncircumcision, but a new creature.',
+      'But God forbid that I should glory, save in the cross[res:bibleodyssey-cross-crucifixion] of our Lord Jesus Christ, by whom the world is crucified unto me, and I unto the world. For in Christ Jesus neither circumcision availeth any thing, nor uncircumcision, but a new creature.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Galatians 6 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-hosea-sowing-reaping',
+      kind: 'archive',
+      source: 'Sefaria',
+      label: 'Hosea 8:7—Sow the Wind, Reap the Whirlwind',
+      url: 'https://www.sefaria.org/Hosea.8.7',
+      description: 'OT background for Paul&apos;s law of the harvest in Galatians 6:7–9; what you plant, you will reap—either corruption or eternal life.',
+    },
+    {
+      id: 'bibleodyssey-cross-crucifixion',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Cross—Shame Transformed into Glory',
+      url: 'https://www.bibleodyssey.org/dictionary/cross/',
+      description: 'SBL entry on the cross as scandal and scandal-breaker; how Paul glories in the cross in Galatians 6:14 as the measure of all things.',
+    },
+    {
+      id: 'topostext-galatia-geography',
+      kind: 'archaeology',
+      source: 'Topos Text',
+      label: 'Galatia—Historical Geography and Early Churches',
+      url: 'https://topostext.org/',
+      description: 'Detailed mapping and archaeological context of the Galatian region in Anatolia where Paul&apos;s letters were received and churches were established.',
+    },
+  ],
 
   sections: [
     /* ─── Galatians 6:1–5 — Restore in Meekness; Each Shall Bear His Own ─── */

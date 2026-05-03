@@ -37,6 +37,33 @@ export const SECOND_CORINTHIANS_12: RichChapterContent = {
     ref: '2 Corinthians 12 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'bibleodyssey-paradise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Paradise and the Third Heaven',
+      url: 'https://www.bibleodyssey.org/dictionary/paradise/',
+      description: 'Open-access SBL entry on Jewish cosmology, the heavenly realms, and mystical visions of paradise that Paul experiences.',
+    },
+    {
+      id: '1thessalonians-417-2corinthians-122-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: '1 Thessalonians 4:17 ↔ 2 Corinthians 12:2',
+      url: 'https://intertextual.bible/text/1-thessalonians-4.17/2-corinthians-12.2',
+      description: 'Parallel passages on rapture and heavenly transport, connecting Paul&apos;s personal vision to his eschatological hope for all believers.',
+    },
+    {
+      id: 'intertextual-thorn-weakness',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: '2 Corinthians 12:7–9 ↔ Galatians 4:13–14',
+      url: 'https://intertextual.bible/text/2-corinthians-12.7/galatians-4.13',
+      description: 'Cross-reference showing how Paul&apos;s physical weakness becomes the occasion for believers to see Christ&apos;s strength working through him.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Corinthians 12:1–2 — It Is Not Expedient ──────────────────── */
     {
@@ -137,7 +164,7 @@ export const SECOND_CORINTHIANS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'cor2-12-paradise',
           html:
-            'Paul speaks of "paradise"—a place of ultimate joy and peace. "The third heaven" and "paradise" are used interchangeably here. Paul saw what very few have seen. Yet he cannot speak it. The experience itself passed beyond words, into realms where human language breaks down.',
+            'Paul speaks of "paradise"[res:bibleodyssey-paradise]—a place of ultimate joy and peace. "The third heaven" and "paradise" are used interchangeably here. Paul saw what very few have seen. Yet he cannot speak it. The experience itself passed beyond words, into realms where human language breaks down.',
         },
         {
           kind: 'greek',
@@ -272,7 +299,7 @@ export const SECOND_CORINTHIANS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'cor2-12-messenger-satan',
           html:
-            'This phrase is shocking: a "messenger of Satan." Yet it is permitted by God. This is not contradiction. God uses even the work of the adversary to accomplish His purposes. Satan meant the thorn for destruction; God means it for sanctification.',
+            'This phrase is shocking: a "messenger of Satan."[res:intertextual-thorn-weakness] Yet it is permitted by God. This is not contradiction. God uses even the work of the adversary to accomplish His purposes. Satan meant the thorn for destruction; God means it for sanctification.',
         },
         {
           kind: 'carry',

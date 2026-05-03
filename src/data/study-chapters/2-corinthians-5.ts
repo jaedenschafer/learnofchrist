@@ -53,7 +53,7 @@ export const SECOND_CORINTHIANS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'cor5-building',
           html:
-            'Paul sets the temporary against the eternal. The present body is a &ldquo;tabernacle&rdquo;—you fold it up, and it&apos;s gone. But believers have a &ldquo;building of God, an house not made with hands, eternal in the heavens.&rdquo; This is not a metaphor about heaven as a place. This is Paul saying: there is a resurrection body, made not by human hands but by God&apos;s own work, waiting for each believer in the heavens. It is eternal. It does not fail.',
+            'Paul sets the temporary against the eternal. The present body is a &ldquo;tabernacle&rdquo;—you fold it up, and it&apos;s gone. But believers have a &ldquo;building of God, an house not made with hands, eternal in the heavens.&rdquo;[res:bibleodyssey-new-creation] This is not a metaphor about heaven as a place. This is Paul saying: there is a resurrection body, made not by human hands but by God&apos;s own work, waiting for each believer in the heavens. It is eternal. It does not fail.',
         },
         {
           kind: 'scripture',
@@ -416,7 +416,7 @@ export const SECOND_CORINTHIANS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'cor5-new-creature',
           html:
-            'This is the promise at the heart of the gospel. Not improvement. Not gradual self-help. Not you trying harder to be better while essentially staying the same. This is resurrection-level transformation. In Christ, you are a new creature. Your old identity—bound by shame, by sin, by the categories the world used to define you—is passed away. What you are becoming is so different that the old words no longer fit.',
+            'This is the promise at the heart of the gospel. Not improvement. Not gradual self-help. Not you trying harder to be better while essentially staying the same. This is resurrection-level transformation[res:bibleodyssey-new-creation]. In Christ, you are a new creature. Your old identity—bound by shame, by sin, by the categories the world used to define you—is passed away. What you are becoming is so different that the old words no longer fit.',
         },
         {
           kind: 'commentary',
@@ -539,7 +539,7 @@ export const SECOND_CORINTHIANS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'cor5-ambassadors',
           html:
-            'An ambassador represents a foreign power in a hostile or foreign land. The believer is an ambassador for Christ—representing the kingdom of heaven in a world not yet fully submitted to it. You do not represent yourself. You represent Him. Your words are meant to be heard as His words. Your love is meant to be seen as His love.',
+            'An ambassador represents a foreign power in a hostile or foreign land. The believer is an ambassador for Christ—representing the kingdom of heaven in a world not yet fully submitted to it[res:bibleodyssey-reconciliation]. You do not represent yourself. You represent Him. Your words are meant to be heard as His words. Your love is meant to be seen as His love.',
         },
         {
           kind: 'commentary',
@@ -565,7 +565,7 @@ export const SECOND_CORINTHIANS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'cor5-sin-for-us',
           html:
-            'The great exchange is stated here in its starkest form. Christ, who knew no sin—who had never done wrong, never fallen short, never broken the law—was made sin. All the sin, shame, guilt, judgment that belongs to us was transferred to Him. He became what we are in our fallenness. On the cross, He took the full weight of judgment.',
+            'The great exchange is stated here in its starkest form. Christ, who knew no sin—who had never done wrong, never fallen short, never broken the law—was made sin[res:intertextual-isaiah-53-great-exchange]. All the sin, shame, guilt, judgment that belongs to us was transferred to Him. He became what we are in our fallenness. On the cross, He took the full weight of judgment.',
         },
         {
           kind: 'commentary',
@@ -604,6 +604,33 @@ export const SECOND_CORINTHIANS_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Corinthians 5 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-new-creation',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'New Creation and New Creature in Paul',
+      url: 'https://www.bibleodyssey.org/dictionary/newcreature/',
+      description: 'Scholarly entry on what it means to be a new creature in Christ and the complete remaking promised to believers.',
+    },
+    {
+      id: 'intertextual-isaiah-53-great-exchange',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 53:5–6 ↔ 2 Corinthians 5:21 (The Great Exchange)',
+      url: 'https://intertextual.bible/text/isaiah-53/2-corinthians-5.21/',
+      description: 'Side-by-side comparison of the suffering servant bearing sin and Paul&apos;s gospel of the great exchange—Christ&apos;s righteousness for our sins.',
+    },
+    {
+      id: 'bibleodyssey-reconciliation',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Reconciliation in Paul (Katallassō)',
+      url: 'https://www.bibleodyssey.org/dictionary/reconciliation/',
+      description: 'Open-access study of Pauline reconciliation theology and the believer&apos;s role as ambassador proclaiming peace.',
+    },
+  ],
 
   hasHebrew: false,
 };

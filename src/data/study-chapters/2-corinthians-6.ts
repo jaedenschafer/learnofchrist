@@ -58,7 +58,7 @@ export const SECOND_CORINTHIANS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'cor6-charis-vain',
           html:
-            'Grace received "in vain"—that is, to no effect—is Paul&apos;s deepest fear for the Corinthians. They have heard the gospel. They have been reconciled. But reconciliation that does not reshape your choices, your loyalty, your commitments is grace squandered. To receive grace is to let it work.',
+            'Grace received "in vain"—that is, to no effect—is Paul&apos;s deepest fear for the Corinthians. They have heard the gospel. They have been reconciled[res:bibleodyssey-reconciliation]. But reconciliation that does not reshape your choices, your loyalty, your commitments is grace squandered. To receive grace is to let it work.',
         },
 
         {
@@ -80,7 +80,7 @@ export const SECOND_CORINTHIANS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'cor6-dektos',
           html:
-            'Paul quotes Isaiah 49:8—God responding to the suffering servant with rescue at precisely the right moment. <em>Kairos</em> time, not <em>chronos</em>. This is the moment God has chosen. Right now, grace is available. The door is open. You are being called to step through.',
+            'Paul quotes Isaiah 49:8[res:intertextual-isaiah-cor6]—God responding to the suffering servant with rescue at precisely the right moment. <em>Kairos</em> time, not <em>chronos</em>. This is the moment God has chosen. Right now, grace is available. The door is open. You are being called to step through.',
         },
         {
           kind: 'greek',
@@ -458,7 +458,7 @@ export const SECOND_CORINTHIANS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'cor6-heterozygeo',
           html:
-            'Unequally yoked—<em>heterozygountes</em>. The image is agricultural: an ox and a donkey harnessed together cannot plow straight. They pull in different directions. A believer and unbeliever pursuing different masters, different values, different eternal destinations will tear each other apart.',
+            'Unequally yoked[res:bibleodyssey-unequal-yoke]—<em>heterozygountes</em>. The image is agricultural: an ox and a donkey harnessed together cannot plow straight. They pull in different directions. A believer and unbeliever pursuing different masters, different values, different eternal destinations will tear each other apart.',
         },
         {
           kind: 'greek',
@@ -576,6 +576,33 @@ export const SECOND_CORINTHIANS_6: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Corinthians 6 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-reconciliation',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Reconciliation in Scripture',
+      url: 'https://www.bibleodyssey.org/dictionary/reconciliation/',
+      description: 'SBL entry on reconciliation as both cosmic restoration and personal healing through Christ&apos;s work.',
+    },
+    {
+      id: 'intertextual-isaiah-cor6',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 49:8 ↔ 2 Corinthians 6:2',
+      url: 'https://intertextual.bible/text/isaiah-49.8/2-corinthians-6.2',
+      description: 'Side-by-side comparison of the servant passage Paul quotes: "now is the accepted time" and "day of salvation."',
+    },
+    {
+      id: 'bibleodyssey-unequal-yoke',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Unequal Yoking',
+      url: 'https://www.bibleodyssey.org/dictionary/unequal-yoke/',
+      description: 'Exploration of the agricultural image and its application to partnerships that compromise faith commitments.',
+    },
+  ],
 
   hasHebrew: false,
 };

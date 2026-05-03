@@ -16,7 +16,7 @@ export const GALATIANS_3: RichChapterContent = {
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 17 },
   intros: [
-    'Paul opens with urgency and grief: "O foolish Galatians, who hath bewitched you?" The Galatians have turned from faith to works. They received the Spirit by faith; now they trust in the flesh. Paul takes them back to Abraham—not the law, but the man of faith. Abraham believed God, and that belief was counted as righteousness. The law came 430 years later. It was never meant to replace faith; it was meant to lead you to Christ.',
+    'Paul opens with urgency and grief: "O foolish Galatians, who hath bewitched you?" The Galatians have turned from faith to works. They received the Spirit by faith; now they trust in the flesh. Paul takes them back to Abraham[res:sefaria-abraham-covenant]—not the law, but the man of faith. Abraham believed God, and that belief was counted as righteousness. The law came 430 years later. It was never meant to replace faith; it was meant to lead you to Christ.',
     'In Christ, the old divisions collapse. Jew and Gentile, slave and free, male and female—these categories no longer divide the believer. All are baptized into Christ. All have put on Christ. All are one in Him. All are Abraham&apos;s seed, heirs of the promise by faith. This is the gospel&apos;s scandal and its scandal is its power: the distinctions the world builds to divide and rank—ethnicity, status, gender—count for nothing in the kingdom of God.',
   ],
 
@@ -88,7 +88,7 @@ export const GALATIANS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'gal-3-faith',
           html:
-            'Paul is not asking the Galatians an academic question. He is asking them to remember their own experience. The moment the Spirit came to them, they were not keeping the law—they were believing the Gospel. They heard the word of Christ and trusted. That is how grace works. Not through your achievement, but through your openness.',
+            'Paul is not asking the Galatians an academic question[res:bibleodyssey-justification-faith]. He is asking them to remember their own experience. The moment the Spirit came to them, they were not keeping the law—they were believing the Gospel. They heard the word of Christ and trusted. That is how grace works. Not through your achievement, but through your openness.',
         },
         {
           kind: 'carry',
@@ -199,7 +199,7 @@ export const GALATIANS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'gal-3-curse',
           html:
-            'The law itself places a curse on those who depend on it. Not because the law is evil, but because no one can keep it perfectly. To stake your righteousness on your obedience to the law is to guarantee your own condemnation. The law is like a mirror—it shows you your failure, not your achievement.',
+            'The law[res:sefaria-deuteronomy-curse] itself places a curse on those who depend on it. Not because the law is evil, but because no one can keep it perfectly. To stake your righteousness on your obedience to the law is to guarantee your own condemnation. The law is like a mirror—it shows you your failure, not your achievement.',
         },
         {
           kind: 'greek',
@@ -268,7 +268,7 @@ export const GALATIANS_3: RichChapterContent = {
           lines: [
             verse(
               16,
-              t('Now to Abraham and his seed were the promises made. He saith not, And to seeds, as of many; but as of one, '),
+              t('Now to Abraham[res:sefaria-abraham-covenant] and his seed were the promises made. He saith not, And to seeds, as of many; but as of one, '),
               hp('And to thy seed, which is Christ', 'gal-3-seed-christ'),
               t('.'),
             ),
@@ -453,6 +453,33 @@ export const GALATIANS_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Galatians 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-abraham-covenant',
+      kind: 'archive',
+      source: 'Sefaria',
+      label: 'Genesis 12 & 15—The Abrahamic Covenant and Promise',
+      url: 'https://www.sefaria.org/Genesis.12',
+      description: 'OT foundation for Paul&apos;s argument that Abraham was justified by faith 430 years before the law was given; the Gentiles are Abraham&apos;s seed through Christ.',
+    },
+    {
+      id: 'sefaria-deuteronomy-curse',
+      kind: 'archive',
+      source: 'Sefaria',
+      label: 'Deuteronomy 27—The Curse of the Law',
+      url: 'https://www.sefaria.org/Deuteronomy.27',
+      description: 'OT source for Paul&apos;s argument in Galatians 3:10–13 that the law pronounces a curse on all who do not keep every command, which Christ bore.',
+    },
+    {
+      id: 'bibleodyssey-justification-faith',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Justification by Faith—A New Covenant Reality',
+      url: 'https://www.bibleodyssey.org/dictionary/justification/',
+      description: 'SBL scholarly entry on the theological claim that believers are declared righteous not by works but by faith in Christ alone.',
+    },
+  ],
 
   hasHebrew: false,
 };

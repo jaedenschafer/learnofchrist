@@ -71,7 +71,7 @@ export const SECOND_CORINTHIANS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'cor2-8-joy-poverty',
           html:
-            'This is the pivot on which the whole chapter turns. In the very same sentence: abundance and poverty, joy and affliction. Not despite the poverty, but <em>with</em> the poverty. "The abundance of their joy and their deep poverty abounded unto the riches of their liberality." One state did not cancel the other. Both were present. Both moved them to give.',
+            'This is the pivot on which the whole chapter turns[res:bibleodyssey-generosity]. In the very same sentence: abundance and poverty, joy and affliction. Not despite the poverty, but <em>with</em> the poverty. "The abundance of their joy and their deep poverty abounded unto the riches of their liberality." One state did not cancel the other. Both were present. Both moved them to give.',
         },
         {
           kind: 'commentary',
@@ -288,7 +288,7 @@ export const SECOND_CORINTHIANS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'cor2-8-christ-poor-became',
           html:
-            'The language is important. He "became poor." He did not simply visit poverty as a temporary condition. He entered it completely. He was born in a borrowed stable. He owned nothing (Mark 1:16ff). He was arrested and stripped. He died naked on a cross. The self-emptying (<em>kenosis</em>) was total.',
+            'The language is important[res:sefaria-2-corinthians-8]. He "became poor." He did not simply visit poverty as a temporary condition. He entered it completely. He was born in a borrowed stable. He owned nothing (Mark 1:16ff). He was arrested and stripped. He died naked on a cross. The self-emptying (<em>kenosis</em>) was total.',
         },
         {
           kind: 'christ',
@@ -438,7 +438,7 @@ export const SECOND_CORINTHIANS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'cor2-8-manna',
           html:
-            'Paul quotes Exodus 16:18, the account of the manna in the wilderness. Some gathered much, some little, yet in the end each had enough. God&apos;s provision was equal. Those who had gathered much did not hoard. Those who had gathered little were not left short. The same principle applies to the church: God&apos;s grace is sufficient for all, and the body of Christ distributes what is given so that no one lacks.',
+            'Paul quotes Exodus 16:18[res:intertextual-exodus-manna], the account of the manna in the wilderness. Some gathered much, some little, yet in the end each had enough. God&apos;s provision was equal. Those who had gathered much did not hoard. Those who had gathered little were not left short. The same principle applies to the church: God&apos;s grace is sufficient for all, and the body of Christ distributes what is given so that no one lacks.',
         },
         {
           kind: 'christ',
@@ -641,6 +641,33 @@ export const SECOND_CORINTHIANS_8: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Corinthians 8:9 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-generosity',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Generosity and Giving',
+      url: 'https://www.bibleodyssey.org/dictionary/generosity/',
+      description: 'SBL article on generosity as a spiritual gift rooted in grace, exemplified by Christ and the Macedonian churches.',
+    },
+    {
+      id: 'intertextual-exodus-manna',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Exodus 16:18 ↔ 2 Corinthians 8:15',
+      url: 'https://intertextual.bible/text/exodus-16.18/2-corinthians-8.15',
+      description: 'Connection between the manna principle and Paul&apos;s vision of church equality: God&apos;s supply is sufficient for all.',
+    },
+    {
+      id: 'sefaria-2-corinthians-8',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Corinthians 8 — Full Text & Connections',
+      url: 'https://www.sefaria.org/2-Corinthians.8',
+      description: 'Open-access text with references to poverty, wealth, self-sacrifice, and the Macedonian model of giving.',
+    },
+  ],
 
   hasHebrew: false,
 };

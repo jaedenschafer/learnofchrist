@@ -219,7 +219,7 @@ export const SECOND_CORINTHIANS_9: RichChapterContent = {
           script: 'ἱλαρός',
           translit: '<strong>hilaros</strong> · cheerful; joyful; with a lightened spirit',
           description:
-            'A hilaros giver gives with lightness and joy, without heaviness or resentment. The opposite is the giver constrained by shame, duty, or pressure. Hilaros is the lightness that comes from trust.',
+            'A hilaros giver gives with lightness and joy[res:bibleodyssey-cheerful-giver], without heaviness or resentment. The opposite is the giver constrained by shame, duty, or pressure. Hilaros is the lightness that comes from trust.',
         },
         {
           kind: 'christ',
@@ -293,7 +293,7 @@ export const SECOND_CORINTHIANS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'cor9-psalm112',
           html:
-            'Paul quotes Psalm 112:9. The righteous person scatters abroad, gives to the poor, and that person&apos;s righteousness endures forever. It is not a private virtue. It is witnessed. It is remembered. It shapes the world.',
+            'Paul quotes Psalm 112:9[res:intertextual-psalm112-cor9]. The righteous person scatters abroad, gives to the poor, and that person&apos;s righteousness endures forever. It is not a private virtue. It is witnessed. It is remembered. It shapes the world.',
         },
         {
           kind: 'commentary',
@@ -346,7 +346,7 @@ export const SECOND_CORINTHIANS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'cor9-thanksgiving',
           html:
-            'Here is what Paul really cares about: your generosity stirs gratitude toward God. When you help someone in need, they don&apos;t just feel relief. They feel cared for. And they thank God for you. Your generosity becomes a bridge between the helped and the Helper. That is the fruit that matters most.',
+            'Here is what Paul really cares about[res:sefaria-2-corinthians-9]: your generosity stirs gratitude toward God. When you help someone in need, they don&apos;t just feel relief. They feel cared for. And they thank God for you. Your generosity becomes a bridge between the helped and the Helper. That is the fruit that matters most.',
         },
         {
           kind: 'carry',
@@ -501,6 +501,33 @@ export const SECOND_CORINTHIANS_9: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Corinthians 9:7 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'intertextual-psalm112-cor9',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 112:9 ↔ 2 Corinthians 9:9',
+      url: 'https://intertextual.bible/text/psalm-112.9/2-corinthians-9.9',
+      description: 'The righteous scattered abroad and gave to the poor; his righteousness remains forever—the foundation for Paul&apos;s vision of lasting generosity.',
+    },
+    {
+      id: 'sefaria-2-corinthians-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Corinthians 9 — Full Text & Connections',
+      url: 'https://www.sefaria.org/2-Corinthians.9',
+      description: 'Open-access text with links to Old Testament passages on giving, thanksgiving, and God&apos;s abundance.',
+    },
+    {
+      id: 'bibleodyssey-cheerful-giver',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Cheerful Giver',
+      url: 'https://www.bibleodyssey.org/dictionary/cheerful-giver/',
+      description: 'SBL entry on hilaros—giving with joy rooted not in personal wealth but in trust in God&apos;s faithfulness.',
+    },
+  ],
 
   hasHebrew: false,
 };

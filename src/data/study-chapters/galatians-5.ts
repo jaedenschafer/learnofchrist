@@ -249,7 +249,7 @@ export const GALATIANS_5: RichChapterContent = {
           kind: 'scripture',
           chapter: 5,
           lines: [
-            verse(14, t('For all the law is fulfilled in one word, even in this; '), hp('Thou shalt love thy neighbour as thyself', 'christ-love-neighbor'), t('.')),
+            verse(14, t('For all the law is fulfilled[res:sefaria-leviticus-love-neighbor] in one word, even in this; '), hp('Thou shalt love thy neighbour as thyself', 'christ-love-neighbor'), t('.')),
           ],
         },
         {
@@ -286,7 +286,7 @@ export const GALATIANS_5: RichChapterContent = {
           lines: [
             verse(15, t('But if ye bite and devour one another, take heed that ye be not consumed one of another.')),
             verse(16, t('This I say then, '), hy('Walk in the Spirit, and ye shall not fulfil the lust of the flesh', 'greek-peripateō'), t('.')),
-            verse(17, t('For '), hg('the flesh lusteth against the Spirit, and the Spirit against the flesh', 'c-flesh-spirit'), t(': and these are contrary the one to the other: so that ye cannot do the things that ye would.')),
+            verse(17, t('For '), hg('the flesh[res:perseus-sarx-flesh-lexicon] lusteth against the Spirit, and the Spirit against the flesh', 'c-flesh-spirit'), t(': and these are contrary the one to the other: so that ye cannot do the things that ye would.')),
             verse(18, t('But if ye be led of the Spirit, ye are not under the law.')),
           ],
         },
@@ -375,7 +375,7 @@ export const GALATIANS_5: RichChapterContent = {
           kind: 'scripture',
           chapter: 5,
           lines: [
-            verse(22, t('But the '), hy('fruit of the Spirit', 'greek-karpos'), t(' is '), hg('love, joy, peace, longsuffering, gentleness, goodness, faith', 'c-fruit-first'), t(',')),
+            verse(22, t('But the '), hy('fruit[res:bibleodyssey-fruit-spirit] of the Spirit', 'greek-karpos'), t(' is '), hg('love, joy, peace, longsuffering, gentleness, goodness, faith', 'c-fruit-first'), t(',')),
             verse(23, hg('meekness, temperance', 'c-fruit-last'), t(': against such there is no law.')),
           ],
         },
@@ -498,6 +498,33 @@ export const GALATIANS_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Galatians 5 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-leviticus-love-neighbor',
+      kind: 'archive',
+      source: 'Sefaria',
+      label: 'Leviticus 19:18—Thou Shalt Love Thy Neighbour',
+      url: 'https://www.sefaria.org/Leviticus.19.18',
+      description: 'OT command that Paul quotes in Galatians 5:14 as the entire fulfillment of the law; love supersedes all commandments.',
+    },
+    {
+      id: 'bibleodyssey-fruit-spirit',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Fruit of the Spirit—Virtues Born of Transformation',
+      url: 'https://www.bibleodyssey.org/dictionary/spirit/',
+      description: 'SBL entry on the theology of spiritual fruit (love, joy, peace, etc.) as the natural overflow of life in the Spirit, not works of the flesh.',
+    },
+    {
+      id: 'perseus-sarx-flesh-lexicon',
+      kind: 'lexicon',
+      source: 'Perseus Scaife Digital Library',
+      label: 'Sarx—The Flesh in Pauline Theology',
+      url: 'https://scaife.perseus.org/',
+      description: 'Greek lexical analysis of sarx (flesh) as the human nature enslaved to sin and desire, opposed to the Spirit in Galatians 5:16–26.',
+    },
+  ],
 
   hasHebrew: false,
 };

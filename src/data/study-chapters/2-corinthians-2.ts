@@ -181,7 +181,7 @@ export const SECOND_CORINTHIANS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'cor2-satan-door',
           html:
-            'Unforgiveness opens a door. Satan&apos;s strategy is to splinter the body, to keep the church divided and suspicious and nursing old wounds. Forgiveness slams that door shut. It denies Satan a foothold.',
+            'Unforgiveness opens a door. Satan&apos;s strategy[res:intertextual-exodus-34] is to splinter the body, to keep the church divided and suspicious and nursing old wounds. Forgiveness slams that door shut. It denies Satan a foothold.',
         },
         {
           kind: 'greek',
@@ -265,7 +265,7 @@ export const SECOND_CORINTHIANS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'cor2-triumph-image',
           html:
-            'Paul is picturing a Roman military triumph—a parade through the city after a great victory. The conquering general leads the parade. Behind him march the soldiers and captives, displayed before all the city as proof of the victory. Paul says: God always makes us triumph in Christ. We are marching in Christ&apos;s victory parade.',
+            'Paul is picturing a Roman military triumph—a parade through the city after a great victory[res:bibleodyssey-triumphal-procession]. The conquering general leads the parade. Behind him march the soldiers and captives, displayed before all the city as proof of the victory. Paul says: God always makes us triumph in Christ. We are marching in Christ&apos;s victory parade.',
         },
         {
           kind: 'greek',
@@ -312,7 +312,7 @@ export const SECOND_CORINTHIANS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'cor2-savour-meaning',
           html:
-            'A shift from sight to smell. The gospel is not just seen; it is perceived as a fragrance. When believers live and speak the truth of Christ, they release His scent into the world. It fills the air. It reaches people&apos;s hearts before their minds. That scent is an offering to God—a sweet savour, a sacrifice that pleases Him.',
+            'A shift from sight to smell. The gospel is not just seen; it is perceived as a fragrance. When believers live and speak the truth of Christ, they release His scent into the world. It fills the air. It reaches people&apos;s hearts before their minds. That scent is an offering to God—a sweet savour, a sacrifice that pleases Him[res:sefaria-sweet-savour], echoing the old covenant&apos;s imagery of fragrant offerings.',
         },
         {
           kind: 'greek',
@@ -414,6 +414,33 @@ export const SECOND_CORINTHIANS_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Corinthians 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-sweet-savour',
+      kind: 'archive',
+      source: 'Sefaria',
+      label: 'Leviticus 1–3: Sweet Savour Offerings',
+      url: 'https://www.sefaria.org/Leviticus.1?lang=bi',
+      description: 'Hebrew text + English side-by-side showing the old covenant&apos;s imagery of fragrant offerings that foreshadow believers as a sweet savour to God.',
+    },
+    {
+      id: 'bibleodyssey-triumphal-procession',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Roman Triumphal Processions',
+      url: 'https://www.bibleodyssey.org/dictionary/triumph/',
+      description: 'Open-access entry explaining the Roman military triumph and Paul&apos;s metaphor of being led in Christ&apos;s victory parade.',
+    },
+    {
+      id: 'intertextual-exodus-34',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Satan&apos;s Devices (Greek noëma)',
+      url: 'https://intertextual.bible/text/1-peter-3.9/2-corinthians-2.11/',
+      description: 'Cross-reference showing how early believers understood Satan&apos;s schemes and strategies across epistles.',
+    },
+  ],
 
   hasHebrew: false,
 };
