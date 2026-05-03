@@ -81,7 +81,7 @@ export const JOSHUA_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-minister',
           html:
-            'Joshua is introduced as "Moses&apos; minister"—his servant, his helper, the one who attended to him. He is not chosen because he was in command; he is chosen because he was faithful in the smaller role. Leadership flows from faithfulness at every level.',
+            'Joshua is introduced as "Moses&apos; minister"—his servant, his helper, the one who attended to him[res:bibleodyssey-joshua-succession]. He is not chosen because he was in command; he is chosen because he was faithful in the smaller role. Leadership flows from faithfulness at every level.',
         },
         {
           kind: 'commentary',
@@ -94,7 +94,7 @@ export const JOSHUA_1: RichChapterContent = {
           id: 'christ-joshua-type',
           title: 'Christ Connection — Joshua the Type of Jesus',
           html:
-            'Joshua&apos;s name in Hebrew (Yeshua) is identical to Jesus in Greek (Iésous). Hebrews 4:8 makes the connection explicit: "For if Jesus had given them rest, then would he not afterward have spoken of another day." Joshua led the physical people into the physical land. Jesus leads the spiritual people into the spiritual rest—the inheritance that lasts forever. The call to Joshua to rise and lead the people across is a foreshadow of the Savior who would lead all His people home.',
+            'Joshua&apos;s name in Hebrew (Yeshua) is identical to Jesus in Greek (Iésous)[res:intertextual-joshua-yeshua]. Hebrews 4:8 makes the connection explicit: "For if Jesus had given them rest, then would he not afterward have spoken of another day." Joshua led the physical people into the physical land. Jesus leads the spiritual people into the spiritual rest—the inheritance that lasts forever. The call to Joshua to rise and lead the people across is a foreshadow of the Savior who would lead all His people home.',
         },
         {
           kind: 'carry',
@@ -437,6 +437,33 @@ export const JOSHUA_1: RichChapterContent = {
             'Where have you been blessed with rest or security that others are still seeking? How can you, like the eastern tribes, help carry others toward their own promised land?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'bibleodyssey-joshua-succession',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Joshua and Succession',
+      url: 'https://www.bibleodyssey.org/passages/joshua/',
+      description: 'Overview of Joshua and the themes of leadership transition and covenant renewal in the promised land.',
+    },
+    {
+      id: 'sefaria-moses-death',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 34 and Joshua 1 Comparison',
+      url: 'https://www.sefaria.org/Joshua.1',
+      description: 'Connected texts showing the death of Moses and the commissioning of Joshua as the hinge between Torah and conquest.',
+    },
+    {
+      id: 'intertextual-joshua-yeshua',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Joshua (Yeshua) Name Study',
+      url: 'https://intertextual.bible/search?q=joshua+yeshua+jesus+name',
+      description: 'Exploration of the shared etymology between Joshua (Yeshua) and Jesus (Iésous) across Old and New Testament.',
     },
   ],
 

@@ -77,7 +77,7 @@ export const NUMBERS_26: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'age-twenty-census', [res:sefaria-numbers-26]',$
+          id: 'age-twenty-census',
           html:
             'The census counts only males twenty years old and upward — the same criterion as the first census. But there is a crucial difference: thirty-eight years ago, these were fighting men of the first generation. Now they are the next generation. The first group was counted on the edge of the Red Sea, filled with fear and unbelief. This generation is being counted on the edge of Canaan, ready to cross.',
         },
@@ -85,7 +85,7 @@ export const NUMBERS_26: RichChapterContent = {
           kind: 'commentary',
           id: 'age-second-census',
           html:
-            'The command comes after "the plague" — likely referring to the plague that killed the ten unfaithful spies (Numbers 14:37). Now, with thirty-eight more years of deaths, the census is taken again. Moses and Eleazar — the new high priest (Aaron is near the end of his life) — perform the count in the same way as before, "as the Lord commanded." This is not arbitrary; it echoes the first census and shows continuity: God still has a people, still knows their number, still marches with them. [res:sefaria-census-comparison]',
+            'The command comes after "the plague" — likely referring to the plague that killed the ten unfaithful spies (Numbers 14:37). Now, with thirty-eight more years of deaths, the census is taken again. Moses and Eleazar — the new high priest (Aaron is near the end of his life) — perform the count in the same way as before, "as the Lord commanded." This is not arbitrary; it echoes the first census and shows continuity: God still has a people, still knows their number, still marches with them.',
         },
         {
           kind: 'carry',
@@ -134,18 +134,6 @@ export const NUMBERS_26: RichChapterContent = {
             ),
             plain(12, 'The sons of Simeon after their families: of Nemuel, the family of the Nemuelites: of Jamin, the family of the Jaminites: of Jachin, the family of the Jachinites:'),
             plain(13, 'Of Zerah, the family of the Zarhites: of Shaul, the family of the Shaulites.'),
-          ],
-        },
-        {
-          kind: 'commentary',
-          id: 'numbers_26_v8-20',
-          html:
-            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
-        },
-        {
-          kind: 'scripture',
-          chapter: 26,
-          lines: [
             verse(14,
               t('These are the families of the Simeonites, twenty and two thousand and two hundred.')
             ),
@@ -171,7 +159,7 @@ export const NUMBERS_26: RichChapterContent = {
           kind: 'commentary',
           id: 'dathan-abiram-rebellion',
           html:
-            'Dathan and Abiram led the rebellion against Moses in Numbers 16, allied with Korah. The text does not let us forget them — their names are still "famous" or "notorious" in the congregation. This is a warning: the names of those who oppose God are remembered, not forgotten. But the families they came from still exist, still count. Dathan and Abiram are gone; the congregation goes on. [res:numbers-inheritance-division]',
+            'Dathan and Abiram led the rebellion against Moses in Numbers 16, allied with Korah. The text does not let us forget them — their names are still "famous" or "notorious" in the congregation. This is a warning: the names of those who oppose God are remembered, not forgotten. But the families they came from still exist, still count. Dathan and Abiram are gone; the congregation goes on.',
         },
         {
           kind: 'commentary',

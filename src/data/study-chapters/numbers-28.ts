@@ -69,18 +69,6 @@ export const NUMBERS_28: RichChapterContent = {
                 t('The one lamb shalt thou offer in the morning, and the other lamb shalt thou offer at even;'),
               ],
             },
-          ],
-        },
-        {
-          kind: 'commentary',
-          id: 'numbers_28_v1-8',
-          html:
-            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
-        },
-        {
-          kind: 'scripture',
-          chapter: 28,
-          lines: [
             {
               number: 5,
               spans: [
@@ -109,7 +97,7 @@ export const NUMBERS_28: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'my-offering', [res:sefaria-numbers-28]',$
+          id: 'my-offering',
           html:
             'God calls the offering &ldquo;my offering.&rdquo; God&apos;s bread. God&apos;s table. The people are invited to participate in God&apos;s meal, not to bargain with Him. The continual burnt offering is ordained—commanded—set by God on Mount Sinai itself. It is not a human invention. It is a divine pattern.',
         },
@@ -164,7 +152,7 @@ export const NUMBERS_28: RichChapterContent = {
           kind: 'commentary',
           id: 'sabbath-double',
           html:
-            'On the seventh day, the offering is not halved or diminished. It is doubled. Two lambs instead of one. The Sabbath is not a day of less worship. It is a day of intensified worship. God rests on the seventh day, and Israel&apos;s offering rises to meet that rest. Even the rhythm of weekly work and rest finds its reflection in the rhythm of sacrifice. [res:sefaria-feasts-calendar]',
+            'On the seventh day, the offering is not halved or diminished. It is doubled. Two lambs instead of one. The Sabbath is not a day of less worship. It is a day of intensified worship. God rests on the seventh day, and Israel&apos;s offering rises to meet that rest. Even the rhythm of weekly work and rest finds its reflection in the rhythm of sacrifice.',
         },
         {
           kind: 'carry',
@@ -219,7 +207,7 @@ export const NUMBERS_28: RichChapterContent = {
           kind: 'commentary',
           id: 'new-moon-intro',
           html:
-            'With each new moon, the offering escalates. No longer two lambs daily, but two bullocks, one ram, seven lambs. The new moon marks a new month, a new cycle. The rhythm accelerates. The nation brings more—not because of guilt, but because each new beginning is marked in heaven. Each month opens with an offering. [res:jewish-festivals-timeline]',
+            'With each new moon, the offering escalates. No longer two lambs daily, but two bullocks, one ram, seven lambs. The new moon marks a new month, a new cycle. The rhythm accelerates. The nation brings more—not because of guilt, but because each new beginning is marked in heaven. Each month opens with an offering.',
         },
         {
           kind: 'carry',

@@ -72,7 +72,7 @@ export const NUMBERS_21: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'vow-israel', [res:sefaria-numbers-21]',$
+          id: 'vow-israel',
           html:
             'Israel vows — not in presumption, but in faith. They ask God to do what only He can do, and they promise to follow through with obedience. This is how vows work in Scripture: you ask for God\'s help, and you bind yourself to Him in return. God responds to this covenant language.',
         },
@@ -89,7 +89,7 @@ export const NUMBERS_21: RichChapterContent = {
           kind: 'commentary',
           id: 'god-hears',
           html:
-            'God hears Israel\'s prayer. He does not shame them for asking, nor does He make them wait. This is the language of covenant: when Israel asks in faith, God acts. The Lord hearkens — He inclines His ear. [res:john-3-serpent-christ]',
+            'God hears Israel\'s prayer. He does not shame them for asking, nor does He make them wait. This is the language of covenant: when Israel asks in faith, God acts. The Lord hearkens — He inclines His ear.',
         },
         {
           kind: 'hebrew',
@@ -137,7 +137,7 @@ export const NUMBERS_21: RichChapterContent = {
           kind: 'commentary',
           id: 'speak-against-god',
           html:
-            'The people do not merely complain. They speak against God Himself. This is not a private complaint; it is rebellion. To speak against God is to question His character, His provision, His care. It moves from circumstance into theology. [res:israel-museum-serpent]',
+            'The people do not merely complain. They speak against God Himself. This is not a private complaint; it is rebellion. To speak against God is to question His character, His provision, His care. It moves from circumstance into theology.',
         },
         {
           kind: 'commentary',

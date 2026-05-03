@@ -105,7 +105,7 @@ export const NUMBERS_29: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'trumpets-convocation', [res:sefaria-numbers-29]',$
+          id: 'trumpets-convocation',
           html:
             'A "holy convocation" means a called assembly—God summons His people. This is not optional. The nation gathers. Trumpets mark it, calling the people together as they would be called for war or for a sacred assembly. The shofar (horn) blast was a sound the whole people knew: <em>stop what you are doing. Gather. Something sacred is beginning.</em>',
         },
@@ -184,7 +184,7 @@ export const NUMBERS_29: RichChapterContent = {
           kind: 'commentary',
           id: 'afflict-souls',
           html:
-            '"Afflict your souls" is the command of Atonement. It means fast, confess, cease from work, and stand barefoot before God with your sin laid bare. There is no hiding on Atonement. No covering your shame. The whole nation stands in the presence of God acknowledging what they have done. Only after that acknowledgment comes the cleansing. [res:bible-odyssey-atonement]',
+            '"Afflict your souls" is the command of Atonement. It means fast, confess, cease from work, and stand barefoot before God with your sin laid bare. There is no hiding on Atonement. No covering your shame. The whole nation stands in the presence of God acknowledging what they have done. Only after that acknowledgment comes the cleansing.',
         },
         {
           kind: 'hebrew',
@@ -252,7 +252,7 @@ export const NUMBERS_29: RichChapterContent = {
           kind: 'commentary',
           id: 'sukkot-seven',
           html:
-            'Tabernacles is the longest festival—seven full days, plus an eighth-day assembly for closure. The people dwell in <em>sukkah</em> (booths), remembering the wilderness wandering. They sleep in temporary shelters, eating and celebrating in the open. It is not a festival of remembrance tinged with sorrow. It is <em>joy.</em> After the fasting of Atonement, the rejoicing of Tabernacles feels like a release. [res:sefaria-festivals-christ-type]',
+            'Tabernacles is the longest festival—seven full days, plus an eighth-day assembly for closure. The people dwell in <em>sukkah</em> (booths), remembering the wilderness wandering. They sleep in temporary shelters, eating and celebrating in the open. It is not a festival of remembrance tinged with sorrow. It is <em>joy.</em> After the fasting of Atonement, the rejoicing of Tabernacles feels like a release.',
         },
         {
           kind: 'hebrew',

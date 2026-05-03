@@ -79,7 +79,7 @@ export const NUMBERS_27: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'zelophehad-daughters', [res:sefaria-numbers-27]',$
+          id: 'zelophehad-daughters',
           html:
             'The five daughters are named individually: Mahlah, Noah, Hoglah, Milcah, Tirzah. In a genealogy, names are usually how a family is remembered. These women secure their names and their father\'s name in the record of Israel. They are not erased.',
         },
@@ -87,13 +87,13 @@ export const NUMBERS_27: RichChapterContent = {
           kind: 'commentary',
           id: 'standing-before-assembly',
           html:
-            'They stand before the congregation — not in the shadow, not through a male representative, but face-to-face with Moses, the high priest, the princes, and the assembly itself. Their visibility is part of their testimony. They are not hidden away. [res:zelophehad-daughters-inheritance]',
+            'They stand before the congregation — not in the shadow, not through a male representative, but face-to-face with Moses, the high priest, the princes, and the assembly itself. Their visibility is part of their testimony. They are not hidden away.',
         },
         {
           kind: 'commentary',
           id: 'father-not-korah',
           html:
-            'The daughters specify: their father died "in his own sin," not in Korah\'s rebellion. This matters. They are not defending a rebel. Their father was faithful to the covenant, and his daughters deserve to inherit. They are not asking for special treatment; they are asking for justice. [res:joshua-appointment-intertextual]',
+            'The daughters specify: their father died "in his own sin," not in Korah\'s rebellion. This matters. They are not defending a rebel. Their father was faithful to the covenant, and his daughters deserve to inherit. They are not asking for special treatment; they are asking for justice.',
         },
         {
           kind: 'commentary',

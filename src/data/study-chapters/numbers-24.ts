@@ -57,7 +57,7 @@ export const NUMBERS_24: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'c-pleased-bless', [res:sefaria-numbers-24]',$
+          id: 'c-pleased-bless',
           html:
             'Balaam sees it now. The Lord is pleased to bless Israel. Enchantments will not work against the will of God. What had been a game for hire — finding omens, reading signs — becomes useless the moment the Spirit moves. He stops performing and simply lets himself become a channel.',
         },
@@ -82,7 +82,7 @@ export const NUMBERS_24: RichChapterContent = {
           kind: 'commentary',
           id: 'c-lifted',
           html:
-            'The gaze shifts. Balaam stops looking at omens and signs and simply <em>sees</em> — he sees Israel as she actually is, settled in the camps God has made her to occupy. And at that moment, the Spirit of God comes upon him. Not through any ritual, not through his own skill. The Spirit arrives and takes his mouth. [res:numbers-24-star-scepter]',
+            'The gaze shifts. Balaam stops looking at omens and signs and simply <em>sees</em> — he sees Israel as she actually is, settled in the camps God has made her to occupy. And at that moment, the Spirit of God comes upon him. Not through any ritual, not through his own skill. The Spirit arrives and takes his mouth.',
         },
 
         {
@@ -101,7 +101,7 @@ export const NUMBERS_24: RichChapterContent = {
           kind: 'commentary',
           id: 'c-eyes-open',
           html:
-            'He speaks in the third person, as if to distance himself from what is coming out of his mouth. &ldquo;The man whose eyes are open&rdquo; — meaning, the man who has been given to see what others cannot. A prophet is someone whose eyes have been opened. Balaam is about to describe what he sees. [res:balaam-prophecy-deir-alla]',
+            'He speaks in the third person, as if to distance himself from what is coming out of his mouth. &ldquo;The man whose eyes are open&rdquo; — meaning, the man who has been given to see what others cannot. A prophet is someone whose eyes have been opened. Balaam is about to describe what he sees.',
         },
 
         {

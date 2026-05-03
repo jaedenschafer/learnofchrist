@@ -67,7 +67,7 @@ export const NUMBERS_25: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'c-shittim', [res:sefaria-numbers-25]',$
+          id: 'c-shittim',
           html:
             'Shittim is the last camp before the Jordan, the staging ground for the conquest of Canaan. At the threshold of inheritance, Israel falls. The place name itself means "acacias"—the wood of the wilderness, dry and thorny. It is a fitting place for a nation to discover how little has changed inside.',
         },
@@ -111,13 +111,13 @@ export const NUMBERS_25: RichChapterContent = {
           kind: 'commentary',
           id: 'c-baal-peor',
           html:
-            'Moabite women invited Israelite men to cultic meals—feasts where eating was itself an act of worship. A meal that pledges allegiance to another god. This is not a private matter between consenting adults; it is a public act of covenant violation. [res:bible-odyssey-baal-peor]',
+            'Moabite women invited Israelite men to cultic meals—feasts where eating was itself an act of worship. A meal that pledges allegiance to another god. This is not a private matter between consenting adults; it is a public act of covenant violation.',
         },
         {
           kind: 'commentary',
           id: 'c-eat-idols',
           html:
-            'Eating and sexual union are woven together. Paul picks this up in 1 Corinthians 6:15–18: union with an idol is union with a demon, and sexual immorality is uniquely a sin against your own body, which is the temple of the Holy Spirit. The body is not neutral territory. [res:phinehas-covenant]',
+            'Eating and sexual union are woven together. Paul picks this up in 1 Corinthians 6:15–18: union with an idol is union with a demon, and sexual immorality is uniquely a sin against your own body, which is the temple of the Holy Spirit. The body is not neutral territory.',
         },
         {
           kind: 'commentary',
