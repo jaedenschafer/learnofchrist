@@ -50,13 +50,15 @@ html[data-reader-theme="dark"] {
   margin: 0 0 1.25rem;
 }
 
-/* ─── Buttons — translucent frosted glass ────────────────────────────────
-   One unified recipe for every button on the home page. White-tinted
-   frost at 38% opacity + heavy backdrop blur, so whatever sits behind
-   the pill (sunset photo, parchment band, art-library backdrop) bleeds
-   through it. The white inner edge highlight gives it dimension; the
-   strong saturate boost brings out the warmth of whatever's behind. */
-.loc-btn {
+/* ─── Buttons — true frosted glass, no borders, white text ───────────────
+   One unified recipe matching the "Continue your study plan" prompt
+   row in the dashboard: 16% white tint, heavy blur + saturate, white
+   text, no border, no inset highlight. Sits over photo or parchment
+   the same way; whatever's behind it bleeds through. */
+.loc-btn,
+.loc-btn--solid,
+.loc-btn--ghost,
+.loc-btn--outline {
   position: relative;
   display: inline-flex;
   align-items: center;
@@ -69,59 +71,27 @@ html[data-reader-theme="dark"] {
   text-decoration: none;
   cursor: pointer;
   letter-spacing: 0.005em;
-  background: rgba(255, 255, 255, 0.38);
-  -webkit-backdrop-filter: blur(22px) saturate(180%);
-  backdrop-filter: blur(22px) saturate(180%);
-  color: var(--vesper-compline);
-  border: 1px solid rgba(255, 255, 255, 0.50);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.55),
-    0 6px 20px -8px rgba(26, 22, 18, 0.20);
-  transition:
-    transform 0.18s cubic-bezier(0.2, 0.7, 0.2, 1),
-    background 0.2s ease,
-    border-color 0.18s ease,
-    box-shadow 0.2s ease;
+  background: rgba(255, 255, 255, 0.16);
+  -webkit-backdrop-filter: blur(24px) saturate(150%);
+  backdrop-filter: blur(24px) saturate(150%);
+  color: #FFFFFF;
+  border: none;
+  box-shadow: 0 6px 20px -8px rgba(26, 22, 18, 0.18);
+  transition: transform 0.18s cubic-bezier(0.2, 0.7, 0.2, 1),
+              background 0.2s ease;
   isolation: isolate;
 }
-.loc-btn:hover {
+.loc-btn:hover,
+.loc-btn--solid:hover,
+.loc-btn--ghost:hover,
+.loc-btn--outline:hover {
   transform: translateY(-1px);
-  background: rgba(255, 255, 255, 0.55);
-  border-color: rgba(255, 255, 255, 0.70);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.65),
-    0 10px 26px -10px rgba(26, 22, 18, 0.24);
-}
-.loc-btn:active { transform: scale(0.97); }
-
-/* The legacy hero ghost variant sits on the very darkest part of the
-   hero veil, where the standard recipe's dark text gets crushed.
-   Override it to white text + a slightly lower-opacity frost. */
-.loc-btn--ghost {
-  background: rgba(255, 255, 255, 0.16);
-  color: #FFFFFF;
-  border-color: rgba(255, 255, 255, 0.36);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.38),
-    0 6px 20px -8px rgba(0, 0, 0, 0.30);
-}
-.loc-btn--ghost:hover {
   background: rgba(255, 255, 255, 0.26);
-  color: #FFFFFF;
-  border-color: rgba(255, 255, 255, 0.55);
 }
-
-/* Dark theme: lift the frost slightly so dark text still has contrast
-   against the deeper Cloister Indigo surfaces. */
-html[data-reader-theme="dark"] .loc-btn {
-  background: rgba(255, 255, 255, 0.20);
-  border-color: rgba(255, 255, 255, 0.30);
-  color: var(--vesper-parchment);
-}
-html[data-reader-theme="dark"] .loc-btn:hover {
-  background: rgba(255, 255, 255, 0.32);
-  border-color: rgba(255, 255, 255, 0.45);
-}
+.loc-btn:active,
+.loc-btn--solid:active,
+.loc-btn--ghost:active,
+.loc-btn--outline:active { transform: scale(0.97); }
 
 /* ─── 1. Hero — 100vh, bottom-aligned ───────────────────────────────── */
 .loc-hero {
@@ -1260,7 +1230,6 @@ html[data-reader-theme="dark"] .loc-stats {
 }
 
 .loc-dash__avatar {
-  /* Flat frosted circle — no inner glow, no shadow lift. */
   flex: 0 0 auto;
   width: 42px;
   height: 42px;
@@ -1269,9 +1238,9 @@ html[data-reader-theme="dark"] .loc-stats {
   align-items: center;
   justify-content: center;
   background: rgba(255, 255, 255, 0.16);
-  -webkit-backdrop-filter: blur(18px) saturate(140%);
-  backdrop-filter: blur(18px) saturate(140%);
-  border: 1px solid rgba(255, 255, 255, 0.22);
+  -webkit-backdrop-filter: blur(24px) saturate(150%);
+  backdrop-filter: blur(24px) saturate(150%);
+  border: none;
   color: #FFFFFF;
 }
 
@@ -1305,15 +1274,14 @@ html[data-reader-theme="dark"] .loc-stats {
 }
 
 .loc-dash__more {
-  /* Flat frosted circle to match the avatar. */
   flex: 0 0 auto;
   width: 38px;
   height: 38px;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.22);
-  background: rgba(255, 255, 255, 0.14);
-  -webkit-backdrop-filter: blur(18px) saturate(140%);
-  backdrop-filter: blur(18px) saturate(140%);
+  border: none;
+  background: rgba(255, 255, 255, 0.16);
+  -webkit-backdrop-filter: blur(24px) saturate(150%);
+  backdrop-filter: blur(24px) saturate(150%);
   color: #FFFFFF;
   cursor: pointer;
   display: inline-flex;
@@ -1321,7 +1289,7 @@ html[data-reader-theme="dark"] .loc-stats {
   justify-content: center;
   transition: background 0.2s ease;
 }
-.loc-dash__more:hover { background: rgba(255, 255, 255, 0.22); }
+.loc-dash__more:hover { background: rgba(255, 255, 255, 0.26); }
 
 /* ── Reflection headline ────────────────────────────── */
 .loc-dash__eyebrow {
@@ -1463,6 +1431,7 @@ html[data-reader-theme="dark"] .loc-stats {
 }
 
 .loc-dash__card-cta {
+  /* Same frost recipe as every other button — white text, no border. */
   display: block;
   width: 100%;
   padding: 0.85rem 1rem;
@@ -1473,20 +1442,17 @@ html[data-reader-theme="dark"] .loc-stats {
   font-weight: 600;
   letter-spacing: -0.005em;
   color: #FFFFFF;
-  /* Frosted charcoal pill — matches the reference's "Need Solutions?". */
-  background: rgba(26, 22, 18, 0.55);
-  -webkit-backdrop-filter: blur(18px) saturate(140%);
-  backdrop-filter: blur(18px) saturate(140%);
-  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.16);
+  -webkit-backdrop-filter: blur(24px) saturate(150%);
+  backdrop-filter: blur(24px) saturate(150%);
+  border: none;
   transition: background 0.2s ease;
 }
 .loc-dash__card-cta:hover {
-  background: rgba(26, 22, 18, 0.75);
+  background: rgba(255, 255, 255, 0.26);
 }
 
-/* ── Prompt rows — frosted with white text ───────────────────────────────
-   Same frosted pane as the card, white text floats on top, the photo
-   continues bleeding through. */
+/* ── Prompt rows — same frost recipe (no border) ─────────────────────── */
 .loc-dash__row {
   display: flex;
   align-items: center;
@@ -1499,12 +1465,11 @@ html[data-reader-theme="dark"] .loc-stats {
   background: rgba(255, 255, 255, 0.16);
   -webkit-backdrop-filter: blur(24px) saturate(150%);
   backdrop-filter: blur(24px) saturate(150%);
-  border: 1px solid rgba(255, 255, 255, 0.22);
-  transition: background 0.2s ease, border-color 0.18s ease;
+  border: none;
+  transition: background 0.2s ease;
 }
 .loc-dash__row:hover {
-  background: rgba(255, 255, 255, 0.24);
-  border-color: rgba(255, 255, 255, 0.32);
+  background: rgba(255, 255, 255, 0.26);
 }
 
 .loc-dash__row-label {
@@ -1515,25 +1480,31 @@ html[data-reader-theme="dark"] .loc-stats {
 }
 
 .loc-dash__row-pill {
+  /* Same frost recipe as every other button. */
   flex: 0 0 auto;
   padding: 0.4rem 0.95rem;
   border-radius: 999px;
-  background: #FFFFFF;
-  color: var(--vesper-compline);
+  background: rgba(255, 255, 255, 0.22);
+  -webkit-backdrop-filter: blur(20px) saturate(150%);
+  backdrop-filter: blur(20px) saturate(150%);
+  color: #FFFFFF;
   font-size: 0.8125rem;
   font-weight: 700;
   letter-spacing: 0.005em;
-  border: 1px solid rgba(255, 255, 255, 0.4);
+  border: none;
 }
 
 .loc-dash__row-add {
+  /* Same frost recipe at circle scale. */
   flex: 0 0 auto;
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.20);
-  border: 1px solid rgba(255, 255, 255, 0.30);
+  background: rgba(255, 255, 255, 0.22);
+  -webkit-backdrop-filter: blur(20px) saturate(150%);
+  backdrop-filter: blur(20px) saturate(150%);
   color: #FFFFFF;
+  border: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;
