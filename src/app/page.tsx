@@ -4,6 +4,7 @@ import { getCuratedHighlights } from '@/lib/supabase';
 import ArtArches from '@/components/ArtArches';
 import AppDashboard from '@/components/AppDashboard';
 import StudyShowcase from '@/components/StudyShowcase';
+import HeroVideoBackground from '@/components/HeroVideoBackground';
 import './home.css';
 
 // ─── ISR ───
@@ -38,6 +39,9 @@ export default async function Home() {
     <>
       {/* ═══════════ 1. Hero — full viewport, bottom-aligned ═══════════ */}
       <section className="loc-hero">
+        {/* Looping YouTube background, ends at 0:57 to skip the logo. */}
+        <HeroVideoBackground />
+        {/* Static fallback shown while the video loads (or if YT fails). */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={IMG.hero}

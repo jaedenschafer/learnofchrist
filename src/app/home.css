@@ -320,9 +320,37 @@ html[data-reader-theme="dark"] {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: -2;
+  z-index: -3;  /* sits below the video so it acts as a fallback. */
   /* Subtle slow zoom so the still photo feels alive. */
   animation: locHeroZoom 24s ease-out forwards;
+}
+
+/* ── Hero video background (YouTube iframe, scaled to "cover") ─────────
+   Aspect-ratio fill: the iframe is 16:9, so we set width to 100vw and
+   height to 56.25vw (which is 9/16 × 100). Then min-height/min-width
+   ensure the iframe always covers the viewport regardless of the
+   parent's aspect ratio. Centered with translate(-50%, -50%). */
+.loc-hero__video {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  overflow: hidden;
+  pointer-events: none;
+  /* Slight darkening so the white type still reads — mirrors the
+     existing hero veil. The .loc-hero__veil layer adds the rest. */
+}
+.loc-hero__video #hero-video,
+.loc-hero__video iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 56.25vw;          /* 16:9 of viewport width */
+  min-height: 100vh;
+  min-width: 177.78vh;      /* 16/9 of viewport height */
+  transform: translate(-50%, -50%);
+  border: 0;
+  pointer-events: none;
 }
 
 @keyframes locHeroZoom {
