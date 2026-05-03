@@ -318,7 +318,7 @@ export const NUMBERS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'basar-burden',
           html:
-            'Moses parries with the same word the people used: "flesh." He is saying, in effect, where am I supposed to get meat for all this people? He is being literal and sarcastic at once. The people are asking the impossible. And he is the one being crushed by it.',
+            'Moses parries with the same word the people used: "flesh." He is saying, in effect, where am I supposed to get meat for all this people [res:sefaria-complaining-manna]? He is being literal and sarcastic at once. The people are asking the impossible. And he is the one being crushed by it.',
         },
         {
           kind: 'commentary',
@@ -514,7 +514,7 @@ export const NUMBERS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'prophecy-eldad',
           html:
-            'The fact that they prophesy is reported as a breach of protocol. But look at Moses&apos; response. He does not see a problem. He sees instead the fulfillment of a hope.',
+            'The fact that they prophesy is reported as a breach of protocol [res:bible-odyssey-spirit-distribution]. But look at Moses&apos; response. He does not see a problem. He sees instead the fulfillment of a hope.',
         },
         {
           kind: 'hebrew',
@@ -627,7 +627,7 @@ export const NUMBERS_11: RichChapterContent = {
           script: 'קִבְרוֹת הַתַּאֲוָה',
           translit: '<strong>kivrót ha-ta&apos;avá</strong> · graves of craving, lust',
           description:
-            'The name of the place is a warning written into the map. These graves mark the spot where hunger became death. Every time Israel passes, they remember: craving is a grave.',
+            'The name of the place is a warning written into the map [res:sefaria-kibroth-craving]. These graves mark the spot where hunger became death. Every time Israel passes, they remember: craving is a grave.',
         },
         {
           kind: 'hebrew',
@@ -672,6 +672,33 @@ export const NUMBERS_11: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Numbers 11 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-complaining-manna',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 11 — Craving and Complaint in the Wilderness',
+      url: 'https://www.sefaria.org/Numbers.11',
+      description: 'Talmudic and rabbinic commentary on Israel&apos;s complaint against the manna, Moses&apos; burden of leadership, the distribution of the Spirit, and the graves of craving as judgment for appetite untethered from gratitude.',
+    },
+    {
+      id: 'bible-odyssey-spirit-distribution',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Distribution of the Spirit — Eldad and Medad',
+      url: 'https://www.bibleodyssey.org/dictionary/eldad/',
+      description: 'Overview of the Spirit&apos;s outpouring on the seventy elders and the unexpected prophecy of Eldad and Medad, showing God&apos;s Spirit moves beyond formal protocols and designated places.',
+    },
+    {
+      id: 'sefaria-kibroth-craving',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Kibroth-hattaavah — The Graves of Craving',
+      url: 'https://www.sefaria.org/Numbers.11.34',
+      description: 'Rabbinic commentary on the place name as warning, the nature of appetite versus hunger for righteousness, and the judgment that follows when desire becomes the measure of faith.',
+    },
+  ],
 
   hasHebrew: true,
 };

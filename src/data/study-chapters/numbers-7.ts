@@ -121,7 +121,7 @@ export const NUMBERS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'service-access',
           html:
-            'The princes first offer wagons and oxen for the Levites&apos; service. The infrastructure of worship is being provided. The tabernacle now stands anointed, and the people are preparing to serve in it. But before the individual offerings for dedication begin, this gift is given—a gift that enables others to do the work of the sanctuary. Service flows from the willingness of the people to provide not just themselves, but the tools others need.',
+            'The princes first offer wagons and oxen for the Levites&apos; service. The infrastructure of worship is being provided. The tabernacle now stands anointed, and the people are preparing to serve in it. But before the individual offerings for dedication begin, this gift is given—a gift that enables others to do the work of the sanctuary. Service flows from the willingness of the people to provide not just themselves, but the tools others need[res:sefaria-altar-dedication][res:bible-odyssey-tabernacle-dedication].',
         },
         {
           kind: 'carry',
@@ -807,7 +807,7 @@ export const NUMBERS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'god-speaks',
           html:
-            'Moses enters the tabernacle. The offerings have been made. The altar is dedicated. The names have been spoken. And now—God speaks. Not to rebuke. Not to demand. To converse. To speak to Moses "face to face," as it will later be said, "as a man speaketh unto his friend." The twelve days of offerings, the repetition, the names—all of it has opened the way for this. This is what faithfulness does. It opens conversation. It creates access. It makes room for the voice of God to be heard.',
+            'Moses enters the tabernacle[res:sefaria-mercy-seat]. The offerings have been made. The altar is dedicated. The names have been spoken. And now—God speaks. Not to rebuke. Not to demand. To converse. To speak to Moses "face to face," as it will later be said, "as a man speaketh unto his friend." The twelve days of offerings, the repetition, the names—all of it has opened the way for this. This is what faithfulness does. It opens conversation. It creates access. It makes room for the voice of God to be heard.',
         },
         {
           kind: 'divider',
@@ -823,6 +823,33 @@ export const NUMBERS_7: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Numbers 7 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-altar-dedication',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 7 — Dedication of the Altar',
+      url: 'https://www.sefaria.org/Numbers.7',
+      description: 'Analysis of the twelve days of tribal offerings for the tabernacle altar dedication, with medieval commentary on each tribe&apos;s identical yet individual gifts.',
+    },
+    {
+      id: 'bible-odyssey-tabernacle-dedication',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Tabernacle Dedication Ritual',
+      url: 'https://www.bibleodyssey.org/dictionary/tabernacle/',
+      description: 'Overview of the tabernacle consecration ceremony, the role of tribal leaders, and the significance of the altar&apos;s anointing for Israel&apos;s worship.',
+    },
+    {
+      id: 'sefaria-mercy-seat',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Mercy Seat and God&apos;s Presence',
+      url: 'https://www.sefaria.org/Exodus.25.17',
+      description: 'Explanation of the kapporet (mercy seat) atop the ark of the covenant and its role as the place where God speaks to Moses and Israel.',
+    },
+  ],
 
   hasHebrew: true,
 };

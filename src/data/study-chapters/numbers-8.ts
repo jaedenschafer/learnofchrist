@@ -28,7 +28,7 @@ export const NUMBERS_8: RichChapterContent = {
           ],
         },
         { kind: 'commentary', id: 'moses-spoke', html: 'The instruction comes to Moses, who passes it to Aaron. This is the chain of command in the tabernacle—the LORD speaks the vision, Moses interprets it, Aaron and his sons execute it. In Numbers 8, Aaron is reminded of his primary responsibility: to tend the light that makes priestly work possible.' },
-        { kind: 'hebrew', id: 'hebrew-menorah', title: 'Menorah — &ldquo;the seven lamps&rdquo;', script: 'מְנוֹרָה', translit: '<strong>menorah</strong> · a stand with seven oil lamps', description: 'The menorah is a symbol of the presence of God and the light He sheds on His work. In Exodus 25, God instructs Israel to make it of pure gold, hammered thin—a single piece of metal shaped by hand, with the center lamp flanked by three branches on each side.' },
+        { kind: 'hebrew', id: 'hebrew-menorah', title: 'Menorah — &ldquo;the seven lamps&rdquo;', script: 'מְנוֹרָה', translit: '<strong>menorah</strong> · a stand with seven oil lamps', description: 'The menorah[res:bible-odyssey-menorah] is a symbol of the presence of God and the light He sheds on His work. In Exodus 25, God instructs Israel to make it of pure gold, hammered thin—a single piece of metal shaped by hand, with the center lamp flanked by three branches on each side.' },
         { kind: 'commentary', id: 'c-menorah-stand', html: 'The "candlestick" or stand itself is not the focus here—Aaron\'s job is the lamps. The lamps give light "over against"—in front of—the stand. A priest works in the holy place by the light of these lamps. The work of mediation, intercession, and worship happens in light that God provides.' },
         {
           kind: 'scripture',
@@ -142,7 +142,7 @@ export const NUMBERS_8: RichChapterContent = {
             { number: 21, spans: [t('And the Levites were '), hg('purified, and they washed their clothes', 'c-washed'), t('; and Aaron offered them as an offering before the LORD; and Aaron made an atonement for them to cleanse them.')] },
           ],
         },
-        { kind: 'commentary', id: 'c-washed', html: 'The ceremony is completed. The Levites are washed, cleansed, and offered. Aaron—the mediator between God and the people—performs the atonement. The role is now secure; the tribe of Levi is set apart, and the service can begin.' },
+        { kind: 'commentary', id: 'c-washed', html: 'The ceremony is completed[res:sefaria-levite-consecration]. The Levites are washed, cleansed, and offered. Aaron—the mediator between God and the people—performs the atonement. The role is now secure; the tribe of Levi is set apart, and the service can begin.' },
         {
           kind: 'scripture',
           chapter: 8,
@@ -174,4 +174,31 @@ export const NUMBERS_8: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Numbers 8 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-levite-consecration',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 8 — Levite Consecration',
+      url: 'https://www.sefaria.org/Numbers.8',
+      description: 'Talmudic and rabbinic commentary on the Levite cleansing ritual, the laying on of hands ceremony, and the wave offering of the entire tribe[res:sefaria-wave-offering].',
+    },
+    {
+      id: 'bible-odyssey-menorah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Menorah — Symbol of God&apos;s Light',
+      url: 'https://www.bibleodyssey.org/dictionary/menorah/',
+      description: 'Explanation of the seven-branched menorah, its construction, symbolism as the light of God&apos;s presence, and its significance in temple worship and Jewish tradition.',
+    },
+    {
+      id: 'sefaria-wave-offering',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Wave Offerings and Priestly Service',
+      url: 'https://www.sefaria.org/Leviticus.23.15',
+      description: 'Overview of the wave offering ceremony and its meaning as a presentation of Israel&apos;s gifts and firstborn to the LORD, with the Levites as the living wave offering.',
+    },
+  ],
 };

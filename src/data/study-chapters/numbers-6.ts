@@ -62,7 +62,7 @@ export const NUMBERS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'nazir-vow',
           html:
-            'The Nazarite vow is entirely voluntary. Unlike the priesthood, which was born into the tribe of Levi, any man or woman could make this vow — for 30 days, a year, or a lifetime. It was a way to say, in visible terms, "My allegiance belongs to God alone." The vow was not condemning the ordinary life of wine and family; it was simply choosing to live a season (or a lifetime) visibly marked for the LORD.',
+            'The Nazarite vow is entirely voluntary. Unlike the priesthood, which was born into the tribe of Levi, any man or woman could make this vow — for 30 days, a year, or a lifetime. It was a way to say, in visible terms, "My allegiance belongs to God alone." The vow was not condemning the ordinary life of wine and family; it was simply choosing to live a season (or a lifetime) visibly marked for the LORD[res:israel-museum-priestly-blessing].',
         },
         {
           kind: 'scripture',
@@ -278,7 +278,7 @@ export const NUMBERS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'shave-completion',
           html:
-            'When the vow was complete, the Nazarite shaved their head and placed that unshorn hair in the fire of the peace offering. The visible sign of separation was consumed before the LORD — a way of saying that the time of separation had ended, that the vow had been fulfilled and witnessed. The hair that had marked them as set apart now returned to God in fire.',
+            'When the vow was complete[res:sefaria-nazirite-vow], the Nazarite shaved their head and placed that unshorn hair in the fire of the peace offering. The visible sign of separation was consumed before the LORD — a way of saying that the time of separation had ended, that the vow had been fulfilled and witnessed. The hair that had marked them as set apart now returned to God in fire.',
         },
         {
           kind: 'scripture',
@@ -424,7 +424,7 @@ export const NUMBERS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'aaronic-bless-three',
           html:
-            'The blessing concludes with the third name of the LORD and the final twofold action: lift up His countenance, and give peace. <em>Lift up His countenance</em> means to turn your face toward someone with favor, to regard them kindly. It is the opposite of having your face hidden, your prayer unheard, your presence ignored. To have the LORD&apos;s face lifted toward you is to know you are seen, regarded, and loved. <em>Peace</em> — <em>shalom</em> in Hebrew — is not mere absence of conflict. It is wholeness, completeness, nothing lacking. It is the integration of all your scattered pieces, the end of striving, the rest of being fully known and fully accepted.',
+            'The blessing concludes with the third name of the LORD and the final twofold action: lift up His countenance, and give peace[res:ketef-hinnom-silver-scrolls]. <em>Lift up His countenance</em> means to turn your face toward someone with favor, to regard them kindly. It is the opposite of having your face hidden, your prayer unheard, your presence ignored. To have the LORD&apos;s face lifted toward you is to know you are seen, regarded, and loved. <em>Peace</em> — <em>shalom</em> in Hebrew — is not mere absence of conflict. It is wholeness, completeness, nothing lacking. It is the integration of all your scattered pieces, the end of striving, the rest of being fully known and fully accepted.',
         },
         {
           kind: 'hebrew',
@@ -509,6 +509,33 @@ export const NUMBERS_6: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Numbers 6:24–26 · The Aaronic Blessing',
   },
+
+  resources: [
+    {
+      id: 'sefaria-nazirite-vow',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 6 — The Nazirite Vow',
+      url: 'https://www.sefaria.org/Numbers.6',
+      description: 'Detailed laws governing the Nazirite vow, including abstention from wine, uncut hair, and contact with death, with medieval and Talmudic commentary.',
+    },
+    {
+      id: 'ketef-hinnom-silver-scrolls',
+      kind: 'archaeology',
+      source: 'IAA (Israel Antiquities Authority)',
+      label: 'Ketef Hinnom Silver Scrolls',
+      url: 'https://www.antiquities.org.il/article-32-en/ketef-hinnom.aspx',
+      description: 'Amulets from the 7th century BCE inscribed with the Aaronic Blessing (Numbers 6:24–26) — the earliest known biblical text, proving the blessing&apos;s antiquity and liturgical use.',
+    },
+    {
+      id: 'israel-museum-priestly-blessing',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'The Priestly Blessing in Ancient Judaism',
+      url: 'https://www.imj.org.il',
+      description: 'Exhibition and scholarly resources on the Aaronic Blessing&apos;s role in Jewish liturgy and its appearance in early inscriptions and manuscripts.',
+    },
+  ],
 
   hasHebrew: true,
 };

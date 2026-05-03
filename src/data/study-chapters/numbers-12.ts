@@ -263,7 +263,7 @@ export const NUMBERS_12: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'Jealousy of God\'s choice of leaders dies when you see what they truly have and what they truly bear. The burden that makes someone "faithful in all God\'s house" is not something to envy — it is something to honor. And when you see how much God loves someone, your job is not to resent them but to respect what He has entrusted to them.',
+            'Jealousy of God\'s choice of leaders dies when you see what they truly have and what they truly bear [res:bible-odyssey-priestly-intimacy]. The burden that makes someone "faithful in all God\'s house" is not something to envy — it is something to honor. And when you see how much God loves someone, your job is not to resent them but to respect what He has entrusted to them.',
         },
       ],
     },
@@ -405,7 +405,7 @@ export const NUMBERS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'c-seven-days',
           html:
-            'Miriam must be separated from the camp for seven days — not as execution, but as cleansing and restoration. The seven days are a period of healing and forgiveness. She is not cast out forever; she is shut out temporarily.',
+            'Miriam must be separated from the camp for seven days [res:sefaria-leprosy-cleansing] — not as execution, but as cleansing and restoration. The seven days are a period of healing and forgiveness. She is not cast out forever; she is shut out temporarily.',
         },
 
         {
@@ -442,7 +442,7 @@ export const NUMBERS_12: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'When you resent what God has given someone else, you don\'t hurt them — you hurt yourself. Miriam\'s leprosy came not because she married outside the faith or because she held a different theology. It came because she could not bear that God chose Moses. And the cost fell on her — and on all of Israel, waiting seven days in the camp. Jealousy always costs more than the thing you\'re jealous of was ever worth.',
+            'When you resent what God has given someone else, you don\'t hurt them — you hurt yourself [res:sefaria-miriam-leprosy]. Miriam\'s leprosy came not because she married outside the faith or because she held a different theology. It came because she could not bear that God chose Moses. And the cost fell on her — and on all of Israel, waiting seven days in the camp. Jealousy always costs more than the thing you\'re jealous of was ever worth.',
         },
         {
           kind: 'reflection',
@@ -451,6 +451,33 @@ export const NUMBERS_12: RichChapterContent = {
             'Is there someone in your life — a leader, a peer, a family member — to whom God has given something you don\'t have? Can you pray for them instead of resent them? What changes if you do?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-miriam-leprosy',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 12 — Miriam&apos;s Leprosy and the Limits of Jealousy',
+      url: 'https://www.sefaria.org/Numbers.12',
+      description: 'Talmudic and rabbinic commentary on Miriam&apos;s jealousy of Moses, the punishment of leprosy as a consequence of speaking against a leader, and the theological principle that murmuring against God&apos;s anointed carries weight.',
+    },
+    {
+      id: 'bible-odyssey-priestly-intimacy',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Moses and God&apos;s Face-to-Face Intimacy',
+      url: 'https://www.bibleodyssey.org/dictionary/moses/',
+      description: 'Overview of Moses&apos; unique privilege of face-to-face communion with God, the contrast with other prophets, and the intertextual link to Christ as the ultimate revealer of God&apos;s person.',
+    },
+    {
+      id: 'sefaria-leprosy-cleansing',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leprosy and Ritual Impurity in Israel',
+      url: 'https://www.sefaria.org/Leviticus.13',
+      description: 'Rabbinic commentary on leprosy as a sign of ritual impurity, its relationship to speech and murmuring, and the seven-day separation and restoration pattern as a path to healing.',
     },
   ],
 };

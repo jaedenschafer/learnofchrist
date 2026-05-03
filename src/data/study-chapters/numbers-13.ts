@@ -49,7 +49,7 @@ export const NUMBERS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'num13-paran',
           html:
-            'Paran is the wilderness south of Canaan where Israel has been camped since receiving the law at Mount Sinai. This is the staging ground. The promised land is at the edge of sight.',
+            'Paran is the wilderness south of Canaan where Israel has been camped since receiving the law at Mount Sinai. This is the staging ground. The promised land is at the edge of sight[res:sefaria-spies-canaan][res:bible-odyssey-promised-land].',
         },
         {
           kind: 'commentary',
@@ -318,7 +318,7 @@ export const NUMBERS_13: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'Somewhere right now, you are being asked to believe God while ten voices — even ten credible voices, even ten voices from people you respect — insist that belief is foolish. Caleb did not become more faithful because the majority agreed. He held his conviction alone. That is the invitation here: not agreement, but allegiance. Can you say "we are well able" even when no one is saying it with you?',
+            'Somewhere right now, you are being asked to believe God while ten voices — even ten credible voices, even ten voices from people you respect — insist that belief is foolish [res:sefaria-joshua-caleb-faith]. Caleb did not become more faithful because the majority agreed. He held his conviction alone. That is the invitation here: not agreement, but allegiance. Can you say "we are well able" even when no one is saying it with you?',
         },
         {
           kind: 'reflection',
@@ -341,6 +341,33 @@ export const NUMBERS_13: RichChapterContent = {
       'The minority report of Joshua and Caleb against the ten — faith versus the evidence of fear. A study in how we walk by faith, not by sight.',
     ref: 'Numbers 13:30 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-spies-canaan',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 13 — The Twelve Spies and the Report of Canaan',
+      url: 'https://www.sefaria.org/Numbers.13',
+      description: 'Talmudic and rabbinic commentary on the spies&apos; mission, the contrast between Joshua and Caleb&apos;s faith-based report and the ten spies&apos; fear-based assessment, and the nature of unbelief.',
+    },
+    {
+      id: 'bible-odyssey-promised-land',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Promised Land — Faith Versus Sight',
+      url: 'https://www.bibleodyssey.org/dictionary/promised-land/',
+      description: 'Overview of Canaan as the land of promise, the nature of obstacles, and the contrast between those who walk by faith and those who walk by sight.',
+    },
+    {
+      id: 'sefaria-joshua-caleb-faith',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Joshua and Caleb — Faithful Scouts',
+      url: 'https://www.sefaria.org/Numbers.13.30',
+      description: 'Rabbinic commentary on the courage of Joshua and Caleb in standing against the majority, the theological significance of their faith, and their later reward of entering the land.',
+    },
+  ],
 
   hasHebrew: true,
 };

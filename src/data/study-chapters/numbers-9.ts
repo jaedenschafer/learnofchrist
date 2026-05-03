@@ -213,7 +213,7 @@ export const NUMBERS_9: RichChapterContent = {
           id: 'christ-second-passover',
           title: 'Christ Connection — Today, If You Will Hear',
           html:
-            'Hebrews 4:7 quotes Psalm 95: "To day, if ye will hear his voice, harden not your hearts." The point is not whether you kept the appointed time, but whether you hear God\'s voice when it comes. Jesus speaks of Himself as the Passover (1 Cor. 5:7). But His presence doesn\'t end with the calendar. If you missed the first hour, the first year, the first covenant—there is a second chance. God\'s grace is not locked to the calendar. It is locked to His character. He doesn\'t turn away the late-comer, the unclean, the one who missed the appointed time. He opens another door.',
+            'Hebrews 4:7 quotes Psalm 95: "To day, if ye will hear his voice, harden not your hearts." The point is not whether you kept the appointed time, but whether you hear God\'s voice when it comes. Jesus speaks of Himself as the Passover (1 Cor. 5:7). But His presence doesn\'t end with the calendar. If you missed the first hour, the first year, the first covenant—there is a second chance [res:sefaria-pesach-sheni]. God\'s grace is not locked to the calendar. It is locked to His character. He doesn\'t turn away the late-comer, the unclean, the one who missed the appointed time. He opens another door.',
         },
         {
           kind: 'commentary',
@@ -394,7 +394,7 @@ export const NUMBERS_9: RichChapterContent = {
           id: 'c-cloud-shekinah',
           title: 'Christ Connection — The Tabernacled Word',
           html:
-            'John 1:14 says the Word "made his dwelling among us" (ESV)—in some translations, "tabernacled" among us. The Greek is <em>eskēnōsen</em>, from <em>skēnē</em>, tent. Jesus is the Shekinah made flesh. The cloud that led Israel is the same God who walked in the flesh. The pillar that stopped and started is the same Word who said "Follow me." What Israel followed in the wilderness, we follow in the Gospel.',
+            'John 1:14 says the Word "made his dwelling among us" (ESV)—in some translations, "tabernacled" among us. The Greek is <em>eskēnōsen</em>, from <em>skēnē</em>, tent. Jesus is the Shekinah made flesh [res:bible-odyssey-shekinah-glory]. The cloud that led Israel is the same God who walked in the flesh. The pillar that stopped and started is the same Word who said "Follow me." What Israel followed in the wilderness, we follow in the Gospel.',
         },
         {
           kind: 'commentary',
@@ -406,7 +406,7 @@ export const NUMBERS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'c-by-commandment',
           html:
-            'The refrain repeats: "At the commandment of the LORD." Not the commandment of the cloud only, but the commandment behind the cloud—the will made visible. Israel learns to read movement as language. When the cloud rises, God is speaking: move. When it settles, God is speaking: rest. The wilderness is a school of listening.',
+            'The refrain repeats: "At the commandment of the LORD." Not the commandment of the cloud only, but the commandment behind the cloud—the will made visible [res:sefaria-divine-leading]. Israel learns to read movement as language. When the cloud rises, God is speaking: move. When it settles, God is speaking: rest. The wilderness is a school of listening.',
         },
         {
           kind: 'carry',
@@ -420,6 +420,33 @@ export const NUMBERS_9: RichChapterContent = {
             'What season are you in right now—moving or settled? If it\'s not the pace you\'d choose, what might the cloud be growing in you?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-pesach-sheni',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 9 — Second Passover (Pesach Sheni)',
+      url: 'https://www.sefaria.org/Numbers.9',
+      description: 'Talmudic and rabbinic interpretation of the second Passover provision for those unclean or distant, emphasizing God&apos;s grace beyond the appointed season.',
+    },
+    {
+      id: 'bible-odyssey-shekinah-glory',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Shekinah — God&apos;s Dwelling Glory',
+      url: 'https://www.bibleodyssey.org/dictionary/shekinah/',
+      description: 'Overview of the Shekinah as God&apos;s visible presence in cloud and fire, its role in leading Israel through the wilderness, and its significance in Jewish theology.',
+    },
+    {
+      id: 'sefaria-divine-leading',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Divine Leading and the Wilderness Journey',
+      url: 'https://www.sefaria.org/Exodus.13.17',
+      description: 'Rabbinic commentary on how God leads His people through visible signs and the principle that obedience to divine guidance supersedes human planning.',
     },
   ],
 

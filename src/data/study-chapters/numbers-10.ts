@@ -59,7 +59,7 @@ export const NUMBERS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'c-trumpet-signal',
           html:
-            'The trumpet has a language. Two blasts: the whole congregation gathers. One blast: the leaders assemble. Later in the chapter, a different kind of blast signals the camps to march. The same instrument carries different meanings depending on how it is sounded. The people learn to listen and obey.',
+            'The trumpet has a language [res:sefaria-silver-trumpets]. Two blasts: the whole congregation gathers. One blast: the leaders assemble. Later in the chapter, a different kind of blast signals the camps to march. The same instrument carries different meanings depending on how it is sounded. The people learn to listen and obey.',
         },
         {
           kind: 'christ',
@@ -312,7 +312,7 @@ export const NUMBERS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'c-ark-movement',
           html:
-            'When the ark moves, Moses prays. It is a prayer spoken in the moment of journey—not in the tabernacle, not in quiet prayer, but at the very moment the people begin to move forward. The prayer is an invocation: Rise up, scatter enemies, make a way. It is both confidence and plea. God, you have said you will do this. Now do it.',
+            'When the ark moves, Moses prays [res:bible-odyssey-ark-movement]. It is a prayer spoken in the moment of journey—not in the tabernacle, not in quiet prayer, but at the very moment the people begin to move forward. The prayer is an invocation: Rise up, scatter enemies, make a way. It is both confidence and plea. God, you have said you will do this. Now do it.',
         },
         {
           kind: 'christ',
@@ -332,7 +332,7 @@ export const NUMBERS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'c-return-lord',
           html:
-            'And when they stop, Moses prays again: Return. Return to the many thousands of Israel. It is a prayer for rest, for God\'s presence to settle where the people settle. Not "return" as in coming back from a distance, but "return to your place"—settle here with us. Be at home where we are at home. The prayer bookends the journey: rise up to lead, return to dwell. The whole rhythm of faith is in these two prayers.',
+            'And when they stop, Moses prays again [res:sefaria-rise-up-prayer]: Return. Return to the many thousands of Israel. It is a prayer for rest, for God\'s presence to settle where the people settle. Not "return" as in coming back from a distance, but "return to your place"—settle here with us. Be at home where we are at home. The prayer bookends the journey: rise up to lead, return to dwell. The whole rhythm of faith is in these two prayers.',
         },
         {
           kind: 'carry',
@@ -352,4 +352,31 @@ export const NUMBERS_10: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Numbers 10 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-silver-trumpets',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 10 — Silver Trumpets and the Great Departure',
+      url: 'https://www.sefaria.org/Numbers.10',
+      description: 'Rabbinic and Talmudic commentary on the significance of the silver trumpets, their different blasts, the order of march, and the timing of Israel&apos;s first departure from Sinai.',
+    },
+    {
+      id: 'bible-odyssey-ark-movement',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Ark of the Covenant — God&apos;s Traveling Presence',
+      url: 'https://www.bibleodyssey.org/dictionary/ark-of-the-covenant/',
+      description: 'Overview of the ark as the symbol of God&apos;s presence during the wilderness journey, its role in the order of march, and its significance in Israel&apos;s spiritual warfare and pilgrimage toward Canaan.',
+    },
+    {
+      id: 'sefaria-rise-up-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Prayers of Movement — Rise Up and Return',
+      url: 'https://www.sefaria.org/Numbers.10.35',
+      description: 'Talmudic discussion of Moses&apos; prayers at the movement and rest of the ark, their role in binding the people to God&apos;s guidance, and their intertextual connection to spiritual pilgrimage and warfare.',
+    },
+  ],
 };

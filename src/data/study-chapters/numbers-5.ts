@@ -81,7 +81,7 @@ export const NUMBERS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'num5-issue',
           html:
-            'An "issue" refers to any bodily discharge — leprosy, blood, any sign of contagion. These conditions mark a person as temporarily unclean and excluded from the congregation\'s holy space. It is not shame; it is a boundary. The camp is where God dwells, and the boundary separates the living from states associated with death.',
+            'An "issue" refers to any bodily discharge — leprosy, blood, any sign of contagion. These conditions mark a person as temporarily unclean and excluded from the congregation\'s holy space. It is not shame; it is a boundary. The camp is where God dwells, and the boundary separates the living from states associated with death[res:sefaria-restitution-guilt].',
         },
         {
           kind: 'hebrew',
@@ -455,7 +455,7 @@ export const NUMBERS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'num5-protection',
           html:
-            'What makes this ritual remarkable is what it does NOT allow. The husband cannot divorce on suspicion. He cannot condemn on his word alone. He cannot even punish based on jealousy. What he CAN do is bring his suspicion to God and ask God to judge. The test is public, witnessed, divine. The woman is not left at the mercy of her husband\'s doubts. She stands before the Lord.',
+            'What makes this ritual remarkable is what it does NOT allow[res:sefaria-sotah-ritual]. The husband cannot divorce on suspicion. He cannot condemn on his word alone. He cannot even punish based on jealousy. What he CAN do is bring his suspicion to God and ask God to judge[res:bible-odyssey-purity-laws]. The test is public, witnessed, divine. The woman is not left at the mercy of her husband&apos;s doubts. She stands before the Lord.',
         },
         {
           kind: 'christ',
@@ -488,6 +488,33 @@ export const NUMBERS_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Numbers 5 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-sotah-ritual',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 5 — The Sotah Ritual',
+      url: 'https://www.sefaria.org/Numbers.5',
+      description: 'Talmudic and medieval analysis of the bitter waters ordeal, the woman suspected of adultery, and the law&apos;s protection against unjust accusation.',
+    },
+    {
+      id: 'bible-odyssey-purity-laws',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Purity and Uncleanness',
+      url: 'https://www.bibleodyssey.org/dictionary/purity/',
+      description: 'Comprehensive overview of Levitical purity laws, including leprosy, bodily discharges, and the ritual cleansing separating the unclean from the holy community.',
+    },
+    {
+      id: 'sefaria-restitution-guilt',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Restitution and Guilt Offerings',
+      url: 'https://www.sefaria.org/Leviticus.5',
+      description: 'Laws governing restitution when one wrongs a neighbor, including confession, payment plus 20% compensation, and guilt offerings brought to the priest.',
+    },
+  ],
 
   hasHebrew: true,
 };

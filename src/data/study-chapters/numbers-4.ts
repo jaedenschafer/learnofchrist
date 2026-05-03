@@ -50,7 +50,7 @@ export const NUMBERS_4: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          html: 'A precise window: 30 to 50. Not the young, not the old. These are men in their strength and maturity—old enough to understand the weight of the work, young enough to bear it. They are the prime years, the years of greatest effectiveness. And it is no coincidence that this is the very age range when our Lord began His public ministry.',
+          html: 'A precise window: 30 to 50. Not the young, not the old. These are men in their strength and maturity—old enough to understand the weight of the work, young enough to bear it. They are the prime years, the years of greatest effectiveness. And it is no coincidence that this is the very age range when our Lord began His public ministry[res:sefaria-kohath-service][res:bible-odyssey-tabernacle-transport].',
         },
         {
           kind: 'hebrew',
@@ -95,7 +95,7 @@ export const NUMBERS_4: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'most-holy-things',
-          html: 'The Kohathites are responsible for the most holy things: the ark of the covenant, the table of shewbread, the golden lampstand, and the altars. These are not just furniture—they are the visible presence of the Lord among His people. Their care requires a preparation so meticulous that one careless moment becomes catastrophic.',
+          html: 'The Kohathites are responsible for the most holy things[res:sefaria-holiness-code]: the ark of the covenant, the table of shewbread, the golden lampstand, and the altars. These are not just furniture—they are the visible presence of the Lord among His people. Their care requires a preparation so meticulous that one careless moment becomes catastrophic.',
         },
         {
           kind: 'scripture',
@@ -244,6 +244,33 @@ export const NUMBERS_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Numbers 4 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-kohath-service',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 4 — The Kohathite Service',
+      url: 'https://www.sefaria.org/Numbers.4',
+      description: 'Detailed explanation of the three Levite clans&apos; specific duties in the tabernacle, with particular focus on the holiness code governing the Kohathites.',
+    },
+    {
+      id: 'bible-odyssey-tabernacle-transport',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Tabernacle Transport',
+      url: 'https://www.bibleodyssey.org/dictionary/tabernacle/',
+      description: 'Overview of how Israel transported the tabernacle during the wilderness journeys, including the Levite responsibilities and divine instructions.',
+    },
+    {
+      id: 'sefaria-holiness-code',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Holiness and Sacred Objects',
+      url: 'https://www.sefaria.org/Leviticus.19.1',
+      description: 'Connection between the laws of holiness in Leviticus and the strict protocols for handling the ark and holy objects in Numbers 4.',
+    },
+  ],
 
   hasHebrew: true,
 };

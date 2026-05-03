@@ -47,7 +47,7 @@ export const NUMBERS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-militia',
           html:
-            'The census is not a general roll. It counts only men twenty and older who can fight — Israel&apos;s militia. They are not being drafted yet; the text simply wants them numbered, accounted for, known. In a wilderness camp of perhaps two million people, the presence of God demands precision about who belongs.',
+            'The census is not a general roll. It counts only men twenty and older who can fight — Israel&apos;s militia. They are not being drafted yet; the text simply wants them numbered, accounted for, known. In a wilderness camp of perhaps two million people, the presence of God demands precision about who belongs[res:sefaria-census-israel].',
         },
         {
           kind: 'hebrew',

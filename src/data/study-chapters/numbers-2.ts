@@ -48,7 +48,7 @@ export const NUMBERS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'nums2-camp-order',
           html:
-            'The word &ldquo;standard&rdquo; is <em>degel</em>, the banner or flag under which each tribe camps[res:bible-odyssey-tribal-standards]. Each family knew which tribe&apos;s banner to look for, which section of the camp was theirs. The camp was not a chaotic swarm — it was a militia, an assembly, a people organized around something larger than themselves. And at the center of that organization: the tabernacle.',
+            'The word &ldquo;standard&rdquo; is <em>degel</em>, the banner or flag under which each tribe camps[res:bible-odyssey-tribal-standards]. Each family knew which tribe&apos;s banner to look for, which section of the camp was theirs. The camp was not a chaotic swarm — it was a militia, an assembly, a people organized around something larger than themselves. And at the center of that organization: the tabernacle[res:sefaria-camp-arrangement].',
         },
 
         {
