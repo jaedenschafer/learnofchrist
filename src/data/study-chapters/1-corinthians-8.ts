@@ -165,7 +165,7 @@ export const FIRST_CORINTHIANS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'cor8-idol-nothing',
           html:
-            'Now Paul moves to the actual question: meat offered to idols. The logical answer is straightforward: "An idol is nothing in the world." Idols have no power. They are wood or stone, not gods. The Corinthian who eats the meat is not yielding to the idol. The idol is not real.',
+            'Now Paul moves to the actual question: meat offered to idols[res:bibleodyssey-temple-commerce]. The logical answer is straightforward: "An idol is nothing in the world." Idols have no power. They are wood or stone, not gods. The Corinthian who eats the meat is not yielding to the idol. The idol is not real.',
         },
         {
           kind: 'greek',
@@ -174,13 +174,13 @@ export const FIRST_CORINTHIANS_8: RichChapterContent = {
           script: 'εἴδωλον',
           translit: '<strong>eidōlon</strong> · idol; image; phantom; something with the appearance but not the reality',
           description:
-            'An eidōlon looks like something. It has shape, has presence. But it is not what it appears to be. It has no real power. Paul is telling the Corinthians: your fear of the idol is bigger than the idol itself.',
+            'An eidōlon looks like something[res:perseus-eidolon-lexicon]. It has shape, has presence. But it is not what it appears to be. It has no real power. Paul is telling the Corinthians: your fear of the idol is bigger than the idol itself.',
         },
         {
           kind: 'commentary',
           id: 'cor8-one-god',
           html:
-            '"There is none other God but one." This is the confession. One God. Not the many idols the Corinthians grew up fearing. Not the gods of their neighbors. One God. The logic is airtight. If there is one God, then idols are nothing. Therefore, eating meat offered to idols should pose no spiritual problem. And yet Paul is about to overturn this logic entirely.',
+            '"There is none other God but one." This is the confession[res:sefaria-deuteronomy-6-shema]. One God. Not the many idols the Corinthians grew up fearing. Not the gods of their neighbors. One God. The logic is airtight. If there is one God, then idols are nothing. Therefore, eating meat offered to idols should pose no spiritual problem. And yet Paul is about to overturn this logic entirely.',
         },
         {
           kind: 'carry',
@@ -358,7 +358,7 @@ export const FIRST_CORINTHIANS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'cor8-emboldened',
           html:
-            'The weak believer sees the strong one eating there. "If they do it, maybe I can too." The conscience that has been saying "No, this is idolatry, you cannot" suddenly yields. The weak believer, pressured by the example of the strong, eats the meat against their own conscience. And in that moment, their faith sustains a wound.',
+            'The weak believer sees the strong one eating there. "If they do it, maybe I can too." The conscience that has been saying "No, this is idolatry, you cannot" suddenly yields. The weak believer, pressured by the example of the strong, eats the meat against their own conscience[res:apostolic-decree-acts-15-intertextual]. And in that moment, their faith sustains a wound.',
         },
         {
           kind: 'carry',
@@ -528,6 +528,41 @@ export const FIRST_CORINTHIANS_8: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Corinthians 8 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-temple-commerce',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Temple Commerce and the Macellum',
+      url: 'https://www.bibleodyssey.org/explore/dictionary/marketplace/',
+      description: 'SBL reference on Greco-Roman meat markets and the macellum where sacrificed animals were sold to the public.',
+    },
+    {
+      id: 'sefaria-deuteronomy-6-shema',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 6 (The Shema)',
+      url: 'https://www.sefaria.org/Deuteronomy.6?lang=bi',
+      description: 'Full text and commentary on the Shema—"Hear O Israel, the Lord thy God is one Lord"—Israel&apos;s foundational confession of monotheism underlying Paul&apos;s claim at 1 Corinthians 8:4.',
+    },
+    {
+      id: 'perseus-eidolon-lexicon',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Eidōlon (εἴδωλον) — Idol',
+      url: 'https://www.perseus.tufts.edu/hopper/morph?l=%CE%B5%CE%AF%CE%B4%CF%89%CE%BB%CE%BF%CE%BD&la=greek',
+      description: 'Greek lexicon entries and morphological analysis of eidōlon, showing its roots and semantic field across classical and biblical texts.',
+    },
+    {
+      id: 'apostolic-decree-acts-15-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Apostolic Decree (Acts 15:20–29) and Idol Meat',
+      url: 'https://intertextual.bible/',
+      description: 'Cross-reference linking the Jerusalem Council&apos;s prohibition on idol meat (Acts 15:29) with Paul&apos;s nuanced teaching on the same subject in 1 Corinthians 8.',
+    },
+  ],
 
   hasHebrew: false,
 };

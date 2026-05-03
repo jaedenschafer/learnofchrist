@@ -50,7 +50,7 @@ export const FIRST_CORINTHIANS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'c7-marriage',
           html:
-            'Paul adds a word that shifts the whole discussion. Yes, continence is good. But marriage is also good—and for many, necessary. Marriage is not second-best spirituality; it is a remedy for human passion, a safeguard against fornication. It is also the normal context where a man and woman live as companions.',
+            'Paul adds a word that shifts the whole discussion. Yes, continence is good. But marriage is also good—and for many, necessary. Marriage is not second-best spirituality; it is a remedy for human passion, a safeguard against fornication. It is also the normal context where a man and woman live as companions. See the foundation in Genesis 2[res:sefaria-genesis-2], where God says &quot;It is not good that the man should be alone.&quot;',
         },
         {
           kind: 'greek',
@@ -90,7 +90,7 @@ export const FIRST_CORINTHIANS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'c7-benevolence',
           html:
-            'The word &quot;due benevolence&quot; is opheile — what is owed. A debt of kindness. Paul is saying something no pagan moralist of his era would say: a man and woman in marriage owe each other not just obedience or reproduction, but affection. Tenderness. Care.',
+            'The word &quot;due benevolence&quot; is opheile — what is owed. A debt of kindness. Paul is saying something no pagan moralist of his era would say: a man and woman in marriage owe each other not just obedience or reproduction, but affection. Tenderness. Care. This stands against Greco-Roman legal custom[res:theoi-greek-marriage], where wife and husband were often bound by duty rather than mutuality.',
         },
         {
           kind: 'scripture',
@@ -351,7 +351,7 @@ export const FIRST_CORINTHIANS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'c7-abide-god',
           html:
-            'Here is the key word: <em>abide</em>. Stay where you are. God has called you into a particular shape of life. The vocation is not the enemy. The failure to embrace it is.',
+            'Here is the key word: <em>abide</em>. Stay where you are. God has called you into a particular shape of life. The vocation is not the enemy. The failure to embrace it is. Paul applies this principle to the Corinthian household[res:ascsa-corinthian-households]—married and single alike remain in their calling, not as slaves to circumstance but as servants of Christ.',
         },
         {
           kind: 'scripture',
@@ -446,7 +446,7 @@ export const FIRST_CORINTHIANS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'c7-short',
           html:
-            'Whether Paul means the imminent return of Christ or the brevity of human life, the counsel is the same: do not treat temporary things as permanent. Do not let the world&apos;s goods, relationships, or status become your anchor.',
+            'Whether Paul means the imminent return of Christ or the brevity of human life, the counsel is the same: do not treat temporary things as permanent. Do not let the world&apos;s goods, relationships, or status become your anchor. This eschatological urgency[res:perseus-greek-discourse] shapes not just Paul&apos;s marital counsel but his entire ethical vision.',
         },
         {
           kind: 'scripture',
@@ -603,6 +603,41 @@ export const FIRST_CORINTHIANS_7: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Corinthians 7 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Genesis 2 — Creation of Woman',
+      url: 'https://www.sefaria.org/Genesis.2',
+      description: 'Jewish textual tradition on Adam and Eve&apos;s union — the foundation for Paul&apos;s theology of one flesh.',
+    },
+    {
+      id: 'theoi-greek-marriage',
+      kind: 'lexicon',
+      source: 'Theoi Classical Texts',
+      label: 'Greek Marriage Laws',
+      url: 'https://www.theoi.com/',
+      description: 'Greco-Roman marriage customs and legal requirements in Paul&apos;s world — context for his teaching on conjugal duty.',
+    },
+    {
+      id: 'ascsa-corinthian-households',
+      kind: 'archaeology',
+      source: 'ASCSA',
+      label: 'Corinthian Household Structures',
+      url: 'https://agora.ascsa.net/',
+      description: 'Archaeological evidence for first-century Corinthian domestic life and social hierarchy — the household Paul addresses.',
+    },
+    {
+      id: 'perseus-greek-discourse',
+      kind: 'archive',
+      source: 'Perseus Digital Library',
+      label: 'Paratactic Apostolic Counsel',
+      url: 'https://www.perseus.tufts.edu/hopper/',
+      description: 'Greek rhetorical patterns in Stoic and apostolic letters — models for Paul&apos;s style of reasoning in 1 Corinthians 7.',
+    },
+  ],
 
   hasHebrew: false,
 };

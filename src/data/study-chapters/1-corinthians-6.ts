@@ -429,7 +429,7 @@ export const FIRST_CORINTHIANS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'cor6-temple-holy-ghost',
           html:
-            'This is the chapter&apos;s climax. Your body—<em>soma</em>, the whole physical form—is a <em>naos</em>, a temple, the dwelling place of the Holy Spirit. In the Old Testament, the temple was where God&apos;s presence dwelled most intensely. That role has passed to you. Not your mind alone, not your spirit alone—your body. What you do with your flesh matters to God because God Himself lives there.',
+            'This is the chapter&apos;s climax. Your body[res:bibleodyssey-body]—<em>soma</em>[res:perseus-scaife-greek-soma], the whole physical form—is a <em>naos</em>, a temple, the dwelling place of the Holy Spirit. In the Old Testament[res:sefaria-genesis-224], the temple was where God&apos;s presence dwelled most intensely. That role has passed to you. Not your mind alone, not your spirit alone—your body. What you do with your flesh matters to God because God Himself lives there.',
         },
         {
           kind: 'greek',
@@ -503,6 +503,33 @@ export const FIRST_CORINTHIANS_6: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Corinthians 6 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-224',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Genesis 2:24 — Two Shall Become One Flesh',
+      url: 'https://www.sefaria.org/Genesis.2.24?lang=en',
+      description: 'The foundational text Paul cites in verse 16 — the covenant design for sexual union in marriage.',
+    },
+    {
+      id: 'bibleodyssey-body',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Body',
+      url: 'https://www.bibleodyssey.org/dictionary/body/',
+      description: 'SBL study entry on <em>soma</em> in biblical theology — the body as integral to personhood, not incidental to spirit.',
+    },
+    {
+      id: 'perseus-scaife-greek-soma',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Greek Lexicon — Soma (σῶμα)',
+      url: 'https://scaife.perseus.org/library/urn:cts:greekLit:tlg0540.tlg001/',
+      description: 'Lexical and textual evidence for the Greek word <em>soma</em> — body, flesh, person — across classical and biblical usage.',
+    },
+  ],
 
   hasHebrew: false,
 };

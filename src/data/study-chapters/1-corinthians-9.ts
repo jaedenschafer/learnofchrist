@@ -99,7 +99,7 @@ export const FIRST_CORINTHIANS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'c-power-eat',
           html:
-            'Paul lists his rights: the right to eat, to drink, to marry and have his wife supported while traveling. These are not luxuries. An apostle who labors in the gospel—who travels, teaches, endures hardship—has the right to food and shelter. This is Paul&apos;s first right. But he surrenders it.',
+            'Paul lists his rights[res:bibleodyssey-apostolic-authority]: the right to eat, to drink, to marry and have his wife supported while traveling. These are not luxuries. An apostle who labors in the gospel—who travels, teaches, endures hardship—has the right to food and shelter. This is Paul&apos;s first right. But he surrenders it.',
         },
         {
           kind: 'greek',
@@ -136,7 +136,7 @@ export const FIRST_CORINTHIANS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'c-muzzle',
           html:
-            'Paul draws from Deuteronomy 25:4: an ox working in the fields must be allowed to eat. The principle is simple and profound: the laborer deserves his wages. If God cares for an ox&apos;s hunger, how much more for an apostle&apos;s? Yet Paul—this ox—has muzzled himself.',
+            'Paul draws from Deuteronomy 25:4[res:sefaria-deut-25-4]: an ox working in the fields must be allowed to eat. The principle is simple and profound: the laborer deserves his wages. If God cares for an ox&apos;s hunger, how much more for an apostle&apos;s? Yet Paul—this ox—has muzzled himself.',
         },
         {
           kind: 'scripture',
@@ -350,7 +350,7 @@ export const FIRST_CORINTHIANS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'c-obtain',
           html:
-            'Paul shifts from the Corinthians&apos; weakness to their calling. Yes, you are weak. But run. The Christian life is not casual. It is a race, and the prize is real. The image comes from the Isthmian Games—the athletic competitions held near Corinth. Every Corinthian knew what it meant to run to win.',
+            'Paul shifts from the Corinthians&apos; weakness to their calling. Yes, you are weak. But run. The Christian life is not casual. It is a race, and the prize is real. The image comes from the Isthmian Games[res:ascsa-isthmian-games]—the athletic competitions held near Corinth. Every Corinthian knew what it meant to run to win.',
         },
         {
           kind: 'scripture',
@@ -401,7 +401,7 @@ export const FIRST_CORINTHIANS_9: RichChapterContent = {
           script: 'ὑποπιάζω',
           translit: '<strong>hypopiazo</strong> · to beat black and blue; to subdue by blows; to keep under control',
           description:
-            'Paul uses a violent word for what he does to his body. This is not asceticism for its own sake. It is the discipline an athlete brings to training. He will not let his body run the race; he will let his spirit, his calling, his faith in Christ direct him.',
+            'Paul uses a violent word for what he does to his body. This is not asceticism for its own sake. It is the discipline an athlete brings to training[res:perseus-agon-stadios]. He will not let his body run the race; he will let his spirit, his calling, his faith in Christ direct him.',
         },
         {
           kind: 'commentary',
@@ -438,6 +438,41 @@ export const FIRST_CORINTHIANS_9: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Corinthians 9 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-deut-25-4',
+      kind: 'museum',
+      source: 'Sefaria',
+      label: 'Deuteronomy 25:4 — The Ox',
+      url: 'https://www.sefaria.org/Deuteronomy.25.4',
+      description: 'Full text of the Mosaic law on muzzling — the scriptural foundation Paul appeals to for apostolic rights.',
+    },
+    {
+      id: 'ascsa-isthmian-games',
+      kind: 'archaeology',
+      source: 'ASCSA',
+      label: 'Isthmian Games at Corinth',
+      url: 'https://agora.ascsa.net/',
+      description: 'Excavation records of the athletic venue near Corinth where Pauline race imagery would have been viscerally understood.',
+    },
+    {
+      id: 'perseus-agon-stadios',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Greco-Roman Athletic Vocabulary: Agon, Stadios',
+      url: 'https://www.perseus.tufts.edu/hopper/',
+      description: 'Searchable Greek lexicon entries for athletic terminology Paul uses — the race, the crown, the prize.',
+    },
+    {
+      id: 'bibleodyssey-apostolic-authority',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Apostolic Authority',
+      url: 'https://www.bibleodyssey.org/dictionary/apostle/',
+      description: 'Open-access SBL entry on apostolic office and the legitimacy of apostolic rights that Paul claims and surrenders.',
+    },
+  ],
 
   hasHebrew: false,
 };
