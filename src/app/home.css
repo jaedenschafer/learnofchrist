@@ -37,6 +37,26 @@ html[data-reader-theme="dark"] {
   --loc-gold-soft: #E8C089;
 }
 
+/* ─── Section sizing — every section is its own full screen ─────────────
+   Each home section fills 100svh (small viewport height — iOS-safe).
+   Content is centered vertically inside via flex column. The hero
+   handles its own height directly. */
+.loc-dash,
+.loc-resources,
+.loc-showcase,
+.loc-mission,
+.loc-blog,
+.loc-closer {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* The arches band inside .loc-resources is wide and tall on its own;
+   give the section a little extra room. */
+.loc-resources { min-height: 100svh; }
+
 /* ─── Vesper Frost system — home page contexts ──────────────────────────
    The frost tokens, .frost-card / .frost-pill / .frost-circle / .frost-chip
    / .frost-tabs utility classes, and the .frost-light / .frost-dark
