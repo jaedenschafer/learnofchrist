@@ -565,47 +565,30 @@ export default function RichStudyGuide({
 
 /* ─── Further study (resources section) ───────────────────────────────── */
 
-const RESOURCE_KIND_LABEL: Record<string, string> = {
-  museum: 'Museum',
-  manuscript: 'Manuscript',
-  archaeology: 'Archaeology',
-  lexicon: 'Lexicon',
-  study: 'Study',
-  archive: 'Archive',
-};
-
 function FurtherStudy({ resources }: { resources: ResourceLink[] }) {
   return (
     <section className="further-study" aria-labelledby="further-study-heading">
       <h2 id="further-study-heading">Further study</h2>
-      <p className="further-study-lead">
-        Sources that illuminate the specific points marked above. Each opens in a new tab.
-      </p>
       <ol className="further-study-list">
         {resources.map((r, i) => (
-          <li key={r.id} id={`res-${r.id}`} className="further-study-card" data-kind={r.kind}>
-            <span className="fs-num" aria-hidden="true">{i + 1}</span>
-            <div className="fs-body">
-              <div className="fs-meta">
-                <span className="fs-source" dangerouslySetInnerHTML={{ __html: r.source }} />
-                <span className="fs-kind">{RESOURCE_KIND_LABEL[r.kind] ?? r.kind}</span>
-              </div>
-              <h3 className="fs-label" dangerouslySetInnerHTML={{ __html: r.label }} />
-              <p className="fs-desc" dangerouslySetInnerHTML={{ __html: r.description }} />
-              <a
-                className="fs-open"
-                href={r.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={`Open: ${r.label}`}
-              >
-                Open in new tab
-                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
-                  <path d="M6 3H3v10h10v-3" strokeLinecap="round" />
-                  <path d="M9 3h4v4M13 3 7 9" strokeLinecap="round" />
-                </svg>
-              </a>
-            </div>
+          <li key={r.id} id={`res-${r.id}`} className="fs-item" data-kind={r.kind}>
+            <span className="fs-num" aria-hidden="true">{i + 1}.</span>
+            <a
+              className="fs-link"
+              href={r.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Open: ${r.label}`}
+            >
+              <span className="fs-source" dangerouslySetInnerHTML={{ __html: r.source }} />
+              <span className="fs-sep" aria-hidden="true"> · </span>
+              <span className="fs-label" dangerouslySetInnerHTML={{ __html: r.label }} />
+              <svg className="fs-ext" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+                <path d="M6 3H3v10h10v-3" strokeLinecap="round" />
+                <path d="M9 3h4v4M13 3 7 9" strokeLinecap="round" />
+              </svg>
+            </a>
+            <span className="fs-desc" dangerouslySetInnerHTML={{ __html: r.description }} />
           </li>
         ))}
       </ol>
