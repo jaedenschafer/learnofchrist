@@ -16,8 +16,8 @@ export const GENESIS_48: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 18 },
   intros: [
-    'Genesis 48 is a moment of divine reversal played out in the fading eyesight and steady faith of an old man on his deathbed. Jacob hears that Joseph has brought his two sons to be blessed. The names Manasseh and Ephraim are not accidents — they are Joseph&apos;s thanksgiving, the names he gave his sons in Egypt to remember how God had dealt with him in exile: "causing to forget" the pain, and "fruitful" in the midst of estrangement. Now Jacob, Israel, will adopt these two boys into the covenant. But he will do something that will echo through Scripture: he will bless the younger over the older. Again.',
-    'From Cain and Abel, through Ishmael and Isaac, Esau and Jacob — Genesis is a book about the reversal of human ranking. The last shall be first. The God of Israel does not ask, "Who is oldest?" He asks, "Whom do I love?" And on this day, with hands that have wrestled God and been blessed, Jacob will see a pattern he has lived inside finally made plain: God chooses not by birth order but by grace. The pattern will not be finished until Christ comes, and the last becomes first in a way no one expected.',
+    'Genesis 48 is a moment of divine reversal played out in the fading eyesight and steady faith of an old man on his deathbed [res:met-museum-egypt]. Jacob hears that Joseph has brought his two sons to be blessed. The names Manasseh and Ephraim are not accidents — they are Joseph&apos;s thanksgiving, the names he gave his sons in Egypt to remember how God had dealt with him in exile [res:bibleodyssey-joseph-egypt]: "causing to forget" the pain, and "fruitful" in the midst of estrangement. Now Jacob, Israel, will adopt these two boys into the covenant. But he will do something that will echo through Scripture: he will bless the younger over the older. Again.',
+    'From Cain and Abel, through Ishmael and Isaac, Esau and Jacob — Genesis is a book about the reversal of human ranking [res:sefaria-genesis-48]. The last shall be first. The God of Israel does not ask, "Who is oldest?" He asks, "Whom do I love?" And on this day, with hands that have wrestled God and been blessed, Jacob will see a pattern he has lived inside finally made plain: God chooses not by birth order but by grace. The pattern will not be finished until Christ comes, and the last becomes first in a way no one expected.',
   ],
 
   bottomShare: {
@@ -27,6 +27,33 @@ export const GENESIS_48: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 48 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-48',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 48 — Sefaria',
+      url: 'https://www.sefaria.org/Genesis.48',
+      description: 'Annotated text with classical and modern Jewish commentary on Jacob&apos;s blessing of Ephraim and Manasseh.',
+    },
+    {
+      id: 'met-museum-egypt',
+      kind: 'museum',
+      source: 'The Met',
+      label: 'Ancient Egypt — The Metropolitan Museum of Art',
+      url: 'https://www.metmuseum.org/art/collection?department=Egyptian%20Art',
+      description: 'Egyptian artifacts and cultural context for understanding the world of Joseph and later Genesis figures.',
+    },
+    {
+      id: 'bibleodyssey-joseph-egypt',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Joseph and Egypt — Bible Odyssey',
+      url: 'https://www.bibleodyssey.org/en/passages/related-articles/joseph-and-egypt',
+      description: 'Scholarly essays on Joseph&apos;s time in Egypt and its historical and theological significance.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 48:1–4 — Jacob Hears and Remembers ─────────────────────── */

@@ -15,7 +15,7 @@ export const GENESIS_30: RichChapterContent = {
 
   estimatedMinutes: { beginner: 10, intermediate: 15, deep: 21 },
   intros: [
-    'Genesis 30 is the story of two sisters locked in a fertility competition. Rachel, the beloved wife, remains barren. Leah, the unwanted wife, keeps bearing sons. Rather than waiting on God, each sister finds a solution outside the covenant: they offer their handmaids to Jacob as surrogate wives. What follows is a catalog of eight more sons—Dan, Naphtali, Gad, Asher, Issachar, Zebulun, Dinah, and finally Joseph—born from four different mothers. The text reports this without comment. No sermon, no moral judgment. God is simply building His people out of a family that is messy, driven by envy, and utterly human.',
+    'Genesis 30 is the story of two sisters locked in a fertility competition. Rachel, the beloved wife, remains barren. Leah, the unwanted wife, keeps bearing sons. Rather than waiting on God, each sister finds a solution outside the covenant: they offer their handmaids to Jacob as surrogate wives. What follows is a catalog of eight more sons—Dan, Naphtali, Gad, Asher, Issachar, Zebulun, Dinah, and finally Joseph—born from four different mothers. The text reports this without comment. No sermon, no moral judgment. [res:bibleodyssey-jacob-israel] God is simply building His people out of a family that is messy, driven by envy, and utterly human.',
     'Then comes the mandrakes—a plant tied to ancient fertility folklore—and a marital negotiation so odd it sounds almost like a joke. But underneath the rivalries and the magical thinking is a deeper truth: God keeps His covenant not because the people who bear it are noble or patient, but because His word is inviolable. By the end, Jacob has won a new wage deal with Laban and begins to grow rich, not by magic rods but by selective breeding and God&apos;s favor. The chapter ends on the edge of Jacob&apos;s next trial: Laban&apos;s jealousy and the call to go home.',
   ],
 
@@ -26,6 +26,33 @@ export const GENESIS_30: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 30 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-30',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 30 · Commentaries & Translations',
+      url: 'https://www.sefaria.org/Genesis.30',
+      description: 'Rabbinic and academic commentaries on the fertility competition and twelve tribes formation.',
+    },
+    {
+      id: 'iaa-israel-sites',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Canaanite and Patriarchal Sites',
+      url: 'https://www.antiquities.org.il/Article/ArticleFull/1',
+      description: 'Archaeological records of settlements and family structures in Iron Age Canaan.',
+    },
+    {
+      id: 'bibleodyssey-jacob-israel',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Jacob &amp; Israel: Deception, Wrestling, &amp; Divine Naming',
+      url: 'https://www.bibleodyssey.org/en/passages/related-articles/Jacob-Israel',
+      description: 'Theological exploration of Jacob&apos;s role in covenant continuation and God&apos;s sovereign choice.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 30:1–8 — Rachel Gives Bilhah ────────────────────────── */
@@ -107,7 +134,7 @@ export const GENESIS_30: RichChapterContent = {
           kind: 'commentary',
           id: 'c-envy',
           html:
-            'Rachel sees what Leah has been given and that longing becomes rage. Envy in the Bible is not a small sin; it is the refusal to receive. Rachel sees a sister&apos;s fruitfulness and instead of waiting, she seizes. But the text doesn&apos;t moralise. It simply watches what hunger does to a person you love.',
+            'Rachel sees what Leah has been given and that longing becomes rage. Envy in the Bible is not a small sin; it is the refusal to receive. Rachel sees a sister&apos;s fruitfulness and instead of waiting, she seizes. [res:sefaria-genesis-30] But the text doesn&apos;t moralise. It simply watches what hunger does to a person you love.',
         },
         {
           kind: 'hebrew',
@@ -122,7 +149,7 @@ export const GENESIS_30: RichChapterContent = {
           kind: 'commentary',
           id: 'c-surrogate',
           html:
-            'Rachel doesn&apos;t ask; she commands. &ldquo;Go in unto her; and she shall bear upon my knees.&rdquo; The practice of surrogate motherhood was culturally accepted (Leah will do the same), but the text shows us a sister so frantic for children that she treats another woman&apos;s body as a solution to her own pain. The handmaids in this chapter are never asked what they want.',
+            'Rachel doesn&apos;t ask; she commands. &ldquo;Go in unto her; and she shall bear upon my knees.&rdquo; The practice of surrogate motherhood was culturally accepted (Leah will do the same), but the text shows us a sister so frantic for children that she treats another woman&apos;s body as a solution to her own pain. [res:iaa-israel-sites] The handmaids in this chapter are never asked what they want.',
         },
         {
           kind: 'commentary',

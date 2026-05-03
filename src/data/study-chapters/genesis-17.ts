@@ -17,7 +17,7 @@ export const GENESIS_17: RichChapterContent = {
   estimatedMinutes: { beginner: 7, intermediate: 10, deep: 14 },
   intros: [
     'Thirteen years have passed since Genesis 16. Ishmael is a young man now, and Abram has settled into life as his father — but not his heir of promise. Then God appears again, and the first thing He does is rename Abram. Not with a title or a new title, but with a name that will be his for the rest of his life. <em>Abram becomes Abraham. Sarai becomes Sarah.</em> In the Bible, a name change is always a signal: your identity is being remade. You are stepping into a story that is not yours alone anymore.',
-    'The centerpiece of this chapter is a covenant sign written on the body itself — the sign of circumcision. It falls on the part of the body that carries the future generations forward. The covenant is not written in words or wax; it is written in flesh. It is generational by design. Every time Abraham looks at this sign, he will see the proof that his line will never end, that God is the one keeping His word, and that his body — despite his age, despite the impossibility — is the tool God is using to make a nation.',
+    'The centerpiece of this chapter is a covenant sign written on the body itself — the sign of circumcision. It falls on the part of the body that carries the future generations forward. The covenant is not written in words or wax; it is written in flesh. It is generational by design. Every time Abraham looks at this sign, he will see [res:bibleodyssey-abraham-covenant] the proof that his line will never end, that God is the one keeping His word, and that his body — despite his age, despite the impossibility — is the tool God is using to make a nation.',
   ],
 
   sections: [
@@ -46,7 +46,7 @@ export const GENESIS_17: RichChapterContent = {
           kind: 'commentary',
           id: 'god-almighty',
           html:
-            'Ninety-nine years old. The age when childbearing becomes biologically impossible. At the exact moment when every human standard says <em>enough, you have missed your season</em>, God says <em>I am El Shaddai</em> — the All-Sufficient One, the God who has enough of everything, enough power, enough blessing, enough time. God names Himself first. Before the promise. Before the covenant. Before the impossible gets made possible.',
+            'Ninety-nine years old. The age when childbearing becomes biologically impossible. At the exact moment when every human standard says <em>enough, you have missed your season</em>, God says <em>I am El Shaddai</em> — the All-Sufficient One, the God who has enough of everything, enough power, enough blessing, enough time. God names Himself first. Before the promise. Before the covenant. Before the impossible gets made possible[res:sefaria-genesis-17][res:pennmuseum-abraham-era].',
         },
         {
           kind: 'hebrew',
@@ -469,6 +469,33 @@ export const GENESIS_17: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 17 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-17',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 17 · Hebrew + Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.17',
+      description: 'Hebrew text with rabbinic commentary on the covenant, circumcision, and the promise of Isaac.',
+    },
+    {
+      id: 'pennmuseum-abraham-era',
+      kind: 'museum',
+      source: 'Penn Museum',
+      label: 'Mari & Nuzi Tablets (Abraham&apos;s era)',
+      url: 'https://www.penn.museum/collections/west-asia/',
+      description: 'Ancient Near Eastern covenant rituals and naming practices illuminating Abraham&apos;s world.',
+    },
+    {
+      id: 'bibleodyssey-abraham-covenant',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Abraham and the Covenant',
+      url: 'https://www.bibleodyssey.org/articles/abraham-sarah/',
+      description: 'SBL article on the Abrahamic covenant, the promise of Isaac, and God&apos;s covenant sign.',
+    },
+  ],
 
   hasHebrew: true,
 };

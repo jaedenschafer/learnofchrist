@@ -45,7 +45,7 @@ export const GENESIS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'gen7-come-meaning',
           html:
-            'The LORD says "Come," not "Go." It is a word that assumes God is already there — already inside the ark, waiting. In Hebrew, <em>bo&apos;</em> (come) is the interior\'s verb, the verb of access. God is not sending Noah into an empty box to save himself alone. God is inviting Noah to join Him. The first gospel invitation in Scripture is this: enter where I already am.',
+            'The LORD says "Come," not "Go." It is a word that assumes God is already there — already inside the ark, waiting. In Hebrew, <em>bo&apos;</em> (come) is the interior\'s verb, the verb of access. God is not sending Noah into an empty box to save himself alone. God is inviting Noah to join Him. The first gospel invitation in Scripture is this: enter where I already am[res:sefaria-genesis-7][res:britishmuseum-gilgamesh-tablet-xi].',
         },
         {
           kind: 'hebrew',
@@ -90,7 +90,7 @@ export const GENESIS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'gen7-clean-unclean',
           html:
-            'Seven of the clean animals, two of the unclean. The distinction exists already — long before Leviticus, the reader is told clean and unclean categories are real. Noah knows which animals are fit for sacrifice, which are not. The sevens will ensure life after the flood. The pairs will ensure the world can be restocked. Every detail serves a future that does not exist yet, for a world that has not yet been born.',
+            'Seven of the clean animals, two of the unclean. The distinction exists already — long before Leviticus, the reader is told clean and unclean categories are real. Noah knows which animals are fit for sacrifice, which are not. The sevens will ensure life after the flood. The pairs will ensure the world can be restocked. Every detail serves a future that does not exist yet, for a world that has not yet been born[res:orientalinstitute-mesopotamia].',
         },
         {
           kind: 'carry',
@@ -396,6 +396,33 @@ export const GENESIS_7: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 7 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-7',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 7 · Hebrew + Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.7',
+      description: 'Hebrew text with rabbinic commentary on the unfolding of the flood judgment.',
+    },
+    {
+      id: 'britishmuseum-gilgamesh-tablet-xi',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Gilgamesh Tablet XI (Mesopotamian flood account)',
+      url: 'https://www.britishmuseum.org/collection/search?object=Gilgamesh',
+      description: 'Akkadian cuneiform recounting the flood from the Mesopotamian tradition.',
+    },
+    {
+      id: 'orientalinstitute-mesopotamia',
+      kind: 'archive',
+      source: 'Oriental Institute (University of Chicago)',
+      label: 'Mesopotamian flood traditions and Genesis',
+      url: 'https://oi.uchicago.edu/',
+      description: 'Scholarly resources on ancient Near Eastern parallels to Genesis flood narratives.',
+    },
+  ],
 
   hasHebrew: true,
 };

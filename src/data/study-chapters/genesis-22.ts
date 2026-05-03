@@ -21,7 +21,7 @@ export const GENESIS_22: RichChapterContent = {
   intros: [
     'Abraham has waited ninety-nine years for the promise. Isaac, born when he was a hundred and his wife was past bearing age, is the entire future—the heir through whom all the nations of the earth would be blessed. Three times God made that covenant: in Genesis 12, Genesis 15, and Genesis 17. Every promise hinges on this boy.',
     'And then, in Genesis 22, God makes a request that seems to unmake everything. "Take now thy son, thine only son Isaac, whom thou lovest, and get thee into the land of Moriah; and offer him there for a burnt offering upon one of the mountains which I will tell thee of." Abraham is seventy-five when God first calls him. He is now past one hundred twenty, and God asks him to surrender the future He Himself gave. The chapter is the Bible\'s deepest meditation on faith—not as feeling safe, but as trusting God when every rational thing you see says He has abandoned you.',
-    'It is also, though the chapter never names it, a profound act of substitution. A ram dies so Isaac lives. And in the New Testament, the Apostles will point back to this mountain and say: that was a picture of what happened on another mountain, in another land, where a Lamb died so that the world could live.',
+    'It is also, though the chapter never names it, a profound act of substitution. A ram dies so Isaac lives. And in the New Testament, [res:bibleodyssey-abraham-isaac] the Apostles will point back to this mountain and say: that was a picture of what happened on another mountain, in another land, where a Lamb died so that the world could live.',
   ],
 
   sections: [
@@ -85,7 +85,7 @@ export const GENESIS_22: RichChapterContent = {
           id: 'christ-spared-son',
           title: 'Christ Connection — A Father\'s Surrender',
           html:
-            'Centuries later, Paul writes of this moment and hears in it an echo of the Cross: "He that spared not his own Son, but delivered him up for us all, how shall he not with him also freely give us all things?" (Rom. 8:32). The Greek word for "spared" is the same word used in the Greek Old Testament translation here. Abraham\'s willingness to surrender his son becomes the mirror of God the Father\'s actual surrender of His Son. Except God does not stop His knife. The Lamb on the second mountain actually dies.',
+            'Centuries later, Paul writes of this moment and hears in it an echo of the Cross: "He that spared not his own Son, but delivered him up for us all, how shall he not with him also freely give us all things?" (Rom. 8:32). The Greek word for "spared" is the same word used in the Greek Old Testament translation here. Abraham\'s willingness to surrender his son becomes the mirror of God the Father\'s actual surrender of His Son. Except God does not stop His knife. The Lamb on the second mountain actually dies[res:sefaria-genesis-22][res:orientalinstitute-akedah-mountains].',
         },
         {
           kind: 'carry',
@@ -470,4 +470,31 @@ export const GENESIS_22: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 22 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-22',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 22 · Hebrew + Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.22',
+      description: 'Hebrew text with rabbinic commentary on the binding of Isaac (the Akedah) and the covenant promise.',
+    },
+    {
+      id: 'orientalinstitute-akedah-mountains',
+      kind: 'archaeology',
+      source: 'Oriental Institute',
+      label: 'Mount Moriah and Ancient Israelite Worship',
+      url: 'https://oi.uchicago.edu/',
+      description: 'Archaeological and historical analysis of Mount Moriah, ancient temple sites, and the geography of Abraham&apos;s era.',
+    },
+    {
+      id: 'bibleodyssey-abraham-isaac',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaac and Abraham&apos;s Covenant',
+      url: 'https://www.bibleodyssey.org/articles/abraham-sarah/',
+      description: 'SBL article on the Akedah, faith tested, God&apos;s substitution, and Christ as the fulfillment of the type.',
+    },
+  ],
 };

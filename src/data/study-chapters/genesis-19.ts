@@ -16,7 +16,7 @@ export const GENESIS_19: RichChapterContent = {
 
   estimatedMinutes: { beginner: 11, intermediate: 16, deep: 21 },
   intros: [
-    'Genesis 19 is a chapter that refuses to flinch. It names evil as evil — not as a philosophical abstraction, but as a mob at a door. It shows divine judgment as total and swift. And it follows one man, Lot, as he is physically dragged to safety by angels because he cannot save himself. The chapter is dark. But inside the darkness, there is one trembling fact: grace that does not depend on the courage of the rescued.',
+    'Genesis 19 is a chapter that refuses to flinch. It names evil as evil — not as a philosophical abstraction, but as a mob at a door. It shows divine judgment [res:bibleodyssey-sodom-judgment] as total and swift. And it follows one man, Lot, as he is physically dragged to safety by angels because he cannot save himself. The chapter is dark. But inside the darkness, there is one trembling fact: grace that does not depend on the courage of the rescued.',
     'Two chapters earlier, Abraham made a costly case to God that Sodom might be spared — a conversation every reader knows will fail. Now we see why. The men of Sodom come to Lot to abuse his guests. The city will not repent. The visitors are not guests — they are targets. And Lot, who once chose Sodom because it looked "like the garden of the Lord" (Gen 13:10), finds himself alone, mocked by his own family, forced out by hands not his own. The protection Abraham sought could not exist in a place that wanted darkness more than light.',
   ],
 
@@ -62,7 +62,7 @@ export const GENESIS_19: RichChapterContent = {
           kind: 'commentary',
           id: 'c-nay-first-refuse',
           html:
-            'The visitors at first refuse the shelter Lot offers. They will stay in the street. This is no accident — they are testing what the city will do. Will Lot take them in? Will anyone? Will there be even one act of hospitality in a place known for its refusal of it? Lot passes the test that Sodom itself has failed.',
+            'The visitors at first refuse the shelter Lot offers. They will stay in the street. This is no accident — they are testing what the city will do. Will Lot take them in? Will anyone? Will there be even one act of hospitality in a place known for its refusal of it? Lot passes the test that Sodom itself has failed[res:sefaria-genesis-19][res:britishmuseum-sodom-gomorrah].',
         },
         {
           kind: 'commentary',
@@ -569,6 +569,33 @@ export const GENESIS_19: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 19 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-19',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 19 · Hebrew + Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.19',
+      description: 'Hebrew text with rabbinic commentary on the destruction of Sodom, Lot&apos;s rescue, and God&apos;s mercy amid judgment.',
+    },
+    {
+      id: 'britishmuseum-sodom-gomorrah',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Archaeological Evidence of Sodom and Gomorrah',
+      url: 'https://www.britishmuseum.org/collections',
+      description: 'Museum collections on ancient Near Eastern cities, urban destruction layers, and the geography of the Dead Sea region.',
+    },
+    {
+      id: 'bibleodyssey-sodom-judgment',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Sodom and Gomorrah',
+      url: 'https://www.bibleodyssey.org/articles/sodom-gomorrah/',
+      description: 'SBL article on God&apos;s judgment, Lot&apos;s escape, and the pattern of mercy within divine judgment.',
+    },
+  ],
 
   hasHebrew: true,
 };

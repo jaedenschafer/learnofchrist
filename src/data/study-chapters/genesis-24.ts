@@ -19,7 +19,7 @@ export const GENESIS_24: RichChapterContent = {
   intros: [
     'Abraham is old. His son Isaac still has no wife. In the ancient Near East, this is a crisis — the line of the promise dies with him. But Abraham does not panic. He calls his oldest servant, the man who manages everything he owns, and sends him on a journey to find a wife for Isaac among Abraham\'s own people, far to the east in Mesopotamia. The servant must swear an oath: go, find a wife, bring her back.',
     'What follows is a chapter of divine providence so tender and particular that every detail feels chosen. A prayer at a well. A young woman who answers the prayer before the prayer is even finished. Water enough for ten camels — backbreaking work done by one girl with a pitcher. A family who blesses her and lets her go. And at the end, Isaac meeting Rebekah in the evening field, the two of them alone together for the first time.',
-    'Centuries later, Christians would read this chapter as a picture: the Father sends His Servant (the Spirit) to call out a bride (the Church) for the Son (Christ), with gifts and promises, and the bride says "I will go" without having seen the bridegroom. But the chapter does not announce this. It simply tells the story, slow and beautiful, the way a wedding unfolds.',
+    'Centuries later, Christians would read this chapter as a picture: the Father sends His Servant (the Spirit) to call out a bride [res:bibleodyssey-rebekah-isaac] (the Church) for the Son (Christ), with gifts and promises, and the bride says "I will go" without having seen the bridegroom. But the chapter does not announce this. It simply tells the story, slow and beautiful, the way a wedding unfolds.',
   ],
 
   bottomShare: {
@@ -29,6 +29,33 @@ export const GENESIS_24: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 24 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-24',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 24 · Hebrew + Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.24',
+      description: 'Hebrew text with rabbinic commentary on providence, the finding of Rebekah, and covenant kinship.',
+    },
+    {
+      id: 'pennmuseum-mesopotamia-customs',
+      kind: 'museum',
+      source: 'Penn Museum',
+      label: 'Ancient Mesopotamian Marriage and Family Customs',
+      url: 'https://www.penn.museum/collections/west-asia/',
+      description: 'Ancient Near Eastern documents on betrothal, servant missions, and matrimonial customs in Abraham&apos;s era.',
+    },
+    {
+      id: 'bibleodyssey-rebekah-isaac',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Isaac and Rebekah: The Covenant Bride',
+      url: 'https://www.bibleodyssey.org/articles/isaac-rebekah/',
+      description: 'SBL article on divine providence, Rebekah&apos;s journey, and the relationship as a type of Christ and the Church.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 24:1–9 — The Oath and the Mission ──────────────────── */
@@ -104,7 +131,7 @@ export const GENESIS_24: RichChapterContent = {
           kind: 'commentary',
           id: 'gen24-old',
           html:
-            'Abraham is very old now — Genesis 17 set him at ninety when Isaac was born, so Abraham is now at least a hundred and thirty. He is not thinking of himself anymore. He is thinking of the promise God made him: a seed as numerous as the stars. That seed cannot continue if Isaac remains alone.',
+            'Abraham is very old now — Genesis 17 set him at ninety when Isaac was born, so Abraham is now at least a hundred and thirty. He is not thinking of himself anymore. He is thinking of the promise God made him: a seed as numerous as the stars. That seed cannot continue if Isaac remains alone[res:sefaria-genesis-24][res:pennmuseum-mesopotamia-customs].',
         },
         {
           kind: 'commentary',

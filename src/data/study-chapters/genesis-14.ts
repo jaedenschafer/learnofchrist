@@ -18,7 +18,7 @@ export const GENESIS_14: RichChapterContent = {
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 15 },
   intros: [
     'Genesis 14 is packed tighter than almost any other chapter in Scripture. It contains the first recorded battle in the Bible, the first rescue, and the first appearance of a priest. It contains the first tithe ever given, the first appearance of bread and wine as a blessing, and a man who will become one of the most mysterious figures in Scripture: Melchizedek, king of Salem, priest of the Most High God.',
-    'But underneath the crowded action is a pattern that runs through the entire Bible: a test of faithfulness, a rescue by faith, and then a choice about payment. The world offers Abram wealth; he turns it away. A king who has no law tries to reward him; Abram will take no reward except the one God gives him. The chapter asks: what will you sell your soul for? And Abram&apos;s answer becomes a kind of prayer.',
+    'But underneath the crowded action is a pattern that runs through the entire Bible: a test of faithfulness, a rescue by faith, and then a choice about payment. The world offers Abram wealth; he turns it away. A king who has no law tries to reward him; Abram will take no reward except [res:bibleodyssey-abraham-covenant] the one God gives him. The chapter asks: what will you sell your soul for? And Abram&apos;s answer becomes a kind of prayer.',
   ],
 
   bottomShare: {
@@ -28,6 +28,33 @@ export const GENESIS_14: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 14 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-14',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 14 · Hebrew + Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.14',
+      description: 'Hebrew text with rabbinic commentary on Melchizedek, the war of kings, and Abram&apos;s refusal of worldly wealth.',
+    },
+    {
+      id: 'pennmuseum-abraham-era',
+      kind: 'museum',
+      source: 'Penn Museum',
+      label: 'Mari & Nuzi Tablets (Abraham&apos;s era)',
+      url: 'https://www.penn.museum/collections/west-asia/',
+      description: 'Ancient Near Eastern records illuminating the political conflicts, vassal systems, and tribute practices of Abraham&apos;s time.',
+    },
+    {
+      id: 'bibleodyssey-abraham-covenant',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Abraham and the Covenant',
+      url: 'https://www.bibleodyssey.org/articles/abraham-sarah/',
+      description: 'SBL article on Abraham&apos;s faith, his refusal to be bound by worldly wealth, and his covenant with the Most High God.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 14:1–12 — The War and the Captivity ────────────────── */
@@ -131,7 +158,7 @@ export const GENESIS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'c-rebellion',
           html:
-            'The pattern is simple: years of subjection, then rebellion. The kings of Sodom and Gomorrah, having paid tribute for twelve years, finally refuse. The next thirteen chapters will circle back to Sodom and Gomorrah again and again — they are a kind of moral gravity well in this book. Here they rebel against Chedorlaomer. Later, Abram will refuse to rebel against God.',
+            'The pattern is simple: years of subjection, then rebellion. The kings of Sodom and Gomorrah, having paid tribute for twelve years, finally refuse. The next thirteen chapters will circle back to Sodom and Gomorrah again and again — they are a kind of moral gravity well in this book. Here they rebel against Chedorlaomer. Later, Abram will refuse to rebel against God[res:sefaria-genesis-14][res:pennmuseum-abraham-era].',
         },
         {
           kind: 'commentary',

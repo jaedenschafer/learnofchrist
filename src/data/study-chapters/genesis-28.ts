@@ -15,7 +15,7 @@ export const GENESIS_28: RichChapterContent = {
   estimatedMinutes: { beginner: 8, intermediate: 12, deep: 15 },
   intros: [
     'Jacob has just stolen his brother&apos;s blessing. He is fleeing for his life into the desert, running from Esau&apos;s murderous rage. He is homeless, alone, carrying nothing but the clothes on his back and a thief&apos;s guilt. At nightfall he lies down on the hard ground with a stone for a pillow. And then — at the moment of deepest isolation, when he has lost everything and has no reason to expect God&apos;s face — he dreams.',
-    'What he sees is a ladder connecting earth to heaven, angels moving up and down it like a highway between two worlds. And standing at the top: the LORD Himself. The dream is pure grace: God speaking the very promises Jacob thought he&apos;d forfeited, blessing him not because he deserves it but because He had promised it to Abraham. Jacob wakes from his stone pillow trembling. He names the place Bethel — the house of God — and marks it with a vow. But his vow is still Jacob: <em>if</em> God will be with me, <em>then</em> the LORD will be my God. Grace finds him bargaining. Grace meets him anyway.',
+    'What he sees is a ladder connecting earth to heaven, angels moving up and down it like a highway between two worlds. And standing at the top: the LORD Himself. The dream is pure grace: [res:bibleodyssey-jacob-israel] God speaking the very promises Jacob thought he&apos;d forfeited, blessing him not because he deserves it but because He had promised it to Abraham. Jacob wakes from his stone pillow trembling. He names the place Bethel — the house of God — and marks it with a vow. But his vow is still Jacob: <em>if</em> God will be with me, <em>then</em> the LORD will be my God. Grace finds him bargaining. Grace meets him anyway.',
   ],
 
   bottomShare: {
@@ -25,6 +25,33 @@ export const GENESIS_28: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 28 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-28',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 28 · Commentaries & Translations',
+      url: 'https://www.sefaria.org/Genesis.28',
+      description: 'Rabbinic and academic commentaries on Jacob&apos;s ladder vision and the Bethel theophany.',
+    },
+    {
+      id: 'iaa-israel-sites',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Canaanite and Patriarchal Sites',
+      url: 'https://www.antiquities.org.il/Article/ArticleFull/1',
+      description: 'Archaeological records of settlements and family structures in Iron Age Canaan.',
+    },
+    {
+      id: 'bibleodyssey-jacob-israel',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Jacob &amp; Israel: Deception, Wrestling, &amp; Divine Naming',
+      url: 'https://www.bibleodyssey.org/en/passages/related-articles/Jacob-Israel',
+      description: 'Theological exploration of Jacob&apos;s role in covenant continuation and God&apos;s sovereign choice.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 28:1–5 — Sent Away ──────────────────────────────── */
@@ -153,13 +180,13 @@ export const GENESIS_28: RichChapterContent = {
           kind: 'commentary',
           id: 'c-esau-sees',
           html:
-            'Esau finally sees what his father values, what the covenant requires. He finally understands. And so he tries to fix it — he goes and marries Mahalath, a daughter of Ishmael, thinking this will make him acceptable. But understanding too late is a particular kind of pain. The blessing cannot be unbroken and re-given. The choice made at the red pot cannot be unmade.',
+            'Esau finally sees what his father values, what the covenant requires. He finally understands. And so he tries to fix it — he goes and marries Mahalath, a daughter of Ishmael, thinking this will make him acceptable. [res:sefaria-genesis-28] But understanding too late is a particular kind of pain. The blessing cannot be unbroken and re-given. The choice made at the red pot cannot be unmade.',
         },
         {
           kind: 'commentary',
           id: 'c-too-late',
           html:
-            'Esau takes another wife (he already has two Canaanite wives). He is trying to buy his way back into the inheritance with a good marriage. But the inheritance was not for sale. It was a gift that required a different heart all along.',
+            'Esau takes another wife (he already has two Canaanite wives). He is trying to buy his way back into the inheritance with a good marriage. But the inheritance was not for sale. [res:iaa-israel-sites] It was a gift that required a different heart all along.',
         },
         {
           kind: 'carry',

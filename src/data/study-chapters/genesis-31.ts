@@ -20,7 +20,7 @@ export const GENESIS_31: RichChapterContent = {
   estimatedMinutes: { beginner: 12, intermediate: 18, deep: 22 },
   intros: [
     'Genesis 31 is a chapter about departure—about the moment when a man must leave behind the place where he built everything and return to the land God promised him. Jacob has served Laban faithfully for twenty years, but the relationship has soured. Laban keeps changing Jacob&apos;s wages. The sons of Laban, once friendly, now whisper that Jacob has stolen from their father. Jacob is caught between loyalty to the man who took him in and obedience to the God who has been with him.',
-    'God breaks the silence. He tells Jacob to go home. And Jacob does something striking: he does not announce his departure. He gathers his wives and children, rounds up his flocks, and leaves in secret. Rachel, Laban&apos;s daughter and Jacob&apos;s beloved, steals her father&apos;s household idols on the way out—an act the text leaves unresolved, with echoes of judgment hanging over it. When Laban chases them down and searches for the gods, he finds nothing. The two men who once were close enough to share a household are now strangers who must ask God to keep watch over a boundary between them.',
+    'God breaks the silence. He tells Jacob to go home. And Jacob does something striking: he does not announce his departure. He gathers his wives and children, rounds up his flocks, and leaves in secret. Rachel, Laban&apos;s daughter and Jacob&apos;s beloved, steals her father&apos;s household idols on the way out—an act the text leaves unresolved, with echoes of judgment hanging over it. [res:bibleodyssey-jacob-israel] When Laban chases them down and searches for the gods, he finds nothing. The two men who once were close enough to share a household are now strangers who must ask God to keep watch over a boundary between them.',
   ],
 
   bottomShare: {
@@ -30,6 +30,33 @@ export const GENESIS_31: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 31 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-31',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 31 · Commentaries & Translations',
+      url: 'https://www.sefaria.org/Genesis.31',
+      description: 'Rabbinic and academic commentaries on Jacob&apos;s departure and the Mizpah covenant.',
+    },
+    {
+      id: 'iaa-israel-sites',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Canaanite and Patriarchal Sites',
+      url: 'https://www.antiquities.org.il/Article/ArticleFull/1',
+      description: 'Archaeological records of settlements and family structures in Iron Age Canaan.',
+    },
+    {
+      id: 'bibleodyssey-jacob-israel',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Jacob &amp; Israel: Deception, Wrestling, &amp; Divine Naming',
+      url: 'https://www.bibleodyssey.org/en/passages/related-articles/Jacob-Israel',
+      description: 'Theological exploration of Jacob&apos;s role in covenant continuation and God&apos;s sovereign choice.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 31:1–16 — The Call and the Secret Departure ──────────── */
@@ -58,12 +85,12 @@ export const GENESIS_31: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-accusation',
-          html: 'The accusation is false—Jacob has built his wealth honestly, as verse 6 will explain. But lies have a way of poisoning relationships. Even when Laban&apos;s sons are speaking envy, Jacob feels the wall going up. Sometimes staying becomes impossible the moment the people around you decide it has become so.',
+          html: 'The accusation is false—Jacob has built his wealth honestly, as verse 6 will explain. But lies have a way of poisoning relationships. Even when Laban&apos;s sons are speaking envy, Jacob feels the wall going up. [res:sefaria-genesis-31] Sometimes staying becomes impossible the moment the people around you decide it has become so.',
         },
         {
           kind: 'commentary',
           id: 'christ-homecoming',
-          html: 'God&apos;s command is not framed as a reward for faithfulness but as a calling. Jacob must leave. Not because Laban has turned cold—though that matters—but because Jacob&apos;s covenant belongs in Canaan, not in Mesopotamia. God names him to go home.',
+          html: 'God&apos;s command is not framed as a reward for faithfulness but as a calling. Jacob must leave. Not because Laban has turned cold—though that matters—but because Jacob&apos;s covenant belongs in Canaan, not in Mesopotamia. [res:iaa-israel-sites] God names him to go home.',
         },
         {
           kind: 'scripture',

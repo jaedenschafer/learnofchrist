@@ -16,8 +16,8 @@ export const GENESIS_43: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 11, deep: 14 },
   intros: [
-    'Genesis 43 is the chapter where famine forces a reckoning. The grain Jacob bought is running out. Simeon, the second-eldest, is still held in Egypt as security. To get him back and to get more grain, Jacob must let Benjamin go down to Joseph — and Jacob has been refusing. The chapter pivots on a single moment: when Judah stands and pledges himself for Benjamin&apos;s safe return, Jacob&apos;s hands open.',
-    'There is a transformation happening in Judah that the reader can barely see yet. In Genesis 37, he was the one who said, &ldquo;Come now, let us sell him to the Ishmaelites.&rdquo; Now he is saying, &ldquo;I will be surety for him; of my hand shalt thou require him.&rdquo; The man who abandoned his brother is learning to answer for him. And in Egypt, Joseph — who has seen his brothers but not yet been seen by them — looks at Benjamin and weeps. The walls of separation are about to break.',
+    'Genesis 43 is the chapter where famine forces a reckoning [res:bibleodyssey-joseph-egypt]. The grain Jacob bought is running out. Simeon, the second-eldest, is still held in Egypt as security. To get him back and to get more grain, Jacob must let Benjamin go down to Joseph — and Jacob has been refusing. The chapter pivots on a single moment: when Judah stands and pledges himself for Benjamin&apos;s safe return, Jacob&apos;s hands open.',
+    'There is a transformation happening in Judah that the reader can barely see yet [res:sefaria-genesis-43]. In Genesis 37, he was the one who said, &ldquo;Come now, let us sell him to the Ishmaelites.&rdquo; Now he is saying, &ldquo;I will be surety for him; of my hand shalt thou require him.&rdquo; The man who abandoned his brother is learning to answer for him [res:met-museum-egypt]. And in Egypt, Joseph — who has seen his brothers but not yet been seen by them — looks at Benjamin and weeps. The walls of separation are about to break.',
   ],
 
   bottomShare: {
@@ -27,6 +27,33 @@ export const GENESIS_43: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 43 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-43',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 43 — Sefaria',
+      url: 'https://www.sefaria.org/Genesis.43',
+      description: 'Annotated text with classical and modern Jewish commentary on Judah&apos;s pledge and the brothers&apos; return to Egypt.',
+    },
+    {
+      id: 'met-museum-egypt',
+      kind: 'museum',
+      source: 'The Met',
+      label: 'Ancient Egypt — The Metropolitan Museum of Art',
+      url: 'https://www.metmuseum.org/art/collection?department=Egyptian%20Art',
+      description: 'Egyptian artifacts and cultural context for understanding the world of Joseph and later Genesis figures.',
+    },
+    {
+      id: 'bibleodyssey-joseph-egypt',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Joseph and Egypt — Bible Odyssey',
+      url: 'https://www.bibleodyssey.org/en/passages/related-articles/joseph-and-egypt',
+      description: 'Scholarly essays on Joseph&apos;s time in Egypt and its historical and theological significance.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 43:1–7 — The Famine Deepens ────────────────────────── */

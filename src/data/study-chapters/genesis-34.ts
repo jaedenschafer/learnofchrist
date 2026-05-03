@@ -20,7 +20,7 @@ export const GENESIS_34: RichChapterContent = {
   estimatedMinutes: { beginner: 7, intermediate: 10, deep: 13 },
   intros: [
     'Genesis 34 is a hard chapter. A young woman named Dinah goes out to see the daughters of the land, and Shechem, the prince of the country, sees her, takes her, and violates her. Then he wants to marry her. The text does not soften what happened — it uses a word that means rape — and we should not soften it either.',
-    'What follows is a chapter of attempted negotiation, deception, and mass slaughter. Jacob remains silent while his daughter is violated. Her brothers trick an entire city into a covenant of circumcision, then on the third day while the men are weak from the ritual, Simeon and Levi massacre every male. The chapter ends with the brothers defending their violence. But Jacob curses them. The text does not approve what they did. We are meant to sit with the gravity of sexual violence and the way vengeance cycles compound suffering rather than heal it.',
+    'What follows is a chapter of attempted negotiation, deception, and mass slaughter. Jacob remains silent while his daughter is violated. Her brothers trick an entire city into a covenant of circumcision, then on the third day while the men are weak from the ritual, Simeon and Levi massacre every male. [res:bibleodyssey-jacob-israel] The chapter ends with the brothers defending their violence. But Jacob curses them. The text does not approve what they did. We are meant to sit with the gravity of sexual violence and the way vengeance cycles compound suffering rather than heal it.',
   ],
 
   bottomShare: {
@@ -30,6 +30,33 @@ export const GENESIS_34: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 34 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-34',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 34 · Commentaries & Translations',
+      url: 'https://www.sefaria.org/Genesis.34',
+      description: 'Rabbinic and academic commentaries on sexual violence and the massacre at Shechem.',
+    },
+    {
+      id: 'iaa-israel-sites',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Canaanite and Patriarchal Sites',
+      url: 'https://www.antiquities.org.il/Article/ArticleFull/1',
+      description: 'Archaeological records of settlements and family structures in Iron Age Canaan.',
+    },
+    {
+      id: 'bibleodyssey-jacob-israel',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Jacob &amp; Israel: Deception, Wrestling, &amp; Divine Naming',
+      url: 'https://www.bibleodyssey.org/en/passages/related-articles/Jacob-Israel',
+      description: 'Theological exploration of Jacob&apos;s role in covenant continuation and God&apos;s sovereign choice.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 34:1–3 — Dinah Is Violated ─────────────────────────── */
@@ -80,7 +107,7 @@ export const GENESIS_34: RichChapterContent = {
           kind: 'commentary',
           id: 'c-love-after-violence',
           html:
-            'The text reports that Shechem then loved Dinah and spoke kindly to her. But the violence came first. It is crucial to understand the order: violation, then tenderness. Love that begins as an assault is not love. The narrative reports what happened — Shechem&apos;s later affection for Dinah — but it does not redeem the act that came before it. Dinah is given no voice in this chapter. She is taken, violated, and then appears only as the object of other people&apos;s negotiations and anger.',
+            'The text reports that Shechem then loved Dinah and spoke kindly to her. But the violence came first. It is crucial to understand the order: violation, then tenderness. Love that begins as an assault is not love. The narrative reports what happened — Shechem&apos;s later affection for Dinah — but it does not redeem the act that came before it. [res:sefaria-genesis-34] Dinah is given no voice in this chapter. She is taken, violated, and then appears only as the object of other people&apos;s negotiations and anger.',
         },
         {
           kind: 'carry',
@@ -167,7 +194,7 @@ export const GENESIS_34: RichChapterContent = {
           kind: 'commentary',
           id: 'c-possessions',
           html:
-            'Hamor&apos;s proposal is remarkably generous — intermarriage, shared land, mutual possession and benefit. He is also offering something that, from a negotiating standpoint, makes the violation transactional: your daughter for land and wealth. Dinah becomes a piece in a deal. Her voice is never asked for. The men who violated her and the men of her family conduct a business negotiation while she remains silent.',
+            'Hamor&apos;s proposal is remarkably generous — intermarriage, shared land, mutual possession and benefit. He is also offering something that, from a negotiating standpoint, makes the violation transactional: your daughter for land and wealth. Dinah becomes a piece in a deal. Her voice is never asked for. [res:iaa-israel-sites] The men who violated her and the men of her family conduct a business negotiation while she remains silent.',
         },
         {
           kind: 'commentary',

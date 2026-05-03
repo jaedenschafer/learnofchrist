@@ -17,7 +17,7 @@ export const GENESIS_23: RichChapterContent = {
   estimatedMinutes: { beginner: 5, intermediate: 8, deep: 11 },
   intros: [
     'Genesis 23 opens with an absence. Sarah is gone. She lived 127 years — long enough to see her son born when she was barren, long enough to watch her husband receive promises of nations as descendants. And now Abraham must bury her. The chapter moves slowly through the rituals of grief and negotiation, showing us what faith looks like in the shadow of death.',
-    'The irony is sharp and quietly faithful. God has promised Abraham the land — Canaan flowing with milk and honey, theirs as an everlasting possession. Yet when Abraham needs ground to bury his wife, he cannot simply take it. He is, as he himself says, a "stranger and a sojourner" (v. 4) — a foreigner buying a grave in a land that is not yet his. The chapter\'s real story is about a man who has believed for so long in a promise that he can bury his wife in faith, knowing death is not the end. Hebrews 11 will make this explicit: Abraham held the promise so firmly that he died still looking forward to a resurrection in the very land where he was now planting his dead.',
+    'The irony is sharp and quietly faithful. God has promised Abraham the land — Canaan flowing with milk and honey, theirs as an everlasting possession. Yet when Abraham needs ground to bury his wife, he cannot simply take it. He is, as he himself says, a "stranger and a sojourner" (v. 4) — a foreigner buying a grave in a land that is not yet his. The chapter\'s real story is about a man who has believed for so long in a promise that he can bury his wife [res:bibleodyssey-sarah-covenant-line] in faith, knowing death is not the end. Hebrews 11 will make this explicit: Abraham held the promise so firmly that he died still looking forward to a resurrection in the very land where he was now planting his dead.',
   ],
 
   bottomShare: {
@@ -27,6 +27,33 @@ export const GENESIS_23: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 23 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-23',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 23 · Hebrew + Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.23',
+      description: 'Hebrew text with rabbinic commentary on Sarah&apos;s death, Abraham&apos;s faith, and the covenant promise.',
+    },
+    {
+      id: 'iaa-hebron-cave-machpelah',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Hebron and the Cave of Machpelah',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'Archaeological and historical records of ancient Hebron, the burial cave, and Abraham&apos;s connection to the land.',
+    },
+    {
+      id: 'bibleodyssey-sarah-covenant-line',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Sarah and the Covenant Promise',
+      url: 'https://www.bibleodyssey.org/articles/abraham-sarah/',
+      description: 'SBL article on Sarah&apos;s role in the covenant, her death, and Abraham&apos;s faith in the resurrection.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 23:1–2 — Sarah Dies, Abraham Mourns ────────────────────── */
@@ -60,7 +87,7 @@ export const GENESIS_23: RichChapterContent = {
           kind: 'commentary',
           id: 'c-kirjath',
           html:
-            'Kirjath-arba means "the city of Arba." Later Hebron became one of the cities given to the Levites and, for David, the first capital of a united Israel. Abraham is not in some distant land, mourning in exile. He is mourning in the very center of what will one day be Israel.',
+            'Kirjath-arba means "the city of Arba." Later Hebron became one of the cities given to the Levites and, for David, the first capital of a united Israel. Abraham is not in some distant land, mourning in exile. He is mourning in the very center of what will one day be Israel[res:sefaria-genesis-23][res:iaa-hebron-cave-machpelah].',
         },
         {
           kind: 'commentary',

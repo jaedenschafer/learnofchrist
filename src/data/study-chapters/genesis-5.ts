@@ -21,7 +21,7 @@ export const GENESIS_5: RichChapterContent = {
   estimatedMinutes: { beginner: 6, intermediate: 9, deep: 12 },
   intros: [
     'Genesis 5 is a genealogy — a long list of names, years, descendants, and deaths. It reads like an inventory of mortality, each life a measured span from birth to the moment the refrain returns: &ldquo;and he died.&rdquo; Adam lived nine hundred and thirty years. Seth lived nine hundred and twelve. The chapter could read as an exercise in futility, a reminder that all flesh returns to dust. But Genesis will not allow that reading to stand.',
-    'In the middle of the list, one man does not die. Enoch walked with God, and &ldquo;he was not; for God took him.&rdquo; The chapter has been beating a rhythm for twelve verses, and then it stops. Later, one more name breaks the pattern: Noah, born to Lamech, whose father says at his birth, &ldquo;This same shall comfort us concerning our work and toil of our hands, because of the ground which the LORD hath cursed.&rdquo; In a genealogy where every name ends in death, these two are the text&apos;s way of pointing to what it has been waiting for all along — a world not cursed forever, and a God whose love does not end when life does.',
+    'In the middle of the list, one man does not die. Enoch walked with God, and &ldquo;he was not; for God took him.&rdquo;[res:intertextual-enoch-hebrews] The chapter has been beating a rhythm for twelve verses, and then it stops. Later, one more name breaks the pattern: Noah, born to Lamech, whose father says at his birth, &ldquo;This same shall comfort us concerning our work and toil of our hands, because of the ground which the LORD hath cursed.&rdquo; In a genealogy where every name ends in death, these two are the text&apos;s way of pointing to what it has been waiting for all along — a world not cursed forever, and a God whose love does not end when life does.',
   ],
 
   bottomShare: {
@@ -31,6 +31,33 @@ export const GENESIS_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 5 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-5',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 5 · Hebrew + Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.5',
+      description: 'Hebrew text with Rashi and medieval commentary on the genealogy and Enoch&apos;s translation.',
+    },
+    {
+      id: 'bibleodyssey-enoch-methuselah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Enoch, Methuselah, and Jared',
+      url: 'https://www.bibleodyssey.org/dictionary/enoch-methuselah/',
+      description: 'SBL overview of the antediluvian patriarchs and their role as links between Eden and the flood.',
+    },
+    {
+      id: 'intertextual-enoch-hebrews',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Enoch in Hebrews 11:5',
+      url: 'https://intertextual.bible/text/genesis-5.24/hebrews-11.5',
+      description: 'Shows how Hebrews retrieves Enoch as an exemplar of faith who escaped death.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 5:1–20 — The Long Refrain of Death ───────────────────── */
@@ -84,7 +111,7 @@ export const GENESIS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'g5-split-1',
           html:
-            'Adam is the first to die. The pattern has begun. He lives nine hundred and thirty years—an incomprehensible span of time—and then the refrain: he died. Seth is born. Seth lives almost nine hundred and twelve years. And he died. The rhythm is relentless, the meter of mortality sounding through the centuries.',
+            'Adam is the first to die. The pattern has begun. He lives nine hundred and thirty years—an incomprehensible span of time—and then the refrain: he died. Seth is born. Seth lives almost nine hundred and twelve years. And he died. The rhythm is relentless, the meter of mortality sounding through the centuries[res:sefaria-genesis-5][res:bibleodyssey-enoch-methuselah].',
         },
         {
           kind: 'scripture',

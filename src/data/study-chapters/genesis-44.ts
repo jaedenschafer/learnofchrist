@@ -14,9 +14,9 @@ export const GENESIS_44: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 12, deep: 14 },
   intros: [
-    'Genesis 44 is the moment the entire Joseph story turns. Everything before — the pit, the slavery, the false accusation in Egypt, the years in prison — points to this chapter. And everything after points back to it. A cup is hidden. A game of guilt and innocence plays out on the road. But the real drama is what happens inside Judah&apos;s heart.',
-    'This is the chapter where the man who once said, "Let us sell him to the Ishmaelites" (37:27) becomes the man who says, "Let me be a slave in his place." Not a rule change. Not a law that forced him. Something deeper: a metamorphosis. Judah has been remade from the inside by twenty years of memory and the weight of his own debt to his father Jacob.',
-    'The chapter shows no resolution. Judah makes his offer and then — silence. We don&apos;t yet know what Joseph will do. The text leaves us in that gap. Faith waits. The cross hasn&apos;t come yet. But the shape of it is already here.',
+    'Genesis 44 is the moment the entire Joseph story turns [res:bibleodyssey-joseph-egypt]. Everything before — the pit, the slavery, the false accusation in Egypt, the years in prison — points to this chapter. And everything after points back to it. A cup is hidden. A game of guilt and innocence plays out on the road. But the real drama is what happens inside Judah&apos;s heart.',
+    'This is the chapter where the man who once said, "Let us sell him to the Ishmaelites" (37:27) becomes the man who says, "Let me be a slave in his place" [res:sefaria-genesis-44]. Not a rule change. Not a law that forced him. Something deeper: a metamorphosis. Judah has been remade from the inside by twenty years of memory and the weight of his own debt to his father Jacob.',
+    'The chapter shows no resolution [res:met-museum-egypt]. Judah makes his offer and then — silence. We don&apos;t yet know what Joseph will do. The text leaves us in that gap. Faith waits. The cross hasn&apos;t come yet. But the shape of it is already here.',
   ],
 
   bottomShare: {
@@ -26,6 +26,33 @@ export const GENESIS_44: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 44 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-44',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 44 — Sefaria',
+      url: 'https://www.sefaria.org/Genesis.44',
+      description: 'Annotated text with classical and modern Jewish commentary on Judah&apos;s plea for Benjamin and his offer of substitution.',
+    },
+    {
+      id: 'met-museum-egypt',
+      kind: 'museum',
+      source: 'The Met',
+      label: 'Ancient Egypt — The Metropolitan Museum of Art',
+      url: 'https://www.metmuseum.org/art/collection?department=Egyptian%20Art',
+      description: 'Egyptian artifacts and cultural context for understanding the world of Joseph and later Genesis figures.',
+    },
+    {
+      id: 'bibleodyssey-joseph-egypt',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Joseph and Egypt — Bible Odyssey',
+      url: 'https://www.bibleodyssey.org/en/passages/related-articles/joseph-and-egypt',
+      description: 'Scholarly essays on Joseph&apos;s time in Egypt and its historical and theological significance.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 44:1–13 — The Cup Hidden and Found ────────────────────── */

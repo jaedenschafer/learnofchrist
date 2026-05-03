@@ -22,8 +22,8 @@ export const GENESIS_38: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 17 },
   intros: [
-    'Genesis 38 interrupts the story of Joseph with a different kind of story entirely—one about his older brother Judah, set apart from his family, and a woman named Tamar who was wronged twice over and responded with courage that made Judah see his own failure. This chapter is uncomfortable and graphic in ways the Bible usually avoids. It sits in Scripture not by accident but because the gospel runs through exactly the kind of people and circumstances that religious systems try to hide.',
-    'The story turns on one ancient practice: <em>yibbum</em>, the levirate marriage. When a man died childless, his brother was bound by law to marry his widow and raise up an heir for the dead man. It was not optional. It was sacred debt. When Judah withholds his youngest son from Tamar—leaving her in limbo, neither widow nor wife—he breaks a covenant. Tamar&apos;s response will teach him what righteousness actually looks like, and in the process, she secures her place in the genealogy of Jesus.',
+    'Genesis 38 interrupts the story of Joseph with a different kind of story entirely—one about his older brother Judah, set apart from his family, and a woman named Tamar who was wronged twice over and responded with courage that made Judah see his own failure [res:sefaria-genesis-38]. This chapter is uncomfortable and graphic in ways the Bible usually avoids. It sits in Scripture not by accident but because the gospel runs through exactly the kind of people and circumstances that religious systems try to hide.',
+    'The story turns on one ancient practice: <em>yibbum</em>, the levirate marriage. When a man died childless, his brother was bound by law to marry his widow and raise up an heir for the dead man. It was not optional. It was sacred debt. When Judah withholds his youngest son from Tamar—leaving her in limbo, neither widow nor wife—he breaks a covenant [res:bibleodyssey-joseph-egypt]. Tamar&apos;s response will teach him what righteousness actually looks like, and in the process, she secures her place in the genealogy of Jesus.',
   ],
 
   bottomShare: {
@@ -33,6 +33,33 @@ export const GENESIS_38: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 38 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-38',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 38 — Sefaria',
+      url: 'https://www.sefaria.org/Genesis.38',
+      description: 'Annotated text with classical and modern Jewish commentary on the Judah and Tamar narrative.',
+    },
+    {
+      id: 'met-museum-egypt',
+      kind: 'museum',
+      source: 'The Met',
+      label: 'Ancient Egypt — The Metropolitan Museum of Art',
+      url: 'https://www.metmuseum.org/art/collection?department=Egyptian%20Art',
+      description: 'Egyptian artifacts and cultural context for understanding the world of Joseph and later Genesis figures.',
+    },
+    {
+      id: 'bibleodyssey-joseph-egypt',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Joseph and Egypt — Bible Odyssey',
+      url: 'https://www.bibleodyssey.org/en/passages/related-articles/joseph-and-egypt',
+      description: 'Scholarly essays on Joseph&apos;s time in Egypt and its historical and theological significance.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 38:1–5 — Judah Departs ──────────────────────────────── */
@@ -408,7 +435,7 @@ export const GENESIS_38: RichChapterContent = {
           kind: 'commentary',
           id: 'c-righteous-than-i',
           html:
-            'One of the clearest self-condemnations in Scripture. Judah does not defend himself or negotiate. He sees what he has done: he withheld Shelah, he broke the covenant, he was willing to burn a woman for claiming what was legally hers. And Tamar, the widow, the woman he thought was a harlot, is righteous. He is not. The reversal is complete.',
+            'One of the clearest self-condemnations in Scripture [res:met-museum-egypt]. Judah does not defend himself or negotiate. He sees what he has done: he withheld Shelah, he broke the covenant, he was willing to burn a woman for claiming what was legally hers. And Tamar, the widow, the woman he thought was a harlot, is righteous. He is not. The reversal is complete.',
         },
         {
           kind: 'christ',

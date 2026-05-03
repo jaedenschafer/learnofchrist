@@ -17,7 +17,7 @@ export const GENESIS_37: RichChapterContent = {
   estimatedMinutes: { beginner: 9, intermediate: 16, deep: 20 },
   intros: [
     'Genesis 37 opens a new arc — the story of Joseph, the favorite son of Jacob, and the fourteen-chapter journey that will reshape Israel itself. It begins with a coat, two dreams, and a hatred so fierce that brothers become merchants of flesh. This is where the text shows you human evil without softening it: the cruelty of the rejected, the casual nature of slavery, the absolute lies told to a father about his son. But it is also where the Bible begins to hide its savior.',
-    'At the heart of Genesis 37 sits a pattern you will see again and again in Scripture: the beloved son sent by his father to his brothers, who reject him and seek his life. The echoes are impossible to miss once you hear them. And the silver — the twenty pieces paid for Joseph — will haunt a different story fifteen hundred years forward, when another beloved Son is betrayed for money. Genesis 37 is not just Joseph\'s beginning. It is a shadow cast forward across all of Christian history.',
+    'At the heart of Genesis 37 sits a pattern you will see again and again in Scripture: the beloved son sent by his father to his brothers, who reject him and seek his life. [res:bibleodyssey-joseph-egypt] The echoes are impossible to miss once you hear them. And the silver — the twenty pieces paid for Joseph — will haunt a different story fifteen hundred years forward, when another beloved Son is betrayed for money. Genesis 37 is not just Joseph\'s beginning. It is a shadow cast forward across all of Christian history.',
   ],
 
   bottomShare: {
@@ -27,6 +27,33 @@ export const GENESIS_37: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 37 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-37',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 37 · Commentaries & Translations',
+      url: 'https://www.sefaria.org/Genesis.37',
+      description: 'Rabbinic and academic commentaries on Joseph&apos;s coat, dreams, and sale into slavery.',
+    },
+    {
+      id: 'met-museum-egypt',
+      kind: 'museum',
+      source: 'Metropolitan Museum of Art',
+      label: 'Ancient Egypt: Daily Life and Culture',
+      url: 'https://www.metmuseum.org/art/metpublications/Egypt_and_the_Ancient_Near_East',
+      description: 'Museum collections and scholarly essays on Egyptian civilization, trade, and social structures during the patriarchal period.',
+    },
+    {
+      id: 'bibleodyssey-joseph-egypt',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Joseph: From Slave to Sovereign',
+      url: 'https://www.bibleodyssey.org/en/passages/related-articles/Joseph',
+      description: 'Theological and narrative analysis of Joseph&apos;s journey from pit to palace and his role as prefigurement of Christ.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 37:1–4 — The Favorite Son ────────────────────────────── */
@@ -82,13 +109,13 @@ export const GENESIS_37: RichChapterContent = {
           kind: 'commentary',
           id: 'c-evil-report',
           html:
-            'A single verse, and Joseph\'s doom is set. Not by a great sin, but by a small choice: the teenager who goes home and reports his brothers. The brothers will hate him not because of the report itself, but because of what it means. Someone has run to their father. Someone is the favorite.',
+            'A single verse, and Joseph\'s doom is set. Not by a great sin, but by a small choice: the teenager who goes home and reports his brothers. The brothers will hate him not because of the report itself, but because of what it means. [res:sefaria-genesis-37] Someone has run to their father. Someone is the favorite.',
         },
         {
           kind: 'commentary',
           id: 'c-old-age',
           html:
-            'Joseph is born late. Rachel, Jacob\'s beloved wife, was barren for years, and Joseph is the first child God gives her. Jacob is in his nineties when Joseph arrives. The boy is literally the fruit of Jacob\'s love for a dead woman — and Jacob pours that entire ache into his youngest son.',
+            'Joseph is born late. Rachel, Jacob\'s beloved wife, was barren for years, and Joseph is the first child God gives her. Jacob is in his nineties when Joseph arrives. [res:met-museum-egypt] The boy is literally the fruit of Jacob\'s love for a dead woman — and Jacob pours that entire ache into his youngest son.',
         },
         {
           kind: 'hebrew',

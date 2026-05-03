@@ -18,7 +18,7 @@ export const GENESIS_4: RichChapterContent = {
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 17 },
   intros: [
     'Genesis 4 opens with two brothers and two offerings. God looks with favor on one and not the other. In that moment of rejection, Cain faces a choice — he can accept the boundary God has drawn, or cross it. He crosses it. The result is the first murder, the first human death, the first blood crying from the ground. The chapter is dark.',
-    'But read carefully. Inside this story of Cain&apos;s line — murderers, polygamists, the arrogant builder Lamech — God has placed another line. Seth is born to replace Abel. And the chapter closes with a single sentence that transforms everything: &ldquo;then began men to call upon the name of the LORD.&rdquo; In the very chapter that shows the worst humans can do to each other, God opens the first door to worship.',
+    'But read carefully. Inside this story of Cain&apos;s line — murderers, polygamists, the arrogant builder Lamech — God has placed another line. Seth is born to replace Abel. And the chapter closes with a single sentence that transforms everything: &ldquo;then began men to call upon the name of the LORD.&rdquo; In the very chapter that shows the worst humans can do to each other, God opens the first door to worship. Hebrews will later return to Abel[res:intertextual-cain-abel-heb11], holding his faith up as a model for all believers who come after.',
   ],
 
   bottomShare: {
@@ -28,6 +28,33 @@ export const GENESIS_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 4 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-4',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 4 · Hebrew + Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.4',
+      description: 'Hebrew text with Rashi and medieval commentary on Cain, Abel, and the first worship.',
+    },
+    {
+      id: 'intertextual-cain-abel-heb11',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Cain and Abel in Hebrews 11:4',
+      url: 'https://intertextual.bible/text/genesis-4.4/hebrews-11.4',
+      description: 'Shows how Hebrews reframes Abel&apos;s faith and sacrifice in the larger arc of redemption.',
+    },
+    {
+      id: 'bibleodyssey-cain-abel',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Cain and Abel',
+      url: 'https://www.bibleodyssey.org/dictionary/cain-abel/',
+      description: 'SBL entry on the first brothers and the origins of sacrifice, murder, and intercession.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 4:1–7 — The Two Offerings ───────────────────────────── */
@@ -74,7 +101,7 @@ export const GENESIS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'gen4-cain-name',
           html:
-            'Cain&apos;s name echoes a verb of acquisition. Eve speaks as if she has obtained something from God — a man, a helper. The language is tender. But names in Scripture often carry a weight the person will discover later. Cain will spend his life reaching for what he does not have, and what he reaches for will destroy him.',
+            'Cain&apos;s name echoes a verb of acquisition. Eve speaks as if she has obtained something from God — a man, a helper. The language is tender. But names in Scripture often carry a weight the person will discover later. Cain will spend his life reaching for what he does not have, and what he reaches for will destroy him[res:sefaria-genesis-4][res:bibleodyssey-cain-abel].',
         },
         {
           kind: 'commentary',

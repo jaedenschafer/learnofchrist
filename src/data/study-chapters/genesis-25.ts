@@ -20,7 +20,7 @@ export const GENESIS_25: RichChapterContent = {
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 16 },
   intros: [
     'Genesis 25 opens with the death of Abraham — the father of the promise, who spent his life believing God for a son he could not yet see, for a nation he would never rule, for a land he would never fully own. He dies at 175, full of years, and is laid to rest with Sarah in the cave of Machpelah, the only plot of promised land he ever truly possessed. But his line does not die with him. His covenant is not buried in that cave.',
-    'In the second half of the chapter, we meet Rebekah and Isaac — and in Rebekah&apos;s womb, two nations struggling against each other. The text says the children struggled <em>within her,</em> not like siblings jostling for space, but like two peoples at war. God answers her prayer not with comfort but with an oracle that cuts against every human expectation: <em>the elder shall serve the younger.</em> It is a word that will shape the rest of the Bible — the story of a younger son chosen over an older, again and again, until the last becomes first and the meek inherit the earth.',
+    'In the second half of the chapter, we meet Rebekah and Isaac — and in Rebekah&apos;s womb, two nations struggling against each other. The text says the children struggled <em>within her,</em> not like siblings jostling for space, but like two peoples at war. God answers her prayer not with comfort but [res:bibleodyssey-jacob-israel] with an oracle that cuts against every human expectation: <em>the elder shall serve the younger.</em> It is a word that will shape the rest of the Bible — the story of a younger son chosen over an older, again and again, until the last becomes first and the meek inherit the earth.',
   ],
 
   bottomShare: {
@@ -30,6 +30,33 @@ export const GENESIS_25: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 25 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-25',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 25 · Hebrew + Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.25',
+      description: 'Hebrew text with rabbinic commentary on Abraham&apos;s death, the succession of Isaac, and Jacob&apos;s birth.',
+    },
+    {
+      id: 'pennmuseum-abraham-era',
+      kind: 'museum',
+      source: 'Penn Museum',
+      label: 'Mari & Nuzi Tablets (Abraham&apos;s era)',
+      url: 'https://www.penn.museum/collections/west-asia/',
+      description: 'Ancient Near Eastern documents on patriarchs, inheritance, primogeniture customs, and covenant succession.',
+    },
+    {
+      id: 'bibleodyssey-jacob-israel',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jacob, Israel, and the Covenant',
+      url: 'https://www.bibleodyssey.org/dictionary/jacob/',
+      description: 'SBL article on God&apos;s sovereign choice of the younger over the elder, and the pattern throughout Scripture.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 25:1–11 — Abraham's Later Years and Death ─────────────── */
@@ -123,7 +150,7 @@ export const GENESIS_25: RichChapterContent = {
           kind: 'commentary',
           id: 'c-keturah',
           html:
-            'Abraham takes another wife after Sarah&apos;s death — Keturah — and has six more children. These children receive gifts and are sent eastward, away from Isaac. The covenant line, though, is undivided. Abraham&apos;s later fertility is a sign not of weakness but of the strength God gave him. He lived long enough to see the promise begin to take root, and to prepare the way for the son who would carry it forward.',
+            'Abraham takes another wife after Sarah&apos;s death — Keturah — and has six more children. These children receive gifts and are sent eastward, away from Isaac. The covenant line, though, is undivided. Abraham&apos;s later fertility is a sign not of weakness but of the strength God gave him. He lived long enough to see the promise begin to take root, and to prepare the way for the son who would carry it forward[res:sefaria-genesis-25][res:pennmuseum-abraham-era].',
         },
         {
           kind: 'commentary',

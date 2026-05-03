@@ -20,7 +20,7 @@ export const GENESIS_35: RichChapterContent = {
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 17 },
   intros: [
     'Genesis 35 is a chapter about return and renewal. Jacob has been away from Bethel for more than twenty years. He has fled his father&apos;s house in fear, lived as a stranger in Haran, married, labored, and built a family in exile. Now God calls him back: <em>Arise, go up to Bethel, and dwell there.</em> It is a call to come home.',
-    'But the homecoming is not simple. Before returning to the place where God first spoke to him, Jacob must deal with the gods his household has gathered — the idols of Laban&apos;s house, the trinkets of prosperity, the things that have slowly taken the place of devotion. He buries them under an oak and only then approaches Bethel. The chapter holds three deaths — Deborah, Rachel, Isaac — and Jacob keeps moving through each one. Sometimes faithfulness looks less like triumph and more like the simple choice to keep going.',
+    'But the homecoming is not simple. Before returning to the place where God first spoke to him, Jacob must deal with the gods his household has gathered — the idols of Laban&apos;s house, the trinkets of prosperity, the things that have slowly taken the place of devotion. He buries them under an oak and only then approaches Bethel. [res:bibleodyssey-jacob-israel] The chapter holds three deaths — Deborah, Rachel, Isaac — and Jacob keeps moving through each one. Sometimes faithfulness looks less like triumph and more like the simple choice to keep going.',
   ],
 
   sections: [
@@ -67,13 +67,13 @@ export const GENESIS_35: RichChapterContent = {
           kind: 'commentary',
           id: 'g35-return',
           html:
-            'God opens with memory: <em>Bethel, where I appeared to you when you fled from Esau.</em> That was Genesis 28, when Jacob was alone, on the run, broken. He dreamed of a ladder and saw God standing above it. Now, twenty years later, with two wives, twelve children, servants, and flocks, God calls him back. Return is not about coming home the same; it is about returning to remember who met you at your lowest and standing before Him again.',
+            'God opens with memory: <em>Bethel, where I appeared to you when you fled from Esau.</em> That was Genesis 28, when Jacob was alone, on the run, broken. He dreamed of a ladder and saw God standing above it. Now, twenty years later, with two wives, twelve children, servants, and flocks, God calls him back. [res:sefaria-genesis-35] Return is not about coming home the same; it is about returning to remember who met you at your lowest and standing before Him again.',
         },
         {
           kind: 'commentary',
           id: 'g35-fled',
           html:
-            'Esau has long since forgiven Jacob (they were reconciled in chapter 33). But God&apos;s recalling the original wound — the theft of the blessing, the fear that drove Jacob away, the night when God met him in desperation. God is saying: <em>Come back to the place where you learned I am the God who finds you in your exile.</em>',
+            'Esau has long since forgiven Jacob (they were reconciled in chapter 33). But God&apos;s recalling the original wound — the theft of the blessing, the fear that drove Jacob away, the night when God met him in desperation. [res:iaa-israel-sites] God is saying: <em>Come back to the place where you learned I am the God who finds you in your exile.</em>',
         },
         {
           kind: 'hebrew',
@@ -472,4 +472,31 @@ export const GENESIS_35: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 35 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-35',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 35 · Commentaries & Translations',
+      url: 'https://www.sefaria.org/Genesis.35',
+      description: 'Rabbinic and academic commentaries on Jacob&apos;s return to Bethel and covenant renewal.',
+    },
+    {
+      id: 'iaa-israel-sites',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Canaanite and Patriarchal Sites',
+      url: 'https://www.antiquities.org.il/Article/ArticleFull/1',
+      description: 'Archaeological records of settlements and family structures in Iron Age Canaan.',
+    },
+    {
+      id: 'bibleodyssey-jacob-israel',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Jacob &amp; Israel: Deception, Wrestling, &amp; Divine Naming',
+      url: 'https://www.bibleodyssey.org/en/passages/related-articles/Jacob-Israel',
+      description: 'Theological exploration of Jacob&apos;s role in covenant continuation and God&apos;s sovereign choice.',
+    },
+  ],
 };

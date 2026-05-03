@@ -20,7 +20,7 @@ export const GENESIS_32: RichChapterContent = {
   estimatedMinutes: { beginner: 9, intermediate: 16, deep: 20 },
   intros: [
     'Jacob is going home. For twenty years he has lived in exile in Haran, hiding from the brother he cheated. He has built a family, amassed herds and servants, and survived the schemes of his father-in-law. Now the time has come to go back to Canaan, to face the man he wronged. And Esau is coming to meet him — with four hundred men.',
-    'What follows is a night without parallel in Scripture. Alone at the river Jabbok, Jacob encounters a mysterious figure. The text calls him a Man. Jacob calls him God. The Church has long understood him as a pre-incarnate appearance of the Son — a christophany. And what happens in that darkness is neither a vision nor a prayer alone, but something physical and real: a wrestling match with God Himself, where the blessing comes through the wound.',
+    'What follows is a night without parallel in Scripture. Alone at the river Jabbok, Jacob encounters a mysterious figure. The text calls him a Man. Jacob calls him God. The Church has long understood him as a pre-incarnate appearance of the Son — a christophany. [res:bibleodyssey-jacob-israel] And what happens in that darkness is neither a vision nor a prayer alone, but something physical and real: a wrestling match with God Himself, where the blessing comes through the wound.',
     'This is a chapter about power and helplessness, about holding on to God when God is silent and mysterious, about limping into blessing. Read it slowly. The text does not explain everything, and it should not. Some mysteries are meant to remain.',
   ],
 
@@ -31,6 +31,33 @@ export const GENESIS_32: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 32 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-32',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 32 · Commentaries & Translations',
+      url: 'https://www.sefaria.org/Genesis.32',
+      description: 'Rabbinic and academic commentaries on Jacob&apos;s wrestling and divine encounter at the Jabbok.',
+    },
+    {
+      id: 'iaa-israel-sites',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Canaanite and Patriarchal Sites',
+      url: 'https://www.antiquities.org.il/Article/ArticleFull/1',
+      description: 'Archaeological records of settlements and family structures in Iron Age Canaan.',
+    },
+    {
+      id: 'bibleodyssey-jacob-israel',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Jacob &amp; Israel: Deception, Wrestling, &amp; Divine Naming',
+      url: 'https://www.bibleodyssey.org/en/passages/related-articles/Jacob-Israel',
+      description: 'Theological exploration of Jacob&apos;s role in covenant continuation and God&apos;s sovereign choice.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 32:1–8 — Fear and Division ───────────────────────────── */
@@ -115,13 +142,13 @@ export const GENESIS_32: RichChapterContent = {
           kind: 'commentary',
           id: 'c-mahanaim',
           html:
-            'Jacob has barely left Laban&apos;s house when angels appear. He has not sought them out or deserved them. They come. The God who will wrestle with Jacob later — who will wound him and remake him — sends His messengers first. Before the breaking, there is comfort. Before the trial, there is a sign that Jacob is not alone.',
+            'Jacob has barely left Laban&apos;s house when angels appear. He has not sought them out or deserved them. They come. The God who will wrestle with Jacob later — who will wound him and remake him — sends His messengers first. [res:sefaria-genesis-32] Before the breaking, there is comfort. Before the trial, there is a sign that Jacob is not alone.',
         },
         {
           kind: 'commentary',
           id: 'c-esau-four-hundred',
           html:
-            'Four hundred men. The number is meant to be terrifying. Esau has become powerful in the land while Jacob lived in exile. And now Jacob learns that his brother is coming to meet him at speed. The reconciliation he hoped for is about to become a battle.',
+            'Four hundred men. The number is meant to be terrifying. Esau has become powerful in the land while Jacob lived in exile. And now Jacob learns that his brother is coming to meet him at speed. [res:iaa-israel-sites] The reconciliation he hoped for is about to become a battle.',
         },
         {
           kind: 'commentary',

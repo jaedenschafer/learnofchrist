@@ -65,13 +65,13 @@ export const GENESIS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'c-one-language',
           html:
-            'One language. One speech. The text emphasizes unity. After the flood splintered the world by family and ethnic line, humanity is reassembled, speaking in unison. But unity without wisdom is not a blessing. They move toward a common purpose, but that purpose is not obedience to God — it is self-made permanence.',
+            'One language. One speech. The text emphasizes unity. After the flood splintered the world by family and ethnic line, humanity is reassembled, speaking in unison. But unity without wisdom is not a blessing. They move toward a common purpose, but that purpose is not obedience to God — it is self-made permanence[res:sefaria-genesis-11][res:britishmuseum-ziggurat].',
         },
         {
           kind: 'commentary',
           id: 'c-make-brick',
           html:
-            'The work is practical, even impressive. Baked brick and bitumen mortar — real technique, real engineering. This is not a fantasy tower. This is what humans can do when they organize labor and resources. The problem is not the craft; it is the heart. They build not to glorify God, but to glorify themselves.',
+            'The work is practical, even impressive. Baked brick and bitumen mortar — real technique, real engineering. This is not a fantasy tower. This is what humans can do when they organize labor and resources. The problem is not the craft; it is the heart. They build not to glorify God, but to glorify themselves[res:bibleodyssey-babel-tongues].',
         },
         {
           kind: 'hebrew',
@@ -416,4 +416,31 @@ export const GENESIS_11: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 11 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-11',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 11 · Hebrew + Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.11',
+      description: 'Hebrew text with rabbinic commentary on Babel and the patrilineal line.',
+    },
+    {
+      id: 'britishmuseum-ziggurat',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Mesopotamian Ziggurats and Babel',
+      url: 'https://www.britishmuseum.org/collection/search?object=ziggurat',
+      description: 'Artifacts and context on the ziggurat towers of ancient Mesopotamia that informed the Babel account.',
+    },
+    {
+      id: 'bibleodyssey-babel-tongues',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Tower of Babel',
+      url: 'https://www.bibleodyssey.org/dictionary/tower-babel/',
+      description: 'SBL entry on Babel and the scattering of languages in ancient Near Eastern context.',
+    },
+  ],
 };

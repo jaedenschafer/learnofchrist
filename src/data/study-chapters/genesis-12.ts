@@ -38,6 +38,33 @@ export const GENESIS_12: RichChapterContent = {
     ref: 'Genesis 12 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-genesis-12',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 12 · Hebrew + Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.12',
+      description: 'Hebrew text with rabbinic commentary on Abraham\'s call and the covenant promise.',
+    },
+    {
+      id: 'pennmuseum-abraham-era',
+      kind: 'museum',
+      source: 'Penn Museum',
+      label: 'Mari & Nuzi Tablets (Patriarchal era)',
+      url: 'https://www.penn.museum/collections/west-asia/',
+      description: 'Ancient Near Eastern documents illuminating the customs and laws of Abraham\'s world.',
+    },
+    {
+      id: 'bibleodyssey-abraham-covenant',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Abraham and the Covenant',
+      url: 'https://www.bibleodyssey.org/articles/abraham-sarah/',
+      description: 'SBL overview of Abraham\'s faith, the threefold promise, and God\'s plan of redemption.',
+    },
+  ],
+
   sections: [
     /* ─── Genesis 12:1–3 — The Call and the Threefold Promise ────────── */
     {
@@ -95,13 +122,13 @@ export const GENESIS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'c-bless',
           html:
-            'God&apos;s promise comes in a cascade: <em>I will bless you. I will make your name great. You shall be a blessing.</em> The first is reception; the second, reputation; the third, a vocation. Blessing is not wealth alone or fame alone. It is God&apos;s presence and favor moving through you toward others.',
+            'God&apos;s promise comes in a cascade: <em>I will bless you. I will make your name great. You shall be a blessing.</em> The first is reception; the second, reputation; the third, a vocation. Blessing is not wealth alone or fame alone. It is God&apos;s presence and favor moving through you toward others[res:sefaria-genesis-12][res:pennmuseum-abraham-era].',
         },
         {
           kind: 'commentary',
           id: 'c-name',
           html:
-            'In the ancient world, &ldquo;name&rdquo; meant reputation, legacy, the echo a life leaves behind. God promises Abram will not fade into history. But the irony is deep: the greatest thing about Abram&apos;s name is not what he built for himself, but the Covenant and the God who carries it forward through his offspring.',
+            'In the ancient world, &ldquo;name&rdquo; meant reputation, legacy, the echo a life leaves behind. God promises Abram will not fade into history. But the irony is deep: the greatest thing about Abram&apos;s name is not what he built for himself, but the Covenant and the God who carries it forward through his offspring[res:bibleodyssey-abraham-covenant].',
         },
         {
           kind: 'commentary',

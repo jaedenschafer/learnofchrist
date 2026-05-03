@@ -18,9 +18,9 @@ export const GENESIS_41: RichChapterContent = {
 
   estimatedMinutes: { beginner: 14, intermediate: 23, deep: 29 },
   intros: [
-    'Genesis 41 opens with Pharaoh alone with his dreams. Two centuries before Egypt&apos;s wise men will decode the mysteries of their own temples, they stand mute before these seven cows and seven ears of grain. Nothing in the wisdom of Egypt can read what God is saying. The magicians fail. And in the dungeon, still thirteen years from home, Joseph waits without knowing that a dream is about to change everything.',
-    'Pay close attention to Joseph&apos;s first words when he stands before Pharaoh: "It is not in me." At the moment of his exaltation, when he could finally take credit — when Pharaoh himself is asking, when the kingdom is desperate — Joseph&apos;s first act is to deflect the credit away from himself. Even his freedom is not about Joseph. It is about God. That refusal to seize power for himself sets up everything that follows in Joseph&apos;s story: a man lifted up not by his own hands, but by the God who has been with him in the pit, the prison, and now the palace.',
-    'Manasseh and Ephraim. The names Joseph gives his sons are not accidental. They are the prayer of a man who has been broken and healed. Manasseh — "God hath made me forget" — speaks of a grace that does not deny the pain but somehow makes it bearable. And Ephraim — "God hath caused me to be fruitful in the land of my affliction" — is the deeper pattern: not only forgetting the bitter, but bearing new life out of it. This is resurrection logic a thousand years before Christ, and Joseph&apos;s family bears it in their names.',
+    'Genesis 41 opens with Pharaoh alone with his dreams. Two centuries before Egypt&apos;s wise men will decode the mysteries of their own temples, they stand mute before these seven cows and seven ears of grain [res:met-museum-egypt]. Nothing in the wisdom of Egypt can read what God is saying. The magicians fail. And in the dungeon, still thirteen years from home, Joseph waits without knowing that a dream is about to change everything.',
+    'Pay close attention to Joseph&apos;s first words when he stands before Pharaoh: "It is not in me." At the moment of his exaltation, when he could finally take credit — when Pharaoh himself is asking, when the kingdom is desperate — Joseph&apos;s first act is to deflect the credit away from himself [res:sefaria-genesis-41]. Even his freedom is not about Joseph. It is about God. That refusal to seize power for himself sets up everything that follows in Joseph&apos;s story: a man lifted up not by his own hands, but by the God who has been with him in the pit, the prison, and now the palace.',
+    'Manasseh and Ephraim. The names Joseph gives his sons are not accidental. They are the prayer of a man who has been broken and healed [res:bibleodyssey-joseph-egypt]. Manasseh — "God hath made me forget" — speaks of a grace that does not deny the pain but somehow makes it bearable. And Ephraim — "God hath caused me to be fruitful in the land of my affliction" — is the deeper pattern: not only forgetting the bitter, but bearing new life out of it. This is resurrection logic a thousand years before Christ, and Joseph&apos;s family bears it in their names.',
   ],
 
   bottomShare: {
@@ -30,6 +30,33 @@ export const GENESIS_41: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 41 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-41',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 41 — Sefaria',
+      url: 'https://www.sefaria.org/Genesis.41',
+      description: 'Annotated text with classical and modern Jewish commentary on Joseph&apos;s rise to power as vizier of Egypt.',
+    },
+    {
+      id: 'met-museum-egypt',
+      kind: 'museum',
+      source: 'The Met',
+      label: 'Ancient Egypt — The Metropolitan Museum of Art',
+      url: 'https://www.metmuseum.org/art/collection?department=Egyptian%20Art',
+      description: 'Egyptian artifacts and cultural context for understanding the world of Joseph and later Genesis figures.',
+    },
+    {
+      id: 'bibleodyssey-joseph-egypt',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Joseph and Egypt — Bible Odyssey',
+      url: 'https://www.bibleodyssey.org/en/passages/related-articles/joseph-and-egypt',
+      description: 'Scholarly essays on Joseph&apos;s time in Egypt and its historical and theological significance.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 41:1–8 — Pharaoh&apos;s Dreams ─────────────────────────────── */

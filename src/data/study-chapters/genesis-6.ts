@@ -19,7 +19,7 @@ export const GENESIS_6: RichChapterContent = {
   intros: [
     'Genesis 6 is the chapter where the world turns dark. After five generations of human failure, after Cain and the first murder, after a humanity that grows more twisted the further it gets from Eden, we arrive at a moment when God looks at what He has made and finds Himself grieving. The Hebrew word for that grief—<em>nicham</em>—shares its root with the name Noah. This is a chapter about repentance: God&apos;s, and a man&apos;s.',
     'The opening verses are strange—a moment most biblical scholars openly disagree about. Sons of God and daughters of men. Were they angels? Descendants of Seth? Earthly rulers? The text doesn&apos;t settle it, and readers across two thousand years have held different views. Rather than choosing a side, let yourself sit with the strangeness. The Bible is full of moments that defy easy answers. This is one of them.',
-    'But what follows is clear: God sees the darkness He made space for, grieves it with a tenderness that feels almost human, and chooses one family—Noah and his house—to carry the promise through the waters of judgment. The ark is the answer to that grief. It is salvation beginning again.',
+    'But what follows is clear: God sees the darkness He made space for, grieves it with a tenderness that feels almost human, and chooses one family—Noah and his house—to carry the promise through the waters of judgment[res:bibleodyssey-flood-narratives]. The ark is the answer to that grief. It is salvation beginning again.',
   ],
 
   sections: [
@@ -68,7 +68,7 @@ export const GENESIS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'c-strangers',
           html:
-            'The opening verses resist easy interpretation. Three major views have stood for centuries: (1) the <em>sons of God</em> were angelic beings who took human wives—a reading the early Jews and early Christians held, and one Jude and 2 Peter explicitly cite; (2) they were descendants of Seth, the godly line, marrying Cainites, the worldly line; (3) they were human rulers or king-priests, the powerful of the earth taking what they wanted. The text does not settle this. Rather, it holds the strangeness. What is clear: someone is crossing a line. Someone is taking what was not meant to be taken. And the earth is watching.',
+            'The opening verses resist easy interpretation. Three major views have stood for centuries: (1) the <em>sons of God</em> were angelic beings who took human wives—a reading the early Jews and early Christians held, and one Jude and 2 Peter explicitly cite; (2) they were descendants of Seth, the godly line, marrying Cainites, the worldly line; (3) they were human rulers or king-priests, the powerful of the earth taking what they wanted. The text does not settle this. Rather, it holds the strangeness. What is clear: someone is crossing a line. Someone is taking what was not meant to be taken. And the earth is watching[res:sefaria-genesis-6][res:britishmuseum-atrahasis].',
         },
         {
           kind: 'hebrew',
@@ -397,4 +397,31 @@ export const GENESIS_6: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 6 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-6',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 6 · Hebrew + Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.6',
+      description: 'Hebrew text with rabbinic commentary on the pre-flood world and Noah&apos;s election.',
+    },
+    {
+      id: 'britishmuseum-atrahasis',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Atrahasis Epic (Babylonian flood narrative)',
+      url: 'https://www.britishmuseum.org/collection/search?object=Atrahasis',
+      description: 'Neo-Babylonian flood narrative showing parallels and contrasts with Genesis account.',
+    },
+    {
+      id: 'bibleodyssey-flood-narratives',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Flood Narratives in the Ancient Near East',
+      url: 'https://www.bibleodyssey.org/articles/flood-narratives-ancient-near-east/',
+      description: 'SBL comparison of Genesis flood account with Mesopotamian parallels.',
+    },
+  ],
 };

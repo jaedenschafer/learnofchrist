@@ -18,8 +18,8 @@ export const GENESIS_39: RichChapterContent = {
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 14 },
   intros: [
-    'Genesis 39 opens a long descent for Joseph that looks at first like an ascent. Potiphar, an officer of Pharaoh, buys Joseph and sees something in him — favor, competence, the presence of God. Joseph prospers. He is promoted. He has oversight of everything. And then Potiphar&apos;s wife looks at him.',
-    'What happens next is a study in how righteousness costs. Joseph is a young man in a foreign land, enslaved, with no ally, no family, no claim to protection. He could slip with no one the wiser. Instead he refuses daily, naming the refusal plainly: this would be "great wickedness" against God. When she seizes him by the garment, he tears himself free and flees — and she lies, and he is thrown into prison. Yet the chapter&apos;s refrain never wavers: the LORD was with Joseph.',
+    'Genesis 39 opens a long descent for Joseph that looks at first like an ascent. Potiphar, an officer of Pharaoh, buys Joseph and sees something in him — favor, competence, the presence of God [res:met-museum-egypt]. Joseph prospers. He is promoted. He has oversight of everything. And then Potiphar&apos;s wife looks at him.',
+    'What happens next is a study in how righteousness costs. Joseph is a young man in a foreign land, enslaved, with no ally, no family, no claim to protection [res:bibleodyssey-joseph-egypt]. He could slip with no one the wiser. Instead he refuses daily, naming the refusal plainly: this would be "great wickedness" against God. When she seizes him by the garment, he tears himself free and flees — and she lies, and he is thrown into prison. Yet the chapter&apos;s refrain never wavers: the LORD was with Joseph.',
   ],
 
   bottomShare: {
@@ -29,6 +29,33 @@ export const GENESIS_39: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 39 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-39',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 39 — Sefaria',
+      url: 'https://www.sefaria.org/Genesis.39',
+      description: 'Annotated text with classical and modern Jewish commentary on Joseph in Potiphar&apos;s house.',
+    },
+    {
+      id: 'met-museum-egypt',
+      kind: 'museum',
+      source: 'The Met',
+      label: 'Ancient Egypt — The Metropolitan Museum of Art',
+      url: 'https://www.metmuseum.org/art/collection?department=Egyptian%20Art',
+      description: 'Egyptian artifacts and cultural context for understanding the world of Joseph and later Genesis figures.',
+    },
+    {
+      id: 'bibleodyssey-joseph-egypt',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Joseph and Egypt — Bible Odyssey',
+      url: 'https://www.bibleodyssey.org/en/passages/related-articles/joseph-and-egypt',
+      description: 'Scholarly essays on Joseph&apos;s time in Egypt and its historical and theological significance.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 39:1–6 — The Favor of God ────────────────────────────── */
@@ -410,7 +437,7 @@ export const GENESIS_39: RichChapterContent = {
           kind: 'commentary',
           id: 'c-prison-favor',
           html:
-            'The same pattern repeats. Joseph is favored. He is promoted within the prison to overseer of the prisoners. And the reason given is, again, that the LORD was with him. There is no timeline here, no sense that Joseph needed time to grieve his lost position. The chapter moves immediately from his condemnation to his favor. The constancy of the phrase — "the LORD was with Joseph" — suggests that his sense of being with God did not waver.',
+            'The same pattern repeats [res:sefaria-genesis-39]. Joseph is favored. He is promoted within the prison to overseer of the prisoners. And the reason given is, again, that the LORD was with him. There is no timeline here, no sense that Joseph needed time to grieve his lost position. The chapter moves immediately from his condemnation to his favor. The constancy of the phrase — "the LORD was with Joseph" — suggests that his sense of being with God did not waver.',
         },
         {
           kind: 'hebrew',

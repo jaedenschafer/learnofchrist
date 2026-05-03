@@ -17,7 +17,7 @@ export const GENESIS_15: RichChapterContent = {
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 15 },
   intros: [
-    'Abram has left his homeland. He has been promised an heir and a land so vast it cannot be counted. But he is childless, and his adopted servant will inherit everything. The chapter opens with God saying something personal, something almost breathed: "Fear not, Abram: I am thy shield, and thy exceeding great reward." And then Abram does something simple — he believes God — and God counts that belief as righteousness. That single verse has shaped the entire Christian understanding of how we stand before God.',
+    'Abram has left his homeland. He has been promised an heir and a land so vast it cannot be counted. But he is childless, and his adopted servant will inherit everything. The chapter opens with God saying something personal, something almost breathed: "Fear not, Abram: I am thy shield, and thy exceeding great reward." And then Abram does something simple — he believes God — and God counts that belief [res:bibleodyssey-abraham-covenant] as righteousness. That single verse has shaped the entire Christian understanding of how we stand before God.',
     'But Abram asks for proof. He needs to see how the promise holds. So God takes him through a ceremony ancient shepherds knew well: the covenant of pieces. Abram cuts animals in half and lays them out. God fills the air with smoke and fire, and then does something no other god in the ancient world ever does — He passes alone between the pieces. In every covenant you make with a human, both parties walk the path. But here, God walks both paths. God binds Himself so completely to keep His word that if He fails, let Him be torn in pieces like the animals. And then God speaks a prophecy: Abram&apos;s descendants will be enslaved for 400 years, but they will come out with great substance. The chapter ends not with celebration, but with trust.',
   ],
 
@@ -47,7 +47,7 @@ export const GENESIS_15: RichChapterContent = {
           kind: 'commentary',
           id: 'c-vision',
           html:
-            'Abram is afraid. He has just returned from war, from walking among nations mightier than his own, from the kind of power that moves armies and reshapes borders. And God does not begin with strategy or reassurance about military might. He begins with intimacy: <em>Fear not</em>. The first word a king speaks to his servant is not policy. It is a voice.',
+            'Abram is afraid. He has just returned from war, from walking among nations mightier than his own, from the kind of power that moves armies and reshapes borders. And God does not begin with strategy or reassurance about military might. He begins with intimacy: <em>Fear not</em>. The first word a king speaks to his servant is not policy. It is a voice[res:sefaria-genesis-15][res:pennmuseum-abraham-era].',
         },
         {
           kind: 'christ',
@@ -480,6 +480,33 @@ export const GENESIS_15: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 15 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-15',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 15 · Hebrew + Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.15',
+      description: 'Hebrew text with rabbinic commentary on faith reckoned as righteousness and the covenant of pieces.',
+    },
+    {
+      id: 'pennmuseum-abraham-era',
+      kind: 'museum',
+      source: 'Penn Museum',
+      label: 'Mari & Nuzi Tablets (Abraham&apos;s era)',
+      url: 'https://www.penn.museum/collections/west-asia/',
+      description: 'Ancient Near Eastern covenant documents and treaties illuminating the binding customs of Abraham&apos;s world.',
+    },
+    {
+      id: 'bibleodyssey-abraham-covenant',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Abraham and the Covenant',
+      url: 'https://www.bibleodyssey.org/articles/abraham-sarah/',
+      description: 'SBL article on Abraham&apos;s faith, God&apos;s covenant promise, and the foundation of justification by faith.',
+    },
+  ],
 
   hasHebrew: true,
 };

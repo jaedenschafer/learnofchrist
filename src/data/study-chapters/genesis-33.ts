@@ -17,7 +17,7 @@ export const GENESIS_33: RichChapterContent = {
   estimatedMinutes: { beginner: 5, intermediate: 9, deep: 13 },
   intros: [
     'Jacob has crossed the Jabbok. He has wrestled all night with God and been renamed Israel — "you have struggled with God, and have prevailed." But the dread that has haunted him for twenty years is about to arrive in person. Esau is coming. Four hundred men at his side.',
-    'What happens next is the most stunning moment in Jacob&apos;s long story of scheming and scrambling. In a single chapter, two brothers who should have blood between them embrace instead. The older brother runs to the younger like a father in a parable. The deceiver finds himself on the receiving end of mercy. And in the space where murder could have been, Jacob names his God: "I have seen thy face, as though I had seen the face of God." To meet your brother face to face — with all the wrong between you — is the same thing as meeting God face to face.',
+    'What happens next is the most stunning moment in Jacob&apos;s long story of scheming and scrambling. In a single chapter, two brothers who should have blood between them embrace instead. The older brother runs to the younger like a father in a parable. The deceiver finds himself on the receiving end of mercy. [res:bibleodyssey-jacob-israel] And in the space where murder could have been, Jacob names his God: "I have seen thy face, as though I had seen the face of God." To meet your brother face to face — with all the wrong between you — is the same thing as meeting God face to face.',
   ],
 
   bottomShare: {
@@ -27,6 +27,33 @@ export const GENESIS_33: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 33 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-33',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 33 · Commentaries & Translations',
+      url: 'https://www.sefaria.org/Genesis.33',
+      description: 'Rabbinic and academic commentaries on the reconciliation of Jacob and Esau.',
+    },
+    {
+      id: 'iaa-israel-sites',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Canaanite and Patriarchal Sites',
+      url: 'https://www.antiquities.org.il/Article/ArticleFull/1',
+      description: 'Archaeological records of settlements and family structures in Iron Age Canaan.',
+    },
+    {
+      id: 'bibleodyssey-jacob-israel',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Jacob &amp; Israel: Deception, Wrestling, &amp; Divine Naming',
+      url: 'https://www.bibleodyssey.org/en/passages/related-articles/Jacob-Israel',
+      description: 'Theological exploration of Jacob&apos;s role in covenant continuation and God&apos;s sovereign choice.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 33:1–3 — He Lifted Up His Eyes ──────────────────────── */
@@ -68,13 +95,13 @@ export const GENESIS_33: RichChapterContent = {
           kind: 'commentary',
           id: 'c-lifted-eyes',
           html:
-            'Jacob lifts his eyes and sees the thing he has been running from his whole life. Not an abstraction — the concrete arrival. Four hundred men. For years, the fear has lived in his stomach as a story he told himself. Now it has a face and a number. And in the next moment, the story will be shattered by something he did not write.',
+            'Jacob lifts his eyes and sees the thing he has been running from his whole life. Not an abstraction — the concrete arrival. Four hundred men. For years, the fear has lived in his stomach as a story he told himself. Now it has a face and a number. [res:sefaria-genesis-33] And in the next moment, the story will be shattered by something he did not write.',
         },
         {
           kind: 'commentary',
           id: 'c-order',
           html:
-            'Notice the arrangement: the servants first, Leah and her children next, Rachel and Joseph last — the ones he loves most, placed where they would be safest if violence erupted. Jacob is still thinking like a man trying to minimize loss. He does not yet know that mercy is coming; he is only preparing for the worst.',
+            'Notice the arrangement: the servants first, Leah and her children next, Rachel and Joseph last — the ones he loves most, placed where they would be safest if violence erupted. Jacob is still thinking like a man trying to minimize loss. [res:iaa-israel-sites] He does not yet know that mercy is coming; he is only preparing for the worst.',
         },
         {
           kind: 'commentary',

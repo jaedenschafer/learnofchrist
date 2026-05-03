@@ -20,8 +20,8 @@ export const GENESIS_46: RichChapterContent = {
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 15 },
   intros: [
-    'Israel is old. He has lived 130 years, seen Joseph alive against every expectation, buried Isaac at Mamre, and now stands at the edge of a choice: travel south to Egypt, the land of bondage, or stay in Canaan, the land of promise. He chooses to go. But before he steps across the southern border into Egypt, he stops at Beersheba — the place where Abraham once dug a well, the southern boundary of the promised land — to offer sacrifice to the God of his fathers.',
-    'God appears to him there, in visions of the night. And God says something that will define Israel&apos;s entire sojourn in Egypt: "I am God, the God of thy father. Fear not to go down into Egypt, for I will there make of thee a great nation. I will go down with thee... and I will also surely bring thee up again." Two movements — down and up — framing exile itself as the space where God walks with His people.',
+    'Israel is old. He has lived 130 years, seen Joseph alive against every expectation, buried Isaac at Mamre, and now stands at the edge of a choice: travel south to Egypt, the land of bondage, or stay in Canaan, the land of promise [res:met-museum-egypt]. He chooses to go. But before he steps across the southern border into Egypt, he stops at Beersheba — the place where Abraham once dug a well, the southern boundary of the promised land — to offer sacrifice to the God of his fathers.',
+    'God appears to him there, in visions of the night [res:sefaria-genesis-46]. And God says something that will define Israel&apos;s entire sojourn in Egypt: "I am God, the God of thy father. Fear not to go down into Egypt, for I will there make of thee a great nation. I will go down with thee... and I will also surely bring thee up again" [res:bibleodyssey-joseph-egypt]. Two movements — down and up — framing exile itself as the space where God walks with His people.',
   ],
 
   bottomShare: {
@@ -31,6 +31,33 @@ export const GENESIS_46: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 46 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-46',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 46 — Sefaria',
+      url: 'https://www.sefaria.org/Genesis.46',
+      description: 'Annotated text with classical and modern Jewish commentary on Israel&apos;s descent into Egypt.',
+    },
+    {
+      id: 'met-museum-egypt',
+      kind: 'museum',
+      source: 'The Met',
+      label: 'Ancient Egypt — The Metropolitan Museum of Art',
+      url: 'https://www.metmuseum.org/art/collection?department=Egyptian%20Art',
+      description: 'Egyptian artifacts and cultural context for understanding the world of Joseph and later Genesis figures.',
+    },
+    {
+      id: 'bibleodyssey-joseph-egypt',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Joseph and Egypt — Bible Odyssey',
+      url: 'https://www.bibleodyssey.org/en/passages/related-articles/joseph-and-egypt',
+      description: 'Scholarly essays on Joseph&apos;s time in Egypt and its historical and theological significance.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 46:1–4 — Beersheba and the Vision ──────────────────── */

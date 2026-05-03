@@ -20,8 +20,8 @@ export const GENESIS_40: RichChapterContent = {
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
   intros: [
-    'Joseph has not disappeared from Potiphar&apos;s house. He has been moved to prison — the captain of the guard&apos;s prison, where he continues to find favor and eventually runs the place. Then two men arrive: Pharaoh&apos;s chief butler and chief baker, both in disgrace, both locked away. Both men dream. And Joseph — the interpreter — is about to learn that accurate words matter far less than accurate timing.',
-    'The chapter is 23 verses long and compressed as iron. Two dreams, two interpretations, two outcomes, all hinged on the same small detail: the third day. What happens when interpretations come true? Joseph asks for one thing in return. What happens then will shape the rest of his waiting.',
+    'Joseph has not disappeared from Potiphar&apos;s house. He has been moved to prison — the captain of the guard&apos;s prison, where he continues to find favor and eventually runs the place [res:met-museum-egypt]. Then two men arrive: Pharaoh&apos;s chief butler and chief baker, both in disgrace, both locked away. Both men dream. And Joseph — the interpreter — is about to learn that accurate words matter far less than accurate timing.',
+    'The chapter is 23 verses long and compressed as iron. Two dreams, two interpretations, two outcomes, all hinged on the same small detail: the third day [res:bibleodyssey-joseph-egypt]. What happens when interpretations come true? Joseph asks for one thing in return. What happens then will shape the rest of his waiting.',
   ],
 
   bottomShare: {
@@ -31,6 +31,33 @@ export const GENESIS_40: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 40 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-40',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 40 — Sefaria',
+      url: 'https://www.sefaria.org/Genesis.40',
+      description: 'Annotated text with classical and modern Jewish commentary on Joseph&apos;s interpretation of the butler and baker&apos;s dreams.',
+    },
+    {
+      id: 'met-museum-egypt',
+      kind: 'museum',
+      source: 'The Met',
+      label: 'Ancient Egypt — The Metropolitan Museum of Art',
+      url: 'https://www.metmuseum.org/art/collection?department=Egyptian%20Art',
+      description: 'Egyptian artifacts and cultural context for understanding the world of Joseph and later Genesis figures.',
+    },
+    {
+      id: 'bibleodyssey-joseph-egypt',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Joseph and Egypt — Bible Odyssey',
+      url: 'https://www.bibleodyssey.org/en/passages/related-articles/joseph-and-egypt',
+      description: 'Scholarly essays on Joseph&apos;s time in Egypt and its historical and theological significance.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 40:1–8 — Two Dreams, One Answer ────────────────────────── */
@@ -393,7 +420,7 @@ export const GENESIS_40: RichChapterContent = {
           kind: 'commentary',
           id: 'c-forget',
           html:
-            'The Hebrew says it twice in the same verse, like a hammer: "yet did not the chief butler remember Joseph, but forgat him." It is not a gentle forgetting. It is an erasure. Joseph asked one thing — <em>think on me</em> — and the butler, his fortune restored, walks out and closes the door. Two years will pass before Joseph hears the butler&apos;s name again.',
+            'The Hebrew says it twice in the same verse, like a hammer: "yet did not the chief butler remember Joseph, but forgat him." It is not a gentle forgetting. It is an erasure [res:sefaria-genesis-40]. Joseph asked one thing — <em>think on me</em> — and the butler, his fortune restored, walks out and closes the door. Two years will pass before Joseph hears the butler&apos;s name again.',
         },
         {
           kind: 'carry',

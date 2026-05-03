@@ -17,7 +17,7 @@ export const GENESIS_18: RichChapterContent = {
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 15 },
   intros: [
     'Genesis 18 has two halves that echo each other. In the first, Abraham sits at the door of his tent at noon and sees three men walking toward him. He does not know who they are. He runs to meet them and offers them water, shade, and bread — the hospitality of a desert nomad toward strangers. They accept, and one of them speaks the promise Abraham has been waiting for: within a year, Sarah will have a son.',
-    'In the second half, the strangers rise to go. Abraham walks with them toward Sodom. And then, at the turning point of the chapter, the Lord says something stunning: "Shall I hide from Abraham that thing which I do?" What follows is not judgment first, but disclosure. Abraham learns what is about to happen to Sodom and Gerar, and he begins to pray — to bargain, even — for the city. He starts at fifty righteous souls and works his way down to ten, and the Lord listens to him each time. Hospitality in the first half has become intercession in the second.',
+    'In the second half, the strangers rise to go. Abraham walks with them toward Sodom. And then, at the turning point of the chapter, the Lord says something stunning: "Shall I hide from Abraham that thing which I do?" What follows is not judgment first, but disclosure. Abraham learns what is about to happen to Sodom and Gerar, and he begins to pray — to bargain, even — for the city. He starts at fifty righteous souls and works his way down [res:bibleodyssey-abraham-covenant] to ten, and the Lord listens to him each time. Hospitality in the first half has become intercession in the second.',
   ],
 
   bottomShare: {
@@ -27,6 +27,33 @@ export const GENESIS_18: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 18 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-18',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 18 · Hebrew + Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.18',
+      description: 'Hebrew text with rabbinic commentary on hospitality, divine revelation, and Abraham&apos;s intercession.',
+    },
+    {
+      id: 'pennmuseum-abraham-era',
+      kind: 'museum',
+      source: 'Penn Museum',
+      label: 'Mari & Nuzi Tablets (Abraham&apos;s era)',
+      url: 'https://www.penn.museum/collections/west-asia/',
+      description: 'Ancient Near Eastern documents on hospitality customs, divine visitations, and covenant relationships.',
+    },
+    {
+      id: 'bibleodyssey-abraham-covenant',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Abraham and the Covenant',
+      url: 'https://www.bibleodyssey.org/articles/abraham-sarah/',
+      description: 'SBL article on Abraham&apos;s role as intercessor and the promise of Isaac to Sarah.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 18:1–8 — Hospitality at Mamre ──────────────────────── */
@@ -76,7 +103,7 @@ export const GENESIS_18: RichChapterContent = {
           kind: 'commentary',
           id: 'c-mamre',
           html:
-            'Mamre is a sacred place — an oak grove where God has appeared to Abraham before (Gen. 13:18). Abraham is not taken off guard by divine presence. He is waiting for it, because he has learned to recognize the place where God walks.',
+            'Mamre is a sacred place — an oak grove where God has appeared to Abraham before (Gen. 13:18). Abraham is not taken off guard by divine presence. He is waiting for it, because he has learned to recognize the place where God walks[res:sefaria-genesis-18][res:pennmuseum-abraham-era].',
         },
         {
           kind: 'commentary',

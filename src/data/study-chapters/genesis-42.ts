@@ -17,8 +17,8 @@ export const GENESIS_42: RichChapterContent = {
 
   estimatedMinutes: { beginner: 11, intermediate: 17, deep: 22 },
   intros: [
-    'Twenty-two years have passed. Joseph&apos;s brothers sold him into slavery, his father has grieved him as dead, and the young man is now the vizier of Egypt — the second ruler in the land. A famine sweeps across the ancient world, and Jacob, desperate, sends his ten older sons to Egypt to buy grain. They kneel before the man who holds their lives in his hands, and they do not know him.',
-    'Genesis 42 is where recognition becomes resurrection. Joseph tests his brothers with a cruelty that is not cruelty — it is the only way to know if they have changed. And in the middle of his interrogation, something breaks through: the brothers speak to each other in Hebrew, thinking this Egyptian cannot hear them. &ldquo;We are verily guilty,&rdquo; they say. Twenty-two years of buried knowledge surfaces in one sentence. Joseph hears it and weeps in secret. The dream of his youth — the sheaves bowing to his sheaf — is happening in front of him, and his brothers still do not see.',
+    'Twenty-two years have passed. Joseph&apos;s brothers sold him into slavery, his father has grieved him as dead, and the young man is now the vizier of Egypt — the second ruler in the land [res:met-museum-egypt]. A famine sweeps across the ancient world, and Jacob, desperate, sends his ten older sons to Egypt to buy grain. They kneel before the man who holds their lives in his hands, and they do not know him.',
+    'Genesis 42 is where recognition becomes resurrection [res:bibleodyssey-joseph-egypt]. Joseph tests his brothers with a cruelty that is not cruelty — it is the only way to know if they have changed. And in the middle of his interrogation, something breaks through: the brothers speak to each other in Hebrew, thinking this Egyptian cannot hear them [res:sefaria-genesis-42]. &ldquo;We are verily guilty,&rdquo; they say. Twenty-two years of buried knowledge surfaces in one sentence. Joseph hears it and weeps in secret. The dream of his youth — the sheaves bowing to his sheaf — is happening in front of him, and his brothers still do not see.',
   ],
 
   sections: [
@@ -565,4 +565,31 @@ export const GENESIS_42: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 42 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-42',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 42 — Sefaria',
+      url: 'https://www.sefaria.org/Genesis.42',
+      description: 'Annotated text with classical and modern Jewish commentary on Joseph&apos;s reunion with his brothers.',
+    },
+    {
+      id: 'met-museum-egypt',
+      kind: 'museum',
+      source: 'The Met',
+      label: 'Ancient Egypt — The Metropolitan Museum of Art',
+      url: 'https://www.metmuseum.org/art/collection?department=Egyptian%20Art',
+      description: 'Egyptian artifacts and cultural context for understanding the world of Joseph and later Genesis figures.',
+    },
+    {
+      id: 'bibleodyssey-joseph-egypt',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Joseph and Egypt — Bible Odyssey',
+      url: 'https://www.bibleodyssey.org/en/passages/related-articles/joseph-and-egypt',
+      description: 'Scholarly essays on Joseph&apos;s time in Egypt and its historical and theological significance.',
+    },
+  ],
 };

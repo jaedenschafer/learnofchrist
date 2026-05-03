@@ -18,7 +18,7 @@ export const GENESIS_29: RichChapterContent = {
   estimatedMinutes: { beginner: 10, intermediate: 15, deep: 22 },
   intros: [
     'Jacob flees Canaan after stealing Esau&apos;s blessing. He travels east to find his mother&apos;s family, and at a well he meets a woman who will change everything. Genesis 29 is a betrothal type-scene — a pattern repeated in Scripture when a foreigner meets his bride at a well. Isaac met Rebekah the same way. Moses will meet Zipporah at a well. But Jacob&apos;s story carries an edge the others don&apos;t: the man who tricked his father and brother is about to be tricked in the dark, and the woman he doesn&apos;t love will become the mother of the line of Christ.',
-    'The chapter moves between two loves and two labors. Jacob loves Rachel so much the seven years feel like days. Rachel loves him. Laban gives Jacob Leah instead — the older daughter, "tender eyed," passed over. Jacob serves seven more years for Rachel. But by then Leah has borne four sons, each name a word carved into her heartbreak: "the LORD has looked on my affliction," "the LORD has heard that I was hated," "now my husband will be joined to me," and finally, "now I will praise the LORD." God&apos;s pattern in Scripture: He chooses what the world overlooks. The unloved becomes the line of the King.',
+    'The chapter moves between two loves and two labors. Jacob loves Rachel so much the seven years feel like days. Rachel loves him. Laban gives Jacob Leah instead — the older daughter, "tender eyed," passed over. Jacob serves seven more years for Rachel. But by then Leah has borne four sons, each name a word carved into her heartbreak: "the LORD has looked on my affliction," "the LORD has heard that I was hated," [res:bibleodyssey-jacob-israel] "now my husband will be joined to me," and finally, "now I will praise the LORD." God&apos;s pattern in Scripture: He chooses what the world overlooks. The unloved becomes the line of the King.',
   ],
 
   bottomShare: {
@@ -28,6 +28,33 @@ export const GENESIS_29: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 29 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-29',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 29 · Commentaries & Translations',
+      url: 'https://www.sefaria.org/Genesis.29',
+      description: 'Rabbinic and academic commentaries on the betrothal at the well and Jacob&apos;s marriage narrative.',
+    },
+    {
+      id: 'iaa-israel-sites',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Canaanite and Patriarchal Sites',
+      url: 'https://www.antiquities.org.il/Article/ArticleFull/1',
+      description: 'Archaeological records of settlements and family structures in Iron Age Canaan.',
+    },
+    {
+      id: 'bibleodyssey-jacob-israel',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Jacob &amp; Israel: Deception, Wrestling, &amp; Divine Naming',
+      url: 'https://www.bibleodyssey.org/en/passages/related-articles/Jacob-Israel',
+      description: 'Theological exploration of Jacob&apos;s role in covenant continuation and God&apos;s sovereign choice.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 29:1–8 — The Well ──────────────────────────────────── */
@@ -172,7 +199,7 @@ export const GENESIS_29: RichChapterContent = {
           kind: 'commentary',
           id: 'c-rachel-comes',
           html:
-            'Rachel appears without warning, and in that instant Jacob—who has been cautious with the other shepherds, asking questions, waiting—becomes capable of the impossible. "While he yet spake," the text says. He sees her, and strength enters him. This is what Scripture means by love: not a feeling, but a willingness to be remade by the presence of another.',
+            'Rachel appears without warning, and in that instant Jacob—who has been cautious with the other shepherds, asking questions, waiting—becomes capable of the impossible. "While he yet spake," the text says. He sees her, and strength enters him. [res:sefaria-genesis-29] This is what Scripture means by love: not a feeling, but a willingness to be remade by the presence of another.',
         },
         {
           kind: 'hebrew',
@@ -187,7 +214,7 @@ export const GENESIS_29: RichChapterContent = {
           kind: 'commentary',
           id: 'c-stone-alone',
           html:
-            'The shepherds said, "We cannot, until all the flocks be gathered." The stone required the whole company. But Jacob, alone, rolls it. The text moves from "they rolled" (v. 3) to "Jacob rolled" (v. 10)—and he does it without help, without waiting, because love gave him a strength that solitude had not. There is a kind of work that only love can do.',
+            'The shepherds said, "We cannot, until all the flocks be gathered." The stone required the whole company. But Jacob, alone, rolls it. The text moves from "they rolled" (v. 3) to "Jacob rolled" (v. 10)—and he does it without help, without waiting, because love gave him a strength that solitude had not. [res:iaa-israel-sites] There is a kind of work that only love can do.',
         },
         {
           kind: 'carry',

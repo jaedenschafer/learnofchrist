@@ -22,8 +22,8 @@ export const GENESIS_45: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 17 },
   intros: [
-    'For thirteen years Joseph has been working in Egypt — first as a slave in Potiphar&apos;s house, then imprisoned on a false charge, finally raised to power second only to Pharaoh. His brothers sold him when he was seventeen. They have never seen him since. Now they stand before him, not knowing who he is, and the moment Joseph has been waiting for breaks through all his restraint. He cannot contain it anymore.',
-    'What follows is one of the most tender scenes in Scripture. A man weeping so loudly that a palace full of guards hears him. A forgiver who speaks first, not to accuse but to release the guilt. A solemn insistence that what looks like the brothers&apos; cruelty is actually the work of God&apos;s hand. And an embrace so complete that it echoes through the rest of the Bible.',
+    'For thirteen years Joseph has been working in Egypt — first as a slave in Potiphar&apos;s house, then imprisoned on a false charge, finally raised to power second only to Pharaoh [res:met-museum-egypt]. His brothers sold him when he was seventeen. They have never seen him since. Now they stand before him, not knowing who he is, and the moment Joseph has been waiting for breaks through all his restraint. He cannot contain it anymore.',
+    'What follows is one of the most tender scenes in Scripture [res:sefaria-genesis-45]. A man weeping so loudly that a palace full of guards hears him. A forgiver who speaks first, not to accuse but to release the guilt [res:bibleodyssey-joseph-egypt]. A solemn insistence that what looks like the brothers&apos; cruelty is actually the work of God&apos;s hand. And an embrace so complete that it echoes through the rest of the Bible.',
   ],
 
   sections: [
@@ -528,6 +528,33 @@ export const GENESIS_45: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 45 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-45',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 45 — Sefaria',
+      url: 'https://www.sefaria.org/Genesis.45',
+      description: 'Annotated text with classical and modern Jewish commentary on Joseph&apos;s revelation to his brothers.',
+    },
+    {
+      id: 'met-museum-egypt',
+      kind: 'museum',
+      source: 'The Met',
+      label: 'Ancient Egypt — The Metropolitan Museum of Art',
+      url: 'https://www.metmuseum.org/art/collection?department=Egyptian%20Art',
+      description: 'Egyptian artifacts and cultural context for understanding the world of Joseph and later Genesis figures.',
+    },
+    {
+      id: 'bibleodyssey-joseph-egypt',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Joseph and Egypt — Bible Odyssey',
+      url: 'https://www.bibleodyssey.org/en/passages/related-articles/joseph-and-egypt',
+      description: 'Scholarly essays on Joseph&apos;s time in Egypt and its historical and theological significance.',
+    },
+  ],
 
   hasHebrew: true,
 };

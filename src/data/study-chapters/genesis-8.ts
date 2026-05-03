@@ -23,6 +23,33 @@ export const GENESIS_8: RichChapterContent = {
     ref: 'Genesis 8 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-genesis-8',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 8 · Hebrew + Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.8',
+      description: 'Hebrew text with rabbinic commentary on covenant, remembrance, and the new earth.',
+    },
+    {
+      id: 'intertextual-flood-covenant',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Noah\'s Covenant traced through Scripture',
+      url: 'https://intertextual.bible/concepts/noahic-covenant',
+      description: 'Shows how God\'s vow after the flood echoes forward through OT and NT.',
+    },
+    {
+      id: 'bibleodyssey-covenant',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Covenant in the Bible',
+      url: 'https://www.bibleodyssey.org/articles/covenant/',
+      description: 'SBL overview of covenant as the shape of God\'s relationship with humanity.',
+    },
+  ],
+
   sections: [
     /* ─── Genesis 8:1–5 — God Remembered Noah ────────────────────────── */
     {
@@ -75,7 +102,7 @@ export const GENESIS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'gen8-zakhar',
           html:
-            'The hinge of the flood narrative: God <em>remembered</em> Noah. In Hebrew, to remember is not passive—it is to act on what one remembers, to turn memory into movement. God&apos;s covenant name, Yahweh, is built on the logic of remembrance; it means "the One who will be there, who keeps His word." The only time judgment is lifted in Scripture is when God&apos;s memory of His covenant shows up. Judgment ends not because the earth has become sinless, but because God has remembered His promise.',
+            'The hinge of the flood narrative: God <em>remembered</em> Noah. In Hebrew, to remember is not passive—it is to act on what one remembers, to turn memory into movement. God&apos;s covenant name, Yahweh, is built on the logic of remembrance; it means "the One who will be there, who keeps His word." The only time judgment is lifted in Scripture is when God&apos;s memory of His covenant shows up. Judgment ends not because the earth has become sinless, but because God has remembered His promise[res:sefaria-genesis-8][res:intertextual-flood-covenant].',
         },
         {
           kind: 'hebrew',
@@ -90,7 +117,7 @@ export const GENESIS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'gen8-rain',
           html:
-            'The rainfall stops. The fountains of the deep are closed. Creation, which was opened up to judgment, begins its turning back. The waters will recede for five months before the ark touches dry ground, and another three months before the earth is dry enough for anyone to leave. Even mercy is slow; restoration takes time.',
+            'The rainfall stops. The fountains of the deep are closed. Creation, which was opened up to judgment, begins its turning back. The waters will recede for five months before the ark touches dry ground, and another three months before the earth is dry enough for anyone to leave. Even mercy is slow; restoration takes time[res:bibleodyssey-covenant].',
         },
         {
           kind: 'carry',

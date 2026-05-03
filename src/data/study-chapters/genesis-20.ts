@@ -24,7 +24,7 @@ export const GENESIS_20: RichChapterContent = {
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 15 },
   intros: [
     'Abraham is seventy-five verses into the most important promise God ever made — that Sarah will bear a son, that he will have descendants like the stars, that through him all nations will be blessed. And now, faced with a foreign king, Abraham does something that reveals a crack in his faith: he tells Sarah to say she is his sister, not his wife. This is not the first time. Twelve chapters earlier, he played the same half-truth in Egypt. He is afraid.',
-    'Here is what matters: God does not let His promise hang on Abraham\'s courage. When a patriarch fails, God does not fail. What unfolds in Gerar is a story about fear driving a shortcut, and grace running ahead to catch it. It is also a story about a pagan king whose conscience is cleaner than a patriarch\'s — a scandal that the text will not let us miss.',
+    'Here is what matters: God does not let His promise hang on Abraham\'s courage. When a patriarch fails, God does not fail. What unfolds in Gerar is a story about fear driving a shortcut, [res:bibleodyssey-abraham-covenant] and grace running ahead to catch it. It is also a story about a pagan king whose conscience is cleaner than a patriarch\'s — a scandal that the text will not let us miss.',
   ],
 
   bottomShare: {
@@ -34,6 +34,33 @@ export const GENESIS_20: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 20 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-20',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 20 · Hebrew + Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.20',
+      description: 'Hebrew text with rabbinic commentary on Abraham&apos;s fear, God&apos;s protection, and grace in the midst of failure.',
+    },
+    {
+      id: 'pennmuseum-gerar-abimelech',
+      kind: 'museum',
+      source: 'Penn Museum',
+      label: 'Ancient Gerar and Philistine Archaeology',
+      url: 'https://www.penn.museum/collections/west-asia/',
+      description: 'Archaeological evidence from ancient Gerar and its kings, illuminating the political and cultural context of Abraham&apos;s sojourn.',
+    },
+    {
+      id: 'bibleodyssey-abraham-covenant',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Abraham and the Covenant',
+      url: 'https://www.bibleodyssey.org/articles/abraham-sarah/',
+      description: 'SBL article on Abraham&apos;s struggles with faith, God&apos;s faithfulness despite human failure, and the protection of Sarah.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 20:1–2 — Abraham\'s Fear at Gerar ────────────────────── */
@@ -80,7 +107,7 @@ export const GENESIS_20: RichChapterContent = {
           kind: 'commentary',
           id: 'c-sarah-wife',
           html:
-            'Abraham calls Sarah &ldquo;my sister,&rdquo; but she is his wife. This is his second time playing this game. He did it in Egypt twelve chapters ago, and God rescued Sarah then too. Abraham has learned nothing; he has only rehearsed a lie. The text does not soften this. It names what he said and who she actually is — wife, not sister — so you cannot miss the gap between them.',
+            'Abraham calls Sarah &ldquo;my sister,&rdquo; but she is his wife. This is his second time playing this game. He did it in Egypt twelve chapters ago, and God rescued Sarah then too. Abraham has learned nothing; he has only rehearsed a lie. The text does not soften this. It names what he said and who she actually is — wife, not sister — so you cannot miss the gap between them[res:sefaria-genesis-20][res:pennmuseum-gerar-abimelech].',
         },
         {
           kind: 'commentary',

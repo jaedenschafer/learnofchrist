@@ -17,7 +17,7 @@ export const GENESIS_2: RichChapterContent = {
   estimatedMinutes: { beginner: 10, intermediate: 15, deep: 22 },
   intros: [
     'Genesis 1 watched creation from far away, day by day, sky and sea and land. Genesis 2 comes down to ground level. The lens narrows to a single garden, a single man formed from the dust, a single tree at the center, a single woman drawn from the man&apos;s side. Chapter 1 calls God by His Maker-name, <em>Elohim</em>. Chapter 2 calls Him <em>Yahweh Elohim</em> — &ldquo;the LORD God&rdquo; — closer, covenanted, a Father bending over dust to give it His breath.',
-    'Two themes run through the chapter and meet at the end: <em>provision</em> and <em>partnership</em>. God plants every kind of tree the man could need. He digs four rivers to water the world. He gives the man work to do, and a single boundary to keep. And then He says the only &ldquo;not good&rdquo; in the Bible: <em>not good that the man should be alone.</em> The chapter closes with a marriage in the world&apos;s first temple — a man and a woman, naked and not ashamed, in the place where God walks.',
+    'Two themes run through the chapter and meet at the end: <em>provision</em> and <em>partnership</em>. God plants every kind of tree the man could need. He digs four rivers to water the world. He gives the man work to do, and a single boundary to keep. And then He says the only &ldquo;not good&rdquo; in the Bible: <em>not good that the man should be alone[res:intertextual-genesis-ezer].</em> The chapter closes with a marriage in the world&apos;s first temple — a man and a woman, naked and not ashamed, in the place where God walks.',
   ],
 
   bottomShare: {
@@ -27,6 +27,33 @@ export const GENESIS_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-2',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 2 · Hebrew + Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.2',
+      description: 'Hebrew text with Rashi and medieval commentary on creation, Eden, and the Sabbath.',
+    },
+    {
+      id: 'bibleodyssey-garden-of-eden',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Garden of Eden',
+      url: 'https://www.bibleodyssey.org/dictionary/garden-of-eden/',
+      description: 'SBL overview of Eden as theological and spatial reality, with archaeological context.',
+    },
+    {
+      id: 'intertextual-genesis-ezer',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Ezer (helper) across scripture',
+      url: 'https://intertextual.bible/concepts/ezer',
+      description: 'Traces the Hebrew word for Eve\'s role across OT — showing its strength and dignity.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 2:1–3 — The Seventh Day ────────────────────────────── */
@@ -66,7 +93,7 @@ export const GENESIS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'c-shabbat',
           html:
-            'God is not tired; the work is finished. In the ancient world a king &ldquo;rested&rdquo; when his temple was completed — meaning he moved in and began to reign. Day seven is God enthroned in the cosmos He has just built. The whole creation is His temple. The man and the woman, made in His image, are the priests inside it.',
+            'God is not tired; the work is finished. In the ancient world a king &ldquo;rested&rdquo; when his temple was completed — meaning he moved in and began to reign. Day seven is God enthroned in the cosmos He has just built. The whole creation is His temple. The man and the woman, made in His image, are the priests inside it[res:sefaria-genesis-2][res:bibleodyssey-garden-of-eden].',
         },
         {
           kind: 'hebrew',

@@ -23,7 +23,7 @@ export const GENESIS_36: RichChapterContent = {
   estimatedMinutes: { beginner: 6, intermediate: 8, deep: 11 },
   intros: [
     'Genesis 36 is a genealogy — a detailed list of Esau&apos;s descendants, organized by wives, sons, dukes, and kings. Genealogies can feel like inventory. But this one tells a quiet story: Esau, rejected from the line of promise, nevertheless prospers. He builds a nation. He settles a land. Kings rise from his line before any king rules Israel.',
-    'The chapter is saying: rejection from God&apos;s covenant line is not poverty. Edom becomes real, rooted, fruitful. And yet the text frames these names with a careful thoroughness — listing them all, remembering them all — as if no name, however far from the promise, is invisible to God. That attention foreshadows the Christ who came to know every person&apos;s face, every person&apos;s need.',
+    'The chapter is saying: rejection from God&apos;s covenant line is not poverty. Edom becomes real, rooted, fruitful. [res:bibleodyssey-jacob-israel] And yet the text frames these names with a careful thoroughness — listing them all, remembering them all — as if no name, however far from the promise, is invisible to God. That attention foreshadows the Christ who came to know every person&apos;s face, every person&apos;s need.',
   ],
 
   bottomShare: {
@@ -33,6 +33,33 @@ export const GENESIS_36: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 36 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-36',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 36 · Commentaries & Translations',
+      url: 'https://www.sefaria.org/Genesis.36',
+      description: 'Rabbinic and academic commentaries on the genealogy of Esau and the Edomite kingdom.',
+    },
+    {
+      id: 'iaa-israel-sites',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Canaanite and Patriarchal Sites',
+      url: 'https://www.antiquities.org.il/Article/ArticleFull/1',
+      description: 'Archaeological records of settlements and family structures in Iron Age Canaan.',
+    },
+    {
+      id: 'bibleodyssey-jacob-israel',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Jacob &amp; Israel: Deception, Wrestling, &amp; Divine Naming',
+      url: 'https://www.bibleodyssey.org/en/passages/related-articles/Jacob-Israel',
+      description: 'Theological exploration of Jacob&apos;s role in covenant continuation and God&apos;s sovereign choice.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 36:1–8 — Esau Takes Seir ────────────────────────────────── */
@@ -107,7 +134,7 @@ export const GENESIS_36: RichChapterContent = {
           kind: 'commentary',
           id: 'c-eliphaz',
           html:
-            'Eliphaz, Reuel, Jeush, Jaalam, Korah — Esau&apos;s sons. The text names them as methodically as it will name the dukes and kings who come after them. None of these names are in the covenant line, but all are remembered. God does not forget people because they are outside His promise.',
+            'Eliphaz, Reuel, Jeush, Jaalam, Korah — Esau&apos;s sons. The text names them as methodically as it will name the dukes and kings who come after them. None of these names are in the covenant line, but all are remembered. [res:sefaria-genesis-36] God does not forget people because they are outside His promise.',
         },
         {
           kind: 'hebrew',
@@ -122,7 +149,7 @@ export const GENESIS_36: RichChapterContent = {
           kind: 'commentary',
           id: 'c-settlement',
           html:
-            'Esau leaves Canaan not in disgrace but in prosperity. His wealth was too great to share the land with Jacob. This is not humiliation. It is saturation. He takes his whole household, every animal, all his substance, and settles Seir. What looks like rejection from the outside reads like blessing from the inside — land, family, cattle, security. The chapter will not let you pity Esau.',
+            'Esau leaves Canaan not in disgrace but in prosperity. His wealth was too great to share the land with Jacob. This is not humiliation. It is saturation. He takes his whole household, every animal, all his substance, and settles Seir. [res:iaa-israel-sites] What looks like rejection from the outside reads like blessing from the inside — land, family, cattle, security. The chapter will not let you pity Esau.',
         },
         {
           kind: 'carry',

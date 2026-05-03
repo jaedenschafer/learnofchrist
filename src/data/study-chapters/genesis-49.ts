@@ -17,9 +17,9 @@ export const GENESIS_49: RichChapterContent = {
 
   estimatedMinutes: { beginner: 10, intermediate: 18, deep: 24 },
   intros: [
-    'Genesis 49 is Jacob&apos;s last will and testament — a long, poetic deathbed blessing over his twelve sons. Each oracle is terse, sometimes cryptic, and devastating in its honesty. Reuben is cursed for his lust. Simeon and Levi are condemned to scatter because of the massacre at Shechem. The words are judgment delivered in love by a dying father who sees his sons not as they are in this moment, but as the tribes they will become.',
-    'And yet in the middle of pronouncing these fates, Jacob suddenly breaks off his poetry and cries out to God: "I have waited for thy salvation, O LORD." He is blessing his sons, but his deepest longing is for Someone else — for a Deliverer. The Shiloh prophecy on Judah (vv.8-12) becomes the pivot point of the entire book. The scepter will not depart from Judah. A lawgiver will rise from his sons. Obedience of the peoples will gather to him. Two thousand years of interpretation — Jewish and Christian — will hang on these verses.',
-    'This chapter marks the end of Jacob&apos;s life and the beginning of Israel&apos;s history. His final words are not his own story; they are his sons&apos; futures — and beyond them, the future of the One who is coming.',
+    'Genesis 49 is Jacob&apos;s last will and testament — a long, poetic deathbed blessing over his twelve sons [res:met-museum-egypt]. Each oracle is terse, sometimes cryptic, and devastating in its honesty. Reuben is cursed for his lust. Simeon and Levi are condemned to scatter because of the massacre at Shechem. The words are judgment delivered in love by a dying father who sees his sons not as they are in this moment, but as the tribes they will become.',
+    'And yet in the middle of pronouncing these fates, Jacob suddenly breaks off his poetry and cries out to God: "I have waited for thy salvation, O LORD." He is blessing his sons, but his deepest longing is for Someone else — for a Deliverer [res:sefaria-genesis-49]. The Shiloh prophecy on Judah (vv.8-12) becomes the pivot point of the entire book. The scepter will not depart from Judah. A lawgiver will rise from his sons. Obedience of the peoples will gather to him. Two thousand years of interpretation — Jewish and Christian — will hang on these verses.',
+    'This chapter marks the end of Jacob&apos;s life and the beginning of Israel&apos;s history [res:bibleodyssey-joseph-egypt]. His final words are not his own story; they are his sons&apos; futures — and beyond them, the future of the One who is coming.',
   ],
 
   sections: [
@@ -710,6 +710,33 @@ export const GENESIS_49: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 49 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-49',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 49 — Sefaria',
+      url: 'https://www.sefaria.org/Genesis.49',
+      description: 'Annotated text with classical and modern Jewish commentary on Jacob&apos;s deathbed blessing of his twelve sons.',
+    },
+    {
+      id: 'met-museum-egypt',
+      kind: 'museum',
+      source: 'The Met',
+      label: 'Ancient Egypt — The Metropolitan Museum of Art',
+      url: 'https://www.metmuseum.org/art/collection?department=Egyptian%20Art',
+      description: 'Egyptian artifacts and cultural context for understanding the world of Joseph and later Genesis figures.',
+    },
+    {
+      id: 'bibleodyssey-joseph-egypt',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Joseph and Egypt — Bible Odyssey',
+      url: 'https://www.bibleodyssey.org/en/passages/related-articles/joseph-and-egypt',
+      description: 'Scholarly essays on Joseph&apos;s time in Egypt and its historical and theological significance.',
+    },
+  ],
 
   hasHebrew: true,
 };

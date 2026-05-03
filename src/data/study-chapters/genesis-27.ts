@@ -33,6 +33,33 @@ export const GENESIS_27: RichChapterContent = {
     ref: 'Genesis 27 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-genesis-27',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 27 · Commentaries & Translations',
+      url: 'https://www.sefaria.org/Genesis.27',
+      description: 'Rabbinic and academic commentaries on the blessing narrative and Jacob&apos;s deception.',
+    },
+    {
+      id: 'iaa-israel-sites',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Canaanite and Patriarchal Sites',
+      url: 'https://www.antiquities.org.il/Article/ArticleFull/1',
+      description: 'Archaeological records of settlements and family structures in Iron Age Canaan.',
+    },
+    {
+      id: 'bibleodyssey-jacob-israel',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Jacob &amp; Israel: Deception, Wrestling, &amp; Divine Naming',
+      url: 'https://www.bibleodyssey.org/en/passages/related-articles/Jacob-Israel',
+      description: 'Theological exploration of Jacob&apos;s role in covenant continuation and God&apos;s sovereign choice.',
+    },
+  ],
+
   sections: [
     /* ─── Genesis 27:1–4 — Isaac&apos;s Command ───────────────────────── */
     {
@@ -199,7 +226,7 @@ export const GENESIS_27: RichChapterContent = {
           kind: 'commentary',
           id: 'c-rebekah-hears',
           html:
-            'One sentence: Rebekah heard. She does not ask the Father to move. She does not pray. She listens, understands immediately that the blessing is about to go to Esau, and decides in that moment to make it go to Jacob instead. This is not divine revelation. This is a woman making a choice about her son&apos;s future, and she chooses deceit. Notice what the text does not do: it does not condemn her in the moment. It simply shows her acting.',
+            'One sentence: Rebekah heard. She does not ask the Father to move. She does not pray. She listens, understands immediately that the blessing is about to go to Esau, and decides in that moment to make it go to Jacob instead. This is not divine revelation. This is a woman making [res:bibleodyssey-jacob-israel] a choice about her son&apos;s future, and she chooses deceit. Notice what the text does not do: it does not condemn her in the moment. It simply shows her acting.',
         },
         {
           kind: 'commentary',
@@ -536,7 +563,7 @@ export const GENESIS_27: RichChapterContent = {
           kind: 'commentary',
           id: 'c-esau-hate',
           html:
-            'Esau&apos;s grief turns to rage. He has been dishonored in front of his father. The blessing that shaped his future has been taken by his younger brother. In his mind, there is one solution: Jacob must die. But not yet—not while Isaac lives, because he will not shame his dying father with fratricide. So Esau makes a mental note. When Isaac is dead, Jacob will pay.',
+            'Esau&apos;s grief turns to rage. He has been dishonored in front of his father. The blessing that shaped his future has been taken by his younger brother. In his mind, there is one solution: Jacob must die. But not yet—not while Isaac lives, because he will not shame his dying father with fratricide. [res:sefaria-genesis-27] So Esau makes a mental note. When Isaac is dead, Jacob will pay.',
         },
         {
           kind: 'hebrew',
@@ -551,7 +578,7 @@ export const GENESIS_27: RichChapterContent = {
           kind: 'commentary',
           id: 'c-rebekah-pays',
           html:
-            'Rebekah hears that Esau is planning to kill Jacob. She sends her younger son away. Notice what she does not do: she does not confess to Isaac. She does not ask for his help. She cannot face what she has done. Instead, she invents a cover story—something about the daughters of Heth being unsuitable wives—and sends Jacob away to her brother Laban in Haran. &ldquo;A few days,&rdquo; she tells him, &ldquo;until thy brother&apos;s fury turn away.&rdquo; Jacob will be gone twenty years. The text says nothing more about Rebekah and Jacob together. They never see each other again.',
+            'Rebekah hears that Esau is planning to kill Jacob. She sends her younger son away. Notice what she does not do: she does not confess to Isaac. She does not ask for his help. She cannot face what she has done. Instead, she invents a cover story—something about the daughters of Heth being unsuitable wives—and sends Jacob away to her brother Laban in Haran. [res:iaa-israel-sites] &ldquo;A few days,&rdquo; she tells him, &ldquo;until thy brother&apos;s fury turn away.&rdquo; Jacob will be gone twenty years. The text says nothing more about Rebekah and Jacob together. They never see each other again.',
         },
         {
           kind: 'christ',

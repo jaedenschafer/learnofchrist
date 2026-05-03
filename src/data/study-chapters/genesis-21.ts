@@ -23,7 +23,7 @@ export const GENESIS_21: RichChapterContent = {
   intros: [
     'The long-promised son finally arrives. Sarah, who has been barren for nearly a century, gives birth. The child&apos;s name is <em>Isaac</em> — <em>Yitzchak</em> in Hebrew — which means &ldquo;he laughs.&rdquo; Sarah had laughed in disbelief when God first promised him (Gen. 18:12); now she laughs again, but this time in joy (Gen. 21:6). The son born of faith, born of God&apos;s covenant word when all biology said no, is here.',
     'But Genesis 21 is not a clean happy ending. At Isaac&apos;s weaning feast, Sarah sees Ishmael, the son Abraham had made with Hagar, and she demands that both mother and boy be cast out. Abraham is distressed — he loves Ishmael — but God tells him to listen to Sarah. Two sons cannot inherit the same promise. The line of flesh (Ishmael, born of Abraham&apos;s attempt to fulfill the covenant by human means) and the line of faith (Isaac, born when it was physically impossible) must be separated. The division is painful for everyone, and the text does not hide that pain.',
-    'The casting out is genuinely difficult, and Genesis does not ask us to admire it. But in the desert, where Hagar and Ishmael are left to die, the text asks us to see something: a God who hears the cry of the discarded child. The boy whose name means &ldquo;God hears&rdquo; is heard in the very place where he has been thrown away. It is one of Scripture&apos;s recurring truths: God sees those no one else sees, and He hears those no one else hears.',
+    'The casting out is genuinely difficult, and Genesis does not ask us to admire it. But in the desert, where Hagar and Ishmael are left to die, the text asks us to see something: a God who hears the cry of the discarded child. The boy whose name [res:bibleodyssey-abraham-covenant] means &ldquo;God hears&rdquo; is heard in the very place where he has been thrown away. It is one of Scripture&apos;s recurring truths: God sees those no one else sees, and He hears those no one else hears.',
   ],
 
   bottomShare: {
@@ -33,6 +33,33 @@ export const GENESIS_21: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 21 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-21',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 21 · Hebrew + Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.21',
+      description: 'Hebrew text with rabbinic commentary on Isaac&apos;s birth, Hagar&apos;s vindication, and the separation of two covenant lines.',
+    },
+    {
+      id: 'pennmuseum-abraham-era',
+      kind: 'museum',
+      source: 'Penn Museum',
+      label: 'Mari & Nuzi Tablets (Abraham&apos;s era)',
+      url: 'https://www.penn.museum/collections/west-asia/',
+      description: 'Ancient Near Eastern documents on family inheritance, the status of sons born to servants, and covenant relationships.',
+    },
+    {
+      id: 'bibleodyssey-abraham-covenant',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Abraham and the Covenant',
+      url: 'https://www.bibleodyssey.org/articles/abraham-sarah/',
+      description: 'SBL article on the promise fulfilled in Isaac, the covenant line, and God&apos;s hearing of the rejected.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 21:1–8 — Isaac Is Born and Weaned ──────────────────── */
@@ -104,7 +131,7 @@ export const GENESIS_21: RichChapterContent = {
           kind: 'commentary',
           id: 'c-promise',
           html:
-            'The chapter opens with the simplest sentence in Scripture: &ldquo;The LORD visited Sarah as he had said.&rdquo; Every verse up to this point has been God saying it, Abram doubting, Abram trying to help God out, Abram growing old. Now the text turns a corner: <em>and the LORD did.</em> The promise kept. The son born when Sarah was too old to conceive, when Abraham was a hundred. The waiting is over.',
+            'The chapter opens with the simplest sentence in Scripture: &ldquo;The LORD visited Sarah as he had said.&rdquo; Every verse up to this point has been God saying it, Abram doubting, Abram trying to help God out, Abram growing old. Now the text turns a corner: <em>and the LORD did.</em> The promise kept. The son born when Sarah was too old to conceive, when Abraham was a hundred. The waiting is over[res:sefaria-genesis-21][res:pennmuseum-abraham-era].',
         },
         {
           kind: 'hebrew',

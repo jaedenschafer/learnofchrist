@@ -19,7 +19,7 @@ export const GENESIS_26: RichChapterContent = {
   estimatedMinutes: { beginner: 9, intermediate: 14, deep: 18 },
   intros: [
     'Genesis 26 is Isaac\'s chapter — the only long narrative told mostly through his eyes. There is no Abraham to overshadow it, no Jacob to steal the story yet. And it is quieter than both: a chapter about staying when you would rather flee, and about digging again wells that others have filled in. A famine comes to the land. God appears to Isaac and tells him: do not go down to Egypt. Stay here. And so Isaac stays. He builds, he plants, he prospers — and when others tear down what he has built, he builds it again.',
-    'The pattern repeats: Isaac sows, God multiplies it a hundredfold. Isaac digs a well, the Philistines stop it up. Isaac moves and digs another. Three wells in a row — Esek, Sitnah, Rehoboth — each one a small refusal to be driven away. Then comes rest: a covenant with Abimelech, the promise of God restated, a well that stays open. But the chapter ends not with victory but with grief: Esau marries foreign women, and Isaac and Rebekah\'s hearts are heavy. The reward of faithfulness is not always the happiness of your children.',
+    'The pattern repeats: Isaac sows, God multiplies it a hundredfold. Isaac digs a well, the Philistines stop it up. Isaac moves and digs another. Three wells in a row — Esek, Sitnah, Rehoboth — each one [res:bibleodyssey-jacob-israel] a small refusal to be driven away. Then comes rest: a covenant with Abimelech, the promise of God restated, a well that stays open. But the chapter ends not with victory but with grief: Esau marries foreign women, and Isaac and Rebekah\'s hearts are heavy. The reward of faithfulness is not always the happiness of your children.',
   ],
 
   bottomShare: {
@@ -29,6 +29,33 @@ export const GENESIS_26: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 26 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-26',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 26 · Hebrew + Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.26',
+      description: 'Hebrew text with rabbinic commentary on Isaac&apos;s perseverance, the well-digging, and the covenant with Abimelech.',
+    },
+    {
+      id: 'iaa-israel-sites',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Ancient Israel Archaeological Sites',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'Archaeological evidence from Beersheba, Gerar, and other sites associated with Isaac&apos;s era and activities.',
+    },
+    {
+      id: 'bibleodyssey-jacob-israel',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jacob, Israel, and the Covenant',
+      url: 'https://www.bibleodyssey.org/dictionary/jacob/',
+      description: 'SBL article on Isaac&apos;s faith, his covenant with God, and the foundation for Jacob&apos;s generation.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 26:1–6 — Famine and God\'s Word ──────────────────────── */
@@ -98,7 +125,7 @@ export const GENESIS_26: RichChapterContent = {
           kind: 'commentary',
           id: 'c-not-egypt',
           html:
-            'But God appears to Isaac before he leaves, and tells him: <em>stay here.</em> Don\'t go down to Egypt. The word is direct, even stern. No elaborate vision, no comfort — just a command and a reason. God is drawing a line for Isaac that Abraham did not have to draw. This is Isaac\'s test: not a military trial like Abraham\'s, but a test of whether he will trust the promise when staying looks foolish.',
+            'But God appears to Isaac before he leaves, and tells him: <em>stay here.</em> Don\'t go down to Egypt. The word is direct, even stern. No elaborate vision, no comfort — just a command and a reason. God is drawing a line for Isaac that Abraham did not have to draw. This is Isaac\'s test: not a military trial like Abraham\'s, but a test of whether he will trust the promise when staying looks foolish[res:sefaria-genesis-26][res:iaa-israel-sites].',
         },
         {
           kind: 'christ',

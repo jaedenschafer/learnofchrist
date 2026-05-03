@@ -15,7 +15,7 @@ export const GENESIS_13: RichChapterContent = {
   estimatedMinutes: { beginner: 6, intermediate: 9, deep: 12 },
   intros: [
     'Genesis 13 is a chapter about what we choose with our eyes and what we choose by faith. Abram and Lot have grown too rich to share the same pastures; their herdsmen quarrel over water and grazing. In any other story, the older man and the promise-bearer would claim the best land for himself. Abram does the opposite. He offers Lot first choice — an act of deference so complete it foreshadows the one who "made himself of no reputation." Lot\'s eyes see what looks like Eden. But the text whispers: it is toward Sodom.',
-    'The chapter turns on a single Hebrew phrase, *nasa\' eynayim* — "to lift up the eyes." Lot lifts his eyes toward the well-watered plain. Then God tells Abram to lift his eyes too, and look in every direction, and promise him all he can see. What Lot chose by sight, Abram receives by promise. What Lot saw as beautiful, God says is destined for judgment. The same gaze. Different destinations.',
+    'The chapter turns on a single Hebrew phrase, *nasa\' eynayim* — "to lift up the eyes." Lot lifts his eyes toward the well-watered plain. Then God tells Abram to lift his eyes too, and look in every direction, and promise him all he can see. What Lot chose by sight, Abram receives [res:bibleodyssey-abraham-covenant] by promise. What Lot saw as beautiful, God says is destined for judgment. The same gaze. Different destinations.',
   ],
 
   bottomShare: {
@@ -25,6 +25,33 @@ export const GENESIS_13: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 13 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-13',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 13 · Hebrew + Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.13',
+      description: 'Hebrew text with rabbinic commentary on Abram&apos;s generosity, the separation from Lot, and the renewal of the land promise.',
+    },
+    {
+      id: 'pennmuseum-abraham-era',
+      kind: 'museum',
+      source: 'Penn Museum',
+      label: 'Mari & Nuzi Tablets (Abraham&apos;s era)',
+      url: 'https://www.penn.museum/collections/west-asia/',
+      description: 'Ancient Near Eastern documents illuminating family customs, inheritance disputes, and pastoral economies in Abraham&apos;s world.',
+    },
+    {
+      id: 'bibleodyssey-abraham-covenant',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Abraham and the Covenant',
+      url: 'https://www.bibleodyssey.org/articles/abraham-sarah/',
+      description: 'SBL article exploring Abraham&apos;s faith, trust in God&apos;s promise despite what his eyes see, and the foundations of the covenant.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 13:1–4 — Abram Returns to the Altar ─────────────────── */
@@ -74,7 +101,7 @@ export const GENESIS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'c-abram-wealth',
           html:
-            'Abram&apos;s time in Egypt was fruitful and strange. He acquired cattle, silver, and gold — wealth that will become the seed of conflict. The narrator does not tell us whether Abram&apos;s growing riches were a blessing or a trial. The next scene will answer.',
+            'Abram&apos;s time in Egypt was fruitful and strange. He acquired cattle, silver, and gold — wealth that will become the seed of conflict. The narrator does not tell us whether Abram&apos;s growing riches were a blessing or a trial. The next scene will answer[res:sefaria-genesis-13][res:pennmuseum-abraham-era].',
         },
         {
           kind: 'hebrew',

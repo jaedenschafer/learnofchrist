@@ -74,13 +74,13 @@ export const GENESIS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'c-three-sons',
           html:
-            'The order is Shem, Ham, Japheth — but Japheth appears first in the genealogies. He spreads to the isles, the maritime peoples: Javan (the Greeks), Tubal and Meshech (the north), Madai (the Medes). Later Ezekiel will summon them by name as nations in Israel\'s future. Here they are newborn, already blessed with land and sea.',
+            'The order is Shem, Ham, Japheth — but Japheth appears first in the genealogies. He spreads to the isles, the maritime peoples: Javan (the Greeks), Tubal and Meshech (the north), Madai (the Medes). Later Ezekiel will summon them by name as nations in Israel\'s future. Here they are newborn, already blessed with land and sea[res:sefaria-genesis-10][res:bibleodyssey-table-of-nations].',
         },
         {
           kind: 'commentary',
           id: 'c-japheth-list',
           html:
-            'The sons of Japheth traced largely to the coastlands and the north — the seafaring Mediterranean world. Javan becomes Ionia, the Greeks. This is the ancestor of the culture that will later meet and wrestle with Hebrew thought. But here at the start, all peoples are simply listed side by side. There is no hierarchy, no conquest, no conflict. Only names and land.',
+            'The sons of Japheth traced largely to the coastlands and the north — the seafaring Mediterranean world. Javan becomes Ionia, the Greeks. This is the ancestor of the culture that will later meet and wrestle with Hebrew thought. But here at the start, all peoples are simply listed side by side. There is no hierarchy, no conquest, no conflict. Only names and land[res:pennmuseum-ancient-near-east].',
         },
         {
           kind: 'hebrew',
@@ -429,4 +429,31 @@ export const GENESIS_10: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 10 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-10',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 10 · Hebrew + Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.10',
+      description: 'Hebrew text with rabbinic commentary on the Table of Nations.',
+    },
+    {
+      id: 'bibleodyssey-table-of-nations',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Table of Nations',
+      url: 'https://www.bibleodyssey.org/articles/table-of-nations/',
+      description: 'SBL overview of the genealogical structure and its historical context.',
+    },
+    {
+      id: 'pennmuseum-ancient-near-east',
+      kind: 'museum',
+      source: 'Penn Museum',
+      label: 'Ancient Near Eastern Civilizations',
+      url: 'https://www.penn.museum/collections/west-asia/',
+      description: 'Museum resources on the ancient nations and peoples named in Genesis 10.',
+    },
+  ],
 };

@@ -18,7 +18,7 @@ export const GENESIS_16: RichChapterContent = {
   estimatedMinutes: { beginner: 5, intermediate: 8, deep: 11 },
   intros: [
     'Genesis 15 closed with God making a covenant with Abram: your offspring will be more numerous than the stars. Genesis 16 opens ten years later. Sarai is still childless. The promise sits in the air, unborn. And Sarai, tired of waiting, decides to take matters into her own hands. What she does makes sense by the customs of the ancient Near East — a servant-surrogacy was a recognized way for a barren wife to build a family. But making sense and making peace are different things. Hagar will pay the cost of Sarai\'s impatience.',
-    'Yet this chapter belongs to Hagar. She is the one who runs, the one God finds, the one who speaks with God and names Him. Before Moses at the burning bush, before any priest at an altar, before any king in a temple, Hagar — a pregnant slave woman alone in the wilderness — becomes the first person in Scripture to give God a name. *El Roi*: "Thou God seest me." The chapter is a portrait of the unseen made visible, and the God who sees those no one else looks at.',
+    'Yet this chapter belongs to Hagar. She is the one who runs, the one God finds, the one who speaks with God and names Him. Before Moses at the burning bush, before any priest at an altar, before any king in a temple, Hagar — a pregnant slave woman alone in the wilderness — becomes the first person in Scripture to give God a name. *El Roi*: "Thou God seest me." The chapter is a portrait of the unseen made visible, and the God [res:bibleodyssey-abraham-covenant] who sees those no one else looks at.',
   ],
 
   bottomShare: {
@@ -28,6 +28,33 @@ export const GENESIS_16: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 16 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-16',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 16 · Hebrew + Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.16',
+      description: 'Hebrew text with rabbinic commentary on Hagar, the name El Roi, and God&apos;s sight of the unseen.',
+    },
+    {
+      id: 'pennmuseum-abraham-era',
+      kind: 'museum',
+      source: 'Penn Museum',
+      label: 'Mari & Nuzi Tablets (Abraham&apos;s era)',
+      url: 'https://www.penn.museum/collections/west-asia/',
+      description: 'Ancient Near Eastern legal texts illuminating servant-surrogate customs and family arrangements in Abraham&apos;s world.',
+    },
+    {
+      id: 'bibleodyssey-abraham-covenant',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Abraham and the Covenant',
+      url: 'https://www.bibleodyssey.org/articles/abraham-sarah/',
+      description: 'SBL article on Abraham&apos;s family, Hagar&apos;s vindication, and God&apos;s sight of those the world overlooks.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 16:1–6 — Sarai's Plan ─────────────────────────────────── */
@@ -61,7 +88,7 @@ export const GENESIS_16: RichChapterContent = {
           kind: 'commentary',
           id: 'c-barren',
           html:
-            'Ten years have passed since God promised Abram offspring (Gen. 15). Sarai has waited, watched, hoped. The silence has worn on her. She names what everyone knows: she is barren. The word is not a diagnosis; it is a door closing.',
+            'Ten years have passed since God promised Abram offspring (Gen. 15). Sarai has waited, watched, hoped. The silence has worn on her. She names what everyone knows: she is barren. The word is not a diagnosis; it is a door closing[res:sefaria-genesis-16][res:pennmuseum-abraham-era].',
         },
         {
           kind: 'commentary',

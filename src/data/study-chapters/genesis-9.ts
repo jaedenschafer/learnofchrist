@@ -28,6 +28,33 @@ export const GENESIS_9: RichChapterContent = {
     ref: 'Genesis 9 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-genesis-9',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 9 · Hebrew + Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.9',
+      description: 'Hebrew text with rabbinic commentary on the Noahide Laws and covenant signs.',
+    },
+    {
+      id: 'intertextual-rainbow-sign',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Rainbow Covenant (Genesis 9:13-17)',
+      url: 'https://intertextual.bible/text/genesis-9.13',
+      description: 'Traces the rainbow symbol and covenant theme through Scripture.',
+    },
+    {
+      id: 'bibleodyssey-noahide-covenant',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Noahic Covenant',
+      url: 'https://www.bibleodyssey.org/dictionary/noahic-covenant/',
+      description: 'SBL entry on God\'s post-flood covenant and its role in biblical theology.',
+    },
+  ],
+
   sections: [
     /* ─── Genesis 9:1–7 — The Renewed Creation Mandate ──────────────────── */
     {
@@ -67,12 +94,12 @@ export const GENESIS_9: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-creation-echo',
-          html: 'God speaks the exact words He spoke to Adam and Eve: <em>Be fruitful, and multiply.</em> The covenant opens with an echo of Genesis 1. Creation is being rebooted. The flood is not the end of the story — it is judgment folded into a fresh start.',
+          html: 'God speaks the exact words He spoke to Adam and Eve: <em>Be fruitful, and multiply.</em> The covenant opens with an echo of Genesis 1. Creation is being rebooted. The flood is not the end of the story — it is judgment folded into a fresh start[res:sefaria-genesis-9][res:intertextual-rainbow-sign].',
         },
         {
           kind: 'commentary',
           id: 'c-dominion-shifted',
-          html: 'In Genesis 1, humanity rules by making space, blessing, naming things good. Here the language has hardened: <em>fear</em> and <em>dread.</em> The animals will no longer live at peace with their image-bearing cousins. Something in the human heart has changed, and the animals know it. The world after the flood is not as innocent as the world before.',
+          html: 'In Genesis 1, humanity rules by making space, blessing, naming things good. Here the language has hardened: <em>fear</em> and <em>dread.</em> The animals will no longer live at peace with their image-bearing cousins. Something in the human heart has changed, and the animals know it. The world after the flood is not as innocent as the world before[res:bibleodyssey-noahide-covenant].',
         },
         {
           kind: 'commentary',
