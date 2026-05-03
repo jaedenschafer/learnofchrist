@@ -66,7 +66,6 @@ html[data-reader-theme="dark"] {
    white-on-frost just like the dashboard. */
 .loc-hero,
 .loc-dash,
-.loc-resources,
 .loc-mission,
 .loc-blog,
 .loc-closer {
@@ -430,19 +429,21 @@ html[data-reader-theme="dark"] {
    library in motion without a single static screenshot. */
 
 .loc-resources {
-  /* Photo backdrop so the white-frosted CTA reads consistently with
-     every other section. Backlit canyon at golden hour — keeps the
-     mood warm but quiet so the arches of artwork remain the focal. */
+  /* White-cream base with a few soft Vesper-tinted radial washes —
+     same posture as base44's atmospheric gradient sections. Lets the
+     arches of artwork remain the visual focus while keeping the
+     section airy and light. */
   position: relative;
   isolation: isolate;
   overflow: hidden;
   padding: var(--loc-section-y) 0 calc(var(--loc-section-y) * 0.6);
   text-align: center;
-  background-image:
-    linear-gradient(180deg, rgba(26, 22, 18, 0.42), rgba(26, 22, 18, 0.58)),
-    url('https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=2400&q=85');
-  background-size: cover;
-  background-position: center;
+  background:
+    radial-gradient(ellipse 50% 35% at 12% 15%, color-mix(in srgb, var(--vesper-peach) 26%, transparent), transparent 65%),
+    radial-gradient(ellipse 45% 30% at 88% 10%, color-mix(in srgb, var(--vesper-sky) 24%, transparent), transparent 65%),
+    radial-gradient(ellipse 60% 40% at 50% 100%, color-mix(in srgb, var(--vesper-gold) 14%, transparent), transparent 70%),
+    radial-gradient(ellipse 70% 50% at 50% 50%, #FFFFFF, transparent 70%),
+    var(--vesper-parchment);
 }
 
 .loc-resources__head {
