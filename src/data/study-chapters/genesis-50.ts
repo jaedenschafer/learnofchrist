@@ -19,9 +19,9 @@ export const GENESIS_50: RichChapterContent = {
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 15 },
   intros: [
-    'Genesis opened with God bringing light out of chaos. It closes with a coffin in Egypt. A man lies dead, surrounded by sons he once thought he would never see again. One of those sons has risen to be the second-most powerful man in the kingdom. Joseph has fed them, housed them, forgiven them — and still they wonder if his forgiveness was only a mask, waiting for the moment their father died to fall away.',
-    'The chapter is built on a question the brothers ask aloud (v. 15): "Joseph will peradventure hate us." After seventeen years, they still don\'t believe him. And Joseph\'s response is not irritation but tears — the kind of tears that come when you love someone and they still don\'t trust you. In the middle of the weeping, though, Joseph says something that will echo through two thousand years of theology: "Ye thought evil against me; but God meant it unto good." Human malice, divine providence, and salvation threading through both.',
-    'The book ends not with a triumph but with a wait. Joseph dies, his body embalmed and coffined, and makes his family swear they will carry his bones out of Egypt when the time comes. Genesis closes with an act of faith — a dead man whose trust in God\'s promise is stronger than the comfort of burial in the land where he rose to power. His bones are a question waiting for an answer: Will God keep His word? Will there be an exodus? Will the promise made to Abraham actually come to pass?',
+    'Genesis opened with God bringing light out of chaos. It closes with a coffin in Egypt [res:sefaria-genesis-50]. A man lies dead, surrounded by sons he once thought he would never see again. One of those sons has risen to be the second-most powerful man in the kingdom. Joseph has fed them, housed them, forgiven them — and still they wonder if his forgiveness was only a mask, waiting for the moment their father died to fall away.',
+    'The chapter is built on a question the brothers ask aloud (v. 15): "Joseph will peradventure hate us." After seventeen years, they still don\'t believe him. And Joseph\'s response is not irritation but tears — the kind of tears that come when you love someone and they still don\'t trust you. In the middle of the weeping, though, Joseph says something that will echo through two thousand years of theology: "Ye thought evil against me; but God meant it unto good." Human malice, divine providence, and salvation threading through both [res:bibleodyssey-joseph-egypt].',
+    'The book ends not with a triumph but with a wait. Joseph dies, his body embalmed [res:met-museum-egypt] and coffined, and makes his family swear they will carry his bones out of Egypt when the time comes. Genesis closes with an act of faith — a dead man whose trust in God\'s promise is stronger than the comfort of burial in the land where he rose to power. His bones are a question waiting for an answer: Will God keep His word? Will there be an exodus? Will the promise made to Abraham actually come to pass?',
   ],
 
   bottomShare: {
@@ -31,6 +31,33 @@ export const GENESIS_50: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 50 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-50',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 50 Commentary',
+      url: 'https://www.sefaria.org/Genesis.50',
+      description: 'Hebrew biblical text with rabbinic commentary and Jewish scholarly perspectives on Joseph&apos;s death and his bones.',
+    },
+    {
+      id: 'met-museum-egypt',
+      kind: 'museum',
+      source: 'The Metropolitan Museum of Art',
+      label: 'Egypt in the Late Period',
+      url: 'https://www.metmuseum.org/art/metpublications/Egyptian_Art_in_the_Age_of_the_Pyramids',
+      description: 'Artifacts and scholarship on Egyptian funeral practices, embalming, and mourning customs during the period Joseph served Pharaoh.',
+    },
+    {
+      id: 'bibleodyssey-joseph-egypt',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Joseph in Egypt',
+      url: 'https://www.bibleodyssey.org/stories/joseph-in-egypt',
+      description: 'Interactive study materials on Joseph&apos;s rise, his family&apos;s settlement, and the closing of the Genesis narrative with faith and covenant.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 50:1–11 — The Funeral ───────────────────────────────── */
