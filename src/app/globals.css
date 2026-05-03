@@ -1981,61 +1981,59 @@ html[data-reader-theme="dark"] ::-webkit-scrollbar-thumb:hover { background: rgb
 .site-nav__bar {
   pointer-events: auto;
   border-radius: 999px;
-  /* Same frost recipe as the closer's "What should we study?" pane —
-     translucent white with a 28px backdrop blur, faint white border,
-     warm shadow underneath. Sits as glass over whatever the page is
-     showing behind it. */
-  background: rgba(255, 255, 255, 0.18);
-  -webkit-backdrop-filter: blur(28px) saturate(150%);
-  backdrop-filter: blur(28px) saturate(150%);
-  border: 1px solid rgba(255, 255, 255, 0.28);
+  /* Mostly-opaque parchment cream so the navbar text reads with the
+     same contrast no matter what the section behind it is showing —
+     dark photo, light parchment, or arched marquee. The frost feel
+     comes from the backdrop-blur + inset white highlight, not from
+     translucency. */
+  background: rgba(245, 240, 230, 0.92);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.55);
   box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.20),
-    0 8px 28px -10px rgba(26, 22, 18, 0.24);
+    inset 0 1px 0 rgba(255, 255, 255, 0.7),
+    0 10px 32px -10px rgba(26, 22, 18, 0.20);
   /* Slim profile so the pill doesn't dominate. */
   height: 56px;
   padding: 0 clamp(0.75rem, 1.5vw, 1.25rem);
-  /* Force the dark-context frost tokens regardless of body context, so
-     the navbar always reads as white-on-frost (matches the dashboard /
-     closer / hero language, not the parchment context). */
-  --frost-tint:        rgba(255, 255, 255, 0.16);
-  --frost-tint-card:   rgba(255, 255, 255, 0.18);
-  --frost-tint-strong: rgba(255, 255, 255, 0.22);
-  --frost-tint-rail:   rgba(255, 255, 255, 0.14);
-  --frost-tint-hover:  rgba(255, 255, 255, 0.26);
-  --frost-text:        #FFFFFF;
-  --frost-text-soft:   rgba(255, 255, 255, 0.78);
-  --frost-text-muted:  rgba(255, 255, 255, 0.65);
-  --frost-border-card: rgba(255, 255, 255, 0.28);
-  --frost-border-chip: rgba(255, 255, 255, 0.20);
-  --frost-border-rail: rgba(255, 255, 255, 0.18);
-  color: var(--frost-text);
+  color: var(--vesper-compline);
 }
 html[data-reader-theme="dark"] .site-nav__bar {
-  background: rgba(255, 255, 255, 0.10);
-  border-color: rgba(255, 255, 255, 0.18);
+  background: rgba(31, 36, 59, 0.92);
+  border-color: rgba(255, 255, 255, 0.14);
+  color: var(--vesper-parchment);
   box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.12),
-    0 8px 28px -10px rgba(0, 0, 0, 0.55);
+    inset 0 1px 0 rgba(255, 255, 255, 0.10),
+    0 10px 32px -10px rgba(0, 0, 0, 0.55);
 }
 
-/* Force every label inside the bar to white — overrides any inherited
-   --color-label from a parent context. */
+/* All navbar text is dark Compline (or Parchment in dark mode) — one
+   color, readable on every background because the pill is opaque. */
 .site-nav__brand,
 .site-nav__brand-name,
 .site-nav__link,
 .site-nav__cta,
 .site-nav__icon-btn {
-  color: #FFFFFF;
+  color: var(--vesper-compline);
+}
+html[data-reader-theme="dark"] .site-nav__brand,
+html[data-reader-theme="dark"] .site-nav__brand-name,
+html[data-reader-theme="dark"] .site-nav__link,
+html[data-reader-theme="dark"] .site-nav__cta,
+html[data-reader-theme="dark"] .site-nav__icon-btn {
+  color: var(--vesper-parchment);
 }
 .site-nav__link:hover,
-.site-nav__cta:hover {
-  background: rgba(255, 255, 255, 0.16);
-}
+.site-nav__cta:hover,
 .site-nav__icon-btn:hover {
-  background: rgba(255, 255, 255, 0.16);
+  background: color-mix(in srgb, var(--vesper-compline) 7%, transparent);
 }
-.site-nav__link::after { background: var(--vesper-peach); }
+html[data-reader-theme="dark"] .site-nav__link:hover,
+html[data-reader-theme="dark"] .site-nav__cta:hover,
+html[data-reader-theme="dark"] .site-nav__icon-btn:hover {
+  background: color-mix(in srgb, var(--vesper-parchment) 12%, transparent);
+}
+.site-nav__link::after { background: var(--vesper-gold); }
 .nav-link {
   color: var(--color-secondary-label);
 }
@@ -2273,30 +2271,44 @@ html[data-reader-theme="dark"] .nav-link:hover {
   height: 42px;
   padding: 0 0.875rem 0 1rem;
   border-radius: 999px;
-  /* Same frost recipe as the closer's "01 John 1" choice rows —
-     translucent white tint, 24px backdrop blur, no border, white text. */
-  background: rgba(255, 255, 255, 0.16);
-  -webkit-backdrop-filter: blur(24px) saturate(150%);
-  backdrop-filter: blur(24px) saturate(150%);
-  border: none;
-  color: #FFFFFF;
-  transition: background-color 0.18s ease, box-shadow 0.18s ease;
+  /* Recessed pill inside the navbar — slightly darker than the bar
+     itself so the field reads as an interactive surface, with dark
+     Compline text that matches the rest of the navbar. */
+  background: color-mix(in srgb, var(--vesper-compline) 6%, transparent);
+  border: 1px solid color-mix(in srgb, var(--vesper-compline) 6%, transparent);
+  color: var(--vesper-compline);
+  transition: background-color 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
 }
 .site-search__field:hover {
-  background: rgba(255, 255, 255, 0.22);
+  background: color-mix(in srgb, var(--vesper-compline) 10%, transparent);
 }
 .site-search__field:focus-within {
-  background: rgba(255, 255, 255, 0.28);
-  box-shadow: 0 0 0 3px rgba(232, 184, 148, 0.28);
+  background: #FFFFFF;
+  border-color: color-mix(in srgb, var(--vesper-gold) 50%, transparent);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--vesper-gold) 18%, transparent);
+}
+html[data-reader-theme="dark"] .site-search__field {
+  background: color-mix(in srgb, var(--vesper-parchment) 10%, transparent);
+  border-color: color-mix(in srgb, var(--vesper-parchment) 10%, transparent);
+  color: var(--vesper-parchment);
+}
+html[data-reader-theme="dark"] .site-search__field:focus-within {
+  background: color-mix(in srgb, var(--vesper-parchment) 18%, transparent);
 }
 
 .site-search__icon {
   flex: 0 0 auto;
-  color: rgba(255, 255, 255, 0.78);
+  color: var(--vesper-smoke);
+}
+html[data-reader-theme="dark"] .site-search__icon {
+  color: rgba(245, 240, 230, 0.65);
 }
 
 .site-search__field:focus-within .site-search__icon {
-  color: #FFFFFF;
+  color: var(--vesper-compline);
+}
+html[data-reader-theme="dark"] .site-search__field:focus-within .site-search__icon {
+  color: var(--vesper-parchment);
 }
 
 .site-search__input {
@@ -2307,11 +2319,17 @@ html[data-reader-theme="dark"] .nav-link:hover {
   background: transparent;
   font: inherit;
   font-size: 0.9375rem;
-  color: #FFFFFF;
+  color: var(--vesper-compline);
   padding: 0;
 }
 .site-search__input::placeholder {
-  color: rgba(255, 255, 255, 0.65);
+  color: var(--vesper-smoke);
+}
+html[data-reader-theme="dark"] .site-search__input {
+  color: var(--vesper-parchment);
+}
+html[data-reader-theme="dark"] .site-search__input::placeholder {
+  color: rgba(245, 240, 230, 0.55);
 }
 /* Kill the WebKit search "x" — we render our own clear button. */
 .site-search__input::-webkit-search-cancel-button { -webkit-appearance: none; }
@@ -2322,7 +2340,7 @@ html[data-reader-theme="dark"] .nav-link:hover {
   width: 22px;
   height: 22px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.22);
+  background: color-mix(in srgb, var(--vesper-compline) 14%, transparent);
   color: #FFFFFF;
   border: none;
   display: inline-flex;
@@ -2332,7 +2350,7 @@ html[data-reader-theme="dark"] .nav-link:hover {
   padding: 0;
 }
 .site-search__clear:hover {
-  background: rgba(255, 255, 255, 0.36);
+  background: var(--vesper-compline);
 }
 
 .site-search__panel {
