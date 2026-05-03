@@ -868,7 +868,7 @@ export const FIRST_CORINTHIANS_14: RichChapterContent = {
   resources: [
     {
       id: 'sefaria-isaiah-28-11',
-      kind: 'scripture',
+      kind: 'study',
       source: 'Sefaria Library',
       label: 'Isaiah 28:11–12 — The Quotation Paul Uses',
       url: 'https://www.sefaria.org/Isaiah.28.11-12?lang=en',

@@ -43,7 +43,7 @@ export const FIRST_CORINTHIANS_16: RichChapterContent = {
           kind: 'commentary',
           id: 'cor16-collection-intro',
           html:
-            'Jerusalem is hungry. The church there faces famine, persecution, poverty. Paul has been organizing relief from the Gentile churches—Galatia, Corinth, elsewhere. It is not charity as the world counts it. It is the body caring for its own. The wealthy Corinthians, prone to pride and division, are being schooled in love the only way that sticks: by reaching their hands into their purses for people they will never meet.',
+            'Jerusalem[res:israel-museum-jerusalem] is hungry. The church there faces famine, persecution, poverty. Paul has been organizing relief from the Gentile churches—Galatia, Corinth, elsewhere. It is not charity as the world counts it. It is the body caring for its own. The wealthy Corinthians[res:bibleodyssey-ephesus], prone to pride and division, are being schooled in love[res:bibleodyssey-worship] the only way that sticks: by reaching their hands into their purses for people they will never meet[res:bibleodyssey-maranatha].',
         },
         {
           kind: 'scripture',
