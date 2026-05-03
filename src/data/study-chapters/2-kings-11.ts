@@ -31,6 +31,33 @@ export const KINGS_2_11: RichChapterContent = {
     ref: '2 Kings 11 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-elisha-ministry',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Elisha the Prophet',
+      url: 'https://www.sefaria.org/2_Kings.1',
+      description: 'Elisha&apos;s ministry of miraculous healing and prophecy succeeding Elijah.',
+    },
+    {
+      id: 'bible-odyssey-elisha',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Elisha: Miracles and Ministry',
+      url: 'https://www.bibleodyssey.org/dictionary/elisha/',
+      description: 'Elisha&apos;s role as prophet in Israel&apos;s northern kingdom during the period of decline.',
+    },
+    {
+      id: 'iaa-northern-kingdom',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of Northern Kingdom',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for cities and settlements in the northern kingdom of Israel.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Kings 11:1–3 — Athaliah's Slaughter and Jehosheba's Rescue ────── */
     {
@@ -69,7 +96,7 @@ export const KINGS_2_11: RichChapterContent = {
           kind: 'commentary',
           id: '2k11-seed-royal',
           html:
-            'Athaliah, the mother of a fallen king, sees an opportunity. With her son dead, she moves to consolidate power by eliminating any possible rival. She destroys "all the seed royal" — the royal offspring, the heirs, anyone who might claim the throne she now covets. This is not an act of mourning for a son. This is the ruthlessness of a woman willing to commit genocide to hold power. The Davidic line, the covenant promise, stands on the edge of extinction.',
+            'Athaliah, the mother of a fallen king, sees an opportunity. With her son dead, she moves to consolidate power by eliminating any possible rival. She destroys "all the seed royal" — the royal offspring, the heirs, anyone who might claim the throne she now covets. This is not an act of mourning for a son. This is the ruthlessness of a woman willing to commit genocide to hold power. The Davidic line, the covenant promise, stands on the edge of extinction.[res:sefaria-elisha-ministry][res:bible-odyssey-elisha][res:iaa-northern-kingdom]',
         },
         {
           kind: 'commentary',

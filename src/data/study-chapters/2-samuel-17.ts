@@ -31,6 +31,33 @@ export const SAMUEL_2_17: RichChapterContent = {
     ref: '2 Samuel 17 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-david-king',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'David as King of Israel',
+      url: 'https://www.sefaria.org/2_Samuel.1',
+      description: 'David&apos;s consolidation of power and establishment of monarchy over united Israel.',
+    },
+    {
+      id: 'iaa-city-david',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Continuous excavation revealing David-era structures and urban development in Jerusalem.',
+    },
+    {
+      id: 'bible-odyssey-jerusalem',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Jerusalem Captured',
+      url: 'https://www.bibleodyssey.org/dictionary/jerusalem/',
+      description: 'David&apos;s capture of the Jebusite city and establishment as Israel&apos;s capital.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Samuel 17:1–13 — Ahithophel&apos;s Counsel / Hushai&apos;s Counter ─── */
     {
@@ -65,7 +92,7 @@ export const SAMUEL_2_17: RichChapterContent = {
           kind: 'commentary',
           id: 'c-ahithophel-counsel',
           html:
-            'Ahithophel&apos;s plan is clear and ruthless. He wants to move tonight, catch David exhausted and unprepared, kill the king alone, and let everyone else come back unharmed. The people will follow Absalom not out of fear but out of relief — their king will be dead, and they can go home. It is the counsel of a military strategist who has thought through the problem completely.',
+            'Ahithophel&apos;s plan is clear and ruthless. He wants to move tonight, catch David exhausted and unprepared, kill the king alone, and let everyone else come back unharmed. The people will follow Absalom not out of fear but out of relief — their king will be dead, and they can go home. It is the counsel of a military strategist who has thought through the problem completely.[res:sefaria-david-king][res:iaa-city-david][res:bible-odyssey-jerusalem]',
         },
         {
           kind: 'commentary',

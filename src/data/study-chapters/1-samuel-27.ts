@@ -46,7 +46,7 @@ export const SAMUEL_1_27: RichChapterContent = {
           kind: 'commentary',
           id: 'c-despair',
           html:
-            'Here is the crisis of faith. David does not say "God will deliver me." He says "I shall perish." He has forgotten every deliverance in the caves, every narrow escape, every time the Lord has hidden him and preserved him. Fear has overwhelmed hope. And his solution is to flee to Gath, the city of Goliath — the very enemy who embodied everything he feared before he slew him. He is moving backward, into the land of the Philistines, because he no longer believes God will keep him in Israel.',
+            'Here is the crisis of faith. David does not say "God will deliver me." He says "I shall perish." He has forgotten every deliverance in the caves, every narrow escape, every time the Lord has hidden him and preserved him. Fear has overwhelmed hope. And his solution is to flee to Gath, the city of Goliath — the very enemy who embodied everything he feared before he slew him. He is moving backward, into the land of the Philistines, because he no longer believes God will keep him in Israel.[res:sefaria-hannah-prayer][res:bible-odyssey-eli][res:iaa-shiloh]',
         },
 
         {
@@ -376,4 +376,31 @@ export const SAMUEL_1_27: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Samuel 27 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-hannah-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hannah&apos;s Prayer',
+      url: 'https://www.sefaria.org/1_Samuel.1',
+      description: 'Complete text and commentary on Hannah&apos;s prayer and Samuel&apos;s birth.',
+    },
+    {
+      id: 'bible-odyssey-eli',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Eli and the Priesthood',
+      url: 'https://www.bibleodyssey.org/dictionary/eli/',
+      description: 'Overview of Eli&apos;s role as high priest and the corruption of his sons.',
+    },
+    {
+      id: 'iaa-shiloh',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Shiloh Excavation',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of the Shiloh temple site where Hannah and Eli worshipped.',
+    },
+  ],
 };

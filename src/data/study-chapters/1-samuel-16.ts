@@ -39,6 +39,33 @@ export const SAMUEL_1_16: RichChapterContent = {
     ref: '1 Samuel 16 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-samuel-anoints',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Samuel Anoints David',
+      url: 'https://www.sefaria.org/1_Samuel.16',
+      description: 'Samuel&apos;s secret anointing of young David as God&apos;s chosen king over Israel.',
+    },
+    {
+      id: 'bible-odyssey-david-king',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'David: From Shepherd to King',
+      url: 'https://www.bibleodyssey.org/dictionary/david/',
+      description: 'David&apos;s rise from obscurity to become Israel&apos;s greatest and most celebrated king.',
+    },
+    {
+      id: 'iaa-david-evidence',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeological Evidence for David',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological corroboration of David&apos;s existence and reign in Iron Age Judah.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Samuel 16:1–5 — Samuel Sent to Bethlehem ──────────────────── */
     {
@@ -59,7 +86,7 @@ export const SAMUEL_1_16: RichChapterContent = {
           kind: 'commentary',
           id: 'c-mourn-saul',
           html:
-            'The Lord cuts off Samuel&apos;s grief. Samuel has been mourning Saul — a king rejected, a calling failed, a hope shattered. But God says: enough. I have already chosen another. The chapter will not be about Saul&apos;s tragedy, though it hovers in the background. It will be about the God who sees beyond the rejected king to the one hidden in the fields.',
+            'The Lord cuts off Samuel&apos;s grief. Samuel has been mourning Saul — a king rejected, a calling failed, a hope shattered. But God says: enough. I have already chosen another. The chapter will not be about Saul&apos;s tragedy, though it hovers in the background. It will be about the God who sees beyond the rejected king to the one hidden in the fields[res:sefaria-samuel-anoints][res:bible-odyssey-david-king][res:iaa-david-evidence].',
         },
         {
           kind: 'commentary',

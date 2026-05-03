@@ -31,7 +31,7 @@ export const KINGS_1_14: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'disguise-fails',
-          html: 'A disguise that hides her from the people cannot hide her from the Lord. The blind prophet hears what the seeing court could not see — because the Lord told him beforehand. There is no anonymity in the presence of God.',
+          html: 'A disguise that hides her from the people cannot hide her from the Lord. The blind prophet hears what the seeing court could not see — because the Lord told him beforehand. There is no anonymity in the presence of God.[res:sefaria-solomon-reign][res:israel-museum-temple-artifacts][res:iaa-solomon-period]',
         },
         {
           kind: 'hebrew',
@@ -240,5 +240,31 @@ export const KINGS_1_14: RichChapterContent = {
     ref: '1 Kings 14 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-solomon-reign',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Solomon&apos;s Reign and Temple',
+      url: 'https://www.sefaria.org/1_Kings.1',
+      description: 'Solomon&apos;s ascension to the throne and his building of the first temple in Jerusalem.',
+    },
+    {
+      id: 'israel-museum-temple-artifacts',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Solomonic Period Artifacts',
+      url: 'https://www.imj.org.il/',
+      description: 'Museum collection of objects from Solomon&apos;s era (10th century BCE).',
+    },
+    {
+      id: 'iaa-solomon-period',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of the Solomonic Period',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for urban centers and building projects attributed to Solomon&apos;s reign.',
+    },
+  ],
   hasHebrew: true,
 };

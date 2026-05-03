@@ -31,6 +31,33 @@ export const KINGS_2_25: RichChapterContent = {
     ref: '2 Kings 25 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'brit-museum-babylonian',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Chronicles',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Cuneiform tablets recording Nebuchadnezzar&apos;s campaigns and the fall of Jerusalem.',
+    },
+    {
+      id: 'sefaria-fall-jerusalem',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Fall of Jerusalem',
+      url: 'https://www.sefaria.org/2_Kings.25',
+      description: 'The destruction of the temple and the exile of Judah&apos;s people to Babylon.',
+    },
+    {
+      id: 'bible-odyssey-exile',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'The Babylonian Exile',
+      url: 'https://www.bibleodyssey.org/dictionary/exile/',
+      description: 'The historical and theological context of Judah&apos;s exile and subsequent restoration.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Kings 25:1–7 — The Siege and Fall ──────────────────────────── */
     {
@@ -50,7 +77,7 @@ export const KINGS_2_25: RichChapterContent = {
           kind: 'commentary',
           id: '2-kings-25-mid-3',
           html:
-            '<p>A turning point reveals how one decision ripples across generations and nations.</p>',
+            '<p>A turning point reveals how one decision ripples across generations and nations.</p>[res:brit-museum-babylonian][res:sefaria-fall-jerusalem][res:bible-odyssey-exile]',
         },
         {
           kind: 'scripture',

@@ -32,6 +32,33 @@ export const KINGS_2_3: RichChapterContent = {
     ref: '2 Kings 3 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-elisha-ministry',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Elisha the Prophet',
+      url: 'https://www.sefaria.org/2_Kings.1',
+      description: 'Elisha&apos;s ministry of miraculous healing and prophecy succeeding Elijah.',
+    },
+    {
+      id: 'bible-odyssey-elisha',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Elisha: Miracles and Ministry',
+      url: 'https://www.bibleodyssey.org/dictionary/elisha/',
+      description: 'Elisha&apos;s role as prophet in Israel&apos;s northern kingdom during the period of decline.',
+    },
+    {
+      id: 'iaa-northern-kingdom',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of Northern Kingdom',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for cities and settlements in the northern kingdom of Israel.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Kings 3:1–8 — The Three Kings March to War ──────────────────────── */
     {
@@ -52,7 +79,7 @@ export const KINGS_2_3: RichChapterContent = {
           kind: 'commentary',
           id: '2-kings-3-mid-4',
           html:
-            '<p>A turning point reveals how one decision ripples across generations and nations.</p>',
+            '<p>A turning point reveals how one decision ripples across generations and nations.</p>[res:sefaria-elisha-ministry][res:bible-odyssey-elisha][res:iaa-northern-kingdom]',
         },
         {
           kind: 'scripture',

@@ -41,7 +41,7 @@ export const SAMUEL_2_4: RichChapterContent = {
           kind: 'commentary',
           id: 'ish-bosheth-fear',
           html:
-            'Ish-bosheth hears that Abner is dead, and something breaks in him. His hands become feeble — not the hands of a warrior, but the hands of a man whose power has evaporated. The text does not say he grieves Abner. It says his weakness is revealed. All Israel is troubled. They recognize what a reader has known for chapters: Ish-bosheth was never a true king. He was a remnant, a shadow, held upright only by Abner&apos;s strength. Now that strength is gone.',
+            'Ish-bosheth hears that Abner is dead, and something breaks in him. His hands become feeble — not the hands of a warrior, but the hands of a man whose power has evaporated. The text does not say he grieves Abner. It says his weakness is revealed. All Israel is troubled. They recognize what a reader has known for chapters: Ish-bosheth was never a true king. He was a remnant, a shadow, held upright only by Abner&apos;s strength. Now that strength is gone.[res:sefaria-david-king][res:iaa-city-david][res:bible-odyssey-jerusalem]',
         },
         {
           kind: 'commentary',
@@ -226,4 +226,31 @@ export const SAMUEL_2_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Samuel 4 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-david-king',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'David as King of Israel',
+      url: 'https://www.sefaria.org/2_Samuel.1',
+      description: 'David&apos;s consolidation of power and establishment of monarchy over united Israel.',
+    },
+    {
+      id: 'iaa-city-david',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Continuous excavation revealing David-era structures and urban development in Jerusalem.',
+    },
+    {
+      id: 'bible-odyssey-jerusalem',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Jerusalem Captured',
+      url: 'https://www.bibleodyssey.org/dictionary/jerusalem/',
+      description: 'David&apos;s capture of the Jebusite city and establishment as Israel&apos;s capital.',
+    },
+  ],
 };

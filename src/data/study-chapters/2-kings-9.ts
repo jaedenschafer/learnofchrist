@@ -34,6 +34,33 @@ export const KINGS_2_9: RichChapterContent = {
     ref: '2 Kings 9 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'brit-museum-jehu-obelisk',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Black Obelisk of Shalmaneser III',
+      url: 'https://www.britishmuseum.org/collection/object/W_1856-0909-1',
+      description: 'Ancient Assyrian monument depicting King Jehu of Israel bowing to the Assyrian king.',
+    },
+    {
+      id: 'sefaria-jehu-coup',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jehu&apos;s Violent Purge',
+      url: 'https://www.sefaria.org/2_Kings.9',
+      description: 'Jehu&apos;s coup against the house of Ahab and the death of Jezebel.',
+    },
+    {
+      id: 'bible-odyssey-jehu',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Jehu: Anointed to Purge Baal',
+      url: 'https://www.bibleodyssey.org/dictionary/jehu/',
+      description: 'Jehu&apos;s military coup and religious reforms eliminating Baal worship from Israel&apos;s court.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Kings 9:1–10 — Elisha Anoints Jehu in Haste ──────────────────── */
     {
@@ -59,7 +86,7 @@ export const KINGS_2_9: RichChapterContent = {
           kind: 'commentary',
           id: 'elisha-haste',
           html:
-            'Elisha does not explain. He does not debate. The instruction is bare and urgent: take oil, find Jehu, anoint him, flee. This is not ceremony — it is a covert operation. Jehu sits with the captains of the king, and the young prophet must draw him aside into a private chamber. The anointing must be swift, the word spoken, and the messenger gone. There is no time for questions.',
+            'Elisha does not explain. He does not debate. The instruction is bare and urgent: take oil, find Jehu, anoint him, flee. This is not ceremony — it is a covert operation. Jehu sits with the captains of the king, and the young prophet must draw him aside into a private chamber. The anointing must be swift, the word spoken, and the messenger gone. There is no time for questions[res:brit-museum-jehu-obelisk][res:sefaria-jehu-coup][res:bible-odyssey-jehu].',
         },
         {
           kind: 'hebrew',

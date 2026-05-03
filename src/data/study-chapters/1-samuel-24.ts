@@ -36,6 +36,33 @@ export const SAMUEL_1_24: RichChapterContent = {
     ref: '1 Samuel 24 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hannah-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hannah&apos;s Prayer',
+      url: 'https://www.sefaria.org/1_Samuel.1',
+      description: 'Complete text and commentary on Hannah&apos;s prayer and Samuel&apos;s birth.',
+    },
+    {
+      id: 'bible-odyssey-eli',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Eli and the Priesthood',
+      url: 'https://www.bibleodyssey.org/dictionary/eli/',
+      description: 'Overview of Eli&apos;s role as high priest and the corruption of his sons.',
+    },
+    {
+      id: 'iaa-shiloh',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Shiloh Excavation',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of the Shiloh temple site where Hannah and Eli worshipped.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Samuel 24:1–7 — Saul in the Cave ────────────────────────────── */
     {
@@ -61,7 +88,7 @@ export const SAMUEL_1_24: RichChapterContent = {
           kind: 'commentary',
           id: 'c-engedi',
           html:
-            'Engedi is an oasis in the wilderness of Judea, near the Dead Sea — a place of water and life in an otherwise barren landscape. David, fleeing for his life, has found refuge in this pocket of sustenance. But Saul&apos;s obsession reaches even here. With three thousand soldiers, he comes to trap a man and a handful of followers. The scale is absurd. The king of Israel, pursued by enemies, is using his army to hunt one anointed young man.',
+            'Engedi is an oasis in the wilderness of Judea, near the Dead Sea — a place of water and life in an otherwise barren landscape. David, fleeing for his life, has found refuge in this pocket of sustenance. But Saul&apos;s obsession reaches even here. With three thousand soldiers, he comes to trap a man and a handful of followers. The scale is absurd. The king of Israel, pursued by enemies, is using his army to hunt one anointed young man.[res:sefaria-hannah-prayer][res:bible-odyssey-eli][res:iaa-shiloh]',
         },
         {
           kind: 'commentary',

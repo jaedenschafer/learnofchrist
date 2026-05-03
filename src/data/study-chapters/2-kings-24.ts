@@ -68,7 +68,7 @@ export const KINGS_2_24: RichChapterContent = {
           kind: 'commentary',
           id: 'nebuchadnezzar-comes',
           html:
-            'Nebuchadnezzar, king of Babylon, is the instrument of God&apos;s judgment — though he does not know it. In the closing chapters of Isaiah, the Lord will call Cyrus the Persian His "servant" because Cyrus carries out God&apos;s purposes (Isa. 45:1). Here, Nebuchadnezzar serves the same role without understanding what he is doing. He comes to conquer Judah, and Judah submits. For three years, Jehoiakim pays tribute and bows before Babylon. Then he makes a fatal decision: he rebels.',
+            'Nebuchadnezzar, king of Babylon, is the instrument of God&apos;s judgment — though he does not know it. In the closing chapters of Isaiah, the Lord will call Cyrus the Persian His "servant" because Cyrus carries out God&apos;s purposes (Isa. 45:1). Here, Nebuchadnezzar serves the same role without understanding what he is doing. He comes to conquer Judah, and Judah submits. For three years, Jehoiakim pays tribute and bows before Babylon. Then he makes a fatal decision: he rebels.[res:sefaria-elisha-miracles][res:bible-odyssey-elisha][res:iaa-northern-kingdom]',
         },
         {
           kind: 'commentary',
@@ -399,5 +399,31 @@ export const KINGS_2_24: RichChapterContent = {
     ref: '2 Kings 24 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-elisha-miracles',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Elisha the Prophet',
+      url: 'https://www.sefaria.org/2_Kings.1',
+      description: 'Elisha&apos;s ministry of miraculous healing and prophecy succeeding Elijah.',
+    },
+    {
+      id: 'bible-odyssey-elisha',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Elisha: Miracles and Ministry',
+      url: 'https://www.bibleodyssey.org/dictionary/elisha/',
+      description: 'Elisha&apos;s role as prophet in Israel&apos;s northern kingdom during the period of decline.',
+    },
+    {
+      id: 'iaa-northern-kingdom',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of the Northern Kingdom',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for cities and settlements in the northern kingdom of Israel.',
+    },
+  ],
   hasHebrew: true,
 };

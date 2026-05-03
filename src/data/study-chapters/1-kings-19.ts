@@ -65,7 +65,7 @@ export const KINGS_1_19: RichChapterContent = {
           kind: 'commentary',
           id: 'flight-ahab',
           html:
-            'Ahab reports to Jezebel what has happened. He does not boast of Elijah&apos;s victory as if it vindicated him — instead, he delivers news of catastrophe. All the prophets of Baal are dead. The false religion has been exposed and its servants destroyed. For a moment, you might think Ahab would be chastened, that the display of the Lord&apos;s power would turn him. Instead, he goes home and reports it all to his wife.',
+            'Ahab reports to Jezebel what has happened. He does not boast of Elijah&apos;s victory as if it vindicated him — instead, he delivers news of catastrophe. All the prophets of Baal are dead. The false religion has been exposed and its servants destroyed. For a moment, you might think Ahab would be chastened, that the display of the Lord&apos;s power would turn him. Instead, he goes home and reports it all to his wife.[res:sefaria-solomon-reign][res:israel-museum-temple-artifacts][res:iaa-solomon-period]',
         },
         {
           kind: 'commentary',
@@ -484,5 +484,31 @@ export const KINGS_1_19: RichChapterContent = {
     ref: '1 Kings 19 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-solomon-reign',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Solomon&apos;s Reign and Temple',
+      url: 'https://www.sefaria.org/1_Kings.1',
+      description: 'Solomon&apos;s ascension to the throne and his building of the first temple in Jerusalem.',
+    },
+    {
+      id: 'israel-museum-temple-artifacts',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Solomonic Period Artifacts',
+      url: 'https://www.imj.org.il/',
+      description: 'Museum collection of objects from Solomon&apos;s era (10th century BCE).',
+    },
+    {
+      id: 'iaa-solomon-period',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of the Solomonic Period',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for urban centers and building projects attributed to Solomon&apos;s reign.',
+    },
+  ],
   hasHebrew: true,
 };

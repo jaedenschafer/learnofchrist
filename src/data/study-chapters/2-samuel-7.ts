@@ -35,6 +35,33 @@ export const SAMUEL_2_7: RichChapterContent = {
     ref: '2 Samuel 7 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-davidic-covenant',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Davidic Covenant',
+      url: 'https://www.sefaria.org/2_Samuel.7',
+      description: 'God&apos;s eternal covenant with David: his house, throne, and kingdom will endure forever.',
+    },
+    {
+      id: 'bible-odyssey-temple-promise',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'The Promise to Build the Temple',
+      url: 'https://www.bibleodyssey.org/dictionary/temple/',
+      description: 'God&apos;s promise that David&apos;s son (Solomon) will build the temple.',
+    },
+    {
+      id: 'intertextual-messiah-covenant',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Davidic Covenant and Messiah',
+      url: 'https://intertextual.bible/text/psalm-89-messiah',
+      description: 'How the Davidic covenant prefigures Jesus as the ultimate heir to David&apos;s throne.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Samuel 7:1–3 — David's Desire to Build ──────────────────── */
     {
@@ -69,7 +96,7 @@ export const SAMUEL_2_7: RichChapterContent = {
           kind: 'commentary',
           id: 'c-rest',
           html:
-            'The "rest" David speaks of is earned rest — the fruit of battle. He has fought his enemies; the Lord has defeated them. Now, in the peace that follows, David can think clearly. He can see his own house, cedar and solid. And then his eye falls on the ark.',
+            'The "rest" David speaks of is earned rest — the fruit of battle. He has fought his enemies; the Lord has defeated them. Now, in the peace that follows, David can think clearly. He can see his own house, cedar and solid. And then his eye falls on the ark[res:sefaria-davidic-covenant][res:bible-odyssey-temple-promise][res:intertextual-messiah-covenant].',
         },
         {
           kind: 'commentary',

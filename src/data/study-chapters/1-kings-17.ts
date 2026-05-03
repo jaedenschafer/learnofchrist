@@ -51,7 +51,7 @@ export const KINGS_1_17: RichChapterContent = {
           kind: 'commentary',
           id: 'k1-elijah-appearance',
           html:
-            'Elijah appears without introduction, without permission, without the formal protocols that would mark a prophet&apos;s entrance into the court of a king. He simply stands before Ahab and speaks. This abruptness is itself part of the message: Elijah does not negotiate or ask leave. He brings the word of the Lord, and it stands.',
+            'Elijah appears without introduction, without permission, without the formal protocols that would mark a prophet&apos;s entrance into the court of a king. He simply stands before Ahab and speaks. This abruptness is itself part of the message: Elijah does not negotiate or ask leave. He brings the word of the Lord, and it stands[res:bible-odyssey-elijah][res:sefaria-elijah-ravens][res:topostext-carmel].',
         },
         {
           kind: 'hebrew',
@@ -362,4 +362,31 @@ export const KINGS_1_17: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Kings 17 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bible-odyssey-elijah',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Elijah the Prophet',
+      url: 'https://www.bibleodyssey.org/dictionary/elijah/',
+      description: 'Elijah&apos;s role as God&apos;s spokesman against Baal worship during Ahab&apos;s reign.',
+    },
+    {
+      id: 'sefaria-elijah-ravens',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Elijah Fed by Ravens at Cherith',
+      url: 'https://www.sefaria.org/1_Kings.17',
+      description: 'Elijah&apos;s miraculous sustenance by ravens during the drought he proclaimed over Israel.',
+    },
+    {
+      id: 'topostext-carmel',
+      kind: 'archive',
+      source: 'ToposText',
+      label: 'Mount Carmel Geography',
+      url: 'https://topostext.org/',
+      description: 'Geographical and archaeological context for Mount Carmel, site of Elijah&apos;s showdown with Baal.',
+    },
+  ],
 };

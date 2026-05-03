@@ -35,6 +35,33 @@ export const SAMUEL_2_14: RichChapterContent = {
     ref: '2 Samuel 14 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-david-king',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'David as King of Israel',
+      url: 'https://www.sefaria.org/2_Samuel.1',
+      description: 'David&apos;s consolidation of power and establishment of monarchy over united Israel.',
+    },
+    {
+      id: 'iaa-city-david',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Continuous excavation revealing David-era structures and urban development in Jerusalem.',
+    },
+    {
+      id: 'bible-odyssey-jerusalem',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Jerusalem Captured',
+      url: 'https://www.bibleodyssey.org/dictionary/jerusalem/',
+      description: 'David&apos;s capture of the Jebusite city and establishment as Israel&apos;s capital.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Samuel 14:1–3 — Joab's Plan ─────────────────────────────────── */
     {
@@ -75,7 +102,7 @@ export const SAMUEL_2_14: RichChapterContent = {
           kind: 'commentary',
           id: 'c-absalom-intro',
           html:
-            'Absalom is in exile in Geshur, banished for murdering Amnon — his half-brother who had assaulted their sister Tamar. The murder was justice, but David\'s law could not overlook it. Yet two years have passed, and Joab reads what David will not admit: the king\'s heart has turned. He loves his son. He wants him home. But David is king; he cannot simply forgive and recall. He needs permission, a reason, a release from his own conflict.',
+            'Absalom is in exile in Geshur, banished for murdering Amnon — his half-brother who had assaulted their sister Tamar. The murder was justice, but David\[res:sefaria-david-king]'s law could not overlook it. Yet two years have passed, and Joab reads what David will not admit: the king\'s heart has turned. He loves his son. He wants him home. But David is king; he cannot simply forgive and recall. He needs permission, a reason, a release from his own conflict.',
         },
         {
           kind: 'commentary',
@@ -139,7 +166,7 @@ export const SAMUEL_2_14: RichChapterContent = {
           kind: 'commentary',
           id: 'c-blood-price',
           html:
-            'The woman speaks of a law of blood and vengeance: "the life of his brother whom he slew." In the ancient Near East, when a man kills another (even accidentally), the family of the dead has the right to pursue vengeance — to execute the killer. This is the "avenger of blood," a figure throughout Scripture. The family wants justice. But they want to destroy the entire line — both the son and the heir — which would be a destruction beyond justice. It would be the erasure of her family.',
+            'The woman speaks of a law of blood and vengeance: "the life of his brother whom he slew." In the ancient Near East, when a man kills another (even accidentally), the family of the dead has the right to pursue vengeance — to execute the killer. This is the "avenger of blood," a figure throughout Scripture. The family wants justice. But they want to destroy the entire line — both the son and the heir — which would be a destruction beyond justice. It would be the erasure of her family[res:sefaria-david-king][res:iaa-city-david][res:bible-odyssey-jerusalem].',
         },
         {
           kind: 'hebrew',

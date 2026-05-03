@@ -36,6 +36,33 @@ export const SAMUEL_2_9: RichChapterContent = {
     ref: '2 Samuel 9 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-david-king',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'David as King of Israel',
+      url: 'https://www.sefaria.org/2_Samuel.1',
+      description: 'David&apos;s consolidation of power and establishment of monarchy over united Israel.',
+    },
+    {
+      id: 'iaa-city-david',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Continuous excavation revealing David-era structures and urban development in Jerusalem.',
+    },
+    {
+      id: 'bible-odyssey-jerusalem',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Jerusalem Captured',
+      url: 'https://www.bibleodyssey.org/dictionary/jerusalem/',
+      description: 'David&apos;s capture of the Jebusite city and establishment as Israel&apos;s capital.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Samuel 9:1–5 — The King Seeks Out the Lame ──────────────────── */
     {
@@ -62,7 +89,7 @@ export const SAMUEL_2_9: RichChapterContent = {
           kind: 'commentary',
           id: 'c-seeking',
           html:
-            'The chapter opens with David&apos;s question. He has consolidated the kingdom. The war is over. Saul&apos;s line has been crushed. And the first thing David seeks is not to destroy the remnant of his former enemy — it is to show them kindness. The King&apos;s first thought is mercy.',
+            'The chapter opens with David&apos;s question. He has consolidated the kingdom. The war is over. Saul&apos;s line has been crushed. And the first thing David seeks is not to destroy the remnant of his former enemy — it is to show them kindness. The King&apos;s first thought is mercy.[res:sefaria-david-king][res:iaa-city-david][res:bible-odyssey-jerusalem]',
         },
         {
           kind: 'commentary',

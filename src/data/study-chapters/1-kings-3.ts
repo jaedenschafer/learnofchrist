@@ -32,6 +32,33 @@ export const KINGS_1_3: RichChapterContent = {
     ref: '1 Kings 3 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-solomon-reign',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Solomon&apos;s Reign and Temple',
+      url: 'https://www.sefaria.org/1_Kings.1',
+      description: 'Solomon&apos;s ascension to the throne and his building of the first temple.',
+    },
+    {
+      id: 'israel-museum-solomonic',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Solomonic Period Artifacts',
+      url: 'https://www.imj.org.il/',
+      description: 'Museum collection of objects from Solomon&apos;s era revealing 10th-century Iron Age culture.',
+    },
+    {
+      id: 'iaa-solomon-period',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of the Solomonic Period',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for urban centers and building projects attributed to Solomon.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Kings 3:1–3 — Solomon's Mixed Beginning ───────────────────── */
     {
@@ -60,7 +87,7 @@ export const KINGS_1_3: RichChapterContent = {
           kind: 'commentary',
           id: 'pharaoh-daughter',
           html:
-            'Solomon&apos;s first political act is a marriage to Pharaoh&apos;s daughter — a strategic alliance with Egypt, the great power of the ancient world. This is practical statecraft. But it immediately signals a tension: Solomon is making his own way, aligning himself with foreign powers, building his own house before the house of the Lord is complete. The new king is politically savvy, but the text notes this alignment with a certain coolness. We are meant to notice that Solomon has made "affinity" — a covenant of kinship — with a foreign king.',
+            'Solomon&apos;s first political act is a marriage to Pharaoh&apos;s daughter — a strategic alliance with Egypt, the great power of the ancient world. This is practical statecraft. But it immediately signals a tension: Solomon is making his own way, aligning himself with foreign powers, building his own house before the house of the Lord is complete. The new king is politically savvy, but the text notes this alignment with a certain coolness. We are meant to notice that Solomon has made "affinity" — a covenant of kinship — with a foreign king.[res:sefaria-solomon-reign][res:israel-museum-solomonic][res:iaa-solomon-period]',
         },
         {
           kind: 'commentary',

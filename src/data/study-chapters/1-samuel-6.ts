@@ -31,7 +31,7 @@ export const SAMUEL_1_6: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'pagan-memory',
-          html: 'Even Philistine diviners cite the exodus. Pharaoh&apos;s name is a warning across the centuries — a story preserved in the cultural memory of Israel&apos;s neighbors. The pagans know what the covenant people sometimes forget: the God of Israel is not a household idol to be moved at convenience. He brought down an empire over a single act of refusal. Send Him home, the diviners say, before He breaks Philistia the way He broke Egypt.',
+          html: 'Even Philistine diviners cite the exodus. Pharaoh&apos;s name is a warning across the centuries — a story preserved in the cultural memory of Israel&apos;s neighbors. The pagans know what the covenant people sometimes forget: the God of Israel is not a household idol to be moved at convenience. He brought down an empire over a single act of refusal. Send Him home, the diviners say, before He breaks Philistia the way He broke Egypt.[res:sefaria-hannah-prayer][res:bible-odyssey-eli-priests][res:iaa-shiloh-excavation]',
         },
         {
           kind: 'hebrew',
@@ -187,5 +187,31 @@ export const SAMUEL_1_6: RichChapterContent = {
     ref: '1 Samuel 6 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hannah-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hannah&apos;s Prayer',
+      url: 'https://www.sefaria.org/1_Samuel.1',
+      description: 'Complete text and commentary on Hannah&apos;s prayer and Samuel&apos;s birth.',
+    },
+    {
+      id: 'bible-odyssey-eli-priests',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Eli and the Priestly Line',
+      url: 'https://www.bibleodyssey.org/dictionary/eli/',
+      description: 'Overview of Eli&apos;s role as high priest and the corruption of his sons.',
+    },
+    {
+      id: 'iaa-shiloh-excavation',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Shiloh Excavation',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of the Shiloh temple site where Hannah and Eli worshipped.',
+    },
+  ],
   hasHebrew: true,
 };

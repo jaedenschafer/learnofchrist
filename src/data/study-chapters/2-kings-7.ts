@@ -30,6 +30,33 @@ export const KINGS_2_7: RichChapterContent = {
     ref: '2 Kings 7 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-elisha-ministry',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Elisha the Prophet',
+      url: 'https://www.sefaria.org/2_Kings.1',
+      description: 'Elisha&apos;s ministry of miraculous healing and prophecy succeeding Elijah.',
+    },
+    {
+      id: 'bible-odyssey-elisha',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Elisha: Miracles and Ministry',
+      url: 'https://www.bibleodyssey.org/dictionary/elisha/',
+      description: 'Elisha&apos;s role as prophet in Israel&apos;s northern kingdom during the period of decline.',
+    },
+    {
+      id: 'iaa-northern-kingdom',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of Northern Kingdom',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for cities and settlements in the northern kingdom of Israel.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Kings 7:1 — Elisha&apos;s Promise ──────────────────────────────── */
     {
@@ -56,7 +83,7 @@ export const KINGS_2_7: RichChapterContent = {
           kind: 'commentary',
           id: 'promise-word',
           html:
-            'Elisha stands in the presence of the king and speaks with absolute certainty. "Hear ye the word of the Lord." This is not opinion. This is not prediction. This is the word of the Lord himself — a promise that tomorrow the conditions will change entirely. In the gate of Samaria, where now there is death by hunger, there will be food at fixed prices. The prophet speaks as though it is already done.',
+            'Elisha stands in the presence of the king and speaks with absolute certainty. "Hear ye the word of the Lord." This is not opinion. This is not prediction. This is the word of the Lord himself — a promise that tomorrow the conditions will change entirely. In the gate of Samaria, where now there is death by hunger, there will be food at fixed prices. The prophet speaks as though it is already done.[res:sefaria-elisha-ministry][res:bible-odyssey-elisha][res:iaa-northern-kingdom]',
         },
         {
           kind: 'commentary',

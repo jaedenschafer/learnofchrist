@@ -36,6 +36,33 @@ export const KINGS_1_20: RichChapterContent = {
     ref: '1 Kings 20 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-solomon-reign',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Solomon&apos;s Reign and Temple',
+      url: 'https://www.sefaria.org/1_Kings.1',
+      description: 'Solomon&apos;s ascension to the throne and his building of the first temple.',
+    },
+    {
+      id: 'israel-museum-solomonic',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Solomonic Period Artifacts',
+      url: 'https://www.imj.org.il/',
+      description: 'Museum collection of objects from Solomon&apos;s era revealing 10th-century Iron Age culture.',
+    },
+    {
+      id: 'iaa-solomon-period',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of the Solomonic Period',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for urban centers and building projects attributed to Solomon.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Kings 20:1–11 — Ben-hadad's Demands ──────────────────────── */
     {
@@ -58,7 +85,7 @@ export const KINGS_1_20: RichChapterContent = {
           kind: 'commentary',
           id: '1k20-arameans-siege',
           html:
-            'Ben-hadad brings horses and chariots—the ancient equivalent of overwhelming force. Syria surrounds Samaria, and the city is besieged with maximum pressure. The enormity of the threat prepares us for God&apos;s deliverance. Impossible odds reveal where faith must rest.',
+            'Ben-hadad brings horses and chariots—the ancient equivalent of overwhelming force. Syria surrounds Samaria, and the city is besieged with maximum pressure. The enormity of the threat prepares us for God&apos;s deliverance. Impossible odds reveal where faith must rest.[res:sefaria-solomon-reign][res:israel-museum-solomonic][res:iaa-solomon-period]',
         },
         {
           kind: 'scripture',

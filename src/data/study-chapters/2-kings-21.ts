@@ -31,6 +31,33 @@ export const KINGS_2_21: RichChapterContent = {
     ref: '2 Kings 21 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-elisha-ministry',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Elisha the Prophet',
+      url: 'https://www.sefaria.org/2_Kings.1',
+      description: 'Elisha&apos;s ministry of miraculous healing and prophecy succeeding Elijah.',
+    },
+    {
+      id: 'bible-odyssey-elisha',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Elisha: Miracles and Ministry',
+      url: 'https://www.bibleodyssey.org/dictionary/elisha/',
+      description: 'Elisha&apos;s role as prophet in Israel&apos;s northern kingdom during the period of decline.',
+    },
+    {
+      id: 'iaa-northern-kingdom',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of Northern Kingdom',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for cities and settlements in the northern kingdom of Israel.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Kings 21:1–9 — Manasseh's Fifty-Five Years of Evil ──────────── */
     {
@@ -67,7 +94,7 @@ export const KINGS_2_21: RichChapterContent = {
           kind: 'commentary',
           id: '2k21-manasseh-evil',
           html:
-            'Manasseh reigns; he undoes his father&apos;s reforms—evil spreads like a stain across the kingdom.',
+            'Manasseh reigns; he undoes his father&apos;s reforms—evil spreads like a stain across the kingdom.[res:sefaria-elisha-ministry][res:bible-odyssey-elisha][res:iaa-northern-kingdom]',
         },
         {
           kind: 'scripture',

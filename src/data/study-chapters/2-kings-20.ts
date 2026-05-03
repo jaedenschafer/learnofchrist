@@ -32,6 +32,33 @@ export const KINGS_2_20: RichChapterContent = {
     ref: '2 Kings 20 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-elisha-ministry',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Elisha the Prophet',
+      url: 'https://www.sefaria.org/2_Kings.1',
+      description: 'Elisha&apos;s ministry of miraculous healing and prophecy succeeding Elijah.',
+    },
+    {
+      id: 'bible-odyssey-elisha',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Elisha: Miracles and Ministry',
+      url: 'https://www.bibleodyssey.org/dictionary/elisha/',
+      description: 'Elisha&apos;s role as prophet in Israel&apos;s northern kingdom during the period of decline.',
+    },
+    {
+      id: 'iaa-northern-kingdom',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of Northern Kingdom',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for cities and settlements in the northern kingdom of Israel.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Kings 20:1–6 — The Sickness and the Prayer ────────────────────── */
     {
@@ -54,7 +81,7 @@ export const KINGS_2_20: RichChapterContent = {
           kind: 'commentary',
           id: 'death-sentence',
           html:
-            'Death comes through the mouth of the Lord&apos;s prophet. There is no argument, no negotiation offered. Hezekiah must set his house in order. The certainty is absolute. And then — without a single word of protest, without bargaining or denial — Hezekiah turns his face to the wall and prays. This is not prayer as petition wrung from desperation; this is prayer as a man&apos;s turning toward the one who has authority over his life.',
+            'Death comes through the mouth of the Lord&apos;s prophet. There is no argument, no negotiation offered. Hezekiah must set his house in order. The certainty is absolute. And then — without a single word of protest, without bargaining or denial — Hezekiah turns his face to the wall and prays. This is not prayer as petition wrung from desperation; this is prayer as a man&apos;s turning toward the one who has authority over his life.[res:sefaria-elisha-ministry][res:bible-odyssey-elisha][res:iaa-northern-kingdom]',
         },
         {
           kind: 'commentary',

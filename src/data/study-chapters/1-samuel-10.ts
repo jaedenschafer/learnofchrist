@@ -33,6 +33,33 @@ export const SAMUEL_1_10: RichChapterContent = {
     ref: '1 Samuel 10 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hannah-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hannah&apos;s Prayer',
+      url: 'https://www.sefaria.org/1_Samuel.1',
+      description: 'Complete text and commentary on Hannah&apos;s prayer and Samuel&apos;s birth.',
+    },
+    {
+      id: 'bible-odyssey-eli',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Eli and the Priesthood',
+      url: 'https://www.bibleodyssey.org/dictionary/eli/',
+      description: 'Overview of Eli&apos;s role as high priest and the corruption of his sons.',
+    },
+    {
+      id: 'iaa-shiloh',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Shiloh Excavation',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of the Shiloh temple site where Hannah and Eli worshipped.',
+    },
+  ],
+
   sections: [
     /* ─── The Vial of Oil ──────────────────────────────────────────────── */
     {
@@ -68,7 +95,7 @@ export const SAMUEL_1_10: RichChapterContent = {
           kind: 'commentary',
           id: 'c-kissed',
           html:
-            'Samuel does not simply perform a ritual; he <em>kisses</em> Saul. The oil consecrates; the kiss seals affection. Samuel is not reluctant about this king—he is endorsing him, embracing the very man he once grieved over choosing. Whatever Samuel&#39;s private doubts about Israel&#39;s request, his public act is unreserved: this man is the Lord&#39;s anointed.',
+            'Samuel does not simply perform a ritual; he <em>kisses</em> Saul. The oil consecrates; the kiss seals affection. Samuel is not reluctant about this king—he is endorsing him, embracing the very man he once grieved over choosing. Whatever Samuel&#39;s private doubts about Israel&#39;s request, his public act is unreserved: this man is the Lord&#39;s anointed.[res:sefaria-hannah-prayer][res:bible-odyssey-eli][res:iaa-shiloh]',
         },
         {
           kind: 'commentary',

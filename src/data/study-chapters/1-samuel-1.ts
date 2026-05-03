@@ -34,6 +34,33 @@ export const SAMUEL_1_1: RichChapterContent = {
     ref: '1 Samuel 1 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hannah-vow',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hannah&apos;s Prayer and Dedication',
+      url: 'https://www.sefaria.org/1_Samuel.1',
+      description: 'Complete text with rabbinic commentary on Hannah&apos;s vow and Samuel&apos;s birth.',
+    },
+    {
+      id: 'bible-odyssey-eli-priest',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Eli and Shiloh Priesthood',
+      url: 'https://www.bibleodyssey.org/dictionary/eli/',
+      description: 'Historical overview of Eli&apos;s role as judge and high priest during Iron Age I.',
+    },
+    {
+      id: 'iaa-shiloh-temple',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Shiloh Temple Remains',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence of the Shiloh sanctuary visited by Hannah and Elkanah.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Samuel 1:1–8 — Elkanah and His Two Wives ──────────────────── */
     {
@@ -68,7 +95,7 @@ export const SAMUEL_1_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-ramathaim',
           html:
-            'Ramathaim-zophim is in the hill country of Ephraim, in central Palestine. The name means "two hills of the watchers" — a place on a height, a place of watching. Hannah will be remembered here, and generations will watch what God does through her.',
+            'Ramathaim-zophim is in the hill country of Ephraim, in central Palestine. The name means "two hills of the watchers" — a place on a height, a place of watching. Hannah will be remembered here, and generations will watch what God does through her[res:sefaria-hannah-vow][res:bible-odyssey-eli-priest][res:iaa-shiloh-temple].',
         },
         {
           kind: 'commentary',
@@ -244,7 +271,7 @@ export const SAMUEL_1_1: RichChapterContent = {
           kind: 'commentary',
           id: 'hannah-yahweh-tzvaot',
           html:
-            'Hannah addresses God by His new name — Lord of hosts. She, a woman with no power, no army, no position, cries out to the God of armies. She prays to the One who commands the hosts of heaven. And He listens.',
+            'Hannah addresses God by His new name — Lord of hosts. She, a woman with no power, no army, no position, cries out to the God of armies. She prays to the One who commands the hosts of heaven. And He listens.[res:sefaria-hannah-vow][res:bible-odyssey-eli-priest][res:iaa-shiloh-temple]',
         },
         {
           kind: 'commentary',

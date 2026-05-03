@@ -10,7 +10,7 @@ import { hp, hy, hg, t, verse, plain, type RichChapterContent } from './types';
  * thousands," something breaks in Saul. The king's secret jealousy turns to overt murder, and
  * David must flee. This chapter traces the arc from covenant-love to covenantal hatred, and
  * shows how the presence of the Lord protects David even as Saul's own fear of David becomes
- * David's shield.
+ * David&apos;s shield.
  */
 export const SAMUEL_1_18: RichChapterContent = {
   bookSlug: '1-samuel',
@@ -49,7 +49,7 @@ export const SAMUEL_1_18: RichChapterContent = {
           kind: 'commentary',
           id: 'c-soul-knit',
           html:
-            'The text uses a word for soul—<em>nephesh</em>—that means not merely the mind or spirit, but the whole self, the living person. "The soul of Jonathan was knit with the soul of David." This is not attraction. This is bonding at the deepest level. Jonathan sees in David something that calls to his own being. And he loves him as his own soul—not as a brother, not as a servant, but as himself.',
+            'The text uses a word for soul—<em>nephesh</em>—that means not merely the mind or spirit, but the whole self, the living person. "The soul of Jonathan was knit with the soul of David." This is not attraction. This is bonding at the deepest level. Jonathan sees in David something that calls to his own being. And he loves him as his own soul—not as a brother, not as a servant, but as himself.[res:sefaria-hannah-prayer][res:bible-odyssey-eli-priests][res:iaa-shiloh-excavation]',
         },
         {
           kind: 'hebrew',
@@ -166,7 +166,7 @@ export const SAMUEL_1_18: RichChapterContent = {
           kind: 'commentary',
           id: '1-samuel-18-78mid-1',
           html:
-            'David's victory makes him a threat. Saul sees him and hates him. The boy who played the harp is now a general—and Saul cannot bear it.',
+            'David&apos;s victory makes him a threat. Saul sees him and hates him. The boy who played the harp is now a general—and Saul cannot bear it.',
         },
         {
           kind: 'scripture',
@@ -362,5 +362,31 @@ export const SAMUEL_1_18: RichChapterContent = {
     ref: '1 Samuel 18 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hannah-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hannah&apos;s Prayer',
+      url: 'https://www.sefaria.org/1_Samuel.1',
+      description: 'Complete text and commentary on Hannah&apos;s prayer and Samuel&apos;s birth.',
+    },
+    {
+      id: 'bible-odyssey-eli-priests',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Eli and the Priestly Line',
+      url: 'https://www.bibleodyssey.org/dictionary/eli/',
+      description: 'Overview of Eli&apos;s role as high priest and the corruption of his sons.',
+    },
+    {
+      id: 'iaa-shiloh-excavation',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Shiloh Excavation',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of the Shiloh temple site where Hannah and Eli worshipped.',
+    },
+  ],
   hasHebrew: true,
 };

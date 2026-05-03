@@ -37,6 +37,33 @@ export const KINGS_1_4: RichChapterContent = {
     ref: '1 Kings 4 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-solomon-reign',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Solomon&apos;s Reign and Temple',
+      url: 'https://www.sefaria.org/1_Kings.1',
+      description: 'Solomon&apos;s ascension to the throne and his building of the first temple.',
+    },
+    {
+      id: 'israel-museum-solomonic',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Solomonic Period Artifacts',
+      url: 'https://www.imj.org.il/',
+      description: 'Museum collection of objects from Solomon&apos;s era revealing 10th-century Iron Age culture.',
+    },
+    {
+      id: 'iaa-solomon-period',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of the Solomonic Period',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for urban centers and building projects attributed to Solomon.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Kings 4:1–6 — Solomon's Cabinet ────────────────────────────── */
     {
@@ -74,7 +101,7 @@ export const KINGS_1_4: RichChapterContent = {
           kind: 'commentary',
           id: 'cabinet-structure',
           html:
-            'The text opens not with poetry but with bureaucracy. Solomon establishes a court that mirrors the structure of earlier kingdoms — scribes, a recorder, a high priest, a commander of the military. The catalog is precise, almost clinical. These are the men who organize the kingdom. But notice who is listed first: not a general, not a priest in the old sense, but Azariah, son of Zadok — a priest who has already sided with Solomon over his rivals. The priesthood is subordinate to the king&apos;s vision of order. And notice Zabud, "the king&apos;s friend" — a position that exists not in the ceremonial structure but in personal trust. Solomon surrounds himself with those he trusts absolutely.',
+            'The text opens not with poetry but with bureaucracy. Solomon establishes a court that mirrors the structure of earlier kingdoms — scribes, a recorder, a high priest, a commander of the military. The catalog is precise, almost clinical. These are the men who organize the kingdom. But notice who is listed first: not a general, not a priest in the old sense, but Azariah, son of Zadok — a priest who has already sided with Solomon over his rivals. The priesthood is subordinate to the king&apos;s vision of order. And notice Zabud, "the king&apos;s friend" — a position that exists not in the ceremonial structure but in personal trust. Solomon surrounds himself with those he trusts absolutely.[res:sefaria-solomon-reign][res:israel-museum-solomonic][res:iaa-solomon-period]',
         },
         {
           kind: 'commentary',

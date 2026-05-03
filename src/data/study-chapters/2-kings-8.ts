@@ -32,6 +32,33 @@ export const KINGS_2_8: RichChapterContent = {
     ref: '2 Kings 8 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-elisha-ministry',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Elisha the Prophet',
+      url: 'https://www.sefaria.org/2_Kings.1',
+      description: 'Elisha&apos;s ministry of miraculous healing and prophecy succeeding Elijah.',
+    },
+    {
+      id: 'bible-odyssey-elisha',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Elisha: Miracles and Ministry',
+      url: 'https://www.bibleodyssey.org/dictionary/elisha/',
+      description: 'Elisha&apos;s role as prophet in Israel&apos;s northern kingdom during the period of decline.',
+    },
+    {
+      id: 'iaa-northern-kingdom',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of Northern Kingdom',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for cities and settlements in the northern kingdom of Israel.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Kings 8:1–6 — The Shunammite Returns ──────────────────────────── */
     {
@@ -54,7 +81,7 @@ export const KINGS_2_8: RichChapterContent = {
           kind: 'commentary',
           id: 'famine-calling',
           html:
-            'The prophet speaks to the woman with urgent tenderness: "Arise, and go." Not a demand, but a call grounded in compassion. Elisha has known her faithfulness — she and her husband built him a chamber, fed him, honored him. Now he warns her before the judgment falls. The famine is not punishment but a measure God has called for; it will sweep the land for seven years. She must gather her household and flee.',
+            'The prophet speaks to the woman with urgent tenderness: "Arise, and go." Not a demand, but a call grounded in compassion. Elisha has known her faithfulness — she and her husband built him a chamber, fed him, honored him. Now he warns her before the judgment falls. The famine is not punishment but a measure God has called for; it will sweep the land for seven years. She must gather her household and flee.[res:sefaria-elisha-ministry][res:bible-odyssey-elisha][res:iaa-northern-kingdom]',
         },
         {
           kind: 'commentary',

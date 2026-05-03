@@ -35,6 +35,33 @@ export const KINGS_1_15: RichChapterContent = {
     ref: '1 Kings 15 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-solomon-reign',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Solomon&apos;s Reign and Temple',
+      url: 'https://www.sefaria.org/1_Kings.1',
+      description: 'Solomon&apos;s ascension to the throne and his building of the first temple.',
+    },
+    {
+      id: 'israel-museum-solomonic',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Solomonic Period Artifacts',
+      url: 'https://www.imj.org.il/',
+      description: 'Museum collection of objects from Solomon&apos;s era revealing 10th-century Iron Age culture.',
+    },
+    {
+      id: 'iaa-solomon-period',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of the Solomonic Period',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for urban centers and building projects attributed to Solomon.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Kings 15:1–8 — Abijam: The Lamp Preserved Despite Failure ───── */
     {
@@ -71,7 +98,7 @@ export const KINGS_1_15: RichChapterContent = {
           kind: 'commentary',
           id: '1-kings-15-mid-4',
           html:
-            '<p>The reign&apos;s glory peaks, revealing both the height of human achievement and its limits.</p>',
+            '<p>The reign&apos;s glory peaks, revealing both the height of human achievement and its limits.</p>[res:sefaria-solomon-reign][res:israel-museum-solomonic][res:iaa-solomon-period]',
         },
         {
           kind: 'scripture',

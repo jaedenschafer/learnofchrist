@@ -31,6 +31,33 @@ export const KINGS_1_10: RichChapterContent = {
     ref: '1 Kings 10 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'penn-museum-sheba',
+      kind: 'museum',
+      source: 'Penn Museum',
+      label: 'Queen of Sheba in Ancient Sources',
+      url: 'https://www.penn.museum/',
+      description: 'Archaeological and textual evidence for the Queen of Sheba from South Arabian inscriptions.',
+    },
+    {
+      id: 'sefaria-queen-sheba',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Queen of Sheba Visits Solomon',
+      url: 'https://www.sefaria.org/1_Kings.10',
+      description: 'The diplomatic and commercial encounter between Solomon and the Arabian queen.',
+    },
+    {
+      id: 'bible-odyssey-sheba-trade',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Sheba and Ancient Trade Routes',
+      url: 'https://www.bibleodyssey.org/dictionary/sheba/',
+      description: 'Sheba&apos;s position on Arabian trade routes bringing spices and gold to the ancient Near East.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Kings 10:1–3 — The Queen Comes to Test Solomon ────────────────── */
     {
@@ -59,7 +86,7 @@ export const KINGS_1_10: RichChapterContent = {
           kind: 'commentary',
           id: 'sheba-report',
           html:
-            'The Queen of Sheba heard the fame of Solomon "concerning the name of the Lord." This is key: his reputation is not merely that of a rich king or a powerful warrior, but of a man known for his connection to the God of Israel. She comes not to test a tyrant but to encounter wisdom — and her long journey (likely thousands of miles from what is now Arabia or Ethiopia) shows the power of report, the reach of testimony. Word travels. And it travels about wisdom.',
+            'The Queen of Sheba heard the fame of Solomon "concerning the name of the Lord." This is key: his reputation is not merely that of a rich king or a powerful warrior, but of a man known for his connection to the God of Israel. She comes not to test a tyrant but to encounter wisdom — and her long journey (likely thousands of miles from what is now Arabia or Ethiopia) shows the power of report, the reach of testimony. Word travels. And it travels about wisdom[res:penn-museum-sheba][res:sefaria-queen-sheba][res:bible-odyssey-sheba-trade].',
         },
         {
           kind: 'commentary',

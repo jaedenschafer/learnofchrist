@@ -36,6 +36,33 @@ export const KINGS_1_6: RichChapterContent = {
     ref: '1 Kings 6 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'israel-museum-temple-model',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'The First Temple: Scale Model',
+      url: 'https://www.imj.org.il/',
+      description: 'Museum model and archaeological finds illuminating the architecture of Solomon&apos;s temple.',
+    },
+    {
+      id: 'sefaria-temple-construction',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Building the Temple',
+      url: 'https://www.sefaria.org/1_Kings.6',
+      description: 'Detailed description of the temple&apos;s construction, dimensions, and interior decoration.',
+    },
+    {
+      id: 'bible-odyssey-temple',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'The Temple: Israel&apos;s Holy House',
+      url: 'https://www.bibleodyssey.org/dictionary/temple/',
+      description: 'Overview of the temple&apos;s religious and political significance in Israel&apos;s monarchy.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Kings 6:1–10 — The Dimensions and Silent Building ─────────── */
     {
@@ -88,7 +115,7 @@ export const KINGS_1_6: RichChapterContent = {
           kind: 'commentary',
           id: '1k6-building-begins',
           html:
-            'The Lord&apos;s house is commanded; now the building begins—stone and cedar rise where wood once stood.',
+            'The Lord&apos;s house is commanded; now the building begins—stone and cedar rise where wood once stood[res:israel-museum-temple-model][res:sefaria-temple-construction][res:bible-odyssey-temple].',
         },
         {
           kind: 'scripture',

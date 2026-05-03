@@ -29,6 +29,33 @@ export const KINGS_1_7: RichChapterContent = {
     ref: '1 Kings 7 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-solomon-reign',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Solomon&apos;s Reign and Temple',
+      url: 'https://www.sefaria.org/1_Kings.1',
+      description: 'Solomon&apos;s ascension to the throne and his building of the first temple.',
+    },
+    {
+      id: 'israel-museum-solomonic',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Solomonic Period Artifacts',
+      url: 'https://www.imj.org.il/',
+      description: 'Museum collection of objects from Solomon&apos;s era revealing 10th-century Iron Age culture.',
+    },
+    {
+      id: 'iaa-solomon-period',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of the Solomonic Period',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for urban centers and building projects attributed to Solomon.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Kings 7:1–12 — Solomon's Palace ────────────────────────────── */
     {
@@ -51,7 +78,7 @@ export const KINGS_1_7: RichChapterContent = {
           kind: 'commentary',
           id: 'kings-1-7-mid1',
           html:
-            'Solomon&apos;s construction is methodical. First came the cedar structures—the great house with its halls and chambers, the porch where he will rule, the dwelling for Egypt&apos;s daughter, now bound to him by treaty and marriage. Each room named, each purpose clear. Now the narrative pivots from the wooden superstructure to the foundational material: stone. Here lies the hidden work of the palace&apos;s permanence.',
+            'Solomon&apos;s construction is methodical. First came the cedar structures—the great house with its halls and chambers, the porch where he will rule, the dwelling for Egypt&apos;s daughter, now bound to him by treaty and marriage. Each room named, each purpose clear. Now the narrative pivots from the wooden superstructure to the foundational material: stone. Here lies the hidden work of the palace&apos;s permanence.[res:sefaria-solomon-reign][res:israel-museum-solomonic][res:iaa-solomon-period]',
         },
         {
           kind: 'scripture',

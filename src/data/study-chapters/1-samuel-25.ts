@@ -48,7 +48,7 @@ export const SAMUEL_1_25: RichChapterContent = {
           kind: 'commentary',
           id: 'c-samuel-dead',
           html:
-            'Samuel is dead. The great prophet, the man who heard God&apos;s voice and spoke it fearlessly, who had no master but the Lord — he is gone. And with him, a generation passes. David, the young man anointed by Samuel&apos;s own hand, must now live without the prophet&apos;s counsel. The wilderness has claimed another exile — not just David, but the prophetic generation itself.',
+            'Samuel is dead. The great prophet, the man who heard God&apos;s voice and spoke it fearlessly, who had no master but the Lord — he is gone. And with him, a generation passes. David, the young man anointed by Samuel&apos;s own hand, must now live without the prophet&apos;s counsel. The wilderness has claimed another exile — not just David, but the prophetic generation itself.[res:sefaria-hannah-prayer][res:bible-odyssey-eli][res:iaa-shiloh]',
         },
 
         {
@@ -774,4 +774,31 @@ export const SAMUEL_1_25: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Samuel 25 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-hannah-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hannah&apos;s Prayer',
+      url: 'https://www.sefaria.org/1_Samuel.1',
+      description: 'Complete text and commentary on Hannah&apos;s prayer and Samuel&apos;s birth.',
+    },
+    {
+      id: 'bible-odyssey-eli',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Eli and the Priesthood',
+      url: 'https://www.bibleodyssey.org/dictionary/eli/',
+      description: 'Overview of Eli&apos;s role as high priest and the corruption of his sons.',
+    },
+    {
+      id: 'iaa-shiloh',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Shiloh Excavation',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of the Shiloh temple site where Hannah and Eli worshipped.',
+    },
+  ],
 };

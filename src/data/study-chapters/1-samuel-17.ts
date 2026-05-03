@@ -29,6 +29,33 @@ export const SAMUEL_1_17: RichChapterContent = {
     ref: '1 Samuel 17 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'bible-odyssey-goliath',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'David and Goliath',
+      url: 'https://www.bibleodyssey.org/dictionary/goliath/',
+      description: 'The single combat between David and the Philistine giant Goliath.',
+    },
+    {
+      id: 'iaa-qeiyafa',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Khirbet Qeiyafa Fortress',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Possible 10th-century fortress site linked to David&apos;s era and early Judean kingdom.',
+    },
+    {
+      id: 'sefaria-david-shepherd',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'David&apos;s Rise from Shepherd',
+      url: 'https://www.sefaria.org/1_Samuel.16-17',
+      description: 'David&apos;s selection by Samuel and his emergence as Israel&apos;s future leader.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Samuel 17:1–11 — Goliath's Challenge ─────────────────────── */
     {
@@ -57,7 +84,7 @@ export const SAMUEL_1_17: RichChapterContent = {
           kind: 'commentary',
           id: 'c-valley-elah',
           html:
-            'The valley of Elah is a real place — archaeologists have walked it, and it still bears the name. But it is not a place of grand strategy. Two armies face each other, and between them lies an open valley. The battle will be decided here, in this narrow space, and not by thousands but by one man.',
+            'The valley of Elah is a real place — archaeologists have walked it, and it still bears the name. But it is not a place of grand strategy. Two armies face each other, and between them lies an open valley. The battle will be decided here, in this narrow space, and not by thousands but by one man[res:bible-odyssey-goliath][res:iaa-qeiyafa][res:sefaria-david-shepherd].',
         },
 
         {

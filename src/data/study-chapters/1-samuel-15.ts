@@ -36,6 +36,33 @@ export const SAMUEL_1_15: RichChapterContent = {
     ref: '1 Samuel 15 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hannah-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hannah&apos;s Prayer',
+      url: 'https://www.sefaria.org/1_Samuel.1',
+      description: 'Complete text and commentary on Hannah&apos;s prayer and Samuel&apos;s birth.',
+    },
+    {
+      id: 'bible-odyssey-eli',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Eli and the Priesthood',
+      url: 'https://www.bibleodyssey.org/dictionary/eli/',
+      description: 'Overview of Eli&apos;s role as high priest and the corruption of his sons.',
+    },
+    {
+      id: 'iaa-shiloh',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Shiloh Excavation',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of the Shiloh temple site where Hannah and Eli worshipped.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Samuel 15:1–3 — The Command of Utter Destruction ────────────── */
     {
@@ -60,7 +87,7 @@ export const SAMUEL_1_15: RichChapterContent = {
           kind: 'commentary',
           id: 'c-hearken',
           html:
-            'Samuel calls Saul back to first principles. "Hearken unto the voice of the words of the Lord" — not the voice of the people, not the voice of opportunity, but the voice of God. Samuel reminds Saul what made him king in the first place: it was not Saul&apos;s own strength or judgment. It was the anointing of the Lord. And an anointed king owes obedience.',
+            'Samuel calls Saul back to first principles. "Hearken unto the voice of the words of the Lord" — not the voice of the people, not the voice of opportunity, but the voice of God. Samuel reminds Saul what made him king in the first place: it was not Saul&apos;s own strength or judgment. It was the anointing of the Lord. And an anointed king owes obedience.[res:sefaria-hannah-prayer][res:bible-odyssey-eli][res:iaa-shiloh]',
         },
 
         {

@@ -31,6 +31,33 @@ export const KINGS_2_17: RichChapterContent = {
     ref: '2 Kings 17 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-elisha-ministry',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Elisha the Prophet',
+      url: 'https://www.sefaria.org/2_Kings.1',
+      description: 'Elisha&apos;s ministry of miraculous healing and prophecy succeeding Elijah.',
+    },
+    {
+      id: 'bible-odyssey-elisha',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Elisha: Miracles and Ministry',
+      url: 'https://www.bibleodyssey.org/dictionary/elisha/',
+      description: 'Elisha&apos;s role as prophet in Israel&apos;s northern kingdom during the period of decline.',
+    },
+    {
+      id: 'iaa-northern-kingdom',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of Northern Kingdom',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for cities and settlements in the northern kingdom of Israel.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Kings 17:1–4 — Hoshea and Shalmaneser ────────────────────────── */
     {
@@ -51,7 +78,7 @@ export const KINGS_2_17: RichChapterContent = {
           kind: 'commentary',
           id: 'hoshea-evil-lesser',
           html:
-            'Hoshea "did that which was evil in the sight of the Lord: but not as the kings of Israel that were before him." This is a striking phrase. The text does not excuse Hoshea&apos;s evil, but it acknowledges that he was not as profoundly corrupt as those who came before him. Yet even this lesser evil cannot avert judgment. The accumulated weight of the kingdom&apos;s rebellion has reached its limit. God&apos;s patience is not infinite.',
+            'Hoshea "did that which was evil in the sight of the Lord: but not as the kings of Israel that were before him." This is a striking phrase. The text does not excuse Hoshea&apos;s evil, but it acknowledges that he was not as profoundly corrupt as those who came before him. Yet even this lesser evil cannot avert judgment. The accumulated weight of the kingdom&apos;s rebellion has reached its limit. God&apos;s patience is not infinite.[res:sefaria-elisha-ministry][res:bible-odyssey-elisha][res:iaa-northern-kingdom]',
         },
         {
           kind: 'commentary',

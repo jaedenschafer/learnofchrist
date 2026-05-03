@@ -37,6 +37,33 @@ export const SAMUEL_2_21: RichChapterContent = {
     ref: '2 Samuel 21 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-david-king',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'David as King of Israel',
+      url: 'https://www.sefaria.org/2_Samuel.1',
+      description: 'David&apos;s consolidation of power and establishment of monarchy over united Israel.',
+    },
+    {
+      id: 'iaa-city-david',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Continuous excavation revealing David-era structures and urban development in Jerusalem.',
+    },
+    {
+      id: 'bible-odyssey-jerusalem',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Jerusalem Captured',
+      url: 'https://www.bibleodyssey.org/dictionary/jerusalem/',
+      description: 'David&apos;s capture of the Jebusite city and establishment as Israel&apos;s capital.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Samuel 21:1–2 — The Famine and Its Cause ──────────────────── */
     {
@@ -71,7 +98,7 @@ export const SAMUEL_2_21: RichChapterContent = {
           kind: 'commentary',
           id: 's21-famine-cause',
           html:
-            'The famine lasts three years — not a momentary hardship but a sustained plague. David seeks the Lord, and the answer comes: this is not natural drought. This is divine judgment. The calamity has a cause rooted in a previous king&apos;s act. God remembers. God sees. And God enforces the covenant even when the original oath-keeper is long dead.',
+            'The famine lasts three years — not a momentary hardship but a sustained plague. David seeks the Lord, and the answer comes: this is not natural drought. This is divine judgment. The calamity has a cause rooted in a previous king&apos;s act. God remembers. God sees. And God enforces the covenant even when the original oath-keeper is long dead.[res:sefaria-david-king][res:iaa-city-david][res:bible-odyssey-jerusalem]',
         },
         {
           kind: 'commentary',
@@ -171,7 +198,7 @@ export const SAMUEL_2_21: RichChapterContent = {
       ],
     },
 
-    /* ─── 2 Samuel 21:7–14 — Rizpah's Vigil and David's Honor ─────────── */
+    /* ─── 2 Samuel 21:7–14 — Rizpah's Vigil and David&apos;s Honor ─────────── */
     {
       ref: '2 Samuel 21:7–14',
       title: 'Rizpah&apos;s Grief and David&apos;s Reverence',
@@ -212,7 +239,7 @@ export const SAMUEL_2_21: RichChapterContent = {
           kind: 'commentary',
           id: '2-samuel-21-78mid-1',
           html:
-            'The long reign of David moves toward its close. These final verses gather songs, lists, acts of valor, and the aging king's reflection. A reign is not one story—it is many, layered and long.',
+            'The long reign of David moves toward its close. These final verses gather songs, lists, acts of valor, and the aging king&apos;s reflection. A reign is not one story—it is many, layered and long.',
         },
         {
           kind: 'scripture',

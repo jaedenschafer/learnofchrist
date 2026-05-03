@@ -32,6 +32,33 @@ export const KINGS_1_18: RichChapterContent = {
     ref: '1 Kings 18 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'bible-odyssey-carmel-contest',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Elijah on Mount Carmel',
+      url: 'https://www.bibleodyssey.org/dictionary/mount-carmel/',
+      description: 'The dramatic contest between Elijah and Baal&apos;s prophets on Mount Carmel.',
+    },
+    {
+      id: 'sefaria-baal-prophets',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Baal Worship in Israel',
+      url: 'https://www.sefaria.org/1_Kings.18',
+      description: 'The religious and political conflict between Elijah and the prophets of Baal under Ahab.',
+    },
+    {
+      id: 'topostext-carmel-sacred',
+      kind: 'archive',
+      source: 'ToposText',
+      label: 'Mount Carmel in Antiquity',
+      url: 'https://topostext.org/',
+      description: 'Ancient sources describing Mount Carmel as a sacred site in Phoenician and Israelite tradition.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Kings 18:1–16 — The Prophet Emerges; Obadiah&apos;s Hidden Prophets ──── */
     {
@@ -51,7 +78,7 @@ export const KINGS_1_18: RichChapterContent = {
           kind: 'commentary',
           id: '1-kings-18-mid-3',
           html:
-            '<p>As the prophet emerges, God&apos;s word begins to shape the course of nations.</p>',
+            '<p>As the prophet emerges, God&apos;s word begins to shape the course of nations.</p>[res:bible-odyssey-carmel-contest][res:sefaria-baal-prophets][res:topostext-carmel-sacred]',
         },
         {
           kind: 'scripture',

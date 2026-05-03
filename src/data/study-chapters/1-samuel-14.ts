@@ -37,6 +37,33 @@ export const SAMUEL_1_14: RichChapterContent = {
     ref: '1 Samuel 14 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hannah-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hannah&apos;s Prayer',
+      url: 'https://www.sefaria.org/1_Samuel.1',
+      description: 'Complete text and commentary on Hannah&apos;s prayer and Samuel&apos;s birth.',
+    },
+    {
+      id: 'bible-odyssey-eli',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Eli and the Priesthood',
+      url: 'https://www.bibleodyssey.org/dictionary/eli/',
+      description: 'Overview of Eli&apos;s role as high priest and the corruption of his sons.',
+    },
+    {
+      id: 'iaa-shiloh',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Shiloh Excavation',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of the Shiloh temple site where Hannah and Eli worshipped.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Samuel 14:1–14 — Jonathan's Faith and the Armorbearer ───── */
     {
@@ -63,7 +90,7 @@ export const SAMUEL_1_14: RichChapterContent = {
           kind: 'commentary',
           id: 'c-jonathan',
           html:
-            'Jonathan is Saul&apos;s son, a prince of Israel, yet he goes to war without telling his father. Not in rebellion, but in a kind of freedom — the freedom of a young man who has learned to trust God more than he fears his earthly king. He moves without permission because he is answering to a higher command.',
+            'Jonathan is Saul&apos;s son, a prince of Israel, yet he goes to war without telling his father. Not in rebellion, but in a kind of freedom — the freedom of a young man who has learned to trust God more than he fears his earthly king. He moves without permission because he is answering to a higher command.[res:sefaria-hannah-prayer][res:bible-odyssey-eli][res:iaa-shiloh]',
         },
         {
           kind: 'commentary',

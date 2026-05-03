@@ -33,6 +33,33 @@ export const SAMUEL_1_5: RichChapterContent = {
     ref: '1 Samuel 5 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hannah-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hannah&apos;s Prayer',
+      url: 'https://www.sefaria.org/1_Samuel.1',
+      description: 'Complete text and commentary on Hannah&apos;s prayer and Samuel&apos;s birth.',
+    },
+    {
+      id: 'bible-odyssey-eli',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Eli and the Priesthood',
+      url: 'https://www.bibleodyssey.org/dictionary/eli/',
+      description: 'Overview of Eli&apos;s role as high priest and the corruption of his sons.',
+    },
+    {
+      id: 'iaa-shiloh',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Shiloh Excavation',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of the Shiloh temple site where Hannah and Eli worshipped.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Samuel 5:1–3 — Dagon Falls ───────────────────────────────── */
     {
@@ -77,7 +104,7 @@ export const SAMUEL_1_5: RichChapterContent = {
           kind: 'commentary',
           id: 'c-dagon-falls',
           html:
-            'The image is unmistakable: Dagon has bowed before the ark. The Ashdodites fetch him and prop him back up, as if their hands could restore what their god could not keep upright. But the gesture is futile. A god that falls is no god at all.',
+            'The image is unmistakable: Dagon has bowed before the ark. The Ashdodites fetch him and prop him back up, as if their hands could restore what their god could not keep upright. But the gesture is futile. A god that falls is no god at all.[res:sefaria-hannah-prayer][res:bible-odyssey-eli][res:iaa-shiloh]',
         },
         {
           kind: 'carry',

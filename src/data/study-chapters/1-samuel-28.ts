@@ -34,6 +34,33 @@ export const SAMUEL_1_28: RichChapterContent = {
     ref: '1 Samuel 28 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hannah-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hannah&apos;s Prayer',
+      url: 'https://www.sefaria.org/1_Samuel.1',
+      description: 'Complete text and commentary on Hannah&apos;s prayer and Samuel&apos;s birth.',
+    },
+    {
+      id: 'bible-odyssey-eli',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Eli and the Priesthood',
+      url: 'https://www.bibleodyssey.org/dictionary/eli/',
+      description: 'Overview of Eli&apos;s role as high priest and the corruption of his sons.',
+    },
+    {
+      id: 'iaa-shiloh',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Shiloh Excavation',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of the Shiloh temple site where Hannah and Eli worshipped.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Samuel 28:1–7 — The God Who Will Not Answer ──────────────────── */
     {
@@ -79,7 +106,7 @@ export const SAMUEL_1_28: RichChapterContent = {
           kind: 'commentary',
           id: 'c-fear',
           html:
-            'Saul looks at the Philistine army and is overwhelmed by fear. This is not the courage of a king. This is terror. His heart "greatly trembled" — the Hebrew is <em>yigel</em>, to tremble or quake. It is the fear of a man who knows he is about to lose.',
+            'Saul looks at the Philistine army and is overwhelmed by fear. This is not the courage of a king. This is terror. His heart "greatly trembled" — the Hebrew is <em>yigel</em>, to tremble or quake. It is the fear of a man who knows he is about to lose.[res:sefaria-hannah-prayer][res:bible-odyssey-eli][res:iaa-shiloh]',
         },
 
         {

@@ -33,6 +33,33 @@ export const KINGS_2_12: RichChapterContent = {
     ref: '2 Kings 12 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-elisha-ministry',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Elisha the Prophet',
+      url: 'https://www.sefaria.org/2_Kings.1',
+      description: 'Elisha&apos;s ministry of miraculous healing and prophecy succeeding Elijah.',
+    },
+    {
+      id: 'bible-odyssey-elisha',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Elisha: Miracles and Ministry',
+      url: 'https://www.bibleodyssey.org/dictionary/elisha/',
+      description: 'Elisha&apos;s role as prophet in Israel&apos;s northern kingdom during the period of decline.',
+    },
+    {
+      id: 'iaa-northern-kingdom',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of Northern Kingdom',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for cities and settlements in the northern kingdom of Israel.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Kings 12:1–3 — The Young King, Counseled by Jehoiada ────────── */
     {
@@ -52,7 +79,7 @@ export const KINGS_2_12: RichChapterContent = {
           kind: 'commentary',
           id: 'joash-young-reign',
           html:
-            'Joash reigns for forty years — a long reign, the span of a generation. Yet this is not a kingdom without problems. The high places remain. The people continue their unauthorized worship. The implicit message is clear: Joash&apos;s righteousness is real, but it is circumscribed. It is the righteousness of a king counseled by a priest, not the righteousness of a kingdom fully turned toward God.',
+            'Joash reigns for forty years — a long reign, the span of a generation. Yet this is not a kingdom without problems. The high places remain. The people continue their unauthorized worship. The implicit message is clear: Joash&apos;s righteousness is real, but it is circumscribed. It is the righteousness of a king counseled by a priest, not the righteousness of a kingdom fully turned toward God.[res:sefaria-elisha-ministry][res:bible-odyssey-elisha][res:iaa-northern-kingdom]',
         },
         {
           kind: 'commentary',

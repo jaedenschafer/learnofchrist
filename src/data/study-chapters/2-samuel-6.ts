@@ -36,6 +36,33 @@ export const SAMUEL_2_6: RichChapterContent = {
     ref: '2 Samuel 6 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-david-king',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'David as King of Israel',
+      url: 'https://www.sefaria.org/2_Samuel.1',
+      description: 'David&apos;s consolidation of power and establishment of monarchy over united Israel.',
+    },
+    {
+      id: 'iaa-city-david',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Continuous excavation revealing David-era structures and urban development in Jerusalem.',
+    },
+    {
+      id: 'bible-odyssey-jerusalem',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Jerusalem Captured',
+      url: 'https://www.bibleodyssey.org/dictionary/jerusalem/',
+      description: 'David&apos;s capture of the Jebusite city and establishment as Israel&apos;s capital.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Samuel 6:1–7 — The Ark on a New Cart ─────────────────────── */
     {
@@ -68,7 +95,7 @@ export const SAMUEL_2_6: RichChapterContent = {
           kind: 'commentary',
           id: 'c-baale',
           html:
-            'Baale of Judah is another name for Kirjath-jearim, the city where the ark has rested since the days of Samuel. David brings thirty thousand men — an army of worship, a show of strength and honor. The ark has been away from the center of Israel&apos;s religious life for decades. Now David is bringing it home.',
+            'Baale of Judah is another name for Kirjath-jearim, the city where the ark has rested since the days of Samuel. David brings thirty thousand men — an army of worship, a show of strength and honor. The ark has been away from the center of Israel&apos;s religious life for decades. Now David is bringing it home.[res:sefaria-david-king][res:iaa-city-david][res:bible-odyssey-jerusalem]',
         },
         {
           kind: 'commentary',

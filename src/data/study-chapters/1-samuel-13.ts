@@ -43,6 +43,33 @@ export const SAMUEL_1_13: RichChapterContent = {
     ref: '1 Samuel 13 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hannah-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hannah&apos;s Prayer',
+      url: 'https://www.sefaria.org/1_Samuel.1',
+      description: 'Complete text and commentary on Hannah&apos;s prayer and Samuel&apos;s birth.',
+    },
+    {
+      id: 'bible-odyssey-eli',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Eli and the Priesthood',
+      url: 'https://www.bibleodyssey.org/dictionary/eli/',
+      description: 'Overview of Eli&apos;s role as high priest and the corruption of his sons.',
+    },
+    {
+      id: 'iaa-shiloh',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Shiloh Excavation',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of the Shiloh temple site where Hannah and Eli worshipped.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Samuel 13:1–2 — Saul's Reign Established ────────────────────────────── */
     {
@@ -70,7 +97,7 @@ export const SAMUEL_1_13: RichChapterContent = {
           kind: 'commentary',
           id: 'saul-army',
           html:
-            'Three thousand men is not a large standing army by the standards of the ancient Near East, but it is Israel&apos;s first conscription under a king. Saul is beginning to establish the infrastructure of monarchy—a military, a center of power, the machinery of rule.',
+            'Three thousand men is not a large standing army by the standards of the ancient Near East, but it is Israel&apos;s first conscription under a king. Saul is beginning to establish the infrastructure of monarchy—a military, a center of power, the machinery of rule.[res:sefaria-hannah-prayer][res:bible-odyssey-eli][res:iaa-shiloh]',
         },
         {
           kind: 'commentary',

@@ -32,6 +32,33 @@ export const SAMUEL_1_8: RichChapterContent = {
     ref: '1 Samuel 8 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hannah-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hannah&apos;s Prayer',
+      url: 'https://www.sefaria.org/1_Samuel.1',
+      description: 'Complete text and commentary on Hannah&apos;s prayer and Samuel&apos;s birth.',
+    },
+    {
+      id: 'bible-odyssey-eli',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Eli and the Priesthood',
+      url: 'https://www.bibleodyssey.org/dictionary/eli/',
+      description: 'Overview of Eli&apos;s role as high priest and the corruption of his sons.',
+    },
+    {
+      id: 'iaa-shiloh',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Shiloh Excavation',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of the Shiloh temple site where Hannah and Eli worshipped.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Samuel 8:1–5 — Samuel's Sons Fail ───────────────────────────── */
     {
@@ -56,7 +83,7 @@ export const SAMUEL_1_8: RichChapterContent = {
           kind: 'commentary',
           id: 'c-sons',
           html:
-            'Samuel is the great judge of Israel. His name is synonymous with faithful leadership. And yet when he is old and seeks to pass his authority to his sons, the narrative takes a turn that readers of Scripture will recognize: the same turn Abraham knew with Ishmael, Isaac with Jacob and Esau, David with his older sons. Great men often fail as fathers.',
+            'Samuel is the great judge of Israel. His name is synonymous with faithful leadership. And yet when he is old and seeks to pass his authority to his sons, the narrative takes a turn that readers of Scripture will recognize: the same turn Abraham knew with Ishmael, Isaac with Jacob and Esau, David with his older sons. Great men often fail as fathers.[res:sefaria-hannah-prayer][res:bible-odyssey-eli][res:iaa-shiloh]',
         },
 
         {

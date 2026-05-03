@@ -34,6 +34,33 @@ export const SAMUEL_2_24: RichChapterContent = {
     ref: '2 Samuel 24 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-david-king',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'David as King of Israel',
+      url: 'https://www.sefaria.org/2_Samuel.1',
+      description: 'David&apos;s consolidation of power and establishment of monarchy over united Israel.',
+    },
+    {
+      id: 'iaa-city-david',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Continuous excavation revealing David-era structures and urban development in Jerusalem.',
+    },
+    {
+      id: 'bible-odyssey-jerusalem',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Jerusalem Captured',
+      url: 'https://www.bibleodyssey.org/dictionary/jerusalem/',
+      description: 'David&apos;s capture of the Jebusite city and establishment as Israel&apos;s capital.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Samuel 24:1–9 — The Proud Census ───────────────────────────── */
     {
@@ -67,7 +94,7 @@ export const SAMUEL_2_24: RichChapterContent = {
           kind: 'commentary',
           id: 's24-moved-against',
           html:
-            'The opening is charged with mystery. "The anger of the Lord was kindled against Israel." The cause is not yet named. And then: "he moved David against them to say, Go, number Israel and Judah." God&apos;s anger is kindled, and David is moved to act. First Chronicles 21:1 offers a parallel account: "Satan provoked David to number Israel." Both accounts are true — the text holds both: God permits, Satan incites, and David chooses. The census is the occasion for divine displeasure to manifest, but the deeper issue is what the census itself represents.',
+            'The opening is charged with mystery. "The anger of the Lord was kindled against Israel." The cause is not yet named. And then: "he moved David against them to say, Go, number Israel and Judah." God&apos;s anger is kindled, and David is moved to act. First Chronicles 21:1 offers a parallel account: "Satan provoked David to number Israel." Both accounts are true — the text holds both: God permits, Satan incites, and David chooses. The census is the occasion for divine displeasure to manifest, but the deeper issue is what the census itself represents.[res:sefaria-david-king][res:iaa-city-david][res:bible-odyssey-jerusalem]',
         },
         {
           kind: 'commentary',

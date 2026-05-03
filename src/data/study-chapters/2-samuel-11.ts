@@ -40,6 +40,33 @@ export const SAMUEL_2_11: RichChapterContent = {
     ref: '2 Samuel 11 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-bathsheba-uriah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'David and Bathsheba',
+      url: 'https://www.sefaria.org/2_Samuel.11',
+      description: 'The narrative of David&apos;s sin—his adultery with Bathsheba and murder of Uriah.',
+    },
+    {
+      id: 'bible-odyssey-bathsheba',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Bathsheba&apos;s Story',
+      url: 'https://www.bibleodyssey.org/dictionary/bathsheba/',
+      description: 'Bathsheba&apos;s role in Israel&apos;s royal succession and the lineage to Solomon and Jesus.',
+    },
+    {
+      id: 'intertextual-psalm51',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'David&apos;s Repentance (Psalm 51)',
+      url: 'https://intertextual.bible/text/psalm-51',
+      description: 'The psalm of repentance traditionally attributed to David after the Bathsheba incident.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Samuel 11:1 — When Kings Go to Battle, David Tarried ─────────── */
     {
@@ -66,7 +93,7 @@ export const SAMUEL_2_11: RichChapterContent = {
           kind: 'commentary',
           id: 's11-kings-battle',
           html:
-            'The refrain is clear: "at the time when kings go forth to battle." This is the hour for a king to lead. The Ammonites are under siege at Rabbah. The armies of Israel are in the field, under Joab&apos;s command. This is the moment David&apos;s presence is most needed.',
+            'The refrain is clear: "at the time when kings go forth to battle." This is the hour for a king to lead. The Ammonites are under siege at Rabbah. The armies of Israel are in the field, under Joab&apos;s command. This is the moment David&apos;s presence is most needed[res:sefaria-bathsheba-uriah][res:bible-odyssey-bathsheba][res:intertextual-psalm51].',
         },
         {
           kind: 'commentary',

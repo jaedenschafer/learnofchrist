@@ -37,6 +37,33 @@ export const SAMUEL_1_21: RichChapterContent = {
     ref: '1 Samuel 21 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hannah-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hannah&apos;s Prayer',
+      url: 'https://www.sefaria.org/1_Samuel.1',
+      description: 'Complete text and commentary on Hannah&apos;s prayer and Samuel&apos;s birth.',
+    },
+    {
+      id: 'bible-odyssey-eli',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Eli and the Priesthood',
+      url: 'https://www.bibleodyssey.org/dictionary/eli/',
+      description: 'Overview of Eli&apos;s role as high priest and the corruption of his sons.',
+    },
+    {
+      id: 'iaa-shiloh',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Shiloh Excavation',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of the Shiloh temple site where Hannah and Eli worshipped.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Samuel 21:1–6 — David at Nob: Bread and Deception ───────────── */
     {
@@ -63,7 +90,7 @@ export const SAMUEL_1_21: RichChapterContent = {
           kind: 'commentary',
           id: 'c-nob',
           html:
-            'Nob is a city of priests, a sanctuary town where the tabernacle has been moved. It is holy ground, a place where the ordinances of God are kept. David comes to this place not as a worshipper in peace, but as a fugitive in flight.',
+            'Nob is a city of priests, a sanctuary town where the tabernacle has been moved. It is holy ground, a place where the ordinances of God are kept. David comes to this place not as a worshipper in peace, but as a fugitive in flight.[res:sefaria-hannah-prayer][res:bible-odyssey-eli][res:iaa-shiloh]',
         },
         {
           kind: 'commentary',

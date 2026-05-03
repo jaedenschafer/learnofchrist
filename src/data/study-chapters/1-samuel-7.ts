@@ -33,6 +33,33 @@ export const SAMUEL_1_7: RichChapterContent = {
     ref: '1 Samuel 7 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hannah-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hannah&apos;s Prayer',
+      url: 'https://www.sefaria.org/1_Samuel.1',
+      description: 'Complete text and commentary on Hannah&apos;s prayer and Samuel&apos;s birth.',
+    },
+    {
+      id: 'bible-odyssey-eli',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Eli and the Priesthood',
+      url: 'https://www.bibleodyssey.org/dictionary/eli/',
+      description: 'Overview of Eli&apos;s role as high priest and the corruption of his sons.',
+    },
+    {
+      id: 'iaa-shiloh',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Shiloh Excavation',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of the Shiloh temple site where Hannah and Eli worshipped.',
+    },
+  ],
+
   sections: [
     /* ─── Twenty Years of Lament and Samuel&apos;s Call ──────────────────────── */
     {
@@ -57,7 +84,7 @@ export const SAMUEL_1_7: RichChapterContent = {
           kind: 'commentary',
           id: 'c-ark-comes',
           html:
-            'The ark—the seat of God&apos;s presence—has been captured by the Philistines and sent back to Israel, but it cannot return to the Tabernacle yet. It rests in a private home. The people are not yet ready. Eleazar is sanctified to keep it, but the ark cannot move forward into public worship until Israel itself has repented.',
+            'The ark—the seat of God&apos;s presence—has been captured by the Philistines and sent back to Israel, but it cannot return to the Tabernacle yet. It rests in a private home. The people are not yet ready. Eleazar is sanctified to keep it, but the ark cannot move forward into public worship until Israel itself has repented.[res:sefaria-hannah-prayer][res:bible-odyssey-eli][res:iaa-shiloh]',
         },
         {
           kind: 'scripture',

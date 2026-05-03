@@ -31,6 +31,33 @@ export const KINGS_2_1: RichChapterContent = {
     ref: '2 Kings 1 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-elisha-ministry',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Elisha the Prophet',
+      url: 'https://www.sefaria.org/2_Kings.1',
+      description: 'Elisha&apos;s ministry of miraculous healing and prophecy succeeding Elijah.',
+    },
+    {
+      id: 'bible-odyssey-elisha',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Elisha: Miracles and Ministry',
+      url: 'https://www.bibleodyssey.org/dictionary/elisha/',
+      description: 'Elisha&apos;s role as prophet in Israel&apos;s northern kingdom during the period of decline.',
+    },
+    {
+      id: 'iaa-northern-kingdom',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of Northern Kingdom',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for cities and settlements in the northern kingdom of Israel.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Kings 1:1–4 — Ahaziah Falls & Seeks False Gods ────────────── */
     {
@@ -51,7 +78,7 @@ export const KINGS_2_1: RichChapterContent = {
           kind: 'commentary',
           id: 'ahaziah-fall',
           html:
-            'Ahaziah\'s injury is not random. He falls through a lattice in his own house — a sign that his power, his position, his very roof cannot protect him. The moment he is vulnerable, his first instinct reveals his heart: he seeks counsel from a foreign god rather than from the Lord. He has inherited a kingdom; he has not inherited his father\'s grip on power, nor his willingness to turn to Israel\'s God.',
+            'Ahaziah\[res:sefaria-elisha-ministry]'s injury is not random. He falls through a lattice in his own house — a sign that his power, his position, his very roof cannot protect him. The moment he is vulnerable, his first instinct reveals his heart: he seeks counsel from a foreign god rather than from the Lord. He has inherited a kingdom; he has not inherited his father\'s grip on power, nor his willingness to turn to Israel\'s God.',
         },
         {
           kind: 'hebrew',
@@ -100,7 +127,7 @@ export const KINGS_2_1: RichChapterContent = {
           kind: 'commentary',
           id: 'elijah-intercept',
           html:
-            'The messengers are stopped before they can reach Ekron. They are turned back by a man who speaks for the Lord — and the message is not a suggestion but a sentence: Ahaziah will not recover. There is no appeal, no negotiation. The Lord has spoken. The word will not return empty.',
+            'The messengers are stopped before they can reach Ekron. They are turned back by a man who speaks for the Lord — and the message is not a suggestion but a sentence: Ahaziah will not recover. There is no appeal, no negotiation. The Lord has spoken. The word will not return empty[res:sefaria-elisha-ministry][res:bible-odyssey-elisha][res:iaa-northern-kingdom].',
         },
         {
           kind: 'commentary',

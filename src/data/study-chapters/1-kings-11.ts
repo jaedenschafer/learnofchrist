@@ -34,6 +34,33 @@ export const KINGS_1_11: RichChapterContent = {
     ref: '1 Kings 11 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-solomon-reign',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Solomon&apos;s Reign and Temple',
+      url: 'https://www.sefaria.org/1_Kings.1',
+      description: 'Solomon&apos;s ascension to the throne and his building of the first temple.',
+    },
+    {
+      id: 'israel-museum-solomonic',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Solomonic Period Artifacts',
+      url: 'https://www.imj.org.il/',
+      description: 'Museum collection of objects from Solomon&apos;s era revealing 10th-century Iron Age culture.',
+    },
+    {
+      id: 'iaa-solomon-period',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of the Solomonic Period',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for urban centers and building projects attributed to Solomon.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Kings 11:1–3 — The Strange Wives ───────────────────────────── */
     {
@@ -74,7 +101,7 @@ export const KINGS_1_11: RichChapterContent = {
           kind: 'commentary',
           id: '11-strange-wives',
           html:
-            'The opening word says everything: "But." After all the splendor, all the wisdom, all the building and blessing, we encounter a reversal. Solomon loved women from the very nations God had forbidden. These were not merely political alliances — the text emphasizes "loved," a word that speaks to the heart&apos;s deepest attachment. And the women he chose came from pagan nations whose gods were utterly opposed to the God of Israel.',
+            'The opening word says everything: "But." After all the splendor, all the wisdom, all the building and blessing, we encounter a reversal. Solomon loved women from the very nations God had forbidden. These were not merely political alliances — the text emphasizes "loved," a word that speaks to the heart&apos;s deepest attachment. And the women he chose came from pagan nations whose gods were utterly opposed to the God of Israel.[res:sefaria-solomon-reign][res:israel-museum-solomonic][res:iaa-solomon-period]',
         },
         {
           kind: 'commentary',

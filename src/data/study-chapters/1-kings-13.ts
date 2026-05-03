@@ -33,6 +33,33 @@ export const KINGS_1_13: RichChapterContent = {
     ref: '1 Kings 13 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-solomon-reign',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Solomon&apos;s Reign and Temple',
+      url: 'https://www.sefaria.org/1_Kings.1',
+      description: 'Solomon&apos;s ascension to the throne and his building of the first temple.',
+    },
+    {
+      id: 'israel-museum-solomonic',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Solomonic Period Artifacts',
+      url: 'https://www.imj.org.il/',
+      description: 'Museum collection of objects from Solomon&apos;s era revealing 10th-century Iron Age culture.',
+    },
+    {
+      id: 'iaa-solomon-period',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of the Solomonic Period',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for urban centers and building projects attributed to Solomon.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Kings 13:1–5 — The Prophecy Against the Altar ──────────────── */
     {
@@ -75,7 +102,7 @@ export const KINGS_1_13: RichChapterContent = {
           kind: 'commentary',
           id: 'man-of-god-entrance',
           html:
-            'The man of God arrives at Bethel without warning, without introduction, without credentials—only with the word of the Lord. He is not a priest. He is not a recognized prophet of Israel. He has no status, no position, no claim to authority except this: "Thus saith the Lord." In a culture where authority flows from lineage and office, this is revolutionary and dangerous.',
+            'The man of God arrives at Bethel without warning, without introduction, without credentials—only with the word of the Lord. He is not a priest. He is not a recognized prophet of Israel. He has no status, no position, no claim to authority except this: "Thus saith the Lord." In a culture where authority flows from lineage and office, this is revolutionary and dangerous.[res:sefaria-solomon-reign][res:israel-museum-solomonic][res:iaa-solomon-period]',
         },
         {
           kind: 'commentary',

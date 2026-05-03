@@ -65,7 +65,7 @@ export const KINGS_2_19: RichChapterContent = {
           kind: 'commentary',
           id: 'hz-rent-clothes',
           html:
-            'Hezekiah&apos;s first response is not political calculation. It is grief and repentance. He tears his clothes and covers himself with sackcloth — the ancient signs of mourning and supplication. Then, crucially, he goes to the house of the Lord. His crisis drives him not to the war room, but to the temple. His quarrel is not ultimately with Assyria; it is with God.',
+            'Hezekiah&apos;s first response is not political calculation. It is grief and repentance. He tears his clothes and covers himself with sackcloth — the ancient signs of mourning and supplication. Then, crucially, he goes to the house of the Lord. His crisis drives him not to the war room, but to the temple. His quarrel is not ultimately with Assyria; it is with God[res:brit-museum-sennacherib-siege][res:sefaria-isaiah-hezekiah][res:iaa-siloam-tunnel].',
         },
         {
           kind: 'commentary',
@@ -423,4 +423,31 @@ export const KINGS_2_19: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Kings 19 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'brit-museum-sennacherib-siege',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Sennacherib&apos;s Invasion Accounts',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Cuneiform records of Assyria&apos;s siege of Jerusalem and its miraculous deliverance.',
+    },
+    {
+      id: 'sefaria-isaiah-hezekiah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah and Hezekiah',
+      url: 'https://www.sefaria.org/2_Kings.19',
+      description: 'Isaiah&apos;s prophecy of deliverance during Sennacherib&apos;s siege of Jerusalem.',
+    },
+    {
+      id: 'iaa-siloam-tunnel',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Hezekiah&apos;s Tunnel and Siloam Inscription',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Hezekiah&apos;s water engineering project bringing water into Jerusalem with Siloam inscription.',
+    },
+  ],
 };

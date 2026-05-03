@@ -31,6 +31,33 @@ export const KINGS_2_16: RichChapterContent = {
     ref: '2 Kings 16 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-elisha-ministry',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Elisha the Prophet',
+      url: 'https://www.sefaria.org/2_Kings.1',
+      description: 'Elisha&apos;s ministry of miraculous healing and prophecy succeeding Elijah.',
+    },
+    {
+      id: 'bible-odyssey-elisha',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Elisha: Miracles and Ministry',
+      url: 'https://www.bibleodyssey.org/dictionary/elisha/',
+      description: 'Elisha&apos;s role as prophet in Israel&apos;s northern kingdom during the period of decline.',
+    },
+    {
+      id: 'iaa-northern-kingdom',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of Northern Kingdom',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for cities and settlements in the northern kingdom of Israel.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Kings 16:1–4 — The Reign of Ahaz ───────────────────────── */
     {
@@ -65,7 +92,7 @@ export const KINGS_2_16: RichChapterContent = {
           kind: 'commentary',
           id: 'ahaz-reign',
           html:
-            'Ahaz reigns for sixteen years in Jerusalem — a long reign marked from the beginning by one word: evil. "He did not that which was right in the sight of the Lord his God." This is not a king struggling with weakness or temptation. This is a king who chooses a different path, who abandons the covenant his ancestor David made, who does not seek the Lord.',
+            'Ahaz reigns for sixteen years in Jerusalem — a long reign marked from the beginning by one word: evil. "He did not that which was right in the sight of the Lord his God." This is not a king struggling with weakness or temptation. This is a king who chooses a different path, who abandons the covenant his ancestor David made, who does not seek the Lord.[res:sefaria-elisha-ministry][res:bible-odyssey-elisha][res:iaa-northern-kingdom]',
         },
         {
           kind: 'hebrew',

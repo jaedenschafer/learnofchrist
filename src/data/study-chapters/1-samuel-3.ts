@@ -29,6 +29,33 @@ export const SAMUEL_1_3: RichChapterContent = {
     ref: '1 Samuel 3 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hannah-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hannah&apos;s Prayer',
+      url: 'https://www.sefaria.org/1_Samuel.1',
+      description: 'Complete text and commentary on Hannah&apos;s prayer and Samuel&apos;s birth.',
+    },
+    {
+      id: 'bible-odyssey-eli',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Eli and the Priesthood',
+      url: 'https://www.bibleodyssey.org/dictionary/eli/',
+      description: 'Overview of Eli&apos;s role as high priest and the corruption of his sons.',
+    },
+    {
+      id: 'iaa-shiloh',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Shiloh Excavation',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of the Shiloh temple site where Hannah and Eli worshipped.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Samuel 3:1–3 — The Rare Word ────────────────────────────────── */
     {
@@ -64,7 +91,7 @@ export const SAMUEL_1_3: RichChapterContent = {
           kind: 'commentary',
           id: 'c-no-vision',
           html:
-            'Israel is in spiritual famine. The last judge was Samson — reckless and morally broken. The priesthood under Eli is corrupt; his own sons &ldquo;knew not the Lord&rdquo; (1 Sam. 2:12). Into this darkness, a child is learning to serve God. The very rarity of the word makes the moment precious.',
+            'Israel is in spiritual famine. The last judge was Samson — reckless and morally broken. The priesthood under Eli is corrupt; his own sons &ldquo;knew not the Lord&rdquo; (1 Sam. 2:12). Into this darkness, a child is learning to serve God. The very rarity of the word makes the moment precious.[res:sefaria-hannah-prayer][res:bible-odyssey-eli][res:iaa-shiloh]',
         },
         {
           kind: 'scripture',

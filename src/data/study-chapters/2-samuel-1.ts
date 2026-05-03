@@ -29,6 +29,33 @@ export const SAMUEL_2_1: RichChapterContent = {
     ref: '2 Samuel 1 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-david-king',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'David as King of Israel',
+      url: 'https://www.sefaria.org/2_Samuel.1',
+      description: 'David&apos;s consolidation of power and establishment of monarchy over united Israel.',
+    },
+    {
+      id: 'iaa-city-david',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Continuous excavation revealing David-era structures and urban development in Jerusalem.',
+    },
+    {
+      id: 'bible-odyssey-jerusalem',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Jerusalem Captured',
+      url: 'https://www.bibleodyssey.org/dictionary/jerusalem/',
+      description: 'David&apos;s capture of the Jebusite city and establishment as Israel&apos;s capital.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Samuel 1:1–3 — The Messenger Arrives ──────────────────────── */
     {
@@ -48,7 +75,7 @@ export const SAMUEL_2_1: RichChapterContent = {
           kind: 'commentary',
           id: 'returned-amalekites',
           html:
-            'David has just returned from raiding the Amalekites — a campaign against the very people he will soon encounter through this messenger. The text opens with layers of irony: David is resting in Ziklag, a city in Philistine territory where he has been seeking refuge from Saul. He has escaped the pursuit of a king. Now the news comes that the king himself is gone.',
+            'David has just returned from raiding the Amalekites — a campaign against the very people he will soon encounter through this messenger. The text opens with layers of irony: David is resting in Ziklag, a city in Philistine territory where he has been seeking refuge from Saul. He has escaped the pursuit of a king. Now the news comes that the king himself is gone.[res:sefaria-david-king][res:iaa-city-david][res:bible-odyssey-jerusalem]',
         },
         {
           kind: 'commentary',
@@ -99,7 +126,7 @@ export const SAMUEL_2_1: RichChapterContent = {
           kind: 'commentary',
           id: '2-samuel-1-78mid-1',
           html:
-            'David's lament for Saul ends, and his own anointing begins. Grief and kingship sit in the same chapter—David will not skip either one.',
+            'David&apos;s lament for Saul ends, and his own anointing begins. Grief and kingship sit in the same chapter—David will not skip either one.',
         },
         {
           kind: 'scripture',
@@ -167,7 +194,7 @@ export const SAMUEL_2_1: RichChapterContent = {
       ],
     },
 
-    /* ─── 2 Samuel 1:11–16 — David's Grief and Judgment ────────────────── */
+    /* ─── 2 Samuel 1:11–16 — David&apos;s Grief and Judgment ────────────────── */
     {
       ref: '2 Samuel 1:11–16',
       title: 'David Grieves and Judges',
@@ -378,7 +405,7 @@ export const SAMUEL_2_1: RichChapterContent = {
           kind: 'commentary',
           id: '2-samuel-1-78mid-2',
           html:
-            'David's lament for Saul ends, and his own anointing begins. Grief and kingship sit in the same chapter—David will not skip either one.',
+            'David&apos;s lament for Saul ends, and his own anointing begins. Grief and kingship sit in the same chapter—David will not skip either one.',
         },
         {
           kind: 'scripture',

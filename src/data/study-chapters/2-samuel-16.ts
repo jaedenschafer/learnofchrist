@@ -43,7 +43,7 @@ export const SAMUEL_2_16: RichChapterContent = {
           kind: 'commentary',
           id: 'c-ziba-gift',
           html:
-            'Ziba appears at the moment when David is most vulnerable — at the peak of the Mount of Olives, looking back at the city he has just abandoned. He comes with provisions: bread, fruit, wine. The gift is abundant and practical. And David, in flight, in shock, receives it as a sign of loyalty. Ziba knows what to offer a king in distress.',
+            'Ziba appears at the moment when David is most vulnerable — at the peak of the Mount of Olives, looking back at the city he has just abandoned. He comes with provisions: bread, fruit, wine. The gift is abundant and practical. And David, in flight, in shock, receives it as a sign of loyalty. Ziba knows what to offer a king in distress.[res:sefaria-david-king][res:bible-odyssey-jerusalem][res:iaa-city-of-david]',
         },
 
         {
@@ -340,5 +340,31 @@ export const SAMUEL_2_16: RichChapterContent = {
     ref: '2 Samuel 16 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-david-king',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'David as King of Israel',
+      url: 'https://www.sefaria.org/2_Samuel.1',
+      description: 'David&apos;s consolidation of power and establishment of monarchy over united Israel.',
+    },
+    {
+      id: 'bible-odyssey-jerusalem',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Jerusalem Captured',
+      url: 'https://www.bibleodyssey.org/dictionary/jerusalem/',
+      description: 'David&apos;s capture of the city of Jerusalem and establishment as Israel&apos;s capital.',
+    },
+    {
+      id: 'iaa-city-of-david',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/article-2505-en/The-City-of-David.aspx',
+      description: 'Continuous excavation revealing David-era structures and urban development in Jerusalem.',
+    },
+  ],
   hasHebrew: true,
 };

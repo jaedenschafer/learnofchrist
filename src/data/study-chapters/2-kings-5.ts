@@ -32,6 +32,33 @@ export const KINGS_2_5: RichChapterContent = {
     ref: '2 Kings 5 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'bible-odyssey-naaman',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Naaman the Leper',
+      url: 'https://www.bibleodyssey.org/dictionary/naaman/',
+      description: 'The Syrian general Naaman healed of leprosy through faith in the God of Israel.',
+    },
+    {
+      id: 'sefaria-naaman-healed',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Naaman&apos;s Healing in the Jordan',
+      url: 'https://www.sefaria.org/2_Kings.5',
+      description: 'Elisha&apos;s instruction to Naaman to bathe in the Jordan and his miraculous cleansing.',
+    },
+    {
+      id: 'iaa-aramean-damascus',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Aramean Damascus in Iron Age',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological context for Aramean kingdom interactions with Israel during Elisha&apos;s time.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Kings 5:1–3 — The Little Maid ──────────────────────────── */
     {
@@ -51,7 +78,7 @@ export const KINGS_2_5: RichChapterContent = {
           kind: 'commentary',
           id: 'naaman-greatness',
           html:
-            'Naaman is introduced in terms of power and status: great, honourable, mighty. He is a man who has delivered deliverance to his nation. Yet he carries within him a disease that no amount of military prowess can cure. Leprosy is the great equalizer — it humbles the mighty, marks the living as unclean, isolates the powerful. In Naaman&apos;s greatness lives a flaw he cannot conquer.',
+            'Naaman is introduced in terms of power and status: great, honourable, mighty. He is a man who has delivered deliverance to his nation. Yet he carries within him a disease that no amount of military prowess can cure. Leprosy is the great equalizer — it humbles the mighty, marks the living as unclean, isolates the powerful. In Naaman&apos;s greatness lives a flaw he cannot conquer[res:bible-odyssey-naaman][res:sefaria-naaman-healed][res:iaa-aramean-damascus].',
         },
         {
           kind: 'commentary',

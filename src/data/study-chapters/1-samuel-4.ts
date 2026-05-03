@@ -35,6 +35,33 @@ export const SAMUEL_1_4: RichChapterContent = {
     ref: '1 Samuel 4 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'bible-odyssey-ark',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Capture of the Ark',
+      url: 'https://www.bibleodyssey.org/dictionary/ark-of-the-covenant/',
+      description: 'The loss of the ark to the Philistines during Israel&apos;s crisis in the Iron Age.',
+    },
+    {
+      id: 'iaa-philistine',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Philistine-Israelite Conflict',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological context of the Philistine threat that triggers Samuel&apos;s military leadership.',
+    },
+    {
+      id: 'brit-museum-philistines',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Philistine Culture and Artifacts',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Ancient Near Eastern objects showing Philistine military technology and religion.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Samuel 4:1–3 — The First Defeat ──────────────────────────────── */
     {
@@ -65,7 +92,7 @@ export const SAMUEL_1_4: RichChapterContent = {
           kind: 'commentary',
           id: 'eben-ezer',
           html:
-            'Eben-ezer means &ldquo;stone of help.&rdquo; It is a prophetic place-name, though the name&apos;s fulfillment is not yet. Israel loses here, at a place that will later be renamed to mark God&apos;s deliverance — a pattern throughout Scripture. The lowest point often precedes the greatest turnaround.',
+            'Eben-ezer means &ldquo;stone of help.&rdquo; It is a prophetic place-name, though the name&apos;s fulfillment is not yet. Israel loses here, at a place that will later be renamed to mark God&apos;s deliverance — a pattern throughout Scripture. The lowest point often precedes the greatest turnaround[res:bible-odyssey-ark][res:iaa-philistine][res:brit-museum-philistines].',
         },
         {
           kind: 'scripture',

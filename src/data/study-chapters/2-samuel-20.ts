@@ -35,6 +35,33 @@ export const SAMUEL_2_20: RichChapterContent = {
     ref: '2 Samuel 20 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-david-king',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'David as King of Israel',
+      url: 'https://www.sefaria.org/2_Samuel.1',
+      description: 'David&apos;s consolidation of power and establishment of monarchy over united Israel.',
+    },
+    {
+      id: 'iaa-city-david',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Continuous excavation revealing David-era structures and urban development in Jerusalem.',
+    },
+    {
+      id: 'bible-odyssey-jerusalem',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Jerusalem Captured',
+      url: 'https://www.bibleodyssey.org/dictionary/jerusalem/',
+      description: 'David&apos;s capture of the Jebusite city and establishment as Israel&apos;s capital.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Samuel 20:1–2 — Sheba&apos;s Cry ────────────────────────────── */
     {
@@ -70,7 +97,7 @@ export const SAMUEL_2_20: RichChapterContent = {
           kind: 'commentary',
           id: 'c-sheba',
           html:
-            'Sheba is a Benjamite — part of Saul&apos;s old tribe, the tribe that lost the kingdom when David was chosen. The deep resentment lingers. And Sheba&apos;s cry is not new. Listen: "We have no part in David, neither have we inheritance in the son of Jesse." Nearly identical words will be shouted over the corpse of King Solomon&apos;s son, forty years from now, when the kingdom splits into north and south — "What portion have we in David? Neither have we inheritance in the son of Jesse: to your tents, O Israel" (1 Kings 12:16). Sheba foreshadows the final break. He plants the very seed that will grow into the division that lasts until the Babylonian captivity.',
+            'Sheba is a Benjamite — part of Saul&apos;s old tribe, the tribe that lost the kingdom when David was chosen. The deep resentment lingers. And Sheba&apos;s cry is not new. Listen: "We have no part in David, neither have we inheritance in the son of Jesse." Nearly identical words will be shouted over the corpse of King Solomon&apos;s son, forty years from now, when the kingdom splits into north and south — "What portion have we in David? Neither have we inheritance in the son of Jesse: to your tents, O Israel" (1 Kings 12:16). Sheba foreshadows the final break. He plants the very seed that will grow into the division that lasts until the Babylonian captivity.[res:sefaria-david-king][res:iaa-city-david][res:bible-odyssey-jerusalem]',
         },
         {
           kind: 'scripture',

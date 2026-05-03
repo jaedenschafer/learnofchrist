@@ -44,7 +44,7 @@ export const SAMUEL_1_12: RichChapterContent = {
           kind: 'commentary',
           id: 's12-old-age',
           html:
-            'Samuel is stepping aside. He has fulfilled his role as judge, anointed the king, and now he releases power. But before he goes, he wants the record straight. He is old and gray-headed. His sons are there. And he has walked before them from childhood — a complete arc of life lived in public view.',
+            'Samuel is stepping aside. He has fulfilled his role as judge, anointed the king, and now he releases power. But before he goes, he wants the record straight. He is old and gray-headed. His sons are there. And he has walked before them from childhood — a complete arc of life lived in public view.[res:sefaria-hannah-prayer][res:bible-odyssey-eli][res:iaa-shiloh]',
         },
 
         {
@@ -571,4 +571,31 @@ export const SAMUEL_1_12: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Samuel 12 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-hannah-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hannah&apos;s Prayer',
+      url: 'https://www.sefaria.org/1_Samuel.1',
+      description: 'Complete text and commentary on Hannah&apos;s prayer and Samuel&apos;s birth.',
+    },
+    {
+      id: 'bible-odyssey-eli',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Eli and the Priesthood',
+      url: 'https://www.bibleodyssey.org/dictionary/eli/',
+      description: 'Overview of Eli&apos;s role as high priest and the corruption of his sons.',
+    },
+    {
+      id: 'iaa-shiloh',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Shiloh Excavation',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of the Shiloh temple site where Hannah and Eli worshipped.',
+    },
+  ],
 };

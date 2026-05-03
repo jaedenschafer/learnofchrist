@@ -50,7 +50,7 @@ export const SAMUEL_2_15: RichChapterContent = {
           kind: 'commentary',
           id: 'c-flattery-setup',
           html:
-            'Absalom stages himself like a king. The chariots, the horses, the fifty men running before him — all the visible markers of power. But his real power lies not in display but in presence. He positions himself at the gate, where the king administers justice. He does not challenge the king openly. He simply listens better.',
+            'Absalom stages himself like a king. The chariots, the horses, the fifty men running before him — all the visible markers of power. But his real power lies not in display but in presence. He positions himself at the gate, where the king administers justice. He does not challenge the king openly. He simply listens better.[res:sefaria-david-king][res:iaa-city-david][res:bible-odyssey-jerusalem]',
         },
 
         {
@@ -645,4 +645,31 @@ export const SAMUEL_2_15: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Samuel 15 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-david-king',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'David as King of Israel',
+      url: 'https://www.sefaria.org/2_Samuel.1',
+      description: 'David&apos;s consolidation of power and establishment of monarchy over united Israel.',
+    },
+    {
+      id: 'iaa-city-david',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Continuous excavation revealing David-era structures and urban development in Jerusalem.',
+    },
+    {
+      id: 'bible-odyssey-jerusalem',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Jerusalem Captured',
+      url: 'https://www.bibleodyssey.org/dictionary/jerusalem/',
+      description: 'David&apos;s capture of the Jebusite city and establishment as Israel&apos;s capital.',
+    },
+  ],
 };

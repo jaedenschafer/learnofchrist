@@ -37,6 +37,33 @@ export const KINGS_1_21: RichChapterContent = {
     ref: '1 Kings 21 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-solomon-reign',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Solomon&apos;s Reign and Temple',
+      url: 'https://www.sefaria.org/1_Kings.1',
+      description: 'Solomon&apos;s ascension to the throne and his building of the first temple.',
+    },
+    {
+      id: 'israel-museum-solomonic',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Solomonic Period Artifacts',
+      url: 'https://www.imj.org.il/',
+      description: 'Museum collection of objects from Solomon&apos;s era revealing 10th-century Iron Age culture.',
+    },
+    {
+      id: 'iaa-solomon-period',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of the Solomonic Period',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for urban centers and building projects attributed to Solomon.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Kings 21:1–4 — The Vineyard, the Refusal, the Sulk ──────── */
     {
@@ -78,7 +105,7 @@ export const KINGS_1_21: RichChapterContent = {
           kind: 'commentary',
           id: 'naboth-money',
           html:
-            'Ahab&apos;s offer is not unreasonable by worldly standards. He is a king; he sees something he wants. He offers compensation—a better vineyard, or its monetary value. It is the language of commerce, of fair dealing. He is willing to pay.',
+            'Ahab&apos;s offer is not unreasonable by worldly standards. He is a king; he sees something he wants. He offers compensation—a better vineyard, or its monetary value. It is the language of commerce, of fair dealing. He is willing to pay.[res:sefaria-solomon-reign][res:israel-museum-solomonic][res:iaa-solomon-period]',
         },
         {
           kind: 'commentary',

@@ -57,7 +57,7 @@ export const SAMUEL_2_2: RichChapterContent = {
           kind: 'commentary',
           id: 'david-inquires',
           html:
-            'David does not move without asking. Even in a moment of triumph, even when the way seems clear, he pauses to inquire of the Lord. The pattern is set: before any major step, David asks. He seeks guidance before he acts. This is the mark of a man who understands that a kingdom is not built by human strength alone.',
+            'David does not move without asking. Even in a moment of triumph, even when the way seems clear, he pauses to inquire of the Lord. The pattern is set: before any major step, David asks. He seeks guidance before he acts. This is the mark of a man who understands that a kingdom is not built by human strength alone.[res:sefaria-david-king][res:iaa-city-david][res:bible-odyssey-jerusalem]',
         },
         {
           kind: 'hebrew',
@@ -518,4 +518,31 @@ export const SAMUEL_2_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Samuel 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-david-king',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'David as King of Israel',
+      url: 'https://www.sefaria.org/2_Samuel.1',
+      description: 'David&apos;s consolidation of power and establishment of monarchy over united Israel.',
+    },
+    {
+      id: 'iaa-city-david',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Continuous excavation revealing David-era structures and urban development in Jerusalem.',
+    },
+    {
+      id: 'bible-odyssey-jerusalem',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Jerusalem Captured',
+      url: 'https://www.bibleodyssey.org/dictionary/jerusalem/',
+      description: 'David&apos;s capture of the Jebusite city and establishment as Israel&apos;s capital.',
+    },
+  ],
 };

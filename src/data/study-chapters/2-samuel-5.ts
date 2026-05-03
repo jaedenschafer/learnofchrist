@@ -55,7 +55,7 @@ export const SAMUEL_2_5: RichChapterContent = {
           kind: 'commentary',
           id: 'c-bone-flesh',
           html:
-            'The tribes come to David and say, "We are thy bone and thy flesh." This is the language of covenant, of kinship, of a binding that goes back to creation itself. When Adam saw Eve, he said the same words: "This is now bone of my bones, and flesh of my flesh" (Gen. 2:23). The tribes are adopting David as one body. They are not submitting to a foreign king. They are recognizing one of their own as the head of a united people.',
+            'The tribes come to David and say, "We are thy bone and thy flesh." This is the language of covenant, of kinship, of a binding that goes back to creation itself. When Adam saw Eve, he said the same words: "This is now bone of my bones, and flesh of my flesh" (Gen. 2:23). The tribes are adopting David as one body. They are not submitting to a foreign king. They are recognizing one of their own as the head of a united people[res:iaa-city-david-capture][res:sefaria-jerusalem-conquest][res:brit-museum-ancient-jerusalem].',
         },
         {
           kind: 'commentary',
@@ -525,4 +525,31 @@ export const SAMUEL_2_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Samuel 5 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'iaa-city-david-capture',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavations revealing the fortress David captured and transformed into Israel&apos;s capital.',
+    },
+    {
+      id: 'sefaria-jerusalem-conquest',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'David Captures Jerusalem',
+      url: 'https://www.sefaria.org/2_Samuel.5',
+      description: 'The strategic capture of the Jebusite stronghold and its transformation into royal city.',
+    },
+    {
+      id: 'brit-museum-ancient-jerusalem',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ancient Jerusalem Water Systems',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Archaeological artifacts from Jerusalem&apos;s Iron Age monarchy showing urban engineering.',
+    },
+  ],
 };

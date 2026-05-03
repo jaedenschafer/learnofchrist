@@ -33,6 +33,33 @@ export const SAMUEL_1_9: RichChapterContent = {
     ref: '1 Samuel 9 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hannah-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hannah&apos;s Prayer',
+      url: 'https://www.sefaria.org/1_Samuel.1',
+      description: 'Complete text and commentary on Hannah&apos;s prayer and Samuel&apos;s birth.',
+    },
+    {
+      id: 'bible-odyssey-eli',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Eli and the Priesthood',
+      url: 'https://www.bibleodyssey.org/dictionary/eli/',
+      description: 'Overview of Eli&apos;s role as high priest and the corruption of his sons.',
+    },
+    {
+      id: 'iaa-shiloh',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Shiloh Excavation',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of the Shiloh temple site where Hannah and Eli worshipped.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Samuel 9:1–2 — Saul the Goodly Benjamite ──────────────────── */
     {
@@ -74,7 +101,7 @@ export const SAMUEL_1_9: RichChapterContent = {
           kind: 'commentary',
           id: 'c-gibor',
           html:
-            'Kish is a <em>gibor</em>—a mighty man, powerful in wealth and influence. But when his asses are lost, all his power cannot find them. Sometimes what belongs to us teaches us our limits.',
+            'Kish is a <em>gibor</em>—a mighty man, powerful in wealth and influence. But when his asses are lost, all his power cannot find them. Sometimes what belongs to us teaches us our limits.[res:sefaria-hannah-prayer][res:bible-odyssey-eli][res:iaa-shiloh]',
         },
 
         {

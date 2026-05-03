@@ -35,6 +35,33 @@ export const SAMUEL_1_20: RichChapterContent = {
     ref: '1 Samuel 20 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hannah-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hannah&apos;s Prayer',
+      url: 'https://www.sefaria.org/1_Samuel.1',
+      description: 'Complete text and commentary on Hannah&apos;s prayer and Samuel&apos;s birth.',
+    },
+    {
+      id: 'bible-odyssey-eli',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Eli and the Priesthood',
+      url: 'https://www.bibleodyssey.org/dictionary/eli/',
+      description: 'Overview of Eli&apos;s role as high priest and the corruption of his sons.',
+    },
+    {
+      id: 'iaa-shiloh',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Shiloh Excavation',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of the Shiloh temple site where Hannah and Eli worshipped.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Samuel 20:1–5 — David's Fear & the Test Plan ───────────────── */
     {
@@ -54,7 +81,7 @@ export const SAMUEL_1_20: RichChapterContent = {
           kind: 'commentary',
           id: 'c-fled',
           html:
-            'David has fled. His safety is no longer a private concern — it is a matter between him and his closest friend. He comes to Jonathan and speaks his fear plainly: "What have I done? What is my sin?" He has not betrayed Saul, yet Saul has made him a hunted man. The confusion in David&apos;s question is real. He does not understand what crime he has committed against the king.',
+            'David has fled. His safety is no longer a private concern — it is a matter between him and his closest friend. He comes to Jonathan and speaks his fear plainly: "What have I done? What is my sin?" He has not betrayed Saul, yet Saul has made him a hunted man. The confusion in David&apos;s question is real. He does not understand what crime he has committed against the king.[res:sefaria-hannah-prayer][res:bible-odyssey-eli][res:iaa-shiloh]',
         },
         {
           kind: 'commentary',

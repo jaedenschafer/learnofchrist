@@ -34,6 +34,33 @@ export const KINGS_2_18: RichChapterContent = {
     ref: '2 Kings 18 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'brit-museum-sennacherib-prism',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Sennacherib&apos;s Prism',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Assyrian account of Sennacherib&apos;s siege of Jerusalem and tribute from Hezekiah.',
+    },
+    {
+      id: 'sefaria-hezekiah-reforms',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hezekiah&apos;s Religious Reforms',
+      url: 'https://www.sefaria.org/2_Kings.18',
+      description: 'King Hezekiah&apos;s removal of idols and restoration of temple worship in Judah.',
+    },
+    {
+      id: 'brit-museum-lachish',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Lachish Reliefs',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Assyrian palace reliefs depicting the siege of the fortified city of Lachish near Jerusalem.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Kings 18:1–8 — Hezekiah's Reformations ─────────────────────── */
     {
@@ -62,7 +89,7 @@ export const KINGS_2_18: RichChapterContent = {
           kind: 'commentary',
           id: 'hezekiah-young-king',
           html:
-            'Hezekiah ascends the throne at twenty-five, an age at which most men are still finding their way. He has inherited a kingdom weakened by his father Ahaz&apos;s apostasy — a king who not only tolerated idolatry but actively promoted it. Yet Hezekiah does not negotiate with the corruption he has inherited. He acts as though his kingship itself is a covenant renewal, calling Judah back to the ways of David. The phrase "according to all that David his father had done" is a standard of excellence. Hezekiah will be measured against the greatest king in Israel&apos;s memory.',
+            'Hezekiah ascends the throne at twenty-five, an age at which most men are still finding their way. He has inherited a kingdom weakened by his father Ahaz&apos;s apostasy — a king who not only tolerated idolatry but actively promoted it. Yet Hezekiah does not negotiate with the corruption he has inherited. He acts as though his kingship itself is a covenant renewal, calling Judah back to the ways of David. The phrase "according to all that David his father had done" is a standard of excellence. Hezekiah will be measured against the greatest king in Israel&apos;s memory[res:brit-museum-sennacherib-prism][res:sefaria-hezekiah-reforms][res:brit-museum-lachish].',
         },
         {
           kind: 'scripture',

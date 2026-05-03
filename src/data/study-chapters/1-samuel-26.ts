@@ -31,6 +31,33 @@ export const SAMUEL_1_26: RichChapterContent = {
     ref: '1 Samuel 26 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hannah-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hannah&apos;s Prayer',
+      url: 'https://www.sefaria.org/1_Samuel.1',
+      description: 'Complete text and commentary on Hannah&apos;s prayer and Samuel&apos;s birth.',
+    },
+    {
+      id: 'bible-odyssey-eli',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Eli and the Priesthood',
+      url: 'https://www.bibleodyssey.org/dictionary/eli/',
+      description: 'Overview of Eli&apos;s role as high priest and the corruption of his sons.',
+    },
+    {
+      id: 'iaa-shiloh',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Shiloh Excavation',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of the Shiloh temple site where Hannah and Eli worshipped.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Samuel 26:1–5 — Saul Pursues David Again ───────────────────── */
     {
@@ -81,7 +108,7 @@ export const SAMUEL_1_26: RichChapterContent = {
           kind: 'commentary',
           id: 'c-hachilah',
           html:
-            'The Ziphites have betrayed David twice now. Hachilah means "the dark" or "the smooth"—a hill on the borderlands of Jeshimon, the wilderness. David is always fleeing toward the margins, the high places, the lands that belong to no kingdom yet. This is where hunted men hide.',
+            'The Ziphites have betrayed David twice now. Hachilah means "the dark" or "the smooth"—a hill on the borderlands of Jeshimon, the wilderness. David is always fleeing toward the margins, the high places, the lands that belong to no kingdom yet. This is where hunted men hide.[res:sefaria-hannah-prayer][res:bible-odyssey-eli][res:iaa-shiloh]',
         },
         {
           kind: 'commentary',

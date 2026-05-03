@@ -32,6 +32,33 @@ export const KINGS_2_22: RichChapterContent = {
     ref: '2 Kings 22 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-elisha-ministry',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Elisha the Prophet',
+      url: 'https://www.sefaria.org/2_Kings.1',
+      description: 'Elisha&apos;s ministry of miraculous healing and prophecy succeeding Elijah.',
+    },
+    {
+      id: 'bible-odyssey-elisha',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Elisha: Miracles and Ministry',
+      url: 'https://www.bibleodyssey.org/dictionary/elisha/',
+      description: 'Elisha&apos;s role as prophet in Israel&apos;s northern kingdom during the period of decline.',
+    },
+    {
+      id: 'iaa-northern-kingdom',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of Northern Kingdom',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for cities and settlements in the northern kingdom of Israel.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Kings 22:1–2 — The Young King ────────────────────────────────── */
     {
@@ -62,7 +89,7 @@ export const KINGS_2_22: RichChapterContent = {
           kind: 'commentary',
           id: '22-eight-years',
           html:
-            'Josiah ascends to the throne before he can read. Yet the text immediately affirms that he did right in the sight of the Lord. This is not because of years or experience. This is because, even as a child, his heart was inclined toward obedience. He set his will toward the way of David, toward covenant faithfulness. From his earliest days as king, he chose the narrow path: no turning to the right hand or to the left. This is the portrait of a ruler formed by the fear of God.',
+            'Josiah ascends to the throne before he can read. Yet the text immediately affirms that he did right in the sight of the Lord. This is not because of years or experience. This is because, even as a child, his heart was inclined toward obedience. He set his will toward the way of David, toward covenant faithfulness. From his earliest days as king, he chose the narrow path: no turning to the right hand or to the left. This is the portrait of a ruler formed by the fear of God.[res:sefaria-elisha-ministry][res:bible-odyssey-elisha][res:iaa-northern-kingdom]',
         },
         {
           kind: 'carry',

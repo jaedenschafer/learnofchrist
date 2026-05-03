@@ -32,6 +32,33 @@ export const SAMUEL_2_3: RichChapterContent = {
     ref: '2 Samuel 3 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-david-king',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'David as King of Israel',
+      url: 'https://www.sefaria.org/2_Samuel.1',
+      description: 'David&apos;s consolidation of power and establishment of monarchy over united Israel.',
+    },
+    {
+      id: 'iaa-city-david',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Continuous excavation revealing David-era structures and urban development in Jerusalem.',
+    },
+    {
+      id: 'bible-odyssey-jerusalem',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Jerusalem Captured',
+      url: 'https://www.bibleodyssey.org/dictionary/jerusalem/',
+      description: 'David&apos;s capture of the Jebusite city and establishment as Israel&apos;s capital.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Samuel 3:1–5 — The Long War and David's Growing House ──── */
     {
@@ -52,7 +79,7 @@ export const SAMUEL_2_3: RichChapterContent = {
           kind: 'commentary',
           id: 'long-war',
           html:
-            'The civil war that begins in 2 Samuel 2 continues without a decisive battlefield victory. David does not conquer Saul&apos;s territory by force of arms. Instead, he grows stronger while his rival grows weaker. The text gives no account of heroic campaigns. Instead it shows patience, stability, and the gradual defection of the northern tribes. This is the kingdom secured not by the sword alone, but by legitimacy.',
+            'The civil war that begins in 2 Samuel 2 continues without a decisive battlefield victory. David does not conquer Saul&apos;s territory by force of arms. Instead, he grows stronger while his rival grows weaker. The text gives no account of heroic campaigns. Instead it shows patience, stability, and the gradual defection of the northern tribes. This is the kingdom secured not by the sword alone, but by legitimacy.[res:sefaria-david-king][res:iaa-city-david][res:bible-odyssey-jerusalem]',
         },
 
         {

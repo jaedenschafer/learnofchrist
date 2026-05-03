@@ -34,6 +34,33 @@ export const KINGS_1_22: RichChapterContent = {
     ref: '1 Kings 22 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-solomon-reign',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Solomon&apos;s Reign and Temple',
+      url: 'https://www.sefaria.org/1_Kings.1',
+      description: 'Solomon&apos;s ascension to the throne and his building of the first temple.',
+    },
+    {
+      id: 'israel-museum-solomonic',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Solomonic Period Artifacts',
+      url: 'https://www.imj.org.il/',
+      description: 'Museum collection of objects from Solomon&apos;s era revealing 10th-century Iron Age culture.',
+    },
+    {
+      id: 'iaa-solomon-period',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of the Solomonic Period',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for urban centers and building projects attributed to Solomon.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Kings 22:1–13 — The Four Hundred Prophets ────────────────────── */
     {
@@ -79,7 +106,7 @@ export const KINGS_1_22: RichChapterContent = {
           kind: 'commentary',
           id: 'king-jehoshaphat',
           html:
-            'Jehoshaphat, king of Judah, visits Ahab of Israel. The two kingdoms have been at peace. Yet Ahab is restless — he remembers that Ramoth-gilead belongs to Israel, not to Syria. He invites Jehoshaphat into an alliance: "Go with me to battle." Jehoshaphat agrees readily, but then speaks words that change everything: "Inquire, I pray thee, at the word of the Lord."',
+            'Jehoshaphat, king of Judah, visits Ahab of Israel. The two kingdoms have been at peace. Yet Ahab is restless — he remembers that Ramoth-gilead belongs to Israel, not to Syria. He invites Jehoshaphat into an alliance: "Go with me to battle." Jehoshaphat agrees readily, but then speaks words that change everything: "Inquire, I pray thee, at the word of the Lord."[res:sefaria-solomon-reign][res:israel-museum-solomonic][res:iaa-solomon-period]',
         },
         {
           kind: 'scripture',

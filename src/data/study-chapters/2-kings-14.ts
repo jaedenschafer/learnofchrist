@@ -39,6 +39,33 @@ export const KINGS_2_14: RichChapterContent = {
     ref: '2 Kings 14 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-elisha-ministry',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Elisha the Prophet',
+      url: 'https://www.sefaria.org/2_Kings.1',
+      description: 'Elisha&apos;s ministry of miraculous healing and prophecy succeeding Elijah.',
+    },
+    {
+      id: 'bible-odyssey-elisha',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Elisha: Miracles and Ministry',
+      url: 'https://www.bibleodyssey.org/dictionary/elisha/',
+      description: 'Elisha&apos;s role as prophet in Israel&apos;s northern kingdom during the period of decline.',
+    },
+    {
+      id: 'iaa-northern-kingdom',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of Northern Kingdom',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for cities and settlements in the northern kingdom of Israel.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Kings 14:1–7 — Amaziah's Reign Begins; Deuteronomy 24:16 ──── */
     {
@@ -59,7 +86,7 @@ export const KINGS_2_14: RichChapterContent = {
           kind: 'commentary',
           id: 'amaziah-partial',
           html:
-            'Amaziah does right in the sight of the Lord, but the refrain echoes through Kings: "yet not like David." He is a man of mixed allegiance. He follows the pattern of his father Joash — good, but incomplete. The high places remain. He reigns twenty-nine years, longer than many, yet his legacy will be marked not by completion but by pride.',
+            'Amaziah does right in the sight of the Lord, but the refrain echoes through Kings: "yet not like David." He is a man of mixed allegiance. He follows the pattern of his father Joash — good, but incomplete. The high places remain. He reigns twenty-nine years, longer than many, yet his legacy will be marked not by completion but by pride.[res:sefaria-elisha-ministry][res:bible-odyssey-elisha][res:iaa-northern-kingdom]',
         },
         {
           kind: 'scripture',

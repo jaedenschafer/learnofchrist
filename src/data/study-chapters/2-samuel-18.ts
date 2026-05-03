@@ -40,6 +40,33 @@ export const SAMUEL_2_18: RichChapterContent = {
     ref: '2 Samuel 18 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-david-king',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'David as King of Israel',
+      url: 'https://www.sefaria.org/2_Samuel.1',
+      description: 'David&apos;s consolidation of power and establishment of monarchy over united Israel.',
+    },
+    {
+      id: 'iaa-city-david',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Continuous excavation revealing David-era structures and urban development in Jerusalem.',
+    },
+    {
+      id: 'bible-odyssey-jerusalem',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Jerusalem Captured',
+      url: 'https://www.bibleodyssey.org/dictionary/jerusalem/',
+      description: 'David&apos;s capture of the Jebusite city and establishment as Israel&apos;s capital.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Samuel 18:1–8 — David Sends Out His Army ──────────────────── */
     {
@@ -68,7 +95,7 @@ export const SAMUEL_2_18: RichChapterContent = {
           kind: 'commentary',
           id: 'c-david-numbered',
           html:
-            'David takes command. He numbers his forces, divides them into three companies, and declares he will march with them. His people have given him their loyalty; he will not ask them to bleed without him. But the next lines reveal that the people know something David has forgotten: a kingdom cannot afford to lose its king.',
+            'David takes command. He numbers his forces, divides them into three companies, and declares he will march with them. His people have given him their loyalty; he will not ask them to bleed without him. But the next lines reveal that the people know something David has forgotten: a kingdom cannot afford to lose its king.[res:sefaria-david-king][res:iaa-city-david][res:bible-odyssey-jerusalem]',
         },
 
         {

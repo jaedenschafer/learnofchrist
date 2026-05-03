@@ -31,6 +31,33 @@ export const SAMUEL_1_23: RichChapterContent = {
     ref: '1 Samuel 23 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hannah-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hannah&apos;s Prayer',
+      url: 'https://www.sefaria.org/1_Samuel.1',
+      description: 'Complete text and commentary on Hannah&apos;s prayer and Samuel&apos;s birth.',
+    },
+    {
+      id: 'bible-odyssey-eli',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Eli and the Priesthood',
+      url: 'https://www.bibleodyssey.org/dictionary/eli/',
+      description: 'Overview of Eli&apos;s role as high priest and the corruption of his sons.',
+    },
+    {
+      id: 'iaa-shiloh',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Shiloh Excavation',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of the Shiloh temple site where Hannah and Eli worshipped.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Samuel 23:1–5 — The Philistines Attack Keilah; David Inquires ── */
     {
@@ -63,7 +90,7 @@ export const SAMUEL_1_23: RichChapterContent = {
           kind: 'commentary',
           id: 'c-philistines-keilah',
           html:
-            'Keilah is a town south of the wilderness where David is hiding. It is under attack, its people suffering loss. David is a fugitive, a man hunted, with no obligation to help. But the first movement is not toward self-preservation. It is toward those in need.',
+            'Keilah is a town south of the wilderness where David is hiding. It is under attack, its people suffering loss. David is a fugitive, a man hunted, with no obligation to help. But the first movement is not toward self-preservation. It is toward those in need.[res:sefaria-hannah-prayer][res:bible-odyssey-eli][res:iaa-shiloh]',
         },
         {
           kind: 'commentary',

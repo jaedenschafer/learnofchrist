@@ -28,6 +28,33 @@ export const SAMUEL_1_2: RichChapterContent = {
     ref: '1 Samuel 2 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hannah-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hannah&apos;s Prayer',
+      url: 'https://www.sefaria.org/1_Samuel.1',
+      description: 'Complete text and commentary on Hannah&apos;s prayer and Samuel&apos;s birth.',
+    },
+    {
+      id: 'bible-odyssey-eli',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Eli and the Priesthood',
+      url: 'https://www.bibleodyssey.org/dictionary/eli/',
+      description: 'Overview of Eli&apos;s role as high priest and the corruption of his sons.',
+    },
+    {
+      id: 'iaa-shiloh',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Shiloh Excavation',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of the Shiloh temple site where Hannah and Eli worshipped.',
+    },
+  ],
+
   sections: [
     /* ─── Hannah's Song of Reversal (1 Sam 2:1–10) ────────────────────── */
     {
@@ -56,7 +83,7 @@ export const SAMUEL_1_2: RichChapterContent = {
           kind: 'commentary',
           id: 'c-hannah-prayer',
           html:
-            'Hannah&apos;s prayer is not a confession or a plea — it is a victory song. She sings it after Samuel is born, after years of waiting, after the Lord has visited her. Her joy is not tentative. It is the song of someone who has seen God move.',
+            'Hannah&apos;s prayer is not a confession or a plea — it is a victory song. She sings it after Samuel is born, after years of waiting, after the Lord has visited her. Her joy is not tentative. It is the song of someone who has seen God move.[res:sefaria-hannah-prayer][res:bible-odyssey-eli][res:iaa-shiloh]',
         },
         {
           kind: 'hebrew',

@@ -29,6 +29,33 @@ export const KINGS_1_16: RichChapterContent = {
     ref: '1 Kings 16 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-samaria-excavations',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Samaria Capital Excavations',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavations of Omri&apos;s capital city revealing Iron Age II fortress architecture.',
+    },
+    {
+      id: 'sefaria-ahab-jezebel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ahab and Jezebel',
+      url: 'https://www.sefaria.org/1_Kings.16',
+      description: 'The reign of Ahab and the influence of his wife Jezebel in promoting Baal worship.',
+    },
+    {
+      id: 'bible-odyssey-ahab',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Ahab: Israel&apos;s Most Wicked King',
+      url: 'https://www.bibleodyssey.org/dictionary/ahab/',
+      description: 'Ahab&apos;s thirty-year reign marked by political intrigue and religious apostasy.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Kings 16:1–7 — The Word Against Baasha and the House of Elah ──── */
     {
@@ -57,7 +84,7 @@ export const KINGS_1_16: RichChapterContent = {
           kind: 'commentary',
           id: '1-kings-16-mid-3',
           html:
-            '<p>The kingdom solidifies as Solomon consolidates power and establishes his regime.</p>',
+            '<p>The kingdom solidifies as Solomon consolidates power and establishes his regime.</p>[res:iaa-samaria-excavations][res:sefaria-ahab-jezebel][res:bible-odyssey-ahab]',
         },
         {
           kind: 'scripture',

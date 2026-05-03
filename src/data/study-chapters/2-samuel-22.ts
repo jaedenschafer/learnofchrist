@@ -76,7 +76,7 @@ export const SAMUEL_2_22: RichChapterContent = {
           kind: 'commentary',
           id: 's22-rock',
           html:
-            'David opens with a fundamental claim: "The Lord is my rock." A rock does not move. A rock does not betray. A rock stands in the middle of the flood and remains. In a life marked by instability — exile, pursuit, uncertainty — David anchors his testimony to something immovable. This is the language of foundational trust, of a man who has learned that the only security is the security God provides.',
+            'David opens with a fundamental claim: "The Lord is my rock." A rock does not move. A rock does not betray. A rock stands in the middle of the flood and remains. In a life marked by instability — exile, pursuit, uncertainty — David anchors his testimony to something immovable. This is the language of foundational trust, of a man who has learned that the only security is the security God provides.[res:sefaria-david-king][res:iaa-city-david][res:bible-odyssey-jerusalem]',
         },
         {
           kind: 'hebrew',
@@ -723,4 +723,31 @@ export const SAMUEL_2_22: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Samuel 22 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-david-king',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'David as King of Israel',
+      url: 'https://www.sefaria.org/2_Samuel.1',
+      description: 'David&apos;s consolidation of power and establishment of monarchy over united Israel.',
+    },
+    {
+      id: 'iaa-city-david',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Continuous excavation revealing David-era structures and urban development in Jerusalem.',
+    },
+    {
+      id: 'bible-odyssey-jerusalem',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Jerusalem Captured',
+      url: 'https://www.bibleodyssey.org/dictionary/jerusalem/',
+      description: 'David&apos;s capture of the Jebusite city and establishment as Israel&apos;s capital.',
+    },
+  ],
 };

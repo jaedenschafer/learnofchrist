@@ -34,6 +34,33 @@ export const SAMUEL_1_22: RichChapterContent = {
     ref: '1 Samuel 22 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-hannah-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Hannah&apos;s Prayer',
+      url: 'https://www.sefaria.org/1_Samuel.1',
+      description: 'Complete text and commentary on Hannah&apos;s prayer and Samuel&apos;s birth.',
+    },
+    {
+      id: 'bible-odyssey-eli',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Eli and the Priesthood',
+      url: 'https://www.bibleodyssey.org/dictionary/eli/',
+      description: 'Overview of Eli&apos;s role as high priest and the corruption of his sons.',
+    },
+    {
+      id: 'iaa-shiloh',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Shiloh Excavation',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of the Shiloh temple site where Hannah and Eli worshipped.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Samuel 22:1–2 — The Cave of Adullam ────────────────────────── */
     {
@@ -59,7 +86,7 @@ export const SAMUEL_1_22: RichChapterContent = {
           kind: 'commentary',
           id: 'c-adullam-gathering',
           html:
-            'The cave of Adullam becomes a gathering place for the broken. Not the mighty. Not those with power or standing. But those in distress — those crushed by circumstance. Those in debt — those trapped by obligation and unable to escape. Those discontented — those whose lives under Saul&apos;s rule have left them restless and angry. These people come to David, and he becomes their <em>captain</em>. He leads not because he is stronger, but because he hears them. About 400 men.',
+            'The cave of Adullam becomes a gathering place for the broken. Not the mighty. Not those with power or standing. But those in distress — those crushed by circumstance. Those in debt — those trapped by obligation and unable to escape. Those discontented — those whose lives under Saul&apos;s rule have left them restless and angry. These people come to David, and he becomes their <em>captain</em>. He leads not because he is stronger, but because he hears them. About 400 men.[res:sefaria-hannah-prayer][res:bible-odyssey-eli][res:iaa-shiloh]',
         },
         {
           kind: 'hebrew',

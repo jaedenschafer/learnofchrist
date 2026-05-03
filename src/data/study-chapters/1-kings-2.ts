@@ -31,6 +31,33 @@ export const KINGS_1_2: RichChapterContent = {
     ref: '1 Kings 2 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-solomon-reign',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Solomon&apos;s Reign and Temple',
+      url: 'https://www.sefaria.org/1_Kings.1',
+      description: 'Solomon&apos;s ascension to the throne and his building of the first temple.',
+    },
+    {
+      id: 'israel-museum-solomonic',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Solomonic Period Artifacts',
+      url: 'https://www.imj.org.il/',
+      description: 'Museum collection of objects from Solomon&apos;s era revealing 10th-century Iron Age culture.',
+    },
+    {
+      id: 'iaa-solomon-period',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of the Solomonic Period',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for urban centers and building projects attributed to Solomon.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Kings 2:1–4 — David's Deathbed Charge ──────────────────────── */
     {
@@ -77,7 +104,7 @@ export const KINGS_1_2: RichChapterContent = {
           kind: 'commentary',
           id: 'charge-strong',
           html:
-            'David&apos;s first words to Solomon are a call to courage: "be thou strong." Not strength in the sense of military might or physical power, but <em>strength</em> — the resolve to do what is right, to stand firm in truth, to lead with conviction. A king who is weak in will cannot lead a kingdom. David is not handing Solomon a throne; he is handing him a responsibility.',
+            'David&apos;s first words to Solomon are a call to courage: "be thou strong." Not strength in the sense of military might or physical power, but <em>strength</em> — the resolve to do what is right, to stand firm in truth, to lead with conviction. A king who is weak in will cannot lead a kingdom. David is not handing Solomon a throne; he is handing him a responsibility.[res:sefaria-solomon-reign][res:israel-museum-solomonic][res:iaa-solomon-period]',
         },
         {
           kind: 'commentary',

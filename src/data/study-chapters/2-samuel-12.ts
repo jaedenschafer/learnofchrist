@@ -32,6 +32,33 @@ export const SAMUEL_2_12: RichChapterContent = {
     ref: '2 Samuel 12 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-nathan-parable',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Nathan&apos;s Parable and Confession',
+      url: 'https://www.sefaria.org/2_Samuel.12',
+      description: 'The prophet Nathan&apos;s parable that confronts David and leads to his confession of sin.',
+    },
+    {
+      id: 'bible-odyssey-solomon-birth',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Solomon: Son of David and Bathsheba',
+      url: 'https://www.bibleodyssey.org/dictionary/solomon/',
+      description: 'Solomon&apos;s birth as God&apos;s chosen son to succeed David as Israel&apos;s next king.',
+    },
+    {
+      id: 'intertextual-son-covenant',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'God&apos;s Promise of a Faithful Son',
+      url: 'https://intertextual.bible/text/2-samuel-7',
+      description: 'God&apos;s promise that David&apos;s son will build the temple and his dynasty will be eternal.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Samuel 12:1–6 — Nathan's Parable ──────────────────────────── */
     {
@@ -99,7 +126,7 @@ export const SAMUEL_2_12: RichChapterContent = {
           kind: 'commentary',
           id: 'c-spare',
           html:
-            'The rich man "spared" to take from his own flock. He refused the courtesy expected of hospitality — to give from his own abundance. Instead, he took from the poor man. Not because he needed it. Because he could. Because power answers to no one.',
+            'The rich man "spared" to take from his own flock. He refused the courtesy expected of hospitality — to give from his own abundance. Instead, he took from the poor man. Not because he needed it. Because he could. Because power answers to no one[res:sefaria-nathan-parable][res:bible-odyssey-solomon-birth][res:intertextual-son-covenant].',
         },
 
         {

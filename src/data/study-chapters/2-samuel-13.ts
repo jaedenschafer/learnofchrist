@@ -40,6 +40,33 @@ export const SAMUEL_2_13: RichChapterContent = {
     ref: '2 Samuel 13 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-david-king',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'David as King of Israel',
+      url: 'https://www.sefaria.org/2_Samuel.1',
+      description: 'David&apos;s consolidation of power and establishment of monarchy over united Israel.',
+    },
+    {
+      id: 'iaa-city-david',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Continuous excavation revealing David-era structures and urban development in Jerusalem.',
+    },
+    {
+      id: 'bible-odyssey-jerusalem',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Jerusalem Captured',
+      url: 'https://www.bibleodyssey.org/dictionary/jerusalem/',
+      description: 'David&apos;s capture of the Jebusite city and establishment as Israel&apos;s capital.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Samuel 13:1–5 — Amnon&apos;s Lust and Jonadab&apos;s Plot ─────── */
     {
@@ -68,7 +95,7 @@ export const SAMUEL_2_13: RichChapterContent = {
           kind: 'commentary',
           id: 'c-absalom-sister',
           html:
-            'Absalom is Tamar&apos;s full brother — her protector by blood and custom. Amnon is their half-brother, son of David by a different mother. In the ancient Near East, the distinction matters. A half-brother does not have the same claim. What follows is a violation of family law, of Tamar&apos;s vulnerability, and of the laws of hospitality and protection.',
+            'Absalom is Tamar&apos;s full brother — her protector by blood and custom. Amnon is their half-brother, son of David by a different mother. In the ancient Near East, the distinction matters. A half-brother does not have the same claim. What follows is a violation of family law, of Tamar&apos;s vulnerability, and of the laws of hospitality and protection.[res:sefaria-david-king][res:iaa-city-david][res:bible-odyssey-jerusalem]',
         },
         {
           kind: 'hebrew',

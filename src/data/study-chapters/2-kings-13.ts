@@ -29,6 +29,33 @@ export const KINGS_2_13: RichChapterContent = {
     ref: '2 Kings 13 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-elisha-ministry',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Elisha the Prophet',
+      url: 'https://www.sefaria.org/2_Kings.1',
+      description: 'Elisha&apos;s ministry of miraculous healing and prophecy succeeding Elijah.',
+    },
+    {
+      id: 'bible-odyssey-elisha',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Elisha: Miracles and Ministry',
+      url: 'https://www.bibleodyssey.org/dictionary/elisha/',
+      description: 'Elisha&apos;s role as prophet in Israel&apos;s northern kingdom during the period of decline.',
+    },
+    {
+      id: 'iaa-northern-kingdom',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Archaeology of Northern Kingdom',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Excavation evidence for cities and settlements in the northern kingdom of Israel.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Kings 13:1–9 — Jehoahaz Reigns; Prayer and Partial Deliverance ── */
     {
@@ -49,7 +76,7 @@ export const KINGS_2_13: RichChapterContent = {
           kind: 'commentary',
           id: '2k13-reign-begins',
           html:
-            'Jehoahaz reigns; but he does evil—the pattern repeats, the exile draws nearer.',
+            'Jehoahaz reigns; but he does evil—the pattern repeats, the exile draws nearer.[res:sefaria-elisha-ministry][res:bible-odyssey-elisha][res:iaa-northern-kingdom]',
         },
         {
           kind: 'scripture',

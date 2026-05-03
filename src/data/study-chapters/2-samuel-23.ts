@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, plain, verse, type RichChapterContent } from './types';
 
 /**
- * 2 Samuel 23 — David's Last Words and His Mighty Men
+ * 2 Samuel 23 — David&apos;s Last Words and His Mighty Men
  *
  * David speaks his final words as an old king — a prophetic vision of the just
  * ruler "as the light of the morning without clouds." Then the chapter lists his
@@ -31,8 +31,35 @@ export const SAMUEL_2_23: RichChapterContent = {
     ref: '2 Samuel 23 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-david-king',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'David as King of Israel',
+      url: 'https://www.sefaria.org/2_Samuel.1',
+      description: 'David&apos;s consolidation of power and establishment of monarchy over united Israel.',
+    },
+    {
+      id: 'iaa-city-david',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Continuous excavation revealing David-era structures and urban development in Jerusalem.',
+    },
+    {
+      id: 'bible-odyssey-jerusalem',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Jerusalem Captured',
+      url: 'https://www.bibleodyssey.org/dictionary/jerusalem/',
+      description: 'David&apos;s capture of the Jebusite city and establishment as Israel&apos;s capital.',
+    },
+  ],
+
   sections: [
-    /* ─── 2 Samuel 23:1–7 — David's Last Words ──────────────────────── */
+    /* ─── 2 Samuel 23:1–7 — David&apos;s Last Words ──────────────────────── */
     {
       ref: '2 Samuel 23:1–7',
       title: 'David&apos;s Final Vision',
@@ -93,7 +120,7 @@ export const SAMUEL_2_23: RichChapterContent = {
           kind: 'commentary',
           id: 's23-raised-up',
           html:
-            'David identifies himself as "the man raised up on high" — one whom God has exalted. He speaks in the third person, with a kind of detachment that befits a man at the end of his life, looking back at what God has made of him. He is "the anointed of the God of Jacob" — set apart by God&apos;s own hand, given a calling. And he is "the sweet psalmist of Israel" — not only a warrior, but a voice, a singer, a man who expressed the soul of his people.',
+            'David identifies himself as "the man raised up on high" — one whom God has exalted. He speaks in the third person, with a kind of detachment that befits a man at the end of his life, looking back at what God has made of him. He is "the anointed of the God of Jacob" — set apart by God&apos;s own hand, given a calling. And he is "the sweet psalmist of Israel" — not only a warrior, but a voice, a singer, a man who expressed the soul of his people.[res:sefaria-david-king][res:iaa-city-david][res:bible-odyssey-jerusalem]',
         },
         {
           kind: 'commentary',
@@ -388,7 +415,7 @@ export const SAMUEL_2_23: RichChapterContent = {
           kind: 'commentary',
           id: '2-samuel-23-78mid-1',
           html:
-            'David's last words arrive. Not a battle plan or a speech to the kingdom, but a poem about the Spirit of the Lord speaking through him. The king's final gift is not power, but witness.',
+            'David&apos;s last words arrive. Not a battle plan or a speech to the kingdom, but a poem about the Spirit of the Lord speaking through him. The king's final gift is not power, but witness.',
         },
         {
           kind: 'scripture',
@@ -460,7 +487,7 @@ export const SAMUEL_2_23: RichChapterContent = {
           kind: 'commentary',
           id: '2-samuel-23-78mid-2',
           html:
-            'David's last words arrive. Not a battle plan or a speech to the kingdom, but a poem about the Spirit of the Lord speaking through him. The king's final gift is not power, but witness.',
+            'David&apos;s last words arrive. Not a battle plan or a speech to the kingdom, but a poem about the Spirit of the Lord speaking through him. The king's final gift is not power, but witness.',
         },
         {
           kind: 'scripture',

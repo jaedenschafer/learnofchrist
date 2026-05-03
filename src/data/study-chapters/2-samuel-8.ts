@@ -35,6 +35,33 @@ export const SAMUEL_2_8: RichChapterContent = {
     ref: '2 Samuel 8 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-david-campaigns',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'David&apos;s Military Campaigns',
+      url: 'https://www.sefaria.org/2_Samuel.8',
+      description: 'David&apos;s conquest of neighboring kingdoms and establishment of Israel&apos;s regional power.',
+    },
+    {
+      id: 'iaa-davidic-kingdom',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'The Davidic Kingdom',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence for the extent of David&apos;s territorial control in Iron Age Palestine.',
+    },
+    {
+      id: 'bible-odyssey-joab',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Joab and David&apos;s Army',
+      url: 'https://www.bibleodyssey.org/dictionary/joab/',
+      description: 'Joab&apos;s role as David&apos;s military commander in the creation of Israel&apos;s empire.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Samuel 8:1–4 — The Subduing of Philistines and Moab ────────── */
     {
@@ -61,7 +88,7 @@ export const SAMUEL_2_8: RichChapterContent = {
           kind: 'commentary',
           id: 'c-philistines',
           html:
-            'David&apos;s first great enemies are the Philistines. They have haunted Israel since the days of Samson and the judges. Now, with the kingdom unified under David, he breaks their power decisively. To "smite" the Philistines is to crush them as an independent force.',
+            'David&apos;s first great enemies are the Philistines. They have haunted Israel since the days of Samson and the judges. Now, with the kingdom unified under David, he breaks their power decisively. To "smite" the Philistines is to crush them as an independent force[res:sefaria-david-campaigns][res:iaa-davidic-kingdom][res:bible-odyssey-joab].',
         },
         {
           kind: 'commentary',

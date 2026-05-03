@@ -32,6 +32,33 @@ export const SAMUEL_2_10: RichChapterContent = {
     ref: '2 Samuel 10 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-david-king',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'David as King of Israel',
+      url: 'https://www.sefaria.org/2_Samuel.1',
+      description: 'David&apos;s consolidation of power and establishment of monarchy over united Israel.',
+    },
+    {
+      id: 'iaa-city-david',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Continuous excavation revealing David-era structures and urban development in Jerusalem.',
+    },
+    {
+      id: 'bible-odyssey-jerusalem',
+      kind: 'study',
+      source: 'Bible Odyssey/SBL',
+      label: 'Jerusalem Captured',
+      url: 'https://www.bibleodyssey.org/dictionary/jerusalem/',
+      description: 'David&apos;s capture of the Jebusite city and establishment as Israel&apos;s capital.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Samuel 10:1–5 — David's Kindness Intended; The Insult ─────── */
     {
@@ -68,7 +95,7 @@ export const SAMUEL_2_10: RichChapterContent = {
           kind: 'commentary',
           id: 'c-david-kindness',
           html:
-            'David remembers. Nahash, the former Ammonite king, had shown kindness to David in his own moment of need—perhaps during David&apos;s exile from Saul, though the full context is not recorded here. What matters is that David does not forget. Years later, when Nahash dies, David sends emissaries not to make war but to comfort. This is a king who honors old debts, who remembers mercy.',
+            'David remembers. Nahash, the former Ammonite king, had shown kindness to David in his own moment of need—perhaps during David&apos;s exile from Saul, though the full context is not recorded here. What matters is that David does not forget. Years later, when Nahash dies, David sends emissaries not to make war but to comfort. This is a king who honors old debts, who remembers mercy.[res:sefaria-david-king][res:iaa-city-david][res:bible-odyssey-jerusalem]',
         },
         {
           kind: 'hebrew',
