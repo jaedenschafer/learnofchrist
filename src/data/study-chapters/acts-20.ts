@@ -148,7 +148,7 @@ export const ACTS_20: RichChapterContent = {
           kind: 'commentary',
           id: 'acts20-breaking-bread',
           html:
-            'Paul and the disciples gather on the first day of the week—the Lord&apos;s Day—to break bread. This is the central act of Christian worship: remembering Jesus through the breaking of bread, the outpouring of wine, the shared meal. Paul knows he is leaving tomorrow. He will not gather with these people again. So he preaches until midnight. He has much to say. His final hours with them matter.',
+            'Paul and the disciples gather on the first day of the week—the Lord&apos;s Day—to break bread[res:didache-eucharist]. This is the central act of Christian worship: remembering Jesus through the breaking of bread, the outpouring of wine, the shared meal. Paul knows he is leaving tomorrow. He will not gather with these people again. So he preaches until midnight. He has much to say. His final hours with them matter.',
         },
         {
           kind: 'greek',
@@ -332,7 +332,7 @@ export const ACTS_20: RichChapterContent = {
           kind: 'commentary',
           id: 'acts20-summoned',
           html:
-            'From Miletus, Paul sends messengers to Ephesus, summoning the elders. They come to him. What unfolds is not a business meeting but a ministry review—one apostle speaking to those he has trained to carry the gospel forward. The tone is tender and clear. Paul is making a record.',
+            'From Miletus, Paul sends messengers to Ephesus, summoning the elders. They come to him. What unfolds is not a business meeting but a ministry review—one apostle speaking to those he&apos;s trained to carry the gospel forward. The tone is tender and clear. Paul is making a record. Miletus, the seaport of Ephesus, has been excavated extensively[res:ascsa-agora-miletus], revealing the harbor where Paul would have arrived and the theater where such gatherings might have occurred.',
         },
         {
           kind: 'commentary',
@@ -668,6 +668,25 @@ export const ACTS_20: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 20 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'didache-eucharist',
+      kind: 'study',
+      source: 'Early Christian Writings',
+      label: 'Didache: Teaching on the Eucharist',
+      url: 'https://www.earlychristianwritings.com/didache.html',
+      description: 'Early apostolic manual describing the breaking of bread and agape meal as core Christian practice, contemporary with Paul&apos;s era.',
+    },
+    {
+      id: 'ascsa-agora-miletus',
+      kind: 'archaeology',
+      source: 'ASCSA',
+      label: 'Miletus Excavations',
+      url: 'https://agora.ascsa.net/',
+      description: 'Ongoing excavations of the Miletus harbor and theater complex where Paul&apos;s farewell to the Ephesian elders likely took place.',
+    },
+  ],
 
   hasHebrew: false,
 };

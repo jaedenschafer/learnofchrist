@@ -88,7 +88,7 @@ export const ACTS_19: RichChapterContent = {
           kind: 'commentary',
           id: 'acts19-ephesus',
           html:
-            'Ephesus was the greatest city on the east coast of the Aegean—a center of trade, learning, and magic. The temple of Diana there was one of the seven wonders of the ancient world. When Paul arrives, he enters a city whose whole economy and spiritual identity is built on a goddess.',
+            'Ephesus was the greatest city on the east coast of the Aegean—a center of trade, learning, and magic. The temple of Diana there was one of the seven wonders of the ancient world[res:british-museum-temple-artemis]. When Paul arrives, he enters a city whose whole economy and spiritual identity is built on a goddess.',
         },
         {
           kind: 'commentary',
@@ -343,7 +343,7 @@ export const ACTS_19: RichChapterContent = {
           kind: 'commentary',
           id: 'acts19-name-magic',
           html:
-            'These are exorcists—men who make a living by casting out demons. They have heard of Paul&apos;s success and decide to use his name as a formula, a magical incantation. "We adjure you by Jesus whom Paul preacheth." They treat the name as they would treat an amulet or a spell. This is the corruption of faith into superstition.',
+            'These are exorcists—men who make a living by casting out demons. They have heard of Paul&apos;s success and decide to use his name as a formula, a magical incantation. "We adjure you by Jesus whom Paul preacheth." They treat the name as they would treat an amulet or a spell[res:theoi-ephesia-grammata]. This is the corruption of faith into superstition.',
         },
         {
           kind: 'greek',
@@ -570,7 +570,7 @@ export const ACTS_19: RichChapterContent = {
           kind: 'commentary',
           id: 'acts19-argurokopos',
           html:
-            'Demetrius is a silversmith—a man of craft and business. His identity is tied to his trade. He makes shrines of Diana, and people buy them. It is profitable. It is respectable. It is his life&apos;s work.',
+            'Demetrius is a silversmith—a man of craft and business[res:bibleodyssey-silversmith]. His identity is tied to his trade. He makes shrines of Diana, and people buy them. It is profitable. It is respectable. It is his life&apos;s work.',
         },
         {
           kind: 'greek',
@@ -620,7 +620,7 @@ export const ACTS_19: RichChapterContent = {
             ),
             verse(
               29,
-              t('And the whole city was filled with confusion: and having caught Gaius and Aristarchus, men of Macedonia, Paul&apos;s companions in travel, they rushed with one accord into the theatre.')
+              t('And the whole city was filled with confusion: and having caught Gaius and Aristarchus, men of Macedonia, Paul&apos;s companions in travel, they rushed with one accord into the theatre[res:ascsa-ephesus-theater].')
             ),
             verse(
               30,
@@ -810,6 +810,41 @@ export const ACTS_19: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 19 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'british-museum-temple-artemis',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Temple of Artemis at Ephesus',
+      url: 'https://www.britishmuseum.org/collection/search?query=artemis+ephesus',
+      description: 'Frieze fragments and sculptural remains from one of the Seven Wonders, held in the Greek & Roman Antiquities collection.',
+    },
+    {
+      id: 'theoi-ephesia-grammata',
+      kind: 'manuscript',
+      source: 'Theoi Classical Texts',
+      label: 'Ephesia Grammata — Magical Inscriptions',
+      url: 'https://www.theoi.com/Text/',
+      description: 'Papyri and inscriptions documenting the real Ephesian magical formulae (abracadabra-like texts) that dominated the city&apos;s spiritual commerce.',
+    },
+    {
+      id: 'ascsa-ephesus-theater',
+      kind: 'archaeology',
+      source: 'ASCSA',
+      label: 'Ephesus Theater Excavations',
+      url: 'https://agora.ascsa.net/',
+      description: 'Ongoing Austrian Archaeological Institute investigations of the theater where Demetrius&apos;s riot took place — Acts 19:29.',
+    },
+    {
+      id: 'bibleodyssey-silversmith',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Silversmith Trade in Ephesus',
+      url: 'https://www.bibleodyssey.org/dictionary/silversmith/',
+      description: 'SBL study entry on the Greek silversmith craft and the shrine-making economy that collapsed when believers rejected Diana idolatry.',
+    },
+  ],
 
   hasHebrew: false,
 };

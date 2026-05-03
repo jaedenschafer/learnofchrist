@@ -150,7 +150,7 @@ export const ACTS_21: RichChapterContent = {
           kind: 'commentary',
           id: 'acts21-philip-evangelist',
           html:
-            'Philip is the same man we met in Acts 6 and 8—one of the seven chosen to distribute food to widows. He became an evangelist, fled Jerusalem during Stephen&apos;s martyrdom, preached in Samaria, baptized the Ethiopian eunuch on a desert road, and somehow ended up in Caesarea. His home became a place where apostles were welcomed and the gospel was spoken freely.',
+            'Philip is the same man we met in Acts 6 and 8—one of the seven chosen to distribute food to widows. He became an evangelist, fled Jerusalem during Stephen&apos;s martyrdom, preached in Samaria, baptized the Ethiopian eunuch on a desert road, and somehow ended up in Caesarea[res:bibleodyssey-caesarea]. His home became a place where apostles were welcomed and the gospel was spoken freely.',
         },
         {
           kind: 'commentary',
@@ -382,7 +382,7 @@ export const ACTS_21: RichChapterContent = {
           kind: 'commentary',
           id: 'acts21-shave-heads',
           html:
-            'Under Jewish law, a man could take a Nazarite vow—a temporary vow of consecration to the Lord, ending in the temple with a sacrifice and the shaving of the head. Paul agrees to sponsor four men through their vow. This is a statement. He is saying: I honor the law. I honor our Jewish heritage. I am not your enemy. Watch me in the temple.',
+            'Under Jewish law, a man could take a Nazarite vow[res:sefaria-nazarite-vow]—a temporary vow of consecration to the Lord, ending in the temple with a sacrifice and the shaving of the head. Paul agrees to sponsor four men through their vow. This is a statement. He is saying: I honor the law. I honor our Jewish heritage. I am not your enemy. Watch me in the temple.',
         },
         {
           kind: 'greek',
@@ -458,7 +458,7 @@ export const ACTS_21: RichChapterContent = {
           kind: 'commentary',
           id: 'acts21-charge',
           html:
-            'The accusation is explosive: Paul teaches against the people, against the law, against the temple itself. The charge is both personal and theological—it strikes at the heart of Jewish identity. The temple is where God&apos;s presence dwells. The law is God&apos;s word. To be accused of teaching against them is to be accused of teaching against God Himself. The crowd does not need to hear more. They hear the charge and they erupt.',
+            'The accusation is explosive: Paul teaches against the people, against the law, against the temple itself. The charge is both personal and theological—it strikes at the heart of Jewish identity. The temple is where God&apos;s presence dwells. The law is God&apos;s word. To be accused of teaching against them is to be accused of teaching against God Himself. The crowd does not need to hear more. The specific charge is that Paul brought Greeks into the temple—a violation of Jewish sacred space, policed by the famous Temple Warning Inscription[res:imj-soreg-inscription] which threatened death to non-Jews who passed the barrier. The crowd does not need to hear more. They hear the charge and they erupt.',
         },
         {
           kind: 'commentary',
@@ -677,6 +677,33 @@ export const ACTS_21: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 21 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-caesarea',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Caesarea Maritima',
+      url: 'https://www.bibleodyssey.org/dictionary/caesarea/',
+      description: 'Historical and archaeological overview of the Roman city where Philip lived and Paul spent time with the prophetic daughters.',
+    },
+    {
+      id: 'sefaria-nazarite-vow',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Numbers 6 · The Nazirite Vow',
+      url: 'https://www.sefaria.org/Numbers.6.1-21',
+      description: 'Full text and rabbinic commentary on the temporary vow of consecration that Paul sponsors for the four men in Jerusalem.',
+    },
+    {
+      id: 'imj-soreg-inscription',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'The Temple Warning Inscription (Soreg)',
+      url: 'https://www.imj.org.il/en/collections',
+      description: 'The famous Greek inscription threatening death to non-Jews who enter the inner temple—the barrier Paul&apos;s accusers claimed he violated.',
+    },
+  ],
 
   hasHebrew: false,
 };

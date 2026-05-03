@@ -60,7 +60,7 @@ export const ACTS_18: RichChapterContent = {
           kind: 'commentary',
           id: 'acts18-sunergos',
           html:
-            'Paul does not arrive as an itinerant preacher with nothing. He arrives with a trade. He finds work alongside Aquila and Priscilla, fellow believers who have been scattered by Rome&apos;s expulsion of Jews under Claudius. They share a craft. The word here—"abode with them and wrought"—is the same word Paul uses elsewhere for working together in mission (2 Corinthians 6:1; 1 Thessalonians 3:2). The Greek is <em>synergos</em>—co-workers. The tentmaking is not separate from the gospel work. It is the gospel work.',
+            'Paul does not arrive as an itinerant preacher with nothing. He arrives with a trade. He finds work alongside Aquila and Priscilla, fellow believers who have been scattered by Rome&apos;s expulsion of Jews under Claudius. They share a craft. The word here—"abode with them and wrought"—is the same word Paul uses elsewhere for working together in mission (2 Corinthians 6:1; 1 Thessalonians 3:2)[res:corinth-ascsa]. The Greek is <em>synergos</em>—co-workers. The tentmaking is not separate from the gospel work. It is the gospel work.',
         },
         {
           kind: 'greek',
@@ -274,13 +274,13 @@ export const ACTS_18: RichChapterContent = {
           kind: 'commentary',
           id: 'acts18-gallio-refuses',
           html:
-            'Gallio is the Roman deputy of Achaia. The Jews have grown bold enough to drag Paul before the magistrate. They accuse him of persuading men to worship contrary to the law. But Gallio refuses the case. He says: "If it were a matter of wrong or wicked lewdness, I would hear you. But if it is a question of your law, look to it yourselves." Gallio treats Christianity as an internal Jewish dispute, not a crime against Rome. He will not judge it. He drives them from the court.',
+            'Gallio is the Roman deputy of Achaia. The Jews have grown bold enough to drag Paul before the magistrate. They accuse him of persuading men to worship contrary to the law. But Gallio refuses the case. He says: "If it were a matter of wrong or wicked lewdness, I would hear you. But if it is a question of your law, look to it yourselves." Gallio treats Christianity as an internal Jewish dispute, not a crime against Rome. He will not judge it[res:bibleodyssey-gallio]. He drives them from the court.',
         },
         {
           kind: 'commentary',
           id: 'acts18-sosthenes-beat',
           html:
-            'What happens next is striking. The Greeks (who are not even party to the dispute) beat Sosthenes, the chief of the synagogue, right in front of the judgment seat. Why? Perhaps they are punishing him for bringing a frivolous case. Perhaps they are expressing contempt for the Jews. Perhaps they sense that the gospel is beginning to shift the power dynamics in the city. And Gallio? He cares for none of it. His indifference is the turning point. Paul is protected by Roman law. The opposition has overreached. The synagogue&apos;s authority has been undercut.',
+            'What happens next is striking. The Greeks (who are not even party to the dispute) beat Sosthenes, the chief of the synagogue, right in front of the judgment seat. Why? Perhaps they are punishing him for bringing a frivolous case. Perhaps they are expressing contempt for the Jews. Perhaps they sense that the gospel is beginning to shift the power dynamics in the city[res:bibleodyssey-erastus]. And Gallio? He cares for none of it. His indifference is the turning point. Paul is protected by Roman law. The opposition has overreached. The synagogue&apos;s authority has been undercut.',
         },
         {
           kind: 'carry',
@@ -379,7 +379,7 @@ export const ACTS_18: RichChapterContent = {
           kind: 'commentary',
           id: 'acts18-scriptures',
           html:
-            'Apollos is "mighty in the scriptures"—<em>dunathos</em>, powerful, competent, skilled. He knows the Old Testament. He understands the line of prophecy about the Messiah. He is not ignorant or lazy. He is genuinely learned.',
+            'Apollos is "mighty in the scriptures"—<em>dunathos</em>, powerful, competent, skilled[res:bibleodyssey-apollos]. He knows the Old Testament. He understands the line of prophecy about the Messiah. He is not ignorant or lazy. He is genuinely learned.',
         },
         {
           kind: 'greek',
@@ -482,6 +482,41 @@ export const ACTS_18: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 18 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-gallio',
+      kind: 'archaeology',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Gallio the Proconsul',
+      url: 'https://www.bibleodyssey.org/dictionary/gallio/',
+      description: 'Historical entry on the proconsul of Achaia and the Delphi inscription that anchors NT chronology.',
+    },
+    {
+      id: 'bibleodyssey-erastus',
+      kind: 'archaeology',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Erastus of Corinth',
+      url: 'https://www.bibleodyssey.org/dictionary/erastus/',
+      description: 'Entry on the city treasurer mentioned in Romans 16:23, with Corinth excavation context.',
+    },
+    {
+      id: 'corinth-ascsa',
+      kind: 'archaeology',
+      source: 'ASCSA',
+      label: 'Corinth Excavations',
+      url: 'https://corinth.ascsa.net/',
+      description: 'Ongoing archaeological work at ancient Corinth revealing the marketplace, temples, and inscriptions of Paul&apos;s era.',
+    },
+    {
+      id: 'bibleodyssey-apollos',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Apollos',
+      url: 'https://www.bibleodyssey.org/dictionary/apollos/',
+      description: 'Profile of the eloquent preacher from Alexandria and his role in the early church.',
+    },
+  ],
 
   hasHebrew: false,
 };
