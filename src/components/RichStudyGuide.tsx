@@ -26,9 +26,11 @@ import type {
   Block,
   VerseLine,
   VerseSpan,
+  ResourceLink,
 } from '@/data/study-chapters/types';
 import './GenesisOneStudy.css';
 import './InlineArtwork.css';
+import './FurtherStudy.css';
 
 /**
  * Generic rich-study-guide renderer.
@@ -73,6 +75,68 @@ const ScriptureCtx = createContext<ScriptureCtxValue>({
   translationAbbr: 'kjv',
   versesByChapter: {},
 });
+
+/* ─── Resource numbering ──────────────────────────────────────────────── */
+// Resources are auto-numbered in the order they appear in `chapter.resources`.
+// Inline references (via `hr()` spans or `[res:id]` placeholders in HTML) look
+// up their number from this map. The number renders as a small blue
+// superscript that anchors down to the matching card in "Further study".
+
+const ResourceCtx = createContext<{ numberOf: Map<string, number>; ids: Set<string> }>({
+  numberOf: new Map(),
+  ids: new Set(),
+});
+
+function buildResourceMap(resources: ResourceLink[] | undefined) {
+  const numberOf = new Map<string, number>();
+  const ids = new Set<string>();
+  if (resources) {
+    resources.forEach((r, i) => {
+      numberOf.set(r.id, i + 1);
+      ids.add(r.id);
+    });
+  }
+  return { numberOf, ids };
+}
+
+/** Replace `[res:id]` placeholders in author HTML with a small blue superscript
+ *  link (`<a class="resource-ref" href="#res-id"><sup>N</sup></a>`). Unknown
+ *  ids are stripped quietly so the page never shows a broken placeholder. */
+function injectResourceRefs(html: string, numberOf: Map<string, number>): string {
+  return html.replace(/\[res:([a-z0-9-]+)\]/gi, (_match, id: string) => {
+    const n = numberOf.get(id);
+    if (!n) return '';
+    return `<a class="resource-ref" href="#res-${id}" aria-label="Source ${n}"><sup>${n}</sup></a>`;
+  });
+}
+
+/** Render author HTML with `[res:id]` placeholders replaced by numbered
+ *  superscript links. Drop-in replacement for `dangerouslySetInnerHTML`
+ *  call sites that feed author prose. */
+type AuthoredHtmlTag = 'span' | 'p' | 'div' | 'h1' | 'h2' | 'h3';
+
+function AuthoredHtml({
+  html,
+  as = 'span',
+  className,
+  id,
+}: {
+  html: string;
+  as?: AuthoredHtmlTag;
+  className?: string;
+  id?: string;
+}) {
+  const { numberOf } = useContext(ResourceCtx);
+  const out = numberOf.size > 0 ? injectResourceRefs(html, numberOf) : html;
+  const Component = as as 'span';
+  return (
+    <Component
+      {...(id ? { id } : {})}
+      {...(className ? { className } : {})}
+      dangerouslySetInnerHTML={{ __html: out }}
+    />
+  );
+}
 
 function ScriptureBlock({
   chapter,
@@ -134,9 +198,27 @@ function RenderVerseLine({ line }: { line: VerseLine }) {
 }
 
 function RenderSpan({ span }: { span: VerseSpan }) {
+  const { numberOf } = useContext(ResourceCtx);
   if (span.kind === 'text') {
     // Allow author-provided HTML (entities like &apos;, italics, etc.).
     return <span dangerouslySetInnerHTML={{ __html: span.text }} />;
+  }
+  if (span.kind === 'resource') {
+    const n = numberOf.get(span.resourceId);
+    return (
+      <span>
+        <span dangerouslySetInnerHTML={{ __html: span.text }} />
+        {n ? (
+          <a
+            className="resource-ref"
+            href={`#res-${span.resourceId}`}
+            aria-label={`Source ${n}`}
+          >
+            <sup>{n}</sup>
+          </a>
+        ) : null}
+      </span>
+    );
   }
   // mark
   return (
@@ -352,6 +434,7 @@ export default function RichStudyGuide({
   const hasHebrew =
     content.hasHebrew ??
     content.sections.some((s) => s.blocks.some((b) => b.kind === 'hebrew'));
+  const resourceMap = buildResourceMap(content.resources);
 
   return (
     <ScriptureCtx.Provider
@@ -361,6 +444,7 @@ export default function RichStudyGuide({
         versesByChapter,
       }}
     >
+     <ResourceCtx.Provider value={resourceMap}>
       <article className="rich-study">
         <HighlightController
           bookSlug={content.bookSlug}
@@ -390,7 +474,7 @@ export default function RichStudyGuide({
         </div>
 
         {content.intros.map((intro, i) => (
-          <p key={i} className="intro" dangerouslySetInnerHTML={{ __html: intro }} />
+          <AuthoredHtml key={i} as="p" className="intro" html={intro} />
         ))}
 
         {tapHint && <p className="tap-hint">{tapHint}</p>}
@@ -450,8 +534,63 @@ export default function RichStudyGuide({
             />
           </div>
         )}
+
+        {content.resources && content.resources.length > 0 && (
+          <FurtherStudy resources={content.resources} />
+        )}
       </article>
+     </ResourceCtx.Provider>
     </ScriptureCtx.Provider>
+  );
+}
+
+/* ─── Further study (resources section) ───────────────────────────────── */
+
+const RESOURCE_KIND_LABEL: Record<string, string> = {
+  museum: 'Museum',
+  manuscript: 'Manuscript',
+  archaeology: 'Archaeology',
+  lexicon: 'Lexicon',
+  study: 'Study',
+  archive: 'Archive',
+};
+
+function FurtherStudy({ resources }: { resources: ResourceLink[] }) {
+  return (
+    <section className="further-study" aria-labelledby="further-study-heading">
+      <h2 id="further-study-heading">Further study</h2>
+      <p className="further-study-lead">
+        Sources that illuminate the specific points marked above. Each opens in a new tab.
+      </p>
+      <ol className="further-study-list">
+        {resources.map((r, i) => (
+          <li key={r.id} id={`res-${r.id}`} className="further-study-card" data-kind={r.kind}>
+            <span className="fs-num" aria-hidden="true">{i + 1}</span>
+            <div className="fs-body">
+              <div className="fs-meta">
+                <span className="fs-source" dangerouslySetInnerHTML={{ __html: r.source }} />
+                <span className="fs-kind">{RESOURCE_KIND_LABEL[r.kind] ?? r.kind}</span>
+              </div>
+              <h3 className="fs-label" dangerouslySetInnerHTML={{ __html: r.label }} />
+              <p className="fs-desc" dangerouslySetInnerHTML={{ __html: r.description }} />
+              <a
+                className="fs-open"
+                href={r.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Open: ${r.label}`}
+              >
+                Open in new tab
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+                  <path d="M6 3H3v10h10v-3" strokeLinecap="round" />
+                  <path d="M9 3h4v4M13 3 7 9" strokeLinecap="round" />
+                </svg>
+              </a>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </section>
   );
 }
 
@@ -487,7 +626,7 @@ function RenderSection({
       {(section.ref || section.title) && (
         <h2 className="section">
           {section.ref && <span className="ref">{section.ref}</span>}
-          {section.title && <span dangerouslySetInnerHTML={{ __html: section.title }} />}
+          {section.title && <AuthoredHtml html={section.title} />}
         </h2>
       )}
       {groups.map((group, i) => {
@@ -530,38 +669,38 @@ function RenderBlock({
       return <ScriptureBlock chapter={block.chapter} lines={block.lines} />;
 
     case 'commentary':
-      return <p {...(block.id ? { id: block.id } : {})} dangerouslySetInnerHTML={{ __html: block.html }} />;
+      return <AuthoredHtml as="p" id={block.id} html={block.html} />;
 
     case 'hebrew':
       return (
         <div className="hebrew" id={block.id}>
-          <span className="title" dangerouslySetInnerHTML={{ __html: block.title }} />
+          <AuthoredHtml className="title" html={block.title} />
           <span className="script">{block.script}</span>
-          <span className="translit" dangerouslySetInnerHTML={{ __html: block.translit }} />
-          <p className="desc" dangerouslySetInnerHTML={{ __html: block.description }} />
+          <AuthoredHtml className="translit" html={block.translit} />
+          <AuthoredHtml as="p" className="desc" html={block.description} />
         </div>
       );
 
     case 'greek':
       return (
         <div className="hebrew greek" id={block.id}>
-          <span className="title" dangerouslySetInnerHTML={{ __html: block.title }} />
+          <AuthoredHtml className="title" html={block.title} />
           <span className="script">{block.script}</span>
-          <span className="translit" dangerouslySetInnerHTML={{ __html: block.translit }} />
-          <p className="desc" dangerouslySetInnerHTML={{ __html: block.description }} />
+          <AuthoredHtml className="translit" html={block.translit} />
+          <AuthoredHtml as="p" className="desc" html={block.description} />
         </div>
       );
 
     case 'christ':
       return (
         <div className="christ" id={block.id}>
-          <span className="title" dangerouslySetInnerHTML={{ __html: block.title }} />
-          <span dangerouslySetInnerHTML={{ __html: block.html }} />
+          <AuthoredHtml className="title" html={block.title} />
+          <AuthoredHtml html={block.html} />
         </div>
       );
 
     case 'carry':
-      return <div className="carry" dangerouslySetInnerHTML={{ __html: block.html }} />;
+      return <AuthoredHtml as="div" className="carry" html={block.html} />;
 
     case 'reflection':
       return <ReflectionBlock studyId={studyId} id={block.id} prompt={block.prompt} />;

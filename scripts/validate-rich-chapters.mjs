@@ -135,6 +135,40 @@ function validateFile(filePath) {
     errors.push(`mark.jumpTo '${t}' has no matching commentary id`);
   }
 
+  // 2b. Resource integrity. Every `hr(text, id)` and every `[res:id]`
+  //     placeholder must reference an id in `resources[]`. Every entry in
+  //     `resources[]` must be referenced at least once (no orphans).
+  const resourceIds = new Set();
+  // Heuristic: match `id: 'foo'` lines that appear inside a `resources:` array.
+  // We slice from `resources:` to the next top-level closing bracket.
+  const resourcesMatch = src.match(/\bresources:\s*\[([\s\S]*?)\n\s{2}\]/);
+  if (resourcesMatch) {
+    const resBlock = resourcesMatch[1];
+    for (const m of resBlock.matchAll(/\bid:\s*'([^']+)'/g)) resourceIds.add(m[1]);
+  }
+
+  // Collect all references to resources.
+  const resourceRefs = new Set();
+  for (const m of src.matchAll(/\bhr\(\s*'[^']*'\s*,\s*'([^']+)'\s*\)/g)) {
+    resourceRefs.add(m[1]);
+  }
+  for (const m of src.matchAll(/\[res:([a-z0-9-]+)\]/gi)) {
+    resourceRefs.add(m[1]);
+  }
+
+  // Broken refs.
+  for (const ref of resourceRefs) {
+    if (!resourceIds.has(ref)) {
+      errors.push(`resource ref '[res:${ref}]' or hr('${ref}') has no matching resources[].id`);
+    }
+  }
+  // Orphan resources.
+  for (const id of resourceIds) {
+    if (!resourceRefs.has(id)) {
+      errors.push(`resource '${id}' is in resources[] but never referenced inline (orphan)`);
+    }
+  }
+
   // 3. Required slots: at least one of each must be present.
   const required = [
     { name: 'scripture block', re: /\bkind:\s*'scripture'/ },

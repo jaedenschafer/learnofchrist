@@ -1,0 +1,204 @@
+/* ─── Inline resource superscript ──────────────────────────────────────
+ *  Renders the small blue number that follows the cited word/phrase.
+ *  The word itself is not underlined; only the number signals the link. */
+
+.resource-ref {
+  display: inline;
+  text-decoration: none;
+  margin-left: 1px;
+  vertical-align: baseline;
+}
+.resource-ref sup {
+  font-size: 0.62em;
+  font-weight: 600;
+  color: var(--resource-blue, #2f6fd6);
+  letter-spacing: 0.02em;
+  padding: 0 1px;
+  transition: color 120ms ease;
+}
+.resource-ref:hover sup,
+.resource-ref:focus-visible sup {
+  color: var(--resource-blue-dark, #1e4fa3);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+}
+.resource-ref:focus-visible {
+  outline: 2px solid var(--resource-blue, #2f6fd6);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+/* ─── Further study section ───────────────────────────────────────────
+ *  Sits at the bottom of every chapter that has a `resources` array.
+ *  Tries hard NOT to look like a generic article links list — wants
+ *  to read like the back of a museum-exhibit booklet. */
+
+.further-study {
+  margin: 4rem auto 2.5rem;
+  padding: 1.75rem 1.5rem 2rem;
+  max-width: 42rem;
+  border-top: 1px solid var(--rule-soft, rgba(0, 0, 0, 0.12));
+}
+.further-study h2 {
+  font-family: var(--serif, Georgia, 'Times New Roman', serif);
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: 0.005em;
+  margin: 0 0 0.4rem;
+  color: var(--ink, #1c1814);
+}
+.further-study-lead {
+  font-size: 0.92rem;
+  color: var(--ink-soft, #6b6157);
+  margin: 0 0 1.5rem;
+  font-style: italic;
+}
+
+.further-study-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.further-study-card {
+  display: grid;
+  grid-template-columns: 2.25rem 1fr;
+  gap: 0.75rem;
+  padding: 1rem 1rem 1rem 0.875rem;
+  border: 1px solid var(--rule-soft, rgba(0, 0, 0, 0.10));
+  border-radius: 10px;
+  background: var(--card-bg, #fbf9f5);
+  scroll-margin-top: 5rem; /* anchor lands below sticky header */
+  transition: border-color 200ms ease, box-shadow 200ms ease, transform 120ms ease;
+}
+.further-study-card:hover {
+  border-color: var(--rule, rgba(0, 0, 0, 0.20));
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.04);
+}
+
+/* Anchor flash — when an inline ref is clicked, the matching card
+ *  briefly pulses so the user knows where they landed. */
+.further-study-card:target {
+  animation: fs-target-flash 1700ms ease-out;
+}
+@keyframes fs-target-flash {
+  0%   { background: var(--resource-blue-tint, #e8f0fe); border-color: var(--resource-blue, #2f6fd6); }
+  100% { background: var(--card-bg, #fbf9f5); border-color: var(--rule-soft, rgba(0, 0, 0, 0.10)); }
+}
+
+.fs-num {
+  font-family: var(--serif, Georgia, 'Times New Roman', serif);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--resource-blue, #2f6fd6);
+  text-align: right;
+  padding-top: 0.05em;
+  user-select: none;
+}
+
+.fs-body { min-width: 0; }
+
+.fs-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--ink-soft, #6b6157);
+  margin-bottom: 0.35rem;
+}
+.fs-source { font-weight: 600; }
+.fs-kind {
+  padding: 0.12rem 0.5rem;
+  border-radius: 999px;
+  background: var(--chip-bg, rgba(0, 0, 0, 0.05));
+  font-weight: 500;
+  letter-spacing: 0.06em;
+}
+/* Tonal tint per kind — keeps the chip readable but quietly differentiated. */
+.further-study-card[data-kind="museum"]      .fs-kind { background: rgba(199, 121, 24, 0.12);  color: #8a5008; }
+.further-study-card[data-kind="manuscript"]  .fs-kind { background: rgba(72,  84, 132, 0.14); color: #2c365e; }
+.further-study-card[data-kind="archaeology"] .fs-kind { background: rgba(120, 96, 60, 0.14);  color: #5a4324; }
+.further-study-card[data-kind="lexicon"]     .fs-kind { background: rgba(56, 116, 96, 0.14);  color: #1f4e3e; }
+.further-study-card[data-kind="study"]       .fs-kind { background: rgba(72, 76, 96, 0.12);   color: #2f3650; }
+.further-study-card[data-kind="archive"]     .fs-kind { background: rgba(96, 80, 96, 0.12);   color: #4a3848; }
+
+.fs-label {
+  font-family: var(--serif, Georgia, 'Times New Roman', serif);
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem;
+  color: var(--ink, #1c1814);
+  line-height: 1.3;
+}
+
+.fs-desc {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--ink-mid, #3d342c);
+}
+
+.fs-open {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--resource-blue, #2f6fd6);
+  text-decoration: none;
+  padding: 0.35rem 0.65rem 0.35rem 0.75rem;
+  border-radius: 7px;
+  background: var(--resource-blue-tint, #eef3fc);
+  border: 1px solid transparent;
+  transition: background 150ms ease, border-color 150ms ease, color 150ms ease;
+}
+.fs-open svg {
+  width: 0.85rem;
+  height: 0.85rem;
+}
+.fs-open:hover,
+.fs-open:focus-visible {
+  background: #fff;
+  border-color: var(--resource-blue, #2f6fd6);
+  color: var(--resource-blue-dark, #1e4fa3);
+}
+.fs-open:focus-visible {
+  outline: 2px solid var(--resource-blue, #2f6fd6);
+  outline-offset: 2px;
+}
+
+@media (max-width: 540px) {
+  .further-study {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .further-study-card {
+    grid-template-columns: 1.75rem 1fr;
+    padding: 0.875rem 0.875rem 0.875rem 0.75rem;
+    gap: 0.6rem;
+  }
+  .fs-num { font-size: 1.25rem; }
+}
+
+/* Dark mode — readable shifts on the same hues. */
+@media (prefers-color-scheme: dark) {
+  .further-study-card {
+    background: var(--card-bg-dark, rgba(255, 255, 255, 0.03));
+    border-color: rgba(255, 255, 255, 0.10);
+  }
+  .further-study-card:hover {
+    border-color: rgba(255, 255, 255, 0.20);
+  }
+  .resource-ref sup { color: #6da4ff; }
+  .resource-ref:hover sup { color: #9cc1ff; }
+  .fs-num { color: #6da4ff; }
+  .fs-open { color: #6da4ff; background: rgba(109, 164, 255, 0.10); }
+  .fs-open:hover,
+  .fs-open:focus-visible { background: rgba(109, 164, 255, 0.22); color: #b8d2ff; }
+}

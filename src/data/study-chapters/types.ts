@@ -14,8 +14,10 @@
 
 /* ─── Inline scripture marks ──────────────────────────────────────────── */
 
-/** A single span of text within a scripture verse. Plain text or a
- *  highlighted phrase that's clickable to jump to the matching commentary. */
+/** A single span of text within a scripture verse. Plain text, a
+ *  highlighted phrase that's clickable to jump to the matching commentary,
+ *  or a research-resource hook that adds a small superscript number to the
+ *  text and anchors down to the chapter's "Further study" section. */
 export type VerseSpan =
   | { kind: 'text'; text: string }
   | {
@@ -28,6 +30,15 @@ export type VerseSpan =
       text: string;
       /** Hash id of the commentary block this jumps to. */
       jumpTo: string;
+    }
+  | {
+      kind: 'resource';
+      /** Plain (un-highlighted) text — renders as ordinary verse text with
+       *  a small superscript number rendered immediately after it. */
+      text: string;
+      /** Id of the matching entry in `RichChapterContent.resources`. The
+       *  superscript number is auto-assigned in document order. */
+      resourceId: string;
     };
 
 export interface VerseLine {
@@ -118,6 +129,45 @@ export interface RichChapterContent {
   /** Set true when the chapter has at least one Hebrew callout — drives
    *  whether the <HebrewAudio> component mounts. Auto-derived if absent. */
   hasHebrew?: boolean;
+
+  /** Optional list of external research resources (museum holdings, manuscript
+   *  collections, peer-reviewed studies, archaeological catalogues, etc.).
+   *  Inline `hr(text, resourceId)` marks in the prose render a small blue
+   *  superscript number that anchors down to the matching card in the
+   *  "Further study" section at the bottom of the chapter. The number is
+   *  auto-assigned in document order; authors do not number manually. */
+  resources?: ResourceLink[];
+}
+
+/* ─── Research resources ──────────────────────────────────────────────── */
+
+export type ResourceKind =
+  | 'museum'
+  | 'manuscript'
+  | 'archaeology'
+  | 'lexicon'
+  | 'study'
+  | 'archive';
+
+export interface ResourceLink {
+  /** Stable id referenced by inline `hr(text, id)` marks. Lowercase + hyphens. */
+  id: string;
+  /** Source institution / publisher, rendered in small caps above the title.
+   *  Examples: "The British Museum", "Israel Museum, Jerusalem",
+   *  "Yale Divinity Library", "JBL — Society of Biblical Literature". */
+  source: string;
+  /** Short, scannable title of the artifact / manuscript / paper. */
+  label: string;
+  /** Direct URL to the artefact page or open-access publication. Must be
+   *  institutional and stable — no blogs, no devotional sites, no
+   *  link-rot-prone pages. */
+  url: string;
+  /** One-sentence (occasionally two) explanation of what this resource shows
+   *  AND why it matters for the specific point in the chapter it's anchored
+   *  to. Avoid generic chapter overviews. */
+  description: string;
+  /** Drives the small badge on the resource card. */
+  kind: ResourceKind;
 }
 
 /* ─── Helpers for chapter authors ─────────────────────────────────────── */
@@ -137,3 +187,8 @@ export const hp = (text: string, jumpTo: string): VerseSpan => ({ kind: 'mark', 
 export const hy = (text: string, jumpTo: string): VerseSpan => ({ kind: 'mark', tone: 'hy', text, jumpTo });
 export const hg = (text: string, jumpTo: string): VerseSpan => ({ kind: 'mark', tone: 'hg', text, jumpTo });
 export const t = (text: string): VerseSpan => ({ kind: 'text', text });
+
+/** Resource hook — wraps `text` plainly (no underline, no color change) and
+ *  renders a small blue superscript number after it. The number is computed
+ *  at render time from the chapter's resources array order. */
+export const hr = (text: string, resourceId: string): VerseSpan => ({ kind: 'resource', text, resourceId });
