@@ -55,16 +55,13 @@ for (let i = 0; i < matches.length; i++) {
     ...region.matchAll(/\bnumber:\s*(\d+)/g),
     ...region.matchAll(/\bplain\(\s*(\d+)/g),
   ].map((m) => parseInt(m[1], 10));
-  if (verseNums.includes(splitVerse) && verseNums.length > splitVerse - verseNums[0] + 1) {
-    // splitVerse exists AND there are more verses after it
-    if (verseNums[verseNums.length - 1] > splitVerse) {
-      // capture chapter
-      const chapMatch = region.match(/chapter:\s*(\d+)/);
-      chapter = chapMatch ? parseInt(chapMatch[1], 10) : null;
-      blockStart = matches[i].index;
-      blockEnd = end;
-      break;
-    }
+  if (verseNums.includes(splitVerse) && Math.max(...verseNums) > splitVerse) {
+    // splitVerse exists AND there are verses after it in this block.
+    const chapMatch = region.match(/chapter:\s*(\d+)/);
+    chapter = chapMatch ? parseInt(chapMatch[1], 10) : null;
+    blockStart = matches[i].index;
+    blockEnd = end;
+    break;
   }
 }
 

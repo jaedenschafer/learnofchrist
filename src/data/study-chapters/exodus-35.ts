@@ -248,6 +248,18 @@ export const EXODUS_35: RichChapterContent = {
                 t('And the candlestick for the light, and his furniture, and his lamps, and the oil for the light,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ex35-furniture-listed',
+          html:
+            'The tabernacle furniture is named one piece at a time — table, lampstand, altar, laver. Each item is a station of approach; together they form a path into God&apos;s presence.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 35,
+          lines: [
             {
               number: 15,
               spans: [

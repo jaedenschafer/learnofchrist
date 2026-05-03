@@ -86,6 +86,18 @@ export const EZRA_2: RichChapterContent = {
             plain(4, 'The children of Shephatiah, three hundred seventy and two.'),
             plain(5, 'The children of Arah, seven hundred seventy and five.'),
             plain(6, 'The children of Pahath-moab, of the children of Jeshua and Joab, two thousand eight hundred and twelve.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ezra-2-multitude-singers',
+          html:
+            'Lists blur together. Thousands return. But then: singers. Two hundred. A remnant names singers—those who carry the voice of worship. The people rebuild; the singers ensure God hears.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(7, 'The children of Elam, a thousand two hundred fifty and four.'),
             plain(8, 'The children of Zattu, nine hundred forty and five.'),
             plain(9, 'The children of Zaccai, seven hundred and sixty.'),

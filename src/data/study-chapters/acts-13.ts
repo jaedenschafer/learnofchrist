@@ -329,6 +329,18 @@ export const ACTS_13: RichChapterContent = {
                 t(''),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'acts13-resurrection-proclaimed',
+          html:
+            'Paul pivots from Israel&apos;s history to the resurrection. Everything that has been said about David is now said about David&apos;s greater Son — raised, never to see corruption.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 13,
+          lines: [
             {
               number: 35,
               spans: [
@@ -449,6 +461,18 @@ export const ACTS_13: RichChapterContent = {
                 t(''),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'acts-13-uproar',
+          html:
+            'The Gospel stirs joy in the city—but jealousy in the synagogue. Some believe; some rage. The same message splits crowds. Light exposes what was hidden.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 13,
+          lines: [
             {
               number: 48,
               spans: [

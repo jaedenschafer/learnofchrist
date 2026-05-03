@@ -491,6 +491,18 @@ export const EXODUS_29: RichChapterContent = {
                 t('And the holy garments of Aaron shall be his sons&apos; after him, to be anointed therein, and to be consecrated in them.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ex29-priests-consecrated',
+          html:
+            'The garments pass to the priest&apos;s sons after him; the consecration lasts seven days. Holiness in the priesthood is not personal achievement; it is inheritance and discipline together.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 29,
+          lines: [
             {
               number: 30,
               spans: [
@@ -655,6 +667,18 @@ export const EXODUS_29: RichChapterContent = {
                 t('And the other lamb thou shalt offer at even, and shalt do thereto according to the meat offering of the morning, and according to the drink offering thereof, for a sweet savour, an offering made by fire unto the Lord.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ex29-daily-offering',
+          html:
+            'A lamb in the morning, a lamb at evening — the daily offering frames the whole life of Israel. Atonement is not a special event; it is a heartbeat.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 29,
+          lines: [
             {
               number: 42,
               spans: [

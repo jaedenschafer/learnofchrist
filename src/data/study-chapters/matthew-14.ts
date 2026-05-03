@@ -38,6 +38,18 @@ export const MATTHEW_14: RichChapterContent = {
             plain(10, 'And he sent, and beheaded John in the prison.'),
             plain(12, 'And his disciples came, and took up the body, and buried it, and went and told Jesus.'),
             plain(14, 'And Jesus went forth, and saw a great multitude, and was moved with compassion toward them, and he healed their sick.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'matt14-compassion-feeds',
+          html:
+            'The crowd had pressed Him for a day; Jesus felt their hunger and asked for what little His disciples had. Compassion is not abstract here; it is bread.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 14,
+          lines: [
             plain(16, 'But Jesus said unto them, They need not depart: give ye them to eat.'),
             plain(18, 'He said, Bring them hither to me.'),
             plain(19, 'And he commanded the multitude to sit down on the grass: and took the five loaves, and the two fishes, and looking up to heaven, he blessed, and brake, and gave the loaves to his disciples, and the disciples to the multitude.'),
@@ -110,6 +122,18 @@ export const MATTHEW_14: RichChapterContent = {
             plain(24, 'But the ship was now in the midst of the sea, tossed with waves: for the wind was contrary.'),
             plain(25, 'And in the fourth watch of the night Jesus went unto them, walking on the sea.'),
             plain(26, 'And when the disciples saw him walking on the sea, they were troubled, saying, It is a spirit; and they cried out for fear.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'matt-14-walking-miracle',
+          html:
+            'The boat is battered. Waves crash. The disciples row in terror. Jesus walks toward them on water. Fear turns to awe. He is here. The storm cannot undo what His presence ensures.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 14,
+          lines: [
             plain(27, 'But straightway Jesus spake unto them, saying, Be of good cheer; it is I; be not afraid.'),
             plain(28, 'And Peter answered him and said, Lord, if it be thou, tell me to come unto thee on the water.'),
             plain(29, 'And he said, Come. And when Peter was come down out of the ship, he walked on the water, to go to Jesus.'),

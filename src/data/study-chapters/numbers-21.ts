@@ -409,4 +409,31 @@ export const NUMBERS_21: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'sefaria-numbers-21',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 21',
+      url: 'https://www.sefaria.org/Numbers.21',
+      description: 'Text and commentary on Israel&apos;s grumbling, the fiery serpents, and the bronze serpent lifted on a pole.',
+    },
+    {
+      id: 'john-3-serpent-christ',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Numbers 21:9 ↔ John 3:14–15',
+      url: 'https://intertextual.bible/text/numbers-21.9/john-3.14',
+      description: 'Jesus cites the lifted serpent as a type of His own crucifixion and the salvation available through faith.',
+    },
+    {
+      id: 'israel-museum-serpent',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Bronze Serpent Archaeology',
+      url: 'https://www.imj.org.il/',
+      description: 'Archaeological context for serpent imagery in ancient Near Eastern religion and biblical typology.',
+    },
+  ],
 };

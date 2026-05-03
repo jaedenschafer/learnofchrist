@@ -30,6 +30,18 @@ export const HAGGAI_2: RichChapterContent = {
             plain(2, 'Speak now to Zerubbabel the son of Shealtiel, governor of Judah, and to Joshua the son of Josedech, the high priest, and to the residue of the people, saying,'),
             plain(3, 'Who is left among you that saw this house in her first glory? and how do ye see it now? is it not in your eyes in comparison of it as nothing?'),
             plain(4, 'Yet now be strong, O Zerubbabel, saith the Lord; and be strong, O Joshua, son of Josedech, the high priest; and be strong, all ye people of the land, saith the Lord, and work: for I am with you, saith the Lord of hosts:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'haggai-2-foundation-greater',
+          html:
+            'The old priests weep—the old house was grander. But God asks: does this temple seem small? See the foundation. The Lord will fill this house with glory. What we build for Him surpasses what we mourn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(5, 'According to the word that I covenanted with you when ye came out of Egypt, so my spirit remaineth among you: fear ye not.'),
             plain(6, 'For thus saith the Lord of hosts; Yet once, it is a little while, and I will shake the heavens, and the earth, and the sea, and the dry land;'),
             plain(7, 'And I will shake all nations, and the desire of all nations shall come: and I will fill this house with glory, saith the Lord of hosts.'),
@@ -85,6 +97,18 @@ export const HAGGAI_2: RichChapterContent = {
             plain(11, 'Thus saith the Lord of hosts; Ask now the priests concerning the law, saying,'),
             plain(12, 'If one bear holy flesh in the skirt of his garment, and with his skirt do touch bread, or pottage, or wine, or oil, or any meat, shall it be holy? And the priests answered and said, No.'),
             plain(13, 'Then said Haggai, If one that is unclean by a dead body touch any of these, shall it be unclean? And the priests answered and said, It shall be unclean.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'haggai-2-defiled-clean',
+          html:
+            'Holy bread in soiled hands still defiles. Holiness is not contagion; sin is. One unclean person touches bread, all becomes unclean. The principle cuts deep: evil spreads faster than goodness takes root.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(14, 'Then answered Haggai, and said, So is this people, and so is this nation before me, saith the Lord; and so is every work of their hands; and that which they offer there is unclean.'),
             plain(15, 'And now, I pray you, consider from this day and upward, from before a stone was laid upon a stone in the temple of the Lord:'),
             plain(16, 'Since those days were, when one came to an heap of twenty measures, there were but ten: when one came to the pressfat for to draw out fifty vessels out of the press, there were but twenty.'),

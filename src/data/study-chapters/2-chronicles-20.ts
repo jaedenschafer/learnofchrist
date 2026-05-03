@@ -517,6 +517,18 @@ export const CHRONICLES_2_20: RichChapterContent = {
                 t('And he walked in the way of his father Asa, and departed not from it, doing that which was right in the sight of the Lord.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2chr20-jehoshaphat-reign',
+          html:
+            'Jehoshaphat&apos;s reign closes on a mixed note — his judgment-seat reforms outlasted him; his alliances with Ahab&apos;s house did not. The chronicler does not airbrush either.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 20,
+          lines: [
             {
               number: 33,
               spans: [

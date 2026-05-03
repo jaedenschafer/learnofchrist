@@ -132,6 +132,18 @@ export const CHRONICLES_2_18: RichChapterContent = {
                 t(', by whom we may enquire of the Lord: but he never prophesied good unto me, but always evil. Nevertheless let us hear him. So the king of Israel and Jehoshaphat the king of Judah sat either of them on his throne, clothed in their robes, and they sat in a void place at the entering in of the gate of Samaria; and all the prophets prophesied before them.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2chr18-prophets-united',
+          html:
+            'Four hundred prophets stand together, all promising victory at Ramoth-gilead. Jehoshaphat senses the unanimity is too clean — and asks if there is one more, anyone with a different word.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             {
               number: 8,
               spans: [
@@ -389,6 +401,18 @@ export const CHRONICLES_2_18: RichChapterContent = {
                 t('So the king of Israel and Jehoshaphat the king of Judah went up to Ramothgilead.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2chr18-micaiah-prison',
+          html:
+            'Micaiah is jailed for telling the truth. The four hundred prophets keep their freedom by telling the king what he wants to hear. Truth costs more than agreement.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             {
               number: 27,
               spans: [

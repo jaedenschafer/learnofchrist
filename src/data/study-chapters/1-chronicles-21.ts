@@ -311,6 +311,18 @@ export const CHRONICLES_1_21: RichChapterContent = {
             plain(20, 'And Ornan turned back, and saw the angel; and his four sons with him hid themselves. Now Ornan was threshing wheat.'),
             plain(21, 'And as David came to Ornan, Ornan looked and saw David, and went out of the threshingfloor, and bowed himself to David with his face to the ground.'),
             plain(22, 'Then David said to Ornan, Grant me the place of this threshingfloor, that I may build an altar therein unto the Lord: thou shalt grant it me for the full price: that the plague may be stayed from the people.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr21-ornan-floor',
+          html:
+            'David refuses to take the threshing floor as a gift. The altar that will become the temple cannot be founded on someone else&apos;s loss; it must cost the king himself.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             {
               number: 23,
               spans: [

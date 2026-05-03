@@ -31,6 +31,18 @@ export const NAHUM_2: RichChapterContent = {
             plain(3, 'The shield of his mighty men is made red, the valiant men are in scarlet: the chariots shall be with flaming torches in the day of his preparation, and the fir trees shall be terribly shaken.'),
             plain(4, 'The chariots shall rage in the streets, they shall justle one against another in the broad ways: they shall seem like torches, they shall run like the lightnings.'),
             plain(5, 'He shall recount his worthy ones: they shall stumble in their walk; they shall make haste to the wall thereof, and the defence shall be prepared.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'nahum-2-lion-prey',
+          html:
+            'Nineveh is the lion&apos;s den. She devours and devours. But God says: I am against you. The hunter becomes the hunted. The den will be stripped. Prey will no longer fill the cave.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(6, 'The gates of the rivers shall be opened, and the palace shall be dissolved.'),
             plain(7, 'And Huzzab shall be led away captive, she shall be brought up, and her maids shall lead her as with the voice of doves, tabering upon their breasts.'),
             plain(8, 'But Nineveh is of old like a pool of water: yet they shall flee away. Stand, stand, shall they cry; but none shall look back.'),

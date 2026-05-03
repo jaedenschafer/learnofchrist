@@ -33,6 +33,18 @@ export const AMOS_8: RichChapterContent = {
             plain(3, 'And the songs of the temple shall be howlings in that day, saith the Lord God: there shall be many dead bodies in every place; they shall cast them forth with silence.'),
             plain(4, 'Hear this, O ye that swallow up the needy, even to make the poor of the land to fail;'),
             plain(5, 'Saying, When will the new moon be gone, that we may sell corn? and the sabbath, that we may set forth wheat, making the ephah small, and the shekel great, and falsifying the balances by deceit?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'amos8-merchants-greedy',
+          html:
+            'The merchants are watching the new moon end so they can cheat with smaller measures. Their fast is not religion; it is impatience to get back to fraud.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(6, 'That we may buy the poor for silver, and the needy for a pair of shoes; yea, and sell the refuse of the wheat?'),
             plain(7, 'The Lord hath sworn by the excellency of Jacob, Surely I will never forget any of their works.'),
             plain(8, 'Shall not the land tremble for this, and every one mourn that dwelleth therein? and it shall rise up wholly as a flood; and it shall be cast out and drowned, as by the flood of Egypt.'),

@@ -113,6 +113,18 @@ export const PSALMS_104: RichChapterContent = {
             plain(24, 'O Lord, how manifold are thy works! in wisdom hast thou made them all: the earth is full of thy riches.'),
             plain(27, 'These wait all upon thee; that thou mayest give them their meat in due season.'),
             plain(28, 'That thou givest them they gather: thou openest thine hand, they are filled with good.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps104-creation-rhythm',
+          html:
+            'The psalmist pivots from the sea&apos;s creatures to the daily provisioning of all things. The God who made leviathan also fills the sparrow&apos;s mouth.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 104,
+          lines: [
             plain(29, 'Thou hidest thy face, they are troubled: thou takest away their breath, they die, and return to their dust.'),
             plain(30, 'Thou sendest forth thy spirit, they are created: and thou renewest the face of the earth.'),
             plain(33, 'I will sing unto the Lord as long as I live: I will sing praise to my God while I have my being.'),

@@ -58,7 +58,7 @@ export const NUMBERS_15: RichChapterContent = {
           kind: 'commentary',
           id: 'fire-offering',
           html:
-            'This is extraordinary. The older generation — those who have refused the land — will not make these offerings. But Moses is to speak the laws as if the promise is certain. God does not treat the people&apos;s unbelief as if it cancels the future. The laws are written toward a generation not yet born, whose faith may be different.',
+            'This is extraordinary. The older generation — those who have refused the land — will not make these offerings. But Moses is to speak the laws as if the promise is certain. God does not treat the people&apos;s unbelief as if it cancels the future. The laws are written toward a generation not yet born, whose faith may be different. [res:sefaria-numbers-15]',
         },
         {
           kind: 'scripture',
@@ -292,7 +292,7 @@ export const NUMBERS_15: RichChapterContent = {
           kind: 'commentary',
           id: 'cut-off',
           html:
-            'The repeated emphasis — "utterly be cut off" — marks the severity. There is no atonement for defiant sin within Israel&apos;s system. The person severs themselves from the covenant community. This is not God&apos;s execution; it is the person&apos;s own choice made visible in their exile from Israel. Under the new covenant, even this kind of sin finds forgiveness (Acts 2:38, 1 John 1:9), but here, in covenant Israel, the line is absolute.',
+            'The repeated emphasis — "utterly be cut off" — marks the severity. There is no atonement for defiant sin within Israel&apos;s system. The person severs themselves from the covenant community. This is not God&apos;s execution; it is the person&apos;s own choice made visible in their exile from Israel. Under the new covenant, even this kind of sin finds forgiveness (Acts 2:38, 1 John 1:9), but here, in covenant Israel, the line is absolute. [res:sefaria-high-hand-sin]',
         },
         {
           kind: 'carry',

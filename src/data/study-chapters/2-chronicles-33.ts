@@ -61,6 +61,18 @@ export const CHRONICLES_2_33: RichChapterContent = {
             },
             plain(3, 'For he built again the high places which Hezekiah his father had broken down, and he reared up altars for Baalim, and made groves, and worshipped all the host of heaven, and served them.'),
             plain(4, 'Also he built altars in the house of the Lord, of which the Lord had said, In Jerusalem shall my name be for ever.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2chr33-manasseh-evil',
+          html:
+            'Manasseh inherits the throne at twelve and undoes everything Hezekiah built. The next verses will show whether even this can be undone — and whether God can still bend the worst of kings.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 33,
+          lines: [
             plain(5, 'And he built altars for all the host of heaven in the two courts of the house of the Lord.'),
             {
               number: 6,

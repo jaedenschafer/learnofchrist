@@ -96,6 +96,18 @@ export const PROVERBS_5: RichChapterContent = {
             plain(16, 'Let thy fountains be dispersed abroad, and rivers of waters in the streets.'),
             plain(17, 'Let them be only thine own, and not strangers&apos; with thee.'),
             plain(18, 'Let thy fountain be blessed: and rejoice with the wife of thy youth.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov-5-bitter-sweet',
+          html:
+            'Her lips drip honey. Her mouth is smoother than oil. But her end? Bitter as wormwood. Her feet slip. She does not ponder the path. What tastes sweet masks what destroys. Wisdom discerns the end in the beginning.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(19, 'Let her be as the loving hind and pleasant roe; let her breasts satisfy thee at all times; and be thou ravished always with her love.'),
             plain(20, 'And why wilt thou, my son, be ravished with a strange woman, and embrace the bosom of a stranger?'),
             plain(21, 'For the ways of man are before the eyes of the Lord: and he pondereth all his goings.'),

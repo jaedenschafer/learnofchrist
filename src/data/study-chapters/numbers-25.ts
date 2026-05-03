@@ -447,4 +447,31 @@ export const NUMBERS_25: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'sefaria-numbers-25',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 25',
+      url: 'https://www.sefaria.org/Numbers.25',
+      description: 'Text and commentary on Israel&apos;s idolatry at Baal-peor and Phinehas&apos;s zealous covenant act.',
+    },
+    {
+      id: 'bible-odyssey-baal-peor',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Baal-peor',
+      url: 'https://www.bibleodyssey.org/dictionary/baal-peor/',
+      description: 'SBL entry on Baal-peor and the nature of the Canaanite fertility cult that seduced Israel.',
+    },
+    {
+      id: 'phinehas-covenant',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Numbers 25 ↔ Hebrews 7',
+      url: 'https://intertextual.bible/text/numbers-25/hebrews-7',
+      description: 'Contrast between Phinehas&apos;s covenant priesthood and Christ&apos;s eternal priesthood in the order of Melchizedek.',
+    },
+  ],
 };

@@ -83,6 +83,18 @@ export const HOSEA_7: RichChapterContent = {
             plain(9, 'Strangers have devoured his strength, and he knoweth it not: yea, gray hairs are here and there upon him, yet he knoweth not.'),
             plain(10, 'And the pride of Israel testifieth to his face: and they do not return to the Lord their God, nor seek him for all this.'),
             plain(11, 'For Ephraim is like a silly dove without heart: they call to Egypt, they go to Assyria.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'hosea-7-forgotten-maker',
+          html:
+            'Ephraim is mixed among nations. They call on idols. Gray shows on him but he knows it not. A man forgets himself, forgets his Maker. Like dough half-leavened, he rises and falls, never whole.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(12, 'When they shall go, I will spread my net upon them: I will bring them down as the fowls of the heaven; I will chastise them, as their congregation hath heard.'),
             plain(13, 'Woe unto them! for they have fled from me: destruction unto them! because they have transgressed against me: though I have redeemed them, yet they have spoken lies against me.'),
             plain(14, 'And they have not cried unto me with their heart, when they howled upon their beds: they assemble themselves for corn and wine, and they rebel against me.'),

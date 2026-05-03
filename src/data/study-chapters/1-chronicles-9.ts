@@ -212,6 +212,18 @@ export const CHRONICLES_1_9: RichChapterContent = {
                 t('And Phinehas the son of Eleazar was the ruler over them in time past, and the Lord was with him.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr9-gatekeepers',
+          html:
+            'The gatekeepers are named, post by post. Their work is quiet but constant — every door watched, every threshold guarded. Worship requires watchmen.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             {
               number: 21,
               spans: [
@@ -424,6 +436,18 @@ export const CHRONICLES_1_9: RichChapterContent = {
             plain(37, 'And Gedor, and Ahio, and Zechariah, and Mikloth.'),
             plain(38, 'And Mikloth begat Shimeam. And they also dwelt with their brethren at Jerusalem, over against their brethren.'),
             plain(39, 'And Ner begat Kish; and Kish begat Saul; and Saul begat Jonathan, and Malchishua, and Abinadab, and Eshbaal.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr9-saul-line',
+          html:
+            'Saul&apos;s house is preserved on the roll long after his throne is gone. The chronicler refuses to erase a family God once chose, even after the kingdom passed to David.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(40, 'And the son of Jonathan was Merib-baal; and Merib-baal begat Micah.'),
             plain(41, 'And the sons of Micah were, Pithon, and Melech, and Tahrea, and Ahaz.'),
             plain(42, 'And Ahaz begat Jarah; and Jarah begat Alemeth, and Azmaveth, and Zimri; and Zimri begat Moza;'),

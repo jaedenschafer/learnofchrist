@@ -474,4 +474,31 @@ export const NUMBERS_24: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'sefaria-numbers-24',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 24',
+      url: 'https://www.sefaria.org/Numbers.24',
+      description: 'Text and commentary on Balaam&apos;s third and fourth oracles, including the Messianic prophecy of the Star and Scepter.',
+    },
+    {
+      id: 'numbers-24-star-scepter',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Numbers 24:17 — Star and Scepter',
+      url: 'https://intertextual.bible/text/numbers-24.17',
+      description: 'Messianic prophecy linking the Star and Scepter to Christ, with intertextual connections throughout the New Testament.',
+    },
+    {
+      id: 'balaam-prophecy-deir-alla',
+      kind: 'archaeology',
+      source: 'ASOR',
+      label: 'Balaam Prophecy & Deir Alla',
+      url: 'https://www.asor.org/',
+      description: 'Archaeological context for Balaam&apos;s historical role as a seer and the Deir Alla inscription mentioning him.',
+    },
+  ],
 };

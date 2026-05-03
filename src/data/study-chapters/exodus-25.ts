@@ -41,6 +41,18 @@ export const EXODUS_25: RichChapterContent = {
             { number: 2, spans: [ t('Speak unto the children of Israel, that they '), hy('bring me an offering', 'terumah-gift'), t(': of every man that giveth it willingly with his heart ye shall take my offering.') ] },
             { number: 3, spans: [ t('And this is the offering which ye shall take of them; gold, and silver, and brass,') ] },
             { number: 4, spans: [ t('And blue, and purple, and scarlet, and fine linen, and goats&apos; hair,') ] },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ex25-offerings-listed',
+          html:
+            'Gold, silver, brass, blue, purple, scarlet — the materials for the tabernacle come from a willing heart. Worship begins with what the people gladly give.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             { number: 5, spans: [ t('And rams&apos; skins dyed red, and badgers&apos; skins, and shittim wood,') ] },
             { number: 6, spans: [ t('Oil for the light, spices for anointing oil, and for sweet incense,') ] },
             { number: 7, spans: [ t('Onyx stones, and stones to be set in the ephod, and in the breastplate.') ] },
@@ -264,6 +276,18 @@ export const EXODUS_25: RichChapterContent = {
             { number: 33, spans: [ t('Three bowls made like unto almonds, with a knop and a flower in one branch; and three bowls made like almonds in the other branch, with a knop and a flower: so in the six branches that come out of the side of the candlestick.') ] },
             { number: 34, spans: [ t('And in the candlestick shall be four bowls made like unto almonds, with their knops and their flowers.') ] },
             { number: 35, spans: [ t('And there shall be a knop under two branches of the same, and a knop under two branches of the same, and a knop under two branches of the same, according to the six branches that proceed out of the candlestick.') ] },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ex25-lampstand-detailed',
+          html:
+            'The lampstand is hammered from one piece of pure gold — branches, knops, flowers, all of one substance. Light in the holy place will not be assembled; it will be one work.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             { number: 36, spans: [ t('Their knops and their branches shall be of the same: all it shall be one beaten work of pure gold.') ] },
             { number: 37, spans: [ t('And thou shalt make the seven lamps thereof: and they shall light the lamps thereof, that they may '), hg('give light over against it', 'lamps-light'), t('.') ] },
             { number: 38, spans: [ t('And the tongs thereof, and the snuffers thereof, shall be of pure gold.') ] },

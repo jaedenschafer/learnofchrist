@@ -127,6 +127,18 @@ export const JUDGES_21: RichChapterContent = {
                 t('For the people were numbered, and, behold, there were none of the inhabitants of Jabesh-gilead there.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'judg-21-vow-sorrow',
+          html:
+            'The tribe of Benjamin faces erasure. Six hundred men remain. The others made a vow: no daughters for Benjamin. The vow binds, the tribe bleeds. Oath and mercy collide. What now, when honor and compassion war?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             {
               number: 10,
               spans: [
@@ -218,6 +230,18 @@ export const JUDGES_21: RichChapterContent = {
                 t('.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'judg-21-daughters-dance',
+          html:
+            'Shiloh. A festival. Daughters dance. The six hundred capture brides. The vow holds—no fathers gave daughters. The law is satisfied; the tribe survives. Desperation births a solution that should never have been needed.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             {
               number: 20,
               spans: [

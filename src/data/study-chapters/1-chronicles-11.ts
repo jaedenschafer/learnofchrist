@@ -233,6 +233,18 @@ export const CHRONICLES_1_11: RichChapterContent = {
                 t('And they set themselves in the midst of that parcel, and delivered it, and slew the Philistines; and the Lord saved them by a great victory.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr11-three-mighty',
+          html:
+            'David is hidden in a cave; his three best men cut through enemy lines for a cup of water. He pours it out as an offering. Some loyalty cannot be drunk.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             {
               number: 15,
               spans: [

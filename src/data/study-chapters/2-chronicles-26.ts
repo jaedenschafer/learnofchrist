@@ -154,6 +154,18 @@ export const CHRONICLES_2_26: RichChapterContent = {
                 t('Also he built towers in the desert, and digged many wells: for he had much cattle in the low country, and in the plains: husbandmen also, and vine dressers in the mountains, and in Carmel: for he loved husbandry.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2chr26-uzziah-prosperous',
+          html:
+            'Uzziah builds, digs cisterns, equips an army — every metric of a kingdom in motion. The verses to come will show what happens when prosperity meets pride.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 26,
+          lines: [
             {
               number: 11,
               spans: [

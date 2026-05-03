@@ -84,7 +84,7 @@ export const NUMBERS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'murmur-complaint',
           html:
-            'Murmuring — <em>lun</em> in Hebrew — is a recurring word in Numbers. It appears when the people complain at Marah (Exodus 15), when they hunger for meat (Numbers 11), and now here at the edge of the promised land. Each time, it is a rejection of God&apos;s provision and guidance, wrapped in the language of complaint.',
+            'Murmuring — <em>lun</em> in Hebrew — is a recurring word in Numbers. It appears when the people complain at Marah (Exodus 15), when they hunger for meat (Numbers 11), and now here at the edge of the promised land. Each time, it is a rejection of God&apos;s provision and guidance, wrapped in the language of complaint. [res:sefaria-numbers-14]',
         },
         {
           kind: 'commentary',
@@ -375,7 +375,7 @@ export const NUMBERS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'yom-le-shanah-principle',
           html:
-            '"A day for a year" — <em>yom le-shanah</em> in Hebrew. The spies were in the land for 40 days; Israel will wander for 40 years. This becomes the foundational principle of biblical prophecy. Ezekiel 4:6 applies it explicitly to a siege: God tells Ezekiel to lie on his side bearing the iniquity of Judah, "a day for a year." Daniel 9 builds entire prophetic calendars on this principle — 70 weeks for 70 years of exile.',
+            '"A day for a year" — <em>yom le-shanah</em> in Hebrew. The spies were in the land for 40 days; Israel will wander for 40 years. This becomes the foundational principle of biblical prophecy. Ezekiel 4:6 applies it explicitly to a siege: God tells Ezekiel to lie on his side bearing the iniquity of Judah, "a day for a year." Daniel 9 builds entire prophetic calendars on this principle — 70 weeks for 70 years of exile. [res:bible-odyssey-wilderness-generation]',
         },
         {
           kind: 'carry',
@@ -469,14 +469,6 @@ export const NUMBERS_14: RichChapterContent = {
       ],
     },
   ],
-
-  bottomShare: {
-    label: 'Share Numbers 14',
-    quote:
-      'When Israel heard the bad report, they rebelled against God and wept, saying they wished they had died in the wilderness. God forgave them but judged them to wander forty years until that generation passed away, while Joshua and Caleb alone entered the promised land.',
-    snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
-    ref: 'Numbers 14 · Study Guide',
-  },
 
   resources: [
     {

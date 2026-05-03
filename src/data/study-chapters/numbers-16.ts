@@ -57,7 +57,7 @@ export const NUMBERS_16: RichChapterContent = {
           kind: 'commentary',
           id: 'korach-comp',
           html:
-            'Korah is a Levite, a cousin of Moses. He should be honored by his role in the tabernacle service. But his name, and the names of his co-conspirators, tell the story: Korah (baldness, exposure), Dathan (contention), Abiram (high father — claiming authority for himself). These are not men at peace with their station.',
+            'Korah is a Levite, a cousin of Moses. He should be honored by his role in the tabernacle service. But his name, and the names of his co-conspirators, tell the story: Korah (baldness, exposure), Dathan (contention), Abiram (high father — claiming authority for himself). These are not men at peace with their station. [res:sefaria-numbers-16]',
         },
         {
           kind: 'hebrew',
@@ -349,7 +349,7 @@ export const NUMBERS_16: RichChapterContent = {
           kind: 'commentary',
           id: 'sign-memorial',
           html:
-            'The bronze covering of the censers will be a visible, permanent sign. Every future priest who approaches the altar will see it and be reminded: do not presume on the priestly office.',
+            'The bronze covering of the censers will be a visible, permanent sign. Every future priest who approaches the altar will see it and be reminded: do not presume on the priestly office. [res:sefaria-aaron-rod]',
         },
         {
           kind: 'commentary',
@@ -548,7 +548,7 @@ export const NUMBERS_16: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'The chapter shows that defiance of God&apos;s authority has real consequences — not just in the person&apos;s own life, but rippling through family and community. This is not a threat to live in fear of, but a reality to reckon with: <em>the choices to rebel or to trust matter, and they ripple outward.</em> The fear of the Lord that grips Israel after this judgment is not terror; it is the beginning of wisdom — the understanding that God is serious, that His word carries weight, that rebellion is not a game.',
+            'The chapter shows that defiance of God&apos;s authority has real consequences — not just in the person&apos;s own life, but rippling through family and community. This is not a threat to live in fear of, but a reality to reckon with: <em>the choices to rebel or to trust matter, and they ripple outward.</em> The fear of the Lord that grips Israel after this judgment is not terror; it is the beginning of wisdom — the understanding that God is serious, that His word carries weight, that rebellion is not a game[res:jude-11-intertextual].',
         },
         {
           kind: 'reflection',
@@ -804,6 +804,33 @@ export const NUMBERS_16: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Numbers 16 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-numbers-16',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 16',
+      url: 'https://www.sefaria.org/Numbers.16',
+      description: 'Full text with classical Jewish commentary on Korah&apos;s rebellion and the distinction between the priesthood and lay leadership.',
+    },
+    {
+      id: 'jude-11-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Numbers 16 ↔ Jude 11',
+      url: 'https://intertextual.bible/text/numbers-16/jude-11',
+      description: 'Cross-reference showing how Jude applies Korah&apos;s rebellion as a warning of presumption and rebellion against authority.',
+    },
+    {
+      id: 'sefaria-aaron-rod',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Aaron&apos;s Rod (Numbers 17)',
+      url: 'https://www.sefaria.org/Numbers.17',
+      description: 'Commentary on the staffs of the twelve tribes and Aaron&apos;s blossoming almond rod as vindication of the Levitical priesthood.',
+    },
+  ],
 
   hasHebrew: true,
 };

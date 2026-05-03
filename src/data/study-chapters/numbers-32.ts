@@ -135,6 +135,18 @@ export const NUMBERS_32: RichChapterContent = {
                 t('Surely none of the men that came up out of Egypt, from twenty years old and upward, shall see the land which I sware unto Abraham, unto Isaac, and unto Jacob; because they have not wholly followed me:'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'num32-tribes-east',
+          html:
+            'Reuben and Gad ask to settle east of the Jordan. Moses hears it as desertion — a repeat of the spies who refused to enter. The next verses test whether their answer can hold.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 32,
+          lines: [
             {
               number: 11,
               spans: [
@@ -344,7 +356,7 @@ export const NUMBERS_32: RichChapterContent = {
           kind: 'commentary',
           id: 'c-covenant-confirmed',
           html:
-            'The tribes now understand the terms. Moses makes clear: you will only keep your inheritance *if* you fight. If you refuse, you forfeit it. The word of God travels through Moses, Eleazar, Joshua, and the tribal leaders. The covenant is not between three tribes and Moses—it is between the whole assembly and God. Settling the land east of Jordan is not a side issue. It is part of the conquest, and the conquest is not over until the last tribe has inherited.',
+            'The tribes now understand the terms. Moses makes clear: you will only keep your inheritance *if* you fight. If you refuse, you forfeit it. The word of God travels through Moses, Eleazar, Joshua, and the tribal leaders. The covenant is not between three tribes and Moses—it is between the whole assembly and God. Settling the land east of Jordan is not a side issue. It is part of the conquest, and the conquest is not over until the last tribe has inherited. [res:joshua-covenant-fulfillment]',
         },
         {
           kind: 'carry',
@@ -367,12 +379,12 @@ export const NUMBERS_32: RichChapterContent = {
         {
           kind: 'commentary',
           html:
-            'It is important to hear what the chapter does NOT say: "You are sinful for wanting the eastern land." Reuben, Gad, and half of Manasseh do eventually settle that territory (32:34–38), and God blesses them there. The land is real. The cattle are real. The gift is real.',
+            'It is important to hear what the chapter does NOT say: "You are sinful for wanting the eastern land." Reuben, Gad, and half of Manasseh do eventually settle that territory (32:34–38), and God blesses them there. The land is real. The cattle are real. The gift is real. [res:sefaria-numbers-32]',
         },
         {
           kind: 'commentary',
           html:
-            'What matters is sequence. Not "what do you want," but "when do you want it, and at what cost to your brothers?" The Reubenites&apos; temptation is the great American temptation: to settle early, to get comfortable, to stop short of the full promise because the partial promise looks pretty good. "I could be here forever," they think—and they are right. But "forever here" means "never there." Never the full inheritance. Never the seat at the table with the whole congregation of Israel.',
+            'What matters is sequence. Not "what do you want," but "when do you want it, and at what cost to your brothers?" The Reubenites&apos; temptation is the great American temptation: to settle early, to get comfortable, to stop short of the full promise because the partial promise looks pretty good. "I could be here forever," they think—and they are right. But "forever here" means "never there." Never the full inheritance. Never the seat at the table with the whole congregation of Israel. [res:gilead-geography-settlement]',
         },
         {
           kind: 'artwork',
@@ -380,6 +392,33 @@ export const NUMBERS_32: RichChapterContent = {
           caption: 'Numbers 32 — The eastern land, good and real; but the promised land required the whole assembly to fight.',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-numbers-32',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 32 — Full Text & Mefarshim',
+      url: 'https://www.sefaria.org/Numbers.32',
+      description: 'Complete Hebrew and English text with classical rabbinic commentary on the tribal settlement east of Jordan.',
+    },
+    {
+      id: 'gilead-geography-settlement',
+      kind: 'archaeology',
+      source: 'Bible Odyssey',
+      label: 'Gilead & Transjordanian Settlement',
+      url: 'https://www.bibleodyssey.org/passages/related-articles/gilead/',
+      description: 'Archaeological overview of Iron Age settlement patterns in Gilead and the territory settled by Reuben, Gad, and Manasseh.',
+    },
+    {
+      id: 'joshua-covenant-fulfillment',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Joshua 1 — The Tribes Keep Their Covenant',
+      url: 'https://www.intertextual.org/texts/joshua',
+      description: 'How the eastern tribes fulfill their Numbers 32 promise by fighting with Joshua before returning to inherit their land.',
     },
   ],
 

@@ -32,6 +32,18 @@ export const AMOS_7: RichChapterContent = {
             plain(2, 'And it came to pass, that when they had made an end of eating the grass of the land, then I said, O Lord God, forgive, I beseech thee: by whom shall Jacob arise? for he is small.'),
             plain(3, 'The Lord repented for this: It shall not be, saith the Lord.'),
             plain(4, 'Thus hath the Lord God shewed unto me: and, behold, the Lord God called to contend by fire, and it devoured the great deep, and did eat up a part.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'amos7-locust-fire',
+          html:
+            'Two visions of judgment, two intercessions, two stays of execution. Amos learns what Moses knew — that the prophet&apos;s prayer can move God&apos;s hand.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(5, 'Then said I, O Lord God, cease, I beseech thee: by whom shall Jacob arise? for he is small.'),
             plain(6, 'The Lord repented for this: This also shall not be, saith the Lord God.'),
             plain(7, 'Thus he shewed me: and, behold, the Lord stood upon a wall made by a plumbline, with a plumbline in his hand.'),

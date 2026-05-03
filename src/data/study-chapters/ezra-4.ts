@@ -209,6 +209,18 @@ export const EZRA_4: RichChapterContent = {
                 t('Then wrote they unto him in this manner; Unto Artaxerxes our lord, Thy servants the men on this side the river, and at such a time.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ezra-4-letter-appeal',
+          html:
+            'Opposition writes. Artaxerxes listens. The king is swayed. Work stops. One letter, one moment—the threshold between progress and paralysis. Prayer alone will move what policy will not.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             {
               number: 10,
               spans: [
@@ -315,6 +327,18 @@ export const EZRA_4: RichChapterContent = {
                 t('The letter which ye sent unto us hath been plainly read before me.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ezra-4-king-decree',
+          html:
+            'Searchers find the scroll. Cyrus&apos;s decree is read. The king&apos;s response: permission denied. The enemies prevail. Jerusalem&apos;s walls crumble further. Yet this defeat carries a seed: opposition now wears a royal name. It must be answered by the same.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             {
               number: 19,
               spans: [

@@ -39,6 +39,18 @@ export const OBADIAH_1: RichChapterContent = {
             plain(2, 'Behold, I have made thee small among the heathen: thou art greatly despised.'),
             plain(3, 'The pride of thine heart hath deceived thee, thou that dwellest in the clefts of the rock, whose habitation is high; that saith in his heart, Who shall bring me down to the ground?'),
             plain(4, 'Though thou exalt thyself as the eagle, and though thou set thy nest among the stars, thence will I bring thee down, saith the Lord.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'obad-1-edom-fall',
+          html:
+            'Edom thinks high. God will bring him down. Thieves leave gleanings; Edom will have none. The pride that deceived him will fail. What Edom boasted, God will erase. No corner to hide, no refuge from His hand.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(5, 'If thieves came to thee, if robbers by night, (how art thou cut off!) would they not have stolen till they had enough? if the grapegatherers came to thee, would they not leave some grapes?'),
             plain(6, 'But how are the things of Esau searched out! how are his hidden things sought up!'),
             plain(7, 'All the men of thy covenant are brought even to the border: the men that were at peace with thee have deceived thee, and prevailed against thee; they that eat thy bread have laid a wound under thee: there is none understanding in him.'),

@@ -93,6 +93,18 @@ export const CHRONICLES_1_15: RichChapterContent = {
             plain(6, 'Of the sons of Merari; Asaiah the chief, and his brethren two hundred and twenty:'),
             plain(7, 'Of the sons of Gershom; Joel the chief, and his brethren an hundred and thirty:'),
             plain(8, 'Of the sons of Elizaphan; Shemaiah the chief, and his brethren two hundred:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr15-priests-prepared',
+          html:
+            'Sons of Aaron, sons of Levi — David names every house that will carry the ark. The first attempt failed because anyone could touch it; this time only consecrated hands will.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 15,
+          lines: [
             plain(9, 'Of the sons of Hebron; Eliel the chief, and his brethren fourscore:'),
             plain(10, 'Of the sons of Uzziel; Amminadab the chief, and his brethren an hundred and twelve.'),
             plain(11, 'And David called for Zadok and Abiathar the priests, and for the Levites, for Uriel, Asaiah, and Joel, Shemaiah, and Eliel, and Amminadab,'),

@@ -258,6 +258,18 @@ export const CHRONICLES_2_9: RichChapterContent = {
                 t('And three hundred shields made he of beaten gold: (three hundred shekels of gold went to one shield:) and the king put them in the house of the forest of Lebanon.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2chr9-queen-sheba-tribute',
+          html:
+            'The queen brings spices, gold, precious stones — and leaves with the riddle of her heart answered. Solomon&apos;s wisdom is seen in what he gives back, not just what he hoards.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             {
               number: 17,
               spans: [

@@ -97,6 +97,18 @@ export const EXODUS_14: RichChapterContent = {
                 t('And I will harden Pharaoh&apos;s heart, that he shall follow after them; and I will be honoured upon Pharaoh, and upon all his host; that the Egyptians may know that I am the LORD. And they did so.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ex14-pharaoh-pursues',
+          html:
+            'Pharaoh changes his mind the moment the slaves are gone. The Lord uses the change to display His glory — Israel is not just being delivered; the world is being shown who reigns.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 14,
+          lines: [
             {
               number: 5,
               spans: [

@@ -272,6 +272,18 @@ export const DEUTERONOMY_22: RichChapterContent = {
                 t('And the damsel&apos;s father shall say unto the elders, I gave my daughter unto this man to wife, and he hateth her;'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'deut22-marriage-protections',
+          html:
+            'The case-laws move from the husband&apos;s accusation to the woman&apos;s defense. The text refuses to assume the man speaks the truth simply because he speaks first.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 22,
+          lines: [
             {
               number: 17,
               spans: [

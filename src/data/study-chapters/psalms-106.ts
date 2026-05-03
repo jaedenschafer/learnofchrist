@@ -35,6 +35,18 @@ export const PSALMS_106: RichChapterContent = {
             plain(7, 'Our fathers understood not thy wonders in Egypt; they remembered not the multitude of thy mercies; but provoked him at the sea, even at the Red sea.'),
             plain(12, 'They made a calf in Horeb, and worshipped the molten image.'),
             plain(14, 'Forgat they the Lord their God, which had delivered them by his mighty hand.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps106-rebellion-list',
+          html:
+            'The psalmist now confesses on the people&apos;s behalf — golden calf, Baal-peor, the spies. Mercy met by revolt, again and again.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 106,
+          lines: [
             plain(17, 'The earth opened and swallowed up Dathan, and covered the company of Abiram.'),
             plain(19, 'They made a calf in Horeb: they worshipped the molten image.'),
             plain(24, 'Yea, they despised the pleasant land, they believed not his word:'),

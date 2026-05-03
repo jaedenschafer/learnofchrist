@@ -381,4 +381,31 @@ export const NUMBERS_30: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'sefaria-numbers-30',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 30',
+      url: 'https://www.sefaria.org/Numbers.30',
+      description: 'Laws governing personal vows and oaths, with particular attention to women&apos;s vows under paternal and spousal authority.',
+    },
+    {
+      id: 'sefaria-vows-lexicon',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Neder (Vow)',
+      url: 'https://www.sefaria.org/Numbers.30.2',
+      description: 'Etymology and significance of vows (neder) in biblical covenant theology and the binding nature of words.',
+    },
+    {
+      id: 'vows-ecclesiastes-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Numbers 30 ↔ Ecclesiastes 5:4–5',
+      url: 'https://intertextual.bible/text/numbers-30/ecclesiastes-5.4',
+      description: 'Ecclesiastes echoes Numbers on the seriousness of vows and the danger of breaking them before God.',
+    },
+  ],
 };

@@ -88,6 +88,18 @@ export const AMOS_1: RichChapterContent = {
             plain(8, 'And I will cut off the inhabitant from Ashdod, and him that holdeth the sceptre from Ashkelon, and I will turn mine hand against Ekron: and the remnant of the Philistines shall perish, saith the Lord God.'),
             plain(9, 'Thus saith the Lord; For three transgressions of Tyrus, and for four, I will not turn away the punishment thereof; because they delivered up the whole captivity to Edom, and remembered not the brotherly covenant:'),
             plain(10, 'But I will send a fire on the wall of Tyrus, which shall devour the palaces thereof.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'amos1-tyre-edom',
+          html:
+            'Tyre&apos;s crime is breaking the brotherly covenant; Edom&apos;s is keeping his anger forever. God indicts not only what they did but what they refused to forgive.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(11, 'Thus saith the Lord; For three transgressions of Edom, and for four, I will not turn away the punishment thereof; because he did pursue his brother with the sword, and did cast off all pity, and his anger did tear perpetually, and he kept his wrath for ever:'),
             plain(12, 'But I will send a fire upon Teman, which shall devour the palaces of Bozrah.'),
             plain(13, 'Thus saith the Lord; For three transgressions of the children of Ammon, and for four, I will not turn away the punishment thereof; because they have ripped up the women with child of Gilead, that they might enlarge their border:'),

@@ -218,6 +218,18 @@ export const DEUTERONOMY_14: RichChapterContent = {
                 t('And the owl, and the night hawk, and the cuckow, and the hawk after his kind,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'deut14-clean-unclean',
+          html:
+            'The list of unclean birds runs long. The point is not biology but boundary — Israel learns to live differently with what it eats so it can live differently with whom it walks.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 14,
+          lines: [
             {
               number: 16,
               spans: [

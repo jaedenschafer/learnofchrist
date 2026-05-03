@@ -414,4 +414,31 @@ export const NUMBERS_27: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'sefaria-numbers-27',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 27',
+      url: 'https://www.sefaria.org/Numbers.27',
+      description: 'Case of Zelophehad&apos;s daughters and the statute permitting female inheritance, plus Joshua&apos;s appointment as successor.',
+    },
+    {
+      id: 'zelophehad-daughters-inheritance',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Zelophehad&apos;s Daughters (Hebrew Inheritance)',
+      url: 'https://www.sefaria.org/Numbers.27.1',
+      description: 'Legal precedent for female inheritance in biblical Israel and the daughters&apos; role in establishing equality under the law.',
+    },
+    {
+      id: 'joshua-appointment-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Joshua&apos;s Commissioning ↔ Deuteronomy 34',
+      url: 'https://intertextual.bible/text/numbers-27/deuteronomy-34',
+      description: 'Joshua&apos;s appointment by Moses as the bridge to the promised land, foreshadowing Jesus as the true Joshua.',
+    },
+  ],
 };

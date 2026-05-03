@@ -66,6 +66,18 @@ export const ACTS_17: RichChapterContent = {
                 t('And some of them believed, and consorted with Paul and Silas; and of the devout Greeks a great multitude, and of the chief women not a few.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'acts-17-athens-unknown',
+          html:
+            'Paul walks among the altars. He sees an altar to the Unknown God. In Athens, wisdom talks of everything except what matters most. Paul will name the One they all forgot.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 17,
+          lines: [
             {
               number: 5,
               spans: [

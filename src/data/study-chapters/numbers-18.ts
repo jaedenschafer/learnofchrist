@@ -724,4 +724,31 @@ export const NUMBERS_18: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Numbers 18 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-numbers-18',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 18',
+      url: 'https://www.sefaria.org/Numbers.18',
+      description: 'Laws of priestly portions and Levitical service, with classical commentary on sustaining those who serve.',
+    },
+    {
+      id: '1-corinthians-9-gospel-support',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Numbers 18:31 ↔ 1 Corinthians 9:13–14',
+      url: 'https://intertextual.bible/text/numbers-18/1-corinthians-9.13',
+      description: 'Paul cites Numbers 18 to establish that those who preach the gospel should live by the gospel.',
+    },
+    {
+      id: 'hebrews-7-melchizedek-priest',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Numbers 18 ↔ Hebrews 7',
+      url: 'https://intertextual.bible/text/numbers-18/hebrews-7',
+      description: 'Hebrews contrasts the Levitical priesthood with Jesus as the High Priest in the order of Melchizedek.',
+    },
+  ],
 };

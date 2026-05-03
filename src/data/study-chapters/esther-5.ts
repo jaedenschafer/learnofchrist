@@ -152,6 +152,18 @@ export const ESTHER_5: RichChapterContent = {
                 t(', he was full of indignation against Mordecai.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'esther-5-banquet-honor',
+          html:
+            'The banquet is set. The king and Haman come. Esther moves with grace. She asks only that they come again tomorrow. One more day. One more chance for truth to surface. The trap tightens.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             {
               number: 10,
               spans: [

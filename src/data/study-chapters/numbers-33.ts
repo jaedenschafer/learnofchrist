@@ -264,7 +264,7 @@ export const NUMBERS_33: RichChapterContent = {
           kind: 'commentary',
           id: 'c-middle-stages',
           html:
-            'The middle stages name places where Israel struggles and complains. Rephidim is remembered as "no water"—a place of thirst. Kibroth-hattaavah means "graves of craving"—where the people lusted for meat and God\'s anger burned. Yet the list does not skip them. Every hard place gets a name. Every place where you complained, where you doubted, where you wanted to go back to Egypt—God remembers it. The list does not erase the difficulty. It records it.',
+            'The middle stages name places where Israel struggles and complains. Rephidim is remembered as "no water"—a place of thirst. Kibroth-hattaavah means "graves of craving"—where the people lusted for meat and God\'s anger burned. Yet the list does not skip them. Every hard place gets a name. Every place where you complained, where you doubted, where you wanted to go back to Egypt—God remembers it. The list does not erase the difficulty. It records it. [res:wilderness-itinerary-archaeological]',
         },
         {
           kind: 'christ',
@@ -326,6 +326,18 @@ export const NUMBERS_33: RichChapterContent = {
                 t('And they removed from Punon, and encamped at Oboth.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'num33-wilderness-stations',
+          html:
+            'Each campsite is named; each move is recorded. The wilderness was not a blur; it was forty years of specific places, every one of them remembered by the One who led.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 33,
+          lines: [
             {
               number: 22,
               spans: [
@@ -424,6 +436,18 @@ export const NUMBERS_33: RichChapterContent = {
                 t('Speak unto the children of Israel, and say unto them, When ye are passed over Jordan into the land of Canaan;'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'num33-canaan-charge',
+          html:
+            'The instruction is plain — drive out the inhabitants, destroy their idols, take possession. Mercy in this command lies in its clarity; ambiguity would have cost more lives later.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 33,
+          lines: [
             {
               number: 52,
               spans: [
@@ -520,13 +544,13 @@ export const NUMBERS_33: RichChapterContent = {
           kind: 'commentary',
           id: 'c-theology-list',
           html:
-            'Numbers 33 is remarkable because it is a list. Not a narrative, not a sermon, not a poem—just names, one after another. Yet this humble form carries immense theology: <strong>God knows the shape of your journey. He numbers your stages. He remembers the places where you camped, where you cried, where you doubted, where you finally trusted.</strong> The list is not filler. It is the promise that your wilderness is not invisible to God.',
+            'Numbers 33 is remarkable because it is a list. Not a narrative, not a sermon, not a poem—just names, one after another. Yet this humble form carries immense theology: <strong>God knows the shape of your journey. He numbers your stages. He remembers the places where you camped, where you cried, where you doubted, where you finally trusted.</strong> The list is not filler. It is the promise that your wilderness is not invisible to God. [res:sefaria-numbers-33]',
         },
         {
           kind: 'commentary',
           id: 'c-hebrews-connection',
           html:
-            'Hebrews 13:5 quotes this chapter\'s promise: "I will never leave thee, nor forsake thee." The promise is made to a people in the wilderness, to a people who will wander for forty years, to a people who will complain and doubt and want to turn back. Yet God\'s covenant with them is not conditional on their faithfulness. It is conditional on His character. He will never leave. He will never forsake. Every stage of the journey proves it.',
+            'Hebrews 13:5 quotes this chapter\'s promise: "I will never leave thee, nor forsake thee." The promise is made to a people in the wilderness, to a people who will wander for forty years, to a people who will complain and doubt and want to turn back. Yet God\'s covenant with them is not conditional on their faithfulness. It is conditional on His character. He will never leave. He will never forsake. Every stage of the journey proves it. [res:hebrews-13-wilderness-promise]',
         },
         {
           kind: 'christ',
@@ -547,6 +571,33 @@ export const NUMBERS_33: RichChapterContent = {
             'Look back over your own journey. Can you name the stages? The places where you camped in faith, the places where you stumbled, the places where you discovered God was with you? What does it mean to have those stages remembered and recorded, not by you, but by God?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-numbers-33',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 33 — Full Text & Mefarshim',
+      url: 'https://www.sefaria.org/Numbers.33',
+      description: 'Complete Hebrew and English text with classical rabbinical commentary on the wilderness itinerary.',
+    },
+    {
+      id: 'wilderness-itinerary-archaeological',
+      kind: 'archaeology',
+      source: 'Bible Odyssey',
+      label: 'The Exodus Route & Wilderness Stages',
+      url: 'https://www.bibleodyssey.org/passages/related-articles/exodus-route/',
+      description: 'Archaeological perspectives on the possible routes and historical geography of the forty-two-stage wilderness journey.',
+    },
+    {
+      id: 'hebrews-13-wilderness-promise',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Hebrews 13:5 — The Promise That Sustains',
+      url: 'https://www.intertextual.org/texts/hebrews',
+      description: 'How Hebrews echoes Numbers 33&apos;s theology of God&apos;s faithfulness through the wilderness: "I will never leave thee, nor forsake thee."',
     },
   ],
 };

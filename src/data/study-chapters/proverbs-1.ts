@@ -114,6 +114,18 @@ export const PROVERBS_1: RichChapterContent = {
             plain(12, 'Let us swallow them up alive as the grave; and whole, as those that go down into the pit:'),
             plain(13, 'We shall find all precious substance, we shall fill our houses with spoil:'),
             plain(14, 'Cast in thy lot among us; let us all have one purse:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov-1-wisdom-refuse',
+          html:
+            'Wisdom calls. The simple refuse. Complacency blinds them. Scoffers mock. So wisdom laughs back—laughs at their calamity when it comes. The fool had his chance. He made his choice. Now fear will teach what scorn rejected.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(15, 'My son, walk not thou in the way with them; refrain thy foot from their path:'),
             plain(16, 'For their feet run to evil, and make haste to shed blood.'),
             plain(17, 'Surely in vain the net is spread in the sight of any bird.'),

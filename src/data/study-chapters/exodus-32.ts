@@ -387,6 +387,18 @@ export const EXODUS_32: RichChapterContent = {
                 t('.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ex32-moses-intercedes',
+          html:
+            'Moses returns to the Lord and asks for the impossible — that God forgive, or blot Moses out of His book. Intercession at this scale is not eloquence; it is willingness to be removed for the sake of others.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 32,
+          lines: [
             {
               number: 25,
               spans: [

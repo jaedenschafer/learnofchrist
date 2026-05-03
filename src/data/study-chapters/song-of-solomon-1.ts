@@ -89,6 +89,18 @@ export const SONG_1: RichChapterContent = {
             plain(10, 'Thy cheeks are comely with rows of jewels, thy neck with chains of gold.'),
             plain(11, 'We will make thee borders of gold with studs of silver.'),
             plain(12, 'While the king sitteth at his table, my spikenard sendeth forth the smell thereof.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'song-1-beloved-sought',
+          html:
+            'She seeks him by night. The watchmen find her. She asks of her beloved. Where is he? The whole city watches her search. Love is not quiet. It cries out. It searches. It will not rest until found.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(13, 'A bundle of myrrh is my wellbeloved unto me; he shall lie all night betwixt my breasts.'),
             plain(14, 'My beloved is unto me as a cluster of camphire in the vineyards of Engedi.'),
             plain(15, 'Behold, thou art fair, my love; behold, thou art fair; thou hast doves&apos; eyes.'),

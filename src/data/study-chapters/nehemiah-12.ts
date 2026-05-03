@@ -47,6 +47,18 @@ export const NEHEMIAH_12: RichChapterContent = {
             plain(2, 'Amariah, Malluch, Hattush,'),
             plain(3, 'Shechaniah, Rehum, Meremoth,'),
             plain(4, 'Iddo, Ginnetho, Abijah,'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'neh-12-priests-levites',
+          html:
+            'Lists of priests and Levites returned. Names matter. These are the keepers of the altar, the singers, the teachers. Jerusalem&apos;s restoration lives in their hands. Genealogy ensures continuity; names ensure memory.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             plain(5, 'Miamin, Maadiah, Bilgah,'),
             plain(6, 'Shemaiah, and Joiarib, Jedaiah,'),
             plain(7, 'Sallu, Amok, Hilkiah, Jedaiah. These were the chief of the priests and of their brethren in the days of Jeshua.'),

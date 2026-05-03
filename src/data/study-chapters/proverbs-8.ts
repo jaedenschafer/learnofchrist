@@ -68,6 +68,18 @@ export const PROVERBS_8: RichChapterContent = {
             plain(14, 'Counsel is mine, and sound wisdom: I am understanding; I have strength.'),
             plain(15, 'By me kings reign, and princes decree justice.'),
             plain(16, 'By me princes rule, and nobles, even all the judges of the earth.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov-8-wisdom-throne',
+          html:
+            'I was set up before the world. Wisdom dwelt with God when all was made. I love those who love me. Those who seek me early will find riches and honor. The foundation of all things loves those who love truth.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(17, 'I love them that love me; and those that seek me early shall find me.'),
             plain(18, 'Riches and honour are with me; yea, durable riches and righteousness.'),
             plain(19, 'My fruit is better than gold, yea, than fine gold; and my revenue than choice silver.'),

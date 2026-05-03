@@ -183,7 +183,7 @@ export const NUMBERS_35: RichChapterContent = {
           kind: 'commentary',
           id: 'c-refuge-cities',
           html:
-            'The cities of refuge are not prisons. They are sanctuaries. The man who killed by accident is not guilty, yet he needs protection from the avenger of blood—a family member who might take vengeance before the law can. The city is a place where he can wait for trial and, if innocent, wait for the high priest to die. Justice is not swift, but it is sure.',
+            'The cities of refuge are not prisons. They are sanctuaries. The man who killed by accident is not guilty, yet he needs protection from the avenger of blood—a family member who might take vengeance before the law can. The city is a place where he can wait for trial and, if innocent, wait for the high priest to die. Justice is not swift, but it is sure. [res:biblical-law-refuge-cities]',
         },
         {
           kind: 'hebrew',
@@ -205,7 +205,7 @@ export const NUMBERS_35: RichChapterContent = {
           id: 'christ-refuge',
           title: 'Christ Connection — The Refuge That Never Fails',
           html:
-            'Hebrews 6:18 speaks directly to this picture: "That by two immutable things, in which it was impossible for God to lie, we might have a strong consolation, who have fled for refuge to lay hold upon the hope set before us" (Heb. 6:18). The writer is quoting Numbers 35, calling the cities of refuge a picture of Christ. When you have killed (sinned) and the avenger of blood (judgment, condemnation) pursues you, there is a place to flee: the cross. Christ is the city where you stand trial before the congregation—before the Father—and are found not guilty because His blood covers your guilt.',
+            'Hebrews 6:18 speaks directly to this picture: "That by two immutable things, in which it was impossible for God to lie, we might have a strong consolation, who have fled for refuge to lay hold upon the hope set before us" (Heb. 6:18). The writer is quoting Numbers 35, calling the cities of refuge a picture of Christ. When you have killed (sinned) and the avenger of blood (judgment, condemnation) pursues you, there is a place to flee: the cross. Christ is the city where you stand trial before the congregation—before the Father—and are found not guilty because His blood covers your guilt. [res:hebrews-6-refuge]',
         },
         {
           kind: 'carry',
@@ -263,6 +263,18 @@ export const NUMBERS_35: RichChapterContent = {
                 t('But if he thrust him of hatred, or hurl at him by laying of wait, that he die;'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'num35-cities-of-refuge',
+          html:
+            'Six cities of refuge for the manslayer — three on each side of Jordan. Justice and mercy both demand a place where the unintentional killer can run while the case is heard.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 35,
+          lines: [
             {
               number: 21,
               spans: [
@@ -505,7 +517,7 @@ export const NUMBERS_35: RichChapterContent = {
           kind: 'commentary',
           id: 'c-theology-refuge',
           html:
-            'Numbers 35 teaches a profound theology: justice and mercy are not opposites. The law that demands the murderer&apos;s death is the same law that provides the city of refuge for the accidental killer. The law that says "you shall take no satisfaction" for a murdered life is the same law that releases the refugee when the high priest dies. Both reflect the same God: a God who honors life as sacred and who never stops making a way for those who are guilty.',
+            'Numbers 35 teaches a profound theology: justice and mercy are not opposites. The law that demands the murderer&apos;s death is the same law that provides the city of refuge for the accidental killer. The law that says "you shall take no satisfaction" for a murdered life is the same law that releases the refugee when the high priest dies. Both reflect the same God: a God who honors life as sacred and who never stops making a way for those who are guilty. [res:sefaria-numbers-35]',
         },
         {
           kind: 'commentary',
@@ -538,6 +550,33 @@ export const NUMBERS_35: RichChapterContent = {
             'Which role does Jesus fill for you right now—the refuge you are fleeing to, the high priest releasing you, the blood cleansing what felt irredeemable, or the judge who knows your heart? Sit with that for a moment.',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-numbers-35',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 35 — Full Text & Mefarshim',
+      url: 'https://www.sefaria.org/Numbers.35',
+      description: 'Complete Hebrew and English text with classical rabbinic commentary on cities of refuge and laws of manslaughter.',
+    },
+    {
+      id: 'hebrews-6-refuge',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Hebrews 6:17-20 — The Hope Set Before Us',
+      url: 'https://www.intertextual.org/texts/hebrews',
+      description: 'How Hebrews applies Numbers 35&apos;s cities of refuge to Christ as the place of ultimate safety and refuge for believers.',
+    },
+    {
+      id: 'biblical-law-refuge-cities',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Cities of Refuge in Ancient Israel',
+      url: 'https://www.bibleodyssey.org/passages/related-articles/cities-of-refuge/',
+      description: 'Historical and legal context for the six cities of refuge in ancient Israel and their significance in biblical law.',
     },
   ],
 };

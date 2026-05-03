@@ -34,6 +34,18 @@ export const PSALMS_22: RichChapterContent = {
             plain(2, 'O my God, I cry in the day time, but thou hearest not; and in the night season, and am not silent.'),
             plain(8, 'He trusted on the Lord that he would deliver him: let him deliver him, seeing he delighted in him.'),
             plain(12, 'Many bulls have compassed me: strong bulls of Bashan have beset me round.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps22-pivot-trust',
+          html:
+            'The psalm turns from cry to confession of trust — from <em>why hast thou forsaken me</em> to <em>thou art he that took me out of the womb</em>. The grief does not vanish; it finds an old anchor.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 22,
+          lines: [
             plain(14, 'I am poured out like water, and all my bones are out of joint: my heart is like wax; it is melted in the midst of my bowels.'),
             plain(15, 'My strength is dried up like a potsherd; and my tongue cleaveth to my jaws; and thou hast brought me into the dust of death.'),
             plain(16, 'For dogs have compassed me: the assembly of the wicked have inclosed me: they pierced my hands and my feet.'),

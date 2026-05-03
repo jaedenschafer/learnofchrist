@@ -37,6 +37,18 @@ export const SONG_5: RichChapterContent = {
             plain(2, 'I sleep, but my heart waketh: it is the voice of my beloved that knocketh, saying, Open to me, my sister, my love, my dove, my undefiled: for my head is filled with dew, and my locks with the drops of the night.'),
             plain(3, 'I have put off my coat; how shall I put it on? I have washed my feet; how shall I defile them?'),
             plain(4, 'My beloved put in his hand by the hole of the door, and my bowels were moved for him.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'song-5-beloved-knocks',
+          html:
+            'He knocks. She delays. By the time she rises, he is gone. She runs through the city. The watchmen strike her. She calls after him: tell him I am sick with love. Lost, she searches. Found only in longing.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(5, 'I rose up to open to my beloved; and my hands dropped with myrrh, and my fingers with sweet smelling myrrh, upon the handles of the lock.'),
             plain(6, 'I opened to my beloved; but my beloved had withdrawn himself, and was gone: my soul failed when he spake: I sought him, but I could not find him; I called him, but he gave me no answer.'),
             plain(7, 'The watchmen that went about the city found me, they smote me, they wounded me; the keepers of the walls took away my vail from me.'),

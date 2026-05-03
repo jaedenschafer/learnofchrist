@@ -74,6 +74,18 @@ export const NUMBERS_7: RichChapterContent = {
                 t('And the LORD spake unto Moses, saying,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'num7-tribal-offerings',
+          html:
+            'Twelve days, twelve tribes, twelve identical offerings. The text refuses to summarize — every tribe gets its own day, its own paragraph, its own dignity before the Lord.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             {
               number: 5,
               spans: [

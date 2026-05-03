@@ -39,6 +39,18 @@ export const MARK_2: RichChapterContent = {
             plain(5, 'When Jesus saw their faith, he said unto the sick of the palsy, Son, thy sins be forgiven thee.'),
             plain(6, 'But there were certain of the scribes sitting there, and reasoning in their hearts,'),
             plain(7, 'Why doth this man thus speak blasphemies? who can forgive sins but God only?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'mark-2-heal-forgive',
+          html:
+            'The paralyzed man comes through the roof. Crowds surround. Jesus sees faith. He speaks first not of the legs but the soul: sins are forgiven. Healing of the body follows; healing of the spirit comes first.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(8, 'And immediately when Jesus perceived in his spirit that they so reasoned within themselves, he said unto them, Why reason ye these things in your hearts?'),
             plain(9, 'Whether is it easier to say to the sick of the palsy, Thy sins be forgiven thee; or to say, Arise, and take up thy bed, and walk?'),
             plain(10, 'But that ye may know that the Son of man hath power on earth to forgive sins, (he saith to the sick of the palsy,)'),

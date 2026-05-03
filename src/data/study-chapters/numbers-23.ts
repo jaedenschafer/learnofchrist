@@ -430,4 +430,31 @@ export const NUMBERS_23: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'sefaria-numbers-23',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 23',
+      url: 'https://www.sefaria.org/Numbers.23',
+      description: 'Text and commentary on Balaam&apos;s first two oracles blessing Israel despite Balak&apos;s attempts to hire a curse.',
+    },
+    {
+      id: 'sefaria-balaam-oracles',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Balaam&apos;s Oracles (23–24)',
+      url: 'https://www.sefaria.org/Numbers.23-24',
+      description: 'Complete text of the four Balaamide oracles and their theological significance in blessing Israel.',
+    },
+    {
+      id: 'balaam-blessing-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Numbers 23 ↔ Romans 4:20–21',
+      url: 'https://intertextual.bible/text/numbers-23/romans-4.20',
+      description: 'Connection between Balaam&apos;s declaration that God cannot lie and Paul&s theology of faith in God&apos;s promises.',
+    },
+  ],
 };

@@ -209,6 +209,18 @@ export const CHRONICLES_2_29: RichChapterContent = {
             plain(21, 'And they brought seven bullocks, and seven rams, and seven lambs, and seven he goats, for a sin offering for the kingdom, and for the sanctuary, and for Judah. And he commanded the priests the sons of Aaron to offer them on the altar of the Lord.'),
             plain(22, 'So they killed the bullocks, and the priests received the blood, and sprinkled it on the altar: likewise, when they had killed the rams, they sprinkled the blood upon the altar: they killed also the lambs, and they sprinkled the blood upon the altar.'),
             plain(23, 'And they brought forth the he goats for the sin offering before the king and the congregation; and they laid their hands upon them:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2chr29-sin-offerings',
+          html:
+            'The cleansing reaches the altar itself. A sin-offering for the kingdom, the sanctuary, and Judah — the king assumes responsibility for what his fathers neglected.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 29,
+          lines: [
             plain(24, 'And the priests killed them, and they made reconciliation with their blood upon the altar, to make an atonement for all Israel: for the king commanded that the burnt offering and the sin offering should be made for all Israel.'),
             plain(25, 'And he set the Levites in the house of the Lord with cymbals, with psalteries, and with harps, according to the commandment of David, and of Gad the king\'s seer, and Nathan the prophet: for so was the commandment of the Lord by his prophets.'),
             {

@@ -490,4 +490,31 @@ export const NUMBERS_31: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'sefaria-numbers-31',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 31',
+      url: 'https://www.sefaria.org/Numbers.31',
+      description: 'Account of the war against Midian and the laws for dividing spoils of war among warriors and the community.',
+    },
+    {
+      id: 'balaam-death-fulfillment',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Balaam&apos;s End (Numbers 31:8)',
+      url: 'https://intertextual.bible/text/numbers-31.8',
+      description: 'The death of Balaam at the end of the Midian war as the completion of judgment on the false prophet.',
+    },
+    {
+      id: 'holy-war-conquest',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Holy War in Ancient Israel',
+      url: 'https://www.bibleodyssey.org/dictionary/holy-war/',
+      description: 'SBL entry on the theological context of holy war and God&apos;s judgment against those who seduce Israel from covenant.',
+    },
+  ],
 };

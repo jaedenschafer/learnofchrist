@@ -84,6 +84,18 @@ export const MICAH_5: RichChapterContent = {
             plain(8, 'And the remnant of Jacob shall be among the Gentiles in the midst of many people as a lion among the beasts of the forest, as a young lion among the flocks of sheep: who, if he go through, both treadeth down, and teareth in pieces, and none can deliver.'),
             plain(9, 'Thine hand shall be lifted up upon thine adversaries, and all thine enemies shall be cut off.'),
             plain(10, 'And it shall come to pass in that day, saith the Lord, that I will cut off thy horses out of the midst of thee, and I will destroy thy chariots:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'micah-5-justice-strength',
+          html:
+            'The remnant will be like a lion. They shall tread enemies underfoot. No more fear. Justice and strength return together. God cuts off sorceries and idols. His people stand tall because He stands with them.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(11, 'And I will cut off the cities of thy land, and throw down all thy strong holds:'),
             plain(12, 'And I will cut off witchcrafts out of thine hand; and thou shalt have no more soothsayers:'),
             plain(13, 'Thy graven images also will I cut off, and thy standing images out of the midst of thee; and thou shalt no more worship the work of thine hands.'),

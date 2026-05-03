@@ -187,6 +187,18 @@ export const EXODUS_12: RichChapterContent = {
             { number: 44, spans: [ t('But every man&apos;s servant that is bought for money, when thou hast circumcised him, then shall he eat thereof.') ] },
             { number: 45, spans: [ t('A foreigner and an hired servant shall not eat thereof.') ] },
             { number: 46, spans: [ t('In one house shall it be eaten; thou shalt not carry forth ought of the flesh abroad out of the house; '), hp('neither shall ye break a bone thereof', 'christ-bones-unbroken'), t('.') ] },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ex12-passover-rules',
+          html:
+            'The Passover meal has its own rules — eaten in one house, no bone broken, no stranger sharing. The night that delivered Israel becomes a sacrament with edges.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             { number: 47, spans: [ t('All the congregation of Israel shall keep it.') ] },
             { number: 48, spans: [ t('And when a stranger shall sojourn with thee, and will keep the passover to the LORD, let all his males be circumcised, and then let him come near and keep it; and he shall be as one that is born in the land: for no uncircumcised person shall eat thereof.') ] },
             { number: 49, spans: [ t('One law shall be to him that is homeborn, and unto the stranger that sojourneth among you.') ] },

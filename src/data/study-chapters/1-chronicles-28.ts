@@ -344,6 +344,18 @@ export const CHRONICLES_1_28: RichChapterContent = {
                 t('Even the weight of the gold for things of gold, and the silver for things of silver, and for all manner of work to be made by the hands of artificers. And who then is willing to consecrate his service this day unto the Lord?'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr28-pattern-given',
+          html:
+            'David hands Solomon the blueprints — the pattern of the porches, the courts, the chambers, the weight of every implement. The temple is not improvised; it is received.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 28,
+          lines: [
             {
               number: 15,
               spans: [

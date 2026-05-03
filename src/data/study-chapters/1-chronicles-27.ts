@@ -160,6 +160,18 @@ export const CHRONICLES_1_27: RichChapterContent = {
             plain(17, 'over the Simeonites, Shephatiah the son of Maacah:'),
             plain(18, 'Over Levi, Hashabiah the son of Kemuel: of Aaron, Zadok:'),
             plain(19, 'Over Judah, Elihu, one of the brethren of David: over Issachar, Omri the son of Michael:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr27-tribal-leaders',
+          html:
+            'Each tribe gets a chief — a single name accountable for an entire people. The kingdom is large; the lines of authority are kept short.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 27,
+          lines: [
             plain(20, 'Over Zebulun, Ishmaiah the son of Obadiah: over Naphtali, Jerimoth the son of Azriel:'),
             plain(21, 'Over the children of Ephraim, Hoshea the son of Azaziah: over the half tribe of Manasseh, Joel the son of Pedaiah:'),
             plain(22, 'Over the half of Manasseh in Gilead, Iddo the son of Zechariah: over Benjamin, Jaasiel the son of Abner:'),
@@ -227,6 +239,18 @@ export const CHRONICLES_1_27: RichChapterContent = {
               29,
               'And over the herds that fed in Sharon was Shitrai the Sharonite: and over the herds that were in the valleys was Shaphat the son of Adlai:'
             ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr27-stewards-over-flocks',
+          html:
+            'The list narrows to the king&apos;s own holdings — vineyards, herds, oil. David&apos;s palace runs on stewards, not slaves; every field has a name attached.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 27,
+          lines: [
             plain(30, 'Over the camels also was Obil the Ishmaelite: and over the asses was Jehdeiah the Meronothite:'),
             plain(31, 'And over the flocks was Jaziz the Hagerite. All these were the rulers of the substance which was king David&apos;s.'),
             plain(

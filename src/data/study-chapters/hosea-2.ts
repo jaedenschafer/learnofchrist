@@ -174,6 +174,18 @@ export const HOSEA_2: RichChapterContent = {
               ],
             },
             plain(18, 'And in that day will I make a covenant for them with the beasts of the field, and with the fowls of heaven, and with the creeping things of the ground: and I will break the bow and the sword and the battle out of the earth, and will make them to lie down safely.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'hosea-2-wilderness-speak',
+          html:
+            'God strips her of garments, altars, festivals. Judgment strips bare. But then: &quot;I will allure her, will speak to her heart in the wilderness.&quot; The desert of loss becomes the place of wooing. Alone, she will hear Him.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(19, 'And I will betroth thee unto me for ever; yea, I will betroth thee unto me in righteousness, and in judgment, and in lovingkindness, and in mercies.'),
             plain(20, 'I will even betroth thee unto me in faithfulness: and thou shalt know the Lord.'),
             plain(21, 'And it shall come to pass in that day, I will hear, saith the Lord, I will hear the heavens; and they shall hear the earth;'),

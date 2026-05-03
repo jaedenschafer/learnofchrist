@@ -73,7 +73,7 @@ export const NUMBERS_36: RichChapterContent = {
           kind: 'commentary',
           id: 'manasseh-concern',
           html:
-            'Notice how the chiefs speak. They are not angry. They do not accuse the daughters of wrongdoing. They raise a <em>technical</em> problem: the law from Numbers 27 is good, but it creates an unforeseen consequence. They are thinking like administrators, not like men defending their territory. They bring the problem to Moses and ask for guidance.',
+            'Notice how the chiefs speak. They are not angry. They do not accuse the daughters of wrongdoing. They raise a <em>technical</em> problem: the law from Numbers 27 is good, but it creates an unforeseen consequence. They are thinking like administrators, not like men defending their territory. They bring the problem to Moses and ask for guidance. [res:zelophehad-daughters-law]',
         },
         {
           kind: 'carry',
@@ -149,7 +149,7 @@ export const NUMBERS_36: RichChapterContent = {
           kind: 'commentary',
           id: 'mercy-and-order',
           html:
-            'Here is the theological point: mercy and order are not enemies. God did not choose between affirming the daughters and protecting the tribes. He did both. The daughters inherit — their father&apos;s name is not erased, their family line survives. The tribes stay intact — Manasseh does not shrink, the map does not blur. Both goods are preserved together.',
+            'Here is the theological point: mercy and order are not enemies. God did not choose between affirming the daughters and protecting the tribes. He did both. The daughters inherit — their father&apos;s name is not erased, their family line survives. The tribes stay intact — Manasseh does not shrink, the map does not blur. Both goods are preserved together. [res:sefaria-numbers-36]',
         },
         {
           kind: 'christ',
@@ -247,7 +247,7 @@ export const NUMBERS_36: RichChapterContent = {
           kind: 'commentary',
           id: 'closing-frame',
           html:
-            'The book of Numbers ends not with arrival but with readiness. "In the plains of Moab by Jordan near Jericho" — Israel stands at the very edge. The river is in sight. The land is in sight. They have been wandering for forty years, and now they are here. The statutes are settled. The leaders are appointed. The inheritance is divided. Nothing is left but to cross.',
+            'The book of Numbers ends not with arrival but with readiness. "In the plains of Moab by Jordan near Jericho" — Israel stands at the very edge. The river is in sight. The land is in sight. They have been wandering for forty years, and now they are here. The statutes are settled. The leaders are appointed. The inheritance is divided. Nothing is left but to cross. [res:numbers-to-joshua-threshold]',
         },
         {
           kind: 'commentary',
@@ -285,6 +285,33 @@ export const NUMBERS_36: RichChapterContent = {
             'Numbers ends at the threshold. Canaan is promised but not yet possessed. Jesus fulfills that promise. He does not stand at the threshold; He enters the Holy of Holies as High Priest and secures an inheritance for His people — not acres of land, but the presence of God Himself, forever. Hebrews says He is "the mediator of a better covenant, which was established upon better promises" (Heb. 8:6). Better than Canaan. Better than Moses. Better than the Law. The one all of Numbers has been pointing toward.',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-numbers-36',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 36 — Full Text & Mefarshim',
+      url: 'https://www.sefaria.org/Numbers.36',
+      description: 'Complete Hebrew and English text with classical rabbinic commentary on the daughters of Zelophehad and tribal inheritance.',
+    },
+    {
+      id: 'zelophehad-daughters-law',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Zelophehad&apos;s Daughters & Women&apos;s Inheritance Rights',
+      url: 'https://www.bibleodyssey.org/passages/related-articles/zelophehad-daughters/',
+      description: 'Historical context for women&apos;s inheritance rights in ancient Israel through the story of Zelophehad&apos;s daughters.',
+    },
+    {
+      id: 'numbers-to-joshua-threshold',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Joshua 1 — Crossing Into Inheritance',
+      url: 'https://www.intertextual.org/texts/joshua',
+      description: 'How Joshua picks up where Numbers ends, as the people cross the Jordan and enter the promised land they were prepared for.',
     },
   ],
 };

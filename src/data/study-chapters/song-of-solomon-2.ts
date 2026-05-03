@@ -35,6 +35,18 @@ export const SONG_2: RichChapterContent = {
             plain(2, 'As the lily among thorns, so is my love among the daughters.'),
             plain(3, 'As the apple tree among the trees of the wood, so is my beloved among the sons. I sat down under his shadow with great delight, and his fruit was sweet to my taste.'),
             plain(4, 'He brought me to the banqueting house, and his banner over me was love.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'song-2-beloved-voice',
+          html:
+            'Hear him leaping on the mountains. His voice breaks through. Come away, my love. Winter is past. The flowers appear. The time of singing has come. Love calls. The world awakens. She rises to answer.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(5, 'Stay me with flagons, comfort me with apples: for I am sick of love.'),
             plain(6, 'His left hand is under my head, and his right hand doth embrace me.'),
             plain(7, 'I charge you, O ye daughters of Jerusalem, by the roes, and by the hinds of the field, that ye stir not up, nor awake my love, till he please.'),

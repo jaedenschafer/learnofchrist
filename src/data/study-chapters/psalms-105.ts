@@ -92,6 +92,18 @@ export const PSALMS_105: RichChapterContent = {
             plain(26, 'He sent Moses his servant; and Aaron whom he had chosen.'),
             plain(36, 'He smote also all the firstborn in their land, the chief of all their strength.'),
             plain(37, 'He brought them forth also with silver and gold: and there was not one feeble person among their tribes.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps105-egypt-deliverance',
+          html:
+            'The recital reaches Egypt — plagues, deliverance, Red Sea. The history is not nostalgia; it is the ground for trusting that the same God is still at work.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 105,
+          lines: [
             plain(39, 'He spread a cloud for a covering; and fire to give light in the night.'),
             plain(40, 'The people asked, and he brought quails, and satisfied them with the bread of heaven.'),
             plain(43, 'And he brought forth his people with joy, and his chosen with gladness:'),

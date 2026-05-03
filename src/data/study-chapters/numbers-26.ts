@@ -347,4 +347,31 @@ export const NUMBERS_26: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'sefaria-numbers-26',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 26',
+      url: 'https://www.sefaria.org/Numbers.26',
+      description: 'The second census of Israel, showing genealogical records and tribal divisions for the allocation of the promised land.',
+    },
+    {
+      id: 'sefaria-census-comparison',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Census Comparison (Numbers 1 vs. 26)',
+      url: 'https://www.sefaria.org/Numbers.1-26',
+      description: 'Parallel structure and theological significance of the two censuses marking the beginning and end of wilderness wandering.',
+    },
+    {
+      id: 'numbers-inheritance-division',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Land Division by Census',
+      url: 'https://www.sefaria.org/Numbers.26.52',
+      description: 'Laws for dividing the promised land according to tribal census numbers, prefiguring equitable inheritance.',
+    },
+  ],
 };

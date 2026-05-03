@@ -294,4 +294,31 @@ export const NUMBERS_19: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'sefaria-numbers-19',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 19',
+      url: 'https://www.sefaria.org/Numbers.19',
+      description: 'Full text and commentary on the red heifer ritual and the law of ritual purification through the water of separation.',
+    },
+    {
+      id: 'hebrews-9-red-heifer',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Numbers 19 ↔ Hebrews 9:13–14',
+      url: 'https://intertextual.bible/text/numbers-19/hebrews-9.13',
+      description: 'Hebrews applies the red heifer ashes to show how Christ&apos;s blood purifies the conscience from dead works.',
+    },
+    {
+      id: 'bible-odyssey-red-heifer',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Red Heifer (Para Adom)',
+      url: 'https://www.bibleodyssey.org/dictionary/red-heifer/',
+      description: 'SBL entry on the red heifer ritual with historical and theological context for purification.',
+    },
+  ],
 };

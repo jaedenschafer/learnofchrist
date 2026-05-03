@@ -255,6 +255,18 @@ export const NEHEMIAH_9: RichChapterContent = {
               ],
             },
             plain(13, 'Thou camest down also upon mount Sinai, and spakest with them from heaven, and gavest them right judgments and true laws, good statutes and commandments:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'neh-9-wilderness-law',
+          html:
+            'The people wandered forty years. God fed them. He gave them the law. Fire on Sinai made His word visible. The wilderness was harsh, but not forsaken. Every provision points to a God who never abandoned them.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(14, 'And madest known unto them thy holy sabbath, and commandedst them precepts, statutes, and laws, by the hand of Moses thy servant:'),
             {
               number: 15,

@@ -222,6 +222,18 @@ export const DEUTERONOMY_1: RichChapterContent = {
                 t(', and I will make them rulers over you.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'deut1-judges-appointed',
+          html:
+            'Moses cannot bear the weight alone, so he names tribal heads, judges, officers — leadership distributed, not consolidated. Even the meekest man on earth needs help.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             {
               number: 14,
               spans: [

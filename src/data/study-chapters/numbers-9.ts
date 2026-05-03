@@ -346,6 +346,18 @@ export const NUMBERS_9: RichChapterContent = {
                 t('At the commandment of the LORD the children of Israel journeyed, and at the commandment of the LORD they pitched: as long as the cloud abode upon the tabernacle they rested in their tents.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'num9-cloud-fire',
+          html:
+            'At the cloud&apos;s movement Israel marches; at its rest Israel stays. The army of God does not navigate by terrain or weather; it watches the sky and obeys.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             {
               number: 19,
               spans: [

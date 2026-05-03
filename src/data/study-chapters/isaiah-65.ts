@@ -141,7 +141,7 @@ export const ISAIAH_65: RichChapterContent = {
         },
         {
           kind: 'reflection',
-          id: 'isa65-new-creation',
+          id: 'isa65-new-creation-2',
           prompt: 'What in your life right now—wounds, losses, injustices—do you entrust to God\'s promise of the new creation? How does hope for the new creation change how you live now?',
         },
       ],

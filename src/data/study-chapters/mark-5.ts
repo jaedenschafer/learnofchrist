@@ -103,6 +103,18 @@ export const MARK_5: RichChapterContent = {
             plain(26, 'And had suffered many things of many physicians, and had spent all that she had, and was nothing bettered, but rather grew worse,'),
             plain(27, 'When she had heard of Jesus, came in the crowd behind, and touched his garment.'),
             plain(28, 'For she said, If I may touch but his clothes, I shall be whole.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'mark-5-woman-bleeding',
+          html:
+            'Twelve years. Twelve years of bleeding. She touches His garment in secret, thinking no one will know. The bleeding stops. But Jesus asks: who touched Me? Her secret becomes her salvation. Shame becomes story.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(29, 'And straightway the fountain of her blood was dried up; and she felt in her body that she was healed of that plague.'),
             plain(34, 'And he said unto her, Daughter, thy faith hath made thee whole; go in peace, and be whole of thy plague.'),
             plain(39, 'When he was come in, he saith unto them, Why make ye this ado, and weep? the damsel is not dead, but sleepeth.'),

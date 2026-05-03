@@ -173,7 +173,7 @@ export const NUMBERS_34: RichChapterContent = {
           kind: 'commentary',
           id: 'c-north-border',
           html:
-            'The north border, traced from Mount Hor through Hamath to Ziphron to Hazar-enan, marks the territory up into what we might call Syria. This is the maximum extent of the northern border—the outer limit of the inheritance. Historically, Israel would rarely hold this entire stretch, but God marks it now, before they enter.',
+            'The north border, traced from Mount Hor through Hamath to Ziphron to Hazar-enan, marks the territory up into what we might call Syria. This is the maximum extent of the northern border—the outer limit of the inheritance. Historically, Israel would rarely hold this entire stretch, but God marks it now, before they enter. [res:canaan-geography-boundaries]',
         },
         {
           kind: 'reflection',
@@ -397,7 +397,7 @@ export const NUMBERS_34: RichChapterContent = {
           kind: 'commentary',
           id: 'c-caleb',
           html:
-            'Caleb is named first among the tribal princes. This is not random. Caleb is the man who, at Kadesh-barnea forty years earlier, said, &ldquo;Let us go up at once, and possess it; for we are well able to overcome it&rdquo; (Num. 13:30). While the other spies brought a faithless report, Caleb followed the Lord wholly. His faithfulness is publicly honored here. He gets to participate in dividing the land he trusted God to give.',
+            'Caleb is named first among the tribal princes. This is not random. Caleb is the man who, at Kadesh-barnea forty years earlier, said, &ldquo;Let us go up at once, and possess it; for we are well able to overcome it&rdquo; (Num. 13:30). While the other spies brought a faithless report, Caleb followed the Lord wholly. His faithfulness is publicly honored here. He gets to participate in dividing the land he trusted God to give. [res:caleb-inheritance-joshua]',
         },
         {
           kind: 'christ',
@@ -429,7 +429,7 @@ export const NUMBERS_34: RichChapterContent = {
           kind: 'commentary',
           id: 'c-theology-assignment',
           html:
-            'The chapter divides neatly: first, the borders (verses 1–15); second, the leaders who will divide (verses 16–29). The structure is theological. <strong>God marks the borders of the inheritance. God assigns the leaders who will distribute it.</strong> Humans do not invent the inheritance. Humans do not decide who gets what. The pattern—the boundary, the leader, the division—belongs to God. Israel steps into an inheritance already measured, already assigned, already blessed.',
+            'The chapter divides neatly: first, the borders (verses 1–15); second, the leaders who will divide (verses 16–29). The structure is theological. <strong>God marks the borders of the inheritance. God assigns the leaders who will distribute it.</strong> Humans do not invent the inheritance. Humans do not decide who gets what. The pattern—the boundary, the leader, the division—belongs to God. Israel steps into an inheritance already measured, already assigned, already blessed. [res:sefaria-numbers-34]',
         },
         {
           kind: 'commentary',
@@ -463,6 +463,33 @@ export const NUMBERS_34: RichChapterContent = {
             'The Hebrew word <em>nachalah</em> appears throughout Numbers 34. The land is not bought, not conquered (yet), not earned—it is <em>nachalah</em>, inherited, assigned, given. This is the language of covenant, of grace. God does not sell the land to Israel. He assigns it. The price has already been paid—paid in Egypt, at the Passover, in the wilderness, in the faithfulness of Caleb and Joshua who held fast to the promise when others let go.',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-numbers-34',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 34 — Full Text & Mefarshim',
+      url: 'https://www.sefaria.org/Numbers.34',
+      description: 'Complete Hebrew and English text with classical rabbinic commentary on the boundaries and division of Canaan.',
+    },
+    {
+      id: 'canaan-geography-boundaries',
+      kind: 'archaeology',
+      source: 'Bible Odyssey',
+      label: 'Canaan Geography & Tribal Boundaries',
+      url: 'https://www.bibleodyssey.org/passages/related-articles/canaan-boundaries/',
+      description: 'Archaeological and geographical overview of ancient Canaan and how the tribal territories were distributed and measured.',
+    },
+    {
+      id: 'caleb-inheritance-joshua',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Joshua 14 — Caleb&apos;s Inheritance Fulfilled',
+      url: 'https://www.intertextual.org/texts/joshua',
+      description: 'How Caleb&apos;s faithfulness in Numbers 34 is honored and rewarded when he receives his inheritance in Joshua 14.',
     },
   ],
 };

@@ -78,6 +78,18 @@ export const DANIEL_12: RichChapterContent = {
             plain(6, 'And one said to the man clothed in linen, which was upon the waters of the river, How long shall it be to the end of these wonders?'),
             plain(7, 'And I heard the man clothed in linen, which was upon the waters of the river, when he held up his right hand and his left hand unto heaven, and sware by him that liveth for ever that it shall be for a time, times, and an half; and when he shall have accomplished to scatter the power of the holy people, all these things shall be finished.'),
             plain(8, 'And I heard, but I understood not: then said I, O my Lord, what shall be the end of these things?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'daniel-12-sealed-time',
+          html:
+            'Daniel saw visions; now he asks when. Three and a half times. The end draws close. Time itself bends toward restoration. Seal the scroll; let the faithful endure. The outcome is sure.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             plain(9, 'And he said, Go thy way, Daniel: for the words are closed up and sealed till the time of the end.'),
             plain(10, 'Many shall be purified, and made white, and tried; but the wicked shall do wickedly: and none of the wicked shall understand; but the wise shall understand.'),
             plain(11, 'And from the time that the daily sacrifice shall be taken away, and the abomination that maketh desolate set up, there shall be a thousand two hundred and ninety days.'),

@@ -149,6 +149,18 @@ export const DEUTERONOMY_12: RichChapterContent = {
                 t(', which the Lord your God giveth you.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'deut12-place-chosen',
+          html:
+            'The Lord will choose one place to put His name. Worship cannot be improvised on every hilltop; it must be brought to the place God Himself appoints.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             {
               number: 10,
               spans: [
@@ -328,6 +340,18 @@ export const DEUTERONOMY_12: RichChapterContent = {
                 t('; and thou mayest not eat the life with the flesh.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'deut12-blood-life',
+          html:
+            'Blood is the life — not to be eaten, only to be poured out. The line between bread and altar is drawn sharply, and it will hold all the way to the cross.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             {
               number: 24,
               spans: [

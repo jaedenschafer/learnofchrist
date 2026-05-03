@@ -33,6 +33,18 @@ export const DANIEL_8: RichChapterContent = {
             plain(16, 'And I heard a man&apos;s voice between the banks of Ulai, which called, and said, Gabriel, make this man to understand the vision.'),
             plain(17, 'So he came near where I stood: and when he came, I was afraid, and fell upon my face: but he said unto me, Understand, O son of man: for at the time of the end shall be the vision.'),
             plain(19, 'And he said, Behold, I will make known unto thee what shall be in the last end of the indignation: for at the time appointed the end shall be.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'daniel-8-beast-explained',
+          html:
+            'The ram and the goat fall. Now the angel Gabriel steps in. What Daniel saw in vision—terror and confusion—Gabriel translates into history: kings will rise, the wicked will fall, the end is written.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(20, 'The ram which thou sawest having two horns are the kings of Media and Persia.'),
             plain(21, 'And the rough goat is the king of Grecia: and the great horn that is between his eyes is the first king.'),
             plain(22, 'Now that being broken, whereas four stood up for it, four kingdoms shall stand up out of the nation, but not in his power.'),

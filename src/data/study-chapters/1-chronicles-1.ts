@@ -313,6 +313,18 @@ export const CHRONICLES_1_1: RichChapterContent = {
             plain(39, 'The sons of Esau; Eliphaz, Reuel, and Jeush, and Jaalam, and Korah.'),
             plain(40, 'The sons of Eliphaz; Teman, and Omar, Zephi, and Gatam, Kenaz, and Timna, and Amalek.'),
             plain(41, 'The sons of Reuel; Nahath, Zerah, Shammah, and Mizzah.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr1-edom-kings',
+          html:
+            'The line of Esau&apos;s descendants narrows from grandsons to dukes to kings — a parallel monarchy taking shape east of Jordan. Edom has its order long before Israel will demand a king of its own.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(42, 'And the sons of Seir; Lotan, and Shobal, and Zibeon, and Anah, and Dishon, and Ezer, and Dishan.'),
             plain(43, 'And the sons of Lotan; Hori, and Homam: and Timna was Lotan\'s sister.'),
             plain(44, 'The sons of Shobal; Alvan, and Manahath, and Ebal, Shephi, and Onam. And the sons of Zibeon; Aiah, and Anah.'),

@@ -98,6 +98,18 @@ export const ECCLESIASTES_10: RichChapterContent = {
             plain(13, 'The beginning of the words of his mouth is foolishness: and the end of his talk is mischievous madness.'),
             plain(14, 'A fool also is full of words: a man cannot tell what shall be; and what shall be after him, who can tell him?'),
             plain(15, 'The labour of the foolish wearieth every one of them, because he knoweth not how to go to the city.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ecclesiastes-10-folly-peril',
+          html:
+            'Folly digs pits; laziness lets roofs leak; feasts soothe but debts grow. The preacher shows decay creeping in through small gaps. Folly is not loud; it whispers. Neglect is not sudden; it grows.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             plain(16, 'Woe to thee, O land, when thy king is a child, and thy princes eat in the morning!'),
             plain(17, 'Blessed art thou, O land, when thy king is the son of nobles, and thy princes eat in due season, for strength, and not for drunkenness!'),
             plain(18, 'By much slothfulness the building decayeth; and through idleness of the hands the house droppeth through.'),

@@ -59,6 +59,18 @@ export const ESTHER_9: RichChapterContent = {
               5,
               'Thus the Jews smote all their enemies with the stroke of the sword, and slaughter, and destruction, and made what they would among them that hated them.'
             ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'esther-9-vengeance-allowed',
+          html:
+            'Permission granted. Fear seizes the land. Jews defend themselves. Seventy-five thousand enemies fall. What Haman plotted—their death—becomes his own people&apos;s doom. Justice turns the knife back.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(
               6,
               'And in Shushan the palace the Jews slew and destroyed five hundred men.'
@@ -150,6 +162,18 @@ export const ESTHER_9: RichChapterContent = {
               14,
               'And the king commanded it so to be done: and the decree was given at Shushan; and they hanged Haman&apos;s ten sons.'
             ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'esther-9-bodies-hung',
+          html:
+            'Haman and his sons face gallows. Even death is not the end—bodies hang for all to see. Shame outlasts breath. The visible consequence warns others: plot against God&apos;s people and face His hand.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(
               15,
               'For the Jews that were in Shushan gathered themselves together on the fourteenth day also of the month Adar, and slew three hundred men at Shushan; but on the prey they laid not their hand.'
@@ -245,6 +269,18 @@ export const ESTHER_9: RichChapterContent = {
               23,
               'And the Jews undertook to do as they had begun, and as Mordecai had written unto them;'
             ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'esther-9-feast-letter',
+          html:
+            'Purim is born from ashes. Letters go out. A feast, a day, a memorial. What began as a cry for help becomes a celebration. God&apos;s hidden hand now blazes in every Jewish home, forever.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(
               24,
               'For Haman the son of Hammedatha, the Agagite, the enemy of all the Jews, had devised against the Jews to destroy them, and had cast Pur, that is, the lot, to consume them, and to destroy them;'

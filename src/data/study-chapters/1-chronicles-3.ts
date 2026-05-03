@@ -45,6 +45,18 @@ export const CHRONICLES_1_3: RichChapterContent = {
             plain(2, 'The third Absalom the son of Maacah the daughter of Talmai king of Geshur; the fourth Adonijah the son of Haggith;'),
             plain(3, 'The fifth Shephatiah of Abital; the sixth Ithream by Eglah his wife.'),
             plain(4, 'These six were born unto him in Hebron; and there he reigned seven years and six months: and in Jerusalem he reigned thirty and three years.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr3-hebron-jerusalem',
+          html:
+            'The chronicler marks the transition — six sons born in Hebron, the rest in Jerusalem. The capital changes; the line keeps narrowing toward the Christ.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             {
               number: 5,
               spans: [

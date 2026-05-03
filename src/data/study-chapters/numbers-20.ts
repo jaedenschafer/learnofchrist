@@ -534,5 +534,32 @@ export const NUMBERS_20: RichChapterContent = {
     },
   ],
 
+  resources: [
+    {
+      id: 'sefaria-numbers-20',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 20',
+      url: 'https://www.sefaria.org/Numbers.20',
+      description: 'Text and commentary on Miriam&apos;s death, the waters of Meribah, and Moses&apos; failure to sanctify God.',
+    },
+    {
+      id: '1-corinthians-10-rock-christ',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Numbers 20 ↔ 1 Corinthians 10:4',
+      url: 'https://intertextual.bible/text/numbers-20/1-corinthians-10.4',
+      description: 'Paul identifies the rock in the wilderness as Christ, linking the water that flowed to the spiritual sustenance in Jesus.',
+    },
+    {
+      id: 'meribah-lexicon',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Meribah (Waters of Contention)',
+      url: 'https://www.sefaria.org/Numbers.20.13',
+      description: 'Etymology and significance of Meribah, where Israel contended with the Lord and Moses was sanctified before the congregation.',
+    },
+  ],
+
   hasHebrew: true,
 };

@@ -32,6 +32,18 @@ export const AMOS_5: RichChapterContent = {
             plain(2, 'The virgin of Israel is fallen; she shall no more rise: she is forsaken upon her land; there is none to raise her up.'),
             plain(3, 'For thus saith the Lord God; The city that went out by a thousand shall leave an hundred, and that which went forth by an hundred shall leave ten, to the house of Israel.'),
             plain(4, 'For thus saith the Lord unto the house of Israel, Seek ye me, and ye shall live:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'amos5-seek-and-live',
+          html:
+            'The funeral dirge breaks open with an invitation — <em>seek ye me, and ye shall live</em>. Even in the announcement of judgment, mercy keeps a door cracked.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(5, 'But seek not Bethel, nor enter into Gilgal, and pass not to Beer-sheba: for Gilgal shall surely go into captivity, and Bethel shall come to nought.'),
             plain(6, 'Seek the Lord, and ye shall live; lest he break out like fire in the house of Joseph, and devour it, and there be none to quench it in Bethel.'),
             plain(7, 'Ye which turn judgment to wormwood, and leave off righteousness in the earth,'),
@@ -96,6 +108,18 @@ export const AMOS_5: RichChapterContent = {
             plain(20, 'Shall not the day of the Lord be darkness, and not light? even very dark, and no brightness in it?'),
             plain(21, 'I hate, I despise your feast days, and I will not smell in your solemn assemblies.'),
             plain(22, 'Though ye offer me burnt offerings and your meat offerings, I will not accept them: neither will I regard the peace offerings of your fat beasts.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'amos5-justice-river',
+          html:
+            'Burnt offerings will not save them; only justice rolling down like waters will. God refuses worship that costs less than righteousness.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(23, 'Take thou away from me the noise of thy songs; for I will not hear the melody of thy viols.'),
             {
               number: 24,

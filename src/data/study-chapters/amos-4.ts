@@ -65,6 +65,18 @@ export const AMOS_4: RichChapterContent = {
             plain(6, 'And I also have given you cleanness of teeth in all your cities, and want of bread in all your places: yet have ye not returned unto me, saith the Lord.'),
             plain(7, 'And also I have withholden the rain from you, when there were yet three months to the harvest: and I caused it to rain upon one city, and caused it not to rain upon another city: one piece was rained upon, and the piece whereupon it rained not withered.'),
             plain(8, 'So two or three cities wandered unto one city, to drink water; but they were not satisfied: yet have ye not returned unto me, saith the Lord.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'amos4-yet-not-returned',
+          html:
+            'Five times the refrain repeats: <em>yet have ye not returned unto me</em>. Each disaster was meant as a summons. Each was treated as a setback.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(9, 'I have smitten you with blasting and mildew: when your gardens and your vineyards and your fig trees and your olive trees increased, the palmerworm devoured them: yet have ye not returned unto me, saith the Lord.'),
             plain(10, 'I have sent among you the pestilence after the manner of Egypt: your young men have I slain with the sword, and have taken away your horses; and I have made the stink of your camps to come up unto your nostrils: yet have ye not returned unto me, saith the Lord.'),
             plain(11, 'I have overthrown some of you, as God overthrew Sodom and Gomorrah, and ye were as a firebrand plucked out of the burning: yet have ye not returned unto me, saith the Lord.'),

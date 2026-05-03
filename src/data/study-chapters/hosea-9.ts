@@ -32,6 +32,18 @@ export const HOSEA_9: RichChapterContent = {
             plain(2, 'The floor and the winepress shall not feed them, and the new wine shall fail in her.'),
             plain(3, 'They shall not dwell in the Lord&apos;s land; but Ephraim shall return to Egypt, and they shall eat unclean things in Assyria.'),
             plain(4, 'They shall not offer wine offerings to the Lord, neither shall they be pleasing unto him: their sacrifices shall be unto them as the bread of mourners; all that eat thereof shall be polluted: for their bread for their soul shall not come into the house of the Lord.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'hosea-9-festival-exile',
+          html:
+            'They cannot pour wine to God or offer sacrifices. No festivals in exile. Exile is not death but amputation—loss of the very rhythms that marked them as God&apos;s people. Cut off from worship, they face a slow forgetting.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(5, 'What will ye do in the solemn day, and in the day of the feast of the Lord?'),
             plain(6, 'For, lo, they are gone because of destruction: Egypt shall gather them up, Memphis shall bury them: the pleasant places for their silver, nettles shall possess them: thorns shall be in their tabernacles.'),
             plain(7, 'The days of visitation are come, the days of recompence are come; Israel shall know it: the prophet is a fool, the spiritual man is mad, for the multitude of thine iniquity, and the great hatred.'),

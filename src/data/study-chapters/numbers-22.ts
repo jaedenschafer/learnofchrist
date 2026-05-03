@@ -509,4 +509,31 @@ export const NUMBERS_22: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'sefaria-numbers-22',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 22',
+      url: 'https://www.sefaria.org/Numbers.22',
+      description: 'Text and commentary on Balaam and the donkey, including Balaam&apos;s attempts to curse Israel despite God&apos;s prohibition.',
+    },
+    {
+      id: 'deir-alla-balaam',
+      kind: 'archaeology',
+      source: 'IAA',
+      label: 'Deir Alla Inscription (Balaam)',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Ancient Aramaic inscription from the 8th century BCE mentioning Balaam, confirming the prophet&apos;s historical existence.',
+    },
+    {
+      id: 'jude-11-balaam',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Numbers 22 ↔ Jude 11',
+      url: 'https://intertextual.bible/text/numbers-22/jude-11',
+      description: 'Jude warns against following the way of Balaam, who ran greedily after error for reward.',
+    },
+  ],
 };

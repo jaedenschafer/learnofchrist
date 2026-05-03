@@ -213,6 +213,18 @@ export const EXODUS_36: RichChapterContent = {
             { number: 27, spans: [ t('And for the sides of the tabernacle westward he made six boards.') ] },
             { number: 28, spans: [ t('And two boards made he for the corners of the tabernacle in the two sides.') ] },
             { number: 29, spans: [ t('And they were coupled beneath, and coupled together at the head thereof, to one ring: thus he did to both of them in both the corners.') ] },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ex36-boards-rise',
+          html:
+            'The boards rise — silver sockets at the foot, gold rings at the side, bars threading them together. The tabernacle is not a tent that flutters; it is a structure that stands.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 36,
+          lines: [
             { number: 30, spans: [ t('And there were eight boards; and their sockets were sixteen sockets of silver, under every board two sockets.') ] },
             { number: 31, spans: [ t('And he made bars of shittim wood; five for the boards of the one side of the tabernacle,') ] },
             { number: 32, spans: [ t('And five bars for the boards of the other side of the tabernacle, and five bars for the boards of the tabernacle for the sides westward.') ] },

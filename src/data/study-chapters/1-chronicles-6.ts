@@ -353,6 +353,18 @@ export const CHRONICLES_1_6: RichChapterContent = {
               58,
               'And Ashan with her suburbs, and Bethshemesh with her suburbs:'
             ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr6-priestly-cities',
+          html:
+            'Forty-eight cities scattered across every tribe — Israel&apos;s priesthood lives among the people, not apart from them. Holiness is not centralized; it is dispersed.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(
               59,
               'And out of the tribe of Benjamin; Geba with her suburbs, and Alemeth with her suburbs, and Anathoth with her suburbs. All their cities throughout their families were thirteen cities.'

@@ -256,6 +256,18 @@ export const NUMBERS_28: RichChapterContent = {
                 t('And their meat offering shall be of fine flour mingled with oil: three tenth deals shall ye offer for a bullock, and two tenth deals for a ram;'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'num28-sabbath-newmoon',
+          html:
+            'The daily offering doubles on the Sabbath; the new-moon offering adds bulls and goats. Time itself is consecrated — every day, every week, every month bringing its own gift.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 28,
+          lines: [
             {
               number: 21,
               spans: [
@@ -382,6 +394,33 @@ export const NUMBERS_28: RichChapterContent = {
     ref: 'Numbers 28; Hebrews 10:11–12',
     label: 'Share Numbers 28',
   },
+
+  resources: [
+    {
+      id: 'sefaria-numbers-28',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 28',
+      url: 'https://www.sefaria.org/Numbers.28',
+      description: 'Laws of the continual burnt offering and the seasonal feast offerings throughout the year.',
+    },
+    {
+      id: 'sefaria-feasts-calendar',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Festivals and Feasts (Num 28–29)',
+      url: 'https://www.sefaria.org/Numbers.28-29',
+      description: 'Complete calendar of Jewish festivals with prescribed offerings for each occasion.',
+    },
+    {
+      id: 'jewish-festivals-timeline',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jewish Festivals',
+      url: 'https://www.bibleodyssey.org/dictionary/festival/',
+      description: 'SBL overview of the three pilgrimage feasts and the religious calendar in biblical Israel.',
+    },
+  ],
 
   hasHebrew: true,
 };

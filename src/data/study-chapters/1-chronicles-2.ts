@@ -185,6 +185,18 @@ export const CHRONICLES_1_2: RichChapterContent = {
               12,
               'And Boaz begat Obed, and Obed begat Jesse,'
             ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr2-judah-line',
+          html:
+            'The line of Judah narrows toward David. Pharez and Hezron are not famous, but they are the bridge between the patriarch and the king.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(
               13,
               'And Jesse begat his firstborn Eliab, and Abinadab the second, and Shimma the third,'

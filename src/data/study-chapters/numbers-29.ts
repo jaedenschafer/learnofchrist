@@ -514,4 +514,31 @@ export const NUMBERS_29: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'sefaria-numbers-29',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 29',
+      url: 'https://www.sefaria.org/Numbers.29',
+      description: 'Laws governing the fall feasts: Rosh Hashanah, Yom Kippur, and Sukkot with their prescribed offerings.',
+    },
+    {
+      id: 'bible-odyssey-atonement',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Day of Atonement (Yom Kippur)',
+      url: 'https://www.bibleodyssey.org/dictionary/day-of-atonement/',
+      description: 'SBL entry on Yom Kippur and the annual ritual of repentance and reconciliation with God.',
+    },
+    {
+      id: 'sefaria-festivals-christ-type',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Festivals as Types (Num 28–29)',
+      url: 'https://www.sefaria.org/Numbers.28-29',
+      description: 'Traditional Jewish understanding of the feasts as prefiguring redemption and messianic themes.',
+    },
+  ],
 };

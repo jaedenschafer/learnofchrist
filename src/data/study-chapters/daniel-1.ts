@@ -76,6 +76,18 @@ export const DANIEL_1: RichChapterContent = {
             plain(9, 'Now God had brought Daniel into favour and tender love with the prince of the eunuchs.'),
             plain(10, 'And the prince of the eunuchs said unto Daniel, I fear my lord the king, who hath appointed your meat and your drink: for why should he see your faces worse liking than the children which are of your sort? then shall ye make me lose my head before the king.'),
             plain(11, 'Then said Daniel to Melzar, Prove thy servants, I beseech thee, ten days; and let them give us pulse to eat, and water to drink.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'daniel-1-test-proof',
+          html:
+            'Ten days pass. A test becomes a testimony. The four youths prove what faith can do: refuse unclean food, watch God provide, stand cleaner and stronger than those who ate from the king&apos;s table.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(12, 'Then let our countenances be looked upon before thee, and the countenance of the children that eat of the portion of the king&apos;s meat: and as thou seest, deal with thy servants.'),
             plain(13, 'So he consented to them in this matter, and proved them ten days.'),
             plain(14, 'And at the end of ten days their countenances appeared fairer and fatter in flesh than all the children which did eat the portion of the king&apos;s meat.'),

@@ -116,6 +116,18 @@ export const MATTHEW_4: RichChapterContent = {
             plain(15, 'The land of Zabulon, and the land of Nephthalim, by the way of the sea, beyond Jordan, Galilee of the Gentiles;'),
             plain(16, 'The people which sat in darkness saw great light; and to them which sat in the region and shadow of death light is sprung up.'),
             plain(17, 'From that time Jesus began to preach, and to say, Repent: for the kingdom of heaven is at hand.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'matt-4-tempt-worship',
+          html:
+            'Desert. Hunger. A kingdom offered for one act of worship. Satan claims all authority. Jesus refuses. Worship belongs to God alone. No kingdom, no power, no hunger justifies bending the knee to another. The answer stands firm.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(18, 'And Jesus, walking by the sea of Galilee, saw two brethren, Simon called Peter, and Andrew his brother, casting a net into the sea: for they were fishers.'),
             plain(19, 'And he saith unto them, Come ye after me, and I will make you fishers of men.'),
             plain(20, 'And they straightway left their nets, and followed him.'),

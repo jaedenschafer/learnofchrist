@@ -221,6 +221,18 @@ export const CHRONICLES_1_23: RichChapterContent = {
               15,
               'The sons of Moses were, Gershom, and Eliezer.'
             ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr23-levitical-courses',
+          html:
+            'Moses&apos; descendants take their place in the new order. The wilderness ministry is over; what they once carried in tents now stands in courses around a stone temple.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             plain(
               16,
               'Of the sons of Gershom, Shebuel was the chief.'

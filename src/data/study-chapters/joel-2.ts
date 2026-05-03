@@ -117,6 +117,18 @@ export const JOEL_2: RichChapterContent = {
             plain(20, 'But I will remove far off from you the northern army, and will drive him into a land barren and desolate, with his face toward the east sea, and his hinder part toward the utmost sea, and his stink shall come up, and his ill savour shall come up, because he hath done great things.'),
             plain(21, 'Fear not, O land; be glad and rejoice: for the Lord will do great things.'),
             plain(22, 'Be not afraid, ye beasts of the field: for the pastures of the wilderness do spring, for the tree beareth her fruit, the fig tree and the vine do yield their strength.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'joel-2-restoration-oath',
+          html:
+            'The land will be restored. The pastures will green. Shame will cease. God swears an oath: I am in the midst of you. The swiftness of destruction will be matched by the certainty of restoration. The oath holds.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(23, 'Be glad then, ye children of Zion, and rejoice in the Lord your God: for he hath given you the former rain moderately, and he will cause to come down for you the rain, the former rain, and the latter rain in the first month.'),
             plain(24, 'And the floors shall be full of wheat, and the vats shall overflow with wine and oil.'),
             plain(25, 'And I will restore to you the years that the locust hath eaten, the cankerworm, and the caterpiller, and the palmerworm, my great army which I sent among you.'),

@@ -40,6 +40,18 @@ export const AMOS_9: RichChapterContent = {
             plain(3, 'And though they hide themselves in the top of Carmel, I will search and take them out thence; and though they be hid from my sight in the bottom of the sea, thence will I command the serpent, and he shall bite them:'),
             plain(4, 'And though they go into captivity before their enemies, thence will I command the sword, and it shall slay them: and I will set mine eyes upon them for evil, and not for good.'),
             plain(5, 'And the Lord God of hosts is he that toucheth the land, and it shall melt, and all that dwell therein shall mourn; and it shall rise up wholly like a flood; and shall be drowned, as by the flood of Egypt.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'amos9-no-escape',
+          html:
+            'Whether they dig down to hell or climb up to heaven, the Lord&apos;s hand finds them. The judgment is not regional; it is total.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(6, 'It is he that buildeth his stories in the heaven, and hath founded his troop in the earth; he calleth for the waters of the sea, and poureth them out upon the face of the earth: The Lord is his name.'),
             plain(7, 'Are ye not as children of the Ethiopians unto me, O children of Israel? saith the Lord. Have not I brought up Israel out of the land of Egypt? and the Philistines from Caphtor, and the Syrians from Kir?'),
             plain(8, 'Behold, the eyes of the Lord God are upon the sinful kingdom, and I will destroy it from off the face of the earth; saving that I will not utterly destroy the house of Jacob, saith the Lord.'),

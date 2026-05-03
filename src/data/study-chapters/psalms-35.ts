@@ -35,6 +35,18 @@ export const PSALMS_35: RichChapterContent = {
             plain(3, 'Draw out also the spear, and stop the way against them that persecute me: say unto my soul, I am thy salvation.'),
             plain(11, 'False witnesses did rise up; they laid to my charge things that I knew not.'),
             plain(12, 'They rewarded me evil for good: to the spoiling of my soul.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps35-betrayal-pivot',
+          html:
+            'The psalmist&apos;s complaint shifts — these were the friends he prayed for in their sickness. The wound is not from enemies but from those he had carried first.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 35,
+          lines: [
             plain(17, 'Lord, how long wilt thou look on? rescue my soul from their destructions, my darling from the lions.'),
             plain(22, 'This thou hast seen, O Lord: keep not silence: O Lord, be not far from me.'),
             plain(24, 'Judge me, O Lord my God, according to thy righteousness; and let them not rejoice over me.'),

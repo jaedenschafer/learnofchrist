@@ -132,6 +132,18 @@ export const JUDGES_20: RichChapterContent = {
             plain(30, 'And the children of Israel went up against the children of Benjamin on the third day, and put themselves in array against Gibeah, as at other times.'),
             plain(31, 'And the children of Benjamin went out against the people, and were drawn away from the city; and they began to smite of the people, and kill, as at other times, in the highways, of which one goeth up to the house of God, and the other to Gibeah, about thirty men of Israel.'),
             plain(32, 'And the children of Benjamin said, They are smitten down before us, as at the first: But the children of Israel said, Let us flee, and draw them from the city unto the highways.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'judg-20-ambush-rout',
+          html:
+            'Benjamin thinks they win. Israel flees. Then the signal rises—the ambush unfolds. What looked like defeat pivots to victory. The hunters become the hunted. One moment; one hidden stratagem; the war turns.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 20,
+          lines: [
             plain(33, 'And all the men of Israel rose up out of their place, and put themselves in array at Baaltamar: and the liers in wait of Israel came forth out of their places, even out of the meadows of Gibeah.'),
             plain(34, 'And there came against Gibeah ten thousand chosen men out of all Israel, and the battle was sore: but they knew not that evil was near them.'),
             plain(35, 'And the Lord smote Benjamin before Israel: and the children of Israel destroyed of the Benjamites that day twenty and five thousand and an hundred men: all these drew the sword.'),

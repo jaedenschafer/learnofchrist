@@ -166,6 +166,18 @@ export const CHRONICLES_2_35: RichChapterContent = {
               14,
               'And afterward they made ready for themselves, and for the priests: because the priests the sons of Aaron were busied in offering of burnt offerings and the fat until night; therefore the Levites prepared for themselves, and for the priests the sons of Aaron.'
             ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2chr35-passover-restored',
+          html:
+            'Josiah&apos;s Passover gathers more priests and Levites than any since Samuel. The reforms are not just legal; they have moved into the kitchens and the courts and the songs.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 35,
+          lines: [
             plain(
               15,
               'And the singers the sons of Asaph were in their place according to the commandment of David, and Asaph, and Heman, and Jeduthun the king&apos;s seer; and the porters waited at every gate; they might not depart from their service; for their brethren the Levites prepared for them.'
