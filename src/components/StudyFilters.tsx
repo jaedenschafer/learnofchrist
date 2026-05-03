@@ -35,27 +35,26 @@ function useDropdown() {
 }
 
 interface StudyFiltersProps {
-  /** Per-level minutes for the chapter on screen. When provided, the depth
-   *  pill renders alongside the translation pill. */
+  /** Per-level minutes for the chapter on screen. When provided, the time
+   *  rows render minutes for each level. */
   estimatedMinutes?: EstimatedMinutes;
-  /** Render the pills bare (no docking wrapper). Used when StudyTopBar
-   *  embeds the pills directly into the topbar actions row. Default false
-   *  keeps the historical full-width bar with sticky-dock behavior. */
+  /** Render the pill bare (no docking wrapper). Used when StudyTopBar
+   *  embeds the pill directly into the topbar actions row. */
   inline?: boolean;
 }
 
 /**
- * Compact filter row holding the per-page knobs the reader actually flips
- * while studying:
+ * Single-pill filter holding both per-page knobs the reader flips while
+ * studying:
  *
- *   [ KJV ⌄ ]  [ ⏱ Beginner · 9m ⌄ ]
+ *   [ KJV · 9m  ⌄ ]
  *
- * In `inline` mode the pills render bare so StudyTopBar can drop them next
- * to the headphones/⋯ icons. In default mode they sit in their own bar
- * below the topbar and dock onto the navbar on scroll.
+ * Click → one dropdown with two sections: Translation (radio list) and
+ * Reading time (radio list of Quick / Standard / Deep with minutes). The
+ * pill button itself shows the current translation and active time.
  *
- * Reading prefs (font size, theme, sections) and the audio launcher live in
- * StudyTopBar — those change less often, so they stay inside the more-menu.
+ * Renamed from Beginner/Intermediate/Deep Dive to Quick/Standard/Deep —
+ * those names describe the content scope, not a judgment about the reader.
  */
 export default function StudyFilters({
   estimatedMinutes,
@@ -63,11 +62,10 @@ export default function StudyFilters({
 }: StudyFiltersProps = {}) {
   const { currentTranslation, setTranslation, availableTranslations } = useTranslation();
   const { level, setLevel } = useStudyLevel();
-  const transDD = useDropdown();
-  const depthDD = useDropdown();
+  const dd = useDropdown();
 
   // Sentinel scrolls out of view → dock the filter pill into the top nav.
-  // Skipped in inline mode because the pills already live inside the topbar.
+  // Skipped in inline mode because the pill already lives inside the topbar.
   const sentinelRef = useRef<HTMLDivElement>(null);
   const [docked, setDocked] = useState(false);
 
@@ -83,35 +81,41 @@ export default function StudyFilters({
     return () => obs.disconnect();
   }, [inline]);
 
-  const activeLevel = STUDY_LEVELS.find((l) => l.id === level) ?? STUDY_LEVELS[1];
   const activeMinutes = estimatedMinutes?.[level as StudyLevel];
 
-  // Inline pill recipe — translucent + small. Two pills sit side by side.
-  const inlineWrapClass = inline
-    ? 'flex items-center gap-1'
-    : 'flex items-center gap-1 glass-heavy border border-[color:var(--color-separator)] rounded-full px-2 py-1.5 shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)]';
+  const buttonClass = inline
+    ? `flex items-center gap-1.5 h-9 px-3 rounded-full text-[0.75rem] font-semibold transition-all border ${
+        dd.open
+          ? 'bg-[color:var(--vesper-gold)] text-white border-transparent'
+          : 'bg-[color:var(--color-surface)] text-[color:var(--color-label)] border-[color:var(--color-separator)] hover:bg-[color:var(--color-fill-subtle)]'
+      }`
+    : `flex items-center gap-1.5 h-7 px-2.5 rounded-full text-[0.6875rem] font-semibold transition-all ${
+        dd.open
+          ? 'bg-[color:var(--vesper-gold)] text-white'
+          : 'bg-[var(--color-bg)] text-[color:var(--color-label)]'
+      }`;
 
-  const pillBase = inline
-    ? 'flex items-center gap-1 h-9 px-3 rounded-full text-[0.75rem] font-semibold transition-all border border-[color:var(--color-separator)] bg-[color:var(--color-surface)]'
-    : 'flex items-center gap-1 h-7 px-2.5 rounded-full text-[0.6875rem] font-semibold transition-all';
+  const wrapClass = inline
+    ? ''
+    : 'flex items-center glass-heavy border border-[color:var(--color-separator)] rounded-full px-2 py-1.5 shadow-[0_1px_3px_rgba(0,0,0,0.04),0_8px_24px_rgba(0,0,0,0.04)]';
 
-  const pillsContent = (
-    <div className={inlineWrapClass}>
-      {/* ── Translation pill ── */}
-      <div ref={transDD.ref} className="relative">
+  const pill = (
+    <div className={wrapClass}>
+      <div ref={dd.ref} className="relative">
         <button
-          onClick={() => transDD.setOpen((o) => !o)}
-          className={`${pillBase} ${
-            transDD.open
-              ? 'bg-[color:var(--vesper-gold)] text-white'
-              : inline
-                ? 'text-[color:var(--color-label)] hover:bg-[color:var(--color-fill-subtle)]'
-                : 'bg-[var(--color-bg)] text-[color:var(--color-label)]'
-          }`}
+          onClick={() => dd.setOpen((o) => !o)}
+          aria-label="Translation and reading time"
+          className={buttonClass}
         >
-          {currentTranslation.toUpperCase()}
+          <span>{currentTranslation.toUpperCase()}</span>
+          {estimatedMinutes && activeMinutes !== undefined && (
+            <>
+              <span className={dd.open ? 'opacity-60' : 'text-[color:var(--color-tertiary-label)]'}>·</span>
+              <span>{activeMinutes}m</span>
+            </>
+          )}
           <svg
-            className={`w-2.5 h-2.5 ${transDD.open ? 'rotate-180 text-white/70' : 'text-[color:var(--color-tertiary-label)]'}`}
+            className={`w-2.5 h-2.5 ${dd.open ? 'rotate-180 text-white/70' : 'text-[color:var(--color-tertiary-label)]'}`}
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -119,152 +123,119 @@ export default function StudyFilters({
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 9l-7 7-7-7" />
           </svg>
         </button>
-        {transDD.open && (
-          <div className="absolute right-0 top-full mt-1.5 z-50 bg-[color:var(--color-surface)] rounded-2xl shadow-[0_8px_40px_rgba(0,0,0,0.15)] border border-[color:var(--color-separator)] overflow-hidden animate-fade-in min-w-[200px]">
+
+        {dd.open && (
+          <div className="absolute right-0 top-full mt-1.5 z-50 bg-[color:var(--color-surface)] rounded-2xl shadow-[0_8px_40px_rgba(0,0,0,0.15)] border border-[color:var(--color-separator)] overflow-hidden animate-fade-in min-w-[260px]">
+            {/* ─── Translation section ─── */}
+            <div className="px-4 pt-3 pb-1">
+              <p className="text-[0.625rem] font-bold uppercase tracking-[0.12em] text-[color:var(--color-tertiary-label)]">
+                Translation
+              </p>
+            </div>
             <div className="py-1 max-h-[40vh] overflow-y-auto">
-              {availableTranslations.map((t) => (
-                <button
-                  key={t.abbreviation}
-                  onClick={() => {
-                    setTranslation(t.abbreviation);
-                    transDD.setOpen(false);
-                  }}
-                  className={`w-full text-left flex items-center gap-3 px-4 py-2.5 transition-colors ${
-                    currentTranslation === t.abbreviation
-                      ? 'bg-[color:var(--vesper-gold)]/[0.05]'
-                      : 'active:bg-[var(--color-bg)]'
-                  }`}
-                >
-                  <div className="w-5 flex items-center justify-center flex-shrink-0">
-                    {currentTranslation === t.abbreviation && (
-                      <svg className="w-4 h-4 text-[color:var(--color-primary)]" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                      </svg>
-                    )}
-                  </div>
-                  <p
-                    className={`text-[0.875rem] font-medium leading-tight ${
-                      currentTranslation === t.abbreviation
-                        ? 'text-[color:var(--color-primary)]'
-                        : 'text-[color:var(--color-label)]'
+              {availableTranslations.map((t) => {
+                const active = currentTranslation === t.abbreviation;
+                return (
+                  <button
+                    key={t.abbreviation}
+                    onClick={() => {
+                      setTranslation(t.abbreviation);
+                      // Don't close — let the user pick a time too without
+                      // having to re-open the menu.
+                    }}
+                    className={`w-full text-left flex items-center gap-3 px-4 py-2 transition-colors ${
+                      active
+                        ? 'bg-[color:var(--vesper-gold)]/[0.06]'
+                        : 'hover:bg-[color:var(--color-fill-subtle)]'
                     }`}
                   >
-                    {t.abbreviation.toUpperCase()}
-                  </p>
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
-      </div>
-
-      {/* ── Depth pill (only renders when chapter has estimatedMinutes) ── */}
-      {estimatedMinutes && (
-        <div ref={depthDD.ref} className="relative">
-          <button
-            onClick={() => depthDD.setOpen((o) => !o)}
-            aria-label={`Study depth: ${activeLevel.label}`}
-            className={`${pillBase} ${
-              depthDD.open
-                ? 'bg-[color:var(--vesper-gold)] text-white'
-                : inline
-                  ? 'text-[color:var(--color-label)] hover:bg-[color:var(--color-fill-subtle)]'
-                  : 'bg-[var(--color-bg)] text-[color:var(--color-label)]'
-            }`}
-          >
-            {/* Clock glyph — keeps the pill's meaning visible at a glance. */}
-            <svg
-              className="w-3 h-3"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth={2}
-              viewBox="0 0 24 24"
-            >
-              <circle cx="12" cy="12" r="9" />
-              <path strokeLinecap="round" strokeLinejoin="round" d="M12 7v5l3 2" />
-            </svg>
-            <span>{activeLevel.label}</span>
-            {activeMinutes !== undefined && (
-              <span className="opacity-70">· {activeMinutes}m</span>
-            )}
-            <svg
-              className={`w-2.5 h-2.5 ${depthDD.open ? 'rotate-180 text-white/70' : 'text-[color:var(--color-tertiary-label)]'}`}
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 9l-7 7-7-7" />
-            </svg>
-          </button>
-          {depthDD.open && (
-            <div className="absolute right-0 top-full mt-1.5 z-50 bg-[color:var(--color-surface)] rounded-2xl shadow-[0_8px_40px_rgba(0,0,0,0.15)] border border-[color:var(--color-separator)] overflow-hidden animate-fade-in min-w-[240px]">
-              <div className="py-1">
-                {STUDY_LEVELS.map((opt) => {
-                  const active = opt.id === level;
-                  const minutes = estimatedMinutes?.[opt.id as StudyLevel];
-                  return (
-                    <button
-                      key={opt.id}
-                      onClick={() => {
-                        setLevel(opt.id);
-                        depthDD.setOpen(false);
-                      }}
-                      title={opt.description}
-                      className={`w-full text-left flex items-center gap-3 px-4 py-2.5 transition-colors ${
+                    <div className="w-4 flex items-center justify-center flex-shrink-0">
+                      {active && (
+                        <svg className="w-4 h-4 text-[color:var(--color-primary)]" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                        </svg>
+                      )}
+                    </div>
+                    <span
+                      className={`text-[0.8125rem] font-semibold leading-tight ${
                         active
-                          ? 'bg-[color:var(--vesper-gold)]/[0.05]'
-                          : 'active:bg-[var(--color-bg)]'
+                          ? 'text-[color:var(--color-primary)]'
+                          : 'text-[color:var(--color-label)]'
                       }`}
                     >
-                      <div className="w-5 flex items-center justify-center flex-shrink-0">
-                        {active ? (
-                          <svg className="w-4 h-4 text-[color:var(--color-primary)]" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
-                          </svg>
-                        ) : (
-                          <svg className="w-3.5 h-3.5 text-[color:var(--color-tertiary-label)]" fill="none" stroke="currentColor" strokeWidth={1.7} viewBox="0 0 24 24">
-                            <circle cx="12" cy="12" r="9" />
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M12 7v5l3 2" />
-                          </svg>
-                        )}
-                      </div>
-                      <span className="flex-1 min-w-0">
-                        <p
-                          className={`text-[0.875rem] font-semibold leading-tight ${
+                      {t.abbreviation.toUpperCase()}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+
+            {/* ─── Reading time section ─── */}
+            {estimatedMinutes && (
+              <>
+                <div className="border-t border-[color:var(--color-separator)] mt-1" />
+                <div className="px-4 pt-3 pb-1">
+                  <p className="text-[0.625rem] font-bold uppercase tracking-[0.12em] text-[color:var(--color-tertiary-label)]">
+                    Reading time
+                  </p>
+                </div>
+                <div className="py-1 pb-2">
+                  {STUDY_LEVELS.map((opt) => {
+                    const active = opt.id === level;
+                    const minutes = estimatedMinutes?.[opt.id as StudyLevel];
+                    return (
+                      <button
+                        key={opt.id}
+                        onClick={() => {
+                          setLevel(opt.id);
+                          dd.setOpen(false);
+                        }}
+                        className={`w-full text-left flex items-center gap-3 px-4 py-2 transition-colors ${
+                          active
+                            ? 'bg-[color:var(--vesper-gold)]/[0.06]'
+                            : 'hover:bg-[color:var(--color-fill-subtle)]'
+                        }`}
+                      >
+                        <div className="w-4 flex items-center justify-center flex-shrink-0">
+                          {active && (
+                            <svg className="w-4 h-4 text-[color:var(--color-primary)]" fill="currentColor" viewBox="0 0 24 24">
+                              <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z" />
+                            </svg>
+                          )}
+                        </div>
+                        <span
+                          className={`flex-1 text-[0.8125rem] font-semibold leading-tight ${
                             active
                               ? 'text-[color:var(--color-primary)]'
                               : 'text-[color:var(--color-label)]'
                           }`}
                         >
                           {opt.label}
-                        </p>
-                        <p className="text-[0.6875rem] text-[color:var(--color-tertiary-label)] mt-0.5">
-                          {opt.description}
-                        </p>
-                      </span>
-                      {minutes !== undefined && (
-                        <span className="text-[0.75rem] font-semibold text-[color:var(--color-secondary-label)] tabular-nums">
-                          {minutes}m
                         </span>
-                      )}
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-          )}
-        </div>
-      )}
+                        {minutes !== undefined && (
+                          <span className="text-[0.75rem] font-semibold text-[color:var(--color-secondary-label)] tabular-nums">
+                            {minutes}m
+                          </span>
+                        )}
+                      </button>
+                    );
+                  })}
+                </div>
+              </>
+            )}
+          </div>
+        )}
+      </div>
     </div>
   );
 
-  if (inline) return pillsContent;
+  if (inline) return pill;
 
   return (
     <div className="study-filters-wrap">
       <div ref={sentinelRef} aria-hidden="true" className="study-filters-sentinel" />
       <div className={`study-filters-bar ${docked ? 'is-docked' : ''}`}>
-        {pillsContent}
+        {pill}
       </div>
     </div>
   );

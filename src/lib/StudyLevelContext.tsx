@@ -43,23 +43,29 @@ const StudyLevelContext = createContext<StudyLevelContextType>({
   setLevel: () => {},
 });
 
-/** UI metadata for the three levels. Surfaces in the picker. */
+/** UI metadata for the three levels. Surfaces in the picker.
+ *
+ * Labels were renamed from "Beginner / Intermediate / Deep Dive" — those
+ * imply a skill judgment about the reader, which we want to avoid. The new
+ * labels describe the *content scope*, not the person reading. The keys
+ * (id values) stay the same so existing localStorage values keep working.
+ */
 export const STUDY_LEVELS = [
   {
     id: 'beginner' as StudyLevel,
-    label: 'Beginner',
+    label: 'Quick',
     icon: '1',
     description: 'Quick overview and key takeaways',
   },
   {
     id: 'intermediate' as StudyLevel,
-    label: 'Intermediate',
+    label: 'Standard',
     icon: '2',
     description: 'Themes, questions, and connections',
   },
   {
     id: 'deep' as StudyLevel,
-    label: 'Deep Dive',
+    label: 'Deep',
     icon: '3',
     description: 'Full study with original language and cross-references',
   },
