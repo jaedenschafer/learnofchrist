@@ -34,7 +34,7 @@ export default function ContinueReading() {
   const completed = entries.filter(([, v]) => v.completed).length;
 
   return (
-    <section className="continue-reading">
+    <section className="continue-reading" style={{ maxWidth: 1180, margin: '0 auto', padding: '0 clamp(1.25rem, 3vw, 2rem)' }}>
       <div className="continue-reading-head">
         <span className="continue-reading-eyebrow">Continue where you left off</span>
         <Link href="/progress" className="continue-reading-more">

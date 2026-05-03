@@ -661,7 +661,8 @@ html[data-reader-theme="dark"] {
 }
 
 .loc-today-card:hover {
-  transform: translateY(-2px);
+  transform: scale(1.005);
+  filter: brightness(1.04);
   box-shadow: 0 22px 48px -20px rgba(26, 22, 18, 0.40);
 }
 
@@ -938,7 +939,8 @@ html[data-reader-theme="dark"] {
 }
 
 .loc-blog-card:hover {
-  transform: translateY(-3px);
+  transform: scale(1.005);
+  filter: brightness(1.04);
   background: var(--frost-tint-hover);
   border-color: rgba(255, 255, 255, 0.40);
 }
@@ -1050,18 +1052,11 @@ html[data-reader-theme="dark"] {
 .loc-closer__title {
   font-family: 'EB Garamond', 'New York', Georgia, serif;
   font-weight: 500;
-  font-size: clamp(2.5rem, 6vw, 4.25rem);
+  font-size: var(--loc-h2);
   line-height: 1.0;
   letter-spacing: -0.02em;
-  margin: 0 0 1rem;
+  margin: 0 0 2.25rem;
   text-wrap: balance;
-}
-
-.loc-closer__sub {
-  font-size: clamp(1rem, 1.3vw, 1.1875rem);
-  line-height: 1.5;
-  color: rgba(255, 255, 255, 0.78);
-  margin: 0 0 2.5rem;
 }
 
 /* ─── Dark theme overrides ──────────────────────────────────────────── */
