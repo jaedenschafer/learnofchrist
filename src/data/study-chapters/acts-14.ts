@@ -63,7 +63,7 @@ export const ACTS_14: RichChapterContent = {
             ),
             verse(
               6,
-              t('They were aware of it, and fled unto Lystra and Derbe, cities of Lycaonia, and unto the region that lieth round about:')
+              t('They were aware of it, and fled unto Lystra and Derbe, cities of Lycaonia[res:ascsa-lystra-lycaonia], and unto the region that lieth round about:')
             ),
             verse(
               7,
@@ -75,7 +75,7 @@ export const ACTS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'acts14-iconium-believe',
           html:
-            'In Iconium they speak, and believers multiply. The response is immediate and real. Greeks and Jews both turn to Christ. This is not tentative faith—Luke says they &ldquo;believed.&rdquo; There is no apology for boldness. The apostles did not tone down the message to avoid offense. They spoke plainly of grace and the resurrection. And the Spirit moved.',
+            'In Iconium[res:bibleodyssey-iconium] they speak, and believers multiply. The response is immediate and real. Greeks and Jews both turn to Christ. This is not tentative faith—Luke says they &ldquo;believed.&rdquo; There is no apology for boldness. The apostles did not tone down the message to avoid offense. They spoke plainly of grace and the resurrection. And the Spirit moved.',
         },
         {
           kind: 'commentary',
@@ -159,7 +159,7 @@ export const ACTS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'acts14-dynamai',
           html:
-            'The man is <em>dynamai</em>—without power, impotent. He is a cripple from his mother&apos;s womb. This is not a recent illness. This is his entire life. He has sat. He has not walked. He has not stood. The condition seems permanent. It has the weight of nature, of destiny. Forty years in Acts 3 with the Beautiful Gate. A lifetime here with this man at Lystra. Both designed to show us what impossible looks like to human judgment.',
+            'The man is <em>dynamai</em>—without power, impotent. He is a cripple from his mother&apos;s womb. This is not a recent illness. This is his entire life. He has sat. He has not walked. He has not stood. The condition seems permanent. It has the weight of nature, of destiny. Forty years in Acts 3 with the Beautiful Gate. A lifetime here with this man at Lystra[res:bibleodyssey-lystra]. Both designed to show us what impossible looks like to human judgment.',
         },
         {
           kind: 'commentary',
@@ -243,7 +243,7 @@ export const ACTS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'acts14-gods-rome',
           html:
-            'Jupiter and Mercury. The king of gods and the messenger god. Paul is Mercury because he speaks. Barnabas is Jupiter because he is silent and majestic. The crowd has named them according to their theology, their stories, their longings. And they are about to sacrifice to them. The priest is bringing oxen. The garlands are ready. The machinery of worship is turning toward human beings.',
+            'Jupiter and Mercury. The king of gods and the messenger god. Paul is Mercury because he speaks. Barnabas is Jupiter because he is silent and majestic. The crowd has named them according to their theology, their stories, their longings. And they are about to sacrifice to them. The priest is bringing oxen. The garlands are ready. The machinery of worship is turning toward human beings. This echoes the Anatolian myth of Baucis and Philemon[res:theoi-baucis-philemon], where gods arrive disguised as mortals, testing mortal hospitality.',
         },
         {
           kind: 'greek',
@@ -562,6 +562,41 @@ export const ACTS_14: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 14 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-lystra',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Lystra',
+      url: 'https://www.bibleodyssey.org/dictionary/lystra/',
+      description: 'Open-access SBL entry on Lystra in Lycaonia, where Paul healed the cripple and was mistaken for Mercury, with archaeological context.',
+    },
+    {
+      id: 'theoi-baucis-philemon',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Ovid, Metamorphoses 8 — Baucis & Philemon',
+      url: 'https://www.theoi.com/Text/OvidMetamorphoses8.html',
+      description: "Ovid's account of the Baucis and Philemon myth — the Anatolian tale of gods arriving in mortal form, echoed in the Lystra crowd's belief.",
+    },
+    {
+      id: 'bibleodyssey-iconium',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Iconium',
+      url: 'https://www.bibleodyssey.org/dictionary/iconium/',
+      description: "Open-access SBL entry on Iconium (modern Konya), a major city on Paul's first missionary journey through Galatia.",
+    },
+    {
+      id: 'ascsa-lystra-lycaonia',
+      kind: 'archaeology',
+      source: 'ASCSA',
+      label: 'Lystra and Lycaonian Archaeology',
+      url: 'https://agora.ascsa.net/',
+      description: 'American School of Classical Studies archaeological resources and excavation data on Asia Minor sites including Lystra in Lycaonia.',
+    },
+  ],
 
   hasHebrew: false,
 };

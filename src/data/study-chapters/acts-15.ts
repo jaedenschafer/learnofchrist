@@ -250,7 +250,9 @@ export const ACTS_15: RichChapterContent = {
           lines: [
             verse(
               13,
-              t('And after they had held their peace, James answered, saying, Men and brethren, hearken unto me:')
+              t('And after they had held their peace, '),
+              hg('James answered, saying, Men and brethren, hearken unto me', 'acts15-james-speaks'),
+              t(':')
             ),
             verse(
               14,
@@ -291,9 +293,15 @@ export const ACTS_15: RichChapterContent = {
         },
         {
           kind: 'commentary',
+          id: 'acts15-james-speaks',
+          html:
+            'James, the Lord&apos;s brother[res:bibleodyssey-james-just], is now the leader of the Jerusalem church. He has listened to the testimony of Peter, Paul, and Barnabas. Now he speaks—not to argue, but to settle the question by weighing the evidence against Scripture.',
+        },
+        {
+          kind: 'commentary',
           id: 'acts15-davidic-tent',
           html:
-            'James cites Amos 9:11–12. The tabernacle of David—not the temple, but David&apos;s tent where the ark once dwelt—had fallen. It was a temporary structure, now in ruins. But Amos prophesies that God will rebuild it, and when He does, all nations will seek the Lord. James is saying: This is the moment. God is rebuilding the tent of David. The Gentiles are streaming in. The prophecy is happening now.',
+            'James cites Amos 9:11–12[res:sefaria-amos-9]. The tabernacle of David—not the temple, but David&apos;s tent where the ark once dwelt—had fallen. It was a temporary structure, now in ruins. But Amos prophesies that God will rebuild it, and when He does, all nations will seek the Lord. James is saying: This is the moment. God is rebuilding the tent of David. The Gentiles are streaming in. The prophecy is happening now.',
         },
         {
           kind: 'greek',
@@ -308,7 +316,7 @@ export const ACTS_15: RichChapterContent = {
           kind: 'commentary',
           id: 'acts15-necessary',
           html:
-            'James is careful here. He is not saying: Keep the whole law. He is saying: A few things matter for fellowship and conscience. Avoid idolatry, sexual immorality, and the consumption of food offered to idols or prepared in ways that violate conscience. These are about practical living together—not about salvation. Salvation is still by grace. But living as a community requires some basic boundaries.',
+            'James is careful here. He is not saying: Keep the whole law. He is saying: A few things matter for fellowship and conscience. Avoid idolatry, sexual immorality, and the consumption of food offered to idols or prepared in ways that violate conscience[res:sefaria-leviticus-17-18]. These are about practical living together—not about salvation. Salvation is still by grace. But living as a community requires some basic boundaries.',
         },
         {
           kind: 'christ',
@@ -557,6 +565,33 @@ export const ACTS_15: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 15 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-amos-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Amos 9:11–12 (Hebrew Text)',
+      url: 'https://www.sefaria.org/Amos.9',
+      description: 'Full Hebrew text and English translation of the Amos prophecy James cites at Acts 15:16 — the fallen tabernacle of David rebuilt for all nations.',
+    },
+    {
+      id: 'sefaria-leviticus-17-18',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 17–18 (Levitical Laws)',
+      url: 'https://www.sefaria.org/Leviticus.17',
+      description: 'Levitical foundation for the Apostolic Decree — laws on blood, idolatry, and sexual conduct that appear in Acts 15:29.',
+    },
+    {
+      id: 'bibleodyssey-james-just',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'James, the Lord&apos;s Brother',
+      url: 'https://www.bibleodyssey.org/dictionary/james/',
+      description: 'Open-access SBL entry on James the Just, leader of the Jerusalem council and author of the Apostolic Decree.',
+    },
+  ],
 
   hasHebrew: false,
 };

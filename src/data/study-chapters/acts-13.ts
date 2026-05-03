@@ -26,7 +26,7 @@ export const ACTS_13: RichChapterContent = {
   estimatedMinutes: { beginner: 9, intermediate: 13, deep: 17 },
   intros: [
     'The church at Antioch is a turning point. It is the first place where Jews and Gentiles worship together in the same room, breaking a barrier that had stood for centuries. Here, in worship and fasting, the Holy Spirit speaks: "Separate me Barnabas and Saul for the work whereunto I have called them." The church lays hands on them. They are commissioned and sent.',
-    'Paul—still called Saul at the start of this journey—is about to step fully into his name and his calling. He will preach the gospel across the Mediterranean. Opposition will follow. Some will believe. Some will oppose. The pattern will repeat throughout his ministry. But the word spreads, and for the first time in Acts, the Gentiles—people outside the covenant of Israel—hear the gospel and are declared saved through Christ.',
+    'Paul—still called Saul at the start of this journey—is about to step fully into his name and his calling. He will preach the gospel across the Mediterranean. Opposition will follow. Some will believe. Some will oppose. The pattern will repeat throughout his ministry. But the word spreads, and for the first time in Acts, the Gentiles—people outside the covenant of Israel—hear the gospel and are declared saved through Christ. The journey takes him first to Cyprus[res:topostext-cyprus], then across the Mediterranean to the cities of Asia Minor.',
     'This chapter contains Paul&apos;s longest sermon in Acts, a sweeping rehearsal of Israel&apos;s history from Egypt to David to the present moment. It mirrors Stephen&apos;s sermon in Acts 7 but reaches a different conclusion: where Stephen&apos;s speech ended in judgment, Paul&apos;s ends with an open door—the forgiveness of sins and justification through the resurrection, now extended to all who believe.',
   ],
 
@@ -187,7 +187,7 @@ export const ACTS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'acts13-barjesus',
           html:
-            'Bar-jesus means "son of Jesus"—an ironic name for a man who opposes the true Jesus. He is a sorcerer and a false prophet, a man who trades in spiritual deception. The fact that he is a Jew makes the opposition clearer: the false prophet and the true are both present, and the choice falls to Sergius Paulus.',
+            'Bar-jesus means "son of Jesus"—an ironic name for a man who opposes the true Jesus. He is a sorcerer and a false prophet, a man who trades in spiritual deception. The fact that he is a Jew makes the opposition clearer: the false prophet and the true are both present, and the choice falls to Sergius Paulus[res:bibleodyssey-sergius-paulus], a proconsul whose historical existence is confirmed by inscription.',
         },
         {
           kind: 'greek',
@@ -209,7 +209,7 @@ export const ACTS_13: RichChapterContent = {
           id: 'acts13-christ-paul-name',
           title: 'Christ Connection — The Old Name Dies, the New Rises',
           html:
-            'In verse 9, Saul steps forward as Paul—and the text marks this moment: "Saul, (who also is called Paul,)." The name change signals a transformation. Saul the persecutor is gone. Paul the apostle is standing in his place. Jesus Himself renamed His disciples: Abram to Abraham, Simon to Peter, Saul to Paul. The new name marks new birth in the Spirit. "Therefore if any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new" (2 Corinthians 5:17).',
+            'In verse 9, Saul steps forward as Paul—and the text marks this moment: "Saul, (who also is called Paul,)."[res:intertextual-saul-paul] The name change signals a transformation. Saul the persecutor is gone. Paul the apostle is standing in his place. Jesus Himself renamed His disciples: Abram to Abraham, Simon to Peter, Saul to Paul. The new name marks new birth in the Spirit. "Therefore if any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new" (2 Corinthians 5:17).',
         },
         {
           kind: 'carry',
@@ -264,7 +264,7 @@ export const ACTS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'acts13-synagogue',
           html:
-            'Paul has arrived at Pisidian Antioch, a city in what is now Turkey. This is gentile territory—far from Jerusalem. Yet the synagogue is there, a gathering of Jews and God-fearers, Gentiles drawn to the faith of Israel. Paul is invited to speak. And what he does next is remarkable: he tells the entire history of Israel in a single sermon.',
+            'Paul has arrived at Pisidian Antioch[res:topostext-antioch-pisidia], a city in what is now Turkey. This is gentile territory—far from Jerusalem. Yet the synagogue is there, a gathering of Jews and God-fearers, Gentiles drawn to the faith of Israel. Paul is invited to speak. And what he does next is remarkable: he tells the entire history of Israel in a single sermon.',
         },
         {
           kind: 'carry',
@@ -530,4 +530,39 @@ export const ACTS_13: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 13 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-sergius-paulus',
+      kind: 'archaeology',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Sergius Paulus',
+      url: 'https://www.bibleodyssey.org/dictionary/sergius-paulus/',
+      description: 'Open-access SBL entry on the proconsul of Cyprus, with archaeological evidence for the historical figure.',
+    },
+    {
+      id: 'topostext-cyprus',
+      kind: 'archaeology',
+      source: 'ToposText',
+      label: 'Cyprus',
+      url: 'https://topostext.org/place/378211PCyprus',
+      description: 'Gazetteer of Cyprus with archaeological site data including Salamis and Paphos, locations in Acts 13:4–12.',
+    },
+    {
+      id: 'topostext-antioch-pisidia',
+      kind: 'archaeology',
+      source: 'ToposText',
+      label: 'Antioch of Pisidia',
+      url: 'https://topostext.org/place/322199PAntiochia',
+      description: 'Archaeological site data for Pisidian Antioch, where Paul preached in the synagogue and the gospel reached the Gentiles.',
+    },
+    {
+      id: 'intertextual-saul-paul',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Saul / Paul Name Change',
+      url: 'https://intertextual.bible/',
+      description: 'Cross-reference study tool for tracing the name Saul to Paul throughout Scripture and understanding its theological significance.',
+    },
+  ],
 };
