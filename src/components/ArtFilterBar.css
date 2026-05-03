@@ -11,20 +11,15 @@
   align-items: stretch;
   gap: 0;
   padding: 0.375rem;
-  /* Vesper liquid glass — same recipe as the navbar search pill so the
-     filter bar reads as a continuation of the chrome. */
-  background: color-mix(in srgb, var(--color-surface, #fff) 65%, transparent);
-  -webkit-backdrop-filter: blur(20px) saturate(140%);
-  backdrop-filter: blur(20px) saturate(140%);
-  border: 1px solid color-mix(in srgb, white 25%, transparent);
+  /* Vesper Frost — uses shared tokens so it reads as part of the
+     same material as every other surface on the site. */
+  background: var(--frost-tint-card);
+  -webkit-backdrop-filter: var(--frost-blur-card);
+  backdrop-filter: var(--frost-blur-card);
+  border: 1px solid var(--frost-border-card);
   border-radius: 999px;
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.45),
-    0 14px 36px -16px rgba(26, 22, 18, 0.20);
-}
-html[data-reader-theme="dark"] .art-filter-bar__row {
-  background: color-mix(in srgb, var(--color-surface) 60%, transparent);
-  border-color: color-mix(in srgb, white 10%, transparent);
+  box-shadow: var(--frost-shadow);
+  color: var(--frost-text);
 }
 
 .art-filter-bar__field {

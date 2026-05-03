@@ -24,12 +24,18 @@
   align-items: center;
   gap: 0.25rem;
   padding: 0.5rem;
-  background: var(--color-surface, #FFFFFF);
+  /* Vesper Frost — same material as the rest of the site. The text-
+     selection action bar floats over the chapter reader's parchment
+     surface, so the body's .frost-light context applies. */
+  background: var(--frost-tint-card);
+  -webkit-backdrop-filter: var(--frost-blur-card);
+  backdrop-filter: var(--frost-blur-card);
   border-radius: 14px;
   box-shadow:
     0 1px 2px rgba(0, 0, 0, 0.06),
     0 18px 48px rgba(20, 14, 8, 0.18);
-  border: 1px solid color-mix(in srgb, var(--color-separator) 70%, transparent);
+  border: 1px solid var(--frost-border-card);
+  color: var(--frost-text);
 }
 
 .hi-popup__group--colors {

@@ -30,37 +30,37 @@ html[data-reader-theme="dark"] {
   --loc-gold-soft: #E8C089;
 }
 
-/* ─── Vesper Frost system ────────────────────────────────────────────────
-   The design language extracted from the dashboard. Every frosted-glass
-   surface on the home page (and beyond) reads from these tokens and
-   composes via the .frost-* utility classes below. Change a value
-   here and the whole site moves together. */
+/* ─── Vesper Frost system — home page contexts ──────────────────────────
+   The frost tokens, .frost-card / .frost-pill / .frost-circle / .frost-chip
+   / .frost-tabs utility classes, and the .frost-light / .frost-dark
+   context overrides all live in globals.css now.
 
-:root {
-  /* Tints — controls how translucent the frost is. Higher = more opaque. */
+   The body's default context is .frost-light (parchment, dark text).
+   Every home-page section that sits over a photo backdrop overrides
+   back to dark-context tokens so frost surfaces inside read as
+   white-on-frost just like the dashboard. */
+.loc-hero,
+.loc-dash,
+.loc-resources,
+.loc-mission,
+.loc-stats,
+.loc-stories,
+.loc-blog,
+.loc-closer {
   --frost-tint:         rgba(255, 255, 255, 0.16);
   --frost-tint-card:    rgba(255, 255, 255, 0.18);
   --frost-tint-strong:  rgba(255, 255, 255, 0.22);
   --frost-tint-rail:    rgba(255, 255, 255, 0.14);
   --frost-tint-hover:   rgba(255, 255, 255, 0.26);
 
-  /* Backdrop filters — the actual frost effect. */
-  --frost-blur:         blur(24px) saturate(150%);
-  --frost-blur-card:    blur(28px) saturate(150%);
-  --frost-blur-pill:    blur(20px) saturate(150%);
-
-  /* Foreground (text + icon). */
   --frost-text:         #FFFFFF;
   --frost-text-soft:    rgba(255, 255, 255, 0.78);
   --frost-text-muted:   rgba(255, 255, 255, 0.65);
 
-  /* Borders — only on cards, chips, and the tab rail. Pills/circles
-     use no border so they read as a softer pane. */
   --frost-border-card:  rgba(255, 255, 255, 0.28);
   --frost-border-chip:  rgba(255, 255, 255, 0.20);
   --frost-border-rail:  rgba(255, 255, 255, 0.18);
 
-  /* Lift shadow for pills and rows. */
   --frost-shadow:       0 6px 20px -8px rgba(26, 22, 18, 0.18);
 }
 

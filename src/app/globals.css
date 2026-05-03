@@ -231,6 +231,223 @@ html[data-reader-theme="dark"] .glass-card {
     0 24px 60px -22px rgba(0, 0, 0, 0.65);
 }
 
+/* ─── Vesper Frost — site-wide design system ────────────────────────────
+   Same tokens + components used by the home dashboard, lifted here so
+   every page can compose with them.
+
+   TWO CONTEXTS:
+     1. Default (white-on-dark) — for surfaces over photo or dark veil.
+        Frost is light-tinted, text is white. Tokens below.
+     2. .frost-light context — for surfaces over parchment or any pale
+        background. Frost is dark-tinted, text is Compline ink. Defined
+        as an override block lower down.
+
+   USAGE:
+     <div class="frost-card">…</div>           ← default white-on-dark
+     <div class="frost-light"><div class="frost-card">…</div></div>
+                                                ← parchment / light context
+*/
+
+:root {
+  /* Tints — controls how translucent the frost is. */
+  --frost-tint:         rgba(255, 255, 255, 0.16);
+  --frost-tint-card:    rgba(255, 255, 255, 0.18);
+  --frost-tint-strong:  rgba(255, 255, 255, 0.22);
+  --frost-tint-rail:    rgba(255, 255, 255, 0.14);
+  --frost-tint-hover:   rgba(255, 255, 255, 0.26);
+
+  /* Backdrop filters — the actual frost effect. */
+  --frost-blur:         blur(24px) saturate(150%);
+  --frost-blur-card:    blur(28px) saturate(150%);
+  --frost-blur-pill:    blur(20px) saturate(150%);
+
+  /* Foreground (text + icon). */
+  --frost-text:         #FFFFFF;
+  --frost-text-soft:    rgba(255, 255, 255, 0.78);
+  --frost-text-muted:   rgba(255, 255, 255, 0.65);
+
+  /* Borders — only on cards, chips, and the tab rail. */
+  --frost-border-card:  rgba(255, 255, 255, 0.28);
+  --frost-border-chip:  rgba(255, 255, 255, 0.20);
+  --frost-border-rail:  rgba(255, 255, 255, 0.18);
+
+  /* Lift shadow for pills and rows. */
+  --frost-shadow:       0 6px 20px -8px rgba(26, 22, 18, 0.18);
+}
+
+/* Parchment context — when frost surfaces sit on a light background.
+   Tokens flip to dark-on-warm so text reads. Apply this class to any
+   ancestor of a frost surface and all the tokens cascade. The whole
+   <body> gets it by default since most pages are on parchment; the
+   home page's dark sections override it locally. */
+.frost-light,
+body {
+  --frost-tint:         rgba(255, 255, 255, 0.55);
+  --frost-tint-card:    rgba(255, 255, 255, 0.65);
+  --frost-tint-strong:  rgba(255, 255, 255, 0.78);
+  --frost-tint-rail:    rgba(26, 22, 18, 0.06);
+  --frost-tint-hover:   rgba(255, 255, 255, 0.80);
+
+  --frost-text:         var(--vesper-compline);
+  --frost-text-soft:    var(--vesper-smoke);
+  --frost-text-muted:   color-mix(in srgb, var(--vesper-smoke) 70%, transparent);
+
+  --frost-border-card:  rgba(255, 255, 255, 0.55);
+  --frost-border-chip:  rgba(26, 22, 18, 0.10);
+  --frost-border-rail:  rgba(26, 22, 18, 0.08);
+
+  --frost-shadow:       0 8px 24px -10px rgba(26, 22, 18, 0.16);
+}
+
+/* Dark context — explicit opt-in for sections that DO have a photo
+   backdrop or dark veil (the home page hero, dashboard, mission, stats,
+   stories, blog, closer all set this on their root). Reverts the body's
+   default parchment tokens back to the white-on-dark recipe. */
+.frost-dark {
+  --frost-tint:         rgba(255, 255, 255, 0.16);
+  --frost-tint-card:    rgba(255, 255, 255, 0.18);
+  --frost-tint-strong:  rgba(255, 255, 255, 0.22);
+  --frost-tint-rail:    rgba(255, 255, 255, 0.14);
+  --frost-tint-hover:   rgba(255, 255, 255, 0.26);
+
+  --frost-text:         #FFFFFF;
+  --frost-text-soft:    rgba(255, 255, 255, 0.78);
+  --frost-text-muted:   rgba(255, 255, 255, 0.65);
+
+  --frost-border-card:  rgba(255, 255, 255, 0.28);
+  --frost-border-chip:  rgba(255, 255, 255, 0.20);
+  --frost-border-rail:  rgba(255, 255, 255, 0.18);
+
+  --frost-shadow:       0 6px 20px -8px rgba(26, 22, 18, 0.18);
+}
+
+/* ── Frost CARD — large rounded surface (28px radius) ─────────────────── */
+.frost-card {
+  position: relative;
+  background: var(--frost-tint-card);
+  -webkit-backdrop-filter: var(--frost-blur-card);
+  backdrop-filter: var(--frost-blur-card);
+  border: 1px solid var(--frost-border-card);
+  border-radius: 28px;
+  color: var(--frost-text);
+  isolation: isolate;
+}
+
+/* ── Frost PILL — pill button or wide row (999px radius) ──────────────── */
+.frost-pill {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.95rem 1.85rem;
+  border-radius: 999px;
+  background: var(--frost-tint);
+  -webkit-backdrop-filter: var(--frost-blur);
+  backdrop-filter: var(--frost-blur);
+  color: var(--frost-text);
+  border: none;
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  letter-spacing: 0.005em;
+  cursor: pointer;
+  box-shadow: var(--frost-shadow);
+  transition: background 0.2s ease,
+              transform 0.18s cubic-bezier(0.2, 0.7, 0.2, 1);
+  isolation: isolate;
+}
+.frost-pill:hover {
+  background: var(--frost-tint-hover);
+  transform: translateY(-1px);
+}
+.frost-pill:active { transform: scale(0.97); }
+
+/* Compact pill — used for inline secondary actions. */
+.frost-pill--compact {
+  padding: 0.4rem 0.95rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  background: var(--frost-tint-strong);
+  -webkit-backdrop-filter: var(--frost-blur-pill);
+  backdrop-filter: var(--frost-blur-pill);
+  box-shadow: none;
+}
+
+/* Block pill — full-width CTA inside a frost-card. */
+.frost-pill--block {
+  display: block;
+  width: 100%;
+  padding: 0.85rem 1rem;
+  text-align: center;
+  box-shadow: none;
+}
+
+/* Row pill — pill wrapping a label + secondary action. */
+.frost-pill--row {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 1rem 1.25rem;
+  font-weight: 600;
+  box-shadow: var(--frost-shadow);
+}
+
+/* ── Frost CIRCLE — round button (avatar, more, +, etc.) ──────────────── */
+.frost-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--frost-tint);
+  -webkit-backdrop-filter: var(--frost-blur);
+  backdrop-filter: var(--frost-blur);
+  color: var(--frost-text);
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.frost-circle:hover { background: var(--frost-tint-hover); }
+.frost-circle--sm { width: 32px; height: 32px; }
+.frost-circle--md { width: 38px; height: 38px; }
+.frost-circle--lg { width: 42px; height: 42px; }
+
+/* ── Frost CHIP — small rounded square (date "3 May") ─────────────────── */
+.frost-chip {
+  background: var(--frost-tint);
+  -webkit-backdrop-filter: var(--frost-blur);
+  backdrop-filter: var(--frost-blur);
+  border: 1px solid var(--frost-border-chip);
+  border-radius: 14px;
+  color: var(--frost-text);
+}
+
+/* ── Frost TABS — segmented control rail ──────────────────────────────── */
+.frost-tabs {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px;
+  border-radius: 999px;
+  background: var(--frost-tint-rail);
+  border: 1px solid var(--frost-border-rail);
+}
+.frost-tab {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--frost-text-muted);
+  cursor: default;
+}
+.frost-tab.is-active {
+  background: #FFFFFF;
+  color: var(--vesper-compline);
+}
+
 /* Atmospheric blurred photo backdrop. Pair with a child .atmosphere__veil
    so type stays legible. */
 .atmosphere {
@@ -263,64 +480,47 @@ html[data-reader-theme="dark"] .glass-card {
   );
 }
 
-/* ─── Card — Vesper liquid glass ─────────────────────────────────────────
-   Used in 16+ files. Promote to the brand glass recipe so every card
-   on every page picks up the inset white highlight + warm shadow. */
+/* ─── Card — Vesper Frost (uses the shared token system) ────────────────
+   Promotes the .frost-card recipe site-wide. Tokens come from the
+   .frost-light / .frost-dark context the parent section provides
+   (body defaults to .frost-light). */
 .card {
   position: relative;
-  background: color-mix(in srgb, var(--color-surface) 65%, transparent);
-  -webkit-backdrop-filter: blur(20px) saturate(140%);
-  backdrop-filter: blur(20px) saturate(140%);
-  border: 1px solid color-mix(in srgb, white 25%, transparent);
+  background: var(--frost-tint-card);
+  -webkit-backdrop-filter: var(--frost-blur-card);
+  backdrop-filter: var(--frost-blur-card);
+  border: 1px solid var(--frost-border-card);
   border-radius: var(--radius-lg);
   padding: 1.25rem;
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.40),
-    0 12px 32px -16px rgba(26, 22, 18, 0.18);
-  transition: transform 0.2s ease, box-shadow 0.3s ease, border-color 0.2s ease;
+  color: var(--frost-text);
+  box-shadow: var(--frost-shadow);
+  transition: background 0.2s ease, border-color 0.2s ease;
 }
 @media (min-width: 640px) {
   .card { padding: 1.5rem; }
 }
 .card:hover {
-  border-color: color-mix(in srgb, var(--vesper-gold) 25%, transparent);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.45),
-    0 18px 40px -16px rgba(26, 22, 18, 0.24);
-}
-html[data-reader-theme="dark"] .card {
-  background: color-mix(in srgb, var(--color-surface) 60%, transparent);
-  border-color: color-mix(in srgb, white 10%, transparent);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.10),
-    0 16px 40px -18px rgba(0, 0, 0, 0.55);
+  background: var(--frost-tint-hover);
 }
 
 .card-elevated {
   position: relative;
-  background: color-mix(in srgb, var(--color-surface) 75%, transparent);
-  -webkit-backdrop-filter: blur(24px) saturate(150%);
-  backdrop-filter: blur(24px) saturate(150%);
-  border: 1px solid color-mix(in srgb, white 28%, transparent);
+  background: var(--frost-tint-card);
+  -webkit-backdrop-filter: var(--frost-blur-card);
+  backdrop-filter: var(--frost-blur-card);
+  border: 1px solid var(--frost-border-card);
   border-radius: var(--radius-lg);
   padding: 1.25rem;
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.45),
-    0 20px 48px -20px rgba(26, 22, 18, 0.28);
-  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  color: var(--frost-text);
+  box-shadow: var(--frost-shadow);
+  transition: transform 0.2s ease, background 0.2s ease;
 }
 @media (min-width: 640px) {
   .card-elevated { padding: 1.5rem; }
 }
 .card-elevated:hover {
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.50),
-    0 28px 60px -20px rgba(26, 22, 18, 0.36);
+  background: var(--frost-tint-hover);
   transform: translateY(-2px);
-}
-html[data-reader-theme="dark"] .card-elevated {
-  background: color-mix(in srgb, var(--color-surface) 70%, transparent);
-  border-color: color-mix(in srgb, white 12%, transparent);
 }
 
 /* ─── Hero Surface — Vesper warm glass ─── */
@@ -355,16 +555,13 @@ html[data-reader-theme="dark"] .hero-pill {
   border-color: color-mix(in srgb, var(--vesper-gold) 45%, transparent);
 }
 
-/* Tint-able card surface — plays nicely in both themes */
+/* Tint-able card surface — uses frost tokens. */
 .card-tinted {
-  background: color-mix(in srgb, var(--color-surface) 70%, transparent);
-  -webkit-backdrop-filter: blur(18px) saturate(140%);
-  backdrop-filter: blur(18px) saturate(140%);
-  border: 1px solid color-mix(in srgb, white 22%, transparent);
-}
-html[data-reader-theme="dark"] .card-tinted {
-  background: color-mix(in srgb, var(--color-surface) 65%, transparent);
-  border-color: color-mix(in srgb, white 10%, transparent);
+  background: var(--frost-tint-card);
+  -webkit-backdrop-filter: var(--frost-blur-card);
+  backdrop-filter: var(--frost-blur-card);
+  border: 1px solid var(--frost-border-card);
+  color: var(--frost-text);
 }
 
 /* ─── Grouped Card (iOS list style) ─── */
@@ -386,111 +583,49 @@ html[data-reader-theme="dark"] .card-grouped-item:active { background-color: rgb
   .card-grouped-item { padding: 1rem 1.5rem; }
 }
 
-/* ─── Buttons — Vesper liquid glass ──────────────────────────────────────
-   Every button on the site is now glass. Two tints share one recipe:
-   - .btn-primary: peach/gold bloom (the "lit from within" CTA)
-   - .btn-secondary: paper bloom (used as a quieter glass companion)
-   Both use the inset white edge highlight + inner-bottom radial bloom
-   that's the iOS Liquid Glass tell, and a warm ambient shadow that
-   lifts them off any surface. */
-.btn-primary {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.375rem;
-  background:
-    radial-gradient(ellipse 90% 120% at 50% 110%, color-mix(in srgb, var(--vesper-peach) 75%, transparent), transparent 70%),
-    radial-gradient(ellipse 70% 80% at 50% 0%, color-mix(in srgb, white 40%, transparent), transparent 70%),
-    color-mix(in srgb, var(--vesper-peach) 30%, transparent);
-  -webkit-backdrop-filter: blur(20px) saturate(180%);
-  backdrop-filter: blur(20px) saturate(180%);
-  color: var(--vesper-compline);
-  padding: 0.75rem 1.5rem;
-  border-radius: 980px;
-  font-weight: 600;
-  font-size: 0.9375rem;
-  letter-spacing: -0.005em;
-  border: 1px solid color-mix(in srgb, white 50%, transparent);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.65),
-    inset 0 -10px 20px -10px rgba(232, 184, 148, 0.55),
-    0 12px 30px -10px rgba(200, 150, 74, 0.45),
-    0 2px 4px rgba(26, 22, 18, 0.06);
-  transition:
-    transform 0.2s cubic-bezier(0.2, 0.7, 0.2, 1),
-    box-shadow 0.22s ease,
-    background 0.22s ease,
-    border-color 0.18s ease;
-  isolation: isolate;
-}
-.btn-primary:hover {
-  transform: translateY(-1px);
-  background:
-    radial-gradient(ellipse 90% 120% at 50% 110%, color-mix(in srgb, var(--vesper-gold) 70%, transparent), transparent 70%),
-    radial-gradient(ellipse 70% 80% at 50% 0%, color-mix(in srgb, white 50%, transparent), transparent 70%),
-    color-mix(in srgb, var(--vesper-peach) 35%, transparent);
-  border-color: color-mix(in srgb, white 65%, transparent);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.75),
-    inset 0 -12px 24px -10px rgba(232, 184, 148, 0.65),
-    0 16px 38px -12px rgba(200, 150, 74, 0.55),
-    0 2px 4px rgba(26, 22, 18, 0.06);
-}
-.btn-primary:active { transform: scale(0.98); }
-
-html[data-reader-theme="dark"] .btn-primary {
-  background:
-    radial-gradient(ellipse 90% 120% at 50% 110%, color-mix(in srgb, var(--vesper-gold) 60%, transparent), transparent 70%),
-    radial-gradient(ellipse 70% 80% at 50% 0%, rgba(255, 255, 255, 0.18), transparent 70%),
-    color-mix(in srgb, var(--vesper-gold) 22%, transparent);
-  color: var(--vesper-parchment);
-  border-color: color-mix(in srgb, var(--vesper-gold) 55%, transparent);
-}
-
+/* ─── Buttons — Vesper Frost (uses shared tokens) ────────────────────────
+   Both .btn-primary and .btn-secondary now read from the same frost
+   tokens as everything else. Tokens swap between contexts (.frost-light
+   for parchment, .frost-dark for photo backdrops) so the same selector
+   composes correctly on every page. */
+.btn-primary,
 .btn-secondary {
   position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.375rem;
-  background:
-    radial-gradient(ellipse 90% 120% at 50% 110%, color-mix(in srgb, var(--vesper-peach) 28%, transparent), transparent 70%),
-    radial-gradient(ellipse 80% 80% at 50% 0%, rgba(255, 255, 255, 0.55), transparent 75%),
-    color-mix(in srgb, var(--color-surface) 55%, transparent);
-  -webkit-backdrop-filter: blur(20px) saturate(160%);
-  backdrop-filter: blur(20px) saturate(160%);
-  color: var(--vesper-compline);
+  gap: 0.5rem;
   padding: 0.75rem 1.5rem;
   border-radius: 980px;
+  background: var(--frost-tint);
+  -webkit-backdrop-filter: var(--frost-blur);
+  backdrop-filter: var(--frost-blur);
+  color: var(--frost-text);
+  border: none;
+  font-family: inherit;
   font-weight: 600;
   font-size: 0.9375rem;
   letter-spacing: -0.005em;
-  border: 1px solid color-mix(in srgb, var(--vesper-gold) 32%, transparent);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.55),
-    inset 0 -8px 18px -10px rgba(232, 184, 148, 0.30),
-    0 10px 26px -10px rgba(26, 22, 18, 0.14);
-  transition:
-    transform 0.2s cubic-bezier(0.2, 0.7, 0.2, 1),
-    background 0.22s ease,
-    border-color 0.18s ease;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: var(--frost-shadow);
+  transition: transform 0.2s cubic-bezier(0.2, 0.7, 0.2, 1),
+              background 0.2s ease;
   isolation: isolate;
 }
+.btn-primary:hover,
 .btn-secondary:hover {
   transform: translateY(-1px);
-  background:
-    radial-gradient(ellipse 90% 120% at 50% 110%, color-mix(in srgb, var(--vesper-peach) 38%, transparent), transparent 70%),
-    radial-gradient(ellipse 80% 80% at 50% 0%, rgba(255, 255, 255, 0.65), transparent 75%),
-    color-mix(in srgb, var(--color-surface) 68%, transparent);
-  border-color: color-mix(in srgb, var(--vesper-gold) 50%, transparent);
+  background: var(--frost-tint-hover);
 }
-html[data-reader-theme="dark"] .btn-secondary {
-  color: var(--vesper-parchment);
-  background:
-    radial-gradient(ellipse 90% 120% at 50% 110%, color-mix(in srgb, var(--vesper-gold) 22%, transparent), transparent 70%),
-    rgba(255, 255, 255, 0.06);
-  border-color: color-mix(in srgb, var(--vesper-gold) 38%, transparent);
+.btn-primary:active,
+.btn-secondary:active { transform: scale(0.98); }
+
+/* The secondary button uses the lighter rail tint so the visual
+   hierarchy still reads when both appear together. */
+.btn-secondary {
+  background: var(--frost-tint-rail);
+  box-shadow: none;
 }
 .btn-secondary:hover {
   background-color: rgba(0, 122, 255, 0.15);
@@ -530,7 +665,7 @@ html[data-reader-theme="dark"] .btn-outline:hover {
   cursor: not-allowed;
 }
 
-/* ─── Pills / Tags — Vesper glass ─── */
+/* ─── Pills / Tags — Vesper Frost ─── */
 .pill {
   display: inline-flex;
   align-items: center;
@@ -539,25 +674,20 @@ html[data-reader-theme="dark"] .btn-outline:hover {
   font-size: 0.8125rem;
   font-weight: 600;
   letter-spacing: 0.005em;
-  transition: all 0.2s ease;
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
-  border: 1px solid transparent;
+  transition: background 0.2s ease;
+  background: var(--frost-tint-strong);
+  -webkit-backdrop-filter: var(--frost-blur-pill);
+  backdrop-filter: var(--frost-blur-pill);
+  color: var(--frost-text);
+  border: none;
 }
 .pill-gold {
-  background: color-mix(in srgb, var(--vesper-gold) 16%, transparent);
-  color: var(--vesper-compline);
-  border-color: color-mix(in srgb, var(--vesper-gold) 32%, transparent);
-}
-html[data-reader-theme="dark"] .pill-gold {
-  background: color-mix(in srgb, var(--vesper-gold) 22%, transparent);
-  color: var(--vesper-parchment);
-  border-color: color-mix(in srgb, var(--vesper-gold) 45%, transparent);
+  background: color-mix(in srgb, var(--vesper-gold) 18%, transparent);
+  color: var(--frost-text);
 }
 .pill-sage {
-  background: color-mix(in srgb, var(--vesper-smoke) 14%, transparent);
-  color: var(--color-secondary-label);
-  border-color: color-mix(in srgb, var(--vesper-smoke) 28%, transparent);
+  background: var(--frost-tint);
+  color: var(--frost-text-soft);
 }
 
 /* ─── Section Divider — Vesper Gold ─── */
@@ -1696,31 +1826,23 @@ html[data-reader-theme="dark"] .cta-banner {
   .cta-banner { padding: 3.5rem 2.5rem; }
 }
 
-/* ─── Feature Card — Vesper glass ─── */
+/* ─── Feature Card — Vesper Frost ─── */
 .feature-card {
   display: flex;
   flex-direction: column;
-  background: color-mix(in srgb, var(--color-surface) 65%, transparent);
-  -webkit-backdrop-filter: blur(20px) saturate(140%);
-  backdrop-filter: blur(20px) saturate(140%);
-  border: 1px solid color-mix(in srgb, white 22%, transparent);
+  background: var(--frost-tint-card);
+  -webkit-backdrop-filter: var(--frost-blur-card);
+  backdrop-filter: var(--frost-blur-card);
+  border: 1px solid var(--frost-border-card);
   border-radius: var(--radius-lg);
   padding: 1.5rem;
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.40),
-    0 14px 36px -16px rgba(26, 22, 18, 0.20);
-  transition: transform 0.2s ease, box-shadow 0.3s ease, border-color 0.2s ease;
+  color: var(--frost-text);
+  box-shadow: var(--frost-shadow);
+  transition: transform 0.2s ease, background 0.2s ease;
 }
 .feature-card:hover {
-  border-color: color-mix(in srgb, var(--vesper-gold) 30%, transparent);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.50),
-    0 22px 50px -16px rgba(26, 22, 18, 0.30);
+  background: var(--frost-tint-hover);
   transform: translateY(-2px);
-}
-html[data-reader-theme="dark"] .feature-card {
-  background: color-mix(in srgb, var(--color-surface) 60%, transparent);
-  border-color: color-mix(in srgb, white 10%, transparent);
 }
 
 /* ─── Feature Icon ─── */
