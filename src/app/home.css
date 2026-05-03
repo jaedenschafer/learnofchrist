@@ -46,7 +46,6 @@ html[data-reader-theme="dark"] {
    and we want the full-screen sizing to win over those legacy values. */
 .loc-dash,
 .loc-resources,
-.loc-showcase,
 .loc-mission,
 .loc-blog,
 .loc-closer {
@@ -69,8 +68,6 @@ html[data-reader-theme="dark"] {
 .loc-dash,
 .loc-resources,
 .loc-mission,
-.loc-stats,
-.loc-stories,
 .loc-blog,
 .loc-closer {
   --frost-tint:         rgba(255, 255, 255, 0.16);
@@ -648,161 +645,173 @@ html[data-reader-theme="dark"] {
    marquee in the Resources section above (which already shows ~24
    curated paintings). All .loc-today-* CSS removed. */
 
-/* ─── StudyShowcase — 4-card horizontal scroll-snap carousel ────────────
-   Sits over the same atmospheric photo backdrop used elsewhere on the
-   home so the white-on-frost language continues. The cards snap on
-   scroll; on desktop the user can drag-flick or use arrow keys; the
-   01/04 pagination lives inside each card so it always reflects the
-   currently centered card without any JS. */
+/* ─── StudyShowcase — vertical sticky stack ──────────────────────────────
+   Inspired by base44.com's "01/04 Create at the speed of thought" stack:
+   each card is its own 100svh sticky section that stays pinned at the
+   top of the viewport while the user scrolls past. The next card slides
+   up over the previous one — the experience reads as cards REPLACING
+   each other, not as a sideways carousel.
 
-.loc-showcase {
+   Pure CSS via position:sticky with no JS. The stack container's
+   total height is N × 100svh so the user has enough scroll distance
+   to reveal each card in turn. */
+
+.loc-showcase-stack {
   position: relative;
   isolation: isolate;
-  overflow: hidden;
-  padding: var(--loc-section-y) 0 calc(var(--loc-section-y) * 0.7);
-  background-image:
-    linear-gradient(180deg, rgba(26, 22, 18, 0.42), rgba(26, 22, 18, 0.55)),
-    url('https://images.unsplash.com/photo-1444090542259-0af8fa96557e?auto=format&fit=crop&w=2400&q=85');
-  background-size: cover;
-  background-position: center;
 }
 
-.loc-showcase__head {
-  text-align: center;
-  max-width: 44rem;
-  margin: 0 auto clamp(2rem, 4vw, 3rem);
-}
-
-.loc-showcase__title {
-  font-family: 'EB Garamond', 'New York', Georgia, serif;
-  font-weight: 500;
-  font-size: var(--loc-h2);
-  line-height: 1.05;
-  letter-spacing: -0.02em;
-  color: var(--frost-text);
-  margin: 0;
-  text-wrap: balance;
-}
-
-.loc-showcase .loc-eyebrow { color: var(--loc-gold-soft); }
-
-/* The horizontal scroller — mask the edges so cards drift in/out of
-   view rather than getting clipped. */
-.loc-showcase__scroller {
-  /* Edge-to-edge so the scroll-snap experience feels native on mobile
-     instead of clipping inside the wrap. */
-  width: 100%;
-  overflow-x: auto;
-  overflow-y: visible;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-  padding: 0.5rem 0 1.5rem;
-  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 4%, #000 96%, transparent 100%);
-          mask-image: linear-gradient(90deg, transparent 0, #000 4%, #000 96%, transparent 100%);
-}
-.loc-showcase__scroller::-webkit-scrollbar { display: none; }
-.loc-showcase__scroller:focus-visible { outline: none; }
-
-.loc-showcase__rail {
-  display: flex;
-  gap: clamp(1rem, 2vw, 1.5rem);
-  padding: 0 clamp(1.25rem, 6vw, 6rem);
-}
-
-/* Card — one frosted-glass plate, two columns inside (copy + visual).
-   On narrow screens the visual stacks below the copy. */
-.loc-showcase__card {
-  flex: 0 0 min(92vw, 1040px);
-  scroll-snap-align: center;
-  scroll-snap-stop: always;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.5rem;
-  padding: clamp(1.5rem, 3vw, 2.25rem);
-  border-radius: 28px;
-  background: var(--frost-tint-card);
-  -webkit-backdrop-filter: var(--frost-blur-card);
-  backdrop-filter: var(--frost-blur-card);
-  border: 1px solid var(--frost-border-card);
-  color: var(--frost-text);
-  isolation: isolate;
-}
-
-@media (min-width: 720px) {
-  .loc-showcase__card {
-    grid-template-columns: 1fr 1.05fr;
-    align-items: stretch;
-    gap: clamp(1.5rem, 3vw, 2.5rem);
-    padding: clamp(2rem, 3vw, 2.75rem);
-  }
-}
-
-.loc-showcase__copy {
+.loc-showcase-card {
+  position: sticky;
+  top: 0;
+  min-height: 100svh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* The same warm parchment cream the rest of the parchment sections
+     use — the card's colored gradient on the right plays against this. */
+  background: var(--loc-paper);
+  /* A subtle bottom border that reads as "this card just arrived"
+     when the next one slides over. */
+  box-shadow: 0 -1px 0 0 color-mix(in srgb, var(--vesper-compline) 6%, transparent) inset;
+  padding: clamp(2rem, 4vw, 3.5rem) 0;
+}
+
+/* Each subsequent card sits visually on top of the previous one as it
+   sticks. Border-radius on the top edge gives the "sliding up over"
+   tell. */
+.loc-showcase-card + .loc-showcase-card {
+  border-radius: 32px 32px 0 0;
+  /* Subtle warm shadow when sliding up over the previous card. */
+  box-shadow:
+    0 -8px 32px -12px rgba(26, 22, 18, 0.16),
+    0 -1px 0 0 color-mix(in srgb, var(--vesper-compline) 6%, transparent) inset;
+}
+
+.loc-showcase-card__inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(1.5rem, 3vw, 2.5rem);
+  align-items: center;
+}
+
+@media (min-width: 880px) {
+  .loc-showcase-card__inner {
+    grid-template-columns: 1fr 1.1fr;
+  }
+}
+
+.loc-showcase-card__copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: clamp(1.5rem, 3vw, 2.5rem);
   min-width: 0;
 }
 
-.loc-showcase__pager {
+/* Pager: 01 / 04   Create at the speed of thought */
+.loc-showcase-card__pager {
   display: flex;
   align-items: baseline;
-  gap: 0.25rem;
-  margin: 0 0 1.25rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
   font-family: 'Inter', sans-serif;
-  font-size: 0.9375rem;
-  font-weight: 600;
-  letter-spacing: 0.005em;
-  color: var(--frost-text);
-}
-.loc-showcase__pager > span:nth-child(2) {
-  color: var(--frost-text-muted);
+  font-size: clamp(1.125rem, 1.6vw, 1.5rem);
   font-weight: 500;
+  letter-spacing: -0.005em;
+  color: var(--vesper-compline);
 }
-.loc-showcase__eyebrow {
-  font-size: 0.6875rem;
-  font-weight: 700;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--loc-gold-soft);
+.loc-showcase-card__num {
+  font-weight: 500;
+  color: var(--vesper-compline);
+}
+.loc-showcase-card__num-divider,
+.loc-showcase-card__num-total {
+  color: var(--vesper-smoke);
+  font-weight: 400;
+}
+.loc-showcase-card__pager-title {
+  margin-left: clamp(0.75rem, 2vw, 1.5rem);
+  font-weight: 500;
+  color: var(--vesper-compline);
 }
 
-.loc-showcase__cardtitle {
+.loc-showcase-card__title {
   font-family: 'EB Garamond', 'New York', Georgia, serif;
   font-weight: 500;
-  font-size: clamp(1.625rem, 3vw, 2.25rem);
+  font-size: clamp(1.875rem, 4vw, 3.25rem);
   line-height: 1.05;
-  letter-spacing: -0.018em;
-  margin: 0 0 1rem;
-  color: var(--frost-text);
+  letter-spacing: -0.02em;
+  margin: 0;
+  color: var(--vesper-compline);
   text-wrap: balance;
+  max-width: 22ch;
 }
 
-.loc-showcase__body {
-  font-size: clamp(0.9375rem, 1.2vw, 1.0625rem);
+.loc-showcase-card__body {
+  font-size: clamp(1rem, 1.3vw, 1.1875rem);
   line-height: 1.55;
-  color: var(--frost-text-soft);
-  margin: 0 0 1.75rem;
+  color: var(--vesper-smoke);
+  margin: 0;
   max-width: 38ch;
 }
 
-.loc-showcase__cta { align-self: flex-start; }
+.loc-showcase-card__cta {
+  align-self: flex-start;
+}
 
-/* Visual column — frosted plate with the inline mockup centered. */
-.loc-showcase__visual {
+/* Visual column — colored frosted plate with the inline mockup
+   centered. Uses a warm radial gradient backdrop so it glows on the
+   parchment surface. */
+.loc-showcase-card__visual {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 280px;
-  border-radius: 22px;
-  background: rgba(255, 255, 255, 0.10);
-  -webkit-backdrop-filter: blur(18px) saturate(140%);
-  backdrop-filter: blur(18px) saturate(140%);
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  padding: clamp(1.25rem, 2vw, 1.75rem);
+  min-height: clamp(300px, 38vw, 460px);
+  border-radius: 28px;
+  background:
+    radial-gradient(ellipse 80% 100% at 50% 0%, color-mix(in srgb, var(--vesper-peach) 28%, transparent), transparent 70%),
+    linear-gradient(160deg, color-mix(in srgb, var(--vesper-gold) 14%, var(--vesper-vellum)), var(--vesper-vellum));
+  -webkit-backdrop-filter: blur(8px) saturate(140%);
+  backdrop-filter: blur(8px) saturate(140%);
+  border: 1px solid color-mix(in srgb, var(--vesper-compline) 6%, transparent);
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+  overflow: hidden;
+  /* Card-1 visual gets the warm orange treatment; per-card overrides
+     below keep each one feeling distinct. */
+}
+
+/* Per-card visual tints — different mood per stage of the showcase. */
+.loc-showcase-card:nth-child(1) .loc-showcase-card__visual {
+  background:
+    radial-gradient(ellipse 70% 90% at 30% 10%, color-mix(in srgb, var(--vesper-gold) 30%, transparent), transparent 70%),
+    linear-gradient(160deg, color-mix(in srgb, var(--vesper-peach) 18%, var(--vesper-vellum)), var(--vesper-vellum));
+}
+.loc-showcase-card:nth-child(2) .loc-showcase-card__visual {
+  background:
+    radial-gradient(ellipse 60% 80% at 80% 20%, color-mix(in srgb, var(--vesper-sky) 24%, transparent), transparent 70%),
+    linear-gradient(160deg, color-mix(in srgb, var(--vesper-sky) 12%, var(--vesper-vellum)), var(--vesper-vellum));
+}
+.loc-showcase-card:nth-child(3) .loc-showcase-card__visual {
+  background:
+    radial-gradient(ellipse 70% 90% at 50% 0%, color-mix(in srgb, var(--vesper-gold) 22%, transparent), transparent 70%),
+    linear-gradient(160deg, color-mix(in srgb, var(--vesper-gold) 14%, var(--vesper-vellum)), var(--vesper-vellum));
+}
+.loc-showcase-card:nth-child(4) .loc-showcase-card__visual {
+  background:
+    radial-gradient(ellipse 80% 90% at 20% 100%, color-mix(in srgb, var(--vesper-peach) 26%, transparent), transparent 70%),
+    linear-gradient(160deg, color-mix(in srgb, var(--vesper-peach) 14%, var(--vesper-vellum)), var(--vesper-vellum));
+}
+
+/* Inside the visual, the inline mock should read on the warm
+   parchment-tinted backdrop instead of the white-on-frost dashboard
+   styling. Override the few tokens it picks up. */
+.loc-showcase-card__visual {
+  --frost-text:        var(--vesper-compline);
+  --frost-text-soft:   var(--vesper-smoke);
+  --frost-text-muted:  color-mix(in srgb, var(--vesper-smoke) 70%, transparent);
 }
 
 /* ── Inline mockups ─────────────────────────────────────────────────── */
@@ -821,11 +830,11 @@ html[data-reader-theme="dark"] {
   font-size: 1.25rem;
   line-height: 1.45;
   margin: 0;
-  color: #FFFFFF;
+  color: var(--frost-text);
 }
-.loc-mock__verse--soft { color: rgba(255, 255, 255, 0.86); }
+.loc-mock__verse--soft { color: var(--frost-text-soft); }
 .loc-mock__verse sup {
-  color: var(--vesper-peach);
+  color: var(--vesper-gold);
   font-weight: 600;
   font-size: 0.625em;
   margin-right: 0.25rem;
@@ -836,15 +845,15 @@ html[data-reader-theme="dark"] {
   flex-direction: column;
   gap: 0.25rem;
   padding: 0.875rem 1rem;
-  background: rgba(255, 255, 255, 0.08);
+  background: color-mix(in srgb, white 55%, transparent);
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  border: 1px solid color-mix(in srgb, var(--vesper-compline) 6%, transparent);
 }
 .loc-mock__hebrew-mark {
   font-family: 'SBL Hebrew', 'Ezra SIL', Georgia, serif;
   font-size: 1.5rem;
   line-height: 1;
-  color: #FFFFFF;
+  color: var(--frost-text);
   direction: rtl;
 }
 .loc-mock__hebrew-translit {
@@ -858,7 +867,7 @@ html[data-reader-theme="dark"] {
   flex-direction: column;
   gap: 0.5rem;
   padding: 0.875rem 1rem;
-  background: rgba(255, 255, 255, 0.06);
+  background: color-mix(in srgb, white 45%, transparent);
   border-left: 3px solid var(--vesper-gold);
   border-radius: 10px;
   font-size: 0.9375rem;
@@ -880,9 +889,9 @@ html[data-reader-theme="dark"] {
   display: inline-flex;
   align-self: flex-start;
   padding: 3px;
-  background: rgba(255, 255, 255, 0.10);
+  background: color-mix(in srgb, white 45%, transparent);
   border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  border: 1px solid color-mix(in srgb, var(--vesper-compline) 6%, transparent);
   gap: 1px;
 }
 .loc-mock__tab {
@@ -895,14 +904,14 @@ html[data-reader-theme="dark"] {
   color: var(--frost-text-muted);
 }
 .loc-mock__tab.is-active {
-  background: #FFFFFF;
-  color: var(--vesper-compline);
+  background: var(--vesper-compline);
+  color: var(--vesper-parchment);
 }
 
 .loc-mock__alt {
   margin: 0;
   padding: 0.75rem 1rem;
-  background: rgba(255, 255, 255, 0.06);
+  background: color-mix(in srgb, white 45%, transparent);
   border-radius: 10px;
   font-size: 0.875rem;
   line-height: 1.45;
@@ -916,16 +925,16 @@ html[data-reader-theme="dark"] {
   display: inline-flex;
   padding: 0.55rem 1rem;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: color-mix(in srgb, white 55%, transparent);
+  border: 1px solid color-mix(in srgb, var(--vesper-compline) 6%, transparent);
   font-size: 0.875rem;
   font-weight: 600;
   color: var(--frost-text-soft);
 }
 .loc-mock__depth-pill.is-active {
-  background: #FFFFFF;
-  color: var(--vesper-compline);
-  border-color: #FFFFFF;
+  background: var(--vesper-compline);
+  color: var(--vesper-parchment);
+  border-color: var(--vesper-compline);
 }
 .loc-mock__depth-foot {
   margin: 0.5rem 0 0;
@@ -940,16 +949,16 @@ html[data-reader-theme="dark"] {
   align-items: center;
   gap: 0.75rem;
   padding: 0.75rem 0.875rem;
-  background: rgba(255, 255, 255, 0.10);
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: color-mix(in srgb, white 55%, transparent);
+  border: 1px solid color-mix(in srgb, var(--vesper-compline) 6%, transparent);
   border-radius: 999px;
 }
 .loc-mock__play {
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  background: #FFFFFF;
-  color: var(--vesper-compline);
+  background: var(--vesper-compline);
+  color: var(--vesper-parchment);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -963,7 +972,7 @@ html[data-reader-theme="dark"] {
 .loc-mock__audio-bar {
   flex: 1 1 auto;
   height: 3px;
-  background: rgba(255, 255, 255, 0.18);
+  background: color-mix(in srgb, var(--vesper-compline) 12%, transparent);
   border-radius: 2px;
   overflow: hidden;
 }
@@ -976,7 +985,7 @@ html[data-reader-theme="dark"] {
 
 .loc-mock__note {
   padding: 0.75rem 0.875rem;
-  background: rgba(255, 255, 255, 0.06);
+  background: color-mix(in srgb, white 45%, transparent);
   border-radius: 12px;
   border-left: 3px solid var(--vesper-peach);
   font-size: 0.875rem;
@@ -989,7 +998,7 @@ html[data-reader-theme="dark"] {
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--vesper-peach);
+  color: var(--vesper-gold);
   margin-right: 0.5rem;
 }
 
@@ -998,14 +1007,14 @@ html[data-reader-theme="dark"] {
   align-items: center;
   gap: 0.5rem;
   padding: 0.5rem 0.75rem;
-  background: rgba(255, 255, 255, 0.06);
+  background: color-mix(in srgb, white 45%, transparent);
   border-radius: 999px;
 }
 .loc-mock__hl {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  border: 2px solid rgba(255, 255, 255, 0.85);
+  border: 2px solid color-mix(in srgb, white 85%, transparent);
 }
 .loc-mock__hl--gold  { background: var(--vesper-gold); }
 .loc-mock__hl--peach { background: var(--vesper-peach); }

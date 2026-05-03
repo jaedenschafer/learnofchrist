@@ -1,21 +1,14 @@
 import Link from 'next/link';
 
 /**
- * Four-card horizontal-scroll showcase of the study guide's features.
+ * Four-card vertical sticky stack for the study guide's features.
  *
- * Inspired by base44.com's "01/04 Create at the speed of thought" row.
- * Each card occupies most of the viewport width on mobile and snaps as
- * the user swipes; on desktop they sit in a row inside the wrap and
- * the user can flick or use arrow keys to walk through them.
+ * Inspired by base44.com's "01/04 Create at the speed of thought" stack.
+ * Each card is its own 100svh sticky section that slides up over the
+ * previous one as the user scrolls — the experience feels like cards
+ * replacing each other in place, not a sideways carousel.
  *
- * Visuals are inline frosted-glass mockups so we don't need any
- * commissioned screenshots — every card uses the same Vesper Frost
- * material as the rest of the page.
- *
- * Pure CSS scroll-snap; no JS required for the carousel itself. The
- * 01/04 indicator is a sticky badge inside the scroller that updates
- * via :has() + scroll-driven counters in CSS (graceful fallback: the
- * eyebrow on each card carries its own number).
+ * Pure CSS via `position: sticky; top: 0` on each card. No JS.
  */
 
 interface ShowcaseCard {
@@ -64,42 +57,34 @@ const CARDS: ShowcaseCard[] = [
 
 export default function StudyShowcase() {
   return (
-    <section className="loc-showcase" aria-label="What's inside the study">
-      <header className="loc-wrap loc-showcase__head">
-        <p className="loc-eyebrow">Inside the study</p>
-        <h2 className="loc-showcase__title">
-          Built so the Word can do its work.
-        </h2>
-      </header>
-
-      <div className="loc-showcase__scroller" tabIndex={0}>
-        <div className="loc-showcase__rail">
-          {CARDS.map((c) => (
-            <article
-              key={c.n}
-              className="loc-showcase__card"
-              data-card-n={c.n}
-            >
-              <div className="loc-showcase__copy">
-                <p className="loc-showcase__pager">
-                  <span>{c.n}</span>
-                  <span aria-hidden="true">&nbsp;/&nbsp;04&nbsp;</span>
-                  <span className="loc-showcase__eyebrow">{c.eyebrow}</span>
-                </p>
-                <h3 className="loc-showcase__cardtitle">{c.title}</h3>
-                <p className="loc-showcase__body">{c.body}</p>
-                <Link href={c.cta.href} className="loc-btn loc-btn--solid loc-showcase__cta">
-                  {c.cta.label}
-                </Link>
-              </div>
-              <div className="loc-showcase__visual" aria-hidden="true">
-                <ShowcaseVisual kind={c.visual} />
-              </div>
-            </article>
-          ))}
-        </div>
-      </div>
-    </section>
+    <div className="loc-showcase-stack" aria-label="What's inside the study">
+      {CARDS.map((c) => (
+        <section
+          key={c.n}
+          className="loc-showcase-card"
+          aria-label={`${c.eyebrow}: ${c.title}`}
+        >
+          <div className="loc-wrap loc-showcase-card__inner">
+            <div className="loc-showcase-card__copy">
+              <p className="loc-showcase-card__pager">
+                <span className="loc-showcase-card__num">{c.n}</span>
+                <span className="loc-showcase-card__num-divider">{' / '}</span>
+                <span className="loc-showcase-card__num-total">04</span>
+                <span className="loc-showcase-card__pager-title">{c.eyebrow}</span>
+              </p>
+              <h2 className="loc-showcase-card__title">{c.title}</h2>
+              <p className="loc-showcase-card__body">{c.body}</p>
+              <Link href={c.cta.href} className="loc-btn loc-btn--solid loc-showcase-card__cta">
+                {c.cta.label}
+              </Link>
+            </div>
+            <div className="loc-showcase-card__visual" aria-hidden="true">
+              <ShowcaseVisual kind={c.visual} />
+            </div>
+          </div>
+        </section>
+      ))}
+    </div>
   );
 }
 
