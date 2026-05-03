@@ -394,6 +394,18 @@ export const SAMUEL_2_23: RichChapterContent = {
                 t('Benaiah the Pirathonite, Hiddai of the brooks of Gaash,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2sam23-thirty-named',
+          html:
+            'These are the men whose names David refused to forget. The Three stood apart, but the Thirty mattered too — soldiers from a dozen towns, foreigners and Israelites alike, a brotherhood forged in caves before any of them lived in palaces.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             {
               number: 31,
               spans: [

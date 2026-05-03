@@ -184,6 +184,18 @@ export const CHRONICLES_1_15: RichChapterContent = {
             plain(16, 'And David spake to the chief of the Levites to appoint their brethren to be the singers with instruments of musick, psalteries, harps, and cymbals, sounding, by lifting up the voice with joy.'),
             plain(17, 'So the Levites appointed Heman the son of Joel; and of his brethren, Asaph the son of Berechiah; and of the sons of Merari their brethren, Ethan the son of Kushaiah;'),
             plain(18, 'And with them their brethren of the second degree, Zechariah, Ben, and Jaaziel, and Shemiramoth, and Jehiel, and Unni, Eliab, and Benaiah, and Maaseiah, and Mattithiah, and Elipheleh, and Mikneiah, and Obed-edom, and Jeiel, the porters.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr15-bearers-named',
+          html:
+            'These are the families David assigns to carry the ark — sanctified Levites, no shortcuts this time. The first attempt ended in Uzzah&apos;s death because the bearers were wrong; this list is the chronicler&apos;s way of saying David has finally read the manual.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 15,
+          lines: [
             plain(19, 'So the singers, Heman, Asaph, and Ethan, were appointed to sound with cymbals of brass;'),
             plain(20, 'And Zechariah, and Aziel, and Shemiramoth, and Jehiel, and Unni, and Eliab, and Maaseiah, and Benaiah, with psalteries on Alamoth;'),
             plain(21, 'And Mattithiah, and Elipheleh, and Mikneiah, and Obed-edom, and Jeiel, and Azaziah, with harps on the Sheminith to excel.'),

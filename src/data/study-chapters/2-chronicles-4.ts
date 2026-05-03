@@ -280,6 +280,18 @@ export const CHRONICLES_2_4: RichChapterContent = {
             plain(13, 'And four hundred pomegranates on the two wreaths; two rows of pomegranates on each wreath, to cover the two pommels of the chapiters which were upon the pillars.'),
             plain(14, 'He made also bases, and lavers made he upon the bases;'),
             plain(15, 'One sea, and twelve oxen under it.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2chr4-bronze-completed',
+          html:
+            'Notice the sheer quantity — basins by the dozen, pillars cast as one piece, a sea so heavy it sat on twelve oxen. Solomon&apos;s temple is not subtle. Its message is that the God who lives here is worth this much bronze, and more.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(16, 'The pots also, and the shovels, and the fleshhooks, and all their instruments, did Huram his father make to king Solomon for the house of the Lord of bright brass.'),
             {
               number: 17,

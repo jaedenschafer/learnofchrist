@@ -250,6 +250,18 @@ export const GENESIS_36: RichChapterContent = {
               number: 23,
               spans: [t('And the children of Anah; Dishon, and Aholibamah the daughter of Anah.')],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen36-edomite-clans',
+          html:
+            'The Horites were the original inhabitants of Seir; the Edomites married into them, displaced them, absorbed them. The genealogy here is doing two things at once — naming the new line and remembering the older one it grew over.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 36,
+          lines: [
             {
               number: 24,
               spans: [t('And the children of Dishon; Hemdan, and Eshban, and Ithran, and Cheran.')],

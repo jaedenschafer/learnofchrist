@@ -66,6 +66,18 @@ export const CHRONICLES_1_27: RichChapterContent = {
               7,
               'The fourth captain for the fourth month was Asahel the brother of Joab, and Zebadiah his son after him: and in his course were twenty and four thousand.'
             ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr27-monthly-rotations',
+          html:
+            'Twelve divisions, one per month, twenty-four thousand men each. David&apos;s standing army runs on a calendar — no tribe carries the burden alone, no household is taken from its harvest indefinitely. The kingdom learns to share the cost of being defended.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 27,
+          lines: [
             plain(
               8,
               'The fifth captain for the fifth month was Shamhuth the Izrahite: and in his course were twenty and four thousand.'

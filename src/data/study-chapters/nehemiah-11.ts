@@ -346,6 +346,18 @@ export const NEHEMIAH_11: RichChapterContent = {
             plain(28, 'And at Ziklag, and at Mekonah, and in the villages thereof,'),
             plain(29, 'And at En-rimmon, and at Zareah, and at Jarmuth,'),
             plain(30, 'Zanoah, Adullam, and in their villages, Lachish, and the fields thereof, Azekah, and in the villages thereof. And they dwelt from Beer-sheba unto the valley of Hinnom.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'neh11-villages-restored',
+          html:
+            'These villages are not famous. None of them produced kings or prophets. But the chronicler names them anyway, because the rebuilt Jerusalem is not just a city — it is a homeland with rural lungs, and every named hamlet is a sign that the exile did not have the last word.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             plain(31, 'The children also of Benjamin from Geba dwelt at Michmash, and Aija, and Beth-el, and in their villages,'),
             plain(32, 'And at Anathoth, Nob, Ananiah,'),
             plain(33, 'Hazor, Rama, Gittaim,'),

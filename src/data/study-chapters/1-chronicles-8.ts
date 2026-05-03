@@ -211,6 +211,18 @@ export const CHRONICLES_1_8: RichChapterContent = {
                 t('; and Merib-baal begat Micah.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr8-saul-line-preserved',
+          html:
+            'The chronicler keeps Saul&apos;s line on the roll long after Saul is gone. The kingdom passed to David, but the names remain — a quiet refusal to erase a family God once chose, even after that family failed.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(35, 'And the sons of Micah were, Pithon, and Melech, and Tarea, and Ahaz.'),
             plain(36, 'And Ahaz begat Jehoadah; and Jehoadah begat Alemeth, and Azmaveth, and Zimri; and Zimri begat Moza;'),
             plain(37, 'And Moza begat Binea: Rapha was his son, Eleasah his son, Azel his son:'),

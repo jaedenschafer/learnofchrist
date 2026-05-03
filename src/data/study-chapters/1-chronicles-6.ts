@@ -232,6 +232,18 @@ export const CHRONICLES_1_6: RichChapterContent = {
               41,
               'The son of Zuph, the son of Elkanah, the son of Mahath, the son of Amasai,'
             ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr6-singers-davidic',
+          html:
+            'These are the men David set over the song after the ark came to rest in Jerusalem. The list is not decorative — it names the worshippers whose voices stood watch in the tabernacle while the temple was still a dream in David&apos;s heart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(
               42,
               'The son of Elkanah, the son of Joel, the son of Azariah, the son of Zephaniah,'

@@ -160,6 +160,18 @@ export const CHRONICLES_1_16: RichChapterContent = {
               ],
             },
             plain(12, 'Remember his marvellous works that he hath done, the wonders of his mouth, and the judgments of his mouth;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1chr16-call-to-praise',
+          html:
+            'The first half is a roll-call of singers and instruments; the second half is the song itself. Worship is not improvised here — it is structured, named, and assigned. Then it is loosed.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 16,
+          lines: [
             plain(13, 'O ye seed of Israel his servant, ye children of Jacob, his chosen ones.'),
             plain(14, 'He is the Lord our God; his judgments are in all the earth.'),
             plain(15, 'Be ye mindful always of his covenant; the word which he commanded to a thousand generations;'),

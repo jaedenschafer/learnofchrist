@@ -373,6 +373,18 @@ export const JUDGES_1: RichChapterContent = {
                 t('And the man went into the land of the Hittites, and built a city, and called the name thereof Luz: which is the name thereof unto this day.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'judg1-southern-failures',
+          html:
+            'The pattern holds — every tribe that begins faithfully ends with a footnote: <em>and they did not drive out</em>. The compromise is small at first, a few cities left standing. Joshua warned that those cities would become snares, and the next chapters prove him right.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             {
               number: 27,
               spans: [

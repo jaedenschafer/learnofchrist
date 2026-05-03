@@ -48,7 +48,7 @@ export const NUMBERS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'nums2-camp-order',
           html:
-            'The word &ldquo;standard&rdquo; is <em>degel</em>, the banner or flag under which each tribe camps. Each family knew which tribe&apos;s banner to look for, which section of the camp was theirs. The camp was not a chaotic swarm — it was a militia, an assembly, a people organized around something larger than themselves. And at the center of that organization: the tabernacle.',
+            'The word &ldquo;standard&rdquo; is <em>degel</em>, the banner or flag under which each tribe camps[res:bible-odyssey-tribal-standards]. Each family knew which tribe&apos;s banner to look for, which section of the camp was theirs. The camp was not a chaotic swarm — it was a militia, an assembly, a people organized around something larger than themselves. And at the center of that organization: the tabernacle.',
         },
 
         {
@@ -86,7 +86,7 @@ export const NUMBERS_2: RichChapterContent = {
           id: 'christ-lion',
           title: 'Christ Connection — The Lion of the Tribe of Judah',
           html:
-            'Genesis blesses Judah: &ldquo;The sceptre shall not depart from Judah… until Shiloh come&rdquo; (Gen. 49:10). Revelation names the Messiah directly: &ldquo;The Lion of the tribe of Judah, the Root of David, hath prevailed&rdquo; (Rev. 5:5). The tribe that camps at the east — the place of honor, the direction of light — carries the promise of the one who will one day say, &ldquo;I am the light of the world&rdquo; (John 8:12).',
+            'Genesis blesses Judah[res:sefaria-judah-lion]: &ldquo;The sceptre shall not depart from Judah… until Shiloh come&rdquo; (Gen. 49:10). Revelation names the Messiah directly: &ldquo;The Lion of the tribe of Judah, the Root of David, hath prevailed&rdquo; (Rev. 5:5). The tribe that camps at the east — the place of honor, the direction of light — carries the promise of the one who will one day say, &ldquo;I am the light of the world&rdquo; (John 8:12).',
         },
 
         {
@@ -457,4 +457,31 @@ export const NUMBERS_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Numbers 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-camp-arrangement',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 2 — Camp Arrangement',
+      url: 'https://www.sefaria.org/Numbers.2',
+      description: 'Classical rabbinic and medieval commentaries on Israel&apos;s encampment layout, tribal positions, and the geometric arrangement around the tabernacle.',
+    },
+    {
+      id: 'bible-odyssey-tribal-standards',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Tribal Standards and Banners',
+      url: 'https://www.bibleodyssey.org/dictionary/standards/',
+      description: 'Explanation of the tribal standards (banners) used in the camp, their function, and symbolic meanings in Israelite organization.',
+    },
+    {
+      id: 'sefaria-judah-lion',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Judah — The Lion Tribe',
+      url: 'https://www.sefaria.org/Genesis.49.9',
+      description: 'Connection between Jacob&apos;s blessing of Judah as a lion and Judah&apos;s leadership position in the camp and throughout biblical history.',
+    },
+  ],
 };

@@ -116,7 +116,7 @@ export const NUMBERS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'num1-east-tribes',
           html:
-            'The first six tribes listed are the firstborn of Jacob and the descendants of Leah — the eastern or &apos;traditional&apos; line. Reuben, though firstborn, is often passed over; here he stands first among leaders, a reminder that God&apos;s ordering is not always what we expect. Each leader brings his tribe, each tribe brings its count.',
+            'The first six tribes listed are the firstborn of Jacob and the descendants of Leah — the eastern or &apos;traditional&apos; line[res:bible-odyssey-tribes-israel]. Reuben, though firstborn, is often passed over; here he stands first among leaders, a reminder that God&apos;s ordering is not always what we expect. Each leader brings his tribe, each tribe brings its count.',
         },
         {
           kind: 'scripture',
@@ -349,7 +349,7 @@ export const NUMBERS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-levite-apart',
           html:
-            'The Levites are not conscripted because their work is sanctuary service. They bear the tabernacle, pitch it, guard it. This is not exile or punishment — it is <em>appointment</em>. The text calls them to a separate task in a way that still counts them, still knows them.',
+            'The Levites are not conscripted because their work is sanctuary service[res:sefaria-levites-service]. They bear the tabernacle, pitch it, guard it. This is not exile or punishment — it is <em>appointment</em>. The text calls them to a separate task in a way that still counts them, still knows them.',
         },
         {
           kind: 'christ',
@@ -428,6 +428,33 @@ export const NUMBERS_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Numbers 1 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-census-israel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 1 — Census of Israel',
+      url: 'https://www.sefaria.org/Numbers.1',
+      description: 'Community-curated interpretations and medieval commentaries on the first census, including tribal organization and military structure.',
+    },
+    {
+      id: 'bible-odyssey-tribes-israel',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Tribes of Israel',
+      url: 'https://www.bibleodyssey.org/dictionary/tribes-of-israel/',
+      description: 'Overview of the twelve tribes, their territories, genealogies, and their role in the wilderness camp and settlement.',
+    },
+    {
+      id: 'sefaria-levites-service',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Levites — Sanctuary Service',
+      url: 'https://www.sefaria.org/Leviticus.25.32',
+      description: 'Comprehensive explanation of the Levites&apos; role in tabernacle service and their separate status from the military census.',
+    },
+  ],
 
   hasHebrew: true,
 };

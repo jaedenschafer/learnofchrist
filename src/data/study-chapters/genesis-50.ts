@@ -106,6 +106,18 @@ export const GENESIS_50: RichChapterContent = {
                 t(', and I will come again.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen50-mourning-egypt',
+          html:
+            'Seventy days of Egyptian mourning for one Hebrew shepherd. Pharaoh&apos;s court grieves Jacob the way it would grieve a king. Joseph&apos;s standing in Egypt has become his father&apos;s honor in death.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 50,
+          lines: [
             {
               number: 6,
               spans: [

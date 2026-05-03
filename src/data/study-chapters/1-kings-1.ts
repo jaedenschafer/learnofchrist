@@ -425,6 +425,18 @@ export const KINGS_1_1: RichChapterContent = {
                 t('The king also said unto them, Take with you the servants of your lord, and cause Solomon my son to ride upon mine own mule;'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1k1-coronation-procession',
+          html:
+            'David moves quickly. Bathsheba&apos;s plea has barely landed before the king is naming a mule, a horn of oil, and a route. A coronation that should have taken weeks is collapsing into a single afternoon, because the throne cannot survive a vacuum at sundown.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             {
               number: 34,
               spans: [
@@ -567,6 +579,18 @@ export const KINGS_1_1: RichChapterContent = {
                 t('And also Solomon sitteth on the throne of the kingdom.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1k1-feast-collapses',
+          html:
+            'Notice how the news travels — not as rumor but as a cascade. The trumpet, the city&apos;s shout, the messenger Adonijah&apos;s feast was hoping never to see. By the time Jonathan finishes speaking, the guests already know that they have eaten at the wrong table.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             {
               number: 47,
               spans: [

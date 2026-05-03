@@ -129,6 +129,18 @@ export const KINGS_1_4: RichChapterContent = {
               'The son of Abinadab, in all the region of Dor; which had Taphath the daughter of Solomon to wife:'
             ),
             plain(12, 'Baana the son of Ahilud; to him pertained Taanach and Megiddo, and all Beth-shean, which is by Zarethan beneath Jezreel, from Beth-shean to Abel-meholah, even unto the place that is beyond Jokneam:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1k4-twelve-officers',
+          html:
+            'Twelve districts, twelve officers, one for every month — Solomon&apos;s court eats from a different region every thirty days, so no province bleeds dry. The genius is in the math: peace is sustained when the cost is rotated.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(
               13,
               'The son of Geber, in Ramoth-gilead; to him pertained the towns of Jair the son of Manasseh, which are in Gilead; to him also pertained the region of Argob, which is in Bashan, threescore great cities with walls and brasen bars:'

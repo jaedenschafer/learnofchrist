@@ -109,6 +109,18 @@ export const JOB_37: RichChapterContent = {
             plain(16, 'Dost thou know the balancings of the clouds, the wondrous works of him which is perfect in knowledge?'),
             plain(17, 'How thy garments are warm, when he quieteth the earth by the south wind?'),
             plain(18, 'Hast thou with him spread out the sky, which is strong, and as a molten looking glass?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job37-elihu-points-up',
+          html:
+            'Elihu pivots from describing the storm to commanding Job to look at it. The lecture turns into liturgy — the wind, the gold, the brightness, the cloud. Elihu has run out of theology and started pointing.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 37,
+          lines: [
             plain(19, 'Teach us what we shall say unto him; for we cannot order our speech by reason of darkness.'),
             plain(20, 'Shall it be told him that I speak? if a man speak, surely he shall be swallowed up.'),
             plain(21, 'And now men see not the bright light which is in the clouds: but the wind passeth, and cleanseth them.'),

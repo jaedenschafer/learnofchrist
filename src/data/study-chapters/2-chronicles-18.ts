@@ -247,6 +247,18 @@ export const CHRONICLES_2_18: RichChapterContent = {
                 t('.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2chr18-micaiah-summoned',
+          html:
+            'The four hundred prophets agree on victory; the lone dissenter is summoned anyway. Jehoshaphat&apos;s instinct is right — but the alliance with Ahab is already locked in. Hearing the truth and refusing to act on it is its own judgment.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             {
               number: 17,
               spans: [

@@ -119,7 +119,7 @@ export const NUMBERS_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'hallowed-firstborn',
-          html: 'At Passover, when the death angel passed through Egypt, every firstborn in Israel was claimed for God—spared, and therefore sacred. They belong to Him entirely. But now He makes an exchange. The Levites stand <em>instead</em> of those firstborn. One tribe for all the firstborn of the rest. It is a picture of substitution so clean and so complete that it cannot be accidental. This is how redemption works.',
+          html: 'At Passover[res:bible-odyssey-redemption-price], when the death angel passed through Egypt, every firstborn in Israel was claimed for God—spared, and therefore sacred. They belong to Him entirely. But now He makes an exchange. The Levites stand <em>instead</em> of those firstborn. One tribe for all the firstborn of the rest. It is a picture of substitution so clean and so complete that it cannot be accidental. This is how redemption works.',
         },
         {
           kind: 'hebrew',
@@ -164,7 +164,7 @@ export const NUMBERS_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'clans-intro',
-          html: 'The Levites divide into three branches, each named after one of Levi&apos;s sons. Each clan has its own work, its own place around the tabernacle. There is order here—not random, not equal in all respects, but structured. The tabernacle work requires coordination.',
+          html: 'The Levites divide into three branches[res:sefaria-levites-clans], each named after one of Levi&apos;s sons. Each clan has its own work, its own place around the tabernacle. There is order here—not random, not equal in all respects, but structured. The tabernacle work requires coordination.',
         },
         {
           kind: 'scripture',
@@ -270,7 +270,7 @@ export const NUMBERS_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'redemption-price',
-          html: 'Five shekels per firstborn — the redemption price is set. It is not a tax, not a fee. It is a ransom, the price of a life bought back. The money is given to Aaron and his sons. Every firstborn not covered by a Levite goes free because someone else paid. This is the skeleton key of the entire Scripture.',
+          html: 'Five shekels per firstborn — the redemption price is set[res:sefaria-substitution-type]. It is not a tax, not a fee. It is a ransom, the price of a life bought back. The money is given to Aaron and his sons. Every firstborn not covered by a Levite goes free because someone else paid. This is the skeleton key of the entire Scripture.',
         },
         {
           kind: 'christ',
@@ -296,6 +296,33 @@ export const NUMBERS_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Numbers 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-levites-clans',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 3 — The Three Levite Clans',
+      url: 'https://www.sefaria.org/Numbers.3',
+      description: 'Detailed analysis of Gershon, Kohath, and Merari clans and their distinct tabernacle service roles.',
+    },
+    {
+      id: 'bible-odyssey-redemption-price',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Firstborn Redemption',
+      url: 'https://www.bibleodyssey.org/dictionary/firstborn/',
+      description: 'Explanation of the Passover claim on Israel&apos;s firstborn and the Levite substitution system with redemption cost.',
+    },
+    {
+      id: 'sefaria-substitution-type',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Substitution in Levitical Service',
+      url: 'https://www.sefaria.org/Leviticus.23.4',
+      description: 'Connection between the Levite substitution system and later Jewish understanding of atonement and redemption theology.',
+    },
+  ],
 
   hasHebrew: true,
 };

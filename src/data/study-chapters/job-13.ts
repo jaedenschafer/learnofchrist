@@ -46,6 +46,18 @@ export const JOB_13: RichChapterContent = {
             plain(4, 'But ye are forgers of lies: ye are all physicians of no value.'),
             plain(5, 'O that ye would altogether hold your peace! and it should be your wisdom.'),
             plain(6, 'Hear now my reasoning, and hearken to the pleadings of my lips.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job13-pivot-to-god',
+          html:
+            'Job stops speaking to his friends and turns toward God. The pain has nowhere else to go. The next verses are no longer accusation; they are appeal.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 13,
+          lines: [
             plain(7, 'Will ye speak wickedly for God? and talk deceitfully for him?'),
             plain(8, 'Will ye accept his person? will ye contend for God?'),
             plain(9, 'Is it good that he should search you out? or as one man mocketh another, do ye so mock him?'),

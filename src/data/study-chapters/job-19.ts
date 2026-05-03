@@ -61,6 +61,18 @@ export const JOB_19: RichChapterContent = {
               ],
             },
             plain(6, 'Know now that God hath overthrown me, and hath compassed me with his net.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job19-grief-deepens',
+          html:
+            'The complaint sharpens — God Himself has surrounded him, fenced him in, taken his honor away. Job is no longer asking why his friends have failed him; he is asking why God has not.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 19,
+          lines: [
             {
               number: 7,
               spans: [

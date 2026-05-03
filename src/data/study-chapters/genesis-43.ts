@@ -299,6 +299,18 @@ export const GENESIS_43: RichChapterContent = {
                 t('And said, O sir, we came indeed down at the first time to buy food:'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen43-stewards-meeting',
+          html:
+            'Joseph&apos;s steward speaks the strangest sentence in the chapter: <em>Peace be to you, fear not: your God, and the God of your father, hath given you treasure in your sacks.</em> The brothers came expecting accusation; they meet a stranger who knows the name of their God.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 43,
+          lines: [
             {
               number: 21,
               spans: [

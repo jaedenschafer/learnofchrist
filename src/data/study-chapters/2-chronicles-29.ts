@@ -54,6 +54,18 @@ export const CHRONICLES_2_29: RichChapterContent = {
                 t(', sanctify the house of the Lord God of your fathers, and carry forth the filthiness out of the holy place.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2chr29-cleansing-begins',
+          html:
+            'Hezekiah does not wait for a council or a popular mandate. The first month of his reign, the doors are opened, the priests are gathered, the holy place is cleansed. Reformation begins on day one or it does not begin at all.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 29,
+          lines: [
             plain(6, 'For our fathers have trespassed, and done that which was evil in the eyes of the Lord our God, and have forsaken him, and have turned away their faces from the habitation of the Lord, and turned their backs.'),
             plain(7, 'Also they have shut up the doors of the porch, and put out the lamps, and have not burned incense nor offered burnt offerings in the holy place unto the God of Israel.'),
             plain(8, 'Wherefore the wrath of the Lord was upon Judah and Jerusalem, and he hath delivered them to trouble, to astonishment, and to hissing, as ye see with your eyes.'),
