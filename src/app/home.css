@@ -435,7 +435,7 @@ html[data-reader-theme="dark"] {
 .loc-resources__title {
   font-family: 'EB Garamond', 'New York', Georgia, serif;
   font-weight: 500;
-  font-size: clamp(2rem, 4.6vw, 3.5rem);
+  font-size: var(--loc-h2);
   line-height: 1.05;
   letter-spacing: -0.02em;
   color: var(--frost-text);
@@ -825,11 +825,11 @@ html[data-reader-theme="dark"] {
 .loc-mission__title {
   font-family: 'EB Garamond', 'New York', Georgia, serif;
   font-weight: 500;
-  font-size: clamp(2.25rem, 5vw, 3.75rem);
+  font-size: var(--loc-h2);
   line-height: 1.05;
   letter-spacing: -0.02em;
   color: var(--frost-text);
-  margin: 0 0 1.25rem;
+  margin: 0;
   text-wrap: balance;
 }
 
@@ -885,10 +885,9 @@ html[data-reader-theme="dark"] {
 .loc-blog__title {
   font-family: 'EB Garamond', 'New York', Georgia, serif;
   font-weight: 500;
-  font-size: clamp(1.75rem, 3.4vw, 2.5rem);
-  line-height: 1.1;
-  letter-spacing: -0.018em;
-  /* White text — the section now sits over a photo backdrop. */
+  font-size: var(--loc-h2);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
   color: #FFFFFF;
   margin: 0;
   text-wrap: balance;

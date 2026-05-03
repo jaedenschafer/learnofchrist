@@ -81,7 +81,7 @@ export const TITUS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'tit2-become-doctrine',
           html:
-            'In the previous chapter, Titus was fighting false teachers—people claiming knowledge they didn&apos;t have, making mountains out of genealogies, producing arguments instead of a life (1 Tim. 1:4–6). Now Paul shifts. Sound doctrine is not primarily an intellectual monument you construct. It is a kind of talk—&ldquo;what <em>becomes</em> sound doctrine&rdquo;—meaning: what befits it, what is worthy of it, what proves it. And the proof is always visible. A man who speaks sound doctrine to an old man should be heard in that old man&apos;s sobriety, gravity, faith, love, patience.',
+            'In the previous chapter, Titus was fighting false teachers—people claiming knowledge they didn&apos;t have, making mountains out of genealogies, producing arguments instead of a life (1 Tim. 1:4–6). Now Paul shifts. Sound doctrine is not primarily an intellectual monument you construct. It is a kind of talk—&ldquo;what <em>becomes</em> sound doctrine&rdquo;—meaning: what befits it, what is worthy of it, what proves it. And the proof is always visible. A man who speaks sound doctrine to an old man should be heard in that old man&apos;s sobriety, gravity, faith, love, patience. [res:sefaria-titus-2]',
         },
         {
           kind: 'greek',
@@ -458,7 +458,7 @@ export const TITUS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'tit2-grace-appeared',
           html:
-            'Now Paul does something breathtaking. He pivots from a list of instructions to their foundation. All of the above—aged men and women steady in faith, young women loving their families, young men clear-headed, leaders living with integrity, servants adorning the doctrine—all of it rests on one hinge: "The grace of God that bringeth salvation hath <em>appeared</em>." Not an idea. Not a law. But a <em>showing</em>—an incarnation, a appearing, a moment in history when grace became visible, touchable, real. That moment was the birth, life, death, and resurrection of Christ.',
+            'Now Paul does something breathtaking. He pivots from a list of instructions to their foundation. All of the above—aged men and women steady in faith, young women loving their families, young men clear-headed, leaders living with integrity, servants adorning the doctrine—all of it rests on one hinge: "The grace of God that bringeth salvation hath <em>appeared</em>." Not an idea. Not a law. But a <em>showing</em>—an incarnation, a appearing, a moment in history when grace became visible, touchable, real. That moment was the birth, life, death, and resurrection of Christ. [res:bibleodyssey-incarnation-grace]',
         },
         {
           kind: 'greek',
@@ -532,7 +532,7 @@ export const TITUS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'tit2-blessed-hope',
           html:
-            'Every instruction in Titus 2 is now revealed to float on one great hope: His coming. The aged are to be sober not because sobriety is intrinsically noble, but because He is coming. The young woman is to love her children not because family is the highest good, but because He is coming and will see it. The servant is to serve faithfully not because the master deserves it, but because He is coming and will judge the faithful and the unfaithful. To live by this hope is to reorient your whole life toward eternity.',
+            'Every instruction in Titus 2 is now revealed to float on one great hope: His coming. The aged are to be sober not because sobriety is intrinsically noble, but because He is coming. The young woman is to love her children not because family is the highest good, but because He is coming and will see it. The servant is to serve faithfully not because the master deserves it, but because He is coming and will judge the faithful and the unfaithful. To live by this hope is to reorient your whole life toward eternity. [res:intertextual-1john3-titus2]',
         },
         {
           kind: 'commentary',

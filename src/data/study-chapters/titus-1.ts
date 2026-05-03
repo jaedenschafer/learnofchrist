@@ -188,7 +188,7 @@ export const TITUS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-set-order',
           html:
-            'Paul did not finish. He left the work for Titus—a pattern we see throughout the New Testament. Authority in the church is not about control from the center. It is about apostles apprenticing leaders who will apprentice others. Titus inherits a partly-finished work and the authority to complete it. You have been left in a "Crete"—a place of disorder, deception, half-formed structures. You have authority to set things right.',
+            'Paul did not finish. He left the work for Titus—a pattern we see throughout the New Testament. Authority in the church is not about control from the center. It is about apostles apprenticing leaders who will apprentice others. Titus inherits a partly-finished work and the authority to complete it. You have been left in a "Crete"—a place of disorder, deception, half-formed structures. You have authority to set things right. [res:topostext-crete-archaeology]',
         },
 
         {
@@ -414,7 +414,7 @@ export const TITUS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-rebuke-sharply',
           html:
-            'Paul is saying: the reputation of Cretans as liars is well-earned. That is your cultural context. In such a place, half-measures are useless. When you find false teaching, rebuke it <em>sharply</em>. Call it what it is. Do not soften the rebuke for politeness&apos; sake. A sick person needs medicine, not sugar.',
+            'Paul is saying: the reputation of Cretans as liars is well-earned. That is your cultural context. In such a place, half-measures are useless. When you find false teaching, rebuke it <em>sharply</em>. Call it what it is. Do not soften the rebuke for politeness&apos; sake. A sick person needs medicine, not sugar. [res:theoi-epimenides-cretan-liar]',
         },
 
         {
@@ -431,7 +431,7 @@ export const TITUS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-fables-commandments',
           html:
-            'The false teachers in Crete were peddling "Jewish fables"—made-up stories cloaked in biblical language. And "commandments of men that turn from the truth"—human rules dressed up as divine law. The flock must learn to discriminate: between tradition and Scripture, between human opinion and God&apos;s Word.',
+            'The false teachers in Crete were peddling "Jewish fables"—made-up stories cloaked in biblical language. And "commandments of men that turn from the truth"—human rules dressed up as divine law. The flock must learn to discriminate: between tradition and Scripture, between human opinion and God&apos;s Word. [res:sefaria-titus-1]',
         },
         {
           kind: 'christ',
