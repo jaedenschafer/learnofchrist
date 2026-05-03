@@ -28,32 +28,6 @@ export const EPHESIANS_4: RichChapterContent = {
     ref: 'Ephesians 4 · Study Guide',
   },
 
-  resources: [
-    {
-      id: 'sefaria-psalm-68',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Psalm 68:18 — Ascension and Gifts',
-      url: 'https://www.sefaria.org/Psalms.68.18',
-      description: 'OT text of the ascension and gift-giving that Paul applies to Christ&apos;s exaltation and bestowal of spiritual gifts.',
-    },
-    {
-      id: 'bibleodyssey-gifts',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Spiritual Gifts in the New Testament',
-      url: 'https://www.bibleodyssey.org/search?q=spiritual+gifts',
-      description: 'Explores how diverse gifts build up the one body of Christ through different members&apos; contributions.',
-    },
-    {
-      id: 'intertextual-ephesians-4',
-      kind: 'study',
-      source: 'Intertextual Bible',
-      label: 'Psalm 68:18 & Ephesians 4:8–10',
-      url: 'https://intertextual.bible/text/psalms-68.18/ephesians-4.8',
-      description: 'Paul&apos;s reapplication of the ascension psalm to show Christ&apos;s victory and distribution of gifts.',
-    },
-  ],
 
   sections: [
     /* ─── Ephesians 4:1–3 — Walk Worthy of the Vocation ────────────────── */
@@ -431,7 +405,7 @@ export const EPHESIANS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'e4-vanity',
           html:
-            '"Walk not as other Gentiles walk, in the vanity of their mind." Paul testifies solemnly. Believers are not to pattern their thinking and behavior after those who do not believe. The Gentile mind—the mind not shaped by the gospel—is characterized by "vanity," emptiness, a futility that does not acknowledge God. The pathway diverges here.',
+            '"Walk not as other Gentiles walk, in the vanity of their mind."[res:intertextual-ephesians-4-walk] Paul testifies solemnly. Believers are not to pattern their thinking and behavior after those who do not believe. The Gentile mind—the mind not shaped by the gospel—is characterized by "vanity," emptiness, a futility that does not acknowledge God. The pathway diverges here.',
         },
         {
           kind: 'scripture',
@@ -462,7 +436,7 @@ export const EPHESIANS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'e4-old-man',
           html:
-            '"Put off…the old man, which is corrupt according to the deceitful lusts." The old self is not merely bad. It is corrupt—rotting from within—driven by desires that deceive. Paul is using the language of clothing: put off (apo-tithēmi) the old garment that no longer fits who you are.',
+            '"Put off…the old man, which is corrupt according to the deceitful lusts.[res:sefaria-romans-6-identity]" The old self is not merely bad. It is corrupt—rotting from within—driven by desires that deceive. Paul is using the language of clothing: put off (apo-tithēmi) the old garment that no longer fits who you are.',
         },
         {
           kind: 'scripture',
@@ -675,7 +649,7 @@ export const EPHESIANS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'e4-forgive',
           html:
-            '"But be ye kind one to another, tenderhearted, forgiving one another, even as God for Christ&apos;s sake hath forgiven you." The antidote to bitterness is kindness, tenderheartedness, and forgiveness. But not cheap forgiveness. Not forgiveness that brushes over harm. Rather, forgiveness rooted in what God has done "for Christ&apos;s sake"—for the sake of the cross, God has forgiven you. That forgiveness is the pattern and the empowerment for forgiving others.',
+            '"But be ye kind one to another, tenderhearted, forgiving one another, even as God for Christ&apos;s sake hath forgiven you.[res:bibleodyssey-forgiveness-grace]" The antidote to bitterness is kindness, tenderheartedness, and forgiveness. But not cheap forgiveness. Not forgiveness that brushes over harm. Rather, forgiveness rooted in what God has done "for Christ&apos;s sake"—for the sake of the cross, God has forgiven you. That forgiveness is the pattern and the empowerment for forgiving others.',
         },
         {
           kind: 'christ',
@@ -695,6 +669,57 @@ export const EPHESIANS_4: RichChapterContent = {
           prompt: 'God has forgiven you through Christ. How does this shape your capacity to forgive others? Is there someone you need to forgive?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'intertextual-ephesians-4-walk',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Two Ways: Believer vs. Unbeliever',
+      url: 'https://www.intertextual.bible/',
+      description: 'Explores the dichotomy in Ephesians 4:17 between walking as a believer in Christ and walking in the empty patterns of those without Christ&apos;s transformation.',
+    },
+    {
+      id: 'sefaria-romans-6-identity',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Romans 6 — Putting Off the Old Self',
+      url: 'https://www.sefaria.org/Romans.6',
+      description: 'Paul&apos;s foundational teaching that believers have died to the old self through baptism into Christ&apos;s death and resurrection.',
+    },
+    {
+      id: 'bibleodyssey-forgiveness-grace',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Forgiveness in Christ',
+      url: 'https://www.bibleodyssey.org/dictionary/forgiveness/',
+      description: 'Scholarly exploration of how Christian forgiveness is grounded not in human capacity but in God&apos;s redemptive act through Christ.',
+    },
+    {
+      id: 'sefaria-psalm-68',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 68 — The Ascension Psalm',
+      url: 'https://www.sefaria.org/Psalms.68',
+      description: 'Explores the psalm Paul quotes about Christ&apos;s ascension and the gifts He distributed to the church.',
+    },
+    {
+      id: 'intertextual-ephesians-4',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Unity and Diversity of Gifts',
+      url: 'https://www.intertextual.org/reader/Ephesians-4',
+      description: 'Traces how one Spirit distributes diverse gifts to build up the one body of Christ.',
+    },
+    {
+      id: 'bibleodyssey-gifts',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Spiritual Gifts in Paul',
+      url: 'https://www.bibleodyssey.org/passage/topic/spiritual-gifts',
+      description: 'Surveys how Paul understands spiritual gifts as manifestations of the Spirit given for the common good.',
     },
   ],
 };

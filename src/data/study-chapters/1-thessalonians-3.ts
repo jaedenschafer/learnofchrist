@@ -135,7 +135,7 @@ export const FIRST_THESSALONIANS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'c-appointed',
           html:
-            '&ldquo;Appointed thereunto.&rdquo; Not by accident, and not as punishment. The word carries the sense of a divine appointment, a calling. Believers are &ldquo;appointed&rdquo; to suffer tribulation the way a king is appointed to a throne or a priest to the sanctuary. It sounds strange, but Scripture teaches it repeatedly: suffering is not outside God&apos;s plan for His people—it is part of it. This does not make suffering pleasant, but it makes it meaningful.',
+            '&ldquo;Appointed thereunto.&rdquo;[res:intertextual-1thess-3-suffering] Not by accident, and not as punishment. The word carries the sense of a divine appointment, a calling. Believers are &ldquo;appointed&rdquo; to suffer tribulation the way a king is appointed to a throne or a priest to the sanctuary. It sounds strange, but Scripture teaches it repeatedly: suffering is not outside God&apos;s plan for His people—it is part of it. This does not make suffering pleasant, but it makes it meaningful.',
         },
         {
           kind: 'commentary',
@@ -194,7 +194,7 @@ export const FIRST_THESSALONIANS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'c-now-live',
           html:
-            '&ldquo;Now we live.&rdquo; Not merely &ldquo;we are relieved&rdquo; or &ldquo;we are glad,&rdquo; but &ldquo;we live.&rdquo; Their steadfastness is Paul&apos;s life. He had been in a state of anxiety so deep it had nearly stopped his living. But word of their faith reverses everything. Their victory is his. Their standing is his standing. The pastor and the flock are bound together.',
+            '&ldquo;Now we live.&rdquo;[res:sefaria-pastoral-joy-community] Not merely &ldquo;we are relieved&rdquo; or &ldquo;we are glad,&rdquo; but &ldquo;we live.&rdquo; Their steadfastness is Paul&apos;s life. He had been in a state of anxiety so deep it had nearly stopped his living. But word of their faith reverses everything. Their victory is his. Their standing is his standing. The pastor and the flock are bound together.',
         },
         {
           kind: 'commentary',
@@ -248,7 +248,7 @@ export const FIRST_THESSALONIANS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'c-what-thanks',
           html:
-            '&ldquo;What thanks can we render?&rdquo; Paul is overwhelmed. Language fails him. How do you adequately thank God for such a gift—the steadfastness of people you love in the faith? He settles for saying: nothing. No thanks is sufficient. But we will try anyway.',
+            '&ldquo;What thanks can we render?&rdquo;[res:intertextual-1thess-3-gratitude] Paul is overwhelmed. Language fails him. How do you adequately thank God for such a gift—the steadfastness of people you love in the faith? He settles for saying: nothing. No thanks is sufficient. But we will try anyway.',
         },
         {
           kind: 'greek',
@@ -401,4 +401,32 @@ export const FIRST_THESSALONIANS_3: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'intertextual-1thess-3-suffering',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Suffering as Appointment',
+      url: 'https://www.intertextual.bible/',
+      description: 'Explores how the New Testament frames suffering not as accident or failure but as appointment—a meaningful part of discipleship and transformation.',
+    },
+    {
+      id: 'sefaria-pastoral-joy-community',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Pastoral Joy and Community',
+      url: 'https://www.sefaria.org/search?q=pastor%20joy%20people',
+      description: 'The biblical vision of spiritual leadership where the pastor&apos;s own joy becomes inseparable from the faithfulness of those entrusted to their care.',
+    },
+    {
+      id: 'intertextual-1thess-3-gratitude',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Overflow of Gratitude',
+      url: 'https://www.intertextual.bible/',
+      description: 'Traces how biblical thanksgiving is not merely polite acknowledgment but an overwhelming, language-failing response to God&apos;s goodness displayed through others.',
+    },
+  ],
+
 };

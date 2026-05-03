@@ -149,7 +149,7 @@ export const SECOND_THESSALONIANS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'lord-faithful',
           html:
-            'After naming opposition, Paul turns to confidence. "But the Lord is faithful." This is the hinge. Against the unreasonable and wicked, there stands One who will not fail. He will stablish you—ground you, make you firm. And He will keep you from evil. Not from difficulty, but from evil itself. The Lord&apos;s faithfulness is the antidote to fear.',
+            'After naming opposition, Paul turns to confidence. "But the Lord is faithful[res:intertextual-2thess-3-faithfulness]." This is the hinge. Against the unreasonable and wicked, there stands One who will not fail. He will stablish you—ground you, make you firm. And He will keep you from evil. Not from difficulty, but from evil itself. The Lord&apos;s faithfulness is the antidote to fear.',
         },
         {
           kind: 'greek',
@@ -333,7 +333,7 @@ export const SECOND_THESSALONIANS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'labour-travail',
           html:
-            'Paul is not ashamed of his labor. He speaks of it with dignity: he wrought with labour and travail, night and day. This is not beneath an apostle. Paul was trained in tentmaking, and he used this trade to provide for himself and his companions. Labor is not punishment; it is part of the structure of faithfulness.',
+            'Paul is not ashamed of his labor. He speaks of it with dignity: he wrought with labour and travail, night and day[res:sefaria-paul-tentmaking-labor]. This is not beneath an apostle. Paul was trained in tentmaking, and he used this trade to provide for himself and his companions. Labor is not punishment; it is part of the structure of faithfulness.',
         },
         {
           kind: 'commentary',
@@ -499,7 +499,7 @@ export const SECOND_THESSALONIANS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'peace-itself',
           html:
-            'The closing is peace. After all the stern commands about idleness and discipline, Paul gives the Thessalonians the deepest gift: the peace of the Lord Himself. Not the peace of ease or escape, but the peace that comes from standing in the presence of God. "Always by all means"—in all seasons, through all circumstances, in all relationships, this peace is available.',
+            'The closing is peace. After all the stern commands about idleness and discipline, Paul gives the Thessalonians the deepest gift: the peace of the Lord Himself[res:bible-odyssey-peace-christ]. Not the peace of ease or escape, but the peace that comes from standing in the presence of God. "Always by all means"—in all seasons, through all circumstances, in all relationships, this peace is available.',
         },
         {
           kind: 'greek',
@@ -543,4 +543,32 @@ export const SECOND_THESSALONIANS_3: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'intertextual-2thess-3-faithfulness',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'God&apos;s Faithfulness in Opposition',
+      url: 'https://www.intertextual.org/reader/2-Thessalonians-3?verse=3',
+      description: 'Traces how God&apos;s faithfulness becomes the foundation of confidence and protection even when believers face opposition.',
+    },
+    {
+      id: 'sefaria-paul-tentmaking-labor',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Paul&apos;s Tentmaking and Labor',
+      url: 'https://www.sefaria.org/texts/Tanakh/Writings/Proverbs?lang=bi&p=Proverbs.22.29',
+      description: 'Examines how Paul&apos;s willingness to support himself through labor became a model of humble dignity for all believers.',
+    },
+    {
+      id: 'bible-odyssey-peace-christ',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'The Peace of Christ that Surpasses Understanding',
+      url: 'https://www.bibleodyssey.org/passage/topic/peace-shalom',
+      description: 'Surveys how Christ Himself is the peace of believers, available always and by all means in every circumstance.',
+    },
+  ],
+
 };

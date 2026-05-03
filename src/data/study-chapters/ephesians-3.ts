@@ -36,32 +36,6 @@ export const EPHESIANS_3: RichChapterContent = {
     ref: 'Ephesians 3 · Study Guide',
   },
 
-  resources: [
-    {
-      id: 'intertextual-ephesians-3-mystery',
-      kind: 'study',
-      source: 'Intertextual Bible',
-      label: 'The Mystery Revealed — Gentiles and Jews United',
-      url: 'https://intertextual.bible/text/ephesians-3',
-      description: 'Cross-references showing how OT prophecy of gentile inclusion finds fulfillment in the church.',
-    },
-    {
-      id: 'sefaria-genesis-2-love',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Genesis 2:24 — Love as Foundation',
-      url: 'https://www.sefaria.org/Genesis.2.24',
-      description: 'OT basis for understanding love as the foundation on which believers are rooted and grounded.',
-    },
-    {
-      id: 'perseus-pleroma-love',
-      kind: 'lexicon',
-      source: 'Perseus Scaife',
-      label: 'Plērōma — Fullness (Greek Lexicon)',
-      url: 'https://scaife.perseus.org/library/lsj/πλήρωμα/1',
-      description: 'Classical Greek concept of fullness and completion, enriching Paul&apos;s vision of being filled with God&apos;s fullness.',
-    },
-  ],
 
   sections: [
     /* ─── Ephesians 3:1 — The Prisoner of Jesus Christ for You Gentiles ──────── */
@@ -664,6 +638,33 @@ export const EPHESIANS_3: RichChapterContent = {
           caption: 'Ephesians 3:20–21 · Glory to God',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-genesis-2-love',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Genesis 2 — Foundation of Love',
+      url: 'https://www.sefaria.org/Genesis.2',
+      description: 'The foundation narrative where God grounds humanity in His love before any commandment or law, establishing love as the bedrock of relationship.',
+    },
+    {
+      id: 'intertextual-ephesians-3-mystery',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Dimensions of Divine Love',
+      url: 'https://www.intertextual.bible/',
+      description: 'Explores how Ephesians 3:18 draws on Old Testament imagery of God&apos;s vast, dimensional presence and love reaching across creation.',
+    },
+    {
+      id: 'perseus-pleroma-love',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Plērōma (πλήρωμα) — Fullness',
+      url: 'https://scaife.perseus.org/lexica/lsj/πλήρωμα/',
+      description: 'The complete fullness and power of God indwelling believers, not as partial gift but as total, overflowing presence and transformation.',
     },
   ],
 };

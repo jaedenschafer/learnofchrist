@@ -223,7 +223,7 @@ export const FIRST_THESSALONIANS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'v9-philadelphia',
           html:
-            'Paul praises the Thessalonians. They already love one another. They have learned this not from Paul&apos;s letter but from God Himself—through the Spirit, through prayer, through witness. Love is not taught as a doctrine; it is learned as a life, caught from others, kindled by the Spirit.',
+            'Paul praises the Thessalonians[res:intertextual-1thess-4-love]. They already love one another. They have learned this not from Paul&apos;s letter but from God Himself—through the Spirit, through prayer, through witness. Love is not taught as a doctrine; it is learned as a life, caught from others, kindled by the Spirit.',
         },
         {
           kind: 'commentary',
@@ -276,7 +276,7 @@ export const FIRST_THESSALONIANS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'v11-work',
           html:
-            'The Thessalonians were apparently caught between two dangers: idleness and busybodiness. Some were not working and were becoming dependent on others. Others were meddling in everyone else&apos;s affairs. Paul&apos;s prescription is simple: <em>do your own business.</em> Work with your own hands. Mind your own affairs. Be quiet. This is not apathy; it is dignity. You provide for yourself. You respect the boundaries of others. You let others live their lives.',
+            'The Thessalonians were apparently caught between two dangers: idleness and busybodiness[res:sefaria-work-dignity-provision]. Some were not working and were becoming dependent on others. Others were meddling in everyone else&apos;s affairs. Paul&apos;s prescription is simple: <em>do your own business.</em> Work with your own hands. Mind your own affairs. Be quiet. This is not apathy; it is dignity. You provide for yourself. You respect the boundaries of others. You let others live their lives.',
         },
 
         {
@@ -576,4 +576,24 @@ export const FIRST_THESSALONIANS_4: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'intertextual-1thess-4-love',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Love Taught by God',
+      url: 'https://www.intertextual.bible/',
+      description: 'Explores how love is not merely commanded but caught—learned from God through the Spirit and modeled by faithful believers witnessing to one another.',
+    },
+    {
+      id: 'sefaria-work-dignity-provision',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Work and Dignity in Scripture',
+      url: 'https://www.sefaria.org/search?q=work%20provision%20dignity',
+      description: 'The biblical vision of work not as punishment but as dignity—a way to provide for oneself and bear witness to the reality of one&apos;s faith.',
+    },
+  ],
+
 };

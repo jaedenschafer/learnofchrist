@@ -218,7 +218,7 @@ export const FIRST_THESSALONIANS_2: RichChapterContent = {
           kind: 'commentary',
           id: '1t2-trust',
           html:
-            'Paul frames his apostleship as a trust. God has entrusted the gospel to him. This is not something Paul earned or built; it is a sacred stewardship. Every word he speaks is accountable to the one who gave him the gospel to bear.',
+            'Paul frames his apostleship as a trust[res:intertextual-1thess-2-stewardship]. God has entrusted the gospel to him. This is not something Paul earned or built; it is a sacred stewardship. Every word he speaks is accountable to the one who gave him the gospel to bear.',
         },
         {
           kind: 'commentary',
@@ -306,7 +306,7 @@ export const FIRST_THESSALONIANS_2: RichChapterContent = {
           kind: 'commentary',
           id: '1t2-trophos-detail',
           html:
-            'An apostle of Christ being likened to a nursing mother is extraordinary. Power, authority, boldness—all present. But underneath, a tenderness so complete that Paul pours out his own life to sustain them. The gospel is not harsh correction shouted from a distance. It is care whispered close.',
+            'An apostle of Christ being likened to a nursing mother[res:sefaria-maternal-care-motherhood] is extraordinary. Power, authority, boldness—all present. But underneath, a tenderness so complete that Paul pours out his own life to sustain them. The gospel is not harsh correction shouted from a distance. It is care whispered close.',
         },
         {
           kind: 'christ',
@@ -373,7 +373,7 @@ export const FIRST_THESSALONIANS_2: RichChapterContent = {
           kind: 'commentary',
           id: '1t2-holily',
           html:
-            'Paul appeals to evidence. His behavior was visible, observable, open to scrutiny. He did not ask the Thessalonians to believe something about his character that was contradicted by how he lived. Word and conduct aligned. He worked with his own hands to support himself rather than burden the young church.',
+            'Paul appeals to evidence[res:intertextual-1thess-2-conduct]. His behavior was visible, observable, open to scrutiny. He did not ask the Thessalonians to believe something about his character that was contradicted by how he lived. Word and conduct aligned. He worked with his own hands to support himself rather than burden the young church.',
         },
         {
           kind: 'commentary',
@@ -623,4 +623,32 @@ export const FIRST_THESSALONIANS_2: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'intertextual-1thess-2-stewardship',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Gospel as Sacred Trust',
+      url: 'https://www.intertextual.bible/',
+      description: 'Explores how the apostolic commission is presented throughout Scripture as a stewardship—a trust given not to be possessed but to be faithfully transmitted.',
+    },
+    {
+      id: 'sefaria-maternal-care-motherhood',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Motherhood and Care in Scripture',
+      url: 'https://www.sefaria.org/search?q=mother%20care%20nurture',
+      description: 'The biblical image of maternal care as a model for spiritual leadership and pastoral tenderness, deeply rooted in Old Testament wisdom.',
+    },
+    {
+      id: 'intertextual-1thess-2-conduct',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Word and Conduct Aligned',
+      url: 'https://www.intertextual.bible/',
+      description: 'Traces how prophets and apostles authenticate their message through visible conduct that matches their proclamation, creating credibility through consistency.',
+    },
+  ],
+
 };

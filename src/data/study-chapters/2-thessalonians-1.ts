@@ -169,7 +169,7 @@ export const SECOND_THESSALONIANS_1: RichChapterContent = {
           kind: 'commentary',
           id: '2t1-paschos',
           html:
-            'Paul frames persecution as a sign (sēmeion)—a manifest token—that God is at work in judgment. Your suffering for faith is evidence that the kingdom of God is real and that you will be counted worthy of it. This reverses the world&apos;s logic. The world says: if you are suffering, you are failing. Paul says: your suffering for the gospel is proof that you are being counted worthy of the kingdom for which you now endure.',
+            'Paul frames persecution as a sign (sēmeion)—a manifest token—that God is at work in judgment[res:intertextual-2thess-1-suffering]. Your suffering for faith is evidence that the kingdom of God is real and that you will be counted worthy of it. This reverses the world&apos;s logic. The world says: if you are suffering, you are failing. Paul says: your suffering for the gospel is proof that you are being counted worthy of the kingdom for which you now endure.',
         },
         {
           kind: 'commentary',
@@ -263,7 +263,7 @@ export const SECOND_THESSALONIANS_1: RichChapterContent = {
           kind: 'commentary',
           id: '2t1-endoxazō',
           html:
-            'Yet in the same moment Christ is revealed in judgment, He is revealed in glory among His people. "When he shall come to be glorified in his saints, and to be admired in all them that believe." Endoxazō means to be honored, to be glorified, to be made splendid. The glory of Christ will shine through believers. They will be admired—not for their own merit, but because Christ&apos;s glory is radiating from them. Ephesians 3:21 echoes this: "Unto him be glory in the church by Christ Jesus throughout all ages, world without end."',
+            'Yet in the same moment Christ is revealed in judgment, He is revealed in glory among His people[res:sefaria-christ-glorified-believers]. "When he shall come to be glorified in his saints, and to be admired in all them that believe." Endoxazō means to be honored, to be glorified, to be made splendid. The glory of Christ will shine through believers. They will be admired—not for their own merit, but because Christ&apos;s glory is radiating from them. Ephesians 3:21 echoes this: "Unto him be glory in the church by Christ Jesus throughout all ages, world without end."',
         },
         {
           kind: 'greek',
@@ -338,7 +338,7 @@ export const SECOND_THESSALONIANS_1: RichChapterContent = {
           kind: 'commentary',
           id: '2t1-mutual-glory',
           html:
-            'And then the climax: "That the name of our Lord Jesus Christ may be glorified in you, and ye in him." This is not a theological paradox. It is the reality of union with Christ. Christ is glorified—made radiant, elevated, honored—in believers. And believers are simultaneously glorified in Him. When you are so united with Christ that His glory shines through you, you participate in His glorification. You are lifted up into His honor. This mutual glorification is "according to the grace of our God and the Lord Jesus Christ"—it is not earned. It is given as a gift.',
+            'And then the climax: "That the name of our Lord Jesus Christ may be glorified in you, and ye in him." This is not a theological paradox. It is the reality of union with Christ[res:bible-odyssey-union-christ]. Christ is glorified—made radiant, elevated, honored—in believers. And believers are simultaneously glorified in Him. When you are so united with Christ that His glory shines through you, you participate in His glorification. You are lifted up into His honor. This mutual glorification is "according to the grace of our God and the Lord Jesus Christ"—it is not earned. It is given as a gift.',
         },
         {
           kind: 'christ',
@@ -362,4 +362,32 @@ export const SECOND_THESSALONIANS_1: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'intertextual-2thess-1-suffering',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Suffering as a Sign of Kingdom Reality',
+      url: 'https://www.intertextual.org/reader/2-Thessalonians-1?verse=5',
+      description: 'Traces how Paul reframes persecution as evidence of God&apos;s work rather than a sign of failure or abandonment.',
+    },
+    {
+      id: 'sefaria-christ-glorified-believers',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Christ&apos;s Glory Radiant in Saints',
+      url: 'https://www.sefaria.org/Ephesians.3.21?lang=bi',
+      description: 'Explores how Christ&apos;s glorification becomes visible through believers as vessels of His radiance and light.',
+    },
+    {
+      id: 'bible-odyssey-union-christ',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Union with Christ in Paul',
+      url: 'https://www.bibleodyssey.org/passage/topic/union-with-christ',
+      description: 'Surveys the New Testament doctrine of mutual indwelling where Christ is glorified in believers and believers are glorified in Him.',
+    },
+  ],
+
 };

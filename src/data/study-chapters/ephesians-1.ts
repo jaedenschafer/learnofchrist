@@ -37,32 +37,6 @@ export const EPHESIANS_1: RichChapterContent = {
     ref: 'Ephesians 1 · Study Guide',
   },
 
-  resources: [
-    {
-      id: 'sefaria-psalm-110',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Psalm 110 — The Enthronement Psalm',
-      url: 'https://www.sefaria.org/Psalms.110',
-      description: 'OT basis for the language of Christ seated at God&apos;s right hand in verses 20–22 (quoted in Paul&apos;s vision of exaltation).',
-    },
-    {
-      id: 'intertextual-ephesians-1',
-      kind: 'study',
-      source: 'Intertextual Bible',
-      label: 'OT Quotations in Ephesians 1',
-      url: 'https://intertextual.bible/text/ephesians-1',
-      description: 'Cross-referenced OT texts woven into Paul&apos;s election theology, showing deep scriptural roots.',
-    },
-    {
-      id: 'perseus-seal-sphragizo',
-      kind: 'lexicon',
-      source: 'Perseus Scaife',
-      label: 'Sphragizō — Seal (Greek Lexicon)',
-      url: 'https://scaife.perseus.org/library/lsj/σφραγίζω/1',
-      description: 'Classical and biblical usage of the sealing metaphor, showing ownership and authentication in ancient practice.',
-    },
-  ],
 
   sections: [
     /* ─── Ephesians 1:1–2 — Greeting ──────────────────────────────────── */
@@ -794,6 +768,33 @@ export const EPHESIANS_1: RichChapterContent = {
           kind: 'divider',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'perseus-seal-sphragizo',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Sphragizō (σφραγίζω) — Seal',
+      url: 'https://scaife.perseus.org/lexica/lsj/σφραγίζω/',
+      description: 'Christ&apos;s sealing of believers marks them as God&apos;s authentic, owned possession—a concept rooted in ancient authentication practices.',
+    },
+    {
+      id: 'intertextual-ephesians-1',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Resurrection and Exaltation Parallels',
+      url: 'https://www.intertextual.bible/',
+      description: 'Explores how Ephesians 1:20&apos;s vision of Christ raised and seated echoes Old Testament exaltation imagery and resurrection typology.',
+    },
+    {
+      id: 'sefaria-psalm-110',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 110 — The Enthronement Psalm',
+      url: 'https://www.sefaria.org/Psalms.110',
+      description: 'The foundational psalm (110:1) that establishes the theology of Christ&apos;s seating at God&apos;s right hand in power and dominion.',
     },
   ],
 };

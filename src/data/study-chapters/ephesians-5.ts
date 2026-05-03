@@ -34,32 +34,6 @@ export const EPHESIANS_5: RichChapterContent = {
     ref: 'Ephesians 5 · Study Guide',
   },
 
-  resources: [
-    {
-      id: 'sefaria-genesis-2-marriage',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Genesis 2:24 — One Flesh',
-      url: 'https://www.sefaria.org/Genesis.2.24',
-      description: 'OT foundation for marriage and union that Paul applies to Christ and the church in verse 31.',
-    },
-    {
-      id: 'intertextual-ephesians-5',
-      kind: 'study',
-      source: 'Intertextual Bible',
-      label: 'Genesis 2:24 & Ephesians 5:31–32',
-      url: 'https://intertextual.bible/text/genesis-2.24/ephesians-5.31',
-      description: 'Paul&apos;s reapplication of the creation account to reveal the mystery of Christ and the church.',
-    },
-    {
-      id: 'bibleodyssey-marriage-ancient',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Marriage in Ancient Israel',
-      url: 'https://www.bibleodyssey.org/search?q=marriage',
-      description: 'Context for understanding marriage customs and Paul&apos;s teaching on marital love.',
-    },
-  ],
 
   sections: [
     /* ─── Ephesians 5:1–2 — Be Imitators of God ────────────────────────── */
@@ -886,6 +860,33 @@ export const EPHESIANS_5: RichChapterContent = {
             'What is the deepest kind of love you can imagine? Can you imagine being loved like that by Christ? What would it change about your life if you actually believed it?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-genesis-2-marriage',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Genesis 2:23 — Bone of My Bones',
+      url: 'https://www.sefaria.org/Genesis.2.23',
+      description: 'The first declaration of intimate union—Adam recognizes Eve as part of himself—a pattern Paul applies to Christ and the church.',
+    },
+    {
+      id: 'intertextual-ephesians-5',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Two Becoming One: Union Imagery',
+      url: 'https://www.intertextual.bible/',
+      description: 'Traces how the "two becoming one flesh" language echoes throughout Scripture as a metaphor for covenant union with God.',
+    },
+    {
+      id: 'bibleodyssey-marriage-ancient',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Marriage in the Ancient World',
+      url: 'https://www.bibleodyssey.org/dictionary/marriage/',
+      description: 'Cultural and theological context for understanding marriage as covenant and sacrament in Paul&apos;s teaching.',
     },
   ],
 };

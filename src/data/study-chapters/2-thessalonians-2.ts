@@ -134,7 +134,7 @@ export const SECOND_THESSALONIANS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'apostasia',
           html:
-            'Paul names two events that <em>must</em> precede the day of the Lord. First: a falling away. A time of mass defection from the faith. Not mere disagreement, not cultural drift, but deliberate abandonment of what was once received as true. The church of that age will be tested. Some will hold fast. Others will turn away.',
+            'Paul names two events that <em>must</em> precede the day of the Lord. First: a falling away[res:intertextual-2thess-2-apostasy]. A time of mass defection from the faith. Not mere disagreement, not cultural drift, but deliberate abandonment of what was once received as true. The church of that age will be tested. Some will hold fast. Others will turn away.',
         },
         {
           kind: 'greek',
@@ -388,7 +388,7 @@ export const SECOND_THESSALONIANS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'love-truth',
           html:
-            'The decisive factor is not the wonder itself but the heart of the one who encounters it. Those who "perish" do so because they "received not the love of the truth." Not mere knowledge of truth, but <em>love</em> for it. This is the interior condition Paul addresses. If you love the truth—if you prize it, seek it, test all things against it—you will not be deceived. If you love comfort more than truth, if you prefer the wonder to the Word, you are vulnerable.',
+            'The decisive factor is not the wonder itself but the heart of the one who encounters it. Those who "perish" do so because they "received not the love of the truth[res:sefaria-truth-discernment]." Not mere knowledge of truth, but <em>love</em> for it. This is the interior condition Paul addresses. If you love the truth—if you prize it, seek it, test all things against it—you will not be deceived. If you love comfort more than truth, if you prefer the wonder to the Word, you are vulnerable.',
         },
         {
           kind: 'carry',
@@ -478,7 +478,7 @@ export const SECOND_THESSALONIANS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'chosen-salvation',
           html:
-            'Here is the pastoral turn. Paul shifts from those who perish to the Thessalonians themselves: you are beloved of the Lord, and God has chosen you. From before time began, God set His love on you. Not based on your foreseen righteousness but on His sovereign grace. This choice issues in two things: sanctification by the Spirit and belief in the truth. You are being set apart, made holy, and given faith.',
+            'Here is the pastoral turn. Paul shifts from those who perish to the Thessalonians themselves: you are beloved of the Lord, and God has chosen you[res:bible-odyssey-election-grace]. From before time began, God set His love on you. Not based on your foreseen righteousness but on His sovereign grace. This choice issues in two things: sanctification by the Spirit and belief in the truth. You are being set apart, made holy, and given faith.',
         },
         {
           kind: 'christ',
@@ -594,4 +594,32 @@ export const SECOND_THESSALONIANS_2: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'intertextual-2thess-2-apostasy',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Falling Away and False Teaching',
+      url: 'https://www.intertextual.org/reader/2-Thessalonians-2?verse=3',
+      description: 'Traces how apostasy—deliberate turning away from known truth—precedes Christ&apos;s return and marks the final age.',
+    },
+    {
+      id: 'sefaria-truth-discernment',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Discernment and Love for Truth',
+      url: 'https://www.sefaria.org/texts/Tanakh/Writings/Proverbs?lang=bi&p=Proverbs.14.6',
+      description: 'Explores how a love for truth—not mere knowledge—becomes the guardian against deception and spiritual delusion.',
+    },
+    {
+      id: 'bible-odyssey-election-grace',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Election and God&apos;s Saving Grace',
+      url: 'https://www.bibleodyssey.org/passage/topic/election-predestination',
+      description: 'Surveys the doctrine that God&apos;s choice of believers rests on sovereign grace before time began, not on foreseen virtue.',
+    },
+  ],
+
 };

@@ -38,32 +38,6 @@ export const EPHESIANS_2: RichChapterContent = {
     ref: 'Ephesians 2 · Study Guide',
   },
 
-  resources: [
-    {
-      id: 'sefaria-isaiah-28',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Isaiah 28:16 — The Cornerstone',
-      url: 'https://www.sefaria.org/Isaiah.28.16',
-      description: 'OT prophecy of the cornerstone that Paul applies to Christ as the foundation of the church.',
-    },
-    {
-      id: 'bibleodyssey-reconciliation',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Reconciliation in Scripture',
-      url: 'https://www.bibleodyssey.org/search?q=reconciliation',
-      description: 'Explores how Christ breaks down barriers between Jew and Gentile, transforming enmity into peace.',
-    },
-    {
-      id: 'intertextual-ephesians-2',
-      kind: 'study',
-      source: 'Intertextual Bible',
-      label: 'Isaiah 57:19 & Ephesians 2:17',
-      url: 'https://intertextual.bible/text/isaiah-57.19/ephesians-2.17',
-      description: 'Paul&apos;s citation of Isaiah&apos;s peace proclamation applied to preaching the gospel to near and far.',
-    },
-  ],
 
   sections: [
     /* ─── Ephesians 2:1–3 — Dead in Trespasses and Sins ──────────────────── */
@@ -750,6 +724,33 @@ export const EPHESIANS_2: RichChapterContent = {
           caption: 'Ephesians 2:19–22 · One Holy Temple',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'bibleodyssey-reconciliation',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Reconciliation in Ephesians',
+      url: 'https://www.bibleodyssey.org/dictionary/reconciliation/',
+      description: 'Explores the theological significance of Christ breaking down the barrier between Jew and Gentile through reconciliation and peace.',
+    },
+    {
+      id: 'intertextual-ephesians-2',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Gospel Proclamation to Near and Far',
+      url: 'https://www.intertextual.bible/',
+      description: 'Traces how Ephesians 2:17 echoes Old Testament prophecy of peace preached to both distant and near peoples.',
+    },
+    {
+      id: 'sefaria-isaiah-28',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 28:16 — The Cornerstone',
+      url: 'https://www.sefaria.org/Isaiah.28.16',
+      description: 'The foundational passage declaring God will lay a tested, precious cornerstone in Zion—interpreted by Paul and Peter as pointing to Christ.',
     },
   ],
 };

@@ -59,7 +59,7 @@ export const FIRST_THESSALONIANS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'thief-coming',
           html:
-            '&ldquo;The day of the Lord so cometh as a thief in the night.&rdquo; The parousia—Christ&apos;s appearing—is sudden and unexpected. This does not mean it is unknowable in principle; rather, it is unpredictable in timing. The Thessalonians already understand this. Paul does not belabor the point but presses its ethical consequence: readiness is demanded of believers.',
+            '&ldquo;The day of the Lord so cometh as a thief in the night.&rdquo; The parousia—Christ&apos;s appearing—is sudden and unexpected[res:intertextual-1thess-5-readiness]. This does not mean it is unknowable in principle; rather, it is unpredictable in timing. The Thessalonians already understand this. Paul does not belabor the point but presses its ethical consequence: readiness is demanded of believers.',
         },
         {
           kind: 'scripture',
@@ -140,7 +140,7 @@ export const FIRST_THESSALONIANS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'children-light',
           html:
-            '&ldquo;Ye are all the children of light, and the children of the day.&rdquo; This is identity language. You are not merely trying to become light; you already are light. Your belonging to Christ has already transferred you from darkness to light. This reality—not as aspiration but as fact—must govern how you live.',
+            '&ldquo;Ye are all the children of light, and the children of the day.&rdquo; This is identity language. You are not merely trying to become light; you already are light. Your belonging to Christ has already transferred you from darkness to light[res:sefaria-light-darkness-theology]. This reality—not as aspiration but as fact—must govern how you live.',
         },
         {
           kind: 'greek',
@@ -257,7 +257,7 @@ export const FIRST_THESSALONIANS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'salvation-appointed',
           html:
-            '&ldquo;God hath not appointed us to wrath, but to obtain salvation.&rdquo; This is the answer to anxiety. The Thessalonians may have feared that they would face God&apos;s judgment like the rest of the world. Paul assures them: no. You have been appointed to salvation. The final judgment that comes as a thief in the night does not overtake those who belong to Christ.',
+            '&ldquo;God hath not appointed us to wrath, but to obtain salvation.&rdquo; This is the answer to anxiety. The Thessalonians may have feared that they would face God&apos;s judgment like the rest of the world. Paul assures them: no. You have been appointed to salvation[res:bible-odyssey-salvation-doctrine]. The final judgment that comes as a thief in the night does not overtake those who belong to Christ.',
         },
         {
           kind: 'scripture',
@@ -784,4 +784,32 @@ export const FIRST_THESSALONIANS_5: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'intertextual-1thess-5-readiness',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Day of the Lord as Thief',
+      url: 'https://www.intertextual.org/reader/1-Thessalonians-5?verse=2',
+      description: 'Explores the parousia theme and vigilant readiness as an ethical response to an unknowable hour of Christ&apos;s return.',
+    },
+    {
+      id: 'sefaria-light-darkness-theology',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Light and Darkness Theology',
+      url: 'https://www.sefaria.org/texts/Tanakh/Prophets/Isaiah?lang=bi&p=Isaiah.5.20',
+      description: 'Examines the metaphysics of light and darkness in Jewish and Christian tradition as markers of divine versus demonic belonging.',
+    },
+    {
+      id: 'bible-odyssey-salvation-doctrine',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Salvation in Paul&apos;s Letters',
+      url: 'https://www.bibleodyssey.org/passage/topic/paul-salvation',
+      description: 'Surveys how Paul understands salvation as deliverance from wrath and appointment to life through Christ&apos;s death.',
+    },
+  ],
+
 };

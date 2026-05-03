@@ -91,7 +91,7 @@ export const FIRST_THESSALONIANS_1: RichChapterContent = {
           kind: 'commentary',
           id: '1t1-virtues',
           html:
-            'This verse names the three greatest virtues—faith, love, and hope—not as feelings, but as works. <em>Work of faith</em>: belief that produces action. <em>Labour of love</em>: love that costs you something. <em>Patience of hope</em>: the steady endurance that comes from knowing God&apos;s promise is real even when you cannot yet see it. These three are not separate; they are woven together in the life of every disciple.',
+            'This verse names the three greatest virtues—faith, love, and hope—not as feelings, but as works[res:intertextual-1thess-1-virtues]. <em>Work of faith</em>: belief that produces action. <em>Labour of love</em>: love that costs you something. <em>Patience of hope</em>: the steady endurance that comes from knowing God&apos;s promise is real even when you cannot yet see it. These three are not separate; they are woven together in the life of every disciple.',
         },
         {
           kind: 'christ',
@@ -132,7 +132,7 @@ export const FIRST_THESSALONIANS_1: RichChapterContent = {
           kind: 'commentary',
           id: '1t1-power',
           html:
-            'The gospel did not arrive as mere doctrine or philosophy. It came with power—the power to transform human lives, to break the grip of idolatry, to create community out of chaos. The Thessalonians did not believe in Christ because Paul was eloquent. They believed because they saw the Holy Spirit at work in their midst.',
+            'The gospel did not arrive as mere doctrine or philosophy. It came with power[res:bible-odyssey-conversion-spirit]—the power to transform human lives, to break the grip of idolatry, to create community out of chaos. The Thessalonians did not believe in Christ because Paul was eloquent. They believed because they saw the Holy Spirit at work in their midst.',
         },
         {
           kind: 'carry',
@@ -269,7 +269,7 @@ export const FIRST_THESSALONIANS_1: RichChapterContent = {
           kind: 'commentary',
           id: '1t1-turned',
           html:
-            'This is the shape of conversion. Not gradual drift, but a turning. A reorientation. Away from idols—the false gods, the false securities, the false promises. Toward God—the living God, the true God, the God who is actually there. This turning had a visible effect. People saw it. People talked about it.',
+            'This is the shape of conversion[res:sefaria-idolatry-gentiles]. Not gradual drift, but a turning. A reorientation. Away from idols—the false gods, the false securities, the false promises. Toward God—the living God, the true God, the God who is actually there. This turning had a visible effect. People saw it. People talked about it.',
         },
         {
           kind: 'carry',
@@ -364,4 +364,32 @@ export const FIRST_THESSALONIANS_1: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'intertextual-1thess-1-virtues',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Faith, Hope, Love as Living Works',
+      url: 'https://www.intertextual.bible/',
+      description: 'Explores how the triad of faith, love, and hope appears throughout Scripture not as abstract virtues but as practices that define discipleship.',
+    },
+    {
+      id: 'sefaria-idolatry-gentiles',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Turning from Idols — Gentile Conversion',
+      url: 'https://www.sefaria.org/search?q=idolatry%20gentiles',
+      description: 'The Jewish and biblical perspective on gentile turning away from idolatry and toward the God of Israel, directly applicable to the Thessalonian conversion story.',
+    },
+    {
+      id: 'bible-odyssey-conversion-spirit',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Conversion and the Holy Spirit',
+      url: 'https://www.bibleodyssey.org/dictionary/conversion/',
+      description: 'Theological exploration of how genuine conversion is marked not by intellectual assent alone but by the power and presence of the Holy Spirit transforming lives.',
+    },
+  ],
+
 };
