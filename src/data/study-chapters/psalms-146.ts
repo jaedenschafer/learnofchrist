@@ -55,7 +55,7 @@ export const PSALMS_146: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm146-princes',
           html:
-            '"Put not your trust in princes, nor in the son of man, in whom there is no help." The warning is not against the existence of princes or princes themselves. It is against the idolatry of trusting in them. Princes are human. They cannot ultimately help. Their power is limited.',
+            '"Put not your trust in princes, nor in the son of man, in whom there is no help." The warning is not against the existence of princes or princes themselves. It is against the idolatry of trusting in them. Princes are human. They cannot ultimately help. Their power is limited[res:bibleodyssey-hymns-praise].',
         },
         {
           kind: 'commentary',
@@ -151,6 +151,15 @@ export const PSALMS_146: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+146',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-hymns-praise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hymns of Praise in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/hymns/',
+      description: 'SBL essay on the hymn genre — communal, doxological psalms that frame the Psalter&apos;s arc.',
+    },
+
   ],
 
   hasHebrew: true,

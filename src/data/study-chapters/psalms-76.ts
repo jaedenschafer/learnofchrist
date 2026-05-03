@@ -40,7 +40,7 @@ export const PSALMS_76: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms76-known',
-          html: 'The psalm begins with a public declaration: God is known, God is great. [res:sefaria-psalm-76] This is not hidden knowledge or esoteric truth. It is proclaimed openly. And it is made known through God&apos;s mighty acts.',
+          html: 'The psalm begins with a public declaration: God is known, God is great. [res:sefaria-psalm-76] This is not hidden knowledge or esoteric truth. It is proclaimed openly. And it is made known through God&apos;s mighty acts[res:bibleodyssey-asaph].',
         },
         {
           kind: 'hebrew',
@@ -148,6 +148,15 @@ export const PSALMS_76: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+76',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-asaph',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Asaph and the Temple Singers',
+      url: 'https://www.bibleodyssey.org/dictionary/asaph/',
+      description: 'SBL entry on Asaph as appointed musician and the guild of singers responsible for these psalms.',
+    },
+
   ],
 
   hasHebrew: true,

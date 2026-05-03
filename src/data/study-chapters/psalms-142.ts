@@ -55,7 +55,7 @@ export const PSALMS_142: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm142-trouble',
           html:
-            '"I poured out my complaint before him; I shewed before him my trouble." The psalmist does not hide his distress. He pours it out, displays it, makes it known to God. There is an honesty here—he shows his trouble not as a test of faith, but as genuine anguish needing a response.',
+            '"I poured out my complaint before him; I shewed before him my trouble." The psalmist does not hide his distress. He pours it out, displays it, makes it known to God. There is an honesty here—he shows his trouble not as a test of faith, but as genuine anguish needing a response[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'commentary',
@@ -136,6 +136,15 @@ export const PSALMS_142: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+142',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

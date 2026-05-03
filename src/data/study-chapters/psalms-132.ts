@@ -55,7 +55,7 @@ export const PSALMS_132: RichChapterContent = {
           kind: 'commentary',
           id: 'ps132-vow',
           html:
-            'The psalm recounts David&apos;s vow—a vow of single-minded dedication. He will not rest, will not sleep, until he has found a place for God, a habitation for the Lord. This is not casual devotion. This is consuming passion. David has subordinated his own comfort, his own rest, to the priority of establishing a house for God.',
+            'The psalm recounts David&apos;s vow—a vow of single-minded dedication. He will not rest, will not sleep, until he has found a place for God, a habitation for the Lord. This is not casual devotion. This is consuming passion. David has subordinated his own comfort, his own rest, to the priority of establishing a house for God[res:intertextual-psalms-132-nt].',
         },
         {
           kind: 'commentary',
@@ -120,6 +120,15 @@ export const PSALMS_132: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+132',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'intertextual-psalms-132-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 132 ↔ New Testament',
+      url: 'https://intertextual.bible/text/psalms-132',
+      description: 'New Testament writers cite or echo Psalm 132 in shaping their proclamation of Christ.',
+    },
+
   ],
 
 };

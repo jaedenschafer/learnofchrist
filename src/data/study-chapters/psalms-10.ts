@@ -39,7 +39,7 @@ export const PSALMS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-10-78mid-1',
           html:
-            'The accusation of God&apos;s silence shifts to testimony of His character. Questions become confessions.',
+            'The accusation of God&apos;s silence shifts to testimony of His character. Questions become confessions[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'scripture',
@@ -188,6 +188,15 @@ export const PSALMS_10: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms calling for God to judge the wicked and defend the poor.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

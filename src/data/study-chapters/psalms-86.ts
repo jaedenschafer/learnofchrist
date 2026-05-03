@@ -57,7 +57,7 @@ export const PSALMS_86: RichChapterContent = {
           kind: 'commentary',
           id: 'ps86-poor',
           html:
-            'The psalmist opens by declaring his condition: poor and needy. This is not shame. This is clarity. When you are poor and needy, you understand that you are dependent. You cannot save yourself. You cannot rescue yourself. You can only call. And the psalmist calls to the One who is good and ready to forgive.',
+            'The psalmist opens by declaring his condition: poor and needy. This is not shame. This is clarity. When you are poor and needy, you understand that you are dependent. You cannot save yourself. You cannot rescue yourself. You can only call. And the psalmist calls to the One who is good and ready to forgive[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'commentary',
@@ -167,6 +167,15 @@ export const PSALMS_86: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+86',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

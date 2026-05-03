@@ -41,7 +41,7 @@ export const PSALMS_100: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms100-joyful-noise',
-          html: '"Make a joyful noise unto the Lord, all ye lands." The final psalm opens with joy, unmediated, unqualified, universal. [res:sefaria-psalm-100] All peoples, all lands, all creation—make a joyful noise. This is the invitation at the end of the psalter. Not to be silent or withdrawn, but to make noise. To celebrate. To rejoice.',
+          html: '"Make a joyful noise unto the Lord, all ye lands." The final psalm opens with joy, unmediated, unqualified, universal. [res:sefaria-psalm-100] All peoples, all lands, all creation—make a joyful noise. This is the invitation at the end of the psalter. Not to be silent or withdrawn, but to make noise. To celebrate. To rejoice[res:bibleodyssey-hymns-praise].',
         },
         {
           kind: 'commentary',
@@ -105,6 +105,15 @@ export const PSALMS_100: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+100',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-hymns-praise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hymns of Praise in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/hymns/',
+      description: 'SBL essay on the hymn genre — communal, doxological psalms that frame the Psalter&apos;s arc.',
+    },
+
   ],
 
   hasHebrew: false,

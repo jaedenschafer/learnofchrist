@@ -57,7 +57,7 @@ export const PSALMS_77: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms77-questions',
           html:
-            'The psalm then moves into a barrage of questions, each one more despairing than the last. "Will the Lord cast off for ever? Will he be favourable no more? Is his mercy clean gone for ever? Doth his promise fail?" Each question is a step deeper into doubt. The psalmist is not asking genuine questions seeking genuine answers. He is expressing the experience of darkness in the only language available to him.',
+            'The psalm then moves into a barrage of questions, each one more despairing than the last. "Will the Lord cast off for ever? Will he be favourable no more? Is his mercy clean gone for ever? Doth his promise fail?" Each question is a step deeper into doubt. The psalmist is not asking genuine questions seeking genuine answers. He is expressing the experience of darkness in the only language available to him[res:bibleodyssey-asaph].',
         },
         {
           kind: 'christ',
@@ -170,6 +170,15 @@ export const PSALMS_77: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+77',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-asaph',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Asaph and the Temple Singers',
+      url: 'https://www.bibleodyssey.org/dictionary/asaph/',
+      description: 'SBL entry on Asaph as appointed musician and the guild of singers responsible for these psalms.',
+    },
+
   ],
 
   hasHebrew: true,

@@ -57,7 +57,7 @@ export const PSALMS_113: RichChapterContent = {
           kind: 'commentary',
           id: 'ps113-praise-servants',
           html:
-            '"Praise, O ye servants of the Lord, praise the name of the Lord." The call to praise is directed specifically to servants. A servant is someone who has submitted himself to another&apos;s authority. The psalm invites those who know themselves to be God&apos;s servants to praise His name. In praising God, servants recognize their status and their joy: to serve God is to serve the highest purpose.',
+            '"Praise, O ye servants of the Lord, praise the name of the Lord." The call to praise is directed specifically to servants. A servant is someone who has submitted himself to another&apos;s authority. The psalm invites those who know themselves to be God&apos;s servants to praise His name. In praising God, servants recognize their status and their joy: to serve God is to serve the highest purpose[res:bibleodyssey-hymns-praise].',
         },
         {
           kind: 'commentary',
@@ -124,6 +124,15 @@ export const PSALMS_113: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+113',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-hymns-praise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hymns of Praise in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/hymns/',
+      description: 'SBL essay on the hymn genre — communal, doxological psalms that frame the Psalter&apos;s arc.',
+    },
+
   ],
 
   hasHebrew: true,

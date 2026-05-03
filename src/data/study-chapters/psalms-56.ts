@@ -29,7 +29,7 @@ export const PSALMS_56: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-56-78mid-1',
           html:
-            'Cry for help in the face of enemies opens into confidence and praise. Terror becomes trust; trembling becomes song.',
+            'Cry for help in the face of enemies opens into confidence and praise. Terror becomes trust; trembling becomes song[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'scripture',
@@ -149,6 +149,15 @@ export const PSALMS_56: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms balancing human fear with trust in God.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

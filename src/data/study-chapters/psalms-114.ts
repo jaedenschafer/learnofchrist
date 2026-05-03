@@ -55,7 +55,7 @@ export const PSALMS_114: RichChapterContent = {
           kind: 'commentary',
           id: 'ps114-israel-went-out',
           html:
-            '"When Israel went out of Egypt, the house of Jacob from a people of strange language." The psalm begins with the moment of liberation. Israel was a house, a family, within the midst of a foreign people—Egypt. And they went out. They left their captivity behind. The language of Egypt was strange to them; it was not their native tongue. But now they are free, moving toward their own land.',
+            '"When Israel went out of Egypt, the house of Jacob from a people of strange language." The psalm begins with the moment of liberation. Israel was a house, a family, within the midst of a foreign people—Egypt. And they went out. They left their captivity behind. The language of Egypt was strange to them; it was not their native tongue. But now they are free, moving toward their own land[res:bibleodyssey-hymns-praise].',
         },
         {
           kind: 'commentary',
@@ -128,6 +128,15 @@ export const PSALMS_114: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+114',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-hymns-praise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hymns of Praise in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/hymns/',
+      description: 'SBL essay on the hymn genre — communal, doxological psalms that frame the Psalter&apos;s arc.',
+    },
+
   ],
 
   hasHebrew: true,

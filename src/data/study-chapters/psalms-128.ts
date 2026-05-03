@@ -47,7 +47,7 @@ export const PSALMS_128: RichChapterContent = {
           kind: 'commentary',
           id: 'ps128-labor',
           html:
-            '"Thou shalt eat the labour of thine hands." The blessed man enjoys the fruit of his own work. He is not exploited. He is not robbed. What he labors for, he receives. This is not merely a statement about economics. It is a statement about the dignity of work, the righteousness of being able to enjoy what one has produced, the sense of satisfaction that comes from honest labor well rewarded.',
+            '"Thou shalt eat the labour of thine hands." The blessed man enjoys the fruit of his own work. He is not exploited. He is not robbed. What he labors for, he receives. This is not merely a statement about economics. It is a statement about the dignity of work, the righteousness of being able to enjoy what one has produced, the sense of satisfaction that comes from honest labor well rewarded[res:iaa-pilgrimage-psalms].',
         },
         {
           kind: 'commentary',
@@ -106,6 +106,15 @@ export const PSALMS_128: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+128',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'iaa-pilgrimage-psalms',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Pilgrimage Roads to Jerusalem',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological survey of the ascent roads pilgrims traveled while singing the Songs of Ascent.',
+    },
+
   ],
 
 };

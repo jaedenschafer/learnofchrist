@@ -42,7 +42,7 @@ export const PSALMS_29: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms29-mid-voice',
           html:
-            'The call to worship introduces the subject: the voice of God. His power breaks mountains. His word reshapes creation. Now the psalm deepens—showing the full scope of that voice as it moves through all of creation, touching everything, bending all things to His will.',
+            'The call to worship introduces the subject: the voice of God. His power breaks mountains. His word reshapes creation. Now the psalm deepens—showing the full scope of that voice as it moves through all of creation, touching everything, bending all things to His will[res:bibleodyssey-hymns-praise].',
         },
         {
           kind: 'scripture',
@@ -120,6 +120,15 @@ export const PSALMS_29: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms depicting God appearing in storm, earthquake, and fire.',
     },
+    {
+      id: 'bibleodyssey-hymns-praise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hymns of Praise in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/hymns/',
+      description: 'SBL essay on the hymn genre — communal, doxological psalms that frame the Psalter&apos;s arc.',
+    },
+
   ],
 
   hasHebrew: true,

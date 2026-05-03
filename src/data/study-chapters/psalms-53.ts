@@ -28,7 +28,7 @@ export const PSALMS_53: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms53-fool-heart',
-          html: 'The fool does not merely think to himself, "God does not exist." He says it in his heart—he believes it; he has made it the foundation of his life. And what follows? Corruption. Abominable iniquity. Works that are vile and degrading. The denial of God is not presented as a theoretical position. It is presented as a moral sickness.',
+          html: 'The fool does not merely think to himself, "God does not exist." He says it in his heart—he believes it; he has made it the foundation of his life. And what follows? Corruption. Abominable iniquity. Works that are vile and degrading. The denial of God is not presented as a theoretical position. It is presented as a moral sickness[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'hebrew',
@@ -125,6 +125,15 @@ export const PSALMS_53: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Biblical characterization of the fool who rejects God.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

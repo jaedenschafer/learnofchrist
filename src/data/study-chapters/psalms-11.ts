@@ -39,7 +39,7 @@ export const PSALMS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-11-78mid-1',
           html:
-            'Counselors tell the psalmist to flee; instead he turns to affirm what God sees. Doubt surrenders to trust.',
+            'Counselors tell the psalmist to flee; instead he turns to affirm what God sees. Doubt surrenders to trust[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'scripture',
@@ -134,6 +134,15 @@ export const PSALMS_11: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms affirming confidence in God amid fear and threat.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

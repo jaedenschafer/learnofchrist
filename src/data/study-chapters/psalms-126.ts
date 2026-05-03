@@ -47,7 +47,7 @@ export const PSALMS_126: RichChapterContent = {
           kind: 'commentary',
           id: 'ps126-laughter',
           html:
-            'The response is laughter and singing. Not restrained, not modest, but overflowing joy. The mouths that had been silent in captivity are filled with laughter. The tongues that had been heavy with sorrow are filled with singing. And others—the nations, the heathen—witness this transformation and acknowledge: "The Lord hath done great things for them." The deliverance is so complete, so obvious, that even outsiders must acknowledge God&apos;s power.',
+            'The response is laughter and singing. Not restrained, not modest, but overflowing joy. The mouths that had been silent in captivity are filled with laughter. The tongues that had been heavy with sorrow are filled with singing. And others—the nations, the heathen—witness this transformation and acknowledge: "The Lord hath done great things for them." The deliverance is so complete, so obvious, that even outsiders must acknowledge God&apos;s power[res:iaa-pilgrimage-psalms].',
         },
         {
           kind: 'commentary',
@@ -106,6 +106,15 @@ export const PSALMS_126: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+126',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'iaa-pilgrimage-psalms',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Pilgrimage Roads to Jerusalem',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological survey of the ascent roads pilgrims traveled while singing the Songs of Ascent.',
+    },
+
   ],
 
 };

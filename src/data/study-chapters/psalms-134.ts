@@ -39,7 +39,7 @@ export const PSALMS_134: RichChapterContent = {
           kind: 'commentary',
           id: 'ps134-watchers',
           html:
-            'The servants who stand in the house of the Lord by night are not merely present. They are conscious of their role. They are there on purpose. While the city sleeps, while darkness covers the land, these few stand in the sanctuary. The night is not a time of absence from God. It is a time of special vigil, special watchfulness, special connection. The darkness that hides others from God\'s house opens a door for the watchers who choose to keep the vigil.',
+            'The servants who stand in the house of the Lord by night are not merely present. They are conscious of their role. They are there on purpose. While the city sleeps, while darkness covers the land, these few stand in the sanctuary. The night is not a time of absence from God. It is a time of special vigil, special watchfulness, special connection. The darkness that hides others from God\'s house opens a door for the watchers who choose to keep the vigil[res:iaa-pilgrimage-psalms].',
         },
         {
           kind: 'commentary',
@@ -98,6 +98,15 @@ export const PSALMS_134: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+134',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'iaa-pilgrimage-psalms',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Pilgrimage Roads to Jerusalem',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological survey of the ascent roads pilgrims traveled while singing the Songs of Ascent.',
+    },
+
   ],
 
 };

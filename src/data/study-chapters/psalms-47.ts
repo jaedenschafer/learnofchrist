@@ -38,7 +38,7 @@ export const PSALMS_47: RichChapterContent = {
           kind: 'commentary',
           id: 'ps47-summons-reign[res:bible-odyssey-enthronement-psalms]',
           html:
-            'All nations are summoned to clap. Now the vision deepens: God reigns over all the earth.',
+            'All nations are summoned to clap. Now the vision deepens: God reigns over all the earth[res:bibleodyssey-korah-singers].',
         },
         {
           kind: 'scripture',
@@ -177,6 +177,15 @@ export const PSALMS_47: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms celebrating God&apos;s eternal reign and coronation.',
     },
+    {
+      id: 'bibleodyssey-korah-singers',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Sons of Korah',
+      url: 'https://www.bibleodyssey.org/dictionary/korah/',
+      description: 'SBL entry on the Korahite guild of temple singers and the psalms attributed to them.',
+    },
+
   ],
 
   hasHebrew: true,

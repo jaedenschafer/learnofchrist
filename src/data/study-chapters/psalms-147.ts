@@ -57,7 +57,7 @@ export const PSALMS_147: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm147-broken-heart',
           html:
-            '"He healeth the broken in heart, and bindeth up their wounds." The broken in heart are those whose spirit is shattered, whose grief is overwhelming, whose sense of self is fractured. God heals them. The image of binding wounds is tender—like a physician or nurse caring for injury. God is present in the brokenness, not distant from it.',
+            '"He healeth the broken in heart, and bindeth up their wounds." The broken in heart are those whose spirit is shattered, whose grief is overwhelming, whose sense of self is fractured. God heals them. The image of binding wounds is tender—like a physician or nurse caring for injury. God is present in the brokenness, not distant from it[res:bibleodyssey-hymns-praise].',
         },
         {
           kind: 'commentary',
@@ -185,6 +185,15 @@ export const PSALMS_147: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+147',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-hymns-praise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hymns of Praise in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/hymns/',
+      description: 'SBL essay on the hymn genre — communal, doxological psalms that frame the Psalter&apos;s arc.',
+    },
+
   ],
 
   hasHebrew: true,

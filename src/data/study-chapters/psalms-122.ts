@@ -53,7 +53,7 @@ export const PSALMS_122: RichChapterContent = {
           kind: 'commentary',
           id: 'ps122-glad',
           html:
-            'The gladness the psalmist expresses is visceral. Someone has said to him, "Let us go into the house of the Lord," and his response is immediate and enthusiastic. This is not reluctant obedience, not mere duty. This is desire. The house of the Lord is the place where heaven and earth meet, where God&apos;s presence dwells, where the fragmented and scattered are drawn into unity.',
+            'The gladness the psalmist expresses is visceral. Someone has said to him, "Let us go into the house of the Lord," and his response is immediate and enthusiastic. This is not reluctant obedience, not mere duty. This is desire. The house of the Lord is the place where heaven and earth meet, where God&apos;s presence dwells, where the fragmented and scattered are drawn into unity[res:iaa-pilgrimage-psalms].',
         },
         {
           kind: 'commentary',
@@ -112,6 +112,15 @@ export const PSALMS_122: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+122',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'iaa-pilgrimage-psalms',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Pilgrimage Roads to Jerusalem',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological survey of the ascent roads pilgrims traveled while singing the Songs of Ascent.',
+    },
+
   ],
 
 };

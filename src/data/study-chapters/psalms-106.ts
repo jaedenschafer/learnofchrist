@@ -58,7 +58,7 @@ export const PSALMS_106: RichChapterContent = {
           kind: 'commentary',
           id: 'ps106-sinned-fathers',
           html:
-            'The psalm opens with a strange move: it praises God for His goodness and mercy, then immediately confesses: "We have sinned with our fathers, we have committed iniquity, we have done wickedly." The confession is not personal alone but communal and inherited. The psalmist identifies himself with the failures of his ancestors. He is part of a people with a pattern of rebellion.',
+            'The psalm opens with a strange move: it praises God for His goodness and mercy, then immediately confesses: "We have sinned with our fathers, we have committed iniquity, we have done wickedly." The confession is not personal alone but communal and inherited. The psalmist identifies himself with the failures of his ancestors. He is part of a people with a pattern of rebellion[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'commentary',
@@ -160,6 +160,15 @@ export const PSALMS_106: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+106',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

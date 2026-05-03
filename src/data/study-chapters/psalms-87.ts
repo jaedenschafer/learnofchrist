@@ -55,7 +55,7 @@ export const PSALMS_87: RichChapterContent = {
           kind: 'commentary',
           id: 'ps87-foundation',
           html:
-            'The city of God is not built on human genius or power. Its foundation is in the holy mountains. It is built by God, founded by God, established by God. This is why it cannot fall. This is why it endures. Not because of the skill of its architects, but because God is its foundation.',
+            'The city of God is not built on human genius or power. Its foundation is in the holy mountains. It is built by God, founded by God, established by God. This is why it cannot fall. This is why it endures. Not because of the skill of its architects, but because God is its foundation[res:bibleodyssey-korah-singers].',
         },
         {
           kind: 'commentary',
@@ -122,6 +122,15 @@ export const PSALMS_87: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+87',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-korah-singers',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Sons of Korah',
+      url: 'https://www.bibleodyssey.org/dictionary/korah/',
+      description: 'SBL entry on the Korahite guild of temple singers and the psalms attributed to them.',
+    },
+
   ],
 
 };

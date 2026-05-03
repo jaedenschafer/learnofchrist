@@ -56,7 +56,7 @@ export const PSALMS_105: RichChapterContent = {
           kind: 'commentary',
           id: 'ps105-give-thanks',
           html:
-            'The psalm opens with a call to gratitude and proclamation. "Give thanks unto the Lord; call upon his name: make known his deeds among the people." Thanksgiving is not merely for personal benefit. It is something to be proclaimed. The psalmist is saying: tell others what God has done. Let His deeds be known. This is the beginning of praise and witness.',
+            'The psalm opens with a call to gratitude and proclamation. "Give thanks unto the Lord; call upon his name: make known his deeds among the people." Thanksgiving is not merely for personal benefit. It is something to be proclaimed. The psalmist is saying: tell others what God has done. Let His deeds be known. This is the beginning of praise and witness[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'commentary',
@@ -179,6 +179,15 @@ export const PSALMS_105: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+105',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

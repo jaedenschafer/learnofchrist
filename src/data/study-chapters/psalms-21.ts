@@ -39,7 +39,7 @@ export const PSALMS_21: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-21-78mid-1',
           html:
-            'Thanksgiving for what the Lord has done opens into prayer for what the Lord will do. Praise summons trust.',
+            'Thanksgiving for what the Lord has done opens into prayer for what the Lord will do. Praise summons trust[res:intertextual-psalms-21-nt].',
         },
         {
           kind: 'scripture',
@@ -144,6 +144,15 @@ export const PSALMS_21: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/royal[res:sefaria-psalms-21]-psalms/',
       description: 'Psalms affirming the king&apos;s divine appointment.',
     },
+    {
+      id: 'intertextual-psalms-21-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 21 ↔ New Testament',
+      url: 'https://intertextual.bible/text/psalms-21',
+      description: 'New Testament writers cite or echo Psalm 21 in shaping their proclamation of Christ.',
+    },
+
   ],
 
   hasHebrew: true,

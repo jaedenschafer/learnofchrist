@@ -58,7 +58,7 @@ export const PSALMS_108: RichChapterContent = {
           kind: 'commentary',
           id: 'ps108-heart-fixed',
           html:
-            '"My heart is fixed." The psalmist is not uncertain about his commitment to praise. His resolve is settled. He will sing, he will wake early, he will give his glory to God. And this praise is not private. It is public. He will praise God "among the people" and "among the nations." This is a vision of testimony that crosses boundaries of tribe and nation.',
+            '"My heart is fixed." The psalmist is not uncertain about his commitment to praise. His resolve is settled. He will sing, he will wake early, he will give his glory to God. And this praise is not private. It is public. He will praise God "among the people" and "among the nations." This is a vision of testimony that crosses boundaries of tribe and nation[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'commentary',
@@ -131,6 +131,15 @@ export const PSALMS_108: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+108',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

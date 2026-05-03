@@ -55,7 +55,7 @@ export const PSALMS_111: RichChapterContent = {
           kind: 'commentary',
           id: 'ps111-whole-heart',
           html:
-            '"I will praise the Lord with my whole heart." Not partial praise, not reserved praise, but whole-hearted praise. And it is public: in the assembly, in the congregation. Praise is not merely private devotion but communal testimony. When we praise God in the presence of others, we reinforce each other&apos;s faith and witness to those who do not yet believe.',
+            '"I will praise the Lord with my whole heart." Not partial praise, not reserved praise, but whole-hearted praise. And it is public: in the assembly, in the congregation. Praise is not merely private devotion but communal testimony. When we praise God in the presence of others, we reinforce each other&apos;s faith and witness to those who do not yet believe[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'commentary',
@@ -122,6 +122,15 @@ export const PSALMS_111: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+111',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

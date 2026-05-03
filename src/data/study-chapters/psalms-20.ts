@@ -40,7 +40,7 @@ export const PSALMS_20: RichChapterContent = {
           kind: 'commentary',
           id: 'ps20-hear',
           html:
-            'The congregation prays: "The Lord hear thee in the day of trouble." The king faces a trial—battle, threat, danger. And the people ask God to hear his cry, to hear him in this dark hour. The prayer acknowledges that the king cannot save himself. Only God can deliver him.',
+            'The congregation prays: "The Lord hear thee in the day of trouble." The king faces a trial—battle, threat, danger. And the people ask God to hear his cry, to hear him in this dark hour. The prayer acknowledges that the king cannot save himself. Only God can deliver him[res:intertextual-psalms-20-nt].',
         },
         {
           kind: 'commentary',
@@ -154,5 +154,14 @@ export const PSALMS_20: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms of intercession[res:bible-odyssey-corporate-psalms] on behalf of the nation and leader.',
     },
+    {
+      id: 'intertextual-psalms-20-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 20 ↔ New Testament',
+      url: 'https://intertextual.bible/text/psalms-20',
+      description: 'New Testament writers cite or echo Psalm 20 in shaping their proclamation of Christ.',
+    },
+
   ],
 };

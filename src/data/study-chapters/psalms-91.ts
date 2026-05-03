@@ -57,7 +57,7 @@ export const PSALMS_91: RichChapterContent = {
           kind: 'commentary',
           id: 'ps91-dwell',
           html:
-            'The condition for protection is dwelling in the secret place. This is not geographical. It is a state of being—a life lived in conscious connection to God, a mind that keeps returning to Him, a heart fixed on His presence. To dwell in the secret place is to make God your home.',
+            'The condition for protection is dwelling in the secret place. This is not geographical. It is a state of being—a life lived in conscious connection to God, a mind that keeps returning to Him, a heart fixed on His presence. To dwell in the secret place is to make God your home[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'commentary',
@@ -168,6 +168,15 @@ export const PSALMS_91: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+91',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

@@ -47,7 +47,7 @@ export const PSALMS_93: RichChapterContent = {
           kind: 'commentary',
           id: 'ps93-stablished',
           html:
-            '"The world also is stablished, that it cannot be moved." Because God reigns, the world stands. The order of creation is secure. It is not chaos held together by luck or chance. It is the ordered creation of a God who reigns.',
+            '"The world also is stablished, that it cannot be moved." Because God reigns, the world stands. The order of creation is secure. It is not chaos held together by luck or chance. It is the ordered creation of a God who reigns[res:bibleodyssey-hymns-praise].',
         },
         {
           kind: 'commentary',
@@ -108,6 +108,15 @@ export const PSALMS_93: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+93',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-hymns-praise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hymns of Praise in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/hymns/',
+      description: 'SBL essay on the hymn genre — communal, doxological psalms that frame the Psalter&apos;s arc.',
+    },
+
   ],
 
   hasHebrew: true,

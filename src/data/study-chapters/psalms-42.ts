@@ -40,7 +40,7 @@ export const PSALMS_42: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms42-hart',
           html:
-            'The image of the panting hart is one of the Bible&apos;s most enduring metaphors. The animal is in motion, driven by necessity. It is not calm. It is not indifferent. It runs. It seeks. And so the psalmist describes his soul&apos;s seeking after God. This is not a quiet prayer. This is a desperate running toward God, a motion of the whole being.',
+            'The image of the panting hart is one of the Bible&apos;s most enduring metaphors. The animal is in motion, driven by necessity. It is not calm. It is not indifferent. It runs. It seeks. And so the psalmist describes his soul&apos;s seeking after God. This is not a quiet prayer. This is a desperate running toward God, a motion of the whole being[res:bibleodyssey-korah-singers].',
         },
         {
           kind: 'hebrew',
@@ -164,6 +164,15 @@ export const PSALMS_42: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms expressing deep longing for God&apos;s presence.',
     },
+    {
+      id: 'bibleodyssey-korah-singers',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Sons of Korah',
+      url: 'https://www.bibleodyssey.org/dictionary/korah/',
+      description: 'SBL entry on the Korahite guild of temple singers and the psalms attributed to them.',
+    },
+
   ],
 
   hasHebrew: true,

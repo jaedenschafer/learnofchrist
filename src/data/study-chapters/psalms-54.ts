@@ -30,7 +30,7 @@ export const PSALMS_54: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms54-save-by-name',
-          html: '"Save me, O God, by thy name, and judge me by thy strength." David appeals to God&apos;s name—His character, His nature, His revealed identity. He does not appeal on the basis of his own righteousness, but on the basis of God&apos;s name.',
+          html: '"Save me, O God, by thy name, and judge me by thy strength." David appeals to God&apos;s name—His character, His nature, His revealed identity. He does not appeal on the basis of his own righteousness, but on the basis of God&apos;s name[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'hebrew',
@@ -131,6 +131,15 @@ export const PSALMS_54: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Prayers calling for rescue[res:bible-odyssey-protection-prayer] from adversaries and harm.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

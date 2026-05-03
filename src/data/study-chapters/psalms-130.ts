@@ -56,7 +56,7 @@ export const PSALMS_130: RichChapterContent = {
           kind: 'commentary',
           id: 'ps130-cry',
           html:
-            'The psalmist does not begin with excuses or explanations. He does not minimize his sin or blame others. He cries out of the depths. The depths are where guilt collects, where the weight of transgression settles, where despair seems reasonable. From that place of utter darkness, he calls to the Lord. And he asks for something simple: that the Lord hear him.',
+            'The psalmist does not begin with excuses or explanations. He does not minimize his sin or blame others. He cries out of the depths. The depths are where guilt collects, where the weight of transgression settles, where despair seems reasonable. From that place of utter darkness, he calls to the Lord. And he asks for something simple: that the Lord hear him[res:iaa-pilgrimage-psalms].',
         },
         {
           kind: 'commentary',
@@ -127,6 +127,15 @@ export const PSALMS_130: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+130',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'iaa-pilgrimage-psalms',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Pilgrimage Roads to Jerusalem',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological survey of the ascent roads pilgrims traveled while singing the Songs of Ascent.',
+    },
+
   ],
 
 };

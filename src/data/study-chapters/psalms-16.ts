@@ -133,7 +133,7 @@ export const PSALMS_16: RichChapterContent = {
         {
           kind: 'reflection',
           id: 'ps16-path-life',
-          prompt: 'What does it mean to have the Lord as your portion rather than pursuing other inheritances? How does the hope of resurrection change how you face death? [res:intertextual-psalm-16-acts-2-resurrection]',
+          prompt: 'What does it mean to have the Lord as your portion rather than pursuing other inheritances? How does the hope of resurrection change how you face death? ',
         },
       ],
     },

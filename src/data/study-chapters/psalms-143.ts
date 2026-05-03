@@ -57,7 +57,7 @@ export const PSALMS_143: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm143-judgment',
           html:
-            '"And enter not into judgment with thy servant: for in thy sight shall no man living be justified." This is extraordinary. The psalmist does not ask that God ignore his sin. He asks that God not enter into judgment with him on the basis of his own righteousness. For no one, standing before God in judgment, would be found righteous. All are sinners. The psalmist is saying: I cannot defend myself before Your justice. My only hope is Your mercy.',
+            '"And enter not into judgment with thy servant: for in thy sight shall no man living be justified." This is extraordinary. The psalmist does not ask that God ignore his sin. He asks that God not enter into judgment with him on the basis of his own righteousness. For no one, standing before God in judgment, would be found righteous. All are sinners. The psalmist is saying: I cannot defend myself before Your justice. My only hope is Your mercy[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'commentary',
@@ -153,6 +153,15 @@ export const PSALMS_143: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+143',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

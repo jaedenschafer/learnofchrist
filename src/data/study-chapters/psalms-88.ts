@@ -55,7 +55,7 @@ export const PSALMS_88: RichChapterContent = {
           kind: 'commentary',
           id: 'ps88-mid-alone',
           html:
-            'The psalmist has cried out to God. He has described his pain. Now the deepest cut: not just suffering, but loneliness. Friends are gone. He is an abomination to them. Even his eye mourns—grief is inscribed in every glance. And still he calls out. Abandoned, yet still praying.',
+            'The psalmist has cried out to God. He has described his pain. Now the deepest cut: not just suffering, but loneliness. Friends are gone. He is an abomination to them. Even his eye mourns—grief is inscribed in every glance. And still he calls out. Abandoned, yet still praying[res:bibleodyssey-korah-singers].',
         },
         {
           kind: 'scripture',
@@ -169,6 +169,15 @@ export const PSALMS_88: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+88',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-korah-singers',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Sons of Korah',
+      url: 'https://www.bibleodyssey.org/dictionary/korah/',
+      description: 'SBL entry on the Korahite guild of temple singers and the psalms attributed to them.',
+    },
+
   ],
 
 };

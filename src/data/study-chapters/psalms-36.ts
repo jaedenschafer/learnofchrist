@@ -40,7 +40,7 @@ export const PSALMS_36: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms36-transgression',
           html:
-            'David does not describe the wicked from a safe distance. He says the transgression "speaketh within my heart"—as though he himself is listening to its voice, understanding its reasoning. This is the psalm of a man who knows temptation, who has heard the whisper that says "God will not notice," or "no one will know." The wicked do not typically announce their evil. They flatter themselves. They rationalize. They tell themselves a story that makes sense of their choices.',
+            'David does not describe the wicked from a safe distance. He says the transgression "speaketh within my heart"—as though he himself is listening to its voice, understanding its reasoning. This is the psalm of a man who knows temptation, who has heard the whisper that says "God will not notice," or "no one will know." The wicked do not typically announce their evil. They flatter themselves. They rationalize. They tell themselves a story that makes sense of their choices[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'hebrew',
@@ -151,6 +151,15 @@ export const PSALMS_36: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms contrasting paths of wickedness and righteousness.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

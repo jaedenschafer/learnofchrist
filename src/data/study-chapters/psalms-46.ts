@@ -37,7 +37,7 @@ export const PSALMS_46: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-46-78mid-1',
           html:
-            'Confidence in God&apos;s refuge narrows to invitation to know Him. Fortress becomes stillness; might becomes recognition.',
+            'Confidence in God&apos;s refuge narrows to invitation to know Him. Fortress becomes stillness; might becomes recognition[res:bibleodyssey-korah-singers].',
         },
         {
           kind: 'scripture',
@@ -181,6 +181,15 @@ export const PSALMS_46: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms celebrating Jerusalem as God&apos;s chosen dwelling place.',
     },
+    {
+      id: 'bibleodyssey-korah-singers',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Sons of Korah',
+      url: 'https://www.bibleodyssey.org/dictionary/korah/',
+      description: 'SBL entry on the Korahite guild of temple singers and the psalms attributed to them.',
+    },
+
   ],
 
   hasHebrew: true,

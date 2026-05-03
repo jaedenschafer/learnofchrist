@@ -60,7 +60,7 @@ export const PSALMS_107: RichChapterContent = {
           kind: 'commentary',
           id: 'ps107-wanderers',
           html:
-            'The first scene: wanderers lost in the wilderness. They are hungry, thirsty, dying of thirst, with no city to dwell in. They have no map, no guide, no hope. Yet "they cried unto the Lord in their trouble: and he delivered them out of their distresses." Rescue comes through prayer.',
+            'The first scene: wanderers lost in the wilderness. They are hungry, thirsty, dying of thirst, with no city to dwell in. They have no map, no guide, no hope. Yet "they cried unto the Lord in their trouble: and he delivered them out of their distresses." Rescue comes through prayer[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'commentary',
@@ -133,6 +133,15 @@ export const PSALMS_107: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+107',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

@@ -43,7 +43,7 @@ export const PSALMS_131: RichChapterContent = {
           kind: 'commentary',
           id: 'ps131-quieted',
           html:
-            '"I have behaved and quieted myself." The word "quieted" suggests a stilling, a settling, like water that becomes calm after turbulence. The psalmist has ceased the endless striving, the grasping for more, the anxious climbing. And this stilling has brought deep peace. Not the peace of achievement or acquisition, but the peace of surrender.',
+            '"I have behaved and quieted myself." The word "quieted" suggests a stilling, a settling, like water that becomes calm after turbulence. The psalmist has ceased the endless striving, the grasping for more, the anxious climbing. And this stilling has brought deep peace. Not the peace of achievement or acquisition, but the peace of surrender[res:iaa-pilgrimage-psalms].',
         },
         {
           kind: 'commentary',
@@ -96,6 +96,15 @@ export const PSALMS_131: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+131',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'iaa-pilgrimage-psalms',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Pilgrimage Roads to Jerusalem',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological survey of the ascent roads pilgrims traveled while singing the Songs of Ascent.',
+    },
+
   ],
 
 };

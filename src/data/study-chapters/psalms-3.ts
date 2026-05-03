@@ -43,7 +43,7 @@ export const PSALMS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms3-increased',
           html:
-            'David opens[res:bible-odyssey-lament-psalms] with a lament: "Lord, how are they increased that trouble me!" The word increased suggests something growing, multiplying, spreading like an infection. David is not exaggerating. In fleeing from Absalom, he is fleeing from an entire army—his own son has claimed the throne, and the people have followed. David is one man, alone, pursued. The troubles have indeed increased. They surround him. They multiply.',
+            'David opens[res:bible-odyssey-lament-psalms] with a lament: "Lord, how are they increased that trouble me!" The word increased suggests something growing, multiplying, spreading like an infection. David is not exaggerating. In fleeing from Absalom, he is fleeing from an entire army—his own son has claimed the throne, and the people have followed. David is one man, alone, pursued. The troubles have indeed increased. They surround him. They multiply.[res:intertextual-psalms-3-nt]',
         },
         {
           kind: 'commentary',
@@ -163,6 +163,14 @@ export const PSALMS_3: RichChapterContent = {
       label: 'Lament Psalms',
       url: 'https://www.bibleodyssey.org/dictionary/lament-psalms/',
       description: 'Genre study covering complaint, petition, and trust in psalms of distress.',
+    },
+    {
+      id: 'intertextual-psalms-3-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 3 in the NT',
+      url: 'https://intertextual.bible/text/psalm-3',
+      description: 'Shows NT echoes of David\'s trust and the betrayal theme.',
     },
   ],
 

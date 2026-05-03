@@ -57,7 +57,7 @@ export const PSALMS_139: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm139-compasses',
           html:
-            '"Thou compassest my path and my lying down, and art acquainted with all my ways." To compass means to encircle, to surround. God surrounds the psalmist&apos;s path—He is ahead and behind, on all sides. And He is acquainted with all the psalmist&apos;s ways—not just the path he walks, but the manner in which he walks it, the choices he makes, the patterns of his life.',
+            '"Thou compassest my path and my lying down, and art acquainted with all my ways." To compass means to encircle, to surround. God surrounds the psalmist&apos;s path—He is ahead and behind, on all sides. And He is acquainted with all the psalmist&apos;s ways—not just the path he walks, but the manner in which he walks it, the choices he makes, the patterns of his life[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'commentary',
@@ -221,6 +221,15 @@ export const PSALMS_139: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+139',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

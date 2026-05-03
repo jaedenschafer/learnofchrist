@@ -57,7 +57,7 @@ export const PSALMS_104: RichChapterContent = {
           kind: 'commentary',
           id: 'ps104-mid',
           html:
-            'The psalmist stops describing the heavens and starts describing the herbs. The same God who set the stars feeds the cattle. The cosmic and the daily are one work of one Creator.',
+            'The psalmist stops describing the heavens and starts describing the herbs. The same God who set the stars feeds the cattle. The cosmic and the daily are one work of one Creator[res:bibleodyssey-hymns-praise].',
         },
         {
           kind: 'scripture',
@@ -188,6 +188,15 @@ export const PSALMS_104: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+104',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-hymns-praise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hymns of Praise in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/hymns/',
+      description: 'SBL essay on the hymn genre — communal, doxological psalms that frame the Psalter&apos;s arc.',
+    },
+
   ],
 
   hasHebrew: true,

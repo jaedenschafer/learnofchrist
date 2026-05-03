@@ -40,7 +40,7 @@ export const PSALMS_26: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-26-78mid-1',
           html:
-            'The declaration of innocence[res:sefaria-psalms-26] shifts to yearning for community. Solitude becomes sanctuary; the temple calls.',
+            'The declaration of innocence[res:sefaria-psalms-26] shifts to yearning for community. Solitude becomes sanctuary; the temple calls[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'scripture',
@@ -148,6 +148,15 @@ export const PSALMS_26: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms asserting righteousness and calling God to witness.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

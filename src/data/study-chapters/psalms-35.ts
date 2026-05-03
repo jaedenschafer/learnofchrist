@@ -41,7 +41,7 @@ export const PSALMS_35: RichChapterContent = {
           kind: 'commentary',
           id: 'ps35-betrayal-pivot',
           html:
-            'The psalmist&apos;s complaint shifts — these were the friends he prayed for in their sickness. The wound is not from enemies but from those he had carried first.',
+            'The psalmist&apos;s complaint shifts — these were the friends he prayed for in their sickness. The wound is not from enemies but from those he had carried first[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'scripture',
@@ -119,6 +119,15 @@ export const PSALMS_35: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms calling on God to defeat[res:bible-odyssey-enemy-psalms] and shame adversaries.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

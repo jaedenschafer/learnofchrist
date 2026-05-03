@@ -39,7 +39,7 @@ export const PSALMS_75: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms75-thanks',
-          html: 'The psalm opens with thanksgiving: "Unto thee, O God, do we give thanks." And the reason: "thy name is near thy wondrous works declare." God&apos;s power is not distant or abstract. It is near. It is demonstrated in wondrous works.',
+          html: 'The psalm opens with thanksgiving: "Unto thee, O God, do we give thanks." And the reason: "thy name is near thy wondrous works declare." God&apos;s power is not distant or abstract. It is near. It is demonstrated in wondrous works[res:bibleodyssey-asaph].',
         },
         {
           kind: 'hebrew',
@@ -147,6 +147,15 @@ export const PSALMS_75: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms on God as impartial judge rewarding and punishing.',
     },
+    {
+      id: 'bibleodyssey-asaph',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Asaph and the Temple Singers',
+      url: 'https://www.bibleodyssey.org/dictionary/asaph/',
+      description: 'SBL entry on Asaph as appointed musician and the guild of singers responsible for these psalms.',
+    },
+
   ],
 
   hasHebrew: true,

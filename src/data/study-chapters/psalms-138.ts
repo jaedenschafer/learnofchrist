@@ -54,7 +54,7 @@ export const PSALMS_138: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm138-magnified',
           html:
-            'Notice what is said: "Thou hast magnified thy word above all thy name." God&apos;s word—His promises, His revelation—stands higher than His name, higher than His reputation. In other words, when there is tension between what God has said and what circumstances suggest, the psalmist will trust the word. God has committed Himself to His word. He will not break it.',
+            'Notice what is said: "Thou hast magnified thy word above all thy name." God&apos;s word—His promises, His revelation—stands higher than His name, higher than His reputation. In other words, when there is tension between what God has said and what circumstances suggest, the psalmist will trust the word. God has committed Himself to His word. He will not break it[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'commentary',
@@ -137,6 +137,15 @@ export const PSALMS_138: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+138',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

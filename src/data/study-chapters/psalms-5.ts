@@ -150,7 +150,7 @@ export const PSALMS_5: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'Psalm 5 teaches that every morning offers a new opportunity to turn toward God, to cry out to Him, to seek His guidance. The enemies—whether external opposition or internal doubt—cannot prevent your approach. God hears the morning prayer. And as you enter His house, drawn by His mercy, you find yourself surrounded by His favor, protected as with a shield, blessed with the blessing that only the righteous can know.',
+            'Psalm 5 teaches that every morning offers a new opportunity to turn toward God, to cry out to Him, to seek His guidance. The enemies—whether external opposition or internal doubt—cannot prevent your approach. God hears the morning prayer.[res:intertextual-psalms-5-nt] And as you enter His house, drawn by His mercy, you find yourself surrounded by His favor, protected as with a shield, blessed with the blessing that only the righteous can know.',
         },
         {
           kind: 'reflection',
@@ -183,6 +183,14 @@ export const PSALMS_5: RichChapterContent = {
       label: 'Morning & Temple Psalms',
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Liturgical psalms sung at dawn and in daily temple worship.',
+    },
+    {
+      id: 'intertextual-psalms-5-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 5 in the NT',
+      url: 'https://intertextual.bible/text/psalm-5',
+      description: 'Traces NT echoes of morning prayer and approaching God\'s house.',
     },
   ],
 

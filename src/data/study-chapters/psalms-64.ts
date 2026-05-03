@@ -31,7 +31,7 @@ export const PSALMS_64: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms64-fear-enemy',
-          html: 'David opens with a plea: "preserve my life from fear of the enemy." He asks not merely for protection from the enemy, but for protection from the fear of the enemy. Fear can paralyze. Fear can destroy faith. David asks God to guard his heart against fear.',
+          html: 'David opens with a plea: "preserve my life from fear of the enemy." He asks not merely for protection from the enemy, but for protection from the fear of the enemy. Fear can paralyze. Fear can destroy faith. David asks God to guard his heart against fear[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'hebrew',
@@ -139,6 +139,15 @@ export const PSALMS_64: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Prayers against false accusation[res:bible-odyssey-slander-psalms] and deceitful speech.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

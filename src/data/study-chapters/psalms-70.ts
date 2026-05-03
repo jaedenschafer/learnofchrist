@@ -37,7 +37,7 @@ export const PSALMS_70: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms70-haste',
-          html: 'The psalm begins with an imperative repeated twice: "Make haste, make haste." This is not a polite petition[res:bible-odyssey-urgent-prayer]. This is urgency pressed to its limit. The psalmist cannot articulate a long prayer. He can only cry out: Do not delay. Come quickly.',
+          html: 'The psalm begins with an imperative repeated twice: "Make haste, make haste." This is not a polite petition[res:bible-odyssey-urgent-prayer]. This is urgency pressed to its limit. The psalmist cannot articulate a long prayer. He can only cry out: Do not delay. Come quickly[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'hebrew',
@@ -139,6 +139,15 @@ export const PSALMS_70: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Short psalms of urgent petition in crisis.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

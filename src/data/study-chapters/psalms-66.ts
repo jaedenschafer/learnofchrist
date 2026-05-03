@@ -42,7 +42,7 @@ export const PSALMS_66: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-66-78mid-1',
           html:
-            'Call to all earth to praise God&apos;s works opens into personal testimony of deliverance. Universal acclaim becomes individual witness.',
+            'Call to all earth to praise God&apos;s works opens into personal testimony of deliverance. Universal acclaim becomes individual witness[res:bibleodyssey-hymns-praise].',
         },
         {
           kind: 'scripture',
@@ -222,6 +222,15 @@ export const PSALMS_66: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms calling all people to join in praise to God.',
     },
+    {
+      id: 'bibleodyssey-hymns-praise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hymns of Praise in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/hymns/',
+      description: 'SBL essay on the hymn genre — communal, doxological psalms that frame the Psalter&apos;s arc.',
+    },
+
   ],
 
   hasHebrew: true,

@@ -29,7 +29,7 @@ export const PSALMS_52: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-52-78mid-1',
           html:
-            'Accusation of the boastful man gives way to declaration of God&apos;s judgment and the psalmist&apos;s trust. The wicked are answered by the faithful.',
+            'Accusation of the boastful man gives way to declaration of God&apos;s judgment and the psalmist&apos;s trust. The wicked are answered by the faithful[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'scripture',
@@ -140,6 +140,15 @@ export const PSALMS_52: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms condemning wickedness[res:bible-odyssey-denunciation] and warning of judgment.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

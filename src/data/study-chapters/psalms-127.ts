@@ -46,7 +46,7 @@ export const PSALMS_127: RichChapterContent = {
           kind: 'commentary',
           id: 'ps127-sleep',
           html:
-            '"It is vain for you to rise up early, to sit up late, to eat the bread of sorrows." The psalmist describes the life of those who think their salvation lies in their own effort—endless work, sleeplessness, anxiety, the bread of sorrows eaten in place of rest. They do not trust. They strain. They wear themselves thin. But God gives sleep, rest, peace to His beloved. Not as a reward for their effort, but as a gift. As grace.',
+            '"It is vain for you to rise up early, to sit up late, to eat the bread of sorrows." The psalmist describes the life of those who think their salvation lies in their own effort—endless work, sleeplessness, anxiety, the bread of sorrows eaten in place of rest. They do not trust. They strain. They wear themselves thin. But God gives sleep, rest, peace to His beloved. Not as a reward for their effort, but as a gift. As grace[res:iaa-pilgrimage-psalms].',
         },
         {
           kind: 'commentary',
@@ -105,6 +105,15 @@ export const PSALMS_127: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+127',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'iaa-pilgrimage-psalms',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Pilgrimage Roads to Jerusalem',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological survey of the ascent roads pilgrims traveled while singing the Songs of Ascent.',
+    },
+
   ],
 
 };

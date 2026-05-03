@@ -54,7 +54,7 @@ export const PSALMS_82: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms82-injustice',
           html:
-            '"How long will ye judge unjustly, and accept the persons of the wicked?" God is asking: How long will these judges continue to render unjust verdicts? How long will they favor the wicked because of bribes or relationships? The question is addressed to the judges directly. Their time of reckoning is at hand.',
+            '"How long will ye judge unjustly, and accept the persons of the wicked?" God is asking: How long will these judges continue to render unjust verdicts? How long will they favor the wicked because of bribes or relationships? The question is addressed to the judges directly. Their time of reckoning is at hand[res:bibleodyssey-asaph].',
         },
         {
           kind: 'commentary',
@@ -158,6 +158,15 @@ export const PSALMS_82: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+82',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-asaph',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Asaph and the Temple Singers',
+      url: 'https://www.bibleodyssey.org/dictionary/asaph/',
+      description: 'SBL entry on Asaph as appointed musician and the guild of singers responsible for these psalms.',
+    },
+
   ],
 
   hasHebrew: true,

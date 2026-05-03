@@ -55,7 +55,7 @@ export const PSALMS_135: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm135-praise-name',
           html:
-            'The opening command rings through the psalm: "Praise ye the Lord. Praise ye the name of the Lord." The repetition is not for emphasis alone. The first invocation calls for praise of the Lord Himself. The second calls for praise of His name—the revelation of who He is, how He makes Himself known to His people. To praise the Lord&apos;s name is to acknowledge what He has revealed about Himself in history, in covenant, in His mighty deeds.',
+            'The opening command rings through the psalm: "Praise ye the Lord. Praise ye the name of the Lord." The repetition is not for emphasis alone. The first invocation calls for praise of the Lord Himself. The second calls for praise of His name—the revelation of who He is, how He makes Himself known to His people. To praise the Lord&apos;s name is to acknowledge what He has revealed about Himself in history, in covenant, in His mighty deeds[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'hebrew',
@@ -189,6 +189,15 @@ export const PSALMS_135: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+135',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

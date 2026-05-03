@@ -119,7 +119,7 @@ export const PSALMS_1: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'Psalm 1 offers no middle ground. There are two ways, two kinds of life, two destinies. The righteous man meditates on God&apos;s law and prospers. The ungodly man is blown about by every wind and comes to nothing. The choice before each reader is stark: Which way will you walk? What counsel will you receive? Where will you plant your roots? The psalm opens[res:intertextual-psalms-1] the book of Psalms by insisting that this choice—the ordering of your life toward God or away from Him—is the most important choice you will ever make.',
+            'Psalm 1 offers no middle ground. There are two ways, two kinds of life, two destinies. The righteous man meditates on God&apos;s law and prospers. The ungodly man is blown about by every wind and comes to nothing. The choice before each reader is stark: Which way will you walk? What counsel will you receive? Where will you plant your roots? The psalm opens[res:intertextual-psalms-1] the book of Psalms by insisting that this choice—the ordering of your life toward God or away from Him—is the most important choice you will ever make.[res:cambridge-wisdom-torah-meditation]',
         },
         {
           kind: 'reflection',
@@ -152,6 +152,14 @@ export const PSALMS_1: RichChapterContent = {
       label: 'Psalm 1 in the NT',
       url: 'https://intertextual.bible/text/psalm-1',
       description: 'Traces allusions to Psalm 1 throughout the New Testament, especially Matthew 5-7.',
+    },
+    {
+      id: 'cambridge-wisdom-torah-meditation',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Wisdom Psalms and Torah Meditation',
+      url: 'https://www.cambridge.org',
+      description: 'Scholarly study of wisdom psalms as forms of Torah meditation and the blessed life.',
     },
   ],
 

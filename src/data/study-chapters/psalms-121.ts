@@ -54,7 +54,7 @@ export const PSALMS_121: RichChapterContent = {
           kind: 'commentary',
           id: 'ps121-maker',
           html:
-            'The psalm does not rest in the hills themselves. "My help cometh from the Lord, which made heaven and earth." Help is not found in natural strength or providence. It is found in the One who stands above nature, who created it, who sustains it. The Maker is the source. Everything else—hills, strength, resources—are His creation.',
+            'The psalm does not rest in the hills themselves. "My help cometh from the Lord, which made heaven and earth." Help is not found in natural strength or providence. It is found in the One who stands above nature, who created it, who sustains it. The Maker is the source. Everything else—hills, strength, resources—are His creation[res:iaa-pilgrimage-psalms].',
         },
         {
           kind: 'commentary',
@@ -113,6 +113,15 @@ export const PSALMS_121: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+121',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'iaa-pilgrimage-psalms',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Pilgrimage Roads to Jerusalem',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological survey of the ascent roads pilgrims traveled while singing the Songs of Ascent.',
+    },
+
   ],
 
 };

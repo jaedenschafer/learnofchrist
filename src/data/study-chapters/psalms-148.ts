@@ -57,7 +57,7 @@ export const PSALMS_148: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm148-sun-moon',
           html:
-            '"Praise ye him, sun and moon: praise him, all ye stars of light." The heavenly bodies—sun, moon, stars—are personified as praising entities. They are called to give praise. By their very existence and movements, they reflect the glory of their Creator.',
+            '"Praise ye him, sun and moon: praise him, all ye stars of light." The heavenly bodies—sun, moon, stars—are personified as praising entities. They are called to give praise. By their very existence and movements, they reflect the glory of their Creator[res:bibleodyssey-hymns-praise].',
         },
         {
           kind: 'commentary',
@@ -167,6 +167,15 @@ export const PSALMS_148: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+148',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-hymns-praise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hymns of Praise in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/hymns/',
+      description: 'SBL essay on the hymn genre — communal, doxological psalms that frame the Psalter&apos;s arc.',
+    },
+
   ],
 
   hasHebrew: true,

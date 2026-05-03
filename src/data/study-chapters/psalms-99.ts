@@ -41,7 +41,7 @@ export const PSALMS_99: RichChapterContent = {
           kind: 'commentary',
           id: 'ps99-enthronement-holiness',
           html:
-            'The Lord reigns. Now the focus sharpens: he is holy, and exalt him.',
+            'The Lord reigns. Now the focus sharpens: he is holy, and exalt him[res:bibleodyssey-hymns-praise].',
         },
         {
           kind: 'scripture',
@@ -127,6 +127,15 @@ export const PSALMS_99: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+99',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-hymns-praise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hymns of Praise in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/hymns/',
+      description: 'SBL essay on the hymn genre — communal, doxological psalms that frame the Psalter&apos;s arc.',
+    },
+
   ],
 
   hasHebrew: false,

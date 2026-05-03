@@ -55,7 +55,7 @@ export const PSALMS_103: RichChapterContent = {
           kind: 'commentary',
           id: 'ps103-mid',
           html:
-            '&apos;Bless the Lord&apos; becomes &apos;forget not all his benefits.&apos; Praise shifts to memory. The benefits are listed—forgiveness, healing, redemption, mercy—and then the foundation of mercy is named. God is merciful because that is His character, not because we deserve it.',
+            '&apos;Bless the Lord&apos; becomes &apos;forget not all his benefits.&apos; Praise shifts to memory. The benefits are listed—forgiveness, healing, redemption, mercy—and then the foundation of mercy is named. God is merciful because that is His character, not because we deserve it[res:bibleodyssey-hymns-praise].',
         },
         {
           kind: 'scripture',
@@ -193,6 +193,15 @@ export const PSALMS_103: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+103',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-hymns-praise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hymns of Praise in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/hymns/',
+      description: 'SBL essay on the hymn genre — communal, doxological psalms that frame the Psalter&apos;s arc.',
+    },
+
   ],
 
   hasHebrew: true,

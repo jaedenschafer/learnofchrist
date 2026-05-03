@@ -39,7 +39,7 @@ export const PSALMS_43: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms43-judge',
           html:
-            'David begins with a plea for God to judge—to plead his cause against those who oppose him. Yet notice that he appeals to God, not to his enemies. The judgment[res:sefaria-psalms-43] he seeks is God&apos;s judgment, the vindication that comes from truth, not from the defeat of his opponents. He wants to be delivered from the deceitful and unjust man—not destroyed by him, but freed from his power.',
+            'David begins with a plea for God to judge—to plead his cause against those who oppose him. Yet notice that he appeals to God, not to his enemies. The judgment[res:sefaria-psalms-43] he seeks is God&apos;s judgment, the vindication that comes from truth, not from the defeat of his opponents. He wants to be delivered from the deceitful and unjust man—not destroyed by him, but freed from his power[res:bibleodyssey-korah-singers].',
         },
         {
           kind: 'commentary',
@@ -112,6 +112,15 @@ export const PSALMS_43: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms asking God to judge fairly and prove[res:bible-odyssey-vindication-prayer] innocence.',
     },
+    {
+      id: 'bibleodyssey-korah-singers',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Sons of Korah',
+      url: 'https://www.bibleodyssey.org/dictionary/korah/',
+      description: 'SBL entry on the Korahite guild of temple singers and the psalms attributed to them.',
+    },
+
   ],
 
   hasHebrew: true,

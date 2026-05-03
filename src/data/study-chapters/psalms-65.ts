@@ -43,7 +43,7 @@ export const PSALMS_65: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms65-praise-waits',
           html:
-            'The opening line is striking in its reversal of expectation. We expect the worshipper to rush forward with praise, to storm heaven with petition. Instead, praise itself waits. It is a held posture, a readiness, a silence filled with intention. This is not the praise of those carried away by emotion. This is the praise of those who have positioned themselves in the presence of God and wait for His word, His answer, His response. Praise, in this reading, is not something we do to God. It is something we become in relation to God.',
+            'The opening line is striking in its reversal of expectation. We expect the worshipper to rush forward with praise, to storm heaven with petition. Instead, praise itself waits. It is a held posture, a readiness, a silence filled with intention. This is not the praise of those carried away by emotion. This is the praise of those who have positioned themselves in the presence of God and wait for His word, His answer, His response. Praise, in this reading, is not something we do to God. It is something we become in relation to God[res:bibleodyssey-hymns-praise].',
         },
         {
           kind: 'commentary',
@@ -184,6 +184,15 @@ export const PSALMS_65: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms celebrating harvest, rain, and God&apos;s provision.',
     },
+    {
+      id: 'bibleodyssey-hymns-praise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hymns of Praise in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/hymns/',
+      description: 'SBL essay on the hymn genre — communal, doxological psalms that frame the Psalter&apos;s arc.',
+    },
+
   ],
 
   hasHebrew: true,

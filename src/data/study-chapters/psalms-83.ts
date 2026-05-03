@@ -56,7 +56,7 @@ export const PSALMS_83: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms83-conspiracy',
           html:
-            'The enemies have taken "crafty counsel"—they have conspired together with cunning and deception. And their goal is explicit: to cut off Israel from being a nation, to erase them from history. This is not a limited military goal. This is genocide. This is the attempt to remove from the earth any memory of God&apos;s people.',
+            'The enemies have taken "crafty counsel"—they have conspired together with cunning and deception. And their goal is explicit: to cut off Israel from being a nation, to erase them from history. This is not a limited military goal. This is genocide. This is the attempt to remove from the earth any memory of God&apos;s people[res:bibleodyssey-asaph].',
         },
         {
           kind: 'commentary',
@@ -161,6 +161,15 @@ export const PSALMS_83: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+83',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-asaph',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Asaph and the Temple Singers',
+      url: 'https://www.bibleodyssey.org/dictionary/asaph/',
+      description: 'SBL entry on Asaph as appointed musician and the guild of singers responsible for these psalms.',
+    },
+
   ],
 
   hasHebrew: true,

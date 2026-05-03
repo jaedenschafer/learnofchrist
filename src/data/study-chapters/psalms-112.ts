@@ -57,7 +57,7 @@ export const PSALMS_112: RichChapterContent = {
           kind: 'commentary',
           id: 'ps112-feareth-lord',
           html:
-            '"Blessed is the man that feareth the Lord, that delighteth greatly in his commandments." The blessed man is not blessed by circumstance but by his posture toward God. He fears God—he stands in awe, recognizes authority, obeys. And this is not grim obedience. He delights in God&apos;s commandments. He finds joy in doing what God commands. The person whose heart has been transformed by reverence for God finds that obedience is not a burden but a delight.',
+            '"Blessed is the man that feareth the Lord, that delighteth greatly in his commandments." The blessed man is not blessed by circumstance but by his posture toward God. He fears God—he stands in awe, recognizes authority, obeys. And this is not grim obedience. He delights in God&apos;s commandments. He finds joy in doing what God commands. The person whose heart has been transformed by reverence for God finds that obedience is not a burden but a delight[res:bibleodyssey-wisdom-psalms].',
         },
         {
           kind: 'commentary',
@@ -130,6 +130,15 @@ export const PSALMS_112: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+112',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-wisdom-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Wisdom Psalms',
+      url: 'https://www.bibleodyssey.org/articles/wisdom-psalms/',
+      description: 'SBL overview of the wisdom-psalm subgenre and its meditation on Torah and the righteous life.',
+    },
+
   ],
 
   hasHebrew: true,

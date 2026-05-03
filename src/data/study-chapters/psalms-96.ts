@@ -41,7 +41,7 @@ export const PSALMS_96: RichChapterContent = {
           kind: 'commentary',
           id: 'ps96-newness-declare',
           html:
-            'Sing to the Lord a new song. Now the proclamation broadens: declare his glory among the nations.',
+            'Sing to the Lord a new song. Now the proclamation broadens: declare his glory among the nations[res:bibleodyssey-hymns-praise].',
         },
         {
           kind: 'scripture',
@@ -116,6 +116,15 @@ export const PSALMS_96: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+96',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-hymns-praise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hymns of Praise in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/hymns/',
+      description: 'SBL essay on the hymn genre — communal, doxological psalms that frame the Psalter&apos;s arc.',
+    },
+
   ],
 
   hasHebrew: false,

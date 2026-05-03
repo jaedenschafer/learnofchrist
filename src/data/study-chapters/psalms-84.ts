@@ -57,7 +57,7 @@ export const PSALMS_84: RichChapterContent = {
           kind: 'commentary',
           id: 'ps84-sparrow',
           html:
-            'Even the sparrow finds a home in the altar of God. The humblest creature nests in the house of the Lord, safe and secure. The psalmist seems to say: If even the sparrow can find home at the altar, should not my soul find home there? This is not a boast of humility but an expression of deep longing: I belong nowhere else. My home is with my God.',
+            'Even the sparrow finds a home in the altar of God. The humblest creature nests in the house of the Lord, safe and secure. The psalmist seems to say: If even the sparrow can find home at the altar, should not my soul find home there? This is not a boast of humility but an expression of deep longing: I belong nowhere else. My home is with my God[res:bibleodyssey-korah-singers].',
         },
         {
           kind: 'christ',
@@ -162,6 +162,15 @@ export const PSALMS_84: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+84',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-korah-singers',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Sons of Korah',
+      url: 'https://www.bibleodyssey.org/dictionary/korah/',
+      description: 'SBL entry on the Korahite guild of temple singers and the psalms attributed to them.',
+    },
+
   ],
 
   hasHebrew: true,

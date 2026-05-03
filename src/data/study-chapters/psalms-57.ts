@@ -30,7 +30,7 @@ export const PSALMS_57: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms57-shadow-wings',
-          html: '"In the shadow of thy wings will I make my refuge, until these calamities be overpast." The image is that of a bird taking shelter[res:bible-odyssey-refuge-psalms] beneath its mother&apos;s wings. David seeks refuge not in the cave itself, but in the shadow of God&apos;s wings.',
+          html: '"In the shadow of thy wings will I make my refuge, until these calamities be overpast." The image is that of a bird taking shelter[res:bible-odyssey-refuge-psalms] beneath its mother&apos;s wings. David seeks refuge not in the cave itself, but in the shadow of God&apos;s wings[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'hebrew',
@@ -140,6 +140,15 @@ export const PSALMS_57: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms seeking God as shelter from danger.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

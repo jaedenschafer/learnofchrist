@@ -39,7 +39,7 @@ export const PSALMS_49: RichChapterContent = {
           kind: 'commentary',
           id: 'ps49-wisdom-truth',
           html:
-            'The wise take up their riddle. Now the turn comes—but God will redeem my soul.',
+            'The wise take up their riddle. Now the turn comes—but God will redeem my soul[res:bibleodyssey-korah-singers].',
         },
         {
           kind: 'scripture',
@@ -176,6 +176,15 @@ export const PSALMS_49: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms teaching wisdom through reflection on life and conduct.',
     },
+    {
+      id: 'bibleodyssey-korah-singers',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Sons of Korah',
+      url: 'https://www.bibleodyssey.org/dictionary/korah/',
+      description: 'SBL entry on the Korahite guild of temple singers and the psalms attributed to them.',
+    },
+
   ],
 
   hasHebrew: true,

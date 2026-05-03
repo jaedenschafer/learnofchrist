@@ -55,7 +55,7 @@ export const PSALMS_15: RichChapterContent = {
           kind: 'commentary',
           id: 'ps15-works',
           html:
-            'The person described here walks uprightly—this is his whole pattern of life. He works righteousness—it is not passive virtue but active, intentional right-doing. He speaks the truth in his heart—even when no one is listening, even when lying would be easier or more profitable, he maintains truthfulness.',
+            'The person described here walks uprightly—this is his whole pattern of life. He works righteousness—it is not passive virtue but active, intentional right-doing. He speaks the truth in his heart—even when no one is listening, even when lying would be easier or more profitable, he maintains truthfulness[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'commentary',
@@ -119,6 +119,15 @@ export const PSALMS_15: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms for entering the temple and approaching God.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

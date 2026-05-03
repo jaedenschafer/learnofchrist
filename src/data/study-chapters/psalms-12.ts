@@ -40,7 +40,7 @@ export const PSALMS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'ps12-help',
           html:
-            'David begins with an urgent cry: "Help, Lord." Not "explain," not "teach," but "help." And the reason? "The godly man ceaseth." The righteous are disappearing. The faithful are failing. The world is losing its anchors to truth. David speaks as though truthfulness is becoming extinct, as though the last true voices are being silenced.',
+            'David begins with an urgent cry: "Help, Lord." Not "explain," not "teach," but "help." And the reason? "The godly man ceaseth." The righteous are disappearing. The faithful are failing. The world is losing its anchors to truth. David speaks as though truthfulness is becoming extinct, as though the last true voices are being silenced[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'commentary',
@@ -142,6 +142,15 @@ export const PSALMS_12: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms about lies, false witness, flattery, and God&apos;s true word.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

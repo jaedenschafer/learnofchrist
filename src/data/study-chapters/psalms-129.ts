@@ -55,7 +55,7 @@ export const PSALMS_129: RichChapterContent = {
           kind: 'commentary',
           id: 'ps129-plowers',
           html:
-            'The image is visceral and brutal: "The plowers plowed upon my back: they made long their furrows." As a farmer plows a field, the enemies have plowed upon the psalmist&apos;s back. The flesh is scarred, marked, broken open. Yet the voice that speaks is not broken. It is the voice of someone who has endured, who has been wounded but not destroyed.',
+            'The image is visceral and brutal: "The plowers plowed upon my back: they made long their furrows." As a farmer plows a field, the enemies have plowed upon the psalmist&apos;s back. The flesh is scarred, marked, broken open. Yet the voice that speaks is not broken. It is the voice of someone who has endured, who has been wounded but not destroyed[res:iaa-pilgrimage-psalms].',
         },
         {
           kind: 'commentary',
@@ -114,6 +114,15 @@ export const PSALMS_129: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+129',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'iaa-pilgrimage-psalms',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Pilgrimage Roads to Jerusalem',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological survey of the ascent roads pilgrims traveled while singing the Songs of Ascent.',
+    },
+
   ],
 
 };

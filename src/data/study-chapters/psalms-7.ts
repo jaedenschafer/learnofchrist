@@ -44,7 +44,7 @@ export const PSALMS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'ps7-trust',
           html:
-            'David begins with trust: "In thee do I put my trust." Not in his own defense, not in allies or politics, but in God. He asks to be saved "from all them that persecute me." This is not asking for revenge. It is asking for deliverance—for God to intervene and bring him to safety. The image of the lion tearing at his soul shows the violence of the accusation, the ferocity of his enemy&apos;s attack.',
+            'David begins with trust: "In thee do I put my trust." Not in his own defense, not in allies or politics, but in God. He asks to be saved "from all them that persecute me." This is not asking for revenge. It is asking for deliverance—for God to intervene and bring him to safety. The image of the lion tearing at his soul shows the violence of the accusation, the ferocity of his enemy&apos;s attack[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'commentary',
@@ -166,6 +166,15 @@ export const PSALMS_7: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/lament-psalms/',
       description: 'Psalms calling on God to prove innocence and defeat enemies.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

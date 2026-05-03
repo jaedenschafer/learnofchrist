@@ -40,7 +40,7 @@ export const PSALMS_38: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-38-78mid-1',
           html:
-            'Physical suffering and spiritual desolation shift to confession and prayer. The body&apos;s cry becomes the soul&apos;s plea.',
+            'Physical suffering and spiritual desolation shift to confession and prayer. The body&apos;s cry becomes the soul&apos;s plea[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'scripture',
@@ -174,6 +174,15 @@ export const PSALMS_38: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/lament-psalms/',
       description: 'Psalms expressing pain, isolation, and shame.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

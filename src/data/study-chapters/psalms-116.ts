@@ -58,7 +58,7 @@ export const PSALMS_116: RichChapterContent = {
           kind: 'commentary',
           id: 'ps116-death-to-vows',
           html:
-            'From the depth of death&apos;s grasp comes the cry for deliverance, and God answers. The psalmist is brought back to rest, healed of all that threatened him. Now comes the essential turning point: what will he offer in return? Not his life—that cannot repay God&apos;s mercy. But his gratitude, his worship, his vows of faithfulness made publicly before God&apos;s people.',
+            'From the depth of death&apos;s grasp comes the cry for deliverance, and God answers. The psalmist is brought back to rest, healed of all that threatened him. Now comes the essential turning point: what will he offer in return? Not his life—that cannot repay God&apos;s mercy. But his gratitude, his worship, his vows of faithfulness made publicly before God&apos;s people[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'scripture',
@@ -146,6 +146,15 @@ export const PSALMS_116: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+116',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

@@ -57,7 +57,7 @@ export const PSALMS_150: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm150-mighty-acts',
           html:
-            '"Praise him for his mighty acts: praise him according to his excellent greatness." The reasons for praise are named: His mighty acts and His excellent greatness. We praise because of what He has done and who He is. The deeds of God and the nature of God are inseparable.',
+            '"Praise him for his mighty acts: praise him according to his excellent greatness." The reasons for praise are named: His mighty acts and His excellent greatness. We praise because of what He has done and who He is. The deeds of God and the nature of God are inseparable[res:bibleodyssey-hymns-praise].',
         },
         {
           kind: 'commentary',
@@ -121,6 +121,15 @@ export const PSALMS_150: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+150',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-hymns-praise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hymns of Praise in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/hymns/',
+      description: 'SBL essay on the hymn genre — communal, doxological psalms that frame the Psalter&apos;s arc.',
+    },
+
   ],
 
   hasHebrew: true,

@@ -56,7 +56,7 @@ export const PSALMS_144: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm144-blessed',
           html:
-            '"Blessed be the Lord my strength, which teacheth my hands to war, and my fingers to fight." The opening assertion is striking. God is David&apos;s strength, but more: God teaches. He instructs the hands and fingers in the art of combat. This is not a celebration of violence. It is recognition that all capacity—including the capacity for defense and protection—comes from God. God is not only a refuge, but a trainer, a teacher, a source of skill.',
+            '"Blessed be the Lord my strength, which teacheth my hands to war, and my fingers to fight." The opening assertion is striking. God is David&apos;s strength, but more: God teaches. He instructs the hands and fingers in the art of combat. This is not a celebration of violence. It is recognition that all capacity—including the capacity for defense and protection—comes from God. God is not only a refuge, but a trainer, a teacher, a source of skill[res:intertextual-psalms-144-nt].',
         },
         {
           kind: 'hebrew',
@@ -187,6 +187,15 @@ export const PSALMS_144: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+144',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'intertextual-psalms-144-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 144 ↔ New Testament',
+      url: 'https://intertextual.bible/text/psalms-144',
+      description: 'New Testament writers cite or echo Psalm 144 in shaping their proclamation of Christ.',
+    },
+
   ],
 
   hasHebrew: true,

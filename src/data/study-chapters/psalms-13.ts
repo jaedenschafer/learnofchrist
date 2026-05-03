@@ -44,7 +44,7 @@ export const PSALMS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'ps13-hide',
           html:
-            'Then another dimension of the same abandonment: "How long wilt thou hide thy face from me?" To hide one&apos;s face is to turn away. God has turned away from David. And in His absence, David is left to "take counsel" in his own soul—to rely on his own thoughts, his own resources—and finding only sorrow.',
+            'Then another dimension of the same abandonment: "How long wilt thou hide thy face from me?" To hide one&apos;s face is to turn away. God has turned away from David. And in His absence, David is left to "take counsel" in his own soul—to rely on his own thoughts, his own resources—and finding only sorrow[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'hebrew',
@@ -146,6 +146,15 @@ export const PSALMS_13: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/lament-psalms/',
       description: 'How psalms move from complaint to petition to praise.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

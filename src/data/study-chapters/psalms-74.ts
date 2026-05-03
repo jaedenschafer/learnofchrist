@@ -40,7 +40,7 @@ export const PSALMS_74: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms74-cast',
-          html: 'The psalm opens with an anguished question: "Why hast thou cast us off?" God&apos;s people feel abandoned. The enemy has destroyed what was sacred. And God seems silent. Yet the very fact that the psalmist cries out to God shows that he still believes God can answer.',
+          html: 'The psalm opens with an anguished question: "Why hast thou cast us off?" God&apos;s people feel abandoned. The enemy has destroyed what was sacred. And God seems silent. Yet the very fact that the psalmist cries out to God shows that he still believes God can answer[res:bibleodyssey-asaph].',
         },
         {
           kind: 'hebrew',
@@ -151,6 +151,15 @@ export const PSALMS_74: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms grieving desecration[res:bible-odyssey-temple-destruction] of the sanctuary.',
     },
+    {
+      id: 'bibleodyssey-asaph',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Asaph and the Temple Singers',
+      url: 'https://www.bibleodyssey.org/dictionary/asaph/',
+      description: 'SBL entry on Asaph as appointed musician and the guild of singers responsible for these psalms.',
+    },
+
   ],
 
   hasHebrew: true,

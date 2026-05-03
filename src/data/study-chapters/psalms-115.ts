@@ -55,7 +55,7 @@ export const PSALMS_115: RichChapterContent = {
           kind: 'commentary',
           id: 'ps115-maker-to-trust',
           html:
-            'The contrast between God and the idols has been drawn: those who make false gods become like them—lifeless and powerless. Now the response shifts from the problem of idolatry to the call of true trust. Those who trust the living God find help and shield; those who make and worship idols become like the nothings they worship.',
+            'The contrast between God and the idols has been drawn: those who make false gods become like them—lifeless and powerless. Now the response shifts from the problem of idolatry to the call of true trust. Those who trust the living God find help and shield; those who make and worship idols become like the nothings they worship[res:bibleodyssey-hymns-praise].',
         },
         {
           kind: 'scripture',
@@ -139,6 +139,15 @@ export const PSALMS_115: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+115',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-hymns-praise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hymns of Praise in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/hymns/',
+      description: 'SBL essay on the hymn genre — communal, doxological psalms that frame the Psalter&apos;s arc.',
+    },
+
   ],
 
   hasHebrew: true,

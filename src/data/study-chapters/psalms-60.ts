@@ -43,7 +43,7 @@ export const PSALMS_60: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms60-hard-things',
-          html: '"Thou hast shewed thy people hard things: thou hast made us to drink the wine of astonishment." God has permitted His people to experience hard things, suffering, defeat. The image is of drinking wine of astonishment—a bitter cup, a stunning blow. Yet David acknowledges that even this experience comes from God&apos;s hand.',
+          html: '"Thou hast shewed thy people hard things: thou hast made us to drink the wine of astonishment." God has permitted His people to experience hard things, suffering, defeat. The image is of drinking wine of astonishment—a bitter cup, a stunning blow. Yet David acknowledges that even this experience comes from God&apos;s hand[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'commentary',
@@ -148,6 +148,15 @@ export const PSALMS_60: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Communal psalms on national disaster[res:bible-odyssey-national-lament] and divine restoration.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

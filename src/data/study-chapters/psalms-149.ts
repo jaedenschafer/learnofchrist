@@ -57,7 +57,7 @@ export const PSALMS_149: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm149-israel',
           html:
-            '"Let Israel rejoice in him that made him: let the children of Zion be joyful in their king." The focus is on Israel—the people God has made and chosen. And the joy is grounded in relationship: He made them. He is their king. The joy is not abstract. It flows from the concrete reality of being God&apos;s people.',
+            '"Let Israel rejoice in him that made him: let the children of Zion be joyful in their king." The focus is on Israel—the people God has made and chosen. And the joy is grounded in relationship: He made them. He is their king. The joy is not abstract. It flows from the concrete reality of being God&apos;s people[res:bibleodyssey-hymns-praise].',
         },
         {
           kind: 'commentary',
@@ -145,6 +145,15 @@ export const PSALMS_149: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+149',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-hymns-praise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hymns of Praise in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/hymns/',
+      description: 'SBL essay on the hymn genre — communal, doxological psalms that frame the Psalter&apos;s arc.',
+    },
+
   ],
 
   hasHebrew: true,

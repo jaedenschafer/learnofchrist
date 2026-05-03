@@ -55,7 +55,7 @@ export const PSALMS_136: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm136-good',
           html:
-            'The opening declaration is simple but absolute: "O give thanks unto the Lord; for he is good." Goodness is the ground of thanksgiving. And this goodness has a name—mercy. The refrain drives this home with every line. Why give thanks? "For his mercy endureth for ever." Not His power alone, not His justice alone, but His mercy. And not a mercy that is occasional or conditional. A mercy that endures forever.',
+            'The opening declaration is simple but absolute: "O give thanks unto the Lord; for he is good." Goodness is the ground of thanksgiving. And this goodness has a name—mercy. The refrain drives this home with every line. Why give thanks? "For his mercy endureth for ever." Not His power alone, not His justice alone, but His mercy. And not a mercy that is occasional or conditional. A mercy that endures forever[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'hebrew',
@@ -207,6 +207,15 @@ export const PSALMS_136: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+136',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

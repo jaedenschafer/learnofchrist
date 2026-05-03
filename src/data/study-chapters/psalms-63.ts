@@ -30,7 +30,7 @@ export const PSALMS_63: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-63-78mid-1',
           html:
-            'Thirst in the wilderness gives way to joy and praise. The desert[res:sefaria-psalms-63]&apos;s desolation becomes the soul&apos;s exultation.',
+            'Thirst in the wilderness gives way to joy and praise. The desert[res:sefaria-psalms-63]&apos;s desolation becomes the soul&apos;s exultation[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'scripture',
@@ -152,6 +152,15 @@ export const PSALMS_63: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms from isolation in wilderness seeking God.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

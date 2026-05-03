@@ -38,7 +38,7 @@ export const PSALMS_44: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-44-78mid-1',
           html:
-            'Remembrance of God&apos;s past deeds gives way to anguish at His apparent abandonment. Memory and bewilderment collide.',
+            'Remembrance of God&apos;s past deeds gives way to anguish at His apparent abandonment. Memory and bewilderment collide[res:bibleodyssey-korah-singers].',
         },
         {
           kind: 'scripture',
@@ -192,6 +192,15 @@ export const PSALMS_44: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/lament-psalms/',
       description: 'Corporate psalms on national defeat and collective suffering.',
     },
+    {
+      id: 'bibleodyssey-korah-singers',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Sons of Korah',
+      url: 'https://www.bibleodyssey.org/dictionary/korah/',
+      description: 'SBL entry on the Korahite guild of temple singers and the psalms attributed to them.',
+    },
+
   ],
 
   hasHebrew: true,

@@ -56,7 +56,7 @@ export const PSALMS_140: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm140-serpent',
           html:
-            '"They have sharpened their tongues like a serpent: adders&apos; poison is under their lips." The tongue is their weapon. They speak lies, slander, accusations. The language is vivid: their words are sharp like serpents, their speech is poisoned. The reference to serpents recalls the serpent in Genesis, the original deceiver. These men are agents of deception.',
+            '"They have sharpened their tongues like a serpent: adders&apos; poison is under their lips." The tongue is their weapon. They speak lies, slander, accusations. The language is vivid: their words are sharp like serpents, their speech is poisoned. The reference to serpents recalls the serpent in Genesis, the original deceiver. These men are agents of deception[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'commentary',
@@ -160,6 +160,15 @@ export const PSALMS_140: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+140',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

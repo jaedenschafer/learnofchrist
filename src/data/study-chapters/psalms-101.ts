@@ -46,7 +46,7 @@ export const PSALMS_101: RichChapterContent = {
           kind: 'commentary',
           id: 'ps101-perfect-way',
           html:
-            'The phrase "I will behave myself wisely in a perfect way" does not claim sinlessness. David knows his own heart. The word "perfect" means "whole," "complete," "single-minded." He commits to wholehearted devotion to God&apos;s way. He will not be divided between God&apos;s law and his own desire. His walk will be consistent, his heart undivided. And he frames this not as something he will accomplish alone but as something he waits for God to enable: "O when wilt thou come unto me?" His perfection rests on God&apos;s presence.',
+            'The phrase "I will behave myself wisely in a perfect way" does not claim sinlessness. David knows his own heart. The word "perfect" means "whole," "complete," "single-minded." He commits to wholehearted devotion to God&apos;s way. He will not be divided between God&apos;s law and his own desire. His walk will be consistent, his heart undivided. And he frames this not as something he will accomplish alone but as something he waits for God to enable: "O when wilt thou come unto me?" His perfection rests on God&apos;s presence[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'hebrew',
@@ -146,6 +146,15 @@ export const PSALMS_101: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+101',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

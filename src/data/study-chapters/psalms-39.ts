@@ -42,7 +42,7 @@ export const PSALMS_39: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms39-silence',
           html:
-            'David binds his tongue with intention—but not to achieve peace. His sorrow is stirred. His heart burns hot. The silence is not a solution to his pain; it is a condition he holds in hope that it will prevent him from making things worse. Yet even this disciplined silence erupts. The pressure builds. "Then spake I with my tongue"—as if unable to remain quiet, unable to contain the fire within.',
+            'David binds his tongue with intention—but not to achieve peace. His sorrow is stirred. His heart burns hot. The silence is not a solution to his pain; it is a condition he holds in hope that it will prevent him from making things worse. Yet even this disciplined silence erupts. The pressure builds. "Then spake I with my tongue"—as if unable to remain quiet, unable to contain the fire within[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'hebrew',
@@ -173,6 +173,15 @@ export const PSALMS_39: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms meditating on human mortality and life&apos;s fleeting[res:bible-odyssey-brevity-life] nature.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

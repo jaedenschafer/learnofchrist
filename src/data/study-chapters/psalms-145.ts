@@ -57,7 +57,7 @@ export const PSALMS_145: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm145-extol',
           html:
-            '"I will extol thee, my God, O king." The opening is immediate and personal. Not an impersonal meditation, but "my God." And the commitment is absolute: "I will bless thy name for ever and ever...Every day will I bless thee." This is not prayer offered once and forgotten. It is a daily, eternal commitment to praise.',
+            '"I will extol thee, my God, O king." The opening is immediate and personal. Not an impersonal meditation, but "my God." And the commitment is absolute: "I will bless thy name for ever and ever...Every day will I bless thee." This is not prayer offered once and forgotten. It is a daily, eternal commitment to praise[res:bibleodyssey-hymns-praise].',
         },
         {
           kind: 'hebrew',
@@ -198,6 +198,15 @@ export const PSALMS_145: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+145',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-hymns-praise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hymns of Praise in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/hymns/',
+      description: 'SBL essay on the hymn genre — communal, doxological psalms that frame the Psalter&apos;s arc.',
+    },
+
   ],
 
   hasHebrew: true,

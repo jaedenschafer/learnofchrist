@@ -55,7 +55,7 @@ export const PSALMS_81: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms81-testimony',
           html:
-            'The psalm then calls to mind the testimony—God&apos;s mighty act in Egypt. "This he ordained in Joseph for a testimony, when he went out through the land of Egypt." The Exodus is not merely historical event. It is testimony, proof, witness to who God is and what He is capable of doing.',
+            'The psalm then calls to mind the testimony—God&apos;s mighty act in Egypt. "This he ordained in Joseph for a testimony, when he went out through the land of Egypt." The Exodus is not merely historical event. It is testimony, proof, witness to who God is and what He is capable of doing[res:bibleodyssey-asaph].',
         },
         {
           kind: 'commentary',
@@ -160,6 +160,15 @@ export const PSALMS_81: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+81',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-asaph',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Asaph and the Temple Singers',
+      url: 'https://www.bibleodyssey.org/dictionary/asaph/',
+      description: 'SBL entry on Asaph as appointed musician and the guild of singers responsible for these psalms.',
+    },
+
   ],
 
   hasHebrew: true,

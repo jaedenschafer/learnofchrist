@@ -41,7 +41,7 @@ export const PSALMS_94: RichChapterContent = {
           kind: 'commentary',
           id: 'ps94-judgment-call',
           html:
-            'God is called to judge. Now the truth deepens: he knows the thoughts of man.',
+            'God is called to judge. Now the truth deepens: he knows the thoughts of man[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'scripture',
@@ -116,6 +116,15 @@ export const PSALMS_94: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+94',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: false,

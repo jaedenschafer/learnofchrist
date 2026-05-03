@@ -142,7 +142,7 @@ export const PSALMS_4: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'Psalm 4 teaches that true peace is not found in the vindication of your honor, the defeat of your enemies, or the achievement of your goals. It is found in the light of God&apos;s face, in the gladness He puts in your heart, in the knowledge that only He can make you safe. When you feel attacked, when your reputation is threatened, when the world seems to demand that you fight for yourself, this psalm invites you to do something radically different: commune with your own heart, be still, and trust in the Lord.',
+            'Psalm 4 teaches that true peace is not found in the vindication of your honor, the defeat of your enemies, or the achievement of your goals. It is found in the light of God&apos;s face, in the gladness He puts in your heart, in the knowledge that only He can make you safe.[res:intertextual-psalms-4-nt] When you feel attacked, when your reputation is threatened, when the world seems to demand that you fight for yourself, this psalm invites you to do something radically different: commune with your own heart, be still, and trust in the Lord.',
         },
         {
           kind: 'reflection',
@@ -175,6 +175,14 @@ export const PSALMS_4: RichChapterContent = {
       label: 'Psalms of Night & Sleep',
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Explores psalms meant for evening, night vigil, and trust in darkness.',
+    },
+    {
+      id: 'intertextual-psalms-4-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 4 in the NT',
+      url: 'https://intertextual.bible/text/psalm-4',
+      description: 'Traces NT echoes of peace and trust in the midst of conflict.',
     },
   ],
 

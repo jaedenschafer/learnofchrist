@@ -54,7 +54,7 @@ export const PSALMS_141: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm141-incense',
           html:
-            '"Let my prayer be set forth before thee as incense; and the lifting up of my hands as the evening sacrifice." The image is two-fold: prayer as incense, and the lifting up of hands as the evening sacrifice. Both are visible, tangible acts of worship. Both ascend toward God. The evening sacrifice was the second daily sacrifice, offered as the sun declined. It was a public, communal act of devotion. The psalmist wants his prayer to have this quality—visible, lifted, accepted, a sweet fragrance in God&apos;s sight.',
+            '"Let my prayer be set forth before thee as incense; and the lifting up of my hands as the evening sacrifice." The image is two-fold: prayer as incense, and the lifting up of hands as the evening sacrifice. Both are visible, tangible acts of worship. Both ascend toward God. The evening sacrifice was the second daily sacrifice, offered as the sun declined. It was a public, communal act of devotion. The psalmist wants his prayer to have this quality—visible, lifted, accepted, a sweet fragrance in God&apos;s sight[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'commentary',
@@ -144,6 +144,15 @@ export const PSALMS_141: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+141',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

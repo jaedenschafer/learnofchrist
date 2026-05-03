@@ -39,7 +39,7 @@ export const PSALMS_97: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-97-78mid-1',
           html:
-            'The Lord&apos;s cosmic reign opens into call for the righteous to rejoice and thanks to His holiness. Universal rule becomes personal response.',
+            'The Lord&apos;s cosmic reign opens into call for the righteous to rejoice and thanks to His holiness. Universal rule becomes personal response[res:bibleodyssey-hymns-praise].',
         },
         {
           kind: 'scripture',
@@ -119,6 +119,15 @@ export const PSALMS_97: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+97',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-hymns-praise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hymns of Praise in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/hymns/',
+      description: 'SBL essay on the hymn genre — communal, doxological psalms that frame the Psalter&apos;s arc.',
+    },
+
   ],
 
   hasHebrew: false,

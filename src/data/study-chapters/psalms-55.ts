@@ -30,7 +30,7 @@ export const PSALMS_55: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-55-78mid-1',
           html:
-            'Distress and fear yield to prayer and trust in God&apos;s deliverance. Fear of enemies becomes faith in God.',
+            'Distress and fear yield to prayer and trust in God&apos;s deliverance. Fear of enemies becomes faith in God[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'scripture',
@@ -181,6 +181,15 @@ export const PSALMS_55: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms grieving treachery[res:bible-odyssey-betrayal-lament] by trusted companions.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

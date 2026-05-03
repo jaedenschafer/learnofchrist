@@ -39,7 +39,7 @@ export const PSALMS_32: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-32-78mid-1',
           html:
-            'Confession of sin opens into instruction for others. The release of silence teaches those who suffer shame.',
+            'Confession of sin opens into instruction for others. The release of silence teaches those who suffer shame[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'scripture',
@@ -152,6 +152,15 @@ export const PSALMS_32: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms on confession, pardoning, and God&apos;s grace.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

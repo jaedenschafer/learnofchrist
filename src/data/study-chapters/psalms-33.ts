@@ -40,7 +40,7 @@ export const PSALMS_33: RichChapterContent = {
           kind: 'commentary',
           id: 'ps33-praise-plan',
           html:
-            'Everything praises. Now the camera tightens: God&apos;s plan stands firm forever.',
+            'Everything praises. Now the camera tightens: God&apos;s plan stands firm forever[res:bibleodyssey-hymns-praise].',
         },
         {
           kind: 'scripture',
@@ -170,6 +170,15 @@ export const PSALMS_33: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Structure of hymn[res:bible-odyssey-praise-structure]s: call to praise, reasons for praise, conclusion.',
     },
+    {
+      id: 'bibleodyssey-hymns-praise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hymns of Praise in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/hymns/',
+      description: 'SBL essay on the hymn genre — communal, doxological psalms that frame the Psalter&apos;s arc.',
+    },
+
   ],
 
   hasHebrew: true,

@@ -59,7 +59,7 @@ export const PSALMS_92: RichChapterContent = {
           kind: 'commentary',
           id: 'ps92-good',
           html:
-            '"It is a good thing to give thanks unto the Lord." Not merely a duty, not merely a ritual, but a good thing—something that brings joy, that aligns the soul with reality, that opens the heart to receive what has been given. Thanksgiving is not about changing God&apos;s mind. It is about aligning our perception with reality: God is good, His works are great, we have received much.',
+            '"It is a good thing to give thanks unto the Lord." Not merely a duty, not merely a ritual, but a good thing—something that brings joy, that aligns the soul with reality, that opens the heart to receive what has been given. Thanksgiving is not about changing God&apos;s mind. It is about aligning our perception with reality: God is good, His works are great, we have received much[res:bibleodyssey-hymns-praise].',
         },
         {
           kind: 'commentary',
@@ -154,6 +154,15 @@ export const PSALMS_92: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+92',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-hymns-praise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hymns of Praise in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/hymns/',
+      description: 'SBL essay on the hymn genre — communal, doxological psalms that frame the Psalter&apos;s arc.',
+    },
+
   ],
 
   hasHebrew: true,

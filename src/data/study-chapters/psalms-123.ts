@@ -44,7 +44,7 @@ export const PSALMS_123: RichChapterContent = {
           kind: 'commentary',
           id: 'ps123-watch',
           html:
-            'The comparison to servants and maidens waiting on the hand of their master is not about servility or degradation. It is about attentiveness. A good servant is not anxious, not frantic, not demanding. He waits with full attention on the master&apos;s hand, knowing that every gesture communicates something. He is responsive, alive, watching. So the psalmist&apos;s eyes are fixed on the Lord, waiting not with anxiety but with the attentiveness of one who trusts the master&apos;s goodness.',
+            'The comparison to servants and maidens waiting on the hand of their master is not about servility or degradation. It is about attentiveness. A good servant is not anxious, not frantic, not demanding. He waits with full attention on the master&apos;s hand, knowing that every gesture communicates something. He is responsive, alive, watching. So the psalmist&apos;s eyes are fixed on the Lord, waiting not with anxiety but with the attentiveness of one who trusts the master&apos;s goodness[res:iaa-pilgrimage-psalms].',
         },
         {
           kind: 'commentary',
@@ -97,6 +97,15 @@ export const PSALMS_123: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+123',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'iaa-pilgrimage-psalms',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Pilgrimage Roads to Jerusalem',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological survey of the ascent roads pilgrims traveled while singing the Songs of Ascent.',
+    },
+
   ],
 
 };

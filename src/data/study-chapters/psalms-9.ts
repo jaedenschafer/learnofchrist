@@ -41,7 +41,7 @@ export const PSALMS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'ps9-praise',
           html:
-            'David opens with wholehearted thanksgiving. "With my whole heart"—not half-hearted, not cautious, but full-throated praise. He will "shew forth all thy marvellous works." This is not private gratitude. It is proclamation. The marvellous works of God—His acts of judgment and salvation—deserve to be told and retold.',
+            'David opens with wholehearted thanksgiving. "With my whole heart"—not half-hearted, not cautious, but full-throated praise. He will "shew forth all thy marvellous works." This is not private gratitude. It is proclamation. The marvellous works of God—His acts of judgment and salvation—deserve to be told and retold[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'commentary',
@@ -201,6 +201,15 @@ export const PSALMS_9: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms sung after deliverance, celebrating God&apos;s rescue.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

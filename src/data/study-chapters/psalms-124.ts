@@ -56,7 +56,7 @@ export const PSALMS_124: RichChapterContent = {
           kind: 'commentary',
           id: 'ps124-swallowed',
           html:
-            'The psalmist does not minimize the danger. "They had swallowed us up quick." The enemy was not a gentle threat. It was ravenous, carnivorous, bent on consuming the people of God. The wrath that kindled against them was sufficient to destroy them utterly. Had God not intervened, had He not been on their side, there would be no psalmist, no people, no testimony.',
+            'The psalmist does not minimize the danger. "They had swallowed us up quick." The enemy was not a gentle threat. It was ravenous, carnivorous, bent on consuming the people of God. The wrath that kindled against them was sufficient to destroy them utterly. Had God not intervened, had He not been on their side, there would be no psalmist, no people, no testimony[res:iaa-pilgrimage-psalms].',
         },
         {
           kind: 'commentary',
@@ -115,6 +115,15 @@ export const PSALMS_124: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+124',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'iaa-pilgrimage-psalms',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Pilgrimage Roads to Jerusalem',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological survey of the ascent roads pilgrims traveled while singing the Songs of Ascent.',
+    },
+
   ],
 
 };

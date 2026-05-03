@@ -60,7 +60,7 @@ export const PSALMS_85: RichChapterContent = {
           kind: 'commentary',
           id: 'ps85-revival',
           html:
-            'The plea "Wilt thou not revive us again" acknowledges a gap between restoration and renewal. A people can be restored to their land and still lack fullness of life. Revival means more than return. It means the quickening of the spirit, the restoration of joy, the awakening of the people to renewed communion with God. This is what the psalmist requests: not mere external restoration but the revival of the soul.',
+            'The plea "Wilt thou not revive us again" acknowledges a gap between restoration and renewal. A people can be restored to their land and still lack fullness of life. Revival means more than return. It means the quickening of the spirit, the restoration of joy, the awakening of the people to renewed communion with God. This is what the psalmist requests: not mere external restoration but the revival of the soul[res:bibleodyssey-korah-singers].',
         },
         {
           kind: 'hebrew',
@@ -151,6 +151,15 @@ export const PSALMS_85: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+85',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-korah-singers',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Sons of Korah',
+      url: 'https://www.bibleodyssey.org/dictionary/korah/',
+      description: 'SBL entry on the Korahite guild of temple singers and the psalms attributed to them.',
+    },
+
   ],
 
   hasHebrew: true,

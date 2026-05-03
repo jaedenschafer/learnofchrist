@@ -38,7 +38,7 @@ export const PSALMS_71: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms71-trust',
-          html: 'The psalm opens with a declaration of lifelong trust: "In thee, O Lord, do I put my trust." This is not a new trust, not sudden faith. This is the continuation of a trust that has endured from youth.',
+          html: 'The psalm opens with a declaration of lifelong trust: "In thee, O Lord, do I put my trust." This is not a new trust, not sudden faith. This is the continuation of a trust that has endured from youth[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'hebrew',
@@ -143,6 +143,15 @@ export const PSALMS_71: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms of trust and praise from a lifetime[res:bible-odyssey-aging-faith] of faith.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

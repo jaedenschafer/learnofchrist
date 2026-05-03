@@ -29,7 +29,7 @@ export const PSALMS_61: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms61-overwhelmed',
-          html: '"From the end of the earth will I cry unto thee, when my heart is overwhelmed." David locates himself at the edge of the known world, far from home, far from help. And his heart is overwhelmed. The Hebrew conveys the idea of being surrounded, of sinking, of being pressed in by enemies or circumstances. Yet even here, David cries out to God.',
+          html: '"From the end of the earth will I cry unto thee, when my heart is overwhelmed." David locates himself at the edge of the known world, far from home, far from help. And his heart is overwhelmed. The Hebrew conveys the idea of being surrounded, of sinking, of being pressed in by enemies or circumstances. Yet even here, David cries out to God[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'hebrew',
@@ -137,6 +137,15 @@ export const PSALMS_61: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Prayers on behalf of the monarch[res:bible-odyssey-royal-intercession] and his reign.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

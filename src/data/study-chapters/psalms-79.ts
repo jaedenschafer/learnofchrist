@@ -54,7 +54,7 @@ export const PSALMS_79: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms79-unburied',
           html:
-            'The psalmist then describes a horror: the dead bodies of God&apos;s servants have been left unburied, given to the beasts. This is not merely disrespect. In the ancient Near Eastern worldview, the inability to bury the dead meant they could not rest, their spirits could not find peace. This is desecration extended to the most intimate level.',
+            'The psalmist then describes a horror: the dead bodies of God&apos;s servants have been left unburied, given to the beasts. This is not merely disrespect. In the ancient Near Eastern worldview, the inability to bury the dead meant they could not rest, their spirits could not find peace. This is desecration extended to the most intimate level[res:bibleodyssey-asaph].',
         },
         {
           kind: 'commentary',
@@ -158,6 +158,15 @@ export const PSALMS_79: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+79',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-asaph',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Asaph and the Temple Singers',
+      url: 'https://www.bibleodyssey.org/dictionary/asaph/',
+      description: 'SBL entry on Asaph as appointed musician and the guild of singers responsible for these psalms.',
+    },
+
   ],
 
   hasHebrew: true,

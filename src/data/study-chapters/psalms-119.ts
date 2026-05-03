@@ -49,7 +49,7 @@ export const PSALMS_119: RichChapterContent = {
           kind: 'commentary',
           id: 'ps119-lamp',
           html:
-            'The image of hiding God&apos;s word in the heart recurs throughout this psalm. It is not merely memorization or intellectual assent. It is internalization—making God&apos;s word one&apos;s own thought, one&apos;s own counselor. "Thy word is a lamp unto my feet, and a light unto my path" (v.105). In darkness, when the way is unclear, when the psalmist cannot see far ahead, he has a light. Not to illuminate the whole landscape, but to show him the next step.',
+            'The image of hiding God&apos;s word in the heart recurs throughout this psalm. It is not merely memorization or intellectual assent. It is internalization—making God&apos;s word one&apos;s own thought, one&apos;s own counselor. "Thy word is a lamp unto my feet, and a light unto my path" (v.105). In darkness, when the way is unclear, when the psalmist cannot see far ahead, he has a light. Not to illuminate the whole landscape, but to show him the next step[res:bibleodyssey-wisdom-psalms].',
         },
         {
           kind: 'hebrew',
@@ -283,6 +283,15 @@ export const PSALMS_119: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+119',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-wisdom-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Wisdom Psalms',
+      url: 'https://www.bibleodyssey.org/articles/wisdom-psalms/',
+      description: 'SBL overview of the wisdom-psalm subgenre and its meditation on Torah and the righteous life.',
+    },
+
   ],
 
   hasHebrew: true,

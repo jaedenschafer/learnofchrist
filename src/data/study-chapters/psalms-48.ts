@@ -39,7 +39,7 @@ export const PSALMS_48: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-48-78mid-1',
           html:
-            'Praise of God&apos;s greatness and protection of Zion shifts to meditation on His steadfast love. Sight becomes understanding.',
+            'Praise of God&apos;s greatness and protection of Zion shifts to meditation on His steadfast love. Sight becomes understanding[res:bibleodyssey-korah-singers].',
         },
         {
           kind: 'scripture',
@@ -185,6 +185,15 @@ export const PSALMS_48: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Praise psalms glorifying Jerusalem and God&apos;s protection.',
     },
+    {
+      id: 'bibleodyssey-korah-singers',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Sons of Korah',
+      url: 'https://www.bibleodyssey.org/dictionary/korah/',
+      description: 'SBL entry on the Korahite guild of temple singers and the psalms attributed to them.',
+    },
+
   ],
 
   hasHebrew: true,

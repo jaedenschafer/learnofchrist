@@ -41,7 +41,7 @@ export const PSALMS_73: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms73-clean-heart',
-          html: 'The psalm begins with a statement of faith—God is good to the pure in heart. Yet immediately the psalmist confesses: "My feet were almost gone; my steps had well nigh slipped." His faith itself is slipping. He is on the verge of abandoning his trust.',
+          html: 'The psalm begins with a statement of faith—God is good to the pure in heart. Yet immediately the psalmist confesses: "My feet were almost gone; my steps had well nigh slipped." His faith itself is slipping. He is on the verge of abandoning his trust[res:bibleodyssey-asaph].',
         },
         {
           kind: 'hebrew',
@@ -147,6 +147,15 @@ export const PSALMS_73: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Wisdom reflection on why the wicked thrive and faith persists.',
     },
+    {
+      id: 'bibleodyssey-asaph',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Asaph and the Temple Singers',
+      url: 'https://www.bibleodyssey.org/dictionary/asaph/',
+      description: 'SBL entry on Asaph as appointed musician and the guild of singers responsible for these psalms.',
+    },
+
   ],
 
   hasHebrew: true,

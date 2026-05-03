@@ -48,7 +48,7 @@ export const PSALMS_67: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms67-way-known',
           html:
-            'This is remarkable theology. God\'s blessing upon Israel is not presented as an end in itself—a reward for righteousness, a mark of special favor. Instead, it is explicitly instrumental. The blessing exists for a purpose: so that "thy way may be known upon earth." God\'s way—His character, His justice, His redemptive intention—is to be made visible through Israel\'s blessing. And this visibility is not limited to Israel. It extends to "all nations," to every people on earth. Salvation is meant to be witnessed.',
+            'This is remarkable theology. God\'s blessing upon Israel is not presented as an end in itself—a reward for righteousness, a mark of special favor. Instead, it is explicitly instrumental. The blessing exists for a purpose: so that "thy way may be known upon earth." God\'s way—His character, His justice, His redemptive intention—is to be made visible through Israel\'s blessing. And this visibility is not limited to Israel. It extends to "all nations," to every people on earth. Salvation is meant to be witnessed[res:bibleodyssey-hymns-praise].',
         },
         {
           kind: 'commentary',
@@ -173,6 +173,15 @@ export const PSALMS_67: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms on God&apos;s blessing extending to all nations.',
     },
+    {
+      id: 'bibleodyssey-hymns-praise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hymns of Praise in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/hymns/',
+      description: 'SBL essay on the hymn genre — communal, doxological psalms that frame the Psalter&apos;s arc.',
+    },
+
   ],
 
   hasHebrew: true,

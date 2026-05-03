@@ -47,7 +47,7 @@ export const PSALMS_120: RichChapterContent = {
           kind: 'commentary',
           id: 'ps120-arrows',
           html:
-            'The image of sharp arrows and coals of juniper describes the damage wrought by a false tongue. Words fly from the mouth as arrows fly from a bow. They wound. They burn. They cannot be taken back. The false tongue, the lying lips, are mighty weapons—perhaps more destructive than physical weapons, because they wound the truth itself.',
+            'The image of sharp arrows and coals of juniper describes the damage wrought by a false tongue. Words fly from the mouth as arrows fly from a bow. They wound. They burn. They cannot be taken back. The false tongue, the lying lips, are mighty weapons—perhaps more destructive than physical weapons, because they wound the truth itself[res:iaa-pilgrimage-psalms].',
         },
         {
           kind: 'commentary',
@@ -100,6 +100,15 @@ export const PSALMS_120: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+120',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'iaa-pilgrimage-psalms',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Pilgrimage Roads to Jerusalem',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological survey of the ascent roads pilgrims traveled while singing the Songs of Ascent.',
+    },
+
   ],
 
 };

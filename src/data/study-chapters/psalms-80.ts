@@ -54,7 +54,7 @@ export const PSALMS_80: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms80-anger',
           html:
-            'The refrain is repeated: "Turn us again, O God, and cause thy face to shine; and we shall be saved." And then a question: "How long wilt thou be angry against the prayer of thy people?" God&apos;s people are praying, and yet God seems to be angry with their prayers. The image is almost unbearable—to pray and to have your prayer met with anger rather than with compassion.',
+            'The refrain is repeated: "Turn us again, O God, and cause thy face to shine; and we shall be saved." And then a question: "How long wilt thou be angry against the prayer of thy people?" God&apos;s people are praying, and yet God seems to be angry with their prayers. The image is almost unbearable—to pray and to have your prayer met with anger rather than with compassion[res:bibleodyssey-asaph].',
         },
         {
           kind: 'christ',
@@ -153,6 +153,15 @@ export const PSALMS_80: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+80',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-asaph',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Asaph and the Temple Singers',
+      url: 'https://www.bibleodyssey.org/dictionary/asaph/',
+      description: 'SBL entry on Asaph as appointed musician and the guild of singers responsible for these psalms.',
+    },
+
   ],
 
   hasHebrew: true,

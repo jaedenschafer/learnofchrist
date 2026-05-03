@@ -44,7 +44,7 @@ export const PSALMS_133: RichChapterContent = {
           kind: 'commentary',
           id: 'ps133-anointing',
           html:
-            'The comparison to precious ointment is not casual. This ointment is the sacred anointing oil prepared according to God&apos;s specification (Exodus 30:22–33). It was poured upon the heads of priests at their consecration, setting them apart for holy service. When the psalmist compares unity to this oil, he is saying that unity is sacred, holy, consecrating. It transforms those who experience it.',
+            'The comparison to precious ointment is not casual. This ointment is the sacred anointing oil prepared according to God&apos;s specification (Exodus 30:22–33). It was poured upon the heads of priests at their consecration, setting them apart for holy service. When the psalmist compares unity to this oil, he is saying that unity is sacred, holy, consecrating. It transforms those who experience it[res:iaa-pilgrimage-psalms].',
         },
         {
           kind: 'commentary',
@@ -109,6 +109,15 @@ export const PSALMS_133: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+133',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'iaa-pilgrimage-psalms',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Pilgrimage Roads to Jerusalem',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological survey of the ascent roads pilgrims traveled while singing the Songs of Ascent.',
+    },
+
   ],
 
 };

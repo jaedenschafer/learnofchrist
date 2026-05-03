@@ -39,7 +39,7 @@ export const PSALMS_17: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-17-78mid-1',
           html:
-            'Urgent petition for justice yields to deeper affirmation of closeness. Plea becomes promise: awakening in His likeness.',
+            'Urgent petition for justice yields to deeper affirmation of closeness. Plea becomes promise: awakening in His likeness[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'scripture',
@@ -178,6 +178,15 @@ export const PSALMS_17: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Prayers for God to defend the innocent and punish the wicked.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

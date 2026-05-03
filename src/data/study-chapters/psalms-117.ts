@@ -44,7 +44,7 @@ export const PSALMS_117: RichChapterContent = {
           kind: 'commentary',
           id: 'ps117-merciful-kindness',
           html:
-            '"For his merciful kindness is great toward us: and the truth of the Lord endureth for ever." What is the reason for this universal call to praise? God&apos;s merciful kindness is great. It is not small or limited. It is great. And God&apos;s truth endures forever. These two things—mercy and truth—are the foundation for all humanity to come and praise God.',
+            '"For his merciful kindness is great toward us: and the truth of the Lord endureth for ever." What is the reason for this universal call to praise? God&apos;s merciful kindness is great. It is not small or limited. It is great. And God&apos;s truth endures forever. These two things—mercy and truth—are the foundation for all humanity to come and praise God[res:bibleodyssey-hymns-praise].',
         },
         {
           kind: 'hebrew',
@@ -99,6 +99,15 @@ export const PSALMS_117: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+117',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-hymns-praise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hymns of Praise in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/hymns/',
+      description: 'SBL essay on the hymn genre — communal, doxological psalms that frame the Psalter&apos;s arc.',
+    },
+
   ],
 
   hasHebrew: true,

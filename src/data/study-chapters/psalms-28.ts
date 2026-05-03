@@ -39,7 +39,7 @@ export const PSALMS_28: RichChapterContent = {
           kind: 'commentary',
           id: 'ps28-plea-thanksgiving',
           html:
-            'The urgent plea is spoken. Now the tone shifts: the Lord has heard my supplication.',
+            'The urgent plea is spoken. Now the tone shifts: the Lord has heard my supplication[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'scripture',
@@ -112,6 +112,15 @@ export const PSALMS_28: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'How thanksgiving psalms move from prayer to praise.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

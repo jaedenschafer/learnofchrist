@@ -46,7 +46,7 @@ export const PSALMS_137: RichChapterContent = {
           kind: 'commentary',
           id: 'psalm137-harps',
           html:
-            'So the psalmist hung his harp upon a willow tree. The instrument of praise, of celebration, of connection to God became mute. It could not be played because the heart could not sing. "How shall we sing the Lord&apos;s song in a strange land?" This is not refusal born of bitterness alone. It is theological integrity. The songs of Zion were songs of the temple, of God&apos;s presence in Jerusalem. To sing them in Babylon as if God were there, as if the captors&apos; entertainment mattered more than truth, would be a lie. The psalmist refuses.',
+            'So the psalmist hung his harp upon a willow tree. The instrument of praise, of celebration, of connection to God became mute. It could not be played because the heart could not sing. "How shall we sing the Lord&apos;s song in a strange land?" This is not refusal born of bitterness alone. It is theological integrity. The songs of Zion were songs of the temple, of God&apos;s presence in Jerusalem. To sing them in Babylon as if God were there, as if the captors&apos; entertainment mattered more than truth, would be a lie. The psalmist refuses[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'hebrew',
@@ -132,6 +132,15 @@ export const PSALMS_137: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+137',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

@@ -45,7 +45,7 @@ export const PSALMS_125: RichChapterContent = {
           kind: 'commentary',
           id: 'ps125-encircled',
           html:
-            '"As the mountains are round about Jerusalem, so the Lord is round about his people." The mountains form a circle of protection around the city. They are not attacking Jerusalem from within, but encircling it from without, a barrier against invasion from every direction. So the Lord encircles His people. They are surrounded by His presence. They are not alone in the chaos of the world. They are encircled, enclosed, protected on every side.',
+            '"As the mountains are round about Jerusalem, so the Lord is round about his people." The mountains form a circle of protection around the city. They are not attacking Jerusalem from within, but encircling it from without, a barrier against invasion from every direction. So the Lord encircles His people. They are surrounded by His presence. They are not alone in the chaos of the world. They are encircled, enclosed, protected on every side[res:iaa-pilgrimage-psalms].',
         },
         {
           kind: 'commentary',
@@ -98,6 +98,15 @@ export const PSALMS_125: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/?q=psalm+125',
       description: 'Thematic study and historical background from the Society of Biblical Literature.',
     },
+    {
+      id: 'iaa-pilgrimage-psalms',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Pilgrimage Roads to Jerusalem',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological survey of the ascent roads pilgrims traveled while singing the Songs of Ascent.',
+    },
+
   ],
 
 };

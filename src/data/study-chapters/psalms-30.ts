@@ -39,7 +39,7 @@ export const PSALMS_30: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-30-78mid-1',
           html:
-            'From exaltation to recognition of danger passed. Weeping gives way to joy, but the pivot is memory: what you endured, you survived.',
+            'From exaltation to recognition of danger passed. Weeping gives way to joy, but the pivot is memory: what you endured, you survived[res:bibleodyssey-psalter-laments].',
         },
         {
           kind: 'scripture',
@@ -133,6 +133,15 @@ export const PSALMS_30: RichChapterContent = {
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Psalms celebrating God&apos;s healing and restoration from death.',
     },
+    {
+      id: 'bibleodyssey-psalter-laments',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Laments in the Psalter',
+      url: 'https://www.bibleodyssey.org/articles/laments/',
+      description: 'SBL essay on the lament-psalm form and its function in giving voice to grief, complaint, and trust.',
+    },
+
   ],
 
   hasHebrew: true,

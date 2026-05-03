@@ -39,7 +39,7 @@ export const PSALMS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'ps6-rebuke',
           html:
-            'David does not begin by describing his enemies or his external troubles. He begins by pleading with God not to rebuke him in anger. He fears not his suffering itself, but the silence of God behind it—the sense that God has turned away, that this pain is punishment. The doubled language—"rebuke...chasten"—shows a man who is not merely in trouble, but in a crisis of faith. He needs mercy, not judgment.',
+            'David does not begin by describing his enemies or his external troubles. He begins by pleading with God not to rebuke him in anger. He fears not his suffering itself, but the silence of God behind it—the sense that God has turned away, that this pain is punishment. The doubled language—"rebuke...chasten"—shows a man who is not merely in trouble, but in a crisis of faith. He needs mercy, not judgment[res:sefaria-psalms-6].',
         },
         {
           kind: 'commentary',
@@ -59,7 +59,7 @@ export const PSALMS_6: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'There are times when faith does not feel like faith. When the weight of suffering makes every breath feel like a burden, and darkness settles so thickly that you cannot see any edge to it. In these moments, raw honesty before God is not weakness. It is the beginning of trust. To say, "I am broken" and in the same breath to address God—to insist on His presence even while you feel His distance—is to hold onto the truth that even in darkness, He is there.',
+            'There are times when faith does not feel like faith. When the weight of suffering makes every breath feel like a burden, and darkness settles so thickly that you cannot see any edge to it. In these moments, raw honesty before God is not weakness. It is the beginning of trust.[res:intertextual-psalms-6-nt] To say, "I am broken" and in the same breath to address God—to insist on His presence even while you feel His distance—is to hold onto the truth that even in darkness, He is there.',
         },
         {
           kind: 'reflection',
@@ -158,7 +158,7 @@ export const PSALMS_6: RichChapterContent = {
       source: 'Sefaria',
       label: 'Psalms 6 — Hebrew & Commentaries',
       url: 'https://www.sefaria.org/Psalms.6',
-      description: 'Lament in illness[res:sefaria-psalms-6] with Jewish medieval commentaries.',
+      description: 'Lament in illness with Jewish medieval commentaries.',
     },
     {
       id: 'bible-odyssey-illness-psalms',
@@ -167,6 +167,14 @@ export const PSALMS_6: RichChapterContent = {
       label: 'Psalms of Sickness & Healing',
       url: 'https://www.bibleodyssey.org/dictionary/psalms/',
       description: 'Prayers from beds of illness and times of bodily weakness.',
+    },
+    {
+      id: 'intertextual-psalms-6-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 6 in the NT',
+      url: 'https://intertextual.bible/text/psalm-6',
+      description: 'Shows NT echoes of lament, trust amid suffering, and prayer transformation.',
     },
   ],
 
