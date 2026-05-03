@@ -70,7 +70,7 @@ export const JOHN_17: RichChapterContent = {
           kind: 'commentary',
           id: 'john17-sanctify',
           html:
-            '"Sanctify them through thy truth: thy word is truth." Jesus prays for His disciples to be set apart, consecrated, made holy through truth. Truth is not abstract principle. It is the Word made flesh—Jesus Christ. To be sanctified in truth is to be conformed to Him, to have His character imprinted on your life.',
+            '"Sanctify them through thy truth: thy word is truth."[res:cambridge-john-prayer] Jesus prays for His disciples to be set apart, consecrated, made holy through truth. Truth is not abstract principle. It is the Word made flesh—Jesus Christ. To be sanctified in truth is to be conformed to Him, to have His character imprinted on your life.',
         },
         {
           kind: 'commentary',
@@ -125,7 +125,7 @@ export const JOHN_17: RichChapterContent = {
           kind: 'commentary',
           id: 'john17-unity',
           html:
-            '"That they all may be one." Unity is not organizational conformity or doctrinal uniformity imposed by force. It is organic, flowing from common life in Christ. As the Father and Son are one—united in being, purpose, love—so believers are to be one in Christ. This unity is a witness to the world that Christ came from God.',
+            '"That they all may be one."[res:intertextual-eternal-love] Unity is not organizational conformity or doctrinal uniformity imposed by force. It is organic, flowing from common life in Christ. As the Father and Son are one—united in being, purpose, love—so believers are to be one in Christ. This unity is a witness to the world that Christ came from God.',
         },
         {
           kind: 'greek',
@@ -134,7 +134,7 @@ export const JOHN_17: RichChapterContent = {
           script: 'ἕν',
           translit: '<strong>Hen</strong> · one; unified; together; in harmonious whole',
           description:
-            'The unity Jesus prays for is not uniformity but harmonious wholeness. Many members, many gifts, many perspectives—yet one body, one life, one purpose in Christ. This unity becomes visible to the world as a sign that Christ is from God.',
+            'The unity Jesus prays for is not uniformity but harmonious wholeness[res:perseus-doxa]. Many members, many gifts, many perspectives—yet one body, one life, one purpose in Christ. This unity becomes visible to the world as a sign that Christ is from God.',
         },
         {
           kind: 'commentary',
@@ -174,6 +174,33 @@ export const JOHN_17: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'John 17 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'intertextual-eternal-love',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'John 17:24 — Love Before Foundation',
+      url: 'https://intertextual.bible/text/john-17.24',
+      description: 'Jesus&apos; affirmation of the Father&apos;s eternal love and its extension to believers.',
+    },
+    {
+      id: 'cambridge-john-prayer',
+      kind: 'study',
+      source: 'Cambridge University Press',
+      label: 'John 17 as Priestly Prayer',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly resource on the structure and theological significance of Jesus&apos; high priestly prayer.',
+    },
+    {
+      id: 'perseus-doxa',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Doxa (Glory) — Greek Lexicon',
+      url: 'https://www.perseus.tufts.edu/',
+      description: 'Classical and theological meanings of doxa as the divine radiance and honor Jesus shares with believers.',
+    },
+  ],
 
   hasHebrew: false,
 };

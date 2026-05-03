@@ -60,7 +60,7 @@ export const JOHN_20: RichChapterContent = {
           script: 'ῥαββονί',
           translit: '<strong>Rabboni</strong> · my teacher; my master; a term of profound respect and affection',
           description:
-            'Mary does not say "Rabbi" (a formal address) but "Rabboni"—my Teacher, my Master, expressing deep personal attachment. The risen Christ is not a stranger returned from the dead. He is the same Lord she knew, yet transformed.',
+            'Mary does not say "Rabbi" (a formal address) but "Rabboni"—my Teacher, my Master, expressing deep personal attachment[res:iaa-garden-tomb]. The risen Christ is not a stranger returned from the dead. He is the same Lord she knew, yet transformed.',
         },
         {
           kind: 'commentary',
@@ -121,7 +121,7 @@ export const JOHN_20: RichChapterContent = {
           kind: 'commentary',
           id: 'john20-doubt',
           html:
-            'Jesus appears to Thomas. Rather than condemning his doubt, Jesus invites his verification. "Reach hither thy finger, and behold my hands." The wounds are still there. The risen body bears the marks of suffering. The crucifixion did not erase. It marks the risen Christ forever.',
+            'Jesus appears to Thomas. Rather than condemning his doubt, Jesus invites his verification. "Reach hither thy finger, and behold my hands."[res:intertextual-resurrection] The wounds are still there. The risen body bears the marks of suffering. The crucifixion did not erase. It marks the risen Christ forever.',
         },
         {
           kind: 'greek',
@@ -142,7 +142,7 @@ export const JOHN_20: RichChapterContent = {
           kind: 'commentary',
           id: 'john20-written',
           html:
-            '"These are written, that ye might believe that Jesus is the Christ, the Son of God; and that believing ye might have life through his name." The gospel is written so that those who did not see the resurrection bodily can still believe. Your faith is not less real because you have not seen. The text testifies. The Spirit convinces. You believe and have life.',
+            '"These are written, that ye might believe that Jesus is the Christ, the Son of God; and that believing ye might have life through his name."[res:bible-odyssey-resurrection] The gospel is written so that those who did not see the resurrection bodily can still believe. Your faith is not less real because you have not seen. The text testifies. The Spirit convinces. You believe and have life.',
         },
         {
           kind: 'christ',
@@ -170,6 +170,33 @@ export const JOHN_20: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'John 20 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'iaa-garden-tomb',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'First-Century Burial Practices in Jerusalem',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'Archaeological evidence of Jewish burial caves, sealed rolling stones, and tomb arrangements in Jesus&apos; era.',
+    },
+    {
+      id: 'intertextual-resurrection',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 26:19 ↔ John 20:9–10',
+      url: 'https://intertextual.bible/text/isaiah-26.19/john-20.9-10',
+      description: 'The resurrection as fulfillment of Old Testament hope for bodily resurrection and return to life.',
+    },
+    {
+      id: 'bible-odyssey-resurrection',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Resurrection of Jesus',
+      url: 'https://www.bibleodyssey.org/dictionary/resurrection-jesus/',
+      description: 'Open-access SBL resource on Jesus&apos; resurrection and its theological significance in early Christian faith.',
+    },
+  ],
 
   hasHebrew: false,
 };

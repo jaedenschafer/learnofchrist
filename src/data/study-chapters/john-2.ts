@@ -45,7 +45,7 @@ export const JOHN_2: RichChapterContent = {
           kind: 'commentary',
           id: 'john2-cana-setting',
           html:
-            'A wedding at Cana. A celebration, a moment of blessing and union, overshadowed by an embarrassment: the wine has run out. In the culture of first-century Palestine, this is a real crisis—a public failure of hospitality. The bridegroom will be shamed. Mary, Jesus&apos; mother, notices and brings it to Him. She does not ask directly. She simply states the fact: "They have no wine." This is a mother&apos;s way of inviting Him to act.',
+            'A wedding at Cana[res:iaa-cana-wedding]. A celebration, a moment of blessing and union, overshadowed by an embarrassment: the wine has run out. In the culture of first-century Palestine, this is a real crisis—a public failure of hospitality. The bridegroom will be shamed. Mary, Jesus&apos; mother, notices and brings it to Him. She does not ask directly. She simply states the fact: "They have no wine." This is a mother&apos;s way of inviting Him to act.',
         },
         {
           kind: 'commentary',
@@ -110,13 +110,13 @@ export const JOHN_2: RichChapterContent = {
           kind: 'commentary',
           id: 'john2-temple-market',
           html:
-            'Jesus enters the Temple during Passover when Jerusalem is crowded with pilgrims. The courtyard has become a market. Money changers sit at tables converting foreign currency into Temple currency—for a fee. Merchants sell oxen, sheep, and doves for sacrifice. The system is convenient, perhaps even necessary, but it has transformed the Temple into a place of commerce. Those coming to pray must navigate a marketplace. The sacred has been compromised by profit.',
+            'Jesus enters the Temple during Passover when Jerusalem is crowded with pilgrims. The courtyard has become a market[res:bible-odyssey-temple]. Money changers sit at tables converting foreign currency into Temple currency—for a fee. Merchants sell oxen, sheep, and doves for sacrifice. The system is convenient, perhaps even necessary, but it has transformed the Temple into a place of commerce. Those coming to pray must navigate a marketplace. The sacred has been compromised by profit.',
         },
         {
           kind: 'commentary',
           id: 'john2-whip',
           html:
-            'Jesus does not debate with the merchants or lodge a complaint with the authorities. He makes a whip of small cords and drives them out. He pours out the money of the changers, overturns their tables. To the sellers of doves—the poor person&apos;s sacrifice—He says: "Take these things hence; make not my Father&apos;s house an house of merchandise." The action is violent, disruptive, and purposeful. The Temple must be cleansed. The Father&apos;s house must be restored to prayer.',
+            'Jesus does not debate with the merchants or lodge a complaint with the authorities. He makes a whip of small cords and drives them out[res:iaa-temple-cleansing]. He pours out the money of the changers, overturns their tables. To the sellers of doves—the poor person&apos;s sacrifice—He says: "Take these things hence; make not my Father&apos;s house an house of merchandise." The action is violent, disruptive, and purposeful. The Temple must be cleansed. The Father&apos;s house must be restored to prayer.',
         },
         {
           kind: 'greek',
@@ -159,6 +159,33 @@ export const JOHN_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'John 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'iaa-cana-wedding',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Cana of Galilee Archaeological Site',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'Archaeological evidence and excavation data from the traditional site of Cana, including early Christian veneration and Byzantine church remains.',
+    },
+    {
+      id: 'bible-odyssey-temple',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Second Temple Judaism',
+      url: 'https://www.bibleodyssey.org/dictionary/second-temple/',
+      description: 'Open-access SBL resource on Temple structure, function, and religious practices in Jesus&apos; era.',
+    },
+    {
+      id: 'iaa-temple-cleansing',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'First-Century Temple Commerce',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'Archaeological and historical evidence for the money-changing and animal-selling systems Jesus disrupted in the Temple courtyard.',
+    },
+  ],
 
   hasHebrew: false,
 };

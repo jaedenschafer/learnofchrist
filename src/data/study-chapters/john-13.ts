@@ -50,7 +50,7 @@ export const JOHN_13: RichChapterContent = {
           kind: 'commentary',
           id: 'john13-garments',
           html:
-            'Jesus lays aside His garments. This act strips Him of authority, status, dignity. He takes a towel—the mark of a servant—and girds Himself. He becomes, literally, like a slave. The King serves the servants. The Master becomes the servant. This reversal of order embodies the entire meaning of His mission.',
+            'Jesus lays aside His garments. This act strips Him of authority, status, dignity. He takes a towel—the mark of a servant—and girds Himself[res:bible-odyssey-footwashing]. He becomes, literally, like a slave. The King serves the servants. The Master becomes the servant. This reversal of order embodies the entire meaning of His mission.',
         },
         {
           kind: 'greek',
@@ -136,13 +136,13 @@ export const JOHN_13: RichChapterContent = {
           kind: 'commentary',
           id: 'john13-new-commandment',
           html:
-            '"A new commandment I give unto you, That ye love one another." Not new in that it has never been heard, but new in its source and its demand. Jesus does not merely command love; He demonstrates it. He loves them unto the end, washing their feet, offering His life. They are to love one another as He has loved them—fully, sacrificially, without limit.',
+            '"A new commandment I give unto you, That ye love one another."[res:bible-odyssey-last-supper] Not new in that it has never been heard, but new in its source and its demand. Jesus does not merely command love; He demonstrates it. He loves them unto the end, washing their feet, offering His life. They are to love one another as He has loved them—fully, sacrificially, without limit.',
         },
         {
           kind: 'commentary',
           id: 'john13-know',
           html:
-            '"By this shall all men know that ye are my disciples, if ye have love one to another." Love is the mark of discipleship. Not doctrine, not ritual, not law-keeping, but love. The world will recognize Jesus&apos; followers by the love they bear toward one another. Love is the proclamation.',
+            '"By this shall all men know that ye are my disciples, if ye have love one to another."[res:intertextual-love] Love is the mark of discipleship. Not doctrine, not ritual, not law-keeping, but love. The world will recognize Jesus&apos; followers by the love they bear toward one another. Love is the proclamation.',
         },
         {
           kind: 'commentary',
@@ -176,6 +176,33 @@ export const JOHN_13: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'John 13 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bible-odyssey-footwashing',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Foot-Washing in Biblical Context',
+      url: 'https://www.bibleodyssey.org/dictionary/footwashing/',
+      description: 'Open-access SBL resource on foot-washing as a household practice and its spiritual significance.',
+    },
+    {
+      id: 'bible-odyssey-last-supper',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Last Supper and the Eucharist',
+      url: 'https://www.bibleodyssey.org/dictionary/last-supper/',
+      description: 'SBL entry on the final meal with Jesus&apos; disciples and its ritual significance.',
+    },
+    {
+      id: 'intertextual-love',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Leviticus 19:18 ↔ John 13:34–35',
+      url: 'https://intertextual.bible/text/leviticus-19.18/john-13.34-35',
+      description: 'How Jesus&apos; new commandment both fulfills and transforms the love of neighbor.',
+    },
+  ],
 
   hasHebrew: false,
 };

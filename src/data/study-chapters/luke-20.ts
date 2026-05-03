@@ -47,7 +47,7 @@ export const LUKE_20: RichChapterContent = {
           kind: 'commentary',
           id: 'luke20-vineyard',
           html:
-            'A man plants a vineyard, lets it to husbandmen, and goes away. When servants come to collect the fruit, the husbandmen beat them. The owner sends his son. They kill him, thinking they will inherit. But the lord of the vineyard will destroy them. "The stone which the builders rejected, the same is made the head of the corner." Jesus, rejected by the builders, becomes the cornerstone.',
+            'A man plants a vineyard, lets it to husbandmen, and goes away. When servants come to collect the fruit, the husbandmen beat them. The owner sends his son. They kill him, thinking they will inherit. But the lord of the vineyard will destroy them. "The stone which the builders rejected, the same is made the head of the corner[res:sefaria-cornerstone]." Jesus, rejected by the builders, becomes the cornerstone.',
         },
         {
           kind: 'commentary',
@@ -95,7 +95,7 @@ export const LUKE_20: RichChapterContent = {
           kind: 'commentary',
           id: 'luke20-resurrection',
           html:
-            'Jesus teaches about resurrection. Those accounted worthy to obtain that world do not marry. They "can die no more; for they are equal unto the angels." Immortality and incorruptibility characterize the resurrection life. Moses himself proves resurrection by calling God "the God of Abraham... Isaac... and Jacob." God is not God of the dead, but of the living.',
+            'Jesus teaches about resurrection[res:sefaria-resurrection-afterlife]. Those accounted worthy to obtain that world do not marry. They "can die no more; for they are equal unto the angels." Immortality and incorruptibility characterize the resurrection life. Moses himself proves resurrection by calling God "the God of Abraham... Isaac... and Jacob." God is not God of the dead, but of the living.',
         },
         {
           kind: 'greek',
@@ -110,7 +110,7 @@ export const LUKE_20: RichChapterContent = {
           kind: 'commentary',
           id: 'luke20-scribes-warning',
           html:
-            'Jesus warns against the scribes. They desire honor—long robes, greetings in the marketplaces, high seats in synagogues, chief rooms at feasts. Yet they "devour widows&apos; houses." They prey on the vulnerable for profit while maintaining an appearance of piety. "The same shall receive greater damnation."',
+            'Jesus warns against the scribes. They desire honor—long robes, greetings in the marketplaces, high seats in synagogues, chief rooms at feasts. Yet they "devour widows&apos; houses[res:bible-odyssey-scribe]." They prey on the vulnerable for profit while maintaining an appearance of piety. "The same shall receive greater damnation."',
         },
         {
           kind: 'christ',
@@ -133,6 +133,33 @@ export const LUKE_20: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Luke 20 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-cornerstone',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Cornerstone in Jewish Scripture and Tradition',
+      url: 'https://www.sefaria.org/search?q=cornerstone%20stone%20builders%20rejected&tab=text',
+      description: 'Sefaria texts on the cornerstone metaphor and the psalmic prophecy of rejection and exaltation.',
+    },
+    {
+      id: 'sefaria-resurrection-afterlife',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Resurrection and the World to Come in Jewish Thought',
+      url: 'https://www.sefaria.org/search?q=resurrection%20olam%20ha-ba%20afterlife&tab=text',
+      description: 'Sefaria texts on resurrection theology and immortality in Rabbinic and Second Temple Judaism.',
+    },
+    {
+      id: 'bible-odyssey-scribe',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Scribes and Their Role in Jewish Society',
+      url: 'https://www.bibleodyssey.org/dictionary/scribe/',
+      description: 'Open-access entry on the scribes, their authority, and their social position in the first century.',
+    },
+  ],
 
   hasHebrew: false,
 };

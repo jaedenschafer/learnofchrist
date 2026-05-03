@@ -46,7 +46,7 @@ export const LUKE_11: RichChapterContent = {
           kind: 'commentary',
           id: 'luke11-lords-prayer',
           html:
-            'Jesus teaches His disciples to pray. The prayer begins with address—"Our Father"—establishing a relationship of intimacy and dependence. Then petition: "Hallowed be thy name. Thy kingdom come. Thy will be done." The first petitions are for God&apos;s purposes, not ours. Then the personal petitions: daily bread, forgiveness, deliverance from temptation. The prayer moves from the divine to the human, from the eternal to the immediate.',
+            'Jesus teaches His disciples to pray[res:sefaria-lords-prayer]. The prayer begins with address—"Our Father"—establishing a relationship of intimacy and dependence. Then petition: "Hallowed be thy name. Thy kingdom come. Thy will be done." The first petitions are for God&apos;s purposes, not ours. Then the personal petitions: daily bread, forgiveness, deliverance from temptation. The prayer moves from the divine to the human, from the eternal to the immediate[res:bible-odyssey-pharisee].',
         },
         {
           kind: 'greek',
@@ -67,7 +67,7 @@ export const LUKE_11: RichChapterContent = {
           kind: 'commentary',
           id: 'luke11-beelzebub',
           html:
-            'When Jesus casts out a demon, some accuse Him: "He casteth out demons through Beelzebub, the chief of the demons." Jesus responds: "Every kingdom divided against itself is brought to desolation... If Satan also be divided against himself, how shall his kingdom stand?" Satan would not cast out demons. To cast out demons is to work against Satan&apos;s kingdom. Jesus is not allied with darkness. He brings light.',
+            'When Jesus casts out a demon, some accuse Him: "He casteth out demons through Beelzebub, the chief of the demons." Jesus responds: "Every kingdom divided against itself is brought to desolation... If Satan also be divided against himself, how shall his kingdom stand?" Satan would not cast out demons. To cast out demons is to work against Satan&apos;s kingdom. Jesus is not allied with darkness. He brings light[res:perseus-hypocrisy].',
         },
         {
           kind: 'christ',
@@ -124,7 +124,7 @@ export const LUKE_11: RichChapterContent = {
           kind: 'commentary',
           id: 'luke11-woes',
           html:
-            'Jesus pronounces woes on the Pharisees and lawyers. They tithe mint and rue and every herb, yet neglect "judgment and the love of God." They burden the people with the law, yet do not bear the burdens themselves. Worst of all: "Ye have taken away the key of knowledge: ye entered not in yourselves, and them that were entering in ye hindered." They close the door to truth.',
+            'Jesus pronounces woes on the Pharisees and lawyers[res: bible-odyssey-pharisee]. They tithe mint and rue and every herb, yet neglect "judgment and the love of God." They burden the people with the law, yet do not bear the burdens themselves. Worst of all: "Ye have taken away the key of knowledge: ye entered not in yourselves, and them that were entering in ye hindered." They close the door to truth.',
         },
         {
           kind: 'christ',
@@ -147,6 +147,33 @@ export const LUKE_11: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Luke 11 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-lords-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jewish Prayer Tradition and the Kaddish',
+      url: 'https://www.sefaria.org/search?q=kaddish%20prayer&tab=text',
+      description: 'Sefaria texts on Jewish prayer forms and the Kaddish, showing the OT context for Jesus&apos; prayer instruction.',
+    },
+    {
+      id: 'bible-odyssey-pharisee',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Pharisees: History and Beliefs',
+      url: 'https://www.bibleodyssey.org/dictionary/pharisee/',
+      description: 'Open-access entry on the Pharisees, their practices, and their conflicts with Jesus.',
+    },
+    {
+      id: 'perseus-hypocrisy',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Greek Concepts of Hypocrisy',
+      url: 'https://scaife.perseus.org/',
+      description: 'Perseus resource on hypokrisis (hypocrisy) in Greek usage, clarifying Jesus&apos; condemnation.',
+    },
+  ],
 
   hasHebrew: false,
 };

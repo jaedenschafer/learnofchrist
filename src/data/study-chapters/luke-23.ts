@@ -45,7 +45,7 @@ export const LUKE_23: RichChapterContent = {
           kind: 'commentary',
           id: 'luke23-trial',
           html:
-            'The chief priests accuse Jesus before Pilate. They mischaracterize His claims. Yet Pilate examines Him and finds no fault. Three times Pilate declares Jesus innocent. Yet the multitude cries out. Political pressure overrides justice. Pilate washes his hands, but he is not innocent. He yields to the will of the mob.',
+            'The chief priests accuse Jesus before Pilate. They mischaracterize His claims. Yet Pilate examines Him and finds no fault. Three times Pilate declares Jesus innocent[res:bible-odyssey-pilate]. Yet the multitude cries out. Political pressure overrides justice. Pilate washes his hands, but he is not innocent. He yields to the will of the mob.',
         },
         {
           kind: 'greek',
@@ -101,13 +101,13 @@ export const LUKE_23: RichChapterContent = {
           kind: 'commentary',
           id: 'luke23-crucifixion',
           html:
-            'Jesus is led to Golgotha and crucified. Two malefactors are crucified with Him, one on the right, one on the left. Jesus says: "Father, forgive them; for they know not what they do." Even on the cross, He intercedes for those who crucify Him. His enemies pour out mockery. But Jesus does not respond with bitterness.',
+            'Jesus is led to Golgotha and crucified. Two malefactors are crucified with Him, one on the right, one on the left. Jesus says: "Father, forgive them; for they know not what they do[res:sefaria-forgiveness-crucifixion]." Even on the cross, He intercedes for those who crucify Him. His enemies pour out mockery. But Jesus does not respond with bitterness.',
         },
         {
           kind: 'commentary',
           id: 'luke23-thief',
           html:
-            'One thief reviles Jesus. The other rebukes him: "Dost not thou fear God? for thou art in the same condemnation." This thief sees Jesus in his pain and confesses: "Lord, remember me when thou comest into thy kingdom." Jesus says: "To day shalt thou be with me in paradise." In his last hours, a criminal finds eternal life.',
+            'One thief reviles Jesus. The other rebukes him: "Dost not thou fear God? for thou art in the same condemnation." This thief sees Jesus in his pain and confesses: "Lord, remember me when thou comest into thy kingdom." Jesus says: "To day shalt thou be with me in paradise[res:sefaria-paradise-thief]." In his last hours, a criminal finds eternal life.',
         },
         {
           kind: 'greek',
@@ -150,6 +150,33 @@ export const LUKE_23: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Luke 23 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bible-odyssey-pilate',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Pontius Pilate and Roman Governance',
+      url: 'https://www.bibleodyssey.org/dictionary/pontius-pilate/',
+      description: 'Open-access entry on Pilate, his role as prefect, and his historical interactions with Jewish leadership.',
+    },
+    {
+      id: 'sefaria-forgiveness-crucifixion',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Forgiveness and Suffering in Jewish Theology',
+      url: 'https://www.sefaria.org/search?q=forgiveness%20suffering%20innocent%20atonement&tab=text',
+      description: 'Sefaria texts on forgiveness, redemption through suffering, and the meaning of innocent death.',
+    },
+    {
+      id: 'sefaria-paradise-thief',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Paradise, the World to Come, and Repentance in Jewish Thought',
+      url: 'https://www.sefaria.org/search?q=paradise%20garden%20eden%20world%20to%20come%20repentance&tab=text',
+      description: 'Sefaria texts on paradise, redemption through faith, and restoration in the Jewish worldview.',
+    },
+  ],
 
   hasHebrew: false,
 };

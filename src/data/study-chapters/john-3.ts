@@ -46,7 +46,7 @@ export const JOHN_3: RichChapterContent = {
           kind: 'commentary',
           id: 'john3-nicodemus',
           html:
-            'Nicodemus comes by night—a phrase that carries resonance throughout John&apos;s gospel. He is drawn, but cautious. He has status, authority, knowledge of Scripture. He has something to preserve. He begins his approach carefully: "Rabbi, we know that thou art a teacher come from God: for no man can do these miracles that thou doest, except God be with him." He speaks in the plural, as if representing others. He is not yet willing to stand alone.',
+            'Nicodemus[res:bible-odyssey-nicodemus] comes by night—a phrase that carries resonance throughout John&apos;s gospel. He is drawn, but cautious. He has status, authority, knowledge of Scripture. He has something to preserve. He begins his approach carefully: "Rabbi, we know that thou art a teacher come from God: for no man can do these miracles that thou doest, except God be with him." He speaks in the plural, as if representing others. He is not yet willing to stand alone.',
         },
         {
           kind: 'commentary',
@@ -73,7 +73,7 @@ export const JOHN_3: RichChapterContent = {
           kind: 'commentary',
           id: 'john3-wind',
           html:
-            '"The wind bloweth where it listeth, and thou hearest the sound thereof, but canst not tell whence it cometh, and whither it goeth: so is every one that is born of the Spirit." Jesus uses the wind as an analogy. The pneuma (wind/spirit) is invisible. You hear its effects but cannot see its origin or destination. So it is with the Spirit. The born-again experience is not reducible to technique or control. It is God&apos;s sovereign, invisible working.',
+            '"The wind bloweth where it listeth, and thou hearest the sound thereof, but canst not tell whence it cometh, and whither it goeth: so is every one that is born of the Spirit."[res:intertextual-john3-serpent] Jesus uses the wind as an analogy. The pneuma (wind/spirit) is invisible. You hear its effects but cannot see its origin or destination. So it is with the Spirit. The born-again experience is not reducible to technique or control. It is God&apos;s sovereign, invisible working.',
         },
         {
           kind: 'christ',
@@ -139,7 +139,7 @@ export const JOHN_3: RichChapterContent = {
           kind: 'commentary',
           id: 'john3-from-above',
           html:
-            '"He that cometh from above is above all." Jesus is not merely a teacher or prophet. He comes from above, from heaven, from the Father. All authority flows from this origin. The Baptist is of the earth, earthly in his perspective. But Jesus speaks from the Father&apos;s knowledge. "God giveth not the Spirit by measure unto him." The Spirit is given to others in measured portions. Jesus receives the Spirit without limit. He is the fullness of God.',
+            '"He that cometh from above is above all." Jesus is not merely a teacher or prophet. He comes from above, from heaven, from the Father. All authority flows from this origin. The Baptist is of the earth, earthly in his perspective. But Jesus speaks from the Father&apos;s knowledge. "God giveth not the Spirit by measure unto him."[res:sefaria-brazen-serpent] The Spirit is given to others in measured portions. Jesus receives the Spirit without limit. He is the fullness of God.',
         },
         {
           kind: 'christ',
@@ -167,6 +167,33 @@ export const JOHN_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'John 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bible-odyssey-nicodemus',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Nicodemus',
+      url: 'https://www.bibleodyssey.org/dictionary/nicodemus/',
+      description: 'Open-access SBL entry on Nicodemus, his encounter with Jesus, and his later role as a follower.',
+    },
+    {
+      id: 'sefaria-brazen-serpent',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 21:8–9 (Brazen Serpent)',
+      url: 'https://www.sefaria.org/Numbers.21.8-9',
+      description: 'The Torah passage Jesus references at John 3:14, with Jewish commentarial traditions on healing and redemption.',
+    },
+    {
+      id: 'intertextual-john3-serpent',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Numbers 21:8–9 ↔ John 3:14',
+      url: 'https://intertextual.bible/text/numbers-21.8-9/john-3.14',
+      description: 'Side-by-side comparison of the brazen serpent and Jesus&apos; crucifixion as signs of healing and salvation.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -46,7 +46,7 @@ export const LUKE_16: RichChapterContent = {
           kind: 'commentary',
           id: 'luke16-steward',
           html:
-            'The unjust steward is told his position is lost. He cannot return. So he acts decisively. He reduces the debts owed his master. This is shrewd. In one action, he makes friends who will remember his kindness and perhaps help him when he is in need. His master, ironically, admires this shrewdness. "He had done wisely." Not morally. Wisely. He has arranged his affairs so that he will have shelter and support when he falls.',
+            'The unjust steward is told his position is lost[res:bible-odyssey-steward]. He cannot return. So he acts decisively. He reduces the debts owed his master. This is shrewd. In one action, he makes friends who will remember his kindness and perhaps help him when he is in need. His master, ironically, admires this shrewdness. "He had done wisely." Not morally. Wisely. He has arranged his affairs so that he will have shelter and support when he falls[res:sefaria-hades].',
         },
         {
           kind: 'greek',
@@ -109,7 +109,7 @@ export const LUKE_16: RichChapterContent = {
           kind: 'commentary',
           id: 'luke16-rich-man',
           html:
-            'The rich man is clothed in purple and fine linen. Purple was the color of royalty and wealth. He fares sumptuously every day—he feasts lavishly every single day. This is not occasional indulgence. This is the pattern of his life. He is a man of pleasure, of luxury, of excess.',
+            'The rich man is clothed in purple and fine linen. Purple was the color of royalty and wealth[res:met-museum-purple]. He fares sumptuously every day—he feasts lavishly every single day. This is not occasional indulgence. This is the pattern of his life. He is a man of pleasure, of luxury, of excess.',
         },
         {
           kind: 'commentary',
@@ -159,6 +159,33 @@ export const LUKE_16: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Luke 16 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bible-odyssey-steward',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Stewardship in Biblical Tradition',
+      url: 'https://www.bibleodyssey.org/dictionary/steward/',
+      description: 'Open-access entry on stewards, their roles, and their accountability in Scripture.',
+    },
+    {
+      id: 'met-museum-purple',
+      kind: 'museum',
+      source: 'Metropolitan Museum of Art',
+      label: 'Purple Dye in the Hellenistic World',
+      url: 'https://www.metmuseum.org/art/collection',
+      description: 'Metropolitan Museum collection essays on purple dye production and royal clothing in antiquity.',
+    },
+    {
+      id: 'sefaria-hades',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Sheol and the Afterlife in Jewish Thought',
+      url: 'https://www.sefaria.org/search?q=sheol%20hades%20afterlife&tab=text',
+      description: 'Sefaria texts on Jewish conceptions of the afterlife and eternal judgment.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -43,13 +43,13 @@ export const JOHN_8: RichChapterContent = {
           kind: 'commentary',
           id: 'john8-trap',
           html:
-            'The Pharisees bring the woman caught in adultery. They do not bring the man—a revealing silence. Adultery requires two. Yet only the woman is exposed, shamed, condemned. The Pharisees use her as a test case, a trap for Jesus. They do not care about her. They care about catching Him in a contradiction.',
+            'The Pharisees bring the woman caught in adultery[res:bible-odyssey-adultery]. They do not bring the man—a revealing silence. Adultery requires two. Yet only the woman is exposed, shamed, condemned. The Pharisees use her as a test case, a trap for Jesus. They do not care about her. They care about catching Him in a contradiction.',
         },
         {
           kind: 'commentary',
           id: 'john8-writes',
           html:
-            'Jesus stoops and writes with His finger in the dust. What does He write? Scripture does not say. But the action speaks. He writes upon the earth, upon the ground—the dust to which all flesh returns. He writes where no record is preserved, where the writing is erased by the next person who passes. In this silence and symbolic act, He acknowledges the presence of sin, the weight of judgment, the finality of condemnation—and steps outside all of it.',
+            'Jesus stoops and writes with His finger in the dust[res:intf-woman-adultery]. What does He write? Scripture does not say. But the action speaks. He writes upon the earth, upon the ground—the dust to which all flesh returns. He writes where no record is preserved, where the writing is erased by the next person who passes. In this silence and symbolic act, He acknowledges the presence of sin, the weight of judgment, the finality of condemnation—and steps outside all of it.',
         },
         {
           kind: 'greek',
@@ -139,7 +139,7 @@ export const JOHN_8: RichChapterContent = {
           kind: 'commentary',
           id: 'john8-before-abraham',
           html:
-            'The Jews object: "Thou art not yet fifty years old, and hast thou seen Abraham?" They think Jesus speaks of literal meeting. But Jesus speaks of cosmic reality: "Before Abraham was, I am." Not "I was," but "I am"—the eternal present tense. This is the language of Exodus 3:14, where God reveals to Moses His eternal name: "I AM THAT I AM." Jesus claims the prerogatives of God.',
+            'The Jews object: "Thou art not yet fifty years old, and hast thou seen Abraham?" They think Jesus speaks of literal meeting. But Jesus speaks of cosmic reality: "Before Abraham was, I am."[res:intertextual-i-am] Not "I was," but "I am"—the eternal present tense. This is the language of Exodus 3:14, where God reveals to Moses His eternal name: "I AM THAT I AM." Jesus claims the prerogatives of God.',
         },
         {
           kind: 'christ',
@@ -167,6 +167,33 @@ export const JOHN_8: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'John 8 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'intf-woman-adultery',
+      kind: 'manuscript',
+      source: 'INTF (Institute for New Testament Textual Research)',
+      label: 'John 7:53–8:11 — Manuscript Tradition',
+      url: 'https://www.intf.uni-muenster.de/',
+      description: 'Comprehensive analysis of the pericope adulterae, its absence from early manuscripts, and transmission history.',
+    },
+    {
+      id: 'bible-odyssey-adultery',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Woman Caught in Adultery',
+      url: 'https://www.bibleodyssey.org/dictionary/woman-caught-adultery/',
+      description: 'Open-access SBL resource on the passage and its significance within John&apos;s Gospel.',
+    },
+    {
+      id: 'intertextual-i-am',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Exodus 3:14 ↔ John 8:58',
+      url: 'https://intertextual.bible/text/exodus-3.14/john-8.58',
+      description: 'Jesus&apos; "I am" echoing God&apos;s revelation to Moses, declaring His eternal divinity.',
+    },
+  ],
 
   hasHebrew: false,
 };

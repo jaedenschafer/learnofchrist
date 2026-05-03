@@ -41,7 +41,7 @@ export const LUKE_22: RichChapterContent = {
           kind: 'commentary',
           id: 'luke22-passover',
           html:
-            'Jesus eats the Passover with His disciples. For centuries, the Passover commemorated the exodus from Egypt, the lamb&apos;s blood on the doorposts, deliverance from death. Now Jesus, the Lamb of God, inaugurates a new Passover. His body is broken for them. His blood is shed. The ancient feast finds its fulfillment.',
+            'Jesus eats the Passover with His disciples[res:sefaria-passover-lamb]. For centuries, the Passover commemorated the exodus from Egypt, the lamb&apos;s blood on the doorposts, deliverance from death. Now Jesus, the Lamb of God, inaugurates a new Passover. His body is broken for them. His blood is shed. The ancient feast finds its fulfillment.',
         },
         {
           kind: 'greek',
@@ -98,13 +98,13 @@ export const LUKE_22: RichChapterContent = {
           kind: 'commentary',
           id: 'luke22-gethsemane',
           html:
-            'In Gethsemane, Jesus prays: "Father, if thou be willing, remove this cup from me." The cup is suffering, death, separation from the Father. Jesus does not deny the anguish. But He submits: "Not my will, but thine, be done." His sweat becomes great drops of blood. An angel strengthens Him. This is prayer at the edge of the abyss.',
+            'In Gethsemane, Jesus prays: "Father, if thou be willing, remove this cup from me[res:sefaria-gethsemane]." The cup is suffering, death, separation from the Father. Jesus does not deny the anguish. But He submits: "Not my will, but thine, be done." His sweat becomes great drops of blood. An angel strengthens Him. This is prayer at the edge of the abyss.',
         },
         {
           kind: 'commentary',
           id: 'luke22-judas-kiss',
           html:
-            'Judas comes with a multitude carrying swords and staves. He betrays Jesus with a kiss—the sign of intimate affection becomes the signal of betrayal. Jesus asks: "Judas, betrayest thou the Son of man with a kiss?" The question hangs unanswered. Some sins require no response.',
+            'Judas comes with a multitude carrying swords and staves. He betrays Jesus with a kiss—the sign of intimate affection becomes the signal of betrayal[res:bible-odyssey-judas]. Jesus asks: "Judas, betrayest thou the Son of man with a kiss?" The question hangs unanswered. Some sins require no response.',
         },
         {
           kind: 'greek',
@@ -147,6 +147,33 @@ export const LUKE_22: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Luke 22 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-passover-lamb',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Passover Lamb and Redemption in Jewish Tradition',
+      url: 'https://www.sefaria.org/search?q=passover%20lamb%20exodus%20blood&tab=text',
+      description: 'Sefaria texts on the Passover narrative and the lamb symbolism in Jewish redemptive theology.',
+    },
+    {
+      id: 'sefaria-gethsemane',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Submission and Suffering in Jewish Prayer',
+      url: 'https://www.sefaria.org/search?q=prayer%20submission%20suffering%20God%20will&tab=text',
+      description: 'Sefaria texts on prayer, anguish, and submission to the divine will in Jewish spirituality.',
+    },
+    {
+      id: 'bible-odyssey-judas',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Judas and Betrayal in the Gospel Narrative',
+      url: 'https://www.bibleodyssey.org/dictionary/judas-iscariot/',
+      description: 'Open-access entry on Judas, his role as an apostle, and the meaning of his betrayal.',
+    },
+  ],
 
   hasHebrew: false,
 };

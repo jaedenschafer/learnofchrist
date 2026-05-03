@@ -44,7 +44,7 @@ export const JOHN_15: RichChapterContent = {
           kind: 'commentary',
           id: 'john15-vine',
           html:
-            '"I am the true vine." In Israel&apos;s history, the nation itself is sometimes called a vine—planted by God, yet producing wild grapes, corruption, failure. Jesus claims to be the true vine—the genuine article, the one who succeeds where Israel failed, the source of all genuine fruitfulness. The Father is the vinedresser, pruning, tending, cultivating.',
+            '"I am the true vine."[res:sefaria-vineyard] In Israel&apos;s history, the nation itself is sometimes called a vine—planted by God, yet producing wild grapes, corruption, failure. Jesus claims to be the true vine—the genuine article, the one who succeeds where Israel failed, the source of all genuine fruitfulness. The Father is the vinedresser, pruning, tending, cultivating.',
         },
         {
           kind: 'commentary',
@@ -77,7 +77,7 @@ export const JOHN_15: RichChapterContent = {
           kind: 'commentary',
           id: 'john15-friends',
           html:
-            '"Ye are my friends, if ye do whatsoever I command you. Henceforth I call you not servants; for the servant knoweth not what his lord doeth: but I have called you friends." Jesus elevates His disciples. They are not mere servants blindly obedient to commands. They are friends who know His heart, to whom He reveals His mind. Obedience becomes the expression of friendship, not of slavery.',
+            '"Ye are my friends, if ye do whatsoever I command you. Henceforth I call you not servants; for the servant knoweth not what his lord doeth: but I have called you friends."[res:perseus-agape] Jesus elevates His disciples. They are not mere servants blindly obedient to commands. They are friends who know His heart, to whom He reveals His mind. Obedience becomes the expression of friendship, not of slavery.',
         },
         {
           kind: 'christ',
@@ -146,7 +146,7 @@ export const JOHN_15: RichChapterContent = {
           kind: 'commentary',
           id: 'john15-comforter-witness',
           html:
-            '"The Comforter... shall testify of me: and ye also shall bear witness." The disciples are not left alone to face opposition. The Spirit of truth bears witness alongside them. Their witness is joined to the Spirit&apos;s witness. They testify because they have been with Jesus. They speak from lived experience, from relationship, from encounter.',
+            '"The Comforter... shall testify of me: and ye also shall bear witness."[res:intertextual-vine] The disciples are not left alone to face opposition. The Spirit of truth bears witness alongside them. Their witness is joined to the Spirit&apos;s witness. They testify because they have been with Jesus. They speak from lived experience, from relationship, from encounter.',
         },
         {
           kind: 'christ',
@@ -174,6 +174,33 @@ export const JOHN_15: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'John 15 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-vineyard',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 5:1–7 (Vineyard Parable)',
+      url: 'https://www.sefaria.org/Isaiah.5.1-7',
+      description: 'The prophetic image of Israel as God&apos;s vineyard that Jesus reinterprets, claiming to be the true vine.',
+    },
+    {
+      id: 'perseus-agape',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Agape (Love) — Greek Lexicon',
+      url: 'https://www.perseus.tufts.edu/',
+      description: 'Classical Greek meanings of agape before its theological transformation in Christian usage.',
+    },
+    {
+      id: 'intertextual-vine',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 5:1–7 ↔ John 15:1–8',
+      url: 'https://intertextual.bible/text/isaiah-5.1-7/john-15.1-8',
+      description: 'How Jesus fulfills and reinterprets the image of God&apos;s vineyard.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -32,7 +32,7 @@ export const LUKE_19: RichChapterContent = {
           kind: 'commentary',
           id: 'luke19-zacchaeus',
           html:
-            'Zacchaeus is chief of the publicans, rich, but small of stature. He cannot see over the crowd, so he climbs a sycamore tree. Jesus looks up and calls him by name. Jesus invites Himself to Zacchaeus&apos;s house. The multitude murmurs. Yet Zacchaeus responds with generosity. He gives half his goods to the poor. He makes restitution fourfold to any he has wronged.',
+            'Zacchaeus is chief of the publicans, rich, but small of stature. He cannot see over the crowd, so he climbs a sycamore tree. Jesus looks up and calls him by name[res:bible-odyssey-zacchaeus]. Jesus invites Himself to Zacchaeus&apos;s house. The multitude murmurs. Yet Zacchaeus responds with generosity. He gives half his goods to the poor. He makes restitution fourfold to any he has wronged.',
         },
         {
           kind: 'greek',
@@ -47,7 +47,7 @@ export const LUKE_19: RichChapterContent = {
           kind: 'commentary',
           id: 'luke19-seek-save',
           html:
-            'Jesus says: "The Son of man is come to seek and to save that which was lost." This is the summary statement of Jesus&apos; entire mission. He seeks the lost. He saves them. Zacchaeus was lost—a traitor to his people, a collaborator. Yet Jesus seeks him out and saves him.',
+            'Jesus says: "The Son of man is come to seek and to save that which was lost." This is the summary statement of Jesus&apos; entire mission[res:sefaria-seeking-god]. He seeks the lost. He saves them. Zacchaeus was lost—a traitor to his people, a collaborator. Yet Jesus seeks him out and saves him.',
         },
         {
           kind: 'commentary',
@@ -102,7 +102,7 @@ export const LUKE_19: RichChapterContent = {
           kind: 'commentary',
           id: 'luke19-weeps',
           html:
-            'When Jesus comes near the city, He weeps. "If thou hadst known, even thou, at least in this thy day, the things which belong unto thy peace!" Jerusalem does not know Him. The city that killed the prophets does not recognize its Messiah. Jesus grieves.',
+            'When Jesus comes near the city, He weeps. "If thou hadst known, even thou, at least in this thy day, the things which belong unto thy peace!" Jerusalem does not know Him[res:topos-text-jerusalem]. The city that killed the prophets does not recognize its Messiah. Jesus grieves.',
         },
         {
           kind: 'greek',
@@ -140,6 +140,33 @@ export const LUKE_19: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Luke 19 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bible-odyssey-zacchaeus',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Publicans and Collaboration in Roman Palestine',
+      url: 'https://www.bibleodyssey.org/dictionary/publican/',
+      description: 'Open-access entry on tax collectors and their social status in first-century Jewish society.',
+    },
+    {
+      id: 'sefaria-seeking-god',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Seeker and the Sought in Jewish Mysticism',
+      url: 'https://www.sefaria.org/search?q=seeking%20finding%20lost%20God&tab=text',
+      description: 'Sefaria texts on the divine search for humanity and the concept of restoration.',
+    },
+    {
+      id: 'topos-text-jerusalem',
+      kind: 'archaeology',
+      source: 'ToposText',
+      label: 'Jerusalem in First-Century Geography and Archaeology',
+      url: 'https://topostext.org/place/924249SJer',
+      description: 'ToposText archaeological and geographical data on the topography and structures of Jerusalem.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -44,7 +44,7 @@ export const JOHN_5: RichChapterContent = {
           kind: 'commentary',
           id: 'john5-bethesda',
           html:
-            'Bethesda means "House of Mercy." Yet those who gather there experience little mercy. For decades, some have waited for healing that never comes. They gather around a pool whose waters stir at unpredictable times. The first to enter after the stirring is healed. It is chance, lottery, the survival of the fastest. The weak grow weaker. The infirm remain infirm. Mercy, paradoxically, seems absent from the House of Mercy.',
+            'Bethesda[res:bible-odyssey-bethesda] means "House of Mercy." Yet those who gather there experience little mercy. For decades, some have waited for healing that never comes. They gather around a pool[res:iaa-bethesda-pool] whose waters stir at unpredictable times. The first to enter after the stirring is healed. It is chance, lottery, the survival of the fastest. The weak grow weaker. The infirm remain infirm. Mercy, paradoxically, seems absent from the House of Mercy.',
         },
         {
           kind: 'commentary',
@@ -65,7 +65,7 @@ export const JOHN_5: RichChapterContent = {
           kind: 'commentary',
           id: 'john5-sin-no-more',
           html:
-            'After the healing, Jesus finds the man in the Temple and says: "Behold, thou art made whole: sin no more, lest a worse thing come unto thee." The statement is cryptic. It suggests a connection between the infirmity and sin—not that the man was judged for sin, but that sin brought consequence. Now healed, he is warned against returning to the pattern. The healing is complete, but the possibility of deeper loss remains if he chooses the way of sin.',
+            'After the healing, Jesus finds the man in the Temple and says: "Behold, thou art made whole: sin no more, lest a worse thing come unto thee."[res:museum-bethesda-artifacts] The statement is cryptic. It suggests a connection between the infirmity and sin—not that the man was judged for sin, but that sin brought consequence. Now healed, he is warned against returning to the pattern. The healing is complete, but the possibility of deeper loss remains if he chooses the way of sin.',
         },
         {
           kind: 'christ',
@@ -164,6 +164,33 @@ export const JOHN_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'John 5 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'iaa-bethesda-pool',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Pool of Bethesda Archaeological Site',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'Archaeological excavation of the Bethesda pool complex, including evidence of ancient healing practices and dual pools.',
+    },
+    {
+      id: 'bible-odyssey-bethesda',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Pool of Bethesda',
+      url: 'https://www.bibleodyssey.org/dictionary/bethesda/',
+      description: 'Open-access SBL entry on the healing pool and its significance in first-century Jerusalem.',
+    },
+    {
+      id: 'museum-bethesda-artifacts',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Bethesda Pools Exhibit',
+      url: 'https://www.imj.org.il/',
+      description: 'Museum collections related to the Pool of Bethesda and evidence of its use as a healing center.',
+    },
+  ],
 
   hasHebrew: false,
 };

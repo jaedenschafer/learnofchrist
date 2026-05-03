@@ -45,7 +45,7 @@ export const LUKE_24: RichChapterContent = {
           kind: 'commentary',
           id: 'luke24-resurrection',
           html:
-            'The women come to the sepulchre expecting death. Instead, they find absence. The stone is rolled away. The body is gone. The angel announces: "He is not here, but is risen." The resurrection is sudden, uninvited, unexpected. The disciples did not believe even when He told them. Now they must believe the angel&apos;s word.',
+            'The women come to the sepulchre expecting death. Instead, they find absence. The stone is rolled away. The body is gone. The angel announces: "He is not here, but is risen[res:sefaria-resurrection-firstfruits]." The resurrection is sudden, uninvited, unexpected. The disciples did not believe even when He told them. Now they must believe the angel&apos;s word.',
         },
         {
           kind: 'greek',
@@ -66,7 +66,7 @@ export const LUKE_24: RichChapterContent = {
           kind: 'commentary',
           id: 'luke24-scriptures-opened',
           html:
-            'Jesus begins with Moses and all the prophets, expounding in all the scriptures the things concerning Himself. This is the first hermeneutic of the Resurrection. The entire scripture, rightly read, points to Christ. He was always the subject. The disciples had not understood.',
+            'Jesus begins with Moses and all the prophets, expounding in all the scriptures the things concerning Himself[res:sefaria-messiah-scripture]. This is the first hermeneutic of the Resurrection. The entire scripture, rightly read, points to Christ. He was always the subject. The disciples had not understood.',
         },
         {
           kind: 'christ',
@@ -128,7 +128,7 @@ export const LUKE_24: RichChapterContent = {
           kind: 'commentary',
           id: 'luke24-ascension',
           html:
-            'Jesus leads them as far as Bethany. He lifts up His hands and blesses them. While He blesses them, He is carried up into heaven. The disciples return to Jerusalem with great joy and are continually in the temple, praising and blessing God. The Ascension is not the end but the beginning. The disciples wait for the power promised.',
+            'Jesus leads them as far as Bethany. He lifts up His hands and blesses them. While He blesses them, He is carried up into heaven[res:topos-bethany-ascension]. The disciples return to Jerusalem with great joy and are continually in the temple, praising and blessing God. The Ascension is not the end but the beginning. The disciples wait for the power promised.',
         },
         {
           kind: 'christ',
@@ -151,6 +151,33 @@ export const LUKE_24: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Luke 24 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-resurrection-firstfruits',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Resurrection in Jewish Apocalyptic and Rabbinic Thought',
+      url: 'https://www.sefaria.org/search?q=resurrection%20dead%20olam%20ha-ba%20firstfruits&tab=text',
+      description: 'Sefaria texts on resurrection theology, the world to come, and the defeat of death in Jewish tradition.',
+    },
+    {
+      id: 'sefaria-messiah-scripture',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Messianic Prophecy in Torah, Prophets, and Writings',
+      url: 'https://www.sefaria.org/search?q=messiah%20suffering%20servant%20davidic%20prophecy&tab=text',
+      description: 'Sefaria texts on messianic interpretation of Isaiah 53, Psalm 22, and other scriptural prophecies.',
+    },
+    {
+      id: 'topos-bethany-ascension',
+      kind: 'archaeology',
+      source: 'ToposText',
+      label: 'Bethany and the Mount of Olives in Geographical Context',
+      url: 'https://topostext.org/place/924260SBeth',
+      description: 'ToposText archaeological and topographical data on Bethany, its location east of Jerusalem, and the Mount of Olives.',
+    },
+  ],
 
   hasHebrew: false,
 };

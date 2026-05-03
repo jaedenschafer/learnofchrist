@@ -45,7 +45,7 @@ export const LUKE_9: RichChapterContent = {
           kind: 'commentary',
           id: 'luke9-commission',
           html:
-            'Jesus gives the twelve power and authority—not to rule, but to heal and to preach. He sends them to go forth in His name, armed with authority that comes from Him. As they go, they do what Jesus Himself has done: they preach the kingdom of God and heal the sick. The disciples participate in Jesus&apos; own work.',
+            'Jesus gives the twelve power and authority—not to rule, but to heal and to preach. He sends them to go forth in His name, armed with authority that comes from Him[res:bible-odyssey-apostle]. As they go, they do what Jesus Himself has done: they preach the kingdom of God and heal the sick. The disciples participate in Jesus&apos; own work[res:topos-text-mount-hermon].',
         },
         {
           kind: 'greek',
@@ -109,7 +109,7 @@ export const LUKE_9: RichChapterContent = {
           kind: 'commentary',
           id: 'luke9-transfiguration',
           html:
-            'Jesus takes Peter, John, and James up into a mountain to pray. As He prays, His countenance is altered. His raiment becomes white and glistering. This is the transfiguration—a glimpse of Jesus&apos; divine glory, usually veiled in His earthly form. Moses and Elijah appear with Him. They speak of His "decease which he should accomplish at Jerusalem"—His death. The greatest figures of the old covenant converse with Jesus about His coming death and resurrection.',
+            'Jesus takes Peter, John, and James up into a mountain to pray. As He prays, His countenance is altered. His raiment becomes white and glistering. This is the transfiguration—a glimpse of Jesus&apos; divine glory, usually veiled in His earthly form. Moses and Elijah appear with Him[res:sefaria-moses-elijah]. They speak of His "decease which he should accomplish at Jerusalem"—His death. The greatest figures of the old covenant converse with Jesus about His coming death and resurrection.',
         },
         {
           kind: 'greek',
@@ -153,6 +153,33 @@ export const LUKE_9: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Luke 9 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bible-odyssey-apostle',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Apostles and Their Mission',
+      url: 'https://www.bibleodyssey.org/dictionary/apostle/',
+      description: 'Open-access entry on the twelve apostles, their commissioning, and their role in the early church.',
+    },
+    {
+      id: 'sefaria-moses-elijah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Moses and Elijah in Jewish Theology',
+      url: 'https://www.sefaria.org/search?q=moses%20elijah&tab=text',
+      description: 'Sefaria collection of texts showing the significance of Moses and Elijah in Jewish tradition before the transfiguration.',
+    },
+    {
+      id: 'topos-text-mount-hermon',
+      kind: 'archaeology',
+      source: 'ToposText',
+      label: 'Mount Hermon: Geography and Archaeology',
+      url: 'https://topostext.org/place/383045SHer',
+      description: 'Topos identification and archaeological context of the mountain where Jesus was likely transfigured.',
+    },
+  ],
 
   hasHebrew: false,
 };

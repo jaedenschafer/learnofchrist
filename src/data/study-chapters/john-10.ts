@@ -65,7 +65,7 @@ export const JOHN_10: RichChapterContent = {
           kind: 'commentary',
           id: 'john10-life-sheep',
           html:
-            '"The good shepherd giveth his life for the sheep." This is the distinguishing mark of goodness. Not rule from a distance, but sacrifice in proximity. The shepherd does not demand the sheep risk themselves. He risks himself. He goes first, willing to die so the sheep might live.',
+            '"The good shepherd giveth his life for the sheep."[res:sefaria-psalm-23][res:sefaria-ezekiel-34][res:intertextual-shepherd] This is the distinguishing mark of goodness. Not rule from a distance, but sacrifice in proximity. The shepherd does not demand the sheep risk themselves. He risks himself. He goes first, willing to die so the sheep might live.',
         },
         {
           kind: 'commentary',
@@ -169,6 +169,33 @@ export const JOHN_10: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'John 10 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-23',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 23 — The Lord is My Shepherd',
+      url: 'https://www.sefaria.org/Psalms.23',
+      description: 'The foundational shepherd psalm with Jewish and Christian interpretations of God&apos;s care.',
+    },
+    {
+      id: 'sefaria-ezekiel-34',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 34 — God as Shepherd of Israel',
+      url: 'https://www.sefaria.org/Ezekiel.34',
+      description: 'The prophet&apos;s vision of God as the true shepherd who gathers and cares for the scattered flock.',
+    },
+    {
+      id: 'intertextual-shepherd',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 23 + Ezekiel 34 ↔ John 10',
+      url: 'https://intertextual.bible/text/psalm-23/john-10',
+      description: 'How Jesus fulfills the Old Testament image of the good shepherd.',
+    },
+  ],
 
   hasHebrew: false,
 };

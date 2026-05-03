@@ -32,7 +32,7 @@ export const LUKE_18: RichChapterContent = {
           kind: 'commentary',
           id: 'luke18-widow',
           html:
-            'An importunate widow keeps petitioning an unjust judge. She seeks justice against her adversary. The judge has no fear of God, no regard for man. But the widow persists. Finally, he relents: "Because this widow troubleth me, I will avenge her." Jesus draws the conclusion: if an unjust judge responds to persistence, how much more will the just God respond to those who cry day and night?',
+            'An importunate widow keeps petitioning an unjust judge. She seeks justice against her adversary. The judge has no fear of God, no regard for man. But the widow persists. Finally, he relents: "Because this widow troubleth me, I will avenge her." Jesus draws the conclusion: if an unjust judge responds to persistence, how much more will the just God respond to those who cry day and night[res:sefaria-persistent-prayer]?',
         },
         {
           kind: 'greek',
@@ -47,7 +47,7 @@ export const LUKE_18: RichChapterContent = {
           kind: 'commentary',
           id: 'luke18-pharisee-publican',
           html:
-            'A Pharisee thanks God he is not like sinners. He boasts of his righteousness. A publican stands afar off, ashamed, beating his breast: "God be merciful to me a sinner." Jesus says the publican goes home justified, not the Pharisee. Self-righteousness closes the door to grace. Humility opens it.',
+            'A Pharisee thanks God he is not like sinners. He boasts of his righteousness. A publican stands afar off, ashamed, beating his breast: "God be merciful to me a sinner." Jesus says the publican goes home justified, not the Pharisee[res:sefaria-justification]. Self-righteousness closes the door to grace. Humility opens it.',
         },
         {
           kind: 'commentary',
@@ -96,7 +96,7 @@ export const LUKE_18: RichChapterContent = {
           kind: 'commentary',
           id: 'luke18-riches',
           html:
-            'Jesus observes: "How hardly shall they that have riches enter into the kingdom of God! For it is easier for a camel to go through a needle&apos;s eye, than for a rich man to enter into the kingdom of God." Riches are a barrier. They create security, trust, reliance on themselves rather than on God.',
+            'Jesus observes: "How hardly shall they that have riches enter into the kingdom of God! For it is easier for a camel to go through a needle&apos;s eye, than for a rich man to enter into the kingdom of God." Riches are a barrier[res:bible-odyssey-wealth]. They create security, trust, reliance on themselves rather than on God.',
         },
         {
           kind: 'greek',
@@ -139,6 +139,33 @@ export const LUKE_18: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Luke 18 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-persistent-prayer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Prayer and Persistence in Jewish Tradition',
+      url: 'https://www.sefaria.org/search?q=prayer%20persistence%20importunate&tab=text',
+      description: 'Sefaria texts on prayer, persistence, and the widow&apos;s plea in Jewish interpretation.',
+    },
+    {
+      id: 'sefaria-justification',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Justification and Humility in Jewish Thought',
+      url: 'https://www.sefaria.org/search?q=justification%20humility%20pride&tab=text',
+      description: 'Sefaria texts on righteousness, humility, and the contrast between pride and lowliness.',
+    },
+    {
+      id: 'bible-odyssey-wealth',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Wealth and the Kingdom in Scripture',
+      url: 'https://www.bibleodyssey.org/dictionary/wealth/',
+      description: 'Open-access entry on biblical attitudes toward riches and their relation to discipleship.',
+    },
+  ],
 
   hasHebrew: false,
 };

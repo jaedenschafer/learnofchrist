@@ -42,7 +42,7 @@ export const JOHN_7: RichChapterContent = {
           kind: 'commentary',
           id: 'john7-teach-authority',
           html:
-            'Jesus goes to the Temple and teaches. The Jews marvel, not at the content, but at the fact that He teaches. He is untrained in their schools, unauthorized by their authorities. Yet His teaching carries weight. It is not the recitation of tradition or the clever parsing of precedent. It speaks with directness and power. The Jews cannot explain it, so they question its source. "How knoweth this man letters, having never learned?"',
+            'Jesus goes to the Temple and teaches at the Feast of Tabernacles[res:bible-odyssey-tabernacles][res:sefaria-sukkot]. He is untrained in their schools, unauthorized by their authorities. Yet His teaching carries weight. It is not the recitation of tradition or the clever parsing of precedent. It speaks with directness and power. The Jews cannot explain it, so they question its source. "How knoweth this man letters, having never learned?"',
         },
         {
           kind: 'commentary',
@@ -107,7 +107,7 @@ export const JOHN_7: RichChapterContent = {
           kind: 'commentary',
           id: 'john7-thirst',
           html:
-            'In the great day of the feast, the day of water-pouring ritual, Jesus makes a proclamation: "If any man thirst, let him come unto me, and drink." Thirst is the condition. It is the awareness of lack, the longing for something more. Jesus addresses the thirsty. He does not address the satisfied, the self-sufficient, the content. He offers Himself as drink to those who know they need.',
+            'In the great day of the feast, the day of water-pouring ritual, Jesus makes a proclamation[res:intertextual-living-water]: "If any man thirst, let him come unto me, and drink." Thirst is the condition. It is the awareness of lack, the longing for something more. Jesus addresses the thirsty. He does not address the satisfied, the self-sufficient, the content. He offers Himself as drink to those who know they need.',
         },
         {
           kind: 'commentary',
@@ -162,6 +162,33 @@ export const JOHN_7: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'John 7 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bible-odyssey-tabernacles',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Feast of Tabernacles (Sukkot)',
+      url: 'https://www.bibleodyssey.org/dictionary/feast-tabernacles/',
+      description: 'Open-access SBL entry on the seven-day festival, its rituals, and its significance in first-century Jewish practice.',
+    },
+    {
+      id: 'sefaria-sukkot',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Sukkot (Tabernacles) in Jewish Law',
+      url: 'https://www.sefaria.org/topics/sukkot',
+      description: 'Jewish legal and theological traditions regarding the Feast of Tabernacles and its meaning.',
+    },
+    {
+      id: 'intertextual-living-water',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 55:1 ↔ John 7:37',
+      url: 'https://intertextual.bible/text/isaiah-55.1/john-7.37',
+      description: 'How Jesus&apos; promise of living water echoes the Old Testament invitation to drink.',
+    },
+  ],
 
   hasHebrew: false,
 };

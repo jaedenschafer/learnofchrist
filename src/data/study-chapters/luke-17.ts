@@ -46,7 +46,7 @@ export const LUKE_17: RichChapterContent = {
           kind: 'commentary',
           id: 'luke17-forgive',
           html:
-            'Jesus teaches forgiveness without limit. "If thy brother trespass against thee... if he repent, forgive him." Even if he trespasses seven times in a day, and seven times turns and repents, forgive him. This is radical. It is not retaliation, not keeping score, not waiting for perfect behavior before granting forgiveness. If he repents, forgive.',
+            'Jesus teaches forgiveness without limit. "If thy brother trespass against thee... if he repent, forgive him[res:sefaria-forgiveness]." Even if he trespasses seven times in a day, and seven times turns and repents, forgive him. This is radical. It is not retaliation, not keeping score, not waiting for perfect behavior before granting forgiveness. If he repents, forgive.',
         },
         {
           kind: 'greek',
@@ -61,13 +61,13 @@ export const LUKE_17: RichChapterContent = {
           kind: 'commentary',
           id: 'luke17-servant',
           html:
-            'A master does not invite his servant to sit down and eat before the servant has finished working. The servant works first. Then eats. This is the order of things. When we have done all we are commanded, we say: "We are unprofitable servants." We have done our duty. No more, no less. We do not deserve reward. We have done what was obligatory.',
+            'A master does not invite his servant to sit down and eat before the servant has finished working. The servant works first. Then eats[res:perseus-dulia]. This is the order of things. When we have done all we are commanded, we say: "We are unprofitable servants." We have done our duty. No more, no less. We do not deserve reward. We have done what was obligatory.',
         },
         {
           kind: 'commentary',
           id: 'luke17-lepers',
           html:
-            'Ten lepers stand afar off and cry out: "Jesus, Master, have mercy on us." Jesus says: "Go shew yourselves unto the priests." As they go, they are cleansed. One of them, a Samaritan, returns and falls at Jesus&apos; feet, giving thanks. Jesus asks the question that hangs in the air: "Were there not ten cleansed? but where are the nine?" Only one, the outsider, the Samaritan, returns to give glory to God.',
+            'Ten lepers stand afar off and cry out: "Jesus, Master, have mercy on us." Jesus says: "Go shew yourselves unto the priests[res:bible-odyssey-leprosy]." As they go, they are cleansed. One of them, a Samaritan, returns and falls at Jesus&apos; feet, giving thanks. Jesus asks the question that hangs in the air: "Were there not ten cleansed? but where are the nine?" Only one, the outsider, the Samaritan, returns to give glory to God.',
         },
         {
           kind: 'christ',
@@ -153,6 +153,33 @@ export const LUKE_17: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Luke 17 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-forgiveness',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Forgiveness in Jewish Law & Thought',
+      url: 'https://www.sefaria.org/topics/forgiveness',
+      description: 'Jewish legal and wisdom traditions on forgiveness, repentance, and reconciliation — exploring the background of Jesus&apos; teaching.',
+    },
+    {
+      id: 'perseus-dulia',
+      kind: 'archive',
+      source: 'Perseus Digital Library',
+      label: 'Household Roles in Greco-Roman Culture',
+      url: 'https://www.perseus.tufts.edu/',
+      description: 'Classical texts on the duties and social position of servants in Roman households.',
+    },
+    {
+      id: 'bible-odyssey-leprosy',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Leprosy in the Bible',
+      url: 'https://www.bibleodyssey.org/dictionary/leprosy/',
+      description: 'Open-access SBL entry on the disease, the Law&apos;s requirements for the afflicted, and the stigma Jesus&apos; healing overcomes.',
+    },
+  ],
 
   hasHebrew: false,
 };

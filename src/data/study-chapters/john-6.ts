@@ -44,7 +44,7 @@ export const JOHN_6: RichChapterContent = {
           kind: 'commentary',
           id: 'john6-abundance',
           html:
-            'Five thousand people gather, hungry and seeking. Jesus does not send them away. He does not say, "Return when we are better prepared." He addresses the need in the moment, using what is available—five loaves and two fishes, the offering of a boy. His blessing transforms scarcity into superabundance. Twelve baskets of fragments remain. Not crumbs or remnants scattered about, but baskets full, carefully gathered, preserved. Nothing is wasted.',
+            'Five thousand people gather, hungry and seeking[res:bible-odyssey-feeding]. Jesus does not send them away. He does not say, "Return when we are better prepared." He addresses the need in the moment, using what is available—five loaves and two fishes, the offering of a boy. His blessing transforms scarcity into superabundance. Twelve baskets of fragments remain. Not crumbs or remnants scattered about, but baskets full, carefully gathered, preserved. Nothing is wasted.',
         },
         {
           kind: 'commentary',
@@ -109,7 +109,7 @@ export const JOHN_6: RichChapterContent = {
           kind: 'commentary',
           id: 'john6-bread-of-life',
           html:
-            '"I am the bread of life: he that cometh to me shall never hunger." This is the first of seven "I am" statements in John&apos;s gospel. Jesus does not say He provides bread. He is bread. He is the fundamental substance that nourishes spiritual life. To come to Him is to be satisfied at the deepest level. Physical hunger returns; spiritual hunger in Christ does not.',
+            '"I am the bread of life: he that cometh to me shall never hunger." This is the first of seven "I am" statements in John&apos;s gospel. Jesus speaks as the fulfillment of the manna[res:sefaria-exodus-manna] promised in the wilderness[res:intertextual-manna-bread]. Jesus does not say He provides bread. He is bread. He is the fundamental substance that nourishes spiritual life. To come to Him is to be satisfied at the deepest level. Physical hunger returns; spiritual hunger in Christ does not.',
         },
         {
           kind: 'commentary',
@@ -164,6 +164,33 @@ export const JOHN_6: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'John 6 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-exodus-manna',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 16 — The Manna',
+      url: 'https://www.sefaria.org/Exodus.16',
+      description: 'The Torah account of manna in the wilderness, with Jewish and Christian interpretations of hunger, provision, and faith.',
+    },
+    {
+      id: 'intertextual-manna-bread',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Exodus 16 ↔ John 6',
+      url: 'https://intertextual.bible/text/exodus-16/john-6',
+      description: 'Intertextual parallel showing how Jesus replaces the manna as the true bread from heaven.',
+    },
+    {
+      id: 'bible-odyssey-feeding',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Feeding of the Five Thousand',
+      url: 'https://www.bibleodyssey.org/dictionary/feeding-five-thousand/',
+      description: 'Open-access SBL resource on the feeding miracle, its theological meaning, and parallel accounts.',
+    },
+  ],
 
   hasHebrew: false,
 };

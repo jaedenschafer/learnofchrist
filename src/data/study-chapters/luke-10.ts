@@ -45,7 +45,7 @@ export const LUKE_10: RichChapterContent = {
           kind: 'commentary',
           id: 'luke10-seventy',
           html:
-            'Jesus appoints seventy others—beyond the twelve. The twelve are the foundation of the church, but the work of the kingdom extends far beyond them. The seventy represent the broader missionary movement. They are sent two by two—for companionship, for witness, for accountability. They are sent as lambs among wolves—vulnerable, unprotected by earthly power, yet sent in the authority of Jesus.',
+            'Jesus appoints seventy others—beyond the twelve. The twelve are the foundation of the church, but the work of the kingdom extends far beyond them. The seventy represent the broader missionary movement[res:sefaria-seventy]. They are sent two by two—for companionship, for witness, for accountability. They are sent as lambs among wolves—vulnerable, unprotected by earthly power, yet sent in the authority of Jesus[res:topos-bethany].',
         },
         {
           kind: 'greek',
@@ -113,7 +113,7 @@ export const LUKE_10: RichChapterContent = {
           kind: 'commentary',
           id: 'luke10-mary',
           html:
-            'Mary sits at Jesus&apos; feet. She hears His word. She does not serve. She does not prepare food or arrange the house. She listens. She learns. She is present to Jesus in the way that matters most—as a student, a disciple. She has "chosen that good part." Her choice will not be taken from her.',
+            'Mary sits at Jesus&apos; feet. She hears His word[res:perseus-disciple]. She does not serve. She does not prepare food or arrange the house. She listens. She learns. She is present to Jesus in the way that matters most—as a student, a disciple. She has "chosen that good part." Her choice will not be taken from her.',
         },
         {
           kind: 'greek',
@@ -145,6 +145,33 @@ export const LUKE_10: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Luke 10 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-seventy',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Seventy in Jewish Tradition',
+      url: 'https://www.sefaria.org/search?q=seventy%20elders&tab=text',
+      description: 'Sefaria index of the seventy elders and their role, providing context for Jesus&apos; sending of the seventy.',
+    },
+    {
+      id: 'perseus-disciple',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Greek Concepts of Discipleship',
+      url: 'https://scaife.perseus.org/',
+      description: 'Perseus resource on mathetes (disciple) in Greek contexts, clarifying Mary&apos;s posture at Jesus&apos; feet.',
+    },
+    {
+      id: 'topos-bethany',
+      kind: 'archaeology',
+      source: 'ToposText',
+      label: 'Bethany: Village of Mary and Martha',
+      url: 'https://topostext.org/place/383230SBet',
+      description: 'Topos identification of Bethany, where Martha and Mary lived, with archaeological and geographical context.',
+    },
+  ],
 
   hasHebrew: false,
 };

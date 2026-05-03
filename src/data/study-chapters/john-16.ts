@@ -57,13 +57,13 @@ export const JOHN_16: RichChapterContent = {
           script: 'ἐλέγχω',
           translit: '<strong>Elegcho</strong> · to reprove; to convict; to convince; to expose',
           description:
-            'The Spirit will convict the world—will expose its sin, will make clear the righteousness of Christ, will reveal the judgment that stands against evil. This conviction is not mere condemnation. It is a call to truth, an opportunity to repent, to turn from darkness to light.',
+            'The Spirit will convict the world—will expose its sin, will make clear the righteousness of Christ, will reveal the judgment that stands against evil[res:perseus-parakletos-2]. This conviction is not mere condemnation. It is a call to truth, an opportunity to repent, to turn from darkness to light.',
         },
         {
           kind: 'commentary',
           id: 'john16-guide',
           html:
-            '"He will guide you into all truth." The Spirit is not only a comforter in sorrow. He is a guide into understanding. He will lead the disciples into deeper comprehension of Christ&apos;s teaching, of God&apos;s plan, of spiritual reality. The revelation does not cease at Pentecost. It continues as the Spirit guides the church into truth.',
+            '"He will guide you into all truth."[res:bible-odyssey-spirit-witness] The Spirit is not only a comforter in sorrow. He is a guide into understanding. He will lead the disciples into deeper comprehension of Christ&apos;s teaching, of God&apos;s plan, of spiritual reality. The revelation does not cease at Pentecost. It continues as the Spirit guides the church into truth.',
         },
         {
           kind: 'commentary',
@@ -145,7 +145,7 @@ export const JOHN_16: RichChapterContent = {
           kind: 'commentary',
           id: 'john16-overcome',
           html:
-            '"Be of good cheer; I have overcome the world." The final assurance. Jesus does not promise a life free from tribulation. He promises that He has overcome. The powers that oppose you—sin, death, fear, the world system—have been conquered. Their ultimate authority has been broken. You live in the victory of the risen Christ.',
+            '"Be of good cheer; I have overcome the world."[res:intertextual-victory] The final assurance. Jesus does not promise a life free from tribulation. He promises that He has overcome. The powers that oppose you—sin, death, fear, the world system—have been conquered. Their ultimate authority has been broken. You live in the victory of the risen Christ.',
         },
         {
           kind: 'christ',
@@ -173,6 +173,33 @@ export const JOHN_16: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'John 16 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'perseus-parakletos-2',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Parakletos Revisited — Advocate and Comforter',
+      url: 'https://www.perseus.tufts.edu/',
+      description: 'Extended analysis of the Greek parakletos as Jesus describes the Holy Spirit&apos;s role after His departure.',
+    },
+    {
+      id: 'bible-odyssey-spirit-witness',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Holy Spirit as Witness and Teacher',
+      url: 'https://www.bibleodyssey.org/dictionary/holy-spirit/',
+      description: 'SBL resource on the Spirit&apos;s functions in the Johannine theology of the farewell discourse.',
+    },
+    {
+      id: 'intertextual-victory',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 27:1 ↔ John 16:33',
+      url: 'https://intertextual.bible/text/psalm-27.1/john-16.33',
+      description: 'Jesus&apos; victory echoing the psalmist&apos;s trust in God&apos;s power over all opposition.',
+    },
+  ],
 
   hasHebrew: false,
 };

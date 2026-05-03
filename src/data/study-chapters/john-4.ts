@@ -45,7 +45,7 @@ export const JOHN_4: RichChapterContent = {
           kind: 'commentary',
           id: 'john4-samaria',
           html:
-            'Samaria was hostile territory for Jews. The Samaritans were considered half-breeds and heretics, worshipping on Mount Gerizim rather than in Jerusalem. Most Jews would have avoided Samaria entirely or traveled through it quickly. Yet Jesus goes deliberately. He sits at Jacob&apos;s well—the well associated with Israel&apos;s patriarch, a place of history and covenant promise. There He meets not a dignitary or disciple, but a woman drawing water.',
+            'Samaria was hostile territory for Jews[res:bible-odyssey-samaritans]. The Samaritans were considered half-breeds and heretics, worshipping on Mount Gerizim[res:topostext-gerizim] rather than in Jerusalem. Most Jews would have avoided Samaria entirely or traveled through it quickly. Yet Jesus goes deliberately. He sits at Jacob&apos;s well[res:iaa-jacobs-well]—the well associated with Israel&apos;s patriarch, a place of history and covenant promise. There He meets not a dignitary or disciple, but a woman drawing water.',
         },
         {
           kind: 'commentary',
@@ -163,6 +163,33 @@ export const JOHN_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'John 4 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'iaa-jacobs-well',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Jacob&apos;s Well Archaeological Site',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'Archaeological evidence from the well at Sychar, including early Christian pilgrimage and continued veneration.',
+    },
+    {
+      id: 'topostext-gerizim',
+      kind: 'study',
+      source: 'ToposText',
+      label: 'Mount Gerizim — Samaritan Sacred Site',
+      url: 'https://topostext.org/',
+      description: 'Geographical and religious context for Mount Gerizim as the Samaritan center of worship, contrasting with Jewish Temple in Jerusalem.',
+    },
+    {
+      id: 'bible-odyssey-samaritans',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Samaritans',
+      url: 'https://www.bibleodyssey.org/dictionary/samaritans/',
+      description: 'Open-access SBL resource on Samaritan history, theology, and their relationship to Jews in first-century Palestine.',
+    },
+  ],
 
   hasHebrew: false,
 };

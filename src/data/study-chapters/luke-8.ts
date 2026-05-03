@@ -45,7 +45,7 @@ export const LUKE_8: RichChapterContent = {
           kind: 'commentary',
           id: 'luke8-sower',
           html:
-            'A sower scatters seed. This is the kingdom&apos;s method—not force, but invitation. The seed is the word of God. But the outcome depends on the soil, the heart. The word falls everywhere. But where is it received? Where is it kept? The good ground hears and keeps the word. In patience it brings forth fruit.',
+            'A sower scatters seed. This is the kingdom&apos;s method—not force, but invitation. The seed is the word of God. But the outcome depends on the soil, the heart. The word falls everywhere. But where is it received? Where is it kept? The good ground hears and keeps the word[res:sefaria-parable]. In patience it brings forth fruit.',
         },
         {
           kind: 'greek',
@@ -60,7 +60,7 @@ export const LUKE_8: RichChapterContent = {
           kind: 'commentary',
           id: 'luke8-storm',
           html:
-            'Jesus and the disciples sail across the lake. Jesus sleeps. A storm arises—wind and waves. The disciples are filling with water. They think they perish. They wake Jesus: "Master, master, we perish!" Jesus wakes. He rebukes the wind and the raging water. Both cease. All is calm. Jesus says: "Where is your faith?" Yet they are amazed. They ask one another: "What manner of man is this? for he commandeth even the winds and water, and they obey him."',
+            'Jesus and the disciples sail across the lake[res:iaa-sea-galilee]. Jesus sleeps. A storm arises—wind and waves. The disciples are filling with water. They think they perish. They wake Jesus: "Master, master, we perish!" Jesus wakes. He rebukes the wind and the raging water. Both cease. All is calm. Jesus says: "Where is your faith?" Yet they are amazed. They ask one another: "What manner of man is this? for he commandeth even the winds and water, and they obey him."',
         },
         {
           kind: 'christ',
@@ -102,7 +102,7 @@ export const LUKE_8: RichChapterContent = {
           kind: 'commentary',
           id: 'luke8-legion',
           html:
-            'The man cries out: "What have I to do with thee, Jesus, thou Son of God most high?" The demons recognize Jesus instantly. They know who He is. Jesus asks the man: "What is thy name?" He answers: "Legion: because many devils were entered into him." A legion is a Roman military unit—thousands of soldiers. Many demons have enslaved this man. But Jesus casts them all out. The man is freed.',
+            'The man cries out: "What have I to do with thee, Jesus, thou Son of God most high?" The demons recognize Jesus instantly. They know who He is. Jesus asks the man: "What is thy name?" He answers: "Legion: because many devils were entered into him[res:perseus-legion]." A legion is a Roman military unit—thousands of soldiers. Many demons have enslaved this man. But Jesus casts them all out. The man is freed.',
         },
         {
           kind: 'greek',
@@ -146,6 +146,33 @@ export const LUKE_8: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Luke 8 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-parable',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Parables of Sowing in Jewish Tradition',
+      url: 'https://www.sefaria.org/search?q=parable%20sower&tab=text',
+      description: 'Sefaria index of sowing parables in Talmudic and Midrashic sources, showing the OT context for Jesus&apos; parable.',
+    },
+    {
+      id: 'iaa-sea-galilee',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Sea of Galilee Archaeology',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA excavations and artifacts from the Sea of Galilee basin, including 1st-century boat remains and settlement sites.',
+    },
+    {
+      id: 'perseus-legion',
+      kind: 'study',
+      source: 'Perseus Scaife',
+      label: 'Roman Legions: Military Organization',
+      url: 'https://scaife.perseus.org/',
+      description: 'Perseus Scaife resource on Roman military units; clarifies the scale implied by "legion" in Mark and Luke.',
+    },
+  ],
 
   hasHebrew: false,
 };

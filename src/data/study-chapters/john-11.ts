@@ -45,7 +45,7 @@ export const JOHN_11: RichChapterContent = {
           kind: 'commentary',
           id: 'john11-beloved',
           html:
-            'Mary and Martha send word: "He whom thou lovest is sick." They appeal to Jesus&apos; love. If He cares for Lazarus, He will come. Yet Jesus, hearing this appeal, remains where He is. This is difficult. It seems to contradict His love. But Jesus is not indifferent. He is purposeful. "This sickness is not unto death, but for the glory of God."',
+            'Mary and Martha[res:bible-odyssey-lazarus] send word from Bethany[res:topostext-bethany]: "He whom thou lovest is sick." They appeal to Jesus&apos; love. If He cares for Lazarus, He will come. Yet Jesus, hearing this appeal, remains where He is. This is difficult. It seems to contradict His love. But Jesus is not indifferent. He is purposeful. "This sickness is not unto death, but for the glory of God."',
         },
         {
           kind: 'commentary',
@@ -66,7 +66,7 @@ export const JOHN_11: RichChapterContent = {
           kind: 'commentary',
           id: 'john11-resurrection',
           html:
-            '"I am the resurrection, and the life: he that believeth in me, though he were dead, yet shall he live." This is the eleventh of John&apos;s "I am" statements. Jesus does not merely promise resurrection. He is resurrection itself. To believe in Him is to have entered into resurrection life even now. Physical death cannot undo what spiritual life has begun.',
+            '"I am the resurrection, and the life[res:iaa-bethany-lazarus]: he that believeth in me, though he were dead, yet shall he live." This is the eleventh of John&apos;s "I am" statements. Jesus does not merely promise resurrection. He is resurrection itself. To believe in Him is to have entered into resurrection life even now. Physical death cannot undo what spiritual life has begun.',
         },
         {
           kind: 'commentary',
@@ -177,6 +177,33 @@ export const JOHN_11: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'John 11 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'iaa-bethany-lazarus',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Lazarium at Bethany',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'Archaeological site at Bethany associated with the tomb of Lazarus and early Christian veneration.',
+    },
+    {
+      id: 'topostext-bethany',
+      kind: 'study',
+      source: 'ToposText',
+      label: 'Bethany — Village of Lazarus',
+      url: 'https://topostext.org/',
+      description: 'Geographical and historical information on Bethany, location of Jesus&apos; friends Mary, Martha, and Lazarus.',
+    },
+    {
+      id: 'bible-odyssey-lazarus',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Lazarus',
+      url: 'https://www.bibleodyssey.org/dictionary/lazarus/',
+      description: 'Open-access SBL resource on Lazarus and his significance in John&apos;s Gospel.',
+    },
+  ],
 
   hasHebrew: false,
 };

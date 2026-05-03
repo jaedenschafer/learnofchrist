@@ -60,7 +60,7 @@ export const JOHN_19: RichChapterContent = {
           script: 'σταυρός',
           translit: '<strong>Stauros</strong> · cross; stake; instrument of execution',
           description:
-            'The cross was the most shameful death, reserved for slaves and criminals. For a condemned man to be crucified was to be literally cursed, stripped of all dignity. Yet Jesus chooses this death. In it, He takes upon Himself the curse of humanity&apos;s separation from God.',
+            'The cross was the most shameful death, reserved for slaves and criminals[res:iaa-titulus-inscription]. For a condemned man to be crucified was to be literally cursed, stripped of all dignity. Yet Jesus chooses this death. In it, He takes upon Himself the curse of humanity&apos;s separation from God.',
         },
         {
           kind: 'commentary',
@@ -127,13 +127,13 @@ export const JOHN_19: RichChapterContent = {
           kind: 'commentary',
           id: 'john19-legs',
           html:
-            'The soldiers were to break the legs of those crucified, hastening death. But when they came to Jesus, they found Him already dead. A bone of Him shall not be broken—fulfilling prophecy. Even in death, Jesus is treated with the honor due to one who has accomplished His mission.',
+            'The soldiers were to break the legs of those crucified, hastening death. But when they came to Jesus, they found Him already dead. A bone of Him shall not be broken—fulfilling prophecy[res:sefaria-psalm-passover]. Even in death, Jesus is treated with the honor due to one who has accomplished His mission.',
         },
         {
           kind: 'commentary',
           id: 'john19-pierced',
           html:
-            'One of the soldiers pierces Jesus&apos; side with a spear. Blood and water flow out. A literal detail, yet rich with meaning. Blood speaks of the life given, the covenant enacted. Water speaks of cleansing, of the Spirit. From the dead body flows both the price of redemption and the means of sanctification.',
+            'One of the soldiers pierces Jesus&apos; side with a spear. Blood and water flow out[res:intertextual-pierced]. A literal detail, yet rich with meaning. Blood speaks of the life given, the covenant enacted. Water speaks of cleansing, of the Spirit. From the dead body flows both the price of redemption and the means of sanctification.',
         },
         {
           kind: 'greek',
@@ -176,6 +176,33 @@ export const JOHN_19: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'John 19 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'iaa-titulus-inscription',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'INRI Inscription — Titulus Crucis',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'Archaeological and historical evidence for the inscription placed on Jesus&apos; cross in multiple languages.',
+    },
+    {
+      id: 'intertextual-pierced',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Zechariah 12:10 ↔ John 19:34–37',
+      url: 'https://intertextual.bible/text/zechariah-12.10/john-19.34-37',
+      description: 'The pierced Messiah prophecy and its fulfillment at Jesus&apos; crucifixion.',
+    },
+    {
+      id: 'sefaria-psalm-passover',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 34:20 (Bones Not Broken)',
+      url: 'https://www.sefaria.org/Psalms.34.20',
+      description: 'The Passover lamb imagery applied to Jesus, whose bones remain unbroken.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -47,7 +47,7 @@ export const LUKE_14: RichChapterContent = {
           kind: 'commentary',
           id: 'luke14-humility',
           html:
-            'Jesus teaches a law of reversal: the exalted will be abased; the humble will be exalted. This overturns human expectation. In the world, self-promotion leads to advancement. In the kingdom of God, humility leads to exaltation. Jesus teaches this not through abstract doctrine but through observation—the guests choosing the chief seats.',
+            'Jesus teaches a law of reversal[res:sefaria-humility]: the exalted will be abased; the humble will be exalted. This overturns human expectation. In the world, self-promotion leads to advancement. In the kingdom of God, humility leads to exaltation. Jesus teaches this not through abstract doctrine but through observation—the guests choosing the chief seats.',
         },
         {
           kind: 'greek',
@@ -68,7 +68,7 @@ export const LUKE_14: RichChapterContent = {
           kind: 'commentary',
           id: 'luke14-parable-supper',
           html:
-            'A man makes a great supper and invites many. All make excuses. "I have bought a piece of ground, and I must needs go and see it." "I have bought five yoke of oxen, and I go to prove them." "I have married a wife, and therefore I cannot come." The servants report back. The master is angry. He tells the servants to go into the streets and lanes and bring in the poor, the maimed, the blind. "Compel them to come in, that my house may be filled."',
+            'A man makes a great supper and invites many[res:bible-odyssey-wedding]. All make excuses. "I have bought a piece of ground, and I must needs go and see it." "I have bought five yoke of oxen, and I go to prove them." "I have married a wife, and therefore I cannot come." The servants report back. The master is angry. He tells the servants to go into the streets and lanes and bring in the poor, the maimed, the blind. "Compel them to come in, that my house may be filled."',
         },
         {
           kind: 'christ',
@@ -124,7 +124,7 @@ export const LUKE_14: RichChapterContent = {
           kind: 'commentary',
           id: 'luke14-tower',
           html:
-            'Jesus tells a parable: "Which of you, intending to build a tower, sitteth not down first, and counteth the cost?" A builder does not begin without counting. He wants to finish. If he cannot complete it, all who see it will mock him. So the would-be disciple must count the cost. Can you give up all? Can you bear the cross? Can you follow through?',
+            'Jesus tells a parable[res:perseus-logismos]: "Which of you, intending to build a tower, sitteth not down first, and counteth the cost?" A builder does not begin without counting. He wants to finish. If he cannot complete it, all who see it will mock him. So the would-be disciple must count the cost. Can you give up all? Can you bear the cross? Can you follow through?',
         },
         {
           kind: 'commentary',
@@ -162,6 +162,33 @@ export const LUKE_14: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Luke 14 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-humility',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Humility in Jewish Tradition',
+      url: 'https://www.sefaria.org/search?q=humility%20lowliness&tab=text',
+      description: 'Sefaria texts on humility and self-abasement in Rabbinic teaching.',
+    },
+    {
+      id: 'bible-odyssey-wedding',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Banquets and Feasts in Ancient Culture',
+      url: 'https://www.bibleodyssey.org/dictionary/banquet/',
+      description: 'Open-access entry on meal customs and social hierarchy in the Mediterranean world.',
+    },
+    {
+      id: 'perseus-logismos',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Logismos: Reckoning and Cost',
+      url: 'https://scaife.perseus.org/',
+      description: 'Perseus resource on logismos in Greek, clarifying the calculation of costs and consequences.',
+    },
+  ],
 
   hasHebrew: false,
 };

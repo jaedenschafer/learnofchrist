@@ -43,7 +43,7 @@ export const JOHN_12: RichChapterContent = {
           kind: 'commentary',
           id: 'john12-supper',
           html:
-            'A supper is made in honor of Lazarus, whom Jesus has raised. Martha serves—she is the one who works, who tends to need. Lazarus sits at table with Jesus, a living testimony to resurrection. Mary sits at Jesus&apos; feet. Her posture is one of discipleship, of attentiveness, of love. Then she takes costly ointment and anoints His feet, wiping them with her hair—an act of profound devotion and humility.',
+            'A supper is made in honor of Lazarus, whom Jesus has raised[res:bible-odyssey-mary-martha]. Martha serves—she is the one who works, who tends to need. Lazarus sits at table with Jesus, a living testimony to resurrection. Mary sits at Jesus&apos; feet. Her posture is one of discipleship, of attentiveness, of love. Then she takes costly ointment and anoints His feet, wiping them with her hair—an act of profound devotion and humility.',
         },
         {
           kind: 'commentary',
@@ -64,7 +64,7 @@ export const JOHN_12: RichChapterContent = {
           kind: 'commentary',
           id: 'john12-burying',
           html:
-            'Jesus says: "Against the day of my burying hath she kept this." Mary&apos;s act of love is understood by Jesus as preparation for His death. She acts in love. He interprets her love as prophetic. She does not know what she does, yet her action aligns with the coming reality. The fragrance that fills the house is the fragrance of His approaching death.',
+            'Jesus says: "Against the day of my burying hath she kept this." Mary&apos;s act of love is understood by Jesus as preparation for His death. She acts in love. He interprets her love as prophetic. She does not know what she does, yet her action aligns with the coming reality[res:intertextual-entry]. The fragrance that fills the house is the fragrance of His approaching death.',
         },
         {
           kind: 'christ',
@@ -107,7 +107,7 @@ export const JOHN_12: RichChapterContent = {
           kind: 'commentary',
           id: 'john12-hosanna',
           html:
-            'The crowds hail Jesus as He enters Jerusalem. "Hosanna" means "save us." They wave palm branches—symbols of victory and deliverance. They proclaim Him king. Yet the acclamation will turn to rejection within days. The same crowds will cry "Crucify Him." The triumphal entry is temporary. The hour is approaching when He will be rejected and killed.',
+            'The crowds hail Jesus as He enters Jerusalem. "Hosanna" means "save us." They wave palm branches[res:bible-odyssey-triumphal-entry]—symbols of victory and deliverance. They proclaim Him king. Yet the acclamation will turn to rejection within days. The same crowds will cry "Crucify Him." The triumphal entry is temporary. The hour is approaching when He will be rejected and killed.',
         },
         {
           kind: 'commentary',
@@ -162,6 +162,33 @@ export const JOHN_12: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'John 12 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bible-odyssey-triumphal-entry',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Triumphal Entry',
+      url: 'https://www.bibleodyssey.org/dictionary/triumphal-entry/',
+      description: 'Open-access SBL resource on Jesus&apos; entry into Jerusalem and its messianic significance.',
+    },
+    {
+      id: 'bible-odyssey-mary-martha',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Mary, Martha, and Anointing',
+      url: 'https://www.bibleodyssey.org/dictionary/mary-martha/',
+      description: 'SBL entry on the sisters of Lazarus and Mary&apos;s act of anointing Jesus.',
+    },
+    {
+      id: 'intertextual-entry',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Zechariah 9:9 ↔ John 12:12–13',
+      url: 'https://intertextual.bible/text/zechariah-9.9/john-12.12-13',
+      description: 'How Jesus fulfills the prophecy of the king coming humbly on a donkey.',
+    },
+  ],
 
   hasHebrew: false,
 };

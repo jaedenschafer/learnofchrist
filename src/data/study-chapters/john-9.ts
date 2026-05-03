@@ -45,7 +45,7 @@ export const JOHN_9: RichChapterContent = {
           kind: 'commentary',
           id: 'john9-question',
           html:
-            'The disciples ask a loaded question: "Who did sin?" They assume suffering is punishment. They operate within a framework of moral cause and effect: wrongdoing brings consequence. A man born blind must have sinned—either he, through some pre-mortal act, or his parents, whose sin he bears. This is a common worldview, but Jesus shatters it.',
+            'The disciples ask a loaded question: "Who did sin?"[res:bible-odyssey-blindness] They assume suffering is punishment. They operate within a framework of moral cause and effect: wrongdoing brings consequence. A man born blind must have sinned—either he, through some pre-mortal act, or his parents, whose sin he bears. This is a common worldview, but Jesus shatters it.',
         },
         {
           kind: 'commentary',
@@ -72,7 +72,7 @@ export const JOHN_9: RichChapterContent = {
           kind: 'commentary',
           id: 'john9-siloam',
           html:
-            'Siloam means "Sent." The blind man is sent to wash in the pool of Siloam—sent to the place called "Sent." There is a play on words, a deeper resonance. Jesus is the Sent One, sent by the Father. The healing waters connect to His mission. In the act of washing, the man participates in the Sent One&apos;s work.',
+            'Siloam[res:iaa-siloam-pool] means "Sent." The blind man is sent to wash in the pool of Siloam—sent to the place called "Sent." There is a play on words, a deeper resonance. Jesus is the Sent One, sent by the Father. The healing waters connect to His mission. In the act of washing, the man participates in the Sent One&apos;s work.',
         },
         {
           kind: 'christ',
@@ -137,7 +137,7 @@ export const JOHN_9: RichChapterContent = {
           kind: 'commentary',
           id: 'john9-jesus-finds',
           html:
-            'Jesus hears that the man has been cast out, and He finds him. Again and again, Jesus seeks out those cast off by others. He does not leave them in isolation. He comes to them, by name, with a question: "Dost thou believe on the Son of God?" The man has seen. Now Jesus invites him to confess his faith.',
+            'Jesus hears that the man has been cast out, and He finds him[res:intertextual-light-blind]. Again and again, Jesus seeks out those cast off by others. He does not leave them in isolation. He comes to them, by name, with a question: "Dost thou believe on the Son of God?" The man has seen. Now Jesus invites him to confess his faith.',
         },
         {
           kind: 'commentary',
@@ -171,6 +171,33 @@ export const JOHN_9: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'John 9 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'iaa-siloam-pool',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Pool of Siloam Archaeological Site',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'Archaeological evidence from the Siloam pool, including the tunnel construction and ritual bathing practices in Jesus&apos; time.',
+    },
+    {
+      id: 'bible-odyssey-blindness',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Blindness and Healing in Scripture',
+      url: 'https://www.bibleodyssey.org/dictionary/blindness/',
+      description: 'Open-access SBL resource on blindness as physical ailment and spiritual metaphor.',
+    },
+    {
+      id: 'intertextual-light-blind',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 42:7 ↔ John 9',
+      url: 'https://intertextual.bible/text/isaiah-42.7/john-9',
+      description: 'The messianic promise to open blind eyes fulfilled in Jesus&apos; healing.',
+    },
+  ],
 
   hasHebrew: false,
 };

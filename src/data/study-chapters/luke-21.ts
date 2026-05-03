@@ -43,7 +43,7 @@ export const LUKE_21: RichChapterContent = {
           kind: 'commentary',
           id: 'luke21-deception',
           html:
-            'Jesus warns: "Take heed that ye be not deceived." Many will come claiming to be Christ. Wars will arise. Earthquakes will shake the earth. Famines will bring suffering. These are signs, but they are not the end. They are the beginning of the end. Disciples must not be seized by fear or despair. There will be a long season of tribulation before the final coming.',
+            'Jesus warns: "Take heed that ye be not deceived[res:sefaria-false-messiahs]." Many will come claiming to be Christ. Wars will arise. Earthquakes will shake the earth. Famines will bring suffering. These are signs, but they are not the end. They are the beginning of the end. Disciples must not be seized by fear or despair. There will be a long season of tribulation before the final coming.',
         },
         {
           kind: 'greek',
@@ -58,7 +58,7 @@ export const LUKE_21: RichChapterContent = {
           kind: 'commentary',
           id: 'luke21-persecution',
           html:
-            'Jesus says: "They shall lay their hands on you, and persecute you." But disciples need not fear what men can do to the body. "For I will give you a mouth and wisdom, which all your adversaries shall not be able to gainsay nor resist." The Spirit will provide utterance. Truth will confound opposition. Courage in persecution comes from the Holy Ghost.',
+            'Jesus says: "They shall lay their hands on you, and persecute you." But disciples need not fear what men can do to the body. "For I will give you a mouth and wisdom, which all your adversaries shall not be able to gainsay nor resist[res:bible-odyssey-persecution]." The Spirit will provide utterance. Truth will confound opposition. Courage in persecution comes from the Holy Ghost.',
         },
         {
           kind: 'commentary',
@@ -106,7 +106,7 @@ export const LUKE_21: RichChapterContent = {
           kind: 'commentary',
           id: 'luke21-son-of-man',
           html:
-            '"And then shall they see the Son of man coming in a cloud with power and great glory." The Son of man comes visibly, in clouds, with power and glory. This is not a hidden spiritual coming. This is the manifest return of the judge, the vindicator, the deliverer. All will see. All will know.',
+            '"And then shall they see the Son of man coming in a cloud with power and great glory[res:sefaria-son-of-man]." The Son of man comes visibly, in clouds, with power and glory. This is not a hidden spiritual coming. This is the manifest return of the judge, the vindicator, the deliverer. All will see. All will know.',
         },
         {
           kind: 'greek',
@@ -149,6 +149,33 @@ export const LUKE_21: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Luke 21 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-false-messiahs',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'False Messiahs in Jewish Tradition',
+      url: 'https://www.sefaria.org/search?q=false%20messiah%20deception%20end%20times&tab=text',
+      description: 'Sefaria texts on eschatological deception and warnings about false prophets in Jewish thought.',
+    },
+    {
+      id: 'bible-odyssey-persecution',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Persecution and Witness in the Early Church',
+      url: 'https://www.bibleodyssey.org/dictionary/persecution/',
+      description: 'Open-access entry on suffering and persecution as part of Christian witness and discipleship.',
+    },
+    {
+      id: 'sefaria-son-of-man',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Son of Man in Jewish Apocalyptic Literature',
+      url: 'https://www.sefaria.org/search?q=son%20of%20man%20daniel%20apocalyptic&tab=text',
+      description: 'Sefaria texts on the Son of Man figure in apocalyptic literature and divine judgment.',
+    },
+  ],
 
   hasHebrew: false,
 };

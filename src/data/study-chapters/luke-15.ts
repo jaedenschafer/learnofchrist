@@ -48,7 +48,7 @@ export const LUKE_15: RichChapterContent = {
           kind: 'commentary',
           id: 'luke15-lost-sheep',
           html:
-            'The shepherd has a hundred sheep. One is lost. He does not calculate profit and loss. He does not think: "Ninety-nine are safe; that is enough." He leaves the ninety-nine and goes after the one. This is not prudent management. This is love. When he finds the sheep, he carries it home on his shoulders, rejoicing. He calls his friends: "Rejoice with me; for I have found my sheep which was lost." Jesus says: "Joy shall be in heaven over one sinner that repenteth."',
+            'The shepherd has a hundred sheep. One is lost[res:bible-odyssey-shepherd]. He does not calculate profit and loss. He does not think: "Ninety-nine are safe; that is enough." He leaves the ninety-nine and goes after the one. This is not prudent management. This is love. When he finds the sheep, he carries it home on his shoulders, rejoicing. He calls his friends: "Rejoice with me; for I have found my sheep which was lost." Jesus says: "Joy shall be in heaven over one sinner that repenteth."',
         },
         {
           kind: 'greek',
@@ -63,7 +63,7 @@ export const LUKE_15: RichChapterContent = {
           kind: 'commentary',
           id: 'luke15-lost-coin',
           html:
-            'A woman has ten coins. One is lost. She lights a lamp. She sweeps the house. She seeks diligently. These are simple actions, yet they show desperate intention. She wants that one coin. It is not about the money. It is about the wholeness of what was hers. When she finds it, she calls her friends: "Rejoice with me; for I have found the piece which I had lost." Joy over the found, over the restored, over wholeness recovered.',
+            'A woman has ten coins. One is lost. She lights a lamp. She sweeps the house. She seeks diligently. These are simple actions, yet they show desperate intention. She wants that one coin. It is not about the money. It is about the wholeness of what was hers. When she finds it, she calls her friends: "Rejoice with me; for I have found the piece which I had lost." Joy over the found, over the restored, over wholeness recovered[res:perseus-apoleian].',
         },
         {
           kind: 'commentary',
@@ -75,7 +75,7 @@ export const LUKE_15: RichChapterContent = {
           kind: 'commentary',
           id: 'luke15-father-runs',
           html:
-            'While the son is yet a great way off, the father sees him. The father is watching, waiting, hoping. And the father runs to him. An elderly man runs. He embraces his son and kisses him. The son begins his confession: "Father, I have sinned against heaven, and in thy sight." But the father does not let him finish. He calls to the servants: "Bring forth the best robe... a ring... shoes... bring the fatted calf... let us eat, and be merry." The restoration is complete and immediate.',
+            'While the son is yet a great way off, the father sees him[res:sefaria-prodigal-son]. The father is watching, waiting, hoping. And the father runs to him. An elderly man runs. He embraces his son and kisses him. The son begins his confession: "Father, I have sinned against heaven, and in thy sight." But the father does not let him finish. He calls to the servants: "Bring forth the best robe... a ring... shoes... bring the fatted calf... let us eat, and be merry." The restoration is complete and immediate.',
         },
         {
           kind: 'christ',
@@ -103,6 +103,33 @@ export const LUKE_15: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Luke 15 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bible-odyssey-shepherd',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Shepherds in the Biblical World',
+      url: 'https://www.bibleodyssey.org/dictionary/shepherd/',
+      description: 'Open-access entry on shepherding practices and metaphors in Scripture.',
+    },
+    {
+      id: 'sefaria-prodigal-son',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Return and Repentance in Rabbinic Teaching',
+      url: 'https://www.sefaria.org/search?q=return%20repentance%20teshuvah&tab=text',
+      description: 'Sefaria texts on teshuvah (return/repentance) in Jewish tradition, showing the OT context for the prodigal parable.',
+    },
+    {
+      id: 'perseus-apoleian',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Apollumi and Notions of Loss in Greek',
+      url: 'https://scaife.perseus.org/',
+      description: 'Perseus resource on apollumi (to lose, to perish) in classical and Koine Greek usage.',
+    },
+  ],
 
   hasHebrew: false,
 };

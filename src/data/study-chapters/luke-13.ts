@@ -46,7 +46,7 @@ export const LUKE_13: RichChapterContent = {
           kind: 'commentary',
           id: 'luke13-repentance',
           html:
-            'Jesus teaches a hard truth: suffering does not necessarily indicate special sin. The Galileans were not especially wicked because they suffered. But Jesus uses the occasion to call all to repentance. All are sinners. All must repent or perish. This is not judgment targeted at the wicked alone. It is a universal call.',
+            'Jesus teaches a hard truth: suffering does not necessarily indicate special sin. The Galileans were not especially wicked because they suffered. But Jesus uses the occasion to call all to repentance. All are sinners. All must repent or perish. This is not judgment targeted at the wicked alone. It is a universal call[res:bible-odyssey-repentance].',
         },
         {
           kind: 'greek',
@@ -61,13 +61,13 @@ export const LUKE_13: RichChapterContent = {
           kind: 'commentary',
           id: 'luke13-fig-tree',
           html:
-            'The parable of the fig tree presents a dialogue between justice and mercy. The owner has patience. The fig tree has failed to produce for three years. Why should it consume the ground? But the dresser intercedes: "Let it alone this year also." He will dig around it, nourish it, give it another chance. This is the patience of God. But patience is not infinite. If fruit does not come, the tree will be cut down.',
+            'The parable of the fig tree presents a dialogue between justice and mercy[res:sefaria-fig-tree]. The owner has patience. The fig tree has failed to produce for three years. Why should it consume the ground? But the dresser intercedes: "Let it alone this year also." He will dig around it, nourish it, give it another chance. This is the patience of God. But patience is not infinite. If fruit does not come, the tree will be cut down.',
         },
         {
           kind: 'commentary',
           id: 'luke13-mustard-seed',
           html:
-            'Jesus speaks of the kingdom as a mustard seed. It is tiny. It is insignificant. A man casts it into his garden. But it grows and becomes a great tree. The fowls lodge in its branches. From small beginnings, the kingdom grows to great size. This is not conquest by power. This is organic growth.',
+            'Jesus speaks of the kingdom as a mustard seed[res:perseus-sinapi]. It is tiny. It is insignificant. A man casts it into his garden. But it grows and becomes a great tree. The fowls lodge in its branches. From small beginnings, the kingdom grows to great size. This is not conquest by power. This is organic growth.',
         },
         {
           kind: 'christ',
@@ -153,6 +153,33 @@ export const LUKE_13: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Luke 13 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-fig-tree',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Fig Trees in Jewish Scripture and Legend',
+      url: 'https://www.sefaria.org/search?q=fig%20tree%20israel&tab=text',
+      description: 'Sefaria texts on fig trees in OT and Talmudic tradition, showing the symbolic meaning of fruitlessness.',
+    },
+    {
+      id: 'perseus-sinapi',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Sinapi: The Mustard Plant in Greek',
+      url: 'https://scaife.perseus.org/',
+      description: 'Perseus resource on the mustard plant (sinapi) in Hellenistic botany and agriculture.',
+    },
+    {
+      id: 'bible-odyssey-repentance',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Repentance in Scripture',
+      url: 'https://www.bibleodyssey.org/dictionary/repentance/',
+      description: 'Open-access entry on the concept of repentance across OT and NT.',
+    },
+  ],
 
   hasHebrew: false,
 };

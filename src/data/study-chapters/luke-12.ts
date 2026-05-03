@@ -47,7 +47,7 @@ export const LUKE_12: RichChapterContent = {
           kind: 'commentary',
           id: 'luke12-hypocrisy',
           html:
-            'Jesus warns against hypocrisy—the leaven that spreads invisibly through the dough. Hypocrisy is hidden corruption. But all hidden things will be revealed. "There is nothing covered, that shall not be revealed." The disciples are told to speak openly what Jesus has taught them in darkness. Fear does not silence the gospel. Truth will come into the light.',
+            'Jesus warns against hypocrisy—the leaven that spreads invisibly through the dough. Hypocrisy is hidden corruption. But all hidden things will be revealed. "There is nothing covered, that shall not be revealed." The disciples are told to speak openly what Jesus has taught them in darkness. Fear does not silence the gospel. Truth will come into the light[res:bible-odyssey-steward].',
         },
         {
           kind: 'greek',
@@ -62,13 +62,13 @@ export const LUKE_12: RichChapterContent = {
           kind: 'commentary',
           id: 'luke12-rich-fool',
           html:
-            'A rich man harvests abundantly. He congratulates himself: "Soul, thou hast much goods laid up for many years; take thine ease, eat, drink, and be merry." But God says: "Thou fool, this night thy soul shall be required of thee." All his barns, all his goods, will pass to someone else. He has accumulated wealth but impoverished his soul. He is not "rich toward God."',
+            'A rich man harvests abundantly. He congratulates himself: "Soul, thou hast much goods laid up for many years; take thine ease, eat, drink, and be merry[res:sefaria-covetousness]." But God says: "Thou fool, this night thy soul shall be required of thee." All his barns, all his goods, will pass to someone else. He has accumulated wealth but impoverished his soul. He is not "rich toward God."',
         },
         {
           kind: 'commentary',
           id: 'luke12-anxiety',
           html:
-            'Jesus teaches against anxiety about provisions. "Take no thought for your life, what ye shall eat." The ravens do not sow or reap, yet God feeds them. The lilies of the field toil not, yet Solomon in all his glory is not arrayed like one of these. If God clothes the grass that is cast into the oven, how much more will He clothe you, O ye of little faith?',
+            'Jesus teaches against anxiety about provisions[res:perseus-anxiety]. "Take no thought for your life, what ye shall eat." The ravens do not sow or reap, yet God feeds them. The lilies of the field toil not, yet Solomon in all his glory is not arrayed like one of these. If God clothes the grass that is cast into the oven, how much more will He clothe you, O ye of little faith?',
         },
         {
           kind: 'greek',
@@ -169,6 +169,33 @@ export const LUKE_12: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Luke 12 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-covetousness',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Warnings Against Greed in Rabbinic Literature',
+      url: 'https://www.sefaria.org/search?q=covetousness%20greed&tab=text',
+      description: 'Sefaria texts on Jewish warnings against acquisitiveness and wealth-accumulation.',
+    },
+    {
+      id: 'perseus-anxiety',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Greek Merimna: Anxiety and Care',
+      url: 'https://scaife.perseus.org/',
+      description: 'Perseus resource on merimna in Greek philosophy and New Testament usage, contrasting worry with trust.',
+    },
+    {
+      id: 'bible-odyssey-steward',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Stewardship and Accountability',
+      url: 'https://www.bibleodyssey.org/dictionary/steward/',
+      description: 'Open-access entry on stewardship theology in both Old and New Testaments.',
+    },
+  ],
 
   hasHebrew: false,
 };

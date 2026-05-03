@@ -44,7 +44,7 @@ export const JOHN_21: RichChapterContent = {
           kind: 'commentary',
           id: 'john21-fishing',
           html:
-            'Peter decides to return to fishing. The risen Christ has appeared, yet uncertainty remains. What now? The disciples follow Peter back to the old occupation. But they fish through the night and catch nothing. Their old way yields emptiness. The nets are empty. The night is long.',
+            'Peter decides to return to fishing at the Sea of Tiberias[res:topostext-tiberias-sea]. The risen Christ has appeared, yet uncertainty remains. What now? The disciples follow Peter back to the old occupation. But they fish through the night and catch nothing. Their old way yields emptiness. The nets are empty. The night is long.',
         },
         {
           kind: 'commentary',
@@ -125,7 +125,7 @@ export const JOHN_21: RichChapterContent = {
           kind: 'commentary',
           id: 'john21-feed',
           html:
-            'Each time Peter affirms his love, Jesus says: "Feed my lambs." "Tend my sheep." "Feed my sheep." The commission is clear. Peter&apos;s past failure does not disqualify him. Rather, his love—restored, reaffirmed—qualifies him to shepherd. Leadership flows from love. A pastor is one who loves the flock.',
+            'Each time Peter affirms his love, Jesus says: "Feed my lambs." "Tend my sheep." "Feed my sheep."[res:intertextual-shepherd-feed] The commission is clear. Peter&apos;s past failure does not disqualify him. Rather, his love—restored, reaffirmed—qualifies him to shepherd. Leadership flows from love. A pastor is one who loves the flock.',
         },
         {
           kind: 'greek',
@@ -146,7 +146,7 @@ export const JOHN_21: RichChapterContent = {
           kind: 'commentary',
           id: 'john21-glorify',
           html:
-            'Peter&apos;s death will glorify God. His willingness to die as his Lord died is the ultimate expression of love and discipleship. The call to follow carries the implication of cost. Yet it is given after restoration, after forgiveness, after the affirmation of love.',
+            'Peter&apos;s death will glorify God.[res:bible-odyssey-peter-restoration] His willingness to die as his Lord died is the ultimate expression of love and discipleship. The call to follow carries the implication of cost. Yet it is given after restoration, after forgiveness, after the affirmation of love.',
         },
         {
           kind: 'christ',
@@ -174,6 +174,33 @@ export const JOHN_21: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'John 21 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'topostext-tiberias-sea',
+      kind: 'study',
+      source: 'ToposText',
+      label: 'Sea of Tiberias (Lake of Galilee)',
+      url: 'https://topostext.org/',
+      description: 'Geographical and historical context for the Tiberias region and the fishery that forms the backdrop for John 21.',
+    },
+    {
+      id: 'intertextual-shepherd-feed',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 23 + Ezekiel 34 ↔ John 21:15–17',
+      url: 'https://intertextual.bible/text/ezekiel-34/john-21.15-17',
+      description: 'Peter as shepherd, commissioned by Christ, echoing the Old Testament language of pastoral care.',
+    },
+    {
+      id: 'bible-odyssey-peter-restoration',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Peter&apos;s Restoration and Role',
+      url: 'https://www.bibleodyssey.org/dictionary/peter/',
+      description: 'SBL resource on Peter&apos;s recovery from denial and his commission as shepherd of the flock.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -58,7 +58,7 @@ export const JOHN_18: RichChapterContent = {
           script: 'ἐγώ εἰμι',
           translit: '<strong>Ego Eimi</strong> · I am; the affirmation of identity and being',
           description:
-            'The phrase "I am" is charged with theological significance. It echoes the divine name, Yahweh. When Jesus says it, He asserts His identity as God, as the eternal one, as the source of all being. Yet He stands before armed men ready to die.',
+            'The phrase "I am" is charged with theological significance. It echoes the divine name, Yahweh[res:bible-odyssey-pilate]. When Jesus says it, He asserts His identity as God, as the eternal one, as the source of all being. Yet He stands before armed men ready to die.',
         },
         {
           kind: 'commentary',
@@ -117,7 +117,7 @@ export const JOHN_18: RichChapterContent = {
           kind: 'commentary',
           id: 'john18-truth',
           html:
-            '"That I should bear witness unto the truth." Jesus speaks of His mission. He has come not to establish an earthly kingdom, but to bear witness to truth. Truth about God, about humanity, about redemption, about the character of love. That witness is His kingship.',
+            '"That I should bear witness unto the truth."[res:intertextual-truth] Jesus speaks of His mission. He has come not to establish an earthly kingdom, but to bear witness to truth. Truth about God, about humanity, about redemption, about the character of love. That witness is His kingship.',
         },
         {
           kind: 'greek',
@@ -138,7 +138,7 @@ export const JOHN_18: RichChapterContent = {
           kind: 'commentary',
           id: 'john18-no-fault',
           html:
-            '"I find in him no fault at all." Yet knowing this, Pilate does not release Jesus. He goes back to the crowd and gives them the choice: Jesus or Barabbas. Barabbas was a robber, a criminal. The choice is stark. Yet the crowd chooses the criminal over the innocent. Pilate, unwilling to do right despite knowing it, yields to pressure and allows injustice.',
+            '"I find in him no fault at all."[res:iaa-gabbatha] Yet knowing this, Pilate does not release Jesus. He goes back to the crowd and gives them the choice: Jesus or Barabbas. Barabbas was a robber, a criminal. The choice is stark. Yet the crowd chooses the criminal over the innocent. Pilate, unwilling to do right despite knowing it, yields to pressure and allows injustice.',
         },
         {
           kind: 'christ',
@@ -166,6 +166,33 @@ export const JOHN_18: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'John 18 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'iaa-gabbatha',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Gabbatha (Pavement) Archaeological Site',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'Archaeological evidence of the stone pavement in Jerusalem where Pilate delivered judgment on Jesus.',
+    },
+    {
+      id: 'bible-odyssey-pilate',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Pontius Pilate',
+      url: 'https://www.bibleodyssey.org/dictionary/pontius-pilate/',
+      description: 'Open-access SBL entry on the Roman prefect and his role in Jesus&apos; trial.',
+    },
+    {
+      id: 'intertextual-truth',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 85:10 ↔ John 18:37',
+      url: 'https://intertextual.bible/text/psalm-85.10/john-18.37',
+      description: 'Jesus as the incarnate truth, fulfilling the Old Testament&apos;s vision of truth and righteousness.',
+    },
+  ],
 
   hasHebrew: false,
 };

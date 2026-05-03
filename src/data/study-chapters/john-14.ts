@@ -65,13 +65,13 @@ export const JOHN_14: RichChapterContent = {
           kind: 'commentary',
           id: 'john14-way',
           html:
-            '"I am the way, the truth, and the life." These three are not separate claims. They cohere. The way (path, direction) is the truth (reality, revelation) and leads to life (fullness, eternity). To follow Jesus is to walk in truth toward life. No other path leads to the Father. No other way opens the door.',
+            '"I am the way, the truth, and the life."[res:intertextual-father-knowing] These three are not separate claims. They cohere. The way (path, direction) is the truth (reality, revelation) and leads to life (fullness, eternity). To follow Jesus is to walk in truth toward life. No other path leads to the Father. No other way opens the door.',
         },
         {
           kind: 'commentary',
           id: 'john14-father-known',
           html:
-            '"He that hath seen me hath seen the Father." Philip asks for a vision of God. Jesus says: you have already seen Him. In all His words and works, the Father is revealed. Jesus is not pointing away from Himself to a distant God. He is saying: look at Me. In Me, the Father is visible.',
+            '"He that hath seen me hath seen the Father."[res:intertextual-father-knowing] Philip asks for a vision of God. Jesus says: you have already seen Him. In all His words and works, the Father is revealed. Jesus is not pointing away from Himself to a distant God. He is saying: look at Me. In Me, the Father is visible.',
         },
         {
           kind: 'christ',
@@ -120,7 +120,7 @@ export const JOHN_14: RichChapterContent = {
           kind: 'commentary',
           id: 'john14-comforter',
           html:
-            '"I will pray the Father, and he shall give you another Comforter, that he may abide with you for ever." Jesus will depart, but He will not leave them orphaned. Another Comforter will come—the Holy Ghost, the Spirit of truth. This Comforter will not visit temporarily. He will abide with them forever, indwelling, guiding, teaching.',
+            '"I will pray the Father, and he shall give you another Comforter, that he may abide with you for ever."[res:bible-odyssey-holy-spirit] Jesus will depart, but He will not leave them orphaned. Another Comforter will come—the Holy Ghost, the Spirit of truth. This Comforter will not visit temporarily. He will abide with them forever, indwelling, guiding, teaching.',
         },
         {
           kind: 'greek',
@@ -129,7 +129,7 @@ export const JOHN_14: RichChapterContent = {
           script: 'παράκλητος',
           translit: '<strong>Parakletos</strong> · comforter; advocate; counselor; one called alongside',
           description:
-            'The Parakletos is one called alongside—to help, to advocate, to stand with. The Holy Spirit is not a distant judge but a present helper. He comforts in sorrow, advocates in conflict, guides in confusion. He is the continuing presence of Jesus after the resurrection.',
+            'The Parakletos is one called alongside—to help, to advocate, to stand with[res:perseus-parakletos]. The Holy Spirit is not a distant judge but a present helper. He comforts in sorrow, advocates in conflict, guides in confusion. He is the continuing presence of Jesus after the resurrection.',
         },
         {
           kind: 'commentary',
@@ -169,6 +169,33 @@ export const JOHN_14: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'John 14 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'perseus-parakletos',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Parakletos (Advocate/Helper) — Greek Lexicon',
+      url: 'https://www.perseus.tufts.edu/',
+      description: 'Classical Greek usage of parakletos before its meaning is transformed by Jesus in the farewell discourse.',
+    },
+    {
+      id: 'intertextual-father-knowing',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Exodus 33:18–23 ↔ John 14:9–10',
+      url: 'https://intertextual.bible/text/exodus-33.18-23/john-14.9-10',
+      description: 'How Jesus fulfills the human longing to see God&apos;s face.',
+    },
+    {
+      id: 'bible-odyssey-holy-spirit',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Holy Spirit in John&apos;s Gospel',
+      url: 'https://www.bibleodyssey.org/dictionary/holy-spirit/',
+      description: 'Open-access SBL resource on the Spirit&apos;s role as Helper and Comforter in the farewell discourse.',
+    },
+  ],
 
   hasHebrew: false,
 };

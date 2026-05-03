@@ -44,7 +44,7 @@ export const JOHN_1: RichChapterContent = {
           kind: 'commentary',
           id: 'john1-word-beginning',
           html:
-            'John begins where Genesis begins—"In the beginning." But John looks deeper. Before creation, before light and darkness, before time itself, the Word was. Not as a creature, not as an emanation, but as a presence in the very heart of God. "The Word was with God" and "the Word was God." This is the paradox that anchors all of John&apos;s gospel: Jesus is both with God and is God. They are not one in confusion. They are one in nature, in purpose, in eternity.',
+            'John begins where Genesis begins—"In the beginning[res:sefaria-genesis-creation]." But John looks deeper. Before creation, before light and darkness, before time itself, the Word was. Not as a creature, not as an emanation, but as a presence in the very heart of God. "The Word was with God" and "the Word was God." This is the paradox that anchors all of John&apos;s gospel: Jesus is both with God and is God. They are not one in confusion. They are one in nature, in purpose, in eternity.',
         },
         {
           kind: 'greek',
@@ -116,7 +116,7 @@ export const JOHN_1: RichChapterContent = {
           kind: 'commentary',
           id: 'john1-lamb',
           html:
-            '"Behold the Lamb of God, which taketh away the sin of the world." In these words, John recalls the Passover lamb of Exodus, whose blood protected Israel from death. But more than that, John proclaims that Jesus will bear the sins of the world. He will absorb, carry, and remove the weight of human rebellion. Not through power or punishment, but through the willing sacrifice of the Lamb.',
+            '"Behold the Lamb of God, which taketh away the sin of the world[res:sefaria-atonement-lamb]." In these words, John recalls the Passover lamb of Exodus, whose blood protected Israel from death. But more than that, John proclaims that Jesus will bear the sins of the world. He will absorb, carry, and remove the weight of human rebellion. Not through power or punishment, but through the willing sacrifice of the Lamb.',
         },
         {
           kind: 'greek',
@@ -197,7 +197,7 @@ export const JOHN_1: RichChapterContent = {
           kind: 'commentary',
           id: 'john1-greater-things',
           html:
-            'Jesus does not rebuke Nathanael&apos;s faith as small or incomplete. Rather, He opens a vision: "thou shalt see greater things than these." The knowledge that Jesus is the Son of God is the foundation. But beyond that lies the unfolding revelation of His glory—the breaking open of heaven, the vision of angels ascending and descending upon Him. This recalls Jacob&apos;s ladder (Genesis 28:12), the place where heaven and earth meet. Jesus is that meeting place.',
+            'Jesus does not rebuke Nathanael&apos;s faith as small or incomplete. Rather, He opens a vision: "thou shalt see greater things than these." The knowledge that Jesus is the Son of God is the foundation. But beyond that lies the unfolding revelation of His glory—the breaking open of heaven, the vision of angels ascending and descending upon Him. This recalls Jacob&apos;s ladder[res:sefaria-jacob-ladder] (Genesis 28:12), the place where heaven and earth meet. Jesus is that meeting place.',
         },
         {
           kind: 'christ',
@@ -225,6 +225,33 @@ export const JOHN_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'John 1 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-creation',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Creation in Genesis and Jewish Cosmology',
+      url: 'https://www.sefaria.org/search?q=genesis%20creation%20beginning%20word%20dabar&tab=text',
+      description: 'Sefaria texts on creation theology, the Word of God as creative force, and the beginning of all things.',
+    },
+    {
+      id: 'sefaria-atonement-lamb',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Passover Lamb and Atonement in Jewish Theology',
+      url: 'https://www.sefaria.org/search?q=passover%20lamb%20sacrifice%20atonement%20sin&tab=text',
+      description: 'Sefaria texts on the Passover, sacrificial theology, and the meaning of the lamb in redemption.',
+    },
+    {
+      id: 'sefaria-jacob-ladder',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jacob&apos;s Ladder and the Vision of Heaven in Jewish Tradition',
+      url: 'https://www.sefaria.org/search?q=jacob%20ladder%20heaven%20earth%20angels%20sulam&tab=text',
+      description: 'Sefaria texts on Jacob&apos;s vision at Bethel, the connection between heaven and earth, and mystical ascent.',
+    },
+  ],
 
   hasHebrew: false,
 };
