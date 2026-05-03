@@ -14,7 +14,7 @@ export const GENESIS_1: RichChapterContent = {
 
   intros: [
     'Genesis 1 tells how God brought the world into being over seven days. Days one through three form the spaces of creation — light, sky, land. Days four through six fill those spaces — sun and moon, fish and birds, animals and humans. Day seven, God rests. Each day follows the same pattern: God speaks, what He speaks comes to be, He calls it good.',
-    'The chapter was written into a world full of other creation stories — Babylonian, Egyptian, Canaanite — with violent gods, cosmic battles, and humans made as slaves. Genesis answers them all. One God. Creation by peaceful speech. Humans made in His image. And for the reader on this side of the cross, the fingerprints of Christ are already everywhere: the Word who speaks, the Light before the sun, the Image we are made after, the Rest we are invited into.',
+    'The chapter was written into a world full of other creation stories — Babylonian[res:enuma-elish-bm], Egyptian, Canaanite — with violent gods, cosmic battles, and humans made as slaves. Genesis answers them all[res:bibleodyssey-creation-stories]. One God. Creation by peaceful speech. Humans made in His image. And for the reader on this side of the cross, the fingerprints of Christ are already everywhere: the Word who speaks, the Light before the sun, the Image we are made after, the Rest we are invited into.',
   ],
 
   opener: {
@@ -30,6 +30,36 @@ export const GENESIS_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 1 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'enuma-elish-bm',
+      kind: 'museum',
+      source: 'The British Museum',
+      label: 'Enuma Elish, Tablet I (K.5419c)',
+      url: 'https://www.britishmuseum.org/collection/object/W_K-5419-c',
+      description:
+        'The actual Neo-Assyrian clay tablet preserving the opening of the Babylonian creation epic — the very text Genesis 1 was written into and against. Tiamat is the chaos-sea goddess slain by Marduk; in Genesis, <em>tehom</em> is cognate with her name but demoted to mere dark water under God&apos;s Spirit.',
+    },
+    {
+      id: 'bibleodyssey-creation-stories',
+      kind: 'study',
+      source: 'Bible Odyssey · Society of Biblical Literature',
+      label: 'Creation Stories in the Bible',
+      url: 'https://www.bibleodyssey.org/articles/creation-stories-in-the-bible/',
+      description:
+        'Open-access scholarly overview from the SBL placing Genesis 1 alongside Mesopotamian and Egyptian creation accounts, with attention to how the Genesis writer answers and reframes them.',
+    },
+    {
+      id: 'sefaria-genesis-1',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Genesis 1 · Hebrew text + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Genesis.1',
+      description:
+        'The Hebrew text of Genesis 1 with Rashi, Ibn Ezra, Ramban and other classical commentators side-by-side. Useful for tracing how Jewish tradition handled the <em>bara&apos;</em> vs <em>asah</em> distinction long before Christian readers ever did.',
+    },
+  ],
 
   sections: [
     /* ─── Genesis 1:1–2 — The Beginning ───────────────────────────────── */
@@ -56,7 +86,7 @@ export const GENESIS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-bara',
           html:
-            'God is not argued for — He is simply already there. Two Hebrew verbs run side by side through this chapter: <em>bara&apos;</em>, a word whose subject is almost always God, and <em>asah</em>, &ldquo;to make, fashion, work.&rdquo; They trade places across the account — <em>bara&apos;</em> for humanity in verse 27, <em>asah</em> for the sun and stars in verse 16. Neither verb dictates <em>how</em> anything was made. <em>Bara&apos;</em> is used even where material clearly existed already, as in Genesis 5:2, which names the making of male and female humanity a <em>bara&apos;</em> act — yet Eve, we are told, was formed from Adam&apos;s side. Genesis is less interested in the mechanism than in the Maker.',
+            'God is not argued for — He is simply already there. Two Hebrew verbs run side by side through this chapter: <em>bara&apos;</em>[res:sefaria-genesis-1], a word whose subject is almost always God, and <em>asah</em>, &ldquo;to make, fashion, work.&rdquo; They trade places across the account — <em>bara&apos;</em> for humanity in verse 27, <em>asah</em> for the sun and stars in verse 16. Neither verb dictates <em>how</em> anything was made. <em>Bara&apos;</em> is used even where material clearly existed already, as in Genesis 5:2, which names the making of male and female humanity a <em>bara&apos;</em> act — yet Eve, we are told, was formed from Adam&apos;s side. Genesis is less interested in the mechanism than in the Maker.',
         },
         {
           kind: 'christ',
@@ -97,7 +127,7 @@ export const GENESIS_1: RichChapterContent = {
           script: 'תְּהוֹם',
           translit: '<strong>tehom</strong> · the primeval chaos-waters',
           description:
-            'Tehom is cognate with Tiamat, the chaos-sea goddess of Babylonian myth. In Genesis she is demoted to mere dark water. Nothing competes with God here.',
+            'Tehom is cognate with Tiamat[res:enuma-elish-bm], the chaos-sea goddess of Babylonian myth. In Genesis she is demoted to mere dark water. Nothing competes with God here.',
         },
         {
           kind: 'commentary',
