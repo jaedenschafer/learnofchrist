@@ -43,7 +43,7 @@ export const MATTHEW_21: RichChapterContent = {
           kind: 'commentary',
           id: 'matt21-entry',
           html:
-            'Jesus enters Jerusalem on a donkey, fulfilling the prophecy of Zechariah: "Thy King cometh unto thee... meek." The crowds cry "Hosanna"—meaning "Save us!" They recognize Him as the Messiah, the Son of David. Yet they expect a king who will free them from Rome. They do not anticipate that the salvation He brings is spiritual, not political.',
+            'Jesus enters Jerusalem on a donkey, fulfilling the prophecy of Zechariah [res:sefaria-zechariah-9-9]: "Thy King cometh unto thee... meek." The crowds cry "Hosanna"—meaning "Save us!" They recognize Him as the Messiah, the Son of David. Yet they expect a king who will free them from Rome. They do not anticipate that the salvation He brings is spiritual, not political.',
         },
         {
           kind: 'commentary',
@@ -105,7 +105,7 @@ export const MATTHEW_21: RichChapterContent = {
           kind: 'commentary',
           id: 'matt21-vineyard',
           html:
-            'The parable of the vineyard is an allegory of Israel&apos;s history. The householder is God. The vineyard is Israel. The husbandmen are the religious leaders. God sends prophets (servants), and they are beaten, killed, and stoned. Finally, He sends His son. The husbandmen think: if we kill the heir, we can seize the inheritance. So they kill him. The parable lays bare the coming crucifixion and the rejection of Jesus by the authorities.',
+            'The parable of the vineyard is an allegory of Israel&apos;s history [res:intertextual-vineyard-tenants]. The householder is God. The vineyard is Israel. The husbandmen are the religious leaders. God sends prophets (servants), and they are beaten, killed, and stoned. Finally, He sends His son. The husbandmen think: if we kill the heir, we can seize the inheritance. So they kill him. The parable lays bare the coming crucifixion and the rejection of Jesus by the authorities.',
         },
         {
           kind: 'commentary',
@@ -154,6 +154,33 @@ export const MATTHEW_21: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Matthew 21 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-zechariah-9-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Zechariah 9:9 — The King Comes Humbly',
+      url: 'https://www.sefaria.org/Zechariah.9.9',
+      description: 'Old Testament prophecy of the Messiah&apos;s peaceful entry that Jesus fulfills on a donkey.',
+    },
+    {
+      id: 'intertextual-vineyard-tenants',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Parable of the Vineyard and Tenants — Gospel Parallels',
+      url: 'https://intertextual.bible/text/matthew-21.33',
+      description: 'Comparison of the allegorical vineyard parable across Matthew, Mark, and Luke.',
+    },
+    {
+      id: 'sefaria-psalm-118-22',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 118:22 — The Rejected Stone',
+      url: 'https://www.sefaria.org/Psalms.118.22',
+      description: 'Messianic psalm Jesus quotes to explain His rejection and exaltation as cornerstone.',
+    },
+  ],
 
   hasHebrew: false,
 };

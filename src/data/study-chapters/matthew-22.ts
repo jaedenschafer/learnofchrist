@@ -45,7 +45,7 @@ export const MATTHEW_22: RichChapterContent = {
           kind: 'commentary',
           id: 'matt22-feast',
           html:
-            'The parable of the wedding feast is a dark tale. A king invites guests to his son&apos;s wedding. They refuse. The king sends servants again. Some ignore the invitation. Others seize, mistreat, and kill the servants. The king is wrathful. His armies destroy the murderers and burn their city. Then the king says: "The wedding is ready, but they which were bidden were not worthy." The invitation extends beyond the chosen few to anyone found on the highways.',
+            'The parable of the wedding feast is a dark tale [res:intertextual-wedding-feast]. A king invites guests to his son&apos;s wedding. They refuse. The king sends servants again. Some ignore the invitation. Others seize, mistreat, and kill the servants. The king is wrathful. His armies destroy the murderers and burn their city. Then the king says: "The wedding is ready, but they which were bidden were not worthy." The invitation extends beyond the chosen few to anyone found on the highways.',
         },
         {
           kind: 'commentary',
@@ -109,7 +109,7 @@ export const MATTHEW_22: RichChapterContent = {
           kind: 'commentary',
           id: 'matt22-commandments',
           html:
-            'A lawyer asks Jesus: What is the greatest commandment? Jesus answers: love the Lord your God with all your heart, soul, and mind. This is the first and greatest. And the second is like it: love your neighbor as yourself. These two commandments capture the entire law and the prophets. All other commands flow from these. Righteousness is not a maze of rules but a lived expression of love toward God and others.',
+            'A lawyer asks Jesus: What is the greatest commandment? Jesus answers: love the Lord your God with all your heart, soul, and mind [res:sefaria-deuteronomy-6-5]. This is the first and greatest. And the second is like it: love your neighbor as yourself. These two commandments capture the entire law and the prophets. All other commands flow from these. Righteousness is not a maze of rules but a lived expression of love toward God and others.',
         },
         {
           kind: 'commentary',
@@ -158,6 +158,33 @@ export const MATTHEW_22: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Matthew 22 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'intertextual-wedding-feast',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Parable of the Wedding Feast — Matthew Only',
+      url: 'https://intertextual.bible/text/matthew-22.1',
+      description: 'Unique Matthean parable on rejection of the kingdom invitation and inclusion of the unexpected.',
+    },
+    {
+      id: 'sefaria-deuteronomy-6-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 6:5 — The Great Commandment',
+      url: 'https://www.sefaria.org/Deuteronomy.6.5',
+      description: 'Old Testament foundation for Jesus&apos; teaching on the primacy of loving God wholly.',
+    },
+    {
+      id: 'sefaria-psalm-110-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 110:1 — David&apos;s Lord',
+      url: 'https://www.sefaria.org/Psalms.110.1',
+      description: 'Messianic psalm Jesus quotes to show He is greater than David, His ancestor.',
+    },
+  ],
 
   hasHebrew: false,
 };

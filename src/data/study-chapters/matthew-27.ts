@@ -118,7 +118,7 @@ export const MATTHEW_27: RichChapterContent = {
           kind: 'commentary',
           id: 'matt27-forsaken',
           html:
-            'This is the deepest suffering—not physical pain alone, but the sense of abandonment. Jesus cries not as one who has lost faith, but as one quoting Psalm 22, a psalm of abandonment that culminates in vindication. His cry is agony, but it is also prayer. He addresses God. He does not despair. Even in forsakenness, He trusts.',
+            'This is the deepest suffering—not physical pain alone, but the sense of abandonment [res:sefaria-psalm-22]. Jesus cries not as one who has lost faith, but as one quoting Psalm 22, a psalm of abandonment that culminates in vindication. His cry is agony, but it is also prayer. He addresses God. He does not despair. Even in forsakenness, He trusts.',
         },
         {
           kind: 'greek',
@@ -133,7 +133,7 @@ export const MATTHEW_27: RichChapterContent = {
           kind: 'commentary',
           id: 'matt27-veil-torn',
           html:
-            'At the moment Jesus dies, the veil of the temple is torn in two, from top to bottom. The tearing is not from human hands but from divine action. The barrier between God and humanity is destroyed. What was hidden behind the veil—God&apos;s presence, God&apos;s mercy—is now accessible to all. The old system of sacrifices and priestly mediation is complete. Christ has opened the way.',
+            'At the moment Jesus dies, the veil of the temple is torn in two, from top to bottom [res:bibleodyssey-temple-veil]. The tearing is not from human hands but from divine action. The barrier between God and humanity is destroyed. What was hidden behind the veil—God&apos;s presence, God&apos;s mercy—is now accessible to all. The old system of sacrifices and priestly mediation is complete. Christ has opened the way.',
         },
         {
           kind: 'commentary',
@@ -173,6 +173,33 @@ export const MATTHEW_27: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Matthew 27 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm-22',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 22 — The Cry of Abandonment and Vindication',
+      url: 'https://www.sefaria.org/Psalms.22',
+      description: 'Messianic psalm that Jesus quotes at the crucifixion, expressing abandonment yet trust, and culminating in vindication.',
+    },
+    {
+      id: 'bibleodyssey-temple-veil',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Temple Veil — Barrier Removed',
+      url: 'https://www.bibleodyssey.org/dictionary/temple-veil/',
+      description: 'Analysis of the temple veil and its significance as the barrier between God and humanity, which is destroyed at Christ&apos;s death.',
+    },
+    {
+      id: 'intertextual-crucifixion',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Crucifixion — Gospel Parallels',
+      url: 'https://intertextual.bible/text/matthew-27.35',
+      description: 'Comparison of the crucifixion accounts across Matthew, Mark, Luke, and John, with commentary on Old Testament fulfillment.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -49,7 +49,7 @@ export const MATTHEW_14: RichChapterContent = {
           kind: 'commentary',
           id: 'matt14-john-death',
           html:
-            'John the Baptist is beheaded by Herod to satisfy a dancing girl and a vengeful woman. It seems a senseless death, a waste. Yet Matthew reports it without editorial comment. John&apos;s mission was to prepare the way for Jesus. That mission is complete. John has testified to Jesus. He has baptized Jesus. Now he dies. His death points to a greater death—the death of the Messiah himself.',
+            'John the Baptist is beheaded by Herod to satisfy a dancing girl and a vengeful woman [res:bibleodyssey-herod-death]. It seems a senseless death, a waste. Yet Matthew reports it without editorial comment. John&apos;s mission was to prepare the way for Jesus. That mission is complete. John has testified to Jesus. He has baptized Jesus. Now he dies. His death points to a greater death—the death of the Messiah himself.',
         },
         {
           kind: 'commentary',
@@ -61,7 +61,7 @@ export const MATTHEW_14: RichChapterContent = {
           kind: 'commentary',
           id: 'matt14-feeding',
           html:
-            'The disciples want to send the crowds away so they can find food in the villages. Jesus rejects this: "They need not depart: give ye them to eat." It is an impossible command. The disciples have five loaves and two fishes. Five thousand men (besides women and children). Yet Jesus takes what they have, blesses it, and multiplies it. All eat and are filled. Twelve baskets of fragments remain—more than they started with.',
+            'The disciples want to send the crowds away so they can find food in the villages. Jesus rejects this: "They need not depart: give ye them to eat." It is an impossible command. The disciples have five loaves and two fishes. Five thousand men (besides women and children). Yet Jesus takes what they have, blesses it, and multiplies it [res:intertextual-feeding-5000]. All eat and are filled. Twelve baskets of fragments remain—more than they started with.',
         },
         {
           kind: 'commentary',
@@ -127,7 +127,7 @@ export const MATTHEW_14: RichChapterContent = {
           kind: 'commentary',
           id: 'matt14-peter-walk',
           html:
-            'Peter recognizes the voice and, in a moment of courage, asks "Lord, if it be thou, tell me to come unto thee on the water." Jesus says "Come." And miraculously, Peter walks on the water toward Jesus. For a moment, faith overcomes nature. Peter is doing the impossible. But then fear rises: "When he saw the wind boisterous, he was afraid." Fear breaks the spell. Peter begins to sink. "Lord, save me," he cries. And Jesus, reaching out His hand, saves him from drowning.',
+            'Peter recognizes the voice and, in a moment of courage, asks "Lord, if it be thou, tell me to come unto thee on the water." Jesus says "Come." And miraculously, Peter walks on the water toward Jesus [res:intertextual-peter-walking]. For a moment, faith overcomes nature. Peter is doing the impossible. But then fear rises: "When he saw the wind boisterous, he was afraid." Fear breaks the spell. Peter begins to sink. "Lord, save me," he cries. And Jesus, reaching out His hand, saves him from drowning.',
         },
         {
           kind: 'commentary',
@@ -176,6 +176,33 @@ export const MATTHEW_14: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Matthew 14 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-herod-death',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Herod and the Execution of John the Baptist',
+      url: 'https://www.bibleodyssey.org/dictionary/herod-the-great/',
+      description: 'Historical and theological context for Herod&apos;s rule and his role in John the Baptist&apos;s execution.',
+    },
+    {
+      id: 'intertextual-feeding-5000',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Feeding of the Five Thousand — Synoptic Parallels',
+      url: 'https://intertextual.bible/text/matthew-14.13',
+      description: 'Comparison of the feeding miracle across Matthew, Mark, Luke, and John with interpretative variations.',
+    },
+    {
+      id: 'intertextual-peter-walking',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Peter Walking on Water — Synoptic Parallels',
+      url: 'https://intertextual.bible/text/matthew-14.28',
+      description: 'Parallel accounts of Peter&apos;s attempt to walk on water and his cry for salvation across the Gospels.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -50,7 +50,7 @@ export const MATTHEW_28: RichChapterContent = {
           kind: 'commentary',
           id: 'matt28-resurrection',
           html:
-            'The resurrection is not a resuscitation or a vision. It is a new existence—the body is real (Jesus can be held) yet transformed (He appears and disappears). Jesus has passed through death and entered a new mode of being. He is not a ghost but a living presence. The sealed tomb cannot contain Him. The stone is rolled away not because He needed help to escape, but to testify to those who come.',
+            'The resurrection is not a resuscitation or a vision [res:bibleodyssey-resurrection]. It is a new existence—the body is real (Jesus can be held) yet transformed (He appears and disappears). Jesus has passed through death and entered a new mode of being. He is not a ghost but a living presence. The sealed tomb cannot contain Him. The stone is rolled away not because He needed help to escape, but to testify to those who come.',
         },
         {
           kind: 'greek',
@@ -128,7 +128,7 @@ export const MATTHEW_28: RichChapterContent = {
           kind: 'commentary',
           id: 'matt28-commission',
           html:
-            '"Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost." The Great Commission is universal in scope. Not to the Jews only, but to all nations. Not merely to proclaim the gospel, but to make disciples—to teach them to observe all that Jesus has commanded.',
+            '"Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost" [res:intertextual-great-commission]. The Great Commission is universal in scope. Not to the Jews only, but to all nations. Not merely to proclaim the gospel, but to make disciples—to teach them to observe all that Jesus has commanded.',
         },
         {
           kind: 'commentary',
@@ -168,6 +168,33 @@ export const MATTHEW_28: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Matthew 28 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-resurrection',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Resurrection of Jesus',
+      url: 'https://www.bibleodyssey.org/dictionary/resurrection-of-jesus/',
+      description: 'Theological analysis of the resurrection as physical, historical event and the vindication of Jesus&apos; claims and redemptive work.',
+    },
+    {
+      id: 'intertextual-great-commission',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Great Commission — Gospel Parallels',
+      url: 'https://intertextual.bible/text/matthew-28.19',
+      description: 'Comparison of the Great Commission across Matthew, Mark, Luke, and John, with implications for Christian mission and discipleship.',
+    },
+    {
+      id: 'sefaria-daniel-7-13',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Daniel 7:13–14 — The Son of Man in Glory',
+      url: 'https://www.sefaria.org/Daniel.7.13',
+      description: 'Old Testament prophecy of the Son of Man receiving dominion and glory, which Jesus fulfills in His resurrection and exaltation.',
+    },
+  ],
 
   hasHebrew: false,
 };

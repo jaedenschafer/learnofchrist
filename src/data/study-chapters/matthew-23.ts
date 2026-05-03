@@ -153,5 +153,32 @@ export const MATTHEW_23: RichChapterContent = {
     ref: 'Matthew 23 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'bibleodyssey-pharisees-hypocrisy',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Pharisaic Hypocrisy and Jesus&apos; Critique',
+      url: 'https://www.bibleodyssey.org/dictionary/pharisees/',
+      description: 'Overview of Pharisaic practices and Jesus&apos; condemnation of their outward piety without inner transformation.',
+    },
+    {
+      id: 'sefaria-matthew-23-woes',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Seven Woes of Matthew 23 — Literary Structure',
+      url: 'https://www.sefaria.org/Matthew.23',
+      description: 'Analysis of the seven-fold woe structure and Jesus&apos; prophetic confrontation of religious leadership.',
+    },
+    {
+      id: 'bibleodyssey-jerusalem-destruction',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jesus&apos; Lament Over Jerusalem',
+      url: 'https://www.bibleodyssey.org/dictionary/jerusalem/',
+      description: 'Historical context for Jesus&apos; grief over Jerusalem and prophecy of the temple&apos;s destruction.',
+    },
+  ],
+
   hasHebrew: false,
 };

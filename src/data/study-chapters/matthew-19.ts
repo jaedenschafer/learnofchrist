@@ -42,7 +42,7 @@ export const MATTHEW_19: RichChapterContent = {
           kind: 'commentary',
           id: 'matt19-marriage',
           html:
-            'The Pharisees test Jesus on divorce. Jewish law permitted divorce, but the debate centered on grounds. Jesus goes to the heart: at creation, God made them male and female and joined them. Marriage is not a contract to be dissolved at pleasure. It is a covenant bond—"one flesh." What God has joined, humans lack the authority to separate.',
+            'The Pharisees test Jesus on divorce [res:sefaria-genesis-2-24]. Jewish law permitted divorce, but the debate centered on grounds. Jesus goes to the heart: at creation, God made them male and female and joined them. Marriage is not a contract to be dissolved at pleasure. It is a covenant bond—"one flesh." What God has joined, humans lack the authority to separate.',
         },
         {
           kind: 'commentary',
@@ -105,7 +105,7 @@ export const MATTHEW_19: RichChapterContent = {
           kind: 'commentary',
           id: 'matt19-sell-all',
           html:
-            'Jesus does not demand that all who follow Him sell everything. But He knows this man. His wealth is his god, his security, his identity. "If thou wilt be perfect, go and sell that thou hast, and give to the poor... and come and follow me." The cost of following is everything. The man counts the cost, finds it too high, and walks away. His great possessions keep him from the greatest possession—eternal life.',
+            'Jesus does not demand that all who follow Him sell everything. But He knows this man [res:bibleodyssey-rich-ruler]. His wealth is his god, his security, his identity. "If thou wilt be perfect, go and sell that thou hast, and give to the poor... and come and follow me." The cost of following is everything. The man counts the cost, finds it too high, and walks away. His great possessions keep him from the greatest possession—eternal life.',
         },
         {
           kind: 'greek',
@@ -148,6 +148,33 @@ export const MATTHEW_19: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Matthew 19 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-2-24',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Genesis 2:24 — Marriage Covenant',
+      url: 'https://www.sefaria.org/Genesis.2.24',
+      description: 'Old Testament foundation for Jesus&apos; teaching on marriage as a sacred union "one flesh."',
+    },
+    {
+      id: 'bibleodyssey-rich-ruler',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Rich Young Ruler — Gospel Parallels',
+      url: 'https://www.bibleodyssey.org/dictionary/rich-young-ruler/',
+      description: 'Comparison of the encounter across Matthew, Mark, and Luke, with theological implications.',
+    },
+    {
+      id: 'intertextual-laborers-vineyard',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Laborers in the Vineyard — Matthew Only',
+      url: 'https://intertextual.bible/text/matthew-20.1',
+      description: 'Parable of grace and God&apos;s generous reward, unique to Matthew&apos;s Gospel.',
+    },
+  ],
 
   hasHebrew: false,
 };

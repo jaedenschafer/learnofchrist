@@ -43,7 +43,7 @@ export const MATTHEW_24: RichChapterContent = {
           kind: 'commentary',
           id: 'matt24-deception',
           html:
-            'Jesus&apos; first warning is about deception. "Take heed that no man deceive you. For many shall come in my name, saying, I am Christ; and shall deceive many." In the last times, false messiahs and false prophets will arise. The sign of the end is not a single event or person but a pattern of turbulence, accompanied by the warning not to be deceived.',
+            'Jesus&apos; first warning is about deception [res:bibleodyssey-false-messiahs]. "Take heed that no man deceive you. For many shall come in my name, saying, I am Christ; and shall deceive many." In the last times, false messiahs and false prophets will arise. The sign of the end is not a single event or person but a pattern of turbulence, accompanied by the warning not to be deceived.',
         },
         {
           kind: 'commentary',
@@ -64,7 +64,7 @@ export const MATTHEW_24: RichChapterContent = {
           kind: 'commentary',
           id: 'matt24-coming',
           html:
-            'When all nations have heard, then the end comes. Jesus describes cosmic signs: the sun darkened, the moon giving no light, stars falling from heaven. "And then shall appear the sign of the Son of man in heaven: and then shall all the tribes of the earth mourn: and they shall see the Son of man coming in the clouds of heaven with power and great glory."',
+            'When all nations have heard, then the end comes [res:sefaria-isaiah-13-cosmic-signs]. Jesus describes cosmic signs: the sun darkened, the moon giving no light, stars falling from heaven. "And then shall appear the sign of the Son of man in heaven: and then shall all the tribes of the earth mourn: and they shall see the Son of man coming in the clouds of heaven with power and great glory."',
         },
         {
           kind: 'commentary',
@@ -167,6 +167,33 @@ export const MATTHEW_24: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Matthew 24 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-false-messiahs',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'False Messiahs and Prophets in the Last Days',
+      url: 'https://www.bibleodyssey.org/dictionary/false-messiahs/',
+      description: 'Overview of eschatological deception and the proliferation of false messiahs in Jewish and Christian expectation.',
+    },
+    {
+      id: 'sefaria-isaiah-13-cosmic-signs',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 13 — Cosmic Signs and Divine Judgment',
+      url: 'https://www.sefaria.org/Isaiah.13',
+      description: 'Old Testament prophecy of cosmic upheaval and divine judgment that Jesus echoes in His eschatological discourse.',
+    },
+    {
+      id: 'intertextual-olivet-discourse',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Olivet Discourse — Gospel Parallels',
+      url: 'https://intertextual.bible/text/matthew-24.1',
+      description: 'Comparison of Jesus&apos; end-times teaching across Matthew, Mark, and Luke, highlighting unique Matthean emphases.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -43,7 +43,7 @@ export const MATTHEW_15: RichChapterContent = {
           kind: 'commentary',
           id: 'matt15-tradition',
           html:
-            'The Pharisees hold to the traditions of the elders—elaborate oral laws developed to protect God&apos;s written commandment from being broken. Yet in their zeal, they have made tradition equal to, or even superior to, God&apos;s law itself. They honor God with their lips while their hearts are far from Him. Jesus sees through this: they have substituted external compliance for inner transformation.',
+            'The Pharisees hold to the traditions of the elders—elaborate oral laws developed to protect God&apos;s written commandment from being broken [res:bibleodyssey-pharisees]. Yet in their zeal, they have made tradition equal to, or even superior to, God&apos;s law itself. They honor God with their lips while their hearts are far from Him. Jesus sees through this: they have substituted external compliance for inner transformation.',
         },
         {
           kind: 'commentary',
@@ -101,7 +101,7 @@ export const MATTHEW_15: RichChapterContent = {
           kind: 'commentary',
           id: 'matt15-canaanite',
           html:
-            'A woman of Canaan—a pagan woman, an outsider, a member of a people the Israelites were commanded to drive out—comes to Jesus in desperation. Her daughter is tormented by a demon. She calls Jesus "Lord" and "Son of David." Jesus&apos; initial response seems cold: "I am not sent but unto the lost sheep of the house of Israel." But the woman does not retreat. She knows the crumbs from the master&apos;s table are enough.',
+            'A woman of Canaan—a pagan woman, an outsider, a member of a people the Israelites were commanded to drive out—comes to Jesus in desperation [res:intertextual-canaanite-woman]. Her daughter is tormented by a demon. She calls Jesus "Lord" and "Son of David." Jesus&apos; initial response seems cold: "I am not sent but unto the lost sheep of the house of Israel." But the woman does not retreat. She knows the crumbs from the master&apos;s table are enough.',
         },
         {
           kind: 'commentary',
@@ -144,6 +144,33 @@ export const MATTHEW_15: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Matthew 15 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-pharisees',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Pharisees and Their Traditions',
+      url: 'https://www.bibleodyssey.org/dictionary/pharisees/',
+      description: 'Overview of Pharisaic thought, oral traditions, and their conflicts with Jesus over law and purity.',
+    },
+    {
+      id: 'intertextual-canaanite-woman',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Canaanite Woman — Gospel Parallels',
+      url: 'https://intertextual.bible/text/matthew-15.21',
+      description: 'Comparison of the Canaanite woman story across Matthew and Mark, with interpretative notes.',
+    },
+    {
+      id: 'sefaria-mark-7-purity',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jewish Purity Laws and Tradition',
+      url: 'https://www.sefaria.org/Leviticus.11',
+      description: 'Old Testament foundation for purity laws that Jesus challenges in His teaching on defilement.',
+    },
+  ],
 
   hasHebrew: false,
 };

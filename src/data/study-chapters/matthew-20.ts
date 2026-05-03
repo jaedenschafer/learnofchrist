@@ -49,7 +49,7 @@ export const MATTHEW_20: RichChapterContent = {
           kind: 'commentary',
           id: 'matt20-grumble',
           html:
-            'Those hired early grumble. They expect to receive more for working longer. Instead, all receive the same. Their complaint reveals a transactional mind-set: work is a contract to be negotiated. But the owner&apos;s response is not a contract but a gift. He has done no wrong. He has been gracious to all. Those hired late have received mercy; those hired early have received what they bargained for.',
+            'Those hired early grumble [res:intertextual-laborers-vineyard]. They expect to receive more for working longer. Instead, all receive the same. Their complaint reveals a transactional mind-set: work is a contract to be negotiated. But the owner&apos;s response is not a contract but a gift. He has done no wrong. He has been gracious to all. Those hired late have received mercy; those hired early have received what they bargained for.',
         },
         {
           kind: 'greek',
@@ -108,7 +108,7 @@ export const MATTHEW_20: RichChapterContent = {
           kind: 'commentary',
           id: 'matt20-passion',
           html:
-            'Jesus speaks plainly about His approaching passion. He will be betrayed, condemned, delivered to the Gentiles, mocked, scourged, and crucified. Yet the third day He will rise. The resurrection is not separate from the cross; it is inseparable from it. To follow Jesus requires understanding that suffering precedes glory.',
+            'Jesus speaks plainly about His approaching passion [res:bibleodyssey-passion-predictions]. He will be betrayed, condemned, delivered to the Gentiles, mocked, scourged, and crucified. Yet the third day He will rise. The resurrection is not separate from the cross; it is inseparable from it. To follow Jesus requires understanding that suffering precedes glory.',
         },
         {
           kind: 'commentary',
@@ -157,6 +157,33 @@ export const MATTHEW_20: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Matthew 20 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'intertextual-laborers',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Laborers in the Vineyard — Matthew Only',
+      url: 'https://intertextual.bible/text/matthew-20.1',
+      description: 'Unique Matthean parable on grace, fairness, and the inversion of worldly economics.',
+    },
+    {
+      id: 'bibleodyssey-passion-predictions',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jesus&apos; Passion Predictions',
+      url: 'https://www.bibleodyssey.org/dictionary/passion-of-christ/',
+      description: 'Overview of Jesus&apos; multiple predictions of His suffering, death, and resurrection.',
+    },
+    {
+      id: 'sefaria-isaiah-53',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 53 — The Suffering Servant',
+      url: 'https://www.sefaria.org/Isaiah.53',
+      description: 'Old Testament prophecy that Jesus&apos; passion and resurrection fulfill.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -49,7 +49,7 @@ export const MATTHEW_26: RichChapterContent = {
           kind: 'commentary',
           id: 'matt26-last-supper',
           html:
-            'Jesus takes bread and blesses it. "Take, eat; this is my body." He takes the cup. "This is my blood of the covenant, which is shed for many for the remission of sins." The meal recapitulates the Exodus—the Passover lamb whose blood spares the firstborn. But now Jesus Himself is the Lamb. His blood is the price of redemption. The covenant is not written on stone but sealed in His flesh.',
+            'Jesus takes bread and blesses it [res:intertextual-last-supper]. "Take, eat; this is my body." He takes the cup. "This is my blood of the covenant, which is shed for many for the remission of sins." The meal recapitulates the Exodus—the Passover lamb whose blood spares the firstborn. But now Jesus Himself is the Lamb. His blood is the price of redemption. The covenant is not written on stone but sealed in His flesh.',
         },
         {
           kind: 'greek',
@@ -107,7 +107,7 @@ export const MATTHEW_26: RichChapterContent = {
           kind: 'commentary',
           id: 'matt26-gethsemane',
           html:
-            'In Gethsemane, Jesus enters His deepest agony. He takes Peter, James, and John further into the garden and prays: "O my Father, if it be possible, let this cup pass from me: nevertheless not as I will, but as thou wilt." The cup is His impending death, His bearing of human sin, His separation from the Father. He does not want it. Yet He submits. His will aligns with His Father&apos;s will.',
+            'In Gethsemane [res:bibleodyssey-gethsemane], Jesus enters His deepest agony. He takes Peter, James, and John further into the garden and prays: "O my Father, if it be possible, let this cup pass from me: nevertheless not as I will, but as thou wilt." The cup is His impending death, His bearing of human sin, His separation from the Father. He does not want it. Yet He submits. His will aligns with His Father&apos;s will.',
         },
         {
           kind: 'commentary',
@@ -168,6 +168,33 @@ export const MATTHEW_26: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Matthew 26 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'intertextual-last-supper',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Last Supper — Gospel Parallels',
+      url: 'https://intertextual.bible/text/matthew-26.26',
+      description: 'Comparison of the Last Supper accounts across Matthew, Mark, Luke, and Paul, with theological implications for the covenant meal.',
+    },
+    {
+      id: 'bibleodyssey-gethsemane',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Gethsemane — Jesus&apos; Prayer of Submission',
+      url: 'https://www.bibleodyssey.org/dictionary/gethsemane/',
+      description: 'Analysis of Jesus&apos; agony in prayer and His submission to the Father&apos;s will in the face of crucifixion.',
+    },
+    {
+      id: 'sefaria-exodus-12-passover',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 12 — The Passover Lamb',
+      url: 'https://www.sefaria.org/Exodus.12',
+      description: 'Old Testament foundation for understanding Jesus as the Passover Lamb whose blood is shed for the redemption of sins.',
+    },
+  ],
 
   hasHebrew: false,
 };

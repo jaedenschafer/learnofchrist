@@ -43,7 +43,7 @@ export const MATTHEW_18: RichChapterContent = {
           kind: 'commentary',
           id: 'matt18-children',
           html:
-            'Jesus centers a child in the conversation about greatness. In the ancient world, children had no status, no legal standing, no power. Yet Jesus says: this is the model. To enter the kingdom, you must be converted—turned around, transformed—to become like a child. Not naive, but dependent. Not powerless in the kingdom sense, but freed from the weight of status and pride.',
+            'Jesus centers a child in the conversation about greatness [res:bibleodyssey-childhood]. In the ancient world, children had no status, no legal standing, no power. Yet Jesus says: this is the model. To enter the kingdom, you must be converted—turned around, transformed—to become like a child. Not naive, but dependent. Not powerless in the kingdom sense, but freed from the weight of status and pride.',
         },
         {
           kind: 'commentary',
@@ -122,7 +122,7 @@ export const MATTHEW_18: RichChapterContent = {
           kind: 'commentary',
           id: 'matt18-unforgiving',
           html:
-            'The parable of the unforgiving servant is devastating. A king forgives a servant an impossible debt—10,000 talents. Yet that same servant, going out, finds a fellow servant who owes him 100 denarii—a pittance by comparison. Instead of extending the mercy he received, the servant refuses and has the debtor imprisoned. When the king hears, he is angry. He revokes the forgiveness and delivers the servant to torment. The principle is absolute: those who refuse to forgive have not truly received forgiveness themselves.',
+            'The parable of the unforgiving servant is devastating [res:intertextual-unforgiving-servant]. A king forgives a servant an impossible debt—10,000 talents. Yet that same servant, going out, finds a fellow servant who owes him 100 denarii—a pittance by comparison. Instead of extending the mercy he received, the servant refuses and has the debtor imprisoned. When the king hears, he is angry. He revokes the forgiveness and delivers the servant to torment. The principle is absolute: those who refuse to forgive have not truly received forgiveness themselves.',
         },
         {
           kind: 'christ',
@@ -150,6 +150,33 @@ export const MATTHEW_18: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Matthew 18 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-childhood',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Children in the Ancient World and Gospel Tradition',
+      url: 'https://www.bibleodyssey.org/dictionary/children/',
+      description: 'Cultural context for Jesus&apos; radical elevation of children as models of kingdom humility.',
+    },
+    {
+      id: 'intertextual-unforgiving-servant',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Parable of the Unforgiving Servant — Matthew Only',
+      url: 'https://intertextual.bible/text/matthew-18.23',
+      description: 'Unique Matthean parable on forgiveness, without parallel in other Gospel accounts.',
+    },
+    {
+      id: 'sefaria-leviticus-19-18',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 19:18 — Love Your Neighbor',
+      url: 'https://www.sefaria.org/Leviticus.19.18',
+      description: 'Old Testament foundation for Jesus&apos; teaching on forgiveness and reconciliation in community.',
+    },
+  ],
 
   hasHebrew: false,
 };

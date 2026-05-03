@@ -100,13 +100,13 @@ export const MATTHEW_16: RichChapterContent = {
           kind: 'commentary',
           id: 'matt16-peter',
           html:
-            'Peter&apos;s confession is sudden and complete: "Thou art the Christ, the Son of the living God." This is not mere intellectual agreement. Peter recognizes Jesus as the long-awaited Messiah, the anointed one, the Son of God Himself. Jesus pronounces Peter blessed—this understanding comes not from flesh and blood, but from God the Father.',
+            'Peter&apos;s confession is sudden and complete: "Thou art the Christ, the Son of the living God [res:intertextual-peter-confession]." This is not mere intellectual agreement. Peter recognizes Jesus as the long-awaited Messiah, the anointed one, the Son of God Himself. Jesus pronounces Peter blessed—this understanding comes not from flesh and blood, but from God the Father.',
         },
         {
           kind: 'commentary',
           id: 'matt16-rock',
           html:
-            'Jesus makes a pun in Aramaic: "Thou art Peter [Cephas—a stone], and upon this rock [petra—bedrock, foundation] I will build my church." Peter&apos;s faith becomes the cornerstone. Yet Matthew will soon show Peter denying Jesus in shame. The church rests not on Peter&apos;s perfection, but on Christ—the Rock upon which all faith stands.',
+            'Jesus makes a pun in Aramaic: "Thou art Peter [Cephas—a stone], and upon this rock [petra—bedrock, foundation] I will build my church [res:sefaria-isaiah-28-16]." Peter&apos;s faith becomes the cornerstone. Yet Matthew will soon show Peter denying Jesus in shame. The church rests not on Peter&apos;s perfection, but on Christ—the Rock upon which all faith stands.',
         },
         {
           kind: 'greek',
@@ -155,6 +155,33 @@ export const MATTHEW_16: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Matthew 16 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'intertextual-peter-confession',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Peter&apos;s Confession — Gospel Parallels',
+      url: 'https://intertextual.bible/text/matthew-16.16',
+      description: 'Comparison of Peter&apos;s confession across Matthew, Mark, and Luke with theological differences.',
+    },
+    {
+      id: 'sefaria-isaiah-28-16',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 28:16 — A Stone Laid in Zion',
+      url: 'https://www.sefaria.org/Isaiah.28.16',
+      description: 'Old Testament prophecy underlying Jesus&apos; metaphor of Peter as a stone and the rock foundation.',
+    },
+    {
+      id: 'bibleodyssey-caesarea-philippi',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Caesarea Philippi and Jesus&apos; Ministry',
+      url: 'https://www.bibleodyssey.org/dictionary/caesarea-philippi/',
+      description: 'Historical and geographical context for the pagan city where Jesus makes His foundational announcement.',
+    },
+  ],
 
   hasHebrew: false,
 };

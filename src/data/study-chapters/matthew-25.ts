@@ -65,7 +65,7 @@ export const MATTHEW_25: RichChapterContent = {
           kind: 'commentary',
           id: 'matt25-talents',
           html:
-            'The parable of the talents: a master gives servants different sums according to their abilities—five talents, two, and one. He goes away. The first servant invests and gains five more. The second doubles his two. The third buries his talent in fear. When the master returns, he commends the first two as "good and faithful servants" and rewards them with greater responsibility. But the third, who buried his talent, is condemned as wicked and slothful, cast into outer darkness.',
+            'The parable of the talents [res:intertextual-talents-parable]: a master gives servants different sums according to their abilities—five talents, two, and one. He goes away. The first servant invests and gains five more. The second doubles his two. The third buries his talent in fear. When the master returns, he commends the first two as "good and faithful servants" and rewards them with greater responsibility. But the third, who buried his talent, is condemned as wicked and slothful, cast into outer darkness.',
         },
         {
           kind: 'greek',
@@ -129,7 +129,7 @@ export const MATTHEW_25: RichChapterContent = {
           kind: 'commentary',
           id: 'matt25-least',
           html:
-            'To the sheep on His right, Jesus says: "Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me." Every act of compassion toward the vulnerable is an act of worship toward Christ. Every act of neglect is a refusal to Christ Himself. The judgment centers not on orthodoxy but on love lived out.',
+            'To the sheep on His right, Jesus says [res:bibleodyssey-sheep-goats]: "Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me." Every act of compassion toward the vulnerable is an act of worship toward Christ. Every act of neglect is a refusal to Christ Himself. The judgment centers not on orthodoxy but on love lived out.',
         },
         {
           kind: 'greek',
@@ -178,6 +178,33 @@ export const MATTHEW_25: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Matthew 25 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'intertextual-talents-parable',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Parable of the Talents — Gospel Parallels',
+      url: 'https://intertextual.bible/text/matthew-25.14',
+      description: 'Comparison of the talents parable across Matthew and Luke, with implications for stewardship and accountability.',
+    },
+    {
+      id: 'bibleodyssey-sheep-goats',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Sheep and the Goats — Jesus&apos; Judgment of Nations',
+      url: 'https://www.bibleodyssey.org/dictionary/judgment-of-the-nations/',
+      description: 'Analysis of Jesus&apos; eschatological judgment focused on care for the vulnerable and marginalized.',
+    },
+    {
+      id: 'sefaria-isaiah-58-justice',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 58 — True Worship Through Justice and Compassion',
+      url: 'https://www.sefaria.org/Isaiah.58',
+      description: 'Old Testament foundation for Jesus&apos; teaching that faith is measured by care for the hungry, poor, and oppressed.',
+    },
+  ],
 
   hasHebrew: false,
 };
