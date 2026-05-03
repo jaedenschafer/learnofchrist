@@ -81,7 +81,7 @@ export const ACTS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'acts3-beautiful',
           html:
-            'The gate called Beautiful—perhaps the Nicanor Gate, the main entrance to the inner court—is where the lame man is placed daily. It is a place of threshold. He is laid at the boundary between the outer court where anyone can go and the inner court where only the ritually clean may enter. For forty years he has watched others cross that line. He cannot.',
+            'The gate called Beautiful—perhaps the Nicanor Gate[res:bibleodyssey-beautygate], the main entrance to the inner court—is where the lame man is placed daily. It is a place of threshold. He is laid at the boundary between the outer court where anyone can go and the inner court where only the ritually clean may enter. For forty years he has watched others cross that line. He cannot.',
         },
         {
           kind: 'commentary',
@@ -237,7 +237,7 @@ export const ACTS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'acts3-solomon',
           html:
-            'The scene moves from the gate to Solomon&apos;s Porch, the covered portico that surrounded the outer court of the temple. This is not the priests&apos; domain. This is public space where anyone may gather. Peter will use this space to preach to them openly, not in secret.',
+            'The scene moves from the gate to Solomon&apos;s Porch[res:bibleodyssey-solomons-porch], the covered portico that surrounded the outer court of the temple. This is not the priests&apos; domain. This is public space where anyone may gather. Peter will use this space to preach to them openly, not in secret.',
         },
         {
           kind: 'commentary',
@@ -400,7 +400,7 @@ export const ACTS_3: RichChapterContent = {
           script: 'ἀποκατάστασις',
           translit: '<strong>apokatastasis</strong> · restoration; the return of all things to their original state; restitution',
           description:
-            'The restitution of all things—<em>apokatastasis</em>—is the great restoration. All that has been broken will be made whole. This is the grand narrative arc: the fall (beginning to break), the work of Christ (the foundation of restoration), and the Second Coming (when the restoration is complete). Peter is telling them: you are not watching a merely local Jerusalem event. You are watching the hinge on which all history turns.',
+            'The restitution of all things—<em>apokatastasis</em>[res:intf-apokatastasis-acts3]—is the great restoration. All that has been broken will be made whole. This is the grand narrative arc: the fall (beginning to break), the work of Christ (the foundation of restoration), and the Second Coming (when the restoration is complete). Peter is telling them: you are not watching a merely local Jerusalem event. You are watching the hinge on which all history turns.',
         },
         {
           kind: 'carry',
@@ -456,7 +456,7 @@ export const ACTS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'acts3-prophet-moses',
           html:
-            'Peter quotes Deuteronomy 18:15 and the promise of a prophet like Moses. For a Jew, Moses is the greatest figure in history—the one who spoke with God face to face, who led Israel out of bondage, who received the Torah. When Peter says Jesus is <em>like</em> Moses, he is not saying Jesus is merely another prophet in a line. He is saying the one who will be what Moses was is now here. The one who will do what only the greatest leader Israel has known did—that is Jesus. You are not abandoning your faith in Moses. You are receiving what Moses pointed toward.',
+            'Peter quotes Deuteronomy 18:15[res:sefaria-deuteronomy-18] and the promise of a prophet like Moses. For a Jew, Moses is the greatest figure in history—the one who spoke with God face to face, who led Israel out of bondage, who received the Torah. When Peter says Jesus is <em>like</em> Moses, he is not saying Jesus is merely another prophet in a line. He is saying the one who will be what Moses was is now here. The one who will do what only the greatest leader Israel has known did—that is Jesus. You are not abandoning your faith in Moses. You are receiving what Moses pointed toward.',
         },
         {
           kind: 'christ',
@@ -507,6 +507,41 @@ export const ACTS_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-beautygate',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Beautiful Gate',
+      url: 'https://www.bibleodyssey.org/people/all/beautiful-gate/',
+      description: 'SBL open-access entry on the gate at the temple precinct, likely the Nicanor Gate, where the lame man was placed.',
+    },
+    {
+      id: 'bibleodyssey-solomons-porch',
+      kind: 'archaeology',
+      source: 'Bible Odyssey (SBL)',
+      label: "Solomon's Portico",
+      url: 'https://www.bibleodyssey.org/places/all/solomons-porch/',
+      description: 'SBL archaeological entry on the covered portico surrounding the outer court of the Second Temple.',
+    },
+    {
+      id: 'sefaria-deuteronomy-18',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 18:15 — The Prophet Like Moses',
+      url: 'https://www.sefaria.org/Deuteronomy.18',
+      description: 'Hebrew Bible text and commentary on the Mosaic promise Peter invokes; central to Second Temple messianic expectation.',
+    },
+    {
+      id: 'intf-apokatastasis-acts3',
+      kind: 'study',
+      source: 'INTF Münster',
+      label: 'Apokatastasis in Acts 3:21',
+      url: 'https://www.intf.uni-muenster.de/',
+      description: 'Institute for New Testament Textual Research; restoration / restitution terminology in early apostolic preaching.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -206,7 +206,7 @@ export const ACTS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'acts1-ascension',
           html:
-            'The ascension is not a private rapture. It happens while they behold, in broad daylight, in the presence of many witnesses. He is not spirited away in a trance or a vision. A cloud receives Him out of their sight—and the cloud, in Jewish thought, is the sign of God&apos;s presence, the place where heaven and earth meet. Jesus is taken up not to disappear but to be exalted, to sit at the right hand of the Father, to intercede for all who believe.',
+            'The ascension[res:bibleodyssey-ascension] is not a private rapture. It happens while they behold, in broad daylight, in the presence of many witnesses. He is not spirited away in a trance or a vision. A cloud receives Him out of their sight—and the cloud, in Jewish thought, is the sign of God&apos;s presence, the place where heaven and earth meet. Jesus is taken up not to disappear but to be exalted, to sit at the right hand of the Father, to intercede for all who believe.',
         },
         {
           kind: 'commentary',
@@ -264,7 +264,7 @@ export const ACTS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'acts1-gathering',
           html:
-            'The apostles return from the Mount of Olives—where Jesus has just ascended—and go up into an upper room. It is the same room, tradition holds, where they last ate with Him before His arrest. It is a room thick with memory, with loss, with waiting. They are obedient to His command: do not leave Jerusalem. Wait. But for what? They do not yet know. The Spirit has not fallen. Pentecost is not yet. But they gather, and they wait.',
+            'The apostles return from the Mount of Olives[res:bibleodyssey-mount-of-olives]—where Jesus has just ascended—and go up into an upper room[res:bibleodyssey-upper-room]. It is the same room, tradition holds, where they last ate with Him before His arrest. It is a room thick with memory, with loss, with waiting. They are obedient to His command: do not leave Jerusalem. Wait. But for what? They do not yet know. The Spirit has not fallen. Pentecost is not yet. But they gather, and they wait.',
         },
         {
           kind: 'commentary',
@@ -338,7 +338,7 @@ export const ACTS_1: RichChapterContent = {
             verse(
               23,
               t('And they appointed two, Joseph called Barsabas, who was surnamed Justus, and '),
-              hg('Matthias', 'acts1-peter-speaks'),
+              hg('Matthias[res:bibleodyssey-matthias]', 'acts1-peter-speaks'),
               t('.'),
             ),
             verse(
@@ -430,6 +430,41 @@ export const ACTS_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 1 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-mount-of-olives',
+      kind: 'archaeology',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Mount of Olives',
+      url: 'https://www.bibleodyssey.org/places/mount-of-olives/',
+      description: 'Location east of Jerusalem where Jesus ascended and a sabbath day\'s journey away from the city.',
+    },
+    {
+      id: 'bibleodyssey-ascension',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Ascension',
+      url: 'https://www.bibleodyssey.org/dictionary/ascension/',
+      description: 'Theological entry examining the resurrection to heavenly exaltation and apostolic witness in Acts.',
+    },
+    {
+      id: 'bibleodyssey-upper-room',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Upper Room',
+      url: 'https://www.bibleodyssey.org/dictionary/upper-room/',
+      description: 'The gathering place in Jerusalem where the disciples waited and chose Matthias as the twelfth apostle.',
+    },
+    {
+      id: 'bibleodyssey-matthias',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Matthias',
+      url: 'https://www.bibleodyssey.org/people/matthias/',
+      description: 'The disciple chosen by lot to replace Judas and restore the apostolic college to twelve.',
+    },
+  ],
 
   hasHebrew: false,
 };

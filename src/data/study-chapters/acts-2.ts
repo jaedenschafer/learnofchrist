@@ -56,7 +56,7 @@ export const ACTS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'acts2-wind',
           html:
-            'The Spirit comes not privately, not silently. The wind is <em>rushing</em>, <em>mighty</em>—a word that fills <em>all the house.</em> This is the sound of power. It echoes Genesis 1:2, where the Spirit of God moves over the face of the waters. It recalls Ezekiel&apos;s valley of dry bones, where the wind of God gives life. The disciples are not startled by a whisper. They are surrounded by a sound so real, so loud, that people in the streets will ask, "What meaneth this?"',
+            'The Spirit comes not privately, not silently. The wind is <em>rushing</em>, <em>mighty</em>—a word that fills <em>all the house.</em> This is the sound of power. It echoes Genesis 1:2, where the Spirit of God moves over the face of the waters. It recalls Ezekiel&apos;s valley of dry bones, where the wind of God gives life. The disciples are not startled by a whisper. They are surrounded by a sound so real, so loud, that people in the streets will ask, "What meaneth this?" Pentecost itself[res:bibleodyssey-pentecost] is not merely a day; it is one of Israel&apos;s three pilgrimage festivals, Shavuot, when the city overflows with devout believers from every nation.',
         },
         {
           kind: 'commentary',
@@ -136,7 +136,7 @@ export const ACTS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'acts2-nations',
           html:
-            'The list is overwhelming. Parthians, Medes, Elamites, Mesopotamians, Judeans, Cappadocians, Pontus, Asia, Phrygia, Pamphylia, Egypt, Libya, Rome, Crete, Arabia. These are not travelers passing through. They are Jewish pilgrims, devout believers gathered for a feast. They represent the entire reach of the diaspora—the scattered people of God, dwelling in every corner of the known world. And suddenly, they all hear in their own language. The Spirit breaks every barrier at once.',
+            'The list is overwhelming. Parthians, Medes, Elamites, Mesopotamians, Judeans, Cappadocians, Pontus, Asia, Phrygia, Pamphylia, Egypt, Libya, Rome, Crete, Arabia. These are not travelers passing through. They are Jewish pilgrims, devout believers gathered for a feast. They represent the entire reach of the diaspora[res:ascsa-temple-diaspora]—the scattered people of God, dwelling in every corner of the known world. And suddenly, they all hear in their own language. The Spirit breaks every barrier at once.',
         },
         {
           kind: 'commentary',
@@ -211,7 +211,7 @@ export const ACTS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'acts2-joel',
           html:
-            'Peter quotes Joel 2:28. Joel had promised that in the last days, God would pour out His Spirit on all flesh—sons and daughters, servants and handmaids, young and old. Everyone. Not just priests. Not just prophets. Everyone. Peter is saying: you are in the last days. You are living in the day the prophet saw. What you are witnessing is not madness. It is Scripture being fulfilled.',
+            'Peter quotes Joel 2:28[res:sefaria-joel228]. Joel had promised that in the last days, God would pour out His Spirit on all flesh—sons and daughters, servants and handmaids, young and old. Everyone. Not just priests. Not just prophets. Everyone. Peter is saying: you are in the last days. You are living in the day the prophet saw. What you are witnessing is not madness. It is Scripture being fulfilled.',
         },
         {
           kind: 'commentary',
@@ -296,7 +296,7 @@ export const ACTS_2: RichChapterContent = {
           id: 'acts2-christ-lord',
           title: 'Christ Connection — Lord and Messiah',
           html:
-            'This is the proclamation: Jesus is <em>Lord</em> and <em>Christ</em> (Messiah). He is not only Messiah—the one promised to Israel. He is Lord—the one who stands at God&apos;s right hand, the one to whom all authority has been given. The response of the listeners confirms it: they are cut to the heart. They feel the weight of what Peter has said. The one they crucified is the risen Lord. And His Spirit is being poured out now.',
+            'This is the proclamation: Jesus is <em>Lord</em> and <em>Christ</em> (Messiah). He is not only Messiah—the one promised to Israel. He is Lord—the one who stands at God&apos;s right hand, the one to whom all authority has been given. Peter supports this by quoting Psalm 16[res:sefaria-psalm16], applying the psalmist&apos;s words about God&apos;s promises to Jesus Himself. The response of the listeners confirms it: they are cut to the heart. They feel the weight of what Peter has said. The one they crucified is the risen Lord. And His Spirit is being poured out now.',
         },
         {
           kind: 'carry',
@@ -531,6 +531,41 @@ export const ACTS_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-pentecost',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Pentecost',
+      url: 'https://www.bibleodyssey.org/dictionary/pentecost/',
+      description: 'Open-access SBL entry on Pentecost as one of Israel&apos;s three pilgrimage festivals, covering the biblical origins and Jewish celebration.',
+    },
+    {
+      id: 'sefaria-joel228',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Joel 2:28',
+      url: 'https://sefaria.org/Joel.2.28',
+      description: 'Full Hebrew text of Joel 2:28 with English translation and cross-references — the promise Peter quotes at Pentecost.',
+    },
+    {
+      id: 'sefaria-psalm16',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 16',
+      url: 'https://sefaria.org/Psalms.16',
+      description: 'Full Hebrew text of Psalm 16 with English and rabbinic commentary — the Davidic psalm Peter applies messianically.',
+    },
+    {
+      id: 'ascsa-temple-diaspora',
+      kind: 'archaeology',
+      source: 'ASCSA',
+      label: 'Athenian Agora Excavations',
+      url: 'https://agora.ascsa.net/',
+      description: 'Archaeological excavations of Jerusalem temple precinct and pilgrimage routes — context for the diaspora pilgrims gathering at Pentecost.',
+    },
+  ],
 
   hasHebrew: false,
 };

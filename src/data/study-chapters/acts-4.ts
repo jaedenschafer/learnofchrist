@@ -60,7 +60,7 @@ export const ACTS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'acts4-authorities',
           html:
-            'The authorities who arrest them represent power threatened. The priests and Sadducees are the establishment of first-century Jerusalem[res:wikipedia-caiaphas-ossuary]. The Sadducees especially deny resurrection, so a message of resurrection hits them at the center of their theology. They do not argue with Peter and John&apos;s claim; they simply arrest them. That is the response of power that has no answer.',
+            'The authorities who arrest them represent power threatened. The priests and Sadducees are the establishment of first-century Jerusalem. The Sadducees especially deny resurrection, so a message of resurrection hits them at the center of their theology. They do not argue with Peter and John&apos;s claim; they simply arrest them. That is the response of power that has no answer.',
         },
         {
           kind: 'commentary',
@@ -631,14 +631,6 @@ export const ACTS_4: RichChapterContent = {
       label: 'Psalm 2:1–2 ↔ Acts 4:25–26',
       url: 'https://intertextual.bible/text/psalm-2.1/acts-4.25',
       description: 'Side-by-side comparison of the psalmist&apos;s vision of opposition to God&apos;s anointed with the early church&apos;s prayer.',
-    },
-    {
-      id: 'wikipedia-caiaphas-ossuary',
-      kind: 'archaeology',
-      source: 'Wikimedia',
-      label: 'Caiaphas Ossuary',
-      url: 'https://en.wikipedia.org/wiki/Caiaphas_ossuary',
-      description: 'Archaeological study of the limestone burial box, with Aramaic inscription, corroborating the first-century Jerusalem context.',
     },
   ],
 
