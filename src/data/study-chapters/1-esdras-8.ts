@@ -55,7 +55,7 @@ export const FIRST_ESDRAS_8: RichChapterContent = {
                 t('After these things, when the reign of '),
                 hg('Artaxerxes', 'artaxerxes-reign'),
                 t(' king of Persia was established, '),
-                hy('Esdras', 'esdras-name'),
+                t('Esdras'),
                 t(' went up from Babylon.'),
               ],
             },
@@ -271,7 +271,7 @@ export const FIRST_ESDRAS_8: RichChapterContent = {
               number: 70,
               spans: [
                 t('Then cried all the multitude with a loud voice, and said, '),
-                hp('As thou hast said', 'consent-loud-voice'),
+                t('As thou hast said'),
                 t(', so will we do.'),
               ],
             },

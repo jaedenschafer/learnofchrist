@@ -9,7 +9,7 @@ import { hp, hy, hg, t, verse, type RichChapterContent } from './types';
  * Their arguments, submitted and then defended in person, explore power,
  * desire, and finally, the unshakeable strength of truth itself.
  */
-export const ESDRAS_1_3: RichChapterContent = {
+export const FIRST_ESDRAS_3: RichChapterContent = {
   bookSlug: '1-esdras',
   bookName: '1 Esdras',
   chapter: 3,
