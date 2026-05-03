@@ -21,7 +21,7 @@ export const FOURTH_MACCABEES_10: RichChapterContent = {
           plain(5, 'And they skinned his head, and asked of him, Will you eat, or shall we torment you?'),
           plain(8, 'But he said unto them, I am not worthy to fear what my brother before me did not fear.'),
         ] },
-        { kind: 'commentary', id: 'mac10-second-start', html: 'The second brother does not decide to be brave. He compares himself to the first. The previous martyr becomes his measure, his anchor. By watching the first, the second is already prepared. Witness makes courage contagious.' },
+        { kind: 'commentary', id: 'mac10-second-start', html: 'The second brother does not decide to be brave. He compares himself to the first. The previous martyr becomes his measure, his anchor. By watching the first, the second is already prepared. Witness makes courage contagious. [res:sefaria-4-macc-10-martyrs] [res:iaa-antiochus] [res:perseus-eulabeia]' },
         { kind: 'greek', id: 'mac10-andreia', title: 'Andreia — Courage; Valor', script: 'ἀνδρεία', translit: '<strong>andreia</strong> · courage; valor; the courage of one who stands firm', description: 'Not the recklessness of one who charges without thought, but the steady stand of one who has counted the cost and chosen anyway. The brothers possess andreia.' },
         { kind: 'christ', id: 'mac10-witness-christ', title: 'Christ Connection — The Courage of Witness', html: 'Jesus told Peter, "Feed my sheep" after asking three times, "Do you love me?" Each time the command echoed the denial—a test Peter could see in memory. By reminding Peter of what came before, the risen Christ was preparing Peter for what lay ahead. Witness to martyrdom became the substance of Peter&apos;s courage.' },
         { kind: 'carry', html: 'Whose faithful death are you still watching? How does the courage of someone who went before you give you strength for what is in front of you now?' },
@@ -105,6 +105,33 @@ export const FOURTH_MACCABEES_10: RichChapterContent = {
         { kind: 'carry', html: 'What is the master in your life? Is it reason wed to faith—pious reason? Or is it the cry of your flesh, your convenience, your fear? Whose servant are you, and whose master are you?' },
         { kind: 'reflection', id: 'mac10-master', prompt: 'In what ways is pious reason the master of your passions? Where do you feel the passions still ruling?' },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-4-macc-10-martyrs',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '4 Maccabees 10 — Martyrdom Accounts',
+      url: 'https://www.sefaria.org/IV_Maccabees.10',
+      description: 'Jewish martyrs under Antiochus IV and Stoic endurance (martyr 6).',
+    },
+    {
+      id: 'iaa-antiochus',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Antiochus IV and Religious Persecution in Judea',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of Seleucid religious policies and Jewish resistance.',
+    },
+    {
+      id: 'perseus-eulabeia',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Eulabeia — Piety and Virtue',
+      url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=eu%29la%2Fbeia',
+      description: 'Greek lexicon: eulabeia (pious reverence) in Stoic and religious thought.',
     },
   ],
 

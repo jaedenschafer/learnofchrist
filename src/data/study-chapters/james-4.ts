@@ -21,14 +21,6 @@ export const JAMES_4: RichChapterContent = {
     caption: 'The Whole Chapter at a Glance',
   },
 
-  bottomShare: {
-    label: 'Share James 4',
-    quote:
-      'Out of the lusts within come quarrels and fighting. God asks us to draw near to Him, submit to His will, humble ourselves, and remember that life is brief and uncertain without Him.',
-    snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
-    ref: 'James 4 · Study Guide',
-  },
-
   sections: [
     /* ─── James 4:1 — Wars and Fightings ──────────────────────────────── */
     {

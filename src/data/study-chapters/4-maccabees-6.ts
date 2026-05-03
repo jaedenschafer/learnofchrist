@@ -53,7 +53,7 @@ export const FOURTH_MACCABEES_6: RichChapterContent = {
           kind: 'commentary',
           id: 'mac4-6-tharsos',
           html:
-            'The Greek word <em>tharsos</em>—courage, boldness—describes an unflinching confidence in the face of power. It is not recklessness or despair, but a calm assurance rooted in faith. Eleazar&apos;s courage speaks louder than his voice. It silences the room. The king sees it and is enraged precisely because he cannot break it.',
+            'The Greek word <em>tharsos</em>—courage, boldness—describes an unflinching confidence in the face of power. It is not recklessness or despair, but a calm assurance rooted in faith. Eleazar&apos;s courage speaks louder than his voice. It silences the room. The king sees it and is enraged precisely because he cannot break it. [res:sefaria-4-macc-6-martyrs] [res:iaa-antiochus] [res:perseus-eulabeia]',
         },
         {
           kind: 'commentary',
@@ -498,6 +498,33 @@ export const FOURTH_MACCABEES_6: RichChapterContent = {
             'Eleazar&apos;s whole life—his refusal, his torture, his prayer, his death—becomes a witness. What will your steadiness teach someone who is watching?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-4-macc-6-martyrs',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '4 Maccabees 6 — Martyrdom Accounts',
+      url: 'https://www.sefaria.org/IV_Maccabees.6',
+      description: 'Jewish martyrs under Antiochus IV and Stoic endurance (martyr 2).',
+    },
+    {
+      id: 'iaa-antiochus',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Antiochus IV and Religious Persecution in Judea',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of Seleucid religious policies and Jewish resistance.',
+    },
+    {
+      id: 'perseus-eulabeia',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Eulabeia — Piety and Virtue',
+      url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=eu%29la%2Fbeia',
+      description: 'Greek lexicon: eulabeia (pious reverence) in Stoic and religious thought.',
     },
   ],
 

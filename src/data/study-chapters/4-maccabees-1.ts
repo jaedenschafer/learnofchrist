@@ -48,7 +48,7 @@ export const FOURTH_MACCABEES_1: RichChapterContent = {
           kind: 'commentary',
           id: 'thesis-sovereign',
           html:
-            'The author announces his theme with the formal gravity of a Greek philosopher. He is not going to tell a story first and draw conclusions later. He states the thesis upfront: "devout reason is sovereign over the passions." Everything that follows is proof. The question is not whether reason <em>can</em> master the passions (a question a Greek rationalist might ask), but whether <em>devout</em> reason—reason shaped by piety, by devotion to God and His law—is sovereign. This is a claim no Greek rationalist would make. It is thoroughly Jewish.',
+            'The author announces his theme with the formal gravity of a Greek philosopher. He is not going to tell a story first and draw conclusions later. He states the thesis upfront: "devout reason is sovereign over the passions." Everything that follows is proof. The question is not whether reason <em>can</em> master the passions (a question a Greek rationalist might ask), but whether <em>devout</em> reason—reason shaped by piety, by devotion to God and His law—is sovereign. This is a claim no Greek rationalist would make. It is thoroughly Jewish. [res:sefaria-4-macc-1] [res:theoi-stoic-reason]',
         },
 
         {
@@ -472,6 +472,25 @@ export const FOURTH_MACCABEES_1: RichChapterContent = {
             'The author has given you a thesis and promised proof through stories. But before you read the stories, what is your own belief? Do you think a human being can truly master the passions through devotion to God&apos;s law? What would it take to convince you?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-4-macc-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '4 Maccabees 1',
+      url: 'https://www.sefaria.org/IV_Maccabees.1',
+      description: 'Stoic philosophy applied to Torah obedience and rational virtue (section 1).',
+    },
+    {
+      id: 'theoi-stoic-reason',
+      kind: 'study',
+      source: 'Theoi Classical Texts',
+      label: 'Stoic Philosophy: Reason and Virtue',
+      url: 'https://www.theoi.com/',
+      description: 'Hellenistic Stoic concepts of reason controlling passion and emotion.',
     },
   ],
 

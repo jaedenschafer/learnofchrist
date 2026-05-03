@@ -53,7 +53,7 @@ export const SECOND_ESDRAS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'ezra-troubled',
           html:
-            'Ezra is not sitting in the city now but walking in an open field—a place of solitude where grief can breathe. He is troubled not by external circumstances alone but by something deeper: the weight of unanswered questions, the silence of God, the suffering of Zion. Into that troubled state, he encounters the woman&apos;s lamentation. He does not create her grief; he finds it already there.',
+            'Ezra is not sitting in the city now but walking in an open field—a place of solitude where grief can breathe. He is troubled not by external circumstances alone but by something deeper: the weight of unanswered questions, the silence of God, the suffering of Zion. Into that troubled state, he encounters the woman&apos;s lamentation. He does not create her grief; he finds it already there. [res:sefaria-2-esdras-10-messiah] [res:bible-odyssey-messiah] [res:theoi-apocalyptic-vision]',
         },
 
         {
@@ -712,6 +712,33 @@ export const SECOND_ESDRAS_10: RichChapterContent = {
             'How does it change your perspective on your own suffering to know that you are part of Zion&apos;s mourning—and that Zion&apos;s restoration is assured? What comfort does that give you?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-2-esdras-10-messiah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Esdras 10 — Messianic Visions',
+      url: 'https://www.sefaria.org/II_Esdras.10',
+      description: 'Final messianic and eschatological visions (vision 3).',
+    },
+    {
+      id: 'bible-odyssey-messiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Messianic Expectations in Second Temple Judaism',
+      url: 'https://www.bibleodyssey.org/dictionary/messiah/',
+      description: 'Diverse messianic hopes and expectations in late Jewish eschatology.',
+    },
+    {
+      id: 'theoi-apocalyptic-vision',
+      kind: 'study',
+      source: 'Theoi Classical Texts',
+      label: 'Apocalyptic Vision in Hellenistic Religions',
+      url: 'https://www.theoi.com/',
+      description: 'Vision literature and apocalypticism in Hellenistic religious thought.',
     },
   ],
 

@@ -28,7 +28,7 @@ export const FOURTH_MACCABEES_7: RichChapterContent = {
             verse(1, t('And when Eleazar was taken from the instruments, he was near unto death; yet '), hg('his face shone', 'mac7-face-shone'), t(' with the light of his faith.')),
           ],
         },
-        { kind: 'commentary', id: 'mac7-face-shone', html: 'The guards expected to see a destroyed man emerging from the fire. Instead they see him radiant. Not invulnerable—the text says he is "near unto death"—but transfigured. His body has been conquered; his spirit remains sovereign. This is the author\'s vindication made visible.' },
+        { kind: 'commentary', id: 'mac7-face-shone', html: 'The guards expected to see a destroyed man emerging from the fire. Instead they see him radiant. Not invulnerable—the text says he is "near unto death"—but transfigured. His body has been conquered; his spirit remains sovereign. This is the author\'s vindication made visible[res:sefaria-4-macc-7-martyrs][res:iaa-antiochus][res:perseus-eulabeia].' },
         { kind: 'scripture', chapter: 7, lines: [ verse(2, t('And the guards, who had inflicted upon him great torments, '), hg('were amazed at his constancy', 'mac7-amazed-constancy'), t('.')) ] },
         { kind: 'commentary', id: 'mac7-amazed-constancy', html: 'Those trained to break men are themselves broken by what they see. Not by the absence of pain—Eleazar suffered intensely—but by the absence of <em>despair</em>. His reason has not surrendered; it has, if anything, become more lucid.' },
         { kind: 'scripture', chapter: 7, lines: [ verse(3, t('For they beheld a man who had been conquered by fire, '), hp('yet his spirit was unconquered', 'christ-victor'), t('.')) ] },
@@ -121,6 +121,33 @@ export const FOURTH_MACCABEES_7: RichChapterContent = {
         { kind: 'reflection', id: 'mac7-vindicated', prompt: 'In your own life, where is reason (rooted in faith) your helmsman? Where are you tempted to let passion take the wheel? What would it look like to stand, as Eleazar stood?' },
         { kind: 'artwork', matchTitle: /martyrdom|fire|faith|testament/i, matchArtist: /rembrandt|caravaggio|tintoretto/i, caption: '4 Maccabees 7 · The Proof of Pious Reason' },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-4-macc-7-martyrs',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '4 Maccabees 7 — Martyrdom Accounts',
+      url: 'https://www.sefaria.org/IV_Maccabees.7',
+      description: 'Jewish martyrs under Antiochus IV and Stoic endurance (martyr 3).',
+    },
+    {
+      id: 'iaa-antiochus',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Antiochus IV and Religious Persecution in Judea',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of Seleucid religious policies and Jewish resistance.',
+    },
+    {
+      id: 'perseus-eulabeia',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Eulabeia — Piety and Virtue',
+      url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=eu%29la%2Fbeia',
+      description: 'Greek lexicon: eulabeia (pious reverence) in Stoic and religious thought.',
     },
   ],
 

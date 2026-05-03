@@ -49,7 +49,7 @@ export const SECOND_ESDRAS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'ezra-gather',
           html:
-            'God summons Ezra to gather Israel. The phrase "that none of them may be wanting" carries the weight of inclusion—not one person left behind, every last member of the covenant community brought into the assembly. This is God&apos;s opening move: a call to gather, to remember, to come.',
+            'God summons Ezra to gather Israel. The phrase "that none of them may be wanting" carries the weight of inclusion—not one person left behind, every last member of the covenant community brought into the assembly. This is God&apos;s opening move: a call to gather, to remember, to come. [res:sefaria-2-esdras-1] [res:bible-odyssey-apocalyptic]',
         },
 
         {
@@ -765,6 +765,25 @@ export const SECOND_ESDRAS_1: RichChapterContent = {
             'What choice is God asking you to make right now? What refusal have you been nursing, and what would it cost you to finally obey? The door is still open. What does it look like to walk through?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-2-esdras-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Esdras 1',
+      url: 'https://www.sefaria.org/II_Esdras.1',
+      description: 'Introduction to Ezra&apos;s visions and apocalyptic eschatology.',
+    },
+    {
+      id: 'bible-odyssey-apocalyptic',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Apocalyptic Literature and Eschatology',
+      url: 'https://www.bibleodyssey.org/dictionary/apocalyptic/',
+      description: 'Apocalyptic traditions in Second Temple Judaism and visionary literature.',
     },
   ],
 

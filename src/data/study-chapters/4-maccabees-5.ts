@@ -68,7 +68,7 @@ export const FOURTH_MACCABEES_5: RichChapterContent = {
           kind: 'commentary',
           id: 'mac5-aged-priest',
           html:
-            'Eleazar is led forward not in chains but in dignity. He is ancient—ninety years old—a living embodiment of faithfulness through decades. The king sees him and speaks with courtesy: Antiochus is not crude in his temptation. He appeals to reason, to mercy, to the apparent lightness of the thing he asks.',
+            'Eleazar is led forward not in chains but in dignity. He is ancient—ninety years old—a living embodiment of faithfulness through decades. The king sees him and speaks with courtesy: Antiochus is not crude in his temptation. He appeals to reason, to mercy, to the apparent lightness of the thing he asks. [res:sefaria-4-macc-5-martyrs] [res:iaa-antiochus] [res:perseus-eulabeia]',
         },
         {
           kind: 'commentary',
@@ -819,6 +819,33 @@ export const FOURTH_MACCABEES_5: RichChapterContent = {
           caption: '4 Maccabees 5:36–38 · The Path to Faithfulness',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-4-macc-5-martyrs',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '4 Maccabees 5 — Martyrdom Accounts',
+      url: 'https://www.sefaria.org/IV_Maccabees.5',
+      description: 'Jewish martyrs under Antiochus IV and Stoic endurance (martyr 1).',
+    },
+    {
+      id: 'iaa-antiochus',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Antiochus IV and Religious Persecution in Judea',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of Seleucid religious policies and Jewish resistance.',
+    },
+    {
+      id: 'perseus-eulabeia',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Eulabeia — Piety and Virtue',
+      url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=eu%29la%2Fbeia',
+      description: 'Greek lexicon: eulabeia (pious reverence) in Stoic and religious thought.',
     },
   ],
 

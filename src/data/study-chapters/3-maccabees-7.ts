@@ -47,7 +47,7 @@ export const THIRD_MACCABEES_7: RichChapterContent = {
           kind: 'commentary',
           id: 'mac3-7-decree',
           html:
-            'The oppressor becomes the herald of deliverance. What started as a death sentence from the same king now flows out as a decree of honor. The reversal is absolute—and it comes from Ptolemy&apos;s own mouth. No intermediary. The God who turned his heart to darkness has now turned it to light.',
+            'The oppressor becomes the herald of deliverance. What started as a death sentence from the same king now flows out as a decree of honor. The reversal is absolute—and it comes from Ptolemy&apos;s own mouth. No intermediary. The God who turned his heart to darkness has now turned it to light. [res:sefaria-3-macc-7] [res:israel-museum-ptolemaic] [res:bible-odyssey-persecution]',
         },
 
         {
@@ -504,6 +504,33 @@ export const THIRD_MACCABEES_7: RichChapterContent = {
             'As you close this book, what is the deliverance you are carrying home with you? What feast, what practice, what regular act of remembrance might you establish to keep that deliverance alive in your heart and in your family?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-3-macc-7',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '3 Maccabees 7',
+      url: 'https://www.sefaria.org/III_Maccabees.7',
+      description: 'Persecution of Alexandrian Jews under Ptolemy IV and divine deliverance.',
+    },
+    {
+      id: 'israel-museum-ptolemaic',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Hellenistic Jewish Communities in Egypt',
+      url: 'https://www.imj.org.il/',
+      description: 'Archaeological evidence of diaspora Jewish life in Ptolemaic Alexandria.',
+    },
+    {
+      id: 'bible-odyssey-persecution',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Religious Persecution and Jewish Resistance',
+      url: 'https://www.bibleodyssey.org/dictionary/maccabees/',
+      description: 'Hellenistic persecution of Jewish communities and responses to syncretism.',
     },
   ],
 

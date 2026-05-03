@@ -49,7 +49,7 @@ export const SECOND_ESDRAS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'c-firmament',
           html:
-            'The angel reviews creation with Ezra not as history but as theology. Each word God speaks makes order. The firmament—<em>rakia</em>, the expanse—divides the waters, creating space for life to inhabit. The text parallels Genesis 1:6–8, but in Esdras it becomes a meditation on God&apos;s sovereignty: all creation answers to His voice.',
+            'The angel reviews creation with Ezra not as history but as theology. Each word God speaks makes order. The firmament—<em>rakia</em>, the expanse—divides the waters, creating space for life to inhabit. The text parallels Genesis 1:6–8, but in Esdras it becomes a meditation on God&apos;s sovereignty: all creation answers to His voice. [res:sefaria-2-esdras-6-vision] [res:bible-odyssey-theodicy]',
         },
 
         {
@@ -615,6 +615,25 @@ export const SECOND_ESDRAS_6: RichChapterContent = {
             'Imagine a world where God&apos;s glory shines in all the earth and everyone sees His salvation. What does your life look like in that world? What do you long for that will finally be fulfilled?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-2-esdras-6-vision',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Esdras 6 — Visionary Dialogue',
+      url: 'https://www.sefaria.org/II_Esdras.6',
+      description: 'Ezra&apos;s dialogues on theodicy and divine justice (vision 4).',
+    },
+    {
+      id: 'bible-odyssey-theodicy',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Theodicy in Late Judaism',
+      url: 'https://www.bibleodyssey.org/dictionary/evil/',
+      description: 'Problem of evil and divine justice in postexilic Jewish thought.',
     },
   ],
 

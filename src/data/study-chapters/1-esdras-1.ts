@@ -51,7 +51,7 @@ export const FIRST_ESDRAS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'josiah-passover',
           html:
-            'Josiah does not merely keep the Passover; he holds a feast in honor of God. The verb suggests not a duty performed but a celebration given. The scale is overwhelming—180,000 lambs and 4,000 sheep, all from the royal treasury. This is not a memorial for the wealthy; it is a gift to the poor, a way of saying: <em>let every family, from the least to the greatest, remember what God has done.</em>',
+            'Josiah does not merely keep the Passover; he holds a feast in honor of God. The verb suggests not a duty performed but a celebration given. The scale is overwhelming—180,000 lambs and 4,000 sheep, all from the royal treasury. This is not a memorial for the wealthy; it is a gift to the poor, a way of saying: <em>let every family, from the least to the greatest, remember what God has done.</em> [res:sefaria-2-chron-36] [res:bible-odyssey-josiah]',
         },
         {
           kind: 'commentary',
@@ -609,6 +609,25 @@ export const FIRST_ESDRAS_1: RichChapterContent = {
             'What in your life feels like exile — a place of captivity you have made peace with? What would it mean to answer the call "Let him go up" and begin the journey home? What would you have to leave behind?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-2-chron-36',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 36 — Fall and Restoration',
+      url: 'https://www.sefaria.org/II_Chronicles.36',
+      description: 'Canonical source: exile and Cyrus decree paralleling 1 Esdras 1.',
+    },
+    {
+      id: 'bible-odyssey-josiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'King Josiah and Temple Reform',
+      url: 'https://www.bibleodyssey.org/dictionary/josiah/',
+      description: 'Josiah&apos;s reign and religious reform context for Esdras narrative.',
     },
   ],
 

@@ -53,7 +53,7 @@ export const FIRST_ESDRAS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'esdras5-command',
           html:
-            'Cyrus the Persian king begins by declaring God&apos;s command. He does not possess Israel&apos;s faith, yet he speaks as if the Lord&apos;s will is evident to him. "The Lord God of Israel <em>hath commanded me</em>"—not that Cyrus believes, but that he acknowledges a power greater than his own throne. The decree is not a political favor; it is a divine mandate. The remnant goes home because God moves, even through a Persian king who does not know Him.',
+            'Cyrus the Persian king begins by declaring God&apos;s command. He does not possess Israel&apos;s faith, yet he speaks as if the Lord&apos;s will is evident to him. "The Lord God of Israel <em>hath commanded me</em>"—not that Cyrus believes, but that he acknowledges a power greater than his own throne. The decree is not a political favor; it is a divine mandate. The remnant goes home because God moves, even through a Persian king who does not know Him. [res:sefaria-ezra-2] [res:israel-museum-diaspora]',
         },
         {
           kind: 'commentary',
@@ -397,6 +397,25 @@ export const FIRST_ESDRAS_5: RichChapterContent = {
             'What restoration have you experienced that brought both joy and sorrow? How have you honored both feelings instead of pretending the difficult emotions away?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-ezra-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezra 2 — Registry of Returning Exiles',
+      url: 'https://www.sefaria.org/Ezra.2',
+      description: 'Families and possessions returning from Babylon; parallel to 1 Esdras 5.',
+    },
+    {
+      id: 'israel-museum-diaspora',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Judean Diaspora Seals and Inscriptions',
+      url: 'https://www.imj.org.il/',
+      description: 'Artifacts from Babylonian Jewish communities and diaspora material culture.',
     },
   ],
 

@@ -47,7 +47,7 @@ export const THIRD_MACCABEES_1: RichChapterContent = {
           kind: 'commentary',
           id: 'ptolemy-conquest',
           html:
-            'Ptolemy has conquered. The military victory at Raphia (217 BC) has made him master of vast territories. He is "elated in mind"—the Greek word conveys not just joy but a kind of intoxicated euphoria. This is not the careful deliberation of a wise ruler. This is a king high on victory, ready to assert his will everywhere.',
+            'Ptolemy has conquered. The military victory at Raphia (217 BC) has made him master of vast territories. He is "elated in mind"—the Greek word conveys not just joy but a kind of intoxicated euphoria. This is not the careful deliberation of a wise ruler. This is a king high on victory, ready to assert his will everywhere. [res:sefaria-3-macc-1] [res:israel-museum-ptolemaic] [res:bible-odyssey-persecution]',
         },
 
         {
@@ -429,6 +429,33 @@ export const THIRD_MACCABEES_1: RichChapterContent = {
         },
         { kind: 'divider' },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-3-macc-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '3 Maccabees 1',
+      url: 'https://www.sefaria.org/III_Maccabees.1',
+      description: 'Persecution of Alexandrian Jews under Ptolemy IV and divine deliverance.',
+    },
+    {
+      id: 'israel-museum-ptolemaic',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Hellenistic Jewish Communities in Egypt',
+      url: 'https://www.imj.org.il/',
+      description: 'Archaeological evidence of diaspora Jewish life in Ptolemaic Alexandria.',
+    },
+    {
+      id: 'bible-odyssey-persecution',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Religious Persecution and Jewish Resistance',
+      url: 'https://www.bibleodyssey.org/dictionary/maccabees/',
+      description: 'Hellenistic persecution of Jewish communities and responses to syncretism.',
     },
   ],
 

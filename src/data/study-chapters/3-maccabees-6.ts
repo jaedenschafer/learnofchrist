@@ -28,6 +28,33 @@ export const THIRD_MACCABEES_6: RichChapterContent = {
     caption: '3 Maccabees 6 · The Prayer Answered',
   },
 
+  resources: [
+    {
+      id: 'sefaria-3-macc-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '3 Maccabees 6',
+      url: 'https://www.sefaria.org/III_Maccabees.6',
+      description: 'Persecution of Alexandrian Jews under Ptolemy IV and divine deliverance.',
+    },
+    {
+      id: 'israel-museum-ptolemaic',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Hellenistic Jewish Communities in Egypt',
+      url: 'https://www.imj.org.il/',
+      description: 'Archaeological evidence of diaspora Jewish life in Ptolemaic Alexandria.',
+    },
+    {
+      id: 'bible-odyssey-persecution',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Religious Persecution and Jewish Resistance',
+      url: 'https://www.bibleodyssey.org/dictionary/maccabees/',
+      description: 'Hellenistic persecution of Jewish communities and responses to syncretism.',
+    },
+  ],
+
   bottomShare: {
     quote:
       'Eleazar stood before the entrance of the place where the beasts were and cried out with a mighty voice unto the Lord, calling upon Him whom he had always trusted. And the Lord heard his prayer and sent two angels visible to all but the Jews. They struck terror into the elephants and the army. Ptolemy&apos;s anger turned to repentance, and he spoke gently to the Jews.',
@@ -61,7 +88,7 @@ export const THIRD_MACCABEES_6: RichChapterContent = {
           kind: 'commentary',
           id: 'mac3-beasts',
           html:
-            'Five hundred elephants, drunk on wine and incense, stand ready. The machinery of death is about to move. But before it does, one voice interrupts. Not a king, not a general — a priest.',
+            'Five hundred elephants, drunk on wine and incense, stand ready. The machinery of death is about to move. But before it does, one voice interrupts. Not a king, not a general — a priest. [res:sefaria-3-macc-6] [res:israel-museum-ptolemaic] [res:bible-odyssey-persecution]',
         },
         {
           kind: 'commentary',

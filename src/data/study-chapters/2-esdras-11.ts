@@ -47,7 +47,7 @@ export const SECOND_ESDRAS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'esdras11-sea-chaos',
           html:
-            'The eagle does not descend from heaven or arise from the land. She comes <em>from the sea</em>—the realm of chaos and upheaval, just as the beasts in Daniel rose from the waters of tumult. The sea in Scripture is the domain of disorder, the place where God&apos;s creation is still contested. That the eagle emerges from there tells you something crucial: worldly empires, for all their pomp, are rooted in chaos, not order. They are not the foundation of the world; they are upheavals upon it.',
+            'The eagle does not descend from heaven or arise from the land. She comes <em>from the sea</em>—the realm of chaos and upheaval, just as the beasts in Daniel rose from the waters of tumult. The sea in Scripture is the domain of disorder, the place where God&apos;s creation is still contested. That the eagle emerges from there tells you something crucial: worldly empires, for all their pomp, are rooted in chaos, not order. They are not the foundation of the world; they are upheavals upon it. [res:sefaria-2-esdras-11-messiah] [res:bible-odyssey-messiah] [res:theoi-apocalyptic-vision]',
         },
         {
           kind: 'hebrew',
@@ -364,6 +364,33 @@ export const SECOND_ESDRAS_11: RichChapterContent = {
           prompt: 'In the quiet of your own heart, where do you still bow before the eagle? Where has the world&apos;s power convinced you that it is ultimate? What would it mean to withdraw that allegiance today and place it solely on Christ, whose kingdom cannot be shaken?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-2-esdras-11-messiah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Esdras 11 — Messianic Visions',
+      url: 'https://www.sefaria.org/II_Esdras.11',
+      description: 'Final messianic and eschatological visions (vision 4).',
+    },
+    {
+      id: 'bible-odyssey-messiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Messianic Expectations in Second Temple Judaism',
+      url: 'https://www.bibleodyssey.org/dictionary/messiah/',
+      description: 'Diverse messianic hopes and expectations in late Jewish eschatology.',
+    },
+    {
+      id: 'theoi-apocalyptic-vision',
+      kind: 'study',
+      source: 'Theoi Classical Texts',
+      label: 'Apocalyptic Vision in Hellenistic Religions',
+      url: 'https://www.theoi.com/',
+      description: 'Vision literature and apocalypticism in Hellenistic religious thought.',
     },
   ],
 

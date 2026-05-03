@@ -26,6 +26,25 @@ export const FIRST_ESDRAS_3: RichChapterContent = {
     caption: 'The Court of King Darius',
   },
 
+  resources: [
+    {
+      id: 'sefaria-1-esdras-3-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Esdras 3-4 — The Three Youths Contest',
+      url: 'https://www.sefaria.org/I_Esdras.3',
+      description: 'Unique Hellenistic narrative about truth, loyalty, and women in Esdras tradition.',
+    },
+    {
+      id: 'topostext-zerubbabel',
+      kind: 'archaeology',
+      source: 'ToposText',
+      label: 'Zerubbabel and Jerusalem Restoration',
+      url: 'https://topostext.org/',
+      description: 'Archaeological sites of Second Temple Jerusalem and temple reconstruction.',
+    },
+  ],
+
   bottomShare: {
     label: 'Share 1 Esdras 3',
     quote:
@@ -57,7 +76,7 @@ export const FIRST_ESDRAS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'esdras-media',
           html:
-            'The Medo-Persian Empire was vast — one of the ancient world&apos;s largest. King Darius sits at the center of an enormous network of power, officials, and provinces. Yet even a king with all this authority will soon learn that he does not hold the strongest thing.',
+            'The Medo-Persian Empire was vast — one of the ancient world&apos;s largest. King Darius sits at the center of an enormous network of power, officials, and provinces. Yet even a king with all this authority will soon learn that he does not hold the strongest thing. [res:sefaria-1-esdras-3-4] [res:topostext-zerubbabel]',
         },
         {
           kind: 'scripture',

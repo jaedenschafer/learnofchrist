@@ -56,7 +56,7 @@ export const SECOND_ESDRAS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'angel-word',
           html:
-            'The angel returns with new revelation. Ezra has spent the night wrestling with God&apos;s justice, and now the angel comes not with easy comfort but with truth. "Arise," the angel says—not a command to sleep, but to awaken to what is real. What Uriel has come to tell Ezra is not what he wants to hear, but what he needs to know.',
+            'The angel returns with new revelation. Ezra has spent the night wrestling with God&apos;s justice, and now the angel comes not with easy comfort but with truth. "Arise," the angel says—not a command to sleep, but to awaken to what is real. What Uriel has come to tell Ezra is not what he wants to hear, but what he needs to know. [res:sefaria-2-esdras-5-vision] [res:bible-odyssey-theodicy]',
         },
 
         {
@@ -594,6 +594,25 @@ export const SECOND_ESDRAS_5: RichChapterContent = {
             'How does understanding the signs change your prayer? What would it mean to "fast" in your own life—to practice discipline and openness—while waiting for what God is doing beneath the surface of the world&apos;s collapse?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-2-esdras-5-vision',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Esdras 5 — Visionary Dialogue',
+      url: 'https://www.sefaria.org/II_Esdras.5',
+      description: 'Ezra&apos;s dialogues on theodicy and divine justice (vision 3).',
+    },
+    {
+      id: 'bible-odyssey-theodicy',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Theodicy in Late Judaism',
+      url: 'https://www.bibleodyssey.org/dictionary/evil/',
+      description: 'Problem of evil and divine justice in postexilic Jewish thought.',
     },
   ],
 

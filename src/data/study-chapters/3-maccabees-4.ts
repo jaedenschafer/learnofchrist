@@ -33,7 +33,7 @@ export const THIRD_MACCABEES_4: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'mac4-seizure',
-          html: 'Registration leads to confiscation. The Jews are uprooted by imperial decree—no time to gather their things, no farewell, no prayer. The machinery of state turns against them. Yet even in this chaos, the text insists: <em>they obeyed</em>. Not because they wished to, but because the power of Ptolemy leaves them no choice.',
+          html: 'Registration leads to confiscation. The Jews are uprooted by imperial decree—no time to gather their things, no farewell, no prayer. The machinery of state turns against them. Yet even in this chaos, the text insists: <em>they obeyed</em>. Not because they wished to, but because the power of Ptolemy leaves them no choice. [res:sefaria-3-macc-4] [res:israel-museum-ptolemaic] [res:bible-odyssey-persecution]',
         },
         {
           kind: 'scripture',
@@ -283,6 +283,33 @@ export const THIRD_MACCABEES_4: RichChapterContent = {
           prompt: 'The text says their lament became prayer, and their prayer became strength. How do you turn your own lament into prayer? What is the strength that comes from such transformation?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-3-macc-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '3 Maccabees 4',
+      url: 'https://www.sefaria.org/III_Maccabees.4',
+      description: 'Persecution of Alexandrian Jews under Ptolemy IV and divine deliverance.',
+    },
+    {
+      id: 'israel-museum-ptolemaic',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Hellenistic Jewish Communities in Egypt',
+      url: 'https://www.imj.org.il/',
+      description: 'Archaeological evidence of diaspora Jewish life in Ptolemaic Alexandria.',
+    },
+    {
+      id: 'bible-odyssey-persecution',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Religious Persecution and Jewish Resistance',
+      url: 'https://www.bibleodyssey.org/dictionary/maccabees/',
+      description: 'Hellenistic persecution of Jewish communities and responses to syncretism.',
     },
   ],
 

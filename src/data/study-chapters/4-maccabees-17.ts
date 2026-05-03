@@ -27,7 +27,7 @@ export const FOURTH_MACCABEES_17: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'mac17-mother-end',
-          html: 'The text itself is uncertain whether she died by fire or sorrow. But 4 Maccabees will not let you choose between two bereavements. Whether she leapt or collapsed, the mother&apos;s death is a completion of her witness. She did not linger in a world without her sons.',
+          html: 'The text itself is uncertain whether she died by fire or sorrow. But 4 Maccabees will not let you choose between two bereavements. Whether she leapt or collapsed, the mother&apos;s death is a completion of her witness. She did not linger in a world without her sons. [res:sefaria-4-macc-17-atonement] [res:bible-odyssey-martyrdom] [res:perseus-logismos]',
         },
         {
           kind: 'carry',
@@ -244,6 +244,33 @@ export const FOURTH_MACCABEES_17: RichChapterContent = {
       ],
     },
   ],
+  resources: [
+    {
+      id: 'sefaria-4-macc-17-atonement',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '4 Maccabees 17 — Atonement Through Suffering',
+      url: 'https://www.sefaria.org/IV_Maccabees.17',
+      description: 'Martyrdom theology and substitutionary suffering (section 17).',
+    },
+    {
+      id: 'bible-odyssey-martyrdom',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jewish Martyrdom and Atonement',
+      url: 'https://www.bibleodyssey.org/dictionary/martyrdom/',
+      description: 'Martyrdom traditions and redemptive suffering theology in Judaism.',
+    },
+    {
+      id: 'perseus-logismos',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Logismos — Rational Deliberation',
+      url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=logi%2Fsmos',
+      description: 'Greek philosophical term: reason controlling passion, central to 4 Maccabees.',
+    },
+  ],
+
   bottomShare: {
     quote: 'O noble company that wrestled the tyrant down, through the blood of these righteous and the propitiation of their death the divine providence rescued Israel. They have become as a ransom for the sin of our nation.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',

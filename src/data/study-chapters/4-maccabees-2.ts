@@ -37,7 +37,7 @@ export const FOURTH_MACCABEES_2: RichChapterContent = {
           kind: 'commentary',
           id: 'mac4-2-epithymia',
           html:
-            'Joseph, a foreigner in Egypt, enslaved in Potiphar&apos;s house, faces the sexual advance of a powerful woman who could destroy him if he refuses. The law he carries in his heart becomes stronger than the impulse that cries loudest from his body. Reason does not deny the desire—it acknowledges it and chooses something greater.',
+            'Joseph, a foreigner in Egypt, enslaved in Potiphar&apos;s house, faces the sexual advance of a powerful woman who could destroy him if he refuses. The law he carries in his heart becomes stronger than the impulse that cries loudest from his body. Reason does not deny the desire—it acknowledges it and chooses something greater. [res:sefaria-4-macc-2] [res:theoi-stoic-reason]',
         },
         {
           kind: 'greek',
@@ -421,6 +421,25 @@ export const FOURTH_MACCABEES_2: RichChapterContent = {
           caption: '4 Maccabees 2 · Joseph&apos;s Refusal',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-4-macc-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '4 Maccabees 2',
+      url: 'https://www.sefaria.org/IV_Maccabees.2',
+      description: 'Stoic philosophy applied to Torah obedience and rational virtue (section 2).',
+    },
+    {
+      id: 'theoi-stoic-reason',
+      kind: 'study',
+      source: 'Theoi Classical Texts',
+      label: 'Stoic Philosophy: Reason and Virtue',
+      url: 'https://www.theoi.com/',
+      description: 'Hellenistic Stoic concepts of reason controlling passion and emotion.',
     },
   ],
 

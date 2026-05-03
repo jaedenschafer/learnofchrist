@@ -11,6 +11,33 @@ export const THIRD_MACCABEES_5: RichChapterContent = {
     'Yet something extraordinary interrupts the machinery of death. God enters the scene through the simplest weapons: sleep, forgetfulness, and the faithful prayers of His people. The oppressor&apos;s moment of judgment keeps being delayed—and in those delays, we see the patience and sovereignty of God at work.',
   ],
 
+  resources: [
+    {
+      id: 'sefaria-3-macc-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '3 Maccabees 5',
+      url: 'https://www.sefaria.org/III_Maccabees.5',
+      description: 'Persecution of Alexandrian Jews under Ptolemy IV and divine deliverance.',
+    },
+    {
+      id: 'israel-museum-ptolemaic',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Hellenistic Jewish Communities in Egypt',
+      url: 'https://www.imj.org.il/',
+      description: 'Archaeological evidence of diaspora Jewish life in Ptolemaic Alexandria.',
+    },
+    {
+      id: 'bible-odyssey-persecution',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Religious Persecution and Jewish Resistance',
+      url: 'https://www.bibleodyssey.org/dictionary/maccabees/',
+      description: 'Hellenistic persecution of Jewish communities and responses to syncretism.',
+    },
+  ],
+
   bottomShare: {
     quote: 'Ptolemy ordered his elephants to trample the Jews. But on the first day he fell into deep sleep. On the second day, he forgot his own command. On the third day, the elephants turned and trampled the king&apos;s guards instead.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
@@ -39,7 +66,7 @@ export const THIRD_MACCABEES_5: RichChapterContent = {
           kind: 'commentary',
           id: 'mac3-5-hermon-comm',
           html:
-            'The machinery of oppression has all its parts. Ptolemy commands. Hermon obeys. The elephants become unwilling instruments of death. Each layer of the system depends on the next layer doing its job. Yet all of it—all of it—is about to unravel because God has other plans.',
+            'The machinery of oppression has all its parts. Ptolemy commands. Hermon obeys. The elephants become unwilling instruments of death. Each layer of the system depends on the next layer doing its job. Yet all of it—all of it—is about to unravel because God has other plans. [res:sefaria-3-macc-5] [res:israel-museum-ptolemaic] [res:bible-odyssey-persecution]',
         },
 
         {

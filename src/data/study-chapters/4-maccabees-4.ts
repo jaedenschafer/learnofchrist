@@ -49,7 +49,7 @@ export const FOURTH_MACCABEES_4: RichChapterContent = {
           kind: 'commentary',
           id: 'seleucus-reign',
           html:
-            'The text moves quickly: one king dies, another takes power. But the shift is seismic. Seleucus IV (the father) had, until now, left the Jews largely alone. His successor, Antiochus IV, has a very different vision. The machinery of persecution is about to be activated. Notice that Jason obtains the high priesthood "by corruption"—not by the law, but by bribery. The temple itself is about to become a tool of Hellenization.',
+            'The text moves quickly: one king dies, another takes power. But the shift is seismic. Seleucus IV (the father) had, until now, left the Jews largely alone. His successor, Antiochus IV, has a very different vision. The machinery of persecution is about to be activated. Notice that Jason obtains the high priesthood "by corruption"—not by the law, but by bribery. The temple itself is about to become a tool of Hellenization. [res:sefaria-4-macc-4] [res:theoi-stoic-reason]',
         },
         {
           kind: 'scripture',
@@ -363,6 +363,25 @@ export const FOURTH_MACCABEES_4: RichChapterContent = {
           prompt: 'Where do you feel pressure to "Hellenize"—to abandon your faith or values to fit in? What would happen if you refused?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-4-macc-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '4 Maccabees 4',
+      url: 'https://www.sefaria.org/IV_Maccabees.4',
+      description: 'Stoic philosophy applied to Torah obedience and rational virtue (section 4).',
+    },
+    {
+      id: 'theoi-stoic-reason',
+      kind: 'study',
+      source: 'Theoi Classical Texts',
+      label: 'Stoic Philosophy: Reason and Virtue',
+      url: 'https://www.theoi.com/',
+      description: 'Hellenistic Stoic concepts of reason controlling passion and emotion.',
     },
   ],
 

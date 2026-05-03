@@ -47,7 +47,7 @@ export const FOURTH_MACCABEES_15: RichChapterContent = {
         {
           kind: 'commentary',
           id: '4m15-motherlove',
-          html: 'A mother&apos;s love for her children is not sin or weakness in the author&apos;s view—it is the deepest, most God-given instinct. Nature itself implanted it. To ask a mother to watch her children die is to ask the impossible. The author does not minimize this. He is about to show us something even more powerful than the impossible.',
+          html: 'A mother&apos;s love for her children is not sin or weakness in the author&apos;s view—it is the deepest, most God-given instinct. Nature itself implanted it. To ask a mother to watch her children die is to ask the impossible. The author does not minimize this. He is about to show us something even more powerful than the impossible. [res:sefaria-4-macc-15-atonement] [res:bible-odyssey-martyrdom] [res:perseus-logismos]',
         },
         {
           kind: 'greek',
@@ -356,6 +356,33 @@ export const FOURTH_MACCABEES_15: RichChapterContent = {
           prompt: 'Whose faith—shown in their willingness to suffer and let go—has crowned your own faith? How do you carry that witness forward?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-4-macc-15-atonement',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '4 Maccabees 15 — Atonement Through Suffering',
+      url: 'https://www.sefaria.org/IV_Maccabees.15',
+      description: 'Martyrdom theology and substitutionary suffering (section 15).',
+    },
+    {
+      id: 'bible-odyssey-martyrdom',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jewish Martyrdom and Atonement',
+      url: 'https://www.bibleodyssey.org/dictionary/martyrdom/',
+      description: 'Martyrdom traditions and redemptive suffering theology in Judaism.',
+    },
+    {
+      id: 'perseus-logismos',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Logismos — Rational Deliberation',
+      url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=logi%2Fsmos',
+      description: 'Greek philosophical term: reason controlling passion, central to 4 Maccabees.',
     },
   ],
 

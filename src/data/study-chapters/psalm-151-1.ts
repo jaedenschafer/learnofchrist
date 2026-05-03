@@ -59,7 +59,7 @@ export const PSALM_151_1: RichChapterContent = {
           kind: 'commentary',
           id: 'ps151-small',
           html:
-            'David does not hide his smallness — he leads with it. Not shame, but precision. He was <em>small</em>, and he knows the God who saw him in that smallness. Throughout Scripture, God has a pattern: the youngest son (Isaac over Ishmael, Jacob over Esau, Joseph among eleven brothers, David among eight). The pattern is so consistent that when David sings it as his own life, he is inviting you to recognize yourself somewhere in it too.',
+            'David does not hide his smallness — he leads with it. Not shame, but precision. He was <em>small</em>, and he knows the God who saw him in that smallness. Throughout Scripture, God has a pattern: the youngest son (Isaac over Ishmael, Jacob over Esau, Joseph among eleven brothers, David among eight). The pattern is so consistent that when David sings it as his own life, he is inviting you to recognize yourself somewhere in it too. [res:sefaria-1-sam-16] [res:bible-odyssey-greek-psalms]',
         },
         {
           kind: 'commentary',
@@ -446,6 +446,25 @@ export const PSALM_151_1: RichChapterContent = {
             'What reproach have you carried? What would it mean for that shame to be removed not by your own strength but by the God who chose you first?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-1-sam-16',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Samuel 16 — David Anointed',
+      url: 'https://www.sefaria.org/I_Samuel.16',
+      description: 'David&apos;s anointing as king; parallel to Psalm 151&apos;s self-designation as shepherd.',
+    },
+    {
+      id: 'bible-odyssey-greek-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Greek Psalmody and the Septuagint',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'SBL guide to Septuagintal psalms and additional psalmic traditions.',
     },
   ],
 

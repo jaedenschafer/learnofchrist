@@ -20,12 +20,6 @@ export const JAMES_1: RichChapterContent = {
     'He turns next to the source of all good: the Father of lights, unchanging, utterly generous. This God does not tempt us toward evil. Instead, He invites us to ask for wisdom, to receive His word with gladness, and to become not just hearers but doers—people whose faith shows up in how they treat the broken. Pure religion, James will say, is visiting the fatherless and widows and keeping yourself unstained. That is faith made visible.',
   ],
 
-  bottomShare: {
-    quote: 'Count it all joy when ye fall into divers temptations, knowing this, that the trying of your faith worketh patience. Every good gift and every perfect gift is from above. Be ye doers of the word, and not hearers only.',
-    snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
-    ref: 'James 1 · Study Guide',
-  },
-
   sections: [
     /* ─── James 1:1–4 — Count It All Joy ────────────────────────────────── */
     {

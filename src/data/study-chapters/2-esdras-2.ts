@@ -54,7 +54,7 @@ export const SECOND_ESDRAS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'speak-words',
           html:
-            'God gives Ezra a commission: speak to Israel. The words are His; Ezra is merely the vessel. This echoes the pattern throughout Scripture—prophet after prophet, word after word, generation after generation. Israel has heard. The question is whether they have listened.',
+            'God gives Ezra a commission: speak to Israel. The words are His; Ezra is merely the vessel. This echoes the pattern throughout Scripture—prophet after prophet, word after word, generation after generation. Israel has heard. The question is whether they have listened. [res:sefaria-2-esdras-2] [res:bible-odyssey-apocalyptic]',
         },
 
         {
@@ -716,6 +716,25 @@ export const SECOND_ESDRAS_2: RichChapterContent = {
           prompt: 'What would it look like to confess the name of God—publicly, persistently—even in circumstances where it costs you something? How have you already begun to do this?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-2-esdras-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Esdras 2',
+      url: 'https://www.sefaria.org/II_Esdras.2',
+      description: 'Introduction to Ezra&apos;s visions and apocalyptic eschatology.',
+    },
+    {
+      id: 'bible-odyssey-apocalyptic',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Apocalyptic Literature and Eschatology',
+      url: 'https://www.bibleodyssey.org/dictionary/apocalyptic/',
+      description: 'Apocalyptic traditions in Second Temple Judaism and visionary literature.',
     },
   ],
 

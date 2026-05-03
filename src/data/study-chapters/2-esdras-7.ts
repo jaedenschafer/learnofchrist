@@ -35,6 +35,25 @@ export const SECOND_ESDRAS_7: RichChapterContent = {
     caption: 'The Whole Chapter at a Glance',
   },
 
+  resources: [
+    {
+      id: 'sefaria-2-esdras-7-vision',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Esdras 7 — Visionary Dialogue',
+      url: 'https://www.sefaria.org/II_Esdras.7',
+      description: 'Ezra&apos;s dialogues on theodicy and divine justice (vision 5).',
+    },
+    {
+      id: 'bible-odyssey-theodicy',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Theodicy in Late Judaism',
+      url: 'https://www.bibleodyssey.org/dictionary/evil/',
+      description: 'Problem of evil and divine justice in postexilic Jewish thought.',
+    },
+  ],
+
   bottomShare: {
     label: 'Share 2 Esdras 7',
     quote:
@@ -52,7 +71,7 @@ export const SECOND_ESDRAS_7: RichChapterContent = {
         {
           kind: 'commentary',
           html:
-            'Ezra has been asking the angel: why are there so many wicked in the world to come? Why do so few enter eternal life? The angel&apos;s answer is not comfortable. It begins with a vision, a paradox — a vision that Ezra himself was shown.',
+            'Ezra has been asking the angel: why are there so many wicked in the world to come? Why do so few enter eternal life? The angel&apos;s answer is not comfortable. It begins with a vision, a paradox — a vision that Ezra himself was shown. [res:sefaria-2-esdras-7-vision] [res:bible-odyssey-theodicy]',
         },
 
         {

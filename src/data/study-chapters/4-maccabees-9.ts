@@ -46,7 +46,7 @@ export const FOURTH_MACCABEES_9: RichChapterContent = {
           kind: 'commentary',
           id: 'obey-command',
           html:
-            'The king does not simply demand death. He demands apostasy—a betrayal so complete that the brother must renounce the law itself by his own choice. To eat unclean meat is not merely to break a dietary rule. It is to declare that the law of Moses is nothing, that obedience to God matters less than obedience to the king. The author will show that the first brother understands this perfectly.',
+            'The king does not simply demand death. He demands apostasy—a betrayal so complete that the brother must renounce the law itself by his own choice. To eat unclean meat is not merely to break a dietary rule. It is to declare that the law of Moses is nothing, that obedience to God matters less than obedience to the king. The author will show that the first brother understands this perfectly. [res:sefaria-4-macc-9-martyrs] [res:iaa-antiochus] [res:perseus-eulabeia]',
         },
 
         {
@@ -496,6 +496,33 @@ export const FOURTH_MACCABEES_9: RichChapterContent = {
             'The author says the proof is established. Do you believe it? Has the first brother&apos;s death convinced you that devout reason is master of the passions? Or do you need to see the other brothers die before you will believe?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-4-macc-9-martyrs',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '4 Maccabees 9 — Martyrdom Accounts',
+      url: 'https://www.sefaria.org/IV_Maccabees.9',
+      description: 'Jewish martyrs under Antiochus IV and Stoic endurance (martyr 5).',
+    },
+    {
+      id: 'iaa-antiochus',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Antiochus IV and Religious Persecution in Judea',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of Seleucid religious policies and Jewish resistance.',
+    },
+    {
+      id: 'perseus-eulabeia',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Eulabeia — Piety and Virtue',
+      url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=eu%29la%2Fbeia',
+      description: 'Greek lexicon: eulabeia (pious reverence) in Stoic and religious thought.',
     },
   ],
 

@@ -28,7 +28,7 @@ export const FOURTH_MACCABEES_12: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'mac4-12-offer',
-          html: 'The king does not understand what he faces. He has watched five men spit out his threats as worthless. Yet he imagines that youth, perhaps, can still be swayed. He offers not merely life but the things the powerful crave: wealth, honor, friendship with the king himself. In the tyrant&apos;s world, nothing is more precious. In the martyrs&apos; world, nothing is cheaper.',
+          html: 'The king does not understand what he faces. He has watched five men spit out his threats as worthless. Yet he imagines that youth, perhaps, can still be swayed. He offers not merely life but the things the powerful crave: wealth, honor, friendship with the king himself. In the tyrant&apos;s world, nothing is more precious. In the martyrs&apos; world, nothing is cheaper. [res:sefaria-4-macc-12-martyrs] [res:iaa-antiochus] [res:perseus-eulabeia]',
         },
         {
           kind: 'greek',
@@ -196,6 +196,33 @@ export const FOURTH_MACCABEES_12: RichChapterContent = {
           prompt: 'What would it mean to "give up your body but not your soul"? How do the martyrs redefine what it means to survive?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-4-macc-12-martyrs',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '4 Maccabees 12 — Martyrdom Accounts',
+      url: 'https://www.sefaria.org/IV_Maccabees.12',
+      description: 'Jewish martyrs under Antiochus IV and Stoic endurance (martyr 8).',
+    },
+    {
+      id: 'iaa-antiochus',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Antiochus IV and Religious Persecution in Judea',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of Seleucid religious policies and Jewish resistance.',
+    },
+    {
+      id: 'perseus-eulabeia',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Eulabeia — Piety and Virtue',
+      url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=eu%29la%2Fbeia',
+      description: 'Greek lexicon: eulabeia (pious reverence) in Stoic and religious thought.',
     },
   ],
 

@@ -51,7 +51,7 @@ export const BARUCH_4: RichChapterContent = {
           kind: 'commentary',
           id: 'bar4-commandments-opening',
           html:
-            'Baruch 4 opens with the simplest covenant statement in scripture: Keep the commandments and live; leave them and die. No middle ground. No compromise. The book—whether Deuteronomy, the Torah, or the entire written law—is not a burden to resent but the path to life itself. For an exiled people wondering if their God has abandoned them, Baruch restates the ancient offer: If you return to the law, you return to God. If you return to God, you return to life.',
+            'Baruch 4 opens with the simplest covenant statement in scripture: Keep the commandments and live; leave them and die. No middle ground. No compromise. The book—whether Deuteronomy, the Torah, or the entire written law—is not a burden to resent but the path to life itself. For an exiled people wondering if their God has abandoned them, Baruch restates the ancient offer: If you return to the law, you return to God. If you return to God, you return to life. [res:sefaria-isa-49-52] [res:bible-odyssey-zion-mother]',
         },
         {
           kind: 'greek',
@@ -562,6 +562,25 @@ export const BARUCH_4: RichChapterContent = {
             'What would it look like for you to "make haste" toward God, not from panic but from the knowledge that He is already at rest, already certain of your salvation?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-isa-49-52',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 49-52 — Zion&apos;s Consolation',
+      url: 'https://www.sefaria.org/Isaiah.49',
+      description: 'Jerusalem personified and consoled; parallels Baruch 4 and Deutero-Isaiah themes.',
+    },
+    {
+      id: 'bible-odyssey-zion-mother',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jerusalem as Woman: Metaphor and Restoration',
+      url: 'https://www.bibleodyssey.org/dictionary/jerusalem/',
+      description: 'Feminine imagery applied to Jerusalem in exile and restoration tradition.',
     },
   ],
 

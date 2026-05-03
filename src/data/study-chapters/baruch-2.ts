@@ -18,6 +18,25 @@ export const BARUCH_2: RichChapterContent = {
     'Confession without memory is hollow. The exiles remember the wilderness, manna, commandments on stone. They remember Jeremiah&apos;s warnings. And they remember God promised that even if scattered, if they returned, He would return to them. That promise is not yet broken.',
   ],
 
+  resources: [
+    {
+      id: 'sefaria-lam-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Lamentations 5 — Communal Lament',
+      url: 'https://www.sefaria.org/Lamentations.5',
+      description: 'Canonical model for Baruch&apos;s communal prayer and confession in exile.',
+    },
+    {
+      id: 'bible-odyssey-confession',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Communal Confession and Covenant Renewal',
+      url: 'https://www.bibleodyssey.org/dictionary/covenant/',
+      description: 'Liturgical confession and restoration of covenant relationship.',
+    },
+  ],
+
   bottomShare: {
     quote: 'Yet thou didst not take utterly away the sceptre of Judah from the seed of Abraham: for thou rememberedst thy covenant.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
@@ -52,7 +71,7 @@ export const BARUCH_2: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'bar2-wearied',
-          html: 'The exiles do not come before God with strength or confidence. They come broken—a soul crushed under exile, a spirit worn through years of displacement and judgment. The <em>wearied spirit</em> is their starting point. Yet notice what they do with their weakness: they turn it into their plea. They come to God not because they have recovered, but because they have nowhere else to go. Weakness becomes honest. Anguish becomes prayer.',
+html: 'The exiles do not come before God with strength or confidence. They come broken—a soul crushed under exile, a spirit worn through years of displacement and judgment. The <em>wearied spirit</em> is their starting point. Yet notice what they do with their weakness: they turn it into their plea. They come to God not because they have recovered, but because they have nowhere else to go. Weakness becomes honest. Anguish becomes prayer. [res:sefaria-lam-5] [res:bible-odyssey-confession]',
         },
         {
           kind: 'hebrew',

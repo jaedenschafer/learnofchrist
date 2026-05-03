@@ -33,6 +33,25 @@ export const FIRST_ESDRAS_9: RichChapterContent = {
     'And yet — because this is Scripture and Scripture speaks the full truth — the chapter does not end in sorrow. After the covenant is undone, after the list of those who separated themselves is named, the story turns. The seventh month comes. The people gather again — this time at the Water Gate. Esdras brings the book of the law. He reads. And what began in weeping over broken covenant ends in the strange, holy joy of hearing God speak.',
   ],
 
+  resources: [
+    {
+      id: 'sefaria-ezra-9-10',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezra 9-10 — Foreign Marriages and Covenant',
+      url: 'https://www.sefaria.org/Ezra.9',
+      description: 'Intermarriage crisis and covenant renewal in postexilic community.',
+    },
+    {
+      id: 'bible-odyssey-boundaries',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ethnic Boundaries and Jewish Identity Formation',
+      url: 'https://www.bibleodyssey.org/dictionary/ezra/',
+      description: 'Postexilic identity, marriage practices, and community boundaries in diaspora.',
+    },
+  ],
+
   bottomShare: {
     label: 'Share 1 Esdras 9',
     quote:
@@ -65,7 +84,7 @@ export const FIRST_ESDRAS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'esdras-grief',
           html:
-            'Esdras does not hear this news in private counsel. He tears his garments — the ancient gesture of deep grief and horror. His sorrow is public and visible. And it moves others. The phrase "all they that were moved at the word of the Lord" suggests that his grief is spiritual, not merely emotional — he grieves because the covenant itself has been broken, because the people have drifted from exclusive worship of the Lord.',
+            'Esdras does not hear this news in private counsel. He tears his garments — the ancient gesture of deep grief and horror. His sorrow is public and visible. And it moves others. The phrase "all they that were moved at the word of the Lord" suggests that his grief is spiritual, not merely emotional — he grieves because the covenant itself has been broken, because the people have drifted from exclusive worship of the Lord. [res:sefaria-ezra-9-10] [res:bible-odyssey-boundaries]',
         },
 
         {

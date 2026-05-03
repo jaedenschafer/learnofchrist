@@ -47,7 +47,7 @@ export const SECOND_ESDRAS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'ezdras-mercy',
           html:
-            'Ezra speaks not for the righteous but for the sinful—those who cry out and have no hope in themselves. He positions himself as an intercessor, standing in the gap between a perfect God and an imperfect people. This is the posture of the prophets: to plead the case of those who cannot plead their own.',
+            'Ezra speaks not for the righteous but for the sinful—those who cry out and have no hope in themselves. He positions himself as an intercessor, standing in the gap between a perfect God and an imperfect people. This is the posture of the prophets: to plead the case of those who cannot plead their own. [res:sefaria-2-esdras-8-vision] [res:bible-odyssey-theodicy]',
         },
         {
           kind: 'scripture',
@@ -533,6 +533,25 @@ export const SECOND_ESDRAS_8: RichChapterContent = {
           caption: '2 Esdras 8:61–62 · From Prayer to Vision',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-2-esdras-8-vision',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Esdras 8 — Visionary Dialogue',
+      url: 'https://www.sefaria.org/II_Esdras.8',
+      description: 'Ezra&apos;s dialogues on theodicy and divine justice (vision 6).',
+    },
+    {
+      id: 'bible-odyssey-theodicy',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Theodicy in Late Judaism',
+      url: 'https://www.bibleodyssey.org/dictionary/evil/',
+      description: 'Problem of evil and divine justice in postexilic Jewish thought.',
     },
   ],
 

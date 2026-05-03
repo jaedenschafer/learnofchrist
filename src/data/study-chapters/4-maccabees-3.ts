@@ -49,7 +49,7 @@ export const FOURTH_MACCABEES_3: RichChapterContent = {
           kind: 'commentary',
           id: 'mac4-intro-reason',
           html:
-            'The author begins with a careful philosophical claim: reason <em>mastered</em> appetite, not <em>eradicated</em> it. This is crucial. 4 Maccabees does not teach that the wise person has no desires. Rather, desire is present—thirst is real, hunger is real—but reason superintends it. Reason is the faculty that sees beyond immediate satisfaction to the deeper questions: What does this desire cost? What does integrity demand? What am I called to honor?',
+            'The author begins with a careful philosophical claim: reason <em>mastered</em> appetite, not <em>eradicated</em> it. This is crucial. 4 Maccabees does not teach that the wise person has no desires. Rather, desire is present—thirst is real, hunger is real—but reason superintends it. Reason is the faculty that sees beyond immediate satisfaction to the deeper questions: What does this desire cost? What does integrity demand? What am I called to honor? [res:sefaria-4-macc-3] [res:theoi-stoic-reason]',
         },
         {
           kind: 'greek',
@@ -325,6 +325,25 @@ export const FOURTH_MACCABEES_3: RichChapterContent = {
       ],
     },
 
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-4-macc-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '4 Maccabees 3',
+      url: 'https://www.sefaria.org/IV_Maccabees.3',
+      description: 'Stoic philosophy applied to Torah obedience and rational virtue (section 3).',
+    },
+    {
+      id: 'theoi-stoic-reason',
+      kind: 'study',
+      source: 'Theoi Classical Texts',
+      label: 'Stoic Philosophy: Reason and Virtue',
+      url: 'https://www.theoi.com/',
+      description: 'Hellenistic Stoic concepts of reason controlling passion and emotion.',
+    },
   ],
 
   bottomShare: {

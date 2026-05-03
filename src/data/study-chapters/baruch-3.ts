@@ -42,7 +42,7 @@ export const BARUCH_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-anguish',
-          html: 'The chapter opens not with doctrine but with the cry of a wounded soul. The Hebrew <em>nephesh&apos;</em>—the whole person, the breath, the life-force—is in anguish. This is not abstract theology but lived suffering. Israel, in exile, in grief, turns toward God not with confidence but with raw openness.',
+html: 'The chapter opens not with doctrine but with the cry of a wounded soul. The Hebrew <em>nephesh&apos;</em>—the whole person, the breath, the life-force—is in anguish. This is not abstract theology but lived suffering. Israel, in exile, in grief, turns toward God not with confidence but with raw openness. [res:sefaria-prov-8] [res:bible-odyssey-wisdom-hellenistic]',
         },
         {
           kind: 'scripture',
@@ -560,6 +560,25 @@ export const BARUCH_3: RichChapterContent = {
           prompt: 'Baruch says God &ldquo;afterward did he shew himself upon earth, and conversed with men.&rdquo; If you believe that person was Jesus, what does it mean that you can still converse with Him? Where in your life do you need Him to show Himself and speak?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-prov-8',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 8 — Wisdom Personified',
+      url: 'https://www.sefaria.org/Proverbs.8',
+      description: 'Canonical wisdom tradition paralleling Baruch 3&apos;s praise of divine wisdom.',
+    },
+    {
+      id: 'bible-odyssey-wisdom-hellenistic',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hellenistic Jewish Wisdom Literature',
+      url: 'https://www.bibleodyssey.org/dictionary/wisdom/',
+      description: 'SBL guide to wisdom themes in Deuterocanonical and Apocryphal books.',
     },
   ],
 

@@ -55,7 +55,7 @@ export const SECOND_ESDRAS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'nisan-night',
           html:
-            'Nisan is the month of Passover—the month of remembered deliverance from Egypt. That Ezra lies awake during Nisan, thirty years after Jerusalem&apos;s destruction, makes the irony cut even deeper. The season of freedom is now a season of captivity. The prophet cannot sleep; his heart is restless.',
+            'Nisan is the month of Passover—the month of remembered deliverance from Egypt. That Ezra lies awake during Nisan, thirty years after Jerusalem&apos;s destruction, makes the irony cut even deeper. The season of freedom is now a season of captivity. The prophet cannot sleep; his heart is restless. [res:sefaria-2-esdras-3-vision] [res:bible-odyssey-theodicy]',
         },
 
         {
@@ -718,6 +718,25 @@ export const SECOND_ESDRAS_3: RichChapterContent = {
             'How have you experienced the law—God&apos;s revealed will—as a gift? As a burden? As both? What would it mean for you to see it the way Christ sees it—not as a measure of your failure but as a revelation of His love?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-2-esdras-3-vision',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Esdras 3 — Visionary Dialogue',
+      url: 'https://www.sefaria.org/II_Esdras.3',
+      description: 'Ezra&apos;s dialogues on theodicy and divine justice (vision 1).',
+    },
+    {
+      id: 'bible-odyssey-theodicy',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Theodicy in Late Judaism',
+      url: 'https://www.bibleodyssey.org/dictionary/evil/',
+      description: 'Problem of evil and divine justice in postexilic Jewish thought.',
     },
   ],
 

@@ -43,7 +43,7 @@ export const THIRD_MACCABEES_2: RichChapterContent = {
           kind: 'commentary',
           id: 'simon-priest',
           html:
-            'Simon stands alone. Not on behalf of soldiers or kings, but as a priest standing in the gap. His only weapon is his voice. His only authority is his office. He lifts his hands—the posture of the ancient priest bringing the people&apos;s cry before God.',
+            'Simon stands alone. Not on behalf of soldiers or kings, but as a priest standing in the gap. His only weapon is his voice. His only authority is his office. He lifts his hands—the posture of the ancient priest bringing the people&apos;s cry before God. [res:sefaria-3-macc-2] [res:israel-museum-ptolemaic] [res:bible-odyssey-persecution]',
         },
 
         {
@@ -632,6 +632,33 @@ export const THIRD_MACCABEES_2: RichChapterContent = {
             'What mark does the world try to give you? What would it mean to believe you are sealed instead by God&apos;s Spirit—that His mark is the only one that finally matters?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-3-macc-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '3 Maccabees 2',
+      url: 'https://www.sefaria.org/III_Maccabees.2',
+      description: 'Persecution of Alexandrian Jews under Ptolemy IV and divine deliverance.',
+    },
+    {
+      id: 'israel-museum-ptolemaic',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Hellenistic Jewish Communities in Egypt',
+      url: 'https://www.imj.org.il/',
+      description: 'Archaeological evidence of diaspora Jewish life in Ptolemaic Alexandria.',
+    },
+    {
+      id: 'bible-odyssey-persecution',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Religious Persecution and Jewish Resistance',
+      url: 'https://www.bibleodyssey.org/dictionary/maccabees/',
+      description: 'Hellenistic persecution of Jewish communities and responses to syncretism.',
     },
   ],
 

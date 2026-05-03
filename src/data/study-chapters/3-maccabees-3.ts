@@ -45,7 +45,7 @@ export const THIRD_MACCABEES_3: RichChapterContent = {
           kind: 'commentary',
           id: 'mac3-decree-machinery',
           html:
-            'Ptolemy&apos;s decree arrives as law: cold, bureaucratic, absolute. Registration precedes enslavement—the first step toward control is being counted, separated, identified by the state as enemy. In ancient Egypt, being registered meant losing identity, property, and freedom in a single stroke.',
+            'Ptolemy&apos;s decree arrives as law: cold, bureaucratic, absolute. Registration precedes enslavement—the first step toward control is being counted, separated, identified by the state as enemy. In ancient Egypt, being registered meant losing identity, property, and freedom in a single stroke. [res:sefaria-3-macc-3] [res:israel-museum-ptolemaic] [res:bible-odyssey-persecution]',
         },
         {
           kind: 'greek',
@@ -403,6 +403,33 @@ export const THIRD_MACCABEES_3: RichChapterContent = {
             'What would change if you truly believed, right now, that God sees your suffering and is working toward your deliverance—even if the timeline is beyond what you can see?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-3-macc-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '3 Maccabees 3',
+      url: 'https://www.sefaria.org/III_Maccabees.3',
+      description: 'Persecution of Alexandrian Jews under Ptolemy IV and divine deliverance.',
+    },
+    {
+      id: 'israel-museum-ptolemaic',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Hellenistic Jewish Communities in Egypt',
+      url: 'https://www.imj.org.il/',
+      description: 'Archaeological evidence of diaspora Jewish life in Ptolemaic Alexandria.',
+    },
+    {
+      id: 'bible-odyssey-persecution',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Religious Persecution and Jewish Resistance',
+      url: 'https://www.bibleodyssey.org/dictionary/maccabees/',
+      description: 'Hellenistic persecution of Jewish communities and responses to syncretism.',
     },
   ],
 

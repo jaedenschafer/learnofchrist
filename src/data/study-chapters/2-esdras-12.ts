@@ -60,7 +60,7 @@ export const SECOND_ESDRAS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'lion-rises',
           html:
-            'The eagle rises to speak again—but before it can continue its boasting, another voice interrupts. This is the pattern of apocalyptic literature: the voices of power compete for authority. One speaks from entrenched dominion; the other speaks from the margins, from the wood, and yet it silences empires.',
+            'The eagle rises to speak again—but before it can continue its boasting, another voice interrupts. This is the pattern of apocalyptic literature: the voices of power compete for authority. One speaks from entrenched dominion; the other speaks from the margins, from the wood, and yet it silences empires. [res:sefaria-2-esdras-12-messiah] [res:bible-odyssey-messiah] [res:theoi-apocalyptic-vision]',
         },
         {
           kind: 'greek',
@@ -539,6 +539,33 @@ export const SECOND_ESDRAS_12: RichChapterContent = {
           caption: '2 Esdras 12:40–41 · Write and Teach',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-2-esdras-12-messiah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Esdras 12 — Messianic Visions',
+      url: 'https://www.sefaria.org/II_Esdras.12',
+      description: 'Final messianic and eschatological visions (vision 5).',
+    },
+    {
+      id: 'bible-odyssey-messiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Messianic Expectations in Second Temple Judaism',
+      url: 'https://www.bibleodyssey.org/dictionary/messiah/',
+      description: 'Diverse messianic hopes and expectations in late Jewish eschatology.',
+    },
+    {
+      id: 'theoi-apocalyptic-vision',
+      kind: 'study',
+      source: 'Theoi Classical Texts',
+      label: 'Apocalyptic Vision in Hellenistic Religions',
+      url: 'https://www.theoi.com/',
+      description: 'Vision literature and apocalypticism in Hellenistic religious thought.',
     },
   ],
 

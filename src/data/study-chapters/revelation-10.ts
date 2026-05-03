@@ -15,14 +15,6 @@ export const REVELATION_10: RichChapterContent = {
     caption: 'The Whole Chapter at a Glance',
   },
 
-  bottomShare: {
-    label: 'Share Revelation 10',
-    quote:
-      'A mighty angel comes down from heaven with a little book open. The prophet is told to take it and eat it. It is sweet as honey in his mouth, but bitter in his belly. He is commanded to prophesy again before many peoples, nations, tongues, and kings.',
-    snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
-    ref: 'Revelation 10 · Study Guide',
-  },
-
   sections: [
     /* ─── Revelation 10:1 — Another Mighty Angel ─────────────────────────── */
     {

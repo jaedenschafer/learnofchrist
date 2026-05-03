@@ -60,7 +60,7 @@ export const SECOND_ESDRAS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'bush-moses',
           html:
-            'The moment is unmistakable. A burning bush speaking to a man sitting beneath a tree. The echo of Moses at Horeb rings through the text. God does not appear to Ezra in the temple (it no longer stands). He appears in the wilderness, to a man in solitude, as He appeared to Moses. The God who called the first lawgiver now calls the last scribe. The pattern is ancient and will not break.',
+            'The moment is unmistakable. A burning bush speaking to a man sitting beneath a tree. The echo of Moses at Horeb rings through the text. God does not appear to Ezra in the temple (it no longer stands). He appears in the wilderness, to a man in solitude, as He appeared to Moses. The God who called the first lawgiver now calls the last scribe. The pattern is ancient and will not break. [res:sefaria-2-esdras-14-messiah] [res:bible-odyssey-messiah] [res:theoi-apocalyptic-vision]',
         },
 
         {
@@ -704,6 +704,33 @@ export const SECOND_ESDRAS_14: RichChapterContent = {
             'If you truly believed the world was ending and you were about to be taken up to heaven, what would you stop caring about? What would you finally let go of? Start there.',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-2-esdras-14-messiah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Esdras 14 — Messianic Visions',
+      url: 'https://www.sefaria.org/II_Esdras.14',
+      description: 'Final messianic and eschatological visions (vision 7).',
+    },
+    {
+      id: 'bible-odyssey-messiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Messianic Expectations in Second Temple Judaism',
+      url: 'https://www.bibleodyssey.org/dictionary/messiah/',
+      description: 'Diverse messianic hopes and expectations in late Jewish eschatology.',
+    },
+    {
+      id: 'theoi-apocalyptic-vision',
+      kind: 'study',
+      source: 'Theoi Classical Texts',
+      label: 'Apocalyptic Vision in Hellenistic Religions',
+      url: 'https://www.theoi.com/',
+      description: 'Vision literature and apocalypticism in Hellenistic religious thought.',
     },
   ],
 

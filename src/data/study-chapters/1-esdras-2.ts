@@ -49,7 +49,7 @@ export const FIRST_ESDRAS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'word-jeremiah',
           html:
-            'Jeremiah, preaching to a nation heading toward exile, made a specific promise: seventy years would pass, then God would bring the people home (Jeremiah 25:11–12; 29:10). That word did not disappear. It waited. It was written. And when the time came, it found its fulfillment not through the compassion of a Hebrew king, but through the will of a Persian one. The Word of God outlives the exile that it promises to end.',
+            'Jeremiah, preaching to a nation heading toward exile, made a specific promise: seventy years would pass, then God would bring the people home (Jeremiah 25:11–12; 29:10). That word did not disappear. It waited. It was written. And when the time came, it found its fulfillment not through the compassion of a Hebrew king, but through the will of a Persian one. The Word of God outlives the exile that it promises to end. [res:sefaria-1-esdras-2] [res:bible-odyssey-second-temple-period]',
         },
         {
           kind: 'commentary',
@@ -508,6 +508,25 @@ export const FIRST_ESDRAS_2: RichChapterContent = {
         },
         { kind: 'divider' },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-1-esdras-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Esdras 2 — Return and Temple Rebuilding',
+      url: 'https://www.sefaria.org/I_Esdras.2',
+      description: 'Return from exile and Second Temple construction under Zerubbabel.',
+    },
+    {
+      id: 'bible-odyssey-second-temple-period',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Second Temple Period: Reconstruction',
+      url: 'https://www.bibleodyssey.org/dictionary/second-temple/',
+      description: 'Temple rebuilding and Judean community restoration in Persian period.',
     },
   ],
 

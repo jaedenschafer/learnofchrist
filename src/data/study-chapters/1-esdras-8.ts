@@ -32,6 +32,25 @@ export const FIRST_ESDRAS_8: RichChapterContent = {
     caption: 'The Story of Esdras: Arrival and Covenant Crisis',
   },
 
+  resources: [
+    {
+      id: 'sefaria-1-esdras-8-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Esdras 8-9 — Dedication and Covenant',
+      url: 'https://www.sefaria.org/I_Esdras.8',
+      description: 'Second Temple dedication and Festival of Sukkot under Zerubbabel.',
+    },
+    {
+      id: 'bible-odyssey-temple-dedication',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Temple Dedication Ceremonies',
+      url: 'https://www.bibleodyssey.org/dictionary/temple/',
+      description: 'Religious ceremonies and community gathering for sacred space restoration.',
+    },
+  ],
+
   bottomShare: {
     label: 'Share 1 Esdras 8',
     quote:
@@ -79,7 +98,7 @@ export const FIRST_ESDRAS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'artaxerxes-reign',
           html:
-            'Artaxerxes reigns over Persia, and the seventy-year exile has ended. Yet silence fell on the returning remnant. The Temple foundation was laid; opposition arose; the work stalled. Now, decades after that first return, Esdras comes as the answer to a prayer the text never explicitly records—the prayer of those who longed for the law to be taught, for the covenant to be restored, for God\'s word to take root again in His people\'s hearts.',
+            'Artaxerxes reigns over Persia, and the seventy-year exile has ended. Yet silence fell on the returning remnant. The Temple foundation was laid; opposition arose; the work stalled. Now, decades after that first return, Esdras comes as the answer to a prayer the text never explicitly records—the prayer of those who longed for the law to be taught, for the covenant to be restored, for God[res:sefaria-1-esdras-8-9] [res:bible-odyssey-temple-dedication]\'s word to take root again in His people\'s hearts.',
         },
         {
           kind: 'commentary',

@@ -41,7 +41,7 @@ export const BARUCH_6: RichChapterContent = {
           kind: 'commentary',
           id: 'bar6-epistle',
           html:
-            'Jeremiah writes from Jerusalem to the exiles in Babylon. He cannot be with them physically—but he can send his words. The exiles will face pressure, seduction, and doubt. They will see idolatry all around them and wonder if their God has abandoned them. Jeremiah&apos;s letter is a rope thrown across the waters of exile. Hold to it.',
+            'Jeremiah writes from Jerusalem to the exiles in Babylon. He cannot be with them physically—but he can send his words. The exiles will face pressure, seduction, and doubt. They will see idolatry all around them and wonder if their God has abandoned them. Jeremiah&apos;s letter is a rope thrown across the waters of exile. Hold to it. [res:sefaria-jer-10] [res:perseus-eidolon] [res:bible-odyssey-idolatry]',
         },
         {
           kind: 'scripture',
@@ -506,6 +506,33 @@ export const BARUCH_6: RichChapterContent = {
             'Whose voice are you listening to—the confident voice of idolatry around you, or the quiet voice of Jeremiah&apos;s letter? What would it mean to turn away from the idols and trust the God who is alive?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-jer-10',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 10 — Idolatry Critique',
+      url: 'https://www.sefaria.org/Jeremiah.10',
+      description: 'Canonical polemic against idolatry; Baruch 6 (Letter of Jeremiah) parallels.',
+    },
+    {
+      id: 'perseus-eidolon',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Eidolon — Greek Idol/Image',
+      url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=ei%29dw%2Flon',
+      description: 'Greek lexicon of eidolon (idol, image) in religious syncretism context.',
+    },
+    {
+      id: 'bible-odyssey-idolatry',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Idolatry and Monotheism in the Bible',
+      url: 'https://www.bibleodyssey.org/dictionary/idolatry/',
+      description: 'Biblical polemic against idolatry and syncretism in exile periods.',
     },
   ],
 

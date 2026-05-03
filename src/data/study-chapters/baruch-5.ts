@@ -27,6 +27,25 @@ export const BARUCH_5: RichChapterContent = {
     caption: 'The Whole Chapter at a Glance',
   },
 
+  resources: [
+    {
+      id: 'sefaria-isa-54-66',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 54-66 — Restoration and Return',
+      url: 'https://www.sefaria.org/Isaiah.54',
+      description: 'Promises of restoration echoing Baruch 5 and addressing diaspora hope.',
+    },
+    {
+      id: 'bible-odyssey-diaspora-theology',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Diaspora Theology in Deuterocanonical Writings',
+      url: 'https://www.bibleodyssey.org/dictionary/diaspora/',
+      description: 'Diaspora identity, hope, and community formation in exile literature.',
+    },
+  ],
+
   bottomShare: {
     label: 'Share Baruch 5',
     quote:
@@ -61,7 +80,7 @@ export const BARUCH_5: RichChapterContent = {
           kind: 'commentary',
           id: 'c-himation',
           html:
-            'The garment is not incidental—it is a visual sign of Jerusalem&apos;s condition. In biblical language, wearing sackcloth and mourning clothes is the outer expression of inner grief and displacement. To put off the garment of mourning is not to forget what was lost but to acknowledge that the exile is ending, that a new season is beginning. The garment of glory that replaces it is a garment of restoration, of dignity reclaimed, of a people remade.',
+            'The garment is not incidental—it is a visual sign of Jerusalem&apos;s condition. In biblical language, wearing sackcloth and mourning clothes is the outer expression of inner grief and displacement. To put off the garment of mourning is not to forget what was lost but to acknowledge that the exile is ending, that a new season is beginning. The garment of glory that replaces it is a garment of restoration, of dignity reclaimed, of a people remade. [res:sefaria-isa-54-66] [res:bible-odyssey-diaspora-theology]',
         },
         {
           kind: 'greek',

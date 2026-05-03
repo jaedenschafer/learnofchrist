@@ -28,7 +28,7 @@ export const FOURTH_MACCABEES_11: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'mac4-11-cruel',
-          html: 'The fourth brother does not address the tyrant in fear or supplication. He addresses him with stark theological clarity: your cruelty is a finite thing, belonging to a human realm. The God above you operates on a different principle altogether.',
+          html: 'The fourth brother does not address the tyrant in fear or supplication. He addresses him with stark theological clarity: your cruelty is a finite thing, belonging to a human realm. The God above you operates on a different principle altogether. [res:sefaria-4-macc-11-martyrs] [res:iaa-antiochus] [res:perseus-eulabeia]',
         },
         {
           kind: 'commentary',
@@ -234,6 +234,33 @@ export const FOURTH_MACCABEES_11: RichChapterContent = {
           caption: '4 Maccabees 11 · The Fifth Brother in Fire',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-4-macc-11-martyrs',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '4 Maccabees 11 — Martyrdom Accounts',
+      url: 'https://www.sefaria.org/IV_Maccabees.11',
+      description: 'Jewish martyrs under Antiochus IV and Stoic endurance (martyr 7).',
+    },
+    {
+      id: 'iaa-antiochus',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Antiochus IV and Religious Persecution in Judea',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of Seleucid religious policies and Jewish resistance.',
+    },
+    {
+      id: 'perseus-eulabeia',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Eulabeia — Piety and Virtue',
+      url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=eu%29la%2Fbeia',
+      description: 'Greek lexicon: eulabeia (pious reverence) in Stoic and religious thought.',
     },
   ],
 

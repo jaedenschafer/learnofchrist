@@ -45,7 +45,7 @@ export const SECOND_ESDRAS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'esd13-wind-sea',
           html:
-            'The vision begins in chaos. The sea is in upheaval. In Scripture, the sea represents the deep, the unknown, the forces that stand outside God&apos;s order. From this churning sea, something emerges. Ezra is not describing a man born of history or politics. He is describing one who emerges from the very foundation of creation, stirred by the wind—the Spirit—of God.',
+            'The vision begins in chaos. The sea is in upheaval. In Scripture, the sea represents the deep, the unknown, the forces that stand outside God&apos;s order. From this churning sea, something emerges. Ezra is not describing a man born of history or politics. He is describing one who emerges from the very foundation of creation, stirred by the wind—the Spirit—of God. [res:sefaria-2-esdras-13-messiah] [res:bible-odyssey-messiah] [res:theoi-apocalyptic-vision]',
         },
 
         {
@@ -483,6 +483,33 @@ export const SECOND_ESDRAS_13: RichChapterContent = {
             'The angel leaves the choice to Ezra and to you. Having read this vision of the Man from the sea, do you believe? What does it mean to accept the Messiah whom God has been keeping?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-2-esdras-13-messiah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Esdras 13 — Messianic Visions',
+      url: 'https://www.sefaria.org/II_Esdras.13',
+      description: 'Final messianic and eschatological visions (vision 6).',
+    },
+    {
+      id: 'bible-odyssey-messiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Messianic Expectations in Second Temple Judaism',
+      url: 'https://www.bibleodyssey.org/dictionary/messiah/',
+      description: 'Diverse messianic hopes and expectations in late Jewish eschatology.',
+    },
+    {
+      id: 'theoi-apocalyptic-vision',
+      kind: 'study',
+      source: 'Theoi Classical Texts',
+      label: 'Apocalyptic Vision in Hellenistic Religions',
+      url: 'https://www.theoi.com/',
+      description: 'Vision literature and apocalypticism in Hellenistic religious thought.',
     },
   ],
 

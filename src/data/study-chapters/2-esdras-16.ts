@@ -49,7 +49,7 @@ export const SECOND_ESDRAS_16: RichChapterContent = {
           kind: 'commentary',
           id: 'woe-babylon-asia',
           html:
-            'The four great empires of the ancient world stand before God, and each hears the same word: woe. Not because their strength is great, but because they have used that strength to oppose God and grind the faithful under their heel. The woe is the answer of heaven to the pride of earth.',
+            'The four great empires of the ancient world stand before God, and each hears the same word: woe. Not because their strength is great, but because they have used that strength to oppose God and grind the faithful under their heel. The woe is the answer of heaven to the pride of earth. [res:sefaria-2-esdras-16-messiah] [res:bible-odyssey-messiah] [res:theoi-apocalyptic-vision]',
         },
 
         {
@@ -561,6 +561,33 @@ export const SECOND_ESDRAS_16: RichChapterContent = {
             'What does it mean to &quot;bloom where you are planted&quot; in your current season? What fruit is God asking you to bear? What seed are you planting?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-2-esdras-16-messiah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Esdras 16 — Messianic Visions',
+      url: 'https://www.sefaria.org/II_Esdras.16',
+      description: 'Final messianic and eschatological visions (vision 9).',
+    },
+    {
+      id: 'bible-odyssey-messiah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Messianic Expectations in Second Temple Judaism',
+      url: 'https://www.bibleodyssey.org/dictionary/messiah/',
+      description: 'Diverse messianic hopes and expectations in late Jewish eschatology.',
+    },
+    {
+      id: 'theoi-apocalyptic-vision',
+      kind: 'study',
+      source: 'Theoi Classical Texts',
+      label: 'Apocalyptic Vision in Hellenistic Religions',
+      url: 'https://www.theoi.com/',
+      description: 'Vision literature and apocalypticism in Hellenistic religious thought.',
     },
   ],
 

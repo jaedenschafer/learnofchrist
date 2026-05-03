@@ -34,7 +34,7 @@ export const FIRST_ESDRAS_4: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'e4-wine-claim',
-          html: 'The first bodyguard makes his case: wine levels all distinctions. Rich and poor, slave and free, king and peasant—all become equally intoxicated. Wine appears to blur every line, to equalize every station, to overcome every resistance. It is a seductive argument. Wine&apos;s power seems absolute.',
+          html: 'The first bodyguard makes his case: wine levels all distinctions. Rich and poor, slave and free, king and peasant—all become equally intoxicated. Wine appears to blur every line, to equalize every station, to overcome every resistance. It is a seductive argument. Wine&apos;s power seems absolute. [res:sefaria-1-esdras-3-4] [res:topostext-zerubbabel]',
         },
         {
           kind: 'carry',
@@ -314,6 +314,25 @@ export const FIRST_ESDRAS_4: RichChapterContent = {
           prompt: 'What has been unjustly taken from you? What would it mean to wait for God&apos;s vindication and restoration rather than trying to seize it yourself?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-1-esdras-3-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Esdras 3-4 — The Three Youths Contest',
+      url: 'https://www.sefaria.org/I_Esdras.3',
+      description: 'Unique Hellenistic narrative about truth, loyalty, and women in Esdras tradition.',
+    },
+    {
+      id: 'topostext-zerubbabel',
+      kind: 'archaeology',
+      source: 'ToposText',
+      label: 'Zerubbabel and Jerusalem Restoration',
+      url: 'https://topostext.org/',
+      description: 'Archaeological sites of Second Temple Jerusalem and temple reconstruction.',
     },
   ],
 

@@ -39,7 +39,7 @@ export const BARUCH_1: RichChapterContent = {
           kind: 'commentary',
           id: 'bar1-baruch-identity',
           html:
-            'Baruch introduces himself by his lineage. He is not an outsider or a latecomer. He is of the royal household. More than that, he is Jeremiah&apos;s scribe—the one who sat with the prophet through the siege and after. Now he becomes the voice through which the whole community speaks. The scroll he writes is not prophecy; it is confession.',
+            'Baruch introduces himself by his lineage. He is not an outsider or a latecomer. He is of the royal household. More than that, he is Jeremiah&apos;s scribe—the one who sat with the prophet through the siege and after. Now he becomes the voice through which the whole community speaks. The scroll he writes is not prophecy; it is confession. [res:sefaria-jer-25] [res:bible-odyssey-babylonian-exile]',
         },
         {
           kind: 'hebrew',
@@ -493,6 +493,25 @@ export const BARUCH_1: RichChapterContent = {
           caption: 'Exile in Babylon · Psalm 137: "By the rivers of Babylon, there we sat down, yea, we wept"',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-jer-25',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 25 — Seventy Years of Exile',
+      url: 'https://www.sefaria.org/Jeremiah.25',
+      description: 'Canonical theme paralleling Baruch&apos;s exile narrative and restoration hope.',
+    },
+    {
+      id: 'bible-odyssey-babylonian-exile',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Babylonian Exile and Diaspora',
+      url: 'https://www.bibleodyssey.org/dictionary/babylonian-exile/',
+      description: 'SBL entry on historical and theological context of Judean exile.',
     },
   ],
 

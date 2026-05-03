@@ -31,6 +31,25 @@ export const FIRST_ESDRAS_7: RichChapterContent = {
     caption: 'The Restored Temple: A Place Made Ready for God',
   },
 
+  resources: [
+    {
+      id: 'sefaria-neh-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Nehemiah 3 — Wall Construction and Gates',
+      url: 'https://www.sefaria.org/Nehemiah.3',
+      description: 'Wall reconstruction and city gates in postexilic Jerusalem restoration.',
+    },
+    {
+      id: 'iaa-jerusalem-walls',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Jerusalem Walls: Second Temple Period',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of Nehemiah&apos;s wall and Hellenistic-era gates.',
+    },
+  ],
+
   bottomShare: {
     quote:
       'The temple of the Lord was finished in the sixth year of Darius&apos;s reign. The children of Israel, the priests, the Levites, and all the captivity kept the dedication with joy. And they kept the Passover with great celebration, inviting all who had separated themselves from the filthiness of the heathen to seek the Lord God of Israel.',
@@ -62,7 +81,7 @@ export const FIRST_ESDRAS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'esdras7-decree',
           html:
-            'Darius does not dismiss the complaint or rule arbitrarily. Instead, he orders the truth to be sought. This is an act of humility before history, before the record. A king who searches the archives is a king willing to be corrected by facts. In Babylon, where the richest treasures and the oldest records are kept, the scroll lies waiting — proof of Cyrus&apos;s long-ago command. Decades have passed, but the decree has not faded. It is written. It is real.',
+            'Darius does not dismiss the complaint or rule arbitrarily. Instead, he orders the truth to be sought. This is an act of humility before history, before the record. A king who searches the archives is a king willing to be corrected by facts. In Babylon, where the richest treasures and the oldest records are kept, the scroll lies waiting — proof of Cyrus&apos;s long-ago command. Decades have passed, but the decree has not faded. It is written. It is real. [res:sefaria-neh-3] [res:iaa-jerusalem-walls]',
         },
         {
           kind: 'scripture',

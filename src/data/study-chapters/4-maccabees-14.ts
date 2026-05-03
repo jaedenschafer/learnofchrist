@@ -34,7 +34,7 @@ export const FOURTH_MACCABEES_14: RichChapterContent = {
           kind: 'commentary',
           id: 'mothers-love',
           html:
-            'The title "mother of the seven" becomes her identity. She is known not by her own name but by her relationship to those she bore. Now that relationship is tested in the most extreme way: she must watch each one pass into death while remaining herself unmoved by despair.',
+            'The title "mother of the seven" becomes her identity. She is known not by her own name but by her relationship to those she bore. Now that relationship is tested in the most extreme way: she must watch each one pass into death while remaining herself unmoved by despair. [res:sefaria-4-macc-14-atonement] [res:bible-odyssey-martyrdom] [res:perseus-logismos]',
         },
         {
           kind: 'commentary',
@@ -421,6 +421,33 @@ export const FOURTH_MACCABEES_14: RichChapterContent = {
             'You are surrounded by witnesses—the faithful who died before you, the faithful who live beside you. Whose witness strengthens your faith? Whose example makes you want to be more faithful? Take time to name someone whose faithfulness has marked you.',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-4-macc-14-atonement',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '4 Maccabees 14 — Atonement Through Suffering',
+      url: 'https://www.sefaria.org/IV_Maccabees.14',
+      description: 'Martyrdom theology and substitutionary suffering (section 14).',
+    },
+    {
+      id: 'bible-odyssey-martyrdom',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jewish Martyrdom and Atonement',
+      url: 'https://www.bibleodyssey.org/dictionary/martyrdom/',
+      description: 'Martyrdom traditions and redemptive suffering theology in Judaism.',
+    },
+    {
+      id: 'perseus-logismos',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Logismos — Rational Deliberation',
+      url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=logi%2Fsmos',
+      description: 'Greek philosophical term: reason controlling passion, central to 4 Maccabees.',
     },
   ],
 

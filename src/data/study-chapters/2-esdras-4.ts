@@ -27,6 +27,25 @@ export const SECOND_ESDRAS_4: RichChapterContent = {
     caption: 'The Whole Chapter at a Glance',
   },
 
+  resources: [
+    {
+      id: 'sefaria-2-esdras-4-vision',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Esdras 4 — Visionary Dialogue',
+      url: 'https://www.sefaria.org/II_Esdras.4',
+      description: 'Ezra&apos;s dialogues on theodicy and divine justice (vision 2).',
+    },
+    {
+      id: 'bible-odyssey-theodicy',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Theodicy in Late Judaism',
+      url: 'https://www.bibleodyssey.org/dictionary/evil/',
+      description: 'Problem of evil and divine justice in postexilic Jewish thought.',
+    },
+  ],
+
   bottomShare: {
     label: 'Share 2 Esdras 4',
     quote:
@@ -63,7 +82,7 @@ export const SECOND_ESDRAS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'c-uriel-name',
           html:
-            'Uriel—in Hebrew, <em>אוּרִיאֵל</em>, meaning "God is my light" or "God is my flame." The name is not accidental. Uriel comes as a bearer of light, a messenger of illumination, though not the kind Ezra expects. In Jewish and Christian tradition, Uriel stands at the gate of Eden, warns Noah of the flood, and interprets mysteries. Here, Uriel comes to answer Ezra&apos;s deepest questions not with comfortable answers but with the <em>light</em> of a hard truth: some things exceed your grasp.',
+            'Uriel—in Hebrew, <em>אוּרִיאֵל</em>, meaning "God is my light" or "God is my flame." The name is not accidental. Uriel comes as a bearer of light, a messenger of illumination, though not the kind Ezra expects. In Jewish and Christian tradition, Uriel stands at the gate of Eden, warns Noah of the flood, and interprets mysteries. Here, Uriel comes to answer Ezra&apos;s deepest questions not with comfortable answers but with the <em>light</em> of a hard truth: some things exceed your grasp. [res:sefaria-2-esdras-4-vision] [res:bible-odyssey-theodicy]',
         },
         {
           kind: 'commentary',

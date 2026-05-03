@@ -30,7 +30,7 @@ export const FOURTH_MACCABEES_18: RichChapterContent = {
           kind: 'commentary',
           id: 'mother-memory',
           html:
-            'The mother does not ask her sons to forget the hour. She asks them to remember. This is the heart of faith—not denial of suffering but remembrance of what endures beyond it. The father&apos;s recital, given in peace, now becomes the mother&apos;s gift in crisis.',
+            'The mother does not ask her sons to forget the hour. She asks them to remember. This is the heart of faith—not denial of suffering but remembrance of what endures beyond it. The father&apos;s recital, given in peace, now becomes the mother&apos;s gift in crisis. [res:sefaria-4-macc-18-atonement] [res:bible-odyssey-martyrdom] [res:perseus-logismos]',
         },
         {
           kind: 'carry',
@@ -359,6 +359,33 @@ export const FOURTH_MACCABEES_18: RichChapterContent = {
       ],
     },
   ],
+  resources: [
+    {
+      id: 'sefaria-4-macc-18-atonement',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '4 Maccabees 18 — Atonement Through Suffering',
+      url: 'https://www.sefaria.org/IV_Maccabees.18',
+      description: 'Martyrdom theology and substitutionary suffering (section 18).',
+    },
+    {
+      id: 'bible-odyssey-martyrdom',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jewish Martyrdom and Atonement',
+      url: 'https://www.bibleodyssey.org/dictionary/martyrdom/',
+      description: 'Martyrdom traditions and redemptive suffering theology in Judaism.',
+    },
+    {
+      id: 'perseus-logismos',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Logismos — Rational Deliberation',
+      url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=logi%2Fsmos',
+      description: 'Greek philosophical term: reason controlling passion, central to 4 Maccabees.',
+    },
+  ],
+
   bottomShare: {
     label: 'Share 4 Maccabees 18 — The Crown Received',
     quote:

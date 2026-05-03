@@ -48,7 +48,7 @@ export const PRAYER_OF_MANASSEH_1: RichChapterContent = {
           kind: 'commentary',
           id: 'pom-fathers-comm',
           html:
-            'Manasseh does not begin with his own case. He begins with God&apos;s covenant—the ancient promise made to Abraham, Isaac, and Jacob. He anchors his prayer in continuity with the faithful who came before. His father was evil; his grandfather was good. Manasseh stands outside both lines for a moment and cries to the God who has always kept His promises.',
+            'Manasseh does not begin with his own case. He begins with God&apos;s covenant—the ancient promise made to Abraham, Isaac, and Jacob. He anchors his prayer in continuity with the faithful who came before. His father was evil; his grandfather was good. Manasseh stands outside both lines for a moment and cries to the God who has always kept His promises.[res:sefaria-2-chron-33]',
         },
         {
           kind: 'scripture',
@@ -127,7 +127,7 @@ export const PRAYER_OF_MANASSEH_1: RichChapterContent = {
           kind: 'commentary',
           id: 'pom-repentance-appoint',
           html:
-            'Here is the gospel before the gospel: God has <em>appointed repentance unto sinners, that they may be saved.</em> Repentance is not something sinners must earn. It is something God has ordained as the way back home. This is Manasseh&apos;s hope. Not that he is good enough to return, but that God has made a way for the unworthy to come.',
+            'Here is the gospel before the gospel: God has <em>appointed repentance unto sinners, that they may be saved.</em> Repentance is not something sinners must earn. It is something God has ordained as the way back home. This is Manasseh&apos;s hope. Not that he is good enough to return, but that God has made a way for the unworthy to come.[res:bible-odyssey-repentance]',
         },
         {
           kind: 'greek',
@@ -403,7 +403,7 @@ export const PRAYER_OF_MANASSEH_1: RichChapterContent = {
           kind: 'commentary',
           id: 'pom-final-doxology',
           html:
-            'The prayer ends not in the sorrow where it began but in hope and praise. <em>Thou art the God of them that repent.</em> This is the heart of the prayer. Not the God of the perfect, but of those who have fallen and come home. Manasseh names himself unworthy, yet he names also what God will do: <em>thou wilt save me, that am unworthy, according to thy great mercy.</em> The prayer moves from confession to certainty. From asking to praising. All the heavens join in that praise. And his own voice joins them.',
+            'The prayer ends not in the sorrow where it began but in hope and praise. <em>Thou art the God of them that repent.</em> This is the heart of the prayer. Not the God of the perfect, but of those who have fallen and come home. Manasseh names himself unworthy, yet he names also what God will do: <em>thou wilt save me, that am unworthy, according to thy great mercy.</em> The prayer moves from confession to certainty. From asking to praising. All the heavens join in that praise. And his own voice joins them.[res:intertextual-manasseh-2-chron]',
         },
         {
           kind: 'commentary',
@@ -444,6 +444,33 @@ export const PRAYER_OF_MANASSEH_1: RichChapterContent = {
           caption: 'Prayer of Manasseh · The Turning of the King',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-2-chron-33',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Chronicles 33 — Manasseh&apos;s Repentance',
+      url: 'https://www.sefaria.org/II_Chronicles.33',
+      description: 'Canonical parallel: the king&apos;s repentance, exile, return, and reformation.',
+    },
+    {
+      id: 'bible-odyssey-repentance',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Repentance in Hebrew Tradition',
+      url: 'https://www.bibleodyssey.org/dictionary/repentance/',
+      description: 'Open-access SBL entry on metanoia and teshuvah in biblical theology.',
+    },
+    {
+      id: 'intertextual-manasseh-2-chron',
+      kind: 'archive',
+      source: 'Intertextual Bible',
+      label: 'Prayer of Manasseh ↔ 2 Chronicles 33',
+      url: 'https://intertextual.bible/text/prayer-of-manasseh/ii-chronicles-33',
+      description: 'Parallel passages: narrative and prayer accounts of Manasseh&apos;s restoration.',
     },
   ],
 

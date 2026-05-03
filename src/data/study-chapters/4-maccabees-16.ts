@@ -27,7 +27,7 @@ export const FOURTH_MACCABEES_16: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'mac16-steadfast',
-          html: 'The text makes a radical claim. The mother does not collapse in grief. Her face remains unchanged—not because she has hardened her heart against her children, but because something has hardened it <em>for</em> them. She stands among corpses as a monument.',
+          html: 'The text makes a radical claim. The mother does not collapse in grief. Her face remains unchanged—not because she has hardened her heart against her children, but because something has hardened it <em>for</em> them. She stands among corpses as a monument. [res:sefaria-4-macc-16-atonement] [res:bible-odyssey-martyrdom] [res:perseus-logismos]',
         },
         {
           kind: 'scripture',
@@ -340,6 +340,33 @@ export const FOURTH_MACCABEES_16: RichChapterContent = {
           prompt: 'What does this chapter ask of you? Not as a historical question, but as a call on your own soul: Will you let God&apos;s covenant be worth more to you than comfort, approval, even life itself?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-4-macc-16-atonement',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '4 Maccabees 16 — Atonement Through Suffering',
+      url: 'https://www.sefaria.org/IV_Maccabees.16',
+      description: 'Martyrdom theology and substitutionary suffering (section 16).',
+    },
+    {
+      id: 'bible-odyssey-martyrdom',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jewish Martyrdom and Atonement',
+      url: 'https://www.bibleodyssey.org/dictionary/martyrdom/',
+      description: 'Martyrdom traditions and redemptive suffering theology in Judaism.',
+    },
+    {
+      id: 'perseus-logismos',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Logismos — Rational Deliberation',
+      url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=logi%2Fsmos',
+      description: 'Greek philosophical term: reason controlling passion, central to 4 Maccabees.',
     },
   ],
 

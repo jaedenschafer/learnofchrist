@@ -40,7 +40,7 @@ export const FOURTH_MACCABEES_8: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-seven-brought',
-          html: 'The brothers are not individuals but a unit. They come "one after another," yet they are described as a single force. This unified presentation matters. They are not isolated by the tyrant; they face him as a family, as a household. The mother is with them. The king sees not seven separate possibilities for conversion but one collective refusal waiting to happen.',
+          html: 'The brothers are not individuals but a unit. They come "one after another," yet they are described as a single force. This unified presentation matters. They are not isolated by the tyrant; they face him as a family, as a household. The mother is with them. The king sees not seven separate possibilities for conversion but one collective refusal waiting to happen. [res:sefaria-4-macc-8-martyrs] [res:iaa-antiochus] [res:perseus-eulabeia]',
         },
         {
           kind: 'greek',
@@ -298,6 +298,33 @@ export const FOURTH_MACCABEES_8: RichChapterContent = {
           caption: '4 Maccabees 8:14 · The Tyrant&apos;s Ordered Wrath',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-4-macc-8-martyrs',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '4 Maccabees 8 — Martyrdom Accounts',
+      url: 'https://www.sefaria.org/IV_Maccabees.8',
+      description: 'Jewish martyrs under Antiochus IV and Stoic endurance (martyr 4).',
+    },
+    {
+      id: 'iaa-antiochus',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Antiochus IV and Religious Persecution in Judea',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological evidence of Seleucid religious policies and Jewish resistance.',
+    },
+    {
+      id: 'perseus-eulabeia',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Eulabeia — Piety and Virtue',
+      url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=eu%29la%2Fbeia',
+      description: 'Greek lexicon: eulabeia (pious reverence) in Stoic and religious thought.',
     },
   ],
 

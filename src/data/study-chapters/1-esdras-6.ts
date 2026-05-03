@@ -50,7 +50,7 @@ export const FIRST_ESDRAS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'esdras6-awakening',
           html:
-            'The prophetic word comes not as suggestion but as command from heaven. Haggai and Zechariah are not offering opinions—they speak <em>in the name of the God of Israel</em>. This distinction is crucial. They do not speak for themselves or for the political situation; they speak for the one who made and sustains all things. When such a word goes forth, everything changes.',
+            'The prophetic word comes not as suggestion but as command from heaven. Haggai and Zechariah are not offering opinions—they speak <em>in the name of the God of Israel</em>. This distinction is crucial. They do not speak for themselves or for the political situation; they speak for the one who made and sustains all things. When such a word goes forth, everything changes. [res:sefaria-ezra-4-6] [res:bible-odyssey-opposition-diaspora]',
         },
         {
           kind: 'hebrew',
@@ -369,6 +369,25 @@ export const FIRST_ESDRAS_6: RichChapterContent = {
             'Christ&apos;s disciples face opposition from religious and civil authorities. They are arrested, threatened, beaten. Yet they declare, "We ought to obey God rather than men." The word of God goes forth, and believers are gathered. Opposition cannot stop it. False witnesses come, trials are held, disciples are killed—yet the church grows. The work of God cannot be undone, because it is grounded not in human authority but in the resurrected authority of Christ Himself.',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-ezra-4-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezra 4-6 — Opposition and Completion',
+      url: 'https://www.sefaria.org/Ezra.4',
+      description: 'Opposition to temple work and completion of reconstruction.',
+    },
+    {
+      id: 'bible-odyssey-opposition-diaspora',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Diaspora Opposition and Community Resistance',
+      url: 'https://www.bibleodyssey.org/dictionary/diaspora/',
+      description: 'Conflict between diaspora returnees and local populations in Persian period.',
     },
   ],
 

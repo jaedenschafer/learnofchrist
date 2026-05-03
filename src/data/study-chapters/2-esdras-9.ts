@@ -40,7 +40,7 @@ export const SECOND_ESDRAS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'signs-end',
           html:
-            'The angel unveils the eschatological calendar. In the last days, terror seizes the earth. The way of truth—the path God has marked out—is hidden from sight. Faith drains from the land like water from a broken vessel. This is not mere chaos; it is the deliberate obscuring of God&apos;s presence, the hardening of hearts.',
+            'The angel unveils the eschatological calendar. In the last days, terror seizes the earth. The way of truth—the path God has marked out—is hidden from sight. Faith drains from the land like water from a broken vessel. This is not mere chaos; it is the deliberate obscuring of God&apos;s presence, the hardening of hearts. [res:sefaria-2-esdras-9-vision] [res:bible-odyssey-theodicy]',
         },
 
         {
@@ -454,6 +454,25 @@ export const SECOND_ESDRAS_9: RichChapterContent = {
           prompt: 'What would you have to set aside to make space for revelation? What is God asking you to fast from, that you might hear His voice more clearly?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-2-esdras-9-vision',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '2 Esdras 9 — Visionary Dialogue',
+      url: 'https://www.sefaria.org/II_Esdras.9',
+      description: 'Ezra&apos;s dialogues on theodicy and divine justice (vision 7).',
+    },
+    {
+      id: 'bible-odyssey-theodicy',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Theodicy in Late Judaism',
+      url: 'https://www.bibleodyssey.org/dictionary/evil/',
+      description: 'Problem of evil and divine justice in postexilic Jewish thought.',
     },
   ],
 
