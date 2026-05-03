@@ -290,6 +290,18 @@ export const LEVITICUS_23: RichChapterContent = {
               number: 17,
               spans: [t('Ye shall bring out of your habitations two wave loaves of two tenth deals: they shall be of fine flour; they shall be baken with leaven; they are the firstfruits unto the Lord.')],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'leviticus_23_v15-21',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             {
               number: 18,
               spans: [
@@ -435,6 +447,18 @@ export const LEVITICUS_23: RichChapterContent = {
                 t('And ye shall do no work in that same day: for it is a day of atonement, to make an atonement for you before the Lord your God.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'leviticus_23_v26-32',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             {
               number: 29,
               spans: [
@@ -520,6 +544,18 @@ export const LEVITICUS_23: RichChapterContent = {
               number: 35,
               spans: [t('On the first day shall be an holy convocation: ye shall do no servile work therein.')],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'leviticus_23_v33-39',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             {
               number: 36,
               spans: [

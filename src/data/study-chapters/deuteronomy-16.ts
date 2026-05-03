@@ -19,6 +19,33 @@ export const DEUTERONOMY_16: RichChapterContent = {
     'This is covenant theology in its purest form: God&apos;s people keep time with Him, live by His calendar, and in doing so, become increasingly His.',
   ],
 
+    resources: [
+    {
+      id: 'sefaria-deuteronomy-16',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 16',
+      url: 'https://www.sefaria.org/Deuteronomy.16',
+      description: 'Open-access source text and rabbinic commentary on the three pilgrimage festivals: Passover, Weeks, and Booths [res:sefaria-deuteronomy-16].',
+    },
+    {
+      id: 'passover-pilgrimage-festivals-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Passover and Pilgrimage Festivals',
+      url: 'https://www.bibleodyssey.org/topical-article/pilgrimage-festival/',
+      description: 'Theological overview of how the three festivals commemorate liberation [res:passover-pilgrimage-festivals-bible-odyssey], first fruits, and wilderness dwelling, renewing covenant memory.',
+    },
+    {
+      id: 'sukkot-booths-archaeological-evidence',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Sukkot and Pilgrimage Evidence',
+      url: 'https://www.imj.org.il/',
+      description: 'Archaeological examination of festival customs and tabernacle [res:sukkot-booths-archaeological-evidence] worship central to Israel&apos;s cultic calendar.',
+    },
+  ],
+
   sections: [
     /* ─── Deuteronomy 16:1–8 — Passover and Unleavened Bread ───────────── */
     {
@@ -59,6 +86,18 @@ export const DEUTERONOMY_16: RichChapterContent = {
               number: 4,
               spans: [t('And there shall be no leavened bread seen with thee in all thy coast seven days; neither shall there any thing of the flesh, which thou sacrificedst the first day at even, remain all night until the morning.')],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'deuteronomy_16_v1-8',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 16,
+          lines: [
             {
               number: 5,
               spans: [

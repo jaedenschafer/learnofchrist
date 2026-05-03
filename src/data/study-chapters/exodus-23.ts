@@ -576,6 +576,18 @@ export const EXODUS_23: RichChapterContent = {
                 t('I will not drive them out from before thee in one year; lest the land become desolate, and the beast of the field multiply against thee.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'exodus_23_v27-33',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             {
               number: 30,
               spans: [

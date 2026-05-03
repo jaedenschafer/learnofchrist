@@ -159,6 +159,18 @@ export const EXODUS_21: RichChapterContent = {
             { number: 19, spans: [ t('If he rise again, and walk abroad upon his staff, then shall he that smote him be quit: only he shall pay for the loss of his time, and shall cause him to be thoroughly healed.') ] },
             { number: 20, spans: [ t('And if a man smite his servant, or his maid, with a rod, and he die under his hand; he shall be surely punished.') ] },
             { number: 21, spans: [ t('Notwithstanding, if he continue a day or two, he shall not be punished: for he is his money.') ] },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'exodus_21_v18-25',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             { number: 22, spans: [ t('If men strive, and hurt a woman with child, so that her fruit depart from her, and yet no mischief follow: he shall be surely fined, according as the woman&apos;s husband will lay upon him; and he shall pay as the judges determine.') ] },
             { number: 23, spans: [ t('And if any mischief follow, then thou shalt give '), hp('life for life', 'ayin-tachat-ayin'), t(',') ] },
             { number: 24, spans: [ t('Eye for eye, tooth for tooth, hand for hand, foot for foot,') ] },
@@ -173,6 +185,18 @@ export const EXODUS_21: RichChapterContent = {
             { number: 26, spans: [ t('And if a man smite the eye of his servant, or the eye of his maid, that it perish; he shall let him go free for his eye&apos;s sake.') ] },
             { number: 27, spans: [ t('And if he smite out a manservant&apos;s tooth, or a maidservant&apos;s tooth; he shall let him go free for his tooth&apos;s sake.') ] },
             { number: 28, spans: [ t('If an ox gore a man or a woman, that they die: then the ox shall be surely stoned, and his flesh shall not be eaten; but the owner of the ox shall be quit.') ] },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'exodus_21_v26-32',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             { number: 29, spans: [ t('But if the ox were wont to push with his horn in time past, and it hath been testified to his owner, and he hath not kept him in, but that he hath killed a man or a woman; the ox shall be stoned, and his owner also shall be put to death.') ] },
             { number: 30, spans: [ t('If there be laid on him a sum of money, then he shall give for the ransom of his life whatsoever is laid upon him.') ] },
             { number: 31, spans: [ t('Whether he have gored a son, or have gored a daughter, according to this judgment shall it be done unto him.') ] },

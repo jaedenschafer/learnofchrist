@@ -30,6 +30,33 @@ export const DEUTERONOMY_34: RichChapterContent = {
     ref: 'Deuteronomy 34 · Study Guide',
   },
 
+    resources: [
+    {
+      id: 'sefaria-deuteronomy-34',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 34',
+      url: 'https://www.sefaria.org/Deuteronomy.34',
+      description: 'Open-access source text and rabbinic commentary on Moses&apos; death [res:sefaria-deuteronomy-34], the view from Pisgah, and the transition to Joshua&apos;s leadership.',
+    },
+    {
+      id: 'moses-death-mount-nebo-promised-land-view',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Mount Nebo and the Geography of Moses&apos; Farewell',
+      url: 'https://www.imj.org.il/',
+      description: 'Geographical and archaeological study of Mount Nebo and the view [res:moses-death-mount-nebo-promised-land-view] across the Jordan valley, the location of Moses&apos; death and final vision.',
+    },
+    {
+      id: 'moses-typology-jesus-mediator-covenant-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Moses as Covenant Mediator and Type of Christ',
+      url: 'https://www.intertextual.bible/',
+      description: 'Traces how Moses&apos; role as mediator of the old covenant [res:moses-typology-jesus-mediator-covenant-intertextual] prefigures Jesus as mediator of the new and better covenant in Hebrews.',
+    },
+  ],
+
   sections: [
     /* ─── Deuteronomy 34:1–4 — The Seeing Without Entering ─────────────── */
     {

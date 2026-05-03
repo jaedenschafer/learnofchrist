@@ -11,6 +11,33 @@ export const DEUTERONOMY_17: RichChapterContent = {
     'The chapter opens with a hard command: no defective animal for the Lord. It moves to how to handle apostasy when it appears inside Israel&apos;s gates. Then it sets up the judicial system—a place where hard cases can be brought to priests and judges. Finally, it draws the portrait of Israel&apos;s king as a man who must read the law with his own hand every day of his life. That portrait—of a ruler in daily submission to God&apos;s word—stands alone in all ancient Near Eastern monarchy. And it points straight to One who would come.',
   ],
 
+    resources: [
+    {
+      id: 'sefaria-deuteronomy-17',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 17',
+      url: 'https://www.sefaria.org/Deuteronomy.17',
+      description: 'Open-access source text and rabbinic commentary on kingship, judicial courts, and the law a king must study [res:sefaria-deuteronomy-17].',
+    },
+    {
+      id: 'kingship-ancient-israel-torah-requirements-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Kingship in Israel and Torah Limitations',
+      url: 'https://www.bibleodyssey.org/topical-article/king/',
+      description: 'Explores the unique limitation that Israel&apos;s king must study and obey Torah, unlike monarchs [res:kingship-ancient-israel-torah-requirements-bible-odyssey] in surrounding nations.',
+    },
+    {
+      id: 'judge-and-priest-ancient-near-east-authority',
+      kind: 'archaeology',
+      source: 'Orient Institute',
+      label: 'Judges, Priests, and Authority Structures',
+      url: 'https://oi.uchicago.edu/',
+      description: 'Examines how Israel&apos;s system of judicial authority combines priestly and elder oversight [res:judge-and-priest-ancient-near-east-authority] in ways distinct from Canaanite models.',
+    },
+  ],
+
   sections: [
     /* ─── Deuteronomy 17:1 — No Blemished Sacrifice ─────────────────────────── */
     {

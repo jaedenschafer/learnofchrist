@@ -118,6 +118,18 @@ export const EXODUS_37: RichChapterContent = {
             { number: 10, spans: [ t('And he made '), hg('the table', 'table-priest'), t(' of shittim wood: two cubits was the length thereof, and a cubit the breadth thereof, and a cubit and a half the height thereof:') ] },
             { number: 11, spans: [ t('And he overlaid it with pure gold, and made thereto a crown of gold round about.') ] },
             { number: 12, spans: [ t('Also he made thereunto a border of an hand breadth round about; and made a crown of gold for the border thereof round about.') ] },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'exodus_37_v10-16',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 37,
+          lines: [
             { number: 13, spans: [ t('And he cast for it four rings of gold, and put the rings upon the four corners that were in the four feet thereof.') ] },
             { number: 14, spans: [ t('Over against the border were the rings, the places for the staves to bear the table.') ] },
             { number: 15, spans: [ t('And he made the staves of shittim wood to bear the table, and overlaid them with gold.') ] },
@@ -154,6 +166,18 @@ export const EXODUS_37: RichChapterContent = {
             { number: 18, spans: [ t('And six branches going out of the sides thereof; three branches of the candlestick out of the one side thereof, and three branches of the candlestick out of the other side thereof:') ] },
             { number: 19, spans: [ t('Three bowls made after the fashion of almonds in one branch, a knop and a flower; and three bowls made like almonds in another branch, a knop and a flower: so throughout the six branches going out of the side thereof.') ] },
             { number: 20, spans: [ t('And in the candlestick were four bowls made like almonds, his knops, and his flowers:') ] },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'exodus_37_v17-24',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 37,
+          lines: [
             { number: 21, spans: [ t('And a knop under two branches of the same, and a knop under two other branches of the same, and a knop under two other branches of the same, according to the six branches going out of it.') ] },
             { number: 22, spans: [ t('Their knops and their branches were of the same: all of it was one beaten work of pure gold.') ] },
             { number: 23, spans: [ t('And he made his seven lamps, and his snuffers, and his snuffdishes, of pure gold.') ] },

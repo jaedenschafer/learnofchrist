@@ -245,6 +245,18 @@ export const NEHEMIAH_10: RichChapterContent = {
                 t(', and the firstfruits of all fruit of all trees, year by year, unto the house of the Lord:'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'nehemiah_10_v32-38',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             {
               number: 35,
               spans: [

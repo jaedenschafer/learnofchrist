@@ -310,6 +310,18 @@ export const NUMBERS_1: RichChapterContent = {
                 t('But thou shalt appoint the Levites over the tabernacle of testimony, and over all the vessels thereof, and over all things that belong to it: they shall bear the tabernacle, and all the vessels thereof; and they shall minister unto it, and shall encamp round about the tabernacle.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'numbers_1_v47-54',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             {
               number: 51,
               spans: [

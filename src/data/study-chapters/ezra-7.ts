@@ -248,6 +248,18 @@ export const EZRA_7: RichChapterContent = {
                 t(';'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ezra_7_v11-17',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             {
               number: 14,
               spans: [
@@ -308,6 +320,18 @@ export const EZRA_7: RichChapterContent = {
                 t('Unto an hundred talents of silver, and to an hundred measures of wheat, to an hundred baths of wine, to an hundred baths of oil, and salt without prescribing how much.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ezra_7_v18-25',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             {
               number: 22,
               spans: [

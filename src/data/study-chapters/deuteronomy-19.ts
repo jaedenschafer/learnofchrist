@@ -3,7 +3,7 @@ import { hp, hy, hg, t, type RichChapterContent } from './types';
 /**
  * Deuteronomy 19 — Cities of Refuge, Justice, and the Protection of the Innocent
  *
- * Deuteronomy 19 recaps the law on cities of refuge—places where the manslayer
+ * Deuteronomy 19 recaps the law on cities of refuge [res:sefaria-deuteronomy-19]—places where the manslayer
  * who kills unawares may flee from the avenger of blood. The chapter distinguishes
  * carefully between accidental killing and deliberate murder, and prescribes the
  * law for false witnesses, the removal of landmarks, and the lex talionis (eye
@@ -32,6 +32,33 @@ export const DEUTERONOMY_19: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Deuteronomy 19 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-deuteronomy-19',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 19',
+      url: 'https://www.sefaria.org/Deuteronomy.19',
+      description: 'Open-access source text and rabbinic commentary on cities of refuge, the role of the avenger of blood, and fair witness testimony.',
+    },
+    {
+      id: 'cities-of-refuge-ancient-israel-law-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Cities of Refuge and Justice Systems',
+      url: 'https://www.bibleodyssey.org/topical-article/city-of-refuge/',
+      description: 'Explores how Israel&apos;s system of refuge cities provided mercy for accidental killings [res:cities-of-refuge-ancient-israel-law-bible-odyssey] while protecting intentional murderers from blood revenge.',
+    },
+    {
+      id: 'witness-testimony-ancient-law-two-witnesses',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Witness Testimony and the Two-Witness Rule',
+      url: 'https://www.sefaria.org/Deuteronomy.19.15',
+      description: 'Examines the requirement for two or three witnesses [res:witness-testimony-ancient-law-two-witnesses] in legal proceedings, a safeguard against false accusation.',
+    },
+  ],
 
   sections: [
     /* ─── Deuteronomy 19:1–10 — Cities of Refuge ────────────────────────── */

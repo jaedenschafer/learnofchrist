@@ -73,6 +73,18 @@ export const LEVITICUS_11: RichChapterContent = {
                 t(' unto you.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'leviticus_11_v1-8',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             {
               number: 5,
               spans: [
@@ -232,6 +244,18 @@ export const LEVITICUS_11: RichChapterContent = {
                 t('Every raven after his kind;'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'leviticus_11_v13-19',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             {
               number: 16,
               spans: [

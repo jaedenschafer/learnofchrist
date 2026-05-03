@@ -380,6 +380,18 @@ export const NUMBERS_11: RichChapterContent = {
                 t('And say thou unto the people, Sanctify yourselves against to morrow, and ye shall eat flesh: for ye have wept in the ears of the LORD, saying, Who shall give us flesh to eat? for it was well with us in Egypt: therefore the LORD will give you flesh, and ye shall eat.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'numbers_11_v16-22',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             {
               number: 19,
               spans: [
@@ -448,6 +460,18 @@ export const NUMBERS_11: RichChapterContent = {
                 t(' in the camp.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'numbers_11_v23-30',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             {
               number: 27,
               spans: [

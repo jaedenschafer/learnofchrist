@@ -183,6 +183,18 @@ export const NUMBERS_7: RichChapterContent = {
                 t('And his offering was one silver charger, the weight thereof was an hundred and thirty shekels, one silver bowl of seventy shekels, after the shekel of the sanctuary; both of them were full of fine flour mingled with oil for a meat offering:'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'numbers_7_v10-17',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             {
               number: 14,
               spans: [

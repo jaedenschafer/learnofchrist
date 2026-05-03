@@ -51,6 +51,18 @@ export const EXODUS_40: RichChapterContent = {
             { number: 1, spans: [ t('And the LORD spake unto Moses, saying,') ] },
             { number: 2, spans: [ t('On the first day of the first month shalt thou set up the tabernacle of the tent of the congregation.') ] },
             { number: 3, spans: [ t('And thou shalt put therein the '), hp('ark of the testimony', 'ark-testimony'), t(', and cover the ark with the vail.') ] },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'exodus_40_v1-7',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 40,
+          lines: [
             { number: 4, spans: [ t('And thou shalt bring in the table, and set in order the things that are to be set in order upon it; and thou shalt bring in the candlestick, and light the lamps thereof.') ] },
             { number: 5, spans: [ t('And thou shalt set the altar of gold for the incense before the ark of the testimony, and put the hanging of the door to the tabernacle.') ] },
             { number: 6, spans: [ t('And thou shalt set the altar of the burnt offering before the door of the tabernacle of the tent of the congregation.') ] },
@@ -66,6 +78,18 @@ export const EXODUS_40: RichChapterContent = {
             { number: 9, spans: [ t('And thou shalt take the '), hy('anointing oil', 'oil-mashach'), t(', and anoint the tabernacle, and all that is therein, and shalt hallow it, and all the vessels thereof: and it shall be holy.') ] },
             { number: 10, spans: [ t('And thou shalt anoint the altar of the burnt offering, and all his vessels, and sanctify the altar: and it shall be an altar most holy.') ] },
             { number: 11, spans: [ t('And thou shalt anoint the laver and his foot, and sanctify it.') ] },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'exodus_40_v8-15',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 40,
+          lines: [
             { number: 12, spans: [ t('And thou shalt bring Aaron and his sons unto the door of the tabernacle of the congregation, and wash them with water.') ] },
             { number: 13, spans: [ t('And thou shalt put upon Aaron the holy garments, and anoint him, and sanctify him; that he may minister unto me in the priest&apos;s office.') ] },
             { number: 14, spans: [ t('And thou shalt bring his sons, and clothe them with coats:') ] },
@@ -114,6 +138,18 @@ export const EXODUS_40: RichChapterContent = {
             { number: 16, spans: [ t('Thus did Moses: according to all that the LORD commanded him, so did he.') ] },
             { number: 17, spans: [ t('And it came to pass in the first month in the second year, on the first day of the month, that the tabernacle was reared up.') ] },
             { number: 18, spans: [ t('And Moses reared up the tabernacle, and fastened his sockets, and set up the boards thereof, and put in the bars thereof, and reared up his pillars.') ] },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'exodus_40_v16-22',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 40,
+          lines: [
             { number: 19, spans: [ t('And he spread abroad the tent over the tabernacle, and put the covering of the tent above upon it; as the LORD commanded Moses.') ] },
             { number: 20, spans: [ t('And he took and put the testimony into the ark, and set the staves on the ark, and put the mercy seat above upon the ark:') ] },
             { number: 21, spans: [ t('And he brought the ark into the tabernacle, and set up the vail of the covering, and covered the ark of the testimony; as the LORD commanded Moses.') ] },

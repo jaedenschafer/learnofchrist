@@ -167,6 +167,18 @@ export const LEVITICUS_18: RichChapterContent = {
                 t('The nakedness of thy sister, the daughter of thy father, or daughter of thy mother, whether she be born at home, or born abroad, even their nakedness thou shalt not uncover.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'leviticus_18_v6-13',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             {
               number: 10,
               spans: [
@@ -402,6 +414,18 @@ export const LEVITICUS_18: RichChapterContent = {
                 t('Ye shall therefore keep my statutes and my judgments, and shall not commit any of these abominations; neither any of your own nation, nor any stranger that sojourneth among you:'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'leviticus_18_v24-30',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             {
               number: 27,
               spans: [

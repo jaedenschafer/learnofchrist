@@ -7,8 +7,35 @@ export const DEUTERONOMY_23: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 17 },
   intros: [
-    'Deuteronomy 23 is a chapter of boundaries. It draws lines around the assembly of the Lord — who may enter and who may not. It specifies what holiness looks like in the camp, down to the practical details of daily life. It protects the vulnerable — the runaway slave, the day laborer. It forbids exploitation in several forms: charging interest to a brother, hiring temple prostitutes, withholding a worker&apos;s wage. And it makes an odd promise: break a vow if you must, but if you vow, keep it. The chapter reads like a community learning to live in God&apos;s presence.',
+    'Deuteronomy 23 is a chapter of boundaries. It draws lines around the assembly of the Lord [res:sefaria-deuteronomy-23] — who may enter and who may not. It specifies what holiness looks like in the camp, down to the practical details of daily life. It protects the vulnerable — the runaway slave, the day laborer. It forbids exploitation in several forms: charging interest to a brother, hiring temple prostitutes, withholding a worker&apos;s wage. And it makes an odd promise: break a vow if you must, but if you vow, keep it. The chapter reads like a community learning to live in God&apos;s presence.',
     'The boundaries here troubled the early church. Not because the laws were harsh, but because they seemed to divide God&apos;s people into the allowed and the forbidden. Yet the Gospel dismantles those walls. Ruth, a Moabitess, enters the assembly through faith and becomes David&apos;s ancestor. The Ethiopian eunuch, barred by the letter of this law, becomes the first African Christian. Christ does not erase these laws; He fulfills them by opening the door that law could only guard.',
+  ],
+
+    resources: [
+    {
+      id: 'sefaria-deuteronomy-23',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 23',
+      url: 'https://www.sefaria.org/Deuteronomy.23',
+      description: 'Open-access source text and rabbinic commentary on who may enter the assembly [res:qahal-assembly-membership-boundaries-bible-odyssey] of the Lord, vows, and camp purity.',
+    },
+    {
+      id: 'qahal-assembly-membership-boundaries-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Qahal (Assembly) and Covenant Membership',
+      url: 'https://www.bibleodyssey.org/topical-article/congregation/',
+      description: 'Explores who could participate in Israel&apos;s covenant assembly and how genealogy, ritual purity, and conduct determined inclusion or exclusion.',
+    },
+    {
+      id: 'vows-oaths-ancient-israel-binding-speech',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Vows and Oaths in Ancient Israel',
+      url: 'https://www.sefaria.org/Deuteronomy.23.21',
+      description: 'Examines the binding nature of vows [res:vows-oaths-ancient-israel-binding-speech] and the prohibition against delaying or reneging on promises made to God.',
+    },
   ],
 
   sections: [

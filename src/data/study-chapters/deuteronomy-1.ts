@@ -386,6 +386,18 @@ export const DEUTERONOMY_1: RichChapterContent = {
                 t(': be not afraid, nor be discouraged.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'deuteronomy_1_v19-25',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             {
               number: 22,
               spans: [
@@ -478,6 +490,18 @@ export const DEUTERONOMY_1: RichChapterContent = {
                 t('Then I said unto you, Dread ye not, neither be afraid of them.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'deuteronomy_1_v26-33',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             {
               number: 30,
               spans: [
@@ -579,6 +603,18 @@ export const DEUTERONOMY_1: RichChapterContent = {
                 t('Save Caleb the son of Jephunneh; he shall see it, and to him will I give the land that he hath trodden upon, and to his children, because he wholly followed the Lord.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'deuteronomy_1_v34-40',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             {
               number: 37,
               spans: [

@@ -15,6 +15,33 @@ export const DEUTERONOMY_22: RichChapterContent = {
     'The opening words set the tone: "Thou mayest not hide thyself." Responsibility is not optional; it is woven into what it means to live as God&apos;s people. But notice too how carefully these laws protect the vulnerable — the woman who could not cry out, the person whose reputation has been falsely attacked. God&apos;s law is detailed, and the details matter.',
   ],
 
+    resources: [
+    {
+      id: 'sefaria-deuteronomy-22',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 22',
+      url: 'https://www.sefaria.org/Deuteronomy.22',
+      description: 'Open-access source text and rabbinic commentary on sexual ethics [res:sefaria-deuteronomy-22], adultery, rape, forbidden unions, and holiness distinctions.',
+    },
+    {
+      id: 'sexual-ethics-covenant-boundaries-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Sexual Ethics and Covenant Boundaries in Deuteronomy',
+      url: 'https://www.bibleodyssey.org/topical-article/sexuality/',
+      description: 'Theological entry on how sexual purity laws protect [res:sexual-ethics-covenant-boundaries-bible-odyssey] covenant family stability and distinguish Israel&apos;s practice from Canaanite fertility religions.',
+    },
+    {
+      id: 'marriage-divorce-ancient-near-east-law',
+      kind: 'archaeology',
+      source: 'Penn Museum',
+      label: 'Marriage and Divorce in Ancient Near Eastern Law',
+      url: 'https://www.penn.museum/',
+      description: 'Archaeological and legal analysis of marriage contracts and divorce [res:marriage-divorce-ancient-near-east-law] practices in Mesopotamian and Egyptian law compared to Deuteronomy.',
+    },
+  ],
+
   sections: [
     /* ─── Deuteronomy 22:1–4 — Neighbor Responsibility ─────────────────── */
     {

@@ -234,6 +234,18 @@ export const NUMBERS_33: RichChapterContent = {
                 t('And they removed from Dophkah, and encamped in Alush.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'numbers_33_v9-16',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 33,
+          lines: [
             {
               number: 13,
               spans: [

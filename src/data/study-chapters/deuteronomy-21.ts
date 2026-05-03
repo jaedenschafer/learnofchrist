@@ -13,8 +13,35 @@ export const DEUTERONOMY_21: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 17 },
   intros: [
-    'Deuteronomy 21 presents five distinct civil laws drawn straight from the life of ancient Israel. At first they seem distant from us — rules about unsolved murders, captive women, firstborn inheritance, rebellious sons, and the bodies of the hanged. But each one carries a theological weight that echoes through Scripture and into the gospel itself.',
+    'Deuteronomy 21 presents five distinct civil laws drawn straight from the life of ancient Israel. At first they seem distant from us — rules about unsolved murders [res:sefaria-deuteronomy-21], captive women, firstborn inheritance, rebellious sons, and the bodies of the hanged. But each one carries a theological weight that echoes through Scripture and into the gospel itself.',
     'The laws show a God who cares about innocent blood, who protects the vulnerable in hard situations, who guards rights by law not preference, and who speaks a stern word to stubborn disobedience. And the final image — a body hanged on a tree — Paul will later seize as the very foundation of our redemption: Christ became the curse we deserved, hung on the tree.',
+  ],
+
+    resources: [
+    {
+      id: 'sefaria-deuteronomy-21',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 21',
+      url: 'https://www.sefaria.org/Deuteronomy.21',
+      description: 'Open-access source text and rabbinic commentary on unsolved murders, captive wives, rebellious sons, and the cursed tree.',
+    },
+    {
+      id: 'eglah-arufah-atonement-unsolved-murder-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Eglah Arufah and Community Atonement for Unsolved Murder',
+      url: 'https://www.bibleodyssey.org/topical-article/murder/',
+      description: 'Explores the ritual of the heifer&apos;s neck-breaking as a means of community atonement when a murderer [res:eglah-arufah-atonement-unsolved-murder-bible-odyssey] remains unknown.',
+    },
+    {
+      id: 'family-law-ancient-israel-marriage-inheritance',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Family Law: Marriage, Inheritance, and Parental Authority',
+      url: 'https://www.sefaria.org/Deuteronomy.21.10',
+      description: 'Examines laws governing marriage to captives, inheritance rights [res:family-law-ancient-israel-marriage-inheritance] of firstborn sons, and parental discipline within covenant family structures.',
+    },
   ],
 
   sections: [

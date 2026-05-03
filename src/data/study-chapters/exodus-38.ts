@@ -43,6 +43,18 @@ export const EXODUS_38: RichChapterContent = {
               number: 3,
               spans: [t('And he made all the vessels of the altar, the pots, and the shovels, and the basons, and the fleshhooks, and the firepans: all the vessels thereof made he of brass.')],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'exodus_38_v1-7',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 38,
+          lines: [
             {
               number: 4,
               spans: [t('And he made for the altar a brasen grate of network under the compass thereof beneath it unto the midst of it.')],
@@ -172,6 +184,18 @@ export const EXODUS_38: RichChapterContent = {
               number: 11,
               spans: [t('And on the north side the hangings were an hundred cubits, their pillars were twenty, and their sockets of brass twenty; the hooks of the pillars and their fillets of silver.')],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'exodus_38_v9-15',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 38,
+          lines: [
             {
               number: 12,
               spans: [

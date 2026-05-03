@@ -2,7 +2,7 @@ import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
  * Deuteronomy 28 — The longest chapter of covenant blessings and curses.
- * Verses 1–14 pour out blessings for obedience; verses 15–68 detail the
+ * Verses 1–14 pour out blessings for obedience [res:sefaria-deuteronomy-28]; verses 15–68 detail the
  * fearsome catalog of curses for disobedience. This chapter frames the choice
  * itself: two paths, crystal clear. Christ took the curse upon Himself
  * (Galatians 3:13) so we may receive the blessing.
@@ -27,6 +27,33 @@ export const DEUTERONOMY_28: RichChapterContent = {
       'Deuteronomy 28 · A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Deuteronomy 28 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-deuteronomy-28',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 28',
+      url: 'https://www.sefaria.org/Deuteronomy.28',
+      description: 'Open-access source text and rabbinic commentary on the blessings for obedience and the extensive curses for apostasy and disobedience.',
+    },
+    {
+      id: 'mount-gerizim-blessing-mount-ebal-curse',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Mount Gerizim and Mount Ebal: Blessing and Curse',
+      url: 'https://www.imj.org.il/',
+      description: 'Archaeological and historical geography of the covenant ceremony location where Gerizim symbolizes blessing [res:mount-gerizim-blessing-mount-ebal-curse] and Ebal symbolizes curse.',
+    },
+    {
+      id: 'covenant-consequences-reward-punishment-theology',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Covenant Consequences: Reward and Punishment',
+      url: 'https://www.bibleodyssey.org/topical-article/covenant/',
+      description: 'Theological exploration of how blessing and curse reveal the covenantal logic that obedience [res:covenant-consequences-reward-punishment-theology] leads to life while disobedience leads to judgment.',
+    },
+  ],
 
   sections: [
     /* ─── Deuteronomy 28:1–14 — If You Hearken ────────────────────────── */
@@ -90,6 +117,18 @@ export const DEUTERONOMY_28: RichChapterContent = {
             { number: 8, spans: [t('The Lord shall command the blessing upon thee in thy storehouses, and in all that thou settest thine hand unto; and '), hg('he shall bless thee', 'c-identity'), t(' in the land which the Lord thy God giveth thee.')] },
             { number: 9, spans: [t('The Lord shall establish thee an holy people unto himself, as he hath sworn unto thee, if thou shalt keep the commandments of the Lord thy God, and walk in his ways.')] },
             { number: 10, spans: [t('And all people of the earth shall see that thou art called by the '), t('name of the Lord'), t('; and they shall be afraid of thee.')] },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'deuteronomy_28_v8-14',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 28,
+          lines: [
             { number: 11, spans: [t('And the Lord shall make thee plenteous in goods, in the fruit of thy body, and in the fruit of thy cattle, and in the fruit of thy ground, in the land which the Lord sware unto thy fathers to give thee.')] },
             { number: 12, spans: [t('The Lord shall open unto thee his good treasure of the heaven to give the rain unto thy land in his season, and to bless all the work of thine hand: and thou shalt lend unto many nations, and thou shalt not borrow.')] },
             { number: 13, spans: [t('And the Lord shall make thee the head, and not the tail; and thou shalt be above only, and thou shalt not be beneath; if that thou hearken unto the commandments of the Lord thy God, which I command thee this day, to observe and to do them:')] },
@@ -253,6 +292,18 @@ export const DEUTERONOMY_28: RichChapterContent = {
             { number: 38, spans: [t('Thou shalt carry much seed out into the field, and shalt gather but little in; for the locust shall consume it.')] },
             { number: 39, spans: [t('Thou shalt plant vineyards, and dress them, but shalt neither drink of the wine, nor gather the grapes; for the worms shall eat them.')] },
             { number: 40, spans: [t('Thou shalt have olive trees throughout all thy coasts, but thou shalt not anoint thyself with the oil; for thine olives shall cast his fruit.')] },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'deuteronomy_28_v38-44',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 28,
+          lines: [
             { number: 41, spans: [t('Thou shalt beget sons and daughters, but thou shalt not enjoy them; for they shall go into captivity.')] },
             { number: 42, spans: [t('All thy trees and fruit of thy land shall the locust consume.')] },
             { number: 43, spans: [t('The stranger that is within thee shall get up above thee very high; and thou shalt come down very low.')] },

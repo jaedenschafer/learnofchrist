@@ -27,6 +27,33 @@ export const DEUTERONOMY_14: RichChapterContent = {
     caption: 'The Whole Chapter at a Glance',
   },
 
+    resources: [
+    {
+      id: 'sefaria-deuteronomy-14',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 14',
+      url: 'https://www.sefaria.org/Deuteronomy.14',
+      description: 'Open-access source text and rabbinic commentary on dietary laws, distinction between clean and unclean [res:sefaria-deuteronomy-14], and covenant holiness.',
+    },
+    {
+      id: 'dietary-laws-purity-ancient-israel-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Dietary Laws and Covenant Purity',
+      url: 'https://www.bibleodyssey.org/topical-article/clean-and-unclean/',
+      description: 'Theological entry on the significance of clean and unclean animals in marking Israel&apos;s separation as God [res:dietary-laws-purity-ancient-israel-bible-odyssey]&apos;s covenant people.',
+    },
+    {
+      id: 'levitical-holiness-codes-ancient-near-east',
+      kind: 'archaeology',
+      source: 'Oriental Institute',
+      label: 'Holiness Codes in Ancient Near Eastern Law',
+      url: 'https://oi.uchicago.edu/',
+      description: 'Examines how Israel&apos;s holiness distinctions [res:levitical-holiness-codes-ancient-near-east] compare to and diverge from purity practices in neighboring cultures.',
+    },
+  ],
+
   sections: [
     /* ─── Deuteronomy 14:1–2 — Children of God, Set Apart ─────────────────── */
     {

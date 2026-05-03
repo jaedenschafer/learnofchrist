@@ -254,6 +254,18 @@ export const LEVITICUS_8: RichChapterContent = {
                 t('But the bullock, and his hide, and his flesh, and his dung, he burnt with fire without the camp; as the Lord commanded Moses.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'leviticus_8_v14-21',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             {
               number: 18,
               spans: [

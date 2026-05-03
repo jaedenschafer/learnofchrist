@@ -49,6 +49,18 @@ export const EXODUS_12: RichChapterContent = {
             { number: 1, spans: [ t('And the LORD spake unto Moses and Aaron in the land of Egypt, saying,') ] },
             { number: 2, spans: [ t('This month shall be unto you the beginning of months: it shall be the first month of the year to you.') ] },
             { number: 3, spans: [ t('Speak ye unto all the congregation of Israel, saying, In the tenth day of this month they shall take to them every man a '), hy('lamb', 'seh-lamb'), t(', according to the house of their fathers, a lamb for an house:') ] },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'exodus_12_v1-7',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             { number: 4, spans: [ t('And if the household be too little for the lamb, let him and his neighbour next unto his house take it according to the number of the souls; every man according to his eating shall make your count for the lamb.') ] },
             { number: 5, spans: [ t('Your '), hy('lamb shall be without blemish', 'tamim-unblemished'), t(', a male of the first year: ye shall take it out from the sheep, or from the goats:') ] },
             { number: 6, spans: [ t('And ye shall keep it up until the '), hy('fourteenth day of the same month', 'fourteen-kept'), t(': and the whole assembly of the congregation of Israel shall kill it '), hg('in the evening', 'erev-twilight'), t('.') ] },
@@ -63,6 +75,18 @@ export const EXODUS_12: RichChapterContent = {
             { number: 8, spans: [ t('And they shall eat the flesh in that night, roast with fire, and '), hg('unleavened bread', 'matzah-bread'), t('; and with '), hg('bitter herbs', 'bitter-herbs'), t(' they shall eat it.') ] },
             { number: 9, spans: [ t('Eat not of it raw, nor sodden at all with water, but roast with fire; his head with his legs, and with the purtenance thereof.') ] },
             { number: 10, spans: [ t('And ye shall let nothing of it remain until the morning; and that which remaineth of it until the morning ye shall burn with fire.') ] },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'exodus_12_v8-14',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             { number: 11, spans: [ t('And thus shall ye eat it; with your loins girded, your shoes on your feet, and your staff in your hand; and ye shall eat it in haste: it is the LORD&apos;s passover.') ] },
             { number: 12, spans: [ t('For I will pass through the land of Egypt this night, and will smite all the firstborn in the land of Egypt, both man and beast; and against all the gods of Egypt I will execute judgment: I am the LORD.') ] },
             { number: 13, spans: [ t('And the blood shall be to you for a token upon the houses where ye are: and when I see the blood, I will pass over you, and the plague shall not be upon you to destroy you, when I smite the land of Egypt.') ] },
@@ -108,6 +132,18 @@ export const EXODUS_12: RichChapterContent = {
             { number: 22, spans: [ t('And ye shall take a bunch of hysop, and dip it in the blood that is in the bason, and strike the lintel and the two side posts with the blood that is in the bason; and none of you shall go out at the door of his house until the morning.') ] },
             { number: 23, spans: [ t('For the LORD will pass through to smite the Egyptians; and when he seeth the blood upon the lintel, and on the two side posts, the LORD will pass over the door, and will not suffer the destroyer to come in unto your houses to smite you.') ] },
             { number: 24, spans: [ t('And ye shall observe this thing for an ordinance to thee and to thy sons for ever.') ] },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'exodus_12_v21-28',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             { number: 25, spans: [ t('And it shall come to pass, when ye be come to the land which the LORD will give you, according as he hath promised, that ye shall keep this service.') ] },
             { number: 26, spans: [ t('And it shall come to pass, when your children shall say unto you, What mean ye by this service?') ] },
             { number: 27, spans: [ t('That ye shall say, It is the sacrifice of the LORD&apos;s passover, who passed over the houses of the children of Israel in Egypt, when he smote the Egyptians, and delivered our houses. And the people bowed the head and worshipped.') ] },
@@ -135,6 +171,18 @@ export const EXODUS_12: RichChapterContent = {
             { number: 30, spans: [ t('And Pharaoh rose up in the night, he, and all his servants, and all the Egyptians; and there was a great cry in Egypt; for there was not a house where there was not one dead.') ] },
             { number: 31, spans: [ t('And he called for Moses and Aaron by night, and said, Rise up, and get you forth from among my people, both ye and the children of Israel; and go, serve the LORD, as ye have said.') ] },
             { number: 32, spans: [ t('Also take your flocks and your herds, as ye have said, and be gone; and bless me also.') ] },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'exodus_12_v29-36',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             { number: 33, spans: [ t('And the Egyptians were urgent upon the people, that they might send them out of the land in haste; for they said, We be all dead men.') ] },
             { number: 34, spans: [ t('And the people took their dough before it was leavened, their kneadingtroughs being bound up in their clothes upon their shoulders.') ] },
             { number: 35, spans: [ t('And the children of Israel did according to the word of Moses; and they borrowed of the Egyptians jewels of silver, and jewels of gold, and raiment:') ] },

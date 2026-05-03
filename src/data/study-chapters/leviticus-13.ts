@@ -745,6 +745,18 @@ export const LEVITICUS_13: RichChapterContent = {
                 t('And the priest shall look on the plague, after that it hath been washed: and, behold, if the plague have not changed his colour, though the plague be not spread; it is unclean; thou shalt burn it in the fire; it is fret inward, whether it be bare within or without.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'leviticus_13_v53-59',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 13,
+          lines: [
             {
               number: 56,
               spans: [

@@ -19,6 +19,33 @@ export const DEUTERONOMY_30: RichChapterContent = {
     'The chapter opens with Israel still in exile, still facing the curses of broken covenant. But the God who gives the law also promises to restore the heart that receives it. This is the gospel in the Book of the Law. And when the apostle Paul wants to teach the churches what faith is, what the gospel actually does — he quotes directly from Deuteronomy 30:12–14 and identifies the "word" with Christ Himself.',
   ],
 
+    resources: [
+    {
+      id: 'sefaria-deuteronomy-30',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 30',
+      url: 'https://www.sefaria.org/Deuteronomy.30',
+      description: 'Open-access source text and rabbinic commentary on return from exile [res:sefaria-deuteronomy-30], circumcision of the heart, and restoration through repentance.',
+    },
+    {
+      id: 'return-repentance-teshuva-restoration-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Return, Repentance, and Restoration to the Land',
+      url: 'https://www.bibleodyssey.org/topical-article/repentance/',
+      description: 'Theological entry on how even exile is not final [res:return-repentance-teshuva-restoration-bible-odyssey]; God promises restoration to those who turn back with circumcised hearts.',
+    },
+    {
+      id: 'word-heart-intertextual-jesus-incarnation',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Word Near You: Incarnation and Accessibility',
+      url: 'https://www.intertextual.bible/',
+      description: 'Traces how Deuteronomy 30:14 ("the word is very near you [res:word-heart-intertextual-jesus-incarnation]") foreshadows the incarnate Word made near in Jesus Christ.',
+    },
+  ],
+
   sections: [
     /* ─── Deuteronomy 30:1–3 — The Return Promise ──────────────────────── */
     {

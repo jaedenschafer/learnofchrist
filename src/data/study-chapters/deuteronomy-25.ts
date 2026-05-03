@@ -24,6 +24,33 @@ export const DEUTERONOMY_25: RichChapterContent = {
     ref: 'Deuteronomy 25 · Study Guide',
   },
 
+    resources: [
+    {
+      id: 'sefaria-deuteronomy-25',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 25',
+      url: 'https://www.sefaria.org/Deuteronomy.25',
+      description: 'Open-access source text and rabbinic commentary on corporal punishment [res:sefaria-deuteronomy-25], levirate marriage, just weights, and Amalekite enmity.',
+    },
+    {
+      id: 'levirate-marriage-yibum-ancient-practice-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Levirate Marriage and Perpetuating Family Name',
+      url: 'https://www.bibleodyssey.org/topical-article/marriage/',
+      description: 'Explores the practice of a brother marrying a widow to preserve [res:levirate-marriage-yibum-ancient-practice-bible-odyssey] the deceased&apos;s name and inheritance, illustrated in Ruth and Onan&apos;s refusal.',
+    },
+    {
+      id: 'just-weights-measures-ancient-commerce-law',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Just Weights and Measures in Ancient Commerce',
+      url: 'https://www.imj.org.il/',
+      description: 'Archaeological evidence of weight stones and measurements from Iron Age Israel, illustrating the practical concern for commercial honesty [res:just-weights-measures-ancient-commerce-law].',
+    },
+  ],
+
   sections: [
     /* ─── Deuteronomy 25:1–3 — Limits on Punishment ───────────────────── */
     {

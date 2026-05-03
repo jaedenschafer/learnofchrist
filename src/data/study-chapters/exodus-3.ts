@@ -416,6 +416,18 @@ export const EXODUS_3: RichChapterContent = {
                 t('And they shall hearken to thy voice: and thou shalt come, thou and the elders of Israel, unto the king of Egypt, and ye shall say unto him, The LORD God of the Hebrews hath met with us: and now let us go, we beseech thee, three days&apos; journey into the wilderness, that we may sacrifice to the LORD our God.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'exodus_3_v16-22',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             {
               number: 19,
               spans: [

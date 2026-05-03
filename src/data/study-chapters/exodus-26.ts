@@ -182,6 +182,18 @@ export const EXODUS_26: RichChapterContent = {
               number: 9,
               spans: [t('And thou shalt couple five curtains by themselves, and six curtains by themselves, and shalt double the sixth curtain in the forefront of the tabernacle.')],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'exodus_26_v7-13',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 26,
+          lines: [
             {
               number: 10,
               spans: [

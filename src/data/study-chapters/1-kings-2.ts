@@ -444,7 +444,7 @@ export const KINGS_1_2: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: '1-kings-2-mid-21',
+          id: '1-kings-2-mid-21-2',
           html:
             '<p>A royal shift: the narrative moves from succession planning to operational rule.</p>',
         },

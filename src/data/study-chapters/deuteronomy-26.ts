@@ -12,6 +12,33 @@ export const DEUTERONOMY_26: RichChapterContent = {
     'Theologians have called the firstfruits confession "the credo" — the seed from which the Apostles&apos; Creed grew. It is narrative theology, not systematic. It says: this is what God did; therefore this is who we are; therefore we offer.',
   ],
 
+    resources: [
+    {
+      id: 'sefaria-deuteronomy-26',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 26',
+      url: 'https://www.sefaria.org/Deuteronomy.26',
+      description: 'Open-access source text and rabbinic commentary on firstfruits offering [res:sefaria-deuteronomy-26], tithe declaration, and the recitation of covenant history.',
+    },
+    {
+      id: 'firstfruits-offering-thanksgiving-covenant-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Firstfruits Offering and Thanksgiving',
+      url: 'https://www.bibleodyssey.org/topical-article/first-fruits/',
+      description: 'Theological overview of how the firstfruits offering acknowledges God as source [res:firstfruits-offering-thanksgiving-covenant-bible-odyssey] of harvest and renews gratitude for deliverance from Egypt.',
+    },
+    {
+      id: 'creed-confession-ancient-israel-identity-memory',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Creed of Ancient Israel: Covenant Memory',
+      url: 'https://www.intertextual.bible/',
+      description: 'Examines how the recitation of Deuteronomy 26:5-9 forms Israel&apos;s foundational narrative identity [res:creed-confession-ancient-israel-identity-memory] from slavery to promised land.',
+    },
+  ],
+
   sections: [
     /* ─── Deuteronomy 26:1–4 — The Basket of Firstfruits ───────────────── */
     {

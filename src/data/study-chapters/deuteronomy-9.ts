@@ -293,6 +293,18 @@ export const DEUTERONOMY_9: RichChapterContent = {
                 t('And it came to pass at the end of forty days and forty nights, that the LORD gave me the two tables of stone, even the tables of the covenant.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'deuteronomy_9_v9-15',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             {
               number: 12,
               spans: [

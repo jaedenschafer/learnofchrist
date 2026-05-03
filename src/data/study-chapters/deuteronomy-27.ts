@@ -17,6 +17,33 @@ export const DEUTERONOMY_27: RichChapterContent = {
     'The twelve curses target the sins the law cares most about: secret idolatry, the dishonoring of parents, the perversion of justice for the vulnerable, secret violence, bribery that executes the innocent, and—finally—the curse that Paul would quote centuries later: the curse of not keeping "all things which are written in the book of the law." This chapter is where the law shows its face and its teeth.',
   ],
 
+    resources: [
+    {
+      id: 'sefaria-deuteronomy-27',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 27',
+      url: 'https://www.sefaria.org/Deuteronomy.27',
+      description: 'Open-access source text and rabbinic commentary on the Mount Ebal covenant [res:sefaria-deuteronomy-27] ceremony, the curses pronounced, and covenant memory.',
+    },
+    {
+      id: 'mount-ebal-ceremony-archaeology-stones',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Mount Ebal Altar and Covenant Ceremony Archaeology',
+      url: 'https://www.imj.org.il/',
+      description: 'Archaeological excavation evidence of the Mount Ebal altar [res:mount-ebal-ceremony-archaeology-stones] and limestone blocks, connecting to the covenant renewal ceremony in Joshua 8.',
+    },
+    {
+      id: 'blessings-curses-ancient-near-east-treaty-form',
+      kind: 'archaeology',
+      source: 'Oriental Institute',
+      label: 'Blessings and Curses in Ancient Near Eastern Treaties',
+      url: 'https://oi.uchicago.edu/',
+      description: 'Comparative analysis of curse and blessing formulas [res:blessings-curses-ancient-near-east-treaty-form] in Hittite and Aramaic treaties alongside Deuteronomy&apos;s covenant structure.',
+    },
+  ],
+
   sections: [
     /* ─── Deuteronomy 27:1–3 — The Law Engraved on Stone ─────────────── */
     {

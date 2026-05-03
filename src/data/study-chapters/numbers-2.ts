@@ -178,6 +178,18 @@ export const NUMBERS_2: RichChapterContent = {
               number: 12,
               spans: [t('And those that pitch by him shall be the tribe of Simeon: and the captain of the children of Simeon shall be Shelumiel the son of Zurishaddai.')],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'numbers_2_v10-16',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             {
               number: 13,
               spans: [t('And his host, and those that were numbered of them, were fifty and nine thousand and three hundred.')],
@@ -251,6 +263,18 @@ export const NUMBERS_2: RichChapterContent = {
               number: 20,
               spans: [t('And by him shall be the tribe of Manasseh: and the captain of the children of Manasseh shall be Gamaliel the son of Pedahzur.')],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'numbers_2_v18-24',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             {
               number: 21,
               spans: [t('And his host, and those that were numbered of them, were thirty and two thousand and two hundred.')],
@@ -324,6 +348,18 @@ export const NUMBERS_2: RichChapterContent = {
               number: 27,
               spans: [t('And those that pitch by him shall be the tribe of Asher: and the captain of the children of Asher shall be Pagiel the son of Ocran.')],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'numbers_2_v25-31',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             {
               number: 28,
               spans: [t('And his host, and those that were numbered of them, were forty and one thousand and five hundred.')],

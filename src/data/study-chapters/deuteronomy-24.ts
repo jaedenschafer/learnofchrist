@@ -17,6 +17,33 @@ export const DEUTERONOMY_24: RichChapterContent = {
     'For a chapter this scattered, there is an unexpected coherence. Every case law is about the abuse of power — who holds it, how it can crush the vulnerable, how God restrains it. And that restraint is not abstract justice; it is shaped by the experience of being helpless. A people who once had nothing now must arrange their whole life so that no one among them is left alone with nothing.',
   ],
 
+    resources: [
+    {
+      id: 'sefaria-deuteronomy-24',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 24',
+      url: 'https://www.sefaria.org/Deuteronomy.24',
+      description: 'Open-access source text and rabbinic commentary on divorce, pledges, wages of hired servants, and redemption for the vulnerable.',
+    },
+    {
+      id: 'divorce-remarriage-ancient-israel-law-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Divorce and Remarriage in Ancient Israel',
+      url: 'https://www.bibleodyssey.org/topical-article/divorce/',
+      description: 'Theological overview of Deuteronomy&apos;s divorce provisions [res:sefaria-deuteronomy-24] and how Jesus reinterprets [res:divorce-remarriage-ancient-israel-law-bible-odyssey] them toward redemptive fidelity in Matthew 19.',
+    },
+    {
+      id: 'widow-orphan-alien-protection-biblical-law',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Widow, Orphan, and Alien Protections',
+      url: 'https://www.sefaria.org/Deuteronomy.24.17',
+      description: 'Examines the repeated biblical mandate to protect widows, orphans, and aliens [res:widow-orphan-alien-protection-biblical-law] as vulnerable members dependent on community justice and mercy.',
+    },
+  ],
+
   sections: [
     /* ─── Deuteronomy 24:1–4 — The Certificate of Divorce ───────────────── */
     {

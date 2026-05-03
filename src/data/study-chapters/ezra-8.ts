@@ -43,6 +43,18 @@ export const EZRA_8: RichChapterContent = {
             plain(1, 'These are now the chief of their fathers, and this is the genealogy of them that went up with me from Babylon, in the reign of Artaxerxes the king:'),
             plain(2, 'Of the sons of Phinehas; Gershom: of the sons of Ithamar; Daniel: of the sons of David; Hattush.'),
             plain(3, 'Of the sons of Shechaniah, of the sons of Pharosh; Zechariah: and with him were reckoned by genealogy of the males an hundred and fifty.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ezra_8_v1-7',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(4, 'Of the sons of Pahath-moab; Elihoenai the son of Zerahiah, and with him two hundred males.'),
             plain(5, 'Of the sons of Shechaniah; the son of Jahaziel, and with him three hundred males.'),
             plain(6, 'Of the sons also of Adin; Ebed the son of Jonathan, and with him fifty males.'),
@@ -62,6 +74,18 @@ export const EZRA_8: RichChapterContent = {
             plain(8, 'And of the sons of Shephatiah; Zebadiah the son of Michael, and with him fourscore males.'),
             plain(9, 'Of the sons of Joab; Obadiah the son of Jehiel, and with him two hundred and eighteen males.'),
             plain(10, 'And of the sons of Shelomith; the son of Josiphiah, and with him an hundred and threescore males.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ezra_8_v8-14',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(11, 'And of the sons of Bebai; Zechariah the son of Bebai, and with him twenty and eight males.'),
             plain(12, 'And of the sons of Azgad; Johann the son of Hakkatan, and with him an hundred and ten males.'),
             plain(13, 'And of the sons of Adonikam, whose names are these, Eliphelet, Jeiel, and Shemaiah, and with them threescore males.'),
@@ -272,6 +296,18 @@ export const EZRA_8: RichChapterContent = {
               ],
             },
             plain(26, 'Even six hundred and fifty talents of silver, and silver vessels an hundred talents, and of gold an hundred talents;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ezra_8_v24-30',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(27, 'Also twenty basons of gold, a thousand drams; and two vessels of fine copper, precious as gold.'),
             {
               number: 28,

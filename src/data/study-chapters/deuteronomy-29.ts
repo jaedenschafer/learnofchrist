@@ -22,6 +22,33 @@ export const DEUTERONOMY_29: RichChapterContent = {
     'The covenant Moses calls them to includes not only those standing there but generations yet unborn — "him that is not here with us this day." In other words, the promise reaches to us. Then comes the warning: the root that bears gall and wormwood, the one who blesses himself in his heart while turning to serve other gods. The chapter ends with the great humility of verse 29: "The secret things belong unto the Lord our God: but those things which are revealed belong unto us and to our children for ever, that we may do all the words of this law." Obedience to what is revealed, and trust in what remains hidden.',
   ],
 
+    resources: [
+    {
+      id: 'sefaria-deuteronomy-29',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 29',
+      url: 'https://www.sefaria.org/Deuteronomy.29',
+      description: 'Open-access source text and rabbinic commentary on the covenant renewal assembly [res:sefaria-deuteronomy-29] where all Israel affirms the covenant with God.',
+    },
+    {
+      id: 'covenant-renewal-ceremony-ancient-practice-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Covenant Renewal and the Assembly',
+      url: 'https://www.bibleodyssey.org/topical-article/covenant/',
+      description: 'Explores the theological significance of periodic covenant renewal [res:covenant-renewal-ceremony-ancient-practice-bible-odyssey] where each generation recommits to the covenant made at Sinai.',
+    },
+    {
+      id: 'idolatry-secret-roots-apostasy-hidden-heart',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Hidden Idolatry and the Danger of Secret Apostasy',
+      url: 'https://www.intertextual.bible/',
+      description: 'Traces the theme of internal apostasy [res:idolatry-secret-roots-apostasy-hidden-heart] where the heart may turn to false gods even while external covenant observance appears intact.',
+    },
+  ],
+
   sections: [
     /* ─── Deuteronomy 29:1–8 — The Second Covenant in Moab ───────────────── */
     {

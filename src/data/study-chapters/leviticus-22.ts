@@ -174,6 +174,18 @@ export const LEVITICUS_22: RichChapterContent = {
                 t('If the priest&apos;s daughter also be married unto a stranger, she may not eat of an offering of the holy things.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'leviticus_22_v10-16',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 22,
+          lines: [
             {
               number: 13,
               spans: [
@@ -372,6 +384,18 @@ export const LEVITICUS_22: RichChapterContent = {
                 t('And when ye will offer a sacrifice of thanksgiving unto the Lord, offer it at your own will.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'leviticus_22_v26-33',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 22,
+          lines: [
             {
               number: 30,
               spans: [

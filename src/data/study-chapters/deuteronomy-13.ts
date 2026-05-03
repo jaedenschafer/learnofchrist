@@ -25,6 +25,33 @@ export const DEUTERONOMY_13: RichChapterContent = {
     ref: 'Deuteronomy 13 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-deuteronomy-13',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 13',
+      url: 'https://www.sefaria.org/Deuteronomy.13',
+      description: 'Open-access source text and rabbinic commentary on testing false prophets, evaluating claims to divine authority, and covenant loyalty.',
+    },
+    {
+      id: 'false-prophets-idolatry-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'False Prophets and Tests of Authenticity',
+      url: 'https://www.bibleodyssey.org/dictionary/prophet/',
+      description: 'Theological entry on how to discern true from false prophets and the biblical test of authentic divine revelation.',
+    },
+    {
+      id: 'cherem-devoted-destruction-ancient-israel',
+      kind: 'archaeology',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Cherem — Covenant Violation and Total Destruction',
+      url: 'https://www.bibleodyssey.org/topical-article/idolatry/',
+      description: 'Explores the practice of cherem in ancient Israel where covenant-breaking communities were destroyed entirely, reflecting the theological boundary between faithfulness and apostasy.',
+    },
+  ],
+
   sections: [
     /* ─── The False Prophet or Dreamer ─────────────────────────────── */
     {
@@ -81,7 +108,7 @@ export const DEUTERONOMY_13: RichChapterContent = {
           kind: 'commentary',
           id: 'c-sign-comes',
           html:
-            'The sign or wonder comes to pass. It happens. The prediction proves true. This is not a case of a false prophet whose signs fail — it is precisely the opposite. This is the harder case: the sign is real, but the god is false. Many will ask: how can we know? How can we distinguish a real wonder from a false one? Deuteronomy says: don&apos;t judge by the sign. Judge by the god.',
+            'The sign or wonder comes to pass. It happens. The prediction proves true. This is not a case of a false prophet whose signs fail — it is precisely the opposite. This is the harder case: the sign is real, but the god is false [res:false-prophets-idolatry-bible-odyssey]. Many will ask: how can we know? How can we distinguish a real wonder from a false one? Deuteronomy says: don&apos;t judge by the sign. Judge by the god [res:sefaria-deuteronomy-13].',
         },
         {
           kind: 'hebrew',
@@ -257,6 +284,18 @@ export const DEUTERONOMY_13: RichChapterContent = {
                 t('Then shalt thou enquire, and make search, and ask diligently; and, behold, if it be truth, and the thing certain, that such abomination is wrought among you;'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'deuteronomy_13_v12-18',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 13,
+          lines: [
             {
               number: 15,
               spans: [
@@ -306,7 +345,7 @@ export const DEUTERONOMY_13: RichChapterContent = {
           kind: 'commentary',
           id: 'c-destroy-all',
           html:
-            'The destruction is total. Every inhabitant, every animal, every object that belonged to the city. Nothing is spared. This is a practice called <em>cherem</em> — devoted to destruction. It appears elsewhere in Joshua (Jericho, Ai) as the practice of warfare in a theocracy. The theological meaning is: this city has violated its covenant so completely that it cannot be reintegrated. It must be utterly removed. Again: this is the law of an ancient nation-state under covenant with God. The church does not practice this. But the principle — that persistent apostasy cannot be tolerated in the community of God — remains.'
+            'The destruction is total. Every inhabitant, every animal, every object that belonged to the city. Nothing is spared. This is a practice called <em>cherem</em> [res:cherem-devoted-destruction-ancient-israel] — devoted to destruction. It appears elsewhere in Joshua (Jericho, Ai) as the practice of warfare in a theocracy. The theological meaning is: this city has violated its covenant so completely that it cannot be reintegrated. It must be utterly removed. Again: this is the law of an ancient nation-state under covenant with God. The church does not practice this. But the principle — that persistent apostasy cannot be tolerated in the community of God — remains.'
         },
         {
           kind: 'hebrew',

@@ -388,6 +388,18 @@ export const EXODUS_29: RichChapterContent = {
                 t('And thou shalt take of the blood that is upon the altar, and of the anointing oil, and sprinkle it upon Aaron, and upon his garments, and upon his sons, and upon the garments of his sons with him: and he shall be hallowed, and his garments, and his sons, and his sons&apos; garments with him.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'exodus_29_v19-25',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 29,
+          lines: [
             {
               number: 22,
               spans: [

@@ -232,6 +232,18 @@ export const NEHEMIAH_13: RichChapterContent = {
               18,
               'Did not your fathers thus, and did not our God bring all this evil upon us, and upon this city? yet ye bring more wrath upon Israel by profaning the sabbath.',
             ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'nehemiah_13_v15-22',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 13,
+          lines: [
             plain(
               19,
               'And it came to pass, that when the gates of Jerusalem began to be dark before the sabbath, I commanded that the gates should be shut, and charged that they should not be opened till after the sabbath: and some of my servants set I at the gates, that there should no burden be brought in on the sabbath day.',

@@ -414,6 +414,18 @@ export const NUMBERS_20: RichChapterContent = {
                 t('Let us pass, I pray thee, through thy country: we will not pass through the fields, nor through the vineyards, neither will we drink of the water of the wells: we will go by the king\'s high way, we will not turn to the right hand nor to the left, until we have passed thy borders.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'numbers_20_v14-21',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 20,
+          lines: [
             {
               number: 18,
               spans: [
@@ -481,6 +493,18 @@ export const NUMBERS_20: RichChapterContent = {
                 t('Take Aaron and Eleazar his son, and bring them up unto mount Hor:'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'numbers_20_v22-29',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 20,
+          lines: [
             {
               number: 26,
               spans: [

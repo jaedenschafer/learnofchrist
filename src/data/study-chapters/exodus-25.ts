@@ -117,6 +117,18 @@ export const EXODUS_25: RichChapterContent = {
             { number: 10, spans: [ t('And they shall make an ark of '), hy('shittim wood', 'acacia-wood'), t(': two cubits and a half shall be the length thereof, and a cubit and a half the breadth thereof, and a cubit and a half the height thereof.') ] },
             { number: 11, spans: [ t('And thou shalt overlay it with pure gold, within and without shalt thou overlay it, and shalt make upon it a crown of gold round about.') ] },
             { number: 12, spans: [ t('And thou shalt cast four rings of gold for it, and put them in the four corners thereof; and two rings shall be in the one side of it, and two rings in the other side of it.') ] },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'exodus_25_v10-16',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             { number: 13, spans: [ t('And thou shalt make staves of shittim wood, and overlay them with gold.') ] },
             { number: 14, spans: [ t('And thou shalt put the staves into the rings by the sides of the ark, that the ark may be borne with them.') ] },
             { number: 15, spans: [ t('The staves shall be in the rings of the ark: they shall not be taken from it.') ] },
@@ -214,6 +226,18 @@ export const EXODUS_25: RichChapterContent = {
             { number: 24, spans: [ t('And thou shalt overlay it with pure gold, and make thereto a crown of gold round about.') ] },
             { number: 25, spans: [ t('And thou shalt make unto it a border of an hand breadth round about, and thou shalt make a golden crown to the border thereof round about.') ] },
             { number: 26, spans: [ t('And thou shalt make for it four rings of gold, and put the rings in the four corners that are on the four feet thereof.') ] },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'exodus_25_v23-30',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             { number: 27, spans: [ t('Over against the border shall the rings be, for places of the staves to bear the table.') ] },
             { number: 28, spans: [ t('And thou shalt make the staves of shittim wood, and overlay them with gold, that the table may be borne with them.') ] },
             { number: 29, spans: [ t('And thou shalt make the '), hy('dishes thereof', 'dishes-vessels'), t(', and spoons thereof, and covers thereof, and bowls thereof, to cover withal: of pure gold shalt thou make them.') ] },

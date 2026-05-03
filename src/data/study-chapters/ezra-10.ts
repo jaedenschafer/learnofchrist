@@ -193,6 +193,18 @@ export const EZRA_10: RichChapterContent = {
                 t(' unto the Lord God of your fathers, and do his pleasure: and separate yourselves from the people of the land, and from the strange wives.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ezra_10_v9-15',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             {
               number: 12,
               spans: [

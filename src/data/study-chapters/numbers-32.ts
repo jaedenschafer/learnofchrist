@@ -238,6 +238,18 @@ export const NUMBERS_32: RichChapterContent = {
                 t('For we will not inherit with them on yonder side Jordan, or forward; because our inheritance is fallen to us on this side Jordan eastward.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'numbers_32_v16-23',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 32,
+          lines: [
             {
               number: 20,
               spans: [
@@ -326,6 +338,18 @@ export const NUMBERS_32: RichChapterContent = {
                 t('And the children of Gad and the children of Reuben answered, saying, As the Lord hath said unto thy servants, so will we do.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'numbers_32_v28-41',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 32,
+          lines: [
             {
               number: 32,
               spans: [

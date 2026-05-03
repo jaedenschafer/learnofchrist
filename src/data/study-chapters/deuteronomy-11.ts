@@ -50,6 +50,18 @@ export const DEUTERONOMY_11: RichChapterContent = {
                 t('; how he made the water of the Red sea to overflow them as they pursued after you, and how the Lord hath destroyed them unto this day;'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'deuteronomy_11_v1-7',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             {
               number: 4,
               spans: [
@@ -429,6 +441,18 @@ export const DEUTERONOMY_11: RichChapterContent = {
                 t('And a curse, if ye will not obey the commandments of the Lord your God, but turn aside out of the way which I command you this day, to go after other gods, which ye have not known.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'deuteronomy_11_v26-32',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             {
               number: 29,
               spans: [

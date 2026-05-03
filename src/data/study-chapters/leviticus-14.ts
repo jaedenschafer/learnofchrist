@@ -53,6 +53,18 @@ export const LEVITICUS_14: RichChapterContent = {
                 t('And the priest shall go forth out of the camp; and the priest shall look, and, behold, if the plague of leprosy be healed in the leper;'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'leviticus_14_v1-7',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 14,
+          lines: [
             {
               number: 4,
               spans: [
@@ -495,6 +507,18 @@ export const LEVITICUS_14: RichChapterContent = {
                 t(':'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'leviticus_14_v46-53',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 14,
+          lines: [
             {
               number: 50,
               spans: [

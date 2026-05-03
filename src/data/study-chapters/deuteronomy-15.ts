@@ -28,6 +28,33 @@ export const DEUTERONOMY_15: RichChapterContent = {
     caption: 'Deuteronomy 15 · Every Seventh Year',
   },
 
+    resources: [
+    {
+      id: 'sefaria-deuteronomy-15',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 15',
+      url: 'https://www.sefaria.org/Deuteronomy.15',
+      description: 'Open-access source text and rabbinic commentary on the Jubilee year [res:sefaria-deuteronomy-15], debt release, and concern for the poor.',
+    },
+    {
+      id: 'jubilee-debt-forgiveness-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jubilee, Debt Release, and Economic Justice',
+      url: 'https://www.bibleodyssey.org/topical-article/jubilee/',
+      description: 'Explores the theological vision of periodic debt forgiveness [res:jubilee-debt-forgiveness-bible-odyssey] and its function in maintaining covenant community equity.',
+    },
+    {
+      id: 'hebrew-servants-manumission-ancient-law',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Hebrew Servants and Release Laws',
+      url: 'https://www.sefaria.org/Deuteronomy.15.12',
+      description: 'Examines the terminology and practice of releasing Hebrew servants [res:hebrew-servants-manumission-ancient-law] after six years, a countercultural law in the ancient world.',
+    },
+  ],
+
   sections: [
     /* ─── Deuteronomy 15:1–6 — The Year of Release ───────────────────── */
     {

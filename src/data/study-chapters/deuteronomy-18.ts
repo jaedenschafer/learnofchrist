@@ -11,6 +11,33 @@ export const DEUTERONOMY_18: RichChapterContent = {
     'For the first readers of Deuteronomy, written on the cusp of entry into Canaan, the surrounding nations were thick with soothsayers, witch-craft, and mediums—all channels through which people sought hidden knowledge and power. Against this, Moses says: you shall not do so. Instead, listen. A Prophet comes. And the New Testament will say plainly: that Prophet is Jesus, the one Word through whom God speaks.',
   ],
 
+    resources: [
+    {
+      id: 'sefaria-deuteronomy-18',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 18',
+      url: 'https://www.sefaria.org/Deuteronomy.18',
+      description: 'Open-access source text and rabbinic commentary on Levitical support [res:sefaria-deuteronomy-18], divination prohibitions, and the promise of a future prophet.',
+    },
+    {
+      id: 'levitical-priesthood-support-ancient-israel-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Levitical Priesthood and Tithe Support',
+      url: 'https://www.bibleodyssey.org/topical-article/levite/',
+      description: 'Theological overview of how the tribe of Levi was set apart [res:levitical-priesthood-support-ancient-israel-bible-odyssey] for priesthood and sustained by community tithes and offerings.',
+    },
+    {
+      id: 'prophet-like-moses-messianic-promise-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Prophet Like Moses and Messianic Expectation',
+      url: 'https://www.intertextual.bible/',
+      description: 'Traces how Deuteronomy 18:15 promise of a prophet like Moses [res:prophet-like-moses-messianic-promise-intertextual] connects to New Testament understanding of Jesus as the fulfillment.',
+    },
+  ],
+
   sections: [
     /* ─── Deuteronomy 18:1–8 — The Priest's Portion ───────────────────────── */
     {

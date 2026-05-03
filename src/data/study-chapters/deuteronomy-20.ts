@@ -26,6 +26,33 @@ export const DEUTERONOMY_20: RichChapterContent = {
     ref: 'Deuteronomy 20 · Study Guide',
   },
 
+    resources: [
+    {
+      id: 'sefaria-deuteronomy-20',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 20',
+      url: 'https://www.sefaria.org/Deuteronomy.20',
+      description: 'Open-access source text and rabbinic commentary on warfare protocols [res:sefaria-deuteronomy-20], exemptions from military service, and rules of siege.',
+    },
+    {
+      id: 'herem-holy-war-ancient-israel-conquest-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Holy War and the Conquest Narrative',
+      url: 'https://www.bibleodyssey.org/topical-article/holy-war/',
+      description: 'Theological examination of herem (devoted to destruction) [res:herem-holy-war-ancient-israel-conquest-bible-odyssey] warfare in the context of covenant conquest and divine judgment.',
+    },
+    {
+      id: 'siege-warfare-ancient-near-east-archaeology',
+      kind: 'archaeology',
+      source: 'Oriental Institute',
+      label: 'Siege Warfare in the Ancient Near East',
+      url: 'https://oi.uchicago.edu/',
+      description: 'Archaeological evidence for siege tactics, fortifications, and military engineering in Iron Age Levantine warfare.',
+    },
+  ],
+
   sections: [
     /* ─── Deuteronomy 20:1–4 — Fear and the Presence of God ─────────────── */
     {
@@ -360,7 +387,7 @@ export const DEUTERONOMY_20: RichChapterContent = {
           kind: 'commentary',
           id: 'preserve-trees',
           html:
-            'Even in siege, where total destruction would seem a military advantage, God forbids the burning of fruit trees. Fruit trees feed. They are not fuel for war machines. The phrase &ldquo;the tree of the field is man&apos;s life&rdquo; is extraordinary—a recognition that the created world has its own value, independent of human military need. Creation is not collateral damage. Earth is not expendable to human ambition, even to justified war. God will accept siege; He will not accept the casual destruction of what sustains life.',
+            'Even in siege [res:siege-warfare-ancient-near-east-archaeology], where total destruction would seem a military advantage, God forbids the burning of fruit trees. Fruit trees feed. They are not fuel for war machines. The phrase &ldquo;the tree of the field is man&apos;s life&rdquo; is extraordinary—a recognition that the created world has its own value, independent of human military need. Creation is not collateral damage. Earth is not expendable to human ambition, even to justified war. God will accept siege; He will not accept the casual destruction of what sustains life.',
         },
         {
           kind: 'carry',

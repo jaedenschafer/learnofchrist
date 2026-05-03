@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Deuteronomy 32 — The Song of Moses.
+ * Deuteronomy 32 — The Song of Moses [res:sefaria-deuteronomy-32].
  * A poetic masterpiece: God&apos;s faithfulness to Israel, Israel&apos;s ingratitude,
  * judgment and mercy intertwined. Quoted by Paul on the Gentiles&apos; inclusion;
  * a preview of Christ as the Rock.
@@ -25,6 +25,33 @@ export const DEUTERONOMY_32: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Deuteronomy 32 · Study Guide',
   },
+
+    resources: [
+    {
+      id: 'sefaria-deuteronomy-32',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 32',
+      url: 'https://www.sefaria.org/Deuteronomy.32',
+      description: 'Open-access source text and rabbinic commentary on the Song of Moses, the Lord&apos;s justice, and Israel&apos;s covenant unfaithfulness.',
+    },
+    {
+      id: 'song-moses-covenant-lawsuit-witness-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Song as Covenant Lawsuit and Witness',
+      url: 'https://www.bibleodyssey.org/topical-article/song/',
+      description: 'Theological analysis of how the Song functions as a covenant [res:song-moses-covenant-lawsuit-witness-bible-odyssey] lawsuit against Israel, calling God as witness to inevitable judgment and restoration.',
+    },
+    {
+      id: 'ancient-near-east-treaty-songs-witness-function',
+      kind: 'archaeology',
+      source: 'Oriental Institute',
+      label: 'Songs and Witness Functions in Ancient Treaties',
+      url: 'https://oi.uchicago.edu/',
+      description: 'Comparative study of how ancient Near Eastern treaties included songs and witness invocations [res:ancient-near-east-treaty-songs-witness-function] to bind parties to covenant terms.',
+    },
+  ],
 
   sections: [
     /* ─── Deuteronomy 32:1–3 — Give Ear, O Heavens ───────────────────────── */

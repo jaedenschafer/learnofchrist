@@ -22,6 +22,33 @@ export const DEUTERONOMY_33: RichChapterContent = {
     'Moses died, but this blessing did not. Two thousand years later, believers still rest on those everlasting arms. In every season, in every darkness, the God who sheltered the tribes at Sinai still shelters us.',
   ],
 
+    resources: [
+    {
+      id: 'sefaria-deuteronomy-33',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 33',
+      url: 'https://www.sefaria.org/Deuteronomy.33',
+      description: 'Open-access source text and rabbinic commentary on Moses&apos; tribal blessings [res:sefaria-deuteronomy-33], the Lord as protector, and the chosen people&apos;s hope.',
+    },
+    {
+      id: 'blessing-tribes-territorial-destiny-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Tribal Blessings and Territorial Destiny',
+      url: 'https://www.bibleodyssey.org/topical-article/tribes-of-israel/',
+      description: 'Explores how the blessing on each tribe [res:blessing-tribes-territorial-destiny-bible-odyssey] affirms its place in Israel and distinct function within the covenant community.',
+    },
+    {
+      id: 'biblical-poetry-blessing-form-ancient-israel',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Blessing Poetry and Tribal Identity',
+      url: 'https://www.intertextual.bible/',
+      description: 'Literary and theological analysis of the blessing genre [res:biblical-poetry-blessing-form-ancient-israel] in ancient Israel, echoing Jacob&apos;s blessings and foreshadowing New Testament fulfillment.',
+    },
+  ],
+
   sections: [
     /* ─── Deuteronomy 33:1–5 — The Theophany from Sinai ──────────────────── */
     {

@@ -60,6 +60,18 @@ export const LEVITICUS_25: RichChapterContent = {
                 t('Six years thou shalt sow thy field, and six years thou shalt prune thy vineyard, and gather in the fruit thereof;'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'leviticus_25_v1-7',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             {
               number: 4,
               spans: [
@@ -361,6 +373,18 @@ export const LEVITICUS_25: RichChapterContent = {
                 t('And if it be not redeemed within the space of a full year, then the house that is in the walled city shall be established for ever to him that bought it throughout his generations: it shall not go out in the jubile.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'leviticus_25_v28-34',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             {
               number: 31,
               spans: [

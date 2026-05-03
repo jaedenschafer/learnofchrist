@@ -135,6 +135,18 @@ export const LEVITICUS_1: RichChapterContent = {
                 t('And he shall kill the bullock before the LORD: and the priests, Aaron&apos;s sons, shall bring the blood, and sprinkle the blood round about upon the altar that is by the door of the tabernacle of the congregation.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'leviticus_1_v3-9',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             {
               number: 6,
               spans: [

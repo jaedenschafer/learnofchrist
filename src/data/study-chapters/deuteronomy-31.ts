@@ -17,6 +17,33 @@ export const DEUTERONOMY_31: RichChapterContent = {
     'This chapter is where law hands over to grace in type and shadow. Joshua means "Yahweh saves"—the name itself points to Christ. And Moses&apos; words to Israel—"the Lord thy God, he it is that doth go with thee"—are quoted in Hebrews 13:5 as the church&apos;s daily promise. A farewell that reaches across centuries.',
   ],
 
+    resources: [
+    {
+      id: 'sefaria-deuteronomy-31',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 31',
+      url: 'https://www.sefaria.org/Deuteronomy.31',
+      description: 'Open-access source text and rabbinic commentary on Joshua&apos;s commissioning, the Torah scroll [res:sefaria-deuteronomy-31], and triennial Torah reading mandate.',
+    },
+    {
+      id: 'joshua-successor-leadership-transition-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Joshua as Successor and Leadership Transition',
+      url: 'https://www.bibleodyssey.org/topical-article/joshua/',
+      description: 'Explores how Joshua is commissioned [res:joshua-successor-leadership-transition-bible-odyssey] as Moses&apos; successor to lead Israel into the promised land and fulfill covenant conquest.',
+    },
+    {
+      id: 'torah-reading-cycle-covenant-memory-practice',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Triennial Torah Reading and Covenant Memory',
+      url: 'https://www.intertextual.bible/',
+      description: 'Examines how regular Torah reading serves [res:torah-reading-cycle-covenant-memory-practice] as covenant renewal, binding each generation to the words spoken at Sinai.',
+    },
+  ],
+
   sections: [
     /* ─── Deuteronomy 31:1–3 — "I Can No More Go Out and Come In" ──────────── */
     {

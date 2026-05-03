@@ -134,6 +134,18 @@ export const NUMBERS_26: RichChapterContent = {
             ),
             plain(12, 'The sons of Simeon after their families: of Nemuel, the family of the Nemuelites: of Jamin, the family of the Jaminites: of Jachin, the family of the Jachinites:'),
             plain(13, 'Of Zerah, the family of the Zarhites: of Shaul, the family of the Shaulites.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'numbers_26_v8-20',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 26,
+          lines: [
             verse(14,
               t('These are the families of the Simeonites, twenty and two thousand and two hundred.')
             ),

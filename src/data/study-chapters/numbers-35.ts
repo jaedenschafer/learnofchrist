@@ -151,6 +151,18 @@ export const NUMBERS_35: RichChapterContent = {
                 t(' to be cities of refuge for you; that the slayer that killeth any person at unawares may flee thither.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'numbers_35_v9-15',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 35,
+          lines: [
             {
               number: 12,
               spans: [

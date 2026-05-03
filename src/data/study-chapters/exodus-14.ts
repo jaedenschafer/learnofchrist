@@ -403,6 +403,18 @@ export const EXODUS_14: RichChapterContent = {
                 t('And it came to pass, that in the morning watch the LORD looked unto the host of the Egyptians through the pillar of fire and of the cloud, and troubled the host of the Egyptians,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'exodus_14_v21-28',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 14,
+          lines: [
             {
               number: 25,
               spans: [

@@ -307,6 +307,18 @@ export const NUMBERS_34: RichChapterContent = {
                 t('.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'numbers_34_v16-23',
+          html:
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 34,
+          lines: [
             {
               number: 20,
               spans: [
