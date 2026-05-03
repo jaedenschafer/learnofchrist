@@ -287,8 +287,10 @@ html[data-reader-theme="dark"] {
 .loc-hero {
   position: relative;
   isolation: isolate;
-  /* Sit flush under the 48px sticky navbar so the photo runs to the top edge. */
-  margin-top: -3rem;
+  /* The floating pill nav floats over the page; the hero photo runs
+     edge-to-edge underneath it. Subtract the nav's offset so the hero
+     starts at the very top of the viewport. */
+  margin-top: calc(-1 * (56px + clamp(0.5rem, 1vw, 1rem) * 2));
   height: 100vh;
   min-height: 640px;
   display: flex;
@@ -627,6 +629,375 @@ html[data-reader-theme="dark"] {
    marquee in the Resources section above (which already shows ~24
    curated paintings). All .loc-today-* CSS removed. */
 
+/* ─── StudyShowcase — 4-card horizontal scroll-snap carousel ────────────
+   Sits over the same atmospheric photo backdrop used elsewhere on the
+   home so the white-on-frost language continues. The cards snap on
+   scroll; on desktop the user can drag-flick or use arrow keys; the
+   01/04 pagination lives inside each card so it always reflects the
+   currently centered card without any JS. */
+
+.loc-showcase {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: var(--loc-section-y) 0 calc(var(--loc-section-y) * 0.7);
+  background-image:
+    linear-gradient(180deg, rgba(26, 22, 18, 0.42), rgba(26, 22, 18, 0.55)),
+    url('https://images.unsplash.com/photo-1444090542259-0af8fa96557e?auto=format&fit=crop&w=2400&q=85');
+  background-size: cover;
+  background-position: center;
+}
+
+.loc-showcase__head {
+  text-align: center;
+  max-width: 44rem;
+  margin: 0 auto clamp(2rem, 4vw, 3rem);
+}
+
+.loc-showcase__title {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-weight: 500;
+  font-size: var(--loc-h2);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: var(--frost-text);
+  margin: 0;
+  text-wrap: balance;
+}
+
+.loc-showcase .loc-eyebrow { color: var(--loc-gold-soft); }
+
+/* The horizontal scroller — mask the edges so cards drift in/out of
+   view rather than getting clipped. */
+.loc-showcase__scroller {
+  /* Edge-to-edge so the scroll-snap experience feels native on mobile
+     instead of clipping inside the wrap. */
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: visible;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding: 0.5rem 0 1.5rem;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 4%, #000 96%, transparent 100%);
+          mask-image: linear-gradient(90deg, transparent 0, #000 4%, #000 96%, transparent 100%);
+}
+.loc-showcase__scroller::-webkit-scrollbar { display: none; }
+.loc-showcase__scroller:focus-visible { outline: none; }
+
+.loc-showcase__rail {
+  display: flex;
+  gap: clamp(1rem, 2vw, 1.5rem);
+  padding: 0 clamp(1.25rem, 6vw, 6rem);
+}
+
+/* Card — one frosted-glass plate, two columns inside (copy + visual).
+   On narrow screens the visual stacks below the copy. */
+.loc-showcase__card {
+  flex: 0 0 min(92vw, 1040px);
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  padding: clamp(1.5rem, 3vw, 2.25rem);
+  border-radius: 28px;
+  background: var(--frost-tint-card);
+  -webkit-backdrop-filter: var(--frost-blur-card);
+  backdrop-filter: var(--frost-blur-card);
+  border: 1px solid var(--frost-border-card);
+  color: var(--frost-text);
+  isolation: isolate;
+}
+
+@media (min-width: 720px) {
+  .loc-showcase__card {
+    grid-template-columns: 1fr 1.05fr;
+    align-items: stretch;
+    gap: clamp(1.5rem, 3vw, 2.5rem);
+    padding: clamp(2rem, 3vw, 2.75rem);
+  }
+}
+
+.loc-showcase__copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+}
+
+.loc-showcase__pager {
+  display: flex;
+  align-items: baseline;
+  gap: 0.25rem;
+  margin: 0 0 1.25rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  letter-spacing: 0.005em;
+  color: var(--frost-text);
+}
+.loc-showcase__pager > span:nth-child(2) {
+  color: var(--frost-text-muted);
+  font-weight: 500;
+}
+.loc-showcase__eyebrow {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--loc-gold-soft);
+}
+
+.loc-showcase__cardtitle {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-weight: 500;
+  font-size: clamp(1.625rem, 3vw, 2.25rem);
+  line-height: 1.05;
+  letter-spacing: -0.018em;
+  margin: 0 0 1rem;
+  color: var(--frost-text);
+  text-wrap: balance;
+}
+
+.loc-showcase__body {
+  font-size: clamp(0.9375rem, 1.2vw, 1.0625rem);
+  line-height: 1.55;
+  color: var(--frost-text-soft);
+  margin: 0 0 1.75rem;
+  max-width: 38ch;
+}
+
+.loc-showcase__cta { align-self: flex-start; }
+
+/* Visual column — frosted plate with the inline mockup centered. */
+.loc-showcase__visual {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 280px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.10);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
+  backdrop-filter: blur(18px) saturate(140%);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  padding: clamp(1.25rem, 2vw, 1.75rem);
+}
+
+/* ── Inline mockups ─────────────────────────────────────────────────── */
+
+.loc-mock {
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  color: var(--frost-text);
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.loc-mock__verse {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-size: 1.25rem;
+  line-height: 1.45;
+  margin: 0;
+  color: #FFFFFF;
+}
+.loc-mock__verse--soft { color: rgba(255, 255, 255, 0.86); }
+.loc-mock__verse sup {
+  color: var(--vesper-peach);
+  font-weight: 600;
+  font-size: 0.625em;
+  margin-right: 0.25rem;
+}
+
+.loc-mock__hebrew {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.875rem 1rem;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+.loc-mock__hebrew-mark {
+  font-family: 'SBL Hebrew', 'Ezra SIL', Georgia, serif;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: #FFFFFF;
+  direction: rtl;
+}
+.loc-mock__hebrew-translit {
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  color: var(--frost-text-soft);
+}
+
+.loc-mock__christ {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.875rem 1rem;
+  background: rgba(255, 255, 255, 0.06);
+  border-left: 3px solid var(--vesper-gold);
+  border-radius: 10px;
+  font-size: 0.9375rem;
+  line-height: 1.45;
+  color: var(--frost-text-soft);
+  margin: 0;
+}
+.loc-mock__pill {
+  align-self: flex-start;
+  font-size: 0.625rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--vesper-gold);
+}
+
+/* Translations mock */
+.loc-mock__tabs {
+  display: inline-flex;
+  align-self: flex-start;
+  padding: 3px;
+  background: rgba(255, 255, 255, 0.10);
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  gap: 1px;
+}
+.loc-mock__tab {
+  display: inline-flex;
+  padding: 0.3rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--frost-text-muted);
+}
+.loc-mock__tab.is-active {
+  background: #FFFFFF;
+  color: var(--vesper-compline);
+}
+
+.loc-mock__alt {
+  margin: 0;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  font-size: 0.875rem;
+  line-height: 1.45;
+  color: var(--frost-text-soft);
+}
+.loc-mock__alt strong { color: var(--vesper-gold); margin-right: 0.4rem; }
+
+/* Depth mock */
+.loc-mock__depth-row { display: flex; }
+.loc-mock__depth-pill {
+  display: inline-flex;
+  padding: 0.55rem 1rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--frost-text-soft);
+}
+.loc-mock__depth-pill.is-active {
+  background: #FFFFFF;
+  color: var(--vesper-compline);
+  border-color: #FFFFFF;
+}
+.loc-mock__depth-foot {
+  margin: 0.5rem 0 0;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  color: var(--frost-text-muted);
+}
+
+/* Audio mock */
+.loc-mock__audio-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 0.875rem;
+  background: rgba(255, 255, 255, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+}
+.loc-mock__play {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  color: var(--vesper-compline);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.loc-mock__audio-label {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--frost-text);
+  flex: 0 0 auto;
+}
+.loc-mock__audio-bar {
+  flex: 1 1 auto;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.loc-mock__audio-bar > span {
+  display: block;
+  width: 38%;
+  height: 100%;
+  background: linear-gradient(90deg, var(--vesper-peach), var(--vesper-gold));
+}
+
+.loc-mock__note {
+  padding: 0.75rem 0.875rem;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  border-left: 3px solid var(--vesper-peach);
+  font-size: 0.875rem;
+  line-height: 1.45;
+  color: var(--frost-text-soft);
+}
+.loc-mock__note-tag {
+  display: inline-block;
+  font-size: 0.625rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--vesper-peach);
+  margin-right: 0.5rem;
+}
+
+.loc-mock__highlight {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 999px;
+}
+.loc-mock__hl {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.85);
+}
+.loc-mock__hl--gold  { background: var(--vesper-gold); }
+.loc-mock__hl--peach { background: var(--vesper-peach); }
+.loc-mock__hl--sky   { background: var(--vesper-sky); }
+.loc-mock__highlight-label {
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  color: var(--frost-text-soft);
+  margin-left: 0.25rem;
+}
+
 /* ─── 3. Mission ────────────────────────────────────────────────────────
    Atmospheric photo backdrop with a soft dark veil. The white-frosted
    glass pane (.loc-mission__inner) sits over it and lets the photo
@@ -847,7 +1218,7 @@ html[data-reader-theme="dark"] {
 .loc-closer {
   position: relative;
   isolation: isolate;
-  min-height: 70vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -855,6 +1226,79 @@ html[data-reader-theme="dark"] {
   color: #FFFFFF;
   padding: clamp(5rem, 10vw, 9rem) 0;
   overflow: hidden;
+}
+
+/* ── Sun circles — concentric rings that scale up on viewport entry. */
+.loc-closer__sun {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 0;
+}
+.loc-closer__sun-ring,
+.loc-closer__sun-core {
+  position: absolute;
+  border-radius: 50%;
+  transform: scale(0);
+  /* Each ring scales in slightly later than the one above, creating a
+     "blooming sun" feel. They land at their final size around the
+     1.4s mark, then a slow infinite breathe keeps them gently alive. */
+  animation: closerRingGrow 1.6s cubic-bezier(0.2, 0.7, 0.2, 1) forwards,
+             closerRingBreathe 7s ease-in-out 1.6s infinite;
+}
+.loc-closer__sun-ring--1 {
+  width: clamp(20rem, 32vw, 30rem);
+  height: clamp(20rem, 32vw, 30rem);
+  background: radial-gradient(circle, rgba(232, 184, 148, 0.35), transparent 70%);
+  animation-delay: 0s, 1.6s;
+}
+.loc-closer__sun-ring--2 {
+  width: clamp(30rem, 48vw, 46rem);
+  height: clamp(30rem, 48vw, 46rem);
+  background: radial-gradient(circle, rgba(200, 150, 74, 0.18), transparent 70%);
+  animation-delay: 0.15s, 1.75s;
+}
+.loc-closer__sun-ring--3 {
+  width: clamp(40rem, 64vw, 62rem);
+  height: clamp(40rem, 64vw, 62rem);
+  background: radial-gradient(circle, rgba(232, 184, 148, 0.10), transparent 70%);
+  animation-delay: 0.3s, 1.9s;
+}
+.loc-closer__sun-ring--4 {
+  width: clamp(50rem, 80vw, 78rem);
+  height: clamp(50rem, 80vw, 78rem);
+  background: radial-gradient(circle, rgba(200, 150, 74, 0.06), transparent 70%);
+  animation-delay: 0.45s, 2.05s;
+}
+.loc-closer__sun-core {
+  width: clamp(8rem, 14vw, 12rem);
+  height: clamp(8rem, 14vw, 12rem);
+  background: radial-gradient(circle, rgba(255, 230, 190, 0.70), rgba(232, 184, 148, 0.20) 60%, transparent 75%);
+  animation-delay: 0s, 1.6s;
+  /* Slight blur so the core glows rather than cuts. */
+  filter: blur(6px);
+}
+
+@keyframes closerRingGrow {
+  from { transform: scale(0); opacity: 0; }
+  60%  { opacity: 1; }
+  to   { transform: scale(1); opacity: 1; }
+}
+@keyframes closerRingBreathe {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.04); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .loc-closer__sun-ring,
+  .loc-closer__sun-core {
+    animation: none;
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .loc-closer__bg {
@@ -890,6 +1334,80 @@ html[data-reader-theme="dark"] {
 .loc-closer__inner {
   text-align: center;
   max-width: 38rem;
+  position: relative;
+  z-index: 1;
+}
+
+/* Frosted-glass pane the headline + choices live inside. */
+.loc-closer__pane {
+  padding: clamp(2rem, 4vw, 3.25rem);
+  border-radius: 36px;
+  background: var(--frost-tint-card);
+  -webkit-backdrop-filter: var(--frost-blur-card);
+  backdrop-filter: var(--frost-blur-card);
+  border: 1px solid var(--frost-border-card);
+  color: var(--frost-text);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.20),
+    0 24px 60px -22px rgba(0, 0, 0, 0.32);
+  isolation: isolate;
+}
+
+.loc-closer__eyebrow {
+  margin: 0 0 1rem;
+  color: var(--vesper-peach) !important;
+}
+
+.loc-closer__choices {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1.75rem 0;
+}
+
+.loc-closer__choice {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 999px;
+  background: var(--frost-tint);
+  -webkit-backdrop-filter: var(--frost-blur);
+  backdrop-filter: var(--frost-blur);
+  color: var(--frost-text);
+  text-decoration: none;
+  text-align: left;
+  transition: background 0.18s ease, transform 0.18s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.loc-closer__choice:hover {
+  background: var(--frost-tint-hover);
+  transform: scale(1.005);
+}
+.loc-closer__choice-num {
+  flex: 0 0 auto;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--vesper-peach);
+}
+.loc-closer__choice-name {
+  flex: 0 0 auto;
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  color: var(--frost-text);
+}
+.loc-closer__choice-sub {
+  flex: 1 1 auto;
+  font-size: 0.8125rem;
+  color: var(--frost-text-soft);
+  text-align: right;
+}
+
+.loc-closer__cta {
+  display: inline-flex;
+  margin-top: 0.25rem;
 }
 
 .loc-closer__title {

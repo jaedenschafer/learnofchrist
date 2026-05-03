@@ -4,6 +4,7 @@ import { getAllBlogPosts, categoryColors } from '@/data/blog-posts';
 import { getCuratedHighlights } from '@/lib/supabase';
 import ArtArches from '@/components/ArtArches';
 import AppDashboard from '@/components/AppDashboard';
+import StudyShowcase from '@/components/StudyShowcase';
 import './home.css';
 
 // Below-the-fold + client-only — code-split so it doesn't block the hero.
@@ -108,7 +109,10 @@ export default async function Home() {
       {/* ═══════════ 2. Continue reading rail — only renders if state ═══════════ */}
       <ContinueReading />
 
-      {/* ═══════════ 3. Mission — one declarative line ═══════════ */}
+      {/* ═══════════ 3. Study showcase — 4-card horizontal scroll ═══════════ */}
+      <StudyShowcase />
+
+      {/* ═══════════ 4. Mission — one declarative line ═══════════ */}
       <section className="loc-mission">
         <div className="loc-wrap loc-mission__inner">
           <p className="loc-eyebrow">The mission</p>
@@ -154,7 +158,7 @@ export default async function Home() {
         </section>
       )}
 
-      {/* ═══════════ 6. Closer — single declarative serif line ═══════════ */}
+      {/* ═══════════ 7. Closer — sun circles + frosted pane ═══════════ */}
       <section className="loc-closer">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
@@ -164,13 +168,49 @@ export default async function Home() {
           loading="lazy"
         />
         <div className="loc-closer__veil" aria-hidden="true" />
+
+        {/* Sun-circles — concentric rings in the Vesper palette that
+            scale up via @keyframes when the section enters the viewport. */}
+        <div className="loc-closer__sun" aria-hidden="true">
+          <span className="loc-closer__sun-ring loc-closer__sun-ring--4" />
+          <span className="loc-closer__sun-ring loc-closer__sun-ring--3" />
+          <span className="loc-closer__sun-ring loc-closer__sun-ring--2" />
+          <span className="loc-closer__sun-ring loc-closer__sun-ring--1" />
+          <span className="loc-closer__sun-core" />
+        </div>
+
         <div className="loc-wrap loc-closer__inner">
-          <h2 className="loc-closer__title">
-            And the Word became flesh.
-          </h2>
-          <Link href="/bible/john/1" className="loc-btn loc-btn--solid">
-            Open John 1
-          </Link>
+          <div className="loc-closer__pane">
+            <p className="loc-eyebrow loc-closer__eyebrow">Begin</p>
+            <h2 className="loc-closer__title">
+              What should we study?
+            </h2>
+            <div className="loc-closer__choices">
+              <Link href="/bible/john/1" className="loc-closer__choice">
+                <span className="loc-closer__choice-num">01</span>
+                <span className="loc-closer__choice-name">John 1</span>
+                <span className="loc-closer__choice-sub">The Word made flesh</span>
+              </Link>
+              <Link href="/bible/genesis/1" className="loc-closer__choice">
+                <span className="loc-closer__choice-num">02</span>
+                <span className="loc-closer__choice-name">Genesis 1</span>
+                <span className="loc-closer__choice-sub">Creation of the world</span>
+              </Link>
+              <Link href="/bible/psalms/23" className="loc-closer__choice">
+                <span className="loc-closer__choice-num">03</span>
+                <span className="loc-closer__choice-name">Psalm 23</span>
+                <span className="loc-closer__choice-sub">The Lord is my shepherd</span>
+              </Link>
+              <Link href="/bible/romans/8" className="loc-closer__choice">
+                <span className="loc-closer__choice-num">04</span>
+                <span className="loc-closer__choice-name">Romans 8</span>
+                <span className="loc-closer__choice-sub">No condemnation in Christ</span>
+              </Link>
+            </div>
+            <Link href="/bible" className="loc-btn loc-btn--solid loc-closer__cta">
+              Open the Bible
+            </Link>
+          </div>
         </div>
       </section>
     </>

@@ -1960,19 +1960,42 @@ html[data-reader-theme="dark"] ::-webkit-scrollbar-thumb:hover { background: rgb
   }
 }
 
-/* ─── Navbar ─── */
+/* ─── Navbar — floating pill ─────────────────────────────────────────────
+   Inset rounded pill, frosted glass, floats clear of the page edges.
+   Sticks to the top with a small offset so the photo bands behind read
+   underneath it. Reference: base44.com top nav. */
 .site-nav {
-  /* Liquid glass — stronger blur and saturation to read against the
-     atmospheric photo hero. The inset white highlight on the bottom
-     edge is the brand "tell". */
-  -webkit-backdrop-filter: blur(20px) saturate(160%);
-  backdrop-filter: blur(20px) saturate(160%);
-  background: color-mix(in srgb, var(--vesper-parchment) 70%, transparent);
-  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.45);
+  /* Reset the sticky bar styling — the nav is now a centered pill
+     inside its own positioning wrapper. */
+  position: sticky;
+  top: clamp(0.5rem, 1vw, 1rem);
+  z-index: 50;
+  background: transparent !important;
+  box-shadow: none !important;
+  border-bottom: 0 !important;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  padding: 0 clamp(0.75rem, 2vw, 1.5rem);
+  pointer-events: none; /* let scroll pass through the gutters */
 }
-html[data-reader-theme="dark"] .site-nav {
-  background: color-mix(in srgb, var(--vesper-cloister) 72%, transparent);
-  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.06);
+.site-nav__bar {
+  pointer-events: auto;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--vesper-parchment) 78%, transparent);
+  -webkit-backdrop-filter: blur(28px) saturate(160%);
+  backdrop-filter: blur(28px) saturate(160%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.55),
+    0 8px 28px -10px rgba(26, 22, 18, 0.18);
+  /* Slim profile so the pill doesn't dominate. */
+  height: 56px;
+  padding: 0 clamp(0.75rem, 1.5vw, 1.25rem);
+}
+html[data-reader-theme="dark"] .site-nav__bar {
+  background: color-mix(in srgb, var(--vesper-cloister) 80%, transparent);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.10),
+    0 8px 28px -10px rgba(0, 0, 0, 0.45);
 }
 .nav-link {
   color: var(--color-secondary-label);
