@@ -47,7 +47,7 @@ export const MARK_6: RichChapterContent = {
           kind: 'commentary',
           id: 'mark6-hometown',
           html:
-            'Familiarity can blind. The people of Nazareth know Jesus as the carpenter&apos;s son. They know His family. His astonishing wisdom and miracles offend them rather than convince them. They cannot reconcile the carpenter they know with the prophet who speaks with authority. So they become offended and reject Him. Jesus responds with a proverb: "A prophet is not without honour, but in his own country." This is not mere reflection but a teaching about how faith works. Faith requires openness to the new, willingness to see beyond the familiar.',
+            'Familiarity can blind[res:israel-museum-nazareth]. The people of Nazareth know Jesus as the carpenter&apos;s son. They know His family. His astonishing wisdom and miracles offend them rather than convince them. They cannot reconcile the carpenter they know with the prophet who speaks with authority. So they become offended and reject Him. Jesus responds with a proverb: "A prophet is not without honour, but in his own country." This is not mere reflection but a teaching about how faith works. Faith requires openness to the new, willingness to see beyond the familiar.',
         },
         {
           kind: 'commentary',
@@ -68,7 +68,7 @@ export const MARK_6: RichChapterContent = {
           kind: 'commentary',
           id: 'mark6-sent-empty-handed',
           html:
-            'Jesus instructs the disciples to take nothing: no bread, no scrip, no money. They are to travel light, to depend utterly on God&apos;s provision. This is not mere asceticism. It is a lesson in faith. They are to go forth as lambs among wolves, vulnerable, unarmored, trusting that God will provide through the hospitality of those they encounter.',
+            'Jesus instructs the disciples to take nothing: no bread, no scrip, no money[res:sefaria-manna-provision]. They are to travel light, to depend utterly on God&apos;s provision. This is not mere asceticism. It is a lesson in faith. They are to go forth as lambs among wolves, vulnerable, unarmored, trusting that God will provide through the hospitality of those they encounter.',
         },
         {
           kind: 'christ',
@@ -161,7 +161,7 @@ export const MARK_6: RichChapterContent = {
           kind: 'commentary',
           id: 'mark6-compassion-shepherd',
           html:
-            'Jesus and His disciples have withdrawn to rest, but the crowds follow them. Rather than send them away, Jesus is "moved with compassion toward them, because they were as sheep not having a shepherd." He teaches them all day. In the evening, the disciples come asking how they will feed such a crowd. Jesus asks: "How many loaves have ye?" Five loaves and two fishes—nearly nothing in the face of five thousand hungry people. Yet Jesus takes them, blesses them, breaks them, and distributes them. All eat and are filled. There are even fragments left over.',
+            'Jesus and His disciples have withdrawn to rest, but the crowds follow them. Rather than send them away, Jesus is "moved with compassion toward them, because they were as sheep not having a shepherd." He teaches them all day. In the evening, the disciples come asking how they will feed such a crowd. Jesus asks: "How many loaves have ye?" Five loaves and two fishes—nearly nothing in the face of five thousand hungry people[res:bible-odyssey-feeding-miracle]. Yet Jesus takes them, blesses them, breaks them, and distributes them. All eat and are filled. There are even fragments left over.',
         },
         {
           kind: 'commentary',
@@ -210,6 +210,33 @@ export const MARK_6: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Mark 6 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'israel-museum-nazareth',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'First-Century Nazareth',
+      url: 'https://www.imj.org.il/en/collections/search?q=nazareth',
+      description: 'Archaeological findings from first-century Nazareth, the hometown of Jesus.',
+    },
+    {
+      id: 'sefaria-manna-provision',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 16: Manna & God&apos;s Provision',
+      url: 'https://www.sefaria.org/Exodus.16?lang=bi',
+      description: 'OT precedent for God&apos;s provision to those traveling with minimal resources.',
+    },
+    {
+      id: 'bible-odyssey-feeding-miracle',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Feeding the Five Thousand',
+      url: 'https://www.bibleodyssey.org/dictionary/jesus-feeding-the-5000/',
+      description: 'Open-access entry on Jesus&apos; miraculous feeding miracle and its significance.',
+    },
+  ],
 
   hasHebrew: false,
 };

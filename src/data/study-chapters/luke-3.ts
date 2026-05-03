@@ -45,7 +45,7 @@ export const LUKE_3: RichChapterContent = {
           kind: 'commentary',
           id: 'luke3-word',
           html:
-            'Luke dates John&apos;s ministry with imperial precision, then states simply: "The word of God came unto John." John is not self-appointed. He is called. The word—the creative, living word of God—comes upon him as it came upon the prophets of old. John becomes a vessel of God&apos;s speech.',
+            'Luke dates John&apos;s ministry with imperial precision, then states simply: "The word of God came unto John."[res:bible-odyssey-prophecy] John is not self-appointed. He is called. The word—the creative, living word of God—comes upon him as it came upon the prophets of old. John becomes a vessel of God&apos;s speech.',
         },
         {
           kind: 'commentary',
@@ -66,7 +66,7 @@ export const LUKE_3: RichChapterContent = {
           kind: 'commentary',
           id: 'luke3-jesus-baptized',
           html:
-            'When all the people are baptized, Jesus comes and is baptized. He stands with humanity in the waters of repentance. He identifies with the people He came to save. And as He prays, the heavens open. The Spirit descends in bodily form like a dove. A voice from heaven declares: "Thou art my beloved Son; in thee I am well pleased." The moment of commissioning—the public beginning of Jesus&apos; ministry.',
+            'When all the people are baptized, Jesus comes and is baptized[res:sefaria-baptism]. He stands with humanity in the waters of repentance. He identifies with the people He came to save. And as He prays, the heavens open. The Spirit descends in bodily form like a dove. A voice from heaven declares: "Thou art my beloved Son; in thee I am well pleased." The moment of commissioning—the public beginning of Jesus&apos; ministry.',
         },
         {
           kind: 'christ',
@@ -113,7 +113,7 @@ export const LUKE_3: RichChapterContent = {
           kind: 'commentary',
           id: 'luke3-genealogy-adam',
           html:
-            'But Luke does not stop with Abraham. He continues backward through the patriarchs, through Noah and the flood, back to Enoch, to Methuselah, to the ancient ages. And finally, he reaches Adam. "Which was the son of Adam, which was the son of God." This is Luke&apos;s distinctive move: he traces humanity back to its origin, back to the one human created directly by God. Jesus is the second Adam, the Son of God. He stands in solidarity not just with Israel, but with all humanity.',
+            'But Luke does not stop with Abraham. He continues backward through the patriarchs, through Noah and the flood, back to Enoch, to Methuselah, to the ancient ages. And finally, he reaches Adam. "Which was the son of Adam, which was the son of God."[res:intertextual-adam-christ] This is Luke&apos;s distinctive move: he traces humanity back to its origin, back to the one human created directly by God. Jesus is the second Adam, the Son of God. He stands in solidarity not just with Israel, but with all humanity.',
         },
         {
           kind: 'greek',
@@ -145,6 +145,33 @@ export const LUKE_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Luke 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bible-odyssey-prophecy',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Prophecy & the Prophetic Office',
+      url: 'https://www.bibleodyssey.org/dictionary/prophecy/',
+      description: 'Open-access entry on biblical prophecy and how God&apos;s word comes upon the prophets, examining John&apos;s prophetic role and calling.',
+    },
+    {
+      id: 'intertextual-adam-christ',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Adam & Christ Typology (OT ↔ NT)',
+      url: 'https://intertextual.bible/text/genesis-1/luke-3.38',
+      description: 'Intertextual links showing how Jesus as the second Adam reverses Adam&apos;s fall and restores humanity&apos;s original relationship with God.',
+    },
+    {
+      id: 'sefaria-baptism',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ritual Purification & Repentance (Leviticus 15)',
+      url: 'https://www.sefaria.org/Leviticus.15?lang=bi',
+      description: 'Jewish purification laws contextualizing John&apos;s baptism of repentance and Jesus&apos; identification with humanity&apos;s redemption.',
+    },
+  ],
 
   hasHebrew: false,
 };

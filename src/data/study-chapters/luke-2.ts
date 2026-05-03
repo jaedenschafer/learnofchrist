@@ -44,7 +44,7 @@ export const LUKE_2: RichChapterContent = {
           kind: 'commentary',
           id: 'luke2-caesar',
           html:
-            'Luke places the birth in a specific historical moment: during the reign of Caesar Augustus, during the governorship of Quirinius. Jesus is not born in a legend or a myth. He is born in history, in a specific time and place. Yet how ordinary the announcement is—a decree for taxation brings Joseph and Mary to Bethlehem, the city where the Messiah was foretold to be born. God works through the ordinary machinery of history.',
+            'Luke places the birth in a specific historical moment: during the reign of Caesar Augustus, during the governorship of Quirinius[res:bible-odyssey-incarnation]. Jesus is not born in a legend or a myth. He is born in history, in a specific time and place. Yet how ordinary the announcement is—a decree for taxation brings Joseph and Mary to Bethlehem, the city where the Messiah was foretold to be born. God works through the ordinary machinery of history.',
         },
         {
           kind: 'commentary',
@@ -113,7 +113,7 @@ export const LUKE_2: RichChapterContent = {
           kind: 'commentary',
           id: 'luke2-simeon',
           html:
-            'Simeon is old, devout, just. He has waited his whole life for "the consolation of Israel"—the promised Messiah. The Spirit reveals to him that he will not see death before he has seen the Lord&apos;s Christ. When Mary and Joseph bring the child, Simeon recognizes Him. "This child is set for the fall and rising again of many in Israel; and for a sign which shall be spoken against."',
+            'Simeon is old, devout, just. He has waited his whole life for "the consolation of Israel"—the promised Messiah[res:sefaria-simeon]. The Spirit reveals to him that he will not see death before he has seen the Lord&apos;s Christ. When Mary and Joseph bring the child, Simeon recognizes Him. "This child is set for the fall and rising again of many in Israel; and for a sign which shall be spoken against."',
         },
         {
           kind: 'greek',
@@ -171,7 +171,7 @@ export const LUKE_2: RichChapterContent = {
           kind: 'commentary',
           id: 'luke2-fathers-business',
           html:
-            'Mary says to Him: "Son, why hast thou thus dealt with us? behold, thy father and I have sought thee sorrowing." Jesus responds: "How is it that ye sought me? wist ye not that I must be about my Father&apos;s business?" He speaks of God as His Father. He distinguishes his ultimate allegiance from His earthly parents. Yet He returns with them and is subject to them. The perfect obedience and the larger calling are not in conflict.',
+            'Mary says to Him: "Son, why hast thou thus dealt with us? behold, thy father and I have sought thee sorrowing." Jesus responds: "How is it that ye sought me? wist ye not that I must be about my Father&apos;s business?"[res:intertextual-jesus-identity] He speaks of God as His Father. He distinguishes his ultimate allegiance from His earthly parents. Yet He returns with them and is subject to them. The perfect obedience and the larger calling are not in conflict.',
         },
         {
           kind: 'greek',
@@ -203,6 +203,33 @@ export const LUKE_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Luke 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bible-odyssey-incarnation',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Incarnation',
+      url: 'https://www.bibleodyssey.org/dictionary/incarnation/',
+      description: 'Open-access entry on the doctrine of incarnation, examining how Jesus&apos; birth places the divine Word in human history and flesh.',
+    },
+    {
+      id: 'sefaria-simeon',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Simeon & the Law of Purification (Leviticus 12)',
+      url: 'https://www.sefaria.org/Leviticus.12?lang=bi',
+      description: 'Torah law governing purification after childbirth, contextualizing Mary&apos;s presentation of Jesus in the temple and Simeon&apos;s recognition.',
+    },
+    {
+      id: 'intertextual-jesus-identity',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jesus & "Father&apos;s Business" (OT ↔ NT)',
+      url: 'https://intertextual.bible/text/malachi-3/luke-2.49',
+      description: 'Intertextual links showing how Jesus&apos; early awareness of His divine identity fulfills Old Testament messianic expectation.',
+    },
+  ],
 
   hasHebrew: false,
 };

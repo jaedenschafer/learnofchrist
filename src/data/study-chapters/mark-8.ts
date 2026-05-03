@@ -112,13 +112,13 @@ export const MARK_8: RichChapterContent = {
           kind: 'commentary',
           id: 'mark8-who-am-i',
           html:
-            'Jesus asks His disciples: "Whom say ye that I am?" Peter answers: "Thou art the Christ." The Greek word is Christos—the anointed one, the Messiah. Peter confesses the fundamental truth of the gospel. Yet his understanding is incomplete. He does not yet understand what it means for the Messiah to suffer and die.',
+            'Jesus asks His disciples: "Whom say ye that I am?" Peter answers: "Thou art the Christ." The Greek word is Christos—the anointed one, the Messiah[res:intertextual-messiah]. Peter confesses the fundamental truth of the gospel. Yet his understanding is incomplete. He does not yet understand what it means for the Messiah to suffer and die.',
         },
         {
           kind: 'commentary',
           id: 'mark8-must-suffer',
           html:
-            'Immediately after Peter&apos;s confession, Jesus begins to teach them plainly that "the Son of man must suffer many things, and be rejected of the elders, and of the chief priests, and scribes, and be killed, and after three days rise again." The word "must" is significant. This is not contingent. This is necessary. This is the path the Messiah must walk. This is how redemption is accomplished.',
+            'Immediately after Peter&apos;s confession, Jesus begins to teach them plainly that "the Son of man must suffer many things, and be rejected of the elders, and of the chief priests, and scribes, and be killed, and after three days rise again." The word "must" is significant. This is not contingent. This is necessary. This is the path the Messiah must walk[res:bible-odyssey-suffering-servant]. This is how redemption is accomplished.',
         },
         {
           kind: 'greek',
@@ -139,7 +139,7 @@ export const MARK_8: RichChapterContent = {
           kind: 'commentary',
           id: 'mark8-take-up-cross',
           html:
-            'Jesus calls the crowds and disciples and teaches the fundamental principle of discipleship: "Whosoever will come after me, let him deny himself, and take up his cross, and follow me." Denying oneself means relinquishing the claim to run one&apos;s own life. Taking up the cross means embracing suffering, isolation, the way of death. But this is the way to life: "Whosoever will save his life shall lose it; but whosoever shall lose his life for my sake and the gospel&apos;s shall save it."',
+            'Jesus calls the crowds and disciples and teaches the fundamental principle of discipleship: "Whosoever will come after me, let him deny himself, and take up his cross, and follow me." Denying oneself means relinquishing the claim to run one&apos;s own life. Taking up the cross means embracing suffering, isolation, the way of death[res:sefaria-crucifixion]. But this is the way to life: "Whosoever will save his life shall lose it; but whosoever shall lose his life for my sake and the gospel&apos;s shall save it."',
         },
         {
           kind: 'christ',
@@ -167,6 +167,33 @@ export const MARK_8: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Mark 8 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'intertextual-messiah',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Messiah Concept (OT ↔ NT)',
+      url: 'https://intertextual.bible/text/psalms-2/mark-8.29',
+      description: 'Intertextual links showing how Jesus\' messianic identity fulfills and redefines Old Testament anointing and kingship.',
+    },
+    {
+      id: 'bible-odyssey-suffering-servant',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Suffering Servant',
+      url: 'https://www.bibleodyssey.org/dictionary/suffering-servant/',
+      description: 'Open-access entry on the Suffering Servant motif from Isaiah, showing how Jesus understood His messianic mission through the lens of Isaiah 53.',
+    },
+    {
+      id: 'sefaria-crucifixion',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Crucifixion in Ancient Context',
+      url: 'https://www.sefaria.org/pages/api/texts/Mishnah/Sanhedrin/6.4',
+      description: 'Jewish legal and historical sources contextualizing crucifixion as shameful execution, illuminating the scandal of Jesus\' voluntary submission to this form of death.',
+    },
+  ],
 
   hasHebrew: false,
 };

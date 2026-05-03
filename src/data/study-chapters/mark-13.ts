@@ -65,7 +65,7 @@ export const MARK_13: RichChapterContent = {
           kind: 'commentary',
           id: 'mark13-gospel-all-nations',
           html:
-            'Before the end comes, "the gospel must first be published among all nations." The mission of the church is not peripheral but central to God&apos;s plan. The gospel must reach all peoples before the final consummation. This gives urgency and significance to the work of proclamation.',
+            'Before the end comes, "the gospel must first be published among all nations."[res:bible-odyssey-eschatology] The mission of the church is not peripheral but central to God&apos;s plan. The gospel must reach all peoples before the final consummation. This gives urgency and significance to the work of proclamation.',
         },
         {
           kind: 'christ',
@@ -107,13 +107,13 @@ export const MARK_13: RichChapterContent = {
           kind: 'commentary',
           id: 'mark13-words-endure',
           html:
-            'In the face of coming tribulation, Jesus offers a fundamental assurance: "Heaven and earth shall pass away: but my words shall not pass away." All earthly things—the temple, the buildings, empires, even the material heavens and earth—will ultimately pass away and be transformed. But the word of Jesus is permanent. It will endure. It defines reality. It determines the destiny of all things.',
+            'In the face of coming tribulation, Jesus offers a fundamental assurance: "Heaven and earth shall pass away: but my words shall not pass away."[res:topostext-logoi-jesus] All earthly things—the temple, the buildings, empires, even the material heavens and earth—will ultimately pass away and be transformed. But the word of Jesus is permanent. It will endure. It defines reality. It determines the destiny of all things.',
         },
         {
           kind: 'commentary',
           id: 'mark13-day-hour',
           html:
-            'Jesus explicitly states that no one knows the day or hour—"not the angels which are in heaven, neither the Son, but the Father." This is a remarkable statement of limitation. The Son does not possess knowledge of the date of His return. Yet this is not a deficiency. It is the Father&apos;s prerogative to determine the hour. The purpose of this unknowing is to prevent calculation and to maintain readiness. If we knew the date, we might postpone repentance until the last moment.',
+            'Jesus explicitly states that no one knows the day or hour—"not the angels which are in heaven, neither the Son, but the Father."[res:intertextual-parousia] This is a remarkable statement of limitation. The Son does not possess knowledge of the date of His return. Yet this is not a deficiency. It is the Father&apos;s prerogative to determine the hour. The purpose of this unknowing is to prevent calculation and to maintain readiness. If we knew the date, we might postpone repentance until the last moment.',
         },
         {
           kind: 'greek',
@@ -162,6 +162,33 @@ export const MARK_13: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Mark 13 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bible-odyssey-eschatology',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'End Times & Eschatology',
+      url: 'https://www.bibleodyssey.org/dictionary/eschatology-eschaton/',
+      description: 'Open-access entry on Christian eschatology and Jesus&apos; teaching about the end times, the gospel&apos;s universal mission, and Christ&apos;s return.',
+    },
+    {
+      id: 'intertextual-parousia',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Parousia & Day of the Lord',
+      url: 'https://intertextual.bible/text/daniel-12/mark-13.32',
+      description: 'Intertextual links showing how Jesus&apos; teaching on His return fulfills Old Testament prophecy about the day of the Lord.',
+    },
+    {
+      id: 'topostext-logoi-jesus',
+      kind: 'study',
+      source: 'ToposText',
+      label: 'Jesus&apos; Words as Eternal Truth',
+      url: 'https://topostext.org/work/Gospels%20of%20Mark',
+      description: 'Primary source analysis of sayings (logoi) attributed to Jesus in Mark, examining their enduring theological authority.',
+    },
+  ],
 
   hasHebrew: false,
 };

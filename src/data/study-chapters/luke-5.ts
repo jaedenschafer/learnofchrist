@@ -45,7 +45,7 @@ export const LUKE_5: RichChapterContent = {
           kind: 'commentary',
           id: 'luke5-obedience',
           html:
-            'Simon has fished all night and caught nothing. His nets are clean but empty. Jesus asks him to launch into the deep and let down the nets. Simon protests—he knows fishing. He has worked all night. But he adds: "Nevertheless at thy word I will let down the net." This is obedience. This is faith. He acts against reason, against his own experience, at the word of Jesus.',
+            'Simon has fished all night and caught nothing. His nets are clean but empty. Jesus asks him to launch into the deep and let down the nets. Simon protests—he knows fishing. He has worked all night. But he adds: "Nevertheless at thy word I will let down the net."[res:bible-odyssey-faith] This is obedience. This is faith. He acts against reason, against his own experience, at the word of Jesus.',
         },
         {
           kind: 'greek',
@@ -116,7 +116,7 @@ export const LUKE_5: RichChapterContent = {
           kind: 'commentary',
           id: 'luke5-feast',
           html:
-            'Levi celebrates his new life. He makes a great feast in his house and invites his friends—publicans, sinners, people of disrepute. Jesus reclines at the table with them. The Pharisees and scribes are scandalized. Jesus eats with sinners. This violates their understanding of holiness. But Jesus says: "They that are whole need not a physician; but they that are sick." Jesus has come for the lost, the broken, the despised.',
+            'Levi celebrates his new life. He makes a great feast in his house and invites his friends—publicans, sinners, people of disrepute. Jesus reclines at the table with them. The Pharisees and scribes are scandalized. Jesus eats with sinners[res:intertextual-table-fellowship]. This violates their understanding of holiness. But Jesus says: "They that are whole need not a physician; but they that are sick." Jesus has come for the lost, the broken, the despised.',
         },
         {
           kind: 'greek',
@@ -131,7 +131,7 @@ export const LUKE_5: RichChapterContent = {
           kind: 'commentary',
           id: 'luke5-newwine',
           html:
-            'Jesus speaks in parables. New wine cannot be poured into old bottles. Old bottles are brittle, hardened. New wine is living, fermenting, expanding. The pressure will burst the old bottles. The kingdom of God is new wine. The old forms of righteousness—the law as practiced by the Pharisees, the boundaries they draw, their understanding of holiness—are old bottles. They cannot contain what God is doing. God is doing a new thing.',
+            'Jesus speaks in parables. New wine cannot be poured into old bottles[res:sefaria-covenant-renewal]. Old bottles are brittle, hardened. New wine is living, fermenting, expanding. The pressure will burst the old bottles. The kingdom of God is new wine. The old forms of righteousness—the law as practiced by the Pharisees, the boundaries they draw, their understanding of holiness—are old bottles. They cannot contain what God is doing. God is doing a new thing.',
         },
         {
           kind: 'christ',
@@ -154,6 +154,33 @@ export const LUKE_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Luke 5 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bible-odyssey-faith',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Faith & Trust in Jesus',
+      url: 'https://www.bibleodyssey.org/dictionary/faith/',
+      description: 'Open-access entry on biblical faith as trust and obedience to Jesus&apos; word, seen in Simon&apos;s willingness to let down nets at His command.',
+    },
+    {
+      id: 'intertextual-table-fellowship',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Table Fellowship & Covenant (OT ↔ NT)',
+      url: 'https://intertextual.bible/text/psalms-23/luke-5.29',
+      description: 'Intertextual links showing how Jesus&apos; eating with sinners fulfills Old Testament images of God&apos;s hospitable covenant and restoration.',
+    },
+    {
+      id: 'sefaria-covenant-renewal',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'New Covenant & Renewal (Jeremiah 31)',
+      url: 'https://www.sefaria.org/Jeremiah.31.31-34?lang=bi',
+      description: 'Torah foundation for Jesus&apos; teaching on new wine, showing how God promises a new covenant that transforms hearts and practice.',
+    },
+  ],
 
   hasHebrew: false,
 };

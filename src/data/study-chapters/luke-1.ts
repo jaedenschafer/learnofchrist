@@ -41,7 +41,7 @@ export const LUKE_1: RichChapterContent = {
           kind: 'commentary',
           id: 'luke1-zacharias',
           html:
-            'Zacharias is righteous, a man of prayer, yet he and Elisabeth have no child. In the ancient world, infertility was a reproach. Yet God has heard his prayer—not for a son, but for redemption. The angel Gabriel appears in the temple, the most holy place, at the moment of incense offering—when prayers rise toward heaven. This is a moment of threshold, of intersection between earth and heaven.',
+            'Zacharias is righteous, a man of prayer, yet he and Elisabeth have no child. In the ancient world, infertility was a reproach. Yet God has heard his prayer—not for a son, but for redemption. The angel Gabriel appears in the temple, the most holy place, at the moment of incense offering—when prayers rise toward heaven[res:intertextual-gabriel-annunciation]. This is a moment of threshold, of intersection between earth and heaven.',
         },
         {
           kind: 'greek',
@@ -57,7 +57,7 @@ export const LUKE_1: RichChapterContent = {
           id: 'luke1-christ-john',
           title: 'Christ Connection — The Forerunner',
           html:
-            'John is born to prepare the way for Jesus. He comes "in the spirit and power of Elias"—the spirit of prophecy, of calling Israel to repentance. Jesus will later say of John: "Among them that are born of women there is not a greater prophet than John the Baptist." Yet John himself will diminish as Jesus increases. This is the pattern of all forerunners.',
+            'John is born to prepare the way for Jesus. He comes "in the spirit and power of Elias"—the spirit of prophecy, of calling Israel to repentance[res:bible-odyssey-john-baptist]. Jesus will later say of John: "Among them that are born of women there is not a greater prophet than John the Baptist." Yet John himself will diminish as Jesus increases. This is the pattern of all forerunners.',
         },
         {
           kind: 'carry',
@@ -107,7 +107,7 @@ export const LUKE_1: RichChapterContent = {
           kind: 'commentary',
           id: 'luke1-magnificat',
           html:
-            'Mary&apos;s response is not fear or confusion. It is the Magnificat—a hymn of praise that echoes the prayers of Hannah, the song of David, the hopes of Israel. "My soul doth magnify the Lord, and my spirit hath rejoiced in God my Saviour." She praises God for seeing her lowliness, for doing great things, for remembering His mercy. She sees in her own calling the larger pattern: God has scattered the proud, brought down the mighty, exalted the humble, filled the hungry with good things.',
+            'Mary&apos;s response is not fear or confusion. It is the Magnificat—a hymn of praise that echoes the prayers of Hannah, the song of David, the hopes of Israel[res:sefaria-magnificat]. "My soul doth magnify the Lord, and my spirit hath rejoiced in God my Saviour." She praises God for seeing her lowliness, for doing great things, for remembering His mercy. She sees in her own calling the larger pattern: God has scattered the proud, brought down the mighty, exalted the humble, filled the hungry with good things.',
         },
         {
           kind: 'christ',
@@ -187,6 +187,33 @@ export const LUKE_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Luke 1 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'intertextual-gabriel-annunciation',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Gabriel & Annunciation (OT ↔ NT)',
+      url: 'https://intertextual.bible/text/daniel-9/luke-1.26',
+      description: 'Intertextual links showing how Gabriel&apos;s message to Mary fulfills and parallels Old Testament angelic announcements and messianic promise.',
+    },
+    {
+      id: 'sefaria-magnificat',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Magnificat & Hannah&apos;s Song',
+      url: 'https://www.sefaria.org/I_Samuel.2.1-10?lang=bi',
+      description: 'Torah and Writings parallels to Mary&apos;s Magnificat, showing how her prayer echoes Hannah&apos;s rejoicing and the reversal of the lowly.',
+    },
+    {
+      id: 'bible-odyssey-john-baptist',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'John the Baptist as Forerunner',
+      url: 'https://www.bibleodyssey.org/dictionary/john-baptist/',
+      description: 'Open-access entry on John&apos;s role as the forerunner to Jesus, fulfilling Old Testament prophecy and preparing the way for the Messiah.',
+    },
+  ],
 
   hasHebrew: false,
 };

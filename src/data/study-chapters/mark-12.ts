@@ -53,7 +53,7 @@ export const MARK_12: RichChapterContent = {
           kind: 'commentary',
           id: 'mark12-rejected-stone',
           html:
-            'Jesus quotes Psalm 118: "The stone which the builders rejected, the same is become the head of the corner." The rejected stone becomes the cornerstone—the most important stone, the one upon which the whole structure rests. The religious leaders, the builders, reject Jesus. But God makes Him the foundation of the new temple, the new people, the new Israel. What is rejected by human authority is exalted by God.',
+            'Jesus quotes Psalm 118: "The stone which the builders rejected, the same is become the head of the corner."[res:intertextual-cornerstone] The rejected stone becomes the cornerstone—the most important stone, the one upon which the whole structure rests. The religious leaders, the builders, reject Jesus. But God makes Him the foundation of the new temple, the new people, the new Israel. What is rejected by human authority is exalted by God.',
         },
         {
           kind: 'greek',
@@ -116,7 +116,7 @@ export const MARK_12: RichChapterContent = {
           kind: 'commentary',
           id: 'mark12-greatest-commandment',
           html:
-            'A scribe asks: "Which is the first commandment of all?" Jesus answers by quoting the Shema—"Hear, O Israel; The Lord our God is one Lord"—and then teaching the two greatest commandments: love God with all your heart, soul, mind, and strength; and love your neighbor as yourself. He concludes: "There is none other commandment greater than these." All the law and the prophets hang on these two.',
+            'A scribe asks: "Which is the first commandment of all?" Jesus answers by quoting the Shema—"Hear, O Israel; The Lord our God is one Lord"[res:sefaria-shema]—and then teaching the two greatest commandments: love God with all your heart, soul, mind, and strength; and love your neighbor as yourself. He concludes: "There is none other commandment greater than these." All the law and the prophets hang on these two.',
         },
         {
           kind: 'greek',
@@ -131,7 +131,7 @@ export const MARK_12: RichChapterContent = {
           kind: 'commentary',
           id: 'mark12-scribe-affirms',
           html:
-            'The scribe affirms Jesus&apos; answer and goes further: "To love him with all the heart, and with all the understanding, and with all the soul, and with all the strength, and to love his neighbour as himself, is more than all whole burnt offerings and sacrifices." The scribe sees that true religion is not ritual but relationship, not sacrifice but love. Jesus affirms him: "Thou art not far from the kingdom of God."',
+            'The scribe affirms Jesus&apos; answer and goes further: "To love him with all the heart, and with all the understanding, and with all the soul, and with all the strength, and to love his neighbour as himself, is more than all whole burnt offerings and sacrifices."[res:bible-odyssey-love-covenant] The scribe sees that true religion is not ritual but relationship, not sacrifice but love. Jesus affirms him: "Thou art not far from the kingdom of God."',
         },
         {
           kind: 'christ',
@@ -159,6 +159,33 @@ export const MARK_12: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Mark 12 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'intertextual-cornerstone',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Cornerstone (Psalm 118 ↔ Mark 12)',
+      url: 'https://intertextual.bible/text/psalms-118/mark-12.10',
+      description: 'Intertextual links showing how Jesus fulfilled the psalm of the rejected stone becoming the foundation.',
+    },
+    {
+      id: 'sefaria-shema',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Shema (Deuteronomy 6:4-9)',
+      url: 'https://www.sefaria.org/Deuteronomy.6.4-9?lang=bi',
+      description: 'The central prayer of Judaism declaring the oneness of God, which Jesus affirmed as the first and greatest commandment.',
+    },
+    {
+      id: 'bible-odyssey-love-covenant',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Love as Covenant Response',
+      url: 'https://www.bibleodyssey.org/dictionary/love/',
+      description: 'Open-access entry on love (agape) as the foundation of covenant relationship with God and others, surpassing ritual sacrifice.',
+    },
+  ],
 
   hasHebrew: false,
 };

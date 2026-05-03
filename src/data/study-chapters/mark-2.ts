@@ -114,13 +114,13 @@ export const MARK_2: RichChapterContent = {
           kind: 'commentary',
           id: 'mark2-levi-called',
           html:
-            'Levi is a tax collector—a man who works for Rome, collecting taxes from his own people. He is considered a traitor, a sinner, someone beyond the pale of respectable society. Jesus sees him at his post and says simply: "Follow me." Levi does not hesitate. He leaves his post and follows. The call is to the outcast, the despised, the one society has written off.',
+            'Levi is a tax collector[res:bible-odyssey-tax-collectors]—a man who works for Rome, collecting taxes from his own people. He is considered a traitor, a sinner, someone beyond the pale of respectable society. Jesus sees him at his post and says simply: "Follow me." Levi does not hesitate. He leaves his post and follows. The call is to the outcast, the despised, the one society has written off.',
         },
         {
           kind: 'commentary',
           id: 'mark2-eats-sinners',
           html:
-            'Jesus eats in Levi&apos;s house with publicans and sinners. In the Jewish world, to eat with someone was to declare them acceptable, to include them in the community of the righteous. The Pharisees are scandalized. How can a teacher, a holy man, eat with such people? Jesus answers: "They that are whole have no need of the physician; but they that are sick. I came not to call the righteous, but sinners to repentance." He does not come to those who believe themselves whole, but to those who recognize their sickness.',
+            'Jesus eats in Levi&apos;s house with publicans and sinners[res:sefaria-jewish-meals]. In the Jewish world, to eat with someone was to declare them acceptable, to include them in the community of the righteous. The Pharisees are scandalized. How can a teacher, a holy man, eat with such people? Jesus answers: "They that are whole have no need of the physician; but they that are sick. I came not to call the righteous, but sinners to repentance." He does not come to those who believe themselves whole, but to those who recognize their sickness.',
         },
         {
           kind: 'greek',
@@ -176,7 +176,7 @@ export const MARK_2: RichChapterContent = {
           kind: 'commentary',
           id: 'mark2-sabbath-law',
           html:
-            'The law is clear: thou shalt not work on the Sabbath. Plucking grain is work. The Pharisees are correct in pointing out the violation. But Jesus does not deny the law. He reinterprets it. The Sabbath was made for man, not man for the Sabbath. The law was meant to serve human flourishing, not to constrain it. When the law becomes an instrument of oppression, when it prevents healing or feeding, it has been twisted from its purpose.',
+            'The law is clear: thou shalt not work on the Sabbath[res:sefaria-exodus-20]. Plucking grain is work. The Pharisees are correct in pointing out the violation. But Jesus does not deny the law. He reinterprets it. The Sabbath was made for man, not man for the Sabbath. The law was meant to serve human flourishing, not to constrain it. When the law becomes an instrument of oppression, when it prevents healing or feeding, it has been twisted from its purpose.',
         },
         {
           kind: 'commentary',
@@ -219,6 +219,33 @@ export const MARK_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Mark 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-jewish-meals',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jewish Meal Fellowship & Purity Laws',
+      url: 'https://www.sefaria.org/Leviticus.11?lang=bi',
+      description: 'Torah texts governing purity and commensality that frame the scandal of Jesus eating with tax collectors and sinners.',
+    },
+    {
+      id: 'sefaria-exodus-20',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 20: Fourth Commandment (Sabbath)',
+      url: 'https://www.sefaria.org/Exodus.20.8-11?lang=bi',
+      description: 'The foundational Sabbath law Jesus reinterprets as serving human flourishing rather than constraining it.',
+    },
+    {
+      id: 'bible-odyssey-tax-collectors',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Tax Collectors',
+      url: 'https://www.bibleodyssey.org/dictionary/tax-collectors/',
+      description: 'Open-access entry on the despised role of tax collectors in Roman-occupied Judea and their social status.',
+    },
+  ],
 
   hasHebrew: false,
 };

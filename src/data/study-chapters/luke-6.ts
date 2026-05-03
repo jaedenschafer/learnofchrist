@@ -44,7 +44,7 @@ export const LUKE_6: RichChapterContent = {
           kind: 'commentary',
           id: 'luke6-sabbath-lord',
           html:
-            'The disciples hunger. They pluck grain on the Sabbath. The law forbids work on the Sabbath. But Jesus says: "The Son of man is Lord also of the sabbath." Jesus claims authority over the Sabbath itself. He is not abolishing the law. He is reinterpreting it. The Sabbath was made for man, not man for the Sabbath. Mercy supersedes ritual.',
+            'The disciples hunger. They pluck grain on the Sabbath. The law forbids work on the Sabbath. But Jesus says: "The Son of man is Lord also of the sabbath."[res:sefaria-sabbath-law] Jesus claims authority over the Sabbath itself. He is not abolishing the law. He is reinterpreting it. The Sabbath was made for man, not man for the Sabbath. Mercy supersedes ritual.',
         },
         {
           kind: 'greek',
@@ -109,7 +109,7 @@ export const LUKE_6: RichChapterContent = {
           kind: 'commentary',
           id: 'luke6-beatitudes',
           html:
-            'Jesus lifts His eyes on His disciples and speaks. "Blessed be ye poor." Not "blessed are those who were born poor" or "blessed are those who endure poverty." But "blessed are ye poor"—you, standing before me now, if you are poor. Yours is the kingdom of God. To be poor is to depend on God. To hunger is to long for God&apos;s word. To weep is to know your need. These are blessed.',
+            'Jesus lifts His eyes on His disciples and speaks. "Blessed be ye poor."[res:bible-odyssey-beatitudes] Not "blessed are those who were born poor" or "blessed are those who endure poverty." But "blessed are ye poor"—you, standing before me now, if you are poor. Yours is the kingdom of God. To be poor is to depend on God. To hunger is to long for God&apos;s word. To weep is to know your need. These are blessed.',
         },
         {
           kind: 'greek',
@@ -124,7 +124,7 @@ export const LUKE_6: RichChapterContent = {
           kind: 'commentary',
           id: 'luke6-enemies',
           html:
-            'Jesus goes further. "Love your enemies, do good to them which hate you, bless them that curse you, and pray for them which despitefully use you." This is not natural. This is not the law of retaliation—an eye for an eye. This is the law of love. This is the command that separates the kingdom of God from the kingdoms of this world.',
+            'Jesus goes further. "Love your enemies, do good to them which hate you, bless them that curse you, and pray for them which despitefully use you."[res:intertextual-enemy-love] This is not natural. This is not the law of retaliation—an eye for an eye. This is the law of love. This is the command that separates the kingdom of God from the kingdoms of this world.',
         },
         {
           kind: 'commentary',
@@ -153,6 +153,33 @@ export const LUKE_6: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Luke 6 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-sabbath-law',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Sabbath Law & Mercy (Exodus 20, Isaiah 58)',
+      url: 'https://www.sefaria.org/Exodus.20.8-11?lang=bi',
+      description: 'Torah and prophetic foundation for Sabbath law, contextualizing Jesus&apos; reinterpretation that mercy and healing supersede ritual observance.',
+    },
+    {
+      id: 'bible-odyssey-beatitudes',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Beatitudes & Blessing',
+      url: 'https://www.bibleodyssey.org/dictionary/beatitudes/',
+      description: 'Open-access entry on Jesus&apos; Beatitudes, showing how blessedness belongs to the poor, hungry, and weeping, reversing worldly values.',
+    },
+    {
+      id: 'intertextual-enemy-love',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Enemy Love & Compassion (OT ↔ NT)',
+      url: 'https://intertextual.bible/text/deuteronomy-32/luke-6.27',
+      description: 'Intertextual links showing how Jesus&apos; command to love enemies fulfills and radicalizes Old Testament laws of justice and compassion.',
+    },
+  ],
 
   hasHebrew: false,
 };

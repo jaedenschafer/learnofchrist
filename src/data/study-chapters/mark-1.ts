@@ -53,7 +53,7 @@ export const MARK_1: RichChapterContent = {
           kind: 'commentary',
           id: 'mark1-john',
           html:
-            'John the Baptist stands in the tradition of the prophets—dressed in camel&apos;s hair, eating locusts and wild honey, calling Israel to repentance in the wilderness. He announces that one comes after him who is mightier: "He shall baptize you with the Holy Ghost." John recognizes his own role as preparatory. He is the voice crying in the wilderness, the forerunner, the one who decreases so that the greater may increase.',
+            'John the Baptist stands in the tradition of the prophets—dressed in camel&apos;s hair, eating locusts and wild honey, calling Israel to repentance in the wilderness[res:bible-odyssey-john-baptist]. He announces that one comes after him who is mightier: "He shall baptize you with the Holy Ghost." John recognizes his own role as preparatory. He is the voice crying in the wilderness, the forerunner, the one who decreases so that the greater may increase.',
         },
         {
           kind: 'greek',
@@ -62,7 +62,7 @@ export const MARK_1: RichChapterContent = {
           script: 'εὐαγγέλιον',
           translit: '<strong>Euaggelion</strong> · good news; gospel; message of salvation',
           description:
-            'The Greek word euaggelion literally means "good news." In the Greco-Roman world it was used for announcements of military victory or imperial events. Mark appropriates this word to announce the ultimate good news: that Jesus Christ, the Son of God, has come to bring salvation. The gospel is not merely information. It is transformative news that demands a response.',
+            'The Greek word euaggelion[res:perseus-euaggelion] literally means "good news." In the Greco-Roman world it was used for announcements of military victory or imperial events. Mark appropriates this word to announce the ultimate good news: that Jesus Christ, the Son of God, has come to bring salvation. The gospel is not merely information. It is transformative news that demands a response.',
         },
         {
           kind: 'commentary',
@@ -180,7 +180,7 @@ export const MARK_1: RichChapterContent = {
           kind: 'commentary',
           id: 'mark1-touched',
           html:
-            'Jesus&apos; response is revolutionary. He could have spoken a word from a distance and healed the leper without touching him. But Mark tells us Jesus was "moved with compassion" and "put forth his hand, and touched him." Jesus touches the untouchable. He violates every law of cleanliness, every boundary of separation. By touching the leper, Jesus says: you are not beyond reach. You belong to the community of the human. You are clean. The leprosy departs immediately.',
+            'Jesus&apos; response is revolutionary. He could have spoken a word from a distance and healed the leper without touching him. But Mark tells us Jesus was "moved with compassion" and "put forth his hand, and touched him." Jesus touches the untouchable[res:sefaria-leprosy-laws]. He violates every law of cleanliness, every boundary of separation. By touching the leper, Jesus says: you are not beyond reach. You belong to the community of the human. You are clean. The leprosy departs immediately.',
         },
         {
           kind: 'greek',
@@ -217,6 +217,33 @@ export const MARK_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Mark 1 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bible-odyssey-john-baptist',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'John the Baptist',
+      url: 'https://www.bibleodyssey.org/dictionary/john-the-baptist/',
+      description: 'Open-access SBL entry covering the wilderness preacher&apos;s historical context and role in first-century Judaism.',
+    },
+    {
+      id: 'sefaria-leprosy-laws',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 13–14: Leprosy Laws',
+      url: 'https://www.sefaria.org/Leviticus.13?lang=bi',
+      description: 'Torah texts and Jewish law governing cleanliness, separation, and healing of skin diseases that frame Jesus&apos; boundary-breaking healing.',
+    },
+    {
+      id: 'perseus-euaggelion',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'εὐαγγέλιον (euaggelion)',
+      url: 'https://scaife.perseus.org/lexica/lsj/εὐαγγέλιον/',
+      description: 'Greek lexicon entry defining euaggelion as imperial proclamation and good news, showing Markan subversion of Greco-Roman terminology.',
+    },
+  ],
 
   hasHebrew: false,
 };

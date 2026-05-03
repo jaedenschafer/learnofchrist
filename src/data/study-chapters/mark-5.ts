@@ -47,7 +47,7 @@ export const MARK_5: RichChapterContent = {
           kind: 'commentary',
           id: 'mark5-demon-possessed',
           html:
-            'The man is possessed with an unclean spirit. He dwells among the tombs—the place of the dead, associated with defilement and separation from the community. He is so violent that no one dares approach. Night and day he cries out and cuts himself. This is not mere mental illness. It is bondage, spiritual possession, a life completely fragmented and enslaved.',
+            'The man is possessed with an unclean spirit[res:bible-odyssey-demon-possession]. He dwells among the tombs—the place of the dead, associated with defilement and separation from the community. He is so violent that no one dares approach. Night and day he cries out and cuts himself. This is not mere mental illness. It is bondage, spiritual possession, a life completely fragmented and enslaved.',
         },
         {
           kind: 'commentary',
@@ -114,7 +114,7 @@ export const MARK_5: RichChapterContent = {
           kind: 'commentary',
           id: 'mark5-woman-issue',
           html:
-            'A woman has suffered from hemorrhage for twelve years. In the Jewish law, a woman with such an affliction is unclean, cut off from worship and community. She has spent all her money on physicians and only grown worse. She has heard of Jesus and comes in the crowd, hoping just to touch His garment. "If I may touch but his clothes, I shall be whole." This is faith—not mere intellectual belief, but a desperate, reaching-out trust that healing is possible through contact with Jesus.',
+            'A woman has suffered from hemorrhage for twelve years. In the Jewish law[res:sefaria-hemorrhage-purity], a woman with such an affliction is unclean, cut off from worship and community. She has spent all her money on physicians and only grown worse. She has heard of Jesus and comes in the crowd, hoping just to touch His garment. "If I may touch but his clothes, I shall be whole." This is faith—not mere intellectual belief, but a desperate, reaching-out trust that healing is possible through contact with Jesus.',
         },
         {
           kind: 'commentary',
@@ -135,7 +135,7 @@ export const MARK_5: RichChapterContent = {
           kind: 'commentary',
           id: 'mark5-jairus-daughter',
           html:
-            'While Jesus is still speaking to the woman, messengers arrive from Jairus&apos; house: the child is dead. Why trouble the teacher further? But Jesus tells Jairus: "Be not afraid, only believe." They arrive at the house to find mourning and weeping. Jesus enters with Peter, James, and John. He takes the child by the hand and speaks words in Aramaic: "Talitha cumi"—Little girl, arise. The child immediately rises and walks. She is restored not only to life but to health and motion.',
+            'While Jesus is still speaking to the woman, messengers arrive from Jairus&apos; house: the child is dead. Why trouble the teacher further? But Jesus tells Jairus: "Be not afraid, only believe." They arrive at the house to find mourning and weeping. Jesus enters with Peter, James, and John. He takes the child by the hand and speaks words in Aramaic: "Talitha cumi"[res:intertextual-death-rising]—Little girl, arise. The child immediately rises and walks. She is restored not only to life but to health and motion.',
         },
         {
           kind: 'christ',
@@ -163,6 +163,33 @@ export const MARK_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Mark 5 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bible-odyssey-demon-possession',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Demon Possession & Exorcism',
+      url: 'https://www.bibleodyssey.org/dictionary/demons/',
+      description: 'Open-access entry on demonic forces in first-century Jewish and Christian understanding and their relationship to illness and bondage.',
+    },
+    {
+      id: 'sefaria-hemorrhage-purity',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 15: Laws of Impurity',
+      url: 'https://www.sefaria.org/Leviticus.15.25-28?lang=bi',
+      description: 'Torah texts defining the twelve-year hemorrhage as rendering the woman ritually unclean and separated from community.',
+    },
+    {
+      id: 'intertextual-death-rising',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Ezekiel 37 ↔ Mark 5:41 (Resurrection)',
+      url: 'https://intertextual.bible/text/ezekiel-37/mark-5.41',
+      description: 'Intertextual link connecting Jesus&apos; raising of Jairus&apos; daughter to OT resurrection passages.',
+    },
+  ],
 
   hasHebrew: false,
 };

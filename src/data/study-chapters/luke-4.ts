@@ -51,7 +51,7 @@ export const LUKE_4: RichChapterContent = {
           kind: 'commentary',
           id: 'luke4-bread',
           html:
-            'The devil&apos;s first temptation is immediate and personal: turn the stone to bread. Jesus is starving. The power is His—He could do it. But Jesus refuses. He quotes from Deuteronomy: "Man shall not live by bread alone, but by every word of God." The temptation is not merely to ease hunger. It is to use divine power for personal convenience, to prove His identity, to choose comfort over obedience.',
+            'The devil&apos;s first temptation is immediate and personal: turn the stone to bread. Jesus is starving. The power is His—He could do it. But Jesus refuses. He quotes from Deuteronomy[res:sefaria-deuteronomy-word]: "Man shall not live by bread alone, but by every word of God." The temptation is not merely to ease hunger. It is to use divine power for personal convenience, to prove His identity, to choose comfort over obedience.',
         },
         {
           kind: 'greek',
@@ -114,7 +114,7 @@ export const LUKE_4: RichChapterContent = {
           kind: 'commentary',
           id: 'luke4-isaiah',
           html:
-            'The scroll of Isaiah is given to Him. He unrolls it and reads: "The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted, to preach deliverance to the captives, and recovering of sight to the blind, to set at liberty them that are bruised." This is the manifesto of Jesus&apos; ministry. Good news to the poor. Healing to the broken. Freedom to the captive. Sight to the blind.',
+            'The scroll of Isaiah is given to Him. He unrolls it and reads: "The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor; he hath sent me to heal the brokenhearted, to preach deliverance to the captives, and recovering of sight to the blind, to set at liberty them that are bruised."[res:intertextual-isaiah-61] This is the manifesto of Jesus&apos; ministry. Good news to the poor. Healing to the broken. Freedom to the captive. Sight to the blind.',
         },
         {
           kind: 'greek',
@@ -172,7 +172,7 @@ export const LUKE_4: RichChapterContent = {
           kind: 'commentary',
           id: 'luke4-healing',
           html:
-            'After the synagogue, Jesus enters Simon&apos;s house. Simon&apos;s mother-in-law is burning with fever. Jesus rebukes the fever as He rebuked the demon. Immediately, she is healed. She arises and serves them. At sunset, the people bring to Him all who are sick. Jesus lays His hands on each one and heals them. The authority demonstrated over demons extends to sickness. The power that drove out unclean spirits brings wholeness to bodies.',
+            'After the synagogue, Jesus enters Simon&apos;s house. Simon&apos;s mother-in-law is burning with fever. Jesus rebukes the fever as He rebuked the demon. Immediately, she is healed. She arises and serves them. At sunset, the people bring to Him all who are sick[res:bible-odyssey-miracle]. Jesus lays His hands on each one and heals them. The authority demonstrated over demons extends to sickness. The power that drove out unclean spirits brings wholeness to bodies.',
         },
         {
           kind: 'greek',
@@ -204,6 +204,33 @@ export const LUKE_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Luke 4 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-deuteronomy-word',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Living by God&apos;s Word (Deuteronomy 8:3)',
+      url: 'https://www.sefaria.org/Deuteronomy.8.3?lang=bi',
+      description: 'Torah foundation for Jesus&apos; response to temptation, showing humanity&apos;s dependence on God&apos;s word rather than material sustenance.',
+    },
+    {
+      id: 'intertextual-isaiah-61',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 61 Fulfillment (OT ↔ NT)',
+      url: 'https://intertextual.bible/text/isaiah-61/luke-4.18',
+      description: 'Intertextual links showing how Jesus fulfilled Isaiah&apos;s prophecy of the anointed servant sent to bring good news and liberation.',
+    },
+    {
+      id: 'bible-odyssey-miracle',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Miracle & Healing in the New Testament',
+      url: 'https://www.bibleodyssey.org/dictionary/miracle/',
+      description: 'Open-access entry on Jesus&apos; miracles as signs of God&apos;s kingdom breaking into the world, demonstrating authority over sickness and demons.',
+    },
+  ],
 
   hasHebrew: false,
 };

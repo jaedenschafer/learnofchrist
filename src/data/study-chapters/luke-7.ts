@@ -45,7 +45,7 @@ export const LUKE_7: RichChapterContent = {
           kind: 'commentary',
           id: 'luke7-centurion',
           html:
-            'The centurion understands authority. He commands soldiers. He knows that a word carries power. When Jesus commands, the heavens and earth obey. The centurion asks not for Jesus to come to his house, but merely to speak the word. This understanding—that distance does not limit the word of the one who speaks with authority—is faith. Jesus marvels. He has found greater faith in a pagan soldier than in all Israel.',
+            'The centurion understands authority. He commands soldiers. He knows that a word carries power[res:intertextual-authority-word]. When Jesus commands, the heavens and earth obey. The centurion asks not for Jesus to come to his house, but merely to speak the word. This understanding—that distance does not limit the word of the one who speaks with authority—is faith. Jesus marvels. He has found greater faith in a pagan soldier than in all Israel.',
         },
         {
           kind: 'greek',
@@ -60,7 +60,7 @@ export const LUKE_7: RichChapterContent = {
           kind: 'commentary',
           id: 'luke7-nain',
           html:
-            'Jesus enters the city of Nain. A procession is coming out—a young man being carried to his grave. His mother is a widow. Her only son is dead. The future is closed. There is only grief. Jesus meets her. "Weep not." Then He does something that shocks everyone: He touches the coffin. In Jewish law, touching the dead makes one unclean. But Jesus reaches beyond the law into compassion. The young man sits up. "And he began to speak." Jesus gives him back to his mother.',
+            'Jesus enters the city of Nain. A procession is coming out—a young man being carried to his grave. His mother is a widow. Her only son is dead. The future is closed. There is only grief. Jesus meets her. "Weep not." Then He does something that shocks everyone: He touches the coffin[res:sefaria-purity-dead]. In Jewish law, touching the dead makes one unclean. But Jesus reaches beyond the law into compassion. The young man sits up. "And he began to speak." Jesus gives him back to his mother.',
         },
         {
           kind: 'commentary',
@@ -129,7 +129,7 @@ export const LUKE_7: RichChapterContent = {
           kind: 'commentary',
           id: 'luke7-forgiveness',
           html:
-            'Jesus turns to the woman. "Her sins, which are many, are forgiven; for she loved much." Her love is the evidence and expression of her faith. She has not earned forgiveness by her acts. She has already been forgiven. Her acts of love are the response to that forgiveness. "Thy faith hath saved thee; go in peace." She goes restored, whole, forgiven, at peace.',
+            'Jesus turns to the woman. "Her sins, which are many, are forgiven; for she loved much."[res:bible-odyssey-forgiveness] Her love is the evidence and expression of her faith. She has not earned forgiveness by her acts. She has already been forgiven. Her acts of love are the response to that forgiveness. "Thy faith hath saved thee; go in peace." She goes restored, whole, forgiven, at peace.',
         },
         {
           kind: 'christ',
@@ -152,6 +152,33 @@ export const LUKE_7: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Luke 7 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'intertextual-authority-word',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Authority of God&apos;s Word (OT ↔ NT)',
+      url: 'https://intertextual.bible/text/isaiah-55/luke-7.7',
+      description: 'Intertextual links showing how Jesus&apos; word carries divine authority, fulfilling Old Testament prophecies about God&apos;s word accomplishing its purpose.',
+    },
+    {
+      id: 'sefaria-purity-dead',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Purity Laws & Contact with Death (Numbers 19)',
+      url: 'https://www.sefaria.org/Numbers.19?lang=bi',
+      description: 'Torah foundation for Jewish purity laws, contextualizing how Jesus&apos; touch transcends ritual boundaries to show compassion and divine healing.',
+    },
+    {
+      id: 'bible-odyssey-forgiveness',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Forgiveness & Salvation',
+      url: 'https://www.bibleodyssey.org/dictionary/forgiveness/',
+      description: 'Open-access entry on biblical forgiveness, showing how love flows from being forgiven much, demonstrated in the sinful woman&apos;s response.',
+    },
+  ],
 
   hasHebrew: false,
 };

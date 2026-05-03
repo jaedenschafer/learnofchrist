@@ -68,19 +68,19 @@ export const MARK_15: RichChapterContent = {
           kind: 'commentary',
           id: 'mark15-forsaken',
           html:
-            'At the ninth hour (3 PM), Jesus cries out: "Eloi, Eloi, lama sabachthani?" (My God, my God, why hast thou forsaken me?). This is the opening line of Psalm 22, a psalm of suffering and vindication. Jesus experiences abandonment—not merely physical pain but spiritual desolation. He is separated from the Father. This is the meaning of His death: He bears the weight of human sin, the judgment that sin deserves, the alienation from God that sin produces.',
+            'At the ninth hour (3 PM), Jesus cries out: "Eloi, Eloi, lama sabachthani?"[res:intertextual-psalm22] (My God, my God, why hast thou forsaken me?). This is the opening line of Psalm 22, a psalm of suffering and vindication. Jesus experiences abandonment—not merely physical pain but spiritual desolation. He is separated from the Father. This is the meaning of His death: He bears the weight of human sin, the judgment that sin deserves, the alienation from God that sin produces.',
         },
         {
           kind: 'commentary',
           id: 'mark15-veil-torn',
           html:
-            'As Jesus dies, the veil of the temple is torn in two from top to bottom. The veil separated the holy place from the most holy place, where God dwelled. No one could approach except the high priest once a year. Now the veil is torn. Access to God is opened. Through the death of Jesus, the barrier between God and humanity is removed. All who believe can now enter into God&apos;s presence.',
+            'As Jesus dies, the veil of the temple is torn in two from top to bottom[res:sefaria-temple-veil]. The veil separated the holy place from the most holy place, where God dwelled. No one could approach except the high priest once a year. Now the veil is torn. Access to God is opened. Through the death of Jesus, the barrier between God and humanity is removed. All who believe can now enter into God&apos;s presence.',
         },
         {
           kind: 'commentary',
           id: 'mark15-centurion',
           html:
-            'A centurion—a Roman soldier, an outsider to the covenant—witnesses Jesus&apos; death and declares: "Truly this man was the Son of God." He does not use the title hesitantly. He proclaims it. The confession comes from one who has no stake in Jerusalem&apos;s politics, no interest in defending Jesus&apos; disciples. He sees the manner of Jesus&apos; death—the cry, the giving up of the spirit—and recognizes divinity.',
+            'A centurion—a Roman soldier, an outsider to the covenant—witnesses Jesus&apos; death and declares: "Truly this man was the Son of God."[res:bible-odyssey-divine-sonship] He does not use the title hesitantly. He proclaims it. The confession comes from one who has no stake in Jerusalem&apos;s politics, no interest in defending Jesus&apos; disciples. He sees the manner of Jesus&apos; death—the cry, the giving up of the spirit—and recognizes divinity.',
         },
         {
           kind: 'christ',
@@ -171,6 +171,33 @@ export const MARK_15: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Mark 15 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'intertextual-psalm22',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 22 & the Crucifixion',
+      url: 'https://intertextual.bible/text/psalms-22/mark-15.34',
+      description: 'Intertextual links showing how Jesus fulfilled Psalm 22, a psalm of suffering that describes the details of the crucifixion.',
+    },
+    {
+      id: 'sefaria-temple-veil',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Temple Veil (Exodus 26)',
+      url: 'https://www.sefaria.org/Exodus.26.31-35?lang=bi',
+      description: 'Torah description of the veil in the tabernacle and temple, establishing its role as the barrier between human and divine, torn by Jesus\' death.',
+    },
+    {
+      id: 'bible-odyssey-divine-sonship',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Son of God Christology',
+      url: 'https://www.bibleodyssey.org/dictionary/son-of-god/',
+      description: 'Open-access entry on Jesus\' identity as God&apos;s Son, examined through the lens of the centurion&apos;s confession at the cross.',
+    },
+  ],
 
   hasHebrew: false,
 };

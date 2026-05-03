@@ -75,7 +75,7 @@ export const MARK_16: RichChapterContent = {
           kind: 'commentary',
           id: 'mark16-mary-magdalene',
           html:
-            'The risen Jesus appears first to Mary Magdalene, "out of whom he had cast seven devils." Her healing is complete. She is the first witness to the Resurrection. The gospel privileges women as the first witnesses—those whom Jewish law might not have accepted as witnesses in a court. Yet it is to them that the Risen One first appears. God&apos;s logic overturns the world&apos;s.',
+            'The risen Jesus appears first to Mary Magdalene, "out of whom he had cast seven devils."[res:bible-odyssey-resurrection-witnesses] Her healing is complete. She is the first witness to the Resurrection. The gospel privileges women as the first witnesses—those whom Jewish law might not have accepted as witnesses in a court. Yet it is to them that the Risen One first appears. God&apos;s logic overturns the world&apos;s.',
         },
         {
           kind: 'christ',
@@ -125,7 +125,7 @@ export const MARK_16: RichChapterContent = {
           kind: 'commentary',
           id: 'mark16-great-commission',
           html:
-            'Jesus gives the Great Commission: "Go ye into all the world, and preach the gospel to every creature." This is universal. Not just to Jews, not just to the nearby, but to every creature in the whole world. The gospel is not a local affair. It is cosmic in scope. The Risen Christ intends for His message to reach all humanity.',
+            'Jesus gives the Great Commission: "Go ye into all the world, and preach the gospel to every creature."[res:intertextual-great-commission] This is universal. Not just to Jews, not just to the nearby, but to every creature in the whole world. The gospel is not a local affair. It is cosmic in scope. The Risen Christ intends for His message to reach all humanity.',
         },
         {
           kind: 'greek',
@@ -152,7 +152,7 @@ export const MARK_16: RichChapterContent = {
           kind: 'commentary',
           id: 'mark16-ascension',
           html:
-            'After speaking these words, Jesus is received up into heaven and sits on the right hand of God. The incarnation ends. The exaltation begins. The risen and ascended Christ is now seated at God&apos;s right hand, the position of power and authority. From there He continues to rule and to work through His church.',
+            'After speaking these words, Jesus is received up into heaven and sits on the right hand of God.[res:sefaria-exaltation-psalms] The incarnation ends. The exaltation begins. The risen and ascended Christ is now seated at God&apos;s right hand, the position of power and authority. From there He continues to rule and to work through His church.',
         },
         {
           kind: 'commentary',
@@ -186,6 +186,33 @@ export const MARK_16: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Mark 16 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bible-odyssey-resurrection-witnesses',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Resurrection Witnesses & Women',
+      url: 'https://www.bibleodyssey.org/dictionary/resurrection/',
+      description: 'Open-access entry on the biblical accounts of the Resurrection and the privileged role of women as the first witnesses.',
+    },
+    {
+      id: 'intertextual-great-commission',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Great Commission & All Nations',
+      url: 'https://intertextual.bible/text/genesis-12/mark-16.15',
+      description: 'Intertextual links showing how Jesus&apos; universal commission fulfills the promise to Abraham that all nations would be blessed.',
+    },
+    {
+      id: 'sefaria-exaltation-psalms',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Right Hand of God (Psalm 110)',
+      url: 'https://www.sefaria.org/Psalms.110.1?lang=bi',
+      description: 'Psalm declaring the exaltation of the Messiah to sit at God&apos;s right hand, fulfilled in the Ascension and ongoing reign of Christ.',
+    },
+  ],
 
   hasHebrew: false,
 };

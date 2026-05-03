@@ -53,7 +53,7 @@ export const MARK_9: RichChapterContent = {
           kind: 'commentary',
           id: 'mark9-moses-elijah',
           html:
-            'Moses and Elijah appear—the law and the prophets, the two pillars of the Hebrew Scripture. They speak with Jesus, presumably about His coming departure (His exodus, as Luke says). The law and the prophets testify to the centrality of Jesus. The old covenant finds its fulfillment in Him.',
+            'Moses and Elijah appear—the law and the prophets[res:intertextual-moses-elijah], the two pillars of the Hebrew Scripture. They speak with Jesus, presumably about His coming departure (His exodus, as Luke says). The law and the prophets testify to the centrality of Jesus. The old covenant finds its fulfillment in Him.',
         },
         {
           kind: 'greek',
@@ -68,7 +68,7 @@ export const MARK_9: RichChapterContent = {
           kind: 'commentary',
           id: 'mark9-voice-cloud',
           html:
-            'A cloud overshadows them, reminiscent of the pillar of cloud that guided Israel in the wilderness and of the cloud that descended on the tabernacle. Out of the cloud comes a voice: "This is my beloved Son: hear him." This is God&apos;s affirmation not of Peter&apos;s desire to build tabernacles but of Jesus as the sole focus of faith and obedience. The law and the prophets give way. Jesus alone must be heard.',
+            'A cloud overshadows them, reminiscent of the pillar of cloud that guided Israel in the wilderness and of the cloud that descended on the tabernacle[res:sefaria-tabernacle-cloud]. Out of the cloud comes a voice: "This is my beloved Son: hear him." This is God&apos;s affirmation not of Peter&apos;s desire to build tabernacles but of Jesus as the sole focus of faith and obedience. The law and the prophets give way. Jesus alone must be heard.',
         },
         {
           kind: 'commentary',
@@ -139,7 +139,7 @@ export const MARK_9: RichChapterContent = {
           kind: 'commentary',
           id: 'mark9-servant-child',
           html:
-            'Jesus sits down and calls the Twelve. He teaches them the paradox of greatness: "If any man desire to be first, the same shall be last of all, and servant of all." He takes a child in His arms. In that culture, children have no status, no power, no claim to honor. Jesus makes the child the model of the kingdom. "Whosoever shall receive one of such children in my name, receiveth me."',
+            'Jesus sits down and calls the Twelve. He teaches them the paradox of greatness: "If any man desire to be first, the same shall be last of all, and servant of all." He takes a child in His arms. In that culture, children have no status, no power, no claim to honor[res:bible-odyssey-childhood-ancient]. Jesus makes the child the model of the kingdom. "Whosoever shall receive one of such children in my name, receiveth me."',
         },
         {
           kind: 'christ',
@@ -167,6 +167,33 @@ export const MARK_9: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Mark 9 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'intertextual-moses-elijah',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Moses & Elijah in Mark',
+      url: 'https://intertextual.bible/text/deuteronomy-18/mark-9.4',
+      description: 'Intertextual links showing how the law (Moses) and prophecy (Elijah) are fulfilled and transformed in Jesus.',
+    },
+    {
+      id: 'sefaria-tabernacle-cloud',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 24: Cloud & Divine Presence',
+      url: 'https://www.sefaria.org/Exodus.24.15-18?lang=bi',
+      description: 'Torah account of the cloud of God&apos;s presence at Sinai, illuminating the symbolism of the cloud at the transfiguration.',
+    },
+    {
+      id: 'bible-odyssey-childhood-ancient',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Childhood in the First Century',
+      url: 'https://www.bibleodyssey.org/dictionary/children-childhood/',
+      description: 'Open-access entry on the social position of children in ancient Mediterranean culture, showing why Jesus&apos; elevation of the child was radical.',
+    },
+  ],
 
   hasHebrew: false,
 };

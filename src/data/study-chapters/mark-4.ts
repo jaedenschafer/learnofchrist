@@ -54,7 +54,7 @@ export const MARK_4: RichChapterContent = {
           kind: 'commentary',
           id: 'mark4-four-soils',
           html:
-            'The parable of the sower is about receptivity. A sower scatters seed without discrimination. Some falls on hard ground and is taken by birds. Some falls on rocky soil and springs up quickly but withers because there is no depth. Some falls among thorns and is choked. Only some falls on good soil and bears fruit—thirty, sixty, a hundredfold. The parable is asking each listener: What kind of soil is your heart?',
+            'The parable of the sower is about receptivity[res:sefaria-torah-seeds]. A sower scatters seed without discrimination. Some falls on hard ground and is taken by birds. Some falls on rocky soil and springs up quickly but withers because there is no depth. Some falls among thorns and is choked. Only some falls on good soil and bears fruit—thirty, sixty, a hundredfold. The parable is asking each listener: What kind of soil is your heart?',
         },
         {
           kind: 'greek',
@@ -182,7 +182,7 @@ export const MARK_4: RichChapterContent = {
           kind: 'commentary',
           id: 'mark4-peace-be-still',
           html:
-            'Jesus rises and rebukes the wind and says to the sea: "Peace, be still." The wind ceases. The sea becomes calm. This is not coincidence or luck. The disciples recognize this as an exercise of power—power that belongs to God alone. In the Old Testament, it is God who commands the seas, who sets their boundaries, who rides on the wind. Jesus speaks as one who has authority over creation itself.',
+            'Jesus rises and rebukes the wind and says to the sea: "Peace, be still."[res:sefaria-creation-psalms] The wind ceases. The sea becomes calm. This is not coincidence or luck. The disciples recognize this as an exercise of power—power that belongs to God alone. In the Old Testament, it is God who commands the seas, who sets their boundaries, who rides on the wind. Jesus speaks as one who has authority over creation itself.',
         },
         {
           kind: 'greek',
@@ -197,7 +197,7 @@ export const MARK_4: RichChapterContent = {
           kind: 'commentary',
           id: 'mark4-faith',
           html:
-            'Jesus asks: "How is it that ye have no faith?" This is not reproach for cowardice. It is a call to a deeper trust. To have faith is to believe that even when Jesus seems absent or asleep, even when the waters rise, He is present and in control. Faith is not the absence of fear, but the conviction that God is more powerful than the storm.',
+            'Jesus asks: "How is it that ye have no faith?"[res:intertextual-psalm-35] This is not reproach for cowardice. It is a call to a deeper trust. To have faith is to believe that even when Jesus seems absent or asleep, even when the waters rise, He is present and in control. Faith is not the absence of fear, but the conviction that God is more powerful than the storm.',
         },
         {
           kind: 'christ',
@@ -225,6 +225,33 @@ export const MARK_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Mark 4 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-torah-seeds',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 11: Agricultural Parables',
+      url: 'https://www.sefaria.org/Deuteronomy.11.10-17?lang=bi',
+      description: 'Torah passage on receiving the word and bearing fruit, establishing the agricultural metaphor Jesus uses.',
+    },
+    {
+      id: 'sefaria-creation-psalms',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 89: God Commands the Sea',
+      url: 'https://www.sefaria.org/Psalms.89.8-10?lang=bi',
+      description: 'Psalm texts asserting that God alone commands the waves and wind, framing Jesus&apos; dominion over creation.',
+    },
+    {
+      id: 'intertextual-psalm-35',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 35:3 ↔ Mark 4:40 (Faith & Deliverance)',
+      url: 'https://intertextual.bible/text/psalms-35.3/mark-4.40',
+      description: 'Intertextual link showing how Mark echoes psalms of trust and divine protection in the storm narrative.',
+    },
+  ],
 
   hasHebrew: false,
 };

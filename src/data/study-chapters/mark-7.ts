@@ -47,13 +47,13 @@ export const MARK_7: RichChapterContent = {
           kind: 'commentary',
           id: 'mark7-tradition',
           html:
-            'The tradition of the elders is not the Torah itself but the accumulated interpretation and application of the Torah developed over centuries. It has become as binding as the law itself. The Pharisees ask Jesus why His disciples break the tradition. Jesus responds by distinguishing between the commandment of God and the tradition of men. The tradition may be reverend, but it is not divine. When tradition contradicts God&apos;s actual command, Jesus chooses the command.',
+            'The tradition of the elders[res:sefaria-pharisaic-tradition] is not the Torah itself but the accumulated interpretation and application of the Torah developed over centuries. It has become as binding as the law itself. The Pharisees ask Jesus why His disciples break the tradition. Jesus responds by distinguishing between the commandment of God and the tradition of men. The tradition may be reverend, but it is not divine. When tradition contradicts God&apos;s actual command, Jesus chooses the command.',
         },
         {
           kind: 'commentary',
           id: 'mark7-heart-defiles',
           html:
-            'Jesus teaches a radical truth: nothing from without a man can defile him. It is not eating with unwashed hands, not certain foods, not external ritual that makes a person unclean. Defilement comes from within—from the heart. Mark lists the evils that proceed from within: "evil thoughts, adulteries, fornications, murders, thefts, covetousness, wickedness, deceit, lasciviousness, an evil eye, blasphemy, pride, foolishness." These are the things that truly defile.',
+            'Jesus teaches a radical truth: nothing from without a man can defile him[res:perseus-defiled]. It is not eating with unwashed hands, not certain foods, not external ritual that makes a person unclean. Defilement comes from within—from the heart. Mark lists the evils that proceed from within: "evil thoughts, adulteries, fornications, murders, thefts, covetousness, wickedness, deceit, lasciviousness, an evil eye, blasphemy, pride, foolishness." These are the things that truly defile.',
         },
         {
           kind: 'greek',
@@ -68,7 +68,7 @@ export const MARK_7: RichChapterContent = {
           kind: 'commentary',
           id: 'mark7-interpreter',
           html:
-            'This teaching has profound implications. It means that righteousness is not a matter of external observance, no matter how scrupulous. It is a matter of the heart. One can wash hands perfectly and still be full of envy and malice. One can keep every law and still be far from God if the heart is not right.',
+            'This teaching has profound implications[res:bible-odyssey-gentiles-covenant]. It means that righteousness is not a matter of external observance, no matter how scrupulous. It is a matter of the heart. One can wash hands perfectly and still be full of envy and malice. One can keep every law and still be far from God if the heart is not right.',
         },
         {
           kind: 'christ',
@@ -216,6 +216,33 @@ export const MARK_7: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Mark 7 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-pharisaic-tradition',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus & Pharisaic Interpretation',
+      url: 'https://www.sefaria.org/Leviticus.11-15?lang=bi',
+      description: 'Torah texts on purity law that frame the Pharisaic tradition Jesus confronts.',
+    },
+    {
+      id: 'bible-odyssey-gentiles-covenant',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Gentiles & Covenant Community',
+      url: 'https://www.bibleodyssey.org/dictionary/gentiles/',
+      description: 'Open-access entry on Gentile status in first-century Judaism and the significance of Jesus healing a Gentile woman.',
+    },
+    {
+      id: 'perseus-defiled',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Κοινός (koinos) — Common/Unclean',
+      url: 'https://scaife.perseus.org/lexica/lsj/κοινός/',
+      description: 'Greek lexicon entry for the term Jesus redefines regarding ritual purity and defilement.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -54,7 +54,7 @@ export const MARK_11: RichChapterContent = {
           kind: 'commentary',
           id: 'mark11-temple-cleansing',
           html:
-            'Jesus enters the temple and overturns the tables of the money changers. This is not a minor incident. It is an act of prophetic judgment and a reclamation of the temple&apos;s true purpose. The money changers are not evil men. They perform a necessary service. But they have turned the temple into a market. Jesus recalls the words of Isaiah: "My house shall be called of all nations the house of prayer." The temple is meant to be a place of prayer, of communion with God, open to all nations.',
+            'Jesus enters the temple and overturns the tables of the money changers. This is not a minor incident. It is an act of prophetic judgment and a reclamation of the temple&apos;s true purpose[res:intertextual-temple-cleansing]. The money changers are not evil men. They perform a necessary service. But they have turned the temple into a market. Jesus recalls the words of Isaiah: "My house shall be called of all nations the house of prayer." The temple is meant to be a place of prayer, of communion with God, open to all nations.',
         },
         {
           kind: 'greek',
@@ -69,7 +69,7 @@ export const MARK_11: RichChapterContent = {
           kind: 'commentary',
           id: 'mark11-fig-tree',
           html:
-            'Jesus curses a fig tree for bearing no fruit. Later, the disciples see it has withered from the roots. Jesus uses this to teach about faith: "Have faith in God." He teaches that faith can move mountains, that whatever is asked in prayer, believing, will be given. The fig tree becomes a sign—of judgment on fruitlessness, of the power of faith, of the authority of Jesus&apos; word.',
+            'Jesus curses a fig tree for bearing no fruit. Later, the disciples see it has withered from the roots. Jesus uses this to teach about faith: "Have faith in God." He teaches that faith can move mountains, that whatever is asked in prayer, believing, will be given[res:bible-odyssey-faith-god]. The fig tree becomes a sign—of judgment on fruitlessness, of the power of faith, of the authority of Jesus&apos; word.',
         },
         {
           kind: 'christ',
@@ -117,7 +117,7 @@ export const MARK_11: RichChapterContent = {
           kind: 'commentary',
           id: 'mark11-answer-unable',
           html:
-            'The authorities cannot answer. To say John was from heaven commits them to acknowledging Jesus. To say John was of men contradicts the people&apos;s conviction. So they say: "We cannot tell." Jesus responds: "Neither do I tell you by what authority I do these things." But the answer is implicit: His authority is from God, the same God who sent John. It is a higher authority than the authorities they represent.',
+            'The authorities cannot answer. To say John was from heaven commits them to acknowledging Jesus. To say John was of men contradicts the people&apos;s conviction. So they say: "We cannot tell." Jesus responds: "Neither do I tell you by what authority I do these things."[res:sefaria-john-baptism] But the answer is implicit: His authority is from God, the same God who sent John. It is a higher authority than the authorities they represent.',
         },
         {
           kind: 'greek',
@@ -147,6 +147,33 @@ export const MARK_11: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Mark 11 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'intertextual-temple-cleansing',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Temple Cleansing (Isaiah 56 ↔ Mark 11)',
+      url: 'https://intertextual.bible/text/isaiah-56/mark-11.17',
+      description: 'Intertextual links showing how Jesus fulfills the prophetic vision of the temple as a house of prayer for all nations.',
+    },
+    {
+      id: 'bible-odyssey-faith-god',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Faith in God',
+      url: 'https://www.bibleodyssey.org/dictionary/faith/',
+      description: 'Open-access entry exploring the nature of faith and trust in God, central to Jesus&apos; teaching on mountain-moving prayer.',
+    },
+    {
+      id: 'sefaria-john-baptism',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'John&apos;s Baptism & Repentance',
+      url: 'https://www.sefaria.org/Mishnah/Yoma/3.3?lang=bi',
+      description: 'Jewish sources on ritual purification and repentance, contextualizing John&apos;s baptism as a renewal movement within Judaism.',
+    },
+  ],
 
   hasHebrew: false,
 };

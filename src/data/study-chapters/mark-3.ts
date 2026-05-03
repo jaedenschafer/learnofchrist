@@ -45,7 +45,7 @@ export const MARK_3: RichChapterContent = {
           kind: 'commentary',
           id: 'mark3-withered-hand',
           html:
-            'A man with a withered hand enters the synagogue. In the ancient world, to lose the use of one&apos;s hand was to lose one&apos;s livelihood, one&apos;s identity, one&apos;s place in society. The Pharisees watch to see if Jesus will heal on the Sabbath. They know the law forbids work on the Sabbath. They have a trap set. But Jesus refuses to be entrapped by a false choice. He turns their question around: what is the Sabbath for? Is it for the preservation of life or the destruction of it?',
+            'A man with a withered hand enters the synagogue[res:israel-museum-galilean]. In the ancient world, to lose the use of one&apos;s hand was to lose one&apos;s livelihood, one&apos;s identity, one&apos;s place in society. The Pharisees watch to see if Jesus will heal on the Sabbath. They know the law forbids work on the Sabbath. They have a trap set. But Jesus refuses to be entrapped by a false choice. He turns their question around: what is the Sabbath for? Is it for the preservation of life or the destruction of it?',
         },
         {
           kind: 'commentary',
@@ -111,7 +111,7 @@ export const MARK_3: RichChapterContent = {
           kind: 'commentary',
           id: 'mark3-twelve-called',
           html:
-            'Jesus goes into the mountain and calls twelve disciples. These are not the most learned, the most powerful, the most connected. They are ordinary men—fishermen, a tax collector, zealots. They are called to "be with him" and to be sent out to preach and cast out demons. The purpose of their calling is both relational (to be with Jesus) and missional (to proclaim the kingdom).',
+            'Jesus goes into the mountain and calls twelve disciples[res:bible-odyssey-apostles]. These are not the most learned, the most powerful, the most connected. They are ordinary men—fishermen, a tax collector, zealots. They are called to "be with him" and to be sent out to preach and cast out demons. The purpose of their calling is both relational (to be with Jesus) and missional (to proclaim the kingdom).',
         },
         {
           kind: 'commentary',
@@ -126,7 +126,7 @@ export const MARK_3: RichChapterContent = {
           script: 'βλασφημία',
           translit: '<strong>Blasphemia</strong> · blasphemy; reviling; speaking against God',
           description:
-            'Blasphemy is speech that reviles God, that attributes God&apos;s work to evil. The unforgivable blasphemy is against the Holy Spirit—a hardened refusal to acknowledge God&apos;s work as divine. It is not a sin of weakness but of hardened rebellion.',
+            'Blasphemy[res:perseus-blasphemia] is speech that reviles God, that attributes God&apos;s work to evil. The unforgivable blasphemy is against the Holy Spirit—a hardened refusal to acknowledge God&apos;s work as divine. It is not a sin of weakness but of hardened rebellion.',
         },
         {
           kind: 'commentary',
@@ -217,6 +217,33 @@ export const MARK_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Mark 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'israel-museum-galilean',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Galilean Life & Synagogues',
+      url: 'https://www.imj.org.il/en/collections/search?q=galilee+synagogue',
+      description: 'Museum artifacts from first-century Galilean synagogues and domestic life, grounding the setting of Mark&apos;s miracles.',
+    },
+    {
+      id: 'bible-odyssey-apostles',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Apostles & Disciples',
+      url: 'https://www.bibleodyssey.org/dictionary/apostles/',
+      description: 'Open-access entry on the calling and role of the Twelve as witnesses and leaders in the early Jesus movement.',
+    },
+    {
+      id: 'perseus-blasphemia',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'βλασφημία (blasphemia)',
+      url: 'https://scaife.perseus.org/lexica/lsj/βλασφημία/',
+      description: 'Greek lexicon entry on blasphemy as reviling speech that attributes divine work to evil sources.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -55,7 +55,7 @@ export const MARK_10: RichChapterContent = {
           kind: 'commentary',
           id: 'mark10-wealth-barrier',
           html:
-            'Jesus says to His disciples: "Children, how hard is it for them that trust in riches to enter into the kingdom of God!" Riches are not evil in themselves, but they can become a barrier to faith. They can become the god one trusts in. They can become the substitute for trust in God. The man loved his wealth more than he loved Jesus. So he could not follow.',
+            'Jesus says to His disciples: "Children, how hard is it for them that trust in riches to enter into the kingdom of God!" Riches are not evil in themselves, but they can become a barrier to faith[res:bible-odyssey-riches-kingdom]. They can become the god one trusts in. They can become the substitute for trust in God. The man loved his wealth more than he loved Jesus. So he could not follow.',
         },
         {
           kind: 'greek',
@@ -140,13 +140,13 @@ export const MARK_10: RichChapterContent = {
           kind: 'commentary',
           id: 'mark10-minister-ransom',
           html:
-            'Jesus teaches the Twelve: "Whosoever will be great among you, shall be your minister; and whosoever of you will be the chiefest, shall be servant of all." And then He states the principle: "For even the Son of man came not to be ministered unto, but to minister, and to give his life a ransom for many." The Son of Man, the Messiah, the King of Kings—His vocation is service. His death is the ransom price that liberates humanity from sin.',
+            'Jesus teaches the Twelve: "Whosoever will be great among you, shall be your minister; and whosoever of you will be the chiefest, shall be servant of all." And then He states the principle: "For even the Son of man came not to be ministered unto, but to minister, and to give his life a ransom for many."[res:intertextual-ransom-servant] The Son of Man, the Messiah, the King of Kings—His vocation is service. His death is the ransom price that liberates humanity from sin.',
         },
         {
           kind: 'commentary',
           id: 'mark10-bartimaeus',
           html:
-            'At Jericho, a blind beggar named Bartimaeus cries out: "Jesus, thou Son of David, have mercy on me." The disciples rebuke him, but Jesus stops and calls him. "What wilt thou that I should do unto thee?" Bartimaeus says: "Lord, that I might receive my sight." Jesus says: "Thy faith hath made thee whole: go thy way; thy faith hath saved thee." And immediately he receives his sight and follows Jesus.',
+            'At Jericho, a blind beggar named Bartimaeus cries out: "Jesus, thou Son of David, have mercy on me." The disciples rebuke him, but Jesus stops and calls him. "What wilt thou that I should do unto thee?" Bartimaeus says: "Lord, that I might receive my sight." Jesus says: "Thy faith hath made thee whole: go thy way; thy faith hath saved thee." And immediately he receives his sight and follows Jesus[res:sefaria-blindness-healing].',
         },
         {
           kind: 'christ',
@@ -174,6 +174,33 @@ export const MARK_10: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Mark 10 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bible-odyssey-riches-kingdom',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Wealth in the Kingdom of God',
+      url: 'https://www.bibleodyssey.org/dictionary/wealth-riches/',
+      description: 'Open-access entry exploring how Jesus redefines wealth and possessions in relation to the kingdom, contrasting worldly economics with divine values.',
+    },
+    {
+      id: 'intertextual-ransom-servant',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Ransom & Servant (Isaiah 52-53 ↔ Mark 10)',
+      url: 'https://intertextual.bible/text/isaiah-52/mark-10.45',
+      description: 'Intertextual links showing how Jesus understood His death as the fulfillment of the Suffering Servant passage, giving His life as a ransom.',
+    },
+    {
+      id: 'sefaria-blindness-healing',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Blindness as Spiritual Condition',
+      url: 'https://www.sefaria.org/Deuteronomy.28.28-29?lang=bi',
+      description: 'Torah and Jewish wisdom texts using blindness metaphorically for spiritual condition, illuminating Jesus&apos; healing of Bartimaeus&apos; spiritual sight.',
+    },
+  ],
 
   hasHebrew: false,
 };

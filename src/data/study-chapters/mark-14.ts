@@ -54,7 +54,7 @@ export const MARK_14: RichChapterContent = {
           kind: 'commentary',
           id: 'mark14-new-covenant',
           html:
-            'Jesus establishes the Eucharist—the meal that will sustain the church until His return. Bread becomes the symbol of His body given. Wine becomes the symbol of His blood shed for the forgiveness of sins. The old Passover is fulfilled and transcended. The Lamb of God is slain. His death inaugurates a new covenant, written not on stone but in the hearts of those who partake of His body and blood.',
+            'Jesus establishes the Eucharist—the meal that will sustain the church until His return[res:intertextual-passover-eucharist]. Bread becomes the symbol of His body given. Wine becomes the symbol of His blood shed for the forgiveness of sins. The old Passover is fulfilled and transcended. The Lamb of God is slain. His death inaugurates a new covenant, written not on stone but in the hearts of those who partake of His body and blood.',
         },
         {
           kind: 'greek',
@@ -69,7 +69,7 @@ export const MARK_14: RichChapterContent = {
           kind: 'commentary',
           id: 'mark14-gethsemane',
           html:
-            'In Gethsemane, Jesus prays with intensity: "Abba, Father, all things are possible unto thee; take away this cup from me: nevertheless not what I will, but what thou wilt." This is not the calm acceptance of a fatalistic hero. This is the prayer of one facing genuine suffering, genuine death, yet subordinating His will to the Father&apos;s. The cup represents the passion—the suffering, the betrayal, the death He is about to endure.',
+            'In Gethsemane, Jesus prays with intensity: "Abba, Father, all things are possible unto thee; take away this cup from me: nevertheless not what I will, but what thou wilt."[res:bible-odyssey-gethsemane] This is not the calm acceptance of a fatalistic hero. This is the prayer of one facing genuine suffering, genuine death, yet subordinating His will to the Father&apos;s. The cup represents the passion—the suffering, the betrayal, the death He is about to endure.',
         },
         {
           kind: 'greek',
@@ -132,7 +132,7 @@ export const MARK_14: RichChapterContent = {
           kind: 'commentary',
           id: 'mark14-peter-denial',
           html:
-            'As Jesus is tried before the Sanhedrin, Peter sits warming himself by a fire in the courtyard. A maid identifies him as one of Jesus&apos; followers. Peter denies it. He goes out into the porch. Another maid says he is one of them. He denies it again. After a while, bystanders say: "Surely thou art one of them: for thou art a Galilean, and thy speech agreeth thereto." Peter curses and swears: "I know not this man of whom ye speak." And the cock crows. Twice. Peter remembers Jesus&apos; words and weeps.',
+            'As Jesus is tried before the Sanhedrin, Peter sits warming himself by a fire in the courtyard. A maid identifies him as one of Jesus&apos; followers. Peter denies it. He goes out into the porch. Another maid says he is one of them. He denies it again. After a while, bystanders say: "Surely thou art one of them: for thou art a Galilean, and thy speech agreeth thereto." Peter curses and swears: "I know not this man of whom ye speak."[res:sefaria-peter-confession] And the cock crows. Twice. Peter remembers Jesus&apos; words and weeps.',
         },
         {
           kind: 'greek',
@@ -175,6 +175,33 @@ export const MARK_14: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Mark 14 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'intertextual-passover-eucharist',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Passover & the Eucharist',
+      url: 'https://intertextual.bible/text/exodus-12/mark-14.22',
+      description: 'Intertextual links showing how Jesus transformed the Passover meal into a new covenant meal commemorating His death.',
+    },
+    {
+      id: 'bible-odyssey-gethsemane',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Gethsemane & Jesus\' Agony',
+      url: 'https://www.bibleodyssey.org/dictionary/gethsemane/',
+      description: 'Open-access entry on the garden prayer and Jesus\' human struggle with His coming death, revealing His genuine humanity and willing submission.',
+    },
+    {
+      id: 'sefaria-peter-confession',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Peter&apos;s Denial & Restoration',
+      url: 'https://www.sefaria.org/Mishnah/Sanhedrin/7.5?lang=bi',
+      description: 'Jewish legal context on oath-taking and denial, illuminating Peter&apos;s triple denial and later restoration in John 21.',
+    },
+  ],
 
   hasHebrew: false,
 };
