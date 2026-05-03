@@ -38,7 +38,7 @@ export const PSALMS_85: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-85-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Remembrance of God&apos;s past favor shifts to petition for restoration and promise of His salvation. Past mercies call forth future trust.',
         },
         {
           kind: 'scripture',

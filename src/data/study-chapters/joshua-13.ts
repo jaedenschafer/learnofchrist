@@ -1,12 +1,12 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 13 — The Land That Remains; Eastern Inheritance
+ * Joshua 13 — The Land That Remains; Eastern Inheritance[res:sefaria-inheritance-tribes[res:intertextual-tribes-covenant]]
  *
  * Joshua is old and stricken in years. The Lord reminds him: "Thou art old and
  * stricken in years, and there remaineth yet very much land to be possessed."
  * Even after great victories, there is always more to possess. The chapter
- * then recaps the eastern inheritance of Reuben, Gad, and half-Manasseh under
+ * then recaps the eastern inheritance of Reuben[res:bibleodyssey-reuben-gad-manasseh], Gad, and half-Manasseh under
  * Moses, with detailed borders and cities. Levi&apos;s inheritance is the Lord.
  *
  * Central themes: the incompleteness of conquest; God&apos;s promise to complete
@@ -325,7 +325,7 @@ export const JOSHUA_13: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'You came into the world with nothing and you will leave with nothing. Everything you own — your house, your job, your reputation, even your body — is temporary. But there is one inheritance that neither thief nor rust nor decay can touch: the Lord Himself. If you are His, you are rich beyond all measure, even if every earthly thing falls away. The Levites lived by this. They chose intimacy with God over security in land, and they were blessed.',
+            'You came into the world with nothing and you will leave with nothing. Everything you own — your house, your job, your reputation, even your body — is temporary. But there is one inheritance that neither thief nor rust nor decay can touch: the Lord Himself. If you are His, you are rich beyond all measure, even if every earthly thing falls away. The Levites[res:sefaria-levites-inheritance-lord] lived by this. They chose intimacy with God over security in land, and they were blessed.',
         },
         {
           kind: 'reflection',
@@ -356,6 +356,33 @@ export const JOSHUA_13: RichChapterContent = {
           caption: 'Joshua 13 · The Promise That Continues',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'bibleodyssey-tribal-inheritance',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Tribal Inheritance[res:bibleodyssey-tribal-inheritance] and Land Allotment',
+      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-13',
+      description: 'The division of the promised land among the twelve tribes, establishing Israel&apos;s permanent settlement and tribal territories.',
+    },
+    {
+      id: 'sefaria-levites-inheritance-lord',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Levites: God as Their Inheritance',
+      url: 'https://www.sefaria.org/Numbers.18?lang=bi',
+      description: 'The unique status of the tribe of Levi, who receive God Himself as their inheritance rather than territorial possession.',
+    },
+    {
+      id: 'intertextual-better[res:intertextual-better-inheritance]-inheritance',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'From Land to Inheritance in Christ',
+      url: 'https://intertextual.bible/search?q=inheritance+levites+lord+god+hebrews+better+country',
+      description: 'The progression from earthly territorial inheritance to the spiritual inheritance offered by Christ in Hebrews and 1 Peter.',
     },
   ],
 };

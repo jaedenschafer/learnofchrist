@@ -108,7 +108,7 @@ export const PSALMS_102: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-102-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'The psalmist&apos;s desolation and prayer shift to confidence in God&apos;s enduring mercy and covenant. Personal sorrow becomes cosmic assurance.',
         },
         {
           kind: 'scripture',

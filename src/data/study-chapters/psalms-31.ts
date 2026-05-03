@@ -54,7 +54,7 @@ export const PSALMS_31: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-31-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Trust in refuge becomes address to enemies. The personal plea expands to include those who mock.',
         },
         {
           kind: 'scripture',

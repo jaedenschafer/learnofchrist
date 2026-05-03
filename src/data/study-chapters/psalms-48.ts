@@ -39,7 +39,7 @@ export const PSALMS_48: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-48-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Praise of God&apos;s greatness and protection of Zion shifts to meditation on His steadfast love. Sight becomes understanding.',
         },
         {
           kind: 'scripture',

@@ -7,7 +7,7 @@ export const JOSHUA_21: RichChapterContent = {
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
   intros: [
-    'Joshua 21 tells the story of God&apos;s faithfulness to a tribe that had no inheritance of land. The Levites had been set apart as priests and worship leaders, but God did not forget them. He commanded that they be given 48 cities scattered across all twelve tribes — so that the worship of God and the priesthood would be woven throughout the entire nation. Not concentrated in one holy capital, but dispersed everywhere Israel lived.',
+    'Joshua 21 tells the story of God&apos;s faithfulness to a tribe that had no inheritance of land. The Levites[res:sefaria-levites-scattered-priesthood][res:bibleodyssey-levite-cities[res:sefaria-levite-inheritance]] had been set apart as priests and worship leaders, but God did not forget them. He commanded that they be given 48 cities scattered[res:intertextual-priesthood-scattered] across all twelve tribes — so that the worship of God and the priesthood would be woven throughout the entire nation. Not concentrated in one holy capital, but dispersed everywhere Israel lived.',
     'The chapter opens with the Levites coming to Eleazar the priest and Joshua with their request: "The Lord commanded by the hand of Moses to give us cities to dwell in, with the suburbs thereof for our cattle." They have no complaints. They trusted God&apos;s promise, and now they come to receive what was promised. The cities are distributed by lot among the four main families of Levites — the Kohathites (who served as priests), the Gershonites, the Merarites, and others. Forty-eight cities, each with pastureland for their flocks.',
     'The chapter closes with one of the most stunning summaries in all of Joshua: three "alls" in a row. "And the Lord gave unto Israel all the land which he sware to give unto their fathers... And the Lord gave them rest round about... There failed not ought of any good thing which the Lord had spoken unto the house of Israel; all came to pass." Every word. Every promise. All fulfilled.',
   ],
@@ -322,6 +322,33 @@ export const JOSHUA_21: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Joshua 21:43, 45 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-levite-cities',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'The Levite Cities[res:bibleodyssey-levite-cities] and Their Distribution',
+      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-21',
+      description: 'The allocation of 48 Levitical cities throughout Israel&apos;s territory, ensuring the priesthood was dispersed to serve all the tribes.',
+    },
+    {
+      id: 'sefaria-levites-scattered-priesthood',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Levites: Scattered Throughout Israel',
+      url: 'https://www.sefaria.org/Numbers.35?lang=bi',
+      description: 'The unique role of the Levites as God&apos;s tribe, given cities but no single territory, making them available to all of Israel.',
+    },
+    {
+      id: 'intertextual-dispersed-priesthood',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Scattered Levites to Dispersed Church',
+      url: 'https://intertextual.bible/search?q=levites+scattered+cities+priesthood+believers+peter+1+peter+2',
+      description: 'The pattern of God scattering His servants throughout the land prefigures the New Testament church as a dispersed priesthood[res:intertextual-dispersed-priesthood] of believers.',
+    },
+  ],
 
   hasHebrew: true,
 };

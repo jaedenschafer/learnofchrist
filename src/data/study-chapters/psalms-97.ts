@@ -39,7 +39,7 @@ export const PSALMS_97: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-97-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'The Lord&apos;s cosmic reign opens into call for the righteous to rejoice and thanks to His holiness. Universal rule becomes personal response.',
         },
         {
           kind: 'scripture',

@@ -103,7 +103,7 @@ export const JOHN_7: RichChapterContent = {
           kind: 'commentary',
           id: 'john-7-78mid-1',
           html:
-            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+            'Jesus is in Jerusalem at the feast and speaks openly; the Jewish leaders try to arrest Him. Authority is questioned; Scripture is thrown against Him.',
         },
         {
           kind: 'scripture',

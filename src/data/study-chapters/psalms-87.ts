@@ -39,7 +39,7 @@ export const PSALMS_87: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-87-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'The foundation of Zion&apos;s glory opens into names of those who belong and promise of cosmic celebration. Ground becomes community.',
         },
         {
           kind: 'scripture',

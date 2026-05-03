@@ -105,7 +105,7 @@ export const JOHN_5: RichChapterContent = {
           kind: 'commentary',
           id: 'john-5-78mid-1',
           html:
-            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+            'Jesus heals the man at Bethesda who lay ill for thirty-eight years; the Jewish leaders begin to persecute Him. From healing comes conflict; the law accuses the one who heals.',
         },
         {
           kind: 'scripture',

@@ -1,13 +1,13 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 9 — The Gibeonite Deception
+ * Joshua 9 — The Gibeon[res:intertextual-gibeon-oath-saul][res:bibleodyssey-gibeon-deception]ite Deception
  *
  * When Israel stands at the threshold of Canaan, a neighboring city resorts
  * to deception to survive. Joshua and the princes, without counsel from the
- * Lord, swear an oath. The chapter turns on a single phrase: "they asked not
- * counsel at the mouth of the Lord." Yet even a covenant made in haste binds
- * God&apos;s people — and the Gibeonites, sworn enemies turned servants,
+ * Lord, swear an oath[res:sefaria-oath-covenant-binding]. The chapter turns on a single phrase: "they asked not
+ * counsel at the mouth of the Lord." Yet even a covenant[res:sefaria-treaty-israel] made in haste binds
+ * God&apos;s people — and the Gibeonites[res:bibleodyssey-gibeonite-deception], sworn enemies turned servants,
  * end up serving at God&apos;s altar.
  */
 export const JOSHUA_9: RichChapterContent = {
@@ -34,6 +34,33 @@ export const JOSHUA_9: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Joshua 9 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-gibeon-deception',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'The Gibeonite Deception and Treaty',
+      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-9',
+      description: 'Analysis of the Gibeonites&apos; cunning deception and Joshua&apos;s failure to seek the Lord&apos;s counsel before making a covenant.',
+    },
+    {
+      id: 'sefaria-oath-covenant-binding',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Oaths and Covenants in Hebrew Scripture',
+      url: 'https://www.sefaria.org/Numbers.30',
+      description: 'Examination of how oaths sworn in God&apos;s name bind covenants and their legal force in ancient Israel.',
+    },
+    {
+      id: 'intertextual-gibeon-oath-saul',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Gibeonite Oath from Joshua to 2 Samuel 21',
+      url: 'https://intertextual.bible/search?q=gibeon+oath+saul+famine',
+      description: 'The oath made in Joshua 9 echoes through generations to 2 Samuel 21 when King Saul breaks covenant and God sends famine.',
+    },
+  ],
 
   sections: [
     /* ─── Joshua 9:1–2 — The Gathering of Kings ──────────────────────────── */
@@ -180,7 +207,7 @@ export const JOSHUA_9: RichChapterContent = {
           kind: 'commentary',
           id: 'joshua-9-78mid-1',
           html:
-            'The narrative moves here from one front to the next. Conquest in this book is named place by named place.',
+            'A new challenge breaks the pattern. Gibeon deceives Israel, and the people make a covenant they later regret. Not every enemy is defeated in battle—some are encountered through deception.',
         },
         {
           kind: 'scripture',
@@ -267,7 +294,7 @@ export const JOSHUA_9: RichChapterContent = {
             {
               number: 16,
               spans: [
-                t('And it came to pass at the end of three days after they had made a league with them, that they heard that they were their neighbours, and that they dwelt among them.'),
+                t('And it came to pass at the end of three days after they had made a league with them[res:intertextual-discernment-deception], that they heard that they were their neighbours, and that they dwelt among them.'),
               ],
             },
             {
@@ -282,7 +309,7 @@ export const JOSHUA_9: RichChapterContent = {
           kind: 'commentary',
           id: 'joshua-9-78mid-2',
           html:
-            'The narrative moves here from one front to the next. Conquest in this book is named place by named place.',
+            'A new challenge breaks the pattern. Gibeon deceives Israel, and the people make a covenant they later regret. Not every enemy is defeated in battle—some are encountered through deception.',
         },
         {
           kind: 'scripture',

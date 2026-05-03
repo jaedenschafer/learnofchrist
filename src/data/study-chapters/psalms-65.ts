@@ -100,7 +100,7 @@ export const PSALMS_65: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-65-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Praise and prayer in Zion shift to cosmic wonder at creation and blessing. The house of God expands to the whole earth.',
         },
         {
           kind: 'scripture',

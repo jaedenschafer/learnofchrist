@@ -105,7 +105,7 @@ export const MATTHEW_12: RichChapterContent = {
           kind: 'commentary',
           id: 'matthew-12-78mid-1',
           html:
-            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+            'Jesus heals a demon-possessed man who was blind and mute; the crowds marvel. The Pharisees attribute the miracle to Beelzebub, not the Spirit of God.',
         },
         {
           kind: 'scripture',

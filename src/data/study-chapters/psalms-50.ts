@@ -39,7 +39,7 @@ export const PSALMS_50: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-50-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'God&apos;s gathering of His people for judgment transitions to judgment itself. The call to assemble becomes the call to hear.',
         },
         {
           kind: 'scripture',

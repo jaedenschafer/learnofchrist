@@ -1,13 +1,13 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 11 — The Northern Campaign
+ * Joshua 11 — The Northern[res:bibleodyssey-northern-kings] Campaign
  *
  * A watershed chapter in Israel&apos;s conquest. The northern kingdoms unite
  * against Joshua, God reassures him (echoing the opening of the conquest),
- * and Israel wins decisively at the waters of Merom. The chapter pivots on
+ * and Israel wins decisively at the waters of Merom[res:bibleodyssey-merom-waters][res:sefaria-waters-merom]. The chapter pivots on
  * obedience: Joshua houghs horses and burns chariots (rejecting Canaanite
- * war technology), destroys the Anakim giants, and leaves the land at rest.
+ * war technology), destroys the Anakim giants, and leaves the land at rest[res:intertextual-rest-hebrews-4].
  * Christ echoes in the rest that Hebrews 4 says still awaits believers.
  */
 export const JOSHUA_11: RichChapterContent = {
@@ -17,7 +17,7 @@ export const JOSHUA_11: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 11, deep: 16 },
   intros: [
-    'Joshua 11 is the turning point of Israel&apos;s conquest. After a series of southern victories, Jabin king of Hazor learns the news and decides to take action. He forges a coalition of northern kings — "as the sand that is upon the sea shore in multitude, with horses and chariots very many" — a force so overwhelming that an ancient reader would have trembled. But God&apos;s first word to Joshua is the same one He spoke at the very beginning of the conquest: "Be not afraid."',
+    'Joshua 11 is the turning point of Israel&apos;s conquest. After a series of southern victories, Jabin king of Hazor[res:iaa-hazor-conquest] learns the news and decides to take action. He forges a coalition of northern kings — "as the sand that is upon the sea shore in multitude, with horses and chariots very many" — a force so overwhelming that an ancient reader would have trembled. But God&apos;s first word to Joshua is the same one He spoke at the very beginning of the conquest: "Be not afraid."',
     'What follows is both a military account and a theological blueprint. Joshua refuses to adopt the war technology of the nations. The Anakim giants — the very ones who terrified the spies in Numbers 13 — are finally destroyed. And when the smoke clears, the land rests. For the first time in the book, there is peace.',
   ],
 
@@ -28,6 +28,33 @@ export const JOSHUA_11: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Joshua 11 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'iaa-hazor-conquest',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Hazor and the Northern Conquest',
+      url: 'https://www.antiquities.org.il/article-3050-en/Hazor.html',
+      description: 'Archaeological evidence of the destruction of Hazor and the northern Canaanite cities during Joshua&apos;s campaign.',
+    },
+    {
+      id: 'bibleodyssey-merom-waters',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'The Waters of Merom and Victory[res:intertextual-joshua-victory-pattern] Over the North',
+      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-11-1-9',
+      description: 'The battle at Merom where Joshua defeats Jabin&apos;s coalition and refuses to adopt Canaanite war technology.',
+    },
+    {
+      id: 'intertextual-rest-hebrews-4',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Rest of Joshua and Hebrews 4',
+      url: 'https://intertextual.bible/search?q=joshua+rest+hebrews+4+sabbath',
+      description: 'The territorial rest achieved by Joshua prefigures the spiritual rest that Christ offers to believers, explored in Hebrews 4.',
+    },
+  ],
 
   sections: [
     /* ─── Joshua 11:1–5 — Jabin&apos;s Coalition ─────────────────────────── */

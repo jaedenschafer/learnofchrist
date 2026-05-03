@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Judges 1 — Incomplete Conquest
+ * Judges 1 — Incomplete Conquest[res:bibleodyssey-judges-incomplete-conquest]
  *
  * The generation after Joshua begins well but settles for less than God promised.
  * A chapter of partial victories, iron chariots, compromised tribes, and the
@@ -15,8 +15,8 @@ export const JUDGES_1: RichChapterContent = {
 
   estimatedMinutes: { beginner: 10, intermediate: 14, deep: 18 },
   intros: [
-    'Joshua is dead. Israel has inherited a land not yet fully claimed. The children of Judah ask the Lord who will lead them into battle against the remaining Canaanites, and the Lord answers: Judah shall go first. What follows is a story of victories, yes — but also of a people who begin to make compromises that will haunt them for generations. Iron chariots they couldn&apos;t defeat. Canaanites they couldn&apos;t drive out. And slowly, almost imperceptibly, a generation&apos;s faith becomes the next generation&apos;s failure.',
-    'Judges 1 is Joshua&apos;s story played in reverse. Where Joshua&apos;s conquest account rings with the victories God won through His people, Judges 1 echoes with absences — the cities NOT taken, the peoples NOT driven out, the tributes PAID instead of faith KEPT. The chapter refuses to hide the reality: obedience in the first generation is not guaranteed in the second. The land remains half-conquered, and Israel is about to learn what compromise costs.',
+    'Joshua is dead. Israel has inherited a land not yet fully claimed. The children of Judah ask the Lord who will lead them into battle against the remaining Canaanites[res:sefaria-canaanites-not-drive-out], and the Lord answers: Judah shall go first. What follows is a story of victories, yes — but also of a people who begin to make compromises that will haunt them for generations. Iron chariots they couldn&apos;t defeat. Canaanites they couldn&apos;t drive out. And slowly, almost imperceptibly, a generation&apos;s faith becomes the next generation&apos;s failure.',
+    'Judges 1 is Joshua&apos;s story played in reverse. Where Joshua&apos;s conquest account rings with the victories God won through His people, Judges 1 echoes with absences — the cities NOT taken, the peoples NOT driven[res:intertextual-compromise-judges] out, the tributes PAID instead of faith KEPT. The chapter refuses to hide the reality: obedience in the first generation is not guaranteed in the second. The land remains half-conquered, and Israel is about to learn what compromise costs.',
   ],
 
   bottomShare: {
@@ -26,6 +26,33 @@ export const JUDGES_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Judges 1 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-judges-incomplete-conquest',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Judges 1: An Incomplete Conquest',
+      url: 'https://www.bibleodyssey.org/passages/main-passage/judges-1',
+      description: 'The opening of Judges shows Israel&apos;s failure to fully drive out the Canaanites, setting the pattern for the cycles of compromise in the book.',
+    },
+    {
+      id: 'sefaria-canaanites-not-drive-out',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Canaanites Israel Did Not Drive Out',
+      url: 'https://www.sefaria.org/Judges.1?lang=bi',
+      description: 'A detailed account of which tribal territories still contained Canaanites, highlighting Israel&apos;s pattern of partial obedience.',
+    },
+    {
+      id: 'intertextual-compromise-judges',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Cost of Compromise (Joshua to Judges)',
+      url: 'https://intertextual.bible/search?q=canaanites+dwell+compromise+judges+cycle',
+      description: 'How the incomplete conquest narrated in Judges flows from Joshua&apos;s failure to fully execute God&apos;s command, establishing patterns of defeat and repentance.',
+    },
+  ],
 
   sections: [
     /* ─── Judges 1:1–3 — Judah Goes First ────────────────────────────── */

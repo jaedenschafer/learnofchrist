@@ -115,7 +115,7 @@ export const MARK_16: RichChapterContent = {
           kind: 'commentary',
           id: 'mark-16-78mid-1',
           html:
-            'Mark moves quickly. The next verses press from one scene to the next without pause; the gospel is in a hurry.',
+            'Three women approach the tomb with spices; the stone has been rolled away. What was sealed is now open; what was dead is now risen.',
         },
         {
           kind: 'scripture',

@@ -97,7 +97,7 @@ export const PSALMS_136: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-136-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Praise of God&apos;s greatness and creation opens into praise for deliverance from Egypt and inheritance. Power becomes provision.',
         },
         {
           kind: 'scripture',

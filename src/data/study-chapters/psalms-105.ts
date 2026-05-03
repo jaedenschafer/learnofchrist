@@ -40,7 +40,7 @@ export const PSALMS_105: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-105-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Invitation to praise and give thanks opens into recital of covenant and deliverance from Egypt. Song becomes story.',
         },
         {
           kind: 'scripture',

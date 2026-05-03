@@ -41,7 +41,7 @@ export const JOHN_11: RichChapterContent = {
           kind: 'commentary',
           id: 'john-11-78mid-1',
           html:
-            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+            'Lazarus is dead and has been in the tomb four days; Jesus weeps. From death comes the greatest sign: "Lazarus, come forth."',
         },
         {
           kind: 'scripture',
@@ -124,7 +124,7 @@ export const JOHN_11: RichChapterContent = {
           kind: 'commentary',
           id: 'john-11-78mid-2',
           html:
-            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+            'Jesus raises Lazarus from the dead; many believe. Yet the Jewish leaders plot to kill Jesus—the one who gives life is hunted by those who fear death.',
         },
         {
           kind: 'scripture',

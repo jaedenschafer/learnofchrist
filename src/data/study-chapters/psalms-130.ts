@@ -40,7 +40,7 @@ export const PSALMS_130: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-130-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Cry from the depths for forgiveness opens into waiting and hope in God&apos;s redemption. Desperation becomes trust.',
         },
         {
           kind: 'scripture',

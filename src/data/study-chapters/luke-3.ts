@@ -41,7 +41,7 @@ export const LUKE_3: RichChapterContent = {
           kind: 'commentary',
           id: 'luke-3-78mid-1',
           html:
-            'Luke turns the camera here — from one encounter to the next, often watching how Jesus treats those who would otherwise be passed over.',
+            'John baptizes the crowds and calls them to repentance; Jesus also comes to be baptized. The forerunner and the Messiah are both in the waters.',
         },
         {
           kind: 'scripture',

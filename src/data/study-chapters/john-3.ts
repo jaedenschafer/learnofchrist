@@ -42,7 +42,7 @@ export const JOHN_3: RichChapterContent = {
           kind: 'commentary',
           id: 'john-3-78mid-1',
           html:
-            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+            'Nicodemus comes to Jesus by night and asks about the kingdom; Jesus answers with the mystery of birth from above. From question comes rebirth; from darkness comes light.',
         },
         {
           kind: 'scripture',
@@ -126,7 +126,7 @@ export const JOHN_3: RichChapterContent = {
           kind: 'commentary',
           id: 'john-3-78mid-2',
           html:
-            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+            'Jesus teaches Nicodemus of the Son of Man lifted up; His discourse on judgment and light follows. The Savior speaks of salvation and the nature of belief.',
         },
         {
           kind: 'scripture',

@@ -105,7 +105,7 @@ export const JOHN_6: RichChapterContent = {
           kind: 'commentary',
           id: 'john-6-78mid-1',
           html:
-            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+            'Jesus feeds five thousand with five loaves and two fish; the crowd wants to make Him king. He withdrew to the mountain; His kingdom is not of this world.',
         },
         {
           kind: 'scripture',

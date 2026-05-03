@@ -44,7 +44,7 @@ export const MATTHEW_6: RichChapterContent = {
           kind: 'commentary',
           id: 'matthew-6-78mid-1',
           html:
-            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+            'Prayer and fasting have been taught; now Jesus shifts to the heart of generosity. Do not store up treasures on earth; store them in heaven.',
         },
         {
           kind: 'scripture',

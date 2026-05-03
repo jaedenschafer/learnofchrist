@@ -43,7 +43,7 @@ export const MARK_1: RichChapterContent = {
           kind: 'commentary',
           id: 'mark-1-78mid-1',
           html:
-            'Mark moves quickly. The next verses press from one scene to the next without pause; the gospel is in a hurry.',
+            'John baptizes in the wilderness; Jesus comes to be baptized. The forerunner's work yields to the one he announced; the messenger steps aside for the Message.',
         },
         {
           kind: 'scripture',
@@ -120,7 +120,7 @@ export const MARK_1: RichChapterContent = {
           kind: 'commentary',
           id: 'mark-1-78mid-2',
           html:
-            'Mark moves quickly. The next verses press from one scene to the next without pause; the gospel is in a hurry.',
+            'Jesus is baptized and the Spirit descends; He is driven into the wilderness for forty days. From blessing comes testing; from affirmation comes trial.',
         },
         {
           kind: 'scripture',

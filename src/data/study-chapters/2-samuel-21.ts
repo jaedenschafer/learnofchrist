@@ -212,7 +212,7 @@ export const SAMUEL_2_21: RichChapterContent = {
           kind: 'commentary',
           id: '2-samuel-21-78mid-1',
           html:
-            'The narrative pivots — David&apos;s reign is rarely smooth, and the next verses press into a different corner of the story.',
+            'The long reign of David moves toward its close. These final verses gather songs, lists, acts of valor, and the aging king's reflection. A reign is not one story—it is many, layered and long.',
         },
         {
           kind: 'scripture',

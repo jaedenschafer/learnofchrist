@@ -41,7 +41,7 @@ export const JOHN_2: RichChapterContent = {
           kind: 'commentary',
           id: 'john-2-78mid-1',
           html:
-            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+            'Jesus turns water to wine at Cana; the steward marvels at the quality. This is His first sign; His glory is revealed and His disciples believe in Him.',
         },
         {
           kind: 'scripture',
@@ -118,7 +118,7 @@ export const JOHN_2: RichChapterContent = {
           kind: 'commentary',
           id: 'john-2-78mid-2',
           html:
-            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+            'Jesus has done His first miracle; now He cleanses the temple. From sign to sign, from private revelation to public confrontation.',
         },
         {
           kind: 'scripture',

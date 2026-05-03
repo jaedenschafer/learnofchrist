@@ -106,7 +106,7 @@ export const LUKE_5: RichChapterContent = {
           kind: 'commentary',
           id: 'luke-5-78mid-1',
           html:
-            'Luke turns the camera here — from one encounter to the next, often watching how Jesus treats those who would otherwise be passed over.',
+            'Jesus calls Simon Peter from his nets; the disciple leaves everything. From trade comes trust; from the sea comes a fisher of men.',
         },
         {
           kind: 'scripture',

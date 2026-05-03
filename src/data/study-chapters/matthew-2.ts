@@ -43,7 +43,7 @@ export const MATTHEW_2: RichChapterContent = {
           kind: 'commentary',
           id: 'matthew-2-78mid-1',
           html:
-            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+            'Herod hears the question and is troubled; the priests answer with knowledge but no faith. One group acts in anger, the other in indifference.',
         },
         {
           kind: 'scripture',

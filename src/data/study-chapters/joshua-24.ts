@@ -1,10 +1,10 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 24 — The Covenant at Shechem. Joshua gathers all Israel for a final
+ * Joshua 24 — The Covenant at Shechem[res:bibleodyssey-shechem-covenant]. Joshua gathers all Israel for a final
  * covenant renewal, recounting God&apos;s entire history with them from Abraham
- * to Canaan. He presents them with the foundational choice: "Choose you this day
- * whom ye will serve." And his own stake in the ground: "As for me and my house,
+ * to Canaan. He presents them with the foundational choice: "Choose[res:sefaria-choose-this-day] you this day
+ * whom ye will serve[res:intertextual-joshua-finish-judges-begin]." And his own stake in the ground: "As for me and my house,
  * we will serve the Lord." The chapter closes with Joshua&apos;s death at 110, and
  * a single memorial stone—a witness to what was sworn.
  */
@@ -559,6 +559,33 @@ export const JOSHUA_24: RichChapterContent = {
     snippet: 'Joshua 24:15 — A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Joshua 24:15',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-shechem-covenant',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'The Covenant Renewal at Shechem',
+      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-24',
+      description: 'Joshua&apos;s final covenant renewal ceremony at Shechem, where he calls Israel to choose whom they will serve.',
+    },
+    {
+      id: 'sefaria-choose-this-day',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Choice: Serve God or the Gods of Your Fathers',
+      url: 'https://www.sefaria.org/Joshua.24?lang=bi',
+      description: 'Joshua&apos;s presentation of the choice between serving the Lord or following the gods of the nations, establishing Israel&apos;s renewed covenant.',
+    },
+    {
+      id: 'intertextual-joshua-finish-judges-begin',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Joshua&apos;s End and Judges&apos; Beginning',
+      url: 'https://intertextual.bible/search?q=joshua+knew+lord+judges+generation+knew+not',
+      description: 'The contrast between Joshua&apos;s generation that knew God and the Judges generation that did not, showing the critical role of spiritual transmission.',
+    },
+  ],
 
   hasHebrew: true,
 };

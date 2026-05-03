@@ -42,7 +42,7 @@ export const MATTHEW_8: RichChapterContent = {
           kind: 'commentary',
           id: 'matthew-8-78mid-1',
           html:
-            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+            'Jesus heals the centurion's servant from a distance; now He enters Peter's house where Peter's mother-in-law lies fevered. From gentile to disciple's family—He cares for all.',
         },
         {
           kind: 'scripture',

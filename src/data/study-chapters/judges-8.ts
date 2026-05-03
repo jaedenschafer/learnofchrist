@@ -3,8 +3,8 @@ import { hp, hy, hg, t, type RichChapterContent } from './types';
 /**
  * Judges 8 — Gideon's Complete Victory and Decline
  *
- * From the height of victory (humbling Ephraim, pursuing the Midianite kings)
- * to the snare of his own success (the ephod becomes an idol), Judges 8 traces
+ * From the height of victory (humbling Ephraim[res:bibleodyssey-gideon-ephraim], pursuing the Midianite kings)
+ * to the snare of his own success (the ephod[res:sefaria-idolatry-gideon] becomes an idol), Judges 8 traces
  * the arc of a hero who refuses the crown but drifts into the sins of a king.
  * The chapter ends with Israel&apos;s instant apostasy after Gideon&apos;s death —
  * a generational warning that yesterday&apos;s deliverance does not save tomorrow&apos;s
@@ -18,7 +18,7 @@ export const JUDGES_8: RichChapterContent = {
   estimatedMinutes: { beginner: 9, intermediate: 15, deep: 19 },
   intros: [
     'Gideon stands at the peak of his influence. The Midianites are broken; the 300 have proven mightier than thousands. But the moment after great victory is when the human heart is most at risk — when pride creeps in, when the instruments of salvation become objects of worship, when a deliverer begins to move like a king.',
-    'Judges 8 tells two stories at once. First, the completion of Gideon&apos;s military victory: he pursues the Midianite kings Zebah and Zalmunna to their final defeat. But alongside that triumph runs a darker current. Gideon&apos;s anger burns hotter. He makes threats he carries out. And when the people offer him a crown, he refuses it — yet then builds an ephod that becomes a snare. The chapter closes with Israel forgotten him immediately after his death, worshiping Baal again, and showing no gratitude to the man who delivered them. It is a portrait of how quickly we undo the work of God by turning the instruments of victory into idols.',
+    'Judges 8 tells two stories at once. First, the completion of Gideon&apos;s military victory: he pursues the Midianite kings Zebah and Zalmunna to their final defeat. But alongside that triumph runs a darker current. Gideon&apos;s anger burns hotter. He makes threats he carries out. And when the people offer him a crown, he refuses it — yet then builds an ephod that becomes a snare. The chapter closes with Israel forgotten him immediately after his death, worshiping Baal[res:intertextual-judges-decline] again, and showing no gratitude to the man who delivered them. It is a portrait of how quickly we undo the work of God by turning the instruments of victory into idols.',
   ],
 
   bottomShare: {
@@ -707,4 +707,31 @@ export const JUDGES_8: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'bibleodyssey-gideon-ephraim',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Gideon&apos;s Conflict with Ephraim',
+      url: 'https://www.bibleodyssey.org/passages/main-stories/judges',
+      description: 'Tribal tensions and reconciliation narratives in early Israel.',
+    },
+    {
+      id: 'sefaria-idolatry-gideon',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Gideon&apos;s Ephod and Idolatry',
+      url: 'https://www.sefaria.org/Judges.8',
+      description: 'Analysis of the golden ephod and Israel&apos;s drift toward syncretism.',
+    },
+    {
+      id: 'intertextual-judges-decline',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Judges Cycle Deepens',
+      url: 'https://intertextual.org/Judges/8',
+      description: 'Progressive abandonment of the Lord despite repeated deliverance and provision.',
+    },
+  ]
 };

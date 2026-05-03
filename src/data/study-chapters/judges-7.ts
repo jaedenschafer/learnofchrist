@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Judges 7 — The Three Hundred Men
+ * Judges 7 — The Three Hundred[res:bibleodyssey-midianites[res:intertextual-small-army-faith]-defeat] Men
  * God deliberately reduces Gideon&apos;s army to 300 so victory is attributed
  * to God&apos;s power, not human strength. A chapter about faith, obedience,
  * and the power of God to use the weak and the few against the many.
@@ -188,7 +188,7 @@ export const JUDGES_7: RichChapterContent = {
             {
               number: 8,
               spans: [
-                t('So the people took victuals in their hand, and their trumpets: and he sent all the rest of Israel every man unto his tent; and retained those three hundred men: and the host of Midian was beneath him in the valley.'),
+                t('So the people took victuals in their hand, and their trumpets[res:sefaria-trumpets-judges]: and he sent all the rest of Israel every man unto his tent; and retained those three hundred men: and the host of Midian was beneath him in the valley.'),
               ],
             },
           ],
@@ -550,8 +550,35 @@ export const JUDGES_7: RichChapterContent = {
   bottomShare: {
     label: 'Share Judges 7',
     quote:
-      'By three hundred men that lapped the Lord saved Gideon, and delivered Midian into his hand. With trumpets and pitchers and lamps, God defeated the enemy, and every man&apos;s sword was set against his fellow.',
+      'By three hundred men[res:bibleodyssey-midianites-defeat] that lapped the Lord saved Gideon, and delivered Midian into his hand. With trumpets and pitchers and lamps, God defeated the enemy, and every man&apos;s sword was set against his fellow.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Judges 7 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-midianites-defeat',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Midianites Defeated by Gideon',
+      url: 'https://www.bibleodyssey.org/passages/main-stories/gideon',
+      description: 'The strategy and divine victory at the spring of Harod against overwhelming numbers.',
+    },
+    {
+      id: 'sefaria-trumpets-judges',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Trumpets and Divine Warfare',
+      url: 'https://www.sefaria.org/Judges.7',
+      description: 'Ancient Near Eastern military practices and the Lord&apos;s role in battle victory.',
+    },
+    {
+      id: 'intertextual-small-army-faith',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Small Army, Great Faith',
+      url: 'https://intertextual.org/Judges/7',
+      description: 'Thematic echoes of David&apos;s battles and God working through unlikely circumstances.',
+    },
+  ]
 };

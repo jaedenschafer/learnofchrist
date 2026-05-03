@@ -44,7 +44,7 @@ export const LUKE_15: RichChapterContent = {
           kind: 'commentary',
           id: 'luke-15-78mid-1',
           html:
-            'Luke turns the camera here — from one encounter to the next, often watching how Jesus treats those who would otherwise be passed over.',
+            'The prodigal son comes home and is received with celebration; the older brother refuses to join the feast. One son is lost and found; the other is found but lost in his own bitterness.',
         },
         {
           kind: 'scripture',

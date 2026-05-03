@@ -1,10 +1,10 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 23 — Joshua's first farewell. An elderly Joshua calls Israel to
- * remember God's faithfulness, obey the law, avoid idolatry, and cling to
+ * Joshua[res:bibleodyssey-joshua-farewell] 23 — Joshua's first farewell. An elderly Joshua calls Israel to
+ * remember God's faithful[res:intertextual-exhortation-faithfulness]ness, obey the law, avoid idolatry, and cling to
  * the Lord. The chapter anchors on the promise-keeping God and the peril of
- * covenant-breaking.
+ * covenant[res:sefaria-covenant-faithfulness-warning][res:sefaria-covenant-obedience]-breaking.
  */
 export const JOSHUA_23: RichChapterContent = {
   bookSlug: 'joshua',
@@ -406,7 +406,7 @@ export const JOSHUA_23: RichChapterContent = {
         {
           kind: 'greek',
           id: 'greek-chrestotes',
-          title: 'Chrestotes — &ldquo;goodness, kindness&rdquo; (Romans 11:22)',
+          title: 'Chrestotes — &ldquo;goodness[res:intertextual-goodness-severity], kindness&rdquo; (Romans 11:22)',
           script: 'χρηστότης',
           translit: '<strong>chrestotés</strong> · excellence, useful goodness; paired with severity',
           description:
@@ -434,6 +434,33 @@ export const JOSHUA_23: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Joshua 23:14 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-joshua-farewell',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Joshua&apos;s Farewell Covenant Address',
+      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-23',
+      description: 'Joshua&apos;s final words to Israel, reminding them of God&apos;s faithfulness and warning them of the consequences of covenant-breaking.',
+    },
+    {
+      id: 'sefaria-covenant-faithfulness-warning',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Covenant Faithfulness and the Cost of Disobedience',
+      url: 'https://www.sefaria.org/Joshua.23?lang=bi',
+      description: 'Joshua&apos;s exhortation to keep God&apos;s covenant and his stark warning that turning aside will bring destruction.',
+    },
+    {
+      id: 'intertextual-goodness-severity',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'God&apos;s Goodness and Severity (Joshua to Romans)',
+      url: 'https://intertextual.bible/search?q=goodness+severity+god+behold+romans+11+covenant+keep',
+      description: 'The pattern of God&apos;s dual nature—rewarding faithfulness and judging unfaithfulness—from Joshua through Paul&apos;s theology.',
+    },
+  ],
 
   hasHebrew: true,
 };

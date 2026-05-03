@@ -43,7 +43,7 @@ export const MATTHEW_13: RichChapterContent = {
           kind: 'commentary',
           id: 'matthew-13-78mid-1',
           html:
-            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+            'Jesus interprets the parable of the sower and continues teaching; He shifts to the parables of the mustard seed and the leaven. Small beginnings yield great growth.',
         },
         {
           kind: 'scripture',

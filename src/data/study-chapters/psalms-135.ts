@@ -39,7 +39,7 @@ export const PSALMS_135: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-135-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Call to praise the Lord opens into recital of His mighty deeds and call to trust Him. Exhortation becomes narrative.',
         },
         {
           kind: 'scripture',
@@ -105,7 +105,7 @@ export const PSALMS_135: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-135-78mid-2',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Call to praise the Lord opens into recital of His mighty deeds and call to trust Him. Exhortation becomes narrative.',
         },
         {
           kind: 'scripture',

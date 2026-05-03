@@ -105,7 +105,7 @@ export const LUKE_9: RichChapterContent = {
           kind: 'commentary',
           id: 'luke-9-78mid-1',
           html:
-            'Luke turns the camera here — from one encounter to the next, often watching how Jesus treats those who would otherwise be passed over.',
+            'Jesus sends out the twelve to preach and heal; the disciples depart in His power. What He has taught them now becomes their work.',
         },
         {
           kind: 'scripture',

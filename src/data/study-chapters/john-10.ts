@@ -40,7 +40,7 @@ export const JOHN_10: RichChapterContent = {
           kind: 'commentary',
           id: 'john-10-78mid-1',
           html:
-            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+            'Jesus speaks of the Good Shepherd and His sheep; He is preparing to speak of laying down His life. The shepherd knows His sheep; His sheep know His voice.',
         },
         {
           kind: 'scripture',

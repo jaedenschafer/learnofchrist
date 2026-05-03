@@ -3,7 +3,7 @@ import { hp, hy, hg, t, type RichChapterContent } from './types';
 /**
  * Judges 2 — The Pattern Revealed
  *
- * The generational pivot from Joshua&apos;s faithfulness to a cycle that will repeat
+ * The generation[res:sefaria-generation-knew-not-lord]al pivot from Joshua&apos;s faithfulness to a cycle that will repeat
  * for four hundred years: sin, servitude, supplication, salvation, silence, and
  * back to sin. God reveals His method for testing covenant faithfulness and His
  * mercy that responds even to disobedient groaning.
@@ -115,7 +115,7 @@ export const JUDGES_2: RichChapterContent = {
           id: 'weeping-response',
           title: 'Christ Connection — Grace Beyond Obedience',
           html:
-            'Israel&apos;s weeping at Bochim is not the end of the story — they sacrifice. Even in their failure, even as the covenant has been broken, they cry out and offer. Jesus teaches that "blessed are those who mourn" (Matthew 5:4). The mourning comes first, and it opens a door. Throughout Judges, when Israel weeps and groans under oppression, deliverers rise — not because they deserve rescue, but because a God who repents when He hears their pain raises up judges (Judges 2:18). This is the gospel pattern: humans fail, humans weep, God hears the weeping, and grace arrives not earned.',
+            'Israel&apos;s weeping at Bochim is not the end of the story — they sacrifice. Even in their failure, even as the covenant has been broken, they cry[res:bibleodyssey-judges-cycle] out and offer. Jesus teaches that "blessed are those who mourn" (Matthew 5:4). The mourning comes first, and it opens a door. Throughout Judges, when Israel weeps and groans under oppression, deliverers rise — not because they deserve rescue, but because a God who repents when He hears their pain raises up judges (Judges 2:18). This is the gospel pattern: humans fail, humans weep, God hears the weeping, and grace arrives not earned.',
         },
         {
           kind: 'carry',
@@ -239,7 +239,7 @@ export const JUDGES_2: RichChapterContent = {
           kind: 'commentary',
           id: 'evil-deed',
           html:
-            'The evil Israel did was not random or private. It was structural: serving the gods of Canaan. Baal and Ashtaroth were fertility deities bound up in ritual practices that directly violated the covenant. Israel did not gradually drift — they actively served and bowed. The action is not passive backsliding but deliberate turning away.',
+            'The evil Israel did was not random or private. It was structural: serving the gods of Canaan. Baal and Ashtaroth were fertility deities bound up in ritual practices that directly violated the covenant. Israel did not gradually drift — they actively served and bowed. The action is not passive backsliding but deliberate turning away[res:intertextual-judges-cycle-repentance].',
         },
         {
           kind: 'carry',
@@ -402,6 +402,33 @@ export const JUDGES_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Judges 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-judges-cycle',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'The Cycle of Judges: Forgetting and Deliverance',
+      url: 'https://www.bibleodyssey.org/passages/main-passage/judges-2',
+      description: 'The establishment of the recurring cycle in Judges: apostasy, oppression, repentance, and deliverance through a judge.',
+    },
+    {
+      id: 'sefaria-generation-knew-not-lord',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'A Generation That Knew Not the Lord',
+      url: 'https://www.sefaria.org/Judges.2?lang=bi',
+      description: 'The tragedy of spiritual amnesia: the failure to transmit knowledge of God from one generation to the next.',
+    },
+    {
+      id: 'intertextual-judges-cycle-repentance',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'God Hears the Weeping (Judges to Psalms)',
+      url: 'https://intertextual.bible/search?q=weeping+cry+god+hears+judges+deliverance+psalms',
+      description: 'Despite Israel&apos;s repeated failures, God&apos;s compassion is aroused by their crying, demonstrating His persistent mercy throughout Judges.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -106,7 +106,7 @@ export const PSALMS_51: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-51-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Plea for cleansing and confession of sin opens into prayer for restoration and teaching. Guilt becomes grace; shame becomes mission.',
         },
         {
           kind: 'scripture',

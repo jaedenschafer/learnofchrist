@@ -40,7 +40,7 @@ export const PSALMS_144: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-144-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Praise for battle strength opens into vow of song and blessing for the nation. Victory becomes praise.',
         },
         {
           kind: 'scripture',
@@ -105,7 +105,7 @@ export const PSALMS_144: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-144-78mid-2',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Praise for battle strength opens into vow of song and blessing for the nation. Victory becomes praise.',
         },
         {
           kind: 'scripture',

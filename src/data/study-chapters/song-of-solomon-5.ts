@@ -110,7 +110,7 @@ export const SONG_5: RichChapterContent = {
           kind: 'commentary',
           id: 'song-of-solomon-5-78mid-1',
           html:
-            'The voices change here — bride to beloved, or beloved to bride. The love song is sung antiphonally.',
+            'The Bride asks: Where has he gone? But her own heart answers with praise. She cannot speak of him without longing. The Song shows that desire is not diminished by absence—it deepens.',
         },
         {
           kind: 'scripture',

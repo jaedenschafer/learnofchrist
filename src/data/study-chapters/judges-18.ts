@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Judges 18 — The Danites steal the Levite and the idol. A whole tribe
+ * Judges 18 — The Dan[res:bibleodyssey-dan-migration]ites steal the Levite and the idol[res:sefaria-danites[res:intertextual-tribal-displacement-judgment]-idolatry]. A whole tribe
  * institutionalizes idolatry, and one man&apos;s syncretism becomes a nation&apos;s heritage.
  */
 export const JUDGES_18: RichChapterContent = {
@@ -118,7 +118,7 @@ export const JUDGES_18: RichChapterContent = {
           kind: 'commentary',
           id: 'levite-voice',
           html:
-            'The spies recognize the Levite by his voice and accent. He has been living in Micah&apos;s house, serving as a private priest. What should have been a sacred office—mediating between God and His people—has become a career transaction. Micah paid him to be his priest, and the Levite accepted.',
+            'The spies recognize the Levite by his voice and accent. He has been living in Micah&apos;s[res:sefaria-danites-idolatry] house, serving as a private priest. What should have been a sacred office—mediating between God and His people—has become a career transaction. Micah paid him to be his priest, and the Levite accepted.',
         },
         {
           kind: 'scripture',
@@ -295,7 +295,7 @@ export const JUDGES_18: RichChapterContent = {
           kind: 'commentary',
           id: 'theft-begin',
           html:
-            'The spies have spotted Micah&apos;s collection of idols. An <em>ephod</em> (priestly garment), <em>teraphim</em> (household idols), a <em>graven image</em> (wooden), and a <em>molten image</em> (metal)—all forbidden, all signs of syncretism. The five men see an opportunity to strengthen their own religious practice with better religious objects.',
+            'The spies have spotted Micah&apos;s[res:sefaria-danites-idolatry] collection of idols. An <em>ephod</em> (priestly garment), <em>teraphim</em> (household idols), a <em>graven image</em> (wooden), and a <em>molten image</em> (metal)—all forbidden, all signs of syncretism. The five men see an opportunity to strengthen their own religious practice with better religious objects.',
         },
         {
           kind: 'scripture',
@@ -328,7 +328,7 @@ export const JUDGES_18: RichChapterContent = {
             {
               number: 18,
               spans: [
-                t('And these went into Micah&apos;s house, and took the graven image, the ephod, and the teraphim, and the molten image. Then said the priest unto them, What do ye?'),
+                t('And these went into Micah&apos;s[res:sefaria-danites-idolatry] house, and took the graven image, the ephod, and the teraphim, and the molten image. Then said the priest unto them, What do ye?'),
               ],
             },
             {
@@ -405,7 +405,7 @@ export const JUDGES_18: RichChapterContent = {
             {
               number: 22,
               spans: [
-                t('And when they were a good way from the house of Micah, the men that were in the houses near to Micah&apos;s house were gathered together, and overtook the children of Dan.'),
+                t('And when they were a good way from the house of Micah, the men that were in the houses near to Micah&apos;s[res:sefaria-danites-idolatry] house were gathered together, and overtook the children of Dan.'),
               ],
             },
             {
@@ -455,7 +455,7 @@ export const JUDGES_18: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'It is a bitter thing to lose what you thought was yours. But Micah&apos;s gods were never his to keep. He made them; they cost him nothing but wood and metal. The Danites took them, and Micah was left with nothing but the knowledge that his whole religious life was hollow. Sometimes God allows us to lose the false gods we have built, so that we might finally seek the real one.',
+            'It is a bitter thing to lose what you thought was yours. But Micah&apos;s[res:sefaria-danites-idolatry] gods were never his to keep. He made them; they cost him nothing but wood and metal. The Danites took them, and Micah was left with nothing but the knowledge that his whole religious life was hollow. Sometimes God allows us to lose the false gods we have built, so that we might finally seek the real one.',
         },
       ],
     },
@@ -520,7 +520,7 @@ export const JUDGES_18: RichChapterContent = {
             {
               number: 31,
               spans: [
-                t('And they set them up Micah&apos;s graven image, which he had made, all the time that the house of God was in Shiloh.'),
+                t('And they set them up Micah&apos;s[res:sefaria-danites-idolatry] graven image, which he had made, all the time that the house of God was in Shiloh.'),
               ],
             },
           ],
@@ -587,7 +587,7 @@ export const JUDGES_18: RichChapterContent = {
             {
               number: 22,
               spans: [
-                t('And when they were a good way from the house of Micah, the men that were in the houses near to Micah&apos;s house were gathered together, and overtook the children of Dan.'),
+                t('And when they were a good way from the house of Micah, the men that were in the houses near to Micah&apos;s[res:sefaria-danites-idolatry] house were gathered together, and overtook the children of Dan.'),
               ],
             },
             {
@@ -625,7 +625,7 @@ export const JUDGES_18: RichChapterContent = {
           kind: 'commentary',
           id: 'c-loss',
           html:
-            'Micah&apos;s lament is clear: he has lost everything he worshiped, and the priest he trusted. His question "what have I more?" suggests a man who has poured his life into a false shrine. He is wrong to have made them; but he is right to feel the wound.',
+            'Micah&apos;s[res:sefaria-danites-idolatry] lament is clear: he has lost everything he worshiped, and the priest he trusted. His question "what have I more?" suggests a man who has poured his life into a false shrine. He is wrong to have made them; but he is right to feel the wound.',
         },
 
         {
@@ -753,7 +753,7 @@ export const JUDGES_18: RichChapterContent = {
             {
               number: 31,
               spans: [
-                t('And they set up Micah&apos;s graven image, which he made, all the time that the house of God was in Shiloh.'),
+                t('And they set up Micah&apos;s[res:sefaria-danites-idolatry] graven image, which he made, all the time that the house of God was in Shiloh.'),
               ],
             },
           ],
@@ -794,4 +794,31 @@ export const JUDGES_18: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'bibleodyssey-dan-migration',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'The Tribe of Dan&apos;s Migration',
+      url: 'https://www.bibleodyssey.org/passages/main-stories/judges',
+      description: 'The relocation of an entire tribe and territorial displacement.',
+    },
+    {
+      id: 'sefaria-danites-idolatry',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Danites and Stolen Idolatry',
+      url: 'https://www.sefaria.org/Judges.18',
+      description: 'How a sanctuary becomes a center for false worship.',
+    },
+    {
+      id: 'intertextual-tribal-displacement-judgment',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Consequences of Covenant Abandonment',
+      url: 'https://intertextual.org/Judges/18',
+      description: 'How entire communities fall away from God&apos;s purpose.',
+    },
+  ]
 };

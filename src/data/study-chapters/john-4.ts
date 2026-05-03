@@ -41,7 +41,7 @@ export const JOHN_4: RichChapterContent = {
           kind: 'commentary',
           id: 'john-4-78mid-1',
           html:
-            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+            'Jesus and the Samaritan woman speak of water and worship; she goes to the city to bring others. One conversation transforms a whole town; living water flows outward.',
         },
         {
           kind: 'scripture',

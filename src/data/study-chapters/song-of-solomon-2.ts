@@ -115,7 +115,7 @@ export const SONG_2: RichChapterContent = {
           kind: 'commentary',
           id: 'song-of-solomon-2-78mid-1',
           html:
-            'The voices change here — bride to beloved, or beloved to bride. The love song is sung antiphonally.',
+            'The scene shifts from the garden to the city. She seeks him by night through the streets, and the watchmen find her searching. Love will not be quiet.',
         },
         {
           kind: 'scripture',

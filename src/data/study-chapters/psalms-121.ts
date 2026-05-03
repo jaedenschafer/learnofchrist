@@ -38,7 +38,7 @@ export const PSALMS_121: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-121-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Trust that help comes from the Lord shifts to assurance of His keeping. Question becomes confidence.',
         },
         {
           kind: 'scripture',

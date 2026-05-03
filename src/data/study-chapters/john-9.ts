@@ -41,7 +41,7 @@ export const JOHN_9: RichChapterContent = {
           kind: 'commentary',
           id: 'john-9-78mid-1',
           html:
-            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+            'Jesus heals the blind man by spitting on the ground and anointing his eyes; the man sees. Now the Pharisees come to interrogate what has happened.',
         },
         {
           kind: 'scripture',
@@ -124,7 +124,7 @@ export const JOHN_9: RichChapterContent = {
           kind: 'commentary',
           id: 'john-9-78mid-2',
           html:
-            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+            'The blind man is interrogated and cast out; Jesus finds him and reveals Himself as the Son of Man. The man who was blind now truly sees; the Pharisees see nothing.',
         },
         {
           kind: 'scripture',

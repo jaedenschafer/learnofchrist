@@ -166,7 +166,7 @@ export const SAMUEL_1_18: RichChapterContent = {
           kind: 'commentary',
           id: '1-samuel-18-78mid-1',
           html:
-            'The story shifts here. Watch what changes in the room when the next person speaks.',
+            'David's victory makes him a threat. Saul sees him and hates him. The boy who played the harp is now a general—and Saul cannot bear it.',
         },
         {
           kind: 'scripture',

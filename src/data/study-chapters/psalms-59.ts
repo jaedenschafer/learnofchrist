@@ -29,7 +29,7 @@ export const PSALMS_59: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-59-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Urgent petition for rescue from enemies shifts to confidence in deliverance and vow of praise. Prayer moves toward promise.',
         },
         {
           kind: 'scripture',

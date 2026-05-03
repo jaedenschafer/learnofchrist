@@ -4,7 +4,7 @@ import { hp, hy, hg, t, type RichChapterContent } from './types';
  * Judges 6 — Gideon&apos;s Call
  * Israel under oppression by Midian. The angel calls a hidden thresher
  * "mighty man of valor." Gideon doubts, asks for signs, builds an altar
- * to Jehovah-Shalom. Tears down Baal&apos;s altar. The fleece.
+ * to Jehovah-Shalom. Tears down Baal[res:sefaria-baal-worship-judges]&apos;s altar. The fleece[res:intertextual-gideon-fleece].
  */
 export const JUDGES_6: RichChapterContent = {
   bookSlug: 'judges',
@@ -347,7 +347,7 @@ export const JUDGES_6: RichChapterContent = {
             {
               number: 17,
               spans: [
-                t('And Gideon said unto him, If now I have found grace in thy sight, then shew me a sign that thou talkest with me.'),
+                t('And Gideon said unto him, If now I have found grace in thy sight[res:bibleodyssey-gideon-angel], then shew me a sign that thou talkest with me.'),
               ],
             },
             {
@@ -738,5 +738,32 @@ export const JUDGES_6: RichChapterContent = {
       'God sends an angel to a hidden man and calls him a mighty man of valor. He tears down an altar of Baal, builds an altar to the Lord, and receives peace. His fear becomes his obedience.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Judges 6 · Study Guide',
-  },
+  },,
+
+  resources: [
+    {
+      id: 'bibleodyssey-gideon-angel',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Gideon and the Angel',
+      url: 'https://www.bibleodyssey.org/passages/main-stories/gideon',
+      description: 'Narrative and historical context of Gideon&apos;s call and the angel&apos;s appearance.',
+    },
+    {
+      id: 'sefaria-baal-worship-judges',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Baal Worship in Judges',
+      url: 'https://www.sefaria.org/Judges.6',
+      description: 'Commentary on Canaanite religious practices and Baal altars during the judges era.',
+    },
+    {
+      id: 'intertextual-gideon-fleece',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Gideon&apos;s Fleece Sign',
+      url: 'https://intertextual.org/Judges/6',
+      description: 'Thematic connections between Gideon&apos;s signs and divine confirmation in scripture.',
+    },
+  ],
 };

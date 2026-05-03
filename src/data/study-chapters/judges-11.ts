@@ -6,7 +6,7 @@ export const JUDGES_11: RichChapterContent = {
   chapter: 11,
   estimatedMinutes: { beginner: 3, intermediate: 10, deep: 13 },
   intros: [
-    'Jephthah the Gileadite was born of a harlot and expelled from his father&apos;s house. Yet when Israel faced invasion from Ammon, the elders called upon him as their only hope. His rise from the margins mirrors the pattern Scripture establishes: God&apos;s deliverers often come from rejected places. But Jephthah&apos;s story darkens. A vow made in the heat of battle will cost him everything he loves—a chapter that asks hard questions about rash speech, the binding weight of words, and the faith of those who are caught in the consequences of others&apos; choices.',
+    'Jephthah the Gileadite was born of a harlot and expelled from his father&apos;s house. Yet when Israel faced invasion from Ammon, the elders called upon him as their only hope. His rise from the margins mirrors the pattern Scripture establishes: God&apos;s deliverers often come from rejected places. But Jephthah&apos;s story darkens. A vow[res:bibleodyssey-jephthah-vow] made in the heat of battle will cost him everything he loves—a chapter that asks hard questions about rash speech, the binding weight of words, and the faith of those who are caught in the consequences of others&apos; choices.',
     'This is also a chapter that features in Hebrews 11 among the giants of faith, even as the story itself feels like a tragedy. The contrast is unsettling and teaches us that God&apos;s acceptance of our faith does not mean He endorses every choice we make.',
   ],
   sections: [
@@ -210,7 +210,7 @@ export const JUDGES_11: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          html: 'The Spirit of the Lord came upon Jephthah. In the moment before battle, the same power that had rested on Deborah and Samson came to him. He passed through the territories he now commanded—Gilead, Manasseh—and advanced toward the Ammonite camp.',
+          html: 'The Spirit of the Lord came upon Jephthah. In the moment before battle, the same power that had rested on Deborah and Samson came to him. He passed through the territories he now commanded—Gilead, Manasseh—and advanced toward the Ammonite[res:sefaria-jephthah-ammonites] camp.',
           id: 'jud11-spirit',
         },
         {
@@ -228,7 +228,7 @@ export const JUDGES_11: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          html: 'This vow is universally agonizing for interpreters. What did Jephthah intend? Two schools of thought emerge: (1) He intended to sacrifice the first living thing he encountered, assuming it would be an animal. The first thing to meet him would be his daughter—a human sacrifice, which Torah explicitly forbade (Leviticus 18:21, 20:2–5; Deuteronomy 12:31). This reading sees Jephthah as having made a rash promise in the heat of battle, binding himself to an act he should never have sworn to perform. God did not require this; Jephthah&apos;s rashness condemned his own daughter. (2) She was dedicated to perpetual virginity in service to the tabernacle—a living sacrifice, not a death. This reading spares the moral horror but strains the text.',
+          html: 'This vow is universally agonizing for interpreters. What did Jephthah intend? Two schools of thought emerge: (1) He intended to sacrifice the first living thing he encountered, assuming it would be an animal. The first thing to meet him would be his daughter[res:intertextual-father-daughter-sacrifice]—a human sacrifice, which Torah explicitly forbade (Leviticus 18:21, 20:2–5; Deuteronomy 12:31). This reading sees Jephthah as having made a rash promise in the heat of battle, binding himself to an act he should never have sworn to perform. God did not require this; Jephthah&apos;s rashness condemned his own daughter. (2) She was dedicated to perpetual virginity in service to the tabernacle—a living sacrifice, not a death. This reading spares the moral horror but strains the text.',
           id: 'jud11-vow-interpretation',
         },
         {
@@ -356,4 +356,31 @@ export const JUDGES_11: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ecclesiastes 5:5 · Judges 11 Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-jephthah-vow',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Jephthah and His Vow',
+      url: 'https://www.bibleodyssey.org/passages/main-stories/jephthah',
+      description: 'The tragedy of rash vows and their irreversible consequences.',
+    },
+    {
+      id: 'sefaria-jephthah-ammonites',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jephthah&apos;s Negotiation and War',
+      url: 'https://www.sefaria.org/Judges.11',
+      description: 'Analysis of Jephthah&apos;s diplomatic attempt and the escalation to conflict.',
+    },
+    {
+      id: 'intertextual-father-daughter-sacrifice',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Father and Daughter: The Cost of War',
+      url: 'https://intertextual.org/Judges/11',
+      description: 'Connections to Abraham and Isaac, and the tragedy of incomplete redemption.',
+    },
+  ]
 };

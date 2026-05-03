@@ -55,7 +55,7 @@ export const PSALMS_18: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-18-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'From description of deliverance to declaration of covenant. What God did becomes why He is faithful.',
         },
         {
           kind: 'scripture',

@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 12 — A Roll-Call of Kings
+ * Joshua 12 — A Roll-Call of Kings[res:sefaria-kings-list-geography][res:bibleodyssey-joshua-conquered-kings]
  *
  * This chapter lists two groups of kings Israel defeated: those east of Jordan
  * (under Moses) and those west of Jordan (under Joshua). It&apos;s a catalog of
@@ -17,7 +17,7 @@ export const JOSHUA_12: RichChapterContent = {
   estimatedMinutes: { beginner: 4, intermediate: 9, deep: 13 },
   intros: [
     'Joshua 12 is a victory roll-call. The chapter divides neatly into two halves: kings east of the Jordan River (defeated under Moses) and kings west of the Jordan (defeated under Joshua). It&apos;s less narrative and more bookkeeping—but don&apos;t mistake a list for mere record-keeping. Each name on this list was a fortified power, a god-king ruling over a walled city. Each represents a human stronghold that could not stand against the Lord.',
-    'The structure matters: the eastern victories belonged to the generation before Joshua—under Moses, the people defeated Sihon and Og, and received their inheritance on the east side of the Jordan. Now Joshua crosses over and defeats 31 more kings on the west side. Same God. Different leaders. One unstoppable pattern. For the first-time reader, this chapter might seem repetitive. But read it aloud, and you hear the drumbeat of conquest, the weight of prayer answered, and the ache of territories reclaimed.',
+    'The structure matters: the eastern victories belonged to the generation before Joshua—under Moses, the people defeated Sihon and Og, and received their inheritance on the east side of the Jordan. Now Joshua crosses over and defeats 31 more kings on the west side. Same God. Different leaders. One unstoppable pattern. For the first-time reader, this chapter might seem repetitive. But read it aloud, and you hear the drumbeat of conquest[res:bibleodyssey-conquest-complete], the weight of prayer answered, and the ache of territories reclaimed.',
   ],
 
   sections: [
@@ -33,7 +33,7 @@ export const JOSHUA_12: RichChapterContent = {
             {
               number: 1,
               spans: [
-                t('Now these are the kings of the land, which the children of Israel smote, and '),
+                t('Now these are the kings of the land[res:sefaria-conquered-territory], which the children of Israel smote, and '),
                 hp('possessed their land on the other side Jordan', 'jordan-east'),
                 t(' toward the rising of the sun; from the river Arnon unto mount Hermon, and all the plain on the east:'),
               ],
@@ -44,7 +44,7 @@ export const JOSHUA_12: RichChapterContent = {
           kind: 'commentary',
           id: 'jordan-east',
           html:
-            'The phrase &ldquo;on the other side Jordan&rdquo; marks territory already settled under Moses—not by Joshua, but in the generation before him. This list honors the work of the previous era. The boundary stretches from the Arnon River (south) to Mount Hermon (north)—the Transjordanian territory promised to Reuben, Gad, and half of Manasseh.',
+            'The phrase &ldquo;on the other side Jordan&rdquo; marks territory already settled under Moses—not by Joshua, but in the generation before him. This list honors the work of the previous era. The boundary stretches from the Arnon River (south) to Mount Hermon (north)—the Transjordanian territory promised[res:intertextual-promised-land] to Reuben, Gad, and half of Manasseh.',
         },
         {
           kind: 'scripture',
@@ -361,7 +361,7 @@ export const JOSHUA_12: RichChapterContent = {
         },
         {
           kind: 'christ',
-          id: 'christ-strongholds',
+          id: 'christ-strongholds[res:intertextual-strongholds-torn-down]',
           title: 'Christ Connection — The Pulling Down of Strongholds',
           html:
             'Paul draws a direct line from Joshua&apos;s conquest to spiritual warfare: "The weapons of our warfare are not carnal, but mighty through God to the pulling down of strongholds&rdquo; (2 Corinthians 10:4). Every king in this list represents a stronghold—a fortress of fear, pride, idolatry, or power that seemed immovable until God moved against it. In the New Testament, the strongholds are different (lies, addictions, rebellion), but the pattern is identical: they fall to God&apos;s power working through His people&apos;s faith. Nothing you face is stronger than the God who defeated thirty-one kings.',
@@ -469,4 +469,31 @@ export const JOSHUA_12: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Joshua 12 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-kings-list-geography',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Kings of Canaan: Geography and Chronology',
+      url: 'https://www.sefaria.org/Joshua.12',
+      description: 'Historical and geographical mapping of the 31 kings defeated during the conquest, their territories, and their place in Canaanite politics.',
+    },
+    {
+      id: 'bibleodyssey-conquest-complete',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'The Conquest Summarized: Moses to Joshua',
+      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-12',
+      description: 'Overview of Israel&apos;s victories under Moses and Joshua, integrating the eastern and western campaigns into a coherent history.',
+    },
+    {
+      id: 'intertextual-strongholds-torn-down',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Pulling Down Strongholds (Joshua to 2 Corinthians)',
+      url: 'https://intertextual.bible/search?q=strongholds+weapons+warfare+2+corinthians+10',
+      description: 'The metaphor of strongholds runs from Joshua&apos;s military conquest to Paul&apos;s spiritual warfare, showing the continuity of God&apos;s pattern.',
+    },
+  ],
 };

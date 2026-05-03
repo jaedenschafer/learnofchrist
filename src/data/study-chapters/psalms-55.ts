@@ -30,7 +30,7 @@ export const PSALMS_55: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-55-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Distress and fear yield to prayer and trust in God&apos;s deliverance. Fear of enemies becomes faith in God.',
         },
         {
           kind: 'scripture',

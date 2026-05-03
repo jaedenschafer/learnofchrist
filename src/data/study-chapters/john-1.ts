@@ -40,7 +40,7 @@ export const JOHN_1: RichChapterContent = {
           kind: 'commentary',
           id: 'john-1-78mid-1',
           html:
-            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+            'The Word was with God and was God; all things came through Him. Now John introduces the testimony: He came to His own, and His own did not receive Him.',
         },
         {
           kind: 'scripture',
@@ -118,7 +118,7 @@ export const JOHN_1: RichChapterContent = {
           kind: 'commentary',
           id: 'john-1-78mid-2',
           html:
-            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+            'John the Baptist testifies: "Behold, the Lamb of God"; now Andrew and Simon Peter follow Jesus. The sign points to the one signed for; disciples are called.',
         },
         {
           kind: 'scripture',
@@ -196,7 +196,7 @@ export const JOHN_1: RichChapterContent = {
           kind: 'commentary',
           id: 'john-1-78mid-3',
           html:
-            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+            'Jesus calls Philip and Nathanael; Nathanael is skeptical—can anything good come from Nazareth? Yet when he meets Jesus, he confesses: "You are the Son of God, the King of Israel."',
         },
         {
           kind: 'scripture',

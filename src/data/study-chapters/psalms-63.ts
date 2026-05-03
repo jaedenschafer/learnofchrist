@@ -30,7 +30,7 @@ export const PSALMS_63: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-63-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Thirst in the wilderness gives way to joy and praise. The desert&apos;s desolation becomes the soul&apos;s exultation.',
         },
         {
           kind: 'scripture',

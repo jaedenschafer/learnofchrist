@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 16 — Joseph&apos;s inheritance: Ephraim and Manasseh divide the land.
+ * Joshua 16 — Joseph[res:bibleodyssey-joseph-ephraim-manasseh][res:sefaria-joseph-inheritance]&apos;s inheritance: Ephraim[res:bibleodyssey-ephraim-manasseh] and Manasseh divide the land.
  * The theme: incomplete obedience brings compromise that later becomes a snare.
  */
 export const JOSHUA_16: RichChapterContent = {
@@ -11,7 +11,7 @@ export const JOSHUA_16: RichChapterContent = {
 
   estimatedMinutes: { beginner: 4, intermediate: 7, deep: 10 },
   intros: [
-    'Joshua 16 records the fulfillment of Jacob&apos;s blessing in Genesis 48: Joseph&apos;s inheritance is split between his two sons, Ephraim and Manasseh, and they divide the best land west of the Jordan. Ephraim&apos;s territory includes Bethel — the house of God where Jacob once saw the ladder — and other sacred ground soaked in covenant promise. But there is a dark thread running through the chapter: the Canaanites of Gezer remain unconquered, allowed to live within Ephraim&apos;s borders under tribute.',
+    'Joshua 16 records the fulfillment of Jacob&apos;s blessing in Genesis 48: Joseph&apos;s inheritance is split between his two sons, Ephraim and Manasseh, and they divide the best land west of the Jordan. Ephraim&apos;s territory includes Bethel — the house of God where Jacob once saw the ladder — and other sacred ground soaked in covenant promise. But there is a dark thread running through the chapter: the Canaanites of Gezer[res:iaa-gezer-canaanites] remain unconquered, allowed to live within Ephraim&apos;s borders under tribute.',
     'That detail repeats a pattern from Joshua 15. Israel was commanded to drive out the nations entirely — the herem, the complete separation that consecrates the land. Instead they chose a easier path: economic gain without full obedience. The Canaanites stay, enslaved and taxed. It sounds practical. It will later prove to be the beginning of Israel&apos;s spiritual compromise, a detail Judges will unfold in bitter detail. Every incomplete obedience to God carries a cost the obedient person rarely sees coming.',
   ],
 
@@ -116,7 +116,7 @@ export const JOSHUA_16: RichChapterContent = {
               number: 8,
               spans: [
                 t('From Tappuah the border went along on the west side of the river Kanah; and the goings out thereof were at the sea. '),
-                hy('This is the inheritance of the tribe of the children of Ephraim', 'ephraim-inherit'),
+                hy('This is the inheritance of the tribe[res:intertextual-tribes-promise] of the children of Ephraim', 'ephraim-inherit'),
                 t(' by their families.'),
               ],
             },
@@ -197,7 +197,7 @@ export const JOSHUA_16: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-little-leaven',
-          title: 'Christ Connection — The Danger of Partial Obedience',
+          title: 'Christ Connection — The Danger of Partial Obedience[res:intertextual-partial-obedience]',
           html:
             'Paul writes: &ldquo;A little leaven leaveneth the whole lump&rdquo; (Galatians 5:9). One Canaanite city left standing in Gezer does not seem significant. But compromise in obedience is never small. The pattern Israel set here — immediate gain over complete faithfulness — shapes the entire history of the Judges. The gods of the land begin to be whispered about. Intermarriage follows. Then comes full-blown idolatry. What began as a practical decision becomes a spiritual disaster. Partial obedience is not obedience; it is the beginning of something else.',
         },
@@ -254,6 +254,33 @@ export const JOSHUA_16: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Joshua 16 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-joseph-ephraim-manasseh',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Joseph&apos;s Tribes: Ephraim and Manasseh',
+      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-16-17',
+      description: 'The inheritance of Joseph&apos;s two tribes in the central highlands, with the tragic incomplete conquest of Gezer.',
+    },
+    {
+      id: 'iaa-gezer-canaanites',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Gezer and the Unconquered Canaanites',
+      url: 'https://www.antiquities.org.il/article-3050-en/Gezer.html',
+      description: 'Archaeological evidence of Gezer as a Canaanite stronghold that remained in their hands despite Joshua&apos;s conquest.',
+    },
+    {
+      id: 'intertextual-partial-obedience',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Partial Obedience and Its Consequences',
+      url: 'https://intertextual.bible/search?q=canaanites+not+drive+out+trouble+israel',
+      description: 'The pattern of incomplete obedience in Joshua that becomes a stumbling block for Israel throughout the Judges period.',
+    },
+  ],
 
   hasHebrew: true,
 };

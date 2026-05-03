@@ -41,7 +41,7 @@ export const MATTHEW_3: RichChapterContent = {
           kind: 'commentary',
           id: 'matthew-3-78mid-1',
           html:
-            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+            'John baptizes crowds as a sign of repentance; now Jesus Himself steps into the waters. The forerunner's work is completed; the one he announced has come.',
         },
         {
           kind: 'scripture',

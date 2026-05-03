@@ -438,7 +438,7 @@ export const PHILIPPIANS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'philippians-1-78mid-1',
           html:
-            'Paul turns the page here — from one note of joy to the next, holding it together with the gospel.',
+            'Paul writes of his own imprisonment and yet his joy in Christ; the gospel advances through his chains. From captivity comes freedom; from suffering comes song.',
         },
         {
           kind: 'scripture',

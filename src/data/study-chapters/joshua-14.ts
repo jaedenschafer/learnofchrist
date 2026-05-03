@@ -1,9 +1,9 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 14 — Caleb&apos;s inheritance. The tribes receive their lots in the Promised Land,
+ * Joshua 14 — Caleb[res:bibleodyssey-caleb-giants][res:bibleodyssey-caleb-inheritance]&apos;s inheritance. The tribes receive their lots in the Promised Land,
  * but the great moment belongs to Caleb: the man who wholly followed the Lord is rewarded
- * with the very mountain that still held giants. Patient faith vindicated. A life that
+ * with the very mountain that still held giants. Patient faith[res:sefaria-faith-45-years][res:intertextual-faithfulness-reward] vindicated. A life that
  * didn&apos;t waver for 45 years, and at 85, still asking for mountains instead of coasting.
  */
 export const JOSHUA_14: RichChapterContent = {
@@ -338,7 +338,7 @@ export const JOSHUA_14: RichChapterContent = {
             {
               number: 13,
               spans: [
-                t('And Joshua blessed him, and gave unto Caleb the son of Jephunneh Hebron for an inheritance.'),
+                t('And Joshua blessed him, and gave unto Caleb the son of Jephunneh Hebron[res:sefaria-hebron-possession] for an inheritance.'),
               ],
             },
           ],
@@ -431,7 +431,7 @@ export const JOSHUA_14: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'The land has rest now. Caleb earned it by wholly following. You know the opposite of rest: the anxiety of hedging your bets, the weariness of living for two masters, the noise of always keeping an exit strategy. Whole-hearted devotion to God doesn&apos;t bring wealth or easy circumstances or exemption from hard mountains. But it does bring peace—the deep rest that comes from knowing you are where He put you, doing what He called you to do, and being held by His unbroken faithfulness.',
+            'The land has rest now. Caleb earned it by wholly following[res:intertextual-wholly-following]. You know the opposite of rest: the anxiety of hedging your bets, the weariness of living for two masters, the noise of always keeping an exit strategy. Whole-hearted devotion to God doesn&apos;t bring wealth or easy circumstances or exemption from hard mountains. But it does bring peace—the deep rest that comes from knowing you are where He put you, doing what He called you to do, and being held by His unbroken faithfulness.',
         },
 
         {
@@ -450,6 +450,33 @@ export const JOSHUA_14: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Joshua 14 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-caleb-giants',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Caleb and the Anakim Giants of Hebron',
+      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-14',
+      description: 'Caleb&apos;s request for the mountain of Hebron despite his age, demonstrating unwavering faith and wholehearted devotion to God.',
+    },
+    {
+      id: 'sefaria-faith-45-years',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Faith Tested Over Forty-Five Years',
+      url: 'https://www.sefaria.org/Numbers.13-14?lang=bi',
+      description: 'The connection between Caleb&apos;s faithfulness at Kadesh-Barnea and his reward forty-five years later in the distribution of the promised land.',
+    },
+    {
+      id: 'intertextual-wholly-following',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Wholly Following God (Numbers to Joshua)',
+      url: 'https://intertextual.bible/search?q=wholly+follow+lord+caleb+numbers+joshua',
+      description: 'The phrase &ldquo;wholly followed&rdquo; traces from Numbers 14 through Joshua 14, showing the reward of undivided allegiance.',
+    },
+  ],
 
   hasHebrew: true,
 };

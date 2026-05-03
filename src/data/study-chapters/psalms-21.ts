@@ -39,7 +39,7 @@ export const PSALMS_21: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-21-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Thanksgiving for what the Lord has done opens into prayer for what the Lord will do. Praise summons trust.',
         },
         {
           kind: 'scripture',

@@ -1,10 +1,10 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 15 — Judah&apos;s Inheritance. The lot of Judah and the boundaries of the
+ * Joshua 15 — Judah[res:iaa-judah-territory-archaeology]&apos;s Inheritance[res:bibleodyssey-judah-inheritance]. The lot of Judah and the boundaries of the
  * Promised Land belonging to the tribe destined to bring forth king and Messiah.
  * Caleb&apos;s triumph over the Anakim, Achsah&apos;s bold request for springs, and
- * the catalog of Judah&apos;s cities—from the wilderness to the sea. The Jebusites
+ * the catalog of Judah&apos;s cities—from the wilderness to the sea. The Jebusites[res:intertextual-jebusites-david]
  * remain in Jerusalem, foreshadowing the delay until David.
  */
 export const JOSHUA_15: RichChapterContent = {
@@ -440,6 +440,33 @@ export const JOSHUA_15: RichChapterContent = {
             'What is the "Jerusalem" in your life—the thing you have not yet been able to possess or change? How might God be using the delay to shape something larger than you can yet see?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'iaa-judah-territory-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'The Territory of Judah and Its Cities',
+      url: 'https://www.antiquities.org.il/article-3050-en/Judah.html',
+      description: 'Archaeological evidence of the cities and boundaries of Judah&apos;s tribal inheritance, including the Jebusites in Jerusalem.',
+    },
+    {
+      id: 'bibleodyssey-judah-inheritance',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Judah&apos;s Inheritance and Jerusalem&apos;s Delayed Conquest',
+      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-15',
+      description: 'The extensive territory allotted to Judah, with the peculiar detail that the Jebusites remained in Jerusalem until David&apos;s later conquest.',
+    },
+    {
+      id: 'intertextual-jebusites-david',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Jebusites from Joshua to David',
+      url: 'https://intertextual.bible/search?q=jebusites+jerusalem+joshua+david+conquest',
+      description: 'How the unfinished conquest of Jerusalem in Joshua&apos;s time set the stage for David&apos;s reign and the establishment of the Davidic covenant.',
     },
   ],
 };

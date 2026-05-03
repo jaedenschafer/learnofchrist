@@ -173,7 +173,7 @@ export const SAMUEL_2_22: RichChapterContent = {
           kind: 'commentary',
           id: '2-samuel-22-78mid-1',
           html:
-            'The narrative pivots — David&apos;s reign is rarely smooth, and the next verses press into a different corner of the story.',
+            'David sings of deliverance. The song shifts from what God did in the past to what he does always. Thanksgiving becomes theology.',
         },
         {
           kind: 'scripture',
@@ -307,7 +307,7 @@ export const SAMUEL_2_22: RichChapterContent = {
           kind: 'commentary',
           id: '2-samuel-22-78mid-2',
           html:
-            'The narrative pivots — David&apos;s reign is rarely smooth, and the next verses press into a different corner of the story.',
+            'David sings of deliverance. The song shifts from what God did in the past to what he does always. Thanksgiving becomes theology.',
         },
         {
           kind: 'scripture',
@@ -417,7 +417,7 @@ export const SAMUEL_2_22: RichChapterContent = {
           kind: 'commentary',
           id: '2-samuel-22-78mid-3',
           html:
-            'The narrative pivots — David&apos;s reign is rarely smooth, and the next verses press into a different corner of the story.',
+            'David sings of deliverance. The song shifts from what God did in the past to what he does always. Thanksgiving becomes theology.',
         },
         {
           kind: 'scripture',

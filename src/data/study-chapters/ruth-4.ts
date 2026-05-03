@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Ruth 4 — Redemption and Lineage to David
+ * Ruth[res:bibleodyssey-ruth-boaz-marry] 4 — Redemption and Lineage to David[res:sefaria-david-genealogy]
  *
  * Boaz as the kinsman-redeemer; the gate as ancient courtroom; Ruth's place
  * in the genealogy of Christ; restoration of Naomi from empty to full.
@@ -14,7 +14,7 @@ export const RUTH_4: RichChapterContent = {
   estimatedMinutes: { beginner: 7, intermediate: 10, deep: 12 },
   intros: [
     'Ruth 4 resolves every thread of the story. Boaz goes to the gate — the ancient place where property is transferred and disputes are settled — to claim his right to redeem Ruth and her dead husband&apos;s land. But there is a nearer kinsman who holds the first right. The drama turns on a single moment: will he redeem, or will he refuse?',
-    'The chapter ends not with Ruth and Boaz, but with a baby named Obed. The women announce to Naomi that a son is born to her — and the genealogy that closes the book reaches all the way to David, planting a royal line through the despised foreigner. For Christians, the line does not stop at David. It reaches forward to another child born to an unlikely family, and to redemption that would cost far more than a field.',
+    'The chapter ends not with Ruth and Boaz, but with a baby named Obed[res:intertextual-ruth-matthew-messiah]. The women announce to Naomi that a son is born to her — and the genealogy that closes the book reaches all the way to David, planting a royal line through the despised foreigner. For Christians, the line does not stop at David. It reaches forward to another child born to an unlikely family, and to redemption that would cost far more than a field.',
   ],
 
   opener: {
@@ -448,4 +448,31 @@ export const RUTH_4: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'bibleodyssey-ruth-boaz-marry',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Ruth and Boaz Marry',
+      url: 'https://www.bibleodyssey.org/passages/main-stories/ruth',
+      description: 'The legal process, community witness, and the birth of Obed.',
+    },
+    {
+      id: 'sefaria-david-genealogy',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Line to David',
+      url: 'https://www.sefaria.org/Ruth.4',
+      description: 'Ruth&apos;s place in Israel&apos;s royal genealogy and the significance of her lineage.',
+    },
+    {
+      id: 'intertextual-ruth-matthew-messiah',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'From Ruth to Jesus: The Lineage of Redemption',
+      url: 'https://intertextual.org/Ruth/4',
+      description: 'The narrative arc from exile, faithfulness, and redemption to the coming Messiah.',
+    },
+  ]
 };

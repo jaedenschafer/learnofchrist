@@ -39,7 +39,7 @@ export const PSALMS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-11-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Counselors tell the psalmist to flee; instead he turns to affirm what God sees. Doubt surrenders to trust.',
         },
         {
           kind: 'scripture',

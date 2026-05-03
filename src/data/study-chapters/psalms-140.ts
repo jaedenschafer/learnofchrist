@@ -85,7 +85,7 @@ export const PSALMS_140: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-140-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Prayer for rescue from violent enemies opens into confidence in the Lord&apos;s help and assurance of the righteous dwelling before Him. Plea becomes promise.',
         },
         {
           kind: 'scripture',

@@ -37,7 +37,7 @@ export const PSALMS_46: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-46-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Confidence in God&apos;s refuge narrows to invitation to know Him. Fortress becomes stillness; might becomes recognition.',
         },
         {
           kind: 'scripture',

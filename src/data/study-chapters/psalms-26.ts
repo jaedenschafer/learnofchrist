@@ -40,7 +40,7 @@ export const PSALMS_26: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-26-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'The declaration of innocence shifts to yearning for community. Solitude becomes sanctuary; the temple calls.',
         },
         {
           kind: 'scripture',

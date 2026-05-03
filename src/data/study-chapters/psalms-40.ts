@@ -40,7 +40,7 @@ export const PSALMS_40: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-40-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Waiting for God and being rescued shifts to exhortation and trust. Personal deliverance becomes testimony to others.',
         },
         {
           kind: 'scripture',

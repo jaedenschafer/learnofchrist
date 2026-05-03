@@ -1,10 +1,10 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 8 — Victory at Ai and the Law read at Ebal.
+ * Joshua[res:intertextual-complete-obedience] 8 — Victory at Ai[res:bibleodyssey-ai-ambush] and the Law[res:sefaria-joshua-law-reading] read at Ebal[res:bibleodyssey-ebal].
  * After the defeat at Achan, God renews the call to courage and gives Joshua
- * a military strategy that succeeds. But conquest yields immediately to covenant:
- * Joshua builds an altar on Mount Ebal and reads the entire law before all Israel,
+ * a military strategy that succeeds. But conquest yields immediately to covenant[res:sefaria-covenant-law]:
+ * Joshua builds an altar on Mount Ebal[res:iaa-mount-ebal] and reads the entire law before all Israel,
  * with blessings and curses as commanded in Deuteronomy 27. The king of Ai,
  * like future figures under judgment, hangs on a tree until evening but is taken
  * down before sunset—a prefigurement of Christ on the cross.
@@ -603,6 +603,33 @@ export const JOSHUA_8: RichChapterContent = {
           prompt: 'What would it mean to read the law aloud in your own life—to name the standards you actually live by and let your family hear them? What would change?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'iaa-mount-ebal',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Mount Ebal Excavations and Altar',
+      url: 'https://www.antiquities.org.il/article-3100-en/Mount%20Ebal.html',
+      description: 'Archaeological evidence from Mount Ebal including remains of early Iron Age structures and altar sites.',
+    },
+    {
+      id: 'sefaria-covenant-law',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Covenant Renewal and the Law Read Aloud',
+      url: 'https://www.sefaria.org/Joshua.8?lang=bi',
+      description: 'Textual parallels between Joshua 8 and Deuteronomy 27, showing the covenant renewal ceremony with blessings and curses.',
+    },
+    {
+      id: 'bibleodyssey-ebal',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Mount Ebal and Mount Gerizim in Scripture',
+      url: 'https://www.bibleodyssey.org/dictionary/ebal/',
+      description: 'SBL study of the two covenant mountains and their role in Israel\'s covenant renewal and blessing.',
     },
   ],
 

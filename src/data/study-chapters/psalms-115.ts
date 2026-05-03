@@ -39,7 +39,7 @@ export const PSALMS_115: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-115-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Glory to God alone and contrast of idols with the true God opens into blessing and promise of praise from the living. Truth becomes testimony.',
         },
         {
           kind: 'scripture',

@@ -1,9 +1,9 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Judges 13 — Samson&apos;s Birth Announced
+ * Judges 13 — Samson[res:bibleodyssey-samson-birth]&apos;s Birth Announced
  *
- * The angel&apos;s appearance to Manoah&apos;s wife, the mystery of the divine name,
+ * The angel[res:intertextual-john-baptist-samson]&apos;s appearance to Manoah&apos;s wife, the mystery of the divine name,
  * and the birth of Israel&apos;s deliverer — a chapter full of Christophany echoes.
  */
 export const JUDGES_13: RichChapterContent = {
@@ -481,4 +481,31 @@ export const JUDGES_13: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Judges 13 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-samson-birth',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Samson&apos;s Birth and Dedication',
+      url: 'https://www.bibleodyssey.org/passages/main-stories/samson',
+      description: 'Nazirite[res:sefaria-nazirite-judges] vows and the angel&apos;s announcement of a deliverer.',
+    },
+    {
+      id: 'sefaria-nazirite-judges',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Nazirite Vow in Israel',
+      url: 'https://www.sefaria.org/Judges.13',
+      description: 'Separation, holiness, and the calling of those set apart by God.',
+    },
+    {
+      id: 'intertextual-john-baptist-samson',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Forerunners and Divine Purpose',
+      url: 'https://intertextual.org/Judges/13',
+      description: 'Connections between Samson&apos;s announcement and later messenger figures.',
+    },
+  ]
 };

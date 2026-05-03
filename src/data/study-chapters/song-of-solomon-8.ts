@@ -41,7 +41,7 @@ export const SONG_8: RichChapterContent = {
           kind: 'commentary',
           id: 'song-of-solomon-8-78mid-1',
           html:
-            'The voices change here — bride to beloved, or beloved to bride. The love song is sung antiphonally.',
+            'The Bride speaks of their love as stronger than death, as burning like a flame. She names what she has learned: Love cannot be bought, and a sister guarded is a sister kept safe.',
         },
         {
           kind: 'scripture',
@@ -107,7 +107,7 @@ export const SONG_8: RichChapterContent = {
           kind: 'commentary',
           id: 'song-of-solomon-8-78mid-2',
           html:
-            'The voices change here — bride to beloved, or beloved to bride. The love song is sung antiphonally.',
+            'The Bride speaks of their love as stronger than death, as burning like a flame. She names what she has learned: Love cannot be bought, and a sister guarded is a sister kept safe.',
         },
         {
           kind: 'scripture',

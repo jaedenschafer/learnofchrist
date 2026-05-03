@@ -39,7 +39,7 @@ export const PSALMS_114: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-114-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'The exodus and wilderness wonders of nature yield to question and transformation. Miracles prompt reflection.',
         },
         {
           kind: 'scripture',

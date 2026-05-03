@@ -39,7 +39,7 @@ export const PSALMS_129: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-129-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Affliction from youth and the Lord&apos;s faithfulness yield to prayer against enemies. Endurance becomes vindication.',
         },
         {
           kind: 'scripture',

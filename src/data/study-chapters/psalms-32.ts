@@ -39,7 +39,7 @@ export const PSALMS_32: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-32-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Confession of sin opens into instruction for others. The release of silence teaches those who suffer shame.',
         },
         {
           kind: 'scripture',

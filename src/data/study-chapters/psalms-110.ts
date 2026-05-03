@@ -39,7 +39,7 @@ export const PSALMS_110: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-110-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Promise of the king&apos;s rule and triumph opens into oath about his priesthood. Dominion becomes covenant.',
         },
         {
           kind: 'scripture',

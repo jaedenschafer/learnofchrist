@@ -40,7 +40,7 @@ export const JOHN_15: RichChapterContent = {
           kind: 'commentary',
           id: 'john-15-78mid-1',
           html:
-            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+            'Jesus speaks of the vine and the branches; believers abide in Him and bear much fruit. From union comes fruitfulness; from the vine comes the harvest.',
         },
         {
           kind: 'scripture',

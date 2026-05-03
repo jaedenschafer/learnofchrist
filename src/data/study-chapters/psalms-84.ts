@@ -92,7 +92,7 @@ export const PSALMS_84: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-84-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Longing for God&apos;s house opens into blessing of pilgrims and strength in the Lord. Desire becomes doxology.',
         },
         {
           kind: 'scripture',

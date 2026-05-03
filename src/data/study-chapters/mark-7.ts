@@ -43,7 +43,7 @@ export const MARK_7: RichChapterContent = {
           kind: 'commentary',
           id: 'mark-7-78mid-1',
           html:
-            'Mark moves quickly. The next verses press from one scene to the next without pause; the gospel is in a hurry.',
+            'Jesus has cleansed the heart of a Gentile woman's daughter, proving that compassion transcends the law; now He moves to Galilee. The kingdoms of tradition yield to the kingdom of God.',
         },
         {
           kind: 'scripture',

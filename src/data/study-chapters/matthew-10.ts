@@ -42,7 +42,7 @@ export const MATTHEW_10: RichChapterContent = {
           kind: 'commentary',
           id: 'matthew-10-78mid-1',
           html:
-            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+            'Jesus warns of persecution coming to His disciples; now He moves to comfort. Fear them not; what is covered will be revealed, what is hidden will be made known.',
         },
         {
           kind: 'scripture',

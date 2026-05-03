@@ -39,7 +39,7 @@ export const PSALMS_132: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-132-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'David&apos;s oath to find a place for the Lord shifts to God&apos;s promise to establish his throne. Vow becomes covenant.',
         },
         {
           kind: 'scripture',

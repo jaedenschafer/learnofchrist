@@ -41,7 +41,7 @@ export const MATTHEW_22: RichChapterContent = {
           kind: 'commentary',
           id: 'matthew-22-78mid-1',
           html:
-            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+            'Jesus silences the Sadducees with His answer on the resurrection; now the Pharisees gather and one asks about the greatest commandment. From controversy comes clarity.',
         },
         {
           kind: 'scripture',

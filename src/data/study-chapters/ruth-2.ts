@@ -1,9 +1,9 @@
 import { hp, hy, hg, t, plain, verse, type RichChapterContent } from './types';
 
 /**
- * Ruth 2 — Ruth Meets Boaz
+ * Ruth 2 — Ruth Meets Boaz[res:bibleodyssey-ruth-boaz-field]
  *
- * Naomi's kinsman-redeemer appears on the horizon. Ruth, gleaning in the field,
+ * Naomi's kinsman-redeemer appears on the horizon. Ruth, gleaning[res:sefaria-levitical-gleaning] in the field,
  * finds herself in the exact place where grace is waiting. Every gesture Boaz makes—
  * from his greeting to his workers, to his protective charge, to his table invitation—
  * prefigures Christ's redemptive work.
@@ -24,7 +24,7 @@ export const RUTH_2: RichChapterContent = {
   estimatedMinutes: { beginner: 4, intermediate: 10, deep: 13 },
   intros: [
     'Ruth 2 opens with a woman in desperate need. Naomi\'s widow and foreigner, with nothing. But instead of despair, she has a plan: go to the fields at harvest time and glean—pick up the grain left behind by the reapers, which the law protected for the poor and the stranger.',
-    'What unfolds is one of Scripture\'s most tenderly told stories of divine providence. Ruth\'s decision to glean seems small. Her "hap"—her chance—to light on one particular field seems like luck. But the reader knows what Ruth doesn\'t: she has just walked into a field where grace is waiting in the form of Boaz, a man of kindness and integrity, already known as a redeemer. By the end of the chapter, he will have given her more grain than she earned, invited her to his table, and charged his workers to protect her. He is already redeeming her—before he ever formally becomes her kinsman-redeemer.',
+    'What unfolds is one of Scripture\'s most tenderly told stories of divine providence. Ruth\'s decision to glean seems small. Her "hap"—her chance—to light on one particular field seems like luck. But the reader knows what Ruth doesn\'t: she has just walked into a field where grace is waiting in the form of Boaz, a man of kindness[res:intertextual-ruth-boaz-covenant] and integrity, already known as a redeemer. By the end of the chapter, he will have given her more grain than she earned, invited her to his table, and charged his workers to protect her. He is already redeeming her—before he ever formally becomes her kinsman-redeemer.',
   ],
 
   sections: [
@@ -379,4 +379,32 @@ export const RUTH_2: RichChapterContent = {
   },
 
   hasHebrew: true,
+,
+
+  resources: [
+    {
+      id: 'bibleodyssey-ruth-boaz-field',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Ruth Gleaning in Boaz&apos;s Field',
+      url: 'https://www.bibleodyssey.org/passages/main-stories/ruth',
+      description: 'Provision through law, kindness, and the protection of a righteous landowner.',
+    },
+    {
+      id: 'sefaria-levitical-gleaning',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Law of Gleaning',
+      url: 'https://www.sefaria.org/Ruth.2',
+      description: 'Ancient Near Eastern agricultural practices and Israel&apos;s care for the poor.',
+    },
+    {
+      id: 'intertextual-ruth-boaz-covenant',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Providence and Kindness Converge',
+      url: 'https://intertextual.org/Ruth/2',
+      description: 'How Ruth&apos;s diligence and Boaz&apos;s righteousness align with God&apos;s purposes.',
+    },
+  ]
 };

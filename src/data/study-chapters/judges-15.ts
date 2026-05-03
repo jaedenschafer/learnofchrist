@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Judges 15 — Foxes, Fires, and the Jawbone
+ * Judges 15 — Foxes[res:bibleodyssey-samson-foxes-vengeance], Fires, and the Jawbone[res:sefaria-samson-jawbone]
  * A chapter about the Spirit's power on a flawed vessel, the people's betrayal of their deliverer,
  * and God's provision in the wilderness. Samson's revenge cycle exposes the spiritual confusion
  * of the judges era, while his prayer and God's response foreshadow Christ's true deliverance.
@@ -13,7 +13,7 @@ export const JUDGES_15: RichChapterContent = {
 
   estimatedMinutes: { beginner: 6, intermediate: 12, deep: 15 },
   intros: [
-    'Judges 15 is a chapter of escalating violence and extraordinary feats. Samson, rejected by his wife&apos;s father, takes revenge on the Philistines by sending 300 foxes with burning tails into their fields. The retaliation comes swiftly: his wife and her father are burned to death. Samson vows to strike them again, does so with great slaughter, and then hides in a cave. But his own people — the men of Judah — come to bind him and hand him over to the Philistines.',
+    'Judges 15 is a chapter of escalating violence and extraordinary feats. Samson, rejected by his wife&apos;s father, takes revenge on the Philistines[res:intertextual-judges-violence-restraint] by sending 300 foxes with burning tails into their fields. The retaliation comes swiftly: his wife and her father are burned to death. Samson vows to strike them again, does so with great slaughter, and then hides in a cave. But his own people — the men of Judah — come to bind him and hand him over to the Philistines.',
     'This is the moral center of the Judges narrative: not Samson&apos;s strength, but his people&apos;s choice to protect their oppressors over their own deliverer. Yet even as the chapter darkens, the Spirit of the Lord comes mightily upon Samson, his bonds melt like burned flax, he kills a thousand men with a donkey&apos;s jawbone, and when thirst threatens him, God provides water from a hollow place. Revenge and deliverance tangle together here — but underneath it all, God&apos;s power breaks through.',
     'The chapter ends with a strange note: "Samson judged Israel in the days of the Philistines twenty years." He was a judge in Israel, yet never once do the people rally to him. They fear the Philistines more than they trust the man God raised to free them. It&apos;s a pattern that will echo in the life of the One the prophets called Israel&apos;s true Judge and Deliverer.',
   ],
@@ -450,4 +450,31 @@ export const JUDGES_15: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Judges 15 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-samson-foxes-vengeance',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Samson&apos;s Revenge',
+      url: 'https://www.bibleodyssey.org/passages/main-stories/samson',
+      description: 'The burning of the Philistine fields and escalating conflict.',
+    },
+    {
+      id: 'sefaria-samson-jawbone',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Samson with the Jawbone of a Donkey',
+      url: 'https://www.sefaria.org/Judges.15',
+      description: 'The victory at Lehi and the commemoration of divine deliverance.',
+    },
+    {
+      id: 'intertextual-judges-violence-restraint',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Unrestrained Power and Eventual Judgment',
+      url: 'https://intertextual.org/Judges/15',
+      description: 'The trajectory of Samson&apos;s story toward his tragic end.',
+    },
+  ]
 };

@@ -38,7 +38,7 @@ export const PSALMS_16: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-16-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'From the blessing of inheritance to the blessing of presence. God as portion becomes God as guide.',
         },
         {
           kind: 'scripture',

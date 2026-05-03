@@ -111,7 +111,7 @@ export const JOHN_13: RichChapterContent = {
           kind: 'commentary',
           id: 'john-13-78mid-1',
           html:
-            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+            'Jesus washes the disciples&apos; feet in an act of humbling love; now He begins to teach. The servant-teacher shows them the pattern: love is shown in service.',
         },
         {
           kind: 'scripture',

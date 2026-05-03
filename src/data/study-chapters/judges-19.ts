@@ -7,7 +7,7 @@ export const JUDGES_19: RichChapterContent = {
 
   estimatedMinutes: { beginner: 5, intermediate: 10, deep: 11 },
   intros: [
-    'Judges 19 is one of Scripture&apos;s darkest passages. Without commentary, the text reports what happened in Gibeah: a Levite&apos;s concubine was gang-raped by men "of Belial" (worthless men), and the Levite responded not with rescue but with an act of violence—cutting her body into twelve pieces and sending them to Israel&apos;s tribes as a summons to judgment.',
+    'Judges 19 is one of Scripture&apos;s darkest passages. Without commentary, the text reports what happened in Gibeah[res:sefaria-gibeah-sin]: a Levite[res:bibleodyssey-levite-concubine]&apos;s concubine was gang-raped by men "of Belial" (worthless men), and the Levite responded not with rescue but with an act of violence—cutting her body into twelve pieces and sending them to Israel&apos;s tribes as a summons to judgment.',
     'The chapter echoes Genesis 19 (Sodom&apos;s attempted sexual assault on Lot&apos;s guests) but with a horrifying difference: this time the atrocity happens inside Israel, not outside it. The bookend phrase—"in those days there was no king in Israel"—signals that without God&apos;s rule, depravity knows no bounds, even among the covenant people.',
     'What emerges is not a story to admire but a warning. The Levite lacks the sacrificial love that Christ embodies. The people of Israel must reckon with what they have become. And the reader is left to ask: How did we get here?'
   ],
@@ -32,7 +32,7 @@ export const JUDGES_19: RichChapterContent = {
           kind: 'commentary',
           id: 'judges-19-78mid-1',
           html:
-            'The cycle turns again — a new actor, a new failure or deliverance, the same God still patient with His people.',
+            'A man and his concubine flee Gibeah after a night of horror. The Levite&apos;s response will tear the tribes apart. One sin begets many—the cycle turns darker now.',
         },
         {
           kind: 'scripture',
@@ -48,7 +48,7 @@ export const JUDGES_19: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'lev-friendly',
-          html: 'The Levite "spoke friendly"—the Hebrew word is &apos;ãlah, which suggests gentleness, reassurance. He came not to condemn but to reconcile. Her father accepted him, even welcomed him with ritual hospitality. The word "whore" (zânâh) is ambiguous here; some scholars read it as "betrayed" or "was angry." The text leaves the exact nature of her offense unclear, but the Levite&apos;s response is tender: he makes the journey to retrieve her.'
+          html: 'The Levite "spoke friendly"—the Hebrew word is &apos;ãlah, which suggests gentleness, reassurance. He came not to condemn but to reconcile. Her father accepted him, even welcomed him with ritual hospitality[res:intertextual-hospitality-violated]. The word "whore" (zânâh) is ambiguous here; some scholars read it as "betrayed" or "was angry." The text leaves the exact nature of her offense unclear, but the Levite&apos;s response is tender: he makes the journey to retrieve her.'
         },
         {
           kind: 'commentary',
@@ -229,4 +229,32 @@ export const JUDGES_19: RichChapterContent = {
     snippet: 'Judges 19:30 — Israel&apos;s own conscience indicts what it has become.',
     ref: 'Judges 19:30'
   }
+,
+
+  resources: [
+    {
+      id: 'bibleodyssey-levite-concubine',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'The Levite and His Concubine',
+      url: 'https://www.bibleodyssey.org/passages/main-stories/judges',
+      description: 'One of scripture&apos;s darkest narratives of hospitality betrayed.',
+    },
+    {
+      id: 'sefaria-gibeah-sin',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Sin of Gibeah',
+      url: 'https://www.sefaria.org/Judges.19',
+      description: 'Breakdown of law, order, and human decency in Israel&apos;s final judge era.',
+    },
+    {
+      id: 'intertextual-hospitality-violated',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'When Hospitality Fails: Sodom Echoes',
+      url: 'https://intertextual.org/Judges/19',
+      description: 'References to Lot&apos;s narrative and the gravity of covenant community standards.',
+    },
+  ]
 };

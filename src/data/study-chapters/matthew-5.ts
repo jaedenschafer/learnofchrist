@@ -45,7 +45,7 @@ export const MATTHEW_5: RichChapterContent = {
           kind: 'commentary',
           id: 'matthew-5-78mid-1',
           html:
-            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+            'Jesus finishes the first beatitude; the crowd waits for the word on mercy. From blessed poverty comes blessed compassion.',
         },
         {
           kind: 'scripture',

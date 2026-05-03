@@ -29,7 +29,7 @@ export const PSALMS_62: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-62-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'The psalmist&apos;s own waiting for God expands to exhortation for others. Personal silence becomes communal encouragement.',
         },
         {
           kind: 'scripture',

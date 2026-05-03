@@ -113,7 +113,7 @@ export const MATTHEW_9: RichChapterContent = {
           kind: 'commentary',
           id: 'matthew-9-78mid-1',
           html:
-            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+            'Jesus calls Matthew the tax collector; the disciples recline with him and sinners at table. The healthy do not need a physician; those who are sick do.',
         },
         {
           kind: 'scripture',

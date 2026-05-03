@@ -39,7 +39,7 @@ export const PSALMS_17: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-17-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Urgent petition for justice yields to deeper affirmation of closeness. Plea becomes promise: awakening in His likeness.',
         },
         {
           kind: 'scripture',

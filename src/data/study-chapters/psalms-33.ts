@@ -112,7 +112,7 @@ export const PSALMS_33: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-33-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Exhortation to praise yields to observation of God&apos;s watching. Song becomes wisdom; joy becomes instruction.',
         },
         {
           kind: 'scripture',

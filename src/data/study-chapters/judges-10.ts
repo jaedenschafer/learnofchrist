@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Judges 10 — Tola, Jair, and the Great Cry
+ * Judges 10 — Tola[res:bibleodyssey-tola-jair], Jair, and the Great Cry
  *
  * A chapter about quiet judges, multiplied idolatries, God&apos;s tough love,
  * true repentance, and the tender heart of God grieved by His people&apos;s suffering.
@@ -248,7 +248,7 @@ export const JUDGES_10: RichChapterContent = {
           kind: 'commentary',
           id: 'sore-distressed',
           html:
-            'The Hebrew carries physical weight — they are crushed, overwhelmed, hemmed in on all sides. The Philistines from the west, the Ammonites from the east. No escape. The moment is designed to break the illusion that Israel can prosper without God.',
+            'The Hebrew carries physical weight — they are crushed, overwhelmed, hemmed in on all sides. The Philistines from the west, the Ammonites[res:sefaria-ammon-oppression] from the east. No escape. The moment is designed to break the illusion that Israel can prosper without God.',
         },
         {
           kind: 'carry',
@@ -272,7 +272,7 @@ export const JUDGES_10: RichChapterContent = {
               spans: [
                 t('And the children of Israel '),
                 hp('cried unto the Lord', 'cry-lord'),
-                t(', saying, We have sinned against thee, both because we have forsaken our God, and also served Baalim.'),
+                t(', saying, We have sinned against thee, both because we have forsaken[res:intertextual-return-repentance] our God, and also served Baalim.'),
               ],
             },
           ],
@@ -529,4 +529,31 @@ export const JUDGES_10: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Judges 10 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-tola-jair',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Tola and Jair: Minor Judges',
+      url: 'https://www.bibleodyssey.org/passages/main-stories/judges',
+      description: 'The succession of lesser-known judges and continuity of leadership.',
+    },
+    {
+      id: 'sefaria-ammon-oppression',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ammonite Oppression',
+      url: 'https://www.sefaria.org/Judges.10',
+      description: 'Historical context of Israel&apos;s conflicts with the Ammonites.',
+    },
+    {
+      id: 'intertextual-return-repentance',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Return and Repentance',
+      url: 'https://intertextual.org/Judges/10',
+      description: 'The pattern of Israel&apos;s confession and restoration despite repeated cycles.',
+    },
+  ]
 };

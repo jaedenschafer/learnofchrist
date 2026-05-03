@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Judges 14 — Samson and his defining flaw: "she pleaseth me well."
+ * Judges 14 — Samson[res:bibleodyssey-samson-delilah] and his defining flaw: "she pleaseth me well."
  * A chapter about the Spirit's power flowing through a compromised vessel,
  * about Nazarite vows broken in plain sight, and about a man who trusts
  * the wrong people with his secrets. Christ Connection: the better Samson,
@@ -16,7 +16,7 @@ export const JUDGES_14: RichChapterContent = {
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 19 },
   intros: [
     'Samson was born to deliver Israel from the Philistines. A Nazarite from the womb — his hair uncut, his lips never to touch wine, his hands never to touch the dead. The Spirit of the Lord came mightily upon him. But Judges 14 opens with a man undone not by weakness of body, but by the weakness of sight. He sees a Philistine woman and wants her. And nothing — not his parents&apos; objection, not his vows, not God&apos;s call on his life — will turn him from what pleases his eye.',
-    'This is the era the book keeps naming: "In those days there was no king in Israel: every man did that which was right in his own eyes" (Judges 17:6, 21:25). Samson <em>is</em> that era. The Spirit empowers him even as he breaks his vows. Honey sweet comes from the carcase of the lion. And the riddle he cannot keep — it will be told by a woman, and the telling will cost him everything.',
+    'This is the era the book keeps naming: "In those days there was no king in Israel: every man did that which was right in his own eyes" (Judges 17:6, 21:25). Samson <em>is</em> that era. The Spirit empowers him even as he breaks his vows. Honey sweet comes from the carcase of the lion. And the riddle[res:sefaria-riddle-honey] he cannot keep — it will be told by a woman, and the telling will cost him everything.',
   ],
 
   sections: [
@@ -152,7 +152,7 @@ export const JUDGES_14: RichChapterContent = {
           kind: 'commentary',
           id: 'j14-lion-roar',
           html:
-            'A young lion, roaring. This is the wilderness trying to kill him. But Samson does not use a weapon. No sword, no staff — he has "nothing in his hand." The Spirit alone is his strength.',
+            'A young lion, roaring. This is the wilderness trying to kill him. But Samson does not use a weapon. No sword, no staff — he has "nothing in his hand." The Spirit alone is his strength[res:intertextual-strength-weakness-samson].',
         },
         {
           kind: 'commentary',
@@ -489,4 +489,31 @@ export const JUDGES_14: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Judges 14 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-samson-delilah',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Samson and the Philistines',
+      url: 'https://www.bibleodyssey.org/passages/main-stories/samson',
+      description: 'The tale of riddles, marriages, and conflict with Israel&apos;s oppressors.',
+    },
+    {
+      id: 'sefaria-riddle-honey',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Riddle and Its Source',
+      url: 'https://www.sefaria.org/Judges.14',
+      description: 'Wordplay, hidden knowledge, and the power of clever speech.',
+    },
+    {
+      id: 'intertextual-strength-weakness-samson',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Strength and Weakness: Samson&apos;s Pattern',
+      url: 'https://intertextual.org/Judges/14',
+      description: 'Physical power as a mask for spiritual vulnerability and poor judgment.',
+    },
+  ]
 };

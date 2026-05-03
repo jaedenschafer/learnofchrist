@@ -85,7 +85,7 @@ export const PSALMS_60: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-60-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Lament over military defeat gives way to trust in God&apos;s help. Anguish becomes assurance; loss becomes victory.',
         },
         {
           kind: 'scripture',

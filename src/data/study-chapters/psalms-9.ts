@@ -89,7 +89,7 @@ export const PSALMS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-9-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'The psalmist stops praising and starts begging. Joy in remembrance turns to urgent prayer against enemies.',
         },
         {
           kind: 'scripture',
@@ -120,7 +120,7 @@ export const PSALMS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-9-78mid-2',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'The psalmist stops praising and starts begging. Joy in remembrance turns to urgent prayer against enemies.',
         },
         {
           kind: 'scripture',

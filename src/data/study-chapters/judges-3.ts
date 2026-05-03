@@ -1,9 +1,9 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Judges 3 — The first three judges: Othniel, Ehud, Shamgar.
- * The chapter establishes a pattern: testing and deliverance, with the Spirit of the Lord
- * coming upon unexpected deliverers. God works through the lefthand sword, the ox goad,
+ * Judges[res:sefaria-spirit-lord-judges] 3 — The first three judges: Othniel, Ehud, Shamgar.
+ * The chapter establishes a pattern: testing and deliverance, with the Spirit[res:bibleodyssey-othniel-ehud-shamgar] of the Lord
+ * coming upon unexpected deliverers[res:intertextual-judges-saviors]. God works through the lefthand sword, the ox goad,
  * the family heritage — and through it all, the messy politics of human freedom and divine
  * intervention interweave.
  */
@@ -31,6 +31,33 @@ export const JUDGES_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Judges 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-othniel-ehud-shamgar',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'The First Three Judges: Othniel, Ehud, and Shamgar',
+      url: 'https://www.bibleodyssey.org/passages/main-passage/judges-3',
+      description: 'The first deliverers God raised up: Othniel filled with the Spirit, Ehud the left-handed warrior, and Shamgar with an ox goad.',
+    },
+    {
+      id: 'sefaria-spirit-lord-judges',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Spirit of the Lord Comes Upon Them',
+      url: 'https://www.sefaria.org/Judges.3?lang=bi',
+      description: 'How the Spirit of the Lord empowered judges to deliver Israel, showing God&apos;s active involvement despite the people&apos;s failures.',
+    },
+    {
+      id: 'intertextual-judges-saviors',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Judges as Saviors (Pattern to Christ)',
+      url: 'https://intertextual.bible/search?q=judges+raised+up+deliver+savior+spirit+lord',
+      description: 'The pattern of God raising up deliverers when His people cry out prefigures the ultimate Judge and Savior in Christ.',
+    },
+  ],
 
   sections: [
     /* ─── Judges 3:1–6 — Nations Left to Test Israel ────────────────── */

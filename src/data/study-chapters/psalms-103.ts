@@ -39,7 +39,7 @@ export const PSALMS_103: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-103-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Call to bless the Lord for His benefits opens into account of His character. Gratitude becomes theology.',
         },
         {
           kind: 'scripture',
@@ -125,7 +125,7 @@ export const PSALMS_103: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-103-78mid-2',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Call to bless the Lord for His benefits opens into account of His character. Gratitude becomes theology.',
         },
         {
           kind: 'scripture',

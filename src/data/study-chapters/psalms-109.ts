@@ -39,7 +39,7 @@ export const PSALMS_109: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-109-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Accusation of the wicked gives way to imprecation and prayer for judgment. The enemy is named; God is called.',
         },
         {
           kind: 'scripture',

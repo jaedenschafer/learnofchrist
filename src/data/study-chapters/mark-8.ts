@@ -44,7 +44,7 @@ export const MARK_8: RichChapterContent = {
           kind: 'commentary',
           id: 'mark-8-78mid-1',
           html:
-            'Mark moves quickly. The next verses press from one scene to the next without pause; the gospel is in a hurry.',
+            'Jesus feeds four thousand in the wilderness; the disciples ask Him for a sign from heaven. He has given bread, yet they hunger for proof.',
         },
         {
           kind: 'scripture',

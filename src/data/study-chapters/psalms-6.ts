@@ -86,7 +86,7 @@ export const PSALMS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-6-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'The plea for God&apos;s return and rescue gives way to confidence that He has heard. Despair becomes declaration.',
         },
         {
           kind: 'scripture',

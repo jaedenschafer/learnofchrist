@@ -75,7 +75,7 @@ export const NUMBERS_28: RichChapterContent = {
           kind: 'commentary',
           id: 'numbers-28-78mid-1',
           html:
-            'The text moves from one stage of the wilderness journey to the next. Every camp, every law, every name carries its own weight.',
+            'Daily offerings are commanded, then Sabbath offerings, then monthly feasts—the whole sacred calendar unfolds. Every moment of time is marked as holy.',
         },
         {
           kind: 'scripture',

@@ -39,7 +39,7 @@ export const PSALMS_88: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-88-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Cry for help from the brink of death shifts to continued plea in darkness. Even in abandonment, the psalmist addresses God.',
         },
         {
           kind: 'scripture',

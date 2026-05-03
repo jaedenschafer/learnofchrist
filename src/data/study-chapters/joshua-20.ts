@@ -1,12 +1,12 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 20 — Cities of Refuge Established
+ * Joshua 20 — Cities[res:bibleodyssey-cities-refuge][res:bibleodyssey-cities-refuge[res:intertextual-christ-high-priest-refuge]] of Refuge Established
  *
  * The Lord commands Joshua to appoint six cities of refuge—three west of the Jordan,
  * three east—where the manslayer who kills unwittingly may flee. At the gate he declares
  * his case; he is taken in and protected from the avenger of blood. He waits until the
- * death of the high priest, then returns free. The cities are distributed so no Israelite
+ * death of the high priest[res:sefaria-high-priest-death], then returns free. The cities are distributed so no Israelite
  * is more than a day&apos;s journey away. The stranger too has refuge. What was commanded
  * in Numbers 35 and Deuteronomy 19 is now concrete and real: promises are kept in wood
  * and stone.
@@ -345,6 +345,33 @@ export const JOSHUA_20: RichChapterContent = {
             'How do you most need Christ as refuge right now—as a gate to declare at, as a judge who knows your heart, as the death that has already released you? Sit with that.',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'bibleodyssey-cities-refuge',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'The Six Cities of Refuge',
+      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-20',
+      description: 'The establishment of six Levitical cities as sanctuaries for those who committed unintentional manslaughter, providing protection and justice.',
+    },
+    {
+      id: 'sefaria-high-priest-death',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The High Priest&apos;s Death as Release',
+      url: 'https://www.sefaria.org/Numbers.35?lang=bi',
+      description: 'The law governing cities of refuge and how the death of the high priest releases those who fled for protection.',
+    },
+    {
+      id: 'intertextual-christ-high-priest-refuge',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Christ as High Priest and Refuge (Joshua to Hebrews)',
+      url: 'https://intertextual.bible/search?q=high+priest+death+refuge+hebrews+christ+atonement',
+      description: 'How the cities of refuge and the high priest&apos;s death prefigure Christ as both our refuge and the High Priest whose death releases all from sin.',
     },
   ],
 };

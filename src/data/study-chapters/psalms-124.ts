@@ -40,7 +40,7 @@ export const PSALMS_124: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-124-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'The onslaught of enemies and the terrible danger give way to the Lord&apos;s intervention and escape. Peril becomes deliverance.',
         },
         {
           kind: 'scripture',

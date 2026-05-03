@@ -1,9 +1,9 @@
 import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
 
 /**
- * Ruth 1 — the book of Ruth opens in the dark days of the Judges, when a
+ * Ruth[res:intertextual-ruth-rahab-lineage] 1 — the book of Ruth opens in the dark days of the Judges, when a
  * famine forces a Bethlehem family into exile. The only character to walk
- * beside the grief-stricken Naomi is a Moabite widow. Her loyalty—her clinging—
+ * beside the grief-stricken Naomi[res:bibleodyssey-ruth-naomi] is a Moabite widow. Her loyalty—her clinging—
  * becomes the hinge on which God&apos;s redemption turns.
  */
 export const RUTH_1: RichChapterContent = {
@@ -464,7 +464,7 @@ export const RUTH_1: RichChapterContent = {
             {
               number: 22,
               spans: [
-                t('So Naomi returned, and Ruth the Moabitess, her daughter in law, with her, which returned out of the country of Moab: and they came to Bethlehem in the beginning of '),
+                t('So Naomi returned, and Ruth the Moabitess[res:sefaria-ruth-moabitess], her daughter in law, with her, which returned out of the country of Moab: and they came to Bethlehem in the beginning of '),
                 hp('barley harvest', 'c-harvest'),
                 t('.'),
               ],
@@ -488,4 +488,31 @@ export const RUTH_1: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'bibleodyssey-ruth-naomi',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Ruth and Naomi&apos;s Journey',
+      url: 'https://www.bibleodyssey.org/passages/main-stories/ruth',
+      description: 'The famine, exile, and return that sets the stage for Ruth&apos;s faithfulness.',
+    },
+    {
+      id: 'sefaria-ruth-moabitess',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ruth the Moabitess',
+      url: 'https://www.sefaria.org/Ruth.1',
+      description: 'Gentile inclusion in Israel&apos;s community through covenant loyalty and love.',
+    },
+    {
+      id: 'intertextual-ruth-rahab-lineage',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Faithful Women in David&apos;s Line',
+      url: 'https://intertextual.org/Ruth/1',
+      description: 'Ruth&apos;s place among foreigner-ancestors of the Messiah.',
+    },
+  ]
 };

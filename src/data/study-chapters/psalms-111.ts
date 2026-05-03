@@ -39,7 +39,7 @@ export const PSALMS_111: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-111-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Praise for God&apos;s works and majesty opens into praise for His covenant and compassion. Works become character.',
         },
         {
           kind: 'scripture',

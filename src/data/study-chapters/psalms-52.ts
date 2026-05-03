@@ -29,7 +29,7 @@ export const PSALMS_52: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-52-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Accusation of the boastful man gives way to declaration of God&apos;s judgment and the psalmist&apos;s trust. The wicked are answered by the faithful.',
         },
         {
           kind: 'scripture',

@@ -1,9 +1,9 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Judges 12 — Shibboleth: The Cost of Careless Words and Civil Bloodshed
+ * Judges[res:intertextual-judges-succession] 12 — Shibboleth[res:sefaria-shibboleth-identity]: The Cost of Careless Words and Civil Bloodshed
  *
- * Ephraim comes demanding credit after a battle they did not fight. Jephthah,
+ * Ephraim[res:bibleodyssey-ephraim-tribal-war] comes demanding credit after a battle they did not fight. Jephthah,
  * unlike Gideon before him, answers harshly. Civil war erupts. A dialect test
  * becomes a death sentence. Forty-two thousand Israelites kill each other over
  * a mispronounced word. Then come three minor judges, wealthy and peaceful,
@@ -387,4 +387,31 @@ export const JUDGES_12: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'bibleodyssey-ephraim-tribal-war',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Ephraim&apos;s Civil Conflict',
+      url: 'https://www.bibleodyssey.org/passages/main-stories/judges',
+      description: 'Tribal warfare and the breakdown of unity among Israel&apos;s tribes.',
+    },
+    {
+      id: 'sefaria-shibboleth-identity',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Shibboleth Test',
+      url: 'https://www.sefaria.org/Judges.12',
+      description: 'Language, identity, and the markers of tribal belonging in ancient Israel.',
+    },
+    {
+      id: 'intertextual-judges-succession',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Continuing Judges: Ibzan, Elon, Abdon',
+      url: 'https://intertextual.org/Judges/12',
+      description: 'Brief accounts of judges and the framework of Israel&apos;s governance.',
+    },
+  ]
 };

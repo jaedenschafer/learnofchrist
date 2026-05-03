@@ -1,11 +1,11 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 22 — The Eastern Tribes' Altar and the Unity of God's People
+ * Joshua 22 — The Eastern Tribes' Altar[res:sefaria-altar-conflict] and the Unity of God's People
  *
  * Joshua 22 is a chapter about belonging and misunderstanding resolved through
  * investigation rather than judgment. The eastern tribes build a witness altar
- * at the Jordan, nearly sparking civil war — until Phinehas asks first.
+ * at the Jordan, nearly sparking civil war — until Phinehas ask[res:intertextual-ask-before-judge]s first.
  */
 export const JOSHUA_22: RichChapterContent = {
   bookSlug: 'joshua',
@@ -14,8 +14,8 @@ export const JOSHUA_22: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 18 },
   intros: [
-    'Joshua 22 is a story about the power of physical memory and the fragility of unity across separation. After years of conquest, Joshua releases the eastern tribes — Reuben, Gad, and half of Manasseh — to return to their lands east of the Jordan. But before they depart, Joshua reinforces one crucial command: do not forget the Lord your God.',
-    'When the eastern tribes build an altar at the Jordan border, the rest of Israel sees only rebellion. But the altar is not meant for sacrifice; it is meant to be a witness — a sign stone that the eastern tribes belong to the God of Israel, even though the Jordan divides their land. What could have ended in bloodshed ends in peace, because the western tribes chose to investigate before condemning.',
+    'Joshua 22 is a story about the power of physical memory and the fragility of unity across separation. After years of conquest, Joshua releases the eastern tribes — Reuben[res:sefaria-reuben-gad-manasseh][res:bibleodyssey-reuben-gad-return], Gad, and half of Manasseh — to return to their lands east of the Jordan. But before they depart, Joshua reinforces one crucial command: do not forget the Lord your God.',
+    'When the eastern tribes build an altar at the Jordan border, the rest of Israel sees only rebellion. But the altar is not meant for sacrifice; it is meant to be a witness — a sign stone that the eastern tribes belong to the God of Israel, even though the Jordan divides their land. What could have ended in bloodshed ends in peace[res:intertextual-unity-reconciliation], because the western tribes chose to investigate before condemning.',
     'For a reader on this side of the cross, Joshua 22 whispers a truth Jesus would make plain: the body of Christ is one across every boundary — geography, time, circumstance. No river, no distance, no separation can sever what God has called together.',
   ],
 
@@ -157,7 +157,7 @@ export const JOSHUA_22: RichChapterContent = {
           id: 'hebrew-yarden',
           title: 'Yarden — &ldquo;the Jordan&rdquo;',
           script: 'הַיַּרְדֵּן',
-          translit: '<strong>yarden</strong> · the Jordan river, boundary-waters',
+          trans[res:bibleodyssey-trans-jordan-altar]lit: '<strong>yarden</strong> · the Jordan river, boundary-waters',
           description:
             'The Jordan has been Israel&apos;s eastern frontier for forty years — uncrossable, separating the Promised Land from the wilderness. Now it will separate not enemies from the chosen, but chosen from chosen. The river itself becomes the question: Can unity survive geography?',
         },
@@ -533,6 +533,33 @@ export const JOSHUA_22: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Joshua 22 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-trans-jordan-altar',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'The Altar of Witness at Jordan',
+      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-22',
+      description: 'The eastern tribes build a memorial altar to testify of their unity with Israel, averting civil war through dialogue and investigation.',
+    },
+    {
+      id: 'sefaria-reuben-gad-manasseh',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Eastern Tribes: Separated but United',
+      url: 'https://www.sefaria.org/Joshua.22?lang=bi',
+      description: 'The return of the Transjordanian tribes to their inheritance and their concern to maintain covenant unity despite geographical separation.',
+    },
+    {
+      id: 'intertextual-ask-before-judge',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Investigating Before Judging (Joshua to James)',
+      url: 'https://intertextual.bible/search?q=hear+know+before+judge+swift+listen+james+1',
+      description: 'The wisdom of seeking understanding before judgment, from Phinehas&apos; investigation to James&apos; instruction to be swift to hear and slow to speak.',
+    },
+  ],
 
   hasHebrew: true,
 };

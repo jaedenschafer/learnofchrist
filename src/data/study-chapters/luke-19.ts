@@ -92,7 +92,7 @@ export const LUKE_19: RichChapterContent = {
           kind: 'commentary',
           id: 'luke-19-78mid-1',
           html:
-            'Luke turns the camera here — from one encounter to the next, often watching how Jesus treats those who would otherwise be passed over.',
+            'Jesus calls down Zacchaeus from the tree and enters his house; salvation comes to the tax collector and his family. The lost are sought and the found rejoice.',
         },
         {
           kind: 'scripture',

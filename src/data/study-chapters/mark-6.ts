@@ -43,7 +43,7 @@ export const MARK_6: RichChapterContent = {
           kind: 'commentary',
           id: 'mark-6-78mid-1',
           html:
-            'Mark moves quickly. The next verses press from one scene to the next without pause; the gospel is in a hurry.',
+            'John the Baptist is executed at Herod's table; the apostles return to Jesus with news. From death comes prayer; from darkness comes the one who is the light.',
         },
         {
           kind: 'scripture',

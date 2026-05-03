@@ -107,7 +107,7 @@ export const MARK_3: RichChapterContent = {
           kind: 'commentary',
           id: 'mark-3-78mid-1',
           html:
-            'Mark moves quickly. The next verses press from one scene to the next without pause; the gospel is in a hurry.',
+            'Jesus heals a withered hand on the sabbath; the Pharisees plot His destruction. The one who came to give life will be hunted by those who prefer their law to mercy.',
         },
         {
           kind: 'scripture',

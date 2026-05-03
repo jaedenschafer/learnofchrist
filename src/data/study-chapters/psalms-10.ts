@@ -39,7 +39,7 @@ export const PSALMS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-10-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'The accusation of God&apos;s silence shifts to testimony of His character. Questions become confessions.',
         },
         {
           kind: 'scripture',

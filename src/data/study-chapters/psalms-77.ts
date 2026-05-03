@@ -96,7 +96,7 @@ export const PSALMS_77: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-77-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Sleeplessness and distress shift to remembrance of God&apos;s deeds. Anguish is answered not by rest but by memory.',
         },
         {
           kind: 'scripture',

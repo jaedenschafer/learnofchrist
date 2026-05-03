@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 17 — Manasseh&apos;s inheritance and the timeless power of standing fast.
+ * Joshua 17 — Manasseh[res:bibleodyssey-manasseh-joseph-west][res:bibleodyssey-manasseh-daughters[res:sefaria-inheritance-daughters]]&apos;s inheritance and the timeless power of standing fast.
  *
  * The chapter weaves two themes: (1) the allotment of land to Manasseh,
  * including the remarkable precedent set by Zelophehad&apos;s daughters,
@@ -16,7 +16,7 @@ export const JOSHUA_17: RichChapterContent = {
 
   estimatedMinutes: { beginner: 6, intermediate: 8, deep: 12 },
   intros: [
-    'Joshua 17 records the allotment of land to the tribe of Manasseh — the firstborn son of Joseph. But the chapter divides into three movements: the boundaries of Manasseh&apos;s inheritance, the women of Zelophehad whose legal case stands the test of time, and the real problem: Israel had the promise but not yet the full possession. The Canaanites still held the cities. Iron chariots still lined the valleys.',
+    'Joshua 17 records the allotment of land to the tribe of Manasseh — the firstborn son of Joseph. But the chapter divides into three movements: the boundaries of Manasseh&apos;s inheritance, the women[res:intertextual-women-inheritance] of Zelophehad whose legal case stands the test of time, and the real problem: Israel had the promise but not yet the full possession[res:sefaria-possession-work-faith]. The Canaanites still held the cities. Iron chariots still lined the valleys.',
     'What makes Joshua 17 challenging is that it is not a celebration of victory but an honest account of incomplete conquest. The land was promised. The borders were drawn. But the enemy remained. Into that gap — between promise and possession — steps a conversation between Joshua and the complaining tribes of Ephraim and Manasseh. Joshua&apos;s answer is neither a scold nor empty reassurance. It is a call to partnership: God gives the land; you possess it.',
   ],
 
@@ -317,7 +317,7 @@ export const JOSHUA_17: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-power-to-possess',
-          title: 'Christ Connection — Power to Possess',
+          title: 'Christ Connection — Power to Possess[res:intertextual-power-to-possess]',
           html:
             'Joshua&apos;s word echoes through the entire New Testament: "As many as received him, to them gave he power to become the sons of God" (John 1:12). Grace gives us the inheritance, but power — the dunamis, the ability, the boldness — comes from receiving it. We do not earn the land; but we must possess it. Christ does not do our work for us; He works in us and with us.',
         },
@@ -333,6 +333,33 @@ export const JOSHUA_17: RichChapterContent = {
             'Joshua says: "The mountain shall be thine; for it is a wood, and thou shalt cut it down." What is your mountain? What would it mean to stop complaining and start cutting?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'bibleodyssey-manasseh-joseph-west',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Manasseh&apos;s Inheritance West of Jordan',
+      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-17',
+      description: 'The inheritance of the tribe of Manasseh, with the detail that despite their military strength, they did not fully drive out the Canaanites.',
+    },
+    {
+      id: 'sefaria-possession-work-faith',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Work of Possession',
+      url: 'https://www.sefaria.org/Joshua.17?lang=bi',
+      description: 'Joshua&apos;s instruction to Joseph&apos;s tribes to cut down the forest and drive out the Canaanites, showing that inheritance requires active faith and effort.',
+    },
+    {
+      id: 'intertextual-power-to-possess',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Power to Possess (Joshua to John)',
+      url: 'https://intertextual.bible/search?q=power+to+become+children+god+john+possess+land',
+      description: 'The pattern of God giving the inheritance and believers receiving power to possess it, from Joshua through John&apos;s gospel.',
     },
   ],
 };

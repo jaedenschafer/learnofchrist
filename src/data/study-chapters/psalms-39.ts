@@ -90,7 +90,7 @@ export const PSALMS_39: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-39-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Silence about mortality breaks into speech about what endures. Restraint becomes petition; questions become hope.',
         },
         {
           kind: 'scripture',

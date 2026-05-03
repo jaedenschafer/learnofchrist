@@ -41,7 +41,7 @@ export const PSALMS_90: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-90-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'God&apos;s eternal nature and human brevity become the grounds for prayer. Perspective becomes petition.',
         },
         {
           kind: 'scripture',

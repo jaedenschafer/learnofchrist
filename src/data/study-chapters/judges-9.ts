@@ -1,10 +1,10 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Judges 9 — Abimelech&apos;s Bloody Kingship
+ * Judges 9 — Abimelech[res:bibleodyssey-abimelech-usurper]&apos;s Bloody Kingship
  *
  * A cautionary study of how ambition, fratricide, and false leadership
- * unravel under God&apos;s just judgment. Features Jotham&apos;s parable of the trees,
+ * unravel under God&apos;s just judgment. Features Jotham[res:sefaria-women-judges-jotham]&apos;s parable of the trees,
  * one of Scripture&apos;s earliest and most cutting political warnings.
  */
 export const JUDGES_9: RichChapterContent = {
@@ -15,7 +15,7 @@ export const JUDGES_9: RichChapterContent = {
   estimatedMinutes: { beginner: 9, intermediate: 15, deep: 18 },
   intros: [
     'Judges 9 tells the story of Abimelech, a man born in the shadow of his father Gideon&apos;s greatness — and consumed by the desire to seize power that was never meant to be his. Abimelech murders his 70 brothers in a single act of fratricide, crowns himself king with the help of bribed elders, and rules for three years. But his regime is rotten from its first day, and God&apos;s judgment comes quietly at first, then violently. A woman with a millstone piece and a moment of vanity at the end bring it all down.',
-    'This chapter shows what happens when ambitious men exploit the moment, corrupt the people, and build on blood. It is also a study in how God keeps His word — through Jotham&apos;s curse, through "fire from Abimelech to Shechem and fire from Shechem back to Abimelech," through a woman, through an ordinary millstone. The Lord repays.',
+    'This chapter shows what happens when ambitious men exploit the moment, corrupt the people, and build on blood. It is also a study in how God keeps His word — through Jotham&apos;s curse, through "fire from Abimelech to Shechem and fire from Shechem[res:intertextual-family-sin-community] back to Abimelech," through a woman, through an ordinary millstone. The Lord repays.',
   ],
 
   bottomShare: {
@@ -610,4 +610,31 @@ export const JUDGES_9: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'bibleodyssey-abimelech-usurper',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Abimelech the Usurper',
+      url: 'https://www.bibleodyssey.org/passages/main-stories/judges',
+      description: 'The tragedy of illegitimate power and the consequences of Gideon&apos;s multiple wives.',
+    },
+    {
+      id: 'sefaria-women-judges-jotham',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jotham&apos;s Fable',
+      url: 'https://www.sefaria.org/Judges.9',
+      description: 'Parable of the trees and critique of false leadership in ancient Israel.',
+    },
+    {
+      id: 'intertextual-family-sin-community',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Family Sin and Community Judgment',
+      url: 'https://intertextual.org/Judges/9',
+      description: 'The consequences of Gideon&apos;s household choices upon the nation.',
+    },
+  ]
 };

@@ -289,7 +289,7 @@ export const ACTS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'acts-5-78mid-1',
           html:
-            'The narrative shifts here — a new city, a new speaker, the same Spirit moving the gospel outward.',
+            'Ananias and Sapphira fall dead for lying to the Holy Spirit; fear grips the whole church. From deception comes judgment; from judgment comes holiness.',
         },
         {
           kind: 'scripture',

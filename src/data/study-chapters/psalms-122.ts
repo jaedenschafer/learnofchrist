@@ -37,7 +37,7 @@ export const PSALMS_122: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-122-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Joy at entering Jerusalem&apos;s gates opens into prayer for its peace and blessing. Arrival becomes intercession.',
         },
         {
           kind: 'scripture',

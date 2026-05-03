@@ -2,7 +2,7 @@ import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
  * Joshua 10 — The Southern Campaign
- * The sun stands still. Five Amorite kings unite against Gibeon.
+ * The sun[res:bibleodyssey-joshua-sun-stood-still] stands still. Five Amorite kings unite against Gibeon.
  * Joshua moves all night from Gilgal. God fights with hailstones.
  * Joshua commands the sun to stand still — and it does.
  * The five kings are defeated, captured, and hanged.
@@ -15,7 +15,7 @@ export const JOSHUA_10: RichChapterContent = {
 
   estimatedMinutes: { beginner: 12, intermediate: 18, deep: 22 },
   intros: [
-    'Joshua 10 opens with five Amorite kings — Adoni-zedek of Jerusalem, plus the kings of Hebron, Jarmuth, Lachish, and Eglon — joining forces against Gibeon because Gibeon made peace with Joshua. They are terrified. Gibeon is a great city, a royal city, and its men are mighty. If Gibeon allies with Israel, the southern highlands will crumble under Israelite control. They attack to break the alliance.',
+    'Joshua 10 opens with five Amorite kings — Adoni-zedek of Jerusalem, plus the kings of Hebron, Jarmuth, Lachish[res:iaa-lachish-siege], and Eglon — joining forces against Gibeon because Gibeon made peace with Joshua. They are terrified. Gibeon is a great city, a royal city, and its men are mighty. If Gibeon allies with Israel, the southern highlands will crumble under Israelite control. They attack to break the alliance.',
     'But Gibeon cries out to Joshua at Gilgal. And Joshua, trusting the word of the Lord, marches all night with his army. What follows is the most audacious moment in Israel&apos;s early conquest: the Lord discomfits the Amorite armies with a great slaughter, pursues them with hailstones, and when the day grows short and the victory is not yet complete, Joshua prays aloud — and the sun stands still. For nearly a whole day, the normal cycle of earth breaks. And when it is over, five kings are hanged from trees, and Israel controls the south.',
     'The chapter moves with relentless momentum. One moment of obedience, one night march, one prayer — and a whole region falls. It is a study in how God works: He does the fighting. Israel is the instrument. And when a man of God speaks in faith, even the heavens listen.',
   ],
@@ -23,10 +23,37 @@ export const JOSHUA_10: RichChapterContent = {
   bottomShare: {
     label: 'Share Joshua 10',
     quote:
-      'The Lord fought for Israel. Joshua asked, and the sun stood still until Israel had avenged itself upon its enemies. There was no day like it before or after, that the Lord hearkened unto the voice of a man.',
+      'The Lord fought for Israel. Joshua asked, and the sun stood still until Israel had avenged itself upon its enemies[res:intertextual-enemies-under-feet]. There was no day like it before or after, that the Lord hearkened unto the voice of a man.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Joshua 10 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'iaa-lachish-siege',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Lachish and the Southern Cities Conquest',
+      url: 'https://www.antiquities.org.il/article-3050-en/Lachish.html',
+      description: 'Archaeological evidence of Lachish and other southern Canaanite cities conquered during Joshua&apos;s southern campaign.',
+    },
+    {
+      id: 'bibleodyssey-joshua-sun-stood-still',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Joshua&apos;s Command and the Miracle of the Sun',
+      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-10-12-13',
+      description: 'Theological and historical interpretation of Joshua&apos;s prayer and the extraordinary event of the sun standing still during battle.',
+    },
+    {
+      id: 'intertextual-enemies-under-feet',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'All Enemies Under Feet (Joshua to Paul)',
+      url: 'https://intertextual.bible/search?q=enemies+under+feet+psalm+110',
+      description: 'The pattern of conquest and subjection that flows from Joshua through Psalms and into Paul&apos;s epistles, culminating in Christ&apos;s final victory.',
+    },
+  ],
 
   sections: [
     /* ─── Five Kings United ────────────────────────────────────────────── */

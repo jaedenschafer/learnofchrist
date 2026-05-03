@@ -140,7 +140,7 @@ export const NUMBERS_26: RichChapterContent = {
           kind: 'commentary',
           id: 'numbers-26-78mid-1',
           html:
-            'The text moves from one stage of the wilderness journey to the next. Every camp, every law, every name carries its own weight.',
+            'A new census counts the generation that will enter the land. The old generation (save Joshua and Caleb) has died. Time itself has marked a boundary.',
         },
         {
           kind: 'scripture',

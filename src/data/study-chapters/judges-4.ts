@@ -1,10 +1,10 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Judges 4 — Deborah, Barak, and Jael
+ * Judges 4 — Deborah[res:bibleodyssey-deborah-barak], Barak, and Jael[res:intertextual-spirit-women-jael]
  *
  * The chapter of unlikely deliverance. God&apos;s leadership moves through a prophetess,
- * a hesitant military commander, and a tent-dwelling woman. Every expected honor goes
+ * a hesitant military commander, and a tent-dwelling woman[res:sefaria-women-judges-leaders]. Every expected honor goes
  * to someone the culture would never have expected to have it. Narratively dense,
  * theologically provocative on agency, faith, and the gender of leadership.
  */
@@ -591,6 +591,33 @@ export const JUDGES_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Judges 4 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-deborah-barak',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Deborah, Barak, and Jael: Unlikely Deliverers',
+      url: 'https://www.bibleodyssey.org/passages/main-passage/judges-4',
+      description: 'The prophetess, the hesitant commander, and the tent-dwelling woman who together defeat Sisera and Jabin&apos;s iron chariots.',
+    },
+    {
+      id: 'sefaria-women-judges-leaders',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Women as Judges and Leaders in Israel',
+      url: 'https://www.sefaria.org/Judges.4?lang=bi',
+      description: 'Deborah&apos;s role as a prophetess and judge, showing God&apos;s use of women in leadership despite cultural expectations.',
+    },
+    {
+      id: 'intertextual-spirit-women-jael',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'The Spirit and Strength Given to Women',
+      url: 'https://intertextual.bible/search?q=deborah+jael+woman+strength+judges+priscilla',
+      description: 'The pattern of God giving strength and agency to women, from Deborah through the New Testament examples of female leaders.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -388,7 +388,7 @@ export const SAMUEL_2_23: RichChapterContent = {
           kind: 'commentary',
           id: '2-samuel-23-78mid-1',
           html:
-            'The narrative pivots — David&apos;s reign is rarely smooth, and the next verses press into a different corner of the story.',
+            'David's last words arrive. Not a battle plan or a speech to the kingdom, but a poem about the Spirit of the Lord speaking through him. The king's final gift is not power, but witness.',
         },
         {
           kind: 'scripture',
@@ -460,7 +460,7 @@ export const SAMUEL_2_23: RichChapterContent = {
           kind: 'commentary',
           id: '2-samuel-23-78mid-2',
           html:
-            'The narrative pivots — David&apos;s reign is rarely smooth, and the next verses press into a different corner of the story.',
+            'David's last words arrive. Not a battle plan or a speech to the kingdom, but a poem about the Spirit of the Lord speaking through him. The king's final gift is not power, but witness.',
         },
         {
           kind: 'scripture',

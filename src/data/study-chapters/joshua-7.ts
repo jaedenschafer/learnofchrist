@@ -1,12 +1,12 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 7 — Achan&apos;s Secret Sin and the Defeat at Ai
+ * Joshua 7 — Achan[res:bibleodyssey-achan-sin]&apos;s Secret Sin and the Defeat at Ai[res:iaa-ai-excavation]
  *
- * When Israel&apos;s first conquest attempt at Ai fails, Joshua tears his clothes
+ * When Israel[res:intertextual-sin-community]&apos;s first conquest attempt at Ai fails, Joshua tears his clothes
  * and falls in prayer. The Lord answers: Israel has sinned. Achan, in covetousness,
- * took devoted plunder and hid it. The pattern of sin — I saw, I coveted, I took,
- * I hid — mirrors Eve in Eden and David with Bathsheba. The valley of Achor becomes
+ * took devoted[res:sefaria-devoted-things] plunder and hid it. The pattern of sin — I saw, I coveted, I took,
+ * I hid — mirrors Eve in Eden and David with Bathsheba. The valley of Achor[res:intertextual-achor-hope][res:topostext-achor-valley] becomes
  * judgment, but Hosea will prophesy it as the "door of hope."
  */
 export const JOSHUA_7: RichChapterContent = {
@@ -607,6 +607,33 @@ export const JOSHUA_7: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Joshua 7 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'topostext-achor-valley',
+      kind: 'archive',
+      source: 'ToposText',
+      label: 'Valley of Achor: Geography and Significance',
+      url: 'https://topostext.org/',
+      description: 'Geographical and textual analysis of the Valley of Achor and its significance as a place of judgment and hope.',
+    },
+    {
+      id: 'iaa-ai-excavation',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Ai (et-Tell) Excavations',
+      url: 'https://www.antiquities.org.il/article-3100-en/Ai.html',
+      description: 'Archaeological evidence from Ai, the second city Joshua conquered after the Achan incident.',
+    },
+    {
+      id: 'intertextual-achor-hope',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Valley of Achor as Door of Hope (Joshua 7 and Hosea 2)',
+      url: 'https://intertextual.bible/search?q=valley+achor+hope+hosea',
+      description: 'Connection between Joshua&apos;s valley of judgment and Hosea&apos;s prophecy of hope through the same place.',
+    },
+  ],
 
   hasHebrew: true,
 };

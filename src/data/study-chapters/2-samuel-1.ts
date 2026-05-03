@@ -99,7 +99,7 @@ export const SAMUEL_2_1: RichChapterContent = {
           kind: 'commentary',
           id: '2-samuel-1-78mid-1',
           html:
-            'The narrative pivots — David&apos;s reign is rarely smooth, and the next verses press into a different corner of the story.',
+            'David's lament for Saul ends, and his own anointing begins. Grief and kingship sit in the same chapter—David will not skip either one.',
         },
         {
           kind: 'scripture',
@@ -378,7 +378,7 @@ export const SAMUEL_2_1: RichChapterContent = {
           kind: 'commentary',
           id: '2-samuel-1-78mid-2',
           html:
-            'The narrative pivots — David&apos;s reign is rarely smooth, and the next verses press into a different corner of the story.',
+            'David's lament for Saul ends, and his own anointing begins. Grief and kingship sit in the same chapter—David will not skip either one.',
         },
         {
           kind: 'scripture',

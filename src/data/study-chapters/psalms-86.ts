@@ -99,7 +99,7 @@ export const PSALMS_86: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-86-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Plea for help gives way to praise of God&apos;s uniqueness and promise of continued deliverance. Petition becomes proclamation.',
         },
         {
           kind: 'scripture',

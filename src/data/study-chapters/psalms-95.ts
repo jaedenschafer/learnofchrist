@@ -39,7 +39,7 @@ export const PSALMS_95: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-95-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Call to praise gives way to warning from the wilderness. Joy becomes caution; song becomes plea.',
         },
         {
           kind: 'scripture',

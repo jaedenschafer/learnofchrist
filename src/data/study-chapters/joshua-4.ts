@@ -1,13 +1,13 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 4 — The Twelve Stones Memorial
+ * Joshua 4 — The Twelve Stones[res:iaa-gilgal-excavation] Memorial
  *
  * After Israel crosses the Jordan dry-shod, Joshua commands twelve men
- * to carry stones from the riverbed and set them up in Gilgal. The stones
+ * to carry stones from the riverbed and set them up in Gilgal[res:bibleodyssey-gilgal]. The stones
  * are a monument to God's power, a sign for the children to ask about,
  * a way of teaching faith through embodied memory. The chapter echoes
- * Passover-lamb-selection day and prefigures Christian sacraments.
+ * Passover[res:sefaria-passover-connection]-lamb-selection day and prefigures Christian sacraments.
  */
 export const JOSHUA_4: RichChapterContent = {
   bookSlug: 'joshua',

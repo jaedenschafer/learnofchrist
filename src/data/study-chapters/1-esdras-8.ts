@@ -305,7 +305,7 @@ export const FIRST_ESDRAS_8: RichChapterContent = {
           kind: 'commentary',
           id: '1-esdras-8-78mid-1',
           html:
-            'The chronicler-historian moves from one act of restoration to the next. The exile is over, but the rebuilding is slow.',
+            'Ezra finishes his prayer. Now the people respond—weeping, confessing their marriages to foreign women. Prayer moves to action. The Spirit speaks, and the people hear.',
         },
         {
           kind: 'scripture',
@@ -473,7 +473,7 @@ export const FIRST_ESDRAS_8: RichChapterContent = {
           kind: 'commentary',
           id: '1-esdras-8-78mid-2',
           html:
-            'The chronicler-historian moves from one act of restoration to the next. The exile is over, but the rebuilding is slow.',
+            'Ezra finishes his prayer. Now the people respond—weeping, confessing their marriages to foreign women. Prayer moves to action. The Spirit speaks, and the people hear.',
         },
         {
           kind: 'scripture',

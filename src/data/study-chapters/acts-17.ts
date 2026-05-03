@@ -408,7 +408,7 @@ export const ACTS_17: RichChapterContent = {
           kind: 'commentary',
           id: 'acts-17-78mid-1',
           html:
-            'The narrative shifts here — a new city, a new speaker, the same Spirit moving the gospel outward.',
+            'Paul proclaims Jesus to the Areopagus as the unknown God whom they ignorantly worship; he names the one they seek without knowing. The message is clear; some mock, some believe.',
         },
         {
           kind: 'scripture',

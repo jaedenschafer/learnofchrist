@@ -58,7 +58,7 @@ export const SONG_7: RichChapterContent = {
           kind: 'commentary',
           id: 'song-of-solomon-7-78mid-1',
           html:
-            'The voices change here — bride to beloved, or beloved to bride. The love song is sung antiphonally.',
+            'The lovers speak of each other with mounting intensity. He praises her body; she offers hers to him. The Song moves toward union, the wholeness two bodies and hearts can make together.',
         },
         {
           kind: 'scripture',

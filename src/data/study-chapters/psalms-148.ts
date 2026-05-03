@@ -92,7 +92,7 @@ export const PSALMS_148: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-148-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Praise from the heavens and celestial bodies opens into praise from earth and all creatures. Heaven joins earth in chorus.',
         },
         {
           kind: 'scripture',

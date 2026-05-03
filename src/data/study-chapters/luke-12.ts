@@ -43,7 +43,7 @@ export const LUKE_12: RichChapterContent = {
           kind: 'commentary',
           id: 'luke-12-78mid-1',
           html:
-            'Luke turns the camera here — from one encounter to the next, often watching how Jesus treats those who would otherwise be passed over.',
+            'Jesus warns against covetousness and the greed of the rich fool; He shifts to trust and provision. Do not lay up treasure; instead, seek the kingdom of God.',
         },
         {
           kind: 'scripture',

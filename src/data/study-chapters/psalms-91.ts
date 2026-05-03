@@ -41,7 +41,7 @@ export const PSALMS_91: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-91-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Assurance of protection in God&apos;s shadow opens into explicit promises of deliverance. Security becomes salvation; dwelling becomes rescue.',
         },
         {
           kind: 'scripture',
@@ -100,7 +100,7 @@ export const PSALMS_91: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-91-78mid-2',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Assurance of protection in God&apos;s shadow opens into explicit promises of deliverance. Security becomes salvation; dwelling becomes rescue.',
         },
         {
           kind: 'scripture',

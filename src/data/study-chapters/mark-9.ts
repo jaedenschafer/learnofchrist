@@ -114,7 +114,7 @@ export const MARK_9: RichChapterContent = {
           kind: 'commentary',
           id: 'mark-9-78mid-1',
           html:
-            'Mark moves quickly. The next verses press from one scene to the next without pause; the gospel is in a hurry.',
+            'Jesus tells of His coming suffering and resurrection; the disciples do not understand and are afraid to ask. The cross is coming; the light of the kingdom is hidden in shadow.',
         },
         {
           kind: 'scripture',

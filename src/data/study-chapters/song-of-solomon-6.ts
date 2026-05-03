@@ -40,7 +40,7 @@ export const SONG_6: RichChapterContent = {
           kind: 'commentary',
           id: 'song-of-solomon-6-78mid-1',
           html:
-            'The voices change here — bride to beloved, or beloved to bride. The love song is sung antiphonally.',
+            'He finds her again and affirms her again: You are beautiful, my love. The refrain repeats, but it does not grow thin. To be chosen, again and again, is the gift of love.',
         },
         {
           kind: 'scripture',

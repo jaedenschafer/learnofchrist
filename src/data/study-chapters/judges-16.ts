@@ -3,7 +3,7 @@ import { hp, hy, hg, t, type RichChapterContent } from './types';
 /**
  * Judges 16 — Samson&apos;s fall and death. A tragic narrative of a man
  * whose strength was legendary but whose self-knowledge was catastrophic.
- * From Gaza harlot to Delilah&apos;s betrayal, the chapter traces sin&apos;s
+ * From Gaza[res:bibleodyssey-samson-gaza] harlot to Delilah[res:sefaria-delilah-betrayal]&apos;s betrayal, the chapter traces sin&apos;s
  * slow erosion: truth told piece by piece, God&apos;s presence lost without
  * realization, and finally, a prayer from the rubble that God hears.
  */
@@ -14,7 +14,7 @@ export const JUDGES_16: RichChapterContent = {
 
   estimatedMinutes: { beginner: 10, intermediate: 17, deep: 22 },
   intros: [
-    'Samson has defeated Philistines with the jawbone of a donkey, carried away the gates of Gaza, and left a trail of burned crops and burnt temples behind him. But chapter 16 shows what every reader has sensed since chapter 13: a man with superhuman strength and deeply subhuman judgment. He goes in unto a harlot in Gaza, telling himself he is invincible. He falls in love with Delilah and tells himself he can hold back the truth. He tells the truth to Delilah and tells himself God will wake him as before. Each time, he is catastrophically, publicly wrong.',
+    'Samson has defeated Philistines with the jawbone of a donkey, carried away the gates of Gaza, and left a trail of burned crops and burnt temple[res:intertextual-samson-redemption-death]s behind him. But chapter 16 shows what every reader has sensed since chapter 13: a man with superhuman strength and deeply subhuman judgment. He goes in unto a harlot in Gaza, telling himself he is invincible. He falls in love with Delilah and tells himself he can hold back the truth. He tells the truth to Delilah and tells himself God will wake him as before. Each time, he is catastrophically, publicly wrong.',
     'This chapter is the story of slow erosion. Not the sudden collapse of an evil deed—the grinding loss of God&apos;s presence by degrees, accompanied by the shattering confidence that we ourselves are still strong. Samson is a warning and a mirror. But the chapter ends not with his failure but with his prayer, and with the fact that God heard it. Even spectacular failure is not the final word.',
   ],
 
@@ -719,4 +719,31 @@ export const JUDGES_16: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Judges 16 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-samson-gaza',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Samson in Gaza',
+      url: 'https://www.bibleodyssey.org/passages/main-stories/samson',
+      description: 'Samson&apos;s exploits and his entanglement with Delilah.',
+    },
+    {
+      id: 'sefaria-delilah-betrayal',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Delilah and the Revelation of Samson&apos;s Secret',
+      url: 'https://www.sefaria.org/Judges.16',
+      description: 'The cost of misplaced trust and the vulnerability of the mighty.',
+    },
+    {
+      id: 'intertextual-samson-redemption-death',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Samson&apos;s Final Act: Redemption in Death',
+      url: 'https://intertextual.org/Judges/16',
+      description: 'The temple collapse as Samson&apos;s ultimate victory despite his captivity.',
+    },
+  ]
 };

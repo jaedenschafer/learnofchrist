@@ -41,7 +41,7 @@ export const JOHN_19: RichChapterContent = {
           kind: 'commentary',
           id: 'john-19-78mid-1',
           html:
-            'John pivots from sign to meaning, from discourse to response. The next verses press the same truth from a deeper angle.',
+            'Jesus is crucified and the soldiers cast lots for His garments; darkness covers the earth. The King is raised on the cross; the nations see and His blood covers all.',
         },
         {
           kind: 'scripture',

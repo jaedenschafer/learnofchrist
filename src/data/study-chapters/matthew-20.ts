@@ -104,7 +104,7 @@ export const MATTHEW_20: RichChapterContent = {
           kind: 'commentary',
           id: 'matthew-20-78mid-1',
           html:
-            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+            'Jesus has just told of His approaching crucifixion; the mother of James and John asks Him for favor. Ambition meets suffering; comfort meets the way of the cross.',
         },
         {
           kind: 'scripture',

@@ -39,7 +39,7 @@ export const PSALMS_25: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-25-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Teaching and guidance give way to steadfastness and redemption. What the psalmist seeks becomes what he finds.',
         },
         {
           kind: 'scripture',
@@ -105,7 +105,7 @@ export const PSALMS_25: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-25-78mid-2',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Teaching and guidance give way to steadfastness and redemption. What the psalmist seeks becomes what he finds.',
         },
         {
           kind: 'scripture',

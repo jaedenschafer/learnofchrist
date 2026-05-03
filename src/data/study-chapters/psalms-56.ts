@@ -29,7 +29,7 @@ export const PSALMS_56: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-56-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Cry for help in the face of enemies opens into confidence and praise. Terror becomes trust; trembling becomes song.',
         },
         {
           kind: 'scripture',

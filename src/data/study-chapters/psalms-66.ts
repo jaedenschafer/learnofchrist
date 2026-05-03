@@ -42,7 +42,7 @@ export const PSALMS_66: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-66-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Call to all earth to praise God&apos;s works opens into personal testimony of deliverance. Universal acclaim becomes individual witness.',
         },
         {
           kind: 'scripture',
@@ -138,7 +138,7 @@ export const PSALMS_66: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-66-78mid-2',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Call to all earth to praise God&apos;s works opens into personal testimony of deliverance. Universal acclaim becomes individual witness.',
         },
         {
           kind: 'scripture',

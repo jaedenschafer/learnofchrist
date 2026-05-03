@@ -39,7 +39,7 @@ export const PSALMS_30: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-30-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'From exaltation to recognition of danger passed. Weeping gives way to joy, but the pivot is memory: what you endured, you survived.',
         },
         {
           kind: 'scripture',

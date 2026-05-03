@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 19 — The Remaining Tribes and Joshua&apos;s Inheritance
+ * Joshua 19 — The Remaining[res:bibleodyssey-remaining-tribe[res:sefaria-tribe-unique-territory]s] Tribe[res:intertextual-all-tribes-portions]s[res:sefaria-territories-assigned] and Joshua&apos;s Inheritance
  *
  * Six more tribal allotments complete the land division: Simeon (nested
  * in Judah), Zebulun, Issachar, Asher, Naphtali, and Dan. Finally,
@@ -124,7 +124,7 @@ export const JOSHUA_19: RichChapterContent = {
             {
               number: 14,
               spans: [
-                t('Kattath also, and Nahallal, and Shimron, and Idalah, and Bethlehem: twelve cities with their villages.'),
+                t('Kattath also, and Nahallal, and Shimron, and Idalah, and Bethlehem: twelve[res:bibleodyssey-twelve-tribes-allotment] cities with their villages.'),
               ],
             },
             {
@@ -281,7 +281,7 @@ export const JOSHUA_19: RichChapterContent = {
           kind: 'commentary',
           id: 'joshua-19-78mid-1',
           html:
-            'The narrative moves here from one front to the next. Conquest in this book is named place by named place.',
+            'Territory for tribe after tribe is marked and named. The inheritance is complete. Now Joshua turns to one more task: cities of refuge for those who kill by accident.',
         },
         {
           kind: 'scripture',
@@ -349,7 +349,7 @@ export const JOSHUA_19: RichChapterContent = {
           kind: 'commentary',
           id: 'joshua-19-78mid-2',
           html:
-            'The narrative moves here from one front to the next. Conquest in this book is named place by named place.',
+            'Territory for tribe after tribe is marked and named. The inheritance is complete. Now Joshua turns to one more task: cities of refuge for those who kill by accident.',
         },
         {
           kind: 'scripture',
@@ -392,7 +392,7 @@ export const JOSHUA_19: RichChapterContent = {
           id: 'hebrew-galilee',
           title: 'Chinnereth — The Sea of Galilee',
           script: 'כִּנְּרֶת',
-          translit: '<strong>Chinnereth</strong> · from <em>kinnor</em>, a harp-shaped body of water',
+          translit: '<strong>Chinnereth</strong> · from <em>kinnor</em>, a harp-shaped body[res:intertextual-body-many-members] of water',
           description:
             'Naphtali&apos;s territory included the freshwater sea that would become central to Christ&apos;s ministry. Here He called disciples, taught from boats, fed thousands, and walked on water. The land itself was a sign, waiting.',
         },
@@ -458,7 +458,7 @@ export const JOSHUA_19: RichChapterContent = {
           kind: 'commentary',
           id: 'joshua-19-78mid-3',
           html:
-            'The narrative moves here from one front to the next. Conquest in this book is named place by named place.',
+            'Territory for tribe after tribe is marked and named. The inheritance is complete. Now Joshua turns to one more task: cities of refuge for those who kill by accident.',
         },
         {
           kind: 'scripture',
@@ -622,6 +622,33 @@ export const JOSHUA_19: RichChapterContent = {
             'What inheritance has God given you? And are you at peace with it, or still fighting to claim something else?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'bibleodyssey-remaining-tribes',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'The Final Tribal Allocations (Zebulun through Simeon)',
+      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-19',
+      description: 'The territories allotted to the remaining northern and southern tribes, completing the distribution of the promised land.',
+    },
+    {
+      id: 'sefaria-tribe-unique-territory',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Each Tribe: Unique Territory and Identity',
+      url: 'https://www.sefaria.org/Joshua.19?lang=bi',
+      description: 'The distinctive characteristics and boundaries of each tribe&apos;s inheritance, reflecting their unique role in Israel&apos;s identity.',
+    },
+    {
+      id: 'intertextual-body-many-members',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'One Body, Many Members (Joshua to 1 Corinthians)',
+      url: 'https://intertextual.bible/search?q=one+body+many+members+twelve+tribes+1+corinthians+12',
+      description: 'The parallel between the twelve unique tribes of Joshua and Paul&apos;s theology of the body of Christ with many distinct members working in unity.',
     },
   ],
 };

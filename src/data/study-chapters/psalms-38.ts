@@ -40,7 +40,7 @@ export const PSALMS_38: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-38-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Physical suffering and spiritual desolation shift to confession and prayer. The body&apos;s cry becomes the soul&apos;s plea.',
         },
         {
           kind: 'scripture',

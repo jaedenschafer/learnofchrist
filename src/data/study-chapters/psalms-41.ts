@@ -38,7 +38,7 @@ export const PSALMS_41: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-41-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Blessing of compassion toward the poor moves into petition for self. Others&apos; distress becomes personal plea.',
         },
         {
           kind: 'scripture',

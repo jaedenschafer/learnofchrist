@@ -3,7 +3,7 @@ import { hp, hy, hg, t, type RichChapterContent } from './types';
 /**
  * Joshua 1 — the hinge between wilderness and inheritance.
  *
- * Moses is dead. The Lord speaks to Joshua, his minister, commanding him to
+ * Moses[res:sefaria-moses-death] is dead. The Lord speaks to Joshua, his minister, commanding him to
  * arise and lead the people over Jordan. The borders are given, the promise is
  * renewed ("I will not fail thee, nor forsake thee"), and the law is placed at
  * the center of leadership—meditated day and night, lived out in every step.
@@ -377,7 +377,7 @@ export const JOSHUA_1: RichChapterContent = {
           kind: 'commentary',
           id: 'joshua-1-78mid-1',
           html:
-            'The narrative moves here from one front to the next. Conquest in this book is named place by named place.',
+            'The conquest begins. Joshua leads where Moses commanded. The narrative moves from promise to execution, from instruction to action.',
         },
         {
           kind: 'scripture',

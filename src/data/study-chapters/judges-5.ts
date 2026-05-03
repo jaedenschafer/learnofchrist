@@ -1,9 +1,9 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Judges 5 — The Song of Deborah
+ * Judges 5 — The Song[res:bibleodyssey-song-deborah] of Deborah
  *
- * The oldest Hebrew poem in the Bible. A victory song celebrating Deborah&apos;s
+ * The oldest Hebrew poem in the Bible. A victory[res:sefaria-victory-song-ancient] song celebrating Deborah&apos;s
  * leadership and the tribal mustering against Sisera&apos;s Canaanite forces. The text
  * moves from cosmic theophany (God marching from Sinai) to the paralysis of Israel,
  * the tribal roll-call, the stars fighting from heaven, Jael&apos;s heroic deed, and
@@ -78,7 +78,7 @@ export const JUDGES_5: RichChapterContent = {
           kind: 'commentary',
           id: 'j5-deborah',
           html:
-            'Deborah sings the victory — not Barak alone. Throughout Judges 4 and 5, it is clear that Deborah is the leader, the prophetess, the one who knows God&apos;s mind. Barak refuses to go to battle unless she goes with him. Her song proclaims what she has lived: that a woman can stand at the front of God&apos;s purposes.',
+            'Deborah[res:intertextual-miriam-deborah-songs] sings the victory — not Barak alone. Throughout Judges 4 and 5, it is clear that Deborah is the leader, the prophetess, the one who knows God&apos;s mind. Barak refuses to go to battle unless she goes with him. Her song proclaims what she has lived: that a woman can stand at the front of God&apos;s purposes.',
         },
         {
           kind: 'commentary',
@@ -215,7 +215,7 @@ export const JUDGES_5: RichChapterContent = {
           kind: 'commentary',
           id: 'judges-5-78mid-1',
           html:
-            'The cycle turns again — a new actor, a new failure or deliverance, the same God still patient with His people.',
+            'Deborah[res:intertextual-miriam-deborah-songs] sings the victory after the battle. Poetry follows action. What the prose told, the song celebrates—with emotion, with names, with the people&apos;s own voice.',
         },
         {
           kind: 'scripture',
@@ -571,6 +571,33 @@ export const JUDGES_5: RichChapterContent = {
     snippet: 'From the Song of Deborah — a chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Judges 5:31 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-song-deborah',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'The Song of Deborah: Victory in Verse',
+      url: 'https://www.bibleodyssey.org/passages/main-passage/judges-5',
+      description: 'The poetic account of Deborah&apos;s victory, celebrating the triumph over Sisera and the tribal response to the call to war.',
+    },
+    {
+      id: 'sefaria-victory-song-ancient',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ancient Victory Songs and Deborah&apos;s Psalm',
+      url: 'https://www.sefaria.org/Judges.5?lang=bi',
+      description: 'The Song of Deborah as an ancient victory hymn, celebrating God&apos;s power and the courage of those who responded to the call.',
+    },
+    {
+      id: 'intertextual-miriam-deborah-songs',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Victory Songs: Miriam to Deborah',
+      url: 'https://intertextual.bible/search?q=miriam+song+victory+deborah+women+praise',
+      description: 'The pattern of women leading in song and worship, from Miriam&apos;s song at the Red Sea to Deborah&apos;s celebration of victory.',
+    },
+  ],
 
   hasHebrew: true,
 };

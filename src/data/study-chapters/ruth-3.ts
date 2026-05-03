@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
 
 /**
- * Ruth 3 — The Threshing Floor
+ * Ruth 3 — The Threshing Floor[res:bibleodyssey-ruth-threshing-floor]
  *
  * A foreign woman, a faithful man, and the courage to ask for covering.
  * The whole scene is risky — and the text trusts the dignity of all parties,
@@ -17,7 +17,7 @@ export const RUTH_3: RichChapterContent = {
 
   estimatedMinutes: { beginner: 3, intermediate: 7, deep: 10 },
   intros: [
-    'Ruth 3 moves the story from the barley fields into intimate territory. Naomi has a plan: send Ruth to the threshing floor at night with a simple but dangerous request. By ancient law and custom, a kinsman-redeemer could marry a widow and restore her family line. But the asking itself is Ruth\'s move. She will approach Boaz under cover of darkness, uncover his feet — a sign of intimacy — and ask for his covering. The whole scene is risky. The text trusts the virtue of both.',
+    'Ruth 3 moves the story from the barley fields into intimate territory. Naomi has a plan: send Ruth to the threshing floor at night with a simple but dangerous request. By ancient law and custom, a kinsman-redeemer[res:sefaria-goel-redeemer] could marry a widow and restore her family line. But the asking itself is Ruth\'s move. She will approach Boaz under cover of darkness, uncover his feet — a sign of intimacy — and ask for his covering. The whole scene is risky. The text trusts the virtue of both.',
     'But beneath the risk is something deeper: the echo of Boaz\'s earlier promise that God\'s wings would cover her (Ruth 2:12), now asked as a personal request. The threshing floor becomes a place where faith and human initiative meet, where a redeemer\'s commitment is sealed in the night, and where the providence of God moves through obedience and courage.',
   ],
 
@@ -30,7 +30,7 @@ export const RUTH_3: RichChapterContent = {
   bottomShare: {
     label: 'Share Ruth 3',
     quote:
-      'Ruth asks Boaz to cover her as a kinsman-redeemer. Boaz honors her virtue, follows the law faithfully, and moves toward redemption. God\'s commitment to His people works through human courage and faithfulness.',
+      'Ruth asks Boaz to cover her as a kinsman-redeemer. Boaz honors her virtue, follows the law faithfully, and moves toward redemption[res:intertextual-ruth-boaz-type-redeemer]. God\'s commitment to His people works through human courage and faithfulness.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ruth 3 · Study Guide',
   },
@@ -284,4 +284,31 @@ export const RUTH_3: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'bibleodyssey-ruth-threshing-floor',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Ruth at the Threshing Floor',
+      url: 'https://www.bibleodyssey.org/passages/main-stories/ruth',
+      description: 'The proposal scene and the customs of redemption and marriage in ancient Israel.',
+    },
+    {
+      id: 'sefaria-goel-redeemer',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'The Role of the Go&apos;el (Redeemer)',
+      url: 'https://www.sefaria.org/Ruth.3',
+      description: 'Kinship, obligation, and the redemptive relationship within Israel&apos;s covenant community.',
+    },
+    {
+      id: 'intertextual-ruth-boaz-type-redeemer',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Boaz as Type and Redeemer',
+      url: 'https://intertextual.org/Ruth/3',
+      description: 'Redemption narratives and their foreshadowing of ultimate restoration.',
+    },
+  ]
 };

@@ -1,9 +1,9 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 6 — Jericho Falls
+ * Joshua 6 — Jericho[res:iaa-jericho-walls[res:bibleodyssey-jericho-conquest]] Falls
  *
- * The walls of Jericho fall not by battering ram or siege, but by faith,
+ * The walls of Jericho fall not by battering ram or siege, but by faith[res:intertextual-faith-walls],
  * silence, and God&apos;s appointed signal. Seven priests, seven trumpets,
  * seven days of marching — and on the seventh day, seven circuits. When
  * the people shout, the walls collapse. Rahab the prostitute and her
@@ -35,6 +35,33 @@ export const JOSHUA_6: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Joshua 6 · Study Guide (from Hebrews 11:30)',
   },
+
+  resources: [
+    {
+      id: 'iaa-jericho-walls',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Jericho Walls[res:iaa-jericho-walls] and Conquest Evidence',
+      url: 'https://www.antiquities.org.il/article-3163-en/Tell%20es-Sultan.html',
+      description: 'Archaeological evidence from Tell es-Sultan showing the destruction layers and wall structures of ancient Jericho.',
+    },
+    {
+      id: 'bibleodyssey-jericho-conquest',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jericho: City and Conquest',
+      url: 'https://www.bibleodyssey.org/dictionary/jericho/',
+      description: 'SBL study of Jericho in Scripture and archaeology, including the narrative of Joshua&apos;s siege.',
+    },
+    {
+      id: 'intertextual-faith-walls',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Faith and the Walls (Joshua 6 and Hebrews 11)',
+      url: 'https://intertextual.bible/text/joshua-6/hebrews-11.30',
+      description: 'Connection between Joshua 6 and Hebrews 11:30, which cites the fall of Jericho as an example of faith.',
+    },
+  ],
 
   sections: [
     /* ─── Joshua 6:1–5 — The Strange Plan from God ────────────────────── */

@@ -1,14 +1,14 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 18 — Shiloh, the Land Surveyed, Casting Lots, Benjamin's Territory
+ * Joshua 18 — Shiloh, the Land Surveyed, Casting Lot[res:sefaria-lot-casting]s, Benjamin[res:sefaria-benjamin-saul-paul][res:intertextual-order-inheritance][res:bibleodyssey-benjamin-territory]'s Territory
  *
  * Seven tribes remain uninherited after years of conquest. Joshua challenges
  * them: "How long are ye slack?" The men survey and describe the land in seven
- * parts. Joshua casts lots before the Lord. Benjamin draws first — a small,
+ * parts. Joshua casts lots before the Lord. Benjamin[res:intertextual-order-inheritance] draws first — a small,
  * strategic territory between Judah and Joseph, including Jerusalem barely at
  * its border. Doctrinal anchors: Shiloh as tabernacle-home for 400 years and
- * messianic place; Benjamin the tribe of Saul and Paul; casting lots as God's
+ * messianic place; Benjamin[res:intertextual-order-inheritance] the tribe of Saul and Paul; casting lots as God's
  * fair distribution; the call to possess what is already given.
  */
 
@@ -20,13 +20,13 @@ export const JOSHUA_18: RichChapterContent = {
   estimatedMinutes: { beginner: 8, intermediate: 12, deep: 15 },
   intros: [
     'Joshua 18 marks a turning point. The land has been militarily subdued; the congregation has gathered at Shiloh to set up the tabernacle. Yet seven of the twelve tribes still have no inheritance. Joshua confronts them directly: "How long are ye slack to go to possess the land, which the Lord God of your fathers hath given you?" They are not entitled to hesitate. The victory is already won.',
-    'What follows is orderly and practical — surveyors are commissioned to map the land, they report back, and Joshua casts lots before the Lord. Benjamin draws first. His territory is small but strategic: squeezed between the powerhouses of Judah and Joseph, it includes Jericho to the east and, barely on its southern border, Jerusalem itself. That small tribe will later give Israel its first king (Saul) and, centuries on, produce the apostle Paul. The chapter teaches that God honors both the timid and the bold, and that strategic smallness can carry enormous weight.',
+    'What follows is orderly and practical — surveyors are commissioned to map the land, they report back, and Joshua casts lots before the Lord. Benjamin[res:intertextual-order-inheritance] draws first. His territory is small but strategic: squeezed between the powerhouses of Judah and Joseph, it includes Jericho to the east and, barely on its southern border, Jerusalem itself. That small tribe will later give Israel its first king (Saul) and, centuries on, produce the apostle Paul. The chapter teaches that God honors both the timid and the bold, and that strategic smallness[res:intertextual-smallness-to-significance] can carry enormous weight.',
   ],
 
   bottomShare: {
     label: 'Share Joshua 18',
     quote:
-      'Joshua cast lots for the seven remaining tribes before the Lord in Shiloh. Benjamin&apos;s lot came up first. Their territory lay between Judah and Joseph, and included the city of Jerusalem.',
+      'Joshua cast lots for the seven remaining tribes before the Lord in Shiloh. Benjamin[res:intertextual-order-inheritance]&apos;s lot came up first. Their territory lay between Judah and Joseph, and included the city of Jerusalem.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Joshua 18 · Study Guide',
   },
@@ -121,7 +121,7 @@ export const JOSHUA_18: RichChapterContent = {
           kind: 'commentary',
           id: 'c-seven',
           html:
-            'Of the twelve tribes, only Judah, Benjamin, and the half-tribes of Manasseh and Joseph have fully received their lots. Seven have lingered at Shiloh. Joshua &apos;s question is pointed: Why are you waiting? The land is already yours. You are not asking permission; you are hesitating to claim what has been promised.',
+            'Of the twelve tribes, only Judah, Benjamin[res:intertextual-order-inheritance], and the half-tribes of Manasseh and Joseph have fully received their lots. Seven have lingered at Shiloh. Joshua &apos;s question is pointed: Why are you waiting? The land is already yours. You are not asking permission; you are hesitating to claim what has been promised.',
         },
         {
           kind: 'scripture',
@@ -263,10 +263,10 @@ export const JOSHUA_18: RichChapterContent = {
       ],
     },
 
-    /* ─── Joshua 18:11–14 — Benjamin&apos;s Borders ──────────────────────────── */
+    /* ─── Joshua 18:11–14 — Benjamin[res:intertextual-order-inheritance]&apos;s Borders ──────────────────────────── */
     {
       ref: 'Joshua 18:11–14',
-      title: 'Benjamin&apos;s Borders',
+      title: 'Benjamin[res:intertextual-order-inheritance]&apos;s Borders',
       blocks: [
         {
           kind: 'scripture',
@@ -276,7 +276,7 @@ export const JOSHUA_18: RichChapterContent = {
               number: 11,
               spans: [
                 t('And '),
-                hp('the lot of the tribe of Benjamin', 'benjamin-strategic'),
+                hp('the lot of the tribe of Benjamin[res:intertextual-order-inheritance]', 'benjamin-strategic'),
                 t(' came up first. And the coast of their lot was between the children of Judah and the children of Joseph.'),
               ],
             },
@@ -304,12 +304,12 @@ export const JOSHUA_18: RichChapterContent = {
           kind: 'commentary',
           id: 'benjamin-strategic',
           html:
-            'Benjamin draws first — a significant honor in the casting of lots. His territory is small but sits in a crucial geopolitical position: between the enormous tribes of Judah to the south and Joseph to the north. It includes Jericho, the gateway city, and reaches westward to include the hill country around Jerusalem. Benjamin is not the largest tribe, but he is sandwiched between two titans, and his border touches the place that will become the capital of Israel.',
+            'Benjamin[res:intertextual-order-inheritance] draws first — a significant honor in the casting of lots. His territory is small but sits in a crucial geopolitical position: between the enormous tribes of Judah to the south and Joseph to the north. It includes Jericho, the gateway city, and reaches westward to include the hill country around Jerusalem. Benjamin[res:intertextual-order-inheritance] is not the largest tribe, but he is sandwiched between two titans, and his border touches the place that will become the capital of Israel.',
         },
         {
           kind: 'carry',
           html:
-            'Benjamin received a small but strategic territory — not commanding the extremes, but standing at the hinge point between two great powers. There is no shame in a small inheritance if it holds a strategic weight. Sometimes God places you not at the center of the stage but at the intersection where your influence outweighs your size. Benjamin&apos;s terrain was small; Benjamin&apos;s impact on Israel&apos;s history was enormous. Do not measure the worth of your assignment by its square footage.',
+            'Benjamin[res:intertextual-order-inheritance] received a small but strategic territory — not commanding the extremes, but standing at the hinge point between two great powers. There is no shame in a small inheritance if it holds a strategic weight. Sometimes God places you not at the center of the stage but at the intersection where your influence outweighs your size. Benjamin[res:intertextual-order-inheritance]&apos;s terrain was small; Benjamin[res:intertextual-order-inheritance]&apos;s impact on Israel&apos;s history was enormous. Do not measure the worth of your assignment by its square footage.',
         },
         {
           kind: 'reflection',
@@ -323,7 +323,7 @@ export const JOSHUA_18: RichChapterContent = {
     /* ─── Joshua 18:15–20 — The Borders Completed ──────────────────────────── */
     {
       ref: 'Joshua 18:15–20',
-      title: 'Benjamin&apos;s Full Territory',
+      title: 'Benjamin[res:intertextual-order-inheritance]&apos;s Full Territory',
       blocks: [
         {
           kind: 'scripture',
@@ -364,7 +364,7 @@ export const JOSHUA_18: RichChapterContent = {
             {
               number: 20,
               spans: [
-                t('And Jordan was the border of it on the east side. This was the inheritance of the children of Benjamin, by the coasts thereof round about.'),
+                t('And Jordan was the border of it on the east side. This was the inheritance of the children of Benjamin[res:intertextual-order-inheritance], by the coasts thereof round about.'),
               ],
             },
           ],
@@ -373,7 +373,7 @@ export const JOSHUA_18: RichChapterContent = {
           kind: 'commentary',
           id: 'c-complete-border',
           html:
-            'The description is exhaustive and precise. Benjamin&apos;s territory is bounded on the east by the Jordan, on the south by the valley of Hinnom (the traditional southern border of Jerusalem), on the north by the lands of Joseph. The text mentions Jebusi — the Jebusite settlement that will become Jerusalem. For generations, Jerusalem will sit on Benjamin&apos;s southern edge, only barely within his border. When King David later captures it and makes it his capital, he will be claiming a city that technically belonged to Benjamin, though the Jebusites held it. That small, strategic territory holds the future.',
+            'The description is exhaustive and precise. Benjamin[res:intertextual-order-inheritance]&apos;s territory is bounded on the east by the Jordan, on the south by the valley of Hinnom (the traditional southern border of Jerusalem), on the north by the lands of Joseph. The text mentions Jebusi — the Jebusite settlement that will become Jerusalem. For generations, Jerusalem will sit on Benjamin[res:intertextual-order-inheritance]&apos;s southern edge, only barely within his border. When King David later captures it and makes it his capital, he will be claiming a city that technically belonged to Benjamin[res:intertextual-order-inheritance], though the Jebusites held it. That small, strategic territory holds the future.',
         },
         {
           kind: 'carry',
@@ -383,10 +383,10 @@ export const JOSHUA_18: RichChapterContent = {
       ],
     },
 
-    /* ─── Joshua 18:21–28 — Benjamin&apos;s Cities and Legacy ──────────────────── */
+    /* ─── Joshua 18:21–28 — Benjamin[res:intertextual-order-inheritance]&apos;s Cities and Legacy ──────────────────── */
     {
       ref: 'Joshua 18:21–28',
-      title: 'Benjamin&apos;s Cities and Legacy',
+      title: 'Benjamin[res:intertextual-order-inheritance]&apos;s Cities and Legacy',
       blocks: [
         {
           kind: 'scripture',
@@ -395,7 +395,7 @@ export const JOSHUA_18: RichChapterContent = {
             {
               number: 21,
               spans: [
-                t('Now the cities of the tribe of Benjamin according to their families were, Jericho, and '),
+                t('Now the cities of the tribe of Benjamin[res:intertextual-order-inheritance] according to their families were, Jericho, and '),
                 hg('Beth-hoglah', 'c-cities'),
                 t(', and the valley of Keziz,'),
               ],
@@ -424,7 +424,7 @@ export const JOSHUA_18: RichChapterContent = {
           kind: 'commentary',
           id: 'joshua-18-78mid-1',
           html:
-            'The narrative moves here from one front to the next. Conquest in this book is named place by named place.',
+            'The land is largely conquered, but not yet distributed. The slower work of dividing and settling begins. Conquest is one thing; homecoming is another.',
         },
         {
           kind: 'scripture',
@@ -451,7 +451,7 @@ export const JOSHUA_18: RichChapterContent = {
             {
               number: 28,
               spans: [
-                t('And Zelah, Eleph, and Jebusi, which is Jerusalem, Gibeath, and Kirjath; fourteen cities with their villages. This was the inheritance of the children of Benjamin according to their families.'),
+                t('And Zelah, Eleph, and Jebusi, which is Jerusalem, Gibeath, and Kirjath; fourteen cities with their villages. This was the inheritance of the children of Benjamin[res:intertextual-order-inheritance] according to their families.'),
               ],
             },
           ],
@@ -460,19 +460,19 @@ export const JOSHUA_18: RichChapterContent = {
           kind: 'commentary',
           id: 'c-cities',
           html:
-            'Benjamin received 26 cities in all. Among them: Jericho, the first city conquered; Bethel, where Abraham once built an altar; Gibeon, site of a crucial peace treaty; and Jerusalem, barely mentioned here at the very end, as a city the Jebusites still held. Yet from Benjamin came Saul, Israel&apos;s first king (1 Samuel 9:1–2), and centuries later, Saul of Tarsus, who became the Apostle Paul. Benjamin seemed small; Benjamin&apos;s offspring changed history. "Of the tribe of Benjamin," Paul wrote, "an Hebrew of the Hebrews" (Philippians 3:5).',
+            'Benjamin[res:intertextual-order-inheritance] received 26 cities in all. Among them: Jericho, the first city conquered; Bethel, where Abraham once built an altar; Gibeon, site of a crucial peace treaty; and Jerusalem, barely mentioned here at the very end, as a city the Jebusites still held. Yet from Benjamin[res:intertextual-order-inheritance] came Saul, Israel&apos;s first king (1 Samuel 9:1–2), and centuries later, Saul of Tarsus, who became the Apostle Paul. Benjamin[res:intertextual-order-inheritance] seemed small; Benjamin[res:intertextual-order-inheritance]&apos;s offspring changed history. "Of the tribe of Benjamin[res:intertextual-order-inheritance]," Paul wrote, "an Hebrew of the Hebrews" (Philippians 3:5).',
         },
         {
           kind: 'christ',
           id: 'benjamin-legacy',
           title: 'Christ Connection — From Small Territory to Eternal Significance',
           html:
-            'Genesis 49:27 describes Benjamin as a fierce warrior: "Benjamin shall ravin as a wolf… he shall divide the spoil." Benjamin was "the wolf" — small but fierce. Yet the two most pivotal figures in Israel&apos;s history came from Benjamin: Saul, who united the kingdom, and Paul, who carried the gospel to the Gentiles. Neither their tribe&apos;s size nor their personal inadequacies limited God&apos;s purpose. Paul himself wrote, "When I am weak, then am I strong" (2 Corinthians 12:10). The small territory of Benjamin, with Jerusalem barely at its border, became the stage for Israel&apos;s most significant moments. Where Christ was born in Bethlehem (Judah) and will reign from Jerusalem (Benjamin&apos;s territory), the two southern tribes frame the redemptive narrative.',
+            'Genesis 49:27 describes Benjamin[res:intertextual-order-inheritance] as a fierce warrior: "Benjamin[res:intertextual-order-inheritance] shall ravin as a wolf… he shall divide the spoil." Benjamin[res:intertextual-order-inheritance] was "the wolf" — small but fierce. Yet the two most pivotal figures in Israel&apos;s history came from Benjamin[res:intertextual-order-inheritance]: Saul, who united the kingdom, and Paul, who carried the gospel to the Gentiles. Neither their tribe&apos;s size nor their personal inadequacies limited God&apos;s purpose. Paul himself wrote, "When I am weak, then am I strong" (2 Corinthians 12:10). The small territory of Benjamin[res:intertextual-order-inheritance], with Jerusalem barely at its border, became the stage for Israel&apos;s most significant moments. Where Christ was born in Bethlehem (Judah) and will reign from Jerusalem (Benjamin[res:intertextual-order-inheritance]&apos;s territory), the two southern tribes frame the redemptive narrative.',
         },
         {
           kind: 'carry',
           html:
-            'Benjamin received a small lot; Benjamin produced a king and an apostle. Do not despise the smallness of your assignment or your sense of your own capacity. God delights in working through the weak, the overlooked, the ones who seemed least likely to matter. Your tribe may be small; your territory may be tight. But if it is held by someone who has truly given the lot to the Lord, there is no telling what God will do through it.',
+            'Benjamin[res:intertextual-order-inheritance] received a small lot; Benjamin[res:intertextual-order-inheritance] produced a king and an apostle. Do not despise the smallness of your assignment or your sense of your own capacity. God delights in working through the weak, the overlooked, the ones who seemed least likely to matter. Your tribe may be small; your territory may be tight. But if it is held by someone who has truly given the lot to the Lord, there is no telling what God will do through it.',
         },
         {
           kind: 'reflection',
@@ -481,6 +481,33 @@ export const JOSHUA_18: RichChapterContent = {
             'Where in your life do you see smallness — your resources, your reach, your sense of yourself — that God might be waiting to make fierce and significant?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'bibleodyssey-benjamin-territory',
+      kind: 'study',
+      source: 'Bible Odyssey',
+      label: 'Benjamin[res:intertextual-order-inheritance]&apos;s Territory and Significance',
+      url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-18',
+      description: 'The small but strategically important territory of Benjamin[res:intertextual-order-inheritance], including Jericho, Bethel, Gibeon, and the contested Jerusalem.',
+    },
+    {
+      id: 'sefaria-benjamin-saul-paul',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Benjamin[res:intertextual-order-inheritance]: From Small Tribe to Kingdom Builders',
+      url: 'https://www.sefaria.org/Joshua.18?lang=bi',
+      description: 'The historical trajectory of the tribe of Benjamin[res:intertextual-order-inheritance], which produced both Saul the first king and Saul (Paul) the apostle.',
+    },
+    {
+      id: 'intertextual-smallness-to-significance',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'God&apos;s Work Through Smallness (Benjamin[res:intertextual-order-inheritance] to Paul)',
+      url: 'https://intertextual.bible/search?q=benjamin+small+weak+strong+paul+2+corinthians',
+      description: 'The pattern of God working through those who are small and weak, from Benjamin[res:intertextual-order-inheritance]&apos;s limited territory to Paul&apos;s declaration of strength in weakness.',
     },
   ],
 

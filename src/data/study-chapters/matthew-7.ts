@@ -106,7 +106,7 @@ export const MATTHEW_7: RichChapterContent = {
           kind: 'commentary',
           id: 'matthew-7-78mid-1',
           html:
-            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+            'The teaching on judgment and hypocrisy ends; now come the hard sayings about false prophets and false disciples. Not all who say "Lord, Lord" will enter the kingdom.',
         },
         {
           kind: 'scripture',

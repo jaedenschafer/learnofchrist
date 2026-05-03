@@ -105,7 +105,7 @@ export const LUKE_6: RichChapterContent = {
           kind: 'commentary',
           id: 'luke-6-78mid-1',
           html:
-            'Luke turns the camera here — from one encounter to the next, often watching how Jesus treats those who would otherwise be passed over.',
+            'Jesus finishes the beatitudes with a woe to the rich; He turns to the command to love enemies. Blessedness and cursing, grace and judgment—both fall from His lips.',
         },
         {
           kind: 'scripture',

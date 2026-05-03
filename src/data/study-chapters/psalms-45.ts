@@ -94,7 +94,7 @@ export const PSALMS_45: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-45-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Address to the king shifts to address to the bride. Strength gives way to honor; the king&apos;s glory becomes his wedding.',
         },
         {
           kind: 'scripture',

@@ -44,7 +44,7 @@ export const MARK_4: RichChapterContent = {
           kind: 'commentary',
           id: 'mark-4-78mid-1',
           html:
-            'Mark moves quickly. The next verses press from one scene to the next without pause; the gospel is in a hurry.',
+            'Jesus finishes the parable of the sower; the disciples ask Him to explain it. From public mystery comes private revelation for those who follow Him.',
         },
         {
           kind: 'scripture',

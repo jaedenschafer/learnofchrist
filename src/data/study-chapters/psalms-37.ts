@@ -39,7 +39,7 @@ export const PSALMS_37: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-37-78mid-1',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'Counsel against envying the wicked opens into vision of inheritance. Fear becomes longing.',
         },
         {
           kind: 'scripture',
@@ -110,7 +110,7 @@ export const PSALMS_37: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-37-78mid-2',
           html:
-            'The psalm turns here. The verses ahead are not the same key as the ones behind; the camera has moved.',
+            'The mouth of the righteous speaking wisdom transitions to a final word about God&apos;s deliverance. Teaching ends in trust.',
         },
         {
           kind: 'scripture',
