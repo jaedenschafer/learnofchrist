@@ -19,7 +19,7 @@ import { useEffect, useRef } from 'react';
  * shows the dark veil + content (no broken state).
  */
 
-const VIDEO_ID = 'HVIhlyW7qUw';
+const VIDEO_ID = '36gA40ArYFY';
 const LOOP_END_SECONDS = 57;
 
 // Loose YouTube IFrame API typing — the real types from @types/youtube
