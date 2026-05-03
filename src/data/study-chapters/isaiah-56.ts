@@ -39,8 +39,7 @@ export const ISAIAH_56: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-gate-open',
           html:
-            \'<p>All nations will gather on God&apos;s holy mountain. His house is a house of prayer for all peoples.[res:sefaria-isaiah-56]</p>\',
-        },
+            '<p>All nations will gather on God&apos;s holy mountain. His house is a house of prayer for all peoples.[res:sefaria-isaiah-56]</p>',        },
         {
           kind: 'hebrew',
           id: 'isaiah56-shabbat',
@@ -69,8 +68,7 @@ export const ISAIAH_56: RichChapterContent = {
           kind: 'commentary',
           id: 'isa56-stranger',
           html:
-            \'Isaiah addresses those who feel excluded. The foreigner who joins himself to the Lord may fear: "Has the Lord utterly separated me?" The eunuch, unable to bear children, may think: "I am a dry tree, with no future." But God says no. To those who keep His covenant, who take hold of His Sabbath, He will give a place in His house and an everlasting name. This is radical inclusion.\',
-        },
+            'Isaiah addresses those who feel excluded. The foreigner who joins himself to the Lord may fear: "Has the Lord utterly separated me?" The eunuch, unable to bear children, may think: "I am a dry tree, with no future." But God says no. To those who keep His covenant, who take hold of His Sabbath, He will give a place in His house and an everlasting name. This is radical inclusion.',        },
         {
           kind: 'hebrew',
           id: 'isa56-ger',
@@ -118,8 +116,7 @@ export const ISAIAH_56: RichChapterContent = {
           kind: 'commentary',
           id: 'isa56-beasts',
           html:
-            \'The vision shifts. The open house of prayer is threatened by beasts, by predators. Why? Because the watchmen are blind. They are dumb dogs, unable to bark, unable to warn. They sleep while danger approaches. They are greedy, focused on their own gain. They shepherd not the flock, but their own interests.\',
-        },
+            'The vision shifts. The open house of prayer is threatened by beasts, by predators. Why? Because the watchmen are blind. They are dumb dogs, unable to bark, unable to warn. They sleep while danger approaches. They are greedy, focused on their own gain. They shepherd not the flock, but their own interests.',        },
         {
           kind: 'commentary',
           id: 'isa56-shepherds',

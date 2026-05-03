@@ -41,8 +41,7 @@ export const ISAIAH_63: RichChapterContent = {
           kind: 'commentary',
           id: 'isa63-edom',
           html:
-            \'A figure approaches from Edom, from Bozrah. His garments are red, dyed as if from the winepress. He speaks in righteousness, mighty to save. Yet He is also stained with blood. He has trodden the winepress alone. The image is of one who has executed judgment without help, without support.[res:sefaria-isaiah-63]\',
-        },
+            'A figure approaches from Edom, from Bozrah. His garments are red, dyed as if from the winepress. He speaks in righteousness, mighty to save. Yet He is also stained with blood. He has trodden the winepress alone. The image is of one who has executed judgment without help, without support.[res:sefaria-isaiah-63]',        },
         {
           kind: 'hebrew',
           id: 'isaiah63-goel',
@@ -76,8 +75,7 @@ export const ISAIAH_63: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            \'Isaiah 63 is a word to the oppressed and the suffering. God sees. God remembers. His day of justice will come. The blood-stained warrior is coming. For the enemies of God, this is terrible news. For the redeemed, it is the promise that injustice will not have the final word.\',
-        },
+            'Isaiah 63 is a word to the oppressed and the suffering. God sees. God remembers. His day of justice will come. The blood-stained warrior is coming. For the enemies of God, this is terrible news. For the redeemed, it is the promise that injustice will not have the final word.',        },
       ],
     },
 
@@ -107,8 +105,7 @@ export const ISAIAH_63: RichChapterContent = {
           kind: 'commentary',
           id: 'isa63-father',
           html:
-            \'The people cry: "Doubtless thou art our Father." Abraham may not know them, Israel may not acknowledge them, but God is their Father, their Redeemer. Yet the prayer also cries out in confusion: Why have You made us to err? Why have You hardened our hearts? Return to us. We are yours.\',
-        },
+            'The people cry: "Doubtless thou art our Father." Abraham may not know them, Israel may not acknowledge them, but God is their Father, their Redeemer. Yet the prayer also cries out in confusion: Why have You made us to err? Why have You hardened our hearts? Return to us. We are yours.',        },
         {
           kind: 'carry',
           html:

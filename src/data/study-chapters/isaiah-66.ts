@@ -92,8 +92,7 @@ export const ISAIAH_66: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-new-heavens',
           html:
-            \'<p>New heavens, new earth; former troubles forgotten. All flesh will come and worship before the Lord.[res:sefaria-isaiah-66]</p>\',
-        },
+            '<p>New heavens, new earth; former troubles forgotten. All flesh will come and worship before the Lord.[res:sefaria-isaiah-66]</p>',        },
         {
           kind: 'scripture',
           chapter: 66,
@@ -108,20 +107,17 @@ export const ISAIAH_66: RichChapterContent = {
           kind: 'commentary',
           id: 'isa66-fire',
           html:
-            \'God comes with fire and chariots like a whirlwind. By fire and sword, the Lord will plead with all flesh. The slain of the Lord are many. This is not a comfortable vision. This is judgment, justice executed against those who have opposed God.\',
-        },
+            'God comes with fire and chariots like a whirlwind. By fire and sword, the Lord will plead with all flesh. The slain of the Lord are many. This is not a comfortable vision. This is judgment, justice executed against those who have opposed God.',        },
         {
           kind: 'commentary',
           id: 'isa66-gather',
           html:
-            \'Yet at the same time, God gathers all nations and tongues to see His glory. Those who escape will be sent to distant nations to declare His glory to those who have not heard. From one new moon to another, from one Sabbath to another, all flesh will come to worship before the Lord.\',
-        },
+            'Yet at the same time, God gathers all nations and tongues to see His glory. Those who escape will be sent to distant nations to declare His glory to those who have not heard. From one new moon to another, from one Sabbath to another, all flesh will come to worship before the Lord.',        },
         {
           kind: 'commentary',
           id: 'isa66-worm',
           html:
-            \'The book ends with a stark image: the wicked go out and look upon the carcasses of those who transgressed. Their worm does not die. Their fire is not quenched. They are an abhorring unto all flesh. This is final judgment—eternal separation from God, eternal consequence for rebellion.\',
-        },
+            'The book ends with a stark image: the wicked go out and look upon the carcasses of those who transgressed. Their worm does not die. Their fire is not quenched. They are an abhorring unto all flesh. This is final judgment—eternal separation from God, eternal consequence for rebellion.',        },
         {
           kind: 'christ',
           id: 'isa66-christ-final',

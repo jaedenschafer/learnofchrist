@@ -39,8 +39,7 @@ export const ISAIAH_58: RichChapterContent = {
           kind: 'commentary',
           id: 'isa58-fasting-true',
           html:
-            \'The false fast is named; now comes the true fast—loosing bonds, feeding the hungry, clothing the naked.[res:sefaria-isaiah-58]\',
-        },
+            'The false fast is named; now comes the true fast—loosing bonds, feeding the hungry, clothing the naked.[res:sefaria-isaiah-58]',        },
         {
           kind: 'hebrew',
           id: 'isaiah58-tzom',
@@ -64,14 +63,12 @@ export const ISAIAH_58: RichChapterContent = {
           kind: 'commentary',
           id: 'isa58-cry',
           html:
-            \'God tells the prophet: Cry aloud. Do not spare. Lift up your voice like a trumpet. Show the people their transgression. The people come to God with their fasts, seeking knowledge of His ways, asking for the ordinances of justice. But they practice the opposite. They quarrel, they oppress their workers, they are unjust.\',
-        },
+            'God tells the prophet: Cry aloud. Do not spare. Lift up your voice like a trumpet. Show the people their transgression. The people come to God with their fasts, seeking knowledge of His ways, asking for the ordinances of justice. But they practice the opposite. They quarrel, they oppress their workers, they are unjust.',        },
         {
           kind: 'commentary',
           id: 'isa58-fast',
           html:
-            \'God asks: Is this the fast I have chosen? No. The chosen fast is to loose the bands of wickedness, to free the oppressed, to break every yoke. It is to feed the hungry, house the homeless, clothe the naked. It is to stop hiding from your own flesh—your own poor and suffering.\',
-        },
+            'God asks: Is this the fast I have chosen? No. The chosen fast is to loose the bands of wickedness, to free the oppressed, to break every yoke. It is to feed the hungry, house the homeless, clothe the naked. It is to stop hiding from your own flesh—your own poor and suffering.',        },
         {
           kind: 'hebrew',
           id: 'isa58-natzar',
@@ -86,13 +83,11 @@ export const ISAIAH_58: RichChapterContent = {
           id: 'isa58-christ-gospel',
           title: 'Christ Connection — The Gospel Made Visible',
           html:
-            \'In Matthew 25, Jesus describes the final judgment. "Then shall the King say unto them on his right hand, Come, ye blessed of my Father...For I was an hungred, and ye gave me meat: I was thirsty, and ye gave me drink...Verily I say unto you, Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me" (Matt. 25:34–40). Christ identifies Himself with the hungry, the poor, the oppressed. To feed them is to feed Him. Isaiah 58 and Matthew 25 speak the same gospel: true faith is known not by religious practice, but by love for the needy.\',
-        },
+            'In Matthew 25, Jesus describes the final judgment. "Then shall the King say unto them on his right hand, Come, ye blessed of my Father...For I was an hungred, and ye gave me meat: I was thirsty, and ye gave me drink...Verily I say unto you, Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me" (Matt. 25:34–40). Christ identifies Himself with the hungry, the poor, the oppressed. To feed them is to feed Him. Isaiah 58 and Matthew 25 speak the same gospel: true faith is known not by religious practice, but by love for the needy.',        },
         {
           kind: 'carry',
           html:
-            \'We live in a culture that separates religion from justice. We can be faithful in prayer and indifferent to poverty. We can fast and oppress. Isaiah will not allow this separation. True fasting is breaking the chains of injustice. True prayer is answered when we draw out our soul to the hungry. Our relationship with God is tested by our treatment of the poor.\',
-        },
+            'We live in a culture that separates religion from justice. We can be faithful in prayer and indifferent to poverty. We can fast and oppress. Isaiah will not allow this separation. True fasting is breaking the chains of injustice. True prayer is answered when we draw out our soul to the hungry. Our relationship with God is tested by our treatment of the poor.',        },
         {
           kind: 'reflection',
           id: 'isa58-justice',
@@ -121,14 +116,12 @@ export const ISAIAH_58: RichChapterContent = {
           kind: 'commentary',
           id: 'isa58-light',
           html:
-            \'When the people turn from injustice and turn toward mercy, their light shall rise in obscurity. Their darkness shall be as noonday. God will answer their call, saying "Here I am." The Lord will guide them continually, satisfy their soul, make them like a watered garden whose waters never fail.\',
-        },
+            'When the people turn from injustice and turn toward mercy, their light shall rise in obscurity. Their darkness shall be as noonday. God will answer their call, saying "Here I am." The Lord will guide them continually, satisfy their soul, make them like a watered garden whose waters never fail.',        },
         {
           kind: 'commentary',
           id: 'isa58-breach',
           html:
-            \'Those who practice justice will rebuild the waste places. They will raise up the foundations of many generations. They will be called "the repairer of the breach, the restorer of paths to dwell in." This is a calling to restoration, to healing the damage sin has caused, to making the world habitable again.\',
-        },
+            'Those who practice justice will rebuild the waste places. They will raise up the foundations of many generations. They will be called "the repairer of the breach, the restorer of paths to dwell in." This is a calling to restoration, to healing the damage sin has caused, to making the world habitable again.',        },
         {
           kind: 'commentary',
           id: 'isa58-sabbath',
@@ -138,8 +131,7 @@ export const ISAIAH_58: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            \'Isaiah 58 teaches that faithfulness is not about whether you fast, but about whether you feed the hungry. Not about how many hours you pray, but about whether you break the chains of oppression. The Christian life is measured by its fruit: Are you healing? Are you restoring? Are you making justice flow like waters and righteousness like an ever-flowing stream?\',
-        },
+            'Isaiah 58 teaches that faithfulness is not about whether you fast, but about whether you feed the hungry. Not about how many hours you pray, but about whether you break the chains of oppression. The Christian life is measured by its fruit: Are you healing? Are you restoring? Are you making justice flow like waters and righteousness like an ever-flowing stream?',        },
         {
           kind: 'reflection',
           id: 'isa58-repairer',

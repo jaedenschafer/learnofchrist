@@ -37,8 +37,7 @@ export const ISAIAH_54: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-barren-children',
           html:
-            \'<p>The barren woman will have more children than the married. Enlarge your tent; your descendants will possess the nations.[res:sefaria-isaiah-54]</p>\',
-        },
+            '<p>The barren woman will have more children than the married. Enlarge your tent; your descendants will possess the nations.[res:sefaria-isaiah-54]</p>',        },
         {
           kind: 'hebrew',
           id: 'isaiah54-kallah',
@@ -61,14 +60,12 @@ export const ISAIAH_54: RichChapterContent = {
           kind: 'commentary',
           id: 'isa54-barren',
           html:
-            \'The barren woman is called to sing and cry aloud. Her shame is turned to joy. She will have more children than the married woman. This is a complete reversal: what was empty will be full, what was silent will sing, what was ashamed will be honored.\',
-        },
+            'The barren woman is called to sing and cry aloud. Her shame is turned to joy. She will have more children than the married woman. This is a complete reversal: what was empty will be full, what was silent will sing, what was ashamed will be honored.',        },
         {
           kind: 'commentary',
           id: 'isa54-tent',
           html:
-            \'She is told to enlarge her tent, to stretch forth curtains, to lengthen cords and strengthen stakes. This is preparation for multitudes. The desolate place will be inhabited. The curse of barrenness is broken. Children will inherit the land and make the desolate cities to be inhabited.\',
-        },
+            'She is told to enlarge her tent, to stretch forth curtains, to lengthen cords and strengthen stakes. This is preparation for multitudes. The desolate place will be inhabited. The curse of barrenness is broken. Children will inherit the land and make the desolate cities to be inhabited.',        },
         {
           kind: 'hebrew',
           id: 'isa54-asah',
@@ -83,8 +80,7 @@ export const ISAIAH_54: RichChapterContent = {
           id: 'isa54-christ-bride',
           title: 'Christ Connection — The Bride of Christ',
           html:
-            \'In Ephesians 5, Paul quotes Genesis in describing Christ and the Church as Husband and Wife. "Husbands, love your wives, even as Christ also loved the church, and gave himself for it...that it should be holy and without blemish" (Eph. 5:25–27). The barren woman of Isaiah 54 is the Church. Her Maker is Christ, her Redeemer. She was forsaken and grieved, but He gathers her with great mercies. She was refused, but He chose her. She will be fruitful, bearing children for His kingdom.\',
-        },
+            'In Ephesians 5, Paul quotes Genesis in describing Christ and the Church as Husband and Wife. "Husbands, love your wives, even as Christ also loved the church, and gave himself for it...that it should be holy and without blemish" (Eph. 5:25–27). The barren woman of Isaiah 54 is the Church. Her Maker is Christ, her Redeemer. She was forsaken and grieved, but He gathers her with great mercies. She was refused, but He chose her. She will be fruitful, bearing children for His kingdom.',        },
         {
           kind: 'carry',
           html:
@@ -116,8 +112,7 @@ export const ISAIAH_54: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-barren-children-2',
           html:
-            \'<p>Your gates will be made of rubies, your walls of precious stones. All your children will be taught by the Lord.</p>\',
-        },
+            '<p>Your gates will be made of rubies, your walls of precious stones. All your children will be taught by the Lord.</p>',        },
         {
           kind: 'scripture',
           chapter: 54,
@@ -138,8 +133,7 @@ export const ISAIAH_54: RichChapterContent = {
           kind: 'commentary',
           id: 'isa54-stones',
           html:
-            \'The afflicted woman, tossed with tempest and uncomforted, will be rebuilt. Her stones will be laid with fair colors, her foundations with sapphires. She will have windows of agates, gates of carbuncles, borders of pleasant stones. This is not merely restoration; it is glorification. What was destroyed is remade more beautiful than before.\',
-        },
+            'The afflicted woman, tossed with tempest and uncomforted, will be rebuilt. Her stones will be laid with fair colors, her foundations with sapphires. She will have windows of agates, gates of carbuncles, borders of pleasant stones. This is not merely restoration; it is glorification. What was destroyed is remade more beautiful than before.',        },
         {
           kind: 'commentary',
           id: 'isa54-children',

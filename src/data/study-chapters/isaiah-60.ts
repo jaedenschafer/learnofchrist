@@ -39,8 +39,7 @@ export const ISAIAH_60: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-light-shines',
           html:
-            \'<p>Arise and shine; your light has come. Nations walk in your brightness; the Lord is your everlasting light.[res:sefaria-isaiah-60]</p>\',
-        },
+            '<p>Arise and shine; your light has come. Nations walk in your brightness; the Lord is your everlasting light.[res:sefaria-isaiah-60]</p>',        },
         {
           kind: 'hebrew',
           id: 'isaiah60-or',
@@ -63,8 +62,7 @@ export const ISAIAH_60: RichChapterContent = {
           kind: 'commentary',
           id: 'isa60-arise',
           html:
-            \'Zion is called to arise and shine. Her light has come. While darkness covers the earth, the Lord rises upon her. Her glory is the reflection of His glory. She becomes a beacon to the nations. The Gentiles see her light and come. Kings see the brightness of her rising and bow.\',
-        },
+            'Zion is called to arise and shine. Her light has come. While darkness covers the earth, the Lord rises upon her. Her glory is the reflection of His glory. She becomes a beacon to the nations. The Gentiles see her light and come. Kings see the brightness of her rising and bow.',        },
         {
           kind: 'commentary',
           id: 'isa60-gather',
@@ -90,8 +88,7 @@ export const ISAIAH_60: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            \'Isaiah 60 invites us to see ourselves and our communities not as they are in the moment of despair, but as they are called to be—radiant, magnetic, centers of light and truth that draw others to God. This is not prideful ambition. This is the calling of everyone who follows Christ: to shine with His light so that others are drawn to His truth.\',
-        },
+            'Isaiah 60 invites us to see ourselves and our communities not as they are in the moment of despair, but as they are called to be—radiant, magnetic, centers of light and truth that draw others to God. This is not prideful ambition. This is the calling of everyone who follows Christ: to shine with His light so that others are drawn to His truth.',        },
         {
           kind: 'reflection',
           id: 'isa60-light',
@@ -117,8 +114,7 @@ export const ISAIAH_60: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-light-shines-2',
           html:
-            \'<p>Instead of bronze, I will bring gold; instead of iron, silver. Peace as your overseer, righteousness as your leader.</p>\',
-        },
+            '<p>Instead of bronze, I will bring gold; instead of iron, silver. Peace as your overseer, righteousness as your leader.</p>',        },
         {
           kind: 'scripture',
           chapter: 60,
@@ -133,14 +129,12 @@ export const ISAIAH_60: RichChapterContent = {
           kind: 'commentary',
           id: 'isa60-forsaken',
           html:
-            \'What was forsaken and hated will become an eternal excellency, a joy of many generations. What was passed through with contempt will become a destination for pilgrims. The reversal is complete: the despised becomes the celebrated.\',
-        },
+            'What was forsaken and hated will become an eternal excellency, a joy of many generations. What was passed through with contempt will become a destination for pilgrims. The reversal is complete: the despised becomes the celebrated.',        },
         {
           kind: 'commentary',
           id: 'isa60-metals',
           html:
-            \'In a radical transformation, all materials are upgraded. Brass becomes gold. Iron becomes silver. Wood becomes brass. Stones become iron. This is not merely material improvement. It is a complete renovation of creation itself—everything is refined, elevated, made more precious.\',
-        },
+            'In a radical transformation, all materials are upgraded. Brass becomes gold. Iron becomes silver. Wood becomes brass. Stones become iron. This is not merely material improvement. It is a complete renovation of creation itself—everything is refined, elevated, made more precious.',        },
         {
           kind: 'commentary',
           id: 'isa60-everlasting',

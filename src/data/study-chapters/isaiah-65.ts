@@ -75,8 +75,7 @@ export const ISAIAH_65: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            \'We do not need to be worthy before approaching God. We do not need to clean ourselves up first. We do not need to have sought Him long enough. God finds us when we are not looking, when we do not know we need Him, when we are rebellious and lost. His grace is that preemptive, that generous.\',
-        },
+            'We do not need to be worthy before approaching God. We do not need to clean ourselves up first. We do not need to have sought Him long enough. God finds us when we are not looking, when we do not know we need Him, when we are rebellious and lost. His grace is that preemptive, that generous.',        },
         {
           kind: 'reflection',
           id: 'isa65-found',
@@ -103,8 +102,7 @@ export const ISAIAH_65: RichChapterContent = {
           kind: 'commentary',
           id: 'isa65-new-creation',
           html:
-            \'The judgment on the rebels is set; but look—a new heavens and new earth are coming, and the former things will not be remembered.[res:sefaria-isaiah-65]\',
-        },
+            'The judgment on the rebels is set; but look—a new heavens and new earth are coming, and the former things will not be remembered.[res:sefaria-isaiah-65]',        },
         {
           kind: 'scripture',
           chapter: 65,
@@ -120,20 +118,17 @@ export const ISAIAH_65: RichChapterContent = {
           kind: 'commentary',
           id: 'isa65-new',
           html:
-            \'Behold, I create new heavens and new earth. The former things are not remembered, do not come into mind. This is not repair or restoration, but new creation. What was broken is not patched; it is remade.\',
-        },
+            'Behold, I create new heavens and new earth. The former things are not remembered, do not come into mind. This is not repair or restoration, but new creation. What was broken is not patched; it is remade.',        },
         {
           kind: 'commentary',
           id: 'isa65-weeping',
           html:
-            \'In the new creation, the voice of weeping is no more heard. There is no crying. There is no untimely death. People build houses and inhabit them. They plant vineyards and eat their fruit. The curse that has pursued humanity since Eden is lifted. Labor is no longer in vain. Children are no longer born to trouble.\',
-        },
+            'In the new creation, the voice of weeping is no more heard. There is no crying. There is no untimely death. People build houses and inhabit them. They plant vineyards and eat their fruit. The curse that has pursued humanity since Eden is lifted. Labor is no longer in vain. Children are no longer born to trouble.',        },
         {
           kind: 'commentary',
           id: 'isa65-wolf',
           html:
-            \'The animal kingdom is transformed. Wolf dwells with lamb, leopard with goat, lion with calf. A little child leads them. This is the peaceable kingdom, where the very nature of creation is changed, where predator and prey live in harmony.\',
-        },
+            'The animal kingdom is transformed. Wolf dwells with lamb, leopard with goat, lion with calf. A little child leads them. This is the peaceable kingdom, where the very nature of creation is changed, where predator and prey live in harmony.',        },
         {
           kind: 'christ',
           id: 'isa65-christ-new-creation',

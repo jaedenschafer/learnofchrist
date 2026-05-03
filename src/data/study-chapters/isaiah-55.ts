@@ -37,8 +37,7 @@ export const ISAIAH_55: RichChapterContent = {
           kind: 'commentary',
           id: 'resolve-word-returns',
           html:
-            \'<p>My word goes out; it will not return empty. It accomplishes what I please and succeeds in the purpose I sent it.[res:sefaria-isaiah-55]</p>\',
-        },
+            '<p>My word goes out; it will not return empty. It accomplishes what I please and succeeds in the purpose I sent it.[res:sefaria-isaiah-55]</p>',        },
         {
           kind: 'hebrew',
           id: 'isaiah55-mayim',
@@ -61,20 +60,17 @@ export const ISAIAH_55: RichChapterContent = {
           kind: 'commentary',
           id: 'isa55-thirsty',
           html:
-            \'The chapter opens with a call to the thirsty. Not to the satisfied, not to the wealthy, but to those who hunger and thirst. These are invited to come without money, without cost. The waters are free. The wine and milk are without price. This is grace: the gift freely given.\',
-        },
+            'The chapter opens with a call to the thirsty. Not to the satisfied, not to the wealthy, but to those who hunger and thirst. These are invited to come without money, without cost. The waters are free. The wine and milk are without price. This is grace: the gift freely given.',        },
         {
           kind: 'commentary',
           id: 'isa55-bread',
           html:
-            \'Why spend money on that which is not bread? Why labor for that which does not satisfy? This is a critique of the human tendency to seek satisfaction in emptiness. We exhaust ourselves pursuing things that do not nourish. Instead, incline your ear to God. Listen to His voice. Your soul will live. You will delight in fatness—in abundance, in satisfaction that truly feeds.\',
-        },
+            'Why spend money on that which is not bread? Why labor for that which does not satisfy? This is a critique of the human tendency to seek satisfaction in emptiness. We exhaust ourselves pursuing things that do not nourish. Instead, incline your ear to God. Listen to His voice. Your soul will live. You will delight in fatness—in abundance, in satisfaction that truly feeds.',        },
         {
           kind: 'commentary',
           id: 'isa55-covenant',
           html:
-            \'God makes an everlasting covenant, giving the sure mercies promised to David. The Servant who has been described is given as a witness, a leader, a commander to the peoples. Through His death and resurrection, His witness reaches all nations. Those who do not know will call upon Him, run unto Him, because God has glorified Him.\',
-        },
+            'God makes an everlasting covenant, giving the sure mercies promised to David. The Servant who has been described is given as a witness, a leader, a commander to the peoples. Through His death and resurrection, His witness reaches all nations. Those who do not know will call upon Him, run unto Him, because God has glorified Him.',        },
         {
           kind: 'hebrew',
           id: 'isa55-damah',
@@ -89,13 +85,11 @@ export const ISAIAH_55: RichChapterContent = {
           id: 'isa55-christ-water',
           title: 'Christ Connection — The Living Water',
           html:
-            \'In John 4, Jesus tells the Samaritan woman: "Whosoever drinketh of the water that I shall give him shall never thirst; but the water that I shall give him shall be in him a well of water springing up into everlasting life" (John 4:14). Jesus is the water of which Isaiah speaks. He is the Source of life. And in John 7:37–38, Jesus stands in the temple and cries: "If any man thirst, let him come unto me, and drink...out of his belly shall flow rivers of living water."\',
-        },
+            'In John 4, Jesus tells the Samaritan woman: "Whosoever drinketh of the water that I shall give him shall never thirst; but the water that I shall give him shall be in him a well of water springing up into everlasting life" (John 4:14). Jesus is the water of which Isaiah speaks. He is the Source of life. And in John 7:37–38, Jesus stands in the temple and cries: "If any man thirst, let him come unto me, and drink...out of his belly shall flow rivers of living water."',        },
         {
           kind: 'carry',
           html:
-            \'We spend our resources chasing things that do not nourish. Money on empty pursuits, time on meaningless labor, energy on that which leaves us hollow. Isaiah invites us to stop. To come. To drink from the waters that truly satisfy. This invitation is not for the righteous alone, but for all—including the wicked, the unrighteous. Come, return, and God will abundantly pardon.\',
-        },
+            'We spend our resources chasing things that do not nourish. Money on empty pursuits, time on meaningless labor, energy on that which leaves us hollow. Isaiah invites us to stop. To come. To drink from the waters that truly satisfy. This invitation is not for the righteous alone, but for all—including the wicked, the unrighteous. Come, return, and God will abundantly pardon.',        },
         {
           kind: 'reflection',
           id: 'isa55-thirst',
@@ -136,8 +130,7 @@ export const ISAIAH_55: RichChapterContent = {
           kind: 'commentary',
           id: 'isa55-joy',
           html:
-            \'Those who receive this word shall go out with joy and be led forth with peace. The mountains and hills break forth into singing. The trees clap their hands. This is cosmic celebration. And the curse is reversed: instead of thorns, fir trees. Instead of briars, myrtle trees. This is the new creation promised, where the curse is lifted and all things are made new.\',
-        },
+            'Those who receive this word shall go out with joy and be led forth with peace. The mountains and hills break forth into singing. The trees clap their hands. This is cosmic celebration. And the curse is reversed: instead of thorns, fir trees. Instead of briars, myrtle trees. This is the new creation promised, where the curse is lifted and all things are made new.',        },
         {
           kind: 'carry',
           html:
