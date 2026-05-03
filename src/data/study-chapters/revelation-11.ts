@@ -35,6 +35,33 @@ export const REVELATION_11: RichChapterContent = {
     ref: 'Revelation 11 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-zechariah-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Zechariah 4 — Two Olive Trees and Two Lampstands',
+      url: 'https://www.sefaria.org/Zechariah.4',
+      description: 'OT foundation for the two witnesses and the olive trees — prophetic imagery of witness.',
+    },
+    {
+      id: 'sefaria-1-kings-17-18',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Kings 17–18 — Elijah and Fire from Heaven',
+      url: 'https://www.sefaria.org/I_Kings.17-18',
+      description: 'Elijah&apos;s prophetic works as typology for the two witnesses — shutting rain, calling fire.',
+    },
+    {
+      id: 'bibleodyssey-two-witnesses',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Two Witnesses — Revelation 11',
+      url: 'https://www.bibleodyssey.org/dictionary/two-witnesses/',
+      description: 'Study of Elijah and Moses typology in the final prophetic testimony before Christ&apos;s return.',
+    },
+  ],
+
   sections: [
     /* ─── Revelation 11:1–2 — Measure the Temple ────────────────────── */
     {

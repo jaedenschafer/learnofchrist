@@ -29,6 +29,33 @@ export const REVELATION_13: RichChapterContent = {
     ref: 'Revelation 13 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-daniel-7-beasts',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Daniel 7 — Four Beasts and the Little Horn',
+      url: 'https://www.sefaria.org/Daniel.7',
+      description: 'OT foundation for John&apos;s beasts — the earthly kingdoms opposed to God&apos;s kingdom.',
+    },
+    {
+      id: 'intf-revelation-13-early-manuscripts',
+      kind: 'manuscript',
+      source: 'INTF',
+      label: 'Revelation 13 — Manuscript Witnesses to 666',
+      url: 'https://www.ntgabc.com',
+      description: 'Early Greek witnesses (Codex Sinaiticus, etc.) showing textual variants for the number of the beast.',
+    },
+    {
+      id: 'bibleodyssey-666-number',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '666 — Gematria and Symbolic Numbers',
+      url: 'https://www.bibleodyssey.org/dictionary/666/',
+      description: 'Study of numerical symbolism in apocalyptic literature and Jewish gematria.',
+    },
+  ],
+
   sections: [
     /* ─── Revelation 13:1 — The Beast Rises ────────────────────────────── */
     {

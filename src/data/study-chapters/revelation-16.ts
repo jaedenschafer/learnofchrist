@@ -611,4 +611,33 @@ export const REVELATION_16: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Revelation 16 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-exodus-7-11',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 7–11 — The Ten Plagues Detailed',
+      url: 'https://www.sefaria.org/Exodus.7-11',
+      description: 'The Egyptian plagues model for the seven bowls of God&apos;s wrath in Revelation 16.',
+    },
+    {
+      id: 'sefaria-psalm-79',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 79 — Pour Out Your Wrath',
+      url: 'https://www.sefaria.org/Psalms.79',
+      description: 'Psalmist&apos;s prayer for vindication and justice — foundation for bowl-judgment prayers.',
+    },
+    {
+      id: 'intertextual-exodus-rev-16',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Exodus Plagues ↔ Revelation 16 Bowls',
+      url: 'https://intertextual.bible/text/exodus-7/revelation-16.1',
+      description: 'Parallel structure of redemptive and final plagues — the recapitulation of judgment.',
+    },
+  ],
+
+
 };

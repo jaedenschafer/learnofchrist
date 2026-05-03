@@ -508,4 +508,36 @@ export const REVELATION_22: RichChapterContent = {
     snippet: 'The final chapter of Scripture — the restoration of Eden, the call to come, the promise of grace. Completing 1,189 chapters of Bible study at learnofchrist.com.',
     ref: 'Revelation 22 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-2-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Genesis 2–3: The Garden and the Fall',
+      url: 'https://www.sefaria.org/Genesis.2',
+      description:
+        'The opening garden with its river and tree of life, contrasted with the curse of Genesis 3; Revelation 22 completes the arc as Eden is restored without the curse.',
+    },
+    {
+      id: 'sefaria-ezekiel-47-48',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 47–48: The River and the Restored Temple',
+      url: 'https://www.sefaria.org/Ezekiel.47',
+      description:
+        'Vision of water flowing from the temple, healing the nations and making the barren land fruitful; an OT precursor to Revelation&apos;s river of life and tree of healing.',
+    },
+    {
+      id: 'intertextual-genesis-revelation-garden',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Genesis–Revelation: The Garden Restoration Arc',
+      url: 'https://www.intertextual.bible/passages/genesis-2-revelation-22',
+      description:
+        'Cross-reference linking the garden of Genesis 2, humanity&apos;s expulsion in Genesis 3, and the final restoration of the tree and river of life in Revelation 22; the complete redemption arc.',
+    },
+  ],
+
+  hasHebrew: false,
 };

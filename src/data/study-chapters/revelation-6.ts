@@ -566,5 +566,32 @@ export const REVELATION_6: RichChapterContent = {
     ref: 'Revelation 6 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-zechariah-1-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Zechariah 1–6 — The Four Horsemen Vision',
+      url: 'https://www.sefaria.org/Zechariah.1-6',
+      description: 'OT foundation for John&apos;s four horsemen and seals — divine judgment on the earth.',
+    },
+    {
+      id: 'sefaria-joel-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Joel 2 — Apocalyptic Judgment',
+      url: 'https://www.sefaria.org/Joel.2',
+      description: 'Judgment imagery and cosmic upheaval paralleling the seals, trumpets, and bowls.',
+    },
+    {
+      id: 'sefaria-daniel-2-end-times',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Daniel 2:31–45 — The Stone Kingdom',
+      url: 'https://www.sefaria.org/Daniel.2.31',
+      description: 'Apocalyptic framework for the final judgment and the stone that fills the whole earth.',
+    },
+  ],
+
   hasHebrew: false,
 };

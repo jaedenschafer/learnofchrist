@@ -487,5 +487,32 @@ export const REVELATION_7: RichChapterContent = {
     ref: 'Revelation 7 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-daniel-12',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Daniel 12 — The Resurrection and Number Sealed',
+      url: 'https://www.sefaria.org/Daniel.12',
+      description: 'OT foundation for "many shall be purified" and the 144,000 sealed — numbering the redeemed.',
+    },
+    {
+      id: 'sefaria-zechariah-14',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Zechariah 14 — The Eschatological Day',
+      url: 'https://www.sefaria.org/Zechariah.14',
+      description: 'Apocalyptic climax with all nations gathering, echoed in the multitude that no man could number.',
+    },
+    {
+      id: 'bibleodyssey-144000',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: '144,000 — Symbolic Numbers in Revelation',
+      url: 'https://www.bibleodyssey.org/dictionary/one-hundred-forty-four-thousand/',
+      description: 'Study of numerical symbolism in apocalyptic literature — the sealed and the great multitude.',
+    },
+  ],
+
   hasHebrew: false,
 };

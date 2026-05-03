@@ -482,4 +482,33 @@ export const REVELATION_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Revelation 5 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-daniel-7-son-of-man',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Daniel 7:13–14 — The Son of Man Receives Authority',
+      url: 'https://www.sefaria.org/Daniel.7.13',
+      description: 'The scroll sealed with seven seals echoes Daniel&apos;s vision of the one like a son of man receiving dominion.',
+    },
+    {
+      id: 'sefaria-isaiah-53',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 53 — The Suffering Servant',
+      url: 'https://www.sefaria.org/Isaiah.53',
+      description: 'OT foundation for "the Lamb that was slain" — the innocent one bearing the sins of many.',
+    },
+    {
+      id: 'intertextual-isa-53-rev-5',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 53:7 ↔ Revelation 5:6',
+      url: 'https://intertextual.bible/text/isaiah-53.7/revelation-5.6',
+      description: 'The Lamb image: silent servant in Isaiah connected to John&apos;s Lamb in the throne room.',
+    },
+  ],
+
+  hasHebrew: false,
 };

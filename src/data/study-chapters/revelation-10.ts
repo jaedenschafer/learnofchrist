@@ -451,4 +451,41 @@ export const REVELATION_10: RichChapterContent = {
       ],
     },
   ],
+
+  bottomShare: {
+    label: 'Share Revelation 10',
+    quote:
+      'A mighty angel comes down from heaven with a little book open. The prophet is told to take it and eat it. It is sweet as honey in his mouth, but bitter in his belly. He is commanded to prophesy again before many peoples, nations, tongues, and kings.',
+    snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
+    ref: 'Revelation 10 · Study Guide',
+  },
+
+  resources: [
+    {
+      id: 'sefaria-ezekiel-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 3:1–3 — The Prophet Eats the Scroll',
+      url: 'https://www.sefaria.org/Ezekiel.3.1',
+      description: 'Ezekiel&apos;s calling to eat the scroll and speak God&apos;s word — the OT foundation for John&apos;s vision.',
+    },
+    {
+      id: 'intertextual-ezekiel-john-scroll',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Ezekiel 3:1–3 ↔ Revelation 10:9–10',
+      url: 'https://intertextual.bible/text/ezekiel-3.1/revelation-10.9',
+      description: 'Parallel visions of prophetic commissioning — sweet in mouth, working inwardly.',
+    },
+    {
+      id: 'bibleodyssey-prophetic-witness',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Prophetic Word — Witness in Revelation',
+      url: 'https://www.bibleodyssey.org/dictionary/prophecy/',
+      description: 'Study of prophetic calling and witness in apocalyptic literature.',
+    },
+  ],
+
+  hasHebrew: false,
 };

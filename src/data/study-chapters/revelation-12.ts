@@ -503,5 +503,33 @@ export const REVELATION_12: RichChapterContent = {
     ref: 'Revelation 12 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-genesis-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Genesis 3 — The Seed of the Woman',
+      url: 'https://www.sefaria.org/Genesis.3',
+      description: 'The protoevangelium — the seed of the woman will bruise the serpent&apos;s head (Gen. 3:15).',
+    },
+    {
+      id: 'sefaria-isaiah-7-14',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 7:14 — Behold a Virgin Shall Conceive',
+      url: 'https://www.sefaria.org/Isaiah.7.14',
+      description: 'OT prophecy of the woman and child — the virgin and the Immanuel.',
+    },
+    {
+      id: 'theoi-dragon-mythology',
+      kind: 'study',
+      source: 'Theoi Classical Texts',
+      label: 'Dragon Typology in Ancient Mythology',
+      url: 'https://www.theoi.com',
+      description: 'Classical parallels to the dragon and birth-of-hero myths underlying apocalyptic imagery.',
+    },
+  ],
+
+
   hasHebrew: false,
 };

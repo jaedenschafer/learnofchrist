@@ -464,5 +464,32 @@ export const REVELATION_4: RichChapterContent = {
     ref: 'Revelation 4 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-isaiah-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 6 — Throne Vision',
+      url: 'https://www.sefaria.org/Isaiah.6',
+      description: 'Isaiah&apos;s throne room vision — the foundation for John&apos;s four living creatures and "Holy, holy, holy."',
+    },
+    {
+      id: 'sefaria-ezekiel-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 1 — Merkavah Vision',
+      url: 'https://www.sefaria.org/Ezekiel.1',
+      description: 'Ezekiel&apos;s throne-chariot vision with wheels and living creatures — apocalyptic background for Revelation 4.',
+    },
+    {
+      id: 'intertextual-isa-6-rev-4',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 6:1–4 ↔ Revelation 4:8–11',
+      url: 'https://intertextual.bible/text/isaiah-6.1/revelation-4.8',
+      description: 'Side-by-side comparison of Isaiah&apos;s seraph vision and John&apos;s throne-room hymn.',
+    },
+  ],
+
   hasHebrew: false,
 };

@@ -525,4 +525,33 @@ export const REVELATION_9: RichChapterContent = {
     ref: 'Revelation 9',
     label: 'Share Revelation 9',
   },
+
+  resources: [
+    {
+      id: 'sefaria-joel-1-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Joel 1–2 — Locusts and Judgment',
+      url: 'https://www.sefaria.org/Joel.1-2',
+      description: 'OT foundation for the locusts of judgment — like an army of destruction from God.',
+    },
+    {
+      id: 'bibleodyssey-apollyon',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Apollyon — The Bottomless Pit',
+      url: 'https://www.bibleodyssey.org/dictionary/apollyon/',
+      description: 'Study of the angel of the abyss and the symbolic language of divine judgment.',
+    },
+    {
+      id: 'sefaria-genesis-3-serpent',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Genesis 3 — The Serpent and Temptation',
+      url: 'https://www.sefaria.org/Genesis.3',
+      description: 'Foundation for demonic imagery in apocalyptic literature — the deceiver and the locust kings.',
+    },
+  ],
+
+  hasHebrew: false,
 };

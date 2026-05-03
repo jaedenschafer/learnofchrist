@@ -428,4 +428,33 @@ export const REVELATION_20: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Revelation 20 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-daniel-12-resurrection',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Daniel 12 — Many Shall Awake',
+      url: 'https://www.sefaria.org/Daniel.12',
+      description: 'OT foundation for the resurrection of the just and the unjust at the great white throne.',
+    },
+    {
+      id: 'sefaria-isaiah-2-all-nations',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 2:2–4 — Universal Peace',
+      url: 'https://www.sefaria.org/Isaiah.2.2',
+      description: 'Eschatological vision of the kingdom established and all nations coming to the mountain.',
+    },
+    {
+      id: 'bibleodyssey-book-of-life',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Book of Life',
+      url: 'https://www.bibleodyssey.org/dictionary/book-of-life/',
+      description: 'The metaphor of names written or blotted out — divine judgment and eternal security.',
+    },
+  ],
+
+
 };

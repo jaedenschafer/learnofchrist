@@ -468,4 +468,33 @@ export const REVELATION_18: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Revelation 18 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-jeremiah-50-51',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 50–51 — Babylon Prophecy',
+      url: 'https://www.sefaria.org/Jeremiah.50-51',
+      description: 'Jeremiah&apos;s extended prophecy of Babylon&apos;s destruction — John&apos;s primary OT source.',
+    },
+    {
+      id: 'iaa-babylon-jewish-context',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Babylon in Jewish Historical Context',
+      url: 'https://www.antiquities.org.il',
+      description: 'Archaeological and historical context of Babylon in Jewish tradition and exile experience.',
+    },
+    {
+      id: 'intertextual-jeremiah-babylon-rev18',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 50:8 ↔ Revelation 18:4',
+      url: 'https://intertextual.bible/text/jeremiah-50.8/revelation-18.4',
+      description: 'Parallel call to flee Babylon — the prophetic template across centuries.',
+    },
+  ],
+
+  hasHebrew: false,
 };

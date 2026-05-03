@@ -405,5 +405,32 @@ export const REVELATION_8: RichChapterContent = {
     ref: 'Revelation 8 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-exodus-7-12',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 7–12 — The Ten Plagues',
+      url: 'https://www.sefaria.org/Exodus.7-12',
+      description: 'OT parallel to the trumpet judgments — hail, darkness, locusts, and water turning to blood.',
+    },
+    {
+      id: 'sefaria-joel-2-plague',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Joel 2:1–11 — Locust Army and Judgment',
+      url: 'https://www.sefaria.org/Joel.2.1',
+      description: 'Apocalyptic imagery of locusts and trumpet sounds echoed in Revelation&apos;s trumpet plagues.',
+    },
+    {
+      id: 'intertextual-exodus-rev-8',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Exodus 7:17–21 ↔ Revelation 8:8–9',
+      url: 'https://intertextual.bible/text/exodus-7.17/revelation-8.8',
+      description: 'Water-to-blood plague: Exodus pattern repeated in John&apos;s apocalyptic sequence.',
+    },
+  ],
+
   hasHebrew: false,
 };

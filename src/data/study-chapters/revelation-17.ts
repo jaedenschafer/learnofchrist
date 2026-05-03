@@ -293,4 +293,33 @@ export const REVELATION_17: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Revelation 17 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-isaiah-13-14',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 13–14 — The Burden of Babylon',
+      url: 'https://www.sefaria.org/Isaiah.13-14',
+      description: 'OT prophecy of Babylon&apos;s fall — the template for John&apos;s harlot city.',
+    },
+    {
+      id: 'british-museum-babylon-archaeology',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'Babylon Excavations and Artifacts',
+      url: 'https://www.britishmuseum.org',
+      description: 'Archaeology of ancient Babylon — Ishtar gate, Nebuchadnezzar II, and the city&apos;s grandeur.',
+    },
+    {
+      id: 'met-ancient-mesopotamia',
+      kind: 'archaeology',
+      source: 'Metropolitan Museum of Art',
+      label: 'Ancient Mesopotamia — Babylon Collection',
+      url: 'https://www.metmuseum.org',
+      description: 'Metropolitan Museum&apos;s collection of Mesopotamian artifacts illustrating Babylon&apos;s power.',
+    },
+  ],
+
+  hasHebrew: false,
 };

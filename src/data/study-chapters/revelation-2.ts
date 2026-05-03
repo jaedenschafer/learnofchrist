@@ -551,5 +551,32 @@ export const REVELATION_2: RichChapterContent = {
     ref: 'Revelation 2 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'topostext-ephesus',
+      kind: 'archaeology',
+      source: 'ToposText',
+      label: 'Ephesus — Ancient City Archaeology',
+      url: 'https://topostext.org/place/383104SEphe',
+      description: 'Topographic and archaeological documentation of Ephesus, the great city of Asia Minor and site of Paul&apos;s and John&apos;s ministry.',
+    },
+    {
+      id: 'penn-museum-pergamum-survey',
+      kind: 'archaeology',
+      source: 'Penn Museum',
+      label: 'Pergamum Excavations Archive',
+      url: 'https://www.penn.museum/collections/search-the-collections',
+      description: 'Archaeological survey of ancient Pergamos/Pergamum, center of Caesar worship and Revelation&apos;s "Satan&apos;s seat."',
+    },
+    {
+      id: 'biblOdyssey-seven-churches',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Seven Churches of Revelation',
+      url: 'https://www.bibleodyssey.org/dictionary/seven-churches-of-revelation/',
+      description: 'SBL study entry covering the historical, archaeological, and theological context of all seven Asian cities.',
+    },
+  ],
+
   hasHebrew: false,
 };

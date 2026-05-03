@@ -140,5 +140,32 @@ export const REVELATION_1: RichChapterContent = {
     ref: 'Revelation 1 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-daniel-7',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Daniel 7 — Son of Man Vision',
+      url: 'https://www.sefaria.org/Daniel.7',
+      description: 'OT foundation for John&apos;s "one like unto the Son of Man" appearance — the apocalyptic source vision.',
+    },
+    {
+      id: 'intf-rev-1-early-witnesses',
+      kind: 'manuscript',
+      source: 'INTF',
+      label: 'Revelation 1 — Early Manuscript Witnesses',
+      url: 'https://www.ntgabc.com',
+      description: 'Codex Sinaiticus and other early Greek witnesses to the opening of John&apos;s apocalypse.',
+    },
+    {
+      id: 'perseus-apokalypsis',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Apokalypsis (Ἀποκάλυψις)',
+      url: 'https://scaife.perseus.org',
+      description: 'Greek lexical entry for "revelation/apocalypse" — the unveiling of hidden realities.',
+    },
+  ],
+
   hasHebrew: false,
 };

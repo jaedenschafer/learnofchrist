@@ -377,5 +377,32 @@ export const REVELATION_15: RichChapterContent = {
     ref: 'Revelation 15 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-exodus-15',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 15 — Song of Moses at the Sea',
+      url: 'https://www.sefaria.org/Exodus.15',
+      description: 'The deliverance song of Israel after the Red Sea crossing — foundation for the Song of Moses in Revelation.',
+    },
+    {
+      id: 'sefaria-psalm-113',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 113 — Praise the Lord',
+      url: 'https://www.sefaria.org/Psalms.113',
+      description: 'Hymn of praise establishing God&apos;s exaltation — echoed in the saints&apos; worship before the seven plagues.',
+    },
+    {
+      id: 'bibleodyssey-plagues-revelation',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Seven Last Plagues',
+      url: 'https://www.bibleodyssey.org/dictionary/last-plagues/',
+      description: 'Study connecting the Egyptian plagues and the final bowl judgments in Revelation.',
+    },
+  ],
+
   hasHebrew: false,
 };

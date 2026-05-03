@@ -443,4 +443,33 @@ export const REVELATION_3: RichChapterContent = {
     snippet: 'Letters from Jesus to three churches — judgment, promise, and an invitation to return.',
     ref: 'Revelation 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'ascsa-sardis-excavations',
+      kind: 'archaeology',
+      source: 'ASCSA',
+      label: 'Sardis Archaeological Excavations',
+      url: 'https://sardis.org',
+      description: 'Continuous excavation of ancient Sardis — the wealthy city Christ found spiritually dead.',
+    },
+    {
+      id: 'topostext-laodicea-archaeology',
+      kind: 'archaeology',
+      source: 'ToposText',
+      label: 'Laodicea — Ancient City Topography',
+      url: 'https://topostext.org/place/383108SLaod',
+      description: 'Topographic and archaeological context of Laodicea, the lukewarm church on the trade route.',
+    },
+    {
+      id: 'bibleodyssey-philadelphia-church',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Philadelphia — The Faithful Church',
+      url: 'https://www.bibleodyssey.org/dictionary/philadelphia-revelation/',
+      description: 'SBL study on the fourth Asian church — the faithful remnant with an open door.',
+    },
+  ],
+
+  hasHebrew: false,
 };

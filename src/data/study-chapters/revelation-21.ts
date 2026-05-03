@@ -507,4 +507,33 @@ export const REVELATION_21: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Revelation 21 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-2-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Genesis 2–3 — The Garden of Eden',
+      url: 'https://www.sefaria.org/Genesis.2-3',
+      description: 'The original creation and fall — the template for the restoration in Revelation&apos;s new creation.',
+    },
+    {
+      id: 'sefaria-ezekiel-47-48',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ezekiel 47–48 — The Holy City Restored',
+      url: 'https://www.sefaria.org/Ezekiel.47-48',
+      description: 'OT vision of the restored temple city with river and division of the land.',
+    },
+    {
+      id: 'intertextual-genesis-revelation-garden',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Genesis 2–3 ↔ Revelation 21–22',
+      url: 'https://intertextual.bible/text/genesis-2/revelation-21.1',
+      description: 'The garden returning — from Eden lost to Eden restored as the new Jerusalem.',
+    },
+  ],
+
+
 };

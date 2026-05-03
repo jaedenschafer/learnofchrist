@@ -34,6 +34,33 @@ export const REVELATION_19: RichChapterContent = {
     ref: 'Revelation 19 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-psalm-113-hallelujah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 113 — The Hallelujah Psalms',
+      url: 'https://www.sefaria.org/Psalms.113-118',
+      description: 'The Hallel psalms sung at Passover — foundation for the Hallelujahs of Revelation 19.',
+    },
+    {
+      id: 'sefaria-isaiah-34-rider',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 34 — The Day of Vengeance',
+      url: 'https://www.sefaria.org/Isaiah.34',
+      description: 'Apocalyptic vision of judgment — the Rider on the white horse comes in righteousness and vengeance.',
+    },
+    {
+      id: 'bibleodyssey-marriage-lamb',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Marriage of the Lamb Symbolism',
+      url: 'https://www.bibleodyssey.org/dictionary/marriage-supper-of-the-lamb/',
+      description: 'The wedding feast imagery in Jewish and Christian eschatology.',
+    },
+  ],
+
   sections: [
     /* ─── Revelation 19:1 — The First Alleluia ───────────────────────────── */
     {
