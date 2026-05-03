@@ -52,9 +52,11 @@ html[data-reader-theme="dark"] {
 
 /* ─── Buttons — true frosted glass, no borders, white text ───────────────
    One unified recipe matching the "Continue your study plan" prompt
-   row in the dashboard: 16% white tint, heavy blur + saturate, white
-   text, no border, no inset highlight. Sits over photo or parchment
-   the same way; whatever's behind it bleeds through. */
+   row in the dashboard. The inset bottom dark bloom is the iOS Material
+   depth tell — it darkens the area where the text sits so the white
+   reads cleanly regardless of how bright the surface behind the button
+   happens to be. Without it, a frosted pill on a too-light backdrop
+   goes near-white and the text disappears. */
 .loc-btn,
 .loc-btn--solid,
 .loc-btn--ghost,
@@ -76,9 +78,12 @@ html[data-reader-theme="dark"] {
   backdrop-filter: blur(24px) saturate(150%);
   color: #FFFFFF;
   border: none;
-  box-shadow: 0 6px 20px -8px rgba(26, 22, 18, 0.18);
+  box-shadow:
+    inset 0 -16px 28px -14px rgba(0, 0, 0, 0.28),
+    0 6px 20px -8px rgba(26, 22, 18, 0.18);
   transition: transform 0.18s cubic-bezier(0.2, 0.7, 0.2, 1),
-              background 0.2s ease;
+              background 0.2s ease,
+              box-shadow 0.2s ease;
   isolation: isolate;
 }
 .loc-btn:hover,
@@ -87,6 +92,9 @@ html[data-reader-theme="dark"] {
 .loc-btn--outline:hover {
   transform: translateY(-1px);
   background: rgba(255, 255, 255, 0.26);
+  box-shadow:
+    inset 0 -16px 28px -14px rgba(0, 0, 0, 0.34),
+    0 10px 26px -10px rgba(26, 22, 18, 0.22);
 }
 .loc-btn:active,
 .loc-btn--solid:active,
@@ -594,8 +602,12 @@ html[data-reader-theme="dark"] {
   isolation: isolate;
   overflow: hidden;
   padding: var(--loc-section-y) 0;
+  /* Stronger dark veil — the underlying pasture photo is bright and
+     was leaving the white-text buttons illegible. This brings the
+     surface into the same darkness range as the dashboard, where the
+     unified frosted-glass button recipe reads cleanly. */
   background-image:
-    linear-gradient(180deg, rgba(26, 22, 18, 0.18), rgba(26, 22, 18, 0.32)),
+    linear-gradient(180deg, rgba(26, 22, 18, 0.55), rgba(26, 22, 18, 0.68)),
     url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=2400&q=85');
   background-size: cover;
   background-position: center;
@@ -1431,7 +1443,8 @@ html[data-reader-theme="dark"] .loc-stats {
 }
 
 .loc-dash__card-cta {
-  /* Same frost recipe as every other button — white text, no border. */
+  /* Same frost recipe as every other button — white text, no border,
+     iOS Material bottom dark bloom for legibility. */
   display: block;
   width: 100%;
   padding: 0.85rem 1rem;
@@ -1446,10 +1459,12 @@ html[data-reader-theme="dark"] .loc-stats {
   -webkit-backdrop-filter: blur(24px) saturate(150%);
   backdrop-filter: blur(24px) saturate(150%);
   border: none;
-  transition: background 0.2s ease;
+  box-shadow: inset 0 -16px 28px -14px rgba(0, 0, 0, 0.28);
+  transition: background 0.2s ease, box-shadow 0.2s ease;
 }
 .loc-dash__card-cta:hover {
   background: rgba(255, 255, 255, 0.26);
+  box-shadow: inset 0 -16px 28px -14px rgba(0, 0, 0, 0.34);
 }
 
 /* ── Prompt rows — same frost recipe (no border) ─────────────────────── */
@@ -1466,10 +1481,12 @@ html[data-reader-theme="dark"] .loc-stats {
   -webkit-backdrop-filter: blur(24px) saturate(150%);
   backdrop-filter: blur(24px) saturate(150%);
   border: none;
-  transition: background 0.2s ease;
+  box-shadow: inset 0 -18px 32px -16px rgba(0, 0, 0, 0.26);
+  transition: background 0.2s ease, box-shadow 0.2s ease;
 }
 .loc-dash__row:hover {
   background: rgba(255, 255, 255, 0.26);
+  box-shadow: inset 0 -18px 32px -16px rgba(0, 0, 0, 0.32);
 }
 
 .loc-dash__row-label {
