@@ -32,6 +32,17 @@ export const NEHEMIAH_8: RichChapterContent = {
     ref: 'Nehemiah 8 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-torah-scroll',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Torah and Jewish Law Texts',
+      url: 'https://www.sefaria.org/',
+      description: 'Sefaria Hebrew texts on Torah readings and covenant renewal.',
+    },
+  ],
+
   sections: [
     /* ─── Nehemiah 8:1–2 — Gathered As One Man at the Water Gate ────────── */
     {
@@ -62,7 +73,7 @@ export const NEHEMIAH_8: RichChapterContent = {
           kind: 'commentary',
           id: 'gathered-one-man',
           html:
-            'The phrase "as one man" echoes throughout Scripture — it signals unity, common purpose, and covenant solidarity. The people have not simply repaired their walls; they have recognized that they need something deeper: the word of God. They gather publicly, at the Water Gate, a place of gathering and purification. The request itself is remarkable — they ask Ezra to read to them. The people, not the leaders, initiate this act of spiritual renewal.',
+            'The phrase "as one man" echoes throughout Scripture — it signals unity, common purpose, and covenant solidarity. The people have not simply repaired their walls; they have recognized that they need something deeper: the word of God. They gather publicly, at the Water Gate, a place of gathering and purification. The request itself is remarkable — they ask Ezra to read to them. The people, not the leaders, initiate this act of spiritual renewal. [res:sefaria-torah-scroll]',
         },
         {
           kind: 'commentary',

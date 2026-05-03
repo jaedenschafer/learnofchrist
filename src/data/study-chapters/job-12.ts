@@ -30,6 +30,17 @@ export const JOB_12: RichChapterContent = {
     ref: 'Job 12 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Job 12:1–8',
@@ -49,7 +60,7 @@ export const JOB_12: RichChapterContent = {
           kind: 'commentary',
           id: 'job12-mid-wisdom-mockery',
           html:
-            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+            'Calamity strips everything; faith asks: can you praise when silence is easier? [res:british-museum-ludlul]',
         },
         {
           kind: 'scripture',

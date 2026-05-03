@@ -33,6 +33,17 @@ export const NEHEMIAH_13: RichChapterContent = {
     ref: 'Nehemiah 13 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-torah-scroll',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Torah and Jewish Law Texts',
+      url: 'https://www.sefaria.org/',
+      description: 'Sefaria Hebrew texts on Torah readings and covenant renewal.',
+    },
+  ],
+
   sections: [
     /* ─── Nehemiah 13:1–3 — The Law Read; Mixed Multitude Separated ──────── */
     {
@@ -61,7 +72,7 @@ export const NEHEMIAH_13: RichChapterContent = {
           kind: 'commentary',
           id: 'law-read-today',
           html:
-            'The public reading of the law has an immediate and radical effect: the people hear the word of God and understand that certain nations are forbidden to enter the congregation. The passage recalls Deuteronomy 23:3–6, where Ammon and Moab are barred because they refused to welcome Israel with bread and water in the wilderness, and because they hired Balaam to curse the people. Yet what the enemy meant for curse, God turned into blessing. The law, once understood, compels action. The mixed multitude—those of foreign origin living among the people—are separated. Obedience follows hearing.',
+            'The public reading of the law has an immediate and radical effect: the people hear the word of God and understand that certain nations are forbidden to enter the congregation. The passage recalls Deuteronomy 23:3–6, where Ammon and Moab are barred because they refused to welcome Israel with bread and water in the wilderness, and because they hired Balaam to curse the people. Yet what the enemy meant for curse, God turned into blessing. The law, once understood, compels action. The mixed multitude—those of foreign origin living among the people—are separated. Obedience follows hearing. [res:sefaria-torah-scroll]',
         },
         {
           kind: 'hebrew',

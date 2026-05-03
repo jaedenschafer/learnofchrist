@@ -31,6 +31,17 @@ export const JOB_20: RichChapterContent = {
     ref: 'Job 20 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     /* ─── Job 20:1–11 — The Brevity of Wickedness ───────────────────── */
     {
@@ -68,7 +79,7 @@ export const JOB_20: RichChapterContent = {
           kind: 'commentary',
           id: 'job20-doctrine-spoken',
           html:
-            'Zophar speaks with absolute conviction. He has heard Job&apos;s claims of innocence, and they offend him. The truth he proclaims is ancient and eternal: the wicked prosper briefly, then vanish. This doctrine seems self-evident to Zophar. He cannot imagine that it might not apply to Job.',
+            'Zophar speaks with absolute conviction. He has heard Job&apos;s claims of innocence, and they offend him. The truth he proclaims is ancient and eternal: the wicked prosper briefly, then vanish. This doctrine seems self-evident to Zophar. He cannot imagine that it might not apply to Job. [res:british-museum-ludlul]',
         },
         {
           kind: 'scripture',

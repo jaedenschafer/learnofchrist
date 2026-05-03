@@ -32,6 +32,17 @@ export const CHRONICLES_2_10: RichChapterContent = {
     ref: '2 Chronicles 10 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-judah-monarchy',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Judah in the Monarchy Period',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 10:1–4 — The People&apos;s Plea at Shechem ────────────── */
     {
@@ -74,7 +85,7 @@ export const CHRONICLES_2_10: RichChapterContent = {
           kind: 'commentary',
           id: 'yoke-grievous-2c',
           html:
-            'The Hebrew word <em>ol</em> — a yoke, the wooden frame that binds oxen to a plow — captures the weight of Solomon&apos;s reign. Heavy taxation. Forced labor. The people do not speak of these things in the abstract; they speak from the raw memory of burden. The yoke has been grievous. They have felt it on their necks.',
+            'The Hebrew word <em>ol</em> — a yoke, the wooden frame that binds oxen to a plow — captures the weight of Solomon&apos;s reign. Heavy taxation. Forced labor. The people do not speak of these things in the abstract; they speak from the raw memory of burden. The yoke has been grievous. They have felt it on their necks. [res:iaa-judah-monarchy]',
         },
         {
           kind: 'commentary',

@@ -28,6 +28,17 @@ export const CHRONICLES_1_8: RichChapterContent = {
     ref: '1 Chronicles 8 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-tribal-lists',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Tribal Genealogies and Borders',
+      url: 'https://www.sefaria.org/search?q=tribe+israel&tab=text',
+      description: 'Sefaria resources on the twelve tribes, genealogies, and territorial divisions.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 8:1–5 — Benjamin's First Generation ────────────── */
     {
@@ -49,7 +60,7 @@ export const CHRONICLES_1_8: RichChapterContent = {
           kind: 'commentary',
           id: 'benjamin-firstborn',
           html:
-            'Benjamin, the youngest of Jacob&apos;s sons, had five sons of his own. His firstborn was Bela. These names appear again and again throughout Chronicles — not because each descendant is equally important to the record, but because genealogy in Israel was a way of saying: "You belong. You are counted. Your place in the people of God is secure." In a world where kingdoms crumble and nations fall, the book of genealogy says: you are written here.',
+            'Benjamin, the youngest of Jacob&apos;s sons, had five sons of his own. His firstborn was Bela. These names appear again and again throughout Chronicles — not because each descendant is equally important to the record, but because genealogy in Israel was a way of saying: "You belong. You are counted. Your place in the people of God is secure." In a world where kingdoms crumble and nations fall, the book of genealogy says: you are written here. [res:sefaria-tribal-lists]',
         },
         {
           kind: 'hebrew',

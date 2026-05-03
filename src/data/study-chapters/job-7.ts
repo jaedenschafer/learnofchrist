@@ -36,6 +36,17 @@ export const JOB_7: RichChapterContent = {
     ref: 'Job 7 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     /* ─── Job 7:1–6 — "Is There Not an Appointed Time?" ──────────────────── */
     {
@@ -84,7 +95,7 @@ export const JOB_7: RichChapterContent = {
           kind: 'commentary',
           id: 'appointed-time',
           html:
-            'Job begins by asking about the fundamental condition of human existence. Is there not an appointed time — a limit, a term — to a man upon earth? The answer is yes. Every human life has boundaries. Every person will die. And Job is asking: why do we not simply accept this limit and let death come when it comes? Why must we suffer while we wait for the appointed time?',
+            'Job begins by asking about the fundamental condition of human existence. Is there not an appointed time — a limit, a term — to a man upon earth? The answer is yes. Every human life has boundaries. Every person will die. And Job is asking: why do we not simply accept this limit and let death come when it comes? Why must we suffer while we wait for the appointed time? [res:british-museum-ludlul]',
         },
         {
           kind: 'hebrew',

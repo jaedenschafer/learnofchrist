@@ -49,7 +49,7 @@ export const CHRONICLES_2_3: RichChapterContent = {
           kind: 'commentary',
           id: 'moriah-covenant',
           html:
-            'Mount Moriah is not chosen at random. This is the mountain where God tested Abraham — where he raised his hand to sacrifice his only son, and the Lord said, "Now I know that thou fearest God" (Genesis 22:12). This is the mountain David saw the angel of the Lord standing with a drawn sword (1 Chronicles 21:16), the place where David bought Ornan&apos;s threshing floor and built an altar. Now Solomon builds the temple on this very mountain. The lineage of faith — from Abraham to David to Solomon — converges on this single point. Moriah becomes the axis mundi, the place where the earthly and divine meet.',
+            'Mount Moriah is not chosen at random. This is the mountain where God tested Abraham — where he raised his hand to sacrifice his only son, and the Lord said, "Now I know that thou fearest God" (Genesis 22:12). This is the mountain David saw the angel of the Lord standing with a drawn sword (1 Chronicles 21:16), the place where David bought Ornan&apos;s threshing floor and built an altar. Now Solomon builds the temple on this very mountain. The lineage of faith — from Abraham to David to Solomon — converges on this single point. Moriah becomes the axis mundi, the place where the earthly and divine meet. [res:british-museum-cyrus]',
         },
         {
           kind: 'hebrew',
@@ -349,6 +349,17 @@ export const CHRONICLES_2_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Chronicles 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'british-museum-cyrus',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'The Cyrus Cylinder',
+      url: 'https://www.britishmuseum.org/collection/objects/w3679',
+      description: 'Ancient Persian cylinder decree allowing return from exile and temple rebuilding.',
+    },
+  ],
 
   hasHebrew: true,
 };

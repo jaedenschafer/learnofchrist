@@ -32,6 +32,17 @@ export const NEHEMIAH_5: RichChapterContent = {
     ref: 'Nehemiah 5 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-city-david',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA ongoing dig revealing Iron Age and Persian period Jerusalem structures.',
+    },
+  ],
+
   sections: [
     /* ─── Nehemiah 5:1–5 — The Cry of the Poor ──────────────────────────── */
     {
@@ -79,7 +90,7 @@ export const NEHEMIAH_5: RichChapterContent = {
           kind: 'commentary',
           id: 'poor-cry-sustain',
           html:
-            'The cry arises not from malice, but from need. Families are large. Food is scarce during the dearth. The simple question — how shall we eat? — drives parents into a system of debt from which there is no escape. It is the cry of the powerless trapped in a structure of injustice.',
+            'The cry arises not from malice, but from need. Families are large. Food is scarce during the dearth. The simple question — how shall we eat? — drives parents into a system of debt from which there is no escape. It is the cry of the powerless trapped in a structure of injustice. [res:iaa-city-david]',
         },
         {
           kind: 'commentary',

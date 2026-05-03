@@ -1,11 +1,11 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 17 — Abram becomes Abraham; Sarai becomes Sarah.
+ * Genesis 17 - Abram becomes Abraham; Sarai becomes Sarah.
  * The everlasting covenant, the sign of circumcision, the promise of Isaac.
  *
  * Thirteen years of silence after Ishmael's birth, and God comes back to rename
- * everyone — a sign that identity is being rewritten. The covenant is sealed not
+ * everyone - a sign that identity is being rewritten. The covenant is sealed not
  * in ink but in the body itself, on the part that produces the next generation.
  * Names are how the Bible signals a life is being made new.
  */
@@ -16,14 +16,14 @@ export const GENESIS_17: RichChapterContent = {
 
   estimatedMinutes: { beginner: 7, intermediate: 10, deep: 14 },
   intros: [
-    'Thirteen years have passed since Genesis 16. Ishmael is a young man now, and Abram has settled into life as his father — but not his heir of promise. Then God appears again, and the first thing He does is rename Abram. Not with a title or a new title, but with a name that will be his for the rest of his life. <em>Abram becomes Abraham. Sarai becomes Sarah.</em> In the Bible, a name change is always a signal: your identity is being remade. You are stepping into a story that is not yours alone anymore.',
-    'The centerpiece of this chapter is a covenant sign written on the body itself — the sign of circumcision. It falls on the part of the body that carries the future generations forward. The covenant is not written in words or wax; it is written in flesh. It is generational by design. Every time Abraham looks at this sign, he will see [res:bibleodyssey-abraham-covenant] the proof that his line will never end, that God is the one keeping His word, and that his body — despite his age, despite the impossibility — is the tool God is using to make a nation.',
+    'Thirteen years have passed since Genesis 16. Ishmael is a young man now, and Abram has settled into life as his father - but not his heir of promise. Then God appears again, and the first thing He does is rename Abram. Not with a title or a new title, but with a name that will be his for the rest of his life. <em>Abram becomes Abraham. Sarai becomes Sarah.</em> In the Bible, a name change is always a signal: your identity is being remade. You are stepping into a story that is not yours alone anymore.',
+    'The centerpiece of this chapter is a covenant sign written on the body itself - the sign of circumcision. It falls on the part of the body that carries the future generations forward. The covenant is not written in words or wax; it is written in flesh. It is generational by design. Every time Abraham looks at this sign, he will see [res:bibleodyssey-abraham-covenant] the proof that his line will never end, that God is the one keeping His word, and that his body - despite his age, despite the impossibility - is the tool God is using to make a nation.',
   ],
 
   sections: [
-    /* ─── Genesis 17:1–8 — I am Almighty God ────────────────────────────────── */
+    /* ─── Genesis 17:1-8 - I am Almighty God ────────────────────────────────── */
     {
-      ref: 'Genesis 17:1–8',
+      ref: 'Genesis 17:1-8',
       title: 'I am Almighty God; Walk Before Me',
       blocks: [
         {
@@ -46,12 +46,12 @@ export const GENESIS_17: RichChapterContent = {
           kind: 'commentary',
           id: 'god-almighty',
           html:
-            'Ninety-nine years old. The age when childbearing becomes biologically impossible. At the exact moment when every human standard says <em>enough, you have missed your season</em>, God says <em>I am El Shaddai</em> — the All-Sufficient One, the God who has enough of everything, enough power, enough blessing, enough time. God names Himself first. Before the promise. Before the covenant. Before the impossible gets made possible[res:sefaria-genesis-17][res:pennmuseum-abraham-era].',
+            'Ninety-nine years old. The age when childbearing becomes biologically impossible. At the exact moment when every human standard says <em>enough, you have missed your season</em>, God says <em>I am El Shaddai</em> - the All-Sufficient One, the God who has enough of everything, enough power, enough blessing, enough time. God names Himself first. Before the promise. Before the covenant. Before the impossible gets made possible[res:sefaria-genesis-17][res:pennmuseum-abraham-era].',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-el-shaddai',
-          title: 'El Shaddai — &ldquo;God Almighty&rdquo;',
+          title: 'El Shaddai - &ldquo;God Almighty&rdquo;',
           script: 'אֵל שַׁדַּי',
           translit: '<strong>El Shaddai</strong> · God of the mountain, the all-sufficient God',
           description:
@@ -112,16 +112,16 @@ export const GENESIS_17: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-abraham',
-          title: 'Abraham — &ldquo;father of a multitude&rdquo;',
+          title: 'Abraham - &ldquo;father of a multitude&rdquo;',
           script: 'אַבְרָהָם',
           translit: '<strong>Avraham</strong> · father + multitude; the sound is almost a lullaby',
           description:
-            '<em>Abram</em> simply means "exalted father." But <em>Abraham</em> is rewritten into the covenant itself — he will be father, not of one son, but of <em>multitude.</em> Every time someone calls his name, they are speaking the promise. His identity and God\'s covenant become one word.',
+            '<em>Abram</em> simply means "exalted father." But <em>Abraham</em> is rewritten into the covenant itself - he will be father, not of one son, but of <em>multitude.</em> Every time someone calls his name, they are speaking the promise. His identity and God\'s covenant become one word.',
         },
         {
           kind: 'carry',
           html:
-            'There are times when your name — the way you introduce yourself, the label others use — no longer fits the story God is writing. A name might carry old shame, old failure, old smallness. The step into what God is calling you to be sometimes starts with letting that name go and stepping into a new one. Not to pretend the old story didn\'t happen, but to name that you are no longer bound by it.',
+            'There are times when your name - the way you introduce yourself, the label others use - no longer fits the story God is writing. A name might carry old shame, old failure, old smallness. The step into what God is calling you to be sometimes starts with letting that name go and stepping into a new one. Not to pretend the old story didn\'t happen, but to name that you are no longer bound by it.',
         },
         {
           kind: 'scripture',
@@ -155,20 +155,20 @@ export const GENESIS_17: RichChapterContent = {
           kind: 'commentary',
           id: 'covenant-eternal',
           html:
-            'The word is <em>olam</em> — without end, written into the age itself. This is not a promise for Abraham alone. <em>For thy seed after thee</em> — the covenant runs through the generations. Every son of Abraham\'s line, every believer grafted into his family, will inherit the promise that God is <em>their God.</em>',
+            'The word is <em>olam</em> - without end, written into the age itself. This is not a promise for Abraham alone. <em>For thy seed after thee</em> - the covenant runs through the generations. Every son of Abraham\'s line, every believer grafted into his family, will inherit the promise that God is <em>their God.</em>',
         },
         {
           kind: 'reflection',
           id: 'gen17-almighty',
           prompt:
-            'When have you most needed God to be El Shaddai — all-sufficient, overflowing, enough? Where is He inviting you to trust His sufficiency now?',
+            'When have you most needed God to be El Shaddai - all-sufficient, overflowing, enough? Where is He inviting you to trust His sufficiency now?',
         },
       ],
     },
 
-    /* ─── Genesis 17:9–14 — The Sign of Circumcision ──────────────────────────── */
+    /* ─── Genesis 17:9-14 - The Sign of Circumcision ──────────────────────────── */
     {
-      ref: 'Genesis 17:9–14',
+      ref: 'Genesis 17:9-14',
       title: 'The Covenant Sign: Circumcision',
       blocks: [
         {
@@ -194,7 +194,7 @@ export const GENESIS_17: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-milah',
-          title: 'Milah — &ldquo;circumcision&rdquo;',
+          title: 'Milah - &ldquo;circumcision&rdquo;',
           script: 'מִילָה',
           translit: '<strong>milah</strong> · cutting, marking the beginning',
           description:
@@ -236,19 +236,19 @@ export const GENESIS_17: RichChapterContent = {
           kind: 'commentary',
           id: 'c-sign',
           html:
-            'A covenant sign is more than a symbol. It is a marking that says <em>I belong to this God, this people, this story.</em> The sign is bodily and permanent — every time Abraham was aware of his own body, he carried the covenant with him. No one outside could force it on him. No one could remove it. It was his choice to keep it, renewed every time a son was born into his family.',
+            'A covenant sign is more than a symbol. It is a marking that says <em>I belong to this God, this people, this story.</em> The sign is bodily and permanent - every time Abraham was aware of his own body, he carried the covenant with him. No one outside could force it on him. No one could remove it. It was his choice to keep it, renewed every time a son was born into his family.',
         },
         {
           kind: 'christ',
           id: 'christ-circumcision',
-          title: 'Christ Connection — The Circumcision of Christ',
+          title: 'Christ Connection - The Circumcision of Christ',
           html:
-            'Jesus submitted to circumcision (Luke 2:21) — fully identifying with Abraham\'s covenant line. But Paul reads it forward: "Circumcision is that of the heart, in the spirit, and not in the letter" (Romans 2:29). The flesh is circumcised; the heart is transformed. "Ye are circumcised with the circumcision made without hands, in putting off the body of the sins of the flesh by the circumcision of Christ" (Colossians 2:11). What once was written on the body is now written on the heart. Baptism takes its place as the new sign — immersion into His death and resurrection, a mark that we belong to Him.',
+            'Jesus submitted to circumcision (Luke 2:21) - fully identifying with Abraham\'s covenant line. But Paul reads it forward: "Circumcision is that of the heart, in the spirit, and not in the letter" (Romans 2:29). The flesh is circumcised; the heart is transformed. "Ye are circumcised with the circumcision made without hands, in putting off the body of the sins of the flesh by the circumcision of Christ" (Colossians 2:11). What once was written on the body is now written on the heart. Baptism takes its place as the new sign - immersion into His death and resurrection, a mark that we belong to Him.',
         },
         {
           kind: 'carry',
           html:
-            'The covenant sign was permanent and visible — a daily reminder written on the body. Your covenant too is marked. The sign you carry is not on your flesh but on your spirit: <em>you are His.</em> In the moments when you wonder if you still belong, if the promise is still holding, if the lineage still stands — the mark is still there. Written not in blood on the body this time, but in the resurrection life of the One who signed it with His own body, once and for all.',
+            'The covenant sign was permanent and visible - a daily reminder written on the body. Your covenant too is marked. The sign you carry is not on your flesh but on your spirit: <em>you are His.</em> In the moments when you wonder if you still belong, if the promise is still holding, if the lineage still stands - the mark is still there. Written not in blood on the body this time, but in the resurrection life of the One who signed it with His own body, once and for all.',
         },
         {
           kind: 'reflection',
@@ -259,9 +259,9 @@ export const GENESIS_17: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 17:15–22 — Sarai Becomes Sarah; Isaac Named ──────────────────── */
+    /* ─── Genesis 17:15-22 - Sarai Becomes Sarah; Isaac Named ──────────────────── */
     {
-      ref: 'Genesis 17:15–22',
+      ref: 'Genesis 17:15-22',
       title: 'Sarai Becomes Sarah; Isaac Is Named',
       blocks: [
         {
@@ -289,11 +289,11 @@ export const GENESIS_17: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-sarah',
-          title: 'Sarah — &ldquo;princess&rdquo;',
+          title: 'Sarah - &ldquo;princess&rdquo;',
           script: 'שָׂרָה',
           translit: '<strong>Sarah</strong> · princess, the one who rules',
           description:
-            '<em>Sarai</em> means "my princess" — dependent, limited to one man\'s household. <em>Sarah</em> means "princess" — a title in her own right. God renames her not down or sideways, but up. She is no longer the barren woman defined by what she cannot do. She is Sarah, mother of nations, mother of kings.',
+            '<em>Sarai</em> means "my princess" - dependent, limited to one man\'s household. <em>Sarah</em> means "princess" - a title in her own right. God renames her not down or sideways, but up. She is no longer the barren woman defined by what she cannot do. She is Sarah, mother of nations, mother of kings.',
         },
         {
           kind: 'commentary',
@@ -319,7 +319,7 @@ export const GENESIS_17: RichChapterContent = {
           kind: 'commentary',
           id: 'c-laughter',
           html:
-            'Abraham\'s laughter is neither mocking nor purely joyful. The Hebrew root of his laugh — <em>tzachak</em> — is the same root as the name <em>Yitzchak</em>, Isaac. The text is not saying Abraham laughed from unbelief. It is saying Abraham laughed because the promise was so impossible, so wildly beyond the boundaries of what could happen, that laughter was the only response he could make. The laugh is the sound of the boundary breaking.',
+            'Abraham\'s laughter is neither mocking nor purely joyful. The Hebrew root of his laugh - <em>tzachak</em> - is the same root as the name <em>Yitzchak</em>, Isaac. The text is not saying Abraham laughed from unbelief. It is saying Abraham laughed because the promise was so impossible, so wildly beyond the boundaries of what could happen, that laughter was the only response he could make. The laugh is the sound of the boundary breaking.',
         },
         {
           kind: 'scripture',
@@ -344,16 +344,16 @@ export const GENESIS_17: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-isaac',
-          title: 'Isaac — &ldquo;he laughs&rdquo;',
+          title: 'Isaac - &ldquo;he laughs&rdquo;',
           script: 'יִצְחָק',
           translit: '<strong>Yitzchak</strong> · he laughs, he laughs aloud',
           description:
-            'Not "he is laughed at," but "he laughs." The child\'s very name encodes the miracle — the sound of an old man\'s laughter at the promise of an old woman becoming fertile. Every time Abraham and Sarah call his name, they call out the impossible that became real.',
+            'Not "he is laughed at," but "he laughs." The child\'s very name encodes the miracle - the sound of an old man\'s laughter at the promise of an old woman becoming fertile. Every time Abraham and Sarah call his name, they call out the impossible that became real.',
         },
         {
           kind: 'carry',
           html:
-            'Sarah heard it all the first time — the promise that at ninety she would bear a child. Ninety. The age when your body has decided the story is closed. And yet the promise stands. Maybe your own story looks impossible from where you stand. The timeline has run out. The doctors have said no. The years have said it\'s too late. The promise in that moment is not to change the circumstances. It is to rename you: not the one who cannot, but the one called to mother something in this world, to be fruitful, to bring something forward. Whether that is a literal child or a life you steward, a dream you nurture, a gift you give — you are not too old, not too barren, not too broken to be a Sarah.',
+            'Sarah heard it all the first time - the promise that at ninety she would bear a child. Ninety. The age when your body has decided the story is closed. And yet the promise stands. Maybe your own story looks impossible from where you stand. The timeline has run out. The doctors have said no. The years have said it\'s too late. The promise in that moment is not to change the circumstances. It is to rename you: not the one who cannot, but the one called to mother something in this world, to be fruitful, to bring something forward. Whether that is a literal child or a life you steward, a dream you nurture, a gift you give - you are not too old, not too barren, not too broken to be a Sarah.',
         },
         {
           kind: 'scripture',
@@ -393,14 +393,14 @@ export const GENESIS_17: RichChapterContent = {
           kind: 'reflection',
           id: 'gen17-isaac',
           prompt:
-            'What is the promised thing in your life that seems impossible by every timeline and standard? Can you hear it being named for you — not someday, but this coming year?',
+            'What is the promised thing in your life that seems impossible by every timeline and standard? Can you hear it being named for you - not someday, but this coming year?',
         },
       ],
     },
 
-    /* ─── Genesis 17:23–27 — Abraham Circumcises His Household ──────────────────── */
+    /* ─── Genesis 17:23-27 - Abraham Circumcises His Household ──────────────────── */
     {
-      ref: 'Genesis 17:23–27',
+      ref: 'Genesis 17:23-27',
       title: 'Abraham and His Household Circumcised',
       blocks: [
         {
@@ -445,18 +445,18 @@ export const GENESIS_17: RichChapterContent = {
           kind: 'commentary',
           id: 'c-household',
           html:
-            '<em>In the selfsame day.</em> Abraham does not wait. He does not deliberate or delay. The covenant is given, and he acts on it immediately — and he brings his whole household with him. Ishmael at thirteen, every servant born in his house, every person he has brought into his family. The sign is not just for the blood-descendants; it is for everyone Abraham\'s life touches. When Abraham steps into the covenant, his whole world steps in with him.',
+            '<em>In the selfsame day.</em> Abraham does not wait. He does not deliberate or delay. The covenant is given, and he acts on it immediately - and he brings his whole household with him. Ishmael at thirteen, every servant born in his house, every person he has brought into his family. The sign is not just for the blood-descendants; it is for everyone Abraham\'s life touches. When Abraham steps into the covenant, his whole world steps in with him.',
         },
         {
           kind: 'carry',
           html:
-            'When you step into a covenant with God — when you decide that this promise is your boundary and your belonging — you rarely take that step alone. The people around you see it. Some will follow. Some will resist. Some will not understand. But your decision to be marked, to carry the sign, to keep the covenant — that ripples. The people you lead, the children you raise, the household you steward — they inherit both your faithfulness and, if you keep breaking it, your wavering. What mark are you carrying that will be carried by those who follow you?',
+            'When you step into a covenant with God - when you decide that this promise is your boundary and your belonging - you rarely take that step alone. The people around you see it. Some will follow. Some will resist. Some will not understand. But your decision to be marked, to carry the sign, to keep the covenant - that ripples. The people you lead, the children you raise, the household you steward - they inherit both your faithfulness and, if you keep breaking it, your wavering. What mark are you carrying that will be carried by those who follow you?',
         },
         {
           kind: 'reflection',
           id: 'gen17-household',
           prompt:
-            'Whose household are you part of — spiritually, relationally, professionally? What would it mean to bring them fully into a covenant you have made?',
+            'Whose household are you part of - spiritually, relationally, professionally? What would it mean to bring them fully into a covenant you have made?',
         },
       ],
     },
@@ -465,7 +465,7 @@ export const GENESIS_17: RichChapterContent = {
   bottomShare: {
     label: 'Share Genesis 17',
     quote:
-      'God appeared to Abraham at ninety-nine years old and renamed him. Sarah was renamed too. The covenant was sealed with a sign on the body — circumcision — a mark that would run through every generation. And the impossible was named: Sarah would bear a son, and he would be called Isaac.',
+      'God appeared to Abraham at ninety-nine years old and renamed him. Sarah was renamed too. The covenant was sealed with a sign on the body - circumcision - a mark that would run through every generation. And the impossible was named: Sarah would bear a son, and he would be called Isaac.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 17 · Study Guide',
   },

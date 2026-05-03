@@ -33,6 +33,17 @@ export const CHRONICLES_2_28: RichChapterContent = {
     ref: '2 Chronicles 28 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-judah-monarchy',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Judah in the Monarchy Period',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 28:1–4 — Ahaz Begins to Reign ──────────────────── */
     {
@@ -77,7 +88,7 @@ export const CHRONICLES_2_28: RichChapterContent = {
           kind: 'commentary',
           id: '28-not-right',
           html:
-            'The text is stark: Ahaz did not do right in the sight of the Lord. Unlike David, his ancestor, who sought the Lord and received strength, Ahaz seeks idols. He is twenty years old when he takes the throne — young enough to be shaped by advisors, perhaps, but old enough to know the God of Israel. His choice to walk in the ways of the kings of Israel — the northern kingdom that has already fallen away — is not a stumble. It is a deliberate turn from the covenant.',
+            'The text is stark: Ahaz did not do right in the sight of the Lord. Unlike David, his ancestor, who sought the Lord and received strength, Ahaz seeks idols. He is twenty years old when he takes the throne — young enough to be shaped by advisors, perhaps, but old enough to know the God of Israel. His choice to walk in the ways of the kings of Israel — the northern kingdom that has already fallen away — is not a stumble. It is a deliberate turn from the covenant. [res:iaa-judah-monarchy]',
         },
         {
           kind: 'commentary',

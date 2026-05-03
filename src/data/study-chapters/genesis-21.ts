@@ -1,14 +1,14 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 21 — Isaac is born (laughter), the long-promised son finally arrives.
+ * Genesis 21 - Isaac is born (laughter), the long-promised son finally arrives.
  * But the promise-by-faith line and the promise-by-flesh line must be separated.
  *
  * Abraham's distress at sending away Hagar and Ishmael is genuine and painful.
  * God tells him to listen to Sarah and promises to make Ishmael a nation too.
  *
  * In the wilderness, Hagar and Ishmael nearly perish. The water runs out. God
- * hears the boy crying — His name means "God hears" — and opens her eyes to see
+ * hears the boy crying - His name means "God hears" - and opens her eyes to see
  * a well. An unlikely salvation for the discarded.
  *
  * The chapter closes with Abraham's covenant with Abimelech at Beersheba, the
@@ -21,8 +21,8 @@ export const GENESIS_21: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 11, deep: 16 },
   intros: [
-    'The long-promised son finally arrives. Sarah, who has been barren for nearly a century, gives birth. The child&apos;s name is <em>Isaac</em> — <em>Yitzchak</em> in Hebrew — which means &ldquo;he laughs.&rdquo; Sarah had laughed in disbelief when God first promised him (Gen. 18:12); now she laughs again, but this time in joy (Gen. 21:6). The son born of faith, born of God&apos;s covenant word when all biology said no, is here.',
-    'But Genesis 21 is not a clean happy ending. At Isaac&apos;s weaning feast, Sarah sees Ishmael, the son Abraham had made with Hagar, and she demands that both mother and boy be cast out. Abraham is distressed — he loves Ishmael — but God tells him to listen to Sarah. Two sons cannot inherit the same promise. The line of flesh (Ishmael, born of Abraham&apos;s attempt to fulfill the covenant by human means) and the line of faith (Isaac, born when it was physically impossible) must be separated. The division is painful for everyone, and the text does not hide that pain.',
+    'The long-promised son finally arrives. Sarah, who has been barren for nearly a century, gives birth. The child&apos;s name is <em>Isaac</em> - <em>Yitzchak</em> in Hebrew - which means &ldquo;he laughs.&rdquo; Sarah had laughed in disbelief when God first promised him (Gen. 18:12); now she laughs again, but this time in joy (Gen. 21:6). The son born of faith, born of God&apos;s covenant word when all biology said no, is here.',
+    'But Genesis 21 is not a clean happy ending. At Isaac&apos;s weaning feast, Sarah sees Ishmael, the son Abraham had made with Hagar, and she demands that both mother and boy be cast out. Abraham is distressed - he loves Ishmael - but God tells him to listen to Sarah. Two sons cannot inherit the same promise. The line of flesh (Ishmael, born of Abraham&apos;s attempt to fulfill the covenant by human means) and the line of faith (Isaac, born when it was physically impossible) must be separated. The division is painful for everyone, and the text does not hide that pain.',
     'The casting out is genuinely difficult, and Genesis does not ask us to admire it. But in the desert, where Hagar and Ishmael are left to die, the text asks us to see something: a God who hears the cry of the discarded child. The boy whose name [res:bibleodyssey-abraham-covenant] means &ldquo;God hears&rdquo; is heard in the very place where he has been thrown away. It is one of Scripture&apos;s recurring truths: God sees those no one else sees, and He hears those no one else hears.',
   ],
 
@@ -62,9 +62,9 @@ export const GENESIS_21: RichChapterContent = {
   ],
 
   sections: [
-    /* ─── Genesis 21:1–8 — Isaac Is Born and Weaned ──────────────────── */
+    /* ─── Genesis 21:1-8 - Isaac Is Born and Weaned ──────────────────── */
     {
-      ref: 'Genesis 21:1–8',
+      ref: 'Genesis 21:1-8',
       title: 'Isaac Is Born',
       blocks: [
         {
@@ -102,8 +102,7 @@ export const GENESIS_21: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-21-78mid-1',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Isaac arrives, and Sarah&apos;s impossible joy fills the narrative. Now we jump forward to his weaning-the child grows.',
         },
         {
           kind: 'scripture',
@@ -148,23 +147,23 @@ export const GENESIS_21: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-yitzchak',
-          title: 'Yitzchak — &ldquo;Isaac&rdquo;',
+          title: 'Yitzchak - &ldquo;Isaac&rdquo;',
           script: 'יִצְחָק',
           translit: '<strong>yitzchak</strong> · he laughs',
           description:
-            'The name appears for the first time in Genesis 17, when Abraham falls on his face and laughs. Then Sarah laughs when she overhears the promise. Now Isaac is born, and his mother laughs again. The child&apos;s existence is laughter — first in disbelief, then in joy. The name is the family&apos;s inside joke.',
+            'The name appears for the first time in Genesis 17, when Abraham falls on his face and laughs. Then Sarah laughs when she overhears the promise. Now Isaac is born, and his mother laughs again. The child&apos;s existence is laughter - first in disbelief, then in joy. The name is the family&apos;s inside joke.',
         },
         {
           kind: 'christ',
           id: 'christ-laughter',
-          title: 'Christ Connection — The Joy of the Impossible',
+          title: 'Christ Connection - The Joy of the Impossible',
           html:
-            'Sarah laughs at the promise; Isaac is born. Paul later tells the story of two sons — one born of flesh, one born of promise — and applies it to the old covenant and the new (Gal. 4:21–31). Isaac is the son of laughter, the son of what God alone could do. He is the type of everyone the gospel is for: those who have waited past the age of trying, who have given up on themselves, and who discover that God was never waiting for them to deserve it. The laughter of Sarah is the laughter of the redeemed: &ldquo;Blessed is the people that know the joyful sound&rdquo; (Ps. 89:15).',
+            'Sarah laughs at the promise; Isaac is born. Paul later tells the story of two sons - one born of flesh, one born of promise - and applies it to the old covenant and the new (Gal. 4:21-31). Isaac is the son of laughter, the son of what God alone could do. He is the type of everyone the gospel is for: those who have waited past the age of trying, who have given up on themselves, and who discover that God was never waiting for them to deserve it. The laughter of Sarah is the laughter of the redeemed: &ldquo;Blessed is the people that know the joyful sound&rdquo; (Ps. 89:15).',
         },
         {
           kind: 'carry',
           html:
-            'Every promise you have waited for — every delayed answer, every "no, not yet, not in the way you planned" — is an Isaac waiting to be born. The time when God shows up and does what you stopped believing He would do. If you are in the long wait, Sarah&apos;s laughter is a promise that it has an ending. If you are looking back on a prayer God finally answered, that laughter is yours too.',
+            'Every promise you have waited for - every delayed answer, every "no, not yet, not in the way you planned" - is an Isaac waiting to be born. The time when God shows up and does what you stopped believing He would do. If you are in the long wait, Sarah&apos;s laughter is a promise that it has an ending. If you are looking back on a prayer God finally answered, that laughter is yours too.',
         },
         {
           kind: 'reflection',
@@ -175,9 +174,9 @@ export const GENESIS_21: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 21:9–14 — The Casting Out ───────────────────────────── */
+    /* ─── Genesis 21:9-14 - The Casting Out ───────────────────────────── */
     {
-      ref: 'Genesis 21:9–14',
+      ref: 'Genesis 21:9-14',
       title: 'The Hard Word',
       blocks: [
         {
@@ -232,38 +231,38 @@ export const GENESIS_21: RichChapterContent = {
           kind: 'commentary',
           id: 'c-mocking',
           html:
-            'Sarah sees Ishmael mocking — either at the weaning feast or in some other moment. The text does not ask us to sympathize with Sarah&apos;s response. She is jealous, protective, and wrong to treat Hagar and Ishmael as disposable. And yet the structure of the covenant is real: two sons cannot inherit the same promise. The line of faith (Isaac) and the line of flesh (Ishmael, made when Abraham tried to help God out) must be divided. Divorce is never clean. Neither is this separation.',
+            'Sarah sees Ishmael mocking - either at the weaning feast or in some other moment. The text does not ask us to sympathize with Sarah&apos;s response. She is jealous, protective, and wrong to treat Hagar and Ishmael as disposable. And yet the structure of the covenant is real: two sons cannot inherit the same promise. The line of faith (Isaac) and the line of flesh (Ishmael, made when Abraham tried to help God out) must be divided. Divorce is never clean. Neither is this separation.',
         },
         {
           kind: 'commentary',
           id: 'c-abraham-grieved',
           html:
-            'The text tells us Abraham is grieved. He loves Ishmael. He has been present for thirteen years. To send him away into the desert with only bread and water is not justice — it is abandonment. Abraham does what Sarah asks, but his heart breaks. The Bible does not ask us to be hard about this moment. It is hard. The text sits with it.',
+            'The text tells us Abraham is grieved. He loves Ishmael. He has been present for thirteen years. To send him away into the desert with only bread and water is not justice - it is abandonment. Abraham does what Sarah asks, but his heart breaks. The Bible does not ask us to be hard about this moment. It is hard. The text sits with it.',
         },
         {
           kind: 'christ',
           id: 'christ-rejection',
-          title: 'Christ Connection — Two Sons, Two Covenants',
+          title: 'Christ Connection - Two Sons, Two Covenants',
           html:
             'Paul reads this chapter in Galatians 4 and sees what the Old Testament saw: Ishmael is the son of the flesh (born when Abraham took matters into his own hands); Isaac is the son of the promise (born by God&apos;s word alone). &ldquo;So then, brethren, we are not children of the bondwoman, but of the free&rdquo; (Gal. 4:31). The casting out of Hagar and Ishmael is the end of trying to earn the covenant by works. The promise goes to the son born of faith. But note: God does not reject Ishmael. He promises to make him a great nation too. Both lines continue; they simply cannot share the same inheritance.',
         },
         {
           kind: 'carry',
           html:
-            'There are separations in your spiritual life that feel as hard as this one — old ways of thinking that have to go, relationships that cannot continue in the same form, seasons that have to close so new ones can open. The grief is real. You can be right about the boundary and still grieve the loss. Abraham rose up early, gave Hagar bread and water, and the text tells us his heart was broken doing it. That is how you know a boundary is real — it costs you.',
+            'There are separations in your spiritual life that feel as hard as this one - old ways of thinking that have to go, relationships that cannot continue in the same form, seasons that have to close so new ones can open. The grief is real. You can be right about the boundary and still grieve the loss. Abraham rose up early, gave Hagar bread and water, and the text tells us his heart was broken doing it. That is how you know a boundary is real - it costs you.',
         },
         {
           kind: 'reflection',
           id: 'gen21-hard',
           prompt:
-            'Where is God asking you to separate yourself from something — an old way of thinking, a relationship that has to change, a season that is ending? Can you name both what is true about the boundary AND the grief of it?',
+            'Where is God asking you to separate yourself from something - an old way of thinking, a relationship that has to change, a season that is ending? Can you name both what is true about the boundary AND the grief of it?',
         },
       ],
     },
 
-    /* ─── Genesis 21:15–21 — God Hears the Boy ───────────────────────── */
+    /* ─── Genesis 21:15-21 - God Hears the Boy ───────────────────────── */
     {
-      ref: 'Genesis 21:15–21',
+      ref: 'Genesis 21:15-21',
       title: 'God Hears in the Wilderness',
       blocks: [
         {
@@ -302,7 +301,7 @@ export const GENESIS_21: RichChapterContent = {
           kind: 'commentary',
           id: 'gen21-angel-promise',
           html:
-            'In the moment of despair, when death seems certain, the angel of God speaks: &ldquo;Fear not; for God hath heard the voice of the lad.&rdquo; The boy&apos;s name—Ishmael, &ldquo;God hears&rdquo;—is not just a name. It is a promise kept at the very edge of the grave. The angel tells Hagar to rise, to lift up the boy, because a great nation will come from him. The promise of God extends even to the cast-out, even to the discarded, even in the wilderness.',
+            'In the moment of despair, when death seems certain, the angel of God speaks: &ldquo;Fear not; for God hath heard the voice of the lad.&rdquo; The boy&apos;s name-Ishmael, &ldquo;God hears&rdquo;-is not just a name. It is a promise kept at the very edge of the grave. The angel tells Hagar to rise, to lift up the boy, because a great nation will come from him. The promise of God extends even to the cast-out, even to the discarded, even in the wilderness.',
         },
         {
           kind: 'scripture',
@@ -339,16 +338,16 @@ export const GENESIS_21: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-shama',
-          title: 'Shama — &ldquo;heard&rdquo;',
+          title: 'Shama - &ldquo;heard&rdquo;',
           script: 'שָׁמַע',
           translit: '<strong>shama</strong> · he heard',
           description:
-            'The boy&apos;s name, Ishmael (Yishmael), is <em>God hears</em> — from this root. When the angel speaks to Hagar, the first words are &ldquo;God hath heard the voice of the lad where he is.&rdquo; His name is a promise that God listens. And in the wilderness, when there is no one left to care, the promise comes true. The boy whose name says God hears is heard.',
+            'The boy&apos;s name, Ishmael (Yishmael), is <em>God hears</em> - from this root. When the angel speaks to Hagar, the first words are &ldquo;God hath heard the voice of the lad where he is.&rdquo; His name is a promise that God listens. And in the wilderness, when there is no one left to care, the promise comes true. The boy whose name says God hears is heard.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-beer',
-          title: 'Beer — &ldquo;well&rdquo;',
+          title: 'Beer - &ldquo;well&rdquo;',
           script: 'בְּאֵר',
           translit: '<strong>beer</strong> · a well',
           description:
@@ -357,33 +356,33 @@ export const GENESIS_21: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-well',
-          title: 'Christ Connection — The Well in the Wilderness',
+          title: 'Christ Connection - The Well in the Wilderness',
           html:
-            'John 4 brings the Samaritan woman — another woman cast out, another widow alone — to a well at noon. Jesus says, &ldquo;If thou knewest the gift of God, and who it is that saith to thee, Give me to drink; thou wouldest have asked of him, and he would have given thee living water&rdquo; (John 4:10). The well in the wilderness where Hagar sees provision is a type of the well where Jesus offers Himself as living water. Both stories are about a God who finds those no one else sees, who quenches thirst no well can hold. Christ is the well.',
+            'John 4 brings the Samaritan woman - another woman cast out, another widow alone - to a well at noon. Jesus says, &ldquo;If thou knewest the gift of God, and who it is that saith to thee, Give me to drink; thou wouldest have asked of him, and he would have given thee living water&rdquo; (John 4:10). The well in the wilderness where Hagar sees provision is a type of the well where Jesus offers Himself as living water. Both stories are about a God who finds those no one else sees, who quenches thirst no well can hold. Christ is the well.',
         },
         {
           kind: 'carry',
           html:
-            'The wilderness you are in — where the water is gone and you cannot see a way forward — is not outside God&apos;s notice. Your crying is not unheard. God may not rescue you the way you asked for, or on the timeline you set. But He opens eyes. He makes visible what was there all along. The well is there. You are being seen by the only One who can save you.',
+            'The wilderness you are in - where the water is gone and you cannot see a way forward - is not outside God&apos;s notice. Your crying is not unheard. God may not rescue you the way you asked for, or on the timeline you set. But He opens eyes. He makes visible what was there all along. The well is there. You are being seen by the only One who can save you.',
         },
         {
           kind: 'reflection',
           id: 'gen21-wilderness',
           prompt:
-            'Where is a wilderness in your life right now — a place where the obvious provision has run out and you feel like you are dying? What would it mean to let God open your eyes to a well that was there?',
+            'Where is a wilderness in your life right now - a place where the obvious provision has run out and you feel like you are dying? What would it mean to let God open your eyes to a well that was there?',
         },
         {
           kind: 'artwork',
           matchTitle: /hagar/i,
           matchArtist: /tissot/i,
-          caption: 'Genesis 21:15–21 · God Hears the Boy in the Wilderness',
+          caption: 'Genesis 21:15-21 · God Hears the Boy in the Wilderness',
         },
       ],
     },
 
-    /* ─── Genesis 21:22–34 — The Covenant at Beersheba ─────────────────── */
+    /* ─── Genesis 21:22-34 - The Covenant at Beersheba ─────────────────── */
     {
-      ref: 'Genesis 21:22–34',
+      ref: 'Genesis 21:22-34',
       title: 'The Covenant at Beersheba',
       blocks: [
         {
@@ -432,7 +431,7 @@ export const GENESIS_21: RichChapterContent = {
           kind: 'commentary',
           id: 'c-abimelech',
           html:
-            'Abimelech recognizes that God is with Abraham and wants a binding covenant. The well that Abimelech&apos;s servants had taken becomes the occasion for a formal agreement. Abraham offers gifts to seal the oath. But the witness—the true sign of covenant—lies ahead.',
+            'Abimelech recognizes that God is with Abraham and wants a binding covenant. The well that Abimelech&apos;s servants had taken becomes the occasion for a formal agreement. Abraham offers gifts to seal the oath. But the witness-the true sign of covenant-lies ahead.',
         },
         {
           kind: 'scripture',
@@ -461,8 +460,7 @@ export const GENESIS_21: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-21-78mid-2',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Abimelech proposes peace, and Abraham agrees. A well is dug, a name is spoken--Beersheba marks the place where enemies became allies.',
         },
         {
           kind: 'scripture',
@@ -501,28 +499,28 @@ export const GENESIS_21: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-beersheba',
-          title: 'Beersheba — &ldquo;well of the oath&rdquo;',
+          title: 'Beersheba - &ldquo;well of the oath&rdquo;',
           script: 'בְּאֵר שֶׁבַע',
           translit: '<strong>beersheba</strong> · well (beer) of seven (sheba) or oath (sheba)',
           description:
-            'The name works two ways: Beer Sheva can mean "well of seven" (Abraham gives seven lambs as a witness) or "well of the oath" (sheba can mean oath). The place where the oath is sworn is also a place where a well—fresh water, life itself—is secured and witnessed. This will be Abraham&apos;s home.',
+            'The name works two ways: Beer Sheva can mean "well of seven" (Abraham gives seven lambs as a witness) or "well of the oath" (sheba can mean oath). The place where the oath is sworn is also a place where a well-fresh water, life itself-is secured and witnessed. This will be Abraham&apos;s home.',
         },
         {
           kind: 'commentary',
           id: 'c-grove',
           html:
-            'Abraham plants a <em>grove</em> — not a tree but a cluster of trees — a place where others can rest and find shade. He calls on the name of the LORD, the <em>everlasting God</em> (El Olam in Hebrew). After the hard word, the separation, the wilderness, the text brings us to a place of witness and stability. Abraham has seen God provide. He testifies to it by planting a grove and naming the place after what God gave him.',
+            'Abraham plants a <em>grove</em> - not a tree but a cluster of trees - a place where others can rest and find shade. He calls on the name of the LORD, the <em>everlasting God</em> (El Olam in Hebrew). After the hard word, the separation, the wilderness, the text brings us to a place of witness and stability. Abraham has seen God provide. He testifies to it by planting a grove and naming the place after what God gave him.',
         },
         {
           kind: 'carry',
           html:
-            'The chapter closes not with closure but with survival and establishment. Abraham plants a grove for the next thirsty traveler. He names a well after the oath it witnessed. He dwells. In your own hard transitions — the ones that grieve you, the wildernesses that seem endless — there comes a time when God brings you to a place where you can plant something, testify to what He did, and make a covenant. Your story becomes a well that waters the next person who is thirsty.',
+            'The chapter closes not with closure but with survival and establishment. Abraham plants a grove for the next thirsty traveler. He names a well after the oath it witnessed. He dwells. In your own hard transitions - the ones that grieve you, the wildernesses that seem endless - there comes a time when God brings you to a place where you can plant something, testify to what He did, and make a covenant. Your story becomes a well that waters the next person who is thirsty.',
         },
         {
           kind: 'reflection',
           id: 'gen21-beersheba',
           prompt:
-            'Where has God been faithful to you despite your circumstances? What would it look like to plant a grove there — to testify to His faithfulness in a way that might refresh someone else?',
+            'Where has God been faithful to you despite your circumstances? What would it look like to plant a grove there - to testify to His faithfulness in a way that might refresh someone else?',
         },
       ],
     },

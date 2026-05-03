@@ -30,6 +30,17 @@ export const CHRONICLES_2_11: RichChapterContent = {
     ref: '2 Chronicles 11 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-judah-monarchy',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Judah in the Monarchy Period',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 11:1–4 — Shemaiah Stops the War ──────────────────── */
     {
@@ -50,7 +61,7 @@ export const CHRONICLES_2_11: RichChapterContent = {
           kind: 'commentary',
           id: 'rehoboam-gathers-army',
           html:
-            'Rehoboam has just lost the northern kingdom. His harshness and pride have driven ten tribes away. His first instinct is military: gather 180,000 chosen warriors, men of war, and fight to restore what he has lost. The impulse is human — to use force to recover what has been taken.',
+            'Rehoboam has just lost the northern kingdom. His harshness and pride have driven ten tribes away. His first instinct is military: gather 180,000 chosen warriors, men of war, and fight to restore what he has lost. The impulse is human — to use force to recover what has been taken. [res:iaa-judah-monarchy]',
         },
         {
           kind: 'commentary',

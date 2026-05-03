@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 45 — The Reveal
+ * Genesis 45 - The Reveal
  *
  * Joseph cannot hold back anymore. He sends the Egyptians out of the room,
  * weeps so loudly the house of Pharaoh hears. "I am Joseph your brother,
@@ -22,14 +22,14 @@ export const GENESIS_45: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 17 },
   intros: [
-    'For thirteen years Joseph has been working in Egypt — first as a slave in Potiphar&apos;s house, then imprisoned on a false charge, finally raised to power second only to Pharaoh [res:met-museum-egypt]. His brothers sold him when he was seventeen. They have never seen him since. Now they stand before him, not knowing who he is, and the moment Joseph has been waiting for breaks through all his restraint. He cannot contain it anymore.',
+    'For thirteen years Joseph has been working in Egypt - first as a slave in Potiphar&apos;s house, then imprisoned on a false charge, finally raised to power second only to Pharaoh [res:met-museum-egypt]. His brothers sold him when he was seventeen. They have never seen him since. Now they stand before him, not knowing who he is, and the moment Joseph has been waiting for breaks through all his restraint. He cannot contain it anymore.',
     'What follows is one of the most tender scenes in Scripture [res:sefaria-genesis-45]. A man weeping so loudly that a palace full of guards hears him. A forgiver who speaks first, not to accuse but to release the guilt [res:bibleodyssey-joseph-egypt]. A solemn insistence that what looks like the brothers&apos; cruelty is actually the work of God&apos;s hand. And an embrace so complete that it echoes through the rest of the Bible.',
   ],
 
   sections: [
-    /* ─── Genesis 45:1–4 — Joseph Cannot Contain ─────────────────────── */
+    /* ─── Genesis 45:1-4 - Joseph Cannot Contain ─────────────────────── */
     {
-      ref: 'Genesis 45:1–4',
+      ref: 'Genesis 45:1-4',
       title: 'Joseph Cannot Contain Himself',
       blocks: [
         {
@@ -50,7 +50,7 @@ export const GENESIS_45: RichChapterContent = {
           kind: 'commentary',
           id: 'c-send-out',
           html:
-            'Joseph orders everyone out of the room. This moment is not for witnesses. The Egyptians cannot be present for what is about to happen — a governor of Egypt about to admit he is a Hebrew slave&apos;s son, that his brothers are not the criminals he has been treating them as, that the whole hidden architecture of his life is about to collapse and rebuild. This is family. This is private. This is where God moves.',
+            'Joseph orders everyone out of the room. This moment is not for witnesses. The Egyptians cannot be present for what is about to happen - a governor of Egypt about to admit he is a Hebrew slave&apos;s son, that his brothers are not the criminals he has been treating them as, that the whole hidden architecture of his life is about to collapse and rebuild. This is family. This is private. This is where God moves.',
         },
 
         {
@@ -71,7 +71,7 @@ export const GENESIS_45: RichChapterContent = {
           kind: 'commentary',
           id: 'c-wept-loud',
           html:
-            'The second-most-powerful man in Egypt is weeping so loudly that guards in the palace hear it. Not quietly. Not with restraint. Joseph is a man who has been holding something back for thirteen years — keeping his identity secret, managing the Egyptians&apos; grain stores, watching his brothers face hunger without revealing who he was. All of it comes out at once. The text is not embarrassed about how big the moment is. Neither should we be.',
+            'The second-most-powerful man in Egypt is weeping so loudly that guards in the palace hear it. Not quietly. Not with restraint. Joseph is a man who has been holding something back for thirteen years - keeping his identity secret, managing the Egyptians&apos; grain stores, watching his brothers face hunger without revealing who he was. All of it comes out at once. The text is not embarrassed about how big the moment is. Neither should we be.',
         },
 
         {
@@ -103,11 +103,11 @@ export const GENESIS_45: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-ani',
-          title: 'Ani Yosef — &ldquo;I am Joseph&rdquo;',
+          title: 'Ani Yosef - &ldquo;I am Joseph&rdquo;',
           script: 'אֲנִי יוֹסֵף',
           translit: '<strong>ani yosef achikem</strong> · I am Joseph your brother',
           description:
-            'The most important sentence in the chapter. Joseph identifies himself not just by name but by the relationship that was broken. He does not say "I am the governor of Egypt" or "I am the second-in-command." He says "I am Joseph your brother" — the brother you sold, the relationship you severed, the person you tried to erase. The forgiver begins by naming the wound.',
+            'The most important sentence in the chapter. Joseph identifies himself not just by name but by the relationship that was broken. He does not say "I am the governor of Egypt" or "I am the second-in-command." He says "I am Joseph your brother" - the brother you sold, the relationship you severed, the person you tried to erase. The forgiver begins by naming the wound.',
         },
         {
           kind: 'commentary',
@@ -119,7 +119,7 @@ export const GENESIS_45: RichChapterContent = {
           kind: 'commentary',
           id: 'c-terrified',
           html:
-            'The brothers are terrified. They are standing in front of the man they betrayed, and he has just revealed his face. In their minds, everything they have feared since that day in the pit is about to happen. The man they sold as a slave is about to have them enslaved or killed. The text captures their silence — they cannot even speak.',
+            'The brothers are terrified. They are standing in front of the man they betrayed, and he has just revealed his face. In their minds, everything they have feared since that day in the pit is about to happen. The man they sold as a slave is about to have them enslaved or killed. The text captures their silence - they cannot even speak.',
         },
         {
           kind: 'commentary',
@@ -141,9 +141,9 @@ export const GENESIS_45: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 45:5–8 — Not You, But God ────────────────────────────── */
+    /* ─── Genesis 45:5-8 - Not You, But God ────────────────────────────── */
     {
-      ref: 'Genesis 45:5–8',
+      ref: 'Genesis 45:5-8',
       title: 'It Was Not You, But God',
       blocks: [
         {
@@ -166,16 +166,16 @@ export const GENESIS_45: RichChapterContent = {
           kind: 'commentary',
           id: 'c-first-move',
           html:
-            'Joseph&apos;s first move is not to punish or even to investigate. It is to release his brothers from the guilt they are drowning in. "Be not grieved, nor angry with yourselves." He is not saying what they did was right. He is saying: I am not here to make you carry this anymore. I am releasing you from it. This is the shape of grace — the forgiver speaks first, and what he says is absolution.',
+            'Joseph&apos;s first move is not to punish or even to investigate. It is to release his brothers from the guilt they are drowning in. "Be not grieved, nor angry with yourselves." He is not saying what they did was right. He is saying: I am not here to make you carry this anymore. I am releasing you from it. This is the shape of grace - the forgiver speaks first, and what he says is absolution.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-machyah',
-          title: 'Machyah — &ldquo;preserve life&rdquo;',
+          title: 'Machyah - &ldquo;preserve life&rdquo;',
           script: 'מִחְיָה',
           translit: '<strong>machyah</strong> · to preserve, to revive (root: <strong>chayyim</strong>, life)',
           description:
-            'The word Joseph uses for what God sent him to do is built on the same root as "life itself." Joseph has been sent to bring life — to Egyptians during famine, to his own family when they are starving. His suffering and slavery had a purpose: to position him where he could save.',
+            'The word Joseph uses for what God sent him to do is built on the same root as "life itself." Joseph has been sent to bring life - to Egyptians during famine, to his own family when they are starving. His suffering and slavery had a purpose: to position him where he could save.',
         },
 
         {
@@ -208,7 +208,7 @@ export const GENESIS_45: RichChapterContent = {
           kind: 'commentary',
           id: 'c-not-you-god',
           html:
-            'Joseph repeats this line three times in verses 5–8: "God did send me," "to make you a posterity," "it was not you that sent me hither, but God." He is theologically insistent. He is not saying the brothers did nothing wrong. He is saying something more difficult and more true: they DID wrong him, AND God DID send him. Both things are true at the same time. The brothers&apos; malice and God&apos;s providential purpose are not opposites. They happened in the same event, without erasing each other. This is one of the most famous theological statements in the Old Testament.',
+            'Joseph repeats this line three times in verses 5-8: "God did send me," "to make you a posterity," "it was not you that sent me hither, but God." He is theologically insistent. He is not saying the brothers did nothing wrong. He is saying something more difficult and more true: they DID wrong him, AND God DID send him. Both things are true at the same time. The brothers&apos; malice and God&apos;s providential purpose are not opposites. They happened in the same event, without erasing each other. This is one of the most famous theological statements in the Old Testament.',
         },
         {
           kind: 'carry',
@@ -224,9 +224,9 @@ export const GENESIS_45: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 45:9–13 — The Embrace ────────────────────────────────── */
+    /* ─── Genesis 45:9-13 - The Embrace ────────────────────────────────── */
     {
-      ref: 'Genesis 45:9–13',
+      ref: 'Genesis 45:9-13',
       title: 'Embracing Benjamin',
       blocks: [
         {
@@ -269,7 +269,7 @@ export const GENESIS_45: RichChapterContent = {
           kind: 'commentary',
           id: 'c-embrace',
           html:
-            'Joseph does not dwell on the past. Once he has named it and released his brothers from it, he turns entirely toward the future. He does not ask them to apologize or grovel. He makes a plan. He promises provision. He honors Benjamin by making his presence in the room a kind of proof — "your eyes see, and the eyes of my brother Benjamin, that it is my mouth that speaketh unto you." Benjamin can confirm it. The other brothers can trust him.',
+            'Joseph does not dwell on the past. Once he has named it and released his brothers from it, he turns entirely toward the future. He does not ask them to apologize or grovel. He makes a plan. He promises provision. He honors Benjamin by making his presence in the room a kind of proof - "your eyes see, and the eyes of my brother Benjamin, that it is my mouth that speaketh unto you." Benjamin can confirm it. The other brothers can trust him.',
         },
         {
           kind: 'carry',
@@ -279,9 +279,9 @@ export const GENESIS_45: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 45:14–15 — Weeping and Embracing ────────────────────── */
+    /* ─── Genesis 45:14-15 - Weeping and Embracing ────────────────────── */
     {
-      ref: 'Genesis 45:14–15',
+      ref: 'Genesis 45:14-15',
       title: 'Weeping Upon His Neck',
       blocks: [
         {
@@ -314,7 +314,7 @@ export const GENESIS_45: RichChapterContent = {
           kind: 'commentary',
           id: 'c-wept-benjamin',
           html:
-            'Joseph embraces Benjamin first — his full brother, the son of Rachel, the only other brother born to the same mother. Benjamin was born after Joseph was sold, so Joseph had never even met him. The tears come again. This time they are not alone. Benjamin weeps too. The brothers who were terrified are becoming part of the embrace.',
+            'Joseph embraces Benjamin first - his full brother, the son of Rachel, the only other brother born to the same mother. Benjamin was born after Joseph was sold, so Joseph had never even met him. The tears come again. This time they are not alone. Benjamin weeps too. The brothers who were terrified are becoming part of the embrace.',
         },
         {
           kind: 'commentary',
@@ -326,19 +326,19 @@ export const GENESIS_45: RichChapterContent = {
           kind: 'commentary',
           id: 'c-talked',
           html:
-            'The text uses a simple word here: "talked." After all the secrecy and testing and hidden identity, now they simply talk. This is what reconciliation looks like — from silence and terror to speech, from hiding to presence, from suspicion to embrace.',
+            'The text uses a simple word here: "talked." After all the secrecy and testing and hidden identity, now they simply talk. This is what reconciliation looks like - from silence and terror to speech, from hiding to presence, from suspicion to embrace.',
         },
         {
           kind: 'carry',
           html:
-            'Forgiveness is not a transaction that happens in words alone. It is embodied. Joseph does not only tell his brothers he forgives them — he embraces them. He weeps with them. He makes it physical. If there is someone you need to forgive, notice that the hardest part might not be saying the words. It might be stepping close enough to be touched.',
+            'Forgiveness is not a transaction that happens in words alone. It is embodied. Joseph does not only tell his brothers he forgives them - he embraces them. He weeps with them. He makes it physical. If there is someone you need to forgive, notice that the hardest part might not be saying the words. It might be stepping close enough to be touched.',
         },
       ],
     },
 
-    /* ─── Genesis 45:16–20 — Pharaoh Insists ──────────────────────────── */
+    /* ─── Genesis 45:16-20 - Pharaoh Insists ──────────────────────────── */
     {
-      ref: 'Genesis 45:16–20',
+      ref: 'Genesis 45:16-20',
       title: 'Pharaoh Provides',
       blocks: [
         {
@@ -391,9 +391,9 @@ export const GENESIS_45: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 45:21–24 — The Gifts ─────────────────────────────────── */
+    /* ─── Genesis 45:21-24 - The Gifts ─────────────────────────────────── */
     {
-      ref: 'Genesis 45:21–24',
+      ref: 'Genesis 45:21-24',
       title: 'Gifts and Raiment',
       blocks: [
         {
@@ -434,7 +434,7 @@ export const GENESIS_45: RichChapterContent = {
           kind: 'commentary',
           id: 'c-benjamin-silver',
           html:
-            'To Benjamin he gives three hundred pieces of silver and five changes of raiment — vastly more than the others. This is not favoritism disguised; it is a deliberate reversal of history. When Joseph was sold, the brothers received twenty pieces of silver (Genesis 37:28). Now Benjamin, Joseph&apos;s only full brother, the one who was not part of the betrayal, receives a gift of silver so large it cannot be anything but a symbol. The silver of betrayal has been answered by the silver of generosity. The reversal is complete.',
+            'To Benjamin he gives three hundred pieces of silver and five changes of raiment - vastly more than the others. This is not favoritism disguised; it is a deliberate reversal of history. When Joseph was sold, the brothers received twenty pieces of silver (Genesis 37:28). Now Benjamin, Joseph&apos;s only full brother, the one who was not part of the betrayal, receives a gift of silver so large it cannot be anything but a symbol. The silver of betrayal has been answered by the silver of generosity. The reversal is complete.',
         },
         {
           kind: 'commentary',
@@ -450,9 +450,9 @@ export const GENESIS_45: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 45:25–28 — Jacob&apos;s Faint and Revival ────────────── */
+    /* ─── Genesis 45:25-28 - Jacob&apos;s Faint and Revival ────────────── */
     {
-      ref: 'Genesis 45:25–28',
+      ref: 'Genesis 45:25-28',
       title: 'Joseph Is Yet Alive',
       blocks: [
         {
@@ -502,20 +502,20 @@ export const GENESIS_45: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-revived',
-          title: 'Christ Connection — Alive and Sending',
+          title: 'Christ Connection - Alive and Sending',
           html:
-            'The pattern is exact. The brothers come home saying "Joseph is yet alive" — just as the disciples came out of the grave saying "Christ is risen." Jacob cannot believe it at first — just as the disciples and Mary Magdalene doubted. But then Jacob sees the wagons Joseph sent — the practical fruit of Joseph&apos;s love and authority — just as we see the risen Christ&apos;s gifts: the Spirit sent at Pentecost, the bread and wine of His presence, the work of His kingdom spreading through the world. Joseph is alive and sending provision. Christ is alive and sending the same. The gospel announces: the One you thought was gone is living still, and He is sending to gather you to Himself.',
+            'The pattern is exact. The brothers come home saying "Joseph is yet alive" - just as the disciples came out of the grave saying "Christ is risen." Jacob cannot believe it at first - just as the disciples and Mary Magdalene doubted. But then Jacob sees the wagons Joseph sent - the practical fruit of Joseph&apos;s love and authority - just as we see the risen Christ&apos;s gifts: the Spirit sent at Pentecost, the bread and wine of His presence, the work of His kingdom spreading through the world. Joseph is alive and sending provision. Christ is alive and sending the same. The gospel announces: the One you thought was gone is living still, and He is sending to gather you to Himself.',
         },
         {
           kind: 'carry',
           html:
-            'Maybe right now you are in the faint-hearted place, the place where the news seems too good to be true. You have lived so long with the grief that the possibility of joy feels unreal. The very practical action is to look for the signs — the wagons Joseph sent. In your own life, what has the risen Christ already sent to prove He is alive? The community of faith. The transformation in people&apos;s lives. The still, small voice. The answer to a prayer you thought was impossible. The wagons are already there. Your spirit can revive.',
+            'Maybe right now you are in the faint-hearted place, the place where the news seems too good to be true. You have lived so long with the grief that the possibility of joy feels unreal. The very practical action is to look for the signs - the wagons Joseph sent. In your own life, what has the risen Christ already sent to prove He is alive? The community of faith. The transformation in people&apos;s lives. The still, small voice. The answer to a prayer you thought was impossible. The wagons are already there. Your spirit can revive.',
         },
         {
           kind: 'reflection',
           id: 'reflect-alive',
           prompt:
-            'Like Jacob, where do you struggle to believe good news? What "wagons" — what concrete evidence — do you need to see to let your heart revive and believe that the person or promise you thought was lost is truly alive?',
+            'Like Jacob, where do you struggle to believe good news? What "wagons" - what concrete evidence - do you need to see to let your heart revive and believe that the person or promise you thought was lost is truly alive?',
         },
       ],
     },
@@ -524,7 +524,7 @@ export const GENESIS_45: RichChapterContent = {
   bottomShare: {
     label: 'Share Genesis 45',
     quote:
-      'Joseph revealed himself to his brothers with tears. "I am Joseph your brother, whom ye sold into Egypt. But be not grieved… God did send me before you to preserve life." He embraced them, wept, and sent them home with gifts to bring Jacob. "Joseph is yet alive, and he is governor over all the land of Egypt."',
+      'Joseph revealed himself to his brothers with tears. "I am Joseph your brother, whom ye sold into Egypt. But be not grieved... God did send me before you to preserve life." He embraced them, wept, and sent them home with gifts to bring Jacob. "Joseph is yet alive, and he is governor over all the land of Egypt."',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 45 · Study Guide',
   },
@@ -534,7 +534,7 @@ export const GENESIS_45: RichChapterContent = {
       id: 'sefaria-genesis-45',
       kind: 'lexicon',
       source: 'Sefaria',
-      label: 'Genesis 45 — Sefaria',
+      label: 'Genesis 45 - Sefaria',
       url: 'https://www.sefaria.org/Genesis.45',
       description: 'Annotated text with classical and modern Jewish commentary on Joseph&apos;s revelation to his brothers.',
     },
@@ -542,7 +542,7 @@ export const GENESIS_45: RichChapterContent = {
       id: 'met-museum-egypt',
       kind: 'museum',
       source: 'The Met',
-      label: 'Ancient Egypt — The Metropolitan Museum of Art',
+      label: 'Ancient Egypt - The Metropolitan Museum of Art',
       url: 'https://www.metmuseum.org/art/collection?department=Egyptian%20Art',
       description: 'Egyptian artifacts and cultural context for understanding the world of Joseph and later Genesis figures.',
     },
@@ -550,7 +550,7 @@ export const GENESIS_45: RichChapterContent = {
       id: 'bibleodyssey-joseph-egypt',
       kind: 'study',
       source: 'Bible Odyssey',
-      label: 'Joseph and Egypt — Bible Odyssey',
+      label: 'Joseph and Egypt - Bible Odyssey',
       url: 'https://www.bibleodyssey.org/en/passages/related-articles/joseph-and-egypt',
       description: 'Scholarly essays on Joseph&apos;s time in Egypt and its historical and theological significance.',
     },

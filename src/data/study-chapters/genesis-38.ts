@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 38 — Judah and Tamar.
+ * Genesis 38 - Judah and Tamar.
  *
  * This chapter sits in the middle of the Joseph narrative and tells a harder
  * story: Judah leaves his brothers, marries a Canaanite, loses two sons,
@@ -11,8 +11,8 @@ import { hp, hy, hg, t, type RichChapterContent } from './types';
  * and staff: "Discern, I pray thee, whose are these?"
  *
  * Judah&apos;s answer ("She hath been more righteous than I") is one of the
- * clearest self-condemnations in Genesis. And from this chapter—this messy,
- * dangerous, righteous woman—comes Pharez, whose line leads to David and to
+ * clearest self-condemnations in Genesis. And from this chapter-this messy,
+ * dangerous, righteous woman-comes Pharez, whose line leads to David and to
  * Christ. The gospel runs through it not in spite of Tamar but because of her.
  */
 export const GENESIS_38: RichChapterContent = {
@@ -22,14 +22,14 @@ export const GENESIS_38: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 17 },
   intros: [
-    'Genesis 38 interrupts the story of Joseph with a different kind of story entirely—one about his older brother Judah, set apart from his family, and a woman named Tamar who was wronged twice over and responded with courage that made Judah see his own failure [res:sefaria-genesis-38]. This chapter is uncomfortable and graphic in ways the Bible usually avoids. It sits in Scripture not by accident but because the gospel runs through exactly the kind of people and circumstances that religious systems try to hide.',
-    'The story turns on one ancient practice: <em>yibbum</em>, the levirate marriage. When a man died childless, his brother was bound by law to marry his widow and raise up an heir for the dead man. It was not optional. It was sacred debt. When Judah withholds his youngest son from Tamar—leaving her in limbo, neither widow nor wife—he breaks a covenant [res:bibleodyssey-joseph-egypt]. Tamar&apos;s response will teach him what righteousness actually looks like, and in the process, she secures her place in the genealogy of Jesus.',
+    'Genesis 38 interrupts the story of Joseph with a different kind of story entirely-one about his older brother Judah, set apart from his family, and a woman named Tamar who was wronged twice over and responded with courage that made Judah see his own failure [res:sefaria-genesis-38]. This chapter is uncomfortable and graphic in ways the Bible usually avoids. It sits in Scripture not by accident but because the gospel runs through exactly the kind of people and circumstances that religious systems try to hide.',
+    'The story turns on one ancient practice: <em>yibbum</em>, the levirate marriage. When a man died childless, his brother was bound by law to marry his widow and raise up an heir for the dead man. It was not optional. It was sacred debt. When Judah withholds his youngest son from Tamar-leaving her in limbo, neither widow nor wife-he breaks a covenant [res:bibleodyssey-joseph-egypt]. Tamar&apos;s response will teach him what righteousness actually looks like, and in the process, she secures her place in the genealogy of Jesus.',
   ],
 
   bottomShare: {
     label: 'Share Genesis 38',
     quote:
-      'Tamar, wronged twice, disguises herself as a prostitute and bears Pharez—whose line leads to David and to Christ. "She hath been more righteous than I," Judah confesses. The gospel runs through her faith.',
+      'Tamar, wronged twice, disguises herself as a prostitute and bears Pharez-whose line leads to David and to Christ. "She hath been more righteous than I," Judah confesses. The gospel runs through her faith.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 38 · Study Guide',
   },
@@ -39,7 +39,7 @@ export const GENESIS_38: RichChapterContent = {
       id: 'sefaria-genesis-38',
       kind: 'lexicon',
       source: 'Sefaria',
-      label: 'Genesis 38 — Sefaria',
+      label: 'Genesis 38 - Sefaria',
       url: 'https://www.sefaria.org/Genesis.38',
       description: 'Annotated text with classical and modern Jewish commentary on the Judah and Tamar narrative.',
     },
@@ -47,7 +47,7 @@ export const GENESIS_38: RichChapterContent = {
       id: 'met-museum-egypt',
       kind: 'museum',
       source: 'The Met',
-      label: 'Ancient Egypt — The Metropolitan Museum of Art',
+      label: 'Ancient Egypt - The Metropolitan Museum of Art',
       url: 'https://www.metmuseum.org/art/collection?department=Egyptian%20Art',
       description: 'Egyptian artifacts and cultural context for understanding the world of Joseph and later Genesis figures.',
     },
@@ -55,16 +55,16 @@ export const GENESIS_38: RichChapterContent = {
       id: 'bibleodyssey-joseph-egypt',
       kind: 'study',
       source: 'Bible Odyssey',
-      label: 'Joseph and Egypt — Bible Odyssey',
+      label: 'Joseph and Egypt - Bible Odyssey',
       url: 'https://www.bibleodyssey.org/en/passages/related-articles/joseph-and-egypt',
       description: 'Scholarly essays on Joseph&apos;s time in Egypt and its historical and theological significance.',
     },
   ],
 
   sections: [
-    /* ─── Genesis 38:1–5 — Judah Departs ──────────────────────────────── */
+    /* ─── Genesis 38:1-5 - Judah Departs ──────────────────────────────── */
     {
-      ref: 'Genesis 38:1–5',
+      ref: 'Genesis 38:1-5',
       title: 'Judah Leaves His Brothers',
       blocks: [
         {
@@ -119,7 +119,7 @@ export const GENESIS_38: RichChapterContent = {
           kind: 'commentary',
           id: 'c-canaanite',
           html:
-            'Judah does not marry a woman of his faith. He chooses the family of a Canaanite, a people whose gods were being driven out of the land. This is not yet catastrophic—Abraham and Isaac also marry in the land—but the movement is notable. Judah is building a life that has no reference to the covenant at all.',
+            'Judah does not marry a woman of his faith. He chooses the family of a Canaanite, a people whose gods were being driven out of the land. This is not yet catastrophic-Abraham and Isaac also marry in the land-but the movement is notable. Judah is building a life that has no reference to the covenant at all.',
         },
         {
           kind: 'carry',
@@ -135,9 +135,9 @@ export const GENESIS_38: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 38:6–11 — The Duty of the Living Brother ────────────── */
+    /* ─── Genesis 38:6-11 - The Duty of the Living Brother ────────────── */
     {
-      ref: 'Genesis 38:6–11',
+      ref: 'Genesis 38:6-11',
       title: 'Er, Onan, and the Broken Covenant',
       blocks: [
         {
@@ -195,17 +195,17 @@ export const GENESIS_38: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-yibbum',
-          title: 'Yibbum — "levirate marriage"',
+          title: 'Yibbum - "levirate marriage"',
           script: 'יִבּוּם',
           translit: '<strong>yibbum</strong> · from <em>yabam</em>, "brother-in-law"',
           description:
-            'The levirate duty is not romantic love; it is sacred debt. A living brother bears the responsibility to restore the name of the dead—to give his widow a son who would inherit the dead brother&apos;s portion and carry his memory forward. It is one of the law&apos;s ways of honoring both the dead and the vulnerable woman left behind.',
+            'The levirate duty is not romantic love; it is sacred debt. A living brother bears the responsibility to restore the name of the dead-to give his widow a son who would inherit the dead brother&apos;s portion and carry his memory forward. It is one of the law&apos;s ways of honoring both the dead and the vulnerable woman left behind.',
         },
         {
           kind: 'commentary',
           id: 'c-tamar-intro',
           html:
-            'Tamar enters the narrative named—the first woman in this section to receive her own name from the narrator. She is already present as a person, not as a function. Remember this: when Judah later fails to see her, she is still the woman he is failing to see.',
+            'Tamar enters the narrative named-the first woman in this section to receive her own name from the narrator. She is already present as a person, not as a function. Remember this: when Judah later fails to see her, she is still the woman he is failing to see.',
         },
         {
           kind: 'commentary',
@@ -217,13 +217,13 @@ export const GENESIS_38: RichChapterContent = {
           kind: 'commentary',
           id: 'c-onan-refusal',
           html:
-            'Onan performs the act but not the covenant. He refuses to give seed—to create a child who would belong to his dead brother&apos;s line, not his own. The sin is not the act itself but the refusal of duty. Onan wants the sexual relationship without the responsibility to the dead, to the widow, or to God. He gets to be inside the covenant while rejecting what the covenant costs.',
+            'Onan performs the act but not the covenant. He refuses to give seed-to create a child who would belong to his dead brother&apos;s line, not his own. The sin is not the act itself but the refusal of duty. Onan wants the sexual relationship without the responsibility to the dead, to the widow, or to God. He gets to be inside the covenant while rejecting what the covenant costs.',
         },
         {
           kind: 'commentary',
           id: 'c-onan-sin',
           html:
-            'The LORD sees it. Onan dies not because of the mechanics of what he did, but because he broke a bond—he refused to be his brother&apos;s keeper. Tamar is now widowed twice, and the pattern is clear: the household of Judah is failing her. She is left in legal limbo, neither widow nor wife.',
+            'The LORD sees it. Onan dies not because of the mechanics of what he did, but because he broke a bond-he refused to be his brother&apos;s keeper. Tamar is now widowed twice, and the pattern is clear: the household of Judah is failing her. She is left in legal limbo, neither widow nor wife.',
         },
         {
           kind: 'carry',
@@ -239,9 +239,9 @@ export const GENESIS_38: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 38:12–19 — Tamar Takes Her Stand ─────────────────────── */
+    /* ─── Genesis 38:12-19 - Tamar Takes Her Stand ─────────────────────── */
     {
-      ref: 'Genesis 38:12–19',
+      ref: 'Genesis 38:12-19',
       title: 'The Disguise',
       blocks: [
         {
@@ -283,8 +283,7 @@ export const GENESIS_38: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-38-78mid-1',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Judah prospers and marries, but his first two sons die under God&apos;s judgment. Tamar waits for Shelah, widow-suspended, the ledger incomplete.',
         },
         {
           kind: 'scripture',
@@ -342,18 +341,18 @@ export const GENESIS_38: RichChapterContent = {
           kind: 'commentary',
           id: 'c-kid-pledge',
           html:
-            'A kid—a young goat—is what Judah offers. But Tamar will not take it until she holds something he cannot replace. She asks for a pledge.',
+            'A kid-a young goat-is what Judah offers. But Tamar will not take it until she holds something he cannot replace. She asks for a pledge.',
         },
         {
           kind: 'commentary',
           id: 'c-pledge-items',
           html:
-            'The signet ring is the seal of Judah&apos;s identity—it marks his documents and his property. The bracelets and staff mark him as a man of standing. Tamar does not ask for money. She asks for his identity itself, the things that name him in the world. Judah gives them. And in doing so, he gives away his ability to claim this encounter ever happened.',
+            'The signet ring is the seal of Judah&apos;s identity-it marks his documents and his property. The bracelets and staff mark him as a man of standing. Tamar does not ask for money. She asks for his identity itself, the things that name him in the world. Judah gives them. And in doing so, he gives away his ability to claim this encounter ever happened.',
         },
         {
           kind: 'carry',
           html:
-            'Tamar&apos;s boldness is not shamelessness; it is faithfulness. She is fighting for her place in a covenant family that has wronged her. She risks everything—her reputation, her life—to claim what the law said was hers. And she does it without anger, without blame, without asking for pity. She acts. The rest of Scripture will honor her for it.',
+            'Tamar&apos;s boldness is not shamelessness; it is faithfulness. She is fighting for her place in a covenant family that has wronged her. She risks everything-her reputation, her life-to claim what the law said was hers. And she does it without anger, without blame, without asking for pity. She acts. The rest of Scripture will honor her for it.',
         },
         {
           kind: 'reflection',
@@ -364,9 +363,9 @@ export const GENESIS_38: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 38:20–26 — The Reckoning ────────────────────────────── */
+    /* ─── Genesis 38:20-26 - The Reckoning ────────────────────────────── */
     {
-      ref: 'Genesis 38:20–26',
+      ref: 'Genesis 38:20-26',
       title: 'Discern, I Pray Thee',
       blocks: [
         {
@@ -398,8 +397,7 @@ export const GENESIS_38: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-38-78mid-2',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Judah, blind with grief, solicits a roadside woman--but she is Tamar, reclaiming her right. Perez will be born, and his line leads to David.',
         },
         {
           kind: 'scripture',
@@ -441,7 +439,7 @@ export const GENESIS_38: RichChapterContent = {
           kind: 'commentary',
           id: 'c-harlot-word',
           html:
-            'Notice the shift in vocabulary. Tamar is called <em>zonah</em>—a harlot, a woman without protection, outside the covenant. Hirah&apos;s men cannot find her because she has never been a harlot. She was only ever a widow, and a widow with a claim.',
+            'Notice the shift in vocabulary. Tamar is called <em>zonah</em>-a harlot, a woman without protection, outside the covenant. Hirah&apos;s men cannot find her because she has never been a harlot. She was only ever a widow, and a widow with a claim.',
         },
         {
           kind: 'commentary',
@@ -464,14 +462,14 @@ export const GENESIS_38: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-discern',
-          title: 'Christ Connection — The Seal That Cannot Be Denied',
+          title: 'Christ Connection - The Seal That Cannot Be Denied',
           html:
-            'Tamar holds up Judah&apos;s signet and asks him to discern. Matthew 16:18 uses the same Greek root—<em>ekklesia</em> built on the rock, and Peter holding the keys. In the Old Testament, the signet ring was the sign of authority entrusted: Pharaoh gave Joseph his signet (Gen. 41:42). Judah gave his signet to Tamar—a widow fighting for her life, claiming her covenant due. When the king of glory stands at the judgment—not to condemn, but to reveal truth—He will not need to accuse. We will all see what we have done, and what grace has done anyway.',
+            'Tamar holds up Judah&apos;s signet and asks him to discern. Matthew 16:18 uses the same Greek root-<em>ekklesia</em> built on the rock, and Peter holding the keys. In the Old Testament, the signet ring was the sign of authority entrusted: Pharaoh gave Joseph his signet (Gen. 41:42). Judah gave his signet to Tamar-a widow fighting for her life, claiming her covenant due. When the king of glory stands at the judgment-not to condemn, but to reveal truth-He will not need to accuse. We will all see what we have done, and what grace has done anyway.',
         },
         {
           kind: 'carry',
           html:
-            'There is a moment coming for all of us where we will see ourselves clearly, know what we owe, know where we have failed—and in the same moment, learn that mercy has already acted. It is not a moment of shame but of recognition. Judah&apos;s confession is not defeat. It is the only victory that matters: "She hath been more righteous than I."',
+            'There is a moment coming for all of us where we will see ourselves clearly, know what we owe, know where we have failed-and in the same moment, learn that mercy has already acted. It is not a moment of shame but of recognition. Judah&apos;s confession is not defeat. It is the only victory that matters: "She hath been more righteous than I."',
         },
         {
           kind: 'reflection',
@@ -482,9 +480,9 @@ export const GENESIS_38: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 38:27–30 — The Twins Born ──────────────────────────── */
+    /* ─── Genesis 38:27-30 - The Twins Born ──────────────────────────── */
     {
-      ref: 'Genesis 38:27–30',
+      ref: 'Genesis 38:27-30',
       title: 'Pharez and Zarah',
       blocks: [
         {
@@ -529,7 +527,7 @@ export const GENESIS_38: RichChapterContent = {
           kind: 'commentary',
           id: 'c-twins',
           html:
-            'Twins. The narrative has given us a pattern: Cain and Abel, Esau and Jacob, Joseph and Benjamin. Twins in Scripture often mean a struggle over blessing, over the right to the covenant. Here the twin birth itself is a reversal—the one marked to come first does not, and in the struggle between them, one breaks out of order.',
+            'Twins. The narrative has given us a pattern: Cain and Abel, Esau and Jacob, Joseph and Benjamin. Twins in Scripture often mean a struggle over blessing, over the right to the covenant. Here the twin birth itself is a reversal-the one marked to come first does not, and in the struggle between them, one breaks out of order.',
         },
         {
           kind: 'commentary',
@@ -541,25 +539,25 @@ export const GENESIS_38: RichChapterContent = {
           kind: 'commentary',
           id: 'c-pharez',
           html:
-            '<em>Pharez</em> means "breach" or "breaking out." He is the one who breaks the order, who comes against expectation, who interrupts what looked settled. His name will appear in the genealogy of Jesus. Matthew 1:3: "Judas begat Phares." The line of the Messiah runs not through the first-born, not through the expected heir, but through the child of Tamar and Judah—and through the one who broke the order to get here.',
+            '<em>Pharez</em> means "breach" or "breaking out." He is the one who breaks the order, who comes against expectation, who interrupts what looked settled. His name will appear in the genealogy of Jesus. Matthew 1:3: "Judas begat Phares." The line of the Messiah runs not through the first-born, not through the expected heir, but through the child of Tamar and Judah-and through the one who broke the order to get here.',
         },
         {
           kind: 'commentary',
           id: 'c-zarah',
           html:
-            'Zarah—"rising" or "brightness"—is the one marked first. He gets the scarlet thread. He has the sign of priority. But Pharez comes first, and the thread on Zarah&apos;s hand becomes a marker of what was displaced, what yielded its place. Zarah will have descendants, but not the royal line.',
+            'Zarah-"rising" or "brightness"-is the one marked first. He gets the scarlet thread. He has the sign of priority. But Pharez comes first, and the thread on Zarah&apos;s hand becomes a marker of what was displaced, what yielded its place. Zarah will have descendants, but not the royal line.',
         },
         {
           kind: 'christ',
           id: 'christ-pharez-line',
-          title: 'Christ Connection — The Line Through the Breach',
+          title: 'Christ Connection - The Line Through the Breach',
           html:
-            'Matthew opens with a genealogy: "Abraham begat Isaac… and Judas begat Phares… And Phares begat Esrom… and Esrom begat Aram… and of David the king" (Matt. 1:2–6). Pharez is in the direct line to David, and David to Jesus. The Messiah does not come through the first-born, the legitimate heir, the one everyone expected. He comes through the breach, through a woman who had to fight for her covenant right, through a child born out of order. The gospel keeps coming to us this way—not through the marked route but through the break, through a widow&apos;s faithfulness, through what the world would have burned but God preserved.',
+            'Matthew opens with a genealogy: "Abraham begat Isaac... and Judas begat Phares... And Phares begat Esrom... and Esrom begat Aram... and of David the king" (Matt. 1:2-6). Pharez is in the direct line to David, and David to Jesus. The Messiah does not come through the first-born, the legitimate heir, the one everyone expected. He comes through the breach, through a woman who had to fight for her covenant right, through a child born out of order. The gospel keeps coming to us this way-not through the marked route but through the break, through a widow&apos;s faithfulness, through what the world would have burned but God preserved.',
         },
         {
           kind: 'carry',
           html:
-            'If you have ever felt like you came out of order—like your path was never the expected one, like you were fighting for a place you were told belonged to someone else, like the marked heir got the thread and you had to break through anyway—look up. The line that leads to Christ came that way. Your life is not a deviation from His story. It may be exactly where His story goes.',
+            'If you have ever felt like you came out of order-like your path was never the expected one, like you were fighting for a place you were told belonged to someone else, like the marked heir got the thread and you had to break through anyway-look up. The line that leads to Christ came that way. Your life is not a deviation from His story. It may be exactly where His story goes.',
         },
         {
           kind: 'reflection',
@@ -570,7 +568,7 @@ export const GENESIS_38: RichChapterContent = {
         {
           kind: 'artwork',
           matchTitle: /tamar|judah|pharez/i,
-          caption: 'Genesis 38:27–30 · The Birth of Pharez',
+          caption: 'Genesis 38:27-30 · The Birth of Pharez',
         },
       ],
     },

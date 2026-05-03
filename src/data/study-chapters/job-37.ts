@@ -25,6 +25,17 @@ export const JOB_37: RichChapterContent = {
     ref: 'Job 37 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-theodicy',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Theodicy',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Ancient Akkadian dialogue on divine justice, suffering, and retribution.',
+    },
+  ],
+
   sections: [
     /* ─── Job 37:1–13 — The Storm, God&apos;s Voice ─────────────────────── */
     {
@@ -47,7 +58,7 @@ export const JOB_37: RichChapterContent = {
           kind: 'commentary',
           id: 'job37-wonder-elihu',
           html:
-            'Elihu trembles as he speaks. The thunder is not merely meteorology. It is theology. It is God&apos;s voice speaking. The lightning, the rain, the snow—all come by God&apos;s command. Elihu invites Job to listen, to hear God speaking not in words but in the very elements of creation.',
+            'Elihu trembles as he speaks. The thunder is not merely meteorology. It is theology. It is God&apos;s voice speaking. The lightning, the rain, the snow—all come by God&apos;s command. Elihu invites Job to listen, to hear God speaking not in words but in the very elements of creation. [res:british-museum-theodicy]',
         },
         {
           kind: 'scripture',

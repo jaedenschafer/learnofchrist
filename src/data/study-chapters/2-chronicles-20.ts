@@ -36,6 +36,17 @@ export const CHRONICLES_2_20: RichChapterContent = {
     ref: '2 Chronicles 20 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-judah-monarchy',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Judah in the Monarchy Period',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 20:1–4 — The Great Multitude Comes ────────────────── */
     {
@@ -72,7 +83,7 @@ export const CHRONICLES_2_20: RichChapterContent = {
           kind: 'commentary',
           id: 'fear-becomes-seeking',
           html:
-            'Jehoshaphat is afraid. This is not weakness; this is the beginning of wisdom. His fear does not paralyze him into despair or into foolish military scheming. Instead, it drives him toward God. He proclaims a fast throughout all Judah — a national act of seeking, of turning away from food to turn toward prayer. And the people respond. From all the cities of Judah they gather, not to sharpen weapons or count soldiers, but to seek the Lord. Fear, when it turns a king&apos;s heart toward God, becomes the gateway to faith.',
+            'Jehoshaphat is afraid. This is not weakness; this is the beginning of wisdom. His fear does not paralyze him into despair or into foolish military scheming. Instead, it drives him toward God. He proclaims a fast throughout all Judah — a national act of seeking, of turning away from food to turn toward prayer. And the people respond. From all the cities of Judah they gather, not to sharpen weapons or count soldiers, but to seek the Lord. Fear, when it turns a king&apos;s heart toward God, becomes the gateway to faith. [res:iaa-judah-monarchy]',
         },
         {
           kind: 'commentary',

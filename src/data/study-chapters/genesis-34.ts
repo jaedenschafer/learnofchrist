@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 34 — Dinah, Shechem, and the violence that follows.
+ * Genesis 34 - Dinah, Shechem, and the violence that follows.
  *
  * This is one of the hardest chapters in Genesis. A young woman is violated.
  * A young man desires her and proposes marriage. Her brothers respond with
@@ -19,14 +19,14 @@ export const GENESIS_34: RichChapterContent = {
 
   estimatedMinutes: { beginner: 7, intermediate: 10, deep: 13 },
   intros: [
-    'Genesis 34 is a hard chapter. A young woman named Dinah goes out to see the daughters of the land, and Shechem, the prince of the country, sees her, takes her, and violates her. Then he wants to marry her. The text does not soften what happened — it uses a word that means rape — and we should not soften it either.',
+    'Genesis 34 is a hard chapter. A young woman named Dinah goes out to see the daughters of the land, and Shechem, the prince of the country, sees her, takes her, and violates her. Then he wants to marry her. The text does not soften what happened - it uses a word that means rape - and we should not soften it either.',
     'What follows is a chapter of attempted negotiation, deception, and mass slaughter. Jacob remains silent while his daughter is violated. Her brothers trick an entire city into a covenant of circumcision, then on the third day while the men are weak from the ritual, Simeon and Levi massacre every male. [res:bibleodyssey-jacob-israel] The chapter ends with the brothers defending their violence. But Jacob curses them. The text does not approve what they did. We are meant to sit with the gravity of sexual violence and the way vengeance cycles compound suffering rather than heal it.',
   ],
 
   bottomShare: {
     label: 'Share Genesis 34',
     quote:
-      'A young woman is violated. Her brothers exact a terrible revenge. The chapter shows Israel&apos;s sin as Israel&apos;s sin — and makes clear that even the chosen are not innocent. Romans 3:23.',
+      'A young woman is violated. Her brothers exact a terrible revenge. The chapter shows Israel&apos;s sin as Israel&apos;s sin - and makes clear that even the chosen are not innocent. Romans 3:23.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 34 · Study Guide',
   },
@@ -59,9 +59,9 @@ export const GENESIS_34: RichChapterContent = {
   ],
 
   sections: [
-    /* ─── Genesis 34:1–3 — Dinah Is Violated ─────────────────────────── */
+    /* ─── Genesis 34:1-3 - Dinah Is Violated ─────────────────────────── */
     {
-      ref: 'Genesis 34:1–3',
+      ref: 'Genesis 34:1-3',
       title: 'Dinah Is Violated',
       blocks: [
         {
@@ -97,7 +97,7 @@ export const GENESIS_34: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-anah',
-          title: 'Anah — &ldquo;humbled, violated, afflicted&rdquo;',
+          title: 'Anah - &ldquo;humbled, violated, afflicted&rdquo;',
           script: 'עָנָה',
           translit: '<strong>anah</strong> · to humble, oppress, afflict',
           description:
@@ -107,12 +107,12 @@ export const GENESIS_34: RichChapterContent = {
           kind: 'commentary',
           id: 'c-love-after-violence',
           html:
-            'The text reports that Shechem then loved Dinah and spoke kindly to her. But the violence came first. It is crucial to understand the order: violation, then tenderness. Love that begins as an assault is not love. The narrative reports what happened — Shechem&apos;s later affection for Dinah — but it does not redeem the act that came before it. [res:sefaria-genesis-34] Dinah is given no voice in this chapter. She is taken, violated, and then appears only as the object of other people&apos;s negotiations and anger.',
+            'The text reports that Shechem then loved Dinah and spoke kindly to her. But the violence came first. It is crucial to understand the order: violation, then tenderness. Love that begins as an assault is not love. The narrative reports what happened - Shechem&apos;s later affection for Dinah - but it does not redeem the act that came before it. [res:sefaria-genesis-34] Dinah is given no voice in this chapter. She is taken, violated, and then appears only as the object of other people&apos;s negotiations and anger.',
         },
         {
           kind: 'carry',
           html:
-            'If you have known violence like this, the quiet tenderness that sometimes follows can be confusing — can even make you doubt whether the first act was truly violence. It was. The later kindness does not erase it. And if you are struggling to name something in your own story, the Bible names it here without flinching: violation is violation, whether it is followed by affection or not.',
+            'If you have known violence like this, the quiet tenderness that sometimes follows can be confusing - can even make you doubt whether the first act was truly violence. It was. The later kindness does not erase it. And if you are struggling to name something in your own story, the Bible names it here without flinching: violation is violation, whether it is followed by affection or not.',
         },
         {
           kind: 'reflection',
@@ -123,9 +123,9 @@ export const GENESIS_34: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 34:4–12 — Hamor Negotiates ──────────────────────── */
+    /* ─── Genesis 34:4-12 - Hamor Negotiates ──────────────────────── */
     {
-      ref: 'Genesis 34:4–12',
+      ref: 'Genesis 34:4-12',
       title: 'Hamor Negotiates',
       blocks: [
         {
@@ -158,7 +158,7 @@ export const GENESIS_34: RichChapterContent = {
           kind: 'commentary',
           id: 'gen34-deception-deceit',
           html:
-            'Dinah&apos;s brothers begin their deception; now they execute it—guile becomes the instrument of their vengeance.',
+            'Dinah&apos;s brothers begin their deception; now they execute it-guile becomes the instrument of their vengeance.',
         },
         {
           kind: 'scripture',
@@ -200,24 +200,24 @@ export const GENESIS_34: RichChapterContent = {
           kind: 'commentary',
           id: 'c-nebalah',
           html:
-            'The brothers call the act <em>nebalah</em> — &ldquo;folly,&rdquo; &ldquo;outrage,&rdquo; &ldquo;wanton violation.&rdquo; This is the language for the worst kind of moral transgression. The brothers are correct in their assessment of what Shechem did. The question is what they will do about it.',
+            'The brothers call the act <em>nebalah</em> - &ldquo;folly,&rdquo; &ldquo;outrage,&rdquo; &ldquo;wanton violation.&rdquo; This is the language for the worst kind of moral transgression. The brothers are correct in their assessment of what Shechem did. The question is what they will do about it.',
         },
         {
           kind: 'commentary',
           id: 'c-possessions',
           html:
-            'Hamor&apos;s proposal is remarkably generous — intermarriage, shared land, mutual possession and benefit. He is also offering something that, from a negotiating standpoint, makes the violation transactional: your daughter for land and wealth. Dinah becomes a piece in a deal. Her voice is never asked for. [res:iaa-israel-sites] The men who violated her and the men of her family conduct a business negotiation while she remains silent.',
+            'Hamor&apos;s proposal is remarkably generous - intermarriage, shared land, mutual possession and benefit. He is also offering something that, from a negotiating standpoint, makes the violation transactional: your daughter for land and wealth. Dinah becomes a piece in a deal. Her voice is never asked for. [res:iaa-israel-sites] The men who violated her and the men of her family conduct a business negotiation while she remains silent.',
         },
         {
           kind: 'commentary',
           id: 'jacob-silence',
           html:
-            'Jacob held his peace. In verse 5, when he hears the news, he says nothing. He will not speak until after his sons have acted. That silence is not neutrality — it is a kind of permission. Later, his sons will defend their revenge with a rhetorical question: &ldquo;Should he deal with our sister as with an harlot?&rdquo; But Jacob never answers that question. He curses them instead (Gen 49:5-7). His silence in this moment may be the greatest injury of all.',
+            'Jacob held his peace. In verse 5, when he hears the news, he says nothing. He will not speak until after his sons have acted. That silence is not neutrality - it is a kind of permission. Later, his sons will defend their revenge with a rhetorical question: &ldquo;Should he deal with our sister as with an harlot?&rdquo; But Jacob never answers that question. He curses them instead (Gen 49:5-7). His silence in this moment may be the greatest injury of all.',
         },
         {
           kind: 'carry',
           html:
-            'When silence is a choice — when you know harm has been done and you do not speak — that silence becomes a form of complicity. If you have been silent in a moment when speaking mattered, you know the weight of it. And if you are waiting for someone to speak for you when you cannot speak for yourself, do not assume their silence means agreement. It may only mean fear. Dinah had no one to advocate for her. That injustice echoes.',
+            'When silence is a choice - when you know harm has been done and you do not speak - that silence becomes a form of complicity. If you have been silent in a moment when speaking mattered, you know the weight of it. And if you are waiting for someone to speak for you when you cannot speak for yourself, do not assume their silence means agreement. It may only mean fear. Dinah had no one to advocate for her. That injustice echoes.',
         },
         {
           kind: 'reflection',
@@ -228,9 +228,9 @@ export const GENESIS_34: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 34:13–19 — The Deception of Circumcision ──────────── */
+    /* ─── Genesis 34:13-19 - The Deception of Circumcision ──────────── */
     {
-      ref: 'Genesis 34:13–19',
+      ref: 'Genesis 34:13-19',
       title: 'The Deception of Circumcision',
       blocks: [
         {
@@ -264,8 +264,7 @@ export const GENESIS_34: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-34-78mid-1',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Dinah is violated, and Shechem loves her. He asks to marry her, but the brothers see only deception--they demand circumcision of all the men.',
         },
         {
           kind: 'scripture',
@@ -301,12 +300,12 @@ export const GENESIS_34: RichChapterContent = {
           kind: 'commentary',
           id: 'c-deceit-begins',
           html:
-            'The brothers answer &ldquo;deceitfully.&rdquo; They are already planning what they will do. The proposal is not genuine. They are using the sign of the covenant — circumcision, the mark God gave Abraham as a sign of relationship with Him — as a weapon. The religious practice becomes a trap.',
+            'The brothers answer &ldquo;deceitfully.&rdquo; They are already planning what they will do. The proposal is not genuine. They are using the sign of the covenant - circumcision, the mark God gave Abraham as a sign of relationship with Him - as a weapon. The religious practice becomes a trap.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-circumcision',
-          title: 'Circumcision — a Covenant Sign Weaponized',
+          title: 'Circumcision - a Covenant Sign Weaponized',
           script: 'מִלָה',
           translit: '<strong>milah</strong> · circumcision',
           description:
@@ -321,9 +320,9 @@ export const GENESIS_34: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 34:20–29 — The Slaughter ──────────────────────────── */
+    /* ─── Genesis 34:20-29 - The Slaughter ──────────────────────────── */
     {
-      ref: 'Genesis 34:20–29',
+      ref: 'Genesis 34:20-29',
       title: 'The Third Day',
       blocks: [
         {
@@ -366,7 +365,7 @@ export const GENESIS_34: RichChapterContent = {
           kind: 'commentary',
           id: 'gen34-plunder-aftermath',
           html:
-            'The city is plundered; the brothers justify themselves to Jacob—violence is done, but the aftermath lingers.',
+            'The city is plundered; the brothers justify themselves to Jacob-violence is done, but the aftermath lingers.',
         },
         {
           kind: 'scripture',
@@ -426,9 +425,9 @@ export const GENESIS_34: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 34:30–31 — Jacob&apos;s Rebuke and the Brothers&apos; Defiance ──── */
+    /* ─── Genesis 34:30-31 - Jacob&apos;s Rebuke and the Brothers&apos; Defiance ──── */
     {
-      ref: 'Genesis 34:30–31',
+      ref: 'Genesis 34:30-31',
       title: 'Judgment and Defiance',
       blocks: [
         {
@@ -462,9 +461,9 @@ export const GENESIS_34: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-sisters-honor',
-          title: 'Christ Connection — The Silence of Heaven',
+          title: 'Christ Connection - The Silence of Heaven',
           html:
-            'The brothers ask their rhetorical question: &ldquo;Should he deal with our sister as with a harlot?&rdquo; And the text leaves it unanswered. No one says what should have happened. No one gives voice to what Dinah herself would have wanted. The question stands in the silence. And in Revelation 8:1, there is &ldquo;silence in heaven about the space of half an hour&rdquo; — a silence before the seven seals of judgment are opened. Christ&apos;s silence before His accusers (Matthew 26:63) is a chosen silence, not an absent one. And sometimes the deepest comfort is that God does not answer human rage with more rage. He enters the silence Himself, and in His presence, even the heaviest questions find not a word but a consolation — &ldquo;He will wipe away all tears&rdquo; (Revelation 21:4).',
+            'The brothers ask their rhetorical question: &ldquo;Should he deal with our sister as with a harlot?&rdquo; And the text leaves it unanswered. No one says what should have happened. No one gives voice to what Dinah herself would have wanted. The question stands in the silence. And in Revelation 8:1, there is &ldquo;silence in heaven about the space of half an hour&rdquo; - a silence before the seven seals of judgment are opened. Christ&apos;s silence before His accusers (Matthew 26:63) is a chosen silence, not an absent one. And sometimes the deepest comfort is that God does not answer human rage with more rage. He enters the silence Himself, and in His presence, even the heaviest questions find not a word but a consolation - &ldquo;He will wipe away all tears&rdquo; (Revelation 21:4).',
         },
         {
           kind: 'carry',

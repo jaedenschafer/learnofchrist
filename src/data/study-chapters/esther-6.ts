@@ -39,6 +39,17 @@ export const ESTHER_6: RichChapterContent = {
     ref: 'Esther 6 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'theoi-herodotus',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Herodotus on Xerxes I',
+      url: 'https://www.theoi.com/Text/HerodotusHistories.html',
+      description: 'Herodotus accounts of Xerxes, Persian court intrigues, and royal authority.',
+    },
+  ],
+
   sections: [
     /* ─── Esther 6:1–5 — The Sleepless King ────────────────────────── */
     {
@@ -80,7 +91,7 @@ export const ESTHER_6: RichChapterContent = {
           kind: 'commentary',
           id: 'esth6-sleepless',
           html:
-            'The king cannot sleep. This is not insomnia from worry or fever, but the hand of God working in the ordinary — in a sleepless night, in a king&apos;s boredom, in the simple act of calling for the chronicles to be read. Nothing happens without purpose. And on this particular night, the records are opened to the entry that will change everything.',
+            'The king cannot sleep. This is not insomnia from worry or fever, but the hand of God working in the ordinary — in a sleepless night, in a king&apos;s boredom, in the simple act of calling for the chronicles to be read. Nothing happens without purpose. And on this particular night, the records are opened to the entry that will change everything. [res:theoi-herodotus]',
         },
         {
           kind: 'hebrew',

@@ -1,16 +1,16 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 36 — Esau's genealogy: the generations of Edom.
+ * Genesis 36 - Esau's genealogy: the generations of Edom.
  *
  * Esau prospers. He gets his kingdom before Israel gets hers. He settles the
  * land called after him, Edom. Chieftains organize his people, then kings.
- * The chapter is a list of names — Esau's wives, his sons, the dukes that
+ * The chapter is a list of names - Esau's wives, his sons, the dukes that
  * came of them, the kings that reigned before any king reigned over Israel.
  *
  * It is easy to pass over genealogies as mere inventory. But the text keeps
  * a careful record: Esau's line flourishes, has its own kingdom, its own
- * rulers. And yet — Edom's destiny, according to Obadiah and Malachi, is to
+ * rulers. And yet - Edom's destiny, according to Obadiah and Malachi, is to
  * vanish, while Jacob's line continues toward Christ. Every name in Genesis
  * matters to God. The genealogies foreshadow a day when Christ will number
  * the very hairs of every head.
@@ -22,14 +22,14 @@ export const GENESIS_36: RichChapterContent = {
 
   estimatedMinutes: { beginner: 6, intermediate: 8, deep: 11 },
   intros: [
-    'Genesis 36 is a genealogy — a detailed list of Esau&apos;s descendants, organized by wives, sons, dukes, and kings. Genealogies can feel like inventory. But this one tells a quiet story: Esau, rejected from the line of promise, nevertheless prospers. He builds a nation. He settles a land. Kings rise from his line before any king rules Israel.',
-    'The chapter is saying: rejection from God&apos;s covenant line is not poverty. Edom becomes real, rooted, fruitful. [res:bibleodyssey-jacob-israel] And yet the text frames these names with a careful thoroughness — listing them all, remembering them all — as if no name, however far from the promise, is invisible to God. That attention foreshadows the Christ who came to know every person&apos;s face, every person&apos;s need.',
+    'Genesis 36 is a genealogy - a detailed list of Esau&apos;s descendants, organized by wives, sons, dukes, and kings. Genealogies can feel like inventory. But this one tells a quiet story: Esau, rejected from the line of promise, nevertheless prospers. He builds a nation. He settles a land. Kings rise from his line before any king rules Israel.',
+    'The chapter is saying: rejection from God&apos;s covenant line is not poverty. Edom becomes real, rooted, fruitful. [res:bibleodyssey-jacob-israel] And yet the text frames these names with a careful thoroughness - listing them all, remembering them all - as if no name, however far from the promise, is invisible to God. That attention foreshadows the Christ who came to know every person&apos;s face, every person&apos;s need.',
   ],
 
   bottomShare: {
     label: 'Share Genesis 36',
     quote:
-      'These are the generations of Esau, who is Edom. Though he was not in the line of promise, his descendants flourished — dukes and kings arose from his seed. And God knew them all.',
+      'These are the generations of Esau, who is Edom. Though he was not in the line of promise, his descendants flourished - dukes and kings arose from his seed. And God knew them all.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 36 · Study Guide',
   },
@@ -62,9 +62,9 @@ export const GENESIS_36: RichChapterContent = {
   ],
 
   sections: [
-    /* ─── Genesis 36:1–8 — Esau Takes Seir ────────────────────────────────── */
+    /* ─── Genesis 36:1-8 - Esau Takes Seir ────────────────────────────────── */
     {
-      ref: 'Genesis 36:1–8',
+      ref: 'Genesis 36:1-8',
       title: 'Esau Takes Seir',
       blocks: [
         {
@@ -100,8 +100,7 @@ export const GENESIS_36: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-36-78mid-1',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Esau&apos;s line multiplies in Seir-a parallel world of sons and grandsons. The genealogy of Esau unfolds, and his strength is not small.',
         },
         {
           kind: 'scripture',
@@ -136,32 +135,32 @@ export const GENESIS_36: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-edom',
-          title: 'Edom — &ldquo;red&rdquo;',
+          title: 'Edom - &ldquo;red&rdquo;',
           script: 'אֱדוֹם',
           translit: '<strong>Edom</strong> · red, reddish',
           description:
-            'The name recalls Genesis 25:30, where Esau sells his birthright for red lentil stew — "give me, I pray thee, of that red pottage." Edom, red, echoes that moment of exchange, of choosing the visible and immediate over the unseen promise. The geography carries the memory of the choice.',
+            'The name recalls Genesis 25:30, where Esau sells his birthright for red lentil stew - "give me, I pray thee, of that red pottage." Edom, red, echoes that moment of exchange, of choosing the visible and immediate over the unseen promise. The geography carries the memory of the choice.',
         },
         {
           kind: 'commentary',
           id: 'c-eliphaz',
           html:
-            'Eliphaz, Reuel, Jeush, Jaalam, Korah — Esau&apos;s sons. The text names them as methodically as it will name the dukes and kings who come after them. None of these names are in the covenant line, but all are remembered. [res:sefaria-genesis-36] God does not forget people because they are outside His promise.',
+            'Eliphaz, Reuel, Jeush, Jaalam, Korah - Esau&apos;s sons. The text names them as methodically as it will name the dukes and kings who come after them. None of these names are in the covenant line, but all are remembered. [res:sefaria-genesis-36] God does not forget people because they are outside His promise.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-seir',
-          title: 'Seir — &ldquo;hairy&rdquo;',
+          title: 'Seir - &ldquo;hairy&rdquo;',
           script: 'שֵׂעִיר',
           translit: '<strong>Seir</strong> · hairy, rough',
           description:
-            'The mountain where Esau settles. The name echoes Genesis 27:11: Esau himself is the hairy man, and he settles in the hairy mountain. Esau&apos;s geography matches his nature — he does not run from what he is. He settles where his name belongs.',
+            'The mountain where Esau settles. The name echoes Genesis 27:11: Esau himself is the hairy man, and he settles in the hairy mountain. Esau&apos;s geography matches his nature - he does not run from what he is. He settles where his name belongs.',
         },
         {
           kind: 'commentary',
           id: 'c-settlement',
           html:
-            'Esau leaves Canaan not in disgrace but in prosperity. His wealth was too great to share the land with Jacob. This is not humiliation. It is saturation. He takes his whole household, every animal, all his substance, and settles Seir. [res:iaa-israel-sites] What looks like rejection from the outside reads like blessing from the inside — land, family, cattle, security. The chapter will not let you pity Esau.',
+            'Esau leaves Canaan not in disgrace but in prosperity. His wealth was too great to share the land with Jacob. This is not humiliation. It is saturation. He takes his whole household, every animal, all his substance, and settles Seir. [res:iaa-israel-sites] What looks like rejection from the outside reads like blessing from the inside - land, family, cattle, security. The chapter will not let you pity Esau.',
         },
         {
           kind: 'carry',
@@ -177,9 +176,9 @@ export const GENESIS_36: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 36:9–30 — The Dukes of Edom ─────────────────────────────── */
+    /* ─── Genesis 36:9-30 - The Dukes of Edom ─────────────────────────────── */
     {
-      ref: 'Genesis 36:9–30',
+      ref: 'Genesis 36:9-30',
       title: 'The Dukes of Edom',
       blocks: [
         {
@@ -212,7 +211,7 @@ export const GENESIS_36: RichChapterContent = {
           kind: 'commentary',
           id: 'gen36-esau-tribes',
           html:
-            'Esau&apos;s sons are named; now his clans and kings are listed—a nation emerges where a promise was deferred.',
+            'Esau&apos;s sons are named; now his clans and kings are listed-a nation emerges where a promise was deferred.',
         },
         {
           kind: 'scripture',
@@ -244,7 +243,7 @@ export const GENESIS_36: RichChapterContent = {
           kind: 'commentary',
           id: 'gen36-split-1',
           html:
-            'Esau&apos;s line is organized: seven dukes from Eliphaz, four from Reuel, three from Aholibamah. Each chieftain rules his territory. Edom is becoming a nation. Yet the text does not stop there. It will also list the Horites—the people already living in Seir when Esau arrived—their chiefs and families woven into the same narrative. God remembers all the names.',
+            'Esau&apos;s line is organized: seven dukes from Eliphaz, four from Reuel, three from Aholibamah. Each chieftain rules his territory. Edom is becoming a nation. Yet the text does not stop there. It will also list the Horites-the people already living in Seir when Esau arrived-their chiefs and families woven into the same narrative. God remembers all the names.',
         },
         {
           kind: 'scripture',
@@ -280,7 +279,7 @@ export const GENESIS_36: RichChapterContent = {
           kind: 'commentary',
           id: 'gen36-edomite-clans',
           html:
-            'The Horites were the original inhabitants of Seir; the Edomites married into them, displaced them, absorbed them. The genealogy here is doing two things at once — naming the new line and remembering the older one it grew over.',
+            'The Horites were the original inhabitants of Seir; the Edomites married into them, displaced them, absorbed them. The genealogy here is doing two things at once - naming the new line and remembering the older one it grew over.',
         },
         {
           kind: 'scripture',
@@ -303,8 +302,7 @@ export const GENESIS_36: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-36-78mid-2',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'From sons come tribes, and from tribes come chiefs. Esau&apos;s descendants will rule Edom before Israel has a single king-his blessing too was real.',
         },
         {
           kind: 'scripture',
@@ -334,7 +332,7 @@ export const GENESIS_36: RichChapterContent = {
           kind: 'commentary',
           id: 'c-dukes-intro',
           html:
-            'The text now begins to organize Esau&apos;s line by <em>alluph</em> — a chief, a duke, a local ruler. Not yet a kingdom with a central king, but a clan system with recognized leaders. Esau&apos;s people are becoming a political structure. And the list, while dense with unfamiliar names, is deliberately thorough. &ldquo;These are the dukes of Edom according to their habitations in the land of their possession.&rdquo; Every chief is named. Every dwelling place is remembered.',
+            'The text now begins to organize Esau&apos;s line by <em>alluph</em> - a chief, a duke, a local ruler. Not yet a kingdom with a central king, but a clan system with recognized leaders. Esau&apos;s people are becoming a political structure. And the list, while dense with unfamiliar names, is deliberately thorough. &ldquo;These are the dukes of Edom according to their habitations in the land of their possession.&rdquo; Every chief is named. Every dwelling place is remembered.',
         },
         {
           kind: 'reflection',
@@ -345,9 +343,9 @@ export const GENESIS_36: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 36:31–39 — Kings of Edom Before Israel ────────────────── */
+    /* ─── Genesis 36:31-39 - Kings of Edom Before Israel ────────────────── */
     {
-      ref: 'Genesis 36:31–39',
+      ref: 'Genesis 36:31-39',
       title: 'Kings of Edom Before Israel',
       blocks: [
         {
@@ -412,26 +410,26 @@ export const GENESIS_36: RichChapterContent = {
           kind: 'commentary',
           id: 'c-kings-timeline',
           html:
-            'Edom had kings before Israel did. This is a fact the text cannot hide — and does not try to. Esau&apos;s people moved from dukes to a succession of crowned rulers, while Jacob&apos;s descendants were still wandering the desert, still taking judges and prophets instead of kings. For centuries, Edom looked like the stronger nation. Edom looked like the one God favored with visible, earthly power.',
+            'Edom had kings before Israel did. This is a fact the text cannot hide - and does not try to. Esau&apos;s people moved from dukes to a succession of crowned rulers, while Jacob&apos;s descendants were still wandering the desert, still taking judges and prophets instead of kings. For centuries, Edom looked like the stronger nation. Edom looked like the one God favored with visible, earthly power.',
         },
         {
           kind: 'christ',
           id: 'christ-edom-kings',
-          title: 'Christ Connection — The Throne Delayed',
+          title: 'Christ Connection - The Throne Delayed',
           html:
-            'Edom got her kings first. Israel waited. And when Israel finally received a king, it was David — and from David&apos;s line came the King of all nations. &ldquo;Behold, a king shall reign in righteousness&rdquo; (Isa. 32:1). &ldquo;His name shall be called... The mighty God... Of the increase of his government and peace there shall be no end, upon the throne of David&rdquo; (Isa. 9:6-7). Edom&apos;s kings reigned and died. Israel&apos;s King reigns forever. The apparent delay was always the shape of promise.',
+            'Edom got her kings first. Israel waited. And when Israel finally received a king, it was David - and from David&apos;s line came the King of all nations. &ldquo;Behold, a king shall reign in righteousness&rdquo; (Isa. 32:1). &ldquo;His name shall be called... The mighty God... Of the increase of his government and peace there shall be no end, upon the throne of David&rdquo; (Isa. 9:6-7). Edom&apos;s kings reigned and died. Israel&apos;s King reigns forever. The apparent delay was always the shape of promise.',
         },
         {
           kind: 'carry',
           html:
-            'The world does not always crown God&apos;s people first. Sometimes the nations that reject the promise seem to flourish more visibly, rule more obviously, look more powerful on the map. But the throne you are waiting for — the kingdom you are part of — is built on a foundation that outlasts every earthly crown. Do not measure your inheritance by the calendars of the world.',
+            'The world does not always crown God&apos;s people first. Sometimes the nations that reject the promise seem to flourish more visibly, rule more obviously, look more powerful on the map. But the throne you are waiting for - the kingdom you are part of - is built on a foundation that outlasts every earthly crown. Do not measure your inheritance by the calendars of the world.',
         },
       ],
     },
 
-    /* ─── Genesis 36:40–43 — The Dukes by Their Dwellings ────────────────── */
+    /* ─── Genesis 36:40-43 - The Dukes by Their Dwellings ────────────────── */
     {
-      ref: 'Genesis 36:40–43',
+      ref: 'Genesis 36:40-43',
       title: 'The Dukes by Their Dwellings',
       blocks: [
         {
@@ -464,13 +462,13 @@ export const GENESIS_36: RichChapterContent = {
           kind: 'commentary',
           id: 'c-dukes-dwelling',
           html:
-            'The chapter ends the way it began — with a list. But this time the list is organized not by genealogy alone, but by <em>place</em>. &ldquo;According to their families, after their places, by their names.&rdquo; Hebrew lists often follow this pattern: they anchor people to the ground they occupy. The text is saying: these names belong to these places. These people are rooted. They are not homeless or fugitive. They have settlements, lands, dwellings of their own. The narrative might forget Edom, but the land remembers.',
+            'The chapter ends the way it began - with a list. But this time the list is organized not by genealogy alone, but by <em>place</em>. &ldquo;According to their families, after their places, by their names.&rdquo; Hebrew lists often follow this pattern: they anchor people to the ground they occupy. The text is saying: these names belong to these places. These people are rooted. They are not homeless or fugitive. They have settlements, lands, dwellings of their own. The narrative might forget Edom, but the land remembers.',
         },
         {
           kind: 'reflection',
           id: 'gen36-names',
           prompt:
-            'Why do you think a text inspired by God would take the time to name every single duke, every dwelling place, every city, when none of these people ever appear in the rest of Scripture? What does it tell us about how God sees people — even the ones outside the covenant?',
+            'Why do you think a text inspired by God would take the time to name every single duke, every dwelling place, every city, when none of these people ever appear in the rest of Scripture? What does it tell us about how God sees people - even the ones outside the covenant?',
         },
       ],
     },

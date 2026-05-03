@@ -33,6 +33,17 @@ export const CHRONICLES_2_33: RichChapterContent = {
     ref: '2 Chronicles 33 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-josiah',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Josiah and Late Judah',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA archaeological evidence for 7th century BCE reform under Josiah.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 33:1–9 — Manasseh's Evil Reign ──────────────────── */
     {
@@ -67,7 +78,7 @@ export const CHRONICLES_2_33: RichChapterContent = {
           kind: 'commentary',
           id: '2chr33-manasseh-evil',
           html:
-            'Manasseh inherits the throne at twelve and undoes everything Hezekiah built. The next verses will show whether even this can be undone — and whether God can still bend the worst of kings.',
+            'Manasseh inherits the throne at twelve and undoes everything Hezekiah built. The next verses will show whether even this can be undone — and whether God can still bend the worst of kings. [res:iaa-josiah]',
         },
         {
           kind: 'scripture',

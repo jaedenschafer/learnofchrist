@@ -1,10 +1,10 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 48 — Jacob on his deathbed in Egypt, blessing the sons of Joseph.
+ * Genesis 48 - Jacob on his deathbed in Egypt, blessing the sons of Joseph.
  *
  * An old man&apos;s shaking hands, crossed in blessing over two grandsons. The
- * pattern Genesis has run from the start — the younger blessed over the older —
+ * pattern Genesis has run from the start - the younger blessed over the older -
  * comes down to its most tender moment. Israel sees more than the sons in front
  * of him. He sees the God who redeemed him from all evil. And his eyes are dim,
  * but his faith is not.
@@ -16,8 +16,8 @@ export const GENESIS_48: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 18 },
   intros: [
-    'Genesis 48 is a moment of divine reversal played out in the fading eyesight and steady faith of an old man on his deathbed [res:met-museum-egypt]. Jacob hears that Joseph has brought his two sons to be blessed. The names Manasseh and Ephraim are not accidents — they are Joseph&apos;s thanksgiving, the names he gave his sons in Egypt to remember how God had dealt with him in exile [res:bibleodyssey-joseph-egypt]: "causing to forget" the pain, and "fruitful" in the midst of estrangement. Now Jacob, Israel, will adopt these two boys into the covenant. But he will do something that will echo through Scripture: he will bless the younger over the older. Again.',
-    'From Cain and Abel, through Ishmael and Isaac, Esau and Jacob — Genesis is a book about the reversal of human ranking [res:sefaria-genesis-48]. The last shall be first. The God of Israel does not ask, "Who is oldest?" He asks, "Whom do I love?" And on this day, with hands that have wrestled God and been blessed, Jacob will see a pattern he has lived inside finally made plain: God chooses not by birth order but by grace. The pattern will not be finished until Christ comes, and the last becomes first in a way no one expected.',
+    'Genesis 48 is a moment of divine reversal played out in the fading eyesight and steady faith of an old man on his deathbed [res:met-museum-egypt]. Jacob hears that Joseph has brought his two sons to be blessed. The names Manasseh and Ephraim are not accidents - they are Joseph&apos;s thanksgiving, the names he gave his sons in Egypt to remember how God had dealt with him in exile [res:bibleodyssey-joseph-egypt]: "causing to forget" the pain, and "fruitful" in the midst of estrangement. Now Jacob, Israel, will adopt these two boys into the covenant. But he will do something that will echo through Scripture: he will bless the younger over the older. Again.',
+    'From Cain and Abel, through Ishmael and Isaac, Esau and Jacob - Genesis is a book about the reversal of human ranking [res:sefaria-genesis-48]. The last shall be first. The God of Israel does not ask, "Who is oldest?" He asks, "Whom do I love?" And on this day, with hands that have wrestled God and been blessed, Jacob will see a pattern he has lived inside finally made plain: God chooses not by birth order but by grace. The pattern will not be finished until Christ comes, and the last becomes first in a way no one expected.',
   ],
 
   bottomShare: {
@@ -33,7 +33,7 @@ export const GENESIS_48: RichChapterContent = {
       id: 'sefaria-genesis-48',
       kind: 'lexicon',
       source: 'Sefaria',
-      label: 'Genesis 48 — Sefaria',
+      label: 'Genesis 48 - Sefaria',
       url: 'https://www.sefaria.org/Genesis.48',
       description: 'Annotated text with classical and modern Jewish commentary on Jacob&apos;s blessing of Ephraim and Manasseh.',
     },
@@ -41,7 +41,7 @@ export const GENESIS_48: RichChapterContent = {
       id: 'met-museum-egypt',
       kind: 'museum',
       source: 'The Met',
-      label: 'Ancient Egypt — The Metropolitan Museum of Art',
+      label: 'Ancient Egypt - The Metropolitan Museum of Art',
       url: 'https://www.metmuseum.org/art/collection?department=Egyptian%20Art',
       description: 'Egyptian artifacts and cultural context for understanding the world of Joseph and later Genesis figures.',
     },
@@ -49,16 +49,16 @@ export const GENESIS_48: RichChapterContent = {
       id: 'bibleodyssey-joseph-egypt',
       kind: 'study',
       source: 'Bible Odyssey',
-      label: 'Joseph and Egypt — Bible Odyssey',
+      label: 'Joseph and Egypt - Bible Odyssey',
       url: 'https://www.bibleodyssey.org/en/passages/related-articles/joseph-and-egypt',
       description: 'Scholarly essays on Joseph&apos;s time in Egypt and its historical and theological significance.',
     },
   ],
 
   sections: [
-    /* ─── Genesis 48:1–4 — Jacob Hears and Remembers ─────────────────────── */
+    /* ─── Genesis 48:1-4 - Jacob Hears and Remembers ─────────────────────── */
     {
-      ref: 'Genesis 48:1–4',
+      ref: 'Genesis 48:1-4',
       title: 'Joseph Brings His Sons',
       blocks: [
         {
@@ -101,12 +101,12 @@ export const GENESIS_48: RichChapterContent = {
           kind: 'commentary',
           id: 'c-strength',
           html:
-            'Jacob is dying. His eyes are about to go dim. Yet the text says he <em>strengthened himself</em> — gathered his remaining strength, sat up in the bed. What is coming in the next verses will take everything he has left. He knows it. An old man summoning the last reserves of his life for one more blessing.',
+            'Jacob is dying. His eyes are about to go dim. Yet the text says he <em>strengthened himself</em> - gathered his remaining strength, sat up in the bed. What is coming in the next verses will take everything he has left. He knows it. An old man summoning the last reserves of his life for one more blessing.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-el-shaddai',
-          title: 'El Shaddai — &ldquo;God Almighty&rdquo;',
+          title: 'El Shaddai - &ldquo;God Almighty&rdquo;',
           script: 'אֵל שַׁדַּי',
           translit: '<strong>El Shaddai</strong> · God, the Almighty One; the All-Sufficient',
           description:
@@ -116,19 +116,19 @@ export const GENESIS_48: RichChapterContent = {
           kind: 'commentary',
           id: 'c-covenant-recap',
           html:
-            'Jacob walks back through his own story. The promise God gave him at Bethel — fruitfulness, multiplication, the land as an everlasting possession — is the promise he is about to hand on. He is not inventing a blessing. He is passing down what was given to him.',
+            'Jacob walks back through his own story. The promise God gave him at Bethel - fruitfulness, multiplication, the land as an everlasting possession - is the promise he is about to hand on. He is not inventing a blessing. He is passing down what was given to him.',
         },
         {
           kind: 'christ',
           id: 'christ-covenant',
-          title: 'Christ Connection — Covenant Passed Down',
+          title: 'Christ Connection - Covenant Passed Down',
           html:
-            'Jacob is about to do something that Hebrews will later cite as an act of faith: &ldquo;By faith Jacob, when he was a dying, blessed both the sons of Joseph&rdquo; (Heb. 11:21). Faith is not certainty about the future. Faith is seeing the God who made a promise and trusting His hand to keep it, even through the hands of those who come after. Jesus is the One through whom all the promises converge. And salvation is the inheritance of those who believe — an everlasting possession He cannot take back.',
+            'Jacob is about to do something that Hebrews will later cite as an act of faith: &ldquo;By faith Jacob, when he was a dying, blessed both the sons of Joseph&rdquo; (Heb. 11:21). Faith is not certainty about the future. Faith is seeing the God who made a promise and trusting His hand to keep it, even through the hands of those who come after. Jesus is the One through whom all the promises converge. And salvation is the inheritance of those who believe - an everlasting possession He cannot take back.',
         },
         {
           kind: 'carry',
           html:
-            'You may be in a season where you feel like Jacob — tired, your eyes dimming, watching from a sickbed. But if you have a hand to bless with, a word to speak, a promise of God to pass on to someone younger than you, now is the time. The blessing is not less real because you are old. It is more real. Lean into it with everything you have left.',
+            'You may be in a season where you feel like Jacob - tired, your eyes dimming, watching from a sickbed. But if you have a hand to bless with, a word to speak, a promise of God to pass on to someone younger than you, now is the time. The blessing is not less real because you are old. It is more real. Lean into it with everything you have left.',
         },
         {
           kind: 'reflection',
@@ -139,9 +139,9 @@ export const GENESIS_48: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 48:5–7 — Adoption and Loss ─────────────────────────────── */
+    /* ─── Genesis 48:5-7 - Adoption and Loss ─────────────────────────────── */
     {
-      ref: 'Genesis 48:5–7',
+      ref: 'Genesis 48:5-7',
       title: 'Manasseh and Ephraim Are Mine',
       blocks: [
         {
@@ -174,7 +174,7 @@ export const GENESIS_48: RichChapterContent = {
           kind: 'commentary',
           id: 'c-adopt',
           html:
-            'Jacob is not just blessing Joseph&apos;s sons. He is <em>adopting</em> them. Ephraim and Manasseh will now be counted as his own — full sons, not grandsons — as if they were Reuben and Simeon, the first two sons of Jacob. Joseph&apos;s bloodline will become Jacob&apos;s bloodline. Two tribes will come from what Joseph thought was exile.',
+            'Jacob is not just blessing Joseph&apos;s sons. He is <em>adopting</em> them. Ephraim and Manasseh will now be counted as his own - full sons, not grandsons - as if they were Reuben and Simeon, the first two sons of Jacob. Joseph&apos;s bloodline will become Jacob&apos;s bloodline. Two tribes will come from what Joseph thought was exile.',
         },
         {
           kind: 'commentary',
@@ -185,7 +185,7 @@ export const GENESIS_48: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'If you have suffered loss that you thought was the end of something — a relationship ended, a chance that seemed locked away, a wound that made you think certain good things were closed to you forever — this blessing is for you. God is in the business of multiplication in the midst of loss, fruitfulness in the places where you least expected to find it. What looks like exile can become the exact place where His abundance finds you.',
+            'If you have suffered loss that you thought was the end of something - a relationship ended, a chance that seemed locked away, a wound that made you think certain good things were closed to you forever - this blessing is for you. God is in the business of multiplication in the midst of loss, fruitfulness in the places where you least expected to find it. What looks like exile can become the exact place where His abundance finds you.',
         },
         {
           kind: 'reflection',
@@ -196,9 +196,9 @@ export const GENESIS_48: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 48:8–12 — The Old Eyes and the Young Faces ──────────────── */
+    /* ─── Genesis 48:8-12 - The Old Eyes and the Young Faces ──────────────── */
     {
-      ref: 'Genesis 48:8–12',
+      ref: 'Genesis 48:8-12',
       title: 'Israel&apos;s Dim Eyes',
       blocks: [
         {
@@ -245,12 +245,12 @@ export const GENESIS_48: RichChapterContent = {
           kind: 'commentary',
           id: 'c-dim-eyes',
           html:
-            'The old man cannot see the boys in front of him. But his hands will not fail. His faith will not fail. In the Bible, sight goes and stays goes, but the <em>seeing</em> that matters — spiritual sight, the recognition of God&apos;s work — that only deepens with age.',
+            'The old man cannot see the boys in front of him. But his hands will not fail. His faith will not fail. In the Bible, sight goes and stays goes, but the <em>seeing</em> that matters - spiritual sight, the recognition of God&apos;s work - that only deepens with age.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-eyes',
-          title: 'Enayim — &ldquo;eyes&rdquo;',
+          title: 'Enayim - &ldquo;eyes&rdquo;',
           script: 'עֵינַיִם',
           translit: '<strong>enayim</strong> · eyes; sight; the capacity to see',
           description:
@@ -260,32 +260,32 @@ export const GENESIS_48: RichChapterContent = {
           kind: 'commentary',
           id: 'c-more-than-hoped',
           html:
-            'Jacob says something tender: &ldquo;I had not thought to see thy face: and, lo, God hath shewed me also thy seed.&rdquo; To see Joseph alive is already more than he dared hope (he thought Joseph was dead, torn by a wild beast, these many years). But to be shown Joseph&apos;s sons, to hold them, to bless them — that is abundance beyond expectation.',
+            'Jacob says something tender: &ldquo;I had not thought to see thy face: and, lo, God hath shewed me also thy seed.&rdquo; To see Joseph alive is already more than he dared hope (he thought Joseph was dead, torn by a wild beast, these many years). But to be shown Joseph&apos;s sons, to hold them, to bless them - that is abundance beyond expectation.',
         },
         {
           kind: 'christ',
           id: 'christ-blessing',
-          title: 'Christ Connection — Blessing More Than Expected',
+          title: 'Christ Connection - Blessing More Than Expected',
           html:
-            'Simeon at the temple echoes this moment: &ldquo;now lettest thou thy servant depart in peace, for mine eyes have seen thy salvation&rdquo; (Luke 2:29–30). An old man had given up expecting to see the Messiah. And then he did. Not only did he see Him, but he held Him in his arms. The God of Israel is a God who gives more than the hope we dared to carry.',
+            'Simeon at the temple echoes this moment: &ldquo;now lettest thou thy servant depart in peace, for mine eyes have seen thy salvation&rdquo; (Luke 2:29-30). An old man had given up expecting to see the Messiah. And then he did. Not only did he see Him, but he held Him in his arms. The God of Israel is a God who gives more than the hope we dared to carry.',
         },
         {
           kind: 'carry',
           html:
-            'Today you may meet someone you thought was lost. Or see a child you didn&apos;t know you were going to get to see. Or witness something you thought was impossible — a reconciliation, a healing, a turn in someone&apos;s story you had given up on. In that moment, you will understand Jacob. The tears will not be only for what you see. They will be for the grace of seeing it at all.',
+            'Today you may meet someone you thought was lost. Or see a child you didn&apos;t know you were going to get to see. Or witness something you thought was impossible - a reconciliation, a healing, a turn in someone&apos;s story you had given up on. In that moment, you will understand Jacob. The tears will not be only for what you see. They will be for the grace of seeing it at all.',
         },
         {
           kind: 'reflection',
           id: 'gen48-dim-eyes',
           prompt:
-            'What have you been surprised by — what exceeded the hope you had almost let go of? How did it change you?',
+            'What have you been surprised by - what exceeded the hope you had almost let go of? How did it change you?',
         },
       ],
     },
 
-    /* ─── Genesis 48:13–16 — The Crossed Hands ────────────────────────────── */
+    /* ─── Genesis 48:13-16 - The Crossed Hands ────────────────────────────── */
     {
-      ref: 'Genesis 48:13–16',
+      ref: 'Genesis 48:13-16',
       title: 'Right Hand on the Younger',
       blocks: [
         {
@@ -328,7 +328,7 @@ export const GENESIS_48: RichChapterContent = {
           kind: 'commentary',
           id: 'c-cross',
           html:
-            'Joseph positions his sons deliberately. The older, Manasseh, is on Jacob&apos;s right. The younger, Ephraim, is on Jacob&apos;s left. But Jacob — guided by something deeper than habit — crosses his hands. His right hand, the hand of the primary blessing, goes to the younger. Joseph sees it and objects. But Jacob refuses to correct the crossing. He is doing this on purpose.',
+            'Joseph positions his sons deliberately. The older, Manasseh, is on Jacob&apos;s right. The younger, Ephraim, is on Jacob&apos;s left. But Jacob - guided by something deeper than habit - crosses his hands. His right hand, the hand of the primary blessing, goes to the younger. Joseph sees it and objects. But Jacob refuses to correct the crossing. He is doing this on purpose.',
         },
         {
           kind: 'commentary',
@@ -340,28 +340,28 @@ export const GENESIS_48: RichChapterContent = {
           kind: 'commentary',
           id: 'c-fed-all-my-life',
           html:
-            'Jacob blesses <em>Joseph</em>, not the boys — but it is Joseph&apos;s listening ear that the words are meant to land on. "The God which fed me all my life long." Jacob is ancient now. He is counting the provisions. Every meal, every narrow escape, every time God did not let him die. All of it adds up. A life fed.',
+            'Jacob blesses <em>Joseph</em>, not the boys - but it is Joseph&apos;s listening ear that the words are meant to land on. "The God which fed me all my life long." Jacob is ancient now. He is counting the provisions. Every meal, every narrow escape, every time God did not let him die. All of it adds up. A life fed.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-mal-ach',
-          title: 'Mal&apos;ach — &ldquo;Angel&rdquo;',
+          title: 'Mal&apos;ach - &ldquo;Angel&rdquo;',
           script: 'מַלְאָךְ',
           translit: '<strong>mal&apos;ach</strong> · messenger; angel; one sent',
           description:
-            'In Jacob&apos;s mouth, "the Angel which redeemed me" is almost certainly the Angel of the Lord who wrestled him at the Jabbok. That Angel who blessed Jacob and changed his name. Many of the early Church Fathers heard in this Angel something older than angels — the Word of God, the pre-incarnate Christ himself.',
+            'In Jacob&apos;s mouth, "the Angel which redeemed me" is almost certainly the Angel of the Lord who wrestled him at the Jabbok. That Angel who blessed Jacob and changed his name. Many of the early Church Fathers heard in this Angel something older than angels - the Word of God, the pre-incarnate Christ himself.',
         },
         {
           kind: 'christ',
           id: 'christ-angel',
-          title: 'Christ Connection — The Angel of Redemption',
+          title: 'Christ Connection - The Angel of Redemption',
           html:
-            'Jacob has lived a life of struggle with God. He fought for the blessing, cheated for it, lost much to get it. But looking back from his deathbed, he sees it clearly: the Angel has redeemed him from all evil. Not only blessed him, but <em>redeemed</em> him — brought him back from every pit he fell into. Paul would later write that Jesus is &ldquo;the image of the invisible God&rdquo; and that He existed from the beginning (Col. 1:15). When Jacob speaks of the Angel who redeemed him, he is not speaking of a created being. He is speaking of the Word who was with God and <em>was</em> God. Many fathers of the Church, reading Jacob&apos;s words, saw the cross&apos;s shadow cast backward onto this deathbed scene.',
+            'Jacob has lived a life of struggle with God. He fought for the blessing, cheated for it, lost much to get it. But looking back from his deathbed, he sees it clearly: the Angel has redeemed him from all evil. Not only blessed him, but <em>redeemed</em> him - brought him back from every pit he fell into. Paul would later write that Jesus is &ldquo;the image of the invisible God&rdquo; and that He existed from the beginning (Col. 1:15). When Jacob speaks of the Angel who redeemed him, he is not speaking of a created being. He is speaking of the Word who was with God and <em>was</em> God. Many fathers of the Church, reading Jacob&apos;s words, saw the cross&apos;s shadow cast backward onto this deathbed scene.',
         },
         {
           kind: 'carry',
           html:
-            'An old person blessed you. Or you found yourself, unexpectedly, blessing someone younger than you — crossing your hands to bless the one the world would have overlooked, the one who wasn&apos;t first, the one who seemed to lose. In that moment you were echoing Jacob. You were saying what he said: God&apos;s grace does not run on the logic of birth order. It runs on something older and deeper. Love.',
+            'An old person blessed you. Or you found yourself, unexpectedly, blessing someone younger than you - crossing your hands to bless the one the world would have overlooked, the one who wasn&apos;t first, the one who seemed to lose. In that moment you were echoing Jacob. You were saying what he said: God&apos;s grace does not run on the logic of birth order. It runs on something older and deeper. Love.',
         },
         {
           kind: 'reflection',
@@ -372,9 +372,9 @@ export const GENESIS_48: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 48:17–20 — Joseph&apos;s Protest ────────────────────────── */
+    /* ─── Genesis 48:17-20 - Joseph&apos;s Protest ────────────────────────── */
     {
-      ref: 'Genesis 48:17–20',
+      ref: 'Genesis 48:17-20',
       title: 'Hold Still Your Hand',
       blocks: [
         {
@@ -419,7 +419,7 @@ export const GENESIS_48: RichChapterContent = {
           kind: 'commentary',
           id: 'c-promise',
           html:
-            'Jacob speaks a promise over both boys — both will be great, both will become peoples. But one is greater. Ephraim, the younger, will have a larger seed. Will multiply into more nations. The name Ephraim will become so large that it will sometimes name all of northern Israel. (The prophet Jeremiah will later call Israel "Ephraim" as a mark of intimacy and hope.) What Jacob sees in the Spirit, he names.',
+            'Jacob speaks a promise over both boys - both will be great, both will become peoples. But one is greater. Ephraim, the younger, will have a larger seed. Will multiply into more nations. The name Ephraim will become so large that it will sometimes name all of northern Israel. (The prophet Jeremiah will later call Israel "Ephraim" as a mark of intimacy and hope.) What Jacob sees in the Spirit, he names.',
         },
         {
           kind: 'commentary',
@@ -441,9 +441,9 @@ export const GENESIS_48: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 48:21–22 — The Parting Words ────────────────────────────── */
+    /* ─── Genesis 48:21-22 - The Parting Words ────────────────────────────── */
     {
-      ref: 'Genesis 48:21–22',
+      ref: 'Genesis 48:21-22',
       title: 'I Die, but God Shall Be With You',
       blocks: [
         {
@@ -478,25 +478,25 @@ export const GENESIS_48: RichChapterContent = {
           kind: 'commentary',
           id: 'c-portion',
           html:
-            'Jacob gives Joseph a name-portion, a birthright — the double inheritance that belonged to the firstborn. Joseph, though the younger (Reuben was technically the eldest), gets the portion meant for the firstborn. It is a final crossing of hands. A final reversal. Jacob is not breaking the pattern of Genesis. He is completing it.',
+            'Jacob gives Joseph a name-portion, a birthright - the double inheritance that belonged to the firstborn. Joseph, though the younger (Reuben was technically the eldest), gets the portion meant for the firstborn. It is a final crossing of hands. A final reversal. Jacob is not breaking the pattern of Genesis. He is completing it.',
         },
         {
           kind: 'commentary',
           id: 'c-sword-bow',
           html:
-            'Jacob speaks of taking the land "with my sword and with my bow" — but the land he is referring to is not conquered by force. It is taken by prayer, by faith, by wrestling with God. The poet is using the language of victory, but the victory is Jacob&apos;s inner victory: the strength to believe when everything says disbelieve, to hold on when everything says let go.',
+            'Jacob speaks of taking the land "with my sword and with my bow" - but the land he is referring to is not conquered by force. It is taken by prayer, by faith, by wrestling with God. The poet is using the language of victory, but the victory is Jacob&apos;s inner victory: the strength to believe when everything says disbelieve, to hold on when everything says let go.',
         },
         {
           kind: 'christ',
           id: 'christ-portion',
-          title: 'Christ Connection — The Firstborn&apos;s Portion',
+          title: 'Christ Connection - The Firstborn&apos;s Portion',
           html:
-            'In the New Testament, Jesus is called the Firstborn (Rom. 8:29, Col. 1:15). He inherits the Father&apos;s full portion. But He shares it. Paul will write that believers are "heirs of God, and joint-heirs with Christ" (Rom. 8:17). Joseph gets the double portion of the firstborn from his aging father. The Church gets the double portion of the Firstborn from the Father — an inheritance no one can take away, an everlasting possession, the land that was promised to Abraham.',
+            'In the New Testament, Jesus is called the Firstborn (Rom. 8:29, Col. 1:15). He inherits the Father&apos;s full portion. But He shares it. Paul will write that believers are "heirs of God, and joint-heirs with Christ" (Rom. 8:17). Joseph gets the double portion of the firstborn from his aging father. The Church gets the double portion of the Firstborn from the Father - an inheritance no one can take away, an everlasting possession, the land that was promised to Abraham.',
         },
         {
           kind: 'carry',
           html:
-            'If you are standing at the end of something — a season, a chapter, a role you have carried — know this: you are not leaving your children orphaned. God goes with them. And if you are the child receiving from a parent, elder, or mentor who is saying goodbye, know this: the portion you receive is not diminished by their death. It is sealed by it. A blessing given at the end of life carries an authority nothing else does.',
+            'If you are standing at the end of something - a season, a chapter, a role you have carried - know this: you are not leaving your children orphaned. God goes with them. And if you are the child receiving from a parent, elder, or mentor who is saying goodbye, know this: the portion you receive is not diminished by their death. It is sealed by it. A blessing given at the end of life carries an authority nothing else does.',
         },
         {
           kind: 'reflection',

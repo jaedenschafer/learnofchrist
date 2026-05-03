@@ -42,7 +42,7 @@ export const MATTHEW_8: RichChapterContent = {
           kind: 'commentary',
           id: 'matthew-8-78mid-1',
           html:
-            'Jesus heals the centurion's servant from a distance; now He enters Peter's house where Peter's mother-in-law lies fevered. From gentile to disciple's family—He cares for all.',
+            'Jesus heals the centurion&apos;s servant from a distance; now He enters Peter&apos;s house where Peter&apos;s mother-in-law lies fevered. From gentile to disciple&apos;s family—He cares for all.',
         },
         {
           kind: 'scripture',

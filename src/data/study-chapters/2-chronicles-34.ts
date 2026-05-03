@@ -36,6 +36,17 @@ export const CHRONICLES_2_34: RichChapterContent = {
     ref: '2 Chronicles 34 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-judah',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Judah in the Late Iron Age',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA database of Judahite settlement and cultic sites during monarchy.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 34:1–3 — The Child King and His Early Seeking ────────── */
     {
@@ -74,7 +85,7 @@ export const CHRONICLES_2_34: RichChapterContent = {
           kind: 'commentary',
           id: '34-eight-years',
           html:
-            'Eight years old. A throne before a child can read. A kingdom before a man. Yet the Chronicler affirms immediately: Josiah did right in the sight of the Lord. He did not learn this from experience. He did not acquire it through age or counsel alone. Rather, his heart was set — from the beginning — toward the ways of David, toward covenant faithfulness. Even as a boy, even before he fully understood, Josiah&apos;s will was aligned with God&apos;s will.',
+            'Eight years old. A throne before a child can read. A kingdom before a man. Yet the Chronicler affirms immediately: Josiah did right in the sight of the Lord. He did not learn this from experience. He did not acquire it through age or counsel alone. Rather, his heart was set — from the beginning — toward the ways of David, toward covenant faithfulness. Even as a boy, even before he fully understood, Josiah&apos;s will was aligned with God&apos;s will. [res:iaa-judah]',
         },
         {
           kind: 'commentary',

@@ -32,6 +32,17 @@ export const JOB_25: RichChapterContent = {
     ref: 'Job 25 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     /* ─── Job 25:1–6 — The Question Without Answer ──────────────────── */
     {
@@ -69,7 +80,7 @@ export const JOB_25: RichChapterContent = {
           kind: 'commentary',
           id: 'job25-justified',
           html:
-            '"How then can man be justified with God?" This is the central question of theology. Not "Why does the wicked prosper?" Not "Why does the righteous suffer?" But the more fundamental: How can a mortal human being, who is finite and sinful, stand before God, who is infinite and holy, and be just? How can the gap be bridged? How can the contradiction be resolved?',
+            '"How then can man be justified with God?" This is the central question of theology. Not "Why does the wicked prosper?" Not "Why does the righteous suffer?" But the more fundamental: How can a mortal human being, who is finite and sinful, stand before God, who is infinite and holy, and be just? How can the gap be bridged? How can the contradiction be resolved? [res:british-museum-ludlul]',
         },
         {
           kind: 'hebrew',

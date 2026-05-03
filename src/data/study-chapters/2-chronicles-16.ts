@@ -36,6 +36,17 @@ export const CHRONICLES_2_16: RichChapterContent = {
     ref: '2 Chronicles 16 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-judah-monarchy',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Judah in the Monarchy Period',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 16:1–6 — Asa Hires the Syrian Against Baasha ────────── */
     {
@@ -88,7 +99,7 @@ export const CHRONICLES_2_16: RichChapterContent = {
           kind: 'commentary',
           id: '2ch16-context',
           html:
-            'Asa is in the thirty-sixth year of his reign—a reign marked by loyalty to God and radical faithfulness. And now, in his latter days, a king of Israel named Baasha threatens the northern border by fortifying Ramah, a strategic stronghold that could choke off Judah&apos;s movement. It is a genuine military threat, and Asa must decide how to meet it.',
+            'Asa is in the thirty-sixth year of his reign—a reign marked by loyalty to God and radical faithfulness. And now, in his latter days, a king of Israel named Baasha threatens the northern border by fortifying Ramah, a strategic stronghold that could choke off Judah&apos;s movement. It is a genuine military threat, and Asa must decide how to meet it. [res:iaa-judah-monarchy]',
         },
         {
           kind: 'commentary',

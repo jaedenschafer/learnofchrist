@@ -30,6 +30,17 @@ export const CHRONICLES_2_31: RichChapterContent = {
     ref: '2 Chronicles 31 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'israel-museum-hezekiah',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Hezekiah Reforms and Jerusalem',
+      url: 'https://www.imj.org.il/',
+      description: 'Iron Age Judah archaeology: water systems, inscriptions, cultic reform artifacts.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 31:1 — Idols Destroyed Nationally ────────────────── */
     {
@@ -54,7 +65,7 @@ export const CHRONICLES_2_31: RichChapterContent = {
           kind: 'commentary',
           id: 'chr31-broke-images',
           html:
-            'The reformation moves beyond Jerusalem. The people who attended Hezekiah&apos;s Passover do not simply return home satisfied. They become agents of transformation in their own cities and regions. They break images, cut down groves (the asherah poles associated with idolatry), and throw down altars—the very infrastructure of false worship. The word "utterly destroyed" indicates completeness. There is no half-measure, no compromise. This is a nation choosing to align itself fully with the covenant.',
+            'The reformation moves beyond Jerusalem. The people who attended Hezekiah&apos;s Passover do not simply return home satisfied. They become agents of transformation in their own cities and regions. They break images, cut down groves (the asherah poles associated with idolatry), and throw down altars—the very infrastructure of false worship. The word "utterly destroyed" indicates completeness. There is no half-measure, no compromise. This is a nation choosing to align itself fully with the covenant. [res:israel-museum-hezekiah]',
         },
         {
           kind: 'commentary',

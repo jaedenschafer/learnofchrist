@@ -34,6 +34,17 @@ export const CHRONICLES_2_19: RichChapterContent = {
     ref: '2 Chronicles 19 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-judah-monarchy',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Judah in the Monarchy Period',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 19:1–3 — Jehu's Rebuke: Good Things Found ─────────── */
     {
@@ -70,7 +81,7 @@ export const CHRONICLES_2_19: RichChapterContent = {
           kind: 'commentary',
           id: '19-help-ungodly',
           html:
-            'The prophet Jehu does not greet the king with ceremony. He meets him with a question that cuts to the heart of his folly: "Shouldest thou help the ungodly?" This is not private counsel; it is a public word from the Lord. Jehoshaphat had allied himself with Ahab, who was condemned in Scripture as one who "did evil in the sight of the Lord above all that were before him" (1 Kings 16:30). To help the ungodly is to incur the wrath of the Lord. The king&apos;s error was not a small misstep; it was a matter of alignment with the enemies of God.',
+            'The prophet Jehu does not greet the king with ceremony. He meets him with a question that cuts to the heart of his folly: "Shouldest thou help the ungodly?" This is not private counsel; it is a public word from the Lord. Jehoshaphat had allied himself with Ahab, who was condemned in Scripture as one who "did evil in the sight of the Lord above all that were before him" (1 Kings 16:30). To help the ungodly is to incur the wrath of the Lord. The king&apos;s error was not a small misstep; it was a matter of alignment with the enemies of God. [res:iaa-judah-monarchy]',
         },
         {
           kind: 'commentary',

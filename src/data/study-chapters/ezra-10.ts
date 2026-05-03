@@ -38,6 +38,17 @@ export const EZRA_10: RichChapterContent = {
     ref: 'Ezra 10 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'oriental-institute-artaxerxes',
+      kind: 'archive',
+      source: 'Oriental Institute',
+      label: 'Artaxerxes I and Achaemenid Court',
+      url: 'https://oi.uchicago.edu/',
+      description: 'OI scholarly resources on 5th-century BCE Persian rule and administration.',
+    },
+  ],
+
   sections: [
     /* ─── Ezra 10:1–4 — Shechaniah's Proposal: "There Is Hope" ────────── */
     {
@@ -80,7 +91,7 @@ export const EZRA_10: RichChapterContent = {
           kind: 'commentary',
           id: 'ezra10-strange-wives',
           html:
-            'Shechaniah names the sin directly. "Strange wives" — women from families whose gods are not the God of Israel. This is not a statement about ethnicity or race. Ruth was a Moabitess, Rahab a Canaanite, and both were woven into Israel&apos;s story because they joined themselves to the God of Israel. But these women had brought with them the worship of other gods, had diluted the covenant commitment of God&apos;s people. The sin is religious, not racial. The danger is idolatry.',
+            'Shechaniah names the sin directly. "Strange wives" — women from families whose gods are not the God of Israel. This is not a statement about ethnicity or race. Ruth was a Moabitess, Rahab a Canaanite, and both were woven into Israel&apos;s story because they joined themselves to the God of Israel. But these women had brought with them the worship of other gods, had diluted the covenant commitment of God&apos;s people. The sin is religious, not racial. The danger is idolatry. [res:oriental-institute-artaxerxes]',
         },
         {
           kind: 'commentary',

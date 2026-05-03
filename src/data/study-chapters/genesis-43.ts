@@ -1,13 +1,13 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 43 — the famine deepens; Jacob relents and sends Benjamin.
+ * Genesis 43 - the famine deepens; Jacob relents and sends Benjamin.
  *
  * Judah&apos;s surety for Benjamin is the turning point in his soul.
  * The man who proposed selling Joseph into slavery now pledges himself
  * for the youngest brother. Joseph sees Benjamin, weeps in private,
  * seats them by order of birth (astonishing them), and gives Benjamin
- * five times the portion — lavish grace masquerading as appetite.
+ * five times the portion - lavish grace masquerading as appetite.
  */
 export const GENESIS_43: RichChapterContent = {
   bookSlug: 'genesis',
@@ -16,8 +16,8 @@ export const GENESIS_43: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 11, deep: 14 },
   intros: [
-    'Genesis 43 is the chapter where famine forces a reckoning [res:bibleodyssey-joseph-egypt]. The grain Jacob bought is running out. Simeon, the second-eldest, is still held in Egypt as security. To get him back and to get more grain, Jacob must let Benjamin go down to Joseph — and Jacob has been refusing. The chapter pivots on a single moment: when Judah stands and pledges himself for Benjamin&apos;s safe return, Jacob&apos;s hands open.',
-    'There is a transformation happening in Judah that the reader can barely see yet [res:sefaria-genesis-43]. In Genesis 37, he was the one who said, &ldquo;Come now, let us sell him to the Ishmaelites.&rdquo; Now he is saying, &ldquo;I will be surety for him; of my hand shalt thou require him.&rdquo; The man who abandoned his brother is learning to answer for him [res:met-museum-egypt]. And in Egypt, Joseph — who has seen his brothers but not yet been seen by them — looks at Benjamin and weeps. The walls of separation are about to break.',
+    'Genesis 43 is the chapter where famine forces a reckoning [res:bibleodyssey-joseph-egypt]. The grain Jacob bought is running out. Simeon, the second-eldest, is still held in Egypt as security. To get him back and to get more grain, Jacob must let Benjamin go down to Joseph - and Jacob has been refusing. The chapter pivots on a single moment: when Judah stands and pledges himself for Benjamin&apos;s safe return, Jacob&apos;s hands open.',
+    'There is a transformation happening in Judah that the reader can barely see yet [res:sefaria-genesis-43]. In Genesis 37, he was the one who said, &ldquo;Come now, let us sell him to the Ishmaelites.&rdquo; Now he is saying, &ldquo;I will be surety for him; of my hand shalt thou require him.&rdquo; The man who abandoned his brother is learning to answer for him [res:met-museum-egypt]. And in Egypt, Joseph - who has seen his brothers but not yet been seen by them - looks at Benjamin and weeps. The walls of separation are about to break.',
   ],
 
   bottomShare: {
@@ -33,7 +33,7 @@ export const GENESIS_43: RichChapterContent = {
       id: 'sefaria-genesis-43',
       kind: 'lexicon',
       source: 'Sefaria',
-      label: 'Genesis 43 — Sefaria',
+      label: 'Genesis 43 - Sefaria',
       url: 'https://www.sefaria.org/Genesis.43',
       description: 'Annotated text with classical and modern Jewish commentary on Judah&apos;s pledge and the brothers&apos; return to Egypt.',
     },
@@ -41,7 +41,7 @@ export const GENESIS_43: RichChapterContent = {
       id: 'met-museum-egypt',
       kind: 'museum',
       source: 'The Met',
-      label: 'Ancient Egypt — The Metropolitan Museum of Art',
+      label: 'Ancient Egypt - The Metropolitan Museum of Art',
       url: 'https://www.metmuseum.org/art/collection?department=Egyptian%20Art',
       description: 'Egyptian artifacts and cultural context for understanding the world of Joseph and later Genesis figures.',
     },
@@ -49,16 +49,16 @@ export const GENESIS_43: RichChapterContent = {
       id: 'bibleodyssey-joseph-egypt',
       kind: 'study',
       source: 'Bible Odyssey',
-      label: 'Joseph and Egypt — Bible Odyssey',
+      label: 'Joseph and Egypt - Bible Odyssey',
       url: 'https://www.bibleodyssey.org/en/passages/related-articles/joseph-and-egypt',
       description: 'Scholarly essays on Joseph&apos;s time in Egypt and its historical and theological significance.',
     },
   ],
 
   sections: [
-    /* ─── Genesis 43:1–7 — The Famine Deepens ────────────────────────── */
+    /* ─── Genesis 43:1-7 - The Famine Deepens ────────────────────────── */
     {
-      ref: 'Genesis 43:1–7',
+      ref: 'Genesis 43:1-7',
       title: 'The Famine Deepens',
       blocks: [
         {
@@ -90,8 +90,7 @@ export const GENESIS_43: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-43-78mid-1',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'The grain runs out, and Judah speaks plainly: without Benjamin, there is no return to Egypt. Jacob&apos;s reluctance breaks, and the boy goes to an unknown fate.',
         },
         {
           kind: 'scripture',
@@ -129,7 +128,7 @@ export const GENESIS_43: RichChapterContent = {
           kind: 'commentary',
           id: 'c-famine',
           html:
-            'The famine is not a passing shadow anymore. It is a crisis that will not wait. Jacob&apos;s refusal to let Benjamin go is not hardness; it is a father&apos;s terror — he has already lost one son, or so he believes. The younger son of Rachel, his beloved, is all that is left of her. To send him into Egypt is to risk everything.',
+            'The famine is not a passing shadow anymore. It is a crisis that will not wait. Jacob&apos;s refusal to let Benjamin go is not hardness; it is a father&apos;s terror - he has already lost one son, or so he believes. The younger son of Rachel, his beloved, is all that is left of her. To send him into Egypt is to risk everything.',
         },
         {
           kind: 'commentary',
@@ -151,9 +150,9 @@ export const GENESIS_43: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 43:8–15 — Judah Pledges Himself ──────────────────────── */
+    /* ─── Genesis 43:8-15 - Judah Pledges Himself ──────────────────────── */
     {
-      ref: 'Genesis 43:8–15',
+      ref: 'Genesis 43:8-15',
       title: 'I Will Be Surety for Him',
       blocks: [
         {
@@ -233,7 +232,7 @@ export const GENESIS_43: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-aravnu',
-          title: 'Arav — &ldquo;surety, pledge&rdquo;',
+          title: 'Arav - &ldquo;surety, pledge&rdquo;',
           script: 'אָרַב',
           translit: '<strong>arav</strong> · to pledge oneself, to stand surety, to be collateral',
           description:
@@ -243,25 +242,25 @@ export const GENESIS_43: RichChapterContent = {
           kind: 'commentary',
           id: 'c-judah-steps',
           html:
-            'Judah alone steps forward. The other brothers are silent. It is Judah&apos;s voice that changes the story. In Genesis 37, Judah said, &ldquo;Come now, let us sell him&rdquo; — and Joseph was sold into slavery. Now he says something that will remake his own soul: &ldquo;I will be surety for him.&rdquo; A man&apos;s words in one chapter can be undone by his words in another. Repentance is often just the moment he finally says the opposite thing.',
+            'Judah alone steps forward. The other brothers are silent. It is Judah&apos;s voice that changes the story. In Genesis 37, Judah said, &ldquo;Come now, let us sell him&rdquo; - and Joseph was sold into slavery. Now he says something that will remake his own soul: &ldquo;I will be surety for him.&rdquo; A man&apos;s words in one chapter can be undone by his words in another. Repentance is often just the moment he finally says the opposite thing.',
         },
         {
           kind: 'commentary',
           id: 'c-gifts',
           html:
-            'Jacob sends the best fruits of the land — balm, honey, spices, myrrh, nuts, almonds. These are not the gifts of desperation; these are the gifts a subject brings to a king. Jacob is acknowledging with his hands what he cannot yet see: the man in Egypt is not just a merchant. He carries some kind of power. And Jacob is sending his best with his youngest son, as if he knows something the reader does not yet know.',
+            'Jacob sends the best fruits of the land - balm, honey, spices, myrrh, nuts, almonds. These are not the gifts of desperation; these are the gifts a subject brings to a king. Jacob is acknowledging with his hands what he cannot yet see: the man in Egypt is not just a merchant. He carries some kind of power. And Jacob is sending his best with his youngest son, as if he knows something the reader does not yet know.',
         },
         {
           kind: 'christ',
           id: 'christ-surety',
-          title: 'Christ Connection — The Surety of a Better Covenant',
+          title: 'Christ Connection - The Surety of a Better Covenant',
           html:
-            'Judah pledges, &ldquo;of my hand shalt thou require him.&rdquo; Hebrews later echoes this: &ldquo;By so much was Jesus made a surety of a better testament&rdquo; (Heb. 7:22). Judah is willing to be held accountable for Benjamin&apos;s safety — if the boy does not return, Judah himself will be liable. Christ takes that pledge and makes it eternal. He stands as surety not for one brother but for all brothers, not for a return to Egypt but for return to the Father. And unlike Judah, He will pay the price Himself.',
+            'Judah pledges, &ldquo;of my hand shalt thou require him.&rdquo; Hebrews later echoes this: &ldquo;By so much was Jesus made a surety of a better testament&rdquo; (Heb. 7:22). Judah is willing to be held accountable for Benjamin&apos;s safety - if the boy does not return, Judah himself will be liable. Christ takes that pledge and makes it eternal. He stands as surety not for one brother but for all brothers, not for a return to Egypt but for return to the Father. And unlike Judah, He will pay the price Himself.',
         },
         {
           kind: 'carry',
           html:
-            'There is someone in your story who stepped forward when no one else would. Who said, &ldquo;If this fails, it is on me.&rdquo; Who pledged their own safety for yours. Hold that person in mind for a moment. This is what Judah did for Benjamin. This is what Jesus did for you. The willingness to be personally liable — that is love&apos;s shape.',
+            'There is someone in your story who stepped forward when no one else would. Who said, &ldquo;If this fails, it is on me.&rdquo; Who pledged their own safety for yours. Hold that person in mind for a moment. This is what Judah did for Benjamin. This is what Jesus did for you. The willingness to be personally liable - that is love&apos;s shape.',
         },
         {
           kind: 'reflection',
@@ -272,9 +271,9 @@ export const GENESIS_43: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 43:16–26 — Joseph&apos;s Seating ────────────────────────── */
+    /* ─── Genesis 43:16-26 - Joseph&apos;s Seating ────────────────────────── */
     {
-      ref: 'Genesis 43:16–26',
+      ref: 'Genesis 43:16-26',
       title: 'Joseph Arranges the Meal',
       blocks: [
         {
@@ -367,13 +366,13 @@ export const GENESIS_43: RichChapterContent = {
           kind: 'commentary',
           id: 'christ-recognition',
           html:
-            'Joseph recognizes Benjamin as his full brother (the only other son of Rachel). His words &ldquo;God be gracious unto thee&rdquo; carry the weight of his whole hidden life. He speaks blessing over the brother he has not seen since childhood, the only family member who did not betray him. The moment is tender and hidden — no one in the room knows what he is doing.',
+            'Joseph recognizes Benjamin as his full brother (the only other son of Rachel). His words &ldquo;God be gracious unto thee&rdquo; carry the weight of his whole hidden life. He speaks blessing over the brother he has not seen since childhood, the only family member who did not betray him. The moment is tender and hidden - no one in the room knows what he is doing.',
         },
         {
           kind: 'commentary',
           id: 'c-bow',
           html:
-            'Joseph&apos;s brothers bow before him, fulfilling the dream of Genesis 37:5-9 — &ldquo;Behold, I have dreamed a dream more; and, behold, the sun and the moon and the eleven stars made obeisance to me.&rdquo; They do not recognize him. They see a powerful Egyptian. But the seating arrangement he is about to make will astonish them — he will seat them by order of birth, youngest to oldest. He knows something about them that an Egyptian should have no way of knowing.',
+            'Joseph&apos;s brothers bow before him, fulfilling the dream of Genesis 37:5-9 - &ldquo;Behold, I have dreamed a dream more; and, behold, the sun and the moon and the eleven stars made obeisance to me.&rdquo; They do not recognize him. They see a powerful Egyptian. But the seating arrangement he is about to make will astonish them - he will seat them by order of birth, youngest to oldest. He knows something about them that an Egyptian should have no way of knowing.',
         },
         {
           kind: 'carry',
@@ -389,9 +388,9 @@ export const GENESIS_43: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 43:27–34 — The Lavish Meal ──────────────────────────── */
+    /* ─── Genesis 43:27-34 - The Lavish Meal ──────────────────────────── */
     {
-      ref: 'Genesis 43:27–34',
+      ref: 'Genesis 43:27-34',
       title: 'Benjamin&apos;s Portion',
       blocks: [
         {
@@ -431,8 +430,7 @@ export const GENESIS_43: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-43-78mid-2',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Joseph tests them again--he seats them by age, and to Benjamin he gives five times the portion. They feast, but the wall between judge and brothers has not yet fallen.',
         },
         {
           kind: 'scripture',
@@ -473,50 +471,50 @@ export const GENESIS_43: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-tsaar',
-          title: 'Tsaar — &ldquo;small, young&rdquo;',
+          title: 'Tsaar - &ldquo;small, young&rdquo;',
           script: 'צָעִיר',
           translit: '<strong>tsaar</strong> · young, junior, small',
           description:
-            'Joseph seats them not by social status or wealth but by family order — firstborn to youngest. He knows their birth order without asking. The brothers are astonished that a foreigner can arrange them as if he has watched them grow up together. It is a tiny foreshadowing of recognition.',
+            'Joseph seats them not by social status or wealth but by family order - firstborn to youngest. He knows their birth order without asking. The brothers are astonished that a foreigner can arrange them as if he has watched them grow up together. It is a tiny foreshadowing of recognition.',
         },
         {
           kind: 'commentary',
           id: 'c-benjamin-portion',
           html:
-            'Benjamin receives five times the portion of his brothers — not because Joseph is being unfair, but because Joseph is being lavish. This is grace, not justice. The youngest, the one most vulnerable, the one still with both parents living, is treated with excess. It should feel shocking to the brothers. Why would an Egyptian ruler favor the youngest so extravagantly?',
+            'Benjamin receives five times the portion of his brothers - not because Joseph is being unfair, but because Joseph is being lavish. This is grace, not justice. The youngest, the one most vulnerable, the one still with both parents living, is treated with excess. It should feel shocking to the brothers. Why would an Egyptian ruler favor the youngest so extravagantly?',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-shikru',
-          title: 'Shakar — &ldquo;drank, were merry&rdquo;',
+          title: 'Shakar - &ldquo;drank, were merry&rdquo;',
           script: 'שׁכר',
           translit: '<strong>shakar</strong> · to drink deeply, to be merry, to make merry',
           description:
-            'This is banquet language — not drunkenness but celebration. The brothers, fed by the hand of a hidden king, are at ease. They do not know they are eating with the brother they sold. But Joseph knows, and he is feeding them as a father feeds his children — abundantly, with his own hands.',
+            'This is banquet language - not drunkenness but celebration. The brothers, fed by the hand of a hidden king, are at ease. They do not know they are eating with the brother they sold. But Joseph knows, and he is feeding them as a father feeds his children - abundantly, with his own hands.',
         },
         {
           kind: 'christ',
           id: 'christ-weep',
-          title: 'Christ Connection — The Hidden Host Who Weeps',
+          title: 'Christ Connection - The Hidden Host Who Weeps',
           html:
-            'Joseph knows his brothers but his brothers do not know him. He weeps in a room they cannot see, then returns and feeds them. The Gospel gives us the same pattern: Jesus appears to His disciples after the resurrection and feeds them (John 21:12-13), yet they do not at first recognize Him. The host is known; the guests are still blind. And yet He feeds them anyway — grace offered to those who do not yet see it, from one whose love has already been decided.',
+            'Joseph knows his brothers but his brothers do not know him. He weeps in a room they cannot see, then returns and feeds them. The Gospel gives us the same pattern: Jesus appears to His disciples after the resurrection and feeds them (John 21:12-13), yet they do not at first recognize Him. The host is known; the guests are still blind. And yet He feeds them anyway - grace offered to those who do not yet see it, from one whose love has already been decided.',
         },
         {
           kind: 'carry',
           html:
-            'You have been fed by grace you did not recognize. You have sat at a table set by hands you did not see. The lavishness of your life — the portion five times greater than you deserved — is not accident. It is intentional excess. Today, as you eat and drink, you might let yourself feel: I am being loved by someone I have not yet seen. And soon enough, you will.',
+            'You have been fed by grace you did not recognize. You have sat at a table set by hands you did not see. The lavishness of your life - the portion five times greater than you deserved - is not accident. It is intentional excess. Today, as you eat and drink, you might let yourself feel: I am being loved by someone I have not yet seen. And soon enough, you will.',
         },
         {
           kind: 'reflection',
           id: 'gen43-merry',
           prompt:
-            'When was the last time you felt completely cared for — fed, safe, delighted in? Can you name who made you feel that way? And how does it change things to know that Jesus offers that same lavish portion?',
+            'When was the last time you felt completely cared for - fed, safe, delighted in? Can you name who made you feel that way? And how does it change things to know that Jesus offers that same lavish portion?',
         },
         {
           kind: 'artwork',
           matchTitle: /joseph|benjamin|brother/i,
           matchArtist: /tissot|doré/i,
-          caption: 'Genesis 43:27–34 · The Feast of Recognition',
+          caption: 'Genesis 43:27-34 · The Feast of Recognition',
         },
       ],
     },

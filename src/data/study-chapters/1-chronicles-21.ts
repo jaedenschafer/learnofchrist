@@ -30,6 +30,17 @@ export const CHRONICLES_1_21: RichChapterContent = {
     ref: '1 Chronicles 21 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-david-kingdom',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'David and the Iron Age Kingdom',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Artifacts and inscriptions illuminating the Davidic monarchy and administration.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 21:1 — Satan Provoked David ──────────────────────── */
     {
@@ -56,7 +67,7 @@ export const CHRONICLES_1_21: RichChapterContent = {
           kind: 'commentary',
           id: 'chr1-21-satan',
           html:
-            'The version in 2 Samuel 24 opens differently: "The Lord moved David." Here in 1 Chronicles, the emphasis shifts — "Satan stood up against Israel." Both are true. God permitted the trial; Satan incited it. Scripture holds both truths together without resolving them into a single cause. Satan is the active tempter. God is sovereign over the temptation. This parallels the opening of Job, where Satan must ask permission before testing Job&apos;s faith. The rebellion against God is Satan&apos;s act. The permission is God&apos;s.',
+            'The version in 2 Samuel 24 opens differently: "The Lord moved David." Here in 1 Chronicles, the emphasis shifts — "Satan stood up against Israel." Both are true. God permitted the trial; Satan incited it. Scripture holds both truths together without resolving them into a single cause. Satan is the active tempter. God is sovereign over the temptation. This parallels the opening of Job, where Satan must ask permission before testing Job&apos;s faith. The rebellion against God is Satan&apos;s act. The permission is God&apos;s. [res:british-museum-david-kingdom]',
         },
         {
           kind: 'commentary',

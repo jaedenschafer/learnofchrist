@@ -33,6 +33,17 @@ export const CHRONICLES_2_7: RichChapterContent = {
     ref: '2 Chronicles 7 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-cyrus',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'The Cyrus Cylinder',
+      url: 'https://www.britishmuseum.org/collection/objects/w3679',
+      description: 'Ancient Persian cylinder decree allowing return from exile and temple rebuilding.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 7:1–3 — Fire from Heaven ──────────────────────── */
     {
@@ -52,7 +63,7 @@ export const CHRONICLES_2_7: RichChapterContent = {
           kind: 'commentary',
           id: 'fire-heaven-descent',
           html:
-            'Fire comes down from heaven. It is the same sign that appeared in the days of Aaron: when the tabernacle was dedicated, fire from the Lord consumed the offering on the altar (Leviticus 9:24). It is the same sign that appeared in the days of Elijah: when the prophet called upon God to show that He alone is God, fire fell from heaven and consumed the sacrifice (1 Kings 18:38). In each moment, fire from heaven is a visible affirmation—a sign that God sees, God accepts, God is present. Solomon did not call down the fire through magic or ritual. Solomon prayed. And God answered with fire.',
+            'Fire comes down from heaven. It is the same sign that appeared in the days of Aaron: when the tabernacle was dedicated, fire from the Lord consumed the offering on the altar (Leviticus 9:24). It is the same sign that appeared in the days of Elijah: when the prophet called upon God to show that He alone is God, fire fell from heaven and consumed the sacrifice (1 Kings 18:38). In each moment, fire from heaven is a visible affirmation—a sign that God sees, God accepts, God is present. Solomon did not call down the fire through magic or ritual. Solomon prayed. And God answered with fire. [res:british-museum-cyrus]',
         },
         {
           kind: 'commentary',

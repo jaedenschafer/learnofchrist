@@ -25,6 +25,17 @@ export const JOB_30: RichChapterContent = {
     ref: 'Job 30 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     /* ─── Job 30:1–8 — Mocked by the Contemptible ─────────────────────── */
     {
@@ -45,7 +56,7 @@ export const JOB_30: RichChapterContent = {
           kind: 'commentary',
           id: 'job30-mid-scorn-terror',
           html:
-            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+            'Calamity strips everything; faith asks: can you praise when silence is easier? [res:british-museum-ludlul]',
         },
         {
           kind: 'scripture',

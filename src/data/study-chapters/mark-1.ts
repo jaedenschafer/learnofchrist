@@ -43,7 +43,7 @@ export const MARK_1: RichChapterContent = {
           kind: 'commentary',
           id: 'mark-1-78mid-1',
           html:
-            'John baptizes in the wilderness; Jesus comes to be baptized. The forerunner's work yields to the one he announced; the messenger steps aside for the Message.',
+            'John baptizes in the wilderness; Jesus comes to be baptized. The forerunner&apos;s work yields to the one he announced; the messenger steps aside for the Message.',
         },
         {
           kind: 'scripture',

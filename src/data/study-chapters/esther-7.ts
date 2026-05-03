@@ -49,7 +49,7 @@ export const ESTHER_7: RichChapterContent = {
           kind: 'commentary',
           id: 'king-repeats-promise',
           html:
-            'The king has already asked this question once, at the first banquet. Esther declined to speak then. Now, at the second banquet, he asks again — and the urgency in his repetition suggests he is eager to grant her whatever she desires. The phrase "even to the half of the kingdom" is not to be taken literally, but it expresses the absolute nature of the promise: there is nothing he will not give her.',
+            'The king has already asked this question once, at the first banquet. Esther declined to speak then. Now, at the second banquet, he asks again — and the urgency in his repetition suggests he is eager to grant her whatever she desires. The phrase "even to the half of the kingdom" is not to be taken literally, but it expresses the absolute nature of the promise: there is nothing he will not give her. [res:theoi-herodotus]',
         },
         {
           kind: 'scripture',
@@ -280,4 +280,15 @@ export const ESTHER_7: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Esther 7 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'theoi-herodotus',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Herodotus on Xerxes I',
+      url: 'https://www.theoi.com/Text/HerodotusHistories.html',
+      description: 'Herodotus accounts of Xerxes, Persian court intrigues, and royal authority.',
+    },
+  ],
 };

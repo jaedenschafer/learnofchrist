@@ -31,6 +31,17 @@ export const CHRONICLES_2_17: RichChapterContent = {
     ref: '2 Chronicles 17 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-judah-monarchy',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Judah in the Monarchy Period',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 17:1–6 — Jehoshaphat Strengthened in the Covenant ──────── */
     {
@@ -81,7 +92,7 @@ export const CHRONICLES_2_17: RichChapterContent = {
           kind: 'commentary',
           id: 'heart-lifted-ways',
           html:
-            'His heart is "lifted up" — an unusual phrase in Scripture, because being "lifted up" usually brings danger (pride goes before a fall). But here his heart is lifted up *in the ways of the Lord* — his exaltation is inseparable from his obedience. He is not proud; he is joyful. He exults in the covenant. This is the only safe place for a heart to be lifted up.',
+            'His heart is "lifted up" — an unusual phrase in Scripture, because being "lifted up" usually brings danger (pride goes before a fall). But here his heart is lifted up *in the ways of the Lord* — his exaltation is inseparable from his obedience. He is not proud; he is joyful. He exults in the covenant. This is the only safe place for a heart to be lifted up. [res:iaa-judah-monarchy]',
         },
         {
           kind: 'hebrew',

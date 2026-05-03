@@ -26,6 +26,17 @@ export const JOB_42: RichChapterContent = {
     ref: 'Job 42 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-job-hebrew',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Job: Hebrew Text and Terms',
+      url: 'https://www.sefaria.org/Job',
+      description: 'Sefaria Hebrew text with notes on rare terms and wisdom vocabulary.',
+    },
+  ],
+
   sections: [
     /* ─── Job 42:1–6 — From Hearing to Seeing ────────────────────────── */
     {
@@ -48,7 +59,7 @@ export const JOB_42: RichChapterContent = {
           kind: 'commentary',
           id: 'job42-all-things',
           html:
-            'Job&apos;s opening affirmation: "I know that thou canst do all things." This is not mere intellectual assent. This is the statement of one who has been confronted by the actual power of God. Job is not saying he understands how God does all things, or why. He is simply acknowledging the fact: God can. And no thought is hidden from God. God knows all. Job knows he knows less.',
+            'Job&apos;s opening affirmation: "I know that thou canst do all things." This is not mere intellectual assent. This is the statement of one who has been confronted by the actual power of God. Job is not saying he understands how God does all things, or why. He is simply acknowledging the fact: God can. And no thought is hidden from God. God knows all. Job knows he knows less. [res:sefaria-job-hebrew]',
         },
         {
           kind: 'commentary',

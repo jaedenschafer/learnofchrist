@@ -32,6 +32,17 @@ export const CHRONICLES_2_29: RichChapterContent = {
     ref: '2 Chronicles 29 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'israel-museum-hezekiah',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Hezekiah Reforms and Jerusalem',
+      url: 'https://www.imj.org.il/',
+      description: 'Iron Age Judah archaeology: water systems, inscriptions, cultic reform artifacts.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 29:1–11 — Hezekiah Opens the Doors ─────────────────── */
     {
@@ -60,7 +71,7 @@ export const CHRONICLES_2_29: RichChapterContent = {
           kind: 'commentary',
           id: '2chr29-cleansing-begins',
           html:
-            'Hezekiah does not wait for a council or a popular mandate. The first month of his reign, the doors are opened, the priests are gathered, the holy place is cleansed. Reformation begins on day one or it does not begin at all.',
+            'Hezekiah does not wait for a council or a popular mandate. The first month of his reign, the doors are opened, the priests are gathered, the holy place is cleansed. Reformation begins on day one or it does not begin at all. [res:israel-museum-hezekiah]',
         },
         {
           kind: 'scripture',

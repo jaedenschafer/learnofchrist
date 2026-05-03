@@ -1,13 +1,13 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 12 — the call of Abram and the threefold promise: land, seed, blessing.
+ * Genesis 12 - the call of Abram and the threefold promise: land, seed, blessing.
  *
- * Genesis 1–11 traces humanity's fall and scattering across the earth, culminating
+ * Genesis 1-11 traces humanity's fall and scattering across the earth, culminating
  * in the Tower of Babel. Genesis 12 opens a new chapter: God speaks to an old man
  * in Mesopotamia and begins to gather a people. Every nation that will be blessed
- * will be blessed *through* this man's offspring. The promise of Genesis 3:15 — that
- * one descendant would crush the serpent's head — now takes shape. Abram doesn't yet
+ * will be blessed *through* this man's offspring. The promise of Genesis 3:15 - that
+ * one descendant would crush the serpent's head - now takes shape. Abram doesn't yet
  * know how, but God calls him to move, to believe, to wait for a son. The journey
  * begins with altars and ends in Egypt, where Abram's faith will be tested in ways
  * that echo down to the Exodus itself.
@@ -19,15 +19,15 @@ export const GENESIS_12: RichChapterContent = {
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
   intros: [
-    'Genesis 12 marks a pivot in the Bible&apos;s story. The first eleven chapters show the world falling apart: Adam and Eve eat the forbidden fruit; their son murders his brother; humanity grows so wicked that God floods the earth; the survivors build a tower to reach heaven and are scattered across the land, their languages confused. Chapter 12 opens with God saying something no one has heard before: <em>Get thee out</em> — and with that command, salvation history begins.',
-    'A man named Abram, seventy-five years old, receives a call. Leave your country. Leave your family. Go to a land I will show you. And if you go, I will make you a great nation. I will bless you. I will make your name great. And in you, all the families of the earth shall be blessed. It is a promise that sounds impossible. Abram has no son. He is old. His wife is barren. But he goes. And as he travels from Mesopotamia through Canaan to Egypt, altars rise up behind him — markers that God has kept His word to provide, to protect, and to be present.',
-    'For the reader on this side of the cross, there is another name written underneath Abram&apos;s in invisible ink: Christ. The seed of Abraham will not be many; it will be One. The blessing of all nations will not come through a dynasty; it will come through a Man who died to bring the Gentiles into covenant. And the wilderness journey of Abram, learning to trust God without seeing the destination — that same journey is the life of faith the whole church is now called to walk.',
+    'Genesis 12 marks a pivot in the Bible&apos;s story. The first eleven chapters show the world falling apart: Adam and Eve eat the forbidden fruit; their son murders his brother; humanity grows so wicked that God floods the earth; the survivors build a tower to reach heaven and are scattered across the land, their languages confused. Chapter 12 opens with God saying something no one has heard before: <em>Get thee out</em> - and with that command, salvation history begins.',
+    'A man named Abram, seventy-five years old, receives a call. Leave your country. Leave your family. Go to a land I will show you. And if you go, I will make you a great nation. I will bless you. I will make your name great. And in you, all the families of the earth shall be blessed. It is a promise that sounds impossible. Abram has no son. He is old. His wife is barren. But he goes. And as he travels from Mesopotamia through Canaan to Egypt, altars rise up behind him - markers that God has kept His word to provide, to protect, and to be present.',
+    'For the reader on this side of the cross, there is another name written underneath Abram&apos;s in invisible ink: Christ. The seed of Abraham will not be many; it will be One. The blessing of all nations will not come through a dynasty; it will come through a Man who died to bring the Gentiles into covenant. And the wilderness journey of Abram, learning to trust God without seeing the destination - that same journey is the life of faith the whole church is now called to walk.',
   ],
 
   opener: {
     matchTitle: /abram|abraham.*journey|call/i,
     matchArtist: /tissot|rembrandt/i,
-    caption: 'Genesis 12 — A New Beginning',
+    caption: 'Genesis 12 - A New Beginning',
   },
 
   bottomShare: {
@@ -66,9 +66,9 @@ export const GENESIS_12: RichChapterContent = {
   ],
 
   sections: [
-    /* ─── Genesis 12:1–3 — The Call and the Threefold Promise ────────── */
+    /* ─── Genesis 12:1-3 - The Call and the Threefold Promise ────────── */
     {
-      ref: 'Genesis 12:1–3',
+      ref: 'Genesis 12:1-3',
       title: 'The Call and the Promise',
       blocks: [
         {
@@ -112,11 +112,11 @@ export const GENESIS_12: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-lekh-lekha',
-          title: 'Lekh-Lekha — &ldquo;Get thee out&rdquo;',
+          title: 'Lekh-Lekha - &ldquo;Get thee out&rdquo;',
           script: 'לֶךְ־לְךָ',
           translit: '<strong>lekh-lekha</strong> · go to/for yourself',
           description:
-            'The famous opening is literally &ldquo;go to yourself&rdquo; — a peculiar phrasing in Hebrew. It is not just a command to move; it is an invitation to become. Abram must leave everything he is to discover who he will be. This journey is not just geography; it is transformation.',
+            'The famous opening is literally &ldquo;go to yourself&rdquo; - a peculiar phrasing in Hebrew. It is not just a command to move; it is an invitation to become. Abram must leave everything he is to discover who he will be. This journey is not just geography; it is transformation.',
         },
         {
           kind: 'commentary',
@@ -139,14 +139,14 @@ export const GENESIS_12: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-nations',
-          title: 'Christ Connection — The Singular Seed of Abraham',
+          title: 'Christ Connection - The Singular Seed of Abraham',
           html:
-            'Paul reads this verse with precision: &ldquo;Now to Abraham and his seed were the promises made. He saith not, And to seeds, as of many; but as of one, <em>And to thy seed, which is Christ</em>&rdquo; (Gal. 3:16). The blessing of all nations does not come through Abraham&apos;s biological descendants alone, but through <em>one</em> descendant — the promised Messiah. When Jesus rose, the promise that all families of the earth would be blessed in Abraham began to be fulfilled. A Gentile who believes in Christ is now, Paul says, a son of Abraham and an heir to the promise (Gal. 3:29).',
+            'Paul reads this verse with precision: &ldquo;Now to Abraham and his seed were the promises made. He saith not, And to seeds, as of many; but as of one, <em>And to thy seed, which is Christ</em>&rdquo; (Gal. 3:16). The blessing of all nations does not come through Abraham&apos;s biological descendants alone, but through <em>one</em> descendant - the promised Messiah. When Jesus rose, the promise that all families of the earth would be blessed in Abraham began to be fulfilled. A Gentile who believes in Christ is now, Paul says, a son of Abraham and an heir to the promise (Gal. 3:29).',
         },
         {
           kind: 'carry',
           html:
-            'Abram didn&apos;t know where he was going. He had no map, no safety net, and no guarantee. What he had was a word from God and a decision to move. This week, you may be standing at your own <em>lekh-lekha</em> — a call to leave behind a way of life that feels safe because you trust what you are being called toward. You may not see the full land yet. That&apos;s okay. The question is not whether you know the destination. It&apos;s whether you trust the One who calls.',
+            'Abram didn&apos;t know where he was going. He had no map, no safety net, and no guarantee. What he had was a word from God and a decision to move. This week, you may be standing at your own <em>lekh-lekha</em> - a call to leave behind a way of life that feels safe because you trust what you are being called toward. You may not see the full land yet. That&apos;s okay. The question is not whether you know the destination. It&apos;s whether you trust the One who calls.',
         },
         {
           kind: 'reflection',
@@ -157,9 +157,9 @@ export const GENESIS_12: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 12:4–6 — The Journey to Canaan ────────────────────── */
+    /* ─── Genesis 12:4-6 - The Journey to Canaan ────────────────────── */
     {
-      ref: 'Genesis 12:4–6',
+      ref: 'Genesis 12:4-6',
       title: 'Into the Land',
       blocks: [
         {
@@ -201,7 +201,7 @@ export const GENESIS_12: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-moreh',
-          title: 'Moreh — &ldquo;the oak of Moreh&rdquo;',
+          title: 'Moreh - &ldquo;the oak of Moreh&rdquo;',
           script: 'מוֹרֶה',
           translit: '<strong>moreh</strong> · oak, terebinth (a large, distinctive tree)',
           description:
@@ -222,19 +222,19 @@ export const GENESIS_12: RichChapterContent = {
           kind: 'reflection',
           id: 'gen12-stranger',
           prompt:
-            'How do you experience being a "stranger" in a world that often feels settled in other gods — success, security, comfort? What does it mean to let that estrangement remind you that you belong to somewhere deeper?',
+            'How do you experience being a "stranger" in a world that often feels settled in other gods - success, security, comfort? What does it mean to let that estrangement remind you that you belong to somewhere deeper?',
         },
         {
           kind: 'artwork',
           matchTitle: /abraham.*journey|abram.*canaan|patriarch/i,
-          caption: 'Genesis 12:4–6 · The Journey Begins',
+          caption: 'Genesis 12:4-6 · The Journey Begins',
         },
       ],
     },
 
-    /* ─── Genesis 12:7–9 — Altars ────────────────────────────────────── */
+    /* ─── Genesis 12:7-9 - Altars ────────────────────────────────────── */
     {
-      ref: 'Genesis 12:7–9',
+      ref: 'Genesis 12:7-9',
       title: 'The First Altar',
       blocks: [
         {
@@ -271,13 +271,13 @@ export const GENESIS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'c-altar-1',
           html:
-            'The first thing Abram does when God appears is build an altar. Not to his own achievement. Not to memorialize his arrival. But to the God who appeared to him. Altars in Scripture are always responses — thanksgiving, prayer, or sacrifice offered up to the Almighty. An altar says: <em>I saw you here. This place is holy.</em>',
+            'The first thing Abram does when God appears is build an altar. Not to his own achievement. Not to memorialize his arrival. But to the God who appeared to him. Altars in Scripture are always responses - thanksgiving, prayer, or sacrifice offered up to the Almighty. An altar says: <em>I saw you here. This place is holy.</em>',
         },
         {
           kind: 'commentary',
           id: 'c-altar-2',
           html:
-            'At Bethel, Abram builds a second altar. It is the pattern of his life: to move, to worship, to move again. The Canaanites had sanctuaries carved into the landscape — Abram has only a tent and an altar. The land belongs to others still; it will not be his or his son&apos;s. It will be his grandson&apos;s. Faith means building altars on land you don&apos;t yet own, in trust that the promise will come to pass.',
+            'At Bethel, Abram builds a second altar. It is the pattern of his life: to move, to worship, to move again. The Canaanites had sanctuaries carved into the landscape - Abram has only a tent and an altar. The land belongs to others still; it will not be his or his son&apos;s. It will be his grandson&apos;s. Faith means building altars on land you don&apos;t yet own, in trust that the promise will come to pass.',
         },
         {
           kind: 'carry',
@@ -288,14 +288,14 @@ export const GENESIS_12: RichChapterContent = {
           kind: 'reflection',
           id: 'gen12-altar',
           prompt:
-            'Where in your week do you build an altar — a moment where you make your faith in God visible? Where might you add one more?',
+            'Where in your week do you build an altar - a moment where you make your faith in God visible? Where might you add one more?',
         },
       ],
     },
 
-    /* ─── Genesis 12:10–20 — The Descent to Egypt ────────────────────── */
+    /* ─── Genesis 12:10-20 - The Descent to Egypt ────────────────────── */
     {
-      ref: 'Genesis 12:10–20',
+      ref: 'Genesis 12:10-20',
       title: 'A Trial in Egypt',
       blocks: [
         {
@@ -354,7 +354,7 @@ export const GENESIS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'c-deception',
           html:
-            'The text does not moralize here. It does not condemn Abram outright or blame Sarai. Instead, it shows the consequence of fear: a man willing to sacrifice his wife&apos;s honor for his own safety; a woman whose protection becomes the price tag on her husband&apos;s life. The descent into Egypt is a descent into the logic of the world — where survival justifies betrayal.',
+            'The text does not moralize here. It does not condemn Abram outright or blame Sarai. Instead, it shows the consequence of fear: a man willing to sacrifice his wife&apos;s honor for his own safety; a woman whose protection becomes the price tag on her husband&apos;s life. The descent into Egypt is a descent into the logic of the world - where survival justifies betrayal.',
         },
         {
           kind: 'scripture',
@@ -397,14 +397,14 @@ export const GENESIS_12: RichChapterContent = {
         {
           kind: 'christ',
           id: 'c-protection',
-          title: 'Christ Connection — God Protects When Faith Fails',
+          title: 'Christ Connection - God Protects When Faith Fails',
           html:
-            'What is remarkable is that God does not abandon Abram to the consequences of his fear. God sends plagues on Pharaoh&apos;s house to protect Sarai. It is a pattern the Bible will return to: the Exodus, where God sends plagues on Pharaoh again to rescue His people. The difference is that Abram&apos;s faith is still fragile, his motives still mixed — and God protects him anyway. Paul puts this at the center of salvation: &ldquo;For when we were yet without strength, in due time Christ died for the ungodly&rdquo; (Rom. 5:6). God&apos;s protection does not wait for our faith to be perfect; He moves to protect us in the very moment of our weakness.',
+            'What is remarkable is that God does not abandon Abram to the consequences of his fear. God sends plagues on Pharaoh&apos;s house to protect Sarai. It is a pattern the Bible will return to: the Exodus, where God sends plagues on Pharaoh again to rescue His people. The difference is that Abram&apos;s faith is still fragile, his motives still mixed - and God protects him anyway. Paul puts this at the center of salvation: &ldquo;For when we were yet without strength, in due time Christ died for the ungodly&rdquo; (Rom. 5:6). God&apos;s protection does not wait for our faith to be perfect; He moves to protect us in the very moment of our weakness.',
         },
         {
           kind: 'carry',
           html:
-            'There is a famine in your life somewhere — a season of scarcity that makes you afraid, that tempts you to hold back truth or betray someone you love for the sake of self-preservation. In that moment, the question is not whether you are a person of perfect faith. The question is whether you believe God can protect you without your schemes. Abram&apos;s deception did not save him. God did.',
+            'There is a famine in your life somewhere - a season of scarcity that makes you afraid, that tempts you to hold back truth or betray someone you love for the sake of self-preservation. In that moment, the question is not whether you are a person of perfect faith. The question is whether you believe God can protect you without your schemes. Abram&apos;s deception did not save him. God did.',
         },
         {
           kind: 'reflection',
@@ -415,7 +415,7 @@ export const GENESIS_12: RichChapterContent = {
         {
           kind: 'artwork',
           matchTitle: /abram|abraham.*egypt|pharaoh|descent/i,
-          caption: 'Genesis 12:10–20 · A Trial in Egypt',
+          caption: 'Genesis 12:10-20 · A Trial in Egypt',
         },
       ],
     },

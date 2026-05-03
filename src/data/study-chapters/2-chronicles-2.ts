@@ -31,6 +31,17 @@ export const CHRONICLES_2_2: RichChapterContent = {
     ref: '2 Chronicles 2 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-cyrus',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'The Cyrus Cylinder',
+      url: 'https://www.britishmuseum.org/collection/objects/w3679',
+      description: 'Ancient Persian cylinder decree allowing return from exile and temple rebuilding.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 2:1–6 — Solomon's Resolve and Labor Force ─────────── */
     {
@@ -74,7 +85,7 @@ export const CHRONICLES_2_2: RichChapterContent = {
           kind: 'commentary',
           id: '2c2-name',
           html:
-            'Solomon&apos;s purpose is clear: to build a house for the name of the Lord. Not for his own glory. Not for Israel&apos;s honor, though that matters. The building is for God&apos;s name. This is what will make it great — not its size or its treasure, but the fact that it bears the name of the Lord.',
+            'Solomon&apos;s purpose is clear: to build a house for the name of the Lord. Not for his own glory. Not for Israel&apos;s honor, though that matters. The building is for God&apos;s name. This is what will make it great — not its size or its treasure, but the fact that it bears the name of the Lord. [res:british-museum-cyrus]',
         },
         {
           kind: 'commentary',

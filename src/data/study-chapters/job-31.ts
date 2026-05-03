@@ -25,6 +25,17 @@ export const JOB_31: RichChapterContent = {
     ref: 'Job 31 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     /* ─── Job 31:1–12 — Sexual Integrity ─────────────────────────────── */
     {
@@ -47,7 +58,7 @@ export const JOB_31: RichChapterContent = {
           kind: 'commentary',
           id: 'job31-balance-weigh',
           html:
-            'Job invokes the image of a just balance—the scales of a fair judge. He is not asking for pity. He is not asking for mercy. He is asking to be weighed against a standard of justice. And he is confident that when weighed, his integrity will be revealed.',
+            'Job invokes the image of a just balance—the scales of a fair judge. He is not asking for pity. He is not asking for mercy. He is asking to be weighed against a standard of justice. And he is confident that when weighed, his integrity will be revealed. [res:british-museum-ludlul]',
         },
         {
           kind: 'scripture',

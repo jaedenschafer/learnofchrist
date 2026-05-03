@@ -60,7 +60,7 @@ export const CHRONICLES_2_22: RichChapterContent = {
           kind: 'commentary',
           id: 'c22-youngest-son',
           html:
-            'The normal order of succession is broken. The band of Arabians has slain the elder sons, leaving only the youngest to inherit. Yet Ahaziah is not a child — he is 42 years old. The text does not say he is wise or fit for the throne. It says he is the youngest who remains. The people have made a choice from desperation, not discernment. The office of king is now held by a man whose counsel is not from priests or prophets, but from his mother, Athaliah — a woman who bears the name and blood of Ahab.',
+            'The normal order of succession is broken. The band of Arabians has slain the elder sons, leaving only the youngest to inherit. Yet Ahaziah is not a child — he is 42 years old. The text does not say he is wise or fit for the throne. It says he is the youngest who remains. The people have made a choice from desperation, not discernment. The office of king is now held by a man whose counsel is not from priests or prophets, but from his mother, Athaliah — a woman who bears the name and blood of Ahab. [res:iaa-judah-monarchy]',
         },
         {
           kind: 'hebrew',
@@ -308,6 +308,17 @@ export const CHRONICLES_2_22: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Chronicles 22 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'iaa-judah-monarchy',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Judah in the Monarchy Period',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
+    },
+  ],
 
   hasHebrew: true,
 };

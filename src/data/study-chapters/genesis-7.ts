@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 7 — the waters prevail, all flesh dies.
+ * Genesis 7 - the waters prevail, all flesh dies.
  *
  * This is the only chapter in Scripture where the entire visible world ends.
  * The ark is loaded. God Himself shuts the door. Rain falls 40 days and 40 nights.
@@ -17,14 +17,14 @@ export const GENESIS_7: RichChapterContent = {
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
   intros: [
-    'Genesis 7 opens the floodgates. The ark has been built. The animals are gathered — clean by sevens, unclean by twos. And now, for the first time in Scripture, God extends an invitation: "Come thou and all thy house into the ark." It is not a command barked from a distance. It is an invitation to safety. Noah enters. His family enters. The animals board. And then the text turns: "the LORD shut him in." The door does not swing shut on its own. God closes it. The waters rise. Forty days and nights of rain. One hundred fifty days of waters covering the earth. Every living thing outside the ark dies. Fathers, mothers, children, cattle, creeping things, birds — all flesh. The chapter records it simply, without flourish, without moral commentary on those who perish. It presents only what is: God was merciful to those inside. Those outside are gone.',
+    'Genesis 7 opens the floodgates. The ark has been built. The animals are gathered - clean by sevens, unclean by twos. And now, for the first time in Scripture, God extends an invitation: "Come thou and all thy house into the ark." It is not a command barked from a distance. It is an invitation to safety. Noah enters. His family enters. The animals board. And then the text turns: "the LORD shut him in." The door does not swing shut on its own. God closes it. The waters rise. Forty days and nights of rain. One hundred fifty days of waters covering the earth. Every living thing outside the ark dies. Fathers, mothers, children, cattle, creeping things, birds - all flesh. The chapter records it simply, without flourish, without moral commentary on those who perish. It presents only what is: God was merciful to those inside. Those outside are gone.',
     'The chapter moves fast. It does not pause to moralize. It lets the reader sit with the weight of what happens when God judges a world. And even in that weight, there is something to notice: God does the shutting. The safety inside the ark does not depend on Noah keeping the door barred. It depends on God. Once inside, you are kept by someone stronger than yourself.',
   ],
 
   sections: [
-    /* ─── Genesis 7:1–5 — Come Thou ──────────────────────────────────── */
+    /* ─── Genesis 7:1-5 - Come Thou ──────────────────────────────────── */
     {
-      ref: 'Genesis 7:1–5',
+      ref: 'Genesis 7:1-5',
       title: 'The First Invitation',
       blocks: [
         {
@@ -45,12 +45,12 @@ export const GENESIS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'gen7-come-meaning',
           html:
-            'The LORD says "Come," not "Go." It is a word that assumes God is already there — already inside the ark, waiting. In Hebrew, <em>bo&apos;</em> (come) is the interior\'s verb, the verb of access. God is not sending Noah into an empty box to save himself alone. God is inviting Noah to join Him. The first gospel invitation in Scripture is this: enter where I already am[res:sefaria-genesis-7][res:britishmuseum-gilgamesh-tablet-xi].',
+            'The LORD says "Come," not "Go." It is a word that assumes God is already there - already inside the ark, waiting. In Hebrew, <em>bo&apos;</em> (come) is the interior\'s verb, the verb of access. God is not sending Noah into an empty box to save himself alone. God is inviting Noah to join Him. The first gospel invitation in Scripture is this: enter where I already am[res:sefaria-genesis-7][res:britishmuseum-gilgamesh-tablet-xi].',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-boh',
-          title: 'Bo&apos; — "come"',
+          title: 'Bo&apos; - "come"',
           script: 'בֹּא',
           translit: '<strong>bo&apos;</strong> · come (enter, go in)',
           description:
@@ -90,12 +90,12 @@ export const GENESIS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'gen7-clean-unclean',
           html:
-            'Seven of the clean animals, two of the unclean. The distinction exists already — long before Leviticus, the reader is told clean and unclean categories are real. Noah knows which animals are fit for sacrifice, which are not. The sevens will ensure life after the flood. The pairs will ensure the world can be restocked. Every detail serves a future that does not exist yet, for a world that has not yet been born[res:orientalinstitute-mesopotamia].',
+            'Seven of the clean animals, two of the unclean. The distinction exists already - long before Leviticus, the reader is told clean and unclean categories are real. Noah knows which animals are fit for sacrifice, which are not. The sevens will ensure life after the flood. The pairs will ensure the world can be restocked. Every detail serves a future that does not exist yet, for a world that has not yet been born[res:orientalinstitute-mesopotamia].',
         },
         {
           kind: 'carry',
           html:
-            'God does not hide what is coming. He tells Noah: it will rain. It will be bad. But look — you are invited in. Your family is invited in. The living things you will need after are going in with you. The invitation to safety is not vague or mysterious. It is specific. Particular. You, your wife, your sons, their wives — by name, by relationship. When God extends mercy, He does not do it in the abstract. He says your name.',
+            'God does not hide what is coming. He tells Noah: it will rain. It will be bad. But look - you are invited in. Your family is invited in. The living things you will need after are going in with you. The invitation to safety is not vague or mysterious. It is specific. Particular. You, your wife, your sons, their wives - by name, by relationship. When God extends mercy, He does not do it in the abstract. He says your name.',
         },
         {
           kind: 'reflection',
@@ -106,9 +106,9 @@ export const GENESIS_7: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 7:6–10 — The Animals Enter ──────────────────────────── */
+    /* ─── Genesis 7:6-10 - The Animals Enter ──────────────────────────── */
     {
-      ref: 'Genesis 7:6–10',
+      ref: 'Genesis 7:6-10',
       title: 'Loading the Ark',
       blocks: [
         {
@@ -151,12 +151,12 @@ export const GENESIS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'gen7-noah-600',
           html:
-            'Noah is six hundred years old. He has spent decades building. Decades watching, waiting, preaching to a world that does not listen. And now the animal kingdom itself obeys what humanity has refused. The creatures come. Two by two. Not coerced, not herded by Noah — the text says they came "unto Noah into the ark." They come of their own. Perhaps there is mercy even in how they come.',
+            'Noah is six hundred years old. He has spent decades building. Decades watching, waiting, preaching to a world that does not listen. And now the animal kingdom itself obeys what humanity has refused. The creatures come. Two by two. Not coerced, not herded by Noah - the text says they came "unto Noah into the ark." They come of their own. Perhaps there is mercy even in how they come.',
         },
         {
           kind: 'artwork',
           matchTitle: /ark|flood|noah/i,
-          caption: 'Genesis 7:6–10 · Loading the Ark',
+          caption: 'Genesis 7:6-10 · Loading the Ark',
         },
         {
           kind: 'carry',
@@ -172,9 +172,9 @@ export const GENESIS_7: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 7:11–16 — The Fountains Break Forth ──────────────────── */
+    /* ─── Genesis 7:11-16 - The Fountains Break Forth ──────────────────── */
     {
-      ref: 'Genesis 7:11–16',
+      ref: 'Genesis 7:11-16',
       title: 'The Deep Released',
       blocks: [
         {
@@ -201,7 +201,7 @@ export const GENESIS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'gen7-deep',
           html:
-            'The fountains of the great deep. Water comes not just from sky but from the abyss beneath the earth. Genesis 1:2 spoke of <em>tehom</em>, the chaos waters hovering over the formless world. Now those waters breach. The creation is unmade not once but twice over — from above and from below. The world is flooded back into primeval chaos.',
+            'The fountains of the great deep. Water comes not just from sky but from the abyss beneath the earth. Genesis 1:2 spoke of <em>tehom</em>, the chaos waters hovering over the formless world. Now those waters breach. The creation is unmade not once but twice over - from above and from below. The world is flooded back into primeval chaos.',
         },
         {
           kind: 'scripture',
@@ -231,7 +231,7 @@ export const GENESIS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'gen7-breath-of-life',
           html:
-            'Two and two of all flesh, wherein is the breath of life. The distinction is crucial. Only the creatures with <em>ruach chayim</em> — the breath of life — board the ark. Humans, mammals, birds, creeping things that have nostrils and lungs. The world of <em>nephesh chayyah</em> — living souls that breathe — is being saved. What is left behind perishes.',
+            'Two and two of all flesh, wherein is the breath of life. The distinction is crucial. Only the creatures with <em>ruach chayim</em> - the breath of life - board the ark. Humans, mammals, birds, creeping things that have nostrils and lungs. The world of <em>nephesh chayyah</em> - living souls that breathe - is being saved. What is left behind perishes.',
         },
         {
           kind: 'scripture',
@@ -250,11 +250,11 @@ export const GENESIS_7: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-sagar',
-          title: 'Sagar — "shut, lock"',
+          title: 'Sagar - "shut, lock"',
           script: 'סָגַר',
           translit: '<strong>sagar</strong> · shut, lock, close',
           description:
-            'The door shuts, but Noah does not shut it. The LORD does. <em>Sagar</em> appears often in judgment contexts — closing up wombs, closing lips, sealing destinies. But here it is an act of mercy: the one inside is locked in safety. What is outside is locked out of that safety. The door is God&apos;s work, not Noah&apos;s.',
+            'The door shuts, but Noah does not shut it. The LORD does. <em>Sagar</em> appears often in judgment contexts - closing up wombs, closing lips, sealing destinies. But here it is an act of mercy: the one inside is locked in safety. What is outside is locked out of that safety. The door is God&apos;s work, not Noah&apos;s.',
         },
         {
           kind: 'commentary',
@@ -265,14 +265,14 @@ export const GENESIS_7: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-invitation-connection',
-          title: 'Christ Connection — Come and Be Sealed',
+          title: 'Christ Connection - Come and Be Sealed',
           html:
-            'Jesus echoes the ancient invitation: "Come unto me, all ye that labour and are heavy laden, and I will give you rest" (Matt 11:28). The New Testament letter to the Hebrews ties the Flood directly to Christ: "By the which will we are sanctified through the offering of the body of Jesus Christ once for all… There remaineth therefore a rest to the people of God" (Heb. 10:10, 4:9). The door that Noah entered is the same door Christ holds open. And what He promises is not that life inside will be easy, but that it will be <em>His responsibility.</em> You are not saved by your strength or your vigilance. You are saved by His. Once you enter, He locks the door. The security does not rest on you.',
+            'Jesus echoes the ancient invitation: "Come unto me, all ye that labour and are heavy laden, and I will give you rest" (Matt 11:28). The New Testament letter to the Hebrews ties the Flood directly to Christ: "By the which will we are sanctified through the offering of the body of Jesus Christ once for all... There remaineth therefore a rest to the people of God" (Heb. 10:10, 4:9). The door that Noah entered is the same door Christ holds open. And what He promises is not that life inside will be easy, but that it will be <em>His responsibility.</em> You are not saved by your strength or your vigilance. You are saved by His. Once you enter, He locks the door. The security does not rest on you.',
         },
         {
           kind: 'carry',
           html:
-            'There is a weight to the moment when the door closes. You cannot see the world outside anymore. You do not know when the rain will stop or what the waters will reveal. All you know is that you are in, and He shut you in. The safety is not something you maintain by staying alert enough or good enough. It rests on Him. On His promise. On His choice to keep the door sealed. That is not to be passive — life inside the ark still requires you to live — but it means the ultimate security of your existence has been transferred out of your hands and into His.',
+            'There is a weight to the moment when the door closes. You cannot see the world outside anymore. You do not know when the rain will stop or what the waters will reveal. All you know is that you are in, and He shut you in. The safety is not something you maintain by staying alert enough or good enough. It rests on Him. On His promise. On His choice to keep the door sealed. That is not to be passive - life inside the ark still requires you to live - but it means the ultimate security of your existence has been transferred out of your hands and into His.',
         },
         {
           kind: 'reflection',
@@ -283,9 +283,9 @@ export const GENESIS_7: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 7:17–24 — The Waters Prevail ──────────────────────────── */
+    /* ─── Genesis 7:17-24 - The Waters Prevail ──────────────────────────── */
     {
-      ref: 'Genesis 7:17–24',
+      ref: 'Genesis 7:17-24',
       title: 'The Waters Prevail',
       blocks: [
         {
@@ -322,12 +322,12 @@ export const GENESIS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'gen7-waters-prevail',
           html:
-            'The word "prevailed" recurs like a drumbeat. <em>Prevailed. Increased. Prevailed exceedingly.</em> The text does not look away from the scale of it. Fifteen cubits above the mountains — roughly twenty-two feet. There is nowhere left on earth where the waters do not cover. This is not a regional flood. This is the undoing of the world as it was.',
+            'The word "prevailed" recurs like a drumbeat. <em>Prevailed. Increased. Prevailed exceedingly.</em> The text does not look away from the scale of it. Fifteen cubits above the mountains - roughly twenty-two feet. There is nowhere left on earth where the waters do not cover. This is not a regional flood. This is the undoing of the world as it was.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-mabbul',
-          title: 'Mabbul — "the Flood"',
+          title: 'Mabbul - "the Flood"',
           script: 'מַבּוּל',
           translit: '<strong>mabbul</strong> · deluge, the Flood (a catastrophe)',
           description:
@@ -378,12 +378,12 @@ export const GENESIS_7: RichChapterContent = {
           kind: 'reflection',
           id: 'gen7-clarity',
           prompt:
-            'What makes you hesitate to fully "enter" — to commit without one foot out the door? What would it take to stop hedging your bets and trust that inside is actually safer?',
+            'What makes you hesitate to fully "enter" - to commit without one foot out the door? What would it take to stop hedging your bets and trust that inside is actually safer?',
         },
         {
           kind: 'artwork',
           matchTitle: /flood|waters|prevail|mabbul/i,
-          caption: 'Genesis 7:17–24 · The Waters Prevail 150 Days',
+          caption: 'Genesis 7:17-24 · The Waters Prevail 150 Days',
         },
       ],
     },

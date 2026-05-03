@@ -33,6 +33,17 @@ export const CHRONICLES_1_11: RichChapterContent = {
     ref: '1 Chronicles 11 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-tribal-lists',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Tribal Genealogies and Borders',
+      url: 'https://www.sefaria.org/search?q=tribe+israel&tab=text',
+      description: 'Sefaria resources on the twelve tribes, genealogies, and territorial divisions.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 11:1–3 — All Israel Anoints David King ──────────── */
     {
@@ -73,7 +84,7 @@ export const CHRONICLES_1_11: RichChapterContent = {
           kind: 'commentary',
           id: 'c1-11-bone-flesh',
           html:
-            '"We are thy bone and thy flesh." This is the language of kinship, of belonging to the same body. The people do not say, "You are our superior," or "You have conquered us." They say, "You are one of us. We are of one blood." The recognition of David as king is not imposed from outside — it is the people acknowledging what God has already chosen, that he is part of them, bone of their bone, and therefore fit to lead them.',
+            '"We are thy bone and thy flesh." This is the language of kinship, of belonging to the same body. The people do not say, "You are our superior," or "You have conquered us." They say, "You are one of us. We are of one blood." The recognition of David as king is not imposed from outside — it is the people acknowledging what God has already chosen, that he is part of them, bone of their bone, and therefore fit to lead them. [res:sefaria-tribal-lists]',
         },
         {
           kind: 'commentary',

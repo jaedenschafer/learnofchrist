@@ -31,6 +31,17 @@ export const NEHEMIAH_10: RichChapterContent = {
     ref: 'Nehemiah 10 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-torah-scroll',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Torah and Jewish Law Texts',
+      url: 'https://www.sefaria.org/',
+      description: 'Sefaria Hebrew texts on Torah readings and covenant renewal.',
+    },
+  ],
+
   sections: [
     /* ─── Nehemiah 10:1–28 — The Sealers Are Named ─────────────────────── */
     {
@@ -63,7 +74,7 @@ export const NEHEMIAH_10: RichChapterContent = {
           kind: 'commentary',
           id: 'sealers-named',
           html:
-            'Nehemiah heads the list, identified as the Tirshatha — a Persian title meaning "governor" or "the feared one." His name is first because his authority underwrites the covenant. Then come the names of the priests and Levites, the religious leadership. Finally, the chief of the people — the lay leaders who represent the community. These are not anonymous masses. These are named individuals, putting their names to a written agreement before witnesses. What they are about to pledge, they pledge publicly, with their reputations at stake.',
+            'Nehemiah heads the list, identified as the Tirshatha — a Persian title meaning "governor" or "the feared one." His name is first because his authority underwrites the covenant. Then come the names of the priests and Levites, the religious leadership. Finally, the chief of the people — the lay leaders who represent the community. These are not anonymous masses. These are named individuals, putting their names to a written agreement before witnesses. What they are about to pledge, they pledge publicly, with their reputations at stake. [res:sefaria-torah-scroll]',
         },
         {
           kind: 'commentary',

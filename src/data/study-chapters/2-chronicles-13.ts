@@ -33,6 +33,17 @@ export const CHRONICLES_2_13: RichChapterContent = {
     ref: '2 Chronicles 13 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-judah-monarchy',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Judah in the Monarchy Period',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 13:1–3 — Abijah Reigns; War Begins ────────────────── */
     {
@@ -97,7 +108,7 @@ export const CHRONICLES_2_13: RichChapterContent = {
           kind: 'commentary',
           id: 'covenant-gave',
           html:
-            'Abijah opens by invoking covenant history. The Lord God gave the kingdom to David — not temporarily, not conditionally on performance, but "for ever, even to him and to his sons." This is the foundation of Abijah&apos;s claim and his confidence. He stands on Davidic covenant ground, not on personal merit or military might. The kingdom is not his because he earned it; it is his because God promised it to David&apos;s line.',
+            'Abijah opens by invoking covenant history. The Lord God gave the kingdom to David — not temporarily, not conditionally on performance, but "for ever, even to him and to his sons." This is the foundation of Abijah&apos;s claim and his confidence. He stands on Davidic covenant ground, not on personal merit or military might. The kingdom is not his because he earned it; it is his because God promised it to David&apos;s line. [res:iaa-judah-monarchy]',
         },
         {
           kind: 'hebrew',

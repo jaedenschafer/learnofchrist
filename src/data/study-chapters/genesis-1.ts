@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 1 — the gold-standard study guide. Every other chapter renders
+ * Genesis 1 - the gold-standard study guide. Every other chapter renders
  * with the same RichStudyGuide component and follows this shape.
  *
  * The text below was lifted verbatim from src/components/GenesisOneStudy.tsx
@@ -14,8 +14,8 @@ export const GENESIS_1: RichChapterContent = {
 
   estimatedMinutes: { beginner: 11, intermediate: 18, deep: 22 },
   intros: [
-    'Genesis 1 tells how God brought the world into being over seven days. Days one through three form the spaces of creation — light, sky, land. Days four through six fill those spaces — sun and moon, fish and birds, animals and humans. Day seven, God rests. Each day follows the same pattern: God speaks, what He speaks comes to be, He calls it good.',
-    'The chapter was written into a world full of other creation stories — Babylonian[res:enuma-elish-bm], Egyptian, Canaanite — with violent gods, cosmic battles, and humans made as slaves. Genesis answers them all[res:bibleodyssey-creation-stories]. One God. Creation by peaceful speech. Humans made in His image. And for the reader on this side of the cross, the fingerprints of Christ are already everywhere: the Word who speaks, the Light before the sun, the Image we are made after, the Rest we are invited into.',
+    'Genesis 1 tells how God brought the world into being over seven days. Days one through three form the spaces of creation - light, sky, land. Days four through six fill those spaces - sun and moon, fish and birds, animals and humans. Day seven, God rests. Each day follows the same pattern: God speaks, what He speaks comes to be, He calls it good.',
+    'The chapter was written into a world full of other creation stories - Babylonian[res:enuma-elish-bm], Egyptian, Canaanite - with violent gods, cosmic battles, and humans made as slaves. Genesis answers them all[res:bibleodyssey-creation-stories]. One God. Creation by peaceful speech. Humans made in His image. And for the reader on this side of the cross, the fingerprints of Christ are already everywhere: the Word who speaks, the Light before the sun, the Image we are made after, the Rest we are invited into.',
   ],
 
   opener: {
@@ -55,14 +55,14 @@ export const GENESIS_1: RichChapterContent = {
       source: 'Sefaria',
       label: 'Genesis 1 · Hebrew + Jewish commentary',
       url: 'https://www.sefaria.org/Genesis.1',
-      description: 'Hebrew text with Rashi, Ibn Ezra, Ramban side-by-side — useful for the <em>bara&apos;</em> vs <em>asah</em> question.',
+      description: 'Hebrew text with Rashi, Ibn Ezra, Ramban side-by-side - useful for the <em>bara&apos;</em> vs <em>asah</em> question.',
     },
   ],
 
   sections: [
-    /* ─── Genesis 1:1–2 — The Beginning ───────────────────────────────── */
+    /* ─── Genesis 1:1-2 - The Beginning ───────────────────────────────── */
     {
-      ref: 'Genesis 1:1–2',
+      ref: 'Genesis 1:1-2',
       title: 'The Beginning',
       blocks: [
         {
@@ -84,14 +84,14 @@ export const GENESIS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-bara',
           html:
-            'God is not argued for — He is simply already there. Two Hebrew verbs run side by side through this chapter: <em>bara&apos;</em>[res:sefaria-genesis-1], a word whose subject is almost always God, and <em>asah</em>, &ldquo;to make, fashion, work.&rdquo; They trade places across the account — <em>bara&apos;</em> for humanity in verse 27, <em>asah</em> for the sun and stars in verse 16. Neither verb dictates <em>how</em> anything was made. <em>Bara&apos;</em> is used even where material clearly existed already, as in Genesis 5:2, which names the making of male and female humanity a <em>bara&apos;</em> act — yet Eve, we are told, was formed from Adam&apos;s side. Genesis is less interested in the mechanism than in the Maker.',
+            'God is not argued for - He is simply already there. Two Hebrew verbs run side by side through this chapter: <em>bara&apos;</em>[res:sefaria-genesis-1], a word whose subject is almost always God, and <em>asah</em>, &ldquo;to make, fashion, work.&rdquo; They trade places across the account - <em>bara&apos;</em> for humanity in verse 27, <em>asah</em> for the sun and stars in verse 16. Neither verb dictates <em>how</em> anything was made. <em>Bara&apos;</em> is used even where material clearly existed already, as in Genesis 5:2, which names the making of male and female humanity a <em>bara&apos;</em> act - yet Eve, we are told, was formed from Adam&apos;s side. Genesis is less interested in the mechanism than in the Maker.',
         },
         {
           kind: 'christ',
           id: 'christ-word',
-          title: 'Christ Connection — The Word at Creation',
+          title: 'Christ Connection - The Word at Creation',
           html:
-            'John opens his Gospel with the same three words Genesis opens with: <em>In the beginning</em>. &ldquo;In the beginning was the Word, and the Word was with God, and the Word was God… All things were made by him&rdquo; (John 1:1, 3). Every time you read &ldquo;And God said&rdquo; in this chapter, John is telling you the one doing the speaking is Jesus. The Spirit of God is already hovering over the waters in verse 2. From Genesis 1:1, the God who creates is never working alone.',
+            'John opens his Gospel with the same three words Genesis opens with: <em>In the beginning</em>. &ldquo;In the beginning was the Word, and the Word was with God, and the Word was God... All things were made by him&rdquo; (John 1:1, 3). Every time you read &ldquo;And God said&rdquo; in this chapter, John is telling you the one doing the speaking is Jesus. The Spirit of God is already hovering over the waters in verse 2. From Genesis 1:1, the God who creates is never working alone.',
         },
 
         {
@@ -116,12 +116,12 @@ export const GENESIS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-tohu',
           html:
-            'The earth is described as <em>tohu wa-bohu</em> — &ldquo;wild and waste.&rdquo; Not evil, just unlivable. A shapeless, lifeless place, with the potential for life still locked inside it. This is the canvas God starts with.',
+            'The earth is described as <em>tohu wa-bohu</em> - &ldquo;wild and waste.&rdquo; Not evil, just unlivable. A shapeless, lifeless place, with the potential for life still locked inside it. This is the canvas God starts with.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-tehom',
-          title: 'Tehom — &ldquo;the deep&rdquo;',
+          title: 'Tehom - &ldquo;the deep&rdquo;',
           script: 'תְּהוֹם',
           translit: '<strong>tehom</strong> · the primeval chaos-waters',
           description:
@@ -136,20 +136,20 @@ export const GENESIS_1: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'If anything in your life feels a little like <em>tohu wa-bohu</em> right now — shapeless, dim, not yet settled — the very first act of God in the Bible is to hover over a place exactly like that. The Spirit doesn&apos;t wait for the waters to calm. He is already moving, tender as an eagle over its young. Whatever part of your story still looks unformed is not outside His care; it is where He is most at home.',
+            'If anything in your life feels a little like <em>tohu wa-bohu</em> right now - shapeless, dim, not yet settled - the very first act of God in the Bible is to hover over a place exactly like that. The Spirit doesn&apos;t wait for the waters to calm. He is already moving, tender as an eagle over its young. Whatever part of your story still looks unformed is not outside His care; it is where He is most at home.',
         },
         {
           kind: 'reflection',
           id: 'beginning',
           prompt:
-            "Where in your life does something look like tohu wa-bohu — unformed, dark, not yet livable? What would change if you actually believed God's Spirit is already moving over it?",
+            "Where in your life does something look like tohu wa-bohu - unformed, dark, not yet livable? What would change if you actually believed God's Spirit is already moving over it?",
         },
       ],
     },
 
     /* ─── Day 1 ───────────────────────────────────────────────────────── */
     {
-      ref: 'Creation Day 1 · Genesis 1:3–5',
+      ref: 'Creation Day 1 · Genesis 1:3-5',
       title: 'Light',
       blocks: [
         {
@@ -170,14 +170,14 @@ export const GENESIS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-light-before-sun',
           html:
-            'Light appears before the sun, which does not arrive until day four. This is not a scientific oversight — it is a theological statement. Light is not first the product of a burning star; light is first a gift given directly by God. The sun will later be demoted to a lamp God made.',
+            'Light appears before the sun, which does not arrive until day four. This is not a scientific oversight - it is a theological statement. Light is not first the product of a burning star; light is first a gift given directly by God. The sun will later be demoted to a lamp God made.',
         },
         {
           kind: 'christ',
           id: 'christ-light',
-          title: 'Christ Connection — The True Light',
+          title: 'Christ Connection - The True Light',
           html:
-            '&ldquo;God is light, and in him is no darkness at all&rdquo; (1 John 1:5). The One who said <em>let there be light</em> on day one stepped into His own world and said, &ldquo;I am the light of the world&rdquo; (John 8:12). Paul draws the line directly: &ldquo;God, who commanded the light to shine out of darkness, hath shined in our hearts, to give the light of the knowledge of the glory of God in the face of Jesus Christ&rdquo; (2 Cor. 4:6). The same voice, the same light — now with a face.',
+            '&ldquo;God is light, and in him is no darkness at all&rdquo; (1 John 1:5). The One who said <em>let there be light</em> on day one stepped into His own world and said, &ldquo;I am the light of the world&rdquo; (John 8:12). Paul draws the line directly: &ldquo;God, who commanded the light to shine out of darkness, hath shined in our hearts, to give the light of the knowledge of the glory of God in the face of Jesus Christ&rdquo; (2 Cor. 4:6). The same voice, the same light - now with a face.',
         },
 
         {
@@ -204,30 +204,30 @@ export const GENESIS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-havdil',
           html:
-            'The Hebrew word for &ldquo;divided&rdquo; (<em>havdil</em>) is the priestly word for distinguishing the holy from the common. The first priestly act in the Bible is God&apos;s own — and every act of separation God makes through the rest of the chapter flows from this one.',
+            'The Hebrew word for &ldquo;divided&rdquo; (<em>havdil</em>) is the priestly word for distinguishing the holy from the common. The first priestly act in the Bible is God&apos;s own - and every act of separation God makes through the rest of the chapter flows from this one.',
         },
         {
           kind: 'carry',
           html:
-            'Before God ever fills a life, He very often begins with a line — <em>this is not that.</em> A priestly kind of separation, the text calls it. Looking back, you can almost always see them in your own story: a season when something quietly got named, a difference that finally became clear, a space that gently opened. Every such line has been His work. The ones you may be sensing now are probably His too.',
+            'Before God ever fills a life, He very often begins with a line - <em>this is not that.</em> A priestly kind of separation, the text calls it. Looking back, you can almost always see them in your own story: a season when something quietly got named, a difference that finally became clear, a space that gently opened. Every such line has been His work. The ones you may be sensing now are probably His too.',
         },
         {
           kind: 'reflection',
           id: 'day-1',
           prompt:
-            'What is the first line God may be asking you to draw this week — work hours from family hours, scrolling from presence, noise from silence? Name it.',
+            'What is the first line God may be asking you to draw this week - work hours from family hours, scrolling from presence, noise from silence? Name it.',
         },
         {
           kind: 'artwork',
           matchTitle: /separation of light/i,
-          caption: 'Genesis 1:3–5 · Day One',
+          caption: 'Genesis 1:3-5 · Day One',
         },
       ],
     },
 
     /* ─── Day 2 ───────────────────────────────────────────────────────── */
     {
-      ref: 'Creation Day 2 · Genesis 1:6–8',
+      ref: 'Creation Day 2 · Genesis 1:6-8',
       title: 'The Expanse',
       blocks: [
         {
@@ -262,16 +262,16 @@ export const GENESIS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-day2',
           html:
-            'Creation Day 2 is the only day without &ldquo;God saw that it was good.&rdquo; The separation begun here isn&apos;t finished until day three, when the land appears. A boundary by itself is never the goal — only what it makes room for.',
+            'Creation Day 2 is the only day without &ldquo;God saw that it was good.&rdquo; The separation begun here isn&apos;t finished until day three, when the land appears. A boundary by itself is never the goal - only what it makes room for.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-raqia',
-          title: 'Raqia&apos; — &ldquo;firmament&rdquo;',
+          title: 'Raqia&apos; - &ldquo;firmament&rdquo;',
           script: 'רָקִיעַ',
           translit: '<strong>raqia&apos;</strong> · something hammered thin, like beaten metal',
           description:
-            'Ancient Israelites pictured the sky as a solid dome holding back heavenly waters. Genesis works inside that picture — it is not teaching us astronomy; it is teaching us who made the sky.',
+            'Ancient Israelites pictured the sky as a solid dome holding back heavenly waters. Genesis works inside that picture - it is not teaching us astronomy; it is teaching us who made the sky.',
         },
         {
           kind: 'reflection',
@@ -283,7 +283,7 @@ export const GENESIS_1: RichChapterContent = {
 
     /* ─── Day 3 ───────────────────────────────────────────────────────── */
     {
-      ref: 'Creation Day 3 · Genesis 1:9–13',
+      ref: 'Creation Day 3 · Genesis 1:9-13',
       title: 'Dry Land and Green',
       blocks: [
         {
@@ -339,19 +339,19 @@ export const GENESIS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-bring-forth',
           html:
-            'God does not place plants on the earth Himself. He says, &ldquo;Let the earth bring forth,&rdquo; and grants the ground its own capacity to produce. From day three on, creation has a partner in its own fruitfulness. Plants arrive before the sun — life is rooted in God&apos;s word, not in sunlight.',
+            'God does not place plants on the earth Himself. He says, &ldquo;Let the earth bring forth,&rdquo; and grants the ground its own capacity to produce. From day three on, creation has a partner in its own fruitfulness. Plants arrive before the sun - life is rooted in God&apos;s word, not in sunlight.',
         },
         {
           kind: 'christ',
           id: 'christ-seed',
-          title: 'Christ Connection — The Seed That Dies',
+          title: 'Christ Connection - The Seed That Dies',
           html:
-            'Three times in the Hebrew: seed, seed, seed. Jesus takes that image and makes it His own: &ldquo;Except a corn of wheat fall into the ground and die, it abideth alone: but if it die, it bringeth forth much fruit&rdquo; (John 12:24). The whole logic of day three — a seed holding life inside itself, buried in the ground, producing more than itself — is the logic of the cross and the empty tomb.',
+            'Three times in the Hebrew: seed, seed, seed. Jesus takes that image and makes it His own: &ldquo;Except a corn of wheat fall into the ground and die, it abideth alone: but if it die, it bringeth forth much fruit&rdquo; (John 12:24). The whole logic of day three - a seed holding life inside itself, buried in the ground, producing more than itself - is the logic of the cross and the empty tomb.',
         },
         {
           kind: 'carry',
           html:
-            'Your spreadsheet, your sermon, your painting, your business, the meal you cooked tonight, the homework you helped with — none of these compete with God. They are echoes of day three: the ground bringing forth what He first planted in it. Ordinary work, done with a seed He gave you, <em>is</em> spiritual. Whatever small good thing came out of you today was already the earth obeying Him.',
+            'Your spreadsheet, your sermon, your painting, your business, the meal you cooked tonight, the homework you helped with - none of these compete with God. They are echoes of day three: the ground bringing forth what He first planted in it. Ordinary work, done with a seed He gave you, <em>is</em> spiritual. Whatever small good thing came out of you today was already the earth obeying Him.',
         },
         { kind: 'divider' },
         {
@@ -362,14 +362,14 @@ export const GENESIS_1: RichChapterContent = {
         {
           kind: 'artwork',
           matchTitle: /separation of the earth/i,
-          caption: 'Genesis 1:9–10 · Day Three',
+          caption: 'Genesis 1:9-10 · Day Three',
         },
       ],
     },
 
     /* ─── Day 4 ───────────────────────────────────────────────────────── */
     {
-      ref: 'Creation Day 4 · Genesis 1:14–19',
+      ref: 'Creation Day 4 · Genesis 1:14-19',
       title: 'Lights to Rule',
       blocks: [
         {
@@ -394,7 +394,7 @@ export const GENESIS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-rhythms',
           html:
-            'God made a world of rhythms — morning and evening, summer and winter, planting and harvest. His creation moves in patterns, and His people are meant to live by them.',
+            'God made a world of rhythms - morning and evening, summer and winter, planting and harvest. His creation moves in patterns, and His people are meant to live by them.',
         },
 
         {
@@ -436,27 +436,27 @@ export const GENESIS_1: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-star',
-          title: 'Christ Connection — Sun of Righteousness, Morning Star',
+          title: 'Christ Connection - Sun of Righteousness, Morning Star',
           html:
-            'The final prophet of the Old Testament calls the coming Messiah &ldquo;the Sun of righteousness… with healing in his wings&rdquo; (Mal. 4:2). The final page of the New Testament has Jesus say, &ldquo;I am the root and the offspring of David, and the bright and morning star&rdquo; (Rev. 22:16). The sun and stars on day four are placeholders. The Light they point to eventually shows up in person — and when He does, the light of sun and stars becomes unnecessary: &ldquo;and the city had no need of the sun… for the Lamb is the light thereof&rdquo; (Rev. 21:23).',
+            'The final prophet of the Old Testament calls the coming Messiah &ldquo;the Sun of righteousness... with healing in his wings&rdquo; (Mal. 4:2). The final page of the New Testament has Jesus say, &ldquo;I am the root and the offspring of David, and the bright and morning star&rdquo; (Rev. 22:16). The sun and stars on day four are placeholders. The Light they point to eventually shows up in person - and when He does, the light of sun and stars becomes unnecessary: &ldquo;and the city had no need of the sun... for the Lamb is the light thereof&rdquo; (Rev. 21:23).',
         },
         {
           kind: 'carry',
           html:
-            'Genesis demotes the sun and moon to lamps — and the things that keep taking over your life can be demoted too. The career that decides your mood. The phone that dictates where your attention goes. The person you can&apos;t imagine losing. The news cycle that pulls your whole day around. Pick one today and call it what Genesis calls the sun: a lamp. Useful, sometimes. Beautiful, sometimes. Not God. Jesus is the Light all of them were always pointing to — and only He belongs at the center of your sky.',
+            'Genesis demotes the sun and moon to lamps - and the things that keep taking over your life can be demoted too. The career that decides your mood. The phone that dictates where your attention goes. The person you can&apos;t imagine losing. The news cycle that pulls your whole day around. Pick one today and call it what Genesis calls the sun: a lamp. Useful, sometimes. Beautiful, sometimes. Not God. Jesus is the Light all of them were always pointing to - and only He belongs at the center of your sky.',
         },
         {
           kind: 'reflection',
           id: 'day-4',
           prompt:
-            "What 'suns' have been quietly ruling your rhythms — career, approval, a screen, a relationship? What would it look like to demote them back to lamps, with God as the real light?",
+            "What 'suns' have been quietly ruling your rhythms - career, approval, a screen, a relationship? What would it look like to demote them back to lamps, with God as the real light?",
         },
       ],
     },
 
     /* ─── Day 5 ───────────────────────────────────────────────────────── */
     {
-      ref: 'Creation Day 5 · Genesis 1:20–23',
+      ref: 'Creation Day 5 · Genesis 1:20-23',
       title: 'Fish and Birds',
       blocks: [
         {
@@ -481,7 +481,7 @@ export const GENESIS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-seamonsters',
           html:
-            'In the stories around Israel, sea monsters were terrifying rivals to the gods. Genesis calls them creatures — made by God, blessed by God, called good. The sea itself, which will be the Bible&apos;s ongoing symbol of chaos, is filled with things God delights in.',
+            'In the stories around Israel, sea monsters were terrifying rivals to the gods. Genesis calls them creatures - made by God, blessed by God, called good. The sea itself, which will be the Bible&apos;s ongoing symbol of chaos, is filled with things God delights in.',
         },
 
         {
@@ -506,12 +506,12 @@ export const GENESIS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-blessing',
           html:
-            'The first blessing in the Bible is spoken over a fish and a bird. Before humanity exists, God is blessing living things — not as a reward, but as the gift of life&apos;s capacity to keep going. There are exactly three blessings in the Genesis creation account: creatures, humans, and the seventh day. Blessing is not an afterthought in the Bible. It is the architecture of creation.',
+            'The first blessing in the Bible is spoken over a fish and a bird. Before humanity exists, God is blessing living things - not as a reward, but as the gift of life&apos;s capacity to keep going. There are exactly three blessings in the Genesis creation account: creatures, humans, and the seventh day. Blessing is not an afterthought in the Bible. It is the architecture of creation.',
         },
         {
           kind: 'carry',
           html:
-            'The first blessing in the Bible is spoken over a bird and a fish. Before God even makes us, He is already delighting in small living things. A minute outside — a sparrow at the feeder, a tree leafing out, the face of someone you love — is a chance to simply agree with Him: &ldquo;it is good.&rdquo; No task, no program. Just the oldest kind of prayer there is.',
+            'The first blessing in the Bible is spoken over a bird and a fish. Before God even makes us, He is already delighting in small living things. A minute outside - a sparrow at the feeder, a tree leafing out, the face of someone you love - is a chance to simply agree with Him: &ldquo;it is good.&rdquo; No task, no program. Just the oldest kind of prayer there is.',
         },
         {
           kind: 'reflection',
@@ -523,7 +523,7 @@ export const GENESIS_1: RichChapterContent = {
 
     /* ─── Day 6 · Land Animals ────────────────────────────────────────── */
     {
-      ref: 'Creation Day 6 · Genesis 1:24–25',
+      ref: 'Creation Day 6 · Genesis 1:24-25',
       title: 'Land Animals',
       blocks: [
         {
@@ -548,14 +548,14 @@ export const GENESIS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-kinds',
           html:
-            'God makes life in many kinds — each distinct, each specific, each good. Difference is not a problem in creation. It is a design.',
+            'God makes life in many kinds - each distinct, each specific, each good. Difference is not a problem in creation. It is a design.',
         },
       ],
     },
 
     /* ─── Day 6 · Image ───────────────────────────────────────────────── */
     {
-      ref: 'Creation Day 6 · Genesis 1:26–28',
+      ref: 'Creation Day 6 · Genesis 1:26-28',
       title: 'Made in God&apos;s Image',
       blocks: [
         {
@@ -582,18 +582,18 @@ export const GENESIS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-letusmake',
           html:
-            'Notice the shift: &ldquo;Let <em>us</em> make.&rdquo; After five days of solo speech, God speaks in the plural for the first time. Readers across centuries have heard this &ldquo;us&rdquo; many ways — some hearing God addressing His heavenly court, some hearing Jesus already present with the Father, some simply noting the weight given to the moment humanity enters the story. Whatever the plural names, this climactic act comes out of relationship, not isolation.',
+            'Notice the shift: &ldquo;Let <em>us</em> make.&rdquo; After five days of solo speech, God speaks in the plural for the first time. Readers across centuries have heard this &ldquo;us&rdquo; many ways - some hearing God addressing His heavenly court, some hearing Jesus already present with the Father, some simply noting the weight given to the moment humanity enters the story. Whatever the plural names, this climactic act comes out of relationship, not isolation.',
         },
         {
           kind: 'commentary',
           id: 'c-carved-image',
           html:
-            'In the ancient world, a king would set up a carved image of himself in a distant province — a stone statue declaring <em>this land belongs to me.</em> Genesis uses exactly that word for human beings. Every person is a living statue God has set up in His world. The most revolutionary sentence in ancient literature is right here: not just the king, not just the priest, not just the elite — <em>every human</em> bears the image of God.',
+            'In the ancient world, a king would set up a carved image of himself in a distant province - a stone statue declaring <em>this land belongs to me.</em> Genesis uses exactly that word for human beings. Every person is a living statue God has set up in His world. The most revolutionary sentence in ancient literature is right here: not just the king, not just the priest, not just the elite - <em>every human</em> bears the image of God.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-tselem',
-          title: 'Tselem — &ldquo;image&rdquo;',
+          title: 'Tselem - &ldquo;image&rdquo;',
           script: 'צֶלֶם',
           translit: '<strong>tselem</strong> · a carved statue; a royal representation',
           description:
@@ -621,27 +621,27 @@ export const GENESIS_1: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-image',
-          title: 'Christ Connection — The True Image',
+          title: 'Christ Connection - The True Image',
           html:
-            'Genesis says humanity is the image of God. Paul goes further and says Jesus <em>is</em> &ldquo;the image of the invisible God&rdquo; (Col. 1:15), and that we are being &ldquo;conformed to the image of his Son&rdquo; (Rom. 8:29). The image was cracked in Eden; Christ is the unbroken Image — and salvation is not only forgiveness, it is being slowly restored to look like Him. Day six was always pointing at Jesus.',
+            'Genesis says humanity is the image of God. Paul goes further and says Jesus <em>is</em> &ldquo;the image of the invisible God&rdquo; (Col. 1:15), and that we are being &ldquo;conformed to the image of his Son&rdquo; (Rom. 8:29). The image was cracked in Eden; Christ is the unbroken Image - and salvation is not only forgiveness, it is being slowly restored to look like Him. Day six was always pointing at Jesus.',
         },
         {
           kind: 'carry',
           html:
-            'Every face you pass today is a living image God set up in His world — the coworker, the cashier, the driver, the kid in aisle five, the face in the mirror. The revolutionary claim of Genesis 1 is that <em>every one of them</em> carries His image, not only the powerful or the holy. Whatever love and patience you&apos;ve ever shown one of them has been, quietly, a kind of worship.',
+            'Every face you pass today is a living image God set up in His world - the coworker, the cashier, the driver, the kid in aisle five, the face in the mirror. The revolutionary claim of Genesis 1 is that <em>every one of them</em> carries His image, not only the powerful or the holy. Whatever love and patience you&apos;ve ever shown one of them has been, quietly, a kind of worship.',
         },
         {
           kind: 'artwork',
           matchTitle: /adam/i,
           matchArtist: /bennett/i,
-          caption: 'Genesis 1:26–28 · Made in His Image',
+          caption: 'Genesis 1:26-28 · Made in His Image',
         },
       ],
     },
 
     /* ─── Day 6 · Very Good ───────────────────────────────────────────── */
     {
-      ref: 'Creation Day 6 · Genesis 1:29–31',
+      ref: 'Creation Day 6 · Genesis 1:29-31',
       title: 'Very Good',
       blocks: [
         {
@@ -666,7 +666,7 @@ export const GENESIS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-provision',
           html:
-            'God provisions the world — every seed-bearing plant for humans, every green plant for animals. He takes responsibility for what He has made.',
+            'God provisions the world - every seed-bearing plant for humans, every green plant for animals. He takes responsibility for what He has made.',
         },
 
         {
@@ -687,12 +687,12 @@ export const GENESIS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-seven-goods',
           html:
-            'Count the word &ldquo;good&rdquo; across Genesis 1 and you get seven — the Bible&apos;s number for completeness. For five days God calls His work &ldquo;good.&rdquo; On the sixth He looks at the whole thing and says something new: <em>very good.</em> The Bible begins with a Creator delighting in what He has made.',
+            'Count the word &ldquo;good&rdquo; across Genesis 1 and you get seven - the Bible&apos;s number for completeness. For five days God calls His work &ldquo;good.&rdquo; On the sixth He looks at the whole thing and says something new: <em>very good.</em> The Bible begins with a Creator delighting in what He has made.',
         },
         {
           kind: 'carry',
           html:
-            'Somewhere in your day there was a <em>good</em> — a conversation that landed, five minutes of sun on your face, a meal you didn&apos;t rush, the face of someone you love, a small kindness. God&apos;s rhythm in Genesis 1 is to name those things out loud before He rests. When you notice one, you are echoing the Creator who looked over what He made and delighted in it.',
+            'Somewhere in your day there was a <em>good</em> - a conversation that landed, five minutes of sun on your face, a meal you didn&apos;t rush, the face of someone you love, a small kindness. God&apos;s rhythm in Genesis 1 is to name those things out loud before He rests. When you notice one, you are echoing the Creator who looked over what He made and delighted in it.',
         },
         { kind: 'divider' },
         {
@@ -706,7 +706,7 @@ export const GENESIS_1: RichChapterContent = {
 
     /* ─── Day 7 ───────────────────────────────────────────────────────── */
     {
-      ref: 'Creation Day 7 · Genesis 2:1–3',
+      ref: 'Creation Day 7 · Genesis 2:1-3',
       title: 'Rest',
       blocks: [
         {
@@ -731,7 +731,7 @@ export const GENESIS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-king-rests',
           html:
-            'God is not tired; the work is simply done. In the ancient world, a king &ldquo;rested&rdquo; when his temple was finished — meaning he moved in and began to reign. Day seven is God taking His place in the world He has made. The whole creation is His temple; humans are the priests inside it; the seventh day is the throne room.',
+            'God is not tired; the work is simply done. In the ancient world, a king &ldquo;rested&rdquo; when his temple was finished - meaning he moved in and began to reign. Day seven is God taking His place in the world He has made. The whole creation is His temple; humans are the priests inside it; the seventh day is the throne room.',
         },
 
         {
@@ -761,7 +761,7 @@ export const GENESIS_1: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-kadosh',
-          title: 'Kadosh — &ldquo;holy&rdquo;',
+          title: 'Kadosh - &ldquo;holy&rdquo;',
           script: 'קָדוֹשׁ',
           translit: '<strong>kadosh</strong> · set apart, consecrated',
           description:
@@ -771,19 +771,19 @@ export const GENESIS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-sabbath-today',
           html:
-            'What does a holy day look like right now, in a world of 24/7 notifications, weekend emails, and a calendar that never stops filling? Not a rule to enforce — a rhythm to receive. One day a week where you stop producing and start receiving. Phones in a drawer. A long meal with the people you love. A walk without a podcast. Worship with other believers. Saying out loud what the rest of the week is too busy to admit: <em>the world can turn without me, because God is the one holding it together.</em> The Sabbath is God&apos;s weekly way of teaching you that you are a human, not a machine, and that your worth is never your output.',
+            'What does a holy day look like right now, in a world of 24/7 notifications, weekend emails, and a calendar that never stops filling? Not a rule to enforce - a rhythm to receive. One day a week where you stop producing and start receiving. Phones in a drawer. A long meal with the people you love. A walk without a podcast. Worship with other believers. Saying out loud what the rest of the week is too busy to admit: <em>the world can turn without me, because God is the one holding it together.</em> The Sabbath is God&apos;s weekly way of teaching you that you are a human, not a machine, and that your worth is never your output.',
         },
         {
           kind: 'christ',
           id: 'christ-rest',
-          title: 'Christ Connection — The True Rest',
+          title: 'Christ Connection - The True Rest',
           html:
-            'God&apos;s rest on day seven is the one day in Genesis 1 that has no &ldquo;evening and morning.&rdquo; It is left open. Hebrews picks that up: &ldquo;There remaineth therefore a rest to the people of God&rdquo; (Heb. 4:9). Jesus steps into that open seventh day and says, &ldquo;Come unto me, all ye that labour and are heavy laden, and I will give you rest&rdquo; (Matt. 11:28). Creation ends with an invitation — an unfinished day waiting for us to enter it through Him.',
+            'God&apos;s rest on day seven is the one day in Genesis 1 that has no &ldquo;evening and morning.&rdquo; It is left open. Hebrews picks that up: &ldquo;There remaineth therefore a rest to the people of God&rdquo; (Heb. 4:9). Jesus steps into that open seventh day and says, &ldquo;Come unto me, all ye that labour and are heavy laden, and I will give you rest&rdquo; (Matt. 11:28). Creation ends with an invitation - an unfinished day waiting for us to enter it through Him.',
         },
         {
           kind: 'carry',
           html:
-            'Rest in Genesis is not collapse; it is a king taking his throne. The seventh day is left open in the text — no evening and morning, no closing phrase — as if waiting for you to step into it. Whatever shape rest takes in your week, time with God and with the people you love is not time subtracted from real life. It is the place where real life actually begins.',
+            'Rest in Genesis is not collapse; it is a king taking his throne. The seventh day is left open in the text - no evening and morning, no closing phrase - as if waiting for you to step into it. Whatever shape rest takes in your week, time with God and with the people you love is not time subtracted from real life. It is the place where real life actually begins.',
         },
         {
           kind: 'reflection',

@@ -1,10 +1,10 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 13 — Abram and Lot part ways. A chapter about generosity and the
+ * Genesis 13 - Abram and Lot part ways. A chapter about generosity and the
  * sight of the soul. Abram, the promise-bearer, defers to his nephew Lot.
  * Lot's eyes see the plain of Jordan as "even as the garden of the LORD,"
- * but it leads toward Sodom. Abram looks by faith, not by sight — and God
+ * but it leads toward Sodom. Abram looks by faith, not by sight - and God
  * reaffirms the land promise.
  */
 export const GENESIS_13: RichChapterContent = {
@@ -14,8 +14,8 @@ export const GENESIS_13: RichChapterContent = {
 
   estimatedMinutes: { beginner: 6, intermediate: 9, deep: 12 },
   intros: [
-    'Genesis 13 is a chapter about what we choose with our eyes and what we choose by faith. Abram and Lot have grown too rich to share the same pastures; their herdsmen quarrel over water and grazing. In any other story, the older man and the promise-bearer would claim the best land for himself. Abram does the opposite. He offers Lot first choice — an act of deference so complete it foreshadows the one who "made himself of no reputation." Lot\'s eyes see what looks like Eden. But the text whispers: it is toward Sodom.',
-    'The chapter turns on a single Hebrew phrase, *nasa\' eynayim* — "to lift up the eyes." Lot lifts his eyes toward the well-watered plain. Then God tells Abram to lift his eyes too, and look in every direction, and promise him all he can see. What Lot chose by sight, Abram receives [res:bibleodyssey-abraham-covenant] by promise. What Lot saw as beautiful, God says is destined for judgment. The same gaze. Different destinations.',
+    'Genesis 13 is a chapter about what we choose with our eyes and what we choose by faith. Abram and Lot have grown too rich to share the same pastures; their herdsmen quarrel over water and grazing. In any other story, the older man and the promise-bearer would claim the best land for himself. Abram does the opposite. He offers Lot first choice - an act of deference so complete it foreshadows the one who "made himself of no reputation." Lot\'s eyes see what looks like Eden. But the text whispers: it is toward Sodom.',
+    'The chapter turns on a single Hebrew phrase, *nasa\' eynayim* - "to lift up the eyes." Lot lifts his eyes toward the well-watered plain. Then God tells Abram to lift his eyes too, and look in every direction, and promise him all he can see. What Lot chose by sight, Abram receives [res:bibleodyssey-abraham-covenant] by promise. What Lot saw as beautiful, God says is destined for judgment. The same gaze. Different destinations.',
   ],
 
   bottomShare: {
@@ -54,9 +54,9 @@ export const GENESIS_13: RichChapterContent = {
   ],
 
   sections: [
-    /* ─── Genesis 13:1–4 — Abram Returns to the Altar ─────────────────── */
+    /* ─── Genesis 13:1-4 - Abram Returns to the Altar ─────────────────── */
     {
-      ref: 'Genesis 13:1–4',
+      ref: 'Genesis 13:1-4',
       title: 'Abram Returns to the Altar',
       blocks: [
         {
@@ -101,12 +101,12 @@ export const GENESIS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'c-abram-wealth',
           html:
-            'Abram&apos;s time in Egypt was fruitful and strange. He acquired cattle, silver, and gold — wealth that will become the seed of conflict. The narrator does not tell us whether Abram&apos;s growing riches were a blessing or a trial. The next scene will answer[res:sefaria-genesis-13][res:pennmuseum-abraham-era].',
+            'Abram&apos;s time in Egypt was fruitful and strange. He acquired cattle, silver, and gold - wealth that will become the seed of conflict. The narrator does not tell us whether Abram&apos;s growing riches were a blessing or a trial. The next scene will answer[res:sefaria-genesis-13][res:pennmuseum-abraham-era].',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-bethel',
-          title: 'Bethel — &ldquo;house of God&rdquo;',
+          title: 'Bethel - &ldquo;house of God&rdquo;',
           script: 'בֵּית־אֵל',
           translit: '<strong>Bethel</strong> · house of God',
           description:
@@ -116,21 +116,21 @@ export const GENESIS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'c-altar-return',
           html:
-            'Abram does not ask God for more. He goes back to the altar he had made himself — and there, after Egypt and its compromises, after his wife was taken into Pharaoh&apos;s house, after all the complication, he simply calls on the LORD&apos;s name. The altar precedes the prayer. The place he had set apart for God becomes the place he finds his way back.',
+            'Abram does not ask God for more. He goes back to the altar he had made himself - and there, after Egypt and its compromises, after his wife was taken into Pharaoh&apos;s house, after all the complication, he simply calls on the LORD&apos;s name. The altar precedes the prayer. The place he had set apart for God becomes the place he finds his way back.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-qara',
-          title: 'Qara — &ldquo;called upon&rdquo;',
+          title: 'Qara - &ldquo;called upon&rdquo;',
           script: 'קָרָא',
           translit: '<strong>qara</strong> · to call upon, to cry out, to summon',
           description:
-            'The word for calling on God&apos;s name is not whispered prayer but a public, deliberate utterance — as if Abram stands at his altar and says the LORD&apos;s name aloud, making it known, making it witnessed.',
+            'The word for calling on God&apos;s name is not whispered prayer but a public, deliberate utterance - as if Abram stands at his altar and says the LORD&apos;s name aloud, making it known, making it witnessed.',
         },
         {
           kind: 'carry',
           html:
-            'You may have an altar you built in a past season — a place you set apart for God. Not a building, maybe, but a corner of your day, or a discipline you kept, or a decision you made to keep His name at the center. Life gets complicated. You drift. And sometimes the faithfulness is not a fresh revelation, but a return: to go back to that place and call on His name again. The altar you built is still there.',
+            'You may have an altar you built in a past season - a place you set apart for God. Not a building, maybe, but a corner of your day, or a discipline you kept, or a decision you made to keep His name at the center. Life gets complicated. You drift. And sometimes the faithfulness is not a fresh revelation, but a return: to go back to that place and call on His name again. The altar you built is still there.',
         },
         {
           kind: 'reflection',
@@ -141,9 +141,9 @@ export const GENESIS_13: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 13:5–9 — The Strife Between Herdsmen ──────────────────── */
+    /* ─── Genesis 13:5-9 - The Strife Between Herdsmen ──────────────────── */
     {
-      ref: 'Genesis 13:5–9',
+      ref: 'Genesis 13:5-9',
       title: 'Strife Over Pasture, Generosity in Reply',
       blocks: [
         {
@@ -208,12 +208,12 @@ export const GENESIS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'c-brethren',
           html:
-            'Abram calls Lot his brother — not in the sense of blood (they are uncle and nephew) but in the sense of covenant family. The same covenant that binds them is precisely what makes their separation bearable. They are brothers in God&apos;s family, not competitors for God&apos;s land.',
+            'Abram calls Lot his brother - not in the sense of blood (they are uncle and nephew) but in the sense of covenant family. The same covenant that binds them is precisely what makes their separation bearable. They are brothers in God&apos;s family, not competitors for God&apos;s land.',
         },
         {
           kind: 'christ',
           id: 'christ-abram-defer',
-          title: 'Christ Connection — The Sacrifice of Precedence',
+          title: 'Christ Connection - The Sacrifice of Precedence',
           html:
             'Abram is the elder, the promise-bearer, the one to whom God has already appeared and spoken. By every right he should claim the first choice. Instead he yields it to Lot. Paul names this kind of deference as Christ&apos;s own posture: Jesus &ldquo;made himself of no reputation, and took upon him the form of a servant&rdquo; (Phil. 2:7). Abram&apos;s willingness to take the second place, to let his heir choose first, is a quiet foreshadowing of the one who emptied Himself for the sake of His people.',
         },
@@ -221,12 +221,12 @@ export const GENESIS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'c-separation',
           html:
-            'Abram does not command. He offers Lot a choice with both hands open: left or right, Lot decides, Abram will take what is left. There is a graciousness here that is almost tender — acknowledging Lot&apos;s dignity even as Abram lets go of what could have been his.',
+            'Abram does not command. He offers Lot a choice with both hands open: left or right, Lot decides, Abram will take what is left. There is a graciousness here that is almost tender - acknowledging Lot&apos;s dignity even as Abram lets go of what could have been his.',
         },
         {
           kind: 'carry',
           html:
-            'Generosity of this kind — not the spectacular kind, but the kind that lives in the small moments of everyday precedence — is rarer than you might think. Who chooses the restaurant, the movie, whose schedule changes. These little surrenders cost something because they involve letting go of the right to be first. But they are not loss. Abram gives up the choice and receives his nephew&apos;s respect. He yields and finds he has more, not less.',
+            'Generosity of this kind - not the spectacular kind, but the kind that lives in the small moments of everyday precedence - is rarer than you might think. Who chooses the restaurant, the movie, whose schedule changes. These little surrenders cost something because they involve letting go of the right to be first. But they are not loss. Abram gives up the choice and receives his nephew&apos;s respect. He yields and finds he has more, not less.',
         },
         {
           kind: 'reflection',
@@ -237,9 +237,9 @@ export const GENESIS_13: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 13:10–13 — Lot Chooses by Sight ────────────────────── */
+    /* ─── Genesis 13:10-13 - Lot Chooses by Sight ────────────────────── */
     {
-      ref: 'Genesis 13:10–13',
+      ref: 'Genesis 13:10-13',
       title: 'Lot Lifts His Eyes',
       blocks: [
         {
@@ -283,17 +283,17 @@ export const GENESIS_13: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-nasa-eynayim',
-          title: 'Nasa&apos; Eynayim — &ldquo;lifted up his eyes&rdquo;',
+          title: 'Nasa&apos; Eynayim - &ldquo;lifted up his eyes&rdquo;',
           script: 'נָשָׂא עֵינַיִם',
           translit: '<strong>nasa&apos; eynayim</strong> · lifted up the eyes; looked about; perceived',
           description:
-            'This same idiom appears twice in Genesis 13: Lot lifts his eyes toward Sodom (v.10), and God tells Abram to lift his eyes and look in every direction (v.14). The same verb, the same act of seeing — but seeing toward different destinations, with different eyes.',
+            'This same idiom appears twice in Genesis 13: Lot lifts his eyes toward Sodom (v.10), and God tells Abram to lift his eyes and look in every direction (v.14). The same verb, the same act of seeing - but seeing toward different destinations, with different eyes.',
         },
         {
           kind: 'commentary',
           id: 'c-lot-sees-eden',
           html:
-            'Lot sees the plain of Jordan and it looks to him like Eden. The narrator does not say Lot is wrong about what he sees — the land is beautiful, well-watered, green. But what Lot sees as Eden, God is about to judge. The narrator knows something Lot&apos;s eyes cannot see: this garden is already doomed. Sight is not the same as sight.',
+            'Lot sees the plain of Jordan and it looks to him like Eden. The narrator does not say Lot is wrong about what he sees - the land is beautiful, well-watered, green. But what Lot sees as Eden, God is about to judge. The narrator knows something Lot&apos;s eyes cannot see: this garden is already doomed. Sight is not the same as sight.',
         },
         {
           kind: 'commentary',
@@ -305,12 +305,12 @@ export const GENESIS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'c-sodom-wickedness',
           html:
-            'The verse is an editorial comment from the narrator. It arrives just after Lot has pitched his tent toward Sodom — not to condemn Lot as wicked, but to let the reader know what Lot&apos;s eyes cannot yet see. A warning, whispered.',
+            'The verse is an editorial comment from the narrator. It arrives just after Lot has pitched his tent toward Sodom - not to condemn Lot as wicked, but to let the reader know what Lot&apos;s eyes cannot yet see. A warning, whispered.',
         },
         {
           kind: 'carry',
           html:
-            'You know the feeling of looking at something and thinking <em>that looks good</em>. A place, a person, a way of life, a financial move — something that promises to be fruitful, well-watered, like a garden. Your eyes see the green. But the eyes have limits. They cannot see the future. They cannot see the character of the people inside the walls. They cannot see what will be true in seven years. Sometimes the most important sight is the sight that knows it is incomplete.',
+            'You know the feeling of looking at something and thinking <em>that looks good</em>. A place, a person, a way of life, a financial move - something that promises to be fruitful, well-watered, like a garden. Your eyes see the green. But the eyes have limits. They cannot see the future. They cannot see the character of the people inside the walls. They cannot see what will be true in seven years. Sometimes the most important sight is the sight that knows it is incomplete.',
         },
         {
           kind: 'reflection',
@@ -322,14 +322,14 @@ export const GENESIS_13: RichChapterContent = {
           kind: 'artwork',
           matchTitle: /lot/i,
           matchArtist: /separat/i,
-          caption: 'Genesis 13:10–13 · Lot Lifts His Eyes',
+          caption: 'Genesis 13:10-13 · Lot Lifts His Eyes',
         },
       ],
     },
 
-    /* ─── Genesis 13:14–18 — God Renews the Promise ────────────────────── */
+    /* ─── Genesis 13:14-18 - God Renews the Promise ────────────────────── */
     {
-      ref: 'Genesis 13:14–18',
+      ref: 'Genesis 13:14-18',
       title: 'The Promise Renewed by Walking',
       blocks: [
         {
@@ -376,14 +376,14 @@ export const GENESIS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'c-altar-promise',
           html:
-            'Abram builds another altar. Wherever he stops, he marks the place with worship. The land itself becomes sacred through his acknowledgment of it as God&apos;s gift. This is not idolatry; it is the opposite — a refusal to forget that the land is not his because he conquered it or because it looks good, but because God has given it.',
+            'Abram builds another altar. Wherever he stops, he marks the place with worship. The land itself becomes sacred through his acknowledgment of it as God&apos;s gift. This is not idolatry; it is the opposite - a refusal to forget that the land is not his because he conquered it or because it looks good, but because God has given it.',
         },
         {
           kind: 'christ',
           id: 'christ-promise-walk',
-          title: 'Christ Connection — By Promise, Not by Sight',
+          title: 'Christ Connection - By Promise, Not by Sight',
           html:
-            'Paul drives straight to this moment: &ldquo;By faith Abraham, when he was called to go out into a place which he should after receive for an inheritance, obeyed; and he went out, not knowing whither he went. By faith he sojourned in the land of promise, as in a strange country, dwelling in tabernacles with Isaac and Jacob, the heirs with him of the same promise: for he looked for a city which hath foundations, whose builder and maker is God&rdquo; (Heb. 11:8–10). Abram lived in tents his whole life, always looking forward. He never saw the promise fulfilled. But he saw the one who gave it. And he chose to trust that sight over the sight of his own eyes. This is the root of all faith: <em>now we see through a glass, darkly,</em> Paul writes, <em>but then face to face</em> (1 Cor. 13:12). Lot chose what he could see. Abram chose whom he could trust.',
+            'Paul drives straight to this moment: &ldquo;By faith Abraham, when he was called to go out into a place which he should after receive for an inheritance, obeyed; and he went out, not knowing whither he went. By faith he sojourned in the land of promise, as in a strange country, dwelling in tabernacles with Isaac and Jacob, the heirs with him of the same promise: for he looked for a city which hath foundations, whose builder and maker is God&rdquo; (Heb. 11:8-10). Abram lived in tents his whole life, always looking forward. He never saw the promise fulfilled. But he saw the one who gave it. And he chose to trust that sight over the sight of his own eyes. This is the root of all faith: <em>now we see through a glass, darkly,</em> Paul writes, <em>but then face to face</em> (1 Cor. 13:12). Lot chose what he could see. Abram chose whom he could trust.',
         },
         {
           kind: 'carry',
@@ -400,7 +400,7 @@ export const GENESIS_13: RichChapterContent = {
           kind: 'artwork',
           matchTitle: /abraham/i,
           matchArtist: /promise/i,
-          caption: 'Genesis 13:14–18 · The Renewed Promise',
+          caption: 'Genesis 13:14-18 · The Renewed Promise',
         },
       ],
     },

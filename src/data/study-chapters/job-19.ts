@@ -31,6 +31,17 @@ export const JOB_19: RichChapterContent = {
     ref: 'Job 19 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     /* ─── Job 19:1–12 — God as Enemy ──────────────────────────────────── */
     {
@@ -67,7 +78,7 @@ export const JOB_19: RichChapterContent = {
           kind: 'commentary',
           id: 'job19-grief-deepens',
           html:
-            'The complaint sharpens — God Himself has surrounded him, fenced him in, taken his honor away. Job is no longer asking why his friends have failed him; he is asking why God has not.',
+            'The complaint sharpens — God Himself has surrounded him, fenced him in, taken his honor away. Job is no longer asking why his friends have failed him; he is asking why God has not. [res:british-museum-ludlul]',
         },
         {
           kind: 'scripture',

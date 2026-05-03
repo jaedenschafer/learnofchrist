@@ -43,6 +43,17 @@ export const CHRONICLES_2_8: RichChapterContent = {
     ref: '2 Chronicles 8 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-cyrus',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'The Cyrus Cylinder',
+      url: 'https://www.britishmuseum.org/collection/objects/w3679',
+      description: 'Ancient Persian cylinder decree allowing return from exile and temple rebuilding.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 8:1–6 — The Building Works ──────────────────────── */
     {
@@ -104,7 +115,7 @@ export const CHRONICLES_2_8: RichChapterContent = {
           kind: 'commentary',
           id: 'store-cities',
           html:
-            'Store cities appear repeatedly in this list. These are not garrison towns but logistics centers — places where grain, oil, and supplies are held in reserve. They represent a kingdom thinking strategically about its own survival and capacity to extend power far from its center.',
+            'Store cities appear repeatedly in this list. These are not garrison towns but logistics centers — places where grain, oil, and supplies are held in reserve. They represent a kingdom thinking strategically about its own survival and capacity to extend power far from its center. [res:british-museum-cyrus]',
         },
         {
           kind: 'carry',

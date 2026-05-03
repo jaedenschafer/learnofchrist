@@ -31,6 +31,17 @@ export const JOB_16: RichChapterContent = {
     ref: 'Job 16 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Job 16:1–14',
@@ -50,7 +61,7 @@ export const JOB_16: RichChapterContent = {
           kind: 'commentary',
           id: 'job16-scorn-sorrow',
           html:
-            'Job transitions from describing the scorn of his enemies to his own inner grief. External mockery deepens to internal pain.',
+            'Job transitions from describing the scorn of his enemies to his own inner grief. External mockery deepens to internal pain. [res:british-museum-ludlul]',
         },
         {
           kind: 'scripture',

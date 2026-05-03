@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 41 — Joseph at thirty, exalted from the dungeon.
+ * Genesis 41 - Joseph at thirty, exalted from the dungeon.
  *
  * Pharaoh dreams. The magicians fail. The butler remembers the prisoner.
  * Joseph shaves, enters the palace, and speaks his first free words: "It is not
@@ -19,8 +19,8 @@ export const GENESIS_41: RichChapterContent = {
   estimatedMinutes: { beginner: 14, intermediate: 23, deep: 29 },
   intros: [
     'Genesis 41 opens with Pharaoh alone with his dreams. Two centuries before Egypt&apos;s wise men will decode the mysteries of their own temples, they stand mute before these seven cows and seven ears of grain [res:met-museum-egypt]. Nothing in the wisdom of Egypt can read what God is saying. The magicians fail. And in the dungeon, still thirteen years from home, Joseph waits without knowing that a dream is about to change everything.',
-    'Pay close attention to Joseph&apos;s first words when he stands before Pharaoh: "It is not in me." At the moment of his exaltation, when he could finally take credit — when Pharaoh himself is asking, when the kingdom is desperate — Joseph&apos;s first act is to deflect the credit away from himself [res:sefaria-genesis-41]. Even his freedom is not about Joseph. It is about God. That refusal to seize power for himself sets up everything that follows in Joseph&apos;s story: a man lifted up not by his own hands, but by the God who has been with him in the pit, the prison, and now the palace.',
-    'Manasseh and Ephraim. The names Joseph gives his sons are not accidental. They are the prayer of a man who has been broken and healed [res:bibleodyssey-joseph-egypt]. Manasseh — "God hath made me forget" — speaks of a grace that does not deny the pain but somehow makes it bearable. And Ephraim — "God hath caused me to be fruitful in the land of my affliction" — is the deeper pattern: not only forgetting the bitter, but bearing new life out of it. This is resurrection logic a thousand years before Christ, and Joseph&apos;s family bears it in their names.',
+    'Pay close attention to Joseph&apos;s first words when he stands before Pharaoh: "It is not in me." At the moment of his exaltation, when he could finally take credit - when Pharaoh himself is asking, when the kingdom is desperate - Joseph&apos;s first act is to deflect the credit away from himself [res:sefaria-genesis-41]. Even his freedom is not about Joseph. It is about God. That refusal to seize power for himself sets up everything that follows in Joseph&apos;s story: a man lifted up not by his own hands, but by the God who has been with him in the pit, the prison, and now the palace.',
+    'Manasseh and Ephraim. The names Joseph gives his sons are not accidental. They are the prayer of a man who has been broken and healed [res:bibleodyssey-joseph-egypt]. Manasseh - "God hath made me forget" - speaks of a grace that does not deny the pain but somehow makes it bearable. And Ephraim - "God hath caused me to be fruitful in the land of my affliction" - is the deeper pattern: not only forgetting the bitter, but bearing new life out of it. This is resurrection logic a thousand years before Christ, and Joseph&apos;s family bears it in their names.',
   ],
 
   bottomShare: {
@@ -36,7 +36,7 @@ export const GENESIS_41: RichChapterContent = {
       id: 'sefaria-genesis-41',
       kind: 'lexicon',
       source: 'Sefaria',
-      label: 'Genesis 41 — Sefaria',
+      label: 'Genesis 41 - Sefaria',
       url: 'https://www.sefaria.org/Genesis.41',
       description: 'Annotated text with classical and modern Jewish commentary on Joseph&apos;s rise to power as vizier of Egypt.',
     },
@@ -44,7 +44,7 @@ export const GENESIS_41: RichChapterContent = {
       id: 'met-museum-egypt',
       kind: 'museum',
       source: 'The Met',
-      label: 'Ancient Egypt — The Metropolitan Museum of Art',
+      label: 'Ancient Egypt - The Metropolitan Museum of Art',
       url: 'https://www.metmuseum.org/art/collection?department=Egyptian%20Art',
       description: 'Egyptian artifacts and cultural context for understanding the world of Joseph and later Genesis figures.',
     },
@@ -52,16 +52,16 @@ export const GENESIS_41: RichChapterContent = {
       id: 'bibleodyssey-joseph-egypt',
       kind: 'study',
       source: 'Bible Odyssey',
-      label: 'Joseph and Egypt — Bible Odyssey',
+      label: 'Joseph and Egypt - Bible Odyssey',
       url: 'https://www.bibleodyssey.org/en/passages/related-articles/joseph-and-egypt',
       description: 'Scholarly essays on Joseph&apos;s time in Egypt and its historical and theological significance.',
     },
   ],
 
   sections: [
-    /* ─── Genesis 41:1–8 — Pharaoh&apos;s Dreams ─────────────────────────────── */
+    /* ─── Genesis 41:1-8 - Pharaoh&apos;s Dreams ─────────────────────────────── */
     {
-      ref: 'Genesis 41:1–8',
+      ref: 'Genesis 41:1-8',
       title: 'Pharaoh&apos;s Dreams',
       blocks: [
         {
@@ -103,8 +103,7 @@ export const GENESIS_41: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-41-78mid-1',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Pharaoh wakes terrified--seven fat cows devoured by thin ones, seven healthy ears consumed by blighted grain. No interpreter can read the riddle.',
         },
         {
           kind: 'scripture',
@@ -158,19 +157,19 @@ export const GENESIS_41: RichChapterContent = {
           kind: 'commentary',
           id: 'c-consume',
           html:
-            'The lean consume the fat — but they do not become fat themselves. They remain lean and wretched. This is the terror of the dream: the famine is so severe that eating all of Egypt&apos;s abundance cannot satisfy it. Destruction is speaking through this image.',
+            'The lean consume the fat - but they do not become fat themselves. They remain lean and wretched. This is the terror of the dream: the famine is so severe that eating all of Egypt&apos;s abundance cannot satisfy it. Destruction is speaking through this image.',
         },
         {
           kind: 'commentary',
           id: 'c-seven-full',
           html:
-            'The grain imagery repeats the cattle dream. Seven full ears on one stalk — what could be more abundant? One stalk bearing perfection. Yet the second dream speaks the same annihilation.',
+            'The grain imagery repeats the cattle dream. Seven full ears on one stalk - what could be more abundant? One stalk bearing perfection. Yet the second dream speaks the same annihilation.',
         },
         {
           kind: 'commentary',
           id: 'c-consume-grain',
           html:
-            'The thin ears devour the full ones. Again, the lean eats the fat. The famine speaks louder than abundance. The east wind blasts the thin ears — a detail that will echo later in how famine comes to Egypt.',
+            'The thin ears devour the full ones. Again, the lean eats the fat. The famine speaks louder than abundance. The east wind blasts the thin ears - a detail that will echo later in how famine comes to Egypt.',
         },
         {
           kind: 'commentary',
@@ -181,7 +180,7 @@ export const GENESIS_41: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'The things in your life that keep you up at night — the future you can&apos;t see, the changes you can&apos;t predict, the abundance you can&apos;t hold onto — these often don&apos;t have human answers. This is not weakness. It is reality. The places where the wise run out of words are exactly the places where God has room to work. What is one dream you have that the world&apos;s wisdom can&apos;t help you with?',
+            'The things in your life that keep you up at night - the future you can&apos;t see, the changes you can&apos;t predict, the abundance you can&apos;t hold onto - these often don&apos;t have human answers. This is not weakness. It is reality. The places where the wise run out of words are exactly the places where God has room to work. What is one dream you have that the world&apos;s wisdom can&apos;t help you with?',
         },
         {
           kind: 'reflection',
@@ -192,9 +191,9 @@ export const GENESIS_41: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 41:9–16 — The Butler Remembers ────────────────────────────── */
+    /* ─── Genesis 41:9-16 - The Butler Remembers ────────────────────────────── */
     {
-      ref: 'Genesis 41:9–16',
+      ref: 'Genesis 41:9-16',
       title: 'The Butler Remembers',
       blocks: [
         {
@@ -232,8 +231,7 @@ export const GENESIS_41: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-41-78mid-2',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Seven years of abundance will be followed by seven years of famine. Joseph proposes wise storage, and Pharaoh sees that the Spirit of God dwells in this Hebrew.',
         },
         {
           kind: 'scripture',
@@ -273,18 +271,18 @@ export const GENESIS_41: RichChapterContent = {
           kind: 'commentary',
           id: 'c-butler-remembers',
           html:
-            'Two years have passed since Joseph interpreted the butler&apos;s dream. Two years of prison. Two years without word, without hope. And then, out of nowhere, the chief butler remembers. He does not remember out of gratitude or kindness at first — he remembers because Pharaoh is desperate. But God uses even selfish remembrance. Sometimes the only way out of the dungeon is someone else&apos;s need. Sometimes grace looks like being useful at the exact moment you are most forgotten.',
+            'Two years have passed since Joseph interpreted the butler&apos;s dream. Two years of prison. Two years without word, without hope. And then, out of nowhere, the chief butler remembers. He does not remember out of gratitude or kindness at first - he remembers because Pharaoh is desperate. But God uses even selfish remembrance. Sometimes the only way out of the dungeon is someone else&apos;s need. Sometimes grace looks like being useful at the exact moment you are most forgotten.',
         },
         {
           kind: 'commentary',
           id: 'c-shaved',
           html:
-            'Joseph shaves. He changes his clothes. In a single moment of grooming, he is transformed from a prisoner into a man who can stand before a king. But notice: he does not change who he is. He has not spent two years in chains rehearsing how to please Pharaoh or crafting a better pitch. He goes in ready to point away from himself. The shaving is only the exterior. The interior — the refusal to take credit — that is who Joseph has been in the dungeon, and it is who he will be on the throne.',
+            'Joseph shaves. He changes his clothes. In a single moment of grooming, he is transformed from a prisoner into a man who can stand before a king. But notice: he does not change who he is. He has not spent two years in chains rehearsing how to please Pharaoh or crafting a better pitch. He goes in ready to point away from himself. The shaving is only the exterior. The interior - the refusal to take credit - that is who Joseph has been in the dungeon, and it is who he will be on the throne.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-biladay',
-          title: 'Biladay — &ldquo;apart from me&rdquo;',
+          title: 'Biladay - &ldquo;apart from me&rdquo;',
           script: 'בִּלְעָדַי',
           translit: '<strong>bilday</strong> · without, apart from; Joseph&apos;s refusal',
           description:
@@ -293,20 +291,20 @@ export const GENESIS_41: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'When you finally get the chance you&apos;ve been waiting for — the word you can finally say, the platform you can finally speak from — what is your first move? Joseph&apos;s is to make sure nobody thinks the idea came from him. In a world that trains you to seize every opening, to promote yourself, to convince people you are worth listening to, there is something radically different about a man who says his first word of freedom is: it is not in me. Whom do you need to point toward instead of yourself today?',
+            'When you finally get the chance you&apos;ve been waiting for - the word you can finally say, the platform you can finally speak from - what is your first move? Joseph&apos;s is to make sure nobody thinks the idea came from him. In a world that trains you to seize every opening, to promote yourself, to convince people you are worth listening to, there is something radically different about a man who says his first word of freedom is: it is not in me. Whom do you need to point toward instead of yourself today?',
         },
         {
           kind: 'reflection',
           id: 'gen41-not-in-me',
           prompt:
-            'When you are about to step into something you&apos;ve been waiting for, what tempts you most — taking credit, controlling the outcome, or proving something? What would "It is not in me" look like for you?',
+            'When you are about to step into something you&apos;ve been waiting for, what tempts you most - taking credit, controlling the outcome, or proving something? What would "It is not in me" look like for you?',
         },
       ],
     },
 
-    /* ─── Genesis 41:17–24 — The Dream Told Again ────────────────────────── */
+    /* ─── Genesis 41:17-24 - The Dream Told Again ────────────────────────── */
     {
-      ref: 'Genesis 41:17–24',
+      ref: 'Genesis 41:17-24',
       title: 'The Dream Told Again',
       blocks: [
         {
@@ -342,8 +340,7 @@ export const GENESIS_41: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-41-78mid-3',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Pharaoh places his signet on Joseph&apos;s finger and robes him in fine linen. Joseph, the prisoner, becomes Zaphenath-paneah, Pharaoh&apos;s hand-a man reborn.',
         },
         {
           kind: 'scripture',
@@ -379,7 +376,7 @@ export const GENESIS_41: RichChapterContent = {
           kind: 'commentary',
           id: 'c-answer-peace',
           html:
-            'Joseph promises "an answer of peace." Not a clever interpretation, not an impressive display of learning — an answer that brings peace. That is a remarkable promise to make to a desperate man. What Joseph means is that the answer will not destroy Pharaoh; it will come from God, and God is trustworthy. The word <em>shalom</em> here means more than peace; it means wholeness, soundness, the restoration of right relationship. Whatever God is saying through the dream, the answer will have God&apos;s character written into it.',
+            'Joseph promises "an answer of peace." Not a clever interpretation, not an impressive display of learning - an answer that brings peace. That is a remarkable promise to make to a desperate man. What Joseph means is that the answer will not destroy Pharaoh; it will come from God, and God is trustworthy. The word <em>shalom</em> here means more than peace; it means wholeness, soundness, the restoration of right relationship. Whatever God is saying through the dream, the answer will have God&apos;s character written into it.',
         },
         {
           kind: 'divider',
@@ -388,14 +385,14 @@ export const GENESIS_41: RichChapterContent = {
           kind: 'reflection',
           id: 'gen41-peace',
           prompt:
-            'When you are afraid of the answer to something you are asking God, what would it look like to trust that His answer — even if it surprises you — is an answer of peace?',
+            'When you are afraid of the answer to something you are asking God, what would it look like to trust that His answer - even if it surprises you - is an answer of peace?',
         },
       ],
     },
 
-    /* ─── Genesis 41:25–32 — The Interpretation ────────────────────────────── */
+    /* ─── Genesis 41:25-32 - The Interpretation ────────────────────────────── */
     {
-      ref: 'Genesis 41:25–32',
+      ref: 'Genesis 41:25-32',
       title: 'The Interpretation',
       blocks: [
         {
@@ -433,8 +430,7 @@ export const GENESIS_41: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-41-78mid-4',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Joseph gathers grain like sand by the sea. Asenath bears him Manasseh and Ephraim--God has made him forget his suffering and double his inheritance.',
         },
         {
           kind: 'scripture',
@@ -472,7 +468,7 @@ export const GENESIS_41: RichChapterContent = {
           kind: 'commentary',
           id: 'c-one-dream',
           html:
-            'Joseph does not solve a riddle. He names reality. The dream is "one" — it is unified, it is speaking one truth in two images: seven years will come when Egypt drowns in abundance, and seven years will come when Egypt starves. The dream is telling Pharaoh to prepare. But more than that, the dream is telling Pharaoh that God is speaking. "What God is about to do he sheweth unto Pharaoh." Joseph&apos;s interpretation centers on God&apos;s intention, not on Joseph&apos;s brilliance.',
+            'Joseph does not solve a riddle. He names reality. The dream is "one" - it is unified, it is speaking one truth in two images: seven years will come when Egypt drowns in abundance, and seven years will come when Egypt starves. The dream is telling Pharaoh to prepare. But more than that, the dream is telling Pharaoh that God is speaking. "What God is about to do he sheweth unto Pharaoh." Joseph&apos;s interpretation centers on God&apos;s intention, not on Joseph&apos;s brilliance.',
         },
         {
           kind: 'commentary',
@@ -483,7 +479,7 @@ export const GENESIS_41: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'One of the hardest parts of listening to God is believing He is serious. We speak carelessly; we promise lightly; we say things we don&apos;t mean. So when God speaks — in Scripture, in prayer, in the quiet certainties that come from sitting with Him — we tend to hedge our bets. Joseph&apos;s interpretation treats God&apos;s word as binding: what God says will come to pass. This is not naive optimism. It is the confidence of someone who has learned in a dungeon that God keeps His word.',
+            'One of the hardest parts of listening to God is believing He is serious. We speak carelessly; we promise lightly; we say things we don&apos;t mean. So when God speaks - in Scripture, in prayer, in the quiet certainties that come from sitting with Him - we tend to hedge our bets. Joseph&apos;s interpretation treats God&apos;s word as binding: what God says will come to pass. This is not naive optimism. It is the confidence of someone who has learned in a dungeon that God keeps His word.',
         },
         {
           kind: 'reflection',
@@ -494,9 +490,9 @@ export const GENESIS_41: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 41:33–40 — Pharaoh&apos;s Proposal ────────────────────────── */
+    /* ─── Genesis 41:33-40 - Pharaoh&apos;s Proposal ────────────────────────── */
     {
-      ref: 'Genesis 41:33–40',
+      ref: 'Genesis 41:33-40',
       title: 'The Wisdom Proposal',
       blocks: [
         {
@@ -536,8 +532,7 @@ export const GENESIS_41: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-41-78mid-5',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'The famine spreads wide; people cry out to Pharaoh. But Joseph has stored; Egypt alone has bread. In Canaan, Jacob hears the news--there is grain in Egypt.',
         },
         {
           kind: 'scripture',
@@ -573,18 +568,18 @@ export const GENESIS_41: RichChapterContent = {
           kind: 'commentary',
           id: 'c-discreet-wise',
           html:
-            'Joseph does something remarkable: he does not wait for Pharaoh to offer him the job. He proposes the position himself — and then describes the man for the job in terms that fit him exactly. "A man discreet and wise." It is not presumptuous. It is simply clear. The interpretation came from God; the solution is practical; the man to carry it out is standing right here. Joseph is not asking for power. He is naming what needs to happen.',
+            'Joseph does something remarkable: he does not wait for Pharaoh to offer him the job. He proposes the position himself - and then describes the man for the job in terms that fit him exactly. "A man discreet and wise." It is not presumptuous. It is simply clear. The interpretation came from God; the solution is practical; the man to carry it out is standing right here. Joseph is not asking for power. He is naming what needs to happen.',
         },
         {
           kind: 'commentary',
           id: 'c-fifth',
           html:
-            'Joseph&apos;s plan is to take one-fifth of all the grain during the seven years of plenty and store it for the famine. It is a massive appropriation — the state taking a fifth of every harvest — but it is the only way Egypt will survive what is coming. The man who has nothing, who owns nothing, who has lost everything is now proposing to take one-fifth of everything Egypt owns and hold it in trust for a future he can see and Pharaoh cannot. This is the character of Joseph: he sees what needs to be done and does it, whether it is dramatic or ordinary, popular or unpopular.',
+            'Joseph&apos;s plan is to take one-fifth of all the grain during the seven years of plenty and store it for the famine. It is a massive appropriation - the state taking a fifth of every harvest - but it is the only way Egypt will survive what is coming. The man who has nothing, who owns nothing, who has lost everything is now proposing to take one-fifth of everything Egypt owns and hold it in trust for a future he can see and Pharaoh cannot. This is the character of Joseph: he sees what needs to be done and does it, whether it is dramatic or ordinary, popular or unpopular.',
         },
         {
           kind: 'greek',
           id: 'greek-pneuma',
-          title: 'Pneuma Theou — &ldquo;Spirit of God&rdquo;',
+          title: 'Pneuma Theou - &ldquo;Spirit of God&rdquo;',
           script: 'רוּחַ אֱלֹהִים',
           translit: '<strong>ruach Elohim</strong> · the breath, the wind, the presence of God',
           description:
@@ -593,14 +588,14 @@ export const GENESIS_41: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-spirit-of-god',
-          title: 'Christ Connection — The Spirit Recognized',
+          title: 'Christ Connection - The Spirit Recognized',
           html:
-            'Pharaoh says what no human authority had said to Joseph before: "Can we find such a one as this is, a man in whom the Spirit of God is?" The Spirit of God in Joseph is visible enough for a foreign king to name it. This is what happens when you have been broken and rebuilt by God — you carry something that does not require a title or a credential to be recognized. Paul names it centuries later: "Now we have received… the spirit which is of God; that we might know the things that are freely given to us of God… Eye hath not seen, nor ear heard… But God hath revealed them unto us by his Spirit" (1 Cor. 2:12, 9–10). The Spirit of God in a person is its own kind of power.',
+            'Pharaoh says what no human authority had said to Joseph before: "Can we find such a one as this is, a man in whom the Spirit of God is?" The Spirit of God in Joseph is visible enough for a foreign king to name it. This is what happens when you have been broken and rebuilt by God - you carry something that does not require a title or a credential to be recognized. Paul names it centuries later: "Now we have received... the spirit which is of God; that we might know the things that are freely given to us of God... Eye hath not seen, nor ear heard... But God hath revealed them unto us by his Spirit" (1 Cor. 2:12, 9-10). The Spirit of God in a person is its own kind of power.',
         },
         {
           kind: 'carry',
           html:
-            'The world&apos;s wisdom runs out, and when it does, people start looking for someone who carries something else. Not someone who is prettier, louder, or more important — but someone who knows something the rest of them don&apos;t. Someone the Spirit has broken open enough to fill. Sometimes the greatest power you carry is simply that you are not trying to convince people of anything. You are just here, and something is recognizable in that.',
+            'The world&apos;s wisdom runs out, and when it does, people start looking for someone who carries something else. Not someone who is prettier, louder, or more important - but someone who knows something the rest of them don&apos;t. Someone the Spirit has broken open enough to fill. Sometimes the greatest power you carry is simply that you are not trying to convince people of anything. You are just here, and something is recognizable in that.',
         },
         {
           kind: 'reflection',
@@ -611,9 +606,9 @@ export const GENESIS_41: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 41:41–45 — Joseph Exalted ──────────────────────────────── */
+    /* ─── Genesis 41:41-45 - Joseph Exalted ──────────────────────────────── */
     {
-      ref: 'Genesis 41:41–45',
+      ref: 'Genesis 41:41-45',
       title: 'Joseph Exalted',
       blocks: [
         {
@@ -662,16 +657,16 @@ export const GENESIS_41: RichChapterContent = {
           kind: 'commentary',
           id: 'c-invested',
           html:
-            'The ceremony is swift and absolute. Pharaoh gives Joseph his ring — a symbol of authority. He dresses him in linen — a symbol of rank. He puts a gold chain around his neck — a symbol of honor. All within minutes. The man who came out of the dungeon in prisoner&apos;s rags is now clothed in the garments of power. But notice the pattern: Joseph does not take these things. They are given to him. Everything he will wield in Egypt comes to him as a gift.',
+            'The ceremony is swift and absolute. Pharaoh gives Joseph his ring - a symbol of authority. He dresses him in linen - a symbol of rank. He puts a gold chain around his neck - a symbol of honor. All within minutes. The man who came out of the dungeon in prisoner&apos;s rags is now clothed in the garments of power. But notice the pattern: Joseph does not take these things. They are given to him. Everything he will wield in Egypt comes to him as a gift.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-zaphnath',
-          title: 'Zaphnath-paaneah — Joseph&apos;s New Name',
+          title: 'Zaphnath-paaneah - Joseph&apos;s New Name',
           script: 'צָפְנַת פַּעְנֵחַ',
           translit: '<strong>Zaphnath-paaneah</strong> · Egyptian: "the god speaks and he lives" or "revealer of secrets"',
           description:
-            'Pharaoh renames Joseph in Egyptian, placing him in the language and the theology of Egypt. Scholars debate the exact meaning — some say "the god speaks and he lives," others "he who reveals hidden things." Either way, the name recognizes that Joseph knows what Egypt cannot know: he is the revealer, the one who speaks for God in a land of many gods.',
+            'Pharaoh renames Joseph in Egyptian, placing him in the language and the theology of Egypt. Scholars debate the exact meaning - some say "the god speaks and he lives," others "he who reveals hidden things." Either way, the name recognizes that Joseph knows what Egypt cannot know: he is the revealer, the one who speaks for God in a land of many gods.',
         },
         {
           kind: 'commentary',
@@ -682,14 +677,14 @@ export const GENESIS_41: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-no-man-without-thee',
-          title: 'Christ Connection — All Things Hold Together',
+          title: 'Christ Connection - All Things Hold Together',
           html:
-            'Pharaoh declares: "Without thee shall no man lift up his hand or foot in all the land of Egypt." In the ancient world this was the language of ultimate power — a single man through whom all authority flows. Centuries later, Paul will write of Christ: "By him all things consist" (Col. 1:17). The same pattern: one man raised up as the center through which all life flows. In Egypt, during the famine, every mouth that eats, every person that breathes, every action that is taken depends on Joseph. In the cosmos, the same is true of Christ. All coherence, all order, all life holds together through Him.',
+            'Pharaoh declares: "Without thee shall no man lift up his hand or foot in all the land of Egypt." In the ancient world this was the language of ultimate power - a single man through whom all authority flows. Centuries later, Paul will write of Christ: "By him all things consist" (Col. 1:17). The same pattern: one man raised up as the center through which all life flows. In Egypt, during the famine, every mouth that eats, every person that breathes, every action that is taken depends on Joseph. In the cosmos, the same is true of Christ. All coherence, all order, all life holds together through Him.',
         },
         {
           kind: 'carry',
           html:
-            'You live in a cosmos that holds together through Christ. Not through your effort, not through your understanding of how everything works. You are not the center. And that is good news, because you were never meant to be. The things you are carrying that feel too heavy — the weight of making everyone okay, of holding together what is breaking, of knowing how the future will work — those are not your burden. Your burden is to be faithful where you are, the way Joseph was faithful in the dungeon. The holding together of everything else belongs to Someone else.',
+            'You live in a cosmos that holds together through Christ. Not through your effort, not through your understanding of how everything works. You are not the center. And that is good news, because you were never meant to be. The things you are carrying that feel too heavy - the weight of making everyone okay, of holding together what is breaking, of knowing how the future will work - those are not your burden. Your burden is to be faithful where you are, the way Joseph was faithful in the dungeon. The holding together of everything else belongs to Someone else.',
         },
         {
           kind: 'reflection',
@@ -700,9 +695,9 @@ export const GENESIS_41: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 41:46–52 — The Sons ──────────────────────────────────────── */
+    /* ─── Genesis 41:46-52 - The Sons ──────────────────────────────────────── */
     {
-      ref: 'Genesis 41:46–52',
+      ref: 'Genesis 41:46-52',
       title: 'Manasseh and Ephraim',
       blocks: [
         {
@@ -734,8 +729,7 @@ export const GENESIS_41: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-41-78mid-6',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Pharaoh grants permission, and the brothers depart. But Joseph stands at the border of Egypt, watching them vanish. He does not know if he will see Benjamin again.',
         },
         {
           kind: 'scripture',
@@ -775,40 +769,40 @@ export const GENESIS_41: RichChapterContent = {
           kind: 'commentary',
           id: 'c-thirty',
           html:
-            'Joseph is thirty years old. Luke will note that Jesus was thirty when He began His ministry (Luke 3:23). Both men begin their public work at thirty. Both are lifted up for a work that no one else can do. Both are exalted not by their own choice but by necessity — one by a king who has nowhere else to turn, one by a Father who sends Him to save the world. The age marks them both.',
+            'Joseph is thirty years old. Luke will note that Jesus was thirty when He began His ministry (Luke 3:23). Both men begin their public work at thirty. Both are lifted up for a work that no one else can do. Both are exalted not by their own choice but by necessity - one by a king who has nowhere else to turn, one by a Father who sends Him to save the world. The age marks them both.',
         },
         {
           kind: 'commentary',
           id: 'c-manasseh',
           html:
-            'Manasseh means "God hath made me forget." It is a remarkable name for a son — not a name celebrating Manasseh, but a name celebrating what God has done for Joseph. The interpretation is not that Joseph has forgotten the pain completely, but that God has given him grace to move beyond it. The bitterness is bearable now. The years in the pit and the prison have not been erased, but they are not bleeding into his present anymore. This is the healing of Manasseh: the past no longer gets to name the future.',
+            'Manasseh means "God hath made me forget." It is a remarkable name for a son - not a name celebrating Manasseh, but a name celebrating what God has done for Joseph. The interpretation is not that Joseph has forgotten the pain completely, but that God has given him grace to move beyond it. The bitterness is bearable now. The years in the pit and the prison have not been erased, but they are not bleeding into his present anymore. This is the healing of Manasseh: the past no longer gets to name the future.',
         },
         {
           kind: 'commentary',
           id: 'c-ephraim',
           html:
-            'Ephraim means "God hath caused me to be fruitful in the land of my affliction." This is resurrection language. Not in spite of the affliction, but in the land of it. Joseph has not moved to a new comfortable place where suffering is behind him. He is in Egypt, a slave&apos;s son, far from home. And yet — fruit. Life multiplying. Possibility. Sons born to him when he had nothing. This is what God does with people He has broken. He does not erase the breaking; He makes them fruitful in it.',
+            'Ephraim means "God hath caused me to be fruitful in the land of my affliction." This is resurrection language. Not in spite of the affliction, but in the land of it. Joseph has not moved to a new comfortable place where suffering is behind him. He is in Egypt, a slave&apos;s son, far from home. And yet - fruit. Life multiplying. Possibility. Sons born to him when he had nothing. This is what God does with people He has broken. He does not erase the breaking; He makes them fruitful in it.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-manasseh-ephraim',
-          title: 'Manasseh and Ephraim — The Names That Speak',
+          title: 'Manasseh and Ephraim - The Names That Speak',
           script: 'מְנַשֶּׁה וְאֶפְרָיִם',
-          translit: '<strong>Manasseh</strong> · "making forget" — <strong>Ephraim</strong> · "doubly fruitful"',
+          translit: '<strong>Manasseh</strong> · "making forget" - <strong>Ephraim</strong> · "doubly fruitful"',
           description:
             'The two names together trace Joseph&apos;s journey: first the forgetting of bitterness, then the fruitfulness born from having been broken. They are not names celebrating his sons. They are names celebrating what God has done for their father. Every time someone called his sons by their names, they would be testifying to God&apos;s grace.',
         },
         {
           kind: 'christ',
           id: 'christ-two-sons',
-          title: 'Christ Connection — Broken and Fruitful',
+          title: 'Christ Connection - Broken and Fruitful',
           html:
-            'Joseph&apos;s two sons bear the pattern of resurrection. Manasseh speaks of what death has done — the old is gone, the old pain is gone. Ephraim speaks of what resurrection does — new life appears not instead of the affliction but within it, born from it. In John 12:24, Jesus says: "Except a corn of wheat fall into the ground and die, it abideth alone: but if it die, it bringeth forth much fruit." The grain must fall. It must die. And then — fruitfulness. Joseph&apos;s sons are living proof that God does not just erase suffering. He transforms it into the ground from which new life grows.',
+            'Joseph&apos;s two sons bear the pattern of resurrection. Manasseh speaks of what death has done - the old is gone, the old pain is gone. Ephraim speaks of what resurrection does - new life appears not instead of the affliction but within it, born from it. In John 12:24, Jesus says: "Except a corn of wheat fall into the ground and die, it abideth alone: but if it die, it bringeth forth much fruit." The grain must fall. It must die. And then - fruitfulness. Joseph&apos;s sons are living proof that God does not just erase suffering. He transforms it into the ground from which new life grows.',
         },
         {
           kind: 'carry',
           html:
-            'Your breaking — the years that crushed you, the losses that remade you, the seasons when you felt buried — these are not wasted. They are not bypassed by God as if they never happened. They become the Manasseh: the ground you can now walk on without bleeding. And they become the Ephraim: the place where your life grows in ways it could not have grown in comfort. The worst thing that happened to you might be the soil of your greatest fruitfulness. Not because suffering is good, but because the God who suffers with you is good, and He is making something in you.',
+            'Your breaking - the years that crushed you, the losses that remade you, the seasons when you felt buried - these are not wasted. They are not bypassed by God as if they never happened. They become the Manasseh: the ground you can now walk on without bleeding. And they become the Ephraim: the place where your life grows in ways it could not have grown in comfort. The worst thing that happened to you might be the soil of your greatest fruitfulness. Not because suffering is good, but because the God who suffers with you is good, and He is making something in you.',
         },
         {
           kind: 'reflection',
@@ -820,14 +814,14 @@ export const GENESIS_41: RichChapterContent = {
           kind: 'artwork',
           matchTitle: /joseph/i,
           matchArtist: /tissot/i,
-          caption: 'Genesis 41:46–52 · Joseph Exalted',
+          caption: 'Genesis 41:46-52 · Joseph Exalted',
         },
       ],
     },
 
-    /* ─── Genesis 41:53–57 — The Years Spoken ────────────────────────────── */
+    /* ─── Genesis 41:53-57 - The Years Spoken ────────────────────────────── */
     {
-      ref: 'Genesis 41:53–57',
+      ref: 'Genesis 41:53-57',
       title: 'The Years of Plenty and Famine',
       blocks: [
         {
@@ -877,7 +871,7 @@ export const GENESIS_41: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-bread-for-world',
-          title: 'Christ Connection — Bread for the Starving World',
+          title: 'Christ Connection - Bread for the Starving World',
           html:
             'Joseph stores grain for seven years and opens the storehouses when the famine comes. All nations come to Egypt to buy grain and be fed. In John 6, Jesus says: "I am the living bread which came down from heaven: if any man eat of this bread, he shall live for ever" (John 6:51). The pattern is the same: one man, one provision, the world fed. The bread Joseph stored keeps Egypt and the surrounding world alive. The Bread that Christ gives keeps the soul alive forever.',
         },
@@ -890,13 +884,13 @@ export const GENESIS_41: RichChapterContent = {
           kind: 'reflection',
           id: 'gen41-grain',
           prompt:
-            'What are you being asked to lay up now — some word, some presence, some steadiness — that might feed someone when the famine comes?',
+            'What are you being asked to lay up now - some word, some presence, some steadiness - that might feed someone when the famine comes?',
         },
         {
           kind: 'artwork',
           matchTitle: /pharaoh|dream/i,
           matchArtist: /tissot/i,
-          caption: 'Genesis 41:1–8 · Pharaoh&apos;s Dreams',
+          caption: 'Genesis 41:1-8 · Pharaoh&apos;s Dreams',
         },
       ],
     },

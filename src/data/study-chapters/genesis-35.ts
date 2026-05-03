@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 35 — Jacob returns to Bethel.
+ * Genesis 35 - Jacob returns to Bethel.
  *
  * God calls Jacob back to the place where he first encountered the divine,
  * years and trials in the distant past. Before Bethel, Jacob purges his
@@ -20,13 +20,13 @@ export const GENESIS_35: RichChapterContent = {
   estimatedMinutes: { beginner: 7, intermediate: 13, deep: 17 },
   intros: [
     'Genesis 35 is a chapter about return and renewal. Jacob has been away from Bethel for more than twenty years. He has fled his father&apos;s house in fear, lived as a stranger in Haran, married, labored, and built a family in exile. Now God calls him back: <em>Arise, go up to Bethel, and dwell there.</em> It is a call to come home.',
-    'But the homecoming is not simple. Before returning to the place where God first spoke to him, Jacob must deal with the gods his household has gathered — the idols of Laban&apos;s house, the trinkets of prosperity, the things that have slowly taken the place of devotion. He buries them under an oak and only then approaches Bethel. [res:bibleodyssey-jacob-israel] The chapter holds three deaths — Deborah, Rachel, Isaac — and Jacob keeps moving through each one. Sometimes faithfulness looks less like triumph and more like the simple choice to keep going.',
+    'But the homecoming is not simple. Before returning to the place where God first spoke to him, Jacob must deal with the gods his household has gathered - the idols of Laban&apos;s house, the trinkets of prosperity, the things that have slowly taken the place of devotion. He buries them under an oak and only then approaches Bethel. [res:bibleodyssey-jacob-israel] The chapter holds three deaths - Deborah, Rachel, Isaac - and Jacob keeps moving through each one. Sometimes faithfulness looks less like triumph and more like the simple choice to keep going.',
   ],
 
   sections: [
-    /* ─── Genesis 35:1–5 — The Call to Bethel ───────────────────────────── */
+    /* ─── Genesis 35:1-5 - The Call to Bethel ───────────────────────────── */
     {
-      ref: 'Genesis 35:1–5',
+      ref: 'Genesis 35:1-5',
       title: 'The Call to Bethel',
       blocks: [
         {
@@ -73,27 +73,27 @@ export const GENESIS_35: RichChapterContent = {
           kind: 'commentary',
           id: 'g35-fled',
           html:
-            'Esau has long since forgiven Jacob (they were reconciled in chapter 33). But God&apos;s recalling the original wound — the theft of the blessing, the fear that drove Jacob away, the night when God met him in desperation. [res:iaa-israel-sites] God is saying: <em>Come back to the place where you learned I am the God who finds you in your exile.</em>',
+            'Esau has long since forgiven Jacob (they were reconciled in chapter 33). But God&apos;s recalling the original wound - the theft of the blessing, the fear that drove Jacob away, the night when God met him in desperation. [res:iaa-israel-sites] God is saying: <em>Come back to the place where you learned I am the God who finds you in your exile.</em>',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-beitEl',
-          title: 'Beit-El — &ldquo;house of God&rdquo;',
+          title: 'Beit-El - &ldquo;house of God&rdquo;',
           script: 'בֵּית־אֵל',
           translit: '<strong>beit-el</strong> · house of God',
           description:
-            'Bethel is not a house made with hands. It is the place where heaven touches earth, where the infinite God met a terrified man on a stone and made a covenant. Across Scripture, when people return to Bethel, it is to remember that encounter — to stand in the place where God was, and to be transformed.',
+            'Bethel is not a house made with hands. It is the place where heaven touches earth, where the infinite God met a terrified man on a stone and made a covenant. Across Scripture, when people return to Bethel, it is to remember that encounter - to stand in the place where God was, and to be transformed.',
         },
         {
           kind: 'commentary',
           id: 'g35-idols',
           html:
-            'Jacob&apos;s instruction is stark: <em>Put away the strange gods.</em> These are not the golden calves of later apostasy — they are the household gods of Laban, the teraphim Rachel stole, the minor divinities of prosperity and protection. They are what accumulates when you live far from the covenant. Before you can stand before God, you must let go of what you have held instead of Him.',
+            'Jacob&apos;s instruction is stark: <em>Put away the strange gods.</em> These are not the golden calves of later apostasy - they are the household gods of Laban, the teraphim Rachel stole, the minor divinities of prosperity and protection. They are what accumulates when you live far from the covenant. Before you can stand before God, you must let go of what you have held instead of Him.',
         },
         {
           kind: 'carry',
           html:
-            'What are the &apos;strange gods&apos; in your own household — the small devotions you have picked up, the places you have been looking for protection and blessing besides the covenant God? They can look innocent enough. But before you can return to what you know God has for you, you may need to bury them. Not dramatically. Just truly. And then move.',
+            'What are the &apos;strange gods&apos; in your own household - the small devotions you have picked up, the places you have been looking for protection and blessing besides the covenant God? They can look innocent enough. But before you can return to what you know God has for you, you may need to bury them. Not dramatically. Just truly. And then move.',
         },
         {
           kind: 'reflection',
@@ -104,9 +104,9 @@ export const GENESIS_35: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 35:6–8 — The Oak of Weeping ──────────────────────────── */
+    /* ─── Genesis 35:6-8 - The Oak of Weeping ──────────────────────────── */
     {
-      ref: 'Genesis 35:6–8',
+      ref: 'Genesis 35:6-8',
       title: 'The Oak of Weeping',
       blocks: [
         {
@@ -131,34 +131,34 @@ export const GENESIS_35: RichChapterContent = {
           kind: 'commentary',
           id: 'g35-el-bethel',
           html:
-            'Jacob renames the place <em>El-Beth-el</em> — &ldquo;the God of the house of God.&rdquo; It is a subtle shift. Bethel was the place where God appeared; El-Bethel is the God who appeared there. The accent moves from location to presence. Jacob is saying: <em>the covenant is not about geography. It is about the God who keeps His word everywhere.</em>',
+            'Jacob renames the place <em>El-Beth-el</em> - &ldquo;the God of the house of God.&rdquo; It is a subtle shift. Bethel was the place where God appeared; El-Bethel is the God who appeared there. The accent moves from location to presence. Jacob is saying: <em>the covenant is not about geography. It is about the God who keeps His word everywhere.</em>',
         },
         {
           kind: 'commentary',
           id: 'g35-allon-bachuth',
           html:
-            'Deborah — Rebekah&apos;s nurse, the woman who likely raised Jacob — has died and is buried under an oak at Bethel. Her death is mentioned in a single verse and then left behind. There is no eulogy, no weeping named in the text itself. Only the name: Allon-Bachuth, the oak of weeping. The Bible is spare with grief, sometimes, letting the name carry the weight. A nurse who shaped a child&apos;s earliest years is gone, and the world keeps turning.',
+            'Deborah - Rebekah&apos;s nurse, the woman who likely raised Jacob - has died and is buried under an oak at Bethel. Her death is mentioned in a single verse and then left behind. There is no eulogy, no weeping named in the text itself. Only the name: Allon-Bachuth, the oak of weeping. The Bible is spare with grief, sometimes, letting the name carry the weight. A nurse who shaped a child&apos;s earliest years is gone, and the world keeps turning.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-allon-bachuth',
-          title: 'Allon-Bachuth — &ldquo;oak of weeping&rdquo;',
+          title: 'Allon-Bachuth - &ldquo;oak of weeping&rdquo;',
           script: 'אַלּוֹן בָּכוּת',
           translit: '<strong>allon</strong> · oak; <strong>bachuth</strong> · weeping, tears',
           description:
-            'The oak itself is a memorial to grief. In later Jewish tradition, Deborah&apos;s burial here becomes a place of pilgrimage and prayer. A death at a threshold — a death at Bethel, where God meets His people — becomes a place where others come to remember and to grieve.',
+            'The oak itself is a memorial to grief. In later Jewish tradition, Deborah&apos;s burial here becomes a place of pilgrimage and prayer. A death at a threshold - a death at Bethel, where God meets His people - becomes a place where others come to remember and to grieve.',
         },
         {
           kind: 'carry',
           html:
-            'Sometimes the people who shaped you most are the ones you lose quietly — a teacher, a nurse, a beloved elder whose name you don&apos;t always remember first. Yet they are the oak of weeping, the place where you return to remember what they taught you, the quiet strength they showed you. Honor that name, even briefly.',
+            'Sometimes the people who shaped you most are the ones you lose quietly - a teacher, a nurse, a beloved elder whose name you don&apos;t always remember first. Yet they are the oak of weeping, the place where you return to remember what they taught you, the quiet strength they showed you. Honor that name, even briefly.',
         },
       ],
     },
 
-    /* ─── Genesis 35:9–15 — The Name Confirmed ───────────────────────────── */
+    /* ─── Genesis 35:9-15 - The Name Confirmed ───────────────────────────── */
     {
-      ref: 'Genesis 35:9–15',
+      ref: 'Genesis 35:9-15',
       title: 'The Name Confirmed at Bethel',
       blocks: [
         {
@@ -192,8 +192,7 @@ export const GENESIS_35: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-35-78mid-1',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'God calls Jacob back to Bethel, to the place where he first saw the ladder. He cleanses his household, builds an altar, and God speaks: Your name is Israel.',
         },
         {
           kind: 'scripture',
@@ -223,7 +222,7 @@ export const GENESIS_35: RichChapterContent = {
           kind: 'commentary',
           id: 'g35-blessed-jacob',
           html:
-            'God appears again to Jacob — the second time at Bethel, but the first time since Jacob became a father and a provider, a man who has labored and survived in a foreign land. The blessing is not for a fleeing boy; it is for the man Jacob has become. <em>He blessed him</em> — a simple statement that carries the weight of renewal.',
+            'God appears again to Jacob - the second time at Bethel, but the first time since Jacob became a father and a provider, a man who has labored and survived in a foreign land. The blessing is not for a fleeing boy; it is for the man Jacob has become. <em>He blessed him</em> - a simple statement that carries the weight of renewal.',
         },
         {
           kind: 'commentary',
@@ -234,23 +233,23 @@ export const GENESIS_35: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-israel',
-          title: 'Yisra&apos;el — &ldquo;he who strives with God&rdquo;',
+          title: 'Yisra&apos;el - &ldquo;he who strives with God&rdquo;',
           script: 'יִשְׂרָאֵל',
           translit: '<strong>yisra&apos;el</strong> · he strives with God; yisra (contends) + el (God)',
           description:
-            'The name encodes a wrestling match. Jacob&apos;s new identity is not rest or victory, but the ongoing striving of a man who will not let God go. Israel does not mean Jacob is done fighting — it means his fighting has been transformed into faith. Every descendant bears the name of someone who held God and would not release Him.',
+            'The name encodes a wrestling match. Jacob&apos;s new identity is not rest or victory, but the ongoing striving of a man who will not let God go. Israel does not mean Jacob is done fighting - it means his fighting has been transformed into faith. Every descendant bears the name of someone who held God and would not release Him.',
         },
         {
           kind: 'christ',
           id: 'g35-israel-christ',
-          title: 'Christ Connection — The Seed of Israel',
+          title: 'Christ Connection - The Seed of Israel',
           html:
-            'God promises Israel: &ldquo;a nation and a company of nations shall be of thee, and kings shall come out of thy loins.&rdquo; (35:11). Centuries later, Matthew traces Jesus&apos; lineage back to Abraham and Jacob: &ldquo;Jesus Christ, the son of David, the son of Abraham&rdquo; (Matt. 1:1). The promised Messiah comes as the King from the loins of Israel — a King not of an earthly empire, but of a kingdom that will never end (Luke 1:33). Jacob strove with God and held fast; the Seed of Israel will sit at God&apos;s right hand, having reconciled all who strive to the God who first wrestled with them.',
+            'God promises Israel: &ldquo;a nation and a company of nations shall be of thee, and kings shall come out of thy loins.&rdquo; (35:11). Centuries later, Matthew traces Jesus&apos; lineage back to Abraham and Jacob: &ldquo;Jesus Christ, the son of David, the son of Abraham&rdquo; (Matt. 1:1). The promised Messiah comes as the King from the loins of Israel - a King not of an earthly empire, but of a kingdom that will never end (Luke 1:33). Jacob strove with God and held fast; the Seed of Israel will sit at God&apos;s right hand, having reconciled all who strive to the God who first wrestled with them.',
         },
         {
           kind: 'carry',
           html:
-            'Your identity is not your worst moment, and it is not your last mistake. A new identity is waiting — one rooted not in who you were, but in who God has named you to be. Sometimes you have to wrestle to discover it, and sometimes you have to return to the place where God first met you to let the name sink in.',
+            'Your identity is not your worst moment, and it is not your last mistake. A new identity is waiting - one rooted not in who you were, but in who God has named you to be. Sometimes you have to wrestle to discover it, and sometimes you have to return to the place where God first met you to let the name sink in.',
         },
         {
           kind: 'reflection',
@@ -261,9 +260,9 @@ export const GENESIS_35: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 35:16–20 — Rachel's Death at Bethlehem ────────────────── */
+    /* ─── Genesis 35:16-20 - Rachel's Death at Bethlehem ────────────────── */
     {
-      ref: 'Genesis 35:16–20',
+      ref: 'Genesis 35:16-20',
       title: 'Rachel&apos;s Death',
       blocks: [
         {
@@ -304,22 +303,22 @@ export const GENESIS_35: RichChapterContent = {
           kind: 'commentary',
           id: 'g35-rachel-labour',
           html:
-            'Rachel, the woman Jacob loved most, dies in childbirth on the road to Bethlehem. The text is spare about her suffering — &ldquo;hard labour&rdquo; — and spares us the details. What matters is that she is present at her son&apos;s naming, even as she is dying. One name comes from her: one from Jacob.',
+            'Rachel, the woman Jacob loved most, dies in childbirth on the road to Bethlehem. The text is spare about her suffering - &ldquo;hard labour&rdquo; - and spares us the details. What matters is that she is present at her son&apos;s naming, even as she is dying. One name comes from her: one from Jacob.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-ben-oni-binyamin',
-          title: 'Ben-oni · Binyamin — &ldquo;son of sorrow · son of my right hand&rdquo;',
+          title: 'Ben-oni · Binyamin - &ldquo;son of sorrow · son of my right hand&rdquo;',
           script: 'בֶּן־אוֹנִי · בִּנְיָמִין',
           translit: '<strong>ben-oni</strong> · son of sorrow; <strong>binyamin</strong> · son of the right hand',
           description:
-            'Rachel names her last child for her grief. Ben-oni: son of my sorrow. But Jacob overrules her and names him Benjamin: son of my right hand. The same child holds two names — one from a dying mother, one from a living father. One name is the truth of the moment; the other is the truth of the promise. Both are real.',
+            'Rachel names her last child for her grief. Ben-oni: son of my sorrow. But Jacob overrules her and names him Benjamin: son of my right hand. The same child holds two names - one from a dying mother, one from a living father. One name is the truth of the moment; the other is the truth of the promise. Both are real.',
         },
         {
           kind: 'commentary',
           id: 'g35-ben-oni',
           html:
-            'Rachel&apos;s name is the most human thing in the chapter. A mother in extremis, naming her child for the pain of his birth, the loss of her life. She will not see him grow. Yet Jacob&apos;s renaming is not a denial of Rachel&apos;s name — it is an act of faith that this child, born in sorrow, will stand at God&apos;s right hand. Benjamin becomes the favorite of his older years, the son of Jacob&apos;s right hand.',
+            'Rachel&apos;s name is the most human thing in the chapter. A mother in extremis, naming her child for the pain of his birth, the loss of her life. She will not see him grow. Yet Jacob&apos;s renaming is not a denial of Rachel&apos;s name - it is an act of faith that this child, born in sorrow, will stand at God&apos;s right hand. Benjamin becomes the favorite of his older years, the son of Jacob&apos;s right hand.',
         },
         {
           kind: 'commentary',
@@ -330,14 +329,14 @@ export const GENESIS_35: RichChapterContent = {
         {
           kind: 'christ',
           id: 'g35-ben-oni-messiah',
-          title: 'Christ Connection — Son of Sorrow, Son of the Right Hand',
+          title: 'Christ Connection - Son of Sorrow, Son of the Right Hand',
           html:
             'A child whose mother names him for pain, but whose father names him for honor. This is the pattern of Christ. Isaiah writes: &ldquo;a man of sorrows, and acquainted with grief&rdquo; (Isa. 53:3). Born into suffering, born for a cross. Yet Hebrews says of Jesus: &ldquo;who being the brightness of his glory, and the express image of his person, and upholding all things by the word of his power, when he had by himself purged our sins, sat down on the right hand of the Majesty on high&rdquo; (Heb. 1:3). Both names are true of Him. The Son who knew sorrows knows ours. The Son who sits at God&apos;s right hand lifts us up with Him.',
           },
         {
           kind: 'carry',
           html:
-            'You may have a name for yourself born in sorrow — a wound, a loss, a failure. But that is not your only name. God names you for the future He is building in you. Both names may be true: you may carry grief. But you are also being held at God&apos;s right hand, being shaped for a strength you have not yet seen.',
+            'You may have a name for yourself born in sorrow - a wound, a loss, a failure. But that is not your only name. God names you for the future He is building in you. Both names may be true: you may carry grief. But you are also being held at God&apos;s right hand, being shaped for a strength you have not yet seen.',
         },
         {
           kind: 'reflection',
@@ -349,14 +348,14 @@ export const GENESIS_35: RichChapterContent = {
           kind: 'artwork',
           matchTitle: /rachel|bethlehem/i,
           matchArtist: /tissot|doré/i,
-          caption: '35:16–20 · Rachel&apos;s Death near Bethlehem',
+          caption: '35:16-20 · Rachel&apos;s Death near Bethlehem',
         },
       ],
     },
 
-    /* ─── Genesis 35:21–26 — Reuben and the Twelve Tribes ────────────────── */
+    /* ─── Genesis 35:21-26 - Reuben and the Twelve Tribes ────────────────── */
     {
-      ref: 'Genesis 35:21–26',
+      ref: 'Genesis 35:21-26',
       title: 'Reuben&apos;s Transgression and the Twelve',
       blocks: [
         {
@@ -399,12 +398,12 @@ export const GENESIS_35: RichChapterContent = {
           kind: 'commentary',
           id: 'g35-reuben',
           html:
-            'Reuben, the firstborn, commits a transgression: he sleeps with Bilhah, Rachel&apos;s handmaid and his stepmother. The Bible reports it in a single sentence and moves on. But this terse note carries weight. In Genesis 49, when Jacob blesses his sons, he will return to this sin: &ldquo;Reuben, thou art my firstborn… unstable as water, thou shalt not excel; because thou wentest up to thy father&apos;s bed.&rdquo; (49:3–4). The full reckoning comes later. For now, the text names the sin, and does not look away. But neither does it dwell.',
+            'Reuben, the firstborn, commits a transgression: he sleeps with Bilhah, Rachel&apos;s handmaid and his stepmother. The Bible reports it in a single sentence and moves on. But this terse note carries weight. In Genesis 49, when Jacob blesses his sons, he will return to this sin: &ldquo;Reuben, thou art my firstborn... unstable as water, thou shalt not excel; because thou wentest up to thy father&apos;s bed.&rdquo; (49:3-4). The full reckoning comes later. For now, the text names the sin, and does not look away. But neither does it dwell.',
         },
         {
           kind: 'carry',
           html:
-            'Sometimes a wrong done in a moment will echo through your entire life. Reuben&apos;s transgression — brief, unnamed except in its barest fact — will cost him his inheritance as the firstborn. The text teaches that some choices cannot be taken back. But it also teaches that your worst moment is not the end of the story. Reuben is still one of the twelve, still Israel, still carried forward into the covenant.',
+            'Sometimes a wrong done in a moment will echo through your entire life. Reuben&apos;s transgression - brief, unnamed except in its barest fact - will cost him his inheritance as the firstborn. The text teaches that some choices cannot be taken back. But it also teaches that your worst moment is not the end of the story. Reuben is still one of the twelve, still Israel, still carried forward into the covenant.',
         },
         {
           kind: 'reflection',
@@ -415,9 +414,9 @@ export const GENESIS_35: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 35:27–29 — Isaac&apos;s Death ──────────────────────────── */
+    /* ─── Genesis 35:27-29 - Isaac&apos;s Death ──────────────────────────── */
     {
-      ref: 'Genesis 35:27–29',
+      ref: 'Genesis 35:27-29',
       title: 'Isaac Dies, the Generations Gathered',
       blocks: [
         {
@@ -448,18 +447,18 @@ export const GENESIS_35: RichChapterContent = {
           kind: 'commentary',
           id: 'g35-isaac-death',
           html:
-            'Isaac dies at 180 years old — far longer than Abraham&apos;s 175, and in the same place where Abraham and he once dwelled. He is &ldquo;full of years&rdquo; — the biblical phrase for a life run to its natural completion. The phrase &ldquo;gathered unto his people&rdquo; is not escape or diminishment; it is completion. A long covenantal life, lived in the land God promised, dies here.',
+            'Isaac dies at 180 years old - far longer than Abraham&apos;s 175, and in the same place where Abraham and he once dwelled. He is &ldquo;full of years&rdquo; - the biblical phrase for a life run to its natural completion. The phrase &ldquo;gathered unto his people&rdquo; is not escape or diminishment; it is completion. A long covenantal life, lived in the land God promised, dies here.',
         },
         {
           kind: 'commentary',
           id: 'g35-both-sons',
           html:
-            'Esau and Jacob bury Isaac together. They have not seen each other since their reconciliation in chapter 33. Now they stand at their father&apos;s tomb as brothers, not as rivals. The cycle that began with Isaac &mdash; the favorite son, the son of promise — closes with both sons keeping him. The old man who played favorites, who loved Esau for the taste of venison and loved Jacob in his fear, is buried by them both.',
+            'Esau and Jacob bury Isaac together. They have not seen each other since their reconciliation in chapter 33. Now they stand at their father&apos;s tomb as brothers, not as rivals. The cycle that began with Isaac &mdash; the favorite son, the son of promise - closes with both sons keeping him. The old man who played favorites, who loved Esau for the taste of venison and loved Jacob in his fear, is buried by them both.',
         },
         {
           kind: 'carry',
           html:
-            'A life is long, and old age is its natural end. Isaac lived for 180 years in the land of the promise, and when his time came, he was full. His sons, once separated by betrayal and fear, came together at his grave. That reconciliation — brothers standing together over the body of the man who divided them — is the quiet victory of the chapter. Faithfulness does not always heal quickly. But it does heal.',
+            'A life is long, and old age is its natural end. Isaac lived for 180 years in the land of the promise, and when his time came, he was full. His sons, once separated by betrayal and fear, came together at his grave. That reconciliation - brothers standing together over the body of the man who divided them - is the quiet victory of the chapter. Faithfulness does not always heal quickly. But it does heal.',
         },
         {
           kind: 'reflection',

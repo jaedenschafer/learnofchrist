@@ -37,6 +37,17 @@ export const EZRA_4: RichChapterContent = {
     ref: 'Ezra 4 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'penn-museum-persepolis',
+      kind: 'archaeology',
+      source: 'Penn Museum',
+      label: 'Persepolis Tablets',
+      url: 'https://www.penn.museum/collections/',
+      description: 'Cuneiform records of Persian provincial administration and labor systems.',
+    },
+  ],
+
   sections: [
     /* ─── Ezra 4:1–3 — The Adversaries' Offer ────────────────────────────── */
     {
@@ -77,7 +88,7 @@ export const EZRA_4: RichChapterContent = {
           kind: 'commentary',
           id: 'ezra4-adversaries',
           html:
-            'The word here is "adversaries" — but they do not come with swords. They come with words. They have heard that the temple is being built, and they understand what this means: the Jews are placing their trust in their own God, not in the gods of the land, not in the powers that conquered them. The adversaries are the remnants of the peoples who displaced Israel — those who were brought into the land by Assyrian kings, who worship a syncretism of Assyrian gods and the local religion.',
+            'The word here is "adversaries" — but they do not come with swords. They come with words. They have heard that the temple is being built, and they understand what this means: the Jews are placing their trust in their own God, not in the gods of the land, not in the powers that conquered them. The adversaries are the remnants of the peoples who displaced Israel — those who were brought into the land by Assyrian kings, who worship a syncretism of Assyrian gods and the local religion. [res:penn-museum-persepolis]',
         },
         {
           kind: 'hebrew',

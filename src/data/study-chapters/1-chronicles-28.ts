@@ -32,6 +32,17 @@ export const CHRONICLES_1_28: RichChapterContent = {
     ref: '1 Chronicles 28 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-david',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'David in the Ancient Near East',
+      url: 'https://www.britishmuseum.org/',
+      description: 'British Museum collections on Iron Age Levantine kingdoms and David.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 28:1 — The Assembly Summoned ────────────────────── */
     {
@@ -52,7 +63,7 @@ export const CHRONICLES_1_28: RichChapterContent = {
           kind: 'commentary',
           id: 'assembly-summoned',
           html:
-            'David gathers not a casual audience but the governing structure of the entire kingdom: princes of the tribes, military captains, stewards of the royal estates, officers, and mighty men. This is not a private moment. This is the nation assembled. David stands before them not as a warrior claiming territory, but as a father preparing to pass authority to his son.',
+            'David gathers not a casual audience but the governing structure of the entire kingdom: princes of the tribes, military captains, stewards of the royal estates, officers, and mighty men. This is not a private moment. This is the nation assembled. David stands before them not as a warrior claiming territory, but as a father preparing to pass authority to his son. [res:british-museum-david]',
         },
         {
           kind: 'carry',

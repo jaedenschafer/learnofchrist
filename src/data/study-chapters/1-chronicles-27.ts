@@ -31,6 +31,17 @@ export const CHRONICLES_1_27: RichChapterContent = {
     ref: '1 Chronicles 27 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-david',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'David in the Ancient Near East',
+      url: 'https://www.britishmuseum.org/',
+      description: 'British Museum collections on Iron Age Levantine kingdoms and David.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 27:1–15 — The Twelve Monthly Divisions ────────────── */
     {
@@ -56,7 +67,7 @@ export const CHRONICLES_1_27: RichChapterContent = {
           kind: 'commentary',
           id: '1-chronicles-27-mid-3',
           html:
-            '<p>This cluster shows the families entrusted with leading and protecting Israel.</p>',
+            '<p>This cluster shows the families entrusted with leading and protecting Israel.</p> [res:british-museum-david]',
         },
         {
           kind: 'scripture',

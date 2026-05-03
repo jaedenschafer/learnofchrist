@@ -30,6 +30,17 @@ export const EZRA_8: RichChapterContent = {
     ref: 'Ezra 8 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'oriental-institute-artaxerxes',
+      kind: 'archive',
+      source: 'Oriental Institute',
+      label: 'Artaxerxes I and Achaemenid Court',
+      url: 'https://oi.uchicago.edu/',
+      description: 'OI scholarly resources on 5th-century BCE Persian rule and administration.',
+    },
+  ],
+
   sections: [
     /* ─── Ezra 8:1–14 — The Families Return ──────────────────────────── */
     {
@@ -49,7 +60,7 @@ export const EZRA_8: RichChapterContent = {
           kind: 'commentary',
           id: 'ezra_8_v1-7',
           html:
-            '<p>Weaving God&apos;s ongoing care through each command and promise.</p>',
+            '<p>Weaving God&apos;s ongoing care through each command and promise.</p> [res:oriental-institute-artaxerxes]',
         },
         {
           kind: 'scripture',

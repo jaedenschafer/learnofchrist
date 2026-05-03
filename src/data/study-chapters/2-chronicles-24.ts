@@ -35,6 +35,17 @@ export const CHRONICLES_2_24: RichChapterContent = {
     ref: '2 Chronicles 24 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-judah-monarchy',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Judah in the Monarchy Period',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 24:1–3 — Joash Crowned at Seven ──────────────────────── */
     {
@@ -69,7 +80,7 @@ export const CHRONICLES_2_24: RichChapterContent = {
           kind: 'commentary',
           id: '2c24-joash-right',
           html:
-            'This verse is the hinge of the entire chapter: Joash did right "all the days of Jehoiada the priest." The conditional word "all" carries weight. As long as Jehoiada lives, Joash is faithful. The king&apos;s righteousness is not his own — it is borrowed, learned, shaped by the presence of a righteous mentor. A seven-year-old crowned. He has no father. He needs a guide. And he finds one in Jehoiada, the high priest. This is what mentorship looks like in Scripture: not domination, but the patient shaping of a young life toward righteousness.',
+            'This verse is the hinge of the entire chapter: Joash did right "all the days of Jehoiada the priest." The conditional word "all" carries weight. As long as Jehoiada lives, Joash is faithful. The king&apos;s righteousness is not his own — it is borrowed, learned, shaped by the presence of a righteous mentor. A seven-year-old crowned. He has no father. He needs a guide. And he finds one in Jehoiada, the high priest. This is what mentorship looks like in Scripture: not domination, but the patient shaping of a young life toward righteousness. [res:iaa-judah-monarchy]',
         },
         {
           kind: 'commentary',

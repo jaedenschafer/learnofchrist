@@ -34,6 +34,17 @@ export const CHRONICLES_2_6: RichChapterContent = {
     ref: '2 Chronicles 6 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-cyrus',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'The Cyrus Cylinder',
+      url: 'https://www.britishmuseum.org/collection/objects/w3679',
+      description: 'Ancient Persian cylinder decree allowing return from exile and temple rebuilding.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 6:1–11 — Solomon's Blessing of God ──────────────── */
     {
@@ -52,7 +63,7 @@ export const CHRONICLES_2_6: RichChapterContent = {
           kind: 'commentary',
           id: '2c6-thick-darkness',
           html:
-            'Solomon opens with a theology of divine transcendence. The Lord dwells in thick darkness — not in accessible light, not in comfort, but in the density and mystery of His own being. This echoes the revelation at Sinai, where God spoke from the cloud. Yet into this darkness, into the mystery of the divine, Solomon has built a house. Not to contain God, but as a place where God has chosen to make His presence known.',
+            'Solomon opens with a theology of divine transcendence. The Lord dwells in thick darkness — not in accessible light, not in comfort, but in the density and mystery of His own being. This echoes the revelation at Sinai, where God spoke from the cloud. Yet into this darkness, into the mystery of the divine, Solomon has built a house. Not to contain God, but as a place where God has chosen to make His presence known. [res:british-museum-cyrus]',
         },
         {
           kind: 'scripture',

@@ -30,6 +30,17 @@ export const EZRA_3: RichChapterContent = {
     ref: 'Ezra 3 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-return-exile',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Judahite Return and Settlement c. 540 BCE',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA archaeological evidence for post-exilic settlement in Judah.',
+    },
+  ],
+
   sections: [
     /* ─── Ezra 3:1–3 — The People Gather as One Man, the Altar Built First ──── */
     {
@@ -68,7 +79,7 @@ export const EZRA_3: RichChapterContent = {
           kind: 'commentary',
           id: 'ezra3-one-man',
           html:
-            'The people gather as one man — a phrase that emphasizes unity. They have come home scattered, from different places, in different circumstances. Yet in this moment, they move as one body. There is no debate about whether to begin. There is no hesitation. They come to Jerusalem with a single purpose.',
+            'The people gather as one man — a phrase that emphasizes unity. They have come home scattered, from different places, in different circumstances. Yet in this moment, they move as one body. There is no debate about whether to begin. There is no hesitation. They come to Jerusalem with a single purpose. [res:iaa-return-exile]',
         },
         {
           kind: 'commentary',

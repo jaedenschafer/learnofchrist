@@ -1,15 +1,15 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 32 — Jacob wrestles with God.
+ * Genesis 32 - Jacob wrestles with God.
  *
  * One of Scripture&apos;s strangest and most beloved chapters. Jacob is on his way
- * home to face his brother Esau — the man he deceived twenty years ago. Terrified,
+ * home to face his brother Esau - the man he deceived twenty years ago. Terrified,
  * he divides his company, sends gifts ahead, prays one of the most honest prayers
  * in the Bible. Then alone at the Jabbok, in the dark, a Man appears. They wrestle
  * all night. The Man touches Jacob&apos;s thigh and breaks it. Jacob will not let go
  * without a blessing. The Man asks his name; Jacob answers. The Man renames him
- * Israel — &ldquo;for as a prince hast thou power with God and with men, and hast
+ * Israel - &ldquo;for as a prince hast thou power with God and with men, and hast
  * prevailed.&rdquo; Jacob limps away, blessed and broken, never the same.
  */
 export const GENESIS_32: RichChapterContent = {
@@ -19,8 +19,8 @@ export const GENESIS_32: RichChapterContent = {
 
   estimatedMinutes: { beginner: 9, intermediate: 16, deep: 20 },
   intros: [
-    'Jacob is going home. For twenty years he has lived in exile in Haran, hiding from the brother he cheated. He has built a family, amassed herds and servants, and survived the schemes of his father-in-law. Now the time has come to go back to Canaan, to face the man he wronged. And Esau is coming to meet him — with four hundred men.',
-    'What follows is a night without parallel in Scripture. Alone at the river Jabbok, Jacob encounters a mysterious figure. The text calls him a Man. Jacob calls him God. The Church has long understood him as a pre-incarnate appearance of the Son — a christophany. [res:bibleodyssey-jacob-israel] And what happens in that darkness is neither a vision nor a prayer alone, but something physical and real: a wrestling match with God Himself, where the blessing comes through the wound.',
+    'Jacob is going home. For twenty years he has lived in exile in Haran, hiding from the brother he cheated. He has built a family, amassed herds and servants, and survived the schemes of his father-in-law. Now the time has come to go back to Canaan, to face the man he wronged. And Esau is coming to meet him - with four hundred men.',
+    'What follows is a night without parallel in Scripture. Alone at the river Jabbok, Jacob encounters a mysterious figure. The text calls him a Man. Jacob calls him God. The Church has long understood him as a pre-incarnate appearance of the Son - a christophany. [res:bibleodyssey-jacob-israel] And what happens in that darkness is neither a vision nor a prayer alone, but something physical and real: a wrestling match with God Himself, where the blessing comes through the wound.',
     'This is a chapter about power and helplessness, about holding on to God when God is silent and mysterious, about limping into blessing. Read it slowly. The text does not explain everything, and it should not. Some mysteries are meant to remain.',
   ],
 
@@ -60,9 +60,9 @@ export const GENESIS_32: RichChapterContent = {
   ],
 
   sections: [
-    /* ─── Genesis 32:1–8 — Fear and Division ───────────────────────────── */
+    /* ─── Genesis 32:1-8 - Fear and Division ───────────────────────────── */
     {
-      ref: 'Genesis 32:1–8',
+      ref: 'Genesis 32:1-8',
       title: 'Fear and Division',
       blocks: [
         {
@@ -104,8 +104,7 @@ export const GENESIS_32: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-32-78mid-1',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Jacob flees Laban and encounters God&apos;s army at Mahanaim. His prayer is raw-he names his fear of Esau and cries out for deliverance.',
         },
         {
           kind: 'scripture',
@@ -144,17 +143,17 @@ export const GENESIS_32: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-mahanaim',
-          title: 'Mahanaim — &ldquo;two camps&rdquo;',
+          title: 'Mahanaim - &ldquo;two camps&rdquo;',
           script: 'מַחֲנַיִם',
           translit: '<strong>mahanaim</strong> · literally &ldquo;two camps&rdquo; or &ldquo;two hosts&rdquo;',
           description:
-            'Jacob sees the angels and names the place Mahanaim, &ldquo;two camps,&rdquo; because he has encountered God&apos;s army. The place will haunt Jacob this entire chapter. He himself will soon divide into two camps out of fear. And later, wrestling with the Man by night, he will be broken and remade — a splitting apart that leads to wholeness. The name Mahanaim echoes through the narrative, a constant reminder that God&apos;s presence is there, even in Jacob&apos;s terror.',
+            'Jacob sees the angels and names the place Mahanaim, &ldquo;two camps,&rdquo; because he has encountered God&apos;s army. The place will haunt Jacob this entire chapter. He himself will soon divide into two camps out of fear. And later, wrestling with the Man by night, he will be broken and remade - a splitting apart that leads to wholeness. The name Mahanaim echoes through the narrative, a constant reminder that God&apos;s presence is there, even in Jacob&apos;s terror.',
         },
         {
           kind: 'commentary',
           id: 'c-mahanaim',
           html:
-            'Jacob has barely left Laban&apos;s house when angels appear. He has not sought them out or deserved them. They come. The God who will wrestle with Jacob later — who will wound him and remake him — sends His messengers first. [res:sefaria-genesis-32] Before the breaking, there is comfort. Before the trial, there is a sign that Jacob is not alone.',
+            'Jacob has barely left Laban&apos;s house when angels appear. He has not sought them out or deserved them. They come. The God who will wrestle with Jacob later - who will wound him and remake him - sends His messengers first. [res:sefaria-genesis-32] Before the breaking, there is comfort. Before the trial, there is a sign that Jacob is not alone.',
         },
         {
           kind: 'commentary',
@@ -166,25 +165,25 @@ export const GENESIS_32: RichChapterContent = {
           kind: 'commentary',
           id: 'c-fear-division',
           html:
-            'Jacob&apos;s first response to fear is to divide. Split the people, divide the animals — if half are destroyed, at least half survive. It is a logical response, a practical hedge. But it is also the opposite of faith. Faith would say, <em>God is with me. I will walk forward whole.</em> Fear says, <em>I will cut myself in half so that at least part of me survives.</em> Jacob is about to learn that wholeness comes not through dividing, but through being broken by God and held fast.',
+            'Jacob&apos;s first response to fear is to divide. Split the people, divide the animals - if half are destroyed, at least half survive. It is a logical response, a practical hedge. But it is also the opposite of faith. Faith would say, <em>God is with me. I will walk forward whole.</em> Fear says, <em>I will cut myself in half so that at least part of me survives.</em> Jacob is about to learn that wholeness comes not through dividing, but through being broken by God and held fast.',
         },
         {
           kind: 'carry',
           html:
-            'When you are afraid, your impulse is probably to divide too — to split yourself into pieces, protect different parts, hedge your bets. Notice the prayer that follows (verses 9-12). Jacob does something different. Instead of planning another escape, he prays. Instead of dividing further, he begins to yield.',
+            'When you are afraid, your impulse is probably to divide too - to split yourself into pieces, protect different parts, hedge your bets. Notice the prayer that follows (verses 9-12). Jacob does something different. Instead of planning another escape, he prays. Instead of dividing further, he begins to yield.',
         },
         {
           kind: 'reflection',
           id: 'gen32-fear',
           prompt:
-            'What does fear usually make you do first — divide, plan, control? What would it look like to bring that fear to God in prayer instead?',
+            'What does fear usually make you do first - divide, plan, control? What would it look like to bring that fear to God in prayer instead?',
         },
       ],
     },
 
-    /* ─── Genesis 32:9–12 — The Prayer ───────────────────────────────── */
+    /* ─── Genesis 32:9-12 - The Prayer ───────────────────────────────── */
     {
-      ref: 'Genesis 32:9–12',
+      ref: 'Genesis 32:9-12',
       title: 'The Prayer',
       blocks: [
         {
@@ -227,24 +226,24 @@ export const GENESIS_32: RichChapterContent = {
           kind: 'commentary',
           id: 'c-god-of-fathers',
           html:
-            'Jacob does not begin with his own piety. He begins by naming the God of Abraham and Isaac — the God whose promises have been fulfilled across generations. This is not Jacob&apos;s story alone. He is praying into a covenant that precedes him and will outlast him. The prayer is an anchor into something larger than his terror.',
+            'Jacob does not begin with his own piety. He begins by naming the God of Abraham and Isaac - the God whose promises have been fulfilled across generations. This is not Jacob&apos;s story alone. He is praying into a covenant that precedes him and will outlast him. The prayer is an anchor into something larger than his terror.',
         },
         {
           kind: 'commentary',
           id: 'c-staff',
           html:
-            'This is the most honest sentence in the prayer: <em>I am not worthy.</em> Jacob came with a staff — one man, alone, with nothing. God gave him wives, children, flocks, and servants. He has become two bands, multiplied beyond measure. And yet he fears losing it all. The prayer holds two truths together: everything is a gift, and everything can be taken. That tension is the place where Jacob will meet God.',
+            'This is the most honest sentence in the prayer: <em>I am not worthy.</em> Jacob came with a staff - one man, alone, with nothing. God gave him wives, children, flocks, and servants. He has become two bands, multiplied beyond measure. And yet he fears losing it all. The prayer holds two truths together: everything is a gift, and everything can be taken. That tension is the place where Jacob will meet God.',
         },
         {
           kind: 'commentary',
           id: 'c-fear-family',
           html:
-            'It is important that Jacob names the threat precisely. Not just himself, but the mother with the children. His family. The fear is not abstract. It is the fear of loss — the fear that the people he loves will be destroyed. In a moment, God will answer this prayer by breaking Jacob himself, teaching him that his family cannot be protected by his strength or his schemes. Only by God&apos;s keeping.',
+            'It is important that Jacob names the threat precisely. Not just himself, but the mother with the children. His family. The fear is not abstract. It is the fear of loss - the fear that the people he loves will be destroyed. In a moment, God will answer this prayer by breaking Jacob himself, teaching him that his family cannot be protected by his strength or his schemes. Only by God&apos;s keeping.',
         },
         {
           kind: 'christ',
           id: 'christ-unworthy-prayer',
-          title: 'Christ Connection — The Unworthy Servant',
+          title: 'Christ Connection - The Unworthy Servant',
           html:
             'Jacob prays, <em>I am not worthy of the least of all the mercies.</em> That prayer echoes through all of Scripture. The centurion says it to Jesus: &ldquo;Lord, I am not worthy that thou shouldest come under my roof&rdquo; (Matt. 8:8). The publican prays it: &ldquo;God, be merciful to me, a sinner&rdquo; (Luke 18:13). And Paul writes, &ldquo;Christ Jesus came into the world to save sinners; of whom I am chief&rdquo; (1 Tim. 1:15). The recognition that we deserve nothing is not the end of the prayer. It is the beginning of faith. God has already promised to do us good. We are not negotiating with Him. We are reminding ourselves that His kindness is free.',
         },
@@ -257,14 +256,14 @@ export const GENESIS_32: RichChapterContent = {
           kind: 'reflection',
           id: 'gen32-prayer',
           prompt:
-            'What is the fear beneath your fear right now? What would it mean to pray Jacob&apos;s prayer — acknowledging both your unworthiness and God&apos;s faithfulness?',
+            'What is the fear beneath your fear right now? What would it mean to pray Jacob&apos;s prayer - acknowledging both your unworthiness and God&apos;s faithfulness?',
         },
       ],
     },
 
-    /* ─── Genesis 32:13–21 — The Gifts ───────────────────────────────── */
+    /* ─── Genesis 32:13-21 - The Gifts ───────────────────────────────── */
     {
-      ref: 'Genesis 32:13–21',
+      ref: 'Genesis 32:13-21',
       title: 'The Gifts Sent Ahead',
       blocks: [
         {
@@ -303,7 +302,7 @@ export const GENESIS_32: RichChapterContent = {
           kind: 'commentary',
           id: 'gen32-wrestle-fear',
           html:
-            'Jacob prepares; but then he encounters the stranger and wrestles until dawn—fear gives way to transformation.',
+            'Jacob prepares; but then he encounters the stranger and wrestles until dawn-fear gives way to transformation.',
         },
         {
           kind: 'scripture',
@@ -347,18 +346,18 @@ export const GENESIS_32: RichChapterContent = {
           kind: 'commentary',
           id: 'c-present',
           html:
-            'Jacob sends a present. Not once, but in waves — the droves divided so that each encounter with Esau prepares him for the next. Jacob is still trying to manage the encounter through his own resources. He trusts his gifts more than he trusts God. The gifts are not wrong, but they will not be the key. The answer lies not in what Jacob sends ahead, but in what Jacob leaves behind — himself, alone, at the river.',
+            'Jacob sends a present. Not once, but in waves - the droves divided so that each encounter with Esau prepares him for the next. Jacob is still trying to manage the encounter through his own resources. He trusts his gifts more than he trusts God. The gifts are not wrong, but they will not be the key. The answer lies not in what Jacob sends ahead, but in what Jacob leaves behind - himself, alone, at the river.',
         },
         {
           kind: 'commentary',
           id: 'c-see-his-face',
           html:
-            'Jacob says, &ldquo;I will appease him with the present, and afterward I will see his face.&rdquo; He will see Esau&apos;s face. But before that, in the dark at the Jabbok, he will see another face — the face of God. And he will say of that encounter, &ldquo;I have seen God face to face, and my life is preserved.&rdquo; The order matters. The encounter with God precedes the reconciliation with the brother.',
+            'Jacob says, &ldquo;I will appease him with the present, and afterward I will see his face.&rdquo; He will see Esau&apos;s face. But before that, in the dark at the Jabbok, he will see another face - the face of God. And he will say of that encounter, &ldquo;I have seen God face to face, and my life is preserved.&rdquo; The order matters. The encounter with God precedes the reconciliation with the brother.',
         },
         {
           kind: 'carry',
           html:
-            'You probably have strategies for appeasement too — gifts you send ahead, performances designed to soften someone&apos;s heart or protect you from judgment. The gifts are not evil. But notice what Jacob is about to learn: reconciliation does not come through the gifts. It comes through the meeting. And the meeting that matters most is not the one with Esau. It is the one that happens first, alone, in the dark, with God.',
+            'You probably have strategies for appeasement too - gifts you send ahead, performances designed to soften someone&apos;s heart or protect you from judgment. The gifts are not evil. But notice what Jacob is about to learn: reconciliation does not come through the gifts. It comes through the meeting. And the meeting that matters most is not the one with Esau. It is the one that happens first, alone, in the dark, with God.',
         },
         {
           kind: 'reflection',
@@ -369,9 +368,9 @@ export const GENESIS_32: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 32:22–28 — The Wrestling ─────────────────────────── */
+    /* ─── Genesis 32:22-28 - The Wrestling ─────────────────────────── */
     {
-      ref: 'Genesis 32:22–28',
+      ref: 'Genesis 32:22-28',
       title: 'The Wrestler in Darkness',
       blocks: [
         {
@@ -405,8 +404,7 @@ export const GENESIS_32: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-32-78mid-2',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'The gift is sent ahead, but Jacob stays behind--alone at the river. A man wrestles him until dawn, and Jacob will not let go until he is blessed and renamed.',
         },
         {
           kind: 'scripture',
@@ -447,29 +445,29 @@ export const GENESIS_32: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-israel',
-          title: 'Yisrael — &ldquo;he who wrestles with God&rdquo;',
+          title: 'Yisrael - &ldquo;he who wrestles with God&rdquo;',
           script: 'יִשְׂרָאֵל',
           translit: '<strong>yisrael</strong> · &ldquo;God strives&rdquo; or &ldquo;he who wrestles with God&rdquo;',
           description:
-            'The name is rebuilt from <em>sarah</em> (to strive, to wrestle) and <em>El</em> (God). Jacob becomes Israel — the one who strives with God and prevails. Not through strength, but through holding on. Not through winning, but through refusing to let go until he is blessed. The whole nation will take this name. Israel&apos;s entire identity is built on the refusal to let God go, even when broken.',
+            'The name is rebuilt from <em>sarah</em> (to strive, to wrestle) and <em>El</em> (God). Jacob becomes Israel - the one who strives with God and prevails. Not through strength, but through holding on. Not through winning, but through refusing to let go until he is blessed. The whole nation will take this name. Israel&apos;s entire identity is built on the refusal to let God go, even when broken.',
         },
         {
           kind: 'commentary',
           id: 'c-alone',
           html:
-            'Jacob sends everyone across. He is alone. At the moment of greatest need, he is separated from everything — wife, children, servants, animals, the weight of his wealth. There is nothing left but Jacob and the darkness and a river. The condition is necessary. What is about to happen cannot happen while Jacob is still holding on to his defenses.',
+            'Jacob sends everyone across. He is alone. At the moment of greatest need, he is separated from everything - wife, children, servants, animals, the weight of his wealth. There is nothing left but Jacob and the darkness and a river. The condition is necessary. What is about to happen cannot happen while Jacob is still holding on to his defenses.',
         },
         {
           kind: 'commentary',
           id: 'c-wrestling',
           html:
-            'A Man appears. The text does not explain who He is. Jacob will later tell his name — Peniel, &ldquo;the face of God&rdquo; — &ldquo;because I have seen God face to face, and my life is preserved&rdquo; (v. 30). But in the moment, Jacob does not know. He only knows that something is holding him, and he cannot let go.',
+            'A Man appears. The text does not explain who He is. Jacob will later tell his name - Peniel, &ldquo;the face of God&rdquo; - &ldquo;because I have seen God face to face, and my life is preserved&rdquo; (v. 30). But in the moment, Jacob does not know. He only knows that something is holding him, and he cannot let go.',
         },
         {
           kind: 'commentary',
           id: 'c-thigh-touch',
           html:
-            'The Man touches his thigh — the socket of the hip — and it goes out of joint. In a moment, Jacob will be physically broken. He will limp the rest of his life. This is not gentle. The God who comes to Jacob in the dark does not come to comfort him. He comes to break him. And in breaking him, to remake him.',
+            'The Man touches his thigh - the socket of the hip - and it goes out of joint. In a moment, Jacob will be physically broken. He will limp the rest of his life. This is not gentle. The God who comes to Jacob in the dark does not come to comfort him. He comes to break him. And in breaking him, to remake him.',
         },
         {
           kind: 'commentary',
@@ -480,33 +478,33 @@ export const GENESIS_32: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-wrestling-christophany',
-          title: 'Christ Connection — Wrestling with God',
+          title: 'Christ Connection - Wrestling with God',
           html:
-            'The Church has understood this wrestling match as a christophany — a pre-incarnate appearance of Christ. Hosea 12:4 calls the figure &ldquo;the angel,&rdquo; but the text itself implies divinity. Jacob sees His face and lives. Christ came to a people broken by the Fall — a people who had failed to keep the covenant. And He did not come to comfort them with gifts or promises alone. He came to wrestle with them, to break them in their pride, to strip them of everything they thought would save them. And He demanded that they hold on, that they refuse to let Him go. &ldquo;Blessed are they that mourn,&rdquo; Jesus said, &ldquo;for they shall be comforted&rdquo; (Matt. 5:4). The comfort comes after the breaking.',
+            'The Church has understood this wrestling match as a christophany - a pre-incarnate appearance of Christ. Hosea 12:4 calls the figure &ldquo;the angel,&rdquo; but the text itself implies divinity. Jacob sees His face and lives. Christ came to a people broken by the Fall - a people who had failed to keep the covenant. And He did not come to comfort them with gifts or promises alone. He came to wrestle with them, to break them in their pride, to strip them of everything they thought would save them. And He demanded that they hold on, that they refuse to let Him go. &ldquo;Blessed are they that mourn,&rdquo; Jesus said, &ldquo;for they shall be comforted&rdquo; (Matt. 5:4). The comfort comes after the breaking.',
         },
         {
           kind: 'carry',
           html:
-            'There are prayers God answers by giving you what you ask for. And there are prayers God answers by breaking you so that you can hold on to Him instead. You are probably praying for something to be taken away. God might be working to take away the thing you are holding instead — the pride, the self-reliance, the strategy that keeps you from falling on Him completely. Do not mistake the breaking for abandonment. It is the opposite. It is the closest God can come.',
+            'There are prayers God answers by giving you what you ask for. And there are prayers God answers by breaking you so that you can hold on to Him instead. You are probably praying for something to be taken away. God might be working to take away the thing you are holding instead - the pride, the self-reliance, the strategy that keeps you from falling on Him completely. Do not mistake the breaking for abandonment. It is the opposite. It is the closest God can come.',
         },
         {
           kind: 'reflection',
           id: 'gen32-wrestling',
           prompt:
-            'Where are you being broken right now — where is God making it impossible for you to hold on to your own strength? What would it mean to refuse to let Him go until He blesses you there?',
+            'Where are you being broken right now - where is God making it impossible for you to hold on to your own strength? What would it mean to refuse to let Him go until He blesses you there?',
         },
         {
           kind: 'artwork',
           matchTitle: /jacob.*wrestl|angel.*jacob/i,
           matchArtist: /rembrandt|delacroix|gauguin/i,
-          caption: 'Genesis 32:24–28 — The Wrestling',
+          caption: 'Genesis 32:24-28 - The Wrestling',
         },
       ],
     },
 
-    /* ─── Genesis 32:29–32 — The Name and the Limp ─────────────────── */
+    /* ─── Genesis 32:29-32 - The Name and the Limp ─────────────────── */
     {
-      ref: 'Genesis 32:29–32',
+      ref: 'Genesis 32:29-32',
       title: 'The New Name and the Broken Thigh',
       blocks: [
         {
@@ -550,16 +548,16 @@ export const GENESIS_32: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-peniel',
-          title: 'Peniel — &ldquo;face of God&rdquo;',
+          title: 'Peniel - &ldquo;face of God&rdquo;',
           script: 'פְּנִיאֵל',
           translit: '<strong>peniel</strong> · the face or presence of God',
           description:
-            'The place is named Peniel, from <em>panim</em> (face) and <em>El</em> (God). Jacob has seen the face of God. Not in vision, not in prayer, but in the flesh — a physical encounter. His life is preserved. The name marks the place where the boundary between visible and invisible, known and mysterious, was torn open.',
+            'The place is named Peniel, from <em>panim</em> (face) and <em>El</em> (God). Jacob has seen the face of God. Not in vision, not in prayer, but in the flesh - a physical encounter. His life is preserved. The name marks the place where the boundary between visible and invisible, known and mysterious, was torn open.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-penuel-note',
-          title: 'Penuel — the same place, another name',
+          title: 'Penuel - the same place, another name',
           script: 'פְּנוּאֵל',
           translit: '<strong>penuel</strong> · variant spelling of Peniel',
           description:
@@ -569,7 +567,7 @@ export const GENESIS_32: RichChapterContent = {
           kind: 'commentary',
           id: 'c-blessing-given',
           html:
-            'The Man asks, <em>Wherefore is it that thou dost ask after my name?</em> The question is not answered. Jacob never learns the name. And then the Man blesses him. Not because Jacob earned it, not because Jacob defeated Him. Despite the wrestling, despite the refusal to let go — or perhaps because of it — the Man grants the blessing. The blessing does not require the Man to be named. It requires only that Jacob receive it.',
+            'The Man asks, <em>Wherefore is it that thou dost ask after my name?</em> The question is not answered. Jacob never learns the name. And then the Man blesses him. Not because Jacob earned it, not because Jacob defeated Him. Despite the wrestling, despite the refusal to let go - or perhaps because of it - the Man grants the blessing. The blessing does not require the Man to be named. It requires only that Jacob receive it.',
         },
         {
           kind: 'commentary',
@@ -580,20 +578,20 @@ export const GENESIS_32: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-face-to-face',
-          title: 'Christ Connection — Seeing God Unveiled',
+          title: 'Christ Connection - Seeing God Unveiled',
           html:
-            'Jacob says, &ldquo;I have seen God face to face, and my life is preserved.&rdquo; But centuries later, John writes, &ldquo;No man hath seen God at any time; the only begotten Son, which is in the bosom of the Father, he hath declared him&rdquo; (John 1:18). What Jacob saw in shadow and mystery, we see in the face of Christ — God made visible, God made knowable, God made touchable. Jesus told His disciples, &ldquo;he that hath seen me hath seen the Father&rdquo; (John 14:9). What Jacob encountered in darkness, the disciples encountered in daylight. The face of God is the face of Christ.',
+            'Jacob says, &ldquo;I have seen God face to face, and my life is preserved.&rdquo; But centuries later, John writes, &ldquo;No man hath seen God at any time; the only begotten Son, which is in the bosom of the Father, he hath declared him&rdquo; (John 1:18). What Jacob saw in shadow and mystery, we see in the face of Christ - God made visible, God made knowable, God made touchable. Jesus told His disciples, &ldquo;he that hath seen me hath seen the Father&rdquo; (John 14:9). What Jacob encountered in darkness, the disciples encountered in daylight. The face of God is the face of Christ.',
         },
         {
           kind: 'commentary',
           id: 'c-the-limp',
           html:
-            'And he halted upon his thigh. Jacob limps for the rest of his life. The blessing does not undo the wound. The breaking is permanent. Israel — the new name — is a name written in a limp. Every step Jacob takes reminds him of the night he met God. The limp is not a curse. It is a mark. A sign that he has been held by something stronger than himself and that he did not let go.',
+            'And he halted upon his thigh. Jacob limps for the rest of his life. The blessing does not undo the wound. The breaking is permanent. Israel - the new name - is a name written in a limp. Every step Jacob takes reminds him of the night he met God. The limp is not a curse. It is a mark. A sign that he has been held by something stronger than himself and that he did not let go.',
         },
         {
           kind: 'carry',
           html:
-            'If you have been broken by God — if there is something you will carry for the rest of your life that marks you as one who has met Him — do not be ashamed of the limp. It is your name. Israel. The one who wrestled with God and would not let go, even when it cost everything. The limp is the proof that the blessing is real.',
+            'If you have been broken by God - if there is something you will carry for the rest of your life that marks you as one who has met Him - do not be ashamed of the limp. It is your name. Israel. The one who wrestled with God and would not let go, even when it cost everything. The limp is the proof that the blessing is real.',
         },
         {
           kind: 'reflection',
@@ -605,12 +603,12 @@ export const GENESIS_32: RichChapterContent = {
           kind: 'artwork',
           matchTitle: /peniel|penuel|jacob.*blessed/i,
           matchArtist: /rembrandt|delacroix|tissot/i,
-          caption: 'Genesis 32:29–30 — Blessed at Peniel',
+          caption: 'Genesis 32:29-30 - Blessed at Peniel',
         },
       ],
     },
 
-    /* ─── Genesis 32 — Whole Chapter Arc ──────────────────────────────── */
+    /* ─── Genesis 32 - Whole Chapter Arc ──────────────────────────────── */
     {
       ref: '',
       title: 'The Limp That Proves the Blessing',
@@ -621,12 +619,12 @@ export const GENESIS_32: RichChapterContent = {
         {
           kind: 'commentary',
           html:
-            'Jacob entered this chapter terrified — looking over his shoulder at an enemy he had wronged, dividing his people to hedge against loss, sending gifts ahead to appease. By the end, he has been dismantled. His thigh is broken. His body bears the mark. And he is whole. Israel — the new name — walks forward into the day, limping. The blessing required the breaking. The wholeness required the wound.',
+            'Jacob entered this chapter terrified - looking over his shoulder at an enemy he had wronged, dividing his people to hedge against loss, sending gifts ahead to appease. By the end, he has been dismantled. His thigh is broken. His body bears the mark. And he is whole. Israel - the new name - walks forward into the day, limping. The blessing required the breaking. The wholeness required the wound.',
         },
         {
           kind: 'commentary',
           html:
-            'This is the pattern that runs through all of Scripture. The God who comes to us does not come to leave us as we are. He comes to remake us. Paul writes, &ldquo;If any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new&rdquo; (2 Cor. 5:17). The newness is not purchased cheaply. Christ was broken. He rose. And those who follow Him are broken too — not destroyed, but unmade so that they can be made again. The limp is the proof. It says: <em>I have been held by God. I will not let go.</em>',
+            'This is the pattern that runs through all of Scripture. The God who comes to us does not come to leave us as we are. He comes to remake us. Paul writes, &ldquo;If any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new&rdquo; (2 Cor. 5:17). The newness is not purchased cheaply. Christ was broken. He rose. And those who follow Him are broken too - not destroyed, but unmade so that they can be made again. The limp is the proof. It says: <em>I have been held by God. I will not let go.</em>',
         },
         {
           kind: 'divider',

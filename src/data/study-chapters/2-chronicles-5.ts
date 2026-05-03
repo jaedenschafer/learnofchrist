@@ -30,6 +30,17 @@ export const CHRONICLES_2_5: RichChapterContent = {
     ref: '2 Chronicles 5 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-cyrus',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'The Cyrus Cylinder',
+      url: 'https://www.britishmuseum.org/collection/objects/w3679',
+      description: 'Ancient Persian cylinder decree allowing return from exile and temple rebuilding.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 5:1 — All the Work Finished ──────────────────────── */
     {
@@ -102,7 +113,7 @@ export const CHRONICLES_2_5: RichChapterContent = {
           kind: 'commentary',
           id: 'c5-sacrificed',
           html:
-            'The number of sacrifices is so vast it cannot be counted. This is not a normal dedication ceremony. This is a moment of such rejoicing, such gratitude, such awareness that something cosmic is happening, that the offerings pile higher than any tally can record. The king and people together are making a statement: we understand what is about to occur. We recognize that heaven is about to meet earth.',
+            'The number of sacrifices is so vast it cannot be counted. This is not a normal dedication ceremony. This is a moment of such rejoicing, such gratitude, such awareness that something cosmic is happening, that the offerings pile higher than any tally can record. The king and people together are making a statement: we understand what is about to occur. We recognize that heaven is about to meet earth. [res:british-museum-cyrus]',
         },
         {
           kind: 'hebrew',

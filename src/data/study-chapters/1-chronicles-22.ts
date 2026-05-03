@@ -50,7 +50,7 @@ export const CHRONICLES_1_22: RichChapterContent = {
           kind: 'commentary',
           id: 'chr22-altar-identified',
           html:
-            'David stands on the threshing floor of Ornan, the place where the Lord halted a plague by fire upon the altar. And in this moment of recognition, David declares: "This is the house of the Lord God, and this is the altar of the burnt offering for Israel." Not "this will be." Not "God has promised." But "this is" — as if the temple were already built in his vision, already consecrated by what has happened here. David sees what others do not yet see. The work has begun in his heart before the first stone is laid.',
+            'David stands on the threshing floor of Ornan, the place where the Lord halted a plague by fire upon the altar. And in this moment of recognition, David declares: "This is the house of the Lord God, and this is the altar of the burnt offering for Israel." Not "this will be." Not "God has promised." But "this is" — as if the temple were already built in his vision, already consecrated by what has happened here. David sees what others do not yet see. The work has begun in his heart before the first stone is laid. [res:british-museum-david]',
         },
         {
           kind: 'commentary',
@@ -393,6 +393,17 @@ export const CHRONICLES_1_22: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Chronicles 22 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'british-museum-david',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'David in the Ancient Near East',
+      url: 'https://www.britishmuseum.org/',
+      description: 'British Museum collections on Iron Age Levantine kingdoms and David.',
+    },
+  ],
 
   hasHebrew: true,
 };

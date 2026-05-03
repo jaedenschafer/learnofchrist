@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 31 — Jacob&apos;s Secret Flight and the Covenant of Mizpah
+ * Genesis 31 - Jacob&apos;s Secret Flight and the Covenant of Mizpah
  *
  * God tells Jacob to return to Canaan. Jacob secretly departs with wives,
  * children, and flocks. Rachel steals her father&apos;s teraphim (household idols).
@@ -19,14 +19,14 @@ export const GENESIS_31: RichChapterContent = {
 
   estimatedMinutes: { beginner: 12, intermediate: 18, deep: 22 },
   intros: [
-    'Genesis 31 is a chapter about departure—about the moment when a man must leave behind the place where he built everything and return to the land God promised him. Jacob has served Laban faithfully for twenty years, but the relationship has soured. Laban keeps changing Jacob&apos;s wages. The sons of Laban, once friendly, now whisper that Jacob has stolen from their father. Jacob is caught between loyalty to the man who took him in and obedience to the God who has been with him.',
-    'God breaks the silence. He tells Jacob to go home. And Jacob does something striking: he does not announce his departure. He gathers his wives and children, rounds up his flocks, and leaves in secret. Rachel, Laban&apos;s daughter and Jacob&apos;s beloved, steals her father&apos;s household idols on the way out—an act the text leaves unresolved, with echoes of judgment hanging over it. [res:bibleodyssey-jacob-israel] When Laban chases them down and searches for the gods, he finds nothing. The two men who once were close enough to share a household are now strangers who must ask God to keep watch over a boundary between them.',
+    'Genesis 31 is a chapter about departure-about the moment when a man must leave behind the place where he built everything and return to the land God promised him. Jacob has served Laban faithfully for twenty years, but the relationship has soured. Laban keeps changing Jacob&apos;s wages. The sons of Laban, once friendly, now whisper that Jacob has stolen from their father. Jacob is caught between loyalty to the man who took him in and obedience to the God who has been with him.',
+    'God breaks the silence. He tells Jacob to go home. And Jacob does something striking: he does not announce his departure. He gathers his wives and children, rounds up his flocks, and leaves in secret. Rachel, Laban&apos;s daughter and Jacob&apos;s beloved, steals her father&apos;s household idols on the way out-an act the text leaves unresolved, with echoes of judgment hanging over it. [res:bibleodyssey-jacob-israel] When Laban chases them down and searches for the gods, he finds nothing. The two men who once were close enough to share a household are now strangers who must ask God to keep watch over a boundary between them.',
   ],
 
   bottomShare: {
     label: 'Share Genesis 31',
     quote:
-      'Jacob fled secretly with his wives, children, and flocks. Laban pursued and overtook him. They erected a stone monument and made a covenant: &ldquo;The LORD watch between me and thee, when we are absent one from another.&rdquo; The Mizpah blessing is not sentimental—it&apos;s a God called to police a boundary between two men who have stopped trusting each other.',
+      'Jacob fled secretly with his wives, children, and flocks. Laban pursued and overtook him. They erected a stone monument and made a covenant: &ldquo;The LORD watch between me and thee, when we are absent one from another.&rdquo; The Mizpah blessing is not sentimental-it&apos;s a God called to police a boundary between two men who have stopped trusting each other.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 31 · Study Guide',
   },
@@ -59,9 +59,9 @@ export const GENESIS_31: RichChapterContent = {
   ],
 
   sections: [
-    /* ─── Genesis 31:1–16 — The Call and the Secret Departure ──────────── */
+    /* ─── Genesis 31:1-16 - The Call and the Secret Departure ──────────── */
     {
-      ref: 'Genesis 31:1–16',
+      ref: 'Genesis 31:1-16',
       title: 'The Divine Call and the Secret Flight',
       blocks: [
         {
@@ -85,12 +85,12 @@ export const GENESIS_31: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-accusation',
-          html: 'The accusation is false—Jacob has built his wealth honestly, as verse 6 will explain. But lies have a way of poisoning relationships. Even when Laban&apos;s sons are speaking envy, Jacob feels the wall going up. [res:sefaria-genesis-31] Sometimes staying becomes impossible the moment the people around you decide it has become so.',
+          html: 'The accusation is false--Jacob has built his wealth honestly, as verse 6 will explain. But lies have a way of poisoning relationships. Even when Laban&apos;s sons are speaking envy, Jacob feels the wall going up. [res:sefaria-genesis-31] Sometimes staying becomes impossible the moment the people around you decide it has become so.',
         },
         {
           kind: 'commentary',
           id: 'christ-homecoming',
-          html: 'God&apos;s command is not framed as a reward for faithfulness but as a calling. Jacob must leave. Not because Laban has turned cold—though that matters—but because Jacob&apos;s covenant belongs in Canaan, not in Mesopotamia. [res:iaa-israel-sites] God names him to go home.',
+          html: 'God&apos;s command is not framed as a reward for faithfulness but as a calling. Jacob must leave. Not because Laban has turned cold--though that matters--but because Jacob&apos;s covenant belongs in Canaan, not in Mesopotamia. [res:iaa-israel-sites] God names him to go home.',
         },
         {
           kind: 'scripture',
@@ -117,7 +117,7 @@ export const GENESIS_31: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-ten-times',
-          html: 'Ten times is completeness, exhaustion. Jacob is not exaggerating—he is naming a pattern of betrayal that has become habitual. Laban promised him wages, then shifted the terms. A relationship built on shifting ground cannot hold.',
+          html: 'Ten times is completeness, exhaustion. Jacob is not exaggerating--he is naming a pattern of betrayal that has become habitual. Laban promised him wages, then shifted the terms. A relationship built on shifting ground cannot hold.',
         },
         {
           kind: 'scripture',
@@ -140,10 +140,10 @@ export const GENESIS_31: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-pattern',
-          title: 'Ringstraked, Speckled, Grisled — &ldquo;קָלוּד, נָקוּד, בְרוּדִים&rdquo;',
+          title: 'Ringstraked, Speckled, Grisled - &ldquo;קָלוּד, נָקוּד, בְרוּדִים&rdquo;',
           script: 'קָלוּד, נָקוּד, בְרוּדִים',
           translit: '<strong>qallud, naquod, brudim</strong> · striped, speckled, dappled cattle',
-          description: 'The Hebrew words capture every variation in coat pattern. Jacob&apos;s eye is keen and detailed—he notices the particulars of what God is doing for him, not in a mystical dream alone but in the daily patterns of breeding. God works through detail, through the natural laws He made.',
+          description: 'The Hebrew words capture every variation in coat pattern. Jacob&apos;s eye is keen and detailed-he notices the particulars of what God is doing for him, not in a mystical dream alone but in the daily patterns of breeding. God works through detail, through the natural laws He made.',
         },
         {
           kind: 'scripture',
@@ -166,7 +166,7 @@ export const GENESIS_31: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-bethel-memory',
-          html: 'God does not argue Jacob into obedience. He reminds him. Bethel—the place where Jacob once saw the ladder and made a vow to God—becomes the anchor for this new command. God is saying: <em>You made me a promise there. This is how you keep it.</em> The vow Jacob made in desperation, fleeing from Esau, is now being called back in his name.',
+          html: 'God does not argue Jacob into obedience. He reminds him. Bethel--the place where Jacob once saw the ladder and made a vow to God--becomes the anchor for this new command. God is saying: <em>You made me a promise there. This is how you keep it.</em> The vow Jacob made in desperation, fleeing from Esau, is now being called back in his name.',
         },
         {
           kind: 'scripture',
@@ -189,23 +189,23 @@ export const GENESIS_31: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-money-spent',
-          html: 'The wives have a legitimate claim. In ancient custom, the bride-price belonged to the family, and if a man remarried the daughters of a different father, his wealth should remain in the household. But Laban has spent it. Rachel and Leah are saying: <em>We have no home here. We have no inheritance. God has made us your wives—let us follow you to yours.</em> It is both practical and loyal.',
+          html: 'The wives have a legitimate claim. In ancient custom, the bride-price belonged to the family, and if a man remarried the daughters of a different father, his wealth should remain in the household. But Laban has spent it. Rachel and Leah are saying: <em>We have no home here. We have no inheritance. God has made us your wives--let us follow you to yours.</em> It is both practical and loyal.',
         },
         {
           kind: 'carry',
-          html: 'There are seasons when staying becomes impossible even though it once was home. When the people around you change, when the trust erodes, when the promises that held everything together start to unravel—sometimes obedience looks like leaving, and sometimes leaving is the only way to honor the promises you made before. If you sense God calling you to go somewhere, to leave something behind, listen to the women and men who love you. If they are willing to follow, move toward what God is calling you toward.',
+          html: 'There are seasons when staying becomes impossible even though it once was home. When the people around you change, when the trust erodes, when the promises that held everything together start to unravel--sometimes obedience looks like leaving, and sometimes leaving is the only way to honor the promises you made before. If you sense God calling you to go somewhere, to leave something behind, listen to the women and men who love you. If they are willing to follow, move toward what God is calling you toward.',
         },
         {
           kind: 'reflection',
           id: 'gen31-call',
-          prompt: 'Is God calling you away from something that once was good—a place, a season, a relationship? What is one small thing you can do this week to begin honoring that calling?',
+          prompt: 'Is God calling you away from something that once was good-a place, a season, a relationship? What is one small thing you can do this week to begin honoring that calling?',
         },
       ],
     },
 
-    /* ─── Genesis 31:17–25 — The Departure and the Pursuit ──────────────── */
+    /* ─── Genesis 31:17-25 - The Departure and the Pursuit ──────────────── */
     {
-      ref: 'Genesis 31:17–25',
+      ref: 'Genesis 31:17-25',
       title: 'Laban Pursues',
       blocks: [
         {
@@ -229,7 +229,7 @@ export const GENESIS_31: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-stolen-images',
-          html: 'Rachel steals the <em>teraphim</em>—small household idols believed in the ancient Near East to confer inheritance rights and protection on a household. Why does she take them? The text never tells us. She might believe they protect her on the journey. She might be reclaiming what she sees as rightfully hers—a daughter&apos;s share of the household gods. Or she might be acting out of bitterness toward a father who has treated her like a commodity. The text leaves the theft unresolved, and that silence is important. Not every act of disobedience the Bible records is directly condemned.',
+          html: 'Rachel steals the <em>teraphim</em>--small household idols believed in the ancient Near East to confer inheritance rights and protection on a household. Why does she take them? The text never tells us. She might believe they protect her on the journey. She might be reclaiming what she sees as rightfully hers--a daughter&apos;s share of the household gods. Or she might be acting out of bitterness toward a father who has treated her like a commodity. The text leaves the theft unresolved, and that silence is important. Not every act of disobedience the Bible records is directly condemned.',
         },
         {
           kind: 'scripture',
@@ -256,7 +256,7 @@ export const GENESIS_31: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-silence-matters',
-          html: 'Jacob leaves without saying goodbye. For a man who has just received a direct command from God, he is oddly secretive. He does not announce the departure. He does not ask permission. He simply goes—and in doing so, he exposes how deep the mistrust has become. Two men who once shared a tent and a life cannot speak to each other anymore.',
+          html: 'Jacob leaves without saying goodbye. For a man who has just received a direct command from God, he is oddly secretive. He does not announce the departure. He does not ask permission. He simply goes--and in doing so, he exposes how deep the mistrust has become. Two men who once shared a tent and a life cannot speak to each other anymore.',
         },
         {
           kind: 'scripture',
@@ -275,12 +275,12 @@ export const GENESIS_31: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-mediation',
-          title: 'Christ Connection — The Mediator Between Brothers',
-          html: 'God intervenes in the confrontation before it happens. He speaks to Laban and puts a boundary around what Laban is allowed to say. This is the first function of a mediator—not to resolve everything, but to prevent the stronger party from destroying the weaker. Christ, in His role as Judge, stands between sinful humanity and the holiness of God in precisely this way: He does not eliminate justice, but He prevents our condemnation from being final. &ldquo;If any man sin, we have an advocate with the Father, Jesus Christ the righteous&rdquo; (1 John 2:1). God speaking to Laban, silencing his anger before words are spoken, is a small picture of that much larger intercession.',
+          title: 'Christ Connection - The Mediator Between Brothers',
+          html: 'God intervenes in the confrontation before it happens. He speaks to Laban and puts a boundary around what Laban is allowed to say. This is the first function of a mediator--not to resolve everything, but to prevent the stronger party from destroying the weaker. Christ, in His role as Judge, stands between sinful humanity and the holiness of God in precisely this way: He does not eliminate justice, but He prevents our condemnation from being final. &ldquo;If any man sin, we have an advocate with the Father, Jesus Christ the righteous&rdquo; (1 John 2:1). God speaking to Laban, silencing his anger before words are spoken, is a small picture of that much larger intercession.',
         },
         {
           kind: 'carry',
-          html: 'The next time you are about to say something to someone in anger—something you might later regret—pause. God spoke to Laban in the night and silenced his voice. The Holy Spirit can do the same for you. Not to suppress truth, but to make sure that truth is spoken in its time, in wisdom, to the right audience.',
+          html: 'The next time you are about to say something to someone in anger--something you might later regret--pause. God spoke to Laban in the night and silenced his voice. The Holy Spirit can do the same for you. Not to suppress truth, but to make sure that truth is spoken in its time, in wisdom, to the right audience.',
         },
         {
           kind: 'reflection',
@@ -290,14 +290,14 @@ export const GENESIS_31: RichChapterContent = {
         {
           kind: 'artwork',
           matchTitle: /jacob.*laban|laban.*jacob/i,
-          caption: 'Genesis 31:17–25 · The Pursuit Begins',
+          caption: 'Genesis 31:17-25 · The Pursuit Begins',
         },
       ],
     },
 
-    /* ─── Genesis 31:26–35 — The Search for the Teraphim ──────────────── */
+    /* ─── Genesis 31:26-35 - The Search for the Teraphim ──────────────── */
     {
-      ref: 'Genesis 31:26–35',
+      ref: 'Genesis 31:26-35',
       title: 'The Search and Rachel&apos;s Deception',
       blocks: [
         {
@@ -321,7 +321,7 @@ export const GENESIS_31: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-laban-wounded',
-          html: 'Laban is wounded, and his words betray it. He speaks as if Jacob has kidnapped his daughters, as if the man he loved has robbed him. Notice what Laban does not mention first: the livestock, the wealth. He grieves the daughters. It is a moment of real pain beneath the anger, and it complicates the picture. Laban is not simply a tyrant—he is a father losing his children without goodbyes.',
+          html: 'Laban is wounded, and his words betray it. He speaks as if Jacob has kidnapped his daughters, as if the man he loved has robbed him. Notice what Laban does not mention first: the livestock, the wealth. He grieves the daughters. It is a moment of real pain beneath the anger, and it complicates the picture. Laban is not simply a tyrant--he is a father losing his children without goodbyes.',
         },
         {
           kind: 'scripture',
@@ -371,11 +371,11 @@ export const GENESIS_31: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-rachel-sits',
-          html: 'Rachel sits on the gods. It is a gesture of profound disrespect in the ancient world—a woman, ritually unclean according to her own culture&apos;s standards, sitting on her father&apos;s household deities. She uses the very thing that makes her unclean—menstruation—to protect what she has stolen. She has inverted the household order completely. The gods that were meant to protect the family now rest under the body of the woman Laban tried to control.',
+          html: 'Rachel sits on the gods. It is a gesture of profound disrespect in the ancient world--a woman, ritually unclean according to her own culture&apos;s standards, sitting on her father&apos;s household deities. She uses the very thing that makes her unclean--menstruation--to protect what she has stolen. She has inverted the household order completely. The gods that were meant to protect the family now rest under the body of the woman Laban tried to control.',
         },
         {
           kind: 'carry',
-          html: 'We don&apos;t often talk about the women in these stories—the ones who act, who resist, who refuse to be purely passive in their own fates. Rachel is neither villain nor saint in this moment. She is a woman caught between loyalty to a father who sold her and loyalty to a husband she loves. She chooses. It costs her everything eventually. But in this moment, she chooses her own future. Whatever you are carrying—a secret, a theft, a choice you have made that the world does not yet know—you don&apos;t have to defend it with lies forever. But you also don&apos;t have to rush to confess it to people who have not earned your trust.',
+          html: 'We don&apos;t often talk about the women in these stories--the ones who act, who resist, who refuse to be purely passive in their own fates. Rachel is neither villain nor saint in this moment. She is a woman caught between loyalty to a father who sold her and loyalty to a husband she loves. She chooses. It costs her everything eventually. But in this moment, she chooses her own future. Whatever you are carrying--a secret, a theft, a choice you have made that the world does not yet know--you don&apos;t have to defend it with lies forever. But you also don&apos;t have to rush to confess it to people who have not earned your trust.',
         },
         {
           kind: 'reflection',
@@ -385,9 +385,9 @@ export const GENESIS_31: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 31:36–42 — Jacob&apos;s Defense ────────────────────────── */
+    /* ─── Genesis 31:36-42 - Jacob&apos;s Defense ────────────────────────── */
     {
-      ref: 'Genesis 31:36–42',
+      ref: 'Genesis 31:36-42',
       title: 'Jacob Speaks His Truth',
       blocks: [
         {
@@ -415,7 +415,7 @@ export const GENESIS_31: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-jacob-accounting',
-          html: 'Jacob is not claiming perfection. He is claiming faithfulness. For twenty years, he bore losses that belonged to the owner—the animals that died, the ones torn by beasts. He demanded nothing of Laban in return. He is asking: <em>What more do you want from me?</em> It is a legitimate question of a man worn out by ingratitude.',
+          html: 'Jacob is not claiming perfection. He is claiming faithfulness. For twenty years, he bore losses that belonged to the owner--the animals that died, the ones torn by beasts. He demanded nothing of Laban in return. He is asking: <em>What more do you want from me?</em> It is a legitimate question of a man worn out by ingratitude.',
         },
         {
           kind: 'scripture',
@@ -438,17 +438,17 @@ export const GENESIS_31: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-god-vindication',
-          html: 'Jacob&apos;s final appeal is not to Laban&apos;s fairness but to God&apos;s justice. <em>Except the God of my father had been with me</em>—this is the refrain that runs through Jacob&apos;s whole journey. He has been alone, far from home, working for a man who betrays him repeatedly, and the only thing that has kept him from utter ruin is that God saw him. God witnessed his suffering. God defended him. This is the language of vindication, not triumph. Jacob has been justified by One greater than Laban, and that is enough.',
+          html: 'Jacob&apos;s final appeal is not to Laban&apos;s fairness but to God&apos;s justice. <em>Except the God of my father had been with me</em>--this is the refrain that runs through Jacob&apos;s whole journey. He has been alone, far from home, working for a man who betrays him repeatedly, and the only thing that has kept him from utter ruin is that God saw him. God witnessed his suffering. God defended him. This is the language of vindication, not triumph. Jacob has been justified by One greater than Laban, and that is enough.',
         },
         {
           kind: 'christ',
           id: 'christ-vindication',
-          title: 'Christ Connection — The Servant Vindicated by God',
-          html: 'Jacob serves faithfully and is repaid with betrayal and changing terms. His only recourse is to the God who sees him. Isaiah describes a suffering servant in much the same language: &ldquo;He was oppressed, and he was afflicted, yet he opened not his mouth… Like a lamb that is led to the slaughter… he shall see his seed, he shall prolong his days, and the pleasure of the LORD shall prosper in his hand&rdquo; (Isa. 53:7, 10). Christ, the ultimate servant, was never vindicated in His earthly lifetime by the powers that opposed Him. His vindication came from God the Father, in the resurrection. Every faithful servant since learns from both Jacob and Christ that the world&apos;s recognition is not the goal—God&apos;s recognition is.',
+          title: 'Christ Connection - The Servant Vindicated by God',
+          html: 'Jacob serves faithfully and is repaid with betrayal and changing terms. His only recourse is to the God who sees him. Isaiah describes a suffering servant in much the same language: &ldquo;He was oppressed, and he was afflicted, yet he opened not his mouth... Like a lamb that is led to the slaughter... he shall see his seed, he shall prolong his days, and the pleasure of the LORD shall prosper in his hand&rdquo; (Isa. 53:7, 10). Christ, the ultimate servant, was never vindicated in His earthly lifetime by the powers that opposed Him. His vindication came from God the Father, in the resurrection. Every faithful servant since learns from both Jacob and Christ that the world&apos;s recognition is not the goal--God&apos;s recognition is.',
         },
         {
           kind: 'carry',
-          html: 'If you are in a season where your faithfulness is not being acknowledged, where your work is taken for granted, where someone in power keeps moving the terms—look to God. Not as a way to excuse the injustice, but as a way to stay standing. God sees you. God witnesses your affliction and your labor. That seeing is not nothing. It is not everything you want, but it is real, and it is more solid than any human recognition could be.',
+          html: 'If you are in a season where your faithfulness is not being acknowledged, where your work is taken for granted, where someone in power keeps moving the terms--look to God. Not as a way to excuse the injustice, but as a way to stay standing. God sees you. God witnesses your affliction and your labor. That seeing is not nothing. It is not everything you want, but it is real, and it is more solid than any human recognition could be.',
         },
         {
           kind: 'reflection',
@@ -458,9 +458,9 @@ export const GENESIS_31: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 31:43–55 — The Covenant of Mizpah ─────────────────────── */
+    /* ─── Genesis 31:43-55 - The Covenant of Mizpah ─────────────────────── */
     {
-      ref: 'Genesis 31:43–55',
+      ref: 'Genesis 31:43-55',
       title: 'The Covenant of Mizpah',
       blocks: [
         {
@@ -493,7 +493,7 @@ export const GENESIS_31: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-mizpah',
-          title: 'Mizpah — &ldquo;Watchtower&rdquo;',
+          title: 'Mizpah - &ldquo;Watchtower&rdquo;',
           script: 'מִצְפָּה',
           translit: '<strong>Mizpah</strong> · watchtower, lookout; from the root meaning &ldquo;to watch&rdquo;',
           description: 'The name of the covenant comes from its form: a stone heap serving as a watchtower between two territories. It is a boundary marker, a monument to the fact that two parties can no longer inhabit the same space without risk. The name itself encodes what the covenant is for: watching, surveillance, protection against violation.',
@@ -519,18 +519,18 @@ export const GENESIS_31: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-jegar',
-          title: 'Yegar-Sahadutha — &ldquo;Heap of Witness&rdquo; (Aramaic)',
+          title: 'Yegar-Sahadutha - &ldquo;Heap of Witness&rdquo; (Aramaic)',
           script: 'יְגַר שָׂהֲדוּתָא',
           translit: '<strong>Yegar-Sahadutha</strong> · Aramaic for &ldquo;heap of witness&rdquo;',
-          description: 'One of the few Aramaic phrases in Genesis, a signal that Laban is speaking in his own language, asserting his own identity at the boundary. Both men name the heap in their own tongues—Aramaic and Hebrew—each claiming it as a monument to their own culture.',
+          description: 'One of the few Aramaic phrases in Genesis, a signal that Laban is speaking in his own language, asserting his own identity at the boundary. Both men name the heap in their own tongues-Aramaic and Hebrew-each claiming it as a monument to their own culture.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-galeed',
-          title: 'Galeed — &ldquo;Heap of Witness&rdquo; (Hebrew)',
+          title: 'Galeed - &ldquo;Heap of Witness&rdquo; (Hebrew)',
           script: 'גַּלְעֵד',
           translit: '<strong>Galeed</strong> · Hebrew for &ldquo;heap of witness&rdquo;; also the name of the region where the covenant is made',
-          description: 'Jacob gives the heap the Hebrew name, marking it as part of the land he will claim. The two names—Aramaic and Hebrew—stand side by side, each man asserting his place, his language, his right to name what lies between them.',
+          description: 'Jacob gives the heap the Hebrew name, marking it as part of the land he will claim. The two names-Aramaic and Hebrew-stand side by side, each man asserting his place, his language, his right to name what lies between them.',
         },
         {
           kind: 'scripture',
@@ -557,8 +557,8 @@ export const GENESIS_31: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-judge',
-          title: 'Christ Connection — The Judge Between Brothers',
-          html: 'Laban and Jacob invoke God as a judge to arbitrate between them. &ldquo;The God of Abraham and the God of Nahor… judge betwixt us.&rdquo; Neither man trusts the other to keep the covenant, so they appeal to One who stands outside both of them. Christ, in His role as Judge, fulfills this function on a cosmic scale: He stands between sinful humanity and a holy God, between the accusations of the enemy and the mercy of the Father, between our worst selves and our redeemed selves. He does not abolish the boundary between what is right and what is wrong; He stands at that boundary and mediates. &ldquo;Who shall lay any thing to the charge of God&apos;s elect? It is Christ that died, yea rather, that is risen again&rdquo; (Rom. 8:33–34).',
+          title: 'Christ Connection - The Judge Between Brothers',
+          html: 'Laban and Jacob invoke God as a judge to arbitrate between them. &ldquo;The God of Abraham and the God of Nahor... judge betwixt us.&rdquo; Neither man trusts the other to keep the covenant, so they appeal to One who stands outside both of them. Christ, in His role as Judge, fulfills this function on a cosmic scale: He stands between sinful humanity and a holy God, between the accusations of the enemy and the mercy of the Father, between our worst selves and our redeemed selves. He does not abolish the boundary between what is right and what is wrong; He stands at that boundary and mediates. &ldquo;Who shall lay any thing to the charge of God&apos;s elect? It is Christ that died, yea rather, that is risen again&rdquo; (Rom. 8:33--34).',
         },
         {
           kind: 'scripture',
@@ -577,21 +577,21 @@ export const GENESIS_31: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-covenant-meal',
-          html: 'Before they part, they eat together. The covenant is sealed not in anger but in a shared meal, a moment where they remember that they were once family. Laban blesses his daughters and grandchildren before he leaves. It is a sad goodbye—a goodbye that marks an ending of intimacy—but it is a goodbye, not a war. Two men who cannot live together have found a way to part without destroying each other.',
+          html: 'Before they part, they eat together. The covenant is sealed not in anger but in a shared meal, a moment where they remember that they were once family. Laban blesses his daughters and grandchildren before he leaves. It is a sad goodbye--a goodbye that marks an ending of intimacy--but it is a goodbye, not a war. Two men who cannot live together have found a way to part without destroying each other.',
         },
         {
           kind: 'carry',
-          html: 'The Mizpah blessing is often quoted as a sweet benediction: &ldquo;The Lord watch between me and thee.&rdquo; But the original context is two people who have stopped trusting each other, who need God to be the one keeping watch because they cannot trust themselves to keep the boundary. That is the real power of the blessing. It is for seasons when relationships change, when closeness becomes impossible, when all you can do is ask God to keep guard over the space between you. If you are in a relationship that has changed shape, where once there was intimacy and now there is distance, the Mizpah blessing is for you—not as a romantic promise, but as a prayer that God will be faithful where human trust has failed.',
+          html: 'The Mizpah blessing is often quoted as a sweet benediction: &ldquo;The Lord watch between me and thee.&rdquo; But the original context is two people who have stopped trusting each other, who need God to be the one keeping watch because they cannot trust themselves to keep the boundary. That is the real power of the blessing. It is for seasons when relationships change, when closeness becomes impossible, when all you can do is ask God to keep guard over the space between you. If you are in a relationship that has changed shape, where once there was intimacy and now there is distance, the Mizpah blessing is for you--not as a romantic promise, but as a prayer that God will be faithful where human trust has failed.',
         },
         {
           kind: 'reflection',
           id: 'gen31-mizpah',
-          prompt: 'Is there a relationship in your life that has changed shape—where you once were close and now are distant? What would it mean to ask God to &ldquo;watch between me and thee&rdquo; in that space?',
+          prompt: 'Is there a relationship in your life that has changed shape-where you once were close and now are distant? What would it mean to ask God to &ldquo;watch between me and thee&rdquo; in that space?',
         },
         {
           kind: 'artwork',
           matchTitle: /mizpah|covenant.*stone|stone.*covenant/i,
-          caption: 'Genesis 31:43–55 · The Covenant at Mizpah',
+          caption: 'Genesis 31:43-55 · The Covenant at Mizpah',
         },
       ],
     },

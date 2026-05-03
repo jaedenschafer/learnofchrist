@@ -31,6 +31,17 @@ export const JOB_17: RichChapterContent = {
     ref: 'Job 17 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Job 17:1–9',
@@ -50,7 +61,7 @@ export const JOB_17: RichChapterContent = {
           kind: 'commentary',
           id: 'job17-breath-darkness',
           html:
-            'Job moves from his spirit breaking to his days extinguished. The metaphor becomes literal darkness.',
+            'Job moves from his spirit breaking to his days extinguished. The metaphor becomes literal darkness. [res:british-museum-ludlul]',
         },
         {
           kind: 'scripture',

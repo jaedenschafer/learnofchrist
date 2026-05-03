@@ -29,6 +29,17 @@ export const CHRONICLES_2_12: RichChapterContent = {
     ref: '2 Chronicles 12 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-judah-monarchy',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Judah in the Monarchy Period',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 12:1–4 — Rehoboam Forsakes; Shishak Invades ────── */
     {
@@ -64,7 +75,7 @@ export const CHRONICLES_2_12: RichChapterContent = {
           kind: 'commentary',
           id: 'shishak-invasion',
           html:
-            'Shishak of Egypt does not come by chance. He comes because Israel has "transgressed against the Lord." The narrative makes clear: the political invasion is the visible expression of a spiritual rupture. The kingdom is vulnerable not because Rehoboam is weak in arms, but because he has separated himself from the Lord.',
+            'Shishak of Egypt does not come by chance. He comes because Israel has "transgressed against the Lord." The narrative makes clear: the political invasion is the visible expression of a spiritual rupture. The kingdom is vulnerable not because Rehoboam is weak in arms, but because he has separated himself from the Lord. [res:iaa-judah-monarchy]',
         },
         {
           kind: 'commentary',

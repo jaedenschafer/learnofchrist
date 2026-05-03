@@ -33,6 +33,17 @@ export const JOB_2: RichChapterContent = {
     ref: 'Job 2 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'bible-odyssey-job',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Book of Job',
+      url: 'https://www.bibleodyssey.org/dictionary/job/',
+      description: 'SBL entry on Job: composition, wisdom tradition, theodicy, textual history.',
+    },
+  ],
+
   sections: [
     /* ─── Job 2:1–6 — The Second Council and the Second Wager ──────────── */
     {
@@ -69,7 +80,7 @@ export const JOB_2: RichChapterContent = {
           kind: 'commentary',
           id: 'sec1-integrity',
           html:
-            'Job has endured the first test. The Lord speaks of him with undiminished confidence: he still holds fast his integrity. The word here is significant—Job has not cursed God, has not turned away. His faith remains. And the Lord testifies to it, drawing Satan&apos;s wrath. Satan is a creature of accusation and destruction; that Job has withstood both wounds Satan&apos;s pride. He will press the trial further.',
+            'Job has endured the first test. The Lord speaks of him with undiminished confidence: he still holds fast his integrity. The word here is significant—Job has not cursed God, has not turned away. His faith remains. And the Lord testifies to it, drawing Satan&apos;s wrath. Satan is a creature of accusation and destruction; that Job has withstood both wounds Satan&apos;s pride. He will press the trial further. [res:bible-odyssey-job]',
         },
         {
           kind: 'hebrew',

@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 16 — Sarai gives Hagar to Abram; Hagar conceives and despises Sarai;
+ * Genesis 16 - Sarai gives Hagar to Abram; Hagar conceives and despises Sarai;
  * Sarai deals harshly with her; Hagar flees to the wilderness; the angel of the
  * LORD finds her by a fountain of water. She becomes the first person in the
  * Bible to give God a name: *El Roi*, "Thou God seest me." Ishmael is born.
@@ -17,8 +17,8 @@ export const GENESIS_16: RichChapterContent = {
 
   estimatedMinutes: { beginner: 5, intermediate: 8, deep: 11 },
   intros: [
-    'Genesis 15 closed with God making a covenant with Abram: your offspring will be more numerous than the stars. Genesis 16 opens ten years later. Sarai is still childless. The promise sits in the air, unborn. And Sarai, tired of waiting, decides to take matters into her own hands. What she does makes sense by the customs of the ancient Near East — a servant-surrogacy was a recognized way for a barren wife to build a family. But making sense and making peace are different things. Hagar will pay the cost of Sarai\'s impatience.',
-    'Yet this chapter belongs to Hagar. She is the one who runs, the one God finds, the one who speaks with God and names Him. Before Moses at the burning bush, before any priest at an altar, before any king in a temple, Hagar — a pregnant slave woman alone in the wilderness — becomes the first person in Scripture to give God a name. *El Roi*: "Thou God seest me." The chapter is a portrait of the unseen made visible, and the God [res:bibleodyssey-abraham-covenant] who sees those no one else looks at.',
+    'Genesis 15 closed with God making a covenant with Abram: your offspring will be more numerous than the stars. Genesis 16 opens ten years later. Sarai is still childless. The promise sits in the air, unborn. And Sarai, tired of waiting, decides to take matters into her own hands. What she does makes sense by the customs of the ancient Near East - a servant-surrogacy was a recognized way for a barren wife to build a family. But making sense and making peace are different things. Hagar will pay the cost of Sarai\'s impatience.',
+    'Yet this chapter belongs to Hagar. She is the one who runs, the one God finds, the one who speaks with God and names Him. Before Moses at the burning bush, before any priest at an altar, before any king in a temple, Hagar - a pregnant slave woman alone in the wilderness - becomes the first person in Scripture to give God a name. *El Roi*: "Thou God seest me." The chapter is a portrait of the unseen made visible, and the God [res:bibleodyssey-abraham-covenant] who sees those no one else looks at.',
   ],
 
   bottomShare: {
@@ -57,9 +57,9 @@ export const GENESIS_16: RichChapterContent = {
   ],
 
   sections: [
-    /* ─── Genesis 16:1–6 — Sarai's Plan ─────────────────────────────────── */
+    /* ─── Genesis 16:1-6 - Sarai's Plan ─────────────────────────────────── */
     {
-      ref: 'Genesis 16:1–6',
+      ref: 'Genesis 16:1-6',
       title: 'Sarai\'s Plan and Hagar\'s Pregnancy',
       blocks: [
         {
@@ -94,7 +94,7 @@ export const GENESIS_16: RichChapterContent = {
           kind: 'commentary',
           id: 'c-surrogacy',
           html:
-            'In ancient Near Eastern law codes — the Code of Hammurabi, cuneiform tablets from Nuzi — a barren wife could give her servant to her husband so that the servant\'s children would legally belong to the wife. It was a recognized, lawful practice. Sarai is not inventing something scandalous; she is naming something her culture understands. The question is not whether it was legal. It is whether impatience is wisdom.',
+            'In ancient Near Eastern law codes - the Code of Hammurabi, cuneiform tablets from Nuzi - a barren wife could give her servant to her husband so that the servant\'s children would legally belong to the wife. It was a recognized, lawful practice. Sarai is not inventing something scandalous; she is naming something her culture understands. The question is not whether it was legal. It is whether impatience is wisdom.',
         },
         {
           kind: 'scripture',
@@ -119,11 +119,11 @@ export const GENESIS_16: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-qalal',
-          title: 'Qalal — &ldquo;was despised&rdquo;',
+          title: 'Qalal - &ldquo;was despised&rdquo;',
           script: 'קָלַל',
           translit: '<strong>qalal</strong> · to be light, to be of little account, to despise',
           description:
-            'The same root that meant "to divide" (light from darkness, in Genesis 1) now means to demote, to make light of, to treat with contempt. Hagar, carrying Abram\'s child, looks at Sarai — the one who gave her to him — and sees her as nothing. The irony is bitter: Sarai gave up power to gain a child, and lost power in the bargain.',
+            'The same root that meant "to divide" (light from darkness, in Genesis 1) now means to demote, to make light of, to treat with contempt. Hagar, carrying Abram\'s child, looks at Sarai - the one who gave her to him - and sees her as nothing. The irony is bitter: Sarai gave up power to gain a child, and lost power in the bargain.',
         },
         {
           kind: 'scripture',
@@ -149,7 +149,7 @@ export const GENESIS_16: RichChapterContent = {
           kind: 'commentary',
           id: 'c-harshly',
           html:
-            'Sarai deals hardly with Hagar. The text does not specify the cruelty, only names it. The vagueness carries weight. Whatever it was, it was enough to make a pregnant woman flee into the desert alone. Hagar runs not to freedom but away from unbearable harm — and she runs while carrying Abram\'s unborn son, the heir Sarai wanted, the solution Sarai created.',
+            'Sarai deals hardly with Hagar. The text does not specify the cruelty, only names it. The vagueness carries weight. Whatever it was, it was enough to make a pregnant woman flee into the desert alone. Hagar runs not to freedom but away from unbearable harm - and she runs while carrying Abram\'s unborn son, the heir Sarai wanted, the solution Sarai created.',
         },
         {
           kind: 'carry',
@@ -165,9 +165,9 @@ export const GENESIS_16: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 16:7–12 — The Angel at the Well ──────────────────────── */
+    /* ─── Genesis 16:7-12 - The Angel at the Well ──────────────────────── */
     {
-      ref: 'Genesis 16:7–12',
+      ref: 'Genesis 16:7-12',
       title: 'Hagar in the Wilderness; The Angel Finds Her',
       blocks: [
         {
@@ -193,17 +193,17 @@ export const GENESIS_16: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-malak-yhwh',
-          title: 'Malak YHWH — &ldquo;angel of the LORD&rdquo;',
+          title: 'Malak YHWH - &ldquo;angel of the LORD&rdquo;',
           script: 'מַלְאַךְ יְהוָה',
           translit: '<strong>malak YHWH</strong> · messenger of the LORD',
           description:
-            'This is the *malak YHWH*\'s first appearance in Scripture. The figure speaks as God in the first person — "I will multiply thy seed" — yet is called God\'s messenger. Theologians have long puzzled over the identity; the text holds the mystery: a being who speaks with God\'s authority, sent by God, meeting Hagar at a well.',
+            'This is the *malak YHWH*\'s first appearance in Scripture. The figure speaks as God in the first person - "I will multiply thy seed" - yet is called God\'s messenger. Theologians have long puzzled over the identity; the text holds the mystery: a being who speaks with God\'s authority, sent by God, meeting Hagar at a well.',
         },
         {
           kind: 'commentary',
           id: 'c-well-wilderness',
           html:
-            'She is alone in the wilderness, and the first thing she encounters is a well. In the ancient Near East, a well means survival — water, life. Before anyone tells her she matters, God provides what she needs to live. Then the angel arrives.',
+            'She is alone in the wilderness, and the first thing she encounters is a well. In the ancient Near East, a well means survival - water, life. Before anyone tells her she matters, God provides what she needs to live. Then the angel arrives.',
         },
         {
           kind: 'scripture',
@@ -223,7 +223,7 @@ export const GENESIS_16: RichChapterContent = {
           kind: 'commentary',
           id: 'c-return',
           html:
-            'This is the hard word. Return. Submit. The angel does not say the cruelty will stop, or that Sarai will repent, or that her life will become easy. He says: go back. This is not the comfort we expect from a divine encounter. Yet what follows is a promise so extravagant that Hagar\'s submission makes sense — not as capitulation, but as trust.',
+            'This is the hard word. Return. Submit. The angel does not say the cruelty will stop, or that Sarai will repent, or that her life will become easy. He says: go back. This is not the comfort we expect from a divine encounter. Yet what follows is a promise so extravagant that Hagar\'s submission makes sense - not as capitulation, but as trust.',
         },
         {
           kind: 'scripture',
@@ -248,7 +248,7 @@ export const GENESIS_16: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-ishmael',
-          title: 'Ishmael — &ldquo;God hears&rdquo;',
+          title: 'Ishmael - &ldquo;God hears&rdquo;',
           script: 'יִשְׁמָעֵאל',
           translit: '<strong>ishmael</strong> · God hears / God will hear',
           description:
@@ -280,10 +280,10 @@ export const GENESIS_16: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 16:13–14 — "Thou God Seest Me" ────────────────────────── */
+    /* ─── Genesis 16:13-14 - "Thou God Seest Me" ────────────────────────── */
     {
-      ref: 'Genesis 16:13–14',
-      title: '"Thou God Seest Me" — El Roi',
+      ref: 'Genesis 16:13-14',
+      title: '"Thou God Seest Me" - El Roi',
       blocks: [
         {
           kind: 'scripture',
@@ -304,18 +304,18 @@ export const GENESIS_16: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-el-roi',
-          title: 'El Roi — &ldquo;God who sees me&rdquo;',
+          title: 'El Roi - &ldquo;God who sees me&rdquo;',
           script: 'אֵל רֳאִי',
           translit: '<strong>el roi</strong> · the God who sees / the God of my seeing',
           description:
-            'Hagar speaks the only name for God anyone has given Him so far in Scripture. Not the name He revealed to Moses, but a name she has discerned. She is a slave woman, a foreigner, a runaway pregnant in the desert — and she alone has named the nature of God: He is the One who sees. The Hebrew root *rah* (to see) echoes through her statement: she has seen Him, and she has been seen. Beer-lahai-roi means "the Well of the Living One Who Sees Me."',
+            'Hagar speaks the only name for God anyone has given Him so far in Scripture. Not the name He revealed to Moses, but a name she has discerned. She is a slave woman, a foreigner, a runaway pregnant in the desert - and she alone has named the nature of God: He is the One who sees. The Hebrew root *rah* (to see) echoes through her statement: she has seen Him, and she has been seen. Beer-lahai-roi means "the Well of the Living One Who Sees Me."',
         },
         {
           kind: 'christ',
           id: 'christ-el-roi',
-          title: 'Christ Connection — The God Who Sees at the Well',
+          title: 'Christ Connection - The God Who Sees at the Well',
           html:
-            'Centuries after Hagar names God at this well, Jesus sits down at another well — in Samaria, at high noon — and asks a Samaritan woman for water. She too is an outsider, a woman with a fractured life, alone at a well. She too encounters someone who sees her completely and speaks as God speaks. "Jesus saith unto her, I that speak unto thee am he" (John 4:26). The God who sees the unloved woman in the wilderness is the same God who, in flesh, sat with the woman at noon. El Roi has a name. It is Jesus.',
+            'Centuries after Hagar names God at this well, Jesus sits down at another well - in Samaria, at high noon - and asks a Samaritan woman for water. She too is an outsider, a woman with a fractured life, alone at a well. She too encounters someone who sees her completely and speaks as God speaks. "Jesus saith unto her, I that speak unto thee am he" (John 4:26). The God who sees the unloved woman in the wilderness is the same God who, in flesh, sat with the woman at noon. El Roi has a name. It is Jesus.',
         },
         {
           kind: 'scripture',
@@ -332,20 +332,20 @@ export const GENESIS_16: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'You have been seen. Not by accident, not because you were loud enough or important enough. You have been seen because the God of the universe pays attention to a slave woman in the desert. Hagar\'s name for God is your name for Him too — the One who sees what others miss, who hears what others ignore, who calls you by name before you ever ask to be known.',
+            'You have been seen. Not by accident, not because you were loud enough or important enough. You have been seen because the God of the universe pays attention to a slave woman in the desert. Hagar\'s name for God is your name for Him too - the One who sees what others miss, who hears what others ignore, who calls you by name before you ever ask to be known.',
         },
         {
           kind: 'reflection',
           id: 'gen16-el-roi',
           prompt:
-            'Where in your life do you need to be seen — really seen, not judged or fixed, but witnessed? Will you name God as El Roi, the God who sees, and trust Him with what is hidden?',
+            'Where in your life do you need to be seen - really seen, not judged or fixed, but witnessed? Will you name God as El Roi, the God who sees, and trust Him with what is hidden?',
         },
       ],
     },
 
-    /* ─── Genesis 16:15–16 — Ishmael is Born ─────────────────────────────── */
+    /* ─── Genesis 16:15-16 - Ishmael is Born ─────────────────────────────── */
     {
-      ref: 'Genesis 16:15–16',
+      ref: 'Genesis 16:15-16',
       title: 'The Birth of Ishmael',
       blocks: [
         {
@@ -372,12 +372,12 @@ export const GENESIS_16: RichChapterContent = {
           kind: 'commentary',
           id: 'c-ishmael-born',
           html:
-            'Ishmael is born. The son of a slave woman and the man whom God promised innumerable descendants — a son who carries in his name the memory of a woman\'s affliction, heard by God. He is not the son the covenant promised. That will come through Sarah. But he is not unloved. He is not unnamed. He enters the world as "God hears," and the world will eventually know that God hears through him — through the descendants who will be numbered like the sand of the sea (Gen. 21:13), through a people who will call on the God of Ishmael for millennia.',
+            'Ishmael is born. The son of a slave woman and the man whom God promised innumerable descendants - a son who carries in his name the memory of a woman\'s affliction, heard by God. He is not the son the covenant promised. That will come through Sarah. But he is not unloved. He is not unnamed. He enters the world as "God hears," and the world will eventually know that God hears through him - through the descendants who will be numbered like the sand of the sea (Gen. 21:13), through a people who will call on the God of Ishmael for millennia.',
         },
         {
           kind: 'carry',
           html:
-            'The child born of impatience is not a mistake. Ishmael carries God\'s promise. He carries a mother\'s vindication. He carries the name of a God who hears. What comes when we run ahead of God\'s timing is not always what we intended — but it is not outside God\'s love. The story does not end with a child born "too soon." It ends with a child born, named, promised, and held in the covenant of a God who sees.',
+            'The child born of impatience is not a mistake. Ishmael carries God\'s promise. He carries a mother\'s vindication. He carries the name of a God who hears. What comes when we run ahead of God\'s timing is not always what we intended - but it is not outside God\'s love. The story does not end with a child born "too soon." It ends with a child born, named, promised, and held in the covenant of a God who sees.',
         },
         {
           kind: 'reflection',

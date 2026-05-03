@@ -26,6 +26,17 @@ export const JOB_40: RichChapterContent = {
     ref: 'Job 40 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-job-hebrew',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Job: Hebrew Text and Terms',
+      url: 'https://www.sefaria.org/Job',
+      description: 'Sefaria Hebrew text with notes on rare terms and wisdom vocabulary.',
+    },
+  ],
+
   sections: [
     /* ─── Job 40:1–14 — The Silence of Humility ──────────────────────── */
     {
@@ -48,7 +59,7 @@ export const JOB_40: RichChapterContent = {
           kind: 'commentary',
           id: 'job40-mid1',
           html:
-            'Job&apos;s first response is silence. He will say no more. His former arguments are now nothing. But God is not finished. God speaks again, this time summoning Job not to despair but to stand: to prepare himself as a man for what is about to be revealed.',
+            'Job&apos;s first response is silence. He will say no more. His former arguments are now nothing. But God is not finished. God speaks again, this time summoning Job not to despair but to stand: to prepare himself as a man for what is about to be revealed. [res:sefaria-job-hebrew]',
         },
         {
           kind: 'scripture',

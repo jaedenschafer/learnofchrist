@@ -33,6 +33,17 @@ export const CHRONICLES_1_18: RichChapterContent = {
     ref: '1 Chronicles 18 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-david-kingdom',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'David and the Iron Age Kingdom',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Artifacts and inscriptions illuminating the Davidic monarchy and administration.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 18:1–2 — The Philistines and Moab ─────────────────── */
     {
@@ -54,7 +65,7 @@ export const CHRONICLES_1_18: RichChapterContent = {
           kind: 'commentary',
           id: 'philistines-subdued',
           html:
-            'David moves against the Philistines, the ancient enemies of Israel. For generations, they had been a threat to Israel&apos;s stability. Saul died at their hands. But now David takes Gath — a major Philistine stronghold — and the dominion shifts. What was once a threat becomes a subject people. The language is simple: he "smote" and "subdued."',
+            'David moves against the Philistines, the ancient enemies of Israel. For generations, they had been a threat to Israel&apos;s stability. Saul died at their hands. But now David takes Gath — a major Philistine stronghold — and the dominion shifts. What was once a threat becomes a subject people. The language is simple: he "smote" and "subdued." [res:british-museum-david-kingdom]',
         },
         {
           kind: 'commentary',

@@ -33,6 +33,17 @@ export const CHRONICLES_2_23: RichChapterContent = {
     ref: '2 Chronicles 23 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-judah-monarchy',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Judah in the Monarchy Period',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 23:1–3 — Jehoiada Strengthens Himself ────────────── */
     {
@@ -71,7 +82,7 @@ export const CHRONICLES_2_23: RichChapterContent = {
           kind: 'commentary',
           id: 'jeh-strengthens',
           html:
-            'Jehoiada "strengthened himself." This phrase carries the sense of gathering resolve, of a man moving with deliberate purpose. After six years of watching Athaliah rule and the royal line grow silent, the priest acts. He is not a man seizing power for himself. He is a man summoning others to stand with him in faithfulness. He calls the captains of hundreds — the military leaders — and makes them swear a covenant. A covenant, not a command. This is not a coup in the modern sense, but a covenant renewal, a restoration of what God had promised.',
+            'Jehoiada "strengthened himself." This phrase carries the sense of gathering resolve, of a man moving with deliberate purpose. After six years of watching Athaliah rule and the royal line grow silent, the priest acts. He is not a man seizing power for himself. He is a man summoning others to stand with him in faithfulness. He calls the captains of hundreds — the military leaders — and makes them swear a covenant. A covenant, not a command. This is not a coup in the modern sense, but a covenant renewal, a restoration of what God had promised. [res:iaa-judah-monarchy]',
         },
         {
           kind: 'commentary',

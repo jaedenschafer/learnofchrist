@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 14 — the war of nine kings, the rescue of Lot, and the first
+ * Genesis 14 - the war of nine kings, the rescue of Lot, and the first
  * priest in the Bible. This chapter packs extraordinary typology: the first
  * tithe, Melchizedek, bread and wine, a priest-king older than Abraham.
  * Hebrews 5-7 will spend three chapters unpacking Melchizedek as a type of
@@ -57,9 +57,9 @@ export const GENESIS_14: RichChapterContent = {
   ],
 
   sections: [
-    /* ─── Genesis 14:1–12 — The War and the Captivity ────────────────── */
+    /* ─── Genesis 14:1-12 - The War and the Captivity ────────────────── */
     {
-      ref: 'Genesis 14:1–12',
+      ref: 'Genesis 14:1-12',
       title: 'War and Captivity',
       blocks: [
         {
@@ -91,8 +91,7 @@ export const GENESIS_14: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-14-78mid-1',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Kings clash and captives fall, but this chaos sweeps up Lot. Abram, the sojourner, becomes a soldier.',
         },
         {
           kind: 'scripture',
@@ -130,7 +129,7 @@ export const GENESIS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'gen14-conquest-pivot',
           html:
-            'Chedorlaomer sweeps through the ancient world—Rephaim, Zuzim, Emim, Horites, Amalekites, Amorites—a crescendo of conquest. But now he returns to the heart of the conflict. The five kings of Canaan rise to meet him. The battlefield is the vale of Siddim. Lot, living in Sodom, has no idea his fate hangs in the balance. What matters now is not the great king&apos;s power, but one man&apos;s willingness to act.',
+            'Chedorlaomer sweeps through the ancient world-Rephaim, Zuzim, Emim, Horites, Amalekites, Amorites-a crescendo of conquest. But now he returns to the heart of the conflict. The five kings of Canaan rise to meet him. The battlefield is the vale of Siddim. Lot, living in Sodom, has no idea his fate hangs in the balance. What matters now is not the great king&apos;s power, but one man&apos;s willingness to act.',
         },
         {
           kind: 'scripture',
@@ -176,25 +175,25 @@ export const GENESIS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'c-four-kings',
           html:
-            'Nine kings clash in this chapter — a war that echoes through ancient history and is recorded in Mesopotamian sources. But Genesis does not care about kings or empires. It cares about one man&apos;s choice in the middle of a conflict that is not his. The great powers of the world are moving; what does faith do?',
+            'Nine kings clash in this chapter - a war that echoes through ancient history and is recorded in Mesopotamian sources. But Genesis does not care about kings or empires. It cares about one man&apos;s choice in the middle of a conflict that is not his. The great powers of the world are moving; what does faith do?',
         },
         {
           kind: 'commentary',
           id: 'c-rebellion',
           html:
-            'The pattern is simple: years of subjection, then rebellion. The kings of Sodom and Gomorrah, having paid tribute for twelve years, finally refuse. The next thirteen chapters will circle back to Sodom and Gomorrah again and again — they are a kind of moral gravity well in this book. Here they rebel against Chedorlaomer. Later, Abram will refuse to rebel against God[res:sefaria-genesis-14][res:pennmuseum-abraham-era].',
+            'The pattern is simple: years of subjection, then rebellion. The kings of Sodom and Gomorrah, having paid tribute for twelve years, finally refuse. The next thirteen chapters will circle back to Sodom and Gomorrah again and again - they are a kind of moral gravity well in this book. Here they rebel against Chedorlaomer. Later, Abram will refuse to rebel against God[res:sefaria-genesis-14][res:pennmuseum-abraham-era].',
         },
         {
           kind: 'commentary',
           id: 'c-slime-pits',
           html:
-            'The ground itself becomes a trap — the vale of Siddim is clogged with tar pits. The fugitives cannot flee; they are swallowed by the earth. The world takes Lot, and Lot is left with nothing. The king who built a tower at Babel built in bricks; the king of Sodom cannot even keep his feet out of mud.',
+            'The ground itself becomes a trap - the vale of Siddim is clogged with tar pits. The fugitives cannot flee; they are swallowed by the earth. The world takes Lot, and Lot is left with nothing. The king who built a tower at Babel built in bricks; the king of Sodom cannot even keep his feet out of mud.',
         },
         {
           kind: 'commentary',
           id: 'c-lot-captive',
           html:
-            'Lot is taken captive — not in battle, but in the chaos after. He has chosen to live in Sodom, to pitch his tent toward the city. Now the city is conquered, and Lot is carried away as spoils. Choice has consequence. But the chapter is about to show what grace does with that consequence.',
+            'Lot is taken captive - not in battle, but in the chaos after. He has chosen to live in Sodom, to pitch his tent toward the city. Now the city is conquered, and Lot is carried away as spoils. Choice has consequence. But the chapter is about to show what grace does with that consequence.',
         },
         {
           kind: 'carry',
@@ -205,14 +204,14 @@ export const GENESIS_14: RichChapterContent = {
           kind: 'reflection',
           id: 'gen14-captive',
           prompt:
-            'Whose "Lot" are you carrying right now — a person trapped in consequences not entirely their own? What would it look like to go after them, the way Abram is about to?',
+            'Whose "Lot" are you carrying right now - a person trapped in consequences not entirely their own? What would it look like to go after them, the way Abram is about to?',
         },
       ],
     },
 
-    /* ─── Genesis 14:13–16 — The Rescue ────────────────────────────────── */
+    /* ─── Genesis 14:13-16 - The Rescue ────────────────────────────────── */
     {
-      ref: 'Genesis 14:13–16',
+      ref: 'Genesis 14:13-16',
       title: 'The Rescue',
       blocks: [
         {
@@ -255,22 +254,22 @@ export const GENESIS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'c-brother-taken',
           html:
-            'Notice the speed: one verse for the entire war and capture, then instantly we turn to Abram and a messenger arrives. &ldquo;Thy brother is taken captive.&rdquo; The word <em>brother</em> is exact — Lot is not Abram&apos;s son, but his brother by kinship, chosen relationship. The same word Jesus will use centuries later: &ldquo;Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me&rdquo; (Matt. 25:40).',
+            'Notice the speed: one verse for the entire war and capture, then instantly we turn to Abram and a messenger arrives. &ldquo;Thy brother is taken captive.&rdquo; The word <em>brother</em> is exact - Lot is not Abram&apos;s son, but his brother by kinship, chosen relationship. The same word Jesus will use centuries later: &ldquo;Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me&rdquo; (Matt. 25:40).',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-trained-men',
-          title: 'Khanim — &ldquo;trained men&rdquo;',
+          title: 'Khanim - &ldquo;trained men&rdquo;',
           script: 'חֲנִיכִים',
           translit: '<strong>khanim</strong> · trained, disciplined warriors (literally, &ldquo;those who have been trained&rdquo;)',
           description:
-            'Abram commands 318 trained men born in his own household. He is not a nomad; he is a patriarch with a small army. But the point is not his power — it is what he does with it the instant he hears his brother is captive.',
+            'Abram commands 318 trained men born in his own household. He is not a nomad; he is a patriarch with a small army. But the point is not his power - it is what he does with it the instant he hears his brother is captive.',
         },
         {
           kind: 'commentary',
           id: 'c-trained-men',
           html:
-            'Three hundred and eighteen men. It is a small number against nine kings and their armies. The reader knows he is outmatched. But Abram moves at night, divides his forces, and wins. The Bible is rarely interested in military strategy. It is interested in what a man does when his brother is taken — and what God does next.',
+            'Three hundred and eighteen men. It is a small number against nine kings and their armies. The reader knows he is outmatched. But Abram moves at night, divides his forces, and wins. The Bible is rarely interested in military strategy. It is interested in what a man does when his brother is taken - and what God does next.',
         },
         {
           kind: 'commentary',
@@ -287,14 +286,14 @@ export const GENESIS_14: RichChapterContent = {
           kind: 'reflection',
           id: 'gen14-rescue',
           prompt:
-            'What captivity are you qualified to rescue someone from — in your work, your friendship, your family, your community? What does your "318 trained men" — your skills, your access, your influence — exist for?',
+            'What captivity are you qualified to rescue someone from - in your work, your friendship, your family, your community? What does your "318 trained men" - your skills, your access, your influence - exist for?',
         },
       ],
     },
 
-    /* ─── Genesis 14:17–20 — Melchizedek ────────────────────────────────── */
+    /* ─── Genesis 14:17-20 - Melchizedek ────────────────────────────────── */
     {
-      ref: 'Genesis 14:17–20',
+      ref: 'Genesis 14:17-20',
       title: 'Melchizedek',
       blocks: [
         {
@@ -343,12 +342,12 @@ export const GENESIS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'c-kings-dale',
           html:
-            'The king of Sodom is waiting. He has nothing left — his army is destroyed, his city is captured, his goods are taken — and yet he still tries to make a deal. But before he can speak, another king appears. Melchizedek has not been introduced; he simply <em>is</em>, a priest-king meeting Abram in a valley. The text offers no genealogy, no introduction. He is presented as if he has always been there.',
+            'The king of Sodom is waiting. He has nothing left - his army is destroyed, his city is captured, his goods are taken - and yet he still tries to make a deal. But before he can speak, another king appears. Melchizedek has not been introduced; he simply <em>is</em>, a priest-king meeting Abram in a valley. The text offers no genealogy, no introduction. He is presented as if he has always been there.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-malki-tsedek',
-          title: 'Malki-Tsedek — &ldquo;My King Is Righteousness&rdquo;',
+          title: 'Malki-Tsedek - &ldquo;My King Is Righteousness&rdquo;',
           script: 'מַלְכִּי־צֶדֶק',
           translit: '<strong>Malki</strong> (my king) · <strong>Tsedek</strong> (righteousness, justice)',
           description:
@@ -357,47 +356,47 @@ export const GENESIS_14: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-el-elyon',
-          title: 'El Elyon — &ldquo;God Most High&rdquo;',
+          title: 'El Elyon - &ldquo;God Most High&rdquo;',
           script: 'אֵל עֶלְיוֹן',
           translit: '<strong>El</strong> (God) · <strong>Elyon</strong> (most high, supreme)',
           description:
-            'Melchizedek calls God by a title no one else in Genesis has used — the God who is above all other powers, all other claims, all other authority. In Abram&apos;s ears, a Canaanite priest is declaring a God higher than any in the pantheon of Canaan.',
+            'Melchizedek calls God by a title no one else in Genesis has used - the God who is above all other powers, all other claims, all other authority. In Abram&apos;s ears, a Canaanite priest is declaring a God higher than any in the pantheon of Canaan.',
         },
         {
           kind: 'commentary',
           id: 'c-bread-wine',
           html:
-            'Melchizedek brings bread and wine. He does not bring gold or weapons or negotiations. He brings the staff of life and the drink of celebration — the simple things that sustain and gather people. These are not payment. They are fellowship. Later, centuries later, Jesus will take bread and wine in a room with His friends and say: this is my body, this is my blood. Melchizedek is the first priest in the Bible to offer bread and wine as a blessing.',
+            'Melchizedek brings bread and wine. He does not bring gold or weapons or negotiations. He brings the staff of life and the drink of celebration - the simple things that sustain and gather people. These are not payment. They are fellowship. Later, centuries later, Jesus will take bread and wine in a room with His friends and say: this is my body, this is my blood. Melchizedek is the first priest in the Bible to offer bread and wine as a blessing.',
         },
         {
           kind: 'christ',
           id: 'christ-melchizedek',
-          title: 'Christ Connection — A Priest Forever',
+          title: 'Christ Connection - A Priest Forever',
           html:
             'Hebrews 5, 6, and 7 spend three chapters on Melchizedek. The writer sees in him a type of Christ: a priest not from the line of Aaron, but of a higher order entirely. &ldquo;Without father, without mother, without descent, having neither beginning of days, nor end of life; but made like unto the Son of God; abideth a priest continually&rdquo; (Heb. 7:3). Jesus is &ldquo;made an high priest for ever after the order of Melchisedec&rdquo; (Heb. 6:20). Psalm 110, the most-quoted psalm in the New Testament, speaks of a messiah who is &ldquo;a priest for ever after the order of Melchizedek&rdquo; (Ps. 110:4). The bread and wine Melchizedek brings out to Abram in a valley point forward to a table where the Priest-King will offer them to His people and say: take, eat, this is eternal life.',
         },
         {
           kind: 'carry',
           html:
-            'You have just done something hard. You have rescued someone, you have stood against the current, you have moved when the world froze. What you need now is not more success. You need a priest — someone who is not impressed by the other kings, not negotiating with their standard, not measuring your worth by what the world offers. You need someone to bring you bread and wine and simply say: you are blessed. The God you serve is higher than all others. And here is what is real.',
+            'You have just done something hard. You have rescued someone, you have stood against the current, you have moved when the world froze. What you need now is not more success. You need a priest - someone who is not impressed by the other kings, not negotiating with their standard, not measuring your worth by what the world offers. You need someone to bring you bread and wine and simply say: you are blessed. The God you serve is higher than all others. And here is what is real.',
         },
         {
           kind: 'reflection',
           id: 'gen14-melchizedek',
           prompt:
-            'When was the last time someone blessed you — not praised your accomplishment, but simply handed you grace and called you blessed? Who is the Melchizedek in your life right now?',
+            'When was the last time someone blessed you - not praised your accomplishment, but simply handed you grace and called you blessed? Who is the Melchizedek in your life right now?',
         },
         {
           kind: 'artwork',
           matchTitle: /melchizedek/i,
-          caption: 'Genesis 14:18–20 · Melchizedek Blesses Abram',
+          caption: 'Genesis 14:18-20 · Melchizedek Blesses Abram',
         },
       ],
     },
 
-    /* ─── Genesis 14:21–24 — The Refusal ────────────────────────────────── */
+    /* ─── Genesis 14:21-24 - The Refusal ────────────────────────────────── */
     {
-      ref: 'Genesis 14:21–24',
+      ref: 'Genesis 14:21-24',
       title: 'Abram Refuses the Spoils',
       blocks: [
         {
@@ -446,25 +445,25 @@ export const GENESIS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'c-refusal',
           html:
-            'The words could not be clearer: <em>lest thou shouldest say, I have made Abram rich.</em> A man gets wealthy in two ways — by his own hand, or by gifts given. Abram refuses the gift because he refuses the debt. If he takes the king of Sodom&apos;s gold, the king of Sodom becomes his source. A king can become lord. Abram recognizes the boundary between a gift he can accept and a gift that would make him a servant.',
+            'The words could not be clearer: <em>lest thou shouldest say, I have made Abram rich.</em> A man gets wealthy in two ways - by his own hand, or by gifts given. Abram refuses the gift because he refuses the debt. If he takes the king of Sodom&apos;s gold, the king of Sodom becomes his source. A king can become lord. Abram recognizes the boundary between a gift he can accept and a gift that would make him a servant.',
         },
         {
           kind: 'commentary',
           id: 'c-young-men',
           html:
-            'But Abram is not stoic or rejecting. He allows his young men to eat from the conquest. He allows the allies who went with him — Aner, Eshcol, Mamre — to take their portion. Abram refuses, but he does not refuse on behalf of others. He will not be bought, but he will not deny his people the fruit of shared work.',
+            'But Abram is not stoic or rejecting. He allows his young men to eat from the conquest. He allows the allies who went with him - Aner, Eshcol, Mamre - to take their portion. Abram refuses, but he does not refuse on behalf of others. He will not be bought, but he will not deny his people the fruit of shared work.',
         },
         {
           kind: 'christ',
           id: 'christ-oath',
-          title: 'Christ Connection — The Oath of the King',
+          title: 'Christ Connection - The Oath of the King',
           html:
-            'Abram swears an oath — &ldquo;I have lift up my hand unto the LORD.&rdquo; The gesture and the God are one. Later, Melchizedek will swear an oath over the Son of God, and Hebrews will interpret it: the Father swears over the Son that He is a priest forever (Heb. 7:20–22). Abram&apos;s refusal to take the king of Sodom&apos;s gold is Abram&apos;s way of saying what Christ will say: &ldquo;My kingdom is not of this world&rdquo; (John 18:36). The gold of Sodom is not your source. Your blessing does not come from the world&apos;s accounting.',
+            'Abram swears an oath - &ldquo;I have lift up my hand unto the LORD.&rdquo; The gesture and the God are one. Later, Melchizedek will swear an oath over the Son of God, and Hebrews will interpret it: the Father swears over the Son that He is a priest forever (Heb. 7:20-22). Abram&apos;s refusal to take the king of Sodom&apos;s gold is Abram&apos;s way of saying what Christ will say: &ldquo;My kingdom is not of this world&rdquo; (John 18:36). The gold of Sodom is not your source. Your blessing does not come from the world&apos;s accounting.',
         },
         {
           kind: 'carry',
           html:
-            'The world will offer you what looks like payment — approval, money, the things that make you feel like you won. And some of it you might take, if it is earned. But some offers come wrapped in debt. If you take the king of Sodom&apos;s gold, he can later say he made you. He can hold it over you. He can demand it back. Abram refuses because he knows who made him rich — not conquest, not deals, but the God who walks with him. What are you tempted to accept that would make someone else your lord?',
+            'The world will offer you what looks like payment - approval, money, the things that make you feel like you won. And some of it you might take, if it is earned. But some offers come wrapped in debt. If you take the king of Sodom&apos;s gold, he can later say he made you. He can hold it over you. He can demand it back. Abram refuses because he knows who made him rich - not conquest, not deals, but the God who walks with him. What are you tempted to accept that would make someone else your lord?',
         },
         {
           kind: 'reflection',
@@ -476,7 +475,7 @@ export const GENESIS_14: RichChapterContent = {
           kind: 'artwork',
           matchTitle: /abraham/i,
           matchArtist: /king/i,
-          caption: 'Genesis 14:21–24 · Abram Refuses',
+          caption: 'Genesis 14:21-24 · Abram Refuses',
         },
       ],
     },

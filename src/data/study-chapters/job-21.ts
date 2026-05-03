@@ -31,6 +31,17 @@ export const JOB_21: RichChapterContent = {
     ref: 'Job 21 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     /* ─── Job 21:1–6 — Job Asks to Be Heard ──────────────────────────── */
     {
@@ -65,7 +76,7 @@ export const JOB_21: RichChapterContent = {
           kind: 'commentary',
           id: 'job21-astonied',
           html:
-            'Job asks his friends to be "astonied"—to be amazed, shocked, disturbed. He wants them to abandon their casual confidence and face a reality that troubles them. He is asking them to witness to what he is about to say, and he expects it to shake their certainties. This is a bold request: be amazed at what I am about to tell you.',
+            'Job asks his friends to be "astonied"—to be amazed, shocked, disturbed. He wants them to abandon their casual confidence and face a reality that troubles them. He is asking them to witness to what he is about to say, and he expects it to shake their certainties. This is a bold request: be amazed at what I am about to tell you. [res:british-museum-ludlul]',
         },
         {
           kind: 'hebrew',

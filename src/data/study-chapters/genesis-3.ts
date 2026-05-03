@@ -1,11 +1,11 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 3 — the chapter the entire Bible answers.
+ * Genesis 3 - the chapter the entire Bible answers.
  *
  * Three actors, three temptations, three curses, and the first promise of
  * a Saviour. This chapter is the door every later book of the Bible walks
- * through, and it ends with one verse — Genesis 3:15 — that scholars have
+ * through, and it ends with one verse - Genesis 3:15 - that scholars have
  * called the protoevangelion: the gospel before the gospel.
  */
 export const GENESIS_3: RichChapterContent = {
@@ -16,13 +16,13 @@ export const GENESIS_3: RichChapterContent = {
   estimatedMinutes: { beginner: 10, intermediate: 14, deep: 19 },
   intros: [
     'Two chapters in, the Bible has shown you a Maker, a garden, a man, a woman, and a single boundary. Genesis 3 is the page where everything turns. A voice not God&apos;s makes its first appearance. A small permission becomes a great suspicion. The fruit goes to a mouth, and the world bends.',
-    'And yet — read the chapter carefully — God does not respond to humanity&apos;s rebellion the way a frightened tyrant would. He walks. He calls. He asks. He clothes them with His own hands before sending them out. And in the middle of the curses on the serpent, He drops one promise[res:intertextual-protoevangelium] that the rest of the Bible will spend two thousand years unpacking: <em>her seed shall bruise thy head.</em>',
+    'And yet - read the chapter carefully - God does not respond to humanity&apos;s rebellion the way a frightened tyrant would. He walks. He calls. He asks. He clothes them with His own hands before sending them out. And in the middle of the curses on the serpent, He drops one promise[res:intertextual-protoevangelium] that the rest of the Bible will spend two thousand years unpacking: <em>her seed shall bruise thy head.</em>',
   ],
 
   bottomShare: {
     label: 'Share Genesis 3',
     quote:
-      'A serpent, a fruit, fig leaves, and a curse — and inside the curse, the first promise of a Saviour: the Seed of the woman who would crush the serpent&apos;s head. Genesis 3 is the page the rest of the Bible answers.',
+      'A serpent, a fruit, fig leaves, and a curse - and inside the curse, the first promise of a Saviour: the Seed of the woman who would crush the serpent&apos;s head. Genesis 3 is the page the rest of the Bible answers.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 3 · Study Guide',
   },
@@ -55,9 +55,9 @@ export const GENESIS_3: RichChapterContent = {
   ],
 
   sections: [
-    /* ─── Genesis 3:1–5 — The Voice of the Serpent ───────────────────── */
+    /* ─── Genesis 3:1-5 - The Voice of the Serpent ───────────────────── */
     {
-      ref: 'Genesis 3:1–5',
+      ref: 'Genesis 3:1-5',
       title: 'The Voice of the Serpent',
       blocks: [
         {
@@ -104,52 +104,52 @@ export const GENESIS_3: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-nakhash',
-          title: 'Nakhash — &ldquo;serpent&rdquo;',
+          title: 'Nakhash - &ldquo;serpent&rdquo;',
           script: 'נָחָשׁ',
           translit: '<strong>nakhash</strong> · serpent; the verb means to hiss, to whisper, to enchant',
           description:
-            'The same root means &ldquo;to whisper&rdquo; and &ldquo;to practice divination.&rdquo; The serpent is not depicted as a wild predator but as a smooth, low voice — the sort of voice that doesn&apos;t shout, doesn&apos;t threaten, only whispers a question. The most dangerous lies in scripture are almost always quiet ones.',
+            'The same root means &ldquo;to whisper&rdquo; and &ldquo;to practice divination.&rdquo; The serpent is not depicted as a wild predator but as a smooth, low voice - the sort of voice that doesn&apos;t shout, doesn&apos;t threaten, only whispers a question. The most dangerous lies in scripture are almost always quiet ones.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-arum',
-          title: 'Arum — &ldquo;subtil, shrewd&rdquo;',
+          title: 'Arum - &ldquo;subtil, shrewd&rdquo;',
           script: 'עָרוּם',
           translit: '<strong>arum</strong> · cunning, crafty (a wordplay with <em>arumim</em>, &ldquo;naked,&rdquo; in 2:25)',
           description:
-            'The Hebrew puns. The man and woman were just called <em>arumim</em> — naked, exposed, vulnerable. The serpent is <em>arum</em> — covered, sly, hiding what it knows. Innocence stands across from cunning, and cunning makes the first move.',
+            'The Hebrew puns. The man and woman were just called <em>arumim</em> - naked, exposed, vulnerable. The serpent is <em>arum</em> - covered, sly, hiding what it knows. Innocence stands across from cunning, and cunning makes the first move.',
         },
         {
           kind: 'commentary',
           id: 'c-hath-god-said',
           html:
-            'The serpent does not start with a lie. It starts with a question. <em>Hath God said?</em> The first weapon ever used against humanity was suspicion of God&apos;s word. Notice the distortion: God said &ldquo;of every tree thou mayest freely eat&rdquo; (2:16). The serpent inverts it — &ldquo;ye shall not eat of every tree?&rdquo; — turning a vast yes into a stingy no. Every temptation since has worked the same way. Make the boundary feel bigger than the gift[res:sefaria-genesis-3][res:bibleodyssey-serpent-fall].',
+            'The serpent does not start with a lie. It starts with a question. <em>Hath God said?</em> The first weapon ever used against humanity was suspicion of God&apos;s word. Notice the distortion: God said &ldquo;of every tree thou mayest freely eat&rdquo; (2:16). The serpent inverts it - &ldquo;ye shall not eat of every tree?&rdquo; - turning a vast yes into a stingy no. Every temptation since has worked the same way. Make the boundary feel bigger than the gift[res:sefaria-genesis-3][res:bibleodyssey-serpent-fall].',
         },
         {
           kind: 'commentary',
           id: 'c-touch-it',
           html:
-            'Eve adds something God never said: <em>neither shall ye touch it.</em> God&apos;s actual command was about eating, not touching. When we feel cornered by a temptation we tend to make the rule bigger than it really is — and the bigger we make it, the more arbitrary it feels, and the easier it is to throw the whole thing away. Eve isn&apos;t wicked here; she is doing what we all do. Inflating the rule is one of the first steps toward breaking it.',
+            'Eve adds something God never said: <em>neither shall ye touch it.</em> God&apos;s actual command was about eating, not touching. When we feel cornered by a temptation we tend to make the rule bigger than it really is - and the bigger we make it, the more arbitrary it feels, and the easier it is to throw the whole thing away. Eve isn&apos;t wicked here; she is doing what we all do. Inflating the rule is one of the first steps toward breaking it.',
         },
         {
           kind: 'christ',
           id: 'christ-true-image',
-          title: 'Christ Connection — Already Like Him',
+          title: 'Christ Connection - Already Like Him',
           html:
-            'The serpent&apos;s pitch is built on a lie within a lie. It promises the woman she will <em>be like God</em> — but Genesis 1 has already told us she <em>was made</em> in the image of God. She is reaching to grab what she already had. Centuries later, Paul writes of Christ: &ldquo;Who, being in the form of God, thought it not robbery to be equal with God&rdquo; (Phil. 2:6). Where Eve grasped at a likeness she already possessed, Christ refused to grasp at a likeness that was already His. The whole gospel hinges on that opposite movement.',
+            'The serpent&apos;s pitch is built on a lie within a lie. It promises the woman she will <em>be like God</em> - but Genesis 1 has already told us she <em>was made</em> in the image of God. She is reaching to grab what she already had. Centuries later, Paul writes of Christ: &ldquo;Who, being in the form of God, thought it not robbery to be equal with God&rdquo; (Phil. 2:6). Where Eve grasped at a likeness she already possessed, Christ refused to grasp at a likeness that was already His. The whole gospel hinges on that opposite movement.',
         },
         {
           kind: 'reflection',
           id: 'gen3-suspicion',
           prompt:
-            "What 'hath God said?' is in your head right now — a place where you suspect God of being stingy with you? What does He actually say in scripture about that part of your life?",
+            "What 'hath God said?' is in your head right now - a place where you suspect God of being stingy with you? What does He actually say in scripture about that part of your life?",
         },
       ],
     },
 
-    /* ─── Genesis 3:6–7 — The Eyes of Them Both Were Opened ──────────── */
+    /* ─── Genesis 3:6-7 - The Eyes of Them Both Were Opened ──────────── */
     {
-      ref: 'Genesis 3:6–7',
+      ref: 'Genesis 3:6-7',
       title: 'The Eyes of Them Both Were Opened',
       blocks: [
         {
@@ -189,27 +189,27 @@ export const GENESIS_3: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-clothes',
-          title: 'Christ Connection — Fig Leaves and Skins',
+          title: 'Christ Connection - Fig Leaves and Skins',
           html:
-            'The first thing humanity does in our broken state is invent religion: we sew fig leaves to cover our shame. By the end of the chapter, God will replace those leaves with garments of skin (3:21) — coverings that cost an animal&apos;s life. From the very first verse of human failure, the Bible quietly insists on the pattern: shame cannot be hidden by anything we make; it can only be covered by something God provides, at the cost of life. The book ends with the saints clothed in robes washed in the blood of the Lamb (Rev. 7:14). The fig leaves never did the job. The Lamb does.',
+            'The first thing humanity does in our broken state is invent religion: we sew fig leaves to cover our shame. By the end of the chapter, God will replace those leaves with garments of skin (3:21) - coverings that cost an animal&apos;s life. From the very first verse of human failure, the Bible quietly insists on the pattern: shame cannot be hidden by anything we make; it can only be covered by something God provides, at the cost of life. The book ends with the saints clothed in robes washed in the blood of the Lamb (Rev. 7:14). The fig leaves never did the job. The Lamb does.',
         },
         {
           kind: 'carry',
           html:
-            'The hardest thing about shame is how quickly it goes to work. The instant the man and woman saw themselves, they were sewing. We do the same — covering, performing, defending, before we even admit anything is wrong. Notice the next time you reach for fig leaves of any kind, and let yourself stop sewing for one minute. The God who walks in the garden in the next verse is not coming to shame you. He is coming with a better covering.',
+            'The hardest thing about shame is how quickly it goes to work. The instant the man and woman saw themselves, they were sewing. We do the same - covering, performing, defending, before we even admit anything is wrong. Notice the next time you reach for fig leaves of any kind, and let yourself stop sewing for one minute. The God who walks in the garden in the next verse is not coming to shame you. He is coming with a better covering.',
         },
         {
           kind: 'reflection',
           id: 'gen3-fig-leaves',
           prompt:
-            'What are your fig leaves — the things you reach for first when you feel exposed? Productivity, humor, anger, scrolling? What would it look like to let God hand you something better instead?',
+            'What are your fig leaves - the things you reach for first when you feel exposed? Productivity, humor, anger, scrolling? What would it look like to let God hand you something better instead?',
         },
       ],
     },
 
-    /* ─── Genesis 3:8–13 — Where Art Thou? ───────────────────────────── */
+    /* ─── Genesis 3:8-13 - Where Art Thou? ───────────────────────────── */
     {
-      ref: 'Genesis 3:8–13',
+      ref: 'Genesis 3:8-13',
       title: 'Where Art Thou?',
       blocks: [
         {
@@ -263,32 +263,32 @@ export const GENESIS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'c-blame',
           html:
-            'The first conversation between God and broken humanity is a chain of blame. Adam blames the woman — and behind her, God Himself: <em>the woman whom thou gavest me.</em> Eve blames the serpent. Nobody yet says the simple sentence the rest of the Bible will be teaching us to say: <em>I sinned.</em> Genesis 3 ends with a fall, but it is only the first chapter of a much longer fall, the long human habit of pointing somewhere else.',
+            'The first conversation between God and broken humanity is a chain of blame. Adam blames the woman - and behind her, God Himself: <em>the woman whom thou gavest me.</em> Eve blames the serpent. Nobody yet says the simple sentence the rest of the Bible will be teaching us to say: <em>I sinned.</em> Genesis 3 ends with a fall, but it is only the first chapter of a much longer fall, the long human habit of pointing somewhere else.',
         },
         {
           kind: 'christ',
           id: 'christ-seeking',
-          title: 'Christ Connection — God Who Comes Looking',
+          title: 'Christ Connection - God Who Comes Looking',
           html:
             '&ldquo;Where art thou?&rdquo; is not a question of geography. God knows where Adam is. The question is the first move of grace in human history. Before any curse, before any consequence, God comes to find the people who hid from Him. Centuries later, Jesus tells His disciples that He is the Son of Man come &ldquo;to seek and to save that which was lost&rdquo; (Luke 19:10). Christianity does not begin with humanity climbing toward God. It begins with God walking through the garden, calling our names, finding us behind the trees we are crouching behind, and not letting us stay there.',
         },
         {
           kind: 'carry',
           html:
-            'Whatever you have done today, however far behind the trees you have crawled, the first move God makes toward broken people is not a thunderclap. It is a question. <em>Where art thou?</em> Not because He doesn&apos;t know — because He wants you to. Tell Him where you are.',
+            'Whatever you have done today, however far behind the trees you have crawled, the first move God makes toward broken people is not a thunderclap. It is a question. <em>Where art thou?</em> Not because He doesn&apos;t know - because He wants you to. Tell Him where you are.',
         },
         {
           kind: 'reflection',
           id: 'gen3-where',
           prompt:
-            "If God asked you, in your honest voice, 'Where art thou?' — what would you actually answer this morning?",
+            "If God asked you, in your honest voice, 'Where art thou?' - what would you actually answer this morning?",
         },
       ],
     },
 
-    /* ─── Genesis 3:14–15 — The First Promise ────────────────────────── */
+    /* ─── Genesis 3:14-15 - The First Promise ────────────────────────── */
     {
-      ref: 'Genesis 3:14–15',
+      ref: 'Genesis 3:14-15',
       title: 'The First Promise',
       blocks: [
         {
@@ -317,14 +317,14 @@ export const GENESIS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'c-curse-on-serpent',
           html:
-            'God begins with the serpent. Notice He does not ask the serpent any questions. The deceiver is sentenced first; the deceived will be heard. Even the order of justice in this chapter is merciful — God interrogates the people He still loves and condemns only the enemy.',
+            'God begins with the serpent. Notice He does not ask the serpent any questions. The deceiver is sentenced first; the deceived will be heard. Even the order of justice in this chapter is merciful - God interrogates the people He still loves and condemns only the enemy.',
         },
         {
           kind: 'christ',
           id: 'christ-protoevangelion',
-          title: 'Christ Connection — The Gospel Before the Gospel',
+          title: 'Christ Connection - The Gospel Before the Gospel',
           html:
-            'The Church Fathers called Genesis 3:15 the <em>protoevangelion</em> — the first announcement of the gospel. In the very middle of the curse on the serpent, God speaks of a future child — &ldquo;her seed&rdquo; — who will crush the serpent&apos;s head, and be wounded in the process. The whole rest of the Bible is the slow unveiling of who that child is. Paul names Him in Galatians 4:4: &ldquo;When the fulness of the time was come, God sent forth his Son, made of a woman.&rdquo; John shows him at the end: &ldquo;the great dragon was cast out, that old serpent, called the Devil, and Satan&rdquo; (Rev. 12:9). The first sermon ever preached — preached by God Himself to a snake — is about the Cross.',
+            'The Church Fathers called Genesis 3:15 the <em>protoevangelion</em> - the first announcement of the gospel. In the very middle of the curse on the serpent, God speaks of a future child - &ldquo;her seed&rdquo; - who will crush the serpent&apos;s head, and be wounded in the process. The whole rest of the Bible is the slow unveiling of who that child is. Paul names Him in Galatians 4:4: &ldquo;When the fulness of the time was come, God sent forth his Son, made of a woman.&rdquo; John shows him at the end: &ldquo;the great dragon was cast out, that old serpent, called the Devil, and Satan&rdquo; (Rev. 12:9). The first sermon ever preached - preached by God Himself to a snake - is about the Cross.',
         },
         {
           kind: 'carry',
@@ -340,9 +340,9 @@ export const GENESIS_3: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 3:16–19 — Curses ───────────────────────────────────── */
+    /* ─── Genesis 3:16-19 - Curses ───────────────────────────────────── */
     {
-      ref: 'Genesis 3:16–19',
+      ref: 'Genesis 3:16-19',
       title: 'Thorns, Pain, and Sweat',
       blocks: [
         {
@@ -390,23 +390,23 @@ export const GENESIS_3: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-adamah-cursed',
-          title: 'Adamah — &ldquo;ground&rdquo;',
+          title: 'Adamah - &ldquo;ground&rdquo;',
           script: 'אֲדָמָה',
           translit: '<strong>adamah</strong> · the same word from which Adam took his name',
           description:
-            'The wordplay from chapter 2 returns and turns dark. The man (<em>adam</em>) was made from the ground (<em>adamah</em>). Now the ground itself is cursed for his sake. There is no part of human existence — not body, not work, not relationship, not the very dirt under the feet — that the Fall does not touch.',
+            'The wordplay from chapter 2 returns and turns dark. The man (<em>adam</em>) was made from the ground (<em>adamah</em>). Now the ground itself is cursed for his sake. There is no part of human existence - not body, not work, not relationship, not the very dirt under the feet - that the Fall does not touch.',
         },
         {
           kind: 'christ',
           id: 'christ-second-adam-3',
-          title: 'Christ Connection — Thorns and Sweat for the Last Adam',
+          title: 'Christ Connection - Thorns and Sweat for the Last Adam',
           html:
-            'Notice what the second Adam wears in His own garden. A crown of <em>thorns</em> on His head — the curse of Genesis 3:18 placed where it could do its worst. <em>Sweat</em> running down His face in Gethsemane, &ldquo;great drops of blood falling down to the ground&rdquo; (Luke 22:44) — the curse of 3:19 absorbed by the only one who didn&apos;t earn it. The thorns of Adam&apos;s curse become the crown of Christ&apos;s mercy. Every brokenness named in this chapter becomes something Jesus carries.',
+            'Notice what the second Adam wears in His own garden. A crown of <em>thorns</em> on His head - the curse of Genesis 3:18 placed where it could do its worst. <em>Sweat</em> running down His face in Gethsemane, &ldquo;great drops of blood falling down to the ground&rdquo; (Luke 22:44) - the curse of 3:19 absorbed by the only one who didn&apos;t earn it. The thorns of Adam&apos;s curse become the crown of Christ&apos;s mercy. Every brokenness named in this chapter becomes something Jesus carries.',
         },
         {
           kind: 'carry',
           html:
-            'The pain in your work, your body, your relationships is not God&apos;s anger at you. It is the world you and I were born into — a world east of Eden, where everything good comes mixed with thorns. And the same God who described it for Adam stepped into it Himself, wore the thorns, sweat the blood, and is at work to give you back a garden. The curses are not the last word.',
+            'The pain in your work, your body, your relationships is not God&apos;s anger at you. It is the world you and I were born into - a world east of Eden, where everything good comes mixed with thorns. And the same God who described it for Adam stepped into it Himself, wore the thorns, sweat the blood, and is at work to give you back a garden. The curses are not the last word.',
         },
         {
           kind: 'reflection',
@@ -417,9 +417,9 @@ export const GENESIS_3: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 3:20–24 — Out of Eden ──────────────────────────────── */
+    /* ─── Genesis 3:20-24 - Out of Eden ──────────────────────────────── */
     {
-      ref: 'Genesis 3:20–24',
+      ref: 'Genesis 3:20-24',
       title: 'Out of Eden',
       blocks: [
         {
@@ -468,30 +468,30 @@ export const GENESIS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'c-eve-name',
           html:
-            'Look carefully at what Adam does in the middle of the curse. He names his wife <em>Eve</em> — &ldquo;life-giver&rdquo; — because she would be the mother of all living. The first man, in the worst hour of his life, chooses an act of hope. He does not name her after the death they have just earned. He names her after the life that will come through her. The promise of 3:15 is already starting to do its work.',
+            'Look carefully at what Adam does in the middle of the curse. He names his wife <em>Eve</em> - &ldquo;life-giver&rdquo; - because she would be the mother of all living. The first man, in the worst hour of his life, chooses an act of hope. He does not name her after the death they have just earned. He names her after the life that will come through her. The promise of 3:15 is already starting to do its work.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-cherubim',
-          title: 'Cherubim — &ldquo;guardians of holy space&rdquo;',
+          title: 'Cherubim - &ldquo;guardians of holy space&rdquo;',
           script: 'כְּרוּבִים',
           translit: '<strong>k&apos;ruvim</strong> · winged guardian beings',
           description:
-            'The cherubim will reappear at the entrance of the tabernacle (Ex. 26:31) and embroidered into the curtain of the holy of holies. Eden was the first holy place; from now on every place where God dwells will be guarded the same way. When Jesus dies, that curtain — the one with the cherubim on it — is torn from top to bottom (Matt. 27:51). The guarded way is open again.',
+            'The cherubim will reappear at the entrance of the tabernacle (Ex. 26:31) and embroidered into the curtain of the holy of holies. Eden was the first holy place; from now on every place where God dwells will be guarded the same way. When Jesus dies, that curtain - the one with the cherubim on it - is torn from top to bottom (Matt. 27:51). The guarded way is open again.',
         },
         {
           kind: 'christ',
           id: 'christ-coats',
-          title: 'Christ Connection — Clothed by God',
+          title: 'Christ Connection - Clothed by God',
           html:
-            'God did not leave them in their fig leaves. He made coats of skins for the people who had just hurt Him, and dressed them with His own hands. An animal had to die for that. The first death in the Bible is not a punishment; it is a covering. From this verse forward the pattern is set — sin covered by the death of an innocent — until the Lamb finally appears whom John sees and announces: &ldquo;Behold the Lamb of God, which taketh away the sin of the world&rdquo; (John 1:29).',
+            'God did not leave them in their fig leaves. He made coats of skins for the people who had just hurt Him, and dressed them with His own hands. An animal had to die for that. The first death in the Bible is not a punishment; it is a covering. From this verse forward the pattern is set - sin covered by the death of an innocent - until the Lamb finally appears whom John sees and announces: &ldquo;Behold the Lamb of God, which taketh away the sin of the world&rdquo; (John 1:29).',
         },
         {
           kind: 'christ',
           id: 'christ-tree-2',
-          title: 'Christ Connection — The Tree of Life Reopened',
+          title: 'Christ Connection - The Tree of Life Reopened',
           html:
-            'The way to the tree of life is barred. It stays barred for the entire Old Testament. On the last page of the Bible the way is opened again: &ldquo;On either side of the river, was there the tree of life, which bare twelve manner of fruits&rdquo; (Rev. 22:2). Between Genesis 3 and Revelation 22 stands a tree on a hill outside Jerusalem — the tree where the second Adam was lifted up. It is the only way back to the first Tree.',
+            'The way to the tree of life is barred. It stays barred for the entire Old Testament. On the last page of the Bible the way is opened again: &ldquo;On either side of the river, was there the tree of life, which bare twelve manner of fruits&rdquo; (Rev. 22:2). Between Genesis 3 and Revelation 22 stands a tree on a hill outside Jerusalem - the tree where the second Adam was lifted up. It is the only way back to the first Tree.',
         },
         {
           kind: 'carry',
@@ -502,7 +502,7 @@ export const GENESIS_3: RichChapterContent = {
           kind: 'reflection',
           id: 'gen3-east-of-eden',
           prompt:
-            'What part of your life feels east of Eden right now — outside the place you wish you were? Where can you ask the God who clothes broken people to walk with you, in that exact place, today?',
+            'What part of your life feels east of Eden right now - outside the place you wish you were? Where can you ask the God who clothes broken people to walk with you, in that exact place, today?',
         },
       ],
     },

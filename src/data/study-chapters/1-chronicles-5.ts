@@ -32,6 +32,17 @@ export const CHRONICLES_1_5: RichChapterContent = {
     ref: '1 Chronicles 5 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'bibleodyssey-levites',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Levites and Levitical Cities',
+      url: 'https://www.bibleodyssey.org/dictionary/levite/',
+      description: 'SBL study entry on Levite origins, roles, and tribal allotments.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 5:1–2 — Reuben's Lost Birthright ──────────────────── */
     {
@@ -68,7 +79,7 @@ export const CHRONICLES_1_5: RichChapterContent = {
           kind: 'commentary',
           id: 'reuben-firstborn',
           html:
-            'Reuben is named first among the sons of Israel by right of birth-order. Yet the text immediately qualifies this position: "forasmuch as he defiled his father&apos;s bed." The firstborn carried a birthright — the double portion of inheritance, and often the patriarchal authority over the family. But Reuben&apos;s transgression cost him both. This is not told with judgment or condemnation in this moment, but simply as fact. A man&apos;s sins reshape the order of his household.',
+            'Reuben is named first among the sons of Israel by right of birth-order. Yet the text immediately qualifies this position: "forasmuch as he defiled his father&apos;s bed." The firstborn carried a birthright — the double portion of inheritance, and often the patriarchal authority over the family. But Reuben&apos;s transgression cost him both. This is not told with judgment or condemnation in this moment, but simply as fact. A man&apos;s sins reshape the order of his household. [res:bibleodyssey-levites]',
         },
         {
           kind: 'commentary',

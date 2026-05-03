@@ -31,6 +31,17 @@ export const JOB_14: RichChapterContent = {
     ref: 'Job 14 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Job 14:1–6',
@@ -52,7 +63,7 @@ export const JOB_14: RichChapterContent = {
           kind: 'commentary',
           id: 'job-born-woman',
           html:
-            '"Man that is born of a woman is of few days, and full of trouble"—this is a universalizing statement. Job is not just talking about himself. He is speaking about the human condition. All humans are limited in time, all are full of trouble. This is what it means to be human.',
+            '"Man that is born of a woman is of few days, and full of trouble"—this is a universalizing statement. Job is not just talking about himself. He is speaking about the human condition. All humans are limited in time, all are full of trouble. This is what it means to be human. [res:british-museum-ludlul]',
         },
         {
           kind: 'commentary',

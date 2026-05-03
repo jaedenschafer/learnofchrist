@@ -29,6 +29,17 @@ export const CHRONICLES_2_27: RichChapterContent = {
     ref: '2 Chronicles 27 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-judah-monarchy',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Judah in the Monarchy Period',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 27:1–2 — The King Who Learns From His Father's Fall ──── */
     {
@@ -63,7 +74,7 @@ export const CHRONICLES_2_27: RichChapterContent = {
           kind: 'commentary',
           id: 'jotham-age',
           html:
-            'Jotham ascends at twenty-five &mdash; young, but not untested. He has grown up watching his father&apos;s long and mostly righteous reign, and he has witnessed the catastrophe that fell when Uzziah transgressed by entering the holy place. The kingdom is stable in his hands; he will reign sixteen years, matching his father&apos;s steady model.',
+            'Jotham ascends at twenty-five &mdash; young, but not untested. He has grown up watching his father&apos;s long and mostly righteous reign, and he has witnessed the catastrophe that fell when Uzziah transgressed by entering the holy place. The kingdom is stable in his hands; he will reign sixteen years, matching his father&apos;s steady model. [res:iaa-judah-monarchy]',
         },
         {
           kind: 'commentary',

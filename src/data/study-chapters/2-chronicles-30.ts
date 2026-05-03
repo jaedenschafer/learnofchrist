@@ -32,6 +32,17 @@ export const CHRONICLES_2_30: RichChapterContent = {
     ref: '2 Chronicles 30 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'israel-museum-hezekiah',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Hezekiah Reforms and Jerusalem',
+      url: 'https://www.imj.org.il/',
+      description: 'Iron Age Judah archaeology: water systems, inscriptions, cultic reform artifacts.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 30:1–5 — The Call Goes Out to All Israel ──────────────────── */
     {
@@ -53,7 +64,7 @@ export const CHRONICLES_2_30: RichChapterContent = {
           kind: 'commentary',
           id: 'call-to-all-israel',
           html:
-            'Hezekiah does not call only Judah to the Passover. He sends letters to Ephraim and Manasseh — the heartland of the northern kingdom. This is a king who understands that the true Israel is not a political entity, but a covenant people. He transcends the division of two centuries. From Beersheba in the south to Dan in the north — the ancient geographical formula for the whole land — the proclamation goes out. It is a call to return, to gather, to remember.',
+            'Hezekiah does not call only Judah to the Passover. He sends letters to Ephraim and Manasseh — the heartland of the northern kingdom. This is a king who understands that the true Israel is not a political entity, but a covenant people. He transcends the division of two centuries. From Beersheba in the south to Dan in the north — the ancient geographical formula for the whole land — the proclamation goes out. It is a call to return, to gather, to remember. [res:israel-museum-hezekiah]',
         },
         {
           kind: 'commentary',

@@ -30,6 +30,17 @@ export const JOB_11: RichChapterContent = {
     ref: 'Job 11 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Job 11:1–6',
@@ -51,7 +62,7 @@ export const JOB_11: RichChapterContent = {
           kind: 'commentary',
           id: 'zophar-lies',
           html:
-            '"Should thy lies make men hold their peace?"—Zophar opens with a direct accusation of falsehood. He does not debate with Job. He does not engage with Job&apos;s arguments. He simply asserts that Job has been lying, that Job&apos;s words are nothing but empty talk.',
+            '"Should thy lies make men hold their peace?"—Zophar opens with a direct accusation of falsehood. He does not debate with Job. He does not engage with Job&apos;s arguments. He simply asserts that Job has been lying, that Job&apos;s words are nothing but empty talk. [res:british-museum-ludlul]',
         },
         {
           kind: 'commentary',

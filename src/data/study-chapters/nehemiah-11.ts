@@ -30,6 +30,17 @@ export const NEHEMIAH_11: RichChapterContent = {
     ref: 'Nehemiah 11 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-torah-scroll',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Torah and Jewish Law Texts',
+      url: 'https://www.sefaria.org/',
+      description: 'Sefaria Hebrew texts on Torah readings and covenant renewal.',
+    },
+  ],
+
   sections: [
     /* ─── Nehemiah 11:1–2 — The Lot and the Willing ──────────────────────── */
     {
@@ -54,7 +65,7 @@ export const NEHEMIAH_11: RichChapterContent = {
           kind: 'commentary',
           id: 'nehemiah-goral',
           html:
-            'The lot is cast not as a mere administrative measure, but as an appeal to God&apos;s will. In biblical practice, the casting of lots is a way of asking God to decide. The people do not resist this; they accept it as God&apos;s judgment. To be chosen by lot is to be chosen by the Lord Himself.',
+            'The lot is cast not as a mere administrative measure, but as an appeal to God&apos;s will. In biblical practice, the casting of lots is a way of asking God to decide. The people do not resist this; they accept it as God&apos;s judgment. To be chosen by lot is to be chosen by the Lord Himself. [res:sefaria-torah-scroll]',
         },
         {
           kind: 'hebrew',

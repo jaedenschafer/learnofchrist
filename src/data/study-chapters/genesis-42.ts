@@ -1,13 +1,13 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 42 — Joseph tests his brothers.
+ * Genesis 42 - Joseph tests his brothers.
  *
  * Famine forces Jacob to send ten older brothers to Egypt for grain.
  * They bow before the vizier without recognizing him. Joseph tests them,
  * demands they bring Benjamin, imprisons Simeon. The brothers confess:
  * "we are verily guilty concerning our brother." Joseph weeps. The chapter
- * closes with Jacob refusing to send Benjamin — yet the machinery of
+ * closes with Jacob refusing to send Benjamin - yet the machinery of
  * reconciliation is already turning.
  */
 export const GENESIS_42: RichChapterContent = {
@@ -17,14 +17,14 @@ export const GENESIS_42: RichChapterContent = {
 
   estimatedMinutes: { beginner: 11, intermediate: 17, deep: 22 },
   intros: [
-    'Twenty-two years have passed. Joseph&apos;s brothers sold him into slavery, his father has grieved him as dead, and the young man is now the vizier of Egypt — the second ruler in the land [res:met-museum-egypt]. A famine sweeps across the ancient world, and Jacob, desperate, sends his ten older sons to Egypt to buy grain. They kneel before the man who holds their lives in his hands, and they do not know him.',
-    'Genesis 42 is where recognition becomes resurrection [res:bibleodyssey-joseph-egypt]. Joseph tests his brothers with a cruelty that is not cruelty — it is the only way to know if they have changed. And in the middle of his interrogation, something breaks through: the brothers speak to each other in Hebrew, thinking this Egyptian cannot hear them [res:sefaria-genesis-42]. &ldquo;We are verily guilty,&rdquo; they say. Twenty-two years of buried knowledge surfaces in one sentence. Joseph hears it and weeps in secret. The dream of his youth — the sheaves bowing to his sheaf — is happening in front of him, and his brothers still do not see.',
+    'Twenty-two years have passed. Joseph&apos;s brothers sold him into slavery, his father has grieved him as dead, and the young man is now the vizier of Egypt - the second ruler in the land [res:met-museum-egypt]. A famine sweeps across the ancient world, and Jacob, desperate, sends his ten older sons to Egypt to buy grain. They kneel before the man who holds their lives in his hands, and they do not know him.',
+    'Genesis 42 is where recognition becomes resurrection [res:bibleodyssey-joseph-egypt]. Joseph tests his brothers with a cruelty that is not cruelty - it is the only way to know if they have changed. And in the middle of his interrogation, something breaks through: the brothers speak to each other in Hebrew, thinking this Egyptian cannot hear them [res:sefaria-genesis-42]. &ldquo;We are verily guilty,&rdquo; they say. Twenty-two years of buried knowledge surfaces in one sentence. Joseph hears it and weeps in secret. The dream of his youth - the sheaves bowing to his sheaf - is happening in front of him, and his brothers still do not see.',
   ],
 
   sections: [
-    /* ─── Genesis 42:1–5 — Jacob Sends Them Down ───────────────────────── */
+    /* ─── Genesis 42:1-5 - Jacob Sends Them Down ───────────────────────── */
     {
-      ref: 'Genesis 42:1–5',
+      ref: 'Genesis 42:1-5',
       title: 'The Famine and the Journey',
       blocks: [
         {
@@ -69,12 +69,12 @@ export const GENESIS_42: RichChapterContent = {
           kind: 'commentary',
           id: 'c-live-not-die',
           html:
-            'Jacob sends them down under the weight of a simple but absolute need: live or die. The famine has stripped away anything extraneous. There is no negotiating, no sending some of the brothers later. It is now. And Benjamin — the youngest, Joseph&apos;s only full brother, Jacob&apos;s last link to Rachel — stays home. Jacob fears losing another son. That fear will echo through the chapter and hold the whole family hostage before this is done.',
+            'Jacob sends them down under the weight of a simple but absolute need: live or die. The famine has stripped away anything extraneous. There is no negotiating, no sending some of the brothers later. It is now. And Benjamin - the youngest, Joseph&apos;s only full brother, Jacob&apos;s last link to Rachel - stays home. Jacob fears losing another son. That fear will echo through the chapter and hold the whole family hostage before this is done.',
         },
         {
           kind: 'carry',
           html:
-            'Desperation has a way of moving people. Jacob doesn&apos;t send his sons to Egypt because he wants an adventure or thinks it will be good for them. He sends them because the alternative is starvation. Sometimes the work God asks us to do is built on a famine of our own — a longing we can&apos;t fill alone, a depletion that forces us to travel to a place we wouldn&apos;t go otherwise. The things we resist most are often the journeys that change us most.',
+            'Desperation has a way of moving people. Jacob doesn&apos;t send his sons to Egypt because he wants an adventure or thinks it will be good for them. He sends them because the alternative is starvation. Sometimes the work God asks us to do is built on a famine of our own - a longing we can&apos;t fill alone, a depletion that forces us to travel to a place we wouldn&apos;t go otherwise. The things we resist most are often the journeys that change us most.',
         },
         {
           kind: 'reflection',
@@ -85,9 +85,9 @@ export const GENESIS_42: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 42:6–9 — Bowing Before the Vizier ───────────────────── */
+    /* ─── Genesis 42:6-9 - Bowing Before the Vizier ───────────────────── */
     {
-      ref: 'Genesis 42:6–9',
+      ref: 'Genesis 42:6-9',
       title: 'The Dream Fulfilled Unseen',
       blocks: [
         {
@@ -127,11 +127,11 @@ export const GENESIS_42: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-yada',
-          title: 'Yada — &ldquo;to know&rdquo;',
+          title: 'Yada - &ldquo;to know&rdquo;',
           script: 'יָדַע',
           translit: '<strong>yada</strong> · to know, to recognize, to be acquainted with',
           description:
-            'The Hebrew is asymmetrical: <em>vayyakker yosef et-echav v&apos;hem lo hikkiruhu</em> — Joseph knew his brothers, and they knew him not. Recognition is not mutual here. Joseph sees exactly who stands before him. They see an Egyptian, a stranger, a man in power. The distance between knowing and being known will haunt the entire passage.',
+            'The Hebrew is asymmetrical: <em>vayyakker yosef et-echav v&apos;hem lo hikkiruhu</em> - Joseph knew his brothers, and they knew him not. Recognition is not mutual here. Joseph sees exactly who stands before him. They see an Egyptian, a stranger, a man in power. The distance between knowing and being known will haunt the entire passage.',
         },
         {
           kind: 'commentary',
@@ -142,20 +142,20 @@ export const GENESIS_42: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-unrecognized',
-          title: 'Christ Connection — He Came to His Own',
+          title: 'Christ Connection - He Came to His Own',
           html:
-            '&ldquo;He came unto his own, and his own received him not&rdquo; (John 1:11). The brothers stand in front of the one who saves them and do not see him. A pattern Israel will repeat with Messiah. The Saviour comes veiled — in a servant&apos;s form, in judgment, in mystery — and the people He has come to rescue do not recognize Him. The distance between who Christ is and who we see will be the distance of the whole Gospel until at last we see Him as He is.',
+            '&ldquo;He came unto his own, and his own received him not&rdquo; (John 1:11). The brothers stand in front of the one who saves them and do not see him. A pattern Israel will repeat with Messiah. The Saviour comes veiled - in a servant&apos;s form, in judgment, in mystery - and the people He has come to rescue do not recognize Him. The distance between who Christ is and who we see will be the distance of the whole Gospel until at last we see Him as He is.',
         },
         {
           kind: 'artwork',
           matchTitle: /joseph.*dreams|dream.*bow/i,
           matchArtist: /tissot/i,
-          caption: 'The Dream Fulfilled — Genesis 42:6–9',
+          caption: 'The Dream Fulfilled - Genesis 42:6-9',
         },
         {
           kind: 'carry',
           html:
-            'The brothers cannot see the brother who saves them. How much have we missed because we looked but didn&apos;t recognize? How many small salvations have walked past us in plain sight, and we thought they were trials? Joseph stands in front of his brothers, and the whole provision of Egypt is in his hands — and they argue that they are not spies, they are just hungry. What would change if you started looking for the face of rescue in a place where you only expected a test?',
+            'The brothers cannot see the brother who saves them. How much have we missed because we looked but didn&apos;t recognize? How many small salvations have walked past us in plain sight, and we thought they were trials? Joseph stands in front of his brothers, and the whole provision of Egypt is in his hands - and they argue that they are not spies, they are just hungry. What would change if you started looking for the face of rescue in a place where you only expected a test?',
         },
         {
           kind: 'reflection',
@@ -166,9 +166,9 @@ export const GENESIS_42: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 42:10–17 — The Test and the Prison ──────────────────── */
+    /* ─── Genesis 42:10-17 - The Test and the Prison ──────────────────── */
     {
-      ref: 'Genesis 42:10–17',
+      ref: 'Genesis 42:10-17',
       title: 'The Accusation and the Test',
       blocks: [
         {
@@ -204,8 +204,7 @@ export const GENESIS_42: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-42-78mid-1',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Joseph sees his brothers bowing before him. He recognizes them instantly, but they do not know him. He accuses them of spying, testing their hearts.',
         },
         {
           kind: 'scripture',
@@ -241,13 +240,13 @@ export const GENESIS_42: RichChapterContent = {
           kind: 'commentary',
           id: 'c-test',
           html:
-            'Joseph&apos;s test is not cruelty. It is the only way to know whether his brothers have changed — whether they are still the men who could sell their own brother into slavery. Will they sacrifice one of their own again? Or have they learned something about the cost of betrayal? He accuses them, imprisons them, demands they bring Benjamin. Every move is designed to show him the shape of their hearts.',
+            'Joseph&apos;s test is not cruelty. It is the only way to know whether his brothers have changed - whether they are still the men who could sell their own brother into slavery. Will they sacrifice one of their own again? Or have they learned something about the cost of betrayal? He accuses them, imprisons them, demands they bring Benjamin. Every move is designed to show him the shape of their hearts.',
         },
         {
           kind: 'commentary',
           id: 'c-three-days',
           html:
-            'Three days in prison. The number echoes through the Joseph story — three days waiting for death, three days before resurrection. It is the shape of the deepest transformation: death, waiting, and rising on the third day. When Joseph&apos;s brothers speak to each other in the prison dark, something shifts. The test is working.',
+            'Three days in prison. The number echoes through the Joseph story - three days waiting for death, three days before resurrection. It is the shape of the deepest transformation: death, waiting, and rising on the third day. When Joseph&apos;s brothers speak to each other in the prison dark, something shifts. The test is working.',
         },
         {
           kind: 'commentary',
@@ -258,20 +257,20 @@ export const GENESIS_42: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'The test Joseph puts his brothers through is hard. But a test that is not hard is not a test. If you are being tested — if circumstances are pressing on what you say you believe, if you are being forced to choose between your comfort and your integrity — do not assume you are abandoned. The test may be the kindest thing that can happen to you. It is the only way your own heart can become clear to you. And it may be the only way you can ever truly forgive the people who hurt you, because you will have to know whether they have changed.',
+            'The test Joseph puts his brothers through is hard. But a test that is not hard is not a test. If you are being tested - if circumstances are pressing on what you say you believe, if you are being forced to choose between your comfort and your integrity - do not assume you are abandoned. The test may be the kindest thing that can happen to you. It is the only way your own heart can become clear to you. And it may be the only way you can ever truly forgive the people who hurt you, because you will have to know whether they have changed.',
         },
         {
           kind: 'reflection',
           id: 'gen42-test',
           prompt:
-            'Where are you being tested right now — where circumstances are pressing on what you believe? What is the test revealing about who you are becoming?',
+            'Where are you being tested right now - where circumstances are pressing on what you believe? What is the test revealing about who you are becoming?',
         },
       ],
     },
 
-    /* ─── Genesis 42:18–24 — The Conscience Breaks ────────────────────── */
+    /* ─── Genesis 42:18-24 - The Conscience Breaks ────────────────────── */
     {
-      ref: 'Genesis 42:18–24',
+      ref: 'Genesis 42:18-24',
       title: 'We Are Verily Guilty',
       blocks: [
         {
@@ -301,8 +300,7 @@ export const GENESIS_42: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-42-78mid-2',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'The brothers receive grain, but hidden in each sack is their silver--paid back, not accepted. They flee in dread, feeling God&apos;s hand closing around them.',
         },
         {
           kind: 'scripture',
@@ -341,17 +339,17 @@ export const GENESIS_42: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-ashemim',
-          title: 'Ashemim — &ldquo;we are guilty&rdquo;',
+          title: 'Ashemim - &ldquo;we are guilty&rdquo;',
           script: 'אֲשֵׁמִים',
           translit: '<strong>ashemim</strong> · guilty, culpable, deserving punishment',
           description:
-            'The brothers speak in Hebrew, thinking the Egyptian cannot hear them. The confession comes out in their own tongue, in the language of home: <em>aval ashemim anachnu</em> — &ldquo;indeed, we are guilty.&rdquo; The word <em>aval</em> means &ldquo;truly, verily&rdquo; — this is not a hesitant thought; it is a conviction that has been buried for twenty-two years and is finally breaking surface. What happened to Joseph is not a story they tell anymore. It is an unpaid debt they carry.',
+            'The brothers speak in Hebrew, thinking the Egyptian cannot hear them. The confession comes out in their own tongue, in the language of home: <em>aval ashemim anachnu</em> - &ldquo;indeed, we are guilty.&rdquo; The word <em>aval</em> means &ldquo;truly, verily&rdquo; - this is not a hesitant thought; it is a conviction that has been buried for twenty-two years and is finally breaking surface. What happened to Joseph is not a story they tell anymore. It is an unpaid debt they carry.',
         },
         {
           kind: 'commentary',
           id: 'c-conscience',
           html:
-            'This is the first time the brothers have spoken the truth of what they did. For more than twenty years, they have carried the lie — told their father that Joseph is dead, lived with the knowledge that they sold him. The guilt has been a kind of slow poison, and they did not even know it until the prison dark and the accusation of a stranger forced them to speak. &ldquo;We saw the anguish of his soul,&rdquo; they say. They remember his crying. They remember ignoring it. The conscience, once awakened, speaks in the language of the first wrong.',
+            'This is the first time the brothers have spoken the truth of what they did. For more than twenty years, they have carried the lie - told their father that Joseph is dead, lived with the knowledge that they sold him. The guilt has been a kind of slow poison, and they did not even know it until the prison dark and the accusation of a stranger forced them to speak. &ldquo;We saw the anguish of his soul,&rdquo; they say. They remember his crying. They remember ignoring it. The conscience, once awakened, speaks in the language of the first wrong.',
         },
         {
           kind: 'commentary',
@@ -362,14 +360,14 @@ export const GENESIS_42: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-weeping',
-          title: 'Christ Connection — The Weeping Saviour',
+          title: 'Christ Connection - The Weeping Saviour',
           html:
-            'Joseph hears his brothers confess in Hebrew and weeps — weeps in secret, where they cannot see him. &ldquo;Jesus wept&rdquo; (John 11:35), over a tomb he was about to open. &ldquo;He beheld the city, and wept over it&rdquo; (Luke 19:41). The Saviour weeps over the people who don&apos;t yet recognize Him, who are still asleep in their guilt, who do not know that the One standing in front of them has already forgiven them. Joseph&apos;s tears are the tears of rescue waiting for recognition.',
+            'Joseph hears his brothers confess in Hebrew and weeps - weeps in secret, where they cannot see him. &ldquo;Jesus wept&rdquo; (John 11:35), over a tomb he was about to open. &ldquo;He beheld the city, and wept over it&rdquo; (Luke 19:41). The Saviour weeps over the people who don&apos;t yet recognize Him, who are still asleep in their guilt, who do not know that the One standing in front of them has already forgiven them. Joseph&apos;s tears are the tears of rescue waiting for recognition.',
         },
         {
           kind: 'carry',
           html:
-            'The conscience is sometimes the only voice that can wake us up. When the weight of something gets heavy enough, when the prison dark gets deep enough, the truth finds its way out. You may have been carrying guilt for so long you forgot you were carrying it. The test, the prison, the darkness — sometimes these are the only conditions where honesty becomes possible. And sometimes, in the moment you speak the truth of what you did, the One who has been listening all along is the very One whose forgiveness you most need.',
+            'The conscience is sometimes the only voice that can wake us up. When the weight of something gets heavy enough, when the prison dark gets deep enough, the truth finds its way out. You may have been carrying guilt for so long you forgot you were carrying it. The test, the prison, the darkness - sometimes these are the only conditions where honesty becomes possible. And sometimes, in the moment you speak the truth of what you did, the One who has been listening all along is the very One whose forgiveness you most need.',
         },
         {
           kind: 'reflection',
@@ -380,9 +378,9 @@ export const GENESIS_42: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 42:25–26 — The Silver in the Sack ──────────────────── */
+    /* ─── Genesis 42:25-26 - The Silver in the Sack ──────────────────── */
     {
-      ref: 'Genesis 42:25–26',
+      ref: 'Genesis 42:25-26',
       title: 'Grace in the Hidden',
       blocks: [
         {
@@ -407,25 +405,25 @@ export const GENESIS_42: RichChapterContent = {
           kind: 'commentary',
           id: 'c-silver',
           html:
-            'Joseph gives them grain — as much as they need — and secretly returns their silver to their sacks. They have paid for nothing. They will discover the silver later, and it will terrify them: they will think they are thieves, that Egypt will come after them. But the truth is simpler. Joseph gives them what they need without payment. It is grace in its purest form — help given to the undeserving, given before they even ask for it.',
+            'Joseph gives them grain - as much as they need - and secretly returns their silver to their sacks. They have paid for nothing. They will discover the silver later, and it will terrify them: they will think they are thieves, that Egypt will come after them. But the truth is simpler. Joseph gives them what they need without payment. It is grace in its purest form - help given to the undeserving, given before they even ask for it.',
         },
         {
           kind: 'commentary',
           id: 'c-provision',
           html:
-            'The journey back to Canaan is long. Joseph orders that they be given provision for the way — not just grain, but everything they need. He is thinking ahead about their survival. This is what a redeemer does: he thinks about the long road ahead, the obstacles you will face, the places where you might fail. He gives not just for today but for the journey.',
+            'The journey back to Canaan is long. Joseph orders that they be given provision for the way - not just grain, but everything they need. He is thinking ahead about their survival. This is what a redeemer does: he thinks about the long road ahead, the obstacles you will face, the places where you might fail. He gives not just for today but for the journey.',
         },
         {
           kind: 'christ',
           id: 'christ-grace',
-          title: 'Christ Connection — Without Money and Without Price',
+          title: 'Christ Connection - Without Money and Without Price',
           html:
             'Joseph&apos;s brothers pay nothing for what they receive. Isaiah saw the shape of the gospel and spoke it centuries later: &ldquo;Ho, every one that thirsteth, come ye to the waters, and he that hath no money; come ye, buy, and eat; yea, come, buy wine and milk without money and without price&rdquo; (Isa. 55:1). The Christ pattern is always: provision given. The cost paid by Another. The grace hidden in the dark until the journey home when the discovery breaks you open.',
         },
         {
           kind: 'carry',
           html:
-            'You came with what you thought you had to offer — your work, your effort, your payment. But the One who feeds you has already put back more than you gave. The grain is coming home with you. The silver will surprise you on the road. You will terrify yourself thinking you are thieves, when the truth is you have been given everything you need and more. The only payment that was ever going to matter, someone else already made.',
+            'You came with what you thought you had to offer - your work, your effort, your payment. But the One who feeds you has already put back more than you gave. The grain is coming home with you. The silver will surprise you on the road. You will terrify yourself thinking you are thieves, when the truth is you have been given everything you need and more. The only payment that was ever going to matter, someone else already made.',
         },
         {
           kind: 'reflection',
@@ -436,9 +434,9 @@ export const GENESIS_42: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 42:27–28 — The Terror of Grace ──────────────────────── */
+    /* ─── Genesis 42:27-28 - The Terror of Grace ──────────────────────── */
     {
-      ref: 'Genesis 42:27–28',
+      ref: 'Genesis 42:27-28',
       title: 'Fear and Wondering',
       blocks: [
         {
@@ -471,7 +469,7 @@ export const GENESIS_42: RichChapterContent = {
           kind: 'commentary',
           id: 'c-heart-failed',
           html:
-            'Their hearts fail them. This is real terror — not imagination, but the body responding to what feels like a trap. But the reader knows what the brothers do not: there is no trap. The man who gave them the grain, who put back their silver, who thought about their journey — he is their brother. He is not their enemy. He is working toward their redemption, even while they are afraid.',
+            'Their hearts fail them. This is real terror - not imagination, but the body responding to what feels like a trap. But the reader knows what the brothers do not: there is no trap. The man who gave them the grain, who put back their silver, who thought about their journey - he is their brother. He is not their enemy. He is working toward their redemption, even while they are afraid.',
         },
         {
           kind: 'carry',
@@ -482,14 +480,14 @@ export const GENESIS_42: RichChapterContent = {
           kind: 'reflection',
           id: 'gen42-afraid',
           prompt:
-            'When was the last time something good happened and you were certain it was actually bad? What made you change your mind — or did you ever?',
+            'When was the last time something good happened and you were certain it was actually bad? What made you change your mind - or did you ever?',
         },
       ],
     },
 
-    /* ─── Genesis 42:29–38 — Jacob Refuses ──────────────────────────── */
+    /* ─── Genesis 42:29-38 - Jacob Refuses ──────────────────────────── */
     {
-      ref: 'Genesis 42:29–38',
+      ref: 'Genesis 42:29-38',
       title: 'Jacob&apos;s Refusal, and the Ransom',
       blocks: [
         {
@@ -540,32 +538,32 @@ export const GENESIS_42: RichChapterContent = {
           kind: 'commentary',
           id: 'c-jacob-bereaved',
           html:
-            'Jacob is counting his losses. Joseph is gone — dead, as far as he knows. Simeon is imprisoned in Egypt. Now his sons want to take Benjamin, the youngest, the last son of Rachel. The old man feels the weight of grief accumulating. He reads the silver in the sacks as a judgment, not a gift. Fear speaks louder than grace in a heart that has already lost so much.',
+            'Jacob is counting his losses. Joseph is gone - dead, as far as he knows. Simeon is imprisoned in Egypt. Now his sons want to take Benjamin, the youngest, the last son of Rachel. The old man feels the weight of grief accumulating. He reads the silver in the sacks as a judgment, not a gift. Fear speaks louder than grace in a heart that has already lost so much.',
         },
         {
           kind: 'commentary',
           id: 'c-reuben-offer',
           html:
-            'Reuben offers something startling: &ldquo;Slay my two sons, if I bring him not to thee.&rdquo; He is offering to stake his own children on his promise. But Jacob refuses the offer. He will not accept it. Two chapters later, Judah will make a different offer — not of his sons, but of himself. And Jacob will accept it. By then, something will have shifted. Substitution — the willingness to give yourself so that another can go free — will have become the language the family understands.',
+            'Reuben offers something startling: &ldquo;Slay my two sons, if I bring him not to thee.&rdquo; He is offering to stake his own children on his promise. But Jacob refuses the offer. He will not accept it. Two chapters later, Judah will make a different offer - not of his sons, but of himself. And Jacob will accept it. By then, something will have shifted. Substitution - the willingness to give yourself so that another can go free - will have become the language the family understands.',
         },
         {
           kind: 'commentary',
           id: 'c-gray-hairs',
           html:
-            'Jacob is old. He has lost his wife Rachel long ago. He has lost the son he loved best. Every additional loss now feels like it will crush him. He speaks from the deepest kind of grief — not the fresh agony of new loss, but the exhaustion of a man who has been carrying sorrow for so long that one more burden might be the one that breaks him. This is the state of his heart when the machinery of reconciliation is turning, unseen, in Egypt.',
+            'Jacob is old. He has lost his wife Rachel long ago. He has lost the son he loved best. Every additional loss now feels like it will crush him. He speaks from the deepest kind of grief - not the fresh agony of new loss, but the exhaustion of a man who has been carrying sorrow for so long that one more burden might be the one that breaks him. This is the state of his heart when the machinery of reconciliation is turning, unseen, in Egypt.',
         },
         {
           kind: 'christ',
           id: 'christ-ransom',
-          title: 'Christ Connection — The Ransom and the Acceptance',
+          title: 'Christ Connection - The Ransom and the Acceptance',
           html:
-            'Reuben offers his own sons in place of Benjamin. Jacob refuses. But centuries later, Judah will stand before Joseph (though he does not know it is Joseph) and say: &ldquo;Let me, I pray thee, be a surety for the lad… Now therefore, I pray thee, let thy servant abide instead of the lad a bondman to my lord&rdquo; (Gen. 44:33-34). This time, it is the man himself offering, not his children. And it is this offer — not the same blood, but the willingness to die in another&apos;s place — that will unlock Joseph&apos;s heart. &ldquo;Greater love hath no man than this,&rdquo; Jesus says, &ldquo;that a man lay down his life for his friends&rdquo; (John 15:13). Judah&apos;s offer is the shadow of the Cross.',
+            'Reuben offers his own sons in place of Benjamin. Jacob refuses. But centuries later, Judah will stand before Joseph (though he does not know it is Joseph) and say: &ldquo;Let me, I pray thee, be a surety for the lad... Now therefore, I pray thee, let thy servant abide instead of the lad a bondman to my lord&rdquo; (Gen. 44:33-34). This time, it is the man himself offering, not his children. And it is this offer - not the same blood, but the willingness to die in another&apos;s place - that will unlock Joseph&apos;s heart. &ldquo;Greater love hath no man than this,&rdquo; Jesus says, &ldquo;that a man lay down his life for his friends&rdquo; (John 15:13). Judah&apos;s offer is the shadow of the Cross.',
         },
         {
           kind: 'artwork',
           matchTitle: /jacob.*father|father.*patriarch/i,
           matchArtist: /tissot|rembrandt/i,
-          caption: 'Jacob Refuses to Send Benjamin — Genesis 42:36–38',
+          caption: 'Jacob Refuses to Send Benjamin - Genesis 42:36-38',
         },
         {
           kind: 'carry',
@@ -576,7 +574,7 @@ export const GENESIS_42: RichChapterContent = {
           kind: 'reflection',
           id: 'gen42-refused',
           prompt:
-            'What are you still holding too tightly? What child of your heart — what dream, what person, what control — are you refusing to risk because you&apos;ve lost too much already?',
+            'What are you still holding too tightly? What child of your heart - what dream, what person, what control - are you refusing to risk because you&apos;ve lost too much already?',
         },
       ],
     },
@@ -595,7 +593,7 @@ export const GENESIS_42: RichChapterContent = {
       id: 'sefaria-genesis-42',
       kind: 'lexicon',
       source: 'Sefaria',
-      label: 'Genesis 42 — Sefaria',
+      label: 'Genesis 42 - Sefaria',
       url: 'https://www.sefaria.org/Genesis.42',
       description: 'Annotated text with classical and modern Jewish commentary on Joseph&apos;s reunion with his brothers.',
     },
@@ -603,7 +601,7 @@ export const GENESIS_42: RichChapterContent = {
       id: 'met-museum-egypt',
       kind: 'museum',
       source: 'The Met',
-      label: 'Ancient Egypt — The Metropolitan Museum of Art',
+      label: 'Ancient Egypt - The Metropolitan Museum of Art',
       url: 'https://www.metmuseum.org/art/collection?department=Egyptian%20Art',
       description: 'Egyptian artifacts and cultural context for understanding the world of Joseph and later Genesis figures.',
     },
@@ -611,7 +609,7 @@ export const GENESIS_42: RichChapterContent = {
       id: 'bibleodyssey-joseph-egypt',
       kind: 'study',
       source: 'Bible Odyssey',
-      label: 'Joseph and Egypt — Bible Odyssey',
+      label: 'Joseph and Egypt - Bible Odyssey',
       url: 'https://www.bibleodyssey.org/en/passages/related-articles/joseph-and-egypt',
       description: 'Scholarly essays on Joseph&apos;s time in Egypt and its historical and theological significance.',
     },

@@ -31,6 +31,17 @@ export const ESTHER_1: RichChapterContent = {
     ref: 'Esther 1 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'oriental-institute-susa',
+      kind: 'archaeology',
+      source: 'Oriental Institute',
+      label: 'Susa: The Achaemenid Court',
+      url: 'https://oi.uchicago.edu/',
+      description: 'OI resources on the palatial city of Susa and royal Persian administration.',
+    },
+  ],
+
   sections: [
     /* ─── Esther 1:1–3 — The King's Feast ──────────────────────────────── */
     {
@@ -50,7 +61,7 @@ export const ESTHER_1: RichChapterContent = {
           kind: 'commentary',
           id: 'ahasuerus-throne',
           html:
-            'King Ahasuerus reigns over an empire of staggering breadth — from India to Ethiopia, 127 provinces under his dominion. The text establishes his power through geography and enumeration. He sits on the throne of his kingdom in Shushan, the royal city. Everything about this opening is designed to communicate absolute authority, established order, and the magnificence of centralized rule.',
+            'King Ahasuerus reigns over an empire of staggering breadth — from India to Ethiopia, 127 provinces under his dominion. The text establishes his power through geography and enumeration. He sits on the throne of his kingdom in Shushan, the royal city. Everything about this opening is designed to communicate absolute authority, established order, and the magnificence of centralized rule. [res:oriental-institute-susa]',
         },
         {
           kind: 'commentary',

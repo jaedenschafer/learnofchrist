@@ -63,7 +63,7 @@ export const CHRONICLES_2_21: RichChapterContent = {
           kind: 'commentary',
           id: 'chron21-slew-brethren',
           html:
-            'Jehoram&apos;s first act as king is unthinkable: he murders his brothers. The text does not minimize this. He "strengthened himself" — secured his power — by soaking his kingdom in the blood of his own family. His father had given them all gifts and fortified cities; Jehoram takes those cities back by force, and the lives along with them. This is not a simple succession struggle. This is fratricide on a scale that would mark Jehoram as contemptible even to ancient Near Eastern standards of kingship.',
+            'Jehoram&apos;s first act as king is unthinkable: he murders his brothers. The text does not minimize this. He "strengthened himself" — secured his power — by soaking his kingdom in the blood of his own family. His father had given them all gifts and fortified cities; Jehoram takes those cities back by force, and the lives along with them. This is not a simple succession struggle. This is fratricide on a scale that would mark Jehoram as contemptible even to ancient Near Eastern standards of kingship. [res:iaa-judah-monarchy]',
         },
         {
           kind: 'hebrew',
@@ -414,6 +414,17 @@ export const CHRONICLES_2_21: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Chronicles 21 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'iaa-judah-monarchy',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Judah in the Monarchy Period',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
+    },
+  ],
 
   hasHebrew: true,
 };

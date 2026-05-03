@@ -33,6 +33,17 @@ export const JOB_26: RichChapterContent = {
     ref: 'Job 26 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     /* ─── Job 26:1–4 — Mockery of Bildad ──────────────────────────────── */
     {
@@ -65,7 +76,7 @@ export const JOB_26: RichChapterContent = {
           kind: 'commentary',
           id: 'job26-powerless',
           html:
-            'Job asks: how have you helped me? I am without power. My arm has no strength. I am broken. Your words do not heal me. Your doctrine does not restore my strength. You speak fine theories, but you do not address the reality of my condition. This is a rebuke to all false comforters: your explanations do not matter if they do not help.',
+            'Job asks: how have you helped me? I am without power. My arm has no strength. I am broken. Your words do not heal me. Your doctrine does not restore my strength. You speak fine theories, but you do not address the reality of my condition. This is a rebuke to all false comforters: your explanations do not matter if they do not help. [res:british-museum-ludlul]',
         },
         {
           kind: 'carry',

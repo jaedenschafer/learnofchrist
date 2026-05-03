@@ -1,9 +1,9 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 24 — the longest chapter in Genesis (67 verses). Abraham sends his
+ * Genesis 24 - the longest chapter in Genesis (67 verses). Abraham sends his
  * unnamed servant to find a wife for Isaac from his own people. The servant
- * prays at the well of Nahor. Rebekah arrives and waters ten camels — meaning
+ * prays at the well of Nahor. Rebekah arrives and waters ten camels - meaning
  * a lot of water. The family's blessing. Isaac meets Rebekah at evening in the field.
  *
  * This chapter is a love story that is also a theological pattern: a father
@@ -17,8 +17,8 @@ export const GENESIS_24: RichChapterContent = {
 
   estimatedMinutes: { beginner: 13, intermediate: 16, deep: 20 },
   intros: [
-    'Abraham is old. His son Isaac still has no wife. In the ancient Near East, this is a crisis — the line of the promise dies with him. But Abraham does not panic. He calls his oldest servant, the man who manages everything he owns, and sends him on a journey to find a wife for Isaac among Abraham\'s own people, far to the east in Mesopotamia. The servant must swear an oath: go, find a wife, bring her back.',
-    'What follows is a chapter of divine providence so tender and particular that every detail feels chosen. A prayer at a well. A young woman who answers the prayer before the prayer is even finished. Water enough for ten camels — backbreaking work done by one girl with a pitcher. A family who blesses her and lets her go. And at the end, Isaac meeting Rebekah in the evening field, the two of them alone together for the first time.',
+    'Abraham is old. His son Isaac still has no wife. In the ancient Near East, this is a crisis - the line of the promise dies with him. But Abraham does not panic. He calls his oldest servant, the man who manages everything he owns, and sends him on a journey to find a wife for Isaac among Abraham\'s own people, far to the east in Mesopotamia. The servant must swear an oath: go, find a wife, bring her back.',
+    'What follows is a chapter of divine providence so tender and particular that every detail feels chosen. A prayer at a well. A young woman who answers the prayer before the prayer is even finished. Water enough for ten camels - backbreaking work done by one girl with a pitcher. A family who blesses her and lets her go. And at the end, Isaac meeting Rebekah in the evening field, the two of them alone together for the first time.',
     'Centuries later, Christians would read this chapter as a picture: the Father sends His Servant (the Spirit) to call out a bride [res:bibleodyssey-rebekah-isaac] (the Church) for the Son (Christ), with gifts and promises, and the bride says "I will go" without having seen the bridegroom. But the chapter does not announce this. It simply tells the story, slow and beautiful, the way a wedding unfolds.',
   ],
 
@@ -58,9 +58,9 @@ export const GENESIS_24: RichChapterContent = {
   ],
 
   sections: [
-    /* ─── Genesis 24:1–9 — The Oath and the Mission ──────────────────── */
+    /* ─── Genesis 24:1-9 - The Oath and the Mission ──────────────────── */
     {
-      ref: 'Genesis 24:1–9',
+      ref: 'Genesis 24:1-9',
       title: 'The Oath and the Mission',
       blocks: [
         {
@@ -143,7 +143,7 @@ export const GENESIS_24: RichChapterContent = {
           kind: 'commentary',
           id: 'gen24-old',
           html:
-            'Abraham is very old now — Genesis 17 set him at ninety when Isaac was born, so Abraham is now at least a hundred and thirty. He is not thinking of himself anymore. He is thinking of the promise God made him: a seed as numerous as the stars. That seed cannot continue if Isaac remains alone[res:sefaria-genesis-24][res:pennmuseum-mesopotamia-customs].',
+            'Abraham is very old now - Genesis 17 set him at ninety when Isaac was born, so Abraham is now at least a hundred and thirty. He is not thinking of himself anymore. He is thinking of the promise God made him: a seed as numerous as the stars. That seed cannot continue if Isaac remains alone[res:sefaria-genesis-24][res:pennmuseum-mesopotamia-customs].',
         },
         {
           kind: 'commentary',
@@ -154,7 +154,7 @@ export const GENESIS_24: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'When we pray for someone else\'s future — a child\'s choice of a partner, a friend\'s next season, a loved one\'s path — we are doing what Abraham is doing here. We cannot control the outcome. We can only set the boundary, make the oath, and trust that God sees what we cannot. The greatest gift a parent can give a child sometimes is not the answer, but the refusal to make the wrong choice for them.',
+            'When we pray for someone else\'s future - a child\'s choice of a partner, a friend\'s next season, a loved one\'s path - we are doing what Abraham is doing here. We cannot control the outcome. We can only set the boundary, make the oath, and trust that God sees what we cannot. The greatest gift a parent can give a child sometimes is not the answer, but the refusal to make the wrong choice for them.',
         },
         {
           kind: 'reflection',
@@ -165,9 +165,9 @@ export const GENESIS_24: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 24:10–21 — The Prayer at the Well ─────────────────── */
+    /* ─── Genesis 24:10-21 - The Prayer at the Well ─────────────────── */
     {
-      ref: 'Genesis 24:10–21',
+      ref: 'Genesis 24:10-21',
       title: 'The Prayer at the Well',
       blocks: [
         {
@@ -206,7 +206,7 @@ export const GENESIS_24: RichChapterContent = {
           kind: 'commentary',
           id: 'gen24-servant-waits',
           html:
-            'The servant stations himself; now he prays and watches—faith meets providence at the well.',
+            'The servant stations himself; now he prays and watches-faith meets providence at the well.',
         },
         {
           kind: 'scripture',
@@ -279,7 +279,7 @@ export const GENESIS_24: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-chesed',
-          title: 'Chesed — "kindness, loyalty, covenant love"',
+          title: 'Chesed - "kindness, loyalty, covenant love"',
           script: 'חֶסֶד',
           translit: '<strong>chesed</strong> · steadfast kindness, faithful love',
           description:
@@ -295,25 +295,25 @@ export const GENESIS_24: RichChapterContent = {
           kind: 'commentary',
           id: 'gen24-camels',
           html:
-            'Ten camels can drink thirty or forty gallons of water each. A well-fed camel drinks until it is full, and Rebekah does not turn the pitcher over to anyone else — she does the work herself, running back and forth, filling and refilling. This is not politeness. This is exhausting, backbreaking labor, the kind of service that tells you something about a person\'s character.',
+            'Ten camels can drink thirty or forty gallons of water each. A well-fed camel drinks until it is full, and Rebekah does not turn the pitcher over to anyone else - she does the work herself, running back and forth, filling and refilling. This is not politeness. This is exhausting, backbreaking labor, the kind of service that tells you something about a person\'s character.',
         },
         {
           kind: 'carry',
           html:
-            'Watch for the people in your life who serve without being asked to negotiate first, who see a need and move toward it. Rebekah does not say, "Well, I could try to help if you make it worth my while." She does not calculate the cost. She sees thirst — not just the man\'s but the camels\'s — and her hands move to meet it. That is the kind of generosity that changes everything.',
+            'Watch for the people in your life who serve without being asked to negotiate first, who see a need and move toward it. Rebekah does not say, "Well, I could try to help if you make it worth my while." She does not calculate the cost. She sees thirst - not just the man\'s but the camels\'s - and her hands move to meet it. That is the kind of generosity that changes everything.',
         },
         {
           kind: 'reflection',
           id: 'gen24-well-refl',
           prompt:
-            'When was the last time you saw someone serve like Rebekah — without calculating, just moving toward the need? What did that teach you about what kindness actually looks like?',
+            'When was the last time you saw someone serve like Rebekah - without calculating, just moving toward the need? What did that teach you about what kindness actually looks like?',
         },
       ],
     },
 
-    /* ─── Genesis 24:22–49 — Rebekah's Family ──────────────────────── */
+    /* ─── Genesis 24:22-49 - Rebekah's Family ──────────────────────── */
     {
-      ref: 'Genesis 24:22–49',
+      ref: 'Genesis 24:22-49',
       title: 'The Family\'s Blessing',
       blocks: [
         {
@@ -362,7 +362,7 @@ export const GENESIS_24: RichChapterContent = {
           kind: 'commentary',
           id: 'gen24-split-1',
           html:
-            'The servant has blessed the LORD and known, beyond doubt, that this is Rebekah. Now the family must learn what the servant already sees. The questions at the well led to revelation. Now revelation must lead to hospitality—a family opening its home to a stranger with a purpose.',
+            'The servant has blessed the LORD and known, beyond doubt, that this is Rebekah. Now the family must learn what the servant already sees. The questions at the well led to revelation. Now revelation must lead to hospitality-a family opening its home to a stranger with a purpose.',
         },
         {
           kind: 'scripture',
@@ -410,7 +410,7 @@ export const GENESIS_24: RichChapterContent = {
           kind: 'commentary',
           id: 'gen24-split-2',
           html:
-            'Laban sees the gold and understands immediately: this is a betrothal journey. He welcomes the stranger and feeds him. Then the servant refusesto eat until he has told his errand. There is a protocol to this—the mission comes before the meal. Laban&apos;s hospitality is perfect, but it waits on the servant&apos;s words.',
+            'Laban sees the gold and understands immediately: this is a betrothal journey. He welcomes the stranger and feeds him. Then the servant refusesto eat until he has told his errand. There is a protocol to this-the mission comes before the meal. Laban&apos;s hospitality is perfect, but it waits on the servant&apos;s words.',
         },
         {
           kind: 'scripture',
@@ -445,8 +445,7 @@ export const GENESIS_24: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-24-78mid-1',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'The servant is sent on his mission, praying for a sign. At the well, Rebekah appears--and every detail aligns with his prayer.',
         },
         {
           kind: 'scripture',
@@ -482,7 +481,7 @@ export const GENESIS_24: RichChapterContent = {
           kind: 'commentary',
           id: 'gen24-split-3',
           html:
-            'The servant has recounted the oath—the binding words Abraham made him swear. Now he will retell the miraculous moment at the well, when the prayer was answered before it was even finished. The retelling is a way of bearing witness. When you tell the story again, you invite others to see what you saw.',
+            'The servant has recounted the oath-the binding words Abraham made him swear. Now he will retell the miraculous moment at the well, when the prayer was answered before it was even finished. The retelling is a way of bearing witness. When you tell the story again, you invite others to see what you saw.',
         },
         {
           kind: 'scripture',
@@ -517,8 +516,7 @@ export const GENESIS_24: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-24-78mid-2',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Laban agrees, Rebekah says yes, and she journeys toward a stranger. The moment Isaac sees her, his mourning for Sarah ends--he loves her.',
         },
         {
           kind: 'scripture',
@@ -559,7 +557,7 @@ export const GENESIS_24: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'When something in your life starts to move — a relationship, an opportunity, an answer you have been waiting for — the first thing to ask is: <em>Is this from the Lord?</em> The family of Rebekah asked this question and could see the answer clearly. Gold is not the sign; obedience and character are. A young woman who works without complaining, who serves without counting the cost, who comes from a faithful family. That is how you know.',
+            'When something in your life starts to move - a relationship, an opportunity, an answer you have been waiting for - the first thing to ask is: <em>Is this from the Lord?</em> The family of Rebekah asked this question and could see the answer clearly. Gold is not the sign; obedience and character are. A young woman who works without complaining, who serves without counting the cost, who comes from a faithful family. That is how you know.',
         },
         {
           kind: 'reflection',
@@ -570,9 +568,9 @@ export const GENESIS_24: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 24:50–61 — Rebekah Says "I Will Go" ──────────────── */
+    /* ─── Genesis 24:50-61 - Rebekah Says "I Will Go" ──────────────── */
     {
-      ref: 'Genesis 24:50–61',
+      ref: 'Genesis 24:50-61',
       title: 'I Will Go',
       blocks: [
         {
@@ -621,7 +619,7 @@ export const GENESIS_24: RichChapterContent = {
           kind: 'commentary',
           id: 'gen24-family-stalls',
           html:
-            'Notice the small instinct of love — the family asks for ten more days. The servant has been there one night and they already do not want to let her go. Eliezer has felt this kind of pull on the road from Canaan; he refuses to be slowed by it now. The Lord has prospered the journey; affection is no reason to delay obedience.',
+            'Notice the small instinct of love - the family asks for ten more days. The servant has been there one night and they already do not want to let her go. Eliezer has felt this kind of pull on the road from Canaan; he refuses to be slowed by it now. The Lord has prospered the journey; affection is no reason to delay obedience.',
         },
         {
           kind: 'scripture',
@@ -676,14 +674,14 @@ export const GENESIS_24: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-bride',
-          title: 'Christ Connection — The Bride Who Has Not Seen the Bridegroom',
+          title: 'Christ Connection - The Bride Who Has Not Seen the Bridegroom',
           html:
-            'Rebekah goes to marry a man she has never seen. She has not heard his voice or looked into his eyes. And yet the chapter frames this not as blindness but as faith. Peter will later say of believers in Christ: "Whom having not seen, ye love" (1 Peter 1:8). The Church is a bride who has not yet seen her Bridegroom face to face, and yet she says "I will go." The servant in the chapter is often read as a picture of the Holy Spirit — bringing gifts, bearing witness, moving toward the bride with assurance. The chapter does not press the picture, but it is there for those with eyes to see it.',
+            'Rebekah goes to marry a man she has never seen. She has not heard his voice or looked into his eyes. And yet the chapter frames this not as blindness but as faith. Peter will later say of believers in Christ: "Whom having not seen, ye love" (1 Peter 1:8). The Church is a bride who has not yet seen her Bridegroom face to face, and yet she says "I will go." The servant in the chapter is often read as a picture of the Holy Spirit - bringing gifts, bearing witness, moving toward the bride with assurance. The chapter does not press the picture, but it is there for those with eyes to see it.',
         },
         {
           kind: 'carry',
           html:
-            'There are moments in life when you have to choose without seeing the ending. A commitment made in the dark. A "yes" spoken to something your mind cannot yet verify. Rebekah\'s choice is not reckless — she comes from a faithful family, she has been asked by people who love her, and she sees evidence that this is from God. But ultimately she walks toward a future she cannot control and cannot see. That is what faith looks like. That is what love looks like.',
+            'There are moments in life when you have to choose without seeing the ending. A commitment made in the dark. A "yes" spoken to something your mind cannot yet verify. Rebekah\'s choice is not reckless - she comes from a faithful family, she has been asked by people who love her, and she sees evidence that this is from God. But ultimately she walks toward a future she cannot control and cannot see. That is what faith looks like. That is what love looks like.',
         },
         {
           kind: 'reflection',
@@ -694,9 +692,9 @@ export const GENESIS_24: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 24:62–67 — Isaac Meets Rebekah ───────────────────── */
+    /* ─── Genesis 24:62-67 - Isaac Meets Rebekah ───────────────────── */
     {
-      ref: 'Genesis 24:62–67',
+      ref: 'Genesis 24:62-67',
       title: 'Isaac in the Field at Evening',
       blocks: [
         {
@@ -752,7 +750,7 @@ export const GENESIS_24: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-suach',
-          title: 'Suach — "to meditate, to muse, to think"',
+          title: 'Suach - "to meditate, to muse, to think"',
           script: 'שׂוּחַ',
           translit: '<strong>suach</strong> · to meditate, to ponder, to think deeply',
           description:
@@ -762,12 +760,12 @@ export const GENESIS_24: RichChapterContent = {
           kind: 'commentary',
           id: 'gen24-wife',
           html:
-            'The sentence is constructed with such economy: <em>she became his wife</em>. Not "he took her" in a forceful way, but "she became his wife" — a becoming, a transformation, a joining of two people into one story.',
+            'The sentence is constructed with such economy: <em>she became his wife</em>. Not "he took her" in a forceful way, but "she became his wife" - a becoming, a transformation, a joining of two people into one story.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-nacham',
-          title: 'Nacham — "comforted, consoled"',
+          title: 'Nacham - "comforted, consoled"',
           script: 'נִחַם',
           translit: '<strong>nacham</strong> · to be comforted, to be consoled, to be eased',
           description:
@@ -794,7 +792,7 @@ export const GENESIS_24: RichChapterContent = {
           kind: 'artwork',
           matchTitle: /rebekah/i,
           matchArtist: /tissot/i,
-          caption: 'Genesis 24:62–67 — Isaac and Rebekah Meet in the Field',
+          caption: 'Genesis 24:62-67 - Isaac and Rebekah Meet in the Field',
         },
       ],
     },

@@ -32,6 +32,17 @@ export const CHRONICLES_2_25: RichChapterContent = {
     ref: '2 Chronicles 25 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-judah-monarchy',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Judah in the Monarchy Period',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 25:1–4 — Right but Not with a Perfect Heart ────── */
     {
@@ -52,7 +63,7 @@ export const CHRONICLES_2_25: RichChapterContent = {
           kind: 'commentary',
           id: 'not-perfect-heart',
           html:
-            'The phrase "right in the sight of the Lord, but not with a perfect heart" is extraordinary. It does not mean Amaziah is wicked. It means his obedience is qualified, conditional, incomplete. A perfect heart means undivided loyalty, trust that does not hedge, commitment that does not bargain. Amaziah&apos;s obedience is real — but it coexists with fear, ambition, and the desire to control outcomes. He is not hypocritical. He is divided.',
+            'The phrase "right in the sight of the Lord, but not with a perfect heart" is extraordinary. It does not mean Amaziah is wicked. It means his obedience is qualified, conditional, incomplete. A perfect heart means undivided loyalty, trust that does not hedge, commitment that does not bargain. Amaziah&apos;s obedience is real — but it coexists with fear, ambition, and the desire to control outcomes. He is not hypocritical. He is divided. [res:iaa-judah-monarchy]',
         },
         {
           kind: 'commentary',

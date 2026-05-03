@@ -31,6 +31,17 @@ export const CHRONICLES_1_16: RichChapterContent = {
     ref: '1 Chronicles 16 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'israel-museum-ark',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'The Ark of the Covenant',
+      url: 'https://www.imj.org.il/',
+      description: 'Museum exhibits and scholarly materials on the Ark and temple worship.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 16:1–3 — The Ark Brought In, Offerings Made ──────── */
     {
@@ -50,7 +61,7 @@ export const CHRONICLES_1_16: RichChapterContent = {
           kind: 'commentary',
           id: 'ark-tent-david',
           html:
-            'The ark, the symbol of God&apos;s covenant presence, is placed not in a permanent temple but in a tent that David has pitched for it. This is provisional, temporary — a king&apos;s makeshift tabernacle. Yet David treats it with the full solemnity of worship. He does not merely place it; he surrounds it with sacrifices and blessing. The burnt offering (whole offering, consumed) and the peace offering (shared meal, communion) frame the act as both a gift to God and an invitation to Israel to participate in the presence of the Lord.',
+            'The ark, the symbol of God&apos;s covenant presence, is placed not in a permanent temple but in a tent that David has pitched for it. This is provisional, temporary — a king&apos;s makeshift tabernacle. Yet David treats it with the full solemnity of worship. He does not merely place it; he surrounds it with sacrifices and blessing. The burnt offering (whole offering, consumed) and the peace offering (shared meal, communion) frame the act as both a gift to God and an invitation to Israel to participate in the presence of the Lord. [res:israel-museum-ark]',
         },
         {
           kind: 'commentary',

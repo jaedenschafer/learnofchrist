@@ -92,7 +92,7 @@ export const REVELATION_1: RichChapterContent = {
           kind: 'commentary',
           id: 'revelation-1-78mid-1',
           html:
-            'John is in the Spirit on the Lord's day and hears a great voice; he sees the son of Man walking among lampstands. From exile comes vision; from silence comes the word of the risen Lord.',
+            'John is in the Spirit on the Lord&apos;s day and hears a great voice; he sees the son of Man walking among lampstands. From exile comes vision; from silence comes the word of the risen Lord.',
         },
         {
           kind: 'scripture',

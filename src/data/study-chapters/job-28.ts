@@ -26,6 +26,17 @@ export const JOB_28: RichChapterContent = {
     ref: 'Job 28 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     /* ─── Job 28:1–11 — Mining Earthly Treasures ─────────────────────── */
     {
@@ -48,7 +59,7 @@ export const JOB_28: RichChapterContent = {
           kind: 'commentary',
           id: 'job28-excavation-power',
           html:
-            'Job paints a picture of human industriousness. Men dig into the earth. They find precious metals and stones in hidden places. They engineer waters and channel them. Every aspect of nature is subject to human discovery and exploitation. Man is portrayed as a master archaeologist, uncovering the secrets of the material world.',
+            'Job paints a picture of human industriousness. Men dig into the earth. They find precious metals and stones in hidden places. They engineer waters and channel them. Every aspect of nature is subject to human discovery and exploitation. Man is portrayed as a master archaeologist, uncovering the secrets of the material world. [res:british-museum-ludlul]',
         },
         {
           kind: 'scripture',

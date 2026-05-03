@@ -1,10 +1,10 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 19 — Sodom and Gomorrah.
+ * Genesis 19 - Sodom and Gomorrah.
  *
  * A chapter that refuses to flinch about human evil and divine judgment.
- * It begins with hospitality received and ends in a cave — the photographic
+ * It begins with hospitality received and ends in a cave - the photographic
  * negative of Abraham's Mamre. The destruction is total. Lot's wife looks
  * back. And even in the rubble, God's hand is visible on those being pulled
  * to safety.
@@ -16,14 +16,14 @@ export const GENESIS_19: RichChapterContent = {
 
   estimatedMinutes: { beginner: 11, intermediate: 16, deep: 21 },
   intros: [
-    'Genesis 19 is a chapter that refuses to flinch. It names evil as evil — not as a philosophical abstraction, but as a mob at a door. It shows divine judgment [res:bibleodyssey-sodom-judgment] as total and swift. And it follows one man, Lot, as he is physically dragged to safety by angels because he cannot save himself. The chapter is dark. But inside the darkness, there is one trembling fact: grace that does not depend on the courage of the rescued.',
-    'Two chapters earlier, Abraham made a costly case to God that Sodom might be spared — a conversation every reader knows will fail. Now we see why. The men of Sodom come to Lot to abuse his guests. The city will not repent. The visitors are not guests — they are targets. And Lot, who once chose Sodom because it looked "like the garden of the Lord" (Gen 13:10), finds himself alone, mocked by his own family, forced out by hands not his own. The protection Abraham sought could not exist in a place that wanted darkness more than light.',
+    'Genesis 19 is a chapter that refuses to flinch. It names evil as evil - not as a philosophical abstraction, but as a mob at a door. It shows divine judgment [res:bibleodyssey-sodom-judgment] as total and swift. And it follows one man, Lot, as he is physically dragged to safety by angels because he cannot save himself. The chapter is dark. But inside the darkness, there is one trembling fact: grace that does not depend on the courage of the rescued.',
+    'Two chapters earlier, Abraham made a costly case to God that Sodom might be spared - a conversation every reader knows will fail. Now we see why. The men of Sodom come to Lot to abuse his guests. The city will not repent. The visitors are not guests - they are targets. And Lot, who once chose Sodom because it looked "like the garden of the Lord" (Gen 13:10), finds himself alone, mocked by his own family, forced out by hands not his own. The protection Abraham sought could not exist in a place that wanted darkness more than light.',
   ],
 
   sections: [
-    /* ─── Genesis 19:1–3 — Lot Welcomes the Visitors ────────────────────── */
+    /* ─── Genesis 19:1-3 - Lot Welcomes the Visitors ────────────────────── */
     {
-      ref: 'Genesis 19:1–3',
+      ref: 'Genesis 19:1-3',
       title: 'Lot Welcomes the Visitors',
       blocks: [
         {
@@ -62,38 +62,38 @@ export const GENESIS_19: RichChapterContent = {
           kind: 'commentary',
           id: 'c-nay-first-refuse',
           html:
-            'The visitors at first refuse the shelter Lot offers. They will stay in the street. This is no accident — they are testing what the city will do. Will Lot take them in? Will anyone? Will there be even one act of hospitality in a place known for its refusal of it? Lot passes the test that Sodom itself has failed[res:sefaria-genesis-19][res:britishmuseum-sodom-gomorrah].',
+            'The visitors at first refuse the shelter Lot offers. They will stay in the street. This is no accident - they are testing what the city will do. Will Lot take them in? Will anyone? Will there be even one act of hospitality in a place known for its refusal of it? Lot passes the test that Sodom itself has failed[res:sefaria-genesis-19][res:britishmuseum-sodom-gomorrah].',
         },
         {
           kind: 'commentary',
           id: 'c-feast-hospitality',
           html:
-            'Lot\'s hospitality stands in stark contrast to what is coming. He sets a feast. He bakes bread. He makes room in his home for strangers. This is the posture Abraham taught — the open door, the generous table. Lot will soon be mocked for it. The men of his own city will rage against him for it. And it will be the very act that marks him as righteous, as worth saving.',
+            'Lot\'s hospitality stands in stark contrast to what is coming. He sets a feast. He bakes bread. He makes room in his home for strangers. This is the posture Abraham taught - the open door, the generous table. Lot will soon be mocked for it. The men of his own city will rage against him for it. And it will be the very act that marks him as righteous, as worth saving.',
         },
         {
           kind: 'christ',
           id: 'christ-angels-grace',
-          title: 'Christ Connection — Grace that Grasps',
+          title: 'Christ Connection - Grace that Grasps',
           html:
-            'Two strangers arrive at Lot\'s door, and he sees them and acts — not because he knows who they are, but because his conscience knows what he should do. Years later, Paul will write: "Be not forgetful to entertain strangers: for thereby some have entertained angels unawares" (Heb. 13:2). The two who arrive in Sodom that night are not there to reward goodness or punish badness. They are sent on a mission of mercy. And Lot, despite being surrounded by evil, has not lost the reflex to show grace to those who need it. That reflex will save his life.',
+            'Two strangers arrive at Lot\'s door, and he sees them and acts - not because he knows who they are, but because his conscience knows what he should do. Years later, Paul will write: "Be not forgetful to entertain strangers: for thereby some have entertained angels unawares" (Heb. 13:2). The two who arrive in Sodom that night are not there to reward goodness or punish badness. They are sent on a mission of mercy. And Lot, despite being surrounded by evil, has not lost the reflex to show grace to those who need it. That reflex will save his life.',
         },
         {
           kind: 'carry',
           html:
-            'You live in a world that often feels like Sodom — full of voices that want to corrupt, indifferent to strangers, suspicious of kindness. One thing that marks you as different is the small, quiet acts of hospitality you give: the meal you make, the door you open, the welcome you extend to someone nobody else is welcoming. That habit — that reflex — is itself a form of witness. It says: I still believe in the God who opens doors. Keep practicing it, even when the world around you does not.',
+            'You live in a world that often feels like Sodom - full of voices that want to corrupt, indifferent to strangers, suspicious of kindness. One thing that marks you as different is the small, quiet acts of hospitality you give: the meal you make, the door you open, the welcome you extend to someone nobody else is welcoming. That habit - that reflex - is itself a form of witness. It says: I still believe in the God who opens doors. Keep practicing it, even when the world around you does not.',
         },
         {
           kind: 'reflection',
           id: 'gen19-hospitality',
           prompt:
-            'Where is one place in your life right now where you can practice Lot\'s simple reflex — opening a door, making a meal, making someone feel welcomed? Who is the stranger at your gate this week?',
+            'Where is one place in your life right now where you can practice Lot\'s simple reflex - opening a door, making a meal, making someone feel welcomed? Who is the stranger at your gate this week?',
         },
       ],
     },
 
-    /* ─── Genesis 19:4–11 — The Men of Sodom Surround the House ─────────── */
+    /* ─── Genesis 19:4-11 - The Men of Sodom Surround the House ─────────── */
     {
-      ref: 'Genesis 19:4–11',
+      ref: 'Genesis 19:4-11',
       title: 'The Men of Sodom Surround the House',
       blocks: [
         {
@@ -135,8 +135,7 @@ export const GENESIS_19: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-19-78mid-1',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Lot shelters the angel visitors, but Sodom&apos;s men surround the house. The city&apos;s heart stands naked before God&apos;s judgment.',
         },
         {
           kind: 'scripture',
@@ -173,17 +172,17 @@ export const GENESIS_19: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-sodom-evil',
-          title: 'Sodom — "the Sodomites"',
+          title: 'Sodom - "the Sodomites"',
           script: 'סְדוֹם',
           translit: '<strong>Sodom</strong> · derived from Hebrew root meaning "burning" or "scorching"',
           description:
-            'Sodom is not unnamed evil; it is a place. The text gives it a name so we will remember: a city that became a synonym for a specific kind of defiance. Centuries later, Ezekiel will name what Sodom\'s sin actually was: "Pride, fulness of bread, and abundance of idleness was in her and in her daughters, neither did she strengthen the hand of the poor and needy" (Ezek. 16:49–50).',
+            'Sodom is not unnamed evil; it is a place. The text gives it a name so we will remember: a city that became a synonym for a specific kind of defiance. Centuries later, Ezekiel will name what Sodom\'s sin actually was: "Pride, fulness of bread, and abundance of idleness was in her and in her daughters, neither did she strengthen the hand of the poor and needy" (Ezek. 16:49-50).',
         },
         {
           kind: 'commentary',
           id: 'c-sodom-unity-in-evil',
           html:
-            'Note the unity of the mob. <em>All the people from every quarter</em> — young and old, rich and poor, everybody. This is not a few bad actors; this is a city whose moral center has gone rotten. There is no one to say no. There is no minority standing apart. The entire social order has aligned itself toward violence, and it moves as one.',
+            'Note the unity of the mob. <em>All the people from every quarter</em> - young and old, rich and poor, everybody. This is not a few bad actors; this is a city whose moral center has gone rotten. There is no one to say no. There is no minority standing apart. The entire social order has aligned itself toward violence, and it moves as one.',
         },
         {
           kind: 'commentary',
@@ -195,32 +194,32 @@ export const GENESIS_19: RichChapterContent = {
           kind: 'commentary',
           id: 'c-blindness',
           html:
-            'The angels strike the mob with blindness. Not death. Not fire. Not yet. Blindness. They cannot find the door. The stroke that falls is surgical — it neutralizes the threat without destroying it. And it gives Lot the margin of seconds he needs to move. Grace is often that specific.',
+            'The angels strike the mob with blindness. Not death. Not fire. Not yet. Blindness. They cannot find the door. The stroke that falls is surgical - it neutralizes the threat without destroying it. And it gives Lot the margin of seconds he needs to move. Grace is often that specific.',
         },
         {
           kind: 'christ',
           id: 'christ-mob-grace',
-          title: 'Christ Connection — Judgment and Mercy in One Act',
+          title: 'Christ Connection - Judgment and Mercy in One Act',
           html:
-            'The blindness the angels inflict is not punishment — not yet. It is the hinge that opens escape. Later, Jesus will speak of this chapter directly: "Remember Lot\'s wife" (Luke 17:32). But earlier, in that same passage, he warns: "The Son of Man is revealed" as judgment (Luke 17:30). Peter calls Lot "righteous" — not perfect, but saved: "The Lord knoweth how to deliver the godly out of temptations, and to reserve the unjust unto the day of judgment to be punished" (2 Pet. 2:9). Lot is not rescued because he earned it. He is rescued because the One sending the angels has decided mercy, for this man and this moment, while judgment falls on the city.',
+            'The blindness the angels inflict is not punishment - not yet. It is the hinge that opens escape. Later, Jesus will speak of this chapter directly: "Remember Lot\'s wife" (Luke 17:32). But earlier, in that same passage, he warns: "The Son of Man is revealed" as judgment (Luke 17:30). Peter calls Lot "righteous" - not perfect, but saved: "The Lord knoweth how to deliver the godly out of temptations, and to reserve the unjust unto the day of judgment to be punished" (2 Pet. 2:9). Lot is not rescued because he earned it. He is rescued because the One sending the angels has decided mercy, for this man and this moment, while judgment falls on the city.',
         },
         {
           kind: 'carry',
           html:
-            'When you find yourself in a circumstance where evil is strong and unified, and your voice against it seems small and useless — remember that the angels did not ask Lot to be brave. They struck the mob blind. They did the heavy work. Your job was simply to stay in the light long enough for rescue to arrive. Sometimes the call to stand for righteousness is not a call to be a hero. It is a call to not move. To not compromise. To let God handle the mob.',
+            'When you find yourself in a circumstance where evil is strong and unified, and your voice against it seems small and useless - remember that the angels did not ask Lot to be brave. They struck the mob blind. They did the heavy work. Your job was simply to stay in the light long enough for rescue to arrive. Sometimes the call to stand for righteousness is not a call to be a hero. It is a call to not move. To not compromise. To let God handle the mob.',
         },
         {
           kind: 'reflection',
           id: 'gen19-evil-community',
           prompt:
-            'Where do you see a community united in something wrong — not just individuals, but a whole system moving together toward harm? How does Lot\'s small stance — saying "I pray you, do not so wickedly" — speak to your own position?',
+            'Where do you see a community united in something wrong - not just individuals, but a whole system moving together toward harm? How does Lot\'s small stance - saying "I pray you, do not so wickedly" - speak to your own position?',
         },
       ],
     },
 
-    /* ─── Genesis 19:12–22 — Haste, Get Thee Out ────────────────────────── */
+    /* ─── Genesis 19:12-22 - Haste, Get Thee Out ────────────────────────── */
     {
-      ref: 'Genesis 19:12–22',
+      ref: 'Genesis 19:12-22',
       title: 'Haste, Get Thee Out',
       blocks: [
         {
@@ -269,7 +268,7 @@ export const GENESIS_19: RichChapterContent = {
           kind: 'commentary',
           id: 'gen19-grace-grasps',
           html:
-            'Grace reaches down and grasps. Lot does not flee on his own strength; the angels lay hold upon his hand, upon his wife&apos;s hand, upon the hands of his daughters. He is weak. He lingers. He cannot move without being pulled. And the text names what happens: the LORD being merciful unto him. Mercy is not the absence of urgency—it is hands reaching down when someone cannot save themselves.',
+            'Grace reaches down and grasps. Lot does not flee on his own strength; the angels lay hold upon his hand, upon his wife&apos;s hand, upon the hands of his daughters. He is weak. He lingers. He cannot move without being pulled. And the text names what happens: the LORD being merciful unto him. Mercy is not the absence of urgency-it is hands reaching down when someone cannot save themselves.',
         },
         {
           kind: 'scripture',
@@ -336,7 +335,7 @@ export const GENESIS_19: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-zoar',
-          title: 'Zoar — "small, little"',
+          title: 'Zoar - "small, little"',
           script: 'צוֹעַר',
           translit: '<strong>Zoar</strong> · a small city; the name means "littleness"',
           description:
@@ -351,14 +350,14 @@ export const GENESIS_19: RichChapterContent = {
           kind: 'reflection',
           id: 'gen19-grasped',
           prompt:
-            'Where in your life are you lingering — afraid to move, unsure of the way, too weak to flee? What would it mean to feel God\'s hand grasped around yours, pulling you toward safety?',
+            'Where in your life are you lingering - afraid to move, unsure of the way, too weak to flee? What would it mean to feel God\'s hand grasped around yours, pulling you toward safety?',
         },
       ],
     },
 
-    /* ─── Genesis 19:23–29 — Fire and Brimstone ────────────────────────── */
+    /* ─── Genesis 19:23-29 - Fire and Brimstone ────────────────────────── */
     {
-      ref: 'Genesis 19:23–29',
+      ref: 'Genesis 19:23-29',
       title: 'Fire and Brimstone',
       blocks: [
         {
@@ -390,8 +389,7 @@ export const GENESIS_19: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-19-78mid-2',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Fire consumes the plain; Lot runs toward Zoar. Behind him, everything he knew burns. He cannot unsee it.',
         },
         {
           kind: 'scripture',
@@ -430,16 +428,16 @@ export const GENESIS_19: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-gophrit',
-          title: 'Gophrit — "brimstone, sulfur"',
+          title: 'Gophrit - "brimstone, sulfur"',
           script: 'גָּפְרִית',
           translit: '<strong>gophrit</strong> · brimstone, sulfur; a burning, choking destruction',
           description:
-            'The word itself is burned into memory by the sound: <em>gophrit</em>. Burning sulfur. Not an earthquake. Not a flood. A rain of fire from heaven — the image Jesus himself will echo when He speaks of judgment to come.',
+            'The word itself is burned into memory by the sound: <em>gophrit</em>. Burning sulfur. Not an earthquake. Not a flood. A rain of fire from heaven - the image Jesus himself will echo when He speaks of judgment to come.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-melach',
-          title: 'Netziv melach — "pillar of salt"',
+          title: 'Netziv melach - "pillar of salt"',
           script: 'נְצִיב מֶלַח',
           translit: '<strong>netziv melach</strong> · pillar of salt; a monument to the cost of looking back',
           description:
@@ -454,14 +452,14 @@ export const GENESIS_19: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-wife-looking-back',
-          title: 'Christ Connection — Remember Lot\'s Wife',
+          title: 'Christ Connection - Remember Lot\'s Wife',
           html:
-            'Jesus speaks this chapter\'s final word: "Remember Lot\'s wife" (Luke 17:32). He does not explain it. He leaves the warning stark. And Peter, writing to persecuted churches, names Lot as "righteous" — not sinless, but saved — while his wife perishes for looking back. The point is surgical: judgment has come. The way out has been made. Do not return to what you are fleeing from. Do not let your heart pull your feet backward. Christ\'s warning haunts every chapter of this Bible: when I call you out of darkness, do not look back.',
+            'Jesus speaks this chapter\'s final word: "Remember Lot\'s wife" (Luke 17:32). He does not explain it. He leaves the warning stark. And Peter, writing to persecuted churches, names Lot as "righteous" - not sinless, but saved - while his wife perishes for looking back. The point is surgical: judgment has come. The way out has been made. Do not return to what you are fleeing from. Do not let your heart pull your feet backward. Christ\'s warning haunts every chapter of this Bible: when I call you out of darkness, do not look back.',
         },
         {
           kind: 'carry',
           html:
-            'You may be in the middle of a painful escape — from a relationship, a habit, a place, a way of living that nearly destroyed you. The angels have grasped your hand. You are moving toward Zoar. And you will feel, almost certainly, the pull to look back. To wonder if it was really that bad. To wish you could have saved someone. To think maybe you could go back just once. Do not. The instruction is not unkind. It is kind. When the judges of history look back on your life, they will not ask why you did not tarry. They will ask why you were brave enough to look forward.',
+            'You may be in the middle of a painful escape - from a relationship, a habit, a place, a way of living that nearly destroyed you. The angels have grasped your hand. You are moving toward Zoar. And you will feel, almost certainly, the pull to look back. To wonder if it was really that bad. To wish you could have saved someone. To think maybe you could go back just once. Do not. The instruction is not unkind. It is kind. When the judges of history look back on your life, they will not ask why you did not tarry. They will ask why you were brave enough to look forward.',
         },
         {
           kind: 'reflection',
@@ -472,14 +470,14 @@ export const GENESIS_19: RichChapterContent = {
         {
           kind: 'artwork',
           matchTitle: /destruction.*sodom|sodom.*destroyed|fire.*brimstone/i,
-          caption: 'Genesis 19:23–29 · The Destruction of Sodom',
+          caption: 'Genesis 19:23-29 · The Destruction of Sodom',
         },
       ],
     },
 
-    /* ─── Genesis 19:30–38 — Lot in the Cave ───────────────────────────── */
+    /* ─── Genesis 19:30-38 - Lot in the Cave ───────────────────────────── */
     {
-      ref: 'Genesis 19:30–38',
+      ref: 'Genesis 19:30-38',
       title: 'Lot in the Cave',
       blocks: [
         {
@@ -562,27 +560,27 @@ export const GENESIS_19: RichChapterContent = {
           kind: 'commentary',
           id: 'c-cave-refuge',
           html:
-            'Lot flees Zoar and retreats to a cave. He is afraid. He has lost everything — his wife is gone, turned to salt. His daughters are all he has left. And he ends not in a city, not in a household, but in a cave. The man who once chose Sodom for its plenty now lives underground. The fall is complete. And the text will not turn away from what follows.',
+            'Lot flees Zoar and retreats to a cave. He is afraid. He has lost everything - his wife is gone, turned to salt. His daughters are all he has left. And he ends not in a city, not in a household, but in a cave. The man who once chose Sodom for its plenty now lives underground. The fall is complete. And the text will not turn away from what follows.',
         },
         {
           kind: 'commentary',
           id: 'c-incest-text',
           html:
-            'The daughters deceive their father. They believe the world has ended — there are no more men, the future is gone, the line will die. So they decide to preserve it by deception, by incest. The text reports this without commendation. It does not say "they did well." It does not say "they sinned." It reports. And the readers of ancient Israel will need to think carefully about what a desperate person does when they believe all is lost, and what a compromised conscience permits.',
+            'The daughters deceive their father. They believe the world has ended - there are no more men, the future is gone, the line will die. So they decide to preserve it by deception, by incest. The text reports this without commendation. It does not say "they did well." It does not say "they sinned." It reports. And the readers of ancient Israel will need to think carefully about what a desperate person does when they believe all is lost, and what a compromised conscience permits.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-moab',
-          title: 'Moav — "from my father"',
+          title: 'Moav - "from my father"',
           script: 'מוֹאָב',
           translit: '<strong>Moav</strong> · the etymological play on "from my father" (me-av)',
           description:
-            'Moab becomes a nation. For centuries, Moab and Israel are enemies. Yet Moab also becomes the home of Ruth, the Moabitess, who will become the great-grandmother of King David — and through David, Christ enters the line of mercy. Even incest cannot close off redemption.',
+            'Moab becomes a nation. For centuries, Moab and Israel are enemies. Yet Moab also becomes the home of Ruth, the Moabitess, who will become the great-grandmother of King David - and through David, Christ enters the line of mercy. Even incest cannot close off redemption.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-ammon',
-          title: 'Ammon — "son of my people"',
+          title: 'Ammon - "son of my people"',
           script: 'עַמּוֹן',
           translit: '<strong>Ammon</strong> · "people-son," likewise begetting a nation that opposes Israel',
           description:
@@ -591,9 +589,9 @@ export const GENESIS_19: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-moab-ruth',
-          title: 'Christ Connection — Redemption Runs Through Moab',
+          title: 'Christ Connection - Redemption Runs Through Moab',
           html:
-            'Two nations spring from Lot\'s incest. Both will oppose Israel. Both will be enemies. And yet — Ruth will be born a Moabitess. "The LORD hath been witness between me and thee" (Ruth 4:10). She will marry Boaz. She will become the grandmother of Jesse, the mother of kings. And through her line, Christ will come. Peter will say of Lot: "The Lord knoweth how to deliver the godly out of temptations, and to reserve the unjust unto the day of judgment" (2 Pet. 2:9). That is the view of Genesis 19. Not that the chapter is without moral weight. But that even in its darkest hours, God\'s mercy does not foreclose the future. The children of incest become the ancestors of kings. The nation that began in despair becomes the womb of redemption.',
+            'Two nations spring from Lot\'s incest. Both will oppose Israel. Both will be enemies. And yet - Ruth will be born a Moabitess. "The LORD hath been witness between me and thee" (Ruth 4:10). She will marry Boaz. She will become the grandmother of Jesse, the mother of kings. And through her line, Christ will come. Peter will say of Lot: "The Lord knoweth how to deliver the godly out of temptations, and to reserve the unjust unto the day of judgment" (2 Pet. 2:9). That is the view of Genesis 19. Not that the chapter is without moral weight. But that even in its darkest hours, God\'s mercy does not foreclose the future. The children of incest become the ancestors of kings. The nation that began in despair becomes the womb of redemption.',
         },
         {
           kind: 'carry',
@@ -613,7 +611,7 @@ export const GENESIS_19: RichChapterContent = {
   bottomShare: {
     label: 'Share Genesis 19',
     quote:
-      'Two angels arrive to rescue a man from a burning city. He hesitates. They grasp his hand and pull him out. His wife looks back. She becomes a pillar of salt. And in the cave that follows, God\'s mercy reaches even into incest and despair — because the line of redemption cannot be stopped.',
+      'Two angels arrive to rescue a man from a burning city. He hesitates. They grasp his hand and pull him out. His wife looks back. She becomes a pillar of salt. And in the cave that follows, God\'s mercy reaches even into incest and despair - because the line of redemption cannot be stopped.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 19 · Study Guide',
   },

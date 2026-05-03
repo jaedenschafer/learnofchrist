@@ -32,6 +32,17 @@ export const JOB_27: RichChapterContent = {
     ref: 'Job 27 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     /* ─── Job 27:1–12 — Job&apos;s Oath ─────────────────────────────────── */
     {
@@ -80,7 +91,7 @@ export const JOB_27: RichChapterContent = {
           kind: 'commentary',
           id: 'job27-oath-integrity',
           html:
-            'Job swears by God&apos;s life and takes an oath. He will not compromise his integrity. His lips will not speak falsehood. His tongue will not utter deceit. Even if he dies, he will not let go of his righteousness. This is not self-righteousness. This is the determination of a man to hold onto the truth about himself, no matter the cost.',
+            'Job swears by God&apos;s life and takes an oath. He will not compromise his integrity. His lips will not speak falsehood. His tongue will not utter deceit. Even if he dies, he will not let go of his righteousness. This is not self-righteousness. This is the determination of a man to hold onto the truth about himself, no matter the cost. [res:british-museum-ludlul]',
         },
         {
           kind: 'scripture',

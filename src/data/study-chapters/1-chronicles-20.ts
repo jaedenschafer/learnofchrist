@@ -31,6 +31,17 @@ export const CHRONICLES_1_20: RichChapterContent = {
     ref: '1 Chronicles 20 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-david-kingdom',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'David and the Iron Age Kingdom',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Artifacts and inscriptions illuminating the Davidic monarchy and administration.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 20:1–3 — Joab Sieges Rabbah; David Tarries ─────────── */
     {
@@ -59,7 +70,7 @@ export const CHRONICLES_1_20: RichChapterContent = {
           kind: 'commentary',
           id: 'rabbah-siege',
           html:
-            'The Chronicler opens with a note of narrative precision: "After the year was expired, at the time when kings go out to battle." This is the proper season for war — when the spring rains cease and the roads are passable. Joab, David&apos;s commander, leads the army not to fight alongside the king, but to besiege Rabbah, the capital of Ammon. The city represents Ammonite power, the threat to Israel&apos;s eastern flank. The siege is methodical. It is thorough.',
+            'The Chronicler opens with a note of narrative precision: "After the year was expired, at the time when kings go out to battle." This is the proper season for war — when the spring rains cease and the roads are passable. Joab, David&apos;s commander, leads the army not to fight alongside the king, but to besiege Rabbah, the capital of Ammon. The city represents Ammonite power, the threat to Israel&apos;s eastern flank. The siege is methodical. It is thorough. [res:british-museum-david-kingdom]',
         },
         {
           kind: 'commentary',

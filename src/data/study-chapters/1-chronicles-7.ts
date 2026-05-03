@@ -32,6 +32,17 @@ export const CHRONICLES_1_7: RichChapterContent = {
     ref: '1 Chronicles 7 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-tribal-lists',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Tribal Genealogies and Borders',
+      url: 'https://www.sefaria.org/search?q=tribe+israel&tab=text',
+      description: 'Sefaria resources on the twelve tribes, genealogies, and territorial divisions.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 7:1–11 — The Northern Tribes ──────────────────────── */
     {
@@ -51,7 +62,7 @@ export const CHRONICLES_1_7: RichChapterContent = {
           kind: 'commentary',
           id: '1-chronicles-7-mid-3',
           html:
-            '<p>These names represent the leaders and builders God raised up for specific roles.</p>',
+            '<p>These names represent the leaders and builders God raised up for specific roles.</p> [res:sefaria-tribal-lists]',
         },
         {
           kind: 'scripture',

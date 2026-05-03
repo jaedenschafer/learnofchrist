@@ -30,6 +30,17 @@ export const JOB_15: RichChapterContent = {
     ref: 'Job 15 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Job 15:1–16',
@@ -51,7 +62,7 @@ export const JOB_15: RichChapterContent = {
           kind: 'commentary',
           id: 'job15-split-1',
           html:
-            'Eliphaz&apos;s tone hardens. He moves from concern to contempt. Job&apos;s words are vain, unprofitable, meaningless. Job "casts off fear" and "restrains prayer"—his refusal to submit looks to Eliphaz like irreverence. For Eliphaz, Job&apos;s own mouth is his judge.',
+            'Eliphaz&apos;s tone hardens. He moves from concern to contempt. Job&apos;s words are vain, unprofitable, meaningless. Job "casts off fear" and "restrains prayer"—his refusal to submit looks to Eliphaz like irreverence. For Eliphaz, Job&apos;s own mouth is his judge. [res:british-museum-ludlul]',
         },
         {
           kind: 'scripture',

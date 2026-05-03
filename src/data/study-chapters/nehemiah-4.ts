@@ -31,6 +31,25 @@ export const NEHEMIAH_4: RichChapterContent = {
     ref: 'Nehemiah 4 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-city-david',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA ongoing dig revealing Iron Age and Persian period Jerusalem structures.',
+    },
+    {
+      id: 'wadi-daliyeh-papyri',
+      kind: 'manuscript',
+      source: 'Intertextual Bible',
+      label: 'Wadi Daliyeh Papyri and Tobiah',
+      url: 'https://intertextual.bible/',
+      description: 'Epigraphic and papyrological evidence for Tobiah, Sanballat, and Samaria.',
+    },
+  ],
+
   sections: [
     /* ─── Nehemiah 4:1–3 — Sanballat's Mockery ───────────────────────── */
     {
@@ -75,7 +94,7 @@ export const NEHEMIAH_4: RichChapterContent = {
           kind: 'commentary',
           id: 'n4-sanballat-heard',
           html:
-            'The moment Sanballat hears that the work is real — not a rumor, but an actual reconstruction — his indignation turns violent. This is what opposition does when it discovers the opposition will not be intimidated or discouraged. The greater the work, the greater the resistance.',
+            'The moment Sanballat hears that the work is real — not a rumor, but an actual reconstruction — his indignation turns violent. This is what opposition does when it discovers the opposition will not be intimidated or discouraged. The greater the work, the greater the resistance. [res:iaa-city-david]',
         },
         {
           kind: 'commentary',

@@ -29,6 +29,25 @@ export const ESTHER_9: RichChapterContent = {
     ref: 'Esther 9 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'theoi-herodotus',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Herodotus on Xerxes I',
+      url: 'https://www.theoi.com/Text/HerodotusHistories.html',
+      description: 'Herodotus accounts of Xerxes, Persian court intrigues, and royal authority.',
+    },
+    {
+      id: 'sefaria-megillah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Megillat Esther',
+      url: 'https://www.sefaria.org/Megillat_Esther',
+      description: 'Sefaria Hebrew text with medieval commentary on the Esther scroll.',
+    },
+  ],
+
   sections: [
     /* ─── Esther 9:1–10 — The Day of Reckoning ──────────────────────────── */
     {
@@ -65,7 +84,7 @@ export const ESTHER_9: RichChapterContent = {
           kind: 'commentary',
           id: 'esther-9-vengeance-allowed',
           html:
-            'Permission granted. Fear seizes the land. Jews defend themselves. Seventy-five thousand enemies fall. What Haman plotted—their death—becomes his own people&apos;s doom. Justice turns the knife back.',
+            'Permission granted. Fear seizes the land. Jews defend themselves. Seventy-five thousand enemies fall. What Haman plotted—their death—becomes his own people&apos;s doom. Justice turns the knife back. [res:theoi-herodotus]',
         },
         {
           kind: 'scripture',

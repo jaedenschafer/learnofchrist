@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 11 — the Tower of Babel and the narrowing toward Abram.
+ * Genesis 11 - the Tower of Babel and the narrowing toward Abram.
  *
  * The chapter closes the prehistory. Unified humanity attempts to build a tower
  * to heaven and make a name for themselves. God scatters them by language.
@@ -15,15 +15,15 @@ export const GENESIS_11: RichChapterContent = {
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 14 },
   intros: [
-    'Genesis 11 closes the prehistory. Two chapters ago, humanity was scattered by the flood — only Noah and his sons remained. Now they are gathered again, speaking one language, moving as one. And in their unity, they dream an audacious dream: a tower whose top reaches into heaven, a name for themselves that cannot be forgotten.',
+    'Genesis 11 closes the prehistory. Two chapters ago, humanity was scattered by the flood - only Noah and his sons remained. Now they are gathered again, speaking one language, moving as one. And in their unity, they dream an audacious dream: a tower whose top reaches into heaven, a name for themselves that cannot be forgotten.',
     'The chapter has two halves. The first nine verses are a judgment story: God sees the pride, comes down, scatters the people by breaking their language. The next twenty-three verses are a genealogy, not a punishment. A quiet narrowing. From the line of Shem, God picks one family. From that family, one man. From that man, a whole new story will begin.',
-    'This is where the Bible begins to narrow. The first eleven chapters span creation, the Fall, the flood, and the reshaping of humanity itself. After Genesis 11, the lens tightens. Everything to come — three thousand years of history — will move toward one family, one nation, one king, one redemptive moment. Genesis 11 is the hinge.',
+    'This is where the Bible begins to narrow. The first eleven chapters span creation, the Fall, the flood, and the reshaping of humanity itself. After Genesis 11, the lens tightens. Everything to come - three thousand years of history - will move toward one family, one nation, one king, one redemptive moment. Genesis 11 is the hinge.',
   ],
 
   sections: [
-    /* ─── Genesis 11:1–4 — The Tower and the City ──────────────────────── */
+    /* ─── Genesis 11:1-4 - The Tower and the City ──────────────────────── */
     {
-      ref: 'Genesis 11:1–4',
+      ref: 'Genesis 11:1-4',
       title: 'The Tower and the City',
       blocks: [
         {
@@ -65,22 +65,22 @@ export const GENESIS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'c-one-language',
           html:
-            'One language. One speech. The text emphasizes unity. After the flood splintered the world by family and ethnic line, humanity is reassembled, speaking in unison. But unity without wisdom is not a blessing. They move toward a common purpose, but that purpose is not obedience to God — it is self-made permanence[res:sefaria-genesis-11][res:britishmuseum-ziggurat].',
+            'One language. One speech. The text emphasizes unity. After the flood splintered the world by family and ethnic line, humanity is reassembled, speaking in unison. But unity without wisdom is not a blessing. They move toward a common purpose, but that purpose is not obedience to God - it is self-made permanence[res:sefaria-genesis-11][res:britishmuseum-ziggurat].',
         },
         {
           kind: 'commentary',
           id: 'c-make-brick',
           html:
-            'The work is practical, even impressive. Baked brick and bitumen mortar — real technique, real engineering. This is not a fantasy tower. This is what humans can do when they organize labor and resources. The problem is not the craft; it is the heart. They build not to glorify God, but to glorify themselves[res:bibleodyssey-babel-tongues].',
+            'The work is practical, even impressive. Baked brick and bitumen mortar - real technique, real engineering. This is not a fantasy tower. This is what humans can do when they organize labor and resources. The problem is not the craft; it is the heart. They build not to glorify God, but to glorify themselves[res:bibleodyssey-babel-tongues].',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-shem',
-          title: 'Shem — &ldquo;name&rdquo;',
+          title: 'Shem - &ldquo;name&rdquo;',
           script: 'שֵׁם',
           translit: '<strong>shem</strong> · a name, reputation, renown',
           description:
-            'The word is both a common noun (<em>shem</em>, a name) and the proper name of one of Noah&apos;s sons. The tower-builders want to <em>make us a shem</em> — secure a name, immortalize themselves. But the chapter will then follow the line of <em>Shem</em> himself, and in that line, God will do what the builders could not: establish a <em>name</em> that truly endures. The wordplay is deliberate.',
+            'The word is both a common noun (<em>shem</em>, a name) and the proper name of one of Noah&apos;s sons. The tower-builders want to <em>make us a shem</em> - secure a name, immortalize themselves. But the chapter will then follow the line of <em>Shem</em> himself, and in that line, God will do what the builders could not: establish a <em>name</em> that truly endures. The wordplay is deliberate.',
         },
         {
           kind: 'commentary',
@@ -91,7 +91,7 @@ export const GENESIS_11: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'When you sense that your security depends on your reputation — on making a <em>name</em> for yourself that will not be forgotten — you are building a tower. The ambition itself is not wicked. But when it is not rooted in obedience to God, it becomes a form of idolatry. Your name matters only because God knows it. Everything you build to secure yourself will eventually scatter. The only enduring <em>name</em> is the one God gives.',
+            'When you sense that your security depends on your reputation - on making a <em>name</em> for yourself that will not be forgotten - you are building a tower. The ambition itself is not wicked. But when it is not rooted in obedience to God, it becomes a form of idolatry. Your name matters only because God knows it. Everything you build to secure yourself will eventually scatter. The only enduring <em>name</em> is the one God gives.',
         },
         {
           kind: 'reflection',
@@ -101,9 +101,9 @@ export const GENESIS_11: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 11:5–9 — God Comes Down ──────────────────────────────── */
+    /* ─── Genesis 11:5-9 - God Comes Down ──────────────────────────────── */
     {
-      ref: 'Genesis 11:5–9',
+      ref: 'Genesis 11:5-9',
       title: 'God Comes Down',
       blocks: [
         {
@@ -165,32 +165,32 @@ export const GENESIS_11: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-balal',
-          title: 'Balal — &ldquo;to confound&rdquo;',
+          title: 'Balal - &ldquo;to confound&rdquo;',
           script: 'בָּלַל',
           translit: '<strong>balal</strong> · to confuse, to jumble, to scatter the sense of',
           description:
-            'Babel (<em>Bavel</em>) comes from this root. The Babylonians called their city <em>Bab-el</em>, &ldquo;the gate of god.&rdquo; But Genesis turns the sound into a verb of judgment. <em>Balal</em> — to confuse, to jumble. The same syllables the Babylonians heard as divine grandeur, Genesis hears as divine judgment. Power and pride sound grand until God speaks.',
+            'Babel (<em>Bavel</em>) comes from this root. The Babylonians called their city <em>Bab-el</em>, &ldquo;the gate of god.&rdquo; But Genesis turns the sound into a verb of judgment. <em>Balal</em> - to confuse, to jumble. The same syllables the Babylonians heard as divine grandeur, Genesis hears as divine judgment. Power and pride sound grand until God speaks.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-babel',
-          title: 'Babel — &ldquo;confusion&rdquo;',
+          title: 'Babel - &ldquo;confusion&rdquo;',
           script: 'בָּבֶל',
           translit: '<strong>Babel</strong> · confusion (wordplay on <em>balal</em>, to confuse)',
           description:
-            'The city name becomes a monument to judgment rather than achievement. What the builders meant as a gate to heaven becomes forever marked as a place of confusion. The wordplay is intentional: the same city the pagans celebrate as <em>Bab-el</em> is recorded in scripture as the place where <em>balal</em> happened — where God confused the languages and scattered the proud.',
+            'The city name becomes a monument to judgment rather than achievement. What the builders meant as a gate to heaven becomes forever marked as a place of confusion. The wordplay is intentional: the same city the pagans celebrate as <em>Bab-el</em> is recorded in scripture as the place where <em>balal</em> happened - where God confused the languages and scattered the proud.',
         },
         {
           kind: 'christ',
           id: 'christ-babel-pentecost',
-          title: 'Christ Connection — Babel Reversed',
+          title: 'Christ Connection - Babel Reversed',
           html:
-            'Babel is the judgment of linguistic division. God scatters. But on the day of Pentecost, two thousand years into the future, the same God reverses the judgment. Believers from every nation hear the gospel <em>in their own tongue</em>: &ldquo;How hear we every man in our own language wherein we were born?&rdquo; (Acts 2:8). Where Babel scatters and confuses, Pentecost gathers and clarifies. And how does it happen? God sends His Spirit (Acts 2:4) — the same Spirit hovering over the chaos at creation. Christ does not build a higher tower. He rebuilds the broken unity, not by crushing diversity, but by making every voice hear the gospel in its own language. Where Babel says &ldquo;Let us make a name for ourselves,&rdquo; Pentecost says &ldquo;Let every nation call on the name of Jesus.&rdquo;',
+            'Babel is the judgment of linguistic division. God scatters. But on the day of Pentecost, two thousand years into the future, the same God reverses the judgment. Believers from every nation hear the gospel <em>in their own tongue</em>: &ldquo;How hear we every man in our own language wherein we were born?&rdquo; (Acts 2:8). Where Babel scatters and confuses, Pentecost gathers and clarifies. And how does it happen? God sends His Spirit (Acts 2:4) - the same Spirit hovering over the chaos at creation. Christ does not build a higher tower. He rebuilds the broken unity, not by crushing diversity, but by making every voice hear the gospel in its own language. Where Babel says &ldquo;Let us make a name for ourselves,&rdquo; Pentecost says &ldquo;Let every nation call on the name of Jesus.&rdquo;',
         },
         {
           kind: 'carry',
           html:
-            'God does not punish the people of Babel by destroying them. He scatters them. Breaking their unity — their ability to act as one — is itself the mercy. It stops them before their unified pride commits atrocities that echoes through history. Fragmentation, difference, the difficulty of understanding one another — these are sometimes not curses, but gifts. They slow us down. They require us to listen. They prevent any single voice from monopolizing power.',
+            'God does not punish the people of Babel by destroying them. He scatters them. Breaking their unity - their ability to act as one - is itself the mercy. It stops them before their unified pride commits atrocities that echoes through history. Fragmentation, difference, the difficulty of understanding one another - these are sometimes not curses, but gifts. They slow us down. They require us to listen. They prevent any single voice from monopolizing power.',
         },
         {
           kind: 'reflection',
@@ -200,9 +200,9 @@ export const GENESIS_11: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 11:10–26 — The Line of Shem ────────────────────────── */
+    /* ─── Genesis 11:10-26 - The Line of Shem ────────────────────────── */
     {
-      ref: 'Genesis 11:10–26',
+      ref: 'Genesis 11:10-26',
       title: 'The Line Narrows: Shem to Terah',
       blocks: [
         {
@@ -239,7 +239,7 @@ export const GENESIS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'gen11-eber-bridge',
           html:
-            'Eber emerges as the turning point. From Shem through Arphaxad and Salah comes Eber, whose name means "the other side"—the one who stands at the threshold. The generations before him lived hundreds of years, but now lifespans are shortening. What matters is not the length of any single life, but the unbroken link: each father begets a son who will carry the promise forward.',
+            'Eber emerges as the turning point. From Shem through Arphaxad and Salah comes Eber, whose name means "the other side"-the one who stands at the threshold. The generations before him lived hundreds of years, but now lifespans are shortening. What matters is not the length of any single life, but the unbroken link: each father begets a son who will carry the promise forward.',
         },
         {
           kind: 'scripture',
@@ -275,7 +275,7 @@ export const GENESIS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'gen11-line-narrows',
           html:
-            'Notice how the lifespans keep dropping — Eber 464, Peleg 239, Reu 239, Serug 230, Nahor 148. The world after Babel is a smaller world. But the line does not break. Each father hands the promise to a son, and the camera keeps tightening toward Terah&apos;s house.',
+            'Notice how the lifespans keep dropping - Eber 464, Peleg 239, Reu 239, Serug 230, Nahor 148. The world after Babel is a smaller world. But the line does not break. Each father hands the promise to a son, and the camera keeps tightening toward Terah&apos;s house.',
         },
         {
           kind: 'scripture',
@@ -307,7 +307,7 @@ export const GENESIS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'gen11-genealogy',
           html:
-            'After Babel scatters humanity, the text zooms in. From all the nations of the earth, we follow <em>one line</em>. Shem. Then Arphaxad. Then Salah. Then the narrowing continues, generation by generation, each grandfather handing the promise down to his son. Each begat and lived and died — the same pattern through Genesis 5, a rhythm like a heartbeat. But behind the genealogy is a purpose. God is not done with humanity. He will start again, with one man, in one place, for one covenant.',
+            'After Babel scatters humanity, the text zooms in. From all the nations of the earth, we follow <em>one line</em>. Shem. Then Arphaxad. Then Salah. Then the narrowing continues, generation by generation, each grandfather handing the promise down to his son. Each begat and lived and died - the same pattern through Genesis 5, a rhythm like a heartbeat. But behind the genealogy is a purpose. God is not done with humanity. He will start again, with one man, in one place, for one covenant.',
         },
         {
           kind: 'commentary',
@@ -318,7 +318,7 @@ export const GENESIS_11: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'You are a link in a chain. Not the beginning, not the end, but one generation standing between the promises God made to your ancestors and the future your children will inhabit. The genealogy can feel dry — just names and ages — until you recognize it as a love story. Every single name here is someone who received the promise from the past and passed it to the future. Whatever you do to faithfully hand the story forward, to teach the next generation what God has done, is the same work as Shem, Arphaxad, and Terah.',
+            'You are a link in a chain. Not the beginning, not the end, but one generation standing between the promises God made to your ancestors and the future your children will inhabit. The genealogy can feel dry - just names and ages - until you recognize it as a love story. Every single name here is someone who received the promise from the past and passed it to the future. Whatever you do to faithfully hand the story forward, to teach the next generation what God has done, is the same work as Shem, Arphaxad, and Terah.',
         },
         {
           kind: 'reflection',
@@ -328,9 +328,9 @@ export const GENESIS_11: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 11:27–32 — Terah Leaves Ur ─────────────────────────── */
+    /* ─── Genesis 11:27-32 - Terah Leaves Ur ─────────────────────────── */
     {
-      ref: 'Genesis 11:27–32',
+      ref: 'Genesis 11:27-32',
       title: 'Terah Begins the Journey',
       blocks: [
         {
@@ -381,7 +381,7 @@ export const GENESIS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'c-three-sons',
           html:
-            'Three sons: Abram, Nahor, Haran. Haran will be dead before Terah. Nahor will settle in the land of his birth. But Abram — the youngest, the unlikely one — will become the carrier of the promise. This pattern echoes through scripture: Isaac over Ishmael, Jacob over Esau, Judah over the firstborn. God does not choose based on birth order. He chooses based on covenant purpose.',
+            'Three sons: Abram, Nahor, Haran. Haran will be dead before Terah. Nahor will settle in the land of his birth. But Abram - the youngest, the unlikely one - will become the carrier of the promise. This pattern echoes through scripture: Isaac over Ishmael, Jacob over Esau, Judah over the firstborn. God does not choose based on birth order. He chooses based on covenant purpose.',
         },
         {
           kind: 'commentary',
@@ -393,14 +393,14 @@ export const GENESIS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'gen11-ur',
           html:
-            'Ur of the Chaldees. One of the great cities of the ancient world. Terah makes a decision that will reshape history: he leaves. He takes Abram, Sarai, Lot, and turns toward Canaan — a land he has never seen, with no promise yet spoken, no covenant yet signed. This is not a man following God&apos;s explicit command (that comes in Genesis 12). This is a man beginning to move. Genesis 12:1 will tell Abram to <em>go</em>; Genesis 11:31 shows Terah already going. Sometimes faith begins before the word is fully spoken.',
+            'Ur of the Chaldees. One of the great cities of the ancient world. Terah makes a decision that will reshape history: he leaves. He takes Abram, Sarai, Lot, and turns toward Canaan - a land he has never seen, with no promise yet spoken, no covenant yet signed. This is not a man following God&apos;s explicit command (that comes in Genesis 12). This is a man beginning to move. Genesis 12:1 will tell Abram to <em>go</em>; Genesis 11:31 shows Terah already going. Sometimes faith begins before the word is fully spoken.',
         },
         {
           kind: 'christ',
           id: 'christ-promise-land',
-          title: 'Christ Connection — The Promised Land Journey',
+          title: 'Christ Connection - The Promised Land Journey',
           html:
-            'Abram leaves the city of man — Ur, with its towers and temples — to go toward a land he has never seen. This is the first step of the pilgrimage that will define the rest of scripture. Hebrews 11:10 reflects on this moment: Abram <em>looked for a city which hath foundations, whose builder and maker is God</em>. He left a city built by human hands to seek a city built by God. Revelation ends the same way: the holy city, the New Jerusalem, comes down from God, not built by human ambition but given as a gift. The entire arc of scripture is the story of humanity learning to leave the cities they build and enter the city God builds.',
+            'Abram leaves the city of man - Ur, with its towers and temples - to go toward a land he has never seen. This is the first step of the pilgrimage that will define the rest of scripture. Hebrews 11:10 reflects on this moment: Abram <em>looked for a city which hath foundations, whose builder and maker is God</em>. He left a city built by human hands to seek a city built by God. Revelation ends the same way: the holy city, the New Jerusalem, comes down from God, not built by human ambition but given as a gift. The entire arc of scripture is the story of humanity learning to leave the cities they build and enter the city God builds.',
         },
         {
           kind: 'carry',
@@ -410,12 +410,12 @@ export const GENESIS_11: RichChapterContent = {
         {
           kind: 'reflection',
           id: 'gen11-leave',
-          prompt: 'What are you being asked to leave? What land — what future with God — are you being called to move toward, even without seeing the whole path?',
+          prompt: 'What are you being asked to leave? What land - what future with God - are you being called to move toward, even without seeing the whole path?',
         },
         {
           kind: 'artwork',
           matchTitle: /babel|tower|babylon/i,
-          caption: 'Genesis 11:1–9 · God Comes Down',
+          caption: 'Genesis 11:1-9 · God Comes Down',
         },
       ],
     },

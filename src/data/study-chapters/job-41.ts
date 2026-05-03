@@ -25,6 +25,17 @@ export const JOB_41: RichChapterContent = {
     ref: 'Job 41 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-job-hebrew',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Job: Hebrew Text and Terms',
+      url: 'https://www.sefaria.org/Job',
+      description: 'Sefaria Hebrew text with notes on rare terms and wisdom vocabulary.',
+    },
+  ],
+
   sections: [
     /* ─── Job 41:1–11 — The Creature That Cannot Be Tamed ────────────── */
     {
@@ -46,7 +57,7 @@ export const JOB_41: RichChapterContent = {
           kind: 'commentary',
           id: 'job41-mid1',
           html:
-            'Leviathan will not negotiate. He will not agree to serve. You cannot toy with him or make him into a pet. He refuses every human attempt to control, to use, to bend to your will. He is the refusal incarnate.',
+            'Leviathan will not negotiate. He will not agree to serve. You cannot toy with him or make him into a pet. He refuses every human attempt to control, to use, to bend to your will. He is the refusal incarnate. [res:sefaria-job-hebrew]',
         },
         {
           kind: 'scripture',

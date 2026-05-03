@@ -25,6 +25,17 @@ export const JOB_29: RichChapterContent = {
     ref: 'Job 29 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     /* ─── Job 29:1–6 — The Light That Shined ─────────────────────────── */
     {
@@ -47,7 +58,7 @@ export const JOB_29: RichChapterContent = {
           kind: 'commentary',
           id: 'job29-candle',
           html:
-            'Job remembers a time when God&apos;s favor rested on him like a candle shining on his head. This is not merely blessing—this is visible, tangible, illuminating. God&apos;s presence was not hidden but evident. By that light, Job walked through darkness unafraid. The image suggests not only blessing but guidance, not only wealth but divine guidance.',
+            'Job remembers a time when God&apos;s favor rested on him like a candle shining on his head. This is not merely blessing—this is visible, tangible, illuminating. God&apos;s presence was not hidden but evident. By that light, Job walked through darkness unafraid. The image suggests not only blessing but guidance, not only wealth but divine guidance. [res:british-museum-ludlul]',
         },
         {
           kind: 'hebrew',

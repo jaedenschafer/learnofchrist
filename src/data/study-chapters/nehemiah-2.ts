@@ -34,6 +34,17 @@ export const NEHEMIAH_2: RichChapterContent = {
     ref: 'Nehemiah 2 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-city-david',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA ongoing dig revealing Iron Age and Persian period Jerusalem structures.',
+    },
+  ],
+
   sections: [
     /* ─── Nehemiah 2:1–5 — The King's Question & Instant Prayer ──────────── */
     {
@@ -55,7 +66,7 @@ export const NEHEMIAH_2: RichChapterContent = {
           kind: 'commentary',
           id: 'countenance-sad',
           html:
-            'Nehemiah has been a trusted servant in the king&apos;s household — "the king&apos;s cupbearer" is his title, a position of intimacy and responsibility. But on this day, his heart is too heavy to hide. The king notices what Nehemiah perhaps hoped to conceal. And in that moment of exposure, Nehemiah must decide: speak, or remain silent. He chooses to speak the truth. "The city, the place of my fathers&apos; sepulchres, lieth waste." His sorrow is not personal indulgence — it is devotion to something larger than himself.',
+            'Nehemiah has been a trusted servant in the king&apos;s household — "the king&apos;s cupbearer" is his title, a position of intimacy and responsibility. But on this day, his heart is too heavy to hide. The king notices what Nehemiah perhaps hoped to conceal. And in that moment of exposure, Nehemiah must decide: speak, or remain silent. He chooses to speak the truth. "The city, the place of my fathers&apos; sepulchres, lieth waste." His sorrow is not personal indulgence — it is devotion to something larger than himself. [res:iaa-city-david]',
         },
         {
           kind: 'commentary',

@@ -31,6 +31,17 @@ export const JOB_23: RichChapterContent = {
     ref: 'Job 23 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     /* ─── Job 23:1–9 — The Longing for God ───────────────────────────── */
     {
@@ -58,7 +69,7 @@ export const JOB_23: RichChapterContent = {
           kind: 'commentary',
           id: 'job23-complaint-distance',
           html:
-            'Job moves from seeking God to the terror of not finding Him. Complaint becomes fear of abandonment.',
+            'Job moves from seeking God to the terror of not finding Him. Complaint becomes fear of abandonment. [res:british-museum-ludlul]',
         },
         {
           kind: 'scripture',

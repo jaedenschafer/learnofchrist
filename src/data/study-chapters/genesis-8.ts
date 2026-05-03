@@ -1,9 +1,9 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 8 — the turning of the flood, where God remembers Noah and mercy
+ * Genesis 8 - the turning of the flood, where God remembers Noah and mercy
  * breaks through the waters. The chapter is a portrait of judgment ending and
- * covenant beginning—the pattern that will repeat through all Scripture.
+ * covenant beginning-the pattern that will repeat through all Scripture.
  */
 export const GENESIS_8: RichChapterContent = {
   bookSlug: 'genesis',
@@ -12,13 +12,13 @@ export const GENESIS_8: RichChapterContent = {
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
   intros: [
-    'Genesis 7 is all weight—five weeks of rain, the waters rising, everything breathing creature dying in the flood. Genesis 8 opens with a single sentence that turns the entire narrative: <em>"God remembered Noah."</em> Not that God had forgotten, but that He stopped the judgment. The one person He was keeping alive, the one ark, the one family—God&apos;s covenant memory reaches down through the deep waters, and suddenly the flood is not endless. Genesis 8 is the moment judgment becomes mercy, and it will be the hinge on which the whole Bible turns.',
-    'The chapter follows Noah through the long unbecoming: the ark rests on Ararat, Noah sends out a raven and then a dove, the waters recede, the earth dries, God tells him to come out. And when Noah steps onto the new world, the first thing he does is build an altar. God smells the sweet savour of the sacrifice and makes a vow: Never again will He curse the ground for humanity&apos;s sake. The flood was judgment for sin. What comes after the flood is grace—the promise that judgment will not have the last word.',
+    'Genesis 7 is all weight-five weeks of rain, the waters rising, everything breathing creature dying in the flood. Genesis 8 opens with a single sentence that turns the entire narrative: <em>"God remembered Noah."</em> Not that God had forgotten, but that He stopped the judgment. The one person He was keeping alive, the one ark, the one family-God&apos;s covenant memory reaches down through the deep waters, and suddenly the flood is not endless. Genesis 8 is the moment judgment becomes mercy, and it will be the hinge on which the whole Bible turns.',
+    'The chapter follows Noah through the long unbecoming: the ark rests on Ararat, Noah sends out a raven and then a dove, the waters recede, the earth dries, God tells him to come out. And when Noah steps onto the new world, the first thing he does is build an altar. God smells the sweet savour of the sacrifice and makes a vow: Never again will He curse the ground for humanity&apos;s sake. The flood was judgment for sin. What comes after the flood is grace-the promise that judgment will not have the last word.',
   ],
 
   bottomShare: {
     label: 'Share Genesis 8',
-    quote: 'God remembered Noah and the waters receded. Noah built an altar, offered sacrifices, and God swore never again to curse the ground because of humanity—judgment ended, and mercy was sworn by covenant.',
+    quote: 'God remembered Noah and the waters receded. Noah built an altar, offered sacrifices, and God swore never again to curse the ground because of humanity-judgment ended, and mercy was sworn by covenant.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 8 · Study Guide',
   },
@@ -51,9 +51,9 @@ export const GENESIS_8: RichChapterContent = {
   ],
 
   sections: [
-    /* ─── Genesis 8:1–5 — God Remembered Noah ────────────────────────── */
+    /* ─── Genesis 8:1-5 - God Remembered Noah ────────────────────────── */
     {
-      ref: 'Genesis 8:1–5',
+      ref: 'Genesis 8:1-5',
       title: 'God Remembered Noah',
       blocks: [
         {
@@ -102,12 +102,12 @@ export const GENESIS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'gen8-zakhar',
           html:
-            'The hinge of the flood narrative: God <em>remembered</em> Noah. In Hebrew, to remember is not passive—it is to act on what one remembers, to turn memory into movement. God&apos;s covenant name, Yahweh, is built on the logic of remembrance; it means "the One who will be there, who keeps His word." The only time judgment is lifted in Scripture is when God&apos;s memory of His covenant shows up. Judgment ends not because the earth has become sinless, but because God has remembered His promise[res:sefaria-genesis-8][res:intertextual-flood-covenant].',
+            'The hinge of the flood narrative: God <em>remembered</em> Noah. In Hebrew, to remember is not passive-it is to act on what one remembers, to turn memory into movement. God&apos;s covenant name, Yahweh, is built on the logic of remembrance; it means "the One who will be there, who keeps His word." The only time judgment is lifted in Scripture is when God&apos;s memory of His covenant shows up. Judgment ends not because the earth has become sinless, but because God has remembered His promise[res:sefaria-genesis-8][res:intertextual-flood-covenant].',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-zakhar',
-          title: 'Zakhar — &ldquo;remembered&rdquo;',
+          title: 'Zakhar - &ldquo;remembered&rdquo;',
           script: 'זָכַר',
           translit: '<strong>zakhar</strong> · to remember, to keep in mind, to act in covenant',
           description:
@@ -122,7 +122,7 @@ export const GENESIS_8: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'The moment when judgment turns to mercy is a single sentence: &ldquo;God remembered Noah.&rdquo; Your own story may have been the flood for a season—grief, confusion, the sense that the waters will never settle. The turning point, when it comes, is often just as simple and as quiet. God remembers His promise to you before the circumstances shift. Look for the first stirring of wind across the dark water, the smallest opening. Mercy almost always comes before the ground is dry.',
+            'The moment when judgment turns to mercy is a single sentence: &ldquo;God remembered Noah.&rdquo; Your own story may have been the flood for a season-grief, confusion, the sense that the waters will never settle. The turning point, when it comes, is often just as simple and as quiet. God remembers His promise to you before the circumstances shift. Look for the first stirring of wind across the dark water, the smallest opening. Mercy almost always comes before the ground is dry.',
         },
         {
           kind: 'reflection',
@@ -133,9 +133,9 @@ export const GENESIS_8: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 8:6–12 — The Raven and the Dove ───────────────────── */
+    /* ─── Genesis 8:6-12 - The Raven and the Dove ───────────────────── */
     {
-      ref: 'Genesis 8:6–12',
+      ref: 'Genesis 8:6-12',
       title: 'The Raven and the Dove',
       blocks: [
         {
@@ -169,8 +169,7 @@ export const GENESIS_8: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-8-78mid-1',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'The waters retreat, the earth emerges, and Noah waits. Now begins the testing--who will bring back proof of dry land?',
         },
         {
           kind: 'scripture',
@@ -208,34 +207,34 @@ export const GENESIS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'gen8-raven',
           html:
-            'The raven goes back and forth across the bare ground, unfamiliar territory, looking for something to feed on. The raven survives the new world. But the dove—the dove is different. A dove, in the Bible, will be a sign of innocence (Matt. 10:16). The dove is the bird that will descend on Jesus at His baptism (Matt. 3:16). Here is the first dove in Scripture, and she is looking for a place to land, a place of peace, and she finds nothing.',
+            'The raven goes back and forth across the bare ground, unfamiliar territory, looking for something to feed on. The raven survives the new world. But the dove-the dove is different. A dove, in the Bible, will be a sign of innocence (Matt. 10:16). The dove is the bird that will descend on Jesus at His baptism (Matt. 3:16). Here is the first dove in Scripture, and she is looking for a place to land, a place of peace, and she finds nothing.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-yonah',
-          title: 'Yonah — &ldquo;dove&rdquo;',
+          title: 'Yonah - &ldquo;dove&rdquo;',
           script: 'יוֹנָה',
           translit: '<strong>yonah</strong> · dove, a bird of gentleness and innocence',
           description:
-            'The word yonah becomes the name of a later prophet—Jonah—the man who is swallowed by a great fish and spat out onto dry land, just as this dove is sent out again and again. The first dove in Scripture is a messenger, carrying news of whether the world is yet habitable. The last dove in Scripture, in the baptism of Jesus, carries the same message: that Heaven and Earth are being made new.',
+            'The word yonah becomes the name of a later prophet-Jonah-the man who is swallowed by a great fish and spat out onto dry land, just as this dove is sent out again and again. The first dove in Scripture is a messenger, carrying news of whether the world is yet habitable. The last dove in Scripture, in the baptism of Jesus, carries the same message: that Heaven and Earth are being made new.',
         },
         {
           kind: 'commentary',
           id: 'gen8-olive',
           html:
-            'On the third sending, the dove returns with an olive leaf. Not a whole branch—a leaf, a small thing, the first green thing growing in the new world. The dove had nowhere to rest. Now she brings proof that somewhere, life is beginning again.',
+            'On the third sending, the dove returns with an olive leaf. Not a whole branch-a leaf, a small thing, the first green thing growing in the new world. The dove had nowhere to rest. Now she brings proof that somewhere, life is beginning again.',
         },
         {
           kind: 'christ',
           id: 'christ-dove',
-          title: 'Christ Connection — The Dove with the Olive Leaf',
+          title: 'Christ Connection - The Dove with the Olive Leaf',
           html:
             'In Jesus&apos; baptism, the Spirit descends on Him like a dove (Matt. 3:16). The first dove in Scripture brought an olive leaf, proof that the earth was waking. The dove in the New Testament descends on the one who will remake the earth, who will walk out of the grave, who will be the new world breaking through the old one. In Him, dry land is given back. In Him, the gentleness of the dove meets the strength that raised the dead.',
         },
         {
           kind: 'carry',
           html:
-            'The dove goes out the first time and finds nothing. The second time finds only water and sky. The third time brings back the leaf. Some of your own journeys out into the world have ended in nothing. Some have sent you back exhausted. But watch for the third time. Watch for the small green thing, the first sign that the world is waking under your feet. God&apos;s restoration is often quiet and small at first—not a whole branch, just a leaf. Enough to know that life is growing again.',
+            'The dove goes out the first time and finds nothing. The second time finds only water and sky. The third time brings back the leaf. Some of your own journeys out into the world have ended in nothing. Some have sent you back exhausted. But watch for the third time. Watch for the small green thing, the first sign that the world is waking under your feet. God&apos;s restoration is often quiet and small at first-not a whole branch, just a leaf. Enough to know that life is growing again.',
         },
         {
           kind: 'reflection',
@@ -246,14 +245,14 @@ export const GENESIS_8: RichChapterContent = {
         {
           kind: 'artwork',
           matchTitle: /dove|ark/i,
-          caption: 'Genesis 8:8–11 · The Dove Returns',
+          caption: 'Genesis 8:8-11 · The Dove Returns',
         },
       ],
     },
 
-    /* ─── Genesis 8:13–19 — Leaving the Ark ───────────────────────── */
+    /* ─── Genesis 8:13-19 - Leaving the Ark ───────────────────────── */
     {
-      ref: 'Genesis 8:13–19',
+      ref: 'Genesis 8:13-19',
       title: 'Stepping onto Dry Ground',
       blocks: [
         {
@@ -283,8 +282,7 @@ export const GENESIS_8: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-8-78mid-2',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'The dove&apos;s olive leaf ends the waiting. The world is drying-and soon Noah will step out of the ark for the first time since the rain.',
         },
         {
           kind: 'scripture',
@@ -320,7 +318,7 @@ export const GENESIS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'gen8-emerge',
           html:
-            'After a year in the ark—three hundred and seventy-five days of confinement—Noah opens the covering and sees. The earth is dry. God speaks for the first time since the flood command, and He says: Go forth. Bring every living thing out with you. Let them breed and multiply. What was contained, sealed, shut away is now commanded to open and spread across the earth again. The living begin their diaspora into a new world.',
+            'After a year in the ark-three hundred and seventy-five days of confinement-Noah opens the covering and sees. The earth is dry. God speaks for the first time since the flood command, and He says: Go forth. Bring every living thing out with you. Let them breed and multiply. What was contained, sealed, shut away is now commanded to open and spread across the earth again. The living begin their diaspora into a new world.',
         },
         {
           kind: 'carry',
@@ -331,14 +329,14 @@ export const GENESIS_8: RichChapterContent = {
           kind: 'reflection',
           id: 'gen8-forth',
           prompt:
-            'What have you been holding in confinement—a gift, a calling, a relationship? What would it look like to open the covering and send it forth to multiply in the world?',
+            'What have you been holding in confinement-a gift, a calling, a relationship? What would it look like to open the covering and send it forth to multiply in the world?',
         },
       ],
     },
 
-    /* ─── Genesis 8:20–22 — Noah's Altar and God's Promise ────────── */
+    /* ─── Genesis 8:20-22 - Noah's Altar and God's Promise ────────── */
     {
-      ref: 'Genesis 8:20–22',
+      ref: 'Genesis 8:20-22',
       title: 'The Sweet Savour and God&apos;s Oath',
       blocks: [
         {
@@ -377,12 +375,12 @@ export const GENESIS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'gen8-altar',
           html:
-            'The first thing Noah does after stepping out of the ark is not to plant a field or build a house. He builds an altar. He takes the clean animals—the ones that were meant for sacrifice, the ones he cannot keep—and he offers them to God. The flood has just destroyed the world, and Noah&apos;s response is gratitude. Worship comes before survival.',
+            'The first thing Noah does after stepping out of the ark is not to plant a field or build a house. He builds an altar. He takes the clean animals-the ones that were meant for sacrifice, the ones he cannot keep-and he offers them to God. The flood has just destroyed the world, and Noah&apos;s response is gratitude. Worship comes before survival.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-reach',
-          title: 'Reach hannichoach — &ldquo;sweet savour&rdquo;',
+          title: 'Reach hannichoach - &ldquo;sweet savour&rdquo;',
           script: 'רֵיחַ הַנִּיחֹחַ',
           translit: '<strong>reach</strong> · scent, smell / <strong>nichoach</strong> · sweet, restful, pleasing',
           description:
@@ -397,25 +395,25 @@ export const GENESIS_8: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-savour',
-          title: 'Christ Connection — The Final Sweet Savour',
+          title: 'Christ Connection - The Final Sweet Savour',
           html:
             'Paul writes: &ldquo;Christ also hath loved us, and hath given himself for us an offering and a sacrifice to God for a <em>sweetsmelling savour</em>&rdquo; (Eph. 5:2). Noah&apos;s burnt offering on the dirt rises as a sweet smell to Heaven, and God swears mercy. Christ&apos;s sacrifice on the hill rises as the same savour, and God the Father swears that sin has been forgiven, that death has been defeated, that the curse is being lifted forever. What Noah offered on an altar of stone, Christ offered with His body. What brought a one-time reprieve, brought an eternal covenant.',
         },
         {
           kind: 'carry',
           html:
-            'Noah did not build an altar because God demanded it. He built it because his heart knew that gratitude was the only appropriate response to grace. This week, notice what gets your first fruits—not the urgent, not the practical, but what you offer first to God. A morning before your phone. A meal with your family before scrolling. An hour of rest before productivity. These small altars tell the truth of what you believe about grace. God smells them, and they are a sweet savour to Him.',
+            'Noah did not build an altar because God demanded it. He built it because his heart knew that gratitude was the only appropriate response to grace. This week, notice what gets your first fruits-not the urgent, not the practical, but what you offer first to God. A morning before your phone. A meal with your family before scrolling. An hour of rest before productivity. These small altars tell the truth of what you believe about grace. God smells them, and they are a sweet savour to Him.',
         },
         {
           kind: 'reflection',
           id: 'gen8-altar-reflection',
           prompt:
-            'What would it look like for you to build an altar first—to give God your first fruits, your first thought, your first hour of the day—before you give them to anything else?',
+            'What would it look like for you to build an altar first-to give God your first fruits, your first thought, your first hour of the day-before you give them to anything else?',
         },
         {
           kind: 'artwork',
           matchTitle: /noah|altar/i,
-          caption: 'Genesis 8:20–22 · Noah&apos;s Altar',
+          caption: 'Genesis 8:20-22 · Noah&apos;s Altar',
         },
       ],
     },

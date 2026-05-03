@@ -35,6 +35,17 @@ export const CHRONICLES_1_17: RichChapterContent = {
     ref: '1 Chronicles 17 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-david-kingdom',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'David and the Iron Age Kingdom',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Artifacts and inscriptions illuminating the Davidic monarchy and administration.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 17:1–3 — David's Desire to Build ──────────────────── */
     {
@@ -61,7 +72,7 @@ export const CHRONICLES_1_17: RichChapterContent = {
           kind: 'commentary',
           id: 'c-cedars',
           html:
-            'Cedar—the wood of the wealthy and the enduring. David&apos;s house is not merely a shelter; it is a statement. Permanent. Valuable. Secure. And yet the most sacred object in Israel, the very seat of God&apos;s presence, dwells in cloth and rope.',
+            'Cedar—the wood of the wealthy and the enduring. David&apos;s house is not merely a shelter; it is a statement. Permanent. Valuable. Secure. And yet the most sacred object in Israel, the very seat of God&apos;s presence, dwells in cloth and rope. [res:british-museum-david-kingdom]',
         },
         {
           kind: 'commentary',

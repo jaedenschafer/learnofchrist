@@ -31,6 +31,17 @@ export const CHRONICLES_1_23: RichChapterContent = {
     ref: '1 Chronicles 23 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-david',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'David in the Ancient Near East',
+      url: 'https://www.britishmuseum.org/',
+      description: 'British Museum collections on Iron Age Levantine kingdoms and David.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 23:1 — David Old and Full of Days ──────────────── */
     {
@@ -51,7 +62,7 @@ export const CHRONICLES_1_23: RichChapterContent = {
           kind: 'commentary',
           id: 'david-old-full',
           html:
-            'David is described as "old and full of days" — a phrase that carries weight in Scripture. He has lived a full life: a shepherd, a warrior, a king who danced before the ark, a man who knew exile and triumph. His work is largely done. But before he rests, he ensures that what he has built will endure. The succession of Solomon is not merely a political act; it is an act of faith. David passes the throne to his son and, with it, the responsibility to build the house of the Lord.',
+            'David is described as "old and full of days" — a phrase that carries weight in Scripture. He has lived a full life: a shepherd, a warrior, a king who danced before the ark, a man who knew exile and triumph. His work is largely done. But before he rests, he ensures that what he has built will endure. The succession of Solomon is not merely a political act; it is an act of faith. David passes the throne to his son and, with it, the responsibility to build the house of the Lord. [res:british-museum-david]',
         },
         {
           kind: 'commentary',

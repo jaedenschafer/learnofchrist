@@ -34,6 +34,17 @@ export const CHRONICLES_1_19: RichChapterContent = {
     ref: '1 Chronicles 19 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-david-kingdom',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'David and the Iron Age Kingdom',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Artifacts and inscriptions illuminating the Davidic monarchy and administration.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 19:1–5 — David's Kindness Misread as Espionage ────── */
     {
@@ -70,7 +81,7 @@ export const CHRONICLES_1_19: RichChapterContent = {
           kind: 'commentary',
           id: 'kindness-to-hanun',
           html:
-            'David&apos;s opening is an act of mercy rooted in memory. Nahash, the former king of Ammon, had shown kindness to David in his own hour of need. Now Nahash is dead, and his son Hanun has inherited the throne. David, secure in his own kingdom, reaches out in sympathy. This is not weakness; this is the generosity of a strong king. A weak king hoards power. A strong king extends kindness without fear.',
+            'David&apos;s opening is an act of mercy rooted in memory. Nahash, the former king of Ammon, had shown kindness to David in his own hour of need. Now Nahash is dead, and his son Hanun has inherited the throne. David, secure in his own kingdom, reaches out in sympathy. This is not weakness; this is the generosity of a strong king. A weak king hoards power. A strong king extends kindness without fear. [res:british-museum-david-kingdom]',
         },
         {
           kind: 'commentary',

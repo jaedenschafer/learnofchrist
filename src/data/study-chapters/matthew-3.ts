@@ -41,7 +41,7 @@ export const MATTHEW_3: RichChapterContent = {
           kind: 'commentary',
           id: 'matthew-3-78mid-1',
           html:
-            'John baptizes crowds as a sign of repentance; now Jesus Himself steps into the waters. The forerunner's work is completed; the one he announced has come.',
+            'John baptizes crowds as a sign of repentance; now Jesus Himself steps into the waters. The forerunner&apos;s work is completed; the one he announced has come.',
         },
         {
           kind: 'scripture',

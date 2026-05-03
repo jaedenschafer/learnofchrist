@@ -33,6 +33,17 @@ export const CHRONICLES_1_29: RichChapterContent = {
     ref: '1 Chronicles 29 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-david',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'David in the Ancient Near East',
+      url: 'https://www.britishmuseum.org/',
+      description: 'British Museum collections on Iron Age Levantine kingdoms and David.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 29:1–5 — David's Challenge ───────────────────────── */
     {
@@ -53,7 +64,7 @@ export const CHRONICLES_1_29: RichChapterContent = {
           kind: 'commentary',
           id: 'great-work',
           html:
-            'David stands before all Israel and frames the work with two truths. First, Solomon is young — "yet young and tender." The work is not easy, and the crown passes to one with much to learn. Second, and more importantly, "the palace is not for man, but for the Lord God." The house being built is not a monument to human achievement. It is a dwelling place for the living God. This reframing is everything. What might seem like a mighty building project becomes an act of worship.',
+            'David stands before all Israel and frames the work with two truths. First, Solomon is young — "yet young and tender." The work is not easy, and the crown passes to one with much to learn. Second, and more importantly, "the palace is not for man, but for the Lord God." The house being built is not a monument to human achievement. It is a dwelling place for the living God. This reframing is everything. What might seem like a mighty building project becomes an act of worship. [res:british-museum-david]',
         },
         {
           kind: 'commentary',

@@ -32,6 +32,17 @@ export const CHRONICLES_1_10: RichChapterContent = {
     ref: '1 Chronicles 10 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-tribal-lists',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Tribal Genealogies and Borders',
+      url: 'https://www.sefaria.org/search?q=tribe+israel&tab=text',
+      description: 'Sefaria resources on the twelve tribes, genealogies, and territorial divisions.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 10:1–7 — The Battle and the Fall ─────────────────── */
     {
@@ -51,7 +62,7 @@ export const CHRONICLES_1_10: RichChapterContent = {
           kind: 'commentary',
           id: '1-chronicles-10-mid-3',
           html:
-            '<p>This cluster shows the families entrusted with leading and protecting Israel.</p>',
+            '<p>This cluster shows the families entrusted with leading and protecting Israel.</p> [res:sefaria-tribal-lists]',
         },
         {
           kind: 'scripture',

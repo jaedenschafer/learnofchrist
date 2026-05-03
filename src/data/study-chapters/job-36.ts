@@ -25,6 +25,17 @@ export const JOB_36: RichChapterContent = {
     ref: 'Job 36 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-theodicy',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Theodicy',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Ancient Akkadian dialogue on divine justice, suffering, and retribution.',
+    },
+  ],
+
   sections: [
     /* ─── Job 36:1–15 — Affliction as Teaching ───────────────────────── */
     {
@@ -44,7 +55,7 @@ export const JOB_36: RichChapterContent = {
           kind: 'commentary',
           id: 'job36-mid-elihu-defense',
           html:
-            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+            'Calamity strips everything; faith asks: can you praise when silence is easier? [res:british-museum-theodicy]',
         },
         {
           kind: 'scripture',

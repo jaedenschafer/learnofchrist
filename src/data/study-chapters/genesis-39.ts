@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 39 — Joseph in Potiphar&apos;s house.
+ * Genesis 39 - Joseph in Potiphar&apos;s house.
  *
  * The LORD is with Joseph everywhere: in prosperity, in false accusation,
  * in prison. He refuses the wife&apos;s seduction not out of circumstance but
@@ -18,8 +18,8 @@ export const GENESIS_39: RichChapterContent = {
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 14 },
   intros: [
-    'Genesis 39 opens a long descent for Joseph that looks at first like an ascent. Potiphar, an officer of Pharaoh, buys Joseph and sees something in him — favor, competence, the presence of God [res:met-museum-egypt]. Joseph prospers. He is promoted. He has oversight of everything. And then Potiphar&apos;s wife looks at him.',
-    'What happens next is a study in how righteousness costs. Joseph is a young man in a foreign land, enslaved, with no ally, no family, no claim to protection [res:bibleodyssey-joseph-egypt]. He could slip with no one the wiser. Instead he refuses daily, naming the refusal plainly: this would be "great wickedness" against God. When she seizes him by the garment, he tears himself free and flees — and she lies, and he is thrown into prison. Yet the chapter&apos;s refrain never wavers: the LORD was with Joseph.',
+    'Genesis 39 opens a long descent for Joseph that looks at first like an ascent. Potiphar, an officer of Pharaoh, buys Joseph and sees something in him - favor, competence, the presence of God [res:met-museum-egypt]. Joseph prospers. He is promoted. He has oversight of everything. And then Potiphar&apos;s wife looks at him.',
+    'What happens next is a study in how righteousness costs. Joseph is a young man in a foreign land, enslaved, with no ally, no family, no claim to protection [res:bibleodyssey-joseph-egypt]. He could slip with no one the wiser. Instead he refuses daily, naming the refusal plainly: this would be "great wickedness" against God. When she seizes him by the garment, he tears himself free and flees - and she lies, and he is thrown into prison. Yet the chapter&apos;s refrain never wavers: the LORD was with Joseph.',
   ],
 
   bottomShare: {
@@ -35,7 +35,7 @@ export const GENESIS_39: RichChapterContent = {
       id: 'sefaria-genesis-39',
       kind: 'lexicon',
       source: 'Sefaria',
-      label: 'Genesis 39 — Sefaria',
+      label: 'Genesis 39 - Sefaria',
       url: 'https://www.sefaria.org/Genesis.39',
       description: 'Annotated text with classical and modern Jewish commentary on Joseph in Potiphar&apos;s house.',
     },
@@ -43,7 +43,7 @@ export const GENESIS_39: RichChapterContent = {
       id: 'met-museum-egypt',
       kind: 'museum',
       source: 'The Met',
-      label: 'Ancient Egypt — The Metropolitan Museum of Art',
+      label: 'Ancient Egypt - The Metropolitan Museum of Art',
       url: 'https://www.metmuseum.org/art/collection?department=Egyptian%20Art',
       description: 'Egyptian artifacts and cultural context for understanding the world of Joseph and later Genesis figures.',
     },
@@ -51,16 +51,16 @@ export const GENESIS_39: RichChapterContent = {
       id: 'bibleodyssey-joseph-egypt',
       kind: 'study',
       source: 'Bible Odyssey',
-      label: 'Joseph and Egypt — Bible Odyssey',
+      label: 'Joseph and Egypt - Bible Odyssey',
       url: 'https://www.bibleodyssey.org/en/passages/related-articles/joseph-and-egypt',
       description: 'Scholarly essays on Joseph&apos;s time in Egypt and its historical and theological significance.',
     },
   ],
 
   sections: [
-    /* ─── Genesis 39:1–6 — The Favor of God ────────────────────────────── */
+    /* ─── Genesis 39:1-6 - The Favor of God ────────────────────────────── */
     {
-      ref: 'Genesis 39:1–6',
+      ref: 'Genesis 39:1-6',
       title: 'Sold into Blessing',
       blocks: [
         {
@@ -89,7 +89,7 @@ export const GENESIS_39: RichChapterContent = {
           kind: 'commentary',
           id: 'c-potiphar',
           html:
-            'Potiphar is the chief of the royal guard — the highest rank anyone enslaved could realistically reach in service. Joseph is sold into the household of the most powerful man he could serve. Yet the text does not credit Potiphar&apos;s eye for talent. It credits what comes next: the LORD was with Joseph.',
+            'Potiphar is the chief of the royal guard - the highest rank anyone enslaved could realistically reach in service. Joseph is sold into the household of the most powerful man he could serve. Yet the text does not credit Potiphar&apos;s eye for talent. It credits what comes next: the LORD was with Joseph.',
         },
         {
           kind: 'commentary',
@@ -122,11 +122,11 @@ export const GENESIS_39: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-yhwh-et',
-          title: 'Yahweh et — &ldquo;the LORD with&rdquo;',
+          title: 'Yahweh et - &ldquo;the LORD with&rdquo;',
           script: 'יהוה אֶת־יוֹסֵף',
           translit: '<strong>Yahweh et-Yosef</strong> · the LORD [with] Joseph',
           description:
-            'This phrase recurs in verses 2, 3, 21, and 23 — the chapter&apos;s structural backbone. The same God who was with Joseph when he was favored is the same God with him when he is imprisoned. The presence of God does not fluctuate with circumstance.',
+            'This phrase recurs in verses 2, 3, 21, and 23 - the chapter&apos;s structural backbone. The same God who was with Joseph when he was favored is the same God with him when he is imprisoned. The presence of God does not fluctuate with circumstance.',
         },
         {
           kind: 'scripture',
@@ -150,12 +150,12 @@ export const GENESIS_39: RichChapterContent = {
           kind: 'commentary',
           id: 'c-overseer',
           html:
-            'The overseer position in an Egyptian household was singular authority. Potiphar entrusts Joseph with everything. The text pauses to note Joseph&apos;s appearance — not to flatter him, but to set the stage. Beauty and power together are about to become a vulnerability.',
+            'The overseer position in an Egyptian household was singular authority. Potiphar entrusts Joseph with everything. The text pauses to note Joseph&apos;s appearance - not to flatter him, but to set the stage. Beauty and power together are about to become a vulnerability.',
         },
         {
           kind: 'carry',
           html:
-            'What you do competently, done before God, prospers beyond your own strength. Joseph did not engineer his rise — he served. He was not lobbying for promotion — he was faithful in his work. And the blessing spilled outward: Potiphar&apos;s whole household was blessed because of Joseph. Who in your sphere of influence is blessed because of your faithfulness? Who could be if you stayed with what you know is right?',
+            'What you do competently, done before God, prospers beyond your own strength. Joseph did not engineer his rise - he served. He was not lobbying for promotion - he was faithful in his work. And the blessing spilled outward: Potiphar&apos;s whole household was blessed because of Joseph. Who in your sphere of influence is blessed because of your faithfulness? Who could be if you stayed with what you know is right?',
         },
         {
           kind: 'reflection',
@@ -166,9 +166,9 @@ export const GENESIS_39: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 39:7–12 — The Daily Refusal ──────────────────────────── */
+    /* ─── Genesis 39:7-12 - The Daily Refusal ──────────────────────────── */
     {
-      ref: 'Genesis 39:7–12',
+      ref: 'Genesis 39:7-12',
       title: 'Not This, Not Ever',
       blocks: [
         {
@@ -203,7 +203,7 @@ export const GENESIS_39: RichChapterContent = {
           kind: 'commentary',
           id: 'c-wife',
           html:
-            'Potiphar&apos;s wife does not whisper or seduce gently. She commands: "Lie with me." Each day she repeats this (v. 10). There is no privacy in Joseph&apos;s refusal — it is public, domestic, constant. He lives in her house. He serves her daily. She has power over him and every reason to believe he will eventually comply.',
+            'Potiphar&apos;s wife does not whisper or seduce gently. She commands: "Lie with me." Each day she repeats this (v. 10). There is no privacy in Joseph&apos;s refusal - it is public, domestic, constant. He lives in her house. He serves her daily. She has power over him and every reason to believe he will eventually comply.',
         },
         {
           kind: 'commentary',
@@ -248,22 +248,22 @@ export const GENESIS_39: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-shamah',
-          title: 'Shamah — &ldquo;to listen, to hear&rdquo;',
+          title: 'Shamah - &ldquo;to listen, to hear&rdquo;',
           script: 'שָׁמַע',
           translit: '<strong>shamah</strong> · to listen, to hear, to obey',
           description:
-            'Joseph did not simply refuse in a moment of weakness. Day after day, "he hearkened not unto her." The Hebrew word means both to hear and to obey. Joseph heard her — her voice, her power over him, her daily invitation — and chose not to obey. Obedience is not forgetting the temptation. It is hearing it and saying no.',
+            'Joseph did not simply refuse in a moment of weakness. Day after day, "he hearkened not unto her." The Hebrew word means both to hear and to obey. Joseph heard her - her voice, her power over him, her daily invitation - and chose not to obey. Obedience is not forgetting the temptation. It is hearing it and saying no.',
         },
         {
           kind: 'commentary',
           id: 'c-garment-flee',
           html:
-            'When she seizes him by his garment, Joseph tears free and runs. The garment is left in her hands — a piece of his dignity abandoned for the sake of his integrity. And she will use it as a lie. He will pay for his faithfulness immediately and visibly. The cost of saying no becomes undeniable.',
+            'When she seizes him by his garment, Joseph tears free and runs. The garment is left in her hands - a piece of his dignity abandoned for the sake of his integrity. And she will use it as a lie. He will pay for his faithfulness immediately and visibly. The cost of saying no becomes undeniable.',
         },
         {
           kind: 'carry',
           html:
-            'Joseph did not have a moment of doubt and then move on. He was asked daily. The woman he lived under was relentless, and she had power over him. Yet day after day he said no — not because he was naturally virtuous, but because he named the truth: this is wickedness against God. Whatever temptation you face regularly, the first step is not to manage it quietly. It is to call it what it is. Then to say no again tomorrow, and the day after that. Sometimes righteousness is a footrace. Sometimes it costs you your garment.',
+            'Joseph did not have a moment of doubt and then move on. He was asked daily. The woman he lived under was relentless, and she had power over him. Yet day after day he said no - not because he was naturally virtuous, but because he named the truth: this is wickedness against God. Whatever temptation you face regularly, the first step is not to manage it quietly. It is to call it what it is. Then to say no again tomorrow, and the day after that. Sometimes righteousness is a footrace. Sometimes it costs you your garment.',
         },
         {
           kind: 'reflection',
@@ -274,14 +274,14 @@ export const GENESIS_39: RichChapterContent = {
         {
           kind: 'artwork',
           matchTitle: /joseph.*potiphar/i,
-          caption: 'Genesis 39:7–12 · The Flight',
+          caption: 'Genesis 39:7-12 · The Flight',
         },
       ],
     },
 
-    /* ─── Genesis 39:13–18 — The Lie ───────────────────────────────────── */
+    /* ─── Genesis 39:13-18 - The Lie ───────────────────────────────────── */
     {
-      ref: 'Genesis 39:13–18',
+      ref: 'Genesis 39:13-18',
       title: 'False Witness',
       blocks: [
         {
@@ -312,7 +312,7 @@ export const GENESIS_39: RichChapterContent = {
           kind: 'commentary',
           id: 'c-lie-strategy',
           html:
-            'She does not scream after he flees. She manufactures the narrative afterward, using the garment as her prop. The story is neat: the foreign slave attempted assault, she cried out, he fled in shame, here is his garment. The lie is structural — it inverts everything Joseph did. His faithfulness becomes attempted seduction. His flight becomes guilt. His garment becomes evidence.',
+            'She does not scream after he flees. She manufactures the narrative afterward, using the garment as her prop. The story is neat: the foreign slave attempted assault, she cried out, he fled in shame, here is his garment. The lie is structural - it inverts everything Joseph did. His faithfulness becomes attempted seduction. His flight becomes guilt. His garment becomes evidence.',
         },
         {
           kind: 'scripture',
@@ -347,14 +347,14 @@ export const GENESIS_39: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'Sometimes faithfulness gets you lied about. Tamar, another woman in Genesis, was given a name for acting in covenant faith (Gen 38:26). Potiphar&apos;s wife is given no name — she remains anonymous, the Bible&apos;s small way of marking her namelessness as the cost of deceit. The justice of God runs slower than the justice of Pharaoh. But it runs.',
+            'Sometimes faithfulness gets you lied about. Tamar, another woman in Genesis, was given a name for acting in covenant faith (Gen 38:26). Potiphar&apos;s wife is given no name - she remains anonymous, the Bible&apos;s small way of marking her namelessness as the cost of deceit. The justice of God runs slower than the justice of Pharaoh. But it runs.',
         },
       ],
     },
 
-    /* ─── Genesis 39:19–20 — Condemned ────────────────────────────────── */
+    /* ─── Genesis 39:19-20 - Condemned ────────────────────────────────── */
     {
-      ref: 'Genesis 39:19–20',
+      ref: 'Genesis 39:19-20',
       title: 'Prison',
       blocks: [
         {
@@ -383,12 +383,12 @@ export const GENESIS_39: RichChapterContent = {
           kind: 'commentary',
           id: 'c-wrath',
           html:
-            'Potiphar believes his wife. His wrath is kindled. Yet notice: the text does not say he executed Joseph. He sends him to prison. Ancient Egypt would have had every right to take Joseph&apos;s life. That Joseph lives — that he is sent to "the prison where the king&apos;s prisoners were bound," likely because Potiphar hesitates — may be the smallest mercy in the chapter. But it is a mercy.',
+            'Potiphar believes his wife. His wrath is kindled. Yet notice: the text does not say he executed Joseph. He sends him to prison. Ancient Egypt would have had every right to take Joseph&apos;s life. That Joseph lives - that he is sent to "the prison where the king&apos;s prisoners were bound," likely because Potiphar hesitates - may be the smallest mercy in the chapter. But it is a mercy.',
         },
         {
           kind: 'christ',
           id: 'christ-prison-innocent',
-          title: 'Christ Connection — Condemned by False Witness',
+          title: 'Christ Connection - Condemned by False Witness',
           html:
             'Joseph is condemned on the word of one witness, condemned without a trial that would vindicate him. The Gospels put the parallel plainly: Jesus is brought before Pilate on false witness. A woman at a well accuses one man; a woman in Egypt accuses another. Both stand before a judge who can do nothing but execute the sentence. Both are innocent. Isaiah&apos;s picture of the Suffering Servant echoes over both of them: &ldquo;as a sheep before her shearers is dumb, so he openeth not his mouth&rdquo; (Isa. 53:7). Joseph says nothing in his defense. Jesus says nothing in his. The innocent condemned by the guilty is the pattern. It is also the gospel.',
         },
@@ -400,9 +400,9 @@ export const GENESIS_39: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 39:21–23 — The LORD in Prison ──────────────────────── */
+    /* ─── Genesis 39:21-23 - The LORD in Prison ──────────────────────── */
     {
-      ref: 'Genesis 39:21–23',
+      ref: 'Genesis 39:21-23',
       title: 'Favored Even in Chains',
       blocks: [
         {
@@ -437,7 +437,7 @@ export const GENESIS_39: RichChapterContent = {
           kind: 'commentary',
           id: 'c-prison-favor',
           html:
-            'The same pattern repeats [res:sefaria-genesis-39]. Joseph is favored. He is promoted within the prison to overseer of the prisoners. And the reason given is, again, that the LORD was with him. There is no timeline here, no sense that Joseph needed time to grieve his lost position. The chapter moves immediately from his condemnation to his favor. The constancy of the phrase — "the LORD was with Joseph" — suggests that his sense of being with God did not waver.',
+            'The same pattern repeats [res:sefaria-genesis-39]. Joseph is favored. He is promoted within the prison to overseer of the prisoners. And the reason given is, again, that the LORD was with him. There is no timeline here, no sense that Joseph needed time to grieve his lost position. The chapter moves immediately from his condemnation to his favor. The constancy of the phrase - "the LORD was with Joseph" - suggests that his sense of being with God did not waver.',
         },
         {
           kind: 'hebrew',
@@ -451,14 +451,14 @@ export const GENESIS_39: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-constancy',
-          title: 'Christ Connection — Lo, I Am With You Always',
+          title: 'Christ Connection - Lo, I Am With You Always',
           html:
-            'Jesus steps into Gethsemane and prays, "If it be possible, let this cup pass from me." The cup does not pass. He goes to trial. He goes to prison — worse than prison, to a hill outside the city. His last promise to His followers is this: "Lo, I am with you alway, even unto the end of the world" (Matt. 28:20). Joseph&apos;s constancy in the presence of God — in house and prison both — is a picture of the constancy God promises. Not that you will not suffer. But that you will not be alone. The difference between affliction with God and affliction without Him is everything.',
+            'Jesus steps into Gethsemane and prays, "If it be possible, let this cup pass from me." The cup does not pass. He goes to trial. He goes to prison - worse than prison, to a hill outside the city. His last promise to His followers is this: "Lo, I am with you alway, even unto the end of the world" (Matt. 28:20). Joseph&apos;s constancy in the presence of God - in house and prison both - is a picture of the constancy God promises. Not that you will not suffer. But that you will not be alone. The difference between affliction with God and affliction without Him is everything.',
         },
         {
           kind: 'carry',
           html:
-            'If your sense of God&apos;s presence right now depends on your circumstances being good, you are brittle. You will shatter the moment circumstances change — and they will. Joseph learned something in a house he could have taken for granted: the LORD was with him. He learned it, and when the house burned down and he landed in a cell, the learning was there. The presence of God is not a reward for having your life together. It is the ground beneath you, the same ground whether the sun is shining or not.',
+            'If your sense of God&apos;s presence right now depends on your circumstances being good, you are brittle. You will shatter the moment circumstances change - and they will. Joseph learned something in a house he could have taken for granted: the LORD was with him. He learned it, and when the house burned down and he landed in a cell, the learning was there. The presence of God is not a reward for having your life together. It is the ground beneath you, the same ground whether the sun is shining or not.',
         },
         {
           kind: 'reflection',
@@ -469,7 +469,7 @@ export const GENESIS_39: RichChapterContent = {
         {
           kind: 'artwork',
           matchTitle: /joseph.*prison/i,
-          caption: 'Genesis 39:21–23 · Favored in Captivity',
+          caption: 'Genesis 39:21-23 · Favored in Captivity',
         },
       ],
     },

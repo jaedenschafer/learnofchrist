@@ -1,10 +1,10 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 6 — the chapter where heaven invades earth, God grieves
+ * Genesis 6 - the chapter where heaven invades earth, God grieves
  * over humanity, and Noah alone finds favor.
  *
- * The chapter moves through three unfinished mysteries — the sons of God
+ * The chapter moves through three unfinished mysteries - the sons of God
  * and daughters of men (vv.1-4), the great grief of God and His resolve
  * (vv.5-8), and a man who walked with God and received a command that would
  * remake the world (vv.9-22). It is the hinge between creation and judgment,
@@ -17,15 +17,15 @@ export const GENESIS_6: RichChapterContent = {
 
   estimatedMinutes: { beginner: 6, intermediate: 10, deep: 13 },
   intros: [
-    'Genesis 6 is the chapter where the world turns dark. After five generations of human failure, after Cain and the first murder, after a humanity that grows more twisted the further it gets from Eden, we arrive at a moment when God looks at what He has made and finds Himself grieving. The Hebrew word for that grief—<em>nicham</em>—shares its root with the name Noah. This is a chapter about repentance: God&apos;s, and a man&apos;s.',
-    'The opening verses are strange—a moment most biblical scholars openly disagree about. Sons of God and daughters of men. Were they angels? Descendants of Seth? Earthly rulers? The text doesn&apos;t settle it, and readers across two thousand years have held different views. Rather than choosing a side, let yourself sit with the strangeness. The Bible is full of moments that defy easy answers. This is one of them.',
-    'But what follows is clear: God sees the darkness He made space for, grieves it with a tenderness that feels almost human, and chooses one family—Noah and his house—to carry the promise through the waters of judgment[res:bibleodyssey-flood-narratives]. The ark is the answer to that grief. It is salvation beginning again.',
+    'Genesis 6 is the chapter where the world turns dark. After five generations of human failure, after Cain and the first murder, after a humanity that grows more twisted the further it gets from Eden, we arrive at a moment when God looks at what He has made and finds Himself grieving. The Hebrew word for that grief-<em>nicham</em>-shares its root with the name Noah. This is a chapter about repentance: God&apos;s, and a man&apos;s.',
+    'The opening verses are strange-a moment most biblical scholars openly disagree about. Sons of God and daughters of men. Were they angels? Descendants of Seth? Earthly rulers? The text doesn&apos;t settle it, and readers across two thousand years have held different views. Rather than choosing a side, let yourself sit with the strangeness. The Bible is full of moments that defy easy answers. This is one of them.',
+    'But what follows is clear: God sees the darkness He made space for, grieves it with a tenderness that feels almost human, and chooses one family-Noah and his house-to carry the promise through the waters of judgment[res:bibleodyssey-flood-narratives]. The ark is the answer to that grief. It is salvation beginning again.',
   ],
 
   sections: [
-    /* ─── Genesis 6:1–4 — Sons of God and Daughters of Men ─────────────── */
+    /* ─── Genesis 6:1-4 - Sons of God and Daughters of Men ─────────────── */
     {
-      ref: 'Genesis 6:1–4',
+      ref: 'Genesis 6:1-4',
       title: 'Sons of God and Daughters of Men',
       blocks: [
         {
@@ -68,36 +68,36 @@ export const GENESIS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'c-strangers',
           html:
-            'The opening verses resist easy interpretation. Three major views have stood for centuries: (1) the <em>sons of God</em> were angelic beings who took human wives—a reading the early Jews and early Christians held, and one Jude and 2 Peter explicitly cite; (2) they were descendants of Seth, the godly line, marrying Cainites, the worldly line; (3) they were human rulers or king-priests, the powerful of the earth taking what they wanted. The text does not settle this. Rather, it holds the strangeness. What is clear: someone is crossing a line. Someone is taking what was not meant to be taken. And the earth is watching[res:sefaria-genesis-6][res:britishmuseum-atrahasis].',
+            'The opening verses resist easy interpretation. Three major views have stood for centuries: (1) the <em>sons of God</em> were angelic beings who took human wives-a reading the early Jews and early Christians held, and one Jude and 2 Peter explicitly cite; (2) they were descendants of Seth, the godly line, marrying Cainites, the worldly line; (3) they were human rulers or king-priests, the powerful of the earth taking what they wanted. The text does not settle this. Rather, it holds the strangeness. What is clear: someone is crossing a line. Someone is taking what was not meant to be taken. And the earth is watching[res:sefaria-genesis-6][res:britishmuseum-atrahasis].',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-sons-of-god',
-          title: 'Sons of God — בְנֵי־אֱלֹהִים',
+          title: 'Sons of God - בְנֵי־אֱלֹהִים',
           script: 'בְנֵי־אֱלֹהִים',
           translit: '<strong>b&apos;nei elohim</strong> · literally "sons of God"',
           description:
-            'This phrase appears five times in the Old Testament. In Job 1:6 and 2:1 it refers to heavenly beings standing before God. Here the text names an intrusion—something stepping into the human order that was not human. Whether angel or priest, the crossing of a boundary is the point.',
+            'This phrase appears five times in the Old Testament. In Job 1:6 and 2:1 it refers to heavenly beings standing before God. Here the text names an intrusion-something stepping into the human order that was not human. Whether angel or priest, the crossing of a boundary is the point.',
         },
         {
           kind: 'commentary',
           id: 'c-lifespan',
           html:
-            'God&apos;s response is not to punish the transgression directly. It is to limit the future. <em>His days shall be an hundred and twenty years.</em> The lifespans that once stretched to nine hundred will now compress to a century. Judgment often looks like time itself being shortened—a mercy to a world growing more wicked, a way of saying: this will not go on forever.',
+            'God&apos;s response is not to punish the transgression directly. It is to limit the future. <em>His days shall be an hundred and twenty years.</em> The lifespans that once stretched to nine hundred will now compress to a century. Judgment often looks like time itself being shortened-a mercy to a world growing more wicked, a way of saying: this will not go on forever.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-nephilim',
-          title: 'Nephilim — נְפִילִים',
+          title: 'Nephilim - נְפִילִים',
           script: 'נְפִילִים',
           translit: '<strong>nephilim</strong> · "fallen ones," giants',
           description:
-            'The word means literally the fallen, the ones brought down. Elsewhere translated "giants." Their size seems less important than the fact that they are the hybrid offspring of this crossing—powerful, mighty, famous, and entirely outside God&apos;s original design. Power in the wrong hands grows monstrous.',
+            'The word means literally the fallen, the ones brought down. Elsewhere translated "giants." Their size seems less important than the fact that they are the hybrid offspring of this crossing-powerful, mighty, famous, and entirely outside God&apos;s original design. Power in the wrong hands grows monstrous.',
         },
         {
           kind: 'carry',
           html:
-            'You live in a time of crossed boundaries—between virtual and real, work and home, what you watch and who you become. Genesis 6 is not telling you that those crossings are easy to judge. It is telling you that they are never invisible. Someone is always watching. God is always watching. And the line you think is small—<em>just this once, just a taste, just this taking</em>—has a way of producing something larger than you planned.',
+            'You live in a time of crossed boundaries-between virtual and real, work and home, what you watch and who you become. Genesis 6 is not telling you that those crossings are easy to judge. It is telling you that they are never invisible. Someone is always watching. God is always watching. And the line you think is small-<em>just this once, just a taste, just this taking</em>-has a way of producing something larger than you planned.',
         },
         {
           kind: 'reflection',
@@ -108,9 +108,9 @@ export const GENESIS_6: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 6:5–8 — God Grieves ────────────────────────────────── */
+    /* ─── Genesis 6:5-8 - God Grieves ────────────────────────────────── */
     {
-      ref: 'Genesis 6:5–8',
+      ref: 'Genesis 6:5-8',
       title: 'The Sorrow of the Maker',
       blocks: [
         {
@@ -141,14 +141,14 @@ export const GENESIS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'c-evil-continually',
           html:
-            'The diagnosis is total. Not just that some people do evil—but that the entire landscape of human thought has become evil. <em>Every imagination of the thoughts of his heart.</em> The inner world has rotted. And rotting inward means rotting outward soon after.',
+            'The diagnosis is total. Not just that some people do evil-but that the entire landscape of human thought has become evil. <em>Every imagination of the thoughts of his heart.</em> The inner world has rotted. And rotting inward means rotting outward soon after.',
         },
         {
           kind: 'christ',
           id: 'christ-god-grieves',
-          title: 'Christ Connection — God Who Feels the Pain He Sees',
+          title: 'Christ Connection - God Who Feels the Pain He Sees',
           html:
-            'The Hebrew word here is <em>nicham</em>—sometimes translated "repent," sometimes "grieve," sometimes "be moved to pity." It does not mean God changed His mind out of fickleness. It means God felt the weight of the world He made turning away from Him. Centuries later, Jesus wept over Jerusalem with the same tenderness: &ldquo;If thou hadst known, even thou, at least in this thy day, the things which belong unto thy peace!&rdquo; (Luke 19:42). God does not judge from distance. He grieves what He loves.',
+            'The Hebrew word here is <em>nicham</em>-sometimes translated "repent," sometimes "grieve," sometimes "be moved to pity." It does not mean God changed His mind out of fickleness. It means God felt the weight of the world He made turning away from Him. Centuries later, Jesus wept over Jerusalem with the same tenderness: &ldquo;If thou hadst known, even thou, at least in this thy day, the things which belong unto thy peace!&rdquo; (Luke 19:42). God does not judge from distance. He grieves what He loves.',
         },
         {
           kind: 'scripture',
@@ -176,12 +176,12 @@ export const GENESIS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'c-utter-resolve',
           html:
-            'God&apos;s judgment is not random punishment. It is a reluctant mercy—a decision born of grief that the world He made has become so far from what He intended that only water and judgment can clear the ground for a beginning again. But notice: this determination is stated, and immediately—before we even finish the thought—the exception arrives. Noah. One man who walked with God, and in him, the way forward.',
+            'God&apos;s judgment is not random punishment. It is a reluctant mercy-a decision born of grief that the world He made has become so far from what He intended that only water and judgment can clear the ground for a beginning again. But notice: this determination is stated, and immediately-before we even finish the thought-the exception arrives. Noah. One man who walked with God, and in him, the way forward.',
         },
         {
           kind: 'carry',
           html:
-            'If you are watching the world grow darker and feeling the weight of it, you are not wrong. The text does not deny that things have gotten bad. But it also does not end there. It ends with a man. One man who found grace, who walked with God, and whose obedience opened a door for the rest of us. Your one faithfulness today—in a room, in a conversation, in a decision no one else will see—is a door opening somewhere.',
+            'If you are watching the world grow darker and feeling the weight of it, you are not wrong. The text does not deny that things have gotten bad. But it also does not end there. It ends with a man. One man who found grace, who walked with God, and whose obedience opened a door for the rest of us. Your one faithfulness today-in a room, in a conversation, in a decision no one else will see-is a door opening somewhere.',
         },
         {
           kind: 'reflection',
@@ -192,9 +192,9 @@ export const GENESIS_6: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 6:9–12 — Noah the Man Who Walked with God ────────────── */
+    /* ─── Genesis 6:9-12 - Noah the Man Who Walked with God ────────────── */
     {
-      ref: 'Genesis 6:9–12',
+      ref: 'Genesis 6:9-12',
       title: 'The Man Who Walked with God',
       blocks: [
         {
@@ -241,14 +241,14 @@ export const GENESIS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'c-walked-with',
           html:
-            'Notice who else in Genesis <em>walked with God</em> this way. Enoch, in chapter 5, who &ldquo;walked with God: and he was not; for God took him.&rdquo; It is the way of communion—not striving, not performing, but simply walking alongside God, turning your steps where His go. That is the posture of Noah in a corrupt world. That is his strength.',
+            'Notice who else in Genesis <em>walked with God</em> this way. Enoch, in chapter 5, who &ldquo;walked with God: and he was not; for God took him.&rdquo; It is the way of communion-not striving, not performing, but simply walking alongside God, turning your steps where His go. That is the posture of Noah in a corrupt world. That is his strength.',
         },
         {
           kind: 'christ',
           id: 'christ-walked-with',
-          title: 'Christ Connection — Emmanuel, God With Us',
+          title: 'Christ Connection - Emmanuel, God With Us',
           html:
-            'The walking with God that Noah practices finds its fullest expression in the Incarnation. Jesus is God walking among us, Emmanuel—God with us. And that walking is the invitation to everyone who follows Him. &ldquo;I am the way,&rdquo; He says. Not: follow the way. But: walk with <em>me</em>. The steady faithfulness that saved Noah is the same movement that saves us now—not perfection, but turned-toward presence with the One who loves us.',
+            'The walking with God that Noah practices finds its fullest expression in the Incarnation. Jesus is God walking among us, Emmanuel-God with us. And that walking is the invitation to everyone who follows Him. &ldquo;I am the way,&rdquo; He says. Not: follow the way. But: walk with <em>me</em>. The steady faithfulness that saved Noah is the same movement that saves us now-not perfection, but turned-toward presence with the One who loves us.',
         },
         {
           kind: 'reflection',
@@ -259,9 +259,9 @@ export const GENESIS_6: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 6:13–22 — The Ark Commanded ─────────────────────────── */
+    /* ─── Genesis 6:13-22 - The Ark Commanded ─────────────────────────── */
     {
-      ref: 'Genesis 6:13–22',
+      ref: 'Genesis 6:13-22',
       title: 'The Ark Commanded',
       blocks: [
         {
@@ -302,12 +302,12 @@ export const GENESIS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'c-pitch',
           html:
-            'The word for pitch is <em>kopher</em>—the same root that gives us <em>kaphar</em>, &ldquo;atonement, covering.&rdquo; The ark is sealed inside and out with the language of covering, protection, atonement. Every plank holds that meaning. The wood that saves Noah is sealed with the very word that later names the act of making humans right with God again.',
+            'The word for pitch is <em>kopher</em>-the same root that gives us <em>kaphar</em>, &ldquo;atonement, covering.&rdquo; The ark is sealed inside and out with the language of covering, protection, atonement. Every plank holds that meaning. The wood that saves Noah is sealed with the very word that later names the act of making humans right with God again.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-tevah',
-          title: 'Tevah — תֵּבָה (ark)',
+          title: 'Tevah - תֵּבָה (ark)',
           script: 'תֵּבָה',
           translit: '<strong>tevah</strong> · ark, vessel',
           description:
@@ -366,14 +366,14 @@ export const GENESIS_6: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-covenant-ark',
-          title: 'Christ Connection — The Ark as Type of Atonement',
+          title: 'Christ Connection - The Ark as Type of Atonement',
           html:
-            'Peter explicitly typologizes the ark as baptism: &ldquo;eight souls were saved by water. The like figure whereunto even baptism doth also now save us&rdquo; (1 Peter 3:20-21). The wood sealed with <em>kopher</em> (atonement) carries life through water—through the judgment of God—and sets it down on the other side. Later, another wood, another cross, sealed with the blood of the Lamb, will carry all who believe through the waters of judgment into a new world. The ark points to Christ. The wood that saves is always the wood of atonement.',
+            'Peter explicitly typologizes the ark as baptism: &ldquo;eight souls were saved by water. The like figure whereunto even baptism doth also now save us&rdquo; (1 Peter 3:20-21). The wood sealed with <em>kopher</em> (atonement) carries life through water-through the judgment of God-and sets it down on the other side. Later, another wood, another cross, sealed with the blood of the Lamb, will carry all who believe through the waters of judgment into a new world. The ark points to Christ. The wood that saves is always the wood of atonement.',
         },
         {
           kind: 'carry',
           html:
-            'When the flood comes—and floods come to all of us, in some form, in every life—you will not save yourself by being good. You will not. What saves is stepping into the ark God provides. For Noah it was wood and pitch. For us it is a covenant, a promise, a place inside God&apos;s mercy. God is not asking you to build your own rescue. He is asking you to step into His.',
+            'When the flood comes-and floods come to all of us, in some form, in every life-you will not save yourself by being good. You will not. What saves is stepping into the ark God provides. For Noah it was wood and pitch. For us it is a covenant, a promise, a place inside God&apos;s mercy. God is not asking you to build your own rescue. He is asking you to step into His.',
         },
         {
           kind: 'reflection',
@@ -384,7 +384,7 @@ export const GENESIS_6: RichChapterContent = {
         {
           kind: 'artwork',
           matchTitle: /noah|ark|flood/i,
-          caption: 'Genesis 6:13–22 · The Vessel of Salvation',
+          caption: 'Genesis 6:13-22 · The Vessel of Salvation',
         },
       ],
     },

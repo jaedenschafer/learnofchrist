@@ -30,6 +30,17 @@ export const CHRONICLES_2_32: RichChapterContent = {
     ref: '2 Chronicles 32 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'israel-museum-hezekiah',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Hezekiah Reforms and Jerusalem',
+      url: 'https://www.imj.org.il/',
+      description: 'Iron Age Judah archaeology: water systems, inscriptions, cultic reform artifacts.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 32:1–8 — Sennacherib Invades; Hezekiah Prepares ───── */
     {
@@ -51,7 +62,7 @@ export const CHRONICLES_2_32: RichChapterContent = {
           kind: 'commentary',
           id: 'sennacherib-invasion',
           html:
-            'Sennacherib comes, as he always does, with confidence in his military power and his god&apos;s favor. He has conquered the northern kingdom and reduced Judah&apos;s tributaries to vassal status. Now he marches on Jerusalem itself, the capital, the holy city. But Hezekiah has already broken down the high places. He has centralized worship in the temple. He has made himself unpopular by insisting that Israel look to the Lord, not to the gods of the nations. Now, in the face of an empire&apos;s advance, that choice will be tested.',
+            'Sennacherib comes, as he always does, with confidence in his military power and his god&apos;s favor. He has conquered the northern kingdom and reduced Judah&apos;s tributaries to vassal status. Now he marches on Jerusalem itself, the capital, the holy city. But Hezekiah has already broken down the high places. He has centralized worship in the temple. He has made himself unpopular by insisting that Israel look to the Lord, not to the gods of the nations. Now, in the face of an empire&apos;s advance, that choice will be tested. [res:israel-museum-hezekiah]',
         },
         {
           kind: 'commentary',

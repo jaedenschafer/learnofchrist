@@ -32,6 +32,17 @@ export const CHRONICLES_1_12: RichChapterContent = {
     ref: '1 Chronicles 12 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-tribal-lists',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Tribal Genealogies and Borders',
+      url: 'https://www.sefaria.org/search?q=tribe+israel&tab=text',
+      description: 'Sefaria resources on the twelve tribes, genealogies, and territorial divisions.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 12:1–7 — Benjamin Joins David at Ziklag ─────────── */
     {
@@ -51,7 +62,7 @@ export const CHRONICLES_1_12: RichChapterContent = {
           kind: 'commentary',
           id: '1-chronicles-12-mid-3',
           html:
-            '<p>These connections reveal how God&apos;s family plan unfolded across centuries.</p>',
+            '<p>These connections reveal how God&apos;s family plan unfolded across centuries.</p> [res:sefaria-tribal-lists]',
         },
         {
           kind: 'scripture',

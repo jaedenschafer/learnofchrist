@@ -31,6 +31,17 @@ export const CHRONICLES_1_13: RichChapterContent = {
     ref: '1 Chronicles 13 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'israel-museum-ark',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'The Ark of the Covenant',
+      url: 'https://www.imj.org.il/',
+      description: 'Israel Museum collections and exhibits on Temple and Ark archaeology.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 13:1–5 — The Consultation and Decision ──────────────── */
     {
@@ -79,19 +90,19 @@ export const CHRONICLES_1_13: RichChapterContent = {
           kind: 'commentary',
           id: 'c13-consulted',
           html:
-            'David begins not with a unilateral decision, but with consultation. He calls together the leaders of Israel — the captains of thousands, the captains of hundreds, every leader of the people. This is a model of wise governance: the king proposes, the people confirm. "If it seem good unto you, and that it be of the Lord our God" — notice the dual appeal: both to the people&apos;s judgment and to the will of the Lord. This is the language of covenant leadership.',
+            'David begins not with a unilateral decision, but with consultation. He calls together the leaders of Israel — the captains of thousands, the captains of hundreds, every leader of the people. This is a model of wise governance: the king proposes, the people confirm. "If it seem good unto you, and that it be of the Lord our God" — notice the dual appeal: both to the people&apos;s judgment and to the will of the Lord. This is the language of covenant leadership. [res:israel-museum-ark]',
         },
         {
           kind: 'commentary',
           id: 'c13-left-in-land',
           html:
-            'David seeks to gather "every where, that are left in all the land of Israel" — a sweeping, national mobilization. He also calls on "the priests and Levites which are in their cities" to join the procession. The ark is not a private treasure. It belongs to all Israel. The spiritual center of the nation must be recovered.',
+            'David seeks to gather "every where, that are left in all the land of Israel" — a sweeping, national mobilization. He also calls on "the priests and Levites which are in their cities" to join the procession. The ark is not a private treasure. It belongs to all Israel. The spiritual center of the nation must be recovered. [res:israel-museum-ark]',
         },
         {
           kind: 'commentary',
           id: 'c13-enquired-not',
           html:
-            'This detail is crucial: "we enquired not at it in the days of Saul." The ark has been neglected, untended, during Saul&apos;s reign. There is a theology of neglect implicit in this line — when we do not seek the Lord&apos;s presence, we do not cultivate it. David&apos;s determination to restore the ark is a decision to restore the center of Israel&apos;s spiritual life.',
+            'This detail is crucial: "we enquired not at it in the days of Saul." The ark has been neglected, untended, during Saul&apos;s reign. There is a theology of neglect implicit in this line — when we do not seek the Lord&apos;s presence, we do not cultivate it. David&apos;s determination to restore the ark is a decision to restore the center of Israel&apos;s spiritual life. [res:israel-museum-ark]',
         },
         {
           kind: 'carry',
@@ -141,7 +152,7 @@ export const CHRONICLES_1_13: RichChapterContent = {
           kind: 'commentary',
           id: 'c13-new-cart',
           html:
-            'Here is the critical error. The ark is placed on a new cart — a Philistine method of transport (see 1 Samuel 6, where the Philistines sent the ark back on a cart after it had been taken and plagued them). But the Law of God was explicit: the ark must be carried on poles by the Levites. Numbers 4 and 7 prescribe this clearly. A new cart is smooth, convenient, modern — but it is not God&apos;s way. The phrase "new cart" stands out precisely because it is not the proper vessel. David has consulted the people. Everyone is happy. Everyone is playing music and singing. But the ark is being transported in violation of God&apos;s command.',
+            'Here is the critical error. The ark is placed on a new cart — a Philistine method of transport (see 1 Samuel 6, where the Philistines sent the ark back on a cart after it had been taken and plagued them). But the Law of God was explicit: the ark must be carried on poles by the Levites. Numbers 4 and 7 prescribe this clearly. A new cart is smooth, convenient, modern — but it is not God&apos;s way. The phrase "new cart" stands out precisely because it is not the proper vessel. David has consulted the people. Everyone is happy. Everyone is playing music and singing. But the ark is being transported in violation of God&apos;s command. [res:israel-museum-ark]',
         },
         {
           kind: 'hebrew',
@@ -219,13 +230,13 @@ export const CHRONICLES_1_13: RichChapterContent = {
           kind: 'commentary',
           id: 'c13-chidon',
           html:
-            'Chidon (also called Nacon in 2 Samuel 6) is a threshing floor. The oxen, perhaps startled or tired, stumble. The cart lurches. For a moment, the ark seems in danger of falling. And this moment — this human moment of instinct to protect something precious — becomes a test of whether the Law will be upheld even when chaos threatens.',
+            'Chidon (also called Nacon in 2 Samuel 6) is a threshing floor. The oxen, perhaps startled or tired, stumble. The cart lurches. For a moment, the ark seems in danger of falling. And this moment — this human moment of instinct to protect something precious — becomes a test of whether the Law will be upheld even when chaos threatens. [res:israel-museum-ark]',
         },
         {
           kind: 'commentary',
           id: 'c13-anger-kindled',
           html:
-            'Uzza&apos;s hand reaches out to steady the ark. His motive is to save it from falling. He is trying to prevent a disaster. But the Law forbade anyone except the Levites to touch the ark — and Uzza is not a Levite, he is the driver of the cart. The anger of the Lord "is kindled" — the Hebrew suggests a sudden ignition of holy wrath. Uzza dies. Not slowly, not with warning, but immediately. The narrative is stark: "there he died before God."',
+            'Uzza&apos;s hand reaches out to steady the ark. His motive is to save it from falling. He is trying to prevent a disaster. But the Law forbade anyone except the Levites to touch the ark — and Uzza is not a Levite, he is the driver of the cart. The anger of the Lord "is kindled" — the Hebrew suggests a sudden ignition of holy wrath. Uzza dies. Not slowly, not with warning, but immediately. The narrative is stark: "there he died before God." [res:israel-museum-ark]',
         },
         {
           kind: 'commentary',
@@ -284,13 +295,13 @@ export const CHRONICLES_1_13: RichChapterContent = {
           kind: 'commentary',
           id: 'c13-gittite',
           html:
-            'Obed-edom the Gittite — a man from Gath, a foreigner, a non-Israelite. Yet his house becomes the resting place for the ark. There is a gentleness in this detail. The ark is not hidden away or locked up. It is placed in a home where it remains visible, honored, kept. And Obed-edom, though foreign, becomes the caretaker of Israel&apos;s greatest treasure.',
+            'Obed-edom the Gittite — a man from Gath, a foreigner, a non-Israelite. Yet his house becomes the resting place for the ark. There is a gentleness in this detail. The ark is not hidden away or locked up. It is placed in a home where it remains visible, honored, kept. And Obed-edom, though foreign, becomes the caretaker of Israel&apos;s greatest treasure. [res:israel-museum-ark]',
         },
         {
           kind: 'commentary',
           id: 'c13-three-months',
           html:
-            'Three months. The ark remains with Obed-edom for a season. During this time, David has gone back to being afraid. The breach of Uzza has chastened him. He no longer rushes to bring the ark to Jerusalem. He waits. He learns. And in the waiting, something remarkable happens: the Lord blesses the house of Obed-edom. "All that he had" is blessed. His household prospers under the presence of the ark — not in spite of the ark&apos;s holiness, but because of it. For those who approach God&apos;s presence according to His way, the blessing is abundant.',
+            'Three months. The ark remains with Obed-edom for a season. During this time, David has gone back to being afraid. The breach of Uzza has chastened him. He no longer rushes to bring the ark to Jerusalem. He waits. He learns. And in the waiting, something remarkable happens: the Lord blesses the house of Obed-edom. "All that he had" is blessed. His household prospers under the presence of the ark — not in spite of the ark&apos;s holiness, but because of it. For those who approach God&apos;s presence according to His way, the blessing is abundant. [res:israel-museum-ark]',
         },
         {
           kind: 'hebrew',

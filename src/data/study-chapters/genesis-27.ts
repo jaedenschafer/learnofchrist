@@ -1,10 +1,10 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 27 — Jacob steals the blessing.
+ * Genesis 27 - Jacob steals the blessing.
  *
  * Isaac is old, blind, and ready to bless his firstborn. Rebekah overhears,
- * plots with Jacob. Jacob deceives his father—goatskins on his arms, venison
+ * plots with Jacob. Jacob deceives his father-goatskins on his arms, venison
  * on the table. Isaac whispers a blessing meant for Esau. By the time Esau
  * returns, Jacob already wears the blessing. The family fractures, and Rebekah
  * never sees Jacob again after sending him away.
@@ -16,13 +16,13 @@ export const GENESIS_27: RichChapterContent = {
 
   estimatedMinutes: { beginner: 12, intermediate: 16, deep: 20 },
   intros: [
-    'Isaac is old. His eyes fail him. He knows the time has come to give his blessing—the prayer that would shape his eldest son&apos;s future, spoken by a dying father, irreversible once spoken. But while Isaac lies in his tent, Rebekah overhears from the doorway. The blessing Isaac means to give Esau is about to go to Jacob instead. And she is going to make it happen.',
+    'Isaac is old. His eyes fail him. He knows the time has come to give his blessing-the prayer that would shape his eldest son&apos;s future, spoken by a dying father, irreversible once spoken. But while Isaac lies in his tent, Rebekah overhears from the doorway. The blessing Isaac means to give Esau is about to go to Jacob instead. And she is going to make it happen.',
     'Genesis 27 is about deception, yes. But it is also about something harder: the cost of what we want. Rebekah gets the blessing moved to Jacob. Esau goes away weeping. And Rebekah, the architect of the scheme, is never named again after this chapter. She stays in Canaan while Jacob flees to Haran and lives as a stranger for twenty years. The text does not moralize. It simply tells you what happened: you got what you wanted, and you paid with what you did not know you had.',
   ],
 
   opener: {
     matchTitle: /Isaac.*Esau|Esau.*blessing/i,
-    caption: 'Genesis 27 — The Stolen Blessing',
+    caption: 'Genesis 27 - The Stolen Blessing',
   },
 
   bottomShare: {
@@ -61,9 +61,9 @@ export const GENESIS_27: RichChapterContent = {
   ],
 
   sections: [
-    /* ─── Genesis 27:1–4 — Isaac&apos;s Command ───────────────────────── */
+    /* ─── Genesis 27:1-4 - Isaac&apos;s Command ───────────────────────── */
     {
-      ref: 'Genesis 27:1–4',
+      ref: 'Genesis 27:1-4',
       title: 'A Blessing Prepared',
       blocks: [
         {
@@ -103,22 +103,22 @@ export const GENESIS_27: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-eyesdim',
-          title: 'Eyes Dim — &ldquo;dimmed with age&rdquo;',
+          title: 'Eyes Dim - &ldquo;dimmed with age&rdquo;',
           script: 'כָּהוּ עֵינָיו',
           translit: '<strong>kahu</strong> · to be dim, to grow weak',
           description:
-            'Isaac cannot see, but the chapter will show us he cannot fully hear either—or rather, he hears only what his body wants him to hear. Blindness is not only physical in this story; it is a kind of willing confusion.',
+            'Isaac cannot see, but the chapter will show us he cannot fully hear either-or rather, he hears only what his body wants him to hear. Blindness is not only physical in this story; it is a kind of willing confusion.',
         },
         {
           kind: 'commentary',
           id: 'c-blessing-power',
           html:
-            'The blessing in the ancient world was not a wish. It was a <em>word with power in it</em>—a father&apos;s prophetic prayer, once spoken, could not be unmade. Isaac knows this. He is moving carefully and ceremonially, with words that have already started to do their work before Esau ever brings the food. By verse 4, the blessing is not waiting—it has already begun.',
+            'The blessing in the ancient world was not a wish. It was a <em>word with power in it</em>-a father&apos;s prophetic prayer, once spoken, could not be unmade. Isaac knows this. He is moving carefully and ceremonially, with words that have already started to do their work before Esau ever brings the food. By verse 4, the blessing is not waiting-it has already begun.',
         },
         {
           kind: 'carry',
           html:
-            'When you know something must change soon and cannot change again, how do you act? Isaac moves with the solemnity of a man running out of time. He calls his son. He names the stakes. He knows what he is about to do will reshape a future he will not live to see. You may be in a moment like that too—a choice that will outlast you, a word you are about to speak that will echo longer than you will. That weight, that careful knowing, is what Isaac carries into this chapter.',
+            'When you know something must change soon and cannot change again, how do you act? Isaac moves with the solemnity of a man running out of time. He calls his son. He names the stakes. He knows what he is about to do will reshape a future he will not live to see. You may be in a moment like that too-a choice that will outlast you, a word you are about to speak that will echo longer than you will. That weight, that careful knowing, is what Isaac carries into this chapter.',
         },
         {
           kind: 'reflection',
@@ -129,9 +129,9 @@ export const GENESIS_27: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 27:5–17 — The Plot ──────────────────────────────────── */
+    /* ─── Genesis 27:5-17 - The Plot ──────────────────────────────────── */
     {
-      ref: 'Genesis 27:5–17',
+      ref: 'Genesis 27:5-17',
       title: 'Rebekah Hears',
       blocks: [
         {
@@ -163,8 +163,7 @@ export const GENESIS_27: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-27-78mid-1',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Jacob, disguised, receives the blessing meant for Esau. Isaac is deceived completely--the words of covenant flow to the wrong son.',
         },
         {
           kind: 'scripture',
@@ -202,7 +201,7 @@ export const GENESIS_27: RichChapterContent = {
           kind: 'commentary',
           id: 'gen27-jacob-objects',
           html:
-            'Jacob&apos;s objection is not moral but practical — he&apos;s afraid of being caught. Rebekah&apos;s answer is just as practical: <em>upon me be thy curse.</em> A mother offering to take a curse for her son sounds noble, but the next chapters show what it actually costs. The deception will hold; the family will not.',
+            'Jacob&apos;s objection is not moral but practical - he&apos;s afraid of being caught. Rebekah&apos;s answer is just as practical: <em>upon me be thy curse.</em> A mother offering to take a curse for her son sounds noble, but the next chapters show what it actually costs. The deception will hold; the family will not.',
         },
         {
           kind: 'scripture',
@@ -261,14 +260,14 @@ export const GENESIS_27: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-deception-pattern',
-          title: 'Christ Connection — The Pattern of God&apos;s Choosing',
+          title: 'Christ Connection - The Pattern of God&apos;s Choosing',
           html:
-            'Jacob is deceiving his way into a blessing that God has already promised he would have (25:23—&ldquo;the elder shall serve the younger&rdquo;). The promise is given. The deception is unnecessary. Yet God, watching Jacob put on goatskins and a dead man&apos;s garments, does not stop him. And later, when Jacob meets God face-to-face at Peniel (32:28), God does not take the blessing back. He renames Jacob &ldquo;Israel.&rdquo; The New Testament says Jesus came not for the righteous but for sinners (Matt. 9:13). The pattern starts here: God blesses the ones who are trying to steal their own blessing, because He has already decided the blessing is theirs.',
+            'Jacob is deceiving his way into a blessing that God has already promised he would have (25:23-&ldquo;the elder shall serve the younger&rdquo;). The promise is given. The deception is unnecessary. Yet God, watching Jacob put on goatskins and a dead man&apos;s garments, does not stop him. And later, when Jacob meets God face-to-face at Peniel (32:28), God does not take the blessing back. He renames Jacob &ldquo;Israel.&rdquo; The New Testament says Jesus came not for the righteous but for sinners (Matt. 9:13). The pattern starts here: God blesses the ones who are trying to steal their own blessing, because He has already decided the blessing is theirs.',
         },
         {
           kind: 'carry',
           html:
-            'There is a deep shame in Jacob&apos;s deception—the shame of taking what you wanted before it was given, of not being able to wait for a promise, of reaching before you can trust. You may have felt that shame. Done the deceiving thing, the shortcutting thing, the taking-it-into-your-own-hands thing, even though you knew God&apos;s promise was already moving toward you. What the text is quietly saying is: that does not cancel the blessing. You still get the blessing. But you will also get what comes with deceiving your way into it.',
+            'There is a deep shame in Jacob&apos;s deception-the shame of taking what you wanted before it was given, of not being able to wait for a promise, of reaching before you can trust. You may have felt that shame. Done the deceiving thing, the shortcutting thing, the taking-it-into-your-own-hands thing, even though you knew God&apos;s promise was already moving toward you. What the text is quietly saying is: that does not cancel the blessing. You still get the blessing. But you will also get what comes with deceiving your way into it.',
         },
         {
           kind: 'reflection',
@@ -279,9 +278,9 @@ export const GENESIS_27: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 27:18–29 — The Voice and the Hands ───────────────────── */
+    /* ─── Genesis 27:18-29 - The Voice and the Hands ───────────────────── */
     {
-      ref: 'Genesis 27:18–29',
+      ref: 'Genesis 27:18-29',
       title: 'The Voice Is Jacob&apos;s',
       blocks: [
         {
@@ -334,7 +333,7 @@ export const GENESIS_27: RichChapterContent = {
           kind: 'commentary',
           id: 'gen27-hands-succeeded',
           html:
-            'The deception succeeds. Isaac feels the hairy hands and his doubt evaporates. The goatskins held. The meal tastes right. The voice is young but it is asking for a blessing. And Isaac proceeds with the blessing—the word that will reshape a future, spoken now, irreversible. The moment of doubt passes, and Isaac surrenders to the deception. He does not continue questioning.',
+            'The deception succeeds. Isaac feels the hairy hands and his doubt evaporates. The goatskins held. The meal tastes right. The voice is young but it is asking for a blessing. And Isaac proceeds with the blessing-the word that will reshape a future, spoken now, irreversible. The moment of doubt passes, and Isaac surrenders to the deception. He does not continue questioning.',
         },
         {
           kind: 'scripture',
@@ -384,25 +383,25 @@ export const GENESIS_27: RichChapterContent = {
           kind: 'commentary',
           id: 'c-voice-hands',
           html:
-            'The most famous moment: Isaac&apos;s doubt. The voice is Jacob&apos;s voice, but the hands—those goatskin-wrapped hands—are Esau&apos;s. Isaac senses something is wrong. He hesitates. But the blessing is already pushing forward through his lips. He feels the hairy arms, smells what he expects to smell, eats what tastes right, and the hesitation dissolves. Doubt and desire collide, and desire wins. Isaac goes on blessing.',
+            'The most famous moment: Isaac&apos;s doubt. The voice is Jacob&apos;s voice, but the hands-those goatskin-wrapped hands-are Esau&apos;s. Isaac senses something is wrong. He hesitates. But the blessing is already pushing forward through his lips. He feels the hairy arms, smells what he expects to smell, eats what tastes right, and the hesitation dissolves. Doubt and desire collide, and desire wins. Isaac goes on blessing.',
         },
         {
           kind: 'commentary',
           id: 'c-kiss',
           html:
-            'A father and son embrace. Isaac leans close enough to smell his raiment—and in that moment of physical intimacy, the deception succeeds completely. The smell of Esau&apos;s field-clothes seals what the goatskins began. Jacob&apos;s body is no longer himself in Isaac&apos;s senses; it is Esau.',
+            'A father and son embrace. Isaac leans close enough to smell his raiment-and in that moment of physical intimacy, the deception succeeds completely. The smell of Esau&apos;s field-clothes seals what the goatskins began. Jacob&apos;s body is no longer himself in Isaac&apos;s senses; it is Esau.',
         },
         {
           kind: 'christ',
           id: 'christ-senses-deceived',
-          title: 'Christ Connection — Truth Beneath the Deception',
+          title: 'Christ Connection - Truth Beneath the Deception',
           html:
-            'Isaac&apos;s senses are confused, but the blessing he speaks is true. &ldquo;Be lord over thy brethren&rdquo;—that is exactly what God promised Jacob in 25:23. The one who blessed is blind and confused. The one who deceived spoke the truth only when he was lying. The irony is stinging: Jacob gets a true blessing through deception, while Isaac, the patriarch of honesty, pronounces a true word while being fooled. This is not how blessing is supposed to work—and yet it does. God, it seems, is not constrained by the honesty of the moment.',
+            'Isaac&apos;s senses are confused, but the blessing he speaks is true. &ldquo;Be lord over thy brethren&rdquo;-that is exactly what God promised Jacob in 25:23. The one who blessed is blind and confused. The one who deceived spoke the truth only when he was lying. The irony is stinging: Jacob gets a true blessing through deception, while Isaac, the patriarch of honesty, pronounces a true word while being fooled. This is not how blessing is supposed to work-and yet it does. God, it seems, is not constrained by the honesty of the moment.',
         },
         {
           kind: 'carry',
           html:
-            'Have you ever gotten exactly what you needed—comfort, help, a word that changed you—from someone or something that wasn&apos;t really what you needed on the surface? Have you ever spoken a true thing while angry, or received a true blessing from a place of confusion? The world is not supposed to work that way, and yet it does. God moves through the deception. Not because the deception is good—it isn&apos;t. But because the blessing is older than the lying, and nothing Jacob does in this tent can unmake it.',
+            'Have you ever gotten exactly what you needed-comfort, help, a word that changed you-from someone or something that wasn&apos;t really what you needed on the surface? Have you ever spoken a true thing while angry, or received a true blessing from a place of confusion? The world is not supposed to work that way, and yet it does. God moves through the deception. Not because the deception is good-it isn&apos;t. But because the blessing is older than the lying, and nothing Jacob does in this tent can unmake it.',
         },
         {
           kind: 'reflection',
@@ -413,9 +412,9 @@ export const GENESIS_27: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 27:30–40 — Esau Returns ──────────────────────────────── */
+    /* ─── Genesis 27:30-40 - Esau Returns ──────────────────────────────── */
     {
-      ref: 'Genesis 27:30–40',
+      ref: 'Genesis 27:30-40',
       title: 'Too Late',
       blocks: [
         {
@@ -470,7 +469,7 @@ export const GENESIS_27: RichChapterContent = {
           kind: 'commentary',
           id: 'gen27-esau-understands',
           html:
-            'In one sentence, Isaac tells Esau what happened: your brother deceived you and stole your blessing. The truth is laid bare. Jacob came with subtilty—with cunning, with design. And he took what was yours. Isaac does not excuse the deception. He names it clearly. And now Esau understands: his loss was not an accident. It was orchestrated. Someone he loved conspired against him.',
+            'In one sentence, Isaac tells Esau what happened: your brother deceived you and stole your blessing. The truth is laid bare. Jacob came with subtilty-with cunning, with design. And he took what was yours. Isaac does not excuse the deception. He names it clearly. And now Esau understands: his loss was not an accident. It was orchestrated. Someone he loved conspired against him.',
         },
         {
           kind: 'scripture',
@@ -531,7 +530,7 @@ export const GENESIS_27: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-jacob-name',
-          title: 'Jacob — &ldquo;supplanter, heel-catcher&rdquo;',
+          title: 'Jacob - &ldquo;supplanter, heel-catcher&rdquo;',
           script: 'יַעֲקֹב',
           translit: '<strong>Ya&apos;akov</strong> · one who grasps the heel, one who supplants',
           description:
@@ -540,9 +539,9 @@ export const GENESIS_27: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-esau-weeping',
-          title: 'Christ Connection — Esau and Weeping Repentance',
+          title: 'Christ Connection - Esau and Weeping Repentance',
           html:
-            'In Hebrews 12:16–17, the author warns against being like Esau: &ldquo;who for one morsel of meat sold his birthright. For ye know how that afterward, when he would have inherited the blessing, he was rejected: for he found no place of repentance, though he sought it carefully with tears.&rdquo; Esau wept. He sought repentance. But the blessing, once given, was unalterable. The author of Hebrews uses Esau as a mirror: some choices, once made, reshape the entire contour of what comes after. Esau&apos;s grief is genuine—and it is also final.',
+            'In Hebrews 12:16-17, the author warns against being like Esau: &ldquo;who for one morsel of meat sold his birthright. For ye know how that afterward, when he would have inherited the blessing, he was rejected: for he found no place of repentance, though he sought it carefully with tears.&rdquo; Esau wept. He sought repentance. But the blessing, once given, was unalterable. The author of Hebrews uses Esau as a mirror: some choices, once made, reshape the entire contour of what comes after. Esau&apos;s grief is genuine-and it is also final.',
         },
         {
           kind: 'carry',
@@ -553,14 +552,14 @@ export const GENESIS_27: RichChapterContent = {
           kind: 'reflection',
           id: 'esau-loss',
           prompt:
-            'When have you felt like Esau—asking for something you thought was yours, only to find it already given to someone else? How did you hold that?',
+            'When have you felt like Esau-asking for something you thought was yours, only to find it already given to someone else? How did you hold that?',
         },
       ],
     },
 
-    /* ─── Genesis 27:41–46 — The Breaking ──────────────────────────────── */
+    /* ─── Genesis 27:41-46 - The Breaking ──────────────────────────────── */
     {
-      ref: 'Genesis 27:41–46',
+      ref: 'Genesis 27:41-46',
       title: 'Rebekah Sends Jacob Away',
       blocks: [
         {
@@ -611,34 +610,34 @@ export const GENESIS_27: RichChapterContent = {
           kind: 'commentary',
           id: 'c-esau-hate',
           html:
-            'Esau&apos;s grief turns to rage. He has been dishonored in front of his father. The blessing that shaped his future has been taken by his younger brother. In his mind, there is one solution: Jacob must die. But not yet—not while Isaac lives, because he will not shame his dying father with fratricide. [res:sefaria-genesis-27] So Esau makes a mental note. When Isaac is dead, Jacob will pay.',
+            'Esau&apos;s grief turns to rage. He has been dishonored in front of his father. The blessing that shaped his future has been taken by his younger brother. In his mind, there is one solution: Jacob must die. But not yet-not while Isaac lives, because he will not shame his dying father with fratricide. [res:sefaria-genesis-27] So Esau makes a mental note. When Isaac is dead, Jacob will pay.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-hate-esau',
-          title: 'Hate — &ldquo;sane&apos;&rdquo;',
+          title: 'Hate - &ldquo;sane&apos;&rdquo;',
           script: 'שָׂנֵא',
           translit: '<strong>sane&apos;</strong> · to hate, to regard with hostility',
           description:
-            'The same word appears in 29:31, where Leah &ldquo;was hated&rdquo; (sane&apos;ah)—less loved—by Jacob. Hatred in Scripture is often about being reduced in value, being placed second, being passed over. Esau is experiencing both: his identity as the firstborn has been overridden, and his brother is now the one his father loves.',
+            'The same word appears in 29:31, where Leah &ldquo;was hated&rdquo; (sane&apos;ah)-less loved-by Jacob. Hatred in Scripture is often about being reduced in value, being placed second, being passed over. Esau is experiencing both: his identity as the firstborn has been overridden, and his brother is now the one his father loves.',
         },
         {
           kind: 'commentary',
           id: 'c-rebekah-pays',
           html:
-            'Rebekah hears that Esau is planning to kill Jacob. She sends her younger son away. Notice what she does not do: she does not confess to Isaac. She does not ask for his help. She cannot face what she has done. Instead, she invents a cover story—something about the daughters of Heth being unsuitable wives—and sends Jacob away to her brother Laban in Haran. [res:iaa-israel-sites] &ldquo;A few days,&rdquo; she tells him, &ldquo;until thy brother&apos;s fury turn away.&rdquo; Jacob will be gone twenty years. The text says nothing more about Rebekah and Jacob together. They never see each other again.',
+            'Rebekah hears that Esau is planning to kill Jacob. She sends her younger son away. Notice what she does not do: she does not confess to Isaac. She does not ask for his help. She cannot face what she has done. Instead, she invents a cover story-something about the daughters of Heth being unsuitable wives-and sends Jacob away to her brother Laban in Haran. [res:iaa-israel-sites] &ldquo;A few days,&rdquo; she tells him, &ldquo;until thy brother&apos;s fury turn away.&rdquo; Jacob will be gone twenty years. The text says nothing more about Rebekah and Jacob together. They never see each other again.',
         },
         {
           kind: 'christ',
           id: 'christ-cost-of-winning',
-          title: 'Christ Connection — The Cost of the Blessing',
+          title: 'Christ Connection - The Cost of the Blessing',
           html:
-            'Rebekah got what she wanted. Jacob was blessed. But the blessing came with a price she did not anticipate—exile, separation from her favorite son for two decades, and the fracturing of her family. The Bible does not promise that if you get the thing you were scheming for, your life will be simple. It shows you what it costs: relationships broken, families split, a woman who plotted so carefully for her son&apos;s future never to hold him again. Jesus will later teach: &ldquo;What shall it profit a man, if he shall gain the whole world, and lose his own soul?&rdquo; (Matt. 16:26). Rebekah gained the blessing she was after. She lost her son.',
+            'Rebekah got what she wanted. Jacob was blessed. But the blessing came with a price she did not anticipate-exile, separation from her favorite son for two decades, and the fracturing of her family. The Bible does not promise that if you get the thing you were scheming for, your life will be simple. It shows you what it costs: relationships broken, families split, a woman who plotted so carefully for her son&apos;s future never to hold him again. Jesus will later teach: &ldquo;What shall it profit a man, if he shall gain the whole world, and lose his own soul?&rdquo; (Matt. 16:26). Rebekah gained the blessing she was after. She lost her son.',
         },
         {
           kind: 'carry',
           html:
-            'There is a very human desire to arrange things so that the people we love get ahead. We see our children struggling, our siblings overlooked, and we scheme. We cannot help it. We think: if I just move this piece into place, if I just make this one thing happen, they will be okay. And sometimes we succeed. We get our way. We move the blessing. And then we have to live with what came with it. Not as punishment from God—just as the simple shape of a world where actions ripple further than we can see.',
+            'There is a very human desire to arrange things so that the people we love get ahead. We see our children struggling, our siblings overlooked, and we scheme. We cannot help it. We think: if I just move this piece into place, if I just make this one thing happen, they will be okay. And sometimes we succeed. We get our way. We move the blessing. And then we have to live with what came with it. Not as punishment from God-just as the simple shape of a world where actions ripple further than we can see.',
         },
         {
           kind: 'reflection',
@@ -660,18 +659,18 @@ export const GENESIS_27: RichChapterContent = {
         {
           kind: 'commentary',
           html:
-            'Genesis 27 does not end with a moral. It ends with a fracture. A mother sends her favored son away. A father has blessed the wrong child—or rather, the right child by deception. Esau plots murder. The household is broken. And the blessing, once transferred, cannot be taken back. These are the stakes. Not &ldquo;do not deceive&rdquo;—though the chapter shows deception. Not &ldquo;take your turn to be blessed&rdquo;—though that would be easier. But: this is what it looks like when we take our future into our own hands, when we cannot wait for God&apos;s timing, when we love someone so much that we are willing to break everything to secure them a good.',
+            'Genesis 27 does not end with a moral. It ends with a fracture. A mother sends her favored son away. A father has blessed the wrong child-or rather, the right child by deception. Esau plots murder. The household is broken. And the blessing, once transferred, cannot be taken back. These are the stakes. Not &ldquo;do not deceive&rdquo;-though the chapter shows deception. Not &ldquo;take your turn to be blessed&rdquo;-though that would be easier. But: this is what it looks like when we take our future into our own hands, when we cannot wait for God&apos;s timing, when we love someone so much that we are willing to break everything to secure them a good.',
         },
         {
           kind: 'artwork',
           matchTitle: /Jacob.*disguise|Isaac.*Rebekah/i,
-          caption: 'Genesis 27:1–46 · The Stolen Blessing',
+          caption: 'Genesis 27:1-46 · The Stolen Blessing',
         },
         {
           kind: 'reflection',
           id: 'genesis-27-weight',
           prompt:
-            'What did you notice about yourself as you read this chapter? Where did your heart go—with Rebekah, with Jacob, with Esau, with Isaac?',
+            'What did you notice about yourself as you read this chapter? Where did your heart go-with Rebekah, with Jacob, with Esau, with Isaac?',
         },
       ],
     },

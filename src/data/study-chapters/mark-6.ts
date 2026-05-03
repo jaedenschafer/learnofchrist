@@ -43,7 +43,7 @@ export const MARK_6: RichChapterContent = {
           kind: 'commentary',
           id: 'mark-6-78mid-1',
           html:
-            'John the Baptist is executed at Herod's table; the apostles return to Jesus with news. From death comes prayer; from darkness comes the one who is the light.',
+            'John the Baptist is executed at Herod&apos;s table; the apostles return to Jesus with news. From death comes prayer; from darkness comes the one who is the light.',
         },
         {
           kind: 'scripture',

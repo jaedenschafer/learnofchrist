@@ -31,6 +31,17 @@ export const JOB_22: RichChapterContent = {
     ref: 'Job 22 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     /* ─── Job 22:1–11 — The False Accusations ──────────────────────── */
     {
@@ -65,7 +76,7 @@ export const JOB_22: RichChapterContent = {
           kind: 'commentary',
           id: 'job22-accuse-crimes',
           html:
-            'Eliphaz begins not with abstract theology but with concrete accusations. He paints Job as a man who steals pledges, who robs the poor of their clothing, who deprives the hungry and thirsty of relief. These are not theological claims. These are criminal charges. And they are completely invented.',
+            'Eliphaz begins not with abstract theology but with concrete accusations. He paints Job as a man who steals pledges, who robs the poor of their clothing, who deprives the hungry and thirsty of relief. These are not theological claims. These are criminal charges. And they are completely invented. [res:british-museum-ludlul]',
         },
         {
           kind: 'scripture',

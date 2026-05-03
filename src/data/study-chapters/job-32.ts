@@ -25,6 +25,17 @@ export const JOB_32: RichChapterContent = {
     ref: 'Job 32 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-theodicy',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Theodicy',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Ancient Akkadian dialogue on divine justice, suffering, and retribution.',
+    },
+  ],
+
   sections: [
     /* ─── Job 32:1–5 — A Young Man&apos;s Frustration ────────────────────── */
     {
@@ -46,7 +57,7 @@ export const JOB_32: RichChapterContent = {
           kind: 'commentary',
           id: 'job32-three-cease',
           html:
-            'The three friends have stopped speaking. They have exhausted their arguments. Yet their silence is not peaceful acceptance—it is defeat. They have not convinced Job. Job still justifies himself. And in that moment of stalemate, Elihu&apos;s wrath is kindled.',
+            'The three friends have stopped speaking. They have exhausted their arguments. Yet their silence is not peaceful acceptance—it is defeat. They have not convinced Job. Job still justifies himself. And in that moment of stalemate, Elihu&apos;s wrath is kindled. [res:british-museum-theodicy]',
         },
         {
           kind: 'commentary',

@@ -1,15 +1,15 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 22 — the Akedah, the binding of Isaac.
+ * Genesis 22 - the Akedah, the binding of Isaac.
  *
  * Nineteen verses, every line weighted. The threefold promise of Genesis 12
- * rests on Isaac—the son of the impossible promise, born when Abraham was
+ * rests on Isaac-the son of the impossible promise, born when Abraham was
  * a hundred years old. Then God asks for him back. Three days. A mountain.
  * "Where is the lamb?" And at the last moment, a ram caught in the thicket,
  * and a name: YHWH-Yireh, "the LORD will provide."
  *
- * This is the densest typology in Genesis—a foreshadow so specific that
+ * This is the densest typology in Genesis-a foreshadow so specific that
  * Jesus Himself pointed to it. Abraham saw His day.
  */
 export const GENESIS_22: RichChapterContent = {
@@ -19,15 +19,15 @@ export const GENESIS_22: RichChapterContent = {
 
   estimatedMinutes: { beginner: 9, intermediate: 15, deep: 20 },
   intros: [
-    'Abraham has waited ninety-nine years for the promise. Isaac, born when he was a hundred and his wife was past bearing age, is the entire future—the heir through whom all the nations of the earth would be blessed. Three times God made that covenant: in Genesis 12, Genesis 15, and Genesis 17. Every promise hinges on this boy.',
-    'And then, in Genesis 22, God makes a request that seems to unmake everything. "Take now thy son, thine only son Isaac, whom thou lovest, and get thee into the land of Moriah; and offer him there for a burnt offering upon one of the mountains which I will tell thee of." Abraham is seventy-five when God first calls him. He is now past one hundred twenty, and God asks him to surrender the future He Himself gave. The chapter is the Bible\'s deepest meditation on faith—not as feeling safe, but as trusting God when every rational thing you see says He has abandoned you.',
+    'Abraham has waited ninety-nine years for the promise. Isaac, born when he was a hundred and his wife was past bearing age, is the entire future-the heir through whom all the nations of the earth would be blessed. Three times God made that covenant: in Genesis 12, Genesis 15, and Genesis 17. Every promise hinges on this boy.',
+    'And then, in Genesis 22, God makes a request that seems to unmake everything. "Take now thy son, thine only son Isaac, whom thou lovest, and get thee into the land of Moriah; and offer him there for a burnt offering upon one of the mountains which I will tell thee of." Abraham is seventy-five when God first calls him. He is now past one hundred twenty, and God asks him to surrender the future He Himself gave. The chapter is the Bible\'s deepest meditation on faith-not as feeling safe, but as trusting God when every rational thing you see says He has abandoned you.',
     'It is also, though the chapter never names it, a profound act of substitution. A ram dies so Isaac lives. And in the New Testament, [res:bibleodyssey-abraham-isaac] the Apostles will point back to this mountain and say: that was a picture of what happened on another mountain, in another land, where a Lamb died so that the world could live.',
   ],
 
   sections: [
-    /* ─── Genesis 22:1–2 — The Test ───────────────────────────────────── */
+    /* ─── Genesis 22:1-2 - The Test ───────────────────────────────────── */
     {
-      ref: 'Genesis 22:1–2',
+      ref: 'Genesis 22:1-2',
       title: 'The Test',
       blocks: [
         {
@@ -60,21 +60,21 @@ export const GENESIS_22: RichChapterContent = {
           kind: 'commentary',
           id: 'c-test-meaning',
           html:
-            'The word "tempt" here does not mean to seduce into evil—it means to test, to try, as a metalsmith tests gold in fire. God is not asking Abraham to sin. God is asking Abraham to prove whether he trusts the promise more than the promise-bearer. "Do you believe in Me, or do you only believe in what I gave you?"',
+            'The word "tempt" here does not mean to seduce into evil-it means to test, to try, as a metalsmith tests gold in fire. God is not asking Abraham to sin. God is asking Abraham to prove whether he trusts the promise more than the promise-bearer. "Do you believe in Me, or do you only believe in what I gave you?"',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-na-son',
-          title: 'Na — &ldquo;now, I pray, please&rdquo;',
+          title: 'Na - &ldquo;now, I pray, please&rdquo;',
           script: 'נָא',
           translit: '<strong>na</strong> · particle of urgent, intimate request',
           description:
-            'The Hebrew <em>na</em> (pronounced "nah") is a particle that softens a command into a request—a "please." It is the particle of deep feeling, of asking rather than demanding. Even God uses it when the weight of what is being asked is genuine. "Take, I ask you... thy son." This is not a cold command; it is a request that costs the speaker.',
+            'The Hebrew <em>na</em> (pronounced "nah") is a particle that softens a command into a request-a "please." It is the particle of deep feeling, of asking rather than demanding. Even God uses it when the weight of what is being asked is genuine. "Take, I ask you... thy son." This is not a cold command; it is a request that costs the speaker.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-moriah',
-          title: 'Moriah — &ldquo;the LORD will see&rdquo;',
+          title: 'Moriah - &ldquo;the LORD will see&rdquo;',
           script: 'מֹרִיָּה',
           translit: '<strong>Moriah</strong> · from <strong>ra\'ah</strong>, "to see" + <strong>YHWH</strong>',
           description:
@@ -83,26 +83,26 @@ export const GENESIS_22: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-spared-son',
-          title: 'Christ Connection — A Father\'s Surrender',
+          title: 'Christ Connection - A Father\'s Surrender',
           html:
             'Centuries later, Paul writes of this moment and hears in it an echo of the Cross: "He that spared not his own Son, but delivered him up for us all, how shall he not with him also freely give us all things?" (Rom. 8:32). The Greek word for "spared" is the same word used in the Greek Old Testament translation here. Abraham\'s willingness to surrender his son becomes the mirror of God the Father\'s actual surrender of His Son. Except God does not stop His knife. The Lamb on the second mountain actually dies[res:sefaria-genesis-22][res:orientalinstitute-akedah-mountains].',
         },
         {
           kind: 'carry',
           html:
-            'God\'s first request is not easy, and the chapter does not pretend it is. When the thing you love most is asked of you—your child, your future, your promise, your dream—the only way forward is the simple word Abraham spoke: "Behold, here I am." You do not have to feel ready. You have to show up and be present to what God is asking. That willingness is where faith begins.',
+            'God\'s first request is not easy, and the chapter does not pretend it is. When the thing you love most is asked of you-your child, your future, your promise, your dream-the only way forward is the simple word Abraham spoke: "Behold, here I am." You do not have to feel ready. You have to show up and be present to what God is asking. That willingness is where faith begins.',
         },
         {
           kind: 'reflection',
           id: 'gen22-behold',
-          prompt: 'What is the deepest thing you love right now? If God asked you for it, could you say "Behold, here I am"—not happily, but honestly, and ready to listen?',
+          prompt: 'What is the deepest thing you love right now? If God asked you for it, could you say "Behold, here I am"-not happily, but honestly, and ready to listen?',
         },
       ],
     },
 
-    /* ─── Genesis 22:3–8 — The Journey ───────────────────────────────── */
+    /* ─── Genesis 22:3-8 - The Journey ───────────────────────────────── */
     {
-      ref: 'Genesis 22:3–8',
+      ref: 'Genesis 22:3-8',
       title: 'The Three-Day Journey',
       blocks: [
         {
@@ -157,7 +157,7 @@ export const GENESIS_22: RichChapterContent = {
           kind: 'commentary',
           id: 'c-early-obedience',
           html:
-            'Abraham does not delay. He does not counsel with Sarah. He does not sleep on it and hope God changes His mind by morning. He wakes before dawn and begins. This is the obedience that faith looks like when faith has no feeling of assurance left—the body moving even when the heart is breaking.',
+            'Abraham does not delay. He does not counsel with Sarah. He does not sleep on it and hope God changes His mind by morning. He wakes before dawn and begins. This is the obedience that faith looks like when faith has no feeling of assurance left-the body moving even when the heart is breaking.',
         },
         {
           kind: 'commentary',
@@ -169,14 +169,14 @@ export const GENESIS_22: RichChapterContent = {
           kind: 'commentary',
           id: 'c-come-again',
           html:
-            'Abraham tells the young men, "The lad and I will go yonder and worship, and come again to you." He says it as though he believes it. The chapter does not tell us whether Abraham\'s faith has a loophole—does he expect God to stop him at the last second?—or whether he has somehow, impossibly, committed to losing his son forever and to watching God raise him from the dead (as Hebrews 11:19 tells us he did). Either way, his voice, speaking to the servants, is the voice of a man betting everything on God.',
+            'Abraham tells the young men, "The lad and I will go yonder and worship, and come again to you." He says it as though he believes it. The chapter does not tell us whether Abraham\'s faith has a loophole-does he expect God to stop him at the last second?-or whether he has somehow, impossibly, committed to losing his son forever and to watching God raise him from the dead (as Hebrews 11:19 tells us he did). Either way, his voice, speaking to the servants, is the voice of a man betting everything on God.',
         },
         {
           kind: 'christ',
           id: 'christ-lamb-replacement',
-          title: 'Christ Connection — The Lamb God Will Provide',
+          title: 'Christ Connection - The Lamb God Will Provide',
           html:
-            'Isaac asks the question every child in that era would ask: where is the lamb? Abraham\'s answer is not a dodge. It is a declaration: "God will provide Himself a lamb." The Hebrew phrase is <em>Elohim yireh lo avetz</em>—the LORD will see/provide for himself the lamb. Fourteen verses later, a ram appears "caught in a thicket by his horns" (22:13), and Abraham names the place "Jehovah-jireh, as it is said to this day, In the mount of the LORD it shall be seen [provided]." But the chapter is not ultimately about a ram. It is about the Lamb. John the Baptist, standing at the Jordan centuries later, points at Jesus and says: "Behold the Lamb of God, which taketh away the sin of the world" (John 1:29). Abraham\'s words were true in a way he could not yet have imagined.',
+            'Isaac asks the question every child in that era would ask: where is the lamb? Abraham\'s answer is not a dodge. It is a declaration: "God will provide Himself a lamb." The Hebrew phrase is <em>Elohim yireh lo avetz</em>-the LORD will see/provide for himself the lamb. Fourteen verses later, a ram appears "caught in a thicket by his horns" (22:13), and Abraham names the place "Jehovah-jireh, as it is said to this day, In the mount of the LORD it shall be seen [provided]." But the chapter is not ultimately about a ram. It is about the Lamb. John the Baptist, standing at the Jordan centuries later, points at Jesus and says: "Behold the Lamb of God, which taketh away the sin of the world" (John 1:29). Abraham\'s words were true in a way he could not yet have imagined.',
         },
         {
           kind: 'carry',
@@ -191,9 +191,9 @@ export const GENESIS_22: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 22:9–12 — The Knife ─────────────────────────────────── */
+    /* ─── Genesis 22:9-12 - The Knife ─────────────────────────────────── */
     {
-      ref: 'Genesis 22:9–12',
+      ref: 'Genesis 22:9-12',
       title: 'The Test of the Knife',
       blocks: [
         {
@@ -250,14 +250,14 @@ export const GENESIS_22: RichChapterContent = {
           kind: 'commentary',
           id: 'c-stop-now',
           html:
-            'The angel says: "Now I know that thou fearest God." Not "now you have decided to obey" or "now you have said you would trust." But "now I know"—because you have walked all the way to the edge. The trial is not about whether Abraham had good intentions. It is about whether, when the moment came and obedience cost everything, he obeyed. God does not stop him because He never wanted the sacrifice. He stops him because He wanted the heart—the whole heart, the surrendered heart, the heart that walks toward the mountain with the knife in its hand.',
+            'The angel says: "Now I know that thou fearest God." Not "now you have decided to obey" or "now you have said you would trust." But "now I know"-because you have walked all the way to the edge. The trial is not about whether Abraham had good intentions. It is about whether, when the moment came and obedience cost everything, he obeyed. God does not stop him because He never wanted the sacrifice. He stops him because He wanted the heart-the whole heart, the surrendered heart, the heart that walks toward the mountain with the knife in its hand.',
         },
         {
           kind: 'christ',
           id: 'christ-angel-stops',
-          title: 'Christ Connection — The Angel\'s Intervention',
+          title: 'Christ Connection - The Angel\'s Intervention',
           html:
-            'An angel stops Abraham\'s hand. But when Jesus came to His own mountain, at His own altar, no angel stopped the knife. Instead, He drank the cup to the bottom. "Not my will," He prayed in the garden, "but thine be done" (Luke 22:42)—the same prayer Abraham lived out on Moriah. Jesus walked all the way to the end of that substitution. He did not say "I am willing." He said, and He meant it: I will lay down my life for the world. Abraham\'s test was stayed. Christ\'s was not. But the same faithful God who stopped the knife on Moriah raised His Son from the dead on the third day.',
+            'An angel stops Abraham\'s hand. But when Jesus came to His own mountain, at His own altar, no angel stopped the knife. Instead, He drank the cup to the bottom. "Not my will," He prayed in the garden, "but thine be done" (Luke 22:42)-the same prayer Abraham lived out on Moriah. Jesus walked all the way to the end of that substitution. He did not say "I am willing." He said, and He meant it: I will lay down my life for the world. Abraham\'s test was stayed. Christ\'s was not. But the same faithful God who stopped the knife on Moriah raised His Son from the dead on the third day.',
         },
         {
           kind: 'carry',
@@ -267,14 +267,14 @@ export const GENESIS_22: RichChapterContent = {
         {
           kind: 'reflection',
           id: 'gen22-hand',
-          prompt: 'What are you still holding onto, despite God asking you to let it go? What would change if you opened your hands—not because the pain would stop, but because you trust the God who asked?',
+          prompt: 'What are you still holding onto, despite God asking you to let it go? What would change if you opened your hands-not because the pain would stop, but because you trust the God who asked?',
         },
       ],
     },
 
-    /* ─── Genesis 22:13–14 — The Ram and the Name ──────────────────────── */
+    /* ─── Genesis 22:13-14 - The Ram and the Name ──────────────────────── */
     {
-      ref: 'Genesis 22:13–14',
+      ref: 'Genesis 22:13-14',
       title: 'The Ram Caught in the Thicket',
       blocks: [
         {
@@ -310,29 +310,29 @@ export const GENESIS_22: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-yireh-name',
-          title: 'Yireh — &ldquo;the LORD will see/provide&rdquo;',
+          title: 'Yireh - &ldquo;the LORD will see/provide&rdquo;',
           script: 'יִרְאֶה',
           translit: '<strong>yireh</strong> · from <strong>ra\'ah</strong>, "to see"; Jehovah-yireh = "the LORD will see"',
           description:
-            'The Hebrew root <strong>ra\'ah</strong> carries both meanings: "to see" and "to provide/appear." Jehovah-jireh literally means "the LORD will see"—He will see what is needed, He will appear with what is needed, He will provide what His people cannot see or imagine on their own. This name echoes Abraham\'s words in verse 8: "God will provide himself a lamb." Now, after the substitute has appeared, Abraham names the place in commemoration.',
+            'The Hebrew root <strong>ra\'ah</strong> carries both meanings: "to see" and "to provide/appear." Jehovah-jireh literally means "the LORD will see"-He will see what is needed, He will appear with what is needed, He will provide what His people cannot see or imagine on their own. This name echoes Abraham\'s words in verse 8: "God will provide himself a lamb." Now, after the substitute has appeared, Abraham names the place in commemoration.',
         },
         {
           kind: 'commentary',
           id: 'c-name-meaning',
           html:
-            'The phrase "In the mount of the LORD it shall be seen" (or "provided") becomes a proverb. Every generation that hears this story will understand it: <em>On the LORD\'s mountain, provision appears.</em> Moriah becomes the place where God\'s seeing—His attention, His care, His willingness to provide—becomes tangible. It is where a ram appears when a ram is needed. It is where, later, a temple is built. And it is where, far later still, on a mount within sight of Moriah, another Lamb appears, provided by God Himself for the sins of the world.',
+            'The phrase "In the mount of the LORD it shall be seen" (or "provided") becomes a proverb. Every generation that hears this story will understand it: <em>On the LORD\'s mountain, provision appears.</em> Moriah becomes the place where God\'s seeing-His attention, His care, His willingness to provide-becomes tangible. It is where a ram appears when a ram is needed. It is where, later, a temple is built. And it is where, far later still, on a mount within sight of Moriah, another Lamb appears, provided by God Himself for the sins of the world.',
         },
         {
           kind: 'artwork',
           matchTitle: /sacrifice of isaac|binding of isaac|abraham and isaac/i,
-          caption: 'Genesis 22:13–14 · The Ram Caught in the Thicket',
+          caption: 'Genesis 22:13-14 · The Ram Caught in the Thicket',
         },
         {
           kind: 'christ',
           id: 'christ-ram-crown',
-          title: 'Christ Connection — The Crown of Horns',
+          title: 'Christ Connection - The Crown of Horns',
           html:
-            'The ram is caught by its horns. When Christ came to His substitution, Matthew tells us the soldiers plaited a crown of thorns and put it upon His head (Matt. 27:29). Thorns are the curse of Genesis 3—the curse that grows from the ground Adam was told he would cultivate in sweat. A crown of thorns is curse as crown, shame as glory. The ram caught by its horns in the thicket is the Old Testament shadow of the Lamb caught in a crown of thorns on Golgotha. Both die in the stead of those who deserve to die. Both become the provision of God.',
+            'The ram is caught by its horns. When Christ came to His substitution, Matthew tells us the soldiers plaited a crown of thorns and put it upon His head (Matt. 27:29). Thorns are the curse of Genesis 3-the curse that grows from the ground Adam was told he would cultivate in sweat. A crown of thorns is curse as crown, shame as glory. The ram caught by its horns in the thicket is the Old Testament shadow of the Lamb caught in a crown of thorns on Golgotha. Both die in the stead of those who deserve to die. Both become the provision of God.',
         },
         {
           kind: 'carry',
@@ -347,9 +347,9 @@ export const GENESIS_22: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 22:15–18 — The Covenant Renewed ─────────────────────── */
+    /* ─── Genesis 22:15-18 - The Covenant Renewed ─────────────────────── */
     {
-      ref: 'Genesis 22:15–18',
+      ref: 'Genesis 22:15-18',
       title: 'The Covenant Renewed',
       blocks: [
         {
@@ -396,25 +396,25 @@ export const GENESIS_22: RichChapterContent = {
           kind: 'commentary',
           id: 'c-oath-sworn',
           html:
-            '"By myself have I sworn," the LORD says. God does not swear by a higher power; there is no higher authority. He swears by Himself. His own nature is the guarantee. And the oath is conditional—"because thou hast done this thing, because thou hast not withheld thy son." Abraham\'s willingness to surrender everything he was promised has, paradoxically, confirmed the promise. His willingness to lose it has secured it.',
+            '"By myself have I sworn," the LORD says. God does not swear by a higher power; there is no higher authority. He swears by Himself. His own nature is the guarantee. And the oath is conditional-"because thou hast done this thing, because thou hast not withheld thy son." Abraham\'s willingness to surrender everything he was promised has, paradoxically, confirmed the promise. His willingness to lose it has secured it.',
         },
         {
           kind: 'christ',
           id: 'christ-blessing-nations',
-          title: 'Christ Connection — All Nations Blessed',
+          title: 'Christ Connection - All Nations Blessed',
           html:
-            'The promise echoes what God said in Genesis 12: "In thee shall all families of the earth be blessed." Now, after the test, it is deepened and secured. The angel makes it clear: this blessing to the nations comes because of Abraham\'s obedience. Paul unpacks it: "Even as Abraham believed God, and it was accounted to him for righteousness... So then they which be of faith are blessed with faithful Abraham" (Gal. 3:6–7, 9). And Galatians 3:16 says this blessing to "all nations" points specifically to Christ: "Now to Abraham and his seed were the promises made... which is Christ."',
+            'The promise echoes what God said in Genesis 12: "In thee shall all families of the earth be blessed." Now, after the test, it is deepened and secured. The angel makes it clear: this blessing to the nations comes because of Abraham\'s obedience. Paul unpacks it: "Even as Abraham believed God, and it was accounted to him for righteousness... So then they which be of faith are blessed with faithful Abraham" (Gal. 3:6-7, 9). And Galatians 3:16 says this blessing to "all nations" points specifically to Christ: "Now to Abraham and his seed were the promises made... which is Christ."',
         },
         {
           kind: 'artwork',
           matchTitle: /abraham|covenant|promise/i,
           matchArtist: /caravaggio|rembrandt/i,
-          caption: 'Genesis 22:15–18 · The Covenant Renewed',
+          caption: 'Genesis 22:15-18 · The Covenant Renewed',
         },
         {
           kind: 'carry',
           html:
-            'When you have finally, completely, let go of what matters most, the next word from God is not rebuke. It is blessing. Not comfort, necessarily—the pain of having offered Isaac does not erase—but a kind of blessing that says: your obedience was not wasted. It was the thing that changed everything. Whatever you have surrendered at God\'s command becomes the door through which His blessing flows, not just to you, but through you to the world.',
+            'When you have finally, completely, let go of what matters most, the next word from God is not rebuke. It is blessing. Not comfort, necessarily-the pain of having offered Isaac does not erase-but a kind of blessing that says: your obedience was not wasted. It was the thing that changed everything. Whatever you have surrendered at God\'s command becomes the door through which His blessing flows, not just to you, but through you to the world.',
         },
         {
           kind: 'reflection',
@@ -424,7 +424,7 @@ export const GENESIS_22: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 22:19 — Return ──────────────────────────────────────── */
+    /* ─── Genesis 22:19 - Return ──────────────────────────────────────── */
     {
       ref: 'Genesis 22:19',
       title: 'The Return',
@@ -466,7 +466,7 @@ export const GENESIS_22: RichChapterContent = {
   bottomShare: {
     label: 'Share Genesis 22',
     quote:
-      'Abraham bound his son Isaac and laid him on the altar. But as he raised the knife, an angel called: "Lay not thine hand upon the lad." A ram appeared, caught in a thicket by its horns. And God named the place Jehovah-jireh—"the LORD will provide."',
+      'Abraham bound his son Isaac and laid him on the altar. But as he raised the knife, an angel called: "Lay not thine hand upon the lad." A ram appeared, caught in a thicket by its horns. And God named the place Jehovah-jireh-"the LORD will provide."',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 22 · Study Guide',
   },

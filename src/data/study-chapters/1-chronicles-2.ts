@@ -30,6 +30,17 @@ export const CHRONICLES_1_2: RichChapterContent = {
     ref: '1 Chronicles 2 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-tribes-israel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Twelve Tribes of Israel',
+      url: 'https://www.sefaria.org/search?q=tribes+israel&tab=text',
+      description: 'Sefaria texts on the tribal divisions and genealogies of Israel.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 2:1–2 — The Twelve Sons of Israel ─────────────── */
     {
@@ -54,7 +65,7 @@ export const CHRONICLES_1_2: RichChapterContent = {
           kind: 'commentary',
           id: 'twelve-sons-list',
           html:
-            'The Chronicler begins where the history of Israel begins — with the twelve sons of Jacob, whose names became the twelve tribes that would inhabit Canaan after the wilderness wandering. Each name carries the story of Jacob&apos;s life: Reuben the firstborn, Simeon and Levi the fierce ones, Judah the one who emerged as leader, Joseph the beloved and the sufferer, Benjamin the youngest. From these twelve, the entire nation emerges.',
+            'The Chronicler begins where the history of Israel begins — with the twelve sons of Jacob, whose names became the twelve tribes that would inhabit Canaan after the wilderness wandering. Each name carries the story of Jacob&apos;s life: Reuben the firstborn, Simeon and Levi the fierce ones, Judah the one who emerged as leader, Joseph the beloved and the sufferer, Benjamin the youngest. From these twelve, the entire nation emerges. [res:sefaria-tribes-israel]',
         },
         {
           kind: 'hebrew',
@@ -119,13 +130,13 @@ export const CHRONICLES_1_2: RichChapterContent = {
           kind: 'commentary',
           id: 'judah-praised',
           html:
-            'The tribal name Judah derives from the Hebrew word meaning "praise" or "to give thanks." Even in the chaos of his family — the death of Er, the deception of Tamar, the children born in scandal — Judah becomes the tribe from which praise, worship, and kingship will flow. The name itself carries an irony: out of the very line marked by broken expectations and moral failure, a people of praise will emerge.',
+            'The tribal name Judah derives from the Hebrew word meaning "praise" or "to give thanks." Even in the chaos of his family — the death of Er, the deception of Tamar, the children born in scandal — Judah becomes the tribe from which praise, worship, and kingship will flow. The name itself carries an irony: out of the very line marked by broken expectations and moral failure, a people of praise will emerge. [res:sefaria-tribes-israel]',
         },
         {
           kind: 'commentary',
           id: 'tamar-line',
           html:
-            'The Chronicler preserves the name of Tamar, the Canaanite woman who bore children to Judah after the death of two of his sons. The story behind these names is found in Genesis 38: Judah, believing his third son Shelah to be the cause of death for his first two, withholds the son from Tamar as her levirate marriage partner. Tamar, left childless and without the protection of the family, disguises herself as a prostitute and seduces Judah himself. When he discovers the deception, he acknowledges his own failure: "She hath been more righteous than I." The Chronicler does not hide this story. He names her. He honors her place in the line that leads to David, and beyond David to Christ. Matthew 1:3 echoes this: Tamar is one of only a few women named in Jesus&apos; genealogy.',
+            'The Chronicler preserves the name of Tamar, the Canaanite woman who bore children to Judah after the death of two of his sons. The story behind these names is found in Genesis 38: Judah, believing his third son Shelah to be the cause of death for his first two, withholds the son from Tamar as her levirate marriage partner. Tamar, left childless and without the protection of the family, disguises herself as a prostitute and seduces Judah himself. When he discovers the deception, he acknowledges his own failure: "She hath been more righteous than I." The Chronicler does not hide this story. He names her. He honors her place in the line that leads to David, and beyond David to Christ. Matthew 1:3 echoes this: Tamar is one of only a few women named in Jesus&apos; genealogy. [res:sefaria-tribes-israel]',
         },
         {
           kind: 'commentary',
@@ -223,7 +234,7 @@ export const CHRONICLES_1_2: RichChapterContent = {
           kind: 'commentary',
           id: 'hezron-generations',
           html:
-            'The genealogy narrows to a single line: Pharez&apos;s son Hezron, through his son Ram, down through a succession of generations to Boaz, the man who redeemed Ruth, took her as his wife, and fathered Obed. Obed fathered Jesse. And Jesse — the father of many sons — fathered David.',
+            'The genealogy narrows to a single line: Pharez&apos;s son Hezron, through his son Ram, down through a succession of generations to Boaz, the man who redeemed Ruth, took her as his wife, and fathered Obed. Obed fathered Jesse. And Jesse — the father of many sons — fathered David. [res:sefaria-tribes-israel]',
         },
         {
           kind: 'commentary',
@@ -250,7 +261,7 @@ export const CHRONICLES_1_2: RichChapterContent = {
           kind: 'commentary',
           id: 'jesse-seventh-son',
           html:
-            'David is listed as Jesse&apos;s seventh son. When Samuel comes to anoint a king, David is not even brought into the room at first — he is outside tending sheep. Yet the Lord says to Samuel: "Arise, anoint him; for this is he" (1 Samuel 16:12). The seventh son, the youngest, the one seemingly least likely to rule, is the one God chose.',
+            'David is listed as Jesse&apos;s seventh son. When Samuel comes to anoint a king, David is not even brought into the room at first — he is outside tending sheep. Yet the Lord says to Samuel: "Arise, anoint him; for this is he" (1 Samuel 16:12). The seventh son, the youngest, the one seemingly least likely to rule, is the one God chose. [res:sefaria-tribes-israel]',
         },
         {
           kind: 'christ',
@@ -308,13 +319,13 @@ export const CHRONICLES_1_2: RichChapterContent = {
           kind: 'commentary',
           id: 'caleb-branch',
           html:
-            'The genealogy branches here. Hezron had multiple sons: Ram (who leads to David), Jerahmeel, and Caleb (also called Chelubai). The Chronicler preserves the line of Caleb, which descends through Hur and Uri to Bezaleel — the master craftsman who was appointed to build the Tabernacle. The line that leads away from the throne also carries its own honor: the one who builds the dwelling place of God.',
+            'The genealogy branches here. Hezron had multiple sons: Ram (who leads to David), Jerahmeel, and Caleb (also called Chelubai). The Chronicler preserves the line of Caleb, which descends through Hur and Uri to Bezaleel — the master craftsman who was appointed to build the Tabernacle. The line that leads away from the throne also carries its own honor: the one who builds the dwelling place of God. [res:sefaria-tribes-israel]',
         },
         {
           kind: 'commentary',
           id: 'bezaleel-builder',
           html:
-            'Bezaleel, son of Uri, son of Hur, is mentioned in Exodus 31 as a man filled with the Spirit of God, given wisdom and understanding to design and build the Tabernacle. His name appears here in the genealogy not because he was a king, but because his work was sacred. He built the place where God would meet His people. In the chronicle of Israel, king and craftsman, warrior and builder, all have their place in the unfolding story.',
+            'Bezaleel, son of Uri, son of Hur, is mentioned in Exodus 31 as a man filled with the Spirit of God, given wisdom and understanding to design and build the Tabernacle. His name appears here in the genealogy not because he was a king, but because his work was sacred. He built the place where God would meet His people. In the chronicle of Israel, king and craftsman, warrior and builder, all have their place in the unfolding story. [res:sefaria-tribes-israel]',
         },
         {
           kind: 'scripture',
@@ -346,19 +357,19 @@ export const CHRONICLES_1_2: RichChapterContent = {
           kind: 'commentary',
           id: 'jerahmeel-descendants',
           html:
-            'Jerahmeel, the eldest son of Hezron, receives extended genealogical attention. His line branches into many families, many names. The list itself — though it contains names we do not know, people whose stories Scripture does not tell — represents something crucial: the commitment to remember. Every person in this genealogy was part of God&apos;s people. Every name mattered.',
+            'Jerahmeel, the eldest son of Hezron, receives extended genealogical attention. His line branches into many families, many names. The list itself — though it contains names we do not know, people whose stories Scripture does not tell — represents something crucial: the commitment to remember. Every person in this genealogy was part of God&apos;s people. Every name mattered. [res:sefaria-tribes-israel]',
         },
         {
           kind: 'commentary',
           id: 'sheshan-daughter',
           html:
-            'A striking detail: Sheshan had no sons, only daughters. Yet rather than allow the line to end, he gave his daughter to his Egyptian servant Jarha in marriage, and the line continued through her. In a patriarchal genealogy, this is an unusual and generous arrangement — a foreigner and a servant are brought into the line because the son needed to continue.',
+            'A striking detail: Sheshan had no sons, only daughters. Yet rather than allow the line to end, he gave his daughter to his Egyptian servant Jarha in marriage, and the line continued through her. In a patriarchal genealogy, this is an unusual and generous arrangement — a foreigner and a servant are brought into the line because the son needed to continue. [res:sefaria-tribes-israel]',
         },
         {
           kind: 'commentary',
           id: 'achan-troubler',
           html:
-            'Achan, mentioned earlier, is identified here as the "troubler of Israel." His story, told in Joshua 7, is of a man who took forbidden things after the fall of Jericho and brought defeat on all Israel until his sin was uncovered. Yet even his name appears in the genealogy. The Chronicler does not hide the sins of Israel or her people. He records them. The genealogy is not a record of the pure. It is a record of the chosen, marked by sin and redemption, failure and grace.',
+            'Achan, mentioned earlier, is identified here as the "troubler of Israel." His story, told in Joshua 7, is of a man who took forbidden things after the fall of Jericho and brought defeat on all Israel until his sin was uncovered. Yet even his name appears in the genealogy. The Chronicler does not hide the sins of Israel or her people. He records them. The genealogy is not a record of the pure. It is a record of the chosen, marked by sin and redemption, failure and grace. [res:sefaria-tribes-israel]',
         },
         {
           kind: 'christ',

@@ -34,6 +34,17 @@ export const JOB_6: RichChapterContent = {
     ref: 'Job 6 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     /* ─── Job 6:1–7 — "Oh That My Grief Were Thoroughly Weighed" ───────── */
     {
@@ -72,7 +83,7 @@ export const JOB_6: RichChapterContent = {
           kind: 'commentary',
           id: 'job6-mid-grief-weight',
           html:
-            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+            'Calamity strips everything; faith asks: can you praise when silence is easier? [res:british-museum-ludlul]',
         },
         {
           kind: 'scripture',

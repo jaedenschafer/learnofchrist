@@ -25,6 +25,17 @@ export const JOB_38: RichChapterContent = {
     ref: 'Job 38 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-job-hebrew',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Job: Hebrew Text and Terms',
+      url: 'https://www.sefaria.org/Job',
+      description: 'Sefaria Hebrew text with notes on rare terms and wisdom vocabulary.',
+    },
+  ],
+
   sections: [
     /* ─── Job 38:1–11 — The Birth of the Earth ──────────────────────── */
     {
@@ -47,7 +58,7 @@ export const JOB_38: RichChapterContent = {
           kind: 'commentary',
           id: 'job38-first-questions',
           html:
-            'God&apos;s opening questions establish the theme: You were not there. You did not create. You do not understand how the world was made, nor how it is sustained. Yet you judge me as if you could comprehend all things. God does not say "you are wrong." God instead asks a question that reveals the gap between human knowledge and divine wisdom.',
+            'God&apos;s opening questions establish the theme: You were not there. You did not create. You do not understand how the world was made, nor how it is sustained. Yet you judge me as if you could comprehend all things. God does not say "you are wrong." God instead asks a question that reveals the gap between human knowledge and divine wisdom. [res:sefaria-job-hebrew]',
         },
         {
           kind: 'scripture',

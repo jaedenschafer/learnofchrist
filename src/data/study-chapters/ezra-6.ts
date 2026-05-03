@@ -33,6 +33,17 @@ export const EZRA_6: RichChapterContent = {
     ref: 'Ezra 6 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'penn-museum-persepolis',
+      kind: 'archaeology',
+      source: 'Penn Museum',
+      label: 'Persepolis Tablets',
+      url: 'https://www.penn.museum/collections/',
+      description: 'Cuneiform records of Persian provincial administration and labor systems.',
+    },
+  ],
+
   sections: [
     /* ─── Ezra 6:1–5 — Darius Searches; Cyrus's Decree Found ──────────── */
     {
@@ -71,7 +82,7 @@ export const EZRA_6: RichChapterContent = {
           kind: 'commentary',
           id: 'ez6-search',
           html:
-            'Darius does not dismiss the complaint out of hand. He orders the archives searched. This simple act — to seek the truth, to look into the record — opens the door to everything that follows. In Babylon, in the palace of the Medes, the scroll lies waiting. Cyrus had written his decree. And now, decades later, it emerges as proof.',
+            'Darius does not dismiss the complaint out of hand. He orders the archives searched. This simple act — to seek the truth, to look into the record — opens the door to everything that follows. In Babylon, in the palace of the Medes, the scroll lies waiting. Cyrus had written his decree. And now, decades later, it emerges as proof. [res:penn-museum-persepolis]',
         },
         {
           kind: 'commentary',

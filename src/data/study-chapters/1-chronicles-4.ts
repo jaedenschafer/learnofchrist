@@ -30,6 +30,17 @@ export const CHRONICLES_1_4: RichChapterContent = {
     ref: '1 Chronicles 4 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'bibleodyssey-levites',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Levites and Levitical Cities',
+      url: 'https://www.bibleodyssey.org/dictionary/levite/',
+      description: 'SBL study entry on Levite origins, roles, and tribal allotments.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 4:1–8 — The Descendants of Judah ────────────────────── */
     {
@@ -50,7 +61,7 @@ export const CHRONICLES_1_4: RichChapterContent = {
           kind: 'commentary',
           id: '1-chronicles-4-mid-4',
           html:
-            '<p>The genealogy traces how God preserved His people through generations and exile.</p>',
+            '<p>The genealogy traces how God preserved His people through generations and exile.</p> [res:bibleodyssey-levites]',
         },
         {
           kind: 'scripture',

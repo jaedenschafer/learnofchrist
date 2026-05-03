@@ -32,6 +32,17 @@ export const JOB_24: RichChapterContent = {
     ref: 'Job 24 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     /* ─── Job 24:1–12 — The Crimes the Wicked Commit ────────────────── */
     {
@@ -68,7 +79,7 @@ export const JOB_24: RichChapterContent = {
           kind: 'commentary',
           id: 'job24-crimes-catalog',
           html:
-            'Job catalogs the crimes of the wicked: they seize landmarks, steal flocks, drive away the orphan&apos;s donkey, turn the needy from their way. These are specific, documented crimes. They are committed openly. Everyone sees them. But no judgment falls. No divine hand intervenes. God sees all things, yet does nothing.',
+            'Job catalogs the crimes of the wicked: they seize landmarks, steal flocks, drive away the orphan&apos;s donkey, turn the needy from their way. These are specific, documented crimes. They are committed openly. Everyone sees them. But no judgment falls. No divine hand intervenes. God sees all things, yet does nothing. [res:british-museum-ludlul]',
         },
         {
           kind: 'scripture',

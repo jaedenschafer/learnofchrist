@@ -29,6 +29,17 @@ export const CHRONICLES_2_15: RichChapterContent = {
     ref: '2 Chronicles 15 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-judah-monarchy',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Judah in the Monarchy Period',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 15:1–7 — Azariah's Prophecy ──────────────────────── */
     {
@@ -69,7 +80,7 @@ export const CHRONICLES_2_15: RichChapterContent = {
           kind: 'commentary',
           id: '2-chronicles-15-mid-3',
           html:
-            '<p>Leadership transitions mark new direction—a builder hands off to the next.</p>',
+            '<p>Leadership transitions mark new direction—a builder hands off to the next.</p> [res:iaa-judah-monarchy]',
         },
         {
           kind: 'scripture',

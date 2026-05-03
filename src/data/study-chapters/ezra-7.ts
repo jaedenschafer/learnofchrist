@@ -31,6 +31,17 @@ export const EZRA_7: RichChapterContent = {
     ref: 'Ezra 7 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'oriental-institute-artaxerxes',
+      kind: 'archive',
+      source: 'Oriental Institute',
+      label: 'Artaxerxes I and Achaemenid Court',
+      url: 'https://oi.uchicago.edu/',
+      description: 'OI scholarly resources on 5th-century BCE Persian rule and administration.',
+    },
+  ],
+
   sections: [
     /* ─── Ezra 7:1–6 — Ezra Introduced ──────────────────────────────────── */
     {
@@ -69,7 +80,7 @@ export const EZRA_7: RichChapterContent = {
           kind: 'commentary',
           id: 'ezra-artaxerxes',
           html:
-            'Artaxerxes reigns, and the exile has now lasted decades. Between the dedication of the Temple (chapter 6) and this moment, eighty years have passed — a generation and more. The work of rebuilding, begun with such hope, has faltered. The walls still lie broken. The community is discouraged. And now, in the reign of Artaxerxes, a new chapter begins.',
+            'Artaxerxes reigns, and the exile has now lasted decades. Between the dedication of the Temple (chapter 6) and this moment, eighty years have passed — a generation and more. The work of rebuilding, begun with such hope, has faltered. The walls still lie broken. The community is discouraged. And now, in the reign of Artaxerxes, a new chapter begins. [res:oriental-institute-artaxerxes]',
         },
         {
           kind: 'commentary',

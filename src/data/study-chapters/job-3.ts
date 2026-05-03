@@ -32,6 +32,17 @@ export const JOB_3: RichChapterContent = {
     ref: 'Job 3 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     /* ─── Job 3:1–10 — Job Curses the Day of His Birth ──────────────────── */
     {
@@ -72,7 +83,7 @@ export const JOB_3: RichChapterContent = {
           kind: 'commentary',
           id: 'job3-lament-turn',
           html:
-            'Job moves from lamenting his day to questioning why he was born at all. The focus shifts from curse to deep, existential pain.',
+            'Job moves from lamenting his day to questioning why he was born at all. The focus shifts from curse to deep, existential pain. [res:british-museum-ludlul]',
         },
         {
           kind: 'scripture',

@@ -49,7 +49,7 @@ export const NEHEMIAH_3: RichChapterContent = {
           kind: 'commentary',
           id: 'eliashib-first',
           html:
-            'The wall begins with the high priest. Eliashib, Nehemiah&apos;s contemporary, leads the priests in building the Sheep Gate — the very gate through which the sacrificial animals entered the temple. It is fitting. The priests, who sanctify the people through sacrifice, begin by sanctifying the gate itself. They do not merely build; they consecrate what they build. The work starts where the people draw near to God.',
+            'The wall begins with the high priest. Eliashib, Nehemiah&apos;s contemporary, leads the priests in building the Sheep Gate — the very gate through which the sacrificial animals entered the temple. It is fitting. The priests, who sanctify the people through sacrifice, begin by sanctifying the gate itself. They do not merely build; they consecrate what they build. The work starts where the people draw near to God. [res:iaa-city-david]',
         },
         {
           kind: 'hebrew',
@@ -375,6 +375,25 @@ export const NEHEMIAH_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Nehemiah 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'iaa-city-david',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA ongoing dig revealing Iron Age and Persian period Jerusalem structures.',
+    },
+    {
+      id: 'israel-museum-jerusalem',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Jerusalem in the Postexilic Period',
+      url: 'https://www.imj.org.il/',
+      description: 'Israel Museum exhibits on Iron Age and Hellenistic Jerusalem.',
+    },
+  ],
 
   hasHebrew: true,
 };

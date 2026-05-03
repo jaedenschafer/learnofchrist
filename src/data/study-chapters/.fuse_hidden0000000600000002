@@ -59,7 +59,7 @@ export const JEREMIAH_2: RichChapterContent = {
           kind: 'commentary',
           id: 'jeremiah-2-78mid-1',
           html:
-            'After God states He will plead "with your children&apos;s children," the tone shifts from appeal to the hard evidence of Israel&apos;s ruin.',
+            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
         },
         {
           kind: 'scripture',

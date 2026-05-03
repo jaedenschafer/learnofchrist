@@ -25,6 +25,17 @@ export const JOB_35: RichChapterContent = {
     ref: 'Job 35 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-theodicy',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Theodicy',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Ancient Akkadian dialogue on divine justice, suffering, and retribution.',
+    },
+  ],
+
   sections: [
     /* ─── Job 35:1–8 — God Is Not Affected by Human Acts ───────────────── */
     {
@@ -45,7 +56,7 @@ export const JOB_35: RichChapterContent = {
           kind: 'commentary',
           id: 'job35-mid-dispute-profit',
           html:
-            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+            'Calamity strips everything; faith asks: can you praise when silence is easier? [res:british-museum-theodicy]',
         },
         {
           kind: 'scripture',

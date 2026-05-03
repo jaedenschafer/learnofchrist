@@ -35,6 +35,17 @@ export const ESTHER_5: RichChapterContent = {
     ref: 'Esther 5 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'theoi-herodotus',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Herodotus on Xerxes I',
+      url: 'https://www.theoi.com/Text/HerodotusHistories.html',
+      description: 'Herodotus accounts of Xerxes, Persian court intrigues, and royal authority.',
+    },
+  ],
+
   sections: [
     /* ─── Esther 5:1–5 — The Golden Sceptre ────────────────────────── */
     {
@@ -85,7 +96,7 @@ export const ESTHER_5: RichChapterContent = {
           kind: 'commentary',
           id: 'esth5-favour',
           html:
-            'Esther stands before the king unbidden. The penalty for such boldness is death — unless the king extends his grace. And he sees her. He is pleased with her. This is the word of God working through her: she obtains favor, not through scheming, but through a heart that has been broken in prayer and fasting.',
+            'Esther stands before the king unbidden. The penalty for such boldness is death — unless the king extends his grace. And he sees her. He is pleased with her. This is the word of God working through her: she obtains favor, not through scheming, but through a heart that has been broken in prayer and fasting. [res:theoi-herodotus]',
         },
         {
           kind: 'hebrew',

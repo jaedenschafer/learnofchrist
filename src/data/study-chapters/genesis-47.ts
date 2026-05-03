@@ -1,11 +1,11 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 47 — Joseph&apos;s stewardship, Jacob&apos;s pilgrimage, and the
+ * Genesis 47 - Joseph&apos;s stewardship, Jacob&apos;s pilgrimage, and the
  * political economy of the famine.
  *
  * The brothers are presented to Pharaoh and given Goshen. Jacob, brought
- * before Pharaoh, offers a blessing — &ldquo;the days of the years of my
+ * before Pharaoh, offers a blessing - &ldquo;the days of the years of my
  * pilgrimage are an hundred and thirty years: few and evil have the days
  * of the years of my life been.&rdquo; The famine deepens. The Egyptians,
  * in five stages, surrender their money, cattle, land, bodies, and labor
@@ -13,7 +13,7 @@ import { hp, hy, hg, t, type RichChapterContent } from './types';
  * near death, makes Joseph swear to bury him in Canaan with his fathers.
  *
  * The chapter does not moralise the hard edges of Joseph&apos;s statecraft
- * — it reports them. And it sets up the irony that will follow: the son
+ * - it reports them. And it sets up the irony that will follow: the son
  * of Israel, now the chief steward of Egypt, while Egypt descends into
  * servitude.
  */
@@ -24,8 +24,8 @@ export const GENESIS_47: RichChapterContent = {
 
   estimatedMinutes: { beginner: 10, intermediate: 13, deep: 16 },
   intros: [
-    'Genesis 47 is the story of two peoples under one famine [res:met-museum-egypt]. Joseph has brought his family to Egypt, and now they meet Pharaoh. The scene moves fast: brothers presenting themselves, Jacob blessing the king, the famine tightening its grip. One by one the Egyptians trade their freedom for bread — first their money, then their animals, then their land, then their bodies. By verse 25 they are calling themselves Pharaoh&apos;s servants, grateful for the mercy of slavery. And in the middle of all this collapse, Israel is growing, multiplying, taking root in Goshen.',
-    'The chapter&apos;s last notes are quiet [res:sefaria-genesis-47]. Jacob is dying. His final words are not blessings over Egypt or thanks for Joseph&apos;s power. They are a command: <em>bury me not in Egypt.</em> A pilgrim&apos;s last instruction [res:bibleodyssey-joseph-egypt]. Everything in this chapter — the contrast between Egypt&apos;s loss of freedom and Israel&apos;s flourishing, the patriarch&apos;s refusal to call Egypt home — points to a country he will never see in this life, and to a Deliverer who will be born from the people growing in Goshen.',
+    'Genesis 47 is the story of two peoples under one famine [res:met-museum-egypt]. Joseph has brought his family to Egypt, and now they meet Pharaoh. The scene moves fast: brothers presenting themselves, Jacob blessing the king, the famine tightening its grip. One by one the Egyptians trade their freedom for bread - first their money, then their animals, then their land, then their bodies. By verse 25 they are calling themselves Pharaoh&apos;s servants, grateful for the mercy of slavery. And in the middle of all this collapse, Israel is growing, multiplying, taking root in Goshen.',
+    'The chapter&apos;s last notes are quiet [res:sefaria-genesis-47]. Jacob is dying. His final words are not blessings over Egypt or thanks for Joseph&apos;s power. They are a command: <em>bury me not in Egypt.</em> A pilgrim&apos;s last instruction [res:bibleodyssey-joseph-egypt]. Everything in this chapter - the contrast between Egypt&apos;s loss of freedom and Israel&apos;s flourishing, the patriarch&apos;s refusal to call Egypt home - points to a country he will never see in this life, and to a Deliverer who will be born from the people growing in Goshen.',
   ],
 
   resources: [
@@ -33,7 +33,7 @@ export const GENESIS_47: RichChapterContent = {
       id: 'sefaria-genesis-47',
       kind: 'lexicon',
       source: 'Sefaria',
-      label: 'Genesis 47 — Sefaria',
+      label: 'Genesis 47 - Sefaria',
       url: 'https://www.sefaria.org/Genesis.47',
       description: 'Annotated text with classical and modern Jewish commentary on Joseph&apos;s administration of Egypt during the famine.',
     },
@@ -41,7 +41,7 @@ export const GENESIS_47: RichChapterContent = {
       id: 'met-museum-egypt',
       kind: 'museum',
       source: 'The Met',
-      label: 'Ancient Egypt — The Metropolitan Museum of Art',
+      label: 'Ancient Egypt - The Metropolitan Museum of Art',
       url: 'https://www.metmuseum.org/art/collection?department=Egyptian%20Art',
       description: 'Egyptian artifacts and cultural context for understanding the world of Joseph and later Genesis figures.',
     },
@@ -49,16 +49,16 @@ export const GENESIS_47: RichChapterContent = {
       id: 'bibleodyssey-joseph-egypt',
       kind: 'study',
       source: 'Bible Odyssey',
-      label: 'Joseph and Egypt — Bible Odyssey',
+      label: 'Joseph and Egypt - Bible Odyssey',
       url: 'https://www.bibleodyssey.org/en/passages/related-articles/joseph-and-egypt',
       description: 'Scholarly essays on Joseph&apos;s time in Egypt and its historical and theological significance.',
     },
   ],
 
   sections: [
-    /* ─── Genesis 47:1–6 — The Brothers Before Pharaoh ──────────────────── */
+    /* ─── Genesis 47:1-6 - The Brothers Before Pharaoh ──────────────────── */
     {
-      ref: 'Genesis 47:1–6',
+      ref: 'Genesis 47:1-6',
       title: 'The Brothers Before Pharaoh',
       blocks: [
         {
@@ -115,30 +115,30 @@ export const GENESIS_47: RichChapterContent = {
           kind: 'commentary',
           id: 'c-five',
           html:
-            'Joseph presents five of his brothers to Pharaoh — not all twelve, just a sample. These men are shepherds, and Egyptians held shepherds in contempt (Genesis 46:34 makes this explicit). Yet Pharaoh accepts them anyway, because Joseph&apos;s recommendation carries weight. The brothers are admitted not on their own merit but on Joseph&apos;s word.',
+            'Joseph presents five of his brothers to Pharaoh - not all twelve, just a sample. These men are shepherds, and Egyptians held shepherds in contempt (Genesis 46:34 makes this explicit). Yet Pharaoh accepts them anyway, because Joseph&apos;s recommendation carries weight. The brothers are admitted not on their own merit but on Joseph&apos;s word.',
         },
         {
           kind: 'commentary',
           id: 'c-work',
           html:
-            'Pharaoh&apos;s question is straightforward: what do you do? The brothers answer honestly: shepherds. They are not hiding their work or pretending to be something else. They are who they are. And Pharaoh, seeing they are skilled at something he needs, makes them rulers over his own cattle. Not the other way around — he does not ask them to change or prove themselves first.',
+            'Pharaoh&apos;s question is straightforward: what do you do? The brothers answer honestly: shepherds. They are not hiding their work or pretending to be something else. They are who they are. And Pharaoh, seeing they are skilled at something he needs, makes them rulers over his own cattle. Not the other way around - he does not ask them to change or prove themselves first.',
         },
         {
           kind: 'commentary',
           id: 'christ-joseph-rule',
           html:
-            'Pharaoh sees the brothers are competent and immediately gives them authority. They are not conquered or subjugated; they are elevated. Joseph&apos;s wisdom did not just save them from the famine — it elevated them in Egypt. This is a taste of what Joseph himself has experienced: because of his faithfulness in hidden places, he has been lifted to rule over a nation.',
+            'Pharaoh sees the brothers are competent and immediately gives them authority. They are not conquered or subjugated; they are elevated. Joseph&apos;s wisdom did not just save them from the famine - it elevated them in Egypt. This is a taste of what Joseph himself has experienced: because of his faithfulness in hidden places, he has been lifted to rule over a nation.',
         },
         {
           kind: 'commentary',
           id: 'c-goshen',
           html:
-            'Goshen is described as &ldquo;the best of the land.&rdquo; The text is not cynical here — Pharaoh means it as a gift. He is rewarding Joseph&apos;s wisdom and faithfulness by giving his family the richest pasture in Egypt. For the moment, the arrangement is generous.',
+            'Goshen is described as &ldquo;the best of the land.&rdquo; The text is not cynical here - Pharaoh means it as a gift. He is rewarding Joseph&apos;s wisdom and faithfulness by giving his family the richest pasture in Egypt. For the moment, the arrangement is generous.',
         },
         {
           kind: 'carry',
           html:
-            'Joseph&apos;s brothers are brought forward not because they are qualified shepherds but because Joseph loves them. There are rooms in your life where you have access not on your own credentials but on someone else&apos;s word — a teacher who vouches for you, a parent who opens a door, a friend who introduces you. Joseph&apos;s recommendation is his gift to his brothers. That someone is willing to stake their own reputation on you is grace, whether you see it that way yet or not.',
+            'Joseph&apos;s brothers are brought forward not because they are qualified shepherds but because Joseph loves them. There are rooms in your life where you have access not on your own credentials but on someone else&apos;s word - a teacher who vouches for you, a parent who opens a door, a friend who introduces you. Joseph&apos;s recommendation is his gift to his brothers. That someone is willing to stake their own reputation on you is grace, whether you see it that way yet or not.',
         },
         {
           kind: 'reflection',
@@ -148,9 +148,9 @@ export const GENESIS_47: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 47:7–12 — Jacob Before Pharaoh ────────────────────────── */
+    /* ─── Genesis 47:7-12 - Jacob Before Pharaoh ────────────────────────── */
     {
-      ref: 'Genesis 47:7–12',
+      ref: 'Genesis 47:7-12',
       title: 'Jacob&apos;s Audience and Blessing',
       blocks: [
         {
@@ -205,45 +205,45 @@ export const GENESIS_47: RichChapterContent = {
           kind: 'commentary',
           id: 'c-bless-pharaoh',
           html:
-            'A pilgrim blesses a king. The word-order of the scene is worth noticing: Jacob is <em>brought in</em> and <em>set before</em> Pharaoh like a gift Joseph is giving. Then Jacob does something that reverses the entire power dynamic. He blesses. In the ancient world blessing is not merely kind words — it is the transfer of a real power, and only someone greater can bless someone lesser.',
+            'A pilgrim blesses a king. The word-order of the scene is worth noticing: Jacob is <em>brought in</em> and <em>set before</em> Pharaoh like a gift Joseph is giving. Then Jacob does something that reverses the entire power dynamic. He blesses. In the ancient world blessing is not merely kind words - it is the transfer of a real power, and only someone greater can bless someone lesser.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-megurim',
-          title: 'Megurim — &ldquo;pilgrimage, sojournings&rdquo;',
+          title: 'Megurim - &ldquo;pilgrimage, sojournings&rdquo;',
           script: 'מְגוּרִים',
           translit: '<strong>megurim</strong> · sojournings, temporary dwellings',
           description:
-            'Jacob calls his whole life a <em>pilgrimage</em>. Not a home, not a settlement — a temporary stay. The author of Hebrews later picks up this word: &ldquo;These all died in faith, not having received the promises… and confessed that they were strangers and pilgrims on the earth&rdquo; (Heb. 11:13). Jacob is naming what his life has been: a journey to somewhere else.',
+            'Jacob calls his whole life a <em>pilgrimage</em>. Not a home, not a settlement - a temporary stay. The author of Hebrews later picks up this word: &ldquo;These all died in faith, not having received the promises... and confessed that they were strangers and pilgrims on the earth&rdquo; (Heb. 11:13). Jacob is naming what his life has been: a journey to somewhere else.',
         },
         {
           kind: 'christ',
           id: 'christ-vita-brevis',
-          title: 'Christ Connection — Few and Evil Days',
+          title: 'Christ Connection - Few and Evil Days',
           html:
-            'Jacob&apos;s words are bleak: &ldquo;few and evil have the days of the years of my life been.&rdquo; He is not exaggerating — he has lived through famine, family betrayal, exile, loss. And yet he is blessed. James echoes him centuries later: &ldquo;What is your life? It is even a vapour, that appeareth for a little time, and then vanisheth away&rdquo; (James 4:14). The Bible does not pretend the world is not broken. Christ did not come to a perfect world. He came to one where days are few and often hard — and He came anyway, grieving with us, promising that the last word is not suffering but resurrection.',
+            'Jacob&apos;s words are bleak: &ldquo;few and evil have the days of the years of my life been.&rdquo; He is not exaggerating - he has lived through famine, family betrayal, exile, loss. And yet he is blessed. James echoes him centuries later: &ldquo;What is your life? It is even a vapour, that appeareth for a little time, and then vanisheth away&rdquo; (James 4:14). The Bible does not pretend the world is not broken. Christ did not come to a perfect world. He came to one where days are few and often hard - and He came anyway, grieving with us, promising that the last word is not suffering but resurrection.',
         },
         {
           kind: 'carry',
           html:
-            'Jacob stands before the most powerful man in the world and tells him the truth: my life has been hard. Few days, evil days. Not because Jacob is ungrateful — he is about to be settled in the best land in Egypt — but because <em>that is what his life has been.</em> If your days have been hard, naming them is not the same as denying God&apos;s faithfulness. It is the same thing Jacob did before Pharaoh: telling the truth. God did not call you to pretend the weight is lighter than it is.',
+            'Jacob stands before the most powerful man in the world and tells him the truth: my life has been hard. Few days, evil days. Not because Jacob is ungrateful - he is about to be settled in the best land in Egypt - but because <em>that is what his life has been.</em> If your days have been hard, naming them is not the same as denying God&apos;s faithfulness. It is the same thing Jacob did before Pharaoh: telling the truth. God did not call you to pretend the weight is lighter than it is.',
         },
         {
           kind: 'reflection',
           id: 'gen47-jacob-life',
-          prompt: 'What is honest about where you are right now — what few or hard thing are you living in? And where, despite that, have you felt blessed?',
+          prompt: 'What is honest about where you are right now - what few or hard thing are you living in? And where, despite that, have you felt blessed?',
         },
         {
           kind: 'artwork',
           matchTitle: /jacob/i,
-          caption: 'Genesis 47:7–10 · Jacob Blesses Pharaoh',
+          caption: 'Genesis 47:7-10 · Jacob Blesses Pharaoh',
         },
       ],
     },
 
-    /* ─── Genesis 47:13–26 — The Famine and Consolidation ─────────────── */
+    /* ─── Genesis 47:13-26 - The Famine and Consolidation ─────────────── */
     {
-      ref: 'Genesis 47:13–26',
+      ref: 'Genesis 47:13-26',
       title: 'The Famine Deepens; Egypt Becomes Pharaoh&apos;s',
       blocks: [
         {
@@ -281,8 +281,7 @@ export const GENESIS_47: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-47-78mid-1',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Jacob and his sons are given Goshen, the best of the land. Joseph prospers them openly, and then binds them to an oath--they will carry him home to Canaan.',
         },
         {
           kind: 'scripture',
@@ -368,12 +367,12 @@ export const GENESIS_47: RichChapterContent = {
           kind: 'commentary',
           id: 'c-famine-deep',
           html:
-            'By verse 13, the famine is absolute. There is no bread anywhere — neither in Egypt nor in Canaan. The text is unsparing. The people are <em>fainting</em>. And Joseph is their only lifeline. What follows is a five-stage descent into servitude, each stage triggered by a different shortage.',
+            'By verse 13, the famine is absolute. There is no bread anywhere - neither in Egypt nor in Canaan. The text is unsparing. The people are <em>fainting</em>. And Joseph is their only lifeline. What follows is a five-stage descent into servitude, each stage triggered by a different shortage.',
         },
         {
           kind: 'carry',
           html:
-            'The chapter does not pause to moralise what is happening. Joseph is wise. He is also consolidating power. He takes the money, then the animals, then the land, then the people. By stage five they are calling themselves Pharaoh&apos;s servants, grateful for the mercy of living. The text reports it without commentary — the same way hard reality often arrives. What matters now is that you are aware of what is happening in your own world. Where are you trading freedom for security? Where are you being asked to give more and more for less and less? The names for this are different now, but the pattern is the same.',
+            'The chapter does not pause to moralise what is happening. Joseph is wise. He is also consolidating power. He takes the money, then the animals, then the land, then the people. By stage five they are calling themselves Pharaoh&apos;s servants, grateful for the mercy of living. The text reports it without commentary - the same way hard reality often arrives. What matters now is that you are aware of what is happening in your own world. Where are you trading freedom for security? Where are you being asked to give more and more for less and less? The names for this are different now, but the pattern is the same.',
         },
         {
           kind: 'reflection',
@@ -383,7 +382,7 @@ export const GENESIS_47: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 47:27 — Israel Grows in Goshen ──────────────────────── */
+    /* ─── Genesis 47:27 - Israel Grows in Goshen ──────────────────────── */
     {
       ref: 'Genesis 47:27',
       title: 'Israel Grows; Egypt Diminishes',
@@ -406,14 +405,14 @@ export const GENESIS_47: RichChapterContent = {
           kind: 'commentary',
           id: 'c-israel-grows',
           html:
-            'The sentence is short, but the contrast it creates is devastating. While Egypt has been consolidating under one king — losing money, animals, land, then freedom itself — Israel is doing what God promised Abraham: growing and multiplying. The text does not explain the irony. It does not need to. In the same verse, one people becomes Pharaoh&apos;s servants and another people begins to become a nation.',
+            'The sentence is short, but the contrast it creates is devastating. While Egypt has been consolidating under one king - losing money, animals, land, then freedom itself - Israel is doing what God promised Abraham: growing and multiplying. The text does not explain the irony. It does not need to. In the same verse, one people becomes Pharaoh&apos;s servants and another people begins to become a nation.',
         },
         {
           kind: 'christ',
           id: 'christ-sold',
-          title: 'Christ Connection — The Bondservant Who Sets Free',
+          title: 'Christ Connection - The Bondservant Who Sets Free',
           html:
-            'The Egyptians say to Joseph: &ldquo;Thou hast saved our lives.&rdquo; They are grateful, and they mean it. But saved from death into servitude is a thin mercy. Paul will later write: &ldquo;For ye are bought with a price: be not ye the servants of men&rdquo; (1 Cor. 7:23). Christ did not come to trade one kind of servitude for another. He came to pay a price once for all, to buy a people back to freedom. The Exodus that will follow is always where this chapter points — a redemption that will not leave God&apos;s people in Egypt&apos;s hands for another generation.',
+            'The Egyptians say to Joseph: &ldquo;Thou hast saved our lives.&rdquo; They are grateful, and they mean it. But saved from death into servitude is a thin mercy. Paul will later write: &ldquo;For ye are bought with a price: be not ye the servants of men&rdquo; (1 Cor. 7:23). Christ did not come to trade one kind of servitude for another. He came to pay a price once for all, to buy a people back to freedom. The Exodus that will follow is always where this chapter points - a redemption that will not leave God&apos;s people in Egypt&apos;s hands for another generation.',
         },
         {
           kind: 'carry',
@@ -433,9 +432,9 @@ export const GENESIS_47: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 47:28–31 — Jacob&apos;s Deathbed Oath ────────────────── */
+    /* ─── Genesis 47:28-31 - Jacob&apos;s Deathbed Oath ────────────────── */
     {
-      ref: 'Genesis 47:28–31',
+      ref: 'Genesis 47:28-31',
       title: 'A Pilgrim&apos;s Last Instruction',
       blocks: [
         {
@@ -476,7 +475,7 @@ export const GENESIS_47: RichChapterContent = {
           kind: 'commentary',
           id: 'c-oath',
           html:
-            'Jacob makes Joseph swear by placing his hand under Jacob&apos;s thigh — a covenant gesture, the same one Abraham will use with his servant in Genesis 24. This is the solemn-most vow a son can make. Jacob is binding Joseph to a promise that will require him to disobey Pharaoh if necessary, to carry his father&apos;s corpse across the desert, to bury him in a land he has not seen since he was a boy.',
+            'Jacob makes Joseph swear by placing his hand under Jacob&apos;s thigh - a covenant gesture, the same one Abraham will use with his servant in Genesis 24. This is the solemn-most vow a son can make. Jacob is binding Joseph to a promise that will require him to disobey Pharaoh if necessary, to carry his father&apos;s corpse across the desert, to bury him in a land he has not seen since he was a boy.',
         },
         {
           kind: 'commentary',
@@ -487,14 +486,14 @@ export const GENESIS_47: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-home-coming',
-          title: 'Christ Connection — A Pilgrim&apos;s Hope',
+          title: 'Christ Connection - A Pilgrim&apos;s Hope',
           html:
-            'The author of Hebrews quotes this moment and then goes further: &ldquo;These all died in faith, not having received the promises, but having seen them afar off, and were persuaded of them, and embraced them, and confessed that they were strangers and pilgrims on the earth. For they that say such things declare plainly that they seek a country&rdquo; (Heb. 11:13–14). Jacob&apos;s last instruction declares that there is a country he seeks, and it is not the one where he lived longest. Every pilgrim since has carried the same knowledge: this is not the home the promises point to. We are looking toward a city, and the Lamb is its light.',
+            'The author of Hebrews quotes this moment and then goes further: &ldquo;These all died in faith, not having received the promises, but having seen them afar off, and were persuaded of them, and embraced them, and confessed that they were strangers and pilgrims on the earth. For they that say such things declare plainly that they seek a country&rdquo; (Heb. 11:13-14). Jacob&apos;s last instruction declares that there is a country he seeks, and it is not the one where he lived longest. Every pilgrim since has carried the same knowledge: this is not the home the promises point to. We are looking toward a city, and the Lamb is its light.',
         },
         {
           kind: 'carry',
           html:
-            'There are places that feed you, keep you safe, give you work and family and a name. And there are places that are <em>yours</em> — the ones your story belongs to. Jacob lived in Egypt, but he belonged elsewhere. If you have been confusing provision with home, or security with where you finally fit, his last words are a question: What country are you <em>actually</em> seeking? Not where you are safe, but where you are meant to be.',
+            'There are places that feed you, keep you safe, give you work and family and a name. And there are places that are <em>yours</em> - the ones your story belongs to. Jacob lived in Egypt, but he belonged elsewhere. If you have been confusing provision with home, or security with where you finally fit, his last words are a question: What country are you <em>actually</em> seeking? Not where you are safe, but where you are meant to be.',
         },
         {
           kind: 'divider',
@@ -502,7 +501,7 @@ export const GENESIS_47: RichChapterContent = {
         {
           kind: 'reflection',
           id: 'gen47-home',
-          prompt: 'If you had to name the country you are actually seeking — the one this world is not — what would you say it is?',
+          prompt: 'If you had to name the country you are actually seeking - the one this world is not - what would you say it is?',
         },
       ],
     },
@@ -511,7 +510,7 @@ export const GENESIS_47: RichChapterContent = {
   bottomShare: {
     label: 'Share Genesis 47',
     quote:
-      'Jacob blessed Pharaoh with a pilgrim&apos;s realism: few and evil have been my days. Yet his last instruction was not to rest in Egypt, but to be buried in the land of his fathers — a home he would never see, but never forgot.',
+      'Jacob blessed Pharaoh with a pilgrim&apos;s realism: few and evil have been my days. Yet his last instruction was not to rest in Egypt, but to be buried in the land of his fathers - a home he would never see, but never forgot.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 47 · Study Guide',
   },

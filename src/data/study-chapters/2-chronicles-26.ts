@@ -33,6 +33,17 @@ export const CHRONICLES_2_26: RichChapterContent = {
     ref: '2 Chronicles 26 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-judah-monarchy',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Judah in the Monarchy Period',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 26:1–5 — The Boy King Seeks the Lord ─────────────── */
     {
@@ -79,7 +90,7 @@ export const CHRONICLES_2_26: RichChapterContent = {
           kind: 'commentary',
           id: 'sixteen-king',
           html:
-            'Uzziah (also called Azariah) comes to the throne as a boy. Sixteen years old — he has not yet reached manhood in any practical sense, yet the people place upon him the responsibility of governing a kingdom. This is a vulnerable moment for any ruler, more so for one so young. Yet the chronicler notes that he "did that which was right in the sight of the Lord, according to all that his father Amaziah did." There is a continuity here, a sense that Uzziah, young as he is, follows the example set before him.',
+            'Uzziah (also called Azariah) comes to the throne as a boy. Sixteen years old — he has not yet reached manhood in any practical sense, yet the people place upon him the responsibility of governing a kingdom. This is a vulnerable moment for any ruler, more so for one so young. Yet the chronicler notes that he "did that which was right in the sight of the Lord, according to all that his father Amaziah did." There is a continuity here, a sense that Uzziah, young as he is, follows the example set before him. [res:iaa-judah-monarchy]',
         },
         {
           kind: 'commentary',

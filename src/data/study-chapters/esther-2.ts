@@ -32,6 +32,17 @@ export const ESTHER_2: RichChapterContent = {
     ref: 'Esther 2 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'oriental-institute-susa',
+      kind: 'archaeology',
+      source: 'Oriental Institute',
+      label: 'Susa: The Achaemenid Court',
+      url: 'https://oi.uchicago.edu/',
+      description: 'OI resources on the palatial city of Susa and royal Persian administration.',
+    },
+  ],
+
   sections: [
     /* ─── Esther 2:1–4 — The Search Begins ──────────────────────────────── */
     {
@@ -52,7 +63,7 @@ export const ESTHER_2: RichChapterContent = {
           kind: 'commentary',
           id: 'king-remembers',
           html:
-            'The king&apos;s wrath is appeased, and he remembers Vashti and what was decreed. The text does not say he regrets the decree. Rather, it seems a void has opened — the absence of the queen, the empty throne. The memory of Vashti and the permanence of the law create a strange space: he cannot have her back. Something else must fill the gap.',
+            'The king&apos;s wrath is appeased, and he remembers Vashti and what was decreed. The text does not say he regrets the decree. Rather, it seems a void has opened — the absence of the queen, the empty throne. The memory of Vashti and the permanence of the law create a strange space: he cannot have her back. Something else must fill the gap. [res:oriental-institute-susa]',
         },
         {
           kind: 'commentary',

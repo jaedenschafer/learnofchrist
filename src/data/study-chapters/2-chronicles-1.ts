@@ -34,6 +34,17 @@ export const CHRONICLES_2_1: RichChapterContent = {
     ref: '2 Chronicles 1 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-cyrus',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'The Cyrus Cylinder',
+      url: 'https://www.britishmuseum.org/collection/objects/w3679',
+      description: 'Ancient Persian cylinder decree allowing return from exile and temple rebuilding.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 1:1–2 — Solomon Strengthened in His Kingdom ───── */
     {
@@ -57,7 +68,7 @@ export const CHRONICLES_2_1: RichChapterContent = {
           kind: 'commentary',
           id: 'chr2-strengthened',
           html:
-            'The chapter opens with a declaration: Solomon is strengthened in his kingdom, and the Lord his God is with him. This is not simply a political statement. It is a spiritual affirmation — the new king stands under God&apos;s favor. The words "magnified him exceedingly" suggest a visibility, a public presence. Everyone will see that God is with this young king.',
+            'The chapter opens with a declaration: Solomon is strengthened in his kingdom, and the Lord his God is with him. This is not simply a political statement. It is a spiritual affirmation — the new king stands under God&apos;s favor. The words "magnified him exceedingly" suggest a visibility, a public presence. Everyone will see that God is with this young king. [res:british-museum-cyrus]',
         },
         {
           kind: 'commentary',

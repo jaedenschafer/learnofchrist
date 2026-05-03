@@ -30,6 +30,17 @@ export const NEHEMIAH_7: RichChapterContent = {
     ref: 'Nehemiah 7 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'israel-museum-jerusalem',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Jerusalem in the Persian Period',
+      url: 'https://www.imj.org.il/',
+      description: 'Museum exhibits on postexilic Jerusalem walls, gates, and settlement patterns.',
+    },
+  ],
+
   sections: [
     /* ─── Nehemiah 7:1–3 — Watchmen Appointed ──────────────────────────── */
     {
@@ -49,7 +60,7 @@ export const NEHEMIAH_7: RichChapterContent = {
           kind: 'commentary',
           id: 'wall-complete-doors-set',
           html:
-            'The wall is finished. The doors hang in their hinges. The porters, singers, and Levites are assigned to their stations. Nehemiah has overseen the physical restoration, but now turns to the human architecture of the city — the leadership. He does not distribute authority randomly. He gives it to trustworthy men, men rooted in prayer and the fear of God.',
+            'The wall is finished. The doors hang in their hinges. The porters, singers, and Levites are assigned to their stations. Nehemiah has overseen the physical restoration, but now turns to the human architecture of the city — the leadership. He does not distribute authority randomly. He gives it to trustworthy men, men rooted in prayer and the fear of God. [res:israel-museum-jerusalem]',
         },
         {
           kind: 'commentary',

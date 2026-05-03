@@ -32,6 +32,17 @@ export const CHRONICLES_2_35: RichChapterContent = {
     ref: '2 Chronicles 35 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-judah',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Judah in the Late Iron Age',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA database of Judahite settlement and cultic sites during monarchy.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 35:1–9 — Josiah Commands the Passover ──────────── */
     {
@@ -78,7 +89,7 @@ export const CHRONICLES_2_35: RichChapterContent = {
           kind: 'commentary',
           id: 'josiah-command',
           html:
-            'Josiah does not leave the Passover to chance. He sets the priests in their charges, encourages them, and instructs the Levites with precise detail. This is not a spontaneous outpouring of piety, but a carefully ordered work — the king acting as the chief steward of worship. He is commanding the kingdom to remember.',
+            'Josiah does not leave the Passover to chance. He sets the priests in their charges, encourages them, and instructs the Levites with precise detail. This is not a spontaneous outpouring of piety, but a carefully ordered work — the king acting as the chief steward of worship. He is commanding the kingdom to remember. [res:iaa-judah]',
         },
         {
           kind: 'commentary',

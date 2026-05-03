@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 30 — the rivalry of the sisters. Rachel barren, gives Bilhah.
+ * Genesis 30 - the rivalry of the sisters. Rachel barren, gives Bilhah.
  * Leah gives Zilpah. The eight more sons born, plus Dinah. The mandrakes
  * incident. Joseph finally born to Rachel. Jacob's wage negotiation: speckled
  * and spotted flocks; the peeled rods at the watering troughs. Jacob grows
@@ -15,14 +15,14 @@ export const GENESIS_30: RichChapterContent = {
 
   estimatedMinutes: { beginner: 10, intermediate: 15, deep: 21 },
   intros: [
-    'Genesis 30 is the story of two sisters locked in a fertility competition. Rachel, the beloved wife, remains barren. Leah, the unwanted wife, keeps bearing sons. Rather than waiting on God, each sister finds a solution outside the covenant: they offer their handmaids to Jacob as surrogate wives. What follows is a catalog of eight more sons—Dan, Naphtali, Gad, Asher, Issachar, Zebulun, Dinah, and finally Joseph—born from four different mothers. The text reports this without comment. No sermon, no moral judgment. [res:bibleodyssey-jacob-israel] God is simply building His people out of a family that is messy, driven by envy, and utterly human.',
-    'Then comes the mandrakes—a plant tied to ancient fertility folklore—and a marital negotiation so odd it sounds almost like a joke. But underneath the rivalries and the magical thinking is a deeper truth: God keeps His covenant not because the people who bear it are noble or patient, but because His word is inviolable. By the end, Jacob has won a new wage deal with Laban and begins to grow rich, not by magic rods but by selective breeding and God&apos;s favor. The chapter ends on the edge of Jacob&apos;s next trial: Laban&apos;s jealousy and the call to go home.',
+    'Genesis 30 is the story of two sisters locked in a fertility competition. Rachel, the beloved wife, remains barren. Leah, the unwanted wife, keeps bearing sons. Rather than waiting on God, each sister finds a solution outside the covenant: they offer their handmaids to Jacob as surrogate wives. What follows is a catalog of eight more sons-Dan, Naphtali, Gad, Asher, Issachar, Zebulun, Dinah, and finally Joseph-born from four different mothers. The text reports this without comment. No sermon, no moral judgment. [res:bibleodyssey-jacob-israel] God is simply building His people out of a family that is messy, driven by envy, and utterly human.',
+    'Then comes the mandrakes-a plant tied to ancient fertility folklore-and a marital negotiation so odd it sounds almost like a joke. But underneath the rivalries and the magical thinking is a deeper truth: God keeps His covenant not because the people who bear it are noble or patient, but because His word is inviolable. By the end, Jacob has won a new wage deal with Laban and begins to grow rich, not by magic rods but by selective breeding and God&apos;s favor. The chapter ends on the edge of Jacob&apos;s next trial: Laban&apos;s jealousy and the call to go home.',
   ],
 
   bottomShare: {
     label: 'Share Genesis 30',
     quote:
-      'God built Israel out of Jacob and his four wives—Leah, Rachel, Bilhah, and Zilpah—each bearing sons, each competing, each longing. The pattern holds even now: God builds His people from broken families and answered prayers that come in shapes we didn&apos;t expect.',
+      'God built Israel out of Jacob and his four wives-Leah, Rachel, Bilhah, and Zilpah-each bearing sons, each competing, each longing. The pattern holds even now: God builds His people from broken families and answered prayers that come in shapes we didn&apos;t expect.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 30 · Study Guide',
   },
@@ -55,9 +55,9 @@ export const GENESIS_30: RichChapterContent = {
   ],
 
   sections: [
-    /* ─── Genesis 30:1–8 — Rachel Gives Bilhah ────────────────────────── */
+    /* ─── Genesis 30:1-8 - Rachel Gives Bilhah ────────────────────────── */
     {
-      ref: 'Genesis 30:1–8',
+      ref: 'Genesis 30:1-8',
       title: 'Rachel&apos;s Longing, Bilhah&apos;s Bearing',
       blocks: [
         {
@@ -101,8 +101,7 @@ export const GENESIS_30: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-30-78mid-1',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Rachel&apos;s barrenness burns, so she gives Bilhah to Jacob-a desperate bid for a son through her servant. Leah counters the same way with Zilpah.',
         },
         {
           kind: 'scripture',
@@ -151,11 +150,11 @@ export const GENESIS_30: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-bilhah',
-          title: 'Bilhah — "bashful"',
+          title: 'Bilhah - "bashful"',
           script: 'בִלְהָה',
           translit: '<strong>bilhah</strong> · bashful, confused',
           description:
-            'Bilhah is Rachel&apos;s handmaid, a woman whose own story the Bible barely tells. Yet she becomes one of the four mothers of Israel. She bears two sons and her role in Jacob&apos;s family is never hers to choose — it belongs to Rachel&apos;s desperation.',
+            'Bilhah is Rachel&apos;s handmaid, a woman whose own story the Bible barely tells. Yet she becomes one of the four mothers of Israel. She bears two sons and her role in Jacob&apos;s family is never hers to choose - it belongs to Rachel&apos;s desperation.',
         },
         {
           kind: 'commentary',
@@ -167,12 +166,12 @@ export const GENESIS_30: RichChapterContent = {
           kind: 'commentary',
           id: 'c-dan',
           html:
-            'Rachel calls her first surrogate son &ldquo;Dan&rdquo;—not because Bilhah chose it, but because Rachel names him for her own victory. She is claiming his birth as her own. &ldquo;God hath judged me&rdquo;—God has vindicated her in the eyes of her sister. The longing for a child has warped into the longing to win.',
+            'Rachel calls her first surrogate son &ldquo;Dan&rdquo;-not because Bilhah chose it, but because Rachel names him for her own victory. She is claiming his birth as her own. &ldquo;God hath judged me&rdquo;-God has vindicated her in the eyes of her sister. The longing for a child has warped into the longing to win.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-dan',
-          title: 'Dan — "judged"',
+          title: 'Dan - "judged"',
           script: 'דָן',
           translit: '<strong>dan</strong> · he judged, vindication',
           description:
@@ -182,41 +181,41 @@ export const GENESIS_30: RichChapterContent = {
           kind: 'commentary',
           id: 'c-wrestling-prevailed',
           html:
-            'Rachel names him for her victory in the competition. She has prevailed over Leah, for now. Yet the name carries a deeper truth: wrestling itself—with God, with circumstance, with the people you love—is what it means to seek His face. Jacob will wrestle God directly and survive; Rachel is wrestling her sister and God will hear her.',
+            'Rachel names him for her victory in the competition. She has prevailed over Leah, for now. Yet the name carries a deeper truth: wrestling itself-with God, with circumstance, with the people you love-is what it means to seek His face. Jacob will wrestle God directly and survive; Rachel is wrestling her sister and God will hear her.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-naphtali',
-          title: 'Naphtali — "wrestled"',
+          title: 'Naphtali - "wrestled"',
           script: 'נַפְתָּלִי',
           translit: '<strong>naphtali</strong> · my wrestling, I have wrestled',
           description:
-            'The root is <em>nifthal</em>, to wrestle or grapple. Rachel&apos;s name for her second surrogate son comes not from God&apos;s grace but from her own struggle. Yet the same root will describe Jacob wrestling the angel (Genesis 32:24). In the Bible, wrestling—whether with God or with your rival—is the way God&apos;s people learn to receive His blessing.',
+            'The root is <em>nifthal</em>, to wrestle or grapple. Rachel&apos;s name for her second surrogate son comes not from God&apos;s grace but from her own struggle. Yet the same root will describe Jacob wrestling the angel (Genesis 32:24). In the Bible, wrestling-whether with God or with your rival-is the way God&apos;s people learn to receive His blessing.',
         },
         {
           kind: 'christ',
           id: 'christ-rachel-die',
-          title: 'Christ Connection — The Barren Woman Who Bears',
+          title: 'Christ Connection - The Barren Woman Who Bears',
           html:
-            'Rachel cries, &ldquo;Give me children, or else I die.&rdquo; Across the Bible, God has a pattern of choosing barren women—Sarah, Hannah, Elizabeth—and opening their wombs not in the timing they demanded but in His. Hannah will sing, &ldquo;The barren hath borne seven; and she that hath many children is waxed feeble&rdquo; (1 Sam. 2:5). Rachel will finally bear Joseph and then Benjamin, and it is Rachel&apos;s own line—through Joseph&apos;s two tribes—that becomes the mightiest in Israel. The delay was not punishment; it was the shape of His promise.',
+            'Rachel cries, &ldquo;Give me children, or else I die.&rdquo; Across the Bible, God has a pattern of choosing barren women-Sarah, Hannah, Elizabeth-and opening their wombs not in the timing they demanded but in His. Hannah will sing, &ldquo;The barren hath borne seven; and she that hath many children is waxed feeble&rdquo; (1 Sam. 2:5). Rachel will finally bear Joseph and then Benjamin, and it is Rachel&apos;s own line-through Joseph&apos;s two tribes-that becomes the mightiest in Israel. The delay was not punishment; it was the shape of His promise.',
         },
         {
           kind: 'carry',
           html:
-            'Longing can become envy in a breath. Rachel looked at Leah&apos;s fruitfulness and instead of asking God, she seized. But watch what happens anyway: the children born from Bilhah become hers, and the waiting—the barrenness she cannot undo—becomes the shape of her story too. Whatever you are longing for that hasn&apos;t come, the delay is not indifference. God sees the waiting. And sometimes the deepest fruit comes after the longest dark.',
+            'Longing can become envy in a breath. Rachel looked at Leah&apos;s fruitfulness and instead of asking God, she seized. But watch what happens anyway: the children born from Bilhah become hers, and the waiting-the barrenness she cannot undo-becomes the shape of her story too. Whatever you are longing for that hasn&apos;t come, the delay is not indifference. God sees the waiting. And sometimes the deepest fruit comes after the longest dark.',
         },
         {
           kind: 'reflection',
           id: 'gen30-rachel-longing',
           prompt:
-            'Where is your envy loudest—what do you see in someone else that makes you feel the sharp <em>I</em> <em>should</em> <em>have</em> that? What would it look like to turn that hunger toward God instead of toward her?',
+            'Where is your envy loudest-what do you see in someone else that makes you feel the sharp <em>I</em> <em>should</em> <em>have</em> that? What would it look like to turn that hunger toward God instead of toward her?',
         },
       ],
     },
 
-    /* ─── Genesis 30:9–13 — Leah Gives Zilpah ───────────────────────────── */
+    /* ─── Genesis 30:9-13 - Leah Gives Zilpah ───────────────────────────── */
     {
-      ref: 'Genesis 30:9–13',
+      ref: 'Genesis 30:9-13',
       title: 'Leah&apos;s Answer, Zilpah&apos;s Fortune',
       blocks: [
         {
@@ -269,30 +268,30 @@ export const GENESIS_30: RichChapterContent = {
           kind: 'commentary',
           id: 'c-gad',
           html:
-            'Leah mirrored Rachel instantly. When Rachel gave Bilhah, Leah gave Zilpah. The competition is no longer hidden. Now it is a race in the middle of Jacob&apos;s tent, and no one is asking Zilpah or Bilhah whether they want to run. Leah names her son &ldquo;Gad&rdquo;—a troop, good fortune—as if she has suddenly caught up. The envy goes both ways now.',
+            'Leah mirrored Rachel instantly. When Rachel gave Bilhah, Leah gave Zilpah. The competition is no longer hidden. Now it is a race in the middle of Jacob&apos;s tent, and no one is asking Zilpah or Bilhah whether they want to run. Leah names her son &ldquo;Gad&rdquo;-a troop, good fortune-as if she has suddenly caught up. The envy goes both ways now.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-zilpah',
-          title: 'Zilpah — "dripping"',
+          title: 'Zilpah - "dripping"',
           script: 'זִלְפָּה',
           translit: '<strong>zilpah</strong> · dripping, flowing',
           description:
-            'Like Bilhah, Zilpah is a handmaid whose name barely echoes in Scripture. Yet she mothers two of the twelve tribes. Her story—like so many women&apos;s stories—is swallowed by the ambitions of those with more power.',
+            'Like Bilhah, Zilpah is a handmaid whose name barely echoes in Scripture. Yet she mothers two of the twelve tribes. Her story-like so many women&apos;s stories-is swallowed by the ambitions of those with more power.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-gad',
-          title: 'Gad — "troop, fortune"',
+          title: 'Gad - "troop, fortune"',
           script: 'גָד',
           translit: '<strong>gad</strong> · a troop, a fortune, good luck',
           description:
-            'Leah claims Zilpah&apos;s son as her own turn of luck. Later, Gad will become a tribe known for warriors. But in this moment, his name is about Leah&apos;s perceived victory—one more son, one more reason to be blessed.',
+            'Leah claims Zilpah&apos;s son as her own turn of luck. Later, Gad will become a tribe known for warriors. But in this moment, his name is about Leah&apos;s perceived victory-one more son, one more reason to be blessed.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-asher',
-          title: 'Asher — "happy, blessed"',
+          title: 'Asher - "happy, blessed"',
           script: 'אָשֵׁר',
           translit: '<strong>asher</strong> · happy, blessed, one who is happy',
           description:
@@ -318,9 +317,9 @@ export const GENESIS_30: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 30:14–21 — The Mandrakes and Dinah ───────────────────── */
+    /* ─── Genesis 30:14-21 - The Mandrakes and Dinah ───────────────────── */
     {
-      ref: 'Genesis 30:14–21',
+      ref: 'Genesis 30:14-21',
       title: 'The Mandrakes, and Leah Bears Again',
       blocks: [
         {
@@ -360,8 +359,7 @@ export const GENESIS_30: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-30-78mid-2',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Children multiply through strange trades and night arrangements. After years of waiting, Rachel finally holds Joseph--and her mourning becomes joy.',
         },
         {
           kind: 'scripture',
@@ -403,12 +401,12 @@ export const GENESIS_30: RichChapterContent = {
           kind: 'commentary',
           id: 'c-mandrakes-odd',
           html:
-            'The mandrakes moment is strange. A plant linked to ancient fertility magic—the <em>duda&apos;im</em> in Hebrew, shaped like a tiny human figure, believed to aid conception. Rachel wants them. Leah bargains: give me a night with Jacob for your mandrakes. And then, oddly, <em>without</em> the mandrakes, Leah conceives. The text is not endorsing magic. It is watching what desperation makes us believe.',
+            'The mandrakes moment is strange. A plant linked to ancient fertility magic-the <em>duda&apos;im</em> in Hebrew, shaped like a tiny human figure, believed to aid conception. Rachel wants them. Leah bargains: give me a night with Jacob for your mandrakes. And then, oddly, <em>without</em> the mandrakes, Leah conceives. The text is not endorsing magic. It is watching what desperation makes us believe.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-dudaim',
-          title: 'Duda&apos;im — "mandrakes"',
+          title: 'Duda&apos;im - "mandrakes"',
           script: 'דּוּדָאִים',
           translit: '<strong>duda&apos;im</strong> · mandrakes, love apples',
           description:
@@ -418,46 +416,46 @@ export const GENESIS_30: RichChapterContent = {
           kind: 'commentary',
           id: 'c-issachar-hire',
           html:
-            'The mandrakes scene reveals the depths of degradation Leah has reached. She has to <em>hire</em> her own husband by offering him a night with her body. Then she becomes pregnant anyway, not because of the plant but because God hears. She names the son &ldquo;Issachar&rdquo;—a name tied to wages, to hired work, to the strange market she has just made of herself.',
+            'The mandrakes scene reveals the depths of degradation Leah has reached. She has to <em>hire</em> her own husband by offering him a night with her body. Then she becomes pregnant anyway, not because of the plant but because God hears. She names the son &ldquo;Issachar&rdquo;-a name tied to wages, to hired work, to the strange market she has just made of herself.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-issachar',
-          title: 'Issachar — "hire, wages"',
+          title: 'Issachar - "hire, wages"',
           script: 'יִשָּׂשכָר',
           translit: '<strong>issachar</strong> · there is hire, wages, reward',
           description:
-            'Leah names him for the transaction. She hired her husband for the night by trading mandrakes. The name is a permanent mark of her humiliation. Yet Issachar will be a tribe strong and hardworking—the name that began as shame becomes a blessing.',
+            'Leah names him for the transaction. She hired her husband for the night by trading mandrakes. The name is a permanent mark of her humiliation. Yet Issachar will be a tribe strong and hardworking-the name that began as shame becomes a blessing.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-zebulun',
-          title: 'Zebulun — "dwell"',
+          title: 'Zebulun - "dwell"',
           script: 'זְבוּלוּן',
           translit: '<strong>zebulun</strong> · he will dwell with me, dwelling',
           description:
-            'Leah finally stops naming sons for struggle or luck. She names Zebulun for presence. &ldquo;My husband will dwell with me.&rdquo; Not passion—just presence. By the end of her bearing, Leah is satisfied with a man simply staying in her tent.',
+            'Leah finally stops naming sons for struggle or luck. She names Zebulun for presence. &ldquo;My husband will dwell with me.&rdquo; Not passion-just presence. By the end of her bearing, Leah is satisfied with a man simply staying in her tent.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-dinah',
-          title: 'Dinah — "judged"',
+          title: 'Dinah - "judged"',
           script: 'דִינָה',
           translit: '<strong>dinah</strong> · she is judged, vindication',
           description:
-            'The only daughter born to Jacob in this account, and her name echoes her brother Dan&apos;s. She is judged. Later in Genesis 34, Dinah&apos;s story—her vulnerability—becomes a reason for violence. The Bible is honest about what happens to girls born in a family at war with itself.',
+            'The only daughter born to Jacob in this account, and her name echoes her brother Dan&apos;s. She is judged. Later in Genesis 34, Dinah&apos;s story-her vulnerability-becomes a reason for violence. The Bible is honest about what happens to girls born in a family at war with itself.',
         },
         {
           kind: 'christ',
           id: 'christ-hear-cry',
-          title: 'Christ Connection — God Hears the Cry of the Despised',
+          title: 'Christ Connection - God Hears the Cry of the Despised',
           html:
             'Notice the phrase: &ldquo;God hearkened unto Leah.&rdquo; Not Leah&apos;s magic rods. Not the mandrakes. God heard. The same verb appears when Hannah cries for a child (1 Sam. 1:13) and when the Psalms say God hears the prayer of the needy. Leah, despised and forced to bargain with her own body, is heard. Her sons are given not because she earned them but because God sees her desperation. That is the pattern of grace all through Scripture: God hears the cry of those the world has written off.',
         },
         {
           kind: 'carry',
           html:
-            'Leah started this chapter hating her sister. By the end, she was satisfied with her husband simply staying the night. That is what competition does: it shrinks us. Yet notice: even in her smallest moments—even when she was trading away her dignity for a man who didn&apos;t love her—God heard. Your prayers don&apos;t need to be dignified to matter. They don&apos;t need to be strategic. If you are crying out, God is listening.',
+            'Leah started this chapter hating her sister. By the end, she was satisfied with her husband simply staying the night. That is what competition does: it shrinks us. Yet notice: even in her smallest moments-even when she was trading away her dignity for a man who didn&apos;t love her-God heard. Your prayers don&apos;t need to be dignified to matter. They don&apos;t need to be strategic. If you are crying out, God is listening.',
         },
         {
           kind: 'reflection',
@@ -468,9 +466,9 @@ export const GENESIS_30: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 30:22–24 — Joseph Born ──────────────────────────────── */
+    /* ─── Genesis 30:22-24 - Joseph Born ──────────────────────────────── */
     {
-      ref: 'Genesis 30:22–24',
+      ref: 'Genesis 30:22-24',
       title: 'Joseph: &ldquo;May He Add&rdquo;',
       blocks: [
         {
@@ -512,23 +510,23 @@ export const GENESIS_30: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-joseph',
-          title: 'Joseph — "may He add"',
+          title: 'Joseph - "may He add"',
           script: 'יוֹסֵף',
           translit: '<strong>yosef</strong> · may He add, may the LORD add',
           description:
-            'The name is Rachel&apos;s prayer in one word. <em>May God add another son.</em> Joseph becomes the favorite, the dreamer, the one sold into slavery and raised to power—but his name begins as Rachel&apos;s incomplete joy. She has one son at last, but already she prays for a second. The barren woman&apos;s hunger never fully stops.',
+            'The name is Rachel&apos;s prayer in one word. <em>May God add another son.</em> Joseph becomes the favorite, the dreamer, the one sold into slavery and raised to power-but his name begins as Rachel&apos;s incomplete joy. She has one son at last, but already she prays for a second. The barren woman&apos;s hunger never fully stops.',
         },
         {
           kind: 'christ',
           id: 'christ-joseph-birth',
-          title: 'Christ Connection — The One Who Is "Added"',
+          title: 'Christ Connection - The One Who Is "Added"',
           html:
-            'Joseph&apos;s name means &ldquo;may the LORD add.&rdquo; He will be sold into Egypt and become the means of survival for Israel. Paul uses similar language for the Gentiles in Romans 11: the Church as the mystery of the <em>added</em> people, grafted into Israel&apos;s promise. Christ Himself is the ultimate Addition—the Son whose coming was promised, who appears in fullness of time to redeem. Joseph is a pattern of the One who is &ldquo;added&rdquo; to our story to save what was lost.',
+            'Joseph&apos;s name means &ldquo;may the LORD add.&rdquo; He will be sold into Egypt and become the means of survival for Israel. Paul uses similar language for the Gentiles in Romans 11: the Church as the mystery of the <em>added</em> people, grafted into Israel&apos;s promise. Christ Himself is the ultimate Addition-the Son whose coming was promised, who appears in fullness of time to redeem. Joseph is a pattern of the One who is &ldquo;added&rdquo; to our story to save what was lost.',
         },
         {
           kind: 'carry',
           html:
-            'Rachel prayed for a child, and when Joseph finally came, her first word was about what else she wanted. That is the peculiar ache of answered prayer sometimes—the relief of having received, mixed with the hunger for more. But watch what happens: Joseph becomes the son who saves the whole family. God heard Rachel not just once but twice—first giving her Joseph, then (as she hopes) giving her Benjamin. The answer comes not to her impatience but to her waiting. To her faith that God is not finished.',
+            'Rachel prayed for a child, and when Joseph finally came, her first word was about what else she wanted. That is the peculiar ache of answered prayer sometimes-the relief of having received, mixed with the hunger for more. But watch what happens: Joseph becomes the son who saves the whole family. God heard Rachel not just once but twice-first giving her Joseph, then (as she hopes) giving her Benjamin. The answer comes not to her impatience but to her waiting. To her faith that God is not finished.',
         },
         {
           kind: 'reflection',
@@ -539,9 +537,9 @@ export const GENESIS_30: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 30:25–43 — The Wage Negotiation ────────────────────── */
+    /* ─── Genesis 30:25-43 - The Wage Negotiation ────────────────────── */
     {
-      ref: 'Genesis 30:25–43',
+      ref: 'Genesis 30:25-43',
       title: 'Jacob&apos;s Cunning, Laban&apos;s Jealousy',
       blocks: [
         {
@@ -596,7 +594,7 @@ export const GENESIS_30: RichChapterContent = {
           kind: 'commentary',
           id: 'gen30-split-1',
           html:
-            'Jacob has made his case: your wealth grew because of God&apos;s blessing on my labor. Now comes the negotiation—not angry or demanding, but clear. Jacob knows his worth. He knows what he has done. And he is asking to keep what he builds going forward.',
+            'Jacob has made his case: your wealth grew because of God&apos;s blessing on my labor. Now comes the negotiation-not angry or demanding, but clear. Jacob knows his worth. He knows what he has done. And he is asking to keep what he builds going forward.',
         },
         {
           kind: 'scripture',
@@ -677,8 +675,7 @@ export const GENESIS_30: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-30-78mid-3',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Jacob wants to return home, but Laban keeps him--and they strike a deal about the spotted and speckled goats. God prospers Jacob&apos;s cunning.',
         },
         {
           kind: 'scripture',
@@ -722,7 +719,7 @@ export const GENESIS_30: RichChapterContent = {
           kind: 'commentary',
           id: 'c-wages',
           html:
-            'Laban won&apos;t let Jacob go empty. He is willing to pay him—because he has seen that God&apos;s blessing comes wherever Jacob is. Laban, an idolater, knows that Jacob&apos;s God is real. But he expects to keep Jacob. When Jacob asks for a wage, Laban is sure he will win.',
+            'Laban won&apos;t let Jacob go empty. He is willing to pay him-because he has seen that God&apos;s blessing comes wherever Jacob is. Laban, an idolater, knows that Jacob&apos;s God is real. But he expects to keep Jacob. When Jacob asks for a wage, Laban is sure he will win.',
         },
         {
           kind: 'commentary',
@@ -734,7 +731,7 @@ export const GENESIS_30: RichChapterContent = {
           kind: 'commentary',
           id: 'c-peeled-rods',
           html:
-            'The peeled rods are the strangest part. Jacob—or the text—seems to suggest they work through some sort of visual impression or magic. But here&apos;s what the text actually says: the flocks that saw the rods conceived. Then Jacob simply bred the strong animals on the spotted stock and the weaker on the regular stock. Selective breeding, dressed up in the language of ancient magic. Jacob is using practical intelligence to win his wage. He is not relying on superstition; he is relying on his eye for which animals to breed.',
+            'The peeled rods are the strangest part. Jacob-or the text-seems to suggest they work through some sort of visual impression or magic. But here&apos;s what the text actually says: the flocks that saw the rods conceived. Then Jacob simply bred the strong animals on the spotted stock and the weaker on the regular stock. Selective breeding, dressed up in the language of ancient magic. Jacob is using practical intelligence to win his wage. He is not relying on superstition; he is relying on his eye for which animals to breed.',
         },
         {
           kind: 'commentary',
@@ -745,9 +742,9 @@ export const GENESIS_30: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-separate-increase',
-          title: 'Christ Connection — Separation and Increase',
+          title: 'Christ Connection - Separation and Increase',
           html:
-            'Jacob separates his lambs from Laban&apos;s. The pattern runs through the Bible: separation often precedes blessing. The land separates from water on day three; then it brings forth fruit. Abram separates from Lot; then God tells him to look around—all the land is his. The Church is separated from the world (2 Cor. 6:17), and that separation is where her increase begins. Prosperity in the Bible is often the fruit of clear boundaries.',
+            'Jacob separates his lambs from Laban&apos;s. The pattern runs through the Bible: separation often precedes blessing. The land separates from water on day three; then it brings forth fruit. Abram separates from Lot; then God tells him to look around-all the land is his. The Church is separated from the world (2 Cor. 6:17), and that separation is where her increase begins. Prosperity in the Bible is often the fruit of clear boundaries.',
         },
         {
           kind: 'carry',

@@ -31,6 +31,17 @@ export const CHRONICLES_1_9: RichChapterContent = {
     ref: '1 Chronicles 9 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-tribal-lists',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Tribal Genealogies and Borders',
+      url: 'https://www.sefaria.org/search?q=tribe+israel&tab=text',
+      description: 'Sefaria resources on the twelve tribes, genealogies, and territorial divisions.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 9:1–9 — The First Inhabitants Return ────────────── */
     {
@@ -50,7 +61,7 @@ export const CHRONICLES_1_9: RichChapterContent = {
           kind: 'commentary',
           id: 'exile-return',
           html:
-            'The exile is not erased from the record. These are the people "who were carried away to Babylon for their transgression." Yet they are also the people who returned. The Chronicler holds both truths together: judgment came, but so did restoration. The people of God did not remain in captivity. They came home.',
+            'The exile is not erased from the record. These are the people "who were carried away to Babylon for their transgression." Yet they are also the people who returned. The Chronicler holds both truths together: judgment came, but so did restoration. The people of God did not remain in captivity. They came home. [res:sefaria-tribal-lists]',
         },
         {
           kind: 'commentary',

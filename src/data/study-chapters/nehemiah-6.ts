@@ -32,6 +32,17 @@ export const NEHEMIAH_6: RichChapterContent = {
     ref: 'Nehemiah 6 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-city-david',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA ongoing dig revealing Iron Age and Persian period Jerusalem structures.',
+    },
+  ],
+
   sections: [
     /* ─── Nehemiah 6:1–4 — "I Am Doing a Great Work" ──────────────────── */
     {
@@ -76,7 +87,7 @@ export const NEHEMIAH_6: RichChapterContent = {
           kind: 'commentary',
           id: 'neh6-come-meet',
           html:
-            'The invitation is polite on its face: "Come, let us meet together." But the text is clear: they "thought to do me mischief." They want to draw Nehemiah away from Jerusalem, away from the protection of the city and the wall, where they can harm him. It is a classic distraction — appear friendly, offer a diplomatic solution, and strike when the target is isolated.',
+            'The invitation is polite on its face: "Come, let us meet together." But the text is clear: they "thought to do me mischief." They want to draw Nehemiah away from Jerusalem, away from the protection of the city and the wall, where they can harm him. It is a classic distraction — appear friendly, offer a diplomatic solution, and strike when the target is isolated. [res:iaa-city-david]',
         },
         {
           kind: 'commentary',

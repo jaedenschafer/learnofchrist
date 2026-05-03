@@ -1,12 +1,12 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 50 — the close of the book.
+ * Genesis 50 - the close of the book.
  *
  * Joseph weeps over Jacob; the elaborate Egyptian funeral procession back
  * to Canaan; the brothers' lingering fear after Jacob's death; Joseph's
  * great reconciliation speech ("ye thought evil against me; but God meant it
- * unto good"); Joseph's death and the promise written into his bones — that
+ * unto good"); Joseph's death and the promise written into his bones - that
  * one day his people will leave Egypt and carry him home. The chapter ends
  * with a coffin waiting, a gesture of faith that is also a question mark.
  * Genesis opened with God making a world. It closes with a man's bones
@@ -19,15 +19,15 @@ export const GENESIS_50: RichChapterContent = {
 
   estimatedMinutes: { beginner: 7, intermediate: 12, deep: 15 },
   intros: [
-    'Genesis opened with God bringing light out of chaos. It closes with a coffin in Egypt [res:sefaria-genesis-50]. A man lies dead, surrounded by sons he once thought he would never see again. One of those sons has risen to be the second-most powerful man in the kingdom. Joseph has fed them, housed them, forgiven them — and still they wonder if his forgiveness was only a mask, waiting for the moment their father died to fall away.',
-    'The chapter is built on a question the brothers ask aloud (v. 15): "Joseph will peradventure hate us." After seventeen years, they still don\'t believe him. And Joseph\'s response is not irritation but tears — the kind of tears that come when you love someone and they still don\'t trust you. In the middle of the weeping, though, Joseph says something that will echo through two thousand years of theology: "Ye thought evil against me; but God meant it unto good." Human malice, divine providence, and salvation threading through both [res:bibleodyssey-joseph-egypt].',
-    'The book ends not with a triumph but with a wait. Joseph dies, his body embalmed [res:met-museum-egypt] and coffined, and makes his family swear they will carry his bones out of Egypt when the time comes. Genesis closes with an act of faith — a dead man whose trust in God\'s promise is stronger than the comfort of burial in the land where he rose to power. His bones are a question waiting for an answer: Will God keep His word? Will there be an exodus? Will the promise made to Abraham actually come to pass?',
+    'Genesis opened with God bringing light out of chaos. It closes with a coffin in Egypt [res:sefaria-genesis-50]. A man lies dead, surrounded by sons he once thought he would never see again. One of those sons has risen to be the second-most powerful man in the kingdom. Joseph has fed them, housed them, forgiven them - and still they wonder if his forgiveness was only a mask, waiting for the moment their father died to fall away.',
+    'The chapter is built on a question the brothers ask aloud (v. 15): "Joseph will peradventure hate us." After seventeen years, they still don\'t believe him. And Joseph\'s response is not irritation but tears - the kind of tears that come when you love someone and they still don\'t trust you. In the middle of the weeping, though, Joseph says something that will echo through two thousand years of theology: "Ye thought evil against me; but God meant it unto good." Human malice, divine providence, and salvation threading through both [res:bibleodyssey-joseph-egypt].',
+    'The book ends not with a triumph but with a wait. Joseph dies, his body embalmed [res:met-museum-egypt] and coffined, and makes his family swear they will carry his bones out of Egypt when the time comes. Genesis closes with an act of faith - a dead man whose trust in God\'s promise is stronger than the comfort of burial in the land where he rose to power. His bones are a question waiting for an answer: Will God keep His word? Will there be an exodus? Will the promise made to Abraham actually come to pass?',
   ],
 
   bottomShare: {
     label: 'Share Genesis 50',
     quote:
-      'Ye thought evil against me; but God meant it unto good — and Joseph wept over his father, forgave his brothers, and died trusting that his bones would one day go home.',
+      'Ye thought evil against me; but God meant it unto good - and Joseph wept over his father, forgave his brothers, and died trusting that his bones would one day go home.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 50 · Study Guide',
   },
@@ -60,9 +60,9 @@ export const GENESIS_50: RichChapterContent = {
   ],
 
   sections: [
-    /* ─── Genesis 50:1–11 — The Funeral ───────────────────────────────── */
+    /* ─── Genesis 50:1-11 - The Funeral ───────────────────────────────── */
     {
-      ref: 'Genesis 50:1–11',
+      ref: 'Genesis 50:1-11',
       title: 'Joseph Weeps, and Egypt Grieves',
       blocks: [
         {
@@ -164,48 +164,48 @@ export const GENESIS_50: RichChapterContent = {
           kind: 'commentary',
           id: 'c-embalm',
           html:
-            'Embalming was an Egyptian practice, not a Hebrew one. Joseph honors his father by giving him the funeral rites of the kingdom where he — and where Joseph — have risen to prominence. Seventeen years in Egypt, and Jacob has become important enough to the Pharaoh that his death is a state matter. The family grieves as Egyptians now, not as the nomads they once were.',
+            'Embalming was an Egyptian practice, not a Hebrew one. Joseph honors his father by giving him the funeral rites of the kingdom where he - and where Joseph - have risen to prominence. Seventeen years in Egypt, and Jacob has become important enough to the Pharaoh that his death is a state matter. The family grieves as Egyptians now, not as the nomads they once were.',
         },
         {
           kind: 'commentary',
           id: 'c-mourning-days',
           html:
-            'Seventy days of mourning — an extraordinarily long period, and one recorded in Egyptian annals as fit for a royal or exceptionally honored person. Jacob, a stranger who became part of Joseph\'s household, receives the honor of the kingdom. There is a kind of homecoming in this: Jacob lives as an alien in Egypt, but when he dies, Egypt mourns him as one of its own.',
+            'Seventy days of mourning - an extraordinarily long period, and one recorded in Egyptian annals as fit for a royal or exceptionally honored person. Jacob, a stranger who became part of Joseph\'s household, receives the honor of the kingdom. There is a kind of homecoming in this: Jacob lives as an alien in Egypt, but when he dies, Egypt mourns him as one of its own.',
         },
         {
           kind: 'commentary',
           id: 'c-seven-days',
           html:
-            'After reaching Canaan, they mourn for seven more days at the threshingfloor of Atad. The number seven echoes the creation week, the Sabbath, the sacred cycles of Israel. Even in grief, time is being sanctified — marked, set apart, named as belonging to God.',
+            'After reaching Canaan, they mourn for seven more days at the threshingfloor of Atad. The number seven echoes the creation week, the Sabbath, the sacred cycles of Israel. Even in grief, time is being sanctified - marked, set apart, named as belonging to God.',
         },
         {
           kind: 'commentary',
           id: 'c-abel-mizraim',
           html:
-            'The name means "meadow of Egypt" — a place on Canaanite soil that will be remembered as a place where Egyptians wept for a Hebrew elder. The text marks the boundary: here, Egypt\'s mourning touches Canaan. The language shifts, the soil changes, the covenant promise comes back into view.',
+            'The name means "meadow of Egypt" - a place on Canaanite soil that will be remembered as a place where Egyptians wept for a Hebrew elder. The text marks the boundary: here, Egypt\'s mourning touches Canaan. The language shifts, the soil changes, the covenant promise comes back into view.',
         },
         {
           kind: 'carry',
           html:
-            'Grief is honest and worth the time it takes. Joseph doesn\'t rush his father\'s burial. He doesn\'t minimize the loss or try to move quickly past it. He makes space for the Egyptians to mourn, and for his own family to grieve with him — seven days in Canaan, at the threshold of the land where his ancestors lie buried. When someone you love dies, a week of stopping is not too much. Tears that flow for forty days and seventy are not a sign of weakness but of the weight of a life, the depth of a bond. Let yourself be thorough in your grief.',
+            'Grief is honest and worth the time it takes. Joseph doesn\'t rush his father\'s burial. He doesn\'t minimize the loss or try to move quickly past it. He makes space for the Egyptians to mourn, and for his own family to grieve with him - seven days in Canaan, at the threshold of the land where his ancestors lie buried. When someone you love dies, a week of stopping is not too much. Tears that flow for forty days and seventy are not a sign of weakness but of the weight of a life, the depth of a bond. Let yourself be thorough in your grief.',
         },
         {
           kind: 'reflection',
           id: 'gen50-grief',
           prompt:
-            'Who in your life deserves a full seven days of your grief — or more? What would it look like to give someone\'s loss the time it actually needs?',
+            'Who in your life deserves a full seven days of your grief - or more? What would it look like to give someone\'s loss the time it actually needs?',
         },
         {
           kind: 'artwork',
           matchTitle: /joseph.*jacob|jacob.*death|embalm/i,
-          caption: 'Genesis 50:1–11 · The Funeral Procession',
+          caption: 'Genesis 50:1-11 · The Funeral Procession',
         },
       ],
     },
 
-    /* ─── Genesis 50:12–14 — The Burial ──────────────────────────────── */
+    /* ─── Genesis 50:12-14 - The Burial ──────────────────────────────── */
     {
-      ref: 'Genesis 50:12–14',
+      ref: 'Genesis 50:12-14',
       title: 'Home Again',
       blocks: [
         {
@@ -238,12 +238,12 @@ export const GENESIS_50: RichChapterContent = {
           kind: 'commentary',
           id: 'ref-cave-machpelah',
           html:
-            'The cave of Machpelah is the family sepulcher — the burial place of Abraham, Sarah, Isaac, Rebekah, and Jacob\'s first wife Leah. It is the one piece of Canaan that Abraham bought as his own, the only land the family has ever owned there. Jacob, who fled Egypt in fear of Esau, dies in Egypt — and returns home to be buried with his ancestors. He never left the covenant promise, even when he left the land.',
+            'The cave of Machpelah is the family sepulcher - the burial place of Abraham, Sarah, Isaac, Rebekah, and Jacob\'s first wife Leah. It is the one piece of Canaan that Abraham bought as his own, the only land the family has ever owned there. Jacob, who fled Egypt in fear of Esau, dies in Egypt - and returns home to be buried with his ancestors. He never left the covenant promise, even when he left the land.',
         },
         {
           kind: 'carry',
           html:
-            'Some promises take a lifetime to fulfill. Jacob was told his descendants would inherit Canaan, but he died and was buried there instead of building a dynasty in the land. Yet his bones in that soil are a kind of claim — a statement written in death that the family belongs there, that the promise is real, that one day his descendants will return. What promise are you holding that won\'t see completion in your lifetime? Let your faithfulness now be the foundation for someone else\'s fulfillment later.',
+            'Some promises take a lifetime to fulfill. Jacob was told his descendants would inherit Canaan, but he died and was buried there instead of building a dynasty in the land. Yet his bones in that soil are a kind of claim - a statement written in death that the family belongs there, that the promise is real, that one day his descendants will return. What promise are you holding that won\'t see completion in your lifetime? Let your faithfulness now be the foundation for someone else\'s fulfillment later.',
         },
         {
           kind: 'reflection',
@@ -254,9 +254,9 @@ export const GENESIS_50: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 50:15–21 — The Reconciliation ──────────────────────── */
+    /* ─── Genesis 50:15-21 - The Reconciliation ──────────────────────── */
     {
-      ref: 'Genesis 50:15–21',
+      ref: 'Genesis 50:15-21',
       title: 'The Speech They Needed to Hear',
       blocks: [
         {
@@ -290,8 +290,7 @@ export const GENESIS_50: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-50-78mid-1',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Jacob has breathed his last in Egypt, and Joseph weeps. The story of his father--the wanderer, the wrestler with God--comes to its quiet end.',
         },
         {
           kind: 'scripture',
@@ -330,7 +329,7 @@ export const GENESIS_50: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-chashav',
-          title: 'Chashav — &ldquo;thought, intended, reckoned&rdquo;',
+          title: 'Chashav - &ldquo;thought, intended, reckoned&rdquo;',
           script: 'חָשַׁב',
           translit: '<strong>chashav</strong> · to think, plan, intend, reckon',
           description:
@@ -346,19 +345,19 @@ export const GENESIS_50: RichChapterContent = {
           kind: 'commentary',
           id: 'c-god-of-thy-father',
           html:
-            'The brothers appeal to Joseph not on their own merit but on the covenant: "the God of thy father." They are reminding Joseph that he stands in a tradition, in a line of promise, in a family story larger than any one injury. Forgiveness is not just a personal choice; it is a covenant choice — an act of honoring the God who has held the family together.',
+            'The brothers appeal to Joseph not on their own merit but on the covenant: "the God of thy father." They are reminding Joseph that he stands in a tradition, in a line of promise, in a family story larger than any one injury. Forgiveness is not just a personal choice; it is a covenant choice - an act of honoring the God who has held the family together.',
         },
         {
           kind: 'christ',
           id: 'christ-providence',
-          title: 'Christ Connection — Evil Intended, Good Meant',
+          title: 'Christ Connection - Evil Intended, Good Meant',
           html:
             '"Ye thought evil against me; but God meant it unto good." This is the clearest statement of the gospel pattern in the Old Testament. Acts 2:23 says: "Him, being delivered by the determinate counsel and foreknowledge of God, ye have taken, and by wicked hands have crucified and slain." Human malice and divine providence work on two different levels. The brothers meant to destroy their brother; God was using their hatred to preserve a family. The crucifixion follows the exact same shape: human evil, divine intention, salvation for many. Joseph\'s words are the gospel in miniature.',
         },
         {
           kind: 'carry',
           html:
-            'Forgiveness is not forgetting that harm was done. Joseph remembers. His brothers remember. He holds no grudge, but the injury is real — and so is his choice to see a hand larger than his brothers\' malice at work in it. If you\'ve been deeply hurt, you don\'t move past it by pretending it didn\'t matter. You move past it when you can see that God was at work in the very story that included the wound. That doesn\'t excuse the person who hurt you. It frees you from needing their apology to validate your life.',
+            'Forgiveness is not forgetting that harm was done. Joseph remembers. His brothers remember. He holds no grudge, but the injury is real - and so is his choice to see a hand larger than his brothers\' malice at work in it. If you\'ve been deeply hurt, you don\'t move past it by pretending it didn\'t matter. You move past it when you can see that God was at work in the very story that included the wound. That doesn\'t excuse the person who hurt you. It frees you from needing their apology to validate your life.',
         },
         {
           kind: 'reflection',
@@ -369,14 +368,14 @@ export const GENESIS_50: RichChapterContent = {
         {
           kind: 'artwork',
           matchTitle: /joseph.*brothers|reconcil|forgiv/i,
-          caption: 'Genesis 50:15–21 · The Reconciliation',
+          caption: 'Genesis 50:15-21 · The Reconciliation',
         },
       ],
     },
 
-    /* ─── Genesis 50:22–26 — Bones and Promise ──────────────────────── */
+    /* ─── Genesis 50:22-26 - Bones and Promise ──────────────────────── */
     {
-      ref: 'Genesis 50:22–26',
+      ref: 'Genesis 50:22-26',
       title: 'Joseph\'s Oath and His Death',
       blocks: [
         {
@@ -425,34 +424,34 @@ export const GENESIS_50: RichChapterContent = {
           kind: 'commentary',
           id: 'ref-oath-patriarchs',
           html:
-            'On his deathbed, Joseph speaks as a man of faith. He will not live to see the exodus. He will not walk in Canaan. But he knows — <em>surely</em> knows — that God will visit His people and bring them out of Egypt. This is not hope; it is certainty. The covenant made to Abraham generations before is still alive, still moving, still going to happen.',
+            'On his deathbed, Joseph speaks as a man of faith. He will not live to see the exodus. He will not walk in Canaan. But he knows - <em>surely</em> knows - that God will visit His people and bring them out of Egypt. This is not hope; it is certainty. The covenant made to Abraham generations before is still alive, still moving, still going to happen.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-atsamot',
-          title: 'Atsamot — &ldquo;bones&rdquo;',
+          title: 'Atsamot - &ldquo;bones&rdquo;',
           script: 'עֲצָמוֹת',
           translit: '<strong>atsamot</strong> · bones',
           description:
-            'Joseph\'s bones become a sign of faith. Moses will carry them out of Egypt (Exodus 13:19), and Joshua will bury them in Shechem (Joshua 24:32) — a fulfillment of this oath, centuries later. Bones are the hardest part of the body; they persist when everything else decays. Joseph\'s bones are his faith made flesh.',
+            'Joseph\'s bones become a sign of faith. Moses will carry them out of Egypt (Exodus 13:19), and Joshua will bury them in Shechem (Joshua 24:32) - a fulfillment of this oath, centuries later. Bones are the hardest part of the body; they persist when everything else decays. Joseph\'s bones are his faith made flesh.',
         },
         {
           kind: 'christ',
           id: 'christ-bones',
-          title: 'Christ Connection — Bones and Resurrection',
+          title: 'Christ Connection - Bones and Resurrection',
           html:
-            'Hebrews 11:22 singles out this moment: "By faith Joseph, when he made mention of the departing of the children of Israel, gave commandment concerning his bones." A dead man\'s faith. A coffin in Egypt. Bones that know they aren\'t done yet. This is the shape of resurrection hope — the confidence that what looks like an ending is not the last word. When Ezekiel sees a valley of dry bones and God asks, "Can these bones live?" (Ezekiel 37:3), he is standing in the shadow of Joseph\'s coffin, of a man whose faith in God\'s promise proved stronger than the finality of death.',
+            'Hebrews 11:22 singles out this moment: "By faith Joseph, when he made mention of the departing of the children of Israel, gave commandment concerning his bones." A dead man\'s faith. A coffin in Egypt. Bones that know they aren\'t done yet. This is the shape of resurrection hope - the confidence that what looks like an ending is not the last word. When Ezekiel sees a valley of dry bones and God asks, "Can these bones live?" (Ezekiel 37:3), he is standing in the shadow of Joseph\'s coffin, of a man whose faith in God\'s promise proved stronger than the finality of death.',
         },
         {
           kind: 'commentary',
           id: 'c-coffin-egypt',
           html:
-            'Genesis ends not with triumph but with a waiting. Jacob is buried in Canaan, at rest in the covenant land. But Joseph — Joseph who rose higher than any of his brothers, who saved a nation, who had authority second only to Pharaoh — Joseph stays in Egypt, in a coffin, waiting. The book that opened with God creating light closes with a man\'s body waiting in darkness for a God who will not forget Him.',
+            'Genesis ends not with triumph but with a waiting. Jacob is buried in Canaan, at rest in the covenant land. But Joseph - Joseph who rose higher than any of his brothers, who saved a nation, who had authority second only to Pharaoh - Joseph stays in Egypt, in a coffin, waiting. The book that opened with God creating light closes with a man\'s body waiting in darkness for a God who will not forget Him.',
         },
         {
           kind: 'carry',
           html:
-            'When you make a promise that you won\'t live to see kept, you\'re acting like Joseph. When you invest in something that will outlast you, plant seeds for a harvest you won\'t reap, teach someone who will teach someone else — you are testifying with your whole life that God is faithful beyond what you can see. Joseph\'s bones in Egypt are a statement of faith written in the grammar of the body. Your faithfulness now is a kind of oath written into the future, a promise that the God you trust is trustworthy enough to outlive you.',
+            'When you make a promise that you won\'t live to see kept, you\'re acting like Joseph. When you invest in something that will outlast you, plant seeds for a harvest you won\'t reap, teach someone who will teach someone else - you are testifying with your whole life that God is faithful beyond what you can see. Joseph\'s bones in Egypt are a statement of faith written in the grammar of the body. Your faithfulness now is a kind of oath written into the future, a promise that the God you trust is trustworthy enough to outlive you.',
         },
         {
           kind: 'reflection',
@@ -463,7 +462,7 @@ export const GENESIS_50: RichChapterContent = {
         {
           kind: 'artwork',
           matchTitle: /joseph.*death|coffin|egypt/i,
-          caption: 'Genesis 50:22–26 · Joseph\'s Oath',
+          caption: 'Genesis 50:22-26 · Joseph\'s Oath',
         },
       ],
     },

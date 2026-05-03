@@ -57,7 +57,7 @@ export const CHRONICLES_2_9: RichChapterContent = {
           kind: 'commentary',
           id: '2-chronicles-9-mid-4',
           html:
-            '<p>The construction progresses: each phase brought the temple closer to completion.</p>',
+            '<p>The construction progresses: each phase brought the temple closer to completion.</p> [res:british-museum-cyrus]',
         },
         {
           kind: 'scripture',
@@ -558,6 +558,17 @@ export const CHRONICLES_2_9: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Chronicles 9 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'british-museum-cyrus',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'The Cyrus Cylinder',
+      url: 'https://www.britishmuseum.org/collection/objects/w3679',
+      description: 'Ancient Persian cylinder decree allowing return from exile and temple rebuilding.',
+    },
+  ],
 
   hasHebrew: true,
 };

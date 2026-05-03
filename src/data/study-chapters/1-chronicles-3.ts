@@ -31,6 +31,17 @@ export const CHRONICLES_1_3: RichChapterContent = {
     ref: '1 Chronicles 3 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'bibleodyssey-levites',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Levites and Levitical Cities',
+      url: 'https://www.bibleodyssey.org/dictionary/levite/',
+      description: 'SBL study entry on Levite origins, roles, and tribal allotments.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 3:1–9 — David's Sons in Hebron and Jerusalem ──── */
     {
@@ -51,7 +62,7 @@ export const CHRONICLES_1_3: RichChapterContent = {
           kind: 'commentary',
           id: '1chr3-hebron-jerusalem',
           html:
-            'The chronicler marks the transition — six sons born in Hebron, the rest in Jerusalem. The capital changes; the line keeps narrowing toward the Christ.',
+            'The chronicler marks the transition — six sons born in Hebron, the rest in Jerusalem. The capital changes; the line keeps narrowing toward the Christ. [res:bibleodyssey-levites]',
         },
         {
           kind: 'scripture',

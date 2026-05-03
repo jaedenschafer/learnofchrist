@@ -30,6 +30,17 @@ export const JOB_18: RichChapterContent = {
     ref: 'Job 18 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     /* ─── Job 18:1–4 — Bildad&apos;s Opening ────────────────────────────── */
     {
@@ -57,7 +68,7 @@ export const JOB_18: RichChapterContent = {
           kind: 'commentary',
           id: 'job18-anger',
           html:
-            'Bildad speaks with contempt. Job "teareth himself in his anger"—suggesting that Job&apos;s grief and pain are actually self-destruction born of rage. But Bildad misreads the signs. What he sees as anger may be the righteous man&apos;s agony at injustice. What he sees as self-tearing may be the soul&apos;s genuine cry. Bildad has no patience for ambiguity. He will not sit with mystery. He must diagnose and condemn.',
+            'Bildad speaks with contempt. Job "teareth himself in his anger"—suggesting that Job&apos;s grief and pain are actually self-destruction born of rage. But Bildad misreads the signs. What he sees as anger may be the righteous man&apos;s agony at injustice. What he sees as self-tearing may be the soul&apos;s genuine cry. Bildad has no patience for ambiguity. He will not sit with mystery. He must diagnose and condemn. [res:british-museum-ludlul]',
         },
         {
           kind: 'hebrew',

@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 28 — Jacob flees Padan-aram. He stops at Bethel and dreams of a
+ * Genesis 28 - Jacob flees Padan-aram. He stops at Bethel and dreams of a
  * ladder reaching to heaven with angels ascending and descending, the LORD
  * standing above it. God renews the Abrahamic promises. Jacob wakes in wonder,
  * sets up a stone pillar, vows tithes. A turning point: grace finds him in
@@ -14,8 +14,8 @@ export const GENESIS_28: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 12, deep: 15 },
   intros: [
-    'Jacob has just stolen his brother&apos;s blessing. He is fleeing for his life into the desert, running from Esau&apos;s murderous rage. He is homeless, alone, carrying nothing but the clothes on his back and a thief&apos;s guilt. At nightfall he lies down on the hard ground with a stone for a pillow. And then — at the moment of deepest isolation, when he has lost everything and has no reason to expect God&apos;s face — he dreams.',
-    'What he sees is a ladder connecting earth to heaven, angels moving up and down it like a highway between two worlds. And standing at the top: the LORD Himself. The dream is pure grace: [res:bibleodyssey-jacob-israel] God speaking the very promises Jacob thought he&apos;d forfeited, blessing him not because he deserves it but because He had promised it to Abraham. Jacob wakes from his stone pillow trembling. He names the place Bethel — the house of God — and marks it with a vow. But his vow is still Jacob: <em>if</em> God will be with me, <em>then</em> the LORD will be my God. Grace finds him bargaining. Grace meets him anyway.',
+    'Jacob has just stolen his brother&apos;s blessing. He is fleeing for his life into the desert, running from Esau&apos;s murderous rage. He is homeless, alone, carrying nothing but the clothes on his back and a thief&apos;s guilt. At nightfall he lies down on the hard ground with a stone for a pillow. And then - at the moment of deepest isolation, when he has lost everything and has no reason to expect God&apos;s face - he dreams.',
+    'What he sees is a ladder connecting earth to heaven, angels moving up and down it like a highway between two worlds. And standing at the top: the LORD Himself. The dream is pure grace: [res:bibleodyssey-jacob-israel] God speaking the very promises Jacob thought he&apos;d forfeited, blessing him not because he deserves it but because He had promised it to Abraham. Jacob wakes from his stone pillow trembling. He names the place Bethel - the house of God - and marks it with a vow. But his vow is still Jacob: <em>if</em> God will be with me, <em>then</em> the LORD will be my God. Grace finds him bargaining. Grace meets him anyway.',
   ],
 
   bottomShare: {
@@ -54,9 +54,9 @@ export const GENESIS_28: RichChapterContent = {
   ],
 
   sections: [
-    /* ─── Genesis 28:1–5 — Sent Away ──────────────────────────────── */
+    /* ─── Genesis 28:1-5 - Sent Away ──────────────────────────────── */
     {
-      ref: 'Genesis 28:1–5',
+      ref: 'Genesis 28:1-5',
       title: 'The Flight',
       blocks: [
         {
@@ -105,28 +105,28 @@ export const GENESIS_28: RichChapterContent = {
           kind: 'commentary',
           id: 'c-blessed',
           html:
-            'Isaac blesses Jacob in front of Esau. Jacob has stolen the blessing, yet Isaac ratifies it — not out of foolishness, but because he now understands. The work is done. Jacob must be sent away to marry well and keep the line pure. Isaac is no longer fighting what God has already chosen. He is doing the harder thing: accepting it, and blessing the son he favors less.',
+            'Isaac blesses Jacob in front of Esau. Jacob has stolen the blessing, yet Isaac ratifies it - not out of foolishness, but because he now understands. The work is done. Jacob must be sent away to marry well and keep the line pure. Isaac is no longer fighting what God has already chosen. He is doing the harder thing: accepting it, and blessing the son he favors less.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-paddanaram',
-          title: 'Padan-Aram — &ldquo;the field of Aram&rdquo;',
+          title: 'Padan-Aram - &ldquo;the field of Aram&rdquo;',
           script: 'פַּדַּן־אָרָם',
           translit: '<strong>Paddan-Aram</strong> · the field / plain of Aram (Mesopotamia)',
           description:
-            'Jacob is being sent into exile — north to Mesopotamia, to the homeland his family came from. It is a long, solitary journey into the unknown. He goes as a refugee, carrying his mother&apos;s shame and his brother&apos;s hatred with him.',
+            'Jacob is being sent into exile - north to Mesopotamia, to the homeland his family came from. It is a long, solitary journey into the unknown. He goes as a refugee, carrying his mother&apos;s shame and his brother&apos;s hatred with him.',
         },
         {
           kind: 'christ',
           id: 'christ-promise-renewed',
-          title: 'Christ Connection — The Seed of Promise',
+          title: 'Christ Connection - The Seed of Promise',
           html:
-            'Isaac says Jacob will inherit the land and become a multitude. He is speaking about the Abrahamic covenant — the same promise God made to Abraham and later reaffirmed to Isaac. Paul will later clarify what seed is being spoken of: &ldquo;Now to Abraham and his seed were the promises made. He saith not, And to seeds, as of many; but as of one, And to thy seed, which is Christ&rdquo; (Gal. 3:16). Every time the promise is renewed, it is drawing the entire story toward the One who will bring all nations blessing.',
+            'Isaac says Jacob will inherit the land and become a multitude. He is speaking about the Abrahamic covenant - the same promise God made to Abraham and later reaffirmed to Isaac. Paul will later clarify what seed is being spoken of: &ldquo;Now to Abraham and his seed were the promises made. He saith not, And to seeds, as of many; but as of one, And to thy seed, which is Christ&rdquo; (Gal. 3:16). Every time the promise is renewed, it is drawing the entire story toward the One who will bring all nations blessing.',
         },
         {
           kind: 'carry',
           html:
-            'You have times in your life when you are sent away — from a job, a relationship, a place you thought would always be home. Sometimes you sent yourself by your own poor choices. Sometimes someone you trusted sends you without explanation. The promise Jacob carries into exile is not that he deserves to go or that it will be easy. It is that he goes not alone, that God is already thinking about the lineage that flows through him, that his scattering is part of a gathering.',
+            'You have times in your life when you are sent away - from a job, a relationship, a place you thought would always be home. Sometimes you sent yourself by your own poor choices. Sometimes someone you trusted sends you without explanation. The promise Jacob carries into exile is not that he deserves to go or that it will be easy. It is that he goes not alone, that God is already thinking about the lineage that flows through him, that his scattering is part of a gathering.',
         },
         {
           kind: 'reflection',
@@ -137,9 +137,9 @@ export const GENESIS_28: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 28:6–9 — Esau&apos;s Failure ────────────────────────── */
+    /* ─── Genesis 28:6-9 - Esau&apos;s Failure ────────────────────────── */
     {
-      ref: 'Genesis 28:6–9',
+      ref: 'Genesis 28:6-9',
       title: 'Esau Understands Too Late',
       blocks: [
         {
@@ -180,7 +180,7 @@ export const GENESIS_28: RichChapterContent = {
           kind: 'commentary',
           id: 'c-esau-sees',
           html:
-            'Esau finally sees what his father values, what the covenant requires. He finally understands. And so he tries to fix it — he goes and marries Mahalath, a daughter of Ishmael, thinking this will make him acceptable. [res:sefaria-genesis-28] But understanding too late is a particular kind of pain. The blessing cannot be unbroken and re-given. The choice made at the red pot cannot be unmade.',
+            'Esau finally sees what his father values, what the covenant requires. He finally understands. And so he tries to fix it - he goes and marries Mahalath, a daughter of Ishmael, thinking this will make him acceptable. [res:sefaria-genesis-28] But understanding too late is a particular kind of pain. The blessing cannot be unbroken and re-given. The choice made at the red pot cannot be unmade.',
         },
         {
           kind: 'commentary',
@@ -191,14 +191,14 @@ export const GENESIS_28: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'There are moments when you finally understand what someone was asking of you — and it is too late to give it them the way they wanted. The repair has to happen in a different key. If you are Esau here, asking God to accept the late understanding, the answer is yes — but the gift will look different than you imagined. If you are someone waiting for another person to finally see, the work is still to keep the door open, still to make clear what matters.',
+            'There are moments when you finally understand what someone was asking of you - and it is too late to give it them the way they wanted. The repair has to happen in a different key. If you are Esau here, asking God to accept the late understanding, the answer is yes - but the gift will look different than you imagined. If you are someone waiting for another person to finally see, the work is still to keep the door open, still to make clear what matters.',
         },
       ],
     },
 
-    /* ─── Genesis 28:10–15 — The Dream at Bethel ───────────────────── */
+    /* ─── Genesis 28:10-15 - The Dream at Bethel ───────────────────── */
     {
-      ref: 'Genesis 28:10–15',
+      ref: 'Genesis 28:10-15',
       title: 'The Ladder Reaching to Heaven',
       blocks: [
         {
@@ -255,21 +255,21 @@ export const GENESIS_28: RichChapterContent = {
           kind: 'commentary',
           id: 'c-sulam',
           html:
-            'A <em>sulam</em> — a ladder or ramp or stairway connecting earth to heaven. We picture an upright ladder leaning against the sky, but the word evokes something more like a ziggurat, a long ramp that allows passage back and forth. This is the only place in all of Hebrew Scripture the word appears. The image carries the weight of its uniqueness: this is a highway between worlds, opened in a dream to a man who has nowhere else to turn.',
+            'A <em>sulam</em> - a ladder or ramp or stairway connecting earth to heaven. We picture an upright ladder leaning against the sky, but the word evokes something more like a ziggurat, a long ramp that allows passage back and forth. This is the only place in all of Hebrew Scripture the word appears. The image carries the weight of its uniqueness: this is a highway between worlds, opened in a dream to a man who has nowhere else to turn.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-sulam',
-          title: 'Sulam — &ldquo;ladder&rdquo;',
+          title: 'Sulam - &ldquo;ladder&rdquo;',
           script: 'סֻלָּם',
           translit: '<strong>sulam</strong> · a ladder, stairway, or ramp; the point of contact between earth and heaven',
           description:
-            'Used only here. The image is of active passage — angels going up and coming down, like traffic on a highway. Not a static connection, but a living one. A way for heaven to reach down and earth to reach up.',
+            'Used only here. The image is of active passage - angels going up and coming down, like traffic on a highway. Not a static connection, but a living one. A way for heaven to reach down and earth to reach up.',
         },
         {
           kind: 'christ',
           id: 'christ-standing',
-          title: 'Christ Connection — The Ladder Is a Person',
+          title: 'Christ Connection - The Ladder Is a Person',
           html:
             'Later in John&apos;s Gospel, Jesus tells Nathanael: &ldquo;Ye shall see heaven open, and the angels of God ascending and descending upon the Son of man&rdquo; (John 1:51). Jesus is reading Genesis 28 and telling Nathanael that <em>He</em> is the ladder. Not a ramp to heaven, but a Person. The point of contact between two worlds is not a thing but the God-man standing in the middle. Everything that ascends and descends in the kingdom of God passes through Him.',
         },
@@ -277,7 +277,7 @@ export const GENESIS_28: RichChapterContent = {
           kind: 'commentary',
           id: 'c-presence',
           html:
-            'God promises Jacob His presence: &ldquo;I am with thee.&rdquo; Not <em>if you behave</em>, not <em>when you deserve it</em>, but <em>I am with you</em> — an unearned companionship in the middle of exile. The promise echoes through the rest of Scripture. God with Moses. God with Joshua. God with the disciples. God with us.',
+            'God promises Jacob His presence: &ldquo;I am with thee.&rdquo; Not <em>if you behave</em>, not <em>when you deserve it</em>, but <em>I am with you</em> - an unearned companionship in the middle of exile. The promise echoes through the rest of Scripture. God with Moses. God with Joshua. God with the disciples. God with us.',
         },
         {
           kind: 'carry',
@@ -288,19 +288,19 @@ export const GENESIS_28: RichChapterContent = {
           kind: 'reflection',
           id: 'gen28-ladder',
           prompt:
-            'When have you felt most alone — most cut off from heaven, most sure no one was watching? What would change if the ladder was open even then?',
+            'When have you felt most alone - most cut off from heaven, most sure no one was watching? What would change if the ladder was open even then?',
         },
         {
           kind: 'artwork',
           matchTitle: /jacob|ladder|dream|bethel/i,
-          caption: 'Genesis 28:12–15 · The Ladder Reaching to Heaven',
+          caption: 'Genesis 28:12-15 · The Ladder Reaching to Heaven',
         },
       ],
     },
 
-    /* ─── Genesis 28:16–19 — Jacob Wakes ───────────────────────────── */
+    /* ─── Genesis 28:16-19 - Jacob Wakes ───────────────────────────── */
     {
-      ref: 'Genesis 28:16–19',
+      ref: 'Genesis 28:16-19',
       title: 'The House of God',
       blocks: [
         {
@@ -347,13 +347,13 @@ export const GENESIS_28: RichChapterContent = {
           kind: 'commentary',
           id: 'c-yahweh-place',
           html:
-            'Jacob wakes trembling. He did not know. He was sleeping on holy ground and did not know it. This is the texture of the dream&apos;s grace: God was there the whole time, standing above him, speaking to him, while Jacob slept on a stone. The recognition comes after — not during the blessing, but when he wakes and understands what happened.',
+            'Jacob wakes trembling. He did not know. He was sleeping on holy ground and did not know it. This is the texture of the dream&apos;s grace: God was there the whole time, standing above him, speaking to him, while Jacob slept on a stone. The recognition comes after - not during the blessing, but when he wakes and understands what happened.',
         },
         {
           kind: 'commentary',
           id: 'c-dreadful',
           html:
-            '&ldquo;How dreadful is this place.&rdquo; Not <em>lovely</em> or <em>wonderful</em>, but <em>dreadful</em> — full of dread, because the holy is fearsome. Jacob has been in God&apos;s presence and survived. The awe and the terror are the same feeling.',
+            '&ldquo;How dreadful is this place.&rdquo; Not <em>lovely</em> or <em>wonderful</em>, but <em>dreadful</em> - full of dread, because the holy is fearsome. Jacob has been in God&apos;s presence and survived. The awe and the terror are the same feeling.',
         },
         {
           kind: 'commentary',
@@ -364,36 +364,36 @@ export const GENESIS_28: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-bethel',
-          title: 'Bethel — &ldquo;house of God&rdquo;',
+          title: 'Bethel - &ldquo;house of God&rdquo;',
           script: 'בֵּית־אֵל',
           translit: '<strong>beit-el</strong> · the house / dwelling of God',
           description:
-            'Jacob names the place after his dream. It is not the city&apos;s old name (that was Luz); it is the name for what the place means now. The man has named the city after his encounter with the divine. Later, a temple will stand on this spot — the place where earth and heaven touched in a dream becomes the place where earth and heaven meet in stone.',
+            'Jacob names the place after his dream. It is not the city&apos;s old name (that was Luz); it is the name for what the place means now. The man has named the city after his encounter with the divine. Later, a temple will stand on this spot - the place where earth and heaven touched in a dream becomes the place where earth and heaven meet in stone.',
         },
         {
           kind: 'christ',
           id: 'christ-gate',
-          title: 'Christ Connection — The Door',
+          title: 'Christ Connection - The Door',
           html:
-            'Jacob says, &ldquo;This is the gate of heaven.&rdquo; Later, Jesus will say, &ldquo;I am the door: by me if any man enter in, he shall be saved&rdquo; (John 10:9). The gate Jacob found in a dream is the Person Jesus revealed Himself to be. Not a place, but a way. Not a locked door, but an open one — and the gate-keeper Himself is standing at it, inviting people through.',
+            'Jacob says, &ldquo;This is the gate of heaven.&rdquo; Later, Jesus will say, &ldquo;I am the door: by me if any man enter in, he shall be saved&rdquo; (John 10:9). The gate Jacob found in a dream is the Person Jesus revealed Himself to be. Not a place, but a way. Not a locked door, but an open one - and the gate-keeper Himself is standing at it, inviting people through.',
         },
         {
           kind: 'carry',
           html:
-            'Bethel marks a turning point. Jacob woke up. He did not go back to sleep and pretend the dream was just a dream. He rose early, took the stone he&apos;d slept on, and made it a pillar — a monument to the night he found out God was there. The smallest stone in your pocket can become a memorial. A moment you almost forgot can become a place you return to. Name it. Mark it. Let it mark you.',
+            'Bethel marks a turning point. Jacob woke up. He did not go back to sleep and pretend the dream was just a dream. He rose early, took the stone he&apos;d slept on, and made it a pillar - a monument to the night he found out God was there. The smallest stone in your pocket can become a memorial. A moment you almost forgot can become a place you return to. Name it. Mark it. Let it mark you.',
         },
         {
           kind: 'reflection',
           id: 'gen28-bethel',
           prompt:
-            'Is there a Bethel in your story — a moment when you woke up and realized God was there? What would it mean to mark it, the way Jacob marked his stone?',
+            'Is there a Bethel in your story - a moment when you woke up and realized God was there? What would it mean to mark it, the way Jacob marked his stone?',
         },
       ],
     },
 
-    /* ─── Genesis 28:20–22 — Jacob&apos;s Vow ────────────────────────── */
+    /* ─── Genesis 28:20-22 - Jacob&apos;s Vow ────────────────────────── */
     {
-      ref: 'Genesis 28:20–22',
+      ref: 'Genesis 28:20-22',
       title: 'Jacob Still Bargains',
       blocks: [
         {
@@ -436,19 +436,19 @@ export const GENESIS_28: RichChapterContent = {
           kind: 'commentary',
           id: 'c-stone-house',
           html:
-            'Jacob says the stone will be God&apos;s house, and anything God gives him, he will tithe. He is trying to formalize the relationship, to make it legal, to put God in a contract he thinks he can understand. The vow is not wrong — vows matter in Scripture — but it reveals that Jacob is still Jacob. He is still the boy who thought he could manipulate blessing into his hands. Grace has found him, but he has not yet trusted it.',
+            'Jacob says the stone will be God&apos;s house, and anything God gives him, he will tithe. He is trying to formalize the relationship, to make it legal, to put God in a contract he thinks he can understand. The vow is not wrong - vows matter in Scripture - but it reveals that Jacob is still Jacob. He is still the boy who thought he could manipulate blessing into his hands. Grace has found him, but he has not yet trusted it.',
         },
         {
           kind: 'christ',
           id: 'christ-covenant',
-          title: 'Christ Connection — The Better Covenant',
+          title: 'Christ Connection - The Better Covenant',
           html:
-            'Jacob says, &ldquo;then shall the LORD be my God.&rdquo; He is making a conditional covenant: <em>if</em> God keeps His side, Jacob will keep his. But the covenant God makes with His people through Jesus is not conditional on their performance. &ldquo;I will be your God, and you shall be my people&rdquo; (Jer. 31:33) — not <em>if</em> you obey, but <em>I am.</em> What Jacob could not yet see is that God was already keeping His word before Jacob ever promised anything. The ladder was open. The promise was spoken. Grace comes first.',
+            'Jacob says, &ldquo;then shall the LORD be my God.&rdquo; He is making a conditional covenant: <em>if</em> God keeps His side, Jacob will keep his. But the covenant God makes with His people through Jesus is not conditional on their performance. &ldquo;I will be your God, and you shall be my people&rdquo; (Jer. 31:33) - not <em>if</em> you obey, but <em>I am.</em> What Jacob could not yet see is that God was already keeping His word before Jacob ever promised anything. The ladder was open. The promise was spoken. Grace comes first.',
         },
         {
           kind: 'carry',
           html:
-            'If you are still trying to earn your way into God&apos;s keeping — if you tithe to stay blessed, pray to avoid punishment, perform to stay loved — you are still in Jacob&apos;s place on that stone. The vow is not wrong; the heart that makes it is incomplete. God is not waiting for you to get good enough to keep Him. He is already keeping you while you&apos;re still bargaining. The deal He made does not depend on your end of the bargain being perfect.',
+            'If you are still trying to earn your way into God&apos;s keeping - if you tithe to stay blessed, pray to avoid punishment, perform to stay loved - you are still in Jacob&apos;s place on that stone. The vow is not wrong; the heart that makes it is incomplete. God is not waiting for you to get good enough to keep Him. He is already keeping you while you&apos;re still bargaining. The deal He made does not depend on your end of the bargain being perfect.',
         },
         {
           kind: 'reflection',

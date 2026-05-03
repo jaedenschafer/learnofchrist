@@ -31,6 +31,17 @@ export const CHRONICLES_2_4: RichChapterContent = {
     ref: '2 Chronicles 4 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-cyrus',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'The Cyrus Cylinder',
+      url: 'https://www.britishmuseum.org/collection/objects/w3679',
+      description: 'Ancient Persian cylinder decree allowing return from exile and temple rebuilding.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 4:1–6 — The Altar and the Molten Sea ─────────────── */
     {
@@ -67,7 +78,7 @@ export const CHRONICLES_2_4: RichChapterContent = {
           kind: 'commentary',
           id: '2c4-altar-dimensions',
           html:
-            'The altar of brass is monumental: twenty cubits long, twenty cubits wide, ten cubits high. For reference, a cubit is roughly the length of a forearm—about eighteen inches. This altar rises to the height of a three-story house and covers a space the size of a grand hall. It is not a portable altar, but the permanent heart of the sanctuary—the place where the burning of offerings happens, day after day, the smoke rising toward heaven.',
+            'The altar of brass is monumental: twenty cubits long, twenty cubits wide, ten cubits high. For reference, a cubit is roughly the length of a forearm—about eighteen inches. This altar rises to the height of a three-story house and covers a space the size of a grand hall. It is not a portable altar, but the permanent heart of the sanctuary—the place where the burning of offerings happens, day after day, the smoke rising toward heaven. [res:british-museum-cyrus]',
         },
         {
           kind: 'hebrew',

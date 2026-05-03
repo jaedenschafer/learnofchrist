@@ -33,6 +33,17 @@ export const CHRONICLES_1_25: RichChapterContent = {
     ref: '1 Chronicles 25 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-david',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'David in the Ancient Near East',
+      url: 'https://www.britishmuseum.org/',
+      description: 'British Museum collections on Iron Age Levantine kingdoms and David.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 25:1–5 — The Music Ministry as Prophecy ────────────── */
     {
@@ -70,7 +81,7 @@ export const CHRONICLES_1_25: RichChapterContent = {
           kind: 'commentary',
           id: 'music-prophecy-separated',
           html:
-            'David "separates to the service" — this is not casual entertainment or ornament. This is ordination. The word suggests sacred work, the kind of dedication you would see in the setting apart of the priesthood. Music is not secondary to worship; it is itself a form of ministry that requires the same intentionality and consecration as any other sacred work in the temple.',
+            'David "separates to the service" — this is not casual entertainment or ornament. This is ordination. The word suggests sacred work, the kind of dedication you would see in the setting apart of the priesthood. Music is not secondary to worship; it is itself a form of ministry that requires the same intentionality and consecration as any other sacred work in the temple. [res:british-museum-david]',
         },
         {
           kind: 'commentary',

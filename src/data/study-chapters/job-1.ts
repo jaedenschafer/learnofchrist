@@ -33,6 +33,17 @@ export const JOB_1: RichChapterContent = {
     ref: 'Job 1 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'bible-odyssey-job',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Book of Job',
+      url: 'https://www.bibleodyssey.org/dictionary/job/',
+      description: 'SBL entry on Job: composition, wisdom tradition, theodicy, textual history.',
+    },
+  ],
+
   sections: [
     /* ─── Job 1:1–3 — The Perfect Man ────────────────────────────────── */
     {
@@ -71,7 +82,7 @@ export const JOB_1: RichChapterContent = {
           kind: 'commentary',
           id: 'job1-perfect',
           html:
-            'Job is introduced with language usually reserved for God Himself—"perfect and upright." In Hebrew, these words suggest completeness, integrity, absence of hidden corruption. Job is not presented as merely good, but as one whose character is entirely aligned with righteousness. He is not hiding another self beneath the surface. What you see is what you get: a man of wholeness.',
+            'Job is introduced with language usually reserved for God Himself—"perfect and upright." In Hebrew, these words suggest completeness, integrity, absence of hidden corruption. Job is not presented as merely good, but as one whose character is entirely aligned with righteousness. He is not hiding another self beneath the surface. What you see is what you get: a man of wholeness. [res:bible-odyssey-job]',
         },
         {
           kind: 'commentary',

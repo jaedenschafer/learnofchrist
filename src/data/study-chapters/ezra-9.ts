@@ -31,6 +31,17 @@ export const EZRA_9: RichChapterContent = {
     ref: 'Ezra 9 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'oriental-institute-artaxerxes',
+      kind: 'archive',
+      source: 'Oriental Institute',
+      label: 'Artaxerxes I and Achaemenid Court',
+      url: 'https://oi.uchicago.edu/',
+      description: 'OI scholarly resources on 5th-century BCE Persian rule and administration.',
+    },
+  ],
+
   sections: [
     /* ─── Ezra 9:1–2 — The Report of Intermarriage ────────────────────── */
     {
@@ -56,7 +67,7 @@ export const EZRA_9: RichChapterContent = {
           kind: 'commentary',
           id: 'ezra9-princes-report',
           html:
-            'The princes come to Ezra not as accusers, but as witnesses to what has already happened. The issue is not that the people have strayed in worship alone — they have compromised the boundary that was meant to keep them separate. The list is long and deliberate: seven nations whose gods and practices the law explicitly forbade. To marry their daughters is to invite those gods into the home, into the family, into the heart of the remnant.',
+            'The princes come to Ezra not as accusers, but as witnesses to what has already happened. The issue is not that the people have strayed in worship alone — they have compromised the boundary that was meant to keep them separate. The list is long and deliberate: seven nations whose gods and practices the law explicitly forbade. To marry their daughters is to invite those gods into the home, into the family, into the heart of the remnant. [res:oriental-institute-artaxerxes]',
         },
         {
           kind: 'commentary',

@@ -32,6 +32,17 @@ export const ESTHER_3: RichChapterContent = {
     ref: 'Esther 3 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'theoi-herodotus',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Herodotus on Xerxes I',
+      url: 'https://www.theoi.com/Text/HerodotusHistories.html',
+      description: 'Herodotus accounts of Xerxes, Persian court intrigues, and royal authority.',
+    },
+  ],
+
   sections: [
     /* ─── Esther 3:1–6 — Haman Is Exalted, Mordecai Refuses ────────────── */
     {
@@ -54,7 +65,7 @@ export const ESTHER_3: RichChapterContent = {
           kind: 'commentary',
           id: 'haman-promoted',
           html:
-            'Haman is promoted above all the princes. He is set in a seat of power, given authority, made great. It is the elevation that matters most to him — that all should see his power, that all should bow before him. The king has commanded that all the servants in the gate should bow and reverence him. It is the law. It is absolute.',
+            'Haman is promoted above all the princes. He is set in a seat of power, given authority, made great. It is the elevation that matters most to him — that all should see his power, that all should bow before him. The king has commanded that all the servants in the gate should bow and reverence him. It is the law. It is absolute. [res:theoi-herodotus]',
         },
         {
           kind: 'commentary',

@@ -1,10 +1,10 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 23 — Sarah dies at 127. Abraham, "stranger and sojourner,"
+ * Genesis 23 - Sarah dies at 127. Abraham, "stranger and sojourner,"
  * buys the cave of Machpelah from Ephron the Hittite as a burial plot.
  *
- * The patriarch who has been promised a land buys a grave-plot — and the
+ * The patriarch who has been promised a land buys a grave-plot - and the
  * chapter is built around that quiet irony, which Hebrews 11 uses as a model
  * of faith looking past death. The first piece of the promised land Abraham
  * actually owns is a tomb.
@@ -16,8 +16,8 @@ export const GENESIS_23: RichChapterContent = {
 
   estimatedMinutes: { beginner: 5, intermediate: 8, deep: 11 },
   intros: [
-    'Genesis 23 opens with an absence. Sarah is gone. She lived 127 years — long enough to see her son born when she was barren, long enough to watch her husband receive promises of nations as descendants. And now Abraham must bury her. The chapter moves slowly through the rituals of grief and negotiation, showing us what faith looks like in the shadow of death.',
-    'The irony is sharp and quietly faithful. God has promised Abraham the land — Canaan flowing with milk and honey, theirs as an everlasting possession. Yet when Abraham needs ground to bury his wife, he cannot simply take it. He is, as he himself says, a "stranger and a sojourner" (v. 4) — a foreigner buying a grave in a land that is not yet his. The chapter\'s real story is about a man who has believed for so long in a promise that he can bury his wife [res:bibleodyssey-sarah-covenant-line] in faith, knowing death is not the end. Hebrews 11 will make this explicit: Abraham held the promise so firmly that he died still looking forward to a resurrection in the very land where he was now planting his dead.',
+    'Genesis 23 opens with an absence. Sarah is gone. She lived 127 years - long enough to see her son born when she was barren, long enough to watch her husband receive promises of nations as descendants. And now Abraham must bury her. The chapter moves slowly through the rituals of grief and negotiation, showing us what faith looks like in the shadow of death.',
+    'The irony is sharp and quietly faithful. God has promised Abraham the land - Canaan flowing with milk and honey, theirs as an everlasting possession. Yet when Abraham needs ground to bury his wife, he cannot simply take it. He is, as he himself says, a "stranger and a sojourner" (v. 4) - a foreigner buying a grave in a land that is not yet his. The chapter\'s real story is about a man who has believed for so long in a promise that he can bury his wife [res:bibleodyssey-sarah-covenant-line] in faith, knowing death is not the end. Hebrews 11 will make this explicit: Abraham held the promise so firmly that he died still looking forward to a resurrection in the very land where he was now planting his dead.',
   ],
 
   bottomShare: {
@@ -56,9 +56,9 @@ export const GENESIS_23: RichChapterContent = {
   ],
 
   sections: [
-    /* ─── Genesis 23:1–2 — Sarah Dies, Abraham Mourns ────────────────────── */
+    /* ─── Genesis 23:1-2 - Sarah Dies, Abraham Mourns ────────────────────── */
     {
-      ref: 'Genesis 23:1–2',
+      ref: 'Genesis 23:1-2',
       title: 'Sarah Dies, Abraham Mourns',
       blocks: [
         {
@@ -93,12 +93,12 @@ export const GENESIS_23: RichChapterContent = {
           kind: 'commentary',
           id: 'c-hebron',
           html:
-            'Hebron means "fellowship" or "association." It is the city where Abraham, Isaac, and Jacob will eventually be buried — the patriarchal cemetery, the family vault of the promise. The ground beneath Abraham&apos;s feet, though he does not yet own it, has been chosen.',
+            'Hebron means "fellowship" or "association." It is the city where Abraham, Isaac, and Jacob will eventually be buried - the patriarchal cemetery, the family vault of the promise. The ground beneath Abraham&apos;s feet, though he does not yet own it, has been chosen.',
         },
         {
           kind: 'carry',
           html:
-            'Abraham&apos;s grief is not hidden or rushed. The text lingers. He comes to mourn for her and to weep — not to make arrangements, not to organize, but first to feel the weight of what he has lost. A woman he loved for more than a century is gone. The Bible does not tell us faith means moving past grief quickly. It means grieving while still believing God is good.',
+            'Abraham&apos;s grief is not hidden or rushed. The text lingers. He comes to mourn for her and to weep - not to make arrangements, not to organize, but first to feel the weight of what he has lost. A woman he loved for more than a century is gone. The Bible does not tell us faith means moving past grief quickly. It means grieving while still believing God is good.',
         },
         {
           kind: 'reflection',
@@ -109,9 +109,9 @@ export const GENESIS_23: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 23:3–16 — The Negotiation with the Hittites ──────────────── */
+    /* ─── Genesis 23:3-16 - The Negotiation with the Hittites ──────────────── */
     {
-      ref: 'Genesis 23:3–16',
+      ref: 'Genesis 23:3-16',
       title: 'The Negotiation',
       blocks: [
         {
@@ -141,8 +141,7 @@ export const GENESIS_23: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-23-78mid-1',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Sarah is dead, and Abraham bows to the Hittites, asking for burial ground. Courtesy meets transaction as Ephron names his price.',
         },
         {
           kind: 'scripture',
@@ -178,7 +177,7 @@ export const GENESIS_23: RichChapterContent = {
           kind: 'commentary',
           id: 'gen23-specific-request',
           html:
-            'Abraham does not take the Hittites&apos; offer of any burial place. He asks for one cave specifically: Machpelah, the field where it sits, the trees surrounding it. He is making a precise legal claim—not charity, but a full purchase. This is how a stranger becomes an owner: not by gift, but by witnessing and payment.',
+            'Abraham does not take the Hittites&apos; offer of any burial place. He asks for one cave specifically: Machpelah, the field where it sits, the trees surrounding it. He is making a precise legal claim-not charity, but a full purchase. This is how a stranger becomes an owner: not by gift, but by witnessing and payment.',
         },
         {
           kind: 'scripture',
@@ -207,8 +206,7 @@ export const GENESIS_23: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-23-78mid-2',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Ephron speaks; Abraham pays in silver, weighing it out before the gate. The Cave of Machpelah becomes his family&apos;s tomb forever.',
         },
         {
           kind: 'scripture',
@@ -250,12 +248,12 @@ export const GENESIS_23: RichChapterContent = {
           kind: 'commentary',
           id: 'hebrew-ger-toshav',
           html:
-            'Abraham&apos;s self-description is the hinge on which the entire negotiation turns. He has been in the land for years; God has appeared to him repeatedly; he has built altars and dug wells. Yet when it comes to actually owning even a burial plot, he must name himself as he truly is: a foreigner. This honest self-knowledge — that he is yet a sojourner, not an owner — frames the whole transaction.',
+            'Abraham&apos;s self-description is the hinge on which the entire negotiation turns. He has been in the land for years; God has appeared to him repeatedly; he has built altars and dug wells. Yet when it comes to actually owning even a burial plot, he must name himself as he truly is: a foreigner. This honest self-knowledge - that he is yet a sojourner, not an owner - frames the whole transaction.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-ger-toshav-2',
-          title: 'Ger v\'toshav — "stranger and sojourner"',
+          title: 'Ger v\'toshav - "stranger and sojourner"',
           script: 'גֵּר וְתוֹשָׁב',
           translit: '<strong>ger</strong> · stranger, alien; <strong>toshav</strong> · sojourner, resident',
           description:
@@ -265,28 +263,28 @@ export const GENESIS_23: RichChapterContent = {
           kind: 'commentary',
           id: 'c-ephron',
           html:
-            'The Hittites make an offer: choose any tomb you want, it&apos;s yours. Abraham refuses the gift. He wants Ephron&apos;s cave specifically. He will pay full price. In the world of ancient Near Eastern negotiation, this is how you seal a legal transaction — you move from gift-giving and courtesy to a hard currency exchange. Abraham is not accepting charity. He is making a permanent legal claim.',
+            'The Hittites make an offer: choose any tomb you want, it&apos;s yours. Abraham refuses the gift. He wants Ephron&apos;s cave specifically. He will pay full price. In the world of ancient Near Eastern negotiation, this is how you seal a legal transaction - you move from gift-giving and courtesy to a hard currency exchange. Abraham is not accepting charity. He is making a permanent legal claim.',
         },
         {
           kind: 'commentary',
           id: 'c-hear-me',
           html:
-            'Three times Abraham says "hear me" — and three times the text shows him bowing, humbling himself. He is not a man of the land, yet. He moves with courtesy, with grace. His grief does not make him entitled. His faith does not make him arrogant. He asks. He honors the locals. And he insists on paying the full price.',
+            'Three times Abraham says "hear me" - and three times the text shows him bowing, humbling himself. He is not a man of the land, yet. He moves with courtesy, with grace. His grief does not make him entitled. His faith does not make him arrogant. He asks. He honors the locals. And he insists on paying the full price.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-kasaf',
-          title: 'Kasaf — "silver"',
+          title: 'Kasaf - "silver"',
           script: 'כֶּסֶף',
           translit: '<strong>kasaf</strong> · silver, money',
           description:
-            'Silver is the negotiating currency throughout. Ephron says "the land is worth four hundred shekels," and Abraham—without haggling—pays exactly that. The transaction is witnessed, recorded, and sealed. This is ownership, not borrowing.',
+            'Silver is the negotiating currency throughout. Ephron says "the land is worth four hundred shekels," and Abraham-without haggling-pays exactly that. The transaction is witnessed, recorded, and sealed. This is ownership, not borrowing.',
         },
         {
           kind: 'commentary',
           id: 'c-weighed',
           html:
-            'Abraham does not hand over a written contract or a purse. He "weighs" the silver—in front of witnesses. In an age before coined currency, precious metal was weighed on scales. This was how the ancients did business. Abraham is following the law of the land, honoring its customs, even as he asserts his right to own the ground.',
+            'Abraham does not hand over a written contract or a purse. He "weighs" the silver-in front of witnesses. In an age before coined currency, precious metal was weighed on scales. This was how the ancients did business. Abraham is following the law of the land, honoring its customs, even as he asserts his right to own the ground.',
         },
         {
           kind: 'carry',
@@ -302,9 +300,9 @@ export const GENESIS_23: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 23:17–20 — The Field Becomes Abraham\'s ──────────────────── */
+    /* ─── Genesis 23:17-20 - The Field Becomes Abraham\'s ──────────────────── */
     {
-      ref: 'Genesis 23:17–20',
+      ref: 'Genesis 23:17-20',
       title: 'The Purchase is Sealed',
       blocks: [
         {
@@ -344,11 +342,11 @@ export const GENESIS_23: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-machpelah',
-          title: 'Machpelah — "the double"',
+          title: 'Machpelah - "the double"',
           script: 'מַכְפֵּלָה',
           translit: '<strong>machpelah</strong> · the double, the doubled',
           description:
-            'The name may refer to the cave&apos;s structure—a double chamber. Or it may simply mean "the doubled place." Isaac and Jacob will also be buried here (49:29–32). The cave becomes the family tomb, the first real foothold of the patriarchs in the land of promise.',
+            'The name may refer to the cave&apos;s structure-a double chamber. Or it may simply mean "the doubled place." Isaac and Jacob will also be buried here (49:29-32). The cave becomes the family tomb, the first real foothold of the patriarchs in the land of promise.',
         },
         {
           kind: 'commentary',
@@ -359,9 +357,9 @@ export const GENESIS_23: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-resurrection',
-          title: 'Christ Connection — Death and Resurrection',
+          title: 'Christ Connection - Death and Resurrection',
           html:
-            'Hebrews 11:13 quotes Abraham&apos;s own words: "These all died in faith, not having received the promises, but having seen them afar off, and were persuaded of them, and embraced them, and confessed that they were strangers and pilgrims on the earth" (Heb. 11:13). Abraham buys a grave because he knows death is not the end—that resurrection will return him to the land. Christ is "the firstfruits of them that slept" (1 Cor. 15:20). He rose from His own grave. Because He rose, Abraham&apos;s faith in a future resurrection was not foolish; it was the opening chord of the gospel.',
+            'Hebrews 11:13 quotes Abraham&apos;s own words: "These all died in faith, not having received the promises, but having seen them afar off, and were persuaded of them, and embraced them, and confessed that they were strangers and pilgrims on the earth" (Heb. 11:13). Abraham buys a grave because he knows death is not the end-that resurrection will return him to the land. Christ is "the firstfruits of them that slept" (1 Cor. 15:20). He rose from His own grave. Because He rose, Abraham&apos;s faith in a future resurrection was not foolish; it was the opening chord of the gospel.',
         },
         {
           kind: 'carry',
@@ -372,7 +370,7 @@ export const GENESIS_23: RichChapterContent = {
           kind: 'reflection',
           id: 'gen23-grave',
           prompt:
-            'Abraham bought a grave as an act of faith in the resurrection. What does it look like in your own life to hold grief and hope together—to mourn fully while believing in resurrection?',
+            'Abraham bought a grave as an act of faith in the resurrection. What does it look like in your own life to hold grief and hope together-to mourn fully while believing in resurrection?',
         },
       ],
     },

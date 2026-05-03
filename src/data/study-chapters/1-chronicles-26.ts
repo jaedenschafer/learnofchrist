@@ -32,6 +32,17 @@ export const CHRONICLES_1_26: RichChapterContent = {
     ref: '1 Chronicles 26 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-david',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'David in the Ancient Near East',
+      url: 'https://www.britishmuseum.org/',
+      description: 'British Museum collections on Iron Age Levantine kingdoms and David.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 26:1–19 — The Divisions of the Porters by Lot ──── */
     {
@@ -128,7 +139,7 @@ export const CHRONICLES_1_26: RichChapterContent = {
           kind: 'commentary',
           id: '26-lineages',
           html:
-            'The passage begins not with a grand narrative, but with a list. Meshelemiah, Obed-edom, Hosah. Their sons and their sons&apos; sons. Each name recorded. Each family assigned. This is how the work of the kingdom is done — not by one heroic figure, but by families, clans, lineages committed over generations. The porters are Levites, descendants of Kore, of Merari. They carry forward a sacred trust given to their ancestors.',
+            'The passage begins not with a grand narrative, but with a list. Meshelemiah, Obed-edom, Hosah. Their sons and their sons&apos; sons. Each name recorded. Each family assigned. This is how the work of the kingdom is done — not by one heroic figure, but by families, clans, lineages committed over generations. The porters are Levites, descendants of Kore, of Merari. They carry forward a sacred trust given to their ancestors. [res:british-museum-david]',
         },
         {
           kind: 'hebrew',

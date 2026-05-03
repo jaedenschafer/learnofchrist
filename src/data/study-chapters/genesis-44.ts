@@ -1,9 +1,9 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 44 — Joseph hides his silver cup in Benjamin&apos;s sack. The steward
+ * Genesis 44 - Joseph hides his silver cup in Benjamin&apos;s sack. The steward
  * catches up with the brothers. The cup is found. They tear their clothes and return.
- * Judah speaks: 27 verses of intercession (vv. 18–34). The longest direct speech
+ * Judah speaks: 27 verses of intercession (vv. 18-34). The longest direct speech
  * in Genesis. Judah, who once proposed selling his brother for silver, now offers
  * his own body in place of Benjamin&apos;s. Substitutionary atonement in narrative form.
  */
@@ -14,15 +14,15 @@ export const GENESIS_44: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 12, deep: 14 },
   intros: [
-    'Genesis 44 is the moment the entire Joseph story turns [res:bibleodyssey-joseph-egypt]. Everything before — the pit, the slavery, the false accusation in Egypt, the years in prison — points to this chapter. And everything after points back to it. A cup is hidden. A game of guilt and innocence plays out on the road. But the real drama is what happens inside Judah&apos;s heart.',
+    'Genesis 44 is the moment the entire Joseph story turns [res:bibleodyssey-joseph-egypt]. Everything before - the pit, the slavery, the false accusation in Egypt, the years in prison - points to this chapter. And everything after points back to it. A cup is hidden. A game of guilt and innocence plays out on the road. But the real drama is what happens inside Judah&apos;s heart.',
     'This is the chapter where the man who once said, "Let us sell him to the Ishmaelites" (37:27) becomes the man who says, "Let me be a slave in his place" [res:sefaria-genesis-44]. Not a rule change. Not a law that forced him. Something deeper: a metamorphosis. Judah has been remade from the inside by twenty years of memory and the weight of his own debt to his father Jacob.',
-    'The chapter shows no resolution [res:met-museum-egypt]. Judah makes his offer and then — silence. We don&apos;t yet know what Joseph will do. The text leaves us in that gap. Faith waits. The cross hasn&apos;t come yet. But the shape of it is already here.',
+    'The chapter shows no resolution [res:met-museum-egypt]. Judah makes his offer and then - silence. We don&apos;t yet know what Joseph will do. The text leaves us in that gap. Faith waits. The cross hasn&apos;t come yet. But the shape of it is already here.',
   ],
 
   bottomShare: {
     label: 'Share Genesis 44',
     quote:
-      'Judah, the man who once sold his brother for silver, now offers himself as a slave instead: "Let thy servant abide instead of the lad a bondman to my lord." Genesis 44 is substitution made flesh — the gospel before the gospel.',
+      'Judah, the man who once sold his brother for silver, now offers himself as a slave instead: "Let thy servant abide instead of the lad a bondman to my lord." Genesis 44 is substitution made flesh - the gospel before the gospel.',
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Genesis 44 · Study Guide',
   },
@@ -32,7 +32,7 @@ export const GENESIS_44: RichChapterContent = {
       id: 'sefaria-genesis-44',
       kind: 'lexicon',
       source: 'Sefaria',
-      label: 'Genesis 44 — Sefaria',
+      label: 'Genesis 44 - Sefaria',
       url: 'https://www.sefaria.org/Genesis.44',
       description: 'Annotated text with classical and modern Jewish commentary on Judah&apos;s plea for Benjamin and his offer of substitution.',
     },
@@ -40,7 +40,7 @@ export const GENESIS_44: RichChapterContent = {
       id: 'met-museum-egypt',
       kind: 'museum',
       source: 'The Met',
-      label: 'Ancient Egypt — The Metropolitan Museum of Art',
+      label: 'Ancient Egypt - The Metropolitan Museum of Art',
       url: 'https://www.metmuseum.org/art/collection?department=Egyptian%20Art',
       description: 'Egyptian artifacts and cultural context for understanding the world of Joseph and later Genesis figures.',
     },
@@ -48,16 +48,16 @@ export const GENESIS_44: RichChapterContent = {
       id: 'bibleodyssey-joseph-egypt',
       kind: 'study',
       source: 'Bible Odyssey',
-      label: 'Joseph and Egypt — Bible Odyssey',
+      label: 'Joseph and Egypt - Bible Odyssey',
       url: 'https://www.bibleodyssey.org/en/passages/related-articles/joseph-and-egypt',
       description: 'Scholarly essays on Joseph&apos;s time in Egypt and its historical and theological significance.',
     },
   ],
 
   sections: [
-    /* ─── Genesis 44:1–13 — The Cup Hidden and Found ────────────────────── */
+    /* ─── Genesis 44:1-13 - The Cup Hidden and Found ────────────────────── */
     {
-      ref: 'Genesis 44:1–13',
+      ref: 'Genesis 44:1-13',
       title: 'The Cup Hidden and Found',
       blocks: [
         {
@@ -106,12 +106,12 @@ export const GENESIS_44: RichChapterContent = {
           kind: 'commentary',
           id: 'gen44-money-returned',
           html:
-            'Joseph commanded that the brothers&apos; money be returned to them — the very price they thought they had to pay. Grace quietly did the work before anyone asked for it. The brothers didn&apos;t know it yet, but they were eating for free.',
+            'Joseph commanded that the brothers&apos; money be returned to them - the very price they thought they had to pay. Grace quietly did the work before anyone asked for it. The brothers didn&apos;t know it yet, but they were eating for free.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-kesef',
-          title: 'Kesef — &ldquo;silver&rdquo;',
+          title: 'Kesef - &ldquo;silver&rdquo;',
           script: 'כֶּסֶף',
           translit: '<strong>kesef</strong> · silver; wealth',
           description:
@@ -152,8 +152,7 @@ export const GENESIS_44: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-44-78mid-1',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Joseph frames Benjamin with the silver cup--the boy is condemned as a thief. The brothers&apos; hearts shatter; the wound is reopened.',
         },
         {
           kind: 'scripture',
@@ -197,25 +196,25 @@ export const GENESIS_44: RichChapterContent = {
           kind: 'commentary',
           id: 'gen44-bondage-oath',
           html:
-            'The brothers&apos; first instinct is to bind themselves — both death for the thief and bondage for all of them if the cup is found with any. They don&apos;t yet understand how prophetic their own words are. One of them will stand in front of the lord of Egypt and volunteer exactly this: bondage for himself in place of another.',
+            'The brothers&apos; first instinct is to bind themselves - both death for the thief and bondage for all of them if the cup is found with any. They don&apos;t yet understand how prophetic their own words are. One of them will stand in front of the lord of Egypt and volunteer exactly this: bondage for himself in place of another.',
         },
         {
           kind: 'commentary',
           id: 'gen44-tearing',
           html:
-            'Tearing clothes is the posture of mourning and anguish in Israel. The brothers stand before innocence destroyed — or so they think — and they tear their clothes. They haven&apos;t yet admitted what they&apos;ve done, but they feel the weight of it. Guilt is beginning to break through.',
+            'Tearing clothes is the posture of mourning and anguish in Israel. The brothers stand before innocence destroyed - or so they think - and they tear their clothes. They haven&apos;t yet admitted what they&apos;ve done, but they feel the weight of it. Guilt is beginning to break through.',
         },
         {
           kind: 'carry',
           html:
-            'The brothers accused of theft are actually innocent. Yet they tear their clothes in grief. Sometimes you carry a weight that isn&apos;t technically yours — a family debt, a pattern that passes down, a secret you never told. That weight is real. The first step is to feel it, not to hide it under a smile. Torn clothes are honest. God comes to honest people.',
+            'The brothers accused of theft are actually innocent. Yet they tear their clothes in grief. Sometimes you carry a weight that isn&apos;t technically yours - a family debt, a pattern that passes down, a secret you never told. That weight is real. The first step is to feel it, not to hide it under a smile. Torn clothes are honest. God comes to honest people.',
         },
       ],
     },
 
-    /* ─── Genesis 44:14–17 — Before the Lord ──────────────────────────────── */
+    /* ─── Genesis 44:14-17 - Before the Lord ──────────────────────────────── */
     {
-      ref: 'Genesis 44:14–17',
+      ref: 'Genesis 44:14-17',
       title: 'Before the Lord',
       blocks: [
         {
@@ -256,27 +255,27 @@ export const GENESIS_44: RichChapterContent = {
           kind: 'commentary',
           id: 'gen44-divine',
           html:
-            'Joseph claims a power the Old Testament usually reserves for God — divining the hidden things. He is testing whether the brothers still judge a man by his external success, the way they once judged Joseph. The brothers fell before him once out of fear. Will they again? Or have they learned something about judging another?',
+            'Joseph claims a power the Old Testament usually reserves for God - divining the hidden things. He is testing whether the brothers still judge a man by his external success, the way they once judged Joseph. The brothers fell before him once out of fear. Will they again? Or have they learned something about judging another?',
         },
         {
           kind: 'christ',
           id: 'gen44-god-found',
-          title: 'Christ Connection — God Who Finds Out',
+          title: 'Christ Connection - God Who Finds Out',
           html:
-            'Judah says, "God hath found out the iniquity of thy servants." He is confessing to more than the cup. He is confessing to what the cup represents — the silver their father paid for, the brother they sold, the decades of concealment. Before Joseph even announces his identity, God is working through Judah&apos;s conscience. Paul writes: "Be sure your sin will find you out" (Num. 32:23). But that finding is mercy. Unconfessed sin spreads. Confessed sin heals. Judah&apos;s words are the beginning of healing for all of them.',
+            'Judah says, "God hath found out the iniquity of thy servants." He is confessing to more than the cup. He is confessing to what the cup represents - the silver their father paid for, the brother they sold, the decades of concealment. Before Joseph even announces his identity, God is working through Judah&apos;s conscience. Paul writes: "Be sure your sin will find you out" (Num. 32:23). But that finding is mercy. Unconfessed sin spreads. Confessed sin heals. Judah&apos;s words are the beginning of healing for all of them.',
         },
         {
           kind: 'reflection',
           id: 'gen44-found-out',
           prompt:
-            'What iniquity is God quietly finding out in your life right now — something you thought was hidden? What would change if you saw that finding as an act of mercy instead of judgment?',
+            'What iniquity is God quietly finding out in your life right now - something you thought was hidden? What would change if you saw that finding as an act of mercy instead of judgment?',
         },
       ],
     },
 
-    /* ─── Genesis 44:18–34 — Judah&apos;s Intercession ───────────────────────────── */
+    /* ─── Genesis 44:18-34 - Judah&apos;s Intercession ───────────────────────────── */
     {
-      ref: 'Genesis 44:18–34',
+      ref: 'Genesis 44:18-34',
       title: 'Judah&apos;s Intercession',
       blocks: [
         {
@@ -317,7 +316,7 @@ export const GENESIS_44: RichChapterContent = {
           kind: 'commentary',
           id: 'gen44-benjamin-plea',
           html:
-            'Judah speaks; he offers himself in Benjamin&apos;s place—mercy meets justice, and brotherhood is restored.',
+            'Judah speaks; he offers himself in Benjamin&apos;s place-mercy meets justice, and brotherhood is restored.',
         },
         {
           kind: 'scripture',
@@ -359,7 +358,7 @@ export const GENESIS_44: RichChapterContent = {
           kind: 'commentary',
           id: 'gen44-split-1',
           html:
-            'Judah has recounted the entire journey—the questions at the first meeting, the demand to bring Benjamin, the brothers&apos; resistance, their father&apos;s terror. He is building a case, not by arguing Jacob&apos;s innocence but by showing Jacob&apos;s love. Every word is leading Joseph toward understanding: this boy is not expendable. This father will break if you take him.',
+            'Judah has recounted the entire journey-the questions at the first meeting, the demand to bring Benjamin, the brothers&apos; resistance, their father&apos;s terror. He is building a case, not by arguing Jacob&apos;s innocence but by showing Jacob&apos;s love. Every word is leading Joseph toward understanding: this boy is not expendable. This father will break if you take him.',
         },
         {
           kind: 'scripture',
@@ -396,8 +395,7 @@ export const GENESIS_44: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-44-78mid-2',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Judah speaks as a father now, offering himself as a slave to save Benjamin. His love unmasks Joseph&apos;s test-the man who hated his brothers has loved them all along.',
         },
         {
           kind: 'scripture',
@@ -437,13 +435,13 @@ export const GENESIS_44: RichChapterContent = {
           kind: 'commentary',
           id: 'gen44-judah-speaks',
           html:
-            'Judah steps forward. Not the oldest brother — Reuben would normally speak — but Judah. The man who once said, "What profit is it if we slay our brother?" (37:26) and sold Joseph instead. Now he will speak on behalf of the youngest brother. His repentance has made him Reuben&apos;s superior in this moment. Conscience ranks higher than age.',
+            'Judah steps forward. Not the oldest brother - Reuben would normally speak - but Judah. The man who once said, "What profit is it if we slay our brother?" (37:26) and sold Joseph instead. Now he will speak on behalf of the youngest brother. His repentance has made him Reuben&apos;s superior in this moment. Conscience ranks higher than age.',
         },
         {
           kind: 'commentary',
           id: 'gen44-father-loves',
           html:
-            'Judah recounts their entire journey: the first request, the revelation that they had another brother, the summons to bring him. He tells Joseph everything — knowing Joseph already knows. But saying it out loud is different. Saying it forces Judah to <em>see</em> the trajectory from his own betrayal twenty years ago to this moment, standing before the power that could destroy him.',
+            'Judah recounts their entire journey: the first request, the revelation that they had another brother, the summons to bring him. He tells Joseph everything - knowing Joseph already knows. But saying it out loud is different. Saying it forces Judah to <em>see</em> the trajectory from his own betrayal twenty years ago to this moment, standing before the power that could destroy him.',
         },
         {
           kind: 'commentary',
@@ -454,11 +452,11 @@ export const GENESIS_44: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-tachat',
-          title: 'Tachat — &ldquo;instead of&rdquo;',
+          title: 'Tachat - &ldquo;instead of&rdquo;',
           script: 'תַּחַת',
           translit: '<strong>tachat</strong> · in place of; underneath',
           description:
-            'The word for substitution. Judah uses it in the climactic moment: "Let thy servant abide <em>tachat</em> the lad" — in his place, underneath the weight that should fall on Benjamin. This is the vocabulary of the cross — one standing under the judgment meant for another.',
+            'The word for substitution. Judah uses it in the climactic moment: "Let thy servant abide <em>tachat</em> the lad" - in his place, underneath the weight that should fall on Benjamin. This is the vocabulary of the cross - one standing under the judgment meant for another.',
         },
         {
           kind: 'commentary',
@@ -469,25 +467,25 @@ export const GENESIS_44: RichChapterContent = {
         {
           kind: 'christ',
           id: 'gen44-instead',
-          title: 'Christ Connection — Substitution Made Flesh',
+          title: 'Christ Connection - Substitution Made Flesh',
           html:
-            '&ldquo;Let thy servant abide instead of the lad.&rdquo; Here is substitutionary atonement — the gospel itself — written into a man&apos;s offer. Judah, whose name will become synonymous with the Messiah ("the Lion of the tribe of Judah," Hebrews 7:14), becomes the first picture of Christ in the narrative. The man who once sold his brother for silver now offers his own body. Not coerced. Not commanded. Offered. "No man taketh it from me," Jesus will say, "but I lay it down of myself" (John 10:18). Judah lays down his future so Benjamin can walk free. It is the shape of the cross, centuries before the cross.',
+            '&ldquo;Let thy servant abide instead of the lad.&rdquo; Here is substitutionary atonement - the gospel itself - written into a man&apos;s offer. Judah, whose name will become synonymous with the Messiah ("the Lion of the tribe of Judah," Hebrews 7:14), becomes the first picture of Christ in the narrative. The man who once sold his brother for silver now offers his own body. Not coerced. Not commanded. Offered. "No man taketh it from me," Jesus will say, "but I lay it down of myself" (John 10:18). Judah lays down his future so Benjamin can walk free. It is the shape of the cross, centuries before the cross.',
         },
         {
           kind: 'carry',
           html:
-            'Judah had decades to forget what he did to Joseph. He could have built a good life in Canaan and never told anyone. But something wouldn&apos;t let him rest. The memory of his brother&apos;s face. The weight of the secret. When the chance came to put his own life on the line to save Benjamin, he didn&apos;t hesitate. Unfinished business does that — it makes you reckless with mercy when the moment finally comes. What unfinished business in your own story is calling you to lay something down?',
+            'Judah had decades to forget what he did to Joseph. He could have built a good life in Canaan and never told anyone. But something wouldn&apos;t let him rest. The memory of his brother&apos;s face. The weight of the secret. When the chance came to put his own life on the line to save Benjamin, he didn&apos;t hesitate. Unfinished business does that - it makes you reckless with mercy when the moment finally comes. What unfinished business in your own story is calling you to lay something down?',
         },
         {
           kind: 'reflection',
           id: 'gen44-lay-down',
           prompt:
-            'Judah offered his future for his brother&apos;s freedom. What would you have to lay down for someone you&apos;ve hurt — or for someone you love? What is the cost of being a person of your word?',
+            'Judah offered his future for his brother&apos;s freedom. What would you have to lay down for someone you&apos;ve hurt - or for someone you love? What is the cost of being a person of your word?',
         },
         {
           kind: 'artwork',
           matchTitle: /judah|joseph|benjamin|cup|egyptian/i,
-          caption: 'Genesis 44:18–34 · Judah&apos;s Intercession',
+          caption: 'Genesis 44:18-34 · Judah&apos;s Intercession',
         },
       ],
     },
@@ -501,7 +499,7 @@ export const GENESIS_44: RichChapterContent = {
           kind: 'commentary',
           id: 'gen44-silence',
           html:
-            'Judah finishes speaking. The text does not tell us Joseph&apos;s response. Not yet. Genesis 44 ends in suspension — Judah&apos;s offer made, Benjamin&apos;s fate still hanging. We will have to wait until chapter 45 to learn what the lord of Egypt will do. The text is letting us sit in the gap.',
+            'Judah finishes speaking. The text does not tell us Joseph&apos;s response. Not yet. Genesis 44 ends in suspension - Judah&apos;s offer made, Benjamin&apos;s fate still hanging. We will have to wait until chapter 45 to learn what the lord of Egypt will do. The text is letting us sit in the gap.',
         },
         {
           kind: 'commentary',
@@ -512,14 +510,14 @@ export const GENESIS_44: RichChapterContent = {
         {
           kind: 'christ',
           id: 'gen44-new-covenant',
-          title: 'Christ Connection — The Covenant Fulfilled',
+          title: 'Christ Connection - The Covenant Fulfilled',
           html:
-            'The covenant God made with Judah was this: a scepter will not depart from him, and his line will produce rulers (49:10). Joseph was the favored son. Joseph had the coat. Joseph showed the dreams. But God had in mind a greater covenant: that Judah—not Joseph—would be the line of the Messiah. This chapter is the turning point. Judah, remade by grief and memory, becomes the vessel. And in that vessel, one greater than Judah will come — the Lion of the tribe of Judah, who will make the final substitution and reverse the ancient sale. Where Judah offered himself and was released, the Lamb will offer Himself and will rise. The covenant is not with Judah&apos;s strength. It is with his willingness to lay himself down.',
+            'The covenant God made with Judah was this: a scepter will not depart from him, and his line will produce rulers (49:10). Joseph was the favored son. Joseph had the coat. Joseph showed the dreams. But God had in mind a greater covenant: that Judah-not Joseph-would be the line of the Messiah. This chapter is the turning point. Judah, remade by grief and memory, becomes the vessel. And in that vessel, one greater than Judah will come - the Lion of the tribe of Judah, who will make the final substitution and reverse the ancient sale. Where Judah offered himself and was released, the Lamb will offer Himself and will rise. The covenant is not with Judah&apos;s strength. It is with his willingness to lay himself down.',
         },
         {
           kind: 'carry',
           html:
-            'You are in the silence with Judah. You have made your confession. You have seen your own iniquity. You have heard the promise that someone will stand in your place. And you are waiting. The answer hasn&apos;t come yet. That&apos;s where faith lives — not in the certainty of the outcome, but in the willingness to wait for a God who has already promised to seek and to save. He is coming. The silence is not emptiness. It is the space where you learn to trust.',
+            'You are in the silence with Judah. You have made your confession. You have seen your own iniquity. You have heard the promise that someone will stand in your place. And you are waiting. The answer hasn&apos;t come yet. That&apos;s where faith lives - not in the certainty of the outcome, but in the willingness to wait for a God who has already promised to seek and to save. He is coming. The silence is not emptiness. It is the space where you learn to trust.',
         },
         {
           kind: 'reflection',

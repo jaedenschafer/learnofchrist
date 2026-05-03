@@ -36,6 +36,17 @@ export const CHRONICLES_1_15: RichChapterContent = {
     ref: '1 Chronicles 15 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'israel-museum-ark',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'The Ark of the Covenant',
+      url: 'https://www.imj.org.il/',
+      description: 'Museum exhibits and scholarly materials on the Ark and temple worship.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 15:1–3 — A Place Prepared, a Purpose Declared ──── */
     {
@@ -55,7 +66,7 @@ export const CHRONICLES_1_15: RichChapterContent = {
           kind: 'commentary',
           id: 'place-prepared',
           html:
-            'David has prepared a physical place for the ark — a tent in Jerusalem, the city of David. But more than that, he has prepared his mind. He knows now what he learned in chapter 13: the ark of God is not carried by human ingenuity or by making it convenient. It is carried by those whom the Lord has chosen. The Levites. And only the Levites.',
+            'David has prepared a physical place for the ark — a tent in Jerusalem, the city of David. But more than that, he has prepared his mind. He knows now what he learned in chapter 13: the ark of God is not carried by human ingenuity or by making it convenient. It is carried by those whom the Lord has chosen. The Levites. And only the Levites. [res:israel-museum-ark]',
         },
         {
           kind: 'hebrew',

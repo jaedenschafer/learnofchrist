@@ -36,6 +36,17 @@ export const CHRONICLES_2_36: RichChapterContent = {
     ref: '2 Chronicles 36 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'oriental-institute-cyrus',
+      kind: 'archive',
+      source: 'Oriental Institute',
+      label: 'Achaemenid Empire Records',
+      url: 'https://oi.uchicago.edu/',
+      description: 'OI resources on Persian court, administration, and royal decrees.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 36:1–4 — Jehoahaz: Three Months of Darkness ──────── */
     {
@@ -56,13 +67,13 @@ export const CHRONICLES_2_36: RichChapterContent = {
           kind: 'commentary',
           id: 'jehoahaz-assembly',
           html:
-            'The death of Josiah — one of the kingdom&apos;s great reforming kings — marks a turning point. Now the "people of the land," who supported the reform, attempt to assert their will by choosing Jehoahaz. They bypass the older sons. They choose the young one. But their choice has no power against the king of Egypt. A king who sits on the throne of David can no longer act as an independent power. Judah is already a vassal.',
+            'The death of Josiah — one of the kingdom&apos;s great reforming kings — marks a turning point. Now the "people of the land," who supported the reform, attempt to assert their will by choosing Jehoahaz. They bypass the older sons. They choose the young one. But their choice has no power against the king of Egypt. A king who sits on the throne of David can no longer act as an independent power. Judah is already a vassal. [res:oriental-institute-cyrus]',
         },
         {
           kind: 'commentary',
           id: 'jehoahaz-exile',
           html:
-            'Jehoahaz reigns only three months. He is deposed and taken to Egypt — the first king of Judah carried into exile. The pattern is set: disobedience brings judgment. But notice the form: it does not come as direct divine punishment in a single moment. It comes through the machinery of empires. God works through history, through the rise and fall of nations, to bring His people to account.',
+            'Jehoahaz reigns only three months. He is deposed and taken to Egypt — the first king of Judah carried into exile. The pattern is set: disobedience brings judgment. But notice the form: it does not come as direct divine punishment in a single moment. It comes through the machinery of empires. God works through history, through the rise and fall of nations, to bring His people to account. [res:oriental-institute-cyrus]',
         },
         {
           kind: 'hebrew',
@@ -126,7 +137,7 @@ export const CHRONICLES_2_36: RichChapterContent = {
           kind: 'commentary',
           id: 'nebuchadnezzar-vessels',
           html:
-            'Nebuchadnezzar comes. He binds the king in fetters — Jehoiakim becomes a prisoner in his own land, then is taken to Babylon. And the vessels of the house of the Lord — the very instruments of worship, the sacred objects, the treasures — are carried away to a pagan temple. This is more than military defeat. This is desecration. The holy things are taken to a place of exile. It is a sign that the temple itself will not stand much longer.',
+            'Nebuchadnezzar comes. He binds the king in fetters — Jehoiakim becomes a prisoner in his own land, then is taken to Babylon. And the vessels of the house of the Lord — the very instruments of worship, the sacred objects, the treasures — are carried away to a pagan temple. This is more than military defeat. This is desecration. The holy things are taken to a place of exile. It is a sign that the temple itself will not stand much longer. [res:oriental-institute-cyrus]',
         },
         {
           kind: 'hebrew',
@@ -349,7 +360,7 @@ export const CHRONICLES_2_36: RichChapterContent = {
           kind: 'commentary',
           id: 'jeremiah-sabbath',
           html:
-            'But then — and this is the pivot — the Chronicler reveals the hidden meaning. The destruction "fulfills the word of the Lord by the mouth of Jeremiah." Jeremiah had warned that unless the people gave the land its sabbath rest (as commanded in Leviticus 25), God would give it rest Himself. For seventy years, the land would lie desolate. No plowing. No harvest. No labor. The land would keep the sabbath that Israel had refused to keep. And the people, in exile, would learn in their bondage what they would not learn in their prosperity: that God alone sustains. That the land is not theirs to exploit. That rest, not endless striving, is the rhythm God has ordained.',
+            'But then — and this is the pivot — the Chronicler reveals the hidden meaning. The destruction "fulfills the word of the Lord by the mouth of Jeremiah." Jeremiah had warned that unless the people gave the land its sabbath rest (as commanded in Leviticus 25), God would give it rest Himself. For seventy years, the land would lie desolate. No plowing. No harvest. No labor. The land would keep the sabbath that Israel had refused to keep. And the people, in exile, would learn in their bondage what they would not learn in their prosperity: that God alone sustains. That the land is not theirs to exploit. That rest, not endless striving, is the rhythm God has ordained. [res:oriental-institute-cyrus]',
         },
         {
           kind: 'hebrew',
@@ -404,19 +415,19 @@ export const CHRONICLES_2_36: RichChapterContent = {
           kind: 'commentary',
           id: 'cyrus-spirit',
           html:
-            'The Chronicler is clear about what happens: "The Lord stirred up the spirit of Cyrus king of Persia." It is not Cyrus&apos;s initiative. It is not the result of diplomatic pressure or political calculation. It is God. God stirs the heart of the pagan king. God moves the instruments of history. God opens the door that seemed sealed forever. The seventy years are complete. The moment has come.',
+            'The Chronicler is clear about what happens: "The Lord stirred up the spirit of Cyrus king of Persia." It is not Cyrus&apos;s initiative. It is not the result of diplomatic pressure or political calculation. It is God. God stirs the heart of the pagan king. God moves the instruments of history. God opens the door that seemed sealed forever. The seventy years are complete. The moment has come. [res:oriental-institute-cyrus]',
         },
         {
           kind: 'commentary',
           id: 'cyrus-building',
           html:
-            'Remarkably, Cyrus speaks as if God has "charged me to build him an house at Jerusalem." Cyrus, a Persian pagan, becomes an instrument of God&apos;s purposes. He does not claim to believe in the God of Israel. He does not convert. But his will is moved to serve God&apos;s purpose: to rebuild the temple. This is the sovereign hand of God at work in history, using even those who do not know Him to accomplish His will.',
+            'Remarkably, Cyrus speaks as if God has "charged me to build him an house at Jerusalem." Cyrus, a Persian pagan, becomes an instrument of God&apos;s purposes. He does not claim to believe in the God of Israel. He does not convert. But his will is moved to serve God&apos;s purpose: to rebuild the temple. This is the sovereign hand of God at work in history, using even those who do not know Him to accomplish His will. [res:oriental-institute-cyrus]',
         },
         {
           kind: 'commentary',
           id: 'cyrus-let-go-up',
           html:
-            'But the final word is crucial: "Let him go up." It is an open call. Who among the people of God will respond? Who will leave the security of Babylon, the homes they have built in exile, the lives they have established, and go up to Jerusalem to rebuild? Not all will. Some will stay. Some will choose the comfort of exile. But the door is open. The choice is offered. "Let him go up."',
+            'But the final word is crucial: "Let him go up." It is an open call. Who among the people of God will respond? Who will leave the security of Babylon, the homes they have built in exile, the lives they have established, and go up to Jerusalem to rebuild? Not all will. Some will stay. Some will choose the comfort of exile. But the door is open. The choice is offered. "Let him go up." [res:oriental-institute-cyrus]',
         },
         {
           kind: 'hebrew',

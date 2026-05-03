@@ -32,6 +32,17 @@ export const EZRA_5: RichChapterContent = {
     ref: 'Ezra 5 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'penn-museum-persepolis',
+      kind: 'archaeology',
+      source: 'Penn Museum',
+      label: 'Persepolis Tablets',
+      url: 'https://www.penn.museum/collections/',
+      description: 'Cuneiform records of Persian provincial administration and labor systems.',
+    },
+  ],
+
   sections: [
     /* ─── Ezra 5:1–2 — The Prophets Preach; The Work Resumes ──────────── */
     {
@@ -74,7 +85,7 @@ export const EZRA_5: RichChapterContent = {
           kind: 'commentary',
           id: 'began-to-build',
           html:
-            'The moment the prophets speak the word of God, the work begins. Zerubbabel and Jeshua do not hesitate. They do not wait. The prophetic word is not a suggestion—it is a command from heaven, and immediately, the builders move. And notice: "the prophets of God helping them." The word that called them forth does not then abandon them; the prophets remain present, encouraging, sustaining the work.',
+            'The moment the prophets speak the word of God, the work begins. Zerubbabel and Jeshua do not hesitate. They do not wait. The prophetic word is not a suggestion—it is a command from heaven, and immediately, the builders move. And notice: "the prophets of God helping them." The word that called them forth does not then abandon them; the prophets remain present, encouraging, sustaining the work. [res:penn-museum-persepolis]',
         },
         {
           kind: 'carry',

@@ -32,6 +32,17 @@ export const NEHEMIAH_9: RichChapterContent = {
     ref: 'Nehemiah 9 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-torah-scroll',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Torah and Jewish Law Texts',
+      url: 'https://www.sefaria.org/',
+      description: 'Sefaria Hebrew texts on Torah readings and covenant renewal.',
+    },
+  ],
+
   sections: [
     /* ─── Nehemiah 9:1–3 — The Assembly Gathers in Humility ──────────────── */
     {
@@ -51,7 +62,7 @@ export const NEHEMIAH_9: RichChapterContent = {
           kind: 'commentary',
           id: 'neh9-fasting',
           html:
-            'The assembly gathers with fasting — a refusal of sustenance as a sign of inward turning. They wear sackcloth, the rough material of mourning, and place earth upon themselves — a physical expression of humility, of dust returning to dust. The body speaks what the mouth will later confess. They do not come with confidence or ease. They come as penitents.',
+            'The assembly gathers with fasting — a refusal of sustenance as a sign of inward turning. They wear sackcloth, the rough material of mourning, and place earth upon themselves — a physical expression of humility, of dust returning to dust. The body speaks what the mouth will later confess. They do not come with confidence or ease. They come as penitents. [res:sefaria-torah-scroll]',
         },
         {
           kind: 'commentary',

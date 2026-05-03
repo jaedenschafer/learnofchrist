@@ -32,6 +32,17 @@ export const CHRONICLES_1_14: RichChapterContent = {
     ref: '1 Chronicles 14 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'israel-museum-ark',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'The Ark of the Covenant',
+      url: 'https://www.imj.org.il/',
+      description: 'Museum exhibits and scholarly materials on the Ark and temple worship.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 14:1–2 — Hiram and the Cedar House ──────────────── */
     {
@@ -59,7 +70,7 @@ export const CHRONICLES_1_14: RichChapterContent = {
           kind: 'commentary',
           id: 'c14-lord-confirmed',
           html:
-            'David does not announce his kingship. He perceives it. The arrival of Hiram&apos;s delegation — bearing cedar from Lebanon, stonemasons, and carpenters — serves as an outward sign of what David has inwardly known: that God has confirmed him. The Lord&apos;s confirmation is not a feeling or a thought; it is attested by the actions of the nations around him. Foreign kings recognize what the Lord has done.',
+            'David does not announce his kingship. He perceives it. The arrival of Hiram&apos;s delegation — bearing cedar from Lebanon, stonemasons, and carpenters — serves as an outward sign of what David has inwardly known: that God has confirmed him. The Lord&apos;s confirmation is not a feeling or a thought; it is attested by the actions of the nations around him. Foreign kings recognize what the Lord has done. [res:israel-museum-ark]',
         },
         {
           kind: 'commentary',

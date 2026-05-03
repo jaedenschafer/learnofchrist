@@ -43,7 +43,7 @@ export const MARK_7: RichChapterContent = {
           kind: 'commentary',
           id: 'mark-7-78mid-1',
           html:
-            'Jesus has cleansed the heart of a Gentile woman's daughter, proving that compassion transcends the law; now He moves to Galilee. The kingdoms of tradition yield to the kingdom of God.',
+            'Jesus has cleansed the heart of a Gentile woman&apos;s daughter, proving that compassion transcends the law; now He moves to Galilee. The kingdoms of tradition yield to the kingdom of God.',
         },
         {
           kind: 'scripture',

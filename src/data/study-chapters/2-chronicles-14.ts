@@ -33,6 +33,17 @@ export const CHRONICLES_2_14: RichChapterContent = {
     ref: '2 Chronicles 14 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-judah-monarchy',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Judah in the Monarchy Period',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 14:1–5 — Asa's Reformation: Idols Removed ───────── */
     {
@@ -102,7 +113,7 @@ export const CHRONICLES_2_14: RichChapterContent = {
           kind: 'commentary',
           id: 'built-fenced',
           html:
-            'In the years of peace that God has granted, Asa does not grow complacent or careless. Instead, he builds. He constructs fenced cities — fortified strongholds with walls, towers, gates, and bars. This is the wisdom of a leader who understands that peace from God is not an excuse for unreadiness, but an opportunity for preparation. Asa gathers his people and says: "Let us build these cities while the land is yet before us." The language suggests urgent opportunity — before circumstances change, before war comes again, let us fortify ourselves.',
+            'In the years of peace that God has granted, Asa does not grow complacent or careless. Instead, he builds. He constructs fenced cities — fortified strongholds with walls, towers, gates, and bars. This is the wisdom of a leader who understands that peace from God is not an excuse for unreadiness, but an opportunity for preparation. Asa gathers his people and says: "Let us build these cities while the land is yet before us." The language suggests urgent opportunity — before circumstances change, before war comes again, let us fortify ourselves. [res:iaa-judah-monarchy]',
         },
         {
           kind: 'hebrew',

@@ -32,6 +32,17 @@ export const EZRA_1: RichChapterContent = {
     ref: 'Ezra 1 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-cyrus',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'The Cyrus Cylinder',
+      url: 'https://www.britishmuseum.org/collection/objects/w3679',
+      description: 'Ancient Persian decree permitting Judean return and temple reconstruction.',
+    },
+  ],
+
   sections: [
     /* ─── Ezra 1:1–2 — The Proclamation Issued ──────────────────────────── */
     {
@@ -64,7 +75,7 @@ export const EZRA_1: RichChapterContent = {
           kind: 'commentary',
           id: 'ez1-jeremiah-word',
           html:
-            'The chapter opens with a striking theological claim: Cyrus&apos;s proclamation fulfills the word spoken by Jeremiah decades earlier. Jeremiah had prophesied that after seventy years of captivity, the Lord would bring His people home (Jer. 29:10). The timeline is now complete. What seemed impossible in the darkness of exile — that a foreign king would ever permit the return — is about to happen. The word of the Lord does not fail, even when deliverance comes through unexpected means.',
+            'The chapter opens with a striking theological claim: Cyrus&apos;s proclamation fulfills the word spoken by Jeremiah decades earlier. Jeremiah had prophesied that after seventy years of captivity, the Lord would bring His people home (Jer. 29:10). The timeline is now complete. What seemed impossible in the darkness of exile — that a foreign king would ever permit the return — is about to happen. The word of the Lord does not fail, even when deliverance comes through unexpected means. [res:british-museum-cyrus]',
         },
         {
           kind: 'commentary',

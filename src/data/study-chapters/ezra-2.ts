@@ -30,6 +30,17 @@ export const EZRA_2: RichChapterContent = {
     ref: 'Ezra 2 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-return-exile',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Judahite Return and Settlement c. 540 BCE',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA archaeological evidence for post-exilic settlement in Judah.',
+    },
+  ],
+
   sections: [
     /* ─── Ezra 2:1–2 — The Remnant Identified ────────────────────────── */
     {
@@ -48,7 +59,7 @@ export const EZRA_2: RichChapterContent = {
           kind: 'commentary',
           id: 'children-province',
           html:
-            'The chapter opens with one of Scripture&apos;s most beautiful phrases: "the children of the province that went up out of the captivity." These are not just individuals. They are "the children" — a family, a people, bound together by covenant. Nebuchadnezzar had carried them away. The captivity was total, the exile deep. And yet the text makes clear: they are still recognized as the children of the Lord, the people of Israel.',
+            'The chapter opens with one of Scripture&apos;s most beautiful phrases: "the children of the province that went up out of the captivity." These are not just individuals. They are "the children" — a family, a people, bound together by covenant. Nebuchadnezzar had carried them away. The captivity was total, the exile deep. And yet the text makes clear: they are still recognized as the children of the Lord, the people of Israel. [res:iaa-return-exile]',
         },
         {
           kind: 'commentary',

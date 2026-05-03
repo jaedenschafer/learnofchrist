@@ -30,6 +30,17 @@ export const NEHEMIAH_12: RichChapterContent = {
     ref: 'Nehemiah 12 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-torah-scroll',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Torah and Jewish Law Texts',
+      url: 'https://www.sefaria.org/',
+      description: 'Sefaria Hebrew texts on Torah readings and covenant renewal.',
+    },
+  ],
+
   sections: [
     /* ─── Nehemiah 12:1–9 — The Priests and Levites Who Returned ──────── */
     {
@@ -53,7 +64,7 @@ export const NEHEMIAH_12: RichChapterContent = {
           kind: 'commentary',
           id: 'neh-12-priests-levites',
           html:
-            'Lists of priests and Levites returned. Names matter. These are the keepers of the altar, the singers, the teachers. Jerusalem&apos;s restoration lives in their hands. Genealogy ensures continuity; names ensure memory.',
+            'Lists of priests and Levites returned. Names matter. These are the keepers of the altar, the singers, the teachers. Jerusalem&apos;s restoration lives in their hands. Genealogy ensures continuity; names ensure memory. [res:sefaria-torah-scroll]',
         },
         {
           kind: 'scripture',

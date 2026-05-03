@@ -29,6 +29,25 @@ export const ESTHER_10: RichChapterContent = {
     ref: 'Esther 10 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'theoi-herodotus',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Herodotus on Xerxes I',
+      url: 'https://www.theoi.com/Text/HerodotusHistories.html',
+      description: 'Herodotus accounts of Xerxes, Persian court intrigues, and royal authority.',
+    },
+    {
+      id: 'sefaria-megillah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Megillat Esther',
+      url: 'https://www.sefaria.org/Megillat_Esther',
+      description: 'Sefaria Hebrew text with medieval commentary on the Esther scroll.',
+    },
+  ],
+
   sections: [
     /* ─── Esther 10:1–3 — The King&apos;s Tribute and Mordecai&apos;s Honor ──── */
     {
@@ -63,13 +82,13 @@ export const ESTHER_10: RichChapterContent = {
           kind: 'commentary',
           id: 'esth10-advance',
           html:
-            'The king advanced Mordecai to the position of second in the empire. Mordecai is now "next unto the king" — a phrase that echoes the language of exaltation. He who was hunted, who sat in sackcloth, who was the target of death, is now seated at the pinnacle of power, his name recorded in the official chronicles of empire for all generations to remember.',
+            'The king advanced Mordecai to the position of second in the empire. Mordecai is now "next unto the king" — a phrase that echoes the language of exaltation. He who was hunted, who sat in sackcloth, who was the target of death, is now seated at the pinnacle of power, his name recorded in the official chronicles of empire for all generations to remember. [res:theoi-herodotus]',
         },
         {
           kind: 'commentary',
           id: 'esth10-welfare',
           html:
-            'But notice what the text emphasizes about Mordecai&apos;s greatness: "seeking the welfare of his people." His power is defined not by his authority but by his purpose. He is great because he uses his station to advocate for the Jews. The faithful servant has been elevated, and he remembers those who are still vulnerable.',
+            'But notice what the text emphasizes about Mordecai&apos;s greatness: "seeking the welfare of his people." His power is defined not by his authority but by his purpose. He is great because he uses his station to advocate for the Jews. The faithful servant has been elevated, and he remembers those who are still vulnerable. [res:sefaria-megillah]',
         },
         {
           kind: 'hebrew',

@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 18 — Three visitors at the oaks of Mamre. Abraham offers
+ * Genesis 18 - Three visitors at the oaks of Mamre. Abraham offers
  * hospitality to three strangers who turn out to be divine messengers.
  * Sarah laughs at the promise of a son. God reveals the judgment coming
  * on Sodom. Abraham bargains down from 50 righteous to 10 to spare the city.
@@ -16,8 +16,8 @@ export const GENESIS_18: RichChapterContent = {
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 15 },
   intros: [
-    'Genesis 18 has two halves that echo each other. In the first, Abraham sits at the door of his tent at noon and sees three men walking toward him. He does not know who they are. He runs to meet them and offers them water, shade, and bread — the hospitality of a desert nomad toward strangers. They accept, and one of them speaks the promise Abraham has been waiting for: within a year, Sarah will have a son.',
-    'In the second half, the strangers rise to go. Abraham walks with them toward Sodom. And then, at the turning point of the chapter, the Lord says something stunning: "Shall I hide from Abraham that thing which I do?" What follows is not judgment first, but disclosure. Abraham learns what is about to happen to Sodom and Gerar, and he begins to pray — to bargain, even — for the city. He starts at fifty righteous souls and works his way down [res:bibleodyssey-abraham-covenant] to ten, and the Lord listens to him each time. Hospitality in the first half has become intercession in the second.',
+    'Genesis 18 has two halves that echo each other. In the first, Abraham sits at the door of his tent at noon and sees three men walking toward him. He does not know who they are. He runs to meet them and offers them water, shade, and bread - the hospitality of a desert nomad toward strangers. They accept, and one of them speaks the promise Abraham has been waiting for: within a year, Sarah will have a son.',
+    'In the second half, the strangers rise to go. Abraham walks with them toward Sodom. And then, at the turning point of the chapter, the Lord says something stunning: "Shall I hide from Abraham that thing which I do?" What follows is not judgment first, but disclosure. Abraham learns what is about to happen to Sodom and Gerar, and he begins to pray - to bargain, even - for the city. He starts at fifty righteous souls and works his way down [res:bibleodyssey-abraham-covenant] to ten, and the Lord listens to him each time. Hospitality in the first half has become intercession in the second.',
   ],
 
   bottomShare: {
@@ -56,9 +56,9 @@ export const GENESIS_18: RichChapterContent = {
   ],
 
   sections: [
-    /* ─── Genesis 18:1–8 — Hospitality at Mamre ──────────────────────── */
+    /* ─── Genesis 18:1-8 - Hospitality at Mamre ──────────────────────── */
     {
-      ref: 'Genesis 18:1–8',
+      ref: 'Genesis 18:1-8',
       title: 'The Visitors at Noon',
       blocks: [
         {
@@ -103,28 +103,28 @@ export const GENESIS_18: RichChapterContent = {
           kind: 'commentary',
           id: 'c-mamre',
           html:
-            'Mamre is a sacred place — an oak grove where God has appeared to Abraham before (Gen. 13:18). Abraham is not taken off guard by divine presence. He is waiting for it, because he has learned to recognize the place where God walks[res:sefaria-genesis-18][res:pennmuseum-abraham-era].',
+            'Mamre is a sacred place - an oak grove where God has appeared to Abraham before (Gen. 13:18). Abraham is not taken off guard by divine presence. He is waiting for it, because he has learned to recognize the place where God walks[res:sefaria-genesis-18][res:pennmuseum-abraham-era].',
         },
         {
           kind: 'commentary',
           id: 'c-three-men',
           html:
-            'Three strangers. No fanfare. Abraham sees them coming and runs toward them before he knows who they are. Hospitality in the ancient world was not a feeling — it was an action, a risk, a commandment. You fed the stranger. You gave water. You did not wait for them to explain themselves; you moved first.',
+            'Three strangers. No fanfare. Abraham sees them coming and runs toward them before he knows who they are. Hospitality in the ancient world was not a feeling - it was an action, a risk, a commandment. You fed the stranger. You gave water. You did not wait for them to explain themselves; you moved first.',
         },
         {
           kind: 'hebrew',
           id: 'hebrew-eshel',
-          title: 'Eshel — &ldquo;tree at Mamre&rdquo;',
+          title: 'Eshel - &ldquo;tree at Mamre&rdquo;',
           script: 'אֵשֶׁל',
           translit: '<strong>eshel</strong> · a tree; a waystop with a well',
           description:
-            'Genesis 18:4 mentions Abraham fetching water and resting them under a tree. Verse 8 implies bread and a prepared meal. The <em>eshel</em> becomes iconic in Jewish tradition as a sign of Abraham\'s hospitality — not just shelter but a threshold between the wilderness and rest, where strangers become guests and guests may become angels.',
+            'Genesis 18:4 mentions Abraham fetching water and resting them under a tree. Verse 8 implies bread and a prepared meal. The <em>eshel</em> becomes iconic in Jewish tradition as a sign of Abraham\'s hospitality - not just shelter but a threshold between the wilderness and rest, where strangers become guests and guests may become angels.',
         },
         {
           kind: 'commentary',
           id: 'c-wash',
           html:
-            'Washing feet was an intimate act of service — the master\'s task for a slave. Abraham offers it to strangers. He does not know their rank or station. He simply meets need with his own hands.',
+            'Washing feet was an intimate act of service - the master\'s task for a slave. Abraham offers it to strangers. He does not know their rank or station. He simply meets need with his own hands.',
         },
         {
           kind: 'scripture',
@@ -148,31 +148,31 @@ export const GENESIS_18: RichChapterContent = {
           kind: 'commentary',
           id: 'c-haste',
           html:
-            'Five times in these verses — verses 6, 7 (twice), and implicit in verse 8 — Abraham rushes. He hastens, he runs, his servant hurries. This is not slow hospitality. This is eager service. Abraham is not calculating the cost or wondering if these strangers deserve a calf. He is moving as fast as his hands can move.',
+            'Five times in these verses - verses 6, 7 (twice), and implicit in verse 8 - Abraham rushes. He hastens, he runs, his servant hurries. This is not slow hospitality. This is eager service. Abraham is not calculating the cost or wondering if these strangers deserve a calf. He is moving as fast as his hands can move.',
         },
         {
           kind: 'carry',
           html:
-            'The strangers at your door come in many forms — the coworker who says something hurtful and you have to choose whether to hear them, the relative whose politics make your jaw tight, the person who smells like need and you want to cross the street. Genesis 18 is not naive about who strangers are. It is ruthlessly clear: feed them anyway. Fetch the water. Prepare the meal. Bow low. Let them sit under your tree. Abraham didn\'t know what he was doing. He only knew it was the shape of hospitality to move first.',
+            'The strangers at your door come in many forms - the coworker who says something hurtful and you have to choose whether to hear them, the relative whose politics make your jaw tight, the person who smells like need and you want to cross the street. Genesis 18 is not naive about who strangers are. It is ruthlessly clear: feed them anyway. Fetch the water. Prepare the meal. Bow low. Let them sit under your tree. Abraham didn\'t know what he was doing. He only knew it was the shape of hospitality to move first.',
         },
         {
           kind: 'reflection',
           id: 'gen18-hospitality',
           prompt:
-            'Who is standing by your tent door right now — someone you want to serve, someone you want to avoid, someone you don\'t yet recognize? What would it look like to offer them water?',
+            'Who is standing by your tent door right now - someone you want to serve, someone you want to avoid, someone you don\'t yet recognize? What would it look like to offer them water?',
         },
         {
           kind: 'artwork',
           matchTitle: /abraham|hospitality/i,
           matchArtist: /rublev|tissot/i,
-          caption: 'Genesis 18:1–8 · Hospitality at Mamre',
+          caption: 'Genesis 18:1-8 · Hospitality at Mamre',
         },
       ],
     },
 
-    /* ─── Genesis 18:9–15 — Sarah\'s Laughter ────────────────────────── */
+    /* ─── Genesis 18:9-15 - Sarah\'s Laughter ────────────────────────── */
     {
-      ref: 'Genesis 18:9–15',
+      ref: 'Genesis 18:9-15',
       title: 'The Promise and the Laugh',
       blocks: [
         {
@@ -218,11 +218,11 @@ export const GENESIS_18: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-tsachaq',
-          title: 'Tsachaq — &ldquo;laughed&rdquo;',
+          title: 'Tsachaq - &ldquo;laughed&rdquo;',
           script: 'צָחַק',
           translit: '<strong>tsachaq</strong> · to laugh, to play, to rejoice',
           description:
-            'This is the root of Isaac\'s name — Yitzchak. The child himself will be a "laughter," a living joke that God makes with the world. Sarah\'s laugh is not simple mockery. It is the laugh of the impossible. And the child she bears will carry that laugh in his name forever.',
+            'This is the root of Isaac\'s name - Yitzchak. The child himself will be a "laughter," a living joke that God makes with the world. Sarah\'s laugh is not simple mockery. It is the laugh of the impossible. And the child she bears will carry that laugh in his name forever.',
         },
         {
           kind: 'commentary',
@@ -259,16 +259,16 @@ export const GENESIS_18: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-peliy',
-          title: 'Peliy — &ldquo;hidden from&rdquo; / impossible',
+          title: 'Peliy - &ldquo;hidden from&rdquo; / impossible',
           script: 'פֶּלִיא',
           translit: '<strong>peliy</strong> · too hard, too wonderful, hidden from',
           description:
-            'The question "Is anything too hard for the LORD?" contains the idea of something being hidden from God — but the question reverses it. Nothing can be hidden from Him. There is no limitation He has not already surpassed. The question is not about God\'s power; it is about what Sarah believes about His power.',
+            'The question "Is anything too hard for the LORD?" contains the idea of something being hidden from God - but the question reverses it. Nothing can be hidden from Him. There is no limitation He has not already surpassed. The question is not about God\'s power; it is about what Sarah believes about His power.',
         },
         {
           kind: 'carry',
           html:
-            'You have things you stopped believing were possible. Things you wanted and watched fade year after year. Things you laugh at now because laughing is easier than hope. Genesis 18:14 asks if anything is hidden from God — too hard, too late, too broken. The answer the text is giving is no. Nothing. But the question is not really about God\'s power. It is about whether you will let yourself hope again.',
+            'You have things you stopped believing were possible. Things you wanted and watched fade year after year. Things you laugh at now because laughing is easier than hope. Genesis 18:14 asks if anything is hidden from God - too hard, too late, too broken. The answer the text is giving is no. Nothing. But the question is not really about God\'s power. It is about whether you will let yourself hope again.',
           },
         {
           kind: 'reflection',
@@ -279,9 +279,9 @@ export const GENESIS_18: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 18:16–21 — The Disclosure ──────────────────────────── */
+    /* ─── Genesis 18:16-21 - The Disclosure ──────────────────────────── */
     {
-      ref: 'Genesis 18:16–21',
+      ref: 'Genesis 18:16-21',
       title: 'Shall I Hide From Him?',
       blocks: [
         {
@@ -323,11 +323,11 @@ export const GENESIS_18: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-yada',
-          title: 'Yada — &ldquo;I know him&rdquo;',
+          title: 'Yada - &ldquo;I know him&rdquo;',
           script: 'יָדַע',
           translit: '<strong>yada</strong> · to know, to be intimate with',
           description:
-            'God says "I know Abraham" — <em>yada</em>, the covenant word of intimate knowledge. This is not distant omniscience. This is the knowledge lovers have, the knowledge a shepherd has of his flock. Knowing, in the Bible, is being bound together. When God says He knows Abraham, He is saying Abraham is His, and God is Abraham\'s.',
+            'God says "I know Abraham" - <em>yada</em>, the covenant word of intimate knowledge. This is not distant omniscience. This is the knowledge lovers have, the knowledge a shepherd has of his flock. Knowing, in the Bible, is being bound together. When God says He knows Abraham, He is saying Abraham is His, and God is Abraham\'s.',
         },
         {
           kind: 'scripture',
@@ -351,25 +351,25 @@ export const GENESIS_18: RichChapterContent = {
           kind: 'commentary',
           id: 'c-know-sodom',
           html:
-            'God says He will "go down and see" — the language is anthropomorphic, but it is also real. God does not judge from a distance or from report. He comes to the place. He looks. He knows by presence, not by hearsay. The cry of Sodom has reached Him, and before judgment falls, He will see for Himself.',
+            'God says He will "go down and see" - the language is anthropomorphic, but it is also real. God does not judge from a distance or from report. He comes to the place. He looks. He knows by presence, not by hearsay. The cry of Sodom has reached Him, and before judgment falls, He will see for Himself.',
         },
         {
           kind: 'carry',
           html:
-            'God does not hide His plans from those He loves. He brings them in. He tells them what is coming — not to spectate, but to pray, to intercede, to become part of how He moves in the world. If you are walking with God, the big things coming are not secrets kept from you. They are invitations.',
+            'God does not hide His plans from those He loves. He brings them in. He tells them what is coming - not to spectate, but to pray, to intercede, to become part of how He moves in the world. If you are walking with God, the big things coming are not secrets kept from you. They are invitations.',
           },
         {
           kind: 'reflection',
           id: 'gen18-disclosure',
           prompt:
-            'What is God currently showing you about His plans — for your family, your community, the world? What is He inviting you to do about it?',
+            'What is God currently showing you about His plans - for your family, your community, the world? What is He inviting you to do about it?',
         },
       ],
     },
 
-    /* ─── Genesis 18:22–33 — Abraham Bargains ────────────────────────── */
+    /* ─── Genesis 18:22-33 - Abraham Bargains ────────────────────────── */
     {
-      ref: 'Genesis 18:22–33',
+      ref: 'Genesis 18:22-33',
       title: 'The Negotiation for Sodom',
       blocks: [
         {
@@ -408,13 +408,13 @@ export const GENESIS_18: RichChapterContent = {
           kind: 'commentary',
           id: 'c-standing',
           html:
-            '"Abraham stood yet before the LORD" — while the strangers walk toward Sodom, Abraham remains before God. He does not walk away. He does not accept the judgment as final. He stands in the gap. This is what intercession looks like: the willingness to stand between God and the judgment, and to plead.',
+            '"Abraham stood yet before the LORD" - while the strangers walk toward Sodom, Abraham remains before God. He does not walk away. He does not accept the judgment as final. He stands in the gap. This is what intercession looks like: the willingness to stand between God and the judgment, and to plead.',
         },
         {
           kind: 'commentary',
           id: 'c-bargain-start',
           html:
-            'Abraham does not ask God to spare Sodom because Sodom is good. He asks Him to spare it because there are righteous people in it. His logic is: don\'t let the innocent pay for the guilty. It is a just prayer, grounded in the character of God. And he begins with fifty righteous people — a hypothesis, really. A number that might be true.',
+            'Abraham does not ask God to spare Sodom because Sodom is good. He asks Him to spare it because there are righteous people in it. His logic is: don\'t let the innocent pay for the guilty. It is a just prayer, grounded in the character of God. And he begins with fifty righteous people - a hypothesis, really. A number that might be true.',
         },
         {
           kind: 'scripture',
@@ -441,8 +441,7 @@ export const GENESIS_18: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'genesis-18-78mid-1',
-          html:
-            'The narrative shifts here — a new scene, a new voice in the room, the same patient God moving the story forward.',
+          html: 'Hospitality given freely, and now the strangers sit down. A conversation turns cosmic--Sarah will bear a son within the year.',
         },
         {
           kind: 'scripture',
@@ -493,7 +492,7 @@ export const GENESIS_18: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'Abraham learns that God is not eagerly waiting for reasons to destroy. He is listening for reasons to spare. And not only listening — he is in conversation about it. God is swayed by intercession. He does not ask Abraham to stop asking. He keeps saying yes to the prayer to spare, yes to the mercy, yes to the smaller and smaller number of righteous that might forestall judgment. The prayer of someone who stands for others changes things.',
+            'Abraham learns that God is not eagerly waiting for reasons to destroy. He is listening for reasons to spare. And not only listening - he is in conversation about it. God is swayed by intercession. He does not ask Abraham to stop asking. He keeps saying yes to the prayer to spare, yes to the mercy, yes to the smaller and smaller number of righteous that might forestall judgment. The prayer of someone who stands for others changes things.',
           },
         {
           kind: 'reflection',
@@ -504,15 +503,15 @@ export const GENESIS_18: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-intercessor',
-          title: 'Christ Connection — The Intercessor',
+          title: 'Christ Connection - The Intercessor',
           html:
-            'Abraham stands before the LORD and pleads for the city. The epistle to the Hebrews says of Jesus, "he ever liveth to make intercession for them" (Heb. 7:25). What Abraham does once — stand before God and ask for mercy on those who do not deserve it — Christ does continually. He is the righteous one standing between God\'s judgment and the world, asking for it to be spared. Where Abraham pleads for ten righteous to spare a city, Christ is the One Righteous standing for all of creation.',
+            'Abraham stands before the LORD and pleads for the city. The epistle to the Hebrews says of Jesus, "he ever liveth to make intercession for them" (Heb. 7:25). What Abraham does once - stand before God and ask for mercy on those who do not deserve it - Christ does continually. He is the righteous one standing between God\'s judgment and the world, asking for it to be spared. Where Abraham pleads for ten righteous to spare a city, Christ is the One Righteous standing for all of creation.',
         },
         {
           kind: 'artwork',
           matchTitle: /abraham|mamre|visitors|three/i,
           matchArtist: /rublev/i,
-          caption: 'Genesis 18:22–33 · Abraham\'s Prayer',
+          caption: 'Genesis 18:22-33 · Abraham\'s Prayer',
         },
       ],
     },

@@ -30,6 +30,17 @@ export const JOB_9: RichChapterContent = {
     ref: 'Job 9 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Job 9:1–12',
@@ -51,7 +62,7 @@ export const JOB_9: RichChapterContent = {
           kind: 'commentary',
           id: 'job9-power-display',
           html:
-            'God moves mountains and the earth trembles. These are not poetic descriptions—they are reality. Job catalogs not God&apos;s love, but God&apos;s power. And this power is so vast that humans cannot match it, cannot even imagine defending themselves against it. The contrast is between human frailty and divine omnipotence.',
+            'God moves mountains and the earth trembles. These are not poetic descriptions—they are reality. Job catalogs not God&apos;s love, but God&apos;s power. And this power is so vast that humans cannot match it, cannot even imagine defending themselves against it. The contrast is between human frailty and divine omnipotence. [res:british-museum-ludlul]',
         },
         {
           kind: 'scripture',

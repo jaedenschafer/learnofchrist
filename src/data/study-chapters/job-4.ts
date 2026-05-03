@@ -33,6 +33,17 @@ export const JOB_4: RichChapterContent = {
     ref: 'Job 4 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     /* ─── Job 4:1–7 — Eliphaz Begins: "Remember, I Pray Thee" ──────────── */
     {
@@ -71,7 +82,7 @@ export const JOB_4: RichChapterContent = {
           kind: 'commentary',
           id: 'job4-mid-eliphaz-vision',
           html:
-            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+            'Calamity strips everything; faith asks: can you praise when silence is easier? [res:british-museum-ludlul]',
         },
         {
           kind: 'scripture',

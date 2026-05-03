@@ -35,6 +35,17 @@ export const CHRONICLES_2_18: RichChapterContent = {
     ref: '2 Chronicles 18 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-judah-monarchy',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Judah in the Monarchy Period',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'IAA database of Iron Age Judahite sites, inscriptions, and settlement patterns.',
+    },
+  ],
+
   sections: [
     /* ─── 2 Chronicles 18:1–2 — Jehoshaphat's Affinity with Ahab ──────────── */
     {
@@ -138,7 +149,7 @@ export const CHRONICLES_2_18: RichChapterContent = {
           kind: 'commentary',
           id: '2chr18-prophets-united',
           html:
-            'Four hundred prophets stand together, all promising victory at Ramoth-gilead. Jehoshaphat senses the unanimity is too clean — and asks if there is one more, anyone with a different word.',
+            'Four hundred prophets stand together, all promising victory at Ramoth-gilead. Jehoshaphat senses the unanimity is too clean — and asks if there is one more, anyone with a different word. [res:iaa-judah-monarchy]',
         },
         {
           kind: 'scripture',

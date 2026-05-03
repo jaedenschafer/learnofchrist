@@ -28,6 +28,25 @@ export const ESTHER_8: RichChapterContent = {
     ref: 'Esther 8 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'theoi-herodotus',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Herodotus on Xerxes I',
+      url: 'https://www.theoi.com/Text/HerodotusHistories.html',
+      description: 'Herodotus accounts of Xerxes, Persian court intrigues, and royal authority.',
+    },
+    {
+      id: 'sefaria-megillah',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Megillat Esther',
+      url: 'https://www.sefaria.org/Megillat_Esther',
+      description: 'Sefaria Hebrew text with medieval commentary on the Esther scroll.',
+    },
+  ],
+
   sections: [
     /* ─── Esther 8:1–2 — Esther&apos;s Inheritance ──────────────────────── */
     {
@@ -52,7 +71,7 @@ export const ESTHER_8: RichChapterContent = {
           kind: 'commentary',
           id: 'esth8-house-given',
           html:
-            'What was the seat of Haman&apos;s power becomes Esther&apos;s inheritance. The king does not merely pardon her; he rewards her. He gives her the very property of the one who sought her destruction. This is not a small thing — it is a reversal of fortunes that touches everything: power, wealth, security, vindication.',
+            'What was the seat of Haman&apos;s power becomes Esther&apos;s inheritance. The king does not merely pardon her; he rewards her. He gives her the very property of the one who sought her destruction. This is not a small thing — it is a reversal of fortunes that touches everything: power, wealth, security, vindication. [res:theoi-herodotus]',
         },
         {
           kind: 'commentary',

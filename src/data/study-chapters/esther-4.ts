@@ -37,6 +37,17 @@ export const ESTHER_4: RichChapterContent = {
     ref: 'Esther 4 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'theoi-herodotus',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Herodotus on Xerxes I',
+      url: 'https://www.theoi.com/Text/HerodotusHistories.html',
+      description: 'Herodotus accounts of Xerxes, Persian court intrigues, and royal authority.',
+    },
+  ],
+
   sections: [
     /* ─── Esther 4:1–3 — Mordecai's Mourning at the Gate ──────────────── */
     {
@@ -75,7 +86,7 @@ export const ESTHER_4: RichChapterContent = {
           kind: 'commentary',
           id: 'est4-rent-clothes',
           html:
-            'Mordecai tears his clothes—an ancient gesture of absolute devastation. This is not a private grief. He goes into the city, he cries with a loud and bitter cry. The death decree has been signed. It cannot be revoked. And the one man who could have prevented it all—if he had only bowed to Haman—now wears his refusal in the form of sackcloth and ashes.',
+            'Mordecai tears his clothes—an ancient gesture of absolute devastation. This is not a private grief. He goes into the city, he cries with a loud and bitter cry. The death decree has been signed. It cannot be revoked. And the one man who could have prevented it all—if he had only bowed to Haman—now wears his refusal in the form of sackcloth and ashes. [res:theoi-herodotus]',
         },
         {
           kind: 'hebrew',

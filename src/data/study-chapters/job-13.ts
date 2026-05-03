@@ -31,6 +31,17 @@ export const JOB_13: RichChapterContent = {
     ref: 'Job 13 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-ludlul',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Ludlul Bel Nemeqi (I Will Praise the Lord)',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Akkadian wisdom poem from Babylon: suffering, divine justice, vindication.',
+    },
+  ],
+
   sections: [
     {
       ref: 'Job 13:1–12',
@@ -52,7 +63,7 @@ export const JOB_13: RichChapterContent = {
           kind: 'commentary',
           id: 'job13-pivot-to-god',
           html:
-            'Job stops speaking to his friends and turns toward God. The pain has nowhere else to go. The next verses are no longer accusation; they are appeal.',
+            'Job stops speaking to his friends and turns toward God. The pain has nowhere else to go. The next verses are no longer accusation; they are appeal. [res:british-museum-ludlul]',
         },
         {
           kind: 'scripture',

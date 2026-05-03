@@ -35,6 +35,17 @@ export const CHRONICLES_1_6: RichChapterContent = {
     ref: '1 Chronicles 6 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'bibleodyssey-levites',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Levites and Levitical Cities',
+      url: 'https://www.bibleodyssey.org/dictionary/levite/',
+      description: 'SBL study entry on Levite origins, roles, and tribal allotments.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 6:1–19 — The Three Sons of Levi ────────────────────── */
     {
@@ -71,7 +82,7 @@ export const CHRONICLES_1_6: RichChapterContent = {
           kind: 'commentary',
           id: '1-chronicles-6-mid-4',
           html:
-            '<p>The genealogy traces how God preserved His people through generations and exile.</p>',
+            '<p>The genealogy traces how God preserved His people through generations and exile.</p> [res:bibleodyssey-levites]',
         },
         {
           kind: 'scripture',

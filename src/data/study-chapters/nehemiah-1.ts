@@ -32,6 +32,17 @@ export const NEHEMIAH_1: RichChapterContent = {
     ref: 'Nehemiah 1 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'iaa-city-david',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'City of David Excavations',
+      url: 'https://www.antiquities.org.il/en/',
+      description: 'Ongoing archaeological investigation of Iron Age and Persian period Jerusalem.',
+    },
+  ],
+
   sections: [
     /* ─── Nehemiah 1:1–2 — The Messenger from Jerusalem ──────────────────── */
     {
@@ -50,7 +61,7 @@ export const NEHEMIAH_1: RichChapterContent = {
           kind: 'commentary',
           id: 'nehemiah-cupbearer',
           html:
-            'Nehemiah is in Shushan, the palace of the king — likely Artaxerxes I or II, over a century after the initial exile. Nehemiah holds a position of rare access and honor. He is not in Jerusalem; he is serving the foreign king. Yet when men from Judah arrive, his first instinct is to ask about the Jews and about Jerusalem — the home he has likely never seen, the city his people have returned to but not yet restored.',
+            'Nehemiah is in Shushan, the palace of the king — likely Artaxerxes I or II, over a century after the initial exile. Nehemiah holds a position of rare access and honor. He is not in Jerusalem; he is serving the foreign king. Yet when men from Judah arrive, his first instinct is to ask about the Jews and about Jerusalem — the home he has likely never seen, the city his people have returned to but not yet restored. [res:iaa-city-david]',
         },
         {
           kind: 'hebrew',
@@ -65,7 +76,7 @@ export const NEHEMIAH_1: RichChapterContent = {
           kind: 'commentary',
           id: 'hanani-witness',
           html:
-            'Hanani is Nehemiah&apos;s brother, a messenger bringing word from Jerusalem. In biblical narrative, messengers often trigger transformation. David received news of Saul&apos;s death through a messenger; the apostles received the resurrection through messengers. Hanani carries news that will change Nehemiah&apos;s entire life.',
+            'Hanani is Nehemiah&apos;s brother, a messenger bringing word from Jerusalem. In biblical narrative, messengers often trigger transformation. David received news of Saul&apos;s death through a messenger; the apostles received the resurrection through messengers. Hanani carries news that will change Nehemiah&apos;s entire life. [res:iaa-city-david]',
         },
       ],
     },
@@ -97,13 +108,13 @@ export const NEHEMIAH_1: RichChapterContent = {
           kind: 'commentary',
           id: 'nehemiah-affliction',
           html:
-            'The remnant — those who have returned from exile — are in affliction and reproach. The words suggest not merely hardship but shame. A people without a protected city is a people without standing, without the dignity that walls confer. In the ancient world, to be defenseless was to be despised.',
+            'The remnant — those who have returned from exile — are in affliction and reproach. The words suggest not merely hardship but shame. A people without a protected city is a people without standing, without the dignity that walls confer. In the ancient world, to be defenseless was to be despised. [res:iaa-city-david]',
         },
         {
           kind: 'commentary',
           id: 'nehemiah-wall',
           html:
-            'The wall is broken down. This is not a metaphor. Walls are identity. Walls are safety. Walls separate the holy from the profane, the contained from the chaos. A broken wall is a violated boundary — the city lies open to predators, to mockery, to the disorder of unguarded thresholds.',
+            'The wall is broken down. This is not a metaphor. Walls are identity. Walls are safety. Walls separate the holy from the profane, the contained from the chaos. A broken wall is a violated boundary — the city lies open to predators, to mockery, to the disorder of unguarded thresholds. [res:iaa-city-david]',
         },
         {
           kind: 'hebrew',
@@ -118,7 +129,7 @@ export const NEHEMIAH_1: RichChapterContent = {
           kind: 'commentary',
           id: 'nehemiah-gates',
           html:
-            'The gates are burned. Gates are not merely functional; they are the places of judgment, of commerce, of entry and exit. Burned gates mean the ability to control passage is gone. The city is penetrated. The narrative tension builds: how can the people of God inhabit an undefended, open city?',
+            'The gates are burned. Gates are not merely functional; they are the places of judgment, of commerce, of entry and exit. Burned gates mean the ability to control passage is gone. The city is penetrated. The narrative tension builds: how can the people of God inhabit an undefended, open city? [res:iaa-city-david]',
         },
         {
           kind: 'carry',
@@ -158,7 +169,7 @@ export const NEHEMIAH_1: RichChapterContent = {
           kind: 'commentary',
           id: 'nehemiah-sat-wept',
           html:
-            'Nehemiah does not rush. He sits down. He weeps. The verbs are spare and deliberate. He is not the cupbearer solving a logistical problem; he is a man whose heart has been undone by word of his people&apos;s shame. His weeping is not weakness but fidelity — he feels the breaking of Jerusalem as a breaking within himself.',
+            'Nehemiah does not rush. He sits down. He weeps. The verbs are spare and deliberate. He is not the cupbearer solving a logistical problem; he is a man whose heart has been undone by word of his people&apos;s shame. His weeping is not weakness but fidelity — he feels the breaking of Jerusalem as a breaking within himself. [res:iaa-city-david]',
         },
         {
           kind: 'commentary',
@@ -224,13 +235,13 @@ export const NEHEMIAH_1: RichChapterContent = {
           kind: 'commentary',
           id: 'nehemiah-confess-sins',
           html:
-            'Nehemiah prays "day and night" — continuous, persistent petition. But what is he petitioning for? He is confessing. He says "we have sinned against thee" — speaking not as an individual but as a member of a covenant people. The walls are broken not by accident but by consequence. The exile was judgment for covenant breaking.',
+            'Nehemiah prays "day and night" — continuous, persistent petition. But what is he petitioning for? He is confessing. He says "we have sinned against thee" — speaking not as an individual but as a member of a covenant people. The walls are broken not by accident but by consequence. The exile was judgment for covenant breaking. [res:iaa-city-david]',
         },
         {
           kind: 'commentary',
           id: 'nehemiah-both-I',
           html:
-            'Here is the deepest note: "Both I and my father&apos;s house have sinned." Nehemiah could stand apart from his people&apos;s sin. He serves the king; he is at a distance from the broken city. But he does not. He includes himself in the confession. He takes on the sin of his people as his own sin. This is intercession — standing in the gap.',
+            'Here is the deepest note: "Both I and my father&apos;s house have sinned." Nehemiah could stand apart from his people&apos;s sin. He serves the king; he is at a distance from the broken city. But he does not. He includes himself in the confession. He takes on the sin of his people as his own sin. This is intercession — standing in the gap. [res:iaa-city-david]',
         },
         {
           kind: 'scripture',
@@ -323,7 +334,7 @@ export const NEHEMIAH_1: RichChapterContent = {
           kind: 'commentary',
           id: 'nehemiah-prosper',
           html:
-            'Now the prayer shifts. Nehemiah has confessed. He has remembered the covenant. And now he asks: prosper thy servant this day, and grant him mercy in the sight of this man. The "man" is the king. Nehemiah is not asking for the walls to rebuild themselves. He is asking to be positioned — to have favor with the king so that he might be an instrument of restoration.',
+            'Now the prayer shifts. Nehemiah has confessed. He has remembered the covenant. And now he asks: prosper thy servant this day, and grant him mercy in the sight of this man. The "man" is the king. Nehemiah is not asking for the walls to rebuild themselves. He is asking to be positioned — to have favor with the king so that he might be an instrument of restoration. [res:iaa-city-david]',
         },
         {
           kind: 'hebrew',

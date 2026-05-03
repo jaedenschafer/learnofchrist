@@ -34,6 +34,17 @@ export const CHRONICLES_1_24: RichChapterContent = {
     ref: '1 Chronicles 24 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-david',
+      kind: 'archaeology',
+      source: 'British Museum',
+      label: 'David in the Ancient Near East',
+      url: 'https://www.britishmuseum.org/',
+      description: 'British Museum collections on Iron Age Levantine kingdoms and David.',
+    },
+  ],
+
   sections: [
     /* ─── 1 Chronicles 24:1–6 — Nadab, Abihu, and the Division ────────── */
     {
@@ -80,7 +91,7 @@ export const CHRONICLES_1_24: RichChapterContent = {
           kind: 'commentary',
           id: 'nadab-abihu-death',
           html:
-            'Nadab and Abihu died long ago, in the time of their father Aaron. Their deaths are recorded in Leviticus 10: they offered strange fire before the Lord and were consumed by fire from heaven. They had no children, so the priestly line did not pass through them. The text acknowledges this ancient loss as the foundation for the current structure: Eleazar and Ithamar are the only surviving sons, and thus they and their families alone carry the priestly office forward. What might have been a break in the priesthood becomes instead a redirection — the line continues, narrower but unbroken.',
+            'Nadab and Abihu died long ago, in the time of their father Aaron. Their deaths are recorded in Leviticus 10: they offered strange fire before the Lord and were consumed by fire from heaven. They had no children, so the priestly line did not pass through them. The text acknowledges this ancient loss as the foundation for the current structure: Eleazar and Ithamar are the only surviving sons, and thus they and their families alone carry the priestly office forward. What might have been a break in the priesthood becomes instead a redirection — the line continues, narrower but unbroken. [res:british-museum-david]',
         },
         {
           kind: 'hebrew',

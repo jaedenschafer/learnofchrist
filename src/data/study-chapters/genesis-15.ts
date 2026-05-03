@@ -1,12 +1,12 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Genesis 15 — "Fear not, Abram; I am thy shield"
+ * Genesis 15 - "Fear not, Abram; I am thy shield"
  *
  * This chapter contains two of the most theologically significant scenes in
- * the Old Testament: (1) Abram's faith counted for righteousness (v.6) — the
+ * the Old Testament: (1) Abram's faith counted for righteousness (v.6) - the
  * verse Paul builds his entire doctrine of justification on in Romans 4 and
- * Galatians 3; and (2) the covenant of pieces (vv.9–21) — God's self-curse
+ * Galatians 3; and (2) the covenant of pieces (vv.9-21) - God's self-curse
  * ceremony ratifying His promise, where God alone passes between the cut
  * animals, taking upon Himself the covenant penalty if the promise fails.
  */
@@ -17,14 +17,14 @@ export const GENESIS_15: RichChapterContent = {
 
   estimatedMinutes: { beginner: 7, intermediate: 11, deep: 15 },
   intros: [
-    'Abram has left his homeland. He has been promised an heir and a land so vast it cannot be counted. But he is childless, and his adopted servant will inherit everything. The chapter opens with God saying something personal, something almost breathed: "Fear not, Abram: I am thy shield, and thy exceeding great reward." And then Abram does something simple — he believes God — and God counts that belief [res:bibleodyssey-abraham-covenant] as righteousness. That single verse has shaped the entire Christian understanding of how we stand before God.',
-    'But Abram asks for proof. He needs to see how the promise holds. So God takes him through a ceremony ancient shepherds knew well: the covenant of pieces. Abram cuts animals in half and lays them out. God fills the air with smoke and fire, and then does something no other god in the ancient world ever does — He passes alone between the pieces. In every covenant you make with a human, both parties walk the path. But here, God walks both paths. God binds Himself so completely to keep His word that if He fails, let Him be torn in pieces like the animals. And then God speaks a prophecy: Abram&apos;s descendants will be enslaved for 400 years, but they will come out with great substance. The chapter ends not with celebration, but with trust.',
+    'Abram has left his homeland. He has been promised an heir and a land so vast it cannot be counted. But he is childless, and his adopted servant will inherit everything. The chapter opens with God saying something personal, something almost breathed: "Fear not, Abram: I am thy shield, and thy exceeding great reward." And then Abram does something simple - he believes God - and God counts that belief [res:bibleodyssey-abraham-covenant] as righteousness. That single verse has shaped the entire Christian understanding of how we stand before God.',
+    'But Abram asks for proof. He needs to see how the promise holds. So God takes him through a ceremony ancient shepherds knew well: the covenant of pieces. Abram cuts animals in half and lays them out. God fills the air with smoke and fire, and then does something no other god in the ancient world ever does - He passes alone between the pieces. In every covenant you make with a human, both parties walk the path. But here, God walks both paths. God binds Himself so completely to keep His word that if He fails, let Him be torn in pieces like the animals. And then God speaks a prophecy: Abram&apos;s descendants will be enslaved for 400 years, but they will come out with great substance. The chapter ends not with celebration, but with trust.',
   ],
 
   sections: [
-    /* ─── Genesis 15:1–6 — Fear Not, Abram ───────────────────────────── */
+    /* ─── Genesis 15:1-6 - Fear Not, Abram ───────────────────────────── */
     {
-      ref: 'Genesis 15:1–6',
+      ref: 'Genesis 15:1-6',
       title: 'Fear Not, Abram; I Am Thy Shield',
       blocks: [
         {
@@ -52,9 +52,9 @@ export const GENESIS_15: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-shield',
-          title: 'Christ Connection — Your Shield and Your Reward',
+          title: 'Christ Connection - Your Shield and Your Reward',
           html:
-            'Abram cannot see how the promises hold. He needs protection and inheritance both. Jesus is Himself both: "the author and finisher of our faith" (Heb. 12:2), and the one "seated in the heavenly places, far above all principality, and power, and might, and dominion, and every name that is named" (Eph. 1:20–21). For the believer, Christ is the shield that stands between you and the chaos of a world that moves against you, and the "exceeding great reward" — the inheritance you have in Him (Eph. 1:14).',
+            'Abram cannot see how the promises hold. He needs protection and inheritance both. Jesus is Himself both: "the author and finisher of our faith" (Heb. 12:2), and the one "seated in the heavenly places, far above all principality, and power, and might, and dominion, and every name that is named" (Eph. 1:20-21). For the believer, Christ is the shield that stands between you and the chaos of a world that moves against you, and the "exceeding great reward" - the inheritance you have in Him (Eph. 1:14).',
         },
 
         {
@@ -79,7 +79,7 @@ export const GENESIS_15: RichChapterContent = {
           kind: 'commentary',
           id: 'c-childless',
           html:
-            'Abram is honest. He does not pretend the promise makes sense. He holds God&apos;s word and his own emptiness at the same time — the prayer of every person who has believed God for something they cannot see. The tension between God&apos;s word and the world&apos;s silence is where faith lives.',
+            'Abram is honest. He does not pretend the promise makes sense. He holds God&apos;s word and his own emptiness at the same time - the prayer of every person who has believed God for something they cannot see. The tension between God&apos;s word and the world&apos;s silence is where faith lives.',
         },
 
         {
@@ -108,7 +108,7 @@ export const GENESIS_15: RichChapterContent = {
           kind: 'commentary',
           id: 'c-heir',
           html:
-            'God will not allow an adopted heir. The promise must run through Abram&apos;s own blood. The promise is not that Abram will have security — but that he will have a son. That is the thing that cannot happen. That is the thing God promises.',
+            'God will not allow an adopted heir. The promise must run through Abram&apos;s own blood. The promise is not that Abram will have security - but that he will have a son. That is the thing that cannot happen. That is the thing God promises.',
         },
 
         {
@@ -130,7 +130,7 @@ export const GENESIS_15: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-chashav',
-          title: 'Chashav — "reckoned, counted"',
+          title: 'Chashav - "reckoned, counted"',
           script: 'חָשַׁב',
           translit: '<strong>chashav</strong> · to count, reckon, account, esteem as',
           description:
@@ -139,27 +139,27 @@ export const GENESIS_15: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-faith-reckoned',
-          title: 'Christ Connection — Faith Counted as Righteousness',
+          title: 'Christ Connection - Faith Counted as Righteousness',
           html:
-            'Abram believed, and God reckoned it as righteousness. Paul quotes this verse twice — in Romans 4:3 and Galatians 3:6 — and builds the entire doctrine of justification by faith on these few words. The believer is not righteous by works; righteousness is reckoned to the believer&apos;s account through faith alone. And Paul identifies the "Seed" promised to Abram as Christ Himself: "Now to Abraham and his seed were the promises made. He saith not, And to seeds, as of many; but as of one, And to thy seed, which is Christ" (Gal. 3:16). Faith in Christ, recorded in Heaven as righteousness — that is how Abram stands. That is how we stand.',
+            'Abram believed, and God reckoned it as righteousness. Paul quotes this verse twice - in Romans 4:3 and Galatians 3:6 - and builds the entire doctrine of justification by faith on these few words. The believer is not righteous by works; righteousness is reckoned to the believer&apos;s account through faith alone. And Paul identifies the "Seed" promised to Abram as Christ Himself: "Now to Abraham and his seed were the promises made. He saith not, And to seeds, as of many; but as of one, And to thy seed, which is Christ" (Gal. 3:16). Faith in Christ, recorded in Heaven as righteousness - that is how Abram stands. That is how we stand.',
         },
         {
           kind: 'carry',
           html:
-            'You are probably keeping a ledger too — of your failures, your delays, the ways you have fallen short. And you are trying to make the numbers come out. But Genesis 15:6 says your belief itself is what gets recorded. Not your success. Not your accomplishment. Your faith. The moment you actually believe God about the thing He has promised you, something happens in His books that you cannot see. Let that stand.',
+            'You are probably keeping a ledger too - of your failures, your delays, the ways you have fallen short. And you are trying to make the numbers come out. But Genesis 15:6 says your belief itself is what gets recorded. Not your success. Not your accomplishment. Your faith. The moment you actually believe God about the thing He has promised you, something happens in His books that you cannot see. Let that stand.',
         },
         {
           kind: 'reflection',
           id: 'gen15-faith',
           prompt:
-            'What is the Seed — the promise — that you are finding hard to believe God for? What would it mean to actually believe He will do it, before you see it?',
+            'What is the Seed - the promise - that you are finding hard to believe God for? What would it mean to actually believe He will do it, before you see it?',
         },
       ],
     },
 
-    /* ─── Genesis 15:7–11 — Abram Asks for Assurance ────────────────── */
+    /* ─── Genesis 15:7-11 - Abram Asks for Assurance ────────────────── */
     {
-      ref: 'Genesis 15:7–11',
+      ref: 'Genesis 15:7-11',
       title: 'Abram Asks for Assurance',
       blocks: [
         {
@@ -193,7 +193,7 @@ export const GENESIS_15: RichChapterContent = {
           kind: 'commentary',
           id: 'c-know',
           html:
-            'Abram has already believed and it has been reckoned as righteousness. But now he asks for something different — not faith, but <em>knowledge</em>. <em>Whereby shall I know?</em> He is not doubting God. He is asking for a sign. And God grants it. The kind God gives him is not a lightning flash from heaven. It is covenant.',
+            'Abram has already believed and it has been reckoned as righteousness. But now he asks for something different - not faith, but <em>knowledge</em>. <em>Whereby shall I know?</em> He is not doubting God. He is asking for a sign. And God grants it. The kind God gives him is not a lightning flash from heaven. It is covenant.',
         },
 
         {
@@ -236,7 +236,7 @@ export const GENESIS_15: RichChapterContent = {
           kind: 'commentary',
           id: 'c-divided',
           html:
-            'Abram is not hesitant. He acts with the decisiveness of a man who knows what he is doing. He cuts the animals lengthwise and lays them on the ground. The birds — which do not die — remain whole.',
+            'Abram is not hesitant. He acts with the decisiveness of a man who knows what he is doing. He cuts the animals lengthwise and lays them on the ground. The birds - which do not die - remain whole.',
         },
         {
           kind: 'commentary',
@@ -253,14 +253,14 @@ export const GENESIS_15: RichChapterContent = {
           kind: 'reflection',
           id: 'gen15-covenant',
           prompt:
-            'What is the covenant God is making with you — the promise you are guarding, the vigil you are keeping? What does it look like to actively trust while you wait?',
+            'What is the covenant God is making with you - the promise you are guarding, the vigil you are keeping? What does it look like to actively trust while you wait?',
         },
       ],
     },
 
-    /* ─── Genesis 15:12–16 — The Prophecy of Slavery and Exodus ────── */
+    /* ─── Genesis 15:12-16 - The Prophecy of Slavery and Exodus ────── */
     {
-      ref: 'Genesis 15:12–16',
+      ref: 'Genesis 15:12-16',
       title: 'The Prophecy: Four Hundred Years in Egypt',
       blocks: [
         {
@@ -282,18 +282,18 @@ export const GENESIS_15: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-tardemah',
-          title: 'Tardemah — "deep sleep"',
+          title: 'Tardemah - "deep sleep"',
           script: 'תַּרְדֵּמָה',
           translit: '<strong>tardemah</strong> · a deep sleep, a trance',
           description:
-            'This is the same word used of Adam&apos;s sleep in Genesis 2:21, before the rib was taken and Eve was formed. It is not ordinary sleep — it is the kind of sleep God Himself brings, a kind of death-like state from which something new will be born.',
+            'This is the same word used of Adam&apos;s sleep in Genesis 2:21, before the rib was taken and Eve was formed. It is not ordinary sleep - it is the kind of sleep God Himself brings, a kind of death-like state from which something new will be born.',
         },
         {
           kind: 'christ',
           id: 'christ-burden',
-          title: 'Christ Connection — The Weight of the Promise',
+          title: 'Christ Connection - The Weight of the Promise',
           html:
-            'Abram does not see the glory alone. First comes darkness — <em>a horror of great darkness.</em> The promise carries weight. And Abram must see the cost before he sees the glory. Paul writes of Christ: "He shall see of the travail of his soul, and shall be satisfied" (Isa. 53:11). The burden of covenant is seen in the darkness before the fire appears.',
+            'Abram does not see the glory alone. First comes darkness - <em>a horror of great darkness.</em> The promise carries weight. And Abram must see the cost before he sees the glory. Paul writes of Christ: "He shall see of the travail of his soul, and shall be satisfied" (Isa. 53:11). The burden of covenant is seen in the darkness before the fire appears.',
         },
 
         {
@@ -344,24 +344,24 @@ export const GENESIS_15: RichChapterContent = {
           kind: 'commentary',
           id: 'c-substance',
           html:
-            'But they will not leave empty-handed. They will come out with <em>great substance</em> — not just survival, but wealth. Not just escape, but deliverance with honor. The Exodus story makes this concrete: the Egyptians gave Israel "jewels of silver, and jewels of gold, and raiment" (Exod. 12:35). God does not ask His people to endure without vindicating them.',
+            'But they will not leave empty-handed. They will come out with <em>great substance</em> - not just survival, but wealth. Not just escape, but deliverance with honor. The Exodus story makes this concrete: the Egyptians gave Israel "jewels of silver, and jewels of gold, and raiment" (Exod. 12:35). God does not ask His people to endure without vindicating them.',
         },
         {
           kind: 'commentary',
           id: 'c-good-old-age',
           html:
-            'Abram himself will not see the slavery or the exodus. He will die an old man, at peace, secure in the promise even though he will not live to see it fulfilled. This is the definition of faith — to die believing for a thing you will not live to see.',
+            'Abram himself will not see the slavery or the exodus. He will die an old man, at peace, secure in the promise even though he will not live to see it fulfilled. This is the definition of faith - to die believing for a thing you will not live to see.',
         },
         {
           kind: 'commentary',
           id: 'c-amorite-iniquity',
           html:
-            'God does not act on a whim. The Amorites — the people living in the land — have time to repent. The judgment that will clear the land for Abram&apos;s descendants is not arbitrary. It will come only when the moral measure is full. This detail matters. God is not conquering the land for Abram&apos;s sake alone — He is clearing it because its inhabitants have turned from righteousness.',
+            'God does not act on a whim. The Amorites - the people living in the land - have time to repent. The judgment that will clear the land for Abram&apos;s descendants is not arbitrary. It will come only when the moral measure is full. This detail matters. God is not conquering the land for Abram&apos;s sake alone - He is clearing it because its inhabitants have turned from righteousness.',
         },
         {
           kind: 'carry',
           html:
-            'If you are waiting for a promise, you may have to wait longer than you can see. Your children&apos;s children may enter what you will not. And in the meantime, the promise sustains you — not with the sight of it, but with the word of it. That is enough. Abram lived his whole life after this night knowing his children would suffer, knowing his grandchildren would be vindicated, knowing he would see none of it. And he died at peace. The secret is that the promise kept him the whole time.',
+            'If you are waiting for a promise, you may have to wait longer than you can see. Your children&apos;s children may enter what you will not. And in the meantime, the promise sustains you - not with the sight of it, but with the word of it. That is enough. Abram lived his whole life after this night knowing his children would suffer, knowing his grandchildren would be vindicated, knowing he would see none of it. And he died at peace. The secret is that the promise kept him the whole time.',
         },
         {
           kind: 'reflection',
@@ -372,9 +372,9 @@ export const GENESIS_15: RichChapterContent = {
       ],
     },
 
-    /* ─── Genesis 15:17–21 — The Smoking Furnace and the Burning Lamp ── */
+    /* ─── Genesis 15:17-21 - The Smoking Furnace and the Burning Lamp ── */
     {
-      ref: 'Genesis 15:17–21',
+      ref: 'Genesis 15:17-21',
       title: 'The Smoking Furnace and the Burning Lamp',
       blocks: [
         {
@@ -395,7 +395,7 @@ export const GENESIS_15: RichChapterContent = {
           kind: 'commentary',
           id: 'c-furnace-lamp',
           html:
-            'God appears — not as two parties entering a covenant together, but alone. The <em>smoking furnace</em> is the terror of God, the holiness that consumes. The <em>burning lamp</em> is the presence of God, the light that leads. Both pass through the pieces. Both are God alone. This is unprecedented in ancient covenant. In every human covenant, both parties walk the path. But here, one walks alone.',
+            'God appears - not as two parties entering a covenant together, but alone. The <em>smoking furnace</em> is the terror of God, the holiness that consumes. The <em>burning lamp</em> is the presence of God, the light that leads. Both pass through the pieces. Both are God alone. This is unprecedented in ancient covenant. In every human covenant, both parties walk the path. But here, one walks alone.',
         },
 
         {
@@ -433,7 +433,7 @@ export const GENESIS_15: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-karat-berit',
-          title: 'Karat Berit — "to cut a covenant"',
+          title: 'Karat Berit - "to cut a covenant"',
           script: 'כָּרַת בְּרִית',
           translit: '<strong>karat</strong> berit · literally "to cut a covenant"; berit = covenant',
           description:
@@ -442,7 +442,7 @@ export const GENESIS_15: RichChapterContent = {
         {
           kind: 'christ',
           id: 'christ-sealed-covenant',
-          title: 'Christ Connection — The Cost of the Covenant',
+          title: 'Christ Connection - The Cost of the Covenant',
           html:
             'In the ancient world, when a covenant was made by cutting animals, both parties walked between the pieces. But here, only God walks. Only God passes between the dead animals. God binds Himself to the covenant alone. And what does that mean? It means that if the covenant is broken, God Himself takes the curse. Two thousand years later, Paul writes: "Christ hath redeemed us from the curse of the law, being made a curse for us" (Gal. 3:13). On the cross, Christ stands where the cut animals lay. Christ is the one through whom the furnace and the lamp have passed. God in Christ takes the self-curse of the broken covenant. What humans cannot keep, Christ has kept in blood.',
         },
@@ -455,13 +455,13 @@ export const GENESIS_15: RichChapterContent = {
           kind: 'reflection',
           id: 'gen15-furnace',
           prompt:
-            'The furnace and the lamp — the judgment and the mercy of God — passed through together. When you think of God&apos;s covenant with you in Christ, which do you feel more acutely? What would it mean to hold them both?',
+            'The furnace and the lamp - the judgment and the mercy of God - passed through together. When you think of God&apos;s covenant with you in Christ, which do you feel more acutely? What would it mean to hold them both?',
         },
         {
           kind: 'artwork',
           matchTitle: /abram|abraham/i,
           matchArtist: /^(?!.*(?:sarah|hagar|family)).*covenant.*$/i,
-          caption: 'Genesis 15:17–21 · The Covenant Sealed',
+          caption: 'Genesis 15:17-21 · The Covenant Sealed',
         },
         {
           kind: 'artwork',

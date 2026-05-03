@@ -25,6 +25,17 @@ export const JOB_39: RichChapterContent = {
     ref: 'Job 39 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-job-hebrew',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Job: Hebrew Text and Terms',
+      url: 'https://www.sefaria.org/Job',
+      description: 'Sefaria Hebrew text with notes on rare terms and wisdom vocabulary.',
+    },
+  ],
+
   sections: [
     /* ─── Job 39:1–12 — The Wild Birth and Freedom ─────────────────── */
     {
@@ -46,7 +57,7 @@ export const JOB_39: RichChapterContent = {
           kind: 'commentary',
           id: 'job39-mid1',
           html:
-            'The wild doe gives birth, and her fawns thrive. Then they leave her and do not return. This is wildness: the separation of parent and child, the refusal to be bound. God has made this nature. God does not find it wrong.',
+            'The wild doe gives birth, and her fawns thrive. Then they leave her and do not return. This is wildness: the separation of parent and child, the refusal to be bound. God has made this nature. God does not find it wrong. [res:sefaria-job-hebrew]',
         },
         {
           kind: 'scripture',

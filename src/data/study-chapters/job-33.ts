@@ -25,6 +25,17 @@ export const JOB_33: RichChapterContent = {
     ref: 'Job 33 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'british-museum-theodicy',
+      kind: 'museum',
+      source: 'British Museum',
+      label: 'Babylonian Theodicy',
+      url: 'https://www.britishmuseum.org/',
+      description: 'Ancient Akkadian dialogue on divine justice, suffering, and retribution.',
+    },
+  ],
+
   sections: [
     /* ─── Job 33:1–11 — Elihu's Appeal ───────────────────────────────── */
     {
@@ -47,7 +58,7 @@ export const JOB_33: RichChapterContent = {
           kind: 'commentary',
           id: 'job33-equal-appeal',
           html:
-            'Elihu opens not with authority but with friendship. He asks Job to hear him, promises to speak with uprightness. He claims to speak from the spirit of God, but he also claims kinship: "I am formed out of the clay" just as Job is. He will not overwhelm Job with power or status.',
+            'Elihu opens not with authority but with friendship. He asks Job to hear him, promises to speak with uprightness. He claims to speak from the spirit of God, but he also claims kinship: "I am formed out of the clay" just as Job is. He will not overwhelm Job with power or status. [res:british-museum-theodicy]',
         },
         {
           kind: 'scripture',
