@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { getAllBlogPosts, categoryColors } from '@/data/blog-posts';
+import { getAllStudyPlans } from '@/data/study-plans';
 import { getCuratedHighlights } from '@/lib/supabase';
 import ArtArches from '@/components/ArtArches';
 import AppDashboard from '@/components/AppDashboard';
@@ -31,6 +32,7 @@ const IMG = {
 
 export default async function Home() {
   const blogPosts = getAllBlogPosts().slice(0, 4);
+  const studyPlans = getAllStudyPlans();
   // Curated art feeds the arches band (the gallery preview row above).
   // No manuscript folios — see getCuratedHighlights for the filter.
   const archArt = await getCuratedHighlights(30);
@@ -109,13 +111,55 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* ═══════════ 4. Mission — one declarative line ═══════════ */}
-      <section className="loc-mission">
-        <div className="loc-wrap loc-mission__inner">
-          <p className="loc-eyebrow">The mission</p>
-          <h2 className="loc-mission__title">
-            A study deep enough to live in.
-          </h2>
+      {/* ═══════════ 4. Study plans — guided journeys ═══════════ */}
+      {/* Replaces the old "A study deep enough to live in." declarative
+          block with something the visitor can actually act on: pick a
+          plan, start day 1. Pulls from /src/data/study-plans.ts. */}
+      <section className="loc-plans">
+        <div className="loc-wrap loc-plans__head">
+          <p className="loc-eyebrow loc-plans__eyebrow">Study plans</p>
+          <h2 className="loc-plans__title">Walk through it, day by day.</h2>
+          <p className="loc-plans__lede">
+            Pick a guided journey. One short reading, one focus, one
+            passage of scripture each day &mdash; with no streak shaming
+            and no signup wall.
+          </p>
+        </div>
+
+        <div className="loc-wrap loc-plans__grid">
+          {studyPlans.map((plan) => (
+            <Link
+              key={plan.id}
+              href={`/study-plans/${plan.id}`}
+              className="loc-plan-card"
+            >
+              <span className="loc-plan-card__icon" aria-hidden="true">
+                {plan.icon}
+              </span>
+              <span className="loc-plan-card__meta">
+                <span className="loc-plan-card__duration">
+                  {plan.duration}
+                </span>
+                <span className="loc-plan-card__sep" aria-hidden="true">
+                  &middot;
+                </span>
+                <span className="loc-plan-card__category">
+                  {plan.category}
+                </span>
+              </span>
+              <h3 className="loc-plan-card__title">{plan.name}</h3>
+              <p className="loc-plan-card__copy">{plan.description}</p>
+              <span className="loc-plan-card__cta" aria-hidden="true">
+                Start day 1 &rarr;
+              </span>
+            </Link>
+          ))}
+        </div>
+
+        <div className="loc-plans__cta">
+          <Link href="/study-plans" className="loc-btn loc-btn--outline">
+            See all plans
+          </Link>
         </div>
       </section>
 

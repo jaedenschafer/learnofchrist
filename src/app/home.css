@@ -47,6 +47,7 @@ html[data-reader-theme="dark"] {
 .loc-dash,
 .loc-resources,
 .loc-mission,
+.loc-plans,
 .loc-blog,
 .loc-closer {
   min-height: 100svh !important;
@@ -67,7 +68,7 @@ html[data-reader-theme="dark"] {
 .loc-hero,
 .loc-dash,
 .loc-mission,
-.loc-blog,
+.loc-plans,
 .loc-closer {
   --frost-tint:         rgba(255, 255, 255, 0.16);
   --frost-tint-card:    rgba(255, 255, 255, 0.18);
@@ -1062,23 +1063,171 @@ html[data-reader-theme="dark"] {
   margin-left: 0.25rem;
 }
 
-/* ─── 3. Mission ────────────────────────────────────────────────────────
-   Atmospheric photo backdrop with a soft dark veil. The white-frosted
-   glass pane (.loc-mission__inner) sits over it and lets the photo
-   bleed through, mirroring the dashboard recipe. */
-.loc-mission {
+/* ─── 3. Study plans ────────────────────────────────────────────────────
+   Replaces the old "A study deep enough to live in." mission block with
+   a real grid of guided journeys. Same atmospheric photo backdrop +
+   white-frosted card recipe as before, just with content that the
+   visitor can actually act on. */
+.loc-mission,
+.loc-plans {
   position: relative;
   isolation: isolate;
   overflow: hidden;
   padding: var(--loc-section-y) 0;
-  /* Quiet golden field at dusk — deeper than the previous bright pasture
-     so the white-frosted glass pane reads as luminous, not washed out. */
   background-image:
-    linear-gradient(180deg, rgba(26, 22, 18, 0.30), rgba(26, 22, 18, 0.50)),
+    linear-gradient(180deg, rgba(26, 22, 18, 0.32), rgba(26, 22, 18, 0.55)),
     url('https://images.unsplash.com/photo-1490604001847-b712b0c2f967?auto=format&fit=crop&w=2400&q=85');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+.loc-plans__head {
+  text-align: center;
+  margin-bottom: clamp(2rem, 4vw, 3rem);
+}
+
+.loc-plans__eyebrow {
+  color: var(--loc-gold-soft);
+}
+
+.loc-plans__title {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-weight: 500;
+  font-size: var(--loc-h2);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  margin: 0.25rem 0 1rem;
+  text-wrap: balance;
+}
+
+.loc-plans__lede {
+  font-size: clamp(1rem, 1.3vw, 1.1875rem);
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.78);
+  margin: 0 auto;
+  max-width: 38rem;
+}
+
+/* ── Plan cards ── */
+.loc-plans__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 720px) {
+  .loc-plans__grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1100px) {
+  .loc-plans__grid { grid-template-columns: repeat(4, 1fr); }
+}
+
+.loc-plan-card {
+  /* White-frosted plate over the photo backdrop — same material as the
+     dashboard reading card. Each card is a tappable Link, so the whole
+     thing animates on hover. */
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  text-decoration: none;
+  border-radius: 24px;
+  padding: 1.5rem 1.4rem 1.4rem;
+  background: rgba(255, 255, 255, 0.10);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  backdrop-filter: blur(20px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #FFFFFF;
+  min-height: 280px;
+  transition:
+    transform 0.25s cubic-bezier(0.2, 0.7, 0.2, 1),
+    background 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.loc-plan-card:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.30);
+}
+
+.loc-plan-card__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.14);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.loc-plan-card__meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.loc-plan-card__duration {
+  color: var(--loc-gold-soft);
+}
+
+.loc-plan-card__sep {
+  color: rgba(255, 255, 255, 0.28);
+}
+
+.loc-plan-card__category {
+  color: rgba(255, 255, 255, 0.62);
+}
+
+.loc-plan-card__title {
+  font-family: 'EB Garamond', 'New York', Georgia, serif;
+  font-weight: 500;
+  font-size: 1.375rem;
+  line-height: 1.18;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+  margin: 0.2rem 0 0.4rem;
+}
+
+.loc-plan-card__copy {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.70);
+  margin: 0 0 1rem;
+  /* Truncate long descriptions so all four cards keep the same height. */
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.loc-plan-card__cta {
+  margin-top: auto;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+.loc-plans__cta {
+  text-align: center;
+  margin-top: clamp(1.75rem, 3vw, 2.5rem);
+}
+
+/* The original .loc-mission block is no longer used in markup, but its
+   shared rules above still apply if someone reintroduces it. */
+.loc-mission {
+  display: none;
 }
 
 /* Decorative gold separator removed — fought the photo backdrop. The
