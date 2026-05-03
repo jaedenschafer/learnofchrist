@@ -183,7 +183,7 @@ export const ROMANS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'rom1-ready',
           html:
-            'Rome. The center of power. The city that ruled the known world. Paul, a Jew, shipwrecked and imprisoned, writes to believers in the greatest empire—not to bow before it, but to proclaim the gospel in its very heart. He is ready. Not timid. Not waiting for permission. Ready to announce that Christ, not Caesar, is Lord.',
+            'Rome. The center of power. The city that ruled the known world. Paul, a Jew, shipwrecked and imprisoned, writes to believers in the greatest empire—a mixed community of Jewish and Gentile believers[res:bibleodyssey-gentile]—not to bow before it, but to proclaim the gospel in its very heart. He is ready. Not timid. Not waiting for permission. Ready to announce that Christ, not Caesar, is Lord.',
         },
 
         {
@@ -220,7 +220,7 @@ export const ROMANS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'rom1-faith-habakkuk',
           html:
-            'Paul quotes the prophet Habakkuk: "The just shall live by faith." This is the hinge on which the entire letter turns. God&apos;s righteousness—His justice, His right-ness—is revealed not through law-keeping but through faith. A person stands just before God, not because they have performed enough good works, but because they have believed the gospel. Faith receives what God has already accomplished through Christ.',
+            'Paul quotes the prophet Habakkuk: "The just shall live by faith."[res:habakkuk-24-hebrew] This is the hinge on which the entire letter turns. God&apos;s righteousness—His justice, His right-ness—is revealed not through law-keeping but through faith. A person stands just before God, not because they have performed enough good works, but because they have believed the gospel. Faith receives what God has already accomplished through Christ.',
         },
 
         {
@@ -290,7 +290,7 @@ export const ROMANS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'rom1-manifest-creation',
           html:
-            'Paul insists on something radical: all people everywhere have enough light to turn toward God. "That which may be known of God is manifest." It has been shown. God has revealed Himself. Not through Scripture yet, not through prophets in every land, but through the most universal language of all: creation itself.',
+            'Paul insists on something radical: all people everywhere have enough light to turn toward God. "That which may be known of God is manifest." It has been shown. God has revealed Himself. Not through Scripture yet, not through prophets in every land, but through the most universal language of all: creation itself. The psalms echo this: "The heavens declare the glory of God; and the firmament sheweth his handywork"[res:psalm-19-creation].',
         },
 
         {
@@ -374,7 +374,7 @@ export const ROMANS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'rom1-idolatry',
           html:
-            'The descent into idolatry is not about wood and stone. It is about what you bow to. You replace the uncorruptible God—immortal, eternal, beyond decay—with images of corruptible things: human beings, animals, the created world. You take what God made and treat it as if it were God. You diminish yourself in the process. A person shaped by the infinite God becomes a person shaped by the finite.',
+            'The descent into idolatry is not about wood and stone. It is about what you bow to. You replace the uncorruptible God—immortal, eternal, beyond decay—with images of corruptible things: human beings, animals, the created world[res:aar-rome-archaeology]. You take what God made and treat it as if it were God. You diminish yourself in the process. A person shaped by the infinite God becomes a person shaped by the finite.',
         },
 
         {
@@ -546,6 +546,41 @@ export const ROMANS_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Romans 1 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'habakkuk-24-hebrew',
+      kind: 'lexicon',
+      source: 'Sefaria',
+      label: 'Habakkuk 2:4 (Hebrew)',
+      url: 'https://www.sefaria.org/Habakkuk.2.4',
+      description: 'The source text in Hebrew with English translation: "The just shall live by faith," the foundation quotation of Romans 1:17.',
+    },
+    {
+      id: 'bibleodyssey-gentile',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Gentile',
+      url: 'https://www.bibleodyssey.org/dictionary/gentile-2/',
+      description: 'Definition and biblical context of Gentile identity, essential for understanding Paul&apos;s mixed Jewish-Gentile audience in Rome.',
+    },
+    {
+      id: 'aar-rome-archaeology',
+      kind: 'archaeology',
+      source: 'American Academy in Rome',
+      label: 'Roman Culture & Archaeology',
+      url: 'https://www.aarome.org/',
+      description: 'Research and excavation resources on first-century Rome, temples, idolatry practices, and material culture of the apostolic era.',
+    },
+    {
+      id: 'psalm-19-creation',
+      kind: 'manuscript',
+      source: 'Sefaria',
+      label: 'Psalm 19:1 (Creation Theology)',
+      url: 'https://www.sefaria.org/Psalm.19.1',
+      description: 'The Hebraic foundation of creation-as-revelation theology that undergirds Paul&apos;s argument in Romans 1:19-20.',
+    },
+  ],
 
   hasHebrew: false,
 };

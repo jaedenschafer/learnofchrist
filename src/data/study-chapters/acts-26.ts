@@ -138,7 +138,7 @@ export const ACTS_26: RichChapterContent = {
           kind: 'commentary',
           id: 'acts26-pharisee',
           html:
-            'Paul reminds the court: <em>you all know this about me.</em> He is not claiming to be someone other than who he was. He was a Pharisee—a man of the law, zealous, meticulous, devoted. He did not become this by accident. His entire youth was shaped toward it. His credentials are real. The Jerusalem community witnessed it. And yet, he will tell them, all of that devotion was devotion to something false. This is why his conversion matters: he did not give up righteousness; he discovered that the righteousness he sought was pointing him in the wrong direction.',
+            'Paul reminds the court: <em>you all know this about me.</em> He is not claiming to be someone other than who he was. He was a Pharisee[res:bibleodyssey-pharisees]—a man of the law, zealous, meticulous, devoted. He did not become this by accident. His entire youth was shaped toward it. His credentials are real. The Jerusalem community witnessed it. And yet, he will tell them, all of that devotion was devotion to something false. This is why his conversion matters: he did not give up righteousness; he discovered that the righteousness he sought was pointing him in the wrong direction.',
         },
         {
           kind: 'greek',
@@ -327,7 +327,7 @@ export const ACTS_26: RichChapterContent = {
           kind: 'commentary',
           id: 'acts26-appeared',
           html:
-            'Jesus says He has appeared to Paul <em>for this purpose</em>—not randomly, not as a ghostly visitation, but as a deliberate act with a mission attached. The appearance itself is the commissioning. To see the risen Christ is to be sent. There is no neutral encounter with the resurrection. It always reorients the whole of a life toward witness.',
+            'Jesus says He has appeared to Paul <em>for this purpose</em>—not randomly, not as a ghostly visitation, but as a deliberate act with a mission attached. The appearance itself is the commissioning. To see the risen Christ is to be sent. There is no neutral encounter with the resurrection. It always reorients the whole of a life toward witness. This encounter on the Damascus road—the third account of it in Acts[res:intertextual-damascus-accounts]—carries the weight of Paul&apos;s entire apostolic authority.',
         },
         {
           kind: 'commentary',
@@ -536,7 +536,9 @@ export const ACTS_26: RichChapterContent = {
           lines: [
             verse(
               30,
-              t('And when he had thus spoken, the king rose up, and the governor, and Bernice, and they that sat with them:'),
+              t('And when he had thus spoken, the king rose up, and the governor, and '),
+              hy('Bernice', 'acts26-bernice'),
+              t(', and they that sat with them:'),
             ),
             verse(
               31,
@@ -552,9 +554,15 @@ export const ACTS_26: RichChapterContent = {
         },
         {
           kind: 'commentary',
+          id: 'acts26-bernice',
+          html:
+            'Bernice[res:bibleodyssey-bernice] was Agrippa&apos;s sister, and she is present at the trial. Her presence is significant: she is a woman of authority and influence in her own right, a widow who has returned to her brother&apos;s court. That she hears Paul&apos;s defence alongside the king suggests the defence was not a private matter but a public hearing. Whether she believed or not, Scripture does not say. But she stood in the presence of the risen Christ&apos;s witness, as did her brother.',
+        },
+        {
+          kind: 'commentary',
           id: 'acts26-liberty',
           html:
-            'The court adjourns. The king and the governor confer in private. And their conclusion is stark: <em>This man does nothing worthy of death or of bonds.</em> Paul is innocent. Not of the charges his enemies bring, but of any crime against Rome. Agrippa is explicit: Paul could be released right now. The only thing stopping him is his own appeal to Caesar. He asked for Rome&apos;s hearing, and Rome will hear him. He has bound himself by his own petition. His chains are, in a sense, self-imposed.',
+            'The court adjourns. The king[res:bibleodyssey-agrippa] and the governor confer in private. And their conclusion is stark: <em>This man does nothing worthy of death or of bonds.</em> Paul is innocent. Not of the charges his enemies bring, but of any crime against Rome. Agrippa is explicit: Paul could be released right now. The only thing stopping him is his own appeal to Caesar. He asked for Rome&apos;s hearing, and Rome will hear him. He has bound himself by his own petition. His chains are, in a sense, self-imposed.',
         },
         {
           kind: 'greek',
@@ -590,6 +598,41 @@ export const ACTS_26: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 26 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-agrippa',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Herod Agrippa II',
+      url: 'https://www.bibleodyssey.org/dictionary/agrippa/',
+      description: 'Open-access SBL entry on the Jewish king before whom Paul made his final defence, with historical context.',
+    },
+    {
+      id: 'bibleodyssey-bernice',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Bernice',
+      url: 'https://www.bibleodyssey.org/dictionary/bernice/',
+      description: 'Open-access SBL entry on Bernice, Agrippa II&apos;s sister, who heard Paul&apos;s defence at Caesarea.',
+    },
+    {
+      id: 'intertextual-damascus-accounts',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Paul&apos;s Three Damascus-Road Accounts',
+      url: 'https://intertextual.bible/',
+      description: 'Comparative resource exploring the three parallel accounts of Paul&apos;s conversion (Acts 9, 22, 26) and their literary relationships.',
+    },
+    {
+      id: 'bibleodyssey-pharisees',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Pharisees',
+      url: 'https://www.bibleodyssey.org/dictionary/pharisees/',
+      description: 'Open-access SBL entry on the Pharisaic sect, Paul&apos;s former devotion to its strictest observance, and their theology.',
+    },
+  ],
 
   hasHebrew: false,
 };

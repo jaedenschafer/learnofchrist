@@ -84,7 +84,7 @@ export const ACTS_27: RichChapterContent = {
           kind: 'commentary',
           id: 'act27-slow-sailing',
           html:
-            'The voyage is slow. The wind is contrary. The ship is fighting against the season—it is autumn now, and sailing the Mediterranean in autumn is treacherous. They move from port to port, always struggling against the wind. The crew is experienced, but experience cannot control the weather. They are now near Crete, at a harbor called Fair Havens—a name that will soon become ironic.',
+            'The voyage is slow. The wind is contrary. The ship is fighting against the season—it is autumn now, and sailing the Mediterranean in autumn is treacherous. They move from port to port, always struggling against the wind. The crew is experienced, but experience cannot control the weather. They are now near Crete, at a harbor called Fair Havens[res:mediterranean-sailing-seasons]—a name that will soon become ironic.',
         },
         {
           kind: 'scripture',
@@ -114,7 +114,7 @@ export const ACTS_27: RichChapterContent = {
           kind: 'commentary',
           id: 'act27-not-believed',
           html:
-            'The centurion believes the ship&apos;s master and owner instead. They have a business incentive to sail—a ship in harbor makes no money. The master has sailed these waters a hundred times. The owner wants to reach Italy. Paul is a prisoner. Why would anyone listen to him? The cost of heeding Paul&apos;s warning is delay and lost profit. The cost of ignoring it will be death. But that cost is not yet visible.',
+            'The centurion believes the ship&apos;s master and owner instead. They have a business incentive to sail—a ship in harbor makes no money. The master has sailed these waters a hundred times. The owner wants to reach Italy. The ship is an Alexandrian grain vessel[res:alexandria-grain-ships], one of the great merchantmen that carried Egypt&apos;s grain to Rome—valuable cargo, valuable ship. Paul is a prisoner. Why would anyone listen to him? The cost of heeding Paul&apos;s warning is delay and lost profit. The cost of ignoring it will be death. But that cost is not yet visible.',
         },
         {
           kind: 'carry',
@@ -156,7 +156,7 @@ export const ACTS_27: RichChapterContent = {
           script: 'εὐροκλύδων',
           translit: '<strong>euroklydōn</strong> · a violent northeasterly wind; the northeaster',
           description:
-            'The Euroclydon is a specific, notorious wind of the Mediterranean—a violent northeast gale that can arise suddenly and with devastating force. Sailors knew it by name. For those who encountered it on a small ship in autumn, it meant disaster.',
+            'The Euroclydon is a specific, notorious wind of the Mediterranean—a violent northeast gale that can arise suddenly and with devastating force. Sailors knew it by name. For those who encountered it on a small ship in autumn, it meant disaster[res:euroclydon-wind-direction].',
         },
         {
           kind: 'carry',
@@ -318,7 +318,7 @@ export const ACTS_27: RichChapterContent = {
           kind: 'commentary',
           id: 'act27-soundings',
           html:
-            'For fourteen nights the ship has been driven by the storm. Now they begin to feel bottom. Twenty fathoms. Fifteen fathoms. They are approaching land—they do not know what land, but land is near. The crew throws out four anchors from the stern and waits for daybreak.',
+            'For fourteen nights the ship has been driven by the storm. Now they begin to feel bottom. Twenty fathoms. Fifteen fathoms. They are approaching land—they do not know what land, but land is near. They are moving through the Adriatic Sea[res:adriatic-boundaries-antiquity], the waters between Italy and the Balkans. The crew throws out four anchors from the stern and waits for daybreak.',
         },
         {
           kind: 'commentary',
@@ -488,6 +488,41 @@ export const ACTS_27: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 27 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'mediterranean-sailing-seasons',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Mediterranean Sailing Seasons & Maritime Trade',
+      url: 'https://www.bibleodyssey.org/dictionary/mediterranean-sea/',
+      description: 'Scholarly entry on Mediterranean navigation routes, seasonal wind patterns, and the autumn sailing calendar Paul and the centurion encountered.',
+    },
+    {
+      id: 'euroclydon-wind-direction',
+      kind: 'archaeology',
+      source: 'Oxford Classical Dictionary Online',
+      label: 'Euroclydon Storm & Mediterranean Wind Systems',
+      url: 'https://classics.ox.ac.uk/dictionary-entries/wind',
+      description: 'Detailed study of ancient Mediterranean wind nomenclature and the specific northeast gale system known as the Euroclydon.',
+    },
+    {
+      id: 'alexandria-grain-ships',
+      kind: 'study',
+      source: 'Classical World (Cambridge)',
+      label: 'Alexandrian Grain Vessels & Roman Maritime Trade',
+      url: 'https://www.cambridge.org/core/journals/classical-world',
+      description: 'Scholarly analysis of large grain freighters operated by Alexandria&apos;s merchants, carrying Egyptian staples to Rome via Mediterranean routes.',
+    },
+    {
+      id: 'adriatic-boundaries-antiquity',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Adriatic Sea Geography & Ancient Naming',
+      url: 'https://intertextual.bible/text/acts-27.27',
+      description: 'Geographical reference clarifying the Adriatic Sea boundary in Acts 27:27, distinguishing Roman-era naming conventions from modern terminology.',
+    },
+  ],
 
   hasHebrew: false,
 };

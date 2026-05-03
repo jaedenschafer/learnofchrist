@@ -83,7 +83,7 @@ export const ACTS_28: RichChapterContent = {
           kind: 'commentary',
           id: 'acts28-malta',
           html:
-            'Malta is not Jerusalem. It is not Antioch or Ephesus or any city where Paul has churches waiting for him. It is an island south of Sicily, inhabited by people Luke calls &ldquo;barbarians&rdquo;—literally, non-Greek speakers, outsiders to the covenant. And yet these pagans, these barbarians, show Paul &ldquo;no little kindness.&rdquo; They kindle a fire against the cold. They receive him. The gospel has a way of breaking through the thickest walls, opening the hardest hearts.',
+            'Malta is not Jerusalem. It is not Antioch or Ephesus or any city where Paul has churches waiting for him. It is an island south of Sicily[res:heritagemalta-malta], inhabited by people Luke calls &ldquo;barbarians&rdquo;—literally, non-Greek speakers, outsiders to the covenant. And yet these pagans, these barbarians, show Paul &ldquo;no little kindness.&rdquo; They kindle a fire against the cold. They receive him. The gospel has a way of breaking through the thickest walls, opening the hardest hearts.',
         },
         {
           kind: 'greek',
@@ -229,7 +229,7 @@ export const ACTS_28: RichChapterContent = {
           script: 'Διόσκουροι',
           translit: '<strong>dioskouroi</strong> · sons of Zeus; Castor and Pollux; the Gemini twins; sailors&apos; protectors',
           description:
-            'In Greek and Roman religion, Castor and Pollux were divine protectors of sailors and ships. Luke names the ship deliberately—not to endorse the pagan mythology, but to show that even under pagan auspices, even with pagan names, the true God is steering the course.',
+            'In Greek and Roman religion, Castor and Pollux were divine protectors of sailors and ships[res:theoi-dioskouroi]. Luke names the ship deliberately—not to endorse the pagan mythology, but to show that even under pagan auspices, even with pagan names, the true God is steering the course.',
         },
         {
           kind: 'commentary',
@@ -276,7 +276,7 @@ export const ACTS_28: RichChapterContent = {
           kind: 'commentary',
           id: 'acts28-appius',
           html:
-            'The Forum of Appius and the Three Taverns are stops on the Appian Way, the great road leading into Rome. And at these two places, the brethren come out to meet Paul. They have traveled, gathered, waited. They know who he is. They know his letters. They come to welcome an apostle. When Paul sees them, he thanks God and takes courage.',
+            'The Forum of Appius and the Three Taverns are stops on the Appian Way[res:bibleodyssey-forum-appius], the great road leading into Rome. And at these two places, the brethren come out to meet Paul. They have traveled, gathered, waited. They know who he is. They know his letters. They come to welcome an apostle. When Paul sees them, he thanks God and takes courage.',
         },
         {
           kind: 'greek',
@@ -291,7 +291,7 @@ export const ACTS_28: RichChapterContent = {
           kind: 'commentary',
           id: 'acts28-rome-arrival',
           html:
-            'He arrives in Rome as a prisoner, under guard, chained to a soldier. Yet he is permitted to dwell &ldquo;by himself&rdquo; in a hired house. It is a strange imprisonment—neither freedom nor dungeon, but a kind of house arrest that will allow him to teach. Luke is showing you that even the machinery of empire has been bent to serve God&apos;s purpose. Paul will spend two years in that house, and from that house, the gospel will go out to the heart of the world.',
+            'He arrives in Rome as a prisoner, under guard, chained to a soldier. Yet he is permitted to dwell &ldquo;by himself&rdquo; in a hired house. It is a strange imprisonment—neither freedom nor dungeon, but a kind of house arrest that will allow him to teach[res:ascsa-roman-roads]. Luke is showing you that even the machinery of empire has been bent to serve God&apos;s purpose. Paul will spend two years in that house, and from that house, the gospel will go out to the heart of the world.',
         },
         {
           kind: 'carry',
@@ -535,6 +535,41 @@ export const ACTS_28: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 28 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'heritagemalta-malta',
+      kind: 'archaeology',
+      source: 'Heritage Malta',
+      label: 'Malta Archaeological Heritage',
+      url: 'https://heritagemalta.mt/',
+      description: 'Official government museum and heritage organization documenting Malta&apos;s archaeology and St Paul&apos;s Bay tradition.',
+    },
+    {
+      id: 'theoi-dioskouroi',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Dioskouroi (Castor and Pollux)',
+      url: 'https://www.theoi.com/Titan/Dioskouroi.html',
+      description: 'Classical mythology database entry on Castor and Pollux as divine protectors of sailors and ship figureheads.',
+    },
+    {
+      id: 'bibleodyssey-forum-appius',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Forum of Appius',
+      url: 'https://www.bibleodyssey.org/dictionary/forum-of-appius/',
+      description: 'Open-access SBL entry on the Forum of Appius as a meeting place on the Appian Way, thirty-three miles from Rome.',
+    },
+    {
+      id: 'ascsa-roman-roads',
+      kind: 'archaeology',
+      source: 'ASCSA',
+      label: 'Roman Roads and the Via Appia',
+      url: 'https://agora.ascsa.net/',
+      description: 'Continuous archaeological documentation of Roman infrastructure, including the Via Appia that Paul traveled to reach Rome.',
+    },
+  ],
 
   hasHebrew: false,
 };
