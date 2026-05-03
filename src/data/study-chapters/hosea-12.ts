@@ -83,7 +83,7 @@ export const HOSEA_12: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea-12-78mid-1',
           html:
-            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+            'The prophet turns to Jacob himself — wrestler, supplanter, weeper. The fathers&apos; story becomes the children&apos;s mirror.',
         },
         {
           kind: 'scripture',

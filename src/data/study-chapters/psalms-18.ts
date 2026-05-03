@@ -3,7 +3,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
 /**
  * Psalm 18 — The Rock of Our Salvation
  *
- * A long song of deliverance, paralleled in 2 Samuel 22. David declares: "I will
+ * A long song of deliverance[res:sefaria-psalms-18], paralleled in 2 Samuel 22. David declares: "I will
  * love thee, O Lord, my strength." He celebrates God as his rock, fortress,
  * deliverer. From the depths of despair and battle, David ascends into praise.
  * "The Lord is my rock, and my fortress, and my deliverer; my God, my strength, in
@@ -55,7 +55,7 @@ export const PSALMS_18: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-18-78mid-1',
           html:
-            'From description of deliverance to declaration of covenant. What God did becomes why He is faithful.',
+            'From description of deliverance[res:intertextual-psalms-18-nt] to declaration of covenant. What God did becomes why He is faithful.',
         },
         {
           kind: 'scripture',
@@ -220,6 +220,33 @@ export const PSALMS_18: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 18 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-18',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 18 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.18',
+      description: 'Royal psalm of deliverance with Jewish medieval exegesis.',
+    },
+    {
+      id: 'intertextual-psalms-18-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 18 in the New Testament',
+      url: 'https://intertextual.bible/text/psalm-18',
+      description: 'NT use of Psalm 18 language to describe Christ&apos;s victory[res:intertextual-psalms-18-nt].',
+    },
+    {
+      id: 'bible-odyssey-victory-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalms of Victory & Deliverance',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms celebrating military victory and divine rescue[res:bible-odyssey-victory-psalms].',
+    },
+  ],
 
   hasHebrew: true,
 };

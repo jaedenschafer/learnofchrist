@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
 
 /**
- * Psalm 46 — God With Us
+ * Psalm 46 — God[res:sefaria-psalms-46] With Us
  *
  * "God is our refuge and strength, a very present help in trouble." "Be still,
  * and know that I am God." The psalm moves from chaos (rivers and mountains
@@ -16,7 +16,7 @@ export const PSALMS_46: RichChapterContent = {
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 6 },
   intros: [
     'Psalm 46 begins with one of Scripture&apos;s most foundational promises: "God is our refuge and strength, a very present help in trouble." Note the specificity: not an abstract God, but "our" God. Not a distant God, but present. Not a God for some other time, but present help "in trouble"—right now, in the midst of difficulty. The psalmist then describes the kind of trouble: the earth itself shaking, the mountains being carried into the midst of the sea, waters roaring and foaming. This is total disorder. This is the undoing of creation itself.',
-    'Yet in the midst of chaos, a voice speaks: "Be still, and know that I am God." The refusal to panic, the call to stillness, is rooted in a single fact: God is present. God is on the throne. God&apos;s city—Jerusalem—will not be moved because God is in its midst. For Christian readers, this presence reaches its fullness in Christ, who is Immanuel—God with us. The One who cannot be shaken, who brings peace in the midst of chaos, who calls us to stillness and trust.',
+    'Yet in the midst of chaos, a voice speaks: "Be still, and know that I am God." The refusal to panic, the call to stillness, is rooted in a single fact: God is present. God is on the throne. God&apos;s city[res:bible-odyssey-zion-psalms]—Jerusalem—will not be moved because God is in its midst. For Christian readers, this presence reaches its fullness in Christ, who is Immanuel—God with us. The One who cannot be shaken, who brings peace in the midst of chaos, who calls us to stillness and trust.',
   ],
 
   sections: [
@@ -163,6 +163,25 @@ export const PSALMS_46: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 46 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-46',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 46 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.46',
+      description: 'Song of Zion with confidence amid chaos, Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-zion-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Zion & God&apos;s Holy City',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms celebrating Jerusalem as God&apos;s chosen dwelling place.',
+    },
+  ],
 
   hasHebrew: true,
 };

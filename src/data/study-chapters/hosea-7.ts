@@ -37,7 +37,7 @@ export const HOSEA_7: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea-7-78mid-1',
           html:
-            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+            'The prophet pivots from describing Ephraim&apos;s wounds to naming the leaders who would not let them heal. Sickness here is political as well as personal.',
         },
         {
           kind: 'scripture',

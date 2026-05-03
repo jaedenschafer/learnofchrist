@@ -4,7 +4,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
  * Psalm 5 — The House of the Lord
  *
  * Give ear to my words, O Lord, consider my meditation. Hearken unto the voice
- * of my cry, my King, and my God. My voice shalt thou hear in the morning. But
+ * of my cry, my King, and my God. My voice shalt thou hear in the morning[res:sefaria-psalms-5]. But
  * as for me, I will come into thy house in the multitude of thy mercy. This is
  * the psalmist&apos;s morning prayer, his meditation offered to the Lord at dawn.
  * It is a prayer of approach—a journey toward the house of God, drawn by mercy,
@@ -81,7 +81,7 @@ export const PSALMS_5: RichChapterContent = {
           kind: 'scripture',
           chapter: 5,
           lines: [
-            plain(7, 'But as for me, I will come into thy house in the multitude of thy mercy: and in thy fear will I worship toward thy holy temple.'),
+            plain(7, 'But as for me, I will come into thy house in the multitude of thy mercy: and in thy fear will I worship toward thy holy temple[res:bible-odyssey-morning-psalms].'),
             plain(8, 'Lead me, O Lord, in thy righteousness because of mine enemies; make thy way straight before me.'),
             plain(9, 'For there is no faithfulness in their mouth; their inward part is very wickedness; their throat is an open sepulchre; they flatter with their tongue.'),
             plain(10, 'Destroy them, O God; let them fall by their own counsels; cast them out in the multitude of their transgressions; for they have rebelled against thee.'),
@@ -166,6 +166,25 @@ export const PSALMS_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 5 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 5 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.5',
+      description: 'Morning prayer for guidance with classical Jewish interpretation.',
+    },
+    {
+      id: 'bible-odyssey-morning-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Morning & Temple Psalms',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Liturgical psalms sung at dawn and in daily temple worship.',
+    },
+  ],
 
   hasHebrew: true,
 };

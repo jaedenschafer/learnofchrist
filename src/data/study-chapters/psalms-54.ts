@@ -93,7 +93,7 @@ export const PSALMS_54: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms54-delivered-eye',
-          html: '"For he hath delivered me out of all trouble." And finally, the assurance that passes through the psalmist&apos;s own experience: God has delivered him. The trials are real, but the deliverance is real too.',
+          html: '"For he hath delivered me out of all trouble." And finally, the assurance that passes through the psalmist&apos;s own experience: God has delivered him. The trials are real, but the deliverance[res:sefaria-psalms-54] is real too.',
         },
         {
           kind: 'carry',
@@ -113,6 +113,25 @@ export const PSALMS_54: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 54 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-54',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 54 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.54',
+      description: 'Prayer for deliverance from enemies with Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-protection-prayer',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Prayer for Protection',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Prayers calling for rescue[res:bible-odyssey-protection-prayer] from adversaries and harm.',
+    },
+  ],
 
   hasHebrew: true,
 };

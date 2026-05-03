@@ -113,7 +113,7 @@ export const JEREMIAH_10: RichChapterContent = {
           kind: 'commentary',
           id: 'jeremiah-10-78mid-1',
           html:
-            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+            'The oracle turns from the worthlessness of idols to the greatness of the LORD. The contrast is the argument.',
         },
         {
           kind: 'scripture',

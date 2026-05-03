@@ -102,7 +102,7 @@ export const AMOS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'amos-7-78mid-1',
           html:
-            'The prophet pivots — from indictment to invitation, from woe to a single open door.',
+            'The visions narrow — locust, fire, plumbline. Amos pivots from interceding to standing aside; some judgments cannot be talked away.',
         },
         {
           kind: 'scripture',

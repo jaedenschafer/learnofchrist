@@ -41,7 +41,7 @@ export const SONG_4: RichChapterContent = {
           kind: 'commentary',
           id: 'song-of-solomon-4-78mid-1',
           html:
-            'He speaks now, praising every part of her—her hair, eyes, teeth, lips. His desire matches hers, verse for verse. Both bride and bridegroom are fully awake to each other's beauty.',
+            'He speaks now, praising every part of her — her hair, eyes, teeth, lips. His desire matches hers, verse for verse. Both bride and bridegroom are fully awake to each other&apos;s beauty.',
         },
         {
           kind: 'scripture',
@@ -102,7 +102,7 @@ export const SONG_4: RichChapterContent = {
           kind: 'commentary',
           id: 'song-of-solomon-4-78mid-2',
           html:
-            'He speaks now, praising every part of her—her hair, eyes, teeth, lips. His desire matches hers, verse for verse. Both bride and bridegroom are fully awake to each other's beauty.',
+            'He speaks now, praising every part of her — her hair, eyes, teeth, lips. His desire matches hers, verse for verse. Both bride and bridegroom are fully awake to each other&apos;s beauty.',
         },
         {
           kind: 'scripture',

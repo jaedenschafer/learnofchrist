@@ -117,7 +117,7 @@ export const JEREMIAH_7: RichChapterContent = {
           kind: 'commentary',
           id: 'jeremiah-7-78mid-1',
           html:
-            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+            'The temple sermon turns. Jeremiah stops asking the people to amend their ways and starts naming the offerings that no longer reach God.',
         },
         {
           kind: 'scripture',

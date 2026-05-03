@@ -61,7 +61,7 @@ export const JEREMIAH_21: RichChapterContent = {
           kind: 'commentary',
           id: 'jeremiah-21-78mid-1',
           html:
-            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+            'Zedekiah&apos;s messengers ask if the LORD will fight for them. Jeremiah&apos;s answer pivots — the LORD will fight, but against them, not for them.',
         },
         {
           kind: 'scripture',

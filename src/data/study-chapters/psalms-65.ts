@@ -8,7 +8,7 @@ import { hp, hy, hg, t, plain, verse, type RichChapterContent } from './types';
  * This choosing is not arbitrary—it flows from God's desire for relationship.
  * And then the vision expands: the earth itself becomes a testimony. God waters
  * the furrows, settles the ridges, blesses the year with His goodness. The
- * harvest is ripe not through human effort alone, but through the generous
+ * harvest[res:sefaria-psalms-65] is ripe not through human effort alone, but through the generous
  * hand of the Creator.
  */
 export const PSALMS_65: RichChapterContent = {
@@ -137,7 +137,7 @@ export const PSALMS_65: RichChapterContent = {
           script: 'פָּקַד',
           translit: '<strong>Paqad</strong> · to visit; to care for; to oversee; to remember with purpose',
           description:
-            'Paqad carries the sense of purposeful visitation—God coming to care for, to attend to, to bring about what He has determined. It is the word used when God "visits" His people for judgment or blessing, when He remembers them with intention. Here, God visits the earth itself with care and fertility.',
+            'Paqad carries the sense of purposeful visitation—God coming to care for, to attend to, to bring about what He has determined. It is the word used when God "visits" His people for judgment or blessing, when He remembers them with intention. Here, God visits the earth itself with care and fertility[res:bible-odyssey-harvest-psalms].',
         },
         {
           kind: 'christ',
@@ -166,6 +166,25 @@ export const PSALMS_65: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 65 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-65',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 65 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.65',
+      description: 'Harvest hymn with Jewish medieval interpretation.',
+    },
+    {
+      id: 'bible-odyssey-harvest-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Agricultural & Fertility Psalms',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms celebrating harvest, rain, and God&apos;s provision.',
+    },
+  ],
 
   hasHebrew: true,
 };

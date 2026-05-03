@@ -39,7 +39,7 @@ export const SONG_1: RichChapterContent = {
           kind: 'commentary',
           id: 'song-of-solomon-1-78mid-1',
           html:
-            'The Bride's desire gives way to the Beloved's voice. He calls her: Draw me, we will run after thee. The Song works by invitation—his call, her response, their movement toward each other.',
+            'The bride&apos;s desire gives way to the beloved&apos;s voice. He calls her — &quot;Draw me, we will run after thee.&quot; The Song works by invitation: his call, her response, their movement toward each other.',
         },
         {
           kind: 'scripture',

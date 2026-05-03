@@ -129,7 +129,7 @@ export const JEREMIAH_2: RichChapterContent = {
           kind: 'commentary',
           id: 'jeremiah-2-78mid-2',
           html:
-            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+            'Jeremiah turns from naming Israel&apos;s love-at-the-start to naming her later betrayal. The honeymoon is over; the indictment begins.',
         },
         {
           kind: 'scripture',

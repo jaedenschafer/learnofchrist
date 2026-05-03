@@ -170,7 +170,7 @@ export const JEREMIAH_30: RichChapterContent = {
           kind: 'commentary',
           id: 'jeremiah-30-78mid-1',
           html:
-            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+            'The book of restoration opens. Jeremiah pivots from describing the wound to promising the healing — &quot;I will restore health unto thee.&quot;',
         },
         {
           kind: 'scripture',

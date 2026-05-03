@@ -62,7 +62,7 @@ export const JEREMIAH_24: RichChapterContent = {
           kind: 'commentary',
           id: 'jeremiah-24-78mid-1',
           html:
-            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+            'The two baskets of figs are interpreted. Good figs and bad — the LORD names which captives He will save and which He will scatter.',
         },
         {
           kind: 'scripture',

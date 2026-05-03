@@ -16,7 +16,7 @@ export const PSALMS_50: RichChapterContent = {
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
   intros: [
-    'Psalm 50 begins with a remarkable image: God is speaking. "The mighty God, even the Lord, hath spoken, and called the earth from the rising of the sun unto the going down thereof." God is calling the whole creation into judgment. But His judgment is not about the external ritual that seems to dominate Israel&apos;s worship. It is about the heart. He says directly: "I will take no bullock out of thy house, nor he goats out of thy folds." This would have been shocking. The Temple system was built on sacrifice. Yet God declares that sacrifice without thanksgiving, sacrifice that masks an ungrateful heart, is worthless. What does He want? "Whoso offereth praise glorifieth me."',
+    'Psalm 50 begins with a remarkable image: God is speaking. "The mighty God, even the Lord, hath spoken, and called the earth from the rising of the sun unto the going down thereof." God is calling the whole creation into judgment[res:bible-odyssey-covenant-psalms]. But His judgment is not about the external ritual that seems to dominate Israel&apos;s worship. It is about the heart. He says directly: "I will take no bullock out of thy house, nor he goats out of thy folds." This would have been shocking. The Temple system was built on sacrifice. Yet God declares that sacrifice without thanksgiving, sacrifice that masks an ungrateful heart, is worthless. What does He want? "Whoso offereth praise glorifieth me."',
     'The psalm is a call to transform worship from external ritual to internal reality. The true offering is not an animal on an altar. It is a grateful, thankful, praising heart. This echoes through Scripture and reaches its culmination in the New Testament, where Christ Himself becomes the final sacrifice, and believers are called to present themselves "a living sacrifice, holy, acceptable unto God, which is your reasonable service" (Romans 12:1). The psalm teaches that what God wants most is not our things, but ourselves.',
   ],
 
@@ -100,7 +100,7 @@ export const PSALMS_50: RichChapterContent = {
           kind: 'scripture',
           chapter: 50,
           lines: [
-            plain(16, 'But unto the wicked God saith, What hast thou to do to declare my statutes, or that thou shouldest take my covenant in thy mouth?'),
+            plain(16, 'But unto the wicked God saith, What hast thou to do to declare my statutes, or that thou shouldest take my covenant[res:sefaria-psalms-50] in thy mouth?'),
             plain(17, 'Seeing thou hatest instruction, and castest my words behind thee.'),
             plain(21, 'These things hast thou done, and I kept silence; thou thoughtest that I was altogether such an one as thyself: but I will reprove thee, and set them in order before thine eyes.'),
             plain(22, 'Now consider this, ye that forget God, lest I tear you in pieces, and there be none to deliver.'),
@@ -160,6 +160,25 @@ export const PSALMS_50: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 50 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-50',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 50 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.50',
+      description: 'Covenant lawsuit psalm with Jewish medieval interpretation.',
+    },
+    {
+      id: 'bible-odyssey-covenant-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Covenant & Judgment Psalms',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms on God&apos;s covenantal lawsuit against false worship.',
+    },
+  ],
 
   hasHebrew: true,
 };

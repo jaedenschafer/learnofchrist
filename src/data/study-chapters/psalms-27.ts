@@ -4,7 +4,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
  * Psalm 27 — My Light and Salvation
  *
  * "The Lord is my light and my salvation; whom shall I fear?" These opening
- * words establish the theme: in God is found both illumination and deliverance.
+ * words establish the theme: in God[res:sefaria-psalms-27] is found both illumination and deliverance.
  * The psalmist expresses singular desire: "One thing have I desired of the Lord,
  * that I may dwell in the house of the Lord all the days of my life." Even
  * when his parents forsake him, the Lord will take him up. Christ is the Light
@@ -123,6 +123,33 @@ export const PSALMS_27: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 27 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-27',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 27 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.27',
+      description: 'Psalm of trust and desire for God with Jewish commentary.',
+    },
+    {
+      id: 'intertextual-psalms-27-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 27 in Peter[res:intertextual-psalms-27-nt] & Persecution',
+      url: 'https://intertextual.bible/text/psalm-27',
+      description: 'Peter echoes Psalm 27 language in his epistles.',
+    },
+    {
+      id: 'bible-odyssey-temple-desire',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Longing for God&apos;s House',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms expressing yearning for God&apos;s presence in worship[res:bible-odyssey-temple-desire].',
+    },
+  ],
 
   hasHebrew: true,
 };

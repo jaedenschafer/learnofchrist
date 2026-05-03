@@ -3,7 +3,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
 /**
  * Psalm 23 — The Shepherd Psalm
  *
- * "The Lord is my shepherd; I shall not want." These words, perhaps more than
+ * "The Lord is my shepherd[res:intertextual-psalms-23-nt][res:sefaria-psalms-23]; I shall not want." These words, perhaps more than
  * any others in Scripture, have brought comfort to the dying, the grieving, the
  * lost. The psalm presents God not as a distant judge but as an intimate
  * caretaker, one who knows His sheep, leads them beside still waters, restores
@@ -39,7 +39,7 @@ export const PSALMS_23: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms23-shepherd',
-          html: 'The first verse establishes everything. Not "The Lord is like a shepherd," but "is my shepherd." The relationship is personal, intimate, possessive in the best sense. This is the God who has chosen me, who tends me, who knows me by name. And the result? "I shall not want." Complete provision. Not occasional provision, not the bare minimum, but a fullness that lacks nothing. This is the confidence that flows from knowing oneself to be in God&apos;s care.',
+          html: 'The first verse establishes everything. Not "The Lord is like a shepherd," but "is my shepherd[res:intertextual-psalms-23-nt]." The relationship is personal, intimate, possessive in the best sense. This is the God who has chosen me, who tends me, who knows me by name. And the result? "I shall not want." Complete provision. Not occasional provision, not the bare minimum, but a fullness that lacks nothing. This is the confidence that flows from knowing oneself to be in God&apos;s care.',
         },
         {
           kind: 'hebrew',
@@ -52,7 +52,7 @@ export const PSALMS_23: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms23-green-pastures',
-          html: 'The imagery shifts to abundance. Green pastures. Still waters. The shepherd does not drive His flock into barren wastelands. He leads them to places of nourishment and rest. And He does not merely point them toward these places—He makes them lie down. He stops them. He forces them to rest when they would otherwise drive themselves to exhaustion. This too is shepherding: to know when your people need not to work but to be still.',
+          html: 'The imagery shifts to abundance. Green pastures. Still waters. The shepherd does not drive His flock[res:bible-odyssey-shepherd-metaphor] into barren wastelands. He leads them to places of nourishment and rest. And He does not merely point them toward these places—He makes them lie down. He stops them. He forces them to rest when they would otherwise drive themselves to exhaustion. This too is shepherding: to know when your people need not to work but to be still.',
         },
         {
           kind: 'commentary',
@@ -117,6 +117,33 @@ export const PSALMS_23: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 23 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-23',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 23 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.23',
+      description: 'Shepherd psalm with medieval Jewish interpretation.',
+    },
+    {
+      id: 'intertextual-psalms-23-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 23 in John 10 & 1 Peter 5',
+      url: 'https://intertextual.bible/text/psalm-23',
+      description: 'Shepherd imagery applied to Christ and church leaders.',
+    },
+    {
+      id: 'bible-odyssey-shepherd-metaphor',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Shepherd Metaphor in Scripture',
+      url: 'https://www.bibleodyssey.org/dictionary/shepherd/',
+      description: 'God as shepherd protecting and providing for the flock.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -4,7 +4,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
  * Psalm 48 — The Holy City
  *
  * "Great is the Lord, and greatly to be praised in the city of our God, in
- * the mountain of his holiness." The psalm celebrates Zion—the city of God,
+ * the mountain of his holiness." The psalm celebrates Zion[res:sefaria-psalms-48]—the city of God,
  * beautiful, established, protected. For Christian readers, this points to the
  * New Jerusalem, the city descending from heaven where God dwells forever with
  * His people (Revelation 21).
@@ -151,7 +151,7 @@ export const PSALMS_48: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'Psalm 48 teaches that God has a dwelling place—a city, a holy mountain, a center from which His presence radiates. Those who dwell in that presence experience refuge, safety, the joy of God&apos;s lovingkindness. And they are called to testify, to walk about the city, to tell others of its glory, to pass on the story to the next generation. We are not meant to keep our experience of God to ourselves. We are meant to be witnesses to His faithfulness, His righteousness, His eternal care.',
+            'Psalm 48 teaches that God has a dwelling place—a city, a holy mountain, a center from which His presence radiates. Those who dwell in that presence experience refuge, safety, the joy of God&apos;s lovingkindness. And they are called to testify, to walk about the city, to tell others of its glory[res:bible-odyssey-zion-hymns], to pass on the story to the next generation. We are not meant to keep our experience of God to ourselves. We are meant to be witnesses to His faithfulness, His righteousness, His eternal care.',
         },
         {
           kind: 'reflection',
@@ -167,6 +167,25 @@ export const PSALMS_48: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 48 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-48',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 48 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.48',
+      description: 'Song of Zion with trust in God with Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-zion-hymns',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Hymns of Zion',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Praise psalms glorifying Jerusalem and God&apos;s protection.',
+    },
+  ],
 
   hasHebrew: true,
 };

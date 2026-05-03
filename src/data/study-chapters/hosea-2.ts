@@ -124,7 +124,7 @@ export const HOSEA_2: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea-2-78mid-1',
           html:
-            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+            'The pivot is sharp — &quot;therefore, behold, I will allure her.&quot; Judgment turns to wooing; the wilderness becomes the place of new vows.',
         },
         {
           kind: 'scripture',

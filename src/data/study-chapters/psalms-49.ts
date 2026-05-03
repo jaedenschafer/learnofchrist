@@ -15,7 +15,7 @@ export const PSALMS_49: RichChapterContent = {
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
   intros: [
-    'Psalm 49 is a meditation on mortality and redemption. The psalmist addresses "all inhabitants of the world, both low and high, rich and poor." He has something to tell them, a wisdom he wishes them to hear. And his message is stark: the rich cannot use their wealth to buy immortality. They cannot redeem their brothers. They cannot give to God a ransom for themselves. In the face of death, all their riches are useless.',
+    'Psalm 49 is a meditation on mortality and redemption. The psalmist addresses "all inhabitants of the world, both low and high, rich and poor." He has something to tell them, a wisdom[res:bible-odyssey-wisdom-theme] he wishes them to hear. And his message is stark: the rich cannot use their wealth[res:sefaria-psalms-49] to buy immortality. They cannot redeem their brothers. They cannot give to God a ransom for themselves. In the face of death, all their riches are useless.',
     'Yet the psalm does not end in despair. There is One who can redeem what wealth cannot. There is One who can give what the rich cannot pay. The psalmist writes: "God will redeem my soul from the power of the grave: for he shall receive me." Only God can pay the price of redemption. Only God can offer what the human soul truly needs. In Christ, this promise finds its complete fulfillment. He is the ransom.',
   ],
 
@@ -158,6 +158,25 @@ export const PSALMS_49: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 49 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-49',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 49 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.49',
+      description: 'Wisdom psalm on the futility of wealth with Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-wisdom-theme',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Wisdom Psalms',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms teaching wisdom through reflection on life and conduct.',
+    },
+  ],
 
   hasHebrew: true,
 };

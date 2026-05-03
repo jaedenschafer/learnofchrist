@@ -62,7 +62,7 @@ export const PSALMS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms1-delight',
           html:
-            'But the blessed man does not merely avoid foolishness. He chooses something positive: delight in the law of the Lord. His pleasure, his joy, his deepest satisfaction comes from God&apos;s word. And this delight is not passive. He meditates day and night. The Hebrew word for meditate means to murmur, to mutter, to roll over in the mind, to speak to oneself. He is not merely reading. He is absorbing, internalizing, letting the word become his own thought.',
+            'But the blessed man does not merely avoid foolishness. He chooses something positive: delight in the law of the Lord. His pleasure, his joy, his deepest satisfaction comes from God&apos;s word. And this delight[res:sefaria-psalms-1] is not passive. He meditates day and night. The Hebrew word for meditate means to murmur, to mutter, to roll over in the mind, to speak to oneself. He is not merely reading. He is absorbing, internalizing, letting the word become his own thought.',
         },
         {
           kind: 'christ',
@@ -119,7 +119,7 @@ export const PSALMS_1: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'Psalm 1 offers no middle ground. There are two ways, two kinds of life, two destinies. The righteous man meditates on God&apos;s law and prospers. The ungodly man is blown about by every wind and comes to nothing. The choice before each reader is stark: Which way will you walk? What counsel will you receive? Where will you plant your roots? The psalm opens the book of Psalms by insisting that this choice—the ordering of your life toward God or away from Him—is the most important choice you will ever make.',
+            'Psalm 1 offers no middle ground. There are two ways, two kinds of life, two destinies. The righteous man meditates on God&apos;s law and prospers. The ungodly man is blown about by every wind and comes to nothing. The choice before each reader is stark: Which way will you walk? What counsel will you receive? Where will you plant your roots? The psalm opens[res:intertextual-psalms-1] the book of Psalms by insisting that this choice—the ordering of your life toward God or away from Him—is the most important choice you will ever make.',
         },
         {
           kind: 'reflection',
@@ -135,6 +135,25 @@ export const PSALMS_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 1 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 1 — Hebrew Text & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.1',
+      description: 'Hebrew text with medieval Jewish commentaries on wisdom and the two ways.',
+    },
+    {
+      id: 'intertextual-psalms-1',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 1 in the NT',
+      url: 'https://intertextual.bible/text/psalm-1',
+      description: 'Traces allusions to Psalm 1 throughout the New Testament, especially Matthew 5-7.',
+    },
+  ],
 
   hasHebrew: true,
 };

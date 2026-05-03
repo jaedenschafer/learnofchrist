@@ -45,7 +45,7 @@ export const HOSEA_5: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea-5-78mid-1',
           html:
-            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+            'Hosea turns from the priests to the kings. Both have failed; the prophet refuses to comfort either.',
         },
         {
           kind: 'scripture',
@@ -99,7 +99,7 @@ export const HOSEA_5: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea-5-78mid-2',
           html:
-            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+            'Hosea turns from the priests to the kings. Both have failed; the prophet refuses to comfort either.',
         },
         {
           kind: 'scripture',

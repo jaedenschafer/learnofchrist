@@ -4,8 +4,8 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
  * Psalm 28 — My Rock and Fortress
  *
  * "Unto thee will I cry, O Lord my rock." The psalm opens with petition and
- * closes with answered prayer. "The Lord is my strength and my shield." In this
- * short psalm, the psalmist moves from desperate prayer to confident praise. God
+ * closes with answered prayer[res:sefaria-psalms-28]. "The Lord is my strength and my shield." In this
+ * short psalm, the psalmist moves from desperate prayer to confident praise[res:bible-odyssey-thanksgiving-structure]. God
  * is the rock upon which one stands, unshakable, immovable. And Christ is
  * presented throughout Scripture as the Rock, the one upon whom the Church is
  * built, the foundation that cannot be moved.
@@ -94,6 +94,25 @@ export const PSALMS_28: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 28 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-28',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 28 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.28',
+      description: 'Prayer and thanksgiving with Jewish medieval exegesis.',
+    },
+    {
+      id: 'bible-odyssey-thanksgiving-structure',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Thanksgiving Psalm Structure',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'How thanksgiving psalms move from prayer to praise.',
+    },
+  ],
 
   hasHebrew: true,
 };

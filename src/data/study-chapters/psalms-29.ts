@@ -3,7 +3,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
 /**
  * Psalm 29 — The Voice of the Lord
  *
- * "The voice of the Lord is upon the waters." This psalm rings with the power
+ * "The voice of the Lord is upon the waters." This psalm rings with the power[res:bible-odyssey-theophany-psalms]
  * of God&apos;s creative word. The psalmist repeats the phrase "the voice of the
  * Lord" seven times, creating a cadence that echoes God&apos;s speaking over the
  * creation account. Lightning flashes. Thunder rolls. Forests are broken. And
@@ -32,7 +32,7 @@ export const PSALMS_29: RichChapterContent = {
           lines: [
             plain(1, 'Give unto the Lord, O ye mighty, give unto the Lord glory and strength.'),
             plain(2, 'Give unto the Lord the glory due unto his name; worship the Lord in the beauty of holiness.'),
-            plain(3, 'The voice of the Lord is upon the waters: the God of glory thundereth: the Lord is upon many waters.'),
+            plain(3, 'The voice of the Lord is upon the waters: the God of glory thunder[res:sefaria-psalms-29]eth: the Lord is upon many waters.'),
             plain(4, 'The voice of the Lord is powerful; the voice of the Lord is full of majesty.'),
             plain(5, 'The voice of the Lord breaketh the cedars; yea, the Lord breaketh the cedars of Lebanon.'),
             plain(6, 'He maketh them also to skip like a calf; Lebanon and Sirion like a young unicorn.'),
@@ -102,6 +102,25 @@ export const PSALMS_29: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 29 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-29',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 29 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.29',
+      description: 'Hymn on God&apos;s power in storm with Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-theophany-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Theophany & God&apos;s Power',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms depicting God appearing in storm, earthquake, and fire.',
+    },
+  ],
 
   hasHebrew: true,
 };

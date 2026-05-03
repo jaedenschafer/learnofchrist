@@ -7,9 +7,9 @@ import { hp, hy, hg, t, plain, verse, type RichChapterContent } from './types';
  * This is not a whisper. It is not a private prayer. It is a summons to the whole
  * earth to cry out in gladness. And what provokes this joy? The works of God. The
  * terrible things He has done. The psalmist then turns inward: through fire and
- * water God has tested and refined. But He has brought the people through to a
+ * water God has tested and refined. But He has brought the people[res:bible-odyssey-corporate-praise] through to a
  * place of abundance. Now the question: how does one respond to a God whose works
- * are both terrible and redemptive? With praise that is costly, with offerings that
+ * are both terrible and redemptive? With praise[res:sefaria-psalms-66] that is costly, with offerings that
  * matter, with a life laid open before Him.
  */
 export const PSALMS_66: RichChapterContent = {
@@ -204,6 +204,25 @@ export const PSALMS_66: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 66 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-66',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 66 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.66',
+      description: 'Communal hymn of praise with Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-corporate-praise',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Communal Praise Psalms',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms calling all people to join in praise to God.',
+    },
+  ],
 
   hasHebrew: true,
 };

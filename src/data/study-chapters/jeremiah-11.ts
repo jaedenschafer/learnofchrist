@@ -41,7 +41,7 @@ export const JEREMIAH_11: RichChapterContent = {
           kind: 'commentary',
           id: 'jeremiah-11-78mid-1',
           html:
-            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+            'Jeremiah pivots from naming the broken covenant to naming the men of Anathoth who plot to kill him. Faithfulness in this book is costly.',
         },
         {
           kind: 'scripture',

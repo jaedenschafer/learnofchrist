@@ -3,12 +3,12 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
 /**
  * Psalm 24 — The King of Glory
  *
- * "The earth is the Lord's, and the fulness thereof; the world, and they that
+ * "The earth[res:sefaria-psalms-24] is the Lord's, and the fulness thereof; the world, and they that
  * dwell therein." With these opening words, the psalmist establishes that all
  * creation belongs to God. But ownership is not the psalm's final word. It
  * moves toward ascent—"Who shall ascend into the hill of the Lord?"—and closes
  * with a vision of the King of Glory entering in triumph: "Lift up your heads,
- * O ye gates; and the King of glory shall come in." Christ the King claims His
+ * O ye gates; and the King of glory shall come in." Christ[res:intertextual-psalms-24-nt] the King claims His
  * rightful throne.
  */
 export const PSALMS_24: RichChapterContent = {
@@ -64,7 +64,7 @@ export const PSALMS_24: RichChapterContent = {
         {
           kind: 'christ',
           id: 'psalms24-christ-king-glory',
-          title: 'Christ Connection — The King of Glory',
+          title: 'Christ[res:bible-odyssey-ascension-psalms] Connection — The King of Glory',
           html: 'Only One possesses both clean hands and a pure heart in absolute fullness: Jesus Christ. His hands were clean, never striking unjustly, never reaching for corruption. His heart was pure, always aligned with His Father&apos;s will. Yet more—in Him, we are made clean. In Christ, our hands and hearts are washed in His blood, sanctified by His sacrifice. We ascend to the hill of the Lord not through our own righteousness, but through His.',
         },
         {
@@ -126,6 +126,33 @@ export const PSALMS_24: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 24 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-24',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 24 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.24',
+      description: 'Entry psalm for the ark with Jewish medieval commentary.',
+    },
+    {
+      id: 'intertextual-psalms-24-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 24 in Ephesians & Ascension',
+      url: 'https://intertextual.bible/text/psalm-24',
+      description: 'NT applies Psalm 24 to Christ&apos;s ascension and glory.',
+    },
+    {
+      id: 'bible-odyssey-ascension-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Enthronement & Ascent Psalms',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms celebrating God&apos;s exaltation and cosmic rule.',
+    },
+  ],
 
   hasHebrew: true,
 };

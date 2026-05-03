@@ -39,7 +39,7 @@ export const PSALMS_43: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms43-judge',
           html:
-            'David begins with a plea for God to judge—to plead his cause against those who oppose him. Yet notice that he appeals to God, not to his enemies. The judgment he seeks is God&apos;s judgment, the vindication that comes from truth, not from the defeat of his opponents. He wants to be delivered from the deceitful and unjust man—not destroyed by him, but freed from his power.',
+            'David begins with a plea for God to judge—to plead his cause against those who oppose him. Yet notice that he appeals to God, not to his enemies. The judgment[res:sefaria-psalms-43] he seeks is God&apos;s judgment, the vindication that comes from truth, not from the defeat of his opponents. He wants to be delivered from the deceitful and unjust man—not destroyed by him, but freed from his power.',
         },
         {
           kind: 'commentary',
@@ -94,6 +94,25 @@ export const PSALMS_43: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 43 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-43',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 43 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.43',
+      description: 'Prayer for deliverance with medieval Jewish exegesis.',
+    },
+    {
+      id: 'bible-odyssey-vindication-prayer',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Prayer for Vindication',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms asking God to judge fairly and prove[res:bible-odyssey-vindication-prayer] innocence.',
+    },
+  ],
 
   hasHebrew: true,
 };

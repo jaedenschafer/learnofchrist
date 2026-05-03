@@ -77,7 +77,7 @@ export const PSALMS_38: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms38-soundness',
           html:
-            'Again and again David returns to this phrase: "There is no soundness in my flesh." His body itself bears witness to the reality of his guilt. Whether this is literal sickness or metaphorical, the point is clear: sin has consequences in the whole person. It is not only a matter of external behavior. It affects his body, his bones, his very constitution.',
+            'Again and again David returns to this phrase: "There is no soundness in my flesh." His body itself bears witness to the reality of his guilt. Whether this is literal sickness[res:sefaria-psalms-38] or metaphorical, the point is clear: sin has consequences in the whole person. It is not only a matter of external behavior. It affects his body, his bones, his very constitution.',
         },
         {
           kind: 'reflection',
@@ -140,7 +140,7 @@ export const PSALMS_38: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'Psalm 38 speaks to anyone who has felt the weight of unconfessed guilt, the way sin festers when it is hidden and begins to poison every part of life. It teaches that confession is not weakness or shame to be avoided. It is the door through which healing enters. The God David calls upon is not waiting to condemn the penitent. He is waiting for the moment we declare our iniquity, so that He can respond with the swift help of mercy.',
+            'Psalm 38 speaks to anyone who has felt the weight of unconfessed guilt, the way sin festers when it is hidden and begins to poison every part of life. It teaches that confession is not weakness or shame[res:bible-odyssey-suffering-lament] to be avoided. It is the door through which healing enters. The God David calls upon is not waiting to condemn the penitent. He is waiting for the moment we declare our iniquity, so that He can respond with the swift help of mercy.',
         },
         {
           kind: 'reflection',
@@ -156,6 +156,25 @@ export const PSALMS_38: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 38 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-38',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 38 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.38',
+      description: 'Lament of sickness with confession, Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-suffering-lament',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Suffering & Lament',
+      url: 'https://www.bibleodyssey.org/dictionary/lament-psalms/',
+      description: 'Psalms expressing pain, isolation, and shame.',
+    },
+  ],
 
   hasHebrew: true,
 };

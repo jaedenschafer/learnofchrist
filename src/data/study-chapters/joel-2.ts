@@ -99,7 +99,7 @@ export const JOEL_2: RichChapterContent = {
           kind: 'commentary',
           id: 'joel-2-78mid-1',
           html:
-            'The oracle turns. Joel is short, but he never lets devastation be the whole story — restoration is always close behind.',
+            'Joel pivots from the army of locusts to the call to repent — &quot;rend your heart, and not your garments.&quot; The disaster has not yet had the last word.',
         },
         {
           kind: 'scripture',

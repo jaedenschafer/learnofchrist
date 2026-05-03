@@ -3,8 +3,8 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
 /**
  * Psalm 19 — The Heavens Declare, The Law Restores
  *
- * "The heavens declare the glory of God." All of creation speaks. The heavens tell
- * of the handiwork of God. Yet there is more than natural revelation. "The law of
+ * "The heavens declare[res:sefaria-psalms-19] the glory of God." All of creation speaks. The heavens tell
+ * of the handiwork of God. Yet there is more than natural revelation. "The law[res:bible-odyssey-torah-psalms] of
  * the Lord is perfect, converting the soul." From the cosmic witness of creation,
  * David turns to the perfect law of God, which restores, enlightens, and gives joy.
  * Christ is the perfect Word, the full embodiment of all truth that creation whispers
@@ -18,7 +18,7 @@ export const PSALMS_19: RichChapterContent = {
   estimatedMinutes: { beginner: 1, intermediate: 5, deep: 6 },
   intros: [
     'Psalm 19 is divided into two movements. The first describes natural revelation—how the heavens declare God&apos;s glory without uttering a word. The second movement shifts to revealed law, to God&apos;s word, which speaks directly and perfectly to the human soul. From the silent witness of creation to the vocal clarity of Scripture, David moves upward in the hierarchy of revelation. Yet both testify to the same God: the Creator of the heavens and the Giver of the law.',
-    'This psalm stands at the intersection of all Christian theology. In Romans 1:20, Paul quotes its opening: the heavens proclaim God&apos;s invisible attributes so clearly that those who refuse to acknowledge them are without excuse. In John 1, the Word that was with God and was God is revealed in flesh. This psalm opens the door to both.',
+    'This psalm stands at the intersection of all Christian theology. In Romans 1:20, Paul[res:intertextual-psalms-19-nt] quotes its opening: the heavens proclaim God&apos;s invisible attributes so clearly that those who refuse to acknowledge them are without excuse. In John 1, the Word that was with God and was God is revealed in flesh. This psalm opens the door to both.',
   ],
 
   sections: [
@@ -187,6 +187,33 @@ export const PSALMS_19: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 19 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-19',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 19 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.19',
+      description: 'Dual hymn on creation and Torah with Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-torah-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Torah Praise Psalms',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms celebrating God&apos;s law and instruction.',
+    },
+    {
+      id: 'intertextual-psalms-19-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 19 in Romans & Evangelism',
+      url: 'https://intertextual.bible/text/psalm-19',
+      description: 'Paul quotes Psalm 19 on universal witness to God.',
+    },
+  ],
 
   hasHebrew: true,
 };

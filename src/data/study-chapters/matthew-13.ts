@@ -119,7 +119,7 @@ export const MATTHEW_13: RichChapterContent = {
           kind: 'commentary',
           id: 'matthew-13-78mid-2',
           html:
-            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+            'The parable of the sower closes; Jesus explains it privately. The crowd hears the story; the disciples hear the meaning — and the line between them becomes the chapter&apos;s theme.',
         },
         {
           kind: 'scripture',

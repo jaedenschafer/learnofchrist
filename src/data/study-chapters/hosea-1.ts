@@ -119,7 +119,7 @@ export const HOSEA_1: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea-1-78mid-1',
           html:
-            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+            'Hosea&apos;s marriage to Gomer becomes the parable. Each child is named to speak judgment over Israel — Jezreel, Lo-ruhamah, Lo-ammi.',
         },
         {
           kind: 'scripture',

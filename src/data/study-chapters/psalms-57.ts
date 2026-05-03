@@ -7,7 +7,7 @@ export const PSALMS_57: RichChapterContent = {
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
   intros: [
-    'Saul pursued David relentlessly. At one point, David fled to the cave of Adullam, a stronghold in the wilderness. It was a place of refuge but also of darkness—a cave, cut off from sunlight, from safety, from hope of return. And yet in this cave, in the literal darkness of that place, David&apos;s inner life was illuminated by faith. "My heart is fixed, O God, my heart is fixed: I will sing and give praise."',
+    'Saul pursued David relentlessly. At one point, David fled to the cave of Adullam, a stronghold in the wilderness. It was a place of refuge[res:sefaria-psalms-57] but also of darkness—a cave, cut off from sunlight, from safety, from hope of return. And yet in this cave, in the literal darkness of that place, David&apos;s inner life was illuminated by faith. "My heart is fixed, O God, my heart is fixed: I will sing and give praise."',
     'Psalm 57 is remarkable for its defiance of despair. David is hunted. He is hiding in darkness. His enemies prowl around him. And yet he declares his heart fixed. Not anxious, not wavering, not searching for escape routes. Fixed. Established. Settled upon God. And his response to this fixedness is not prayer for protection, but praise. In darkness, he sings. In danger, he gives praise.',
   ],
 
@@ -30,7 +30,7 @@ export const PSALMS_57: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms57-shadow-wings',
-          html: '"In the shadow of thy wings will I make my refuge, until these calamities be overpast." The image is that of a bird taking shelter beneath its mother&apos;s wings. David seeks refuge not in the cave itself, but in the shadow of God&apos;s wings.',
+          html: '"In the shadow of thy wings will I make my refuge, until these calamities be overpast." The image is that of a bird taking shelter[res:bible-odyssey-refuge-psalms] beneath its mother&apos;s wings. David seeks refuge not in the cave itself, but in the shadow of God&apos;s wings.',
         },
         {
           kind: 'hebrew',
@@ -122,6 +122,25 @@ export const PSALMS_57: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 57 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-57',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 57 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.57',
+      description: 'Prayer for refuge with Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-refuge-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalms of Refuge',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms seeking God as shelter from danger.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -7,7 +7,7 @@ export const PSALMS_63: RichChapterContent = {
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
   intros: [
-    'David is in the wilderness of Judah, far from the sanctuary, far from the normal rhythms of worship. He is a fugitive, hunted, homeless. And yet his deepest longing is not for physical comfort or safety, but for God. "O God, thou art my God; early will I seek thee: my soul thirsteth for thee, my flesh longeth for thee in a weary and thirsty land, where no water is." His thirst for God is more urgent, more real, than his physical need for water.',
+    'David is in the wilderness[res:bible-odyssey-desert-psalms] of Judah, far from the sanctuary, far from the normal rhythms of worship. He is a fugitive, hunted, homeless. And yet his deepest longing is not for physical comfort or safety, but for God. "O God, thou art my God; early will I seek thee: my soul thirsteth for thee, my flesh longeth for thee in a weary and thirsty land, where no water is." His thirst for God is more urgent, more real, than his physical need for water.',
     'Psalm 63 is one of the most intimate prayers in Scripture—the cry of a soul parched for the presence of God. "Because thy lovingkindness is better than life, my lips shall praise thee." Better than life itself—this is David&apos;s assessment of God&apos;s lovingkindness. And in that assessment, he finds satisfaction that no earthly circumstance can take away.',
   ],
 
@@ -30,7 +30,7 @@ export const PSALMS_63: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-63-78mid-1',
           html:
-            'Thirst in the wilderness gives way to joy and praise. The desert&apos;s desolation becomes the soul&apos;s exultation.',
+            'Thirst in the wilderness gives way to joy and praise. The desert[res:sefaria-psalms-63]&apos;s desolation becomes the soul&apos;s exultation.',
         },
         {
           kind: 'scripture',
@@ -134,6 +134,25 @@ export const PSALMS_63: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 63 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-63',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 63 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.63',
+      description: 'Desert meditation on God with Jewish medieval exegesis.',
+    },
+    {
+      id: 'bible-odyssey-desert-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Desert & Wilderness Psalms',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms from isolation in wilderness seeking God.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -3,7 +3,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
 /**
  * Psalm 71 — The Aged Saint
  *
- * "Cast me not off in the time of old age; forsake me not when my strength
+ * "Cast me not off in the time of old age[res:sefaria-psalms-71]; forsake me not when my strength
  * faileth." This is a psalm for those who have walked with God for decades,
  * who are now watching their strength decline, and who fear that God might
  * abandon them in their weakness. Yet the psalm moves from fear to praise,
@@ -125,6 +125,25 @@ export const PSALMS_71: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 71 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-71',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 71 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.71',
+      description: 'Prayer of aged believer with Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-aging-faith',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Faith in Old Age',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms of trust and praise from a lifetime[res:bible-odyssey-aging-faith] of faith.',
+    },
+  ],
 
   hasHebrew: true,
 };

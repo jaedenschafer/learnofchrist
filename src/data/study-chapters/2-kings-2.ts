@@ -31,33 +31,6 @@ export const KINGS_2_2: RichChapterContent = {
     ref: '2 Kings 2 · Study Guide',
   },
 
-  resources: [
-    {
-      id: 'sefaria-elisha-ministry',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Elisha the Prophet',
-      url: 'https://www.sefaria.org/2_Kings.1',
-      description: 'Elisha&apos;s ministry of miraculous healing and prophecy succeeding Elijah.',
-    },
-    {
-      id: 'bible-odyssey-elisha',
-      kind: 'study',
-      source: 'Bible Odyssey/SBL',
-      label: 'Elisha: Miracles and Ministry',
-      url: 'https://www.bibleodyssey.org/dictionary/elisha/',
-      description: 'Elisha&apos;s role as prophet in Israel&apos;s northern kingdom during the period of decline.',
-    },
-    {
-      id: 'iaa-northern-kingdom',
-      kind: 'archaeology',
-      source: 'Israel Antiquities Authority',
-      label: 'Archaeology of Northern Kingdom',
-      url: 'https://www.antiquities.org.il/',
-      description: 'Excavation evidence for cities and settlements in the northern kingdom of Israel.',
-    },
-  ],
-
   sections: [
     /* ─── 2 Kings 2:1–6 — The Journey: Three Refusals and One Refusal ──── */
     {
@@ -112,13 +85,13 @@ export const KINGS_2_2: RichChapterContent = {
           kind: 'commentary',
           id: 'elijah-taken-up',
           html:
-            'The narrative opens with the knowledge that Elijah will be taken up — not through death, but through a whirlwind. In all of Scripture, only two people leave the earth without dying: Enoch in Genesis 5, and now Elijah. This is not an ending; it is a translation. The Greek word used in the Septuagint for Enoch\[res:sefaria-elisha-ministry]'s translation is used by the writer to Hebrews when affirming that "Enoch was not; for God took him" (Hebrews 11:5). To be taken up is to be received by God, to be carried into heaven while still living.',
+            'The narrative opens with the knowledge that Elijah will be taken up — not through death, but through a whirlwind. In all of Scripture, only two people leave the earth without dying: Enoch in Genesis 5, and now Elijah. This is not an ending; it is a translation. The Greek word used in the Septuagint for Enoch\'s translation is used by the writer to Hebrews when affirming that "Enoch was not; for God took him" (Hebrews 11:5). To be taken up is to be received by God, to be carried into heaven while still living.',
         },
         {
           kind: 'commentary',
           id: 'refusal-trinity',
           html:
-            'Elijah tells Elisha to stay behind — not once, but three times. At Gilgal, at Bethel, at Jericho. And three times Elisha refuses with a solemn oath: "As the Lord liveth, and as thy soul liveth, I will not leave thee." It is covenantal language. Elisha is not clinging to Elijah for comfort or safety. He is clinging because he knows that something is being transferred — the prophetic mantle, the authority, the spirit that empowered his master. To leave would be to miss the inheritance[res:sefaria-elisha-ministry][res:bible-odyssey-elisha][res:iaa-northern-kingdom].',
+            'Elijah tells Elisha to stay behind — not once, but three times. At Gilgal, at Bethel, at Jericho. And three times Elisha refuses with a solemn oath: "As the Lord liveth, and as thy soul liveth, I will not leave thee." It is covenantal language. Elisha is not clinging to Elijah for comfort or safety. He is clinging because he knows that something is being transferred — the prophetic mantle, the authority, the spirit that empowered his master. To leave would be to miss the inheritance.',
         },
         {
           kind: 'commentary',

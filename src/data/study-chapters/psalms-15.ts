@@ -102,5 +102,24 @@ export const PSALMS_15: RichChapterContent = {
     ref: 'Psalm 15 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-psalms-15',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 15 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.15',
+      description: 'Entrance liturgy for the temple[res:bible-odyssey-temple-psalms][res:sefaria-psalms-15] with Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-temple-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Temple Entry & Liturgy',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms for entering the temple and approaching God.',
+    },
+  ],
+
   hasHebrew: true,
 };

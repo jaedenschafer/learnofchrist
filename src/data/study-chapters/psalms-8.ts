@@ -7,8 +7,8 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
  * eyes to heaven and is seized by wonder. How is it that the God whose glory is
  * declared by the stars, whose majesty fills the cosmos, ever turns His attention
  * to human beings? "What is man, that thou art mindful of him?" Yet God does. He
- * has given humanity dominion over creation. He has crowned us with glory and
- * honour. Christ is the fulfillment of this psalm—the Son of Man elevated above
+ * has given humanity dominion over creation[res:bible-odyssey-creation-psalms]. He has crowned us with glory and
+ * honour. Christ is the fulfillment of this psalm—the Son of Man[res:intertextual-psalms-8-nt] elevated above
  * all things.
  */
 export const PSALMS_8: RichChapterContent = {
@@ -18,7 +18,7 @@ export const PSALMS_8: RichChapterContent = {
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
-    'Psalm 8 is a psalm of cosmological wonder. David stands in creation and is struck by a paradox. The God whose name is excellent in all the earth, whose glory is above the heavens, whose power is reflected in every star and storm—this God is mindful of humanity. Not distant. Not remote. Mindful. Aware. Attentive. How can such a vast God care for such small creatures?',
+    'Psalm 8 is a psalm of cosmological wonder. David stands in creation and is struck by a paradox. The God whose name is excellent in all the earth, whose glory is above the heavens[res:sefaria-psalms-8], whose power is reflected in every star and storm—this God is mindful of humanity. Not distant. Not remote. Mindful. Aware. Attentive. How can such a vast God care for such small creatures?',
     'The psalm answers with staggering affirmation. God has given humanity dominion. He has crowned us with glory and honour. He has placed all things under our feet. This is not human achievement. This is divine gift. From beginning to end, the psalm brackets human dignity with wonder at the God who bestows it.',
   ],
 
@@ -129,6 +129,33 @@ export const PSALMS_8: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 8 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-8',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 8 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.8',
+      description: 'Hymn of cosmic praise with rabbinic commentary on human dignity.',
+    },
+    {
+      id: 'intertextual-psalms-8-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 8 in Hebrews 2 & Ephesians 1',
+      url: 'https://intertextual.bible/text/psalm-8',
+      description: 'Shows how the NT applies Psalm 8 to Christ&apos;s exaltation and rule.',
+    },
+    {
+      id: 'bible-odyssey-creation-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Creation Psalms',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Hymns celebrating God&apos;s creation and humanity&apos;s place in it.',
+    },
+  ],
 
   hasHebrew: true,
 };

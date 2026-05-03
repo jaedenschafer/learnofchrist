@@ -4,7 +4,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
  * Psalm 10 — Why Standest Thou Afar Off?
  *
  * The psalm opens with an anguished question: "Why standest thou afar off, O Lord?
- * why hidest thou thyself in times of trouble?" David describes the wicked in
+ * why hidest thou thyself in times of trouble?" David describes the wicked[res:sefaria-psalms-10] in
  * brutal detail—they prey on the helpless, boast in their evil, oppress the poor.
  * Yet the psalm concludes with an answer: God sees. God remembers. "The Lord is
  * King for ever and ever." His silence is not abandonment. It is the pause before
@@ -46,7 +46,7 @@ export const PSALMS_10: RichChapterContent = {
           chapter: 10,
           lines: [
             plain(4, 'The wicked, through the pride of his countenance, will not seek after God: God is not in all his thoughts.'),
-            plain(5, 'His ways are always grievous; thy judgments are far from before him: as for all his enemies, he puffeth at them.'),
+            plain(5, 'His ways are always grievous; thy judgment[res:bible-odyssey-justice-psalms]s are far from before him: as for all his enemies, he puffeth at them.'),
             plain(6, 'He saith in his heart, I shall not be moved: for I shall never be in adversity.'),
             plain(7, 'His mouth is full of cursing and deceit and fraud: under his tongue is mischief and vanity.'),
           ],
@@ -170,6 +170,25 @@ export const PSALMS_10: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 10 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-10',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 10 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.10',
+      description: 'Lament about the wicked with medieval Jewish interpretation.',
+    },
+    {
+      id: 'bible-odyssey-justice-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Justice & God&apos;s Judgment',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms calling for God to judge the wicked and defend the poor.',
+    },
+  ],
 
   hasHebrew: true,
 };

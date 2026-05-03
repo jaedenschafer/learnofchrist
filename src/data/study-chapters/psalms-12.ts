@@ -3,7 +3,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
 /**
  * Psalm 12 — The Purity of God&apos;s Word
  *
- * "Help, Lord; for the godly man ceaseth." The world is full of flattery and lies.
+ * "Help, Lord; for the godly man ceaseth." The world is full of flattery and lies[res:bible-odyssey-word-psalms].
  * Every man speaketh vanity. But then comes the contrast: "The words of the Lord
  * are pure words: as silver tried in a furnace of earth, purified seven times." In
  * a world of lies, God&apos;s word stands as absolute truth, tested and purified,
@@ -124,6 +124,25 @@ export const PSALMS_12: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 12 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-12',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 12 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.12',
+      description: 'Lament about false speech[res:sefaria-psalms-12] with medieval Jewish exegesis.',
+    },
+    {
+      id: 'bible-odyssey-word-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalms of Speech & Truth',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms about lies, false witness, flattery, and God&apos;s true word.',
+    },
+  ],
 
   hasHebrew: true,
 };

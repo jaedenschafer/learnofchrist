@@ -43,7 +43,7 @@ export const JEREMIAH_4: RichChapterContent = {
           kind: 'commentary',
           id: 'jeremiah-4-78mid-1',
           html:
-            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+            'Jeremiah turns from describing the coming invasion to lamenting that he sees it. The prophet does not deliver judgment from a safe distance; his bowels are pained for his people.',
         },
         {
           kind: 'scripture',

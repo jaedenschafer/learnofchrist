@@ -52,7 +52,7 @@ export const PSALMS_62: RichChapterContent = {
           title: 'Damam — "Waits" (Be Silent)',
           script: 'דָּמַם',
           translit: '<strong>Damam</strong> · to wait silently; to be quiet; to endure',
-          description: 'The Hebrew damam suggests waiting in silence, in trust, in patient endurance. It is not an anxious waiting, but a quiet certainty that God will act.',
+          description: 'The Hebrew damam suggests waiting in silence, in trust[res:sefaria-psalms-62], in patient endurance. It is not an anxious waiting, but a quiet certainty that God will act.',
         },
         {
           kind: 'commentary',
@@ -140,6 +140,25 @@ export const PSALMS_62: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 62 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-62',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 62 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.62',
+      description: 'Psalm of trust with refrain[res:bible-odyssey-trust-refrain] with Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-trust-refrain',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Trust Psalms with Refrain',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms emphasizing trust through repeated refrains.',
+    },
+  ],
 
   hasHebrew: true,
 };

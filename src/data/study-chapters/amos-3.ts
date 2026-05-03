@@ -38,7 +38,7 @@ export const AMOS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'amos-3-78mid-1',
           html:
-            'The prophet pivots — from indictment to invitation, from woe to a single open door.',
+            'Amos turns from naming Israel&apos;s privilege to explaining its weight — &quot;you only have I known of all the families of the earth: therefore I will punish you.&quot;',
         },
         {
           kind: 'scripture',
@@ -93,7 +93,7 @@ export const AMOS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'amos-3-78mid-2',
           html:
-            'The prophet pivots — from indictment to invitation, from woe to a single open door.',
+            'Amos turns from naming Israel&apos;s privilege to explaining its weight — &quot;you only have I known of all the families of the earth: therefore I will punish you.&quot;',
         },
         {
           kind: 'scripture',

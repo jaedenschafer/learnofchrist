@@ -3,10 +3,10 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
 /**
  * Psalm 72 — The Davidic King
  *
- * "Give the king thy judgments, O God, and thy righteousness unto the king&apos;s
+ * "Give the king[res:sefaria-psalms-72] thy judgments, O God, and thy righteousness unto the king&apos;s
  * son." This is a royal psalm, a prayer for a just and merciful king who will
  * defend the poor and needy. The Church has seen in this psalm a foreshadowing
- * of Christ, the King whose justice and mercy are perfect, whose reign extends
+ * of Christ[res:intertextual-psalms-72-nt], the King whose justice and mercy are perfect, whose reign extends
  * over all the earth.
  */
 export const PSALMS_72: RichChapterContent = {
@@ -132,6 +132,33 @@ export const PSALMS_72: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 72 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-72',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 72 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.72',
+      description: 'Royal wisdom and justice psalm with Jewish commentary.',
+    },
+    {
+      id: 'intertextual-psalms-72-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 72 & Messianic Kingdom',
+      url: 'https://intertextual.bible/text/psalm-72',
+      description: 'Applied to Christ&apos;s just reign and universal dominion.',
+    },
+    {
+      id: 'bible-odyssey-messiah-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Messianic Psalms',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Royal psalms with eschatological[res:bible-odyssey-messiah-psalms] implications.',
+    },
+  ],
 
   hasHebrew: true,
 };

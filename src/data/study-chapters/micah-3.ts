@@ -36,7 +36,7 @@ export const MICAH_3: RichChapterContent = {
           kind: 'commentary',
           id: 'micah-3-78mid-1',
           html:
-            'Micah pivots — from naming the wound to naming the healer. The next verses move closer to the hope that sustained him.',
+            'The prophet turns from the corrupt heads to the corrupt prophets. Both have sold the people&apos;s welfare for bread; both will face the same silence from God.',
         },
         {
           kind: 'scripture',

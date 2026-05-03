@@ -17,7 +17,7 @@ export const PSALMS_37: RichChapterContent = {
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
   intros: [
-    'Psalm 37 is written for the troubled heart. The psalmist sees the wicked flourishing, their schemes succeeding, their names spoken with respect. The righteous, meanwhile, suffer. They obey and receive no reward. They trust and see no vindication. The natural response is anxiety—fret, worry, the nagging question: "Why am I doing the right thing when evil prospers?" To this weary soul, David speaks with the authority of long experience: "Fret not thyself."',
+    'Psalm 37 is written for the troubled heart. The psalmist sees the wicked flourishing, their schemes succeeding, their names spoken with respect. The righteous, meanwhile, suffer. They obey and receive no reward. They trust[res:sefaria-psalms-37] and see no vindication. The natural response is anxiety—fret, worry, the nagging question: "Why am I doing the right thing when evil prospers?" To this weary soul, David speaks with the authority of long experience: "Fret not thyself."',
     'Yet he does not speak empty comfort. Instead, he points to a hidden transaction. The wicked are being cut off, their prosperity emptied of substance. The meek—the gentle, the humble, the small—are being promised something the whole world cannot see: they shall inherit the earth. This is not the voice of a dreamer. This is the testimony of a man who has learned, over years of watching, that the prosperity of evil is like grass that withers, while the righteousness of the humble is rooted in eternal soil.',
   ],
 
@@ -168,6 +168,25 @@ export const PSALMS_37: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 37 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-37',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 37 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.37',
+      description: 'Long acrostic on trusting God amid injustice[res:bible-odyssey-theodicy-psalms], Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-theodicy-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Theodicy: Why the Wicked Prosper',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms wrestling with injustice and God&apos;s delayed judgment.',
+    },
+  ],
 
   hasHebrew: true,
 };

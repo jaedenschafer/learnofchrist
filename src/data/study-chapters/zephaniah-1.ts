@@ -88,7 +88,7 @@ export const ZEPHANIAH_1: RichChapterContent = {
           kind: 'commentary',
           id: 'zephaniah-1-78mid-1',
           html:
-            'The prophet turns from judgment to remnant — from wrath to a quiet promise that the proud will be removed and the meek preserved.',
+            'The prophet turns from the day of the LORD&apos;s sweep across Judah to the gold and silver that will not deliver them. Wealth is no shield in this book.',
         },
         {
           kind: 'scripture',

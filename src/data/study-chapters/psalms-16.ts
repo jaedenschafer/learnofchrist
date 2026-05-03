@@ -7,7 +7,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
  * alone. But the psalm&apos;s most stunning declaration comes in verse 10: "THOU WILT
  * NOT LEAVE MY SOUL IN HELL; NEITHER WILT THOU SUFFER THINE HOLY ONE TO SEE
  * CORRUPTION." Peter quotes this in Acts 2:25–31, applying it directly to Christ&apos;s
- * resurrection. David&apos;s hope in preservation becomes Christ&apos;s triumph over death.
+ * resurrection[res:intertextual-psalms-16-nt]. David&apos;s hope in preservation becomes Christ&apos;s triumph over death.
  */
 export const PSALMS_16: RichChapterContent = {
   bookSlug: 'psalms',
@@ -16,7 +16,7 @@ export const PSALMS_16: RichChapterContent = {
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
   intros: [
-    'Psalm 16 is a psalm of trust spoken by a man who knows something about abandonment, loss, and the fear of death. David asks God to preserve him, to keep him safe. The psalm is framed by the decision to trust: at the beginning, "in thee do I put my trust," and at the end, "I shall not be moved" because the Lord is at my right hand. Yet the heart of the psalm is one of the most mysterious and profound statements in the Old Testament: a declaration that God will not leave His holy one to see corruption—a statement that will echo in the Resurrection.',
+    'Psalm 16 is a psalm of trust spoken by a man who knows something about abandonment, loss, and the fear of death. David asks God to preserve[res:sefaria-psalms-16] him, to keep him safe. The psalm is framed by the decision to trust: at the beginning, "in thee do I put my trust," and at the end, "I shall not be moved" because the Lord is at my right hand. Yet the heart of the psalm is one of the most mysterious and profound statements in the Old Testament: a declaration that God will not leave His holy one to see corruption—a statement that will echo in the Resurrection.',
     'The psalm moves from David&apos;s personal trust, through his choice of the Lord above all other loves, to a statement that transcends David himself. Peter in Acts 2 will hear in verse 10 the voice of the Christ—the Holy One who was not left in death, whose body did not decay, who rose triumphant.',
   ],
 
@@ -38,7 +38,7 @@ export const PSALMS_16: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-16-78mid-1',
           html:
-            'From the blessing of inheritance to the blessing of presence. God as portion becomes God as guide.',
+            'From the blessing of inheritance[res:bible-odyssey-inheritance-psalms] to the blessing of presence. God as portion becomes God as guide.',
         },
         {
           kind: 'scripture',
@@ -128,7 +128,7 @@ export const PSALMS_16: RichChapterContent = {
           kind: 'commentary',
           id: 'ps16-hell-corruption',
           html:
-            'The phrase "hell" here refers to Sheol, the grave, the place of the dead. David declares that God will not abandon him to the grave, that his soul will not be left there forever, that his body will not see corruption. This is the hope of the resurrection. For those who trust in God, death is not the end. It is the threshold of life eternal.',
+            'The phrase "hell" here refers to Sheol, the grave, the place of the dead. David declares that God will not abandon him to the grave, that his soul will not be left there forever, that his body will not see corruption. This is the hope of the resurrection[res:intertextual-psalms-16-nt]. For those who trust in God, death is not the end. It is the threshold of life eternal.',
         },
         {
           kind: 'reflection',
@@ -144,6 +144,33 @@ export const PSALMS_16: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 16 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-16',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 16 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.16',
+      description: 'Psalm of trust and safety with medieval Jewish interpretation.',
+    },
+    {
+      id: 'intertextual-psalms-16-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 16 in Acts 2 & 1 Corinthians 15',
+      url: 'https://intertextual.bible/text/psalm-16',
+      description: 'Apostolic interpretation of Psalm 16 as prophecy of resurrection.',
+    },
+    {
+      id: 'bible-odyssey-inheritance-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Inheritance & Possession',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms about God as inheritance and eternal possession.',
+    },
+  ],
 
   hasHebrew: true,
 };

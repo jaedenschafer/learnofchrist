@@ -36,7 +36,7 @@ export const MICAH_7: RichChapterContent = {
           kind: 'commentary',
           id: 'micah-7-78mid-1',
           html:
-            'Micah pivots — from naming the wound to naming the healer. The next verses move closer to the hope that sustained him.',
+            'Micah turns from lament to confession of trust — &quot;I will look unto the LORD; I will wait for the God of my salvation.&quot; The book ends in hope.',
         },
         {
           kind: 'scripture',
@@ -118,7 +118,7 @@ export const MICAH_7: RichChapterContent = {
           kind: 'commentary',
           id: 'micah-7-78mid-2',
           html:
-            'Micah pivots — from naming the wound to naming the healer. The next verses move closer to the hope that sustained him.',
+            'Micah turns from lament to confession of trust — &quot;I will look unto the LORD; I will wait for the God of my salvation.&quot; The book ends in hope.',
         },
         {
           kind: 'scripture',

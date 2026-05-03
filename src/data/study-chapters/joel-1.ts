@@ -37,7 +37,7 @@ export const JOEL_1: RichChapterContent = {
           kind: 'commentary',
           id: 'joel-1-78mid-1',
           html:
-            'The oracle turns. Joel is short, but he never lets devastation be the whole story — restoration is always close behind.',
+            'The locust devastation turns into a call to the priests — &quot;Gird yourselves, and lament.&quot; The disaster becomes a summons to mourn before the LORD.',
         },
         {
           kind: 'scripture',
@@ -109,7 +109,7 @@ export const JOEL_1: RichChapterContent = {
           kind: 'commentary',
           id: 'joel-1-78mid-2',
           html:
-            'The oracle turns. Joel is short, but he never lets devastation be the whole story — restoration is always close behind.',
+            'The locust devastation turns into a call to the priests — &quot;Gird yourselves, and lament.&quot; The disaster becomes a summons to mourn before the LORD.',
         },
         {
           kind: 'scripture',

@@ -5,10 +5,10 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
  *
  * "My God, my God, why hast thou forsaken me?" These opening words haunt the
  * reader with their raw anguish. Yet as the psalm unfolds, it becomes one of
- * the most detailed prophecies of Christ's crucifixion. "They pierced my hands
+ * the most detailed prophecies of Christ's crucifixion[res:intertextual-psalms-22-nt]. "They pierced my hands
  * and my feet." "They part my garments among them, and cast lots upon my
  * vesture." What begins in the deepest darkness of abandonment ends in a vision
- * of worldwide redemption and praise. This psalm is the prayer of the suffering
+ * of worldwide redemption and praise. This psalm is the prayer of the suffering[res:bible-odyssey-passion-psalms]
  * righteous, culminating in the victory of the Cross.
  */
 export const PSALMS_22: RichChapterContent = {
@@ -75,7 +75,7 @@ export const PSALMS_22: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms22-pierced',
-          html: 'The prophecy is explicit and literal: "They pierced my hands and my feet." In the time when Psalm 22 was written, crucifixion was not a Jewish form of execution. It was a Roman torture reserved for slaves and the worst criminals. Yet here, centuries before Rome came to power, the psalmist describes with anatomical precision the sufferings of one hanged and pierced. This is not allegory. This is prophecy.',
+          html: 'The prophecy is explicit and literal: "They pierced my hands and my feet." In the time when Psalm 22 was written, crucifixion[res:intertextual-psalms-22-nt] was not a Jewish form of execution. It was a Roman torture reserved for slaves and the worst criminals. Yet here, centuries before Rome came to power, the psalmist describes with anatomical precision the sufferings of one hanged and pierced. This is not allegory. This is prophecy.',
         },
         {
           kind: 'carry',
@@ -84,7 +84,7 @@ export const PSALMS_22: RichChapterContent = {
         {
           kind: 'reflection',
           id: 'psalms22-darkness',
-          prompt: 'Have you ever felt abandoned by God, even if only for a season? How does knowing that Christ Himself prayed "Why hast thou forsaken me?" change how you hold that experience?',
+          prompt: 'Have you ever felt abandoned by God, even if only for a season? How does knowing that Christ Himself prayed "Why hast thou[res:sefaria-psalms-22] forsaken me?" change how you hold that experience?',
         },
       ],
     },
@@ -153,6 +153,33 @@ export const PSALMS_22: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 22 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-22',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 22 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.22',
+      description: 'Suffering lament with Jewish commentary on vindication.',
+    },
+    {
+      id: 'intertextual-psalms-22-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 22 in Matthew 27 & Mark 15',
+      url: 'https://intertextual.bible/text/psalm-22',
+      description: 'Gospel narrative weaves Psalm 22 into the crucifixion account.',
+    },
+    {
+      id: 'bible-odyssey-passion-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalms of Abandonment & Vindication',
+      url: 'https://www.bibleodyssey.org/dictionary/lament-psalms/',
+      description: 'Psalms on suffering, death, and faith in resurrection.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -3,11 +3,11 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
 /**
  * Psalm 40 — The Perfect Obedience
  *
- * "I waited patiently for the Lord; and he inclined unto me, and heard my
+ * "I waited[res:sefaria-psalms-40] patiently for the Lord; and he inclined unto me, and heard my
  * cry." But the heart of this psalm is the extraordinary declaration: "Sacrifice
  * and offering thou didst not desire; mine ears hast thou opened... Lo, I come...
  * I delight to do thy will, O my God: yea, thy law is within my heart."
- * Hebrews 10:5–9 identifies this as Christ speaking—the One whose obedience
+ * Hebrews[res:intertextual-psalms-40-nt] 10:5–9 identifies this as Christ speaking—the One whose obedience[res:bible-odyssey-obedience-psalms]
  * replaced all sacrifice.
  */
 export const PSALMS_40: RichChapterContent = {
@@ -132,7 +132,7 @@ export const PSALMS_40: RichChapterContent = {
           id: 'psalms40-christ-hebrews',
           title: 'Christ Connection — Hebrews 10:5–9',
           html:
-            'The author of Hebrews identifies Psalm 40:6–8 as the words of Christ: "A body hast thou prepared me... Lo, I come to do thy will, O God." Hebrews goes on to declare: "By the which will we are sanctified through the offering of the body of Jesus Christ once for all." Christ is the One whose obedience replaces all sacrifice. He is the perfect servant who delights to do God&apos;s will. And through His offering, all who believe are made perfect, forever sanctified. Psalm 40 is the portrait of perfect obedience. Christ is that portrait made flesh.',
+            'The author of Hebrews identifies Psalm 40:6–8 as the words of Christ: "A body hast thou prepared me... Lo, I come to do thy will[res:intertextual-psalms-40-nt], O God." Hebrews goes on to declare: "By the which will we are sanctified through the offering of the body of Jesus Christ once for all." Christ is the One whose obedience replaces all sacrifice. He is the perfect servant who delights to do God&apos;s will. And through His offering, all who believe are made perfect, forever sanctified. Psalm 40 is the portrait of perfect obedience. Christ is that portrait made flesh.',
         },
         {
           kind: 'carry',
@@ -153,6 +153,33 @@ export const PSALMS_40: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 40 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-40',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 40 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.40',
+      description: 'Thanksgiving and petition with Jewish medieval commentary.',
+    },
+    {
+      id: 'intertextual-psalms-40-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 40 in Hebrews 10',
+      url: 'https://intertextual.bible/text/psalm-40',
+      description: 'Hebrews applies Psalm 40 to Christ&apos;s obedience and body.',
+    },
+    {
+      id: 'bible-odyssey-obedience-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Obedience Over Sacrifice',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms valuing heart obedience above ritual offerings.',
+    },
+  ],
 
   hasHebrew: true,
 };

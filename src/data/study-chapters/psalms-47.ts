@@ -36,7 +36,7 @@ export const PSALMS_47: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'ps47-summons-reign',
+          id: 'ps47-summons-reign[res:bible-odyssey-enthronement-psalms]',
           html:
             'All nations are summoned to clap. Now the vision deepens: God reigns over all the earth.',
         },
@@ -70,7 +70,7 @@ export const PSALMS_47: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms47-high',
           html:
-            '"For the Lord most high is terrible; he is a great King over all the earth." The King whose majesty the psalm celebrates is not merely Israel&apos;s king. He is King over all the earth. Not just some nations. Not just those who believe. Over all. His reign is universal, even if not all recognize it.',
+            '"For the Lord most high is terrible; he is a great King over all the earth." The King whose majesty the psalm celebrates is not merely Israel&apos;s king[res:sefaria-psalms-47]. He is King over all the earth. Not just some nations. Not just those who believe. Over all. His reign is universal, even if not all recognize it.',
         },
         {
           kind: 'commentary',
@@ -159,6 +159,25 @@ export const PSALMS_47: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 47 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-47',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 47 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.47',
+      description: 'Hymn of God&apos;s universal kingship with Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-enthronement-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Enthronement Psalms',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms celebrating God&apos;s eternal reign and coronation.',
+    },
+  ],
 
   hasHebrew: true,
 };

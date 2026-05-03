@@ -16,7 +16,7 @@ export const PSALMS_9: RichChapterContent = {
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
   intros: [
-    'Psalm 9 celebrates God&apos;s judgment of the nations. David does not sing in detachment but from experience. He has seen God&apos;s judgment fall upon those who would destroy the righteous. He has experienced God&apos;s mercy as a shield against their hatred. The psalm opens with thanksgiving—"I will praise thee, O Lord, with my whole heart"—and moves into a double refrain: God judges the wicked and saves the oppressed.',
+    'Psalm 9 celebrates God&apos;s judgment of the nations. David does not sing in detachment but from experience. He has seen God&apos;s judgment fall upon those who would destroy the righteous. He has experienced God&apos;s mercy as a shield against their hatred. The psalm opens with thanksgiving[res:sefaria-psalms-9]—"I will praise[res:bible-odyssey-thanksgiving-psalms] thee, O Lord, with my whole heart"—and moves into a double refrain: God judges the wicked and saves the oppressed.',
     'What makes this psalm remarkable is that it does not pit justice against mercy. Instead, it shows them as two faces of the same reality. God&apos;s judgment on the wicked is the same action by which He saves the oppressed. To break the power of those who oppress is to free those who suffer. The refuge the righteous find in God comes precisely because God is willing to judge.',
   ],
 
@@ -183,6 +183,25 @@ export const PSALMS_9: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 9 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 9 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.9',
+      description: 'Acrostic psalm of thanksgiving for victory with Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-thanksgiving-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Thanksgiving Psalms',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms sung after deliverance, celebrating God&apos;s rescue.',
+    },
+  ],
 
   hasHebrew: true,
 };

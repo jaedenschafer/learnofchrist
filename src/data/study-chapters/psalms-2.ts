@@ -4,7 +4,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
  * Psalm 2 — The Anointed King
  *
  * Why do the heathen rage? Why do the kings of the earth set themselves against
- * the Lord and His anointed? This is the second psalm, and it is one of the
+ * the Lord and His anointed[res:intertextual-psalm[res:bible-odyssey-royal-psalms]s-2-nt][res:sefaria-psalms-2]? This is the second psalm, and it is one of the
  * most explicitly Messianic texts in the Old Testament. While the psalmist may
  * have written of an earthly king of Israel, the church has always read this
  * psalm as a prophecy of Christ—the Son whom the Father declares and empowers,
@@ -48,7 +48,7 @@ export const PSALMS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms2-anointed',
           html:
-            'The rebellion is "against the Lord, and against his anointed." The anointed one is God&apos;s representative, His chosen instrument. To rebel against the anointed is to rebel against the Lord Himself. There is no separation. The two are so identified that to touch one is to touch the other. Throughout the Old Testament, the anointed one may be the king of Israel, the priest, the prophet. But here, in this psalm, the church has always seen the ultimate anointed one—the Messiah, the Christ, the Son of God Himself.',
+            'The rebellion is "against the Lord, and against his anointed." The anointed one is God&apos;s representative, His chosen instrument. To rebel against the anointed is to rebel against the Lord Himself. There is no separation. The two are so identified that to touch one is to touch the other. Throughout the Old Testament, the anointed one may be the king of Israel, the priest, the prophet. But here, in this psalm, the church has always seen the ultimate anointed[res:intertextual-psalms-2-nt] one—the Messiah, the Christ, the Son of God Himself.',
         },
         {
           kind: 'hebrew',
@@ -113,7 +113,7 @@ export const PSALMS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms2-inheritance',
           html:
-            'What is the inheritance of this Son? "I shall give thee the heathen for thine inheritance, and the uttermost parts of the earth for thy possession." The nations themselves are the inheritance. Not Israel alone, but every people, every tongue, every nation will be gathered under the rule of God&apos;s anointed. And His rule will be total. "Thou shalt break them with a rod of iron; thou shalt dash them in pieces like a potter&apos;s vessel." This is not gentle. This is not negotiation. This is the victory of the righteous over the forces that oppose God.',
+            'What is the inheritance of this Son[res:intertextual-psalms-2-nt]? "I shall give thee the heathen for thine inheritance, and the uttermost parts of the earth for thy possession." The nations themselves are the inheritance. Not Israel alone, but every people, every tongue, every nation will be gathered under the rule of God&apos;s anointed. And His rule will be total. "Thou shalt break them with a rod of iron; thou shalt dash them in pieces like a potter&apos;s vessel." This is not gentle. This is not negotiation. This is the victory of the righteous over the forces that oppose God.',
         },
         {
           kind: 'christ',
@@ -192,6 +192,33 @@ export const PSALMS_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 2 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.2',
+      description: 'Royal psalm with Jewish interpretations of messianic kingship.',
+    },
+    {
+      id: 'intertextual-psalms-2-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 2 in Acts 4, Hebrews 1, Revelation',
+      url: 'https://intertextual.bible/text/psalm-2',
+      description: 'Shows how the NT applies Psalm 2 to Christ&apos;s anointing and rule.',
+    },
+    {
+      id: 'bible-odyssey-royal-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Royal Psalms',
+      url: 'https://www.bibleodyssey.org/dictionary/royal-psalms/',
+      description: 'Explains the genre and theological role of psalms celebrating an anointed king.',
+    },
+  ],
 
   hasHebrew: true,
 };

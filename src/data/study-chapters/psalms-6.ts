@@ -3,7 +3,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
 /**
  * Psalm 6 — Deliver Me from My Anguish
  *
- * David cries out from deep distress: "O Lord, rebuke me not in thine anger."
+ * David cries out from deep distress: "O Lord[res:bible-odyssey-illness-psalms], rebuke me not in thine anger."
  * His body is tormented, his soul is vexed. "I am weary with my groaning; all
  * the night make I my bed to swim; I water my couch with my tears." Yet in
  * the midst of this darkness, faith rises. "The Lord hath heard my supplication;
@@ -150,6 +150,25 @@ export const PSALMS_6: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 6 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 6 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.6',
+      description: 'Lament in illness[res:sefaria-psalms-6] with Jewish medieval commentaries.',
+    },
+    {
+      id: 'bible-odyssey-illness-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalms of Sickness & Healing',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Prayers from beds of illness and times of bodily weakness.',
+    },
+  ],
 
   hasHebrew: true,
 };

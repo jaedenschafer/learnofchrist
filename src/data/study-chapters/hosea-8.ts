@@ -85,7 +85,7 @@ export const HOSEA_8: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea-8-78mid-1',
           html:
-            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+            'The trumpet sounds, the calf is broken, the harvest fails. Hosea presses the same truth from a third angle — what Israel sows, she will reap.',
         },
         {
           kind: 'scripture',

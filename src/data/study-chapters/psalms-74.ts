@@ -5,7 +5,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
  *
  * "O God, why hast thou cast us off for ever? why doth thine anger smoke
  * against the sheep of thy pasture?" This is a psalm of lament over the ruins
- * of the temple. The enemy has come and desecrated the sanctuary. And the
+ * of the temple. The enemy has come and desecrated the sanctuary[res:sefaria-psalms-74]. And the
  * psalmist cries out, asking why God has permitted this devastation. Yet
  * beneath the lament lies a deeper faith: even in ruins, God is remembered.
  */
@@ -133,6 +133,25 @@ export const PSALMS_74: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 74 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-74',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 74 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.74',
+      description: 'Lament over temple destruction with Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-temple-destruction',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Temple Destruction & Renewal',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms grieving desecration[res:bible-odyssey-temple-destruction] of the sanctuary.',
+    },
+  ],
 
   hasHebrew: true,
 };

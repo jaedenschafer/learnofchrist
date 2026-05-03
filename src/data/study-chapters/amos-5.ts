@@ -88,7 +88,7 @@ export const AMOS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'amos-5-78mid-1',
           html:
-            'The prophet pivots — from indictment to invitation, from woe to a single open door.',
+            'The prophet pivots from naming the wound to naming the medicine — &quot;Seek good, and not evil, that ye may live.&quot;',
         },
         {
           kind: 'scripture',

@@ -6,7 +6,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
  * "Surely God is good to Israel, even to such as are of a clean heart...My
  * flesh and my heart faileth: but God is the strength of my heart, and my
  * portion for ever." This psalm documents a spiritual crisis and its resolution.
- * The psalmist sees the wicked prosper and questions God&apos;s justice. Yet the
+ * The psalmist sees the wicked prosper[res:sefaria-psalms-73] and questions God&apos;s justice. Yet the
  * crisis is resolved not through explanation, but through encounter—through
  * entering God&apos;s presence.
  */
@@ -49,7 +49,7 @@ export const PSALMS_73: RichChapterContent = {
           title: 'Qinah — "Envious" (Jealous)',
           script: 'קִנְאָה',
           translit: '<strong>Qinah</strong> · envy, jealousy, zeal',
-          description: 'The Hebrew word qinah speaks of envy that burns, of a jealous emotion that consumes. The psalmist is not calmly observing injustice. He is burning with it, consumed by the awareness of the wicked prospering.',
+          description: 'The Hebrew word qinah speaks of envy that burns, of a jealous emotion that consumes. The psalmist is not calmly observing injustice[res:bible-odyssey-theodicy-wisdom]. He is burning with it, consumed by the awareness of the wicked prospering.',
         },
         {
           kind: 'commentary',
@@ -129,6 +129,25 @@ export const PSALMS_73: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 73 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-73',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 73 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.73',
+      description: 'Wisdom psalm on theodicy with Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-theodicy-wisdom',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Theodicy in Wisdom',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Wisdom reflection on why the wicked thrive and faith persists.',
+    },
+  ],
 
   hasHebrew: true,
 };

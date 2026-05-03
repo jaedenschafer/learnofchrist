@@ -3,7 +3,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
 /**
  * Psalm 70 — Make Haste, O God
  *
- * "Make haste, O God, to deliver me; make haste to help me, O Lord." This is
+ * "Make haste, O God, to deliver me; make haste to help[res:sefaria-psalms-70] me, O Lord." This is
  * the shortest and most urgent of the psalms. It is almost a prayer distilled
  * to its essence: a desperate cry for God to act quickly. Yet in that urgency
  * is profound faith—the conviction that God will come, that help is not
@@ -37,7 +37,7 @@ export const PSALMS_70: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms70-haste',
-          html: 'The psalm begins with an imperative repeated twice: "Make haste, make haste." This is not a polite petition. This is urgency pressed to its limit. The psalmist cannot articulate a long prayer. He can only cry out: Do not delay. Come quickly.',
+          html: 'The psalm begins with an imperative repeated twice: "Make haste, make haste." This is not a polite petition[res:bible-odyssey-urgent-prayer]. This is urgency pressed to its limit. The psalmist cannot articulate a long prayer. He can only cry out: Do not delay. Come quickly.',
         },
         {
           kind: 'hebrew',
@@ -121,6 +121,25 @@ export const PSALMS_70: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 70 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-70',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 70 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.70',
+      description: 'Short urgent prayer (variant of 40), Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-urgent-prayer',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Urgent & Hasty Prayer',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Short psalms of urgent petition in crisis.',
+    },
+  ],
 
   hasHebrew: true,
 };

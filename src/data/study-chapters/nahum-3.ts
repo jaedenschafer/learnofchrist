@@ -35,7 +35,7 @@ export const NAHUM_3: RichChapterContent = {
           kind: 'commentary',
           id: 'nahum-3-78mid-1',
           html:
-            'The oracle turns — Nineveh&apos;s judgment described, then named, then sealed. The book is short because the verdict is final.',
+            'Nineveh&apos;s pride is named, then her end. Nahum turns from the city&apos;s violence to her funeral — &quot;all that hear the bruit of thee shall clap the hands over thee.&quot;',
         },
         {
           kind: 'scripture',
@@ -115,7 +115,7 @@ export const NAHUM_3: RichChapterContent = {
           kind: 'commentary',
           id: 'nahum-3-78mid-2',
           html:
-            'The oracle turns — Nineveh&apos;s judgment described, then named, then sealed. The book is short because the verdict is final.',
+            'Nineveh&apos;s pride is named, then her end. Nahum turns from the city&apos;s violence to her funeral — &quot;all that hear the bruit of thee shall clap the hands over thee.&quot;',
         },
         {
           kind: 'scripture',

@@ -3,7 +3,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
 /**
  * Psalm 42 — The Living Water
  *
- * "As the hart panteth after the water brooks, so panteth my soul after thee,
+ * "As the hart panteth after the water brooks, so panteth my soul[res:sefaria-psalms-42] after thee,
  * O God." The psalmist is thirsty—not for water, but for the presence of God.
  * "Why art thou cast down, O my soul?" he repeats throughout the psalm.
  * Despair and hope struggle together. Christ is the Living Water (John 4),
@@ -17,7 +17,7 @@ export const PSALMS_42: RichChapterContent = {
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
   intros: [
     'Psalm 42 begins with an image of desperate thirst. The hart—the deer—pants after the water brooks. All its being is oriented toward water. It runs, it seeks, it yearns for the thing it needs to live. And the psalmist says: "So panteth my soul after thee, O God." This is not polite religion. This is desperation. This is the expression of someone whose whole being is bent toward God, whose need for God&apos;s presence is as essential as water to the deer.',
-    'Yet the psalm is not only longing. It is also struggle. "Why art thou cast down, O my soul? and why art thou disquieted in me? hope thou in God: for I shall yet praise him for the help of his countenance." The refrain echoes again and again, a psalmist talking to himself, exhorting his own soul not to give way to despair. This is the psalm of someone in the fight between faith and doubt, between hope and despair, between the memory of what God has done and the present feeling that He is absent.',
+    'Yet the psalm is not only longing[res:bible-odyssey-thirsting-psalms]. It is also struggle. "Why art thou cast down, O my soul? and why art thou disquieted in me? hope thou in God: for I shall yet praise him for the help of his countenance." The refrain echoes again and again, a psalmist talking to himself, exhorting his own soul not to give way to despair. This is the psalm of someone in the fight between faith and doubt, between hope and despair, between the memory of what God has done and the present feeling that He is absent.',
   ],
 
   sections: [
@@ -146,6 +146,25 @@ export const PSALMS_42: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 42 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-42',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 42 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.42',
+      description: 'Lament with longing for God with Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-thirsting-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Thirst for God',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms expressing deep longing for God&apos;s presence.',
+    },
+  ],
 
   hasHebrew: true,
 };

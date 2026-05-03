@@ -6,7 +6,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
  * "I will take heed to my ways, that I sin not with my tongue." David
  * resolves silence in the face of the wicked. But then a greater truth breaks
  * through: "Lord, make me to know mine end, and the measure of my days; what
- * it is." The psalm is a meditation on human mortality and the call to use
+ * it is." The psalm is a meditation on human mortality[res:sefaria-psalms-39] and the call to use
  * one&apos;s days well. "Redeem the time," Paul will later echo. A call to
  * consider our end so that we may live truly.
  */
@@ -155,6 +155,25 @@ export const PSALMS_39: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 39 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-39',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 39 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.39',
+      description: 'Meditation on mortality with medieval Jewish interpretation.',
+    },
+    {
+      id: 'bible-odyssey-brevity-life',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Brevity & Transience of Life',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms meditating on human mortality and life&apos;s fleeting[res:bible-odyssey-brevity-life] nature.',
+    },
+  ],
 
   hasHebrew: true,
 };

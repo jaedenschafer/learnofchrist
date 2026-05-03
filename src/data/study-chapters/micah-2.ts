@@ -88,7 +88,7 @@ export const MICAH_2: RichChapterContent = {
           kind: 'commentary',
           id: 'micah-2-78mid-1',
           html:
-            'Micah pivots — from naming the wound to naming the healer. The next verses move closer to the hope that sustained him.',
+            'Micah pivots from indicting those who covet fields to promising that the Shepherd-King will gather the remnant Himself.',
         },
         {
           kind: 'scripture',

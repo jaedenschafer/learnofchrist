@@ -88,7 +88,7 @@ export const HOSEA_9: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea-9-78mid-1',
           html:
-            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+            'Hosea turns from describing Israel&apos;s coming exile to remembering Baal-peor — the moment her destiny was decided long before now.',
         },
         {
           kind: 'scripture',

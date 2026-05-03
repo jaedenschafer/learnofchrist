@@ -36,7 +36,7 @@ export const NAHUM_1: RichChapterContent = {
           kind: 'commentary',
           id: 'nahum-1-78mid-1',
           html:
-            'The oracle turns — Nineveh&apos;s judgment described, then named, then sealed. The book is short because the verdict is final.',
+            'The prophet pivots from naming the LORD&apos;s wrath to naming His goodness to those who trust Him. The same God is fortress to the faithful and fire to the proud.',
         },
         {
           kind: 'scripture',
@@ -101,7 +101,7 @@ export const NAHUM_1: RichChapterContent = {
           kind: 'commentary',
           id: 'nahum-1-78mid-2',
           html:
-            'The oracle turns — Nineveh&apos;s judgment described, then named, then sealed. The book is short because the verdict is final.',
+            'The prophet pivots from naming the LORD&apos;s wrath to naming His goodness to those who trust Him. The same God is fortress to the faithful and fire to the proud.',
         },
         {
           kind: 'scripture',

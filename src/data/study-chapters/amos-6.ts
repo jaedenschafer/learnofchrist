@@ -37,7 +37,7 @@ export const AMOS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'amos-6-78mid-1',
           html:
-            'The prophet pivots — from indictment to invitation, from woe to a single open door.',
+            'Amos pivots from the woe to those at ease in Zion to the LORD&apos;s oath against the pride of Jacob. Comfort here is itself the indictment.',
         },
         {
           kind: 'scripture',
@@ -85,7 +85,7 @@ export const AMOS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'amos-6-78mid-2',
           html:
-            'The prophet pivots — from indictment to invitation, from woe to a single open door.',
+            'Amos pivots from the woe to those at ease in Zion to the LORD&apos;s oath against the pride of Jacob. Comfort here is itself the indictment.',
         },
         {
           kind: 'scripture',

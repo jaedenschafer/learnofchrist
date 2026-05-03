@@ -31,17 +31,6 @@ export const CHRONICLES_1_1: RichChapterContent = {
     ref: '1 Chronicles 1 · Study Guide',
   },
 
-  resources: [
-    {
-      id: 'sefaria-genealogies',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Biblical Genealogies',
-      url: 'https://www.sefaria.org/search?q=genealogy&tab=text',
-      description: 'Open-access Sefaria collection of genealogical texts from Scripture.',
-    },
-  ],
-
   sections: [
     /* ─── 1 Chronicles 1:1–3 — From Adam Through Noah ──────────────────── */
     {
@@ -61,7 +50,7 @@ export const CHRONICLES_1_1: RichChapterContent = {
           kind: 'commentary',
           id: 'adam-line',
           html:
-            'The genealogy opens with the line from Adam — not Adam the story, but Adam the name in a chain. Notice what the Chronicler does not include: no creation account, no temptation, no fall. The Chronicler is not interested in theology of origins for its own sake. The Chronicler is interested in continuity — the line that runs from the beginning of humanity to the present day. By listing Adam first, the text says: You are human. You belong to the human race, created in God&apos;s image. [res:sefaria-genealogies]',
+            'The genealogy opens with the line from Adam — not Adam the story, but Adam the name in a chain. Notice what the Chronicler does not include: no creation account, no temptation, no fall. The Chronicler is not interested in theology of origins for its own sake. The Chronicler is interested in continuity — the line that runs from the beginning of humanity to the present day. By listing Adam first, the text says: You are human. You belong to the human race, created in God&apos;s image.',
         },
         {
           kind: 'hebrew',
@@ -76,13 +65,13 @@ export const CHRONICLES_1_1: RichChapterContent = {
           kind: 'commentary',
           id: 'antediluvians',
           html:
-            'The antediluvian patriarchs — Enosh, Kenan, Mahalaleel, Jered, Henoch, Methuselah, Lamech — live in a different age, before the flood. The genealogy does not linger on them. It simply names them, preserving their memory in the record. Two stand out: Henoch, who "walked with God and was not, for God took him" (mentioned without genealogical detail here, but more fully in Genesis 5); and Methuselah, the longest-lived human. These are not merely historical figures — they are witnesses to a world that existed before the judgment of the flood. [res:sefaria-genealogies]',
+            'The antediluvian patriarchs — Enosh, Kenan, Mahalaleel, Jered, Henoch, Methuselah, Lamech — live in a different age, before the flood. The genealogy does not linger on them. It simply names them, preserving their memory in the record. Two stand out: Henoch, who "walked with God and was not, for God took him" (mentioned without genealogical detail here, but more fully in Genesis 5); and Methuselah, the longest-lived human. These are not merely historical figures — they are witnesses to a world that existed before the judgment of the flood.',
         },
         {
           kind: 'commentary',
           id: 'noah-figure',
           html:
-            'Noah appears as the tenth generation from Adam, the man through whom God&apos;s purposes continue after the judgment of the flood. The Chronicler will name Noah&apos;s sons — Shem, Ham, Japheth — and through them, the genealogy opens outward to the whole world. Noah is not the end of history; he is a hinge on which history turns. [res:sefaria-genealogies]',
+            'Noah appears as the tenth generation from Adam, the man through whom God&apos;s purposes continue after the judgment of the flood. The Chronicler will name Noah&apos;s sons — Shem, Ham, Japheth — and through them, the genealogy opens outward to the whole world. Noah is not the end of history; he is a hinge on which history turns.',
         },
         {
           kind: 'carry',
@@ -131,13 +120,13 @@ export const CHRONICLES_1_1: RichChapterContent = {
           kind: 'commentary',
           id: 'table-of-nations',
           html:
-            'After Noah, the genealogy branches into three directions — the sons of Japheth (the Indo-European peoples of the Mediterranean and north), the sons of Ham (the African and Middle Eastern peoples), and the sons of Shem (from whom the line of Abraham will emerge). This is the "Table of Nations" — an ancient way of mapping out the known world as it was understood in the time of the biblical writers. Every nation known to Israel is here, descended from one of Noah\ [res:sefaria-genealogies]'s three sons.',
+            'After Noah, the genealogy branches into three directions — the sons of Japheth (the Indo-European peoples of the Mediterranean and north), the sons of Ham (the African and Middle Eastern peoples), and the sons of Shem (from whom the line of Abraham will emerge). This is the "Table of Nations" — an ancient way of mapping out the known world as it was understood in the time of the biblical writers. Every nation known to Israel is here, descended from one of Noah\'s three sons.',
         },
         {
           kind: 'commentary',
           id: 'nimrod-mighty',
           html:
-            'Nimrod appears as the first mighty man — "he began to be mighty upon the earth." He is remembered as a great hunter and builder. But the genealogy does not glorify him. He is simply named, noted, and the genealogy continues. In the ancient Near Eastern understanding, Nimrod represents human power and ambition before the covenant line narrows toward Abraham. [res:sefaria-genealogies]',
+            'Nimrod appears as the first mighty man — "he began to be mighty upon the earth." He is remembered as a great hunter and builder. But the genealogy does not glorify him. He is simply named, noted, and the genealogy continues. In the ancient Near Eastern understanding, Nimrod represents human power and ambition before the covenant line narrows toward Abraham.',
         },
         {
           kind: 'scripture',
@@ -155,7 +144,7 @@ export const CHRONICLES_1_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c1-1-split-1',
           html:
-            'The sons of Canaan listed here — Sidon, Heth, the Jebusites, Amorites, Girgashites, Hivites, Arkites, Sinites, Arvadites, Zemarites, Hamathites — are the very peoples that Israel will encounter in the conquest. They are named in the genealogy because they matter. God knows every nation. [res:sefaria-genealogies]',
+            'The sons of Canaan listed here — Sidon, Heth, the Jebusites, Amorites, Girgashites, Hivites, Arkites, Sinites, Arvadites, Zemarites, Hamathites — are the very peoples that Israel will encounter in the conquest. They are named in the genealogy because they matter. God knows every nation.',
         },
         {
           kind: 'scripture',
@@ -170,7 +159,7 @@ export const CHRONICLES_1_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c1-1-split-2',
           html:
-            'From Shem, the genealogy narrows. Shem to Arphaxad to Eber — and with Eber, we find the root of "Hebrew." His son Peleg means "division," and in his time the earth was divided, likely at Babel. But the covenant line does not break; it continues through Peleg. [res:sefaria-genealogies]',
+            'From Shem, the genealogy narrows. Shem to Arphaxad to Eber — and with Eber, we find the root of "Hebrew." His son Peleg means "division," and in his time the earth was divided, likely at Babel. But the covenant line does not break; it continues through Peleg.',
         },
         {
           kind: 'scripture',
@@ -186,13 +175,13 @@ export const CHRONICLES_1_1: RichChapterContent = {
           kind: 'commentary',
           id: 'canaan-peoples',
           html:
-            'The sons of Canaan listed here — Sidon, Heth, the Jebusites, Amorites, and others — are the very peoples that Israel will encounter and displace in the conquest. The genealogy knows the names of the peoples God\ [res:sefaria-genealogies]'s people will face. They are not strangers; they are part of the human family descended from Noah. And yet they are also the peoples who will stand against Israel — a tension the genealogy holds without resolving.',
+            'The sons of Canaan listed here — Sidon, Heth, the Jebusites, Amorites, and others — are the very peoples that Israel will encounter and displace in the conquest. The genealogy knows the names of the peoples God\'s people will face. They are not strangers; they are part of the human family descended from Noah. And yet they are also the peoples who will stand against Israel — a tension the genealogy holds without resolving.',
         },
         {
           kind: 'commentary',
           id: 'shem-line-continues',
           html:
-            'From Shem, the genealogy now begins its narrowing. Shem&apos;s line goes through Arphaxad to Eber. With Eber, something crucial happens: he is the ancestor of the "Hebrews" — the name Israel will come to be called. Eber&apos;s son is Peleg, and in his days "the earth was divided" — a reference (scholars believe) to the scattering of humanity at Babel, or simply to the diversification of peoples. But the genealogy continues the covenant line through Peleg. [res:sefaria-genealogies]',
+            'From Shem, the genealogy now begins its narrowing. Shem&apos;s line goes through Arphaxad to Eber. With Eber, something crucial happens: he is the ancestor of the "Hebrews" — the name Israel will come to be called. Eber&apos;s son is Peleg, and in his days "the earth was divided" — a reference (scholars believe) to the scattering of humanity at Babel, or simply to the diversification of peoples. But the genealogy continues the covenant line through Peleg.',
         },
         {
           kind: 'hebrew',
@@ -235,7 +224,7 @@ export const CHRONICLES_1_1: RichChapterContent = {
           kind: 'commentary',
           id: 'covenant-narrowing',
           html:
-            'Now the genealogy reaches its pivot point: Abraham. From Adam to Noah, from Noah through the nations, from Shem through Eber and Peleg — and now Abraham stands at the end of this long genealogical line. The Chronicler names the patriarchs of the covenant: Shem (the ancestor from whom the line descends), Arphaxad, Shelah, Eber, Peleg, Reu, Serug, Nahor, Terah, and finally Abraham. This is the line of promise — narrower than the nations, more focused. Abraham is not the beginning; he is the culmination of ten generations of covenant descent. [res:sefaria-genealogies]',
+            'Now the genealogy reaches its pivot point: Abraham. From Adam to Noah, from Noah through the nations, from Shem through Eber and Peleg — and now Abraham stands at the end of this long genealogical line. The Chronicler names the patriarchs of the covenant: Shem (the ancestor from whom the line descends), Arphaxad, Shelah, Eber, Peleg, Reu, Serug, Nahor, Terah, and finally Abraham. This is the line of promise — narrower than the nations, more focused. Abraham is not the beginning; he is the culmination of ten generations of covenant descent.',
         },
         {
           kind: 'hebrew',
@@ -299,7 +288,7 @@ export const CHRONICLES_1_1: RichChapterContent = {
           kind: 'commentary',
           id: 'abraham-two-lines',
           html:
-            'Abraham has multiple sons — Ishmael by Hagar, six sons by Keturah, and Isaac by Sarah. The genealogy names them all with careful honor. Ishmael receives an entire tribal genealogy (twelve sons, the princes of Ishmael). The sons of Keturah are remembered. But then, abruptly, the genealogy turns: "And Abraham begat Isaac. The sons of Isaac; Esau and Israel." The covenant line flows through Isaac, not through Ishmael or Keturah\ [res:sefaria-genealogies]'s sons. God remembers all of Abraham\'s children — but the promise is focused through Isaac.',
+            'Abraham has multiple sons — Ishmael by Hagar, six sons by Keturah, and Isaac by Sarah. The genealogy names them all with careful honor. Ishmael receives an entire tribal genealogy (twelve sons, the princes of Ishmael). The sons of Keturah are remembered. But then, abruptly, the genealogy turns: "And Abraham begat Isaac. The sons of Isaac; Esau and Israel." The covenant line flows through Isaac, not through Ishmael or Keturah\'s sons. God remembers all of Abraham\'s children — but the promise is focused through Isaac.',
         },
         {
           kind: 'commentary',
@@ -371,7 +360,7 @@ export const CHRONICLES_1_1: RichChapterContent = {
           kind: 'commentary',
           id: '1chr1-seir-edom',
           html:
-            'These five names—Lotan, Shobal, Zibeon, Anah, Dishon—are the sons of Seir, the original inhabitants of the land Esau claimed. The genealogy honors them before moving to Esau&apos;s kings. Even the displaced peoples have their lineage recorded. Edom&apos;s strength comes not from Esau alone, but from the peoples already dwelling there. [res:sefaria-genealogies]',
+            'These five names—Lotan, Shobal, Zibeon, Anah, Dishon—are the sons of Seir, the original inhabitants of the land Esau claimed. The genealogy honors them before moving to Esau&apos;s kings. Even the displaced peoples have their lineage recorded. Edom&apos;s strength comes not from Esau alone, but from the peoples already dwelling there.',
         },
         {
           kind: 'scripture',
@@ -387,7 +376,7 @@ export const CHRONICLES_1_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c1-1-split-3',
           html:
-            'The shift from genealogy to kingship is deliberate. Esau&apos;s descendants became a people with their own sovereign line—kings reigning in Edom before Israel had any king at all. The kings are listed not as enemies or usurpers, but as rulers of their own nation, standing parallel to Israel&apos;s future monarchy. Edom had achieved what Jacob&apos;s descendants had not yet achieved: a kingdom. [res:sefaria-genealogies]',
+            'The shift from genealogy to kingship is deliberate. Esau&apos;s descendants became a people with their own sovereign line—kings reigning in Edom before Israel had any king at all. The kings are listed not as enemies or usurpers, but as rulers of their own nation, standing parallel to Israel&apos;s future monarchy. Edom had achieved what Jacob&apos;s descendants had not yet achieved: a kingdom.',
         },
         {
           kind: 'scripture',
@@ -403,7 +392,7 @@ export const CHRONICLES_1_1: RichChapterContent = {
           kind: 'commentary',
           id: 'esau-genealogy',
           html:
-            'The genealogy of Esau takes up more space than one might expect. Esau, the twin brother of Jacob (Israel), did not receive the blessing or the birthright. He sold his birthright for a bowl of lentils and married outside the covenant family. Yet the Chronicler does not dismiss him. Esau\ [res:sefaria-genealogies]'s sons are named. His grandsons are named. The peoples descended from him — the Edomites — have their genealogy preserved in Scripture.',
+            'The genealogy of Esau takes up more space than one might expect. Esau, the twin brother of Jacob (Israel), did not receive the blessing or the birthright. He sold his birthright for a bowl of lentils and married outside the covenant family. Yet the Chronicler does not dismiss him. Esau\'s sons are named. His grandsons are named. The peoples descended from him — the Edomites — have their genealogy preserved in Scripture.',
         },
         {
           kind: 'hebrew',
@@ -418,13 +407,13 @@ export const CHRONICLES_1_1: RichChapterContent = {
           kind: 'commentary',
           id: 'edomite-kings',
           html:
-            'The text notes that kings reigned in Edom "before any king reigned over Israel." This is a remarkable statement. Edom had established monarchy, stable succession, and organized government while Israel was still wandering and settling. Edom was not the chosen line, but Edom was not abandoned by God. Edom had its own history, its own achievements. The genealogy honors Edom\ [res:sefaria-genealogies]'s kings not because they are part of the covenant line, but because they are part of the human family that God created and sustains.',
+            'The text notes that kings reigned in Edom "before any king reigned over Israel." This is a remarkable statement. Edom had established monarchy, stable succession, and organized government while Israel was still wandering and settling. Edom was not the chosen line, but Edom was not abandoned by God. Edom had its own history, its own achievements. The genealogy honors Edom\'s kings not because they are part of the covenant line, but because they are part of the human family that God created and sustains.',
         },
         {
           kind: 'commentary',
           id: 'seir-peoples',
           html:
-            'The genealogy also includes the sons of Seir — the original inhabitants of the land that Esau (Edom) took as his inheritance. These are indigenous peoples, and their genealogy is preserved. The text does not erase them; it remembers them. Even as conquest narratives dominate later biblical history, the genealogy says: These people mattered. God knew their names. [res:sefaria-genealogies]',
+            'The genealogy also includes the sons of Seir — the original inhabitants of the land that Esau (Edom) took as his inheritance. These are indigenous peoples, and their genealogy is preserved. The text does not erase them; it remembers them. Even as conquest narratives dominate later biblical history, the genealogy says: These people mattered. God knew their names.',
         },
         {
           kind: 'christ',

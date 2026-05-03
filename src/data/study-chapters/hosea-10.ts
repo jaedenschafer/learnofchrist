@@ -38,7 +38,7 @@ export const HOSEA_10: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea-10-78mid-1',
           html:
-            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+            'The empty vine is named, then plowed under. Hosea pivots from describing Israel&apos;s fruitlessness to commanding her to break up the fallow ground.',
         },
         {
           kind: 'scripture',
@@ -86,7 +86,7 @@ export const HOSEA_10: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea-10-78mid-2',
           html:
-            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+            'The empty vine is named, then plowed under. Hosea pivots from describing Israel&apos;s fruitlessness to commanding her to break up the fallow ground.',
         },
         {
           kind: 'scripture',

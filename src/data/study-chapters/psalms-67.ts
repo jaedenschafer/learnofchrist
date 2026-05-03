@@ -4,9 +4,9 @@ import { hp, hy, hg, t, plain, verse, type RichChapterContent } from './types';
  * Psalm 67 — Let All the Peoples Praise Thee
  *
  * This short psalm is sung to the tune of a vinedresser's song—a working
- * song, a song of labor and cultivation. It opens with a prayer for blessing,
+ * song, a song of labor and cultivation. It opens with a prayer for blessing[res:sefaria-psalms-67],
  * but not blessing for Israel alone. God is asked to bless His people so that
- * "thy way may be known upon earth, thy saving health among all nations." The
+ * "thy way may be known upon earth, thy saving health among all nations[res:bible-odyssey-mission-psalms]." The
  * blessing sought is instrumental—it exists so that the nations might know God.
  * The salvation of God is not meant to be hoarded. It is meant to shine forth,
  * to be witnessed, to draw all peoples into the knowledge and praise of the God
@@ -155,6 +155,25 @@ export const PSALMS_67: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 67 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-67',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 67 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.67',
+      description: 'Blessing hymn for all nations with Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-mission-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Mission & Universal Praise',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms on God&apos;s blessing extending to all nations.',
+    },
+  ],
 
   hasHebrew: true,
 };

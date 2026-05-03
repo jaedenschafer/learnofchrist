@@ -110,7 +110,7 @@ export const JEREMIAH_13: RichChapterContent = {
           kind: 'commentary',
           id: 'jeremiah-13-78mid-1',
           html:
-            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+            'The linen-girdle parable ends; the wineskin parable begins. Jeremiah teaches by sign as much as by sermon.',
         },
         {
           kind: 'scripture',

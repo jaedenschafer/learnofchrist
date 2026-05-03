@@ -119,7 +119,7 @@ export const HOSEA_6: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea-6-78mid-1',
           html:
-            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+            '&quot;Come, and let us return unto the LORD&quot; gives way to the LORD&apos;s lament — &quot;your goodness is as a morning cloud.&quot; Repentance that fades is no repentance at all.',
         },
         {
           kind: 'scripture',

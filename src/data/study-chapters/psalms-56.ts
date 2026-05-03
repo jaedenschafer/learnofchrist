@@ -22,7 +22,7 @@ export const PSALMS_56: RichChapterContent = {
           lines: [
             plain(1, 'Be merciful unto me, O God: for man would swallow me up; he fighting daily oppresseth me.'),
             plain(2, 'Mine enemies would daily swallow me up: for they be many that fight against me, O thou most High.'),
-            plain(3, 'What time I am afraid, I will trust in thee.'),
+            plain(3, 'What time I am afraid[res:sefaria-psalms-56], I will trust[res:bible-odyssey-fear-faith] in thee.'),
           ],
         },
         {
@@ -131,6 +131,25 @@ export const PSALMS_56: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 56 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-56',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 56 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.56',
+      description: 'Trust amid fear with Jewish medieval interpretation.',
+    },
+    {
+      id: 'bible-odyssey-fear-faith',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Fear & Faith',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms balancing human fear with trust in God.',
+    },
+  ],
 
   hasHebrew: true,
 };

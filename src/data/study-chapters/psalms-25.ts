@@ -4,8 +4,8 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
  * Psalm 25 — The Way of the Lord
  *
  * An acrostic psalm in which each verse begins with a successive letter of the
- * Hebrew alphabet. "Unto thee, O Lord, do I lift up my soul." The psalmist
- * prays for guidance, for deliverance from enemies, for teaching in God&apos;s
+ * Hebrew alphabet. "Unto thee[res:sefaria-psalms-25], O Lord, do I lift up my soul." The psalmist
+ * prays for guidance[res:bible-odyssey-guidance-psalms], for deliverance from enemies, for teaching in God&apos;s
  * ways. "Show me thy ways, O Lord; teach me thy paths." The very structure of
  * the psalm—moving methodically through the alphabet—suggests the journey of
  * learning, of being formed by God&apos;s instruction. Christ is the Way, the
@@ -150,6 +150,25 @@ export const PSALMS_25: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 25 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-25',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 25 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.25',
+      description: 'Acrostic lament with petition for guidance, Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-guidance-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalms of Guidance & Path',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms seeking God&apos;s direction and teaching.',
+    },
+  ],
 
   hasHebrew: true,
 };

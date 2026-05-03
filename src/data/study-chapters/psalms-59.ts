@@ -8,7 +8,7 @@ export const PSALMS_59: RichChapterContent = {
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
   intros: [
     'Saul&apos;s jealousy of David had become pathological. He posted men outside David&apos;s house to capture him when he left. But David&apos;s wife Michal, daughter of Saul, helped him escape through a window. She then put a teraphim (an idol or image) in the bed, covered it with a garment, and told Saul&apos;s men that David was sick. By the time they discovered the deception, David was gone.',
-    'Psalm 59 is David&apos;s prayer when Saul&apos;s watchers hunted him. And the remarkable thing about this prayer is its tone. David does not panic. He does not despair. Instead, he views his pursuers with almost amused detachment. "Thou, O Lord, shalt laugh at them; thou shalt have all the heathen in derision." God laughs at the schemes of men. God holds the nations in derision. What seems to David&apos;s enemies like a serious threat is to God a matter of light mockery.',
+    'Psalm 59 is David&apos;s prayer when Saul&apos;s watchers hunted him. And the remarkable thing about this prayer is its tone. David does not panic. He does not despair. Instead, he views his pursuers with almost amused detachment. "Thou, O Lord, shalt laugh at them; thou shalt have all the heathen in derision." God laughs at the schemes of men. God holds the nations in derision. What seems to David&apos;s enemies[res:sefaria-psalms-59] like a serious threat is to God a matter of light mockery.',
   ],
 
   sections: [
@@ -52,7 +52,7 @@ export const PSALMS_59: RichChapterContent = {
           title: 'Yalom — "Lie in wait"',
           script: 'יָלַן',
           translit: '<strong>Yalom</strong> · to stay; to lodge; to wait; to ambush',
-          description: 'The Hebrew yalom conveys the idea of lying in wait, of remaining hidden and ready to ambush. The wicked gather in the night, waiting for their prey.',
+          description: 'The Hebrew yalom conveys the idea of lying in wait, of remaining hidden and ready to ambush. The wicked gather in the night[res:bible-odyssey-night-guard], waiting for their prey.',
         },
         {
           kind: 'commentary',
@@ -135,6 +135,25 @@ export const PSALMS_59: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 59 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-59',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 59 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.59',
+      description: 'Prayer against enemies with medieval Jewish exegesis.',
+    },
+    {
+      id: 'bible-odyssey-night-guard',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Night Vigilance & Prayer',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms of night watch and protection from nocturnal threats.',
+    },
+  ],
 
   hasHebrew: true,
 };

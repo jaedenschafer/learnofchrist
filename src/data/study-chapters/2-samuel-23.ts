@@ -415,7 +415,7 @@ export const SAMUEL_2_23: RichChapterContent = {
           kind: 'commentary',
           id: '2-samuel-23-78mid-1',
           html:
-            'David&apos;s last words arrive. Not a battle plan or a speech to the kingdom, but a poem about the Spirit of the Lord speaking through him. The king's final gift is not power, but witness.',
+            'David&apos;s last words arrive. Not a battle plan or a speech to the kingdom, but a poem about the Spirit of the Lord speaking through him. The king&apos;s final gift is not power, but witness.',
         },
         {
           kind: 'scripture',
@@ -487,7 +487,7 @@ export const SAMUEL_2_23: RichChapterContent = {
           kind: 'commentary',
           id: '2-samuel-23-78mid-2',
           html:
-            'David&apos;s last words arrive. Not a battle plan or a speech to the kingdom, but a poem about the Spirit of the Lord speaking through him. The king's final gift is not power, but witness.',
+            'David&apos;s last words arrive. Not a battle plan or a speech to the kingdom, but a poem about the Spirit of the Lord speaking through him. The king&apos;s final gift is not power, but witness.',
         },
         {
           kind: 'scripture',

@@ -3,7 +3,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
 /**
  * Psalm 36 — The Fountain of Life
  *
- * David begins with the heart of the wicked: transgression speaks within,
+ * David begins with the heart of the wicked[res:sefaria-psalms-36]: transgression speaks within,
  * "There is no fear of God before his eyes." Yet the psalm pivots swiftly
  * to the mercy of God. "Thy mercy, O Lord, is in the heavens; thy
  * faithfulness reacheth unto the clouds." The wicked chase shadows. But God
@@ -17,7 +17,7 @@ export const PSALMS_36: RichChapterContent = {
 
   estimatedMinutes: { beginner: 2, intermediate: 4, deep: 6 },
   intros: [
-    'Psalm 36 opens with a dark vision of the human heart when it turns from God. The transgression of the wicked speaks within their heart, and they see no reason to fear God or seek His favor. They lie awake plotting evil, setting themselves on paths that are not good. Yet this is not the psalm&apos;s final word. David raises his eyes to heaven and sees there an altogether different reality: God&apos;s mercy reaches to the heavens, His faithfulness to the clouds. His righteousness is like the great mountains, His judgments like a great deep.',
+    'Psalm 36 opens with a dark vision of the human heart when it turns from God. The transgression of the wicked speaks within their heart, and they see no reason to fear God or seek His favor. They lie awake plotting evil, setting themselves on paths that are not good. Yet this is not the psalm&apos;s final word. David raises his eyes to heaven and sees there an altogether different reality: God&apos;s mercy reaches to the heavens, His faithfulness to the clouds. His righteousness[res:bible-odyssey-two-ways] is like the great mountains, His judgments like a great deep.',
     'But the most striking promise comes near the close: "For with thee is the fountain of life." Not a stream that may dry up, not a well that may fail, but a fountain—a source. In this fountain is light, and in that light, all things are seen truly. The psalm moves from the darkness of human transgression to the radiance of God&apos;s eternal provision. It is an invitation to drink.',
   ],
 
@@ -133,6 +133,25 @@ export const PSALMS_36: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 36 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-36',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 36 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.36',
+      description: 'Contrast of wicked and righteous with Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-two-ways',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Two Ways Motif',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms contrasting paths of wickedness and righteousness.',
+    },
+  ],
 
   hasHebrew: true,
 };

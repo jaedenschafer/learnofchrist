@@ -7,7 +7,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
  * 8:36 quotes this, applying it to believers suffering for Christ. Not an
  * individual&apos;s complaint, but a people&apos;s cry. Paul uses it to show that
  * suffering in the faith was always part of the covenant promise. The wounded
- * church is still God&apos;s church.
+ * church is still God[res:sefaria-psalms-44]&apos;s church.
  */
 export const PSALMS_44: RichChapterContent = {
   bookSlug: 'psalms',
@@ -75,7 +75,7 @@ export const PSALMS_44: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms44-no-trust-bow',
           html:
-            'The confession continues: "I will not trust in my bow, neither shall my sword save me." But they shall trust in God. And in that trust, they shall defeat enemies and "put to shame them that hated us." The faith of the fathers becomes the faith of the children. It is a heritage.',
+            'The confession continues: "I will not trust in my bow, neither shall my sword save me." But they shall trust in God. And in that trust, they shall defeat[res:bible-odyssey-communal-lament] enemies and "put to shame them that hated us." The faith of the fathers becomes the faith of the children. It is a heritage.',
         },
         {
           kind: 'reflection',
@@ -174,6 +174,25 @@ export const PSALMS_44: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 44 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-44',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 44 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.44',
+      description: 'Communal lament despite God&apos;s past help, Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-communal-lament',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Communal Lament & Suffering',
+      url: 'https://www.bibleodyssey.org/dictionary/lament-psalms/',
+      description: 'Corporate psalms on national defeat and collective suffering.',
+    },
+  ],
 
   hasHebrew: true,
 };

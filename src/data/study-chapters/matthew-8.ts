@@ -118,7 +118,7 @@ export const MATTHEW_8: RichChapterContent = {
           kind: 'commentary',
           id: 'matthew-8-78mid-2',
           html:
-            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+            'Jesus crosses from one act of mercy to the next — leper, centurion, fever, storm, demoniac. The kingdom is being demonstrated, one body and one storm at a time.',
         },
         {
           kind: 'scripture',

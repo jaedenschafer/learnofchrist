@@ -6,7 +6,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
  * "In the hand of the Lord there is a cup, and the wine is red; it is full
  * of mixture; and he poureth out of the same: but the dregs thereof, all the
  * wicked of the earth shall wring them out, and drink them." This psalm speaks
- * of God&apos;s judgment through the image of a cup—a cup of God&apos;s wrath that
+ * of God&apos;s judgment[res:sefaria-psalms-75] through the image of a cup—a cup of God&apos;s wrath that
  * the wicked must drink, even as the righteous are delivered.
  */
 export const PSALMS_75: RichChapterContent = {
@@ -33,7 +33,7 @@ export const PSALMS_75: RichChapterContent = {
             plain(3, 'The earth and all the inhabitants thereof are dissolved: I bear up the pillars of it. Selah.'),
             plain(4, 'I said unto the fools, Deal not foolishly: and to the wicked, Lift not up the horn.'),
             plain(6, 'For promotion cometh neither from the east, nor from the west, nor from the south.'),
-            plain(7, 'But God is the judge: he putteth down one, and setteth up another.'),
+            plain(7, 'But God is the judge[res:bible-odyssey-judgment-theme]: he putteth down one, and setteth up another.'),
           ],
         },
         {
@@ -129,6 +129,25 @@ export const PSALMS_75: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 75 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-75',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 75 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.75',
+      description: 'Judgment psalm with divine declaration, Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-judgment-theme',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'God&apos;s Judgment & Equity',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms on God as impartial judge rewarding and punishing.',
+    },
+  ],
 
   hasHebrew: true,
 };

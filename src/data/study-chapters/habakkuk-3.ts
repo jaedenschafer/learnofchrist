@@ -36,7 +36,7 @@ export const HABAKKUK_3: RichChapterContent = {
           kind: 'commentary',
           id: 'habakkuk-3-78mid-1',
           html:
-            'The prophet turns from question to answer, or from answer to song. Habakkuk&apos;s short book is a conversation with God in three movements.',
+            'The prayer turns into a hymn. Habakkuk pivots from recalling God&apos;s past works to naming the trust that will hold him through what is coming.',
         },
         {
           kind: 'scripture',
@@ -67,7 +67,7 @@ export const HABAKKUK_3: RichChapterContent = {
           kind: 'commentary',
           id: 'habakkuk-3-78mid-2',
           html:
-            'The prophet turns from question to answer, or from answer to song. Habakkuk&apos;s short book is a conversation with God in three movements.',
+            'The prayer turns into a hymn. Habakkuk pivots from recalling God&apos;s past works to naming the trust that will hold him through what is coming.',
         },
         {
           kind: 'scripture',

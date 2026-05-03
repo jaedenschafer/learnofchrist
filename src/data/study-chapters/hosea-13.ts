@@ -38,7 +38,7 @@ export const HOSEA_13: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea-13-78mid-1',
           html:
-            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+            'Ephraim&apos;s ascent and fall are named. Then comes the sharpest turn in the book: &quot;O death, I will be thy plagues; O grave, I will be thy destruction.&quot;',
         },
         {
           kind: 'scripture',
@@ -87,7 +87,7 @@ export const HOSEA_13: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea-13-78mid-2',
           html:
-            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+            'Ephraim&apos;s ascent and fall are named. Then comes the sharpest turn in the book: &quot;O death, I will be thy plagues; O grave, I will be thy destruction.&quot;',
         },
         {
           kind: 'scripture',

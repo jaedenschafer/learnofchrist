@@ -7,7 +7,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
  * commune with your own heart upon your bed, and be still. Lord, lift thou up
  * the light of thy countenance upon us. I will both lay me down in peace, and
  * sleep: for thou, Lord, only makest me dwell in safety. This is the psalm of
- * evening prayer, of the soul finding rest not through the elimination of
+ * evening[res:bible-odyssey-psalms-night][res:sefaria-psalms-4] prayer, of the soul finding rest not through the elimination of
  * trouble, but through the presence of God. It is the promise of a peace that
  * the world cannot give, a peace that guards the heart and mind when all else
  * is in turmoil.
@@ -19,7 +19,7 @@ export const PSALMS_4: RichChapterContent = {
 
   estimatedMinutes: { beginner: 2, intermediate: 7, deep: 8 },
   intros: [
-    'Psalm 4 is a psalm for the evening, for the time when the day&apos;s labor is done and the soul returns to the quietness of rest. But it is a quietness that does not come easily. The psalmist opens by calling to God: "Hear me when I call, O God of my righteousness." There is urgency in the appeal. There is trouble, though it is not named. And yet the movement of the psalm is toward peace, toward sleep, toward the knowledge that the Lord makes you dwell in safety.',
+    'Psalm 4 is a psalm for the evening[res:bible-odyssey-psalms-night], for the time when the day&apos;s labor is done and the soul returns to the quietness of rest. But it is a quietness that does not come easily. The psalmist opens by calling to God: "Hear me when I call, O God of my righteousness." There is urgency in the appeal. There is trouble, though it is not named. And yet the movement of the psalm is toward peace, toward sleep, toward the knowledge that the Lord makes you dwell in safety.',
     'The psalm speaks to a fundamental human need: the need for peace that does not depend on circumstances. We live in a world of conflict, of rivalry, of competition. Men say to themselves, "Who will show us any good?" and they seek their peace in wealth, in status, in the approval of others. But the psalmist offers a different path. Seek the light of the Lord&apos;s face. Commune with your own heart. Be still. And you will find a peace so deep that you can lay yourself down and sleep, knowing that only the Lord makes you dwell in safety.',
   ],
 
@@ -158,6 +158,25 @@ export const PSALMS_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 4 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 4 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.4',
+      description: 'Evening psalm of vindication with Jewish medieval exegesis.',
+    },
+    {
+      id: 'bible-odyssey-psalms-night',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalms of Night & Sleep',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Explores psalms meant for evening, night vigil, and trust in darkness.',
+    },
+  ],
 
   hasHebrew: true,
 };

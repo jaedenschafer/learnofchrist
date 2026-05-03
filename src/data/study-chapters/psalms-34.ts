@@ -18,7 +18,7 @@ export const PSALMS_34: RichChapterContent = {
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
   intros: [
-    'Psalm 34 is another acrostic, with verses generally beginning with successive letters of the Hebrew alphabet. The psalm celebrates answered prayer, God&apos;s protection, and deliverance. It moves through praise, testimony, instruction, and prophecy. The psalmist invites the reader into his experience: he sought God, God heard him and delivered him from his fears. Now he calls others to taste and see that the Lord is good. And embedded within this celebration is one of the Bible&apos;s most precise prophecies of Christ.',
+    'Psalm 34[res:sefaria-psalms-34] is another acrostic, with verses generally beginning with successive letters of the Hebrew alphabet. The psalm celebrates answered prayer, God&apos;s protection, and deliverance. It moves through praise, testimony, instruction, and prophecy. The psalmist invites the reader into his experience: he sought God, God heard him and delivered him from his fears. Now he calls others to taste and see that the Lord is good. And embedded within this celebration is one of the Bible&apos;s most precise prophecies of Christ.',
   ],
 
   sections: [
@@ -59,7 +59,7 @@ export const PSALMS_34: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms34-bless-always',
-          html: '"I will bless the Lord at all times: his praise shall continually be in my mouth." This is not conditional praise—praising God only when circumstances are pleasant. It is continual praise, praise at all times, praise that never ceases. The psalmist has discovered that praise is not merely a response to blessing. It is a way of life.',
+          html: '"I will bless the Lord at all times: his praise shall continually be in my mouth." This is not conditional praise—praising God only when circumstances are pleasant. It is continual praise, praise at all times, praise that never ceases. The psalmist has discovered that praise is not merely a response to blessing[res:bible-odyssey-fear-lord]. It is a way of life.',
         },
         {
           kind: 'hebrew',
@@ -103,6 +103,33 @@ export const PSALMS_34: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 34 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-34',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 34 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.34',
+      description: 'Acrostic of thanksgiving and blessing with Jewish commentary.',
+    },
+    {
+      id: 'intertextual-psalms-34-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 34 in 1 Peter[res:intertextual-psalms-34-nt] 3 & 5',
+      url: 'https://intertextual.bible/text/psalm-34',
+      description: 'Peter quotes Psalm 34 on fear of God and blessing.',
+    },
+    {
+      id: 'bible-odyssey-fear-lord',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Fear of the Lord',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms on reverence for God as source of wisdom and blessing.',
+    },
+  ],
 
   hasHebrew: true,
 };

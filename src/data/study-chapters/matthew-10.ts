@@ -124,7 +124,7 @@ export const MATTHEW_10: RichChapterContent = {
           kind: 'commentary',
           id: 'matthew-10-78mid-2',
           html:
-            'The scene shifts here — a new dialogue, a new healing, a new parable. Matthew gathers Jesus&apos; teaching by theme, not always by chronology.',
+            'Jesus pivots from naming the twelve to warning them. The mission will not be welcomed everywhere; the disciples are being sent as sheep among wolves.',
         },
         {
           kind: 'scripture',

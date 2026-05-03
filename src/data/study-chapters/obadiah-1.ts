@@ -115,7 +115,7 @@ export const OBADIAH_1: RichChapterContent = {
           kind: 'commentary',
           id: 'obadiah-1-78mid-1',
           html:
-            'The oracle turns from Edom&apos;s sin to Edom&apos;s end. Obadiah is short and unsparing.',
+            'Edom&apos;s pride and Edom&apos;s violence have been named. Obadiah turns to Edom&apos;s end — &quot;the day of the LORD is near upon all the heathen.&quot;',
         },
         {
           kind: 'scripture',

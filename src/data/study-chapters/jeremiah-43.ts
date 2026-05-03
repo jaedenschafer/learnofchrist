@@ -39,7 +39,7 @@ export const JEREMIAH_43: RichChapterContent = {
           kind: 'commentary',
           id: 'jeremiah-43-78mid-1',
           html:
-            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+            'The remnant carries Jeremiah to Egypt against the LORD&apos;s word. The prophet goes with them — bound to the people who will not listen.',
         },
         {
           kind: 'scripture',

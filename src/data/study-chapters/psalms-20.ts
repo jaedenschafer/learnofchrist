@@ -4,7 +4,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
  * Psalm 20 — The King Shall Be Saved
  *
  * "The Lord hear thee in the day of trouble; the name of the God of Jacob defend
- * thee." The psalm opens with a communal prayer for the king. The people cry out
+ * thee." The psalm opens with a communal prayer for the king[res:sefaria-psalms-20]. The people cry out
  * for God to hear, defend, and deliver their king. "Save, Lord: let the king hear
  * us when we call." The psalm concludes with confidence: God will answer. God will
  * save the king. Christ is the King above all kings, whom God exalts and saves.
@@ -136,4 +136,23 @@ export const PSALMS_20: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 20 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-20',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 20 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.20',
+      description: 'Intercession for the king with Jewish medieval interpretation.',
+    },
+    {
+      id: 'bible-odyssey-corporate-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Communal Petition Psalms',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms of intercession[res:bible-odyssey-corporate-psalms] on behalf of the nation and leader.',
+    },
+  ],
 };

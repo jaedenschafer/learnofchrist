@@ -5,8 +5,8 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
  *
  * "Blessed is he whose transgression is forgiven, whose sin is covered." Romans
  * 4:7–8 quotes these words to describe the righteousness that comes through
- * faith rather than works. The psalmist moves from confession of sin to joy in
- * forgiveness. "I acknowledged my sin unto thee, and thou forgavest the iniquity
+ * faith rather than works. The psalmist moves from confession[res:sefaria-psalms-32] of sin to joy in
+ * forgiveness[res:bible-odyssey-forgiveness-psalms]. "I acknowledged my sin unto thee, and thou forgavest the iniquity
  * of my sin." This is not a psalm about avoiding sin, but about being restored
  * after falling. It is about the grace that meets us when we admit our brokenness
  * and turn to God.
@@ -134,6 +134,25 @@ export const PSALMS_32: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 32 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-32',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 32 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.32',
+      description: 'Psalm on confession and forgiveness with Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-forgiveness-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Repentance & Forgiveness Psalms',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms on confession, pardoning, and God&apos;s grace.',
+    },
+  ],
 
   hasHebrew: true,
 };

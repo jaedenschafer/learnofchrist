@@ -3,7 +3,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
 /**
  * Psalm 13 — How Long, O Lord?
  *
- * David cries out in desperation. "How long wilt thou forget me, O Lord? for ever?
+ * David cries out in desperation. "How long[res:sefaria-psalms-13] wilt thou forget me, O Lord? for ever?
  * How long wilt thou hide thy face from me?" His prayer is one of anguish and
  * confusion. Yet in the midst of the darkness, faith rises. The psalm ends not with
  * resolution of his suffering but with trust in God&apos;s mercy: "My heart shall
@@ -128,6 +128,25 @@ export const PSALMS_13: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 13 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-13',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 13 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.13',
+      description: 'Short lament with turn to praise[res:bible-odyssey-lament-structure], Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-lament-structure',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Structure of Lament',
+      url: 'https://www.bibleodyssey.org/dictionary/lament-psalms/',
+      description: 'How psalms move from complaint to petition to praise.',
+    },
+  ],
 
   hasHebrew: true,
 };

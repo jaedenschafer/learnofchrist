@@ -18,7 +18,7 @@ export const PSALMS_26: RichChapterContent = {
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 5 },
   intros: [
-    'Psalm 26 is a prayer of integrity spoken before God. "Judge me, O Lord; for I have walked in mine integrity." The psalmist is not claiming sinlessness, but rather that he has genuinely attempted to live according to God&apos;s ways, that his heart is turned toward righteousness. He invites God&apos;s scrutiny. He asks to be tested. This is the confidence of one who has nothing to hide from God, though he knows he is not perfect.',
+    'Psalm 26 is a prayer of integrity spoken before God. "Judge me, O Lord; for I have walked in mine integrity." The psalmist is not claiming sinlessness, but rather that he has genuinely attempted to live according to God&apos;s ways, that his heart is turned toward righteousness[res:bible-odyssey-integrity-psalms]. He invites God&apos;s scrutiny. He asks to be tested. This is the confidence of one who has nothing to hide from God, though he knows he is not perfect.',
   ],
 
   sections: [
@@ -40,7 +40,7 @@ export const PSALMS_26: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms-26-78mid-1',
           html:
-            'The declaration of innocence shifts to yearning for community. Solitude becomes sanctuary; the temple calls.',
+            'The declaration of innocence[res:sefaria-psalms-26] shifts to yearning for community. Solitude becomes sanctuary; the temple calls.',
         },
         {
           kind: 'scripture',
@@ -130,6 +130,25 @@ export const PSALMS_26: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 26 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-26',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 26 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.26',
+      description: 'Psalm of innocence with medieval Jewish interpretation.',
+    },
+    {
+      id: 'bible-odyssey-integrity-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalms of Integrity & Innocence',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms asserting righteousness and calling God to witness.',
+    },
+  ],
 
   hasHebrew: true,
 };

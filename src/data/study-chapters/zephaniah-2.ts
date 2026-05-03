@@ -36,7 +36,7 @@ export const ZEPHANIAH_2: RichChapterContent = {
           kind: 'commentary',
           id: 'zephaniah-2-78mid-1',
           html:
-            'The prophet turns from judgment to remnant — from wrath to a quiet promise that the proud will be removed and the meek preserved.',
+            'Zephaniah pivots from calling the meek to seek the LORD to naming the nations who will be judged. The same call that gathers the humble scatters the proud.',
         },
         {
           kind: 'scripture',
@@ -101,7 +101,7 @@ export const ZEPHANIAH_2: RichChapterContent = {
           kind: 'commentary',
           id: 'zephaniah-2-78mid-2',
           html:
-            'The prophet turns from judgment to remnant — from wrath to a quiet promise that the proud will be removed and the meek preserved.',
+            'Zephaniah pivots from calling the meek to seek the LORD to naming the nations who will be judged. The same call that gathers the humble scatters the proud.',
         },
         {
           kind: 'scripture',

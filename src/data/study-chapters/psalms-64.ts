@@ -122,5 +122,24 @@ export const PSALMS_64: RichChapterContent = {
     ref: 'Psalm 64 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-psalms-64',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 64 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.64',
+      description: 'Prayer against slanders[res:sefaria-psalms-64] with Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-slander-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalms Against Slander',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Prayers against false accusation[res:bible-odyssey-slander-psalms] and deceitful speech.',
+    },
+  ],
+
   hasHebrew: true,
 };

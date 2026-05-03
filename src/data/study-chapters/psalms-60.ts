@@ -7,7 +7,7 @@ export const PSALMS_60: RichChapterContent = {
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
-    'The superscription places this psalm after a military defeat. David had suffered a setback in battle. His forces had been scattered. God&apos;s apparent withdrawal of protection seemed complete. And David&apos;s prayer opens with raw honesty: "O God, thou hast cast us off, thou hast scattered us, thou art wroth; oh turn thyself to us again."',
+    'The superscription places this psalm after a military defeat[res:sefaria-psalms-60]. David had suffered a setback in battle. His forces had been scattered. God&apos;s apparent withdrawal of protection seemed complete. And David&apos;s prayer opens with raw honesty: "O God, thou hast cast us off, thou hast scattered us, thou art wroth; oh turn thyself to us again."',
     'Yet this is not a prayer of despair that continues to despair. Even in the pain of defeat, David looks beyond the immediate circumstance to God&apos;s essential nature and His promises. "God hath spoken in his holiness; I will rejoice...With God we shall do valiantly." The defeat is real, but it is not the final word. God&apos;s right hand—His hand of strength, of salvation, of victory—will yet deliver David and his people.',
   ],
 
@@ -130,6 +130,25 @@ export const PSALMS_60: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 60 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-60',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 60 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.60',
+      description: 'Lament over military defeat with Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-national-lament',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'National Lament & Recovery',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Communal psalms on national disaster[res:bible-odyssey-national-lament] and divine restoration.',
+    },
+  ],
 
   hasHebrew: true,
 };

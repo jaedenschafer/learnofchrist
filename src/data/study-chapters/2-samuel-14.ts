@@ -102,7 +102,7 @@ export const SAMUEL_2_14: RichChapterContent = {
           kind: 'commentary',
           id: 'c-absalom-intro',
           html:
-            'Absalom is in exile in Geshur, banished for murdering Amnon — his half-brother who had assaulted their sister Tamar. The murder was justice, but David\[res:sefaria-david-king]'s law could not overlook it. Yet two years have passed, and Joab reads what David will not admit: the king\'s heart has turned. He loves his son. He wants him home. But David is king; he cannot simply forgive and recall. He needs permission, a reason, a release from his own conflict.',
+            'Absalom is in exile in Geshur, banished for murdering Amnon — his half-brother who had assaulted their sister Tamar. The murder was justice, but David&apos;s law could not overlook it. Yet two years have passed, and Joab reads what David will not admit: the king&apos;s heart has turned. He loves his son. He wants him home. But David is king; he cannot simply forgive and recall. He needs permission, a reason, a release from his own conflict.[res:sefaria-david-king]',
         },
         {
           kind: 'commentary',

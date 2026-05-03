@@ -6,8 +6,8 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
  * "Blessed is he that considereth the poor." But then the bitter turn: "Yea,
  * mine own familiar friend, in whom I trusted, which did eat of my bread,
  * hath lifted up his heel against me." John 13:18 applies this directly to
- * Judas—the one who ate bread with Jesus, then betrayed Him. The pain of
- * betrayal by the closest friend. Yet Christ&apos;s betrayal is redemptive.
+ * Judas[res:intertextual-psalms-41-nt]—the one who ate bread with Jesus, then betrayed Him. The pain of
+ * betrayal[res:bible-odyssey-betrayal-psalms] by the closest friend. Yet Christ&apos;s betrayal is redemptive.
  */
 export const PSALMS_41: RichChapterContent = {
   bookSlug: 'psalms',
@@ -31,7 +31,7 @@ export const PSALMS_41: RichChapterContent = {
           lines: [
             plain(1, 'Blessed is he that considereth the poor: the Lord will deliver him in time of trouble.'),
             plain(2, 'The Lord will preserve him, and keep him alive; and he shall be blessed upon the earth: and thou wilt not deliver him unto the will of his enemies.'),
-            plain(3, 'The Lord will strengthen him upon the bed of languishing: thou wilt make all his bed in his sickness.'),
+            plain(3, 'The Lord will strengthen him upon the bed of languishing: thou wilt make all his bed in his sickness[res:sefaria-psalms-41].'),
           ],
         },
         {
@@ -109,7 +109,7 @@ export const PSALMS_41: RichChapterContent = {
           kind: 'commentary',
           id: 'psalms41-raise-up',
           html:
-            'In the midst of betrayal and sickness, David appeals to God. "But thou, O Lord, have mercy upon me, and raise me up." Note the shift. The enemies will come and go, will speak and retreat, but God remains. And God will raise him up. This is not a request for revenge against the betrayer, but for restoration to the psalmist himself.',
+            'In the midst of betrayal[res:intertextual-psalms-41-nt] and sickness, David appeals to God. "But thou, O Lord, have mercy upon me, and raise me up." Note the shift. The enemies will come and go, will speak and retreat, but God remains. And God will raise him up. This is not a request for revenge against the betrayer, but for restoration to the psalmist himself.',
         },
         {
           kind: 'hebrew',
@@ -158,6 +158,33 @@ export const PSALMS_41: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 41 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-41',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 41 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.41',
+      description: 'Lament in sickness with betrayal, Jewish commentary.',
+    },
+    {
+      id: 'intertextual-psalms-41-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 41 in John 13',
+      url: 'https://intertextual.bible/text/psalm-41',
+      description: 'Jesus applies Psalm 41 to his betrayal by Judas.',
+    },
+    {
+      id: 'bible-odyssey-betrayal-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Betrayal & Treachery',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms lamenting betrayal by friends and allies.',
+    },
+  ],
 
   hasHebrew: true,
 };

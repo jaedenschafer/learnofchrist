@@ -7,7 +7,7 @@ export const PSALMS_51: RichChapterContent = {
 
   estimatedMinutes: { beginner: 1, intermediate: 4, deep: 5 },
   intros: [
-    'Psalm 51 is the prayer of a man who has done the unthinkable. He has taken another man&apos;s wife; he has arranged for her husband to be killed in battle. And then, as his deed lay hidden, God sent a prophet to him. Nathan came with a story about a rich man who took the poor man&apos;s only lamb. David heard the story and his anger burned. "As the Lord liveth, the man that hath done this thing shall surely die." And Nathan said, "Thou art the man." In that moment, David&apos;s comfortable sin became unbearable.',
+    'Psalm 51 is the prayer of a man who has done the unthinkable. He has taken another man&apos;s wife; he has arranged for her husband to be killed in battle. And then, as his deed lay hidden, God sent a prophet to him. Nathan came with a story about a rich man who took the poor man&apos;s only lamb. David heard the story and his anger burned. "As the Lord liveth, the man that hath done this thing shall surely die." And Nathan said, "Thou art the man." In that moment, David&apos;s comfortable sin[res:sefaria-psalms-51] became unbearable.',
     'What follows is this psalm—not a prayer of excuses, but a prayer of devastation. David does not ask for mere pardon. He asks to be made new. "Wash me throughly from mine iniquity," he cries. "Purge me with hyssop...and I shall be clean: wash me, and I shall be whiter than snow." He knows that no outward cleansing will suffice. He needs his very heart remade. "Create in me a clean heart, O God; and renew a right spirit within me."',
   ],
 
@@ -136,7 +136,7 @@ export const PSALMS_51: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'psalms51-teach-sinners',
-          html: '"Then will I teach transgressors thy ways; and sinners shall be converted unto thee." David does not ask to be hidden away. He asks to be restored to usefulness. Out of his own brokenness, he will teach others. His sin and repentance will become a testimony to God&apos;s grace.',
+          html: '"Then will I teach transgressors thy ways; and sinners shall be converted unto thee." David does not ask to be hidden away. He asks to be restored to usefulness. Out of his own brokenness, he will teach others. His sin and repentance[res:bible-odyssey-penitential] will become a testimony to God&apos;s grace.',
         },
         {
           kind: 'commentary',
@@ -161,6 +161,33 @@ export const PSALMS_51: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 51 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-51',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 51 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.51',
+      description: 'Penitential psalm with rabbinic commentary on repentance.',
+    },
+    {
+      id: 'intertextual-psalms-51-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 51 in Romans 3 & Hebrews',
+      url: 'https://intertextual.bible/text/psalm-51',
+      description: 'NT quotes Psalm 51 on human sinfulness[res:intertextual-psalms-51-nt] and cleansing.',
+    },
+    {
+      id: 'bible-odyssey-penitential',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Penitential Psalms',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'The seven penitential psalms expressing contrition and grace.',
+    },
+  ],
 
   hasHebrew: true,
 };

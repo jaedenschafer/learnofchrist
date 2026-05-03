@@ -89,7 +89,7 @@ export const MICAH_4: RichChapterContent = {
           kind: 'commentary',
           id: 'micah-4-78mid-1',
           html:
-            'Micah pivots — from naming the wound to naming the healer. The next verses move closer to the hope that sustained him.',
+            '&quot;In the last days&quot; — Micah pivots from present judgment to a vision of the mountain of the LORD lifted up, the nations streaming to it.',
         },
         {
           kind: 'scripture',

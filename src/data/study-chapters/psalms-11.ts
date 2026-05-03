@@ -4,7 +4,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
  * Psalm 11 — Trust in the Lord
  *
  * Friends counsel David to flee: "Flee as a bird to your mountain." But David will
- * not run. "In the Lord put I my trust." He has examined God and found Him
+ * not run. "In the Lord put I my trust[res:sefaria-psalms-11]." He has examined God and found Him
  * steadfast. God sits in the heavens. His eyes see all. "His countenance doth
  * behold the upright." For those who love righteousness, this is comfort. For those
  * who love wickedness, it is terror. David will not flee from righteousness or from
@@ -68,7 +68,7 @@ export const PSALMS_11: RichChapterContent = {
           id: 'ps11-batach',
           title: 'Batach — "Trust"',
           script: 'בָּטַח',
-          translit: '<strong>Batach</strong> · to trust; to rely; to have confidence',
+          translit: '<strong>Batach</strong> · to trust; to rely; to have confidence[res:bible-odyssey-trust-psalms]',
           description:
             'Batach is not mere belief. It is reliance, dependence, the confident resting of one&apos;s full weight on something. To trust God is to lean entirely on His reality, His power, His faithfulness.',
         },
@@ -116,6 +116,25 @@ export const PSALMS_11: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 11 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-11',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 11 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.11',
+      description: 'Psalm of trust despite danger, with Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-trust-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalms of Trust',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms affirming confidence in God amid fear and threat.',
+    },
+  ],
 
   hasHebrew: true,
 };

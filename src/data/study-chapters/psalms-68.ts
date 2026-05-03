@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
 
 /**
- * Psalm 68 — The God of Victory
+ * Psalm 68 — The God[res:sefaria-psalms-68] of Victory
  *
  * "Let God arise, let his enemies be scattered: let them also that hate him
  * flee before him." This psalm celebrates the triumph of God over all opposing
@@ -112,7 +112,7 @@ export const PSALMS_68: RichChapterContent = {
           kind: 'christ',
           id: 'psalms68-christ-ascended',
           title: 'Christ Connection — Ascended to Heavens',
-          html: 'Paul quotes this psalm to describe Christ&apos;s ascension: He ascended up on high, leading captivity captive. Christ rides the heavens. He sends forth His voice—the voice of the Gospel—throughout all the earth. His enemies submit. His people receive strength.',
+          html: 'Paul quotes this psalm to describe Christ&apos;s ascension[res:intertextual-psalms-68-nt]: He ascended up on high, leading captivity captive[res:intertextual-psalms-68-nt]. Christ rides the heavens. He sends forth His voice—the voice of the Gospel—throughout all the earth. His enemies submit. His people receive strength.',
         },
         {
           kind: 'carry',
@@ -132,6 +132,33 @@ export const PSALMS_68: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 68 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-68',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 68 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.68',
+      description: 'Complex triumph hymn with Jewish medieval interpretation.',
+    },
+    {
+      id: 'intertextual-psalms-68-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 68 in Ephesians & Hebrews',
+      url: 'https://intertextual.bible/text/psalm-68',
+      description: 'NT applies Psalm 68 to Christ&apos;s ascension and captives freed.',
+    },
+    {
+      id: 'bible-odyssey-triumphal-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Triumphal & Procession Psalms',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms celebrating victory procession[res:bible-odyssey-triumphal-psalms]s and God&apos;s exaltation.',
+    },
+  ],
 
   hasHebrew: true,
 };

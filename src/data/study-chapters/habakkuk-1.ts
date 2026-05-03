@@ -85,7 +85,7 @@ export const HABAKKUK_1: RichChapterContent = {
           kind: 'commentary',
           id: 'habakkuk-1-78mid-1',
           html:
-            'The prophet turns from question to answer, or from answer to song. Habakkuk&apos;s short book is a conversation with God in three movements.',
+            'Habakkuk&apos;s first complaint ends; the LORD&apos;s answer begins — &quot;Behold ye among the heathen,&quot; the Chaldeans are coming. The cure looks worse than the disease.',
         },
         {
           kind: 'scripture',

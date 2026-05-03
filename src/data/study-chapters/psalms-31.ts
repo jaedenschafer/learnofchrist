@@ -17,7 +17,7 @@ export const PSALMS_31: RichChapterContent = {
 
   estimatedMinutes: { beginner: 1, intermediate: 2, deep: 3 },
   intros: [
-    'Psalm 31 opens with an act of complete trust: "In thee, O Lord, do I put my trust; let me never be ashamed." Yet the psalm does not describe ease. Instead, it catalogs difficulty: mocking, affliction, sorrow, despair. Yet throughout, the psalmist returns to the fundamental truth: "Thou hast known my soul in adversities." God is not distant from our suffering. He sees. He knows. He remembers. And He will not abandon those who call upon Him.',
+    'Psalm 31 opens with an act of complete trust[res:sefaria-psalms-31]: "In thee, O Lord, do I put my trust; let me never be ashamed." Yet the psalm does not describe ease. Instead, it catalogs difficulty: mocking, affliction, sorrow, despair. Yet throughout, the psalmist returns to the fundamental truth: "Thou hast known my soul in adversities." God is not distant from our suffering. He sees. He knows. He remembers. And He will not abandon those who call upon Him.',
   ],
 
   sections: [
@@ -93,7 +93,7 @@ export const PSALMS_31: RichChapterContent = {
           kind: 'christ',
           id: 'psalms31-christ-final-prayer',
           title: 'Christ Connection — The Final Breath',
-          html: 'Luke 23:46 records Jesus&apos; final words on the Cross: "Father, into thy hands I commend my spirit." He prays Psalm 31:5. In His moment of deepest abandonment, when He felt the full weight of separation from the Father, He prayed the prayer of trust. He committed Himself into the Father&apos;s hands. And through that prayer, He sanctified every soul who must also relinquish themselves into God&apos;s care.',
+          html: 'Luke 23:46 records Jesus&apos; final words on the Cross: "Father, into thy hands[res:intertextual-psalms-31-nt] I commend my spirit." He prays Psalm 31:5. In His moment of deepest abandonment, when He felt the full weight of separation from the Father, He prayed the prayer of trust. He committed Himself into the Father&apos;s hands. And through that prayer, He sanctified every soul who must also relinquish themselves into God&apos;s care.',
         },
         {
           kind: 'carry',
@@ -113,6 +113,33 @@ export const PSALMS_31: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 31 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-31',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 31 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.31',
+      description: 'Lament and trust with Jewish medieval commentary.',
+    },
+    {
+      id: 'intertextual-psalms-31-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 31 in Luke 23 & Acts 7',
+      url: 'https://intertextual.bible/text/psalm-31',
+      description: 'Psalm 31 language in Jesus&apos; death and Stephen[res:intertextual-psalms-31-nt]&apos;s martyrdom.',
+    },
+    {
+      id: 'bible-odyssey-trust-distress',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Trust in Distress',
+      url: 'https://www.bibleodyssey.org/dictionary/lament-psalms/',
+      description: 'Psalms moving from lament to affirmation[res:bible-odyssey-trust-distress] of trust.',
+    },
+  ],
 
   hasHebrew: true,
 };

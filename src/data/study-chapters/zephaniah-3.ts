@@ -36,7 +36,7 @@ export const ZEPHANIAH_3: RichChapterContent = {
           kind: 'commentary',
           id: 'zephaniah-3-78mid-1',
           html:
-            'The prophet turns from judgment to remnant — from wrath to a quiet promise that the proud will be removed and the meek preserved.',
+            'The prophet turns from indicting Jerusalem to promising her — &quot;the LORD thy God in the midst of thee is mighty&quot; — that He Himself will sing over her.',
         },
         {
           kind: 'scripture',
@@ -116,7 +116,7 @@ export const ZEPHANIAH_3: RichChapterContent = {
           kind: 'commentary',
           id: 'zephaniah-3-78mid-2',
           html:
-            'The prophet turns from judgment to remnant — from wrath to a quiet promise that the proud will be removed and the meek preserved.',
+            'The prophet turns from indicting Jerusalem to promising her — &quot;the LORD thy God in the midst of thee is mighty&quot; — that He Himself will sing over her.',
         },
         {
           kind: 'scripture',

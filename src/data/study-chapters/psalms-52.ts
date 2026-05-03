@@ -38,7 +38,7 @@ export const PSALMS_52: RichChapterContent = {
             plain(4, 'Thou lovest all devouring words, O thou deceitful tongue.'),
             plain(5, 'God shall likewise destroy thee for ever, he shall take thee away, and pluck thee out of thy dwelling place, and root thee out of the land of the living. Selah.'),
             plain(6, 'The righteous also shall see, and fear, and shall laugh at him:'),
-            plain(7, 'Lo, this is the man that made not God his strength; but trusted in the abundance of his riches, and strengthened himself in his wickedness.'),
+            plain(7, 'Lo, this is the man that made not God his strength; but trusted in the abundance of his riches, and strengthened himself in his wickedness[res:sefaria-psalms-52].'),
           ],
         },
         {
@@ -122,6 +122,25 @@ export const PSALMS_52: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 52 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-52',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 52 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.52',
+      description: 'Denunciation of the wicked with Jewish commentary.',
+    },
+    {
+      id: 'bible-odyssey-denunciation',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Denunciation & Warning',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Psalms condemning wickedness[res:bible-odyssey-denunciation] and warning of judgment.',
+    },
+  ],
 
   hasHebrew: true,
 };

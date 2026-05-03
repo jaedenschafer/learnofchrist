@@ -18,7 +18,7 @@ export const PSALMS_21: RichChapterContent = {
 
   estimatedMinutes: { beginner: 1, intermediate: 3, deep: 4 },
   intros: [
-    'Psalm 21 celebrates the strength of a king who has received his heart&apos;s desire from the Lord. This is not a king who trusts in his own arm, but one who rejoices in God&apos;s power working through him. The psalmist shows us a vision of regal triumph rooted not in earthly conquest, but in the favor and blessing of God.',
+    'Psalm 21 celebrates the strength of a king who has received his heart&apos;s desire from the Lord. This is not a king who trusts in his own arm, but one who rejoices in God&apos;s power working[res:bible-odyssey-kingship-psalms] through him. The psalmist shows us a vision of regal triumph rooted not in earthly conquest, but in the favor and blessing of God.',
   ],
 
   sections: [
@@ -126,6 +126,25 @@ export const PSALMS_21: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 21 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-21',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 21 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.21',
+      description: 'Royal thanksgiving with medieval Jewish exegesis.',
+    },
+    {
+      id: 'bible-odyssey-kingship-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Kingship & Anointing',
+      url: 'https://www.bibleodyssey.org/dictionary/royal[res:sefaria-psalms-21]-psalms/',
+      description: 'Psalms affirming the king&apos;s divine appointment.',
+    },
+  ],
 
   hasHebrew: true,
 };

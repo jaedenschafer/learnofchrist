@@ -37,7 +37,7 @@ export const MICAH_6: RichChapterContent = {
           kind: 'commentary',
           id: 'micah-6-78mid-1',
           html:
-            'Micah pivots — from naming the wound to naming the healer. The next verses move closer to the hope that sustained him.',
+            'The LORD&apos;s controversy with His people pivots from history to demand — &quot;What doth the LORD require of thee?&quot; The answer is short and unsparing.',
         },
         {
           kind: 'scripture',
@@ -103,7 +103,7 @@ export const MICAH_6: RichChapterContent = {
           kind: 'commentary',
           id: 'micah-6-78mid-2',
           html:
-            'Micah pivots — from naming the wound to naming the healer. The next verses move closer to the hope that sustained him.',
+            'The LORD&apos;s controversy with His people pivots from history to demand — &quot;What doth the LORD require of thee?&quot; The answer is short and unsparing.',
         },
         {
           kind: 'scripture',

@@ -116,7 +116,7 @@ export const JEREMIAH_6: RichChapterContent = {
           kind: 'commentary',
           id: 'jeremiah-6-78mid-1',
           html:
-            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+            'Jeremiah pivots from the LORD&apos;s warning to his own grief — the watchman has cried out, and now he weeps that no one is listening.',
         },
         {
           kind: 'scripture',

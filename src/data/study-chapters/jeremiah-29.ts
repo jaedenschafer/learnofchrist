@@ -129,7 +129,7 @@ export const JEREMIAH_29: RichChapterContent = {
           kind: 'commentary',
           id: 'jeremiah-29-78mid-1',
           html:
-            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+            'Jeremiah turns from instructions to the exiles — build houses, plant gardens — to the LORD&apos;s long promise of restoration after seventy years.',
         },
         {
           kind: 'scripture',
@@ -230,7 +230,7 @@ export const JEREMIAH_29: RichChapterContent = {
           kind: 'commentary',
           id: 'jeremiah-29-78mid-2',
           html:
-            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+            'Jeremiah turns from instructions to the exiles — build houses, plant gardens — to the LORD&apos;s long promise of restoration after seventy years.',
         },
         {
           kind: 'scripture',

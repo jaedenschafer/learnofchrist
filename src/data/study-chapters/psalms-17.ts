@@ -5,7 +5,7 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
  *
  * "Hear the right, O Lord, attend unto my cry." David pleads his case before God
  * with the confidence of innocence. "Keep me as the apple of the eye, hide me under
- * the shadow of thy wings." He asks for protection, for refuge, for the tender care
+ * the shadow of thy wings." He asks for protection[res:bible-odyssey-justice-prayer], for refuge, for the tender care
  * of God. And he concludes with a stunning affirmation: "I shall be satisfied, when
  * I awake, with thy likeness." Transformation, not merely vindication, is the goal.
  */
@@ -29,7 +29,7 @@ export const PSALMS_17: RichChapterContent = {
           kind: 'scripture',
           chapter: 17,
           lines: [
-            plain(1, 'Hear the right, O Lord, attend unto my cry, give ear unto my prayer, that goeth not out of feigned lips.'),
+            plain(1, 'Hear the right, O Lord, attend unto my cry, give ear unto my prayer[res:sefaria-psalms-17], that goeth not out of feigned lips.'),
             plain(2, 'Let my sentence come forth from thy presence; let thine eyes behold the things that are equal.'),
             plain(3, 'Thou hast proved mine heart; thou hast visited me in the night; thou hast tried me, and shalt find nothing: I am purposed that my mouth shall not transgress.'),
             plain(4, 'Concerning the works of men, by the word of thy lips I have kept me from the paths of the destroyer.'),
@@ -160,6 +160,25 @@ export const PSALMS_17: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 17 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-17',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 17 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.17',
+      description: 'Prayer for protection with Jewish commentary on vindication.',
+    },
+    {
+      id: 'bible-odyssey-justice-prayer',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Psalms of Justice & Protection',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Prayers for God to defend the innocent and punish the wicked.',
+    },
+  ],
 
   hasHebrew: true,
 };

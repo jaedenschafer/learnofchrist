@@ -96,7 +96,7 @@ export const JEREMIAH_12: RichChapterContent = {
           kind: 'commentary',
           id: 'jeremiah-12-78mid-1',
           html:
-            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+            'The prophet turns from his question — why do the wicked prosper? — to the LORD&apos;s answer, which does not soothe but presses harder.',
         },
         {
           kind: 'scripture',

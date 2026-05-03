@@ -78,7 +78,7 @@ export const HOSEA_4: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea-4-78mid-1',
           html:
-            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+            'The LORD&apos;s controversy is named — no truth, no mercy, no knowledge of God in the land. Then comes the priests&apos; turn.',
         },
         {
           kind: 'scripture',

@@ -41,7 +41,7 @@ export const JEREMIAH_8: RichChapterContent = {
           kind: 'commentary',
           id: 'jeremiah-8-78mid-1',
           html:
-            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+            'The prophet pivots from indictment to lament — &quot;Is there no balm in Gilead?&quot; The same voice that announced judgment now grieves it.',
         },
         {
           kind: 'scripture',

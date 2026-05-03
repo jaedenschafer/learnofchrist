@@ -76,7 +76,7 @@ export const PSALMS_61: RichChapterContent = {
           chapter: 61,
           lines: [
             plain(5, 'For thou, O God, hast heard my vows: thou hast given me the heritage of those that fear thy name.'),
-            plain(6, 'Thou wilt prolong the king&apos;s life: and his years shall be as many generations.'),
+            plain(6, 'Thou wilt prolong the king[res:sefaria-psalms-61]&apos;s life: and his years shall be as many generations.'),
             plain(7, 'He shall abide before God for ever: O prepare mercy and truth, which may preserve him.'),
             plain(8, 'So will I sing praise unto thy name for ever, that I may daily perform my vows.'),
           ],
@@ -119,6 +119,25 @@ export const PSALMS_61: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 61 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-61',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 61 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.61',
+      description: 'Prayer for the king with Jewish medieval commentary.',
+    },
+    {
+      id: 'bible-odyssey-royal-intercession',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Royal Intercession Psalms',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Prayers on behalf of the monarch[res:bible-odyssey-royal-intercession] and his reign.',
+    },
+  ],
 
   hasHebrew: true,
 };

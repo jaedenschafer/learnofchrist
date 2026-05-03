@@ -170,7 +170,7 @@ export const JEREMIAH_22: RichChapterContent = {
           kind: 'commentary',
           id: 'jeremiah-22-78mid-1',
           html:
-            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+            'Jeremiah pivots from the throne of Judah to the kings on it, naming Shallum and Jehoiakim. The judgment narrows from policy to person.',
         },
         {
           kind: 'scripture',
@@ -268,7 +268,7 @@ export const JEREMIAH_22: RichChapterContent = {
           kind: 'commentary',
           id: 'jeremiah-22-78mid-2',
           html:
-            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+            'Jeremiah pivots from the throne of Judah to the kings on it, naming Shallum and Jehoiakim. The judgment narrows from policy to person.',
         },
         {
           kind: 'scripture',

@@ -87,7 +87,7 @@ export const JONAH_1: RichChapterContent = {
           kind: 'commentary',
           id: 'jonah-1-78mid-1',
           html:
-            'The scene shifts. Jonah&apos;s book is a series of small dramas, each one teaching the prophet what God already knew.',
+            'The sailors&apos; fear shifts. They cried each to his own god in verse 5; now they fear the LORD &quot;exceedingly&quot; — pagan worship is becoming awe.',
         },
         {
           kind: 'scripture',

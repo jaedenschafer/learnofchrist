@@ -91,7 +91,7 @@ export const HOSEA_11: RichChapterContent = {
           kind: 'commentary',
           id: 'hosea-11-78mid-1',
           html:
-            'The prophet turns from accusation to appeal. The marriage metaphor keeps reaching for words to say what unfaithfulness costs.',
+            '&quot;When Israel was a child, then I loved him.&quot; The prophet pivots from indictment to a Father&apos;s memory — and the memory is what stays the LORD&apos;s hand.',
         },
         {
           kind: 'scripture',

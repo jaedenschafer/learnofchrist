@@ -3,10 +3,10 @@ import { hp, hy, hg, t, plain, type RichChapterContent } from './types';
 /**
  * Psalm 14 — The Fool and the Godly
  *
- * "The fool hath said in his heart, There is no God." The fool does not argue this
+ * "The fool[res:sefaria-psalms-14] hath said in his heart, There is no God." The fool does not argue this
  * point. He does not reason toward it. He simply declares it as settled in his heart.
  * From this foundation of folly, all manner of corruption flows. "There is none that
- * doeth good, no, not one." Paul quotes this in Romans 3 to show the universal need
+ * doeth good, no, not one." Paul quotes this in Romans[res:intertextual-psalms-14-nt] 3 to show the universal need
  * for the gospel. David describes a world in moral free fall—until the Lord intervenes.
  */
 export const PSALMS_14: RichChapterContent = {
@@ -47,7 +47,7 @@ export const PSALMS_14: RichChapterContent = {
           script: 'נָבָל',
           translit: '<strong>Nabal</strong> · fool; senseless; morally debased',
           description:
-            'The Hebrew word nabal means more than intellectual stupidity. It means moral senselessness, a person who has abandoned wisdom and righteousness. The fool is not someone who lacks intelligence but someone who has chosen folly.',
+            'The Hebrew word nabal means more than intellectual stupidity. It means moral senselessness, a person who has abandoned wisdom[res:bible-odyssey-fool-psalms] and righteousness. The fool is not someone who lacks intelligence but someone who has chosen folly.',
         },
         {
           kind: 'commentary',
@@ -122,6 +122,33 @@ export const PSALMS_14: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Psalm 14 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalms-14',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalms 14 — Hebrew & Commentaries',
+      url: 'https://www.sefaria.org/Psalms.14',
+      description: 'Wisdom psalm on human folly with Jewish exegesis.',
+    },
+    {
+      id: 'intertextual-psalms-14-nt',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 14 in Romans 3',
+      url: 'https://intertextual.bible/text/psalm-14',
+      description: 'Paul quotes Psalm 14 to show universal human sinfulness.',
+    },
+    {
+      id: 'bible-odyssey-fool-psalms',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Fool in Wisdom Psalms',
+      url: 'https://www.bibleodyssey.org/dictionary/psalms/',
+      description: 'Biblical concept of the fool who denies God.',
+    },
+  ],
 
   hasHebrew: true,
 };

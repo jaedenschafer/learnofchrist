@@ -69,7 +69,7 @@ export const JEREMIAH_23: RichChapterContent = {
           kind: 'commentary',
           id: 'jeremiah-23-78mid-1',
           html:
-            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+            'The oracle turns from the failed shepherds to the Branch that is coming — &quot;a King shall reign and prosper.&quot; Judgment makes room for a promise.',
         },
         {
           kind: 'scripture',
@@ -179,7 +179,7 @@ export const JEREMIAH_23: RichChapterContent = {
           kind: 'commentary',
           id: 'jeremiah-23-78mid-2',
           html:
-            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+            'The oracle turns from the failed shepherds to the Branch that is coming — &quot;a King shall reign and prosper.&quot; Judgment makes room for a promise.',
         },
         {
           kind: 'scripture',
@@ -245,7 +245,7 @@ export const JEREMIAH_23: RichChapterContent = {
           kind: 'commentary',
           id: 'jeremiah-23-78mid-3',
           html:
-            'Jeremiah pivots here — from indictment to grief, or from grief to a glimpse of mercy. The prophet&apos;s heart and the LORD&apos;s heart are hard to tell apart.',
+            'The oracle turns from the failed shepherds to the Branch that is coming — &quot;a King shall reign and prosper.&quot; Judgment makes room for a promise.',
         },
         {
           kind: 'scripture',

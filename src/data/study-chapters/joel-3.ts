@@ -38,7 +38,7 @@ export const JOEL_3: RichChapterContent = {
           kind: 'commentary',
           id: 'joel-3-78mid-1',
           html:
-            'The oracle turns. Joel is short, but he never lets devastation be the whole story — restoration is always close behind.',
+            'The judgment of the nations is gathered into the valley of Jehoshaphat. Joel turns from describing the gathering to describing the verdict — and then the springs that will flow from Jerusalem.',
         },
         {
           kind: 'scripture',
@@ -86,7 +86,7 @@ export const JOEL_3: RichChapterContent = {
           kind: 'commentary',
           id: 'joel-3-78mid-2',
           html:
-            'The oracle turns. Joel is short, but he never lets devastation be the whole story — restoration is always close behind.',
+            'The judgment of the nations is gathered into the valley of Jehoshaphat. Joel turns from describing the gathering to describing the verdict — and then the springs that will flow from Jerusalem.',
         },
         {
           kind: 'scripture',
