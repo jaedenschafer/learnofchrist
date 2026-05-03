@@ -41,7 +41,7 @@ export const ECCLESIASTES_12: RichChapterContent = {
           kind: 'commentary',
           id: 'ecc12-mid-youth-age',
           html:
-            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn[res:sefaria-ecclesiastes-12][res:bibleodyssey-qohelet-wisdom].',
         },
         {
           kind: 'scripture',
@@ -154,5 +154,24 @@ export const ECCLESIASTES_12: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Ecclesiastes 12 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-ecclesiastes-12',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Ecclesiastes 12 — Hebrew + classical Jewish commentary',
+      url: 'https://www.sefaria.org/Ecclesiastes.12',
+      description: 'The Hebrew text of Qohelet&apos;s closing chapter alongside Rashi, Ibn Ezra, and other classical commentators.',
+    },
+    {
+      id: 'bibleodyssey-qohelet-wisdom',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ecclesiastes (Qohelet) and ANE Wisdom',
+      url: 'https://www.bibleodyssey.org/articles/ecclesiastes/',
+      description: 'SBL essay placing Qohelet&apos;s meditation on aging and judgment within the broader ANE wisdom tradition.',
+    },
+  ],
 
 };
