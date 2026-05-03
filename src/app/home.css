@@ -1133,19 +1133,19 @@ html[data-reader-theme="dark"] {
 
 /* ─── 7. Blog ───────────────────────────────────────────────────────── */
 .loc-blog {
-  /* Atmospheric photo backdrop, soft dark veil. The blog cards over it
-     are white-frosted with the photo bleeding through. */
+  /* Light cream backdrop with subtle Vesper-tinted radial washes — same
+     recipe as .loc-resources so the section reads as a quiet, airy
+     companion rather than a competing dark photo. Cards on top stay
+     readable because their text color flips to dark below. */
   position: relative;
   isolation: isolate;
   overflow: hidden;
   padding: var(--loc-section-y) 0;
-  /* Pine forest at sunrise — more contemplative than the previous beach
-     and provides the soft cool-warm contrast that white frost loves. */
-  background-image:
-    linear-gradient(180deg, rgba(26, 22, 18, 0.40), rgba(26, 22, 18, 0.58)),
-    url('https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?auto=format&fit=crop&w=2400&q=85');
-  background-size: cover;
-  background-position: center;
+  background:
+    radial-gradient(ellipse 45% 30% at 15% 10%, color-mix(in srgb, var(--vesper-peach) 22%, transparent), transparent 65%),
+    radial-gradient(ellipse 40% 28% at 85% 90%, color-mix(in srgb, var(--vesper-gold) 16%, transparent), transparent 65%),
+    radial-gradient(ellipse 70% 50% at 50% 50%, #FFFFFF, transparent 75%),
+    var(--vesper-parchment);
 }
 
 .loc-blog__head {
@@ -1163,23 +1163,24 @@ html[data-reader-theme="dark"] {
   font-size: var(--loc-h2);
   line-height: 1.05;
   letter-spacing: -0.02em;
-  color: #FFFFFF;
+  /* Switched from white → Compline now that the section is light. */
+  color: var(--vesper-compline);
   margin: 0;
   text-wrap: balance;
 }
 
-.loc-blog .loc-eyebrow { color: var(--loc-gold-soft); }
+.loc-blog .loc-eyebrow { color: var(--vesper-gold); }
 
 .loc-blog__see-all {
   font-size: 0.875rem;
   font-weight: 600;
-  color: rgba(255, 255, 255, 0.92);
+  color: rgba(26, 22, 18, 0.78);
   text-decoration: none;
   border-bottom: 1px solid currentColor;
   padding-bottom: 0.125rem;
   white-space: nowrap;
 }
-.loc-blog__see-all:hover { color: #FFFFFF; }
+.loc-blog__see-all:hover { color: var(--vesper-compline); }
 
 .loc-blog__grid {
   display: grid;
@@ -1195,28 +1196,30 @@ html[data-reader-theme="dark"] {
 }
 
 .loc-blog-card {
-  /* Shared .frost-card recipe — image + body wrapped in one frosted
-     pane. Blog section has a photo backdrop, so white text reads. */
+  /* Light-context frost recipe — section is now cream, so text/borders
+     flip to Compline + warm cream tints. */
   display: flex;
   flex-direction: column;
   text-decoration: none;
   border-radius: 24px;
   overflow: hidden;
-  background: var(--frost-tint-card);
-  -webkit-backdrop-filter: var(--frost-blur-card);
-  backdrop-filter: var(--frost-blur-card);
-  border: 1px solid var(--frost-border-card);
-  color: var(--frost-text);
+  background: rgba(255, 255, 255, 0.62);
+  -webkit-backdrop-filter: blur(18px) saturate(150%);
+  backdrop-filter: blur(18px) saturate(150%);
+  border: 1px solid rgba(26, 22, 18, 0.06);
+  color: var(--vesper-compline);
   transition: transform 0.25s cubic-bezier(0.2, 0.7, 0.2, 1),
               background 0.2s ease,
-              border-color 0.2s ease;
+              border-color 0.2s ease,
+              box-shadow 0.2s ease;
+  box-shadow: 0 1px 2px rgba(26, 22, 18, 0.04);
 }
 
 .loc-blog-card:hover {
   transform: scale(1.005);
-  filter: brightness(1.04);
-  background: var(--frost-tint-hover);
-  border-color: rgba(255, 255, 255, 0.40);
+  background: rgba(255, 255, 255, 0.82);
+  border-color: rgba(26, 22, 18, 0.10);
+  box-shadow: 0 8px 24px -10px rgba(26, 22, 18, 0.18);
 }
 
 .loc-blog-card__media {
@@ -1251,21 +1254,21 @@ html[data-reader-theme="dark"] {
   letter-spacing: 0.14em;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
-  color: var(--frost-text-soft);
+  color: var(--vesper-gold);
 }
 
 .loc-blog-card__title {
   font-family: 'EB Garamond', 'New York', Georgia, serif;
   font-size: 1.25rem;
   line-height: 1.25;
-  color: var(--frost-text);
+  color: var(--vesper-compline);
   margin: 0 0 0.5rem;
 }
 
 .loc-blog-card__excerpt {
   font-size: 0.875rem;
   line-height: 1.55;
-  color: var(--frost-text-soft);
+  color: rgba(26, 22, 18, 0.68);
   margin: 0;
   display: -webkit-box;
   -webkit-line-clamp: 2;
