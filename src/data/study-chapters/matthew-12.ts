@@ -165,5 +165,32 @@ export const MATTHEW_12: RichChapterContent = {
     ref: 'Matthew 12 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-exodus-20-8-11',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 20:8–11 — Sabbath Commandment',
+      url: 'https://www.sefaria.org/Exodus.20.8-11',
+      description: 'The commandment to keep the Sabbath, which forms the background for the Sabbath controversies in Matthew 12.',
+    },
+    {
+      id: 'bibleodyssey-sabbath',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Sabbath in Judaism and Christianity',
+      url: 'https://www.bibleodyssey.org/dictionary/sabbath/',
+      description: 'Historical context for Sabbath practices and the Pharisaic interpretations Jesus challenges.',
+    },
+    {
+      id: 'sefaria-1-kings-10',
+      kind: 'study',
+      source: 'Sefaria',
+      label: '1 Kings 10 — Queen of Sheba and Solomon',
+      url: 'https://www.sefaria.org/1_Kings.10',
+      description: 'The account of Solomon&apos;s wisdom that Jesus surpasses, to which Jesus compares Himself.',
+    },
+  ],
+
   hasHebrew: false,
 };

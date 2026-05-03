@@ -156,5 +156,32 @@ export const MATTHEW_11: RichChapterContent = {
     ref: 'Matthew 11 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'bibleodyssey-john-baptist',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'John the Baptist&apos;s Doubts',
+      url: 'https://www.bibleodyssey.org/dictionary/john-the-baptist/',
+      description: 'Historical and theological treatment of John&apos;s questions about Jesus&apos; messianic identity and Jesus&apos; response.',
+    },
+    {
+      id: 'sefaria-isaiah-35',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 35 — Messianic Signs',
+      url: 'https://www.sefaria.org/Isaiah.35',
+      description: 'The prophecy Jesus implicitly fulfills when He lists His miracles to answer John&apos;s question.',
+    },
+    {
+      id: 'sefaria-jeremiah-6-16',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 6:16 — Rest for Your Souls',
+      url: 'https://www.sefaria.org/Jeremiah.6.16',
+      description: 'The Old Testament promise underlying Jesus&apos; invitation to come and find rest.',
+    },
+  ],
+
   hasHebrew: false,
 };

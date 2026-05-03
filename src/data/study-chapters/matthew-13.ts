@@ -167,5 +167,32 @@ export const MATTHEW_13: RichChapterContent = {
     ref: 'Matthew 13 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'bibleodyssey-parables',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jesus&apos; Parables',
+      url: 'https://www.bibleodyssey.org/dictionary/parables-of-jesus/',
+      description: 'Overview of Jesus&apos; parable teaching method and the parables specific to Matthew 13.',
+    },
+    {
+      id: 'sefaria-daniel-2-44',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Daniel 2:44 — God&apos;s Eternal Kingdom',
+      url: 'https://www.sefaria.org/Daniel.2.44',
+      description: 'The Old Testament prophecy underlying the imagery of God&apos;s kingdom growing and filling the earth.',
+    },
+    {
+      id: 'intertextual-sower',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Parable of the Sower — Synoptic Parallels',
+      url: 'https://intertextual.bible/text/matthew-13.1',
+      description: 'Comparison of the Sower parable across Matthew, Mark, and Luke with their interpretative differences.',
+    },
+  ],
+
   hasHebrew: false,
 };
