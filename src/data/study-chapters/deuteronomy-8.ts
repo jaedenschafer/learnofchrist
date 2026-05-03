@@ -81,7 +81,7 @@ export const DEUTERONOMY_8: RichChapterContent = {
           kind: 'commentary',
           id: 'dt8-humble',
           html:
-            'The wilderness was deliberate. God did not wander with Israel by accident for forty years; He led them there on purpose — to humble them, to prove them, to test what was actually in their hearts. The goal of the wilderness is not suffering for its own sake but the stripping away of all false confidence. When you have been hungry and have not eaten, when your only food is manna from heaven, you learn something about yourself and your Provider that no other circumstance can teach.',
+            'The wilderness was deliberate. God did not wander with Israel by accident for forty years; He led them there on purpose — to humble them, to prove them, to test what was actually in their hearts. The goal of the wilderness is not suffering for its own sake but the stripping away of all false confidence. When you have been hungry and have not eaten, when your only food is manna from heaven [res:manna-wilderness-provision-bible-odyssey], you learn something about yourself and your Provider that no other circumstance can teach [res:sefaria-deuteronomy-8].',
         },
         {
           kind: 'scripture',
@@ -113,7 +113,7 @@ export const DEUTERONOMY_8: RichChapterContent = {
           id: 'christ-manna-word',
           title: 'Christ Connection — Bread and the Living Word',
           html:
-            'Jesus quotes this exact verse when Satan tempts Him in the wilderness: &ldquo;Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God&rdquo; (Matt. 4:4). He is saying to the tempter: I too have hungered, and I know that a human being does not survive on food; we survive on God&apos;s word. Later, He identifies Himself with manna: &ldquo;I am the bread of life… your fathers did eat manna in the wilderness, and are dead. But this is the bread which cometh down from heaven, that a man may eat thereof, and not die&rdquo; (John 6:48–50). He is the true bread, the true word made flesh.',
+            'Jesus quotes this exact verse when Satan tempts Him in the wilderness: &ldquo;Man shall not live by bread alone, but by every word that proceedeth out of the mouth of God&rdquo; (Matt. 4:4 [res:jesus-temptation-wilderness-matthew-4]). He is saying to the tempter: I too have hungered, and I know that a human being does not survive on food; we survive on God&apos;s word. Later, He identifies Himself with manna: &ldquo;I am the bread of life… your fathers did eat manna in the wilderness, and are dead. But this is the bread which cometh down from heaven, that a man may eat thereof, and not die&rdquo; (John 6:48–50). He is the true bread, the true word made flesh [res:manna-wilderness-provision-bible-odyssey].',
         },
         {
           kind: 'scripture',
@@ -485,6 +485,33 @@ export const DEUTERONOMY_8: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Deuteronomy 8 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-deuteronomy-8',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 8',
+      url: 'https://www.sefaria.org/Deuteronomy.8',
+      description: 'Open-access source text and traditional Jewish commentary on the wilderness provision and the danger of forgetting God in prosperity.',
+    },
+    {
+      id: 'manna-wilderness-provision-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Manna',
+      url: 'https://www.bibleodyssey.org/dictionary/manna/',
+      description: 'Scholarly entry on the miraculous bread from heaven and its role as a sign of God&apos;s provision and dependence in the wilderness.',
+    },
+    {
+      id: 'jesus-temptation-wilderness-matthew-4',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Jesus&apos; Wilderness Temptation',
+      url: 'https://www.bibleodyssey.org/passage/matthew-4-1-11/',
+      description: 'Intertextual connection to Matthew 4:4, where Jesus quotes Deuteronomy 8:3 during His own wilderness testing, echoing Israel&apos;s forty-year trial.',
+    },
+  ],
 
   hasHebrew: true,
 };

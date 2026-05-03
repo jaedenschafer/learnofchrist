@@ -45,6 +45,18 @@ export const CHRONICLES_1_10: RichChapterContent = {
             plain(1, 'Now the Philistines fought against Israel; and the men of Israel fled before the Philistines, and fell down slain in mount Gilboa.'),
             plain(2, 'And the Philistines followed hard after Saul, and after his sons; and the Philistines slew Jonathan, and Abinadab, and Malchi-shua, the sons of Saul.'),
             plain(3, 'And the battle went sore against Saul, and the archers hit him, and he was wounded of the archers.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-10-mid-3',
+          html:
+            '<p>This cluster shows the families entrusted with leading and protecting Israel.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             {
               number: 4,
               spans: [

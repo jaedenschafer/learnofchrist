@@ -128,6 +128,18 @@ export const CHRONICLES_2_32: RichChapterContent = {
             plain(9, 'After this did Sennacherib king of Assyria send his servants to Jerusalem, (but he himself laid siege against Lachish, and all his power with him,) to Hezekiah king of Judah, and to all Judah that were at Jerusalem, saying,'),
             plain(10, 'Thus saith Sennacherib king of Assyria, Whereon do ye trust, that ye abide in the siege in Jerusalem?'),
             plain(11, 'Doth not Hezekiah persuade you to give over yourselves to die by famine and by thirst, saying, The Lord our God shall deliver us out of the hand of the king of Assyria?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-chronicles-32-mid-11',
+          html:
+            '<p>Leadership transitions mark new direction—a builder hands off to the next.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 32,
+          lines: [
             plain(12, 'Hath not the same Hezekiah taken away his high places and his altars, and commanded Judah and Jerusalem, saying, Ye shall worship before one altar, and burn incense upon it?'),
             plain(13, 'Know ye not what I and my fathers have done unto all the people of other lands? were the gods of the nations of those lands any ways able to deliver their lands out of mine hand?'),
             plain(14, 'Who was there among all the gods of those nations that my fathers utterly destroyed, that could deliver his people out of mine hand, that your God should be able to deliver you out of mine hand?'),

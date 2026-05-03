@@ -134,6 +134,18 @@ export const JOB_23: RichChapterContent = {
             plain(11, 'My foot hath held his steps, my way have I kept, and not declined.'),
             plain(12, 'Neither have I gone back from the commandment of his lips; I have esteemed the words of his mouth more than my necessary food.'),
             plain(13, 'But he is in one mind, and who can turn him? and what his soul desireth, even that he doeth.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job23-mid-seek-find',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             plain(14, 'For he performeth the thing that is appointed for me: and many such things are with him.'),
             plain(15, 'Therefore am I troubled at his presence: when I consider, I am afraid of him.'),
             plain(16, 'For God maketh my heart soft: and the Almighty troubleth me;'),
@@ -195,6 +207,18 @@ export const JOB_23: RichChapterContent = {
             plain(18, 'Therefore am I troubled at his presence: when I consider, I am afraid of him.'),
             plain(19, 'For God maketh my heart soft: and the Almighty troubleth me;'),
             plain(20, 'Therefore am I troubled at his presence: when I consider, I am afraid of him.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job23b-mid-path-light',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             plain(21, 'For God maketh my heart soft: and the Almighty troubleth me;'),
             {
               number: 22,

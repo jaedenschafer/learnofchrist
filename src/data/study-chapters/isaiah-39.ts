@@ -35,6 +35,18 @@ export const ISAIAH_39: RichChapterContent = {
             plain(2, 'And Hezekiah was pleased, and shewed them the house of his precious things, the silver, and the gold, and the spices, and the precious ointment, and all the house of his armour, and all that was found in his treasures: there was nothing in his house, nor in all his dominion, that Hezekiah shewed them not.'),
             plain(3, 'Then came Isaiah the prophet unto king Hezekiah, and said unto him, What said these men? and from whence came they unto thee? And Hezekiah said, They are come from a far country, even from Babylon.'),
             plain(4, 'Then said he, What have they seen in thine house? And Hezekiah answered, All that is in mine house have they seen: there is nothing among my treasures that I have not shewed them.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-future-exile',
+          html:
+            '<p>Hezekiah shows the Babylonians his treasures; the prophet warns all will be carried away. Pride speaks; consequences listen.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 39,
+          lines: [
             plain(5, 'Then said Isaiah to Hezekiah, Hear the word of the Lord of hosts:'),
             plain(6, 'Behold, the days come, that all that is in thine house, and that which thy fathers have laid up in store until this day, shall be carried into Babylon: nothing shall be left, saith the Lord.'),
             plain(7, 'And of thy sons that shall issue from thee, which thou shalt beget, shall they take away; and they shall be eunuchs in the palace of the king of Babylon.'),

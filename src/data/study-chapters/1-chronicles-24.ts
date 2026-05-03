@@ -188,6 +188,18 @@ export const CHRONICLES_1_24: RichChapterContent = {
             plain(21, 'Concerning Rehabiah: of the sons of Rehabiah, the first was Isshiah. Of the Izharites; Shelomoth: of the sons of Shelomoth; Jahath.'),
             plain(22, 'Of the sons of Hebron; Jeriah the first, Amariah the second, Jahaziel the third, Jekameam the fourth.'),
             plain(23, 'Of the sons of Uzziel; Michah: of the sons of Michah; Shamir.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-24-mid-23',
+          html:
+            '<p>The genealogy traces how God preserved His people through generations and exile.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 24,
+          lines: [
             plain(24, 'The brother of Michah was Isshiah: of the sons of Isshiah; Zechariah.'),
             {
               number: 25,

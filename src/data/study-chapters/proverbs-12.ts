@@ -33,6 +33,18 @@ export const PROVERBS_12: RichChapterContent = {
             plain(2, 'A good man obtaineth favour of the Lord: but a man of wicked devices will he condemn.'),
             plain(3, 'A man shall not be established by wickedness: but the root of the righteous shall not be moved.'),
             plain(4, 'A virtuous woman is a crown to her husband: but she that maketh ashamed is as rottenness in his bones.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov12-mid-tongue-roots',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             plain(5, 'The thoughts of the righteous are right: but the counsels of the wicked are deceit.'),
             plain(6, 'The words of the wicked are to lie in wait for blood: but the mouth of the upright shall deliver them.'),
             plain(7, 'The wicked are overthrown, and are not: but the house of the righteous shall stand.'),
@@ -51,6 +63,18 @@ export const PROVERBS_12: RichChapterContent = {
             plain(9, 'He that is despised, and hath a servant, is better than he that honoureth himself, and lacketh bread.'),
             plain(10, 'A righteous man knoweth the soul of his beast: but the tender mercies of the wicked are cruel.'),
             plain(11, 'He that tilleth his land shall be satisfied with bread: but he that followeth vain persons is void of understanding.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov12b-mid-labor-soul',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             plain(12, 'The wicked desireth the net of evil men: but the root of the righteous yieldeth fruit.'),
             plain(13, 'The wicked is snared by the transgression of his lips: but the just shall come out of trouble.'),
             plain(14, 'A man shall be satisfied with good by the fruit of his mouth: and the recompence of a man&apos;s hands shall be rendered unto him.'),
@@ -115,6 +139,18 @@ export const PROVERBS_12: RichChapterContent = {
             plain(22, 'Lying lips are abomination to the Lord: but they that deal truly are his delight.'),
             plain(23, 'A prudent man concealeth knowledge: but the heart of fools proclaimeth foolishness.'),
             plain(24, 'The hand of the diligent shall bear rule: but the slothful shall be under tribute.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov12c-mid-diligent-rule',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             plain(25, 'Heaviness in the heart of man maketh it stoop: but a good word maketh it glad.'),
             plain(26, 'The righteous is more excellent than his neighbour: but the way of the wicked seduceth them.'),
             plain(27, 'The slothful man roasteth not that which he took in hunting: but the substance of a diligent man is precious.'),

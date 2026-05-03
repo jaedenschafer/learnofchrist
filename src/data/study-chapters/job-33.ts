@@ -177,6 +177,18 @@ export const JOB_33: RichChapterContent = {
             plain(24, 'Then he is gracious unto him, and saith, Deliver him from going down to the pit: I have found a ransom.'),
             plain(25, 'His flesh shall be fresher than a child&apos;s: he shall return to the days of his youth:'),
             plain(26, 'He shall pray unto God, and he will be favourable unto him: and he shall see his face with joy: for he will render unto man his righteousness.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job33-mid-ransom-pit',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 33,
+          lines: [
             plain(27, 'He looketh upon men, and if any say, I have sinned, and perversed that which was right, and it profited me not;'),
             plain(28, 'He will deliver his soul from going into the pit, and his life shall see the light.'),
             plain(29, 'Lo, all these things worketh God oftentimes with man,'),

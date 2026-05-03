@@ -32,6 +32,18 @@ export const ISAIAH_22: RichChapterContent = {
             plain(1, 'The burden of the valley of vision. What aileth thee now, that thou art wholly gone up to the housetops?'),
             plain(2, 'Thou that art full of stirs, a tumultuous city, a joyous city: thy slain men are not slain with the sword, nor dead in battle.'),
             plain(3, 'All thy rulers are fled together, they are bound by the archers: all that are found in thee are bound together, which have fled from far.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-valley-shout',
+          html:
+            '<p>In the valley of vision, Jerusalem parties while enemies circle. Joy before ruin ends in wailing.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 22,
+          lines: [
             plain(4, 'Therefore said I, Look away from me; I will weep bitterly, labour not to comfort me, because of the spoiling of the daughter of my people.'),
             plain(5, 'For it is a day of trouble, and of treading down, and of perplexity by the Lord God of hosts in the valley of vision, breaking down the walls, and of crying to the mountains.'),
             plain(6, 'And Elam bare the quiver with chariots of men and horsemen, and Kir uncovered the shield.'),

@@ -32,6 +32,18 @@ export const PROVERBS_13: RichChapterContent = {
             plain(1, 'A wise son heareth his father&apos;s instruction: but a scorner heareth not rebuke.'),
             plain(2, 'A man shall eat good by the fruit of his mouth: but the soul of the transgressors shall eat violence.'),
             plain(3, 'He that keepeth his mouth keepeth his life: but he that openeth wide his lips shall have destruction.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov13-mid-mouth-soul',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 13,
+          lines: [
             plain(4, 'The soul of the sluggard desireth, and hath nothing: but the soul of the diligent shall be made fat.'),
             plain(5, 'A righteous man hateth lying: but a wicked man is loathsome, and cometh to shame.'),
             plain(6, 'Righteousness keepeth him that is upright in the way: but wickedness overthroweth the sinner.'),
@@ -112,6 +124,18 @@ export const PROVERBS_13: RichChapterContent = {
             plain(19, 'The desire accomplished is sweet to the soul: but it is abomination to fools to depart from evil.'),
             plain(20, 'He that walketh with wise men shall be wise: but a companion of fools shall be destroyed.'),
             plain(21, 'Evil pursueth sinners: but to the righteous good shall be repayed.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov13b-mid-affliction-fool',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 13,
+          lines: [
             plain(22, 'A good man leaveth an inheritance to his children&apos;s children: and the wealth of the sinner is laid up for the just.'),
             plain(23, 'Much food is in the tillage of the poor: but there is that is destroyed for want of judgment.'),
             plain(24, 'He that spareth his rod hateth his son: but he that loveth him chasteneth him betimes.'),

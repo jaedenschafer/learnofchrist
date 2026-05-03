@@ -77,6 +77,18 @@ export const ISAIAH_62: RichChapterContent = {
             plain(6, 'I have set watchmen upon thy walls, O Jerusalem, which shall never hold their peace day nor night: ye that make mention of the Lord, keep not silence.'),
             plain(7, 'And give him no rest, till he establish, and till he make Jerusalem a praise in the earth.'),
             plain(8, 'The Lord hath sworn by his right hand, and by the arm of his strength, Surely I will no more give thy corn to be meat for thine enemies; and the sons of the stranger shall not drink thy new wine, for the which thou hast laboured:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-name-restored',
+          html:
+            '<p>You will be called by a new name the Lord&apos;s mouth proclaims. A ring of joy encircles the redeemed.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 62,
+          lines: [
             plain(9, 'But they that have gathered it shall eat it, and praise the Lord; and they that have brought it together shall drink it in the courts of my holiness.'),
             plain(10, 'Go through, go through the gates; prepare ye the way of the people; cast up, cast up the highway; gather out the stones; lift up a standard for the people.'),
             plain(11, 'Behold, the Lord hath proclaimed unto the end of the world, Say ye to the daughter of Zion, Behold, thy salvation cometh; behold, his reward is with him, and his work before him.'),

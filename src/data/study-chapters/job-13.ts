@@ -124,6 +124,18 @@ export const JOB_13: RichChapterContent = {
             plain(13, 'Hold your peace, let me alone, that I may speak, and let come on me what will.'),
             plain(14, 'Wherefore do I take my flesh in my teeth, and put my life in mine hand?'),
             plain(15, 'Though he slay me, yet will I trust in him: but I will maintain mine own ways before him.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job13-mid-defense-silence',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 13,
+          lines: [
             plain(16, 'He also shall be my salvation: for an hypocrite shall not come before him.'),
             plain(17, 'Hear diligently my speech, and my declaration with your ears.'),
             plain(18, 'Behold now, I have ordered my cause; I know that I shall be justified.'),

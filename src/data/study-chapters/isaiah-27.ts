@@ -51,6 +51,18 @@ export const ISAIAH_27: RichChapterContent = {
             plain(7, 'Hath he smitten him, as he smote those that smote him? or is he slain according to the slaughter of them that are slain by him?'),
             plain(8, 'In measure, when it shooteth forth, thou wilt debate with it: he stayeth his rough wind in the day of the east wind.'),
             plain(9, 'By this therefore shall the iniquity of Jacob be purged; and this is all the fruit to take away his sin; when he maketh all the stones of the altar as chalkstones that are beaten in sunder, the groves and images shall not stand up.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-vineyard-kept',
+          html:
+            '<p>In that day, the Lord will keep His vineyard; no more thorns. From brokenness comes a new bloom.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 27,
+          lines: [
             plain(10, 'Yet the defenced city shall be desolate, and the habitation forsaken, and left like a wilderness: there shall the calf feed, and there shall he lie down, and consume the branches thereof.'),
             plain(11, 'When the boughs thereof are withered, they shall be broken off: the women come, and set them on fire: for it is a people of no understanding: therefore he that made them will not have mercy upon them, and he that formed them will shew them no favour.'),
             plain(12, 'And it shall come to pass in that day, that the Lord shall beat off from the channel of the river unto the stream of Egypt, and ye shall be gathered one by one, O ye children of Israel.'),

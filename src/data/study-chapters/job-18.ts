@@ -201,6 +201,18 @@ export const JOB_18: RichChapterContent = {
                 t(', and he shall have no name in the street.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job18-mid-bildad-terror',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             plain(18, 'He shall be driven from light into darkness, and chased out of the world.'),
             plain(19, 'He shall neither have son nor nephew among his people, nor any remaining in his dwellings.'),
             plain(20, 'They that come after shall be astonied at his day, as they that went before were affrighted.'),

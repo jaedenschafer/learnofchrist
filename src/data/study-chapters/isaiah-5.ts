@@ -33,6 +33,18 @@ export const ISAIAH_5: RichChapterContent = {
             plain(1, 'Now will I sing to my well-beloved a song of my beloved touching his vineyard. My well-beloved hath a vineyard in a very fruitful hill:'),
             plain(2, 'And he fenced it, and gathered out the stones thereof, and planted it with the choicest vines: and built a tower in the midst of it, and also made a winepress therein: and he looked that it should bring forth grapes, and it brought forth wild grapes.'),
             plain(3, 'And now, O inhabitants of Jerusalem, and men of Judah, judge, I pray you, betwixt me and my vineyard.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-song-vineyard',
+          html:
+            '<p>The beloved&apos;s vineyard yields wild fruit. God tends, expects justice—and receives injustice. What will He do then?</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(4, 'What could have been done more to my vineyard, that I have not done in it? wherefore, when I looked that it should bring forth grapes, brought it forth wild grapes?'),
             plain(5, 'And now go to; I will tell you what I will do to my vineyard: I will take away the hedge thereof, and it shall be eaten up; and break down the wall thereof, and it shall be trodden down.'),
             plain(6, 'And I will lay it waste: it shall not be pruned, nor digged; but there shall come up briers and thorns: I will also command the clouds that they rain no rain upon it.'),

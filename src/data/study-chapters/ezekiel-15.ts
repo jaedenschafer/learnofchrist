@@ -32,6 +32,18 @@ export const EZEKIEL_15: RichChapterContent = {
             plain(1, 'And the word of the Lord came unto me, saying,'),
             plain(2, 'Son of man, What is the vine tree more than any tree, or than a branch which is among the trees of the forest?'),
             plain(3, 'Shall wood be taken thereof to make any work? or will men take a pin of it to hang any vessel thereon?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-vine-burned',
+          html:
+            '<p>The vine is useless wood—burned by both sides of war. Without fruit, a life has no other purpose.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 15,
+          lines: [
             plain(4, 'Behold, it is cast into the fire for fuel: the fire devoureth both the ends of it, and the midst of it is burned. Is it meet for any work?'),
             plain(5, 'Behold, when it was whole, it was meet for no work: how much less shall it be meet yet for any work, when the fire hath devoured it, and it is burned?'),
             plain(6, 'Therefore thus saith the Lord God; As the vine tree among the trees of the forest, which I have given to the fire for fuel, so will I give the inhabitants of Jerusalem.'),

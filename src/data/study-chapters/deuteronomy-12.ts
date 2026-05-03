@@ -74,7 +74,7 @@ export const DEUTERONOMY_12: RichChapterContent = {
           kind: 'commentary',
           id: 'deut-destroy',
           html:
-            'The verb is <em>shamad</em> — utterly destroy, obliterate, leave no trace. Moses does not say, &ldquo;change them.&rdquo; He says wipe them out completely. The high places are where the nations worshiped their gods; they cannot be repurposed. The land must be cleansed.',
+            'The verb is <em>shamad</em> — utterly destroy, obliterate, leave no trace. Moses does not say, &ldquo;change them.&rdquo; He says wipe them out completely. The high places are where the nations worshiped their gods [res:high-places-ancient-israel-archaeology]; they cannot be repurposed. The land must be cleansed.',
         },
         {
           kind: 'hebrew',
@@ -155,7 +155,7 @@ export const DEUTERONOMY_12: RichChapterContent = {
           kind: 'commentary',
           id: 'deut12-place-chosen',
           html:
-            'The Lord will choose one place to put His name. Worship cannot be improvised on every hilltop; it must be brought to the place God Himself appoints.',
+            'The Lord will choose one place to put His name [res:sefaria-deuteronomy-12]. Worship cannot be improvised on every hilltop; it must be brought to the place God Himself appoints [res:biblical-temple-worship-centralization-bible-odyssey].',
         },
         {
           kind: 'scripture',
@@ -530,6 +530,33 @@ export const DEUTERONOMY_12: RichChapterContent = {
             'Where are you tempted to add to God&apos;s word or diminish from it? What would it look like to receive it exactly as it is given?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-deuteronomy-12',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 12',
+      url: 'https://www.sefaria.org/Deuteronomy.12',
+      description: 'Open-access source text and rabbinic commentary on centralized worship at the place God chooses and the destruction of pagan high places.',
+    },
+    {
+      id: 'biblical-temple-worship-centralization-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Centralized Worship and the Temple',
+      url: 'https://www.bibleodyssey.org/dictionary/temple/',
+      description: 'Theological entry on the concept of centralized worship at one place and its fulfillment in the Jerusalem temple and ultimately in Christ.',
+    },
+    {
+      id: 'high-places-ancient-israel-archaeology',
+      kind: 'archaeology',
+      source: 'Penn Museum',
+      label: 'High Places in Ancient Levantine Religion',
+      url: 'https://www.penn.museum/',
+      description: 'Archaeological study of bamot (high places) and their role in Canaanite worship, providing context for Deuteronomy&apos;s command to destroy them.',
     },
   ],
 

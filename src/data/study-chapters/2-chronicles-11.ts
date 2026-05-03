@@ -93,6 +93,18 @@ export const CHRONICLES_2_11: RichChapterContent = {
             plain(6, 'He built even Bethlehem, and Etam, and Tekoa,'),
             plain(7, 'And Beth-zur, and Shoco, and Adullam,'),
             plain(8, 'And Gath, and Mareshah, and Ziph,'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-chronicles-11-mid-8',
+          html:
+            '<p>The construction progresses: each phase brought the temple closer to completion.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             plain(9, 'And Adoraim, and Lachish, and Azekah,'),
             plain(10, 'And Zorah, and Aijalon, and Hebron, which are in Judah and in Benjamin fenced cities.'),
             plain(11, 'And he fortified the strong holds, and put captains in them, and store of victual, and of oil and wine.'),

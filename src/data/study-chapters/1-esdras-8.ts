@@ -81,6 +81,18 @@ export const FIRST_ESDRAS_8: RichChapterContent = {
             },
             plain(2, 'Now Esdras was the son of Saraias, and the son of Saraias of Azarias, and the son of Helchias,'),
             plain(3, 'The son of Sellum, the son of Zadoc, the son of Achitob,'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-return-praise',
+          html:
+            '<p>Ezra leads the people home to Jerusalem; they offer sacrifices and praise. The exile ends; restoration begins.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(4, 'The son of Amarias, the son of Azarias, the son of Marimoth,'),
             plain(5, 'The son of Zaraias, the son of Savias, the son of Bockie,'),
             plain(6, 'The son of Abisaias, the son of Phinees, the son of Eleazar, the son of Aaron the chief priest:'),

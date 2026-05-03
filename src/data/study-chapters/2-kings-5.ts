@@ -305,6 +305,18 @@ export const KINGS_2_5: RichChapterContent = {
             plain(21, 'So Gehazi followed after Naaman. And when Naaman saw him running after him, he lighted down from the chariot to meet him, and said, Is all well?'),
             plain(22, 'And he said, All is well. My master hath sent me, saying, Behold, even now there be come to me from mount Ephraim two young men of the sons of the prophets: give them, I pray thee, a talent of silver, and two changes of garments.'),
             plain(23, 'And Naaman said, Be content, take two talents. And he urged him, and bound two talents of silver in two bags, with two changes of garments, and laid them upon two of his servants; and they bare them before him.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-kings-5-mid-23',
+          html:
+            '<p>The narrative shifts from prophet to king, showing God working through different vessels.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(24, 'And when he came to the tower, he took them from their hand, and bestowed them in the house; and let the men go.'),
             plain(25, 'Then he went in, and stood before his master. And Elisha said unto him, Whence comest thou, Gehazi? And he said, Thy servant went no whither.'),
             {

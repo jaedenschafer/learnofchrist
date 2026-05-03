@@ -499,6 +499,18 @@ export const KINGS_1_6: RichChapterContent = {
                 t('And the two doors were of fir tree: the two leaves of the one door were folding, and the two leaves of the other door were folding.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-6-mid-34',
+          html:
+            '<p>A royal shift: the narrative moves from succession planning to operational rule.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             {
               number: 35,
               spans: [

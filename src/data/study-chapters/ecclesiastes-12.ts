@@ -35,6 +35,18 @@ export const ECCLESIASTES_12: RichChapterContent = {
             plain(2, 'While the sun, or the light, or the moon, or the stars, be not darkened, nor the clouds return after the rain;'),
             plain(3, 'In the day when the keepers of the house shall tremble, and the strong men shall bow themselves, and the grinders cease because they are few, and those that look out of the windows be darkened,'),
             plain(4, 'And the doors shall be shut in the streets, when the sound of the grinding is low, and he shall rise up at the voice of the bird, and all the daughters of musick shall be brought low;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ecc12-mid-youth-age',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             plain(5, 'Also when they shall be afraid of that which is high, and fears shall be in the way, and the almond tree shall flourish, and the grasshopper shall be a burden, and desire shall fail: because man goeth to his long home, and the mourners go about the streets:'),
             plain(6, 'Or ever the silver cord be loosed, or the golden bowl be broken, or the pitcher be broken at the fountain, or the wheel broken at the cistern.'),
             plain(7, 'Then shall the dust return to the earth as it was: and the spirit shall return unto God who gave it.'),

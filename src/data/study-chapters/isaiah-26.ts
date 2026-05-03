@@ -101,6 +101,18 @@ export const ISAIAH_26: RichChapterContent = {
             plain(13, 'O Lord our God, other lords beside thee have had dominion over us: but by thee only will we make mention of thy name.'),
             plain(14, 'They are dead, they shall not live; they are deceased, they shall not rise: therefore hast thou visited them with destruction, and made all their memory to perish.'),
             plain(15, 'Thou hast increased the nation, O Lord, thou hast increased the nation: thou art glorified: thou hadst removed it far unto all the ends of the earth.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-city-redeemed',
+          html:
+            '<p>A strong city with salvation for walls: open them and let the righteous enter. Trust leads through any gate.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 26,
+          lines: [
             plain(16, 'Lord, in trouble have they visited thee, they poured out a prayer when thy chastening was upon them.'),
             plain(17, 'Like as a woman with child, that draweth near the time of her deliverance, is in pain, and crieth out in her pangs; so have we been in thy sight, O Lord.'),
             plain(18, 'We have been with child, we have been in pain, we have as it were brought forth wind; we have not wrought any salvation in the earth; neither have the inhabitants of the world fallen.'),

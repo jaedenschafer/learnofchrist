@@ -43,6 +43,33 @@ export const DEUTERONOMY_5: RichChapterContent = {
     ref: 'Deuteronomy 5 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-deuteronomy-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 5 — Decalogue Restated',
+      url: 'https://www.sefaria.org/Deuteronomy.5',
+      description: 'Hebrew and medieval commentaries on the Ten Commandments as restated for a new generation in covenant.',
+    },
+    {
+      id: 'exodus-20-deut-5-intertextual-comparison',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Exodus 20 ↔ Deuteronomy 5',
+      url: 'https://intertextual.bible/text/exodus-20/deuteronomy-5',
+      description: 'Side-by-side comparison of the original Ten Commandments (Exodus) and their restatement (Deuteronomy).',
+    },
+    {
+      id: 'decalogue-biblical-law-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Ten Commandments',
+      url: 'https://www.bibleodyssey.org/dictionary/the-ten-commandments/',
+      description: 'SBL study of the Decalogue in biblical and archaeological context.',
+    },
+  ],
+
   sections: [
     /* ─── Deuteronomy 5:1–5 — The Covenant with This Generation ─────────────── */
     {

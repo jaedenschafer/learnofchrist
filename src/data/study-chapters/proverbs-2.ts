@@ -118,6 +118,18 @@ export const PROVERBS_2: RichChapterContent = {
             plain(16, 'To deliver thee also from the strange woman, even from the stranger which flattereth with her words;'),
             plain(17, 'Which forsaketh the guide of her youth, and forgetteth the covenant of her God;'),
             plain(18, 'For her house inclineth unto death, and her paths unto the dead;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov2-mid-life-dark',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(19, 'None that go unto her return again, neither take they hold of the paths of life.'),
             plain(20, 'That thou mayest walk in the way of good men, and keep the paths of the righteous.'),
             plain(21, 'For the upright shall dwell in the land, and the perfect shall remain in it.'),

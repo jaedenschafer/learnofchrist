@@ -49,6 +49,18 @@ export const ISAIAH_37: RichChapterContent = {
             plain(5, 'So the servants of king Hezekiah came to Isaiah.'),
             plain(6, 'And Isaiah said unto them, Thus shall ye say to your master, Thus saith the Lord, Be not afraid of the words which thou hast heard, with which the servants of the king of Assyria have blasphemed me.'),
             plain(7, 'Behold, I will send a blast upon him, and he shall hear a rumour, and shall return to his own land; and I will cause him to fall by the sword in his own land.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-prayer-answered',
+          html:
+            '<p>Hezekiah prays; the angel destroys the Assyrian army in a single night. God&apos;s arm is never too short.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 37,
+          lines: [
             plain(8, 'So Rabshakeh returned, and found the king of Assyria warring against Libnah: for he had heard that he was departed from Lachish.'),
             plain(9, 'And when he heard say, Tirhakah king of Ethiopia was come out to fight against him; he sent messengers again unto Hezekiah, saying,'),
             plain(10, 'Thus shall ye speak to Hezekiah king of Judah, saying, Let not thy God in whom thou trustest deceive thee, saying, Jerusalem shall not be delivered into the hand of the king of Assyria.'),
@@ -155,6 +167,18 @@ export const ISAIAH_37: RichChapterContent = {
             plain(24, 'By thy messengers thou hast reproached the Lord, and hast said, With the multitude of my chariots I am come up to the height of the mountains, to the sides of Lebanon, and will cut down the tall cedar thereof, and the choice fir thereof: and I will enter into the height of his border, and the forest of his Carmel.'),
             plain(25, 'I have digged and drunk strange waters, and with the sole of my feet have I dried up all the rivers of the besieged places.'),
             plain(26, 'Hast thou not heard long ago how I have done it, and of ancient times that I have formed it? now have I brought it to pass, that thou shouldest be to lay waste fenced cities into ruinous heaps.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-prayer-answered-2',
+          html:
+            '<p>The king of Assyria boasts; God answers through the prophet. Arrogance meets the God who plans all things.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 37,
+          lines: [
             plain(27, 'Therefore their inhabitants were of small power, they were dismayed and confounded; they were as the grass of the field, and as the green herb, as the grass on the house tops, and as corn blasted before it be grown up.'),
             plain(28, 'But I know thy abode, and thy going out, and thy coming in, and thy rage against me.'),
             plain(29, 'Because thy rage against me and thy tumult is come up into mine ears, therefore I will put my hook in thy nose, and my bridle in thy lips, and I will turn thee back by the way which thou camest.'),

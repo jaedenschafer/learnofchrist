@@ -31,6 +31,18 @@ export const EZEKIEL_6: RichChapterContent = {
             plain(1, 'And the word of the Lord came unto me, saying,'),
             plain(2, 'Son of man, set thy face toward the mountains of Israel, and prophesy against them,'),
             plain(3, 'And say, Ye mountains of Israel, hear the word of the Lord God; Thus saith the Lord God to the mountains, and to the hills, to the rivers, and to the valleys; Behold, I, even I, will bring a sword upon you, and I will destroy your high places.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-idols-judgment',
+          html:
+            '<p>The mountains hear God&apos;s word: idols will fall, altars will burn, and survivors will remember why. Judgment aims at restoration.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(4, 'And your altars shall be desolate, and your images shall be broken: and I will cast down your slain men before your idols.'),
             plain(5, 'And I will lay the dead carcases of the children of Israel before their idols; and I will scatter your bones round about your altars.'),
             plain(6, 'In all your dwellingplaces the cities shall be laid waste, and the high places shall be desolate; that your altars may be laid waste and made desolate, and your idols may be broken and cease, and your images may be cut down, and your works may be abolished.'),

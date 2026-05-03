@@ -279,6 +279,18 @@ export const JOB_21: RichChapterContent = {
             plain(28, 'For ye say, Where is the house of the prince? and where are the tabernacles of the wicked?'),
             plain(29, 'Have ye not asked them that go by the way? and do ye not know their tokens,'),
             plain(30, 'That the wicked is reserved to the day of destruction? they shall be brought forth to the day of wrath.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job21-mid-wicked-reserved',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             plain(31, 'Who shall declare his way to his face? and who shall repay him what he hath done?'),
             plain(32, 'Yet shall he be carried to the grave, and shall remain in the tomb.'),
             plain(33, 'The clods of the valley shall be sweet unto him, and every man shall draw after him, as there are innumerable before him.'),

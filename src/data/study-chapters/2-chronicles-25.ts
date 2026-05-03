@@ -252,6 +252,18 @@ export const CHRONICLES_2_25: RichChapterContent = {
             plain(18, 'And Joash king of Israel sent to Amaziah king of Judah, saying, The thistle that was in Lebanon sent to the cedar of Lebanon, saying, Give thy daughter to my son to wife: and there passed by a wild beast that was in Lebanon, and trode down the thistle.'),
             plain(19, 'Thou sayest, Lo, thou hast smitten the Edomites; and thine heart lifteth thee up to boast: abide now at home; why shouldest thou meddle to thine hurt, and thou shouldest fall, even thou, and Judah with thee?'),
             plain(20, 'But Amaziah would not hear; for it came of God, that he might deliver them into the hand of their enemies, because they sought after the gods of Edom.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-chronicles-25-mid-20',
+          html:
+            '<p>The dedication nears: function and worship emerge from structure and stone.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             plain(21, 'So Joash king of Israel went up; and he and Amaziah king of Judah looked one another in the face at Beth-shemesh, which belongeth to Judah.'),
             plain(22, 'And Judah was put to the worse before Israel; and they fled every man to his tent.'),
             plain(23, 'And Joash king of Israel took Amaziah king of Judah, the son of Joash, the son of Ahaziah, at Beth-shemesh, and brought him to Jerusalem, and brake down the wall of Jerusalem from the gate of Ephraim to the corner gate, four hundred cubits.'),

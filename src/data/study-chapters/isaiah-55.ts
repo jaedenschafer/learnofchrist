@@ -31,6 +31,18 @@ export const ISAIAH_55: RichChapterContent = {
             plain(1, 'Ho, every one that thirsteth, come ye to the waters; and he that hath no money; come ye, buy, and eat; yea, come, buy wine and milk without money and without price.'),
             plain(2, 'Wherefore do ye spend money for that which is not bread? and your labour for that which satisfieth not? hearken diligently unto me, and eat ye that which is good, and let your soul delight itself in fatness.'),
             plain(3, 'Incline your ear, and come unto me: hear, and your soul shall live; and I will make an everlasting covenant with you, even the sure mercies of David.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-word-returns',
+          html:
+            '<p>My word goes out; it will not return empty. It accomplishes what I please and succeeds in the purpose I sent it.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 55,
+          lines: [
             plain(4, 'Behold, I have given him for a witness to the people, a leader and commander to the people.'),
             plain(5, 'Behold, thou shalt call a nation that thou knowest not; and nations that knew not thee shall run unto thee because of the Lord thy God, and for the Holy One of Israel; for he hath glorified thee.'),
             plain(6, 'Seek ye the Lord while he may be found, call ye upon him while he is near:'),

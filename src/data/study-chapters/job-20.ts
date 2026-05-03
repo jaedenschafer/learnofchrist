@@ -133,6 +133,18 @@ export const JOB_20: RichChapterContent = {
             plain(12, 'Though wickedness be sweet in his mouth, though he hide it under his tongue;'),
             plain(13, 'Though he spare it, and forsake it not; but keep it still within his mouth:'),
             plain(14, 'Yet his meat in his bowels is turned, it is the gall of asps within him.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job20-mid-zophar-joy',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 20,
+          lines: [
             plain(15, 'He hath swallowed down riches, and he shall vomit them up again: God shall cast them out of his belly.'),
             {
               number: 16,
@@ -207,6 +219,18 @@ export const JOB_20: RichChapterContent = {
                 t('.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job20b-mid-arrows-death',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 20,
+          lines: [
             plain(26, 'All darkness shall be hid in his secret places: a fire not blown shall consume him; it shall go ill with him that is left in his tabernacle.'),
             plain(27, 'The heaven shall reveal his iniquity; and the earth shall rise up against him.'),
             plain(28, 'The increase of his house shall depart, and his goods shall flow away in the day of his wrath.'),

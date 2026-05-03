@@ -31,6 +31,18 @@ export const ISAIAH_54: RichChapterContent = {
             plain(2, 'Enlarge the place of thy tent, and let them stretch forth the curtains of thine habitations: spare not, lengthen thy cords, and strengthen thy stakes;'),
             plain(3, 'For thou shalt break forth on the right hand and on the left; and thy seed shall inherit the Gentiles, and make the desolate cities to be inhabited.'),
             plain(4, 'Fear not; for thou shalt not be ashamed: neither be thou confounded; for thou shalt forget the shame of thy youth, and shalt not remember the reproach of thy widowhood any more.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-barren-children',
+          html:
+            '<p>The barren woman will have more children than the married. Enlarge your tent; your descendants will possess the nations.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 54,
+          lines: [
             plain(5, 'For thy Maker is thine husband; the Lord of hosts is his name; and thy Redeemer is the Holy One of Israel; The God of the whole earth shall he be called.'),
             plain(6, 'For the Lord hath called thee as a woman forsaken and grieved in spirit, and a wife of youth, when thou wast refused, saith thy God.'),
             plain(7, 'For a small moment have I forsaken thee; but with great mercies will I gather thee.'),
@@ -90,6 +102,18 @@ export const ISAIAH_54: RichChapterContent = {
             plain(10, 'For the mountains shall depart, and the hills be removed: but my kindness shall not depart from thee, neither shall the covenant of my peace be removed, saith the Lord that hath mercy on thee.'),
             plain(11, 'O thou afflicted, tossed with tempest, and not comforted, behold, I will lay thy stones with fair colours, and lay thy foundations with sapphires.'),
             plain(12, 'And I will make thy windows of agates, and thy gates of carbuncles, and all thy borders of pleasant stones.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-barren-children-2',
+          html:
+            '<p>Your gates will be made of rubies, your walls of precious stones. All your children will be taught by the Lord.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 54,
+          lines: [
             plain(13, 'And all thy children shall be taught of the Lord; and great shall be the peace of thy children.'),
             plain(14, 'In righteousness shalt thou be established: thou shalt be far from oppression; for thou shalt not fear: and from terror; for it shall not come near thee.'),
             plain(15, 'Behold, they shall surely gather together, but not by me: whosoever shall gather together against thee shall fall for thy sake.'),

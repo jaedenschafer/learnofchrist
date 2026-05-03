@@ -144,6 +144,18 @@ export const ISAIAH_42: RichChapterContent = {
             plain(19, 'Who is blind, but my servant? or deaf, as my messenger that I sent? who is blind as he that is perfect, and blind as the Lord&apos;s servant?'),
             plain(20, 'Seeing many things, but thou observest not; opening the ears, but he heareth not.'),
             plain(21, 'The Lord is well pleased for his righteousness&apos; sake; he will magnify the law, and make it honourable.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-justice-light',
+          html:
+            '<p>My servant will bring justice gently, not break the broken reed. He is a light to the nations; watch Him rise.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 42,
+          lines: [
             plain(22, 'But this is a people robbed and spoiled; they are all of them snared in holes, and they are hid in prison houses: they are for a prey, and none delivereth; for a spoil, and none saith, Restore.'),
             plain(23, 'Who among you will give ear to this? who will hearken and hear for the time to come?'),
             plain(24, 'Who gave Jacob for a spoil, and Israel to the robbers? did not the Lord, he against whom we have sinned? for they would not walk in his ways, neither were they obedient unto his law.'),

@@ -66,6 +66,18 @@ export const JOB_6: RichChapterContent = {
                 t(': therefore my words are swallowed up.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job6-mid-grief-weight',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             {
               number: 4,
               spans: [
@@ -252,6 +264,18 @@ export const JOB_6: RichChapterContent = {
             },
             plain(16, 'Which are blackish by reason of the ice, and wherein the snow is hid:'),
             plain(17, 'What time they wax warm, they vanish: when it is hot, they are consumed out of their place.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job6b-mid-kind-brothers',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(18, 'The paths of their way are turned aside; they go to nothing, and perish.'),
             plain(19, 'The troops of Tema looked, the companies of Sheba waited for them.'),
             plain(20, 'They were confounded because they had hoped; they came thither, and were ashamed.'),

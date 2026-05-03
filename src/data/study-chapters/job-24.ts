@@ -163,6 +163,18 @@ export const JOB_24: RichChapterContent = {
             plain(19, 'Drought and heat consume the snow waters: so doth the grave those which have sinned.'),
             plain(20, 'The womb shall forget him; the worm shall feed sweetly on him; he shall be no more remembered; and wickedness shall be broken as a tree.'),
             plain(21, 'For he hath evil entreated the barren that beareth not: and doeth not good to the widow.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job24-mid-darkness-night',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 24,
+          lines: [
             plain(22, 'He draweth also the mighty with his power: he riseth up, and no man is sure of life.'),
             {
               number: 23,

@@ -33,6 +33,18 @@ export const ISAIAH_35: RichChapterContent = {
             plain(1, 'The wilderness and the solitary place shall be glad for them; and the desert shall rejoice, and blossom as the rose.'),
             plain(2, 'It shall blossom abundantly, and rejoice even with joy and singing: the glory of Lebanon shall be given unto it, the excellency of Carmel and Sharon, they shall see the glory of the Lord, and the excellency of our God.'),
             plain(3, 'Strengthen ye the weak hands, and confirm the knees which are feeble.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-desert-blooms',
+          html:
+            '<p>The wasteland rejoices; the desert blooms with flowers. The ransomed walk home singing; sorrow and sighing flee.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 35,
+          lines: [
             plain(4, 'Say to them that are of a fearful heart, Be strong, fear not: behold, your God will come with vengeance, even God with a recompence; he will come and save you.'),
             plain(5, 'Then the eyes of the blind shall be opened, and the ears of the deaf shall be unstopped.'),
             plain(6, 'Then shall the lame man leap as an hart, and the tongue of the dumb sing: for in the wilderness shall waters break out, and streams in the desert.'),

@@ -34,6 +34,18 @@ export const ISAIAH_32: RichChapterContent = {
             plain(2, 'And a man shall be as an hiding place from the wind, and a covert from the tempest; as rivers of water in a dry place, as the shadow of a great rock in a weary land.'),
             plain(3, 'And the eyes of them that see shall not be dim, and the ears of them that hear shall be attentive.'),
             plain(4, 'The heart also of the rash shall understand knowledge, and the tongue of the stammerers shall be ready to speak plainly.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-king-reigns',
+          html:
+            '<p>A king reigns for justice; a prince rules for righteousness. Then the desert blooms, blindness lifts, and peace comes.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 32,
+          lines: [
             plain(5, 'The vile person shall be no more called liberal, nor the churl said to be bountiful.'),
             plain(6, 'For the vile person will speak villany, and his heart will work iniquity, to practise hypocrisy, and to utter error against the Lord, to make empty the soul of the hungry, and he will cause the drink of the thirsty to fail.'),
             plain(7, 'The instruments of the churl are evil: he deviseth wicked devices to destroy the poor with lying words, even when the needy speaketh right.'),

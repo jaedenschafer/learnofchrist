@@ -50,6 +50,18 @@ export const CHRONICLES_1_27: RichChapterContent = {
               'Over the first course for the first month was Jashobeam the son of Zabdiel: and in his course were twenty and four thousand.'
             ),
             plain(3, 'Of the children of Perez was the chief of all the captains of the host in the first month.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-27-mid-3',
+          html:
+            '<p>This cluster shows the families entrusted with leading and protecting Israel.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 27,
+          lines: [
             plain(
               4,
               'And over the course of the second month was Dodai an Ahohite, and of his course was Mikloth also a chief man: and in his course were twenty and four thousand.'
@@ -94,6 +106,18 @@ export const CHRONICLES_1_27: RichChapterContent = {
               11,
               'The eighth captain for the eighth month was Sibbecai the Hushathite, of the Zarhites: and in his course were twenty and four thousand.'
             ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-27-mid-11',
+          html:
+            '<p>These connections reveal how God&apos;s family plan unfolded across centuries.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 27,
+          lines: [
             plain(
               12,
               'The ninth captain for the ninth month was Abi-ezer the Anetothite, of the Benjamites: and in his course were twenty and four thousand.'

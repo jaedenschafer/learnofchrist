@@ -192,6 +192,18 @@ export const CHRONICLES_1_19: RichChapterContent = {
               11,
               'And he said, If the Syrians be too strong for me, then thou shalt help me: but if the children of Ammon be too strong for thee, then I will help thee.'
             ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-19-mid-11',
+          html:
+            '<p>This cluster shows the families entrusted with leading and protecting Israel.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 19,
+          lines: [
             plain(
               12,
               'Be of good courage, and let us behave ourselves valiantly for our people, and for the cities of our God: and let the Lord do that which is good in his sight.'

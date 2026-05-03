@@ -33,6 +33,18 @@ export const PROVERBS_4: RichChapterContent = {
             plain(1, 'Hear, O my sons, the instruction of a father; and attend to know understanding.'),
             plain(2, 'For I give you good doctrine, forsake ye not my law.'),
             plain(3, 'For I was my father&apos;s son, tender and only beloved in the sight of my mother.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov4-mid-excel-wisdom',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(4, 'He taught me also, and said unto me, Let thine heart retain my words: keep my commandments, and live.'),
             plain(5, 'Get wisdom, get understanding: forget it not; neither decline from the words of my mouth.'),
             plain(6, 'Forsake her not, and she shall preserve thee: love her, and she shall keep thee.'),
@@ -122,6 +134,18 @@ export const PROVERBS_4: RichChapterContent = {
             plain(21, 'Let them not depart from thine eyes; keep them in the midst of thine heart.'),
             plain(22, 'For they are life unto those that find them, and health to all their flesh.'),
             plain(23, 'Keep thy heart with all diligence; for out of it are the issues of life.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov4b-mid-heart-life',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(24, 'Put away from thee a froward mouth, and perverse lips put far from thee.'),
             plain(25, 'Let thine eyes look right on, and let thine eyelids look straight before thee.'),
             plain(26, 'Ponder the path of thy feet, and let all thy ways be established.'),

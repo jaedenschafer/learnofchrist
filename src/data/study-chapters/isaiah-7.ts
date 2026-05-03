@@ -80,6 +80,18 @@ export const ISAIAH_7: RichChapterContent = {
             plain(10, 'Moreover the Lord spake again unto Ahaz, saying,'),
             plain(11, 'Ask thee a sign of the Lord thy God; ask it either in the depth, or in the height above.'),
             plain(12, 'But Ahaz said, I will not ask, neither will I tempt the Lord my God.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-sign-given',
+          html:
+            '<p>Ahaz refuses the sign; the sign comes anyway—a virgin will bear a son. God&apos;s promise outlasts our refusal.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(13, 'And he said, Hear ye now, O house of David; Is it a small thing for you to weary men, but will ye weary my God also?'),
             plain(14, 'Therefore the Lord himself shall give you a sign; Behold, a virgin shall conceive, and bear a son, and shall call his name Immanuel.'),
             plain(15, 'Butter and honey shall he eat, that he may know to refuse the evil, and choose the good.'),

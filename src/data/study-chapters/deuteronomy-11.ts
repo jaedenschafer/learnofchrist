@@ -82,7 +82,7 @@ export const DEUTERONOMY_11: RichChapterContent = {
           kind: 'commentary',
           id: 'deut11-horses',
           html:
-            'The detail matters. Moses is not summarizing history in abstraction; he is calling forth memories. The horses and chariots of Pharaoh&apos;s army—the instruments of the greatest power Israel had ever known—were swallowed in the sea. <em>Your eyes</em> saw this. Not heard it. Not believed it secondhand. Saw it. Eyewitness to the God who breaks the chains of empires.',
+            'The detail matters. Moses is not summarizing history in abstraction; he is calling forth memories. The horses and chariots of Pharaoh&apos;s army—the instruments of the greatest power Israel had ever known—were swallowed in the sea [res:red-sea-exodus-ancient-egypt-sefaria]. <em>Your eyes</em> saw this. Not heard it. Not believed it secondhand. Saw it. Eyewitness to the God who breaks the chains of empires.',
         },
         {
           kind: 'hebrew',
@@ -97,7 +97,7 @@ export const DEUTERONOMY_11: RichChapterContent = {
           kind: 'commentary',
           id: 'deut11-ground',
           html:
-            'The ground beneath their feet had become a testimony. The land where Dathan and Abiram and their households stood had opened and swallowed them alive—a judgment so radical and permanent that the earth itself became a monument to God&apos;s justice. Every time Israel passed that place, they would remember: this is what happens when you rebel against the God who brought us out.',
+            'The ground beneath their feet had become a testimony. The land where Dathan and Abiram and their households stood had opened and swallowed them alive—a judgment so radical and permanent that the earth itself became a monument to God&apos;s justice [res:sefaria-deuteronomy-11]. Every time Israel passed that place, they would remember: this is what happens when you rebel against the God who brought us out.',
         },
         {
           kind: 'christ',
@@ -474,7 +474,7 @@ export const DEUTERONOMY_11: RichChapterContent = {
           kind: 'commentary',
           id: 'deut11-gerizim-ebal',
           html:
-            'Gerizim and Ebal are real mountains, still standing in the West Bank between Shechem and the plains of Moreh where Abraham had first received God&apos;s promise. The drama of blessing and curse will not be abstract theology. It will be enacted in physical space. Israel will gather between the two mountains—the tribe that pronounces blessing on Gerizim, the tribe that pronounces curse on Ebal. The mountains themselves will become witnesses to the covenant. Joshua 8 records the fulfillment: the words were spoken, the covenant was publicly renewed, and the mountain landscape became the stone testament to what Israel had chosen.',
+            'Gerizim and Ebal are real mountains, still standing in the West Bank between Shechem and the plains of Moreh where Abraham had first received God&apos;s promise [res:gerizim-ebal-mount-blessing-curse-archaeology]. The drama of blessing and curse will not be abstract theology. It will be enacted in physical space. Israel will gather between the two mountains—the tribe that pronounces blessing on Gerizim, the tribe that pronounces curse on Ebal. The mountains themselves will become witnesses to the covenant. Joshua 8 records the fulfillment: the words were spoken, the covenant was publicly renewed, and the mountain landscape became the stone testament to what Israel had chosen.',
         },
         {
           kind: 'carry',
@@ -487,6 +487,33 @@ export const DEUTERONOMY_11: RichChapterContent = {
           prompt: 'If your daily choices reflected your actual priorities, which mountain would they show you are building on—Gerizim or Ebal?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-deuteronomy-11',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 11',
+      url: 'https://www.sefaria.org/Deuteronomy.11',
+      description: 'Open-access source text and rabbinic commentary on eyewitness faith, the land&apos;s dependence on rain, and the choice between blessing and curse.',
+    },
+    {
+      id: 'gerizim-ebal-mount-blessing-curse-archaeology',
+      kind: 'archaeology',
+      source: 'Oriental Institute',
+      label: 'Gerizim and Ebal: Archaeology of Blessing and Curse',
+      url: 'https://oi.uchicago.edu/',
+      description: 'Archaeological evidence for the sacred mountains of Gerizim and Ebal where Israel proclaimed blessing and curse, central to Deuteronomy&apos;s covenant ritual.',
+    },
+    {
+      id: 'red-sea-exodus-ancient-egypt-sefaria',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Red Sea Crossing',
+      url: 'https://www.bibleodyssey.org/passage/exodus-14-1-31/',
+      description: 'Intertextual study of the Red Sea deliverance and its role as eyewitness memory grounding Israel&apos;s covenant obedience.',
     },
   ],
 

@@ -349,6 +349,18 @@ export const KINGS_1_2: RichChapterContent = {
                 t('.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-2-mid-21',
+          html:
+            '<p>A royal shift: the narrative moves from succession planning to operational rule.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             {
               number: 22,
               spans: [
@@ -428,6 +440,18 @@ export const KINGS_1_2: RichChapterContent = {
                 t('.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-2-mid-21',
+          html:
+            '<p>A royal shift: the narrative moves from succession planning to operational rule.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             {
               number: 22,
               spans: [
@@ -592,6 +616,18 @@ export const KINGS_1_2: RichChapterContent = {
                 t('And the king said unto him, Do as he hath said, and fall upon him, and bury him; that thou mayest take away the innocent blood, which Joab shed, from me, and from the house of my father.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-2-mid-31',
+          html:
+            '<p>As the prophet emerges, God&apos;s word begins to shape the course of nations.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             {
               number: 32,
               spans: [

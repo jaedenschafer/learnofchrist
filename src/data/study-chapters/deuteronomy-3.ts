@@ -36,6 +36,33 @@ export const DEUTERONOMY_3: RichChapterContent = {
     ref: 'Deuteronomy 3 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-deuteronomy-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 3 — Giants and Succession',
+      url: 'https://www.sefaria.org/Deuteronomy.3',
+      description: 'Medieval and modern Jewish commentary on the defeat of Og, the last giant, and Moses&apos; vision from Pisgah.',
+    },
+    {
+      id: 'bashan-archaeology-oriental-institute',
+      kind: 'archaeology',
+      source: 'Oriental Institute',
+      label: 'Bashan Archaeological Survey',
+      url: 'https://oi.uchicago.edu/',
+      description: 'Archaeological research on the Iron Age kingdoms of Bashan, including fortified cities mentioned in Deuteronomy 3.',
+    },
+    {
+      id: 'ogog-bedstead-ancient-giants-rephaim',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Giants — Rephaim, Anakim, Emim',
+      url: 'https://www.bibleodyssey.org/dictionary/giants/',
+      description: 'Open-access entry on the giants of Canaan and their role in ancient Near Eastern geography and conquest narratives.',
+    },
+  ],
+
   sections: [
     /* ─── Deuteronomy 3:1–7 — The Defeat of Og, King of Bashan ──────────── */
     {

@@ -43,6 +43,18 @@ export const JOB_10: RichChapterContent = {
             plain(1, 'My soul is weary of my life; I will leave my complaint upon myself; I will speak in the bitterness of my soul.'),
             plain(2, 'I will say unto God, Do not condemn me; shew me wherefore thou contendest with me.'),
             plain(3, 'Is it good unto thee that thou shouldest oppress me, that thou shouldest despise the work of thine own hands, and shine upon the counsel of the wicked?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job10-mid-dispute-god',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             plain(4, 'Hast thou eyes of flesh? or seest thou as man seeth?'),
             plain(5, 'Are thy days as the days of man? or thy years as man&apos;s days,'),
             plain(6, 'That thou inquirest after mine iniquity, and searchest after my sin?'),

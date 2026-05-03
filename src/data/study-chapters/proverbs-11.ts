@@ -33,6 +33,18 @@ export const PROVERBS_11: RichChapterContent = {
             plain(2, 'When pride cometh, then cometh shame: but with the humble is wisdom.'),
             plain(3, 'The integrity of the upright shall guide them: but the frowardness of transgressors shall destroy them.'),
             plain(4, 'Riches profit not in the day of wrath: but righteousness delivereth from death.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov11-mid-pride-humble',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             plain(5, 'The righteousness of the perfect shall direct his way: but the wicked shall fall by his own wickedness.'),
             plain(6, 'The righteousness of the upright shall deliver them: but transgressors shall be taken in their own naughtiness.'),
             plain(7, 'When a wicked man dieth, his expectation shall perish: and the hope of unjust men perisheth.'),
@@ -51,6 +63,18 @@ export const PROVERBS_11: RichChapterContent = {
             plain(9, 'An hypocrite with his mouth destroyeth his neighbour: but through knowledge shall the just be delivered.'),
             plain(10, 'When it goeth well with the righteous, the city rejoiceth: and when the wicked perish, there is shouting.'),
             plain(11, 'By the blessing of the upright the city is exalted: but it is overthrown by the mouth of the wicked.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov11b-mid-righteousness-ruin',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             plain(12, 'He that is void of wisdom despiseth his neighbour: but a man of understanding holdeth his peace.'),
             plain(13, 'A talebearer revealeth secrets: but he that is of a faithful spirit concealeth the matter.'),
             plain(14, 'Where no counsel is, the people fall: but in the multitude of counsellors there is safety.'),

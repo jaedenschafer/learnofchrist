@@ -423,6 +423,18 @@ export const CHRONICLES_2_34: RichChapterContent = {
                 t('Thus saith the Lord, Behold, I will bring evil upon this place, and upon the inhabitants thereof, even all the curses that are written in the book which they have read before the king of Judah:'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-chronicles-34-mid-24',
+          html:
+            '<p>Leadership transitions mark new direction—a builder hands off to the next.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 34,
+          lines: [
             {
               number: 25,
               spans: [

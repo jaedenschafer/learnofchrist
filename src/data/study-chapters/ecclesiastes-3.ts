@@ -35,6 +35,18 @@ export const ECCLESIASTES_3: RichChapterContent = {
             plain(2, 'A time to be born, and a time to die; a time to plant, and a time to pluck up that which is planted;'),
             plain(3, 'A time to kill, and a time to heal; a time to break down, and a time to build up;'),
             plain(4, 'A time to weep, and a time to laugh; a time to mourn, and a time to dance;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ecc3a-mid-time-seasons',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(5, 'A time to cast away stones, and a time to gather stones together; a time to embrace, and a time to refrain from embracing;'),
             plain(6, 'A time to get, and a time to lose; a time to keep, and a time to cast away;'),
             plain(7, 'A time to rend, and a time to sew; a time to keep silence, and a time to speak;'),
@@ -104,6 +116,18 @@ export const ECCLESIASTES_3: RichChapterContent = {
             plain(16, 'And moreover I saw under the sun the place of judgment, that wickedness was there; and the place of righteousness, that iniquity was there.'),
             plain(17, 'I said in mine heart, God shall judge the righteous and the wicked: for there is a time there for every purpose and for every work.'),
             plain(18, 'I said in mine heart concerning the estate of the sons of men, that God might manifest them, and that they might see that they themselves are beasts.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ecc3b-mid-beasts-spirit',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(19, 'For that which befalleth the sons of men befalleth beasts; even one thing befalleth them: as the one dieth, so dieth the other; yea, they have all one breath; so that a man hath no preeminence above a beast: for all is vanity.'),
             plain(20, 'All go unto one place; all are of the dust, and all turn to dust again.'),
             plain(21, 'Who knoweth the spirit of man that goeth upward, and the spirit of the beast that goeth downward to the earth?'),

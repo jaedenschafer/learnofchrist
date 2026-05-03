@@ -33,6 +33,18 @@ export const ISAIAH_41: RichChapterContent = {
             plain(1, 'Keep silence before me, O islands; and let the people renew their strength: let them come near; then let them speak: let us come near together to judgment.'),
             plain(2, 'Who raised up the righteous man from the east, called him to his foot, gave the nations before him, and made him rule over kings? he gave them as the dust to his sword, and as driven stubble to his bow.'),
             plain(3, 'He pursued them, and passed safely; even by the way that he had not gone with his feet.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-righteousness-hand',
+          html:
+            '<p>The righteous are grasped by God&apos;s right hand. Fear not; I am with you. From sunrise to sunset, He holds you.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 41,
+          lines: [
             plain(4, 'Who hath wrought and done it, calling the generations from the beginning? I the Lord, the first and the last; I am he.'),
             plain(5, 'The isles saw it, and feared; the ends of the earth were afraid, drew near, and came.'),
             plain(6, 'They helped every one his neighbour; and every one said to his brother, Be of good courage.'),
@@ -52,6 +64,18 @@ export const ISAIAH_41: RichChapterContent = {
             plain(8, 'But thou, Israel, art my servant, Jacob whom I have chosen, the seed of Abraham my friend.'),
             plain(9, 'Thou whom I have taken from the ends of the earth, and called thee from the chief men thereof, and said unto thee, Thou art my servant; I have chosen thee, and not cast thee away.'),
             plain(10, 'Fear thou not; for I am with thee: be not dismayed; for I am thy God: I will strengthen thee; yea, I will help thee; yea, I will uphold thee with the right hand of my righteousness.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-righteousness-hand-2',
+          html:
+            '<p>Fear not, for I am with you. I will strengthen and help you. My righteous right hand upholds you.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 41,
+          lines: [
             plain(11, 'Behold, all they that were incensed against thee shall be ashamed and confounded: they shall be as nothing; and they that strive with thee shall perish.'),
             plain(12, 'Thou shalt seek them, and shalt not find them, even them that contended with thee: they that war against thee shall be as nothing, and as a thing of nought.'),
             plain(13, 'For I the Lord thy God will hold thy right hand, saying unto thee, Fear not; I will help thee.'),

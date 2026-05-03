@@ -35,6 +35,18 @@ export const EZEKIEL_23: RichChapterContent = {
             plain(2, 'The word of the Lord came again unto me, saying,'),
             plain(3, 'Son of man, there were two women, the daughters of one mother:'),
             plain(4, 'And they committed whoredoms in Egypt; they committed whoredoms in their youth: there were their breasts pressed, and there they bruised the teats of their virginity.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-sisters-fall',
+          html:
+            '<p>Two sisters play harlot, then cry out under judgment. Unfaithfulness always ends in the same ruin.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             plain(11, 'And when her sister Aholibah saw this, she was more corrupt in her inordinate love than she, and in her whoredoms more than her sister in her whoredoms.'),
             plain(12, 'She doted upon the Assyrians her neighbours, captains and rulers clothed most gorgeously, horsemen riding upon horses: all of them desirable young men.'),
             plain(14, 'And that she increased her whoredoms: for when she saw men pourtrayed upon the wall, the images of the Chaldeans pourtrayed with vermilion,'),
@@ -81,6 +93,18 @@ export const EZEKIEL_23: RichChapterContent = {
             plain(22, 'Therefore, O Aholibah, thus saith the Lord God; Behold, I will raise up thy lovers against thee, from whom thy mind is alienated, and I will bring them against thee on every side;'),
             plain(25, 'And I will set my jealousy against thee, and they shall deal with thee in fury: they shall take away thy nose and thine ears; and thy remnant shall fall by the sword: they shall take thy sons and thy daughters; and thy residue shall be devoured by the fire.'),
             plain(29, 'And they shall deal with thee hatefully, and shall take away all thy labour, and shall leave thee naked and bare: and the nakedness of thy whoredoms shall be discovered, both thy lewdness and thy whoredoms.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-sisters-fall-2',
+          html:
+            '<p>The lovers take the unfaithful; shame and desolation follow. Rebellion always collects its wages.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             plain(43, 'Then said I unto her that was old in adulteries, Will they now commit whoredoms with her, and she with them?'),
             plain(44, 'Yet they went in unto her, as they go in unto a woman that playeth the harlot: so went they in unto Aholah and unto Aholibah, the lewd women.'),
             plain(45, 'And the righteous men, they shall judge them with the judgment of adulteresses, and with the judgment of women that shed blood; because they are adulteresses, and blood is in their hands.'),

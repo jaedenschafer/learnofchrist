@@ -47,6 +47,18 @@ export const ISAIAH_36: RichChapterContent = {
             plain(4, 'And Rabshakeh said unto them, Say ye now to Hezekiah, Thus saith the great king, the king of Assyria, What confidence is this wherein thou trustest?'),
             plain(5, 'I say, sayest thou, (but they are but vain words,) I have counsel and strength for the war: now on whom dost thou trust, that thou rebellest against me?'),
             plain(6, 'Lo, thou trustest in the staff of this broken reed, even upon Egypt; on which if a man lean, it will go into his hand, and pierce it: so is Pharaoh king of Egypt to all that trust on him.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-assyrian-taunt',
+          html:
+            '<p>Sennacherib&apos;s field commander mocks Jerusalem&apos;s God. Watch what happens when a kingdom trusts the Lord.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 36,
+          lines: [
             plain(7, 'But if thou sayest to me, We trust in the Lord our God: is it not he, whose high places and whose altars Hezekiah hath taken away, and hath said to Judah and Jerusalem, Ye shall worship before this altar?'),
             plain(8, 'Now therefore give pledges, I pray thee, to my lord the king of Assyria, and I will give thee two thousand horses, if thou be able on thy part to set riders upon them.'),
             plain(9, 'How then wilt thou turn away the face of one of the least captains of my master, seeing thou trustest on Egypt for chariots and for horsemen?'),

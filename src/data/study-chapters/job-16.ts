@@ -145,6 +145,18 @@ export const JOB_16: RichChapterContent = {
             plain(16, 'My face is foul with weeping, and on my eyelids is the shadow of death;'),
             plain(17, 'Not for any injustice in mine hands: also my prayer is pure.'),
             plain(18, 'O earth, cover not thou my blood, and let my cry have no place.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job16-mid-lament-witness',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 16,
+          lines: [
             plain(19, 'Also now, behold, my witness is in heaven, and my record is on high.'),
             plain(20, 'My friends scorn me: but mine eye poureth out tears unto God.'),
             plain(21, 'O that one might plead for a man with God, as a man pleadeth for his neighbour!'),

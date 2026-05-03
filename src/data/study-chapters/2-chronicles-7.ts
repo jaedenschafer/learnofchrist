@@ -100,6 +100,18 @@ export const CHRONICLES_2_7: RichChapterContent = {
             plain(4, 'And the king and all the people offered sacrifices before the Lord.'),
             plain(5, 'And king Solomon offered a sacrifice of twenty and two thousand oxen, and an hundred and twenty thousand sheep: so the king and all the people dedicated the house of God.'),
             plain(6, 'And the priests waited on their offices: the Levites also with instruments of musick of the Lord, which David the king had made to praise the Lord, because his mercy endureth for ever, when David praised by their ministry; and the priests sounded trumpets before them: and all Israel stood.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-chronicles-7-mid-6',
+          html:
+            '<p>One phase concludes and the next begins, showing step-by-step restoration.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(7, 'Moreover Solomon hallowed the middle of the court that was before the house of the Lord: for there he offered burnt offerings, and the fat of the peace offerings, because the brasen altar which Solomon had made was not able to receive the burnt offerings, and the meat offerings, and the fat.'),
             plain(8, 'Also at the same time Solomon kept the feast seven days, and all Israel with him, a very great congregation, from the entering in of Hamath unto the river of Egypt.'),
             plain(9, 'And in the eighth day they made a solemn assembly: for they kept the dedication of the altar seven days, and the feast seven days.'),

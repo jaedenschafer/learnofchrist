@@ -34,6 +34,18 @@ export const ISAIAH_25: RichChapterContent = {
             plain(2, 'For thou hast made of a city an heap; of a defenced city a ruin: a palace of strangers to be no city; it shall never be built.'),
             plain(3, 'Therefore shall the strong people glorify thee, the city of the terrible nations shall fear thee.'),
             plain(4, 'For thou hast been a strength to the poor, a strength to the needy in his distress, a refuge from the storm, a shadow from the heat, when the blast of the terrible ones is as a storm against the wall.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-shroud-lifted',
+          html:
+            '<p>Death is swallowed up in victory; tears are wiped away. On this mountain, the Lord prepares a feast for all peoples.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             plain(5, 'Thou shalt bring down the noise of strangers, as the heat in a dry place; even the heat with the shadow of a cloud: the branch of the terrible ones shall be brought low.'),
             plain(6, 'And in this mountain shall the Lord of hosts make unto all people a feast of fat things, a feast of wines on the lees, of fat things full of marrow, of wines on the lees well refined.'),
             plain(7, 'And he will destroy in this mountain the face of the covering cast over all people, and the vail that is spread over all nations.'),

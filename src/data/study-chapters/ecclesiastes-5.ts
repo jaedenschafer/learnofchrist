@@ -34,6 +34,18 @@ export const ECCLESIASTES_5: RichChapterContent = {
             plain(1, 'Keep thy foot when thou goest to the house of God, and be more ready to hear, than to give the sacrifice of fools: for they consider not that they do evil.'),
             plain(2, 'Be not rash with thy mouth, and let not thine heart be hasty to utter any thing before God: for God is in heaven, and thou upon earth: therefore let thy words be few.'),
             plain(3, 'For a dream cometh through the multitude of business; and a fool&apos;s voice is known by multitude of words.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ecc5a-mid-fear-dreams',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(4, 'When thou vowest a vow unto God, defer not to pay it; for he hath no pleasure in fools: pay that which thou hast vowed.'),
             plain(5, 'Better is it that thou shouldest not vow, than that thou shouldest vow and not pay.'),
             plain(6, 'Suffer not thy mouth to cause thy flesh to sin; neither say thou before the angel, that it was an error: wherefore should God be angry at thy voice, and destroy the work of thine hands?'),
@@ -99,6 +111,18 @@ export const ECCLESIASTES_5: RichChapterContent = {
             plain(14, 'But those riches perish by evil travail: and he begetteth a son, and there is nothing in his hand.'),
             plain(15, 'As he came forth of his mother&apos;s womb, naked shall he return to go as he came, and shall take nothing of his labour, which he may carry away in his hand.'),
             plain(16, 'And this also is a sore evil, that in all points as he came, so shall he go: and what profit hath he that hath laboured for the wind?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ecc5b-mid-love-labor',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(17, 'All his days also he eateth in darkness, and he hath much sorrow and wrath with his infirmity.'),
             plain(18, 'Behold that which I have seen: it is good and comely for one to eat and to drink, and to enjoy the good of all his labour that he taketh under the sun all the days of his life, which God giveth him: for this is his portion.'),
             plain(19, 'Every man also to whom God hath given riches and wealth, and hath given him power to enjoy them, and to take his portion, and to rejoice in his labour; this is the gift of God.'),

@@ -63,6 +63,18 @@ export const CHRONICLES_2_15: RichChapterContent = {
                 t(', and without a teaching priest, and without law.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-chronicles-15-mid-3',
+          html:
+            '<p>Leadership transitions mark new direction—a builder hands off to the next.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 15,
+          lines: [
             {
               number: 4,
               spans: [
@@ -172,6 +184,18 @@ export const CHRONICLES_2_15: RichChapterContent = {
                 t('And they offered unto the Lord the same time, of the spoil they had brought, seven hundred oxen and seven thousand sheep.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-chronicles-15-mid-11',
+          html:
+            '<p>A turning point shifts focus from building to sustaining what was built.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 15,
+          lines: [
             {
               number: 12,
               spans: [

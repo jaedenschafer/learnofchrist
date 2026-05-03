@@ -32,6 +32,18 @@ export const ISAIAH_23: RichChapterContent = {
             plain(1, 'The burden of Tyre. Howl, ye ships of Tarshish; for it is laid waste, so that there is no house, no entering in: from the land of Chittim it is revealed to them.'),
             plain(2, 'Be still, ye inhabitants of the isle; thou whom the merchants of Sidon, that pass over the sea, have replenished.'),
             plain(3, 'And by great waters the seed of Sidon, and the harvest of the river, is her revenue: and she is a mart of nations.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-tyre-silent',
+          html:
+            '<p>The merchant-queen Tyre will be forgotten for seventy years, then recalled with shame. No empire lasts forever.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             plain(4, 'Be thou ashamed, O Sidon: for the sea hath spoken, even the strength of the sea, saying, I have not travailed, nor brought forth children, nor nourished up young men, nor brought up virgins.'),
             plain(5, 'As at the report of Egypt, so shall they be sorely pained at the report of Tyre.'),
             plain(6, 'Pass ye over to Tarshish; howl, ye inhabitants of the isle.'),
@@ -51,6 +63,18 @@ export const ISAIAH_23: RichChapterContent = {
             plain(8, 'Who hath taken this counsel against Tyre, the crowning city, whose merchants are princes, and whose traffickers are the honourable of the earth?'),
             plain(9, 'The Lord of hosts hath taken this counsel to stain the pride of all glory, and to bring into contempt all the honourable of the earth.'),
             plain(10, 'Pass through thy land as a river, O daughter of Tarshish: there is no more strength.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-tyre-silent-2',
+          html:
+            '<p>Tyre will be forsaken; then remembered for trade and pleasure. Even the most enduring power fades.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             plain(11, 'He stretched out his hand over the sea, he shook the kingdoms: the Lord hath given a commandment against the merchant city, to destroy the strong holds thereof.'),
             plain(12, 'And he said, Thou shalt no more rejoice, O thou oppressed virgin daughter of Sidon: arise, pass over to Chittim; there also shalt thou have no rest.'),
             plain(13, 'Behold the land of the Chaldees; this people was not, till the Assyrian founded it for them that dwell in the wilderness: they set up the towers thereof, they raised up the palaces thereof; and he brought it to ruin.'),

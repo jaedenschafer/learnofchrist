@@ -33,6 +33,18 @@ export const DANIEL_3: RichChapterContent = {
             plain(14, 'Nebuchadnezzar spake and said unto them, Is it true, O Shadrach, Meshach, and Abednego, do not ye serve my gods, nor worship the golden image which I have set up?'),
             plain(15, 'Now if ye be ready that at what time ye hear the sound of the cornet, flute, harp, sackbut, psaltery, and dulcimer, and all kinds of musick, ye fall down and worship the image which I have made; well: but if ye worship not, ye shall be cast the same hour into the midst of a burning fiery furnace; and who is that God that shall deliver you out of my hands?'),
             plain(16, 'Shadrach, Meshach, and Abednego, answered and said to the king, O Nebuchadnezzar, we are not careful to answer thee in this matter.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-furnace-faith',
+          html:
+            '<p>The three men face the fire—but King Nebuchadnezzar sees a fourth figure walking with them. God&apos;s presence is real in the heat.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(17, 'If it be so, our God whom we serve is able to deliver us from the burning fiery furnace, and he will deliver us out of thine hand, O king.'),
             plain(18, 'But if not, be it known unto thee, O king, that we will not serve thy gods, nor worship the golden image which thou hast set up.'),
             plain(20, 'And he commanded the most mighty men that were in his army to bind Shadrach, Meshach, and Abednego, and to cast them into the burning fiery furnace.'),

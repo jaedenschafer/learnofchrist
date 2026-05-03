@@ -78,6 +78,18 @@ export const ISAIAH_66: RichChapterContent = {
             plain(15, 'For, behold, the Lord will come with fire, and with his chariots like a whirlwind, to render his anger with fury, and his rebuke with flames of fire.'),
             plain(16, 'For by fire and by his sword will the Lord plead with all flesh: and the slain of the Lord shall be many.'),
             plain(18, 'For I know their works and their thoughts: it shall come, that I will gather all nations and tongues; and they shall come, and see my glory.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-new-heavens',
+          html:
+            '<p>New heavens, new earth; former troubles forgotten. All flesh will come and worship before the Lord.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 66,
+          lines: [
             plain(19, 'And I will set a sign among them, and I will send those that escape of them unto the nations, to Tarshish, Pul, and Lud, that draw the bow, to Tubal, and Javan, to the isles afar off, that have not heard my fame, neither have seen my glory; and they shall declare my glory among the Gentiles.'),
             plain(22, 'For as the new heavens and the new earth, which I will make, shall remain before me, saith the Lord, so shall your seed and your name remain.'),
             plain(23, 'And it shall come to pass, that from one new moon to another, and from one sabbath to another, shall all flesh come to worship before me, saith the Lord.'),

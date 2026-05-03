@@ -35,6 +35,18 @@ export const DANIEL_6: RichChapterContent = {
             plain(11, 'Then these men assembled, and found Daniel praying and making supplication before his God.'),
             plain(12, 'Then they came near, and spake before the king concerning the king&apos;s decree; Hast thou not signed a decree, that every man that shall ask a petition of any God or man within thirty days, save of thee, O king, shall be cast into the den of lions? The king answered and said, The thing is true, according to the law of the Medes and Persians, which altereth not.'),
             plain(13, 'Then answered they and said before the king, That Daniel, which is of the children of the captivity of Judah, regardeth not thee, O king, nor the decree that thou hast signed, but maketh his petition three times a day.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-lion-trust',
+          html:
+            '<p>Daniel in the den—envies plot, the king prays, and morning brings deliverance. Trust in God stands when schemes collapse.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(14, 'Then the king, when he heard these words, was sore displeased with himself, and set his heart on Daniel to deliver him: and he laboured till the going down of the sun to deliver him out of their hands.'),
             plain(15, 'Then said these men unto the king, Know, O king, that the law of the Medes and Persians is, That no decree nor statute which the king establisheth may be changed.'),
             plain(16, 'Then the king commanded, and they brought Daniel, and cast him into the den of lions. Now the king spake and said unto Daniel, Thy God whom thou servest continually, he will deliver thee.'),
@@ -76,6 +88,18 @@ export const DANIEL_6: RichChapterContent = {
             plain(19, 'Then very early in the morning the king arose, and went in haste unto the den of lions.'),
             plain(20, 'And when he came to the den, he cried with a lamentable voice unto Daniel: and the king spake and said to Daniel, O Daniel, servant of the living God, is thy God, whom thou servest continually, able to deliver thee from the lions?'),
             plain(21, 'Then said Daniel unto the king, O king, live for ever.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-lion-trust-2',
+          html:
+            '<p>The plot unfolds: accusation, the den, angelic deliverance. God&apos;s faithfulness outlasts hatred.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(22, 'My God hath sent his angel, and hath shut the lions&apos; mouths, that they have not hurt me: forasmuch as before him innocency was found in me; and also before thee, O king, have I done no hurt.'),
             plain(23, 'Then was the king exceeding glad for him, and commanded that they should take Daniel up out of the den. So Daniel was taken up out of the den, and no manner of hurt was found upon him, because he believed in his God.'),
             plain(24, 'And the king commanded, and they brought those men which had accused Daniel, and they cast them into the den of lions, them, their children, and their wives; and the lions had the mastery of them, and brake all their bones in pieces or ever they came at the bottom of the den.'),

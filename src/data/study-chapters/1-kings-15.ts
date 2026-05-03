@@ -65,6 +65,18 @@ export const KINGS_1_15: RichChapterContent = {
                 t(' in Jerusalem, to set up his son after him, and to establish Jerusalem:'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-15-mid-4',
+          html:
+            '<p>The reign&apos;s glory peaks, revealing both the height of human achievement and its limits.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 15,
+          lines: [
             {
               number: 5,
               spans: [
@@ -139,6 +151,18 @@ export const KINGS_1_15: RichChapterContent = {
                 t(' in the eyes of the Lord: as did David his father.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-15-mid-11',
+          html:
+            '<p>The kingdom solidifies as Solomon consolidates power and establishes his regime.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 15,
+          lines: [
             plain(12, 'And he took away the sodomites out of the land, and removed all the idols that his fathers had made.'),
             {
               number: 13,
@@ -216,6 +240,18 @@ export const KINGS_1_15: RichChapterContent = {
                 t('Then Asa took all the silver and the gold that were left in the treasures of the house of the Lord, and the treasures of the king&apos;s house, and delivered them into the hand of his servants: and king Asa sent them to Ben-hadad, the son of Tabrimon, the son of Hezion, king of Syria, that dwelt at Damascus, saying,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-15-mid-18',
+          html:
+            '<p>A royal shift: the narrative moves from succession planning to operational rule.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 15,
+          lines: [
             {
               number: 19,
               spans: [
@@ -333,6 +369,18 @@ export const KINGS_1_15: RichChapterContent = {
               ],
             },
             plain(28, 'Even in the third year of Asa king of Judah did Baasha slay him, and reigned in his stead.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-15-mid-28',
+          html:
+            '<p>Opposition rises, exposing the tensions between faith and the throne&apos;s ambitions.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 15,
+          lines: [
             {
               number: 29,
               spans: [

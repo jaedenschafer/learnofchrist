@@ -332,6 +332,18 @@ export const KINGS_2_2: RichChapterContent = {
                 t('And when they came again to him, (for he tarried at Jericho,) he said unto them, Did I not say unto you, Go not?'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-kings-2-mid-18',
+          html:
+            '<p>A turning point reveals how one decision ripples across generations and nations.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             {
               number: 19,
               spans: [

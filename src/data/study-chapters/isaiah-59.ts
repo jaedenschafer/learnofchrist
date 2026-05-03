@@ -33,6 +33,18 @@ export const ISAIAH_59: RichChapterContent = {
             plain(2, 'But your iniquities have separated between you and your God, and your sins have hid his face from you, that he will not hear.'),
             plain(3, 'For your hands are defiled with blood, and your fingers with iniquity; your lips have spoken lies, your tongue hath muttered perverseness.'),
             plain(4, 'None calleth for justice, nor any pleadeth for truth: they trust in vanity, and speak lies; they conceive mischief, and bring forth iniquity.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-arm-saves',
+          html:
+            '<p>The Lord&apos;s arm is not too short; His ear is open. But sin separates; let the wicked abandon his way.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 59,
+          lines: [
             plain(5, 'They hatch cockatrice\'s eggs, and weave the spider\'s web: he that eateth of their eggs dieth, and that which is crushed breaketh out into a serpent.'),
             plain(6, 'Their webs shall not become garments, neither shall they cover themselves with their works: their works are works of iniquity, and the act of violence is in their hands.'),
             plain(7, 'Their feet run to evil, and they make haste to shed innocent blood: their thoughts are thoughts of iniquity; wasting and destruction are in their paths.'),
@@ -80,6 +92,18 @@ export const ISAIAH_59: RichChapterContent = {
             plain(15, 'We grope for the wall like the blind, and we grope as if we had no eyes: we stumble at noonday as in the night; we are in desolate places as dead men.'),
             plain(16, 'Therefore his arm brought salvation unto him; and his righteousness, it sustained him.'),
             plain(17, 'For he put on righteousness as a breastplate, and an helmet of salvation upon his head; and he put on the garments of vengeance for clothing, and was clad with zeal as a cloke.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-arm-saves-2',
+          html:
+            '<p>The Lord puts on righteousness as armor; salvation as a helmet. He will repay wrath to foes, blessing to His own.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 59,
+          lines: [
             plain(18, 'According to their deeds, accordingly he will repay, fury to his adversaries, recompence to his enemies; to the islands he will repay recompence.'),
             plain(19, 'So shall they fear the name of the Lord from the west, and his glory from the rising of the sun: when the enemy shall come in like a flood, the Spirit of the Lord shall lift up a standard against him.'),
             plain(20, 'And the Redeemer shall come to Zion, and unto them that turn from transgression in Jacob, saith the Lord.'),

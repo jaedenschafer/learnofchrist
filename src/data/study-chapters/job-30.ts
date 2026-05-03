@@ -39,6 +39,18 @@ export const JOB_30: RichChapterContent = {
             plain(2, 'Yea, whereto might the strength of their hands profit me, in whom old age was perished?'),
             plain(3, 'For want and famine they were solitary; fleeing into the wilderness in former time desolate and waste.'),
             plain(4, 'Who cut up mallows by the bushes, and juniper roots for their meat.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job30-mid-scorn-terror',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 30,
+          lines: [
             plain(5, 'They were driven forth from among men, (they cried after them as after a thief;)'),
             plain(6, 'To dwell in the cliffs of the valleys, in caves of the earth, and in the rocks.'),
             plain(7, 'Among the bushes they brayed; under the nettles they were gathered together.'),

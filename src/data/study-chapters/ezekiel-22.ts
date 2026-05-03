@@ -81,6 +81,18 @@ export const EZEKIEL_22: RichChapterContent = {
             plain(25, 'There is a conspiracy of her prophets in the midst thereof, like a roaring lion ravening the prey; they have devoured souls; they have taken the treasure and precious things; they have made her many widows in the midst thereof.'),
             plain(26, 'Her priests have violated my law, and have profaned mine holy things: they have put no difference between the holy and profane, neither have they shewed difference between the unclean and the clean, and have hid their eyes from my sabbaths, and I am profaned among them.'),
             plain(27, 'Her princes in the midst thereof are like wolves ravening the prey, to shed blood, and to destroy souls, to get dishonest gain.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-city-burns',
+          html:
+            '<p>Jerusalem is a furnace; God will melt the city and its false leaders together. Corruption runs too deep for surface fixes.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 22,
+          lines: [
             plain(28, 'And her prophets have daubed them with untempered morter, seeing vanity, and divining lies unto them, saying, Thus saith the Lord God, when the Lord hath not spoken.'),
             plain(29, 'The people of the land have used oppression, and exercised robbery, and have vexed the poor and needy: yea, they have oppressed the stranger wrongfully.'),
             plain(30, 'And I sought for a man among them, that should make up the hedge, and stand in the gap before me for the land, that I should not destroy it: but I found none.'),

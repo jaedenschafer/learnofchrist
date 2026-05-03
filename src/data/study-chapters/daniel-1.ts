@@ -34,6 +34,18 @@ export const DANIEL_1: RichChapterContent = {
             plain(1, 'In the third year of the reign of Jehoiakim king of Judah came Nebuchadnezzar king of Babylon unto Jerusalem, and besieged it.'),
             plain(2, 'And the Lord gave Jehoiakim king of Judah into his hand, with part of the vessels of the house of God: which he carried into the land of Shinar to the house of his god: and he brought the vessels into the treasure house of his god.'),
             plain(3, 'And the king spake unto Ashpenaz the master of his eunuchs, saying, Bring certain of the children of Israel, and of the king&apos;s seed, and of the princes;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-faith-test',
+          html:
+            '<p>Daniel and friends refuse the royal food, choosing faithfulness over comfort. See how conviction matters even in exile.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(4, 'Children in whom was no blemish, but well favoured, and skilful in all wisdom, and cunning in knowledge, and understanding science, and such as had ability in them to stand in the king&apos;s palace: and whom they might teach the learning and the tongue of the Chaldeans.'),
             plain(5, 'And the king appointed them a daily provision of the king&apos;s meat, and of the wine which he drank: so nourishing them three years, that at the end thereof they might stand before the king.'),
             plain(6, 'Now among these were of the children of Judah, Daniel, Hananiah, Mishael, and Azariah:'),

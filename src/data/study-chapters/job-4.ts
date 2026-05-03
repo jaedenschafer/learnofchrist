@@ -65,6 +65,18 @@ export const JOB_4: RichChapterContent = {
                 t(':'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job4-mid-eliphaz-vision',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             {
               number: 4,
               spans: [

@@ -33,6 +33,18 @@ export const ISAIAH_46: RichChapterContent = {
             plain(1, 'Bel boweth down, Nebo stoopeth, their idols were upon the beasts, and upon the cattle: your carriages were heavy loaden; they are a burden to the weary beast.'),
             plain(2, 'They stoop, they bow down together; they could not deliver the burden, and themselves are gone into captivity.'),
             plain(3, 'Hearken unto me, O house of Jacob, and all the remnant of the house of Israel, which are borne by me from the belly, and carried from the womb:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-carried-old',
+          html:
+            '<p>From birth I have carried you; to old age I will sustain you. There is none like Me; I will do all I please.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 46,
+          lines: [
             plain(4, 'And even to your old age I am he; and even to hoar hairs will I carry you: I have made, and I will bear; even I will carry, and will deliver you.'),
             plain(5, 'To whom will ye liken me, and make me equal, and compare me, that we may be like?'),
             plain(6, 'They lavish gold out of the bag, and weigh silver in the balance, and hire a goldsmith; and he maketh it a god: they fall down, yea, they worship.'),

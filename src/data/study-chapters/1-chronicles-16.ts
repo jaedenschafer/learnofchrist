@@ -387,6 +387,18 @@ export const CHRONICLES_1_16: RichChapterContent = {
             plain(37, 'So he left there before the ark of the covenant of the Lord Asaph and his brethren, to minister before it continually, as every day\'s work required:'),
             plain(38, 'And Obed-edom with their brethren, threescore and eight; Obed-edom also the son of Jeduthun and Hosah to be porters:'),
             plain(39, 'And Zadok the priest, and his brethren the priests, before the tabernacle of the Lord in the high place that was at Gibeon,'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-16-mid-39',
+          html:
+            '<p>The genealogy traces how God preserved His people through generations and exile.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 16,
+          lines: [
             plain(40, 'To offer burnt offerings unto the Lord upon the altar of the burnt offering continually morning and evening, and to do according to all that is written in the law of the Lord, which he commanded Israel;'),
             plain(41, 'And with them Heman and Jeduthun, and the rest that were chosen, who were expressed by name, to give thanks to the Lord, because his mercy endureth for ever;'),
             plain(42, 'And with them Heman and Jeduthun with trumpets and cymbals for those that should sing, and with musical instruments of God: And the sons of Jeduthun were porters.'),

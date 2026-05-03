@@ -50,6 +50,18 @@ export const ISAIAH_28: RichChapterContent = {
             plain(7, 'But they also have erred through wine, and through strong drink are out of the way; the priest and the prophet have erred through strong drink, they are swallowed up of wine, they are out of the way through strong drink; they err in vision, they stumble in judgment.'),
             plain(8, 'For all tables are full of vomit and filthiness, so that there is no place clean.'),
             plain(9, 'Whom shall he teach knowledge? and whom shall he make to understand doctrine? them that are weaned from the milk, and drawn from the breasts.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-stone-laid',
+          html:
+            '<p>A cornerstone is laid in Zion; whoever believes will not be dismayed. God builds on bedrock, not sand.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 28,
+          lines: [
             plain(10, 'For precept must be upon precept, precept upon precept; line upon line, line upon line; here a little, and there a little:'),
             plain(11, 'For with stammering lips and another tongue will he speak to this people.'),
             plain(12, 'To whom he said, This is the rest wherewith ye may cause the weary to rest; and this is the refreshing: yet they would not hear.'),

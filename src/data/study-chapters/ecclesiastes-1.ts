@@ -107,6 +107,18 @@ export const ECCLESIASTES_1: RichChapterContent = {
             plain(12, 'I the Preacher was king over Israel in Jerusalem.'),
             plain(13, 'And I gave my heart to seek and search out by wisdom all things that are done under heaven: this sore travail hath God given to the sons of men to be exercised therewith.'),
             plain(14, 'I have seen all the works that are done under the sun; and, behold, all is vanity and vexation of spirit.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ecc1-mid-vanity-observation',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(15, 'That which is crooked cannot be made straight: and that which is wanting cannot be numbered.'),
             plain(16, 'I communed with mine own heart, saying, Lo, I am come to great estate, and have gotten more wisdom than all they that have been before me in Jerusalem: yea, my heart hath great experience of wisdom and knowledge.'),
             plain(17, 'And I gave my heart to know madness and folly: I perceived that this also is vexation of spirit.'),

@@ -96,6 +96,18 @@ export const ECCLESIASTES_2: RichChapterContent = {
             plain(12, 'And I turned myself to behold wisdom, and madness, and folly: for what can the man do that cometh after the king? even that which hath been already done.'),
             plain(13, 'Then I saw that wisdom excelleth folly, as far as light excelleth darkness.'),
             plain(14, 'The wise man&apos;s eyes are in his head; but the fool walketh in darkness: and I myself perceived that one event happeneth to them all.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ecc2a-mid-pleasure-madness',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(15, 'Then said I in my heart, As it happeneth to the fool, so it happeneth even to me; and why was I then more wise? Then I said in my heart, that this also is vanity.'),
             plain(16, 'For there is no remembrance of the wise more than of the fool for ever; seeing that which now is in the days to come shall all be forgotten. And how dieth the wise man? as the fool.'),
             plain(17, 'Therefore I hated life; because the work that is wrought under the sun is grievous unto me: for all is vanity and vexation of spirit.'),
@@ -115,6 +127,18 @@ export const ECCLESIASTES_2: RichChapterContent = {
             plain(20, 'Therefore I went about to cause my heart to despair of all the labour which I had taken under the sun.'),
             plain(21, 'For there is a man whose labour is in wisdom, and in knowledge, and in equity; yet to a man that hath not laboured therein shall he leave it for his portion. This also is vanity and a great evil.'),
             plain(22, 'For what hath man of all his labour, and of the vexation of his heart, wherein he hath laboured under the sun?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ecc2b-mid-labor-despair',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(23, 'For all his days are sorrows, and his travail grief; yea, his heart taketh not rest in the night. This is also vanity.'),
             plain(24, 'There is nothing better for a man, than that he should eat and drink, and that he should make his soul enjoy good in his labour. This also I saw, that it was of the hand of God.'),
             plain(25, 'For who can eat, or who else can hasten hereunto, more than I?'),

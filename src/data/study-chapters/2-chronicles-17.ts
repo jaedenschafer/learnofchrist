@@ -277,6 +277,18 @@ export const CHRONICLES_2_17: RichChapterContent = {
               ],
             },
             plain(15, 'And next to him was Jehohanan the captain, and with him two hundred and fourscore thousand:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-chronicles-17-mid-15',
+          html:
+            '<p>Leadership transitions mark new direction—a builder hands off to the next.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 17,
+          lines: [
             plain(16, 'And next him was Amasiah the son of Zichri, who willingly offered himself unto the Lord; and with him two hundred thousand mighty men of valour.'),
             plain(17, 'And of Benjamin; Eliada a mighty man of valour, and with him armed men with bow and shield two hundred thousand:'),
             plain(18, 'And next him was Jehozabad, and with him an hundred and fourscore thousand ready prepared for the war.'),

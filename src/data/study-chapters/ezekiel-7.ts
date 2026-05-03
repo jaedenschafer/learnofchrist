@@ -31,6 +31,18 @@ export const EZEKIEL_7: RichChapterContent = {
             plain(1, 'Moreover the word of the Lord came unto me, saying,'),
             plain(2, 'Also, thou son of man, thus saith the Lord God unto the land of Israel; An end, the end is come upon the four corners of the land.'),
             plain(3, 'Now is the end come upon thee, and I will send mine anger upon thee, and will judge thee according to thy ways, and will recompense upon thee all thine abominations.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-end-coming',
+          html:
+            '<p>The end comes; no escape, no pity. Yet even in doom, a remnant will know the Lord. Severity awakens faith.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(4, 'And mine eye shall not spare thee, neither will I have pity: but I will recompense thy ways upon thee, and thine abominations shall be in the midst of thee: and ye shall know that I am the Lord.'),
             plain(5, 'Thus saith the Lord God; An evil, an only evil, behold, is come.'),
             plain(6, 'An end is come, the end is come: it watcheth for thee; behold, it is come.'),

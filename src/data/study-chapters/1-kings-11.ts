@@ -306,6 +306,18 @@ export const KINGS_1_11: RichChapterContent = {
             },
             plain(16, '(For six months did Joab remain there with all Israel, until he had cut off every male in Edom:)'),
             plain(17, 'That Hadad fled, he and certain Edomites of his father&apos;s servants with him, to go into Egypt; Hadad being yet a little child.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-11-mid-17',
+          html:
+            '<p>Opposition rises, exposing the tensions between faith and the throne&apos;s ambitions.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             plain(18, 'And they arose out of Midian, and came to Paran: and they took men with them out of Paran, and they came to Egypt, unto Pharaoh king of Egypt; which gave him an house, and appointed him victuals, and gave him land.'),
             plain(19, 'And Hadad found great favour in the sight of Pharaoh, so that he gave him to wife the sister of his own wife, the sister of Tahpenes the queen.'),
             plain(20, 'And the sister of Tahpenes bare him Genubath his son, whom Tahpenes weaned in Pharaoh&apos;s house: and Genubath was in the household of Pharaoh among the sons of Pharaoh.'),

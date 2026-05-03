@@ -36,6 +36,33 @@ export const DEUTERONOMY_4: RichChapterContent = {
     ref: 'Deuteronomy 4 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-deuteronomy-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 4 — Covenant Teaching',
+      url: 'https://www.sefaria.org/Deuteronomy.4',
+      description: 'Hebrew commentaries on covenant renewal, idolatry warnings, and the exclusivity of God&apos;s word.',
+    },
+    {
+      id: 'baal-peor-idolatry-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Baal-Peor Apostasy',
+      url: 'https://www.bibleodyssey.org/dictionary/baal-peor/',
+      description: 'Open-access entry on Israel&apos;s worship of Baal-Peor and God&apos;s judgment as a warning against idolatry.',
+    },
+    {
+      id: 'cities-refuge-ancient-laws-sbl',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Cities of Refuge',
+      url: 'https://www.bibleodyssey.org/dictionary/city-of-refuge/',
+      description: 'Biblical and archaeological study of asylum cities in ancient Israel and their parallel in ANE law codes.',
+    },
+  ],
+
   sections: [
     /* ─── Deuteronomy 4:1–2 — Hearken and Keep ────────────────────────────── */
     {

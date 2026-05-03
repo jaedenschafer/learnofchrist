@@ -34,6 +34,33 @@ export const DEUTERONOMY_2: RichChapterContent = {
     ref: 'Deuteronomy 2 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-deuteronomy-2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 2 — Wilderness Faithfulness',
+      url: 'https://www.sefaria.org/Deuteronomy.2',
+      description: 'Open-access Jewish commentaries on God&apos;s provision in the wilderness and the conquest of Sihon.',
+    },
+    {
+      id: 'numbers-20-21-intertextual-deut-2',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Numbers 20–21 ↔ Deuteronomy 2',
+      url: 'https://intertextual.bible/text/numbers-20/deuteronomy-2',
+      description: 'Comparison of the Sihon story in Numbers and its recounting in Deuteronomy.',
+    },
+    {
+      id: 'heshbon-archaeology-penn',
+      kind: 'archaeology',
+      source: 'Penn Museum',
+      label: 'Heshbon Excavation',
+      url: 'https://www.penn.museum/sites/expedition/heshbon/',
+      description: 'Archaeological study of Heshbon, where Sihon was defeated, excavated by the American School of Oriental Research.',
+    },
+  ],
+
   sections: [
     /* ─── Deuteronomy 2:1–3 — The Turn Northward ─────────────────────────────── */
     {

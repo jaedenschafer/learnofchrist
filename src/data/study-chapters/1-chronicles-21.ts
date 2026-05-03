@@ -152,6 +152,18 @@ export const CHRONICLES_1_21: RichChapterContent = {
             plain(7, 'And God was displeased with this thing: therefore he smote Israel.'),
             plain(8, 'And David said unto God, I have sinned greatly, because I have done this thing: but now, I beseech thee, do away the iniquity of thy servant; for I have done very foolishly.'),
             plain(9, 'And the Lord spake to Gad, David&apos;s seer, saying,'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-21-mid-9',
+          html:
+            '<p>These names represent the leaders and builders God raised up for specific roles.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             plain(10, 'Go and tell David, saying, Thus saith the Lord, I offer thee three things: choose thee one of them, that I may do it unto thee.'),
             {
               number: 11,

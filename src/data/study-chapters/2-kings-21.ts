@@ -359,6 +359,18 @@ export const KINGS_2_21: RichChapterContent = {
               22,
               'And he forsook the Lord God of his fathers, and walked not in the way of the Lord.'
             ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-kings-21-mid-22',
+          html:
+            '<p>A turning point reveals how one decision ripples across generations and nations.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             {
               number: 23,
               spans: [

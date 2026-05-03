@@ -139,6 +139,18 @@ export const PROVERBS_8: RichChapterContent = {
             plain(23, 'I was set up from everlasting, from the beginning, or ever the earth was.'),
             plain(24, 'When there were no depths, I was brought forth; when there were no fountains abounding with water.'),
             plain(25, 'Before the mountains were settled, before the hills was I brought forth:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov8-mid-righteous-blessed',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(26, 'While as yet he had not made the earth, nor the fields, nor the highest part of the dust of the world.'),
             plain(27, 'When he prepared the heavens, I was there: when he set a compass upon the face of the depth:'),
             plain(28, 'When he established the clouds above: when he strengthened the fountains of the deep:'),
@@ -157,6 +169,18 @@ export const PROVERBS_8: RichChapterContent = {
             plain(30, 'Then I was by him, as one brought up with him: and I was daily his delight, rejoicing always before him;'),
             plain(31, 'Rejoicing in the habitable part of his earth; and my delights were with the sons of men.'),
             plain(32, 'Now therefore hearken unto me, O ye children: for blessed are they that keep my ways.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov8b-mid-blessed-gates',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(33, 'Hear instruction, and be wise, and refuse it not.'),
             plain(34, 'Blessed is the man that heareth me, watching daily at my gates, waiting at the posts of my doors.'),
             plain(35, 'For whoso findeth me findeth life, and shall obtain favour of the Lord.'),

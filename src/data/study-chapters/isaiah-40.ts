@@ -145,6 +145,18 @@ export const ISAIAH_40: RichChapterContent = {
             plain(19, 'The workman melteth a graven image, and the goldsmith spreadeth it over with gold, and casteth silver chains.'),
             plain(20, 'He that is so impoverished that he hath no oblation chooseth a tree that will not rot; he seeketh unto him a cunning workman to prepare a graven image, that shall not be moved.'),
             plain(21, 'Have ye not known? have ye not heard? hath it not been told you from the beginning? have ye not understood from the foundations of the earth?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-comfort-voice',
+          html:
+            '<p>A voice cries in the wilderness: prepare the way. Comfort My people. God comes with power to gather the lambs.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 40,
+          lines: [
             plain(22, 'It is he that sitteth upon the circle of the earth, and the inhabitants thereof are as grasshoppers; that stretcheth out the heavens as a curtain, and spreadeth them out as a tent to dwell in:'),
             plain(23, 'That bringeth the princes to nothing; he maketh the judges of the earth as vanity.'),
             plain(24, 'Yea, they shall not be planted; yea, they shall not be sown; yea, their stock shall not take root in the earth: and he shall also blow upon them, and they shall wither, and the whirlwind shall take them away as stubble.'),

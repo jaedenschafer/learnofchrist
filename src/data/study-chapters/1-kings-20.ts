@@ -290,6 +290,18 @@ export const KINGS_1_20: RichChapterContent = {
             plain(37, 'Then he found another man, and said, Smite me, I pray thee. And the man smote him, so that in smiting he wounded him.'),
             plain(38, 'So the prophet departed, and waited for the king by the way, and disguised himself with ashes upon his face.'),
             plain(39, 'And as the king passed by, he cried unto the king: and he said, Thy servant went out into the midst of the battle; and, behold, a man turned aside, and brought a man unto me, and said, Keep this man: if by any means he be missing, then shall thy life be for his life, or else thou shalt pay a talent of silver.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-20-mid-39',
+          html:
+            '<p>A royal shift: the narrative moves from succession planning to operational rule.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 20,
+          lines: [
             plain(40, 'And as thy servant was busy here and there, he was gone. And the king of Israel said unto him, So shall thy judgment be; thyself hast decided it.'),
             plain(41, 'And he hasted, and took the ashes away from his face; and the king of Israel discerned him that he was of the prophets.'),
             plain(42, 'And he said unto him, Thus saith the Lord, Because thou hast let go out of thy hand a man whom I appointed to utter destruction, therefore thy life shall go for his life, and thy people for thy people.'),

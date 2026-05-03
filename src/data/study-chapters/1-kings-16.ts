@@ -51,6 +51,18 @@ export const KINGS_1_16: RichChapterContent = {
               ],
             },
             plain(3, 'Behold, I will take away the posterity of Baasha, and the posterity of his house; and will make thy house like the house of Jeroboam the son of Nebat.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-16-mid-3',
+          html:
+            '<p>The kingdom solidifies as Solomon consolidates power and establishes his regime.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 16,
+          lines: [
             plain(4, 'Him that dieth of Baasha in the city shall the dogs eat; and him that dieth of his in the fields shall the fowls of the air eat.'),
             plain(5, 'Now the rest of the acts of Baasha, and what he did, and his might, are they not written in the book of the chronicles of the kings of Israel?'),
             plain(6, 'So Baasha slept with his fathers, and was buried in Tirzah: and Elah his son reigned in his stead.'),
@@ -101,6 +113,18 @@ export const KINGS_1_16: RichChapterContent = {
                 t(', in the twenty and seventh year of Asa king of Judah, and reigned in his stead.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-16-mid-10',
+          html:
+            '<p>The kingdom solidifies as Solomon consolidates power and establishes his regime.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 16,
+          lines: [
             plain(11, 'And it came to pass, when he began to reign, as soon as he sat on the throne of his kingdom, that he slew all the house of Baasha: he left him not one that pisseth against a wall, neither of his kinsfolks, nor of his friends.'),
             {
               number: 12,
@@ -161,6 +185,18 @@ export const KINGS_1_16: RichChapterContent = {
             plain(16, 'And Omri went up from Gibbethon, and all Israel with him, and they besieged Tirzah.'),
             plain(17, 'And it came to pass, when Zimri saw that the city was taken, that he went into the palace of the king&apos;s house, and burnt the king&apos;s house over him with fire, and died.'),
             plain(18, 'For his sins which he sinned in doing evil in the sight of the Lord, in walking in the way of Jeroboam, and in his sin which he did, to make Israel to sin.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-16-mid-18',
+          html:
+            '<p>As the prophet emerges, God&apos;s word begins to shape the course of nations.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 16,
+          lines: [
             {
               number: 19,
               spans: [

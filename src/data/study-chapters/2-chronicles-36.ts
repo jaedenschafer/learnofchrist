@@ -287,6 +287,18 @@ export const CHRONICLES_2_36: RichChapterContent = {
                 t('Therefore he brought upon them the king of the Chaldees, who slew their young men with the sword in the house of their sanctuary, and had no compassion upon young man or maiden, old man, or him that stooped for age: he gave them all into his hand.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-chronicles-36-mid-17',
+          html:
+            '<p>A turning point shifts focus from building to sustaining what was built.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 36,
+          lines: [
             {
               number: 18,
               spans: [

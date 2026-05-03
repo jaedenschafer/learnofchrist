@@ -35,6 +35,18 @@ export const EZEKIEL_19: RichChapterContent = {
             plain(2, 'Moreover take thou up a lamentation for the princes of Israel,'),
             plain(3, 'And say, What is thy mother? A lioness: she lay down among lions, she nourished her whelps among young lions.'),
             plain(4, 'And she brought up one of her whelps: it became a young lion, and it learned to catch the prey; it devoured men.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-lion-lament',
+          html:
+            '<p>A lament for the royal line: young lions roar, then are captured or burned. Power without righteousness crumbles.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 19,
+          lines: [
             plain(6, 'And he went up and down among the lions, he became a young lion: and learned to catch the prey, and devoured men.'),
             plain(7, 'And he knew their desolate palaces, and he laid waste their cities; and the land was desolate, and the fulness thereof, by the noise of his roaring.'),
             plain(8, 'Then the nations set against him on every side from the provinces, and spread their net over him: he was taken in their pit.'),

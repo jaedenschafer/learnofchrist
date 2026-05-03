@@ -51,6 +51,18 @@ export const PROVERBS_5: RichChapterContent = {
             plain(8, 'Remove thy way far from her, and come not nigh the door of her house:'),
             plain(9, 'Lest thou give thine honour unto others, and thy years unto the cruel:'),
             plain(10, 'Lest strangers be filled with thy wealth; and thy labours be in the house of a stranger;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov5-mid-strength-evil',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(11, 'And thou mourn at the last, when thy flesh and thy body are consumed,'),
             plain(12, 'And say, How have I hated instruction, and my heart despised reproof;'),
             plain(13, 'And have not obeyed the voice of my teachers, nor inclined mine ear to them that instructed me!'),

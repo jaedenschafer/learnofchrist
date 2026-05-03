@@ -50,6 +50,18 @@ export const KINGS_2_6: RichChapterContent = {
             ),
             plain(2, 'Let us go, we pray thee, unto Jordan, and take thence every man a beam, and let us make us a place there, where we may dwell. And he answered, Go ye.'),
             plain(3, 'And one said, Be content, I pray thee, and go with thy servants. And he answered, I will go.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-kings-6-mid-3',
+          html:
+            '<p>A turning point reveals how one decision ripples across generations and nations.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(4, 'So he went with them. And when they came to Jordan, they cut down wood.'),
             {
               number: 5,

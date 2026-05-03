@@ -267,6 +267,18 @@ export const KINGS_2_18: RichChapterContent = {
                 t('Surely thou trustest upon the staff of this bruised reed, even upon Egypt; on which if a man lean, it will go into his hand, and pierce it: so is Pharaoh king of Egypt unto all that trust on him.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-kings-18-mid-20',
+          html:
+            '<p>The narrative shifts from prophet to king, showing God working through different vessels.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             plain(
               21,
               'But if ye say unto me, We trust in the Lord our God: is not that he, whose high places and whose altars Hezekiah hath taken away, and hath said to Judah and to Jerusalem, Ye shall worship before this altar in Jerusalem?',

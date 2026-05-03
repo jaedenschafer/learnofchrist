@@ -307,6 +307,18 @@ export const CHRONICLES_2_4: RichChapterContent = {
                 t('.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-chronicles-4-mid-18',
+          html:
+            '<p>The dedication nears: function and worship emerge from structure and stone.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(19, 'And Solomon made all the vessels that were for the house of God: the golden altar also, and the tables whereon the shewbread was set;'),
             plain(20, 'Moreover the candlesticks with their lamps, that they should burn after the manner before the oracle, of pure gold;'),
             plain(21, 'And the flowers, and the lamps, and the tongs, made he of gold, and that perfect gold;'),

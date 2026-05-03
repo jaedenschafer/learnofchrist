@@ -35,6 +35,18 @@ export const DANIEL_4: RichChapterContent = {
             plain(21, 'Whose leaves were fair, and the fruit thereof much, and in it was meat for all; under which the beasts of the field dwelt, and upon whose branches the fowls of the heaven had their habitation:'),
             plain(22, 'It is thou, O king, that art grown and become strong: for thy greatness is grown, and reacheth unto heaven, and thy dominion to the end of the earth.'),
             plain(23, 'And whereas the king saw a watcher and an holy one coming down from heaven, and saying, Hew the tree down, and destroy it; yet leave the stump of the roots thereof in the earth, even with a band of iron and of brass, in the tender grass of the field; and let it be wet with the dew of heaven, and let his portion be with the beasts of the field, till seven times pass over him;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-humility-pride',
+          html:
+            '<p>A king dreams of his fall. Nebuchadnezzar&apos;s madness teaches what happens when we forget we answer to Someone greater.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(24, 'This is the interpretation, O king, and this is the decree of the most High, which is come upon my lord the king:'),
             plain(25, 'That they shall drive thee from men, and thy dwelling shall be with the beasts of the field, and they shall make thee to eat grass as oxen, and they shall wet thee with the dew of heaven, and seven times shall pass over thee, till thou know that the most High ruleth in the kingdom of men, and giveth it to whomsoever he will.'),
             plain(26, 'And whereas they commanded to leave the stump of the tree roots; thy kingdom shall be sure unto thee, after that thou shalt have known that the heavens do rule.'),

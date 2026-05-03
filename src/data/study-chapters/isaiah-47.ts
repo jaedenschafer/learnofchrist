@@ -35,6 +35,18 @@ export const ISAIAH_47: RichChapterContent = {
             plain(2, 'Take the millstones, and grind meal: uncover thy locks, make bare the leg, uncover the thigh, pass over the rivers.'),
             plain(3, 'Thy nakedness shall be uncovered, yea, thy shame shall be seen: I will take vengeance, and I will not meet thee as a man.'),
             plain(4, 'As for our redeemer, the Lord of hosts is his name, the Holy One of Israel.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-virgin-mocked',
+          html:
+            '<p>A virgin sits in darkness, stripped of power. Babylon mocked the Lord; see what happens to her.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 47,
+          lines: [
             plain(5, 'Sit thou silent, and get thee into darkness, O daughter of the Chaldeans: for thou shalt no more be called, The lady of kingdoms.'),
             plain(6, 'I was wroth with my people, I have polluted mine inheritance, and given them into thine hand: thou didst shew them no mercy; upon the ancient thou hast very heavily laid thy yoke.'),
             plain(7, 'And thou saidst, I shall be a lady for ever: so that thou didst not lay these things to thy heart, neither didst remember the latter end of it.'),
@@ -54,6 +66,18 @@ export const ISAIAH_47: RichChapterContent = {
             plain(9, 'But these two things shall come to thee in a moment in one day, the loss of children, and widowhood: they shall come upon thee in their perfection for the multitude of thy sorceries, and for the great abundance of thine enchantments.'),
             plain(10, 'For thou hast trusted in thy wickedness: thou hast said, None seeth me. Thy wisdom and thy knowledge, it hath turned thee aside; and thou hast said in thine heart, I am, and none else beside me.'),
             plain(11, 'Therefore shall evil come upon thee; thou shalt not know from whence it riseth: and mischief shall fall upon thee; thou shalt not be able to put it off: and desolation shall come upon thee suddenly, which thou shalt not know.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-virgin-mocked-2',
+          html:
+            '<p>Disaster will come upon Babylon; she cannot ward it off with magic. Ruin overtakes her suddenly.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 47,
+          lines: [
             plain(12, 'Stand now with thine enchantments, and with the multitude of thy sorceries, wherein thou hast laboured from thy youth; if so be thou shalt be able to profit, if so be thou mayest prevail.'),
             plain(13, 'Thou art wearied in the multitude of thy counsels. Let now the astrologers, the stargazers, let them stand up, and save thee from these things that shall come upon thee.'),
             plain(14, 'Behold, they shall be as stubble; the fire shall burn them; they shall not deliver themselves from the power of the flame: there shall not be a coal to warm at, nor fire to sit before it.'),

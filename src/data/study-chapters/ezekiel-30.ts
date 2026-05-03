@@ -39,6 +39,18 @@ export const EZEKIEL_30: RichChapterContent = {
             plain(3, 'For the day is near, even the day of the Lord is near, a cloudy day; it shall be the time of the heathen.'),
             plain(8, 'And they shall know that I am the Lord, when I shall set fire in Egypt, and when all her helpers shall be destroyed.'),
             plain(10, 'Thus saith the Lord God; I will also destroy the idols, and I will cause their images to cease out of Noph; and there shall be no more a prince of the land of Egypt: and I will put a fear in the land of Egypt.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-egypt-fall',
+          html:
+            '<p>Egypt&apos;s might will shatter; a slave-realm will replace masters. The great shall be brought low.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 30,
+          lines: [
             plain(12, 'And I will make the rivers dry, and sell the land into the hand of the wicked: and I will make the land waste, and all that is therein, by the hand of strangers: I the Lord have spoken it.'),
             plain(15, 'And I will pour my wrath upon Sin, the strength of Egypt; and I will cut off the multitude of No.'),
             plain(18, 'At Tehaphnehes also the day shall be darkened, when I shall break there the yokes of Egypt: and the pomp of her strength shall cease in her: as for her, a cloud shall cover her, and her daughters shall go into captivity.'),

@@ -106,6 +106,18 @@ export const JOB_11: RichChapterContent = {
             plain(7, 'Canst thou by searching find out God? canst thou find out the Almighty unto perfection?'),
             plain(8, 'It is as high as heaven; what canst thou do? deeper than hell; what canst thou know?'),
             plain(9, 'The measure thereof is longer than the earth, and broader than the sea.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job11-mid-zophar-depth',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             plain(10, 'If he cut off, and shut up, or gather together, then who can hinder him?'),
             plain(11, 'For he knoweth vain men: he seeth wickedness also; will he not then consider it?'),
             plain(12, 'For vain man would be wise, though man be born like a wild ass&apos;s colt.'),
@@ -125,6 +137,18 @@ export const JOB_11: RichChapterContent = {
             plain(14, 'If iniquity be in thy hand, put it far away, and let not wickedness dwell in thy tabernacles;'),
             plain(15, 'For then shalt thou lift up thy face without spot; and thou shalt be stedfast, and shalt not fear:'),
             plain(16, 'Because thou shalt forget thy misery, and remember it as waters that pass away:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job11b-mid-unfold-way',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             plain(17, 'And thine age shall be clearer than the noonday; thou shalt shine forth, thou shalt be as the morning.'),
             plain(18, 'And thou shalt be secure, because there is hope; yea, thou shalt dig about thee, and thou shalt take thy rest in safety.'),
             plain(19, 'Also thou shalt lie down, and none shall make thee afraid; yea, many shall make suit unto thee.'),

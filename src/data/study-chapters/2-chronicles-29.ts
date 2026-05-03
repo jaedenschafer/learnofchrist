@@ -142,6 +142,18 @@ export const CHRONICLES_2_29: RichChapterContent = {
                 t('.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-chronicles-29-mid-15',
+          html:
+            '<p>Leadership transitions mark new direction—a builder hands off to the next.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 29,
+          lines: [
             plain(16, 'And the priests went into the inner part of the house of the Lord, to cleanse it, and brought out all the uncleanness that they found in the temple of the Lord into the court of the house of the Lord: and the Levites took it, to carry it out abroad into the brook Kidron.'),
             {
               number: 17,

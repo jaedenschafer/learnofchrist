@@ -33,6 +33,18 @@ export const DANIEL_7: RichChapterContent = {
             plain(1, 'In the first year of Belshazzar king of Babylon Daniel had a dream and visions of his head upon his bed: then he wrote the dream, and told the sum of the matters.'),
             plain(2, 'Daniel spake and said, I saw in my vision by night, and, behold, the four winds of the heaven strove upon the great sea.'),
             plain(3, 'And four great beasts came up from the sea, diverse one from another.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-vision-call',
+          html:
+            '<p>Daniel&apos;s night vision of kingdoms reveals God&apos;s final rule. From confusion comes clarity about what truly endures.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(4, 'The first was like a lion, and had eagle&apos;s wings: I beheld till the wings thereof were plucked, and it was lifted up from the earth, and made stand upon the feet as a man, and a man&apos;s heart was given to it.'),
             plain(5, 'And behold another beast, a second, like to a bear, and it raised up itself on one side, and it had three ribs in the mouth of it between the teeth of it: and they said thus unto it, Arise, devour much flesh.'),
             plain(6, 'After this I beheld, and lo another, like a leopard, which had upon the back of it four wings of a fowl; the beast had also four heads; and dominion was given to it.'),

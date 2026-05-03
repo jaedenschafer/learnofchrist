@@ -33,6 +33,18 @@ export const ISAIAH_64: RichChapterContent = {
             plain(1, 'Oh that thou wouldest rend the heavens, that thou wouldest come down, that the mountains might flow down at thy presence,'),
             plain(2, 'As when the melting fire burneth, the fire causeth the waters to boil, to make thy name known to thine adversaries, that the nations may tremble at thy presence!'),
             plain(3, 'When thou didst terrible things which we looked not for, thou camest down, the mountains flowed down at thy presence.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-potter-clay',
+          html:
+            '<p>We are the clay; You are the potter. We are all Your work. Do not stay angry forever; remember we are Your servants.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 64,
+          lines: [
             plain(4, 'For since the beginning of the world men have not heard, nor perceived by the ear, neither hath the eye seen, O God, beside thee, what he hath prepared for them that love him.'),
             plain(5, 'Thou meetest him that rejoiceth and worketh righteousness, those that remember thee in thy ways: behold, thou art wroth; for we have sinned: in those is continuance, and we shall be saved.'),
             plain(6, 'But we are all as an unclean thing, and all our righteousnesses are as filthy rags: and we all do fade as a leaf; and our iniquities, like the wind, have taken us away.'),

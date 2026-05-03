@@ -94,6 +94,18 @@ export const ESTHER_2: RichChapterContent = {
             plain(5, 'Now in Shushan the palace was a certain Jew whose name was Mordecai, the son of Jair, the son of Shimei, the son of Kish, a Benjamite;'),
             plain(6, 'Who had been carried away from Jerusalem with the captivity which was carried away with Jeconiah king of Judah, whom Nebuchadnezzar the king of Babylon had carried away.'),
             plain(7, 'And he brought up Hadassah, that is, Esther, his uncle&apos;s daughter: for she had neither father nor mother, and the maid was fair and beautiful; whom Mordecai, when her father was dead, took for his own daughter.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-queen-rise',
+          html:
+            '<p>Esther rises from orphan to queen through wisdom and favor. Quiet preparation precedes the moment God will use.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(8, 'So it came to pass, when the king&apos;s commandment and his decree was heard, and when many maidens were gathered together unto Shushan the palace, under the custody of Hegai, that Esther was taken also unto the king&apos;s house, under the custody of Hegai, keeper of the women.'),
             plain(9, 'And the maiden pleased him, and she obtained kindness of him; and he speedily gave her her things for purification, with such things as belonged to her, and seven maidens, which were meet to be given her, out of the king&apos;s house: and he preferred her and her maids unto the best place of the house of the women.'),
             plain(10, 'Esther had not shewed her people nor her kindred: for Mordecai had charged her that she should not shew it.'),
@@ -158,6 +170,18 @@ export const ESTHER_2: RichChapterContent = {
             plain(12, 'Now when every maid&apos;s turn was come to go in to the king Ahasuerus, after that she had been twelve months, according to the manner of the women, (for so were the days of her purifications accomplished, six months with oil of myrrh, and six months with perfumes and things for the beautifying of the women;)'),
             plain(13, 'Then thus came every maiden unto the king; whatsoever she desired was given her to go with her out of the house of the women unto the king&apos;s house.'),
             plain(14, 'In the evening she went, and on the morrow she returned into the second house of the women, under the custody of Shaashgaz, the king&apos;s chamberlain, which kept the concubines: she came in unto the king no more.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-queen-rise-2',
+          html:
+            '<p>Esther finds favor in the king&apos;s eyes. Her beauty and character open a door only God could see.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             plain(15, 'But when the turn of Esther, the daughter of Abihail the uncle of Mordecai, who had taken her for his daughter, was come to go in unto the king, she required nothing but that which Hegai the king&apos;s chamberlain, the keeper of the women, appointed. And Esther obtained favour in the sight of all them that looked upon her.'),
             plain(16, 'So Esther was taken unto the king Ahasuerus into his house royal, in the tenth month, which is the month Tebeth, in the seventh year of his reign.'),
             plain(17, 'And the king loved Esther above all the women, and she obtained grace and favour in his sight more than all the virgins; so that he set the royal crown upon her head, and made her queen instead of Vashti.'),

@@ -193,6 +193,18 @@ export const KINGS_1_13: RichChapterContent = {
             plain(12, 'And their father said unto them, What way went he? For his sons had seen what way the man of God that came from Judah went.'),
             plain(13, 'And he said unto his sons, Saddle me the ass. So they saddled him the ass: and he went after the man of God, and found him sitting under an oak: and he said unto him, Art thou the man of God that camest from Judah? And he said, I am.'),
             plain(14, 'Then he said unto him, Come home with me, and eat bread.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-13-mid-14',
+          html:
+            '<p>The reign&apos;s glory peaks, revealing both the height of human achievement and its limits.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 13,
+          lines: [
             {
               number: 15,
               spans: [

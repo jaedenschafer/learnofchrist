@@ -31,6 +31,18 @@ export const EZEKIEL_9: RichChapterContent = {
             plain(1, 'He cried also in mine ears with a loud voice, saying, Cause them that have charge over the city to draw near, even every man with his destroying weapon in his hand.'),
             plain(2, 'And, behold, six men came from the way of the higher gate, which lieth toward the north, and every man a slaughter weapon in his hand; and one man among them was clothed with linen, with a writer&apos;s inkhorn by his side: and they went in, and stood beside the brasen altar.'),
             plain(3, 'And the glory of the God of Israel was gone up from the cherub, whereupon he was, to the threshold of the house. And he called to the man clothed with linen, which had the writer&apos;s inkhorn by his side;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-mark-sealed',
+          html:
+            '<p>God&apos;s agent marks the faithful; judgment falls on the unfaithful. In every crisis, there&apos;s a seal on God&apos;s people.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(4, 'And the Lord said unto him, Go through the midst of the city, through the midst of Jerusalem, and set a mark upon the foreheads of the men that sigh and that cry for all the abominations that be done in the midst thereof.'),
             plain(9, 'And he said unto me, The iniquity of the house of Israel and Judah is exceeding great, and the land is full of blood, and the city full of perverseness: for they say, The Lord hath forsaken the land, and The Lord seeth not.'),
             plain(10, 'And as for me also, mine eye shall not spare, neither will I have pity, but I will recompense their way upon their head.'),

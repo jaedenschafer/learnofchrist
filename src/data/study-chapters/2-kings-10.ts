@@ -51,6 +51,18 @@ export const KINGS_2_10: RichChapterContent = {
             plain(1, 'And Ahab had seventy sons in Samaria. And Jehu wrote letters, and sent to Samaria, unto the rulers of Jezreel, to the elders, and to them that brought up Ahab&apos;s children, saying,'),
             plain(2, 'Now as soon as this letter cometh to you, seeing your master&apos;s sons are with you, and there are with you chariots and horses, a fenced city also, and armour;'),
             plain(3, 'Look even out the best and meetest of your master&apos;s sons, and set him on his father&apos;s throne, and fight for your master&apos;s house.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-kings-10-mid-3',
+          html:
+            '<p>The siege turns, showing how faith and strategy interweave in critical moments.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             plain(4, 'But they were exceedingly afraid: and said, Behold, two kings stood not before him: how then shall we stand?'),
             plain(5, 'And he that was over the house, and he that was over the city, the elders also, and the bringers up of the children, sent to Jehu, saying, We are thy servants, and will do all that thou shalt bid us; we will not make any king: do thou that which is good in thine eyes.'),
             plain(6, 'Then he wrote a letter the second time to them, saying, If ye be mine, and if ye will hearken unto my voice, take ye the heads of the men your master&apos;s sons, and come to me to Jezreel by to morrow this time. Now the king&apos;s sons, being seventy persons, were with the great men of the city, which brought them up.'),

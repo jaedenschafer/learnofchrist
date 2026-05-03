@@ -34,6 +34,18 @@ export const PROVERBS_10: RichChapterContent = {
             plain(2, 'Treasures of wickedness profit nothing: but righteousness delivereth from death.'),
             plain(3, 'The Lord will not suffer the soul of the righteous to famish: but he casteth away the substance of the wicked.'),
             plain(4, 'He that dealeth with a slack hand becometh poor: but the hand of the diligent maketh rich.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov10-mid-righteousness-wealth',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             plain(5, 'He that gathereth in summer is a wise son: but he that sleepeth in harvest is a son that causeth shame.'),
             plain(6, 'Blessings are upon the head of the just: but violence covereth the mouth of the wicked.'),
             plain(7, 'The memory of the just is blessed: but the name of the wicked shall rot.'),
@@ -52,6 +64,18 @@ export const PROVERBS_10: RichChapterContent = {
             plain(9, 'He that walketh uprightly walketh surely: but he that perverteth his ways shall be known.'),
             plain(10, 'He that winketh with the eye causeth sorrow: but a prating fool shall fall.'),
             plain(11, 'The mouth of a righteous man is a well of life: but violence covereth the mouth of the wicked.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov10b-mid-mouth-violence',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             plain(12, 'Hatred stirreth up strifes: but love covereth all sins.'),
             plain(13, 'In the lips of him that hath understanding wisdom is found: but a rod is for the back of him that is void of understanding.'),
             plain(14, 'Wise men lay up knowledge: but the mouth of the foolish is near destruction.'),

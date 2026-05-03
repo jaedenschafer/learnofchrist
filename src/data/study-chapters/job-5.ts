@@ -65,6 +65,18 @@ export const JOB_5: RichChapterContent = {
               ],
             },
             plain(3, 'For I have seen the foolish taking root: but suddenly I cursed his habitation.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job5-mid-seek-god',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             {
               number: 4,
               spans: [

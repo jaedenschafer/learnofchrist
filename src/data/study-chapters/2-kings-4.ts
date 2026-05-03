@@ -42,6 +42,18 @@ export const KINGS_2_4: RichChapterContent = {
             plain(1, 'Now there cried a certain woman of the wives of the sons of the prophets unto Elisha, saying, Thy servant my husband is dead; and thou knowest that thy servant did fear the Lord: and the creditor is come to take unto him my two sons to be bondmen.'),
             plain(2, 'And Elisha said unto her, What shall I do for thee? tell me, I pray thee, what hast thou in the house? And she said, Thine handmaid hath not any thing in the house, save a pot of oil.'),
             plain(3, 'Then he said, Go, borrow thee vessels abroad of all thy neighbours, even empty vessels; borrow not a few.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-kings-4-mid-3',
+          html:
+            '<p>The siege turns, showing how faith and strategy interweave in critical moments.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(4, 'And when thou art come in, thou shalt shut the door upon thee and upon thy sons, and shalt pour out into all those vessels, and thou shalt set aside that which is full.'),
             plain(5, 'So she went from him, and shut the door upon her and upon her sons; who brought the vessels to her; and she poured out.'),
             plain(6, 'And it came to pass, when the vessels were full, that she said unto her son, Bring me yet a vessel. And he said unto her, There is not a vessel more. And the oil stayed.'),
@@ -200,6 +212,18 @@ export const KINGS_2_4: RichChapterContent = {
             plain(21, 'And she went up, and laid him upon the bed of the man of God, and shut the door upon him, and went out.'),
             plain(22, 'And she called unto her husband, and said, Send me, I pray thee, one of the young men, and one of the asses; for I will go to the man of God, and come again.'),
             plain(23, 'And he said, Wherefore wilt thou go to him to day? it is neither new moon, nor sabbath. And she said, It shall be well.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-kings-4-mid-23',
+          html:
+            '<p>Power transfers as leaders rise and fall, yet God&apos;s purposes remain constant.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(24, 'Then she saddled an ass, and said to her servant, Drive, and go forward: slack not thy riding for me, except I bid thee.'),
             plain(25, 'So she went and came unto the man of God to the mount of Carmel. And it came to pass, when the man of God saw her afar off, that he said to Gehazi his servant, Behold, yonder is that Shunammite:'),
             plain(26, 'Run now, I pray thee, to meet her, and say unto her, Is it well with thee? is it well with thy husband? is it well with the child? And she answered, It is well.'),

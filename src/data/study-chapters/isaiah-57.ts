@@ -94,6 +94,18 @@ export const ISAIAH_57: RichChapterContent = {
             plain(15, 'For thus saith the high and lofty One that inhabiteth eternity, whose name is Holy; I dwell in the high and holy place, with him also that is of a contrite and humble spirit, to revive the spirit of the humble, and to revive the heart of the contrite ones.'),
             plain(16, 'For I will not contend for ever, neither will I be always wroth: for the spirit should fail before me, and the souls which I have made.'),
             plain(17, 'For the iniquity of his covetousness was I wroth, and smote him: I hid my face, and was wroth, and he went on frowardly in the way of his heart.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-peace-weary',
+          html:
+            '<p>Peace, peace to those far and near, yet there is no peace for the wicked. The Lord gives rest; only rebellion finds none.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 57,
+          lines: [
             plain(18, 'I have seen his ways, and will heal him: I will lead him also, and restore comforts unto him and to his mourners.'),
             plain(19, 'I create the fruit of the lips; Peace, peace to him that is far off, and to him that is near, saith the Lord; and I will heal him.'),
             plain(20, 'But the wicked are like the troubled sea, when it cannot rest, whose waters cast up mire and dirt.'),

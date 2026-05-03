@@ -125,6 +125,18 @@ export const CHRONICLES_2_20: RichChapterContent = {
                 t('And they dwelt therein, and have built thee a sanctuary therein for thy name, saying,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-chronicles-20-mid-8',
+          html:
+            '<p>The dedication nears: function and worship emerge from structure and stone.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 20,
+          lines: [
             {
               number: 9,
               spans: [

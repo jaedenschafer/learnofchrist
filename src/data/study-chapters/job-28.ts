@@ -103,6 +103,18 @@ export const JOB_28: RichChapterContent = {
             plain(13, 'Man knoweth not the price thereof; neither is it found in the land of the living.'),
             plain(14, 'The depth saith, It is not in me: and the sea saith, It is not in me.'),
             plain(15, 'It cannot be gotten for gold, neither shall silver be weighed for the price thereof.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job28-mid-gold-wisdom',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 28,
+          lines: [
             plain(16, 'It cannot be valued with the gold of Ophir, with the precious onyx, or the sapphire.'),
             plain(17, 'The gold and the crystal cannot equal it: and the exchange of it shall not be for jewels of fine gold.'),
             plain(18, 'No mention shall be made of coral, or of pearls: for the price of wisdom is above rubies.'),

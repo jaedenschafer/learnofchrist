@@ -51,6 +51,18 @@ export const CHRONICLES_2_9: RichChapterContent = {
                 t(', and his ascent by which he went up into the house of the Lord; there was no more spirit in her.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-chronicles-9-mid-4',
+          html:
+            '<p>The construction progresses: each phase brought the temple closer to completion.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             {
               number: 5,
               spans: [
@@ -392,6 +404,18 @@ export const CHRONICLES_2_9: RichChapterContent = {
                 t('And they brought every man his present, vessels of silver, and vessels of gold, and raiment, harness, and spices, horses, and mules, a rate year by year.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-chronicles-9-mid-24',
+          html:
+            '<p>The construction progresses: each phase brought the temple closer to completion.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             {
               number: 25,
               spans: [

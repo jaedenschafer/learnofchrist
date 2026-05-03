@@ -34,6 +34,18 @@ export const ISAIAH_6: RichChapterContent = {
             plain(1, 'In the year that king Uzziah died I saw also the Lord sitting upon a throne, high and lifted up, and his train filled the temple.'),
             plain(2, 'Above it stood the seraphims: each one had six wings; with twain he covered his face, and with twain he covered his feet, and with twain he did fly.'),
             plain(3, 'And one cried unto another, and said, Holy, holy, holy, is the Lord of hosts: the whole earth is full of his glory.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-throne-call',
+          html:
+            '<p>Isaiah sees the Lord high and lifted up; his lips are cleansed by fire. Then: &quot;Whom shall I send?&quot; &quot;Here am I.&quot;</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(4, 'And the posts of the door moved at the voice of him that cried, and the house was filled with smoke.'),
             plain(5, 'Then said I, Woe is me! for I am undone; because I am a man of unclean lips, and I dwell in the midst of a people of unclean lips: for mine eyes have seen the King, the Lord of hosts.'),
             plain(6, 'Then flew one of the seraphims unto me, having a live coal in his hand, which he had taken with the tongs from off the altar:'),

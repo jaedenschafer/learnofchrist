@@ -33,6 +33,18 @@ export const ISAIAH_56: RichChapterContent = {
             plain(2, 'Blessed is the man that doeth this, and the son of man that layeth hold on it; that keepeth the sabbath from polluting it, and keepeth his hand from doing any evil.'),
             plain(3, 'Neither let the son of the stranger, that hath joined himself to the Lord, speak, saying, The Lord hath utterly separated me from his people: neither let the eunuch say, Behold, I am a dry tree.'),
             plain(4, 'For thus saith the Lord unto the eunuchs that keep my sabbaths, and choose the things that please me, and take hold of my covenant;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-gate-open',
+          html:
+            '<p>All nations will gather on God&apos;s holy mountain. His house is a house of prayer for all peoples.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 56,
+          lines: [
             plain(5, 'Even unto them will I give in mine house and within my walls a place and a name better than of sons and of daughters: I will give them an everlasting name, that shall not be cut off.'),
             plain(6, 'Also the sons of the stranger, which join themselves to the Lord, to serve him, and to love the name of the Lord, to be his servants, every one that keepeth the sabbath from polluting it, and taketh hold of my covenant;'),
             plain(7, 'Even them will I bring to my holy mountain, and make them joyful in my house of prayer: their burnt offerings and their sacrifices shall be accepted upon mine altar; for mine house shall be called an house of prayer for all people.'),

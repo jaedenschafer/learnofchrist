@@ -35,6 +35,18 @@ export const EZEKIEL_18: RichChapterContent = {
             plain(2, 'What mean ye, that ye use this proverb concerning the land of Israel, saying, The fathers have eaten sour grapes, and the children&apos;s teeth are set on edge?'),
             plain(4, 'Behold, all souls are mine; as the soul of the father, so also the soul of the son is mine: the soul that sinneth, it shall die.'),
             plain(5, 'But if a man be just, and do that which is lawful and right;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-soul-turns',
+          html:
+            '<p>Each soul answers for itself. Turn from sin, live. Turn toward evil, die. God offers the choice; you make the move.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             plain(6, 'And hath not eaten upon the mountains, neither hath lifted up his eyes to the idols of the house of Israel, neither hath defiled his neighbour&apos;s wife, neither hath come near to a menstruous woman,'),
             plain(7, 'And hath not oppressed any, but hath restored to the debtor his pledge, hath spoiled none by violence, hath given his bread to the hungry, and hath covered the naked with a garment;'),
             plain(8, 'He that hath not given forth upon usury, neither hath taken any increase, that hath withdrawn his hand from iniquity, hath executed true judgment between man and man,'),

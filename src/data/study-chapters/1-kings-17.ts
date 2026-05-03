@@ -252,6 +252,18 @@ export const KINGS_1_17: RichChapterContent = {
             plain(18, 'And she said unto Elijah, What have I to do with thee, O thou man of God? art thou come unto me to call my sin to remembrance, and to slay my son?'),
             plain(19, 'And he said unto her, Give me thy son. And he took him out of her bosom, and carried him up into a loft, where he abode, and laid him upon his own bed.'),
             plain(20, 'And he cried unto the Lord, and said, O Lord my God, hast thou also brought evil upon the widow with whom I sojourn, by slaying her son?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-17-mid-20',
+          html:
+            '<p>As the prophet emerges, God&apos;s word begins to shape the course of nations.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 17,
+          lines: [
             {
               number: 21,
               spans: [

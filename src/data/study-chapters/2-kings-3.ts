@@ -46,6 +46,18 @@ export const KINGS_2_3: RichChapterContent = {
             plain(2, 'And he wrought evil in the sight of the Lord; but not like his father, and like his mother: for he put away the image of Baal that his father had made.'),
             plain(3, 'Nevertheless he cleaved unto the sins of Jeroboam the son of Nebat, which made Israel to sin; he departed not therefrom.'),
             plain(4, 'And Mesha king of Moab was a sheepmaster, and rendered unto the king of Israel an hundred thousand lambs, and an hundred thousand rams, with the wool thereof.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-kings-3-mid-4',
+          html:
+            '<p>A turning point reveals how one decision ripples across generations and nations.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(5, 'But it came to pass, when Ahab was dead, that the king of Moab rebelled against the king of Israel.'),
             plain(6, 'And king Jehoram went out of Samaria the same time, and numbered all Israel.'),
             plain(7, 'And he went and sent to Jehoshaphat the king of Judah, saying, The king of Moab hath rebelled against me: wilt thou go with me against Moab to battle? And he said, I will go up: I am as thou art, my people as thy people, my horses as thy horses.'),
@@ -226,6 +238,18 @@ export const KINGS_2_3: RichChapterContent = {
             plain(19, 'And ye shall smite every fenced city, and every choice city, and shall fell every good tree: only in Kir-haraseth shall ye leave the stones thereof; howbeit the slingers shall go about it, and smite it.'),
             plain(20, 'And it came to pass in the morning, when the meat offering was offered, behold, there came water by the way of Edom, and the country was filled with water.'),
             plain(21, 'And when all the Moabites heard that the kings were come up to fight against them, they gathered themselves together by all that were able to put on armour, and stood in the border.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-kings-3-mid-21',
+          html:
+            '<p>The end approaches, and judgment falls—yet grace finds a remnant.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(22, 'And they rose up early in the morning, and the sun shone upon the water: and the Moabites saw the water on the other side as red as blood:'),
             plain(23, 'And they said, This is blood: the kings are surely slain one against another: now therefore, Moab, to the spoil.'),
             plain(24, 'And when they came to the camp of Israel, the Israelites rose up and smote the Moabites, so that they fled before them: but they invaded the country, and smote the Moabites.'),

@@ -44,6 +44,18 @@ export const KINGS_2_25: RichChapterContent = {
             plain(1, 'And it came to pass in the ninth year of his reign, in the tenth month, in the tenth day of the month, that Nebuchadnezzar king of Babylon came, he, and all his host, against Jerusalem, and pitched against it; and they built forts against it round about.'),
             plain(2, 'So the city was besieged unto the eleventh year of king Zedekiah.'),
             plain(3, 'And on the ninth day of the fourth month the famine prevailed in the city, and there was no bread for the people of the land.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-kings-25-mid-3',
+          html:
+            '<p>A turning point reveals how one decision ripples across generations and nations.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             plain(4, 'And the city was broken up, and all the men of war fled by night by the way of the gate between two walls, which is by the king&apos;s garden: (now the Chaldees were against the city round about:) and the king went the way toward the plain.'),
             plain(5, 'And the army of the Chaldees pursued after the king, and overtook him in the plains of Jericho: and all his army were scattered from him.'),
             plain(6, 'So they took the king, and brought him up to the king of Babylon to Riblah; and they gave judgment upon him.'),

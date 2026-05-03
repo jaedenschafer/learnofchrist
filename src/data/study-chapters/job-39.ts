@@ -55,6 +55,18 @@ export const JOB_39: RichChapterContent = {
             plain(6, 'Whose house I have made the wilderness, and the barren land his dwellings.'),
             plain(7, 'He scorneth the multitude of the city, neither regardeth he the crying of the driver.'),
             plain(8, 'The range of the mountains is his pasture, and he searcheth after every green thing.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job39-mid-ostrich-wings',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 39,
+          lines: [
             plain(9, 'Will the unicorn be willing to serve thee, or abide by thy crib?'),
             plain(10, 'Canst thou bind the unicorn with his band in the furrow? or will he harrow the valleys after thee?'),
             plain(11, 'Wilt thou trust him, because his strength is great? or wilt thou leave thy labour to him?'),
@@ -126,6 +138,18 @@ export const JOB_39: RichChapterContent = {
             plain(19, 'Hast thou given the horse strength? hast thou clothed his neck with thunder?'),
             plain(20, 'Canst thou make him afraid as a grasshopper? the glory of his nostrils is terrible.'),
             plain(21, 'He paweth in the valley, and rejoiceth in his strength: he goeth on to meet the armed men.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job39b-mid-food-strength',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 39,
+          lines: [
             plain(22, 'He mocketh at fear, and is not affrighted; neither turneth he back from the sword.'),
             plain(23, 'The quiver rattleth against him, the glittering spear and the shield.'),
             plain(24, 'He swalloweth the ground with fierceness and rage: neither believeth he that it is the sound of the trumpet.'),

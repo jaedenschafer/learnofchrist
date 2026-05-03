@@ -114,6 +114,18 @@ export const ISAIAH_33: RichChapterContent = {
             plain(13, 'Hear, ye that are far off, what I have done; and, ye that are near, acknowledge my might.'),
             plain(14, 'The sinners in Zion are afraid; fearfulness hath surprised the hypocrites. Who among us shall dwell with the devouring fire? who among us shall dwell with everlasting burnings?'),
             plain(15, 'He that walketh righteously, and speaketh uprightly; he that despiseth the gain of oppressions, and shaketh his hands from holding of bribes: he that stoppeth his ears from hearing of blood, and shutteth his eyes from seeing evil;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-judge-dwells',
+          html:
+            '<p>The Lord is our judge, our lawgiver, our king—He saves us. See Zion, a city no attacker can enter.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 33,
+          lines: [
             plain(16, 'He shall dwell in the high places: his place of defence shall be the munitions of rocks: bread shall be given him; his waters shall be sure.'),
             plain(17, 'Thine eyes shall see the king in his beauty: they shall behold the land that is very far off.'),
             plain(18, 'Thine heart shall meditate in fear: Where is the scribe? where is the receiver? where is he that counted the towers?'),

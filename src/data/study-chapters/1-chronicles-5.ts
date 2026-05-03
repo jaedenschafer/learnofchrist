@@ -123,6 +123,18 @@ export const CHRONICLES_1_5: RichChapterContent = {
             plain(4, 'The sons of Joel; Shemaiah his son, Gog his son, Shimei his son,'),
             plain(5, 'Micah his son, Reaiah his son, Baal his son,'),
             plain(6, 'Beerah his son, whom Tilgath-pilneser king of Assyria carried away captive: he was prince of the Reubenites.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-5-mid-6',
+          html:
+            '<p>These names represent the leaders and builders God raised up for specific roles.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(7, 'And his brethren by their families, when the genealogy of their generations was reckoned, were the chief, Jeiel, and Zechariah,'),
             plain(8, 'And Bela the son of Azaz, the son of Shema, the son of Joel, who dwelt in Aroer, even unto Nebo and Baal-meon:'),
             plain(9, 'And eastward he inhabited unto the entering in of the wilderness from the river Euphrates: because their cattle were multiplied in the land of Gilead.'),
@@ -182,6 +194,18 @@ export const CHRONICLES_1_5: RichChapterContent = {
                 t('And their brethren of the house of their fathers were, Michael, and Meshullam, and Sheba, and Jorai, and Jachan, and Zia, and Heber, seven.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-5-mid-13',
+          html:
+            '<p>These names represent the leaders and builders God raised up for specific roles.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(14, 'These are the sons of Abihail the son of Huri, the son of Jaroah, the son of Gilead, the son of Michael, the son of Jeshishai, the son of Jahdo, the son of Buz;'),
             plain(15, 'Ahi the son of Abdiel, the son of Guni, chief of the house of their fathers.'),
             plain(16, 'And they dwelt in Gilead in Bashan, and in the towns thereof, and in all the suburbs of Sharon, upon their borders.'),

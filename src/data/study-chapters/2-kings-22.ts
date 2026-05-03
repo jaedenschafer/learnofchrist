@@ -301,6 +301,18 @@ export const KINGS_2_22: RichChapterContent = {
                 t('Thus saith the Lord, Behold, I will bring evil upon this place, and upon the inhabitants thereof, even all the words of the book which the king of Judah hath read:'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-kings-22-mid-16',
+          html:
+            '<p>The end approaches, and judgment falls—yet grace finds a remnant.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 22,
+          lines: [
             {
               number: 17,
               spans: [

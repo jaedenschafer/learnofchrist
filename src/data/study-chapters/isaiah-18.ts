@@ -32,6 +32,18 @@ export const ISAIAH_18: RichChapterContent = {
             plain(1, 'Woe to the land shadowing with wings, which is beyond the rivers of Ethiopia:'),
             plain(2, 'That sendeth ambassadors by the sea, even in vessels of bulrushes upon the waters, saying, Go, ye swift messengers, to a nation scattered and peeled, to a people terrible from their beginning hitherto; a nation meted out and trodden down, whose land the rivers have spoiled!'),
             plain(3, 'All ye inhabitants of the world, and dwellers on the earth, see ye, when he lifteth up an ensign on the mountains, and blow ye the trumpet:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-cush-praise',
+          html:
+            '<p>Ethiopia sends envoys to a nation with a sign and a signal. Even distant lands will acknowledge God&apos;s hand.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             plain(4, 'For so the Lord said unto me, I will take my rest, and I will consider in my dwelling place like a clear heat upon herbs, and like a cloud of dew in the heat of harvest.'),
             plain(5, 'For afore the harvest, when the bud is perfect, and the sour grape is ripening in the flower, he shall both cut down the branches with pruning hooks, and take away and cut down the branches.'),
             plain(6, 'They shall be left together unto the fowls of the mountains, and to the beasts of the earth: and the fowls shall summer upon them, and all the beasts of the earth shall winter upon them.'),

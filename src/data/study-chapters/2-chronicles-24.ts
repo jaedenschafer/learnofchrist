@@ -182,6 +182,18 @@ export const CHRONICLES_2_24: RichChapterContent = {
               10,
               'And all the princes and all the people rejoiced, and brought in, and cast into the chest, until they had made an end.'
             ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-chronicles-24-mid-10',
+          html:
+            '<p>The dedication nears: function and worship emerge from structure and stone.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 24,
+          lines: [
             {
               number: 11,
               spans: [

@@ -32,6 +32,18 @@ export const EZEKIEL_33: RichChapterContent = {
             plain(1, 'Again the word of the Lord came unto me, saying,'),
             plain(2, 'Son of man, speak to the children of thy people, and say unto them, When I bring the sword upon a land, the people of the land take a man of the borders thereof, and set him for a watchman:'),
             plain(3, 'If when he seeth the sword come upon the land, he blow the trumpet, and warn the people;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-watchman-call',
+          html:
+            '<p>The watchman speaks or stays silent—either way, the watchman&apos;s own soul is on the line. Witness carries weight.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 33,
+          lines: [
             plain(4, 'Then whosoever heareth the sound of the trumpet, and taketh not warning; if the sword come, and take him away, his blood shall be upon his own head.'),
             plain(8, 'When I say unto the wicked, O wicked man, thou shalt surely die; if thou dost not speak to warn the wicked from his way, that wicked man shall die in his iniquity; but his blood will I require at thine hand.'),
             plain(9, 'Nevertheless, if thou warn the wicked of his way to turn from it; if he do not turn from his way, he shall die in his iniquity; but thou hast delivered thy soul.'),

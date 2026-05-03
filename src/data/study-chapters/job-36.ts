@@ -38,6 +38,18 @@ export const JOB_36: RichChapterContent = {
             plain(1, 'Elihu also proceeded, and said,'),
             plain(2, 'Suffer me a little, and I will shew thee that I have yet to speak on God&apos;s behalf.'),
             plain(3, 'I will fetch my knowledge from afar, and will ascribe righteousness to my Maker.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job36-mid-elihu-defense',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 36,
+          lines: [
             plain(4, 'For truly my words shall not be false: he that is perfect in knowledge is with thee.'),
             plain(5, 'Behold, God is mighty, and despiseth not any: he is mighty in strength and wisdom.'),
             plain(6, 'He preserveth not the life of the wicked: but giveth right to the poor.'),
@@ -58,6 +70,18 @@ export const JOB_36: RichChapterContent = {
             plain(9, 'Then he sheweth them their work, and their transgressions that they have exceeded.'),
             plain(10, 'He openeth also their ear to discipline, and commandeth that they return from iniquity.'),
             plain(11, 'If they obey and serve him, they shall spend their days in prosperity, and their years in pleasures.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job36b-mid-obey-prosperity',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 36,
+          lines: [
             plain(12, 'But if they obey not, they shall perish by the sword, and they shall die without knowledge.'),
             plain(13, 'But the hypocrites in heart heap up wrath: they cry not when he bindeth them.'),
             plain(14, 'Their soul dieth in youth, and their life is among the unclean.'),

@@ -45,6 +45,18 @@ export const CHRONICLES_1_12: RichChapterContent = {
             plain(1, 'Now these are they that came to David to Ziklag, while he yet kept himself close because of Saul the son of Kish: and they were among the mighty men, helpers of the war.'),
             plain(2, 'They were armed with bows, and could use both the right hand and the left in hurling stones and shooting arrows out of a bow, even of Saul&apos;s brethren of Benjamin.'),
             plain(3, 'The chief was Ahiezer, then Joash, the sons of Shemaah the Gibeathite; and Jeziel, and Pelet, the sons of Azmaveth; and Berachah, and Jehu the Anethothite,'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-12-mid-3',
+          html:
+            '<p>These connections reveal how God&apos;s family plan unfolded across centuries.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             plain(4, 'And Ismaiah the Gibeonite, a mighty man among the thirty, and over the thirty; and Jeremiah, and Jahaziel, and Johanan, and Josabad the Gederathite,'),
             plain(5, 'Eluzai, and Jerimoth, and Bealiah, and Shemariah, and Shephatiah the Haruphite,'),
             plain(6, 'Elkanah, and Isiah, and Azareel, and Joezer, and Jashobeam, the Korhites,'),
@@ -110,6 +122,18 @@ export const CHRONICLES_1_12: RichChapterContent = {
             plain(9, 'Ezer the first, Obadiah the second, Eliab the third,'),
             plain(10, 'Mishmannah the fourth, Jeremiah the fifth,'),
             plain(11, 'Attai the sixth, Eliel the seventh,'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-12-mid-11',
+          html:
+            '<p>This family boundary reveals the line through which God&apos;s covenant promises continued.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             plain(12, 'Johanan the eighth, Elzabad the ninth,'),
             plain(13, 'Jeremiah the tenth, Machbanai the eleventh.'),
             plain(14, 'These were of the sons of Gad, captains of the host: one of the least was over an hundred, and the greatest over a thousand.'),
@@ -273,6 +297,18 @@ export const CHRONICLES_1_12: RichChapterContent = {
             plain(24, 'The children of Judah that bare shield and spear were six thousand and eight hundred, ready armed to the war.'),
             plain(25, 'Of the children of Simeon, mighty men of valour for the war, seven thousand and one hundred.'),
             plain(26, 'Of the children of Levi four thousand and six hundred.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-12-mid-26',
+          html:
+            '<p>The genealogy traces how God preserved His people through generations and exile.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             plain(27, 'And Jehoiada was the leader of the Aaronites, and with him were three thousand and seven hundred;'),
             plain(28, 'And Zadok, a young man mighty of valour, and of his father&apos;s house twenty and two captains.'),
             plain(29, 'And of the children of Benjamin, the kindred of Saul, three thousand: for hitherto the greatest part of them had kept the ward of the house of Saul.'),
@@ -292,6 +328,18 @@ export const CHRONICLES_1_12: RichChapterContent = {
             plain(31, 'And of the half tribe of Manasseh eighteen thousand, which were expressed by name, to come and make David king.'),
             plain(32, 'And of the children of Issachar, which were men that had understanding of the times, to know what Israel ought to do; the heads of them were two hundred; and all their brethren were at their commandment.'),
             plain(33, 'Of Zebulun, such as went forth to battle, expert in war, with all instruments of war, fifty thousand, which could keep rank: they were not of a double heart.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-12-mid-33',
+          html:
+            '<p>These connections reveal how God&apos;s family plan unfolded across centuries.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             plain(34, 'And of Naphtali a thousand captains, and with them with shield and spear thirty and seven thousand.'),
             plain(35, 'And of the Danites expert in war twenty and eight thousand and six hundred.'),
             plain(36, 'And of Asher, such as went forth to battle, expert in war, forty thousand.'),

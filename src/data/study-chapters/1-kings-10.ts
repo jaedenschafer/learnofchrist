@@ -304,6 +304,18 @@ export const KINGS_1_10: RichChapterContent = {
             plain(23, 'So king Solomon exceeded all the kings of the earth for riches and for wisdom.'),
             plain(24, 'And all the earth sought to Solomon, to hear his wisdom, which God had put in his heart.'),
             plain(25, 'And they brought every man his present, vessels of silver, vessels of gold, garments, armour, spices, horses, mules, a rate year by year.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-10-mid-25',
+          html:
+            '<p>Opposition rises, exposing the tensions between faith and the throne&apos;s ambitions.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             plain(26, 'And Solomon gathered together chariots and horsemen: he had a thousand and four hundred chariots, and twelve thousand horsemen, whom he bestowed in the cities for chariots, with the king at Jerusalem.'),
             plain(27, 'And the king made silver to be in Jerusalem as stones, and cedars made he to be as the sycomore trees that are in the vale, for abundance.'),
             plain(28, 'And Solomon had horses brought out of Egypt, and linen yarn: the king\'s merchants received the linen yarn at a price.'),

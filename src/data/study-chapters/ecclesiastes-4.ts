@@ -36,6 +36,18 @@ export const ECCLESIASTES_4: RichChapterContent = {
             plain(2, 'Wherefore I praised the dead which are already dead more than the living which are yet alive.'),
             plain(3, 'Yea, better is he than both they, which hath not yet been, who hath not seen the evil work that is done under the sun.'),
             plain(4, 'Again, I considered all travail, and every right work, that for this a man is envied of his neighbour. This is also vanity and vexation of spirit.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ecc4a-mid-vanity-toil',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(5, 'The fool foldeth his hands together, and eateth his own flesh.'),
             plain(6, 'Better is an handful with quietness, than both the hands full with travail and vexation of spirit.'),
             plain(7, 'Then I returned, and I saw vanity under the sun.'),
@@ -85,6 +97,18 @@ export const ECCLESIASTES_4: RichChapterContent = {
             plain(10, 'For if they fall, the one will lift up his fellow: but woe to him that is alone when he falleth; for he hath not another to help him up.'),
             plain(11, 'Again, if two lie together, then they have heat: but how can one be warm alone?'),
             plain(12, 'And if one prevail against him, two shall withstand him; and a threefold cord is not quickly broken.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ecc4b-mid-poor-wise',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(13, 'Better is a poor and a wise child than an old and foolish king, who will no more be admonished.'),
             plain(14, 'For out of prison he cometh to reign; whereas also he that is born in his kingdom becometh poor.'),
             plain(15, 'I considered all the living which walk under the sun, with the second child that shall stand up in his stead.'),

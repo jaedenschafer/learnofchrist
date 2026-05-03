@@ -33,6 +33,33 @@ export const DEUTERONOMY_9: RichChapterContent = {
     ref: 'Deuteronomy 9 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-deuteronomy-9',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 9',
+      url: 'https://www.sefaria.org/Deuteronomy.9',
+      description: 'Open-access source text and traditional Jewish commentary on election, grace, and Moses&apos; intercession for Israel.',
+    },
+    {
+      id: 'election-grace-not-merit-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Election and Covenant Grace',
+      url: 'https://www.bibleodyssey.org/dictionary/election/',
+      description: 'Scholarly entry on the biblical concept of divine election preceding human performance and the gift of the covenant.',
+    },
+    {
+      id: 'intercession-prayer-ancient-near-east',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Intercession in the Ancient Near East',
+      url: 'https://www.bibleodyssey.org/dictionary/prayer/',
+      description: 'Study of the power of intercession in covenant theology, especially the role of mediators standing between God and the people.',
+    },
+  ],
+
   sections: [
     /* ─── Deuteronomy 9:1–3 — Crossing Jordan ──────────────────────────── */
     {
@@ -154,7 +181,7 @@ export const DEUTERONOMY_9: RichChapterContent = {
           kind: 'commentary',
           id: 'c-righteousness',
           html:
-            'Moses uses the strongest warning he can muster: <em>speak not thou in thine heart.</em> Don&apos;t even let the thought begin. The moment you start to believe your victory is your own righteousness, you have fallen into the trap that ruins everything. This is not a caution for humility&apos;s sake. It is a diagnosis of spiritual disaster. The moment you believe your inheritance is your wage, you stop receiving grace and start trying to earn what is already yours. The whole covenant collapses.',
+            'Moses uses the strongest warning he can muster: <em>speak not thou in thine heart.</em> Don&apos;t even let the thought begin. The moment you start to believe your victory is your own righteousness, you have fallen into the trap that ruins everything [res:election-grace-not-merit-bible-odyssey]. This is not a caution for humility&apos;s sake. It is a diagnosis of spiritual disaster. The moment you believe your inheritance is your wage, you stop receiving grace and start trying to earn what is already yours. The whole covenant collapses.',
         },
         {
           kind: 'commentary',
@@ -176,7 +203,7 @@ export const DEUTERONOMY_9: RichChapterContent = {
           id: 'c-oath',
           title: 'Christ Connection — The Oath That Holds',
           html:
-            'Moses says the land is given to perform God&apos;s word that He sware to Abraham, Isaac, and Jacob. Paul picks that up centuries later: &ldquo;Now to Abraham and his seed were the promises made… The covenant, that was confirmed before of God in Christ&rdquo; (Gal. 3:16, 17). The oath to the fathers is not a promise to their performance — it is a promise about the seed, about Christ. The land is given not because Israel deserves it, but because God is faithful to what He swore. And that faithfulness runs all the way forward to the cross.',
+            'Moses says the land is given to perform God&apos;s word that He sware to Abraham, Isaac, and Jacob [res:sefaria-deuteronomy-9]. Paul picks that up centuries later: &ldquo;Now to Abraham and his seed were the promises made… The covenant, that was confirmed before of God in Christ&rdquo; (Gal. 3:16, 17). The oath to the fathers is not a promise to their performance — it is a promise about the seed, about Christ. The land is given not because Israel deserves it, but because God is faithful to what He swore. And that faithfulness runs all the way forward to the cross.',
         },
         {
           kind: 'carry',
@@ -474,7 +501,7 @@ export const DEUTERONOMY_9: RichChapterContent = {
           kind: 'commentary',
           id: 'c-pray-for-them',
           html:
-            'Notice what Moses does not do. He does not try to defend Israel&apos;s righteousness. He doesn&apos;t argue, "They aren&apos;t really that bad." He does not appeal to their merit. He appeals to God&apos;s name, God&apos;s oath, God&apos;s character. <em>Destroy not thy people and thine inheritance.</em> They belong to you. You redeemed them. You brought them out with a mighty hand. Remember your servants — Abraham, Isaac, and Jacob. Look not unto their stubbornness, their wickedness, their sin. Look unto your own promise.',
+            'Notice what Moses does not do. He does not try to defend Israel&apos;s righteousness. He doesn&apos;t argue, "They aren&apos;t really that bad." He does not appeal to their merit. He appeals to God&apos;s name, God&apos;s oath, God&apos;s character [res:intercession-prayer-ancient-near-east]. <em>Destroy not thy people and thine inheritance.</em> They belong to you. You redeemed them. You brought them out with a mighty hand. Remember your servants — Abraham, Isaac, and Jacob. Look not unto their stubbornness, their wickedness, their sin. Look unto your own promise [res:election-grace-not-merit-bible-odyssey].',
         },
         {
           kind: 'commentary',

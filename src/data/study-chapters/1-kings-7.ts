@@ -258,6 +258,18 @@ export const KINGS_1_7: RichChapterContent = {
             plain(27, 'And he made ten bases of brass; four cubits was the length of one base, and four cubits the breadth thereof, and three cubits the height of it.'),
             plain(28, 'And the work of the bases was on this manner: they had borders, and the borders were between the ledges:'),
             plain(29, 'And on the borders that were between the ledges were lions, oxen, and cherubims: and upon the ledges there was a base above: and beneath the lions and oxen were certain additions made of thin work.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-7-mid-29',
+          html:
+            '<p>Opposition rises, exposing the tensions between faith and the throne&apos;s ambitions.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(30, 'And every base had four brasen wheels, and plates of brass: and the four corners thereof had undersetters: under the laver were undersetters molten, beside each addition.'),
             plain(31, 'And the mouth of it within the chapiter and above was a cubit: but the mouth thereof was round after the work of the base, a cubit and an half: and also upon the mouth of it were gravings with their borders foursquare, not round.'),
             plain(32, 'And under the borders were four wheels; and the axletrees of the wheels were joined to the base: and the height of a wheel was a cubit and half a cubit.'),

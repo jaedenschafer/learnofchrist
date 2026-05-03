@@ -39,6 +39,18 @@ export const JOB_34: RichChapterContent = {
             plain(2, 'Hear my words, O ye wise men; and give ear unto me, ye that have knowledge.'),
             plain(3, 'For the ear trieth words, as the mouth tasteth meat.'),
             plain(4, 'Let us choose to us judgment: let us know among ourselves what is good.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job34a-mid-hear-justice',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 34,
+          lines: [
             plain(5, 'For Job hath said, I am righteous: and God hath taken away my judgment.'),
             plain(6, 'Should I lie against my right? my wound is incurable without transgression.'),
             plain(7, 'What man is like Job, who drinketh up scorning like water?'),
@@ -58,6 +70,18 @@ export const JOB_34: RichChapterContent = {
             plain(9, 'For he hath said, It profiteth a man nothing that he should delight himself with God.'),
             plain(10, 'Therefore hearken unto me, ye men of understanding: far be it from God, that he should do wickedness; and from the Almighty, that he should commit iniquity.'),
             plain(11, 'For the work of a man shall he render unto him, and cause every man to find according to his ways.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job34b-mid-work-recompense',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 34,
+          lines: [
             plain(12, 'Yea, surely God will not do wickedly, neither will the Almighty pervert judgment.'),
             plain(13, 'Who hath given him a charge over the earth? or who hath disposed the whole world?'),
             plain(14, 'If he set his heart upon man, if he gather unto himself his spirit and his breath;'),
@@ -111,6 +135,18 @@ export const JOB_34: RichChapterContent = {
             plain(16, 'If now thou hast understanding, hear this: hearken to the voice of my words.'),
             plain(17, 'Shall even he that hateth right govern? and wilt thou condemn him that is most just?'),
             plain(18, 'Is it fit to say to a king, Thou art wicked? and to princes, Ye are ungodly?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job34c-mid-heart-integrity',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 34,
+          lines: [
             plain(19, 'How much less to him that accepteth not the persons of princes, nor regardeth the rich more than the poor? for they all are the work of his hands.'),
             plain(20, 'In a moment they shall die, and the people shall be troubled at midnight, and pass away: and the mighty shall be taken away without hand.'),
             plain(21, 'For his eyes are upon the ways of man, and he seeth all his goings.'),
@@ -131,6 +167,18 @@ export const JOB_34: RichChapterContent = {
             plain(24, 'He shall break in pieces mighty men without number, and set others in their stead.'),
             plain(25, 'Therefore he knoweth their works, and he overturneth them in the night, so that they are destroyed.'),
             plain(26, 'He striketh them as wicked men in the sight of others;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job34d-mid-multiply-mercy',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 34,
+          lines: [
             plain(27, 'Because they turned back from him, and would not consider any of his ways:'),
             plain(28, 'So that they caused the cry of the poor to come unto him, and he heard the cry of the afflicted.'),
             plain(29, 'When he giveth quietness, who then can make trouble? and when he hideth his face, who then can behold him? whether it be done against a nation, or against a man only:'),
@@ -184,6 +232,18 @@ export const JOB_34: RichChapterContent = {
             plain(31, 'Surely it is meet to be said unto God, I have borne chastisement, I will not offend any more:'),
             plain(32, 'That which I see not, teach thou me: if I have done iniquity, I will do no more.'),
             plain(33, 'Should it be according to thy mind? he will recompense it, whether thou refuse, or whether thou choose: but speak.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job34e-mid-teach-understand',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 34,
+          lines: [
             plain(34, 'Therefore speak men of understanding unto me, and let a wise man hearken unto me.'),
             plain(35, 'Job hath spoken without knowledge, and his words were without wisdom.'),
             plain(36, 'My desire is that Job may be tried unto the end because of his answers for wicked men.'),

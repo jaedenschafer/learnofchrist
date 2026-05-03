@@ -205,6 +205,18 @@ export const KINGS_1_21: RichChapterContent = {
                 t(', before him, to bear witness against him, saying, Thou didst blaspheme God and the king. Then carry him out, and stone him, that he may die.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-21-mid-10',
+          html:
+            '<p>Opposition rises, exposing the tensions between faith and the throne&apos;s ambitions.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             plain(11, 'And the men of his city, even the elders and the nobles who were the inhabitants thereof, did as Jezebel had sent unto them, and as it was written in the letters which she had sent unto them.'),
             plain(12, 'They proclaimed a fast, and set Naboth on high among the people.'),
             plain(13, 'And there came in two men, children of Belial, and sat before him: and the men of Belial witnessed against him, even against Naboth, in the presence of the people, saying, Naboth did blaspheme God and the king. Then they carried him forth out of the city, and stoned him with stones, that he died.'),
@@ -274,6 +286,18 @@ export const KINGS_1_21: RichChapterContent = {
                 t('And the word of the Lord came to Elijah the Tishbite, saying,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-21-mid-17',
+          html:
+            '<p>Opposition rises, exposing the tensions between faith and the throne&apos;s ambitions.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             {
               number: 18,
               spans: [
@@ -369,6 +393,18 @@ export const KINGS_1_21: RichChapterContent = {
                 t('But there was none like unto Ahab, which did sell himself to work evil in the sight of the Lord, whom Jezebel his wife stirred up.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-21-mid-25',
+          html:
+            '<p>The kingdom solidifies as Solomon consolidates power and establishes his regime.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             {
               number: 26,
               spans: [

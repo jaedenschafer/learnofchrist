@@ -175,6 +175,18 @@ export const JOB_38: RichChapterContent = {
             plain(32, 'Canst thou bring forth Mazzaroth in his season? or canst thou guide Arcturus with his sons?'),
             plain(33, 'Knowest thou the ordinances of heaven? canst thou set the dominion thereof in the earth?'),
             plain(34, 'Canst thou lift up thy voice to the clouds, that abundance of waters may cover thee?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job38-mid-thunder-voice',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 38,
+          lines: [
             plain(35, 'Canst thou send lightnings, that they may go, and say unto thee, Here we are?'),
             plain(36, 'Who hath put wisdom in the inward parts? or who hath given understanding to the heart?'),
             plain(37, 'Who can number the clouds in wisdom? or who can stay the bottles of heaven,'),

@@ -58,6 +58,18 @@ export const JOB_40: RichChapterContent = {
             plain(8, 'Wilt thou also disannul my judgment? wilt thou condemn me, that thou mayest be righteous?'),
             plain(9, 'Or hast thou an arm like God? or canst thou thunder with a voice like him?'),
             plain(10, 'Deck thyself now with majesty and excellency; and array thyself with glory and beauty.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job40-mid-behemoth-strength',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 40,
+          lines: [
             plain(11, 'Cast abroad the rage of thy wrath: and behold every one that is proud, and abase him.'),
             plain(12, 'Look on every one that is proud, and bring him low; and tread down the wicked in their place.'),
             plain(13, 'Hide them in the dust together; and bind their faces in secret.'),

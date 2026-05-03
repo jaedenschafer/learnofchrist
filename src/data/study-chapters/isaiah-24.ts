@@ -33,6 +33,18 @@ export const ISAIAH_24: RichChapterContent = {
             plain(1, 'Behold, the Lord maketh the earth empty, and maketh it waste, and turneth it upside down, and scattereth abroad the inhabitants thereof.'),
             plain(2, 'And it shall be, as with the people, so with the priest; as with the servant, so with his master; as with the maid, so with her mistress; as with the buyer, so with the seller; as with the lender, so with the borrower; as with the taker of usury, so with the giver of usury to him.'),
             plain(3, 'The land shall be utterly emptied, and utterly spoiled: for the Lord hath spoken this word.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-earth-judged',
+          html:
+            '<p>The earth is laid waste; inhabitants scattered. Yet a few will sing from the eastern sea when God gathers the faithful.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 24,
+          lines: [
             plain(4, 'The earth mourneth and fadeth away, the world languisheth and fadeth away, the haughty people of the earth do languish.'),
             plain(5, 'The earth also is defiled under the inhabitants thereof; because they have transgressed the laws, changed the ordinance, broken the everlasting covenant.'),
             plain(6, 'Therefore hath the curse devoured the earth, and they that dwell therein are desolate: therefore the inhabitants of the earth are burned, and few men left.'),

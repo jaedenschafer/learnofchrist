@@ -167,6 +167,18 @@ export const PROVERBS_1: RichChapterContent = {
             plain(21, 'She crieth in the chief place of concourse, in the openings of the gates: in the city she uttereth her words, saying,'),
             plain(22, 'How long, ye simple, will ye love simplicity? and the scorners delight in their scorning, and fools hate knowledge?'),
             plain(23, 'Turn you at my reproof: behold, I will pour out my spirit unto you, I will make known my words unto you.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov1-mid-fools-love',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(24, 'Because I have called, and ye refused; I have stretched out my hand, and no man regarded;'),
             plain(25, 'But ye have set at nought all my counsel, and would none of my reproof:'),
             plain(26, 'I also will laugh at your calamity; I will mock when your fear cometh;'),

@@ -43,6 +43,18 @@ export const KINGS_2_15: RichChapterContent = {
                 t('And he did that which was right in the sight of the Lord, according to all that his father Amaziah had done;'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-kings-15-mid-3',
+          html:
+            '<p>The narrative shifts from prophet to king, showing God working through different vessels.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 15,
+          lines: [
             plain(4, 'Save that the high places were not removed: the people sacrificed and burnt incense still on the high places.'),
             {
               number: 5,

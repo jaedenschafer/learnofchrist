@@ -33,6 +33,18 @@ export const EZEKIEL_37: RichChapterContent = {
             plain(1, 'The hand of the Lord was upon me, and carried me out in the spirit of the Lord, and set me down in the midst of the valley which was full of bones,'),
             plain(3, 'And he said unto me, Son of man, can these bones live? And I answered, O Lord God, thou knowest.'),
             plain(4, 'Again he said unto me, Prophesy upon these bones, and say unto them, O ye dry bones, hear the word of the Lord.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-bones-rise',
+          html:
+            '<p>Dry bones live, graves open, breath returns: the dead rise and know the Lord. Death is not the end of God&apos;s story.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 37,
+          lines: [
             plain(5, 'Thus saith the Lord God unto these bones; Behold, I will cause breath to enter into you, and ye shall live:'),
             plain(7, 'So I prophesied as I was commanded: and as I prophesied, there was a noise, and behold a shaking, and the bones came together, bone to his bone.'),
             plain(8, 'And when I beheld, lo, the sinews and the flesh came up upon them, and the skin covered them above: but there was no breath in them.'),

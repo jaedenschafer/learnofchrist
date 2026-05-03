@@ -151,6 +151,18 @@ export const JOB_29: RichChapterContent = {
             plain(19, 'My root was spread out by the waters, and the dew lay all night upon my branch:'),
             plain(20, 'My glory was fresh in me, and my bow was renewed in my hand.'),
             plain(21, 'Unto me men gave ear, and waited, and kept silence at my counsel.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job29-mid-blessing-glory',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 29,
+          lines: [
             plain(22, 'After my words they spake not again; and my speech dropped upon them.'),
             plain(23, 'And they waited for me as for the rain; and they opened their mouth wide as for the latter rain.'),
             plain(24, 'If I laughed on them, they believed it not; and the light of my countenance they cast not down.'),

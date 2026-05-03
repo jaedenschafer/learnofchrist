@@ -302,6 +302,18 @@ export const JOB_3: RichChapterContent = {
               ],
             },
             plain(22, 'I am not at ease, neither am I quiet, and rest cometh not: but trouble cometh.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job3-mid-light-shadow',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             {
               number: 23,
               spans: [

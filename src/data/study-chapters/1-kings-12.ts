@@ -55,6 +55,18 @@ export const KINGS_1_12: RichChapterContent = {
               3,
               'That they sent and called him. And Jeroboam and all the congregation of Israel came, and spake unto Rehoboam, saying,',
             ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-12-mid-3',
+          html:
+            '<p>A royal shift: the narrative moves from succession planning to operational rule.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             {
               number: 4,
               spans: [
@@ -155,6 +167,18 @@ export const KINGS_1_12: RichChapterContent = {
                 t('And the young men that were grown up with him spake unto him, saying, Thus shalt thou speak unto this people that spake unto thee, saying, Thy father made our yoke heavy, but make thou it lighter unto us; thus shalt thou say unto them, My little finger shall be thicker than my father&apos;s loins.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-12-mid-10',
+          html:
+            '<p>As the prophet emerges, God&apos;s word begins to shape the course of nations.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             {
               number: 11,
               spans: [

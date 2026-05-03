@@ -98,6 +98,18 @@ export const CHRONICLES_1_1: RichChapterContent = {
             plain(4, 'The sons of Noah; Shem, Ham, and Japheth.'),
             plain(5, 'The sons of Japheth; Gomer, and Magog, and Madai, and Javan, and Tubal, and Meshech, and Tiras.'),
             plain(6, 'And the sons of Gomer; Ashkenaz, and Riphath, and Togarmah.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-1-mid',
+          html:
+            '<p>This family boundary marks the line through which God&apos;s promises continued.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(7, 'And the sons of Javan; Elishah, and Tarshish, Kittim, and Dodanim.'),
             plain(8, 'The sons of Ham; Cush, and Mizraim, Put, and Canaan.'),
             plain(9, 'And the sons of Cush; Seba, and Havilah, and Sabta, and Raamah, and Sabteca. And the sons of Raamah; Sheba, and Dedan.'),
@@ -254,6 +266,18 @@ export const CHRONICLES_1_1: RichChapterContent = {
             plain(28, 'The sons of Abraham; Isaac, and Ishmael.'),
             plain(29, 'These are their generations: The firstborn of Ishmael, Nebaioth; then Kedar, and Adbeel, and Mibsam,'),
             plain(30, 'Mishma, and Dumah, Massa, Hadad, and Tema,'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-1-mid-30',
+          html:
+            '<p>These connections reveal how God&apos;s family plan unfolded across centuries.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(31, 'Jetur, Naphish, and Kedemah. These are the sons of Ishmael.'),
             plain(32, 'Now the sons of Keturah, Abraham\'s concubine: she bare Zimran, and Jokshan, and Medan, and Midian, and Ishbak, and Shuah. And the sons of Jokshan; Sheba, and Dedan.'),
             plain(33, 'And the sons of Midian; Ephah, and Epher, and Hanoch, and Abida, and Eldaah. All these are the sons of Keturah.'),

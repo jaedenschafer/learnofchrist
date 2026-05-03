@@ -140,6 +140,18 @@ export const CHRONICLES_2_23: RichChapterContent = {
                 t('And the Levites shall compass the king round about, every man with his weapons in his hand; and whosoever else cometh into the house, he shall be put to death: but be ye with the king when he cometh in, and when he goeth out.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-chronicles-23-mid-7',
+          html:
+            '<p>The construction progresses: each phase brought the temple closer to completion.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             {
               number: 8,
               spans: [

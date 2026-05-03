@@ -147,6 +147,18 @@ export const KINGS_1_4: RichChapterContent = {
             ),
             plain(14, 'Ahinadab the son of Iddo had Mahanaim:'),
             plain(15, 'Ahimaaz was in Naphtali; he also took Basmath the daughter of Solomon to wife:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-4-mid-15',
+          html:
+            '<p>A royal shift: the narrative moves from succession planning to operational rule.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(
               16,
               'Baanah the son of Hushai, in Asher and in Aloth:'

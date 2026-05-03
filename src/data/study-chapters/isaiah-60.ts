@@ -33,6 +33,18 @@ export const ISAIAH_60: RichChapterContent = {
             plain(2, 'For, behold, the darkness shall cover the earth, and gross darkness the people: but the Lord shall arise upon thee, and his glory shall be seen upon thee.'),
             plain(3, 'And the Gentiles shall come to thy light, and kings to the brightness of thy rising.'),
             plain(4, 'Lift up thine eyes round about, and see: all they gather themselves together, they come to thee: thy sons shall come from far, and thy daughters shall be nursed at thy side.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-light-shines',
+          html:
+            '<p>Arise and shine; your light has come. Nations walk in your brightness; the Lord is your everlasting light.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 60,
+          lines: [
             plain(5, 'Then thou shalt see, and flow together, and thine heart shall fear, and be enlarged; because the abundance of the sea shall be converted unto thee, the forces of the Gentiles shall come unto thee.'),
             plain(6, 'The multitude of camels shall cover thee, the dromedaries of Midian and Ephah; all they from Sheba shall come: they shall bring gold and incense; and they shall shew forth the praises of the Lord.'),
             plain(7, 'All the flocks of Kedar shall be gathered together unto thee, the rams of Nebaioth shall minister unto thee: they shall come up with acceptance on mine altar, and I will glorify the house of my glory.'),
@@ -91,6 +103,18 @@ export const ISAIAH_60: RichChapterContent = {
             plain(15, 'Whereas thou hast been forsaken and hated, so that no man went through thee, I will make thee an eternal excellency, a joy of many generations.'),
             plain(16, 'Thou shalt also suck the milk of the Gentiles, and shalt suck the breast of kings: and thou shalt know that I the Lord am thy Saviour and thy Redeemer, the mighty One of Jacob.'),
             plain(17, 'For brass I will bring gold, and for iron I will bring silver, and for wood brass, and for stones iron: I will also make thy officers peace, and thine exactors righteousness.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-light-shines-2',
+          html:
+            '<p>Instead of bronze, I will bring gold; instead of iron, silver. Peace as your overseer, righteousness as your leader.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 60,
+          lines: [
             plain(19, 'The sun shall be no more thy light by day; neither for brightness shall the moon give light unto thee: but the Lord shall be unto thee an everlasting light, and thy God thy glory.'),
             plain(20, 'Thy sun shall no more go down; neither shall thy moon withdraw itself: for the Lord shall be thine everlasting light, and the days of thy mourning shall be ended.'),
             plain(21, 'Thy people also shall be all righteous: they shall inherit the land for ever, the branch of my planting, the work of my hands, that I may be glorified.'),

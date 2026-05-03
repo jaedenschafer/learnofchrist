@@ -45,6 +45,18 @@ export const CHRONICLES_1_7: RichChapterContent = {
             plain(1, 'Now the sons of Issachar were, Tola, and Puah, Jashub, and Shimrom, four.'),
             plain(2, 'And the sons of Tola; Uzzi, and Rephaiah, and Jeriel, and Jahmai, and Jibsam, and Shemuel, heads of their father&apos;s house of Tola: they were valiant men of might in their generations; whose number was in the days of David two and twenty thousand and six hundred.'),
             plain(3, 'And the sons of Uzzi; Izrahiah: and the sons of Izrahiah; Michael, and Obadiah, and Joel, Ishiah, five: all of them chief men.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-7-mid-3',
+          html:
+            '<p>These names represent the leaders and builders God raised up for specific roles.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(4, 'And with them, by their generations, after the house of their fathers, were bands of soldiers for war, six and thirty thousand men: for they had many wives and sons.'),
             plain(5, 'And their brethren among all the families of Issachar were valiant men of might, reckoned in all by genealogy fourscore and seven thousand.'),
             plain(6, 'The sons of Benjamin; Bela, and Becher, and Jediael, three.'),
@@ -120,6 +132,18 @@ export const CHRONICLES_1_7: RichChapterContent = {
             plain(13, 'The sons of Naphtali; Jahziel, and Guni, and Jezer, and Shallum, the sons of Bilhah.'),
             plain(14, 'The sons of Manasseh; Asriel, whom she bare: (but his concubine the Aramitess bare Machir the father of Gilead:'),
             plain(15, 'And Machir took to wife the sister of Huppim and Shuppim, whose sister&apos;s name was Maachah;) and the name of the second was Zelophehad: and Zelophehad had daughters.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-7-mid-15',
+          html:
+            '<p>These connections reveal how God&apos;s family plan unfolded across centuries.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(16, 'And Maachah the wife of Machir bare a son, and she called his name Peresh; and the name of his brother was Sheresh; and his sons were Ulam and Rakem.'),
             plain(17, 'And the sons of Ulam; Bedan. These were the sons of Gilead, the son of Machir, the son of Manasseh.'),
             plain(18, 'And his sister Hammoleketh bare Ishod, and Abiezer, and Mahlah.'),

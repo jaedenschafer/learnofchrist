@@ -130,6 +130,18 @@ export const CHRONICLES_2_10: RichChapterContent = {
                 t(', they will be thy servants for ever.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-chronicles-10-mid-7',
+          html:
+            '<p>The construction progresses: each phase brought the temple closer to completion.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             {
               number: 8,
               spans: [

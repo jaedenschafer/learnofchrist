@@ -19,6 +19,33 @@ export const DEUTERONOMY_10: RichChapterContent = {
     ref: 'Deuteronomy 10 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-deuteronomy-10',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 10',
+      url: 'https://www.sefaria.org/Deuteronomy.10',
+      description: 'Open-access source text and rabbinic commentary on covenant requirements, circumcision of the heart, and Israel&apos;s identity as the chosen people.',
+    },
+    {
+      id: 'circumcision-heart-theology-bible-odyssey',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Circumcision of the Heart',
+      url: 'https://www.bibleodyssey.org/dictionary/circumcision/',
+      description: 'Theological entry on the spiritual meaning of circumcision as removal of resistance and hardness, central to covenant transformation.',
+    },
+    {
+      id: 'stranger-hospitality-ancient-israel-law',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Care for the Stranger',
+      url: 'https://www.bibleodyssey.org/dictionary/foreigner/',
+      description: 'Study of ancient Near Eastern hospitality law and Israel&apos;s duty to love the resident alien as rooted in their experience in Egypt.',
+    },
+  ],
+
   sections: [
     /* ─── Deuteronomy 10:1–5 — New Tablets and the Ark ───────────────────── */
     {
@@ -336,7 +363,7 @@ export const DEUTERONOMY_10: RichChapterContent = {
           kind: 'commentary',
           id: 'd10-require',
           html:
-            'This is one of the great ethical summaries of the Old Testament. It is not: bring more sacrifices. Make your clothes nicer. Memorize more law. The requirement is five verbs — fear, walk, love, serve, keep — and behind all of them, relationship. "With all thy heart and with all thy soul." This is not obedience from distance. It is obedience from love.',
+            'This is one of the great ethical summaries of the Old Testament [res:sefaria-deuteronomy-10]. It is not: bring more sacrifices. Make your clothes nicer. Memorize more law. The requirement is five verbs — fear, walk, love, serve, keep — and behind all of them, relationship. "With all thy heart and with all thy soul." This is not obedience from distance. It is obedience from love.',
         },
         {
           kind: 'hebrew',
@@ -463,7 +490,7 @@ export const DEUTERONOMY_10: RichChapterContent = {
           kind: 'commentary',
           id: 'd10-circumcise',
           html:
-            'Physical circumcision marked male Israelites as God&apos;s people. But Moses points inward: cut away the hardness that keeps you from hearing Him. Cut away the resistance, the pride, the part of you that argues back. A "circumcision made without hands… by the circumcision of Christ" is how Paul will describe it later (Colossians 2:11) — Jesus doing inwardly what the law could only mark outwardly.',
+            'Physical circumcision marked male Israelites as God&apos;s people. But Moses points inward: cut away the hardness that keeps you from hearing Him [res:circumcision-heart-theology-bible-odyssey]. Cut away the resistance, the pride, the part of you that argues back. A "circumcision made without hands… by the circumcision of Christ" is how Paul will describe it later (Colossians 2:11) — Jesus doing inwardly what the law could only mark outwardly.',
         },
         {
           kind: 'hebrew',
@@ -582,7 +609,7 @@ export const DEUTERONOMY_10: RichChapterContent = {
           kind: 'commentary',
           id: 'd10-egypt',
           html:
-            'Remember. You were foreigners once. You had no power, no inheritance, no standing. You depended on the kindness or indifference of a foreign king. And God loved you there, brought you out, set you free. Now, the command is: turn that love outward. Love the stranger as I loved you when you were strangers.',
+            'Remember. You were foreigners once. You had no power, no inheritance, no standing. You depended on the kindness or indifference of a foreign king. And God loved you there, brought you out, set you free [res:stranger-hospitality-ancient-israel-law]. Now, the command is: turn that love outward. Love the stranger as I loved you when you were strangers.',
         },
         {
           kind: 'hebrew',

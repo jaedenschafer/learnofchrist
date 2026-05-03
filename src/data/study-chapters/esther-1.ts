@@ -190,6 +190,18 @@ export const ESTHER_1: RichChapterContent = {
             plain(16, 'And Memucan answered before the king and the princes, Vashti the queen hath not done wrong to the king only, but also to all the princes, and to all the people that are in all the provinces of the king Ahasuerus.'),
             plain(17, 'For this deed of the queen shall come abroad unto all women, to make their husbands despise them, and to say, The king Ahasuerus commanded Vashti the queen to be brought in before him, but she came not.'),
             plain(18, 'Likewise shall the ladies of Persia and Media say this day unto all the king&apos;s princes, which have heard of the deed of the queen. Thus shall there arise too much contempt and wrath.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-queen-fall',
+          html:
+            '<p>Vashti&apos;s refusal costs her the throne. Sometimes saying no opens the way for God&apos;s next move, even in silence.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(19, 'If it please the king, let there go a royal commandment from him, and let it be written among the laws of the Persians and the Medes, that it be not altered; That Vashti come no more before the king: and let the king give her royal estate unto another that is better than she.'),
             plain(20, 'And when the king&apos;s decree which he shall make shall be published throughout all his kingdom, (for it is great,) all the wives shall give to their husbands honour, both to great and small.'),
             plain(21, 'And the saying pleased the king and the princes: and the king did according to the word of Memucan.'),

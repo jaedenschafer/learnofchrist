@@ -44,6 +44,18 @@ export const CHRONICLES_1_4: RichChapterContent = {
             plain(2, 'And Reaiah the son of Shobal begat Jahath; and Jahath begat Ahumai, and Lahad. These are the families of the Zorathites.'),
             plain(3, 'And these were of the father of Etam; Jezreel, and Ishma, and Idbash: and the name of their sister was Hazelelponi:'),
             plain(4, 'And Penuel was the father of Gedor, and Ezer the father of Hushah. These are the sons of Hur, the firstborn of Ephratah, the father of Bethlehem.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-4-mid-4',
+          html:
+            '<p>The genealogy traces how God preserved His people through generations and exile.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(5, 'And Ashur the father of Tekoa had two wives, Helah and Naarah.'),
             plain(6, 'And Naarah bare him Ahuzam, and Hepher, and Temeni, and Haahashtari. These were the sons of Naarah.'),
             plain(7, 'And the sons of Helah were, Zereth, and Jezoar, and Ethnan.'),
@@ -191,6 +203,18 @@ export const CHRONICLES_1_4: RichChapterContent = {
             plain(11, 'And Chelub the brother of Shuah begat Mehir, which was the father of Eshton.'),
             plain(12, 'And Eshton begat Beth-rapha, and Paseah, and Tehinnah the father of Ir-nahash. These are the men of Recah.'),
             plain(13, 'And the sons of Kenaz; Othniel, and Seraiah: and the sons of Othniel; Hathath.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-4-mid-13',
+          html:
+            '<p>The genealogy traces how God preserved His people through generations and exile.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(14, 'And Meonothai begat Ophrah: and Seraiah begat Joab, the father of the valley of Charashim; for they were craftsmen.'),
             plain(15, 'And the sons of Caleb the son of Jephunneh; Iru, Elah, and Naam: and the sons of Elah, even Kenaz.'),
             plain(16, 'And the sons of Jehaleleel; Ziph, and Ziphah, Tiria, and Asareel.'),

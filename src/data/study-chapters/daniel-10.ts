@@ -34,6 +34,18 @@ export const DANIEL_10: RichChapterContent = {
             plain(11, 'And he said unto me, O Daniel, a man greatly beloved, understand the words that I speak unto thee, and stand upright: for unto thee am I now sent. And when he had spoken this word unto me, I stood trembling.'),
             plain(12, 'Then said he unto me, Fear not, Daniel: for from the first day that thou didst set thine heart to understand, and to chasten thyself before thy God, thy words were heard: and I am come for thy words&apos; sake.'),
             plain(13, 'But the prince of the kingdom of Persia withstood me one and twenty days: but, lo, Michael, one of the chief princes, came to help me; and I remained there with the kings of Persia.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-struggle-prayer',
+          html:
+            '<p>Three weeks of fasting, then an angelic visitor confirms God heard from day one. Your prayers are never unheard.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             plain(14, 'Now I am come to make thee understand what shall befall thy people in the latter days: for yet the vision is for many days.'),
             plain(19, 'And said, O man greatly beloved, fear not: peace be unto thee, be strong, yea, be strong. And when he had spoken unto me, I was strengthened, and said, Let my lord speak; for thou hast strengthened me.'),
             plain(20, 'Then said he, Knowest thou wherefore I come unto thee? and now will I return to fight with the prince of Persia: and when I am gone forth, lo, the prince of Grecia shall come.'),

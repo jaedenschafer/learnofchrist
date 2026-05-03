@@ -64,6 +64,18 @@ export const KINGS_1_14: RichChapterContent = {
             plain(7, 'Go, tell Jeroboam, Thus saith the Lord God of Israel, Forasmuch as I exalted thee from among the people, and made thee prince over my people Israel,'),
             plain(8, 'And rent the kingdom away from the house of David, and gave it thee: and yet thou hast not been as my servant David, who kept my commandments, and who followed me with all his heart, to do that only which was right in mine eyes;'),
             plain(9, 'But hast done evil above all that were before thee: for thou hast gone and made thee other gods, and molten images, to provoke me to anger, and hast cast me behind thy back:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-14-mid-9',
+          html:
+            '<p>Opposition rises, exposing the tensions between faith and the throne&apos;s ambitions.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 14,
+          lines: [
             plain(10, 'Therefore, behold, I will bring evil upon the house of Jeroboam, and will cut off from Jeroboam him that pisseth against the wall, and him that is shut up and left in Israel, and will take away the remnant of the house of Jeroboam, as a man taketh away dung, till it be all gone.'),
             plain(11, 'Him that dieth of Jeroboam in the city shall the dogs eat; and him that dieth in the field shall the fowls of the air eat: for the Lord hath spoken it.'),
             plain(12, 'Arise thou therefore, get thee to thine own house: and when thy feet enter into the city, the child shall die.'),
@@ -178,6 +190,18 @@ export const KINGS_1_14: RichChapterContent = {
             plain(25, 'And it came to pass in the fifth year of king Rehoboam, that Shishak king of Egypt came up against Jerusalem:'),
             plain(26, 'And he took away the treasures of the house of the Lord, and the treasures of the king&apos;s house; he even took away all: and he took away all the shields of gold which Solomon had made.'),
             plain(27, 'And king Rehoboam made in their stead brasen shields, and committed them unto the hands of the chief of the guard, which kept the door of the king&apos;s house.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-14-mid-27',
+          html:
+            '<p>A royal shift: the narrative moves from succession planning to operational rule.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 14,
+          lines: [
             plain(28, 'And it was so, when the king went into the house of the Lord, that the guard bare them, and brought them back into the guard chamber.'),
             plain(29, 'Now the rest of the acts of Rehoboam, and all that he did, are they not written in the book of the chronicles of the kings of Judah?'),
             plain(30, 'And there was war between Rehoboam and Jeroboam all their days.'),

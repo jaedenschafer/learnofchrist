@@ -127,6 +127,18 @@ export const JOB_17: RichChapterContent = {
             plain(10, 'But as for you all, do ye return, and come now: for I cannot find one wise man among you.'),
             plain(11, 'My days are past, my purposes are broken off, even the thoughts of my heart.'),
             plain(12, 'They change the night into day: the light is short because of darkness.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job17-mid-plea-grave',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 17,
+          lines: [
             plain(13, 'If I wait, the grave is mine house: I have made my bed in the darkness.'),
             plain(14, 'I have said to corruption, Thou art my father: to the worms, Ye are my mother and my sister.'),
             plain(15, 'Where is now my hope? and as for my hope, who shall see it?'),

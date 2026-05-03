@@ -265,6 +265,18 @@ export const KINGS_1_1: RichChapterContent = {
                 t('And she said unto him, My lord, thou swarest by the Lord thy God unto thine handmaid, saying, Assuredly Solomon thy son shall reign after me, and he shall sit upon my throne.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-1-mid-17',
+          html:
+            '<p>Opposition rises, exposing the tensions between faith and the throne&apos;s ambitions.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             {
               number: 18,
               spans: [
@@ -455,6 +467,18 @@ export const KINGS_1_1: RichChapterContent = {
                 t('Then ye shall come up after him, that he may come and sit upon my throne; for he shall be king in my stead: and I have appointed him to be ruler over Israel and over Judah.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-1-mid-36',
+          html:
+            '<p>The kingdom solidifies as Solomon consolidates power and establishes his regime.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             {
               number: 37,
               spans: [
@@ -609,6 +633,18 @@ export const KINGS_1_1: RichChapterContent = {
                 t('And all the guests that were with Adonijah were afraid, and rose up, and went every man his way.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-1-mid-49',
+          html:
+            '<p>The kingdom solidifies as Solomon consolidates power and establishes his regime.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             {
               number: 50,
               spans: [

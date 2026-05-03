@@ -146,6 +146,18 @@ export const JOB_19: RichChapterContent = {
               ],
             },
             plain(16, 'I called my servant, and he gave me no answer; I intreated him with my mouth.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job19-mid-pity-avenger',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 19,
+          lines: [
             plain(17, 'My breath is strange to my wife, though I intreated for the children&apos;s sake of mine own body.'),
             {
               number: 18,
@@ -217,6 +229,18 @@ export const JOB_19: RichChapterContent = {
                 t('Oh that my words were now written! oh that they were printed in a book! '),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job19b-mid-flesh-witness',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 19,
+          lines: [
             {
               number: 24,
               spans: [

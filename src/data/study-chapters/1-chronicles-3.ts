@@ -233,6 +233,18 @@ export const CHRONICLES_1_3: RichChapterContent = {
               ],
             },
             plain(20, 'And Hashubah, and Ohel, and Berechiah, and Hasadiah, Jushab-hesed, five.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-3-mid-20',
+          html:
+            '<p>These names represent the leaders and builders God raised up for specific roles.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(21, 'And the sons of Hananiah; Pelatiah, and Jesaiah: the sons of Rephaiah, the sons of Arnan, the sons of Obadiah, the sons of Shechaniah.'),
             plain(22, 'And the sons of Shechaniah; Shemaiah: and the sons of Shemaiah; Hattush, and Igal, and Bariah, and Neariah, and Shaphat, six.'),
             plain(23, 'And the sons of Neariah; Elioenai, and Hezekiah, and Azrikam, three.'),

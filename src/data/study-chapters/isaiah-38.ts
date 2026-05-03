@@ -49,6 +49,18 @@ export const ISAIAH_38: RichChapterContent = {
             plain(6, 'And I will deliver thee and this city out of the hand of the king of Assyria: and I will defend this city.'),
             plain(7, 'And this shall be a sign unto thee from the Lord, that the Lord will do this thing that he hath spoken;'),
             plain(8, 'Behold, I will bring again the shadow of the degrees, which is gone down in the sun dial of Ahaz, ten degrees backward. So the sun returned ten degrees, by which degrees it was gone down.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-death-reprieve',
+          html:
+            '<p>Hezekiah faces death, weeps, prays—and the Lord grants fifteen more years. Tears matter; God listens.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 38,
+          lines: [
             plain(9, 'The writing of Hezekiah king of Judah, when he had been sick, and was recovered of his sickness:'),
             plain(10, 'I said in the cutting off of my days, I shall go to the gates of the grave: I am deprived of the residue of my years.'),
             plain(11, 'I said, I shall not see the Lord, even the Lord, in the land of the living: I shall behold man no more with the inhabitants of the world.'),

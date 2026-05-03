@@ -65,6 +65,18 @@ export const CHRONICLES_1_6: RichChapterContent = {
                 t(' begat Phinehas, and Phinehas begat Abishua,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-6-mid-4',
+          html:
+            '<p>The genealogy traces how God preserved His people through generations and exile.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(
               5,
               'And Abishua begat Bukki, and Bukki begat Uzzi,'
@@ -455,6 +467,18 @@ export const CHRONICLES_1_6: RichChapterContent = {
               16,
               'And Azariah begat Amariah, and Amariah begat Ahitub,'
             ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-6-mid-16',
+          html:
+            '<p>These names represent the leaders and builders God raised up for specific roles.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(
               17,
               'And Ahitub begat Zadok, and Zadok begat Shallum,'

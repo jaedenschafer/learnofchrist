@@ -115,6 +115,18 @@ export const KINGS_1_22: RichChapterContent = {
                 t('Then the king of Israel called an officer, and said, Hasten hither Micaiah the son of Imlah.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-22-mid-9',
+          html:
+            '<p>The reign&apos;s glory peaks, revealing both the height of human achievement and its limits.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 22,
+          lines: [
             {
               number: 10,
               spans: [

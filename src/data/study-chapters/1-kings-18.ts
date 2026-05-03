@@ -45,6 +45,18 @@ export const KINGS_1_18: RichChapterContent = {
             plain(1, 'And it came to pass after many days, that the word of the Lord came to Elijah in the third year, saying, Go, shew thyself unto Ahab; and I will send rain upon the earth.'),
             plain(2, 'And Elijah went to shew himself unto Ahab. And there was a sore famine in Samaria.'),
             plain(3, 'And Ahab called Obadiah, which was the governor of his house. (Now Obadiah feared the Lord greatly:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-18-mid-3',
+          html:
+            '<p>As the prophet emerges, God&apos;s word begins to shape the course of nations.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             plain(4, 'For it was so, when Jezebel cut off the prophets of the Lord, that Obadiah took an hundred prophets, and hid them by fifty in a cave, and fed them with bread and water.)'),
             plain(5, 'And Ahab said unto Obadiah, Go into the land, unto all fountains of water, and unto all brooks: peradventure we may find grass to save the horses and mules alive, that we lose not all the beasts.'),
             plain(6, 'So they divided the land between them to pass throughout it: Ahab went one way by himself, and Obadiah went another way by himself.'),
@@ -131,6 +143,18 @@ export const KINGS_1_18: RichChapterContent = {
             plain(18, 'And he answered, I have not troubled Israel; but thou, and thy father&apos;s house, in that ye have forsaken the commandments of the Lord, and thou hast followed Baalim.'),
             plain(19, 'Now therefore send, and gather to me all Israel unto mount Carmel, and the prophets of Baal four hundred and fifty, and the prophets of the groves four hundred, which eat at Jezebel&apos;s table.'),
             plain(20, 'So Ahab sent unto all the children of Israel, and gathered the prophets together unto mount Carmel.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-kings-18-mid-20',
+          html:
+            '<p>The kingdom solidifies as Solomon consolidates power and establishes his regime.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             plain(21, 'And Elijah came unto all the people, and said, How long halt ye between two opinions? if the Lord be God, follow him: but if Baal, then follow him. And the people answered him not a word.'),
             plain(22, 'Then said Elijah unto the people, I, even I only, remain a prophet of the Lord; but Baal&apos;s prophets are four hundred and fifty men.'),
             plain(23, 'Let them therefore give us two bullocks; and let them choose one bullock for themselves, cut it in pieces, lay it on wood, put no fire under: and I will dress the other bullock, and lay it on wood, and put no fire under:'),

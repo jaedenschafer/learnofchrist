@@ -113,6 +113,18 @@ export const CHRONICLES_1_9: RichChapterContent = {
                 t('And their brethren, heads of the houses of their fathers, a thousand and seven hundred and threescore; very able men for the work of the service of the house of God.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-9-mid-13',
+          html:
+            '<p>The genealogy traces how God preserved His people through generations and exile.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             {
               number: 14,
               spans: [
@@ -338,6 +350,18 @@ export const CHRONICLES_1_9: RichChapterContent = {
                 t('Some of them also were appointed to oversee the vessels, and all the instruments of the sanctuary, and the fine flour, and the wine, and the oil, and the frankincense, and the spices.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-9-mid-29',
+          html:
+            '<p>This family boundary reveals the line through which God&apos;s covenant promises continued.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             {
               number: 30,
               spans: [

@@ -212,6 +212,18 @@ export const KINGS_2_16: RichChapterContent = {
                 t('And when the king was come from Damascus, the king saw the altar: and the king approached to the altar, and offered upon it.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-kings-16-mid-12',
+          html:
+            '<p>The end approaches, and judgment falls—yet grace finds a remnant.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 16,
+          lines: [
             {
               number: 13,
               spans: [

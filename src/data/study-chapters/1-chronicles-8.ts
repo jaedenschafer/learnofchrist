@@ -94,6 +94,18 @@ export const CHRONICLES_1_8: RichChapterContent = {
             plain(9, 'And he begat of Hodesh his wife, Jobab, and Zibia, and Mesha, and Malcham,'),
             plain(10, 'And Jeuz, and Shachia, and Mirma. These were his sons, heads of the fathers.'),
             plain(11, 'And of Hushim he begat Abitub, and Elpaal.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-8-mid-11',
+          html:
+            '<p>These connections reveal how God&apos;s family plan unfolded across centuries.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(12, 'The sons of Elpaal; Eber, and Misham, and Shamed, who built Ono, and Lod, with the towns thereof:'),
             plain(13, 'Beriah also, and Shema, who were heads of the fathers of the inhabitants of Aijalon, who drove away the inhabitants of Gath:'),
             plain(14, 'And Ahio, Shashak, and Jeremoth,'),
@@ -155,6 +167,18 @@ export const CHRONICLES_1_8: RichChapterContent = {
             plain(22, 'And Ishpan, and Eber, and Eliel,'),
             plain(23, 'And Abdon, and Zichri, and Hanan,'),
             plain(24, 'And Hananiah, and Elam, and Antothijah,'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-8-mid-24',
+          html:
+            '<p>This family boundary reveals the line through which God&apos;s covenant promises continued.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(25, 'And Iphedeiah, and Penuel, the sons of Shashak;'),
             plain(26, 'And Shamsherai, and Shehariah, and Athaliah,'),
             plain(27, 'And Jaareshiah, and Eliah, and Zichri, the sons of Jeroham.'),

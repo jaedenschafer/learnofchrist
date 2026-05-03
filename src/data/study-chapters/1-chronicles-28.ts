@@ -99,6 +99,18 @@ export const CHRONICLES_1_28: RichChapterContent = {
                 t('Howbeit the Lord God of Israel chose me before all the house of my father to be king over Israel for ever: for he hath chosen Judah to be the ruler; and of the house of Judah, the house of my father; and among the sons of my father he liked me to make me king over all Israel:'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-28-mid-4',
+          html:
+            '<p>These connections reveal how God&apos;s family plan unfolded across centuries.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 28,
+          lines: [
             {
               number: 5,
               spans: [

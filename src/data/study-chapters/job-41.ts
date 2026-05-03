@@ -108,6 +108,18 @@ export const JOB_41: RichChapterContent = {
             plain(13, 'Who can discover the face of his garment? or who can come to him with his double bridle?'),
             plain(14, 'Who can open the doors of his face? his teeth are terrible round about.'),
             plain(15, 'His scales are his pride, shut up together as with a close seal.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job41-mid-leviathan-king',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 41,
+          lines: [
             plain(16, 'One is so near to another, that no air can come between them.'),
             plain(17, 'They are joined one to another, they stick together, that they cannot be sundered.'),
             plain(18, 'By his neesings a light doth shine, and his eyes are like the eyelids of the morning.'),

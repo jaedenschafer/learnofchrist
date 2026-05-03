@@ -133,6 +133,18 @@ export const ISAIAH_30: RichChapterContent = {
             plain(20, 'And though the Lord give you the bread of adversity, and the water of affliction, yet shall not thy teachers be removed into a corner any more, but thine eyes shall see thy teachers:'),
             plain(21, 'And thine ears shall hear a word behind thee, saying, This is the way, walk ye in it, when ye turn to the right hand, and when ye turn to the left.'),
             plain(22, 'Ye shall defile also the covering of thy graven images of silver, and the golden ornaments of thy images: thou shalt cast them away as a menstruous cloth; thou shalt say unto it, Get thee hence.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-teacher-voice',
+          html:
+            '<p>Your Teacher will guide you; His light goes ahead. When you stray, a voice says, &quot;This is the way.&quot;</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 30,
+          lines: [
             plain(23, 'Then shall he give the rain of thy seed, that thou sowest the ground withal; and bread of the increase of the earth, and it shall be fat and plenteous: in that day shall thy cattle feed in large pastures.'),
             plain(24, 'The oxen likewise and the young asses that ear the ground shall eat clean provender, which hath been winnowed with the shovel and with the fan.'),
             plain(25, 'And there shall be upon every high mountain, and upon every high hill, rivers and streams of waters in the day of the great slaughter, when the towers fall.'),

@@ -80,6 +80,18 @@ export const KINGS_2_9: RichChapterContent = {
               'And when he came, behold, the captains of the host were sitting: and he said, I have an errand to thee, O captain. And Jehu said, Unto which of all us? And he said, To thee, O captain.'
             ),
             plain(6, 'And he arose, and went into the house; and he poured the oil on his head, and said unto him, Thus saith the Lord God of Israel, I have anointed thee king over the people of the Lord, even over Israel.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-kings-9-mid-6',
+          html:
+            '<p>The siege turns, showing how faith and strategy interweave in critical moments.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             {
               number: 7,
               spans: [
@@ -324,6 +336,18 @@ export const KINGS_2_9: RichChapterContent = {
               'And as Jehu entered in at the gate, she said, Had Zimri peace, who slew his master? And it came to pass, when Jehu lifted up his face to the window, he said, Who is on my side? who? And there looked out to him two or three eunuchs.'
             ),
             plain(32, 'And he said, Throw her down. And they threw her down: and some of her blood was sprinkled on the wall, and on the horses: and he trode her under foot.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-kings-9-mid-32',
+          html:
+            '<p>The siege turns, showing how faith and strategy interweave in critical moments.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(
               33,
               'And when he was come in, he did eat and drink, and said, Go, see now this cursed woman, and bury her: for she is a king&apos;s daughter.'

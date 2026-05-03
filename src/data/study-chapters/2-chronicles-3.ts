@@ -85,6 +85,18 @@ export const CHRONICLES_2_3: RichChapterContent = {
             plain(3, 'Now these are the things wherein Solomon was instructed for the building of the house of God. The length by cubits after the first measure was threescore cubits, and the breadth was twenty cubits.'),
             plain(4, 'And the porch that was in the front of the house, the length of it was according to the breadth of the house, twenty cubits, and the height was an hundred and twenty: and he overlaid it within with pure gold.'),
             plain(5, 'And the greater house he cieled with fir tree, which he overlaid with fine gold, and set thereon palm trees and chains.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-chronicles-3-mid-5',
+          html:
+            '<p>A turning point shifts focus from building to sustaining what was built.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             {
               number: 6,
               spans: [

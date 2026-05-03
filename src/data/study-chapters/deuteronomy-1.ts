@@ -42,6 +42,33 @@ export const DEUTERONOMY_1: RichChapterContent = {
     ref: 'Deuteronomy 1 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-deuteronomy-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 1 — Translations & Commentaries',
+      url: 'https://www.sefaria.org/Deuteronomy.1',
+      description: 'Open-access medieval and modern Jewish commentaries on the wilderness recap and faithlessness at Kadesh-Barnea.',
+    },
+    {
+      id: 'bible-odyssey-kadesh-barnea',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Kadesh-Barnea',
+      url: 'https://www.bibleodyssey.org/dictionary/kadesh-barnea/',
+      description: 'The site of Israel&apos;s faithless report and the pivotal moment that cost a generation the Promised Land.',
+    },
+    {
+      id: 'intertextual-numbers-13-14-deut-1',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Numbers 13–14 ↔ Deuteronomy 1',
+      url: 'https://intertextual.bible/text/numbers-13/deuteronomy-1',
+      description: 'Side-by-side comparison of the original spy story (Numbers) and Moses&apos; retelling (Deuteronomy).',
+    },
+  ],
+
   sections: [
     /* ─── Deuteronomy 1:1–8 — The Call to Possess ────────────────────────── */
     {
@@ -132,7 +159,7 @@ export const DEUTERONOMY_1: RichChapterContent = {
           kind: 'commentary',
           id: 'deut-moab',
           html:
-            'The phrase <em>this side Jordan</em>—the east bank—is the threshold moment. They are not in the wilderness anymore; they are not in the land either. They are standing at the boundary, the place where decision becomes unavoidable. Moses retells the story of Sinai here on the banks of the Jordan, and the stakes are immediate: the land is real, the command is clear, the choice is theirs.',
+            'The phrase <em>this side Jordan</em>—the east bank—is the threshold moment. They are not in the wilderness anymore; they are not in the land either. They are standing at the boundary, the place where decision becomes unavoidable. Moses retells the story of Sinai here on the banks of the Jordan, and the stakes are immediate: the land is real, the command is clear, the choice is theirs[res:sefaria-deuteronomy-1].',
         },
         {
           kind: 'hebrew',
@@ -403,7 +430,7 @@ export const DEUTERONOMY_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-good-land-report',
           html:
-            'The spies report truthfully: the land is good. They bring back fruit as evidence—pomegranates and grapes so large they had to be carried by two men. This is not fantasy. The land is real. The promise is real. Every sign points toward entry. And then, in the next verses, the same people who saw the fruit will refuse to enter.',
+            'The spies report truthfully: the land is good. They bring back fruit as evidence—pomegranates and grapes so large they had to be carried by two men. This is not fantasy. The land is real. The promise is real. Every sign points toward entry[res:bible-odyssey-kadesh-barnea]. And then, in the next verses, the same people who saw the fruit will refuse to enter.',
         },
         {
           kind: 'reflection',
@@ -500,7 +527,7 @@ export const DEUTERONOMY_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-unbelief',
           html:
-            'Moses names the core sin: they "did not believe the Lord your God." The evidence was overwhelming—God had fought for them, provided for them, guided them. Yet they did not believe. This is the tragedy at the heart of the chapter. Belief is not the natural result of evidence. It is a choice, a trust, a willingness to read the evidence through the lens of God&apos;s character rather than through fear.',
+            'Moses names the core sin: they "did not believe the Lord your God." The evidence was overwhelming—God had fought for them, provided for them, guided them. Yet they did not believe. This is the tragedy at the heart of the chapter[res:intertextual-numbers-13-14-deut-1]. Belief is not the natural result of evidence. It is a choice, a trust, a willingness to read the evidence through the lens of God&apos;s character rather than through fear.',
         },
         {
           kind: 'christ',

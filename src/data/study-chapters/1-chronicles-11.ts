@@ -577,6 +577,18 @@ export const CHRONICLES_1_11: RichChapterContent = {
                 t('Hanan the son of Maachah, and Joshaphat the Mithnite,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-chronicles-11-mid-43',
+          html:
+            '<p>This cluster shows the families entrusted with leading and protecting Israel.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             {
               number: 44,
               spans: [

@@ -123,6 +123,18 @@ export const JOB_32: RichChapterContent = {
             plain(16, 'When I had waited, (for they spake not, but stood still, and answered no more;)'),
             plain(17, 'I said, I will answer also my part, I will shew mine opinion.'),
             plain(18, 'For I am full of matter, the spirit within me constraineth me.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job32-mid-spirit-speak',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 32,
+          lines: [
             plain(19, 'Behold, my belly is as wine which hath no vent; it is ready to burst.'),
             plain(20, 'I will speak, that I may be refreshed: I will open my lips and answer.'),
             plain(21, 'Let me not, I pray you, accept any man&apos;s person: neither let me give flattering titles unto any man.'),

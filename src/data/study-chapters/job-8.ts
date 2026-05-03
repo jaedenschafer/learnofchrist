@@ -51,6 +51,18 @@ export const JOB_8: RichChapterContent = {
               3,
               'Doth God pervert judgment? or doth the Almighty pervert justice?'
             ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job8-mid-bildad-tradition',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(
               4,
               'If thy children have sinned against him, and he have cast them away for their transgression;'

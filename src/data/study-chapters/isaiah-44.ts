@@ -35,6 +35,18 @@ export const ISAIAH_44: RichChapterContent = {
             plain(2, 'Thus saith the Lord that made thee, and formed thee from the womb, which will help thee; Fear not, O Jacob, my servant; and thou, Jeshurun, whom I have chosen.'),
             plain(3, 'For I will pour water upon him that is thirsty, and floods upon the dry ground: I will pour my spirit upon thy seed, and my blessing upon thine offspring:'),
             plain(4, 'And they shall spring up as among the grass, as willows by the water courses.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-no-other',
+          html:
+            '<p>I am the Lord; there is no other. I form light and darkness, I make all things. Turn to Me and be saved.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 44,
+          lines: [
             plain(5, 'One shall say, I am the Lord&apos;s; and another shall call himself by the name of Jacob; and another shall subscribe with his hand unto the Lord, and surname himself by the name of Israel.'),
             plain(6, 'Thus saith the Lord the King of Israel, and his redeemer the Lord of hosts; I am the first, and I am the last; and beside me there is no God.'),
             plain(7, 'And who, as I, shall call, and shall declare it, and set it in order for me, since I appointed the ancient people? and the things that are coming, and shall come, let them shew unto them.'),
@@ -54,6 +66,18 @@ export const ISAIAH_44: RichChapterContent = {
             plain(9, 'They that make a graven image are all of them vanity; and their delectable things shall not profit; and they are their own witnesses; they see not, nor know; that they may be ashamed.'),
             plain(10, 'Who hath formed a god, or molten a graven image that is profitable for nothing?'),
             plain(11, 'Behold, all his fellows shall be ashamed: and the smiths are men: let them all be gathered together, they shall stand up; yet they shall fear, and they shall be ashamed together.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-no-other-2',
+          html:
+            '<p>Those who make idols, all are ashamed together. Craftsmen are mere humans. The true God stands alone.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 44,
+          lines: [
             plain(12, 'The smith with the tongs both worketh in the coals, and fashioneth it with hammers, and worketh it with the strength of his arms: yea, he is hungry, and his strength faileth: he drinketh no water, and is faint.'),
             plain(13, 'The carpenter stretcheth out his rule; he marketh it out with a line; he fitteth it with planes, and he marketh it out with the compass, and maketh it after the figure of a man, according to the beauty of a man; that it may remain in the house.'),
             plain(14, 'He heweth him down cedars, and taketh the cypress and the oak, which he strengtheneth for himself among the trees of the forest: he planteth an ash, and the rain doth nourish it.'),

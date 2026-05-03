@@ -175,6 +175,18 @@ export const JOB_15: RichChapterContent = {
             plain(29, 'He shall not be rich, neither shall his substance continue: neither shall he prolong the perfection thereof upon the earth.'),
             plain(30, 'He shall not depart out of darkness; the flame shall dry up his branches, and by the breath of his mouth shall he be taken away.'),
             plain(31, 'Let him not trust in vanity: for vanity shall be his recompence.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job15-mid-eliphaz-wicked',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 15,
+          lines: [
             plain(32, 'It shall be accomplished before his time, and his branch shall not be green.'),
             plain(33, 'He shall shake off his unripe grape as the vine, and shall cast off his flower as the olive.'),
             plain(34, 'For the congregation of hypocrites shall be desolate, and fire shall consume the tabernacles of bribery.'),

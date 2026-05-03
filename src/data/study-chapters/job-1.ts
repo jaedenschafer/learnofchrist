@@ -315,6 +315,18 @@ export const JOB_1: RichChapterContent = {
                 t(', and took them away; yea, they have slain the servants with the edge of the sword; and I only am escaped alone to tell thee.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job1-mid-calamity-faith',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             {
               number: 16,
               spans: [

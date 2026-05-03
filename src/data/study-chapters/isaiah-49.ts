@@ -82,6 +82,18 @@ export const ISAIAH_49: RichChapterContent = {
             plain(7, 'Thus saith the Lord, the Redeemer of Israel, and his Holy One, to him whom man despiseth, to him whom the nation abhorreth, to a servant of rulers, Kings shall see and arise, princes also shall worship, because of the Lord that is faithful, and the Holy One of Israel, and he shall choose thee.'),
             plain(8, 'Thus saith the Lord, In an acceptable time have I heard thee, and in a day of salvation have I helped thee: and I will preserve thee, and give thee for a covenant of the people, to establish the earth, to cause to inherit the desolate heritages;'),
             plain(9, 'That thou mayest say to the prisoners, Go forth; to them that are in darkness, Show yourselves. They shall feed in the ways, and their pastures shall be in all high places.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-light-nations',
+          html:
+            '<p>I am a light to the nations; My salvation reaches to the end of the earth. I will lead the blind and thirsty home.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 49,
+          lines: [
             plain(10, 'They shall not hunger nor thirst; neither shall the heat nor sun smite them: for he that hath mercy on them shall lead them, even by the springs of water shall he guide them.'),
             plain(11, 'And I will make all my mountains a way, and my highways shall be exalted.'),
             plain(12, 'Behold, these shall come from far: and, lo, these from the north and from the west; and these from the land of Sinim.'),

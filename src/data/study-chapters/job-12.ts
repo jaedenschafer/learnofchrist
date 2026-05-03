@@ -43,6 +43,18 @@ export const JOB_12: RichChapterContent = {
             plain(2, 'No doubt but ye are the people, and wisdom shall die with you.'),
             plain(3, 'But I have understanding as well as you; I am not inferior to you: yea, who knoweth not such things as these?'),
             plain(4, 'I am as one mocked of his neighbour, who calleth upon God, and he answereth him: the just and perfect man is laughed to scorn.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job12-mid-wisdom-mockery',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             plain(5, 'For the thought of him that is at ease there is contempt, as a thing prepared for those whose foot slippeth:'),
             plain(6, 'The tabernacles of robbers prosper, and they that provoke God are secure; into whose hand God bringeth abundantly.'),
             plain(7, 'But ask now the beasts, and they shall teach thee; and the fowls of the air, and they shall tell thee:'),
@@ -141,6 +153,18 @@ export const JOB_12: RichChapterContent = {
             plain(19, 'He leadeth princes away spoiled, and overthroweth the mighty.'),
             plain(20, 'He removeth away the speech of the trusty, and taketh away the understanding of the aged.'),
             plain(21, 'He poureth contempt upon princes, and weakeneth the strength of the mighty.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job12b-mid-darkness-counsel',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             plain(22, 'He discovereth deep things out of darkness, and bringeth out to light the shadow of death.'),
             plain(23, 'He increaseth the nations, and destroyeth them: he enlargeth the nations, and straiteneth them again.'),
             plain(24, 'He taketh away the heart of the chief of the people of the earth, and causeth them to wander in a wilderness where there is no way.'),

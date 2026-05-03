@@ -18,6 +18,33 @@ export const DEUTERONOMY_6: RichChapterContent = {
     'And beneath it all, one more layer: the wilderness temptations of Jesus echo Deuteronomy 6. He is the Israel who hears the Shema and keeps it perfectly. He is the true beloved son who passes every test the Father sets. Where Israel stumbled in the desert, Christ stood firm.',
   ],
 
+  resources: [
+    {
+      id: 'sefaria-deuteronomy-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 6 — The Shema',
+      url: 'https://www.sefaria.org/Deuteronomy.6',
+      description: 'Hebrew and medieval Jewish commentaries on Israel&apos;s central daily prayer, with tefillin and mezuzah practice.',
+    },
+    {
+      id: 'shema-jewish-prayer-central-tradition',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Shema (Hear, O Israel)',
+      url: 'https://www.bibleodyssey.org/dictionary/shema/',
+      description: 'Open-access entry on the Shema as Israel&apos;s foundational confession of monotheism.',
+    },
+    {
+      id: 'tefillin-mezuzah-israel-museum-archaeology',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Tefillin and Mezuzah — Artifacts and Archaeology',
+      url: 'https://www.imj.org.il/en',
+      description: 'Archaeological specimens of ancient tefillin and mezuzah boxes from Second Temple period, fulfilling Deuteronomy 6:6–9.',
+    },
+  ],
+
   sections: [
     /* ─── Deuteronomy 6:1–3 — The Purpose of the Law ───────────────────────── */
     {

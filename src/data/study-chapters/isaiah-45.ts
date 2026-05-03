@@ -34,6 +34,18 @@ export const ISAIAH_45: RichChapterContent = {
             plain(1, 'Thus saith the Lord to his anointed, to Cyrus, whose right hand I have holden, to subdue nations before him; and I will loose the loins of kings, to open before him the two leaved gates; and the gates shall not be shut;'),
             plain(2, 'I will go before thee, and make the crooked places straight: I will break in pieces the gates of brass, and cut in sunder the bars of iron:'),
             plain(3, 'And I will give thee the treasures of darkness, and hidden riches of secret places, that thou mayest know that I, the Lord, which call thee by thy name, am the God of Israel.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-righteousness-rises',
+          html:
+            '<p>The heavens rain down; the earth opens with salvation. Righteousness rises; the Lord does both.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 45,
+          lines: [
             plain(4, 'For Jacob my servant&apos;s sake, and Israel mine elect, I have even called thee by thy name: I have surnamed thee, though thou hast not known me.'),
             plain(5, 'I am the Lord, and there is none else, there is no God beside me: I girded thee, though thou hast not known me;'),
             plain(6, 'That they may know from the rising of the sun, and from the west, that there is none beside me. I am the Lord, and there is none else.'),
@@ -88,6 +100,18 @@ export const ISAIAH_45: RichChapterContent = {
             plain(19, 'I have not spoken in secret, in a dark place of the earth: I said not unto the seed of Jacob, Seek ye me in vain: I the Lord speak righteousness, I declare things that are right.'),
             plain(20, 'Assemble yourselves and come; draw near together, ye that are escaped of the nations: they have no knowledge that set up the wood of their graven image, and pray unto a god that cannot save.'),
             plain(21, 'Tell ye, and bring them near; yea, let them take counsel together: who hath declared this from ancient time? who hath told it from that time? have not I the Lord? and there is no God else beside me; a just God and a Saviour; there is none beside me.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-righteousness-rises-2',
+          html:
+            '<p>There is no God apart from Me. Turn to Me and be saved, all you ends of the earth.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 45,
+          lines: [
             plain(22, 'Look unto me, and be ye saved, all the ends of the earth: for I am God, and there is none else.'),
             plain(23, 'I have sworn by myself, the word is gone out of my mouth in righteousness, and shall not return, That unto me every knee shall bow, every tongue shall swear.'),
             plain(24, 'Surely, shall one say, in the Lord have I righteousness and strength: even to him shall men come; and all that are incensed against him shall be ashamed.'),

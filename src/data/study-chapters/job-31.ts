@@ -109,6 +109,18 @@ export const JOB_31: RichChapterContent = {
             plain(14, 'What then shall I do when God riseth up? and when he visiteth, what shall I answer him?'),
             plain(15, 'Did not he that made me in the womb make him? and did not one fashion us in the womb?'),
             plain(16, 'If I have withheld the poor from their desire, or have caused the eyes of the widow to fail;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job31-mid-pact-sin',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 31,
+          lines: [
             plain(17, 'Or have eaten my morsel myself alone, and the fatherless hath not eaten thereof;'),
             plain(18, 'For from my youth he was brought up with me, as with a father, and I have guided her from my mother&apos;s womb;)'),
             plain(19, 'If I have seen any perish for want of clothing, or any poor without covering;'),
@@ -141,6 +153,18 @@ export const JOB_31: RichChapterContent = {
             plain(22, 'Then let mine arm fall from my shoulder blade, and mine arm be broken from the bone.'),
             plain(23, 'For destruction from God was a terror to me, and by reason of his highness I could not endure.'),
             plain(24, 'If I have made gold my hope, or have said to the fine gold, Thou art my confidence;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job31b-mid-gold-trust',
+          html:
+            'Calamity strips everything; faith asks: can you praise when silence is easier?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 31,
+          lines: [
             plain(25, 'If I rejoiced because my wealth was great, and because mine hand had gotten much;'),
             plain(26, 'If I beheld the sun when it shined, or the moon walking in brightness;'),
             plain(27, 'And my heart hath been secretly enticed, and my mouth hath kissed my hand:'),

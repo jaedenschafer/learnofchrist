@@ -33,6 +33,18 @@ export const DANIEL_5: RichChapterContent = {
             plain(22, 'And thou his son, O Belshazzar, hast not humbled thine heart, though thou knewest all this;'),
             plain(23, 'But hast lifted up thyself against the Lord of heaven; and they have brought the vessels of his house before thee, and thou, and thy lords, thy wives, and thy concubines, have drunk wine in them; and thou hast praised the gods of silver, and gold, of brass, iron, wood, and stone, which see not, nor hear, nor know: and the God in whose hand thy breath is, and whose are all thy ways, hast thou not glorified:'),
             plain(24, 'Then was the part of the hand sent from him; and this writing was written.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'resolve-empire-end',
+          html:
+            '<p>The feast, the hand, the writing: Babylon&apos;s end is declared. God sees every boast; nothing hidden is forever hidden.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(25, 'And this is the writing that was written, MENE, MENE, TEKEL, UPHARSIN.'),
             plain(26, 'This is the interpretation of the thing: MENE; God hath numbered thy kingdom, and finished it.'),
             plain(27, 'TEKEL; Thou art weighed in the balances, and art found wanting.'),

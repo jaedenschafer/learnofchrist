@@ -121,6 +121,18 @@ export const PROVERBS_3: RichChapterContent = {
             plain(20, 'By his knowledge the depths are broken up, and the clouds drop down the dew.'),
             plain(21, 'My son, let not these depart from thine eyes: keep sound wisdom and discretion:'),
             plain(22, 'So shall they be life unto thy soul, and grace to thy neck.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov3-mid-marrow-bones',
+          html:
+            'Wisdom &amp; folly diverge; mark the turning point &amp; learn.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(23, 'Then shalt thou walk in thy way safely, and thy foot shall not stumble.'),
             plain(24, 'When thou liest down, thou shalt not be afraid: yea, thou shalt lie down, and thy sleep shall be sweet.'),
             plain(25, 'Be not afraid of sudden fear, neither of the desolation of the wicked when it cometh;'),

@@ -202,6 +202,18 @@ export const CHRONICLES_2_30: RichChapterContent = {
             plain(14, 'And they arose and took away the altars that were in Jerusalem, and all the altars for incense took they away, and cast them into the brook Kidron.'),
             plain(15, 'Then they killed the passover on the fourteenth day of the second month: and the priests and the Levites were ashamed, and sanctified themselves, and brought in the burnt offerings into the house of the Lord.'),
             plain(16, 'And they stood in their place after their manner, according to the law of Moses the man of God: the priests sprinkled the blood, which they received of the hand of the Levites.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-chronicles-30-mid-16',
+          html:
+            '<p>One phase concludes and the next begins, showing step-by-step restoration.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 30,
+          lines: [
             plain(17, 'For there were many in the congregation that were not sanctified: therefore the Levites had the charge of the killing of the passovers for every one that was not clean, to sanctify them unto the Lord.'),
             plain(18, 'For a multitude of the people, even many of Ephraim and Manasseh, Issachar and Zebulun, had not cleansed themselves, yet did they eat the passover otherwise than it was written. But Hezekiah prayed for them, saying, The good Lord pardon every one'),
             plain(19, 'That prepareth his heart to seek God, the Lord God of his fathers, though he be not cleansed according to the purification of the sanctuary.'),
@@ -273,6 +285,18 @@ export const CHRONICLES_2_30: RichChapterContent = {
             plain(21, 'And the children of Israel that were present at Jerusalem kept the feast of unleavened bread seven days with great gladness: and the Levites and the priests praised the Lord day by day, singing with loud instruments unto the Lord.'),
             plain(22, 'And Hezekiah spake comfortably unto all the Levites that taught the good knowledge of the Lord: and they did eat throughout the feast seven days, offering peace offerings, and making confession to the Lord God of their fathers.'),
             plain(23, 'And the whole assembly took counsel to keep other seven days: and they kept other seven days with gladness.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-chronicles-30-mid-23',
+          html:
+            '<p>The construction progresses: each phase brought the temple closer to completion.</p>',
+        },
+        {
+          kind: 'scripture',
+          chapter: 30,
+          lines: [
             plain(24, 'For Hezekiah king of Judah did give to the congregation a thousand bullocks and seven thousand sheep; and the princes gave to the congregation a thousand bullocks and ten thousand sheep: and a great number of priests sanctified themselves.'),
             plain(25, 'And all the congregation of Judah, with the priests and the Levites, and all the congregation that came out of Israel, and the strangers that came out of the land of Israel, and that dwelt in Judah, rejoiced.'),
             plain(26, 'So there was great joy in Jerusalem: for since the time of Solomon the son of David king of Israel there was not the like in Jerusalem.'),
