@@ -40,7 +40,7 @@ export const SECOND_PETER_1: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-simon-peter',
-          html: 'He calls himself Simon Peter—the name he was born with, before Jesus gave him the name of rock. The reminiscence is deliberate. He is reminding his readers that he is the same person who walked with Jesus, who denied Him, who was restored, and who now, in his final days, writes with a particular kind of authority: not the authority of office, but the authority of one who was there.',
+          html: 'He calls himself Simon Peter—the name he was born with, before Jesus gave him the name of rock. The reminiscence is deliberate. He is reminding his readers that he is the same person who walked with Jesus, who denied Him, who was restored, and who now, in his final days, writes with a particular kind of authority: not the authority of office, but the authority of one who was there[res:sefaria-habakkuk2][res:intertextual-peter-exodus33][res:bible-odyssey-transfiguration].',
         },
         {
           kind: 'greek',
@@ -476,4 +476,33 @@ export const SECOND_PETER_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Peter 1 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-habakkuk2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Habakkuk 2:4 — The Just Shall Live by Faith',
+      url: 'https://www.sefaria.org/Habakkuk.2.4',
+      description: 'OT source for the principle Peter anchors on — faith as the foundation of righteousness.',
+    },
+    {
+      id: 'intertextual-peter-exodus33',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Exodus 34:5–6 ↔ 2 Peter 1:5–7 (Divine Nature)',
+      url: 'https://intertextual.bible/text/exodus-34.5/2-peter-1.5',
+      description: 'Cross-reference: Peter&apos;s call to partake of divine nature echoes God&apos;s nature revealed in Exodus.',
+    },
+    {
+      id: 'bible-odyssey-transfiguration',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Transfiguration of Jesus',
+      url: 'https://www.bibleodyssey.org/dictionary/transfiguration/',
+      description: 'SBL entry on the transformative event Peter witnessed and testifies to in 2 Peter 1:16–18.',
+    },
+  ],
+
+  hasHebrew: false,
 };

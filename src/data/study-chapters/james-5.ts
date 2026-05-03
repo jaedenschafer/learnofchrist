@@ -40,7 +40,7 @@ export const JAMES_5: RichChapterContent = {
           kind: 'commentary',
           id: 'jam5-weep',
           html:
-            'James does not address the rich with soft words. "Weep and howl"—the language of one calling for repentance before judgment falls. Their riches, which they trusted in and hoarded, will betray them. Garments rot. Gold tarnishes. The very things they thought would secure them will become witnesses against them in the day of judgment.',
+            'James does not address the rich with soft words. "Weep and howl"—the language of one calling for repentance before judgment falls. Their riches, which they trusted in and hoarded, will betray them. Garments rot. Gold tarnishes. The very things they thought would secure them will become witnesses against them in the day of judgment[res:sefaria-psalm34][res:intertextual-elijah-james][res:perseus-euchomai].',
         },
         {
           kind: 'greek',
@@ -404,6 +404,33 @@ export const JAMES_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'James 5 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm34',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 34:15–18 — The Lord Hears the Righteous',
+      url: 'https://www.sefaria.org/Psalms.34.15-18',
+      description: 'OT foundation for James&apos;s teaching on prayer — God listens to those who call on Him.',
+    },
+    {
+      id: 'intertextual-elijah-james',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: '1 Kings 17:1 ↔ James 5:17 (Elijah&apos;s Prayer)',
+      url: 'https://intertextual.bible/text/1-kings-17.1/james-5.17',
+      description: 'Cross-reference showing James cites Elijah as example of prayer that changes reality.',
+    },
+    {
+      id: 'perseus-euchomai',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Greek Lexicon — Euchomai (Prayer)',
+      url: 'https://www.perseus.tufts.edu/hopper/morph?l=euchomai&la=greek',
+      description: 'The Greek word for &ldquo;prayer&rdquo; and &ldquo;to pray&rdquo; throughout James — petition before God.',
+    },
+  ],
 
   hasHebrew: false,
 };

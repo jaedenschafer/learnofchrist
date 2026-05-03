@@ -40,7 +40,7 @@ export const FIRST_JOHN_2: RichChapterContent = {
           kind: 'commentary',
           id: '1john2-advocate-intro',
           html:
-            'John addresses believers as "little children"—a term of affection, not condescension. He is a shepherd watching over his flock, and his deepest desire is that they not sin. But he is also a realist. He knows that believers struggle, that we stumble, that failure comes. So he does not offer a path to sinlessness. He offers something better: a path to recovery.',
+            'John addresses believers as "little children"—a term of affection, not condescension. He is a shepherd watching over his flock, and his deepest desire is that they not sin. But he is also a realist. He knows that believers struggle, that we stumble, that failure comes. So he does not offer a path to sinlessness. He offers something better: a path to recovery[res:sefaria-deuteronomy-6][res:perseus-kosmos][res:intertextual-abide-1john].',
         },
         {
           kind: 'greek',
@@ -584,6 +584,33 @@ export const FIRST_JOHN_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 John 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-deuteronomy-6',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 6 (Love the Lord)',
+      url: 'https://www.sefaria.org/Deuteronomy.6',
+      description: 'The foundational command to love God with all your heart, which provides the OT basis for John&apos;s call to obedience and love.',
+    },
+    {
+      id: 'perseus-kosmos',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'κόσμος (kosmos)',
+      url: 'https://scaife.perseus.org/lexicon/entry/greek-lsj-κόσμος/1',
+      description: 'Greek lexicon entry for kosmos (world system), essential for understanding John&apos;s repeated contrast between worldly values and God&apos;s kingdom.',
+    },
+    {
+      id: 'intertextual-abide-1john',
+      kind: 'archive',
+      source: 'Intertextual Bible',
+      label: 'Abide/Remain Cross-References',
+      url: 'https://www.intertextual.bible/search?q=abide',
+      description: 'Cross-references to the theme of abiding throughout the New Testament, connecting John&apos;s metaphor of dwelling in Christ to vine imagery and covenant relationship.',
+    },
+  ],
 
   hasHebrew: false,
 };

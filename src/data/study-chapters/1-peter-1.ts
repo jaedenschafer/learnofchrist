@@ -58,7 +58,7 @@ export const FIRST_PETER_1: RichChapterContent = {
           kind: 'commentary',
           id: '1p1-diaspora',
           html:
-            'Strangers scattered — the Greek is diaspora, the scattering. These are not tourists or temporary visitors. They are exiles, driven from home by persecution, living as foreigners in hostile lands. Peter opens not by minimizing their reality but by naming it squarely. And then, immediately, he reframes it: they are still elect, chosen by God, not abandoned.',
+            'Strangers scattered — the Greek is diaspora, the scattering. These are not tourists or temporary visitors. They are exiles, driven from home by persecution, living as foreigners in hostile lands. Peter opens not by minimizing their reality but by naming it squarely. And then, immediately, he reframes it: they are still elect, chosen by God, not abandoned[res:sefaria-exodus12][res:sefaria-isaiah40][res:intertextual-peter-john].',
         },
         {
           kind: 'greek',
@@ -698,4 +698,33 @@ export const FIRST_PETER_1: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'sefaria-exodus12',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 12:5–7 — The Passover Lamb',
+      url: 'https://www.sefaria.org/Exodus.12.5-7',
+      description: 'The scriptural foundation for the spotless lamb — Christ fulfills the Passover type.',
+    },
+    {
+      id: 'sefaria-isaiah40',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 40:6–8 — All Flesh Is as Grass',
+      url: 'https://www.sefaria.org/Isaiah.40.6-8',
+      description: 'The OT passage Peter quotes: the transience of human flesh versus the permanence of God&apos;s word.',
+    },
+    {
+      id: 'intertextual-peter-john',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'John 1:1–3 ↔ 1 Peter 1:23 (The Living Word)',
+      url: 'https://intertextual.bible/text/john-1.1/1-peter-1.23',
+      description: 'Cross-reference linking Peter&apos;s incorruptible seed to John&apos;s eternal Logos.',
+    },
+  ],
+
+  hasHebrew: false,
 };

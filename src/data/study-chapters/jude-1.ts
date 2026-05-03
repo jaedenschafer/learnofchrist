@@ -68,7 +68,7 @@ export const JUDE_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-sanctified',
           html:
-            'The church is described with three words: <em>sanctified</em> (set apart), <em>preserved</em> (kept safe), and <em>called</em> (summoned into relationship). These are not accomplishments the church has achieved. They are the work of the Father and Christ already done. Jude writes to remind them what they are.',
+            'The church is described with three words: <em>sanctified</em> (set apart), <em>preserved</em> (kept safe), and <em>called</em> (summoned into relationship). These are not accomplishments the church has achieved. They are the work of the Father and Christ already done. Jude writes to remind them what they are[res:sefaria-numbers-16][res:perseus-apeithao][res:intertextual-judgment-mercy].',
         },
         {
           kind: 'christ',
@@ -170,7 +170,7 @@ export const JUDE_1: RichChapterContent = {
           script: 'ἀσέλγεια',
           translit: '<strong>aselgeia</strong> · unbridled lust, shameless indulgence, excess',
           description:
-            'The word refers not to private sin but to brazen, unashamed behavior. These teachers are not quietly stumbling; they are openly flaunting their disobedience.',
+            'The word refers not to private sin but to brazen, unashamed behavior. These teachers are not quietly stumbling; they are openly flaunting their disobedience[res:perseus-apeithao].',
         },
         {
           kind: 'christ',
@@ -713,6 +713,33 @@ export const JUDE_1: RichChapterContent = {
             'What does it mean to you that God is "able to keep you from falling"? Where in your faith do you most need that promise right now?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-numbers-16',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 16 (Rebellion of Korah)',
+      url: 'https://www.sefaria.org/Numbers.16',
+      description: 'The account of Korah&apos;s rebellion against Moses, which Jude uses as a historical example of those who reject legitimate authority and face judgment.',
+    },
+    {
+      id: 'perseus-apeithao',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'ἀπειθέω (apeithaō)',
+      url: 'https://scaife.perseus.org/lexicon/entry/greek-lsj-ἀπειθέω/1',
+      description: 'Greek lexicon entry for apeithaō (to disobey), essential for understanding Jude&apos;s theme of false teachers who rebel against apostolic authority and truth.',
+    },
+    {
+      id: 'intertextual-judgment-mercy',
+      kind: 'archive',
+      source: 'Intertextual Bible',
+      label: 'Judgment and Mercy',
+      url: 'https://www.intertextual.bible/search?q=judgment%20mercy',
+      description: 'Cross-references showing the tension between God&apos;s judgment on false teachers and His mercy toward believers, central to Jude&apos;s exhortation.',
     },
   ],
 };

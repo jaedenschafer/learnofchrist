@@ -66,7 +66,7 @@ export const JAMES_2: RichChapterContent = {
           kind: 'commentary',
           id: 'jam2-faith-glory',
           html:
-            'James opens with a stunning contradiction: you claim to hold "the faith of our Lord Jesus Christ, the Lord of glory"—but then you treat people according to their clothes. The phrase <em>Lord of glory</em> appears nowhere else in the New Testament except here and in 1 Corinthians 2:8. It refers to Christ&apos;s divine majesty, His radiant splendor. And His glory, James is saying, is inseparable from His choice to identify with the powerless. To have faith <em>in</em> Him is to have absorbed His values, His justice, His radical revaluation of human worth.',
+            'James opens with a stunning contradiction: you claim to hold "the faith of our Lord Jesus Christ, the Lord of glory"—but then you treat people according to their clothes. The phrase <em>Lord of glory</em> appears nowhere else in the New Testament except here and in 1 Corinthians 2:8. It refers to Christ&apos;s divine majesty, His radiant splendor. And His glory, James is saying, is inseparable from His choice to identify with the powerless. To have faith <em>in</em> Him is to have absorbed His values, His justice, His radical revaluation of human worth[res:sefaria-genesis18][res:sefaria-rahab-joshua][res:perseus-ergon].',
         },
         {
           kind: 'greek',
@@ -635,6 +635,33 @@ export const JAMES_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'James 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis18',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Genesis 15:6 — Abraham&apos;s Faith Reckoned for Righteousness',
+      url: 'https://www.sefaria.org/Genesis.15.6',
+      description: 'The verse James quotes: Abraham believed God, and it was reckoned unto him for righteousness.',
+    },
+    {
+      id: 'sefaria-rahab-joshua',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Joshua 2 — Rahab Hides the Spies',
+      url: 'https://www.sefaria.org/Joshua.2',
+      description: 'The historical account of Rahab&apos;s faith in action: sheltering Israelite spies at personal risk.',
+    },
+    {
+      id: 'perseus-ergon',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Greek Lexicon — Ergon (Works)',
+      url: 'https://www.perseus.tufts.edu/hopper/morph?l=ergon&la=greek',
+      description: 'The Greek word for &ldquo;works&rdquo; that appears throughout James — deeds, labor, visible action.',
+    },
+  ],
 
   hasHebrew: false,
 };

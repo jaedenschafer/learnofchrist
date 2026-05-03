@@ -58,7 +58,7 @@ export const FIRST_JOHN_1: RichChapterContent = {
           kind: 'commentary',
           id: 'c-testimony',
           html:
-            'John moves through the senses: heard, seen, looked upon, handled. This is testimony. Not a doctrine. Not an inference. Not a rumor. A witness. John was there. He is speaking to those who may not have been—and saying, what I saw, you can trust.',
+            'John moves through the senses: heard, seen, looked upon, handled. This is testimony. Not a doctrine. Not an inference. Not a rumor. A witness. John was there. He is speaking to those who may not have been—and saying, what I saw, you can trust[res:sefaria-isaiah-53][res:perseus-photis][res:intertextual-logos-1john].',
         },
         {
           kind: 'greek',
@@ -390,6 +390,33 @@ export const FIRST_JOHN_1: RichChapterContent = {
           prompt: 'What is the hardest part of confession for you? Pride? Fear? Shame? What would it mean to let God&apos;s word be true, even about the parts of yourself you want to hide?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-isaiah-53',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 53 (Suffering Servant)',
+      url: 'https://www.sefaria.org/Isaiah.53',
+      description: 'Isaiah&apos;s prophecy about the suffering and exaltation of God&apos;s servant, foundational to understanding Christ&apos;s redemptive work and cleansing through His blood.',
+    },
+    {
+      id: 'perseus-photis',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'φῶς (phōs)',
+      url: 'https://scaife.perseus.org/lexicon/entry/greek-lsj-φῶς/1',
+      description: 'Greek lexicon entry for phōs (light), the central metaphor John uses to describe both God&apos;s nature and the Christian life.',
+    },
+    {
+      id: 'intertextual-logos-1john',
+      kind: 'archive',
+      source: 'Intertextual Bible',
+      label: 'Logos (Word)',
+      url: 'https://www.intertextual.bible/search?q=logos',
+      description: 'Cross-references tracing the Greek logos from John&apos;s prologue throughout the New Testament and connections to Old Testament wisdom literature.',
     },
   ],
 

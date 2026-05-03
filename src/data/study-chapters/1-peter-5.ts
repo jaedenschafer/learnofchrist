@@ -47,7 +47,7 @@ export const FIRST_PETER_5: RichChapterContent = {
           kind: 'commentary',
           id: '1pet5-parakaleo',
           html:
-            'Peter speaks to the elders not as a distant authority but as a fellow elder—someone who has walked with Christ, suffered with Him, and will share in His revealed glory. His exhortation carries the weight of lived experience. He is not commanding from on high but appealing heart to heart, elder to elder.',
+            'Peter speaks to the elders not as a distant authority but as a fellow elder—someone who has walked with Christ, suffered with Him, and will share in His revealed glory. His exhortation carries the weight of lived experience. He is not commanding from on high but appealing heart to heart, elder to elder[res:sefaria-psalm23][res:perseus-poimne][res:intertextual-peter-john21].',
         },
 
         {
@@ -496,6 +496,33 @@ export const FIRST_PETER_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Peter 5 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm23',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 23 — The Lord Is My Shepherd',
+      url: 'https://www.sefaria.org/Psalms.23',
+      description: 'The OT source for pastoral imagery — God as shepherd caring for His flock.',
+    },
+    {
+      id: 'perseus-poimne',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Greek Lexicon — Poimne (Flock)',
+      url: 'https://www.perseus.tufts.edu/hopper/morph?l=poimne&la=greek',
+      description: 'The Greek word for &ldquo;flock&rdquo; in 1 Peter 5:2 — believers as sheep under shepherds.',
+    },
+    {
+      id: 'intertextual-peter-john21',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'John 21:15–17 ↔ 1 Peter 5:2 (Feed My Sheep)',
+      url: 'https://intertextual.bible/text/john-21.15/1-peter-5.2',
+      description: 'Cross-reference: Jesus&apos; commission to Peter to feed His flock echoed here.',
+    },
+  ],
 
   hasHebrew: false,
 };

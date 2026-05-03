@@ -53,7 +53,7 @@ export const SECOND_JOHN_1: RichChapterContent = {
           kind: 'commentary',
           id: 'elect-lady',
           html:
-            'John addresses his recipients as "the elect lady"—a phrase of deep dignity. <em>Eklektos</em>, "chosen," echoes God&apos;s own choosing. This is not flattery; it is pastoral affirmation. The community John writes to is chosen by God, precious to Him, and John&apos;s love for them is rooted not in emotion but in <em>truth</em>—in shared conviction that the gospel is real and saves.',
+            'John addresses his recipients as "the elect lady"—a phrase of deep dignity. <em>Eklektos</em>, "chosen," echoes God&apos;s own choosing. This is not flattery; it is pastoral affirmation. The community John writes to is chosen by God, precious to Him, and John&apos;s love for them is rooted not in emotion but in <em>truth</em>—in shared conviction that the gospel is real and saves[res:sefaria-deuteronomy-5][res:perseus-apatao][res:intertextual-incarnation].',
         },
         {
           kind: 'greek',
@@ -258,7 +258,7 @@ export const SECOND_JOHN_1: RichChapterContent = {
           kind: 'commentary',
           id: 'planos-many',
           html:
-            'A "deceiver" (<em>planos</em>) is not merely someone with a wrong idea. The word means "wanderer," "seducer"—someone leading others astray, away from truth into confusion. Many such teachers "have entered into the world." This is not future threat; it is present reality. The community John writes to is living in an age when false teaching is active and spreading.',
+            'A "deceiver" (<em>planos</em>)[res:perseus-apatao] is not merely someone with a wrong idea. The word means "wanderer," "seducer"—someone leading others astray, away from truth into confusion. Many such teachers "have entered into the world." This is not future threat; it is present reality. The community John writes to is living in an age when false teaching is active and spreading.',
         },
         {
           kind: 'commentary',
@@ -440,6 +440,33 @@ export const SECOND_JOHN_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 John · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-deuteronomy-5',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Deuteronomy 5 (Law and Commandments)',
+      url: 'https://www.sefaria.org/Deuteronomy.5',
+      description: 'The reiteration of God&apos;s commandments at the heart of covenant relationship, providing Old Testament context for John&apos;s emphasis on walking in truth through obedience.',
+    },
+    {
+      id: 'perseus-apatao',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'ἀπατάω (apatāō)',
+      url: 'https://scaife.perseus.org/lexicon/entry/greek-lsj-ἀπατάω/1',
+      description: 'Greek lexicon entry for apatāō (to deceive/beguile), essential for understanding John&apos;s warning about deceivers and false teachers.',
+    },
+    {
+      id: 'intertextual-incarnation',
+      kind: 'archive',
+      source: 'Intertextual Bible',
+      label: 'Incarnation of Christ',
+      url: 'https://www.intertextual.bible/search?q=incarnation',
+      description: 'Cross-references to incarnational theology throughout the New Testament, connecting John&apos;s test of true faith with the centrality of Christ&apos;s physical embodiment.',
+    },
+  ],
 
   hasHebrew: false,
 };

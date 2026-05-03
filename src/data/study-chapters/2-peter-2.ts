@@ -41,7 +41,7 @@ export const SECOND_PETER_2: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-false-prophets',
-          html: 'Peter does not present false teachers as a new phenomenon. They were present in the old covenant; they will be present in the new. The difference is that false prophets came from outside the community; false teachers come from within, and they are more dangerous precisely because they are trusted.',
+          html: 'Peter does not present false teachers as a new phenomenon. They were present in the old covenant; they will be present in the new. The difference is that false prophets came from outside the community; false teachers come from within, and they are more dangerous precisely because they are trusted[res:sefaria-numbers22][res:intertextual-peter-proverbs26][res:perseus-pseudoprophetes].',
         },
         {
           kind: 'greek',
@@ -391,4 +391,33 @@ export const SECOND_PETER_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '2 Peter 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-numbers22',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 22–24 — Balaam and the Talking Donkey',
+      url: 'https://www.sefaria.org/Numbers.22',
+      description: 'OT account of Balaam, whom Peter cites as example of false prophet who loved the wages of unrighteousness.',
+    },
+    {
+      id: 'intertextual-peter-proverbs26',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Proverbs 26:11 ↔ 2 Peter 2:22 (The Dog Returns)',
+      url: 'https://intertextual.bible/text/proverbs-26.11/2-peter-2.22',
+      description: 'Cross-reference: Peter cites the proverb about dogs returning to their vomit to warn against apostasy.',
+    },
+    {
+      id: 'perseus-pseudoprophetes',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Greek Lexicon — Pseudoprophetes (False Prophet)',
+      url: 'https://www.perseus.tufts.edu/hopper/morph?l=pseudoprophetes&la=greek',
+      description: 'The Greek word for &ldquo;false prophets&rdquo; — deceivers who claim divine authority.',
+    },
+  ],
+
+  hasHebrew: false,
 };

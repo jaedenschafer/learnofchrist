@@ -130,7 +130,7 @@ export const FIRST_JOHN_3: RichChapterContent = {
           id: 'christ-like-him',
           title: 'Christ Connection — Transformation into His Image',
           html:
-            'Christ is the image of the invisible God. "For whom he did foreknow, he also did predestinate to be conformed to the image of his Son" (Rom. 8:29). You are already declared righteous in Christ. But in the resurrection, that righteousness will become actual. You will walk as He walks. You will love as He loves. You will shine with His glory. This is not vanity or pride—it is the destiny the Father set for you when He chose you in Christ before the foundation of the world.',
+            'Christ is the image of the invisible God. "For whom he did foreknow, he also did predestinate to be conformed to the image of his Son" (Rom. 8:29). You are already declared righteous in Christ. But in the resurrection, that righteousness will become actual. You will walk as He walks. You will love as He loves. You will shine with His glory. This is not vanity or pride—it is the destiny the Father set for you when He chose you in Christ before the foundation of the world[res:sefaria-genesis-3][res:perseus-agape][res:intertextual-children-god].',
         },
         {
           kind: 'carry',
@@ -799,6 +799,33 @@ export const FIRST_JOHN_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 John 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis-3',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Genesis 3 (Sin and Transgression)',
+      url: 'https://www.sefaria.org/Genesis.3',
+      description: 'The foundational account of how sin entered the world through transgression, providing context for John&apos;s understanding of sin as lawlessness and the contrast with Christ&apos;s sinlessness.',
+    },
+    {
+      id: 'perseus-agape',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'ἀγάπη (agapē)',
+      url: 'https://scaife.perseus.org/lexicon/entry/greek-lsj-ἀγάπη/1',
+      description: 'Greek lexicon entry for agapē (love as self-sacrificial commitment), the core concept of Christian love throughout this chapter.',
+    },
+    {
+      id: 'intertextual-children-god',
+      kind: 'archive',
+      source: 'Intertextual Bible',
+      label: 'Children of God',
+      url: 'https://www.intertextual.bible/search?q=children%20of%20God',
+      description: 'Cross-references to the theme of adoption and divine sonship from the Old Testament through John&apos;s epistles, tracing the promise of becoming God&apos;s children.',
+    },
+  ],
 
   hasHebrew: false,
 };

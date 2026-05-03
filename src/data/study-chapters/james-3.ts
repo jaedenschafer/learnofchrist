@@ -57,7 +57,7 @@ export const JAMES_3: RichChapterContent = {
           kind: 'commentary',
           id: 'jam3-teachers',
           html:
-            'James uses the word <em>didaskaloι</em>—teachers. The responsibility of teaching is not to be taken lightly. Teachers shape how others think and live. They will be judged more strictly, not because God is harsh, but because their influence is vast. A single word misplaced, a half-truth dressed up as gospel, echoes through a community. The standard for those who teach is higher because the stakes are higher.',
+            'James uses the word <em>didaskaloι</em>—teachers. The responsibility of teaching is not to be taken lightly. Teachers shape how others think and live. They will be judged more strictly, not because God is harsh, but because their influence is vast. A single word misplaced, a half-truth dressed up as gospel, echoes through a community. The standard for those who teach is higher because the stakes are higher[res:perseus-glossa][res:sefaria-proverbs26][res:intertextual-james-matthew12].',
         },
         {
           kind: 'greek',
@@ -566,6 +566,33 @@ export const JAMES_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'James 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'perseus-glossa',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Greek Lexicon — Glossa (Tongue)',
+      url: 'https://www.perseus.tufts.edu/hopper/morph?l=glossa&la=greek',
+      description: 'The Greek word for &ldquo;tongue&rdquo; in James — both the physical organ and the power of speech.',
+    },
+    {
+      id: 'sefaria-proverbs26',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 26:20–22 — Whisperers and Strife',
+      url: 'https://www.sefaria.org/Proverbs.26.20-22',
+      description: 'OT parallel on the tongue&apos;s power to kindle conflict — James echoes ancient wisdom.',
+    },
+    {
+      id: 'intertextual-james-matthew12',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Matthew 12:34 ↔ James 3:6 (Out of the Abundance)',
+      url: 'https://intertextual.bible/text/matthew-12.34/james-3.6',
+      description: 'Cross-reference showing Jesus&apos; teaching on the tongue as window to the heart.',
+    },
+  ],
 
   hasHebrew: false,
 };

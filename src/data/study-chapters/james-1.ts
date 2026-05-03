@@ -46,7 +46,7 @@ export const JAMES_1: RichChapterContent = {
           kind: 'commentary',
           id: 'jam1-chara',
           html:
-            'Joy (<em>chara</em>) in James is not happiness in the circumstance itself. It is the deep satisfaction, the delight, that comes from knowing God is at work in you. When you face a trial and hold to faith anyway, something genuine is being forged. You know it. You can feel it. That knowledge itself becomes the occasion for joy—not the trial, but the God-work happening through it.',
+            'Joy (<em>chara</em>) in James is not happiness in the circumstance itself. It is the deep satisfaction, the delight, that comes from knowing God is at work in you. When you face a trial and hold to faith anyway, something genuine is being forged. You know it. You can feel it. That knowledge itself becomes the occasion for joy—not the trial, but the God-work happening through it[res:sefaria-leviticus-love][res:perseus-pistis][res:intertextual-james-proverbs].',
         },
         {
           kind: 'greek',
@@ -428,6 +428,39 @@ export const JAMES_1: RichChapterContent = {
           prompt: 'Who is the "fatherless" or "widow" in your circle—the one who needs someone to show up? How will you be a doer this week?',
         },
       ],
+    },
+  ],
+
+  bottomShare: {
+    quote: 'Count it all joy when ye fall into divers temptations, knowing this, that the trying of your faith worketh patience. Every good gift and every perfect gift is from above. Be ye doers of the word, and not hearers only.',
+    snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
+    ref: 'James 1 · Study Guide',
+  },
+
+  resources: [
+    {
+      id: 'sefaria-leviticus-love',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 19:18 — Thou Shalt Love Thy Neighbor',
+      url: 'https://www.sefaria.org/Leviticus.19.18',
+      description: 'The foundational commandment James quotes: to love your neighbor as yourself underlies all virtue.',
+    },
+    {
+      id: 'perseus-pistis',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Greek Lexicon — Pistis (Faith)',
+      url: 'https://www.perseus.tufts.edu/hopper/morph?l=pistis&la=greek',
+      description: 'The Greek word for faith that persists throughout James — trust, belief, and steadfast conviction.',
+    },
+    {
+      id: 'intertextual-james-proverbs',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'James 1:5 ↔ Proverbs 2:6 (Wisdom)',
+      url: 'https://intertextual.bible/text/proverbs-2.6/james-1.5',
+      description: 'Side-by-side comparison showing how James echoes the OT call to seek wisdom from God.',
     },
   ],
 

@@ -42,7 +42,7 @@ export const FIRST_PETER_4: RichChapterContent = {
           kind: 'commentary',
           id: 'v1-arm',
           html:
-            'Peter opens with a logical hinge: <em>forasmuch then</em>—because Christ has suffered, therefore you must arm yourselves. Not with weapons, but with resolve. The Greek word for &ldquo;arm&rdquo; is <em>hoplizō</em>: to equip, to ready oneself for conflict. What you are readying yourself for is not earthly warfare, but the internal battle against sin&apos;s pull. When Christ suffered, He did not yield to anger, fear, bitterness, or despair. He remained obedient. That obedience, that inner stance toward God, is what you are to &ldquo;put on&rdquo; like armor.',
+            'Peter opens with a logical hinge: <em>forasmuch then</em>—because Christ has suffered, therefore you must arm yourselves. Not with weapons, but with resolve. The Greek word for &ldquo;arm&rdquo; is <em>hoplizō</em>: to equip, to ready oneself for conflict. What you are readying yourself for is not earthly warfare, but the internal battle against sin&apos;s pull. When Christ suffered, He did not yield to anger, fear, bitterness, or despair. He remained obedient. That obedience, that inner stance toward God, is what you are to &ldquo;put on&rdquo; like armor[res:sefaria-proverbs10][res:perseus-diakonos][res:intertextual-peter-matthew25].',
         },
         {
           kind: 'greek',
@@ -585,6 +585,33 @@ export const FIRST_PETER_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Peter 4 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-proverbs10',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 10:12 — Love Covers a Multitude of Sins',
+      url: 'https://www.sefaria.org/Proverbs.10.12',
+      description: 'OT foundation for Peter&apos;s teaching that fervent love covers transgressions.',
+    },
+    {
+      id: 'perseus-diakonos',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Greek Lexicon — Diakonos (Servant/Minister)',
+      url: 'https://www.perseus.tufts.edu/hopper/morph?l=diakonos&la=greek',
+      description: 'The Greek word for &ldquo;minister&rdquo; in 1 Peter 4:10 — one who serves others.',
+    },
+    {
+      id: 'intertextual-peter-matthew25',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Matthew 25:31–46 ↔ 1 Peter 4:10 (Stewardship)',
+      url: 'https://intertextual.bible/text/matthew-25.31/1-peter-4.10',
+      description: 'Cross-reference: Jesus&apos; teaching on using gifts for others echoed in Peter&apos;s call to stewardship.',
+    },
+  ],
 
   hasHebrew: false,
 };

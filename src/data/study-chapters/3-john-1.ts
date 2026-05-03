@@ -41,7 +41,7 @@ export const THIRD_JOHN_1: RichChapterContent = {
           kind: 'commentary',
           id: '3j-truth-intro',
           html:
-            'John opens with affection and precision. He loves Gaius &ldquo;in the truth.&rdquo; Not in sentiment or nostalgia, but in shared conviction about Christ. Truth is the bedrock of their friendship. John&apos;s greeting sets the tone: this is a letter from the church&apos;s teacher to a faithful student, a relationship rooted in the gospel.',
+            'John opens with affection and precision. He loves Gaius &ldquo;in the truth.&rdquo; Not in sentiment or nostalgia, but in shared conviction about Christ. Truth is the bedrock of their friendship. John&apos;s greeting sets the tone: this is a letter from the church&apos;s teacher to a faithful student, a relationship rooted in the gospel[res:sefaria-leviticus-19][res:perseus-philoxenia][res:intertextual-hospitality].',
         },
         {
           kind: 'commentary',
@@ -360,6 +360,33 @@ export const THIRD_JOHN_1: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '3 John · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-leviticus-19',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 19 (Holiness & Love)',
+      url: 'https://www.sefaria.org/Leviticus.19',
+      description: 'The Old Testament foundation for hospitality and love of neighbor, emphasizing practical care and ethical living within the community.',
+    },
+    {
+      id: 'perseus-philoxenia',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'φιλοξενία (philoxenia)',
+      url: 'https://scaife.perseus.org/lexicon/entry/greek-lsj-φιλοξενία/1',
+      description: 'Greek lexicon entry for philoxenia (hospitality/love of strangers), the central virtue Gaius exemplifies in his care for traveling missionaries.',
+    },
+    {
+      id: 'intertextual-hospitality',
+      kind: 'archive',
+      source: 'Intertextual Bible',
+      label: 'Hospitality in Scripture',
+      url: 'https://www.intertextual.bible/search?q=hospitality',
+      description: 'Cross-references to hospitality practices from Old Testament to the epistles, showing how welcoming strangers is an expression of faith and love.',
+    },
+  ],
 
   hasHebrew: false,
 };

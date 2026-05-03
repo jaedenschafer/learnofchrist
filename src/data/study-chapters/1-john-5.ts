@@ -38,7 +38,7 @@ export const FIRST_JOHN_5: RichChapterContent = {
           kind: 'commentary',
           id: 'v1-believes',
           html:
-            'John opens his closing chapter by identifying the foundation of everything he has written: belief. Not mere intellectual agreement, but trust. Not superficial acknowledgment, but the foundation on which a person&apos;s life is built. To believe that Jesus is the Christ is to accept that God became flesh, that the divine entered history, that salvation is real and personal and centered in Him. And John says something stunning: this belief is evidence. It proves you are born of God. You cannot generate this faith on your own.',
+            'John opens his closing chapter by identifying the foundation of everything he has written: belief. Not mere intellectual agreement, but trust. Not superficial acknowledgment, but the foundation on which a person&apos;s life is built. To believe that Jesus is the Christ is to accept that God became flesh, that the divine entered history, that salvation is real and personal and centered in Him. And John says something stunning: this belief is evidence. It proves you are born of God. You cannot generate this faith on your own[res:sefaria-exodus-20][res:perseus-pistis][res:intertextual-eternal-life].',
         },
         {
           kind: 'greek',
@@ -627,6 +627,33 @@ export const FIRST_JOHN_5: RichChapterContent = {
     ref: '1 John 5 · Study Guide',
     label: 'Share 1 John 5',
   },
+
+  resources: [
+    {
+      id: 'sefaria-exodus-20',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 20 (Against Idolatry)',
+      url: 'https://www.sefaria.org/Exodus.20',
+      description: 'The Ten Commandments, particularly the prohibition against graven images, providing Old Testament foundation for John&apos;s warning against idolatry.',
+    },
+    {
+      id: 'perseus-pistis',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'πίστις (pistis)',
+      url: 'https://scaife.perseus.org/lexicon/entry/greek-lsj-πίστις/1',
+      description: 'Greek lexicon entry for pistis (faith/belief), the central concept of 1 John and the victory that overcomes the world.',
+    },
+    {
+      id: 'intertextual-eternal-life',
+      kind: 'archive',
+      source: 'Intertextual Bible',
+      label: 'Eternal Life',
+      url: 'https://www.intertextual.bible/search?q=eternal%20life',
+      description: 'Cross-references to the theme of eternal life from the Gospel of John through the epistles, showing how Christ&apos;s incarnation and resurrection promise everlasting life.',
+    },
+  ],
 
   hasHebrew: false,
 };

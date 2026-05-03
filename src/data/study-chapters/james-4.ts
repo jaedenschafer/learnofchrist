@@ -55,7 +55,7 @@ export const JAMES_4: RichChapterContent = {
           kind: 'commentary',
           id: 'c-war-members',
           html:
-            'James does not point to external enemies. The wars and fightings are <em>among you</em>, in your community — and they spring from a place that is even more internal. Desires at war in your own members, your own body. This is the anatomy of conflict: it begins as a war within before it breaks out between people.',
+            'James does not point to external enemies. The wars and fightings are <em>among you</em>, in your community — and they spring from a place that is even more internal. Desires at war in your own members, your own body. This is the anatomy of conflict: it begins as a war within before it breaks out between people[res:perseus-charis][res:sefaria-isaiah54][res:intertextual-james-romans12].',
         },
         {
           kind: 'greek',
@@ -660,4 +660,38 @@ export const JAMES_4: RichChapterContent = {
     },
   ],
 
+  bottomShare: {
+    quote: 'Humble yourselves in the sight of the Lord, and he shall lift you up. Speak not evil one of another. There is one lawgiver. To him that knoweth to do good and doeth it not, to him it is sin.',
+    snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
+    ref: 'James 4 · Study Guide',
+  },
+
+  resources: [
+    {
+      id: 'perseus-charis',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Greek Lexicon — Charis (Grace)',
+      url: 'https://www.perseus.tufts.edu/hopper/morph?l=charis&la=greek',
+      description: 'The Greek word for &ldquo;grace&rdquo; that appears in James 4:6 — unmerited favor and power from God.',
+    },
+    {
+      id: 'sefaria-isaiah54',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 54:5 — God Resists the Proud',
+      url: 'https://www.sefaria.org/Isaiah.54.5',
+      description: 'OT source text for the principle that God resists pride but gives grace to the humble.',
+    },
+    {
+      id: 'intertextual-james-romans12',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Romans 12:19 ↔ James 4:11–12 (Vengeance)',
+      url: 'https://intertextual.bible/text/romans-12.19/james-4.12',
+      description: 'Cross-reference showing how James echoes Paul on leaving judgment to God.',
+    },
+  ],
+
+  hasHebrew: false,
 };

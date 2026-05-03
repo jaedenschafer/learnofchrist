@@ -73,7 +73,7 @@ export const FIRST_PETER_2: RichChapterContent = {
           kind: 'commentary',
           id: 'c-laying-aside',
           html:
-            'Peter piles up five vices like garbage piled at a door. <em>Malice</em> — ill-will toward others. <em>Guile</em> — deception. <em>Hypocrisies</em> — the split between what you claim to be and what you actually are. <em>Envies</em> — resenting someone else&apos;s good. <em>Evil speakings</em> — slander, the venom of the tongue. The spiritual life does not begin with addition; it begins with subtraction. You cannot desire the sincere milk of God&apos;s word while your mouth is still pouring out venom.',
+            'Peter piles up five vices like garbage piled at a door. <em>Malice</em> — ill-will toward others. <em>Guile</em> — deception. <em>Hypocrisies</em> — the split between what you claim to be and what you actually are. <em>Envies</em> — resenting someone else&apos;s good. <em>Evil speakings</em> — slander, the venom of the tongue. The spiritual life does not begin with addition; it begins with subtraction. You cannot desire the sincere milk of God&apos;s word while your mouth is still pouring out venom[res:sefaria-psalm118][res:sefaria-isaiah53][res:intertextual-peter-exodus].',
         },
         {
           kind: 'greek',
@@ -597,4 +597,33 @@ export const FIRST_PETER_2: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'sefaria-psalm118',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 118:22 — The Stone the Builders Rejected',
+      url: 'https://www.sefaria.org/Psalms.118.22',
+      description: 'The OT foundation for Christ as the rejected cornerstone — exalted by God.',
+    },
+    {
+      id: 'sefaria-isaiah53',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 53:5–6 — By His Stripes We Are Healed',
+      url: 'https://www.sefaria.org/Isaiah.53.5-6',
+      description: 'The suffering servant passage Peter quotes: Christ bore our sins and healed our wounds.',
+    },
+    {
+      id: 'intertextual-peter-exodus',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Exodus 19:6 ↔ 1 Peter 2:9 (Royal Priesthood)',
+      url: 'https://intertextual.bible/text/exodus-19.6/1-peter-2.9',
+      description: 'Cross-reference showing Peter echoes Israel&apos;s identity now applied to the church.',
+    },
+  ],
+
+  hasHebrew: false,
 };

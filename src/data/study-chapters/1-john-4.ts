@@ -48,7 +48,7 @@ export const FIRST_JOHN_4: RichChapterContent = {
           kind: 'commentary',
           id: 'c-test-spirits',
           html:
-            'John calls believers to active discernment. Not every voice claiming spiritual authority speaks for God. The world is full of false prophets—teachers whose words sound spiritual but lead away from truth. Testing is not hostile or suspicious. It is wisdom. When gold is tested, its purity is revealed. When a spiritual teacher is tested, their true allegiance shows.',
+            'John calls believers to active discernment. Not every voice claiming spiritual authority speaks for God. The world is full of false prophets—teachers whose words sound spiritual but lead away from truth. Testing is not hostile or suspicious. It is wisdom. When gold is tested, its purity is revealed. When a spiritual teacher is tested, their true allegiance shows[res:sefaria-exodus-34][res:perseus-pneuma][res:bibleodyssey-incarnation].',
         },
         {
           kind: 'greek',
@@ -620,6 +620,33 @@ export const FIRST_JOHN_4: RichChapterContent = {
           prompt: 'Is there someone you struggle to love? What would it mean for you to obey the commandment to love them—even in one small way?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-exodus-34',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 34 (God&apos;s Merciful Nature)',
+      url: 'https://www.sefaria.org/Exodus.34',
+      description: 'The revelation of God&apos;s nature as merciful, compassionate, and slow to anger, providing Old Testament foundation for John&apos;s declaration that God is love.',
+    },
+    {
+      id: 'perseus-pneuma',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'πνεῦμα (pneuma)',
+      url: 'https://scaife.perseus.org/lexicon/entry/greek-lsj-πνεῦμα/1',
+      description: 'Greek lexicon entry for pneuma (spirit), central to John&apos;s discussion of testing spirits and the Holy Spirit&apos;s indwelling presence.',
+    },
+    {
+      id: 'bibleodyssey-incarnation',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Incarnation',
+      url: 'https://www.bibleodyssey.org/dictionary/incarnation/',
+      description: 'Open-access SBL entry on the incarnation, explaining how Christ&apos;s becoming flesh is the foundational test of true faith in John&apos;s epistle.',
     },
   ],
 

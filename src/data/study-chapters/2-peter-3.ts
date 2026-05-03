@@ -67,7 +67,7 @@ export const SECOND_PETER_3: RichChapterContent = {
           kind: 'commentary',
           id: 'scoffers-intro',
           html:
-            'Peter opens by reminding his readers of what they already know. He is not bringing new doctrine but stirring up the old. The prophets spoke it. The apostles taught it. And now Peter emphasizes a sign of the end times: scoffers will come. Not all will turn away. Some will mock the faith, the promise, the very hope that holds the church together.',
+            'Peter opens by reminding his readers of what they already know. He is not bringing new doctrine but stirring up the old. The prophets spoke it. The apostles taught it. And now Peter emphasizes a sign of the end times: scoffers will come. Not all will turn away. Some will mock the faith, the promise, the very hope that holds the church together[res:sefaria-psalm90][res:intertextual-peter-revelation21][res:intertextual-peter-isaiah65].',
         },
         {
           kind: 'greek',
@@ -665,6 +665,33 @@ export const SECOND_PETER_3: RichChapterContent = {
             'Close your eyes and picture the future that Peter has described. The heavens breaking with a great noise. The elements melting with heat. The earth burning. And in the midst of it all, Christ coming. Not to destroy but to renew. To bring forth new heavens and new earth wherein dwells righteousness. And your own heart, made righteous, at home in righteousness. That day is coming. Not because the world is becoming more godly—it is not. But because Christ is faithful. Because His word stands. Because He will finish what He began. To Him be glory. Now. For ever. Amen.',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-psalm90',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 90:4 — A Thousand Years as One Day',
+      url: 'https://www.sefaria.org/Psalms.90.4',
+      description: 'OT source for Peter&apos;s teaching on God&apos;s eternal perspective on time and His patience.',
+    },
+    {
+      id: 'intertextual-peter-revelation21',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Revelation 21:1–4 ↔ 2 Peter 3:13 (New Heavens and Earth)',
+      url: 'https://intertextual.bible/text/revelation-21.1/2-peter-3.13',
+      description: 'Cross-reference linking Peter&apos;s promise of renewal to John&apos;s vision of the redeemed cosmos.',
+    },
+    {
+      id: 'intertextual-peter-isaiah65',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 65:17 ↔ 2 Peter 3:13 (Righteousness Dwells)',
+      url: 'https://intertextual.bible/text/isaiah-65.17/2-peter-3.13',
+      description: 'OT prophecy of new creation wherein righteousness dwells — fulfilled in Christ&apos;s return.',
     },
   ],
 

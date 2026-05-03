@@ -27,7 +27,7 @@ export const FIRST_PETER_3: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'c-wives-subject',
-          html: 'Peter addresses wives with a stunning paradox: your greatest power lies not in speech but in silence, not in argument but in beauty of life. In a world where women had minimal legal or social standing, where a wife could not divorce her husband, Peter offers something far more valuable—agency through character. The call to submission is not a call to erase yourself.',
+          html: 'Peter addresses wives with a stunning paradox: your greatest power lies not in speech but in silence, not in argument but in beauty of life. In a world where women had minimal legal or social standing, where a wife could not divorce her husband, Peter offers something far more valuable—agency through character. The call to submission is not a call to erase yourself[res:sefaria-genesis18][res:intertextual-peter-psalm34][res:bible-odyssey-baptism].',
         },
         {
           kind: 'greek',
@@ -352,4 +352,33 @@ export const FIRST_PETER_3: RichChapterContent = {
     snippet: '1 Peter 3:18',
     ref: 'For Christ also suffered once for sins, the righteous for the unrighteous, that he might bring us to God, being put to death in the flesh but made alive in the spirit.',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis18',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Genesis 18:19 — Keeping the Way of the Lord',
+      url: 'https://www.sefaria.org/Genesis.18.19',
+      description: 'OT foundation for living righteously and influencing household — Sarah learned this way.',
+    },
+    {
+      id: 'intertextual-peter-psalm34',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 34:12–16 ↔ 1 Peter 3:10–12 (Sanctified Living)',
+      url: 'https://intertextual.bible/text/psalm-34.12/1-peter-3.10',
+      description: 'Cross-reference linking Peter&apos;s call to righteous living with the psalmist&apos;s counsel.',
+    },
+    {
+      id: 'bible-odyssey-baptism',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Baptism in the Early Church',
+      url: 'https://www.bibleodyssey.org/dictionary/baptism/',
+      description: 'SBL study on baptism as covenant sign and death-to-life transformation in apostolic practice.',
+    },
+  ],
+
+  hasHebrew: false,
 };
