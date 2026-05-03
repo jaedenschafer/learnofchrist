@@ -57,7 +57,7 @@ export const FIRST_CORINTHIANS_5: RichChapterContent = {
           script: 'πορνεία',
           translit: '<strong>porneia</strong> · sexual immorality; any sexual relationship outside covenant marriage',
           description:
-            'Porneia is the umbrella term in Greek for illicit sexual acts — fornication, adultery, incest. It appears frequently in Paul&apos;s letters as the gravest threat to the church&apos;s holiness. Here, a specific instance of porneia is destroying the church&apos;s witness.',
+            'Porneia[res:perseus-greek-porneia] is the umbrella term in Greek for illicit sexual acts — fornication, adultery, incest[res:sefaria-leviticus-18-20]. It appears frequently in Paul&apos;s letters as the gravest threat to the church&apos;s holiness. Here, a specific instance of porneia is destroying the church&apos;s witness.',
         },
         {
           kind: 'scripture',
@@ -222,7 +222,7 @@ export const FIRST_CORINTHIANS_5: RichChapterContent = {
           script: 'ζύμη',
           translit: '<strong>zyme</strong> · leaven; fermenting dough; a small thing that spreads corruption',
           description:
-            'Leaven is a small amount of fermenting dough. When mixed into a larger lump, it causes the whole mass to rise and ferment. Paul uses it as an image for how sin spreads. One member&apos;s unrepentant sin does not affect only him. It gradually corrupts the culture, the witness, and the spiritual health of the whole church.',
+            'Leaven is a small amount of fermenting dough. When mixed into a larger lump, it causes the whole mass to rise and ferment. Paul uses it as an image for how sin spreads[res:sefaria-leviticus-23]. One member&apos;s unrepentant sin does not affect only him. It gradually corrupts the culture, the witness, and the spiritual health of the whole church.',
         },
         {
           kind: 'commentary',
@@ -283,7 +283,7 @@ export const FIRST_CORINTHIANS_5: RichChapterContent = {
           id: 'christ-passover-lamb',
           title: 'Christ Connection — Christ Our Passover Lamb',
           html:
-            'Paul makes the connection explicit: &quot;Christ our passover is sacrificed for us.&quot; At the first Passover, a lamb was slain, its blood was painted on the doorposts, and death passed over the homes of Israel (Exodus 12). Now Christ Himself is the Lamb. His blood has been shed. The church has been bought and redeemed. John the Baptist saw Jesus and declared, &quot;Behold the Lamb of God, which taketh away the sin of the world&quot; (John 1:29). The church&apos;s holiness rests on the Lamb&apos;s sacrifice. Therefore, the church must live a life worthy of that redemption.',
+            'Paul makes the connection explicit: &quot;Christ our passover is sacrificed for us.&quot; At the first Passover, a lamb was slain, its blood was painted on the doorposts, and death passed over the homes of Israel[res:sefaria-exodus-12]. Now Christ Himself is the Lamb. His blood has been shed. The church has been bought and redeemed. John the Baptist saw Jesus and declared, &quot;Behold the Lamb of God, which taketh away the sin of the world&quot; (John 1:29). The church&apos;s holiness rests on the Lamb&apos;s sacrifice. Therefore, the church must live a life worthy of that redemption.',
         },
         {
           kind: 'carry',
@@ -521,6 +521,41 @@ export const FIRST_CORINTHIANS_5: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Corinthians 5 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-exodus-12',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 12 — The Passover',
+      url: 'https://www.sefaria.org/Exodus.12',
+      description: 'Complete text of the first Passover with Hebrew and multiple translations — the redemption narrative Paul echoes throughout 1 Corinthians 5.',
+    },
+    {
+      id: 'sefaria-leviticus-23',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 23 — Leaven & Festivals',
+      url: 'https://www.sefaria.org/Leviticus.23',
+      description: 'Second-Temple regulations on unleavened bread and festival observance, showing how leaven imagery carries sacred weight in Jewish practice.',
+    },
+    {
+      id: 'sefaria-leviticus-18-20',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 18 & 20 — Sexual Codes',
+      url: 'https://www.sefaria.org/Leviticus.18',
+      description: 'Detailed Mosaic prohibitions on forbidden sexual relationships including incest — the Levitical backdrop for Paul&apos;s porneia language.',
+    },
+    {
+      id: 'perseus-greek-porneia',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Porneia in Classical Greek',
+      url: 'https://scaife.perseus.org/search?q=porneia',
+      description: 'Classical occurrences of porneia and related sexual terminology in Greek literature — showing Paul&apos;s word within its linguistic context.',
+    },
+  ],
 
   hasHebrew: false,
 };

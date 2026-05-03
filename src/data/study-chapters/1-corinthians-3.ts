@@ -248,7 +248,7 @@ export const FIRST_CORINTHIANS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'cor3-building',
           html:
-            'And you are God&apos;s building. This shifts the image from farming to architecture. Two metaphors in one sentence: you are a field being tended, and you are a structure being built. Both images say the same thing: you are God&apos;s work, not the property of any human leader.',
+            'And you are God&apos;s building. This shifts the image from farming to architecture. Two metaphors in one sentence: you are a field being tended, and you are a structure being built. Both images say the same thing: you are God&apos;s work, not the property of any human leader. Corinth itself was filled with temples and public buildings[res:ascsa-corinth-temple]—Paul&apos;s audience would see in his metaphor a reflection of the architectural ambitions and sacred structures surrounding them.',
         },
         {
           kind: 'christ',
@@ -472,7 +472,7 @@ export const FIRST_CORINTHIANS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'cor3-spirit-dwells',
           html:
-            'Paul shifts the image. They are not just a field God is tending or a building God is constructing. They <em>are</em> the building. The Corinthians themselves are the temple. The Spirit lives in them—not in a stone temple, not in Jerusalem, not in any human-made place. In <em>you.</em> In the gathered church.',
+            'Paul shifts the image. They are not just a field God is tending or a building God is constructing. They <em>are</em> the building. The Corinthians themselves are the temple. The Spirit lives in them—not in a stone temple, not in Jerusalem, not in any human-made place. In <em>you.</em> In the gathered church. The Greek word for the inner temple chamber is naos[res:perseus-naos-lexicon], and Paul claims that each believer and the assembled church fills that sacred space.',
         },
         {
           kind: 'scripture',
@@ -550,7 +550,7 @@ export const FIRST_CORINTHIANS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'cor3-wisdom-inverted',
           html:
-            'The inversion is complete. What the world calls wise, God calls foolish. The clever schemes, the worldly ambition, the carefully calculated image—God sees through all of it. And those who trust in their own cleverness will be caught by it.',
+            'The inversion is complete. What the world calls wise, God calls foolish. The clever schemes, the worldly ambition, the carefully calculated image—God sees through all of it. And those who trust in their own cleverness will be caught by it. Paul quotes Job 5:13[res:sefaria-job-5-13]: &ldquo;He taketh the wise in their own craftiness.&rdquo;',
         },
         {
           kind: 'scripture',
@@ -566,7 +566,7 @@ export const FIRST_CORINTHIANS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'cor3-vain-thoughts',
           html:
-            'Vain. Empty. The Lord knows that the wise—the self-confident, the world-wise—are building on air. Their thoughts lead nowhere. Their schemes hollow out. Only what is built on Christ, with the wisdom of God, endures.',
+            'Vain. Empty. The Lord knows that the wise—the self-confident, the world-wise—are building on air. Their thoughts lead nowhere. Their schemes hollow out. Only what is built on Christ, with the wisdom of God, endures. Paul quotes Psalm 94:11[res:sefaria-psalm-94-11] to show that Scripture itself teaches this inversion of human judgment.',
         },
         {
           kind: 'scripture',
@@ -613,4 +613,39 @@ export const FIRST_CORINTHIANS_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Corinthians 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-job-5-13',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Job 5:13 — Quotation in 1 Corinthians 3:19',
+      url: 'https://www.sefaria.org/Job.5.13',
+      description: 'The Hebrew Bible passage quoted by Paul to demonstrate that God&apos;s wisdom inverts worldly cleverness.',
+    },
+    {
+      id: 'sefaria-psalm-94-11',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 94:11 — Quotation in 1 Corinthians 3:20',
+      url: 'https://www.sefaria.org/Psalms.94.11',
+      description: 'The psalmist&apos;s declaration that God knows all human schemes are vain, echoed in Paul&apos;s rebuke of worldly wisdom.',
+    },
+    {
+      id: 'ascsa-corinth-temple',
+      kind: 'archaeology',
+      source: 'ASCSA',
+      label: 'Corinth Temple Archaeology',
+      url: 'https://www.ascsa.net/projects/corinth/',
+      description: 'Excavation and architectural evidence of temple structures in Roman Corinth, illuminating the temple metaphor Paul employs.',
+    },
+    {
+      id: 'perseus-naos-lexicon',
+      kind: 'lexicon',
+      source: 'Perseus Scaife',
+      label: 'Naos — Greek Temple Terminology',
+      url: 'https://scaife.perseus.org/dictionary/ls/naos/',
+      description: 'Lexical entry for the Greek term naos (inner temple chamber), grounding Paul&apos;s claim that believers are God&apos;s naos.',
+    },
+  ],
 };

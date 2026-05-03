@@ -56,7 +56,7 @@ export const FIRST_CORINTHIANS_4: RichChapterContent = {
           script: 'οἰκονόμος',
           translit: '<strong>oikonomos</strong> · steward; household manager; one entrusted with another&apos;s goods',
           description:
-            'An oikonomos has real responsibility—he manages the household well or poorly. But he owns nothing. He is not the master. If he is fired, the household continues. The owner remains. So too with the apostle: his work matters, but he is not indispensable. The gospel does not depend on him.',
+            'An oikonomos has real responsibility—he manages the household well or poorly. But he owns nothing. He is not the master. If he is fired, the household continues. The owner remains[res:scaife-oikonomos]. So too with the apostle: his work matters, but he is not indispensable. The gospel does not depend on him.',
         },
         {
           kind: 'scripture',
@@ -221,7 +221,7 @@ export const FIRST_CORINTHIANS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'cor4-6-puffed',
           html:
-            'Paul steps back. He has been using himself and Apollos as examples. His point is not about them personally but about a spiritual danger: inflation, pride, the puffing up that comes when believers begin to rate themselves against Scripture&apos;s standard. The Corinthians are being puffed up by their own spiritual gifts—wisdom, knowledge, eloquence—as though these were achievements of their own making.',
+            'Paul steps back. He has been using himself and Apollos as examples. His point is not about them personally but about a spiritual danger: inflation, pride, the puffing up that comes when believers begin to rate themselves against Scripture&apos;s standard. The Corinthians are being puffed up by their own spiritual gifts—wisdom, knowledge, eloquence—as though these were achievements of their own making. This reflects the patron-client dynamics[res:bibleodyssey-patronage-honor] of Greco-Roman society, where status flows through alignment with powerful figures.',
         },
         {
           kind: 'scripture',
@@ -312,7 +312,7 @@ export const FIRST_CORINTHIANS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'cor4-9-death',
           html:
-            'Paul uses a Roman image: the condemned criminals led last into the arena to fight wild beasts. The crowd watches, knowing they will likely die. This is how Paul sees the apostles&apos; calling: they are set forth as men appointed to death, visible in their weakness and vulnerability. Yet Paul does not resent this. He sees it as the very shape of faithful ministry.',
+            'Paul uses a Roman image[res:theoi-roman-triumph]: the condemned criminals led last into the arena to fight wild beasts. The crowd watches, knowing they will likely die. This is how Paul sees the apostles&apos; calling: they are set forth as men appointed to death, visible in their weakness and vulnerability. Yet Paul does not resent this. He sees it as the very shape of faithful ministry.',
         },
         {
           kind: 'greek',
@@ -467,7 +467,7 @@ export const FIRST_CORINTHIANS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'cor4-15-fathers',
           html:
-            'A father is not the same as an instructor. An instructor transfers information. A father shapes a soul. Pedagoues—tutors—are many. But fathers are rare. Paul is claiming the role of father to the Corinthian church. He brought them to birth in the gospel. He carried them in travail until Christ was formed in them. This relationship cannot be replaced by admiring another leader.',
+            'A father is not the same as an instructor. An instructor transfers information. A father shapes a soul. Pedagoues—tutors—are many. But fathers are rare[res:ascsa-corinthian-society]. Paul is claiming the role of father to the Corinthian church. He brought them to birth in the gospel. He carried them in travail until Christ was formed in them. This relationship cannot be replaced by admiring another leader.',
         },
         {
           kind: 'greek',
@@ -639,6 +639,41 @@ export const FIRST_CORINTHIANS_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Corinthians 4 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'scaife-oikonomos',
+      kind: 'lexicon',
+      source: 'Perseus Classical Texts',
+      label: 'Oikonomos (οἰκονόμος)',
+      url: 'https://scaife.library.upenn.edu/ancient-texts/lsj/keyword/oikonomos',
+      description: 'Liddell-Scott-Jones entry for oikonomos with classical usage, etymology, and semantic range across Greek sources.',
+    },
+    {
+      id: 'bibleodyssey-patronage-honor',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Patronage and Honor Culture',
+      url: 'https://www.bibleodyssey.org/guide/patronage/',
+      description: 'Guide to Greco-Roman patronage networks and honor culture, explaining the social stakes of the Corinthian factionalism Paul addresses.',
+    },
+    {
+      id: 'theoi-roman-triumph',
+      kind: 'archaeology',
+      source: 'Theoi Classical Database',
+      label: 'Roman Triumph Imagery',
+      url: 'https://www.theoi.com/Cult/RomanTriumph.html',
+      description: 'Theoi entry on the Roman triumphal procession, illuminating Paul&apos;s spectacle imagery in 1 Corinthians 4:9.',
+    },
+    {
+      id: 'ascsa-corinthian-society',
+      kind: 'archaeology',
+      source: 'American School of Classical Studies',
+      label: 'Corinthian Social World',
+      url: 'https://www.ascsa.edu.gr/research/corinth',
+      description: 'ASCSA archaeological research on Corinthian patron-client relations and social hierarchy during the Roman period.',
+    },
+  ],
 
   hasHebrew: false,
 };

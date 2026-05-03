@@ -48,7 +48,7 @@ export const FIRST_CORINTHIANS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'cor2-not-excellency',
           html:
-            'Paul makes a deliberate choice, not born of inability but of conviction. Corinth was a city of rhetoricians and philosophers. A speaker with eloquence could build a following. But eloquence carries a subtle danger: people begin to believe because the preacher is impressive, and the foundation cracks when the preacher is gone. Paul refuses this trap. He will not be the foundation.',
+            'Paul makes a deliberate choice, not born of inability but of conviction. Corinth was a city of rhetoricians and philosophers[res:ascsa-corinth-cosmopolitan]. A speaker with eloquence could build a following. But eloquence carries a subtle danger: people begin to believe because the preacher is impressive, and the foundation cracks when the preacher is gone. Paul refuses this trap. He will not be the foundation.',
         },
         {
           kind: 'carry',
@@ -281,7 +281,7 @@ export const FIRST_CORINTHIANS_2: RichChapterContent = {
           script: 'μυστήριον',
           translit: '<strong>mysterion</strong> · a secret; that which is hidden and now revealed',
           description:
-            'A mystery in Scripture is not something inexplicable. It is something that was hidden but is now being revealed. The mystery of Christ is that God would save the world through the cross, that the despised would become victorious, that weakness would become strength. Once revealed, it makes perfect sense. Before revelation, it was incomprehensible.',
+            'A mystery in Scripture is not something inexplicable. It is something that was hidden but is now being revealed. The mystery of Christ is that God would save the world through the cross, that the despised would become victorious, that weakness would become strength. Once revealed, it makes perfect sense. Before revelation, it was incomprehensible. Unlike Hellenistic mystery cults[res:theoi-mystery-religions], which promised hidden knowledge through initiation, God&apos;s mystery is revealed openly to all who believe.',
         },
         {
           kind: 'commentary',
@@ -293,7 +293,7 @@ export const FIRST_CORINTHIANS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'cor2-eye-hath-not',
           html:
-            'Paul quotes Isaiah (64:4): eye has not seen, ear has not heard, no one&apos;s heart has imagined what God has prepared for those who love Him. The cross seems like the end of everything. But it is the gateway to glories no human mind can picture. God&apos;s plan is not just larger than what we can see; it is of a different order entirely.',
+            'Paul quotes Isaiah (64:4)[res:sefaria-isaiah-64-4]: eye has not seen, ear has not heard, no one&apos;s heart has imagined what God has prepared for those who love Him. The cross seems like the end of everything. But it is the gateway to glories no human mind can picture. God&apos;s plan is not just larger than what we can see; it is of a different order entirely.',
         },
         {
           kind: 'christ',
@@ -422,7 +422,7 @@ export const FIRST_CORINTHIANS_2: RichChapterContent = {
           script: 'ψυχικός',
           translit: '<strong>psychikos</strong> · natural; of the soul; the life-force that is purely human',
           description:
-            'Psychikos refers to the life and understanding that flow from the human soul alone—from reason, emotion, will, experience. It is not evil. But it is limited. It cannot perceive what is spiritual because it has no apparatus for it. Spiritual truth requires the Spirit.',
+            'Psychikos refers to the life and understanding that flow from the human soul alone—from reason, emotion, will, experience. It is not evil. But it is limited. It cannot perceive what is spiritual because it has no apparatus for it. Spiritual truth requires the Spirit. In Paul&apos;s Greek vocabulary[res:scaife-pneuma-sophia], pneumatikos (spiritual) and sophia (wisdom) represent realities that transcend the psychikos realm entirely.',
         },
         {
           kind: 'commentary',
@@ -522,6 +522,41 @@ export const FIRST_CORINTHIANS_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: '1 Corinthians 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-isaiah-64-4',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Isaiah 64:4 — The Source of Paul&apos;s Quotation',
+      url: 'https://www.sefaria.org/Isaiah.64.4',
+      description: 'The Isaiah passage Paul quotes in 1 Corinthians 2:9 with full Hebrew and English, showing the original context of divine mystery and hiddenness.',
+    },
+    {
+      id: 'theoi-mystery-religions',
+      kind: 'lexicon',
+      source: 'Theoi Classical Religion',
+      label: 'Greek Mystery Religions',
+      url: 'https://www.theoi.com/Cult/MysteryReligions.html',
+      description: 'Background on Hellenistic mystery cults and their use of hiddenness and initiation — the context Paul confronts with the revealed mystery of Christ.',
+    },
+    {
+      id: 'scaife-pneuma-sophia',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Pneumatikos & Sophia in Greek Texts',
+      url: 'https://www.scaife.perseus.org/browse',
+      description: 'Search interface for ancient Greek texts containing pneumatikos (spiritual) and sophia (wisdom) — key terms in Paul&apos;s theology of the Spirit.',
+    },
+    {
+      id: 'ascsa-corinth-cosmopolitan',
+      kind: 'archaeology',
+      source: 'ASCSA',
+      label: 'Corinth Archaeological Site',
+      url: 'https://ascsa.net/research/corinth',
+      description: 'Roman-era Corinth as a thriving commercial and intellectual hub — the cosmopolitan city Paul addressed with the gospel of weakness and the cross.',
+    },
+  ],
 
   hasHebrew: false,
 };
