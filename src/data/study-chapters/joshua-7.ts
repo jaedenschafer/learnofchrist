@@ -1,11 +1,11 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 7 — Achan[res:bibleodyssey-achan-sin]&apos;s Secret Sin and the Defeat at Ai[res:iaa-ai-excavation]
+ * Joshua 7 — Achan&apos;s Secret Sin and the Defeat at Ai[res:iaa-ai-excavation]
  *
- * When Israel[res:intertextual-sin-community]&apos;s first conquest attempt at Ai fails, Joshua tears his clothes
+ * When Israel&apos;s first conquest attempt at Ai fails, Joshua tears his clothes
  * and falls in prayer. The Lord answers: Israel has sinned. Achan, in covetousness,
- * took devoted[res:sefaria-devoted-things] plunder and hid it. The pattern of sin — I saw, I coveted, I took,
+ * took devoted plunder and hid it. The pattern of sin — I saw, I coveted, I took,
  * I hid — mirrors Eve in Eden and David with Bathsheba. The valley of Achor[res:intertextual-achor-hope][res:topostext-achor-valley] becomes
  * judgment, but Hosea will prophesy it as the "door of hope."
  */

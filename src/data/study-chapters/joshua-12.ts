@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 12 — A Roll-Call of Kings[res:sefaria-kings-list-geography][res:bibleodyssey-joshua-conquered-kings]
+ * Joshua 12 — A Roll-Call of Kings[res:sefaria-kings-list-geography]
  *
  * This chapter lists two groups of kings Israel defeated: those east of Jordan
  * (under Moses) and those west of Jordan (under Joshua). It&apos;s a catalog of
@@ -33,7 +33,7 @@ export const JOSHUA_12: RichChapterContent = {
             {
               number: 1,
               spans: [
-                t('Now these are the kings of the land[res:sefaria-conquered-territory], which the children of Israel smote, and '),
+                t('Now these are the kings of the land, which the children of Israel smote, and '),
                 hp('possessed their land on the other side Jordan', 'jordan-east'),
                 t(' toward the rising of the sun; from the river Arnon unto mount Hermon, and all the plain on the east:'),
               ],
@@ -44,7 +44,7 @@ export const JOSHUA_12: RichChapterContent = {
           kind: 'commentary',
           id: 'jordan-east',
           html:
-            'The phrase &ldquo;on the other side Jordan&rdquo; marks territory already settled under Moses—not by Joshua, but in the generation before him. This list honors the work of the previous era. The boundary stretches from the Arnon River (south) to Mount Hermon (north)—the Transjordanian territory promised[res:intertextual-promised-land] to Reuben, Gad, and half of Manasseh.',
+            'The phrase &ldquo;on the other side Jordan&rdquo; marks territory already settled under Moses—not by Joshua, but in the generation before him. This list honors the work of the previous era. The boundary stretches from the Arnon River (south) to Mount Hermon (north)—the Transjordanian territory promised to Reuben, Gad, and half of Manasseh.',
         },
         {
           kind: 'scripture',

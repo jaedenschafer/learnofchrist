@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 19 — The Remaining[res:bibleodyssey-remaining-tribe[res:sefaria-tribe-unique-territory]s] Tribe[res:intertextual-all-tribes-portions]s[res:sefaria-territories-assigned] and Joshua&apos;s Inheritance
+ * Joshua 19 — The Remaining[res:bibleodyssey-remaining-tribe[res:sefaria-tribe-unique-territory]s] Tribes and Joshua&apos;s Inheritance
  *
  * Six more tribal allotments complete the land division: Simeon (nested
  * in Judah), Zebulun, Issachar, Asher, Naphtali, and Dan. Finally,
@@ -54,7 +54,7 @@ export const JOSHUA_19: RichChapterContent = {
           kind: 'commentary',
           id: 'c-simeon-within',
           html:
-            'Simeon gets no contiguous territory. Instead, their cities sit inside Judah&apos;s boundaries — Beersheba, Sheba, Moladah, and a dozen others scattered throughout. This is not a punishment on the page, but it is Jacob&apos;s ancient prophecy working itself out in geography. Centuries earlier, Jacob blessed his sons and said of Simeon: "I will divide them in Jacob, and scatter them in Israel" (Genesis 49:7). Now the blessing unfolds. Simeon is scattered — and absorbed.',
+            'Simeon gets no contiguous territory. Instead, their cities sit inside Judah&apos;s boundaries — Beersheba, Sheba, Moladah, and a dozen others scattered throughout. This is not a punishment on the page, but it is Jacob&apos;s ancient prophecy working itself out in geography. Centuries earlier, Jacob blessed his sons and said of Simeon: "I will divide them in Jacob, and scatter them in Israel" (Genesis 49:7). Now the blessing unfolds. Simeon is scattered — and absorbed[res:bibleodyssey-remaining-tribes].',
         },
         {
           kind: 'hebrew',
@@ -124,7 +124,7 @@ export const JOSHUA_19: RichChapterContent = {
             {
               number: 14,
               spans: [
-                t('Kattath also, and Nahallal, and Shimron, and Idalah, and Bethlehem: twelve[res:bibleodyssey-twelve-tribes-allotment] cities with their villages.'),
+                t('Kattath also, and Nahallal, and Shimron, and Idalah, and Bethlehem: twelve cities with their villages.'),
               ],
             },
             {

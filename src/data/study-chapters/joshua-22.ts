@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 22 — The Eastern Tribes' Altar[res:sefaria-altar-conflict] and the Unity of God's People
+ * Joshua 22 — The Eastern Tribes' Altar and the Unity of God's People
  *
  * Joshua 22 is a chapter about belonging and misunderstanding resolved through
  * investigation rather than judgment. The eastern tribes build a witness altar
@@ -14,8 +14,8 @@ export const JOSHUA_22: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 14, deep: 18 },
   intros: [
-    'Joshua 22 is a story about the power of physical memory and the fragility of unity across separation. After years of conquest, Joshua releases the eastern tribes — Reuben[res:sefaria-reuben-gad-manasseh][res:bibleodyssey-reuben-gad-return], Gad, and half of Manasseh — to return to their lands east of the Jordan. But before they depart, Joshua reinforces one crucial command: do not forget the Lord your God.',
-    'When the eastern tribes build an altar at the Jordan border, the rest of Israel sees only rebellion. But the altar is not meant for sacrifice; it is meant to be a witness — a sign stone that the eastern tribes belong to the God of Israel, even though the Jordan divides their land. What could have ended in bloodshed ends in peace[res:intertextual-unity-reconciliation], because the western tribes chose to investigate before condemning.',
+    'Joshua 22 is a story about the power of physical memory and the fragility of unity across separation. After years of conquest, Joshua releases the eastern tribes — Reuben[res:sefaria-reuben-gad-manasseh], Gad, and half of Manasseh — to return to their lands east of the Jordan. But before they depart, Joshua reinforces one crucial command: do not forget the Lord your God.',
+    'When the eastern tribes build an altar at the Jordan border, the rest of Israel sees only rebellion. But the altar is not meant for sacrifice; it is meant to be a witness — a sign stone that the eastern tribes belong to the God of Israel, even though the Jordan divides their land. What could have ended in bloodshed ends in peace, because the western tribes chose to investigate before condemning.',
     'For a reader on this side of the cross, Joshua 22 whispers a truth Jesus would make plain: the body of Christ is one across every boundary — geography, time, circumstance. No river, no distance, no separation can sever what God has called together.',
   ],
 

@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua[res:intertextual-complete-obedience] 8 — Victory at Ai[res:bibleodyssey-ai-ambush] and the Law[res:sefaria-joshua-law-reading] read at Ebal[res:bibleodyssey-ebal].
+ * Joshua 8 — Victory at Ai and the Law read at Ebal[res:bibleodyssey-ebal].
  * After the defeat at Achan, God renews the call to courage and gives Joshua
  * a military strategy that succeeds. But conquest yields immediately to covenant[res:sefaria-covenant-law]:
  * Joshua builds an altar on Mount Ebal[res:iaa-mount-ebal] and reads the entire law before all Israel,

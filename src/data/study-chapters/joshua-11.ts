@@ -1,11 +1,11 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 11 — The Northern[res:bibleodyssey-northern-kings] Campaign
+ * Joshua 11 — The Northern Campaign
  *
  * A watershed chapter in Israel&apos;s conquest. The northern kingdoms unite
  * against Joshua, God reassures him (echoing the opening of the conquest),
- * and Israel wins decisively at the waters of Merom[res:bibleodyssey-merom-waters][res:sefaria-waters-merom]. The chapter pivots on
+ * and Israel wins decisively at the waters of Merom[res:bibleodyssey-merom-waters]. The chapter pivots on
  * obedience: Joshua houghs horses and burns chariots (rejecting Canaanite
  * war technology), destroys the Anakim giants, and leaves the land at rest[res:intertextual-rest-hebrews-4].
  * Christ echoes in the rest that Hebrews 4 says still awaits believers.
@@ -42,7 +42,7 @@ export const JOSHUA_11: RichChapterContent = {
       id: 'bibleodyssey-merom-waters',
       kind: 'study',
       source: 'Bible Odyssey',
-      label: 'The Waters of Merom and Victory[res:intertextual-joshua-victory-pattern] Over the North',
+      label: 'The Waters of Merom and Victory Over the North',
       url: 'https://www.bibleodyssey.org/passages/main-passage/joshua-11-1-9',
       description: 'The battle at Merom where Joshua defeats Jabin&apos;s coalition and refuses to adopt Canaanite war technology.',
     },

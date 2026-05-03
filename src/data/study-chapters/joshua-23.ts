@@ -2,9 +2,9 @@ import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
  * Joshua[res:bibleodyssey-joshua-farewell] 23 — Joshua's first farewell. An elderly Joshua calls Israel to
- * remember God's faithful[res:intertextual-exhortation-faithfulness]ness, obey the law, avoid idolatry, and cling to
+ * remember God's faithfulness, obey the law, avoid idolatry, and cling to
  * the Lord. The chapter anchors on the promise-keeping God and the peril of
- * covenant[res:sefaria-covenant-faithfulness-warning][res:sefaria-covenant-obedience]-breaking.
+ * covenant[res:sefaria-covenant-faithfulness-warning]-breaking.
  */
 export const JOSHUA_23: RichChapterContent = {
   bookSlug: 'joshua',

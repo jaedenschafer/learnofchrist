@@ -1,9 +1,9 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 14 — Caleb[res:bibleodyssey-caleb-giants][res:bibleodyssey-caleb-inheritance]&apos;s inheritance. The tribes receive their lots in the Promised Land,
+ * Joshua 14 — Caleb[res:bibleodyssey-caleb-giants]&apos;s inheritance. The tribes receive their lots in the Promised Land,
  * but the great moment belongs to Caleb: the man who wholly followed the Lord is rewarded
- * with the very mountain that still held giants. Patient faith[res:sefaria-faith-45-years][res:intertextual-faithfulness-reward] vindicated. A life that
+ * with the very mountain that still held giants. Patient faith[res:sefaria-faith-45-years] vindicated. A life that
  * didn&apos;t waver for 45 years, and at 85, still asking for mountains instead of coasting.
  */
 export const JOSHUA_14: RichChapterContent = {
@@ -338,7 +338,7 @@ export const JOSHUA_14: RichChapterContent = {
             {
               number: 13,
               spans: [
-                t('And Joshua blessed him, and gave unto Caleb the son of Jephunneh Hebron[res:sefaria-hebron-possession] for an inheritance.'),
+                t('And Joshua blessed him, and gave unto Caleb the son of Jephunneh Hebron for an inheritance.'),
               ],
             },
           ],

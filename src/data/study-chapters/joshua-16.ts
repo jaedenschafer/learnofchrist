@@ -1,7 +1,7 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 16 — Joseph[res:bibleodyssey-joseph-ephraim-manasseh][res:sefaria-joseph-inheritance]&apos;s inheritance: Ephraim[res:bibleodyssey-ephraim-manasseh] and Manasseh divide the land.
+ * Joshua 16 — Joseph[res:bibleodyssey-joseph-ephraim-manasseh]&apos;s inheritance: Ephraim and Manasseh divide the land.
  * The theme: incomplete obedience brings compromise that later becomes a snare.
  */
 export const JOSHUA_16: RichChapterContent = {
@@ -116,7 +116,7 @@ export const JOSHUA_16: RichChapterContent = {
               number: 8,
               spans: [
                 t('From Tappuah the border went along on the west side of the river Kanah; and the goings out thereof were at the sea. '),
-                hy('This is the inheritance of the tribe[res:intertextual-tribes-promise] of the children of Ephraim', 'ephraim-inherit'),
+                hy('This is the inheritance of the tribe of the children of Ephraim', 'ephraim-inherit'),
                 t(' by their families.'),
               ],
             },

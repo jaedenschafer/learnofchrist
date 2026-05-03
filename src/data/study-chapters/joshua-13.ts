@@ -1,12 +1,12 @@
 import { hp, hy, hg, t, type RichChapterContent } from './types';
 
 /**
- * Joshua 13 — The Land That Remains; Eastern Inheritance[res:sefaria-inheritance-tribes[res:intertextual-tribes-covenant]]
+ * Joshua 13 — The Land That Remains; Eastern Inheritance
  *
  * Joshua is old and stricken in years. The Lord reminds him: "Thou art old and
  * stricken in years, and there remaineth yet very much land to be possessed."
  * Even after great victories, there is always more to possess. The chapter
- * then recaps the eastern inheritance of Reuben[res:bibleodyssey-reuben-gad-manasseh], Gad, and half-Manasseh under
+ * then recaps the eastern inheritance of Reuben, Gad, and half-Manasseh under
  * Moses, with detailed borders and cities. Levi&apos;s inheritance is the Lord.
  *
  * Central themes: the incompleteness of conquest; God&apos;s promise to complete
@@ -58,7 +58,7 @@ export const JOSHUA_13: RichChapterContent = {
           kind: 'commentary',
           id: 'c-old-age',
           html:
-            'Joshua has lived long enough to see the major battles won. He has done what no other human general could do alone — he has brought Israel into their promised land. Yet at the height of his success, the text names his age and weakness. This is not shame. It is realism. No human leader, no matter how mighty, completes the full work of God.',
+            'Joshua has lived long enough to see the major battles won. He has done what no other human general could do alone — he has brought Israel into their promised land. Yet at the height of his success, the text names his age and weakness. This is not shame. It is realism. No human leader, no matter how mighty, completes the full work of God[res:intertextual-better[res:intertextual-better-inheritance]-inheritance].',
         },
         {
           kind: 'scripture',
@@ -377,7 +377,7 @@ export const JOSHUA_13: RichChapterContent = {
       description: 'The unique status of the tribe of Levi, who receive God Himself as their inheritance rather than territorial possession.',
     },
     {
-      id: 'intertextual-better[res:intertextual-better-inheritance]-inheritance',
+      id: 'intertextual-better-inheritance',
       kind: 'study',
       source: 'Intertextual Bible',
       label: 'From Land to Inheritance in Christ',

@@ -6,8 +6,8 @@ import { hp, hy, hg, t, type RichChapterContent } from './types';
  * When Israel stands at the threshold of Canaan, a neighboring city resorts
  * to deception to survive. Joshua and the princes, without counsel from the
  * Lord, swear an oath[res:sefaria-oath-covenant-binding]. The chapter turns on a single phrase: "they asked not
- * counsel at the mouth of the Lord." Yet even a covenant[res:sefaria-treaty-israel] made in haste binds
- * God&apos;s people — and the Gibeonites[res:bibleodyssey-gibeonite-deception], sworn enemies turned servants,
+ * counsel at the mouth of the Lord." Yet even a covenant made in haste binds
+ * God&apos;s people — and the Gibeonites, sworn enemies turned servants,
  * end up serving at God&apos;s altar.
  */
 export const JOSHUA_9: RichChapterContent = {
@@ -294,7 +294,7 @@ export const JOSHUA_9: RichChapterContent = {
             {
               number: 16,
               spans: [
-                t('And it came to pass at the end of three days after they had made a league with them[res:intertextual-discernment-deception], that they heard that they were their neighbours, and that they dwelt among them.'),
+                t('And it came to pass at the end of three days after they had made a league with them, that they heard that they were their neighbours, and that they dwelt among them.'),
               ],
             },
             {
