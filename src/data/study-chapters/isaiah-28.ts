@@ -128,6 +128,18 @@ export const ISAIAH_28: RichChapterContent = {
             plain(22, 'Now therefore be ye not mockers, lest your bands be made strong: for I have heard from the Lord God of hosts a consumption, even determined upon the whole earth.'),
             plain(23, 'Give ye ear, and hear my voice; hearken, and hear my speech.'),
             plain(24, 'Doth the plowman plow all day to sow? doth he open and break the clods of his ground?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa28-cornerstone-pivot',
+          html:
+            'From the scorning comes the foundation. The cornerstone is laid; all who believe shall not be ashamed.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 28,
+          lines: [
             plain(25, 'When he hath made plain the face thereof, doth he not cast abroad the fitches, and scatter the cummin, and cast in the principal wheat and the appointed barley and the rie in their place?'),
             plain(26, 'For his God doth instruct him to discretion, and doth teach him.'),
             plain(27, 'For the fitches are not threshed with a threshing instrument, neither is a cart wheel turned about upon the cummin; but the fitches are beaten out with a staff, and the cummin with a rod.'),

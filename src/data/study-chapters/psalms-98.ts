@@ -34,6 +34,18 @@ export const PSALMS_98: RichChapterContent = {
             plain(2, 'The Lord hath made known his salvation: his righteousness hath he openly shewed in the sight of the heathen.'),
             plain(3, 'He hath remembered his mercy and his truth toward the house of Israel: all the ends of the earth have seen the salvation of our God.'),
             plain(4, 'Make a joyful noise unto the Lord, all the earth: make a loud noise, and rejoice, and sing praises.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps98-victory-salvation',
+          html:
+            'The Lord has won a victory. Now the psalm widens: all the earth has seen his salvation.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 98,
+          lines: [
             plain(5, 'Sing unto the Lord with the harp; with the harp, and the voice of a psalm;'),
             plain(6, 'With trumpets and sound of a cornet: make a joyful noise before the King, the Lord.'),
             plain(7, 'Let the sea roar, and the fulness thereof; the world, and they that dwell therein.'),

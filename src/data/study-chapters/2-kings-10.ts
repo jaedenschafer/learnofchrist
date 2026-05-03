@@ -172,6 +172,18 @@ export const KINGS_2_10: RichChapterContent = {
             plain(20, 'And Jehu said, Proclaim a solemn assembly for Baal. And they proclaimed it.'),
             plain(21, 'And Jehu sent through all Israel: and all the worshippers of Baal came, so that there was not a man left that came not. And they came into the house of Baal; and the house of Baal was full from one end to another.'),
             plain(22, 'And he said unto him that was over the vestry, Bring forth vestments for all the worshippers of Baal. And he brought them forth vestments.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2k10-eradication-claim',
+          html:
+            'Jehu eradicates Baal worship; he declares his zeal for the Lord—but zealotry without faith remains empty.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             plain(23, 'And Jehu went, and Jehonadab the son of Rechab, into the house of Baal, and said unto the worshippers of Baal, Search, and look that there be here with you none of the servants of the Lord, but the worshippers of Baal only.'),
             plain(24, 'And when they went in to offer sacrifices and burnt offerings, Jehu appointed fourscore men without, and said, If any of the men whom I have brought into your hands escape, he that letteth him go, his life shall be for the life of him.'),
             plain(25, 'And it came to pass, as soon as he had made an end of offering the burnt offering, that Jehu said to the guard and to the captains, Go in, and slay them; let none come forth. And they smote them with the edge of the sword; and the guard and the captains cast them out, and went to the city of the house of Baal.'),
@@ -239,6 +251,18 @@ export const KINGS_2_10: RichChapterContent = {
             plain(29, 'Howbeit from the sins of Jeroboam the son of Nebat, who made Israel to sin, Jehu departed not from after them, the golden calves that were in Bethel, and that were in Dan.'),
             plain(30, 'And the Lord said unto Jehu, Because thou hast done well in executing that which is right in mine eyes, and hast done unto the house of Ahab according to all that was in mine heart, thy children of the fourth generation shall sit on the throne of Israel.'),
             plain(31, 'But Jehu took no heed to walk in the law of the Lord God of Israel with all his heart: he departed not from the sins of Jeroboam.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2k10-zeal-failure',
+          html:
+            'Jehu reigned; but he did not keep the law—zeal without obedience cannot secure the throne.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             plain(32, 'In those days the Lord began to cut Israel short: and Hazael smote them in all the coasts of Israel;'),
             plain(33, 'From the Jordan eastward, all the land of Gilead, the Gadites, and the Reubenites, and the Manassites, from Aroer, which is by the river Arnon, even Gilead and Bashan.'),
             plain(34, 'Now the rest of the acts of Jehu, and all that he did, and all his might, are they not written in the book of the chronicles of the kings of Israel?'),

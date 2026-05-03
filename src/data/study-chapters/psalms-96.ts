@@ -35,6 +35,18 @@ export const PSALMS_96: RichChapterContent = {
             plain(2, 'Sing unto the Lord, bless his name; shew forth his salvation from day to day.'),
             plain(3, 'Declare his glory among the heathen; his wonders among all people.'),
             plain(4, 'For the Lord is great, and greatly to be praised: he is to be feared above all gods.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps96-newness-declare',
+          html:
+            'Sing to the Lord a new song. Now the proclamation broadens: declare his glory among the nations.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 96,
+          lines: [
             plain(5, 'For all the gods of the nations are idols: but the Lord made the heavens.'),
             plain(7, 'Give unto the Lord, O ye kindreds of the people, give unto the Lord glory and strength.'),
             plain(8, 'Give unto the Lord the glory due unto his name: bring an offering, and come into his courts.'),

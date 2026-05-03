@@ -272,6 +272,18 @@ export const KINGS_1_13: RichChapterContent = {
             },
             plain(26, 'And when the prophet that had brought him back heard thereof, he said, It is the man of God, who was disobedient unto the word of the Lord: therefore the Lord hath delivered him unto the lion, which hath torn him, and slain him, according to the word of the Lord which he spake unto him.'),
             plain(27, 'And he spake to his sons, saying, Saddle me the ass. And they saddled him.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1k13-prophet-obedience',
+          html:
+            'The true prophet speaks; the false prophet acts—obedience to the Word is tested and broken.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 13,
+          lines: [
             plain(28, 'And he went and found his carcase cast in the way, and the ass and the lion standing by the carcase: the lion had not eaten the carcase, nor torn the ass.'),
             {
               number: 29,

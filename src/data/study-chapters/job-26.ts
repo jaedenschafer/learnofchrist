@@ -108,6 +108,18 @@ export const JOB_26: RichChapterContent = {
             },
             plain(8, 'He bindeth up the waters in his thick clouds; and the cloud is not rent under them.'),
             plain(9, 'He holdeth back the face of his throne, and spreadeth his cloud upon it.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job26-cosmic-order',
+          html:
+            'Job shifts from speaking of the foundation of creation to its apparent instability. Order hides hidden trembling.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 26,
+          lines: [
             plain(10, 'He hath compassed the waters with bounds, until the day and night come to an end.'),
             {
               number: 11,

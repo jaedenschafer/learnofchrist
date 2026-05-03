@@ -102,6 +102,18 @@ export const KINGS_2_4: RichChapterContent = {
             plain(10, 'Let us make a little chamber, I pray thee, on the wall; and let us set for him there a bed, and a table, and a stool, and a candlestick: and it shall be, when he cometh to us, that he shall turn in thither.'),
             plain(11, 'And it fell on a day, that he came thither, and he turned into the chamber, and lay there.'),
             plain(12, 'And he said to Gehazi his servant, Call this Shunammite. And when he had called her, she stood before him.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2k4-woman-room',
+          html:
+            'The Shunnamite recognizes the man of God; she builds him a room—provision meets prophecy, and the prophet finds rest.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(13, 'And he said unto her, Thou hast been careful for us with all this care: now what is to be done for thee? wouldest thou be spoken for to the king, or to the captain of the host? And she answered, I dwell among mine own people.'),
             plain(14, 'And he said, What then is to be done for her? And Gehazi answered, Verily she hath no child, and her husband is old.'),
             plain(15, 'And he said, Call her. And when he had called her, she stood in the door.'),

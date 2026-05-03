@@ -163,6 +163,18 @@ export const KINGS_1_17: RichChapterContent = {
             plain(9, 'Arise, get thee to Zarephath, which belongeth to Zidon, and dwell there: behold, I have commanded a widow woman there to sustain thee.'),
             plain(10, 'So he arose and went to Zarephath. And when he came to the gate of the city, behold, the widow woman was there gathering of sticks: and he called to her, and said, Fetch me, I pray thee, a little water in a vessel, that I may drink.'),
             plain(11, 'And as she was going to fetch it, he called to her, and said, Bring me, I pray thee, a morsel of bread in thine hand.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1k17-widow-provision',
+          html:
+            'Elijah flees; he finds a widow in Zarephath—faith meets provision in the land of the enemy.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 17,
+          lines: [
             {
               number: 12,
               spans: [

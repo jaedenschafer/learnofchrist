@@ -34,6 +34,18 @@ export const PSALMS_33: RichChapterContent = {
             plain(3, 'Sing unto him a new song; play skilfully with a loud noise.'),
             plain(4, 'For the word of the Lord is right; and all his works are done in truth.'),
             plain(5, 'He loveth righteousness and judgment: the earth is full of the goodness of the Lord.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps33-praise-plan',
+          html:
+            'Everything praises. Now the camera tightens: God&apos;s plan stands firm forever.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 33,
+          lines: [
             plain(6, 'By the word of the Lord were the heavens made; and all the host of them by the breath of his mouth.'),
             plain(8, 'Let all the earth fear the Lord: let all the inhabitants of the world stand in awe of him.'),
             plain(9, 'For he spake, and it was done; he commanded, and it stood fast.'),

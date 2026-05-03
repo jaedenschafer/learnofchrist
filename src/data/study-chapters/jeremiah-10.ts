@@ -36,6 +36,18 @@ export const JEREMIAH_10: RichChapterContent = {
             plain(2, 'Thus saith the Lord, Learn not the way of the heathen, and be not dismayed at the signs of heaven; for the heathen are dismayed at them.'),
             plain(3, 'For the customs of the people are vain: for one cutteth a tree out of the forest, the work of the hands of the craftsman with the axe.'),
             plain(4, 'They deck it with silver and with gold; they fasten it with nails and with hammers, that it move not.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jer10-idols-sovereign',
+          html:
+            'Jeremiah moves from mocking human-made idols to proclaiming God&apos;s sovereignty. Ridicule becomes affirmation of the true King.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             plain(5, 'They are upright as the palm tree, but speak not: they must needs be borne, because they cannot go. Be not afraid of them; for they cannot do evil, neither also is it to them to do good.'),
             plain(6, 'Forasmuch as there is none like unto thee, O Lord; thou art great, and thy name is great in might.'),
             plain(7, 'Who would not fear thee, O King of nations? for to thee doth it appertain: forasmuch as among all the wise men of the nations, and in all their kingdoms, there is none like thee.'),

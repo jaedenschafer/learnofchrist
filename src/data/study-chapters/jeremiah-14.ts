@@ -36,6 +36,18 @@ export const JEREMIAH_14: RichChapterContent = {
             plain(3, 'And their nobles have sent their little ones to the waters: they came to the pits, and found no water; they returned with their vessels empty; they were ashamed and confounded, and have covered their heads.'),
             plain(4, 'Because the ground is chapt, for there was no rain in the earth, the plowmen were ashamed, they covered their heads.'),
             plain(5, 'Yea, the hind also calved in the field, and forsook it, because there was no grass.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jer14-famine-drought',
+          html:
+            'Jeremiah moves from describing famine and sword to the deeper drought of meaning. Physical deprivation becomes spiritual emptiness.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 14,
+          lines: [
             plain(7, 'O Lord, though our iniquities testify against us, do it for thy name&apos;s sake: for our backslidings are many; we have sinned against thee.'),
             plain(10, 'Thus saith the Lord unto this people, Thus have they loved to wander, that they keep not their feet: therefore the Lord doth not accept them; he will now remember their iniquity, and visit their sins.'),
             plain(11, 'Then said the Lord unto me, Pray not for this people for their good.'),

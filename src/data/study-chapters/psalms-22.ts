@@ -89,6 +89,18 @@ export const PSALMS_22: RichChapterContent = {
             plain(20, 'Deliver my soul from the sword; my darling from the power of the dog.'),
             plain(22, 'I will declare thy name unto my brethren: in the midst of the congregation will I praise thee.'),
             plain(26, 'The meek shall eat and be satisfied: they shall praise the Lord that seek him: your heart shall live for ever.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps22-deliverance-gathering',
+          html:
+            'Deliverance comes. The poor eat and are satisfied. Now the promise spreads—all the ends of the earth will turn to the Lord.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 22,
+          lines: [
             plain(27, 'All the ends of the world shall remember and turn unto the Lord: and all the kindreds of the nations shall worship before thee.'),
             plain(28, 'For the kingdom is the Lord&apos;s: and he is the governor among the nations.'),
             plain(29, 'All they that be fat upon earth shall eat and worship: all they that go down to the dust shall bow before him: and none can keep alive his own soul.'),

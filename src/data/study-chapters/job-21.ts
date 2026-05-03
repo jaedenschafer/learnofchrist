@@ -110,6 +110,18 @@ export const JOB_21: RichChapterContent = {
             plain(9, 'Their houses are safe from fear, neither is the rod of God upon them.'),
             plain(10, 'Their bull gendereth, and faileth not; their cow calveth, and casteth not her calf.'),
             plain(11, 'They send forth their little ones like a flock, and their children dance.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job21-seeing-speaking',
+          html:
+            'Job moves from witnessing the wicked&apos;s prosperity to daring to speak the truth about it. Observation becomes accusation.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             plain(12, 'They take the timbrel and harp, and rejoice at the sound of the organ.'),
             {
               number: 13,
@@ -203,6 +215,18 @@ export const JOB_21: RichChapterContent = {
             plain(19, 'God layeth up his iniquity for his children: he rewardeth him, and he shall know it.'),
             plain(20, 'His eyes shall see his destruction, and he shall drink of the wrath of the Almighty.'),
             plain(21, 'For what pleasure hath he in his house after him, when the number of his months is cut off in the midst?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job21-judgment-void',
+          html:
+            'Job shifts from describing the wicked&apos;s death to questioning whether judgment even comes. Doubt about divine justice itself.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             plain(22, 'Shall any teach God knowledge? seeing he judgeth those that are high.'),
             plain(23, 'One dieth in his full strength, being wholly at ease and quiet:'),
             plain(24, 'His breasts are full of milk, and his bones are moistened with marrow.'),

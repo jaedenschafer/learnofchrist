@@ -35,6 +35,18 @@ export const PSALMS_116: RichChapterContent = {
             plain(3, 'The sorrows of death compassed me, and the pains of hell gat hold upon me: I found trouble and sorrow.'),
             plain(4, 'Then called I upon the name of the Lord; O Lord, I beseech thee, deliver my soul.'),
             plain(7, 'Return unto thy rest, O my soul; for the Lord hath dealt bountifully with thee.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps116-deliverance-walk',
+          html:
+            'The Lord delivered your soul from death. Now you can breathe—walk in his presence, alive.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 116,
+          lines: [
             plain(8, 'For thou hast delivered my soul from death, mine eyes from tears, and my feet from falling.'),
             plain(12, 'What shall I render unto the Lord for all his benefits toward me?'),
             plain(13, 'I will take the cup of salvation, and call upon the name of the Lord.'),

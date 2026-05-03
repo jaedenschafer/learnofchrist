@@ -347,6 +347,18 @@ export const LEVITICUS_21: RichChapterContent = {
                 t('Or a man that is brokenfooted, or brokenhanded,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'lev21-priest-people',
+          html:
+            'The restrictions for the common priest finish here. What follows applies differently to Israel&apos;s people.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             {
               number: 20,
               spans: [

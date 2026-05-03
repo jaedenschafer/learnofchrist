@@ -52,6 +52,18 @@ export const JOB_23: RichChapterContent = {
             },
             plain(3, 'Oh that I knew where I might find him! that I might come even to his seat!'),
             plain(4, 'I would order my cause before him, and fill my mouth with arguments.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job23-complaint-distance',
+          html:
+            'Job moves from seeking God to the terror of not finding Him. Complaint becomes fear of abandonment.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             plain(5, 'I would know the words which he would answer me, and understand what he would say unto me.'),
             plain(6, 'Will he plead against me with his great power? No; but he would put strength in me.'),
             {

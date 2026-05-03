@@ -33,6 +33,18 @@ export const PSALMS_28: RichChapterContent = {
             plain(2, 'Hear the voice of my supplications, when I cry unto thee, when I lift up my hands toward thy holy oracle.'),
             plain(3, 'Draw me not away with the wicked, and with the workers of iniquity, which speak peace to their neighbours, but mischief is in their hearts.'),
             plain(4, 'Give them according to their deeds, and according to the wickedness of their endeavours: give them after the work of their hands; render to them their desert.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps28-plea-thanksgiving',
+          html:
+            'The urgent plea is spoken. Now the tone shifts: the Lord has heard my supplication.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 28,
+          lines: [
             plain(5, 'Because they regard not the works of the Lord, nor the operation of his hands, therefore he shall destroy them, and not build them up.'),
             plain(6, 'Blessed be the Lord, because he hath heard the voice of my supplications.'),
             plain(7, 'The Lord is my strength and my shield; my heart trusted in him, and I am helped: therefore my heart greatly rejoiceth; and with my song will I praise him.'),

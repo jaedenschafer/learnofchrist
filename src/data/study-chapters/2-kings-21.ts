@@ -61,6 +61,18 @@ export const KINGS_2_21: RichChapterContent = {
               4,
               'And he built altars in the house of the Lord, of which the Lord said, In Jerusalem will I put my name.'
             ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2k21-manasseh-evil',
+          html:
+            'Manasseh reigns; he undoes his father&apos;s reforms—evil spreads like a stain across the kingdom.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             plain(
               5,
               'And he built altars for all the host of heaven in the two courts of the house of the Lord.'

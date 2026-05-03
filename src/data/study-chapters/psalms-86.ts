@@ -34,6 +34,18 @@ export const PSALMS_86: RichChapterContent = {
             plain(3, 'Be merciful unto me, O Lord: for I cry unto thee daily.'),
             plain(4, 'Rejoice the soul of thy servant: for unto thee, O Lord, do I lift up my soul.'),
             plain(5, 'For thou, Lord, art good, and ready to forgive; and plenteous in mercy unto all them that call upon thee.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps86-prayer-faith',
+          html:
+            'The prayer rises. Now the reason emerges—for you, O Lord, are good and forgiving.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 86,
+          lines: [
             plain(6, 'Give ear, O Lord, unto my prayer; and attend to the voice of my supplications.'),
             plain(7, 'In the day of my trouble I will call upon thee: for thou wilt answer me.'),
             plain(8, 'Among the gods there is none like unto thee, O Lord; neither are there any works like unto thy works.'),

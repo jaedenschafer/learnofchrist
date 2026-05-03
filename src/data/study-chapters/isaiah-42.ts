@@ -34,6 +34,18 @@ export const ISAIAH_42: RichChapterContent = {
             plain(2, 'He shall not cry, nor lift up, nor cause his voice to be heard in the street.'),
             plain(3, 'A bruised reed shall he not break, and the smoking flax shall he not quench: he shall bring forth judgment in truth.'),
             plain(4, 'He shall not fail nor be discouraged, till he have set judgment in the earth: and the isles shall wait for his law.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa42-servant-justice',
+          html:
+            'The servant is called; now the Father speaks the servant\'s mission—justice for the nations.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 42,
+          lines: [
             plain(5, 'Thus saith God the Lord, he that created the heavens, and stretched them out; he that spread forth the earth, and that which cometh out of it; he that giveth breath unto the people upon it, and spirit to them that walk therein:'),
             plain(6, 'I the Lord have called thee in righteousness, and will hold thine hand, and will keep thee, and give thee for a covenant of the people, for a light to the Gentiles;'),
             plain(7, 'To open the blind eyes, to bring out the prisoners from the prison, and them that sit in darkness out of the prison house.'),

@@ -113,6 +113,18 @@ export const JOB_40: RichChapterContent = {
             plain(17, 'He moveth his tail like a cedar: the sinews of his stones are wrapped together.'),
             plain(18, 'His bones are as strong pieces of brass; his bones are like bars of iron.'),
             plain(19, 'He is the chief of the ways of God: he that made him can make his sword to approach unto him.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job40-strength-pride',
+          html:
+            'God shifts from asking about Job&apos;s power to confronting him about his pride. Comparison becomes correction.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 40,
+          lines: [
             plain(20, 'Surely the mountains bring him forth food, where all the beasts of the field play.'),
             plain(21, 'He lieth under the shady trees, in the covert of the reed, and fens.'),
             plain(22, 'The shady trees cover him with their shadow; the willows of the brook compass him about.'),

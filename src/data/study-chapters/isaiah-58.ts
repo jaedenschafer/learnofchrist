@@ -33,6 +33,18 @@ export const ISAIAH_58: RichChapterContent = {
             plain(2, 'Yet they seek me daily, and delight to know my ways, as a nation that did righteousness, and forsook not the ordinance of their God: they ask of me the ordinances of justice; they take delight in approaching unto God.'),
             plain(3, 'Wherefore have we fasted, say they, and thou seest not? wherefore have we afflicted our soul, and thou takest no knowledge? Behold, in the day of your fast ye find pleasure, and exact all your labours.'),
             plain(4, 'Behold, ye fast for strife and debate, and to smite with the fist of wickedness: ye shall not fast as ye do this day, to make your voice to be heard on high.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa58-fasting-true',
+          html:
+            'The false fast is named; now comes the true fast—loosing bonds, feeding the hungry, clothing the naked.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 58,
+          lines: [
             plain(5, 'Is not this the fast that I have chosen? to loose the bands of wickedness, to undo the heavy burdens, and to let the oppressed go free, and that ye break every yoke?'),
             plain(6, 'Is it not to deal thy bread to the hungry, and that thou bring the poor that are cast out to thy house? when thou seest the naked, that thou cover him; and that thou hide not thyself from thine own flesh?'),
             plain(7, 'Then shall thy light break forth as the morning, and thine health shall spring forth speedily: and thy righteousness shall go before thee; the glory of the Lord shall be thy rereward.'),

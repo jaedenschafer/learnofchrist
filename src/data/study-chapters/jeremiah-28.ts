@@ -62,6 +62,18 @@ export const JEREMIAH_28: RichChapterContent = {
                 t('And I will bring again to this place Jeconiah the son of Jehoiakim king of Judah, and all the captives of Judah, that went into Babylon, saith the Lord: for I will break the yoke of the king of Babylon.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jer28-peace-sword',
+          html:
+            'Hananiah shifts from promising peace to Jeremiah pronouncing the sword. False hope meets true judgment.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 28,
+          lines: [
             {
               number: 5,
               spans: [

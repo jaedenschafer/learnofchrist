@@ -305,6 +305,18 @@ export const JEREMIAH_23: RichChapterContent = {
                 t('Which think to cause my people to forget my name by their dreams which they tell every man to his neighbour, as their fathers have forgotten my name for Baal.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jer23-dreams-truth',
+          html:
+            'Jeremiah shifts from false prophets stealing God&apos;s word to His word burning like fire. Theft becomes conquest.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             {
               number: 28,
               spans: [

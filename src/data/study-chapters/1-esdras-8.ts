@@ -179,6 +179,18 @@ export const FIRST_ESDRAS_8: RichChapterContent = {
                 t('And whosoever of the people of Israel, or of the priests, or of the Levites, in our realm, are minded of their own freewill to go up with him, let them go.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-esdras-8-decree',
+          html:
+            'The king&apos;s authority ensures the work. Now Esdras gathers the people: scribes, priests, Levites. The support comes from without; the faithfulness must rise from within.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             {
               number: 12,
               spans: [

@@ -35,6 +35,18 @@ export const PSALMS_108: RichChapterContent = {
             plain(3, 'I will praise thee, O Lord, among the people: and I will sing praises unto thee among the nations.'),
             plain(4, 'For thy mercy is great above the heavens: and thy truth reacheth unto the clouds.'),
             plain(5, 'Be thou exalted, O God, above the heavens: and thy glory above all the earth;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps108-plea-trust',
+          html:
+            'The speaker pours out his plea. Now his voice shifts: his trust in God is unshakeable.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 108,
+          lines: [
             plain(6, 'That thy beloved may be delivered: save with thy right hand, and answer me.'),
             plain(7, 'God hath spoken in his holiness; I will rejoice, I will divide Shechem, and mete out the valley of Succoth.'),
             plain(11, 'Give us help from trouble: for vain is the help of man.'),

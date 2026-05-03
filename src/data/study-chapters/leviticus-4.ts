@@ -123,6 +123,18 @@ export const LEVITICUS_4: RichChapterContent = {
                 t(' before the Lord, which is in the tabernacle of the congregation; and shall pour all the blood of the bullock at the bottom of the altar of the burnt offering, which is at the door of the tabernacle of the congregation.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'lev4-sin-anointing',
+          html:
+            'The priest&apos;s anointing completes his qualification. Now the people&apos;s sin offering begins.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             {
               number: 8,
               spans: [
@@ -242,6 +254,18 @@ export const LEVITICUS_4: RichChapterContent = {
                 t('And the priest that is anointed shall bring of the bullock&apos;s blood to the tabernacle of the congregation:'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'lev4-assembly-elder',
+          html:
+            'The whole assembly steps back. Now the elders move—the same procedure, simpler scale.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             {
               number: 17,
               spans: [
@@ -388,6 +412,18 @@ export const LEVITICUS_4: RichChapterContent = {
                 t('And the priest shall take of the blood thereof with his finger, and put it upon the horns of the altar of burnt offering, and shall pour out all the blood thereof at the bottom of the altar.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'lev4-common-offering',
+          html:
+            'The common person&apos;s offering mirrors the rest—same procedure, same grace, scaled to what they have.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             {
               number: 31,
               spans: [

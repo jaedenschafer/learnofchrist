@@ -44,6 +44,18 @@ export const JOB_17: RichChapterContent = {
             plain(2, 'Are there not mockers with me? and doth not mine eye continue in their provocation?'),
             plain(3, 'Give now a pledge, be surety for me with thyself; for who is he that will strike hands with me?'),
             plain(4, 'For thou hast hid their heart from understanding: therefore shalt thou not exalt them.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job17-breath-darkness',
+          html:
+            'Job moves from his spirit breaking to his days extinguished. The metaphor becomes literal darkness.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 17,
+          lines: [
             plain(5, 'He that speaketh flattery to his friends, even the eyes of his children shall fail.'),
             plain(6, 'He hath made me also a byword of the people; and aforetime I was as a tabret in their mouth.'),
             plain(7, 'Mine eye also is dim by reason of sorrow, and all my members are as a shadow.'),

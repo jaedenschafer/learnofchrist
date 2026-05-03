@@ -38,6 +38,18 @@ export const JEREMIAH_1: RichChapterContent = {
             plain(3, 'It came also in the days of Jehoiakim the son of Josiah king of Judah, unto the end of the eleventh year of Zedekiah the son of Josiah king of Judah, unto the carrying away of Jerusalem captive in the fifth month.'),
             plain(4, 'Then the word of the Lord came unto me, saying,'),
             plain(5, 'Before I formed thee in the belly I knew thee; and before thou camest forth out of the womb I sanctified thee, and I ordained thee a prophet unto the nations.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jer1-call-hesitation',
+          html:
+            'Jeremiah moves from his calling as a prophet to his resistance. Commission meets human fear.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(6, 'Then said I, Ah, Lord God! behold, I cannot speak: for I am a child.'),
             plain(7, 'But the Lord said unto me, Say not, I am a child: for thou shalt go to all that I shall send thee, and whatsoever I command thee thou shalt speak.'),
             plain(8, 'Be not afraid of their faces: for I am with thee to deliver thee, saith the Lord.'),
@@ -98,6 +110,18 @@ export const JEREMIAH_1: RichChapterContent = {
             plain(12, 'Then said the Lord unto me, Thou hast well seen: for I will hasten my word to perform it.'),
             plain(13, 'And the word of the Lord came unto me the second time, saying, What seest thou? And I said, I see a seething pot; and the face thereof is toward the north.'),
             plain(14, 'Then the Lord said unto me, Out of the north an evil shall break forth upon all the inhabitants of the land.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jer1-seen-breaking',
+          html:
+            'God shifts from what He promises to see in Jeremiah to His protection as nations break against him. Watchfulness becomes warfare.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(15, 'For, lo, I will call all the families of the kingdoms of the north, saith the Lord; and they shall come, and they shall set every one his throne at the entering of the gates of Jerusalem, and against all the walls thereof round about, and against all the cities of Judah.'),
             plain(16, 'And I will utter my judgments against them touching all their wickedness, who have forsaken me, and have burned incense unto other gods, and worshipped the works of their own hands.'),
             plain(17, 'Thou therefore gird up thy loins, and arise, and speak unto them all that I command thee: be not dismayed at their faces, lest I confound thee before them.'),

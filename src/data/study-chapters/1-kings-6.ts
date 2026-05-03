@@ -82,6 +82,18 @@ export const KINGS_1_6: RichChapterContent = {
                 t(', against the walls of the house round about, both of the temple and of the oracle: and he made sides round about.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1k6-building-begins',
+          html:
+            'The Lord&apos;s house is commanded; now the building begins—stone and cedar rise where wood once stood.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             {
               number: 6,
               spans: [

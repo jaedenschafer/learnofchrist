@@ -34,6 +34,18 @@ export const PSALMS_145: RichChapterContent = {
             plain(2, 'Every day will I bless thee; and I will praise thy name for ever and ever.'),
             plain(3, 'Great is the Lord, and greatly to be praised: and his greatness is unsearchable.'),
             plain(4, 'One generation shall praise thy works to another, and shall declare thy mighty acts.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps145-praise-works',
+          html:
+            'One generation praises God. Now the focus widens: every tongue will speak of his mighty acts.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 145,
+          lines: [
             plain(5, 'I will speak of the glorious honour of thy majesty, and of thy wondrous works.'),
             plain(6, 'And men shall speak of the might of thy terrible acts: and I will declare thy greatness.'),
             plain(7, 'They shall abundantly utter the memory of thy great goodness, and shall sing of thy righteousness.'),

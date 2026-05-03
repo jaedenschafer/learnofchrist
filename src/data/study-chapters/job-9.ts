@@ -130,6 +130,18 @@ export const JOB_9: RichChapterContent = {
             plain(14, 'How much less shall I answer him, and choose out my words to reason with him?'),
             plain(15, 'Whom, though I were righteous, yet would I not answer: but I would make supplication to my judge.'),
             plain(16, 'If I had called, and he had answered me; yet would I not believe that he had hearkened unto my voice.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job9-powerless-turn',
+          html:
+            'Job moves from describing God&apos;s power to expressing his own powerlessness before it. Awe becomes despair.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             plain(17, 'For he breaketh me with a tempest, and multiplieth my wounds without cause.'),
             plain(18, 'He will not suffer me to take my breath, but filleth me with bitterness.'),
             plain(19, 'If I speak of strength, lo, he is strong: and if of judgment, who shall set me a time to plead?'),

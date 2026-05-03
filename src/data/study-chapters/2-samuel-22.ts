@@ -494,6 +494,18 @@ export const SAMUEL_2_22: RichChapterContent = {
                 t('For who is God save the Lord? or who is a rock save our God?'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-sam-22-refuge-might',
+          html:
+            'The shield holds firm; the Lord trains David&apos;s hands. Distress transforms into strength. The refuge proves real when the arrows fly.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 22,
+          lines: [
             {
               number: 33,
               spans: [

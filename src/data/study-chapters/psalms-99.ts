@@ -35,6 +35,18 @@ export const PSALMS_99: RichChapterContent = {
             plain(2, 'The Lord is great in Zion; and he is high above all the people.'),
             plain(3, 'Let them praise thy great and terrible name; For it is holy.'),
             plain(4, 'The king&apos;s strength also loveth judgment; thou dost establish equity, thou executest judgment and righteousness in Jacob.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps99-enthronement-holiness',
+          html:
+            'The Lord reigns. Now the focus sharpens: he is holy, and exalt him.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 99,
+          lines: [
             plain(5, 'Exalt ye the Lord our God, and worship at his footstool; for he is holy.'),
             plain(6, 'Moses and Aaron among his priests, and Samuel among them that call upon his name; they called upon the Lord, and he answered them.'),
             plain(7, 'He spake unto them in the cloudy pillar: they kept his testimonies, and the ordinance that he gave them.'),

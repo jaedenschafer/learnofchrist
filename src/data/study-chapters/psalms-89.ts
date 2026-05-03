@@ -97,6 +97,18 @@ export const PSALMS_89: RichChapterContent = {
             plain(40, 'Thou hast broken down all his hedges; thou hast brought his strong holds to ruin.'),
             plain(41, 'All that pass by the way spoil him: he is a reproach to his neighbours.'),
             plain(46, 'How long, Lord? wilt thou hide thyself for ever? shall thy wrath burn like fire?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps89-oath-lament',
+          html:
+            'The covenant with David is sung. Now comes the wail—but you have cast off and rejected.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 89,
+          lines: [
             plain(47, 'Remember how short my time is: wherefore hast thou made all men in vain?'),
             plain(49, 'Lord, where are thy former mercies, which thou swarest unto David in thy truth?'),
             plain(50, 'Remember, Lord, the reproach of thy servants; how I do bear in my bosom the reproach of all the mighty people;'),

@@ -270,6 +270,18 @@ export const LEVITICUS_27: RichChapterContent = {
                 t('And if he will not redeem the field, or if he have sold the field to another man, it shall not be redeemed any more.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'lev27-redemption-tiers',
+          html:
+            'The dedicated items are valued. Now God moves to the animals—where the law becomes both simpler and weightier.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 27,
+          lines: [
             {
               number: 21,
               spans: [
@@ -365,6 +377,18 @@ export const LEVITICUS_27: RichChapterContent = {
                 t('None devoted, which shall be devoted of men, shall be redeemed; but shall surely be put to death.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'lev27-devoted-things',
+          html:
+            'The devoted things are set apart. What comes next is the final provision: God&apos;s word on the tithe itself.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 27,
+          lines: [
             {
               number: 30,
               spans: [

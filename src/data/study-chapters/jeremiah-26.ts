@@ -61,6 +61,18 @@ export const JEREMIAH_26: RichChapterContent = {
                 t('And thou shalt say unto them, Thus saith the Lord; If ye will not hearken to me, to walk in my law, which I have set before you,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jer26-speak-refusal',
+          html:
+            'Jeremiah moves from urging repentance to his own imminent persecution. The prophet&apos;s message meets the people&apos;s rage.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 26,
+          lines: [
             {
               number: 5,
               spans: [
@@ -157,6 +169,18 @@ export const JEREMIAH_26: RichChapterContent = {
                 t('As for me, behold, I am in your hand: do with me as seemeth good and meet unto you.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jer26-seized-witness',
+          html:
+            'Jeremiah transitions from his seizers speaking to his life hanging in the balance. From accusation to peril.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 26,
+          lines: [
             {
               number: 15,
               spans: [

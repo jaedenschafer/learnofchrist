@@ -259,7 +259,7 @@ export const NUMBERS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'moses-new-beginning',
           html:
-            'God proposes to start over with Moses as the patriarch of a new nation. This echoes Exodus 32, where God offers the same to Moses after the golden calf. Again Moses refuses the offer. He intercedes for the people instead.',
+            'God proposes to start over with Moses as the patriarch of a new nation. This echoes Exodus 32, where God offers the same to Moses after the golden calf. Again Moses refuses the offer. He intercedes for the people instead[res:sefaria-numbers-14].',
         },
         {
           kind: 'commentary',
@@ -454,7 +454,7 @@ export const NUMBERS_14: RichChapterContent = {
           id: 'christ-joshua-rest',
           title: 'Christ Connection — Joshua as Type of Jesus, the Better Deliverer',
           html:
-            'Hebrews 3–4 builds its entire warning against unbelief on this chapter. "Let us therefore fear, lest, a promise being left us of entering into his rest, any of you should seem to come short of it" (Hebrews 4:1). Joshua (Yeshua in Hebrew, the same name as Jesus) led only a remnant into the promised rest. But Jesus is the greater Joshua who leads all who believe into the true rest of God — not geographic Canaan, but the presence of God Himself. The wilderness generation could not enter because of unbelief (Hebrews 3:19). But those who believe in Jesus enter the rest that remains.',
+            'Hebrews 3–4 builds its entire warning against unbelief on this chapter[res:hebrews-3-4-intertextual]. "Let us therefore fear, lest, a promise being left us of entering into his rest, any of you should seem to come short of it" (Hebrews 4:1). Joshua (Yeshua in Hebrew, the same name as Jesus) led only a remnant into the promised rest. But Jesus is the greater Joshua who leads all who believe into the true rest of God — not geographic Canaan, but the presence of God Himself. The wilderness generation could not enter because of unbelief (Hebrews 3:19). But those who believe in Jesus enter the rest that remains.',
         },
         {
           kind: 'carry',
@@ -467,6 +467,41 @@ export const NUMBERS_14: RichChapterContent = {
           prompt: 'Have you tried to move forward in your own strength, without waiting for God&apos;s presence to lead you? What happened?',
         },
       ],
+    },
+  ],
+
+  bottomShare: {
+    label: 'Share Numbers 14',
+    quote:
+      'When Israel heard the bad report, they rebelled against God and wept, saying they wished they had died in the wilderness. God forgave them but judged them to wander forty years until that generation passed away, while Joshua and Caleb alone entered the promised land.',
+    snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
+    ref: 'Numbers 14 · Study Guide',
+  },
+
+  resources: [
+    {
+      id: 'sefaria-numbers-14',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 14',
+      url: 'https://www.sefaria.org/Numbers.14',
+      description: 'Full Hebrew text with English translation and classical Jewish commentary on Israel&apos;s refusal to enter the promised land.',
+    },
+    {
+      id: 'hebrews-3-4-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Numbers 14 ↔ Hebrews 3–4',
+      url: 'https://intertextual.bible/text/numbers-14/hebrews-3',
+      description: 'Cross-references showing how Hebrews treats Israel&apos;s wilderness generation as a warning against hardening the heart toward the rest in Christ.',
+    },
+    {
+      id: 'bible-odyssey-wilderness-generation',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Wilderness Generation',
+      url: 'https://www.bibleodyssey.org/passages/related-articles/wilderness-generation/',
+      description: 'SBL overview of the forty-year wilderness period and its role as a testing ground for faith and obedience.',
     },
   ],
 };

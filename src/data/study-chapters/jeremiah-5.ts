@@ -36,6 +36,18 @@ export const JEREMIAH_5: RichChapterContent = {
             plain(2, 'And though they say, The Lord liveth; surely they swear falsely.'),
             plain(3, 'O Lord, are not thine eyes upon the truth? thou hast stricken them, but they have not grieved; thou hast consumed them, but they have refused to receive correction: they have made their faces harder than a rock; they have refused to turn.'),
             plain(4, 'Therefore I said, Surely these are poor; they are foolish: for they know not the way of the Lord, nor the judgment of their God.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jer5-knowledge-practice',
+          html:
+            'Jeremiah moves from lamenting their lack of knowledge to exposing their refusal to obey. Not knowing is not the problem; ignoring is.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(5, 'I will get me unto the great men, and will speak unto them; for they have known the way of the Lord, and the judgment of their God: but these have altogether broken the yoke, and burst the bonds.'),
             plain(6, 'Wherefore a lion out of the forest shall slay them, and a wolf of the evenings shall spoil them, a leopard shall watch over their cities: every one that goeth out thence shall be torn in pieces; because their transgressions are many, and their backslidings are increased.'),
             plain(7, 'How shall I pardon thee for this? thy children have forsaken me, and sworn by them that are no gods: when I had fed them to the full, they then committed adultery, and assembled themselves by troops in the harlots&apos; houses.'),
@@ -97,6 +109,18 @@ export const JEREMIAH_5: RichChapterContent = {
             plain(22, 'Fear ye not me? saith the Lord: will ye not tremble at my presence, which have placed the sand for the bound of the sea by a decree, that it cannot pass it: and though the waves thereof toss themselves, yet can they not prevail; though they roar, yet can they not pass over it?'),
             plain(23, 'But this people hath a revolting and a rebellious heart; they have revolted and gone away.'),
             plain(24, 'Neither say they in their heart, Let us now fear the Lord our God, that giveth rain, both the former and the latter, in his season: he reserveth unto us the appointed weeks of the harvest.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jer5-fear-forgetting',
+          html:
+            'Jeremiah shifts from calling them to fear God to their forgetting His provision. Reverence gives way to ingratitude.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(25, 'Your iniquities have turned away these things, and your sins have withholden good things from you.'),
             plain(26, 'For among my people are found wicked men: they lay wait, as he that setteth snares; they set a trap, they catch men.'),
             plain(27, 'As a cage is full of birds, so are their houses full of deceit: therefore they are become great, and waxen rich.'),

@@ -95,6 +95,18 @@ export const GENESIS_24: RichChapterContent = {
                 t('But thou shalt go unto my country, and to my kindred, and take a wife unto my son Isaac.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen24-servant-journey',
+          html:
+            'The servant is sent on his mission; now he moves toward Rebekah, the answer to Abraham&apos;s prayer.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 24,
+          lines: [
             {
               number: 5,
               spans: [
@@ -188,6 +200,18 @@ export const GENESIS_24: RichChapterContent = {
                 t('Behold, I stand here by the well of water; and the daughters of the men of the city come out to draw water:'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen24-servant-waits',
+          html:
+            'The servant stations himself; now he prays and watches—faith meets providence at the well.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 24,
+          lines: [
             {
               number: 14,
               spans: [

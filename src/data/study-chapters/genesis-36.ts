@@ -194,6 +194,18 @@ export const GENESIS_36: RichChapterContent = {
               number: 12,
               spans: [t('And Reuel the son of Esau had sons; duke Nahath, duke Zerah, duke Shammah, duke Mizzah: these are the dukes that came of Reuel in the land of Edom; these are the sons of Bashemath Esau&apos;s wife.')],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen36-esau-tribes',
+          html:
+            'Esau&apos;s sons are named; now his clans and kings are listed—a nation emerges where a promise was deferred.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 36,
+          lines: [
             {
               number: 13,
               spans: [t('And the sons of Aholibamah, Esau&apos;s wife; duke Jeush, duke Jaalam, duke Korah: these were the dukes that came of Aholibamah the daughter of Anah, Esau&apos;s wife.')],
@@ -338,6 +350,18 @@ export const GENESIS_36: RichChapterContent = {
               number: 34,
               spans: [t('And Jobab died, and Husham of the land of Temani reigned in his stead.')],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen36-kings-emerge',
+          html:
+            'The kings of Edom who reigned before Israel had a king; the transfer of power moves from one line to another.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 36,
+          lines: [
             {
               number: 35,
               spans: [t('And Husham died, and Hadad the son of Bedad, who smote Midian in the field of Moab, reigned in his stead: and the name of his city was Avith.')],

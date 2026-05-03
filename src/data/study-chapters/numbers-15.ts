@@ -406,7 +406,7 @@ export const NUMBERS_15: RichChapterContent = {
           script: 'צִיצִית',
           translit: '<strong>tzitzit</strong> · tassels at the corners of a garment',
           description:
-            'Small fringes knotted at the four corners of a prayer shawl or the edge of a robe. They were visible reminders, worn on the body, of the commandments. In the later Jewish tradition, the word is also connected to the idea of "flourishing" or "blossoming" — the commandments are not fetters but flowers.',
+            'Small fringes knotted at the four corners of a prayer shawl or the edge of a robe. They were visible reminders, worn on the body, of the commandments[res:bible-odyssey-tzitzit]. In the later Jewish tradition, the word is also connected to the idea of "flourishing" or "blossoming" — the commandments are not fetters but flowers.',
         },
         {
           kind: 'hebrew',
@@ -470,6 +470,33 @@ export const NUMBERS_15: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Numbers 15 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-numbers-15',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 15',
+      url: 'https://www.sefaria.org/Numbers.15',
+      description: 'Hebrew text and translations with classical commentary on offerings, defiant sin, and the law of tzitzit.',
+    },
+    {
+      id: 'bible-odyssey-tzitzit',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Tzitzit (Fringes)',
+      url: 'https://www.bibleodyssey.org/dictionary/tzitzit/',
+      description: 'SBL entry on fringes with cultural context and discussion of blue dye and the covenant meaning of tassels.',
+    },
+    {
+      id: 'sefaria-high-hand-sin',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Defiant Sin (Yad Ramah)',
+      url: 'https://www.sefaria.org/Numbers.15.30',
+      description: 'Commentary on the distinction between unintentional and presumptuous sin in the covenant system.',
+    },
+  ],
 
   hasHebrew: true,
 };

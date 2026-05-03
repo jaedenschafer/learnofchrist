@@ -108,6 +108,18 @@ export const PSALMS_147: RichChapterContent = {
             plain(13, 'For he hath strengthened the bars of thy gates; he hath blessed thy children within thee.'),
             plain(14, 'He maketh peace in thy borders, and filleth thee with the finest of the wheat.'),
             plain(15, 'He sendeth forth his commandment upon earth: his word runneth very swiftly.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps147-restoration-praise',
+          html:
+            'God gathers the scattered and broken. Now the psalm moves upward: praise the Lord in his strength.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 147,
+          lines: [
             plain(16, 'He giveth snow like wool: he scattereth the hoarfrost like ashes.'),
             plain(17, 'He casteth forth his ice like morsels: who can stand before his cold?'),
             plain(18, 'He sendeth out his word, and melteth them: he causeth his wind to blow, and the waters flow.'),

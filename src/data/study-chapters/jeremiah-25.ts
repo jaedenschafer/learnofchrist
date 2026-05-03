@@ -61,6 +61,18 @@ export const JEREMIAH_25: RichChapterContent = {
                 t('And the Lord hath sent unto you all his servants the prophets, rising early and sending them; but ye have not hearkened, nor inclined your ear to hear.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jer25-prophet-cup',
+          html:
+            'Jeremiah moves from God&apos;s long patience to the cup of wrath. Years of warning culminate in judgment.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             {
               number: 5,
               spans: [

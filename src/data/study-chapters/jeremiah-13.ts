@@ -37,6 +37,18 @@ export const JEREMIAH_13: RichChapterContent = {
             plain(3, 'And the word of the Lord came unto me the second time, saying,'),
             plain(4, 'Take the girdle that thou hast got, which is upon thy loins, and arise, go to Euphrates, and hide it there in a hole of the rock.'),
             plain(5, 'So I went, and hid it by Euphrates, as the Lord commanded me.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jer13-word-garment',
+          html:
+            'God shifts from speaking through a symbol to its meaning. The hidden lesson becomes explicit warning.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 13,
+          lines: [
             plain(6, 'And it came to pass after many days, that the Lord said unto me, Arise, go to Euphrates, and take the girdle from thence, which I commanded thee to hide there.'),
             plain(7, 'Then I went to Euphrates, and digged, and took the girdle from the place where I had hid it: and, behold, the girdle was marred, it was profitable for nothing.'),
             plain(8, 'Then the word of the Lord came unto me, saying,'),

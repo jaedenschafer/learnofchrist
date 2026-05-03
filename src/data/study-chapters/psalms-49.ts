@@ -33,6 +33,18 @@ export const PSALMS_49: RichChapterContent = {
             plain(3, 'My mouth shall speak of wisdom; and the meditation of my heart shall be of understanding.'),
             plain(5, 'Wherefore should I fear in the days of evil, when the iniquity of my heels shall compass me about?'),
             plain(6, 'They that trust in their wealth, and boast themselves in the multitude of their riches;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps49-wisdom-truth',
+          html:
+            'The wise take up their riddle. Now the turn comes—but God will redeem my soul.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 49,
+          lines: [
             plain(7, 'None of them can by any means redeem his brother, nor give to God a ransom for him:'),
             plain(8, '(For the redemption of their soul is precious, and it ceaseth for ever:)'),
             plain(10, 'For he seeth that wise men die, likewise the fool and the brutish person perish, and leave their wealth to others.'),

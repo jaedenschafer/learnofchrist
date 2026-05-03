@@ -44,6 +44,18 @@ export const JOB_16: RichChapterContent = {
             plain(2, 'I have heard many such things: miserable comforters are ye all.'),
             plain(3, 'Shall vain words have an end? or what provoketh thee that thou answerest?'),
             plain(4, 'I also could speak as ye do: if your soul were in my soul&apos;s stead, I could heap up words against you, and shake my head at you.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job16-scorn-sorrow',
+          html:
+            'Job transitions from describing the scorn of his enemies to his own inner grief. External mockery deepens to internal pain.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 16,
+          lines: [
             plain(5, 'But I would strengthen you with my mouth, and the moving of my lips should assuage your sorrow.'),
             plain(6, 'Though I speak, my grief is not assuaged: and though I forbear, what am I eased?'),
             plain(7, 'But now he hath made me weary: thou hast made desolate all my company.'),

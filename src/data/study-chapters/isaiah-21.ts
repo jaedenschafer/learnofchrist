@@ -34,6 +34,18 @@ export const ISAIAH_21: RichChapterContent = {
             plain(3, 'Therefore are my loins filled with pain: pangs have taken hold upon me, as the pangs of a woman that travaileth: I was bowed down at the hearing of it; I was dismayed at the seeing of it.'),
             plain(4, 'My heart panted, my fearfulness affrighted me: the night of my pleasure hath he turned into fear unto me.'),
             plain(5, 'Prepare the table, watch in the tower, eat, drink: arise, ye princes, and anoint the shield.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa21-desert',
+          html:
+            'From the oracle\'s naming comes its weight. The watchman cries out; the burden falls.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 21,
+          lines: [
             plain(6, 'For thus hath the Lord said unto me, Go, set a watchman, let him declare what he seeth.'),
             plain(7, 'And he saw a chariot with a couple of horsemen, a chariot of asses, and a chariot of camels; and he hearkened diligently with much heed:'),
             plain(8, 'And he cried, A lion: My lord, I stand continually upon the watch tower in the daytime, and I am set in my ward the whole night:'),

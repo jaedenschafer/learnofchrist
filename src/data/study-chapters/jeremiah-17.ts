@@ -344,6 +344,18 @@ export const JEREMIAH_17: RichChapterContent = {
                 t('Neither carry forth a burden out of your houses on the sabbath day, neither do ye any work: but hallow ye the sabbath day, as I commanded your fathers.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jer17-sabbath-fire',
+          html:
+            'God shifts from defending the Sabbath to threatening fire that devours gates. Rest becomes judgment.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 17,
+          lines: [
             {
               number: 23,
               spans: [

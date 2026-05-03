@@ -32,6 +32,18 @@ export const PSALMS_136: RichChapterContent = {
             plain(2, 'O give thanks unto the God of gods: for his mercy endureth for ever.'),
             plain(3, 'O give thanks unto the Lord of lords: for his mercy endureth for ever.'),
             plain(4, 'To him who alone doeth great wonders: for his mercy endureth for ever.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps136-thanksgiving-signs',
+          html:
+            'Gratitude for God&apos;s enduring mercy begins. Now comes what it made visible: the works of power.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 136,
+          lines: [
             plain(5, 'To him that by wisdom made the heavens: for his mercy endureth for ever.'),
             plain(6, 'To him that stretched out the earth above the waters: for his mercy endureth for ever.'),
             plain(7, 'To him that made great lights: for his mercy endureth for ever:'),

@@ -35,6 +35,18 @@ export const ISAIAH_19: RichChapterContent = {
             plain(3, 'And the spirit of Egypt shall fail in the midst thereof; and I will destroy the counsel thereof: and they shall seek to the idols, and to the charmers, and to them that have familiar spirits, and to the wizards.'),
             plain(4, 'And the Egyptians will I give over into the hand of a cruel lord; and a fierce king shall rule over them, saith the Lord, the Lord of hosts.'),
             plain(5, 'And the waters shall fail from the sea, and the river shall be wasted and dried up.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa19-pivot',
+          html:
+            'The oracle pivots from the desolation to the dawn. Through judgment comes the turn—Egypt will know the Lord and be healed.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 19,
+          lines: [
             plain(6, 'And they shall turn the rivers far away; and the brooks of defence shall be emptied and dried up: the reeds and flags shall wither.'),
             plain(7, 'The paper reeds by the brooks, by the mouth of the brooks, and every thing sown by the brooks, shall wither, be driven away, and be no more.'),
             plain(8, 'The fishers also shall mourn, and all they that cast angle into the brooks shall lament, and they that spread nets upon the waters shall languish.'),
@@ -90,6 +102,18 @@ export const ISAIAH_19: RichChapterContent = {
             plain(18, 'In that day shall five cities in the land of Egypt speak the language of Canaan, and swear by the Lord of hosts; one shall be called, The city of destruction.'),
             plain(19, 'In that day shall there be an altar to the Lord in the midst of the land of Egypt, and a pillar at the border thereof to the Lord.'),
             plain(20, 'And it shall be for a sign and for a witness unto the Lord of hosts in the land of Egypt: for they shall cry unto the Lord because of the oppressors, and he shall send them a saviour, and a great one, and he shall deliver them.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa19-witness',
+          html:
+            'Notice the shift from restoration to relationship—the altar becomes a sign and a witness. Healing leads to covenant.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 19,
+          lines: [
             plain(21, 'And the Lord shall be known to Egypt, and the Egyptians shall know the Lord in that day, and shall do sacrifice and oblation; yea, they shall vow a vow unto the Lord, and perform it.'),
             plain(22, 'And the Lord shall smite Egypt: he shall smite and heal it: and they shall return unto the Lord, and he shall be intreated of them, and shall heal them.'),
             plain(23, 'In that day shall there be a highway from Egypt to Assyria, and the Assyrian shall come into Egypt, and the Egyptian into Assyria, and the Egyptians shall serve with the Assyrians.'),

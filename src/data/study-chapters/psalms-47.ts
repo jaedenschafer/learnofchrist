@@ -32,6 +32,18 @@ export const PSALMS_47: RichChapterContent = {
             plain(2, 'For the Lord most high is terrible; he is a great King over all the earth.'),
             plain(3, 'He shall subdue the people under us, and the nations under our feet.'),
             plain(4, 'He shall choose our inheritance for us, the excellency of Jacob whom he loved. Selah.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps47-summons-reign',
+          html:
+            'All nations are summoned to clap. Now the vision deepens: God reigns over all the earth.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 47,
+          lines: [
             plain(5, 'God is gone up with a shout, the Lord with the sound of a trumpet.'),
             plain(6, 'Sing praises to God, sing praises: sing praises unto our King, sing praises.'),
             plain(7, 'For God is the King of all the earth: sing ye praises with understanding.'),

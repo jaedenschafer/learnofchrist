@@ -62,6 +62,18 @@ export const JEREMIAH_30: RichChapterContent = {
                 t('And these are the words that the Lord spake concerning Israel and concerning Judah.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jer30-disaster-restoration',
+          html:
+            'God moves from the terror of disaster to the wonder of restoration. Judgment ends and healing begins.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 30,
+          lines: [
             {
               number: 5,
               spans: [

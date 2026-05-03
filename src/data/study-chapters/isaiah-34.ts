@@ -93,6 +93,18 @@ export const ISAIAH_34: RichChapterContent = {
             plain(10, 'It shall not be quenched night nor day; the smoke thereof shall go up for ever: from generation to generation it shall lie waste; none shall pass through it for ever and ever.'),
             plain(11, 'But the cormorant and the bittern shall possess it; the owl also and the raven shall dwell in it: and he shall stretch out upon it the line of confusion, and the stones of emptiness.'),
             plain(12, 'They shall call the nobles thereof to the kingdom, but none shall be there, and all her princes shall be nothing.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa34-desolation',
+          html:
+            'The judgment is named in detail; now comes its aftermath—a land made waste, yet marked by God\'s hand.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 34,
+          lines: [
             plain(13, 'And thorns shall come up in her palaces, nettles and brambles in the fortresses thereof: and it shall be an habitation of dragons, and a court for owls.'),
             plain(14, 'The wild beasts of the desert shall also meet with the wild beasts of the island, and the satyr shall cry to his fellow; the screech owl also shall rest there, and find for herself a place of rest.'),
             plain(15, 'There shall the great owl make her nest, and lay, and hatch, and gather under her shadow: there shall the vultures also be gathered, every one with her mate.'),

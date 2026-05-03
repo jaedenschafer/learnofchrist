@@ -34,6 +34,18 @@ export const ISAIAH_57: RichChapterContent = {
             plain(3, 'But draw near hither, ye sons of the sorceress, the seed of the adulterer and the whore.'),
             plain(4, 'Against whom do ye sport yourselves? against whom make ye a wide mouth, and draw out the tongue? are ye not children of transgression, a seed of falsehood,'),
             plain(5, 'Enflaming yourselves with idols under every green tree, slaying the children in the valleys under the clifts of the rocks?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa57-healing-pivot',
+          html:
+            'From the indictment comes the invitation. The high and holy One dwells with the contrite.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 57,
+          lines: [
             plain(6, 'Among the smooth stones of the stream is thy portion; they, they are thy lot: even to them hast thou poured a drink offering, thou hast offered a meat offering. Should I receive comfort in these?'),
             plain(7, 'Upon a lofty and high mountain hast thou set thy bed: even thither wentest thou up to offer sacrifice.'),
             plain(8, 'Behind the doors also and the posts hast thou set up thy remembrance: for thou hast discovered thyself to another than me, and art gone up; thou hast enlarged thy bed, and made thee a covenant with them; thou lovedst their bed where thou sawest it.'),

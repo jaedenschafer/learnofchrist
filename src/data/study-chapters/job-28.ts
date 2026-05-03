@@ -157,6 +157,18 @@ export const JOB_28: RichChapterContent = {
             plain(21, 'Seeing it is hid from the eyes of all living, and kept close from the fowls of the air.'),
             plain(22, 'Destruction and death say, We have heard the fame thereof with our ears.'),
             plain(23, 'God understandeth the way thereof, and he knoweth the place thereof.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job28-search-humility',
+          html:
+            'Job moves from seeking Wisdom everywhere to admitting that humans cannot find it. The search itself becomes the lesson.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 28,
+          lines: [
             plain(24, 'For he looketh to the ends of the earth, and seeth under the whole heaven;'),
             plain(25, 'To make the weight for the winds; and he weigheth the waters by measure.'),
             plain(26, 'When he made a decree for the rain, and a way for the lightning of the thunder:'),

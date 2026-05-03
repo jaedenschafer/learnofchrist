@@ -454,6 +454,18 @@ export const KINGS_1_22: RichChapterContent = {
                 t('And it came to pass, when the captains of the chariots saw Jehoshaphat, that they said, Surely it is the king of Israel. And they turned aside to fight against him: and Jehoshaphat cried out.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1k22-micaiah-truth',
+          html:
+            'False prophets speak; Micaiah speaks truth—the word of God stands though all earthly counsel opposes it.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 22,
+          lines: [
             {
               number: 33,
               spans: [

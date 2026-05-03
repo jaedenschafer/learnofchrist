@@ -486,6 +486,18 @@ export const GENESIS_19: RichChapterContent = {
                 t('And they made their father drink wine that night: and the firstborn went in, and lay with her father; and he perceived not when she lay down, nor when she arose.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen19-lot-escape',
+          html:
+            'Lot flees the city; his wife does not. The judgment is complete; only mercy remains for the faithful.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 19,
+          lines: [
             {
               number: 34,
               spans: [

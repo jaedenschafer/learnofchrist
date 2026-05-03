@@ -235,6 +235,18 @@ export const KINGS_1_10: RichChapterContent = {
             plain(15, 'Beside that he had of the merchantmen, and of the traffick of the spice merchants, and of all the kings of Arabia, and of the governors of the country.'),
             plain(16, 'And king Solomon made two hundred targets of beaten gold: six hundred shekels of gold went to one target:'),
             plain(17, 'And three hundred shields of beaten gold; three pound of gold went to one shield: and the king put them in the house of the forest of Lebanon.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1k10-wealth-pivot',
+          html:
+            'Solomon&apos;s riches are displayed; but now comes the reckoning—all his gold cannot secure his kingdom.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             plain(18, 'Moreover the king made a great throne of ivory, and overlaid it with the best gold:'),
             plain(19, 'The throne had six steps, and the top of the throne was round behind: and there were stays on either side on the place of the seat, and two lions stood beside the stays.'),
             plain(20, 'And twelve lions stood there on the one side and on the other upon the six steps: there was not the like made in any kingdom.'),

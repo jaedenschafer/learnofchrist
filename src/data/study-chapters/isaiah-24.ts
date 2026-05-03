@@ -105,6 +105,18 @@ export const ISAIAH_24: RichChapterContent = {
             plain(16, 'From the uttermost part of the earth have we heard songs, even glory to the righteous. But I said, My leanness, my leanness, woe unto me! the treacherous dealers have dealt treacherously; yea, the treacherous dealers have dealt very treacherously.'),
             plain(17, 'Fear, and the pit, and the snare, are upon thee, O inhabitant of the earth.'),
             plain(18, 'And it shall come to pass, that he who fleeth from the noise of the fear shall fall into the pit; and he that cometh up out of the midst of the pit shall be taken in the snare: for the windows of heaven are opened, and the foundations of the earth do shake.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa24-judgment-mercy',
+          html:
+            'The judgment spans the whole earth; but now comes the pivot—the Lord\'s mercy reaches beyond the gates.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 24,
+          lines: [
             plain(19, 'The earth is utterly broken down, the earth is clean dissolved, the earth is moved exceedingly.'),
             plain(20, 'The earth shall reel to and fro like a drunkard, and shall be removed like a cottage; and the transgression thereof shall be heavy upon it; and it shall fall, and not rise again.'),
             plain(21, 'And it shall come to pass in that day, that the Lord shall punish the host of the high ones that are on high, and the kings of the earth upon the earth.'),

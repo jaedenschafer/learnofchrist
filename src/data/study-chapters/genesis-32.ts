@@ -285,6 +285,18 @@ export const GENESIS_32: RichChapterContent = {
                 t('And he delivered them into the hand of his servants, every drove by themselves; and said unto his servants, Pass over before me, and put a space betwixt drove and drove.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen32-wrestle-fear',
+          html:
+            'Jacob prepares; but then he encounters the stranger and wrestles until dawn—fear gives way to transformation.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 32,
+          lines: [
             {
               number: 17,
               spans: [

@@ -66,6 +66,18 @@ export const JOB_3: RichChapterContent = {
             },
             plain(4, 'Let that day be darkness; let not God regard it from above, neither let the light shine upon it.'),
             plain(5, 'Let darkness and the shadow of death stain it; let a cloud dwell upon it; let the blackness of the day terrify it.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job3-lament-turn',
+          html:
+            'Job moves from lamenting his day to questioning why he was born at all. The focus shifts from curse to deep, existential pain.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             {
               number: 6,
               spans: [
@@ -173,6 +185,18 @@ export const JOB_3: RichChapterContent = {
                 t('With kings and counsellors of the earth, which built desolate places for themselves;'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job3-endless-night',
+          html:
+            'Job transitions from describing the darkness he wishes for to his anguish at the light that continues to shine on his suffering.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             {
               number: 15,
               spans: [

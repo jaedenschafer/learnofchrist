@@ -227,6 +227,18 @@ export const LEVITICUS_14: RichChapterContent = {
                 t('And the priest shall take some of the log of oil, and pour it into the palm of his own left hand:'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'lev14-cleansing-pivot',
+          html:
+            'The priest\'s role in the ritual begins here—from inspection to pronouncement.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 14,
+          lines: [
             {
               number: 16,
               spans: [

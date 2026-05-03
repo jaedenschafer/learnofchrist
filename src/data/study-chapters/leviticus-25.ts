@@ -154,6 +154,18 @@ export const LEVITICUS_25: RichChapterContent = {
                 t('For it is the jubile; it shall be holy unto you: ye shall eat the increase thereof out of the field.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'lev25-jubilee-freedom',
+          html:
+            'The sabbath year ends; the jubilee year begins—God&apos;s rhythm of release and return.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             {
               number: 13,
               spans: [
@@ -444,6 +456,18 @@ export const LEVITICUS_25: RichChapterContent = {
                 t('I am the LORD your God, which brought you forth out of the land of Egypt, to give you the land of Canaan, and to be your God.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'lev25-kinship-pivot',
+          html:
+            'Your kinship obligation is clear. Now hear the same rule applied to your brothers and sisters.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             {
               number: 39,
               spans: [
@@ -572,6 +596,18 @@ export const LEVITICUS_25: RichChapterContent = {
                 t('And he shall reckon with him that bought him from the year that he was sold to him unto the year of jubile: and the price of his sale shall be according unto the number of years, as the days of an hired servant shall it be with him.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'lev25-foreigner-redemption',
+          html:
+            'The law for your own people is complete. Now listen—the foreigner among you holds the same worth.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             {
               number: 51,
               spans: [

@@ -24,6 +24,18 @@ export const PSALMS_51: RichChapterContent = {
             plain(2, 'Wash me throughly from mine iniquity, and cleanse me from my sin.'),
             plain(3, 'For I acknowledge my transgressions: and my sin is ever before me.'),
             plain(4, 'Against thee, thee only, have I sinned, and done this evil in thy sight: that thou mightest be justified when thou speakest, and be clear when thou judgest.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps51-confession-plea',
+          html:
+            'The cry for mercy is urgent. Now watch what unfolds—the broken and contrite heart.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 51,
+          lines: [
             plain(5, 'Behold, I was shapen in iniquity; and in sin did my mother conceive me.'),
             plain(6, 'Behold, thou desirest truth in the inward parts: and in the hidden part thou shalt make me to know wisdom.'),
             plain(7, 'Purge me with hyssop, and I shall be clean: wash me, and I shall be whiter than snow.'),

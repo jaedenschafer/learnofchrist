@@ -110,6 +110,18 @@ export const KINGS_2_25: RichChapterContent = {
             plain(10, 'And all the army of the Chaldees, that were with the captain of the guard, brake down the walls of Jerusalem round about.'),
             plain(11, 'Now the rest of the people that were left in the city, and the fugitives that fell away to the king of Babylon, with the remnant of the multitude, did Nebuzar-adan the captain of the guard carry away.'),
             plain(12, 'But the captain of the guard left of the poor of the land to be vinedressers and husbandmen.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2k25-remnant-exile',
+          html:
+            'The city falls; exile comes—but a remnant remains, and Jehoiachin is shown kindness in his captivity.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             plain(13, 'And the pillars of brass that were in the house of the Lord, and the bases, and the brasen sea that was in the house of the Lord, did the Chaldees brake in pieces, and carried the brass of them to Babylon.'),
             plain(14, 'And the pots, and the shovels, and the snuffers, and the spoons, and all the vessels of brass wherewith they ministered, took they away.'),
             plain(15, 'And the firepans, and the bowls, and such things as were of gold, in gold, and of silver, in silver, the captain of the guard took away.'),

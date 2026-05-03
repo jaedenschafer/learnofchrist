@@ -113,6 +113,18 @@ export const JOB_36: RichChapterContent = {
             plain(18, 'Because there is wrath, beware lest he take thee away with his stroke: then a great ransom cannot deliver thee.'),
             plain(19, 'Will he esteem thy riches? no, not gold, nor all the forces of strength.'),
             plain(20, 'Desire not the night, when people are cut off in their place.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job36-chastening-grace',
+          html:
+            'Elihu pivots from warning about chastening to offering grace and restoration. Judgment opens to mercy.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 36,
+          lines: [
             plain(21, 'Take heed, turn not to iniquity; for this hast thou chosen rather than affliction.'),
             plain(22, 'Behold, God exalteth by his power: who teacheth like him?'),
             plain(23, 'Who hath enjoined him his way? or who can say, Thou hast wrought iniquity?'),

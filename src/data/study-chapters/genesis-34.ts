@@ -152,6 +152,18 @@ export const GENESIS_34: RichChapterContent = {
                 t(' in lying with Jacob&apos;s daughter; which thing ought not to be done.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen34-deception-deceit',
+          html:
+            'Dinah&apos;s brothers begin their deception; now they execute it—guile becomes the instrument of their vengeance.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 34,
+          lines: [
             {
               number: 8,
               spans: [
@@ -336,6 +348,18 @@ export const GENESIS_34: RichChapterContent = {
                 t('And unto Hamor and unto Shechem his son hearkened all that went out of the gate of his city; and every male was circumcised, all that went out of the gate of his city.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen34-plunder-aftermath',
+          html:
+            'The city is plundered; the brothers justify themselves to Jacob—violence is done, but the aftermath lingers.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 34,
+          lines: [
             {
               number: 25,
               spans: [

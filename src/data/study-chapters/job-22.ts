@@ -129,6 +129,18 @@ export const JOB_22: RichChapterContent = {
             },
             plain(14, 'Thick clouds are a covering to him, that he seeth not; and he walketh in the circuit of heaven.'),
             plain(15, 'Hast thou marked the old way which wicked men have trodden?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job22-cosmic-accusation',
+          html:
+            'Eliphaz moves from cosmic imagery to direct indictment of Job. The scale shifts from universe to guilt.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 22,
+          lines: [
             plain(16, 'Which were cut down out of time, whose foundation was overflown with a flood;'),
             plain(17, 'Which said unto God, Depart from us: and what can the Almighty do for them?'),
             plain(18, 'Yet he filled their houses with good: but the counsel of the wicked is far from me.'),
@@ -194,6 +206,18 @@ export const JOB_22: RichChapterContent = {
             },
             plain(24, 'Then shalt thou lay up gold as dust, and the gold of Ophir as the stones of the brooks;'),
             plain(25, 'Yea, the Almighty shall be thy defence, and thou shalt have plenty of silver.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job22-power-prosperity',
+          html:
+            'Eliphaz transitions from warning Job about oppression to describing the wealth of those who submit to God. Threat becomes promise.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 22,
+          lines: [
             {
               number: 26,
               spans: [

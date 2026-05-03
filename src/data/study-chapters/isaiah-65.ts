@@ -90,6 +90,18 @@ export const ISAIAH_65: RichChapterContent = {
             plain(18, 'But be ye glad and rejoice for ever in that which I create: for, behold, I create Jerusalem a rejoicing, and her people a joy.'),
             plain(19, 'And I will rejoice in Jerusalem, and joy in my people: and the voice of weeping shall be no more heard in her, nor the voice of crying.'),
             plain(20, 'There shall be no more thence an infant of days, nor an old man that hath not filled his days: for the child shall die an hundred years old; but the sinner being an hundred years old shall be accursed.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa65-new-creation',
+          html:
+            'The judgment on the rebels is set; but look—a new heavens and new earth are coming, and the former things will not be remembered.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 65,
+          lines: [
             plain(21, 'And they shall build houses, and inhabit them; and they shall plant vineyards, and eat the fruit of them.'),
             plain(22, 'They shall not build, and another inhabit; they shall not plant, and another eat: for as the days of a tree are the days of my people, and mine elect shall long enjoy the work of their hands.'),
             plain(23, 'They shall not labour in vain, nor bring forth for trouble; for they are the seed of the blessed of the Lord, and their offspring with them.'),

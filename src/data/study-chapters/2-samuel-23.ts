@@ -202,6 +202,18 @@ export const SAMUEL_2_23: RichChapterContent = {
                 t('But he stood in the midst of the ground, and defended it, and slew the Philistines: and the Lord wrought a great victory.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2-sam-23-mighty-turn',
+          html:
+            'Three giants fall before three mighty men. Valor flows from those who tasted the water of Bethlehem and remembered: this is worth the thirst, worth the risk.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             {
               number: 13,
               spans: [

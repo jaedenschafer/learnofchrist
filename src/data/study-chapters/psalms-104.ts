@@ -34,6 +34,18 @@ export const PSALMS_104: RichChapterContent = {
             plain(2, 'Who coverest thyself with light as with a garment: who stretchest out the heavens like a curtain:'),
             plain(3, 'Who layeth the beams of his chambers in the waters: who maketh the clouds his chariot: who walketh upon the wings of the wind:'),
             plain(4, 'Who maketh his angels spirits; his ministers a flaming fire:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps104-creator-care',
+          html:
+            'The psalmist has called everything to praise. Now he zooms into one truth: God feeds them all.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 104,
+          lines: [
             plain(5, 'Who laid the foundations of the earth, that it should not be removed for ever.'),
             plain(8, 'The mountains rose, the valleys sank down to the place which thou hadst founded for them.'),
             plain(10, 'He sendeth the springs into the valleys, which run among the hills.'),

@@ -299,6 +299,18 @@ export const GENESIS_44: RichChapterContent = {
                 t('And thou saidst unto thy servants, Bring him down unto me, that I may set mine eyes upon him.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen44-benjamin-plea',
+          html:
+            'Judah speaks; he offers himself in Benjamin&apos;s place—mercy meets justice, and brotherhood is restored.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 44,
+          lines: [
             {
               number: 22,
               spans: [

@@ -43,6 +43,18 @@ export const KINGS_2_13: RichChapterContent = {
             plain(2, 'And he did that which was evil in the sight of the Lord, and followed the sins of Jeroboam the son of Nebat, which made Israel to sin; he departed not therefrom.'),
             plain(3, 'And the anger of the Lord was kindled against Israel, and he delivered them into the hand of Hazael king of Syria, and into the hand of Ben-hadad the son of Hazael, all their days.'),
             plain(4, 'And Jehoahaz besought the Lord, and the Lord hearkened unto him: for he saw the oppression of Israel, because the king of Syria oppressed them.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2k13-reign-begins',
+          html:
+            'Jehoahaz reigns; but he does evil—the pattern repeats, the exile draws nearer.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 13,
+          lines: [
             plain(5, 'And the Lord gave Israel a saviour, so that they went out from under the hand of the Syrians: and the children of Israel dwelt in their tents, as beforetime.'),
             plain(6, 'Nevertheless they departed not from the sins of the house of Jeroboam, which made Israel sin, but walked therein: and there remained the grove also in Samaria.'),
             plain(7, 'Neither did he leave of the people to Jehoahaz but fifty horsemen, and ten chariots, and ten thousand footmen; for the king of Syria had destroyed them, and had made them like the dust by threshing.'),

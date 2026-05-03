@@ -228,6 +228,18 @@ export const SAMUEL_1_18: RichChapterContent = {
             plain(19, 'But it came to pass at the time when Merab Saul\'s daughter should have been given to David, that she was given unto Adriel the Meholathite.'),
             plain(20, 'And Michal Saul\'s daughter loved David: and they told Saul, and the thing pleased him.'),
             plain(21, 'For Saul said, I will give him her, that she may be a snare to him, and that the hand of the Philistines may be against him. Wherefore Saul said to David, Thou shalt this day be my son in law in the one of the twain.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1-sam-18-covenant-breach',
+          html:
+            'David&apos;s success blazes bright. But envy darkens Saul&apos;s heart. The two men loved; now one hunts the other. Loyalty shatters against ambition.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             plain(22, 'And Saul commanded his servants, Commune with David secretly, saying, Behold, the king hath delight in thee, and all his servants love thee: now therefore be the king\'s son in law.'),
             plain(23, 'And Saul\'s servants spake those words in the ears of David. And David said, Seemeth it to you a light thing to be a king\'s son in law, seeing that I am a poor man, and lightly esteemed?'),
             plain(24, 'And the servants of Saul told him, saying, On this manner spake David.'),

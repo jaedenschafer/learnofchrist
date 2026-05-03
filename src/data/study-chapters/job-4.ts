@@ -241,6 +241,18 @@ export const JOB_4: RichChapterContent = {
             plain(14, 'Fear came upon me, and trembling, which made all my bones to shake.'),
             plain(15, 'Then a spirit passed before my face; the hair of my flesh stood up:'),
             plain(16, 'It stood still, but I could not discern the form thereof: an image was before mine eyes, and I heard a still voice, saying,'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job4-fear-pivot',
+          html:
+            'Eliphaz shifts from describing the awe of divine mystery to accusing Job of irreverence. The theological turn becomes personal.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             {
               number: 17,
               spans: [

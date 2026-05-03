@@ -424,6 +424,18 @@ export const KINGS_1_3: RichChapterContent = {
                 t(', and the dead is thy son: and this said, No; but the dead is thy son, and the living is my son. Thus they spake before the king.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1k3-wisdom-prayer',
+          html:
+            'Solomon prays for wisdom; the Lord grants not only wisdom but riches and honor—the prayer is answered beyond the asking.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(23, 'Then said the king, The one saith, This is my son that liveth, and thy son is the dead: and the other saith, Nay; but thy son is the dead, and my son is the living: Bring me a sword.'),
             {
               number: 24,

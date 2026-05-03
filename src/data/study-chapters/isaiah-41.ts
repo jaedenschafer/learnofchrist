@@ -135,6 +135,18 @@ export const ISAIAH_41: RichChapterContent = {
             plain(22, 'Let them bring them forth, and shew us what shall happen: let them shew the former things, what they be; that we may consider them, and know the latter end of them; or declare us things for to come.'),
             plain(23, 'Shew the things that are to come hereafter, that we may know that ye are gods: yea, do good, or do evil, that we may be dismayed, and behold it together.'),
             plain(24, 'Behold, ye are of nothing, and your work of nought: an abomination is he that chooseth you.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa41-servant-strength',
+          html:
+            'From the challenge comes the answer. The Lord speaks; His servant rises to answer the call.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 41,
+          lines: [
             plain(25, 'I have raised up one from the north, and he shall come: from the rising of the sun shall he call upon my name: and he shall come upon princes as upon morter, and as the potter treadeth clay.'),
             plain(26, 'Who hath declared from the beginning, that we may know? and beforetime, that we may say, He is righteous? yea, there is none that sheweth, yea, there is none that declareth, yea, there is none that heareth your words.'),
             plain(27, 'The first shall say to Zion, Behold, behold them: and I will give to Jerusalem one that bringeth good tidings.'),

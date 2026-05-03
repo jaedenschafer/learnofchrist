@@ -108,6 +108,18 @@ export const JOB_18: RichChapterContent = {
                 t(', and he walketh upon a snare.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job18-trap-ruin',
+          html:
+            'Bildad shifts from setting traps for the wicked to their complete ruination. Judgment escalates to annihilation.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             plain(9, 'The gin shall take him by the heel, and the robber shall prevail against him.'),
             plain(10, 'The snare is laid for him in the ground, and a trap for him in the way.'),
             plain(11, 'Terrors shall make him afraid on every side, and shall drive him to his feet.'),

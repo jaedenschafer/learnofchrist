@@ -194,6 +194,18 @@ export const JOB_8: RichChapterContent = {
               17,
               'His roots are wrapped about the heap, and seeth the place of stones:'
             ),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job8-past-present',
+          html:
+            'Bildad moves from the wisdom of ancestors to the crisis of the present moment. Ancient truth meets current pain.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(
               18,
               'If he be destroyed from his place, then it shall deny him, saying, I have not seen thee.'

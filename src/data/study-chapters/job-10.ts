@@ -109,6 +109,18 @@ export const JOB_10: RichChapterContent = {
             plain(10, 'Hast thou not poured me out as milk, and curdled me like cheese?'),
             plain(11, 'Thou hast clothed me with skin and flesh, and hast fenced me with bones and sinews.'),
             plain(12, 'Thou hast granted me life and favour, and thy visitation hath preserved my spirit.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job10-maker-accuser',
+          html:
+            'Job shifts from thanking God for making him to accusing God of tormenting him. The same hand, two different acts.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             plain(13, 'And these things hast thou hid in thine heart: I know that this is with thee.'),
             plain(14, 'If I sin, then thou markest me, and thou wilt not acquit me from mine iniquity.'),
             plain(15, 'If I be wicked, woe unto me; and if I be righteous, yet will I not lift up my head; I am full of confusion; and see thou mine affliction;'),

@@ -340,6 +340,18 @@ export const LEVITICUS_8: RichChapterContent = {
                 t('And he took the fat, and the rump, and all the fat that was upon the inwards, and the caul above the liver, and the two kidneys, and their fat, and the right shoulder:'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'lev8-consecration-wave',
+          html:
+            'Moses has done the work. Now Aaron and his sons share the holy meat—covenant made visible.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             {
               number: 26,
               spans: [

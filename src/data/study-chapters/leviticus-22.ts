@@ -261,6 +261,18 @@ export const LEVITICUS_22: RichChapterContent = {
                 t('But whatsoever hath a blemish, that shall ye not offer: for it shall not be acceptable for you.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'lev22-offering-qualification',
+          html:
+            'The rules for the offering transition now—from the priest&apos;s handling to the people&apos;s discernment.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 22,
+          lines: [
             {
               number: 21,
               spans: [

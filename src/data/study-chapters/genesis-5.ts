@@ -189,6 +189,18 @@ export const GENESIS_5: RichChapterContent = {
                 t('And Mahalaleel lived sixty and five years, and begat Jared:'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen5-methuselah-flood',
+          html:
+            'The generations continue; but Methuselah&apos;s age stretches toward the flood—long life cannot forestall God&apos;s judgment.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             {
               number: 16,
               spans: [

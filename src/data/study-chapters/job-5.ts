@@ -188,6 +188,18 @@ export const JOB_5: RichChapterContent = {
                 t(':'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job5-suffering-glimpse',
+          html:
+            'Eliphaz moves from condemning the fool to offering comfort. For the first time, hope breaks through the rebuke.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             {
               number: 12,
               spans: [
@@ -293,6 +305,18 @@ export const JOB_5: RichChapterContent = {
             },
             plain(20, 'In famine he shall redeem thee from death: and in war from the power of the sword.'),
             plain(21, 'Thou shalt be hid from the scourge of the tongue: neither shalt thou be afraid of destruction when it cometh.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job5-preservation-promise',
+          html:
+            'Eliphaz speaks of trouble and toil, then offers a pivot: God preserves the righteous. The accusation gives way to assurance.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(22, 'At destruction and famine thou shalt laugh: neither shalt thou be afraid of the beasts of the earth.'),
             {
               number: 23,

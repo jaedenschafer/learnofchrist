@@ -145,6 +145,18 @@ export const ACTS_13: RichChapterContent = {
                 t('Which was with the deputy of the country, Sergius Paulus, a man of understanding: who called for Barnabas and Saul, and desired to hear the word of God.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'acts-13-paul-antioch',
+          html:
+            'The Spirit sets Paul apart. Barnabas joins him. Two sent out, two witnesses. Now the word leaves Jerusalem&apos;s shadow and spreads to Cyprus. A new frontier opens.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 13,
+          lines: [
             {
               number: 8,
               spans: [

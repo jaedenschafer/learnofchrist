@@ -146,6 +146,18 @@ export const JOB_41: RichChapterContent = {
             plain(27, 'He esteemeth iron as straw, and brass as rotten wood.'),
             plain(28, 'The arrow cannot make him flee: slingstones are turned with him into stubble.'),
             plain(29, 'Darts are counted as stubble: he laugheth at the shaking of a spear.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job41-behold-behemoth',
+          html:
+            'God moves from describing Leviathan&apos;s strength to challenging Job to subdue it. Power becomes an unanswerable question.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 41,
+          lines: [
             plain(30, 'Sharp stones are under him: he spreadeth sharp pointed things upon the mire.'),
             plain(31, 'He maketh the deep to boil like a pot: he maketh the sea like a pot of ointment.'),
             plain(32, 'He maketh a path to shine after him; one would think the deep to be hoary.'),

@@ -74,6 +74,18 @@ export const KINGS_1_9: RichChapterContent = {
                 t(', as David thy father walked, in integrity of heart, and in uprightness, to do according to all that I have commanded thee, and wilt keep my statutes and my judgments;'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1k9-condemnation-warning',
+          html:
+            'The Lord promises; but now comes the warning—if you forsake My law, I will cast you out.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             {
               number: 5,
               spans: [
@@ -284,6 +296,18 @@ export const KINGS_1_9: RichChapterContent = {
                 t('And Baalath, and Tadmor in the wilderness, in the land,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1k9-promise-covenant',
+          html:
+            'The Lord appears and promises; now come the conditions—walk before Me, keep My statutes, and I will establish your throne.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             {
               number: 19,
               spans: [

@@ -252,6 +252,18 @@ export const LEVITICUS_9: RichChapterContent = {
                 t('And he brought the meat offering, and took an handful thereof, and burnt it upon the altar, beside the burnt offering of the morning.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'lev9-aaron-atonement',
+          html:
+            'Aaron&apos;s work for himself is finished. Now he turns to make atonement for the people.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 9,
+          lines: [
             {
               number: 18,
               spans: [

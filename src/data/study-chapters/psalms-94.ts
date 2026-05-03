@@ -35,6 +35,18 @@ export const PSALMS_94: RichChapterContent = {
             plain(2, 'Lift up thyself, thou judge of the earth: render a reward to the proud.'),
             plain(3, 'Lord, how long shall the wicked, how long shall the wicked triumph?'),
             plain(4, 'How long shall they utter and speak hard things? and all the workers of iniquity boast themselves?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps94-judgment-call',
+          html:
+            'God is called to judge. Now the truth deepens: he knows the thoughts of man.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 94,
+          lines: [
             plain(5, 'They break in pieces thy people, O Lord, and afflict thine heritage.'),
             plain(6, 'They slay the widow and the stranger, and murder the fatherless.'),
             plain(8, 'Understand, ye brutish among the people: and ye fools, when will ye be wise?'),

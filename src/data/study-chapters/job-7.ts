@@ -163,6 +163,18 @@ export const JOB_7: RichChapterContent = {
               t('; I will complain in the bitterness of my soul.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job7-breath-lament',
+          html:
+            'Job shifts from describing his restless nights to addressing God directly. Complaint becomes appeal.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(12, 'Am I a sea, or a whale, that thou settest a watch over me?'),
             plain(13, 'When I say, My bed shall comfort me, my couch shall ease my complaint;'),
             plain(14, 'Then thou scarest me with dreams, and terrifiest me through visions:'),

@@ -34,6 +34,18 @@ export const PSALMS_113: RichChapterContent = {
             plain(2, 'Blessed be the name of the Lord from this time forth and for evermore.'),
             plain(3, 'From the rising of the sun unto the going down of the same the Lord&apos;s name is to be praised.'),
             plain(4, 'The Lord is high above all nations, and his glory above the heavens.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps113-praise-humility',
+          html:
+            'The Lord is praised on high. Now the psalm descends: he lifts the poor from the dust.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 113,
+          lines: [
             plain(5, 'Who is like unto the Lord our God, who dwelleth on high,'),
             plain(6, 'Who humbleth himself to behold the things that are in heaven, and in the earth!'),
             plain(7, 'He raiseth up the poor out of the dust, and lifteth the needy out of the dunghill;'),

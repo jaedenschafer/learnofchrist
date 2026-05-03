@@ -34,6 +34,18 @@ export const PSALMS_112: RichChapterContent = {
             plain(3, 'Wealth and riches shall be in his house: and his righteousness endureth for ever.'),
             plain(4, 'Unto the upright there ariseth light in the darkness: he is gracious, and full of compassion, and righteous.'),
             plain(5, 'A good man sheweth favour, and lendeth: he will guide his affairs with discretion.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps112-blessing-steadfast',
+          html:
+            'The blessed man&apos;s character is set. Now watch what happens—his heart is firm, his way steadfast.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 112,
+          lines: [
             plain(6, 'Surely he shall not be moved for ever: the righteous shall be had in everlasting remembrance.'),
             plain(7, 'He shall not be afraid of evil tidings: his heart is fixed, trusting in the Lord.'),
             plain(8, 'His heart is established, he shall not be afraid, until he see his desire upon his enemies.'),

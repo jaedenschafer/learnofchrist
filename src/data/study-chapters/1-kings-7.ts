@@ -110,6 +110,18 @@ export const KINGS_1_7: RichChapterContent = {
             plain(15, 'For he cast two pillars of brass, of eighteen cubits high apiece: and a line of twelve cubits did compass the one pillar.'),
             plain(16, 'And he made two chapiters of molten brass, to set upon the tops of the pillars: the height of the one chapiter was five cubits, and the height of the other chapiter was five cubits:'),
             plain(17, 'And nets of checker work, and wreaths of chain work, for the chapiters which were upon the top of the pillars; seven for the one pillar, and seven for the other pillar.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1k7-furnishings-cast',
+          html:
+            'The temple&apos;s furnishings are cast in bronze; the house of the Lord receives its vessels—craftsmanship serves the holy.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(18, 'And he made the pillars, and two rows of pomegranates round about upon the one network, to cover the chapiters that were upon the top, with pomegranates: and so did he for the other chapiter.'),
             plain(19, 'And the chapiters that were upon the top of the pillars were of lily work in the porch, four cubits.'),
             plain(20, 'And the chapiters upon the two pillars had pomegranates also above, over against the belly which was by the network: and the pomegranates were two hundred in a row round about upon each pillar.'),

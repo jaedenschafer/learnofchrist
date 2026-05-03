@@ -381,6 +381,18 @@ export const KINGS_2_6: RichChapterContent = {
                 t('And he said, If the Lord do not help thee, whence shall I help thee? out of the barnfloor, or out of the winepress?'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '2k6-famine-siege',
+          html:
+            'The siege brings famine; the king tears his clothes—despair rises, but deliverance is on the horizon.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             {
               number: 28,
               spans: [

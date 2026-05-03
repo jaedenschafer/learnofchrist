@@ -200,6 +200,18 @@ export const KINGS_1_20: RichChapterContent = {
             plain(23, 'And the servants of Ben-hadad said unto him, Their gods are gods of the hills; therefore they were stronger than we; but let us fight against them in the plain, and surely we shall be stronger than they.'),
             plain(24, 'And do this thing, Take the kings away, every man out of his place, and put captains in their rooms:'),
             plain(25, 'And number thee an army, like the army that thou hast lost, horse for horse, and chariot for chariot: and we will fight them in the plain, and surely we shall be stronger than them. And he hearkened unto their counsel, and did so.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: '1k20-battle-covenants',
+          html:
+            'The first battle is lost; but now comes the second—the king learns that keeping covenant brings victory.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 20,
+          lines: [
             plain(26, 'And it came to pass at the return of the year, that Ben-hadad numbered the Syrians, and went up to Aphek, to fight against Israel.'),
             plain(27, 'And the children of Israel were numbered, and were all present, and went against them: and the children of Israel pitched before them like two little flocks of kids; but the Syrians filled the country.'),
             plain(28, 'And there came a man of God, and spake unto the king of Israel, and said, Thus saith the Lord, Because the Syrians have said, The Lord is God of the hills, but he is not God of the valleys, therefore will I deliver all this great multitude into thine hand, and ye shall know that I am the Lord.'),
