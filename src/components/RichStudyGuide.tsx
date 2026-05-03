@@ -19,12 +19,12 @@ import ChapterProgress from './ChapterProgress';
 import InlineArtwork from './InlineArtwork';
 import HighlightController from './HighlightController';
 import BlockHideMenus from './BlockHideMenus';
-import DepthTierControl from './DepthTierControl';
+import StudyLevelControl from './StudyLevelControl';
 import { useTranslation } from '@/lib/TranslationContext';
-import { useReadingPrefs } from '@/lib/ReadingPrefsContext';
+import { useStudyLevel } from '@/lib/StudyLevelContext';
 import { fetchVersesClient, type Verse, type ArtworkWithArtist } from '@/lib/supabase';
 import {
-  filterContentByTier,
+  filterContentByLevel,
   type RichChapterContent,
   type RichSection,
   type Block,
@@ -276,16 +276,16 @@ export default function RichStudyGuide({
   artworks = [],
 }: RichStudyGuideProps) {
   const { currentTranslation } = useTranslation();
-  const { depthTier } = useReadingPrefs();
+  const { level: studyLevel } = useStudyLevel();
   const isKjv = currentTranslation === 'kjv';
 
-  // Filter the chapter to the active depth tier. Drops blocks above the tier,
-  // strips dangling highlight anchors, removes empty sections, trims intros
-  // and bottomShare at tier 5. Pure function — re-runs only when content or
-  // tier changes.
+  // Filter the chapter to the active study level. Drops blocks above the
+  // level, strips dangling highlight anchors, removes empty sections, trims
+  // intros and bottomShare at Beginner. Pure function — re-runs only when
+  // content or level changes.
   const content = useMemo(
-    () => filterContentByTier(rawContent, depthTier),
-    [rawContent, depthTier],
+    () => filterContentByLevel(rawContent, studyLevel),
+    [rawContent, studyLevel],
   );
 
   const opener = content.opener
@@ -438,10 +438,10 @@ export default function RichStudyGuide({
       document.removeEventListener('click', handleMarkClick);
       document.documentElement.classList.remove('js');
     };
-    // Re-bind when the active tier changes — the DOM is re-rendered with a
-    // different set of .scripture / .verse-section nodes and the captured
-    // arrays would otherwise reference stale (removed) nodes.
-  }, [depthTier]);
+    // Re-bind when the active study level changes — the DOM is re-rendered
+    // with a different set of .scripture / .verse-section nodes and the
+    // captured arrays would otherwise reference stale (removed) nodes.
+  }, [studyLevel]);
 
   const studyId = `${content.bookSlug}-${content.chapter}`;
   const tapHint =
@@ -490,7 +490,7 @@ export default function RichStudyGuide({
           <StudyAudioPlayer />
         </div>
 
-        <DepthTierControl estimatedMinutes={rawContent.estimatedMinutes} />
+        <StudyLevelControl estimatedMinutes={rawContent.estimatedMinutes} />
 
         {content.intros.map((intro, i) => (
           <AuthoredHtml key={i} as="p" className="intro" html={intro} />
@@ -573,22 +573,20 @@ function FurtherStudy({ resources }: { resources: ResourceLink[] }) {
         {resources.map((r, i) => (
           <li key={r.id} id={`res-${r.id}`} className="fs-item" data-kind={r.kind}>
             <span className="fs-num" aria-hidden="true">{i + 1}.</span>
-            <a
-              className="fs-link"
-              href={r.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={`Open: ${r.label}`}
-            >
-              <span className="fs-source" dangerouslySetInnerHTML={{ __html: r.source }} />
-              <span className="fs-sep" aria-hidden="true"> · </span>
-              <span className="fs-label" dangerouslySetInnerHTML={{ __html: r.label }} />
-              <svg className="fs-ext" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
-                <path d="M6 3H3v10h10v-3" strokeLinecap="round" />
-                <path d="M9 3h4v4M13 3 7 9" strokeLinecap="round" />
-              </svg>
-            </a>
-            <span className="fs-desc" dangerouslySetInnerHTML={{ __html: r.description }} />
+            <div className="fs-body">
+              <div className="fs-line">
+                <a
+                  className="fs-link"
+                  href={r.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="fs-label" dangerouslySetInnerHTML={{ __html: r.label }} />
+                </a>
+                <span className="fs-source" dangerouslySetInnerHTML={{ __html: r.source }} />
+              </div>
+              <span className="fs-desc" dangerouslySetInnerHTML={{ __html: r.description }} />
+            </div>
           </li>
         ))}
       </ol>

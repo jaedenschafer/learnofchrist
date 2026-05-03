@@ -12,7 +12,7 @@ export const GENESIS_1: RichChapterContent = {
   bookName: 'Genesis',
   chapter: 1,
 
-  estimatedMinutes: { 5: 11, 10: 18, 15: 22 },
+  estimatedMinutes: { beginner: 11, intermediate: 18, deep: 22 },
   intros: [
     'Genesis 1 tells how God brought the world into being over seven days. Days one through three form the spaces of creation — light, sky, land. Days four through six fill those spaces — sun and moon, fish and birds, animals and humans. Day seven, God rests. Each day follows the same pattern: God speaks, what He speaks comes to be, He calls it good.',
     'The chapter was written into a world full of other creation stories — Babylonian[res:enuma-elish-bm], Egyptian, Canaanite — with violent gods, cosmic battles, and humans made as slaves. Genesis answers them all[res:bibleodyssey-creation-stories]. One God. Creation by peaceful speech. Humans made in His image. And for the reader on this side of the cross, the fingerprints of Christ are already everywhere: the Word who speaks, the Light before the sun, the Image we are made after, the Rest we are invited into.',
@@ -36,29 +36,26 @@ export const GENESIS_1: RichChapterContent = {
     {
       id: 'enuma-elish-bm',
       kind: 'museum',
-      source: 'The British Museum',
+      source: 'British Museum',
       label: 'Enuma Elish, Tablet I (K.5419c)',
       url: 'https://www.britishmuseum.org/collection/object/W_K-5419-c',
-      description:
-        'The actual Neo-Assyrian clay tablet preserving the opening of the Babylonian creation epic — the very text Genesis 1 was written into and against. Tiamat is the chaos-sea goddess slain by Marduk; in Genesis, <em>tehom</em> is cognate with her name but demoted to mere dark water under God&apos;s Spirit.',
+      description: 'The Neo-Assyrian clay tablet preserving the Babylonian creation epic Genesis was written into and against.',
     },
     {
       id: 'bibleodyssey-creation-stories',
       kind: 'study',
-      source: 'Bible Odyssey · Society of Biblical Literature',
+      source: 'Bible Odyssey (SBL)',
       label: 'Creation Stories in the Bible',
       url: 'https://www.bibleodyssey.org/articles/creation-stories-in-the-bible/',
-      description:
-        'Open-access scholarly overview from the SBL placing Genesis 1 alongside Mesopotamian and Egyptian creation accounts, with attention to how the Genesis writer answers and reframes them.',
+      description: 'SBL overview placing Genesis 1 alongside Mesopotamian and Egyptian creation accounts.',
     },
     {
       id: 'sefaria-genesis-1',
       kind: 'lexicon',
       source: 'Sefaria',
-      label: 'Genesis 1 · Hebrew text + classical Jewish commentary',
+      label: 'Genesis 1 · Hebrew + Jewish commentary',
       url: 'https://www.sefaria.org/Genesis.1',
-      description:
-        'The Hebrew text of Genesis 1 with Rashi, Ibn Ezra, Ramban and other classical commentators side-by-side. Useful for tracing how Jewish tradition handled the <em>bara&apos;</em> vs <em>asah</em> distinction long before Christian readers ever did.',
+      description: 'Hebrew text with Rashi, Ibn Ezra, Ramban side-by-side — useful for the <em>bara&apos;</em> vs <em>asah</em> question.',
     },
   ],
 

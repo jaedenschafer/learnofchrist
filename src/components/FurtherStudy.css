@@ -29,10 +29,9 @@
   border-radius: 3px;
 }
 
-/* ─── Further study (condensed bullet-list version) ───────────────────
- *  Tight, citation-style list at the very bottom of the chapter.
- *  Reads like the references section of a journal article rather than
- *  a row of marketing cards. */
+/* ─── Further study (condensed citation list) ─────────────────────────
+ *  Tight, scannable. Each entry: number | blue title link · grey source |
+ *  one-line muted description below. No icons, no cards, no chrome. */
 
 .further-study {
   margin: 3rem auto 2rem;
@@ -46,7 +45,7 @@
   font-weight: 600;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  margin: 0 0 0.85rem;
+  margin: 0 0 0.95rem;
   color: var(--ink-soft, #6b6157);
 }
 
@@ -56,15 +55,16 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 0.55rem;
+  gap: 0.65rem;
 }
 
 .fs-item {
-  font-size: 0.88rem;
-  line-height: 1.5;
-  color: var(--ink-mid, #3d342c);
+  display: grid;
+  grid-template-columns: 1.55rem 1fr;
+  align-items: baseline;
+  gap: 0.35rem;
   scroll-margin-top: 5rem;
-  padding: 0.05rem 0;
+  padding: 0.05rem 0.25rem;
   border-radius: 4px;
   transition: background 200ms ease;
 }
@@ -79,55 +79,48 @@
 }
 
 .fs-num {
-  display: inline-block;
-  min-width: 1.4em;
-  margin-right: 0.25rem;
   color: var(--resource-blue, #2f6fd6);
   font-weight: 600;
   font-variant-numeric: tabular-nums;
+  text-align: right;
+  font-size: 0.92rem;
+}
+
+.fs-body { min-width: 0; }
+
+.fs-line {
+  display: block;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: var(--ink-mid, #3d342c);
 }
 
 .fs-link {
-  color: inherit;
-  text-decoration: none;
+  color: var(--resource-blue, #2f6fd6);
   font-weight: 500;
+  text-decoration: none;
 }
 .fs-link:hover .fs-label,
 .fs-link:focus-visible .fs-label {
-  color: var(--resource-blue-dark, #1e4fa3);
   text-decoration: underline;
-  text-underline-offset: 0.15em;
+  text-underline-offset: 0.18em;
   text-decoration-thickness: 1px;
 }
 
+.fs-label { color: inherit; }
+
 .fs-source {
-  font-size: 0.74rem;
-  letter-spacing: 0.10em;
-  text-transform: uppercase;
+  font-size: 0.78rem;
   color: var(--ink-soft, #6b6157);
-  font-weight: 600;
-}
-.fs-sep {
-  color: var(--ink-soft, #9b9087);
-  margin: 0 0.15rem;
-}
-.fs-label {
-  color: var(--resource-blue, #2f6fd6);
+  margin-left: 0.5rem;
   font-weight: 500;
-}
-.fs-ext {
-  width: 0.7rem;
-  height: 0.7rem;
-  margin-left: 0.2rem;
-  vertical-align: -0.05em;
-  color: var(--resource-blue, #2f6fd6);
-  opacity: 0.7;
+  white-space: nowrap;
 }
 
 .fs-desc {
   display: block;
-  margin: 0.15rem 0 0 1.65rem;
-  font-size: 0.82rem;
+  margin: 0.1rem 0 0;
+  font-size: 0.85rem;
   line-height: 1.5;
   color: var(--ink-soft, #6b6157);
 }
@@ -137,8 +130,18 @@
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  .fs-item { font-size: 0.85rem; }
-  .fs-desc { margin-left: 1.5rem; font-size: 0.8rem; }
+  .fs-item {
+    grid-template-columns: 1.35rem 1fr;
+  }
+  .fs-line { font-size: 0.92rem; }
+  .fs-desc { font-size: 0.82rem; }
+  .fs-source {
+    display: block;
+    margin-left: 0;
+    margin-top: 0.05rem;
+    font-size: 0.72rem;
+    white-space: normal;
+  }
 }
 
 /* Dark mode. */
@@ -146,8 +149,7 @@
   .resource-ref sup { color: #6da4ff; }
   .resource-ref:hover sup { color: #9cc1ff; }
   .fs-num { color: #6da4ff; }
-  .fs-label { color: #6da4ff; }
+  .fs-link { color: #6da4ff; }
   .fs-link:hover .fs-label,
   .fs-link:focus-visible .fs-label { color: #b8d2ff; }
-  .fs-ext { color: #6da4ff; }
 }

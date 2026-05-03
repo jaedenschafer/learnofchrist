@@ -19,7 +19,7 @@ export const ACTS_17: RichChapterContent = {
   bookName: 'Acts',
   chapter: 17,
 
-  estimatedMinutes: { 5: 9, 10: 12, 15: 16 },
+  estimatedMinutes: { beginner: 9, intermediate: 13, deep: 17 },
   intros: [
     'Paul travels through three cities in Acts 17, and each city becomes a lesson in how the gospel meets different kinds of resistance. In Thessalonica, the Jews oppose him and drag him before the rulers. In Berea, believers search the scriptures daily to verify what Paul proclaims. In Athens, philosophers mock him in the marketplace, and he stands on Mars Hill[res:bibleodyssey-areopagus] to speak to a city built on human wisdom.',
     'The pattern is consistent: the gospel is preached, opposition arises, some believe. But what changes from city to city is the nature of the opposition and the kind of belief that follows. Thessalonica sees theological sedition. Berea sees noble discernment. Athens sees philosophers torn between mockery and genuine inquiry. By the end of the chapter, the unknown God is known, at least to some—Dionysius, Damaris, and others who heard and believed.',
@@ -583,29 +583,26 @@ export const ACTS_17: RichChapterContent = {
     {
       id: 'bibleodyssey-areopagus',
       kind: 'study',
-      source: 'Bible Odyssey · Society of Biblical Literature',
+      source: 'Bible Odyssey (SBL)',
       label: 'Areopagus',
       url: 'https://www.bibleodyssey.org/dictionary/areopagus/',
-      description:
-        'Open-access SBL entry on the limestone outcrop in Athens northwest of the Acropolis where Paul addressed the philosophers. Covers both the geography and the role of the Areopagus council in first-century religious affairs.',
+      description: 'Open-access SBL entry on the limestone outcrop where Paul addressed the philosophers, covering both the site and the council.',
     },
     {
       id: 'ascsa-agora',
       kind: 'archaeology',
-      source: 'American School of Classical Studies at Athens',
-      label: 'Agora Excavations',
+      source: 'ASCSA',
+      label: 'Athenian Agora Excavations',
       url: 'https://agora.ascsa.net/',
-      description:
-        'The ASCSA has excavated the Athenian Agora — the marketplace below the Areopagus where Paul disputed daily — continuously since 1931. The image and report archive shows the sprawling religious landscape Acts describes: temples, altars, herms, and shrines on every street corner.',
+      description: 'Continuous excavation of the marketplace below the Areopagus since 1931 — the temples, altars and shrines Acts describes.',
     },
     {
       id: 'aratus-phaenomena',
       kind: 'archive',
-      source: 'Theoi Classical Texts Library',
-      label: 'Aratus, Phaenomena (Greek + English)',
+      source: 'Theoi Classical Texts',
+      label: 'Aratus, Phaenomena',
       url: 'https://www.theoi.com/Text/AratusPhaenomena.html',
-      description:
-        'Full text of the third-century-BCE Stoic poem Paul quotes at Acts 17:28 — "for we are also his offspring." Line 5 of the proem. Reading the surrounding lines shows how deftly Paul reframes a Stoic hymn about Zeus into a confession about the God of Israel.',
+      description: 'Full Greek + English of the Stoic poem Paul quotes at Acts 17:28 — line 5 of the proem.',
     },
     {
       id: 'aratus-acts28-intertextual',
@@ -613,8 +610,7 @@ export const ACTS_17: RichChapterContent = {
       source: 'Intertextual Bible',
       label: 'Aratus Phaenomena 5 ↔ Acts 17:28',
       url: 'https://intertextual.bible/text/aratus-phaenomena-5/acts-17.28',
-      description:
-        'Side-by-side comparison of the Greek of Aratus and the Greek of Acts, with notes on how Paul&apos;s citation works rhetorically. Useful for seeing the seam where the gospel meets the philosophy of the audience it confronts.',
+      description: 'Side-by-side comparison of Aratus&apos;s Greek and Paul&apos;s Greek, showing how the citation works.',
     },
   ],
 
