@@ -172,7 +172,7 @@ export const HEBREWS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'heb2-psalm8-1',
           html:
-            'The author quotes Psalm 8, which opens with wonder at the smallness of humanity in a vast cosmos, yet humanity&apos;s honor in God&apos;s sight. Humans were made slightly lower than the angels and crowned with glory. That was the plan. That was the birthright. And that is what you have lost.',
+            'The author quotes Psalm 8, which opens with wonder at the smallness of humanity in a vast cosmos, yet humanity&apos;s honor in God&apos;s sight. [res:sefaria-psalm8] Humans were made slightly lower than the angels and crowned with glory. That was the plan. That was the birthright. And that is what you have lost.',
         },
         {
           kind: 'commentary',
@@ -513,7 +513,7 @@ export const HEBREWS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'heb2-high-priest-logic',
           html:
-            'A high priest must stand between God and people—belonging to both, understanding both, able to speak for both. The old high priests were human, but they did not fully understand God; they were sinful, so they could not fully represent us. Jesus is the only High Priest who can truly represent both sides: fully God, and, except for sin, fully human.',
+            'A high priest must stand between God and people—belonging to both, understanding both, able to speak for both. [res:israel-museum-day-atonement] The old high priests were human, but they did not fully understand God; they were sinful, so they could not fully represent us. Jesus is the only High Priest who can truly represent both sides: fully God, and, except for sin, fully human.',
         },
         {
           kind: 'greek',
@@ -596,7 +596,7 @@ export const HEBREWS_2: RichChapterContent = {
           script: 'βοηθέω',
           translit: '<strong>boētheō</strong> · to run to help; to aid; to come to the rescue',
           description:
-            'An image of running toward someone in danger. Not distant help, not generic wisdom, but real aid. When you cry out in temptation, He is not too busy, not too disappointed, not too far away. He runs to help.',
+            'An image of running toward someone in danger. [res:perseus-boethos] Not distant help, not generic wisdom, but real aid. When you cry out in temptation, He is not too busy, not too disappointed, not too far away. He runs to help.',
         },
         {
           kind: 'christ',
@@ -627,6 +627,33 @@ export const HEBREWS_2: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Hebrews 2 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm8',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 8:4–5 — "What Is Man That Thou Art Mindful"',
+      url: 'https://www.sefaria.org/Psalms.8.4-5',
+      description: 'Psalm on human dignity and Christ&apos;s humiliation-exaltation cited in Hebrews 2:6–8.',
+    },
+    {
+      id: 'israel-museum-day-atonement',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'High Priest Vestments and Day of Atonement',
+      url: 'https://www.imj.org.il/en/collections/high-priest-atonement',
+      description: 'Museum artifacts and background on Jewish high priesthood and sacrificial system.',
+    },
+    {
+      id: 'perseus-boethos',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Greek Lexicon — Boētheō (Help, Succour)',
+      url: 'https://www.perseus.tufts.edu/hopper/morph?l=bohqew&la=greek',
+      description: 'Lexical note on &ldquo;come to the rescue&rdquo; in Hebrews 2:18.',
+    },
+  ],
 
   hasHebrew: false,
 };

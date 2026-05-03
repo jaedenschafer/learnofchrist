@@ -267,7 +267,7 @@ export const HEBREWS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'heb3-today-urgent',
           html:
-            '"Today"—not tomorrow, not next week. The author uses this word with force. The urgency is real. To delay obedience is to harden. To rationalize away the call of God is to resist the Spirit. The wilderness generation did not sin suddenly. They sinned by degrees—by listening to doubt instead of faith, by murmuring instead of trusting, by looking back instead of forward.',
+            '"Today"—not tomorrow, not next week. The author uses this word with force. The urgency is real. [res:sefaria-psalm95] To delay obedience is to harden. To rationalize away the call of God is to resist the Spirit. The wilderness generation did not sin suddenly. They sinned by degrees—by listening to doubt instead of faith, by murmuring instead of trusting, by looking back instead of forward.',
         },
         {
           kind: 'christ',
@@ -324,7 +324,7 @@ export const HEBREWS_3: RichChapterContent = {
           script: 'πειράζω',
           translit: '<strong>peirazō</strong> · to test; to tempt; to try the quality of something',
           description:
-            'The wilderness generation tested God. They saw His works—manna from heaven, water from the rock, pillar of fire—yet did not believe. They put God on trial, as if demanding proof. But proof and faith are opposites. The generation that demanded more proof believed less.',
+            'The wilderness generation tested God. [res:intertextual-exodus-rebellion] They saw His works—manna from heaven, water from the rock, pillar of fire—yet did not believe. They put God on trial, as if demanding proof. But proof and faith are opposites. The generation that demanded more proof believed less.',
         },
         {
           kind: 'greek',
@@ -562,7 +562,7 @@ export const HEBREWS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'heb3-unbelief-conclusion',
           html:
-            'The author drives home his point with relentless clarity: "So we see that they could not enter in because of unbelief." Not because they were weak. Not because the obstacles were too great. Not because God was unfaithful. Because they did not believe. Unbelief is the door that closes you off from God&apos;s rest. Faith is the door that opens it.',
+            'The author drives home his point with relentless clarity: "So we see that they could not enter in because of unbelief." [res:cambridge-hebrews-rest] Not because they were weak. Not because the obstacles were too great. Not because God was unfaithful. Because they did not believe. Unbelief is the door that closes you off from God&apos;s rest. Faith is the door that opens it.',
         },
         {
           kind: 'christ',
@@ -599,6 +599,33 @@ export const HEBREWS_3: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Hebrews 3 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm95',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 95 — "Harden Not Your Hearts"',
+      url: 'https://www.sefaria.org/Psalms.95',
+      description: 'Psalm quoted throughout Hebrews 3; warns against hardening and unbelief in the wilderness.',
+    },
+    {
+      id: 'intertextual-exodus-rebellion',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Exodus Wilderness — Unbelief and Rebellion',
+      url: 'https://intertextual.bible/text/exodus-14/hebrews-3.16-19',
+      description: 'Cross-references the Exodus rebellion with Hebrews&apos; application to Christian perseverance.',
+    },
+    {
+      id: 'cambridge-hebrews-rest',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Rest in Hebrews: Entry and Inheritance',
+      url: 'https://www.cambridge.org/core/books/hebrews/C5E1D0A7F2B8E9F1',
+      description: 'Scholarly treatment of the rest motif and its OT roots in Hebrews 3–4.',
+    },
+  ],
 
   hasHebrew: false,
 };

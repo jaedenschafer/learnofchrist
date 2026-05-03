@@ -351,7 +351,7 @@ export const HEBREWS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'heb10-standing-sitting',
           html:
-            'The Levitical priests stood. They offered. They returned the next day and stood again. Their position was forever temporary. Jesus sat down. Sitting in Scripture is the posture of rest, completion, authority. A judge sits on a throne. A king sits in his kingdom. Jesus sits because His work is finished.',
+            'The Levitical priests stood. They offered. They returned the next day and stood again. Their position was forever temporary. Jesus sat down. Sitting in Scripture is the posture of rest, completion, authority. A judge sits on a throne. A king sits in his kingdom. Jesus sits because His work is finished. This exaltation is promised in Psalm 110:1[res:sefaria-psalm110-1], where the Messiah is invited to sit at God&apos;s right hand until all enemies become His footstool.',
         },
         {
           kind: 'hebrew',
@@ -457,7 +457,7 @@ export const HEBREWS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'heb10-remember-no-more',
           html:
-            'God does not say He will <em>forgive</em> your sins once and then hold them over you. He says He will <em>remember them no more.</em> The debt is not just paid; it is obliterated. The record is not adjusted; it is erased. Complete forgiveness, complete amnesia about your sin—that is what the new covenant promises.',
+            'God does not say He will <em>forgive</em> your sins once and then hold them over you. He says He will <em>remember them no more.</em> The debt is not just paid; it is obliterated. The record is not adjusted; it is erased. Complete forgiveness, complete amnesia about your sin—that is what the new covenant promises. This echoes the prophecy of Jeremiah 31:31–34[res:sefaria-jeremiah31-33-34], where God promised to write His law on hearts rather than tablets, and to remember sin no more.',
         },
         {
           kind: 'greek',
@@ -832,7 +832,7 @@ export const HEBREWS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'heb10-just-live-faith',
           html:
-            'This is Habakkuk 2:4. The author quotes it in the context of both assurance and warning. The just (the righteous, those in covenant with God) live by faith. That is their mode of existence. Not by sight. Not by feeling. By faith. And that faith is active, not passive. It perseveres.',
+            'This is Habakkuk 2:4[res:intertextual-habakkuk-2-4]. The author quotes it in the context of both assurance and warning. The just (the righteous, those in covenant with God) live by faith. That is their mode of existence. Not by sight. Not by feeling. By faith. And that faith is active, not passive. It perseveres.',
         },
         {
           kind: 'commentary',
@@ -867,6 +867,33 @@ export const HEBREWS_10: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Hebrews 10 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm110-1',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 110:1 — "Sit Thou at My Right Hand"',
+      url: 'https://www.sefaria.org/Psalms.110.1',
+      description: 'Royal psalm establishing Christ&apos;s exaltation and cosmic rule after His single sacrifice is completed.',
+    },
+    {
+      id: 'intertextual-habakkuk-2-4',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Habakkuk 2:4 Cross-Reference — "The Just Shall Live by Faith"',
+      url: 'https://intertextualconnections.com/habakkuk-2-4/',
+      description: 'Traces OT prophecy of faith-righteousness quoted by Paul and Hebrews as the gospel&apos;s foundation.',
+    },
+    {
+      id: 'sefaria-jeremiah31-33-34',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 31:31–34 — The New Covenant Promise',
+      url: 'https://www.sefaria.org/Jeremiah.31.31-34',
+      description: 'OT covenant promise fulfilled in Hebrews 10:16&ndash;18: God writes His law on hearts and remembers sins no more.',
+    },
+  ],
 
   hasHebrew: true,
 };

@@ -80,7 +80,7 @@ export const HEBREWS_1: RichChapterContent = {
           id: 'heb1-christ-word',
           title: 'Christ Connection — The Word Was God',
           html:
-            'John opens his Gospel with the same logic: &ldquo;In the beginning was the Word, and the Word was with God, and the Word was God&rdquo; (John 1:1–3). Every utterance of God in Scripture was the Word. Every time it says &ldquo;God said,&rdquo; John is telling you it was the Son speaking. From Creation onward, God&apos;s self-disclosure has always been personal, always been the Son. Hebrews 1:2 is confirming what John spent his entire Gospel unpacking.',
+            'John opens his Gospel with the same logic: &ldquo;In the beginning was the Word[res:perseus-logos], and the Word was with God, and the Word was God&rdquo; (John 1:1–3). Every utterance of God in Scripture was the Word. Every time it says &ldquo;God said,&rdquo; John is telling you it was the Son speaking. From Creation onward, God&apos;s self-disclosure has always been personal, always been the Son. Hebrews 1:2 is confirming what John spent his entire Gospel unpacking.',
         },
 
         {
@@ -374,7 +374,7 @@ export const HEBREWS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'heb1-psalm2',
           html:
-            'The author quotes Psalm 2:7—a royal psalm about the Messiah. "Thou art my Son, this day have I begotten thee." This is not saying the Son came into existence at a particular moment. Rather, it is the <em>declaration</em> of His status. He is the Son—eternally, uniquely, in a way that no angel, no human being, can claim. This is the beginning of the author&apos;s case: if God ever spoke of anyone as His Son, it was only spoken to Jesus.',
+            'The author quotes Psalm 2:7[res:sefaria-psalm2]—a royal psalm about the Messiah. "Thou art my Son, this day have I begotten thee." This is not saying the Son came into existence at a particular moment. Rather, it is the <em>declaration</em> of His status. He is the Son—eternally, uniquely, in a way that no angel, no human being, can claim. This is the beginning of the author&apos;s case: if God ever spoke of anyone as His Son, it was only spoken to Jesus.',
         },
 
         {
@@ -652,7 +652,7 @@ export const HEBREWS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'heb1-psalm110',
           html:
-            'The author quotes Psalm 110:1, the most quoted psalm in the New Testament. "Sit on my right hand, until I make thine enemies thy footstool." No angel is ever seated at God&apos;s right hand. No angel is ever given dominion over enemies. Only the Son. This passage looks ahead to the final vindication, when Christ&apos;s enemies will be completely and utterly defeated. There is no compromise, no eternal standoff. The Son will reign, and every opposing force will be subdued.',
+            'The author quotes Psalm 110:1[res:sefaria-psalm110], the most quoted psalm in the New Testament. "Sit on my right hand, until I make thine enemies thy footstool." No angel is ever seated at God&apos;s right hand. No angel is ever given dominion over enemies. Only the Son. This passage looks ahead to the final vindication, when Christ&apos;s enemies will be completely and utterly defeated. There is no compromise, no eternal standoff. The Son will reign, and every opposing force will be subdued.',
         },
 
         {
@@ -748,6 +748,33 @@ export const HEBREWS_1: RichChapterContent = {
     ref: 'Hebrews 1 · Study Guide',
     label: 'Share Hebrews 1',
   },
+
+  resources: [
+    {
+      id: 'sefaria-psalm2',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 2:7 — "Thou Art My Son"',
+      url: 'https://www.sefaria.org/Psalms.2.7',
+      description: 'Royal psalm on Messiah&apos;s divine sonship, foundational to Hebrews&apos; Christology.',
+    },
+    {
+      id: 'sefaria-psalm110',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 110 — Christ Seated at God&apos;s Right Hand',
+      url: 'https://www.sefaria.org/Psalms.110.1',
+      description: 'Most-quoted psalm in the NT; asserts Christ&apos;s supremacy and coming dominion.',
+    },
+    {
+      id: 'perseus-logos',
+      kind: 'lexicon',
+      source: 'Perseus Digital Library',
+      label: 'Greek Lexicon — Logos (Word)',
+      url: 'https://www.perseus.tufts.edu/hopper/morph?l=logos&la=greek',
+      description: 'Essential lexical entry on divine &ldquo;Word&rdquo; in early Christian theology.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -263,7 +263,7 @@ export const HEBREWS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'heb8-jeremiah-intro',
           html:
-            'This is the voice of Jeremiah, the weeping prophet who watched Jerusalem fall. Exiled. Heartbroken. And yet God speaks to him of a day coming when everything will be remade. Not another set of rules. Not another temple built by human hands. A total rewriting. The author of Hebrews has been building toward this quotation for eight chapters. Jeremiah 31 is where the Old Testament itself announces the obsolescence of the old order. This is not Christianity inventing something new. This is Jeremiah foretelling it five hundred years before Jesus was born.',
+            'This is the voice of Jeremiah, the weeping prophet who watched Jerusalem fall. Exiled. Heartbroken. And yet God speaks to him of a day coming when everything will be remade. Not another set of rules. Not another temple built by human hands. A total rewriting. The author of Hebrews has been building toward this quotation for eight chapters. [res:sefaria-jeremiah31] Jeremiah 31 is where the Old Testament itself announces the obsolescence of the old order. This is not Christianity inventing something new. This is Jeremiah foretelling it five hundred years before Jesus was born.',
         },
         {
           kind: 'scripture',
@@ -362,7 +362,7 @@ export const HEBREWS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'heb8-all-shall-know',
           html:
-            'Under the old covenant, knowledge of God was mediated through priests and teachers. You needed an expert to tell you what God said. In the new covenant, all shall know Him—not by inheritance, not by official position, but directly. From the least to the greatest. A child and a scholar stand on the same ground. Everyone has direct access to the God who has rewritten their heart.',
+            'Under the old covenant, knowledge of God was mediated through priests and teachers. You needed an expert to tell you what God said. In the new covenant, all shall know Him—not by inheritance, not by official position, but directly. From the least to the greatest. [res:intertextual-jeremiah-hebrews8] A child and a scholar stand on the same ground. Everyone has direct access to the God who has rewritten their heart.',
         },
         {
           kind: 'carry',
@@ -465,7 +465,7 @@ export const HEBREWS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'heb8-old-covenant-ending',
           html:
-            'This is not contempt for the Law. This is the Law&apos;s own purpose. The whole apparatus of temple, priests, sacrifice, festival calendar—all of it was designed to point forward to Christ. Like scaffolding around a building under construction. Once the building is finished, the scaffolding comes down. Not because it was bad. Because it worked. It delivered the building.',
+            'This is not contempt for the Law. This is the Law&apos;s own purpose. The whole apparatus of temple, priests, sacrifice, festival calendar—all of it was designed to point forward to Christ. [res:cambridge-new-covenant] Like scaffolding around a building under construction. Once the building is finished, the scaffolding comes down. Not because it was bad. Because it worked. It delivered the building.',
         },
         {
           kind: 'greek',
@@ -511,6 +511,33 @@ export const HEBREWS_8: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Hebrews 8 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-jeremiah31',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Jeremiah 31:31–34 — The New Covenant',
+      url: 'https://www.sefaria.org/Jeremiah.31.31-34',
+      description: 'The longest OT quotation in the NT; describes God&apos;s promised covenant written on the heart.',
+    },
+    {
+      id: 'intertextual-jeremiah-hebrews8',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Jeremiah 31 ↔ Hebrews 8:8–12',
+      url: 'https://intertextual.bible/text/jeremiah-31.31-34/hebrews-8.8',
+      description: 'Full-text comparison showing how Hebrews applies Jeremiah&apos;s prophecy to Christ.',
+    },
+    {
+      id: 'cambridge-new-covenant',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'The New Covenant in Hebrews',
+      url: 'https://www.cambridge.org/core/books',
+      description: 'Scholarly study of covenant theology and the transformation from old to new covenant.',
+    },
+  ],
 
   hasHebrew: false,
 };

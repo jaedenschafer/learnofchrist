@@ -98,7 +98,7 @@ export const HEBREWS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'melchisedec-person',
           html:
-            'Melchisedec appears only twice in Scripture—Genesis 14 and referenced here in Hebrews 5-7. He is not explained, not introduced, not contextualized. He simply appears, as if the reader already knows him. This mysterious quality is exactly what makes him so powerful as a type of Christ. He is what priesthood looks like when you strip away time, genealogy, and succession.',
+            'Melchisedec appears only twice in Scripture—Genesis 14 and referenced here in Hebrews 5-7. [res:sefaria-genesis14-melchisedec-full] He is not explained, not introduced, not contextualized. He simply appears, as if the reader already knows him. This mysterious quality is exactly what makes him so powerful as a type of Christ. He is what priesthood looks like when you strip away time, genealogy, and succession.',
         },
         {
           kind: 'commentary',
@@ -577,7 +577,7 @@ export const HEBREWS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'c-melch-greatness-2',
           html:
-            'The author is building an irrefutable logical case. Every line of evidence points the same direction: Melchisedec is great, greater than Abraham, greater than the Levitical system that will later arise from Abraham&apos;s descendants. And if Christ is a priest after Melchisedec&apos;s order, then Christ is necessarily greater than the entire Levitical system.',
+            'The author is building an irrefutable logical case. [res:sbl-melchisedec-research] Every line of evidence points the same direction: Melchisedec is great, greater than Abraham, greater than the Levitical system that will later arise from Abraham&apos;s descendants. And if Christ is a priest after Melchisedec&apos;s order, then Christ is necessarily greater than the entire Levitical system.',
         },
         {
           kind: 'divider',
@@ -600,7 +600,7 @@ export const HEBREWS_7: RichChapterContent = {
           kind: 'commentary',
           id: 'c-final-logic',
           html:
-            'The author has built his case step by step. Scripture itself testifies to another priesthood. That priesthood is eternal, unchangeable, not grounded in human descent but in divine oath. It is necessarily superior to the Levitical system. If the old system were sufficient, a new one would not be needed. Yet Scripture prophesies a new one. Therefore, the old system was incomplete and is now obsolete. Not evil—just insufficient. Not wrong—just temporary. Its purpose was to point toward this eternal priesthood, and that purpose is fulfilled in Christ.',
+            'The author has built his case step by step. [res:dead-sea-scrolls-11q13] Scripture itself testifies to another priesthood. That priesthood is eternal, unchangeable, not grounded in human descent but in divine oath. It is necessarily superior to the Levitical system. If the old system were sufficient, a new one would not be needed. Yet Scripture prophesies a new one. Therefore, the old system was incomplete and is now obsolete. Not evil—just insufficient. Not wrong—just temporary. Its purpose was to point toward this eternal priesthood, and that purpose is fulfilled in Christ.',
         },
         {
           kind: 'carry',
@@ -623,6 +623,33 @@ export const HEBREWS_7: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Hebrews 7 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis14-melchisedec-full',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Genesis 14:18–20 — Melchisedec Meets Abraham',
+      url: 'https://www.sefaria.org/Genesis.14.18-20',
+      description: 'The OT account of Melchisedec; Hebrews 7 builds its entire Christology on this passage.',
+    },
+    {
+      id: 'sbl-melchisedec-research',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Melchizedek: Priest without Genealogy',
+      url: 'https://www.bibleodyssey.org/dictionary/melchizedek/',
+      description: 'SBL scholarly entry unpacking the Jewish understanding of Melchisedec and typological interpretation.',
+    },
+    {
+      id: 'dead-sea-scrolls-11q13',
+      kind: 'manuscript',
+      source: 'Dead Sea Scrolls Foundation',
+      label: '11Q13 (Melchizedek Text)',
+      url: 'https://www.deadseascrolls.org.il/docs/melchizedek',
+      description: 'Qumran text on Melchisedec eschatology; evidence of Jewish expectations about this priestly figure.',
+    },
+  ],
 
   hasHebrew: true,
 };

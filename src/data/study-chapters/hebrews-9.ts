@@ -142,7 +142,7 @@ export const HEBREWS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'tabernacle-structure',
           html:
-            'Picture the layout: You enter the outer court. Beyond that, the holy place—where the priest works. The lampstand on the north side gives light. The table on the south side holds bread. Straight ahead, the altar of incense. And beyond the veil, invisible from where you stand, the holy of holies. In that inner room, the ark of the covenant. Above the ark, the mercy seat. That is where God dwells. That is where His presence is concentrated. For the common Israelite, that inner room is unreachable. For the priest, it is reachable only once a year, and only by the High Priest, and only with blood.',
+            'Picture the layout: You enter the outer court. Beyond that, the holy place—where the priest works. [res:israel-museum-tabernacle] The lampstand on the north side gives light. The table on the south side holds bread. Straight ahead, the altar of incense. And beyond the veil, invisible from where you stand, the holy of holies. In that inner room, the ark of the covenant. Above the ark, the mercy seat. That is where God dwells. That is where His presence is concentrated. For the common Israelite, that inner room is unreachable. For the priest, it is reachable only once a year, and only by the High Priest, and only with blood.',
         },
         {
           kind: 'carry',
@@ -329,7 +329,7 @@ export const HEBREWS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'repetition-system',
           html:
-            'Notice the rhythm. Once a year. Every year. Once a year, every year, forever. The system is designed to repeat. The High Priest goes in. He sprinkles the blood. He comes out. And the whole nation waits. One year passes. And he has to do it again. Again, and again, and again. The old system never finishes anything. It begins the same cycle all over. It is a picture of incompleteness. A sign that something better was coming.',
+            'Notice the rhythm. Once a year. Every year. Once a year, every year, forever. [res:sefaria-leviticus16] The system is designed to repeat. The High Priest goes in. He sprinkles the blood. He comes out. And the whole nation waits. One year passes. And he has to do it again. Again, and again, and again. The old system never finishes anything. It begins the same cycle all over. It is a picture of incompleteness. A sign that something better was coming.',
         },
         {
           kind: 'carry',
@@ -769,7 +769,7 @@ export const HEBREWS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'scarlet-hyssop',
           html:
-            'Moses used scarlet wool and hyssop—the same materials that would be used in the purification ritual for leprosy. Scarlet, the color of blood. Hyssop, a plant used to apply blood or medicine. Everything was pointing to blood. Everything was saying: Blood is the price. Blood is the purifier. Blood is the way.',
+            'Moses used scarlet wool and hyssop—the same materials that would be used in the purification ritual for leprosy. [res:sefaria-numbers19] Scarlet, the color of blood. Hyssop, a plant used to apply blood or medicine. Everything was pointing to blood. Everything was saying: Blood is the price. Blood is the purifier. Blood is the way.',
         },
         {
           kind: 'christ',
@@ -1048,6 +1048,33 @@ export const HEBREWS_9: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Hebrews 9 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-leviticus16',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 16 — Day of Atonement',
+      url: 'https://www.sefaria.org/Leviticus.16',
+      description: 'The high priest&apos;s annual work; the OT pattern that Hebrews 9 shows Christ has fulfilled.',
+    },
+    {
+      id: 'israel-museum-tabernacle',
+      kind: 'archaeology',
+      source: 'Israel Museum',
+      label: 'Tabernacle Artifacts and Priestly Vessels',
+      url: 'https://www.imj.org.il/en/collections/tabernacle',
+      description: 'Museum exhibition of replica tabernacle furnishings and priestly garments for OT context.',
+    },
+    {
+      id: 'sefaria-numbers19',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Numbers 19:11–22 — Red Heifer Purification',
+      url: 'https://www.sefaria.org/Numbers.19.11-22',
+      description: 'The red heifer ritual referenced in Hebrews 9:13; part of OT purification symbolism.',
+    },
+  ],
 
   hasHebrew: false,
 };

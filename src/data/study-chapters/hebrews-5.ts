@@ -160,13 +160,13 @@ export const HEBREWS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'heb5-begotten',
           html:
-            'The author quotes Psalm 2:7 and Psalm 110:4. Jesus did not seize priesthood. The Father exalted Him, appointed Him, declared Him Son and Priest. This is the pattern of Christ&apos;s whole life—He glorified not Himself. He did not cling to His rights. He emptied Himself. And because He did, the Father raised Him up and gave Him a name above every name.',
+            'The author quotes Psalm 2:7 and Psalm 110:4. [res:sefaria-psalm110-melchisedec] Jesus did not seize priesthood. The Father exalted Him, appointed Him, declared Him Son and Priest. This is the pattern of Christ&apos;s whole life—He glorified not Himself. He did not cling to His rights. He emptied Himself. And because He did, the Father raised Him up and gave Him a name above every name.',
         },
         {
           kind: 'commentary',
           id: 'heb5-melchisedec-forever',
           html:
-            'A priest forever after the order of Melchisedec—this is the claim that settles the question. Jesus&apos; priesthood does not end. It is not bound by mortal lifespan. He intercedes forever. Every priest before Him eventually died and was replaced. Not Jesus. He stands eternal, offering a final and perfect sacrifice that never grows old.',
+            'A priest forever after the order of Melchisedec—this is the claim that settles the question. [res:sefaria-genesis14-melchisedec] Jesus&apos; priesthood does not end. It is not bound by mortal lifespan. He intercedes forever. Every priest before Him eventually died and was replaced. Not Jesus. He stands eternal, offering a final and perfect sacrifice that never grows old.',
         },
         {
           kind: 'christ',
@@ -300,7 +300,7 @@ export const HEBREWS_5: RichChapterContent = {
           id: 'heb5-learned-obedience-2',
           title: 'Christ Connection — Our Pattern of Obedience',
           html:
-            '1 Peter 2:21–23: "For even hereunto were ye called: because Christ also suffered for us, leaving us an example, that ye should follow his steps: Who did no sin, neither was guile found in his mouth: Who, when he was reviled, reviled not again; when he suffered, he threatened not; but committed himself to him that judgeth righteously." Christ&apos;s obedience through suffering is not His alone. It is the pattern for you. Your obedience, too, is tested and perfected through what you suffer.',
+            '[res:bible-odyssey-melchisedec] 1 Peter 2:21–23: "For even hereunto were ye called: because Christ also suffered for us, leaving us an example, that ye should follow his steps: Who did no sin, neither was guile found in his mouth: Who, when he was reviled, reviled not again; when he suffered, he threatened not; but committed himself to him that judgeth righteously." Christ&apos;s obedience through suffering is not His alone. It is the pattern for you. Your obedience, too, is tested and perfected through what you suffer.',
         },
         {
           kind: 'greek',
@@ -482,6 +482,33 @@ export const HEBREWS_5: RichChapterContent = {
           prompt: 'What spiritual practices have sharpened your discernment in the past? Where have you grown most in your ability to discern truth from falsehood? What would it look like to double down there?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-genesis14-melchisedec',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Genesis 14:18–20 — Melchisedec, King of Righteousness',
+      url: 'https://www.sefaria.org/Genesis.14.18-20',
+      description: 'Introduces Melchisedec without genealogy; the OT prototype for Christ&apos;s priesthood.',
+    },
+    {
+      id: 'sefaria-psalm110-melchisedec',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 110:4 — Priesthood After Melchisedec&apos;s Order',
+      url: 'https://www.sefaria.org/Psalms.110.4',
+      description: 'The oath that establishes Christ as eternal priest, superseding Levitical priesthood.',
+    },
+    {
+      id: 'bible-odyssey-melchisedec',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Melchisedec: Priest of the Most High God',
+      url: 'https://www.bibleodyssey.org/dictionary/melchizedek/',
+      description: 'Scholarly overview of the enigmatic priest-king and his typology in Hebrews.',
     },
   ],
 

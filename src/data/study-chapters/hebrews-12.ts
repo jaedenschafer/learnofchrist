@@ -310,7 +310,7 @@ export const HEBREWS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'heb12-paideia',
           html:
-            'There is a word you have probably forgotten—<em>paideia.</em> A father raising his son does not simply let him do whatever he wants. He teaches him. He corrects him. Sometimes the correction stings. But every sting comes from love. God&apos;s discipline is the work of a Father who loves you too much to let you destroy yourself. When God corrects you—through failure, through circumstance, through the voice of wisdom—He is not punishing you for being bad. He is <em>raising</em> you to become like Him.',
+            'There is a word you have probably forgotten—<em>paideia.</em> A father raising his son does not simply let him do whatever he wants. He teaches him. He corrects him. Sometimes the correction stings. But every sting comes from love. This echoes Proverbs 3:11–12[res:sefaria-proverbs-chastening]: "Whom the Lord loveth He chasteneth." God&apos;s discipline is the work of a Father who loves you too much to let you destroy yourself. When God corrects you—through failure, through circumstance, through the voice of wisdom—He is not punishing you for being bad. He is <em>raising</em> you to become like Him.',
         },
         {
           kind: 'greek',
@@ -523,7 +523,7 @@ export const HEBREWS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'heb12-not-sinai',
           html:
-            'The author is painting a contrast. Mount Sinai was a terrible place. Fire. Darkness. A trumpet blast so loud it shook the mountain. Thunder. Lightning. An entire people terrified, asking Moses to speak to God for them because they could not bear the sound of God&apos;s voice. You are not there. You have not been called to that kind of fear.',
+            'The author is painting a contrast. Mount Sinai[res:sefaria-exodus19-sinai] was a terrible place. Fire. Darkness. A trumpet blast so loud it shook the mountain. Thunder. Lightning. An entire people terrified, asking Moses to speak to God for them because they could not bear the sound of God&apos;s voice. You are not there. You have not been called to that kind of fear.',
         },
         {
           kind: 'commentary',
@@ -691,7 +691,7 @@ export const HEBREWS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'heb12-fire-comment',
           html:
-            'God is not a warm, fuzzy abstraction. God is fire—consuming, intense, pure, intolerant of sin. But He is <em>your</em> God, and you are in covenant with Him. The fire that consumes sin in others is the same fire that refines you. He is not distant. He is not tame. And He is yours.',
+            'God is not a warm, fuzzy abstraction. God is fire—consuming, intense, pure, intolerant of sin[res:sefaria-psalm50-consuming-fire]. But He is <em>your</em> God, and you are in covenant with Him. The fire that consumes sin in others is the same fire that refines you. He is not distant. He is not tame. And He is yours.',
         },
         {
           kind: 'commentary',
@@ -734,6 +734,33 @@ export const HEBREWS_12: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Hebrews 12 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-proverbs-chastening',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Proverbs 3:11–12 — "Whom the Lord Loveth He Chasteneth"',
+      url: 'https://www.sefaria.org/Proverbs.3.11-12',
+      description: 'OT foundation for divine chastening as evidence of sonship—the basis of Hebrews 12:5–11 on God&apos;s fatherly discipline.',
+    },
+    {
+      id: 'sefaria-exodus19-sinai',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus 19 — Mount Sinai and the Trembling Mountain',
+      url: 'https://www.sefaria.org/Exodus.19',
+      description: 'The thundering, trembling, shaking mountain where Israel received the Law—contrasted with the spiritual Mount Sion in Hebrews 12:18–24.',
+    },
+    {
+      id: 'sefaria-psalm50-consuming-fire',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 50 — The God of Glory and Consuming Fire',
+      url: 'https://www.sefaria.org/Psalms.50',
+      description: 'The psalm echoed in Hebrews 12:29: God as a consuming fire receiving worship from those whose hearts belong to Him.',
+    },
+  ],
 
   hasHebrew: false,
 };

@@ -153,7 +153,7 @@ export const HEBREWS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'c-todays-voice',
           html:
-            'Notice the repetition of "today." It is always today that you must choose to hear His voice. Not someday when you are better, more worthy, more ready. Today. This day. The one you are living in. Will you soften your heart and listen?',
+            'Notice the repetition of "today." [res:sefaria-psalm95-rest] It is always today that you must choose to hear His voice. Not someday when you are better, more worthy, more ready. Today. This day. The one you are living in. Will you soften your heart and listen?',
         },
         {
           kind: 'carry',
@@ -196,7 +196,7 @@ export const HEBREWS_4: RichChapterContent = {
           script: 'σαββατισμός',
           translit: '<strong>sabbatismos</strong> · the state of Sabbath rest',
           description:
-            'This word appears nowhere else in the Greek New Testament. The author coins it to express something entirely new: not merely a day of rest, but a spiritual reality, a state of ceasing from your works entirely. To enter <em>sabbatismos</em> is to let go of the burden of proving yourself and to rest in His finished work.',
+            'This word appears nowhere else in the Greek New Testament. [res:brill-hebrews-sabbath] The author coins it to express something entirely new: not merely a day of rest, but a spiritual reality, a state of ceasing from your works entirely. To enter <em>sabbatismos</em> is to let go of the burden of proving yourself and to rest in His finished work.',
         },
         {
           kind: 'christ',
@@ -378,7 +378,7 @@ export const HEBREWS_4: RichChapterContent = {
           id: 'christ-high-priest-ascended',
           title: 'Christ Connection — Your Advocate Now at the Right Hand',
           html:
-            'In the Old Testament, the High Priest entered the Holy of Holies once a year, on the Day of Atonement, to make sacrifice for the people&apos;s sins. Jesus ascended into the heavens and entered—not an earthly temple, but the very presence of the Father. And He is there now, seated at the right hand of God, interceding for you (Romans 8:34). But He is not distant. He is not untouched by what you are going through. He is praying for you with the full knowledge of every struggle, every temptation, every weakness you carry. His intercession is grounded in His identification with you.',
+            'In the Old Testament, the High Priest entered the Holy of Holies once a year, on the Day of Atonement, to make sacrifice for the people&apos;s sins. [res:sefaria-psalm110-priest] Jesus ascended into the heavens and entered—not an earthly temple, but the very presence of the Father. And He is there now, seated at the right hand of God, interceding for you (Romans 8:34). But He is not distant. He is not untouched by what you are going through. He is praying for you with the full knowledge of every struggle, every temptation, every weakness you carry. His intercession is grounded in His identification with you.',
         },
         {
           kind: 'carry',
@@ -450,6 +450,33 @@ export const HEBREWS_4: RichChapterContent = {
           caption: 'Hebrews 4:16 · Come Boldly Unto the Throne of Grace',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-psalm95-rest',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 95:11 — "My Rest"',
+      url: 'https://www.sefaria.org/Psalms.95.11',
+      description: 'The foundational OT promise of rest that Hebrews 4 interprets spiritually for the new covenant.',
+    },
+    {
+      id: 'sefaria-psalm110-priest',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 110:4 — Eternal Priesthood',
+      url: 'https://www.sefaria.org/Psalms.110.4',
+      description: 'Establishes Christ&apos;s priesthood &ldquo;after the order of Melchisedec&rdquo; (Hebrews 5&apos;s foundation).',
+    },
+    {
+      id: 'brill-hebrews-sabbath',
+      kind: 'study',
+      source: 'Brill',
+      label: 'Sabbath Theology in Hebrews',
+      url: 'https://brill.com/view/serial/23',
+      description: 'Academic treatment of rest and Sabbath symbolism in Hebrews theology.',
     },
   ],
 

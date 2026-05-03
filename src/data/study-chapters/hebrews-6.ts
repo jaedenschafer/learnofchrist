@@ -392,7 +392,7 @@ export const HEBREWS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'h6-double-promise',
           html:
-            'The doubled words—"blessing I will bless," "multiplying I will multiply"—are Hebrew emphasis. God is not tentatively promising. He is emphatically, utterly, completely binding Himself to this promise. To Abraham and his offspring.',
+            'The doubled words—"blessing I will bless," "multiplying I will multiply"—are Hebrew emphasis. [res:sefaria-genesis14-oath] God is not tentatively promising. He is emphatically, utterly, completely binding Himself to this promise. To Abraham and his offspring.',
         },
         {
           kind: 'scripture',
@@ -482,7 +482,7 @@ export const HEBREWS_6: RichChapterContent = {
           id: 'h6-christ-oath',
           title: 'Christ Connection — The Oath-Keeper at God&apos;s Right Hand',
           html:
-            'Psalm 110:4 speaks of one who is "a priest for ever after the order of Melchisedec"—a promise God swore by oath. Hebrews will show us that this is Christ. The very oath God swore, He swore about Jesus. Your hope is not in a distant God; it is in Christ, the one who perfectly fulfills every promise God ever made. His presence at God&apos;s right hand is the proof that God keeps His oath.',
+            '[res:intertextual-psalm110-oath] Psalm 110:4 speaks of one who is "a priest for ever after the order of Melchisedec"—a promise God swore by oath. Hebrews will show us that this is Christ. The very oath God swore, He swore about Jesus. Your hope is not in a distant God; it is in Christ, the one who perfectly fulfills every promise God ever made. His presence at God&apos;s right hand is the proof that God keeps His oath.',
         },
         {
           kind: 'carry',
@@ -557,7 +557,7 @@ export const HEBREWS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'h6-veil-holy',
           html:
-            'The veil in the temple separated the holy place from the most holy place, where God&apos;s presence dwelt. To "enter within the veil" is to enter God&apos;s sanctuary, His throne room. Your hope is not a distant wish. It reaches all the way into heaven itself, to the very place where Christ now sits.',
+            'The veil in the temple separated the holy place from the most holy place, where God&apos;s presence dwelt. [res:met-tabernacle-veil] To "enter within the veil" is to enter God&apos;s sanctuary, His throne room. Your hope is not a distant wish. It reaches all the way into heaven itself, to the very place where Christ now sits.',
         },
         {
           kind: 'christ',
@@ -598,6 +598,33 @@ export const HEBREWS_6: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Hebrews 6 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis14-oath',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Genesis 14:19–20 — Melchisedec&apos;s Blessing',
+      url: 'https://www.sefaria.org/Genesis.14.19-20',
+      description: 'The blessing by Melchisedec that grounds God&apos;s oath to Abraham and foreshadows Christ&apos;s priesthood.',
+    },
+    {
+      id: 'intertextual-psalm110-oath',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 110:4 ↔ Hebrews 6:17–20',
+      url: 'https://intertextual.bible/text/psalms-110.4/hebrews-6.17',
+      description: 'God&apos;s immutable oath about the eternal priest connects Genesis, Psalms, and Christ.',
+    },
+    {
+      id: 'met-tabernacle-veil',
+      kind: 'archaeology',
+      source: 'The Met Museum',
+      label: 'Sanctuary Vessels and the Temple Veil',
+      url: 'https://www.metmuseum.org/art/collection/search/543995',
+      description: 'Visual context for the veil that separated the Holy of Holies, central metaphor in Hebrews 6.',
+    },
+  ],
 
   hasHebrew: false,
 };

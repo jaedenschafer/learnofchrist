@@ -188,7 +188,7 @@ export const HEBREWS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'c-abel-firstborn',
           html:
-            'Two brothers offer. The same God receives both gifts—yet accepts one and refuses the other. The text in Genesis does not explicitly say why. But Hebrews tells us: it is faith. Abel\'s sacrifice was <em>more excellent</em> because it came from a heart that believed God\'s promise, that pointed forward to the Lamb God would provide. Cain\'s came from a heart turned inward, toward his own work, his own offering. Faith is the difference between a gift that echoes eternity and a gift that ends with itself.',
+            'Two brothers offer. The same God receives both gifts—yet accepts one and refuses the other. The text in Genesis 4:4–10[res:sefaria-genesis4-abel] does not explicitly say why. But Hebrews tells us: it is faith. Abel\'s sacrifice was <em>more excellent</em> because it came from a heart that believed God\'s promise, that pointed forward to the Lamb God would provide. Cain\'s came from a heart turned inward, toward his own work, his own offering. Faith is the difference between a gift that echoes eternity and a gift that ends with itself.',
         },
         {
           kind: 'carry',
@@ -403,7 +403,7 @@ export const HEBREWS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'c-abraham-strangers',
           html:
-            'Abraham lived in tents in the land God promised. He never built a permanent home there. Why? Because he was looking for something beyond the physical land. The promise of Canaan was real, but Abraham\'s faith reached past it to the city God Himself had built—an eternal home not made with human hands.',
+            'Abraham lived in tents in the land God promised, along with Isaac and Jacob[res:intertextual-genesis-patriarchs]. He never built a permanent home there. Why? Because he was looking for something beyond the physical land. The promise of Canaan was real, but Abraham\'s faith reached past it to the city God Himself had built—an eternal home not made with human hands.',
         },
         {
           kind: 'carry',
@@ -812,7 +812,7 @@ export const HEBREWS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'c-moses-refused',
           html:
-            'Moses could have stayed. Pharaoh\'s daughter had raised him as her own son. He had access to power, wealth, comfort, everything the world offers. But at the moment of choice, he refused. He gave it all up.',
+            'Moses could have stayed. Pharaoh\'s daughter had raised him as her own son. He had access to power, wealth, comfort, everything the world offers. But at the moment of choice, he refused[res:bibleodyssey-exodus-moses]. He gave it all up.',
         },
         {
           kind: 'commentary',
@@ -1239,6 +1239,33 @@ export const HEBREWS_11: RichChapterContent = {
           prompt: 'How does it change your faith to know that you are part of a communion of saints stretching back through history? Who have you been influenced by? Whose faith is now being vindicated through yours?',
         },
       ],
+    },
+  ],
+
+  resources: [
+    {
+      id: 'sefaria-genesis4-abel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Genesis 4:4–10 — Abel&apos;s Offering',
+      url: 'https://www.sefaria.org/Genesis.4.4-10',
+      description: 'Abel&apos;s pleasing sacrifice and martyrdom—the first righteous one whose blood cries from the ground as witness to his faith.',
+    },
+    {
+      id: 'intertextual-genesis-patriarchs',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Genesis Patriarchs — Cross-References',
+      url: 'https://intertextualconnections.com/genesis-patriarchs/',
+      description: 'Traces Abraham, Isaac, Jacob, and Joseph typologically across OT and NT, the fathers of faith who journeyed by promise unseen.',
+    },
+    {
+      id: 'bibleodyssey-exodus-moses',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Moses and the Exodus',
+      url: 'https://www.bibleodyssey.org/dictionary/moses/',
+      description: 'SBL entry on Moses&apos; faith in refusing Egypt&apos;s treasure to lead Israel out in obedience to God&apos;s invisible call.',
     },
   ],
 

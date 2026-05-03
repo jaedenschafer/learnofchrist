@@ -56,7 +56,7 @@ export const HEBREWS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'heb13-entertain-angels',
           html:
-            '"Be not forgetful to entertain strangers: for thereby some have entertained angels unawares." Hospitality is not incidental. It is a spiritual practice rooted in the possibility that you are entertaining more than you see. Every stranger may be a messenger from God. Generosity opens not just a door, but your heart to divine presence.',
+            '"Be not forgetful to entertain strangers: for thereby some have entertained angels unawares." Hospitality is not incidental. It is a spiritual practice rooted in the possibility that you are entertaining more than you see. Abraham demonstrated this in Genesis 18[res:sefaria-genesis18-hospitality] when he welcomed three visitors and discovered they were messengers from God. Every stranger may be a messenger. Generosity opens not just a door, but your heart to divine presence.',
         },
         {
           kind: 'carry',
@@ -194,7 +194,7 @@ export const HEBREWS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'heb13-never-forsake',
           html:
-            'God says, "I will never leave thee." This is the ultimate security. Not money, not status, not health—these all fail. But God&apos;s presence, His commitment to you, His refusal to abandon you—this is the foundation that makes contentment possible.',
+            'God says, "I will never leave thee." This is the ultimate security. Not money, not status, not health—these all fail. But God&apos;s presence, His commitment to you, His refusal to abandon you—this is the foundation that makes contentment possible. The psalmist echoes this confidence in Psalm 118:6[res:sefaria-psalm118-helper]: "The Lord is my helper, and I will not fear what man shall do unto me."',
         },
         {
           kind: 'christ',
@@ -499,7 +499,7 @@ export const HEBREWS_13: RichChapterContent = {
           script: 'αἰώνιος',
           translit: '<strong>aiōnios</strong> · eternal; everlasting; without end',
           description:
-            'The covenant is not temporary, not provisional, not subject to revision. It is <em>aiōnios</em>—eternal. It cannot be broken, revoked, or superseded. The blood of Christ sealed it forever. You stand within a covenant that will never end.',
+            'The covenant is not temporary, not provisional, not subject to revision. It is <em>aiōnios</em>—eternal. Malachi prophesied of the messenger of this covenant[res:sefaria-malachi3-messenger]. It cannot be broken, revoked, or superseded. The blood of Christ sealed it forever. You stand within a covenant that will never end.',
         },
         {
           kind: 'commentary',
@@ -603,6 +603,33 @@ export const HEBREWS_13: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Hebrews 13 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-genesis18-hospitality',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Genesis 18:1–8 — Abraham Entertains Strangers',
+      url: 'https://www.sefaria.org/Genesis.18.1-8',
+      description: 'Abraham&apos;s hospitality to three visitors (angels unaware) exemplifies Hebrews 13:2: "Be not forgetful to entertain strangers, for thereby some have entertained angels."',
+    },
+    {
+      id: 'sefaria-malachi3-messenger',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Malachi 3:1 — "The Messenger of the Covenant"',
+      url: 'https://www.sefaria.org/Malachi.3.1',
+      description: 'Prophecy of the messenger who comes before the Lord—fulfilled in Christ as the mediator of the everlasting covenant in Hebrews 13:20.',
+    },
+    {
+      id: 'sefaria-psalm118-helper',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 118:6 — "The Lord Is My Helper"',
+      url: 'https://www.sefaria.org/Psalms.118.6',
+      description: 'OT foundation for Hebrews 13:6: "The Lord is my helper, and I will not fear what man shall do unto me."',
+    },
+  ],
 
   hasHebrew: false,
 };
