@@ -18,7 +18,7 @@ export const ACTS_4: RichChapterContent = {
 
   estimatedMinutes: { beginner: 9, intermediate: 17, deep: 24 },
   intros: [
-    'Peter and John have just healed the lame beggar and spoken boldly to the crowds about Jesus. Now they are arrested. The very next morning they stand before the Sanhedrin — the council of seventy elders that had condemned Jesus to death. Peter might have been afraid. Instead, filled with the Holy Ghost, he declares that the lame man is made whole by the power of the name of Jesus Christ. The council is stunned. They recognize that Peter and John have been with Jesus.',
+    'Peter and John have just healed the lame beggar and spoken boldly to the crowds about Jesus. Now they are arrested. The very next morning they stand before the Sanhedrin[res:bibleodyssey-sanhedrin] — the council of seventy elders that had condemned Jesus to death. Peter might have been afraid. Instead, filled with the Holy Ghost, he declares that the lame man is made whole by the power of the name of Jesus Christ. The council is stunned. They recognize that Peter and John have been with Jesus.',
     'Rather than back down, Peter and John insist they cannot help but speak the things they have seen and heard. They cannot be silent, no matter what the council commands. The authorities release them but order them to speak no more in that name. Yet the gospel spreads. Thousands more believe. The new believers live as one body — of one heart and soul, holding all their possessions in common, sharing freely with those in need. Into this chapter, God introduces Barnabas, a Levite whose very name means "son of encouragement."',
   ],
 
@@ -60,7 +60,7 @@ export const ACTS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'acts4-authorities',
           html:
-            'The authorities who arrest them represent power threatened. The priests and Sadducees are the establishment of first-century Jerusalem. The Sadducees especially deny resurrection, so a message of resurrection hits them at the center of their theology. They do not argue with Peter and John&apos;s claim; they simply arrest them. That is the response of power that has no answer.',
+            'The authorities who arrest them represent power threatened. The priests and Sadducees are the establishment of first-century Jerusalem[res:wikipedia-caiaphas-ossuary]. The Sadducees especially deny resurrection, so a message of resurrection hits them at the center of their theology. They do not argue with Peter and John&apos;s claim; they simply arrest them. That is the response of power that has no answer.',
         },
         {
           kind: 'commentary',
@@ -103,7 +103,9 @@ export const ACTS_4: RichChapterContent = {
             ),
             verse(
               6,
-              t('And Annas the high priest, and Caiaphas, and John, and Alexander, and as many as were of the kindred of the high priest, were gathered together at Jerusalem.'),
+              t('And Annas the high priest, and '),
+              hg('Caiaphas[res:bibleodyssey-caiaphas]', 'acts4-authorities'),
+              t(', and John, and Alexander, and as many as were of the kindred of the high priest, were gathered together at Jerusalem.'),
             ),
             verse(
               7,
@@ -362,7 +364,7 @@ export const ACTS_4: RichChapterContent = {
             verse(
               25,
               t('Who by the mouth of thy servant David hast said, '),
-              hp('Why did the heathen rage, and the people imagine a vain thing?', 'acts4-psalm2'),
+              hp('Why did the heathen rage, and the people imagine a vain thing?[res:psalm2-acts4-intertextual]', 'acts4-psalm2'),
               t(''),
             ),
             verse(
@@ -604,6 +606,41 @@ export const ACTS_4: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 4 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-caiaphas',
+      kind: 'museum',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Caiaphas',
+      url: 'https://www.bibleodyssey.org/dictionary/caiaphas/',
+      description: 'Open-access SBL entry covering the high priest and the limestone ossuary bearing his name, discovered in 1990.',
+    },
+    {
+      id: 'bibleodyssey-sanhedrin',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Sanhedrin',
+      url: 'https://www.bibleodyssey.org/dictionary/sanhedrin/',
+      description: 'SBL overview of the council of seventy elders that condemned Jesus and interrogated Peter and John.',
+    },
+    {
+      id: 'psalm2-acts4-intertextual',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Psalm 2:1–2 ↔ Acts 4:25–26',
+      url: 'https://intertextual.bible/text/psalm-2.1/acts-4.25',
+      description: 'Side-by-side comparison of the psalmist&apos;s vision of opposition to God&apos;s anointed with the early church&apos;s prayer.',
+    },
+    {
+      id: 'wikipedia-caiaphas-ossuary',
+      kind: 'archaeology',
+      source: 'Wikimedia',
+      label: 'Caiaphas Ossuary',
+      url: 'https://en.wikipedia.org/wiki/Caiaphas_ossuary',
+      description: 'Archaeological study of the limestone burial box, with Aramaic inscription, corroborating the first-century Jerusalem context.',
+    },
+  ],
 
   hasHebrew: false,
 };
