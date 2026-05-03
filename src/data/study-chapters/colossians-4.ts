@@ -194,7 +194,7 @@ export const COLOSSIANS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'c4-grace-speech',
           html:
-            'Grace (<em>charis</em>) in speech means kindness, generosity of tone, a willingness to see the best in your listener. It means not being sharp, not being superior, not being contemptuous. Every word is an invitation, not a judgment. Your speech should make faith look attractive.',
+            'Grace (<em>charis</em>) in speech means kindness, generosity of tone, a willingness to see the best in your listener. It means not being sharp, not being superior, not being contemptuous. Every word is an invitation, not a judgment. Your speech should make faith look attractive, <em>seasoned with[res:hals-scaife]</em> salt that preserves and flavors.',
         },
         {
           kind: 'christ',
@@ -256,7 +256,7 @@ export const COLOSSIANS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'c4-onesimus',
           html:
-            'The book of Philemon tells us who Onesimus is: a formerly enslaved person who has fled to Paul in Rome and become a Christian. He is now being sent back to Philemon—not in chains, but as a brother. This is the scandal and the gospel: a runaway slave becoming a faithful brother in Christ. His inclusion in this greeting is Paul&apos;s way of saying: "He is one of you. Welcome him as you would welcome me."',
+            'The book of Philemon tells us who <em>Onesimus[res:onesimus-philemon-intertextual]</em> is: a formerly enslaved person who has fled to Paul in Rome and become a Christian. He is now being sent back to Philemon—not in chains, but as a brother. This is the scandal and the gospel: a runaway slave becoming a faithful brother in Christ. His inclusion in this greeting is Paul&apos;s way of saying: "He is one of you. Welcome him as you would welcome me."',
         },
         {
           kind: 'christ',
@@ -306,7 +306,7 @@ export const COLOSSIANS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'c4-marcus',
           html:
-            'Marcus is John Mark, Barnabas&apos;s cousin—the young man who abandoned Paul and Barnabas on their first missionary journey (Acts 13:13). The failure caused such tension that Paul and Barnabas parted ways (Acts 15:37–39). And yet here, years later, Paul is commending him to the Colossians: "If he come unto you, receive him." This is a word of restoration. Mark has been restored to usefulness.',
+            'Marcus is John Mark, Barnabas&apos;s cousin—the young man who abandoned Paul and Barnabas on their first missionary journey (Acts 13:13). The failure caused such tension that Paul and Barnabas parted ways (Acts 15:37–39). And yet here, years later, Paul is commending him to the Colossians: "If he come unto you, receive him." This is a word of restoration. Mark has been restored to usefulness. <em>Aristarchus[res:aristarchus-luke-companionship]</em> and the other co-laborers named in this letter are Paul&apos;s lifeline in captivity.',
         },
         {
           kind: 'commentary',
