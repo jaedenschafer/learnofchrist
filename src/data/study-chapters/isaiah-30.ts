@@ -36,16 +36,52 @@ export const ISAIAH_30: RichChapterContent = {
             plain(4, 'For his princes were at Zoan, and his messengers came to Hanes.'),
             plain(5, 'They were all ashamed of a people that could not profit them, nor be an help nor profit, but a shame, and also a reproach.'),
             plain(6, 'The burden of the beasts of the south: into the land of trouble and anguish, from whence come the young and old lion, the viper and fiery flying serpent, they will carry their riches upon the shoulders of the young asses, and their treasures upon the bunches of camels, to a people that shall not profit them.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa30-split-1',
+          html:
+            'Egypt will not help. The prophets declare this with clarity: Judah sends ambassadors and treasures across the desert, risking everything on Egyptian alliance. But Egypt&apos;s help will be vain. "Their strength is to sit still"—their strength lies only in ceasing from their own works, not in relying on human power.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 30,
+          lines: [
             plain(7, 'For the Egyptians shall help in vain, and to no purpose: therefore have I cried concerning this, Their strength is to sit still.'),
             plain(8, 'Now go, write it before them in a table, and note it in a book, that it may be for the time to come for ever and ever:'),
             plain(9, 'That this is a rebellious people, lying children, children that will not hear the law of the Lord:'),
             plain(10, 'Which say to the seers, See not; and to the prophets, Prophesy not unto us right things, speak unto us smooth things, prophesy deceits:'),
             plain(11, 'Get you out of the way, turn aside out of the path, cause the Holy One of Israel to cease from before us.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa30-split-2',
+          html:
+            'The people tell the prophets to be silent. They want smooth words, not truth. They want comfort, not challenge. They want the Holy One removed from their presence. Yet the God they dismiss will not be dismissed. Truth cannot be muted.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 30,
+          lines: [
             plain(12, 'Wherefore thus saith the Holy One of Israel, Because ye despise this word, and trust in oppression and perverseness, and stay thereon:'),
             plain(13, 'Therefore this iniquity shall be to you as a breach ready to fall, swelling out in a high wall, whose breaking cometh suddenly at an instant.'),
             plain(14, 'And he shall break it as the breaking of the potters&apos; vessel that is broken in pieces; he shall not spare: so that there shall not be found in the bursting of it a sherd to take fire from the hearth, or to take water withal out of the pit.'),
             plain(15, 'For thus saith the Lord God, the Holy One of Israel; In returning and rest shall ye be saved; in quietness and in confidence shall be your strength: but ye would not.'),
             plain(16, 'But ye said, No; for we will flee upon horses; therefore shall ye flee: and, We will ride upon the swift; therefore shall they that pursue you be swift.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa30-split-3',
+          html:
+            'Here is the central promise: "In returning and rest shall ye be saved; in quietness and in confidence shall be your strength." The people reject it. They say: No. We will rely on horses, on swift riders, on human power. Yet all such trust will only hasten their flight.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 30,
+          lines: [
             plain(17, 'One thousand shall flee at the rebuke of one; at the rebuke of five shall ye flee: till ye be left as a beacon upon the top of a mountain, and as an ensign on an hill.'),
             plain(18, 'And therefore will the Lord wait, that he may be gracious unto you, and therefore will he be exalted, that he may have mercy upon you: for the Lord is a God of judgment: blessed are all they that wait for him.'),
           ],

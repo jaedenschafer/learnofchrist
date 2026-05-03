@@ -32,6 +32,18 @@ export const ISAIAH_36: RichChapterContent = {
             plain(1, 'Now it came to pass in the fourteenth year of king Hezekiah, that Sennacherib king of Assyria came up against all the defenced cities of Judah, and took them.'),
             plain(2, 'And the king of Assyria sent Rabshakeh from Lachish to Jerusalem unto king Hezekiah with a great army. And he stood by the conduit of the upper pool in the highway of the fuller&apos;s field.'),
             plain(3, 'Then came forth unto him Eliakim, Hilkiah&apos;s son, which was over the house, and Shebna the scribe, and Joah, Asaph&apos;s son, the recorder.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa36-split-1',
+          html:
+            'Three men emerge from the city: Eliakim, Shebna, and Joah. They are the gatekeepers between the enemy and the king. Rabshakeh stands outside the walls, declaring himself and his great king. The scene is set: confrontation between empires.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 36,
+          lines: [
             plain(4, 'And Rabshakeh said unto them, Say ye now to Hezekiah, Thus saith the great king, the king of Assyria, What confidence is this wherein thou trustest?'),
             plain(5, 'I say, sayest thou, (but they are but vain words,) I have counsel and strength for the war: now on whom dost thou trust, that thou rebellest against me?'),
             plain(6, 'Lo, thou trustest in the staff of this broken reed, even upon Egypt; on which if a man lean, it will go into his hand, and pierce it: so is Pharaoh king of Egypt to all that trust on him.'),
@@ -39,15 +51,51 @@ export const ISAIAH_36: RichChapterContent = {
             plain(8, 'Now therefore give pledges, I pray thee, to my lord the king of Assyria, and I will give thee two thousand horses, if thou be able on thy part to set riders upon them.'),
             plain(9, 'How then wilt thou turn away the face of one of the least captains of my master, seeing thou trustest on Egypt for chariots and for horsemen?'),
             plain(10, 'Am I now come up without the Lord against this land to destroy it? the Lord said to me, Go up against this land, and destroy it.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa36-split-2',
+          html:
+            'Rabshakeh&apos;s mockery deepens. He claims to act at God&apos;s command. He boasts that he can defeat even one of Assyria&apos;s minor captains, let alone Judah. His logic is relentless. Yet the greatest confidence is often the prelude to the greatest fall.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 36,
+          lines: [
             plain(11, 'Then said Eliakim and Shebna and Joah unto Rabshakeh, Speak, I pray thee, unto thy servants in the Syrian language; for we understand it: and talk not with us in the Jews&apos; language in the ears of the people that are on the wall.'),
             plain(12, 'But Rabshakeh said, Hath my master sent me to thy master, and to thee, to speak these words? hath he not sent me to speak unto the people that sit on the wall, that they may eat their own dung, and drink their own piss with you?'),
             plain(13, 'Then Rabshakeh stood, and cried with a loud voice in the Jews&apos; language, and spake, saying, Hear the words of the great king, the king of Assyria:'),
             plain(14, 'Thus saith the king, Let not Hezekiah deceive you: for he shall not be able to deliver you out of his hand:'),
             plain(15, 'Neither let Hezekiah make you trust in the Lord, saying, The Lord will surely deliver us, and this city shall not be delivered into the hand of the king of Assyria.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa36-split-3',
+          html:
+            'Rabshakeh switches to Hebrew and addresses the people directly, bypassing their king. He wants to divide them, to sow doubt. He tells them not to believe in Hezekiah&apos;s faith. He tells them not to trust in God. Yet the loudest voice is not always the truest one.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 36,
+          lines: [
             plain(16, 'Hearken not to Hezekiah: for thus saith the king of Assyria, Make an agreement with me by a present, and come out to me, and then eat ye every one of his own vine, and every one of his fig tree, and drink ye every one the waters of his own cistern;'),
             plain(17, 'Until I come and take you away to a land like your own land, a land of corn and wine, a land of bread and vineyards.'),
             plain(18, 'Beware lest Hezekiah persuade you, saying, The Lord will deliver us. Hath any of the gods of the nations delivered his land out of the hand of the king of Assyria?'),
             plain(19, 'Where are the gods of Hamath and Arpad? where are the gods of Sepharvaim? and have they delivered Samaria out of mine hand?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa36-split-4',
+          html:
+            'Rabshakeh rehearses his conquest of the nations. He asks: what god has stood against Assyria? His argument appears unassailable. Yet he has made a fatal mistake: he assumes the God of Israel is like the other gods, as powerless before Assyrian might. He does not understand whom he is mocking.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 36,
+          lines: [
             plain(20, 'Who are they among all the gods of these lands, that have delivered their land out of the hand of the king of Assyria, that the Lord should deliver Jerusalem out of mine hand?'),
             plain(21, 'But they held their peace, and answered him not a word: for the king&apos;s commandment was, Say not a word unto him.'),
             plain(22, 'Then came Eliakim, the son of Hilkiah, that was over the house, and Shebna the scribe, and Joah, the son of Asaph, the recorder, to Hezekiah with their clothes rent, and told him the words of the Rabshakeh.'),

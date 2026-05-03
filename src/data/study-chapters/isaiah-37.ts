@@ -34,6 +34,18 @@ export const ISAIAH_37: RichChapterContent = {
             plain(2, 'And he sent Eliakim, who was over the household, and Shebna the scribe, and the elders of the priests, covered with sackcloth, unto Isaiah the prophet the son of Amoz.'),
             plain(3, 'And they said unto him, Thus saith Hezekiah, This day is a day of trouble, and of rebuke, and blasphemy: for the children are come to the birth, and there is not strength to bring forth.'),
             plain(4, 'It may be the Lord thy God will hear the words of Rabshakeh, whom the king of Assyria his master hath sent to reproach the living God, and will reprove the words which the Lord thy God hath heard: wherefore lift up thy prayer for the remnant that are left.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa37-split-1',
+          html:
+            'Hezekiah&apos;s response to Rabshakeh&apos;s taunt is not to argue, but to pray. He sends for Isaiah. He frames the crisis as a prayer request, not a political problem. "Lift up thy prayer for the remnant that are left." Even facing Assyrian power, Hezekiah turns not to his generals but to God&apos;s prophet.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 37,
+          lines: [
             plain(5, 'So the servants of king Hezekiah came to Isaiah.'),
             plain(6, 'And Isaiah said unto them, Thus shall ye say to your master, Thus saith the Lord, Be not afraid of the words which thou hast heard, with which the servants of the king of Assyria have blasphemed me.'),
             plain(7, 'Behold, I will send a blast upon him, and he shall hear a rumour, and shall return to his own land; and I will cause him to fall by the sword in his own land.'),
@@ -41,12 +53,36 @@ export const ISAIAH_37: RichChapterContent = {
             plain(9, 'And when he heard say, Tirhakah king of Ethiopia was come out to fight against him; he sent messengers again unto Hezekiah, saying,'),
             plain(10, 'Thus shall ye speak to Hezekiah king of Judah, saying, Let not thy God in whom thou trustest deceive thee, saying, Jerusalem shall not be delivered into the hand of the king of Assyria.'),
             plain(11, 'Behold, thou hast heard what the kings of Assyria have done to all lands, by destroying them utterly: and shall thou be delivered?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa37-split-2',
+          html:
+            'Sennacherib sends a second taunt via letter, more insistent now. But Hezekiah does not despair. He does not call a council of war. Instead, he takes the letter and goes to the temple. He spreads it before God. This is prayer that refuses to let the enemy&apos;s words be the final word.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 37,
+          lines: [
             plain(12, 'Have the gods of the nations delivered them which my fathers have destroyed; as Gozan, and Haran, and Rezeph, and the children of Eden which were in Telassar?'),
             plain(13, 'Where is the king of Hamath, and the king of Arpad, and the king of the city of Sepharvaim, Hena, and Ivah?'),
             plain(14, 'And Hezekiah received the letter from the hand of the messengers, and read it: and Hezekiah went up into the house of the Lord, and spread it before the Lord.'),
             plain(15, 'And Hezekiah prayed before the Lord, saying,'),
             plain(16, 'O Lord of hosts, God of Israel, that dwellest between the cherubims, thou art the God, even thou alone, of all the kingdoms of the earth; thou hast made the heavens and the earth.'),
             plain(17, 'Incline thine ear, O Lord, and hear; open thine eyes, O Lord, and see: and hear the words of Sennacherib, which hath sent him to reproach the living God.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa37-split-3',
+          html:
+            'Hezekiah&apos;s prayer is direct. "Hear me. See me. Hear the blasphemy spoken against you." He does not plead for mercy on the basis of Judah&apos;s righteousness. He pleads on the basis of God&apos;s reputation. God dwells between the cherubim. God alone made the heavens and earth. What will the enemy&apos;s taunt mean to such a God?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 37,
+          lines: [
             plain(18, 'Of a truth, Lord, the kings of Assyria have laid waste the nations, and their lands,'),
             plain(19, 'And have cast their gods into the fire: for they were no gods, but the work of men&apos;s hands, wood and stone: therefore they have destroyed them.'),
             plain(20, 'Now therefore, O Lord our God, save us from his hand, that all the kingdoms of the earth may know that thou art the Lord, even thou only.'),
@@ -104,6 +140,18 @@ export const ISAIAH_37: RichChapterContent = {
             plain(21, 'Then Isaiah the son of Amoz sent unto Hezekiah, saying, Thus saith the Lord God of Israel, Because thou hast prayed to me against Sennacherib king of Assyria:'),
             plain(22, 'This is the word that the Lord hath spoken concerning him; The virgin daughter of Zion hath despised thee, and laughed thee to scorn; the daughter of Jerusalem hath shaken her head at thee.'),
             plain(23, 'Whom hast thou reproached and blasphemed? and against whom hast thou exalted thy voice, and lifted up thine eyes on high? even against the Holy One of Israel.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa37-split-4',
+          html:
+            'God&apos;s response comes immediately through Isaiah. The word is judgment. Jerusalem is portrayed as a virgin—untouched, undefiled by conquest. She scorns the great king. This is not the language of military realism. This is the language of God&apos;s certain protection.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 37,
+          lines: [
             plain(24, 'By thy messengers thou hast reproached the Lord, and hast said, With the multitude of my chariots I am come up to the height of the mountains, to the sides of Lebanon, and will cut down the tall cedar thereof, and the choice fir thereof: and I will enter into the height of his border, and the forest of his Carmel.'),
             plain(25, 'I have digged and drunk strange waters, and with the sole of my feet have I dried up all the rivers of the besieged places.'),
             plain(26, 'Hast thou not heard long ago how I have done it, and of ancient times that I have formed it? now have I brought it to pass, that thou shouldest be to lay waste fenced cities into ruinous heaps.'),
@@ -111,11 +159,35 @@ export const ISAIAH_37: RichChapterContent = {
             plain(28, 'But I know thy abode, and thy going out, and thy coming in, and thy rage against me.'),
             plain(29, 'Because thy rage against me and thy tumult is come up into mine ears, therefore I will put my hook in thy nose, and my bridle in thy lips, and I will turn thee back by the way which thou camest.'),
             plain(30, 'And this shall be a sign unto thee, Ye shall eat this year such things as grow of themselves, and in the second year that which springeth of the same; and in the third year sow ye, and reap, and plant vineyards, and eat the fruit thereof.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa37-split-5',
+          html:
+            'God turns Sennacherib&apos;s own metaphors against him. "I will put my hook in thy nose, and my bridle in thy lips." The great king who thought he controlled others will find himself controlled. The sign: in three years, life will return to normal. Judah will plant and harvest. The threat will be past.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 37,
+          lines: [
             plain(31, 'And the remnant that is escaped of the house of Judah shall yet again take root downward, and bear fruit upward.'),
             plain(32, 'For out of Jerusalem shall go forth a remnant, and they that escape out of mount Zion: the zeal of the Lord of hosts shall do this.'),
             plain(33, 'Therefore thus saith the Lord concerning the king of Assyria, He shall not come into this city, nor shoot an arrow there, nor come before it with shield, nor cast a bank against it.'),
             plain(34, 'By the way that he came, by the same shall he return, and shall not come into this city, saith the Lord.'),
             plain(35, 'For I will defend this city, to save it, for mine own sake, and for my servant David&apos;s sake.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa37-split-6',
+          html:
+            'God&apos;s promise is absolute: Sennacherib will not enter the city. He will not shoot a single arrow. He will return the way he came. Why? "For mine own sake, and for my servant David&apos;s sake." God saves not because Judah is righteous, but because God&apos;s honor and God&apos;s covenant are at stake.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 37,
+          lines: [
             plain(36, 'Then the angel of the Lord went forth, and smote in the camp of the Assyrians a hundred and fourscore and five thousand: and when they arose early in the morning, behold, they were all dead corpses.'),
             plain(37, 'So Sennacherib king of Assyria departed, and went and returned, and dwelt at Nineveh.'),
             plain(38, 'And it came to pass, as he was worshipping in the house of Nisroch his god, that Adrammelech and Sharezer his sons smote him with the sword; and they escaped into the land of Ararat. And Esarhaddon his son reigned in his stead.'),

@@ -79,6 +79,18 @@ export const AMOS_5: RichChapterContent = {
               ],
             },
             plain(17, 'And in all vineyards shall be wailing: for I will pass through thee, saith the Lord.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'amos5-woe-unjust',
+          html:
+            'The pronouncement of woe falls on those who oppress the poor and pervert justice. They have built houses of hewn stone but will not dwell in them. They have planted vineyards but will not drink their wine. Instead, wailing will come. Judgment takes the form of loss and sorrow. What they sought to keep, they will lose.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
             plain(18, 'Woe unto you that desire the day of the Lord! to what end is it for you? the day of the Lord is darkness, and not light.'),
             plain(19, 'As if a man did flee from a lion, and a bear met him; or went into the house, and leaned his hand on the wall, and a serpent bit him.'),
             plain(20, 'Shall not the day of the Lord be darkness, and not light? even very dark, and no brightness in it?'),

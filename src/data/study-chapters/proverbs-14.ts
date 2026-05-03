@@ -35,12 +35,34 @@ export const PROVERBS_14: RichChapterContent = {
             plain(4, 'Where no oxen are, the crib is clean: but much increase is by the strength of the ox.'),
             plain(5, 'A faithful witness will not lie: but a false witness will utter lies.'),
             plain(6, 'A scorner seeketh wisdom, and findeth it not: but knowledge is easy unto him that understandeth.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov14-building-witnessing',
+          html: 'Five proverbs on foundation: women build or tear down their houses. The upright fear the Lord; the perverse despise Him. Fools wound themselves with pride; the wise preserve themselves with restraint. The faithful witness stands; the false witness crumbles. These are the pillars of a life: reverence, speech, and truth.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 14,
+          lines: [
             plain(7, 'Go from the presence of a foolish man, when thou perceivest not in him the lips of knowledge.'),
             plain(8, 'The wisdom of the prudent is to understand his way: but the folly of fools is deceit.'),
             plain(9, 'Fools make a mock at sin: but among the righteous there is favour.'),
             plain(10, 'The heart knoweth his own bitterness; and a stranger doth not intermeddle with his joy.'),
             plain(11, 'The house of the wicked shall be overthrown: but the tabernacle of the upright shall flourish.'),
             plain(12, 'There is a way which seemeth right unto a man, but the end thereof are the ways of death.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov14-discernment-path',
+          html: 'Six proverbs about discernment and the hidden path. Flee foolishness when you see it. The prudent understand their own way; fools deceive themselves. Fools mock sin; the righteous know shame. No one fully knows another&apos;s sorrows or joys. The wicked&apos;s house falls; the upright&apos;s flourishes. And the most dangerous error: the way that seems right but ends in death. Discernment is necessary.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 14,
+          lines: [
             plain(13, 'Even in laughter the heart is sorrowful; and the end of that mirth is heaviness.'),
             plain(14, 'The backslider in heart shall be filled with his own ways: and a good man shall be satisfied with his.'),
             plain(15, 'The simple believeth every word: but the prudent man looketh well to his going.'),
@@ -48,6 +70,11 @@ export const PROVERBS_14: RichChapterContent = {
             plain(17, 'He that is soon angry dealeth foolishly: and a man of wicked devices is hated.'),
             plain(18, 'The simple inherit folly: but the prudent are crowned with knowledge.'),
           ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov14-inner-state',
+          html: 'Six proverbs on what is hidden and what is seen. Laughter can mask sorrow. The backslider is filled with his own emptiness; the good man is satisfied with his own fullness. The simple believe everything; the prudent are careful. The wise fear and depart; the fool rages and falls. Anger leads to folly. The end result: the simple inherit folly; the prudent are crowned with knowledge. You become what you repeatedly choose.',
         },
         {
           kind: 'commentary',
@@ -98,18 +125,45 @@ export const PROVERBS_14: RichChapterContent = {
             plain(22, 'Do they not err that devise evil? but mercy and truth shall be to them that devise good.'),
             plain(23, 'In all labour there is profit: but the talk of the lips tendeth only to penury.'),
             plain(24, 'The crown of the wise is their riches: but the foolishness of fools is folly.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov14-evil-bows',
+          html: 'Six proverbs on power and mercy. The evil bow before the good—true authority flows from righteousness, not from wealth or armies. The poor are despised, yet to despise them is to sin. To show mercy to them is to be happy. Those who devise good receive mercy and truth. Labor profits; empty talk impoverishes. Wisdom is the true crown.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 14,
+          lines: [
             plain(25, 'A true witness delivereth souls: but a deceitful witness speaketh lies.'),
             plain(26, 'In the fear of the Lord is strong confidence: and his children shall have a place of refuge.'),
             plain(27, 'The fear of the Lord is a fountain of life, to depart from the snares of death.'),
             plain(28, 'In the multitude of people is the king&apos;s honour: but in the want of people is the destruction of the prince.'),
             plain(29, 'He that is slow to wrath is of great understanding: but he that is hasty of spirit exalteth folly.'),
             plain(30, 'A sound heart is the life of the flesh: but envy the rottenness of the bones.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov14-fear-fountain-expanded',
+          html: 'Six proverbs on the fear of the Lord as the wellspring. A true witness delivers; lies destroy. The fear of God gives strong confidence and a place of refuge. It is a fountain of life, delivering from death. Community matters: the king&apos;s honor flows through people. Patience brings understanding; haste brings folly. A sound heart gives life; envy rots you from inside.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 14,
+          lines: [
             plain(31, 'He that oppresseth the poor reproacheth his Maker: but he that honoureth him hath mercy on the poor.'),
             plain(32, 'The wicked is driven away in his wickedness: but the righteous hath hope in his death.'),
             plain(33, 'Wisdom resteth in the heart of him that hath understanding: but that which is in the midst of fools is made known.'),
             plain(34, 'Righteousness exalteth a nation: but sin is a reproach to any people.'),
             plain(35, 'The king&apos;s favour is toward a wise servant: but his wrath is against him that causeth shame.'),
           ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov14-national-conscience',
+          html: 'Five final proverbs move from the personal to the political. To oppress the poor is to insult their Maker. The wicked are driven away by their own wickedness; the righteous have hope even in death. Wisdom is silent in a wise heart; folly blares in fools. And here is the final truth: righteousness exalts a nation; sin shames it. This is not opinion. It is the structure of reality.',
         },
         {
           kind: 'commentary',

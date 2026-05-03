@@ -38,16 +38,52 @@ export const ISAIAH_45: RichChapterContent = {
             plain(5, 'I am the Lord, and there is none else, there is no God beside me: I girded thee, though thou hast not known me;'),
             plain(6, 'That they may know from the rising of the sun, and from the west, that there is none beside me. I am the Lord, and there is none else.'),
             plain(7, 'I form the light, and create darkness: I make peace, and create evil: I the Lord do all these things.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah45-cyrus-addressed',
+          html:
+            'God addresses Cyrus directly: "I have holden thy right hand...I will go before thee." All of this—the opening of gates, the breaking of brass and iron—serves a larger purpose: "That they may know from the rising of the sun, and from the west, that there is none beside me." God uses history to reveal God&apos;s uniqueness.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 45,
+          lines: [
             plain(8, 'Drop down, ye heavens, from above, and let the skies pour down righteousness: let the earth open, and let them bring forth salvation, and let righteousness spring up together; I the Lord have created it.'),
             plain(9, 'Woe unto him that striveth with his Maker! Let the potsherd strive with the potsherds of the earth. Shall the clay say to him that fashioneth it, What makest thou? or thy work, He hath no hands?'),
             plain(10, 'Woe unto him that saith unto his father, What begettest thou? or to the woman, What hast thou brought forth?'),
             plain(11, 'Thus saith the Lord, the Holy One of Israel, and his Maker, Ask me of things to come concerning my sons, and concerning the work of my hands command ye me.'),
             plain(12, 'I have made the earth, and created man upon it: I, even my hands, have stretched out the heavens, and all their host have I commanded.'),
             plain(13, 'I have raised him up in righteousness, and I will direct all his ways: he shall build my city, and he shall let go my captives, not for price nor reward, saith the Lord of hosts.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah45-woe-clay',
+          html:
+            'God speaks to any creature who would argue with the Creator: "Woe unto him that striveth with his Maker!" This is not harshness. This is the natural order—the clay cannot instruct the potter. But look at what follows: God invites Israel to ask, to command, to bring concerns. The Creator is not distant. The Creator is intimately engaged with the created.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 45,
+          lines: [
             plain(14, 'Thus saith the Lord, The labour of Egypt, and merchandise of Ethiopia and of the Sabeans, men of stature, shall come over unto thee, and they shall be thine: they shall come after thee; in chains they shall come over, and they shall fall down unto thee, they shall make a supplication unto thee, saying, Surely God is in thee; and there is none else, there is no God.'),
             plain(15, 'Verily thou art a God that hidest thyself, O God of Israel, the Saviour.'),
             plain(16, 'They shall be ashamed, and also confounded, all of them: they shall go to confusion together that are makers of idols.'),
             plain(17, 'But Israel shall be saved in the Lord with an everlasting salvation: ye shall not be ashamed nor confounded world without end.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah45-gentiles-confession',
+          html:
+            'A stunning picture emerges: the riches of Egypt and Ethiopia flow to Israel, and those who brought them confess: "Surely God is in thee; and there is none else, there is no God." Even Gentiles will come to know the God of Israel. While God hides God&apos;s face from idolaters, God saves Israel with an everlasting salvation.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 45,
+          lines: [
             plain(18, 'For thus saith the Lord that created the heavens; God himself that formed the earth and made it; he hath established it, he created it not in vain, he formed it to be inhabited: I am the Lord; and there is none else.'),
             plain(19, 'I have not spoken in secret, in a dark place of the earth: I said not unto the seed of Jacob, Seek ye me in vain: I the Lord speak righteousness, I declare things that are right.'),
             plain(20, 'Assemble yourselves and come; draw near together, ye that are escaped of the nations: they have no knowledge that set up the wood of their graven image, and pray unto a god that cannot save.'),

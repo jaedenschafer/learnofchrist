@@ -34,6 +34,18 @@ export const ISAIAH_38: RichChapterContent = {
             plain(3, 'And said, Remember now, O Lord, I beseech thee, how I have walked before thee in truth and with a perfect heart, and have done that which is good in thy sight. And Hezekiah wept sore.'),
             plain(4, 'Then came the word of the Lord to Isaiah, saying,'),
             plain(5, 'Go, and say to Hezekiah, Thus saith the Lord, the God of David thy father, I have heard thy prayer, I have seen thy tears: behold, I will add unto thy days fifteen years.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa38-split-1',
+          html:
+            'The death sentence comes without warning. But Hezekiah does not resign. He turns his face to the wall—a posture of prayer, of solitude before God. He appeals to his own faithfulness: "I have walked before thee in truth." His tears are seen. His prayer is heard. Fifteen years are added to his life.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 38,
+          lines: [
             plain(6, 'And I will deliver thee and this city out of the hand of the king of Assyria: and I will defend this city.'),
             plain(7, 'And this shall be a sign unto thee from the Lord, that the Lord will do this thing that he hath spoken;'),
             plain(8, 'Behold, I will bring again the shadow of the degrees, which is gone down in the sun dial of Ahaz, ten degrees backward. So the sun returned ten degrees, by which degrees it was gone down.'),
@@ -41,12 +53,36 @@ export const ISAIAH_38: RichChapterContent = {
             plain(10, 'I said in the cutting off of my days, I shall go to the gates of the grave: I am deprived of the residue of my years.'),
             plain(11, 'I said, I shall not see the Lord, even the Lord, in the land of the living: I shall behold man no more with the inhabitants of the world.'),
             plain(12, 'Mine age is departed, and is removed from me as a shepherd&apos;s tent: I have cut off like a weaver my life: he will cut me off with pining sickness: from day even to night wilt thou make an end of me.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa38-split-2',
+          html:
+            'Hezekiah&apos;s song of gratitude is also a song of anguish. He recalls his despair: the grave waiting, the years cut short, the sight of God lost forever. He is like a tent folded, a weaver&apos;s thread cut. He cries out in his pain. Yet even in the midst of lament, he speaks to God.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 38,
+          lines: [
             plain(13, 'I reckoned till morning, that, as a lion, so will he break all my bones: from day even to night wilt thou make an end of me.'),
             plain(14, 'Like a crane or a swallow, so did I chatter: I did mourn as a dove: mine eyes fail with looking upward: O Lord, I am oppressed; undertake for me.'),
             plain(15, 'What shall I say? he hath both spoken unto me, and himself hath done it: I shall go softly all my years in the bitterness of my soul.'),
             plain(16, 'O Lord, by these things men live, and in all these things is the life of my spirit: so wilt thou recover me, and make me to live.'),
             plain(17, 'Behold, for peace I had great bitterness: but thou hast in love to my soul delivered it from the pit of corruption: for thou hast cast all my sins behind thy back.'),
             plain(18, 'For the grave cannot praise thee, death can not celebrate thee: they that go down into the pit cannot hope for thy truth.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa38-split-3',
+          html:
+            'The turning point comes: "O Lord, by these things men live...so wilt thou recover me, and make me to live." From lament to petition. From despair to hope. From fear of silence to confidence in God&apos;s love. The cure is both physical (the poultice of figs) and spiritual (forgiveness, healing from corruption).',
+        },
+        {
+          kind: 'scripture',
+          chapter: 38,
+          lines: [
             plain(19, 'The living, the living, he shall praise thee, as I do this day: the father to the children shall make known thy truth.'),
             plain(20, 'The Lord was ready to save me: therefore we will sing my songs to the stringed instruments all the days of our life in the house of the Lord.'),
             plain(21, 'For Isaiah had said, Let them take a lump of figs, and lay it for a plaister upon the boil, and he shall recover.'),

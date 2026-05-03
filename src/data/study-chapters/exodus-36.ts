@@ -198,6 +198,43 @@ export const EXODUS_36: RichChapterContent = {
         },
         {
           kind: 'commentary',
+          id: 'boards-frame-structure',
+          html: 'The structure rises: boards standing ten cubits high, set in silver sockets, held together by bars threaded through rings, all overlaid in gold. This was no flimsy tent. It was a building that could stand against wind and time, portable yet solid, temporary yet sacred.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 36,
+          lines: [
+            {
+              number: 35,
+              spans: [
+                t('And he made a veil of '),
+                t('blue, and purple, and scarlet, and fine twined linen'),
+                t(': with cherubims made he it of cunning work.'),
+              ],
+            },
+            {
+              number: 36,
+              spans: [
+                t('And he made thereunto four pillars of shittim wood, and overlaid them with gold: their hooks were of gold; and he cast for them four sockets of silver.'),
+              ],
+            },
+            {
+              number: 37,
+              spans: [
+                t('And he made an hanging for the tabernacle door of blue, and purple, and scarlet, and fine twined linen, of needlework;'),
+              ],
+            },
+            {
+              number: 38,
+              spans: [
+                t('And the five pillars of it with their hooks: and he overlaid the chapiters of them and their fillets with gold: but their five sockets were of brass.'),
+              ],
+            },
+          ],
+        },
+        {
+          kind: 'commentary',
           id: 'boards-construction',
           html:
             'The boards are structural—they hold up the tent. But they are also symbolic. The wood is acacia (shittim), the same wood as the ark and the altar. Every piece of the tabernacle is made of the same materials, speaks the same language. The boards stand ten cubits high, set in silver sockets. A portable building designed to move with the people as they wander.',
@@ -227,16 +264,6 @@ export const EXODUS_36: RichChapterContent = {
       ref: 'Exodus 36:35–38',
       title: 'The Veil That Separates Holy from Common',
       blocks: [
-        {
-          kind: 'scripture',
-          chapter: 36,
-          lines: [
-            { number: 35, spans: [ t('And he made a veil of '), t('blue, and purple, and scarlet, and fine twined linen'), t(': with cherubims made he it of cunning work.') ] },
-            { number: 36, spans: [ t('And he made thereunto four pillars of shittim wood, and overlaid them with gold: their hooks were of gold; and he cast for them four sockets of silver.') ] },
-            { number: 37, spans: [ t('And he made an hanging for the tabernacle door of blue, and purple, and scarlet, and fine twined linen, of needlework;') ] },
-            { number: 38, spans: [ t('And the five pillars of it with their hooks: and he overlaid the chapiters of them and their fillets with gold: but their five sockets were of brass.') ] },
-          ],
-        },
         {
           kind: 'commentary',
           id: 'veil-separation',

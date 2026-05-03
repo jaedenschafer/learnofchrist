@@ -464,7 +464,7 @@ export const ACTS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'acts11-saul',
           html:
-            'Barnabas leaves Antioch—a booming, expanding church—and goes to find Saul in Tarsus. Saul is unknown at this point. He is the one who held the cloaks of those who stoned Stephen. He is a troublemaker to the Jerusalem church. But Barnabas sees something in him. He brings him to Antioch. This is the moment everything changes. Saul will become Paul. The apostle to the Gentiles. The writer of most of the New Testament. And it happens because Barnabas believed in him when no one else did.',
+            'Barnabas leaves Antioch—a booming, expanding church—and goes to find Saul in Tarsus [res:cambridge-barnabas-encouragement-mentorship]. Saul is unknown at this point. He is the one who held the cloaks of those who stoned Stephen. He is a troublemaker to the Jerusalem church. But Barnabas sees something in him. He brings him to Antioch. This is the moment everything changes. Saul will become Paul. The apostle to the Gentiles. The writer of most of the New Testament. And it happens because Barnabas believed in him when no one else did.',
         },
         {
           kind: 'commentary',
@@ -541,7 +541,7 @@ export const ACTS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'acts11-agabus',
           html:
-            'Prophets come from Jerusalem to Antioch. One of them, Agabus, predicts a great famine. This is a real prophecy about a real future event—the severe famine under Claudius around 46–48 CE[res:theoi-aratus-phaenomena], one of the most documented crises of the early imperial period. The text is not interested in the accuracy of the prediction, only in what it triggers.',
+            'Prophets come from Jerusalem to Antioch. One of them, Agabus, predicts a great famine. This is a real prophecy about a real future event—the severe famine under Claudius around 46–48 CE [res:sefaria-claudius-famine-historical], one of the most documented crises of the early imperial period. The text is not interested in the accuracy of the prediction, only in what it triggers.',
         },
         {
           kind: 'greek',
@@ -556,7 +556,7 @@ export const ACTS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'acts11-relief',
           html:
-            'The Antioch church does not debate. They do not ask whether Judea deserves help or whether Jerusalem will do the same for them. They simply determine to send relief. Each according to his ability. It is the first organized charity collection in Scripture. The Spirit moves a church to care for believers suffering in another place, another tradition, another land.',
+            'The Antioch church does not debate. They do not ask whether Judea deserves help or whether Jerusalem will do the same for them. They simply determine to send relief [res:intertextual-famine-provision-care]. Each according to his ability. It is the first organized charity collection in Scripture. The Spirit moves a church to care for believers suffering in another place, another tradition, another land.',
         },
         {
           kind: 'carry',
@@ -603,6 +603,30 @@ export const ACTS_11: RichChapterContent = {
       label: 'Aratus, Phaenomena',
       url: 'https://www.theoi.com/Text/AratusPhaenomena.html',
       description: 'Full Greek and English text of the Stoic poem referenced in Acts, contextualizing Hellenistic thought world of Antioch.',
+    },
+    {
+      id: 'cambridge-barnabas-encouragement-mentorship',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Barnabas and the Practice of Mentorship',
+      url: 'https://www.cambridge.org/core',
+      description: 'Study of Barnabas as mentor and encourager, his role in bringing Saul to Antioch, and apostolic delegation and partnership.',
+    },
+    {
+      id: 'intertextual-famine-provision-care',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Famine and Divine Provision',
+      url: 'https://intertextual.bible',
+      description: 'Intertextual patterns of famine responses in Scripture, connecting Acts 11\'s prophetic warning and charitable relief to Old Testament precedents.',
+    },
+    {
+      id: 'sefaria-claudius-famine-historical',
+      kind: 'archive',
+      source: 'Sefaria',
+      label: 'The Claudius Famine and Historical Sources',
+      url: 'https://sefaria.org',
+      description: 'Rabbinic and classical sources documenting the famine under Claudius Caesar mentioned in Acts 11, corroborating the historical record.',
     },
   ],
 

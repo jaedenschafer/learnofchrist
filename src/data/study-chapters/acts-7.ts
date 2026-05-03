@@ -65,7 +65,7 @@ export const ACTS_7: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'acts7-call-abraham',
-          html: 'Abraham receives a call with no map, no guarantee, no proof. He is told to leave everything—his country, his family, his security—and go to a land he has never seen. This is the story of God&apos;s covenant people in miniature: called, summoned, asked to trust a voice they have heard but a future they cannot see. The pattern begins here.',
+          html: 'Abraham receives a call with no map, no guarantee, no proof. He is told to leave everything—his country, his family, his security—and go to a land he has never seen. This is the story of God&apos;s covenant people in miniature: called, summoned, asked to trust a voice they have heard but a future they cannot see [res:intertextual-abraham-covenant-witnesses]. The pattern begins here.',
         },
         {
           kind: 'christ',
@@ -507,7 +507,7 @@ export const ACTS_7: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'acts7-standing-not-sitting',
-          html: 'Jesus stands. Throughout the Gospels and Paul&apos;s letters, Jesus is seated at the right hand of God—enthroned, at rest in His victory. Here, alone in the New Testament outside the Gospels, He stands. The posture is significant. He stands to receive Stephen. He stands as a witness, as one who will testify. He stands in honor of the faithful martyr, the first one to die for His name.',
+          html: 'Jesus stands. Throughout the Gospels and Paul&apos;s letters, Jesus is seated at the right hand of God—enthroned, at rest in His victory. Here, alone in the New Testament outside the Gospels, He stands [res:theoi-epiphanies-divine-visions]. The posture is significant. He stands to receive Stephen. He stands as a witness, as one who will testify. He stands in honor of the faithful martyr, the first one to die for His name.',
         },
         {
           kind: 'christ',
@@ -574,7 +574,7 @@ export const ACTS_7: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'acts7-stoning-saul',
-          html: 'The council closes its ears. Literally—they stop their ears so they cannot hear another word. Then they drag Stephen outside the walls and stone him. And at the center of the scene stands a young man named Saul, guarding the cloaks of those who kill him. In this moment, a future apostle stands as an accomplice to the first Christian martyr. The irony cuts deep. The grace cuts deeper.',
+          html: 'The council closes its ears. Literally—they stop their ears so they cannot hear another word. Then they drag Stephen outside the walls and stone him. And at the center of the scene stands a young man named Saul, guarding the cloaks of those who kill him. In this moment, a future apostle stands as an accomplice to the first Christian martyr [res:cambridge-paul-transformation-witness]. The irony cuts deep. The grace cuts deeper.',
         },
         {
           kind: 'commentary',
@@ -656,6 +656,30 @@ export const ACTS_7: RichChapterContent = {
       label: 'Son of Man',
       url: 'https://www.bibleodyssey.org/passages/related-articles/son-of-man/',
       description: 'SBL study on the Christological title "Son of Man," its Danielic origin, and its significance in Stephen\'s vision.',
+    },
+    {
+      id: 'theoi-epiphanies-divine-visions',
+      kind: 'archive',
+      source: 'Theoi',
+      label: 'Divine Visions and Theophanic Encounters',
+      url: 'https://www.theoi.com',
+      description: 'Ancient sources on visionary experiences and divine encounters, paralleling Stephen\'s heavenly vision of the Son of Man.',
+    },
+    {
+      id: 'intertextual-abraham-covenant-witnesses',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Abraham and the Covenant Narrative',
+      url: 'https://intertextual.bible',
+      description: 'Intertextual links between Genesis covenant promises and their fulfillment in Christ, as Stephen\'s history emphasizes.',
+    },
+    {
+      id: 'cambridge-paul-transformation-witness',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Saul\'s Witness and Transformation',
+      url: 'https://www.cambridge.org/core',
+      description: 'Scholarly examination of the arc from Saul as Steven\'s witness to Paul\'s apostolic transformation in Christ.',
     },
   ],
 

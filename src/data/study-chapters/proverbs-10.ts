@@ -102,18 +102,45 @@ export const PROVERBS_10: RichChapterContent = {
             plain(19, 'In the multitude of words there wanteth not sin: but he that refraineth his lips is wise.'),
             plain(20, 'The tongue of the just is as choice silver: the heart of the wicked is little worth.'),
             plain(21, 'The lips of the righteous feed many: but fools die for want of wisdom.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov10-labor-lips',
+          html: 'Five proverbs turn on the same axis: the righteous build themselves up through work and restraint, the wicked tear themselves down through talk and deception. Your labor tends somewhere. Your silence is sometimes your greatest tool. Your tongue is either silver or worthless—the choice is yours.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             plain(22, 'The blessing of the Lord, it maketh rich, and he addeth no sorrow with it.'),
             plain(23, 'It is as sport to a fool to do mischief: but a man of understanding hath wisdom.'),
             plain(24, 'The fear of the wicked, it shall come upon him: but the desire of the righteous shall be granted.'),
             plain(25, 'As the whirlwind passeth, so is the wicked no more: but the righteous is an everlasting foundation.'),
             plain(26, 'As vinegar to the teeth, and as smoke to the eyes, so is the sluggard to them that send him.'),
             plain(27, 'The fear of the Lord prolongeth days: but the years of the wicked shall be shortened.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov10-blessing-endure',
+          html: 'Six proverbs about what endures and what passes. God&apos;s blessing brings wealth without sorrow. The wicked pass away like a whirlwind—they seem solid, but they are not. The righteous are an everlasting foundation. To be close to a sluggard is to taste vinegar and smoke. These contrasts are absolute: longevity, foundation, permanence on one side; ruin, dissolution, brevity on the other.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 10,
+          lines: [
             plain(28, 'The hope of the righteous shall be gladness: but the expectation of the wicked shall perish.'),
             plain(29, 'The way of the Lord is strength to the upright: but destruction shall be to the workers of iniquity.'),
             plain(30, 'The righteous shall never be removed: but the wicked shall not inhabit the earth.'),
             plain(31, 'The mouth of the just bringeth forth wisdom: but the froward tongue shall be cut out.'),
             plain(32, 'The lips of the righteous know what is acceptable: but the mouth of the wicked speaketh frowardness.'),
           ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov10-hope-permanence',
+          html: 'Five final proverbs return to the promise: your hope, if you are righteous, will be gladness. You will not be removed. You belong. Your words matter. But the wicked—their expectations perish, they are destroyed, they are cut out. The chapter closes with this absolute division: two categories, two destinies, two visions of what is true.',
         },
         {
           kind: 'commentary',

@@ -451,6 +451,18 @@ export const CHRONICLES_1_11: RichChapterContent = {
                 t('Maharai the Netophathite, Heled the son of Baanah the Netophathite,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'c1-11-split-1',
+          html:
+            'The roster begins with Asahel, Joab&apos;s brother — swift and strong in battle. Then come warriors from the towns of Israel: Bethlehem, the Tekoite region, the lands of the Pelonites and Hushathites. Each name is tied to a place, a home. The mighty men are not generic soldiers; they are known men from known communities.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             {
               number: 31,
               spans: [
@@ -481,6 +493,18 @@ export const CHRONICLES_1_11: RichChapterContent = {
                 t('Ahiam the son of Sacar the Hararite, Eliphal the son of Ur,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'c1-11-split-2',
+          html:
+            'More names, more families: men from Benjamin and the Pirathon, from the hills and brooks of Gaash. Some are brothers fighting alongside each other — the sons of Hashem, Jonathan and his father Shage. The repetition of names and places draws us into a world of kinship networks and tribal bonds. David&apos;s army is not a collection of individuals; it is a weaving together of families and communities.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             {
               number: 36,
               spans: [
@@ -511,6 +535,18 @@ export const CHRONICLES_1_11: RichChapterContent = {
                 t('Ira the Ithrite, Gareb the Ithrite,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'c1-11-split-3',
+          html:
+            'Here the text reveals something remarkable: Zelek the Ammonite and Naharai the Berothite stand shoulder to shoulder with men born in Israel. These are foreigners, men from outside the covenant people, who have chosen to covenant with David. They are not marginal to his army — Naharai is the armourbearer of Joab himself, a position of trust and intimacy. David&apos;s kingdom gathers not only Israelites but also those who come from beyond Israel&apos;s borders.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             {
               number: 41,
               spans: [
@@ -554,6 +590,12 @@ export const CHRONICLES_1_11: RichChapterContent = {
               ],
             },
           ],
+        },
+        {
+          kind: 'commentary',
+          id: 'c1-11-split-4',
+          html:
+            'The final segment of the roster includes Uriah the Hittite (whose name will be darkened by David&apos;s later sin, but here is simply a valiant warrior), and Ithmah the Moabite. Brother pairs are woven through the list — Joha and Jediael, Shama and Jehiel. And notably, Adina the Reubenite brings thirty men with him, an entire company united under his captaincy. The mighty men are not thirty isolated heroes, but a network of families, companions, and captains, all bound to David.',
         },
         {
           kind: 'commentary',

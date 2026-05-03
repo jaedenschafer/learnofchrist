@@ -42,11 +42,35 @@ export const ISAIAH_48: RichChapterContent = {
             plain(9, 'For my name&apos;s sake will I defer mine anger, and for my praise will I refrain for thee, that I cut thee not off.'),
             plain(10, 'Behold, I have refined thee, but not with silver; I have chosen thee in the furnace of affliction.'),
             plain(11, 'For mine own sake, even for mine own sake, will I do it: for how should my name be polluted? and I will not give my glory unto another.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah48-refining',
+          html:
+            'The purpose of Israel&apos;s affliction is declared: God has refined Israel in the furnace—not for punishment alone, but for purification. And God acts ultimately for God&apos;s own sake: "My name shall not be polluted." God is bound by God&apos;s own character. God has made promises. God will keep them.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 48,
+          lines: [
             plain(12, 'Hearken unto me, O Jacob and Israel, my called; I am he; I am the first, I also am the last.'),
             plain(13, 'Mine hand also hath laid the foundation of the earth, and my right hand hath spanned the heavens: when I call unto them, they stand up together.'),
             plain(14, 'All ye, assemble yourselves, and hear; which among them hath declared these things? The Lord hath loved him: he will do his pleasure on Babylon, and his arm shall be on the Chaldeans.'),
             plain(15, 'I, even I, have spoken; yea, I have called him: I have brought him, and he shall make his way prosperous.'),
             plain(16, 'Come ye near unto me, hear ye this; I have not spoken in secret from the beginning; from the time that it was, there am I: and now the Lord God, and his Spirit, hath sent me.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah48-called',
+          html:
+            'God calls Israel forward: "I am the first, I also am the last." All history is encompassed in God&apos;s hand. God has loved Cyrus and called him by name. God has made his way prosperous. God speaks not in secret but openly, from the beginning. And God&apos;s Spirit has sent this message. Israel is not left guessing about God&apos;s will.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 48,
+          lines: [
             plain(17, 'Thus saith the Lord, thy Redeemer, the Holy One of Israel; I am the Lord thy God which teacheth thee to profit, which leadeth thee by the way that thou shouldest go.'),
             plain(18, 'O that thou hadst hearkened to my commandments! then had thy peace been as a river, and thy righteousness as the waves of the sea:'),
             plain(19, 'Thy seed also had been as the sand, and the offspring of thy bowels like the gravel thereof; his name should not have been cut off nor destroyed before me.'),

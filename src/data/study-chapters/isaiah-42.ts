@@ -100,10 +100,34 @@ export const ISAIAH_42: RichChapterContent = {
             plain(11, 'Let the wilderness and the cities thereof lift up their voice, the villages that Kedar doth inhabit: let the inhabitants of the rock sing, let them shout from the top of the mountains.'),
             plain(12, 'Let them give glory unto the Lord, and declare his praise in the islands.'),
             plain(13, 'The Lord shall go forth as a mighty man, he shall stir up jealousy like a man of war: he shall cry, yea, roar; he shall prevail against his enemies.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah42-new-song',
+          html:
+            'The Servant&apos;s work is so transformative that all creation is invited to sing. The wilderness and cities, the rock dwellers and islands—all are called to lift their voices in praise. Then God Himself speaks as "a mighty man," as a "man of war" who will roar and prevail. The quietness of the Servant&apos;s method contrasts with the might of God&apos;s purpose.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 42,
+          lines: [
             plain(14, 'I have long time holden my peace; I have been still, and refrained myself: now will I cry like a travailing woman; I will destroy and devour at once.'),
             plain(15, 'I will make waste mountains and hills, and dry up all their herbs; and I will make the rivers islands, and I will dry up the pools.'),
             plain(16, 'And I will bring the blind by a way that they knew not; I will lead them in paths that they have not known: I will make darkness light before them, and crooked things straight. These things will I do unto them, and not forsake them.'),
             plain(17, 'They shall be turned back, they shall be greatly ashamed, that trust in graven images, that say to the molten images, Ye are our gods.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah42-blind-servant',
+          html:
+            'God speaks with power: I have been silent long enough. Now I will cry out like a woman in travail. I will transform the landscape. Most importantly: I will bring the blind by ways they do not know. I will make the rough places smooth. And I will not abandon them. Yet this transformation requires the turning away from graven images—the idols that promise but do not deliver.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 42,
+          lines: [
             plain(18, 'Hear, ye deaf; and look, ye blind, that ye may see.'),
             plain(19, 'Who is blind, but my servant? or deaf, as my messenger that I sent? who is blind as he that is perfect, and blind as the Lord&apos;s servant?'),
             plain(20, 'Seeing many things, but thou observest not; opening the ears, but he heareth not.'),

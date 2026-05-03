@@ -37,6 +37,18 @@ export const ISAIAH_41: RichChapterContent = {
             plain(5, 'The isles saw it, and feared; the ends of the earth were afraid, drew near, and came.'),
             plain(6, 'They helped every one his neighbour; and every one said to his brother, Be of good courage.'),
             plain(7, 'So the carpenter encouraged the goldsmith, and he that smootheth with the hammer him that smote the anvil, saying, It is ready for the soldering: and he fastened it with nails, that it should not be moved.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah41-courtroom',
+          html:
+            'God calls the islands and nations to silence before Him. The "righteous man from the east" (Cyrus) is raised up, and nations fall before him. But notice: God does not assert power through force alone. This is a courtroom scene. "Keep silence before me...let us come near together to judgment." Let the evidence be heard. Let truth settle it.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 41,
+          lines: [
             plain(8, 'But thou, Israel, art my servant, Jacob whom I have chosen, the seed of Abraham my friend.'),
             plain(9, 'Thou whom I have taken from the ends of the earth, and called thee from the chief men thereof, and said unto thee, Thou art my servant; I have chosen thee, and not cast thee away.'),
             plain(10, 'Fear thou not; for I am with thee: be not dismayed; for I am thy God: I will strengthen thee; yea, I will help thee; yea, I will uphold thee with the right hand of my righteousness.'),
@@ -44,6 +56,18 @@ export const ISAIAH_41: RichChapterContent = {
             plain(12, 'Thou shalt seek them, and shalt not find them, even them that contended with thee: they that war against thee shall be as nothing, and as a thing of nought.'),
             plain(13, 'For I the Lord thy God will hold thy right hand, saying unto thee, Fear not; I will help thee.'),
             plain(14, 'Fear not, thou worm Jacob, and ye men of Israel; I will help thee, saith the Lord, and thy redeemer is the Holy One of Israel.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah41-worm-jacob',
+          html:
+            'The shift is stark. God turns from the courtroom to Israel with tenderness: "Fear not, thou worm Jacob." Israel is small, insignificant, but chosen. The word "worm" is not contempt—it&apos;s an acknowledgment of littleness coupled with promise. God sees Israel&apos;s weakness and says: I will help you. Your redeemer is the Holy One of Israel.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 41,
+          lines: [
             plain(15, 'Behold, I will make thee a new sharp threshing instrument having teeth: thou shalt thresh the mountains, and beat them small, and shalt make the hills as chaff.'),
             plain(16, 'Thou shalt fan them, and the wind shall carry them away, and the whirlwind shall scatter them: and thou shalt rejoice in the Lord, and shalt glory in the Holy One of Israel.'),
             plain(17, 'When the poor and needy seek water, and there is none, and their tongue faileth for thirst, I the Lord will hear them, I the God of Israel will not forsake them.'),

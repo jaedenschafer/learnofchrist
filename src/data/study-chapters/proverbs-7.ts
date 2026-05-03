@@ -35,29 +35,89 @@ export const PROVERBS_7: RichChapterContent = {
             plain(3, 'Bind them upon thy fingers, write them upon the table of thine heart.'),
             plain(4, 'Say unto wisdom, Thou art my sister; and call understanding thy kinswoman;'),
             plain(5, 'That they may keep thee from the strange woman, from the stranger which flattereth with her words.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov7-frame',
+          html: 'The father&apos;s opening plea is urgent: keep my words as the apple of your eye, close your heart where they are written, call wisdom your sister, call understanding your family. This framing—before the story begins—is the lifeline. Grab it.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(6, 'For at the window of my house I looked through my casement,'),
             plain(7, 'And beheld among the simple ones, I discerned among the youths, a young man void of understanding,'),
             plain(8, 'Passing through the street near her corner; and he went the way to her house,'),
             plain(9, 'In the twilight, in the evening, in the black and dark night:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov7-watching',
+          html: 'The father is watching from his window. He sees a young man walking toward her house at dusk. The darkness itself is complicit. He lacks understanding—he doesn&apos;t see the danger even as he walks toward it.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(10, 'And, behold, there met him a woman with the attire of an harlot, and subtil of heart.'),
             plain(11, '(She is loud and stubborn; her feet abide not in her house:'),
             plain(12, 'Now is she without, now in the streets, and lieth in wait at every corner.)'),
             plain(13, 'So she caught him, and kissed him, and with an impudent face said unto him,'),
             plain(14, 'I have peace offerings with me; this day have I payed my vows.'),
             plain(15, 'Therefore came I forth to meet thee, diligently to seek thy face, and I have found thee.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov7-approach',
+          html: 'She meets him. She is dressed for it, her heart is calculated. She is loud, restless, never at home—always hunting. She catches him, kisses him. Her words are a lie wrapped in piety: "I have vows to keep, and you are the answer to my prayers." She acts as though she&apos;s been seeking him, that this is serendipity. It is calculation masquerading as fate.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(16, 'I have decked my bed with coverings of tapestry, with carved works, with fine linen of Egypt.'),
             plain(17, 'I have perfumed my bed with myrrh, aloes, and cinnamon.'),
             plain(18, 'Come, let us take our fill of love until the morning: let us solace ourselves with loves.'),
             plain(19, 'For the goodman is not at home, he is gone a long journey:'),
             plain(20, 'He hath taken a bag of money with him, and will come home at the day appointed.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov7-bed-prepared',
+          html: 'She has prepared the bed. It is draped, carved, perfumed. Everything speaks of luxury, of care taken just for him. She offers to take their fill of love until morning. She assures him the husband is gone, will be gone for days. There is no one to see. No one to know. Every objection is answered before he can voice it.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(21, 'With her much fair speech she caused him to yield: with the flattering of her lips she forced him.'),
             plain(22, 'He goeth after her straightway, as an ox goeth to the slaughter, or as a fool to the correction of the stocks;'),
             plain(23, 'Till a dart strike through his liver; as a bird hasteth to the snare, and knoweth not that it is for his life.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov7-trap-closes',
+          html: 'He yields. Her words are many and fair, her lips are flattering. Notice the trap does not close with violence—it closes with seduction. He walks toward it willingly. The ox doesn&apos;t resist. The bird doesn&apos;t struggle. He doesn&apos;t understand that this path ends in the snare, in the dart through his liver. His blindness is complete.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 7,
+          lines: [
             plain(24, 'Hearken unto me therefore, O ye children, and attend to the words of my mouth.'),
             plain(25, 'Let not thine heart decline to her ways, go not astray in her paths.'),
             plain(26, 'For she hath cast down many wounded: yea, many strong men have been slain by her.'),
             plain(27, 'Her house is the way to hell, going down to the chambers of death.'),
           ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov7-warning-home',
+          html: 'The father pulls back from the story to speak directly to his sons: Listen. This is not a tale. Many have been slain by her. Strong men. She is not a person. She is a path to death itself. And her house is not a destination. It is the way to hell.',
         },
         {
           kind: 'commentary',

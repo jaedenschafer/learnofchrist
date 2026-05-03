@@ -172,6 +172,54 @@ export const GENESIS_5: RichChapterContent = {
         },
         {
           kind: 'commentary',
+          id: 'gen5-split-1',
+          html:
+            'From Adam through Mahalalel, four generations fall in one rhythm: born, lived after begetting, and died. Each lived 800+ years yet each man fell to the same refrain. The pattern is set and seems unbreakable. Then comes Jared, and with him the first hint of escape—he begets Enoch, the one who will not die.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 5,
+          lines: [
+            {
+              number: 15,
+              spans: [
+                t('And Mahalaleel lived sixty and five years, and begat Jared:'),
+              ],
+            },
+            {
+              number: 16,
+              spans: [
+                t('And Mahalaleel lived after he begat Jared eight hundred and thirty years: and begat sons and daughters:'),
+              ],
+            },
+            {
+              number: 17,
+              spans: [
+                t('And all the days of Mahalaleel were eight hundred ninety and five years: and he died.'),
+              ],
+            },
+            {
+              number: 18,
+              spans: [
+                t('And Jared lived an hundred sixty and two years, and he begat Enoch:'),
+              ],
+            },
+            {
+              number: 19,
+              spans: [
+                t('And Jared lived after he begat Enoch eight hundred years: and begat sons and daughters:'),
+              ],
+            },
+            {
+              number: 20,
+              spans: [
+                t('And all the days of Jared were nine hundred sixty and two years: and he died.'),
+              ],
+            },
+          ],
+        },
+        {
+          kind: 'commentary',
           id: 'c-named-adam',
           html:
             'The opening line frames the genealogy not as a ledger but as a memorial. &ldquo;This is the book of the generations of Adam&rdquo; — the same language will open the accounts of Noah, Shem, and the sons of Israel. These are the lines God is tracing through history, not the lines a historian might choose. And the first act of memory is to recall: Adam and Eve were made in God&apos;s image, and they were called one name, Adam.',

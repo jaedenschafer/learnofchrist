@@ -77,15 +77,48 @@ export const PROVERBS_6: RichChapterContent = {
             plain(13, 'He winketh with his eyes, he speaketh with his feet, he teacheth with his fingers;'),
             plain(14, 'Frowardness is in his heart, he deviseth mischief continually; he soweth discord.'),
             plain(15, 'Therefore shall his calamity come suddenly; suddenly shall he be broken without remedy.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov6-naughty-person',
+          html: 'The naughty person speaks with a froward mouth, winks with eyes, gestures with feet and fingers. He is not hidden—his iniquity is written in his body. He schemes, he sows discord. And his ruin comes swiftly. You cannot live in perpetual mischief without reaping sudden calamity.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(16, 'These six things doth the Lord hate: yea, seven are an abomination unto him:'),
             plain(17, 'A proud look, a lying tongue, and hands that shed innocent blood,'),
             plain(18, 'An heart that deviseth wicked imaginations, feet that be swift in running to mischief,'),
             plain(19, 'A false witness that speaketh lies, and he that soweth discord among brethren.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov6-six-things-expanded',
+          html: 'The list cuts to the heart: pride, lies, bloodshed, wickedness, haste toward evil, and the poisoning of community itself. These are the ways by which the social order crumbles. Each is a violence against truth and trust.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(20, 'My son, keep thy father&apos;s commandment, and forsake not the law of thy mother:'),
             plain(21, 'Bind them continually upon thine heart, and tie them about thy neck.'),
             plain(22, 'When thou goest, it shall lead thee; when thou sleepest, it shall keep thee; and when thou awakest, it shall talk with thee.'),
             plain(23, 'For the commandment is a lamp; and the law is light; and reproofs of instruction are the way of life:'),
             plain(24, 'To keep thee from the evil woman, from the flattery of the tongue of a strange woman.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov6-commandment-lamp',
+          html: 'Your parents&apos; wisdom is not a burden—it&apos;s a light. Bind it to your heart like a necklace. When you walk, it guides you. When you sleep, it guards you. When you wake, it speaks to you. This is a light in darkness, a guardrail against seduction.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(25, 'Lust not after her beauty in thine heart; neither let her take thee with her eyelids.'),
             plain(26, 'For by means of a whorish woman a man is brought to a piece of bread: and the adultress will hunt for the precious life.'),
             plain(27, 'Can a man take fire in his bosom, and his clothes not be burned?'),

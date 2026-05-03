@@ -35,6 +35,17 @@ export const PSALMS_18: RichChapterContent = {
             plain(4, 'The sorrows of death compassed me, and the floods of ungodly men made me afraid.'),
             plain(5, 'The sorrows of hell compassed me about: the snares of death prevented me.'),
             plain(6, 'In my distress I called upon the Lord, and cried unto my God: he heard my voice out of his temple, and my cry came before him, even into his ears.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps18-love-called',
+          html: 'David opens not with doctrine but with love: "I will love thee, O Lord, my strength." He pours out names: rock, fortress, deliverer, buckler, horn of salvation, high tower. Each image intensifies. But before safety came despair. Death surrounded him. He was drowning. And in his distress, he called. God heard. The cry reached His ears.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             plain(7, 'Then the earth shook and trembled; the foundations also of the hills moved and were shaken, because he was wroth.'),
             plain(8, 'There went up a smoke out of his nostrils, and fire out of his mouth devoured: coals were kindled by it.'),
             plain(9, 'He bowed the heavens also, and came down: and darkness was under his feet.'),
@@ -42,6 +53,17 @@ export const PSALMS_18: RichChapterContent = {
             plain(11, 'He made darkness his secret place; his pavilion round about him were dark waters and thick clouds of the skies.'),
             plain(12, 'At the brightness that was before him his thick clouds passed, hail stones and coals of fire.'),
             plain(13, 'The Lord also thundered in the heavens, and the Highest gave his voice; hail stones and coals of fire.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps18-god-descends',
+          html: 'God descends in cosmic power. The earth shakes. Fire and smoke pour from His mouth. He bends the heavens down. He rides a cherub. He wraps Himself in darkness and clouds and light all at once. Thunder shakes the sky. Hail and coals fall. This is not gentle help. This is the Almighty intervening with overwhelming force.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             plain(14, 'Yea, he sent out his arrows, and scattered them; and he shot out lightnings, and discomfited them.'),
             plain(15, 'Then the channels of waters were seen, and the foundations of the world were discovered at thy rebuke, O Lord, at the blast of the breath of thy nostrils.'),
             plain(16, 'He sent from on high, he took me, he drew me out of many waters.'),
@@ -49,6 +71,11 @@ export const PSALMS_18: RichChapterContent = {
             plain(18, 'They prevented me in the day of my calamity: but the Lord was my stay.'),
             plain(19, 'He brought me forth also into a large place; he delivered me, because he delighted in me.'),
           ],
+        },
+        {
+          kind: 'commentary',
+          id: 'ps18-drew-me-out',
+          html: 'The cosmic theophany serves one purpose: to draw David out of the waters. God sent from on high and took him. His enemies were too strong, but God was stronger. God delighted in him. This is the pivot: from cosmic power to personal intimacy. The power that shook creation was deployed to save one man because God delighted in him.',
         },
         {
           kind: 'commentary',

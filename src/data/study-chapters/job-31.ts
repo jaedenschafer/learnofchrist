@@ -101,6 +101,18 @@ export const JOB_31: RichChapterContent = {
             plain(18, 'For from my youth he was brought up with me, as with a father, and I have guided her from my mother&apos;s womb;)'),
             plain(19, 'If I have seen any perish for want of clothing, or any poor without covering;'),
             plain(20, 'If his loins have not blessed me, and if he were not warmed with the fleece of my sheep;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job31-split-1',
+          html:
+            'Job has treated his servants with justice—has not despised their cause when they contended with him. He grounds this in something deeper than law: "Did not he that made me in the womb make him?" All humans share the same maker. He has clothed the poor, fed the fatherless. Servant and master are equal before God.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 31,
+          lines: [
             plain(21, 'If I have lifted up my hand against the fatherless, when I saw him in the gate:'),
             plain(22, 'Then let mine arm fall from my shoulder blade, and mine arm be broken from the bone.'),
             plain(23, 'For destruction from God was a terror to me, and by reason of his highness I could not endure.'),

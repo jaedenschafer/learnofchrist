@@ -302,6 +302,18 @@ export const GENESIS_44: RichChapterContent = {
                 t('And we said, We cannot go down: if our youngest brother be with us, then will we go down: for we may not see the man&apos;s face, except our youngest brother be with us.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen44-split-1',
+          html:
+            'Judah has recounted the entire journey—the questions at the first meeting, the demand to bring Benjamin, the brothers&apos; resistance, their father&apos;s terror. He is building a case, not by arguing Jacob&apos;s innocence but by showing Jacob&apos;s love. Every word is leading Joseph toward understanding: this boy is not expendable. This father will break if you take him.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 44,
+          lines: [
             {
               number: 27,
               spans: [

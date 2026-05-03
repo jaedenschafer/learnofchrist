@@ -187,6 +187,18 @@ export const GENESIS_36: RichChapterContent = {
               number: 17,
               spans: [t('These are the dukes of Edom according to their habitations in the land of their possession: he is Esau the father of the Edomites.')],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen36-split-1',
+          html:
+            'Esau&apos;s line is organized: seven dukes from Eliphaz, four from Reuel, three from Aholibamah. Each chieftain rules his territory. Edom is becoming a nation. Yet the text does not stop there. It will also list the Horites—the people already living in Seir when Esau arrived—their chiefs and families woven into the same narrative. God remembers all the names.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 36,
+          lines: [
             {
               number: 18,
               spans: [t('And these are the sons of Seir the Horite, who inhabited the land; Lotan, and Shobal, and Zibeon, and Anah,')],

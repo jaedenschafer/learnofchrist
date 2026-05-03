@@ -39,6 +39,18 @@ export const ISAIAH_44: RichChapterContent = {
             plain(6, 'Thus saith the Lord the King of Israel, and his redeemer the Lord of hosts; I am the first, and I am the last; and beside me there is no God.'),
             plain(7, 'And who, as I, shall call, and shall declare it, and set it in order for me, since I appointed the ancient people? and the things that are coming, and shall come, let them shew unto them.'),
             plain(8, 'Fear ye not, neither be afraid: have not I told thee from that time, and have declared it? ye are even my witnesses. Is there a God beside me? yea, there is no God; I know not any.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah44-alone',
+          html:
+            'The declaration crescendos: "Is there a God beside me? yea, there is no God; I know not any." Israel is God&apos;s witness to this truth. This is not a boast. This is an invitation to step into history knowing that one God rules. Everything else flows from this single assertion.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 44,
+          lines: [
             plain(9, 'They that make a graven image are all of them vanity; and their delectable things shall not profit; and they are their own witnesses; they see not, nor know; that they may be ashamed.'),
             plain(10, 'Who hath formed a god, or molten a graven image that is profitable for nothing?'),
             plain(11, 'Behold, all his fellows shall be ashamed: and the smiths are men: let them all be gathered together, they shall stand up; yet they shall fear, and they shall be ashamed together.'),
@@ -51,9 +63,33 @@ export const ISAIAH_44: RichChapterContent = {
             plain(18, 'They have not known nor understood: for he hath shut their eyes, that they cannot see; and their hearts, that they cannot understand.'),
             plain(19, 'And none considereth in his heart, neither is there knowledge nor understanding to say, I have burned part of it in the fire; yea, also I have baked bread upon the coals thereof; I have roasted flesh, and eaten it: and shall I make the residue thereof an abomination? shall I fall down to the stock of a tree?'),
             plain(20, 'He feedeth on ashes: a deceived heart hath turned him aside; and he cannot deliver his soul, nor say, Is there not a lie in my right hand?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah44-idol-absurdity',
+          html:
+            'The satire on idols reaches its crescendo. A man plants a tree, tends it, cuts it down. Half goes to fuel for warmth and bread. Half he carves and worships: "Deliver me; for thou art my god." But the god is made from the same wood that heated his body and cooked his food. The absurdity is the point—and it reveals the deception in the maker&apos;s heart. No one stops to consider the logical bankruptcy of the act.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 44,
+          lines: [
             plain(21, 'Remember these, O Jacob and Israel; for thou art my servant: I have formed thee; thou art my servant: O Israel, thou shalt not be forgotten of me.'),
             plain(22, 'I have blotted out, as a thick cloud, thy transgressions, and, as a cloud, thy sins: return unto me; for I have redeemed thee.'),
             plain(23, 'Sing, O ye heavens; for the Lord hath done it: shout, ye lower parts of the earth: break forth into singing, ye mountains, O forest, and every tree therein: for the Lord hath redeemed Jacob, and glorified himself in Israel.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isaiah44-redeemed',
+          html:
+            'The turning point: "Remember...thou art my servant...thou shalt not be forgotten of me." Despite the idolatry, despite the deception, Israel is God&apos;s servant and has not been forgotten. The transgressions are blotted out like clouds. The sins are covered. And the response is cosmic: heaven shouts, earth cries out, mountains sing. Redemption deserves all creation&apos;s praise.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 44,
+          lines: [
             plain(24, 'Thus saith the Lord, thy redeemer, and he that formed thee from the womb, I am the Lord that maketh all things; that stretcheth forth the heavens alone; that spreadeth abroad the earth by myself;'),
             plain(25, 'That frustrateth the tokens of the liars, and maketh diviners mad; that turneth wise men backward, and maketh their knowledge foolish;'),
             plain(26, 'That confirmeth the word of his servant, and performeth the counsel of his messengers; that saith to Jerusalem, Thou shalt be inhabited; and to the cities of Judah, Ye shall be built, and I will raise up the decayed places thereof:'),
@@ -63,7 +99,7 @@ export const ISAIAH_44: RichChapterContent = {
         },
         {
           kind: 'commentary',
-          id: 'isaiah44-alone',
+          id: 'isaiah44-absurdity',
           html:
             'The chapter opens with the insistence on uniqueness: "I am the first, and I am the last; and beside me there is no God." This is not merely theological claim. This is the foundation for trust. If God is the only God, then all power rests in God. If God is both first and last—beginning and end—then God stands above and beyond all time and circumstance. Everything that happens happens within the knowledge and purpose of God.',
         },

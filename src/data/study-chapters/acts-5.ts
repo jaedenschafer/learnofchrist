@@ -68,7 +68,7 @@ export const ACTS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'acts5-judgment',
           html:
-            'Ananias falls dead. No trial, no argument, no second chance. Within hours, Sapphira—not knowing what has happened—comes in and lies the same lie. She too falls dead. The judgment is stunning, and it seems harsh. But the apostles knew what was at stake. In the presence of the Holy Ghost, the integrity of the community matters absolutely. A lie that goes unnamed and unchallenged will spread. Truth-telling is not a courtesy; it is foundational to the church&apos;s life.',
+            'Ananias falls dead. No trial, no argument, no second chance. Within hours, Sapphira—not knowing what has happened—comes in and lies the same lie. She too falls dead. The judgment is stunning, and it seems harsh [res:sefaria-exodus-judgment]. But the apostles knew what was at stake. In the presence of the Holy Ghost, the integrity of the community matters absolutely. A lie that goes unnamed and unchallenged will spread. Truth-telling is not a courtesy; it is foundational to the church&apos;s life.',
         },
         {
           kind: 'christ',
@@ -108,7 +108,7 @@ export const ACTS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'acts5-signs-continue',
           html:
-            'The severity of Ananias and Sapphira&apos;s judgment does not cause the apostles to hide or retreat. They continue in Solomon&apos;s Porch—the same place where they have been teaching openly. The signs and wonders multiply. The sick are brought out into the streets. Multitudes are added to the Lord. But there is a notable line: &ldquo;of the rest durst no man join himself to them.&rdquo; Some fear has entered. Not all of Jerusalem is rushing forward. But those who do believe are increasing, and they are serious.',
+            'The severity of Ananias and Sapphira&apos;s judgment does not cause the apostles to hide or retreat. They continue in Solomon&apos;s Porch—the same place where they have been teaching openly. The signs and wonders multiply [res:cambridge-apostolic-signs-wonders]. The sick are brought out into the streets. Multitudes are added to the Lord. But there is a notable line: &ldquo;of the rest durst no man join himself to them.&rdquo; Some fear has entered. Not all of Jerusalem is rushing forward. But those who do believe are increasing, and they are serious.',
         },
         {
           kind: 'scripture',
@@ -122,7 +122,7 @@ export const ACTS_5: RichChapterContent = {
           kind: 'commentary',
           id: 'acts5-shadow-peter',
           html:
-            'The sick are laid in the streets and wait for Peter&apos;s shadow to pass over them. This detail is striking. Not Peter&apos;s touch, not even his prayer—his shadow. The image suggests that healing has become so abundant that it flows from Peter&apos;s very presence[res:bibleodyssey-prison]. But it also carries an echo: in the OT, the shadow of God is a shelter, a refuge (Ps. 91:1, &ldquo;He that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty&rdquo;). The sick in Jerusalem are crowding to stand in the shadow of the apostles as they once crowded to stand under the shelter of God.',
+            'The sick are laid in the streets and wait for Peter&apos;s shadow to pass over them. This detail is striking. Not Peter&apos;s touch, not even his prayer—his shadow. The image suggests that healing has become so abundant that it flows from Peter&apos;s very presence[res:bibleodyssey-prison]. But it also carries an echo: in the OT, the shadow of God is a shelter, a refuge (Ps. 91:1, &ldquo;He that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty&rdquo;). The sick in Jerusalem are crowding to stand in the shadow of the apostles [res:theoi-healing-miracles-context] as they once crowded to stand under the shelter of God.',
         },
         {
           kind: 'greek',
@@ -432,6 +432,30 @@ export const ACTS_5: RichChapterContent = {
       label: 'Rabbinic Sanhedrin Tradition',
       url: 'https://sefaria.org/Sanhedrin?lang=bi',
       description: 'Mishnaic and Talmudic texts on the Sanhedrin, providing context for Gamaliel and apostolic judgment.',
+    },
+    {
+      id: 'cambridge-apostolic-signs-wonders',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Apostolic Signs and Wonders',
+      url: 'https://www.cambridge.org/core',
+      description: 'Scholarly exploration of the signs and wonders performed by the apostles, their theological significance, and impact on early witness.',
+    },
+    {
+      id: 'theoi-healing-miracles-context',
+      kind: 'archive',
+      source: 'Theoi',
+      label: 'Greco-Roman Healing and Miracles',
+      url: 'https://www.theoi.com',
+      description: 'Ancient sources on miraculous healing practices, shadows, and divine intervention in Greco-Roman contexts paralleling apostolic signs.',
+    },
+    {
+      id: 'sefaria-exodus-judgment',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Judgment and Divine Consequence',
+      url: 'https://sefaria.org/Exodus?lang=bi',
+      description: 'Torah and rabbinic texts exploring divine judgment and consequences for sin against God and the community.',
     },
   ],
 

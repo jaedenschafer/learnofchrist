@@ -154,6 +154,17 @@ export const DEUTERONOMY_14: RichChapterContent = {
                 t('And the swine, because it divideth the hoof, yet cheweth not the cud, it is unclean unto you. Ye shall not eat of their flesh, nor touch their dead carcase.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'deut14-land-clean',
+          html: 'Land animals must pass both tests. Cloven hoof and chewing cud together mark the clean. The test is not secret or mysterious—it is visible, knowable, repeatable. You can look at what you are about to eat and know whether it belongs at your table.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 14,
+          lines: [
             {
               number: 9,
               spans: [
@@ -166,6 +177,17 @@ export const DEUTERONOMY_14: RichChapterContent = {
                 t('And whatsoever hath not fins and scales ye may not eat; it is unclean unto you.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'deut14-water-clean',
+          html: 'From the waters: fins and scales. The criterion is simple and visible. Clean water animals are the ones that move and are protected—the streamlined, the scaled, the swift. They belong at your table.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 14,
+          lines: [
             {
               number: 11,
               spans: [

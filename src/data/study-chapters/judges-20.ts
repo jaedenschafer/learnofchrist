@@ -125,6 +125,17 @@ export const JUDGES_20: RichChapterContent = {
             plain(35, 'And the Lord smote Benjamin before Israel: and the children of Israel destroyed of the Benjamites that day twenty and five thousand and an hundred men: all these drew the sword.'),
             plain(36, 'So the children of Benjamin saw that they were smitten: for the men of Israel gave place to the Benjamites, saying, Let us flee, that we may draw them from the city unto the highways.'),
             plain(37, 'And the children of Benjamin lifted up their eyes, and saw that the city was taken, and the smoke of the city ascended up to heaven: then the men of Benjamin turned and fled.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jud20-trap-sprung',
+          html: 'The ambush works. When Benjamin sees the smoke rising from Gibeah, their confidence shatters. The city that should have been their refuge is burning. In that moment, they realize they are trapped.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 20,
+          lines: [
             plain(38, 'Now there was an appointed sign between the men of Israel and the liers in wait, that they should make a great flame with smoke rise up out of the city.'),
             plain(39, 'And when the men of Israel retired in the battle, Benjamin began to smite and kill of the men of Israel about thirty persons: for they said, Surely they are smitten down before us, as in the first battle.'),
             plain(40, 'But when the flame began to arise up out of the city with a pillar of smoke, the Benjamites looked behind them; and, behold, the flame of the city ascended up to heaven.'),

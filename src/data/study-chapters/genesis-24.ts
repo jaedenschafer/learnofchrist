@@ -293,6 +293,18 @@ export const GENESIS_24: RichChapterContent = {
                 t('And he said, Blessed be the LORD God of my master Abraham, who hath not left destitute my master of his mercy and his truth: I being in the way, the LORD led me to the house of my master\'s brethren.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen24-split-1',
+          html:
+            'The servant has blessed the LORD and known, beyond doubt, that this is Rebekah. Now the family must learn what the servant already sees. The questions at the well led to revelation. Now revelation must lead to hospitality—a family opening its home to a stranger with a purpose.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 24,
+          lines: [
             {
               number: 28,
               spans: [
@@ -329,6 +341,18 @@ export const GENESIS_24: RichChapterContent = {
                 t('And there was set meat before him to eat: but he said, I will not eat, until I have told mine errand. And he said, Speak on.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen24-split-2',
+          html:
+            'Laban sees the gold and understands immediately: this is a betrothal journey. He welcomes the stranger and feeds him. Then the servant refusesto eat until he has told his errand. There is a protocol to this—the mission comes before the meal. Laban&apos;s hospitality is perfect, but it waits on the servant&apos;s words.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 24,
+          lines: [
             {
               number: 34,
               spans: [
@@ -377,6 +401,18 @@ export const GENESIS_24: RichChapterContent = {
                 t('Then shalt thou be clear from this my oath, when thou comest to my kindred; and if they give not thee one, thou shalt be clear from my oath.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen24-split-3',
+          html:
+            'The servant has recounted the oath—the binding words Abraham made him swear. Now he will retell the miraculous moment at the well, when the prayer was answered before it was even finished. The retelling is a way of bearing witness. When you tell the story again, you invite others to see what you saw.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 24,
+          lines: [
             {
               number: 42,
               spans: [

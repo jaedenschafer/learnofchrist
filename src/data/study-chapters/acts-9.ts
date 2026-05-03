@@ -559,7 +559,7 @@ export const ACTS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'acts9-good-works',
           html:
-            'What is Tabitha known for? Not eloquence. Not theological knowledge. Not leadership of any formal kind. She is known for her hands. She makes coats and garments for the widows. She does good works and almsdeeds. When she dies, the widows do not mourn an abstract idea or a distant spiritual leader. They mourn the woman who made clothes for them, who cared for them in visible, practical ways. Her ministry takes place in Joppa[res:bibleodyssey-joppa], a coastal Mediterranean port city that served as a gateway for the gospel to move outward from Jerusalem.',
+            'What is Tabitha known for? Not eloquence. Not theological knowledge. Not leadership of any formal kind. She is known for her hands. She makes coats and garments for the widows. She does good works and almsdeeds. When she dies, the widows do not mourn an abstract idea or a distant spiritual leader. They mourn the woman who made clothes for them, who cared for them in visible, practical ways. Her ministry takes place in Joppa[res:bibleodyssey-joppa], a coastal Mediterranean port city [res:ascsa-lydda-joppa-archaeology] that served as a gateway for the gospel to move outward from Jerusalem.',
         },
         {
           kind: 'commentary',
@@ -619,7 +619,7 @@ export const ACTS_9: RichChapterContent = {
           kind: 'commentary',
           id: 'acts9-power-pattern',
           html:
-            'This chapter shows resurrection power in three forms. First, Saul encounters it as judgment—a light that blinds him, a voice that confounds him, a reversal that unmakes everything he has believed. Second, Saul receives it as grace—through Ananias&apos; hands, he is restored, baptized, filled with the Spirit. Third, the power flows through Peter: through his word, Aeneas walks; through his prayer, Tabitha breathes. The risen Jesus is not in heaven untouched. He is present, active, remaking the world through the obedience of His servants.',
+            'This chapter shows resurrection power in three forms. First, Saul encounters it as judgment—a light that blinds him, a voice that confounds him, a reversal that unmakes everything he has believed [res:cambridge-conversion-transformation-saul]. Second, Saul receives it as grace—through Ananias&apos; hands, he is restored, baptized, filled with the Spirit. Third, the power flows through Peter: through his word, Aeneas walks; through his prayer, Tabitha breathes [res:brill-healing-restoration-ministry]. The risen Jesus is not in heaven untouched. He is present, active, remaking the world through the obedience of His servants.',
         },
         {
           kind: 'carry',
@@ -675,6 +675,30 @@ export const ACTS_9: RichChapterContent = {
       label: 'Dorcas (Tabitha)',
       url: 'https://www.bibleodyssey.org/dictionary/dorcas/',
       description: 'Open-access SBL entry on Dorcas — early female disciple, her ministry of works, and her role in Peter\'s healing account.',
+    },
+    {
+      id: 'cambridge-conversion-transformation-saul',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Saul\'s Conversion and Transformation',
+      url: 'https://www.cambridge.org/core',
+      description: 'Scholarly analysis of Paul\'s Damascus road experience, psychological transformation, and theological implications for apostolic identity.',
+    },
+    {
+      id: 'brill-healing-restoration-ministry',
+      kind: 'study',
+      source: 'Brill',
+      label: 'Apostolic Healing and Restoration',
+      url: 'https://brill.com',
+      description: 'Study of healing practices in early Christian ministry, comparing Peter\'s acts of restoration to Jewish and Greco-Roman healing traditions.',
+    },
+    {
+      id: 'ascsa-lydda-joppa-archaeology',
+      kind: 'archaeology',
+      source: 'American School of Classical Studies',
+      label: 'Lydda and Joppa Archaeological Survey',
+      url: 'https://www.ascsa.edu.gr',
+      description: 'Archaeological survey data and findings from Lydda and Joppa, providing material culture context for Acts 9\'s coastal witness.',
     },
   ],
 

@@ -38,11 +38,35 @@ export const ISAIAH_29: RichChapterContent = {
             plain(7, 'And the multitude of all the nations that fight against Ariel, even all that fight against her and her munition, and that distress her, shall be as a dream of a night vision.'),
             plain(8, 'It shall even be as when an hungry man dreameth, and, behold, he eateth; but he awaketh, and his soul is empty: or as when a thirsty man dreameth, and, behold, he drinketh; but he awaketh, and, behold, he is faint, and his soul hath appetite: so shall the multitude of all the nations be, that fight against mount Zion.'),
             plain(9, 'Stay yourselves, and wonder; cry ye out, and cry: they are drunken, but not with wine; they stagger, but not with strong drink.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa29-split-1',
+          html:
+            'The enemy&apos;s attack collapses like a dream. Hunger and thirst that seemed real upon waking prove false. So too the Assyrian threat will vanish. Yet the people themselves are drunken—not from wine, but from God&apos;s "spirit of deep sleep." They cannot see. They cannot hear. Spiritual blindness is the true curse.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 29,
+          lines: [
             plain(10, 'For the Lord hath poured upon you the spirit of deep sleep, and hath closed your eyes: the prophets and your rulers, the seers hath he covered.'),
             plain(11, 'And the vision of all is become unto you as the words of a book that is sealed, which men deliver to one that is learned, saying, Read this, I pray thee: and he saith, I cannot; for it is sealed:'),
             plain(12, 'And the book is delivered to him that is not learned, saying, Read this, I pray thee: and he saith, I am not learned.'),
             plain(13, 'Wherefore the Lord said, Forasmuch as this people draw near me with their mouth, and with their lips do honour me, but have removed their heart far from me, and their fear of me is taught by the precept of men;'),
             plain(14, 'Therefore, behold, I will proceed to do a marvellous work among this people, even a marvellous work and a wonder: for the wisdom of their wise men shall perish, and the understanding of their prudent men shall be hid.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa29-split-2',
+          html:
+            'The people honor God with their lips while their heart is far away. This is the crisis at the center: lip-service masking inner separation. God&apos;s response is a "marvelous work"—the undoing of all their confidence, the silencing of their wise men. What looks wise will be revealed as foolishness.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 29,
+          lines: [
             plain(15, 'Woe unto them that seek deep to hide their counsel from the Lord, and their works are in the dark, and they say, Who seeth us? and who knoweth us?'),
             plain(16, 'Surely your turning of things upside down shall be esteemed as the potter&apos;s clay: for shall the work say of him that made it, He made me not? or shall the thing framed say of him that framed it, He had no understanding?'),
           ],
@@ -111,10 +135,34 @@ export const ISAIAH_29: RichChapterContent = {
             plain(17, 'Is it not yet a very little while, till Lebanon shall be turned into a fruitful field, and the fruitful field shall be esteemed as a forest?'),
             plain(18, 'And in that day shall the deaf hear the words of the book, and the eyes of the blind shall see out of obscurity, and out of darkness.'),
             plain(19, 'The meek also shall increase their joy in the Lord, and the poor among men shall rejoice in the Holy One of Israel.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa29-split-3',
+          html:
+            'The promise breaks through suddenly: "In that day shall the deaf hear the words of the book, and the eyes of the blind shall see." The sealed book will be opened. Those locked in darkness will see light. The meek will find joy. Judgment is not the final word. Restoration comes.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 29,
+          lines: [
             plain(20, 'For the terrible one is brought to nought, and the scorner is consumed, and all that watch for iniquity are cut off:'),
             plain(21, 'That make a man an offender for a word, and lay a snare for him that reproveth in the gate, and turn aside the just for a thing of nought.'),
             plain(22, 'Therefore thus saith the Lord, who redeemed Abraham, concerning the house of Jacob, Jacob shall not now be ashamed, neither shall his face now wax pale.'),
             plain(23, 'But when he seeth his children, the work of my hands, in the midst of him, they shall sanctify my name, and sanctify the Holy One of Jacob, and shall fear the God of Israel.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa29-split-4',
+          html:
+            'The transformation spreads through the family and the nation. Jacob will not be ashamed. His children—"the work of my hands"—will sanctify God&apos;s name. From shame to honor, from silence to witness. The curse is inverted.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 29,
+          lines: [
             plain(24, 'They also that erred in spirit shall come to understanding, and they that murmured shall learn doctrine.'),
           ],
         },

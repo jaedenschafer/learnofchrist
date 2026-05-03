@@ -45,11 +45,35 @@ export const JOB_15: RichChapterContent = {
             plain(4, 'Yea, thou castest off fear, and restrainest prayer before God.'),
             plain(5, 'For thy mouth uttereth thine iniquity, and thou choosest the tongue of the crafty.'),
             plain(6, 'Thine own mouth condemneth thee, and not I: yea, thine own lips testify against thee.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job15-split-1',
+          html:
+            'Eliphaz&apos;s tone hardens. He moves from concern to contempt. Job&apos;s words are vain, unprofitable, meaningless. Job "casts off fear" and "restrains prayer"—his refusal to submit looks to Eliphaz like irreverence. For Eliphaz, Job&apos;s own mouth is his judge.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 15,
+          lines: [
             plain(7, 'Art thou the first man that was born? or wast thou made before the hills?'),
             plain(8, 'Hast thou heard the secret of God? and dost thou restrain wisdom to thyself?'),
             plain(9, 'What knowest thou, that we know not? what understandest thou, which is not in us?'),
             plain(10, 'With us are both the grayheaded and very aged men, much elder than thy father.'),
             plain(11, 'Are the consolations of God small with thee? is there any secret thing with thee?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job15-split-2',
+          html:
+            'Eliphaz ridicules Job&apos;s presumption. Were you the first human? Have you heard God&apos;s secret counsel? The aged men among us—much older than your father—they possess the wisdom you lack. Eliphaz appeals to tradition, to age, to collective authority against Job&apos;s lonely claim of righteousness.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 15,
+          lines: [
             plain(12, 'Why doth thine heart carry thee away? and what do thy eyes wink at,'),
             plain(13, 'That thou turnest thy spirit against God, and lettest such words go out of thy mouth?'),
             plain(14, 'What is man, that he should be clean? and he which is born of a woman, that he should be righteous?'),
@@ -118,11 +142,35 @@ export const JOB_15: RichChapterContent = {
             plain(20, 'The wicked man travaileth with pain all his days, and the number of years is hidden to the tyrant.'),
             plain(21, 'A dreadful sound is in his ears: in prosperity the destroyer shall come upon him.'),
             plain(22, 'He believeth not that he shall return out of darkness, and he is waited for of the sword.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job15-split-3',
+          html:
+            'Eliphaz claims ancient wisdom—knowledge passed down from the fathers. The wicked man lives in constant pain and dread. Even in prosperity, he knows destruction comes. He has no hope of escape. The portrait is designed to frighten Job into submission.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 15,
+          lines: [
             plain(23, 'He wandereth abroad for bread, saying, Where is it? he knoweth that the day of darkness is ready at his hand.'),
             plain(24, 'Trouble and anguish shall make him afraid; they shall prevail against him, as a king ready to the battle.'),
             plain(25, 'For he stretcheth out his hand against God, and strengtheneth himself against the Almighty;'),
             plain(26, 'He runneth upon him, even on his neck, upon the thick bosses of his bucklers:'),
             plain(27, 'Because he covereth his face with his fatness, and maketh collops of fat upon his flanks;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job15-split-4',
+          html:
+            'The wicked man actively rebels—stretching out his hand against God, strengthening himself against the Almighty. He is not merely sinful; he is defiant. And this defiance brings him into direct conflict with God&apos;s power. He cannot win.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 15,
+          lines: [
             plain(28, 'And he dwelleth in desolate cities, and in houses which no man inhabiteth, which are ready to become heaps.'),
             plain(29, 'He shall not be rich, neither shall his substance continue: neither shall he prolong the perfection thereof upon the earth.'),
             plain(30, 'He shall not depart out of darkness; the flame shall dry up his branches, and by the breath of his mouth shall he be taken away.'),

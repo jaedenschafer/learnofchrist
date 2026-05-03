@@ -247,17 +247,53 @@ export const CHRONICLES_1_4: RichChapterContent = {
             plain(25, 'Shallum his son, Mibsam his son, Mishma his son.'),
             plain(26, 'And the sons of Mishma; Hamuel his son, Zacchur his son, Shimei his son.'),
             plain(27, 'And Shimei had sixteen sons and six daughters; but his brethren had not many children, neither did all the family of Judah multiply like to the children of Judah.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'c4-4-split-1',
+          html:
+            'The genealogy of Simeon opens: Nemuel, Jamin, Jarib, Zerah, Shaul down through Shallum, Mibsam, Mishma to Hamuel, Zacchur, and Shimei. Shimei had sixteen sons—yet verse 27 adds a crucial note: his brethren did not multiply like Judah. This is the echo of Jacob&apos;s curse: Simeon was diminished.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(28, 'And they dwelt at Beersheba, and Moladah, and Hazar-shual,'),
             plain(29, 'And at Bilhah, and at Ezem, and at Tolad,'),
             plain(30, 'And at Bethuel, and at Hormah, and at Ziklag,'),
             plain(31, 'And at Beth-marcaboth, and Hazar-susim, and at Beth-birei, and at Shaaraim. These were their cities unto the reign of David.'),
             plain(32, 'And their villages were, Etam, and Ain, Rimmon, and Tochen, and Ashan, five cities:'),
             plain(33, 'And all their villages that were round about the same cities, unto Baal. These were their habitations, and their genealogy.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'c4-4-split-2',
+          html:
+            'Despite the curse, Simeon had cities and villages. From Beersheba to Ziklag, they had territory. They had boundaries. They were not erased; they were scattered, but with places to dwell. Even diminishment carries provision.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(34, 'And Meshobab, and Jamlech, and Joshah the son of Amaziah,'),
             plain(35, 'And Joel, and Jehu the son of Joshibiah, the son of Seraiah, the son of Asiel,'),
             plain(36, 'And Elioenai, and Jaakobah, and Jeshohaiah, and Asaiah, and Adiel, and Jesimiel, and Benaiah,'),
             plain(37, 'And Ziza the son of Shiphi, the son of Allon, the son of Jedaiah, the son of Shimri, the son of Shemaiah;'),
             plain(38, 'These mentioned by their names were princes in their families: and the house of their fathers increased greatly.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'c4-4-split-3',
+          html:
+            'Named princes rose among Simeon: Meshobab, Jamlech, Joshah, Joel, Jehu, Elioenai, and others. Though scattered and fewer in number, they had leaders. Their "house of their fathers increased greatly." The tribe did not stay diminished forever.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(39, 'And they went to the entrance of Gedor, even unto the east side of the valley, to seek pasture for their flocks.'),
             plain(40, 'And they found fat pasture and good, and the land was wide, and quiet, and peaceable; for they of Ham had dwelt there of old.'),
             plain(41, 'And these written by name came in the days of Hezekiah king of Judah, and smote the tents of Ham, and the habitation of the Meunims, and destroyed them utterly unto this day, and dwelt in their rooms: because there was pasture there for their flocks.'),

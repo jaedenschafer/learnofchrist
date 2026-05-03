@@ -234,6 +234,18 @@ export const CHRONICLES_1_16: RichChapterContent = {
                 t('.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'c16-split-1',
+          html:
+            'The psalm opens by reminding Israel of their own small beginnings: "When ye were but few." God protected them as they wandered, reproved kings on their behalf, and kept His prophets safe. Then comes the shift in the psalm — a call to all creation: "Sing unto the Lord, all the earth." The particular story of Israel becomes a summons to universal worship. What God has done for one people, He calls all nations to recognize.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 16,
+          lines: [
             {
               number: 25,
               spans: [
@@ -246,6 +258,18 @@ export const CHRONICLES_1_16: RichChapterContent = {
             plain(27, 'Glory and honour are in his presence; strength and gladness are in his place.'),
             plain(28, 'Give unto the Lord, ye kindreds of the people, give unto the Lord glory and strength.'),
             plain(29, 'Give unto the Lord the glory due unto his name: bring an offering, come before him: worship the Lord in the beauty of holiness.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'c16-split-2',
+          html:
+            'At the theological heart of the psalm stands the declaration: "Great is the Lord, and greatly to be praised." He alone is truly God; all other gods are idols. In His presence dwells glory, honor, strength, and gladness. The call to give unto the Lord is a call to offer worship — not out of obligation, but as a joyful overflow of gratitude for His reign. The beauty of holiness — this is not severity but a radiance that draws the worshiper into a sacred space.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 16,
+          lines: [
             {
               number: 30,
               spans: [
@@ -256,6 +280,18 @@ export const CHRONICLES_1_16: RichChapterContent = {
             },
             plain(31, 'Let the sea roar, and the fulness thereof: let the fields rejoice, and all that is therein.'),
             plain(32, 'Then shall the trees of the wood sing out at the presence of the Lord, because he cometh to judge the earth.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'c16-split-3',
+          html:
+            'The psalm now ascends to a cosmic vision: all creation rejoices at God&apos;s reign. The heavens are glad, the earth rejoices, the sea roars, the fields are filled with joy, and the trees themselves sing. This is not poetry alone; it is a theology. When God reigns, order and stability flow through all things. Creation itself participates in the joy of His rule. And at the center of this cosmic rejoicing stands the proclamation: "The Lord reigneth."',
+        },
+        {
+          kind: 'scripture',
+          chapter: 16,
+          lines: [
             {
               number: 33,
               spans: [
@@ -267,6 +303,12 @@ export const CHRONICLES_1_16: RichChapterContent = {
             plain(34, 'Say ye, Save us, O God of our salvation, and gather us together, and deliver us from the heathen, that we may give thanks to thy holy name, and glory in thy praise.'),
             plain(35, 'Blessed be the Lord God of Israel for ever and ever. And all the people said, Amen, and praised the Lord.'),
           ],
+        },
+        {
+          kind: 'commentary',
+          id: 'c16-split-4',
+          html:
+            'The psalm closes where it opened: with a call to give thanks. "His mercy endureth for ever" — this is the refrain from Psalm 106, and it is the foundation of all praise. All the cosmic declarations, all the calls to rejoicing, all the proclamations of His reign rest on this single truth: God&apos;s mercy never fails. When the people hear this, they respond with a unified "Amen, and praised the Lord." The psalm becomes the people&apos;s prayer.',
         },
         {
           kind: 'commentary',

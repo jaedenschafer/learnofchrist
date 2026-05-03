@@ -83,11 +83,35 @@ export const ISAIAH_28: RichChapterContent = {
           lines: [
             plain(14, 'Wherefore hear the word of the Lord, ye scornful men, that rule this people which is in Jerusalem.'),
             plain(15, 'Because ye have said, We have made a covenant with death, and with hell are we at agreement; when the overflowing scourge shall pass through, it shall not come unto us: for we have made lies our refuge, and under falsehood have we hid ourselves:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa28-split-1',
+          html:
+            'The leaders have made "a covenant with death"—not a literal pact with evil, but trust in false security. They believe themselves safe through lies and falsehood. Yet their refuge will not hold. The judgment they have dismissed will come.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 28,
+          lines: [
             plain(16, 'Therefore thus saith the Lord God, Behold, I lay in Zion a stone, a tried stone, a precious corner stone, a sure foundation: he that believeth shall not make haste.'),
             plain(17, 'Judgment also will I lay to the line, and righteousness to the plummet: and the hail shall sweep away the refuge of lies, and the waters shall overflow the hiding place.'),
             plain(18, 'And your covenant with death shall be disannulled, and your agreement with hell shall not stand; when the overflowing scourge shall pass through, then ye shall be trodden down by it.'),
             plain(19, 'From the time that it goeth forth it shall take you: for morning by morning shall it pass over, by day and by night: and it shall be a vexation only to understand the report.'),
             plain(20, 'For the bed is shorter than that a man can stretch himself on it: and the covering narrower than that he can wrap himself in it.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'isa28-split-2',
+          html:
+            'Judgment comes relentlessly—"morning by morning." The people find themselves too small for their own bed, too constrained for their own covering. Their refuge proves inadequate. God&apos;s justice cannot be evaded.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 28,
+          lines: [
             plain(21, 'For the Lord shall rise up as in mount Perazim, he shall be wroth as in the valley of Gibeon, that he may do his work, his strange work; and bring to pass his act, his strange act.'),
             plain(22, 'Now therefore be ye not mockers, lest your bands be made strong: for I have heard from the Lord God of hosts a consumption, even determined upon the whole earth.'),
             plain(23, 'Give ye ear, and hear my voice; hearken, and hear my speech.'),

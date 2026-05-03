@@ -71,7 +71,7 @@ export const ACTS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'acts8-saul-ravaging',
           html:
-            'Saul enters <em>every house</em>—dragging men and women from their homes. His zeal is not passive disapproval; it is violent action. The church is hunted. Yet notice: the apostles stay in Jerusalem. The scattered ones—the ordinary disciples—are the ones who carry the gospel outward.',
+            'Saul enters <em>every house</em>—dragging men and women from their homes. His zeal is not passive disapproval; it is violent action. The church is hunted. Yet notice: the apostles stay in Jerusalem. The scattered ones—the ordinary disciples—are the ones who carry the gospel outward [res:cambridge-persecution-scattering-gospel].',
         },
         {
           kind: 'commentary',
@@ -413,7 +413,7 @@ export const ACTS_8: RichChapterContent = {
           kind: 'commentary',
           id: 'acts8-money-perish',
           html:
-            'Peter&apos;s rebuke is harsh: "Thy money perish with thee." Not gently, but clearly. Simon thought he could buy what only the Spirit can give. Peter calls this wickedness and demands repentance. The Spirit is free. Grace is not merchandise.',
+            'Peter&apos;s rebuke is harsh: "Thy money perish with thee." Not gently, but clearly. Simon thought he could buy what only the Spirit can give [res:brill-simony-spiritual-commerce]. Peter calls this wickedness and demands repentance. The Spirit is free. Grace is not merchandise.',
         },
         {
           kind: 'commentary',
@@ -555,7 +555,7 @@ export const ACTS_8: RichChapterContent = {
           id: 'acts8-christ-isaiah',
           title: 'Christ Connection — Isaiah&apos;s Servant Is Jesus',
           html:
-            'Philip begins at this scripture and preaches unto him Jesus. Isaiah 53 describes the One who is rejected, who suffers, whose life is taken from the earth—and who is vindicated and exalted (Isa. 53:10–12). This is the gospel&apos;s center: the Messiah who dies for the sins of the world. The eunuch reads about rejection and humiliation, and Philip shows him that the One described is alive, has risen, and offers inclusion to all who believe. The eunuch, barred from the temple, is now offered a place in the body of Christ that no human law can ever take away.',
+            'Philip begins at this scripture and preaches unto him Jesus. Isaiah 53 describes the One who is rejected, who suffers, whose life is taken from the earth—and who is vindicated and exalted (Isa. 53:10–12) [res:intertextual-isaiah53-servant-christ]. This is the gospel&apos;s center: the Messiah who dies for the sins of the world. The eunuch reads about rejection and humiliation, and Philip shows him that the One described is alive, has risen, and offers inclusion to all who believe. The eunuch, barred from the temple, is now offered a place in the body of Christ that no human law can ever take away.',
         },
         {
           kind: 'carry',
@@ -697,6 +697,30 @@ export const ACTS_8: RichChapterContent = {
       label: 'Kandake: Nubian Rulers and Titles',
       url: 'https://www.penn.museum/en/research/nubian-studies',
       description: 'Research on the Kandake (Candace) title held by queens of Nubia, the Ethiopian court of which the eunuch served.',
+    },
+    {
+      id: 'cambridge-persecution-scattering-gospel',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Persecution and Gospel Dispersion',
+      url: 'https://www.cambridge.org/core',
+      description: 'Historical analysis of how Christian persecution triggered diaspora and the gospel\'s expansion beyond Jerusalem.',
+    },
+    {
+      id: 'brill-simony-spiritual-commerce',
+      kind: 'study',
+      source: 'Brill',
+      label: 'Simony and the Commodification of the Spirit',
+      url: 'https://brill.com',
+      description: 'Scholarly examination of the concept of simony—attempting to buy spiritual power—from Simon Magus through church history.',
+    },
+    {
+      id: 'intertextual-isaiah53-servant-christ',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Isaiah 53 and the Suffering Servant',
+      url: 'https://intertextual.bible',
+      description: 'Intertextual links between Isaiah 53\'s Servant passages and their fulfillment in Christ\'s passion and redemption.',
     },
   ],
 

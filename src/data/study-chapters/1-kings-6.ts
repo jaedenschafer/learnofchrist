@@ -284,6 +284,18 @@ export const KINGS_1_6: RichChapterContent = {
                 t('And the oracle he prepared in the house within, to set there the ark of the covenant of the Lord.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'k6-split-1',
+          html:
+            'The walls, floor, and ceiling are paneled with cedar — a wood of fragrance and durability. The cedar boards are carved with knops (decorative buds) and open flowers. The entire inner surface speaks: there is no stone seen, only wood, only beauty, only the scent of the sanctuary. And in the midst of this ornate chamber, Solomon prepares a space — the oracle, the most holy place — where the ark of the covenant will rest.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             {
               number: 20,
               spans: [
@@ -304,6 +316,18 @@ export const KINGS_1_6: RichChapterContent = {
                 t('And the whole house he overlaid with gold, until he had finished all the house: also the whole altar that was by the oracle he overlaid with gold.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'k6-split-2',
+          html:
+            'The oracle is a perfect cube: twenty cubits in length, breadth, and height. And it is covered — completely covered — with pure gold. The altar, the walls, the partition separating the oracle from the outer chamber, even the chains that hold the doors — all overlaid with gold. This is not decoration; this is theological statement. Gold is eternal, incorruptible, precious beyond measure. The sanctuary is the place where the earthly meets the eternal, and its covering proclaims: here, heaven touches earth.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             {
               number: 23,
               spans: [
@@ -340,6 +364,18 @@ export const KINGS_1_6: RichChapterContent = {
                 t('And he overlaid the cherubims with gold.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'k6-split-3',
+          html:
+            'Two cherubim of olive wood stand within the oracle. Each is ten cubits high — as tall as the sanctuary itself. Their wingspans are precise: five cubits per wing, ten cubits from tip to tip. And they are positioned so that one wing of each touches the wall — the east wall, the west wall. Their inner wings meet in the very center of the room, above the ark of the covenant. The cherubim do not sit upon the ark; they form a throne above it, their wings creating a sacred space where heaven and earth meet. And they, too, are overlaid with gold.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             {
               number: 29,
               spans: [
@@ -353,6 +389,12 @@ export const KINGS_1_6: RichChapterContent = {
               ],
             },
           ],
+        },
+        {
+          kind: 'commentary',
+          id: 'k6-split-4',
+          html:
+            'The carvings cover every wall — cherubim standing guard, palm trees speaking of paradise, open flowers blooming in perpetual spring. The entire sanctuary is carved and covered: walls, floor, cherubim, all speaking the same language: holiness, beauty, the presence of the divine made visible in matter. And the floor itself is gold — the very ground upon which one walks in the holy place is precious, is eternal, is set apart. There is no corner of this space that is ordinary. Everything has been consecrated.',
         },
         {
           kind: 'commentary',

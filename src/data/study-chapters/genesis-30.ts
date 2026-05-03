@@ -539,6 +539,18 @@ export const GENESIS_30: RichChapterContent = {
                 t('; and the LORD hath blessed thee since my coming: and now when shall I provide for mine own house also?'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen30-split-1',
+          html:
+            'Jacob has made his case: your wealth grew because of God&apos;s blessing on my labor. Now comes the negotiation—not angry or demanding, but clear. Jacob knows his worth. He knows what he has done. And he is asking to keep what he builds going forward.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 30,
+          lines: [
             {
               number: 31,
               spans: [

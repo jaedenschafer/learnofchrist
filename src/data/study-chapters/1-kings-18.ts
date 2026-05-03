@@ -179,11 +179,29 @@ export const KINGS_1_18: RichChapterContent = {
             plain(33, 'And he put the wood in order, and cut the bullock in pieces, and laid him on the wood, and said, Fill four barrels with water, and pour it on the burnt sacrifice, and on the wood.'),
             plain(34, 'And he said, Do it the second time. And they did it the second time. And he said, Do it the third time. And they did it the third time.'),
             plain(35, 'And the water ran round about the altar; and he filled the trench also with water.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'k18-split-1',
+          html:
+            'Elijah first repairs the broken altar—a symbolic act of restoration. He uses twelve stones for the twelve tribes, creating a monument that speaks of Israel&apos;s original identity and covenant. He builds the altar, places the wood, cuts the bullock. Then—remarkably—he orders water poured on the sacrifice. Not once, but three times. In a land gripped by drought, where water is precious beyond measure, Elijah drenches the wood and the meat. The water runs around the altar, fills the trench. He is making the coming miracle inarguable: fire cannot easily consume wet wood. Only the power of God can.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             plain(36, 'And it came to pass at the time of the offering of the evening sacrifice, that Elijah the prophet came near, and said, Lord God of Abraham, Isaac, and of Israel, let it be known this day that thou art God in Israel, and that I am thy servant, and that I have done all these things at thy word.'),
             plain(37, 'Hear me, O Lord, hear me, that this people may know that thou art the Lord God, and that thou hast turned their heart back again.'),
             plain(38, 'Then the fire of the Lord fell, and consumed the burnt sacrifice, and the wood, and the stones, and the dust, and licked up the water that was in the trench.'),
             plain(39, 'And when all the people saw it, they fell on their faces: and they said, The Lord, he is the God; the Lord, he is the God.'),
           ],
+        },
+        {
+          kind: 'commentary',
+          id: 'k18-split-2',
+          html:
+            'Elijah&apos;s prayer before the fire falls contains no boasting, no self-glorification. "I am thy servant, and that I have done all these things at thy word." The prophet attributes everything to God&apos;s word, not his own power. He asks only that the people may know that the Lord is God and that their hearts might be turned back to Him. And then fire falls—consuming not only the sacrifice and the wood, but the stones themselves, and the dust, and even the water in the trench. Everything is consumed. There is no ambiguity. The people see what cannot be explained by natural means, and they fall on their faces, confessing: "The Lord, he is the God." The confession is repeated, urgent, decisive. Israel has remembered.',
         },
         {
           kind: 'commentary',
@@ -260,10 +278,28 @@ export const KINGS_1_18: RichChapterContent = {
             plain(41, 'And Elijah said unto Ahab, Get thee up, eat and drink; for there is a sound of abundance of rain.'),
             plain(42, 'So Ahab went up to eat and to drink. And Elijah went up to the top of Carmel; and he cast himself down upon the earth, and put his face between his knees;'),
             plain(43, 'And said to his servant, Go up now, look toward the sea. And he went up, and looked, and said, There is nothing. And he said, Go again seven times.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'k18-split-3',
+          html:
+            'After the fire falls and the people confess, Elijah orders the prophets of Baal taken to the brook Kishon and slain. Then he tells Ahab to eat and drink, for he hears the sound of abundance of rain. The drought is about to break. While Ahab descends the mountain to eat, Elijah goes to the top of Carmel and casts himself down upon the earth, his face between his knees—a posture of deep intercession. He is not standing in power. He is bowing in prayer. He sends his servant to look toward the sea, and the servant returns: nothing. Elijah sends him again. And again. Seven times.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 18,
+          lines: [
             plain(44, 'And it came to pass at the seventh time, that he said, Behold, there ariseth a little cloud out of the sea, like a man&apos;s hand: and he said, Go up, say unto Ahab, Prepare thy chariot, and get thee down, that the rain stop thee not.'),
             plain(45, 'And it came to pass in the mean while, that the heaven was black with clouds and wind, and there was a great rain. And Ahab rode, and went to Jezreel.'),
             plain(46, 'And the hand of the Lord was upon Elijah; and he girded up his loins, and ran before Ahab to the entrance of Jezreel.'),
           ],
+        },
+        {
+          kind: 'commentary',
+          id: 'k18-split-4',
+          html:
+            'On the seventh time, the servant sees it: a little cloud out of the sea, like a man&apos;s hand. So small you could cover it with your palm. Yet from this tiny cloud, the heavens break open. The rain comes in torrents. The sky, which has been silent for three years, finally speaks. Ahab flees in his chariot ahead of the deluge. And Elijah, the hand of the Lord upon him, girds up his loins and runs before the king to the entrance of Jezreel. The prophet moves with supernatural strength. The victory is complete. The land has water. The people have confessed. And the hand of the Lord is upon His servant.',
         },
         {
           kind: 'commentary',

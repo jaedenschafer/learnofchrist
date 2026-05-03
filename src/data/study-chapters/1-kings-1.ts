@@ -235,6 +235,18 @@ export const KINGS_1_1: RichChapterContent = {
                 t('Behold, while thou yet talkest there with the king, I also will come in after thee, and confirm thy words.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'k1-1-split-1',
+          html:
+            'Nathan moves quickly, approaching Bathsheba with an urgent plan. He does not frame this as his own ambition but as a matter of survival: unless they act, she and Solomon will be marked as traitors when Adonijah solidifies his hold. Nathan will be the second witness, the one who confirms Bathsheba&apos;s words. Together, they will remind David of his own oath — the promise he made when he was stronger and could bind his will more clearly.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             {
               number: 15,
               spans: [
@@ -277,6 +289,18 @@ export const KINGS_1_1: RichChapterContent = {
                 t('Otherwise it shall come to pass, when my lord the king shall sleep with his fathers, that I and my son Solomon shall be counted offenders.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'k1-1-split-2',
+          html:
+            'Bathsheba approaches with both humility and urgency. She bows and waits to be addressed. But when she speaks, she does not equivocate. She reminds David of his oath sworn "by the Lord thy God" — his own word, binding and holy. She describes the crisis plainly: Adonijah has taken the throne in fact if not yet in title. Solomon is not invited. And the eyes of all Israel are upon David. His silence will be interpreted as consent. If he does not speak, she and her son face death when he is gone.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             {
               number: 22,
               spans: [
@@ -314,6 +338,12 @@ export const KINGS_1_1: RichChapterContent = {
               ],
             },
           ],
+        },
+        {
+          kind: 'commentary',
+          id: 'k1-1-split-3',
+          html:
+            'As Bathsheba finishes, Nathan enters — a prophet bearing witness. He asks David a direct question, not as an accusation but as an appeal to David&apos;s own will: "Hast thou said, Adonijah shall be king?" He confirms what Bathsheba has reported — that Adonijah and his followers are feasting and crying "God save king Adonijah." He names those who were not invited: himself, Zadok, Benaiah, and Solomon. The implication is sharp: this usurpation was done without David&apos;s knowledge, without his consent. Nathan asks: Is this your will? Or will you speak?',
         },
         {
           kind: 'commentary',

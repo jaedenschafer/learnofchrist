@@ -100,12 +100,36 @@ export const JOB_41: RichChapterContent = {
             plain(17, 'They are joined one to another, they stick together, that they cannot be sundered.'),
             plain(18, 'By his neesings a light doth shine, and his eyes are like the eyelids of the morning.'),
             plain(19, 'Out of his mouth go burning lamps, and sparks of fire leap out.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job41-split-1',
+          html:
+            'God describes Leviathan not with horror but with what seems like appreciation—his beauty, his power, his terrible teeth and impenetrable scales. He glows with light. Fire leaps from his mouth. This is not a creature to be conquered. It is a creature to be beheld.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 41,
+          lines: [
             plain(20, 'Out of his nostrils goeth smoke, as out of a seething pot or caldron.'),
             plain(21, 'His breath kindleth coals, and a flame goeth out of his mouth.'),
             plain(22, 'In his neck remaineth strength, and sorrow is turned into joy before him.'),
             plain(23, 'The flakes of his flesh are joined together: they are firm in themselves; they cannot be moved.'),
             plain(24, 'His heart is as firm as a stone; yea, as hard as a piece of the nether millstone.'),
             plain(25, 'When he raiseth up himself, the mighty are afraid: by reason of breakings they purify themselves.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job41-split-2',
+          html:
+            'Leviathan breathes fire and smoke. His flesh is impenetrable. His heart is like stone—unmovable, unyielding. When he moves, the mighty fear him. They "purify themselves" in response to his presence. He evokes awe.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 41,
+          lines: [
             plain(26, 'The sword of him that layeth at him cannot hold: the spear, the dart, nor the habergeon.'),
             plain(27, 'He esteemeth iron as straw, and brass as rotten wood.'),
             plain(28, 'The arrow cannot make him flee: slingstones are turned with him into stubble.'),

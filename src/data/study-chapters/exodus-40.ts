@@ -117,6 +117,17 @@ export const EXODUS_40: RichChapterContent = {
             { number: 26, spans: [ t('And he put the golden altar in the tent of the congregation before the vail:') ] },
             { number: 27, spans: [ t('And he burnt sweet incense thereon; as the LORD commanded Moses.') ] },
             { number: 28, spans: [ t('And he set up the hanging at the door of the tabernacle.') ] },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'assembly-furniture',
+          html: 'The furniture goes in: table and lampstand flanking the altar of incense. Each piece in its place, each awaiting its service. The inner sanctuary is now complete.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 40,
+          lines: [
             { number: 29, spans: [ t('And he put the altar of burnt offering by the door of the tabernacle of the tent of the congregation, and offered upon it the burnt offering and the meat offering; as the LORD commanded Moses.') ] },
             { number: 30, spans: [ t('And he set the laver between the tent of the congregation and the altar, and put water there, to wash withal.') ] },
             { number: 31, spans: [ t('And Moses and Aaron and his sons washed their hands and their feet thereat:') ] },

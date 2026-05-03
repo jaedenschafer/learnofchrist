@@ -341,6 +341,17 @@ export const SAMUEL_2_23: RichChapterContent = {
                 t('He was more honourable than the thirty, but he attained not to the first three. And David set him over his guard.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 's23-three-mighty',
+          html: 'The three—Adino, Eleazar, Shammah—stand above all others. Then Abishai and Benaiah, legendary in their own right. These five names anchor the list: men whose feats are recorded, whose valor is named. They rose when others retreated.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             {
               number: 24,
               spans: [
@@ -431,6 +442,17 @@ export const SAMUEL_2_23: RichChapterContent = {
                 t('Ira an Ithrite, Gareb an Ithrite,'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 's23-thirty-names',
+          html: 'The roll of the thirty: each name carries its own weight, its own story. Thirty warriors, not as legendary as the three or five, but proven fighters who stood with David through years of wilderness and war. They are more than a list; they are a testimony.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 23,
+          lines: [
             {
               number: 39,
               spans: [

@@ -109,11 +109,35 @@ export const JOB_14: RichChapterContent = {
             plain(10, 'But man dieth, and wasteth away: yea, man giveth up the ghost, and where is he?'),
             plain(11, 'As the waters fail from the sea, and the flood decayeth and drieth up:'),
             plain(12, 'So man lieth down, and riseth not: till the heavens be no more, they shall not awake, nor be raised out of their sleep.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job14-split-1',
+          html:
+            'Nature offers a metaphor: a tree cut down will sprout again. But man dies and does not rise. He gives up his ghost—his breath, his spirit—and vanishes. The contrast is stark. Creation holds out hope for renewal; human death seems final.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 14,
+          lines: [
             plain(13, 'O that thou wouldest hide me in the grave, that thou wouldest keep me secret, until thy wrath be past, that thou wouldest appoint me a set time, and remember me!'),
             plain(14, 'If a man die, shall he live again? all the days of my appointed time will I wait, till my change come.'),
             plain(15, 'Thou shalt call, and I will answer thee: thou wilt have a desire to the work of thine hands.'),
             plain(16, 'For now thou numberest my steps: but do not thou keep watch over my sin.'),
             plain(17, 'My transgression is sealed up in a bag, and thou sewest up mine iniquity.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job14-split-2',
+          html:
+            'Yet Job imagines the grave not as oblivion but as a hiding place—a refuge where he might wait for God&apos;s wrath to pass, for a set time appointed by God. Then comes his central question: "If a man die, shall he live again?" The question itself is an answer. If he asks it, he believes in the possibility.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 14,
+          lines: [
             plain(18, 'And surely the mountain falling cometh to nought, and the rock is removed out of his place.'),
             plain(19, 'The waters wear the stones: thou washest away the things which grow out of the earth; and thou destroyest the hope of man.'),
             plain(20, 'Thou prevailest for ever against him, and he passeth: thou changest his countenance, and sendest him away.'),

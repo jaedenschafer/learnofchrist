@@ -116,11 +116,35 @@ export const JOB_13: RichChapterContent = {
             plain(17, 'Hear diligently my speech, and my declaration with your ears.'),
             plain(18, 'Behold now, I have ordered my cause; I know that I shall be justified.'),
             plain(19, 'Who is he that will plead with me? for now, if I hold my tongue, I shall give up the ghost.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job13-split-1',
+          html:
+            'Job &apos;takes his flesh in his teeth&apos;—an image of desperation and mortal peril. But from that edge he speaks his faith: "Though he slay me, yet will I trust in him." This is not faith because God will reward him. This is faith that persists into death itself, that does not require justification.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 13,
+          lines: [
             plain(20, 'Only do not two things unto me: then will I not hide myself from thee.'),
             plain(21, 'Withdraw thine hand far from me: and let not thy dread make me afraid.'),
             plain(22, 'Then call thou, and I will answer: or let me speak, and answer thou me.'),
             plain(23, 'How many are mine iniquities and sins? make me to know my transgression and my sin.'),
             plain(24, 'Wherefore hidest thou thy face, and holdest me for thine enemy?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job13-split-2',
+          html:
+            'Job sets two conditions for his willingness to face God: that God withdraw His hand, and that God&apos;s dread not make him afraid. If these are met, Job will not hide. He will plead. He will ask God directly for understanding.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 13,
+          lines: [
             plain(25, 'Wilt thou break a leaf driven to and fro? and wilt thou pursue the dry stubble?'),
             plain(26, 'For thou writest bitter things against me, and makest me to possess the iniquities of my youth.'),
             plain(27, 'Thou puttest my feet also in the stocks, and lookest narrowly unto all my paths; thou settest a print upon the heels of my feet.'),

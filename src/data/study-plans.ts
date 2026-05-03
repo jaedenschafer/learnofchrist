@@ -27,7 +27,7 @@ export const studyPlans: StudyPlan[] = [
     difficulty: 'beginner',
     category: 'Gospel Study',
     icon: '\u2728',
-    color: 'bg-amber-50',
+    color: 'frost-chip text-[color:var(--vesper-gold)]',
     days: [
       { day: 1, title: 'The Word Made Flesh', reading: 'John 1', readingLink: '/bible/john/1', focus: 'Jesus is the eternal Word who became human and dwelt among us. Consider what it means that God Himself entered our world.' },
       { day: 2, title: 'Water into Wine', reading: 'John 2', readingLink: '/bible/john/2', focus: 'Jesus performs His first miracle at a wedding in Cana and cleanses the temple. Notice how He reveals His glory through transformation.' },

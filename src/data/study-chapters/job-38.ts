@@ -96,18 +96,54 @@ export const JOB_38: RichChapterContent = {
             plain(13, 'That it might take hold of the ends of the earth, that the wicked might be shaken out of it?'),
             plain(14, 'It is turned as clay to the seal; and they stand as a garment.'),
             plain(15, 'And from the wicked their light is withholden, and the high arm shall be broken.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job38-split-1',
+          html:
+            'God asks: have you commanded the morning? The image is of the dawn shaping the earth like clay to a seal, like a garment settling on the body. The morning has been given ordinances—it knows its place. Have you given such ordinances? Can you?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 38,
+          lines: [
             plain(16, 'Hast thou entered into the springs of the sea? or hast thou walked in the search of the depth?'),
             plain(17, 'Have the gates of death been opened unto thee? or hast thou seen the doors of the shadow of death?'),
             plain(18, 'Hast thou perceived the breadth of the earth? declare if thou knowest it all.'),
             plain(19, 'Where is the way where light dwelleth? and as for darkness, where is the place thereof,'),
             plain(20, 'That thou shouldest take it to the bound thereof, and that thou shouldest know the paths to the house thereof?'),
             plain(21, 'Knowest thou it, because thou wast then born? or because the number of thy days is great?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job38-split-2',
+          html:
+            'The questions multiply. Springs of the sea. Gates of death. The breadth of the earth. Light and darkness. Each has a "way," an ordinance, a boundary that God has established. Job does not know these paths. He was not born then. His days, though long, are brief.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 38,
+          lines: [
             plain(22, 'Hast thou entered into the treasures of the snow? or hast thou seen the treasures of the hail,'),
             plain(23, 'Which I have reserved against the time of trouble, against the day of battle and war?'),
             plain(24, 'By what way is the light parted, which scattereth the east wind upon the earth?'),
             plain(25, 'Who hath divided a watercourse for the overflowing of waters, or a way for the lightning of the thunder;'),
             plain(26, 'To cause it to rain on the earth, where no man is; on the wilderness, wherein there is no man;'),
             plain(27, 'To satisfy the desolate and waste ground; and to cause the bud of the tender herb to spring forth?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job38-split-3',
+          html:
+            'God speaks of treasuries of snow and hail reserved for trouble and war. The rain falls on places where no one will see it or benefit from it. God orders creation not for human benefit alone, but according to purposes beyond human comprehension.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 38,
+          lines: [
             plain(28, 'Hath the rain a father? or who hath begotten the drops of the dew?'),
             plain(29, 'Out of whose womb cometh the ice? and the hoary frost of the heaven, who hath gendered it?'),
             plain(30, 'The waters are hid as with a stone, and the face of the deep is frozen.'),

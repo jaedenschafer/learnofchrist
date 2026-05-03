@@ -60,7 +60,7 @@ export const ACTS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'acts4-authorities',
           html:
-            'The authorities who arrest them represent power threatened. The priests and Sadducees are the establishment of first-century Jerusalem. The Sadducees especially deny resurrection, so a message of resurrection hits them at the center of their theology. They do not argue with Peter and John&apos;s claim; they simply arrest them. That is the response of power that has no answer.',
+            'The authorities who arrest them represent power threatened[res:iaa-jerusalem-sanhedrin-archaeology]. The priests and Sadducees are the establishment of first-century Jerusalem. The Sadducees especially deny resurrection, so a message of resurrection hits them at the center of their theology. They do not argue with Peter and John&apos;s claim; they simply arrest them. That is the response of power that has no answer.',
         },
         {
           kind: 'commentary',
@@ -169,7 +169,7 @@ export const ACTS_4: RichChapterContent = {
           id: 'acts4-cornerstone-psalm',
           title: 'Christ Connection — The Rejected Stone Made Head',
           html:
-            'Peter quotes Psalm 118:22 — the stone the builders rejected has become the cornerstone. The psalm refers to David, but in Peter&apos;s mouth it refers to Jesus. Rejected by the councils of Israel, condemned as worthless, Jesus becomes the chief cornerstone of salvation. The very ones trying to silence Peter are themselves enacting the psalm. They are the builders rejecting the stone. But the stone is unaffected. It becomes the head of the corner regardless of their verdict. "Thou art Peter, and upon this rock I will build my church" (Matt. 16:18).',
+            'Peter quotes Psalm 118:22 [res:sefaria-psalm118-cornerstone] — the stone the builders rejected has become the cornerstone. The psalm refers to David, but in Peter&apos;s mouth it refers to Jesus. Rejected by the councils of Israel, condemned as worthless, Jesus becomes the chief cornerstone of salvation. The very ones trying to silence Peter are themselves enacting the psalm. They are the builders rejecting the stone. But the stone is unaffected. It becomes the head of the corner regardless of their verdict. "Thou art Peter, and upon this rock I will build my church" (Matt. 16:18).',
         },
         {
           kind: 'commentary',
@@ -259,7 +259,7 @@ export const ACTS_4: RichChapterContent = {
           kind: 'commentary',
           id: 'acts4-been-with-jesus',
           html:
-            'This is the council&apos;s involuntary testimony. They cannot deny that a miracle has been done. So they make an observation instead: these men have been with Jesus. The council expected that association to end at the crucifixion. But it does not. Peter and John are not suddenly wise or powerful in themselves. They carry the power and presence of someone they have been with — Jesus, whom God raised from the dead.',
+            'This is the council&apos;s involuntary testimony[res:cambridge-apostolic-authority]. They cannot deny that a miracle has been done. So they make an observation instead: these men have been with Jesus. The council expected that association to end at the crucifixion. But it does not. Peter and John are not suddenly wise or powerful in themselves. They carry the power and presence of someone they have been with — Jesus, whom God raised from the dead.',
         },
         {
           kind: 'commentary',
@@ -631,6 +631,30 @@ export const ACTS_4: RichChapterContent = {
       label: 'Psalm 2:1–2 ↔ Acts 4:25–26',
       url: 'https://intertextual.bible/text/psalm-2.1/acts-4.25',
       description: 'Side-by-side comparison of the psalmist&apos;s vision of opposition to God&apos;s anointed with the early church&apos;s prayer.',
+    },
+    {
+      id: 'iaa-jerusalem-sanhedrin-archaeology',
+      kind: 'archaeology',
+      source: 'Israel Antiquities Authority',
+      label: 'Sanhedrin and Jerusalem Judicial Authority',
+      url: 'https://www.antiquities.org.il/',
+      description: 'Archaeological and administrative evidence for the Sanhedrin&apos;s authority and physical locations in Second Temple Jerusalem.',
+    },
+    {
+      id: 'cambridge-apostolic-authority',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Apostolic Authority and Witness in Acts',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly analysis of how the apostles&apos; claim to authority functions in their testimony before Jewish authorities.',
+    },
+    {
+      id: 'sefaria-psalm118-cornerstone',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Psalm 118:22 — The Rejected Stone',
+      url: 'https://sefaria.org/Psalms.118.22',
+      description: 'Hebrew text and rabbinic commentary on the cornerstone psalm Peter applies messianically to Jesus.',
     },
   ],
 

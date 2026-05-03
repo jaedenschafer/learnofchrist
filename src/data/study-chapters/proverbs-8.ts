@@ -41,6 +41,17 @@ export const PROVERBS_8: RichChapterContent = {
             plain(9, 'They are all plain to him that understandeth, and right to them that find knowledge.'),
             plain(10, 'Receive my instruction, and not silver; and knowledge rather than choice gold.'),
             plain(11, 'For wisdom is better than rubies; and all the things that may be desired are not to be compared to it.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov8-wisdom-cries-out',
+          html: 'Wisdom is not hidden. She cries out in every public place—the high places, the gates, the city entry. She calls to everyone without distinction. Her voice is for all people. And what does she claim? That she speaks truth, that her words are righteous, that her instruction is more valuable than silver or gold. To learn from her is to trade lesser treasure for greater.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(12, 'I wisdom dwell with prudence, and find out knowledge of witty inventions.'),
             plain(13, 'The fear of the Lord is to hate evil: pride, and arrogancy, and the evil way, and the froward mouth, do I hate.'),
             plain(14, 'Counsel is mine, and sound wisdom: I am understanding; I have strength.'),
@@ -52,6 +63,11 @@ export const PROVERBS_8: RichChapterContent = {
             plain(20, 'I lead in the way of righteousness, in the midst of the paths of judgment:'),
             plain(21, 'That I may cause those that love me to inherit substance; and I will fill their treasures.'),
           ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov8-wisdom-reigns',
+          html: 'Wisdom dwells with prudence. She claims counsel, strength, and cosmic authority: by her, kings reign. Legitimate power flows through wisdom. Those who love her find her. Those who seek her early are found by her in return. She brings not just riches but righteousness—substance that cannot be stolen, treasures that endure.',
         },
         {
           kind: 'commentary',

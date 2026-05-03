@@ -37,18 +37,45 @@ export const PROVERBS_15: RichChapterContent = {
             plain(4, 'A wholesome tongue is a tree of life: but frowardness therein is a breach in the spirit.'),
             plain(5, 'A fool despiseth his father&apos;s instruction: but he that regardeth reproof is prudent.'),
             plain(6, 'In the house of the righteous is much treasure: but in the revenues of the wicked is trouble.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov15-soft-answer-expanded',
+          html: 'Five proverbs on the power of gentleness and the reach of God. A soft answer stops conflict before it starts. Your words are either life or breach. The fool rejects his father&apos;s voice; the wise hear reproof. And God sees everything—not as threat, but as care. You are not hidden.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 15,
+          lines: [
             plain(7, 'The lips of the wise disperse knowledge: but the heart of the fools doeth not so.'),
             plain(8, 'The sacrifice of the wicked is an abomination to the Lord: but the prayer of the upright is his delight.'),
             plain(9, 'The way of the wicked is an abomination unto the Lord: but he loveth him that followeth after righteousness.'),
             plain(10, 'Correction is grievous unto him that forsaketh the way: and he that hateth reproof shall die.'),
             plain(11, 'Hell and destruction are before the Lord: how much more then the hearts of the children of men?'),
             plain(12, 'A scorner loveth not one that reproveth him: neither will he go unto the wise.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov15-god-sees-heart',
+          html: 'Six proverbs on what God accepts and what He abhors. The wise disperse knowledge; fools hoard it. The wicked&apos;s sacrifice is an abomination; the upright&apos;s prayer is His delight. God abhors the wicked&apos;s way but loves those who follow righteousness. The man who hates reproof is on a path to death. And the deepest truth: Hell and destruction are known to the Lord—how much more does He know the human heart?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 15,
+          lines: [
             plain(13, 'A merry heart maketh a cheerful countenance: but by sorrow of the heart the spirit is broken.'),
             plain(14, 'The heart of him that hath understanding seeketh knowledge: but the mouth of fools feedeth on foolishness.'),
             plain(15, 'All the days of the afflicted are evil: but he that is of a merry heart hath a continual feast.'),
             plain(16, 'Better is little with the fear of the Lord than great treasure and trouble therewith.'),
             plain(17, 'Better is a dinner of herbs where love is, than a stalled ox and hatred therewith.'),
           ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov15-heart-state',
+          html: 'Five proverbs on the condition of the heart and the actual wealth of a life. Joy manifests in the face; sorrow breaks the spirit. The wise seek knowledge; fools feed on stupidity. The afflicted see evil everywhere; the merry see a continual feast. Better poverty with the fear of God than riches with trouble. Better simple bread with love than elaborate meals with hatred. What you have inside is what you truly possess.',
         },
         {
           kind: 'commentary',
@@ -99,17 +126,44 @@ export const PROVERBS_15: RichChapterContent = {
             plain(21, 'Folly is joy to him that is destitute of wisdom: but a man of understanding walketh uprightly.'),
             plain(22, 'Without counsel purposes are disappointed: but in the multitude of counsellors they are established.'),
             plain(23, 'A man hath joy by the answer of his mouth: and a word spoken in due season, how good is it!'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov15-way-made-plain',
+          html: 'Six proverbs on the two paths and how to walk them. Wrath stirs up strife; patience stops it. The lazy see thorns; the righteous find the path clear. Wisdom makes the father glad; folly shames the mother. The fool enjoys his own stupidity; the wise walk upright. Plans fail without counsel; with counsel they stand. And a word spoken at the right time brings joy.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 15,
+          lines: [
             plain(24, 'The way of life is above to the wise, that he may depart from hell beneath.'),
             plain(25, 'The Lord will destroy the house of the proud: but he will establish the border of the widow.'),
             plain(26, 'The thoughts of the wicked are an abomination to the Lord: but the words of the pure are pleasant words.'),
             plain(27, 'He that is greedy of gain troubleth his own house; but he that hateth gifts shall live.'),
             plain(28, 'The heart of the righteous studieth to answer: but the mouth of the wicked poureth out evil things.'),
             plain(29, 'The Lord is far from the wicked: but he heareth the prayer of the righteous.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov15-lord-hears',
+          html: 'Six proverbs on divine judgment and care. The wise ascend to life; the foolish descend to hell. The proud&apos;s house is destroyed; the widow&apos;s border is established. The wicked&apos;s thoughts are abominations; the pure&apos;s words are pleasant to God. Greed destroys the house; restraint brings life. The righteous thinks before speaking; the wicked spills evil. And the Lord is far from the wicked but hears the righteous.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 15,
+          lines: [
             plain(30, 'The light of the eyes rejoiceth the heart: and a good report maketh the bones fat.'),
             plain(31, 'The ear that heareth the reproof of life abideth among the wise.'),
             plain(32, 'He that refuseth instruction despiseth his own soul: but he that heareth reproof getteth understanding.'),
             plain(33, 'The fear of the Lord is the instruction of wisdom; and before honour is humility.'),
           ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov15-humility-honor',
+          html: 'Four final proverbs close the chapter with the deepest wisdom. Good news brings joy and health. Listening to reproof keeps you among the wise. Refusing instruction wounds your own soul; receiving reproof brings understanding. And the final word: the fear of the Lord is the instruction of wisdom itself, and before honor comes humility. Not after. Before. This is the opposite of how the world teaches us to climb.',
         },
         {
           kind: 'commentary',

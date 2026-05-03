@@ -95,17 +95,44 @@ export const PROVERBS_11: RichChapterContent = {
             plain(19, 'As righteousness tendeth to life: so he that pursueth evil pursueth it to his own death.'),
             plain(20, 'They that are of a froward heart are abomination to the Lord: but such as are upright in their way are his delight.'),
             plain(21, 'Though hand join in hand, the wicked shall not be unpunished: but the seed of the righteous shall be delivered.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov11-mercy-cruelty',
+          html: 'Six proverbs on the fruit of your own character. Mercy does good to the merciful. Cruelty wounds the cruel in their own flesh. Righteousness tends to life. Evil tends to death. The Lord abhors the crooked heart but delights in the upright. Nothing stays hidden—what you sow, you reap.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             plain(22, 'As a jewel of gold in a swine&apos;s snout, so is a fair woman which is without discretion.'),
             plain(23, 'The desire of the righteous is only good: but the expectation of the wicked is wrath.'),
             plain(24, 'There is that scattereth, and yet increaseth; and there is that withholdeth more than is meet, but it tendeth to poverty.'),
             plain(25, 'The liberal soul shall be made fat: and he that watereth shall be watered also himself.'),
             plain(26, 'He that withholdeth corn, the people shall curse him: but blessing shall be upon the head of him that selleth it.'),
             plain(27, 'He that diligently seeketh good procureth favour: but he that seeketh mischief, it shall come unto him.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov11-generosity-paradox',
+          html: 'Six proverbs on generosity and hoarding. Beauty without discretion is wasted. The generous scatter and increase; the stingy hoard and grow poor. Those who give water are watered. Those who withhold are cursed. Seeking good brings favor; seeking mischief brings mischief. The pattern is consistent: give, and you receive. Hoard, and you lose.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             plain(28, 'He that trusteth in his riches shall fall: but the righteous shall flourish as a branch.'),
             plain(29, 'He that troubleth his own house shall inherit the wind: and the fool shall be servant to the wise of heart.'),
             plain(30, 'The fruit of the righteous is a tree of life; and he that winneth souls is wise.'),
             plain(31, 'Behold, the righteous shall be recompensed in the earth: much more the wicked and the sinner.'),
           ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov11-highest-work',
+          html: 'The chapter closes with four final sayings on trust and legacy. Trust riches and you fall. The righteous flourish like branches. To trouble your own house is to inherit nothing. But to win souls is the highest wisdom of all. And in the end, the righteous are rewarded, the wicked are recompensed. This is not arbitrary. It is the way the world is made.',
         },
         {
           kind: 'commentary',

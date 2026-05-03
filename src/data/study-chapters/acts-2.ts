@@ -80,7 +80,7 @@ export const ACTS_2: RichChapterContent = {
           script: 'γλῶσσα',
           translit: '<strong>glossa</strong> · tongue; language; speech',
           description:
-            'They speak in <em>glossai</em>—languages. Not ecstatic utterance alone, but intelligible speech in languages they have not learned. In a few verses we will hear men from fifteen different regions say, "We do hear them speak in our tongues the wonderful works of God." The Spirit breaks the barrier that sin created at Babel. The scattered languages are gathered back into unified witness.',
+            'They speak in <em>glossai</em>—languages[res:cambridge-early-church-glossolalia]. Not ecstatic utterance alone, but intelligible speech in languages they have not learned. In a few verses we will hear men from fifteen different regions say, "We do hear them speak in our tongues the wonderful works of God." The Spirit breaks the barrier that sin created at Babel. The scattered languages are gathered back into unified witness.',
         },
         {
           kind: 'christ',
@@ -205,7 +205,7 @@ export const ACTS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'acts2-peter-voice',
           html:
-            'This is the same Peter who, a few weeks before, denied he even knew Jesus. Three times he said, "I know not the man." Now he stands and <em>lifts up his voice</em>. Not in fear. Not in hiding. In boldness. The Spirit does not make him unafraid; it makes him sure. He knows himself to be a witness to the resurrection. That certainty is louder than any threat.',
+            'This is the same Peter who, a few weeks before, denied he even knew Jesus. Three times he said, "I know not the man." Now he stands and <em>lifts up his voice</em>[res:intf-peter-sermon-textual]. Not in fear. Not in hiding. In boldness. The Spirit does not make him unafraid; it makes him sure. He knows himself to be a witness to the resurrection. That certainty is louder than any threat.',
         },
         {
           kind: 'commentary',
@@ -476,7 +476,7 @@ export const ACTS_2: RichChapterContent = {
           kind: 'commentary',
           id: 'acts2-four-pillars',
           html:
-            'The early church is held up by four pillars: doctrine, fellowship, breaking of bread, and prayers. Not one of these stands alone. They teach the apostles&apos; doctrine—the living memory of Jesus&apos; words and acts. They are in fellowship—koinonia, sharing life together. They break bread—the Lord&apos;s Supper, remembering His sacrifice. They pray. These four practices wove them together into a community so strong that it could not be broken by persecution or fear.',
+            'The early church is held up by four pillars: doctrine, fellowship, breaking of bread, and prayers[res:brill-koinonia-community]. Not one of these stands alone. They teach the apostles&apos; doctrine—the living memory of Jesus&apos; words and acts. They are in fellowship—koinonia, sharing life together. They break bread—the Lord&apos;s Supper, remembering His sacrifice. They pray. These four practices wove them together into a community so strong that it could not be broken by persecution or fear.',
         },
         {
           kind: 'commentary',
@@ -564,6 +564,30 @@ export const ACTS_2: RichChapterContent = {
       label: 'Athenian Agora Excavations',
       url: 'https://agora.ascsa.net/',
       description: 'Archaeological excavations of Jerusalem temple precinct and pilgrimage routes — context for the diaspora pilgrims gathering at Pentecost.',
+    },
+    {
+      id: 'cambridge-early-church-glossolalia',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Glossolalia in the Early Church',
+      url: 'https://www.cambridge.org/',
+      description: 'Scholarly treatment of speaking in tongues as linguistic phenomenon and spiritual gift in apostolic witness.',
+    },
+    {
+      id: 'intf-peter-sermon-textual',
+      kind: 'manuscript',
+      source: 'INTF',
+      label: 'Peter&apos;s Pentecost Sermon (Acts 2:14–36) — Textual Tradition',
+      url: 'https://www.intf.uni-muenster.de/',
+      description: 'Institute for New Testament Textual Research; manuscript evidence and variant readings in Peter&apos;s proclamation of resurrection.',
+    },
+    {
+      id: 'brill-koinonia-community',
+      kind: 'study',
+      source: 'Brill',
+      label: 'Koinonia and Christian Community in Early Acts',
+      url: 'https://brill.com/',
+      description: 'Scholarly monograph on fellowship, shared meals, and the economics of the early Jerusalem church community.',
     },
   ],
 

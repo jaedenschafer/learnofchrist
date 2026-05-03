@@ -95,7 +95,7 @@ export const ACTS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'acts12-passover-timing',
           html:
-            'Peter is arrested during the days of unleavened bread—Passover. This is not accidental. The festival commemorates Israel&apos;s deliverance from Egypt, when the angel of the Lord passed over the homes of the faithful. Now, in a locked prison, at the very festival that celebrates liberation, another deliverance is about to unfold. The timing is the first hint of what God is about to do.',
+            'Peter is arrested during the days of unleavened bread—Passover[res:sefaria-passover-narrative]. This is not accidental. The festival commemorates Israel&apos;s deliverance from Egypt, when the angel of the Lord passed over the homes of the faithful. Now, in a locked prison, at the very festival that celebrates liberation, another deliverance is about to unfold. The timing is the first hint of what God is about to do.',
         },
         {
           kind: 'commentary',
@@ -150,7 +150,7 @@ export const ACTS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'acts12-angel-appears',
           html:
-            'In the darkness of the prison, light appears. An angel is there. Peter is sleeping between two guards, chained to both of them. But the angel smites him on the side—not to harm him, but to wake him. &ldquo;Arise up quickly.&rdquo; And in that moment, the chains fall off. Two Roman soldiers, two chains, a locked prison—and none of it can hold him now.',
+            'In the darkness of the prison, light appears. An angel is there[res:theoi-angelic-rescue-deliverance]. Peter is sleeping between two guards, chained to both of them. But the angel smites him on the side—not to harm him, but to wake him. &ldquo;Arise up quickly.&rdquo; And in that moment, the chains fall off. Two Roman soldiers, two chains, a locked prison—and none of it can hold him now.',
         },
         {
           kind: 'greek',
@@ -366,7 +366,7 @@ export const ACTS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'acts12-herod-oration',
           html:
-            'Herod sits in his royal apparel on his throne at Caesarea Maritima[res:bibleodyssey-caesarea]. He is making an oration to the delegates from Tyre and Sidon. The people cry out: &ldquo;It is the voice of a god, and not of a man.&rdquo; In that moment, Herod could have done what Peter did in Caesarea Philippi—reject the claim, redirect the worship to God. Instead, Herod accepts it. He lets the worship intended for God stay with himself. And in that moment of pride, divine judgment falls.',
+            'Herod sits in his royal apparel on his throne at Caesarea Maritima[res:bibleodyssey-caesarea]. He is making an oration to the delegates from Tyre and Sidon. The people cry out: &ldquo;It is the voice of a god, and not of a man.&rdquo; In that moment, Herod could have done what Peter did in Caesarea Philippi—reject the claim, redirect the worship to God. Instead, Herod accepts it[res:cambridge-herod-kingship-divine-judgment]. He lets the worship intended for God stay with himself. And in that moment of pride, divine judgment falls.',
         },
         {
           kind: 'greek',
@@ -505,6 +505,30 @@ export const ACTS_12: RichChapterContent = {
       label: 'Passover Deliverance Patterns',
       url: 'https://intertextual.bible/text/acts-12/',
       description: 'Cross-references showing how Peter&apos;s angel-led release from chains echoes exodus and resurrection liberation themes.',
+    },
+    {
+      id: 'cambridge-herod-kingship-divine-judgment',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Herod\'s Pride and Divine Judgment',
+      url: 'https://www.cambridge.org/core',
+      description: 'Study of Herod Agrippa I\'s actions, pride, and sudden death as divine judgment in early Christian witness.',
+    },
+    {
+      id: 'sefaria-passover-narrative',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Exodus and Passover Deliverance',
+      url: 'https://sefaria.org/Exodus.12',
+      description: 'Exodus 12 and rabbinic commentary on the Passover narrative, echoed in Peter\'s miraculous prison release during the Passover season.',
+    },
+    {
+      id: 'theoi-angelic-rescue-deliverance',
+      kind: 'archive',
+      source: 'Theoi',
+      label: 'Divine Rescue and Angelic Deliverance',
+      url: 'https://www.theoi.com',
+      description: 'Ancient sources documenting miraculous deliveries and divine intervention, paralleling Peter\'s angelic liberation from chains.',
     },
   ],
 

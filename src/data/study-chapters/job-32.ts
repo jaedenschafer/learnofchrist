@@ -91,11 +91,35 @@ export const JOB_32: RichChapterContent = {
             plain(8, 'But there is a spirit in man: and the inspiration of the Almighty giveth them understanding.'),
             plain(9, 'Great men are not always wise: neither do the aged understand judgment.'),
             plain(10, 'Therefore I said, Hearken to me; I also will shew mine opinion.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job32-split-1',
+          html:
+            'Elihu distinguishes between age and wisdom. He deferred out of respect, but he will not defer to falsehood. "There is a spirit in man"—not accumulated experience, but the inspiration of the Almighty—that gives understanding. The aged do not automatically understand judgment.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 32,
+          lines: [
             plain(11, 'Behold, I waited for your words; I gave ear to your reasons, whilst ye searched out what to say.'),
             plain(12, 'Yea, I attended unto you, and, behold, there was none of you that convinced Job, or that answered his words:'),
             plain(13, 'Lest ye should say, We have found out wisdom: God thrusteth him down, not man.'),
             plain(14, 'Now he hath not directed his words against me: neither will I answer him with your speeches.'),
             plain(15, 'They were amazed, they answered no more: they left off speaking.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job32-split-2',
+          html:
+            'Elihu watched the entire debate reach a stalemate. None of the friends could answer Job&apos;s words. They fell silent. And in that silence, Elihu sees something the others miss: the conversation itself has broken down. A fresh voice is needed.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 32,
+          lines: [
             plain(16, 'When I had waited, (for they spake not, but stood still, and answered no more;)'),
             plain(17, 'I said, I will answer also my part, I will shew mine opinion.'),
             plain(18, 'For I am full of matter, the spirit within me constraineth me.'),

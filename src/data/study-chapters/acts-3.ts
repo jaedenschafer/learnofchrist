@@ -87,7 +87,7 @@ export const ACTS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'acts3-carried',
           html:
-            'He is &ldquo;carried daily&rdquo;—not brought, but <em>carried</em>. The word emphasizes his total dependence. He cannot even get himself to his own begging spot. He is daily moved by others&apos; hands. It is a portrait of helplessness so complete that it seems permanent. Forty years at the gate. Forty years of the same view, the same question, the same answer: alms, not healing.',
+            'He is &ldquo;carried daily&rdquo;—not brought, but <em>carried</em>[res:met-temple-coins-jewish-pilgrimage]. The word emphasizes his total dependence. He cannot even get himself to his own begging spot. He is daily moved by others&apos; hands. It is a portrait of helplessness so complete that it seems permanent. Forty years at the gate. Forty years of the same view, the same question, the same answer: alms, not healing.',
         },
         {
           kind: 'greek',
@@ -222,7 +222,7 @@ export const ACTS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'acts3-praise',
           html:
-            'The formerly lame man is not silent. He praises God. The healing is not only physical—it is spiritual. His mouth opens. His voice joins the worshipping community. He is no longer a spectator at the gate but a participant in praise. He walks and leaps and praises, all at once. Healing and joy are inseparable.',
+            'The formerly lame man is not silent. He praises God[res:theoi-healing-ancient-greece]. The healing is not only physical—it is spiritual. His mouth opens. His voice joins the worshipping community. He is no longer a spectator at the gate but a participant in praise. He walks and leaps and praises, all at once. Healing and joy are inseparable.',
         },
         {
           kind: 'greek',
@@ -475,7 +475,7 @@ export const ACTS_3: RichChapterContent = {
           kind: 'commentary',
           id: 'acts3-blessing',
           html:
-            'The promise to Abraham was that in his seed all the families of the earth would be blessed. It was never meant to be only for Israel. It was always for all nations. Peter is expanding their vision. The God who blessed Abraham is the same God who is at work now, through Jesus, to bless not just this crowd but all nations. They are not the endpoint of the blessing. They are the gateway.',
+            'The promise to Abraham was that in his seed all the families of the earth would be blessed[res:intertextual-genesis-covenant]. It was never meant to be only for Israel. It was always for all nations. Peter is expanding their vision. The God who blessed Abraham is the same God who is at work now, through Jesus, to bless not just this crowd but all nations. They are not the endpoint of the blessing. They are the gateway.',
         },
         {
           kind: 'commentary',
@@ -540,6 +540,30 @@ export const ACTS_3: RichChapterContent = {
       label: 'Apokatastasis in Acts 3:21',
       url: 'https://www.intf.uni-muenster.de/',
       description: 'Institute for New Testament Textual Research; restoration / restitution terminology in early apostolic preaching.',
+    },
+    {
+      id: 'met-temple-coins-jewish-pilgrimage',
+      kind: 'museum',
+      source: 'Metropolitan Museum',
+      label: 'Temple Tax Coinage and Jewish Pilgrimage',
+      url: 'https://www.metmuseum.org/',
+      description: 'Numismatic and archaeological evidence for the temple worship system and pilgrimage economy in first-century Jerusalem.',
+    },
+    {
+      id: 'theoi-healing-ancient-greece',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Healing in Ancient Greek and Jewish Contexts',
+      url: 'https://www.theoi.com/',
+      description: 'Comparative study of miraculous healing narratives in Greco-Roman and Jewish literature as backdrop to apostolic signs.',
+    },
+    {
+      id: 'intertextual-genesis-covenant',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Genesis 12:3 ↔ Acts 3:25 — Covenant Blessing',
+      url: 'https://intertextual.bible/text/genesis-12.3/acts-3.25',
+      description: 'Cross-reference showing how Peter applies the Abrahamic covenant promise of blessing all nations to the risen Jesus.',
     },
   ],
 

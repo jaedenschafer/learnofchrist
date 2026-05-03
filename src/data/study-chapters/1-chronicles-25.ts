@@ -207,18 +207,54 @@ export const CHRONICLES_1_25: RichChapterContent = {
             plain(12, 'The fifth to Nethaniah, he, his sons, and his brethren, were twelve:'),
             plain(13, 'The sixth to Bukkiah, he, his sons, and his brethren, were twelve:'),
             plain(14, 'The seventh to Jesharelah, he, his sons, and his brethren, were twelve:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'c25-split-1',
+          html:
+            'The casting of lots begins. Joseph from Asaph&apos;s line draws the first lot; Gedaliah the second. The pattern is established: each leader, with his sons and brethren, leads a course of twelve musicians. The first six courses, drawn for Asaph&apos;s descendants and the early Heman-line musicians, set the rhythm of what will follow.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             plain(15, 'The eighth to Jeshaiah, he, his sons, and his brethren, were twelve:'),
             plain(16, 'The ninth to Mattaniah, he, his sons, and his brethren, were twelve:'),
             plain(17, 'The tenth to Shimei, he, his sons, and his brethren, were twelve:'),
             plain(18, 'The eleventh to Azareel, he, his sons, and his brethren, were twelve:'),
             plain(19, 'The twelfth to Hashabiah, he, his sons, and his brethren, were twelve:'),
             plain(20, 'The thirteenth to Shubael, he, his sons, and his brethren, were twelve:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'c25-split-2',
+          html:
+            'The eighth through thirteenth courses are drawn, continuing from Jeduthun&apos;s and Heman&apos;s lines. Each name has a story — Azareel, Hashabiah, Shubael — priests and musicians whose families will be woven into the fabric of Israel&apos;s worship. The repetition of "were twelve" is not monotonous; it is a kind of chant, a rhythm that sets all courses as equal in size and rank.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             plain(21, 'The fourteenth to Mattithiah, he, his sons, and his brethren, were twelve:'),
             plain(22, 'The fifteenth to Jeremoth, he, his sons, and his brethren, were twelve:'),
             plain(23, 'The sixteenth to Hananiah, he, his sons, and his brethren, were twelve:'),
             plain(24, 'The seventeenth to Joshbekashah, he, his sons, and his brethren, were twelve:'),
             plain(25, 'The eighteenth to Hanani, he, his sons, and his brethren, were twelve:'),
             plain(26, 'The nineteenth to Mallothi, he, his sons, and his brethren, were twelve:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'c25-split-3',
+          html:
+            'The middle courses — fourteen through nineteen — are drawn, continuing the catalog of Heman&apos;s prolific line. Joshbekashah, Hanani, Mallothi: these names appear in the genealogy of Heman&apos;s fourteen sons. The casting of lots distributes his lineage throughout the entire calendar of service, ensuring that no single family monopolizes the highest or most prestigious courses.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 25,
+          lines: [
             plain(27, 'The twentieth to Eliathah, he, his sons, and his brethren, were twelve:'),
             plain(28, 'The one and twentieth to Hothir, he, his sons, and his brethren, were twelve:'),
             plain(29, 'The two and twentieth to Giddalti, he, his sons, and his brethren, were twelve:'),
@@ -230,6 +266,12 @@ export const CHRONICLES_1_25: RichChapterContent = {
               ],
             },
           ],
+        },
+        {
+          kind: 'commentary',
+          id: 'c25-split-4',
+          html:
+            'The final five courses complete the cycle: Eliathah, Hothir, Giddalti, Mahazioth, and Romamtiezer. These are the last of Heman&apos;s sons to be appointed. Romamtiezer, whose name means "I have exalted help," draws the twenty-fourth lot — the last course, the end of the year. Yet he is not diminished by this; he, too, leads twelve musicians. The lot has spoken impartially, and all are honored equally.',
         },
         {
           kind: 'commentary',

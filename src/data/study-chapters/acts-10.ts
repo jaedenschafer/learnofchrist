@@ -39,7 +39,7 @@ export const ACTS_10: RichChapterContent = {
             verse(1,
               t('There was a certain man in Caesarea called '),
               hg('Cornelius', 'acts10-cornelius'),
-              t(', a centurion of the band called the Italian band,')
+              t(', a centurion of the band called the Italian band [res:met-roman-military-equipment],')
             ),
             verse(2,
               t('A '),
@@ -161,7 +161,7 @@ export const ACTS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'acts10-vision',
           html:
-            'A trance. The Spirit enters and opens his inner eye. Peter is lifted out of his ordinary consciousness, shown something that will break his oldest assumptions about what is clean and what is unclean. Note that he is hungry. His body is alive and awake. This is not a dream. It is a vision, and visions in Scripture are closer to reality than dreams.',
+            'A trance. The Spirit enters and opens his inner eye [res:theoi-visions-divine-voices]. Peter is lifted out of his ordinary consciousness, shown something that will break his oldest assumptions about what is clean and what is unclean. Note that he is hungry. His body is alive and awake. This is not a dream. It is a vision, and visions in Scripture are closer to reality than dreams.',
         },
         {
           kind: 'greek',
@@ -266,7 +266,7 @@ export const ACTS_10: RichChapterContent = {
           kind: 'commentary',
           id: 'acts10-lodged',
           html:
-            'Peter invites them in. He gives them a place to sleep. This is already an act of table-fellowship, a crossing of the boundary. Peter is beginning to obey before he fully understands. And in that obedience, he is learning.',
+            'Peter invites them in. He gives them a place to sleep. This is already an act of table-fellowship, a crossing of the boundary [res:cambridge-gentile-inclusion-boundaries]. Peter is beginning to obey before he fully understands. And in that obedience, he is learning.',
         },
         {
           kind: 'carry',
@@ -598,6 +598,30 @@ export const ACTS_10: RichChapterContent = {
       label: 'Acts 2:1–4 ↔ Acts 10:44–46',
       url: 'https://intertextual.bible/text/acts-2.1-4/acts-10.44-46',
       description: 'Side-by-side comparison of the Jewish Pentecost and the Gentile Pentecost—the same Spirit falling on both.',
+    },
+    {
+      id: 'cambridge-gentile-inclusion-boundaries',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Breaking Boundaries: Gentile Inclusion',
+      url: 'https://www.cambridge.org/core',
+      description: 'Historical analysis of how the early church overcame cultural and legal boundaries to include Gentile converts without circumcision.',
+    },
+    {
+      id: 'met-roman-military-equipment',
+      kind: 'museum',
+      source: 'Metropolitan Museum',
+      label: 'Roman Military Arms and Equipment',
+      url: 'https://www.metmuseum.org',
+      description: 'Museum collection of Roman military artifacts and equipment illustrating the rank and authority of Roman centurions like Cornelius.',
+    },
+    {
+      id: 'theoi-visions-divine-voices',
+      kind: 'archive',
+      source: 'Theoi',
+      label: 'Divine Visions and Heavenly Voices',
+      url: 'https://www.theoi.com',
+      description: 'Ancient sources on visionary experiences and divine voices, paralleling Peter\'s sheet vision and the voice calling him to eat unclean things.',
     },
   ],
 

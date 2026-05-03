@@ -126,9 +126,33 @@ export const CHRONICLES_1_1: RichChapterContent = {
             plain(14, 'The Jebusites also, and the Amorites, and the Girgashites,'),
             plain(15, 'And the Hivites, and the Arkites, and the Sinites,'),
             plain(16, 'And the Arvadites, and the Zemarites, and the Hamathites.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'c1-1-split-1',
+          html:
+            'The sons of Canaan listed here — Sidon, Heth, the Jebusites, Amorites, Girgashites, Hivites, Arkites, Sinites, Arvadites, Zemarites, Hamathites — are the very peoples that Israel will encounter in the conquest. They are named in the genealogy because they matter. God knows every nation.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(17, 'The sons of Shem; Elam, and Asshur, and Arphaxad, and Lud, and Aram, and Uz, and Hul, and Gether, and Meshech.'),
             plain(18, 'And Arphaxad begat Shelah, and Shelah begat Eber.'),
             plain(19, 'And unto Eber were born two sons: the name of the one was Peleg; for in his days the earth was divided: and his brother&apos;s name was Joktan.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'c1-1-split-2',
+          html:
+            'From Shem, the genealogy narrows. Shem to Arphaxad to Eber — and with Eber, we find the root of "Hebrew." His son Peleg means "division," and in his time the earth was divided, likely at Babel. But the covenant line does not break; it continues through Peleg.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 1,
+          lines: [
             plain(20, 'And Joktan begat Almodad, and Sheleph, and Hazarmaveth, and Jerah,'),
             plain(21, 'Hadoram also, and Uzal, and Diklah,'),
             plain(22, 'And Ebal, and Abimael, and Sheba,'),

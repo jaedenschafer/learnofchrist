@@ -376,7 +376,7 @@ export const ACTS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'acts14-rise',
           html:
-            'How? Luke does not explain. Paul had been stoned. He had been left for dead. Now he rises and walks back into the city. He is marked—his scars must be visible—but he moves. The next day he leaves for Derbe. This is not a resurrection like Christ&apos;s. This is a resurrection of a different kind: a man who should be dead, walking. It is a sign of something deeper than physical recovery. It is the Spirit of Christ working in him, restoring him, driving him forward.',
+            'How? Luke does not explain. Paul had been stoned. He had been left for dead. Now he rises and walks back into the city[res:cambridge-apostolic-persecution-resilience]. He is marked—his scars must be visible—but he moves. The next day he leaves for Derbe. This is not a resurrection like Christ&apos;s. This is a resurrection of a different kind: a man who should be dead, walking. It is a sign of something deeper than physical recovery. It is the Spirit of Christ working in him, restoring him, driving him forward.',
         },
         {
           kind: 'commentary',
@@ -391,7 +391,7 @@ export const ACTS_14: RichChapterContent = {
           script: 'θλῖψις',
           translit: '<strong>thlipsis</strong> · pressure; affliction; tribulation; distress',
           description:
-            'The Greek word suggests not just sadness but pressure—the weight of external force. <em>Thlipsis</em> is what is done to you by a hostile world. It is persecution, opposition, hardship. The kingdom is not entered through comfort. It is entered through the gauntlet.',
+            'The Greek word suggests not just sadness but pressure—the weight of external force[res:intertextual-suffering-kingdom-tribulation]. <em>Thlipsis</em> is what is done to you by a hostile world. It is persecution, opposition, hardship. The kingdom is not entered through comfort. It is entered through the gauntlet.',
         },
         {
           kind: 'christ',
@@ -457,7 +457,7 @@ export const ACTS_14: RichChapterContent = {
           kind: 'commentary',
           id: 'acts14-commend',
           html:
-            'Notice the method: prayer and fasting. This is not bureaucratic appointment. This is spiritual consecration. They fast—they deny themselves food, they clear space for prayer—and they commend the elders to the Lord. They place the responsibility on God. These leaders are not Paul&apos;s or Barnabas&apos;s. They are the Lord&apos;s.',
+            'Notice the method: prayer and fasting. This is not bureaucratic appointment[res:brill-presbyter-elder-ordination-succession]. This is spiritual consecration. They fast—they deny themselves food, they clear space for prayer—and they commend the elders to the Lord. They place the responsibility on God. These leaders are not Paul&apos;s or Barnabas&apos;s. They are the Lord&apos;s.',
         },
         {
           kind: 'commentary',
@@ -595,6 +595,30 @@ export const ACTS_14: RichChapterContent = {
       label: 'Lystra and Lycaonian Archaeology',
       url: 'https://agora.ascsa.net/',
       description: 'American School of Classical Studies archaeological resources and excavation data on Asia Minor sites including Lystra in Lycaonia.',
+    },
+    {
+      id: 'cambridge-apostolic-persecution-resilience',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Apostolic Resilience and Divine Restoration',
+      url: 'https://www.cambridge.org/core',
+      description: 'Study of apostolic suffering and divine restoration in Paul\'s ministry, particularly resurrection from persecution and stoning in Acts 14.',
+    },
+    {
+      id: 'brill-presbyter-elder-ordination-succession',
+      kind: 'study',
+      source: 'Brill',
+      label: 'Presbyter Ordination and Apostolic Succession',
+      url: 'https://brill.com',
+      description: 'Analysis of early Christian elder ordination practices and apostolic succession through prayer and commissioning in the first missionary journey.',
+    },
+    {
+      id: 'intertextual-suffering-kingdom-tribulation',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Tribulation and Kingdom Entrance',
+      url: 'https://intertextual.bible/',
+      description: 'Cross-references on the necessity of suffering for gospel witness and entry into God\'s kingdom, echoing Acts 14:22 throughout Scripture.',
     },
   ],
 

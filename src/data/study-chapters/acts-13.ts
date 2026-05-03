@@ -87,7 +87,7 @@ export const ACTS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'acts13-commissioning',
           html:
-            'The laying on of hands is an ancient sign of commissioning and blessing. When the church lays hands on Paul and Barnabas, they are placing themselves with these two. This is not a dismissal—it is a covenant. Those who remain will pray. Those who go will preach. The work belongs to all of them.',
+            'The laying on of hands is an ancient sign of commissioning and blessing[res:cambridge-apostolic-commissioning-mission]. When the church lays hands on Paul and Barnabas, they are placing themselves with these two. This is not a dismissal—it is a covenant. Those who remain will pray. Those who go will preach. The work belongs to all of them.',
         },
         {
           kind: 'christ',
@@ -202,7 +202,7 @@ export const ACTS_13: RichChapterContent = {
           kind: 'commentary',
           id: 'acts13-opposition',
           html:
-            'Opposition is not absent from the gospel. From the start, there are those who withstand it. Elymas sees his influence threatened. A proconsul interested in hearing the gospel is a proconsul no longer under the sorcerer&apos;s sway. The sorcerer does not argue—he tries to prevent the hearing of the word.',
+            'Opposition is not absent from the gospel. From the start, there are those who withstand it. Elymas sees his influence threatened[res:brill-sorcery-magic-opposition]. A proconsul interested in hearing the gospel is a proconsul no longer under the sorcerer&apos;s sway. The sorcerer does not argue—he tries to prevent the hearing of the word.',
         },
         {
           kind: 'christ',
@@ -214,7 +214,7 @@ export const ACTS_13: RichChapterContent = {
         {
           kind: 'carry',
           html:
-            'When opposition arises to the gospel—when someone tries to turn you away or keeps you from hearing the truth—it is usually because that truth threatens something they treasure. Elymas opposed not from conviction but from self-protection. Do not be surprised when the word disturbs those invested in deception.',
+            'When opposition arises to the gospel—when someone tries to turn you away or keeps you from hearing the truth—it is usually because that truth threatens something they treasure. Elymas opposed not from conviction but from self-protection[res:theoi-divine-judgment-blindness]. Do not be surprised when the word disturbs those invested in deception.',
         },
         {
           kind: 'reflection',
@@ -563,6 +563,30 @@ export const ACTS_13: RichChapterContent = {
       label: 'Saul / Paul Name Change',
       url: 'https://intertextual.bible/',
       description: 'Cross-reference study tool for tracing the name Saul to Paul throughout Scripture and understanding its theological significance.',
+    },
+    {
+      id: 'cambridge-apostolic-commissioning-mission',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'Commissioning and Apostolic Mission',
+      url: 'https://www.cambridge.org/core',
+      description: 'Study of laying on of hands and commissioning practices in early Christian communities and missionary sending.',
+    },
+    {
+      id: 'brill-sorcery-magic-opposition',
+      kind: 'study',
+      source: 'Brill',
+      label: 'Sorcery and Magic Opposition in Early Christianity',
+      url: 'https://brill.com',
+      description: 'Analysis of conflict between apostolic power and pagan sorcery, particularly Elymas the sorcerer\'s resistance to Paul\'s preaching.',
+    },
+    {
+      id: 'theoi-divine-judgment-blindness',
+      kind: 'archive',
+      source: 'Theoi',
+      label: 'Divine Judgment and Blindness in Antiquity',
+      url: 'https://www.theoi.com',
+      description: 'Ancient sources on divine striking of blindness as judgment, paralleling Paul\'s blinding of Elymas in Acts 13:11.',
     },
   ],
 };

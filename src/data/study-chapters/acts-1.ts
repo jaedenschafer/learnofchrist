@@ -57,7 +57,7 @@ export const ACTS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'acts1-beginning',
           html:
-            'Acts opens by naming itself as a continuation. Luke, the author, has already written a Gospel—the former treatise about what Jesus "began" to do and teach. But what Jesus began on earth, He continues from heaven. The resurrection is not the end of His work. It is the shift from visible to invisible, from earthly to cosmic. The disciples will soon learn that His power is not diminished by His absence, but multiplied through the Spirit.',
+            'Acts opens by naming itself as a continuation[res:intertextual-luke-acts-continuity]. Luke, the author, has already written a Gospel—the former treatise about what Jesus "began" to do and teach. But what Jesus began on earth, He continues from heaven. The resurrection is not the end of His work. It is the shift from visible to invisible, from earthly to cosmic. The disciples will soon learn that His power is not diminished by His absence, but multiplied through the Spirit.',
         },
         {
           kind: 'greek',
@@ -152,7 +152,7 @@ export const ACTS_1: RichChapterContent = {
           kind: 'commentary',
           id: 'acts1-witness',
           html:
-            'The mission geography is spelled out before any miracle happens. Jerusalem, Judaea, Samaria, the uttermost parts of the earth. The gospel does not stay put. It spreads outward in concentric circles, from the familiar to the foreign, from the comfortable to the dangerous. The disciples will soon see this pattern play out in their own lives—persecution scattering them, spreading the seed far from home.',
+            'The mission geography is spelled out before any miracle happens[res:penn-museum-apostles-witness]. Jerusalem, Judaea, Samaria, the uttermost parts of the earth. The gospel does not stay put. It spreads outward in concentric circles, from the familiar to the foreign, from the comfortable to the dangerous. The disciples will soon see this pattern play out in their own lives—persecution scattering them, spreading the seed far from home.',
         },
         {
           kind: 'christ',
@@ -463,6 +463,30 @@ export const ACTS_1: RichChapterContent = {
       label: 'Matthias',
       url: 'https://www.bibleodyssey.org/people/matthias/',
       description: 'The disciple chosen by lot to replace Judas and restore the apostolic college to twelve.',
+    },
+    {
+      id: 'penn-museum-apostles-witness',
+      kind: 'museum',
+      source: 'Penn Museum',
+      label: 'Apostolic Witness in the Hellenistic World',
+      url: 'https://www.penn.museum/',
+      description: 'Archaeological context for the apostles&apos; testimony across the Mediterranean world in the first century.',
+    },
+    {
+      id: 'sefaria-luke-gospel',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Luke&apos;s Gospel',
+      url: 'https://sefaria.org/Luke',
+      description: 'The Gospel of Luke in full text—the former treatise Luke mentions, providing narrative context for Acts&apos; continuation.',
+    },
+    {
+      id: 'intertextual-luke-acts-continuity',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Luke 1:1 ↔ Acts 1:1 — Gospel and Acts Continuity',
+      url: 'https://intertextual.bible/text/luke-1.1/acts-1.1',
+      description: 'Side-by-side comparison showing how Luke links his Gospel to Acts as a seamless two-part narrative.',
     },
   ],
 

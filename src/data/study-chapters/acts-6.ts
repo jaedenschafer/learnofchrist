@@ -80,7 +80,7 @@ export const ACTS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'acts6-neglected',
           html:
-            'Widows were among the most vulnerable in the ancient world. No social security, no pension, no husband to provide. The early church understood that care for widows was not optional, peripheral, or a lower form of ministry. It was central. To neglect them was to fail the gospel itself.',
+            'Widows were among the most vulnerable in the ancient world. No social security, no pension, no husband to provide. The early church understood that care for widows was not optional, peripheral, or a lower form of ministry [res:brill-widows-care-early-church]. It was central. To neglect them was to fail the gospel itself.',
         },
         {
           kind: 'carry',
@@ -152,7 +152,7 @@ export const ACTS_6: RichChapterContent = {
           kind: 'commentary',
           id: 'acts6-seven',
           html:
-            'Seven men. Not one. Not a hierarchy of deacons with a chief. Seven equals, each one full of the Holy Ghost and wisdom—the same qualifications that would apply to the apostles themselves. The church is affirming that those who serve the body materially are no less filled with the Spirit than those who serve it through word.',
+            'Seven men. Not one. Not a hierarchy of deacons with a chief. Seven equals, each one full of the Holy Ghost and wisdom—the same qualifications that would apply to the apostles themselves [res:cambridge-seven-deacons-diaconate]. The church is affirming that those who serve the body materially are no less filled with the Spirit than those who serve it through word.',
         },
         {
           kind: 'carry',
@@ -411,7 +411,7 @@ export const ACTS_6: RichChapterContent = {
           id: 'acts6-christ-martyr',
           title: 'Christ Connection — The Testimony of Martyrs',
           html:
-            'Stephen is about to follow Jesus to his death—not because he has lost the argument, but because the truth about Jesus makes power uncomfortable. Jesus was also accused of blasphemy. Jesus was also condemned on false testimony. But between the cross and the empty tomb, everything changed. The same power that silences one voice cannot silence the one Voice. Stephen&apos;s death becomes his resurrection. His blood will water the seed that grows into Paul.',
+            'Stephen is about to follow Jesus to his death—not because he has lost the argument, but because the truth about Jesus makes power uncomfortable. Jesus was also accused of blasphemy. Jesus was also condemned on false testimony [res:intertextual-stephen-testimony-martyrs]. But between the cross and the empty tomb, everything changed. The same power that silences one voice cannot silence the one Voice. Stephen&apos;s death becomes his resurrection. His blood will water the seed that grows into Paul.',
         },
         {
           kind: 'carry',
@@ -519,6 +519,30 @@ export const ACTS_6: RichChapterContent = {
       label: 'Angel Imagery in Second Temple Texts',
       url: 'https://dss.collections.imj.org.il/',
       description: 'Collection of Dead Sea Scrolls texts documenting theophanic experiences and angelic encounters in Jewish eschatology.',
+    },
+    {
+      id: 'brill-widows-care-early-church',
+      kind: 'study',
+      source: 'Brill',
+      label: 'Care of Widows in Early Christian Communities',
+      url: 'https://brill.com',
+      description: 'Scholarly monograph on the social and theological role of widow-care as foundational to apostolic community witness.',
+    },
+    {
+      id: 'cambridge-seven-deacons-diaconate',
+      kind: 'study',
+      source: 'Cambridge UP',
+      label: 'The Seven Deacons and Church Order',
+      url: 'https://www.cambridge.org/core',
+      description: 'Historical examination of the seven-deacon model as the origin of the formal diaconate and apostolic delegation.',
+    },
+    {
+      id: 'intertextual-stephen-testimony-martyrs',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Stephen\'s Martyrdom and Apostolic Witness',
+      url: 'https://intertextual.bible',
+      description: 'Intertextual analysis of Stephen\'s trial and death as a deliberate echo of Jesus\'s own trial, resurrection, and ascension.',
     },
   ],
 

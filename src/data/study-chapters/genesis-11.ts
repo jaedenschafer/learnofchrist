@@ -233,6 +233,18 @@ export const GENESIS_11: RichChapterContent = {
               number: 15,
               spans: [t('And Salah lived after he begat Eber four hundred and three years, and begat sons and daughters.')],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'gen11-split-1',
+          html:
+            'After Babel, from Shem to Salah—five generations of faithful descent. Then comes Eber, whose name means "the other side." He lived to see the language divide heal into a single family, a single line. Eber is the bridge between the scattered languages and the covenant to come.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             {
               number: 16,
               spans: [t('And Eber lived four and thirty years, and begat Peleg:')],

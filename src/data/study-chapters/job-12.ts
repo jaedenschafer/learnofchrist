@@ -109,11 +109,35 @@ export const JOB_12: RichChapterContent = {
             plain(11, 'Doth not the ear try words? and the mouth taste his meat?'),
             plain(12, 'With the ancient is wisdom; and in length of days understanding.'),
             plain(13, 'With him is wisdom and might: he hath counsel and understanding.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job12-split-1',
+          html:
+            'Job acknowledges a truth his friends cannot hear: God&apos;s hand has wrought all things. Every soul, every breath belongs to God. The ancient may possess wisdom, but where does that wisdom come from? God. With God is wisdom and might together—not wisdom that judges and condemns, but wisdom coupled with power.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             plain(14, 'Behold, he breaketh down, and it cannot be built again: he shutteth up a man, and there can be no opening.'),
             plain(15, 'Behold, he withholdeth the waters, and they dry up: also he sendeth them out, and they overturn the land.'),
             plain(16, 'With him is strength and wisdom: the deceived and the deceiver are his.'),
             plain(17, 'He leadeth counsellors away spoiled, and maketh the judges fools.'),
             plain(18, 'He looseth the bond of kings, and girdeth their loins with a girdle.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job12-split-2',
+          html:
+            'God&apos;s power is not benign. It breaks what cannot be rebuilt. It withholds and sends floods. Even deception and truth are in God&apos;s hand. God makes counselors foolish and kings powerless. This is wisdom not as comforting doctrine but as raw cosmic authority.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 12,
+          lines: [
             plain(19, 'He leadeth princes away spoiled, and overthroweth the mighty.'),
             plain(20, 'He removeth away the speech of the trusty, and taketh away the understanding of the aged.'),
             plain(21, 'He poureth contempt upon princes, and weakeneth the strength of the mighty.'),

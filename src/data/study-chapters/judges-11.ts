@@ -112,6 +112,17 @@ export const JUDGES_11: RichChapterContent = {
             plain(21, 'And the Lord God of Israel delivered Sihon and all his people into the hand of Israel, and they smote him: so Israel possessed all the land of the Amorites, the inhabitants of that country.'),
             plain(22, 'And they possessed all the coasts of the Amorites, from Arnon even unto Jabbok, and from the wilderness even unto Jordan.'),
             plain(23, 'So now the Lord God of Israel hath dispossessed the Amorites from before his people Israel, and shouldest thou possess it?'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'jud11-history-argument',
+          html: 'Jephthah recounts the history: Sihon refused passage, attacked first, and lost. The Lord delivered him into Israel&apos;s hand. Not theft, but divine judgment enacted through human hands. And Jephthah concludes: if God gave the land to Israel, why should Ammon have it now?',
+        },
+        {
+          kind: 'scripture',
+          chapter: 11,
+          lines: [
             plain(24, 'Wilt not thou possess that which Chemosh thy god giveth thee to possess? So whomsoever the Lord our God shall drive out from before us, them will we possess.'),
             plain(25, 'And now art thou any thing better than Balak the son of Zippor, king of Moab? did he ever strive against Israel, or did he ever fight against them,'),
             plain(26, 'Whiles Israel dwelt in Heshbon and her towns, and in Aroer and her towns, and in all the cities that be along by the coasts of Arnon, three hundred years? why therefore did ye not recover them within that time?'),

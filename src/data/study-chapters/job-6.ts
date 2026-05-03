@@ -261,6 +261,18 @@ export const JOB_6: RichChapterContent = {
                 t('For now ye are nothing; ye see my casting down, and are afraid.'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job6-split-1',
+          html:
+            'Job&apos;s friends are not silent—they are torrents that go dry when the heat comes. The brook that promised water in winter offers nothing in summer thirst. This is the grief of a man who counted on the wrong consolation.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             {
               number: 22,
               spans: [
@@ -289,6 +301,18 @@ export const JOB_6: RichChapterContent = {
               t('?'),
               ],
             },
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'job6-split-2',
+          html:
+            'Job has not asked for rescue or reward—only for understanding. His friends respond with argument. Yet truth weaponized becomes falsehood. Even right words become wrong when used as a cudgel against the wounded.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(26, 'Do ye imagine to reprove words, and the speeches of one that is desperate should be to the wind?'),
             plain(27, 'Yea, ye would even cast lots upon the fatherless, and dig a pit for your friend.'),
             {

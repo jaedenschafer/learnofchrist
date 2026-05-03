@@ -85,6 +85,17 @@ export const JOEL_2: RichChapterContent = {
             plain(16, 'Gather the people, sanctify the congregation, assemble the elders, gather the children, and those that suck the breasts: let the bridegroom go forth of his chamber, and the bride out of her closet.'),
             plain(17, 'Let the priests, the ministers of the Lord, weep between the porch and the altar, and let them say, Spare thy people, O Lord, and give not thine heritage to reproach, that the heathen should rule over them: wherefore should they say among the people, Where is their God?'),
             plain(18, 'Then will the Lord be jealous for his land, and pity his people.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'joel2-repent-response',
+          html: 'The call goes out: fast, weep, gather. The priests stand between the porch and the altar—the place of offering—and intercede. And God hears. His jealousy for His land awakens. His pity for His people moves Him.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             {
               number: 19,
               spans: [
@@ -99,6 +110,17 @@ export const JOEL_2: RichChapterContent = {
             plain(25, 'And I will restore to you the years that the locust hath eaten, the cankerworm, and the caterpiller, and the palmerworm, my great army which I sent among you.'),
             plain(26, 'And ye shall eat in plenty, and be satisfied, and praise the name of the Lord your God, that hath dealt wondrously with you: and my people shall never be ashamed.'),
             plain(27, 'And ye shall know that I am in the midst of Israel, and that I am the Lord your God, and none else: and my people shall never be ashamed.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'joel2-restore-plenty',
+          html: 'The promise is concrete: corn, wine, oil. Plenty. Satisfaction. The shame is removed. And more—the intimate knowledge: "I am in the midst of you." God&apos;s dwelling with His people is restored.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 2,
+          lines: [
             {
               number: 28,
               spans: [
