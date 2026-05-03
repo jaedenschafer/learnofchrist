@@ -4,12 +4,12 @@ import { hp, hy, hg, t, type RichChapterContent } from './types';
  * Judges 21 — The Final Chapter of Judges
  *
  * The book closes on a horror story of moral reasoning gone wrong. The men of
- * Israel had sworn they would not give their daughters to Benjamin[res:bibleodyssey-benjamin-preservation] as wives,
+ * Israel had sworn they would not give their daughters to Benjamin as wives,
  * yet they repented for Benjamin and sought to repair the tribe's near-extinction
  * through a massacre at Jabesh-gilead and the orchestrated abduction of young women
- * from a feast at Shiloh[res:sefaria-wives-shiloh]. Every attempt to fix a sin creates worse sins. And the
+ * from a feast at Shiloh. Every attempt to fix a sin creates worse sins. And the
  * chapter ends with the same refrain the book began with: "In those days there was
- * no king[res:intertextual-judges-ending-monarchy-ahead] in Israel: every man did that which was right in his own eyes."
+ * no king in Israel: every man did that which was right in his own eyes."
  *
  * The ground is prepared for the monarchy — and ultimately, for Christ the King.
  */
@@ -368,32 +368,4 @@ export const JUDGES_21: RichChapterContent = {
   },
 
   hasHebrew: true,
-,
-
-  resources: [
-    {
-      id: 'bibleodyssey-benjamin-preservation',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Preserving the Tribe of Benjamin',
-      url: 'https://www.bibleodyssey.org/passages/main-stories/judges',
-      description: 'Israel&apos;s effort to avoid the complete loss of a tribe.',
-    },
-    {
-      id: 'sefaria-wives-shiloh',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'The Solution: Wives from Shiloh',
-      url: 'https://www.sefaria.org/Judges.21',
-      description: 'The complex remedy to the devastation wrought by internal judgment.',
-    },
-    {
-      id: 'intertextual-judges-ending-monarchy-ahead',
-      kind: 'study',
-      source: 'Intertextual Bible',
-      label: 'The Need for a King',
-      url: 'https://intertextual.org/Judges/21',
-      description: 'How the judges era ends with a call for centralized authority and a king.',
-    },
-  ]
 };

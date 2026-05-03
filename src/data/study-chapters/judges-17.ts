@@ -3,7 +3,7 @@ import { hp, hy, hg, t, type RichChapterContent } from './types';
 /**
  * Judges 17 — Micah's Idolatry. The first chapter to mark the book's descent
  * into chaos. No king in Israel; every man does what is right in his own eyes.
- * A mother's stolen silver, a son's false shrine, a Levite[res:sefaria-micah-levite-priest] for hire — religion
+ * A mother's stolen silver, a son's false shrine, a Levite for hire — religion
  * as commodity, not grace.
  */
 export const JUDGES_17: RichChapterContent = {
@@ -63,7 +63,7 @@ export const JUDGES_17: RichChapterContent = {
         {
           kind: 'hebrew',
           id: 'hebrew-pesil',
-          title: 'Pesel — "graven image[res:bibleodyssey-micah-idol]"',
+          title: 'Pesel — "graven image"',
           script: 'פֶּסֶל',
           translit: '<strong>pesel</strong> · an object carved or hewn in stone or wood',
           description:
@@ -230,7 +230,7 @@ export const JUDGES_17: RichChapterContent = {
           kind: 'commentary',
           id: 'jdg17-levite-desc',
           html:
-            'A Levite was born to the tribe of Levi—set apart for sanctuary[res:intertextual-private-worship-corruption] service, for teaching the Law, for standing between God and the people. This Levite is from Bethlehem in Judah, and he is "sojourning"—traveling, looking for a place to settle, looking for work. He is displaced and vulnerable.',
+            'A Levite was born to the tribe of Levi—set apart for sanctuary service, for teaching the Law, for standing between God and the people. This Levite is from Bethlehem in Judah, and he is "sojourning"—traveling, looking for a place to settle, looking for work. He is displaced and vulnerable.',
         },
         {
           kind: 'hebrew',
@@ -427,32 +427,4 @@ export const JUDGES_17: RichChapterContent = {
   },
 
   hasHebrew: true,
-,
-
-  resources: [
-    {
-      id: 'bibleodyssey-micah-idol',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Micah&apos;s Graven Image',
-      url: 'https://www.bibleodyssey.org/passages/main-stories/judges',
-      description: 'Private idolatry and the erosion of covenant faithfulness.',
-    },
-    {
-      id: 'sefaria-micah-levite-priest',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Micah and the Wandering Levite',
-      url: 'https://www.sefaria.org/Judges.17',
-      description: 'The confusion of priesthood and the loss of centralized worship.',
-    },
-    {
-      id: 'intertextual-private-worship-corruption',
-      kind: 'study',
-      source: 'Intertextual Bible',
-      label: 'When Worship Becomes Personal Preference',
-      url: 'https://intertextual.org/Judges/17',
-      description: 'The dangerous shift from covenant obedience to convenience and custom.',
-    },
-  ]
 };

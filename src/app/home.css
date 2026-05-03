@@ -87,6 +87,9 @@ html[data-reader-theme="dark"] {
 }
 
 /* ── Frost CARD — large rounded surface (28px radius) ─────────────────── */
+/* Mirrors the globals.css definition. Kept in sync so loading order
+   doesn't drop the default padding for any direct .frost-card usage on
+   the home page. */
 .frost-card {
   position: relative;
   background: var(--frost-tint-card);
@@ -94,6 +97,7 @@ html[data-reader-theme="dark"] {
   backdrop-filter: var(--frost-blur-card);
   border: 1px solid var(--frost-border-card);
   border-radius: 28px;
+  padding: clamp(1.25rem, 2.4vw, 1.75rem);
   color: var(--frost-text);
   isolation: isolate;
 }

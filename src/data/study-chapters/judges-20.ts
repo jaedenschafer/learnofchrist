@@ -7,7 +7,7 @@ export const JUDGES_20: RichChapterContent = {
 
   estimatedMinutes: { beginner: 2, intermediate: 5, deep: 7 },
   intros: [
-    'The horror at Gibeah has shattered Israel[res:sefaria-tribal-military-justice]\'s fragile unity. Now all twelve tribes march as one — not to conquer an enemy, but to wage civil war[res:intertextual-self-judgment-failure] against their own brother Benjamin[res:bibleodyssey-israelite-war-gibeah]. The violence that follows will nearly extinguish an entire tribe and mark the moral collapse of the judges era.',
+    'The horror at Gibeah has shattered Israel\'s fragile unity. Now all twelve tribes march as one — not to conquer an enemy, but to wage civil war against their own brother Benjamin. The violence that follows will nearly extinguish an entire tribe and mark the moral collapse of the judges era.',
     'Watch how God allows two crushing defeats before granting victory. Even righteous causes require humility. And witness the deepest wound: brothers fighting brothers in a war that leaves 65,000 dead. This is Israel\'s mirror of Cain and Abel — and only Christ can heal it.',
   ],
 
@@ -231,32 +231,6 @@ export const JUDGES_20: RichChapterContent = {
   },
 
   hasHebrew: true,
-,
-
-  resources: [
-    {
-      id: 'bibleodyssey-israelite-war-gibeah',
-      kind: 'study',
-      source: 'Bible Odyssey',
-      label: 'Israel Fights Against Benjamin',
-      url: 'https://www.bibleodyssey.org/passages/main-stories/judges',
-      description: 'Civil war and the attempt to purge evil from within the tribe.',
-    },
-    {
-      id: 'sefaria-tribal-military-justice',
-      kind: 'study',
-      source: 'Sefaria',
-      label: 'Justice Through Tribal Warfare',
-      url: 'https://www.sefaria.org/Judges.20',
-      description: 'The mobilization of Israel against one of its own tribes.',
-    },
-    {
-      id: 'intertextual-self-judgment-failure',
-      kind: 'study',
-      source: 'Intertextual Bible',
-      label: 'Internal Judgment and the Decline of Judges',
-      url: 'https://intertextual.org/Judges/20',
-      description: 'How the judges era culminates in near-tribal annihilation.',
-    },
-  ]
 };
+
+export default JUDGES_20;
