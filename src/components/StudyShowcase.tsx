@@ -41,7 +41,7 @@ const CARDS: ShowcaseCard[] = [
     n: '03',
     eyebrow: 'Depths and academic resources',
     title: 'Read in five minutes or five hours.',
-    body: 'Toggle between Quick Read, Standard Study, and Deep Dive. Cite Hebrew lexicons, manuscript variants, and church-father commentary at every level.',
+    body: 'Toggle between Quick, Standard, and Deep. Cite Hebrew lexicons, manuscript variants, and church-father commentary at every level.',
     cta: { href: '/study', label: 'Browse study guides' },
     visual: 'depth',
   },
@@ -133,13 +133,13 @@ function ShowcaseVisual({ kind }: { kind: ShowcaseCard['visual'] }) {
     return (
       <div className="loc-mock loc-mock--depth">
         <div className="loc-mock__depth-row">
-          <span className="loc-mock__depth-pill">Quick read · 5 min</span>
+          <span className="loc-mock__depth-pill">Quick · 5 min</span>
         </div>
         <div className="loc-mock__depth-row">
-          <span className="loc-mock__depth-pill is-active">Standard study · 18 min</span>
+          <span className="loc-mock__depth-pill is-active">Standard · 18 min</span>
         </div>
         <div className="loc-mock__depth-row">
-          <span className="loc-mock__depth-pill">Deep dive · 1 hr</span>
+          <span className="loc-mock__depth-pill">Deep · 1 hr</span>
         </div>
         <p className="loc-mock__depth-foot">
           + manuscript variants &middot; lexicon &middot; church fathers

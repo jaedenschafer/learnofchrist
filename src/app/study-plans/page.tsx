@@ -14,11 +14,8 @@ export const metadata = {
   },
 };
 
-const difficultyColors: Record<string, string> = {
-  beginner: 'pill-sage',
-  intermediate: 'pill-gold',
-  advanced: 'pill',
-};
+// Difficulty pills (Beginner / Intermediate / Advanced) were removed —
+// they implied a judgment about the reader. Duration is enough.
 
 export default function StudyPlansPage() {
   const plans = getAllStudyPlans();
@@ -45,9 +42,6 @@ export default function StudyPlansPage() {
                     <span className="text-[0.65rem] font-semibold text-gold uppercase tracking-wide">{plan.duration}</span>
                     <span className="text-navy/20">|</span>
                     <span className="text-[0.65rem] font-semibold text-navy/40 uppercase tracking-wide">{plan.category}</span>
-                    <span className={difficultyColors[plan.difficulty] || 'pill'}>
-                      {plan.difficulty}
-                    </span>
                   </div>
                   <p className="text-sm text-navy/50 leading-relaxed mb-1">{plan.description}</p>
                   <p className="text-xs text-navy/35 mb-4">{plan.days.length} daily readings</p>

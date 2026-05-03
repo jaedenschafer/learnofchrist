@@ -32,11 +32,9 @@ export async function generateMetadata({ params }: StudyPlanPageProps) {
   };
 }
 
-const difficultyLabel: Record<string, string> = {
-  beginner: 'Beginner',
-  intermediate: 'Intermediate',
-  advanced: 'Advanced',
-};
+// Difficulty labels were removed — calling a plan "Beginner" implies a
+// judgment about the reader. Duration + category already convey commitment
+// without ranking people.
 
 export default async function StudyPlanPage({ params }: StudyPlanPageProps) {
   const { id } = await params;
@@ -71,7 +69,6 @@ export default async function StudyPlanPage({ params }: StudyPlanPageProps) {
                 <span className="text-[0.65rem] font-semibold text-gold uppercase tracking-wide">{plan.duration}</span>
                 <span className="text-navy/20">|</span>
                 <span className="text-[0.65rem] font-semibold text-navy/40 uppercase tracking-wide">{plan.category}</span>
-                <span className="pill-sage">{difficultyLabel[plan.difficulty]}</span>
               </div>
             </div>
           </div>
