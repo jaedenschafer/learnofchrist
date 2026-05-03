@@ -24,9 +24,9 @@ export const ACTS_25: RichChapterContent = {
 
   estimatedMinutes: { beginner: 8, intermediate: 13, deep: 17 },
   intros: [
-    'Festus inherits a case that Felix left unresolved. Paul has languished in Caesarea for two years, and the chief priests have not forgotten him. They press the new governor immediately, asking him to send Paul to Jerusalem — but the request masks a darker plan: they will ambush him on the road and kill him. Festus refuses, and the trial resumes at Caesarea. The chief priests bring their accusations. Paul stands and answers them. And then comes the moment that will change everything: Paul, facing a governor who is trying to appease the Jews, makes an appeal that reaches beyond Caesarea, beyond Festus, all the way to Rome itself.',
-    'The appeal is "I appeal unto Caesar" — a right that every Roman citizen possessed. In that instant, the case passes out of Festus&apos;s hands. Paul will go to Rome, unaware that Christ has already told him he would bear witness there (Acts 23:11). Even his enemies, unwittingly, become the servants of Christ&apos;s will.',
-    'When King Agrippa II and his sister Bernice arrive to pay their respects to the new procurator, Festus sees an opportunity. He lays the case before them — a man accused of nothing concrete, yet pressed on all sides by the Jewish council. Agrippa becomes curious. He asks to hear Paul himself. The next day Paul is presented before Agrippa "with great pomp" — and in that moment, a prisoner in chains stands before a king in all his splendor, and yet the chains are on the wrong man.',
+    'Festus[res:topostext-festus-caesarea] inherits a case that Felix left unresolved. Paul has languished in Caesarea for two years, and the chief priests have not forgotten him. They press the new governor immediately, asking him to send Paul to Jerusalem — but the request masks a darker plan: they will ambush him on the road and kill him. Festus refuses, and the trial resumes at Caesarea. The chief priests bring their accusations. Paul stands and answers them. And then comes the moment that will change everything: Paul, facing a governor who is trying to appease the Jews, makes an appeal that reaches beyond Caesarea, beyond Festus, all the way to Rome itself.',
+    'The appeal is "I appeal unto Caesar"[res:intertextual-provocatio-appeal] — a right that every Roman citizen possessed. In that instant, the case passes out of Festus&apos;s hands. Paul will go to Rome, unaware that Christ has already told him he would bear witness there (Acts 23:11). Even his enemies, unwittingly, become the servants of Christ&apos;s will.',
+    'When King Agrippa II and his sister Bernice[res:bibleodyssey-herod-agrippa] arrive to pay their respects to the new procurator, Festus sees an opportunity. He lays the case before them — a man accused of nothing concrete, yet pressed on all sides by the Jewish council. Agrippa becomes curious. He asks to hear Paul himself. The next day Paul is presented before Agrippa "with great pomp" — and in that moment, a prisoner in chains stands before a king in all his splendor, and yet the chains are on the wrong man.',
   ],
 
   sections: [
@@ -431,6 +431,33 @@ export const ACTS_25: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 25 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-herod-agrippa',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Herod Agrippa II and Bernice',
+      url: 'https://www.bibleodyssey.org/dictionary/',
+      description: 'Open-access SBL scholarly entries on Herod Agrippa II, the last Judean king, and his sister Bernice, key figures in Acts 25&apos;s trial scene.',
+    },
+    {
+      id: 'topostext-festus-caesarea',
+      kind: 'archive',
+      source: 'ToposText',
+      label: 'Porcius Festus, Caesarea Maritima, and Roman Governance',
+      url: 'https://topostext.org/',
+      description: 'Gazetteer of ancient places with Josephus and classical sources on Caesarea Maritima as the Roman procuratorial seat in Judea.',
+    },
+    {
+      id: 'intertextual-provocatio-appeal',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Roman Provocatio (Appeal to Caesar) in Acts 25',
+      url: 'https://intertextual.bible/',
+      description: 'Contextual Bible study resource on Paul&apos;s invocation of provocatio, the Roman citizen&apos;s right to appeal to the emperor.',
+    },
+  ],
 
   hasHebrew: false,
 };

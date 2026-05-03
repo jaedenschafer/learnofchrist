@@ -83,7 +83,7 @@ export const ACTS_22: RichChapterContent = {
           kind: 'commentary',
           id: 'acts22-tarsus',
           html:
-            'Tarsus was no backwater. It was a Hellenistic city of learning and commerce—yet Paul identifies himself first as a Jew. His birthplace gives him standing among the Gentiles; his identity as a Jew gives him standing before this crowd. He is not claiming to be more Jewish than he is, and he is not hiding his Gentile connections. He is simply telling the truth: this is who I am.',
+            'Tarsus was no backwater. It was a Hellenistic city of learning and commerce[res:bibleodyssey-tarsus]—yet Paul identifies himself first as a Jew. His birthplace gives him standing among the Gentiles; his identity as a Jew gives him standing before this crowd. He is not claiming to be more Jewish than he is, and he is not hiding his Gentile connections. He is simply telling the truth: this is who I am.',
         },
         {
           kind: 'greek',
@@ -181,7 +181,7 @@ export const ACTS_22: RichChapterContent = {
           kind: 'commentary',
           id: 'acts22-light',
           html:
-            'Light. The same word Jesus used in Acts 9: "more bright than the sun." Paul retells it here, and the crowd hears the echo of resurrection power. Not a vision. Not a dream. A light that knocked him off his horse, that blinded him, that could not be explained away. The barrier between heaven and earth opened, and Paul was struck down by it.',
+            'Light. The same word Jesus used in Acts 9: "more bright than the sun."[res:intertextual-damascus-road] Paul retells it here, and the crowd hears the echo of resurrection power. Not a vision. Not a dream. A light that knocked him off his horse, that blinded him, that could not be explained away. The barrier between heaven and earth opened, and Paul was struck down by it.',
         },
         {
           kind: 'christ',
@@ -438,7 +438,7 @@ export const ACTS_22: RichChapterContent = {
           kind: 'commentary',
           id: 'acts22-scourging',
           html:
-            'The Roman commander does not fully understand what the uproar is about. In his mind, a prisoner provoking a riot is guilty of something. The solution is interrogation by scourging—the standard Roman practice to extract information. But Roman law protected Roman citizens from this treatment. Paul is about to be whipped when he speaks.',
+            'The Roman commander does not fully understand what the uproar is about. In his mind, a prisoner provoking a riot is guilty of something. The solution is interrogation by scourging—the standard Roman practice to extract information[res:theoi-roman-law]. But Roman law protected Roman citizens from this treatment. Paul is about to be whipped when he speaks.',
         },
         {
           kind: 'greek',
@@ -447,7 +447,7 @@ export const ACTS_22: RichChapterContent = {
           script: 'πολίτης',
           translit: '<strong>politēs</strong> · a citizen; one who possesses legal citizenship',
           description:
-            'Roman citizenship was not a birthright for most people. It was purchased, inherited, or granted. The value of Paul&apos;s confession—"I was free born"—is that he did not buy it; he inherited it from his father. This legal status, which seemed irrelevant moments before, is now the barrier between him and the scourging.',
+            'Roman citizenship was not a birthright for most people. It was purchased, inherited, or granted[res:bibleodyssey-roman-citizen]. The value of Paul&apos;s confession—"I was free born"—is that he did not buy it; he inherited it from his father. This legal status, which seemed irrelevant moments before, is now the barrier between him and the scourging.',
         },
         {
           kind: 'commentary',
@@ -475,6 +475,41 @@ export const ACTS_22: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 22 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-tarsus',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Tarsus',
+      url: 'https://www.bibleodyssey.org/dictionary/tarsus/',
+      description: 'Open-access SBL entry on Tarsus, Paul&apos;s birthplace — a major Hellenistic city in Cilicia known for learning and trade.',
+    },
+    {
+      id: 'bibleodyssey-roman-citizen',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Roman Citizenship',
+      url: 'https://www.bibleodyssey.org/dictionary/roman-citizenship/',
+      description: 'Overview of civis Romanus sum status and how Roman law protected citizens from scourging and other abuses.',
+    },
+    {
+      id: 'intertextual-damascus-road',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Damascus Road Retold',
+      url: 'https://intertextual.bible/text/acts-9/acts-22',
+      description: 'Comparison of Paul&apos;s Damascus road encounter as recounted in Acts 9 and Acts 22, showing textual parallels and variations.',
+    },
+    {
+      id: 'theoi-roman-law',
+      kind: 'archive',
+      source: 'Theoi Classical Texts',
+      label: 'Roman Law: Scourging &amp; Citizenship',
+      url: 'https://www.theoi.com/Text/',
+      description: 'Primary sources on Roman legal protections for citizens and prohibitions against scourging the free-born.',
+    },
+  ],
 
   hasHebrew: true,
 };

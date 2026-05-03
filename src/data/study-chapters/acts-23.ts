@@ -153,7 +153,7 @@ export const ACTS_23: RichChapterContent = {
           kind: 'commentary',
           id: 'acts23-pharisee-claim',
           html:
-            'Paul identifies himself as a Pharisee — which is true. Before his conversion, he was a zealous Pharisee, trained under Gamaliel. But more importantly, he perceives the council&apos;s internal division. The Sadducees and Pharisees have fundamental disagreements about resurrection, angels, and the spirit. Paul does not appeal to this division from cynicism. He appeals to it because his case truly centers on the resurrection.',
+            'Paul identifies himself as a Pharisee — which is true. Before his conversion, he was a zealous Pharisee, trained under Gamaliel. But more importantly, he perceives the council&apos;s internal division. The Sadducees and Pharisees have fundamental disagreements about resurrection, angels, and the spirit[res:bibleodyssey-pharisees-sadducees]. Paul does not appeal to this division from cynicism. He appeals to it because his case truly centers on the resurrection.',
         },
         {
           kind: 'commentary',
@@ -174,7 +174,7 @@ export const ACTS_23: RichChapterContent = {
           kind: 'commentary',
           id: 'acts23-no-evil',
           html:
-            'The Pharisees, Paul&apos;s former brothers, suddenly find no evil in him. They have just heard him speak. They have not forgiven him. But they perceive that he is one of them in the deepest way — he believes what they believe about resurrection and the spirit world. So they pivot. They move from judge to defender. "If a spirit or an angel hath spoken to him, let us not fight against God." In an instant, the council that convened to condemn Paul becomes divided over whether he should be condemned at all.',
+            'The Pharisees, Paul&apos;s former brothers, suddenly find no evil in him. They have just heard him speak. They have not forgiven him. But they perceive that he is one of them in the deepest way — he believes what they believe about resurrection and the spirit world[res:bibleodyssey-sanhedrin]. So they pivot. They move from judge to defender. "If a spirit or an angel hath spoken to him, let us not fight against God." In an instant, the council that convened to condemn Paul becomes divided over whether he should be condemned at all.',
         },
         {
           kind: 'commentary',
@@ -457,7 +457,7 @@ export const ACTS_23: RichChapterContent = {
           kind: 'commentary',
           id: 'acts23-chiliarchos',
           html:
-            'Claudius Lysias, the chief captain (the Greek word is chiliarchos, commander of a thousand), acts with decisive authority. He mobilizes 470 soldiers — 200 foot soldiers, 70 cavalry, and 200 spearmen — to escort one prisoner to Caesarea. This is not the response of a man who thinks he is dealing with a religious dispute. This is the response of a Roman officer who understands that there is a genuine threat of assassination.',
+            'Claudius Lysias, the chief captain (the Greek word is chiliarchos, commander of a thousand), acts with decisive authority. He mobilizes 470 soldiers — 200 foot soldiers, 70 cavalry, and 200 spearmen — to escort one prisoner to Caesarea. This is not the response of a man who thinks he is dealing with a religious dispute. This is the response of a Roman officer who understands that there is a genuine threat of assassination[res:asor-jerusalem-archaeology]. The show of force itself is testimony to Rome&apos;s commitment to order in Jerusalem.',
         },
         {
           kind: 'greek',
@@ -534,7 +534,7 @@ export const ACTS_23: RichChapterContent = {
           kind: 'commentary',
           id: 'acts23-safe-passage',
           html:
-            'The soldiers deliver Paul safely to Caesarea. The foot soldiers return to Jerusalem after reaching Antipatris, some thirty miles south. The cavalry continues to Caesarea to deliver Paul to the governor. This is the machinery of Roman law functioning as designed. A citizen is arrested, the facts are reported to the proper authority, the prisoner is transferred, and the governor takes jurisdiction. There is nothing miraculous in these verses. But there is something providential: every step that was meant to end in Paul&apos;s death has been redirected toward his transfer to the seat of Roman authority.',
+            'The soldiers deliver Paul safely to Caesarea. The foot soldiers return to Jerusalem after reaching Antipatris, some thirty miles south[res:intertextual-acts-23-sanhedrin]. The cavalry continues to Caesarea to deliver Paul to the governor. This is the machinery of Roman law functioning as designed. A citizen is arrested, the facts are reported to the proper authority, the prisoner is transferred, and the governor takes jurisdiction. There is nothing miraculous in these verses. But there is something providential: every step that was meant to end in Paul&apos;s death has been redirected toward his transfer to the seat of Roman authority.',
         },
         {
           kind: 'commentary',
@@ -576,6 +576,41 @@ export const ACTS_23: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 23 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-pharisees-sadducees',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Pharisees and Sadducees',
+      url: 'https://www.bibleodyssey.org/dictionary/pharisees/',
+      description: 'Open-access SBL entries on the doctrinal divisions between Pharisees and Sadducees, especially their disagreement on resurrection and the spirit world.',
+    },
+    {
+      id: 'bibleodyssey-sanhedrin',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Sanhedrin',
+      url: 'https://www.bibleodyssey.org/dictionary/sanhedrin/',
+      description: 'SBL reference on the composition, authority, and procedures of the first-century Jewish council before which Paul stands trial.',
+    },
+    {
+      id: 'asor-jerusalem-archaeology',
+      kind: 'archaeology',
+      source: 'ASOR',
+      label: 'Jerusalem Archaeology & Antiquities',
+      url: 'https://www.asor.org/',
+      description: 'American Schools of Oriental Research — primary source for excavation data on first-century Jerusalem, Roman military presence, and the praetorium at Caesarea.',
+    },
+    {
+      id: 'intertextual-acts-23-sanhedrin',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Acts 23 & Sanhedrin Parallels',
+      url: 'https://www.intertextual.bible/text/acts-23',
+      description: 'Cross-textual intertextual connections showing how Acts 23&apos;s account of the Sanhedrin hearing relates to Old Testament and Second Temple Jewish sources.',
+    },
+  ],
 
   hasHebrew: false,
 };

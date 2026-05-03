@@ -96,7 +96,7 @@ export const ACTS_24: RichChapterContent = {
           kind: 'commentary',
           id: 'acts24-the-charge',
           html:
-            'The three accusations are stacked: Paul is a troublemaker, he stirs up sedition among Jews everywhere, he leads the heretical sect of the Nazarenes. Tertullus uses words calculated to frighten a Roman governor. A man who causes unrest throughout the empire is a threat to Rome. Sectarian religious activity is suspect. The charge is not "Paul believes something," but "Paul is an agitator and a threat to order."',
+            'The three accusations are stacked: Paul is a troublemaker, he stirs up sedition among Jews everywhere, he leads the heretical sect of the Nazarenes. Tertullus uses words calculated to frighten a Roman governor. A man who causes unrest throughout the empire is a threat to Rome. Sectarian religious activity is suspect. The charge is not "Paul believes something," but "Paul is an agitator and a threat to order." The procurator Felix himself would have wielded considerable power over such matters[res:bibleodyssey-felix-antonius], and Caesarea[res:bibleodyssey-caesarea] was the seat of that authority.',
         },
         {
           kind: 'greek',
@@ -182,7 +182,7 @@ export const ACTS_24: RichChapterContent = {
           kind: 'commentary',
           id: 'acts24-the-way',
           html:
-            'This is one of the most striking moments in Acts. Paul names his faith with the very word his enemies use against him. They call it "heresy" — a strange sect, a dangerous deviation. Paul says yes, that is what I am. But he redefines it: this "way" worships the God of Abraham, Isaac, and Jacob. It believes everything the law and prophets say. It is not a new religion; it is the continuation of Israel&apos;s faith, now opened to see that Jesus is the fulfillment the prophets promised. The word "heresy" loses its sting when Paul owns it and transforms it.',
+            'This is one of the most striking moments in Acts. Paul names his faith with the very word his enemies use against him. They call it "heresy" — a strange sect, a dangerous deviation. Paul says yes, that is what I am. But he redefines it: this "way"[res:bibleodyssey-the-way] worships the God of Abraham, Isaac, and Jacob. It believes everything the law and prophets say. It is not a new religion; it is the continuation of Israel&apos;s faith, now opened to see that Jesus is the fulfillment the prophets promised. The word "heresy" loses its sting when Paul owns it and transforms it.',
         },
         {
           kind: 'greek',
@@ -325,7 +325,7 @@ export const ACTS_24: RichChapterContent = {
           kind: 'commentary',
           id: 'acts24-faith-christ',
           html:
-            'Something shifts in this verse. Felix, with his wife Drusilla, asks to hear about faith in Christ. This is not the council. This is not an official proceeding. This is two people, seemingly curious, wanting to hear Paul explain what he actually believes. The private hearing becomes a moment of vulnerability.',
+            'Something shifts in this verse. Felix, with his wife Drusilla[res:bibleodyssey-drusilla], asks to hear about faith in Christ. This is not the council. This is not an official proceeding. This is two people, seemingly curious, wanting to hear Paul explain what he actually believes. The private hearing becomes a moment of vulnerability.',
         },
         {
           kind: 'commentary',
@@ -447,6 +447,41 @@ export const ACTS_24: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Acts 24 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'bibleodyssey-felix-antonius',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Antonius Felix',
+      url: 'https://www.bibleodyssey.org/dictionary/felix-antonius/',
+      description: 'Open-access SBL entry on the Roman procurator of Judaea whose portrait emerges through Josephus and Acts.',
+    },
+    {
+      id: 'bibleodyssey-caesarea',
+      kind: 'archaeology',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Caesarea',
+      url: 'https://www.bibleodyssey.org/dictionary/caesarea/',
+      description: 'SBL guide to the coastal city and Herod&apos;s praetorium where Paul stood trial before Felix.',
+    },
+    {
+      id: 'bibleodyssey-drusilla',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Drusilla',
+      url: 'https://www.bibleodyssey.org/dictionary/drusilla/',
+      description: 'Open-access entry on Felix&apos;s wife, daughter of Herod Agrippa I, who heard Paul speak at Caesarea.',
+    },
+    {
+      id: 'bibleodyssey-the-way',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'The Way',
+      url: 'https://www.bibleodyssey.org/dictionary/the-way/',
+      description: 'SBL lexicon entry on the early Christian self-designation Paul claims in his defence before Felix.',
+    },
+  ],
 
   hasHebrew: false,
 };
