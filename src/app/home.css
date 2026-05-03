@@ -50,14 +50,13 @@ html[data-reader-theme="dark"] {
   margin: 0 0 1.25rem;
 }
 
-/* ─── Buttons — Vesper liquid glass ──────────────────────────────────────
-   Every variant is now glass. The "solid" CTA isn't actually solid — it
-   reads as a glowing peach-into-gold pane lit from within, with an
-   inset white edge highlight on top and a warm ambient shadow below.
-   The "ghost" variant is the same recipe over photo (white-tinted
-   bloom). The "outline" variant is the same recipe over parchment
-   (paper-tinted bloom). All three share the inner-bottom radial bloom
-   that's the iOS Liquid Glass tell. */
+/* ─── Buttons — one unified white-frosted-glass pill ─────────────────────
+   The dashboard's "Reflect" pill set the language for the whole site:
+   a flat white frosted-glass pill with dark Compline text and a faint
+   white border. Every button on the home page now uses this single
+   recipe, regardless of whether it sits over a photo or parchment.
+   The three legacy variants (--solid, --ghost, --outline) all resolve
+   to the same look so existing markup keeps working. */
 .loc-btn {
   position: relative;
   display: inline-flex;
@@ -69,110 +68,50 @@ html[data-reader-theme="dark"] {
   font-size: 0.9375rem;
   font-weight: 600;
   text-decoration: none;
-  border: 1px solid transparent;
-  transition:
-    transform 0.18s cubic-bezier(0.2, 0.7, 0.2, 1),
-    box-shadow 0.22s ease,
-    background 0.22s ease,
-    border-color 0.18s ease,
-    color 0.18s ease;
   cursor: pointer;
   letter-spacing: 0.005em;
-  -webkit-backdrop-filter: blur(20px) saturate(180%);
-  backdrop-filter: blur(20px) saturate(180%);
+  /* The white-frost recipe. Mostly opaque so it reads on any surface,
+     with just enough translucency + blur to pick up the warmth of
+     whatever sits behind it. */
+  background: rgba(255, 255, 255, 0.86);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
+  backdrop-filter: blur(18px) saturate(140%);
+  color: var(--vesper-compline);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.6),
+    0 6px 18px -8px rgba(26, 22, 18, 0.18);
+  transition:
+    transform 0.18s cubic-bezier(0.2, 0.7, 0.2, 1),
+    background 0.2s ease,
+    border-color 0.18s ease,
+    box-shadow 0.2s ease;
   isolation: isolate;
 }
-
+.loc-btn:hover {
+  transform: translateY(-1px);
+  background: #FFFFFF;
+  border-color: #FFFFFF;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.7),
+    0 10px 24px -8px rgba(26, 22, 18, 0.22);
+}
 .loc-btn:active { transform: scale(0.97); }
-.loc-btn:hover { transform: translateY(-1px); }
 
-.loc-btn--solid {
-  background:
-    radial-gradient(ellipse 90% 120% at 50% 110%, color-mix(in srgb, var(--vesper-peach) 75%, transparent), transparent 70%),
-    radial-gradient(ellipse 70% 80% at 50% 0%, color-mix(in srgb, white 40%, transparent), transparent 70%),
-    color-mix(in srgb, var(--vesper-peach) 30%, transparent);
+/* All three legacy variants resolve to the same recipe — keeps existing
+   markup working without per-call edits. */
+.loc-btn--solid,
+.loc-btn--ghost,
+.loc-btn--outline { /* same as .loc-btn */ }
+
+/* Dark theme: white pill stays white — it's the brand. */
+html[data-reader-theme="dark"] .loc-btn {
+  background: rgba(255, 255, 255, 0.92);
+  border-color: rgba(255, 255, 255, 0.7);
   color: var(--vesper-compline);
-  border-color: color-mix(in srgb, white 50%, transparent);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.65),
-    inset 0 -10px 20px -10px rgba(232, 184, 148, 0.55),
-    0 14px 36px -12px rgba(200, 150, 74, 0.50),
-    0 2px 4px rgba(26, 22, 18, 0.06);
 }
-.loc-btn--solid:hover {
-  background:
-    radial-gradient(ellipse 90% 120% at 50% 110%, color-mix(in srgb, var(--vesper-gold) 70%, transparent), transparent 70%),
-    radial-gradient(ellipse 70% 80% at 50% 0%, color-mix(in srgb, white 50%, transparent), transparent 70%),
-    color-mix(in srgb, var(--vesper-peach) 35%, transparent);
-  border-color: color-mix(in srgb, white 65%, transparent);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.75),
-    inset 0 -12px 24px -10px rgba(232, 184, 148, 0.65),
-    0 18px 44px -12px rgba(200, 150, 74, 0.62),
-    0 2px 4px rgba(26, 22, 18, 0.06);
-}
-
-.loc-btn--ghost {
-  /* Used over the photographic hero — same liquid-glass recipe but
-     tinted toward white so it reads against dark backdrops. */
-  background:
-    radial-gradient(ellipse 90% 120% at 50% 110%, rgba(255, 255, 255, 0.20), transparent 70%),
-    radial-gradient(ellipse 80% 80% at 50% 0%, rgba(255, 255, 255, 0.15), transparent 75%),
-    rgba(255, 255, 255, 0.10);
-  color: #FFFFFF;
-  border-color: rgba(255, 255, 255, 0.32);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.45),
-    inset 0 -8px 18px -10px rgba(255, 255, 255, 0.18),
-    0 14px 36px -12px rgba(0, 0, 0, 0.30);
-}
-.loc-btn--ghost:hover {
-  background:
-    radial-gradient(ellipse 90% 120% at 50% 110%, rgba(255, 255, 255, 0.30), transparent 70%),
-    radial-gradient(ellipse 80% 80% at 50% 0%, rgba(255, 255, 255, 0.22), transparent 75%),
-    rgba(255, 255, 255, 0.16);
-  border-color: rgba(255, 255, 255, 0.55);
-}
-
-.loc-btn--outline {
-  /* Used over parchment — glass tinted toward warm cream with a faint
-     gold inner glow. */
-  background:
-    radial-gradient(ellipse 90% 120% at 50% 110%, color-mix(in srgb, var(--vesper-peach) 28%, transparent), transparent 70%),
-    radial-gradient(ellipse 80% 80% at 50% 0%, rgba(255, 255, 255, 0.55), transparent 75%),
-    color-mix(in srgb, var(--color-surface) 55%, transparent);
-  color: var(--vesper-compline);
-  border-color: color-mix(in srgb, var(--vesper-gold) 35%, transparent);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.55),
-    inset 0 -8px 18px -10px rgba(232, 184, 148, 0.30),
-    0 12px 30px -12px rgba(26, 22, 18, 0.14);
-}
-.loc-btn--outline:hover {
-  background:
-    radial-gradient(ellipse 90% 120% at 50% 110%, color-mix(in srgb, var(--vesper-peach) 38%, transparent), transparent 70%),
-    radial-gradient(ellipse 80% 80% at 50% 0%, rgba(255, 255, 255, 0.65), transparent 75%),
-    color-mix(in srgb, var(--color-surface) 70%, transparent);
-  color: var(--vesper-compline);
-  border-color: color-mix(in srgb, var(--vesper-gold) 55%, transparent);
-}
-
-/* Dark theme overrides — same glass formulas, tinted toward the
-   Cloister Indigo surface. */
-html[data-reader-theme="dark"] .loc-btn--solid {
-  background:
-    radial-gradient(ellipse 90% 120% at 50% 110%, color-mix(in srgb, var(--vesper-gold) 60%, transparent), transparent 70%),
-    radial-gradient(ellipse 70% 80% at 50% 0%, rgba(255, 255, 255, 0.18), transparent 70%),
-    color-mix(in srgb, var(--vesper-gold) 22%, transparent);
-  color: var(--vesper-parchment);
-  border-color: color-mix(in srgb, var(--vesper-gold) 55%, transparent);
-}
-html[data-reader-theme="dark"] .loc-btn--outline {
-  background:
-    radial-gradient(ellipse 90% 120% at 50% 110%, color-mix(in srgb, var(--vesper-gold) 22%, transparent), transparent 70%),
-    rgba(255, 255, 255, 0.06);
-  color: var(--vesper-parchment);
-  border-color: color-mix(in srgb, var(--vesper-gold) 35%, transparent);
+html[data-reader-theme="dark"] .loc-btn:hover {
+  background: #FFFFFF;
 }
 
 /* ─── 1. Hero — 100vh, bottom-aligned ───────────────────────────────── */
@@ -532,7 +471,6 @@ html[data-reader-theme="dark"] .loc-btn--outline {
   position: relative;
   display: block;
   overflow: hidden;
-  /* iOS-scale corner radius — softer than the previous 28px */
   border-radius: 28px;
   text-decoration: none;
   color: #FFFFFF;
@@ -540,23 +478,14 @@ html[data-reader-theme="dark"] .loc-btn--outline {
   background: var(--loc-ink);
   transition: transform 0.25s cubic-bezier(0.2, 0.7, 0.2, 1),
               box-shadow 0.25s ease;
-  /* Inset white edge highlight + warm bottom bloom — same Liquid
-     Glass tell as the buttons. The edge highlight catches light at
-     the top, the warm bloom lights the bottom interior. */
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.18),
-    inset 0 -16px 32px -16px rgba(232, 184, 148, 0.22),
-    0 1px 2px rgba(20, 14, 8, 0.08),
-    0 24px 50px -20px rgba(20, 14, 8, 0.30);
+  /* Quiet lift — the photo + veil do the work; no inner glow. */
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 14px 36px -18px rgba(26, 22, 18, 0.30);
 }
 
 .loc-today-card:hover {
   transform: translateY(-2px);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.22),
-    inset 0 -16px 32px -16px rgba(232, 184, 148, 0.28),
-    0 1px 2px rgba(20, 14, 8, 0.10),
-    0 32px 64px -20px rgba(20, 14, 8, 0.38);
+  box-shadow: 0 22px 48px -20px rgba(26, 22, 18, 0.40);
 }
 
 .loc-today-card__bg {
@@ -678,12 +607,20 @@ html[data-reader-theme="dark"] .loc-btn--outline {
 }
 
 /* ─── 3. Mission ────────────────────────────────────────────────────────
-   Vesper: Vellum (deeper parchment) band so it reads as a recessed
-   meditation space between Today and the stats. */
+   Atmospheric photo backdrop with a soft dark veil. The white-frosted
+   glass pane (.loc-mission__inner) sits over it and lets the photo
+   bleed through, mirroring the dashboard recipe. */
 .loc-mission {
-  background: var(--loc-paper-warm);
-  padding: var(--loc-section-y) 0;
   position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: var(--loc-section-y) 0;
+  background-image:
+    linear-gradient(180deg, rgba(26, 22, 18, 0.18), rgba(26, 22, 18, 0.32)),
+    url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=2400&q=85');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 /* Tiny gold separator above the mission to mark the section change. */
@@ -701,31 +638,24 @@ html[data-reader-theme="dark"] .loc-btn--outline {
 .loc-mission__inner {
   text-align: center;
   max-width: 56rem;
-  /* Wrap the mission copy in a giant glowing glass pane — same Liquid
-     Glass recipe as the buttons and stories, scaled up. */
+  /* Same flat white-frosted-glass pane as the dashboard cards, scaled
+     up. No inner bloom, no big shadow — quiet material. */
   position: relative;
   padding: clamp(2.5rem, 5vw, 4.5rem) clamp(1.75rem, 4vw, 3.5rem);
-  background:
-    radial-gradient(ellipse 80% 60% at 50% 100%, color-mix(in srgb, var(--vesper-peach) 28%, transparent), transparent 65%),
-    radial-gradient(ellipse 70% 50% at 50% 0%, rgba(255, 255, 255, 0.45), transparent 70%),
-    color-mix(in srgb, var(--color-surface) 60%, transparent);
-  -webkit-backdrop-filter: blur(28px) saturate(160%);
-  backdrop-filter: blur(28px) saturate(160%);
-  border: 1px solid color-mix(in srgb, white 32%, transparent);
+  background: rgba(255, 255, 255, 0.62);
+  -webkit-backdrop-filter: blur(28px) saturate(140%);
+  backdrop-filter: blur(28px) saturate(140%);
+  border: 1px solid rgba(255, 255, 255, 0.55);
   border-radius: 36px;
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.55),
-    inset 0 -16px 36px -18px rgba(232, 184, 148, 0.34),
-    0 28px 70px -24px rgba(20, 14, 8, 0.22);
+  color: var(--vesper-compline);
+  box-shadow: 0 14px 40px -18px rgba(26, 22, 18, 0.18);
   isolation: isolate;
 }
 
 html[data-reader-theme="dark"] .loc-mission__inner {
-  background:
-    radial-gradient(ellipse 80% 60% at 50% 100%, color-mix(in srgb, var(--vesper-gold) 22%, transparent), transparent 65%),
-    radial-gradient(ellipse 70% 50% at 50% 0%, rgba(255, 255, 255, 0.10), transparent 70%),
-    color-mix(in srgb, var(--color-surface) 60%, transparent);
-  border-color: color-mix(in srgb, white 14%, transparent);
+  background: color-mix(in srgb, var(--color-surface) 55%, transparent);
+  border-color: rgba(255, 255, 255, 0.10);
+  color: var(--vesper-parchment);
 }
 
 .loc-mission__title {
@@ -748,17 +678,20 @@ html[data-reader-theme="dark"] .loc-mission__inner {
 }
 
 /* ─── 4. Stats band ────────────────────────────────────────────────────
-   Vesper: Cloister Indigo surface, Vesper Gold numerals. Reads as a
-   quiet reverent strip, not a corporate metrics row. */
+   Atmospheric photo backdrop with a strong dark veil + Cloister Indigo
+   tint, so the gold numerals read as luminous against a deep
+   contemplative scene rather than a flat colored block. */
 .loc-stats {
-  background: var(--vesper-cloister);
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   color: var(--vesper-parchment);
   padding: clamp(3.5rem, 5vw, 5.5rem) 0;
-  /* Subtle radial glow centered on the band so it doesn't read as a
-     flat panel. */
   background-image:
-    radial-gradient(ellipse 80% 100% at 50% 0%, rgba(200, 150, 74, 0.10), transparent 60%),
-    linear-gradient(180deg, var(--vesper-cloister) 0%, #1F2238 100%);
+    linear-gradient(180deg, rgba(42, 47, 74, 0.78), rgba(21, 24, 42, 0.86)),
+    url('https://images.unsplash.com/photo-1465101162946-4377e57745c3?auto=format&fit=crop&w=2400&q=85');
+  background-size: cover;
+  background-position: center;
 }
 
 .loc-stats__grid {
@@ -959,40 +892,26 @@ html[data-reader-theme="dark"] .loc-mission__inner {
 }
 
 .loc-story {
+  /* Same flat-frosted recipe as the dashboard cards — white tint at
+     higher opacity so dark text reads on parchment. No inner glow. */
   position: relative;
   display: flex;
   flex-direction: column;
   padding: clamp(1.75rem, 3vw, 2.5rem) clamp(1.5rem, 2.5vw, 2rem);
-  /* Liquid glass with peach inner-bottom bloom — same recipe as the
-     buttons and .glass-card so all home surfaces feel like one
-     material. */
-  background:
-    radial-gradient(ellipse 100% 70% at 50% 100%, color-mix(in srgb, var(--vesper-peach) 22%, transparent), transparent 65%),
-    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(255, 255, 255, 0.40), transparent 70%),
-    color-mix(in srgb, var(--color-surface) 60%, transparent);
-  -webkit-backdrop-filter: blur(24px) saturate(160%);
-  backdrop-filter: blur(24px) saturate(160%);
-  border: 1px solid color-mix(in srgb, white 30%, transparent);
+  background: rgba(255, 255, 255, 0.62);
+  -webkit-backdrop-filter: blur(28px) saturate(140%);
+  backdrop-filter: blur(28px) saturate(140%);
+  border: 1px solid rgba(255, 255, 255, 0.55);
   border-radius: 28px;
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.55),
-    inset 0 -12px 28px -14px rgba(232, 184, 148, 0.30),
-    0 1px 2px rgba(20, 14, 8, 0.04),
-    0 22px 50px -22px rgba(20, 14, 8, 0.22);
-  transition: transform 0.25s cubic-bezier(0.2, 0.7, 0.2, 1),
-              box-shadow 0.25s ease,
-              border-color 0.2s ease;
+  color: var(--vesper-compline);
+  box-shadow: 0 10px 32px -16px rgba(26, 22, 18, 0.18);
+  transition: background 0.25s ease, border-color 0.2s ease;
   isolation: isolate;
 }
 
 .loc-story:hover {
-  transform: translateY(-2px);
-  border-color: color-mix(in srgb, var(--vesper-gold) 35%, transparent);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.65),
-    inset 0 -12px 28px -14px rgba(232, 184, 148, 0.40),
-    0 1px 2px rgba(20, 14, 8, 0.06),
-    0 30px 60px -22px rgba(20, 14, 8, 0.30);
+  background: rgba(255, 255, 255, 0.78);
+  border-color: rgba(255, 255, 255, 0.75);
 }
 
 .loc-story__mark {
@@ -1024,8 +943,17 @@ html[data-reader-theme="dark"] .loc-mission__inner {
 
 /* ─── 7. Blog ───────────────────────────────────────────────────────── */
 .loc-blog {
-  background: var(--color-bg);
+  /* Atmospheric photo backdrop, soft dark veil. The blog cards over it
+     are white-frosted with the photo bleeding through. */
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   padding: var(--loc-section-y) 0;
+  background-image:
+    linear-gradient(180deg, rgba(26, 22, 18, 0.30), rgba(26, 22, 18, 0.45)),
+    url('https://images.unsplash.com/photo-1499988921418-b7df40ff03f9?auto=format&fit=crop&w=2400&q=85');
+  background-size: cover;
+  background-position: center;
 }
 
 .loc-blog__head {
@@ -1043,21 +971,24 @@ html[data-reader-theme="dark"] .loc-mission__inner {
   font-size: clamp(1.75rem, 3.4vw, 2.5rem);
   line-height: 1.1;
   letter-spacing: -0.018em;
-  color: var(--color-label);
+  /* White text — the section now sits over a photo backdrop. */
+  color: #FFFFFF;
   margin: 0;
   text-wrap: balance;
 }
 
+.loc-blog .loc-eyebrow { color: var(--loc-gold-soft); }
+
 .loc-blog__see-all {
   font-size: 0.875rem;
   font-weight: 600;
-  color: var(--color-label);
+  color: rgba(255, 255, 255, 0.92);
   text-decoration: none;
   border-bottom: 1px solid currentColor;
   padding-bottom: 0.125rem;
   white-space: nowrap;
 }
-.loc-blog__see-all:hover { opacity: 0.7; }
+.loc-blog__see-all:hover { color: #FFFFFF; }
 
 .loc-blog__grid {
   display: grid;
@@ -1073,22 +1004,45 @@ html[data-reader-theme="dark"] .loc-mission__inner {
 }
 
 .loc-blog-card {
+  /* Same flat white-frosted-glass recipe as the story card. The image
+     sits inside; the glass wraps copy + image so the whole card reads
+     as one frosted pane. */
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  border-radius: var(--loc-radius-md);
+  border-radius: 24px;
   overflow: hidden;
-  transition: transform 0.25s cubic-bezier(0.2, 0.7, 0.2, 1);
+  background: rgba(255, 255, 255, 0.62);
+  -webkit-backdrop-filter: blur(28px) saturate(140%);
+  backdrop-filter: blur(28px) saturate(140%);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  color: var(--vesper-compline);
+  box-shadow: 0 10px 32px -16px rgba(26, 22, 18, 0.18);
+  transition: transform 0.25s cubic-bezier(0.2, 0.7, 0.2, 1),
+              background 0.2s ease,
+              border-color 0.2s ease;
 }
 
-.loc-blog-card:hover { transform: translateY(-3px); }
+.loc-blog-card:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.78);
+  border-color: rgba(255, 255, 255, 0.75);
+}
+
+html[data-reader-theme="dark"] .loc-blog-card {
+  background: color-mix(in srgb, var(--color-surface) 55%, transparent);
+  border-color: rgba(255, 255, 255, 0.10);
+  color: var(--vesper-parchment);
+}
 
 .loc-blog-card__media {
   aspect-ratio: 16 / 10;
   background: var(--color-separator);
-  border-radius: var(--loc-radius-md);
+  /* The card is itself rounded + clips overflow, so the media just
+     gets a soft top corner — no separate radius. */
+  border-radius: 0;
   overflow: hidden;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 .loc-blog-card__media img {
@@ -1103,7 +1057,7 @@ html[data-reader-theme="dark"] .loc-mission__inner {
 }
 
 .loc-blog-card__body {
-  padding: 0 0.25rem;
+  padding: 1.25rem 1.25rem 1.4rem;
 }
 
 .loc-blog-card__category {
@@ -1212,12 +1166,10 @@ html[data-reader-theme="dark"] .loc-story {
 }
 
 html[data-reader-theme="dark"] .loc-story {
-  /* Same liquid-glass recipe but tinted toward Cloister Indigo. */
-  background:
-    radial-gradient(ellipse 100% 70% at 50% 100%, color-mix(in srgb, var(--vesper-gold) 18%, transparent), transparent 65%),
-    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(255, 255, 255, 0.12), transparent 70%),
-    color-mix(in srgb, var(--color-surface) 60%, transparent);
-  border-color: color-mix(in srgb, white 12%, transparent);
+  /* Same recipe in dark mode — white text on a darker frosted card. */
+  background: color-mix(in srgb, var(--color-surface) 55%, transparent);
+  border-color: rgba(255, 255, 255, 0.10);
+  color: var(--vesper-parchment);
 }
 
 html[data-reader-theme="dark"] .loc-stats {
