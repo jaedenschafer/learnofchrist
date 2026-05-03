@@ -190,7 +190,7 @@ export const JEREMIAH_1: RichChapterContent = {
       label: 'Jeremiah',
       url: 'https://www.bibleodyssey.org/passages/main-articles/jeremiah/',
       description: 'Peer-reviewed SBL entry on the prophet Jeremiah and his historical context.',
-    }
+    },
     {
       id: 'sefaria-jeremiah-1',
       kind: 'study',

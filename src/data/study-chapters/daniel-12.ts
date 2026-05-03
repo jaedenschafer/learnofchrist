@@ -155,7 +155,7 @@ export const DANIEL_12: RichChapterContent = {
       label: 'Cyrus Cylinder',
       url: 'https://www.britishmuseum.org/collection/object/Y_EA90920',
       description: 'Persian edict of Cyrus authorizing return of exiled peoples (ca. 539 BCE), fulfilling Daniel&apos;s prophecy.',
-    }
+    },
     {
       id: 'sefaria-daniel-12',
       kind: 'study',

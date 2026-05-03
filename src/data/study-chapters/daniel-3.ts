@@ -140,7 +140,7 @@ export const DANIEL_3: RichChapterContent = {
       label: 'Ishtar Gate of Babylon',
       url: 'https://www.britishmuseum.org/collection/search?q=ishtar+gate',
       description: 'Reconstructed gate from ancient Babylon, showing the city&apos;s magnificence in Daniel&apos;s era.',
-    }
+    },
     {
       id: 'sefaria-daniel-3',
       kind: 'study',

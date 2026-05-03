@@ -143,7 +143,7 @@ export const DANIEL_5: RichChapterContent = {
       label: 'Daniel 7 ↔ Revelation 13 / Matthew 24',
       url: 'https://intertextual.bible/text/daniel-7/revelation-13',
       description: 'Side-by-side comparison of Daniel&apos;s apocalyptic visions and their NT fulfillment.',
-    }
+    },
     {
       id: 'sefaria-daniel-5',
       kind: 'study',

@@ -170,7 +170,7 @@ export const JEREMIAH_5: RichChapterContent = {
       label: 'Lachish Letters',
       url: 'https://www.imj.org.il/en/collections/lachish-letters',
       description: 'Ancient inscribed potsherds from the Judean siege of Lachish (587 BCE), contemporary with Jeremiah.',
-    }
+    },
     {
       id: 'sefaria-jeremiah-5',
       kind: 'study',

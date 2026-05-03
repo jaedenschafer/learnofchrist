@@ -300,7 +300,7 @@ export const JEREMIAH_27: RichChapterContent = {
       label: 'Jeremiah',
       url: 'https://www.sefaria.org/Jeremiah',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
-    }
+    },
     {
       id: 'sefaria-jeremiah-27',
       kind: 'study',

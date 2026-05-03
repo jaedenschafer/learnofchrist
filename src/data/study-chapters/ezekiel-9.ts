@@ -107,7 +107,7 @@ export const EZEKIEL_9: RichChapterContent = {
       label: 'Gog and Magog',
       url: 'https://www.bibleodyssey.org/dictionary/gog/',
       description: 'SBL entry on the mysterious Gog figure in Ezekiel and Revelation.',
-    }
+    },
     {
       id: 'sefaria-ezekiel-9',
       kind: 'study',

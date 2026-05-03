@@ -125,7 +125,7 @@ export const EZEKIEL_7: RichChapterContent = {
       label: 'Ezekiel Temple Vision ↔ Revelation 21-22',
       url: 'https://intertextual.bible/text/ezekiel-40/revelation-21',
       description: 'Side-by-side comparison of Ezekiel&apos;s temple vision and John&apos;s new creation.',
-    }
+    },
     {
       id: 'sefaria-ezekiel-7',
       kind: 'study',

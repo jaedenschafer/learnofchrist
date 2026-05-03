@@ -146,7 +146,7 @@ export const EZEKIEL_19: RichChapterContent = {
       label: 'Ezekiel',
       url: 'https://www.bibleodyssey.org/passages/main-articles/ezekiel/',
       description: 'Peer-reviewed SBL entry on the prophet Ezekiel and the Babylonian exile.',
-    }
+    },
     {
       id: 'sefaria-ezekiel-19',
       kind: 'study',

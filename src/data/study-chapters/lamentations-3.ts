@@ -195,7 +195,7 @@ export const LAMENTATIONS_3: RichChapterContent = {
       label: 'Lamentations',
       url: 'https://www.sefaria.org/Lamentations',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
-    }
+    },
     {
       id: 'sefaria-lamentations-3',
       kind: 'study',

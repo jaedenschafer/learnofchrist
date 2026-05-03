@@ -137,7 +137,7 @@ export const LAMENTATIONS_1: RichChapterContent = {
       label: 'Sumerian City Laments',
       url: 'https://www.britishmuseum.org/collection/object/Y_EA9319',
       description: 'ANE parallels to Lamentations: Sumerian lament poetry over destroyed cities.',
-    }
+    },
     {
       id: 'sefaria-lamentations-1',
       kind: 'study',

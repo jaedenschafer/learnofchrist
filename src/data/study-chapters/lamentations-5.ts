@@ -157,7 +157,7 @@ export const LAMENTATIONS_5: RichChapterContent = {
       label: 'Jerusalem Destruction (587 BCE)',
       url: 'https://www.imj.org.il/en/exhibitions/destruction-jerusalem-587',
       description: 'Archaeological evidence of Jerusalem&apos;s destruction by Nebuchadnezzar&apos;s forces.',
-    }
+    },
     {
       id: 'sefaria-lamentations-5',
       kind: 'study',

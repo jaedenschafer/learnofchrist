@@ -190,6 +190,11 @@ export default function StudyFilters({
                           setLevel(opt.id);
                           dd.setOpen(false);
                         }}
+                        // No title text — just the time. The visible
+                        // ordering (shortest → longest) carries the meaning.
+                        aria-label={`${opt.label} reading${
+                          minutes !== undefined ? ` (${minutes} minutes)` : ''
+                        }`}
                         className={`w-full text-left flex items-center gap-3 px-4 py-2 transition-colors ${
                           active
                             ? 'bg-[color:var(--vesper-gold)]/[0.06]'
@@ -204,19 +209,14 @@ export default function StudyFilters({
                           )}
                         </div>
                         <span
-                          className={`flex-1 text-[0.8125rem] font-semibold leading-tight ${
+                          className={`flex-1 text-[0.875rem] font-semibold leading-tight tabular-nums ${
                             active
                               ? 'text-[color:var(--color-primary)]'
                               : 'text-[color:var(--color-label)]'
                           }`}
                         >
-                          {opt.label}
+                          {minutes !== undefined ? `${minutes} min` : '—'}
                         </span>
-                        {minutes !== undefined && (
-                          <span className="text-[0.75rem] font-semibold text-[color:var(--color-secondary-label)] tabular-nums">
-                            {minutes}m
-                          </span>
-                        )}
                       </button>
                     );
                   })}

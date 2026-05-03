@@ -160,7 +160,7 @@ export const EZEKIEL_23: RichChapterContent = {
       label: 'Tyre Archaeology (Ezek 26-28)',
       url: 'https://www.imj.org.il/en',
       description: 'Archaeological record of ancient Tyre, subject of Ezekiel&apos;s prophecies.',
-    }
+    },
     {
       id: 'sefaria-ezekiel-23',
       kind: 'study',

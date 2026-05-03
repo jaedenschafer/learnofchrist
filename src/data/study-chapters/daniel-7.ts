@@ -143,7 +143,7 @@ export const DANIEL_7: RichChapterContent = {
       label: 'Daniel',
       url: 'https://www.sefaria.org/Daniel',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
-    }
+    },
     {
       id: 'sefaria-daniel-7',
       kind: 'study',

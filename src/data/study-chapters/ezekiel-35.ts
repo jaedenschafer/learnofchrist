@@ -131,7 +131,7 @@ export const EZEKIEL_35: RichChapterContent = {
       label: 'Ezekiel',
       url: 'https://www.sefaria.org/Ezekiel',
       description: 'Open-source Hebrew Bible with translations and medieval commentaries.',
-    }
+    },
     {
       id: 'sefaria-ezekiel-35',
       kind: 'study',
