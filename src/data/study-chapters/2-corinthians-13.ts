@@ -618,14 +618,6 @@ export const SECOND_CORINTHIANS_13: RichChapterContent = {
       description: 'Multi-version scholarly commentary on the trinitarian formula that closes 2 Corinthians, with textual parallels across Paul&apos;s writings.',
     },
     {
-      id: 'bibleodyssey-deuteronomy-blessing',
-      kind: 'study',
-      source: 'Bible Odyssey (SBL)',
-      label: 'Priestly Blessing and Apostolic Benediction',
-      url: 'https://www.bibleodyssey.org/dictionary/priestly-blessing/',
-      description: 'Open-access SBL entry connecting Numbers 6:24–26 to Paul&apos;s closing benediction as a fulfillment of the Aaronic pattern.',
-    },
-    {
       id: 'cambridge-examine-yourselves',
       kind: 'study',
       source: 'Cambridge UP',

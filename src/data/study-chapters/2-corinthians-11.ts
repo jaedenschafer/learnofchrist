@@ -939,14 +939,6 @@ export const SECOND_CORINTHIANS_11: RichChapterContent = {
       description: 'Open-access SBL entry on the rhetoric and tactics of false teachers that Paul confronts throughout his epistles.',
     },
     {
-      id: 'galatians-16-2corinthians-114-intertextual',
-      kind: 'study',
-      source: 'Intertextual Bible',
-      label: 'Galatians 1:6–9 ↔ 2 Corinthians 11:4',
-      url: 'https://intertextual.bible/text/galatians-1.6/2-corinthians-11.4',
-      description: 'Parallel passages showing Paul&apos;s consistent alarm at distortions of the gospel and the severity of his warnings against false doctrine.',
-    },
-    {
       id: 'cambridge-apostolic-suffering',
       kind: 'study',
       source: 'Cambridge UP',

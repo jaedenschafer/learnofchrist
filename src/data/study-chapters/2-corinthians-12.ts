@@ -47,14 +47,6 @@ export const SECOND_CORINTHIANS_12: RichChapterContent = {
       description: 'Open-access SBL entry on Jewish cosmology, the heavenly realms, and mystical visions of paradise that Paul experiences.',
     },
     {
-      id: '1thessalonians-417-2corinthians-122-intertextual',
-      kind: 'study',
-      source: 'Intertextual Bible',
-      label: '1 Thessalonians 4:17 ↔ 2 Corinthians 12:2',
-      url: 'https://intertextual.bible/text/1-thessalonians-4.17/2-corinthians-12.2',
-      description: 'Parallel passages on rapture and heavenly transport, connecting Paul&apos;s personal vision to his eschatological hope for all believers.',
-    },
-    {
       id: 'intertextual-thorn-weakness',
       kind: 'study',
       source: 'Intertextual Bible',

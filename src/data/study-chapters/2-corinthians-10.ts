@@ -577,14 +577,6 @@ export const SECOND_CORINTHIANS_10: RichChapterContent = {
       description: 'Open-access SBL entry on spiritual weapons and defensive armor in Ephesians 6, paralleling Paul&apos;s language of warfare in 2 Corinthians 10.',
     },
     {
-      id: 'ephesians-610-2corinthians-104-intertextual',
-      kind: 'study',
-      source: 'Intertextual Bible',
-      label: 'Ephesians 6:10–17 ↔ 2 Corinthians 10:4–5',
-      url: 'https://intertextual.bible/text/ephesians-6.10/2-corinthians-10.4',
-      description: 'Side-by-side comparison of Paul&apos;s cosmic warfare metaphors across both letters, showing how spiritual armor works against strongholds.',
-    },
-    {
       id: 'cambridge-strongholds-thought',
       kind: 'study',
       source: 'Cambridge UP',
