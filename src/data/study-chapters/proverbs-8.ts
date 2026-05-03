@@ -36,6 +36,17 @@ export const PROVERBS_8: RichChapterContent = {
             plain(4, 'Unto you, O men, I call; and my voice is to the sons of men.'),
             plain(5, 'O ye simple, understand wisdom: and, ye fools, be of an understanding heart.'),
             plain(6, 'Hear; for I will speak of excellent things; and the opening of my lips shall be right things.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov8-wisdom-public-call',
+          html: 'Wisdom is not hidden. She cries out in every public place—the high places, the gates, the city entry. She calls to everyone without distinction: "Unto you, O men, I call." Her voice is for all people, the simple and the fools alike. She does not whisper from a corner but proclaims her message publicly, urgently, with her whole voice.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 8,
+          lines: [
             plain(7, 'For my mouth shall speak truth; and wickedness is an abomination to my lips.'),
             plain(8, 'All the words of my mouth are in righteousness; there is nothing froward or perverse in them.'),
             plain(9, 'They are all plain to him that understandeth, and right to them that find knowledge.'),
@@ -46,7 +57,7 @@ export const PROVERBS_8: RichChapterContent = {
         {
           kind: 'commentary',
           id: 'prov8-wisdom-cries-out',
-          html: 'Wisdom is not hidden. She cries out in every public place—the high places, the gates, the city entry. She calls to everyone without distinction. Her voice is for all people. And what does she claim? That she speaks truth, that her words are righteous, that her instruction is more valuable than silver or gold. To learn from her is to trade lesser treasure for greater.',
+          html: 'What does wisdom claim? That she speaks truth, that her words are righteous, that her instruction is more valuable than silver or gold. To learn from her is to make an exchange: lesser treasure for greater. The world offers riches, status, pleasure. Wisdom offers something that endures—alignment with truth itself.',
         },
         {
           kind: 'scripture',

@@ -37,6 +37,18 @@ export const PROVERBS_4: RichChapterContent = {
             plain(5, 'Get wisdom, get understanding: forget it not; neither decline from the words of my mouth.'),
             plain(6, 'Forsake her not, and she shall preserve thee: love her, and she shall keep thee.'),
             plain(7, 'Wisdom is the principal thing; therefore get wisdom: and with all thy getting get understanding.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov4-principal-wisdom',
+          html:
+            'The heart of this passage is the bold declaration: "Wisdom is the principal thing." Not merely important or valuable—principal. Everything else comes second to the pursuit of understanding. The father speaks not as a theorist, but as one who has lived, who knows the consequences of wise and foolish choices.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 4,
+          lines: [
             plain(8, 'Exalt her, and she shall promote thee: she shall bring thee to honour, when thou dost embrace her.'),
             plain(9, 'She shall give to thine head an ornament of grace: a crown of glory shall she deliver to thee.'),
             plain(10, 'Hear, O my son, and receive my sayings; and the length of thy days shall be multiplied.'),

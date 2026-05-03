@@ -341,7 +341,7 @@ export const LEVITICUS_16: RichChapterContent = {
           kind: 'christ',
           id: 'christ-once-for-all',
           title: 'Christ Connection — Once for All',
-          html: 'The Day of Atonement comes once a year, year after year, forever. But it never ends the problem. The sins return. The people sin again. So the high priest must go in again next year, and the year after, without end. But Christ ends it. "Now once in the end of the world hath he appeared to put away sin by the sacrifice of himself... Christ was once offered to bear the sins of many" (Heb. 9:26-28). Jesus is the Day of Atonement that needs no repetition. He is the priest who enters once and finishes the work. The atonement is done. Not provisionally. Not year by year. Done. Finished. Complete.',
+          html: 'The Day of Atonement comes once a year, year after year, forever. But it never ends the problem. The sins return. The people sin again. So the high priest must go in again next year, and the year after, without end. But Christ ends it[res:intertextual-hebrews-9-leviticus-16]. "Now once in the end of the world hath he appeared to put away sin by the sacrifice of himself... Christ was once offered to bear the sins of many" (Heb. 9:26-28). Jesus is the Day of Atonement that needs no repetition[res:bibleodyssey-scapegoat]. He is the priest who enters once and finishes the work. The atonement is done. Not provisionally. Not year by year. Done. Finished. Complete.',
         },
         {
           kind: 'carry',
@@ -363,4 +363,31 @@ export const LEVITICUS_16: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Leviticus 16 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-leviticus-16',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 16 — Yom Kippur',
+      url: 'https://www.sefaria.org/Leviticus.16',
+      description: 'Extensive rabbinic commentary on the Day of Atonement, the two goats, and the high priest&apos;s entry into the Holy of Holies[res:sefaria-leviticus-16].',
+    },
+    {
+      id: 'bibleodyssey-scapegoat',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Scapegoat',
+      url: 'https://www.bibleodyssey.org/dictionary/scapegoat/',
+      description: 'Explanation of the azazel goat and how it symbolizes the removal of sin from the community[res:bibleodyssey-scapegoat].',
+    },
+    {
+      id: 'intertextual-hebrews-9-leviticus-16',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Leviticus 16 ↔ Hebrews 9–10',
+      url: 'https://intertextual.bible/text/leviticus-16/hebrews-9.1',
+      description: 'Side-by-side comparison showing how Hebrews reads Christ&apos;s atonement through the lens of Leviticus 16[res:intertextual-hebrews-9-leviticus-16].',
+    },
+  ],
 };

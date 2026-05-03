@@ -36,6 +36,17 @@ export const PROVERBS_6: RichChapterContent = {
             plain(4, 'Give not sleep to thine eyes, nor slumber to thine eyelids.'),
             plain(5, 'Deliver thyself as a roe from the hand of the hunter, and as a bird from the hand of the fowler.'),
             plain(6, 'Go to the ant, thou sluggard; consider her ways, and be wise:'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov6-surety-snare',
+          html: 'The chapter opens with a warning about becoming surety for a friend—placing yourself as collateral for another\'s debt. You speak the words, your hand seals the contract, and you are suddenly trapped. The entire passage is about how quickly we can ensnare ourselves through carelessness or overconfidence. But then comes the invitation: deliver yourself. Escape the trap you\'ve set.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(7, 'Which having no guide, overseer, or ruler,'),
             plain(8, 'Provideth her meat in the summer, and gathereth her food in the harvest.'),
             plain(9, 'How long wilt thou sleep, O sluggard? when wilt thou arise out of thy sleep?'),
@@ -125,6 +136,17 @@ export const PROVERBS_6: RichChapterContent = {
             plain(28, 'Can one go upon hot coals, and his feet not be burned?'),
             plain(29, 'So he that goeth in to his neighbour&apos;s wife; whosoever toucheth her shall not be innocent.'),
             plain(30, 'Men do not despise a thief, if he steal to satisfy his soul when he is hungry;'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov6-fire-bosom',
+          html: 'The imagery rises to vivid intensity. Can you hold fire in your lap without being burned? Can you walk on hot coals without your feet blistering? The answer is obvious. So it is with adultery. You cannot invite someone else\'s wife into your heart and your bed without being burned. The fire of desire consumes everything it touches. The end of that path is always destruction.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 6,
+          lines: [
             plain(31, 'But if he be found, he shall restore sevenfold; he shall give all the substance of his house.'),
             plain(32, 'But whoso committeth adultery with a woman lacketh understanding: he that doeth it destroyeth his own soul.'),
             plain(33, 'A wound and dishonour shall he get; and his reproach shall not be wiped away.'),

@@ -145,7 +145,7 @@ export const LEVITICUS_12: RichChapterContent = {
           kind: 'commentary',
           id: 'lev12-lamb-pigeon',
           html:
-            'The offering is specific: a lamb for the burnt offering (complete devotion), and a bird — pigeon or turtledove — for the sin offering. The whole of her is presented before God. Whatever guilt or separation the body carries, it is lifted by sacrifice.',
+            'The offering is specific: a lamb for the burnt offering (complete devotion), and a bird — pigeon or turtledove — for the sin offering[res:sefaria-leviticus-12]. The whole of her is presented before God. Whatever guilt or separation the body carries, it is lifted by sacrifice.',
         },
 
         {
@@ -190,7 +190,7 @@ export const LEVITICUS_12: RichChapterContent = {
           id: 'christ-lamb',
           title: 'Christ Connection — The Lamb and the Offering Mother',
           html:
-            'Luke 2:22–24 records Mary&apos;s obedience. Forty days after Jesus was born, she came to Jerusalem to present Him and to offer the sacrifice of purification. She brought two turtledoves — the offering of the poor. The Son of God was born into a family without resources for a lamb. And Mary brought her baby and her birds into the temple, "that a sword will pierce your own soul too" (Luke 2:35). What Mary did not know yet was that she was presenting the unblemished Lamb. Every lamb that had ever been offered was a shadow of the One she carried. She herself was the woman bringing the Lamb to the altar — not knowing that His blood would do for her what no sacrifice could ever fully do.',
+            'Luke 2:22–24 records Mary&apos;s obedience[res:intertextual-luke-2-leviticus-12]. Forty days after Jesus was born, she came to Jerusalem to present Him and to offer the sacrifice of purification. She brought two turtledoves — the offering of the poor[res:israel-museum-temple-sacrifice]. The Son of God was born into a family without resources for a lamb. And Mary brought her baby and her birds into the temple, "that a sword will pierce your own soul too" (Luke 2:35). What Mary did not know yet was that she was presenting the unblemished Lamb. Every lamb that had ever been offered was a shadow of the One she carried. She herself was the woman bringing the Lamb to the altar — not knowing that His blood would do for her what no sacrifice could ever fully do.',
         },
         {
           kind: 'carry',
@@ -216,6 +216,33 @@ export const LEVITICUS_12: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Leviticus 12 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-leviticus-12',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 12 — Postpartum Purity',
+      url: 'https://www.sefaria.org/Leviticus.12',
+      description: 'Rabbinic commentary on the timing and significance of postpartum purification and the offerings after childbirth[res:sefaria-leviticus-12].',
+    },
+    {
+      id: 'intertextual-luke-2-leviticus-12',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Leviticus 12 ↔ Luke 2:22–24',
+      url: 'https://intertextual.bible/text/leviticus-12/luke-2.22',
+      description: 'Side-by-side comparison of the law and Mary&apos;s obedience in presenting Jesus at the temple with the poor woman&apos;s offering[res:intertextual-luke-2-leviticus-12].',
+    },
+    {
+      id: 'israel-museum-temple-sacrifice',
+      kind: 'museum',
+      source: 'Israel Museum',
+      label: 'Temple Sacrifice Artifacts',
+      url: 'https://www.imj.org.il/',
+      description: 'Archaeological evidence of birds and lambs used in temple offerings, the physical context of Levitical purification[res:israel-museum-temple-sacrifice].',
+    },
+  ],
 
   hasHebrew: true,
 };

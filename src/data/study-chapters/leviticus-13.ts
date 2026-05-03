@@ -33,6 +33,33 @@ export const LEVITICUS_13: RichChapterContent = {
     ref: 'Leviticus 13 · Study Guide',
   },
 
+  resources: [
+    {
+      id: 'sefaria-leviticus-13',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 13 — Tzaraat and Priestly Diagnosis',
+      url: 'https://www.sefaria.org/Leviticus.13',
+      description: 'Detailed rabbinic commentary on the symptoms, examination protocol, and theological significance of skin affliction in Torah[res:sefaria-leviticus-13].',
+    },
+    {
+      id: 'bibleodyssey-leprosy',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Leprosy',
+      url: 'https://www.bibleodyssey.org/dictionary/leprosy/',
+      description: 'Overview of tzaraat conditions and NT accounts of Jesus healing lepers, contrasting ritual law with miraculous restoration[res:bibleodyssey-leprosy].',
+    },
+    {
+      id: 'intertextual-matthew-8-mark-1-leviticus-13',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Leviticus 13 ↔ Mark 1:40–45, Matthew 8:1–4',
+      url: 'https://intertextual.bible/text/leviticus-13/mark-1.40',
+      description: 'Side-by-side comparison of the Levitical isolation law and Jesus&apos; healing and cleansing of the leper[res:intertextual-matthew-8-mark-1-leviticus-13].',
+    },
+  ],
+
   sections: [
     /* ─── Leviticus 13:1–8 — Swelling, Scab, or Bright Spot ─────────────── */
     {
@@ -68,7 +95,7 @@ export const LEVITICUS_13: RichChapterContent = {
           script: 'צָרַעַת',
           translit: '<strong>tzaraat</strong> · a skin condition; broadly, an affliction',
           description:
-            'The word translated "leprosy" in older English. It covers a range of skin conditions — not just Hansen&apos;s disease, but psoriasis, fungal infection, eczema. The priest determines what is unclean, not the condition itself.',
+            'The word translated "leprosy" in older English[res:bibleodyssey-leprosy]. It covers a range of skin conditions — not just Hansen&apos;s disease, but psoriasis, fungal infection, eczema. The priest determines what is unclean, not the condition itself.',
         },
         {
           kind: 'commentary',
@@ -144,7 +171,7 @@ export const LEVITICUS_13: RichChapterContent = {
           id: 'lev13-clean',
           title: 'Christ Connection — Cleanness Flows from Him',
           html:
-            'In Matthew 8, a leper comes to Jesus and says, &ldquo;Lord, if thou wilt, thou canst make me clean.&rdquo; Under the Levitical law, anyone who touches a leper becomes unclean. But Jesus &ldquo;put forth his hand, and touched him, saying, I will; be thou clean.&rdquo; And the man was cleansed immediately. Cleanness did not come from separation or waiting seven days. It came from the touch of the One who cannot be made unclean. Jesus is the priest who declares people clean, and His touch is power, not contamination.',
+            'In Matthew 8, a leper comes to Jesus and says, &ldquo;Lord, if thou wilt, thou canst make me clean.&rdquo;[res:intertextual-matthew-8-mark-1-leviticus-13] Under the Levitical law, anyone who touches a leper becomes unclean. But Jesus &ldquo;put forth his hand, and touched him, saying, I will; be thou clean.&rdquo; And the man was cleansed immediately. Cleanness did not come from separation or waiting seven days. It came from the touch of the One who cannot be made unclean. Jesus is the priest who declares people clean, and His touch is power, not contamination.',
         },
 
         {
@@ -605,7 +632,7 @@ export const LEVITICUS_13: RichChapterContent = {
           id: 'lev13-alone',
           title: 'Christ Connection — The One Outside',
           html:
-            'The leper dwells alone, outside the camp — outside worship, outside the people of God. Hebrews 13:12 says of Jesus: &ldquo;Wherefore Jesus also, that he might sanctify the people with his own blood, suffered without the gate.&rdquo; Jesus is the One who went outside the camp. He became the unclean so the unclean could come home. Every person ever told they do not belong is looking at the face of the One who walked outside to meet them.',
+            'The leper dwells alone, outside the camp — outside worship, outside the people of God[res:sefaria-leviticus-13]. Hebrews 13:12 says of Jesus: &ldquo;Wherefore Jesus also, that he might sanctify the people with his own blood, suffered without the gate.&rdquo; Jesus is the One who went outside the camp. He became the unclean so the unclean could come home. Every person ever told they do not belong is looking at the face of the One who walked outside to meet them.',
         },
         {
           kind: 'carry',

@@ -262,7 +262,7 @@ export const LEVITICUS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'lev11-birds',
           html:
-            'The forbidden birds are not random. Nearly all of them are predators, carrion-eaters, or scavengers. Eagles and vultures tear living or dead flesh. Ravens and crows pick at carcases. Owls hunt in darkness. The pattern is clear: creatures that live by violence, that feed on death, that work in shadow are unclean. But notice who is <em>not</em> listed: no clean animals are named. The absence is deliberate. The point is not to catalog the permitted, but to make the Israelite familiar with the forbidden.',
+            'The forbidden birds are not random. Nearly all of them are predators, carrion-eaters, or scavengers[res:bibleodyssey-kosher]. Eagles and vultures tear living or dead flesh. Ravens and crows pick at carcases. Owls hunt in darkness. The pattern is clear: creatures that live by violence, that feed on death, that work in shadow are unclean. But notice who is <em>not</em> listed: no clean animals are named. The absence is deliberate. The point is not to catalog the permitted, but to make the Israelite familiar with the forbidden.',
         },
         {
           kind: 'hebrew',
@@ -523,7 +523,7 @@ export const LEVITICUS_11: RichChapterContent = {
           id: 'lev11-christ',
           title: 'Christ Connection — All Foods Cleansed',
           html:
-            'Mark 7:18–19 records Jesus&apos; stunning reversal: &ldquo;Perceive ye that whatsoever thing from without entereth into the man, it cannot defile him… Thus he declared all meats clean.&rdquo; What was unclean has been cleansed by His word, just as creation was spoken clean in Genesis 1. But the principle stands eternally: you are made holy not by what you eat, but by whom you eat with, whom you belong to, what you have faith in. Acts 10 shows Peter learning this through a vision — "What God hath cleansed, that call not thou common." Holiness in the new covenant is not about boundaries drawn around animals. It is about hearts cleansed by the blood of Christ.',
+            'Mark 7:18–19 records Jesus&apos; stunning reversal: &ldquo;Perceive ye that whatsoever thing from without entereth into the man, it cannot defile him… Thus he declared all meats clean.&rdquo;[res:intertextual-acts-10-mark-7] What was unclean has been cleansed by His word, just as creation was spoken clean in Genesis 1. But the principle stands eternally: you are made holy not by what you eat, but by whom you eat with, whom you belong to, what you have faith in. Acts 10 shows Peter learning this through a vision — "What God hath cleansed, that call not thou common." Holiness in the new covenant is not about boundaries drawn around animals. It is about hearts cleansed by the blood of Christ.',
         },
         {
           kind: 'hebrew',
@@ -538,7 +538,7 @@ export const LEVITICUS_11: RichChapterContent = {
           kind: 'commentary',
           id: 'lev11-holy',
           html:
-            'The word <em>holy</em> appears four times in these four verses. The repetition is relentless. "Ye shall be holy, for I am holy… ye shall be holy, for I am holy." It is not an option. It is not a suggestion for the zealous. It is the foundation of the covenant. The God who claimed Israel is holy, and therefore Israel must be holy. The food laws are one expression of that summons, but they are not the deepest expression. The deepest is the call to separate yourself from everything common, everything unclean, everything that would pull you from your God.',
+            'The word <em>holy</em> appears four times in these four verses. The repetition is relentless. "Ye shall be holy, for I am holy… ye shall be holy, for I am holy." It is not an option. It is not a suggestion for the zealous. It is the foundation of the covenant[res:sefaria-leviticus-11]. The God who claimed Israel is holy, and therefore Israel must be holy. The food laws are one expression of that summons, but they are not the deepest expression. The deepest is the call to separate yourself from everything common, everything unclean, everything that would pull you from your God.',
         },
         {
           kind: 'commentary',
@@ -573,6 +573,33 @@ export const LEVITICUS_11: RichChapterContent = {
     snippet: 'Leviticus 11 · Study Guide',
     ref: 'Leviticus 11:44',
   },
+
+  resources: [
+    {
+      id: 'sefaria-leviticus-11',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 11 — Kosher Laws',
+      url: 'https://www.sefaria.org/Leviticus.11',
+      description: 'Authoritative Jewish commentary and medieval interpretations on the dietary laws and categories of clean and unclean animals[res:sefaria-leviticus-11].',
+    },
+    {
+      id: 'bibleodyssey-kosher',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Kosher',
+      url: 'https://www.bibleodyssey.org/dictionary/kosher/',
+      description: 'Overview of kashrut laws, their biblical basis in Leviticus 11, and their role in Jewish identity and observance[res:bibleodyssey-kosher].',
+    },
+    {
+      id: 'intertextual-acts-10-mark-7',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Leviticus 11 ↔ Acts 10, Mark 7',
+      url: 'https://intertextual.bible/text/leviticus-11/acts-10.9',
+      description: 'Side-by-side comparison showing how Jesus and Peter reinterpreted the clean-unclean distinction for the new covenant[res:intertextual-acts-10-mark-7].',
+    },
+  ],
 
   hasHebrew: true,
 };

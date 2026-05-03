@@ -459,14 +459,6 @@ export const LEVITICUS_10: RichChapterContent = {
     },
   ],
 
-  bottomShare: {
-    label: 'Share Leviticus 10',
-    quote:
-      'Nadab and Abihu brought strange fire to the altar and died. God\'s holiness is not negotiable. Yet in His consuming fire and His silence, God remains God, and Aaron remains His priest.',
-    snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
-    ref: 'Leviticus 10 · Study Guide',
-  },
-
   resources: [
     {
       id: 'sbl-holiness-divine-judgment',

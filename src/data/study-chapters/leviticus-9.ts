@@ -416,14 +416,6 @@ export const LEVITICUS_9: RichChapterContent = {
     },
   ],
 
-  bottomShare: {
-    label: 'Share Leviticus 9',
-    quote:
-      'On the eighth day, the Lord appears in fire. The work of priestly consecration is complete. The sacrifice is accepted. The boundary between heaven and earth becomes visible — and the people, watching the fire fall, fall on their faces in awe.',
-    snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
-    ref: 'Leviticus 9 · Study Guide',
-  },
-
   resources: [
     {
       id: 'sbl-eighth-day-resurrection',

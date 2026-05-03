@@ -349,4 +349,31 @@ export const LEVITICUS_17: RichChapterContent = {
       ],
     },
   ],
+
+  resources: [
+    {
+      id: 'sefaria-leviticus-17',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 17 — Blood and Life',
+      url: 'https://www.sefaria.org/Leviticus.17',
+      description: 'Rabbinic teaching on the theological meaning of blood as the essence of life and its central role in atonement[res:sefaria-leviticus-17].',
+    },
+    {
+      id: 'bibleodyssey-blood-life',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Blood — The Life of the Flesh',
+      url: 'https://www.bibleodyssey.org/dictionary/blood/',
+      description: 'Overview of blood theology in scripture and how Leviticus 17 establishes blood as the mechanism of covenant atonement[res:bibleodyssey-blood-life].',
+    },
+    {
+      id: 'intertextual-1-peter-1-leviticus-17',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Leviticus 17:11 ↔ 1 Peter 1:18–19',
+      url: 'https://intertextual.bible/text/leviticus-17/1-peter-1.18',
+      description: 'Connection between Israel&apos;s blood atonement and redemption through the blood of Christ[res:intertextual-1-peter-1-leviticus-17].',
+    },
+  ],
 };

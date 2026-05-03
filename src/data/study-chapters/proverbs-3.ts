@@ -36,6 +36,18 @@ export const PROVERBS_3: RichChapterContent = {
             plain(4, 'So shalt thou find favour and good understanding in the sight of God and man.'),
             plain(5, 'Trust in the Lord with all thine heart; and lean not unto thine own understanding:'),
             plain(6, 'In all thy ways acknowledge him, and he shall direct thy paths.'),
+          ],
+        },
+        {
+          kind: 'commentary',
+          id: 'prov3-acknowledge-paths',
+          html:
+            'The call to trust with all your heart is balanced with the command to acknowledge Him in all your ways. This is not a contradiction. You submit your understanding to His, but you do not become passive. You actively acknowledge Him—you consult His wisdom, you bring your situation before Him, you seek His direction. And the promise is that He will direct your paths. Not eliminate your struggles, but guide you through them.',
+        },
+        {
+          kind: 'scripture',
+          chapter: 3,
+          lines: [
             plain(7, 'Be not wise in thine own eyes: fear the Lord, and depart from evil.'),
             plain(8, 'It shall be health to thy navel, and marrow to thy bones.'),
             plain(9, 'Honour the Lord with thy substance, and with the firstfruits of all thine increase:'),

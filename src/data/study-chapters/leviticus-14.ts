@@ -575,7 +575,7 @@ export const LEVITICUS_14: RichChapterContent = {
           id: 'christ-kindness',
           title: 'Christ Connection — The Way Home Is Shown',
           html:
-            'James 5:14–16 picks up the thread: "Is any sick among you? let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord... Confess your faults one to another, and pray one for another, that ye may be healed." The cleansing ritual of Leviticus is not abolished in the New Testament — it is localized and simplified, but the principle remains. <em>Healing is not a solitary thing. Restoration happens among witnesses. The community brings you home.</em> Jesus moves through His ministry making things clean — touching the leper (Matthew 8:3), who then can return to the priest. The eighth day and the resurrection day are the same day. New life. Re-entry. The pathway home made visible.',
+            'James 5:14–16 picks up the thread: "Is any sick among you? let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord... Confess your faults one to another, and pray one for another, that ye may be healed."[res:bibleodyssey-atonement-ritual] The cleansing ritual of Leviticus is not abolished in the New Testament — it is localized and simplified, but the principle remains. <em>Healing is not a solitary thing. Restoration happens among witnesses. The community brings you home.</em> Jesus moves through His ministry making things clean — touching the leper[res:intertextual-matthew-8-leviticus-14], who then can return to the priest. The eighth day and the resurrection day are the same day. New life. Re-entry. The pathway home made visible.',
         },
         {
           kind: 'carry',
@@ -592,6 +592,33 @@ export const LEVITICUS_14: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Leviticus 14 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-leviticus-14',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 14 — The Purification Ritual',
+      url: 'https://www.sefaria.org/Leviticus.14',
+      description: 'Detailed rabbinic commentary on the eight-day restoration ritual and the significance of the two birds in atonement[res:sefaria-leviticus-14].',
+    },
+    {
+      id: 'intertextual-matthew-8-leviticus-14',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Leviticus 14:2–3 ↔ Matthew 8:4',
+      url: 'https://intertextual.bible/text/leviticus-14/matthew-8.4',
+      description: 'Side-by-side comparison showing Jesus healing lepers and commanding them to go to the priest as Leviticus prescribes[res:intertextual-matthew-8-leviticus-14].',
+    },
+    {
+      id: 'bibleodyssey-atonement-ritual',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Atonement Ritual',
+      url: 'https://www.bibleodyssey.org/dictionary/atonement/',
+      description: 'Overview of sacrificial atonement in ancient Israel and how Leviticus 14 exemplifies restoration through blood and witness[res:bibleodyssey-atonement-ritual].',
+    },
+  ],
 
   hasHebrew: true,
 };

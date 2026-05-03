@@ -417,7 +417,7 @@ export const LEVITICUS_15: RichChapterContent = {
           id: 'christ-cleanness',
           title: 'Christ Connection — Cleanness Flows the Wrong Way',
           html:
-            'In Mark 5:25–34, a woman with a 12-year flow of blood touches Jesus&apos;s garment in a crowd. Under Leviticus 15, she has made everyone around her unclean. She is a walking tabernacle violation. But something reverses. Jesus says, &ldquo;Daughter, thy faith hath made thee whole.&rdquo; Instead of her uncleanness spreading to Him, His cleanness flows into her. The woman who should have been avoided becomes &ldquo;daughter.&rdquo; Jesus does not enforce the boundary between clean and unclean. He erases it—not by ignoring it, but by absorbing it into Himself. The direction of cleansing changes. It flows inward.',
+            'In Mark 5:25–34, a woman with a 12-year flow of blood touches Jesus&apos;s garment in a crowd[res:intertextual-mark-5-leviticus-15]. Under Leviticus 15, she has made everyone around her unclean. She is a walking tabernacle violation. But something reverses. Jesus says, &ldquo;Daughter, thy faith hath made thee whole.&rdquo; Instead of her uncleanness spreading to Him, His cleanness flows into her. The woman who should have been avoided becomes &ldquo;daughter.&rdquo; Jesus does not enforce the boundary between clean and unclean. He erases it—not by ignoring it, but by absorbing it into Himself[res:bibleodyssey-niddah]. The direction of cleansing changes. It flows inward.',
         },
         {
           kind: 'scripture',
@@ -441,7 +441,7 @@ export const LEVITICUS_15: RichChapterContent = {
           kind: 'commentary',
           id: 'lev15-law-summarized',
           html:
-            'Leviticus 15 closes by listing everyone the law has addressed. The male with discharge. The male with emission. The female with menstruation. The female with abnormal flow. Their partners. The law assumes all bodies, in all their normal function, require cleansing. No one is exempt. No one is clean by default. Everyone needs washing, waiting, and the path back to the holy through an offering brought by a priest.',
+            'Leviticus 15 closes by listing everyone the law has addressed[res:sefaria-leviticus-15]. The male with discharge. The male with emission. The female with menstruation. The female with abnormal flow. Their partners. The law assumes all bodies, in all their normal function, require cleansing. No one is exempt. No one is clean by default. Everyone needs washing, waiting, and the path back to the holy through an offering brought by a priest.',
         },
         {
           kind: 'carry',
@@ -470,6 +470,33 @@ export const LEVITICUS_15: RichChapterContent = {
     snippet: 'A chapter-by-chapter study guide from Learn of Christ.',
     ref: 'Leviticus 15 · Study Guide',
   },
+
+  resources: [
+    {
+      id: 'sefaria-leviticus-15',
+      kind: 'study',
+      source: 'Sefaria',
+      label: 'Leviticus 15 — Bodily Discharges',
+      url: 'https://www.sefaria.org/Leviticus.15',
+      description: 'Comprehensive rabbinic commentary on menstruation, male emissions, and the laws of ritual purity related to the body[res:sefaria-leviticus-15].',
+    },
+    {
+      id: 'intertextual-mark-5-leviticus-15',
+      kind: 'study',
+      source: 'Intertextual Bible',
+      label: 'Leviticus 15 ↔ Mark 5:25–34',
+      url: 'https://intertextual.bible/text/leviticus-15/mark-5.25',
+      description: 'Side-by-side comparison of the woman with the 12-year issue of blood and how Jesus reverses the flow of uncleanness to cleanness[res:intertextual-mark-5-leviticus-15].',
+    },
+    {
+      id: 'bibleodyssey-niddah',
+      kind: 'study',
+      source: 'Bible Odyssey (SBL)',
+      label: 'Niddah (Purity and Menstruation)',
+      url: 'https://www.bibleodyssey.org/dictionary/niddah/',
+      description: 'Explanation of menstrual impurity laws and their significance in Jewish life and theology[res:bibleodyssey-niddah].',
+    },
+  ],
 
   hasHebrew: true,
 };
