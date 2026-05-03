@@ -40,22 +40,21 @@ html[data-reader-theme="dark"] {
 /* ─── Section sizing — every section is its own full screen ─────────────
    Each home section fills 100svh (small viewport height — iOS-safe).
    Content is centered vertically inside via flex column. The hero
-   handles its own height directly. */
+   handles its own height directly via height: 100vh.
+   !important is intentional — per-section CSS lower in the file used
+   to set its own min-height for the closer + add per-section padding,
+   and we want the full-screen sizing to win over those legacy values. */
 .loc-dash,
 .loc-resources,
 .loc-showcase,
 .loc-mission,
 .loc-blog,
 .loc-closer {
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  min-height: 100svh !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
 }
-
-/* The arches band inside .loc-resources is wide and tall on its own;
-   give the section a little extra room. */
-.loc-resources { min-height: 100svh; }
 
 /* ─── Vesper Frost system — home page contexts ──────────────────────────
    The frost tokens, .frost-card / .frost-pill / .frost-circle / .frost-chip
@@ -1238,13 +1237,12 @@ html[data-reader-theme="dark"] {
 .loc-closer {
   position: relative;
   isolation: isolate;
-  min-height: 80vh;
-  display: flex;
+  /* Full-screen sizing comes from the section-sizing rule at the top
+     of the file; this block just sets the visual + alignment. */
   align-items: center;
-  justify-content: center;
   text-align: center;
   color: #FFFFFF;
-  padding: clamp(5rem, 10vw, 9rem) 0;
+  padding: clamp(3rem, 6vw, 5rem) 0;
   overflow: hidden;
 }
 
